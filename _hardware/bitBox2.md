@@ -5,10 +5,11 @@ authors:
 - leo
 - Joko Ono
 - Mohammad Rafigh
+- danny
 released: 
 discontinued: 
-updated: 2023-03-23
-version: 9.14.0
+updated: 2024-04-22
+version: 9.18.0
 binaries: https://github.com/digitalbitbox/bitbox02-firmware/releases
 dimensions:
 - 55
@@ -27,9 +28,19 @@ icon: bitBox2.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2023-05-22
+date: 2024-05-03
 signer: 
 reviewArchive:
+- date: 2023-10-10
+  version: 9.15.0
+  appHash: b2dfdc5413678f663639a34a5082f93ec253fd405313baca93291cab0a91233c
+  gitRevision: d66d0fd515637c34a79f6bb06588396047e59a9c
+  verdict: reproducible
+- date: 2023-05-22
+  version: 9.14.0
+  appHash: 06d61dffe90f79887567f7cbe34f19dc4c667c2919dab83ae9311a7c5bcbbeea
+  gitRevision: cd354fdd1752e9b967f08eb399ecfd7b7e9c2b72
+  verdict: reproducible
 - data: 2022-11-18
   version: 9.13.1
   appHash: 0f64c9ba01bb25500bfd3c96c133daa7da4a688234facbdd42a4f5e54d58e995
@@ -69,25 +80,31 @@ features:
 
 ---
 
-The reproducibility of firmware v9.14.0 has been confirmed.
-
-The [test script](/scripts/test/hardware/bitBox2.sh) yields a positive
-result:
+Our [test script](/scripts/test/hardware/bitBox2.sh) yields this result:
 
 ```
-$ scripts/test/hardware/bitBox2.sh 9.14.0
+$ scripts/test/hardware/bitBox2.sh 9.18.0
 ...
+Generating binary firmware-btc.bin
+   text	   data	    bss	    dec	    hex	filename
+ 548864	  19520	 191064	 759448	  b9698	firmware-btc.elf
+make[4]: Leaving directory '/bb02/build'
+[100%] Built target firmware-btc.elf
+make[3]: Leaving directory '/bb02/build'
+make[2]: Leaving directory '/bb02/build'
+make[1]: Leaving directory '/bb02/build'
 firmware.bin created at:
-/home/ws/wsTest/bitbox02-firmware/temp/build/bin/firmware.bin
+/home/dannybuntu/wsTest/bitbox02-firmware/temp/build/bin/firmware.bin
 or
-/home/ws/wsTest/bitbox02-firmware/temp/build/bin/firmware-btc.bin
+/home/dannybuntu/wsTest/bitbox02-firmware/temp/build/bin/firmware-btc.bin
 Hashes of
-signed download             e1b4db891bd2213192b5af424e94db1721d529ab38be5949ea6c2aa167f890c9  firmware-btc.v9.14.0.signed.bin
-signed download minus sig.  76dce068cebf0dc3002ab6452381eabd1d7ece447ad9e90ac7ec4a35d49cc576  p_firmware-btc.bin
-built binary                76dce068cebf0dc3002ab6452381eabd1d7ece447ad9e90ac7ec4a35d49cc576  temp/build/bin/firmware-btc.bin
-firmware as shown in device 06d61dffe90f79887567f7cbe34f19dc4c667c2919dab83ae9311a7c5bcbbeea
+signed download             13414426ac7f848d1f264059b82f4bb15e6dba03e178cbd46a8bda49ac9123db  firmware-btc.v9.18.0.signed.bin
+signed download minus sig.  ab7d70eb83e2f84cf940446ee56de4aec5d3d18f0cf69c2d65e46548ab5f992b  p_firmware-btc.bin
+built binary                ab7d70eb83e2f84cf940446ee56de4aec5d3d18f0cf69c2d65e46548ab5f992b  temp/build/bin/firmware-btc.bin
+firmware as shown in device 4563ad0cf73df26020989aa811ec326e2a670df25c15104ad0e3d66568aa9126
                             (The latter is a double sha256 over version,
                              firmware and padding)
+
 ```
 
-This version is **reproducible**.
+Version 9.18.0 is **reproducible**.

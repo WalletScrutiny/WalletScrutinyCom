@@ -9,7 +9,7 @@ appCountry:
 released: 2019-05-30
 updated: 2020-10-26
 version: '2.0'
-stars: 2.6
+stars: 2.9
 ratings: 
 reviews: 5
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.localcoinatm.Localcoin.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-06-02
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: 

@@ -8,8 +8,8 @@ users: 10000
 appId: jp.fcce.zaifapps
 appCountry: in
 released: 2020-05-07
-updated: 2023-06-07
-version: 1.1.21
+updated: 2023-10-05
+version: 1.1.23
 stars: 
 ratings: 
 reviews: 
@@ -19,16 +19,16 @@ repository:
 issue: 
 icon: jp.fcce.zaifapps.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-08-02
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: zaifdotjp
 social:
 - https://www.facebook.com/zaifdotjp
 redirect_from: 
-developerName: 株式会社カイカエクスチェンジ
+developerName: 株式会社Ｚａｉｆ
 features: 
 
 ---

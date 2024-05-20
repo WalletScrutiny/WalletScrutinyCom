@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.americancenturiongroup.borderless.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
-date: 2023-04-29
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: overlinenetwork

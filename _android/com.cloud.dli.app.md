@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cloud.dli.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-02
+date: 2024-05-06
 signer: 
 reviewArchive: 
 twitter: 

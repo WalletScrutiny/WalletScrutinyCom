@@ -7,9 +7,9 @@ users: 100
 appId: com.wootzapp.browser
 appCountry: 
 released: 2022-10-30
-updated: 2023-04-17
-version: 1.7.0
-stars: 
+updated: 2024-03-09
+version: 1.7.1
+stars: 4.3
 ratings: 
 reviews: 
 size: 

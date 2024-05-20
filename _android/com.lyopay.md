@@ -8,7 +8,7 @@ users: 10000
 appId: com.lyopay
 appCountry: eg
 released: 2020-10-02
-updated: 2023-05-19
+updated: 2023-08-10
 version: '1.1'
 stars: 
 ratings: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.lyopay.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-09-30
+date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: lyopayofficial

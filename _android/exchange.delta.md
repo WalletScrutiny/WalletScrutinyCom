@@ -4,13 +4,13 @@ title: 'Delta Exchange: Crypto Trading'
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: exchange.delta
 appCountry: nz
 released: 2021-05-07
-updated: 2023-06-21
-version: 1.9.0
-stars: 
+updated: 2023-12-08
+version: 1.10.0
+stars: 4
 ratings: 
 reviews: 
 size: 

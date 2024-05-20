@@ -8,11 +8,11 @@ appId: com.blockchain.exchangeapp
 appCountry: us
 idd: '1557515848'
 released: 2021-09-13
-updated: 2023-05-14
-version: 202305.1.1
-stars: 4.1
-reviews: 122
-size: '123325440'
+updated: 2024-02-15
+version: 202401.1.1
+stars: 3.8
+reviews: 159
+size: '124882944'
 website: https://exchange.blockchain.com/
 repository: 
 issue: 

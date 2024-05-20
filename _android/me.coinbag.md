@@ -9,7 +9,7 @@ appCountry:
 released: 2022-01-07
 updated: 2022-11-30
 version: '1.8'
-stars: 
+stars: 4.5
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: me.coinbag.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-02
+date: 2023-11-25
 signer: 
 reviewArchive: 
 twitter: 

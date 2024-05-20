@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.idbtec.otppaymerchant.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2021-09-01
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 

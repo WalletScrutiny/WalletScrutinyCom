@@ -9,7 +9,7 @@ appCountry:
 released: 2021-04-21
 updated: 2021-05-07
 version: '1.8'
-stars: 
+stars: 4.3
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.kryptox.app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-04-27
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

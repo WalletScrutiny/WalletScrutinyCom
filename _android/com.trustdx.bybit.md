@@ -18,8 +18,8 @@ repository:
 issue: 
 icon: com.trustdx.bybit.png
 bugbounty: 
-meta: defunct
-verdict: wip
+meta: removed
+verdict: fake
 date: 2021-09-02
 signer: 
 reviewArchive: 

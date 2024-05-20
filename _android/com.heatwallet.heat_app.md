@@ -3,11 +3,11 @@ wsId:
 title: Tulip Wallet
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: com.heatwallet.heat_app
 appCountry: 
 released: 
-updated: 2023-01-16
+updated: 2024-02-29
 version: VARY
 stars: 
 ratings: 
@@ -20,7 +20,7 @@ icon: com.heatwallet.heat_app.png
 bugbounty: 
 meta: ok
 verdict: fewusers
-date: 2023-06-02
+date: 2024-03-01
 signer: 
 reviewArchive: 
 twitter: 

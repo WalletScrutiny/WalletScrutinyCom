@@ -18,15 +18,15 @@ repository:
 issue: 
 icon: ge.mobility.emoney.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-06-02
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: eMoney IT Team
+developerName: eMoney Georgia
 features: 
 
 ---

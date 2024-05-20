@@ -9,7 +9,7 @@ appCountry:
 released: 2020-12-27
 updated: 2021-03-25
 version: 1.2.3 Release
-stars: 
+stars: 4.7
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitfairex.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-03-17
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

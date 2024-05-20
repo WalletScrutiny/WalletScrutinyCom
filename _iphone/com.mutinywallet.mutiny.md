@@ -1,0 +1,31 @@
+---
+wsId: mutiny
+title: Mutiny Wallet
+altTitle: 
+authors: 
+appId: com.mutinywallet.mutiny
+appCountry: us
+idd: '6471030760'
+released: 2024-03-01
+updated: 2024-05-14
+version: 1.7.1
+stars: 5
+reviews: 14
+size: '43698176'
+website: https://www.mutinywallet.com/
+repository: 
+issue: 
+icon: com.mutinywallet.mutiny.jpg
+bugbounty: 
+meta: ok
+verdict: wip
+date: 2024-03-07
+signer: 
+reviewArchive: 
+twitter: 
+social: 
+features: 
+developerName: Mutiny Wallet, Inc.
+
+---
+

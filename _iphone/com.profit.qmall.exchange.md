@@ -8,19 +8,19 @@ appId: com.profit.qmall.exchange
 appCountry: gb
 idd: '1600467380'
 released: 2021-12-21
-updated: 2023-06-19
-version: 1.1.43
+updated: 2023-09-06
+version: 1.1.48
 stars: 5
 reviews: 8
-size: '24501248'
+size: '24714240'
 website: https://qmall.io/
 repository: 
 issue: 
 icon: com.profit.qmall.exchange.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-02-25
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: QmallExchange

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.boquanhash.dotwallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-11-10
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: wallet_dot

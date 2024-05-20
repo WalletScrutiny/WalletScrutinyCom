@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitcoin.m.bitcoinera.official.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: wip
-date: 2023-06-03
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 

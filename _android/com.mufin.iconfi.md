@@ -10,18 +10,18 @@ appCountry:
 released: 2021-01-27
 updated: 2023-01-09
 version: 1.2.2
-stars: 4.6
+stars: 4.4
 ratings: 220
-reviews: 19
+reviews: 23
 size: 
 website: https://www.grow3.io
 repository: 
 issue: 
 icon: com.mufin.iconfi.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-11-03
+date: 2024-01-05
 signer: 
 reviewArchive: 
 twitter: ICONFiWorld

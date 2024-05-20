@@ -3,7 +3,7 @@ wsId:
 title: BCM Holdings
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.bcm.bcm_alpha_app
 appCountry: 
 released: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bcm.bcm_alpha_app.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-06-02
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.alamo.ex.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-06-03
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: 

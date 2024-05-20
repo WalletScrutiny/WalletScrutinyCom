@@ -4,15 +4,15 @@ title: 'TruBit Pro: Crypto Exchange'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: io.mexo.app
 appCountry: us
 released: 2020-08-30
-updated: 2023-06-28
-version: 3.3.4
-stars: 4
+updated: 2024-04-18
+version: 3.4.14
+stars: 3.6
 ratings: 401
-reviews: 26
+reviews: 19
 size: 
 website: http://www.mexo.io
 repository: 

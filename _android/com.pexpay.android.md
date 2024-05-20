@@ -10,18 +10,18 @@ appCountry:
 released: 2022-03-24
 updated: 2023-06-15
 version: 1.19.0
-stars: 4.1
+stars: 4.3
 ratings: 
-reviews: 7
+reviews: 8
 size: 
 website: https://www.pexpay.com/
 repository: 
 issue: 
 icon: com.pexpay.android.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-04-11
+date: 2023-09-15
 signer: 
 reviewArchive: 
 twitter: Pexpay_official

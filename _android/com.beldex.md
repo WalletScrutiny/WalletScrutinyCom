@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.beldex.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
 date: 2021-11-26
 signer: 

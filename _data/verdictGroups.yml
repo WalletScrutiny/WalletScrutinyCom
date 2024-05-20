@@ -5,7 +5,7 @@
   title: All tests passed.
   short: All tests passed
   abstract: Reproducibility
-  comment: The project either does not provide binaries or the binaries provided are provably generated from the source provided.
+  comment: The project either does not require binaries or the binaries provided are provably generated from the source provided.
 - key: codeIssues
   verdicts:
   - nonverifiable
@@ -14,7 +14,7 @@
   title: Build issues or source-code issues.
   short: Source-code available
   abstract: Verifiability
-  comment: Although code was provided, we could not verify that the binary provided was generated from it.
+  comment: Although some code was provided, we could not verify that the binary provided was generated from it.
 - key: custodials
   verdicts:
   - custodial
@@ -60,10 +60,12 @@
   - obsolete
   - defunct
   - discontinued
+  - deprecated
+  - removed
   title: Not relevant.
   short: Not relevant
   abstract: Usage statistics & relevance
-  comment: The product is not a BTC wallet or has little to no users.
+  comment: The product is not a BTC wallet, has little to no users, was not updated in a long time or is even defunct.
 - key: fakes
   verdicts:
   - fake

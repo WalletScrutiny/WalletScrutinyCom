@@ -9,7 +9,7 @@ appCountry:
 released: 2021-01-12
 updated: 2021-01-14
 version: 1.26.0
-stars: 
+stars: 4
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.gunthy.ex.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-01-05
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: 

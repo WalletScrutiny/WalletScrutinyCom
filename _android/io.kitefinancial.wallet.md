@@ -8,11 +8,11 @@ users: 10000
 appId: io.kitefinancial.wallet
 appCountry: 
 released: 2020-07-22
-updated: 2023-05-15
-version: 2.2.8
+updated: 2023-12-07
+version: 2.3.0
 stars: 2.6
 ratings: 
-reviews: 3
+reviews: 4
 size: 
 website: https://kitefinancial.io
 repository: 

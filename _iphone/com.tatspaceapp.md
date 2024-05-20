@@ -8,11 +8,11 @@ appId: com.tatspaceapp
 appCountry: us
 idd: '1629762278'
 released: 2022-06-21
-updated: 2023-06-16
-version: 1.16.0
-stars: 3.9
-reviews: 42
-size: '87532544'
+updated: 2024-01-06
+version: 1.17.6
+stars: 3.7
+reviews: 63
+size: '86277120'
 website: https://www.tatcoin.com
 repository: 
 issue: 

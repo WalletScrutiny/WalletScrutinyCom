@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.bitazure.wallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2022-07-31
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

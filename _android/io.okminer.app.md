@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: io.okminer.app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2021-11-02
 signer: 

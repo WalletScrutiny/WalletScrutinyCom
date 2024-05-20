@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: us.dt777.com.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: wip
-date: 2023-04-16
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 

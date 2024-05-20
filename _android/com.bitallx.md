@@ -3,13 +3,13 @@ wsId:
 title: Bitallx
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.bitallx
 appCountry: 
 released: 2021-12-09
 updated: 2022-01-15
 version: '1.4'
-stars: 
+stars: 5
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitallx.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-06-02
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

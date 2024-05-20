@@ -1,24 +1,21 @@
 {% assign folder = include.folder %}
-{% if include.store=='true' %}
+{% if include.store == 'true' %}
   {% case platform %}
     {% when "android" %}
       {% assign name = "Google Play" %}
-    {% when "fdroid" %}
-      {% assign name = "" %}
     {% when "iphone" %}
       {% assign name = "App Store" %}
     {% when "hardware" %}
       {% assign name = "" %}
     {% when "bearer" %}
       {% assign name = "" %}
-    {% when "windows" %}
-      {% assign name = "" %}
+    {% when "desktop" %}
+    {% assign name = "Desktop" %}
   {% endcase %}
 {% else %}
-
   {% if folder == 'iphone' %}
-  {% assign name = 'iPhone' %}
+    {% assign name = 'iPhone' %}
   {% else %}
-  {% assign name = folder | capitalize %}
+    {% assign name = folder | capitalize %}
   {% endif %}
 {% endif %}

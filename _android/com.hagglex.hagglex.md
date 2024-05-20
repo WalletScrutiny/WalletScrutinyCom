@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.hagglex.hagglex.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2022-12-17
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: hagglexintl

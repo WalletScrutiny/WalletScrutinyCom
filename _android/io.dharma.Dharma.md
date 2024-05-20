@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: io.dharma.Dharma.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
 date: 2022-03-07
 signer: 

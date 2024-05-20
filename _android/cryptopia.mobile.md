@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: cryptopia.mobile.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
-date: 2023-05-03
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 

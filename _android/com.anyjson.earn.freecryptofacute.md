@@ -12,16 +12,16 @@ updated: 2022-09-28
 version: '1.5 '
 stars: 3.3
 ratings: 
-reviews: 5
+reviews: 6
 size: 
 website: https://www.teamanyjson.com
 repository: 
 issue: 
 icon: com.anyjson.earn.freecryptofacute.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
-date: 2023-04-20
+date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: 

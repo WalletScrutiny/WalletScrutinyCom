@@ -13,14 +13,14 @@ version: 2.10.2
 stars: 3.3
 reviews: 9
 size: '30099456'
-website: https://www.crypto2cash.com/
+website: https://www.crypto2cash.com
 repository: 
 issue: 
 icon: com.c2c.B.V.Crypto2Cash.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosendreceive
-date: 2023-06-13
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: Crypto2CashHQ
@@ -30,7 +30,7 @@ social:
 - https://www.instagram.com/crypto2cashhq
 - https://www.linkedin.com/company/crypto2cash
 features: 
-developerName: C2C B.V.
+developerName: CtoC UAB
 
 ---
 

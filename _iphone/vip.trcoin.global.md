@@ -1,5 +1,5 @@
 ---
-wsId: coinTR
+wsId: coinTRPro
 title: 'CoinTR Pro: Buy BTC& ETH& MEME'
 altTitle: 
 authors:
@@ -8,11 +8,11 @@ appId: vip.trcoin.global
 appCountry: us
 idd: '6444928783'
 released: 2023-01-09
-updated: 2023-06-30
-version: 2.1.14
-stars: 4.9
-reviews: 43
-size: '118661120'
+updated: 2024-04-25
+version: 2.4.11
+stars: 4.7
+reviews: 15
+size: '141960192'
 website: 
 repository: 
 issue: 
@@ -20,19 +20,20 @@ icon: vip.trcoin.global.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-date: 2023-06-13
+date: 2023-07-03
 signer: 
 reviewArchive: 
-twitter: CoinTRTurkiye
+twitter: CoinTRpro
 social:
-- https://t.me/CoinTRTurkiye
+- https://www.cointr.pro
+- https://t.me/CoinTRPro
 - https://www.instagram.com/cointrturkiye
 - https://www.facebook.com/profile.php?id=100083113521452
 - https://www.youtube.com/channel/UCU2wOPdZ9mT2g3S2_wQcQQw
+- https://medium.com/@cointrbtc
 features: 
-developerName: COINTR FINTECH FINANSAL DANISMANLIK LIMITED SIRKETI
+developerName: CoinTR
 
 ---
 
 {% include copyFromAndroid.html %}
-

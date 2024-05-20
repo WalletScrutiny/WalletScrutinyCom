@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.chiji14xchange-.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2023-03-03
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: myrocketapp

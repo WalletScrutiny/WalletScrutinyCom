@@ -8,20 +8,20 @@ users: 100000
 appId: com.castor.threecommas
 appCountry: 
 released: 2018-03-02
-updated: 2023-06-21
-version: 2.4.4
-stars: 4.3
+updated: 2023-12-07
+version: 2.7.3
+stars: 4.4
 ratings: 
-reviews: 666
+reviews: 685
 size: 
 website: https://3commas.io
 repository: 
 issue: 
 icon: com.castor.threecommas.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
-date: 2022-06-29
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 3commas_io

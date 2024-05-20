@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ideal.studio.milly_crypto.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-06-02
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: 

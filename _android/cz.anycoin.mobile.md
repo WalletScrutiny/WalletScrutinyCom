@@ -4,12 +4,12 @@ title: 'Anycoin.cz: Crypto exchange'
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: cz.anycoin.mobile
 appCountry: 
 released: 2022-05-07
-updated: 2023-05-06
-version: 1.23.0
+updated: 2023-08-22
+version: 1.24.0
 stars: 
 ratings: 
 reviews: 

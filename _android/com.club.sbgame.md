@@ -4,7 +4,7 @@ title: SBG GLOBAL
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.club.sbgame
 appCountry: 
 released: 2022-02-01
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.club.sbgame.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-03-30
+date: 2024-03-30
 signer: 
 reviewArchive: 
 twitter: sbg_global

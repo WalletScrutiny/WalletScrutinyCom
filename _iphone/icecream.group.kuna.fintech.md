@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: icecream.group.kuna.fintech.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-09-15
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: KunaExchange

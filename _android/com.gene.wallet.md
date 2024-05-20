@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.gene.wallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2023-04-22
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: PARKGENE1

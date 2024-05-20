@@ -6,6 +6,7 @@ version=$1
 screen=$2
 buildHash=$3
 releaseHash=$4
+gitRevision="${5:-v$version}"
 dockerImage="foundation-devices/passport2:latest"
 
 # Set file name according to model specified
@@ -21,6 +22,7 @@ model=$2
 
 # Remove any previous build artifacts
 rm -rf /tmp/passport/
+docker image rm ${dockerImage}
 
 # Prepare the directory for building Passport's firmware
 mkdir /tmp/passport
@@ -32,10 +34,10 @@ wget -q --show-progress https://github.com/Foundation-Devices/passport2/releases
 # Clone the specified release branch
 git clone https://github.com/Foundation-Devices/passport2.git
 cd passport2
-git checkout v${version}
+git checkout ${gitRevision}
 
 # Build the Docker image used for building firmware reproducibly
-docker build -t ${dockerImage} .
+docker build --no-cache -t ${dockerImage} .
 
 # Build mpy-cross within the Docker image
 docker run --rm \
@@ -89,8 +91,3 @@ binaryHash=($(sha256sum ports/stm32/build-Passport/firmware-${model^^}.bin))
 echo "Expected v${version} build hash:"
 echo $binaryHash
 echo "$binaryHash no-header-${fileName}" | sha256sum --check
-
-# Cleanup all build artifacts and Docker image
-cd ~
-rm -rf /tmp/passport/
-docker image rm foundation-devices/passport2:latest

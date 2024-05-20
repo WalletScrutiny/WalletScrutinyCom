@@ -8,20 +8,20 @@ users: 100000
 appId: com.pillow.fund
 appCountry: 
 released: 2022-02-03
-updated: 2023-06-26
+updated: 2023-07-31
 version: '4.0'
-stars: 4.4
+stars: 4.3
 ratings: 
-reviews: 66
+reviews: 68
 size: 
 website: https://www.pillow.fund/
 repository: 
 issue: 
 icon: com.pillow.fund.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-06-13
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: PillowFund

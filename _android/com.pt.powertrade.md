@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: powerTrade
 title: PowerTrade
 altTitle: 
 authors:
@@ -10,7 +10,7 @@ appCountry:
 released: 2021-07-27
 updated: 2023-04-24
 version: 2.2.1
-stars: 
+stars: 3.7
 ratings: 
 reviews: 
 size: 
@@ -19,12 +19,12 @@ repository:
 issue: 
 icon: com.pt.powertrade.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-06-02
+date: 2024-04-18
 signer: 
 reviewArchive: 
-twitter: 
+twitter: powertradehq
 social: 
 redirect_from: 
 developerName: PowerTrade

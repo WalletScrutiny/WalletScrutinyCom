@@ -3,12 +3,12 @@ wsId:
 title: Coinbox Wallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: io.coinbox.bankwallet
 appCountry: 
 released: 2022-08-30
-updated: 2023-01-18
-version: 0.26.3
+updated: 2023-09-13
+version: 0.26.4.0
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.coinbox.bankwallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-06-03
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

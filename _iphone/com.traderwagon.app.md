@@ -8,19 +8,19 @@ appId: com.traderwagon.app
 appCountry: sg
 idd: '1605104202'
 released: 2022-02-21
-updated: 2023-06-30
-version: 1.8.0
+updated: 2023-07-25
+version: 1.9.0
 stars: 5
-reviews: 6
-size: '117152768'
+reviews: 11
+size: '116460544'
 website: https://www.traderwagon.com/
 repository: 
 issue: 
 icon: com.traderwagon.app.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
-date: 2023-04-12
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: traderwagon

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: pl.icoindeal.CoinDeal.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-05-10
 signer: 

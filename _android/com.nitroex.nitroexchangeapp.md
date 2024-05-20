@@ -8,16 +8,16 @@ users: 10000
 appId: com.nitroex.nitroexchangeapp
 appCountry: tt
 released: 2021-06-23
-updated: 2023-07-03
-version: 2.2.6
-stars: 4.3
+updated: 2024-03-08
+version: 3.2.0
+stars: 4.1
 ratings: 231
-reviews: 160
+reviews: 169
 size: 
 website: https://www.nitroex.io/
 repository: 
 issue: 
-icon: com.nitroex.nitroexchangeapp.jpg
+icon: com.nitroex.nitroexchangeapp.png
 bugbounty: 
 meta: ok
 verdict: custodial

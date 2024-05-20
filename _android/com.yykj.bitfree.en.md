@@ -10,18 +10,18 @@ appCountry:
 released: 2019-01-26
 updated: 2023-01-31
 version: 4.1.3
-stars: 3.9
+stars: 4
 ratings: 
-reviews: 13
+reviews: 20
 size: 
 website: 
 repository: 
 issue: 
 icon: com.yykj.bitfree.en.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-06-14
+date: 2024-01-28
 signer: 
 reviewArchive: 
 twitter: bitfree_us

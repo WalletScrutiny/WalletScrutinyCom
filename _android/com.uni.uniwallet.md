@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.uni.uniwallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2021-12-29
 signer: 

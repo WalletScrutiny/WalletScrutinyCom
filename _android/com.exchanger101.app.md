@@ -4,15 +4,15 @@ title: Exchanger101
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.exchanger101.app
 appCountry: 
 released: 2021-09-30
-updated: 2023-04-16
-version: 1.15.27
+updated: 2024-02-23
+version: 1.18.12
 stars: 4.3
 ratings: 
-reviews: 3
+reviews: 6
 size: 
 website: https://exchanger101.com
 repository: 

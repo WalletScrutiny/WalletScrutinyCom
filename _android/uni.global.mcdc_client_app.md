@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: UNi.Global
+title: 'UNi.Global: Web3 APP & Card'
 altTitle: 
 authors: 
 users: 100
 appId: uni.global.mcdc_client_app
 appCountry: 
 released: 2022-01-24
-updated: 2023-01-30
-version: 2.0.1
+updated: 2024-04-15
+version: 4.0.2
 stars: 
 ratings: 
 reviews: 

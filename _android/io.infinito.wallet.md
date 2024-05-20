@@ -10,18 +10,18 @@ appCountry:
 released: 2017-11-15
 updated: 2022-09-06
 version: 2.36.16
-stars: 3.8
+stars: 3.7
 ratings: 2198
-reviews: 107
+reviews: 109
 size: 
 website: https://www.infinitowallet.io
 repository: 
 issue: 
 icon: io.infinito.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2020-03-30
+date: 2023-09-02
 signer: 
 reviewArchive: 
 twitter: Infinito_Ltd

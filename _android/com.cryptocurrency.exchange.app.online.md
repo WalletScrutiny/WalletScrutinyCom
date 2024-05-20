@@ -12,16 +12,16 @@ updated: 2021-05-20
 version: '1.0'
 stars: 4
 ratings: 151
-reviews: 21
+reviews: 20
 size: 
 website: http://cryptocurrency-exchange.site
 repository: 
 issue: 
 icon: com.cryptocurrency.exchange.app.online.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
-date: 2023-05-21
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

@@ -7,9 +7,9 @@ users: 100
 appId: eu.cryptomerchant.pos
 appCountry: 
 released: 2019-03-04
-updated: 2021-04-28
-version: '1.3'
-stars: 
+updated: 2023-10-19
+version: '1.6'
+stars: 5
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: eu.cryptomerchant.pos.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: fewusers
-date: 2023-06-02
+date: 2023-10-22
 signer: 
 reviewArchive: 
 twitter: 

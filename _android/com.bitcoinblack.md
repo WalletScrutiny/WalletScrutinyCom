@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: HauteBlack®
+title: bblack®
 altTitle: 
 authors: 
 users: 100
 appId: com.bitcoinblack
 appCountry: 
 released: 2022-09-21
-updated: 2023-06-30
-version: '1.8'
+updated: 2024-05-01
+version: 2.7.7
 stars: 
 ratings: 
 reviews: 
@@ -16,7 +16,7 @@ size:
 website: https://www.bitcoinblackcreditcard.com
 repository: 
 issue: 
-icon: com.bitcoinblack.png
+icon: com.bitcoinblack.jpg
 bugbounty: 
 meta: ok
 verdict: fewusers
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: BitcoinBlackCreditCard
+developerName: North York LTD
 features: 
 
 ---

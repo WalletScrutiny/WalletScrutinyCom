@@ -3,13 +3,13 @@ wsId:
 title: SMART VALOR - Buy BTC & Crypto
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.smartvalor.smartvalor
 appCountry: 
 released: 
-updated: 2023-05-25
-version: 1.0.2.69
-stars: 
+updated: 2024-04-03
+version: 1.0.20.100
+stars: 4.2
 ratings: 
 reviews: 
 size: 

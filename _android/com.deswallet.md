@@ -9,7 +9,7 @@ appCountry:
 released: 2020-03-04
 updated: 2020-03-12
 version: '1.1'
-stars: 
+stars: 4.3
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.deswallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-06-22
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: 

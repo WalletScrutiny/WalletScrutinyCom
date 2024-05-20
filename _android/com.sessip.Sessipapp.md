@@ -12,22 +12,22 @@ updated: 2022-12-10
 version: VARY
 stars: 3.8
 ratings: 
-reviews: 8
+reviews: 9
 size: 
 website: https://sessip.com
 repository: 
 issue: 
 icon: com.sessip.Sessipapp.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-02-10
+date: 2023-12-13
 signer: 
 reviewArchive: 
 twitter: sessipapp
 social: 
 redirect_from: 
-developerName: Ghislain IRIE
+developerName: Sessip
 features: 
 
 ---

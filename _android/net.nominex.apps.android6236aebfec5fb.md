@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: net.nominex.apps.android6236aebfec5fb.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-01-02
 signer: 

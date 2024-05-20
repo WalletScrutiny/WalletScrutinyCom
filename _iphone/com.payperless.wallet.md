@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.payperless.wallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2022-04-11
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: Payperlesscom

@@ -8,19 +8,19 @@ appId: com.union.cash
 appCountry: us
 idd: '1576165600'
 released: 2021-07-14
-updated: 2023-03-09
-version: '1.32'
-stars: 4.7
-reviews: 25
-size: '136509440'
+updated: 2024-04-07
+version: '1.40'
+stars: 4.5
+reviews: 31
+size: '156867584'
 website: https://union.cash
 repository: 
 issue: 
 icon: com.union.cash.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-07
+verdict: custodial
+date: 2023-11-17
 signer: 
 reviewArchive: 
 twitter: 

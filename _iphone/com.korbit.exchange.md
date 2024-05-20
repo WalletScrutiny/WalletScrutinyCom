@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.korbit.exchange.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-05-30
 signer: 

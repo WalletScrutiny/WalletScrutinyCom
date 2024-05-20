@@ -10,7 +10,7 @@ appCountry:
 released: 2019-01-20
 updated: 2021-08-02
 version: 1.1.1
-stars: 
+stars: 4.2
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bitholic.rdmchain.bitholic.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2022-11-02
+date: 2023-07-25
 signer: 
 reviewArchive: 
 twitter: 

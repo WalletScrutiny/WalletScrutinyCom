@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.plue_wallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2022-10-21
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

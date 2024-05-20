@@ -10,18 +10,18 @@ appCountry:
 released: 2020-01-06
 updated: 2022-10-17
 version: 1.0.103
-stars: 4.1
+stars: 4
 ratings: 22040
-reviews: 4592
+reviews: 4595
 size: 
 website: http://pro.coinbase.com/
 repository: 
 issue: 
 icon: com.coinbase.pro.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2020-05-29
+date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: CoinbasePro

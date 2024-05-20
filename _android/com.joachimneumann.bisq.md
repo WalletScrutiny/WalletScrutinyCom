@@ -4,7 +4,7 @@ title: Bisq Notifications
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.joachimneumann.bisq
 appCountry: 
 released: 2018-09-06
@@ -19,9 +19,9 @@ repository: https://github.com/bisq-network/bisqremote_Android
 issue: 
 icon: com.joachimneumann.bisq.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-04-07
+date: 2023-12-13
 signer: 
 reviewArchive: 
 twitter: devinbileck

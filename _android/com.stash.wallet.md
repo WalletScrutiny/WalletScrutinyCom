@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.stash.wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2021-11-26
 signer: 

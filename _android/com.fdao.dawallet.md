@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.fdao.dawallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2022-10-21
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

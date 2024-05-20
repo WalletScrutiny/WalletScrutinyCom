@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.coinfib.coinfibmobile.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-03-29
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

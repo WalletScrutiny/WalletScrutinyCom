@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.shijihaian.demotrader.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
-date: 2022-12-17
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: 

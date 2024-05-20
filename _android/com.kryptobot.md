@@ -9,7 +9,7 @@ appCountry:
 released: 2019-06-07
 updated: 2021-01-15
 version: 1.1.4
-stars: 
+stars: 3.5
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.kryptobot.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-06-02
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

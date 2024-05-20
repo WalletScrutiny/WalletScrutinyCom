@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.khodo.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nowallet
 date: 2022-02-10
 signer: 

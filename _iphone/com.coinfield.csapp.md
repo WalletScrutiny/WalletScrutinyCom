@@ -10,17 +10,17 @@ idd: 1460170928
 released: 2019-05-21
 updated: 2022-12-20
 version: 3.1.5
-stars: 4.3
-reviews: 545
+stars: 4.2
+reviews: 555
 size: '65037312'
 website: https://www.coinfield.com/company/pr
 repository: 
 issue: 
 icon: com.coinfield.csapp.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2022-12-21
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: CoinFieldEx

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.xchaino.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2023-06-10
+date: 2023-09-15
 signer: 
 reviewArchive: 
 twitter: exchaino

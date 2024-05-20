@@ -8,19 +8,19 @@ appId: com.simplehold.app
 appCountry: gb
 idd: '1589064973'
 released: 2021-12-14
-updated: 2023-02-23
-version: '1.21'
+updated: 2023-07-25
+version: '1.23'
 stars: 1
 reviews: 2
-size: '66384896'
+size: '66465792'
 website: https://simplehold.io/
 repository: 
 issue: 
 icon: com.simplehold.app.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2023-04-11
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: SimpleHold

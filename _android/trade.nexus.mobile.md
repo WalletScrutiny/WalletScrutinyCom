@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: trade.nexus.mobile.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2022-06-23
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: 

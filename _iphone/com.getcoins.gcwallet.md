@@ -8,11 +8,11 @@ appId: com.getcoins.gcwallet
 appCountry: us
 idd: '1426011288'
 released: 2018-08-18
-updated: 2023-04-26
-version: 15.2.0
+updated: 2023-07-27
+version: 15.3.0
 stars: 2.5
-reviews: 13
-size: '61375488'
+reviews: 16
+size: '61759488'
 website: https://getcoins.com/
 repository: 
 issue: 

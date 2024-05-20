@@ -10,36 +10,41 @@ users: 10000
 appId: com.velas.mobile_wallet
 appCountry: us
 released: 2020-11-17
-updated: 2023-04-07
-version: 2.3.9
+updated: 2024-01-31
+version: 2.3.19
 stars: 3.9
 ratings: 545
-reviews: 22
+reviews: 23
 size: 
 website: https://velas.com
-repository: https://github.com/velas/mobile-wallet
-issue: https://github.com/velas/mobile-wallet/issues/139
+repository: 
+issue: 
 icon: com.velas.mobile_wallet.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
-date: 2022-03-11
+verdict: nosource
+date: 2023-10-31
 signer: 
 reviewArchive:
-- date: 2021-11-17
+- date: 2022-03-11
   version: 2.2.7
   appHash: 
-  gitRevision: 6539923871075f8b229d39c5c4883b16973b82df
-  verdict: ftbfs
+  gitRevision: 
+  verdict: nonverifiable
 twitter: velasblockchain
 social:
 - https://www.linkedin.com/company/velas-ag
 - https://www.facebook.com/velasblockchain
 redirect_from: 
-developerName: Velas Network AG
+developerName: Velаs Netwоrk АG
 features: 
 
 ---
+
+**Update 2023-10-31**: The provider's website does not link an Android app
+anymore. The mobile-wallet repository was also removed. There are forks on
+GitHub but not with version 2.3.17. We have to consider this product closed
+source for now.
 
 **Update 2022-03-11**: Emanuel managed to build the latest version `2.2.7` but
 not to reproduce the version from Play Store.

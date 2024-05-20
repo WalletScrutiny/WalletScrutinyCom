@@ -8,26 +8,26 @@ appId: atomicwallet
 appCountry: 
 idd: 1478257827
 released: 2019-11-05
-updated: 2021-10-06
-version: 0.78.7
-stars: 4.3
-reviews: 13872
-size: 49713152
+updated: 2024-04-25
+version: 1.29.5
+stars: 4.4
+reviews: 16574
+size: '139353088'
 website: https://atomicwallet.io/
 repository: 
 issue: 
 icon: atomicwallet.jpg
 bugbounty: 
-meta: defunct
+meta: ok
 verdict: obfuscated
-date: 2022-01-02
+date: 2023-11-22
 signer: 
 reviewArchive: 
 twitter: atomicwallet
 social:
 - https://www.facebook.com/atomicwallet
 features: 
-developerName: 
+developerName: ATOMIC PROTOCOL SYSTEMS OÜ
 
 ---
 

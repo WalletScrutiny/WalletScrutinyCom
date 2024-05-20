@@ -3,13 +3,13 @@ wsId:
 title: Kumo
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: kumo.africa
 appCountry: 
 released: 2022-06-03
-updated: 2022-11-28
-version: '5.0'
-stars: 
+updated: 2024-04-25
+version: 8.0.0
+stars: 3.9
 ratings: 
 reviews: 
 size: 

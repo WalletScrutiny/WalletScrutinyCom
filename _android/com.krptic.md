@@ -7,8 +7,8 @@ users: 100
 appId: com.krptic
 appCountry: 
 released: 2021-08-13
-updated: 2022-09-04
-version: 4.0.4
+updated: 2023-11-26
+version: 4.0.7
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.krptic.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: fewusers
-date: 2022-06-22
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 

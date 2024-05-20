@@ -8,11 +8,11 @@ appId: it.airgap.wallet
 appCountry: 
 idd: 1420996542
 released: 2018-08-24
-updated: 2023-07-03
-version: 3.28.0
-stars: 3.5
-reviews: 26
-size: '114597888'
+updated: 2024-03-04
+version: 3.31.2
+stars: 3.7
+reviews: 28
+size: '120827904'
 website: https://airgap.it/
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: talkPlus
-title: Talk+
+title: T+ Wallet-Essential Crypto Hub
 altTitle: 
 authors:
 - danny
@@ -8,9 +8,9 @@ users: 1000
 appId: org.talkapp
 appCountry: 
 released: 2021-01-05
-updated: 2023-05-18
-version: 2.22.6
-stars: 
+updated: 2024-04-13
+version: 2.22.13
+stars: 3.3
 ratings: 
 reviews: 
 size: 

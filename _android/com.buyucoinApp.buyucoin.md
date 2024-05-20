@@ -10,7 +10,7 @@ appCountry:
 released: 2019-02-15
 updated: 2023-02-12
 version: '3.41'
-stars: 2.8
+stars: 2.6
 ratings: 3529
 reviews: 13
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.buyucoinApp.buyucoin.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-05-30
+date: 2024-02-07
 signer: 
 reviewArchive: 
 twitter: buyucoin

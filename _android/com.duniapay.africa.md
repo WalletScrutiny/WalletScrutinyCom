@@ -10,18 +10,18 @@ appCountry:
 released: 2019-10-02
 updated: 2022-03-29
 version: 3.0.9
-stars: 4.6
+stars: 4.7
 ratings: 
-reviews: 1
+reviews: 
 size: 
 website: https://www.duniapay.net
 repository: 
 issue: 
 icon: com.duniapay.africa.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2023-03-26
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: dunia_pay

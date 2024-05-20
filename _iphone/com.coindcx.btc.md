@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.coindcx.btc.jpg
 bugbounty: https://coindcx.com/bug-bounty
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-01-11
 signer: 

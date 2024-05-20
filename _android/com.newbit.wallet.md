@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.newbit.wallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-06-03
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 

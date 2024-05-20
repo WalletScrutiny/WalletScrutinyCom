@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: sphinxChat
 title: Sphinx Chat
 altTitle: 
-authors: 
+authors:
+- danny
 appId: com.gl.sphinx
 appCountry: ie
 idd: 1483956418
@@ -17,15 +18,17 @@ repository:
 issue: 
 icon: com.gl.sphinx.jpg
 bugbounty: 
-meta: obsolete
-verdict: wip
-date: 2023-04-27
+meta: removed
+verdict: nowallet
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: 
-social: 
+social:
+- https://t.me/joinchat/Fb4OcRo4LrRD6NXfsNdeeQ
 features: 
 developerName: 527H
 
 ---
 
+{% include copyFromAndroid.html %}

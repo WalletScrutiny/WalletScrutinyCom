@@ -8,9 +8,9 @@ users: 10000
 appId: com.trustkeysnetwork
 appCountry: us
 released: 2019-03-02
-updated: 2023-07-01
-version: 1.1.231
-stars: 4.8
+updated: 2024-03-26
+version: 2.3.20
+stars: 4.7
 ratings: 583
 reviews: 23
 size: 
@@ -28,7 +28,7 @@ twitter: trustkeysglobal
 social:
 - https://www.facebook.com/trustkeys.network
 redirect_from: 
-developerName: TKBlockchain Corporation
+developerName: TrustKeys Finance
 features: 
 
 ---

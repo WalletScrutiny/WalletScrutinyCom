@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.decomlab.wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 date: 2023-03-21
 signer: 

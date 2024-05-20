@@ -3,7 +3,7 @@ wsId:
 title: xsats - save bitcoin
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.xsats.xsatsag
 appCountry: 
 released: 2022-09-17
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.xsats.xsatsag.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-06-03
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

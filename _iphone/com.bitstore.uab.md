@@ -11,16 +11,16 @@ released: 2022-09-01
 updated: 2022-11-17
 version: 2.4.0
 stars: 5
-reviews: 5
+reviews: 3
 size: '76331008'
 website: https://bit.store
 repository: 
 issue: 
 icon: com.bitstore.uab.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
-date: 2023-03-23
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: www_bit_store

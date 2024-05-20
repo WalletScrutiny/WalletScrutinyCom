@@ -4,15 +4,15 @@ title: 'Snappy Exchange: Redeeming App'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: esw.snappyexchange.snappyexchange
 appCountry: 
 released: 2022-01-15
-updated: 2023-01-30
-version: 2.1.6 (27)
-stars: 3.8
+updated: 2024-04-05
+version: 2.3.1 (34)
+stars: 3.5
 ratings: 
-reviews: 30
+reviews: 48
 size: 
 website: https://snappyexchange.com
 repository: 

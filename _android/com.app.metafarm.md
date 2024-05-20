@@ -9,7 +9,7 @@ appCountry:
 released: 2022-09-15
 updated: 2022-11-24
 version: 1.0.1
-stars: 
+stars: 5
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.app.metafarm.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-06-03
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

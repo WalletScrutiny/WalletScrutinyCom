@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.anbi.safepal.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2021-01-15
 signer: 

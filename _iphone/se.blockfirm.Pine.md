@@ -17,15 +17,15 @@ repository:
 issue: 
 icon: se.blockfirm.Pine.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2022-12-28
+date: 2023-07-17
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 features: 
-developerName: Blockfirm AB
+developerName: Pine Enterprises AB
 
 ---
 

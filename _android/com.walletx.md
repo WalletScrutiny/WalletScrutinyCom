@@ -12,16 +12,16 @@ updated: 2022-11-23
 version: '2.0'
 stars: 3.9
 ratings: 
-reviews: 17
+reviews: 18
 size: 
 website: http://www.cnxnetwork.org
 repository: 
 issue: 
 icon: com.walletx.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-06-14
+date: 2023-11-25
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: mn.coinhub.coinhub.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-02-21
+date: 2023-09-04
 signer: 
 reviewArchive: 
 twitter: CoinhubMongolia

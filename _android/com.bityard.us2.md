@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.bityard.us2.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2022-03-07
 signer: 

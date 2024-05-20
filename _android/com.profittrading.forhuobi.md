@@ -4,7 +4,7 @@ title: ProfitTradingApp for Huobi
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.profittrading.forhuobi
 appCountry: 
 released: 2018-11-21
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.profittrading.forhuobi.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2022-12-17
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: ProfitTrading_

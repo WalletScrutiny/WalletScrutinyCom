@@ -4,15 +4,15 @@ title: Coinigy
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.coinigy
 appCountry: us
 released: 2018-06-11
-updated: 2022-10-14
-version: 0.5.32
-stars: 4
+updated: 2023-10-31
+version: 0.5.35
+stars: 3.9
 ratings: 225
-reviews: 45
+reviews: 46
 size: 
 website: https://www.coinigy.com
 repository: 
@@ -21,7 +21,7 @@ icon: com.coinigy.png
 bugbounty: 
 meta: ok
 verdict: nowallet
-date: 2021-10-07
+date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: coinigy

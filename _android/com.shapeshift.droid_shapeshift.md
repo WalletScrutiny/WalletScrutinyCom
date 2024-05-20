@@ -4,15 +4,15 @@ title: 'ShapeShift: Crypto Platform'
 altTitle: 
 authors:
 - leo
-users: 100000
+users: 500000
 appId: com.shapeshift.droid_shapeshift
 appCountry: 
 released: 2015-10-26
-updated: 2022-11-14
-version: 3.0.2
-stars: 3.4
+updated: 2023-08-29
+version: 3.0.7
+stars: 3.3
 ratings: 2913
-reviews: 528
+reviews: 509
 size: 
 website: https://ShapeShift.com
 repository: 

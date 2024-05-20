@@ -9,7 +9,7 @@ appCountry:
 released: 2021-08-14
 updated: 2021-10-14
 version: '1.1'
-stars: 
+stars: 5
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.xbond.droidapp.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-11-02
+date: 2023-10-06
 signer: 
 reviewArchive: 
 twitter: 

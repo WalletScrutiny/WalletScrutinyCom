@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.wallet.crypto.skgapp.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2021-08-17
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

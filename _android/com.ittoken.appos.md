@@ -3,7 +3,7 @@ wsId:
 title: itToken
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: com.ittoken.appos
 appCountry: 
 released: 2022-05-10
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ittoken.appos.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-06-03
+date: 2024-05-04
 signer: 
 reviewArchive: 
 twitter: 

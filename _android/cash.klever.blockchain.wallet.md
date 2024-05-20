@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: cash.klever.blockchain.wallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2021-05-22
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: klever_io

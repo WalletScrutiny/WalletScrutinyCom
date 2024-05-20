@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.app.cryptofully.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nowallet
 date: 2022-01-31
 signer: 

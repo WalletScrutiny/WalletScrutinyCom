@@ -10,17 +10,17 @@ idd: 1534426282
 released: 2020-10-15
 updated: 2023-04-15
 version: 3.0.391
-stars: 3.3
-reviews: 75
+stars: 2.8
+reviews: 93
 size: '59254784'
 website: https://iflux.app/
 repository: 
 issue: 
 icon: com.blueloopflux.app.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-10-24
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: ifluxdotapp

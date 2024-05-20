@@ -8,11 +8,11 @@ appId: com.emberfund.ember
 appCountry: us
 idd: 1406211993
 released: 2018-08-04
-updated: 2023-06-29
-version: '32.7'
-stars: 4.6
-reviews: 1798
-size: '137029632'
+updated: 2024-04-01
+version: '33.18'
+stars: 4.5
+reviews: 2348
+size: '100742144'
 website: https://emberfund.io/
 repository: 
 issue: 

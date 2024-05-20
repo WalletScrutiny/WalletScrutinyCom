@@ -7,9 +7,9 @@ users: 100
 appId: com.evercash.mobile.client
 appCountry: 
 released: 2022-07-23
-updated: 2023-02-15
-version: 2.1.1-7a0ecd1d
-stars: 
+updated: 2023-12-04
+version: 3.0.0-a46a024b
+stars: 4.4
 ratings: 
 reviews: 
 size: 
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Krown Benelux
+developerName: Parcent
 features: 
 
 ---

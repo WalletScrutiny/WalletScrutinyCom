@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.tokonton.wallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-02-20
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: 

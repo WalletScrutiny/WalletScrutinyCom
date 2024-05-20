@@ -8,9 +8,9 @@ users: 50000
 appId: com.btcex.exchange
 appCountry: 
 released: 2021-10-25
-updated: 2023-06-26
-version: 1.4.32
-stars: 4
+updated: 2023-07-05
+version: 1.4.50
+stars: 3.9
 ratings: 
 reviews: 9
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.btcex.exchange.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2022-07-18
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: BTCEX_exchange

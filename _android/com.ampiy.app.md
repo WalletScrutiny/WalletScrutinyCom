@@ -7,8 +7,8 @@ users: 100
 appId: com.ampiy.app
 appCountry: 
 released: 2022-04-06
-updated: 2023-03-29
-version: 2.2.0
+updated: 2024-04-04
+version: 3.1.2
 stars: 
 ratings: 
 reviews: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.hashcash.emetexchange.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2022-06-22
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: 

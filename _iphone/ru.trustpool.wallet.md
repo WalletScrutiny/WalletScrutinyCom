@@ -1,0 +1,35 @@
+---
+wsId: trustPoolFrostWallet
+title: 'Trustpool: Frost wallet'
+altTitle: 
+authors:
+- danny
+appId: ru.trustpool.wallet
+appCountry: us
+idd: '1607319106'
+released: 2022-02-09
+updated: 2023-09-06
+version: 2.5.1
+stars: 4.4
+reviews: 9
+size: '52304896'
+website: https://frostwallet.cc
+repository: 
+issue: 
+icon: ru.trustpool.wallet.jpg
+bugbounty: 
+meta: removed
+verdict: nosource
+date: 2024-04-03
+signer: 
+reviewArchive: 
+twitter: 
+social:
+- https://t.me/frost_wallet
+- https://www.instagram.com/frostwallet.cc
+features: 
+developerName: Trustpool DOO
+
+---
+
+{% include copyFromAndroid.html %}

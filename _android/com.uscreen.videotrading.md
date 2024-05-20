@@ -1,19 +1,19 @@
 ---
 wsId: 
-title: Criptoclases
+title: Criptoclases for Android TV
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.uscreen.videotrading
 appCountry: 
 released: 2021-12-07
-updated: 2023-05-22
-version: 2.2.4
+updated: 2024-03-29
+version: 2.3.1
 stars: 
 ratings: 
 reviews: 
 size: 
-website: 
+website: https://app.criptoclases.com/
 repository: 
 issue: 
 icon: com.uscreen.videotrading.png

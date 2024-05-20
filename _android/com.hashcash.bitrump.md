@@ -9,7 +9,7 @@ appCountry:
 released: 2020-02-18
 updated: 2021-03-05
 version: 1.2.1
-stars: 
+stars: 4.9
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.hashcash.bitrump.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-02-24
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

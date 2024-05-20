@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitlouis.bitlouis.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-01-20
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 

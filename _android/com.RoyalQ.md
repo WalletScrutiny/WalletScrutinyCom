@@ -8,11 +8,11 @@ users: 50000
 appId: com.RoyalQ
 appCountry: 
 released: 2021-10-08
-updated: 2022-09-02
-version: '4.6'
+updated: 2023-11-15
+version: '4.9'
 stars: 4.9
 ratings: 
-reviews: 61
+reviews: 42
 size: 
 website: https://royalq.cloud
 repository: 
@@ -21,7 +21,7 @@ icon: com.RoyalQ.png
 bugbounty: 
 meta: ok
 verdict: nowallet
-date: 2022-07-14
+date: 2023-10-06
 signer: 
 reviewArchive: 
 twitter: 

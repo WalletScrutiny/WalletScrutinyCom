@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.cryptotrillionaires.bitcoin.invest.india.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2021-10-01
 signer: 

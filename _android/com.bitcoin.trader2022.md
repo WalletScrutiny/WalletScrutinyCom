@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitcoin.trader2022.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-06-02
+date: 2023-09-15
 signer: 
 reviewArchive: 
 twitter: 

@@ -20,7 +20,7 @@ repository:
 issue: 
 icon: com.jubiter.app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 date: 2023-01-02
 signer: 

@@ -8,20 +8,20 @@ users: 10000
 appId: com.traderwagon.android
 appCountry: 
 released: 2022-05-24
-updated: 2023-06-02
-version: 1.7.1
-stars: 4.5
+updated: 2023-10-29
+version: 1.9.4
+stars: 4.6
 ratings: 
-reviews: 12
+reviews: 14
 size: 
 website: https://www.traderwagon.com/
 repository: 
 issue: 
 icon: com.traderwagon.android.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
-date: 2023-04-12
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: traderwagon

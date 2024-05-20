@@ -9,7 +9,7 @@ appCountry:
 released: 2021-03-12
 updated: 2021-10-14
 version: '4.0'
-stars: 
+stars: 3.1
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: fcm.dbx24.com.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: wip
-date: 2022-11-02
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: 

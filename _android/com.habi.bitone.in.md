@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.habi.bitone.in.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2023-05-26
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: 

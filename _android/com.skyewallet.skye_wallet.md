@@ -8,11 +8,11 @@ users: 10000
 appId: com.skyewallet.skye_wallet
 appCountry: us
 released: 2021-05-01
-updated: 2023-03-22
-version: 2.12.8
-stars: 3.4
+updated: 2024-04-26
+version: 2.13.1
+stars: 3.2
 ratings: 290
-reviews: 13
+reviews: 17
 size: 
 website: https://skyewallet.com
 repository: 
@@ -21,7 +21,7 @@ icon: com.skyewallet.skye_wallet.png
 bugbounty: 
 meta: ok
 verdict: custodial
-date: 2021-11-15
+date: 2024-04-25
 signer: 
 reviewArchive: 
 twitter: skyewallet

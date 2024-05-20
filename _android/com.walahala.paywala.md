@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.walahala.paywala.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2022-04-07
 signer: 

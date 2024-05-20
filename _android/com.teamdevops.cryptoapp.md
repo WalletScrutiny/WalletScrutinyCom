@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.teamdevops.cryptoapp.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2022-10-21
+date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: 

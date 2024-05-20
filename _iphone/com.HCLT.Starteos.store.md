@@ -10,17 +10,17 @@ idd: 1441373609
 released: 2019-01-21
 updated: 2022-11-09
 version: 02.00.25
-stars: 3.6
-reviews: 8
+stars: 3.8
+reviews: 9
 size: '115696640'
 website: http://starteos.io
 repository: 
 issue: 
 icon: com.HCLT.Starteos.store.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2021-11-22
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: Starteos

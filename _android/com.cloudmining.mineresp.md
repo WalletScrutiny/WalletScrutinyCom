@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.cloudmining.mineresp.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2021-08-13
 signer: 

@@ -1,15 +1,16 @@
 ---
-wsId: 
+wsId: actpass
 title: ActPass Wallet
 altTitle: 
-authors: 
-users: 500
+authors:
+- danny
+users: 5000
 appId: com.actoz.actpass
 appCountry: 
 released: 2022-11-29
-updated: 2023-07-03
-version: 1.2.4
-stars: 
+updated: 2024-05-06
+version: 1.4.4
+stars: 4.2
 ratings: 
 reviews: 
 size: 
@@ -19,8 +20,8 @@ issue:
 icon: com.actoz.actpass.png
 bugbounty: 
 meta: ok
-verdict: fewusers
-date: 2023-06-03
+verdict: custodial
+date: 2023-11-01
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,3 +32,18 @@ features:
 
 ---
 
+## App Description from Google Play
+
+> - Actpass is an extreme fast and safe multi crypto wallet, focus on making crypto asset storage easy and safe.
+> - Abundant digital asset manage platform.
+> - Offering user a safe and professional crypto trading experience, easy to withdraw/deposit USDT/BTC/ETH
+> - Offering a safe service of digital asset management.
+> - Account strictly abide safety standard, including multi layer verification to protect accounts.
+> - Fast and stable service environment
+> - Wallet provide a fast and stable service environment to handle numerous trades.
+
+## Analysis
+
+- Sign up was made using a Google user account.
+- We were not able to find any option to access, backup or restore the private keys.
+- This app offers a **custodial** service.

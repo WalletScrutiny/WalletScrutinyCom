@@ -1,6 +1,6 @@
 ---
 wsId: argent
-title: Argent - L2 & Argent Vault
+title: Argent — Starknet Wallet
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: im.argent.contractwalletclient
 appCountry: us
 released: 2018-10-30
-updated: 2023-06-05
-version: 4.16.0.8889
-stars: 4.5
+updated: 2024-04-26
+version: 4.26.2.9626
+stars: 4.4
 ratings: 3252
-reviews: 367
+reviews: 400
 size: 
 website: https://www.argent.xyz
 repository: 

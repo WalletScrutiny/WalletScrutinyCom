@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.coinchat.hdwallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
-date: 2023-05-17
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

@@ -9,7 +9,7 @@ appCountry:
 released: 2020-11-22
 updated: 2020-11-22
 version: 0.16.3
-stars: 
+stars: 4.8
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.theluxurybank.bankwallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-12-17
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

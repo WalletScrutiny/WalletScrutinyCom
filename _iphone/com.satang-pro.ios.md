@@ -8,19 +8,19 @@ appId: com.satang-pro.ios
 appCountry: us
 idd: '1513155132'
 released: 2021-08-25
-updated: 2023-06-26
-version: 1.4.9
+updated: 2023-10-19
+version: 1.6.0
 stars: 3.7
 reviews: 6
-size: '173202432'
+size: '189938688'
 website: https://satangcorp.com
 repository: 
 issue: 
 icon: com.satang-pro.ios.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2022-06-28
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: SatangOfficial_

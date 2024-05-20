@@ -8,19 +8,19 @@ appId: com.pillow.fund
 appCountry: in
 idd: '1593227237'
 released: 2022-03-02
-updated: 2023-06-27
-version: '4.1'
-stars: 3.9
-reviews: 65
-size: '52560896'
+updated: 2023-08-01
+version: '5.0'
+stars: 3.8
+reviews: 61
+size: '51591168'
 website: https://www.pillow.fund/
 repository: 
 issue: 
 icon: com.pillow.fund.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-06-13
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: PillowFund

@@ -8,9 +8,9 @@ users: 1000
 appId: com.funex.coin
 appCountry: 
 released: 2022-02-18
-updated: 2023-05-11
-version: 1.0.22
-stars: 
+updated: 2024-03-04
+version: 1.0.31
+stars: 3.7
 ratings: 
 reviews: 
 size: 
@@ -20,8 +20,8 @@ issue:
 icon: com.funex.coin.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-05-25
+verdict: custodial
+date: 2023-11-17
 signer: 
 reviewArchive: 
 twitter: Funexclub
@@ -51,3 +51,7 @@ features:
 - We sent a ticket to their support via the app to ask where the seed phrases can be found.
 - We also [tweeted](https://twitter.com/BitcoinWalletz/status/1661601267490205698) them.
 - We'll keep this as a **work-in-progress** until they respond. 
+
+**Update 2023-11-17** They responded via email, and we posted a screenshot on [twitter](https://twitter.com/BitcoinWalletz/status/1725409339861872967)
+
+> This is centralized wallet.

@@ -10,18 +10,18 @@ appCountry:
 released: 2021-07-18
 updated: 2022-05-13
 version: 1.2.15
-stars: 3.7
+stars: 3.8
 ratings: 8
-reviews: 28
+reviews: 29
 size: 
 website: https://coincast.app
 repository: 
 issue: 
 icon: co.minty.coincast.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
-date: 2023-05-10
+date: 2024-05-04
 signer: 
 reviewArchive: 
 twitter: CoincastApp

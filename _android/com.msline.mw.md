@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.msline.mw.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2023-06-20
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: 

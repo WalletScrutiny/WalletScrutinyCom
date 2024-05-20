@@ -4,15 +4,15 @@ title: 'MEW crypto wallet: DeFi Web3'
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.myetherwallet.mewwallet
 appCountry: us
 released: 2020-03-11
-updated: 2023-06-28
-version: 2.5.8
+updated: 2024-05-04
+version: 2.7.4
 stars: 4.4
 ratings: 7093
-reviews: 564
+reviews: 596
 size: 
 website: http://mewwallet.com
 repository: 

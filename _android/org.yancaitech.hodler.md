@@ -19,7 +19,7 @@ repository: https://github.com/yancaitech/hodler-wallet
 issue: 
 icon: org.yancaitech.hodler.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-01-02
 signer: 

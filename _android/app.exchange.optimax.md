@@ -3,7 +3,7 @@ wsId:
 title: OptimaX
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: app.exchange.optimax
 appCountry: 
 released: 2022-02-10
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: app.exchange.optimax.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-06-02
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

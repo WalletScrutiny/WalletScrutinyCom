@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: me.mobi.app.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-11-17
+date: 2024-04-28
 signer: 
 reviewArchive: 
 twitter: mobimeglobal

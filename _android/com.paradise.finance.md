@@ -3,12 +3,12 @@ wsId:
 title: Paradise
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.paradise.finance
 appCountry: 
 released: 2021-07-06
-updated: 2023-03-01
-version: 1.2.0
+updated: 2024-01-24
+version: 1.4.0
 stars: 
 ratings: 
 reviews: 

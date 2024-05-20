@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.app.treenwallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nobtc
-date: 2023-05-11
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

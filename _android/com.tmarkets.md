@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.tmarkets.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosendreceive
-date: 2022-12-17
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: T1_Markets

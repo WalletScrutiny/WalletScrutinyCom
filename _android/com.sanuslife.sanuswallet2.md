@@ -4,12 +4,12 @@ title: SANUSWALLET 2.0
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.sanuslife.sanuswallet2
 appCountry: 
 released: 2020-09-04
-updated: 2021-11-17
-version: 2.1.16
+updated: 2023-11-07
+version: 2.1.17
 stars: 
 ratings: 
 reviews: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.sanuslife.sanuswallet2.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nosource
-date: 2023-06-01
+date: 2023-11-08
 signer: 
 reviewArchive: 
 twitter: 

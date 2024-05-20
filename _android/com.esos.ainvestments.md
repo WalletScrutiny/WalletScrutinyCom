@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.esos.ainvestments.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-06-02
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: 

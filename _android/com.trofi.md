@@ -12,16 +12,16 @@ updated: 2023-03-16
 version: 3.2.7
 stars: 4.9
 ratings: 
-reviews: 30
+reviews: 27
 size: 
 website: https://www.trofi.group/
 repository: 
 issue: 
 icon: com.trofi.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-06-07
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: yieldapp

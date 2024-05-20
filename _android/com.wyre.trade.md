@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.wyre.trade.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2022-11-02
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: wyretrade

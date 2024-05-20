@@ -4,15 +4,15 @@ title: MEXC-Buy & Sell Bitcoin
 altTitle: 
 authors:
 - danny
-users: 1000000
+users: 5000000
 appId: com.mexcpro.client
 appCountry: 
 released: 2020-07-23
-updated: 2023-07-01
-version: 4.1.5
-stars: 3.9
+updated: 2024-05-16
+version: VARY
+stars: 3.6
 ratings: 12371
-reviews: 476
+reviews: 760
 size: 
 website: https://www.mexc.com
 repository: 
@@ -30,7 +30,7 @@ social:
 - https://www.facebook.com/mexcglobal
 - https://www.reddit.com/r/MXCexchange
 redirect_from: 
-developerName: MEXC Global
+developerName: MEXC
 features: 
 
 ---

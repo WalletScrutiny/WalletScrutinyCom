@@ -1,6 +1,6 @@
 ---
 wsId: changeinvest
-title: 'Change: Invest & Trade'
+title: 'Change: Buy Bitcoin & crypto'
 altTitle: 
 authors:
 - leo
@@ -9,9 +9,9 @@ users: 100000
 appId: com.getchange.wallet.cordova
 appCountry: nl
 released: 2018-06-07
-updated: 2023-06-15
-version: 30.43.2
-stars: 4.2
+updated: 2024-05-15
+version: 30.53.1
+stars: 4
 ratings: 2833
 reviews: 23
 size: 

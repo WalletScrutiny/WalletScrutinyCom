@@ -3,7 +3,7 @@ wsId:
 title: hPass by Hacken
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.hackenai.hpass
 appCountry: 
 released: 2021-11-24
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.hackenai.hpass.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-02
+date: 2023-09-10
 signer: 
 reviewArchive: 
 twitter: 

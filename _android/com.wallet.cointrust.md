@@ -3,30 +3,30 @@ wsId:
 title: 'CoinTrust: BTC & Crypto Wallet'
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.wallet.cointrust
 appCountry: 
 released: 2022-12-13
 updated: 2022-12-14
 version: '1.0'
-stars: 4.2
+stars: 4.3
 ratings: 
-reviews: 8
+reviews: 9
 size: 
 website: 
 repository: 
 issue: 
 icon: com.wallet.cointrust.jpg
 bugbounty: 
-meta: ok
-verdict: fewusers
-date: 2023-06-03
+meta: removed
+verdict: wip
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: CoinTrust Inc
+developerName: MintMyBitcoin | Cloud Services
 features: 
 
 ---

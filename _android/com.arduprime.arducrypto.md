@@ -7,8 +7,8 @@ users: 100
 appId: com.arduprime.arducrypto
 appCountry: 
 released: 2022-07-26
-updated: 2023-01-18
-version: '15'
+updated: 2023-08-23
+version: '16'
 stars: 4.6
 ratings: 
 reviews: 

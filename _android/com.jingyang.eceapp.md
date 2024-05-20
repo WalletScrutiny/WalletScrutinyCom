@@ -9,7 +9,7 @@ appCountry:
 released: 
 updated: 2021-07-21
 version: '1.0'
-stars: 
+stars: 2.8
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.jingyang.eceapp.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2023-06-02
+date: 2023-07-17
 signer: 
 reviewArchive: 
 twitter: 

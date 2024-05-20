@@ -3,7 +3,7 @@ wsId:
 title: APlus Wallet
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.sarnado.apluswallet
 appCountry: 
 released: 2020-12-28
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.sarnado.apluswallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-12-26
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

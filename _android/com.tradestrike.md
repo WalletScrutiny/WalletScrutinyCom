@@ -1,17 +1,18 @@
 ---
-wsId: 
+wsId: StrikeXDefi
 title: StrikeX | DeFi Crypto Wallet
 altTitle: 
-authors: 
+authors:
+- danny
 users: 5000
 appId: com.tradestrike
 appCountry: 
 released: 2022-09-26
-updated: 2023-04-19
-version: '2.4'
+updated: 2024-04-01
+version: '3.8'
 stars: 4.7
 ratings: 
-reviews: 18
+reviews: 19
 size: 
 website: https://tradestrike.io/strikex-wallet/
 repository: 
@@ -19,15 +20,34 @@ issue:
 icon: com.tradestrike.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-03
+verdict: nosource
+date: 2023-06-30
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: TradeStrikeBVI
+social:
+- https://www.linkedin.com/company/strikex
+- https://www.facebook.com/TradeStrikeBVI
+- https://www.youtube.com/channel/UCZ_gCf9-Tnr7JeoFiSkl7SQ
+- https://www.instagram.com/tradestrike.bvi
+- https://t.me/StrikeXcrypto
+- https://discord.com/invite/tradestrike
 redirect_from: 
 developerName: TradestrikeBVI
 features: 
 
 ---
 
+## App Description from Google Play
+
+> The StrikeX Wallet is Multichain, meaning that you don’t need multiple wallets for different chains. Send, receive & hold cryptocurrencies on the Bitcoin, Ethereum, Binance Smart Chain & Solana blockchains in ONE StrikeX Wallet.
+
+> Unlike exchanges, the StrikeX Wallet is non-custodial  
+
+## Analysis
+
+- The seed phrases were created during startup.
+- The app can send and receive Bitcoin.
+- There are no claims the app is source-available.
+- A code search for the app ID on GitHub yielded [0 results](https://github.com/search?q=com.tradestrike&type=code).
+- This app is **not source-available**.

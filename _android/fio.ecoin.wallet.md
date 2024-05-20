@@ -12,16 +12,16 @@ updated: 2022-04-11
 version: 6.3.8
 stars: 4.1
 ratings: 3553
-reviews: 68
+reviews: 67
 size: 
 website: https://ecoinofficial.org/
 repository: 
 issue: 
 icon: fio.ecoin.wallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nobtc
-date: 2023-04-06
+date: 2024-04-19
 signer: 
 reviewArchive:
 - date: 2021-09-03

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.clovrlabs.wallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-06-03
+date: 2023-09-15
 signer: 
 reviewArchive: 
 twitter: 

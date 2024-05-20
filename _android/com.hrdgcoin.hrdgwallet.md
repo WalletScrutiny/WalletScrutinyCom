@@ -10,7 +10,7 @@ appCountry:
 released: 2021-07-09
 updated: 2022-07-28
 version: 1.0.8
-stars: 
+stars: 4
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.hrdgcoin.hrdgwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-05-26
+date: 2023-07-25
 signer: 
 reviewArchive: 
 twitter: 

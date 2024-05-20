@@ -10,17 +10,17 @@ idd: '1585629448'
 released: 2021-11-09
 updated: 2023-04-18
 version: 2.0.2
-stars: 4.2
-reviews: 38
+stars: 3.9
+reviews: 40
 size: '149646336'
 website: https://www.coinchange.io
 repository: 
 issue: 
 icon: io.coinchange.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-03-02
+date: 2024-04-14
 signer: 
 reviewArchive: 
 twitter: coinchangeio

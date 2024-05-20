@@ -8,11 +8,11 @@ appId: com.switchere.switchere
 appCountry: us
 idd: '1550289857'
 released: 2021-11-15
-updated: 2023-01-06
-version: 1.1.4
-stars: 3.8
-reviews: 97
-size: '38531072'
+updated: 2024-05-09
+version: 1.1.21
+stars: 3.3
+reviews: 74
+size: '40420352'
 website: https://switchere.com/
 repository: 
 issue: 
@@ -29,7 +29,7 @@ social:
 - https://t.me/switchere
 - https://www.reddit.com/user/switchere
 features: 
-developerName: Fiteum OU
+developerName: SH EUROPE UAB
 
 ---
 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.timebitex.wallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2022-06-23
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.neurogine.taurus.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-04-27
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 

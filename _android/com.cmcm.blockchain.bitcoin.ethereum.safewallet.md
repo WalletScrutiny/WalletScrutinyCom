@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.cmcm.blockchain.bitcoin.ethereum.safewallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2020-03-20
 signer: 

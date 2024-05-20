@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bytetrade.bytehub.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
-date: 2023-01-06
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: ByteTradeIo

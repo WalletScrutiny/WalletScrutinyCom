@@ -4,24 +4,24 @@ title: KrakAPI
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: net.oblade.krakapi
 appCountry: 
 released: 2019-08-09
 updated: 2023-01-10
 version: 2.6.8
-stars: 4.2
+stars: 4.1
 ratings: 533
-reviews: 15
+reviews: 16
 size: 
 website: http://www.oblade.net
 repository: 
 issue: 
 icon: net.oblade.krakapi.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-10-26
+date: 2024-01-16
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,15 +1,16 @@
 ---
-wsId: 
+wsId: knakenCrypto
 title: 'Knaken: Buy crypto safely'
 altTitle: 
-authors: 
+authors:
+- danny
 users: 1000
 appId: org.nativescript.knakenhybridapp
 appCountry: 
 released: 2022-07-06
-updated: 2023-06-17
-version: 2.6.3
-stars: 
+updated: 2024-04-17
+version: 2.10.0
+stars: 3.5
 ratings: 
 reviews: 
 size: 
@@ -19,15 +20,47 @@ issue:
 icon: org.nativescript.knakenhybridapp.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-03
+verdict: custodial
+date: 2023-08-24
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: knaken_eu
+social:
+- https://www.facebook.com/knakeneu
+- https://www.instagram.com/knaken_eu
 redirect_from: 
 developerName: Knaken
 features: 
 
 ---
 
+## App Description from Google Play
+
+> Get started today and manage your Bitcoin, Ethereum, Cardano and more. 
+>
+> Current features:
+> - Actual prices
+> - Rate change percentage
+> - Filter by gainers and losers
+> - Buying and selling Crypto
+> - Transaction history
+> - Enable and disable two-step verification (2FA) via Settings
+
+## Analysis 
+
+- We signed up with the service using the web platform
+- There was a wallet option, but this was inaccessible unless we performed KYC and provided proof of our physical address. 
+- Article 8 of the [terms](https://knaken.eu/terms-and-conditions/) has the provider talking about providing "temporary wallets" that presumedly does not have the private keys. They describe this as a temporary measure because of current regulations. 
+- Article 9 describes their staking services used in conjunction with the Knaken Wallet. 
+- Keywords associated with custodial services include:
+  - freezing of user accounts
+  - blocking of access
+  - termination of user accounts
+
+Although the use of cold-wallets by the platform was not explicitly stated, we can find descriptions of the provider holding the user funds. Some examples:
+ 
+  > *Now, Knaken can hold Bitcoin for people to buy and sell.*
+  >
+  > *Doing so may result in you being unable to access your Bitcoin. If you don’t want to worry about this, you can store your crypto in your Knaken account.*
+
+The "temporary wallet" without the private keys can only be a **custodial** service, making the app **non-verifiable**.

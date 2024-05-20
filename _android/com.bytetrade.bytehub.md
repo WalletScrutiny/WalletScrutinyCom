@@ -12,16 +12,16 @@ updated: 2021-09-09
 version: 1.4.3.210909
 stars: 4.6
 ratings: 7187
-reviews: 1304
+reviews: 1302
 size: 
 website: https://www.bytetrade.io/
 repository: 
 issue: 
 icon: com.bytetrade.bytehub.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
-date: 2022-11-02
+date: 2023-09-15
 signer: 
 reviewArchive: 
 twitter: ByteTradeIo

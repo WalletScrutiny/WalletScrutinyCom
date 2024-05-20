@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: net.cryptowallets.invest.on.bitcoin.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2021-10-01
 signer: 

@@ -18,7 +18,7 @@ repository: https://github.com/SatoshiWallet/ui
 issue: 
 icon: co.satoshiwallet.app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2022-03-07
 signer: 

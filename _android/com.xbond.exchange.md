@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.xbond.exchange.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2021-08-26
 signer: 

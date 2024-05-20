@@ -3,12 +3,12 @@ wsId:
 title: DFX Bitcoin Wallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.defichain.app.dfx.bitcoin
 appCountry: 
 released: 2023-02-23
-updated: 2023-04-13
-version: 2.1.0
+updated: 2023-08-18
+version: 2.1.1
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.defichain.app.dfx.bitcoin.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-06-03
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

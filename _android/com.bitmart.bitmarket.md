@@ -8,11 +8,11 @@ users: 1000000
 appId: com.bitmart.bitmarket
 appCountry: 
 released: 2018-05-09
-updated: 2023-06-30
-version: 2.12.11
-stars: 3.3
+updated: 2024-05-05
+version: 3.1.7
+stars: 3.5
 ratings: 41983
-reviews: 3447
+reviews: 3600
 size: 
 website: http://www.bitmart.com
 repository: 

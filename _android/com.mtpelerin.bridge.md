@@ -4,15 +4,15 @@ title: Bridge Wallet
 altTitle: 
 authors:
 - leo
-users: 10000
+users: 50000
 appId: com.mtpelerin.bridge
 appCountry: us
 released: 2020-04-07
-updated: 2023-06-23
-version: '1.32'
-stars: 3.9
+updated: 2024-05-03
+version: '1.37'
+stars: 4
 ratings: 178
-reviews: 14
+reviews: 20
 size: 
 website: https://www.mtpelerin.com/bridge-wallet
 repository: 

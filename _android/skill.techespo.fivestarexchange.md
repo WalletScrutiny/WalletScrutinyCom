@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: skill.techespo.fivestarexchange.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2023-05-06
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.mushino.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-07-04
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 

@@ -7,8 +7,8 @@ users: 100
 appId: com.ebanq.zima
 appCountry: 
 released: 2022-09-06
-updated: 2023-06-06
-version: 1.2.0
+updated: 2023-08-28
+version: 1.4.0
 stars: 
 ratings: 
 reviews: 
@@ -18,15 +18,15 @@ repository:
 issue: 
 icon: com.ebanq.zima.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-06-03
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Zimabank
+developerName: Destafinance Ltd
 features: 
 
 ---

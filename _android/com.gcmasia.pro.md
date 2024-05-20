@@ -8,9 +8,9 @@ users: 100000
 appId: com.gcmasia.pro
 appCountry: HK
 released: 2017-04-24
-updated: 2022-11-27
-version: 90.3.010
-stars: 
+updated: 2023-10-11
+version: 90.3.037
+stars: 4
 ratings: 
 reviews: 
 size: 

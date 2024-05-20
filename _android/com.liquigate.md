@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.liquigate.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-01-27
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

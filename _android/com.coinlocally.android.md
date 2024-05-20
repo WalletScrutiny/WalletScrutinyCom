@@ -4,15 +4,15 @@ title: Coinlocally
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.coinlocally.android
 appCountry: 
 released: 2022-04-21
-updated: 2023-06-30
-version: 3.1.4
-stars: 3.4
+updated: 2024-04-25
+version: 3.3.15
+stars: 3.5
 ratings: 
-reviews: 53
+reviews: 64
 size: 
 website: https://coinlocally.com
 repository: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.safeblast.wallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2022-11-02
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

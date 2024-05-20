@@ -10,18 +10,18 @@ appCountry:
 released: 2021-04-01
 updated: 2022-12-13
 version: 4.3.3
-stars: 3.2
+stars: 3.1
 ratings: 
-reviews: 145
+reviews: 143
 size: 
 website: http://movo.cash
 repository: 
 issue: 
 icon: com.movocash.movo.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosendreceive
-date: 2023-02-24
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: MovoCash

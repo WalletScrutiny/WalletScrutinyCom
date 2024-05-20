@@ -11,16 +11,16 @@ updated: 2021-04-27
 version: '2.0'
 stars: 4.8
 ratings: 52
-reviews: 14
+reviews: 13
 size: 
 website: https://www.bitamp.com
 repository: 
 issue: 
 icon: com.bitamp.mobile.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-04-18
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

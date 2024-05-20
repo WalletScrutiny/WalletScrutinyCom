@@ -10,18 +10,18 @@ appCountry:
 released: 2021-08-25
 updated: 2022-09-13
 version: 1.2.1
-stars: 5
+stars: 4.9
 ratings: 30
-reviews: 1
+reviews: 3
 size: 
 website: https://profittradingapp.com/
 repository: 
 issue: 
 icon: com.profittrading.forftx.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-09-20
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: ProfitTrading_

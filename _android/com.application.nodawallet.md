@@ -10,7 +10,7 @@ appCountry:
 released: 2020-09-14
 updated: 2022-05-20
 version: 1.0.20
-stars: 4.9
+stars: 4.7
 ratings: 849
 reviews: 55
 size: 
@@ -19,9 +19,9 @@ repository: https://github.com/nodawallet/NodaWallet-Android
 issue: https://github.com/nodawallet/NodaWallet-Android/issues/1
 icon: com.application.nodawallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
-date: 2023-05-21
+date: 2024-05-10
 signer: 
 reviewArchive: 
 twitter: DexNodaWallett

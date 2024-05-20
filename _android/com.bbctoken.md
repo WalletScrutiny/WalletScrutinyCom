@@ -9,18 +9,18 @@ appCountry:
 released: 2019-07-20
 updated: 2020-09-16
 version: 1.0.54
-stars: 3.5
+stars: 2.9
 ratings: 366
-reviews: 
+reviews: 9
 size: 
 website: http://bbctoken.app
 repository: 
 issue: 
 icon: com.bbctoken.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2022-11-02
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: 

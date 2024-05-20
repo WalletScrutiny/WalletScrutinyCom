@@ -3,7 +3,7 @@ wsId:
 title: Cyrus mall
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.xearth.cyrusmall
 appCountry: 
 released: 2021-09-14
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.xearth.cyrusmall.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-11-02
+date: 2023-09-06
 signer: 
 reviewArchive: 
 twitter: 

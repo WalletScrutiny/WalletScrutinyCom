@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.coinsunion.production.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-01-14
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: 

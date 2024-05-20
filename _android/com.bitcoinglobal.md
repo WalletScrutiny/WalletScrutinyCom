@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-09-25
 updated: 2023-04-18
 version: 2.12.0
-stars: 2.5
+stars: 2.6
 ratings: 91
 reviews: 4
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bitcoinglobal.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-04-27
+date: 2024-04-13
 signer: 
 reviewArchive: 
 twitter: BitcoinGlobalEx

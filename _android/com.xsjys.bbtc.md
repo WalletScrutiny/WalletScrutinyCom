@@ -8,8 +8,8 @@ users: 100000
 appId: com.xsjys.bbtc
 appCountry: 
 released: 2022-03-01
-updated: 2023-06-05
-version: 1.5.0
+updated: 2023-11-07
+version: 1.5.6
 stars: 
 ratings: 
 reviews: 

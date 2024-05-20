@@ -8,19 +8,19 @@ appId: net.stasis.mobile
 appCountry: 
 idd: 1371949230
 released: 2018-07-06
-updated: 2023-02-01
-version: '7.19'
+updated: 2023-07-28
+version: '8.1'
 stars: 3
 reviews: 4
-size: '14670848'
+size: '85911552'
 website: https://stasis.net
 repository: 
 issue: 
 icon: net.stasis.mobile.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2020-12-22
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: stasisnet

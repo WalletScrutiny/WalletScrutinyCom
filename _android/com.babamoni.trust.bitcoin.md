@@ -9,7 +9,7 @@ appCountry:
 released: 2020-06-22
 updated: 2020-06-22
 version: '2'
-stars: 4.5
+stars: 
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.babamoni.trust.bitcoin.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-06-02
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

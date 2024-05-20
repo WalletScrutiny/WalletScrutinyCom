@@ -8,8 +8,8 @@ users: 1000
 appId: com.worldwebms.multisigwallet
 appCountry: 
 released: 2019-02-15
-updated: 2022-12-16
-version: 4.1.1
+updated: 2023-12-14
+version: 4.5.0
 stars: 
 ratings: 
 reviews: 

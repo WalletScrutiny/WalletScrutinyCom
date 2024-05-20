@@ -4,7 +4,7 @@ title: Online Cold Wallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.ocw.onlinecoldwallet
 appCountry: 
 released: 2021-10-01
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.ocw.onlinecoldwallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: wip
-date: 2023-05-23
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: ocwallet

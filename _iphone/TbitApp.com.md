@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: TbitApp.com.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-06-03
+date: 2024-05-04
 signer: 
 reviewArchive: 
 twitter: 

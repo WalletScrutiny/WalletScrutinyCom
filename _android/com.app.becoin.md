@@ -9,7 +9,7 @@ appCountry:
 released: 2022-10-01
 updated: 2022-10-01
 version: '1.0'
-stars: 
+stars: 4.6
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.app.becoin.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-03
+date: 2023-10-03
 signer: 
 reviewArchive: 
 twitter: 

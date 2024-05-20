@@ -4,15 +4,15 @@ title: FMCPAY
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.bitcoinexc
 appCountry: 
 released: 2021-09-01
-updated: 2023-04-15
+updated: 2023-11-07
 version: '1.12'
 stars: 3.3
 ratings: 
-reviews: 17
+reviews: 30
 size: 
 website: https://fmcpay.com/
 repository: https://github.com/fimark-coin/Smartcontract

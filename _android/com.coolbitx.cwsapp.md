@@ -4,15 +4,15 @@ title: CoolWallet
 altTitle: 
 authors:
 - leo
-users: 10000
+users: 50000
 appId: com.coolbitx.cwsapp
 appCountry: cn
 released: 2017-12-01
-updated: 2023-06-27
-version: 3.10.1
-stars: 4.1
+updated: 2024-05-03
+version: 3.34.0
+stars: 4.6
 ratings: 1147
-reviews: 551
+reviews: 634
 size: 
 website: http://coolwallet.io
 repository: 

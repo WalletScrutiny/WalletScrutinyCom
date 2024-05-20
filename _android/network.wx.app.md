@@ -7,8 +7,8 @@ users: 10000
 appId: network.wx.app
 appCountry: 
 released: 2022-09-30
-updated: 2023-06-22
-version: 1.11.1
+updated: 2024-01-12
+version: 1.11.8
 stars: 3.9
 ratings: 
 reviews: 5

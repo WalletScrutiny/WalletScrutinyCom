@@ -12,16 +12,16 @@ updated: 2021-09-30
 version: 1.4.2
 stars: 4.3
 ratings: 261
-reviews: 15
+reviews: 14
 size: 
 website: https://bolsa.app
 repository: 
 issue: 
 icon: com.tiim.gooptions.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2022-11-02
+date: 2023-09-20
 signer: 
 reviewArchive: 
 twitter: 

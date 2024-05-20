@@ -1,6 +1,6 @@
 ---
 wsId: tapngo
-title: Tap - Buy & Sell Bitcoin
+title: "Tap - Mobile Finance\_"
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: com.tapngo.tap
 appCountry: gb
 released: 2019-12-19
-updated: 2023-06-20
-version: 2.7.6
+updated: 2024-05-10
+version: 3.2.2
 stars: 4.2
 ratings: 1735
-reviews: 195
+reviews: 281
 size: 
 website: https://www.withtap.com
 repository: 

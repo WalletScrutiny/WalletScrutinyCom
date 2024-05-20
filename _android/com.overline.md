@@ -10,7 +10,7 @@ appCountry:
 released: 2021-09-09
 updated: 2021-09-16
 version: '1.1'
-stars: 4.3
+stars: 4.4
 ratings: 
 reviews: 4
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.overline.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
-date: 2023-04-29
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: overlinenetwork

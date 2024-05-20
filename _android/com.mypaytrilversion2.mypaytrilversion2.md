@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.mypaytrilversion2.mypaytrilversion2.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2022-10-21
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

@@ -10,18 +10,18 @@ appCountry: cn
 released: 2020-02-27
 updated: 2023-03-16
 version: 1.4.4
-stars: 3.1
+stars: 3
 ratings: 48
-reviews: 64
+reviews: 62
 size: 
 website: https://www.delio.foundation
 repository: 
 issue: 
 icon: com.delio.deliohybrid.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-08-02
+date: 2024-03-12
 signer: 
 reviewArchive: 
 twitter: happydelio

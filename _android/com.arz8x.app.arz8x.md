@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: ارز هشت | ترید ارزهای دیجیتال
+title: ارز هشت | صرافی ارز دیجیتال
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: com.arz8x.app.arz8x
 appCountry: 
 released: 2020-05-08
-updated: 2022-11-17
-version: 3.0.15
-stars: 4.1
+updated: 2024-05-18
+version: 4.5.1
+stars: 4.3
 ratings: 1706
-reviews: 56
+reviews: 73
 size: 
 website: https://Arz8.com
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: CFD Trading Forex investing ap
+title: Pocket Option Binary Options
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 5000
 appId: com.faerlik.firewin
 appCountry: 
 released: 
-updated: 2021-10-11
-version: '0.2'
+updated: 2024-01-12
+version: '0.1'
 stars: 
 ratings: 
 reviews: 
@@ -17,11 +17,11 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.faerlik.firewin.png
+icon: com.faerlik.firewin.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nowallet
-date: 2023-04-22
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: 

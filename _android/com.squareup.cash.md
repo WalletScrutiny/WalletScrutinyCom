@@ -4,15 +4,15 @@ title: Cash App
 altTitle: 
 authors:
 - leo
-users: 50000000
+users: 100000000
 appId: com.squareup.cash
 appCountry: 
 released: 2013-10-15
-updated: 2023-07-01
-version: VARY
+updated: 2024-05-11
+version: 4.47.0
 stars: 4.6
 ratings: 1066810
-reviews: 327916
+reviews: 376378
 size: 
 website: https://cash.app
 repository: 
@@ -28,7 +28,7 @@ twitter: cashapp
 social: 
 redirect_from:
 - /com.squareup.cash/
-developerName: Square, Inc.
+developerName: Block, Inc.
 features: 
 
 ---

@@ -76,12 +76,39 @@ function searchTrigger() {
   clearTimeout(window.walletSearchTimeoutTrigger)
   if (window.searchTerm && window.searchTerm.length > 1) {
     window.walletSearchTimeoutTrigger = setTimeout(() => {
-      searchCatalogueNav(window.searchTerm)
+      doNavBarSearch(window.searchTerm)
     }, 200)
   }
 }
-window.temporarySearchValue = ""
-function searchCatalogueNav(input) {
+
+let versionTaggedWallets = []
+var readerRec = []
+window.wallets.forEach(e => {
+
+  if (e.wsId) {
+    const wsId = e.wsId
+    var i = readerRec.indexOf(wsId)
+    if (wsId.length > 0 && i < 0) {
+      versionTaggedWallets.push(e)
+      readerRec.push(wsId)
+    } else {
+      // If we already added a product with this wsId, we add the new one as a
+      // "version" of the prior one.
+      const versionsI = versionTaggedWallets[i]['versions'] || []
+      versionsI.push(e)
+      versionTaggedWallets[i]['versions'] = versionsI
+    }
+  } else if (e.appId && e.appId.length > 0) {
+    // making sure the appId doesn't match any wsId:
+    const appId = `__${e.appId}__`
+    if (!readerRec.includes(appId)) {
+      versionTaggedWallets.push(e)
+      readerRec.push(appId)
+    }
+  }
+})
+
+function doNavBarSearch(input) {
   if (window.isHomepage) {
     deferSearch(input)
     return
@@ -89,48 +116,39 @@ function searchCatalogueNav(input) {
   document.body.classList.add("search-ui-active")
   const result = document.querySelector(".results-target")
   result.classList.add("visible")
-  const term = input.trim().toUpperCase()
+  const term = input.toUpperCase()
+
   const minTermLength = 1
-  window.temporarySearchValue = term;
   if (term.length > minTermLength) {
-    var matchCounter = 0
-    window.orderedObs.forEach(wallet => {
+    result.innerHTML = ''
+
+    let wallets = performSearch(versionTaggedWallets, term)
+
+    if (!wallets || wallets.length == 0) {
+      result.innerHTML = `<li onclick="event.stopPropagation();"><a style='font-size:.7rem;opacity:.7;text-style:italics;'>No matches</a></li>`
+      document.querySelector(".search-controls").classList.remove("working")
+    }
+    for (const wallet of wallets) {
       if (wallet.title) {
-        let searchableTerms = `${[wallet, ...(wallet.versions || [])].map(v => ` ${v.title} ${v.folder}/${v.appId} ${v.website}`).join(" ")}`
-
-        if (matchCounter < 1)
-          result.innerHTML = `<li onclick="event.stopPropagation();"><a style='font-size:.7rem;opacity:.7;text-style:italics;'>No matches</a></li>`
-        document.querySelector(".search-controls").classList.remove("working")
-        let index = searchableTerms.toLocaleUpperCase().indexOf(term)
-
-        if (index !== -1) {
-          if (matchCounter == 0) {
-            result.innerHTML = ""
-          }
-          const walletRow = document.createElement("li")
-          if (matchCounter < 10) {
-            walletRow.style['animation-delay'] = matchCounter * 80 + 'ms'
-          }
-          walletRow.classList.add("actionable")
-          let compactedResults = ""
-          compactedResults += makeCompactResultsHTML(wallet)
-
-
-          var walletGroupClass = ""
-          if (wallet.versions && wallet.versions.length > 0) {
-            for (let i = 0; i < wallet.versions.length; i++) {
-              searchableTerms += `${wallet.versions[i].category} ${wallet.versions[i].verdict} multi cross`;
-              compactedResults += makeCompactResultsHTML(wallet.versions[i])
-            }
-            walletGroupClass = "grouped"
-          }
-          walletRow.innerHTML = `<div class="${walletGroupClass}">${compactedResults}</div>`
-          document.querySelector(".search-controls").classList.remove("working")
-          result.append(walletRow)
-          matchCounter++
+        const walletRow = document.createElement("li")
+        if (wallets.length < 10) {
+          walletRow.style['animation-delay'] = wallets.length * 80 + 'ms'
         }
+        walletRow.classList.add("actionable")
+        let compactedResults = ""
+        compactedResults += makeCompactResultsHTML(wallet)
+        var walletGroupClass = ""
+        if (wallet.versions && wallet.versions.length > 0) {
+          for (let i = 0; i < wallet.versions.length; i++) {
+            compactedResults += makeCompactResultsHTML(wallet.versions[i])
+          }
+          walletGroupClass = "grouped"
+        }
+        walletRow.innerHTML = `<div class="${walletGroupClass}">${compactedResults}</div>`
+        document.querySelector(".search-controls").classList.remove("working")
+        result.append(walletRow)
       }
-    })
+    }
   } else if (term.length != 0) {
     var l = document.createElement("li")
     var rem = (minTermLength + 1) - term.length
@@ -138,11 +156,15 @@ function searchCatalogueNav(input) {
     l.innerHTML = `<a style='font-size:.7rem;opacity:.7;text-style:italics;'>Enter ${rem} more character${s} to search all records</a>`
     result.append(l)
   }
+  else {
+    document.querySelector(".search-controls").classList.remove("working")
+    result.innerHTML = ''
+  }
   searchScrollToTop()
 }
 
 function deferSearch(input) {
-  window.scroll(0,document.querySelector("#homepageSearch").offsetTop)
+  window.scroll(0, document.querySelector("#homepageSearch").offsetTop)
   document.querySelector(".search-filtered-wallets").value = input
   filterWalletsByName()
   document.querySelector(".search-filtered-wallets").focus()
@@ -156,6 +178,7 @@ function getIcon(name) {
     case "iphone": faCollection = "i-app-store"; break
     case "hardware": faCollection = "fas fa-toolbox"; break
     case "bearer": faCollection = "i-btc"; break
+    case "desktop": faCollection = "fas fa-desktop"; break
   }
   return faCollection
 }
@@ -178,10 +201,10 @@ function makeCompactResultsHTML(wallet) {
         </small>
       </span>
       <span class="stats">
-      ${ wallet.meta !== "outdated" ? `<span data-text="${window.verdicts[wallet.verdict].short}" class="stamp stamp-${wallet.verdict}" alt=""></span>` : "" }
-      ${ wallet.meta && wallet.meta !== "ok" ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>` : "" }
+      ${wallet.meta !== "outdated" ? `<span data-text="${window.verdicts[wallet.verdict].short}" class="stamp stamp-${wallet.verdict}" alt=""></span>` : ""}
+      ${wallet.meta && wallet.meta !== "ok" ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>` : ""}
       <div class="tests-passed" data-numerator="${wallet.score.numerator}" data-denominator="${wallet.score.denominator}">
-        <span>Passed ${wallet.score.numerator!==wallet.score.denominator?wallet.score.numerator:'all'} ${wallet.score.numerator!==wallet.score.denominator?'of':''} ${wallet.score.denominator} tests</span>
+        <span>Passed ${wallet.score.numerator !== wallet.score.denominator ? wallet.score.numerator : 'all'} ${wallet.score.numerator !== wallet.score.denominator ? 'of' : ''} ${wallet.score.denominator} tests</span>
         <div>${passed}${failed}</div>
       </div>
     </span>

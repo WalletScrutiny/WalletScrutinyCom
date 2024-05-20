@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.bitcoinexchangehani.buybitcoin.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nowallet
 date: 2021-11-10
 signer: 

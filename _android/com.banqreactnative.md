@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.banqreactnative.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: wip
-date: 2023-05-12
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 

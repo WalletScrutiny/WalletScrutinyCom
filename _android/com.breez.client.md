@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: breez
 title: 'Breez: Lightning Client & POS'
 altTitle: 
 authors:
@@ -10,7 +10,7 @@ users: 10000
 appId: com.breez.client
 appCountry: 
 released: 
-updated: 2023-04-09
+updated: 2023-10-24
 version: VARY
 stars: 
 ratings: 
@@ -23,9 +23,14 @@ icon: com.breez.client.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2023-06-24
+date: 2023-07-12
 signer: 
-reviewArchive: 
+reviewArchive:
+- date: 2023-06-24
+  version: 0.15.refund_hotfix
+  appHash: 
+  gitRevision: 3f6ea3a7e29487f3f7144bf5e7029b90d01e3d32
+  verdict: nonverifiable
 twitter: breez_tech
 social: 
 redirect_from:
@@ -38,6 +43,32 @@ features:
 - ln
 
 ---
+
+**Update: 2023-07-12**: We tested the app another round with the apk provided in Play Store and
+the result was the same as previous test:
+
+```
+$ podman build --rm -t breez_build_apk --ulimit=nofile=8192 --cgroup-manager cgroupfs -f scripts/test/container/com.breez.client
+$ podman run --rm --name breez_build_apk -it breez_build_apk
+$ diff --recursive --brief ./FromPlay/ ./LocalBuild/
+
+Files ./FromPlay/AndroidManifest.xml and ./LocalBuild/AndroidManifest.xml differ
+Only in ./FromPlay/META-INF: GOOGPLAY.RSA
+Only in ./FromPlay/META-INF: GOOGPLAY.SF
+Only in ./FromPlay/META-INF: MANIFEST.MF
+Files ./FromPlay/assets/dexopt/baseline.prof and ./LocalBuild/assets/dexopt/baseline.prof differ
+Files ./FromPlay/classes.dex and ./LocalBuild/classes.dex differ
+Files ./FromPlay/classes2.dex and ./LocalBuild/classes2.dex differ
+Files ./FromPlay/lib/arm64-v8a/libapp.so and ./LocalBuild/lib/arm64-v8a/libapp.so differ
+Files ./FromPlay/lib/arm64-v8a/libflutter.so and ./LocalBuild/lib/arm64-v8a/libflutter.so differ
+Files ./FromPlay/lib/arm64-v8a/libgojni.so and ./LocalBuild/lib/arm64-v8a/libgojni.so differ
+Only in ./LocalBuild/lib: armeabi-v7a
+Only in ./LocalBuild/lib: x86
+Only in ./LocalBuild/lib: x86_64
+Only in ./FromPlay/: stamp-cert-sha256
+```
+
+Which is **not verifiable**.
 
 **Update: 2023-06-24**: The provider released a new version but some of the building issues are not fixed yet.
 So building this project needs a lot of modifications that makes it hard to review. But finally we were able to

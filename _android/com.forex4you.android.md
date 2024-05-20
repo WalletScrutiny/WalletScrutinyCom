@@ -1,6 +1,6 @@
 ---
 wsId: forex4you
-title: Forex4you - Trading on Forex
+title: Markets4you - Online Trading
 altTitle: 
 authors:
 - danny
@@ -8,13 +8,13 @@ users: 100000
 appId: com.forex4you.android
 appCountry: th
 released: 2015-10-06
-updated: 2023-05-26
-version: 4.2.9
+updated: 2024-05-16
+version: 6.2.2
 stars: 4.5
 ratings: 2457
-reviews: 198
+reviews: 214
 size: 
-website: https://www.forex4you.com/en/
+website: https://www.markets4you.com/en/
 repository: 
 issue: 
 icon: com.forex4you.android.png

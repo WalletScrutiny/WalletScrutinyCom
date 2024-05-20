@@ -1,9 +1,10 @@
 ---
-wsId: HuobiWallet
+wsId: 
 title: 'iToken: Secure Crypto Wallet'
 altTitle: 
 authors:
 - kiwilamb
+- danny
 users: 1000000
 appId: com.huobionchainwallet.gp
 appCountry: 
@@ -19,7 +20,7 @@ repository:
 issue: 
 icon: com.huobionchainwallet.gp.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
 date: 2021-04-20
 signer: 
@@ -32,6 +33,18 @@ developerName: BlazekTech Internet Technology Service Limited
 features: 
 
 ---
+
+## Notes on Similar Apps
+
+This is the former Android app and is no longer available in the Play Store. It was replaced by:
+
+- {% include walletLink.html wallet='android/com.huobionchainwallet.itokenhd' verdict='true' %}
+
+As seen on the [web archive.](https://web.archive.org/web/20220603173723/https://www.itoken.com/)
+
+The iPhone version retained its app ID.
+
+## 2021-04-20 Review 
 
 From the description of the play store app the wallet provider clearly states the private keys are in control of the user....
 

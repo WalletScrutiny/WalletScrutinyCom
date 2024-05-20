@@ -1,6 +1,6 @@
 ---
 wsId: gleecCard
-title: Gleec Card
+title: Gleec Card Crypto-powered card
 altTitle: 
 authors:
 - danny
@@ -8,20 +8,20 @@ users: 5000
 appId: com.gleec
 appCountry: 
 released: 2021-02-26
-updated: 2022-12-29
-version: 3.0.0-gleec
-stars: 3.3
+updated: 2023-12-11
+version: '1.2'
+stars: 3.1
 ratings: 
-reviews: 6
+reviews: 7
 size: 
-website: https://gleec.com/app-ads.txt
+website: http://gleec.com/
 repository: 
 issue: 
 icon: com.gleec.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2023-04-22
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: GleecOfficial

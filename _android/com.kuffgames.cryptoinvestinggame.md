@@ -9,7 +9,7 @@ appCountry:
 released: 2021-07-08
 updated: 2021-07-31
 version: '1.1'
-stars: 
+stars: 4.8
 ratings: 
 reviews: 
 size: 
@@ -18,15 +18,15 @@ repository:
 issue: 
 icon: com.kuffgames.cryptoinvestinggame.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2022-11-02
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Küff Studios
+developerName: Paff Studios
 features: 
 
 ---

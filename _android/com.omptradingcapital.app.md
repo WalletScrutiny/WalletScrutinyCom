@@ -9,7 +9,7 @@ appCountry:
 released: 2020-12-12
 updated: 2020-12-12
 version: '1.0'
-stars: 
+stars: 3
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.omptradingcapital.app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-06-02
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

@@ -8,19 +8,19 @@ appId: io.lisk.mobile
 appCountry: us
 idd: '1436809559'
 released: 2018-10-05
-updated: 2022-03-21
-version: 2.1.1
-stars: 4.7
-reviews: 47
-size: '25532416'
+updated: 2023-12-13
+version: 3.0.1
+stars: 4.6
+reviews: 48
+size: '23826432'
 website: https://lisk.com/wallet
 repository: 
 issue: 
 icon: io.lisk.mobile.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nobtc
-date: 2023-05-05
+date: 2023-10-22
 signer: 
 reviewArchive: 
 twitter: LiskHQ
@@ -31,7 +31,7 @@ social:
 - https://t.me/Lisk_HQ
 - https://www.instagram.com/lisk_blockchain
 features: 
-developerName: Lisk Stiftung
+developerName: Onchain Stiftung
 
 ---
 

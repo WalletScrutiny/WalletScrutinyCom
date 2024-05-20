@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.oxbtc_Miner.iamswr.myapplication.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2022-01-02
 signer: 

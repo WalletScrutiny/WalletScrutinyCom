@@ -3,13 +3,13 @@ wsId:
 title: Swapuz
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.swapuz.mobile
 appCountry: 
 released: 2022-03-19
 updated: 2022-04-06
 version: 2022.04.06
-stars: 
+stars: 4
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.swapuz.mobile.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-06-03
+date: 2024-03-30
 signer: 
 reviewArchive: 
 twitter: 

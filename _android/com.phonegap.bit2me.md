@@ -1,6 +1,6 @@
 ---
 wsId: bit2me
-title: 'Bit2Me: Bitcoin and +200 more'
+title: Bit2Me - Bitcoin and Cryptos
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 100000
 appId: com.phonegap.bit2me
 appCountry: 
 released: 2015-01-08
-updated: 2023-06-23
-version: 2.12.1
-stars: 4.2
+updated: 2024-05-16
+version: 3.14.0
+stars: 4
 ratings: 5162
-reviews: 72
+reviews: 79
 size: 
 website: https://bit2me.com
 repository: 

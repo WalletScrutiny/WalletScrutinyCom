@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.tallin.wallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2022-12-17
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.invest4you.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-06-08
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: 

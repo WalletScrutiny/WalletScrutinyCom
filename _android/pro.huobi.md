@@ -1,6 +1,6 @@
 ---
 wsId: huobi
-title: 'Huobi: Buy Crypto & Bitcoin'
+title: 'HTX: Buy Crypto & Bitcoin'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 10000000
 appId: pro.huobi
 appCountry: 
 released: 2017-11-01
-updated: 2023-07-03
-version: 10.3.0
-stars: 3.7
+updated: 2024-05-15
+version: 10.24.1
+stars: 3
 ratings: 31840
-reviews: 444
+reviews: 440
 size: 
 website: http://www.hbg.com
 repository: 

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: cc.slicex.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2022-04-25
 signer: 

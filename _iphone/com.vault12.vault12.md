@@ -1,6 +1,6 @@
 ---
 wsId: vault12
-title: 'Vault12 Guard: Inherit+Secure'
+title: Vault12 Guard Inheritance
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.vault12.vault12
 appCountry: us
 idd: '1451596986'
 released: 2019-08-28
-updated: 2023-06-29
-version: 2.0.2
-stars: 4.7
-reviews: 15
-size: '43008000'
+updated: 2024-04-24
+version: 2.2.0
+stars: 4.5
+reviews: 17
+size: '74805248'
 website: https://vault12.com/guard
 repository: https://github.com/vault12
 issue: 

@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.cryptowallet.cryptowalletmobile.prod.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2021-11-22
 signer: 

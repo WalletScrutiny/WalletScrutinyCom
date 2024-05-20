@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-09-02
 updated: 2023-04-13
 version: 3.0.391
-stars: 3.7
+stars: 3.5
 ratings: 372
 reviews: 17
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.fluxpayment.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-10-24
+date: 2024-04-09
 signer: 
 reviewArchive: 
 twitter: ifluxdotapp

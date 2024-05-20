@@ -6,3 +6,7 @@ node_modules/
 .history
 .settings/
 .project
+.bundle/
+.vscode/
+vendor/
+images/social/

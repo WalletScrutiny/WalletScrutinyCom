@@ -1,14 +1,15 @@
 ---
-wsId: 
+wsId: holloxWallet
 title: Hollox:Bitcoin & Crypto Wallet
 altTitle: 
-authors: 
+authors:
+- danny
 users: 1000
 appId: finance.hollox.app
 appCountry: 
 released: 2022-11-13
-updated: 2022-11-17
-version: 1.0.0
+updated: 2023-07-16
+version: 6.0.2
 stars: 5
 ratings: 
 reviews: 6
@@ -19,15 +20,32 @@ issue:
 icon: finance.hollox.app.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-03
+verdict: custodial
+date: 2023-08-24
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: Holloxintl
+social:
+- https://www.facebook.com/holloxintl
+- https://www.instagram.com/holloxintl
 redirect_from: 
 developerName: XOXO TECHNOLOGIES LIMITED
 features: 
 
 ---
 
+## App Description from Google Play
+
+> Buy, sell, save or Pay bills all in one app. Hollox is a new and easier way to seamlessly take control of your finances.
+>
+> Instant Buy & sell service, & trading exchange provides a safe & secure military grade platform to buy BTC, BCH, USDT, ETH, DOT, ADA, XRP, and UNI, you can also trade DASH, DOGE,& other digital currencies & more.
+
+## Analysis 
+
+- We installed the app and successfully registered
+- We were not given a seed phrase
+- There is a legacy BTC address
+- The options were buy, sell, send and receive
+- There were no options to back up the private keys
+
+Although we could not find explicit evidence in its terms or on the website that the provider holds the private keys, this app is **custodial** because it does not provide the private keys to the user. The app is therefore, **not-verifiable**.

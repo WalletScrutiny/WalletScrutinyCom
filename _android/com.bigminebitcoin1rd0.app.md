@@ -3,7 +3,7 @@ wsId:
 title: BigMine Bitcoin
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.bigminebitcoin1rd0.app
 appCountry: 
 released: 2021-10-20
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bigminebitcoin1rd0.app.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2022-10-21
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

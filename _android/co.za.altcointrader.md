@@ -10,18 +10,18 @@ appCountry:
 released: 2020-05-06
 updated: 2022-10-10
 version: 1.1.0
-stars: 3.5
+stars: 3.6
 ratings: 835
-reviews: 5
+reviews: 6
 size: 
 website: https://www.altcointrader.co.za/
 repository: 
 issue: 
 icon: co.za.altcointrader.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-02-03
+date: 2023-10-06
 signer: 
 reviewArchive: 
 twitter: AltCoinTraderSA

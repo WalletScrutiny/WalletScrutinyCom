@@ -8,8 +8,8 @@ users: 1000
 appId: com.nosapps.android.get2cloudsx
 appCountry: 
 released: 2020-08-12
-updated: 2023-06-26
-version: 1.1.553
+updated: 2023-08-15
+version: 1.1.603
 stars: 3.3
 ratings: 
 reviews: 3
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.nosapps.android.get2cloudsx.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-05-31
+date: 2023-09-15
 signer: 
 reviewArchive: 
 twitter: 

@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.ubankfx.forex.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosendreceive
 date: 2022-04-25
 signer: 

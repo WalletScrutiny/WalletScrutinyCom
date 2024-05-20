@@ -10,7 +10,7 @@ appCountry:
 released: 2021-09-11
 updated: 2022-12-19
 version: 1.10.10
-stars: 4.6
+stars: 4.4
 ratings: 
 reviews: 5
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: exchange.waves.invest.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2023-04-13
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: WXNetwork

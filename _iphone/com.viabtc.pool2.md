@@ -1,6 +1,6 @@
 ---
 wsId: viaBTC
-title: ViaBTC - Global Mining Pool
+title: ViaBTC-Crypto Mining Pool
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.viabtc.pool2
 appCountry: hk
 idd: '1334584229'
 released: 2018-01-18
-updated: 2023-06-15
-version: 3.7.4
+updated: 2024-03-19
+version: 3.7.8
 stars: 4.8
 reviews: 12
-size: '88009728'
+size: '93805568'
 website: https://www.viabtc.com/
 repository: 
 issue: 

@@ -9,7 +9,7 @@ appCountry:
 released: 2021-10-10
 updated: 2022-08-16
 version: 1.7.0
-stars: 
+stars: 4.9
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitoket.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-06-22
+date: 2023-08-15
 signer: 
 reviewArchive: 
 twitter: 

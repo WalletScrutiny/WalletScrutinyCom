@@ -3,12 +3,12 @@ wsId:
 title: AT.Wallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.authentrend.atwallet
 appCountry: 
 released: 2020-07-13
-updated: 2023-01-17
-version: v2.0.11
+updated: 2023-09-28
+version: v2.0.12
 stars: 
 ratings: 
 reviews: 

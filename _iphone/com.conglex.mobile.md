@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.conglex.mobile.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-03-30
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: conglexglobal

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bihodl.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2021-10-21
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 

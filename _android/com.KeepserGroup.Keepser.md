@@ -8,8 +8,8 @@ users: 50
 appId: com.KeepserGroup.Keepser
 appCountry: 
 released: 2021-07-22
-updated: 2023-04-05
-version: 1.6.5
+updated: 2023-08-30
+version: 1.6.7
 stars: 
 ratings: 
 reviews: 
@@ -32,7 +32,7 @@ features:
 
 ---
 
-This is the companion app to the cold wallet Keepser.
+This is the companion app to the device called: {% include walletLink.html wallet='hardware/keepser' verdict='true' %}
 
 ## Google Play Description 
 

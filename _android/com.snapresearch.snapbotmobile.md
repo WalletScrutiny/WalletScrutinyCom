@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.snapresearch.snapbotmobile.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2021-08-08
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

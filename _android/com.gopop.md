@@ -3,12 +3,12 @@ wsId:
 title: Pop
 altTitle: 
 authors: 
-users: 10
+users: 100
 appId: com.gopop
 appCountry: 
 released: 2022-08-01
-updated: 2023-04-10
-version: '3.0'
+updated: 2023-10-05
+version: 3.0.2
 stars: 
 ratings: 
 reviews: 
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Polka S.A.
+developerName: Darwin ID E.A.S
 features: 
 
 ---

@@ -4,15 +4,15 @@ title: 'OneKey: Blockchain DeFi Wallet'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: so.onekey.app.wallet
 appCountry: 
 released: 2022-04-27
-updated: 2023-06-28
-version: 4.8.1
-stars: 4.4
+updated: 2024-03-27
+version: 4.23.0
+stars: 3.9
 ratings: 
-reviews: 42
+reviews: 70
 size: 
 website: https://onekey.so
 repository: https://github.com/OneKeyHQ/app-monorepo

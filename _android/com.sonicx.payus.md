@@ -3,7 +3,7 @@ wsId:
 title: PayUs
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.sonicx.payus
 appCountry: 
 released: 2021-02-06

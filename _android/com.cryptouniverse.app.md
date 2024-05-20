@@ -9,7 +9,7 @@ appCountry:
 released: 2020-07-03
 updated: 2020-07-03
 version: 1.0.0
-stars: 
+stars: 2
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cryptouniverse.app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-07-01
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

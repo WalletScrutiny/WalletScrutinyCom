@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.finnswap.app.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-03-11
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: 

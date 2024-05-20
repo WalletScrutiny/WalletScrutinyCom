@@ -3,7 +3,7 @@ wsId:
 title: Trix
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.trixwallet
 appCountry: 
 released: 2021-12-20
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.trixwallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-06-02
+date: 2023-12-13
 signer: 
 reviewArchive: 
 twitter: 

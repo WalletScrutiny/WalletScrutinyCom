@@ -1,17 +1,18 @@
 ---
-wsId: 
+wsId: stackWallet
 title: Stack Wallet by Cypher Stack
 altTitle: 
-authors: 
+authors:
+- danny
 appId: com.cypherstack.stackwallet
 appCountry: 
 idd: '1634811534'
 released: 2022-08-26
-updated: 2023-06-21
-version: 1.7.14
-stars: 3.7
-reviews: 12
-size: '104763392'
+updated: 2024-05-14
+version: 2.0.0
+stars: 4.1
+reviews: 14
+size: '174427136'
 website: https://stackwallet.com/
 repository: 
 issue: 
@@ -19,13 +20,18 @@ icon: com.cypherstack.stackwallet.jpg
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2023-03-23
+date: 2023-09-08
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: stack_wallet
+social:
+- https://discord.com/invite/mRPZuXx3At
+- https://t.me/stackwallet
+- https://www.reddit.com/r/stackwallet
+- https://www.youtube.com/channel/UCqCtpXsLyNIle1uOO2DU7JA
 features: 
 developerName: Cypher Stack LLC
 
 ---
 
+{% include copyFromAndroid.html %}

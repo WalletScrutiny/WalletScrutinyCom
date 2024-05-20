@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: africa.talos.android.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2023-05-06
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: TalosAfrica

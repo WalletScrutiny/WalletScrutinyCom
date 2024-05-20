@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: thisApp
+title: thisAppBudget
 altTitle: 
 authors: 
 users: 500
 appId: io.thisapp
 appCountry: 
 released: 2018-09-27
-updated: 2023-03-16
-version: 0.22.0
+updated: 2024-04-07
+version: 1.1.0
 stars: 
 ratings: 
 reviews: 

@@ -10,18 +10,18 @@ appCountry:
 released: 2021-07-01
 updated: 2021-12-14
 version: '6.7'
-stars: 
+stars: 3.8
 ratings: 
-reviews: 
+reviews: 2
 size: 
 website: https://betconix.com/
 repository: 
 issue: 
 icon: com.betconix.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2022-12-17
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: betconix

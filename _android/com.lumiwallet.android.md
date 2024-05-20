@@ -8,11 +8,11 @@ users: 100000
 appId: com.lumiwallet.android
 appCountry: 
 released: 2018-01-15
-updated: 2022-09-26
-version: 4.1.5
+updated: 2023-07-11
+version: 4.1.6
 stars: 4
 ratings: 6388
-reviews: 272
+reviews: 266
 size: 
 website: https://lumiwallet.com
 repository: 
@@ -30,7 +30,7 @@ social:
 redirect_from:
 - /com.lumiwallet.android/
 - /posts/com.lumiwallet.android/
-developerName: LUMI SOFTWARE LTD
+developerName: NO ONE FZCO
 features: 
 
 ---

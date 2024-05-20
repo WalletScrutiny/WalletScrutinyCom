@@ -18,7 +18,7 @@ repository: https://github.com/TP-Lab/tp-ios
 issue: https://github.com/TP-Lab/tp-ios/issues/1
 icon: com.tp.ios.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: obfuscated
 date: 2023-01-11
 signer: 

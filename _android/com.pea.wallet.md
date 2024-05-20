@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.pea.wallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-04-27
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

@@ -7,8 +7,8 @@ users: 500
 appId: com.lyo.merchant
 appCountry: 
 released: 2022-09-23
-updated: 2023-01-20
-version: 1.0.9
+updated: 2023-07-31
+version: 1.1.0
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.lyo.merchant.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-06-03
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: 

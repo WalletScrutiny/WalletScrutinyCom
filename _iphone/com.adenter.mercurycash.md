@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.adenter.mercurycash.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-01-02
 signer: 

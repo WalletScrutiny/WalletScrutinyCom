@@ -10,18 +10,18 @@ appCountry:
 released: 2022-03-10
 updated: 2022-11-23
 version: 0.16BETA
-stars: 3.9
+stars: 4.1
 ratings: 
-reviews: 4
+reviews: 3
 size: 
 website: https://stibits.com
 repository: 
 issue: 
 icon: com.stibits.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-04-11
+date: 2023-11-25
 signer: 
 reviewArchive: 
 twitter: stibits

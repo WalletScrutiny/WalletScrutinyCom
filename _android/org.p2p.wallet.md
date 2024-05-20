@@ -8,8 +8,8 @@ users: 10000
 appId: org.p2p.wallet
 appCountry: 
 released: 2021-10-23
-updated: 2023-06-01
-version: 2.7.1
+updated: 2023-07-05
+version: 2.8.0
 stars: 4
 ratings: 
 reviews: 3
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: org.p2p.wallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
-date: 2023-05-06
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: 

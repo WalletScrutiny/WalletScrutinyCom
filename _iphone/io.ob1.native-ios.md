@@ -17,7 +17,7 @@ repository: https://github.com/OpenBazaar/haven
 issue: 
 icon: io.ob1.native-ios.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nonverifiable
 date: 2021-01-15
 signer: 

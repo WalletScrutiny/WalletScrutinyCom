@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.dobuyapplication.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2023-05-23
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: 

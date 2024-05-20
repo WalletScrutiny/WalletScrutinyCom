@@ -4,15 +4,15 @@ title: BigONE - Bitcoin Trading
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: one.big
 appCountry: us
 released: 2019-10-30
-updated: 2023-06-29
-version: 2.3.9
+updated: 2024-05-10
+version: 2.4.610
 stars: 4
 ratings: 836
-reviews: 54
+reviews: 55
 size: 
 website: https://www.b1.zone/
 repository: 

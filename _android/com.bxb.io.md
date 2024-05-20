@@ -2,7 +2,8 @@
 wsId: 
 title: BXB-Virtual contract BTC&NFT
 altTitle: 
-authors: 
+authors:
+- danny
 users: 10000
 appId: com.bxb.io
 appCountry: 
@@ -18,9 +19,9 @@ repository:
 issue: 
 icon: com.bxb.io.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: wip
-date: 2023-06-02
+date: 2023-08-05
 signer: 
 reviewArchive: 
 twitter: 
@@ -30,4 +31,18 @@ developerName: Teko Ecommerce Sdn Bhd
 features: 
 
 ---
+
+## App Description from Google Play
+
+> The easiest and easy to use exchange, even if you have never understood the blockchain and do not have any digital currency investment experience, BXB can also enable you to become a digital currency investment expert in 5 minutes.
+>
+> Support multi-currency transactions: LTC/BTC、ETH/BTC、BCH/BTC、ETC/BTC、BTC/USDT、LTC/USDT、ETH/USDT、BCH/USDT、ETC/USDT.
+>
+> Diverse deposit methods, safe and fast withdrawal
+
+## Analysis 
+
+- Their website is offline.
+- The app just displays the logo.
+- This app is **defunct**
 

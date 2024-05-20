@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.hunter.wallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2022-06-22
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 

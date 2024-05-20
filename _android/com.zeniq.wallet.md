@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.zeniq.wallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2022-03-11
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: Zeniq_tech

@@ -10,18 +10,18 @@ appCountry:
 released: 2021-12-19
 updated: 2022-01-19
 version: 1.1.2
-stars: 
+stars: 4.4
 ratings: 
-reviews: 
+reviews: 5
 size: 
 website: https://coinkit.de
 repository: 
 issue: 
 icon: com.blockcurators.coinkit.png
 bugbounty: 
-meta: stale
-verdict: wip
-date: 2023-03-29
+meta: obsolete
+verdict: custodial
+date: 2024-01-16
 signer: 
 reviewArchive: 
 twitter: coinkit_
@@ -31,6 +31,18 @@ developerName: Blockcurators GmbH
 features: 
 
 ---
+
+## Update 2023-08-07
+
+It has been several months since CoinKit has made their announcement enjoining users to withdraw their funds and the apparent creation of a new wallet.
+
+We decided to take a look.
+
+- The app has not been updated since the announcement was made. 
+- Errors appear when we try to sign up.
+- It appears that this is still a **custodial** provider.
+
+## Previous Review 2023-03-29
 
 {{ page.title }} has a recent [announcement](https://twitter.com/coinkit_/status/1637754800245809153) made on Twitter: 
 

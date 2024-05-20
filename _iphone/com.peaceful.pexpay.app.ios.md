@@ -10,17 +10,17 @@ idd: '1618178873'
 released: 2022-04-11
 updated: 2023-06-16
 version: 1.19.0
-stars: 3.5
-reviews: 14
+stars: 3.6
+reviews: 16
 size: '347850752'
 website: https://www.pexpay.com
 repository: 
 issue: 
 icon: com.peaceful.pexpay.app.ios.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-04-11
+date: 2023-09-15
 signer: 
 reviewArchive: 
 twitter: Pexpay_official

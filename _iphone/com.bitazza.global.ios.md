@@ -1,6 +1,6 @@
 ---
 wsId: bitazzaGL
-title: BTZ
+title: Bitazza
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.bitazza.global.ios
 appCountry: th
 idd: '1612226119'
 released: 2022-04-07
-updated: 2023-06-29
-version: 2.9.2
-stars: 4
-reviews: 25
-size: '153024512'
+updated: 2024-05-13
+version: 3.7.2
+stars: 4.3
+reviews: 59
+size: '173999104'
 website: https://www.bitazza.com
 repository: 
 issue: 
@@ -33,5 +33,4 @@ developerName: Bitazza Company Limited
 
 ---
 
-{% include walletLink.html wallet='android/' verdict='true' %}
-
+{% include copyFromAndroid.html %}

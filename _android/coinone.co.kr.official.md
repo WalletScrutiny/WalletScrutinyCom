@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: coinOneKr
 title: 코인원 - Coinone
 altTitle: 
 authors:
@@ -8,11 +8,11 @@ users: 1000000
 appId: coinone.co.kr.official
 appCountry: 
 released: 2018-01-28
-updated: 2023-06-23
-version: 3.2.1
-stars: 3.3
+updated: 2024-05-17
+version: 4.13.1
+stars: 3.2
 ratings: 9232
-reviews: 12
+reviews: 14
 size: 
 website: https://coinone.co.kr
 repository: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.cmgroup.luna.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nowallet
-date: 2023-04-21
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

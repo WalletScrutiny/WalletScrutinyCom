@@ -8,11 +8,11 @@ users: 100000
 appId: com.sticpay.app.sticpay
 appCountry: us
 released: 2017-08-31
-updated: 2023-05-30
-version: '3.96'
-stars: 4.1
+updated: 2024-04-25
+version: '4.13'
+stars: 3.8
 ratings: 380
-reviews: 4
+reviews: 8
 size: 
 website: http://sticpay.com
 repository: 

@@ -9,7 +9,7 @@ appCountry:
 released: 2022-09-28
 updated: 2023-01-05
 version: 1.5.3
-stars: 
+stars: 2.6
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.steaker.steaker_android.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-06-03
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

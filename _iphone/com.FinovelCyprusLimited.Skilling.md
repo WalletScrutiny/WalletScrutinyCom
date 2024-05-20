@@ -8,19 +8,19 @@ appId: com.FinovelCyprusLimited.Skilling
 appCountry: gb
 idd: 1441386723
 released: 2019-05-30
-updated: 2023-06-20
-version: 2.0.3
+updated: 2023-10-09
+version: 2.2.1
 stars: 4.9
 reviews: 12
-size: '18405376'
+size: '20263936'
 website: https://skilling.com
 repository: 
 issue: 
 icon: com.FinovelCyprusLimited.Skilling.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosendreceive
-date: 2021-10-10
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: SkillingTrading

@@ -11,16 +11,16 @@ updated: 2022-03-02
 version: '2.0'
 stars: 5
 ratings: 
-reviews: 20
+reviews: 18
 size: 
 website: https://decurian.com
 repository: 
 issue: 
 icon: com.decurian.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-03-03
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

@@ -9,18 +9,18 @@ appCountry:
 released: 2018-12-13
 updated: 2020-10-29
 version: 2.1.6
-stars: 3.4
+stars: 3.1
 ratings: 
-reviews: 10
+reviews: 8
 size: 
 website: http://www.hubrisone.com
 repository: 
 issue: 
 icon: com.nettechnocrats.hubrisone.hubrisone.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2022-11-02
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: 

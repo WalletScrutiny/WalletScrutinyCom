@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.wanchain.WanWallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 date: 2022-04-07
 signer: 

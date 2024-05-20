@@ -1,0 +1,38 @@
+---
+wsId: swissQuoteAdvancedTrader
+title: Swissquote CFXD
+altTitle: 
+authors:
+- danny
+appId: com.acm.Mobile-Trader
+appCountry: ch
+idd: '340408565'
+released: 2009-12-09
+updated: 2024-04-09
+version: 3.23.1
+stars: 4.2
+reviews: 546
+size: '59527168'
+website: https://www.swissquote.com/en-ch/private/trade/products/forex
+repository: 
+issue: 
+icon: com.acm.Mobile-Trader.jpg
+bugbounty: 
+meta: ok
+verdict: custodial
+date: 2023-11-02
+signer: 
+reviewArchive: 
+twitter: Swissquote
+social:
+- https://www.linkedin.com/company/swissquote
+- https://www.facebook.com/Swissquote.en
+- https://www.youtube.com/user/SwissquoteBank
+- https://www.instagram.com/swissquote_official
+- https://www.tiktok.com/@swissquote_official
+features: 
+developerName: Swissquote
+
+---
+
+{% include copyFromAndroid.html %}

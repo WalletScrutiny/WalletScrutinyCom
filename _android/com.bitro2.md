@@ -10,7 +10,7 @@ appCountry:
 released: 2020-12-09
 updated: 2021-12-30
 version: 1.0.80
-stars: 
+stars: 4.2
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bitro2.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: wip
-date: 2023-05-13
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

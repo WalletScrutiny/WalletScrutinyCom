@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.stibits.wallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-04-11
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: stibits

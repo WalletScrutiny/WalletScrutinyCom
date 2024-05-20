@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.unhack.bip38decrypt.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-07-31
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

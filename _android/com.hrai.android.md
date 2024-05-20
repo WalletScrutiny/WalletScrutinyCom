@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.hrai.android.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-04-22
 signer: 

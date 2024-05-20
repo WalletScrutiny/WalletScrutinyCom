@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: cryptocurrency.bitcoin.altcoin.tracker.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
-date: 2023-06-12
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

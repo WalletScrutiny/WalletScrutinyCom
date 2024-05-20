@@ -8,11 +8,11 @@ users: 100000
 appId: com.chlegou.bitbot
 appCountry: 
 released: 2019-01-02
-updated: 2022-08-10
-version: 1.6.4
-stars: 4.1
+updated: 2024-04-22
+version: 2.0.1
+stars: 4
 ratings: 7718
-reviews: 430
+reviews: 432
 size: 
 website: https://bitbot.plus
 repository: 
@@ -21,7 +21,7 @@ icon: com.chlegou.bitbot.png
 bugbounty: 
 meta: ok
 verdict: nowallet
-date: 2021-11-01
+date: 2024-04-24
 signer: 
 reviewArchive: 
 twitter: 

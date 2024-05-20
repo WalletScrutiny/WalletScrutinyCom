@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ccwallet.app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-06-02
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: 

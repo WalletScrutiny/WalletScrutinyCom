@@ -2,14 +2,15 @@
 wsId: 
 title: MacaronSwap - Dex and Staking
 altTitle: 
-authors: 
+authors:
+- danny
 users: 1000
 appId: com.macaron_swap
 appCountry: 
 released: 2022-04-14
 updated: 2023-05-03
 version: 1.6.8
-stars: 
+stars: 3.6
 ratings: 
 reviews: 
 size: 
@@ -18,9 +19,9 @@ repository:
 issue: 
 icon: com.macaron_swap.png
 bugbounty: 
-meta: ok
-verdict: wip
-date: 2023-06-03
+meta: stale
+verdict: nobtc
+date: 2024-04-28
 signer: 
 reviewArchive: 
 twitter: 
@@ -30,4 +31,21 @@ developerName: MacaronSwap
 features: 
 
 ---
+
+## App Description from Google Play
+
+> MacaronSwap is a decentralized Cross-Chain Farm-Staking and Exchange Platform. MacaronSwap uses an automated market maker (AMM) model.
+>
+> New Features:
+> - MCandy daily rewards
+> - Binance Wallet support
+> - Multichain support
+> - Wallet Screen
+> - Multisender Screen
+> - Collectibles Screen
+> - Bridge Screen
+
+## Analysis 
+
+-  This app supports the Binance Smart Chain and **does not support BTC** on the bitcoin blockchain.
 

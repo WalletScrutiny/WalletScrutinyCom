@@ -10,18 +10,18 @@ appCountry: vn
 released: 2021-01-13
 updated: 2023-03-20
 version: 2.4.10
-stars: 4.5
+stars: 4.3
 ratings: 1064
-reviews: 122
+reviews: 125
 size: 
 website: https://kardiachain.io/
 repository: 
 issue: 
 icon: com.kardiawallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2021-09-15
+date: 2024-03-15
 signer: 
 reviewArchive: 
 twitter: KardiaChain

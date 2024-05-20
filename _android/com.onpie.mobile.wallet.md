@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.onpie.mobile.wallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2022-07-31
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

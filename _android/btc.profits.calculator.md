@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: btc.profits.calculator.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2021-10-03
 signer: 

@@ -11,16 +11,16 @@ released: 2017-05-01
 updated: 2022-04-13
 version: '3.50'
 stars: 4.1
-reviews: 48
+reviews: 49
 size: '31123456'
 website: https://www.gcmasia.com/en/
 repository: 
 issue: 
 icon: com.gcmasia.pro.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nowallet
-date: 2023-04-13
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.webcom.Xfacia.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-04-13
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: XfaciaXchange

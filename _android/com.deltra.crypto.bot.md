@@ -13,14 +13,14 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: 
+website: https://www.xrstudio.in
 repository: 
 issue: 
 icon: com.deltra.crypto.bot.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-03
+date: 2024-04-29
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.pleiades.wallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: wip
-date: 2023-06-02
+date: 2023-08-25
 signer: 
 reviewArchive: 
 twitter: 

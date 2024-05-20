@@ -12,16 +12,16 @@ updated: 2022-07-26
 version: 2.2.5
 stars: 4.9
 ratings: 
-reviews: 714
+reviews: 707
 size: 
 website: http://www.vsolidus.com/
 repository: 
 issue: 
 icon: net.novawallet.android.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-03-05
+date: 2023-07-22
 signer: 
 reviewArchive: 
 twitter: solidus_v

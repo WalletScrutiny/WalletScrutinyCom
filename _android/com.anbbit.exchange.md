@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.anbbit.exchange.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-12-26
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 

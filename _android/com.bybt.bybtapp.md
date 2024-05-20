@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.bybt.bybtapp.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fake
 date: 2021-11-16
 signer: 

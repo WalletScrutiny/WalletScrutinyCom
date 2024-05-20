@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.blockchain.edcwallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
 date: 2023-01-02
 signer: 

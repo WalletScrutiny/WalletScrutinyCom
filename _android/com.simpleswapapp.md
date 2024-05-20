@@ -4,15 +4,15 @@ title: Crypto Exchange - Buy & Sell
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.simpleswapapp
 appCountry: gb
 released: 2020-05-23
-updated: 2023-06-26
-version: 4.0.2
-stars: 4.3
+updated: 2024-04-19
+version: 4.1.11
+stars: 4.2
 ratings: 575
-reviews: 44
+reviews: 40
 size: 
 website: https://simpleswap.io
 repository: 

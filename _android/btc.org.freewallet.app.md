@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: btcFreeWallet
 title: Bitcoin Wallet - BTC Exchange
 altTitle: 
 authors:
@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: btc.org.freewallet.app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-01-02
 signer: 

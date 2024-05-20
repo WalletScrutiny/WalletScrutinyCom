@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: MB | Mercado Bitcoin
+title: 'MB | Mercado Bitcoin: criptos'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 1000000
 appId: br.com.mercadobitcoin.android
 appCountry: 
 released: 2019-07-25
-updated: 2023-06-30
-version: 1.71.0
-stars: 4.2
+updated: 2024-05-10
+version: 2.16.0
+stars: 4
 ratings: 51097
-reviews: 56
+reviews: 66
 size: 
 website: http://www.mercadobitcoin.com.br
 repository: 

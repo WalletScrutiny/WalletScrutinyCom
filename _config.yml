@@ -147,7 +147,7 @@ exclude:
   - vendor
   - resSources
   - scripts
-  - "refresh*.js"
+  - "refresh*.mjs"
   - google-play-scraper
 keep_files:
   - .git
@@ -194,6 +194,9 @@ collections:
     output: true
     permalink: /:collection/:path/
   bearer:
+    output: true
+    permalink: /:collection/:path/
+  desktop:
     output: true
     permalink: /:collection/:path/
 
@@ -271,6 +274,17 @@ defaults:
       comments: false
       share: true
       related: false
+  # desktop
+  - scope:
+      path: ""
+      type: "desktop"
+    values:
+      layout: reviewDesktop
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: false      
   # _pages
   - scope:
       path: ""

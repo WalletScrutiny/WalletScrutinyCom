@@ -7,8 +7,8 @@ users: 500
 appId: com.bullcoin.app
 appCountry: 
 released: 2021-02-22
-updated: 2021-03-30
-version: 1.2.1
+updated: 2023-07-11
+version: 1.2.2
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bullcoin.app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-03-20
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

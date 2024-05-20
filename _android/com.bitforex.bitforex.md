@@ -4,15 +4,15 @@ title: BitForex
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.bitforex.bitforex
 appCountry: 
 released: 2022-03-17
-updated: 2023-06-16
-version: 3.4.9
-stars: 4.8
+updated: 2023-10-25
+version: 3.5.5
+stars: 3.9
 ratings: 
-reviews: 19
+reviews: 47
 size: 
 website: https://www.bitforex.com
 repository: 

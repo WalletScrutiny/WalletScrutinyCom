@@ -1,6 +1,6 @@
 ---
 wsId: bitopro
-title: BitoPro Crypto Exchange
+title: BitoPro虛擬貨幣交易所
 altTitle: 
 authors:
 - danny
@@ -8,19 +8,19 @@ appId: com.bitoex.bitopro
 appCountry: us
 idd: 1393007496
 released: 2018-08-03
-updated: 2022-11-03
-version: 4.4.1
+updated: 2023-08-09
+version: 4.4.7
 stars: 2
-reviews: 4
-size: '142578688'
+reviews: 5
+size: '125454336'
 website: https://www.bitopro.com/
 repository: 
 issue: 
 icon: com.bitoex.bitopro.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-10-05
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: BitoEX_Official

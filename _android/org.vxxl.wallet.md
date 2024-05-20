@@ -3,7 +3,7 @@ wsId:
 title: 'VXW : VXXL wallet'
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: org.vxxl.wallet
 appCountry: 
 released: 2022-09-26
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.vxxl.wallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-06-03
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

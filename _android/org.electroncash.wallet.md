@@ -9,18 +9,18 @@ appCountry:
 released: 2018-12-08
 updated: 2023-03-21
 version: 4.2.14-6
-stars: 4.1
+stars: 4.2
 ratings: 191
-reviews: 11
+reviews: 17
 size: 
 website: https://electroncash.org
 repository: 
 issue: 
 icon: org.electroncash.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-03-21
+date: 2024-03-19
 signer: 
 reviewArchive: 
 twitter: 
@@ -28,7 +28,7 @@ social:
 redirect_from:
 - /org.electroncash.wallet/
 - /posts/org.electroncash.wallet/
-developerName: Jonald Fyookball
+developerName: XULU.TECH LLC
 features: 
 
 ---

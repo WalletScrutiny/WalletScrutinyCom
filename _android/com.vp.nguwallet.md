@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.vp.nguwallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-05-04
+date: 2024-04-29
 signer: 
 reviewArchive: 
 twitter: 

@@ -10,18 +10,18 @@ appCountry:
 released: 2016-04-03
 updated: 2020-12-30
 version: 3.5.4
-stars: 3.7
+stars: 3.6
 ratings: 266
-reviews: 10
+reviews: 9
 size: 
 website: https://www.coinsbank.com
 repository: 
 issue: 
 icon: com.CoinsBank.CoinsBank.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2022-12-21
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: 

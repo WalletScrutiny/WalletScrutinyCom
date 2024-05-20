@@ -12,8 +12,15 @@ test() {
   "
   return
   podman rmi -f piukblockchain
-  podman build --build-arg REVISION="$rev" --tag piukblockchain --file=$TEST_ANDROID_DIR/piuk.blockchain.android.container
-  podman run -it --volume $workDir:/mnt --rm piukblockchain bash -c \
+  podman build \
+    --build-arg REVISION="$rev" \
+    --tag piukblockchain \
+    --file=$TEST_ANDROID_DIR/piuk.blockchain.android.dockerfile
+  podman run \
+    -it \
+    --volume $workDir:/mnt \
+    --rm piukblockchain \
+    bash -c \
       'cp app/build/outputs/apk/envProd/release/*.apk /mnt/'
 
   podman rmi piukblockchain -f

@@ -9,7 +9,7 @@ appCountry:
 released: 2021-03-11
 updated: 2021-05-11
 version: v1.0.4
-stars: 
+stars: 3.9
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ciclex.app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-05-04
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

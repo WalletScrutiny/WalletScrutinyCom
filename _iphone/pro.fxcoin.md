@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: pro.fxcoin.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nowallet
 date: 2021-10-20
 signer: 

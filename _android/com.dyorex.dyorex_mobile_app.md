@@ -4,13 +4,13 @@ title: DyorEX Exchange
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 10000
 appId: com.dyorex.dyorex_mobile_app
 appCountry: 
 released: 2022-02-24
-updated: 2023-06-02
-version: 1.4.5
-stars: 
+updated: 2023-11-11
+version: 1.4.9
+stars: 4.9
 ratings: 
 reviews: 
 size: 

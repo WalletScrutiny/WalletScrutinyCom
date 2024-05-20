@@ -12,16 +12,16 @@ released: 2020-03-05
 updated: 2023-06-23
 version: 1.2.0
 stars: 3.6
-reviews: 149
+reviews: 163
 size: '128094208'
 website: http://www.coinzoom.com
 repository: 
 issue: 
 icon: com.ios.coinzoom.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-04-20
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: GetCoinZoom

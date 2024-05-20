@@ -10,17 +10,17 @@ idd: '1583907652'
 released: 2021-10-24
 updated: 2023-06-16
 version: 1.6.82
-stars: 4.7
-reviews: 33
+stars: 4.5
+reviews: 31
 size: '65753088'
 website: https://www.vibra.one/
 repository: 
 issue: 
 icon: com.abl.vibra.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-02-03
+date: 2023-09-04
 signer: 
 reviewArchive: 
 twitter: VibraAfrica

@@ -7,8 +7,8 @@ users: 500
 appId: com.bitcoinpoint.uk
 appCountry: 
 released: 2022-04-28
-updated: 2023-05-25
-version: 6.4.0
+updated: 2023-10-08
+version: 6.4.6
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitcoinpoint.uk.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2022-07-31
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

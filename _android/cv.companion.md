@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: cv.companion.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2022-10-21
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: 

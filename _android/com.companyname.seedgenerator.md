@@ -3,7 +3,7 @@ wsId:
 title: Seed Generator
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.companyname.seedgenerator
 appCountry: 
 released: 2022-12-11
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.companyname.seedgenerator.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-03
+date: 2023-12-13
 signer: 
 reviewArchive: 
 twitter: 

@@ -10,7 +10,7 @@ appCountry:
 released: 2019-05-13
 updated: 2022-06-12
 version: 2.4.1
-stars: 4.6
+stars: 4.7
 ratings: 
 reviews: 23
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: network.minter.bipwallet.mainnet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nobtc
-date: 2023-06-08
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

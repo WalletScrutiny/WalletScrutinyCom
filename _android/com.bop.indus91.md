@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bop.indus91.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: wip
-date: 2023-06-02
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: 

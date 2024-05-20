@@ -9,7 +9,7 @@ appCountry:
 released: 2022-04-11
 updated: 2022-04-11
 version: 3.0.3.1
-stars: 
+stars: 4.1
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.kodular.yogeshmaurya72.PletoBNB.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2023-04-06
+date: 2024-04-02
 signer: 
 reviewArchive: 
 twitter: 

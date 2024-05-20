@@ -10,18 +10,18 @@ appCountry:
 released: 2019-04-23
 updated: 2019-08-29
 version: 1.0.12
-stars: 4.1
+stars: 3.9
 ratings: 232
-reviews: 15
+reviews: 16
 size: 
 website: https://magnumwallet.co
 repository: 
 issue: 
 icon: com.magnum.wallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
-date: 2021-08-19
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: magnum_wallet

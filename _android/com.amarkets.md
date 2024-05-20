@@ -1,18 +1,18 @@
 ---
 wsId: AMarkets
-title: AMarkets Online Analytics
+title: 'AMarkets: Trade & Invest'
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.amarkets
 appCountry: us
 released: 2019-05-31
-updated: 2023-06-30
-version: 1.3.401
-stars: 4.4
+updated: 2024-05-16
+version: 2.1.37
+stars: 4.5
 ratings: 2509
-reviews: 104
+reviews: 161
 size: 
 website: https://www.amarkets.com
 repository: 

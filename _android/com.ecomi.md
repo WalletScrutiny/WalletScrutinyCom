@@ -8,9 +8,9 @@ users: 10000
 appId: com.ecomi
 appCountry: 
 released: 2018-08-15
-updated: 2022-01-26
-version: 3.0.5
-stars: 3.1
+updated: 2024-02-14
+version: 3.0.8
+stars: 2.9
 ratings: 140
 reviews: 18
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.ecomi.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nowallet
-date: 2023-01-27
+date: 2023-09-20
 signer: 
 reviewArchive: 
 twitter: ecomi_

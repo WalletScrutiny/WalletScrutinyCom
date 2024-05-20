@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.callsfreecalls.android.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2021-08-21
 signer: 

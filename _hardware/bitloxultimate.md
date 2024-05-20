@@ -25,9 +25,9 @@ repository: https://github.com/BitLox/bitlox-firmware/releases/tag/v67_app
 issue: https://github.com/BitLox/bitlox-firmware/issues/3
 icon: bitloxultimate.png
 bugbounty: 
-meta: ok
+meta: obsolete
 verdict: wip
-date: 2021-12-12
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: bitlox
@@ -37,10 +37,13 @@ features:
 
 ---
 
+**Update 2024-04-03**: This project did share some code but that code is from
+2017. This project is obsolete.
+
 ## Updated Verdict 2022-11-25
 
-The device's firmware has recently been updated on April 20, 2022. 
-We [mark this device for verification](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/443).
+The device's firmware has recently been ~~updated~~ tagged on April 20, 2022. 
+~~We [mark this device for verification](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/443).~~
 
 ## Private keys can be created offline - ✔️
 

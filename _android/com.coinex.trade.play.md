@@ -1,6 +1,6 @@
 ---
 wsId: CoinEx
-title: CoinEx - Buy BTC, ETH Easily
+title: 'CoinEx: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.coinex.trade.play
 appCountry: 
 released: 2019-12-27
-updated: 2023-06-16
-version: 3.21.1
-stars: 4.3
+updated: 2024-05-06
+version: 3.29.3
+stars: 4.1
 ratings: 60269
-reviews: 1407
+reviews: 1416
 size: 
 website: https://www.coinex.com/
 repository: 

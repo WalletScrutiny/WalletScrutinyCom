@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.atari.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
 date: 2022-03-24
 signer: 

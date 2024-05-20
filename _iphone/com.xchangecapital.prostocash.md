@@ -10,17 +10,17 @@ idd: '1477838562'
 released: 2019-09-09
 updated: 2022-12-22
 version: 2.0.3
-stars: 3.9
-reviews: 31
+stars: 3.7
+reviews: 30
 size: '70281216'
 website: https://prostocash.com
 repository: 
 issue: 
 icon: com.xchangecapital.prostocash.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2022-12-28
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: 

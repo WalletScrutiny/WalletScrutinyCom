@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.breet.app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2021-09-23
 signer: 

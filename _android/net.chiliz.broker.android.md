@@ -8,12 +8,12 @@ users: 100000
 appId: net.chiliz.broker.android
 appCountry: 
 released: 2020-01-22
-updated: 2021-11-28
-version: 4.1.7
+updated: 2023-12-14
+version: 5.12.1
 stars: 3.6
 ratings: 771
 reviews: 5
-size: 24M
+size: 
 website: https://www.chiliz.net
 repository: 
 issue: 
@@ -28,7 +28,7 @@ twitter: chiliz
 social:
 - https://www.facebook.com/Chilizdotcom
 redirect_from: 
-developerName: 
+developerName: Mediarex Enterprises Limited
 features: 
 
 ---

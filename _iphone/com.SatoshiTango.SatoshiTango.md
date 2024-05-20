@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.SatoshiTango.SatoshiTango.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-09-03
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: satoshitango

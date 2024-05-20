@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: org.zupago.pe.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2021-04-15
 signer: 

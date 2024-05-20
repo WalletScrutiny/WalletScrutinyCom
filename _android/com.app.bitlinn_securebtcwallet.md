@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.app.bitlinn_securebtcwallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-07-04
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: 

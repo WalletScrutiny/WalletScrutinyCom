@@ -20,7 +20,7 @@ repository:
 issue: 
 icon: tech.insense.sensewalet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 date: 2021-11-16
 signer: 

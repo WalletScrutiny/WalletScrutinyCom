@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.kptech.pezz.cryptoswap.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2021-11-16
 signer: 

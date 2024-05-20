@@ -38,6 +38,10 @@ features:
 
 ---
 
+Comes with a partner-tracker app {% include walletLink.html wallet='android/com.coldstoragecoins' verdict='true' %} 
+
+## Analysis 
+
 Singapore based Rearden Metals Pte Ltd touts what it calls its Blockchain Mint service along with its Cold Storage Coins. It is uncanny in its resemblance to the original:
 
 {% include walletLink.html wallet='bearer/casascius' verdict='true' %} 

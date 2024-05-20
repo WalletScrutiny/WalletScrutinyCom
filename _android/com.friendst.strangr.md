@@ -10,18 +10,18 @@ appCountry:
 released: 2020-05-02
 updated: 2021-05-26
 version: '1.1'
-stars: 2.3
+stars: 2.6
 ratings: 
-reviews: 3
+reviews: 4
 size: 
 website: 
 repository: 
 issue: 
 icon: com.friendst.strangr.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
-date: 2023-05-21
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

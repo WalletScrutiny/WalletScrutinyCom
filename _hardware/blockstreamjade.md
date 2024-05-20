@@ -1,34 +1,80 @@
 ---
-title: Blockstream Jade
+title: Jade
 appId: blockstreamjade
 authors:
 - kiwilamb
 - leo
+- danny
 released: 2021-01-01
 discontinued: 
-updated: 2022-05-27
-version: 0.1.34
-binaries: 
+updated: 2024-05-09
+version: 1.0.30
+binaries: https://jadefw.blockstream.com/bin/jade/index.json
 dimensions:
 - 24
 - 60
 - 17
-weight: 
+weight: 21
 provider: Blockstream Corporation Inc.
 providerWebsite: https://blockstream.com/
 website: https://blockstream.com/jade/
-shop: https://store.blockstream.com/product/blockstream-jade-token/
+shop: https://store.blockstream.com/products/blockstream-jade-hardware-wallet
 country: CA
-price: 39.99USD
+price: 64.99USD
 repository: https://github.com/Blockstream/jade
-issue: https://github.com/Blockstream/Jade/issues/26
+issue: 
 icon: blockstreamjade.png
 bugbounty: 
-meta: outdated
-verdict: nonverifiable
-date: 2022-08-07
+meta: ok
+verdict: reproducible
+date: 2024-05-15
 signer: 
-reviewArchive: 
+reviewArchive:
+- date: 2024-05-06
+  version: 1.0.29
+  appHash: ed9e949c2fea08ed56d9c842ffc94c5a9698dca78502137376bd0e421afbabf5
+  gitRevision: 05794276d43d37b58420a1cb0c75f47d894c26ba
+  verdict: reproducible
+- date: 2024-03-11
+  version: 1.0.27
+  appHash: db3ea043b891c862401d110923be04b0c2ef9b100c57cad22ca345b032efc448
+  gitRevision: 633cb64f6b6704924bd57b45747de4c7d1c281a7
+  verdict: reproducible
+- date: 2023-11-29
+  version: 1.0.26
+  appHash: 
+  gitRevision: 
+  verdict: nonverifiable
+- date: 2023-11-08
+  version: 1.0.26
+  appHash: 3ca3e6758bbf8a971b16c09f51871426fcee4a1681b45f1a892f2a94b725508e
+  gitRevision: 4348653c9aff5fac3365bcf45fc4880b2046d619
+  verdict: reproducible
+- date: 2023-11-07
+  version: 1.0.24
+  appHash: 
+  gitRevision: d95ae2fe9c4fd50ffb947bdbed402de736ad7568
+  verdict: reproducible
+- date: 2023-10-11
+  version: 1.0.23
+  appHash: c6124408b51ffe0711ea7dbe02c3cca7a3f317c4d7d137212a2e6a78660f7daa
+  gitRevision: 8f74ecbffe3020d502801e7f43c693c4b3fd272e
+  verdict: reproducible
+- date: 2023-08-07
+  version: 1.0.21
+  appHash: 
+  gitRevision: b164591d0b50c2a0616d8b75f8efee8202fecc8b
+  verdict: reproducible
+- date: 2023-06-29
+  version: 0.1.48
+  appHash: d329dbf4fea13c6cde7df9682febae15e162947dc5a747aae98540f69e1a25d3
+  gitRevision: e00377473e377b6baa0488479f35cb9307874e97
+  verdict: nonverifiable
+- date: 2022-08-07
+  version: 0.1.33
+  appHash: 
+  gitRevision: 89390dfa4b632ab1261a523e1988c81ce2e47710
+  verdict: nonverifiable
 twitter: Blockstream
 social:
 - https://www.linkedin.com/company/blockstream
@@ -39,120 +85,33 @@ features:
 
 ---
 
-**Update 2022-03-08**: On March 3rd version 0.1.33 was released. If you are
-running version 0.1.32 which was released December 23rd, you might or might not
-be able to verify what you are updating to, depending on the companion app being
-updated, too or not. Check
-[this issue](https://github.com/Blockstream/Jade/issues/26) for details.
-
-**Update 2021-11-02**: We are in touch with the provider and while the firmware
-was updated two weeks ago already, their
-[latest comment on the issue](https://github.com/Blockstream/Jade/issues/26#issuecomment-947420765)
-was a day after the last release, so we assume the problem persists.
-
-## Original Analysis
-
-{{ page.title }} is one of the newer hardware wallets but provided by
-Blockstream which is a very well known player in this space.
-
-On the product website, the {{ page.title }} is advertised as
-
-> **The first purpose-built hardware wallet for Liquid.**<br>
-  Blockstream Jade is a purely open-source hardware wallet for the storage of
-  bitcoin and Liquid assets.
-
-Liquid is a sidechain developed by Blockstream, mostly used for quick settlement
-between centralized exchanges with some advanced features like "confidential
-transactions".
-
-This hardware wallet works with
-{% include walletLink.html wallet='android/com.greenaddress.greenbits_android_wallet' verdict='true' %}
-and its iPhone and desktop counterparts as its companion app.
-
-The provider makes no claims about the firmware being reproducible and neither
-can we find the binaries for download. Given the companion app does have a good
-track record of being reproducible, we assume
-[this issue](https://github.com/Blockstream/Jade/issues/26) to be resolved
-quickly and being more about documentation but as with half an hour of searching
-we could not find the answers to these questions:
-
-* Where can I download the firmware binary?
-* Does the Jade display the binary's hash prior to installation?
-
-the firmware of this device is currently **not verifiable**.
-
-## Code and Reproducible Builds
-
-So as we learned in [this issue](https://github.com/Blockstream/Jade/issues/26),
-the provider doesn't easily offer the firmware for download but we came up with
-a convenient script to download the latest version. As there are two slightly
-different versions of the {{ page.title }} and the firmware comes in two
-flavors - with or without radio - this script downloads four firmware binaries:
+We tested the latest version of {{ page.title }} using our test script, covering
+all four build variants:
 
 ```
-withoutWheel="jade1.1"
-withWheel="jade"
-for model in $withoutWheel $withWheel; do
-	files=$( wget --output-document=- https://jadefw.blockstream.com/bin/$model/index.json | jq '.stable.full[].filename' --raw-output )
-	for file in $files; do
-		wget https://jadefw.blockstream.com/bin/$model/$file
-	done
-done
-```
-
-So we have something to check. On to compilation:
-
-As always we prefer compilation in containers, so we go with the
-[Use docker](https://github.com/Blockstream/Jade#use-docker) instructions:
-
-```
-$ git clone --recursive https://github.com/Blockstream/Jade.git
-$ cd Jade
-$ docker-compose up -d
-$ docker-compose exec dev bash
-```
-
-From here, the
-[Build the firmware](https://github.com/Blockstream/Jade#build-the-firmware)
-part should work, right?
-
-```
-root@5d8f6ff15ec2:/jade# git clone --recursive https://github.com/Blockstream/Jade.git $HOME/jade
-root@5d8f6ff15ec2:/jade# cd $HOME/jade
-root@5d8f6ff15ec2:~/jade# cp configs/sdkconfig_jade.defaults sdkconfig.defaults
-root@5d8f6ff15ec2:~/jade# idf.py flash monitor
+$ scripts/test/hardware/blockstreamjade.sh 1.0.30
 ...
--- Configuring done
--- Generating done
--- Build files have been written to: /root/jade/build
-Serial port /dev/ttyS0
-Connecting.......................
-/dev/ttyS0 failed to connect: Failed to connect to Espressif device: No serial data received.
-For troubleshooting steps visit: https://github.com/espressif/esptool#troubleshooting
-No serial ports found. Connect a device, or use '-p PORT' option to set a specific port.
-root@5d8f6ff15ec2:~/jade#
+Results:
+d62518df363ceb7002c171baf8149c644dd8dbb57b4f122db0c4b1dc5707328d  jade_1.0.30_10_ble.bin
+9ec79bd13e24107bea00c372f7e21ceccf409430d5cba8d7f02184c7290f85f8  jade_1.0.30_10_ble.built.bin
+9ec79bd13e24107bea00c372f7e21ceccf409430d5cba8d7f02184c7290f85f8  jade_1.0.30_10_ble_stripped.bin
+The Jade firmware version 1.0.30 10_ble is reproducible with above hashes.
+0bfbee52e5694dbcfb540fd5aa9ead6dd3acc5b1aa0a68d53a1005cc5bf8bdf6  jade_1.0.30_10_noR.bin
+167252882d816641f6f6fcacaf8aaea046a01b6f9be877759f94eeadbdfe1c1c  jade_1.0.30_10_noR.built.bin
+167252882d816641f6f6fcacaf8aaea046a01b6f9be877759f94eeadbdfe1c1c  jade_1.0.30_10_noR_stripped.bin
+The Jade firmware version 1.0.30 10_noR is reproducible with above hashes.
+feec96441572a28d7a80b22e9c65181de1d05b197872a7b10955af349fce7e2f  jade_1.0.30_11_ble.bin
+cb84f99175838b433ac6f70795529f52407aab156a167e765ded75d6c832973b  jade_1.0.30_11_ble.built.bin
+cb84f99175838b433ac6f70795529f52407aab156a167e765ded75d6c832973b  jade_1.0.30_11_ble_stripped.bin
+The Jade firmware version 1.0.30 11_ble is reproducible with above hashes.
+9ffaba14ce1390cef7b228a008be3fbc117a7bf5550670565c87dbc70e366156  jade_1.0.30_11_noR.bin
+1829cdda459baedd468bfed3f5f009b0a9c922c0ce2281578a55e07b7d3204d5  jade_1.0.30_11_noR.built.bin
+1829cdda459baedd468bfed3f5f009b0a9c922c0ce2281578a55e07b7d3204d5  jade_1.0.30_11_noR_stripped.bin
+The Jade firmware version 1.0.30 11_noR is reproducible with above hashes.
+
+
 ```
 
-The error doesn't come as a surprise as we have no {{ page.title }} connected.
-But `-- Build files have been written to: /root/jade/build` looks promising.
+This is what we want to see to give this product the verdict **reproducible**.
 
-Sadly this is "Build files" not "Built files". None of the 769 files contains
-"firmware" and the two ".bin" files
-"build/CMakeFiles/3.18.4/CMakeDetermineCompilerABI_C*.bin" don't look promising
-neither.
-
-So what's probably going on is that the above command `idf.py flash monitor`
-would determine the configuration of a connected {{ page.title }} to then
-compile exactly for this device.
-
-Under [Build configurations](https://github.com/Blockstream/Jade#build-configurations)
-they explain:
-
-> The menuconfig tool can also be used to adjust the build settings.
-> 
-> `idf.py menuconfig`
-
-Running this command, we get a huge menu with tons of sub-menus allowing to
-configure what exactly to compile which is where we give up for now and hope
-to get easy steps on how to reproduce exactly the four files we downloaded
-above. In the mean time, this remains **not verifiable** for us.
+{% include asciicast %}

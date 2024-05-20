@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cryptanite.customer.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-06-03
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: 

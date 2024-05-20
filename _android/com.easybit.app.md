@@ -10,7 +10,7 @@ appCountry:
 released: 2020-01-16
 updated: 2021-12-14
 version: 1.4.0
-stars: 
+stars: 4.9
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.easybit.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2023-05-23
+date: 2023-12-13
 signer: 
 reviewArchive: 
 twitter: EasyBit_com

@@ -8,8 +8,8 @@ users: 10000
 appId: com.claimersmulticoins
 appCountry: 
 released: 2020-01-29
-updated: 2022-08-18
-version: '3.3'
+updated: 2023-10-03
+version: '3.31'
 stars: 4.6
 ratings: 310
 reviews: 21
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.claimersmulticoins.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
-date: 2021-10-04
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

@@ -10,9 +10,9 @@ appCountry:
 released: 2019-05-18
 updated: 2020-03-07
 version: '2.8'
-stars: 4
+stars: 3.9
 ratings: 193
-reviews: 7
+reviews: 6
 size: 
 website: https://ethlyte.tech/
 repository: 

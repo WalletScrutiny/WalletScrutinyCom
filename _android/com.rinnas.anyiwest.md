@@ -9,7 +9,7 @@ appCountry:
 released: 2021-06-04
 updated: 2021-06-20
 version: 1.0.2
-stars: 
+stars: 4.6
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.rinnas.anyiwest.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-06-13
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: 

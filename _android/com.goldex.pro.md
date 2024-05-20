@@ -9,7 +9,7 @@ appCountry:
 released: 2022-03-11
 updated: 2022-10-18
 version: 1.1.2
-stars: 
+stars: 4.8
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.goldex.pro.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-03
+date: 2023-10-14
 signer: 
 reviewArchive: 
 twitter: 

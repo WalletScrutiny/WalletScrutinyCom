@@ -9,7 +9,7 @@ appCountry:
 released: 2020-12-24
 updated: 2022-03-29
 version: 1.2.2
-stars: 
+stars: 2
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.label305.forecastcapital.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-03-26
+date: 2024-03-19
 signer: 
 reviewArchive: 
 twitter: 

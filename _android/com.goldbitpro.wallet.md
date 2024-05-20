@@ -7,8 +7,8 @@ users: 100
 appId: com.goldbitpro.wallet
 appCountry: 
 released: 2021-03-14
-updated: 2023-06-15
-version: 3.1.1
+updated: 2024-03-06
+version: 3.5.15
 stars: 
 ratings: 
 reviews: 
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: GoldBit Technology Co., Ltd
+developerName: GenB Technology Inc.
 features: 
 
 ---

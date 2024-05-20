@@ -1,6 +1,6 @@
 ---
 wsId: lyowallet
-title: 'LYO WALLET: NFT''s & Crypto'
+title: 'LYOWALLET: NFT''s & Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,19 +8,19 @@ appId: com.lyo.wallet
 appCountry: ae
 idd: '1624892548'
 released: 2022-06-07
-updated: 2023-05-23
-version: 1.4.2
+updated: 2023-12-28
+version: 1.5.1
 stars: 5
 reviews: 1
-size: '50787328'
-website: https://wallet.lyofi.com/
+size: '56172544'
+website: https://lyowallet.com/
 repository: 
 issue: 
 icon: com.lyo.wallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2023-04-28
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: lyopayofficial

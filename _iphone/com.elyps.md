@@ -1,25 +1,26 @@
 ---
-wsId: 
+wsId: elyps
 title: 'Elyps: Think out of the Bank'
 altTitle: 
-authors: 
+authors:
+- danny
 appId: com.elyps
 appCountry: tn
 idd: '1493791290'
 released: 2020-05-13
-updated: 2023-03-29
-version: 10.4.0
+updated: 2024-01-14
+version: 10.13.0
 stars: 5
 reviews: 1
-size: '74859520'
+size: '74105856'
 website: https://elyps.com
 repository: 
 issue: 
 icon: com.elyps.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-05-24
+verdict: nowallet
+date: 2023-08-17
 signer: 
 reviewArchive: 
 twitter: 
@@ -29,3 +30,4 @@ developerName: Elyps
 
 ---
 
+{% include copyFromAndroid.html %}

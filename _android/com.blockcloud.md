@@ -9,7 +9,7 @@ appCountry:
 released: 2021-01-08
 updated: 2021-02-16
 version: '1.4'
-stars: 4.2
+stars: 
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.blockcloud.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-02-08
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

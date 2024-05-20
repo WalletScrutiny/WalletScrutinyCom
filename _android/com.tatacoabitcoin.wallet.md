@@ -7,8 +7,8 @@ users: 50
 appId: com.tatacoabitcoin.wallet
 appCountry: 
 released: 2022-06-29
-updated: 2023-01-11
-version: '1.6'
+updated: 2023-08-17
+version: 1.6.2
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.tatacoabitcoin.wallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-06-03
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

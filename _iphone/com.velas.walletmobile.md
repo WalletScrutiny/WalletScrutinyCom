@@ -10,19 +10,19 @@ appId: com.velas.walletmobile
 appCountry: us
 idd: 1541032748
 released: 2020-12-12
-updated: 2023-04-12
-version: 2.3.10
-stars: 2.3
-reviews: 9
-size: '32556032'
+updated: 2024-04-18
+version: 2.3.15
+stars: 2.2
+reviews: 10
+size: '25789440'
 website: https://velas.com
-repository: https://github.com/velas/mobile-wallet
-issue: https://github.com/velas/mobile-wallet/issues/62
+repository: 
+issue: 
 icon: com.velas.walletmobile.jpg
 bugbounty: 
 meta: ok
-verdict: ftbfs
-date: 2021-11-17
+verdict: nosource
+date: 2024-04-18
 signer: 
 reviewArchive: 
 twitter: velasblockchain

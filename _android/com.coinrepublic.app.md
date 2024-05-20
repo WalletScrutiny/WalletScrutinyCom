@@ -4,13 +4,13 @@ title: Coin Republic
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.coinrepublic.app
 appCountry: 
 released: 2020-12-02
-updated: 2023-06-08
-version: 1.0.9
-stars: 
+updated: 2024-05-03
+version: 2.2.0
+stars: 2.5
 ratings: 
 reviews: 
 size: 

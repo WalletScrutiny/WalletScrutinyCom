@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitearn.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-06-03
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: 

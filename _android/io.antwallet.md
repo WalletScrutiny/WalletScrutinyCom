@@ -3,13 +3,13 @@ wsId:
 title: AntWallet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: io.antwallet
 appCountry: 
 released: 2021-11-15
 updated: 2021-11-23
 version: 1.0.2
-stars: 
+stars: 4.2
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.antwallet.png
 bugbounty: 
-meta: stale
-verdict: fewusers
-date: 2023-06-03
+meta: obsolete
+verdict: wip
+date: 2023-11-25
 signer: 
 reviewArchive: 
 twitter: 

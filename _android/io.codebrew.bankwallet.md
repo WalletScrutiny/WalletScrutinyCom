@@ -3,7 +3,7 @@ wsId:
 title: CoinBox
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: io.codebrew.bankwallet
 appCountry: 
 released: 2022-08-30
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.codebrew.bankwallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-06-03
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

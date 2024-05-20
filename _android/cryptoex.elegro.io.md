@@ -20,9 +20,9 @@ repository:
 issue: 
 icon: cryptoex.elegro.io.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-07-03
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: elegro_eu

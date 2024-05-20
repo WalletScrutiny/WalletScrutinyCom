@@ -18,15 +18,15 @@ repository:
 issue: 
 icon: com.techio.sendenero.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-04-27
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Techio Services Ltd
+developerName: Xaas Technology Limited
 features: 
 
 ---

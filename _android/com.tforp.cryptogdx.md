@@ -8,8 +8,8 @@ users: 100000
 appId: com.tforp.cryptogdx
 appCountry: us
 released: 2018-02-04
-updated: 2021-05-28
-version: '2.3'
+updated: 2023-10-30
+version: '2.4'
 stars: 4.4
 ratings: 3455
 reviews: 159
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.tforp.cryptogdx.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: nowallet
-date: 2023-05-21
+date: 2023-09-15
 signer: 
 reviewArchive: 
 twitter: Trading4Pro

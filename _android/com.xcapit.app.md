@@ -8,11 +8,11 @@ users: 10000
 appId: com.xcapit.app
 appCountry: 
 released: 2020-11-04
-updated: 2023-06-21
-version: 3.21.2
-stars: 3.3
+updated: 2024-01-25
+version: 3.31.0
+stars: 3.4
 ratings: 
-reviews: 5
+reviews: 6
 size: 
 website: https://xcapit.com
 repository: https://gitlab.com/xcapit-foss/app

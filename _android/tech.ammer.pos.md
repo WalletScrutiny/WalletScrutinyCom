@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: tech.ammer.pos.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-01-02
 signer: 

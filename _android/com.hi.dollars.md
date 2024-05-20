@@ -1,17 +1,17 @@
 ---
 wsId: hidollars
-title: 'hi: Web3 Wallet-Crypto Neobank'
+title: Hi:Easy-to-Use Crypto Neobank
 altTitle: 
 authors: 
 users: 1000000
 appId: com.hi.dollars
 appCountry: EE
 released: 2021-11-04
-updated: 2023-05-31
-version: 2.8.0
+updated: 2024-04-26
+version: 2.16.0
 stars: 2
 ratings: 
-reviews: 10803
+reviews: 10737
 size: 
 website: https://hi.com/
 repository: 

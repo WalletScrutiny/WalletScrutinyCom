@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.upreactiveboilerplate.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-05-21
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

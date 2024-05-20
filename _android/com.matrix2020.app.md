@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.matrix2020.app.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-04-27
+date: 2023-08-25
 signer: 
 reviewArchive: 
 twitter: 

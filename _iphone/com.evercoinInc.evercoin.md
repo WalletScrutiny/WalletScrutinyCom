@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.evercoinInc.evercoin.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 date: 2023-01-02
 signer: 

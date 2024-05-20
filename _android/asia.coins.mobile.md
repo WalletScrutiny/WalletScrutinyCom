@@ -4,15 +4,15 @@ title: Coins – Buy Bitcoin, Crypto
 altTitle: 
 authors:
 - leo
-users: 5000000
+users: 10000000
 appId: asia.coins.mobile
 appCountry: 
 released: 2014-10-01
-updated: 2023-07-03
-version: 6.4.4
-stars: 3.7
+updated: 2024-05-11
+version: 7.5.7.0
+stars: 3.2
 ratings: 109535
-reviews: 513
+reviews: 522
 size: 
 website: https://coins.ph
 repository: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.crosstower.trading.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2022-06-24
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: CrossTowerIndia

@@ -1,6 +1,6 @@
 ---
 wsId: bananatok
-title: 바나나톡2.0 – 블록체인 SNS 메신저
+title: Bananatok - Web 3 Messenger
 altTitle: 
 authors:
 - danny
@@ -8,16 +8,16 @@ users: 100000
 appId: org.telegram.bananatok
 appCountry: KR
 released: 2019-08-11
-updated: 2022-08-30
-version: 4.4.0
+updated: 2024-05-15
+version: 4.7.11
 stars: 4
 ratings: 
-reviews: 1535
+reviews: 1500
 size: 
 website: http://www.bananatok.com
 repository: 
 issue: 
-icon: org.telegram.bananatok.jpg
+icon: org.telegram.bananatok.png
 bugbounty: 
 meta: ok
 verdict: custodial

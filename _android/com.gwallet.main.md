@@ -9,7 +9,7 @@ appCountry:
 released: 2021-08-11
 updated: 2022-07-22
 version: '1.06'
-stars: 
+stars: 4.9
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.gwallet.main.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2022-11-02
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

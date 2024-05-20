@@ -8,8 +8,8 @@ users: 1000
 appId: com.app.vptplus
 appCountry: 
 released: 2020-09-02
-updated: 2022-11-09
-version: '4.0'
+updated: 2023-07-17
+version: 4.0.0
 stars: 
 ratings: 
 reviews: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Qarallax
+developerName: Sendam
 features: 
 
 ---

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.shdigital.tenetx.android.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-06-03
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

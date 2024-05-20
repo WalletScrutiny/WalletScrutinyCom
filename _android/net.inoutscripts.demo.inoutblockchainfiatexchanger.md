@@ -3,12 +3,12 @@ wsId:
 title: Inout Blockchain FiatExchanger
 altTitle: 
 authors: 
-users: 1
+users: 5
 appId: net.inoutscripts.demo.inoutblockchainfiatexchanger
 appCountry: 
 released: 2021-10-01
-updated: 2021-10-02
-version: '1.0'
+updated: 2024-03-05
+version: '1.1'
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: net.inoutscripts.demo.inoutblockchainfiatexchanger.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: fewusers
-date: 2022-10-21
+date: 2024-03-07
 signer: 
 reviewArchive: 
 twitter: 

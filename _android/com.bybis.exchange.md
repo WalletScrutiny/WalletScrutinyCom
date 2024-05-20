@@ -2,13 +2,14 @@
 wsId: 
 title: 'ByBIS : Global Crypto Exchange'
 altTitle: 
-authors: 
-users: 1000
+authors:
+- danny
+users: 5000
 appId: com.bybis.exchange
 appCountry: 
 released: 
-updated: 2023-05-25
-version: '1.11'
+updated: 2023-07-12
+version: '1.13'
 stars: 
 ratings: 
 reviews: 
@@ -16,18 +17,31 @@ size:
 website: https://bybis.com
 repository: 
 issue: 
-icon: com.bybis.exchange.jpg
+icon: com.bybis.exchange.png
 bugbounty: 
-meta: ok
-verdict: wip
-date: 2023-06-03
+meta: removed
+verdict: custodial
+date: 2023-12-19
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: ByBIS_Official
+social:
+- https://www.facebook.com/bybisofficial
+- https://www.linkedin.com/company/bybis
+- https://www.youtube.com/@ByBISyoutube
+- https://t.me/bybis_announcements
 redirect_from: 
 developerName: ByBIS Limited
 features: 
 
 ---
 
+## App Description from Google Play
+
+> Trade Bitcoin and other cryptocurrencies fast and easy on the ByBIS exchange
+> 
+> Our industry-leading HD cold-wallet system guarantees the security of your assets.
+
+## Analysis 
+
+- Cryptocurrency exchanges that make use of cold-wallets are necessarily **custodial** providers. They hold the private keys to their user's wallets.

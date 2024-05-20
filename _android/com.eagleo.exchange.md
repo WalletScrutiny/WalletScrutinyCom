@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.eagleo.exchange.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-06-02
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: 

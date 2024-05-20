@@ -1,6 +1,6 @@
 ---
 wsId: TeroxxWallet
-title: TeroxxWallet
+title: Teroxx
 altTitle: 
 authors:
 - danny
@@ -8,13 +8,13 @@ users: 1000
 appId: com.teroxx
 appCountry: us
 released: 2019-08-26
-updated: 2023-06-13
-version: 3.0.21
-stars: 
+updated: 2024-05-07
+version: 3.0.28
+stars: 4.2
 ratings: 
 reviews: 
 size: 
-website: https://teroxxapp.com/
+website: https://www.teroxx.com/
 repository: 
 issue: 
 icon: com.teroxx.png

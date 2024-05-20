@@ -8,22 +8,32 @@ users: 1000000
 appId: com.mycelium.wallet
 appCountry: 
 released: 2013-07-01
-updated: 2023-06-30
-version: 3.16.0.16
-stars: 3.8
+updated: 2023-12-26
+version: 3.16.2.0
+stars: 3.7
 ratings: 11650
-reviews: 1159
+reviews: 1158
 size: 
 website: https://wallet.mycelium.com
 repository: https://github.com/mycelium-com/wallet-android
-issue: https://github.com/mycelium-com/wallet-android/issues/648
+issue: 
 icon: com.mycelium.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2023-04-27
+date: 2024-01-22
 signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
 reviewArchive:
+- date: 2023-09-24
+  version: 3.16.1.0
+  appHash: f03d86c61f6d4a1ba071cb509537f6e855045c58ab9e705a50b9b1cc182ed606
+  gitRevision: 149983814cf885544c7eedc3435dbd842e36cf42
+  verdict: reproducible
+- date: 2023-04-27
+  version: 3.16.0.16
+  appHash: 2f40ae3f5aed3be3a4791664767d10118ee7b6fbc2033add96107e78a20a28b3
+  gitRevision: 02efce0be192c630f747855adbd5b5f81661bf0a
+  verdict: reproducible
 - date: 2023-01-12
   version: 3.16.0.15
   appHash: 50534bbe29e778e6b8d0ade5cb2c2524c6333b27446bb06e1880771c6009ec99
@@ -241,35 +251,35 @@ procedure expressed in our {% include testScript.html %}:
 ===== Begin Results =====
 appId:          com.mycelium.wallet
 signer:         b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
-apkVersionName: 3.16.0.16
-apkVersionCode: 3160016
+apkVersionName: 3.16.2.0
+apkVersionCode: 3160200
 verdict:        reproducible
-appHash:        2f40ae3f5aed3be3a4791664767d10118ee7b6fbc2033add96107e78a20a28b3
-commit:         24f301568645a79dc34b7167fc21a329d51e56db
+appHash:        14da64f846aa54d80deccb30cf09f3193c86e4e9e8962beb2e03547bbca392f3
+commit:         c2476d95257924b4f2fdd8f25ca2d97e210950e9
 
 Diff:
-Files /tmp/fromPlay_com.mycelium.wallet_3160016/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3160016/META-INF/CERT.RSA differ
+Files /tmp/fromPlay_com.mycelium.wallet_3160200/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3160200/META-INF/CERT.RSA differ
+Files /tmp/fromPlay_com.mycelium.wallet_3160200/META-INF/CERT.SF and /tmp/fromBuild_com.mycelium.wallet_3160200/META-INF/CERT.SF differ
 
 Revision, tag (and its signature):
-object 24f301568645a79dc34b7167fc21a329d51e56db
+object c2476d95257924b4f2fdd8f25ca2d97e210950e9
 type commit
-tag v3.16.0.16
-tagger AlexanderPavlenko <AlexanderPavlenko@users.noreply.github.com> 1676543291 +0400
+tag v3.16.2.0
+tagger AlexanderPavlenko <AlexanderPavlenko@users.noreply.github.com> 1704627896 +0400
 
-Mycelium Bitcoin Wallet v3.16.0.16
+Mycelium Bitcoin Wallet v3.16.2.0
 
-e056e33b8da17a92eb407bca631e431172734bb1cb1c205fbf13971a87eddb75ee68f5078ae295bebdc3623b8e92f2743d8cd3062f717295fae5fa3662e0dbea  prodnet/release/mbw-prodnet-release.apk
-0317f8b779142c5f4c0c3b1868f2ec11c1abfee0a8b16b82eafeb4f51921a92a7f64f27aa5c1b2032f71fc3d5ed939a3aa64306f0092384a21c9a40dfda59d24  btctestnet/release/mbw-btctestnet-release.apk
-d640ab11b31f71ebf23a7a10c1f2f3245a7019b6911c8cdb032acf8c88278ca6b4563d0956d49395aabad4a8fef2a5ed747827e27f4ee46aa950a7e45ae61943  prodnet/debug/mbw-prodnet-debug.apk
-bccfbdc7b79dd3241d240381b32a672b76a277d7f7fca8c2027b3a283beae98d3aaa961b02544666c1901a516cc2c99bf5780325fe0396ecae6feda85590cf7c  btctestnet/debug/mbw-btctestnet-debug.apk
+0bb6689d5452274c77bbe0ecd5e43cac5c7a5613f9391f7f3b7d2d1108a9a6dd71fb355442264283133db6a7f7a213f354f7d205fe720d31fcce44358d8da181  prodnet/release/mbw-prodnet-release.apk
+040bd3ea260a4e10a3106a578c39ce2acbfa4e21f8c13e16cccdb206f080dc31640338ecd01501365de24a8e5b8e9446bcabb78535032836b3954c3a3da45cf5  btctestnet/release/mbw-btctestnet-release.apk
+ceabe3cdab94db423538ea92f3906a11d5a8acd2ed327c6f1474443f2bd3401c711f1a77902166befff8ef5408d3f654df864ebaf12d650bdc16ae590da69789  prodnet/debug/mbw-prodnet-debug.apk
+bd5483140ba50fb54cde81a2202ba0bb6d646a4fdaf36e1b6f2e1ce15454cbde8598bb488d3cc7268d79dbfafca1bb1785dc0e35ffd7f60a79a09a0e5c9c2383  btctestnet/debug/mbw-btctestnet-debug.apk
 ===== End Results =====
 ```
 
-This looks good. This product is **reproducible**.
+This version is **reproducible**.
+
+A recording of the test:
+
+{% include asciicast %}
 
 **Disclaimer**: Authors of this project have contributed to Mycelium.
-
-**Independent re-builds**:
-
-* [2021-04-01 by Emanuel Bronshtein for v3.8.9.0](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/197#note_543234399)
-* [2019-12-17 by Andreas Schildbach for v3.2.0.11](https://github.com/bitcoin-dot-org/bitcoin.org/issues/3221#issuecomment-566489272)

@@ -11,16 +11,16 @@ updated: 2021-04-14
 version: 0.18.2
 stars: 5
 ratings: 
-reviews: 30
+reviews: 29
 size: 
 website: http://definitex.org/
 repository: 
 issue: 
 icon: io.definitex.walllet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-04-05
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

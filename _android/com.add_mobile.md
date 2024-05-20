@@ -12,16 +12,16 @@ updated: 2022-04-28
 version: '1.4'
 stars: 4.8
 ratings: 
-reviews: 21
+reviews: 20
 size: 
 website: https://add.xyz/
 repository: 
 issue: 
 icon: com.add_mobile.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nobtc
-date: 2023-05-10
+date: 2024-04-17
 signer: 
 reviewArchive: 
 twitter: 

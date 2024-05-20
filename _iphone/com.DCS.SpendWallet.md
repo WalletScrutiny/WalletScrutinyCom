@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.DCS.SpendWallet.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2022-12-17
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: Spendcom

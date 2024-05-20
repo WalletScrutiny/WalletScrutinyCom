@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: zumoPay
 title: 'Zumo: Bitcoin & Crypto Wallet'
 altTitle: 
 authors:
@@ -8,9 +8,9 @@ users: 10000
 appId: com.zumopay.core
 appCountry: 
 released: 2019-10-28
-updated: 2023-05-19
-version: 5.2.0
-stars: 
+updated: 2024-05-07
+version: 5.9.0
+stars: 4.4
 ratings: 
 reviews: 
 size: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Bitcoiva – Trading Platform
+title: 'Bitcoiva : Buy Bitcoin &Crypto'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 50000
 appId: com.application.bitcoiva
 appCountry: 
 released: 2020-11-02
-updated: 2022-12-06
-version: 1.21.3
-stars: 3.2
+updated: 2024-04-06
+version: 1.44.2
+stars: 2.8
 ratings: 
-reviews: 3
+reviews: 4
 size: 
 website: https://bitcoiva.com
 repository: 

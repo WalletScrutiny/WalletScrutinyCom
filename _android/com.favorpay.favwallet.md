@@ -9,7 +9,7 @@ appCountry:
 released: 2020-12-14
 updated: 2022-01-20
 version: '20220120'
-stars: 
+stars: 4.3
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.favorpay.favwallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-01-16
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

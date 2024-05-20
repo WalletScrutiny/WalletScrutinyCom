@@ -10,17 +10,17 @@ idd: 1498891184
 released: 2020-02-26
 updated: 2023-03-20
 version: 1.4.3
-stars: 3.9
-reviews: 38
+stars: 3.8
+reviews: 37
 size: '63857664'
 website: https://www.delio.foundation/
 repository: 
 issue: 
 icon: io.DelioHybrid.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-10-21
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: happydelio

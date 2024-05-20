@@ -2,13 +2,14 @@
 wsId: 
 title: FASOCHANGE OFFICIEL
 altTitle: 
-authors: 
-users: 5000
+authors:
+- danny
+users: 10000
 appId: net.fasochange.app
 appCountry: 
 released: 2021-08-25
-updated: 2021-09-01
-version: '1.1'
+updated: 2023-11-06
+version: 1.2.0
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +19,9 @@ repository:
 issue: 
 icon: net.fasochange.app.png
 bugbounty: 
-meta: stale
-verdict: wip
-date: 2023-06-03
+meta: ok
+verdict: nowallet
+date: 2023-11-08
 signer: 
 reviewArchive: 
 twitter: 
@@ -30,4 +31,14 @@ developerName: FASOCHANGE
 features: 
 
 ---
+
+## App Description from Google Play 
+
+> FASOCHANGE is the Leader of Digital Currencies and Cryptocurrency exchanges in Burkina Faso.
+>
+> With this application, you can safely and quickly buy and sell all digital currencies and Cryptocurrencies, 24 hours a day
+
+## Analysis 
+
+The app is an exchange service which functions like {% include walletLink.html wallet='android/com.changelly.app' verdict='true' %}. We **did not find a wallet.**
 

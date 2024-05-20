@@ -4,15 +4,15 @@ title: Payperless Crypto & BTC Wallet
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.payperless.wallet
 appCountry: 
 released: 2021-06-03
-updated: 2023-06-05
-version: 1.14.0
-stars: 4.2
+updated: 2024-03-28
+version: 1.15.2
+stars: 4
 ratings: 
-reviews: 6
+reviews: 12
 size: 
 website: https://www.payperless.com
 repository: 

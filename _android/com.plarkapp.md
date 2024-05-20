@@ -9,7 +9,7 @@ appCountry:
 released: 2020-04-14
 updated: 2022-04-06
 version: 2.5.0
-stars: 
+stars: 5
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.plarkapp.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-04-03
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

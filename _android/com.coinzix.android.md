@@ -10,9 +10,9 @@ appCountry:
 released: 2021-10-27
 updated: 2023-06-02
 version: '1.96'
-stars: 4.4
+stars: 4.5
 ratings: 
-reviews: 2
+reviews: 4
 size: 
 website: https://www.coinzix.com
 repository: 
@@ -30,7 +30,7 @@ social:
 - https://www.instagram.com/coinzixcom
 - https://t.me/coinzixCEX
 redirect_from: 
-developerName: COINZIX
+developerName: COINZIX LABS
 features: 
 
 ---

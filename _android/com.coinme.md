@@ -1,6 +1,6 @@
 ---
 wsId: coinme
-title: 'Coinme: Buy Bitcoin With Cash'
+title: 'Coinme: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: com.coinme
 appCountry: 
 released: 2021-05-06
-updated: 2023-07-03
-version: 2.1.7
-stars: 4.4
+updated: 2024-05-09
+version: 2.2.22
+stars: 4.1
 ratings: 782
-reviews: 627
+reviews: 864
 size: 
 website: https://www.coinme.com
 repository: 

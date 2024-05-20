@@ -10,17 +10,17 @@ idd: 1579344792
 released: 2021-08-19
 updated: 2023-05-24
 version: 5.2.0
-stars: 4.8
-reviews: 198
+stars: 4.7
+reviews: 203
 size: '100458496'
 website: https://haruinvest.com/
 repository: 
 issue: 
 icon: com.bchi.haruinvestapp.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-11-11
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: haruinvest

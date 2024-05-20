@@ -8,19 +8,19 @@ appId: app.simple.com
 appCountry: us
 idd: '1603406843'
 released: 2022-05-06
-updated: 2023-06-23
-version: 2.0.3
+updated: 2023-08-09
+version: 2.0.7
 stars: 5
 reviews: 2
-size: '128285696'
+size: '126097408'
 website: https://simple.app/
 repository: 
 issue: 
 icon: app.simple.com.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-06-13
+date: 2023-09-15
 signer: 
 reviewArchive: 
 twitter: smpl_app

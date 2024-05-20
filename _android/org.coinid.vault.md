@@ -12,16 +12,16 @@ updated: 2021-02-20
 version: 1.5.5
 stars: 3.8
 ratings: 
-reviews: 2
+reviews: 3
 size: 
 website: https://coinid.org
 repository: https://github.com/COINiD/COINiDVault
 issue: https://github.com/COINiD/COINiDVault/issues/14
 icon: org.coinid.vault.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: ftbfs
-date: 2023-02-20
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: COINiDGroup

@@ -1,6 +1,6 @@
 ---
 wsId: amlsafe
-title: AMLSafe - bitcoin wallet
+title: Safe3 - Crypto Wallet
 altTitle: 
 authors:
 - leo
@@ -8,12 +8,12 @@ appId: com.avelot.amlsafe
 appCountry: 
 idd: 1519145333
 released: 2020-07-28
-updated: 2023-05-15
-version: 2.1.583
+updated: 2024-04-18
+version: 2.17.706
 stars: 4.9
-reviews: 91
-size: '78767104'
-website: https://amlsafe.io/
+reviews: 79
+size: '82678784'
+website: https://Safe3.app
 repository: 
 issue: 
 icon: com.avelot.amlsafe.jpg

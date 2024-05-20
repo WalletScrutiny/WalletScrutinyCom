@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.sharuvan.monetaria.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2022-12-21
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: 

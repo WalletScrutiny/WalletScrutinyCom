@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: io.bhex.app.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2021-11-08
 signer: 

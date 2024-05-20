@@ -10,7 +10,7 @@ appCountry:
 released: 2022-04-06
 updated: 2023-05-18
 version: 1.9.18
-stars: 
+stars: 4.5
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.digilab24.apps.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-05-23
+date: 2024-05-15
 signer: 
 reviewArchive: 
 twitter: CPass_Official

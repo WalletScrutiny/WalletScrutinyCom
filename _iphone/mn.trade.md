@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: mn.trade.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-02-08
+date: 2023-09-15
 signer: 
 reviewArchive: 
 twitter: TradeMnOfficial

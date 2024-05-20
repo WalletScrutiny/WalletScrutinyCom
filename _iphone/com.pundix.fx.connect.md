@@ -1,6 +1,6 @@
 ---
 wsId: functionX
-title: f(x)Wallet by Function X Labs
+title: FX Wallet by Function X
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.pundix.fx.connect
 appCountry: us
 idd: 1504798360
 released: 2021-03-25
-updated: 2023-06-12
-version: 3.0.0
+updated: 2024-04-28
+version: 3.9.0
 stars: 3.2
-reviews: 62
-size: '141524992'
+reviews: 64
+size: '141694976'
 website: https://functionx.io
 repository: https://github.com/FunctionX/fx-wallet-android
 issue: 

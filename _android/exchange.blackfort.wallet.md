@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: exchange.blackfort.wallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
-date: 2022-11-02
+date: 2023-10-22
 signer: 
 reviewArchive: 
 twitter: BlackFort_Tech
@@ -29,7 +29,7 @@ social:
 - https://www.linkedin.com/company/blackfort-wallet-exchange
 - https://www.facebook.com/BlackfortWalletExchange
 redirect_from: 
-developerName: Blackfort Tech Estonia oU
+developerName: Blackfort Technologies LLC
 features: 
 
 ---

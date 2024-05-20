@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.polispay.copay.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 date: 2022-02-10
 signer: 

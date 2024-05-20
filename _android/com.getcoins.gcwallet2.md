@@ -10,7 +10,7 @@ appCountry:
 released: 2019-03-21
 updated: 2023-04-24
 version: 15.2.0
-stars: 2.9
+stars: 2.8
 ratings: 21
 reviews: 11
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.getcoins.gcwallet2.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-05-25
+date: 2024-04-18
 signer: 
 reviewArchive: 
 twitter: 

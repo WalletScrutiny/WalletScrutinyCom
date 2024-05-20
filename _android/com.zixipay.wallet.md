@@ -8,11 +8,11 @@ users: 10000
 appId: com.zixipay.wallet
 appCountry: us
 released: 2019-12-18
-updated: 2022-12-21
-version: '1.82'
-stars: 4.1
+updated: 2024-03-04
+version: '1.86'
+stars: 4
 ratings: 
-reviews: 8
+reviews: 10
 size: 
 website: https://zixipay.com
 repository: 

@@ -18,15 +18,15 @@ repository:
 issue: 
 icon: adt.ng.app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-06-02
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: SAMORA BOT INT'L LTD
+developerName: SAMORA BOT
 features: 
 
 ---

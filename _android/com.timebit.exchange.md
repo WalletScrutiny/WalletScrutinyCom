@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.timebit.exchange.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-01-02
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

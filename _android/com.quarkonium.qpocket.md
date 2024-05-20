@@ -19,9 +19,9 @@ repository: https://github.com/QuarkChain/QPocket-Android
 issue: https://github.com/QuarkChain/QPocket-Android/issues/2
 icon: com.quarkonium.qpocket.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2022-10-21
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: qPocket_wallet

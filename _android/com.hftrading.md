@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.hftrading.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2022-11-02
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: 

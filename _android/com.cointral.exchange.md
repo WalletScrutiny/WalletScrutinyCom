@@ -10,18 +10,18 @@ appCountry: tt
 released: 2020-10-29
 updated: 2021-08-18
 version: 1.3.6
-stars: 3.9
+stars: 3.8
 ratings: 118
-reviews: 76
+reviews: 77
 size: 
 website: https://cointral.com
 repository: 
 issue: 
 icon: com.cointral.exchange.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2022-10-21
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: Cointral

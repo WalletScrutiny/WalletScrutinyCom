@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.stocksexchange.android.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-06-21
 signer: 

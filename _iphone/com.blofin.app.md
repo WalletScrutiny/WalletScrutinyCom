@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.blofin.app.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosendreceive
-date: 2023-03-29
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: Blofin_Official

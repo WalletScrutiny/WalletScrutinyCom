@@ -11,16 +11,16 @@ released: 2020-04-03
 updated: 2022-07-18
 version: 2.3.9
 stars: 4.9
-reviews: 53
+reviews: 55
 size: '90454016'
 website: https://volt.id/
 repository: 
 issue: 
 icon: com.laxoWallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-11-11
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: Voltfinance

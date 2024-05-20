@@ -9,7 +9,7 @@ appCountry:
 released: 
 updated: 2021-02-18
 version: '1.2'
-stars: 
+stars: 4.4
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.afrowallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-02-20
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

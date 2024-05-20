@@ -4,15 +4,15 @@ title: Guarda Crypto Bitcoin Wallet
 altTitle: 
 authors:
 - leo
-users: 100000
+users: 500000
 appId: com.crypto.multiwallet
 appCountry: 
 released: 2018-11-01
-updated: 2023-06-23
-version: 3.0.46
-stars: 3.6
+updated: 2024-04-17
+version: 3.0.67
+stars: 3
 ratings: 3831
-reviews: 506
+reviews: 527
 size: 
 website: https://guarda.com
 repository: 

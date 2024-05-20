@@ -1,31 +1,37 @@
 ---
-wsId: 
+wsId: paribu
 title: Paribu | Bitcoin Alım Satım
 altTitle: 
-authors: 
+authors:
+- danny
 appId: com.codevist.paribu
 appCountry: 
 idd: 1448200352
 released: 2019-05-29
-updated: 2023-06-19
-version: 4.0.9
+updated: 2024-05-18
+version: 4.2.7
 stars: 2.5
-reviews: 29
-size: '48752640'
+reviews: 37
+size: '48577536'
 website: https://www.paribu.com
 repository: 
 issue: 
 icon: com.codevist.paribu.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2021-08-19
+verdict: custodial
+date: 2023-12-16
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: paribucom
+social:
+- https://www.youtube.com/c/Paribu
+- https://www.linkedin.com/company/paribucom/
+- https://www.instagram.com/paribucom/
+- https://www.facebook.com/paribucom
 features: 
 developerName: Paribu Teknoloji A.Ş.
 
 ---
 
+{% include copyFromAndroid.html %}

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'AvaTrade: Forex & CFD Trading'
+title: 'AvaTrade: Trading App'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.avatrade.mobile
 appCountry: 
 released: 2017-05-23
-updated: 2023-06-28
-version: 120.2.2
-stars: 3.7
+updated: 2024-05-06
+version: '135.7'
+stars: 4.1
 ratings: 9327
-reviews: 9
+reviews: 11
 size: 
 website: http://www.avatrade.com
 repository: 

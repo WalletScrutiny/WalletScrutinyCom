@@ -10,17 +10,17 @@ idd: '1520392383'
 released: 2020-07-25
 updated: 2022-12-22
 version: 1.0.2
-stars: 4.3
-reviews: 6
+stars: 4.4
+reviews: 7
 size: '80513024'
 website: 
 repository: 
 issue: 
 icon: com.xchangecapital.xchange.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-06-10
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: XchangeO

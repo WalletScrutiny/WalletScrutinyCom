@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.mithilawallet.app.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-05-26
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 

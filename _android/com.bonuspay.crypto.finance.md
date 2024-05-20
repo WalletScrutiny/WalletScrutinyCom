@@ -3,7 +3,7 @@ wsId:
 title: 'BonusPay: Trade & Swap BTC'
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.bonuspay.crypto.finance
 appCountry: 
 released: 2023-01-29
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bonuspay.crypto.finance.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-03
+date: 2024-01-28
 signer: 
 reviewArchive: 
 twitter: 

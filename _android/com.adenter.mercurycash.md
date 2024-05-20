@@ -10,7 +10,7 @@ appCountry:
 released: 2017-07-28
 updated: 2022-09-06
 version: 4.4.3
-stars: 4.2
+stars: 4.1
 ratings: 228
 reviews: 17
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.adenter.mercurycash.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2020-08-06
+date: 2023-09-02
 signer: 
 reviewArchive: 
 twitter: mercurycash

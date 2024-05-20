@@ -8,13 +8,13 @@ users: 5000
 appId: com.kryptogo.walletapp
 appCountry: 
 released: 2021-12-28
-updated: 2023-06-30
-version: 2.14.0
-stars: 4.3
+updated: 2024-05-16
+version: 2.36.0
+stars: 4.6
 ratings: 
 reviews: 3
 size: 
-website: https://stickey.app
+website: https://kryptogo.com
 repository: 
 issue: 
 icon: com.kryptogo.walletapp.png

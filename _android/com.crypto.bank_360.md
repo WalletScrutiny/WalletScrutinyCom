@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.crypto.bank_360.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-04-16
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

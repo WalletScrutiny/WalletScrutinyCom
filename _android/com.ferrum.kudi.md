@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.ferrum.kudi.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2023-03-31
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: firstkudiapp

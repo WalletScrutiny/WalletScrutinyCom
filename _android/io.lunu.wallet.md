@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.lunu.wallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2021-08-02
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

@@ -9,7 +9,7 @@ appCountry:
 released: 2022-01-10
 updated: 2022-01-31
 version: 7.0.0
-stars: 
+stars: 5
 ratings: 
 reviews: 
 size: 
@@ -18,15 +18,15 @@ repository:
 issue: 
 icon: se.example.starboyexchange.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-06-02
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: URL Games
+developerName: PlayLoom Studios
 features: 
 
 ---

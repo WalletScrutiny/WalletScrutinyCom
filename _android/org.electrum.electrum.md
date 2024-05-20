@@ -5,26 +5,41 @@ altTitle:
 authors:
 - leo
 - Mohammad Rafigh
-users: 500000
+users: 1000000
 appId: org.electrum.electrum
 appCountry: 
 released: 2016-03-02
-updated: 2023-06-20
-version: 4.4.5.0
-stars: 3.6
+updated: 2024-03-15
+version: 4.5.4.0
+stars: 3.8
 ratings: 2500
-reviews: 312
+reviews: 327
 size: 
 website: https://electrum.org
 repository: https://github.com/spesmilo/electrum
-issue: 
+issue: https://github.com/spesmilo/electrum/issues/8838
 icon: org.electrum.electrum.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2023-06-21
+date: 2024-03-25
 signer: 
 reviewArchive:
+- date: 2024-01-22
+  version: 4.5.1.0
+  appHash: efcf5a4873df41f21e653aa7f6733719402cc701a0ac4ebf4fe1a075514ca2ad
+  gitRevision: 668c0b5c594847155457efad9eb7d0bdc8a72af6
+  verdict: reproducible
+- date: 2023-09-25
+  version: 4.4.6.0
+  appHash: 23dcba9487f25334fa91387b91368ddc7a42de73dd8e2f55fcfdfc6f57a987db
+  gitRevision: 629069611f99b513a69153e2cc7c0fba29ee44eb
+  verdict: reproducible
+- date: 2023-06-21
+  version: 4.4.4.0
+  appHash: 51d4fa83acb11e0b60bc3cd218f5a98b4a8a7fa6ac543cc94316168ca4e791af
+  gitRevision: 02efce0be192c630f747855adbd5b5f81661bf0a
+  verdict: reproducible
 - date: 2023-05-09
   version: 4.4.2.0
   appHash: d668878b77b2a7accf819bcd9559e2eb088fc31d00163c8665b62e7cfefccb4a
@@ -77,25 +92,25 @@ procedure expressed in our {% include testScript.html %}:
 ===== Begin Results =====
 appId:          org.electrum.electrum
 signer:         e543d576fa0f2a33d412bca4c7d61e2301830e956e7d947e75b9052d176027d3
-apkVersionName: 4.4.4.0
-apkVersionCode: 34040400
+apkVersionName: 4.5.4.0
+apkVersionCode: 34050400
 verdict:        reproducible
-appHash:        51d4fa83acb11e0b60bc3cd218f5a98b4a8a7fa6ac543cc94316168ca4e791af
-commit:         6374ef248fdc7f1d7d02d15973968d79ac286b96
+appHash:        cb4577e845374d7d118e05984d6c04bfbc1e065c1a31d2f8b4d3879499c88a98
+commit:         99f6dd5d5d63bdb311bd401835cb20423728f889
 
 Diff:
-Only in /tmp/fromPlay_org.electrum.electrum_34040400/META-INF: CERT.RSA
-Only in /tmp/fromPlay_org.electrum.electrum_34040400/META-INF: CERT.SF
-Files /tmp/fromPlay_org.electrum.electrum_34040400/META-INF/MANIFEST.MF and /tmp/fromBuild_org.electrum.electrum_34040400/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_org.electrum.electrum_34050400/META-INF: CERT.RSA
+Only in /tmp/fromPlay_org.electrum.electrum_34050400/META-INF: CERT.SF
+Only in /tmp/fromPlay_org.electrum.electrum_34050400/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
-object 6374ef248fdc7f1d7d02d15973968d79ac286b96
+object 99f6dd5d5d63bdb311bd401835cb20423728f889
 type commit
-tag 4.4.4
-tagger ThomasV <thomasv@electrum.org> 1685538044 +0200
+tag 4.5.4
+tagger ThomasV <thomasv@electrum.org> 1710339236 +0100
 
-4.4.4
+4.5.4
 ===== End Results =====
 ```
 
-which looks good. This binary is **reproducible**.
+This is what we want to see to file the product version as **reproducible**.

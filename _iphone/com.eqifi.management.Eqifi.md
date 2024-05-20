@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.eqifi.management.Eqifi.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-05-24
+date: 2024-05-04
 signer: 
 reviewArchive: 
 twitter: eqifi_finance

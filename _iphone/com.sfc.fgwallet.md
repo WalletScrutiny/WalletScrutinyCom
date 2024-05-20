@@ -8,12 +8,12 @@ appId: com.sfc.fgwallet
 appCountry: us
 idd: '1338808692'
 released: 2018-02-27
-updated: 2023-05-08
-version: 3.6.8
+updated: 2024-04-16
+version: 3.8.6
 stars: 5
-reviews: 1
-size: '38344704'
-website: https://srsfc.com/
+reviews: 2
+size: '34845696'
+website: https://fg-wallet.com/
 repository: 
 issue: 
 icon: com.sfc.fgwallet.jpg

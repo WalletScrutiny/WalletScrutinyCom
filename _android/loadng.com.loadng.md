@@ -1,6 +1,6 @@
 ---
 wsId: loadNG
-title: 'LoadNG: Sell Bitcoin in Nigeri'
+title: "LoadNG: Sell Bitcoin,USDT\_Fast"
 altTitle: 
 authors:
 - danny
@@ -8,20 +8,20 @@ users: 10000
 appId: loadng.com.loadng
 appCountry: ng
 released: 2020-05-02
-updated: 2021-12-27
-version: 2.5.2
-stars: 4.4
+updated: 2024-05-15
+version: 5.3.0
+stars: 4.1
 ratings: 259
-reviews: 645
+reviews: 694
 size: 
 website: https://app.load.ng/
 repository: 
 issue: 
-icon: loadng.com.loadng.jpg
+icon: loadng.com.loadng.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nowallet
-date: 2022-12-26
+date: 2023-08-27
 signer: 
 reviewArchive: 
 twitter: loadngautomated

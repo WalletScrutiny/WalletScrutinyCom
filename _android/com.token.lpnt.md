@@ -10,9 +10,9 @@ appCountry:
 released: 2021-05-03
 updated: 2023-06-15
 version: '6.11'
-stars: 4.2
+stars: 4.1
 ratings: 
-reviews: 3
+reviews: 4
 size: 
 website: https://www.lpntoken.io
 repository: 

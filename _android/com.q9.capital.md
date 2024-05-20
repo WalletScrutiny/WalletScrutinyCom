@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.q9.capital.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-06-02
+date: 2023-08-25
 signer: 
 reviewArchive: 
 twitter: 

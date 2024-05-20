@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.pro.changelly.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-02-08
+date: 2024-01-30
 signer: 
 reviewArchive: 
 twitter: changelly_team

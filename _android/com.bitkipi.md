@@ -14,20 +14,20 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bitkipi.com
+website: https://pocketbitcoin.com
 repository: 
 issue: 
 icon: com.bitkipi.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2023-05-12
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Bitkipi
+developerName: Pocket Bitcoin
 features: 
 
 ---

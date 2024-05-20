@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.app.mystarwallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2021-09-30
 signer: 

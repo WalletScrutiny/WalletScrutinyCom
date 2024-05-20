@@ -10,18 +10,18 @@ appCountry:
 released: 2021-10-14
 updated: 2022-10-24
 version: '5.6'
-stars: 4.2
+stars: 4.3
 ratings: 
-reviews: 20
+reviews: 15
 size: 
 website: https://swaptobe.com
 repository: 
 issue: 
 icon: com.companyname.swaptobe.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2022-06-29
+date: 2023-10-22
 signer: 
 reviewArchive: 
 twitter: swap_tobe

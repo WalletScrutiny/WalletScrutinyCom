@@ -3,7 +3,7 @@ wsId:
 title: Monetum Quick Trade
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.monetum.quicktrade
 appCountry: 
 released: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.monetum.quicktrade.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-02
+date: 2024-03-19
 signer: 
 reviewArchive: 
 twitter: 

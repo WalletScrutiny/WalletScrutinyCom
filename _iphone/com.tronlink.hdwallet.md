@@ -8,11 +8,11 @@ appId: com.tronlink.hdwallet
 appCountry: us
 idd: '1453530188'
 released: 2019-03-02
-updated: 2023-06-29
-version: 4.13.5
-stars: 4.1
-reviews: 1012
-size: '177182720'
+updated: 2024-05-06
+version: 4.13.16
+stars: 4
+reviews: 1084
+size: '183156736'
 website: https://www.tronlink.org
 repository: 
 issue: 
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
-developerName: RAINCO PTE. LTD.
+developerName: Helix Tech Company Limited
 
 ---
 

@@ -20,16 +20,19 @@ npm install
 
 echo "Updating from Google, Apple and Github (Hardware and Bearer) $apps ..."
 echo "markDefunct is $markDefunct."
-node -e "require(\"./refreshApps\").refresh($markDefunct, \"$apps\", \"$githubApi\")"
+node \
+  --input-type=module \
+  --eval "import refreshApps from \"./refreshApps.mjs\"; refreshApps.refresh($markDefunct, \"$apps\", \"$githubApi\")"
 
 echo "Refreshing donations page ..."
-node refreshDonations.js $btcPayKey
+node refreshDonations.mjs $btcPayKey
 
 wait
 
 if [ "$( git diff --name-only | grep 'wIcons' )" != "" ]; then
   ./updateImages.sh
 fi
+node scripts/twitterCardGen.mjs
 
 wait
 
@@ -37,3 +40,4 @@ echo
 echo
 echo "Done! I'm just a stupid bot! Please carefully review my changes before committing or publishing!"
 ./refreshResults.sh
+node ./scripts/compileAllOpinions.js

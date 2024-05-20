@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.giottus.app.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 date: 2023-01-11
 signer: 

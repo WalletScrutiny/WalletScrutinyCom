@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.nebbix.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2022-12-17
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 

@@ -9,7 +9,7 @@ appCountry:
 released: 2021-04-30
 updated: 2021-06-15
 version: 1.0.6
-stars: 
+stars: 3.1
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.privafund.app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-06-10
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

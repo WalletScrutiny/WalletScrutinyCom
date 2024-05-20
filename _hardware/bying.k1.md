@@ -24,8 +24,8 @@ issue:
 icon: bying.k1.png
 bugbounty: 
 meta: ok
-verdict: fewusers
-date: 2022-05-18
+verdict: unreleased
+date: 2023-11-17
 signer: 
 reviewArchive: 
 twitter: Bying_official
@@ -67,4 +67,8 @@ From [the FAQ:](https://bying.io/help)
 
 This hardware wallet can generate private keys and will provide you with your mnemonics and is an offline wallet. 
 
-We could not find any information about the source code. Additionally, its unclear if the product is available to those outside of Beijing. Given the very little product information or accounts of its use we could find, we assume it has very much a niche use so far and file it as **"few users"**.
+We could not find any information about the source code. Additionally, its unclear if the product is available to those outside of Beijing.
+
+**Update 2023-11-17**
+
+The product buy page is still labelled as "Pre-Order", meaning it has not yet been released.

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bachex_android.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-06-20
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

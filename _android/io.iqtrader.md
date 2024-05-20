@@ -2,8 +2,9 @@
 wsId: 
 title: IQTrader
 altTitle: 
-authors: 
-users: 500
+authors:
+- danny
+users: 1000
 appId: io.iqtrader
 appCountry: 
 released: 2022-09-29
@@ -18,16 +19,32 @@ repository:
 issue: 
 icon: io.iqtrader.png
 bugbounty: 
-meta: ok
-verdict: fewusers
-date: 2023-06-03
+meta: stale
+verdict: nowallet
+date: 2023-11-03
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: IQTrader_io
+social:
+- https://www.instagram.com/iqtraderofficial/
 redirect_from: 
 developerName: IQTrader
 features: 
 
 ---
 
+## Analysis
+
+Described as having...
+
+> Every tool you need in your arsenal to become a professional trader.
+
+...from its App Store description. 
+
+From the homepage:
+
+> The platform for researching, scanning, market data and trading insights. We make investing easier, faster, better. Download for free in the app store below.
+
+It offers premium features that cost $2.39 a month. Although the link to download the app has Apple's Logo, it appears this app is only available on Play Store.
+
+This app is **not an exchange or wallet** and does not hold your assets or execute trades. 

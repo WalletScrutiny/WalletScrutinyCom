@@ -10,7 +10,7 @@ appCountry:
 released: 2022-04-13
 updated: 2022-08-07
 version: '1.2'
-stars: 
+stars: 4.2
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.hustay.swing.db5b38e0a87a94b99bbbc57b40b315e89.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-05-26
+date: 2023-08-09
 signer: 
 reviewArchive: 
 twitter: 

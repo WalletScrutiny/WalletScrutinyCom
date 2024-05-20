@@ -10,17 +10,17 @@ idd: 1587180582
 released: 2021-09-27
 updated: 2023-03-23
 version: 2.12.8
-stars: 3.1
-reviews: 25
+stars: 3
+reviews: 33
 size: '51435520'
 website: https://skyewallet.com/
 repository: 
 issue: 
 icon: com.skyewallet.app.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-11-15
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: skyewallet

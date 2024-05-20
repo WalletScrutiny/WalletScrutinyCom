@@ -3,13 +3,13 @@ wsId:
 title: CryptoSimple
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.cryptosimple.prod
 appCountry: 
 released: 2022-06-01
 updated: 2022-12-08
 version: 1.0.12
-stars: 
+stars: 4.3
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cryptosimple.prod.png
 bugbounty: 
-meta: ok
-verdict: fewusers
-date: 2023-06-03
+meta: stale
+verdict: wip
+date: 2023-12-13
 signer: 
 reviewArchive: 
 twitter: 

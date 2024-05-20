@@ -8,8 +8,8 @@ users: 1000
 appId: com.ttg
 appCountry: 
 released: 2022-02-17
-updated: 2023-02-13
-version: 5.10.21
+updated: 2023-08-25
+version: 5.10.23
 stars: 
 ratings: 
 reviews: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.ttg.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
-date: 2023-06-07
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: tradethegames

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.mkgf_nr.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-06-02
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: 

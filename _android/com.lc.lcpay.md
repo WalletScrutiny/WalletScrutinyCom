@@ -9,7 +9,7 @@ appCountry:
 released: 2021-03-07
 updated: 2021-04-13
 version: 5.0.0
-stars: 
+stars: 4.7
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.lc.lcpay.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-06-02
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

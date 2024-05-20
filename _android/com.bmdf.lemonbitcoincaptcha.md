@@ -4,17 +4,17 @@ title: Lemon Bitcoin Captcha
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.bmdf.lemonbitcoincaptcha
 appCountry: 
 released: 2022-07-11
-updated: 2023-05-29
-version: '2.6'
-stars: 4.1
+updated: 2024-05-17
+version: 3.4.0
+stars: 4.4
 ratings: 
-reviews: 
+reviews: 5
 size: 
-website: https://lemoncryptoapp.blogspot.com/
+website: https://needbux.com/app-ads.txt
 repository: 
 issue: 
 icon: com.bmdf.lemonbitcoincaptcha.png

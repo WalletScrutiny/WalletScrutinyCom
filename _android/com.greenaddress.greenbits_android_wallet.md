@@ -8,22 +8,52 @@ users: 100000
 appId: com.greenaddress.greenbits_android_wallet
 appCountry: 
 released: 2015-01-01
-updated: 2023-06-21
-version: 4.0.4
-stars: 4.5
+updated: 2024-05-15
+version: 4.0.25
+stars: 4.6
 ratings: 946
-reviews: 111
+reviews: 131
 size: 
 website: https://blockstream.com/green
 repository: https://github.com/Blockstream/green_android
-issue: https://github.com/Blockstream/green_android/issues/169
+issue: https://github.com/Blockstream/green_android/issues/189
 icon: com.greenaddress.greenbits_android_wallet.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
-date: 2023-04-27
+verdict: reproducible
+date: 2024-04-05
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 reviewArchive:
+- date: 2024-03-25
+  version: 4.0.26
+  appHash: 547801bc82299a63cbb6b61fb5946f258986f46d26c924b940f636e09b90eff4
+  gitRevision: dc63519510b21266fab8d3b3cb95a8267772db90
+  verdict: reproducible
+- date: 2024-02-09
+  version: 4.0.24
+  appHash: ac4c0bd144a6a461b86d0ddc1f881964a0d735095818231e0b4eebbfedae27b6
+  gitRevision: 668c0b5c594847155457efad9eb7d0bdc8a72af6
+  verdict: reproducible
+- date: 2024-01-20
+  version: 4.0.23
+  appHash: 847da5afc0b6342b8402e4d3e29f3b1402108b737b0a1a45875ba12a9c4dba58
+  gitRevision: 592263ccc8d4b25164d17c5e4bb26ef925dcf378
+  verdict: reproducible
+- date: 2024-01-01
+  version: 4.0.22
+  appHash: 2c15508e541eac79f8bd2fe98e015629b4b1f3e970c61a360a9ceabc788cd37f
+  gitRevision: 50dcb7b303ff69d126a1f0c8c5d8047e8d58fa7f
+  verdict: nonverifiable
+- date: 2023-11-26
+  version: 4.0.20
+  appHash: 12843c2f7714244eec94a885094ccab634f1561c1458ed3194c236ba1f1ab8ee
+  gitRevision: 8d18c0dd03581fdb0543f695499960747fae1109
+  verdict: nonverifiable
+- date: 2023-04-27
+  version: 4.0.1
+  appHash: 70199817fafe959a29aa91024f7d9dfd8561489768f32a2d30bc7570c582bf73
+  gitRevision: c802fff9e6ed27a7234c463edd5eae8ffe065b4a
+  verdict: nonverifiable
 - date: 2022-11-01
   version: 3.8.9
   appHash: c318f32b88543ffb89b3f1f6bab589007358c253c03711cc93c98f3b6e30f254
@@ -203,32 +233,29 @@ features:
 
 ---
 
-With this {% include testScript.html %} we get:
+For that latest version, our {% include testScript.html %} returned this:
 
 ```
 ===== Begin Results =====
 appId:          com.greenaddress.greenbits_android_wallet
 signer:         32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
-apkVersionName: 4.0.1
-apkVersionCode: 22000401
-verdict:        nonverifiable
-appHash:        70199817fafe959a29aa91024f7d9dfd8561489768f32a2d30bc7570c582bf73
-commit:         c6738c5565f1c594288b7a05130fc1af89fc7561
+apkVersionName: 4.0.27
+apkVersionCode: 22000427
+verdict:        reproducible
+appHash:        6efdb0f464be14daf376f9bb452d4c697235a96ef8a0b8640bb3876874cdbc04
+commit:         9bb27d81f4538b59f158f0ffd1fd5fbe5d5e45ca
 
 Diff:
-Files /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000401/assets/dexopt/baseline.profm and /tmp/fromBuild_com.greenaddress.greenbits_android_wallet_22000401/assets/dexopt/baseline.profm differ
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000401/META-INF: GREENADD.RSA
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000401/META-INF: GREENADD.SF
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000401/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000427/META-INF: GREENADD.RSA
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000427/META-INF: GREENADD.SF
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000427/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
-object c6738c5565f1c594288b7a05130fc1af89fc7561
+object 9bb27d81f4538b59f158f0ffd1fd5fbe5d5e45ca
 type commit
-tag release_4.0.1
-tagger Domenico Gabriele <domenico@blockstream.com> 1681853805 +0200
-
-Release 4.0.1
+tag release_4.0.27
+tagger Angelos Veglektsis <angelos@aveworks.com> 1711646534 +0200
 ===== End Results =====
 ```
 
-The diff for this version shows some differences in `baseline.profm` which is a binary file and we cannot verify reproducibility of this version, So we give it the verdict **nonverifiable**.
+This version of {{ page.title }} is **reproducible**.

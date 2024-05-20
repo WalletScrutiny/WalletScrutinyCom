@@ -1,6 +1,6 @@
 ---
 wsId: makeDelta
-title: 코인미어캣 | 보조지표 알림, 검색 | 코인차트 알람
+title: TraderCat - Alerts, Screener
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ appId: com.makedelta.slying
 appCountry: kr
 idd: '1581110050'
 released: 2021-08-15
-updated: 2023-06-01
-version: 6.1.0
-stars: 4.8
-reviews: 116
-size: '34125824'
-website: https://www.coinmrk.com/
+updated: 2024-04-30
+version: 8.0.1
+stars: 4.7
+reviews: 117
+size: '57303040'
+website: https://traderkat.io/
 repository: 
 issue: 
 icon: com.makedelta.slying.jpg

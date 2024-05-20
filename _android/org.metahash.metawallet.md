@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.metahash.metawallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2022-06-22
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: 

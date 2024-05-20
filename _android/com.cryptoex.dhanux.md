@@ -10,7 +10,7 @@ appCountry:
 released: 2022-03-02
 updated: 2023-01-12
 version: '4.2'
-stars: 
+stars: 4.7
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.cryptoex.dhanux.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-05-22
+date: 2024-01-16
 signer: 
 reviewArchive: 
 twitter: 

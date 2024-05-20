@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.appswedo.cryptomakemoney.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-05-10
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: 

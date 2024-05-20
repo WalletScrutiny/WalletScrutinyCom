@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.abitnetwork.abitpay.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-04-20
 signer: 

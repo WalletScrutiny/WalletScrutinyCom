@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: perfect.currency.exchange.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nowallet
 date: 2023-06-21
 signer: 

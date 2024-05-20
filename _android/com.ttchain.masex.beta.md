@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ttchain.masex.beta.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-10-21
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: 

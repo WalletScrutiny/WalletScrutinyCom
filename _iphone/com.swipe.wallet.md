@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.swipe.wallet.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2021-07-06
 signer: 

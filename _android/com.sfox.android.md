@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: 'SFOX: Buy BTC, ETH, ADA'
+title: 'sFOX: Buy BTC, ETH, DOGE'
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.sfox.android
 appCountry: 
 released: 2021-12-24
-updated: 2023-04-22
-version: 1.1.2
+updated: 2024-05-13
+version: 1.1.7
 stars: 
 ratings: 
 reviews: 

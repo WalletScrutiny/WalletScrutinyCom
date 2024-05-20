@@ -4,12 +4,12 @@ title: MOST Wallet
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.most.wallet
 appCountry: 
 released: 2022-02-04
-updated: 2023-06-01
-version: 1.4.19
+updated: 2024-04-27
+version: 1.5.36
 stars: 
 ratings: 
 reviews: 

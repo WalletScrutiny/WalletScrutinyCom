@@ -1,6 +1,6 @@
 ---
 wsId: Paxful
-title: Paxful | Bitcoin Wallet
+title: 'Paxful: Buy Bitcoin & Ethereum'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.paxful.wallet
 appCountry: 
 released: 2019-04-30
-updated: 2023-03-07
-version: 2.9.6.668
-stars: 3.3
+updated: 2024-04-18
+version: 2.9.23.684
+stars: 3.1
 ratings: 21528
-reviews: 1847
+reviews: 1909
 size: 
 website: https://Paxful.com
 repository: 

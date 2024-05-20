@@ -1,6 +1,6 @@
 ---
 wsId: coinmerce
-title: Coinmerce - Bitcoin Kopen
+title: Coinmerce - Buy Bitcoin
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: io.coinmerce.app
 appCountry: nl
 idd: '1409599830'
 released: 2018-07-29
-updated: 2023-06-09
-version: 5.6.5
-stars: 3.8
-reviews: 5
-size: '172316672'
+updated: 2024-05-07
+version: 5.8.7
+stars: 3.4
+reviews: 21
+size: '173291520'
 website: https://coinmerce.io/en/
 repository: 
 issue: 

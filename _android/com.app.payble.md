@@ -10,7 +10,7 @@ appCountry:
 released: 2018-01-07
 updated: 2021-03-01
 version: 2.1.5
-stars: 
+stars: 4.7
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.app.payble.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-05-11
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: mypayble

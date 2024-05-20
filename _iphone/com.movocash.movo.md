@@ -10,17 +10,17 @@ idd: '1538828856'
 released: 2021-04-01
 updated: 2022-12-09
 version: 4.3.2
-stars: 4.4
-reviews: 398
+stars: 4.3
+reviews: 400
 size: '95207424'
 website: https://movo.cash
 repository: 
 issue: 
 icon: com.movocash.movo.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosendreceive
-date: 2023-02-24
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: MovoCash

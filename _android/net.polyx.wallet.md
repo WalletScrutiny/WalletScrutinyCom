@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: net.polyx.wallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: wip
-date: 2023-06-01
+date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: Polyxchange

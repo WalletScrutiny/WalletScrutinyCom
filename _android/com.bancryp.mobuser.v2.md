@@ -10,7 +10,7 @@ appCountry:
 released: 2020-05-18
 updated: 2023-04-14
 version: 1.6.0
-stars: 3.8
+stars: 3.7
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bancryp.mobuser.v2.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-05-04
+date: 2024-04-09
 signer: 
 reviewArchive: 
 twitter: 

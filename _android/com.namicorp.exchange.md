@@ -8,11 +8,11 @@ users: 50000
 appId: com.namicorp.exchange
 appCountry: 
 released: 2019-11-06
-updated: 2023-06-24
-version: 2.1.3
-stars: 3.8
+updated: 2024-03-08
+version: 2.2.1
+stars: 4
 ratings: 
-reviews: 9
+reviews: 11
 size: 
 website: https://nami.exchange
 repository: 
@@ -30,7 +30,7 @@ social:
 - https://www.facebook.com/groups/800880653641607/
 - https://medium.com/nami-io
 redirect_from: 
-developerName: NAMI TRADE PTE. LTD.
+developerName: NAMI EXCHANGE
 features: 
 
 ---

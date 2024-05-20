@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: 'iSunOne: Buy USDC'
+title: 'iSunOne: USDC Card'
 altTitle: 
 authors: 
-users: 100
+users: 1000
 appId: com.isunoneapp
 appCountry: 
 released: 2022-03-10
-updated: 2022-04-26
-version: 3.0.3
+updated: 2023-12-22
+version: 4.0.3
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.isunoneapp.png
 bugbounty: 
-meta: stale
-verdict: fewusers
-date: 2023-04-27
+meta: ok
+verdict: wip
+date: 2023-07-22
 signer: 
 reviewArchive: 
 twitter: 

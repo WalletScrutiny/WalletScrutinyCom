@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.app.moen.ex.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-05-04
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: 

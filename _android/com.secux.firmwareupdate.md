@@ -8,20 +8,20 @@ users: 5000
 appId: com.secux.firmwareupdate
 appCountry: 
 released: 2021-09-28
-updated: 2022-07-04
-version: 1.0.5
-stars: 2.6
+updated: 2023-08-22
+version: 1.0.9
+stars: 2.4
 ratings: 
-reviews: 8
+reviews: 10
 size: 
 website: https://www.secuxtech.com
 repository: 
 issue: 
 icon: com.secux.firmwareupdate.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nowallet
-date: 2023-07-04
+date: 2023-08-29
 signer: 
 reviewArchive: 
 twitter: 

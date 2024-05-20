@@ -9,7 +9,7 @@ appCountry:
 released: 2021-09-24
 updated: 2021-09-25
 version: '1.0'
-stars: 
+stars: 4.1
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.mine.sac_vip.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2022-11-02
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: 

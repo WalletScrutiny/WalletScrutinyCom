@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: KeyEx.io Global - Buy BTC, ETH
+title: Keyex.io - Buy BTC, ETH
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.keyex.io.crypto
 appCountry: 
 released: 2023-02-15
-updated: 2023-05-24
-version: 1.0.22
+updated: 2024-05-09
+version: 1.1.11
 stars: 
 ratings: 
 reviews: 

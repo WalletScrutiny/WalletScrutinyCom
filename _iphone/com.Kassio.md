@@ -8,19 +8,19 @@ appId: com.Kassio
 appCountry: in
 idd: '1610537547'
 released: 2022-03-25
-updated: 2023-04-01
-version: 1.1.1
+updated: 2023-10-27
+version: 1.1.2
 stars: 5
 reviews: 12
-size: '112041984'
+size: '140860416'
 website: https://kassio.com/contact
 repository: 
 issue: 
 icon: com.Kassio.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-03-31
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: KassioNetwork

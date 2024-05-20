@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: gctp.Coins.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-01-11
 signer: 

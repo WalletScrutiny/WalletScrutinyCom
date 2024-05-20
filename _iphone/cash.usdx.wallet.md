@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: cash.usdx.wallet.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
 date: 2022-05-31
 signer: 

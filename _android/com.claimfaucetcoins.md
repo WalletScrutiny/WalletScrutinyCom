@@ -12,16 +12,16 @@ updated: 2022-08-18
 version: '2.2'
 stars: 4
 ratings: 266
-reviews: 16
+reviews: 17
 size: 
 website: 
 repository: 
 issue: 
 icon: com.claimfaucetcoins.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
-date: 2022-10-21
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

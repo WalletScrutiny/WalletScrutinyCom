@@ -3,7 +3,7 @@ wsId:
 title: Waynance
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.waynance.pay
 appCountry: 
 released: 2022-04-16
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.waynance.pay.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-04-13
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

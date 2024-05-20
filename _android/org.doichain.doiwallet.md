@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.doichain.doiwallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-04-27
+date: 2024-04-24
 signer: 
 reviewArchive: 
 twitter: 

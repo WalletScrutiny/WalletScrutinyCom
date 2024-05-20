@@ -9,18 +9,18 @@ appCountry:
 released: 2019-01-24
 updated: 2021-08-16
 version: '1.24'
-stars: 4.2
+stars: 
 ratings: 
-reviews: 3
+reviews: 
 size: 
 website: 
 repository: 
 issue: 
 icon: androidapp.digiebot.vizzweb.android.digiebot.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2023-06-02
+date: 2023-08-09
 signer: 
 reviewArchive: 
 twitter: 

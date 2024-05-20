@@ -3,7 +3,7 @@ wsId:
 title: IXX
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.ixxgoogle_android
 appCountry: 
 released: 2021-09-23
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ixxgoogle_android.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2022-12-17
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

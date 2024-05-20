@@ -10,18 +10,18 @@ appCountry:
 released: 2018-06-04
 updated: 2022-06-27
 version: 5.2.0
-stars: 1.5
+stars: 1.4
 ratings: 7732
-reviews: 1747
+reviews: 1750
 size: 
 website: https://celsius.network
 repository: 
 issue: 
 icon: network.celsius.wallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2023-07-04
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: celsiusnetwork

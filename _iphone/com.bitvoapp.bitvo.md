@@ -10,17 +10,17 @@ idd: 1400304552
 released: 2018-08-06
 updated: 2022-11-18
 version: 3.6.4
-stars: 3
-reviews: 25
+stars: 2.9
+reviews: 26
 size: '49477632'
 website: http://www.bitvo.com
 repository: 
 issue: 
 icon: com.bitvoapp.bitvo.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-11-22
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: BitvoExchange

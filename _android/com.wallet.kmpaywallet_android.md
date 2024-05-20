@@ -3,7 +3,7 @@ wsId:
 title: KamWallet
 altTitle: 
 authors: 
-users: 1
+users: 10
 appId: com.wallet.kmpaywallet_android
 appCountry: 
 released: 2022-03-07
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.wallet.kmpaywallet_android.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-03-03
+date: 2024-03-01
 signer: 
 reviewArchive: 
 twitter: 

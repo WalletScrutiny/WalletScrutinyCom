@@ -20,7 +20,7 @@ repository:
 issue: 
 icon: samurai.wallet.crypto.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fake
 date: 2021-09-10
 signer: 

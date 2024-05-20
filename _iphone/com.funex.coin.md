@@ -8,19 +8,19 @@ appId: com.funex.coin
 appCountry: us
 idd: '1617996833'
 released: 2022-04-18
-updated: 2023-05-12
-version: 1.0.16
+updated: 2023-10-29
+version: 1.0.22
 stars: 0
 reviews: 0
-size: '66777088'
+size: '51292160'
 website: 
 repository: 
 issue: 
 icon: com.funex.coin.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-05-25
+verdict: custodial
+date: 2023-11-17
 signer: 
 reviewArchive: 
 twitter: Funexclub

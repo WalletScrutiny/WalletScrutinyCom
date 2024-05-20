@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Купить и продать Биткоин с Ban
+title: Обмен Биткоин с Bankcomat
 altTitle: 
 authors: 
 users: 500
 appId: com.bankcomat.android_bankcomat
 appCountry: 
 released: 2021-08-19
-updated: 2021-08-19
-version: '1.0'
+updated: 2023-10-04
+version: 4.0.1
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bankcomat.android_bankcomat.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: fewusers
-date: 2022-10-21
+date: 2023-10-06
 signer: 
 reviewArchive: 
 twitter: 

@@ -7,8 +7,8 @@ users: 500
 appId: com.usdg.wallet
 appCountry: 
 released: 2020-11-05
-updated: 2023-04-26
-version: '3.6'
+updated: 2023-08-23
+version: '3.8'
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.usdg.wallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-06-02
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

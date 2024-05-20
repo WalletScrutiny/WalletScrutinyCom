@@ -10,17 +10,17 @@ idd: 1346160076
 released: 2018-05-29
 updated: 2023-05-16
 version: 6.1.0
-stars: 3.2
-reviews: 829
+stars: 3.1
+reviews: 834
 size: '37929984'
 website: https://bitbns.com
 repository: 
 issue: 
 icon: com.buyhatke.2018.BitBnS.jpg
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: custodial
-date: 2021-08-27
+date: 2023-08-25
 signer: 
 reviewArchive: 
 twitter: bitbns

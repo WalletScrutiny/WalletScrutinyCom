@@ -3,11 +3,11 @@ wsId:
 title: Baviera Capital Exchange
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.baviera.capital
 appCountry: 
 released: 2022-10-04
-updated: 2023-06-28
+updated: 2024-04-09
 version: 1.0.0
 stars: 
 ratings: 

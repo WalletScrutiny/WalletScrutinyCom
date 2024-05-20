@@ -8,11 +8,11 @@ appId: com.bituro.ios.bituroSurvey
 appCountry: us
 idd: 1257495078
 released: 2017-07-15
-updated: 2022-07-27
-version: 2.1.1
+updated: 2024-02-01
+version: 2.2.0
 stars: 4.5
-reviews: 425
-size: '20940800'
+reviews: 431
+size: '19434496'
 website: https://bituro.com/app/views/contact.php
 repository: 
 issue: 
@@ -20,7 +20,7 @@ icon: com.bituro.ios.bituroSurvey.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
-date: 2021-11-01
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: bituroapp

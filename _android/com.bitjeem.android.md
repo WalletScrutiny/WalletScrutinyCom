@@ -9,7 +9,7 @@ appCountry:
 released: 2020-11-16
 updated: 2022-12-03
 version: 1.11.0
-stars: 
+stars: 5
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitjeem.android.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2022-06-23
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

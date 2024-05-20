@@ -10,18 +10,18 @@ appCountry:
 released: 2022-01-23
 updated: 2022-11-25
 version: 1.11.25
-stars: 4.3
+stars: 4.2
 ratings: 
-reviews: 15
+reviews: 29
 size: 
 website: https://lachain.io
 repository: 
 issue: 
 icon: com.app.defi.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-03-09
+date: 2023-11-25
 signer: 
 reviewArchive: 
 twitter: 

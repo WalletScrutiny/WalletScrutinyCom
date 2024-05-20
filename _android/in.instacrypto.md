@@ -1,13 +1,14 @@
 ---
 wsId: 
-title: InstaCrypto
+title: InstaCrypto Buy Bitcoin Crypto
 altTitle: 
-authors: 
+authors:
+- danny
 users: 1000
 appId: in.instacrypto
 appCountry: 
 released: 
-updated: 2022-08-16
+updated: 2024-01-25
 version: VARY
 stars: 
 ratings: 
@@ -16,18 +17,34 @@ size:
 website: https://instacrypto.in
 repository: 
 issue: 
-icon: in.instacrypto.jpg
+icon: in.instacrypto.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-02
+verdict: nowallet
+date: 2024-01-16
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: instacryptoin
+social:
+- https://www.linkedin.com/company/instacryptoin
+- https://www.facebook.com/InstaCryptoIN
+- https://www.instagram.com/instacryptoin
+- https://t.me/instacryptoin
 redirect_from: 
 developerName: InstaCrypto
 features: 
 
 ---
 
+## App Description from Google Play
+
+> Unlike other platforms, InstaCrypto requires its users to hold, transact and experience crypto through a wallet of their choice thereby keeping financial power with users themselves.
+>
+> InstaCrypto takes a step further by delivering crypto, directly to personal wallets, enabling users to be in control of their own crypto at all times.
+>
+> Transactions take place directly from/to users' personal wallets or bank accounts thereby eliminating the need to store any user information (crypto/financial) on the Instacrypto platform. This ensures the safety of the users crypto/fiat funds.
+
+## Analysis
+
+- When users choose the "buy" option in the app, the user must enter a BTC address in the field.
+- This app **does not provide its own bitcoin wallet.**

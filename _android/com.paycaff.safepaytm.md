@@ -10,7 +10,7 @@ appCountry:
 released: 2019-05-29
 updated: 2022-08-14
 version: '6.0'
-stars: 4.3
+stars: 4.2
 ratings: 143
 reviews: 1
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.paycaff.safepaytm.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-04-08
+date: 2023-08-09
 signer: 
 reviewArchive: 
 twitter: 

@@ -3,7 +3,7 @@ wsId:
 title: 'Keywa: Crypto for Institution'
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: io.tardi.tardigrade
 appCountry: 
 released: 2022-04-28
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.tardi.tardigrade.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-07-04
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: 

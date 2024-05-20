@@ -3,7 +3,7 @@ wsId:
 title: Radius Wallet
 altTitle: 
 authors: 
-users: 1
+users: 5
 appId: com.radiuswallet
 appCountry: 
 released: 2022-05-06
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.radiuswallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-03
+date: 2024-01-29
 signer: 
 reviewArchive: 
 twitter: 

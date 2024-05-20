@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.btcboxpro.exchange.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-01-02
 signer: 

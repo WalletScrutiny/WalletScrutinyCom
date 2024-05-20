@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Swapitway: Gift Cards To Cash'
+title: Swapitway Sell Trade Gift Card
 altTitle: 
 authors:
 - danny
@@ -8,20 +8,20 @@ users: 5000
 appId: swapitway.trade
 appCountry: 
 released: 2021-11-01
-updated: 2021-11-01
-version: '2'
+updated: 2023-09-03
+version: '3'
 stars: 2.7
 ratings: 
-reviews: 41
+reviews: 46
 size: 
 website: https://swapitway.com
 repository: 
 issue: 
 icon: swapitway.trade.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2023-05-06
+date: 2023-09-10
 signer: 
 reviewArchive: 
 twitter: 

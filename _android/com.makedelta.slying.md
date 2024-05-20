@@ -1,6 +1,6 @@
 ---
 wsId: makeDelta
-title: 코인미어캣 | 보조지표 조합 돌파알림, 조건검색
+title: TraderCat - Alerts, Screener
 altTitle: 
 authors:
 - danny
@@ -8,13 +8,13 @@ users: 10000
 appId: com.makedelta.slying
 appCountry: 
 released: 2021-08-07
-updated: 2023-06-01
-version: 6.1.0
+updated: 2024-04-24
+version: 8.0.1
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.coinmrk.com/
+website: https://traderkat.io/
 repository: 
 issue: 
 icon: com.makedelta.slying.png

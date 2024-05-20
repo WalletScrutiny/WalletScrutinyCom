@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: app.bit4you.io.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2022-07-20
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: Bit4you1

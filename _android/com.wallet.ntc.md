@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.wallet.ntc.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-06-03
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

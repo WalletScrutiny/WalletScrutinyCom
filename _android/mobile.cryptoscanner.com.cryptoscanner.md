@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: mobile.cryptoscanner.com.cryptoscanner.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-01-02
 signer: 

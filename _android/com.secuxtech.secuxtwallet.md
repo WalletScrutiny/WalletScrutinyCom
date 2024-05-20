@@ -4,15 +4,15 @@ title: SecuX Wallet
 altTitle: 
 authors:
 - danny
-users: 500
+users: 10000
 appId: com.secuxtech.secuxtwallet
 appCountry: TW
 released: 2022-05-20
-updated: 2023-06-17
-version: 1.3.05
-stars: 
+updated: 2024-04-12
+version: 1.6.01
+stars: 4.4
 ratings: 
-reviews: 
+reviews: 2
 size: 
 website: https://secuxtech.com/
 repository: 
@@ -20,7 +20,7 @@ issue:
 icon: com.secuxtech.secuxtwallet.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-11-24
 signer: 
 reviewArchive: 

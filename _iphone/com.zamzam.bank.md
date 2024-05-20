@@ -10,7 +10,7 @@ idd: 1521900439
 released: 2020-07-04
 updated: 2023-05-06
 version: 1.10.4
-stars: 3.8
+stars: 3.6
 reviews: 83
 size: '54175744'
 website: https://zam.me
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.zamzam.bank.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-11-30
+date: 2024-05-04
 signer: 
 reviewArchive: 
 twitter: 

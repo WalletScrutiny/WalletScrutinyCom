@@ -1,6 +1,6 @@
 ---
 wsId: cobak
-title: 코박 - 국내 대표 코인 커뮤니티
+title: Cobak - Crypto Community App
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 100000
 appId: com.cobak.android
 appCountry: us
 released: 2018-03-08
-updated: 2023-07-03
-version: 1.43.12
+updated: 2024-05-07
+version: 1.43.42
 stars: 
 ratings: 
 reviews: 

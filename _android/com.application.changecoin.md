@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-05-12
 updated: 2022-02-10
 version: 1.2.6
-stars: 
+stars: 4.2
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.application.changecoin.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-02-08
+date: 2024-01-31
 signer: 
 reviewArchive: 
 twitter: 

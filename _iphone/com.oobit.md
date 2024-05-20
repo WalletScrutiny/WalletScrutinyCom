@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.oobit.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-06-14
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.ethos.universalwallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
-date: 2021-12-11
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: ethos_io

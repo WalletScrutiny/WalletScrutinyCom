@@ -11,16 +11,16 @@ released: 2019-10-10
 updated: 2022-12-09
 version: 1.0.104
 stars: 4.7
-reviews: 173377
+reviews: 173326
 size: '51325952'
 website: https://pro.coinbase.com
 repository: 
 issue: 
 icon: com.coinbase.pro.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2020-12-22
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: CoinbasePro

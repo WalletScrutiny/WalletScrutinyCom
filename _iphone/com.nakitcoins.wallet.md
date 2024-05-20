@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.nakitcoins.wallet.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2022-10-21
 signer: 

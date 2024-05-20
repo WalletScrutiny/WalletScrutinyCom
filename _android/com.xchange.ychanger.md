@@ -1,6 +1,6 @@
 ---
 wsId: yChanger
-title: Ychanger – доступный каждому о
+title: Ychanger – обмен криптовалют
 altTitle: 
 authors:
 - danny
@@ -8,9 +8,9 @@ users: 1000
 appId: com.xchange.ychanger
 appCountry: 
 released: 2021-06-08
-updated: 2021-06-08
-version: '1.0'
-stars: 
+updated: 2023-10-06
+version: 4.0.1
+stars: 4
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.xchange.ychanger.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: custodial
-date: 2023-06-10
+date: 2023-10-06
 signer: 
 reviewArchive: 
 twitter: 

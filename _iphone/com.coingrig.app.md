@@ -18,9 +18,9 @@ repository: https://github.com/coingrig/coingrig-wallet
 issue: 
 icon: com.coingrig.app.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: wip
-date: 2022-06-30
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: coingrig

@@ -11,16 +11,16 @@ released: 2020-06-29
 updated: 2023-01-12
 version: 2.7.1
 stars: 4.8
-reviews: 1173
+reviews: 1665
 size: '70804480'
 website: https://changenow.io
 repository: 
 issue: 
 icon: io.changenow.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-05-24
+date: 2024-01-16
 signer: 
 reviewArchive: 
 twitter: ChangeNOW_io

@@ -4,13 +4,13 @@ title: Quadency - Crypto Platform
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.quadency.app
 appCountry: 
 released: 2021-10-24
 updated: 2023-03-06
 version: 1.6.0
-stars: 2.3
+stars: 2.7
 ratings: 
 reviews: 4
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.quadency.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-04-29
+date: 2024-03-01
 signer: 
 reviewArchive: 
 twitter: quadency

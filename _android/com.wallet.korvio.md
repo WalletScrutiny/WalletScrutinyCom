@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.wallet.korvio.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2023-03-11
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

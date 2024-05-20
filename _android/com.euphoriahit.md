@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.euphoriahit.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2023-05-24
+date: 2023-11-25
 signer: 
 reviewArchive: 
 twitter: Euphoria_Hit

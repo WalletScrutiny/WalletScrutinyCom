@@ -1,6 +1,6 @@
 ---
 wsId: coin98
-title: Coin98 Super App
+title: Coin98 Super Wallet
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: coin98.crypto.finance.insights
 appCountry: us
 idd: 1561969966
 released: 2021-05-14
-updated: 2023-06-29
-version: 12.11.9
-stars: 4.6
-reviews: 597
-size: '132002816'
+updated: 2024-04-29
+version: 14.7.1
+stars: 4.5
+reviews: 631
+size: '210792448'
 website: https://coin98.com
 repository: 
 issue: 
@@ -27,7 +27,7 @@ twitter: coin98_wallet
 social:
 - https://www.facebook.com/Coin98Wallet
 features: 
-developerName: Coin98 Finance
+developerName: COIN98 WALLET LTD
 
 ---
 

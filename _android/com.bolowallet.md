@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bolowallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2021-12-03
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

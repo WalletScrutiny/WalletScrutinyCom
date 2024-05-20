@@ -10,11 +10,11 @@ users: 100000
 appId: com.pundix.xwallet
 appCountry: 
 released: 2018-10-22
-updated: 2023-06-15
-version: 2.8.6
-stars: 3.2
+updated: 2023-07-07
+version: 2.8.7
+stars: 3.1
 ratings: 5049
-reviews: 211
+reviews: 210
 size: 
 website: https://www.pundix.com
 repository: 

@@ -17,9 +17,9 @@ repository:
 issue: 
 icon: com.banexcoin.app.mobile.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: wip
-date: 2023-05-11
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 

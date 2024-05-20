@@ -10,7 +10,7 @@ appCountry:
 released: 2022-04-03
 updated: 2022-11-17
 version: 3.4.0
-stars: 4.6
+stars: 4.5
 ratings: 
 reviews: 5
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.fincrypt.paybolt.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-05-25
+date: 2023-11-25
 signer: 
 reviewArchive: 
 twitter: PayBoltOfficial

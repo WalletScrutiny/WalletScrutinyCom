@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.level01.android.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nobtc
-date: 2022-12-17
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: level01io

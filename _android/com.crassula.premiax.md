@@ -7,7 +7,7 @@ users: 10
 appId: com.crassula.premiax
 appCountry: 
 released: 2022-05-26
-updated: 2023-05-19
+updated: 2023-08-28
 version: '1.1'
 stars: 
 ratings: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.crassula.premiax.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-06-03
+date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: 

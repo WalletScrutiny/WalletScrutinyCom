@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.adara.client.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2022-01-26
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: 

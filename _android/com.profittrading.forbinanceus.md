@@ -10,7 +10,7 @@ appCountry:
 released: 2019-10-25
 updated: 2021-04-27
 version: 2.0.2
-stars: 4.1
+stars: 4.2
 ratings: 64
 reviews: 9
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.profittrading.forbinanceus.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2023-04-18
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: ProfitTrading_

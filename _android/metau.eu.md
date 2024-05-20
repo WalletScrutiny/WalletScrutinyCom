@@ -3,7 +3,7 @@ wsId:
 title: Metau - multi currency wallet
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: metau.eu
 appCountry: 
 released: 2023-03-23
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: metau.eu.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-03
+date: 2024-05-16
 signer: 
 reviewArchive: 
 twitter: 

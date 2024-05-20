@@ -3,12 +3,12 @@ wsId:
 title: صرافی غیرمتمرکز تهران اکسچنج
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.tehranExchangeGroup.tehran_exchange
 appCountry: 
 released: 2022-12-08
-updated: 2023-07-03
-version: 1.1.38
+updated: 2023-10-24
+version: 1.1.55
 stars: 
 ratings: 
 reviews: 

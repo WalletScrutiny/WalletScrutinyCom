@@ -10,7 +10,7 @@ appCountry:
 released: 2020-08-12
 updated: 2022-01-23
 version: '1.3'
-stars: 
+stars: 4.2
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.tmweasy.ipay.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nowallet
-date: 2023-06-03
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

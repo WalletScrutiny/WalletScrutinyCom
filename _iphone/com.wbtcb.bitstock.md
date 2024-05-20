@@ -8,23 +8,24 @@ appId: com.wbtcb.bitstock
 appCountry: us
 idd: '1508577020'
 released: 2020-06-22
-updated: 2023-05-22
-version: 2.6.0
-stars: 5
-reviews: 1
-size: '69480448'
+updated: 2024-04-17
+version: 2.6.4
+stars: 3.7
+reviews: 3
+size: '62254080'
 website: https://bit.plus
 repository: 
 issue: 
 icon: com.wbtcb.bitstock.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-04-13
+verdict: nowallet
+date: 2023-11-17
 signer: 
 reviewArchive: 
 twitter: 
-social: 
+social:
+- https://www.bit.plus/
 features: 
 developerName: IP wBTCB solutions, s.r.o.
 

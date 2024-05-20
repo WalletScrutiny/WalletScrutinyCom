@@ -12,7 +12,7 @@ appCountry: us
 released: 2021-04-27
 updated: 2021-06-30
 version: 2.0.1
-stars: 
+stars: 3.4
 ratings: 
 reviews: 
 size: 
@@ -21,9 +21,9 @@ repository: https://github.com/rsksmart/rwallet
 issue: https://github.com/rsksmart/rwallet/issues/726
 icon: com.rsk.rwallet.v2.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: ftbfs
-date: 2023-06-20
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: rsksmart

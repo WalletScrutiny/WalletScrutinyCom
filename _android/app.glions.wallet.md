@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: app.glions.wallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-04-27
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 

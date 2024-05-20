@@ -3,7 +3,7 @@ wsId:
 title: MEMEEX
 altTitle: 
 authors: 
-users: 1
+users: 10
 appId: com.app.irxauj.cn
 appCountry: 
 released: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.app.irxauj.cn.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-06-03
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

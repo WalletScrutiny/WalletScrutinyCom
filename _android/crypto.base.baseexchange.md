@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: crypto.base.baseexchange.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2023-03-26
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: techpay_io

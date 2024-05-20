@@ -1,6 +1,6 @@
 ---
 wsId: vault12
-title: 'Vault12 Guard: Inherit+Secure'
+title: Crypto Inheritance and Backup
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: com.vault12.vault12
 appCountry: 
 released: 2019-08-28
-updated: 2023-06-29
-version: 2.0.21
-stars: 4.3
+updated: 2024-04-24
+version: 2.2.0
+stars: 4.5
 ratings: 
-reviews: 98
+reviews: 104
 size: 
 website: http://vault12.com
 repository: https://github.com/vault12

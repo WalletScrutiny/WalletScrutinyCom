@@ -10,17 +10,17 @@ idd: 1475633490
 released: 2019-08-17
 updated: 2023-05-01
 version: 2.6.3
-stars: 4.6
-reviews: 8
+stars: 4.2
+reviews: 9
 size: '40100864'
 website: https://www.bytesmix.com
 repository: 
 issue: 
 icon: bytesmix.live.co.kr.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-10-01
+date: 2024-04-28
 signer: 
 reviewArchive: 
 twitter: bytesmix

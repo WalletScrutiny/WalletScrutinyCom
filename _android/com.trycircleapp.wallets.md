@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-12-29
 updated: 2021-12-10
 version: '7.0'
-stars: 
+stars: 4.6
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.trycircleapp.wallets.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
-date: 2022-12-17
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: 

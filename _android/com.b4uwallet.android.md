@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.b4uwallet.android.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2023-04-13
+date: 2023-09-04
 signer: 
 reviewArchive: 
 twitter: b4uwallet_b4u

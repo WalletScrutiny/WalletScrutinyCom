@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.thisoption.extons.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-05-01
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: 

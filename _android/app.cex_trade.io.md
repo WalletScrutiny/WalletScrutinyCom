@@ -2,7 +2,8 @@
 wsId: 
 title: Cex-Trade
 altTitle: 
-authors: 
+authors:
+- danny
 users: 5000
 appId: app.cex_trade.io
 appCountry: 
@@ -18,9 +19,9 @@ repository:
 issue: 
 icon: app.cex_trade.io.png
 bugbounty: 
-meta: ok
-verdict: wip
-date: 2023-06-03
+meta: defunct
+verdict: fake
+date: 2023-07-02
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,3 +32,13 @@ features:
 
 ---
 
+## App Description from Google Play
+
+> Cex-Trade is fast and secure Crypto Exchange. We provide Staking, Saving, Voting, Fast Swap and many other functionalities.
+
+## Analysis
+
+- The associated website is no longer online.
+- When the app is downloaded it simply opens a browser with a webpage not available error.
+- This is a **fake** of {% include walletLink.html wallet='android/io.cex.wallet' verdict='true' %}
+ and possibly **defunct** as well.

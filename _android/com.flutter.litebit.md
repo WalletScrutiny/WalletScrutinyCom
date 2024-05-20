@@ -10,18 +10,18 @@ appCountry:
 released: 2019-12-12
 updated: 2023-05-16
 version: 3.3.19
-stars: 
+stars: 3.6
 ratings: 
-reviews: 
+reviews: 2
 size: 
 website: https://www.litebit.eu/
 repository: 
 issue: 
 icon: com.flutter.litebit.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-05-30
+date: 2024-05-11
 signer: 
 reviewArchive: 
 twitter: litebiteu

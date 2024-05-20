@@ -10,18 +10,18 @@ appCountry:
 released: 2018-07-15
 updated: 2021-08-07
 version: VARY
-stars: 4.2
+stars: 4.4
 ratings: 60
-reviews: 12
+reviews: 11
 size: 
 website: https://profittradingapp.com/
 repository: 
 issue: 
 icon: com.profittrading.forkraken.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2022-10-21
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: ProfitTrading_

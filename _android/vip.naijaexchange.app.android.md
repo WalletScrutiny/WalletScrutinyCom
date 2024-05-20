@@ -9,7 +9,7 @@ appCountry:
 released: 2021-09-09
 updated: 2021-09-14
 version: 1.0.1
-stars: 
+stars: 4.7
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: vip.naijaexchange.app.android.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2022-11-02
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

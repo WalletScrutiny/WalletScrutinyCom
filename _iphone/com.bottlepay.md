@@ -11,16 +11,16 @@ released: 2021-02-10
 updated: 2023-06-08
 version: 2.2.15
 stars: 4.4
-reviews: 302
+reviews: 305
 size: '166439936'
 website: https://bottlepay.com
 repository: 
 issue: 
 icon: com.bottlepay.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-03-30
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: bottlepay

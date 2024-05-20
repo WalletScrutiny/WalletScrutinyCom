@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Atechcoins
+title: Atechpadi
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.app.atechcoins
 appCountry: 
 released: 2020-11-10
-updated: 2023-05-27
-version: 2.0.7
+updated: 2024-04-26
+version: 1.0.8
 stars: 3.5
 ratings: 85
 reviews: 6

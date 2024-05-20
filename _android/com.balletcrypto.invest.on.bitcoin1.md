@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.balletcrypto.invest.on.bitcoin1.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2021-09-23
 signer: 

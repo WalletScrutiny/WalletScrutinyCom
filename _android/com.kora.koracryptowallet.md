@@ -3,7 +3,7 @@ wsId:
 title: Kora
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.kora.koracryptowallet
 appCountry: 
 released: 2022-05-31
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.kora.koracryptowallet.png
 bugbounty: 
-meta: ok
-verdict: fewusers
-date: 2022-07-31
+meta: removed
+verdict: wip
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

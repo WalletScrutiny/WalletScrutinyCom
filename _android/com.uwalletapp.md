@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.uwalletapp.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2021-01-23
 signer: 

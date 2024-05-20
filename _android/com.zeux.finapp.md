@@ -12,16 +12,16 @@ updated: 2021-10-07
 version: 2.20.0
 stars: 4.3
 ratings: 1655
-reviews: 1234
+reviews: 1233
 size: 
 website: https://www.zeux.com
 repository: 
 issue: 
 icon: com.zeux.finapp.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2022-11-02
+date: 2023-09-04
 signer: 
 reviewArchive: 
 twitter: ZeuxApp

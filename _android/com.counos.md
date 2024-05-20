@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.counos.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-04-16
+date: 2024-04-09
 signer: 
 reviewArchive: 
 twitter: counoscoin
@@ -29,7 +29,7 @@ social:
 - https://www.linkedin.com/company/counosplatform
 - https://www.facebook.com/CounosPlatform
 redirect_from: 
-developerName: Counos
+developerName: ZeroCash
 features: 
 
 ---

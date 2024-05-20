@@ -1,6 +1,6 @@
 ---
 wsId: bitci
-title: 'Bitci TR: BTC | ETH | USDT'
+title: Bitci Borsa
 altTitle: 
 authors:
 - danny
@@ -8,9 +8,9 @@ users: 100000
 appId: com.bitcimobile
 appCountry: 
 released: 2020-03-30
-updated: 2023-06-02
-version: 7.1.0
-stars: 2.3
+updated: 2024-02-21
+version: 7.2.5
+stars: 2.2
 ratings: 
 reviews: 13
 size: 

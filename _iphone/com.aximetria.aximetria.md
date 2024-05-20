@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.aximetria.aximetria.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
-date: 2021-11-26
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: aximetriagmbh
@@ -31,7 +31,5 @@ features:
 developerName: 
 
 ---
-
-**Update 2021-11-12**: This app is not on App Store anymore.
 
 {% include copyFromAndroid.html %}

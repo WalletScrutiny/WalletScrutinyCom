@@ -8,19 +8,19 @@ appId: com.xchange.baksman
 appCountry: ru
 idd: 1436169013
 released: 2018-09-21
-updated: 2023-02-14
-version: 2.2.7
+updated: 2023-08-28
+version: 2.2.9
 stars: 4.7
-reviews: 62
-size: '14211072'
+reviews: 63
+size: '14303232'
 website: 
 repository: 
 issue: 
 icon: com.xchange.baksman.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
-date: 2021-11-15
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: 

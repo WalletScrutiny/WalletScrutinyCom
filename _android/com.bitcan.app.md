@@ -4,15 +4,15 @@ title: 'BitKan: Trade Bitcoin & Crypto'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.bitcan.app
 appCountry: us
 released: 2017-10-18
-updated: 2023-05-25
-version: 8.14.0.8
-stars: 3.1
+updated: 2024-04-08
+version: 8.21.0.3
+stars: 3
 ratings: 92
-reviews: 29
+reviews: 28
 size: 
 website: http://www.bitkan.com
 repository: 

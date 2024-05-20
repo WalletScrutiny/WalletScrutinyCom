@@ -8,11 +8,11 @@ users: 10000
 appId: com.monnos.android
 appCountry: br
 released: 2019-09-17
-updated: 2023-06-16
-version: 5.11.8
-stars: 3.6
+updated: 2024-05-03
+version: 6.2.20
+stars: 3.7
 ratings: 931
-reviews: 469
+reviews: 476
 size: 
 website: https://monnos.com
 repository: 
@@ -29,7 +29,7 @@ social:
 - https://www.linkedin.com/company/monnosglobal
 - https://www.facebook.com/MonnosGlobal
 redirect_from: 
-developerName: Monnos App
+developerName: Monnos Global
 features: 
 
 ---

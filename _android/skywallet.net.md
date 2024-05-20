@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: skywallet.net.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2022-05-31
 signer: 

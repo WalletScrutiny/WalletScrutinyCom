@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.xrex.mobile.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-11-15
+date: 2023-09-04
 signer: 
 reviewArchive: 
 twitter: xrexinc

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.wQ7Trades_15018357.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-01-10
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 

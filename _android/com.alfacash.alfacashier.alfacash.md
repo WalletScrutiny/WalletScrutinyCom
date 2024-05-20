@@ -3,13 +3,13 @@ wsId:
 title: 'Alfacash: Bitcoin DeFi Wallet'
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.alfacash.alfacashier.alfacash
 appCountry: 
 released: 2022-12-23
-updated: 2023-04-18
+updated: 2023-11-22
 version: 1.11.8
-stars: 
+stars: 4.4
 ratings: 
 reviews: 
 size: 

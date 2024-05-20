@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.net-cents.app.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 date: 2023-05-10
 signer: 

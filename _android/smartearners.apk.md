@@ -9,7 +9,7 @@ appCountry:
 released: 2022-08-11
 updated: 2022-08-11
 version: '9.8'
-stars: 
+stars: 3.8
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: smartearners.apk.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-06-03
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

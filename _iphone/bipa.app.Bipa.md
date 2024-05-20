@@ -1,6 +1,6 @@
 ---
 wsId: bipaBR
-title: Bipa - Conta Pix & Bitcoin
+title: Bipa - Pix, Bitcoin & USDT
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: bipa.app.Bipa
 appCountry: br
 idd: '1516842324'
 released: 2020-06-30
-updated: 2023-07-03
-version: 3.0.1
-stars: 4.6
-reviews: 607
-size: '97133568'
+updated: 2024-04-17
+version: 3.3.14
+stars: 4.8
+reviews: 2809
+size: '116580352'
 website: https://bipa.app
 repository: 
 issue: 

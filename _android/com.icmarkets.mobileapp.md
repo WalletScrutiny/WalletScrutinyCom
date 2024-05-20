@@ -1,33 +1,51 @@
 ---
-wsId: 
+wsId: iCMarkets
 title: IC Markets
 altTitle: 
-authors: 
-users: 100000
+authors:
+- danny
+users: 500000
 appId: com.icmarkets.mobileapp
 appCountry: 
 released: 2022-01-19
 updated: 2022-06-22
 version: '2.0'
-stars: 4.5
+stars: 4.2
 ratings: 
-reviews: 4
+reviews: 6
 size: 
 website: https://icmarkets.com
 repository: 
 issue: 
 icon: com.icmarkets.mobileapp.png
 bugbounty: 
-meta: stale
-verdict: wip
-date: 2023-06-20
+meta: removed
+verdict: nosendreceive
+date: 2023-12-19
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: IC_Markets
+social:
+- https://www.linkedin.com/company/icmarkets
 redirect_from: 
 developerName: IC Markets - Trade CFDs on Stocks, Forex & More
 features: 
 
 ---
 
+## App Description from Google Play
+
+> Trade leveraged CFDs Forex, commodities, indices, stocks, futures, bonds, and cryptocurrencies from your phone with industry-leading tight spreads.
+
+## Analysis
+
+- This is a CFD trading platform that also caters to cryptocurrency CFDs.
+- These are the [deposit options](https://www.icmarkets.com/global/en/trading-accounts/funding). There was no mention of cryptocurrency deposits.
+- These are the [withdrawal conditions](https://www.icmarkets.com/global/en/trading-accounts/withdrawal) and options:
+  - Paypal / Neteller / Skrill
+  - Credit / Debit Card
+  - International Bank Wire Transfer
+  - Fasapay, Rapidpay, Klarna
+  - There was no mention of BTC, bitcoin or cryptocurrency withdrawals.
+- This is their [cryptocurrency CFD trading](https://www.icmarkets.com/global/en/trading-markets/digitalcurrency) page.
+- As a cryptocurrency CFD trading platform, this app **cannot send/receive bitcoin**.

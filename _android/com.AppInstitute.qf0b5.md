@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.AppInstitute.qf0b5.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2021-08-17
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

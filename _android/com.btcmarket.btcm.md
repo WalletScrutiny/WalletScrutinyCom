@@ -4,12 +4,12 @@ title: BTC Markets
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.btcmarket.btcm
 appCountry: 
 released: 2022-03-17
-updated: 2023-06-08
-version: 1.6.2
+updated: 2024-04-18
+version: 1.8.1
 stars: 
 ratings: 
 reviews: 

@@ -9,7 +9,7 @@ appCountry:
 released: 2020-04-14
 updated: 2020-04-14
 version: '1.0'
-stars: 
+stars: 2.8
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.mineblockcraftapp.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2022-04-05
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

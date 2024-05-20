@@ -7,8 +7,8 @@ users: 5
 appId: net.inoutscripts.demo.inoutblockchainaltexchanger
 appCountry: 
 released: 2021-10-02
-updated: 2022-09-14
-version: '1.0'
+updated: 2024-03-02
+version: '1.1'
 stars: 
 ratings: 
 reviews: 
@@ -20,7 +20,7 @@ icon: net.inoutscripts.demo.inoutblockchainaltexchanger.png
 bugbounty: 
 meta: ok
 verdict: fewusers
-date: 2022-06-22
+date: 2024-03-07
 signer: 
 reviewArchive: 
 twitter: 

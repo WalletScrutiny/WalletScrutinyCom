@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ditepayhub.app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-06-02
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 

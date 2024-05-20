@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.roinvesting.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosendreceive
-date: 2022-11-02
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: Roinvesting

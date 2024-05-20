@@ -3,29 +3,85 @@ wsId: bluewallet
 title: BlueWallet Bitcoin Wallet
 altTitle: 
 authors:
-- leo
 - emanuel
 - Mohammad Rafigh
+- leo
+- danny
 users: 100000
 appId: io.bluewallet.bluewallet
 appCountry: 
 released: 2018-11-01
-updated: 2023-07-03
-version: 6.4.6
-stars: 4.1
+updated: 2024-05-16
+version: 6.6.6
+stars: 3.8
 ratings: 1810
-reviews: 279
+reviews: 316
 size: 
 website: https://bluewallet.io
 repository: https://github.com/bluewallet/bluewallet
-issue: https://github.com/BlueWallet/BlueWallet/issues/758
+issue: https://github.com/BlueWallet/BlueWallet/issues/6409
 icon: io.bluewallet.bluewallet.png
 bugbounty: 
 meta: ok
-verdict: reproducible
-date: 2023-06-24
+verdict: nonverifiable
+date: 2024-05-20
 signer: 42250147991337ed230fbd93c0be0e5f6183d02eed9e1d53e5aac94167cf3f2f
 reviewArchive:
+- date: 2024-05-13
+  version: 6.6.5
+  appHash: 19be1eee34b1346822c28fcfa7673c47f36b09b29f5d01e09bc8ac22a94dd87b
+  gitRevision: 795ac74ac2c4cbc5e1b585e905e9bde91f7403a7
+  verdict: nonverifiable
+- date: 2024-04-28
+  version: 6.6.3
+  appHash: e1aefc8b1e60110b6a4898b918e881067ec9ae1c51791250e4c280924b3a87d7
+  gitRevision: 25fbf814ed655ba47eef750a3303527d4963f563
+  verdict: nonverifiable
+- date: 2024-04-13
+  version: 6.6.1
+  appHash: 65840ba3a127285f3f76f6471dfe004c4ad9a213b17f56eb3a2d41a4eaf58831
+  gitRevision: 586adcbba1184aefe8934a5deeea398a079e4521
+  verdict: nonverifiable
+- date: 2024-04-11
+  version: 6.6.0
+  appHash: 57032d9016e70c7e6b40bb12c1c836514c8ed88b707ded9f1bfcdfa7afc53354
+  gitRevision: 751ed3179997adb455ae23b0a4d44e1d6c50f929
+  verdict: nonverifiable
+- date: 2024-03-21
+  version: 6.5.9
+  appHash: 7212a960b945a86b7ce7338130eaed24e4b1aac1eb0008e1cbd12c5502726766
+  gitRevision: 540359a8e54b09cd2c779908dc00d772d77a7234
+  verdict: nonverifiable
+- date: 2024-02-06
+  version: 6.5.1
+  appHash: ffc2ee373de218e4fa162ad8b65677f6eceb32b6b24d23af395e352cab085460
+  gitRevision: 80d0c8aa9368ff937978998edd03fe4ded1875fe
+  verdict: nonverifiable
+- date: 2024-01-21
+  version: 6.4.16
+  appHash: 8fae7cd0dbc1f9703094cc27875753bacbda3d073a906e0ec269a631658b8794
+  gitRevision: 53616e364b4822bfc14d8c4ec5223732e3fed962
+  verdict: nonverifiable
+- date: 2023-12-30
+  version: 6.4.13
+  appHash: 2ae917d3b7124dd4d3a5ea38749d999da0beb553eee251685852a99a6cb6db23
+  gitRevision: 296bcdee928006170300cbdd85df642fb326c9e7
+  verdict: nonverifiable
+- date: 2023-11-09
+  version: 6.4.10
+  appHash: 
+  gitRevision: 84f640d3d610bf8f9947f44b154cd51056520854
+  verdict: ftbfs
+- date: 2023-10-08
+  version: 6.4.8
+  appHash: 
+  gitRevision: 55c2cb89d543d8196128e02299145e804744698c
+  verdict: ftbfs
+- date: 2023-06-24
+  version: 6.4.5
+  appHash: d6b8c5235b742ddcbde680eba9851d6c8b1477c86f5577a794dd9961fcf8a6df
+  gitRevision: c0e1ed7e183c9ef5730cb8b77829e7a1640739b1
+  verdict: reproducible
 - date: 2023-05-21
   version: 6.4.4
   appHash: 566dfd2e6d98cac8fdc2124800947c1ae5f555bdb86396f928ab69c90c7a0e60
@@ -55,185 +111,59 @@ features:
 
 ---
 
-**Update 2023-06-21**:
-Recent release (v6.4.5) of this wallet with the apk downloaded from Github 
-is also **reproducible**:
+Here we test if the latest version can be reproduced, following the known
+procedure expressed in our {% include testScript.html %}. 
+
+The script succeeds with a huge diff:
 
 ```
 ===== Begin Results =====
 appId:          io.bluewallet.bluewallet
-signer:         f0573fec6d1afb62f7eaa901f57a6c242f181a32eb901a77f443e589c333a3e5
-apkVersionName: 6.4.5
-apkVersionCode: 1686411833
-verdict:        reproducible
-appHash:        d6b8c5235b742ddcbde680eba9851d6c8b1477c86f5577a794dd9961fcf8a6df
-commit:         77e2ec8256ac4a4cc23ebdb0234be46a373fbcc7
+signer:         42250147991337ed230fbd93c0be0e5f6183d02eed9e1d53e5aac94167cf3f2f
+apkVersionName: 6.6.6
+apkVersionCode: 1715881608
+verdict:        
+appHash:        3b9a02abcfc3122031aa5cec98bce013f7287b586d0f92f614ce432587e4c61e
+commit:         69a32a0f418726e97d4fea2f75da99b8c19e4a1c
 
 Diff:
-Only in /tmp/fromPlay_io.bluewallet.bluewallet_1686411833/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_io.bluewallet.bluewallet_1686411833/META-INF: MBLUEWAL.RSA
-Only in /tmp/fromPlay_io.bluewallet.bluewallet_1686411833/META-INF: MBLUEWAL.SF
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1715881608/AndroidManifest.xml and /tmp/fromBuild_io.bluewallet.bluewallet_1715881608/AndroidManifest.xml differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1715881608/assets/dexopt/baseline.prof and /tmp/fromBuild_io.bluewallet.bluewallet_1715881608/assets/dexopt/baseline.prof differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1715881608/assets/dexopt/baseline.profm and /tmp/fromBuild_io.bluewallet.bluewallet_1715881608/assets/dexopt/baseline.profm differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1715881608/assets/index.android.bundle and /tmp/fromBuild_io.bluewallet.bluewallet_1715881608/assets/index.android.bundle differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1715881608/classes3.dex and /tmp/fromBuild_io.bluewallet.bluewallet_1715881608/classes3.dex differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1715881608/lib/arm64-v8a/libreanimated.so and /tmp/fromBuild_io.bluewallet.bluewallet_1715881608/lib/arm64-v8a/libreanimated.so differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1715881608/lib/arm64-v8a/librnscreens.so and /tmp/fromBuild_io.bluewallet.bluewallet_1715881608/lib/arm64-v8a/librnscreens.so differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1715881608/lib/armeabi-v7a/libreanimated.so and /tmp/fromBuild_io.bluewallet.bluewallet_1715881608/lib/armeabi-v7a/libreanimated.so differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1715881608/lib/armeabi-v7a/librnscreens.so and /tmp/fromBuild_io.bluewallet.bluewallet_1715881608/lib/armeabi-v7a/librnscreens.so differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1715881608/lib/x86/libreanimated.so and /tmp/fromBuild_io.bluewallet.bluewallet_1715881608/lib/x86/libreanimated.so differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1715881608/lib/x86/librnscreens.so and /tmp/fromBuild_io.bluewallet.bluewallet_1715881608/lib/x86/librnscreens.so differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1715881608/lib/x86_64/libreanimated.so and /tmp/fromBuild_io.bluewallet.bluewallet_1715881608/lib/x86_64/libreanimated.so differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1715881608/lib/x86_64/librnscreens.so and /tmp/fromBuild_io.bluewallet.bluewallet_1715881608/lib/x86_64/librnscreens.so differ
+Only in /tmp/fromPlay_io.bluewallet.bluewallet_1715881608/META-INF: GOOGPLAY.RSA
+Only in /tmp/fromPlay_io.bluewallet.bluewallet_1715881608/META-INF: GOOGPLAY.SF
+Only in /tmp/fromPlay_io.bluewallet.bluewallet_1715881608/META-INF: MANIFEST.MF
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1715881608/res/AB.png and /tmp/fromBuild_io.bluewallet.bluewallet_1715881608/res/AB.png differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1715881608/res/k5.png and /tmp/fromBuild_io.bluewallet.bluewallet_1715881608/res/k5.png differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1715881608/res/Lp.png and /tmp/fromBuild_io.bluewallet.bluewallet_1715881608/res/Lp.png differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1715881608/res/pV.png and /tmp/fromBuild_io.bluewallet.bluewallet_1715881608/res/pV.png differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1715881608/res/U4.png and /tmp/fromBuild_io.bluewallet.bluewallet_1715881608/res/U4.png differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1715881608/res/xL.png and /tmp/fromBuild_io.bluewallet.bluewallet_1715881608/res/xL.png differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1715881608/res/YG.png and /tmp/fromBuild_io.bluewallet.bluewallet_1715881608/res/YG.png differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1715881608/res/Yk.png and /tmp/fromBuild_io.bluewallet.bluewallet_1715881608/res/Yk.png differ
+Only in /tmp/fromPlay_io.bluewallet.bluewallet_1715881608: stamp-cert-sha256
 
 Revision, tag (and its signature):
-object 77e2ec8256ac4a4cc23ebdb0234be46a373fbcc7
+object 69a32a0f418726e97d4fea2f75da99b8c19e4a1c
 type commit
-tag v6.4.5
-tagger Marcos Rodriguez Velez <marcospr@pm.me> 1686446064 -0500
+tag v6.6.6
+tagger Marcos Rodriguez Velez <marcospr@pm.me> 1715881720 -0400
 
-v6.4.5
-===== End Results =====
-```
-
-But the Play Store version still has some diffs mentioned in [this github issue](https://github.com/BlueWallet/BlueWallet/issues/758).
-
-**Update 2023-05-21**:
-Emanuel from WalletScrutiny was able to reproduce the apk (v6.3.2) downloaded from github.
-In [this github issue](https://github.com/BlueWallet/BlueWallet/issues/758) he showed
-that the diff comes from ordering of lines in `AndroidManifest.xml`. By setting a static value 
-for `com.bugsnag.android.BUILD_UUID` the apk from github was reproducible.
-So I (Mohammad) updated the test script of WalletScrutiny based on the Emanuel's 
-approach and tried it with v6.4.4 and it was **reproducible**.
-However, test results for the apk downloaded from Play Store indicates that there 
-is a diff in `AndroidManifest.xml` file, a meta-data tag,
-`<meta-data android:name="com.android.vending.derived.apk.id" android:value="1"/>`
-which is generated by Play Store signing procedure. For more info refer to 
-[this thread](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/430).
-After adding this line manually, the test passed successfully. Here are the test results:
-
-```
-===== Begin Results =====
-appId:          io.bluewallet.bluewallet
-signer:         f0573fec6d1afb62f7eaa901f57a6c242f181a32eb901a77f443e589c333a3e5
-apkVersionName: 6.4.4
-apkVersionCode: 1683399586
-verdict:        reproducible
-appHash:        566dfd2e6d98cac8fdc2124800947c1ae5f555bdb86396f928ab69c90c7a0e60
-commit:         f2b4536854aee3468ad1e8a25abb3959ff666bba
-
-Diff:
-Only in /tmp/fromPlay_io.bluewallet.bluewallet_1683399586/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_io.bluewallet.bluewallet_1683399586/META-INF: MBLUEWAL.RSA
-Only in /tmp/fromPlay_io.bluewallet.bluewallet_1683399586/META-INF: MBLUEWAL.SF
-
-Revision, tag (and its signature):
-object f2b4536854aee3468ad1e8a25abb3959ff666bba
-type commit
-tag v6.4.4
-tagger Marcos Rodriguez Velez <marcospr@pm.me> 1683415665 -0400
-
-v6.4.4
+v6.6.6
 ===== End Results =====
 
 ```
 
-As [announced on Feb 23, 2023](https://bluewallet.io/sunsetting-lndhub/), the
-default custodial LN backend for {{ page.title }} is being discontinued. We tried it
-out and as of today, creating a default LN account stopped working if the user
-does not provide some backend URL. This resolves a
-[long-standing issue](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/117)
-that had
-us list this product as "custodial" as a whole. As {{ page.title }} now is in
-its entirety self-custodial (unless the user takes deliberate action to
-configure a third party custodian), we have to look deeper into this popular and
-feature-rich product.
+This binary is **not verifiable**.
 
-The product has [public source code](https://github.com/bluewallet/bluewallet),
-the latest version on Play Store - 6.3.2 - is also the
-[latest release on GitHub](https://github.com/BlueWallet/BlueWallet/releases).
-
-So, let's see if we can compile it ...
-
-[The Readme](https://github.com/bluewallet/bluewallet) does not describe how to
-locally build a release APK. Only how to install a developer version on a
-connected device. In
-[RELEASE.md](https://github.com/BlueWallet/BlueWallet/blob/master/RELEASE.md),
-the process is described though, right? The document mainly focuses on bumping
-app version, release message and testing the release before pushing it to all
-users. The one line about actually building the release would be:
-
-> * go to appcenter.ms, find this exact build under `master` builds, and press `Distribute` -> `Store` -> `Production`.
-
-[AppCenter](https://appcenter.ms/) is a Microsoft tool to
-
-> Continuously build, test, release, and monitor apps for every platform.
-
-which means we have to figure out how Microsoft builds their product as the
-provider doesn't build or doesn't share that configuration.
-
-... actually, there is
-[this old issue of ours](https://github.com/BlueWallet/BlueWallet/issues/758)
-where we had tried many times to reproduce this product years ago. `/scripts`
-folder they said?
-
-
-```
-$ git clone https://github.com/BlueWallet/BlueWallet
-$ cd BlueWallet/
-$ cat scripts/build-release-apk.sh 
-#!/bin/bash
-
-
-# assumes 2 env variables: KEYSTORE_FILE_HEX & KEYSTORE_PASSWORD
-#
-# PS. to turn file to hex and back:
-#     $ xxd -plain test.txt > test.hex
-#     $ xxd -plain -revert test.hex test2.txt
-
-
-echo $KEYSTORE_FILE_HEX > bluewallet-release-key.keystore.hex
-xxd -plain -revert bluewallet-release-key.keystore.hex > ./android/bluewallet-release-key.keystore
-rm bluewallet-release-key.keystore.hex
-
-cd android
-TIMESTAMP=$(date +%s)
-sed -i'.original'  "s/versionCode 1/versionCode $TIMESTAMP/g" app/build.gradle
-./gradlew assembleRelease
-mv ./app/build/outputs/apk/release/app-release-unsigned.apk ./app/build/outputs/apk/release/app-release.apk
-$ANDROID_HOME/build-tools/30.0.2/apksigner sign --ks ./bluewallet-release-key.keystore   --ks-pass=pass:$KEYSTORE_PASSWORD ./app/build/outputs/apk/release/app-release.apk
-``` 
-
-requires a keystore and introduces randomnes in the result, which would break
-reproducibility. The latter is also referenced in
-[this open issue](https://github.com/BlueWallet/BlueWallet/issues/3148) so in
-the best case we expect to find this product miss the goal of reproducibility
-by only a timestamp. Let's see ...
-
-```
-$ git checkout v6.3.2 
-HEAD is now at 81ed68b55 Merge pull request #5182 from BlueWallet/renovate/react-navigation-monorepo
-$ podman run -it --rm -v$PWD:/mnt --workdir=/mnt walletscrutiny/android
-# mkdir -p ~/.ssh
-# ssh-keyscan -t rsa github.com >> ~/.ssh/known_hosts
-# apt update -y
-# apt install npm -y
-# npm install
-npm WARN read-shrinkwrap This version of npm is compatible with lockfileVersion@1, but package-lock.json was generated for lockfileVersion@2. I'll try to do my best with it!
-npm WARN tar ENOENT: no such file or directory, open '/mnt/node_modules/.staging/crypto-js-0bc3b6fd/LICENSE'
-npm WARN tar ENOENT: no such file or directory, open '/mnt/node_modules/.staging/crypto-js-0bc3b6fd/aes.js'
-npm WARN tar ENOENT: no such file or directory, open '/mnt/node_modules/.staging/crypto-js-0bc3b6fd/cipher-core.js'
-...
-npm WARN tar ENOENT: no such file or directory, lstat '/mnt/node_modules/.staging/react-native-99ce84bc/ReactCommon/react/renderer/components'
-npm WARN tar ENOENT: no such file or directory, lstat '/mnt/node_modules/.staging/react-native-99ce84bc/ReactCommon/react/renderer/components'
-npm WARN tar ENOENT: no such file or directory, open '/mnt/node_modules/.staging/react-native-99ce84bc/ReactCommon/hermes/inspector/Inspector.cpp'
-npm ERR! Error while executing:
-npm ERR! /usr/bin/git ls-remote -h -t ssh://git@github.com/BlueWallet/react-native-secure-key-store.git
-npm ERR! 
-npm ERR! git@github.com: Permission denied (publickey).
-npm ERR! fatal: Could not read from remote repository.
-npm ERR! 
-npm ERR! Please make sure you have the correct access rights
-npm ERR! and the repository exists.
-npm ERR! 
-npm ERR! exited with error code: 128
-```
-
-... which is apparently a regression as
-[this issue about ssh dependencies](https://github.com/BlueWallet/BlueWallet/issues/3059)
-was closed as fixed two years ago.
-
-We file this product as **not verifiable** for now and hope the provider
-resolves all the relevant issues for a re-evaluation:
-
-* https://github.com/BlueWallet/BlueWallet/issues/3059
-* https://github.com/BlueWallet/BlueWallet/issues/3148
-* https://github.com/BlueWallet/BlueWallet/issues/758
+{% include asciicast %}

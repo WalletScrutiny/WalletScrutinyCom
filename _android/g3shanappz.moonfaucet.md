@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: g3shanappz.moonfaucet.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2021-09-16
 signer: 

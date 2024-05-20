@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: uni.PAC62A36.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: wip
-date: 2023-06-03
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 

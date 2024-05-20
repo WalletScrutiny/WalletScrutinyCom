@@ -1,6 +1,6 @@
 ---
 wsId: talkPlus
-title: Talk+ Send Crypto with Friends
+title: T+ Wallet-Essential Crypto Hub
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: org.talkapp
 appCountry: hk
 idd: '1547227377'
 released: 2021-02-10
-updated: 2023-05-23
-version: 2.22.6
+updated: 2024-04-12
+version: 2.22.12
 stars: 4.5
-reviews: 159
-size: '113303552'
+reviews: 170
+size: '123942912'
 website: 
 repository: 
 issue: 

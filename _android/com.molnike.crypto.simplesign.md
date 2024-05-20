@@ -3,13 +3,13 @@ wsId:
 title: BTC secp256k1 sign offline
 altTitle: 
 authors: 
-users: 10
+users: 100
 appId: com.molnike.crypto.simplesign
 appCountry: 
 released: 2023-01-11
 updated: 2023-03-09
 version: '0.6'
-stars: 
+stars: 5
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.molnike.crypto.simplesign.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-03
+date: 2024-03-07
 signer: 
 reviewArchive: 
 twitter: 

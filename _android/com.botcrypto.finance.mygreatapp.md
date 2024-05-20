@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.botcrypto.finance.mygreatapp.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-03-21
 signer: 

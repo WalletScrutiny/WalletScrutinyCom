@@ -9,7 +9,7 @@ appCountry:
 released: 2021-09-28
 updated: 2023-05-18
 version: 1.18.0
-stars: 
+stars: 4.7
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitronit.mobile.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-06-02
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

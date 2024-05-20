@@ -8,9 +8,9 @@ users: 10000
 appId: com.matbea
 appCountry: 
 released: 
-updated: 2023-05-30
-version: 1.5.6
-stars: 
+updated: 2024-05-07
+version: 1.6.3
+stars: 3.6
 ratings: 
 reviews: 
 size: 

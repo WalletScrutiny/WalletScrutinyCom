@@ -9,7 +9,7 @@ appCountry:
 released: 2021-10-29
 updated: 2021-12-30
 version: '1.4'
-stars: 
+stars: 4.3
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.web.instafx.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2023-06-02
+date: 2023-12-21
 signer: 
 reviewArchive: 
 twitter: 

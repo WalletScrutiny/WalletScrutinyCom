@@ -1,6 +1,6 @@
 ---
 wsId: xBankPocket
-title: xBank -All-In-One Web3 Portal
+title: PumpX -All-In-One Web3 Portal
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.tratao.xpocket
 appCountry: us
 idd: '1481024258'
 released: 2019-11-08
-updated: 2023-04-19
-version: 3.2.0
+updated: 2024-01-23
+version: 4.7.0
 stars: 4
-reviews: 166
-size: '119461888'
+reviews: 170
+size: '92255232'
 website: https://xbank.plus/
 repository: 
 issue: 

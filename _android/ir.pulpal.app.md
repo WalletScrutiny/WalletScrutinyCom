@@ -3,7 +3,7 @@ wsId:
 title: 'Pulpal: Exchange'
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: ir.pulpal.app
 appCountry: 
 released: 2022-01-06
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: ir.pulpal.app.png
 bugbounty: 
-meta: ok
-verdict: fewusers
-date: 2023-06-02
+meta: stale
+verdict: wip
+date: 2023-09-02
 signer: 
 reviewArchive: 
 twitter: 

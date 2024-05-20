@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: io.polybius.osom.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 date: 2023-04-15
 signer: 

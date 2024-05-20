@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.dhanuX.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-05-22
+date: 2023-09-04
 signer: 
 reviewArchive: 
 twitter: 

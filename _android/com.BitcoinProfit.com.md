@@ -2,7 +2,8 @@
 wsId: 
 title: Bitcoin Profit
 altTitle: 
-authors: 
+authors:
+- danny
 users: 1000
 appId: com.BitcoinProfit.com
 appCountry: 
@@ -18,9 +19,9 @@ repository:
 issue: 
 icon: com.BitcoinProfit.com.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: wip
-date: 2023-06-20
+date: 2023-08-17
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,3 +32,11 @@ features:
 
 ---
 
+## App Description from Google Play
+
+> Our platform is safe and secure. Bitcoin Profit is a free cryptocurrency tool that includes a Cryptobrowser with a range of features including the ability to buy cryptocurrency using a bank account as well as a Crypto Buy and Sell App and a Crypto Bot. In addition, you can buy cryptocurrencies with a debit card if you choose.
+
+## Analysis 
+
+- We installed the app and only received an error.
+- This app is **defunct.**

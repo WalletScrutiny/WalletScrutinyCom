@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.coinizie.com.co.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-11-02
+date: 2023-08-25
 signer: 
 reviewArchive: 
 twitter: 

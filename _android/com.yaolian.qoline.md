@@ -4,12 +4,12 @@ title: SalletOne Live
 altTitle: 
 authors:
 - danny
-users: 50
+users: 100
 appId: com.yaolian.qoline
 appCountry: 
 released: 2021-07-14
-updated: 2023-05-05
-version: 1.9.22
+updated: 2024-02-19
+version: 1.9.26
 stars: 
 ratings: 
 reviews: 
@@ -35,5 +35,5 @@ features:
 ---
 
 This is the Android companion app to the hardware wallet: 
-{% include walletLink.html wallet='hardware/salletone' verdict='true' %}
+{% include walletLink.html wallet='hardware/sallet.one' verdict='true' %}
 

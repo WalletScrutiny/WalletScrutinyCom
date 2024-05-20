@@ -3,12 +3,12 @@ wsId:
 title: ZenaPay Merchant
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.zenapay.merchant
 appCountry: 
 released: 2018-01-02
-updated: 2022-12-05
-version: 1.0.4
+updated: 2023-12-27
+version: 1.2.8
 stars: 
 ratings: 
 reviews: 

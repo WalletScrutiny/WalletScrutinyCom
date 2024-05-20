@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: excoinge.excoinge.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-07-31
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

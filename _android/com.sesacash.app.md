@@ -9,7 +9,7 @@ appCountry:
 released: 2020-03-15
 updated: 2020-03-15
 version: '1.0'
-stars: 
+stars: 2.6
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.sesacash.app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-06-22
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: 

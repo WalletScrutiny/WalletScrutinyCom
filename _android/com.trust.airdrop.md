@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.trust.airdrop.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2021-09-16
 signer: 

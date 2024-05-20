@@ -12,16 +12,16 @@ updated: 2022-11-22
 version: 1.1.41
 stars: 4
 ratings: 883
-reviews: 90
+reviews: 88
 size: 
 website: https://www.dowallet.app/
 repository: 
 issue: 
 icon: com.dowallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2019-11-23
+date: 2023-11-25
 signer: 
 reviewArchive: 
 twitter: 

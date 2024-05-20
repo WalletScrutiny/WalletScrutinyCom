@@ -11,16 +11,16 @@ released: 2020-03-24
 updated: 2022-12-21
 version: 1.1.2
 stars: 4.5
-reviews: 21
+reviews: 20
 size: '72990720'
 website: https://24paybank.net
 repository: 
 issue: 
 icon: com.xchange.24paybank.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
-date: 2023-04-22
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: 24Paybank

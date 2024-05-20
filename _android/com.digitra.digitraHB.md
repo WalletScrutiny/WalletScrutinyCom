@@ -1,18 +1,18 @@
 ---
 wsId: digitraTrading
-title: Digitra.com - Zero fee trading
+title: Digitra.com - BTC & Crypto
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.digitra.digitraHB
 appCountry: 
 released: 2022-03-05
-updated: 2023-06-28
-version: 1.0.56
-stars: 4.9
+updated: 2024-05-02
+version: 1.0.96
+stars: 4.1
 ratings: 
-reviews: 4
+reviews: 7
 size: 
 website: https://www.digitra.com
 repository: 

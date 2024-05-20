@@ -9,7 +9,7 @@ appCountry:
 released: 2018-05-04
 updated: 2023-04-14
 version: 1.2.6
-stars: 
+stars: 4.8
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.moonpos.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-04-16
+date: 2024-04-09
 signer: 
 reviewArchive: 
 twitter: 

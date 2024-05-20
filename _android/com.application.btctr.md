@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.application.btctr.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: wip
-date: 2023-05-11
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 

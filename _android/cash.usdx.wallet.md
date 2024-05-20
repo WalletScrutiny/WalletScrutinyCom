@@ -10,18 +10,18 @@ appCountry:
 released: 2018-03-22
 updated: 2020-11-25
 version: 1.34.2
-stars: 4.3
+stars: 4.4
 ratings: 5482
-reviews: 235
+reviews: 232
 size: 
 website: https://usdx.cash
 repository: 
 issue: 
 icon: cash.usdx.wallet.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nobtc
-date: 2022-12-17
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: USDXwallet

@@ -9,7 +9,7 @@ appCountry:
 released: 2023-03-04
 updated: 2023-04-09
 version: 1.5.3
-stars: 
+stars: 4.9
 ratings: 
 reviews: 
 size: 
@@ -18,15 +18,15 @@ repository:
 issue: 
 icon: io.livewallet.android.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-03
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: LiveWallet LLC
+developerName: Ogaliya Limited
 features: 
 
 ---

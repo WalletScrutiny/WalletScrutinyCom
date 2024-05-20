@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.ferrum.unifyre.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
 date: 2022-10-21
 signer: 

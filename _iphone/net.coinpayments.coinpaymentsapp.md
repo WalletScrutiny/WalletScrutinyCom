@@ -8,11 +8,11 @@ appId: net.coinpayments.coinpaymentsapp
 appCountry: 
 idd: 1162855939
 released: 2019-02-07
-updated: 2023-05-31
-version: 2.4.0
-stars: 3.8
+updated: 2023-07-24
+version: 2.4.1
+stars: 3.7
 reviews: 50
-size: '149428224'
+size: '150079488'
 website: https://www.coinpayments.net/
 repository: 
 issue: 

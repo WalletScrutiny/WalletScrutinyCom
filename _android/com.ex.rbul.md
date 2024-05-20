@@ -9,7 +9,7 @@ appCountry:
 released: 2022-01-11
 updated: 2022-02-15
 version: '1.6'
-stars: 
+stars: 4.7
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ex.rbul.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-06-02
+date: 2024-02-07
 signer: 
 reviewArchive: 
 twitter: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.sixpencer.simplework.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
-date: 2023-06-20
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: 

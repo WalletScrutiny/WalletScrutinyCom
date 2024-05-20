@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.thinkdevs.cryptomarket.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nowallet
 date: 2021-10-06
 signer: 

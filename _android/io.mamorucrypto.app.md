@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: io.mamorucrypto.app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 date: 2023-04-16
 signer: 

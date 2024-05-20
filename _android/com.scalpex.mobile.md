@@ -9,7 +9,7 @@ appCountry:
 released: 
 updated: 2021-08-09
 version: 1.3.0
-stars: 
+stars: 3.7
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.scalpex.mobile.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2022-11-02
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

@@ -10,18 +10,18 @@ appCountry:
 released: 2022-03-04
 updated: 2022-03-04
 version: '1.1'
-stars: 3.7
+stars: 3.9
 ratings: 
-reviews: 5
+reviews: 6
 size: 
 website: https://btc6x.com
 repository: 
 issue: 
 icon: exchange.btc6x.com.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-04-13
+date: 2024-02-24
 signer: 
 reviewArchive: 
 twitter: 
@@ -30,7 +30,7 @@ social:
 - https://t.me/btc6x
 - https://www.instagram.com/btc.6x/
 redirect_from: 
-developerName: Counos
+developerName: ZeroCash
 features: 
 
 ---

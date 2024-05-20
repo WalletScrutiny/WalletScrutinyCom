@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.lifelabsio.lifeapp.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
-date: 2023-05-30
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

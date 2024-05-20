@@ -1,6 +1,6 @@
 ---
 wsId: litefinance
-title: LiteFinance mobile trading
+title: LiteFinance
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.litefinance.cabinet
 appCountry: us
 idd: '1661254805'
 released: 2023-01-11
-updated: 2023-06-30
-version: '1.65'
-stars: 3.8
-reviews: 11
-size: '124067840'
+updated: 2024-04-23
+version: '1.96'
+stars: 3.6
+reviews: 20
+size: '134811648'
 website: https://www.liteforex.com
 repository: 
 issue: 

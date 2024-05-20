@@ -46,7 +46,7 @@ being used with.
 
 Supply chain and manufacturing concerns have led eSignus to divert resources to a different product with different features. The long-drawn out process is detailed in the update section of its [indiegogo page](https://www.indiegogo.com/projects/hashwallet-the-most-secure-hardware-wallet#/updates/all). 
 
-In their updates section, I found that eSignus has posted an update about a different product {% include walletLink.html wallet='android/esignus.hashwallet.link' verdict='true' %}. There's a mention about the original product described in their indiegogo page 13 paragraphs behind the Hashwallet Link update.
+In their updates section, I found that eSignus has posted an update about a different product {% include walletLink.html wallet='hardware/esignus.hashwallet.link' verdict='true' %}. There's a mention about the original product described in their indiegogo page 13 paragraphs behind the Hashwallet Link update.
 
 A quote made on the Updates section on August 19, 2022:
 

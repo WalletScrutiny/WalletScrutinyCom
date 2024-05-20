@@ -12,16 +12,16 @@ updated: 2020-07-15
 version: '3.09'
 stars: 3.5
 ratings: 479
-reviews: 154
+reviews: 129
 size: 
 website: https://www.spend.com
 repository: 
 issue: 
 icon: com.spend.app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2022-10-21
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: Spendcom

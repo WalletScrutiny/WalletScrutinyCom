@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.arcreator.hivecoin.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nowallet
 date: 2021-12-05
 signer: 

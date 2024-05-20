@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.blubitex.blubitexapp.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
-date: 2023-04-13
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: blubitex

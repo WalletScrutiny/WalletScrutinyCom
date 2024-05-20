@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.iminerator.app.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2023-04-27
+date: 2024-04-21
 signer: 
 reviewArchive: 
 twitter: 

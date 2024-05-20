@@ -3,6 +3,7 @@ title: Case
 appId: case
 authors:
 - kiwilamb
+- leo
 released: 
 discontinued: 2017-11-01
 updated: 
@@ -22,7 +23,7 @@ icon: case.png
 bugbounty: 
 meta: defunct
 verdict: wip
-date: 2021-07-18
+date: 2024-01-04
 signer: 
 reviewArchive: 
 twitter: CaseWallet
@@ -31,6 +32,11 @@ social:
 features: 
 
 ---
+
+**Update 2024-01-04**: Apart from not being for sale since many years and the
+website being down, Jameson Lopp also
+[confirmed](https://njump.me/nevent1qqsq8ep69vrvud93a5ymwhm33zkgsu9y7xshaq9dy56g6hy3e5gshycpz3mhxue69uhhyetvv9ujuerpd46hxtnfdupzpaegm8nwwpyrtrnsjv84efjtp9mhpkvfenvxs487vx8d48y28qgxqvzqqqqqqysfukml)
+that the product stopped working.
 
 There are a numnber of reasons why this verdict is defunct.
 The provider website states the hardware wallet is "soldout".

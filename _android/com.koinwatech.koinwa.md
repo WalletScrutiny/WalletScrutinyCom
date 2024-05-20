@@ -4,13 +4,13 @@ title: 'Koinwa: Buy, Sell, Loan Crypto'
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.koinwatech.koinwa
 appCountry: 
 released: 2021-08-08
-updated: 2023-06-27
+updated: 2024-02-24
 version: 3.2.3
-stars: 
+stars: 4.4
 ratings: 
 reviews: 
 size: 

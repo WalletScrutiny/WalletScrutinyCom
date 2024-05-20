@@ -9,7 +9,7 @@ appCountry:
 released: 2021-11-18
 updated: 2021-11-19
 version: '1.0'
-stars: 
+stars: 3.9
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.kryptrx.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2022-12-17
+date: 2023-11-25
 signer: 
 reviewArchive: 
 twitter: 

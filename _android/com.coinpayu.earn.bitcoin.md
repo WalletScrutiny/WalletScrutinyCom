@@ -4,15 +4,15 @@ title: Coinpayu
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.coinpayu.earn.bitcoin
 appCountry: 
 released: 2021-07-06
-updated: 2022-08-31
-version: 1.2.2
-stars: 4
+updated: 2024-05-10
+version: 1.3.8
+stars: 3.5
 ratings: 
-reviews: 136
+reviews: 167
 size: 
 website: https://www.coinpayu.com
 repository: 
@@ -21,7 +21,7 @@ icon: com.coinpayu.earn.bitcoin.png
 bugbounty: 
 meta: ok
 verdict: nowallet
-date: 2022-06-29
+date: 2023-10-09
 signer: 
 reviewArchive: 
 twitter: CoinPayU

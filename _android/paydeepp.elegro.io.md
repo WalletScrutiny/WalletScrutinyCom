@@ -4,15 +4,15 @@ title: 'Elegro: multi-currency wallet'
 altTitle: 
 authors:
 - leo
-users: 1000
+users: 10000
 appId: paydeepp.elegro.io
 appCountry: 
 released: 2018-11-09
-updated: 2023-06-14
-version: 5.2.6
-stars: 3.4
+updated: 2024-05-16
+version: 5.3.8
+stars: 4.3
 ratings: 
-reviews: 1
+reviews: 7
 size: 
 website: https://elegro.eu/
 repository: 

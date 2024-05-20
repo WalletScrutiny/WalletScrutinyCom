@@ -3,7 +3,7 @@ wsId:
 title: Speed Bitcoin POS
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.app.speedpos
 appCountry: 
 released: 2023-03-14
@@ -18,15 +18,15 @@ repository:
 issue: 
 icon: com.app.speedpos.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-06-03
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: TrySpeed
+developerName: Speed1 - FZCO
 features: 
 
 ---

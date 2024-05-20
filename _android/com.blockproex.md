@@ -9,7 +9,7 @@ appCountry:
 released: 2022-02-24
 updated: 2022-03-25
 version: 1.0.2
-stars: 
+stars: 4.8
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.blockproex.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-03-20
+date: 2024-03-15
 signer: 
 reviewArchive: 
 twitter: 

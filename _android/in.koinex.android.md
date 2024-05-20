@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: in.koinex.android.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2021-08-17
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: 
