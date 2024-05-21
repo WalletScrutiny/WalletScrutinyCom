@@ -24,7 +24,6 @@
 // | [sealed-plainkey](https://walletscrutiny.com/methodology/#sealed-plainkey) | 6 | 3 | comment |
 // | [sealed-noita](https://walletscrutiny.com/methodology/#sealed-noita) | 3 | 0 | comment |
 
-
 import helper from './helper.mjs';
 import helperPlayStore from './helperPlayStore.mjs';
 import helperAppStore from './helperAppStore.mjs';
@@ -33,8 +32,7 @@ import helperBearer from './helperBearer.mjs';
 
 const sl = function (header, body, fileName, category) {
   console.log(`${header.meta} ${header.verdict} ${header.appId}`);
-  return;
-}; // crucial semicolon!
+};
 
 [helperPlayStore, helperAppStore, helperHardware, helperBearer].forEach(h => {
   helper.migrateAll(h.category, sl, h.headers);
