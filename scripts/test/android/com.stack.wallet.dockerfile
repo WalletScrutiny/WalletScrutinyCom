@@ -26,7 +26,7 @@ RUN sudo apt-get install libgcrypt20-dev
 
 RUN sudo apt-get install python3-jinja2 python3-markdown python3-markupsafe python3-packaging python3-pygments python3-Typogrify;
 
-RUN git clone --branch $TAG https://github.com/BlueWallet/BlueWallet /Users/runner/work/1/s/;
+RUN git clone --branch $TAG https://github.com/cypherstack/stack_wallet.git /Users/runner/work/1/s/;
 
 WORKDIR /Users/runner/work/1/s/
 
