@@ -4,13 +4,13 @@ title: 'BYNEX: Buy&Trade Сrypto, Fiat'
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: by.erpbel.hermes
 appCountry: 
 released: 2022-10-06
-updated: 2023-08-29
-version: 1.6.1
-stars: 
+updated: 2024-05-02
+version: 2.0.5
+stars: 2.7
 ratings: 
 reviews: 
 size: 

@@ -3,7 +3,7 @@ wsId:
 title: Crypt8
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.crypt8.crypt8
 appCountry: 
 released: 2022-05-06

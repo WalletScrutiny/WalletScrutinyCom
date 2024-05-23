@@ -10,17 +10,17 @@ idd: '1614659988'
 released: 2022-04-06
 updated: 2023-04-11
 version: 1.9.8
-stars: 2
-reviews: 4
+stars: 1.8
+reviews: 5
 size: '54935552'
 website: https://www.mayex.com/referral
 repository: 
 issue: 
 icon: com.mayex.trading.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-04-08
+date: 2024-04-09
 signer: 
 reviewArchive: 
 twitter: Mayex_Global

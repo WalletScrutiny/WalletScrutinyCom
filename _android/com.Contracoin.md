@@ -10,7 +10,7 @@ appCountry:
 released: 2020-11-19
 updated: 2020-11-19
 version: '1.00'
-stars: 
+stars: 4.3
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.Contracoin.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-05-09
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

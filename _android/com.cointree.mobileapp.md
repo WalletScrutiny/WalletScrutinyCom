@@ -4,12 +4,12 @@ title: Cointree - Buy Bitcoin Easily
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.cointree.mobileapp
 appCountry: 
 released: 2022-10-12
-updated: 2023-09-04
-version: 1.2.5
+updated: 2024-03-18
+version: 1.2.6
 stars: 
 ratings: 
 reviews: 

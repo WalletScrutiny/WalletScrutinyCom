@@ -9,7 +9,7 @@ appCountry:
 released: 2019-08-12
 updated: 2020-02-11
 version: '2.5'
-stars: 
+stars: 4.2
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.topcoinfx.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-07-31
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

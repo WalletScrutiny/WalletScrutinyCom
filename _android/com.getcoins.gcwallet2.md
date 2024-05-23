@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.getcoins.gcwallet2.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-05-25
+date: 2024-04-18
 signer: 
 reviewArchive: 
 twitter: 

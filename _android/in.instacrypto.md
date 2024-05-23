@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: InstaCrypto
+title: InstaCrypto Buy Bitcoin Crypto
 altTitle: 
 authors:
 - danny
@@ -8,7 +8,7 @@ users: 1000
 appId: in.instacrypto
 appCountry: 
 released: 
-updated: 2022-08-16
+updated: 2024-01-25
 version: VARY
 stars: 
 ratings: 
@@ -17,11 +17,11 @@ size:
 website: https://instacrypto.in
 repository: 
 issue: 
-icon: in.instacrypto.jpg
+icon: in.instacrypto.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nowallet
-date: 2023-08-17
+date: 2024-01-16
 signer: 
 reviewArchive: 
 twitter: instacryptoin

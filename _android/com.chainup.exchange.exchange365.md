@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.chainup.exchange.exchange365.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-09-22
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

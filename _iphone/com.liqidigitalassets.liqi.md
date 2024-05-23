@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.liqidigitalassets.liqi.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-06-30
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: liqibr

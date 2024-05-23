@@ -10,17 +10,17 @@ idd: '1609787479'
 released: 2022-02-16
 updated: 2022-07-14
 version: 1.1.8
-stars: 3.5
-reviews: 15
+stars: 2.9
+reviews: 17
 size: '15019008'
 website: 
 repository: 
 issue: 
 icon: com.cryptore.nine99.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2023-07-10
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: coinlord_trade

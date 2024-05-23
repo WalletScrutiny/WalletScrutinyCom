@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: network.minter.bipwallet.mainnet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nobtc
-date: 2023-06-08
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

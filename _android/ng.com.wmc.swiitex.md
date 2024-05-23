@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: ng.com.wmc.swiitex.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-12-30
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

@@ -10,9 +10,9 @@ appCountry:
 released: 2023-01-27
 updated: 2023-11-20
 version: '1.2'
-stars: 1.9
+stars: 1.8
 ratings: 
-reviews: 17
+reviews: 19
 size: 
 website: https://mypatricia.co
 repository: 

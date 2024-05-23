@@ -11,16 +11,16 @@ released: 2018-06-20
 updated: 2023-09-08
 version: v5.2.0
 stars: 3.2
-reviews: 2506
+reviews: 2518
 size: '76317696'
 website: https://celsius.network/
 repository: 
 issue: 
 icon: network.celsius.wallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-09-08
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: celsiusnetwork

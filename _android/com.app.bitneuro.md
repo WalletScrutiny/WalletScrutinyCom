@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.app.bitneuro.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
-date: 2023-09-02
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: 

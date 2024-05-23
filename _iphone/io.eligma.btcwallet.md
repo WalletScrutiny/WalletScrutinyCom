@@ -11,16 +11,16 @@ released: 2018-09-14
 updated: 2022-01-30
 version: 8.0.1
 stars: 4.6
-reviews: 34
+reviews: 35
 size: '60161024'
 website: https://elly.com
 repository: 
 issue: 
 icon: io.eligma.btcwallet.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-08-04
+date: 2024-01-21
 signer: 
 reviewArchive: 
 twitter: GoCrypto_

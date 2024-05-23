@@ -12,16 +12,16 @@ updated: 2023-12-13
 version: 1.03.02
 stars: 3.2
 ratings: 
-reviews: 16
+reviews: 18
 size: 
 website: https://www.coinmama.com/
 repository: 
 issue: 
 icon: com.coinmama.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2023-07-10
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: coinmama

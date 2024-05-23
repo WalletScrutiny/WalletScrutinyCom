@@ -10,7 +10,7 @@ appCountry:
 released: 2019-02-27
 updated: 2021-06-24
 version: '3.0'
-stars: 
+stars: 4.5
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.liowallet.app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
-date: 2023-06-20
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: 

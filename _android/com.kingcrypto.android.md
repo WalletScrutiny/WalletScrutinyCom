@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.kingcrypto.android.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-11-08
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

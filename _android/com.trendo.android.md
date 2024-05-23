@@ -1,18 +1,18 @@
 ---
 wsId: trendofx
-title: 'Trendo: Stocks & Forex Trading'
+title: 'Trendo: Forex Trading & Broker'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.trendo.android
 appCountry: 
 released: 2021-10-05
-updated: 2024-01-03
-version: 3.5.8_googleplay
+updated: 2024-05-05
+version: 3.5.68_googleplay
 stars: 4.8
 ratings: 
-reviews: 293
+reviews: 361
 size: 
 website: https://fxtrendo.com
 repository: 

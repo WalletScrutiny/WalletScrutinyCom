@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.noblecoins.noble_coins.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-08-09
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

@@ -8,11 +8,11 @@ appId: jeroid.io
 appCountry: us
 idd: 1539278280
 released: 2021-02-27
-updated: 2023-11-14
-version: 2.0.4
+updated: 2024-02-12
+version: 2.0.5
 stars: 2.7
-reviews: 265
-size: '56859648'
+reviews: 339
+size: '57069568'
 website: https://jeroid.ng/
 repository: 
 issue: 

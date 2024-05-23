@@ -12,7 +12,7 @@ updated: 2023-06-02
 version: '1.96'
 stars: 4.5
 ratings: 
-reviews: 3
+reviews: 4
 size: 
 website: https://www.coinzix.com
 repository: 

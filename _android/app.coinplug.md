@@ -7,8 +7,8 @@ users: 500
 appId: app.coinplug
 appCountry: 
 released: 2021-10-19
-updated: 2021-10-19
-version: '1.0'
+updated: 2024-04-15
+version: 2.0.1
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: app.coinplug.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: fewusers
-date: 2023-10-10
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

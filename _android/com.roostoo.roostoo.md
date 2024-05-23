@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.roostoo.roostoo.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-07-18
+date: 2024-04-09
 signer: 
 reviewArchive: 
 twitter: 

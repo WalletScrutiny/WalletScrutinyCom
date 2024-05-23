@@ -9,7 +9,7 @@ appCountry:
 released: 2021-03-29
 updated: 2021-03-29
 version: '1.0'
-stars: 
+stars: 5
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.rpsoft.mandgwalletapp.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-03-20
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

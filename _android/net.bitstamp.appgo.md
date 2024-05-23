@@ -1,6 +1,6 @@
 ---
 wsId: bitstampCrypto
-title: 'Bitstamp: Buy Crypto Simply'
+title: 'Bitstamp: Buy Crypto & Bitcoin'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 10000
 appId: net.bitstamp.appgo
 appCountry: 
 released: 2023-07-20
-updated: 2023-12-18
-version: '1.7'
-stars: 4
+updated: 2024-04-08
+version: '1.9'
+stars: 4.3
 ratings: 
-reviews: 6
+reviews: 17
 size: 
 website: https://www.bitstamp.net
 repository: 

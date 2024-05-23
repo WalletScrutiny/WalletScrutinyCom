@@ -4,15 +4,15 @@ title: 'Biconomy: Bitcoin, ETH &Crypto'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.biconomy.ex
 appCountry: 
 released: 2020-01-14
-updated: 2023-12-16
-version: 2.1.33
-stars: 3.9
+updated: 2024-04-30
+version: 2.2.14
+stars: 3.8
 ratings: 
-reviews: 63
+reviews: 70
 size: 
 website: https://www.biconomy.com
 repository: 
@@ -31,7 +31,7 @@ social:
 - https://biconomycom.medium.com/
 - https://www.youtube.com/c/BiconomyGlobal
 redirect_from: 
-developerName: Biconomy Inc.
+developerName: Biconomy Global
 features: 
 
 ---

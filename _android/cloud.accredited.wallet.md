@@ -9,7 +9,7 @@ appCountry:
 released: 2021-06-02
 updated: 2023-06-29
 version: 3.2.54
-stars: 
+stars: 4.8
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: cloud.accredited.wallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2022-06-23
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: 

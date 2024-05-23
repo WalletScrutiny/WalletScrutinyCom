@@ -10,7 +10,7 @@ appCountry:
 released: 2022-08-02
 updated: 2023-03-02
 version: 1.0.14
-stars: 
+stars: 4.4
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: co.tradehall.app.tradehall.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosendreceive
-date: 2023-09-05
+date: 2024-03-01
 signer: 
 reviewArchive: 
 twitter: 

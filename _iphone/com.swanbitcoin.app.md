@@ -1,6 +1,6 @@
 ---
 wsId: swanBitcoin
-title: Swan Bitcoin
+title: 'Swan Bitcoin: Buy & Save'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.swanbitcoin.app
 appCountry: us
 idd: '1576287352'
 released: 2022-08-25
-updated: 2023-12-13
-version: 1.4.8
+updated: 2024-04-10
+version: 1.7.1
 stars: 4.8
-reviews: 509
-size: '116013056'
+reviews: 1199
+size: '112956416'
 website: http://www.swanbitcoin.com
 repository: 
 issue: 

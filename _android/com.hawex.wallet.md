@@ -8,9 +8,9 @@ users: 1000
 appId: com.hawex.wallet
 appCountry: 
 released: 2023-06-06
-updated: 2023-10-05
-version: '2.0'
-stars: 
+updated: 2024-05-06
+version: '2.1'
+stars: 4.9
 ratings: 
 reviews: 
 size: 

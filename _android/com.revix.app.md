@@ -1,15 +1,15 @@
 ---
 wsId: revixBuyBitcoin
-title: Altify - Buy Bitcoin & Crypto
+title: Altify - Crypto Investment Hub
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.revix.app
 appCountry: 
 released: 2022-08-08
-updated: 2023-12-18
-version: 1.7.4
+updated: 2024-05-06
+version: 1.8.2
 stars: 
 ratings: 
 reviews: 

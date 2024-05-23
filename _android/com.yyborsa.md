@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.yyborsa.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-08-15
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: 

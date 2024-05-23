@@ -4,15 +4,15 @@ title: Mining Monitor
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: fahim_edu.appmining
 appCountry: 
 released: 2021-03-27
-updated: 2023-12-20
-version: 3.12.21
+updated: 2024-04-08
+version: 4.04.08
 stars: 4.7
 ratings: 
-reviews: 69
+reviews: 72
 size: 
 website: https://toto-share.com
 repository: 

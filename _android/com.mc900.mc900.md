@@ -8,9 +8,9 @@ users: 10000
 appId: com.mc900.mc900
 appCountry: 
 released: 2022-08-12
-updated: 2023-12-18
-version: 2.6.2
-stars: 
+updated: 2024-02-19
+version: 2.6.7
+stars: 4.4
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.mc900.mc900.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-07-06
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

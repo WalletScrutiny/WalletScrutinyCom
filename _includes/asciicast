@@ -1,0 +1,11 @@
+<link rel="stylesheet" type="text/css" href="/assets/css/asciinema-player.css" />
+<div id="ascii_cast_player"></div>
+<script src="/assets/js/asciinema-player.min.js"></script>
+<script>
+  AsciinemaPlayer.create(
+    '/assets/casts/{{ page.collection }}/{{ page.appId }}.cast',
+    document.getElementById('ascii_cast_player'),{
+      idleTimeLimit: 1,
+      autoPlay: true
+    });
+</script>

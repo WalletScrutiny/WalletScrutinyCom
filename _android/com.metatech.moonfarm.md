@@ -10,18 +10,18 @@ appCountry:
 released: 2022-07-29
 updated: 2023-02-23
 version: 1.1.2
-stars: 
+stars: 3.2
 ratings: 
-reviews: 
+reviews: 6
 size: 
 website: https://moonfarm.finance
 repository: 
 issue: 
 icon: com.metatech.moonfarm.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-08-30
+date: 2024-02-20
 signer: 
 reviewArchive: 
 twitter: MoonfarmFinance

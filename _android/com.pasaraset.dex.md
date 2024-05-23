@@ -9,7 +9,7 @@ appCountry:
 released: 2021-04-18
 updated: 2021-04-21
 version: '2.0'
-stars: 
+stars: 5
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.pasaraset.dex.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-04-13
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

@@ -4,12 +4,12 @@ title: 'Shakepay: Buy Bitcoin Canada'
 altTitle: 
 authors:
 - leo
-users: 100000
+users: 500000
 appId: com.shaketh
 appCountry: 
 released: 2018-02-20
-updated: 2023-12-22
-version: 3.1.9
+updated: 2024-05-13
+version: 3.5.10
 stars: 4.5
 ratings: 10533
 reviews: 19

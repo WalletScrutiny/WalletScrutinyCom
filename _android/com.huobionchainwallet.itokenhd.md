@@ -10,18 +10,18 @@ appCountry:
 released: 2023-04-12
 updated: 2023-08-30
 version: 4.00.05.003
-stars: 3.8
+stars: 3.4
 ratings: 
-reviews: 1
+reviews: 2
 size: 
 website: https://www.itoken.com/
 repository: 
 issue: 
 icon: com.huobionchainwallet.itokenhd.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2023-11-02
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: iTokenWallet

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.kriptofuture.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
-date: 2023-07-22
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

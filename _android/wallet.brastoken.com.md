@@ -9,7 +9,7 @@ appCountry:
 released: 2022-01-16
 updated: 2022-01-19
 version: 1.0.2
-stars: 
+stars: 4.8
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: wallet.brastoken.com.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-01-14
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: 

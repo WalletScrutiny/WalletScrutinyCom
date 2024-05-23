@@ -8,11 +8,11 @@ appId: io.timexapp
 appCountry: au
 idd: '6443878656'
 released: 2023-02-18
-updated: 2023-09-01
-version: 1.4.2
+updated: 2024-01-11
+version: 1.4.3
 stars: 0
 reviews: 0
-size: '28602368'
+size: '34884608'
 website: https://timex.io
 repository: 
 issue: 

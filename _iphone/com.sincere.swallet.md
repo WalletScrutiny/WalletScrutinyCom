@@ -11,16 +11,16 @@ released: 2022-04-06
 updated: 2023-04-24
 version: 2.6.0
 stars: 4.7
-reviews: 168
+reviews: 173
 size: '49532928'
 website: https://s-wallet.ai
 repository: 
 issue: 
 icon: com.sincere.swallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-04-11
+date: 2024-04-18
 signer: 
 reviewArchive: 
 twitter: SWallet_ai

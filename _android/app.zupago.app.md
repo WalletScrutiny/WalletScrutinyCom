@@ -1,6 +1,6 @@
 ---
 wsId: ZuPago
-title: ZuPago
+title: ViZO
 altTitle: 
 authors:
 - danny
@@ -8,13 +8,13 @@ users: 10000
 appId: app.zupago.app
 appCountry: us
 released: 2021-04-30
-updated: 2023-10-07
-version: 1.8.1
+updated: 2024-05-16
+version: 2.0.2
 stars: 4.7
 ratings: 221
 reviews: 22
 size: 
-website: https://zupago.app
+website: https://vizo.app
 repository: 
 issue: 
 icon: app.zupago.app.png
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: ZuPago HyBrid HD Wallet
+developerName: ViZO
 features: 
 
 ---

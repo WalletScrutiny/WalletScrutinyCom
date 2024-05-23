@@ -10,18 +10,18 @@ appCountry:
 released: 2022-08-04
 updated: 2023-05-22
 version: 1.0.34
-stars: 2.8
+stars: 3.2
 ratings: 
-reviews: 4
+reviews: 3
 size: 
 website: https://international.indoex.io
 repository: 
 issue: 
 icon: com.indoex.finance.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-07-02
+date: 2024-05-16
 signer: 
 reviewArchive: 
 twitter: Indoex_LTD

@@ -9,7 +9,7 @@ appCountry:
 released: 2020-02-16
 updated: 2020-06-09
 version: 1.2.6
-stars: 
+stars: 3.8
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.xtrm.world.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-06-02
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

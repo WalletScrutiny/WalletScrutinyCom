@@ -8,8 +8,8 @@ users: 1000
 appId: com.ufund.app
 appCountry: 
 released: 2021-10-21
-updated: 2022-01-06
-version: '1.4'
+updated: 2024-04-22
+version: 1.1.5
 stars: 
 ratings: 
 reviews: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.ufund.app.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: wip
-date: 2023-12-28
+date: 2024-04-24
 signer: 
 reviewArchive: 
 twitter: UFUND1

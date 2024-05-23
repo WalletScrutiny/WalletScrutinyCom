@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.alsoft.bitcoinlocal.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
-date: 2023-12-13
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

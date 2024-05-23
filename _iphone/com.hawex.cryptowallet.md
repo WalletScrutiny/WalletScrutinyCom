@@ -8,11 +8,11 @@ appId: com.hawex.cryptowallet
 appCountry: cl
 idd: '1660970455'
 released: 2023-03-21
-updated: 2023-10-06
-version: 2.0 (23)
+updated: 2024-05-14
+version: 2.1 (18)
 stars: 0
 reviews: 0
-size: '70159360'
+size: '102586368'
 website: 
 repository: 
 issue: 

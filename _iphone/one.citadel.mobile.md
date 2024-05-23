@@ -10,17 +10,17 @@ idd: '1546701475'
 released: 2021-04-06
 updated: 2023-05-19
 version: 2.9.5
-stars: 4.3
-reviews: 12
+stars: 4.4
+reviews: 14
 size: '97445888'
 website: https://citadel.one/
 repository: https://github.com/citadeldao
 issue: 
 icon: one.citadel.mobile.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2022-12-08
+date: 2024-05-15
 signer: 
 reviewArchive: 
 twitter: CitadelDAO

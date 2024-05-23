@@ -10,9 +10,9 @@ appCountry:
 released: 2021-05-04
 updated: 2022-12-15
 version: 0.3.2
-stars: 3.7
+stars: 3.6
 ratings: 56
-reviews: 4
+reviews: 5
 size: 
 website: https://sevenb.io/
 repository: 

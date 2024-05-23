@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.eliminatum.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-08-04
+date: 2024-01-19
 signer: 
 reviewArchive: 
 twitter: GoCrypto_

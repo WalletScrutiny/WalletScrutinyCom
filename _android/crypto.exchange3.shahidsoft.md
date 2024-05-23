@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: crypto.exchange3.shahidsoft.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-07-04
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

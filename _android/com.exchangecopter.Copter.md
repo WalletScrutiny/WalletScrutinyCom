@@ -10,7 +10,7 @@ appCountry:
 released: 2021-12-09
 updated: 2022-09-16
 version: 1.5.7
-stars: 
+stars: 4.2
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.exchangecopter.Copter.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2023-09-11
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

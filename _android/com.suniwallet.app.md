@@ -4,12 +4,12 @@ title: Suni Wallet
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.suniwallet.app
 appCountry: 
 released: 2023-03-06
-updated: 2023-12-22
-version: 2.0.0
+updated: 2024-05-07
+version: 2.2.3
 stars: 
 ratings: 
 reviews: 

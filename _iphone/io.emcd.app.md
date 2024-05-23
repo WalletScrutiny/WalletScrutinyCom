@@ -8,19 +8,19 @@ appId: io.emcd.app
 appCountry: us
 idd: '1606903304'
 released: 2022-01-29
-updated: 2023-12-27
-version: 1.42.0
+updated: 2024-02-22
+version: 1.44.1
 stars: 3.6
-reviews: 16
-size: '164380672'
+reviews: 17
+size: '163244032'
 website: https://emcd.io/about
 repository: 
 issue: 
 icon: io.emcd.app.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-07-07
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: emcd_io

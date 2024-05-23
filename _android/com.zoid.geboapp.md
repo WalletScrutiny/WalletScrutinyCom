@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.zoid.geboapp.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-05-04
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: 

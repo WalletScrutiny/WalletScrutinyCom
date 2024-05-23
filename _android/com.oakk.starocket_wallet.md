@@ -8,11 +8,11 @@ users: 10000
 appId: com.oakk.starocket_wallet
 appCountry: 
 released: 2022-05-29
-updated: 2023-12-12
-version: 2.1.5
-stars: 3.7
+updated: 2024-05-07
+version: 2.2.1
+stars: 3.3
 ratings: 
-reviews: 5
+reviews: 6
 size: 
 website: https://trubit.com/
 repository: 

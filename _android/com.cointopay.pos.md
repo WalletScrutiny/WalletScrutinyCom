@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cointopay.pos.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-03-11
+date: 2024-03-07
 signer: 
 reviewArchive: 
 twitter: 

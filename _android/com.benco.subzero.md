@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.benco.subzero.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-06-20
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

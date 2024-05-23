@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: org.cryptonex.android.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2023-05-06
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: Cryptonex_CNX

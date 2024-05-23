@@ -9,7 +9,7 @@ appCountry:
 released: 2022-01-25
 updated: 2022-08-17
 version: 0.3.5
-stars: 
+stars: 5
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.smartrader.smartapp.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-08-15
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: 

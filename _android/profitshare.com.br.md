@@ -9,7 +9,7 @@ appCountry:
 released: 2021-09-29
 updated: 2022-04-23
 version: 1.0.8
-stars: 
+stars: 4
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: profitshare.com.br.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-06-02
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: 

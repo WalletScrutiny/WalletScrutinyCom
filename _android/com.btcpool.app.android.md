@@ -4,7 +4,7 @@ title: BTC.com - Leading Mining Pool
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.btcpool.app.android
 appCountry: us
 released: 2020-02-25
@@ -12,16 +12,16 @@ updated: 2023-04-26
 version: 2.3.2
 stars: 3.9
 ratings: 261
-reviews: 20
+reviews: 21
 size: 
 website: https://btc.com
 repository: 
 issue: 
 icon: com.btcpool.app.android.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-10-10
+date: 2024-04-21
 signer: 
 reviewArchive: 
 twitter: btccom_official

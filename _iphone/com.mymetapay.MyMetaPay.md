@@ -8,11 +8,11 @@ appId: com.mymetapay.MyMetaPay
 appCountry: us
 idd: '1619744034'
 released: 2022-06-27
-updated: 2023-08-17
-version: 1.19.0
+updated: 2024-04-03
+version: 1.20.1
 stars: 5
 reviews: 2
-size: '34844672'
+size: '34957312'
 website: 
 repository: 
 issue: 

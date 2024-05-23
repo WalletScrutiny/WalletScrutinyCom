@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.cappuu.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-09-07
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: Coinomo_EN

@@ -2,7 +2,8 @@
 wsId: 
 title: noID.cards
 altTitle: 
-authors: 
+authors:
+- danny
 users: 1
 appId: com.noid.cards
 appCountry: 
@@ -13,21 +14,24 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: 
+website: https://noid.cards/
 repository: 
 issue: 
 icon: com.noid.cards.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-06-03
+date: 2024-04-19
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: noidcards
+social:
+- >-
+  https://iris.to/#/profile/npub1udze58uyrxx9l4cjhl3ane0dg753vddtzgu6sd742wkyzc4hjqesc4secl
 redirect_from: 
 developerName: noID.cards
 features: 
 
 ---
 
+Companion app to {% include walletLink.html wallet='hardware/noID.cards' verdict='true' %}

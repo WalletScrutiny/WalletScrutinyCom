@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.rodiniawallet.app.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-11-25
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.waynance.pay.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-04-13
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

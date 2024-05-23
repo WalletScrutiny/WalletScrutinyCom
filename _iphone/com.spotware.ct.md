@@ -8,12 +8,12 @@ appId: com.spotware.ct
 appCountry: my
 idd: '767428811'
 released: 2013-12-05
-updated: 2023-09-15
-version: 4.8.54452
+updated: 2024-05-16
+version: 5.0.54493
 stars: 4.8
-reviews: 236
-size: '208281600'
-website: http://marketing.spotware.com
+reviews: 325
+size: '212428800'
+website: https://ctrader.com/forum
 repository: 
 issue: 
 icon: com.spotware.ct.jpg

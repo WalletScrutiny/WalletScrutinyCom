@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.prodoge.prodoge.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2023-08-09
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

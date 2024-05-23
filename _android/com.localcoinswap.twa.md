@@ -3,24 +3,24 @@ wsId:
 title: LocalCoinSwap
 altTitle: 
 authors: 
-users: 5000
+users: 10000
 appId: com.localcoinswap.twa
 appCountry: 
 released: 2023-03-10
 updated: 2023-03-11
 version: 1.0.0.0
-stars: 3.4
+stars: 3.2
 ratings: 
-reviews: 6
+reviews: 8
 size: 
 website: https://localcoinswap.com
 repository: 
 issue: 
 icon: com.localcoinswap.twa.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-08-28
+date: 2024-03-07
 signer: 
 reviewArchive: 
 twitter: Localcoinswap_

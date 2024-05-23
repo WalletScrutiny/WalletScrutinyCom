@@ -10,9 +10,9 @@ appCountry:
 released: 2021-08-03
 updated: 2023-08-31
 version: 1.3.7
-stars: 4.9
+stars: 4.5
 ratings: 
-reviews: 10
+reviews: 11
 size: 
 website: https://pocketbits.in/
 repository: 

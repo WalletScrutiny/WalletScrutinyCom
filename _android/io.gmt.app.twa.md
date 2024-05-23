@@ -1,18 +1,18 @@
 ---
 wsId: goMiningToken
-title: 'GoMining: Revolutionizing NFTs'
+title: GoMining
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: io.gmt.app.twa
 appCountry: 
 released: 2023-02-22
-updated: 2023-12-21
-version: '20'
-stars: 4
+updated: 2024-04-25
+version: '29'
+stars: 3.1
 ratings: 
-reviews: 109
+reviews: 190
 size: 
 website: https://gomining.com
 repository: 

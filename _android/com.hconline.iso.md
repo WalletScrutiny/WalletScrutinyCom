@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.hconline.iso.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2021-11-22
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: Starteos

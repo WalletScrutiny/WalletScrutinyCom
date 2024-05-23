@@ -8,8 +8,8 @@ users: 1000
 appId: jp.co.okasan_online.okasanonline.crypto.prd
 appCountry: 
 released: 2022-01-28
-updated: 2023-10-13
-version: 1.14.0
+updated: 2024-02-21
+version: 1.15.0
 stars: 
 ratings: 
 reviews: 

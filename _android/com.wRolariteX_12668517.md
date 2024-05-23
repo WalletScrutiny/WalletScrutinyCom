@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Noones: Buy Bitcoin & Giftcard'
+title: 'Culubo: Sell Giftcard USDT BTC'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 1000
 appId: com.wRolariteX_12668517
 appCountry: 
 released: 2021-09-08
-updated: 2023-04-05
-version: 1.0.62
+updated: 2024-04-10
+version: Culubo
 stars: 3.9
 ratings: 
 reviews: 
@@ -21,7 +21,7 @@ icon: com.wRolariteX_12668517.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
-date: 2023-08-30
+date: 2024-04-10
 signer: 
 reviewArchive: 
 twitter: 

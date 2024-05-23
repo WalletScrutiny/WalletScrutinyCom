@@ -9,7 +9,7 @@ appCountry:
 released: 2021-10-14
 updated: 2022-12-31
 version: 2.1.1
-stars: 
+stars: 4.9
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.muxe.safeswap.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-12-28
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

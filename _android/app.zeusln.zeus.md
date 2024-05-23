@@ -5,26 +5,47 @@ altTitle:
 authors:
 - leo
 - mohammad
+- danny
 users: 10000
 appId: app.zeusln.zeus
 appCountry: 
 released: 2020-07-07
-updated: 2023-12-01
-version: 0.8.0
+updated: 2024-05-04
+version: 0.8.4
 stars: 4.2
 ratings: 45
-reviews: 27
+reviews: 31
 size: 
 website: https://zeusln.app
 repository: https://github.com/ZeusLN/zeus
-issue: https://github.com/ZeusLN/zeus/issues/1926
+issue: 
 icon: app.zeusln.zeus.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
-date: 2023-12-30
-signer: 
+verdict: reproducible
+date: 2024-05-07
+signer: cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
 reviewArchive:
+- date: 2024-04-11
+  version: 0.8.3
+  appHash: afd3cace61fe5c896bbf3bd8399f12b9721415e78d9cbc694d8eb97dbbea21a1
+  gitRevision: 2e7fd3aa27b4c11b0e8ee69dcdd012d8a9f63603
+  verdict: reproducible
+- date: 2024-03-24
+  version: 0.8.2
+  appHash: 63d61c6288323ef8daa2797fa2c7341795ca7c36bbf2d007beda7e9ddd7ccca8
+  gitRevision: 540359a8e54b09cd2c779908dc00d772d77a7234
+  verdict: reproducible
+- date: 2024-01-30
+  version: 0.8.1
+  appHash: a5321241b0fcf3241c02515bb2d708eb30487df5da1a2ea53a283a2cf5a555cf
+  gitRevision: 57a2e216194467fadf01e6075efb04b87b657347
+  verdict: reproducible
+- date: 2023-12-30
+  version: 0.8.0
+  appHash: ad9eceb26e9b52fdda63a8452d0b9d3b0c40b15187d8eb5e45173ed65cdb9397
+  gitRevision: 9f3a0b296e63872f560c86a99e616877fa17ce94
+  verdict: reproducible
 - date: 2023-10-07
   version: 0.7.7
   appHash: 74451415ccf7a0bb60acb5be325b02937695c32bb7cfc86934349aeb1cdf9dfd
@@ -58,98 +79,35 @@ features:
 
 ---
 
-We ran our {% include testScript.html %} and got this:
+We ran our updated {% include testScript.html %} and got this:
 
 ```
 ===== Begin Results =====
 appId:          app.zeusln.zeus
 signer:         cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
-apkVersionName: 0.8.0
-apkVersionCode: 80003
+apkVersionName: 0.8.4
+apkVersionCode: 86001
 verdict:        
-appHash:        ad9eceb26e9b52fdda63a8452d0b9d3b0c40b15187d8eb5e45173ed65cdb9397
-commit:         dde7620ec733a002895173ccb4ab7169f6a9fbc7
+appHash:        bf668808899b1a5a5e4b8aebf5f8ef26b41dacfdc802150592e81c93de198f64
+commit:         f14086f2380542ffa31d894cfa489e868fd62a5b
 
 Diff:
-Files /tmp/fromPlay_app.zeusln.zeus_80003/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_80003/AndroidManifest.xml differ
-Only in /tmp/fromBuild_app.zeusln.zeus_80003/lib: arm64
-Only in /tmp/fromBuild_app.zeusln.zeus_80003/lib: armeabi
-Only in /tmp/fromBuild_app.zeusln.zeus_80003/lib: armeabi-v7a
-Only in /tmp/fromBuild_app.zeusln.zeus_80003/lib: x86
-Only in /tmp/fromBuild_app.zeusln.zeus_80003/lib: x86_64
-Only in /tmp/fromPlay_app.zeusln.zeus_80003/META-INF: GOOGPLAY.RSA
-Only in /tmp/fromPlay_app.zeusln.zeus_80003/META-INF: GOOGPLAY.SF
-Only in /tmp/fromPlay_app.zeusln.zeus_80003/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_app.zeusln.zeus_80003: stamp-cert-sha256
+Files /tmp/fromPlay_app.zeusln.zeus_86001/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_86001/AndroidManifest.xml differ
+Only in /tmp/fromPlay_app.zeusln.zeus_86001/META-INF: GOOGPLAY.RSA
+Only in /tmp/fromPlay_app.zeusln.zeus_86001/META-INF: GOOGPLAY.SF
+Only in /tmp/fromPlay_app.zeusln.zeus_86001/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_app.zeusln.zeus_86001: stamp-cert-sha256
 
 Revision, tag (and its signature):
 
 ===== End Results =====
-```
-
-That is a bigger diff than expected but getting really close. If we ignore all
-the stuff we usually ignore from the META-INF folder and extra stuff we got that
-was not found in the Play Store version - after all, we reproduced all there was
-and produced maybe a bit extra - the diff is:
 
 ```
-Files /tmp/fromPlay_app.zeusln.zeus_76003/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_76003/AndroidManifest.xml differ
-Only in /tmp/fromPlay_app.zeusln.zeus_76003: stamp-cert-sha256
-```
 
-The second line - `stamp-cert-sha256` - is 32B of binary, hardly enough for some
-backdoor and as it
-[turns out](https://github.com/BlueWallet/BlueWallet/issues/758#issuecomment-849273732)
-this is what Google adds when you let them sign the APK so we can add it to our
-list of acceptable files to differ.
+Again we checked that only signature-related lines differ and as before, this is
+the case for MANIFEST.MF and stamp-cert-sha256, too.
 
-As it turns out, our test script is comparing the file `zeus-universal.apk` with
-what we got from Google Play but this time, Google Play gave us the smaller
-`zeus-arm64-v8a.apk` which explains these extra lib files above.
+While we don't know yet exactly how to automate testing, this app is
+**reproducible**.
 
-But what about the first line - AndroidManifest.xml? Diffoscope can dig into
-that file and this is what it found:
-
-```
-$ diffoscope "/home/leo/Documents/walletscrutiny/incoming/Zeus 0.7.7 (app.zeusln.zeus).apk" /tmp/test_app.zeusln.zeus/app/android/app/build/outputs/apk/release/zeus-arm64-v8a.apk 
-...
-├── AndroidManifest.xml (decoded)
-│ ├── AndroidManifest.xml
-│ │ @@ -1,9 +1,9 @@
-│ │  <?xml version="1.0" encoding="utf-8"?>
-│ │ -<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="80003" android:versionName="0.8.0" android:compileSdkVersion="33" android:compileSdkVersionCodename="13" package="app.zeusln.zeus" platformBuildVersionCode="33" platformBuildVersionName="13">
-│ │ +<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="80" android:versionName="0.8.0" android:compileSdkVersion="33" android:compileSdkVersionCodename="13" package="app.zeusln.zeus" platformBuildVersionCode="33" platformBuildVersionName="13">
-│ │    <uses-sdk android:minSdkVersion="28" android:targetSdkVersion="33"/>
-│ │    <uses-permission android:name="android.permission.INTERNET"/>
-│ │    <uses-permission android:name="android.permission.CAMERA"/>
-│ │    <uses-permission android:name="android.permission.NFC"/>
-│ │    <uses-permission android:name="android.permission.VIBRATE"/>
-│ │    <uses-permission android:name="android.permission.POST_NOTIFICATIONS"/>
-│ │    <uses-feature android:name="android.hardware.nfc.hce" android:required="false"/>
-│ │ @@ -214,10 +214,9 @@
-│ │      <activity android:theme="@android:style/Theme.Translucent.NoTitleBar" android:name="com.jakewharton.processphoenix.ProcessPhoenix" android:exported="false" android:process=":phoenix"/>
-│ │      <service android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery" android:exported="false">
-│ │        <meta-data android:name="backend:com.google.android.datatransport.cct.CctBackendFactory" android:value="cct"/>
-│ │      </service>
-│ │      <service android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="false"/>
-│ │      <receiver android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver" android:exported="false"/>
-│ │      <meta-data android:name="com.facebook.soloader.enabled" android:value="false"/>
-│ │ -    <meta-data android:name="com.android.vending.derived.apk.id" android:value="1"/>
-│ │    </application>
-│ │  </manifest>
-```
-
-meaning the Google file contains the extra line:
-
-```
-<meta-data android:name="com.android.vending.derived.apk.id" android:value="1"/>
-```
-
-which again is expected when using the Android App Bundle (AAB) format which
-{{ page.title }} apparently switched to.
-
-But also the versionCode differs which is odd but not alarming.
-
-For this probably unnecessary diff in the versionCode we list this app as
-**not verifiable** but note that the diff is benign and we reached out to the
-provider about this in [this issue](https://github.com/ZeusLN/zeus/issues/1926).
+{% include asciicast %}

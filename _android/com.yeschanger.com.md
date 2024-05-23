@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.yeschanger.com.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-04-13
+date: 2024-03-22
 signer: 
 reviewArchive: 
 twitter: YesChanger

@@ -10,17 +10,17 @@ idd: 1553486059
 released: 2021-09-25
 updated: 2023-05-02
 version: 1.8.1
-stars: 4.7
-reviews: 57
+stars: 4.6
+reviews: 59
 size: '132121600'
 website: https://bitcoin.me
 repository: 
 issue: 
 icon: io.klever.secure.exchange.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-10-05
+date: 2024-04-28
 signer: 
 reviewArchive: 
 twitter: klever_io

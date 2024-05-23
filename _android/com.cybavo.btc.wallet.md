@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.cybavo.btc.wallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: wip
-date: 2023-06-06
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

@@ -9,7 +9,7 @@ appCountry:
 released: 
 updated: 2022-02-23
 version: 1.8.0
-stars: 
+stars: 2.5
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.fxvc.trading.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-06-02
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: 

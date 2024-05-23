@@ -33,7 +33,7 @@ social:
 - https://t.me/TheMaraverse
 - https://www.youtube.com/channel/UCSzxEpB-NnWm-PxLEE7ihTQ
 redirect_from: 
-developerName: Mara Team
+developerName: Jara Wallet
 features: 
 
 ---

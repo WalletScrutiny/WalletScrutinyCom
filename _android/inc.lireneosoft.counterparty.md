@@ -19,9 +19,9 @@ repository: https://github.com/IndieSquare/indiesquare-wallet
 issue: 
 icon: inc.lireneosoft.counterparty.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
-date: 2021-08-17
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: Indie_Square

@@ -9,7 +9,7 @@ appCountry:
 released: 2022-07-09
 updated: 2022-12-06
 version: 1.0.28
-stars: 
+stars: 3
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.maxxer.maxxermobileapp.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-12-13
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

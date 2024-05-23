@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.mobile.dxone.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-09-22
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

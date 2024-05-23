@@ -8,11 +8,11 @@ appId: by.erpbel.hermes
 appCountry: by
 idd: '1629900361'
 released: 2023-04-17
-updated: 2023-09-11
-version: 1.3.1
-stars: 4
-reviews: 12
-size: '32961536'
+updated: 2024-04-29
+version: '2.2'
+stars: 1.9
+reviews: 15
+size: '33745920'
 website: https://bynex.io/en
 repository: 
 issue: 

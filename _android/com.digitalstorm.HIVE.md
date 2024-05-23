@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.digitalstorm.HIVE.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-05-23
+date: 2024-05-10
 signer: 
 reviewArchive: 
 twitter: 

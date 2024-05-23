@@ -1,6 +1,6 @@
 ---
 wsId: bitazzaGL
-title: BTZ
+title: Bitazza
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.bitazza.global.ios
 appCountry: th
 idd: '1612226119'
 released: 2022-04-07
-updated: 2023-12-27
-version: 3.3.6
-stars: 4.2
-reviews: 31
-size: '162904064'
+updated: 2024-05-13
+version: 3.7.2
+stars: 4.3
+reviews: 59
+size: '173999104'
 website: https://www.bitazza.com
 repository: 
 issue: 

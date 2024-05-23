@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bbctoken.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2022-11-02
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: 

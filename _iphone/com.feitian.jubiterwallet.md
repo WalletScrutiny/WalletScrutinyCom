@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.feitian.jubiterwallet.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
-date: 2023-04-27
+date: 2024-04-17
 signer: 
 reviewArchive: 
 twitter: JuBiterWallet

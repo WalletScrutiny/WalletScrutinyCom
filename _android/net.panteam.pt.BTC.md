@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: net.panteam.pt.BTC.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-08-01
+date: 2024-02-20
 signer: 
 reviewArchive: 
 twitter: 

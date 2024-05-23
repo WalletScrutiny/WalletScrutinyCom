@@ -4,15 +4,16 @@ title: Unstoppable Crypto Wallet
 altTitle: 
 authors:
 - leo
-users: 10000
+- danny
+users: 50000
 appId: io.horizontalsystems.bankwallet
 appCountry: 
 released: 2018-12-18
-updated: 2023-11-15
-version: 0.36.1
-stars: 4.1
+updated: 2024-05-01
+version: 0.38.4
+stars: 4
 ratings: 556
-reviews: 74
+reviews: 81
 size: 
 website: https://horizontalsystems.io/
 repository: https://github.com/horizontalsystems/unstoppable-wallet-android
@@ -21,9 +22,44 @@ icon: io.horizontalsystems.bankwallet.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2023-11-25
+date: 2024-05-08
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
 reviewArchive:
+- date: 2024-04-28
+  version: 0.38.3
+  appHash: 7f1c412129a45740bd751f7f11ca3e5fa41b0fc79f38afb7bf232e8858224a79
+  gitRevision: 09b09b38a0bf11d71e06d57f34bbe5b68c2f7afc
+  verdict: reproducible
+- date: 2024-04-21
+  version: 0.38.0
+  appHash: 64c2ff7cdb241a5da521651822c7df074983d764f9b52441f6a9cb7a0285eff0
+  gitRevision: 0d241645fd13fda72b22378bcbc46928ada16264
+  verdict: reproducible
+- date: 2024-04-10
+  version: 0.37.6
+  appHash: 3d7ff62ef1065f8b25e3fb6be92536a83ec5a61607313dc16f7b33dea50cb06c
+  gitRevision: c34d98a17c9747179bb8760e595a5aca95530139
+  verdict: reproducible
+- date: 2024-03-18
+  version: 0.37.5
+  appHash: eb44e7b4b959ba21758914ddd9edd60b3019ce69b1de445bddf703f2aba49148
+  gitRevision: 110a3a1c4fb9b4cc9010f9b6b43480919363b376
+  verdict: reproducible
+- date: 2024-01-29
+  version: 0.37.3
+  appHash: b82ef5472ae40186340519df4227d9e27755cd0b194e23635ebf8af077db6fe9
+  gitRevision: 1dbf6940afbefbdc86b6d6b48446f53895c4c5ea
+  verdict: reproducible
+- date: 2024-01-17
+  version: 0.37.2
+  appHash: 514b231282567117ed5d7ba78ca8cbbe552175603da5ae21c5345cb69fc9ce94
+  gitRevision: 9f3a0b296e63872f560c86a99e616877fa17ce94
+  verdict: reproducible
+- date: 2023-11-25
+  version: 0.36.1
+  appHash: 40396b32608468fb01d98d0db7c9b10004a9c4655037c2b89140f6694a2c52ea
+  gitRevision: 88254e9c1f18a27196679a63e669a3579b6e0978
+  verdict: reproducible
 - date: 2023-11-08
   version: 0.36.0
   appHash: 013383415b5cb4ab2eb901fa8a5bc0f26f4003140677ff122d8a3df62a62eb06
@@ -218,22 +254,22 @@ features:
 Here we test if the latest version can be reproduced, following the known
 procedure expressed in our {% include testScript.html %}:
 
+{% include asciicast %}
+
 ```
-$ ./test.sh --apk path/to/Unstoppable.apk 
-...
 ===== Begin Results =====
 appId:          io.horizontalsystems.bankwallet
 signer:         c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
-apkVersionName: 0.36.1
-apkVersionCode: 92
+apkVersionName: 0.38.4
+apkVersionCode: 107
 verdict:        reproducible
-appHash:        40396b32608468fb01d98d0db7c9b10004a9c4655037c2b89140f6694a2c52ea
-commit:         19479befc2ce555a44fd7e8a2f575fe4316723fe
+appHash:        75cc38d54fb0c68546685ce6f558ae98a3e0e361c6ad5646cf868e35d19cb39b
+commit:         399fd8dc84c249dd1094fee0a7a043ec5e4ffa90
 
 Diff:
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_92/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_92/META-INF: RELEASEK.RSA
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_92/META-INF: RELEASEK.SF
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_107/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_107/META-INF: RELEASEK.RSA
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_107/META-INF: RELEASEK.SF
 
 Revision, tag (and its signature):
 

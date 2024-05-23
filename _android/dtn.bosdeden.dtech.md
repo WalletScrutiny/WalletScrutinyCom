@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: dtn.bosdeden.dtech.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-02-24
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

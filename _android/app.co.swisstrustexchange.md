@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: app.co.swisstrustexchange.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-04-13
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

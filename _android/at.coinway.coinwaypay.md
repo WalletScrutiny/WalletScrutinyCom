@@ -9,7 +9,7 @@ appCountry:
 released: 2019-02-06
 updated: 2021-10-11
 version: 1.4.0
-stars: 
+stars: 4.6
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: at.coinway.coinwaypay.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-10-03
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

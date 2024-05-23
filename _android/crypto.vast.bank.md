@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: crypto.vast.bank.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-07-02
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: vastbank

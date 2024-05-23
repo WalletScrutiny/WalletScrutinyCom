@@ -4,15 +4,15 @@ title: 'RockWallet: Buy and Swap'
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.rockwallet.app
 appCountry: 
 released: 2022-11-14
-updated: 2023-11-15
-version: 5.12.0
-stars: 3.7
+updated: 2024-04-08
+version: 5.14.0
+stars: 4.2
 ratings: 
-reviews: 42
+reviews: 85
 size: 
 website: http://www.rockwallet.com
 repository: https://github.com/rockwalletcode/wallet-android
@@ -20,7 +20,7 @@ issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/498
 icon: com.rockwallet.app.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nosource
 date: 2023-08-28
 signer: 
 reviewArchive: 
@@ -46,6 +46,7 @@ features:
 
 ## Analysis 
 
+- RockWallet is **no longer source-available** and can not be verified.
 - This is a multi-currency wallet.
 - We installed the app and were provided the seed phrases prior to email sign-up. 
 - There was a BTC wallet with a legacy address.

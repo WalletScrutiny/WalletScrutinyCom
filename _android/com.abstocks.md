@@ -10,7 +10,7 @@ appCountry:
 released: 2021-08-30
 updated: 2022-02-07
 version: 1.6.106
-stars: 
+stars: 3.9
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.abstocks.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2023-02-08
+date: 2024-01-28
 signer: 
 reviewArchive: 
 twitter: 

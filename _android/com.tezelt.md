@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.tezelt.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-06-22
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

@@ -4,15 +4,15 @@ title: Trustee Plus | Wallet & Card
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.trusteeplus
 appCountry: 
 released: 2022-07-01
-updated: 2024-01-03
-version: 1.30.0
-stars: 3.2
+updated: 2024-04-29
+version: 1.31.1
+stars: 2.9
 ratings: 
-reviews: 3
+reviews: 10
 size: 
 website: https://trusteeglobal.com
 repository: 

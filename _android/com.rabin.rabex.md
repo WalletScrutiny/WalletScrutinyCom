@@ -4,15 +4,15 @@ title: رابکس ، خرید ارز دیجیتال
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.rabin.rabex
 appCountry: 
 released: 2023-02-19
 updated: 2023-12-17
 version: 1.7-product
-stars: 3.7
+stars: 3.9
 ratings: 
-reviews: 4
+reviews: 7
 size: 
 website: https://rabex.ir
 repository: 

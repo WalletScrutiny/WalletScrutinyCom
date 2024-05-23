@@ -1,6 +1,6 @@
 ---
 wsId: cindicator
-title: 'Cindicator: become a financial'
+title: 'Cindicator: Become an Analyst'
 altTitle: 
 authors:
 - danny

@@ -4,24 +4,24 @@ title: S-Wallet
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.sincere.swallet
 appCountry: 
 released: 2022-04-11
 updated: 2023-04-21
 version: 2.6.0
-stars: 4.5
+stars: 4.4
 ratings: 
-reviews: 28
+reviews: 26
 size: 
 website: https://s-wallet.ai
 repository: 
 issue: 
 icon: com.sincere.swallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-04-11
+date: 2024-04-17
 signer: 
 reviewArchive: 
 twitter: SWallet_ai

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.peiko.mobile.bitcoinaddition.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-11-08
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: 

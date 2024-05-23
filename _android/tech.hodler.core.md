@@ -19,9 +19,9 @@ repository: https://github.com/HODLERTECH/HODLER-Open-Source-Multi-Asset-Wallet
 issue: https://github.com/HODLERTECH/HODLER-Open-Source-Multi-Asset-Wallet/issues/165
 icon: tech.hodler.core.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: ftbfs
-date: 2021-10-19
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: HODLER_TECH

@@ -10,7 +10,7 @@ appCountry:
 released: 2022-04-14
 updated: 2023-05-03
 version: 1.6.8
-stars: 
+stars: 3.6
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.macaron_swap.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-08-18
+date: 2024-04-28
 signer: 
 reviewArchive: 
 twitter: 

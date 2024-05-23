@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.bintin.app.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-03-11
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

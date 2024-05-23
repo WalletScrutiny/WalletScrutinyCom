@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.bitdax.app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-08-09
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

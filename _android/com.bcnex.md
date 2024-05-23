@@ -9,7 +9,7 @@ appCountry:
 released: 2020-02-02
 updated: 2020-02-03
 version: 1.0.0
-stars: 
+stars: 1.6
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bcnex.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-07-31
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

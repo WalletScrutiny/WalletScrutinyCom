@@ -4,7 +4,7 @@ title: 'OpenEx : Buy Btc & Crypto'
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.aex.exchanges
 appCountry: 
 released: 2023-02-24

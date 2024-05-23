@@ -29,8 +29,6 @@ layout: default
             {% endif %}
           </h1>
 
-  
-
           <a href="https://apps.apple.com/{{ page.appCountry }}/app/id{{ page.idd }}" class="link-web subtle">
             <i class="i-app-store"></i> App Store
           </a>
@@ -38,9 +36,6 @@ layout: default
           {% if page.version %}
           <div title="Latest Release: {{ page.version }} - {{ page.updated | date_to_long_string: 'ordinal' }}" class="secondary-text">
               Latest Release: 
-              {% if page.version != 'VARY' %}
-                <span>v</span>
-              {% endif %}
               {{ page.version }}
                 <span class="calculate-time-elapsed label-lower brackets" data="{{ page.updated | date: '%s' }}">
               {{ page.updated | date_to_long_string: "ordinal" }}
@@ -53,6 +48,8 @@ layout: default
       </div>
 
       {% include /review/securityOverview.html wsId=page.wsId verdict=page.verdict meta=page.meta platform='iphone' filterPlatform='true' %}
+      
+      {% include /review/nostrOpinion.html %}
 
       <div class="article-after disclaimer">
         {% include /review/disclaimer.html %}

@@ -10,7 +10,7 @@ appCountry:
 released: 2022-09-11
 updated: 2023-03-14
 version: '1.1'
-stars: 4.3
+stars: 4.4
 ratings: 
 reviews: 3
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.blocknance.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-07-02
+date: 2024-03-12
 signer: 
 reviewArchive: 
 twitter: blocknanceATM

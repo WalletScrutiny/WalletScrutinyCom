@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: ng.crytopay.pwa.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2022-11-02
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: 

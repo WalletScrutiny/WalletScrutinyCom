@@ -1,15 +1,15 @@
 ---
 wsId: 
-title: BotTrade - Coin Trading Signal
+title: BotTrade
 altTitle: 
 authors: 
 users: 100
 appId: trade.bot.app
 appCountry: 
 released: 2022-10-12
-updated: 2023-12-27
-version: 2023.12.27.09
-stars: 
+updated: 2024-05-18
+version: 2024.05.18.21
+stars: 4.9
 ratings: 
 reviews: 
 size: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.techx.arya.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-09-11
+date: 2024-04-09
 signer: 
 reviewArchive: 
 twitter: TheAryaApp

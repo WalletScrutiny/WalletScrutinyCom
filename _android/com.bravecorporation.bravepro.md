@@ -3,7 +3,7 @@ wsId:
 title: 'BravePro: cryptocurrency store'
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.bravecorporation.bravepro
 appCountry: 
 released: 2022-05-15
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Brave Corporation
+developerName: BravePay
 features: 
 
 ---

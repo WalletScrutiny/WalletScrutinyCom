@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.haladinarwallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
-date: 2023-05-26
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: haladinar

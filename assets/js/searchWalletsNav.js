@@ -178,6 +178,7 @@ function getIcon(name) {
     case "iphone": faCollection = "i-app-store"; break
     case "hardware": faCollection = "fas fa-toolbox"; break
     case "bearer": faCollection = "i-btc"; break
+    case "desktop": faCollection = "fas fa-desktop"; break
   }
   return faCollection
 }

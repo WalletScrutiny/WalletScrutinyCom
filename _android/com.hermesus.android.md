@@ -10,7 +10,7 @@ appCountry:
 released: 2022-04-17
 updated: 2022-04-17
 version: '1.1'
-stars: 
+stars: 2.9
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.hermesus.android.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-05-26
+date: 2024-04-09
 signer: 
 reviewArchive: 
 twitter: hermesus_us

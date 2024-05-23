@@ -9,7 +9,7 @@ appCountry:
 released: 2021-05-29
 updated: 2021-05-30
 version: '1.3'
-stars: 
+stars: 2.2
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.botcex.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-05-21
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

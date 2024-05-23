@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.visionx_crpto.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-03-20
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.albos.wallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-10-09
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

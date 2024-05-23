@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: kifpool.me.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-07-20
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: Kifpoolme

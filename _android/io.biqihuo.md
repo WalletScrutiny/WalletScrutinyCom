@@ -9,7 +9,7 @@ appCountry:
 released: 2019-08-21
 updated: 2019-08-21
 version: '1.0'
-stars: 
+stars: 2.7
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.biqihuo.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2022-06-23
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

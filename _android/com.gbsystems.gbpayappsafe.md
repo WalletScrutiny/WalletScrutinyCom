@@ -9,7 +9,7 @@ appCountry:
 released: 2019-06-01
 updated: 2019-06-02
 version: 1.0.0
-stars: 
+stars: 3.3
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.gbsystems.gbpayappsafe.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-07-31
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

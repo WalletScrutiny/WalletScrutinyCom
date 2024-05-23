@@ -8,13 +8,13 @@ users: 100000
 appId: com.spotware.ct
 appCountry: 
 released: 2014-02-10
-updated: 2023-09-15
-version: 4.8.54452
-stars: 4.8
+updated: 2024-05-10
+version: 5.0.54493
+stars: 4.7
 ratings: 
-reviews: 104
+reviews: 161
 size: 
-website: http://www.spotware.com/
+website: https://ctrader.com/forum
 repository: 
 issue: 
 icon: com.spotware.ct.png

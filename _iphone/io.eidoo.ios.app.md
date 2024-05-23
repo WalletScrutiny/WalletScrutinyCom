@@ -8,19 +8,19 @@ appId: io.eidoo.ios.app
 appCountry: it
 idd: '1626030540'
 released: 2022-07-21
-updated: 2023-07-21
-version: 1.14.2
-stars: 4.1
-reviews: 16
-size: '58854400'
+updated: 2024-01-06
+version: 1.14.3
+stars: 3.5
+reviews: 22
+size: '58850304'
 website: https://eidoo.app
 repository: 
 issue: 
 icon: io.eidoo.ios.app.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2023-07-08
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: eidoo_io

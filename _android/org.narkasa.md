@@ -10,7 +10,7 @@ appCountry:
 released: 2020-10-30
 updated: 2021-04-11
 version: '1.27'
-stars: 
+stars: 3.5
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: org.narkasa.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2023-04-15
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: narkasacom

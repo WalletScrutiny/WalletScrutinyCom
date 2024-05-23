@@ -12,16 +12,16 @@ updated: 2023-03-01
 version: 1.9.30
 stars: 4.8
 ratings: 1541
-reviews: 44
+reviews: 45
 size: 
 website: https://abcc.com
 repository: 
 issue: 
 icon: com.abcc.exchange.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-09-10
+date: 2024-02-24
 signer: 
 reviewArchive: 
 twitter: ABCCExOfficial

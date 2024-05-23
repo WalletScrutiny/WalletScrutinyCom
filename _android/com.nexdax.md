@@ -4,12 +4,12 @@ title: NexDAX
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.nexdax
 appCountry: 
 released: 
-updated: 2023-08-03
-version: '1.0'
+updated: 2024-04-08
+version: '8.0'
 stars: 
 ratings: 
 reviews: 

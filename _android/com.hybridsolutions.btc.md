@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.hybridsolutions.btc.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
-date: 2023-08-04
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: VertexFXTrader

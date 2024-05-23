@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.application.blocdesk.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-02-22
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.belfrics.app.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2024-01-04
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: Belfrics

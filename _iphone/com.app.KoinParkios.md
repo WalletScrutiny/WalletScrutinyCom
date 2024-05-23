@@ -8,11 +8,11 @@ appId: com.app.KoinParkios
 appCountry: in
 idd: '6448510693'
 released: 2023-05-10
-updated: 2023-12-06
-version: '2.2'
-stars: 4.6
-reviews: 21
-size: '68366336'
+updated: 2024-04-25
+version: '3.0'
+stars: 4.2
+reviews: 80
+size: '82652160'
 website: 
 repository: 
 issue: 
@@ -33,7 +33,7 @@ social:
 - https://www.youtube.com/@koinparkInfo
 - https://www.reddit.com/user/Koinpark
 features: 
-developerName: ASSETFINX TECHNOLOGIES PRIVATE LIMITED
+developerName: KOIN PARK PRIVATE LIMITED
 
 ---
 

@@ -8,11 +8,11 @@ users: 50000
 appId: com.ellipal.wallet
 appCountry: us
 released: 2018-07-02
-updated: 2023-12-07
-version: 3.12.1
+updated: 2024-02-27
+version: 3.12.2
 stars: 4.3
 ratings: 933
-reviews: 428
+reviews: 480
 size: 
 website: http://www.ellipal.com
 repository: 

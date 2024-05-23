@@ -3,7 +3,7 @@ wsId:
 title: Cyrus mall
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.xearth.cyrusmall
 appCountry: 
 released: 2021-09-14

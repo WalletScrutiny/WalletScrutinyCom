@@ -1,4 +1,4 @@
-FROM docker.io/node:16.20.0-bullseye-slim
+FROM docker.io/node:18-bullseye-slim
 
 ARG UID=1000
 ARG TAG
@@ -8,7 +8,7 @@ RUN set -ex; \
     apt-get update; \
     DEBIAN_FRONTEND=noninteractive apt-get install --yes \
       -o APT::Install-Suggests=false --no-install-recommends \
-      patch git openjdk-11-jre-headless; \
+      patch git openjdk-11-jre-headless openjdk-11-jdk; \
     rm -rf /var/lib/apt/lists/*; \
     deluser node; \
     useradd --uid $UID --create-home --shell /bin/bash appuser; \
@@ -30,6 +30,8 @@ RUN set -ex; \
 WORKDIR /Users/runner/work/1/s/
 
 RUN set -ex; \
+    npm config set fetch-retry-maxtimeout 600000; \
+    npm config set fetch-retry-mintimeout 100000; \
     npm install --production --no-optional --omit=optional --no-audit --no-fund --ignore-scripts; \
     npm run postinstall; \
     # Work around issue with realm: https://github.com/realm/realm-js/issues/6204#issuecomment-1772638401
@@ -38,4 +40,6 @@ RUN set -ex; \
 
 RUN set -ex; \
     cd /Users/runner/work/1/s/android; \
-    ./gradlew assembleRelease
+    ./gradlew assembleRelease \
+        -Dorg.gradle.internal.http.socketTimeout=600000 \
+        -Dorg.gradle.internal.http.connectionTimeout=600000

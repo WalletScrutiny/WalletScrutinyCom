@@ -8,8 +8,8 @@ users: 10000
 appId: com.fasset.cashapp
 appCountry: 
 released: 2021-12-14
-updated: 2023-12-22
-version: '5.27'
+updated: 2024-05-06
+version: '5.36'
 stars: 
 ratings: 
 reviews: 

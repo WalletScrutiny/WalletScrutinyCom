@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.goodpayglobal.wallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-08-28
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: goodpayglobal
@@ -31,7 +31,7 @@ social:
 - https://www.linkedin.com/company/goodpayglobal
 - https://t.me/goodpayglobal
 redirect_from: 
-developerName: Goodpayglobal
+developerName: Vaisen
 features: 
 
 ---

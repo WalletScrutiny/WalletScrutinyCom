@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-05-27
 updated: 2023-05-05
 version: 6.0.7
-stars: 
+stars: 4
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.beecrypt.beecrypthd.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-11-17
+date: 2024-05-04
 signer: 
 reviewArchive: 
 twitter: money_pipe

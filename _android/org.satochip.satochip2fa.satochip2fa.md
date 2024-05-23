@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.satochip.satochip2fa.satochip2fa.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-03
+date: 2024-03-01
 signer: 
 reviewArchive: 
 twitter: 

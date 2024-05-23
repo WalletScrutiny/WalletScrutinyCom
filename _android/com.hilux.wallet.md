@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.hilux.wallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2021-11-29
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: 

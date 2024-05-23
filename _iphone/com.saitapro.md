@@ -8,19 +8,19 @@ appId: com.saitapro
 appCountry: us
 idd: '1636523777'
 released: 2022-08-05
-updated: 2023-09-18
-version: '1.91'
-stars: 4.8
-reviews: 745
-size: '58236928'
+updated: 2024-02-14
+version: '1.94'
+stars: 4.7
+reviews: 760
+size: '68945920'
 website: 
 repository: 
 issue: 
 icon: com.saitapro.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2023-07-02
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: WeAreSaitama

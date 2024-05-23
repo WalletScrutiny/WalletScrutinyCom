@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bottlepay.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-03-29
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: bottlepay

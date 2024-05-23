@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.wetoken2.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-04-15
+date: 2024-02-20
 signer: 
 reviewArchive: 
 twitter: wetokenpro

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.quickben22.bitcoinlotto.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
-date: 2023-04-29
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

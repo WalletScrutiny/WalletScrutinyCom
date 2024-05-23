@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: net.neenote.wallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-04-16
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

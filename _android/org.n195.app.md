@@ -9,7 +9,7 @@ appCountry:
 released: 2019-07-01
 updated: 2019-07-01
 version: 1.0.1
-stars: 
+stars: 4.8
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.n195.app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2022-06-23
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: 

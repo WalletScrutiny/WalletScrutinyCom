@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.reactjs.native.example.blocknance.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-07-02
+date: 2024-02-24
 signer: 
 reviewArchive: 
 twitter: blocknanceATM

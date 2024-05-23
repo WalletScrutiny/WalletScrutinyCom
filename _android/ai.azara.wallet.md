@@ -10,7 +10,7 @@ appCountry: de
 released: 2020-11-10
 updated: 2021-04-14
 version: 0.01.18
-stars: 
+stars: 4.7
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: ai.azara.wallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2023-04-05
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

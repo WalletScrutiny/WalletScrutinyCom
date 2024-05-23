@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.inflowchange.inflowchange.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosendreceive
-date: 2023-11-02
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: inflowchange

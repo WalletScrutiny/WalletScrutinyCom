@@ -12,16 +12,16 @@ updated: 2023-05-25
 version: 1.5.2
 stars: 2
 ratings: 3910
-reviews: 441
+reviews: 442
 size: 
 website: https://mypatricia.co
 repository: 
 issue: 
 icon: com.patriciaapp.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-08-29
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: PatriciaSwitch

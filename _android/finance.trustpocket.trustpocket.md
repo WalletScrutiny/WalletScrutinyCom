@@ -9,7 +9,7 @@ appCountry:
 released: 2021-08-06
 updated: 2021-10-04
 version: 1.0.3
-stars: 
+stars: 5
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: finance.trustpocket.trustpocket.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-09-24
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

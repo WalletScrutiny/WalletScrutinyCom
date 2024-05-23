@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.coinforbarter.qollect.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-09-20
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

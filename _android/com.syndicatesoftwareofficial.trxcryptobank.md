@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.syndicatesoftwareofficial.trxcryptobank.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2022-06-22
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

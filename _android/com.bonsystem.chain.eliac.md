@@ -9,7 +9,7 @@ appCountry:
 released: 2022-03-25
 updated: 2022-04-05
 version: 1.0.3
-stars: 
+stars: 4.3
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bonsystem.chain.eliac.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-04-03
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.vwallet.vwallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-12-13
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

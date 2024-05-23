@@ -8,19 +8,19 @@ appId: com.unicoindcx.iphoneunicoindcx
 appCountry: us
 idd: '1447599401'
 released: 2018-12-29
-updated: 2022-02-14
-version: 2.8.5
+updated: 2024-04-22
+version: 3.2.0
 stars: 5
 reviews: 3
-size: '31784960'
+size: '22172672'
 website: 
 repository: 
 issue: 
 icon: com.unicoindcx.iphoneunicoindcx.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2023-09-06
+date: 2024-03-23
 signer: 
 reviewArchive: 
 twitter: Unicoin5

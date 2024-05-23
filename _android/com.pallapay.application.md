@@ -10,7 +10,7 @@ appCountry:
 released: 2022-05-06
 updated: 2022-05-07
 version: 1.0.3
-stars: 
+stars: 4.5
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.pallapay.application.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-05-31
+date: 2024-04-28
 signer: 
 reviewArchive: 
 twitter: pallapay_com

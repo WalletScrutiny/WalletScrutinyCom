@@ -9,7 +9,7 @@ appCountry:
 released: 2020-09-30
 updated: 2021-10-17
 version: '1.6'
-stars: 
+stars: 2.9
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: za.co.rockwallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-10-09
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

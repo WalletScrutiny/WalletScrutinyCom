@@ -9,7 +9,7 @@ appCountry:
 released: 
 updated: 2020-11-15
 version: '1.1'
-stars: 
+stars: 2.5
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: net.elquirex.elquirexapplication.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-12-17
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

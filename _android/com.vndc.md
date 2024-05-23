@@ -1,6 +1,6 @@
 ---
 wsId: VNDCPro
-title: 'ONUS: Grow & Invest in Crypto'
+title: 'ONUS: Buy Bitcoin BTC & Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.vndc
 appCountry: us
 released: 2020-03-07
-updated: 2024-01-02
-version: 5.0.8
-stars: 4.1
+updated: 2024-05-15
+version: 5.3.7
+stars: 4.2
 ratings: 46866
-reviews: 370
+reviews: 374
 size: 
 website: https://goonus.io
 repository: 

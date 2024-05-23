@@ -1,6 +1,6 @@
 ---
 wsId: PayBito
-title: PayBitoTrade
+title: PayBitoPro
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.hashcashconsultants.payBitoTrade
 appCountry: us
 idd: 1492071529
 released: 2020-01-02
-updated: 2023-12-06
-version: '93.0'
+updated: 2024-05-06
+version: 101.0.1
 stars: 5
-reviews: 75
-size: '38427648'
+reviews: 72
+size: '50254848'
 website: https://www.hashcashconsultants.com
 repository: 
 issue: 

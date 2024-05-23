@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.getamber.app.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-07-17
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: theamberapp

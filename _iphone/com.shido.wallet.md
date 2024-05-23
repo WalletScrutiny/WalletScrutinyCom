@@ -10,17 +10,17 @@ idd: '6443624368'
 released: 2023-01-06
 updated: 2023-07-31
 version: '2.7'
-stars: 4.9
-reviews: 51
+stars: 4.7
+reviews: 55
 size: '108346368'
 website: 
 repository: 
 issue: 
 icon: com.shido.wallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2023-08-17
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: ShidoGlobal

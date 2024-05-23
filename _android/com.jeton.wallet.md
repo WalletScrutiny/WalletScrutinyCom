@@ -8,11 +8,11 @@ users: 500000
 appId: com.jeton.wallet
 appCountry: us
 released: 2018-12-27
-updated: 2023-12-15
-version: 3.6.3
+updated: 2024-04-11
+version: 3.7.1
 stars: 3.1
 ratings: 3260
-reviews: 17
+reviews: 19
 size: 
 website: https://jeton.com/
 repository: 

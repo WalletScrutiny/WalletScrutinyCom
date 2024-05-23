@@ -9,7 +9,7 @@ appCountry:
 released: 2019-09-28
 updated: 2019-09-25
 version: 1.0.14
-stars: 
+stars: 4.1
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.lotuscfd.app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-06-22
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

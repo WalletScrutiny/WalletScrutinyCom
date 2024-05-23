@@ -10,7 +10,7 @@ appCountry:
 released: 2022-08-13
 updated: 2023-03-02
 version: 1.0.2.6
-stars: 
+stars: 4.8
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.coinboxwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-08-07
+date: 2024-03-01
 signer: 
 reviewArchive: 
 twitter: 

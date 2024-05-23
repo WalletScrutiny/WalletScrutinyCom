@@ -9,7 +9,7 @@ appCountry:
 released: 2021-03-25
 updated: 2021-03-25
 version: '1.0'
-stars: 
+stars: 4.2
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: fx.compt.crypto.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-06-02
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

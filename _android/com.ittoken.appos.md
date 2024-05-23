@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ittoken.appos.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-06-03
+date: 2024-05-04
 signer: 
 reviewArchive: 
 twitter: 

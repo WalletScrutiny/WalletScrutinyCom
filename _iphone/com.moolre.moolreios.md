@@ -11,7 +11,7 @@ released: 2018-11-20
 updated: 2023-12-26
 version: 3.4.29
 stars: 2.9
-reviews: 24
+reviews: 26
 size: '71729152'
 website: https://moolre.com
 repository: 

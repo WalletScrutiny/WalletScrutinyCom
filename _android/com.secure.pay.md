@@ -9,7 +9,7 @@ appCountry:
 released: 2016-09-21
 updated: 2020-06-21
 version: '2.6'
-stars: 
+stars: 4.2
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.secure.pay.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-07-31
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: 

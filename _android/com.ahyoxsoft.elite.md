@@ -9,7 +9,7 @@ appCountry:
 released: 2020-06-15
 updated: 2020-08-06
 version: '1.0'
-stars: 
+stars: 4.4
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ahyoxsoft.elite.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-11-02
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

@@ -11,16 +11,16 @@ released: 2022-02-09
 updated: 2023-09-06
 version: 2.5.1
 stars: 4.4
-reviews: 7
+reviews: 9
 size: '52304896'
 website: https://frostwallet.cc
 repository: 
 issue: 
 icon: ru.trustpool.wallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2023-07-19
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

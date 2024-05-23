@@ -12,7 +12,7 @@ updated: 2023-05-30
 version: 5.7.8-play
 stars: 4.2
 ratings: 1346
-reviews: 84
+reviews: 85
 size: 
 website: https://www.dcoin.com
 repository: 

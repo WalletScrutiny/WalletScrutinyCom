@@ -5,12 +5,12 @@ altTitle:
 authors:
 - danny
 - leo
-users: 500000
+users: 1000000
 appId: com.crypto.exchange
 appCountry: nz
 released: 2021-05-26
-updated: 2023-12-28
-version: 2.26.0
+updated: 2024-05-07
+version: 2.35.1
 stars: 4.7
 ratings: 4430
 reviews: 11

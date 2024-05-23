@@ -3,13 +3,13 @@ wsId:
 title: Copaly -Trade BTC, USDT & USDC
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.rexsons.copaly_app
 appCountry: 
 released: 2022-07-25
-updated: 2023-12-16
+updated: 2024-03-30
 version: 3.0.1
-stars: 
+stars: 4.3
 ratings: 
 reviews: 
 size: 

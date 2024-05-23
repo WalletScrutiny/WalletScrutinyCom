@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.foxtrading.fox.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
-date: 2023-04-22
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: foxtradingauto

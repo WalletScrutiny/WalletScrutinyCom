@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.im.crypto.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-10-16
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

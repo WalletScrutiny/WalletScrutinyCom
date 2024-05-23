@@ -8,9 +8,9 @@ users: 10000
 appId: com.modu.jgzsj
 appCountry: 
 released: 2022-09-14
-updated: 2023-06-01
-version: 4.4.0-RELEASE
-stars: 
+updated: 2024-04-20
+version: 4.9.2-RELEASE
+stars: 4.1
 ratings: 
 reviews: 
 size: 

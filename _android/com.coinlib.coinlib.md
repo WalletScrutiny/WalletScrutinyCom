@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.coinlib.coinlib.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
-date: 2023-08-01
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: coinlibio

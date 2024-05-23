@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.coiny.pro.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-06-02
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

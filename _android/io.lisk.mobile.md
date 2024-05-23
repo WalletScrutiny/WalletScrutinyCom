@@ -11,9 +11,9 @@ appCountry:
 released: 2018-10-02
 updated: 2023-12-11
 version: 3.0.1
-stars: 4.2
+stars: 4.1
 ratings: 189
-reviews: 29
+reviews: 30
 size: 
 website: https://lisk.com/wallet
 repository: 
@@ -33,7 +33,7 @@ social:
 - https://t.me/Lisk_HQ
 - https://www.instagram.com/lisk_blockchain
 redirect_from: 
-developerName: Lisk Foundation
+developerName: Onchain Foundation
 features: 
 
 ---

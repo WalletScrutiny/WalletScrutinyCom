@@ -8,13 +8,13 @@ users: 1000000
 appId: com.royalqs.royalq
 appCountry: 
 released: 2021-03-19
-updated: 2023-11-23
-version: 5.2.0
-stars: 4.2
+updated: 2024-05-15
+version: 5.5.0
+stars: 4.1
 ratings: 
-reviews: 148
+reviews: 153
 size: 
-website: https://royalqs.com/
+website: https://www.royalqs.com/
 repository: 
 issue: 
 icon: com.royalqs.royalq.png

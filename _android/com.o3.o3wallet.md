@@ -10,7 +10,7 @@ appCountry: us
 released: 2020-08-27
 updated: 2023-05-18
 version: 3.4.1
-stars: 4.8
+stars: 4.9
 ratings: 474
 reviews: 13
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.o3.o3wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-09-30
+date: 2024-05-15
 signer: 
 reviewArchive: 
 twitter: O3_Labs

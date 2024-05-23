@@ -7,8 +7,8 @@ users: 100
 appId: com.earnbit.app.exchange
 appCountry: 
 released: 2022-10-30
-updated: 2023-11-16
-version: 1.0.3
+updated: 2024-05-13
+version: 1.0.6
 stars: 
 ratings: 
 reviews: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.c2c.B.V.Crypto2Cash.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosendreceive
-date: 2023-06-13
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: Crypto2CashHQ

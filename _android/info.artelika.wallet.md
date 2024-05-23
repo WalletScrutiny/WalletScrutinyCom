@@ -9,7 +9,7 @@ appCountry:
 released: 2022-02-07
 updated: 2023-07-10
 version: 1.0.7
-stars: 
+stars: 4.2
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: info.artelika.wallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-06-02
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

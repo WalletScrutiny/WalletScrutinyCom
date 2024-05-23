@@ -3,7 +3,7 @@ wsId:
 title: GOLDENGLORY
 altTitle: 
 authors: 
-users: 1
+users: 5
 appId: com.ggidream.app
 appCountry: 
 released: 2019-08-07
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ggidream.app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-06-03
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

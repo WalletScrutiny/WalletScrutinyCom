@@ -1,6 +1,6 @@
 ---
 wsId: bitpandaBitcoin
-title: 'Bitpanda: Buy Bitcoin securely'
+title: 'Bitpanda: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.bitpanda.bitpanda
 appCountry: 
 released: 2018-11-07
-updated: 2023-12-21
-version: 2.65.0
+updated: 2024-05-14
+version: 2.74.1
 stars: 3.5
 ratings: 
-reviews: 14
+reviews: 16
 size: 
 website: https://www.bitpanda.com
 repository: 

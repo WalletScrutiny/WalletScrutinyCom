@@ -12,9 +12,9 @@ appCountry:
 released: 2018-10-22
 updated: 2023-07-07
 version: 2.8.7
-stars: 3.2
+stars: 3.1
 ratings: 5049
-reviews: 209
+reviews: 210
 size: 
 website: https://www.pundix.com
 repository: 

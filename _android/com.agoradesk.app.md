@@ -8,11 +8,11 @@ users: 5000
 appId: com.agoradesk.app
 appCountry: 
 released: 2022-08-18
-updated: 2023-11-30
-version: 1.1.15
-stars: 4.3
+updated: 2024-05-08
+version: 1.1.38
+stars: 4.7
 ratings: 
-reviews: 7
+reviews: 10
 size: 
 website: https://agoradesk.com
 repository: https://github.com/AgoraDesk-LocalMonero/agoradesk-app-foss/releases

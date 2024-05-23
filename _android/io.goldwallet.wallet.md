@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.goldwallet.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-05-21
+date: 2024-05-11
 signer: 
 reviewArchive: 
 twitter: 

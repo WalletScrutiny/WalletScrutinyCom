@@ -4,15 +4,15 @@ title: 'TradeStation: Trade & Invest'
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.tradestation.MobileTrading
 appCountry: us
 released: 2013-09-09
-updated: 2023-09-14
-version: 5.1.4
-stars: 3.5
+updated: 2024-05-09
+version: 6.0.7
+stars: 3.6
 ratings: 4823
-reviews: 1886
+reviews: 1962
 size: 
 website: http://tradestation.com/contact-us/
 repository: 

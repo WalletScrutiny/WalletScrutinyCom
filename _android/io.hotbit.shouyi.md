@@ -10,18 +10,18 @@ appCountry:
 released: 2019-09-19
 updated: 2023-04-11
 version: 1.4.33
-stars: 3
+stars: 2.9
 ratings: 75096
-reviews: 1589
+reviews: 1604
 size: 
 website: https://www.hotbit.io/
 repository: 
 issue: 
 icon: io.hotbit.shouyi.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-08-27
+date: 2024-04-09
 signer: 
 reviewArchive: 
 twitter: Hotbit_news

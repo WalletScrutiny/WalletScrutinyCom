@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: mx.goi.goimwallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-07-17
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

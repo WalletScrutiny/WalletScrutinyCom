@@ -1,6 +1,6 @@
 ---
 wsId: swissQuoteAdvancedTrader
-title: 'Advanced Trader: Forex & CFDs'
+title: 'Swissquote CFXD: Forex & CFDs'
 altTitle: 
 authors:
 - danny
@@ -8,13 +8,13 @@ users: 10000
 appId: com.swissquote.mobiletrader.android.wl.acm
 appCountry: 
 released: 2012-11-01
-updated: 2023-12-13
-version: 3.4.1
-stars: 2.7
+updated: 2024-05-08
+version: 3.6.4
+stars: 3.7
 ratings: 
 reviews: 3
 size: 
-website: https://www.swissquote.com/forex/platforms/advanced-trader
+website: https://www.swissquote.com/private/trade/platforms/forex-cfds/cfxd
 repository: 
 issue: 
 icon: com.swissquote.mobiletrader.android.wl.acm.png

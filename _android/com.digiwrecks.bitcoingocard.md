@@ -9,7 +9,7 @@ appCountry:
 released: 2022-02-01
 updated: 2023-03-29
 version: 1.1.5
-stars: 
+stars: 5
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.digiwrecks.bitcoingocard.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-02
+date: 2024-03-23
 signer: 
 reviewArchive: 
 twitter: 

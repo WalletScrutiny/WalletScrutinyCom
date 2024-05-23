@@ -8,8 +8,8 @@ users: 10000
 appId: com.royalqpro
 appCountry: 
 released: 2022-02-22
-updated: 2023-02-27
-version: '2.7'
+updated: 2024-03-19
+version: '3.0'
 stars: 
 ratings: 
 reviews: 
@@ -21,7 +21,7 @@ icon: com.royalqpro.png
 bugbounty: 
 meta: ok
 verdict: nobtc
-date: 2023-07-28
+date: 2024-03-01
 signer: 
 reviewArchive: 
 twitter: 

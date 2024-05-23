@@ -4,15 +4,15 @@ title: Bitget - Buy & Sell Crypto
 altTitle: 
 authors:
 - danny
-users: 1000000
+users: 5000000
 appId: com.bitget.exchange
 appCountry: us
 released: 2020-04-03
-updated: 2024-01-01
-version: 2.20.5
-stars: 4.7
+updated: 2024-05-11
+version: 2.30.2
+stars: 4.5
 ratings: 5691
-reviews: 584
+reviews: 765
 size: 
 website: https://www.bitget.com/
 repository: 

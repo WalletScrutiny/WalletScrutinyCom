@@ -1,15 +1,16 @@
 ---
-wsId: 
+wsId: bitcoli
 title: BitcoLi Lightning wallet
 altTitle: 
-authors: 
-users: 500
+authors:
+- danny
+users: 1000
 appId: com.bitcoli.bitcoli
 appCountry: 
 released: 2023-01-13
-updated: 2023-12-11
-version: 1.0.11
-stars: 4
+updated: 2024-04-08
+version: 1.0.28
+stars: 4.2
 ratings: 
 reviews: 1
 size: 
@@ -19,8 +20,8 @@ issue:
 icon: com.bitcoli.bitcoli.jpg
 bugbounty: 
 meta: ok
-verdict: fewusers
-date: 2023-06-03
+verdict: custodial
+date: 2024-02-28
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,3 +32,23 @@ features:
 
 ---
 
+## App Description from Google Play 
+
+> The main advantages of this wallet include:
+> - custom Lightning address including user profile
+> - You can receive and send payment through both Onchain and Lightning Network.
+> - the issued invoice can be paid directly with a bitcoin NFC card!
+> - ability to send and receive Lightning payments with milliSatoshi accuracy (0.001Sat)
+> - very low fees
+> - simplicity and clarity
+
+## Analysis
+
+- Users are given several login options:
+  - No login (for testing)
+  - Email
+  - Username and password
+- If the user chooses to have an account, it would look something like
+`dannybuntu@bitcoli.com`
+- Users are primarily given a lightning address, but an onchain address is also available.
+- We did not find the private keys for the onchain wallet. Absent the private keys, this app is **custodial**.

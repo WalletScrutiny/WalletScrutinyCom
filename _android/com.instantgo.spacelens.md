@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.instantgo.spacelens.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nobtc
-date: 2023-08-14
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: thespacelens

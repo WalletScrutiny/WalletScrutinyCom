@@ -9,7 +9,7 @@ appCountry:
 released: 2019-01-12
 updated: 2021-07-05
 version: 1.0.7
-stars: 
+stars: 2.6
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: br.com.bloco1.app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-07-04
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

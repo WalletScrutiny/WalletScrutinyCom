@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.jp-ex.iosapp2.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-10-26
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

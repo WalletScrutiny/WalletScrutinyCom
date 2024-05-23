@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.paperbgs.app.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-01-27
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

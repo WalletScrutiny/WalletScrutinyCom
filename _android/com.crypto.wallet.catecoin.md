@@ -10,7 +10,7 @@ appCountry:
 released: 2022-04-16
 updated: 2023-07-01
 version: 2.1.0
-stars: 4.4
+stars: 4.3
 ratings: 
 reviews: 45
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.crypto.wallet.catecoin.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2023-04-21
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: catecoin

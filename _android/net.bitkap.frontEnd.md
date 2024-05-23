@@ -8,7 +8,7 @@ users: 10000
 appId: net.bitkap.frontEnd
 appCountry: 
 released: 2021-11-21
-updated: 2023-11-23
+updated: 2024-04-01
 version: 2.0.4
 stars: 3.6
 ratings: 
@@ -30,7 +30,7 @@ social:
 - https://www.facebook.com/BitkapAfrica
 - https://t.me/joinchat/UKx9cqSCN9LBbH34
 redirect_from: 
-developerName: limitless tech
+developerName: kaprox
 features: 
 
 ---

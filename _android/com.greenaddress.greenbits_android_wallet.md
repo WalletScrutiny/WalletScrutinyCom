@@ -8,11 +8,11 @@ users: 100000
 appId: com.greenaddress.greenbits_android_wallet
 appCountry: 
 released: 2015-01-01
-updated: 2023-12-26
-version: 4.0.22
+updated: 2024-05-15
+version: 4.0.25
 stars: 4.6
 ratings: 946
-reviews: 128
+reviews: 131
 size: 
 website: https://blockstream.com/green
 repository: https://github.com/Blockstream/green_android
@@ -20,10 +20,30 @@ issue: https://github.com/Blockstream/green_android/issues/189
 icon: com.greenaddress.greenbits_android_wallet.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
-date: 2024-01-01
+verdict: reproducible
+date: 2024-04-05
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 reviewArchive:
+- date: 2024-03-25
+  version: 4.0.26
+  appHash: 547801bc82299a63cbb6b61fb5946f258986f46d26c924b940f636e09b90eff4
+  gitRevision: dc63519510b21266fab8d3b3cb95a8267772db90
+  verdict: reproducible
+- date: 2024-02-09
+  version: 4.0.24
+  appHash: ac4c0bd144a6a461b86d0ddc1f881964a0d735095818231e0b4eebbfedae27b6
+  gitRevision: 668c0b5c594847155457efad9eb7d0bdc8a72af6
+  verdict: reproducible
+- date: 2024-01-20
+  version: 4.0.23
+  appHash: 847da5afc0b6342b8402e4d3e29f3b1402108b737b0a1a45875ba12a9c4dba58
+  gitRevision: 592263ccc8d4b25164d17c5e4bb26ef925dcf378
+  verdict: reproducible
+- date: 2024-01-01
+  version: 4.0.22
+  appHash: 2c15508e541eac79f8bd2fe98e015629b4b1f3e970c61a360a9ceabc788cd37f
+  gitRevision: 50dcb7b303ff69d126a1f0c8c5d8047e8d58fa7f
+  verdict: nonverifiable
 - date: 2023-11-26
   version: 4.0.20
   appHash: 12843c2f7714244eec94a885094ccab634f1561c1458ed3194c236ba1f1ab8ee
@@ -219,130 +239,23 @@ For that latest version, our {% include testScript.html %} returned this:
 ===== Begin Results =====
 appId:          com.greenaddress.greenbits_android_wallet
 signer:         32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
-apkVersionName: 4.0.22
-apkVersionCode: 22000422
-verdict:        
-appHash:        2c15508e541eac79f8bd2fe98e015629b4b1f3e970c61a360a9ceabc788cd37f
-commit:         2a8ecfae864cc848573760168d8eba1978331fb5
+apkVersionName: 4.0.27
+apkVersionCode: 22000427
+verdict:        reproducible
+appHash:        6efdb0f464be14daf376f9bb452d4c697235a96ef8a0b8640bb3876874cdbc04
+commit:         9bb27d81f4538b59f158f0ffd1fd5fbe5d5e45ca
 
 Diff:
-Files /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000422/assets/dexopt/baseline.prof and /tmp/fromBuild_com.greenaddress.greenbits_android_wallet_22000422/assets/dexopt/baseline.prof differ
-Files /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000422/classes3.dex and /tmp/fromBuild_com.greenaddress.greenbits_android_wallet_22000422/classes3.dex differ
-Files /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000422/classes4.dex and /tmp/fromBuild_com.greenaddress.greenbits_android_wallet_22000422/classes4.dex differ
-Files /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000422/classes.dex and /tmp/fromBuild_com.greenaddress.greenbits_android_wallet_22000422/classes.dex differ
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000422/META-INF: GREENADD.RSA
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000422/META-INF: GREENADD.SF
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000422/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000427/META-INF: GREENADD.RSA
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000427/META-INF: GREENADD.SF
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000427/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
-object 2a8ecfae864cc848573760168d8eba1978331fb5
+object 9bb27d81f4538b59f158f0ffd1fd5fbe5d5e45ca
 type commit
-tag release_4.0.22
-tagger Angelos Veglektsis <angelos@aveworks.com> 1703174369 +0200
+tag release_4.0.27
+tagger Angelos Veglektsis <angelos@aveworks.com> 1711646534 +0200
 ===== End Results =====
 ```
 
-Especially the diff in `classes*.dex` is concerning and more than the prior
-version's diff. The diffoscope output is also gigantic with hundreds of diffs
-like this one:
-
-```
-│ │ ├── com/blockstream/green/di/KoinKt.class
-│ │ │ ├── procyon -ec {}
-│ │ │ │ @@ -18,22 +18,22 @@
-│ │ │ │  
-│ │ │ │  public abstract class KoinKt
-│ │ │ │  {
-│ │ │ │      public static final void startKoin(final Context context) {
-│ │ │ │          Intrinsics.checkNotNullParameter((Object)context, "context");
-│ │ │ │          final String absolutePath = context.getFilesDir().getAbsolutePath();
-│ │ │ │          Intrinsics.checkNotNullExpressionValue((Object)absolutePath, "getAbsolutePath(...)");
-│ │ │ │ -        final String s = "MVowd1VIVVBaUWd1NDlYVW5YK1lvVllmY0RoR2pmdjJCR29zbDFtWG4zND0=";
-│ │ │ │ -        final String s2 = "LS0tLS1CRUdJTiBQUklWQVRFIEtFWS0tLS0tDQpNSUdIQWdFQU1CTUdCeXFHU000OUFnRUdDQ3FHU000OUF3RUhCRzB3YXdJQkFRUWc1dFAzL05mTld0R2h4ZTlyDQo1T1diQzU0OVNIeS93NFEvZG14bTVjWWZBQnFoUkFOQ0FBUTVXaC9seW1KSUprR0c2bFNJYlVDS01WZGZUbjE3DQp6TWZ2RkdBWlVNUHo5MzBnZE55c0doUkhod3dBdUJ1UWlGdExSaXRLZzlUNXp6MjRBTDlTVnBNeQ0KLS0tLS1FTkQgUFJJVkFURSBLRVktLS0tLQ==";
-│ │ │ │ -        final String s3 = "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tDQpNSUlDcGpDQ0FrMmdBd0lCQWdJVVRZTDd3R0RhMmtvaW91eUxmTzROaW9UNjRyMHdDZ1lJS29aSXpqMEVBd0l3DQpnWU14Q3pBSkJnTlZCQVlUQWxWVE1STXdFUVlEVlFRSUV3cERZV3hwWm05eWJtbGhNUll3RkFZRFZRUUhFdzFUDQpZVzRnUm5KaGJtTnBjMk52TVJRd0VnWURWUVFLRXd0Q2JHOWphM04wY21WaGJURWRNQnNHQTFVRUN4TVVRMlZ5DQpkR2xtYVdOaGRHVkJkWFJvYjNKcGRIa3hFakFRQmdOVkJBTVRDVWRNSUM5MWMyVnljekFlRncweU16QTBNRE13DQpPRE01TURCYUZ3MHpNekF6TXpFd09ETTVNREJhTUlHSk1Rc3dDUVlEVlFRR0V3SlZVekVUTUJFR0ExVUVDQk1LDQpRMkZzYVdadmNtNXBZVEVXTUJRR0ExVUVCeE1OVTJGdUlFWnlZVzVqYVhOamJ6RVVNQklHQTFVRUNoTUxRbXh2DQpZMnR6ZEhKbFlXMHhIVEFiQmdOVkJBc1RGRU5sY25ScFptbGpZWFJsUVhWMGFHOXlhWFI1TVJnd0ZnWURWUVFEDQpFdzlIVENBdmRYTmxjbk12WjNKbFpXNHdXVEFUQmdjcWhrak9QUUlCQmdncWhrak9QUU1CQndOQ0FBUTVXaC9sDQp5bUpJSmtHRzZsU0liVUNLTVZkZlRuMTd6TWZ2RkdBWlVNUHo5MzBnZE55c0doUkhod3dBdUJ1UWlGdExSaXRLDQpnOVQ1enoyNEFMOVNWcE15bzRHV01JR1RNQTRHQTFVZER3RUIvd1FFQXdJQnBqQWRCZ05WSFNVRUZqQVVCZ2dyDQpCZ0VGQlFjREFRWUlLd1lCQlFVSEF3SXdEQVlEVlIwVEFRSC9CQUl3QURBZEJnTlZIUTRFRmdRVVVQZDV4aVdWDQpzVTZsd3RqbVZUbDh4aVFxUmNrd0h3WURWUjBqQkJnd0ZvQVVUUTczRjFNTWJwT2l4QnRkUG9vUEpnYkRKWlF3DQpGQVlEVlIwUkJBMHdDNElKYkc5allXeG9iM04wTUFvR0NDcUdTTTQ5QkFNQ0EwY0FNRVFDSUhLQTRzRHZwMjRIDQo3QjBOZTl0OEc1d1lyQnBuQms2WFBiMWFzNG40TW5xUUFpQXJRcmFRSUc1U2pVR3lSUkpBRis2Z1JtN01IajFRDQo4M2FFbWNGVy9KNld6QT09DQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tDQotLS0tLUJFR0lOIENFUlRJRklDQVRFLS0tLS0NCk1JSUNpakNDQWpHZ0F3SUJBZ0lVSjA2c3lZQjFUUFJiU21URDRVQ3BUMFBtQStVd0NnWUlLb1pJemowRUF3SXcNCmZqRUxNQWtHQTFVRUJoTUNWVk14RXpBUkJnTlZCQWdUQ2tOaGJHbG1iM0p1YVdFeEZqQVVCZ05WQkFjVERWTmgNCmJpQkdjbUZ1WTJselkyOHhGREFTQmdOVkJBb1RDMEpzYjJOcmMzUnlaV0Z0TVIwd0d3WURWUVFMRXhSRFpYSjANCmFXWnBZMkYwWlVGMWRHaHZjbWwwZVRFTk1Bc0dBMVVFQXhNRVIwd2dMekFlRncweU1UQTBNall4TnpFME1EQmENCkZ3MHpNVEEwTWpReE56RTBNREJhTUlHRE1Rc3dDUVlEVlFRR0V3SlZVekVUTUJFR0ExVUVDQk1LUTJGc2FXWnYNCmNtNXBZVEVXTUJRR0ExVUVCeE1OVTJGdUlFWnlZVzVqYVhOamJ6RVVNQklHQTFVRUNoTUxRbXh2WTJ0emRISmwNCllXMHhIVEFiQmdOVkJBc1RGRU5sY25ScFptbGpZWFJsUVhWMGFHOXlhWFI1TVJJd0VBWURWUVFERXdsSFRDQXYNCmRYTmxjbk13V1RBVEJnY3Foa2pPUFFJQkJnZ3Foa2pPUFFNQkJ3TkNBQVRXbE5pKzlQOFpkUmZhUDFWT09NYjkNCmUrVlN1Z0R4d3ZONDFaVGRxNWFRMXlUWEh4MmZjTXlvd29EYVNDQmc0NHJ6UEovVERPcklIMldXV0NhSG1IZ1QNCm80R0dNSUdETUE0R0ExVWREd0VCL3dRRUF3SUJwakFkQmdOVkhTVUVGakFVQmdnckJnRUZCUWNEQVFZSUt3WUINCkJRVUhBd0l3RWdZRFZSMFRBUUgvQkFnd0JnRUIvd0lCQXpBZEJnTlZIUTRFRmdRVVRRNzNGMU1NYnBPaXhCdGQNClBvb1BKZ2JESlpRd0h3WURWUjBqQkJnd0ZvQVV6cUZyNmp2bHgzYmxadFlhcGNaSFZZcE9LU013Q2dZSUtvWkkNCnpqMEVBd0lEUndBd1JBSWdKdmdKOGVoS3gwVmVuTXlVVC9NUlhsbUNsQVJjMU5wMzkvRmJwNEdJYmQ4Q0lHaGsNCk1LVmNEQTVpdVFaN3hoWlUxUzhQT2gxTDl1VDM1VWtFNyt4bUdOanINCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0NCi0tLS0tQkVHSU4gQ0VSVElGSUNBVEUtLS0tLQ0KTUlJQ1lqQ0NBZ2lnQXdJQkFnSVVERXcyb3NOQnIrSDFvNFdDdlBTUklqTnpVelF3Q2dZSUtvWkl6ajBFQXdJdw0KZmpFTE1Ba0dBMVVFQmhNQ1ZWTXhFekFSQmdOVkJBZ1RDa05oYkdsbWIzSnVhV0V4RmpBVUJnTlZCQWNURFZOaA0KYmlCR2NtRnVZMmx6WTI4eEZEQVNCZ05WQkFvVEMwSnNiMk5yYzNSeVpXRnRNUjB3R3dZRFZRUUxFeFJEWlhKMA0KYVdacFkyRjBaVUYxZEdodmNtbDBlVEVOTUFzR0ExVUVBeE1FUjB3Z0x6QWVGdzB5TVRBME1qWXhOekUwTURCYQ0KRncwek1UQTBNalF4TnpFME1EQmFNSDR4Q3pBSkJnTlZCQVlUQWxWVE1STXdFUVlEVlFRSUV3cERZV3hwWm05eQ0KYm1saE1SWXdGQVlEVlFRSEV3MVRZVzRnUm5KaGJtTnBjMk52TVJRd0VnWURWUVFLRXd0Q2JHOWphM04wY21WaA0KYlRFZE1Cc0dBMVVFQ3hNVVEyVnlkR2xtYVdOaGRHVkJkWFJvYjNKcGRIa3hEVEFMQmdOVkJBTVRCRWRNSUM4dw0KV1RBVEJnY3Foa2pPUFFJQkJnZ3Foa2pPUFFNQkJ3TkNBQVRwODNrNFNxUTVnZUdScElwRHVVMjB2clp6OHFKOA0KZUJEWWJXM25JbEM4VU0vUHpWQlNOQS9NcVdsQWFtQjNZR0srVmxnc0VNYmVPVVdFTTRjOXp0VmxvMlF3WWpBTw0KQmdOVkhROEJBZjhFQkFNQ0FhWXdIUVlEVlIwbEJCWXdGQVlJS3dZQkJRVUhBd0VHQ0NzR0FRVUZCd01DTUJJRw0KQTFVZEV3RUIvd1FJTUFZQkFmOENBUU13SFFZRFZSME9CQllFRk02aGErbzc1Y2QyNVdiV0dxWEdSMVdLVGlrag0KTUFvR0NDcUdTTTQ5QkFNQ0EwZ0FNRVVDSUdCa2p5cDFOZC9tL2IzakVBVW14QWlzcUNhaHVRVVB1eVFySXdvMA0KWkYvOUFpRUFzWjhxWmZrVVpIMllhN3k2Y2NGVERwcy9haHNGV1NyUmFvOHJ1M3loaHJzPQ0KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQ==";
-│ │ │ │ +        final String s = "";
-│ │ │ │ +        final String s2 = "";
-│ │ │ │ +        final String s3 = "";
-│ │ │ │          final boolean boolean1 = context.getResources().getBoolean(R$bool.feature_analytics);
-│ │ │ │          final boolean boolean2 = context.getResources().getBoolean(R$bool.feature_lightning);
-│ │ │ │          final int n = 1;
-│ │ │ │          int n2;
-│ │ │ │ -        if (boolean2 && ((StringsKt.isBlank((CharSequence)"MVowd1VIVVBaUWd1NDlYVW5YK1lvVllmY0RoR2pmdjJCR29zbDFtWG4zND0=") ? 1 : 0) ^ n)) {
-│ │ │ │ +        if (boolean2 && ((StringsKt.isBlank((CharSequence)"") ? 1 : 0) ^ n)) {
-```
-
-`s3` appears to be multiple certificates base64 encoded:
-
-```
------BEGIN CERTIFICATE-----
-MIICpjCCAk2gAwIBAgIUTYL7wGDa2koiouyLfO4NioT64r0wCgYIKoZIzj0EAwIw
-gYMxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9ybmlhMRYwFAYDVQQHEw1T
-YW4gRnJhbmNpc2NvMRQwEgYDVQQKEwtCbG9ja3N0cmVhbTEdMBsGA1UECxMUQ2Vy
-dGlmaWNhdGVBdXRob3JpdHkxEjAQBgNVBAMTCUdMIC91c2VyczAeFw0yMzA0MDMw
-ODM5MDBaFw0zMzAzMzEwODM5MDBaMIGJMQswCQYDVQQGEwJVUzETMBEGA1UECBMK
-Q2FsaWZvcm5pYTEWMBQGA1UEBxMNU2FuIEZyYW5jaXNjbzEUMBIGA1UEChMLQmxv
-Y2tzdHJlYW0xHTAbBgNVBAsTFENlcnRpZmljYXRlQXV0aG9yaXR5MRgwFgYDVQQD
-Ew9HTCAvdXNlcnMvZ3JlZW4wWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAQ5Wh/l
-ymJIJkGG6lSIbUCKMVdfTn17zMfvFGAZUMPz930gdNysGhRHhwwAuBuQiFtLRitK
-g9T5zz24AL9SVpMyo4GWMIGTMA4GA1UdDwEB/wQEAwIBpjAdBgNVHSUEFjAUBggr
-BgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUUPd5xiWV
-sU6lwtjmVTl8xiQqRckwHwYDVR0jBBgwFoAUTQ73F1MMbpOixBtdPooPJgbDJZQw
-FAYDVR0RBA0wC4IJbG9jYWxob3N0MAoGCCqGSM49BAMCA0cAMEQCIHKA4sDvp24H
-7B0Ne9t8G5wYrBpnBk6XPb1as4n4MnqQAiArQraQIG5SjUGyRRJAF+6gRm7MHj1Q
-83aEmcFW/J6WzA==
------END CERTIFICATE-----
------BEGIN CERTIFICATE-----
-MIICijCCAjGgAwIBAgIUJ06syYB1TPRbSmTD4UCpT0PmA+UwCgYIKoZIzj0EAwIw
-fjELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNh
-biBGcmFuY2lzY28xFDASBgNVBAoTC0Jsb2Nrc3RyZWFtMR0wGwYDVQQLExRDZXJ0
-aWZpY2F0ZUF1dGhvcml0eTENMAsGA1UEAxMER0wgLzAeFw0yMTA0MjYxNzE0MDBa
-Fw0zMTA0MjQxNzE0MDBaMIGDMQswCQYDVQQGEwJVUzETMBEGA1UECBMKQ2FsaWZv
-cm5pYTEWMBQGA1UEBxMNU2FuIEZyYW5jaXNjbzEUMBIGA1UEChMLQmxvY2tzdHJl
-YW0xHTAbBgNVBAsTFENlcnRpZmljYXRlQXV0aG9yaXR5MRIwEAYDVQQDEwlHTCAv
-dXNlcnMwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAATWlNi+9P8ZdRfaP1VOOMb9
-e+VSugDxwvN41ZTdq5aQ1yTXHx2fcMyowoDaSCBg44rzPJ/TDOrIH2WWWCaHmHgT
-o4GGMIGDMA4GA1UdDwEB/wQEAwIBpjAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYB
-BQUHAwIwEgYDVR0TAQH/BAgwBgEB/wIBAzAdBgNVHQ4EFgQUTQ73F1MMbpOixBtd
-PooPJgbDJZQwHwYDVR0jBBgwFoAUzqFr6jvlx3blZtYapcZHVYpOKSMwCgYIKoZI
-zj0EAwIDRwAwRAIgJvgJ8ehKx0VenMyUT/MRXlmClARc1Np39/Fbp4GIbd8CIGhk
-MKVcDA5iuQZ7xhZU1S8POh1L9uT35UkE7+xmGNjr
------END CERTIFICATE-----
------BEGIN CERTIFICATE-----
-MIICYjCCAgigAwIBAgIUDEw2osNBr+H1o4WCvPSRIjNzUzQwCgYIKoZIzj0EAwIw
-fjELMAkGA1UEBhMCVVMxEzARBgNVBAgTCkNhbGlmb3JuaWExFjAUBgNVBAcTDVNh
-biBGcmFuY2lzY28xFDASBgNVBAoTC0Jsb2Nrc3RyZWFtMR0wGwYDVQQLExRDZXJ0
-aWZpY2F0ZUF1dGhvcml0eTENMAsGA1UEAxMER0wgLzAeFw0yMTA0MjYxNzE0MDBa
-Fw0zMTA0MjQxNzE0MDBaMH4xCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpDYWxpZm9y
-bmlhMRYwFAYDVQQHEw1TYW4gRnJhbmNpc2NvMRQwEgYDVQQKEwtCbG9ja3N0cmVh
-bTEdMBsGA1UECxMUQ2VydGlmaWNhdGVBdXRob3JpdHkxDTALBgNVBAMTBEdMIC8w
-WTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAATp83k4SqQ5geGRpIpDuU20vrZz8qJ8
-eBDYbW3nIlC8UM/PzVBSNA/MqWlAamB3YGK+VlgsEMbeOUWEM4c9ztVlo2QwYjAO
-BgNVHQ8BAf8EBAMCAaYwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMBIG
-A1UdEwEB/wQIMAYBAf8CAQMwHQYDVR0OBBYEFM6ha+o75cd25WbWGqXGR1WKTikj
-MAoGCCqGSM49BAMCA0gAMEUCIGBkjyp1Nd/m/b3jEAUmxAisqCahuQUPuyQrIwo0
-ZF/9AiEAsZ8qZfkUZH2Ya7y6ccFTDps/ahsFWSrRao8ru3yhhrs=
------END CERTIFICATE-----
-```
-
-but tens of thousands of lines like these:
-
-```
-│ │ -3448f8:                                        |[3448f8] androidx.navigation.fragment.NavHostFragment.onViewCreated:(Landroid/view/View;Landroid/os/Bundle;)V
-│ │ -344908: 1a00 befd                              |0000: const-string v0, "view" // string@fdbe
-│ │ -34490c: 7120 74fc 0200                         |0002: invoke-static {v2, v0}, Lkotlin/jvm/internal/Intrinsics;.checkNotNullParameter:(Ljava/lang/Object;Ljava/lang/String;)V // method@fc74
-│ │ -344912: 6f30 a472 2103                         |0005: invoke-super {v1, v2, v3}, Landroidx/fragment/app/Fragment;.onViewCreated:(Landroid/view/View;Landroid/os/Bundle;)V // method@72a4
-│ │ -344918: 2023 e801                              |0008: instance-of v3, v2, Landroid/view/ViewGroup; // type@01e8
-│ │ -34491c: 3803 3600                              |000a: if-eqz v3, 0040 // +0036
-│ │ +3448e8:                                        |[3448e8] androidx.navigation.fragment.NavHostFragment.onViewCreated:(Landroid/view/View;Landroid/os/Bundle;)V
-│ │ +3448f8: 1a00 bafd                              |0000: const-string v0, "view" // string@fdba
-│ │ +3448fc: 7120 74fc 0200                         |0002: invoke-static {v2, v0}, Lkotlin/jvm/internal/Intrinsics;.checkNotNullParameter:(Ljava/lang/Object;Ljava/lang/String;)V // method@fc74
-│ │ +344902: 6f30 a472 2103                         |0005: invoke-super {v1, v2, v3}, Landroidx/fragment/app/Fragment;.onViewCreated:(Landroid/view/View;Landroid/os/Bundle;)V // method@72a4
-│ │ +344908: 2023 e801                              |0008: instance-of v3, v2, Landroid/view/ViewGroup; // type@01e8
-│ │ +34490c: 3803 3600                              |000a: if-eqz v3, 0040 // +0036
-```
-
-are a bit harder to make sense of. Yeah, they look sort of benign - like code
-that ended up on different lines - but it's tens
-of thousands and others might look less benign upon closer inspection.
-
-This product is **not verifiable**.
+This version of {{ page.title }} is **reproducible**.

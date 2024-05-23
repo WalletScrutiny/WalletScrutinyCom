@@ -13,7 +13,7 @@ updated: 2023-11-27
 version: 4.0.0
 stars: 4
 ratings: 2220
-reviews: 218
+reviews: 217
 size: 
 website: https://decrypt.co/
 repository: 

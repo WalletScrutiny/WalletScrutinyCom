@@ -11,7 +11,7 @@ released: 2022-02-25
 updated: 2023-11-12
 version: 1.4.7
 stars: 4.8
-reviews: 20
+reviews: 21
 size: '70756352'
 website: https://dyorex.com/
 repository: 

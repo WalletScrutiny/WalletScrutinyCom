@@ -10,7 +10,7 @@ appCountry: in
 released: 2020-01-02
 updated: 2021-10-28
 version: '1.21'
-stars: 4.8
+stars: 4.7
 ratings: 491
 reviews: 13
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.BizzCoin.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
-date: 2023-10-22
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: bizz_coin

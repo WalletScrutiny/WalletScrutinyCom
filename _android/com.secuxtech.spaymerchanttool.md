@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.secuxtech.spaymerchanttool.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-01-10
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: 

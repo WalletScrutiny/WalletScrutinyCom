@@ -9,19 +9,19 @@ appId: com.xcoex.mobile
 appCountry: 
 idd: 1447945810
 released: 2019-01-21
-updated: 2023-11-13
-version: 1.34.0
+updated: 2024-01-11
+version: 1.37.0
 stars: 0
 reviews: 0
-size: '69932032'
+size: '61948928'
 website: https://xcoex.com/
 repository: 
 issue: 
 icon: com.xcoex.mobile.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-10-03
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: OfficialXcoex

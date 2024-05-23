@@ -9,10 +9,10 @@ appId: com.mycelium.wallet
 appCountry: 
 released: 2013-07-01
 updated: 2023-12-26
-version: 3.16.1.0
+version: 3.16.2.0
 stars: 3.7
 ratings: 11650
-reviews: 1151
+reviews: 1158
 size: 
 website: https://wallet.mycelium.com
 repository: https://github.com/mycelium-com/wallet-android
@@ -20,8 +20,8 @@ issue:
 icon: com.mycelium.wallet.jpg
 bugbounty: 
 meta: ok
-verdict: nosource
-date: 2023-12-30
+verdict: reproducible
+date: 2024-01-22
 signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
 reviewArchive:
 - date: 2023-09-24
@@ -247,15 +247,39 @@ features:
 Here we test if the latest version can be reproduced, following the known
 procedure expressed in our {% include testScript.html %}:
 
-It ended with:
-
 ```
-fatal: Remote branch v3.16.2.0 not found in upstream origin
+===== Begin Results =====
+appId:          com.mycelium.wallet
+signer:         b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
+apkVersionName: 3.16.2.0
+apkVersionCode: 3160200
+verdict:        reproducible
+appHash:        14da64f846aa54d80deccb30cf09f3193c86e4e9e8962beb2e03547bbca392f3
+commit:         c2476d95257924b4f2fdd8f25ca2d97e210950e9
+
+Diff:
+Files /tmp/fromPlay_com.mycelium.wallet_3160200/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3160200/META-INF/CERT.RSA differ
+Files /tmp/fromPlay_com.mycelium.wallet_3160200/META-INF/CERT.SF and /tmp/fromBuild_com.mycelium.wallet_3160200/META-INF/CERT.SF differ
+
+Revision, tag (and its signature):
+object c2476d95257924b4f2fdd8f25ca2d97e210950e9
+type commit
+tag v3.16.2.0
+tagger AlexanderPavlenko <AlexanderPavlenko@users.noreply.github.com> 1704627896 +0400
+
+Mycelium Bitcoin Wallet v3.16.2.0
+
+0bb6689d5452274c77bbe0ecd5e43cac5c7a5613f9391f7f3b7d2d1108a9a6dd71fb355442264283133db6a7f7a213f354f7d205fe720d31fcce44358d8da181  prodnet/release/mbw-prodnet-release.apk
+040bd3ea260a4e10a3106a578c39ce2acbfa4e21f8c13e16cccdb206f080dc31640338ecd01501365de24a8e5b8e9446bcabb78535032836b3954c3a3da45cf5  btctestnet/release/mbw-btctestnet-release.apk
+ceabe3cdab94db423538ea92f3906a11d5a8acd2ed327c6f1474443f2bd3401c711f1a77902166befff8ef5408d3f654df864ebaf12d650bdc16ae590da69789  prodnet/debug/mbw-prodnet-debug.apk
+bd5483140ba50fb54cde81a2202ba0bb6d646a4fdaf36e1b6f2e1ce15454cbde8598bb488d3cc7268d79dbfafca1bb1785dc0e35ffd7f60a79a09a0e5c9c2383  btctestnet/debug/mbw-btctestnet-debug.apk
+===== End Results =====
 ```
 
-Sadly this is not only a forgotten tag.
-[The repository](https://github.com/mycelium-com/wallet-android)
-was not updated since 2023-06-08 yet the latest release was 2023-12-26. This
-product is currently **not verifiable**.
+This version is **reproducible**.
+
+A recording of the test:
+
+{% include asciicast %}
 
 **Disclaimer**: Authors of this project have contributed to Mycelium.

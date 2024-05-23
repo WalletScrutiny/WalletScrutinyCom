@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: it.casatta.testnet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-07-28
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

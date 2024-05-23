@@ -19,9 +19,9 @@ repository: https://github.com/btcontract/lnwallet
 issue: https://github.com/btcontract/lnwallet/issues/20
 icon: com.lightning.walletapp.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
-date: 2023-09-22
+date: 2024-04-19
 signer: 
 reviewArchive:
 - date: 2021-08-21

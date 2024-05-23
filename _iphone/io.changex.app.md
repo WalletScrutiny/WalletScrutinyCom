@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.changex.app.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2023-07-11
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: ChangeXapp

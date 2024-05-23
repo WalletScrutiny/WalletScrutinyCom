@@ -1,6 +1,6 @@
 ---
 wsId: tapngo
-title: Tap - Buy Bitcoin & Ether
+title: Tap - Mobile Finance
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.TapGlobal.tap
 appCountry: gb
 idd: 1492263993
 released: 2019-12-20
-updated: 2023-12-11
-version: 3.1.0
+updated: 2024-05-02
+version: 3.2.2
 stars: 4.6
-reviews: 1574
-size: '138034176'
+reviews: 1674
+size: '143819776'
 website: https://www.withtap.com
 repository: 
 issue: 

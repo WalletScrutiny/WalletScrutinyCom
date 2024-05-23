@@ -12,16 +12,16 @@ updated: 2023-09-29
 version: 2.4.7
 stars: 3.7
 ratings: 400
-reviews: 278
+reviews: 276
 size: 
 website: https://www.bytesmix.com
 repository: 
 issue: 
 icon: com.bytesmix.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-09-30
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: bytesmix

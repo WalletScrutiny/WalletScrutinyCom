@@ -4,13 +4,13 @@ title: icewal
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.icecorp.wallet
 appCountry: 
 released: 2022-08-24
-updated: 2023-08-18
-version: '2.1'
-stars: 
+updated: 2024-04-19
+version: '2.2'
+stars: 3.6
 ratings: 
 reviews: 
 size: 

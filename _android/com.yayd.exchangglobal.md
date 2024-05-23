@@ -10,18 +10,18 @@ appCountry:
 released: 2022-03-15
 updated: 2023-05-23
 version: 7.30.2
-stars: 3.1
+stars: 2.9
 ratings: 
-reviews: 48
+reviews: 49
 size: 
 website: 
 repository: 
 issue: 
 icon: com.yayd.exchangglobal.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-06-14
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: 

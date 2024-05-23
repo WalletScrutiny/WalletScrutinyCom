@@ -12,16 +12,16 @@ updated: 2022-04-10
 version: 0.3.7
 stars: 4.6
 ratings: 
-reviews: 15
+reviews: 14
 size: 
 website: https://wallet-markets.web.app
 repository: 
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/494
 icon: com.bitcoin.bankwallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2023-07-31
+date: 2024-03-30
 signer: 
 reviewArchive: 
 twitter: 

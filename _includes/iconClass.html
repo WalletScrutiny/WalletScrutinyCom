@@ -14,6 +14,8 @@
 {% assign iconClass = "i-btc" %}
 {% when "windows" %}
 {% assign iconClass = "fab fa-windows" %}
+{% when "desktop" %}
+{% assign iconClass = "fas fa-desktop" %}
 {% endcase %}
 {% else %}
 {% case platform %}
@@ -29,5 +31,7 @@
 {% assign iconClass = "i-device" %}
 {% when "windows" %}
 {% assign iconClass = "fab fa-windows" %}
+{% when "desktop" %}
+{% assign iconClass = "fas fa-desktop" %}
 {% endcase %}
 {% endif %}

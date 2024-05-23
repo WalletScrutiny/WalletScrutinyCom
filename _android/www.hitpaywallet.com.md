@@ -9,7 +9,7 @@ appCountry:
 released: 2019-12-21
 updated: 2020-01-27
 version: '1.17'
-stars: 
+stars: 4.9
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: www.hitpaywallet.com.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2022-06-23
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: 

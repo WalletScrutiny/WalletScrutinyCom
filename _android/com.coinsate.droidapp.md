@@ -9,7 +9,7 @@ appCountry:
 released: 2022-05-13
 updated: 2023-08-16
 version: 1.4.5
-stars: 
+stars: 5
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.coinsate.droidapp.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-06-03
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

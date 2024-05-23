@@ -9,7 +9,7 @@ appCountry:
 released: 2020-06-25
 updated: 2020-08-07
 version: 1.0.0
-stars: 
+stars: 5
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.lbc.app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-11-02
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: 

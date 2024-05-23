@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: store.bit.global.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nobtc
-date: 2023-09-17
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: www_bit_store

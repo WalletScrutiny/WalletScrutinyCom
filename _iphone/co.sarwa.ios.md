@@ -1,6 +1,6 @@
 ---
 wsId: sarwaApp
-title: 'Sarwa: Investing made easy'
+title: 'Sarwa: Invest, Trade & Save'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: co.sarwa.ios
 appCountry: us
 idd: '1554353496'
 released: 2021-04-12
-updated: 2023-08-23
-version: 5.0.0
+updated: 2024-03-27
+version: 5.3.1
 stars: 4.2
 reviews: 44
-size: '64376832'
+size: '79252480'
 website: https://www.sarwa.co/blog
 repository: 
 issue: 

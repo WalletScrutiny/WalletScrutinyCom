@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.wisebitcoin.broker.iostest.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2023-11-25
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: wisebitcoin

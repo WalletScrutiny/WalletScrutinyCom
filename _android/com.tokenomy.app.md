@@ -10,7 +10,7 @@ appCountry:
 released: 2021-07-09
 updated: 2023-09-27
 version: 2.15.1
-stars: 
+stars: 3.5
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.tokenomy.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-06-29
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: tokenomy

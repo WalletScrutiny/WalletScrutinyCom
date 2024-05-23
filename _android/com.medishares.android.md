@@ -33,6 +33,8 @@ features:
 
 ---
 
+**Update 2024-01-05**: This app has been removed from the Play Store. It has been replaced by {% include walletLink.html wallet='android/com.mathwallet.android' verdict='true' %}.
+
 **Update 2022-01-05**: It is available again.
 
 > *Last update*: 2022-01-04<br>

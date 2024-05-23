@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: co.bandicoot.ztrader.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
-date: 2023-02-03
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: 

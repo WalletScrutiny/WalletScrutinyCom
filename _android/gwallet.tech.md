@@ -10,7 +10,7 @@ appCountry: be
 released: 2021-02-16
 updated: 2023-03-07
 version: 1.2.6
-stars: 
+stars: 4.9
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: gwallet.tech.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-11-10
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: 

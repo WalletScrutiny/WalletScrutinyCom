@@ -4,13 +4,13 @@ title: Tarmex
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.tarmex.tarmex
 appCountry: 
 released: 2022-12-22
 updated: 2023-11-09
 version: '1.1'
-stars: 
+stars: 3.2
 ratings: 
 reviews: 
 size: 

@@ -20,9 +20,9 @@ repository: https://github.com/inbitcoin/altana-android
 issue: https://github.com/inbitcoin/altana-android/issues/5
 icon: it.inbitcoin.altana.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-02-20
+date: 2024-04-13
 signer: 
 reviewArchive: 
 twitter: 

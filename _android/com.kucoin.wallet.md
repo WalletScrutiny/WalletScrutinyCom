@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Halo: Web3 Social Wallet'
+title: 'Halo: Web3 Social App'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: com.kucoin.wallet
 appCountry: 
 released: 2022-05-31
-updated: 2023-12-26
-version: 3.0.1
-stars: 4.3
+updated: 2024-05-16
+version: 3.9.5
+stars: 4.4
 ratings: 
-reviews: 61
+reviews: 80
 size: 
 website: https://kuwallet.com
 repository: 

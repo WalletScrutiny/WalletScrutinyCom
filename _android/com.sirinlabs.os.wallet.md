@@ -4,7 +4,7 @@ title: FINNEY Wallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.sirinlabs.os.wallet
 appCountry: 
 released: 2019-01-13
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.sirinlabs.os.wallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-06-02
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,6 +1,6 @@
 ---
 wsId: imToken
-title: 'imToken: Crypto & DeFi Wallet'
+title: 'imToken: BTC & ETH Wallet'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 1000000
 appId: im.token.app
 appCountry: 
 released: 2018-05-31
-updated: 2023-12-13
-version: 2.14.1
-stars: 4.4
+updated: 2024-04-20
+version: 2.15.1
+stars: 4.3
 ratings: 4350
-reviews: 225
+reviews: 229
 size: 
 website: https://token.im
 repository: 

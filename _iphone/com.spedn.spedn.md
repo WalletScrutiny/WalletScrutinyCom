@@ -11,7 +11,7 @@ released: 2019-05-13
 updated: 2023-11-22
 version: 23.11.1
 stars: 4.6
-reviews: 67
+reviews: 79
 size: '27427840'
 website: https://spedn.io
 repository: 
@@ -27,7 +27,7 @@ twitter: FlexaHQ
 social:
 - https://www.facebook.com/flexa
 features: 
-developerName: Flexa Network Inc.
+developerName: Flexa Inc.
 
 ---
 

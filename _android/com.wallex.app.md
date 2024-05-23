@@ -7,8 +7,8 @@ users: 100
 appId: com.wallex.app
 appCountry: 
 released: 2022-05-13
-updated: 2023-05-16
-version: 2.0.02
+updated: 2024-04-23
+version: 2.6.00-prod
 stars: 
 ratings: 
 reviews: 

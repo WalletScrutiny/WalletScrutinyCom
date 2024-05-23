@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.exchange.coinbims.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2021-08-29
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

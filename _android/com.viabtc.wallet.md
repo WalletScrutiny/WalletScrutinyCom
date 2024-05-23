@@ -1,18 +1,18 @@
 ---
 wsId: ViaWallet
-title: 'ViaWallet: Multi-crypto wallet'
+title: CoinEx Wallet - Crypto & DeFi
 altTitle: 
 authors:
 - leo
-users: 50000
+users: 100000
 appId: com.viabtc.wallet
 appCountry: 
 released: 2019-05-15
-updated: 2023-12-01
-version: 3.14.1
+updated: 2024-05-13
+version: 4.3.0
 stars: 4.1
 ratings: 621
-reviews: 48
+reviews: 51
 size: 
 website: https://viawallet.com
 repository: 

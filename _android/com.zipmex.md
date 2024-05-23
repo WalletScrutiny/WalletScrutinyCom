@@ -12,16 +12,16 @@ updated: 2022-07-20
 version: 22.7.3.644
 stars: 3.6
 ratings: 17923
-reviews: 11600
+reviews: 11575
 size: 
 website: https://zipmex.co.th/
 repository: 
 issue: 
 icon: com.zipmex.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2023-07-17
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: ZipmexTH

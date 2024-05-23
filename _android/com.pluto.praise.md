@@ -9,7 +9,7 @@ appCountry:
 released: 2021-06-23
 updated: 2021-07-01
 version: '1.4'
-stars: 
+stars: 4.7
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.pluto.praise.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-06-22
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

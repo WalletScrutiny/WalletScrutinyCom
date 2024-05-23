@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.wB4UGLOBAL_1.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-04-06
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

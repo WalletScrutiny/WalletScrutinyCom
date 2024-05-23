@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.exnomy.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-09-11
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: 

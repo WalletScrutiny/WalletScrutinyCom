@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: kr.co.coin5.bc.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-06-02
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

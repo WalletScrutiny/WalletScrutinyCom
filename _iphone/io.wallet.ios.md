@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.wallet.ios.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
-date: 2023-11-25
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: io_wallet

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.tradedigitals.swiftxchange.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-09-08
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

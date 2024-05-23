@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.clic.bobmint.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-09-10
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

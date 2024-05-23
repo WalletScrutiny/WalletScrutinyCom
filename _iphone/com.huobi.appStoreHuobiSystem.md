@@ -8,19 +8,19 @@ appId: com.huobi.appStoreHuobiSystem
 appCountry: 
 idd: 1023263342
 released: 2015-08-19
-updated: 2023-12-27
-version: 10.15.0
+updated: 2024-03-07
+version: 10.20.0
 stars: 3.9
-reviews: 1241
-size: '261679104'
-website: https://www.huobi.com
+reviews: 1274
+size: '261630976'
+website: https://www.htx.com
 repository: 
 issue: 
 icon: com.huobi.appStoreHuobiSystem.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-05-14
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: HuobiGlobal

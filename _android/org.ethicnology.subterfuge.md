@@ -3,7 +3,7 @@ wsId:
 title: subterfuge
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: org.ethicnology.subterfuge
 appCountry: 
 released: 2022-09-11
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.ethicnology.subterfuge.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-09-06
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: 

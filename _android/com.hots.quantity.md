@@ -1,6 +1,6 @@
 ---
 wsId: hotscoin
-title: HotsCoin — btc&eth量化策略自動交易數據平台
+title: HotsCoin - More Than 100× Gem
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 5000
 appId: com.hots.quantity
 appCountry: 
 released: 2022-06-15
-updated: 2024-01-02
-version: 3.11.0
-stars: 
+updated: 2024-04-02
+version: 3.20.1
+stars: 3.6
 ratings: 
-reviews: 
+reviews: 10
 size: 
 website: 
 repository: 

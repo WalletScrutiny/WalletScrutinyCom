@@ -10,18 +10,18 @@ appCountry:
 released: 2021-09-10
 updated: 2022-03-24
 version: 2.1.0
-stars: 
+stars: 4.2
 ratings: 
-reviews: 
+reviews: 4
 size: 
 website: https://libonomy.com/
 repository: 
 issue: 
 icon: com.libonomywallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nobtc
-date: 2023-05-30
+date: 2024-03-15
 signer: 
 reviewArchive: 
 twitter: 

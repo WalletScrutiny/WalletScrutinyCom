@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.ljkj.blockpay.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-07-29
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

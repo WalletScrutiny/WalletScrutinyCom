@@ -10,9 +10,9 @@ appCountry:
 released: 2020-01-22
 updated: 2022-11-02
 version: 1.1.85
-stars: 3.5
+stars: 3.4
 ratings: 291
-reviews: 11
+reviews: 12
 size: 
 website: https://payplux.com
 repository: 

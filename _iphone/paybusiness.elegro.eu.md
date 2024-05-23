@@ -8,18 +8,18 @@ appId: paybusiness.elegro.eu
 appCountry: us
 idd: '1526117414'
 released: 2020-08-14
-updated: 2023-11-28
-version: '3.6'
+updated: 2024-02-06
+version: '3.7'
 stars: 0
 reviews: 0
-size: '75269120'
+size: '70161408'
 website: https://business.elegro.eu/elegro-business-wallet
 repository: 
 issue: 
 icon: paybusiness.elegro.eu.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nonverifiable
 date: 2023-06-12
 signer: 
 reviewArchive: 

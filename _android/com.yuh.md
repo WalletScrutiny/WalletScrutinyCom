@@ -1,6 +1,6 @@
 ---
 wsId: yuh
-title: 'Yuh: Pay. Save. Invest.'
+title: Yuh - Your App. Your Money.
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 100000
 appId: com.yuh
 appCountry: 
 released: 2021-04-06
-updated: 2023-12-14
-version: 1.22.5
+updated: 2024-05-08
+version: 1.26.10
 stars: 
 ratings: 
 reviews: 

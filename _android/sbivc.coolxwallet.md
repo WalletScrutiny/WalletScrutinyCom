@@ -9,7 +9,7 @@ appCountry:
 released: 2019-01-31
 updated: 2022-03-31
 version: 1.28.100
-stars: 
+stars: 3.5
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: sbivc.coolxwallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: wip
-date: 2023-06-02
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

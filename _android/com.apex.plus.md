@@ -4,15 +4,15 @@ title: 'ApeX Protocol: Trade Crypto'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.apex.plus
 appCountry: 
 released: 2022-08-24
-updated: 2024-01-02
-version: 1.24.1
-stars: 4.5
+updated: 2024-05-16
+version: 1.28.4
+stars: 4.3
 ratings: 
-reviews: 16
+reviews: 20
 size: 
 website: https://apex.exchange
 repository: 
@@ -30,7 +30,7 @@ social:
 - https://discord.com/invite/366Puqavwx
 - https://t.me/ApeXdex
 redirect_from: 
-developerName: APEX DAO LLC
+developerName: ApeX Pro
 features: 
 
 ---

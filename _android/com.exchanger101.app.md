@@ -8,11 +8,11 @@ users: 5000
 appId: com.exchanger101.app
 appCountry: 
 released: 2021-09-30
-updated: 2023-12-23
-version: 1.17.17
-stars: 4.2
+updated: 2024-02-23
+version: 1.18.12
+stars: 4.3
 ratings: 
-reviews: 4
+reviews: 6
 size: 
 website: https://exchanger101.com
 repository: 

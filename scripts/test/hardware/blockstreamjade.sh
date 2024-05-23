@@ -43,6 +43,7 @@ buildFW() {
       . /root/esp/esp-idf/export.sh; \
       cd /builds/blockstream/jade; \
       git config --global --add safe.directory /builds/blockstream/jade; \
+      git stash; \
       cp ./production/${sdkconfig}.defaults sdkconfig.defaults; \
       rm -f sdkconfig; \
       idf.py fullclean all; \

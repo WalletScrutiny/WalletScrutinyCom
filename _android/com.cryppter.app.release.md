@@ -12,16 +12,16 @@ updated: 2023-02-06
 version: 0.0.145 (7755)
 stars: 5
 ratings: 
-reviews: 12
+reviews: 9
 size: 
 website: https://cryppter.com/
 repository: 
 issue: 
 icon: com.cryppter.app.release.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-05-17
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

@@ -13,7 +13,7 @@ version: 1.15.1
 stars: 4.3
 reviews: 11
 size: '97477632'
-website: https://btc-alpha.com
+website: http://btc-alpha.com
 repository: 
 issue: 
 icon: com.btc-alpha.jpg
@@ -28,7 +28,7 @@ social:
 - https://www.linkedin.com/company/btcalpha
 - https://www.facebook.com/btcalpha
 features: 
-developerName: BTC-Alpha LTD
+developerName: Alphacom Uab, dba ALPCOM
 
 ---
 

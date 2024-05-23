@@ -331,34 +331,32 @@ airGapped:
     the attack surface for the private keys. In theory this setup can be
     much more secure than the usual app that has both the private keys and
     internet access in one.
-multiCoin:
-  short: Support for Multiple Cryptocurrencies
+liquid:
+  short: Liquid Network Integration
   long: >
-    Wallets that support multiple coins allow users to manage various 
-    types of cryptocurrencies beyond just Bitcoin, such as Ethereum, Litecoin, 
-    Ripple, and others, all within a single interface. This feature simplifies 
-    the management of diverse crypto portfolios, catering to users who engage in 
-    multi-currency transactions. 
+    The Liquid Network is a Bitcoin sidechain designed to enable faster and more private transactions,
+    launched by Blockstream in 2018. It allows for the issuance of digital assets, including security tokens
+    and stablecoins.
 
-    The ability to handle different cryptocurrencies in one wallet enhances the 
-    user's experience by providing convenience and efficiency in managing 
-    multiple assets. It also potentially increases security, as users don't need 
-    to distribute their assets across multiple wallets, each with its own 
-    security framework.
+    Wallet integration with Liquid means users can send and receive Bitcoin and other assets issued on the
+    Liquid Network. This feature assesses wallets that support both sending to and receiving from Liquid addresses.
 
-    Moreover, multi-coin wallets often come with built-in exchange services, 
-    allowing users to seamlessly convert between different cryptocurrencies 
-    without the need for a separate exchange platform. This integration further 
-    enhances the user's control over their assets and simplifies the trading 
-    process.
+    <a href='https://blockstream.com/liquid/'>Learn more about Liquid</a>.
   benefit: >
-    * **Convenience** of managing multiple cryptocurrencies in one place
-
-    * **Efficiency** in asset management and trading
+    * **Faster Transactions:** Liquid provides faster and cheaper transactions compared to Bitcoin's main chain,
+      improving the user experience for certain use cases like transfer between exchanges that support Liquid.
+    
+    * **Enhanced Privacy:** Through Confidential Transactions, Liquid hides the amounts and types of assets being
+      transferred, offering greater privacy for its users.
+    
+    * **Asset Issuance:** Users can issue and manage digital assets on the Liquid Network.
   drawback: >
-    * **Complexity** in wallet setup and use
-
-    * **Complexity** makes keeping the product secure harder. Features added for one asset can put all other assets in danger
+    * **Bitcoin Custody:** The Liquid Network is operated by a federation of members. "Liquid Bitcoins" are Liquid tokens representing actual Bitcoins in the custody of this federation. If the required quorum of the federation decides to use the bitcoins under their custody, they can. Therefore the user has to trust this federation.
+    
+    * **Limited Adoption:** As a specialized network, Liquid's benefits are most pronounced in specific scenarios,
+      and the ecosystem is smaller than Bitcoin's main network, potentially limiting its utility for some users.
+    
+    * **Fallback custody:** Bitcoins held by the Liquid federation need to be rotated on a regular schedule. If the federation fails to do so, they can also be spent by Blockstream alone.
 fingerprintAuthentication:
   short: Fingerprint Authentication
   long: >

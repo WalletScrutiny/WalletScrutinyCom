@@ -8,7 +8,12 @@ import pLimit from 'p-limit';
 // Constants
 const fsp = fs.promises;
 const limit = pLimit(8); // Allow 8 concurrent async operations
-const mdFolders = ['_android', '_bearer', '_hardware', '_iphone']; // MD file folders
+const mdFolders = [
+  '_android',
+  '_bearer',
+  '_hardware',
+  '_iphone',
+  '_desktop']; // MD file folders
 const backgroundImage = 'images/twCard/twitterImageBG800x450.png';
 const bgImage = await loadImage(backgroundImage);
 // Load the "reproducible" image
@@ -59,15 +64,15 @@ async function showProgress() {
         totalTime = Date.now() - startTime;
         const filesPerSecond = 1000 * (oldTotalFiles - totalFiles) / (totalTime - oldTotalTime);
         const secondsRemaining = totalFiles / filesPerSecond;
-        console.log(`${(totalTime/1000).toFixed(1)}s: ${totalFiles} files and ${secondsRemaining.toFixed(0)}s remaining at approx. ${filesPerSecond.toFixed(0)}f/s.`)
+        console.log(`${(totalTime/1000).toFixed(1)}s: ${totalFiles} files and ${secondsRemaining.toFixed(0)}s remaining at approx. ${filesPerSecond.toFixed(0)}f/s.`);
         if (totalTime > 1000 && limit.activeCount === 0) {
             // stop when not working on any tasks ...
-            clearInterval(i)
+            clearInterval(i);
             console.log(`
 Finished in ${(totalTime/1000).toFixed(1)}s`);
         }
         oldTotalFiles = totalFiles;
-    }, 5_000)
+    }, 5000);
 }
 
 async function processFilesTimed() {
@@ -235,9 +240,7 @@ async function drawOnCanvas(data, iconImage) {
     }
 
     function dateOrUnknown(date) {
-      return date
-      ? formatDate(date)
-      : 'Unknown';
+      return date ? formatDate(date) : 'Unknown';
     }
     printText('Released:', ctx, 207, 315, 'gray', '20 Barlow');
     printText(dateOrUnknown(data.released), ctx, 360, 315, 'black');
@@ -263,8 +266,16 @@ function printText(text, ctx, x, y, fillStyle, font, maxLength, lineHeight) {
 
 // Core Functions - Process One File
 async function processOneFile(platform, mdFilesPath, file, outputFolderPath) {
-    const parts = (await fsp.readFile(path.join(mdFilesPath, file), 'utf-8')).split('---\n');
-    const data = yaml.load(parts[1]);
+    const parts = (await fsp.readFile(path.join(mdFilesPath, file), 'utf-8')).split('---');
+    let data;
+    try {
+      data = yaml.load(parts[1]);
+    } catch(e) {
+      console.log(`processOneFile(${platform}, ${mdFilesPath}, ${file}, ${outputFolderPath})`);
+      console.error(e);
+      totalFiles--;
+      return;
+    }
 
     let iconImagePath = path.join('images', 'wIcons', platform, `${data.icon}`);
     if (!fs.existsSync(iconImagePath)) {
@@ -272,7 +283,7 @@ async function processOneFile(platform, mdFilesPath, file, outputFolderPath) {
     }
 
     // Load the bg image and icon
-    let iconImage
+    let iconImage;
     try {
         iconImage = await loadImage(iconImagePath);
     } catch (error) {
@@ -297,7 +308,9 @@ async function processOneFile(platform, mdFilesPath, file, outputFolderPath) {
 // Core Functions - Process Files
 async function processFiles() {
     const socialImagesFolderPath = `images/social`;
-    fs.existsSync(socialImagesFolderPath) || fs.mkdirSync(socialImagesFolderPath);
+    if (!fs.existsSync(socialImagesFolderPath)) {
+      fs.mkdirSync(socialImagesFolderPath);
+    }
 
     const asyncTasks = [];
     for (let mdFolder of mdFolders) {
@@ -306,7 +319,9 @@ async function processFiles() {
         const iconsPath = path.join(iconsBasePath, platform, 'small'); // Icons path
         const files = await fsp.readdir(mdFilesPath);
         const outputFolderPath = `images/social/${platform}`;
-        fs.existsSync(outputFolderPath) || fs.mkdirSync(outputFolderPath);
+        if (!fs.existsSync(outputFolderPath)) {
+          fs.mkdirSync(outputFolderPath);
+        }
 
         for (let file of files) {
             totalFiles++;

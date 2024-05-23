@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.xgo.wallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-07-17
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: XGo_official
@@ -30,7 +30,7 @@ social:
 - https://www.instagram.com/xgo_official
 - https://discord.com/invite/dTt4Ke3
 redirect_from: 
-developerName: stores@xgo
+developerName: XGo
 features: 
 
 ---

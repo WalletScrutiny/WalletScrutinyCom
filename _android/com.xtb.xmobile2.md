@@ -1,18 +1,18 @@
 ---
 wsId: 
-title: XTB - Online Trading
+title: XTB Online Investing
 altTitle: 
 authors:
 - danny
-users: 1000000
+users: 5000000
 appId: com.xtb.xmobile2
 appCountry: 
 released: 2014-12-17
-updated: 2023-12-28
-version: 2.75.0
-stars: 4.3
+updated: 2024-05-14
+version: 2.83.2
+stars: 4.1
 ratings: 22753
-reviews: 124
+reviews: 144
 size: 
 website: http://www.xtb.com
 repository: 

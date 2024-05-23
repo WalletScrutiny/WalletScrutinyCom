@@ -10,7 +10,7 @@ appCountry:
 released: 2021-01-29
 updated: 2022-04-12
 version: 1.1.4
-stars: 
+stars: 3.9
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: ae.phoenixfund.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: wip
-date: 2023-05-06
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

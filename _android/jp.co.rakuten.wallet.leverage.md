@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: jp.co.rakuten.wallet.leverage.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-07-29
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: Rakuten_Wallet

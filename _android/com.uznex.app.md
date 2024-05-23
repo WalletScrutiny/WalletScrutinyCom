@@ -1,15 +1,15 @@
 ---
 wsId: 
-title: UZNEX - UZbekistan Cryptocurre
+title: UZNEX - Crypto Exchange
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.uznex.app
 appCountry: 
 released: 2020-04-28
-updated: 2020-04-28
-version: 1.0.0
+updated: 2024-02-19
+version: 2.0.0
 stars: 
 ratings: 
 reviews: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.uznex.app.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: custodial
-date: 2023-05-03
+date: 2024-02-20
 signer: 
 reviewArchive: 
 twitter: 

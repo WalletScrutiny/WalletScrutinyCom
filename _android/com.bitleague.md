@@ -10,18 +10,18 @@ appCountry: us
 released: 2019-05-06
 updated: 2021-05-14
 version: 2.15.2
-stars: 4.6
+stars: 4.5
 ratings: 246
-reviews: 138
+reviews: 132
 size: 
 website: https://www.bitleague.com
 repository: 
 issue: 
 icon: com.bitleague.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2023-05-04
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: BitLeague_Group

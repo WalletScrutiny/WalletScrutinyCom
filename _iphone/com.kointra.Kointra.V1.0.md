@@ -8,19 +8,19 @@ appId: com.kointra.Kointra.V1.0
 appCountry: tr
 idd: '1486286836'
 released: 2019-11-15
-updated: 2021-09-15
-version: 3.1.2
+updated: 2024-01-21
+version: 3.2.0
 stars: 4.7
 reviews: 30
-size: '69696512'
+size: '22765568'
 website: https://kointra.com
 repository: 
 issue: 
 icon: com.kointra.Kointra.V1.0.jpg
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: custodial
-date: 2023-09-06
+date: 2024-01-22
 signer: 
 reviewArchive: 
 twitter: KointraTR

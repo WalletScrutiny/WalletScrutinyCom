@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: app.bitcoin.alphabae.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-07-04
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: 

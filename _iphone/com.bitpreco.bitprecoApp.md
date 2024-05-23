@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitpreco.bitprecoApp.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-10-16
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: BitPreco

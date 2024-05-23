@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.fengsheng.new.o3Wallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-10-01
+date: 2024-05-15
 signer: 
 reviewArchive: 
 twitter: O3_Labs

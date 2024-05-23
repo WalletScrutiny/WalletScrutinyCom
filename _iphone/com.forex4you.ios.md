@@ -1,6 +1,6 @@
 ---
 wsId: forex4you
-title: Forex4you - Online Trading
+title: Markets4you - Online Trading
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ appId: com.forex4you.ios
 appCountry: th
 idd: 1008039704
 released: 2015-10-11
-updated: 2023-12-13
-version: 5.4.0
-stars: 4.8
-reviews: 332
-size: '183485440'
-website: https://www.forex4you.com/en/contacts/
+updated: 2024-05-16
+version: 6.2.4
+stars: 4.7
+reviews: 375
+size: '237979648'
+website: https://www.markets4you.com/en/contact-us/
 repository: 
 issue: 
 icon: com.forex4you.ios.jpg

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: app.excointrades.com.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosendreceive
-date: 2023-03-07
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

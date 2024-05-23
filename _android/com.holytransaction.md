@@ -9,7 +9,7 @@ appCountry:
 released: 2021-03-25
 updated: 2021-03-25
 version: 1.0.0
-stars: 
+stars: 4.3
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.holytransaction.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-03-17
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: 

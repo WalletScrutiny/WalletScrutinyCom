@@ -11,16 +11,16 @@ released: 2021-05-12
 updated: 2022-05-14
 version: 2.0.4
 stars: 4.7
-reviews: 27
+reviews: 26
 size: '71064576'
 website: https://www.beastminers.com
 repository: 
 issue: 
 icon: com.wkbeast.usdt.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2023-07-31
+date: 2024-05-04
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bullcoin.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-07-17
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

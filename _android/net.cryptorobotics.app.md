@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: net.cryptorobotics.app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2022-06-22
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: 

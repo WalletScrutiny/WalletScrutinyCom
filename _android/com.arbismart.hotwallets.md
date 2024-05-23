@@ -10,7 +10,7 @@ appCountry:
 released: 
 updated: 2023-04-28
 version: 1.0.0024
-stars: 
+stars: 2.8
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.arbismart.hotwallets.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-08-08
+date: 2024-04-24
 signer: 
 reviewArchive: 
 twitter: arbismart

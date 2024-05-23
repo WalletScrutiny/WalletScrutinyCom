@@ -8,11 +8,11 @@ users: 1000
 appId: finance.liquidus.wallet
 appCountry: 
 released: 2023-01-24
-updated: 2023-11-15
-version: 1.0.12
-stars: 4.2
+updated: 2024-03-31
+version: 1.0.14
+stars: 4.3
 ratings: 
-reviews: 1
+reviews: 2
 size: 
 website: https://www.liquidus.finance
 repository: 

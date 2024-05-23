@@ -3,13 +3,13 @@ wsId:
 title: BIP-39 Crypto seed backup
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.molnike.crypto.backup
 appCountry: 
 released: 2023-01-08
 updated: 2023-02-28
 version: '0.4'
-stars: 
+stars: 5
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.molnike.crypto.backup.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-03
+date: 2024-02-24
 signer: 
 reviewArchive: 
 twitter: 

@@ -9,7 +9,7 @@ appCountry:
 released: 2020-12-18
 updated: 2020-12-18
 version: '1.0'
-stars: 
+stars: 3.9
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: appinventor.ai_suporte.bancobitcoin.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-12-17
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.ibt.quarashi.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nobtc
-date: 2023-04-30
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: QuarashiN

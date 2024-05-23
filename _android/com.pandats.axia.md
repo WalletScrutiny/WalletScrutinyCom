@@ -8,11 +8,11 @@ users: 100000
 appId: com.pandats.axia
 appCountry: il
 released: 2020-11-16
-updated: 2023-12-19
-version: 2.0.6
-stars: 4.6
+updated: 2024-04-10
+version: 2.1.7
+stars: 4.7
 ratings: 744
-reviews: 3
+reviews: 4
 size: 
 website: https://axiainvestments.com/
 repository: 

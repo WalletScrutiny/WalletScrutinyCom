@@ -4,24 +4,24 @@ title: Dormant Bitcoin Explorer
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.BlockchainExplorer.DormantBitcoinExplorer
 appCountry: 
 released: 2023-01-03
-updated: 2023-01-08
-version: 1.0.0
+updated: 2024-05-16
+version: 1.1.9
 stars: 3.3
 ratings: 
-reviews: 7
+reviews: 14
 size: 
 website: 
 repository: 
 issue: 
 icon: com.BlockchainExplorer.DormantBitcoinExplorer.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nowallet
-date: 2024-01-04
+date: 2024-05-15
 signer: 
 reviewArchive: 
 twitter: 

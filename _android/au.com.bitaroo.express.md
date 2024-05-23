@@ -3,12 +3,12 @@ wsId:
 title: Bitaroo Express - Buy Bitcoin
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: au.com.bitaroo.express
 appCountry: 
 released: 
-updated: 2023-12-25
-version: 1.0.20
+updated: 2024-05-08
+version: 1.0.32
 stars: 
 ratings: 
 reviews: 

@@ -8,27 +8,27 @@ users: 50000
 appId: ea.antbot.org
 appCountry: 
 released: 2021-09-29
-updated: 2023-12-11
-version: 2.5.2
-stars: 4.2
+updated: 2024-03-08
+version: 2.5.6
+stars: 4.3
 ratings: 
-reviews: 19
+reviews: 21
 size: 
 website: https://www.antrade.io
 repository: 
 issue: 
 icon: ea.antbot.org.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
-date: 2023-07-11
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: antrade_io
 social:
 - https://t.me/AntBotQuantify
 redirect_from: 
-developerName: Crypto Trading Bot
+developerName: Crypto Signal Trading Bot
 features: 
 
 ---

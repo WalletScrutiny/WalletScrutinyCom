@@ -4,7 +4,7 @@ title: Dexfin Wallet
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.dexfin.mpcwallet
 appCountry: 
 released: 2023-02-01
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.dexfin.mpcwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-07-28
+date: 2024-01-28
 signer: 
 reviewArchive: 
 twitter: https://twitter.com/dexfinexchange

@@ -10,18 +10,18 @@ appCountry:
 released: 2021-08-23
 updated: 2021-08-24
 version: 1.3.8
-stars: 2.6
+stars: 2.5
 ratings: 
-reviews: 8
+reviews: 9
 size: 
 website: https://www.oxbtc.com
 repository: 
 issue: 
 icon: com.iamswr_oxbtc_m.mwbpcontainer.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2023-08-15
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: oxbitcoin

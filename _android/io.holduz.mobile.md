@@ -8,8 +8,8 @@ users: 1000
 appId: io.holduz.mobile
 appCountry: 
 released: 2022-10-31
-updated: 2023-12-23
-version: 2023.12.21
+updated: 2024-03-19
+version: 2024.03.01
 stars: 
 ratings: 
 reviews: 

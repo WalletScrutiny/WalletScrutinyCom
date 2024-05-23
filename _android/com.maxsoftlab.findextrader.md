@@ -10,7 +10,7 @@ appCountry:
 released: 2022-11-07
 updated: 2023-12-25
 version: 1.3.14GMS
-stars: 
+stars: 3.6
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.maxsoftlab.findextrader.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosendreceive
-date: 2023-08-18
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

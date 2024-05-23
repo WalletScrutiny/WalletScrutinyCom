@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.studentcoin.mobile.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
-date: 2021-09-15
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: studentcoinorg

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.klepon.wallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-03-26
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

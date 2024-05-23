@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.org.meeyinvest.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-05-31
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: 

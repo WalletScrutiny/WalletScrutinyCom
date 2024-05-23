@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.trubi.android.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-01-16
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 

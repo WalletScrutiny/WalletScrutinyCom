@@ -8,11 +8,11 @@ users: 5000
 appId: sc.elitewallet.elitewallet
 appCountry: 
 released: 2022-11-22
-updated: 2023-06-02
-version: 1.1.7
-stars: 4.5
+updated: 2024-03-25
+version: 1.3.1
+stars: 4.3
 ratings: 
-reviews: 10
+reviews: 3
 size: 
 website: https://elitewallet.sc
 repository: https://github.com/Elite-Labs/EliteWallet/releases/

@@ -4,15 +4,15 @@ title: Coinhub Bitcoin Wallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: app.coinhubatm.wallet
 appCountry: 
 released: 2022-12-11
-updated: 2023-03-30
-version: 3.5.0
-stars: 3.6
+updated: 2024-02-23
+version: 3.21.2
+stars: 3.7
 ratings: 
-reviews: 9
+reviews: 10
 size: 
 website: https://coinhubatm.com/
 repository: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.studentcoin.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2021-09-15
+date: 2024-05-06
 signer: 
 reviewArchive: 
 twitter: studentcoinorg

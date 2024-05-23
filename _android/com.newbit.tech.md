@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.newbit.tech.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-08-27
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

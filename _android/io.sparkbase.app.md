@@ -10,7 +10,7 @@ appCountry:
 released: 
 updated: 2023-03-31
 version: 3.8.8
-stars: 
+stars: 4.3
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.sparkbase.app.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-07-03
+date: 2024-03-30
 signer: 
 reviewArchive: 
 twitter: 

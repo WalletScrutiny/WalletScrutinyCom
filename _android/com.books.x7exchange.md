@@ -10,7 +10,7 @@ appCountry:
 released: 2022-01-02
 updated: 2023-01-12
 version: '2.3'
-stars: 
+stars: 4.1
 ratings: 
 reviews: 
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.books.x7exchange.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-07-06
+date: 2024-01-16
 signer: 
 reviewArchive: 
 twitter: x7exchange

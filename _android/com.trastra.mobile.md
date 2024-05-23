@@ -1,6 +1,6 @@
 ---
 wsId: trastra
-title: 'TRASTRA: Crypto Wallet & Card'
+title: 'TRASTRA: Buy Bitcoin, Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 100000
 appId: com.trastra.mobile
 appCountry: us
 released: 2019-01-19
-updated: 2023-12-21
-version: 4.1.1
+updated: 2024-04-23
+version: 4.4.1
 stars: 3.8
 ratings: 513
 reviews: 14

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.oxmiing.mw.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fake
-date: 2023-08-07
+date: 2024-03-30
 signer: 
 reviewArchive: 
 twitter: 

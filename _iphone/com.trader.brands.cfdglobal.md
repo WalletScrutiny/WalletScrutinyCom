@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.trader.brands.cfdglobal.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosendreceive
-date: 2021-10-01
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: capex_en

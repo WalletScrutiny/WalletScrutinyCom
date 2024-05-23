@@ -4,15 +4,16 @@ title: Phoenix - LN Bitcoin wallet
 altTitle: 
 authors:
 - leo
+- danny
 users: 50000
 appId: fr.acinq.phoenix.mainnet
 appCountry: us
 released: 2019-12-10
-updated: 2023-12-20
-version: 2.1.1
-stars: 4.4
+updated: 2024-04-09
+version: 2.2.2
+stars: 4.3
 ratings: 314
-reviews: 37
+reviews: 42
 size: 
 website: https://phoenix.acinq.co
 repository: https://github.com/ACINQ/phoenix
@@ -21,9 +22,34 @@ icon: fr.acinq.phoenix.mainnet.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2023-12-30
+date: 2024-04-13
 signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
 reviewArchive:
+- date: 2024-03-18
+  version: 2.2.1
+  appHash: 3a1523b4ddeebff58deeb2f877e2d2f33924fdb8870e4bf34038fee9e7b87f53
+  gitRevision: 751ed3179997adb455ae23b0a4d44e1d6c50f929
+  verdict: nonverifiable
+- date: 2024-02-27
+  version: 2.2.0
+  appHash: 74724d77d02c216807bfeb40a69c3081a0b213f9d00e3aa82a637d7973a23d3a
+  gitRevision: 042f69a12ae6ceee5fcecb0dee8d3d237e9ba745
+  verdict: nonverifiable
+- date: 2024-02-11
+  version: 2.1.3
+  appHash: 4bbdce0f643aabfb9498fd767c0183139188627ed2e3093053f5d2ad94f55fa6
+  gitRevision: 46bc4e4eb995c4f8c15cce7089aa66e399ac69bb
+  verdict: nonverifiable
+- date: 2024-01-28
+  version: 2.1.2
+  appHash: 4bbdce0f643aabfb9498fd767c0183139188627ed2e3093053f5d2ad94f55fa6
+  gitRevision: 70a47841e96051a02df09fe559640f37a8aab612
+  verdict: nonverifiable
+- date: 2023-12-30
+  version: 2.1.1
+  appHash: e15cd3f5be07d5b45fad034845239dabd91ef5dcff60d1cb69408084331b869d
+  gitRevision: 1ad53d3162ff1ba485729a6a452ada60bf96113d
+  verdict: nonverifiable
 - date: 2023-11-30
   version: 2.0.12
   appHash: 45eadc50d2305081e610d9dc3f114c2ac6c609fef1988d98a96da55032086473
@@ -75,27 +101,33 @@ features:
 
 ---
 
-**Update 2023-11-30**: The provider fixed the build issue and we managed to
-compile the product:
+Our test script gave us these results:
 
 ```
+===== End Results =====
+
+Run a full
+diff --recursive /tmp/fromPlay_fr.acinq.phoenix.mainnet_78 /tmp/fromBuild_fr.acinq.phoenix.mainnet_78
+meld /tmp/fromPlay_fr.acinq.phoenix.mainnet_78 /tmp/fromBuild_fr.acinq.phoenix.mainnet_78
+or
+diffoscope "/home/leo/Documents/walletscrutiny/incoming/Phoenix 2.2.2.apk" /tmp/test_fr.acinq.phoenix.mainnet/app/phoenix-android/build/outputs/apk/release/phoenix-78-2.2.2-mainnet-release.apk
+for more details.'
 ===== Begin Results =====
 appId:          fr.acinq.phoenix.mainnet
 signer:         ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
-apkVersionName: 2.1.1
-apkVersionCode: 73
+apkVersionName: 2.2.2
+apkVersionCode: 78
 verdict:        
-appHash:        e15cd3f5be07d5b45fad034845239dabd91ef5dcff60d1cb69408084331b869d
-commit:         7d338cd49b8488e8f268885bb409fbb5f558383c
+appHash:        2550481acca5f800e83a76a54f3cd2d390a64cadf9055b184b63df8b8e01cddd
+commit:         e1bed63f1f02da4306f98d82576fa522f3935376
 
 Diff:
-Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_73/assets/dexopt/baseline.prof and /tmp/fromBuild_fr.acinq.phoenix.mainnet_73/assets/dexopt/baseline.prof differ
-Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_73/assets/dexopt/baseline.profm and /tmp/fromBuild_fr.acinq.phoenix.mainnet_73/assets/dexopt/baseline.profm differ
-Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_73/classes3.dex and /tmp/fromBuild_fr.acinq.phoenix.mainnet_73/classes3.dex differ
-Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_73/classes5.dex and /tmp/fromBuild_fr.acinq.phoenix.mainnet_73/classes5.dex differ
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_73/META-INF: MAINNET.RSA
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_73/META-INF: MAINNET.SF
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_73/META-INF: MANIFEST.MF
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_78/assets/dexopt/baseline.prof and /tmp/fromBuild_fr.acinq.phoenix.mainnet_78/assets/dexopt/baseline.prof differ
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_78/assets/dexopt/baseline.profm and /tmp/fromBuild_fr.acinq.phoenix.mainnet_78/assets/dexopt/baseline.profm differ
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_78/classes5.dex and /tmp/fromBuild_fr.acinq.phoenix.mainnet_78/classes5.dex differ
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_78/META-INF: MAINNET.RSA
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_78/META-INF: MAINNET.SF
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_78/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
 
@@ -103,7 +135,3 @@ Revision, tag (and its signature):
 ```
 
 That is a bigger diff than expected. This version is **not verifiable**.
-
-Upon closer inspection, the diffs in the casses3.dex and classes5.dex again look
-benign but there is thousands of lines to review in the diffoscope output and we
-did not do a deep analysis there.

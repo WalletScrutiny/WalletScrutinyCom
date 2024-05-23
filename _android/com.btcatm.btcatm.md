@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.btcatm.btcatm.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-07-28
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: 

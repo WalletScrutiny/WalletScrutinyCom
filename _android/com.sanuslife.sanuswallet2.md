@@ -4,7 +4,7 @@ title: SANUSWALLET 2.0
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.sanuslife.sanuswallet2
 appCountry: 
 released: 2020-09-04

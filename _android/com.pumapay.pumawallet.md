@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.pumapay.pumawallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
-date: 2023-10-16
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: PumaPay

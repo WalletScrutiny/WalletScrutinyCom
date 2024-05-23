@@ -10,7 +10,7 @@ import axios from 'axios';
 import path from 'path';
 
 // Define the folder paths to search for .md files
-const folderPaths = ['./_android', './_iphone', './_bearer', './_hardware'];
+const folderPaths = ['./_android', './_iphone', './_bearer', './_hardware', '/_desktop'];
 
 // Regular expression pattern to match issue URLs
 const issuePattern = /issue:\s+(https:\/\/github\.com\/[^/]+\/[^/]+\/issues\/(\d+))/g;

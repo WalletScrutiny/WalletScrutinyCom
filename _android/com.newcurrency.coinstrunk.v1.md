@@ -12,16 +12,16 @@ updated: 2022-03-09
 version: '1.12'
 stars: 4.1
 ratings: 635
-reviews: 49
+reviews: 50
 size: 
 website: http://firstdaotrust.com
 repository: 
 issue: 
 icon: com.newcurrency.coinstrunk.v1.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-03-11
+date: 2024-03-01
 signer: 
 reviewArchive: 
 twitter: 

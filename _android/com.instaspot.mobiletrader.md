@@ -9,7 +9,7 @@ appCountry:
 released: 2022-03-23
 updated: 2022-04-29
 version: 1.0.3
-stars: 
+stars: 4.7
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.instaspot.mobiletrader.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-04-27
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ubsdreamdigital.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-03-03
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.masterbitexpress.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-12-11
+date: 2024-02-24
 signer: 
 reviewArchive: 
 twitter: 

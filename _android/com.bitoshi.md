@@ -1,17 +1,18 @@
 ---
-wsId: 
-title: Bitoshi
+wsId: bitoshiAfrica
+title: 'Bitoshi: Buy & Sell Crypto'
 altTitle: 
-authors: 
-users: 1000
+authors:
+- danny
+users: 5000
 appId: com.bitoshi
 appCountry: 
 released: 2022-10-13
-updated: 2023-08-30
-version: 1.3.0
-stars: 4.6
+updated: 2024-05-14
+version: 1.3.5
+stars: 4.4
 ratings: 
-reviews: 4
+reviews: 7
 size: 
 website: https://bitoshi.africa
 repository: 
@@ -19,15 +20,31 @@ issue:
 icon: com.bitoshi.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-03
+verdict: custodial
+date: 2023-11-01
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: Bitoshiafrica
+social:
+- https://www.linkedin.com/company/bitoshiafrica
+- https://www.instagram.com/bitoshi.africa
+- https://t.me/+c4ek89XILkc2OTk8
 redirect_from: 
 developerName: Bitoshi Africa
 features: 
 
 ---
 
+## App Description from Google Play
+
+> With Bitoshi, you can buy and sell crypto instantly and securely, trade with a simple username, automate your crypto purchases, and start with just N500!
+>
+> Unlock a world of possibilities on Bitoshi. Seamlessly purchase cryptocurrencies like Bitcoin, USDT, and TRON with cash. Selling crypto and withdrawing funds to your bank account are just as quick. Additionally, enjoy the convenience of swapping cryptocurrencies within the app.
+
+## Analysis
+
+From their [terms](https://bitoshi.africa/terms): 
+
+> Bitoshi.africa securely stores all Digital Currency private keys in our control in a combination of online and offline storage.
+
+This marks it as a **custodial** platform with a non-verifiable app.

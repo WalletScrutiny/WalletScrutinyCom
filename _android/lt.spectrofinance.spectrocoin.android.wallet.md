@@ -1,6 +1,6 @@
 ---
 wsId: SpectroCoin
-title: Bitcoin Wallet by SpectroCoin
+title: SpectroCoin - Buy Crypto
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 500000
 appId: lt.spectrofinance.spectrocoin.android.wallet
 appCountry: 
 released: 2014-12-05
-updated: 2023-10-24
-version: 1.25.0
-stars: 3.7
+updated: 2024-04-17
+version: 2.1.1
+stars: 3.8
 ratings: 3150
-reviews: 45
+reviews: 44
 size: 
 website: https://spectrocoin.com
 repository: 

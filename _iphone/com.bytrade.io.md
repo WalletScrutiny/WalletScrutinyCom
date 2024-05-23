@@ -8,11 +8,11 @@ appId: com.bytrade.io
 appCountry: vn
 idd: '6444903691'
 released: 2022-12-07
-updated: 2023-12-28
-version: 2.4.3
-stars: 3.4
-reviews: 18
-size: '62556160'
+updated: 2024-02-22
+version: 2.5.4
+stars: 3.1
+reviews: 20
+size: '63094784'
 website: https://www.bytrade.io
 repository: 
 issue: 

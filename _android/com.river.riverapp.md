@@ -4,15 +4,15 @@ title: River – Buy Bitcoin
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 10000
 appId: com.river.riverapp
 appCountry: 
 released: 2023-10-20
-updated: 2024-01-02
-version: 1.69.2
-stars: 4.5
+updated: 2024-05-17
+version: 1.124.2
+stars: 4.1
 ratings: 
-reviews: 21
+reviews: 37
 size: 
 website: https://river.com/
 repository: 

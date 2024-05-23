@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.cointral.exchange.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2023-08-09
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: Cointral

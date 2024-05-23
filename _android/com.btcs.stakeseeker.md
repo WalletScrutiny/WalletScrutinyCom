@@ -3,7 +3,7 @@ wsId:
 title: StakeSeeker
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.btcs.stakeseeker
 appCountry: 
 released: 2023-03-10
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.btcs.stakeseeker.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-06-03
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: 

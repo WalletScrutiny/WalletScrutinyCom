@@ -7,8 +7,8 @@ users: 500
 appId: io.hexawallet.bitcoinkeeper
 appCountry: 
 released: 2022-12-12
-updated: 2023-12-24
-version: 1.1.10
+updated: 2024-05-03
+version: 1.2.6
 stars: 
 ratings: 
 reviews: 

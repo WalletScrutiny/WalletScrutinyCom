@@ -9,7 +9,7 @@ appCountry:
 released: 2020-06-06
 updated: 2020-06-19
 version: '1.4'
-stars: 
+stars: 4.2
 ratings: 
 reviews: 
 size: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.Bitplicity.Bitplicityapp.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-06-10
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

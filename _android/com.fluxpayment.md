@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.fluxpayment.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-10-24
+date: 2024-04-09
 signer: 
 reviewArchive: 
 twitter: ifluxdotapp

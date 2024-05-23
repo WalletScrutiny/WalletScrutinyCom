@@ -8,11 +8,11 @@ appId: com.app.breet
 appCountry: us
 idd: '1609711640'
 released: 2022-03-04
-updated: 2023-08-12
-version: 6.1.3
+updated: 2024-02-17
+version: 6.2.4
 stars: 4.3
-reviews: 578
-size: '102112256'
+reviews: 696
+size: '97590272'
 website: https://breet.app
 repository: 
 issue: 

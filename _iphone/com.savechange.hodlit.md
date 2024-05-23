@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.savechange.hodlit.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2023-12-15
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: hodlitapp

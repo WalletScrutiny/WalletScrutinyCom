@@ -4,7 +4,7 @@ title: Trade Crypto.BinanceKucoinOkex
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.mayex.trading
 appCountry: 
 released: 2022-03-07
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.mayex.trading.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-04-08
+date: 2024-03-23
 signer: 
 reviewArchive: 
 twitter: Mayex_Global

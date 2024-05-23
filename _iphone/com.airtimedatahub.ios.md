@@ -8,19 +8,19 @@ appId: com.airtimedatahub.ios
 appCountry: us
 idd: '1549591166'
 released: 2021-02-09
-updated: 2022-10-06
+updated: 2024-01-31
 version: 1.0.15
-stars: 3.2
-reviews: 11
+stars: 3
+reviews: 10
 size: '42434560'
 website: http://www.facebook.com/Airtimedatahub/
 repository: 
 issue: 
 icon: com.airtimedatahub.ios.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nowallet
-date: 2023-10-03
+date: 2024-01-31
 signer: 
 reviewArchive: 
 twitter: airtimedatahub
