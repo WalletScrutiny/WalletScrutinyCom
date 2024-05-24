@@ -4,7 +4,7 @@ title: Earn World
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.streakk
 appCountry: 
 released: 2022-07-29

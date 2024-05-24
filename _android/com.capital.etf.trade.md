@@ -28,7 +28,7 @@ reviewArchive:
 twitter: capitalcom
 social: 
 redirect_from: 
-developerName: Capital Com UK Limited
+developerName: Capital Com (UK) Limited
 features: 
 
 ---

@@ -3,12 +3,12 @@ wsId:
 title: 'Safeheron: Crypto MPC Wallet'
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.safeheron.app.sg
 appCountry: 
 released: 2022-07-17
-updated: 2024-04-15
-version: 1.3.1
+updated: 2024-05-16
+version: 1.3.2
 stars: 
 ratings: 
 reviews: 

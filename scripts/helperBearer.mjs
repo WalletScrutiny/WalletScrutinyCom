@@ -29,7 +29,7 @@ async function refreshAll (ids, githubApi) {
     files = ids.map(it => `${it}.md`);
   } else {
     files = await fs.readdir(folder);
-  }
+    }
   console.log(`Updating ${files.length} 💳 files ...`);
   stats.remaining = files.length;
   files.forEach(file => { refreshFile(file, undefined, octokit); });
@@ -37,10 +37,10 @@ async function refreshAll (ids, githubApi) {
 
 function refreshFile (fileName, content, octokit) {
   sem.acquire().then(async function ([, release]) {
-    if (content === undefined) {
+  if (content === undefined) {
       content = { header: helper.getEmptyHeader(headers), body: undefined };
       helper.loadFromFile(path.join(folder, fileName), content);
-    }
+  }
     const header = content.header;
     const body = content.body;
     const appId = header.appId;

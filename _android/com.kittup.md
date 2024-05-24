@@ -3,7 +3,7 @@ wsId:
 title: 'KittUp : Crypto Wallet'
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: com.kittup
 appCountry: 
 released: 2022-11-02

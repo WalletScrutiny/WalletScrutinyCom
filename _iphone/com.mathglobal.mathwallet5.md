@@ -10,8 +10,8 @@ idd: '1582612388'
 released: 2021-08-30
 updated: 2024-04-18
 version: 5.3.3
-stars: 3.8
-reviews: 30
+stars: 3.9
+reviews: 32
 size: '80836608'
 website: https://www.mathwallet.org
 repository: 

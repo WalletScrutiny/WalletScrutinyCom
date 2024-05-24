@@ -8,8 +8,8 @@ users: 50000
 appId: com.smartwallet.app
 appCountry: 
 released: 2023-02-10
-updated: 2024-04-08
-version: 1.16.0
+updated: 2024-05-24
+version: 1.17.0
 stars: 4.9
 ratings: 
 reviews: 70

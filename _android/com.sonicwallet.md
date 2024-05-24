@@ -8,8 +8,8 @@ users: 1000
 appId: com.sonicwallet
 appCountry: 
 released: 2022-02-17
-updated: 2024-02-17
-version: 1.1.30
+updated: 2024-05-19
+version: 1.1.31
 stars: 
 ratings: 
 reviews: 

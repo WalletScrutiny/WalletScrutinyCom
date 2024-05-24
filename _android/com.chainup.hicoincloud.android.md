@@ -7,8 +7,8 @@ users: 500
 appId: com.chainup.hicoincloud.android
 appCountry: 
 released: 2022-12-09
-updated: 2024-05-10
-version: 6.6.0
+updated: 2024-05-21
+version: 6.6.1
 stars: 
 ratings: 
 reviews: 

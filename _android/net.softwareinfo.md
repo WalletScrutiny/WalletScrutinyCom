@@ -12,7 +12,7 @@ updated: 2023-08-27
 version: '1.3'
 stars: 2.8
 ratings: 
-reviews: 31
+reviews: 32
 size: 
 website: https://softwareinfo.net
 repository: 

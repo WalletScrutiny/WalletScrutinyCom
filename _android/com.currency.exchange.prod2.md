@@ -1,6 +1,6 @@
 ---
 wsId: dzengi
-title: Dzengi.com - Crypto Exchange
+title: Dzengi.com - Assets Exchange
 altTitle: 
 authors:
 - leo

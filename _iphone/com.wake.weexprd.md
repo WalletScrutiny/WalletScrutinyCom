@@ -10,8 +10,8 @@ idd: '1609350789'
 released: 2022-03-04
 updated: 2024-05-14
 version: 3.3.0
-stars: 3
-reviews: 36
+stars: 3.1
+reviews: 39
 size: '150036480'
 website: https://www.weex.com/en
 repository: 
