@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.app.coinloan.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-10-04
+date: 2024-05-24
 signer: 
 reviewArchive: 
 twitter: coin_loan

@@ -7,11 +7,11 @@ users: 1000
 appId: app.vipsats.vipsats
 appCountry: 
 released: 2023-10-12
-updated: 2024-04-23
-version: '1.4'
-stars: 4.3
+updated: 2024-05-21
+version: 1.4.1
+stars: 4.4
 ratings: 
-reviews: 6
+reviews: 7
 size: 
 website: https://vipsats.app
 repository: 

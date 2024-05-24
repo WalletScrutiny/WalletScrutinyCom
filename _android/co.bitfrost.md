@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: co.bitfrost.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-05-28
+date: 2024-05-24
 signer: 
 reviewArchive: 
 twitter: 

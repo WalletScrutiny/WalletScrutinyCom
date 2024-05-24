@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: org.bitcoinox.bitcoinoxwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2022-02-09
+date: 2024-05-24
 signer: 
 reviewArchive: 
 twitter: bitcoin_ox

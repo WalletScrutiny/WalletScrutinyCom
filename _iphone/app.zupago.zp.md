@@ -8,11 +8,11 @@ appId: app.zupago.zp
 appCountry: us
 idd: 1565673730
 released: 2021-05-10
-updated: 2024-05-15
-version: 1.0.66
+updated: 2024-05-22
+version: 1.0.67
 stars: 4.5
 reviews: 52
-size: '28192768'
+size: '28164096'
 website: https://vizo.app
 repository: 
 issue: 

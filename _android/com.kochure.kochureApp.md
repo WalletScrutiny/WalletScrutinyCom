@@ -8,7 +8,7 @@ users: 5000
 appId: com.kochure.kochureApp
 appCountry: 
 released: 2021-11-13
-updated: 2024-04-07
+updated: 2024-05-23
 version: 1.2.0
 stars: 4
 ratings: 

@@ -1,6 +1,6 @@
 ---
 wsId: primeXBTCryptoTrading
-title: PrimeXBT
+title: PrimeXBT Trading & Investing
 altTitle: 
 authors:
 - danny

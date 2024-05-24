@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: ru.zamzamwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-11-30
+date: 2024-05-24
 signer: 
 reviewArchive: 
 twitter: 

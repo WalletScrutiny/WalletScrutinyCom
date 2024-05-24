@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.starex.fm/
+website: https://www.starex.sg/
 repository: 
 issue: 
 icon: vip.sing.exchange.png

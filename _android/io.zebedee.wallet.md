@@ -1,6 +1,6 @@
 ---
 wsId: zebedee
-title: 'ZBD: Bitcoin, Games, Rewards'
+title: 'ZBD: Earn Bitcoin Rewards'
 altTitle: 
 authors:
 - leo
@@ -12,7 +12,7 @@ updated: 2024-04-25
 version: 3.87.3
 stars: 4.6
 ratings: 358
-reviews: 2386
+reviews: 2443
 size: 
 website: https://zbd.one/help
 repository: 

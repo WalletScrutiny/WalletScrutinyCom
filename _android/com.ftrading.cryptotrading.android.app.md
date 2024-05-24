@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Online Brokers, Trading Experts
+developerName: EZ Trade - Online Brokers, Trading Experts
 features: 
 
 ---

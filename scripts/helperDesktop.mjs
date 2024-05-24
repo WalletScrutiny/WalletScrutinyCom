@@ -13,8 +13,8 @@ const category = 'desktop';
 const folder = `_${category}/`;
 const headers = ('title appId authors released discontinued updated version ' +
                 'binaries provider providerWebsite website ' +
-                'country repository issue icon bugbounty meta ' +
-                'verdict date reviewArchive twitter social developerName ' +
+                'repository issue icon bugbounty meta ' +
+                'verdict date reviewArchive twitter social ' +
                 'features').split(' ');
 
 async function refreshAll () {

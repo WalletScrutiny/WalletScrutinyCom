@@ -12,7 +12,7 @@ updated: 2024-05-03
 version: 6.2.20
 stars: 3.7
 ratings: 931
-reviews: 476
+reviews: 477
 size: 
 website: https://monnos.com
 repository: 

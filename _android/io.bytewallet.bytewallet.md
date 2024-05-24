@@ -4,7 +4,7 @@ title: ByteWallet
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: io.bytewallet.bytewallet
 appCountry: 
 released: 2021-07-20
