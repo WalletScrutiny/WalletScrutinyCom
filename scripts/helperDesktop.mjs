@@ -9,12 +9,13 @@ const stats = {
   remaining: 0
 };
 
-const category = 'bearer';
+const category = 'desktop';
 const folder = `_${category}/`;
 const headers = ('title appId authors released discontinued updated version ' +
-                'binaries dimensions weight provider providerWebsite website ' +
-                'shop country price repository issue icon bugbounty meta ' +
-                'verdict date signer reviewArchive twitter social features').split(' ');
+                'binaries provider providerWebsite website ' +
+                'country repository issue icon bugbounty meta ' +
+                'verdict date reviewArchive twitter social developerName ' +
+                'features').split(' ');
 
 async function refreshAll () {
   fs.readdir(folder, async (err, files) => {
@@ -22,7 +23,7 @@ async function refreshAll () {
       console.error(`Could not list the directory ${folder}.`, err);
       process.exit(1);
     }
-    console.log(`Updating ${files.length} 🗃 files ...`);
+    console.log(`Updating ${files.length} 💻 files ...`);
     stats.remaining = files.length;
     files.forEach(file => { refreshFile(file); });
   });

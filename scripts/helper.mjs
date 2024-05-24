@@ -103,12 +103,16 @@ function migrateFile (category, file, migration, defaultHeader) {
  * @param outHeaderAndBody Potentially pre-filled object {header: {}, body: ''}
  **/
 function loadFromFile (file, outHeaderAndBody = { header: {}, body: '' }) {
-  var parts = fs.readFileSync(file, 'utf8').split('---\n');
-  const header = yaml.load(parts[1]);
-  outHeaderAndBody.header = outHeaderAndBody.header || {};
-  Object.keys(header).forEach(k => { outHeaderAndBody.header[k] = header[k]; });
-  outHeaderAndBody.body = parts.slice(2).join('---\n').replace(/^\s*[\r\n]/g, '');
-  return outHeaderAndBody;
+  try {
+    var parts = fs.readFileSync(file, 'utf8').split('---\n');
+    const header = yaml.load(parts[1]);
+    outHeaderAndBody.header = outHeaderAndBody.header || {};
+    Object.keys(header).forEach(k => { outHeaderAndBody.header[k] = header[k]; });
+    outHeaderAndBody.body = parts.slice(2).join('---\n').replace(/^\s*[\r\n]/g, '');
+    return outHeaderAndBody;
+  } catch (e) {
+    console.error(`Issue with ${file}: ${e}`);
+  }
 }
 
 function dateOrEmpty (d) {
