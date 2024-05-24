@@ -14,6 +14,15 @@ do
   esac
 done
 
+if [ -z "$apps" ]; then
+  echo "Running Python script to generate app IDs..."
+  apps=$(python3 scripts/defunctParser.py)  # Capture output from Python script
+  if [ $? -ne 0 ]; then
+    echo "Failed to run Python script or no app IDs found."
+    exit 1
+  fi
+fi
+
 echo "installing missing stuff"
 npm install
 
