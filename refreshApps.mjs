@@ -5,7 +5,9 @@ import dateFormat from 'dateformat';
 import readline from 'readline';
 
 async function refresh (markDefunct, apps) {
-  fs.appendFileSync('_data/defunct.yaml', `${dateFormat(new Date(), 'yyyy-mm-dd')}:\n`)
+  if (!markDefunct) {
+    fs.appendFileSync('_data/defunct.yaml', `${dateFormat(new Date(), 'yyyy-mm-dd')}:\n`)
+  }
   if (apps) {
     const ids = apps.split(',')
     const appStoreIds = ids.filter(it => it.startsWith('iphone')).map(it => it.split('/')[1])
