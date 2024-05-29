@@ -2,9 +2,11 @@
 
 ### provide this script with the full version name for example 2023-06-19T1627-v4.1.8
 ### and the mk number 1, 2, 3 or 4
+### You will not have to provide a value for the mkfile variable. 
 
 version=$1
 mk_num=$2
+mkfile=$3
 
 if [[ $mk_num == 4 ]]; then
   version_suffix="-mk4"
@@ -12,6 +14,15 @@ if [[ $mk_num == 4 ]]; then
 else
   privileges=--privileged
 fi
+
+if [[ $mk_num == 'q1' ]]; then
+  version_suffix="-q1"
+  privileges=-u $(id -u):$(id -g)
+  mkfile='Q1-Makefile'
+else
+  privileges=--privileged
+fi
+
 PUBLISHED_BIN=${version}${version_suffix}-coldcard.dfu
 
 short_version=$(echo $version | grep -Po 'v\K[^-]*')
@@ -36,7 +47,7 @@ docker run \
   --volume $(realpath stm32/built):/work/built:rw ${privileges} \
   coldcard-build \
   sh -c "export SOURCE_DATE_EPOCH=$SOURCE_DATE_EPOCH; \
-    sh src/stm32/repro-build.sh ${short_version} ${mk_num}"
+    sh src/stm32/repro-build.sh ${version} ${mk_num} ${mkfile}"
 
 # Remove signatures
 xxd /tmp/firmware/stm32/built/firmware-signed.bin | sed -e 's/^00003f[89abcdef]0: .*/(firmware signature here)/' | xxd -r >firmware-nosig.bin
