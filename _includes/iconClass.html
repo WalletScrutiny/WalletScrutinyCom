@@ -16,6 +16,8 @@
 {% assign iconClass = "fab fa-windows" %}
 {% when "desktop" %}
 {% assign iconClass = "fas fa-desktop" %}
+{% when "others" %}
+{% assign iconClass = "fas fa-calculator" %}
 {% endcase %}
 {% else %}
 {% case platform %}
@@ -33,5 +35,7 @@
 {% assign iconClass = "fab fa-windows" %}
 {% when "desktop" %}
 {% assign iconClass = "fas fa-desktop" %}
+{% when "others" %}
+{% assign iconClass = "fas fa-calculator" %}
 {% endcase %}
 {% endif %}

@@ -195,3 +195,13 @@ desktop:
     - outdated
     - removed
     - deprecated
+others:
+  description: >
+    These products do not fit into any of the other specified categories.
+    This includes "wallets" that are actually browser extensions 
+    or point-of-sale products.
+  notes: 
+  verdicts:
+    - wip
+  metas: 
+    - ok
