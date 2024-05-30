@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: 'CoinPlug - Buy & Sell BTC and '
+title: CoinPlug - Swap Crypto to Cash
 altTitle: 
 authors: 
 users: 500
 appId: app.coinplug
 appCountry: 
 released: 2021-10-19
-updated: 2024-04-15
-version: 2.0.1
+updated: 2024-05-29
+version: 2.0.2
 stars: 
 ratings: 
 reviews: 

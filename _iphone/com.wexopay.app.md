@@ -11,7 +11,7 @@ released: 2021-02-09
 updated: 2024-05-16
 version: 2.6.28
 stars: 4.8
-reviews: 309
+reviews: 317
 size: '72940544'
 website: https://wexopay.com
 repository: 

@@ -7,6 +7,7 @@ released: 2014-12-14
 discontinued: 
 updated: 2023-08-18
 version: 3.8.0
+binaries: 
 provider: 
 providerWebsite: 
 website: https://libbitcoin.info
@@ -17,8 +18,10 @@ bugbounty:
 meta: ok
 verdict: wip
 date: 2024-05-09
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-features:
+social: 
+features: 
+
 ---
+

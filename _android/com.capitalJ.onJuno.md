@@ -10,9 +10,9 @@ appCountry:
 released: 2021-03-01
 updated: 2024-05-21
 version: 4.0.32
-stars: 2.9
+stars: 2.8
 ratings: 
-reviews: 430
+reviews: 432
 size: 
 website: https://juno.finance
 repository: 

@@ -7,6 +7,7 @@ released: 2011-11-05
 discontinued: 
 updated: 2024-03-14
 version: 4.5.4
+binaries: 
 provider: Thomas Voegtlin
 providerWebsite: 
 website: https://electrum.org/
@@ -15,10 +16,12 @@ issue:
 icon: electrum.png
 bugbounty: 
 meta: ok
-verdict: wip 
+verdict: wip
 date: 2024-04-25
-reviewArchive:
+reviewArchive: 
 twitter: ElectrumWallet
-social:
-features:
+social: 
+features: 
+
 ---
+

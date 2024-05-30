@@ -7,6 +7,7 @@ released: 2021-05-18
 discontinued: 
 updated: 2022-09-15
 version: 0.2.1
+binaries: 
 provider: 
 providerWebsite: 
 website: https://chromewebstore.google.com/detail/ncncnbgglmejlbnhoangkekhigfdioeg
@@ -17,10 +18,11 @@ bugbounty:
 meta: ok
 verdict: wip
 date: 2024-05-09
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-features:
+social: 
+features: 
+
 ---
 
 Chrome extension.

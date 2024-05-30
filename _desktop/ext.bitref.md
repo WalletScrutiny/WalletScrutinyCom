@@ -7,6 +7,7 @@ released: 2017-03-28
 discontinued: 
 updated: 2020-06-08
 version: 3.1.3
+binaries: 
 provider: 
 providerWebsite: https://bitref.com
 website: https://addons.mozilla.org/en-US/firefox/addon/bitref/
@@ -17,8 +18,10 @@ bugbounty:
 meta: obsolete
 verdict: wip
 date: 2024-05-09
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-features:
+social: 
+features: 
+
 ---
+

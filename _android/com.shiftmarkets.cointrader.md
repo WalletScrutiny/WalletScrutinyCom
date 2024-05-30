@@ -1,6 +1,6 @@
 ---
 wsId: coinTraderMobile
-title: Cointrader
+title: Shift Platform
 altTitle: 
 authors:
 - danny

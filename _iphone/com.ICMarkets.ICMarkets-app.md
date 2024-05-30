@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ICMarkets.ICMarkets-app.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosendreceive
-date: 2023-07-08
+date: 2024-05-30
 signer: 
 reviewArchive: 
 twitter: IC_Markets

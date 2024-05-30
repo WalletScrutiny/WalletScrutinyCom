@@ -6,7 +6,8 @@ authors:
 released: 2021-04-23
 discontinued: 
 updated: 2023-12-21
-version: 0.10
+version: 0.1
+binaries: 
 provider: 
 providerWebsite: 
 website: https://mercurywallet.com/
@@ -17,8 +18,10 @@ bugbounty:
 meta: ok
 verdict: wip
 date: 2024-04-25
-reviewArchive:
+reviewArchive: 
 twitter: mercury_wallet
-social:
-features:
+social: 
+features: 
+
 ---
+

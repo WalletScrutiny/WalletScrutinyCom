@@ -7,6 +7,7 @@ released: 2020-12-12
 discontinued: 
 updated: 2024-01-10
 version: 
+binaries: 
 provider: JamesOB
 providerWebsite: 
 website: 
@@ -17,8 +18,10 @@ bugbounty:
 meta: ok
 verdict: wip
 date: 2024-05-09
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-features:
+social: 
+features: 
+
 ---
+

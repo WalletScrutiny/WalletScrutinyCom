@@ -7,6 +7,7 @@ released:
 discontinued: 
 updated: 
 version: 
+binaries: 
 provider: 404 Financial LLC
 providerWebsite: 
 website: http://bitcoinwallet.com
@@ -17,8 +18,10 @@ bugbounty:
 meta: ok
 verdict: wip
 date: 2024-05-10
-reviewArchive:
+reviewArchive: 
 twitter: bitcoinwaIIet
-social:
-features:
+social: 
+features: 
+
 ---
+

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Cryptox: Flutter Template'
+title: Cryptox Flutter Template
 altTitle: 
 authors: 
 users: 500

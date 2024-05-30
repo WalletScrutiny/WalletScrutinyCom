@@ -7,6 +7,7 @@ released: 2020-06-30
 discontinued: 
 updated: 2023-09-21
 version: 2.0.2
+binaries: 
 provider: Crypto Advance GmbH
 providerWebsite: 
 website: https://specter.solutions
@@ -17,8 +18,10 @@ bugbounty:
 meta: ok
 verdict: wip
 date: 2024-04-25
-reviewArchive:
+reviewArchive: 
 twitter: SpecterWallet
-social:
-features:
+social: 
+features: 
+
 ---
+

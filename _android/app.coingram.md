@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Coingram: بیت کوین، ارزدیجیتال'
+title: 'Coingram: درآمد از ارزدیجیتال'
 altTitle: 
 authors:
 - danny
@@ -12,7 +12,7 @@ updated: 2024-04-19
 version: 4.5.2
 stars: 4.8
 ratings: 43980
-reviews: 1220
+reviews: 1222
 size: 
 website: https://www.coingraam.com/
 repository: 

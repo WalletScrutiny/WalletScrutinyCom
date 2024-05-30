@@ -7,6 +7,7 @@ released: 2016-01-08
 discontinued: 
 updated: 2016-08-12
 version: 
+binaries: 
 provider: 
 providerWebsite: 
 website: 
@@ -17,8 +18,10 @@ bugbounty:
 meta: obsolete
 verdict: wip
 date: 2024-04-25
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-features:
+social: 
+features: 
+
 ---
+

@@ -10,8 +10,8 @@ idd: '1525858971'
 released: 2021-02-13
 updated: 2024-05-17
 version: 4.1.4
-stars: 3.8
-reviews: 930
+stars: 3.7
+reviews: 937
 size: '306108416'
 website: https://juno.finance
 repository: 

@@ -7,6 +7,7 @@ released: 2019-11-29
 discontinued: 
 updated: 2023-02-22
 version: 2.2.4
+binaries: 
 provider: Muun
 providerWebsite: 
 website: https://muun.com
@@ -17,8 +18,10 @@ bugbounty:
 meta: ok
 verdict: wip
 date: 2024-05-09
-reviewArchive:
+reviewArchive: 
 twitter: muunwallet
-social:
-features:
+social: 
+features: 
+
 ---
+

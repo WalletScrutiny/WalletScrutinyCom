@@ -4,7 +4,7 @@ title: GOPAX (Crypto exchange)
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: kr.co.gopax
 appCountry: cn
 released: 2018-11-05

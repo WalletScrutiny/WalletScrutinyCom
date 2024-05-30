@@ -8,8 +8,8 @@ users: 10000
 appId: com.swissquote.mobiletrader.android.wl.acm
 appCountry: 
 released: 2012-11-01
-updated: 2024-05-08
-version: 3.6.4
+updated: 2024-05-23
+version: 3.6.5
 stars: 3.7
 ratings: 
 reviews: 3

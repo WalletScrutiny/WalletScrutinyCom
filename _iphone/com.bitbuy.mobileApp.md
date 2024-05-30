@@ -8,11 +8,11 @@ appId: com.bitbuy.mobileApp
 appCountry: ca
 idd: 1476837869
 released: 2019-10-21
-updated: 2023-11-10
-version: 4.9.1
+updated: 2024-05-28
+version: 4.9.9
 stars: 4.5
-reviews: 6628
-size: '25092096'
+reviews: 6637
+size: '87204864'
 website: https://bitbuy.ca/
 repository: 
 issue: 

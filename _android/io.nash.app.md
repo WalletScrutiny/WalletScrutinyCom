@@ -1,6 +1,6 @@
 ---
 wsId: nash
-title: 'Nash: Higher Yield Savings'
+title: 'Nash: Trade & Invest in Crypto'
 altTitle: 
 authors:
 - kiwilamb

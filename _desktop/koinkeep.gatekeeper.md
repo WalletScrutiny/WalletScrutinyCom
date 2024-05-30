@@ -7,6 +7,7 @@ released: 2020-02-02
 discontinued: 
 updated: 2022-01-09
 version: 
+binaries: 
 provider: KoinKeep
 providerWebsite: 
 website: 
@@ -17,8 +18,10 @@ bugbounty:
 meta: ok
 verdict: wip
 date: 2024-04-25
-reviewArchive:
+reviewArchive: 
 twitter: koinkeep
-social:
-features:
+social: 
+features: 
+
 ---
+

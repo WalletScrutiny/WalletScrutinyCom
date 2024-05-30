@@ -7,6 +7,7 @@ released: 2020-03-28
 discontinued: 
 updated: 2024-02-10
 version: 
+binaries: 
 provider: 
 providerWebsite: 
 website: https://wallet.swiftcash.cc
@@ -17,8 +18,10 @@ bugbounty:
 meta: ok
 verdict: wip
 date: 2024-05-10
-reviewArchive:
+reviewArchive: 
 twitter: swiftcashcc
-social:
-features:
+social: 
+features: 
+
 ---
+

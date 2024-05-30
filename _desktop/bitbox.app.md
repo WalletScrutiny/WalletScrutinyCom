@@ -7,6 +7,7 @@ released: 2017-11-29
 discontinued: 
 updated: 2024-04-22
 version: 4.42.0
+binaries: 
 provider: Shift Crypto AG
 providerWebsite: https://shiftcrypto.ch
 website: https://shiftcrypto.ch/download
@@ -15,10 +16,12 @@ issue:
 icon: bitbox.app.png
 bugbounty: https://shiftcrypto.ch/bug-bounty-program
 meta: ok
-verdict: wip 
+verdict: wip
 date: 2024-04-25
-reviewArchive:
+reviewArchive: 
 twitter: ShiftCryptoHQ
-social:
-features:
+social: 
+features: 
+
 ---
+
