@@ -82,7 +82,7 @@ function performSearch(wallets, query = false, platform = false) {
   }
 
   temp.sort((a, b) => {
-    if (a.verdict != b.verdict)
+    if (a.verdict != b.verdict && a.verdict && b.verdict)
       return verdictOrder.indexOf(a.verdict) - verdictOrder.indexOf(b.verdict);
     if (a.folder != b.folder)
       return platformOrder.indexOf(a.folder) - platformOrder.indexOf(b.folder);
