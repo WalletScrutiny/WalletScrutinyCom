@@ -10,7 +10,7 @@ idd: 1502532651
 released: 2020-03-25
 updated: 2024-05-07
 version: 2.28.0
-stars: 0
+stars: 3.1
 reviews: 17
 size: '125706240'
 website: http://moonstake.io

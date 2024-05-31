@@ -7,6 +7,7 @@ released: 2012-02-15
 discontinued: 
 updated: 2018-12-24
 version: 0.96.5
+binaries: 
 provider: Armory Technologies
 providerWebsite: 
 website: https://www.bitcoinarmory.com/
@@ -15,12 +16,14 @@ issue:
 icon: armory.png
 bugbounty: 
 meta: ok
-verdict: wip 
+verdict: wip
 date: 2024-04-24
-reviewArchive:
+reviewArchive: 
 twitter: armory
 social:
 - contact@bitcoinarmory.com
-developerName:
-features:
+features: 
+developerName: 
+
 ---
+

@@ -7,6 +7,7 @@ released: 2016-04-09
 discontinued: 
 updated: 2024-05-27
 version: 1.9.15
+binaries: 
 provider: 
 providerWebsite: 
 website: https://bisq.network/
@@ -17,8 +18,10 @@ bugbounty:
 meta: ok
 verdict: wip
 date: 2024-04-24
-reviewArchive:
+reviewArchive: 
 twitter: bisq_network
-social:
-features:
+social: 
+features: 
+
 ---
+

@@ -7,6 +7,7 @@ released: 2018-12-30
 discontinued: 
 updated: 2019-10-29
 version: 0.4.6
+binaries: 
 provider: 
 providerWebsite: 
 website: 
@@ -17,9 +18,11 @@ bugbounty:
 meta: obsolete
 verdict: wip
 date: 2024-04-25
-reviewArchive:
+reviewArchive: 
 twitter: 
 social:
-- https://www.linkedin.com/company/hodler-tech      
-features:
+- https://www.linkedin.com/company/hodler-tech
+features: 
+
 ---
+

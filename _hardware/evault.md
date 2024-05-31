@@ -21,8 +21,8 @@ issue:
 icon: evault.png
 bugbounty: 
 meta: obsolete
-verdict: unreleased
-date: 2022-02-17
+verdict: vapor
+date: 2024-05-29
 signer: 
 reviewArchive: 
 twitter: TheEVaultCo

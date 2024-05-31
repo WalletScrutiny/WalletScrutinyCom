@@ -179,6 +179,7 @@ function getIcon(name) {
     case "hardware": faCollection = "fas fa-toolbox"; break
     case "bearer": faCollection = "i-btc"; break
     case "desktop": faCollection = "fas fa-desktop"; break
+    case "others": faCollection = "fas fa-calculator"; break
   }
   return faCollection
 }

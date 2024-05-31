@@ -10,9 +10,9 @@ appCountry:
 released: 2022-04-12
 updated: 2024-05-10
 version: 24.8.0
-stars: 4.5
+stars: 4.6
 ratings: 
-reviews: 553
+reviews: 556
 size: 
 website: https://phantom.app/
 repository: 

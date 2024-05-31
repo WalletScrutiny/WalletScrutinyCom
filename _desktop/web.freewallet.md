@@ -7,7 +7,8 @@ released:
 discontinued: 
 updated: 
 version: 
-provider: Wallet Services Ltd. 
+binaries: 
+provider: Wallet Services Ltd.
 providerWebsite: 
 website: https://app.freewallet.org
 repository: 
@@ -17,8 +18,10 @@ bugbounty:
 meta: ok
 verdict: wip
 date: 2024-05-10
-reviewArchive:
+reviewArchive: 
 twitter: freewalletorg
-social:
-features:
+social: 
+features: 
+
 ---
+

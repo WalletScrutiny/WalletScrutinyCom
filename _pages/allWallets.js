@@ -8,7 +8,7 @@ permalink: /allWallets.js
   const data = {% include allAppList.html %};
   const opinions = {% include allOpinions.html %};
   window.verdicts = data.verdicts;
-  const folders = ["hardware", "android", "iphone", "bearer", "desktop"];
+  const folders = ["hardware", "android", "iphone", "bearer", "desktop", "others"];
   folders.forEach(folder => {
     const folderData = data[folder];
     const category = folderData.category;

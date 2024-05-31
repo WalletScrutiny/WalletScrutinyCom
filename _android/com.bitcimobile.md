@@ -10,9 +10,9 @@ appCountry:
 released: 2020-03-30
 updated: 2024-02-21
 version: 7.2.5
-stars: 2.2
+stars: 2.3
 ratings: 
-reviews: 13
+reviews: 14
 size: 
 website: https://www.bitci.com.tr/
 repository: 

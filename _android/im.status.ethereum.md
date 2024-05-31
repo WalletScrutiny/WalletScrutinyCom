@@ -10,9 +10,9 @@ appCountry:
 released: 2020-02-05
 updated: 2024-05-18
 version: 1.20.6
-stars: 4.2
+stars: 4.1
 ratings: 2069
-reviews: 62
+reviews: 63
 size: 
 website: https://status.im
 repository: 

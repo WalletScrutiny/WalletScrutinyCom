@@ -12,7 +12,7 @@ updated: 2024-05-23
 version: 4.6.2
 stars: 4.5
 ratings: 13497
-reviews: 716
+reviews: 721
 size: 
 website: https://www.safepal.com
 repository: 

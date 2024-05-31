@@ -7,6 +7,7 @@ released: 2023-03-12
 discontinued: 
 updated: 2024-05-15
 version: 2.0.0
+binaries: 
 provider: Cypher Stack
 providerWebsite: 
 website: https://stackwallet.com/
@@ -17,11 +18,13 @@ bugbounty:
 meta: ok
 verdict: wip
 date: 2024-05-15
-reviewArchive:
+reviewArchive: 
 twitter: stack_wallet
 social:
 - https://www.youtube.com/channel/UCqCtpXsLyNIle1uOO2DU7JA
 - https://www.reddit.com/r/stackwallet
 - https://discord.com/invite/mRPZuXx3At
-features:
+features: 
+
 ---
+

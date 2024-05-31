@@ -7,6 +7,7 @@ released: 2018-01-27
 discontinued: 
 updated: 2023-04-03
 version: 0.7.7-beta
+binaries: 
 provider: 
 providerWebsite: 
 website: https://www.zaphq.io
@@ -15,10 +16,12 @@ issue:
 icon: zap.png
 bugbounty: 
 meta: obsolete
-verdict: wip 
+verdict: wip
 date: 2024-04-25
-reviewArchive:
+reviewArchive: 
 twitter: ln_zap
-social:
-features:
+social: 
+features: 
+
 ---
+

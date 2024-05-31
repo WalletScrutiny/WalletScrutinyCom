@@ -7,6 +7,7 @@ released: 2017-03-15
 discontinued: 
 updated: 2024-05-04
 version: 4.99.8
+binaries: 
 provider: Blockchain Luxembourg S.A.
 providerWebsite: https://blockchain.com
 website: https://login.blockchain.com/#/home
@@ -17,8 +18,10 @@ bugbounty:
 meta: ok
 verdict: wip
 date: 2024-05-10
-reviewArchive:
+reviewArchive: 
 twitter: bitcoinwaIIet
-social:
-features:
+social: 
+features: 
+
 ---
+

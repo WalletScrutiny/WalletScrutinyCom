@@ -9,7 +9,7 @@ appId: com.box.pro
 appCountry: 
 released: 2022-01-06
 updated: 2024-05-21
-version: 5.3.1
+version: 5.3.2
 stars: 2.1
 ratings: 
 reviews: 39

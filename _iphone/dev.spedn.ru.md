@@ -10,8 +10,8 @@ idd: 1524167720
 released: 2020-08-05
 updated: 2024-04-18
 version: 1.15.8
-stars: 4.3
-reviews: 101
+stars: 4.2
+reviews: 103
 size: '84614144'
 website: https://koshelek.ru/
 repository: 

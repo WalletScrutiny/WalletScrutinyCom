@@ -7,6 +7,7 @@ released: 2020-11-07
 discontinued: 
 updated: 2021-07-12
 version: 2.0.4-Beta
+binaries: 
 provider: 
 providerWebsite: 
 website: 
@@ -17,8 +18,10 @@ bugbounty:
 meta: obsolete
 verdict: wip
 date: 2024-04-25
-reviewArchive:
+reviewArchive: 
 twitter: KronosWallet
-social:
-features:
+social: 
+features: 
+
 ---
+

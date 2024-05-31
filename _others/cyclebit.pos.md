@@ -60,8 +60,8 @@ The Cyclebit Point of Sale device allows retail merchants to accept several cryp
 
 It works with NFC enabled cards, particularly: 
 
-- {% include walletLink.html wallet='bearer/tangem' verdict='true' %}
-- {% include walletLink.html wallet='bearer/cyclebit.tangem.card' verdict='true' %} 
+- {% include walletLink.html wallet='hardware/tangem' verdict='true' %}
+- {% include walletLink.html wallet='hardware/cyclebit.tangem.card' verdict='true' %} 
 
 ## Analysis 
 

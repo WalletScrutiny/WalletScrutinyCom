@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: doshi.app.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-07-17
+date: 2024-05-30
 signer: 
 reviewArchive: 
 twitter: doshi_wallet

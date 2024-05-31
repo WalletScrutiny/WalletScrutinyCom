@@ -7,6 +7,7 @@ released: 2020-08-06
 discontinued: 
 updated: 2024-03-15
 version: 2.8.5
+binaries: 
 provider: Sharddax Ltd.
 providerWebsite: 
 website: https://infinitywallet.io/
@@ -17,8 +18,10 @@ bugbounty:
 meta: ok
 verdict: wip
 date: 2024-04-25
-reviewArchive:
+reviewArchive: 
 twitter: InfinityWallet
-social:
-features:
+social: 
+features: 
+
 ---
+

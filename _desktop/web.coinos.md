@@ -7,6 +7,7 @@ released: 2012-09-06
 discontinued: 
 updated: 2024-05-07
 version: 
+binaries: 
 provider: 
 providerWebsite: 
 website: https://coinos.io
@@ -17,8 +18,10 @@ bugbounty:
 meta: ok
 verdict: wip
 date: 2024-05-10
-reviewArchive:
+reviewArchive: 
 twitter: coinoswallet
-social:
-features:
+social: 
+features: 
+
 ---
+

@@ -10,9 +10,9 @@ appCountry:
 released: 2023-02-26
 updated: 2024-03-14
 version: 2.0.0
-stars: 3.7
+stars: 2.8
 ratings: 
-reviews: 
+reviews: 4
 size: 
 website: https://tapswap.io
 repository: 

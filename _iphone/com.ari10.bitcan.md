@@ -8,10 +8,10 @@ appId: com.ari10.bitcan
 appCountry: pl
 idd: '1623342435'
 released: 2022-07-19
-updated: 2024-05-21
-version: 1.4.1
-stars: 4.6
-reviews: 70
+updated: 2024-05-28
+version: 1.4.2
+stars: 4.5
+reviews: 72
 size: '113559552'
 website: https://ari10.com/exchange
 repository: 

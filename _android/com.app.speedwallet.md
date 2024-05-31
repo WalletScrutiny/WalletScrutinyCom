@@ -12,7 +12,7 @@ updated: 2024-05-22
 version: 2.4.0.0.0.2.fp.gps
 stars: 4.7
 ratings: 
-reviews: 98
+reviews: 100
 size: 
 website: https://www.speed.app/
 repository: 

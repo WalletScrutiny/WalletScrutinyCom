@@ -7,6 +7,7 @@ released: 2019-01-08
 discontinued: 
 updated: 
 version: 1.3.0
+binaries: 
 provider: Coinomi
 providerWebsite: 
 website: https://www.coinomi.com/en/downloads
@@ -17,8 +18,10 @@ bugbounty:
 meta: ok
 verdict: wip
 date: 2024-04-24
-reviewArchive:
+reviewArchive: 
 twitter: coinomiwallet
-social:
-features:
+social: 
+features: 
+
 ---
+

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitcoinsuisse.pay.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2021-09-01
+date: 2024-05-30
 signer: 
 reviewArchive: 
 twitter: 

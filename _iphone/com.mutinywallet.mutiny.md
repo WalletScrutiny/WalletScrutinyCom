@@ -9,8 +9,8 @@ idd: '6471030760'
 released: 2024-03-01
 updated: 2024-05-14
 version: 1.7.1
-stars: 5
-reviews: 14
+stars: 4.8
+reviews: 16
 size: '43698176'
 website: https://www.mutinywallet.com/
 repository: 
