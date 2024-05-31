@@ -6,7 +6,6 @@
 
 version=$1
 mk_num=$2
-mkfile=$3
 
 if [[ $mk_num == 4 ]]; then
   version_suffix="-mk4"
@@ -17,10 +16,8 @@ fi
 
 if [[ $mk_num == 'q1' ]]; then
   version_suffix="-q1"
-  privileges=-u $(id -u):$(id -g)
-  mkfile='Q1-Makefile'
-else
   privileges=--privileged
+  mkfile='Q1-Makefile'
 fi
 
 PUBLISHED_BIN=${version}${version_suffix}-coldcard.dfu
@@ -47,14 +44,14 @@ docker run \
   --volume $(realpath stm32/built):/work/built:rw ${privileges} \
   coldcard-build \
   sh -c "export SOURCE_DATE_EPOCH=$SOURCE_DATE_EPOCH; \
-    sh src/stm32/repro-build.sh ${version} ${mk_num} ${mkfile}"
+    sh src/stm32/repro-build.sh ${short_version} ${mk_num} ${mkfile}"
 
 # Remove signatures
 xxd /tmp/firmware/stm32/built/firmware-signed.bin | sed -e 's/^00003f[89abcdef]0: .*/(firmware signature here)/' | xxd -r >firmware-nosig.bin
 xxd /tmp/firmware/stm32/built/check-fw.bin | sed -e 's/^00003f[89abcdef]0: .*/(firmware signature here)/' | xxd -r >${version}${version_suffix}-nosig.bin
 echo
 echo "Hash of non-signature parts downloaded/compiled:"
-sha256sum ${version}${version_suffix}-nosig.bin firmware-nosig.bin
+sha256sum *-v${short_version}${version_suffix}-nosig.bin firmware-nosig.bin
 echo
 echo "Hash of the signed firmware:"
 sha256sum /tmp/firmware/releases/$PUBLISHED_BIN /tmp/firmware/stm32/built/firmware-signed.dfu

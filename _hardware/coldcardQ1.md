@@ -15,14 +15,14 @@ providerWebsite:
 website: https://coldcard.com/q
 shop: https://store.coinkite.com/store/cc-q1
 country: CA
-price: 199USD
+price: 219.99USD
 repository: https://github.com/Coldcard/firmware
 issue: 
 icon: coldcardQ1.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
-date: 2024-05-28
+verdict: reproducible
+date: 2024-05-31
 signer: 
 reviewArchive: 
 twitter: COLDCARDwallet
@@ -58,20 +58,23 @@ You can set a PIN code for the device and are offered four options in creating a
 As ColdcardQ1's source code is now available, we decided to check for reproducibility. Excluding a few changes to our [test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/scripts/test/hardware/coldCard.sh), steps to reproduce the product remain largely the same across the Coldcard series. We were able to build the binary file.
 
 ```
-Need published binary for: 1.2.1Q
+hexdump -C firmware-signed.bin | sed -e 's/^00003f[89abcdef]0 .*/(firmware signature here)/' > repro-got.txt
+hexdump -C check-fw.bin | sed -e 's/^00003f[89abcdef]0 .*/(firmware signature here)/' > repro-want.txt
+diff repro-got.txt repro-want.txt
 
-Copy it into ../releases
+SUCCESS. 
 
+You have built a bit-for-bit identical copy of Coldcard firmware for v1.2.1Q
 + set +ex
-xxd: /tmp/firmware/stm32/built/check-fw.bin: No such file or directory
 
 Hash of non-signature parts downloaded/compiled:
-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  2024-05-09T1529-v1.2.1Q-q1-nosig.bin
+81e9d676353402169b6e440482a7ad49c100653f5271439b06b00a77616749c1  2024-05-09T1529-v1.2.1Q-q1-nosig.bin
 81e9d676353402169b6e440482a7ad49c100653f5271439b06b00a77616749c1  firmware-nosig.bin
 
 Hash of the signed firmware:
 90b1edfbe194b093258f9cda8f4add4aa3317e9ea205ff35914da7d91410fdae  /tmp/firmware/releases/2024-05-09T1529-v1.2.1Q-q1-coldcard.dfu
-0009828c218404023d9b80c8f23077dd66989dadcd6275b3c096f44313f98e7f  /tmp/firmware/stm32/built/firmware-signed.dfu
+55f29ec5e2a476bd2cb153c465879b2dee9538c2704b19798ed262cf918838fb  /tmp/firmware/stm32/built/firmware-signed.dfu
+
 ```
 
-We will retest this to check for errors.
+Now that the firmware has been reproduced successfully, the unsigned binaries' checksums are matched. We can now mark this product as **reproducible.**
