@@ -54,24 +54,32 @@ function buildWalletGridAndPaginationUI(platform, page, query, queryRaw) {
 }
 
 function generateAndAppendWalletTiles(workingArray, pageNo) {
-  const page = Number(pageNo) - 1 >= 0 ? Number(pageNo) - 1 : 0
-  var container = document.createElement("div")
-  container.classList.add("wallet-placeholder")
-  container.classList.add("view-tiles")
-  let flexListEle = document.createElement("div")
-  flexListEle.classList.add("flexi-list")
-  let badgesHtml = ``
+  const page = Number(pageNo) - 1 >= 0 ? Number(pageNo) - 1 : 0;
+  var container = document.createElement("div");
+  container.classList.add("wallet-placeholder");
+  container.classList.add("view-tiles");
+  let flexListEle = document.createElement("div");
+  flexListEle.classList.add("flexi-list");
+  let badgesHtml = ``;
+  
   for (let i = 0; i < paginationLimit; i++) {
-    const numb = (page * paginationLimit) + i
-    const wallet = workingArray[numb]
-    if (!wallet) { break }
-    const domClass = String(`${wallet.folder}${String(wallet.appId)}`).replace(/\./g, "_")
-    const icon = getIcon(wallet.folder)
-    const delay = (i + 1) * 80
-    let passed = ``
-    let failed = ``
-    for (let i = 0; i < wallet.score.numerator; i++) { passed += `<i class="pass"></i>` }
-    for (let i = 0; i < (wallet.score.denominator - wallet.score.numerator); i++) { failed += `<i class="fail"></i>` }
+    const numb = (page * paginationLimit) + i;
+    const wallet = workingArray[numb];
+    if (!wallet) { break; }
+    const domClass = String(`${wallet.folder}${String(wallet.appId)}`).replace(/\./g, "_");
+    const icon = getIcon(wallet.folder);
+    const delay = (i + 1) * 80;
+    let passed = ``;
+    let failed = ``;
+
+    if (wallet.score && wallet.folder !== 'others') {
+      for (let j = 0; j < wallet.score.numerator; j++) { passed += `<i class="pass"></i>`; }
+      for (let j = 0; j < (wallet.score.denominator - wallet.score.numerator); j++) { failed += `<i class="fail"></i>`; }
+    }
+
+    const verdictText = wallet.verdict && window.verdicts[wallet.verdict] ? window.verdicts[wallet.verdict].short : '';
+    const metaText = wallet.meta && window.verdicts[wallet.meta] ? window.verdicts[wallet.meta].short : '';
+
     badgesHtml += `
     <a class="AppDisplayCard item ${wallet.folder} ${wallet.meta} ${domClass}" href="${wallet.url}" style="animation-delay:${delay}ms;">
       <div class="tile-head">
@@ -81,26 +89,29 @@ function generateAndAppendWalletTiles(workingArray, pageNo) {
       </div>
       <div class="wallet-details">
         <div class="stamps">
-        ${wallet.meta !== "outdated" ? `<span data-text="${window.verdicts[wallet.verdict].short}" class="stamp stamp-${wallet.verdict}" alt=""></span>` : ""}
-        ${wallet.meta && wallet.meta !== "ok" ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>` : ""}
+        ${wallet.folder !== 'others' && wallet.meta !== "outdated" ? `<span data-text="${verdictText}" class="stamp stamp-${wallet.verdict}" alt=""></span>` : ""}
+        ${wallet.folder !== 'others' && wallet.meta && wallet.meta !== "ok" ? `<span data-text="${metaText}" class="stamp stamp-${wallet.meta}" alt=""></span>` : ""}
         </div>
-        <div class="score" data-numerator="${wallet.score.numerator}" data-denominator="${wallet.score.denominator}">
-          <span>Passed ${wallet.score.numerator !== wallet.score.denominator ? wallet.score.numerator : 'all'} ${wallet.score.numerator !== wallet.score.denominator ? 'of' : ''} ${wallet.score.denominator} tests</span>
-          <div>${passed}${failed}</div>
+        <div class="score" data-numerator="${wallet.score ? wallet.score.numerator : ''}" data-denominator="${wallet.score ? wallet.score.denominator : ''}">
+          <span>${wallet.folder !== 'others' && wallet.score ? `Passed ${wallet.score.numerator !== wallet.score.denominator ? wallet.score.numerator : 'all'} ${wallet.score.numerator !== wallet.score.denominator ? 'of' : ''} ${wallet.score.denominator} tests` : ''}</span>
+          <div>${wallet.folder !== 'others' ? `${passed}${failed}` : ''}</div>
         </div>
       </div>
-    </a>`
+    </a>`;
   }
-  flexListEle.innerHTML = `${badgesHtml}`
-  container.append(flexListEle)
-  document.querySelector(".wallet-placeholder").replaceWith(container)
+
+  flexListEle.innerHTML = `${badgesHtml}`;
+  container.append(flexListEle);
+  document.querySelector(".wallet-placeholder").replaceWith(container);
+  
   for (let i = 0; i < paginationLimit; i++) {
-    const numb = (page * paginationLimit) + i
-    const instance = workingArray[numb]
-    if (!instance) { break }
-    processStyle(instance)
+    const numb = (page * paginationLimit) + i;
+    const instance = workingArray[numb];
+    if (!instance) { break; }
+    processStyle(instance);
   }
 }
+
 
 function generateAndAppendPagination(workingArray, pageNo) {
   if (workingArray.length >= paginationLimit && (Math.ceil(workingArray.length / paginationLimit) < pageNo)) {
