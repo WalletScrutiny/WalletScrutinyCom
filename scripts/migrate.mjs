@@ -4,6 +4,7 @@ import helperAppStore from './helperAppStore.mjs';
 import helperHardware from './helperHardware.mjs';
 import helperBearer from './helperBearer.mjs';
 import helperDesktop from './helperDesktop.mjs';
+import helperOthers from './helperOthers.mjs';
 import fs from 'fs';
 import yaml from 'js-yaml';
 var meta = yaml.load(fs.readFileSync('_data/platformMeta.yml'));
@@ -61,6 +62,6 @@ mv images/wIcons/${category}/{${header.icon},${newIcon}}`);
   }
 }; // crucial semicolon!
 
-[helperPlayStore, helperAppStore, helperHardware, helperBearer, helperDesktop].forEach(h => {
+[helperPlayStore, helperAppStore, helperHardware, helperBearer, helperDesktop, helperOthers].forEach(h => {
   helper.migrateAll(h.category, migration, h.headers);
 });

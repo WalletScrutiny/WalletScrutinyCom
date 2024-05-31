@@ -14,7 +14,7 @@ then
     exit
 fi
 
-mkdir images/wIcons/{android,iphone,hardware,bearer,desktop}/{small,tiny}/ 2> /dev/null
+mkdir images/wIcons/{android,iphone,hardware,bearer,desktop,others}/{small,tiny}/ 2> /dev/null
 truncate /tmp/revert.txt --size=0
 tmpDir=/tmp/resizing/
 export tmpDir
@@ -73,7 +73,7 @@ resizeMany() {
 
 export -f resizeDeterministically
 
-for platform in android iphone hardware bearer desktop; do
+for platform in android iphone hardware bearer desktop others; do
   resizeMany images/wIcons/$platform images/wIcons/$platform/small 100
   resizeMany images/wIcons/$platform images/wIcons/$platform/tiny 25
 done
@@ -88,9 +88,9 @@ tmpFolder=/tmp/migrateImages
 rm -rf $tmpFolder 2> /dev/null
 mkdir --parents $tmpFolder/
 mv images/wIcons $tmpFolder
-mkdir --parents images/wIcons/{android,iphone,hardware,bearer,desktop}/{small,tiny}/ 2> /dev/null
+mkdir --parents images/wIcons/{android,iphone,hardware,bearer,desktop,others}/{small,tiny}/ 2> /dev/null
 folder='bearer'
-for folder in bearer android iphone hardware desktop; do
+for folder in bearer android iphone hardware desktop others; do
   icons=$(grep "^icon: \(.*\)" _$folder/* --only-matching --no-filename | sed 's/^icon: //g')
   for i in $icons; do
     mv $tmpFolder/wIcons/${folder}/$i images/wIcons/${folder}/$i
