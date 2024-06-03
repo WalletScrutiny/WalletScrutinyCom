@@ -3,31 +3,19 @@ title: Ridge Iron Damascus Steel Artisan Cold Wallet
 appId: ridgeiron.damascusartisan
 authors:
 - danny
-released: 2019-01-25
-discontinued: 
-updated: 
-version: 
-binaries: 
-dimensions: 
-weight: 
-provider: Ridge Iron
-providerWebsite: http://ridgeiron.com/
-website: 
-shop: http://ridgeiron.com/cart/
-country: US
-price: 145USD
-repository: 
-issue: 
 icon: ridgeiron.damascusartisan.png
-bugbounty: 
-meta: ok
-verdict: plainkey
 date: 2022-05-17
-signer: 
-reviewArchive: 
+released: 2019-01-25
 twitter: blockchainiron
 social:
 - https://www.facebook.com/RidgeIronGear/
+provider: Ridge Iron
+providerWebsite: http://ridgeiron.com/
+shop: http://ridgeiron.com/cart/
+country: US
+price: 145USD
+meta: ok
+verdict: plainkey
 
 ---
 

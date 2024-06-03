@@ -3,34 +3,20 @@ title: SecuX StreamPro
 appId: secuxstreampro
 authors:
 - danny
-released: 
-discontinued: 
-updated: 
-version: 
-binaries: 
-dimensions: 
-weight: 
-provider: SecuX Technology Inc.
-providerWebsite: https://secuxtech.com
-website: https://secuxtech.com/secux-payment-terminal
-shop: 
-country: TW
-price: 
-repository: 
-issue: 
 icon: secuxstreampro.png
-bugbounty: 
-meta: ok
-verdict: wip
 date: 2022-05-17
-signer: 
-reviewArchive: 
+website: https://secuxtech.com/secux-payment-terminal
 twitter: SecuXwallet
 social:
 - https://www.linkedin.com/company/secuxtech
 - https://www.facebook.com/secuxtech
 - https://www.instagram.com/secuxtechnology/
 - https://www.youtube.com/channel/UCfSfjbBHYgGIOcQJoB5hotQ
+provider: SecuX Technology Inc.
+providerWebsite: https://secuxtech.com
+country: TW
+meta: ok
+verdict: wip
 
 ---
 

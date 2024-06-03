@@ -1,33 +1,19 @@
 ---
 title: Token Frame
-appId: tokenFrame
+appId: tokenframe
 authors:
 - danny
-released: 
-discontinued: 
-updated: 
-version: 
-binaries: 
-dimensions: 
-weight: 
-provider: Token Frame, LLC
-providerWebsite: https://tokenframe.com/
-website: 
-shop: https://tokenframe.com/cart
-country: US
-price: 
-repository: 
-issue: 
 icon: tokenframe.png
-bugbounty: 
-meta: ok
-verdict: nowallet
 date: 2023-12-06
-signer: 
-reviewArchive: 
 twitter: tokenframeNFT
 social:
-- https://www.instagram.com/tokenframe.eth 
+- https://www.instagram.com/tokenframe.eth
+provider: Token Frame, LLC
+providerWebsite: https://tokenframe.com/
+shop: https://tokenframe.com/cart
+country: US
+meta: ok
+verdict: nowallet
 
 ---
 

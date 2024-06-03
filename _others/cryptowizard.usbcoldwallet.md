@@ -3,32 +3,19 @@ title: Crypto Wizard USB Cold Wallet
 appId: cryptowizard.usbcoldwallet
 authors:
 - danny
+icon: cryptowizard.usbcoldwallet.png
+date: 2023-09-29
 released: 2022-05-02
-discontinued: 
-updated: 
-version: 
-binaries: 
-dimensions:
+social:
+- https://www.facebook.com/profile.php?id=100046009663491
 weight: 56.7
 provider: Guru Computers, LLC
 providerWebsite: https://gurucomputers.us
-website: 
 shop: https://www.amazon.com/dp/B09ZBKN6WS
 country: US
 price: 60USD
-repository: 
-issue: 
-icon: cryptowizard.usbcoldwallet.png
-bugbounty: 
 meta: ok
 verdict: plainkey
-date: 2023-09-29
-signer: 
-reviewArchive:
-twitter: 
-social:
-- https://www.facebook.com/profile.php?id=100046009663491
-features: 
 
 ---
 

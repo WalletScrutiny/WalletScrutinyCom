@@ -54,7 +54,8 @@ const knownDomains = new Set([
   "linkedin","medium","pinterest","reddit","slack","t","tiktok","twitter",
   "vimeo","vk","weibo","whatsapp","youtube","archive"]);
 
-const sl = function (header, body, fileName, category) {
+const migration = function (header, body, fileName, categoryHelper) {
+  const category = categoryHelper.category;
   (header.social || []).forEach( url => {
     try {
       if (url.startsWith("mailto")) {
@@ -71,5 +72,5 @@ const sl = function (header, body, fileName, category) {
 }; // crucial semicolon!
 
 [helperPlayStore, helperAppStore, helperHardware, helperBearer].forEach(h => {
-  helper.migrateAll(h.category, sl, h.headers);
+  helper.migrateAll(h, migration);
 });

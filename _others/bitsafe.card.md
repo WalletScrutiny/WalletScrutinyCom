@@ -3,31 +3,16 @@ title: BitSafeCard
 appId: bitsafe.card
 authors:
 - danny
+icon: bitsafe.card.png
+date: 2023-04-28
 released: 2021-12-28
-discontinued: 
-updated: 
-version: 
-binaries: 
-dimensions: 
-weight: 
-provider: Bethino LLC
-providerWebsite: 
 website: https://www.bitsafecard.com/
+twitter: Bitsafecard
+provider: Bethino LLC
 shop: https://www.bitsafecard.com/en/Shop
 country: TR
-price: 
-repository: 
-issue: 
-icon: bitsafecard.png
-bugbounty: 
 meta: ok
 verdict: prefilled
-date: 2023-04-28
-signer: 
-reviewArchive: 
-twitter: Bitsafecard
-social: 
-features: 
 
 ---
 

@@ -3,31 +3,19 @@ title: Age of Chains Floppy
 appId: ageofchains.floppy
 authors:
 - danny
-released: 
-discontinued: 
-updated: 
-version: 
-binaries: 
-dimensions: 
-weight: 
-provider: Intergalactic Travel Adventures UG (haftungsbeschränkt)
-providerWebsite: https://www.ageofchains.com/
-website: https://www.ageofchains.com/product/xanthrax-floppy-disk-edition-series-2-card-016/
-shop: 
-country: DE
-price: 30EUR
-repository: 
-issue: 
 icon: ageofchains.floppy.png
-bugbounty: 
-meta: obsolete
-verdict: nowallet
 date: 2022-05-19
-signer: 
-reviewArchive: 
+website: >-
+  https://www.ageofchains.com/product/xanthrax-floppy-disk-edition-series-2-card-016/
 twitter: ageofchains
 social:
 - https://www.youtube.com/channel/UCYDgnHlrNXoZSR1fPCRZwRA/featured
+provider: Intergalactic Travel Adventures UG (haftungsbeschränkt)
+providerWebsite: https://www.ageofchains.com/
+country: DE
+price: 30EUR
+meta: obsolete
+verdict: nowallet
 
 ---
 

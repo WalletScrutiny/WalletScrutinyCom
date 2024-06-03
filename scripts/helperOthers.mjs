@@ -6,8 +6,7 @@ import helper from './helper.mjs';
 
 const category = 'others'
 const folder = `_${category}/`
-const headers = ('title appId released updated version website repository ' +
-                'issue icon date reviewArchive twitter social').split(' ')
+const headers = ('title appId authors icon date').split(' ')
 
 async function refreshAll () {
   fs.readdir(folder, async (err, files) => {
@@ -34,6 +33,5 @@ export default {
   category,
   headers,
   refreshAll,
-  refreshFile,
-  stats
+  refreshFile
 }
