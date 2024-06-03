@@ -11,7 +11,7 @@ released: 2019-02-07
 updated: 2024-05-21
 version: 2.4.5
 stars: 3.7
-reviews: 50
+reviews: 51
 size: '153415680'
 website: https://www.coinpayments.net/
 repository: 

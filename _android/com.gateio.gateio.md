@@ -4,15 +4,15 @@ title: Gate.io
 altTitle: 
 authors:
 - danny
-users: 1000000
+users: 5000000
 appId: com.gateio.gateio
 appCountry: id
 released: 2017-11-03
 updated: 2024-05-29
-version: 6.5.1
-stars: 3.5
+version: 6.6.1
+stars: 3.4
 ratings: 17546
-reviews: 3203
+reviews: 3209
 size: 
 website: https://gate.io/
 repository: 

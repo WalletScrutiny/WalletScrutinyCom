@@ -12,7 +12,7 @@ updated: 2024-05-21
 version: 2.17.0
 stars: 4
 ratings: 51097
-reviews: 66
+reviews: 65
 size: 
 website: http://www.mercadobitcoin.com.br
 repository: 

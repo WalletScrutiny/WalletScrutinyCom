@@ -32,7 +32,7 @@ reviewArchive:
   version: 1.3.6
   appHash: b85edf5bd058028e708437c125ad3d67ab6da520b402d9aec59b47705f3a5509
   gitRevision: 421e87907f78d34a2a99967ef12d2423311f5530
-  verdict: reproducible 
+  verdict: reproducible
 twitter: KeystoneForBTC
 social:
 - https://www.youtube.com/channel/UCaReIdawwYPPcyWGoNunF7g

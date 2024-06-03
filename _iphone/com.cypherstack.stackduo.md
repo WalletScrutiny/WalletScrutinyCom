@@ -2,12 +2,12 @@
 wsId: stackDuo
 title: Stack Duo by Cypher Stack
 altTitle: 
-authors: 
+authors:
 - danny
 appId: com.cypherstack.stackduo
 appCountry: us
 idd: '6446602017'
-released: '2023-03-29T07:00:00Z'
+released: 2023-03-29
 updated: 2024-05-25
 version: 1.1.0
 stars: 5
@@ -28,7 +28,7 @@ social:
 - https://discord.com/invite/mRPZuXx3At
 - https://t.me/stackwallet
 - https://www.reddit.com/r/stackwallet
-- https://www.youtube.com/channel/UCqCtpXsLyNIle1uOO2DU7JA 
+- https://www.youtube.com/channel/UCqCtpXsLyNIle1uOO2DU7JA
 features: 
 developerName: Cypher Stack LLC
 

@@ -30,7 +30,7 @@ meta: ok
 verdict: reproducible
 date: 2024-05-31
 signer: 
-reviewArchive: 
+reviewArchive:
 - date: 2023-06-20
   version: v2.1.2
   appHash: 9de833a38931b7e4660e8d0e3ea4a2bfe74924caa1328834e9be9c3d1750cd7e

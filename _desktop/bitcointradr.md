@@ -22,7 +22,6 @@ reviewArchive:
 twitter: 
 social: 
 features: 
-developerName: 
 
 ---
 

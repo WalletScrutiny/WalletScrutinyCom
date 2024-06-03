@@ -1,6 +1,6 @@
 ---
 wsId: stormgain
-title: 'StormGain: Bitcoin Wallet App'
+title: 'StormGain: Bitcoin & Crypto'
 altTitle: 
 authors:
 - leo

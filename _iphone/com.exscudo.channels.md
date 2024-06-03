@@ -9,8 +9,8 @@ appId: com.exscudo.channels
 appCountry: ru
 idd: 1367425342
 released: 2018-05-16
-updated: 2024-05-29
-version: 3.13.0
+updated: 2024-06-02
+version: 3.13.1
 stars: 4.5
 reviews: 54
 size: '187590656'

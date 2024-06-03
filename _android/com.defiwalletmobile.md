@@ -8,8 +8,8 @@ users: 50000
 appId: com.defiwalletmobile
 appCountry: 
 released: 2021-12-13
-updated: 2023-11-07
-version: 1.25.2
+updated: 2024-06-01
+version: 1.26.2
 stars: 4.8
 ratings: 
 reviews: 143

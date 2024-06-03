@@ -10,7 +10,7 @@ appId: org.electrum.electrum
 appCountry: 
 released: 2016-03-02
 updated: 2024-05-30
-version: 4.5.4.0
+version: 4.5.5.0
 stars: 3.8
 ratings: 2500
 reviews: 327

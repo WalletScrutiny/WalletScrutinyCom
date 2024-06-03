@@ -10,8 +10,8 @@ idd: '1612226119'
 released: 2022-04-07
 updated: 2024-05-30
 version: 3.7.5
-stars: 4.2
-reviews: 63
+stars: 4.3
+reviews: 65
 size: '174777344'
 website: https://www.bitazza.com
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: BinanceTR
-title: 'Binance TR: Bitcoin ve Kripto'
+title: 'Binance TR: Bitcoin and Crypto'
 altTitle: 
 authors:
 - danny
@@ -12,7 +12,7 @@ updated: 2024-05-24
 version: 2.6.2
 stars: 2.8
 ratings: 42784
-reviews: 16289
+reviews: 16299
 size: 
 website: https://www.trbinance.com/
 repository: 

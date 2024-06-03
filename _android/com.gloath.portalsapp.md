@@ -10,9 +10,9 @@ appCountry:
 released: 2018-03-20
 updated: 2020-12-20
 version: 0.0.4a
-stars: 4.4
+stars: 4.5
 ratings: 138
-reviews: 24
+reviews: 23
 size: 
 website: https://portals.nz
 repository: 

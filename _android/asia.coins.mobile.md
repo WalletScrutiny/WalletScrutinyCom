@@ -9,10 +9,10 @@ appId: asia.coins.mobile
 appCountry: 
 released: 2014-10-01
 updated: 2024-05-29
-version: 7.5.9.0
+version: 7.5.10.0
 stars: 3.2
 ratings: 109535
-reviews: 522
+reviews: 523
 size: 
 website: https://coins.ph
 repository: 

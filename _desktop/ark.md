@@ -22,7 +22,6 @@ reviewArchive:
 twitter: arkecosystem
 social: 
 features: 
-developerName: 
 
 ---
 

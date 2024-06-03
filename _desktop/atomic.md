@@ -25,7 +25,6 @@ social:
 - https://www.youtube.com/c/AtomicWallet
 - support@atomicwallet.io
 features: 
-developerName: 
 
 ---
 

@@ -11,7 +11,7 @@ released: 2023-03-29
 updated: 2024-05-25
 version: 1.12.1
 stars: 4.1
-reviews: 61
+reviews: 59
 size: '64079872'
 website: https://noone.io
 repository: 

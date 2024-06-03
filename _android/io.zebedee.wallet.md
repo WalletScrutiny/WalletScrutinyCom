@@ -10,9 +10,9 @@ appCountry:
 released: 2020-10-20
 updated: 2024-04-25
 version: 3.87.3
-stars: 4.6
+stars: 4.5
 ratings: 358
-reviews: 2512
+reviews: 2555
 size: 
 website: https://zbd.one/help
 repository: 

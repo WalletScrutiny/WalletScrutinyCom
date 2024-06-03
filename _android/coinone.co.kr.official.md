@@ -8,7 +8,7 @@ users: 1000000
 appId: coinone.co.kr.official
 appCountry: 
 released: 2018-01-28
-updated: 2024-05-29
+updated: 2024-05-31
 version: 4.13.2
 stars: 3.2
 ratings: 9232

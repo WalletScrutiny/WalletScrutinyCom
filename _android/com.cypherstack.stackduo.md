@@ -3,15 +3,17 @@ wsId: stackDuo
 title: Stack Duo
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100
 appId: com.cypherstack.stackduo
 appCountry: 
+released: 
 updated: 2024-05-25
 version: VARY
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://stackwallet.com
 repository: https://github.com/cypherstack/stack_duo
 issue: 

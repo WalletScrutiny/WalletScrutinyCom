@@ -23,7 +23,6 @@ twitter: armory
 social:
 - contact@bitcoinarmory.com
 features: 
-developerName: 
 
 ---
 

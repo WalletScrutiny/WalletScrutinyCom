@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.payz.maxpayz.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2023-06-10
+date: 2024-06-03
 signer: 
 reviewArchive: 
 twitter: 
