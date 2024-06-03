@@ -5,10 +5,11 @@ authors:
 - kiwilamb
 - leo
 - '@sethforprivacy'
+- danny
 released: 2022-03-10
 discontinued: 
-updated: 2023-06-13
-version: v2.1.2
+updated: 2024-05-28
+version: v2.3.1
 binaries: https://github.com/Foundation-Devices/passport2/releases
 dimensions:
 - 39
@@ -27,9 +28,14 @@ icon: passportb2.png
 bugbounty: https://foundationdevices.com/security/
 meta: ok
 verdict: reproducible
-date: 2023-06-20
+date: 2024-05-31
 signer: 
 reviewArchive: 
+- date: 2023-06-20
+  version: v2.1.2
+  appHash: 9de833a38931b7e4660e8d0e3ea4a2bfe74924caa1328834e9be9c3d1750cd7e
+  gitRevision: 1b1de26f9dcadf889a665f5650ee2656cb0a4206
+  verdict: reproducible
 twitter: FOUNDATIONdvcs
 social:
 - https://www.linkedin.com/company/foundationdevices
@@ -46,7 +52,7 @@ features:
 ## Product Description 
 
 It features the following specifications: 
-
+   
 > - Supported Cryptocurrencies:	Bitcoin via PSBTs; best-in-class multisig experience.
 - Supported Software Wallets:	Bitcoin Core, BlueWallet, BTCPay, Casa, Electrum, Nunchuk, Simple Bitcoin Wallet, Sparrow, Specter, Wasabi, and other wallets supporting PSBTs via microSD or QR codes.
 - Key Components:	STM processor, Microchip 608a secure element, Omnivision Cameracube.
@@ -87,57 +93,54 @@ With the provider's help we updated the [test script](https://gitlab.com/wallets
 This device runs the "color" version of the firmware so we provide these
 parameters to it:
   
-* version: 2.1.2
+* version: 2.3.1
 * model: color
-* build fingerprint: 08959d69338eb33ab008ae6e74e111838cc60f39ef17befe401e77d1cc274520
-* release fingerprint: 9de833a38931b7e4660e8d0e3ea4a2bfe74924caa1328834e9be9c3d1750cd7e
+* build fingerprint: b435743783951ebecbf50bf2666a01039db2e573ce507835fa15bc33608fc40f
+* release fingerprint: ff64ad2fcc0d72c626e1a9885a3de224d0d3f2e78f4de19fc166f1f4e91e1464
 
 The fingerprints can be found on the [release page](https://github.com/Foundation-Devices/passport2/releases).
 
 ```
-$ ./scripts/test/hardware/passport.sh 2.1.2 color 08959d69338eb33ab008ae6e74e111838cc60f39ef17befe401e77d1cc274520 9de833a38931b7e4660e8d0e3ea4a2bfe74924caa1328834e9be9c3d1750cd7e
+$ ./scripts/test/hardware/passport.sh 2.3.1 color b435743783951ebecbf50bf2666a01039db2e573ce507835fa15bc33608fc40f ff64ad2fcc0d72c626e1a9885a3de224d0d3f2e78f4de19fc166f1f4e91e1464
 
 ...
 
-   Compiling phf v0.11.1
-   Compiling ur v0.3.0 (https://github.com/Foundation-Devices/ur-rs?branch=dev#69297429)
-   Compiling ur-foundation v0.1.0 (https://github.com/Foundation-Devices/rust-ur-foundation?branch=dev-v0.1.0#0ae54214)
-   Compiling foundation v0.1.0 (/workspace/extmod/foundation-rust)
-    Finished release [optimized] target(s) in 9.44s
+Compiling foundation v0.1.0 (/workspace/extmod/foundation-rust)
+    Finished release [optimized] target(s) in 9.29s
 LINK build-Passport/firmware.elf
 Memory region         Used Size  Region Size  %age Used
-           FLASH:          0 GB         2 MB      0.00%
-       FLASH_ISR:       14928 B       128 KB     11.39%
-      FLASH_TEXT:     1676872 B      1662 KB     98.53%
+           FLASH:     1668340 B      1662 KB     98.03%
             DTCM:      118664 B       128 KB     90.53%
-             RAM:      218872 B       512 KB     41.75%
+             RAM:      217536 B       512 KB     41.49%
           RAM_D2:      292080 B       288 KB     99.04%
            SRAM4:       51092 B        64 KB     77.96%
    text	   data	    bss	    dec	    hex	filename
-1672004	  19796	 660908	2352708	 23e644	build-Passport/firmware.elf
+1648520	  19812	 659548	2327880	 238548	build-Passport/firmware.elf
 INFO: this build requires mboot to be installed first
 GEN build-Passport/firmware-COLOR.bin
 GEN build-Passport/firmware.dfu
 GEN build-Passport/firmware.hex
 make: Leaving directory '/workspace/ports/stm32'
-Built v2.1.2 binary sha256 hash:
-08959d69338eb33ab008ae6e74e111838cc60f39ef17befe401e77d1cc274520  ports/stm32/build-Passport/firmware-COLOR.bin
-Expected v2.1.2 build hash:
-08959d69338eb33ab008ae6e74e111838cc60f39ef17befe401e77d1cc274520
+Built v2.3.1 binary sha256 hash:
+b435743783951ebecbf50bf2666a01039db2e573ce507835fa15bc33608fc40f  ports/stm32/build-Passport/firmware-COLOR.bin
+Expected v2.3.1 build hash:
+b435743783951ebecbf50bf2666a01039db2e573ce507835fa15bc33608fc40f
 ports/stm32/build-Passport/firmware-COLOR.bin: OK
-v2.1.2 release binary sha256 hash:
-9de833a38931b7e4660e8d0e3ea4a2bfe74924caa1328834e9be9c3d1750cd7e  ../v2.1.2-passport.bin
-Expected v2.1.2 release binary hash:
-9de833a38931b7e4660e8d0e3ea4a2bfe74924caa1328834e9be9c3d1750cd7e
-../v2.1.2-passport.bin: OK
-Comparing v2.1.2 stripped release binary hash:
-Expected v2.1.2 build hash:
-08959d69338eb33ab008ae6e74e111838cc60f39ef17befe401e77d1cc274520
-no-header-v2.1.2-passport.bin: OK
-Untagged: foundation-devices/passport2:latest
+v2.3.1 release binary sha256 hash:
+ff64ad2fcc0d72c626e1a9885a3de224d0d3f2e78f4de19fc166f1f4e91e1464  ../v2.3.1-passport.bin
+Expected v2.3.1 release binary hash:
+ff64ad2fcc0d72c626e1a9885a3de224d0d3f2e78f4de19fc166f1f4e91e1464
+../v2.3.1-passport.bin: OK
+Comparing v2.3.1 stripped release binary hash:
+Expected v2.3.1 build hash:
+b435743783951ebecbf50bf2666a01039db2e573ce507835fa15bc33608fc40f
+no-header-v2.3.1-passport.bin: OK
+
 ```
 
 which shows this firmware is **reproducible**. Upon updating your device, you
 should be shown
-`9de833a38931b7e4660e8d0e3ea4a2bfe74924caa1328834e9be9c3d1750cd7e` to be sure
+`ff64ad2fcc0d72c626e1a9885a3de224d0d3f2e78f4de19fc166f1f4e91e1464` to be sure
 you got the file that we tested.
+
+{% include asciicast %}
