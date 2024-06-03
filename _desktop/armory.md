@@ -21,7 +21,7 @@ date: 2024-04-24
 reviewArchive: 
 twitter: armory
 social:
-- contact@bitcoinarmory.com
+- mailto:contact@bitcoinarmory.com
 features: 
 
 ---

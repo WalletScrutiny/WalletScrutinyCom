@@ -23,7 +23,7 @@ twitter: atomicwallet
 social:
 - https://www.facebook.com/AtomicWallet/
 - https://www.youtube.com/c/AtomicWallet
-- support@atomicwallet.io
+- mailto:support@atomicwallet.io
 features: 
 
 ---
