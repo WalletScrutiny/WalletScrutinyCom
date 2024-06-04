@@ -9,7 +9,7 @@ appId: com.wealthsimple.trade
 appCountry: ca
 released: 2019-03-12
 updated: 2024-05-31
-version: 2.137.0
+version: 2.138.0
 stars: 4.5
 ratings: 54327
 reviews: 11730

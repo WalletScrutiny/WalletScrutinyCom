@@ -11,7 +11,7 @@ released: 2016-04-19
 updated: 2024-05-24
 version: 5.45.0
 stars: 4.7
-reviews: 51594
+reviews: 51653
 size: '114110464'
 website: https://uphold.com
 repository: 

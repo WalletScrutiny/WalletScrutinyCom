@@ -12,7 +12,7 @@ updated: 2024-05-31
 version: 1.15.1
 stars: 4.5
 ratings: 
-reviews: 28
+reviews: 29
 size: 
 website: https://cakewallet.com
 repository: 

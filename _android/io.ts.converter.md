@@ -12,7 +12,7 @@ updated: 2024-03-14
 version: 2.0.0
 stars: 3.5
 ratings: 
-reviews: 4
+reviews: 5
 size: 
 website: https://tapswap.io
 repository: 
