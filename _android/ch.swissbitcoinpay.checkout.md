@@ -105,7 +105,7 @@ WORKDIR /root
 
 ## Restarting and Reconfiguring the Container
 
-### Start a new container from your base Ubuntu image:
+### Start a new container from the base Ubuntu image:
   
 ```
 docker run -it --name swissbitcoinpay-setup ubuntu-bare /bin/bash
