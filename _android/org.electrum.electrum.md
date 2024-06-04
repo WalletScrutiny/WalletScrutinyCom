@@ -5,12 +5,13 @@ altTitle:
 authors:
 - leo
 - Mohammad Rafigh
+- danny
 users: 1000000
 appId: org.electrum.electrum
 appCountry: 
 released: 2016-03-02
 updated: 2024-05-30
-version: 4.5.4.0
+version: 4.5.5.0
 stars: 3.8
 ratings: 2500
 reviews: 327
@@ -21,10 +22,15 @@ issue: https://github.com/spesmilo/electrum/issues/8838
 icon: org.electrum.electrum.png
 bugbounty: 
 meta: ok
-verdict: reproducible
-date: 2024-03-25
+verdict: nonverifiable
+date: 2024-06-04
 signer: 
 reviewArchive:
+- date: 2024-03-25
+  version: 4.5.4.0
+  appHash: cb4577e845374d7d118e05984d6c04bfbc1e065c1a31d2f8b4d3879499c88a98
+  gitRevision: 1b1de26f9dcadf889a665f5650ee2656cb0a4206
+  verdict: reproducible
 - date: 2024-01-22
   version: 4.5.1.0
   appHash: efcf5a4873df41f21e653aa7f6733719402cc701a0ac4ebf4fe1a075514ca2ad
@@ -92,25 +98,38 @@ procedure expressed in our {% include testScript.html %}:
 ===== Begin Results =====
 appId:          org.electrum.electrum
 signer:         e543d576fa0f2a33d412bca4c7d61e2301830e956e7d947e75b9052d176027d3
-apkVersionName: 4.5.4.0
-apkVersionCode: 34050400
-verdict:        reproducible
-appHash:        cb4577e845374d7d118e05984d6c04bfbc1e065c1a31d2f8b4d3879499c88a98
-commit:         99f6dd5d5d63bdb311bd401835cb20423728f889
+apkVersionName: 4.5.5.0
+apkVersionCode: 24050500
+verdict:        
+appHash:        b1167a04a2f2849c7a725e17016f4e45ab14b12c570b65f72c4c361122393878
+commit:         7263a49129d14db288a01b0b9d569422baddf5e1
 
 Diff:
-Only in /tmp/fromPlay_org.electrum.electrum_34050400/META-INF: CERT.RSA
-Only in /tmp/fromPlay_org.electrum.electrum_34050400/META-INF: CERT.SF
-Only in /tmp/fromPlay_org.electrum.electrum_34050400/META-INF: MANIFEST.MF
+Files /tmp/fromPlay_org.electrum.electrum_24050500/AndroidManifest.xml and /tmp/fromBuild_org.electrum.electrum_24050500/AndroidManifest.xml differ
+Files /tmp/fromPlay_org.electrum.electrum_24050500/classes.dex and /tmp/fromBuild_org.electrum.electrum_24050500/classes.dex differ
+Only in /tmp/fromBuild_org.electrum.electrum_24050500/lib: arm64-v8a
+Only in /tmp/fromPlay_org.electrum.electrum_24050500/lib: armeabi-v7a
+Only in /tmp/fromPlay_org.electrum.electrum_24050500/META-INF: CERT.RSA
+Only in /tmp/fromPlay_org.electrum.electrum_24050500/META-INF: CERT.SF
+Only in /tmp/fromPlay_org.electrum.electrum_24050500/META-INF: MANIFEST.MF
+Files /tmp/fromPlay_org.electrum.electrum_24050500/resources.arsc and /tmp/fromBuild_org.electrum.electrum_24050500/resources.arsc differ
 
 Revision, tag (and its signature):
-object 99f6dd5d5d63bdb311bd401835cb20423728f889
+object 7263a49129d14db288a01b0b9d569422baddf5e1
 type commit
-tag 4.5.4
-tagger ThomasV <thomasv@electrum.org> 1710339236 +0100
+tag 4.5.5
+tagger ThomasV <thomasv@electrum.org> 1716996193 +0200
 
-4.5.4
+4.5.5
 ===== End Results =====
 ```
 
-This is what we want to see to file the product version as **reproducible**.
+There is a significant amount of diffs. Most notable among these are:
+
+- AndroidManifest.xml 
+- classes.dex 
+- arm64-v8a
+- armeabi-v7a
+- resources.arsc 
+
+The presence of arm64-v8a in the build, and the presence of armeabi-v7a in the Play version together with the differences in other files, show that Electrum version 4.5.5.0 is **not reproducible**
