@@ -28,8 +28,8 @@ let oldTotalFiles = 0;
 const startTime = Date.now();
 
 async function loadResources () {
-  bgImage = loadImage(backgroundImage);
-  reproducibleImage = loadImage(reproducibleImagePath);
+  bgImage = await loadImage(backgroundImage);
+  reproducibleImage = await loadImage(reproducibleImagePath);
   registerFont('assets/fonts/Barlow/barlow-v12-latin-500.ttf', { family: 'Barlow' });
 }
 
