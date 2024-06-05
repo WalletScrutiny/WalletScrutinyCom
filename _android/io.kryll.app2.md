@@ -4,7 +4,7 @@ title: Kryll.io - Trade BTC & Crypto
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: io.kryll.app2
 appCountry: 
 released: 2022-03-25

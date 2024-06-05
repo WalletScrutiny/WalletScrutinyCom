@@ -12,7 +12,7 @@ updated: 2024-05-30
 version: 1.2.59
 stars: 2.6
 ratings: 3530
-reviews: 2131
+reviews: 2132
 size: 
 website: https://blackcatcard.com
 repository: 

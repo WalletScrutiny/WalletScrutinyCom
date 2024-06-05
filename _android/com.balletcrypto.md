@@ -7,8 +7,8 @@ users: 10000
 appId: com.balletcrypto
 appCountry: 
 released: 2019-08-08
-updated: 2024-06-03
-version: 2.15.4
+updated: 2024-06-05
+version: 2.15.5
 stars: 4.8
 ratings: 658
 reviews: 133
