@@ -1,3 +1,6 @@
+// To generate for single files, run:
+// $ node scripts/twitterCardGen.mjs --single android _android com.phonegap.bit2me.md
+
 // Import libraries
 import fs from 'fs';
 import { createCanvas, loadImage, registerFont } from 'canvas';
@@ -27,18 +30,38 @@ let totalTime = 0;
 let oldTotalFiles = 0;
 const startTime = Date.now();
 
-async function loadResources () {
-  bgImage = await loadImage(backgroundImage);
-  reproducibleImage = await loadImage(reproducibleImagePath);
-  registerFont('assets/fonts/Barlow/barlow-v12-latin-500.ttf', { family: 'Barlow' });
+async function loadResources() {
+  try {
+    bgImage = await loadImage(backgroundImage);
+    console.log('Background image loaded successfully');
+  } catch (error) {
+    console.error('Failed to load background image:', error);
+    process.exit(1); // Exit the script if the background image fails to load
+  }
+
+  try {
+    reproducibleImage = await loadImage(reproducibleImagePath);
+    console.log('Reproducible image loaded successfully');
+  } catch (error) {
+    console.error('Failed to load reproducible image:', error);
+    process.exit(1); // Exit the script if the reproducible image fails to load
+  }
+
+  try {
+    registerFont('assets/fonts/Barlow/barlow-v12-latin-500.ttf', { family: 'Barlow' });
+    console.log('Font loaded successfully');
+  } catch (error) {
+    console.error('Failed to load font:', error);
+    process.exit(1); // Exit the script if the font fails to load
+  }
 }
 
-function wrapText (text, length) {
+function wrapText(text, length) {
   const regex = new RegExp(`(?:(?:\\S{${length}}|.{1,${length}})(?:\\s|$))`, 'g');
   return `${text}`.match(regex) || [];
 }
 
-function formatDate (dateString) {
+function formatDate(dateString) {
   const date = new Date(dateString);
   const year = date.getFullYear();
   const month = String(date.getMonth() + 1).padStart(2, '0'); // Months are zero-indexed
@@ -46,7 +69,7 @@ function formatDate (dateString) {
   return `${year}-${month}-${day}`;
 }
 
-function loadVerdicts (verdictPath) {
+function loadVerdicts(verdictPath) {
   const verdictMap = {};
   fs.readdirSync(verdictPath).forEach((filename) => {
     if (filename.endsWith('.yml')) {
@@ -61,7 +84,7 @@ function loadVerdicts (verdictPath) {
 }
 
 // Progress Tracking Function
-async function showProgress () {
+async function showProgress() {
   const i = setInterval(() => {
     const oldTotalTime = totalTime;
     totalTime = Date.now() - startTime;
@@ -78,7 +101,7 @@ async function showProgress () {
   }, 5000);
 }
 
-async function processFilesTimed () {
+async function processFilesTimed() {
   showProgress();
   await loadResources();
   await processFiles();
@@ -88,7 +111,7 @@ const spikes = 5;
 const outerRadius = 20;
 const innerRadius = 10;
 const strokeWidth = 3;
-function drawStar (ctx, cx, cy, fillColor = '#ee9e15', strokeColor = 'black', fraction = 1) {
+function drawStar(ctx, cx, cy, fillColor = '#ee9e15', strokeColor = 'black', fraction = 1) {
   let rot = (Math.PI / 2) * 3;
   let x, y;
   const step = Math.PI / spikes;
@@ -129,7 +152,7 @@ function drawStar (ctx, cx, cy, fillColor = '#ee9e15', strokeColor = 'black', fr
 }
 
 // Utility Function - Draw stars
-async function drawStars (ctx, stars, x, y, starSize) {
+async function drawStars(ctx, stars, x, y, starSize) {
   const fullStars = Math.floor(stars);
   const partialStar = stars - fullStars;
 
@@ -145,7 +168,7 @@ async function drawStars (ctx, stars, x, y, starSize) {
 }
 
 // Utility function to overlay "reproducible" image
-async function overlayReproducibleImage (ctx) {
+async function overlayReproducibleImage(ctx) {
   // Overlay the "reproducible" image
   const overlayX = 41; // X position
   const overlayY = 275; // Y position (100 pixels below the logo)
@@ -175,7 +198,7 @@ async function overlayReproducibleImage (ctx) {
 
 // Core Functions - Canvas Image and Text Overlays
 
-async function drawOnCanvas (data, iconImage) {
+async function drawOnCanvas(data, iconImage) {
   // Width and Heights variables for canvas
   const width = 800;
   const height = 450;
@@ -241,7 +264,7 @@ async function drawOnCanvas (data, iconImage) {
     printText('>' + data.users, ctx, 360, 285, 'black');
   }
 
-  function dateOrUnknown (date) {
+  function dateOrUnknown(date) {
     return date ? formatDate(date) : 'Unknown';
   }
   printText('Released:', ctx, 207, 315, 'gray', '20 Barlow');
@@ -256,7 +279,7 @@ async function drawOnCanvas (data, iconImage) {
   return canvas;
 }
 
-function printText (text, ctx, x, y, fillStyle, font, maxLength, lineHeight) {
+function printText(text, ctx, x, y, fillStyle, font, maxLength, lineHeight) {
   const wrapped = wrapText(text, maxLength || 1000);
   ctx.font = font || ctx.font;
   ctx.fillStyle = fillStyle || ctx.fillStyle;
@@ -267,7 +290,7 @@ function printText (text, ctx, x, y, fillStyle, font, maxLength, lineHeight) {
 }
 
 // Core Functions - Process One File
-async function processOneFile (platform, mdFilesPath, file, outputFolderPath) {
+async function processOneFile(platform, mdFilesPath, file, outputFolderPath) {
   const parts = (await fsp.readFile(path.join(mdFilesPath, file), 'utf-8')).split('---');
   let data;
   try {
@@ -289,7 +312,7 @@ async function processOneFile (platform, mdFilesPath, file, outputFolderPath) {
   try {
     iconImage = await loadImage(iconImagePath);
   } catch (error) {
-    console.error(`Error processing file ${file}: `, error);
+    console.error(`Error processing file ${file} with icon ${iconImagePath}: `, error);
     totalFiles--;
     return;
   }
@@ -308,7 +331,7 @@ async function processOneFile (platform, mdFilesPath, file, outputFolderPath) {
 }
 
 // Core Functions - Process Files
-async function processFiles () {
+async function processFiles() {
   const socialImagesFolderPath = 'images/social';
   if (!fs.existsSync(socialImagesFolderPath)) {
     fs.mkdirSync(socialImagesFolderPath);
@@ -332,4 +355,27 @@ async function processFiles () {
   await Promise.all(asyncTasks);
 }
 
-processFilesTimed();
+// Main function to handle command-line arguments
+async function main() {
+  const args = process.argv.slice(2);
+
+  if (args.length === 4 && args[0] === '--single') {
+    const platform = args[1];
+    const mdFilesPath = args[2];
+    const file = args[3];
+    const outputFolderPath = `images/social/${platform}`;
+
+    if (!fs.existsSync(outputFolderPath)) {
+      fs.mkdirSync(outputFolderPath, { recursive: true });
+    }
+
+    await loadResources();
+    await processOneFile(platform, mdFilesPath, file, outputFolderPath);
+    console.log('Processing of single file completed');
+  } else {
+    await processFilesTimed();
+  }
+}
+
+// Start the process
+main();
