@@ -1,6 +1,6 @@
 ---
 wsId: starEx
-title: StarEx - Buy Bitcoin
+title: StarEx - Buy Bitcoin & Crypto
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ appId: vip.sing.exchange
 appCountry: us
 idd: '1551746664'
 released: 2021-03-31
-updated: 2024-06-04
-version: 4.1.1
+updated: 2024-06-07
+version: 4.1.2
 stars: 3.4
 reviews: 7
 size: '249583616'

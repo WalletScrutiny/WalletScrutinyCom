@@ -12,7 +12,7 @@ updated: 2024-06-03
 version: 1.0.100
 stars: 4.1
 ratings: 
-reviews: 7
+reviews: 8
 size: 
 website: https://www.digitra.com
 repository: 

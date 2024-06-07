@@ -10,8 +10,8 @@ idd: '1497156434'
 released: 2020-02-24
 updated: 2024-05-28
 version: 11.2.0
-stars: 4.1
-reviews: 624
+stars: 4
+reviews: 627
 size: '111754240'
 website: https://www.syfe.com
 repository: 

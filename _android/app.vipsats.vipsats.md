@@ -11,7 +11,7 @@ updated: 2024-05-21
 version: 1.4.1
 stars: 4.5
 ratings: 
-reviews: 7
+reviews: 9
 size: 
 website: https://vipsats.app
 repository: 

@@ -3,11 +3,11 @@ wsId:
 title: 'Sparrow Wallet : BTC Whirlpool'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.bitcoin.wirlpool
 appCountry: us
 idd: '6466330147'
-released: '2023-12-11T08:00:00Z'
+released: 2023-12-11
 updated: 2024-01-07
 version: 1.0.7
 stars: 5

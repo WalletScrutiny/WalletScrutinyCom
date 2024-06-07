@@ -26,7 +26,7 @@ date: 2024-06-05
 signer: 
 reviewArchive:
 - date: 2024-03-25
-  version: "4.5.4.0"
+  version: 4.5.4.0
   appHash: cb4577e845374d7d118e05984d6c04bfbc1e065c1a31d2f8b4d3879499c88a98
   gitRevision: f610a4b7fa9d5f31ff65d1a6935a46ddbf854c2f
   verdict: reproducible

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.sevenlabs.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-09-01
+date: 2024-06-07
 signer: 
 reviewArchive: 
 twitter: 

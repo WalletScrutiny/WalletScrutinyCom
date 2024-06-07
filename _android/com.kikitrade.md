@@ -1,6 +1,6 @@
 ---
 wsId: kikitrade
-title: Kikitrade：Buy Bitcoin & Crypto
+title: KIKI
 altTitle: 
 authors:
 - danny

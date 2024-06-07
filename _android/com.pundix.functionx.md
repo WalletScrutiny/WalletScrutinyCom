@@ -1,6 +1,6 @@
 ---
 wsId: functionX
-title: f(x)Wallet by Function X Labs
+title: FX Wallet by Function X
 altTitle: 
 authors:
 - danny

@@ -7,8 +7,8 @@ users: 100
 appId: com.bitcoinpay
 appCountry: 
 released: 2021-01-24
-updated: 2024-06-03
-version: 2.0.37
+updated: 2024-06-05
+version: 2.0.38
 stars: 4.3
 ratings: 
 reviews: 

@@ -4,7 +4,7 @@ title: 'CryptoXpress: Crypto Made Easy'
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.cryptoxpressmobile
 appCountry: 
 released: 2021-09-20

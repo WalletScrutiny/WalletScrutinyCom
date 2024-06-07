@@ -1,6 +1,6 @@
 ---
 wsId: makeDelta
-title: Traderkat - Alerts, Screener
+title: Traderkat-Coin Screener, Alert
 altTitle: 
 authors:
 - danny

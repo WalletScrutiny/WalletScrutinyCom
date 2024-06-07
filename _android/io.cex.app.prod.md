@@ -12,7 +12,7 @@ updated: 2024-05-31
 version: 10.3.0
 stars: 4.6
 ratings: 16669
-reviews: 6276
+reviews: 6705
 size: 
 website: https://cex.io
 repository: 

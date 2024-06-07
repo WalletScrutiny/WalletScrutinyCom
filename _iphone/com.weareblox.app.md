@@ -10,8 +10,8 @@ idd: '1444159776'
 released: '2019-01-16'
 updated: 2024-06-04
 version: 5.4.2
-stars: 4.5
-reviews: 2982
+stars: 4.6
+reviews: 3346
 size: '108834816'
 website: https://weareblox.com
 repository: 

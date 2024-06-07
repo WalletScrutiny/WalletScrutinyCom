@@ -1,6 +1,6 @@
 ---
 wsId: Luno
-title: Luno - BTC & Crypto Investing
+title: 'Luno: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - leo
@@ -8,7 +8,7 @@ users: 10000000
 appId: co.bitx.android.wallet
 appCountry: 
 released: 2014-11-01
-updated: 2024-06-03
+updated: 2024-06-06
 version: 8.59.1
 stars: 3.5
 ratings: 96811

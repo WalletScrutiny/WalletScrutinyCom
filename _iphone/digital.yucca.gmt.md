@@ -11,7 +11,7 @@ released: 2022-10-21
 updated: 2024-05-14
 version: 3.1.9
 stars: 4.2
-reviews: 787
+reviews: 797
 size: '10306560'
 website: https://gomining.com/
 repository: 
