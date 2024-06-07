@@ -12,16 +12,16 @@ updated: 2023-05-27
 version: 2.8.92
 stars: 3.5
 ratings: 139
-reviews: 242
+reviews: 241
 size: 
 website: https://zam.me/
 repository: 
 issue: 
 icon: ru.zamzamwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-11-30
+date: 2024-05-24
 signer: 
 reviewArchive: 
 twitter: 

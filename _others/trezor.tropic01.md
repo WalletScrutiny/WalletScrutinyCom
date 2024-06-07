@@ -3,31 +3,15 @@ title: Trezor-Tropic01 Open Secure Element Chip
 appId: trezor.tropic01
 authors:
 - danny
-released: 
-discontinued: 
-updated: 
-version: 
-binaries: 
-dimensions:
-weight: 
-provider: TropicSquare
-providerWebsite: 
+icon: trezor.tropic01.png
+date: 2023-12-06
 website: https://tropicsquare.com/
+twitter: tropicsquare
+provider: TropicSquare
 shop: https://tropicsquare.com/product
 country: CZ
-price: 
-repository: 
-issue: 
-icon: trezor.tropic01.png
-bugbounty: 
 meta: ok
 verdict: unreleased
-date: 2023-12-06
-signer: 
-reviewArchive: 
-twitter: tropicsquare
-social:
-features: 
 
 ---
 

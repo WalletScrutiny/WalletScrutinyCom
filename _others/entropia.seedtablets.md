@@ -3,31 +3,17 @@ title: Entropia (Seedsigner) Seedtablets
 appId: entropia.seedtablets
 authors:
 - danny
+icon: entropia.seedtablets.png
+date: 2023-09-30
 released: 2022-10-01
-discontinued: 
-updated: 
-version: 
-binaries: 
-dimensions:
-weight:
-provider: Seedsigner
-providerWebsite: 
 website: https://seedsigner.com
+twitter: seedsigner
+provider: Seedsigner
 shop: https://btc-hardware-solutions.square.site/product/entropia-v2-seed-tablets/11
 country: US
 price: 80USD
-repository: 
-issue: 
-icon: entropia.seedtablets.png
-bugbounty: 
 meta: ok
 verdict: nowallet
-date: 2023-09-30
-signer: 
-reviewArchive:
-twitter: seedsigner
-social:
-features: 
 
 ---
 

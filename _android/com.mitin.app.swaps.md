@@ -4,7 +4,7 @@ title: Swaps - Buy crypto instantly
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.mitin.app.swaps
 appCountry: 
 released: 2022-01-26

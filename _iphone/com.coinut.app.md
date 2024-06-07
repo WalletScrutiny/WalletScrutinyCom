@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.coinut.app.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2022-06-27
+date: 2024-05-30
 signer: 
 reviewArchive: 
 twitter: coinut_exchange

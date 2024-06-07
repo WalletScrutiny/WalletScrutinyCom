@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Coingram: بیت کوین، ارزدیجیتال'
+title: 'Coingram: درآمد از ارزدیجیتال'
 altTitle: 
 authors:
 - danny

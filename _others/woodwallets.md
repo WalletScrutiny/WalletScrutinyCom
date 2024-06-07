@@ -3,30 +3,16 @@ title: Woodwallets
 appId: woodwallets
 authors:
 - danny
-released: 
-discontinued: 
-updated: 
-version: 
-binaries: 
-dimensions: 
-weight: 
+icon: woodwallets.png
+date: 2022-05-19
+twitter: woodwallets
 provider: Woodwallets
 providerWebsite: https://woodwallets.io/
-website: 
 shop: https://woodwallets.io/cart/
 country: US
 price: 19USD
-repository: 
-issue: 
-icon: woodwallets.png
-bugbounty: 
 meta: ok
 verdict: prefilled
-date: 2022-05-19
-signer: 
-reviewArchive: 
-twitter: woodwallets
-social: 
 
 ---
 

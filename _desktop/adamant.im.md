@@ -7,6 +7,7 @@ released: 2017-11-22
 discontinued: 
 updated: 2024-03-20
 version: 4.6.2
+binaries: 
 provider: Adamant
 providerWebsite: 
 website: https://adamant.im/
@@ -17,12 +18,10 @@ bugbounty:
 meta: ok
 verdict: wip
 date: 2024-04-24
-reviewArchive:
+reviewArchive: 
 twitter: adamant_im
-social:
-developerName:
-features:
+social: 
+features: 
 
 ---
-
 

@@ -28,7 +28,6 @@ social:
 - http://breez.technology
 features: 
 developerName: BREEZ DEVELOPMENT LTD
-redirect_from: 
 
 ---
 

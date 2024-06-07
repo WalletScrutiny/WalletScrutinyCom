@@ -3,31 +3,17 @@ title: Beginners Guide to Cryptocurrency USB Stick
 appId: beginnersguide.usb
 authors:
 - danny
+icon: beginnersguide.usb.png
+date: 2023-12-15
 released: 2019-06-04
-discontinued: 
-updated: 
-version: 
-binaries: 
-dimensions:
 weight: 11.3
 provider: BetterWorldATL
-providerWebsite: 
-website: 
-shop: https://www.amazon.com/Beginners-Guide-Cryptocurrency-Portable-Launcher/dp/B07SNFBL7S/
+shop: >-
+  https://www.amazon.com/Beginners-Guide-Cryptocurrency-Portable-Launcher/dp/B07SNFBL7S/
 country: US
 price: 34USD
-repository: 
-issue: 
-icon: beginnersguide.usb.png
-bugbounty: 
 meta: ok
 verdict: plainkey
-date: 2023-12-15
-signer: 
-reviewArchive:
-twitter: 
-social:
-features: 
 
 ---
 

@@ -23,9 +23,9 @@ repository: https://github.com/AsicVault/asicvault-hardware
 issue: 
 icon: asicvault.png
 bugbounty: 
-meta: stale
-verdict: unreleased
-date: 2022-02-18
+meta: obsolete
+verdict: vapor
+date: 2024-05-29
 signer: 
 reviewArchive: 
 twitter: AsicVault
@@ -36,13 +36,17 @@ features:
 
 ---
 
-**Caution** There are [some posts](https://bitcointalk.org/index.php?topic=5186716.0) on bitcointalk.org that make one question this product. 
+There are [multiple](https://bitcointalk.org/index.php?topic=5341381.0) [posts](https://bitcointalk.org/index.php?topic=5186716.0) [on bitcointalk.org](https://bitcointalk.org/index.php?topic=2706485.msg43306498#msg43306498) concerning suspicious activity and dishonesty surrounding "Asic Vault" and its history.
 
-The product is still in Pre-Order status as of January 22, 2022, more than 3 years after the launch. The website was first announced on [twitter on October 24, 2017](https://twitter.com/AsicVault/status/922741020038660097). A prototype was shown on [YouTube on October 23, 2018](https://www.youtube.com/watch?v=x_hdvYUQNxo).
+As of January 22, 2022, which was more than 3 years after the initial launch, the product was still in pre-order status. 
 
-## Features
+Eventually the website silently went down. No word on what happened to the product. The website was first announced on [twitter on October 24, 2017](https://twitter.com/AsicVault/status/922741020038660097). A "prototype" was shown on [YouTube on October 23, 2018](https://www.youtube.com/watch?v=x_hdvYUQNxo).
 
-Claimed features of the product include:
+**[The URL to the site has been excluded from the Internet Archive's Wayback Machine.](https://web.archive.org/web/20240000000000*/asicvault.io)**
+
+## "Features"
+
+Claimed features of the product had included:
 
 > All crypto accelerators operate on constant time to eliminate side channel attacks. Licensed DPA countermeasures are used and all critical crypto operations are performed on internal supercapacitor power only.
 >
@@ -62,4 +66,6 @@ It also claims to support:
 > - Low power integrated circuits
 > - Instant self-destruct modes
 
-Its [GitHub repository](https://github.com/AsicVault/asicvault-hardware) was last updated a year ago. Since then, there has been no activity on its social media channels. Until further information or announcements are made available, this product retains its last known status.
+Its [GitHub repository](https://github.com/AsicVault/asicvault-hardware) has not been updated [since 2021.](https://github.com/AsicVault/asicvault-hardware/commits/main/) Since then, there has been no activity on its social media channels.
+
+Until further update, our conclusion is that this product is **vaporware.** 

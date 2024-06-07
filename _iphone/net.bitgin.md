@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: net.bitgin.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-11-01
+date: 2024-05-24
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,38 +1,25 @@
 ---
 title: Whitepay Point of Sale Web App
-appId: whitepay.pos
+appId: maintech.bitcoinkiosk
 authors:
 - danny
-released: 
-discontinued: 
-updated: 
-version: 
-binaries: 
-dimensions:
-- 148
-- 30
-- 28 
-weight: 19000
-provider: Maintech Industries
-providerWebsite: 
-website: https://maintechindustries.com/bitcoin-kiosk/#
-shop: 
-country: CA
-price: 
-repository: 
-issue: 
 icon: maintech.bitcoinkiosk.png
-bugbounty: 
-meta: ok
-verdict: nowallet
 date: 2024-01-15
-signer: 
-reviewArchive: 
+website: https://maintechindustries.com/bitcoin-kiosk/#
 twitter: MainTECHIND
 social:
 - https://www.facebook.com/maintechindustries
 - https://www.youtube.com/user/MainTECHIndustries
 - https://www.linkedin.com/company/maintech-industries
+dimensions:
+- 150
+- 30
+- 28
+weight: 19000
+provider: Maintech Industries
+country: CA
+meta: ok
+verdict: nowallet
 
 ---
 

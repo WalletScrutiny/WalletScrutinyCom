@@ -8,11 +8,11 @@ appId: com.fotolockr.cakewallet
 appCountry: 
 idd: 1334702542
 released: 2018-01-19
-updated: 2024-05-14
-version: 4.16.2
+updated: 2024-05-22
+version: 4.17.0
 stars: 4.6
-reviews: 1635
-size: '118515712'
+reviews: 1688
+size: '119185408'
 website: https://cakewallet.com
 repository: https://github.com/cake-tech/cake_wallet
 issue: https://github.com/cake-tech/cake_wallet/issues/337

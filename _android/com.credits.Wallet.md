@@ -8,8 +8,8 @@ users: 10000
 appId: com.credits.Wallet
 appCountry: 
 released: 2020-10-26
-updated: 2024-05-02
-version: 6.0.0.6
+updated: 2024-05-21
+version: 6.1.1.1
 stars: 
 ratings: 
 reviews: 

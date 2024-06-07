@@ -3,31 +3,14 @@ title: The Bitcoin Box
 appId: thebitcoinbox
 authors:
 - danny
-released: 
+icon: thebitcoinbox.png
+date: 2024-01-08
 discontinued: 2016-11-01
-updated: 
-version: 
-binaries: 
-dimensions:
-weight: 
 provider: Jan Vornberger
 providerWebsite: https://www.thebitcoinbox.com
-website: 
-shop: 
-country: 
-price: 
 repository: https://github.com/javgh/bitpay-brick
-issue: 
-icon: thebitcoinbox.png
-bugbounty: 
 meta: ok
 verdict: vapor
-date: 2024-01-08
-signer: 
-reviewArchive: 
-twitter: 
-social:
-features: 
 
 ---
 

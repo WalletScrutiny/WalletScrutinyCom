@@ -12,16 +12,16 @@ updated: 2023-05-29
 version: 1.7.7
 stars: 3.7
 ratings: 309
-reviews: 76
+reviews: 77
 size: 
 website: https://coinloan.io/
 repository: 
 issue: 
 icon: com.app.coinloan.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-10-04
+date: 2024-05-24
 signer: 
 reviewArchive: 
 twitter: coin_loan

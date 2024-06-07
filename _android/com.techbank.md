@@ -10,9 +10,9 @@ appCountry:
 released: 2022-03-16
 updated: 2024-02-26
 version: 1.7.0
-stars: 
+stars: 3.6
 ratings: 
-reviews: 
+reviews: 3
 size: 
 website: https://techbank.finance/
 repository: 

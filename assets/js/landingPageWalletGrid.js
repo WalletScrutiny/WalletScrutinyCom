@@ -70,8 +70,10 @@ function generateAndAppendWalletTiles(workingArray, pageNo) {
     const delay = (i + 1) * 80
     let passed = ``
     let failed = ``
-    for (let i = 0; i < wallet.score.numerator; i++) { passed += `<i class="pass"></i>` }
-    for (let i = 0; i < (wallet.score.denominator - wallet.score.numerator); i++) { failed += `<i class="fail"></i>` }
+    if (wallet.score) {
+      for (let i = 0; i < wallet.score.numerator; i++) { passed += `<i class="pass"></i>` }
+      for (let i = 0; i < (wallet.score.denominator - wallet.score.numerator); i++) { failed += `<i class="fail"></i>` }
+    }
     badgesHtml += `
     <a class="AppDisplayCard item ${wallet.folder} ${wallet.meta} ${domClass}" href="${wallet.url}" style="animation-delay:${delay}ms;">
       <div class="tile-head">
@@ -81,13 +83,20 @@ function generateAndAppendWalletTiles(workingArray, pageNo) {
       </div>
       <div class="wallet-details">
         <div class="stamps">
-        ${wallet.meta !== "outdated" ? `<span data-text="${window.verdicts[wallet.verdict].short}" class="stamp stamp-${wallet.verdict}" alt=""></span>` : ""}
-        ${wallet.meta && wallet.meta !== "ok" ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>` : ""}
+        ${wallet.meta && wallet.meta !== "outdated"
+          ? `<span data-text="${window.verdicts[wallet.verdict].short}" class="stamp stamp-${wallet.verdict}" alt=""></span>`
+          : ""}
+        ${wallet.meta && wallet.meta !== "ok"
+          ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>`
+          : ""}
         </div>
-        <div class="score" data-numerator="${wallet.score.numerator}" data-denominator="${wallet.score.denominator}">
-          <span>Passed ${wallet.score.numerator !== wallet.score.denominator ? wallet.score.numerator : 'all'} ${wallet.score.numerator !== wallet.score.denominator ? 'of' : ''} ${wallet.score.denominator} tests</span>
-          <div>${passed}${failed}</div>
-        </div>
+        ${wallet.score
+          ? `<div class="score" data-numerator="${wallet.score.numerator}" data-denominator="${wallet.score.denominator}">
+            <span>Passed ${wallet.score.numerator !== wallet.score.denominator ? wallet.score.numerator : 'all'} ${wallet.score.numerator !== wallet.score.denominator ? 'of' : ''} ${wallet.score.denominator} tests</span>
+            <div>${passed}${failed}</div>
+          </div>`
+          : ''
+        }
       </div>
     </a>`
   }

@@ -7,6 +7,7 @@ released: 2018-05-02
 discontinued: 
 updated: 2018-08-02
 version: 0.0.34
+binaries: 
 provider: 
 providerWebsite: 
 website: https://coinapp.io/
@@ -17,8 +18,10 @@ bugbounty:
 meta: ok
 verdict: wip
 date: 2024-04-25
-reviewArchive:
+reviewArchive: 
 twitter: coin_with_us
-social:
-features:
+social: 
+features: 
+
 ---
+

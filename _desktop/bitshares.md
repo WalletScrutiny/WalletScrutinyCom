@@ -7,6 +7,7 @@ released: 2019-01-27
 discontinued: 
 updated: 2022-11-03
 version: 3.2.4
+binaries: 
 provider: 
 providerWebsite: 
 website: https://xbts.io
@@ -15,10 +16,12 @@ issue:
 icon: bitshares.png
 bugbounty: 
 meta: ok
-verdict: wip 
+verdict: wip
 date: 2024-04-25
-reviewArchive:
+reviewArchive: 
 twitter: xbtsdex
-social:
-features:
+social: 
+features: 
+
 ---
+

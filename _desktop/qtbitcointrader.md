@@ -7,6 +7,7 @@ released: 2013-12-12
 discontinued: 
 updated: 2023-05-26
 version: 1.42.21
+binaries: 
 provider: Centrabit
 providerWebsite: 
 website: https://qttrader.com
@@ -17,8 +18,10 @@ bugbounty:
 meta: ok
 verdict: wip
 date: 2024-05-09
-reviewArchive:
+reviewArchive: 
 twitter: QtTrader
-social:
-features:
+social: 
+features: 
+
 ---
+

@@ -7,6 +7,7 @@ released: 2020-08-14
 discontinued: 
 updated: 2023-07-19
 version: 1.4.0
+binaries: 
 provider: Lily Technologies, Inc.
 providerWebsite: 
 website: https://lily-wallet.com
@@ -15,10 +16,12 @@ issue:
 icon: lilywallet.png
 bugbounty: 
 meta: ok
-verdict: wip 
+verdict: wip
 date: 2024-04-25
-reviewArchive:
+reviewArchive: 
 twitter: LilyWallet
-social:
-features:
+social: 
+features: 
+
 ---
+

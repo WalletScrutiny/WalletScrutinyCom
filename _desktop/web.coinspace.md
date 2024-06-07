@@ -7,6 +7,7 @@ released: 2020-05-16
 discontinued: 
 updated: 2024-04-18
 version: 6.3.0
+binaries: 
 provider: CoinSpace LLC
 providerWebsite: 
 website: https://coin.space
@@ -17,8 +18,10 @@ bugbounty:
 meta: ok
 verdict: wip
 date: 2024-05-10
-reviewArchive:
+reviewArchive: 
 twitter: CoinAppWallet
-social:
-features:
+social: 
+features: 
+
 ---
+

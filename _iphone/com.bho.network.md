@@ -8,11 +8,11 @@ appId: com.bho.network
 appCountry: ai
 idd: '1622316272'
 released: 2022-06-24
-updated: 2024-05-04
-version: 1.1.0
+updated: 2024-05-31
+version: 1.1.1
 stars: 0
 reviews: 0
-size: '99379200'
+size: '99215360'
 website: https://3swallet.com/
 repository: 
 issue: 

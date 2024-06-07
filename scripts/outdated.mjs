@@ -4,14 +4,15 @@ import helperAppStore from './helperAppStore';
 import helperHardware from './helperHardware';
 import helperBearer from './helperBearer';
 
-const outdated = function (header, body, fileName, category) {
-  const folder = `_${category}/`;
+const migration = function (header, body, fileName, categoryHelper) {
+  const category = categoryHelper.category;
   // make sure, appId matches file name
   header.appId = fileName.slice(0, -3);
-  if (header.verdict !== 'wip' || header.meta === 'defunct')
+  if (header.verdict !== 'wip' || header.meta === 'defunct') {
     return;
+  }
   var score = header.users || header.reviews || 1;
-  switch (header.meta) { 
+  switch (header.meta) {
     case 'ok':
       score *= 100;
       break;
@@ -27,5 +28,5 @@ const outdated = function (header, body, fileName, category) {
 }; // crucial semicolon!
 
 [helperPlayStore, helperAppStore, helperHardware, helperBearer].forEach(h => {
-  helper.migrateAll(h.category, outdated, h.headers);
+  helper.migrateAll(h, migration);
 });

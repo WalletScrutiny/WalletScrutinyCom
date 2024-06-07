@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.futur.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-06-10
+date: 2024-05-30
 signer: 
 reviewArchive: 
 twitter: 

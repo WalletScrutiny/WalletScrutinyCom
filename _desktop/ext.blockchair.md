@@ -7,6 +7,7 @@ released: 2020-12-17
 discontinued: 
 updated: 2023-06-08
 version: 2.1.21
+binaries: 
 provider: Blockchair
 providerWebsite: https://blockchair.com
 website: https://chromewebstore.google.com/detail/fhhkkooikehnkaodebbfnkinedlllcfk
@@ -17,8 +18,10 @@ bugbounty:
 meta: ok
 verdict: wip
 date: 2024-05-09
-reviewArchive:
+reviewArchive: 
 twitter: blockchair
-social:
-features:
+social: 
+features: 
+
 ---
+

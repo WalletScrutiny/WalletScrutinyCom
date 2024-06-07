@@ -7,6 +7,7 @@ released: 2022-11-17
 discontinued: 
 updated: 2024-05-09
 version: 2.2.4
+binaries: 
 provider: ShockNet
 providerWebsite: 
 website: https://shock.network/
@@ -17,8 +18,10 @@ bugbounty:
 meta: ok
 verdict: wip
 date: 2024-05-09
-reviewArchive:
+reviewArchive: 
 twitter: shockbtc
-social:
-features:
+social: 
+features: 
+
 ---
+

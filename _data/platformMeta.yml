@@ -195,3 +195,12 @@ desktop:
     - outdated
     - removed
     - deprecated
+others:
+  description: >
+    These products do not fit into any of the other categories. We list them as
+    they were identified to be relevant and people might search for them but we
+    have no methodology to review them yet. This might change for some of these
+    products in the future.
+  notes: We don't assign verdicts to these products at this point.
+  verdicts: []
+  metas: []

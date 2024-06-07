@@ -7,6 +7,7 @@ released: 2020-04-09
 discontinued: 
 updated: 2024-01-02
 version: 0.13.30
+binaries: 
 provider: Thunderhub
 providerWebsite: 
 website: https://www.thunderhub.io
@@ -17,8 +18,10 @@ bugbounty:
 meta: ok
 verdict: wip
 date: 2024-05-10
-reviewArchive:
+reviewArchive: 
 twitter: thunderhubio
-social:
-features:
+social: 
+features: 
+
 ---
+

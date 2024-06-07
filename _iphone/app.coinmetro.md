@@ -8,11 +8,11 @@ appId: app.coinmetro
 appCountry: us
 idd: 1397585225
 released: 2018-07-25
-updated: 2024-05-14
-version: 5.50.778
+updated: 2024-06-03
+version: 5.50.788
 stars: 4.4
-reviews: 276
-size: '55362560'
+reviews: 278
+size: '55458816'
 website: https://coinmetro.com/
 repository: 
 issue: 

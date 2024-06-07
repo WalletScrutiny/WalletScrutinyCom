@@ -4,15 +4,15 @@ title: Flipster - Trade BTC & Crypto
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.prestolabs.android.prex
 appCountry: 
 released: 2022-11-18
-updated: 2024-05-14
-version: 1.53.4
-stars: 3.9
+updated: 2024-05-29
+version: 1.56.3
+stars: 2.6
 ratings: 
-reviews: 6
+reviews: 54
 size: 
 website: https://flipster.io
 repository: 

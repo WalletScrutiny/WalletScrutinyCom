@@ -1,10 +1,10 @@
-{%- assign platform = '' -%}
-{%- for platforms in site.data.platformMeta -%}
-  {%- assign platform = platform | append: ',"' | append: platforms[0] | append: '"' -%}
+{%- assign platforms = '' -%}
+{%- for platform in site.data.platformMeta -%}
+  {%- assign platforms = platforms | append: ',"' | append: platform[0] | append: '"' -%}
 {%- endfor -%}
-{%- assign platform = platform | remove_first: "," | split: ',' -%}
+{%- assign platforms = platforms | remove_first: "," | split: ',' -%}
 {%- assign allWallets = '{' -%}
-{%- for folder in platform -%}
+{%- for folder in platforms -%}
   {%- assign allWallets = allWallets | append: ',' | append: folder | append: ':{' -%}
   {%- assign folderKey = folder | replace: '"', "" -%}
   {%- assign thisFolder = "" -%}

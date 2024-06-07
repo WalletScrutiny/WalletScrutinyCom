@@ -8,8 +8,8 @@ users: 5000
 appId: com.presto.presto
 appCountry: 
 released: 2022-04-21
-updated: 2024-04-11
-version: 2.5.2
+updated: 2024-05-26
+version: 2.5.3
 stars: 3.9
 ratings: 
 reviews: 9

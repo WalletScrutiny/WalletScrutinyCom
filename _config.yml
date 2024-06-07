@@ -199,6 +199,9 @@ collections:
   desktop:
     output: true
     permalink: /:collection/:path/
+  others:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -280,6 +283,17 @@ defaults:
       type: "desktop"
     values:
       layout: reviewDesktop
+      author_profile: true
+      read_time: false
+      comments: false
+      share: true
+      related: false    
+  # others
+  - scope:
+      path: ""
+      type: "others"
+    values:
+      layout: reviewOthers
       author_profile: true
       read_time: false
       comments: false

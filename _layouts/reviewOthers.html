@@ -1,0 +1,60 @@
+---
+layout: default
+---
+
+<div id="main" class="app-review" role="main">
+  <article class="page" style="float:{{ float }};" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="{{ page.altTitle | default: page.title  }}">
+    {% if page.excerpt %}
+      <meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">
+    {% endif %}
+    {% if page.date %}
+      <meta itemprop="datePublished" content="{{ page.date | date: " %B %d, %Y" }}">{% endif %}
+    {% if page.modified %}
+      <meta itemprop="dateModified" content="{{ page.modified | date: " %B %d, %Y" }}">{% endif %}
+
+    <div class="page__inner-wrap">
+      <div class="app-summary-grid">
+        {%- if page.icon -%}
+          {%- assign icon = base_path | append: '/images/wIcons/'
+            | append: page.collection | append:  '/'
+            | append: page.icon -%}
+        {%- else -%}
+          {%- assign icon = base_path  | append: '/images/noimg.svg' -%}
+        {%- endif -%}
+        <img src="{{ icon }}" class="app_logo_big" alt="Wallet Logo">
+        <div class="app-sum-head">
+
+          <h1 class="page__title -va-c" itemprop="headline">
+            {{ page.title }}
+          </h1>
+        </div>
+      </div>
+
+      <div class="security-overview">
+        <h2>Our review process</h2>
+        <p>We examine products according to our
+          <a href="/methodology">Methodology</a> but products that fit none of
+          our established "platforms" and thus no methodology are filed in our
+          catch-all "platform" "others" until we develop a methodology to test
+          these.</p>
+        <div class="spacer x2"></div>
+        <div class="section">
+          {{ content }}
+          {% include /review/byAuthor.html %}
+        </div>
+        <div class="spacer x2"></div>
+      </div>
+
+      {% include /review/nostrOpinion.html %}
+
+      <div class="article-after disclaimer">
+        {% include /review/disclaimer.html %}
+        {% include /review/ownResearch.html %}
+      </div>
+    </div>
+  </article>
+</div>
+
+<script src="{{ base_path }}/assets/js/color-thief.umd.js"></script>
+<script src="{{ base_path }}/assets/js/review.js"></script>

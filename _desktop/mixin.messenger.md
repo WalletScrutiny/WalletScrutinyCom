@@ -7,6 +7,7 @@ released: 2019-03-15
 discontinued: 
 updated: 2024-03-27
 version: 1.2.4
+binaries: 
 provider: Mixin Ltd.
 providerWebsite: 
 website: https://mixin.one
@@ -15,10 +16,12 @@ issue:
 icon: mixin.messenger.png
 bugbounty: 
 meta: ok
-verdict: wip 
+verdict: wip
 date: 2024-04-25
-reviewArchive:
+reviewArchive: 
 twitter: Mixin_Network
-social:
-features:
+social: 
+features: 
+
 ---
+

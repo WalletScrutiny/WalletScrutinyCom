@@ -12,7 +12,7 @@ updated: 2024-05-13
 version: 3.6.0
 stars: 3.6
 ratings: 
-reviews: 64
+reviews: 65
 size: 
 website: https://getarculus.com
 repository: 

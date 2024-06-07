@@ -6,7 +6,8 @@ authors:
 released: 2018-07-14
 discontinued: 
 updated: 2024-04-03
-version: 2.76.14 
+version: 2.76.14
+binaries: 
 provider: 
 providerWebsite: 
 website: https://atomicwallet.io/
@@ -17,12 +18,13 @@ bugbounty:
 meta: ok
 verdict: wip
 date: 2024-04-24
-reviewArchive:
+reviewArchive: 
 twitter: atomicwallet
 social:
 - https://www.facebook.com/AtomicWallet/
 - https://www.youtube.com/c/AtomicWallet
-- support@atomicwallet.io
-developerName:
-features:
+- mailto:support@atomicwallet.io
+features: 
+
 ---
+

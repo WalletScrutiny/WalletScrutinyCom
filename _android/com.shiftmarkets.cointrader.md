@@ -1,6 +1,6 @@
 ---
 wsId: coinTraderMobile
-title: Cointrader
+title: Shift Platform
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 1000
 appId: com.shiftmarkets.cointrader
 appCountry: 
 released: 2019-01-28
-updated: 2024-04-16
-version: 4.9.57
+updated: 2024-05-23
+version: 4.10.0
 stars: 3.8
 ratings: 
 reviews: 

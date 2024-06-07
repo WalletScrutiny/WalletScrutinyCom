@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.cointopay.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-05-28
+date: 2024-05-24
 signer: 
 reviewArchive: 
 twitter: Cointopay

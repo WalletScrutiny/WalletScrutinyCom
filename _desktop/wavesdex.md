@@ -7,6 +7,7 @@ released: 2016-06-08
 discontinued: 
 updated: 2019-03-01
 version: 1.0.42
+binaries: 
 provider: Elfronus Company Ltd
 providerWebsite: 
 website: https://waves.exchange
@@ -17,8 +18,10 @@ bugbounty:
 meta: discontinued
 verdict: wip
 date: 2024-04-25
-reviewArchive:
+reviewArchive: 
 twitter: Waves_Exchange
-social:
-features:
+social: 
+features: 
+
 ---
+

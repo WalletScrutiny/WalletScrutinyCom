@@ -1,13 +1,14 @@
 ---
 title: Jaxx Liberty
-appId: io.jaxxliberty
+appId: jaxxliberty
 authors:
 - danny
 released: 2018-09-01
 discontinued: 2023-03-27
 updated: 
 version: 
-provider: Decentral Inc. 
+binaries: 
+provider: Decentral Inc.
 providerWebsite: 
 website: https://jaxx.io/
 repository: 
@@ -17,8 +18,10 @@ bugbounty:
 meta: discontinued
 verdict: wip
 date: 2024-04-25
-reviewArchive:
+reviewArchive: 
 twitter: jaxx_io
-social:
-features:
+social: 
+features: 
+
 ---
+
