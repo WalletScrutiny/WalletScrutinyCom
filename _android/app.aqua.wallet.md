@@ -81,7 +81,7 @@ This Dockerfile sets up a development environment suitable for working with the 
 
 - `RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y`
   - Installs Rust using `curl` to download and execute the Rust installation script from the official source. The `-y` flag automatically agrees to the license agreement and other prompts.
-- `RUN . ~/.bashrc`
+- `RUN source ~/.bashrc`
   - Sources the `.bashrc` file to ensure that the Rust environment variables are correctly set up for subsequent commands.
 - `RUN rustup install 1.67.1 1.72.0 1.73.0 -y;`
   - Installs specific versions of Rust (`1.67.1`, `1.72.0`, `1.73.0`) using `rustup`. The `-y` flag is used to confirm installation without manual intervention.
@@ -145,4 +145,8 @@ BUILD FAILED in 7m 7s
 Running Gradle task 'assembleRelease'...                          428.6s
 Gradle task assembleRelease failed with exit code 1
 ```
-We raised an issue with them on [github](https://github.com/AquaWallet/aqua-wallet/issues/31)
+We raised an issue with them on [GitHub](https://github.com/AquaWallet/aqua-wallet/issues/31).
+
+You can also view our previous attempts to bring this to the product developer's attention [here](https://github.com/AquaWallet/aqua-wallet/issues/9).
+
+Additionally, we contacted the CEO at [x](https://x.com/dannybuntu/status/1798649694236864934), as shown in the link.
