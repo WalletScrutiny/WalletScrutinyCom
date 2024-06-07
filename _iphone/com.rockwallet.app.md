@@ -33,6 +33,4 @@ developerName: RockWallet, LLC
 
 ---
 
-The Android app is slated for verification, but the iOS is non-verifiable.
-
 {% include copyFromAndroid.html %}
