@@ -12,7 +12,7 @@ released: 2015-12-22
 updated: 2024-05-30
 version: 10.2.1
 stars: 4.4
-reviews: 7288
+reviews: 7840
 size: '210128896'
 website: https://cex.io
 repository: 

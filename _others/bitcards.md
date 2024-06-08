@@ -3,33 +3,19 @@ title: BitCard®️
 appId: bitcards
 authors:
 - danny
-released: 
-discontinued: 
-updated: 
-version: 
-binaries: 
-dimensions: 
-weight: 
-provider: Bitcoin Solutions, Inc
-providerWebsite: 
-website: https://bitcards.com/
-shop: https://www.cardcash.com/buy-gift-cards/discount-bitcoin-cards
-country: US
-price: 
-repository: 
-issue: 
 icon: bitcards.png
-bugbounty: 
-meta: ok
-verdict: custodial
 date: 2022-05-17
-signer: 
-reviewArchive: 
+website: https://bitcards.com/
 twitter: Bitcard_US
 social:
 - https://www.linkedin.com/company/bitcard/
 - https://www.facebook.com/BitCardUS/
 - https://www.instagram.com/bitcard_us/
+provider: Bitcoin Solutions, Inc
+shop: https://www.cardcash.com/buy-gift-cards/discount-bitcoin-cards
+country: US
+meta: ok
+verdict: custodial
 
 ---
 

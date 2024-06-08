@@ -3,30 +3,21 @@ title: Square Subzero HSM Based Cold Storage
 appId: square.subzero
 authors:
 - danny
+icon: square.subzero.png
+date: 2022-05-26
 released: 2018-10-23
-discontinued: 
 updated: 2022-05-03
 version: v1.0.0
+website: https://subzero.readthedocs.io/en/master/
+repository: https://github.com/square/subzero/
+twitter: Square
 binaries: https://github.com/square/subzero/tags
-dimensions: 
-weight: 
 provider: Square
 providerWebsite: https://squareup.com/us/en
-website: https://subzero.readthedocs.io/en/master/
-shop: 
 country: US
-price: 
-repository: https://github.com/square/subzero/
-issue: 
-icon: square.subzero.png
 bugbounty: https://bugcrowd.com/squareopensource
 meta: ok
 verdict: wip
-date: 2022-05-26
-signer: 
-reviewArchive: 
-twitter: Square
-social: 
 
 ---
 

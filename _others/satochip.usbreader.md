@@ -3,11 +3,11 @@ title: Satochip USB Card Reader
 appId: satochip.usbreader
 authors:
 - danny
-released: 
-discontinued: 
-updated: 
-version: 
-binaries: 
+icon: satochip.usbreader.png
+date: 2022-05-19
+twitter: satochipwallet
+social:
+- https://www.linkedin.com/company/satochip
 dimensions:
 - 65
 - 8.9
@@ -15,22 +15,11 @@ dimensions:
 weight: 80
 provider: Satochip
 providerWebsite: https://satochip.io/
-website: 
 shop: https://satochip.io/product/card-reader/
 country: BE
 price: 15EUR
-repository: 
-issue: 
-icon: satochip.usbreader.png
-bugbounty: 
 meta: ok
 verdict: nowallet
-date: 2022-05-19
-signer: 
-reviewArchive: 
-twitter: satochipwallet
-social:
-- https://www.linkedin.com/company/satochip
 
 ---
 

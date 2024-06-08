@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.xsjys.bbtc.cdex.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2023-09-04
+date: 2024-06-03
 signer: 
 reviewArchive: 
 twitter: 

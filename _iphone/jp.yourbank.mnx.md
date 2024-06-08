@@ -8,11 +8,11 @@ appId: jp.yourbank.mnx
 appCountry: jp
 idd: '1417085535'
 released: 2018-12-10
-updated: 2024-04-22
-version: 1.4.5
+updated: 2024-06-01
+version: 1.4.6
 stars: 4.4
-reviews: 13526
-size: '83856384'
+reviews: 13544
+size: '83835904'
 website: https://cheeese.monex.co.jp/
 repository: 
 issue: 

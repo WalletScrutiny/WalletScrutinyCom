@@ -8,8 +8,8 @@ users: 10000
 appId: com.wiseki.sekiapp
 appCountry: 
 released: 2022-05-31
-updated: 2024-04-05
-version: 2.1.1
+updated: 2024-06-01
+version: 2.2.1
 stars: 3.8
 ratings: 
 reviews: 10

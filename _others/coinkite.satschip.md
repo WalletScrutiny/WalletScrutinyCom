@@ -3,32 +3,18 @@ title: Coinkite Satschip
 appId: coinkite.satschip
 authors:
 - danny
-released: 
-discontinued: 
-updated: 
-version: 
-binaries: 
-dimensions:
-- 30
-- 30 
-weight: 
+icon: coinkite.satschip.png
+date: 2021-03-11
+website: https://satschip.com/
+twitter: satschip
 provider: Coinkite
 providerWebsite: https://coinkite.com/
-website: https://satschip.com/
 shop: https://store.coinkite.com/store/satschip
 country: US
 price: 99.99 USD
-repository: 
-issue: 
-icon: coinkite.satschip.png
-bugbounty: 
 meta: ok
 verdict: nowallet
-date: 2021-03-11
-signer: 
-reviewArchive: 
-twitter: satschip
-social: 
+
 ---
 
 ## Product Description 

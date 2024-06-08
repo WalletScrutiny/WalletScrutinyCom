@@ -3,38 +3,26 @@ title: Cyclebit Point of Sale
 appId: cyclebit.pos
 authors:
 - danny
-released: 
-discontinued: 
-updated: 
-version: 
-binaries: 
-dimensions:
-- 190
-- 80
-- 70
-weight: 480
-provider: CycleBit
-providerWebsite: 
-website: https://www.cyclebit.io/
-shop: https://www.cyclebit.io/pos
-country: SE
-price: 299USD
-repository: 
-issue: 
 icon: cyclebit.pos.png
-bugbounty: 
-meta: ok
-verdict: custodial
 date: 2022-04-29
-signer: 
-reviewArchive: 
+website: https://www.cyclebit.io/
 twitter: Cycle_bit
 social:
 - https://www.facebook.com/hellocyclebit
 - https://medium.com/@cyclebit
 - https://www.instagram.com/cyclebit/
 - https://t.me/joinchat/BLNuiBGxK6kqyJVunhKP5Q
-features: 
+dimensions:
+- 190
+- 80
+- 70
+weight: 480
+provider: CycleBit
+shop: https://www.cyclebit.io/pos
+country: SE
+price: 299USD
+meta: ok
+verdict: custodial
 
 ---
 

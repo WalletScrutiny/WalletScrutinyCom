@@ -12,7 +12,7 @@ updated: 2024-05-25
 version: 8.15.6
 stars: 4.4
 ratings: 841930
-reviews: 17350
+reviews: 17412
 size: 
 website: https://trustwallet.com/
 repository: 

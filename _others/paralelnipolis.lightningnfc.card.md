@@ -3,32 +3,15 @@ title: Paralelní Polis Lightning NFC Card
 appId: paralelnipolis.lightningnfc.card
 authors:
 - danny
-released: 
-discontinued: 
-updated: 
-version: 
-binaries: 
-dimensions: 
-weight: 
-provider: Paralelní Polis
-providerWebsite: 
-website: https://www.paralelnipolis.cz/en/wallet/
-shop: 
-country: CZ
-price: 
-repository: 
-issue: 
 icon: paralelnipolis.lightningnfc.card.png
-bugbounty: 
-meta: ok
-verdict: wip
 date: 2023-04-28
-signer: 
-reviewArchive: 
-twitter: 
+website: https://www.paralelnipolis.cz/en/wallet/
 social:
 - https://www.facebook.com/vejdiven/
-features: 
+provider: Paralelní Polis
+country: CZ
+meta: ok
+verdict: wip
 
 ---
 

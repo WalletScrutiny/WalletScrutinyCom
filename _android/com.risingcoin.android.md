@@ -4,7 +4,7 @@ title: Rising Coin
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.risingcoin.android
 appCountry: 
 released: 2022-11-13

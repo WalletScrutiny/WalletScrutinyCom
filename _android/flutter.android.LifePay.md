@@ -3,7 +3,7 @@ wsId:
 title: LifPay
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: flutter.android.LifePay
 appCountry: 
 released: 2022-09-21
@@ -19,7 +19,7 @@ issue:
 icon: flutter.android.LifePay.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

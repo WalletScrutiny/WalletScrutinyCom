@@ -3,32 +3,16 @@ title: RDDL
 appId: rddl
 authors:
 - danny
-released: 
-discontinued: 
-updated: 
-version: 
-binaries: 
-dimensions: 
-weight: 
-provider: Tom Fuerstner
-providerWebsite: 
-website: https://www.rddl.io/
-shop: 
-country: 
-price: 
-repository: 
-issue: 
 icon: rddl.png
-bugbounty: 
-meta: ok
-verdict: unreleased
 date: 2024-01-05
-signer: 
-reviewArchive: 
+website: https://www.rddl.io/
 twitter: RDDLNetwork
 social:
 - https://www.linkedin.com/company/rddl
 - https://discord.com/invite/uy4CA2Xw54
+provider: Tom Fuerstner
+meta: ok
+verdict: unreleased
 
 ---
 
