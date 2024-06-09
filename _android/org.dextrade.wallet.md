@@ -3,12 +3,12 @@ wsId:
 title: DexTrade
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: org.dextrade.wallet
 appCountry: 
 released: 2022-08-22
-updated: 2024-06-06
-version: 1.68.0
+updated: 2024-06-07
+version: 1.69.0
 stars: 5
 ratings: 
 reviews: 

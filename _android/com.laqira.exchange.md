@@ -4,7 +4,7 @@ title: LAQIRA Exchange
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.laqira.exchange
 appCountry: 
 released: 2023-02-09

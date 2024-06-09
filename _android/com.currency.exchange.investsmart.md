@@ -12,7 +12,7 @@ updated: 2024-02-26
 version: 1.42.4
 stars: 3.8
 ratings: 216
-reviews: 142
+reviews: 143
 size: 
 website: https://dzengi.com/
 repository: 

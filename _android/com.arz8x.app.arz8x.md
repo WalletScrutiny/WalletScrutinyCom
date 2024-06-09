@@ -8,8 +8,8 @@ users: 100000
 appId: com.arz8x.app.arz8x
 appCountry: 
 released: 2020-05-08
-updated: 2024-05-19
-version: 4.5.4
+updated: 2024-06-09
+version: 4.6.0
 stars: 4.3
 ratings: 1706
 reviews: 72

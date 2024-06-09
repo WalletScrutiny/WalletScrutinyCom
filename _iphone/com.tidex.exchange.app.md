@@ -10,8 +10,8 @@ idd: '1632072370'
 released: 2022-07-01
 updated: 2022-08-15
 version: 1.0.5
-stars: 3.8
-reviews: 14
+stars: 3.6
+reviews: 15
 size: '18824192'
 website: https://tidex.com/
 repository: 

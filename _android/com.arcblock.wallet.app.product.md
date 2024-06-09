@@ -12,7 +12,7 @@ updated: 2024-05-15
 version: 5.3.1
 stars: 4.6
 ratings: 
-reviews: 14
+reviews: 15
 size: 
 website: https://www.didwallet.io/
 repository: 

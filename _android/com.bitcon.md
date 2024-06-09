@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Spend The Bits
+title: STB Classic
 altTitle: 
 authors: 
 users: 100
 appId: com.bitcon
 appCountry: 
 released: 
-updated: 2024-05-09
-version: 1.9.6
+updated: 2024-06-07
+version: 1.9.7
 stars: 4.7
 ratings: 
 reviews: 

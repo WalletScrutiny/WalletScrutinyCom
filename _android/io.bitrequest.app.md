@@ -3,7 +3,7 @@ wsId:
 title: Bitrequest
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: io.bitrequest.app
 appCountry: 
 released: 2019-11-01

@@ -8,7 +8,7 @@ appId: net.treeum.multi.invest
 appCountry: ro
 idd: '1587744083'
 released: 2022-04-07
-updated: 2022-09-01
+updated: 2024-06-08
 version: 1.0.31
 stars: 0
 reviews: 0
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: net.treeum.multi.invest.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: wip
-date: 2023-09-08
+date: 2024-06-09
 signer: 
 reviewArchive: 
 twitter: 
