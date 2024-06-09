@@ -54,8 +54,7 @@ features:
 - They have a link to their GitHub repository. 
 
 
-Here we test if the latest version can be reproduced, following the known
-procedure expressed in our {% include testScript.html %}. A few [missing/outdated steps from the build instructions](https://github.com/synonymdev/bitkit/issues/1842) available with the source code was updated by us to be able to compile the app.
+We tested if the app can be reproduced, by running {% include testScript.html %}. A few [missing/outdated steps from the build instructions](https://github.com/synonymdev/bitkit/issues/1842) available with the source code was updated by us to be able to compile the app.
 
 The script succeeds with a huge diff:
 
@@ -856,6 +855,8 @@ Revision, tag (and its signature):
 ===== End Results =====
 
 ```
+
+Even though the diff result mostly contains files only available on the APK built by us, there are 6 binary files that have different content from the APK available on PlayStore.
 
 This binary is **not verifiable**.
 
