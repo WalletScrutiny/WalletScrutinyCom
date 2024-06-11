@@ -1,90 +1,68 @@
-FROM ubuntu:20.04
+# Use the latest Ubuntu LTS as the base image
+FROM ubuntu:22.04
 
-ENV UID=1000
-ENV GID=1000
-ENV USER="developer"
-ENV JAVA_VERSION="11"
-ENV ANDROID_TOOLS_URL="https://dl.google.com/android/repository/commandlinetools-linux-6858069_latest.zip"
-ENV ANDROID_VERSION="33"
-ENV ANDROID_BUILD_TOOLS_VERSION="33.0.2"
-ENV ANDROID_ARCHITECTURE="x86_64"
-ENV ANDROID_SDK_ROOT="/home/$USER/android"
-ENV FLUTTER_CHANNEL="stable"
-ENV FLUTTER_VERSION="3.10.6"
-ENV FLUTTER_URL="https://storage.googleapis.com/flutter_infra_release/releases/$FLUTTER_CHANNEL/linux/flutter_linux_3.10.6-$FLUTTER_CHANNEL.tar.xz"
-ENV FLUTTER_HOME="/home/$USER/flutter"
-ENV FLUTTER_WEB_PORT="8090"
-ENV FLUTTER_DEBUG_PORT="42000"
-ENV FLUTTER_EMULATOR_NAME="flutter_emulator"
-ENV PATH="$ANDROID_SDK_ROOT/cmdline-tools/latest/bin:$ANDROID_SDK_ROOT/emulator:$ANDROID_SDK_ROOT/platform-tools:$ANDROID_SDK_ROOT/platforms:$FLUTTER_HOME/bin:$PATH"
+# Set environment variables for Android SDK and Flutter
+ENV ANDROID_SDK_ROOT="/opt/android-sdk" \
+    ANDROID_HOME="/opt/android-sdk" \
+    FLUTTER_ROOT="/opt/flutter"
 
-ENV APP_ANDROID_TYPE="elitewallet"
-ENV APP_ANDROID_NAME="Elite Wallet"
-ENV APP_ANDROID_VERSION="1.3.1"
-ENV APP_ANDROID_BUILD_NUMBER=16
-ENV APP_ANDROID_BUNDLE_ID="sc.elitewallet.elitewallet"
-ENV APP_ANDROID_PACKAGE="sc.elitewallet.elitewallet"
-ENV APP_ANDROID_SCHEME="elitewallet"
+ENV PATH="$PATH:$ANDROID_SDK_ROOT/cmdline-tools/latest/bin:$ANDROID_SDK_ROOT/platform-tools:$FLUTTER_ROOT/bin"
 
-# install all dependencies
-ARG DEBIAN_FRONTEND=noninteractive
-RUN apt-get update \
-  && apt-get install --yes --no-install-recommends openjdk-$JAVA_VERSION-jdk curl unzip sed git bash xz-utils libglvnd0 ssh xauth x11-xserver-utils libpulse0 libxcomposite1 libgl1-mesa-glx sudo \
-  curl unzip automake build-essential file pkg-config git python2 libtool libtinfo5 cmake openjdk-11-jre-headless clang bison byacc gperf groff \
-  && rm -rf /var/lib/{apt,dpkg,cache,log} \
-  && ln -s /usr/bin/python2 /usr/bin/python
+# Install system dependencies
+RUN apt-get update && \
+    apt-get install -y \
+        git \
+        curl \
+        unzip \
+        openjdk-11-jdk \
+        wget \
+        sudo && \
+    rm -rf /var/lib/apt/lists/*
 
-# create user
-RUN groupadd --gid $GID $USER \
-  && useradd -s /bin/bash --uid $UID --gid $GID -m $USER \
-  && echo $USER ALL=\(root\) NOPASSWD:ALL > /etc/sudoers.d/$USER \
-  && chmod 0440 /etc/sudoers.d/$USER
+# Install Android SDK
+RUN mkdir -p "$ANDROID_SDK_ROOT/cmdline-tools" && \
+    wget -O commandlinetools.zip https://dl.google.com/android/repository/commandlinetools-linux-8512546_latest.zip && \
+    unzip commandlinetools.zip -d "$ANDROID_SDK_ROOT/cmdline-tools" && \
+    rm commandlinetools.zip && \
+    mv "$ANDROID_SDK_ROOT/cmdline-tools/cmdline-tools" "$ANDROID_SDK_ROOT/cmdline-tools/latest"
 
-USER $USER
-WORKDIR /home/$USER
+# Accept licenses and install SDK components as root
+RUN yes | $ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager --licenses && \
+    $ANDROID_SDK_ROOT/cmdline-tools/latest/bin/sdkmanager "ndk;23.1.7779620"
 
-# android sdk
-RUN mkdir -p $ANDROID_SDK_ROOT \
-  && mkdir -p /home/$USER/.android \
-  && touch /home/$USER/.android/repositories.cfg \
-  && curl -o android_tools.zip $ANDROID_TOOLS_URL \
-  && unzip -qq -d "$ANDROID_SDK_ROOT" android_tools.zip \
-  && rm android_tools.zip \
-  && mkdir -p $ANDROID_SDK_ROOT/cmdline-tools/latest \
-  && mv $ANDROID_SDK_ROOT/cmdline-tools/bin $ANDROID_SDK_ROOT/cmdline-tools/latest \
-  && mv $ANDROID_SDK_ROOT/cmdline-tools/lib $ANDROID_SDK_ROOT/cmdline-tools/latest \
-  && yes "y" | sdkmanager "build-tools;$ANDROID_BUILD_TOOLS_VERSION" \
-  && yes "y" | sdkmanager "platforms;android-$ANDROID_VERSION" \
-  && yes "y" | sdkmanager "platform-tools" \
-  && yes "y" | sdkmanager "emulator" \
-  && yes "y" | sdkmanager "system-images;android-$ANDROID_VERSION;google_apis_playstore;$ANDROID_ARCHITECTURE"
+# Install Android NDK
+RUN mkdir -p "$ANDROID_SDK_ROOT/ndk" && \
+    wget -O android_ndk.zip https://dl.google.com/android/repository/android-ndk-r17c-linux-x86_64.zip && \
+    unzip android_ndk.zip -d "$ANDROID_SDK_ROOT/ndk" && \
+    rm android_ndk.zip
 
-# flutter
-RUN curl -o flutter.tar.xz $FLUTTER_URL \
-  && mkdir -p $FLUTTER_HOME \
-  && tar xf flutter.tar.xz -C /home/$USER \
-  && rm flutter.tar.xz \
-  && flutter config --no-analytics \
-  && flutter precache \
-  && yes "y" | flutter doctor --android-licenses \
-  && flutter doctor \
-  && flutter emulators --create \
-  && flutter update-packages
+# Install Flutter
+RUN git clone https://github.com/flutter/flutter.git "$FLUTTER_ROOT"
 
-RUN git clone https://github.com/Elite-Labs/EliteWallet.git /home/$USER/elite_wallet --branch main
+# Manually download and extract Gradle Wrapper with no ownership change
+RUN wget -O /tmp/gradle-wrapper.tgz https://storage.googleapis.com/flutter_infra_release/gradle-wrapper/fd5c1f2c013565a3bea56ada6df9d2b8e96d56aa/gradle-wrapper.tgz && \
+    mkdir -p /opt/flutter/bin/cache/artifacts/gradle_wrapper && \
+    tar --no-same-owner -xzf /tmp/gradle-wrapper.tgz -C /opt/flutter/bin/cache/artifacts/gradle_wrapper && \
+    rm /tmp/gradle-wrapper.tgz
 
-WORKDIR /home/$USER/elite_wallet
-RUN git config --global protocol.file.allow always \
-  && git submodule update --init --force
+# Create and switch to a non-root user for the rest of the process
+RUN useradd -ms /bin/bash appuser && \
+    chown -R appuser:appuser /opt/flutter /opt/android-sdk
 
-WORKDIR /home/$USER/elite_wallet/scripts/android
-RUN ./install_ndk.sh \
-  && ./app_config.sh \
-  && ./build_all.sh \
-  && ./copy_monero_deps.sh
+USER appuser
+WORKDIR /home/appuser
 
-WORKDIR /home/$USER/
-RUN keytool -genkey -v -keystore key.jks -keyalg RSA -keysize 2048 -validity 10000 -alias key -noprompt -dname "CN=EliteWallet, OU=EliteWallet, O=EliteWallet, L=Florida, S=America, C=USA" -storepass adminadmin -keypass adminadmin
+# Precache Flutter
+RUN $FLUTTER_ROOT/bin/flutter precache
 
-WORKDIR /home/$USER/elite_wallet
-RUN bash ./scripts/build.sh
+# Clone the EliteWallet repository
+RUN git clone https://github.com/Elite-Labs/EliteWallet.git elite_wallet
+
+# Set working directory
+WORKDIR /home/appuser/elite_wallet
+
+# Build dependencies using bash with exported environment variables
+RUN /bin/bash -c "source /etc/environment && /bin/bash ./scripts/build_deps.sh"
+
+# Build the app using bash with exported environment variables
+RUN /bin/bash -c "source /etc/environment && /bin/bash ./scripts/build.sh"
