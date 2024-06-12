@@ -4,12 +4,13 @@ title: 'Green: Bitcoin Wallet'
 altTitle: 
 authors:
 - leo
+- danny
 users: 100000
 appId: com.greenaddress.greenbits_android_wallet
 appCountry: 
 released: 2015-01-01
 updated: 2024-05-15
-version: 4.0.25
+version: 4.0.30
 stars: 4.6
 ratings: 946
 reviews: 131
@@ -21,9 +22,14 @@ icon: com.greenaddress.greenbits_android_wallet.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-06-05
+date: 2024-06-12
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 reviewArchive:
+- date: 2024-06-05
+  version: 4.0.28
+  appHash: 810f2008edef117d0cf144874d7433636590f54af1e0689540cd69a47d42e24b
+  gitRevision: 424e86411b0a1bf668fa8c271bb6f1f1f33419df
+  verdict: reproducible
 - date: 2024-04-05
   version: 4.0.27
   appHash: 6efdb0f464be14daf376f9bb452d4c697235a96ef8a0b8640bb3876874cdbc04
@@ -224,7 +230,7 @@ reviewArchive:
   appHash: 8b2e67fc333eeef5b10ce6f9f5fc3e4ca104c1eca9c539b73805276e09d838db
   gitRevision: 3d972d9773b0fd2fb1602d31117a50be01d48610
   verdict: reproducible
-twitter: Blockstream
+twitter: BlksGreenWallet
 social:
 - https://www.linkedin.com/company/blockstream
 - https://www.facebook.com/Blockstream
@@ -244,23 +250,24 @@ For that latest version, our {% include testScript.html %} returned this:
 ===== Begin Results =====
 appId:          com.greenaddress.greenbits_android_wallet
 signer:         32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
-apkVersionName: 4.0.28
-apkVersionCode: 22000428
+apkVersionName: 4.0.30
+apkVersionCode: 22000430
 verdict:        reproducible
-appHash:        810f2008edef117d0cf144874d7433636590f54af1e0689540cd69a47d42e24b
-commit:         a14807e77150f00764f5579ccbe6c469d4257dd5
+appHash:        9001a6ba060040374ec7372a590862d62aed881deb6a6934a99c53322eb1d062
+commit:         423aa141c8ae4f10929abeabc38731b9bd581c51
 
 Diff:
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000428/META-INF: GREENADD.RSA
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000428/META-INF: GREENADD.SF
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000428/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000430/META-INF: GREENADD.RSA
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000430/META-INF: GREENADD.SF
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000430/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
-object a14807e77150f00764f5579ccbe6c469d4257dd5
+object 423aa141c8ae4f10929abeabc38731b9bd581c51
 type commit
-tag release_4.0.28
-tagger Angelos Veglektsis <angelos@aveworks.com> 1715707441 +0300
+tag release_4.0.30
+tagger Angelos Veglektsis <angelos@aveworks.com> 1718115886 +0300
 ===== End Results =====
+
 ```
 
 This version of {{ page.title }} is **reproducible**.
