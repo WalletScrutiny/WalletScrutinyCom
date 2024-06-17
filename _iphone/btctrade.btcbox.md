@@ -8,8 +8,8 @@ appId: btctrade.btcbox
 appCountry: jp
 idd: '1076075645'
 released: 2016-01-22
-updated: 2024-06-04
-version: '1.229'
+updated: 2024-06-12
+version: '1.230'
 stars: 2.6
 reviews: 14
 size: '11419648'

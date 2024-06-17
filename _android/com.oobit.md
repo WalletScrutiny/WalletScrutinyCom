@@ -1,6 +1,6 @@
 ---
 wsId: ooBit
-title: 'Oobit: Pay with Crypto'
+title: Oobit - Tap to Pay in Crypto
 altTitle: 
 authors:
 - danny

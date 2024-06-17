@@ -30,7 +30,7 @@ social:
 - https://www.facebook.com/enjinsocial
 - https://www.reddit.com/r/EnjinCoin
 redirect_from: 
-developerName: Enjin PTE LTD
+developerName: Enjin Pte. Ltd.
 features: 
 
 ---

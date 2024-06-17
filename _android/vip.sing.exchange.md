@@ -1,6 +1,6 @@
 ---
 wsId: starEx
-title: StarEx - Buy Bitcoin
+title: StarEx - Buy Bitcoin & Crypto
 altTitle: 
 authors:
 - danny
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: starex.sg
+developerName: StarEx
 features: 
 
 ---

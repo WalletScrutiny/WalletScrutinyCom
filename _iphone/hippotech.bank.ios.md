@@ -8,11 +8,11 @@ appId: hippotech.bank.ios
 appCountry: gb
 idd: '1472192023'
 released: 2020-06-08
-updated: 2024-06-06
-version: '3.35'
+updated: 2024-06-10
+version: '3.36'
 stars: 4.5
 reviews: 1373
-size: '128729088'
+size: '128774144'
 website: https://www.ziglu.io
 repository: 
 issue: 

@@ -7,11 +7,11 @@ appId: com.plusblocks.exchange
 appCountry: ph
 idd: '1566819984'
 released: 2021-05-12
-updated: 2024-04-24
-version: 1.8.0
+updated: 2024-06-17
+version: 1.8.2
 stars: 0
 reviews: 0
-size: '126231552'
+size: '120892416'
 website: 
 repository: 
 issue: 

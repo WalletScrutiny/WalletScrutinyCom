@@ -11,7 +11,7 @@ released: 2018-09-06
 updated: 2024-05-31
 version: 2.6.2
 stars: 4.1
-reviews: 183
+reviews: 182
 size: '87496704'
 website: https://www.f2pool.com/
 repository: 

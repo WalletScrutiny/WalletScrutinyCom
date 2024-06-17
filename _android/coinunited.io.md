@@ -4,7 +4,7 @@ title: 'CoinUnited: Trade BTC & Stocks'
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: coinunited.io
 appCountry: cn
 released: 2021-04-30
@@ -12,7 +12,7 @@ updated: 2024-05-24
 version: 4.7.8
 stars: 4
 ratings: 151
-reviews: 198
+reviews: 197
 size: 
 website: https://coinunited.io/
 repository: 

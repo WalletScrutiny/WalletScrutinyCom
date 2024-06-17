@@ -8,8 +8,8 @@ appId: com.btse.BTSE
 appCountry: ng
 idd: 1494556510
 released: 2020-04-13
-updated: 2024-05-31
-version: 1.87.1
+updated: 2024-06-12
+version: 1.87.2
 stars: 4.5
 reviews: 13
 size: '124576768'
@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/btsecom
 - https://www.reddit.com/r/btsecom
 features: 
-developerName: BTSE Holdings Limited
+developerName: BTSE Holdings Ltd.
 
 ---
 

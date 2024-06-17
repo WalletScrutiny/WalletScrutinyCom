@@ -1,6 +1,6 @@
 ---
 wsId: SatoshiTango
-title: Satoshi Tango - Buy Bitcoin
+title: 'Satoshi Tango: Bitcoin - USDT'
 altTitle: 
 authors:
 - leo
@@ -9,7 +9,7 @@ appId: com.SatoshiTango.SatoshiTango
 appCountry: 
 released: 2015-06-24
 updated: 2024-05-29
-version: 4.8.0
+version: 5.0.0
 stars: 3.8
 ratings: 5466
 reviews: 41

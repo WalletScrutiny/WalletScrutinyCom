@@ -8,11 +8,11 @@ appId: defisuisseag.thorwallet
 appCountry: ch
 idd: '1592064324'
 released: 2021-11-28
-updated: 2024-05-22
-version: 2.1.15
+updated: 2024-06-17
+version: 2.1.16
 stars: 4.8
 reviews: 36
-size: '64500736'
+size: '65924096'
 website: http://thorwallet.org
 repository: 
 issue: 

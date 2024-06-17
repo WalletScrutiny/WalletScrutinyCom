@@ -11,7 +11,7 @@ released: 2021-01-05
 updated: 2024-05-30
 version: 2.4.11
 stars: 4
-reviews: 264
+reviews: 265
 size: '45459456'
 website: https://gosats.io
 repository: 

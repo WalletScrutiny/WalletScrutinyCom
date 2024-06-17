@@ -10,9 +10,9 @@ appCountry:
 released: 2019-05-05
 updated: 2023-11-13
 version: 4.1.2
-stars: 3.7
+stars: 3.8
 ratings: 
-reviews: 114
+reviews: 116
 size: 
 website: https://www.afrbtc.com
 repository: 

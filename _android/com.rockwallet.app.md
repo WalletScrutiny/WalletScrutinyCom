@@ -12,7 +12,7 @@ updated: 2024-04-08
 version: 5.14.0
 stars: 4.1
 ratings: 
-reviews: 93
+reviews: 94
 size: 
 website: http://www.rockwallet.com
 repository: 

@@ -8,11 +8,11 @@ appId: com.credits.CryptoWallet
 appCountry: ch
 idd: '1502902555'
 released: 2020-07-21
-updated: 2024-05-22
-version: 3.3.3
+updated: 2024-06-12
+version: 3.3.4
 stars: 0
 reviews: 0
-size: '126534656'
+size: '126246912'
 website: https://credits.com
 repository: 
 issue: 

@@ -4,7 +4,7 @@ title: P.CASH
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: cash.p.terminal
 appCountry: 
 released: 2023-02-10

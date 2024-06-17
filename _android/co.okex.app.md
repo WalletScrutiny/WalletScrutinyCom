@@ -4,7 +4,7 @@ title: اوکی اکسچنج، خرید ارز دیجیتال
 altTitle: 
 authors:
 - leo
-users: 100000
+users: 500000
 appId: co.okex.app
 appCountry: 
 released: 2019-09-11
@@ -12,7 +12,7 @@ updated: 2024-04-03
 version: 7.2.1
 stars: 3.9
 ratings: 7353
-reviews: 268
+reviews: 269
 size: 
 website: https://ok-ex.co
 repository: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.harungoker.bitcrypto.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-07-04
+date: 2024-06-17
 signer: 
 reviewArchive: 
 twitter: 
