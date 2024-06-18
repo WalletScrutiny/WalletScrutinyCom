@@ -3,14 +3,14 @@ wsId: gemWallet
 title: Gem Wallet - Crypto Bitcoin
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.gemwallet.ios
 appCountry: us
 idd: '6448712670'
-released: '2023-07-17T07:00:00Z'
+released: 2023-07-17
 updated: 2024-06-11
 version: 1.3.18
-stars: 4.77778
+stars: 4.8
 reviews: 45
 size: '43250688'
 website: https://gemwallet.com/presskit/
@@ -29,7 +29,7 @@ social:
 - https://www.reddit.com/r/GemWalletApp
 - https://www.youtube.com/@gemwallet
 - https://t.me/gemwallet
-- https://discord.com/invite/4jpxtwT8r6  
+- https://discord.com/invite/4jpxtwT8r6
 features: 
 developerName: Gem Wallet LLC
 
