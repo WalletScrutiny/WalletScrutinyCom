@@ -1,11 +1,12 @@
-const fs = require('fs');
-const path = require('path');
-const axios = require('axios');
-const yaml = require('js-yaml');
-const chalk = require('chalk');
+import fs from 'fs';
+import path from 'path';
+import axios from 'axios';
+import yaml from 'js-yaml';
+import chalk from 'chalk';
+import helper from './helper.mjs';
 
 const TIME_THRESHOLD_DAYS = 180;
-const BASE_DIR = path.resolve(__dirname, '..');
+const BASE_DIR = '.';
 const DIRECTORIES = ["_android", "_iphone", "_hardware", "_bearer", "_desktop"];
 const RETRY_COUNT = 3;
 const RATE_LIMIT_SLEEP = 60000; 
@@ -30,11 +31,10 @@ async function fetchUrl(url, headers, retryCount = RETRY_COUNT) {
             return response.data;
         } catch (error) {
             if (error.response && error.response.status === 429) {
-                console.log(chalk.yellow(`Rate limit exceeded. Waiting for ${RATE_LIMIT_SLEEP / 1000} seconds.`));
+                console.warn(chalk.yellow(`Rate limit exceeded. Waiting for ${RATE_LIMIT_SLEEP / 1000} seconds.`));
                 await new Promise(resolve => setTimeout(resolve, RATE_LIMIT_SLEEP));
             } else {
-                console.log(chalk.red(`Failed to fetch URL: ${url}. Status code: ${error.response ? error.response.status : 'unknown'}. Response: ${error.response ? JSON.stringify(error.response.data) : 'unknown'}`));
-                return null;
+                throw error;
             }
         }
     }
@@ -42,13 +42,6 @@ async function fetchUrl(url, headers, retryCount = RETRY_COUNT) {
 }
 
 async function fetchIssueDetails(issueUrl, appId) {
-    console.log(`Evaluating App ID: ${appId}`);
-
-    if (!issueUrl.startsWith("https://github.com/") && !issueUrl.startsWith("https://gitlab.com/")) {
-        console.log(chalk.red(`Skipping invalid URL: ${issueUrl}`));
-        return null;
-    }
-
     try {
         const parts = issueUrl.split('/');
         let issueApiUrl, commentsApiUrl, headers = {};
@@ -64,7 +57,7 @@ async function fetchIssueDetails(issueUrl, appId) {
             issueApiUrl = `https://gitlab.com/api/v4/projects/${projectId}/issues/${issueNumber}`;
             commentsApiUrl = `https://gitlab.com/api/v4/projects/${projectId}/issues/${issueNumber}/notes`;
         } else {
-            console.log(chalk.red(`Skipping unsupported provider URL: ${issueUrl}`));
+            console.warn(chalk.yellow(`Skipping unsupported provider URL: ${issueUrl}`));
             return null;
         }
 
@@ -77,13 +70,14 @@ async function fetchIssueDetails(issueUrl, appId) {
         const lastCommentDate = comments.length ? comments[comments.length - 1].updated_at : issueDetails.created_at;
 
         return {
-            app_id: issueDetails.title || 'N/A',
+            app_id: appId,
+            issue_title: issueDetails.title || 'N/A',
             issue_url: issueUrl,
             date_issue_created: issueDetails.created_at,
             date_last_comment: lastCommentDate
         };
     } catch (error) {
-        console.log(chalk.red(`Unexpected error for URL: ${issueUrl} for App ID: ${appId}. Error: ${error.message}`));
+        console.error(chalk.red(`Unexpected error for URL: ${issueUrl} for App ID: ${appId}. Error: ${error.message}`));
         return null;
     }
 }
@@ -130,10 +124,10 @@ async function filterAndSortIssues(issues) {
 }
 
 function outputResults(issues) {
-    console.log(`${'App ID'.padEnd(20)} | ${'Issue URL'.padEnd(50)} | ${'Date Issue Created'.padEnd(25)} | ${'Date Last Comment'.padEnd(25)}`);
-    console.log('-'.repeat(125));
+    console.log(`Issue      | Comment    | App                            | ${'Issue'.padEnd(50)}`);
+    console.log('-----------|------------|--------------------------------|----------------------');
     for (const issue of issues) {
-        console.log(`${issue.app_id.padEnd(20)} | ${chalk.cyan(issue.issue_url.padEnd(50))} | ${issue.date_issue_created.padEnd(25)} | ${issue.date_last_comment.padEnd(25)}`);
+        console.log(`${helper.dateOrEmpty(issue.date_issue_created)} | ${helper.dateOrEmpty(issue.date_last_comment)} | ${issue.app_id.padEnd(30)} | [${issue.issue_title}](${chalk.cyan(issue.issue_url)})`);
     }
 }
 
