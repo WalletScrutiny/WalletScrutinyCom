@@ -10,8 +10,8 @@ idd: '1576394424'
 released: 2021-07-28
 updated: 2024-05-30
 version: 1.0.19
-stars: 1
-reviews: 1
+stars: 3
+reviews: 2
 size: '103261184'
 website: https://www.fountain.fm
 repository: 

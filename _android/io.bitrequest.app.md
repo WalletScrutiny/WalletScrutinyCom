@@ -7,8 +7,8 @@ users: 500
 appId: io.bitrequest.app
 appCountry: 
 released: 2019-11-01
-updated: 2023-12-17
-version: 1.5.6
+updated: 2024-06-18
+version: 1.5.7
 stars: 
 ratings: 
 reviews: 

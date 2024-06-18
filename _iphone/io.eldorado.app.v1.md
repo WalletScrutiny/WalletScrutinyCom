@@ -11,7 +11,7 @@ released: 2022-04-20
 updated: 2024-06-08
 version: 1.3.920
 stars: 4.9
-reviews: 1837
+reviews: 1852
 size: '77774848'
 website: https://eldorado.io/
 repository: 

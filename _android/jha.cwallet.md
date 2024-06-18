@@ -3,7 +3,7 @@ wsId:
 title: cWallet
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: jha.cwallet
 appCountry: 
 released: 2022-01-03

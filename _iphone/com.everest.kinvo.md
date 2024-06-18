@@ -8,11 +8,11 @@ appId: com.everest.kinvo
 appCountry: BR
 idd: '1327335329'
 released: 2018-01-03
-updated: 2024-06-06
-version: 3.42.0
+updated: 2024-06-18
+version: 3.43.0
 stars: 4.6
-reviews: 17422
-size: '86259712'
+reviews: 17424
+size: '86263808'
 website: http://www.kinvo.com.br
 repository: 
 issue: 

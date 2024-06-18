@@ -10,9 +10,9 @@ appCountry:
 released: 2022-06-10
 updated: 2024-05-31
 version: '24.0527'
-stars: 3.8
+stars: 3.9
 ratings: 
-reviews: 8
+reviews: 10
 size: 
 website: https://yield.app
 repository: 

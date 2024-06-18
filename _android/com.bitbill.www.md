@@ -8,8 +8,8 @@ users: 10000
 appId: com.bitbill.www
 appCountry: 
 released: 2018-03-22
-updated: 2024-05-29
-version: 4.48.7
+updated: 2024-06-18
+version: 4.49.0
 stars: 3.8
 ratings: 79
 reviews: 10

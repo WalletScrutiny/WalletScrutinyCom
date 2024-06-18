@@ -12,7 +12,7 @@ updated: 2024-06-11
 version: 1.5.4
 stars: 5
 ratings: 
-reviews: 3
+reviews: 4
 size: 
 website: https://sideswap.io/
 repository: 
