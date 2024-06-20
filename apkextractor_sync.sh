@@ -97,6 +97,7 @@ echo "APK paths retrieved:"
 echo "$apks"
 
 # Make official directory
+mkdir -p $bundleId/official_apks
 mkdir -p $bundleId/official
 
 # Show and execute the command to pull the APKs
@@ -104,7 +105,7 @@ echo "Pulling APKs..."
 for apk in $apks; do
   apkPath=$(echo $apk | awk '{print $NF}' FS=':' | tr -d '\r\n')
   echo "Pulling $apkPath"
-  adb pull "$apkPath" $bundleId/official/
+  adb pull "$apkPath" "$apkPath" $bundleId/official_apks/
 done
 
 # List the contents of the official directory
@@ -123,35 +124,30 @@ if [ "$syncChoice" = "yes" ]; then
   # Check if the directory exists on the server
   if ssh $sshCredentials "test -d $bundleId/official"; then
     echo "Directory exists on the server."
-    remoteDir="$bundleId/official"
+    remoteDir="$bundleId"
   else
     echo -e "\033[1;33m**The directory does not exist on the server. Do you want to create it? (yes/no):**\033[0m"
     read createDirChoice
     if [ "$createDirChoice" = "yes" ]; then
-      ssh $sshCredentials "mkdir -p $bundleId/"
-      remoteDir="$bundleId/official"
+      ssh $sshCredentials "mkdir -p $bundleId/official_apks"
+      ssh $sshCredentials "mkdir -p $bundleId/official"
+      remoteDir="$bundleId"
     else
       echo "The files will be extracted to the 'official' directory in the user's home directory."
-      ssh $sshCredentials "mkdir -p ~$bundleId/"
-      remoteDir="~/official"
+      ssh $sshCredentials "mkdir -p $bundleId/official_apks"
+      ssh $sshCredentials "mkdir -p ~$bundleId/official"
+      remoteDir="~$bundleId"
     fi
   fi
 
   # Sync the APK files to the server
-  scp -r $bundleId/official/ $sshCredentials:$remoteDir/
-
+  scp -r $bundleId/official_apks/ $sshCredentials:$remoteDir/
+  
   # Get the list of APK files
-  apkFiles=$(ssh $sshCredentials "ls $remoteDir/*.apk")
+  apkFiles=$(ssh $sshCredentials "ls $remoteDir/official_apks/*.apk")
 
   # Extract APKs into their own directories on the server
-  ssh $sshCredentials "for apk in $(echo $apkFiles); do apkName=\$(echo \"\$apk\" | sed -e 's/split_config.//g' -e 's/.apk//g' -e 's:.*/::'); mkdir -p \"$remoteDir/\$apkName\"; unzip \"\$apk\" -d \"$remoteDir/\$apkName\"; done"
-
-  # Prompt the user whether to delete the original APK files on the server
-  echo -e "\033[1;33m**Do you want to delete the original APK files in the official directory on the server? (yes/no):**\033[0m"
-  read deleteChoice
-  if [ "$deleteChoice" = "yes" ]; then
-    ssh $sshCredentials "rm $remoteDir/*.apk"
-  fi
+  ssh $sshCredentials "for apk in $(echo $apkFiles); do apkName=\$(echo \"\$apk\" | sed -e 's/split_config.//g' -e 's/.apk//g' -e 's:.*/::'); mkdir -p \"$remoteDir/official/\$apkName\"; unzip \"\$apk\" -d \"$remoteDir/official/\$apkName\"; done"
 
   echo "APK files have been synchronized and processed on the server."
 else
