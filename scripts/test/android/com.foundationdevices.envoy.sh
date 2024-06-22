@@ -1,4 +1,6 @@
-# #!/bin/bash
+#!/bin/bash
+
+set -e
 
 repo=https://github.com/Foundation-Devices/envoy
 tag="v$versionName"
@@ -16,6 +18,7 @@ test() {
     --memory=6g \
     --build-arg UID=$(id -u) \
     --build-arg TAG=$tag \
+    --build-arg VERSION=$versionCode \
     --file Dockerfile \
     --file $SCRIPT_DIR/test/android/com.foundationdevices.envoy.dockerfile
 
