@@ -8,8 +8,8 @@ users: 50000
 appId: com.royallyborn.v8
 appCountry: 
 released: 2022-02-07
-updated: 2024-04-02
-version: 1.2.2
+updated: 2024-06-19
+version: 1.2.3
 stars: 4.3
 ratings: 
 reviews: 18

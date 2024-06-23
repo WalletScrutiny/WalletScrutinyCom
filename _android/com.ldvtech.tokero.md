@@ -8,8 +8,8 @@ users: 5000
 appId: com.ldvtech.tokero
 appCountry: 
 released: 2021-06-02
-updated: 2023-11-22
-version: 4.1.0
+updated: 2024-06-18
+version: 4.2.0
 stars: 5
 ratings: 
 reviews: 5

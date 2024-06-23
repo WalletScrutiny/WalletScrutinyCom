@@ -10,9 +10,9 @@ appCountry: cn
 released: 2021-01-04
 updated: 2024-05-28
 version: 5.4.3
-stars: 4
+stars: 3.8
 ratings: 116
-reviews: 146
+reviews: 141
 size: 
 website: https://www.batonex.com
 repository: 

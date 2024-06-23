@@ -8,11 +8,11 @@ appId: com.regelity.mobileex
 appCountry: ru
 idd: '1663262329'
 released: 2023-01-16
-updated: 2024-06-17
-version: 2.0.20
+updated: 2024-06-19
+version: 2.0.21
 stars: 4.5
-reviews: 23
-size: '56708096'
+reviews: 24
+size: '56728576'
 website: https://exnode.by
 repository: 
 issue: 

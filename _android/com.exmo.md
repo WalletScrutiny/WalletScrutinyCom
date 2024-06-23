@@ -12,7 +12,7 @@ updated: 2024-06-11
 version: 3.44.6
 stars: 3.8
 ratings: 2774
-reviews: 91
+reviews: 90
 size: 
 website: https://exmo.com/
 repository: 

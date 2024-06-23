@@ -12,7 +12,7 @@ updated: 2024-06-13
 version: 3.12.3
 stars: 4.3
 ratings: 933
-reviews: 481
+reviews: 482
 size: 
 website: http://www.ellipal.com
 repository: 

@@ -8,8 +8,8 @@ appId: com.holdings.choice
 appCountry: us
 idd: '1563472237'
 released: 2021-08-05
-updated: 2024-03-28
-version: 2.22.2
+updated: 2024-06-21
+version: 2.22.3
 stars: 4.8
 reviews: 1479
 size: '77047808'

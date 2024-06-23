@@ -8,8 +8,8 @@ appId: com.mojitowallet
 appCountry: us
 idd: '1620691992'
 released: 2022-07-15
-updated: 2024-04-25
-version: 0.3.0
+updated: 2024-06-19
+version: 0.3.1
 stars: 5
 reviews: 5
 size: '50994176'

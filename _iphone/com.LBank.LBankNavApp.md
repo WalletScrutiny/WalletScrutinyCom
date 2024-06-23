@@ -9,9 +9,9 @@ appCountry: us
 idd: 1437346368
 released: 2019-02-22
 updated: 2024-06-17
-version: 5.0.6
+version: 5.0.7
 stars: 3.6
-reviews: 483
+reviews: 485
 size: '94889984'
 website: https://www.lbank.com/
 repository: 

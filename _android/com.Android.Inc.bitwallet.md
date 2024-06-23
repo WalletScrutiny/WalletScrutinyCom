@@ -12,7 +12,7 @@ updated: 2024-01-28
 version: 2.0.1
 stars: 4.5
 ratings: 1214
-reviews: 283
+reviews: 288
 size: 
 website: https://www.bitwallet.org
 repository: 

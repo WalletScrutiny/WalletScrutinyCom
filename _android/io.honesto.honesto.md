@@ -8,8 +8,8 @@ users: 5000
 appId: io.honesto.honesto
 appCountry: 
 released: 
-updated: 2024-06-12
-version: 2.0.27
+updated: 2024-06-21
+version: 2.0.29
 stars: 4.4
 ratings: 
 reviews: 

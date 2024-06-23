@@ -1,6 +1,6 @@
 ---
 wsId: kryptogo
-title: KryptoGO - Bitcoin& NFT Wallet
+title: KryptoGO - Web3 Social Payment
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ appId: com.kryptogo.walletapp
 appCountry: us
 idd: '1593830910'
 released: 2021-12-28
-updated: 2024-05-16
-version: 2.36.0
+updated: 2024-06-21
+version: 3.38.0
 stars: 5
 reviews: 3
-size: '81346560'
-website: https://kryptogo.com
+size: '87358464'
+website: https://kryptogo.com/wallet
 repository: 
 issue: 
 icon: com.kryptogo.walletapp.jpg

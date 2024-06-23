@@ -4,15 +4,15 @@ title: 'Trust: Crypto & Bitcoin Wallet'
 altTitle: 
 authors:
 - leo
-users: 10000000
+users: 50000000
 appId: com.wallet.crypto.trustapp
 appCountry: 
 released: 2017-10-01
-updated: 2024-06-07
+updated: 2024-06-21
 version: 8.16.1
 stars: 4.4
 ratings: 841930
-reviews: 17545
+reviews: 17582
 size: 
 website: https://trustwallet.com/
 repository: 
