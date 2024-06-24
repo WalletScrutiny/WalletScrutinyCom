@@ -1,10 +1,8 @@
 #!/bin/bash
 # apkextractor_sync.sh - Combines APK extraction and synchronization to the server
+# pass appID as an argument, ie: ./apkextractor_sync.sh com.gemwallet.android [user@server]
 
 set -e
-
-# Source the .bashrc to load aliases
-source ~/.bashrc
 
 # Initialize the bundletoolPath variable
 bundletoolPath=""
@@ -61,14 +59,10 @@ if [ "$MISSING_DEPENDENCIES" = true ]; then
   exit 1
 fi
 
-# Remind the user to connect their phone
-echo -e "\033[1;37m▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮ Please ensure your phone is connected and adb debugging is enabled. Press any key to continue... ▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮\033[0m"
-read -n 1 -s
-
 # Check if a phone is connected
 connected_devices=$(adb devices | grep -w "device")
 if [ -z "$connected_devices" ]; then
-  echo -e "\033[1;31mNo device connected. Please connect your phone and enable USB debugging.\033[0m"
+  echo -e "\033[1;31m▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮ No phone is connected. Exiting program ▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮\033[0m"
   exit 1
 else
   echo -e "\033[1;32mDevice connected successfully.\033[0m"
@@ -80,12 +74,13 @@ else
   echo "SDK Version: $(adb shell getprop ro.build.version.sdk)"
 fi
 
-# Set the path to the bundletool JAR file
-bundletoolPath="$HOME/work/tools/bundletool.jar"
+# Get the bundle ID from the command line argument
+if [ -z "$1" ]; then
+  echo -e "\033[1;31mError: No bundle ID provided. Usage: $0 <bundleId> [user@server]\033[0m"
+  exit 1
+fi
 
-# Prompt the user for the bundle ID
-echo -e "\033[1;33m**Enter the bundle ID or appID for the app (e.g., com.gemwallet.android):**\033[0m"
-read bundleId
+bundleId="$1"
 echo "bundleId=\"$bundleId\""
 
 # Show and execute the command to get APK paths
@@ -112,14 +107,11 @@ done
 echo "Contents of the official directory:"
 ls -l $bundleId/official
 
-# Ask the user if they want to sync to the server
-echo -e "\033[1;33m**Do you want to sync the pulled APK files to the server? (yes/no):**\033[0m"
-read syncChoice
+# Check if the user provided SSH credentials for syncing to the server
+if [ ! -z "$2" ]; then
+  sshCredentials="$2"
 
-if [ "$syncChoice" = "yes" ]; then
-  # Prompt the user for SSH credentials
-  echo -e "\033[1;33m**Enter your SSH login credentials (e.g., user@build-server):**\033[0m"
-  read sshCredentials
+  echo -e "\033[1;33m▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮ Uploading files to server ▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮\033[0m"
 
   # Check if the directory exists on the server
   if ssh $sshCredentials "test -d $bundleId/official"; then
