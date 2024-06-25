@@ -12,8 +12,8 @@ updated: 2024-06-14
 version: 1.2.144
 stars: 4.6
 ratings: 
-reviews: 
-size: 
+reviews: 40
+size:
 website: https://gemwallet.com
 repository: https://github.com/gemwalletcom/gem-android
 issue: 
@@ -44,17 +44,17 @@ features:
 > When you choose Gem Wallet, you gain access to a Bitcoin wallet, Ethereum wallet, toncoin wallet, USDT/USDC wallet, BNB wallet, solana wallet, litecoin wallet, injective wallet, celestia wallet, bonk wallet, SEI wallet, avax wallet, MATIC wallet, SUI wallet, PEPE wallet, Manta wallet, ATOM wallet, and more! Gem Wallet is your key to the Web3 world. A single solution for multiple challenges.
 > 
 > Gem Crypto Wallet Key Features:
-  - Open Source Wallet
-  - Supports ERC-20, BEP-20, and TRC-20
-  - Store, Track, Send, Receive Tokens, Stake and Swap Coins
-  - Stake your SUI, INJ, ATOM, TIA, SEI, SOL, TRX, OSMO and BNB
-  - Use Swap and DEXes like 1inch directly from wallet with best rates
-  - Protect your Crypto and Private Keys with Industry-leading security
-  - Completely Free to Use
-  - Buy crypto with credit card
-  - Access NFT features
-  - View Detailed History of Your Transactions
-  - Use built in WalletConnect to connect with DApps, earn, stake, swap, use nft marketplaces, play games, make loans, sky is the limit if there is a Dapp, you can connect Gem Wallet with it.
+\- Open Source Wallet
+\- Supports ERC-20, BEP-20, and TRC-20
+\- Store, Track, Send, Receive Tokens, Stake and Swap Coins
+\- Stake your SUI, INJ, ATOM, TIA, SEI, SOL, TRX, OSMO and BNB
+\- Use Swap and DEXes like 1inch directly from wallet with best rates
+\- Protect your Crypto and Private Keys with Industry-leading security
+\- Completely Free to Use
+\- Buy crypto with credit card
+\- Access NFT features
+\- View Detailed History of Your Transactions
+\- Use built in WalletConnect to connect with DApps, earn, stake, swap, use nft marketplaces, play games, make loans, sky is the limit if there is a Dapp, you can connect Gem Wallet with it.
 
 ## Analysis
 
@@ -68,4 +68,4 @@ features:
 
 ### Thank you to Gem Wallet for their donation
 
-* $500 on 2024-06-12
+* $500 on [2024-06-12](https://x.com/dannybuntu/status/1805418147580887150)
