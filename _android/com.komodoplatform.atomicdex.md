@@ -36,6 +36,11 @@ features:
 
 ---
 
+**Update 2024-06-26**
+
+- The [Tags issue](https://github.com/KomodoPlatform/komodo-wallet-mobile/issues/60), I will now try to build this app. 
+ 
+
 **Update 2024-02-09**: This app is source-available but despite various comments
 on the [open issue 60](https://github.com/KomodoPlatform/komodo-wallet-mobile/issues/60)
 there is no reaction from the provider.
