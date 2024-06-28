@@ -5,7 +5,6 @@ builtApk=$workDir/build/app/outputs/flutter-apk/app-release.apk
 
 prepare() {
   echo "Testing $appId from $repo revision $tag (revisionOverride: '$revisionOverride')..."
-  rm -rf "$workDir" || exit 1
   mkdir -p $workDir
   cd $workDir
   echo "Trying to clone …"
@@ -22,49 +21,27 @@ test() {
   curl -L https://raw.githubusercontent.com/KomodoPlatform/coins/master/coins --output assets/coins.json
   curl -L https://raw.githubusercontent.com/KomodoPlatform/coins/master/utils/coins_config.json --output assets/coins_config.json
 
-  cat << EOF > Dockerfile
-FROM ubuntu:20.04
-
-ENV DEBIAN_FRONTEND=noninteractive
-ENV FLUTTER_VERSION=2.8.1
-ENV FLUTTER_HOME=/home/developer/flutter
-ENV PATH=\$PATH:\$FLUTTER_HOME/bin:/opt/android-sdk/platform-tools:/opt/android-sdk/tools/bin
-
-RUN apt-get update && apt-get install -y \
-    curl git unzip xz-utils zip libglu1-mesa openjdk-8-jdk wget
-
-# Install Android SDK
-RUN mkdir -p /opt/android-sdk && cd /opt/android-sdk && \
-    wget https://dl.google.com/android/repository/commandlinetools-linux-6858069_latest.zip && \
-    unzip commandlinetools-linux-6858069_latest.zip && rm commandlinetools-linux-6858069_latest.zip && \
-    yes | ./cmdline-tools/bin/sdkmanager --sdk_root=/opt/android-sdk --licenses && \
-    ./cmdline-tools/bin/sdkmanager --sdk_root=/opt/android-sdk "platform-tools" "platforms;android-30" "build-tools;30.0.3"
-
-RUN useradd -m developer
-USER developer
-WORKDIR /home/developer
-
-RUN git config --global --add safe.directory /home/developer/flutter
-RUN git clone https://github.com/flutter/flutter.git \$FLUTTER_HOME && \
-    cd \$FLUTTER_HOME && \
-    git checkout \$FLUTTER_VERSION && \
-    flutter precache && \
-    flutter doctor
-
-WORKDIR /app
-CMD ["flutter", "build", "apk", "--release", "--dart-define=screenshot=true"]
-EOF
-
-  docker build --tag komodo-wallet-build .
+  docker build -f $SCRIPT_DIR/test/android/com.komodoplatform.atomicdex.dockerfile -t komodo .
 
   docker run \
     --rm \
     --volume $PWD:/app \
-    --user $(id -u):$(id -g) \
-    komodo-wallet-build
-
-  docker rmi komodo-wallet-build -f
-  docker image prune -f
+    --name komodo-wallet-build \
+    komodo \
+    bash -c "mkdir -p /app/android/app/src/main/cpp/libs/arm64-v8a && \
+        mkdir -p /app/android/app/src/main/cpp/libs/armeabi-v7a && \
+        cd /app/android/app/src/main/cpp/libs/arm64-v8a && \
+        wget https://github.com/KomodoPlatform/komodo-defi-framework/releases/download/v2.0.0-beta/mm2-b0fd99e84-android-aarch64-CI.zip && \
+        unzip mm2-b0fd99e84-android-aarch64-CI.zip && \
+        rm mm2-b0fd99e84-android-aarch64-CI.zip && \
+        cd /app/android/app/src/main/cpp/libs/armeabi-v7a && \
+        wget https://github.com/KomodoPlatform/komodo-defi-framework/releases/download/v2.0.0-beta/mm2-b0fd99e84-android-armv7-CI.zip && \
+        unzip mm2-b0fd99e84-android-armv7-CI.zip && \
+        rm mm2-b0fd99e84-android-armv7-CI.zip && \
+        cd /app/ && \
+        flutter pub get && \
+        flutter build apk && \
+        flutter build appbundle"
 }
 
 prepare
