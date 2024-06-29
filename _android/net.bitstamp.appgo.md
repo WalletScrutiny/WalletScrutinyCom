@@ -10,9 +10,9 @@ appCountry:
 released: 2023-07-20
 updated: 2024-05-22
 version: '1.10'
-stars: 4.4
+stars: 4.3
 ratings: 
-reviews: 22
+reviews: 23
 size: 
 website: https://www.bitstamp.net
 repository: 

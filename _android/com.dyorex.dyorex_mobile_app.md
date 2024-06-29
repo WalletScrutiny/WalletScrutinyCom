@@ -8,8 +8,8 @@ users: 10000
 appId: com.dyorex.dyorex_mobile_app
 appCountry: 
 released: 2022-02-24
-updated: 2024-06-18
-version: 1.5.1
+updated: 2024-06-24
+version: 1.5.2
 stars: 4.9
 ratings: 
 reviews: 

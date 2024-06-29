@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.wallet.logos.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2022-07-06
+date: 2024-06-29
 signer: 
 reviewArchive: 
 twitter: 

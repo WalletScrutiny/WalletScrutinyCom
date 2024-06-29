@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-07-11
 updated: 2024-06-21
 version: 1.1.90
-stars: 3.9
+stars: 4
 ratings: 65
-reviews: 9
+reviews: 10
 size: 
 website: https://www.bitmama.io
 repository: 

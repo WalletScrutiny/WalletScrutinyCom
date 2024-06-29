@@ -12,7 +12,7 @@ updated: 2024-06-21
 version: 3.4.7
 stars: 4.6
 ratings: 
-reviews: 191
+reviews: 192
 size: 
 website: https://www.bydfi.com/
 repository: 

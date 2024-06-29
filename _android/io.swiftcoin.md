@@ -8,8 +8,8 @@ users: 1000
 appId: io.swiftcoin
 appCountry: 
 released: 2022-09-12
-updated: 2024-06-14
-version: 2.1.1
+updated: 2024-06-21
+version: 2.1.2
 stars: 
 ratings: 
 reviews: 

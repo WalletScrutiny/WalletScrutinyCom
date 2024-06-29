@@ -10,9 +10,9 @@ appCountry: gb
 released: 2018-11-26
 updated: 2024-06-13
 version: v1.77.0.21649
-stars: 4.2
+stars: 4.3
 ratings: 11645
-reviews: 30
+reviews: 29
 size: 
 website: https://www.quantfury.com/
 repository: 

@@ -10,9 +10,9 @@ appCountry:
 released: 2021-09-19
 updated: 2024-06-14
 version: 2.3.0
-stars: 4.8
+stars: 4.7
 ratings: 
-reviews: 11
+reviews: 12
 size: 
 website: https://boundlesspay.com
 repository: 

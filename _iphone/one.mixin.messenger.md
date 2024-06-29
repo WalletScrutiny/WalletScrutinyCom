@@ -10,11 +10,11 @@ appId: one.mixin.messenger
 appCountry: us
 idd: 1322324266
 released: 2018-01-20
-updated: 2024-06-17
-version: 1.8.4
+updated: 2024-06-25
+version: 1.8.5
 stars: 4.8
-reviews: 783
-size: '98553856'
+reviews: 784
+size: '98097152'
 website: https://mixinmessenger.zendesk.com/
 repository: https://github.com/MixinNetwork/android-app
 issue: https://github.com/MixinNetwork/android-app/issues/2559

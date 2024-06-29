@@ -1,6 +1,6 @@
 ---
 wsId: coinRepublic
-title: Coin Republic
+title: 'CoinRepublic: Buy Store Crypto'
 altTitle: 
 authors:
 - danny

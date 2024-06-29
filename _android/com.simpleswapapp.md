@@ -9,7 +9,7 @@ appId: com.simpleswapapp
 appCountry: gb
 released: 2020-05-23
 updated: 2024-06-08
-version: 4.2.0
+version: 4.2.1
 stars: 4.2
 ratings: 575
 reviews: 40

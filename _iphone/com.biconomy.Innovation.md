@@ -11,7 +11,7 @@ released: 2019-11-06
 updated: 2024-06-18
 version: 2.2.12
 stars: 4
-reviews: 59
+reviews: 60
 size: '53413888'
 website: http://www.biconomy.com/
 repository: 

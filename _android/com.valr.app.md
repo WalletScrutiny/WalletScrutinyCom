@@ -12,7 +12,7 @@ updated: 2024-06-06
 version: 1.0.94
 stars: 3.9
 ratings: 1725
-reviews: 17
+reviews: 19
 size: 
 website: https://www.valr.com
 repository: 
