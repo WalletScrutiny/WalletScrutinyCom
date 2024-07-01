@@ -12,7 +12,7 @@ updated: 2024-06-18
 version: 7.4.1
 stars: 3.8
 ratings: 5083
-reviews: 86
+reviews: 87
 size: 
 website: https://youhodler.com
 repository: 

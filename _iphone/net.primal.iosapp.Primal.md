@@ -11,7 +11,7 @@ released: 2023-12-01
 updated: 2024-05-28
 version: 1.7.21
 stars: 4.9
-reviews: 298
+reviews: 299
 size: '31575040'
 website: https://primal.net
 repository: 

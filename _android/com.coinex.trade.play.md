@@ -12,7 +12,7 @@ updated: 2024-06-27
 version: 3.30.0
 stars: 4.1
 ratings: 60269
-reviews: 1426
+reviews: 1424
 size: 
 website: https://www.coinex.com/
 repository: 

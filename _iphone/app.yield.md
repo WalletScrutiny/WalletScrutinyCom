@@ -11,7 +11,7 @@ released: 2022-06-15
 updated: 2024-05-31
 version: '24.0527'
 stars: 4.4
-reviews: 37
+reviews: 39
 size: '65255424'
 website: https://yield.app/
 repository: 

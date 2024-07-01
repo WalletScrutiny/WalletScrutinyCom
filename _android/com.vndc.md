@@ -8,11 +8,11 @@ users: 1000000
 appId: com.vndc
 appCountry: us
 released: 2020-03-07
-updated: 2024-06-26
+updated: 2024-07-01
 version: 5.5.0
-stars: 4.6
+stars: 4.5
 ratings: 46866
-reviews: 486
+reviews: 587
 size: 
 website: https://goonus.io
 repository: 

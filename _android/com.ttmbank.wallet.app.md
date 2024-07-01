@@ -4,7 +4,7 @@ title: MDAO Wallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.ttmbank.wallet.app
 appCountry: 
 released: 2021-08-05
