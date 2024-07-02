@@ -33,6 +33,10 @@ features:
 
 ---
 
+## Update 2024-07-02
+
+In relation to efforts to [update source-available apps](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/214), I am re-opening an issue **for verification**
+
 ## Updated Verdict 2021-12-21
 
 While the app developers claim that it is self-custodial, this app has failed to build from source. This was addressed in [issue 2544](https://github.com/bithyve/hexa/issues/2544).

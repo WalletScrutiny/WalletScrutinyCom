@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 - emanuel
+- danny
 users: 500000
 appId: co.edgesecure.app
 appCountry: 
@@ -22,7 +23,7 @@ icon: co.edgesecure.app.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2023-11-01
+date: 2024-07-02
 signer: 
 reviewArchive:
 - date: 2022-11-02
@@ -53,6 +54,10 @@ developerName: Edge (formerly Airbitz)
 features: 
 
 ---
+
+**Update 2024-07-02**
+
+In relation to [Issue 214](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/214) we are re-opening this app **for verification**.
 
 **Update 2023-10-31**: Our latest issue was not addressed by the provider but
 Emanuel had managed to compile a prior version of this app. Let's see how it

@@ -21,7 +21,7 @@ icon: com.trusteewallet.png
 bugbounty: 
 meta: ok
 verdict: ftbfs
-date: 2023-09-30
+date: 2024-07-02
 signer: 
 reviewArchive:
 - date: 2020-01-24
@@ -44,6 +44,8 @@ developerName: BlockSoft Lab
 features: 
 
 ---
+
+**Update 2024-07-02**: In relation to [Issue 214](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/214), this app is scheduled **for verification**
 
 **Update 2023-09-29**: We have not had a look in a long time. While the last
 time we were invited to re-evaluate, it didn't look too good, lets see if things

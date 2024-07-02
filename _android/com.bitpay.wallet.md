@@ -51,6 +51,10 @@ features:
 
 ---
 
+**Update 2024-07-02**
+
+This app is subject **for verification** in relation to [Issue#214](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/214)
+
 **Update 2023-03-12**: The source code of the last review was missing and was
 provided later on. That was version 12.6.4. Currently Google Play gives us
 version 14.10.1 and on GitHub ... the

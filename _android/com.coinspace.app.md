@@ -21,7 +21,7 @@ icon: com.coinspace.app.png
 bugbounty: https://openbugbounty.org/bugbounty/CoinAppWallet/
 meta: ok
 verdict: nonverifiable
-date: 2023-04-22
+date: 2024-07-02
 signer: 
 reviewArchive:
 - date: 2019-12-16
@@ -42,6 +42,10 @@ developerName: CoinSpace
 features: 
 
 ---
+
+**Update 2024-07-02**
+
+In relation to Issue 214, we are re-opening this app **for verification**
 
 **Update 2023-04-22**: Emanuel
 [made progress with this product](https://github.com/CoinSpace/CoinSpace/issues/30#issuecomment-1518503256)

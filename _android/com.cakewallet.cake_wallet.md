@@ -4,6 +4,7 @@ title: Cake Wallet
 altTitle: 
 authors:
 - leo
+- danny
 users: 100000
 appId: com.cakewallet.cake_wallet
 appCountry: 
@@ -21,7 +22,7 @@ icon: com.cakewallet.cake_wallet.jpg
 bugbounty: 
 meta: ok
 verdict: ftbfs
-date: 2022-11-02
+date: 2024-07-02
 signer: 
 reviewArchive:
 - date: 2021-04-14
@@ -38,6 +39,10 @@ developerName: Cake Labs
 features: 
 
 ---
+
+**Update 2024-07-02:** 
+
+The provider admits mistakenly closing the issue. In relation to [Issue 214](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/214). I am reopening this app **for verification**
 
 **Update 2024-02-25**: The provider
 [closed the issue](https://github.com/cake-tech/cake_wallet/issues/337#event-11912194300)

@@ -44,6 +44,10 @@ features:
 
 ---
 
+**Update 2024-07-02:** 
+
+In line with efforts to [re-verify source-available apps](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/214), we have opened this app **for verification**
+
 **Update: 2023-07-12**: We tested the app another round with the apk provided in Play Store and
 the result was the same as previous test:
 
