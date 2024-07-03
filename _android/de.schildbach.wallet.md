@@ -9,11 +9,11 @@ users: 5000000
 appId: de.schildbach.wallet
 appCountry: 
 released: 2011-03-01
-updated: 2024-03-15
-version: '10.14'
+updated: 2024-06-26
+version: '10.15'
 stars: 3.9
 ratings: 29247
-reviews: 1993
+reviews: 2009
 size: 
 website: https://github.com/bitcoin-wallet/bitcoin-wallet
 repository: https://github.com/bitcoin-wallet/bitcoin-wallet
@@ -22,9 +22,14 @@ icon: de.schildbach.wallet.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-03-24
+date: 2024-07-01
 signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
 reviewArchive:
+- date: 2024-03-24
+  version: '10.14'
+  appHash: c188015c6539bf594a38a36793cc9599b6b38439d34c4210c1f117d6b87b8d01
+  gitRevision: d85ea58e136e02e6bb35fc94814d57263dbdee90
+  verdict: reproducible
 - date: 2024-01-28
   version: '10.13'
   appHash: f8f5d0da7406def49087e8b99f273c754c6042065e6ce879c267d918434c5655
@@ -213,24 +218,24 @@ For the latest version the {% include testScript.html %} came to these results:
 ===== Begin Results =====
 appId:          de.schildbach.wallet
 signer:         58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
-apkVersionName: 10.14
-apkVersionCode: 101400
+apkVersionName: 10.15
+apkVersionCode: 101500
 verdict:        reproducible
-appHash:        c188015c6539bf594a38a36793cc9599b6b38439d34c4210c1f117d6b87b8d01
-commit:         8e907a2d1ab9429df1297a2fba42b3adc2352bb5
+appHash:        0769738882d39b4e02abbdb301cbde4962cf01890d7874c2e0b9ff6d0a23bc9e
+commit:         db16eba48c7b34201f4a2d78b974462587efb10f
 
 Diff:
-Only in /tmp/fromPlay_de.schildbach.wallet_101400/META-INF: BITCOIN-.RSA
-Only in /tmp/fromPlay_de.schildbach.wallet_101400/META-INF: BITCOIN-.SF
-Files /tmp/fromPlay_de.schildbach.wallet_101400/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_101400/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_de.schildbach.wallet_101500/META-INF: BITCOIN-.RSA
+Only in /tmp/fromPlay_de.schildbach.wallet_101500/META-INF: BITCOIN-.SF
+Files /tmp/fromPlay_de.schildbach.wallet_101500/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_101500/META-INF/MANIFEST.MF differ
 
 Revision, tag (and its signature):
-object 8e907a2d1ab9429df1297a2fba42b3adc2352bb5
+object db16eba48c7b34201f4a2d78b974462587efb10f
 type commit
-tag v10.14
-tagger Andreas Schildbach <andreas@schildbach.de> 1710437310 +0100
+tag v10.15
+tagger Andreas Schildbach <andreas@schildbach.de> 1719271439 +0200
 
-10.14 release
+10.15 release
 ===== End Results =====
 ```
 

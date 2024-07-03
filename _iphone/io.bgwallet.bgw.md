@@ -8,11 +8,11 @@ appId: io.bgwallet.bgw
 appCountry: us
 idd: '1628519503'
 released: 2022-10-31
-updated: 2024-04-30
-version: 0.3.5
+updated: 2024-06-11
+version: 0.3.7
 stars: 0
 reviews: 0
-size: '74802176'
+size: '74211328'
 website: https://walletgo.ai/
 repository: 
 issue: 

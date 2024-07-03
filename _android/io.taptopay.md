@@ -12,7 +12,7 @@ updated: 2022-08-25
 version: 1.0.1
 stars: 4.5
 ratings: 
-reviews: 4
+reviews: 5
 size: 
 website: https://taptopay.io
 repository: 

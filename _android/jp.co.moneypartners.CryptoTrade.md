@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: jp.co.moneypartners.CryptoTrade.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2024-06-23
 signer: 
 reviewArchive: 
 twitter: 

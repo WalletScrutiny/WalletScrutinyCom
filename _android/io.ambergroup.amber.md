@@ -8,11 +8,11 @@ users: 1000000
 appId: io.ambergroup.amber
 appCountry: us
 released: 2020-09-21
-updated: 2024-05-29
-version: 2.18.5
+updated: 2024-06-25
+version: 2.18.6
 stars: 4.7
 ratings: 2656
-reviews: 237
+reviews: 238
 size: 
 website: https://www.whalefin.com
 repository: 

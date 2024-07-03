@@ -7,11 +7,11 @@ appId: com.mutinywallet.mutiny
 appCountry: us
 idd: '6471030760'
 released: 2024-03-01
-updated: 2024-06-04
-version: 1.7.4
+updated: 2024-06-25
+version: 1.7.9
 stars: 4.8
-reviews: 16
-size: '43886592'
+reviews: 17
+size: '49979392'
 website: https://www.mutinywallet.com/
 repository: 
 issue: 

@@ -8,11 +8,11 @@ appId: net.tuxglobal.wallet
 appCountry: kw
 idd: '1495945761'
 released: 2020-02-04
-updated: 2024-05-20
-version: 1.9.0
+updated: 2024-06-18
+version: 1.9.1
 stars: 0
 reviews: 0
-size: '39250944'
+size: '39442432'
 website: https://tux-wallet.com/
 repository: 
 issue: 

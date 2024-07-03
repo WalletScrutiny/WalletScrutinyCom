@@ -8,11 +8,11 @@ users: 10000000
 appId: com.kubi.kucoin
 appCountry: 
 released: 2018-05-03
-updated: 2024-06-03
-version: 3.109.0
+updated: 2024-06-21
+version: 3.111.0
 stars: 4.4
 ratings: 72555
-reviews: 4643
+reviews: 4678
 size: 
 website: https://www.kucoin.com
 repository: 

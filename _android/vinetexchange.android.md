@@ -8,8 +8,8 @@ users: 1000
 appId: vinetexchange.android
 appCountry: 
 released: 2022-08-26
-updated: 2022-11-29
-version: 1.0.3
+updated: 2024-06-19
+version: 1.0.6
 stars: 
 ratings: 
 reviews: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: vinetexchange.android.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nowallet
-date: 2023-11-25
+date: 2024-06-23
 signer: 
 reviewArchive: 
 twitter: 

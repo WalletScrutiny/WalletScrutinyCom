@@ -11,16 +11,16 @@ released: 2015-02-20
 updated: 2023-06-25
 version: 4.1.3
 stars: 3.7
-reviews: 182
+reviews: 181
 size: '14504960'
 website: https://libertyx.com
 repository: 
 issue: 
 icon: com.libertyx.libertyx.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-07-04
+date: 2024-06-23
 signer: 
 reviewArchive: 
 twitter: libertyx

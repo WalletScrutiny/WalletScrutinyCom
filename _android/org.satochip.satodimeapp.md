@@ -7,8 +7,8 @@ users: 100
 appId: org.satochip.satodimeapp
 appCountry: 
 released: 2022-02-21
-updated: 2024-03-11
-version: 0.2.2
+updated: 2024-06-18
+version: 0.3.0
 stars: 
 ratings: 
 reviews: 

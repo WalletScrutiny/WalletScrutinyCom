@@ -8,11 +8,11 @@ users: 5000
 appId: com.frostwallet
 appCountry: 
 released: 2022-02-01
-updated: 2024-06-06
-version: 2.5.7
-stars: 4.5
+updated: 2024-06-20
+version: 2.5.10
+stars: 4.3
 ratings: 
-reviews: 
+reviews: 1
 size: 
 website: https://frostwallet.cc
 repository: 
