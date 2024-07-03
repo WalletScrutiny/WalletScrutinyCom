@@ -1,13 +1,19 @@
 import fs from "fs";
 import path from "path";
 import helper from "./helper.mjs";
+import readline from "readline";
 
 const { loadFromFile, dateOrEmpty } = helper;
 const foldersToAnalyze = ["_android", "_hardware"];
 const fNormal = '\x1b[0m';
 const fBold = '\x1b[37m\x1b[1m';
 const fHighlight = '\x1b[1m\x1b[36m';
-const fWarn = '\x1b[1m\x1b[31m';
+const fWarn = '\x1b[1m\x1b[33m';  // Yellow text
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+});
 
 const toLength = (string, length) => {
   if (string.length < length) {
@@ -30,11 +36,11 @@ const searchForVerificationText = () => {
     const files = fs.readdirSync(folder);
     for (const file of files) {
       const filePath = path.join(folder, file);
-      const {header, body} = loadFromFile(filePath);
-      const {meta, verdict} = header;
+      const { header, body } = loadFromFile(filePath);
+      const { meta, verdict } = header;
 
-      if (body.includes("for verification") && 
-          meta === 'ok' && 
+      if (body.includes("for verification") &&
+          meta === 'ok' &&
           verdict === 'wip') {
         needVerification.push({
           date: header.date,
@@ -63,45 +69,85 @@ const analyzeFiles = () => {
 ----------------------------
 `);
   const needVerification = [];
+  const needOtherVerdicts = [];
+
   for (const folder of foldersToAnalyze) {
     const files = fs.readdirSync(folder);
-
     for (const file of files) {
-      analyzeFile(path.join(folder, file), needVerification);
+      analyzeFile(path.join(folder, file), needVerification, needOtherVerdicts);
     }
   }
+
   needVerification.sort((a, b) => a.dtDays - b.dtDays);
-  for (const n of needVerification) {
-    console.log(`%s: ${fHighlight}%s${fNormal} %s lacking review since %s days`,
-      toLength(dateOrEmpty(n.updated), 10),
-      toLength(n.file, 50),
-      toLength(n.verdict === 'reproducible' ? `REPRODUCIBLE` : n.verdict, 15),
-      toLength('' + n.dtDays, 3),
-      n.title);
+  needOtherVerdicts.sort((a, b) => a.dtDays - b.dtDays);
+
+  if (needVerification.length > 0) {
+    console.log(`
+----------------------------
+🚀 ${fBold}May need updating verdict: reproducible or nonverifiable${fNormal}
+----------------------------
+`);
+    for (const n of needVerification) {
+      console.log(`%s: ${fHighlight}%s${fNormal} %s lacking review since %s days`,
+        toLength(dateOrEmpty(n.updated), 10),
+        toLength(n.file, 50),
+        toLength(n.verdict === 'reproducible' ? `REPRODUCIBLE` : n.verdict, 15),
+        toLength('' + n.dtDays, 3),
+        n.title);
+    }
   }
-};
 
-const analyzeFile = (filePath, needVerification) => {
-  const {header, body} = loadFromFile(filePath);
-  const {meta, date, verdict, updated} = header;
-
-  if (meta === "ok") {
-    const wasReproducible = verdict === 'reproducible' || (
-        header.reviewArchive && 
-        header.reviewArchive.some(it => it.verdict === 'reproducible')
-      );
-    if (updated && wasReproducible) {
-      if (date < updated) {
-        const dtDays = Math.round((new Date() - updated) / 1000 / 60 / 60 / 24);
-        needVerification.push({
-          updated: updated,
-          file: filePath,
-          verdict: verdict,
-          dtDays: dtDays,
-          title: header.altTitle || header.title,
-        });
+  rl.question(`${fWarn}Would you like to display apps that may need updating that were formerly "Nosource" "ftbfs" or "obfuscated" (y/n)?${fNormal} `, (answer) => {
+    if (answer.toLowerCase() === 'y') {
+      if (needOtherVerdicts.length > 0) {
+        console.log(`
+----------------------------
+🚀 ${fBold}May need updating former verdict: nosource, ftbfs, or obfuscated${fNormal}
+----------------------------
+`);
+        for (const n of needOtherVerdicts) {
+          console.log(`%s: ${fHighlight}%s${fNormal} %s lacking review since %s days`,
+            toLength(dateOrEmpty(n.updated), 10),
+            toLength(n.file, 50),
+            toLength(n.verdict === 'reproducible' ? `REPRODUCIBLE` : n.verdict, 15),
+            toLength('' + n.dtDays, 3),
+            n.title);
+        }
       }
     }
+    rl.close();
+  });
+};
+
+const analyzeFile = (filePath, needVerification, needOtherVerdicts) => {
+  const { header, body } = loadFromFile(filePath);
+  const { meta, date, verdict, updated } = header;
+
+  if (meta !== "ok") {
+    return;
+  }
+
+  const sixMonthsAgo = new Date();
+  sixMonthsAgo.setMonth(sixMonthsAgo.getMonth() - 6);
+
+  if ((verdict === 'reproducible' || verdict === 'nonverifiable') && updated && date < updated) {
+    const dtDays = Math.round((new Date() - updated) / 1000 / 60 / 60 / 24);
+    needVerification.push({
+      updated: updated,
+      file: filePath,
+      verdict: verdict,
+      dtDays: dtDays,
+      title: header.altTitle || header.title,
+    });
+  } else if ((verdict === 'nosource' || verdict === 'ftbfs' || verdict === 'obfuscated') && new Date(date) < sixMonthsAgo) {
+    const dtDays = Math.round((new Date() - new Date(date)) / 1000 / 60 / 60 / 24);
+    needOtherVerdicts.push({
+      updated: date,
+      file: filePath,
+      verdict: verdict,
+      dtDays: dtDays,
+      title: header.altTitle || header.title,
+    });
   }
 };
 
