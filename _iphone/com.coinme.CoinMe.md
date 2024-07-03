@@ -11,7 +11,7 @@ released: 2021-05-11
 updated: 2024-05-23
 version: 2.2.23
 stars: 4.6
-reviews: 4768
+reviews: 4770
 size: '130856960'
 website: https://coinme.com/
 repository: 

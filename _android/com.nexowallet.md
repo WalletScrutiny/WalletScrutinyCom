@@ -4,7 +4,7 @@ title: 'Nexo: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - leo
-users: 1000000
+users: 5000000
 appId: com.nexowallet
 appCountry: 
 released: 2019-06-28

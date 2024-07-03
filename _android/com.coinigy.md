@@ -8,8 +8,8 @@ users: 50000
 appId: com.coinigy
 appCountry: us
 released: 2018-06-11
-updated: 2023-10-31
-version: 0.5.35
+updated: 2024-07-01
+version: 0.5.36
 stars: 3.9
 ratings: 225
 reviews: 46

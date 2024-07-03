@@ -12,7 +12,7 @@ updated: 2024-06-14
 version: 3.88.0
 stars: 4.2
 ratings: 358
-reviews: 2926
+reviews: 2938
 size: 
 website: https://zbd.one/help
 repository: 
