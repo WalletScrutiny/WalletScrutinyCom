@@ -12,16 +12,16 @@ updated: 2023-07-03
 version: 5.13.2
 stars: 3.5
 ratings: 13093
-reviews: 189
+reviews: 188
 size: 
 website: https://www.cointiger.com
 repository: 
 issue: 
 icon: com.cointiger.ex.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-08-27
+date: 2024-06-29
 signer: 
 reviewArchive: 
 twitter: CoinTigerEX

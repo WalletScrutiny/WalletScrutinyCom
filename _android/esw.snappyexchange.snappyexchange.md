@@ -10,9 +10,9 @@ appCountry:
 released: 2022-01-15
 updated: 2024-04-05
 version: 2.3.1 (34)
-stars: 3.6
+stars: 3.5
 ratings: 
-reviews: 53
+reviews: 56
 size: 
 website: https://snappyexchange.com
 repository: 

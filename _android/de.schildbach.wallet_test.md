@@ -10,9 +10,9 @@ appCountry:
 released: 2011-07-10
 updated: 2024-03-15
 version: '10.14'
-stars: 4.4
+stars: 4.3
 ratings: 390
-reviews: 28
+reviews: 29
 size: 
 website: https://github.com/bitcoin-wallet/bitcoin-wallet
 repository: 

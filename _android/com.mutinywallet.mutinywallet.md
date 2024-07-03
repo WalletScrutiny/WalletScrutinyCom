@@ -7,11 +7,11 @@ users: 1000
 appId: com.mutinywallet.mutinywallet
 appCountry: 
 released: 2024-02-27
-updated: 2024-06-04
-version: 1.7.4
-stars: 5
+updated: 2024-06-25
+version: 1.7.10
+stars: 4.8
 ratings: 
-reviews: 4
+reviews: 5
 size: 
 website: https://mutinywallet.com
 repository: 

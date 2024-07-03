@@ -4,7 +4,7 @@ title: bitqik
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.bitqik
 appCountry: 
 released: 2022-09-23

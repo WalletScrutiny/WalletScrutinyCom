@@ -8,11 +8,11 @@ users: 10000000
 appId: com.etoro.openbook
 appCountry: 
 released: 2013-11-05
-updated: 2024-05-30
-version: 651.83.0
+updated: 2024-07-01
+version: 651.114.0
 stars: 3.9
 ratings: 111823
-reviews: 3394
+reviews: 3396
 size: 
 website: https://www.etoro.com/
 repository: 

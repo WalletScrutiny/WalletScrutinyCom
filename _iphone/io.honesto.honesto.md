@@ -8,11 +8,11 @@ appId: io.honesto.honesto
 appCountry: ch
 idd: '1503465220'
 released: 2021-12-09
-updated: 2024-05-14
-version: 2.0.22
+updated: 2024-06-17
+version: 2.1.0
 stars: 4.9
 reviews: 35
-size: '92106752'
+size: '92129280'
 website: 
 repository: 
 issue: 

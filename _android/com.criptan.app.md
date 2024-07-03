@@ -4,12 +4,12 @@ title: Criptan - Complement your bank
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.criptan.app
 appCountry: 
 released: 2020-08-23
-updated: 2024-05-29
-version: 2.17.10
+updated: 2024-06-28
+version: 2.18.3
 stars: 4.2
 ratings: 
 reviews: 

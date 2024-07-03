@@ -13,7 +13,7 @@ version: 1.0.67
 stars: 4.5
 reviews: 52
 size: '28164096'
-website: https://vizo.app
+website: https://vizo.app/
 repository: 
 issue: 
 icon: app.zupago.zp.jpg
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
-developerName: ZuPago HyBrid HD Wallet
+developerName: VIZO TECHNOLOGY LIMITED
 
 ---
 

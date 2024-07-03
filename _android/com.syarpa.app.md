@@ -7,8 +7,8 @@ users: 100
 appId: com.syarpa.app
 appCountry: 
 released: 2022-09-30
-updated: 2022-10-25
-version: 1.0.3
+updated: 2024-07-01
+version: 1.0.4
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.syarpa.app.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: fewusers
-date: 2023-10-22
+date: 2024-07-01
 signer: 
 reviewArchive: 
 twitter: 

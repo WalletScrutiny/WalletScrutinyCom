@@ -8,11 +8,11 @@ users: 500000
 appId: com.belo.android
 appCountry: 
 released: 2021-08-23
-updated: 2024-06-03
-version: 4.12.1
+updated: 2024-06-26
+version: 4.15.0
 stars: 3.8
 ratings: 
-reviews: 62
+reviews: 61
 size: 
 website: https://belo.app
 repository: 

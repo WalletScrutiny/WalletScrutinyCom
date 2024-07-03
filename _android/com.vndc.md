@@ -1,6 +1,6 @@
 ---
 wsId: VNDCPro
-title: 'ONUS: Buy Bitcoin BTC & Crypto'
+title: 'ONUS: Buy Bitcoin, PI & Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.vndc
 appCountry: us
 released: 2020-03-07
-updated: 2024-06-06
-version: 5.4.3
-stars: 4.2
+updated: 2024-07-01
+version: 5.5.0
+stars: 4.5
 ratings: 46866
-reviews: 374
+reviews: 587
 size: 
 website: https://goonus.io
 repository: 

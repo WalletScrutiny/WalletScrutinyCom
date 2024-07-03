@@ -8,10 +8,10 @@ appId: com.revix.mobile
 appCountry: za
 idd: '1590491829'
 released: 2022-08-01
-updated: 2024-06-06
-version: 1.9.1
+updated: 2024-06-13
+version: 1.9.2
 stars: 4
-reviews: 23
+reviews: 24
 size: '90090496'
 website: https://www.altify.app/
 repository: 

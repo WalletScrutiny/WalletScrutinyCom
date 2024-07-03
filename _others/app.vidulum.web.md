@@ -7,12 +7,8 @@ icon: app.vidulum.web.png
 date: 2024-05-10
 website: https://wallet.vidulum.app
 twitter: VidulumApp
-social:
-provider: 
-providerWebsite: 
-country: 
-price: 
 meta: ok
 verdict: wip
+
 ---
 

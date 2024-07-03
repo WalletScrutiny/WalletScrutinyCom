@@ -8,19 +8,19 @@ appId: com.excdev.bitcoinox
 appCountry: 
 idd: 1453542836
 released: 2019-02-27
-updated: 2022-11-28
-version: 2.8.5
+updated: 2024-06-26
+version: 2.8.8
 stars: 3.4
 reviews: 5
-size: '48560128'
+size: '49645568'
 website: https://bitcoinox.com/
 repository: 
 issue: 
 icon: com.excdev.bitcoinox.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: wip
-date: 2023-11-25
+date: 2024-06-29
 signer: 
 reviewArchive: 
 twitter: 

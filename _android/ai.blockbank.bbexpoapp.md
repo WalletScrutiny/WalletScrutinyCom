@@ -1,6 +1,6 @@
 ---
 wsId: blockbank.v2
-title: fideum
+title: Fideum
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: ai.blockbank.bbexpoapp
 appCountry: 
 released: 2021-10-21
-updated: 2024-05-31
-version: 4.2.3
+updated: 2024-06-21
+version: 4.2.5
 stars: 4.3
 ratings: 
 reviews: 12

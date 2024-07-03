@@ -4,7 +4,7 @@ title: Cryptoforce:Trade|Stake Crypto
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: in.cryptoforce.cfx
 appCountry: 
 released: 2022-09-27

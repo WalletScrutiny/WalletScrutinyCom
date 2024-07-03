@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: tech.amon.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-06-13
+date: 2024-06-29
 signer: 
 reviewArchive: 
 twitter: amonwallet

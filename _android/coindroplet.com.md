@@ -3,7 +3,7 @@ wsId:
 title: 'Coin Droplet: BTC & ETH Wallet'
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: coindroplet.com
 appCountry: 
 released: 2022-09-29
@@ -19,7 +19,7 @@ issue:
 icon: coindroplet.com.png
 bugbounty: 
 meta: stale
-verdict: fewusers
+verdict: wip
 date: 2023-12-01
 signer: 
 reviewArchive: 
