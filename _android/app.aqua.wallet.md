@@ -2,10 +2,10 @@
 wsId: aquaWallet
 title: Aqua Wallet
 altTitle: 
-authors: 
-    - bit-aloo
+authors:
+- bit-aloo
 users: 10000+
-appId: app.aqua.wallet.md
+appId: app.aqua.wallet
 appCountry: 
 released: 2024-01-02
 updated: 2024-05-16
@@ -17,7 +17,7 @@ size: 27.08 MB
 website: https://aquawallet.io/
 repository: https://github.com/AquaWallet/aqua-wallet
 issue: https://github.com/AquaWallet/aqua-wallet/issues/31
-icon: aquaWallet.png
+icon: app.aqua.wallet.png
 bugbounty: 
 meta: ok
 verdict: ftbfs
@@ -25,11 +25,11 @@ date: 2024-06-05
 signer: 
 reviewArchive: 
 twitter: AquaBitcoin
-social: 
-    - https://x.com/AquaBitcoin
+social:
+- https://x.com/AquaBitcoin
 redirect_from: 
 developerName: aquawallet-admin
-features: 
+features:
 - ln
 
 ---
