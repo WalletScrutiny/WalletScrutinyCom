@@ -6,12 +6,13 @@ authors:
 - bit-aloo
 users: 
 appId: com.litewallet.app
-appCountry:  
+appCountry: 
 released: 2022-03-29
-updated: 2022-06-28 
+updated: 2022-06-28
 version: 1.1.1
 stars: 
-reviews:
+ratings: 
+reviews: 
 size: 
 website: 
 repository: https://github.com/META-1-Official/litewallet-native
@@ -24,9 +25,10 @@ date: 2024-06-7
 signer: 
 reviewArchive: 
 twitter: 
-social:
-features: 
+social: 
+redirect_from: 
 developerName: 
+features: 
 
 ---
 
