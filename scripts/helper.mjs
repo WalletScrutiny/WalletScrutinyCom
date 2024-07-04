@@ -6,7 +6,6 @@ import yaml from 'js-yaml';
 import dateFormat from 'dateformat';
 
 process.env.TZ = 'UTC'; // fix timezone issues
-
 function downloadImageFile (url, iconPath, callback) {
   const iconFile = fs.createWriteStream(iconPath);
   const request = https.get(`${url}`, response => {
@@ -104,7 +103,7 @@ function migrateFile (categoryHelper, file, migration, defaultHeader) {
  * @param file The Path or file to be loaded
  * @param outHeaderAndBody Potentially pre-filled object {header: {}, body: ''}
  **/
-function loadFromFile (file, outHeaderAndBody = { header: {}, body: '' }) {
+function loadFromFile (file, outHeaderAndBody = {header: {}, body: ''}) {
   try {
     var parts = fs.readFileSync(file, 'utf8').split('---\n');
     const header = yaml.load(parts[1]);
@@ -208,3 +207,4 @@ export default {
   was404,
   writeResult
 };
+
