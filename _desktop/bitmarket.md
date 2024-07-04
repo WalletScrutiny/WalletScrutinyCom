@@ -7,6 +7,7 @@ released: 2020-12-19
 discontinued: 
 updated: 2022-06-20
 version: 0.15.0
+binaries: 
 provider: 
 providerWebsite: 
 website: https://bitmarket.network/
@@ -17,8 +18,10 @@ bugbounty:
 meta: obsolete
 verdict: wip
 date: 2024-04-24
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-features:
+social: 
+features: 
+
 ---
+

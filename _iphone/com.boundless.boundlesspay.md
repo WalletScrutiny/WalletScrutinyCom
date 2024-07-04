@@ -8,11 +8,11 @@ appId: com.boundless.boundlesspay
 appCountry: ng
 idd: '1598547096'
 released: 2021-12-28
-updated: 2024-04-23
-version: 2.2.8
+updated: 2024-06-10
+version: 2.2.9
 stars: 4.4
-reviews: 53
-size: '35054592'
+reviews: 65
+size: '36643840'
 website: https://www.boundlesspay.com
 repository: 
 issue: 

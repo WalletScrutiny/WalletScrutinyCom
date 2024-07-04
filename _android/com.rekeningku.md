@@ -1,6 +1,6 @@
 ---
 wsId: rekeningku
-title: 'Reku: Beli & Investasi Crypto'
+title: 'Reku: Beli Bitcoin & Crypto'
 altTitle: 
 authors:
 - danny

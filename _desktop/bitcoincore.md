@@ -7,7 +7,8 @@ authors:
 released: 2009-01-04
 discontinued: 
 updated: 2024-04-17
-version: 27.0
+version: 27
+binaries: 
 provider: Bitcoin Core Developers
 providerWebsite: 
 website: https://bitcoincore.org
@@ -16,10 +17,12 @@ issue:
 icon: bitcoincore.png
 bugbounty: 
 meta: ok
-verdict: wip 
+verdict: wip
 date: 2024-04-24
-reviewArchive:
+reviewArchive: 
 twitter: bitcoincoreorg
-social:
-features:
+social: 
+features: 
+
 ---
+

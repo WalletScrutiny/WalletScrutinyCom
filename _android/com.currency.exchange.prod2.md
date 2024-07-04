@@ -1,6 +1,6 @@
 ---
 wsId: dzengi
-title: Dzengi.com - Crypto Exchange
+title: Dzengi.com - Assets Exchange
 altTitle: 
 authors:
 - leo
@@ -11,9 +11,9 @@ appCountry:
 released: 2019-04-15
 updated: 2024-02-26
 version: 1.42.4
-stars: 
+stars: 2.6
 ratings: 
-reviews: 
+reviews: 1
 size: 
 website: http://dzengi.com
 repository: 

@@ -8,11 +8,11 @@ appId: com.bytefederal.bytewallet
 appCountry: us
 idd: '1569062610'
 released: 2021-07-27
-updated: 2024-05-03
-version: 1.5.3
-stars: 3.5
-reviews: 38
-size: '63038464'
+updated: 2024-06-09
+version: 1.5.6
+stars: 3.4
+reviews: 39
+size: '67587072'
 website: https://www.bytefederal.com/
 repository: 
 issue: 

@@ -9,11 +9,11 @@ users: 500000
 appId: co.edgesecure.app
 appCountry: 
 released: 2018-03-01
-updated: 2024-05-13
-version: 4.6.0
+updated: 2024-06-25
+version: 4.8.0
 stars: 4.2
 ratings: 3880
-reviews: 653
+reviews: 656
 size: 
 website: https://edge.app
 repository: https://github.com/EdgeApp/edge-react-gui

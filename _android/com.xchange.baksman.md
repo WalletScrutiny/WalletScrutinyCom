@@ -12,7 +12,7 @@ updated: 2023-09-14
 version: 4.0.1
 stars: 4.1
 ratings: 60
-reviews: 25
+reviews: 26
 size: 
 website: https://baksman.org
 repository: 

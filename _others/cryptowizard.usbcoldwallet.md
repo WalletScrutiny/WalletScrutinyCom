@@ -3,32 +3,19 @@ title: Crypto Wizard USB Cold Wallet
 appId: cryptowizard.usbcoldwallet
 authors:
 - danny
+icon: cryptowizard.usbcoldwallet.png
+date: 2023-09-29
 released: 2022-05-02
-discontinued: 
-updated: 
-version: 
-binaries: 
-dimensions:
+social:
+- https://www.facebook.com/profile.php?id=100046009663491
 weight: 56.7
 provider: Guru Computers, LLC
 providerWebsite: https://gurucomputers.us
-website: 
 shop: https://www.amazon.com/dp/B09ZBKN6WS
 country: US
 price: 60USD
-repository: 
-issue: 
-icon: cryptowizard.usbcoldwallet.png
-bugbounty: 
 meta: ok
 verdict: plainkey
-date: 2023-09-29
-signer: 
-reviewArchive:
-twitter: 
-social:
-- https://www.facebook.com/profile.php?id=100046009663491
-features: 
 
 ---
 
@@ -40,7 +27,7 @@ This is basically a USB device with possibly a Linux distribution loaded on it. 
 
 ## Analysis 
 
-The screenshots from the Amazon page shows some seed phrases from an included wallet: {% include walletLink.html wallet='android/coinomi.wallet' verdict='true' %}(desktop version).
+The screenshots from the Amazon page shows some seed phrases from an included wallet: {% include walletLink.html wallet='android/com.coinomi.wallet' verdict='true' %}(desktop version).
 
 As the only information available is from the Amazon page, which is still online, we're not able to locate any more information about it. Our best guess is this is a live-usb with a custom Linux distribution with a built-in wallet. This means that it would have to be plugged to a PC in order for the user to get it to work. This exposes the device and the private keys to a host of security risks. 
 

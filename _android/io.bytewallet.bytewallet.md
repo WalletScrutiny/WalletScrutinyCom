@@ -4,15 +4,15 @@ title: ByteWallet
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: io.bytewallet.bytewallet
 appCountry: 
 released: 2021-07-20
-updated: 2024-03-08
+updated: 2024-06-17
 version: VARY
-stars: 3
+stars: 3.1
 ratings: 
-reviews: 39
+reviews: 41
 size: 
 website: https://www.bytefederal.com
 repository: 

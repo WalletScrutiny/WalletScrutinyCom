@@ -8,11 +8,11 @@ users: 100000
 appId: com.creativeoffice.ripcoin
 appCountry: 
 released: 2021-02-25
-updated: 2024-05-06
-version: '16002'
-stars: 3.4
+updated: 2024-06-24
+version: '17001'
+stars: 3.3
 ratings: 
-reviews: 226
+reviews: 228
 size: 
 website: https://antnetwork.antf.online/
 repository: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: CreativeOffice
+developerName: Creative Office
 features: 
 
 ---

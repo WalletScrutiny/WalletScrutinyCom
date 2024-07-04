@@ -11,16 +11,16 @@ released: 2014-07-18
 updated: 2023-06-20
 version: 5.3.110
 stars: 4.7
-reviews: 3502
+reviews: 3495
 size: '170943488'
 website: https://www.okcoin.com/mobile
 repository: 
 issue: 
 icon: com.okcoin.OKCoinAppstore.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-09-15
+date: 2024-06-17
 signer: 
 reviewArchive: 
 twitter: OKcoin

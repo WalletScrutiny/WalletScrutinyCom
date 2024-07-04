@@ -8,8 +8,8 @@ users: 10000
 appId: cz.anycoin.mobile
 appCountry: 
 released: 2022-05-07
-updated: 2023-08-22
-version: 1.24.0
+updated: 2024-06-26
+version: 1.26.3
 stars: 
 ratings: 
 reviews: 

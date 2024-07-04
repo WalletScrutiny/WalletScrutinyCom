@@ -7,6 +7,7 @@ released: 2018-03-28
 discontinued: 
 updated: 2023-12-12
 version: 3.0.1
+binaries: 
 provider: 
 providerWebsite: 
 website: https://lisk.com
@@ -15,10 +16,12 @@ issue:
 icon: lisk.png
 bugbounty: 
 meta: ok
-verdict: wip 
+verdict: wip
 date: 2024-04-25
-reviewArchive:
+reviewArchive: 
 twitter: LiskHQ
-social:
-features:
+social: 
+features: 
+
 ---
+

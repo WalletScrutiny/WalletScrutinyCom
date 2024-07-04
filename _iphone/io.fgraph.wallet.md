@@ -13,7 +13,7 @@ version: 1.8.9
 stars: 0
 reviews: 0
 size: '72197120'
-website: https://fgraph.io/
+website: https://mirai.finance/
 repository: 
 issue: 
 icon: io.fgraph.wallet.jpg
@@ -29,7 +29,7 @@ social:
 - https://t.me/shinobiwallet
 - https://www.instagram.com/shinobiwallet
 features: 
-developerName: FGRAPH OU
+developerName: RISE LLC.
 
 ---
 

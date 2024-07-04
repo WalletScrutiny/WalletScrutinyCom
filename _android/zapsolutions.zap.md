@@ -87,6 +87,12 @@ features:
 
 ---
 
+**Update 2024-05-23**: This project was discontinued and removed from the Play
+Store but the provider refers to {% include walletLink.html
+wallet='android/app.michaelwuensch.bitbanana' verdict='true' %} as its successor.
+
+
+
 Here is the output using our {% include testScript.html %} on the binary from Google Play:
 
 ```

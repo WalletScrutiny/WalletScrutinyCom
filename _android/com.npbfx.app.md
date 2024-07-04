@@ -4,7 +4,7 @@ title: NPBFX
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.npbfx.app
 appCountry: 
 released: 2022-05-04

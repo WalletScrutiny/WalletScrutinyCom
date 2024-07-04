@@ -8,11 +8,11 @@ users: 10000000
 appId: piuk.blockchain.android
 appCountry: 
 released: 2013-02-01
-updated: 2024-04-29
-version: 202405.1.0
+updated: 2024-06-27
+version: 202406.1.3
 stars: 3.9
 ratings: 115830
-reviews: 6062
+reviews: 6089
 size: 
 website: https://www.blockchain.com
 repository: https://github.com/blockchain/My-Wallet-V3-Android

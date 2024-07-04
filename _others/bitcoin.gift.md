@@ -3,30 +3,14 @@ title: Bitcoin-Gift.com
 appId: bitcoin.gift
 authors:
 - danny
-released: 
-discontinued: 
-updated: 
-version: 
-binaries: 
-dimensions: 
-weight: 
-provider: Bitcoin-Gift Shop
-providerWebsite: 
+icon: bitcoin.gift.png
+date: 2022-05-17
 website: https://bitcoin-gift.com/
+provider: Bitcoin-Gift Shop
 shop: https://bitcoin-gift.com/shop/bitcoin-crypto-card/
 country: DE
-price: 
-repository: 
-issue: 
-icon: bitcoin.gift.png
-bugbounty: 
 meta: ok
 verdict: prefilled
-date: 2022-05-17
-signer: 
-reviewArchive: 
-twitter: 
-social: 
 
 ---
 

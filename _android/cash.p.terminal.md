@@ -4,33 +4,42 @@ title: P.CASH
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: cash.p.terminal
 appCountry: 
 released: 2023-02-10
-updated: 2024-04-30
-version: 0.38.0
+updated: 2024-06-26
+version: 0.38.6
 stars: 
 ratings: 
 reviews: 
 size: 
 website: https://p.cash/
-repository: 
+repository: https://github.com/piratecash/pcash-wallet-android
 issue: 
 icon: cash.p.terminal.png
 bugbounty: 
 meta: ok
-verdict: nosource
-date: 2023-12-02
+verdict: wip
+date: 2024-07-03
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: PirateCash_NET
+social:
+- https://www.facebook.com/PirateCash
+- https://discord.com/invite/cbTdqxx
+- https://bitcointalk.org/index.php?topic=5050988
+- https://www.reddit.com/r/PirateCash
+- https://t.me/PirateCash_ENG
 redirect_from: 
 developerName: PirateCash and Cosanta foundation
 features: 
 
 ---
+
+## Update 2024-07-03
+
+After updating the script, we found that this app is now [source-available](https://github.com/piratecash/pcash-wallet-android). This app is now **for verification**. 
 
 ## App Description from Google Play
 

@@ -8,8 +8,8 @@ users: 1000
 appId: com.xchange.ychanger
 appCountry: 
 released: 2021-06-08
-updated: 2023-10-06
-version: 4.0.1
+updated: 2024-06-12
+version: 4.1.2
 stars: 4
 ratings: 
 reviews: 

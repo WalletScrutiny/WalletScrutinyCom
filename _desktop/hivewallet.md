@@ -7,6 +7,7 @@ released: 2013-09-26
 discontinued: 
 updated: 2016-03-02
 version: 1.5
+binaries: 
 provider: 
 providerWebsite: 
 website: 
@@ -17,8 +18,10 @@ bugbounty:
 meta: obsolete
 verdict: wip
 date: 2024-04-25
-reviewArchive:
+reviewArchive: 
 twitter: hive_mac
-social:
-features:
+social: 
+features: 
+
 ---
+

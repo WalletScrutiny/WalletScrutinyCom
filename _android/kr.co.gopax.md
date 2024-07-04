@@ -4,15 +4,15 @@ title: GOPAX (Crypto exchange)
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: kr.co.gopax
 appCountry: cn
 released: 2018-11-05
-updated: 2024-04-24
-version: 1.7.70.6941
+updated: 2024-06-28
+version: 1.7.82.add0
 stars: 4
 ratings: 1387
-reviews: 1514
+reviews: 1515
 size: 
 website: https://www.gopax.co.kr
 repository: 

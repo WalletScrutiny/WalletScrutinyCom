@@ -3,12 +3,12 @@ wsId:
 title: BotTrade
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: trade.bot.app
 appCountry: 
 released: 2022-10-12
-updated: 2024-05-18
-version: 2024.05.18.21
+updated: 2024-07-02
+version: 2024.07.02.23
 stars: 4.9
 ratings: 
 reviews: 

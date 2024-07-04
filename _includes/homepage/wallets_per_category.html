@@ -1,4 +1,4 @@
-{% assign products = site.android | concat: site.iphone | concat: site.hardware | concat: site.bearer | concat: site.desktop %}
+{% assign products = site.android | concat: site.iphone | concat: site.hardware | concat: site.bearer | concat: site.others | concat: site.desktop %}
 {%- include /homepage/full_wallet_count.html raw='true' -%}
   
   {%- for verdict_group in site.data.verdictGroups -%}

@@ -30,7 +30,7 @@ social:
 - https://t.me/shinobiwallet
 - https://www.instagram.com/shinobiwallet
 redirect_from: 
-developerName: FGRAPH OU
+developerName: Mirai Finance
 features: 
 
 ---

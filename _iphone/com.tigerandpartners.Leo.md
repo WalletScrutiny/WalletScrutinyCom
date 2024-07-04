@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.tigerandpartners.Leo.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-07-11
+date: 2024-06-17
 signer: 
 reviewArchive: 
 twitter: LEO12_EXCHANGE

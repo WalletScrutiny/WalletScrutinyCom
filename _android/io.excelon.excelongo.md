@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.excelon.excelongo.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-04-15
+date: 2024-05-24
 signer: 
 reviewArchive: 
 twitter: 

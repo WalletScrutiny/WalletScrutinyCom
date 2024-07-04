@@ -8,11 +8,11 @@ users: 10000
 appId: com.BIYAGlobal.www
 appCountry: 
 released: 2021-04-13
-updated: 2024-05-01
-version: 2.8.38
-stars: 3.9
+updated: 2024-06-21
+version: 2.8.45
+stars: 3.8
 ratings: 
-reviews: 14
+reviews: 18
 size: 
 website: https://www.biyagl.com
 repository: 

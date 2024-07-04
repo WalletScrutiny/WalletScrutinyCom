@@ -8,11 +8,11 @@ appId: com.dok.wallet
 appCountry: il
 idd: 1533065700
 released: 2020-10-08
-updated: 2024-05-07
-version: '1.73'
+updated: 2024-06-29
+version: '1.78'
 stars: 4.8
 reviews: 17
-size: '98383872'
+size: '101459968'
 website: https://dokwallet.com
 repository: 
 issue: 

@@ -4,12 +4,12 @@ title: TOKERO
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.ldvtech.tokero
 appCountry: 
 released: 2021-06-02
-updated: 2023-11-22
-version: 4.1.0
+updated: 2024-06-21
+version: 4.3.0
 stars: 5
 ratings: 
 reviews: 5

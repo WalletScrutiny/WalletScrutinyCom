@@ -9,11 +9,11 @@ users: 1000000
 appId: org.electrum.electrum
 appCountry: 
 released: 2016-03-02
-updated: 2024-03-15
-version: 4.5.4.0
+updated: 2024-05-30
+version: 4.5.5.0
 stars: 3.8
 ratings: 2500
-reviews: 327
+reviews: 329
 size: 
 website: https://electrum.org
 repository: https://github.com/spesmilo/electrum
@@ -22,9 +22,14 @@ icon: org.electrum.electrum.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-03-25
+date: 2024-06-05
 signer: 
 reviewArchive:
+- date: 2024-03-25
+  version: 4.5.4.0
+  appHash: cb4577e845374d7d118e05984d6c04bfbc1e065c1a31d2f8b4d3879499c88a98
+  gitRevision: f610a4b7fa9d5f31ff65d1a6935a46ddbf854c2f
+  verdict: reproducible
 - date: 2024-01-22
   version: 4.5.1.0
   appHash: efcf5a4873df41f21e653aa7f6733719402cc701a0ac4ebf4fe1a075514ca2ad
@@ -92,24 +97,24 @@ procedure expressed in our {% include testScript.html %}:
 ===== Begin Results =====
 appId:          org.electrum.electrum
 signer:         e543d576fa0f2a33d412bca4c7d61e2301830e956e7d947e75b9052d176027d3
-apkVersionName: 4.5.4.0
-apkVersionCode: 34050400
+apkVersionName: 4.5.5.0
+apkVersionCode: 34050500
 verdict:        reproducible
-appHash:        cb4577e845374d7d118e05984d6c04bfbc1e065c1a31d2f8b4d3879499c88a98
-commit:         99f6dd5d5d63bdb311bd401835cb20423728f889
+appHash:        4fbaff4d4e6c99744fb8744c0be01afa24ae70091ca0fa59dfc82d2beab5433a
+commit:         7263a49129d14db288a01b0b9d569422baddf5e1
 
 Diff:
-Only in /tmp/fromPlay_org.electrum.electrum_34050400/META-INF: CERT.RSA
-Only in /tmp/fromPlay_org.electrum.electrum_34050400/META-INF: CERT.SF
-Only in /tmp/fromPlay_org.electrum.electrum_34050400/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_org.electrum.electrum_34050500/META-INF: CERT.RSA
+Only in /tmp/fromPlay_org.electrum.electrum_34050500/META-INF: CERT.SF
+Only in /tmp/fromPlay_org.electrum.electrum_34050500/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
-object 99f6dd5d5d63bdb311bd401835cb20423728f889
+object 7263a49129d14db288a01b0b9d569422baddf5e1
 type commit
-tag 4.5.4
-tagger ThomasV <thomasv@electrum.org> 1710339236 +0100
+tag 4.5.5
+tagger ThomasV <thomasv@electrum.org> 1716996193 +0200
 
-4.5.4
+4.5.5
 ===== End Results =====
 ```
 

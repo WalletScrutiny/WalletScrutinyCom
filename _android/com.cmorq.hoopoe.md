@@ -1,6 +1,6 @@
 ---
 wsId: cmorqFinance
-title: cmorq, Web3 banking for all.
+title: OpenFi, Web3 Finance for all.
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 100000
 appId: com.cmorq.hoopoe
 appCountry: 
 released: 2021-08-15
-updated: 2024-05-14
-version: 7.6.5
+updated: 2024-07-02
+version: 8.2.6
 stars: 4.2
 ratings: 
 reviews: 33

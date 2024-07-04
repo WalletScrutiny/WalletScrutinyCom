@@ -8,11 +8,11 @@ appId: com.kochure.kochure-app
 appCountry: ng
 idd: '1595574962'
 released: 2021-11-22
-updated: 2024-04-08
-version: 1.1.1
+updated: 2024-06-10
+version: 1.1.3
 stars: 4.2
-reviews: 164
-size: '53928960'
+reviews: 174
+size: '54170624'
 website: 
 repository: 
 issue: 

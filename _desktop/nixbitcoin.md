@@ -1,12 +1,13 @@
 ---
 title: Fort Nix Bitcoin
-appId: nix.bitcoin
+appId: nixbitcoin
 authors:
 - danny
 released: 2020-04-08
 discontinued: 
 updated: 2024-05-06
 version: 0.0.107
+binaries: 
 provider: Nix Bitcoin
 providerWebsite: 
 website: https://nixbitcoin.org/
@@ -17,8 +18,10 @@ bugbounty:
 meta: ok
 verdict: wip
 date: 2024-05-09
-reviewArchive:
+reviewArchive: 
 twitter: nixbitcoinorg
-social:
-features:
+social: 
+features: 
+
 ---
+

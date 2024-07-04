@@ -4,12 +4,12 @@ title: INOCYX
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.application.inocyx
 appCountry: 
 released: 2022-11-16
-updated: 2024-05-17
-version: '1.34'
+updated: 2024-07-02
+version: '1.38'
 stars: 4.7
 ratings: 
 reviews: 

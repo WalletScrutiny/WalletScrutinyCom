@@ -3,12 +3,12 @@ wsId:
 title: 'Mudra Exchange: Buy BTC, ETH'
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: mudra.exchange
 appCountry: 
 released: 2022-02-04
-updated: 2023-12-26
-version: 1.4.19
+updated: 2024-05-24
+version: 1.4.21
 stars: 
 ratings: 
 reviews: 
@@ -19,7 +19,7 @@ issue:
 icon: mudra.exchange.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-02
 signer: 
 reviewArchive: 

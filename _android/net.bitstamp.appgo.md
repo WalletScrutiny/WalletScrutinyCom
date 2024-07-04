@@ -8,11 +8,11 @@ users: 10000
 appId: net.bitstamp.appgo
 appCountry: 
 released: 2023-07-20
-updated: 2024-04-08
-version: '1.9'
+updated: 2024-05-22
+version: '1.10'
 stars: 4.3
 ratings: 
-reviews: 17
+reviews: 23
 size: 
 website: https://www.bitstamp.net
 repository: 

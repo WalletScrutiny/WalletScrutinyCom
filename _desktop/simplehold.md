@@ -1,5 +1,5 @@
 ---
-title: Simple Hold 
+title: Simple Hold
 appId: simplehold
 authors:
 - danny
@@ -7,6 +7,7 @@ released: 2021-03-24
 discontinued: 
 updated: 2023-04-06
 version: 1.26.8
+binaries: 
 provider: 
 providerWebsite: 
 website: 
@@ -17,8 +18,10 @@ bugbounty:
 meta: ok
 verdict: wip
 date: 2024-05-09
-reviewArchive:
+reviewArchive: 
 twitter: 
-social:
-features:
+social: 
+features: 
+
 ---
+

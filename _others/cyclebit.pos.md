@@ -3,38 +3,26 @@ title: Cyclebit Point of Sale
 appId: cyclebit.pos
 authors:
 - danny
-released: 
-discontinued: 
-updated: 
-version: 
-binaries: 
-dimensions:
-- 190
-- 80
-- 70
-weight: 480
-provider: CycleBit
-providerWebsite: 
-website: https://www.cyclebit.io/
-shop: https://www.cyclebit.io/pos
-country: SE
-price: 299USD
-repository: 
-issue: 
 icon: cyclebit.pos.png
-bugbounty: 
-meta: ok
-verdict: custodial
 date: 2022-04-29
-signer: 
-reviewArchive: 
+website: https://www.cyclebit.io/
 twitter: Cycle_bit
 social:
 - https://www.facebook.com/hellocyclebit
 - https://medium.com/@cyclebit
 - https://www.instagram.com/cyclebit/
 - https://t.me/joinchat/BLNuiBGxK6kqyJVunhKP5Q
-features: 
+dimensions:
+- 190
+- 80
+- 70
+weight: 480
+provider: CycleBit
+shop: https://www.cyclebit.io/pos
+country: SE
+price: 299USD
+meta: ok
+verdict: custodial
 
 ---
 
@@ -60,8 +48,8 @@ The Cyclebit Point of Sale device allows retail merchants to accept several cryp
 
 It works with NFC enabled cards, particularly: 
 
-- {% include walletLink.html wallet='bearer/tangem' verdict='true' %}
-- {% include walletLink.html wallet='bearer/cyclebit.tangem.card' verdict='true' %} 
+- {% include walletLink.html wallet='hardware/tangem' verdict='true' %}
+- {% include walletLink.html wallet='hardware/cyclebit.tangem.card' verdict='true' %} 
 
 ## Analysis 
 

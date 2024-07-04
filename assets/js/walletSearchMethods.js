@@ -49,7 +49,7 @@ function searchByWords(query, wallet) {
 
 function performSearch(wallets, query = false, platform = false) {
   const verdictOrder = ["nobinary", "reproducible", "diy", "nonverifiable", "ftbfs", "nosource", "custodial", "nosendreceive", "sealed-noita", "noita", "sealed-plainkey", "plainkey", "obfuscated", "prefilled", "fake", "wip", "fewusers", "unreleased", "vapor", "nobtc", "nowallet"];
-  const platformOrder = ['desktop', 'android', 'iphone', 'hardware', 'bearer'];
+  const platformOrder = ['desktop', 'android', 'iphone', 'hardware', 'bearer', 'others'];
   const metaOrder = ['ok', 'discontinued', 'deprecated', 'outdated', 'stale', 'obsolete', 'removed', 'defunct'];
 
   let workingArray = [];
@@ -82,7 +82,7 @@ function performSearch(wallets, query = false, platform = false) {
   }
 
   temp.sort((a, b) => {
-    if (a.verdict != b.verdict)
+    if (a.verdict != b.verdict && a.verdict && b.verdict)
       return verdictOrder.indexOf(a.verdict) - verdictOrder.indexOf(b.verdict);
     if (a.folder != b.folder)
       return platformOrder.indexOf(a.folder) - platformOrder.indexOf(b.folder);

@@ -3,7 +3,9 @@
 {% assign platform = include.platform %}
 <div class="steps linked">
   {% include /review/steps/developer.html %}
-  {% include /review/steps/custody.html platform=platform %}
+  {% if verdict && meta %}
+    {% include /review/steps/custody.html platform=platform %}
+  {% endif %}
   {% include /review/steps/sourceCode.html %}
   {% include /review/steps/releases.html %}
   <!-- {% include /review/steps/privacy.html %} -->
@@ -13,5 +15,7 @@
     {% include /review/steps/distribution.html platform=platform %}
   {% endif %}
   {% include /review/steps/platformNotes.html platform=platform %}
-  {% include /review/steps/tests.html meta=meta verdict=verdict platform=platform %}
+  {% if verdict && meta %}
+    {% include /review/steps/tests.html meta=meta verdict=verdict platform=platform %}
+  {% endif %}
 </div>

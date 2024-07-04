@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.brilliantts.fuzeW.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-05-26
+date: 2024-05-24
 signer: 
 reviewArchive: 
 twitter: 

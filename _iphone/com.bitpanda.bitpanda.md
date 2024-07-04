@@ -1,6 +1,6 @@
 ---
 wsId: bitpandaBitcoin
-title: 'Bitpanda: Buy BTC & crypto'
+title: 'Bitpanda: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.bitpanda.bitpanda
 appCountry: at
 idd: '1449018960'
 released: 2019-11-29
-updated: 2024-05-13
-version: 2.74.0
+updated: 2024-06-20
+version: 2.77.0
 stars: 4.7
-reviews: 16455
-size: '224004096'
+reviews: 16960
+size: '225347584'
 website: https://www.bitpanda.com/app
 repository: 
 issue: 

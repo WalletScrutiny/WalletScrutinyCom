@@ -3,7 +3,7 @@ wsId:
 title: 'MYKOBO: Buy, Sell, Use EURC'
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.mykobo
 appCountry: 
 released: 2020-10-29
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.mykobo.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-04-07
+date: 2024-06-29
 signer: 
 reviewArchive: 
 twitter: 

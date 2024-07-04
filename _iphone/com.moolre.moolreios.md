@@ -8,11 +8,11 @@ appId: com.moolre.moolreios
 appCountry: gh
 idd: '1439855151'
 released: 2018-11-20
-updated: 2023-12-26
-version: 3.4.29
+updated: 2024-06-21
+version: 3.5.0
 stars: 2.9
 reviews: 26
-size: '71729152'
+size: '56468480'
 website: https://moolre.com
 repository: 
 issue: 

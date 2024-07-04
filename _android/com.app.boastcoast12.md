@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.app.boastcoast12.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2023-06-03
+date: 2024-05-24
 signer: 
 reviewArchive: 
 twitter: 

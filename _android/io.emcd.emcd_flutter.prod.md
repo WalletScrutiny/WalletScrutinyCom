@@ -1,6 +1,6 @@
 ---
 wsId: emcdPoolWallet
-title: 'EMCD: pool, wallet, deposits'
+title: 'EMCD: Mining pool, Wallet, P2P'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 50000
 appId: io.emcd.emcd_flutter.prod
 appCountry: 
 released: 2022-01-03
-updated: 2024-05-06
-version: 1.48.0
+updated: 2024-06-28
+version: 1.49.2
 stars: 4.2
 ratings: 
-reviews: 10
+reviews: 11
 size: 
 website: https://emcd.io/ru
 repository: 

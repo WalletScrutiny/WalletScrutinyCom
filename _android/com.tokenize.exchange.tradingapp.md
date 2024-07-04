@@ -4,13 +4,13 @@ title: Tokenize Xchange
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.tokenize.exchange.tradingapp
 appCountry: us
 released: 2019-12-03
-updated: 2023-11-30
-version: 2.0.17
-stars: 4.2
+updated: 2024-06-10
+version: 2.0.18
+stars: 4.3
 ratings: 
 reviews: 6
 size: 

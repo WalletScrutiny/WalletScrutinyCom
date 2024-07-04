@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.crypto.croytowallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-05-22
+date: 2024-05-24
 signer: 
 reviewArchive: 
 twitter: 

@@ -8,7 +8,7 @@ appId: com.cryptnox.companion
 appCountry: us
 idd: '1583011693'
 released: 2021-10-10
-updated: 2024-04-07
+updated: 2024-06-08
 version: 2.4.1
 stars: 3.7
 reviews: 3

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: ru.devroom.blockchain24.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-02
+date: 2024-06-23
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.wallet.serecoin.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-06-13
+date: 2024-06-04
 signer: 
 reviewArchive: 
 twitter: 

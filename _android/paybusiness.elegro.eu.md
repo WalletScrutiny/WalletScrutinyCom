@@ -8,8 +8,8 @@ users: 1000
 appId: paybusiness.elegro.eu
 appCountry: 
 released: 2020-07-15
-updated: 2024-02-05
-version: 1.3.4
+updated: 2024-06-14
+version: 1.3.6
 stars: 
 ratings: 
 reviews: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.excelon.excelon.go.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-07-04
+date: 2024-06-23
 signer: 
 reviewArchive: 
 twitter: 

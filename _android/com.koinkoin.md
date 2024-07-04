@@ -24,7 +24,7 @@ verdict: custodial
 date: 2024-01-18
 signer: 
 reviewArchive: 
-twitter: 
+twitter: koinkoin13
 social:
 - https://www.reddit.com/r/KoinKoin_io/
 - https://www.facebook.com/Koinkoinn/

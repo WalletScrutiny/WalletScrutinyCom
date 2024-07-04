@@ -10,9 +10,9 @@ appCountry:
 released: 2023-02-19
 updated: 2023-12-17
 version: 1.7-product
-stars: 3.9
+stars: 4.1
 ratings: 
-reviews: 7
+reviews: 8
 size: 
 website: https://rabex.ir
 repository: 

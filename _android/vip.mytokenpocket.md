@@ -1,6 +1,6 @@
 ---
 wsId: TokenPocket
-title: TokenPocket Wallet Crypto DeFi
+title: 'TokenPocket: Crypto & Bitcoin'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 1000000
 appId: vip.mytokenpocket
 appCountry: 
 released: 2018-06-29
-updated: 2024-05-03
-version: 2.1.3
-stars: 4.4
+updated: 2024-06-24
+version: 2.1.7
+stars: 4.3
 ratings: 16862
-reviews: 554
+reviews: 560
 size: 
 website: https://www.tokenpocket.pro/
 repository: https://github.com/TP-Lab/tp-android

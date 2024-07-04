@@ -3,31 +3,15 @@ title: Pey PoS
 appId: pey.pos
 authors:
 - danny
-released: 
-discontinued: 
-updated: 
-version: 
-binaries: 
-dimensions:
-weight: 
-provider: Ricardo Ferrer Rivero
-providerWebsite: https://pey.de
-website: 
-shop: 
-country: 
-price: 
-repository: 
-issue: 
 icon: pey.pos.png
-bugbounty: 
-meta: ok
-verdict: vapor
 date: 2024-01-15
-signer: 
-reviewArchive: 
 twitter: PEY
 social:
 - https://www.facebook.com/PEYapp
+provider: Ricardo Ferrer Rivero
+providerWebsite: https://pey.de
+meta: ok
+verdict: vapor
 
 ---
 

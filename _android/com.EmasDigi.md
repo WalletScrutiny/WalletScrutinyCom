@@ -4,13 +4,13 @@ title: Pluang-Trading US Stock Crypto
 altTitle: 
 authors:
 - danny
-users: 1000000
+users: 5000000
 appId: com.EmasDigi
 appCountry: 
 released: 2018-01-21
-updated: 2024-05-15
-version: 5.6.3
-stars: 4.1
+updated: 2024-06-28
+version: 5.7.0
+stars: 4.2
 ratings: 27168
 reviews: 113
 size: 

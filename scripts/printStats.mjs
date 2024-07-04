@@ -24,18 +24,39 @@
 // | [sealed-plainkey](https://walletscrutiny.com/methodology/#sealed-plainkey) | 6 | 3 | comment |
 // | [sealed-noita](https://walletscrutiny.com/methodology/#sealed-noita) | 3 | 0 | comment |
 
-
 import helper from './helper.mjs';
 import helperPlayStore from './helperPlayStore.mjs';
 import helperAppStore from './helperAppStore.mjs';
 import helperHardware from './helperHardware.mjs';
 import helperBearer from './helperBearer.mjs';
+import helperDesktop from './helperDesktop.mjs';
 
-const sl = function (header, body, fileName, category) {
-  console.log(`${header.meta} ${header.verdict} ${header.appId}`);
-  return;
-}; // crucial semicolon!
+async function run () {
+  const r = {};
+  const migration = function (header, body, fileName, categoryHelper) {
+    const category = categoryHelper.category;
+    if ('defunct,removed'.includes(header.meta) && header.verdict === 'reproducible') {
+      console.log(header.appId);
+    }
+    r[header.meta] = (r[header.meta] ?? {});
+    r[header.meta][header.verdict] = (r[header.meta][header.verdict] ?? 0);
+    r[header.meta][header.verdict]++;
+  };
 
-[helperPlayStore, helperAppStore, helperHardware, helperBearer].forEach(h => {
-  helper.migrateAll(h.category, sl, h.headers);
-});
+  for await (const h of [helperPlayStore, helperAppStore, helperHardware, helperBearer, helperDesktop]) {
+    helper.migrateAll(h, migration);
+  }
+  await new Promise(resolve => setTimeout(resolve, 3000));
+  const metas = {};
+  const verdicts = {};
+  for (const meta in r) {
+    metas[meta] = metas[meta] ?? 0;
+    for (const verdict in r[meta]) {
+      verdicts[verdict] = verdicts[verdict] ?? 0;
+      verdicts[verdict] += r[meta][verdict];
+      metas[meta] += r[meta][verdict];
+    }
+  }
+  console.log(r, metas, verdicts);
+}
+run();

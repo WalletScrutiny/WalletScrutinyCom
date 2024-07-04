@@ -10,8 +10,8 @@ idd: '6473613857'
 released: 2024-01-10
 updated: 2024-04-09
 version: 1.0.28
-stars: 0
-reviews: 0
+stars: 1
+reviews: 1
 size: '40611840'
 website: https://bitcoli.com
 repository: 

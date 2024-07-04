@@ -8,11 +8,11 @@ users: 500000
 appId: com.cakedefi.app
 appCountry: us
 released: 2021-06-16
-updated: 2024-01-05
-version: 7.0.0
-stars: 3.1
+updated: 2024-05-20
+version: 7.1.0
+stars: 3
 ratings: 1135
-reviews: 190
+reviews: 191
 size: 
 website: https://bake.io
 repository: 

@@ -3,7 +3,7 @@ wsId:
 title: Pocket Exchange
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: io.pocketex
 appCountry: 
 released: 2022-05-18

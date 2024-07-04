@@ -3,35 +3,17 @@ title: Whitepay Point of Sale Web App
 appId: whitepay.pos
 authors:
 - danny
-released: 
-discontinued: 
-updated: 
-version: 
-binaries: 
-dimensions: 
-weight: 
-provider: 
-providerWebsite: 
-website: https://whitepay.com/
-shop: 
-country: 
-price: 
-repository: 
-issue: 
 icon: whitepay.pos.png
-bugbounty: 
-meta: ok
-verdict: nowallet
 date: 2024-01-15
-signer: 
-reviewArchive: 
-twitter: 
+website: https://whitepay.com/
 social:
 - https://www.facebook.com/Whitepay.official
 - https://www.linkedin.com/company/whitepay
 - https://t.me/whitepay
 - https://www.youtube.com/@whitepay.official
 - https://www.youtube.com/channel/UCYDgnHlrNXoZSR1fPCRZwRA/featured
+meta: ok
+verdict: nowallet
 
 ---
 

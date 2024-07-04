@@ -10,7 +10,7 @@ idd: '1535823080'
 released: 2020-11-05
 updated: 2024-05-14
 version: 4.9.1
-stars: 3.6
+stars: 3.8
 reviews: 37
 size: '21934080'
 website: 

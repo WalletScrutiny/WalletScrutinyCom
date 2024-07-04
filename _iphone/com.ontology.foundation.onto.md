@@ -8,11 +8,11 @@ appId: com.ontology.foundation.onto
 appCountry: us
 idd: 1436009823
 released: 2018-09-21
-updated: 2024-05-01
-version: 4.7.2
+updated: 2024-06-11
+version: 4.7.4
 stars: 4
-reviews: 84
-size: '240023552'
+reviews: 85
+size: '236999680'
 website: https://www.onto.app
 repository: 
 issue: 

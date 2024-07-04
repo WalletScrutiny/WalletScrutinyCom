@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.sellix.io.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-09-04
+date: 2024-06-17
 signer: 
 reviewArchive: 
 twitter: 
