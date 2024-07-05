@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: org.qwallet.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nobtc
-date: 2023-04-18
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

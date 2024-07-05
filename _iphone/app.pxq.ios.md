@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: app.pxq.ios.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2023-08-29
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

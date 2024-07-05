@@ -8,11 +8,11 @@ appId: com.swaps.only
 appCountry: xk
 idd: '1567210224'
 released: 2021-05-31
-updated: 2024-06-17
-version: 3.0.7
+updated: 2024-07-04
+version: 3.0.8
 stars: 0
 reviews: 0
-size: '207321088'
+size: '207316992'
 website: 
 repository: 
 issue: 

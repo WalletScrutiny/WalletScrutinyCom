@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.vida.live.android.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
-date: 2024-01-19
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

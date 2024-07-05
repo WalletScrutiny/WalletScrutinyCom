@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.xearth.cyrusmall.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-09-06
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

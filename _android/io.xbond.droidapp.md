@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.xbond.droidapp.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-10-06
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

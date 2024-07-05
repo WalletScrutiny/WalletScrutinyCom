@@ -5,7 +5,7 @@ altTitle: Bitcoin Wallet (Schildbach)
 authors:
 - leo
 - danny
-users: 5000000
+users: 10000000
 appId: de.schildbach.wallet
 appCountry: 
 released: 2011-03-01
@@ -13,7 +13,7 @@ updated: 2024-06-26
 version: '10.15'
 stars: 3.9
 ratings: 29247
-reviews: 2010
+reviews: 2012
 size: 
 website: https://github.com/bitcoin-wallet/bitcoin-wallet
 repository: https://github.com/bitcoin-wallet/bitcoin-wallet

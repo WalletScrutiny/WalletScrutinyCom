@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: gaikagroup.com.lacero.release.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-09-10
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.pellar.xifapp.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2023-06-06
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

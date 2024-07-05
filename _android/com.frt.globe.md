@@ -3,7 +3,7 @@ wsId:
 title: 'Globe: Crypto Exchange'
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.frt.globe
 appCountry: 
 released: 

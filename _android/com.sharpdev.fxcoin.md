@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.sharpdev.fxcoin.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
-date: 2022-10-21
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

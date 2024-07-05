@@ -12,12 +12,12 @@ updated: 2024-06-26
 version: 8.18.0
 stars: 4.7
 ratings: 3949
-reviews: 1439
+reviews: 1444
 size: 
 website: https://bitkeep.com
 repository: 
 issue: 
-icon: com.bitkeep.wallet.png
+icon: com.bitkeep.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: nosource

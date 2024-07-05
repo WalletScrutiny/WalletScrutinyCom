@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.fujidon.android.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2024-05-24
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

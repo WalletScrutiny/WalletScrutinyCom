@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.itez.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
-date: 2023-03-11
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: Itezofficial

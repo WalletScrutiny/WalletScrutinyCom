@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.waletrust.wallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-07-17
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

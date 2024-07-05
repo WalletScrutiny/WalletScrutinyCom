@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: mobi.androapp.asellmybitcoin4cash.c8927.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-06-23
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

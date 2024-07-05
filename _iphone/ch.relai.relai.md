@@ -11,7 +11,7 @@ released: 2020-07-01
 updated: 2024-06-26
 version: 2.8.10
 stars: 4.6
-reviews: 1580
+reviews: 1586
 size: '94452736'
 website: https://relai.app/
 repository: 

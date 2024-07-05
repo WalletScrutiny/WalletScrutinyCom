@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.lumiwallet.android.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-06-16
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: Lumi_wallet

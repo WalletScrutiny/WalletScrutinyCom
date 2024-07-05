@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.payterminal.payterminal.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-09-02
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

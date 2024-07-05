@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: mn.godeal.gopay.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2021-08-17
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

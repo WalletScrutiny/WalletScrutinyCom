@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.crypto_wallet_arnold.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2024-03-02
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

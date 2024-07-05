@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: BotTrade
+title: BotTrade - BitCoin Ai Signal
 altTitle: 
 authors: 
 users: 500
 appId: trade.bot.app
 appCountry: 
 released: 2022-10-12
-updated: 2024-07-02
-version: 2024.07.02.23
+updated: 2024-07-05
+version: 2024.07.06.00
 stars: 4.9
 ratings: 
 reviews: 

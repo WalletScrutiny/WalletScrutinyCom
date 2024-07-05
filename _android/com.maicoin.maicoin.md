@@ -4,7 +4,7 @@ title: MaiCoin - Buy Bitcoin & Crypto
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.maicoin.maicoin
 appCountry: us
 released: 2018-12-19

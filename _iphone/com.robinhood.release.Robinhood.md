@@ -11,7 +11,7 @@ released: 2014-12-11
 updated: 2024-07-01
 version: 2024.26.0
 stars: 4.2
-reviews: 4331980
+reviews: 4333309
 size: '435575808'
 website: https://robinhood.com/
 repository: 
