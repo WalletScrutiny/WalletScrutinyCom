@@ -1,6 +1,5 @@
 import appStore from './scripts/helperAppStore.mjs';
 import playStore from './scripts/helperPlayStore.mjs';
-import helper from './scripts/helper.mjs';
 import fs from 'fs';
 import dateFormat from 'dateformat';
 import readline from 'readline';
