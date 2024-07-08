@@ -19,9 +19,9 @@ repository: https://github.com/GenesisVision/android-client
 issue: 
 icon: vision.genesis.clientapp.investor.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2024-03-07
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: genesis_vision

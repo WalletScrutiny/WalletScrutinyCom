@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.artarax.cryptoShop.wMZarin.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2023-08-17
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

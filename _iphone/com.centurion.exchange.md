@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.centurion.exchange.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2024-03-15
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: CENTURION_INVST

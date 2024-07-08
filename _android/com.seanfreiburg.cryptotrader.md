@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.seanfreiburg.cryptotrader.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
-date: 2023-06-01
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

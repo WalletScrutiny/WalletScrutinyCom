@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.agile.walletapp.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nobtc
-date: 2022-01-09
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

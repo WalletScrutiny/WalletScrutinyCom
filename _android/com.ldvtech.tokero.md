@@ -4,7 +4,7 @@ title: TOKERO
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.ldvtech.tokero
 appCountry: 
 released: 2021-06-02

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.royalqregistration.app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-12-18
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

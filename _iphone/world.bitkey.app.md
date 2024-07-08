@@ -8,11 +8,11 @@ appId: world.bitkey.app
 appCountry: us
 idd: '6476990471'
 released: 2024-03-13
-updated: 2024-06-24
-version: 2024.61.1
+updated: 2024-07-03
+version: 2024.62.0
 stars: 4.8
 reviews: 47
-size: '75499520'
+size: '75839488'
 website: https://bitkey.world
 repository: https://github.com/proto-at-block/bitkey
 issue: 

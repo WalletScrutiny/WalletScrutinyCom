@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cbx.api.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-06-03
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

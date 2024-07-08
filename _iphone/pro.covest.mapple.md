@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: pro.covest.mapple.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-07-17
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: COVEST_Official

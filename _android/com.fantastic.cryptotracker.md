@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.fantastic.cryptotracker.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nowallet
-date: 2023-12-28
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

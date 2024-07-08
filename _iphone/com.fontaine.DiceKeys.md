@@ -18,9 +18,9 @@ repository: https://github.com/FontaineDenton/DiceKeys
 issue: 
 icon: com.fontaine.DiceKeys.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
-date: 2023-12-14
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.trixwallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-12-13
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

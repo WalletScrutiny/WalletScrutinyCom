@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.paramountdax.exchange.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-11-06
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

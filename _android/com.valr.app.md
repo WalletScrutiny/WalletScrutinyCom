@@ -4,13 +4,13 @@ title: VALR Crypto Exchange
 altTitle: 
 authors:
 - kiwilamb
-users: 100000
+users: 500000
 appId: com.valr.app
 appCountry: 
 released: 2019-09-13
 updated: 2024-06-06
 version: 1.0.94
-stars: 3.9
+stars: 4
 ratings: 1725
 reviews: 19
 size: 

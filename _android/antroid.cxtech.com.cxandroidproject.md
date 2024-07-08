@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: antroid.cxtech.com.cxandroidproject.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2021-09-22
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

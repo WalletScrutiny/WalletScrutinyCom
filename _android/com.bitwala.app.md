@@ -12,7 +12,7 @@ updated: 2024-06-20
 version: 3.6.3
 stars: 3.5
 ratings: 4416
-reviews: 3559
+reviews: 3560
 size: 
 website: https://www.bitwala.com
 repository: 

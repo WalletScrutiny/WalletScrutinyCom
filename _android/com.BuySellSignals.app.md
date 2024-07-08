@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.BuySellSignals.app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
-date: 2023-04-20
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

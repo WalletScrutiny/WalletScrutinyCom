@@ -15,22 +15,31 @@ ratings:
 reviews: 
 size: 
 website: https://p.cash/
-repository: 
+repository: https://github.com/piratecash/pcash-wallet-android
 issue: 
 icon: cash.p.terminal.png
 bugbounty: 
 meta: ok
-verdict: nosource
-date: 2023-12-02
+verdict: wip
+date: 2024-07-03
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: PirateCash_NET
+social:
+- https://www.facebook.com/PirateCash
+- https://discord.com/invite/cbTdqxx
+- https://bitcointalk.org/index.php?topic=5050988
+- https://www.reddit.com/r/PirateCash
+- https://t.me/PirateCash_ENG
 redirect_from: 
 developerName: PirateCash and Cosanta foundation
 features: 
 
 ---
+
+## Update 2024-07-03
+
+After updating the script, we found that this app is now [source-available](https://github.com/piratecash/pcash-wallet-android). This app is now **for verification**. 
 
 ## App Description from Google Play
 

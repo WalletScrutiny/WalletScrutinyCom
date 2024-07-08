@@ -19,9 +19,9 @@ repository: https://github.com/nayutaco/NayutaWalletApp
 issue: https://github.com/nayutaco/NayutaWalletApp/pull/2/files
 icon: com.nayuta.core2.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2024-01-23
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

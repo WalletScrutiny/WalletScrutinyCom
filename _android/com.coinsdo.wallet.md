@@ -4,12 +4,12 @@ title: 'CoinWallet: BTC USDT Wallet'
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.coinsdo.wallet
 appCountry: 
 released: 2022-06-26
-updated: 2024-06-14
-version: 1.1.29
+updated: 2024-07-03
+version: 1.1.30
 stars: 4.5
 ratings: 
 reviews: 80

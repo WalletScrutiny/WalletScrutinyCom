@@ -19,9 +19,9 @@ repository: https://github.com/ACINQ/phoenix-kmm
 issue: https://github.com/ACINQ/phoenix/issues/112
 icon: co.acinq.phoenix.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nonverifiable
-date: 2023-12-30
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: PhoenixWallet

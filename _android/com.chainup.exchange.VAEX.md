@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.chainup.exchange.VAEX.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2024-01-28
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: VaexExchange

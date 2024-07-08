@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.redratel.bitratel.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-05-04
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

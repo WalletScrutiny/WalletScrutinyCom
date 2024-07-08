@@ -11,7 +11,7 @@ released: 2020-05-25
 updated: 2024-06-26
 version: 3.7.9
 stars: 4.2
-reviews: 1191
+reviews: 1202
 size: '175384576'
 website: https://www.bitazza.com
 repository: 

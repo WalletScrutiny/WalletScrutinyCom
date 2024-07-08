@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.lyotrade.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-07-01
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: lyopayofficial

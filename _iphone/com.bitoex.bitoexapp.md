@@ -17,9 +17,9 @@ repository:
 issue: 
 icon: com.bitoex.bitoexapp.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-03-29
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: BitoEX_Official

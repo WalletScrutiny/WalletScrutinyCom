@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.crypto.wallet.bitcoin.ethereum.medooza.wallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2021-08-17
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

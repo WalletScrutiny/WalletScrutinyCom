@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.planb.wallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-09-06
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

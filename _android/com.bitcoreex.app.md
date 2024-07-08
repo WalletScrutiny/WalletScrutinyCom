@@ -7,8 +7,8 @@ users: 50
 appId: com.bitcoreex.app
 appCountry: 
 released: 2022-09-27
-updated: 2024-07-01
-version: 1.1.1
+updated: 2024-07-05
+version: 1.1.2
 stars: 
 ratings: 
 reviews: 

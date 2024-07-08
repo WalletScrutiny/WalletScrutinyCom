@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ventafrica.app.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-06-10
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: ventafricaHQ

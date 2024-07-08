@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.xbt.watcher.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fake
-date: 2023-06-20
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: app.africoin.pellar.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-12-17
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

@@ -16,7 +16,7 @@ size:
 website: https://syarpa.com/
 repository: 
 issue: 
-icon: com.syarpa.app.png
+icon: com.syarpa.app.jpg
 bugbounty: 
 meta: ok
 verdict: fewusers
