@@ -92,7 +92,11 @@ features:
 
 ## Reproducibility Testing Attempt
 
-We made a [dockerfile](com.gemwallet.android.dockerfile) and [bash script](com.gemwallet.android.sh) that would build Gemwallet's Android App Bundle (.aab) within a custom image. 
+We made a
+[Dockerfile](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/raw/d8e5f53c384b19035cb3447b34389d1fe59b7bfa/scripts/test/android/com.gemwallet.android.dockerfile)
+and
+[shell script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/raw/d8e5f53c384b19035cb3447b34389d1fe59b7bfa/scripts/test/android/com.gemwallet.android.sh)
+that would build Gemwallet's Android App Bundle (.aab) within a custom image. 
 
 The `bundletool` command would build an .apks archive from the .aab:
 
