@@ -12,7 +12,7 @@ updated: 2023-05-10
 version: 1.3.0
 stars: 3.4
 ratings: 218
-reviews: 22
+reviews: 23
 size: 
 website: https://dex-trade.com
 repository: 

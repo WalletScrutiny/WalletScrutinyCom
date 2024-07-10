@@ -19,9 +19,9 @@ repository: https://github.com/hodlwallet/hodl-wallet-ios
 issue: 
 icon: co.hodlwallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nonverifiable
-date: 2023-08-29
+date: 2024-07-10
 signer: 
 reviewArchive: 
 twitter: hodlwallet

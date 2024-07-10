@@ -19,9 +19,9 @@ repository: https://github.com/Elite-Labs/EliteWallet/releases/
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/497
 icon: sc.elitewallet.elitewallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: ftbfs
-date: 2024-06-11
+date: 2024-07-10
 signer: 
 reviewArchive: 
 twitter: EliteWallet

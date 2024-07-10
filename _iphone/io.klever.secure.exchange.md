@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.klever.secure.exchange.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2024-04-28
+date: 2024-07-10
 signer: 
 reviewArchive: 
 twitter: klever_io

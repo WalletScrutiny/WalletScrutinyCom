@@ -7,7 +7,7 @@ authors:
 - Mohammad Rafigh
 - leo
 - danny
-users: 100000
+users: 500000
 appId: io.bluewallet.bluewallet
 appCountry: 
 released: 2018-11-01

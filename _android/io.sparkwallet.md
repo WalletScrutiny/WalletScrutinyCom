@@ -12,7 +12,7 @@ updated: 2023-12-07
 version: '3.3'
 stars: 3.7
 ratings: 
-reviews: 3
+reviews: 4
 size: 
 website: https://sparkwallet.io/
 repository: 

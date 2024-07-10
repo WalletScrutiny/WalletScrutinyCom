@@ -12,7 +12,7 @@ updated: 2024-07-03
 version: 2.5.8
 stars: 4.9
 ratings: 
-reviews: 2
+reviews: 3
 size: 
 website: https://www.bity.com.br/policies/
 repository: 

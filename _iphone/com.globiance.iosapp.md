@@ -8,11 +8,11 @@ appId: com.globiance.iosapp
 appCountry: us
 idd: '1584923932'
 released: 2021-10-05
-updated: 2024-01-24
-version: '2.06'
+updated: 2024-07-05
+version: '2.07'
 stars: 4.3
 reviews: 83
-size: '58161152'
+size: '59216896'
 website: https://globiance.com
 repository: 
 issue: 

@@ -1,14 +1,3 @@
-2024-06-23:
-- _android/com.necen.coinpara.react
-- _android/com.nouroeddinne.miner.bitcoin.free
-- _android/fi.steakwallet.app
-- _android/io.kitefinancial.wallet
-- _android/sc.elitewallet.elitewallet
-- _iphone/com.eqifi.management.Eqifi
-- _iphone/com.ramzingate.ramzingate
-- _iphone/io.blockstream.green
-- _iphone/io.kamix.app
-- _iphone/io.klever.secure.exchange
 2024-06-29:
 - _android/ch.smd.icynote
 - _android/com.app.foxexchangeapp
@@ -46,3 +35,15 @@
 - _android/com.yieldapp_mobile
 - _android/io.gigexchage.crypto
 - _iphone/com.namicorp.exchange
+2024-07-10:
+- _android/com.blocknance.wallet
+- _android/com.denxpro.plus
+- _android/com.goldex.pro
+- _android/com.wallet.serecoin
+- _android/com.wootzapp.browser
+- _iphone/com.capitalsecurities.liqx
+- _iphone/com.flitaa
+- _iphone/com.kingdom.TheKingdomBank
+- _iphone/com.suprafin.usa.app
+- _iphone/com.tbws1.app
+- _iphone/com.tokenize.exchange.trading

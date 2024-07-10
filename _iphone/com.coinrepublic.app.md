@@ -1,6 +1,6 @@
 ---
 wsId: coinRepublic
-title: Coin Republic
+title: 'CoinRepublic: Crypto Exchange'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.coinrepublic.app
 appCountry: au
 idd: '1540941971'
 released: 2020-11-28
-updated: 2024-06-22
-version: 2.4.5
+updated: 2024-07-08
+version: 2.4.8
 stars: 5
 reviews: 3
-size: '37398528'
+size: '39049216'
 website: https://coinrepublic.exchange/
 repository: 
 issue: 

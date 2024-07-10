@@ -7,7 +7,7 @@ users: 10
 appId: com.heatwallet.heat_app
 appCountry: 
 released: 
-updated: 2024-02-29
+updated: 2024-07-08
 version: VARY
 stars: 
 ratings: 
