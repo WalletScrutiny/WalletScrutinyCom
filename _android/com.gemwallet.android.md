@@ -44,17 +44,18 @@ features:
 > When you choose Gem Wallet, you gain access to a Bitcoin wallet, Ethereum wallet, toncoin wallet, USDT/USDC wallet, BNB wallet, solana wallet, litecoin wallet, injective wallet, celestia wallet, bonk wallet, SEI wallet, avax wallet, MATIC wallet, SUI wallet, PEPE wallet, Manta wallet, ATOM wallet, and more! Gem Wallet is your key to the Web3 world. A single solution for multiple challenges.
 > 
 > Gem Crypto Wallet Key Features:
-\- Open Source Wallet
-\- Supports ERC-20, BEP-20, and TRC-20
-\- Store, Track, Send, Receive Tokens, Stake and Swap Coins
-\- Stake your SUI, INJ, ATOM, TIA, SEI, SOL, TRX, OSMO and BNB
-\- Use Swap and DEXes like 1inch directly from wallet with best rates
-\- Protect your Crypto and Private Keys with Industry-leading security
-\- Completely Free to Use
-\- Buy crypto with credit card
-\- Access NFT features
-\- View Detailed History of Your Transactions
-\- Use built in WalletConnect to connect with DApps, earn, stake, swap, use nft marketplaces, play games, make loans, sky is the limit if there is a Dapp, you can connect Gem Wallet with it.
+- Open Source Wallet
+- Supports ERC-20, BEP-20, and TRC-20
+- Store, Track, Send, Receive Tokens, Stake and Swap Coins
+- Stake your SUI, INJ, ATOM, TIA, SEI, SOL, TRX, OSMO and BNB
+- Use Swap and DEXes like 1inch directly from wallet with best rates
+- Protect your Crypto and Private Keys with Industry-leading security
+- Completely Free to Use
+- Buy crypto with credit card
+- Access NFT features
+- View Detailed History of Your Transactions
+- Use built in WalletConnect to connect with DApps, earn, stake, swap, use nft marketplaces, play games, make loans, sky is the limit if there is a Dapp, you can connect Gem Wallet with it.
+
 
 ## Analysis
 
@@ -104,16 +105,8 @@ The `bundletool` command would build an .apks archive from the .aab:
     RUN bundletool build-apks \
     --bundle=/home/gemwallet/gem-android/app/build/outputs/bundle/release/app-release.aab \
     --output=/home/gemwallet/gem-android/device-app-release.apks \
-    --device-spec=/home/gemwallet/device-spec.json \
-    --ks=$ANDROID_KEYSTORE_FILENAME \
-    --ks-pass=pass:$ANDROID_KEYSTORE_PASSWORD \
-    --ks-key-alias=$ANDROID_KEYSTORE_ALIAS \
-    --key-pass=pass:$ANDROID_KEYSTORE_PASSWORD
+    --device-spec=/home/gemwallet/device-spec.json 
 ```
-
-Specifying "--device-spec" would allow bundletool to generate apk files from the aab that were specifically tailored for a mobile device. Alternatively, you could use "--mode:universal" which would generate a singular "universal" apk.
-
-"--ks" and "--key-pass" allows developers to set a specific keystore to sign the apks. It is possible to leave them out, however an unsigned apk cannot be installed on your device.
 
 In this instance, we generated **unsigned** apks with **specificed device data** which we would then compare to official apks:
 
