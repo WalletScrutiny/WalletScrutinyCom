@@ -84,7 +84,7 @@ A complete [pastebin](https://pastebin.com/cGknq5Y1) of the build.log is availab
 
 Based on the instructions for an [automatic build](https://github.com/Elite-Labs/EliteWallet/issues/12#issuecomment-2078036154), we created a dockerfile to isolate the process:
 
-  - Used latest Ubuntu version as base image
+  - Used latest Ubuntu LTS version as base image
   - Set environment variables for Android SDK and Flutter
   - Install system dependencies
   - Install Android SDK
