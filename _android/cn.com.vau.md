@@ -12,7 +12,7 @@ updated: 2024-07-04
 version: 3.48.0
 stars: 3.7
 ratings: 8949
-reviews: 2180
+reviews: 2182
 size: 
 website: https://www.vantagemarkets.com/
 repository: 

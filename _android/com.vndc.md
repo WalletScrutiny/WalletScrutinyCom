@@ -12,7 +12,7 @@ updated: 2024-07-10
 version: 5.5.2
 stars: 4.6
 ratings: 46866
-reviews: 671
+reviews: 674
 size: 
 website: https://goonus.io
 repository: 

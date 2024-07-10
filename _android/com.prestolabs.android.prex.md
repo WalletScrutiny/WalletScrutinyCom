@@ -12,7 +12,7 @@ updated: 2024-07-03
 version: 1.61.4
 stars: 2.7
 ratings: 
-reviews: 55
+reviews: 56
 size: 
 website: https://flipster.io
 repository: 
