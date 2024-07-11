@@ -1,6 +1,6 @@
 ---
 wsId: iSunOne
-title: 'iSunOne: USDC Card'
+title: 'iSunOne: Buy and Spend USDT'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.tideisun.tidepay
 appCountry: us
 idd: 1384802533
 released: 2018-06-09
-updated: 2023-12-15
-version: 4.0.4
-stars: 3.7
-reviews: 13
-size: '78015488'
+updated: 2024-05-31
+version: 4.0.5
+stars: 0
+reviews: 0
+size: '78177280'
 website: https://isun1.com
 repository: 
 issue: 

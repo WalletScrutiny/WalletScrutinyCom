@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: vn.beedu.blockchain.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-07-08
+date: 2024-07-10
 signer: 
 reviewArchive: 
 twitter: LynKey_

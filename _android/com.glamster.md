@@ -10,7 +10,7 @@ appCountry:
 released: 2020-08-19
 updated: 2023-06-28
 version: 4.1.1
-stars: 2.5
+stars: 2.6
 ratings: 
 reviews: 6
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.glamster.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-03-31
+date: 2024-06-23
 signer: 
 reviewArchive: 
 twitter: 

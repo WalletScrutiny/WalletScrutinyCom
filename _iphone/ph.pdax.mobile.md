@@ -1,6 +1,6 @@
 ---
 wsId: pdax
-title: 'PDAX: Cryptocurrency & Trading'
+title: 'PDAX: Crypto Wallet & Trading'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: ph.pdax.mobile
 appCountry: ph
 idd: 1531246346
 released: 2020-12-18
-updated: 2024-05-29
-version: 8.6.0
-stars: 3.4
-reviews: 459
-size: '117815296'
+updated: 2024-07-09
+version: 10.0.1
+stars: 3.5
+reviews: 479
+size: '120829952'
 website: https://pdax.ph
 repository: 
 issue: 

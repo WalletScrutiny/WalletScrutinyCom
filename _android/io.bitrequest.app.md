@@ -3,12 +3,12 @@ wsId:
 title: Bitrequest
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: io.bitrequest.app
 appCountry: 
 released: 2019-11-01
-updated: 2023-12-17
-version: 1.5.6
+updated: 2024-06-18
+version: 1.5.8
 stars: 
 ratings: 
 reviews: 

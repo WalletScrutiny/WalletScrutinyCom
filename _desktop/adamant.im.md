@@ -22,7 +22,6 @@ reviewArchive:
 twitter: adamant_im
 social: 
 features: 
-developerName: 
 
 ---
 

@@ -10,18 +10,18 @@ appCountry:
 released: 2021-03-18
 updated: 2023-12-29
 version: '40.40'
-stars: 4.7
+stars: 4.6
 ratings: 3855
-reviews: 869
+reviews: 867
 size: 
 website: https://pfdae6613.app-ads-txt.com
 repository: 
 issue: 
 icon: com.nouroeddinne.miner.bitcoin.free.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
-date: 2023-12-13
+date: 2024-07-10
 signer: 
 reviewArchive: 
 twitter: 

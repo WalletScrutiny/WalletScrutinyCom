@@ -78,21 +78,23 @@ function addDefunctIfNew (id) {
   }
 }
 
-function migrateAll (category, migration, headers) {
+function migrateAll (categoryHelper, migration) {
+  const category = categoryHelper.category;
+  const headers = categoryHelper.headers;
   const folder = `_${category}/`;
   fs.readdir(folder, (_, files) => {
     files.forEach(file => {
-      migrateFile(category, file, migration, getEmptyHeader(headers));
+      migrateFile(categoryHelper, file, migration, getEmptyHeader(headers));
     });
   });
 }
 
-function migrateFile (category, file, migration, defaultHeader) {
-  const folder = `_${category}/`;
+function migrateFile (categoryHelper, file, migration, defaultHeader) {
+  const folder = `_${categoryHelper.category}/`;
   const appPath = path.join(folder, file);
   const content = { header: defaultHeader, body: undefined };
   loadFromFile(appPath, content);
-  migration(content.header, content.body, file, category);
+  migration(content.header, content.body, file, categoryHelper);
   writeResult(folder, content.header, content.body);
 }
 
@@ -107,7 +109,9 @@ function loadFromFile (file, outHeaderAndBody = { header: {}, body: '' }) {
     var parts = fs.readFileSync(file, 'utf8').split('---\n');
     const header = yaml.load(parts[1]);
     outHeaderAndBody.header = outHeaderAndBody.header || {};
-    Object.keys(header).forEach(k => { outHeaderAndBody.header[k] = header[k]; });
+    Object.keys(header).forEach(k => {
+      outHeaderAndBody.header[k] = header[k];
+    });
     outHeaderAndBody.body = parts.slice(2).join('---\n').replace(/^\s*[\r\n]/g, '');
     return outHeaderAndBody;
   } catch (e) {

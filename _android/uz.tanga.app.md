@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: uz.tanga.app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-11-02
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

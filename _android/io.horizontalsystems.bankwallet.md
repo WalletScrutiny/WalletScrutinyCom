@@ -9,11 +9,11 @@ users: 50000
 appId: io.horizontalsystems.bankwallet
 appCountry: 
 released: 2018-12-18
-updated: 2024-05-01
-version: 0.38.4
-stars: 4.1
+updated: 2024-06-26
+version: 0.39.0
+stars: 4.2
 ratings: 556
-reviews: 82
+reviews: 84
 size: 
 website: https://horizontalsystems.io/
 repository: https://github.com/horizontalsystems/unstoppable-wallet-android
@@ -22,9 +22,19 @@ icon: io.horizontalsystems.bankwallet.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-05-08
+date: 2024-07-02
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
 reviewArchive:
+- date: 2024-06-10
+  version: 0.38.5
+  appHash: c769df6bf3e3acd993272f499a501a6f4612edbcfcfe506b2ceb668e941f4743
+  gitRevision: 464b09925ac2dfb68196ea406eca31d5f6ceed22
+  verdict: reproducible
+- date: 2024-05-08
+  version: 0.38.4
+  appHash: 75cc38d54fb0c68546685ce6f558ae98a3e0e361c6ad5646cf868e35d19cb39b
+  gitRevision: 424e86411b0a1bf668fa8c271bb6f1f1f33419df
+  verdict: reproducible
 - date: 2024-04-28
   version: 0.38.3
   appHash: 7f1c412129a45740bd751f7f11ca3e5fa41b0fc79f38afb7bf232e8858224a79
@@ -260,20 +270,21 @@ procedure expressed in our {% include testScript.html %}:
 ===== Begin Results =====
 appId:          io.horizontalsystems.bankwallet
 signer:         c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
-apkVersionName: 0.38.4
-apkVersionCode: 107
+apkVersionName: 0.39.0
+apkVersionCode: 110
 verdict:        reproducible
-appHash:        75cc38d54fb0c68546685ce6f558ae98a3e0e361c6ad5646cf868e35d19cb39b
-commit:         399fd8dc84c249dd1094fee0a7a043ec5e4ffa90
+appHash:        a4f9f872a392a8593cc8fd91d05c504db0da88164211f855a630af494544f482
+commit:         ceae7cbffe6319432840cd33d0d65210c3e5a908
 
 Diff:
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_107/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_107/META-INF: RELEASEK.RSA
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_107/META-INF: RELEASEK.SF
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_110/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_110/META-INF: RELEASEK.RSA
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_110/META-INF: RELEASEK.SF
 
 Revision, tag (and its signature):
 
 ===== End Results =====
+
 ```
 
 This is what we want to see to call it **reproducible**.

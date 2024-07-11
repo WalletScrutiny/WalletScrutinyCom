@@ -19,9 +19,9 @@ repository: https://github.com/arterynetwork/artr
 issue: 
 icon: org.artr.wallet.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
-date: 2023-09-22
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

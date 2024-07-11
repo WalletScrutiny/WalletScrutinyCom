@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.necen.coinpara.react.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2022-07-31
+date: 2024-07-10
 signer: 
 reviewArchive: 
 twitter: 

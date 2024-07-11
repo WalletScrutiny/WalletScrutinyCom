@@ -3,30 +3,16 @@ title: Bitcoin Paper Wallet Treasure Chest
 appId: bitcoinpaperwallet.treasurechest
 authors:
 - danny
-released: 
-discontinued: 
-updated: 
-version: 
-binaries: 
-dimensions: 
-weight: 
-provider: Florian Klien
-providerWebsite: 
+icon: bitcoinpaperwallet.treasurechest.png
+date: 2022-05-18
 website: https://blog.flo.cx/2014/02/bitcoin-paper-wallet-treasure-chest/
-shop: 
+repository: https://github.com/piperwallet/Piper
+twitter: flowolf
+provider: Florian Klien
 country: AT
 price: 106EUR
-repository: https://github.com/piperwallet/Piper
-issue: 
-icon: bitcoinpaperwallet.treasurechest.png
-bugbounty: 
 meta: defunct
 verdict: plainkey
-date: 2022-05-18
-signer: 
-reviewArchive: 
-twitter: flowolf
-social: 
 
 ---
 

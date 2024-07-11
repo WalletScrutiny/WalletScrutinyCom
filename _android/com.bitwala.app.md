@@ -8,11 +8,11 @@ users: 100000
 appId: com.bitwala.app
 appCountry: gd
 released: 2019-07-11
-updated: 2024-05-27
-version: 3.6.1
+updated: 2024-07-02
+version: 3.7.1
 stars: 3.5
 ratings: 4416
-reviews: 3561
+reviews: 3559
 size: 
 website: https://www.bitwala.com
 repository: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.investpal_social_trading.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-06-03
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

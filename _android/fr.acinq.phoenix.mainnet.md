@@ -9,11 +9,11 @@ users: 50000
 appId: fr.acinq.phoenix.mainnet
 appCountry: us
 released: 2019-12-10
-updated: 2024-04-09
-version: 2.2.2
+updated: 2024-07-03
+version: 2.3.1
 stars: 4.3
 ratings: 314
-reviews: 42
+reviews: 43
 size: 
 website: https://phoenix.acinq.co
 repository: https://github.com/ACINQ/phoenix
@@ -22,9 +22,19 @@ icon: fr.acinq.phoenix.mainnet.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2024-04-13
+date: 2024-07-08
 signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
 reviewArchive:
+- date: 2024-06-19
+  version: 2.2.4
+  appHash: 8c820394974ed0e3416c8f869c68ad6ffd291aa381ccc8231ecc985d1263103c
+  gitRevision: acc99e48283d129017269e7ad367b0492f4a060a
+  verdict: nonverifiable
+- date: 2024-04-13
+  version: 2.2.2
+  appHash: 2550481acca5f800e83a76a54f3cd2d390a64cadf9055b184b63df8b8e01cddd
+  gitRevision: b7bd82e71c1c15b8d09287bf8a67716406ff5106
+  verdict: nonverifiable
 - date: 2024-03-18
   version: 2.2.1
   appHash: 3a1523b4ddeebff58deeb2f877e2d2f33924fdb8870e4bf34038fee9e7b87f53
@@ -104,34 +114,28 @@ features:
 Our test script gave us these results:
 
 ```
-===== End Results =====
-
-Run a full
-diff --recursive /tmp/fromPlay_fr.acinq.phoenix.mainnet_78 /tmp/fromBuild_fr.acinq.phoenix.mainnet_78
-meld /tmp/fromPlay_fr.acinq.phoenix.mainnet_78 /tmp/fromBuild_fr.acinq.phoenix.mainnet_78
-or
-diffoscope "/home/leo/Documents/walletscrutiny/incoming/Phoenix 2.2.2.apk" /tmp/test_fr.acinq.phoenix.mainnet/app/phoenix-android/build/outputs/apk/release/phoenix-78-2.2.2-mainnet-release.apk
-for more details.'
 ===== Begin Results =====
 appId:          fr.acinq.phoenix.mainnet
 signer:         ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
-apkVersionName: 2.2.2
-apkVersionCode: 78
+apkVersionName: 2.3.1
+apkVersionCode: 82
 verdict:        
-appHash:        2550481acca5f800e83a76a54f3cd2d390a64cadf9055b184b63df8b8e01cddd
-commit:         e1bed63f1f02da4306f98d82576fa522f3935376
+appHash:        ba8e8977da473ac4aab521597a7e7b7c3e706d445d399ad2f6922a1090c52f61
+commit:         5fb0dce164d4a7b72081657e8b40601278525fa3
 
 Diff:
-Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_78/assets/dexopt/baseline.prof and /tmp/fromBuild_fr.acinq.phoenix.mainnet_78/assets/dexopt/baseline.prof differ
-Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_78/assets/dexopt/baseline.profm and /tmp/fromBuild_fr.acinq.phoenix.mainnet_78/assets/dexopt/baseline.profm differ
-Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_78/classes5.dex and /tmp/fromBuild_fr.acinq.phoenix.mainnet_78/classes5.dex differ
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_78/META-INF: MAINNET.RSA
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_78/META-INF: MAINNET.SF
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_78/META-INF: MANIFEST.MF
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_82/assets/dexopt/baseline.prof and /tmp/fromBuild_fr.acinq.phoenix.mainnet_82/assets/dexopt/baseline.prof differ
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_82/classes5.dex and /tmp/fromBuild_fr.acinq.phoenix.mainnet_82/classes5.dex differ
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_82/META-INF: MAINNET.RSA
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_82/META-INF: MAINNET.SF
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_82/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
 
 ===== End Results =====
+
 ```
 
-That is a bigger diff than expected. This version is **not verifiable**.
+While there is one file-less in the diffs compared with version 2.2.2, the persistence of classes5.dex and baseline.prof indicate a significant diff than expected. This version is **not verifiable**.
+
+{% include asciicast %}

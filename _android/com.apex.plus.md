@@ -8,11 +8,11 @@ users: 50000
 appId: com.apex.plus
 appCountry: 
 released: 2022-08-24
-updated: 2024-05-22
-version: 1.28.5
+updated: 2024-07-10
+version: 2.4.1
 stars: 4.3
 ratings: 
-reviews: 20
+reviews: 19
 size: 
 website: https://apex.exchange
 repository: 
@@ -30,7 +30,7 @@ social:
 - https://discord.com/invite/366Puqavwx
 - https://t.me/ApeXdex
 redirect_from: 
-developerName: ApeX Pro
+developerName: ApeX Protocol
 features: 
 
 ---

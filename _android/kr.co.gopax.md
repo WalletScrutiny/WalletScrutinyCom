@@ -8,11 +8,11 @@ users: 500000
 appId: kr.co.gopax
 appCountry: cn
 released: 2018-11-05
-updated: 2024-05-23
-version: 1.7.75.357d
+updated: 2024-07-10
+version: 1.7.83.ace1
 stars: 4
 ratings: 1387
-reviews: 1513
+reviews: 1515
 size: 
 website: https://www.gopax.co.kr
 repository: 

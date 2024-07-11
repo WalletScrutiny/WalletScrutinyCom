@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.ergvein.wallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2024-04-29
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.wallmine.android.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2022-11-02
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

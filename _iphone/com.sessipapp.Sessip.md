@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.sessipapp.Sessip.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2024-03-30
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: sessipapp

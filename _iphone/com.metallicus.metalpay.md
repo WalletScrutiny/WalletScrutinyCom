@@ -1,6 +1,6 @@
 ---
 wsId: MetalPay
-title: 'Metal Pay: Buy Bitcoin'
+title: 'Metal Pay: Buy Bitcoin and ETH'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.metallicus.metalpay
 appCountry: us
 idd: 1345101178
 released: 2018-09-14
-updated: 2024-05-22
-version: 3.1.143
+updated: 2024-07-09
+version: 3.1.151
 stars: 4.3
-reviews: 4298
-size: '116639744'
+reviews: 4296
+size: '117584896'
 website: https://metalpay.com
 repository: 
 issue: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.baanx.gcc.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-05-11
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

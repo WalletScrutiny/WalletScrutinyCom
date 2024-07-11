@@ -165,7 +165,6 @@
     "category": "Others",
     "apps": [ 
       {% for post in site.others %}
-      {% include wallet_score.html verdict = post.verdict meta = post.meta platform='others' %}
       {
         "appId": "{{ post.appId }}",
         "title": "{{ post.title | escape }}",
@@ -178,7 +177,8 @@
         "icon": "{{ post.icon }}",
         "date": "{{ post.date | date: '%Y-%m-%d' }}",
         "twitter": "{{ post.twitter }}",
-        "social": {{ post.social | jsonify }}
+        "social": {{ post.social | jsonify }},
+        "url": "{{ post.url }}"
       }{% unless forloop.last %},{% endunless %}
       {% endfor %}
     ]

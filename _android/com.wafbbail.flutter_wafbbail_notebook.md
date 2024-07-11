@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.wafbbail.flutter_wafbbail_notebook.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-10-16
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

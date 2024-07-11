@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.pro1trading.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2021-11-30
+date: 2024-06-17
 signer: 
 reviewArchive: 
 twitter: pro1trading

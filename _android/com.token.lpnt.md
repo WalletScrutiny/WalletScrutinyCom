@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.token.lpnt.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-10-01
+date: 2024-06-09
 signer: 
 reviewArchive: 
 twitter: officialLPNT

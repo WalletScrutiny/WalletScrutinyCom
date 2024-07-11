@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.aabb.wallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2021-10-26
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: AsiaBroadband

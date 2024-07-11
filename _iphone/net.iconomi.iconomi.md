@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/iconomicom
 - https://www.reddit.com/r/ICONOMI
 features: 
-developerName: ICONOMI AG
+developerName: ICONOMI LTD
 
 ---
 

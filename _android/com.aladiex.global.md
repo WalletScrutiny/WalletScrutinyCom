@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.aladiex.global.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2023-04-18
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: Aladiexchange

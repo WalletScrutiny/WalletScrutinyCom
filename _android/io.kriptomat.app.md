@@ -8,8 +8,8 @@ users: 100000
 appId: io.kriptomat.app
 appCountry: us
 released: 2018-12-17
-updated: 2024-04-08
-version: 4.5.0
+updated: 2024-07-08
+version: 5.1.5
 stars: 
 ratings: 
 reviews: 

@@ -4,15 +4,15 @@ title: WhiteBIT – buy & sell bitcoin
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.whitebit.android
 appCountry: ua
 released: 2019-06-07
-updated: 2024-05-23
-version: 3.20.2
-stars: 3.8
+updated: 2024-07-04
+version: 3.23.1
+stars: 4.8
 ratings: 1962
-reviews: 929
+reviews: 1152
 size: 
 website: https://whitebit.com/
 repository: 

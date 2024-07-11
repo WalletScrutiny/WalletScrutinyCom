@@ -1,6 +1,6 @@
 ---
 wsId: crypterApp
-title: The Crypto App - Coin Tracker
+title: 'The Crypto App: News & Alerts'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 1000000
 appId: com.crypter.cryptocyrrency
 appCountry: us
 released: 2017-09-09
-updated: 2024-05-03
-version: 3.4.11
+updated: 2024-05-31
+version: 3.5.0
 stars: 4.3
 ratings: 78687
 reviews: 2710

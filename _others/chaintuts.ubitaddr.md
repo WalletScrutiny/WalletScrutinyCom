@@ -3,34 +3,23 @@ title: Chaintuts ubitaddr
 appId: chaintuts.ubitaddr
 authors:
 - danny
-released: 2019-08-12
-discontinued: 
-updated: 2020-05-01
-version: 
-binaries: 
-dimensions: 
-weight: 
-provider: Josh McIntyre
-providerWebsite: https://jmcintyre.net/
-website: https://chaintuts.com/
-shop: 
-country: US
-price: 
-repository: https://github.com/chaintuts/ubitaddr
-issue: 
 icon: chaintuts.ubitaddr.png
-bugbounty: 
-meta: obsolete
-verdict: diy
 date: 2022-05-19
-signer: 
-reviewArchive: 
+released: 2019-08-12
+updated: 2020-05-01
+website: https://chaintuts.com/
+repository: https://github.com/chaintuts/ubitaddr
 twitter: chaintuts
 social:
 - https://www.facebook.com/chaintuts
 - https://www.linkedin.com/in/jmcintyre-net/
 - https://www.youtube.com/c/chaintuts
 - https://www.reddit.com/user/pgh_ski
+provider: Josh McIntyre
+providerWebsite: https://jmcintyre.net/
+country: US
+meta: obsolete
+verdict: diy
 
 ---
 

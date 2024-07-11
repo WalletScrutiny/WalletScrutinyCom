@@ -11,16 +11,16 @@ released: 2022-02-01
 updated: 2024-02-21
 version: 1.8.4
 stars: 3.4
-reviews: 56
+reviews: 58
 size: '81026048'
 website: 
 repository: 
 issue: 
 icon: com.ventafrica.app.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-06-10
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: ventafricaHQ

@@ -21,9 +21,9 @@ repository: https://github.com/coffee-software/coffee.wallet/
 issue: https://github.com/coffee-software/coffee.wallet/issues/89
 icon: coffee.software.coffeewallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nonverifiable
-date: 2024-04-03
+date: 2024-07-03
 signer: 
 reviewArchive: 
 twitter: CoffeeWallet

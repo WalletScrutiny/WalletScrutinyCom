@@ -8,11 +8,11 @@ appId: com.ldvtech.tokero
 appCountry: ro
 idd: '1569586581'
 released: 2021-06-04
-updated: 2023-11-29
-version: 4.0.3
+updated: 2024-07-09
+version: '4.2'
 stars: 4.5
 reviews: 19
-size: '22760448'
+size: '22711296'
 website: https://tokero.com
 repository: 
 issue: 

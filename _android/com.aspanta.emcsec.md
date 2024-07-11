@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.aspanta.emcsec.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
-date: 2023-05-11
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: emercoin_press

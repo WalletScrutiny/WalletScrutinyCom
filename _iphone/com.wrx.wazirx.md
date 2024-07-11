@@ -7,11 +7,11 @@ appId: com.wrx.wazirx
 appCountry: in
 idd: 1349082789
 released: 2018-03-07
-updated: 2024-05-14
-version: '1.35'
+updated: 2024-06-28
+version: 2.0.1
 stars: 4.2
-reviews: 52005
-size: '58804224'
+reviews: 52292
+size: '59652096'
 website: https://wazirx.com
 repository: 
 issue: 

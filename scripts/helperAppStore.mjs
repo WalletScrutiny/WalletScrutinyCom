@@ -1,10 +1,10 @@
-process.env.TZ = 'UTC'; // fix timezone issues
-
 import apple from 'app-store-scraper';
 import fs from 'fs/promises';
 import path from 'path';
 import helper from './helper.mjs';
 import { Semaphore } from 'async-mutex';
+
+process.env.TZ = 'UTC'; // fix timezone issues
 
 const sem = new Semaphore(1);
 const stats = {

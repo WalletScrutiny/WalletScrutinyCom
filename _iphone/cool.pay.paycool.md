@@ -17,9 +17,9 @@ repository:
 issue: 
 icon: cool.pay.paycool.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2024-01-19
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: Pay_dot_Cool

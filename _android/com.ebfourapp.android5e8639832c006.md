@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ebfourapp.android5e8639832c006.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-11-02
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

@@ -29,11 +29,7 @@ layout: default
         <div class="app-sum-head">
 
           <h1 class="page__title -va-c" itemprop="headline">
-            {% if page.altTitle %}
-              {{ page.altTitle }}<br><span style="font-size: 30%;opacity:.3">(Actually "{{ page.title }}". For details read below.)</span>
-            {% else %}
-              {{ page.title }}
-            {% endif %}
+            {{ page.title }}
           </h1>
 
           {% if page.released %}

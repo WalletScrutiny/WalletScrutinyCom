@@ -1,6 +1,6 @@
 ---
 wsId: stormgain
-title: 'StormGain: Bitcoin Wallet App'
+title: 'StormGain: Bitcoin & Crypto'
 altTitle: 
 authors:
 - leo
@@ -12,7 +12,7 @@ updated: 2024-03-18
 version: 1.45.0
 stars: 3.6
 ratings: 114954
-reviews: 1020
+reviews: 1015
 size: 
 website: https://stormgain.com/
 repository: 

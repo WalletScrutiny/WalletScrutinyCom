@@ -8,8 +8,8 @@ users: 100000
 appId: com.swissquote.android
 appCountry: 
 released: 2010-06-17
-updated: 2024-05-27
-version: 7.21.1
+updated: 2024-06-28
+version: 7.24.0
 stars: 3.4
 ratings: 
 reviews: 40

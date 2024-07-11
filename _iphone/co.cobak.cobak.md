@@ -8,11 +8,11 @@ appId: co.cobak.cobak
 appCountry: us
 idd: 1350473579
 released: 2018-03-13
-updated: 2024-05-16
-version: 1.8.29
+updated: 2024-07-02
+version: 1.8.31
 stars: 4.9
 reviews: 17
-size: '95578112'
+size: '85020672'
 website: https://cobak.co.kr
 repository: 
 issue: 

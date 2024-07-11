@@ -3,7 +3,7 @@ wsId:
 title: IM Card
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.im.tech.imcard
 appCountry: 
 released: 2022-01-12

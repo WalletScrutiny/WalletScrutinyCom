@@ -22,7 +22,6 @@ reviewArchive:
 twitter: KomodoPlatform
 social: 
 features: 
-developerName: 
 
 ---
 

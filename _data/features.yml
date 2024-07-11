@@ -357,3 +357,49 @@ liquid:
       and the ecosystem is smaller than Bitcoin's main network, potentially limiting its utility for some users.
     
     * **Fallback custody:** Bitcoins held by the Liquid federation need to be rotated on a regular schedule. If the federation fails to do so, they can also be spent by Blockstream alone.
+fingerprintAuthentication:
+  short: Fingerprint Authentication
+  long: >
+    Fingerprint authentication in Bitcoin wallets enhances security by adding a biometric layer to the access control mechanisms. This feature leverages the unique patterns of a user's fingerprint to grant access to the wallet, making unauthorized access significantly more difficult. Biometric authentication is generally faster and more convenient than traditional methods like passwords or PINs, as it eliminates the need to remember complex combinations.
+
+    This form of authentication is particularly useful in mobile wallet applications, where ease of access and security are paramount. Fingerprint authentication minimizes the risk of phishing or brute force attacks that typically target password-based systems. Furthermore, it can be combined with other forms of security measures, like PINs or passwords, to create a multi-factor authentication system for added security.
+
+    The use of biometric data, however, raises concerns regarding privacy and data security. Users must be assured that their biometric data is stored securely and not vulnerable to unauthorized access or breaches.
+  benefit: >
+    * **Enhanced security** through a unique, non-replicable form of identification
+
+    * **Convenience and speed** of access compared to traditional methods
+
+    * **Reduced risk** of phishing and brute force attacks
+  drawback: Potential privacy concerns and dependency on device hardware capabilities.
+secureElements:
+  short: Secure Elements
+  long: >
+    Secure Elements in Bitcoin wallets refer to dedicated hardware components designed to enhance security. These elements are specialized circuits or chips embedded in the device, providing a fortified environment for storing sensitive data such as private keys. Unlike standard storage, Secure Elements are resistant to tampering and physical attacks, making them an ideal choice for safeguarding cryptographic data and operations.
+
+    The use of Secure Elements is crucial, especially in hardware and mobile wallets, where the risk of physical theft or tampering is a concern. These elements can effectively shield private keys from a wide range of attacks, including sophisticated ones like side-channel attacks. They ensure that private keys never leave the secure environment, even when signing transactions, offering a higher level of security compared to software-only solutions.
+
+    While adding a significant layer of security, Secure Elements may pose challenges in terms of wallet recovery. In cases where the device is damaged or lost, retrieving the private keys can be more complex compared to wallets that solely use software-based security measures.
+  benefit: >
+    * **Enhanced security** against physical and sophisticated attacks
+
+    * **Increased protection** for private keys and sensitive data
+
+    * **Peace of mind** knowing that cryptographic operations are performed in a secure, isolated environment
+  drawback: Potential complexities in wallet recovery and dependency on specific hardware.
+cameraFunction:
+  short: Camera for Secure Transactions
+  long: >
+    Camera functionality in Bitcoin hardware wallets, represents a significant advancement in wallet security and data transmission. These wallets use their built-in cameras to scan QR codes, enabling a secure and efficient method for data exchange and transaction signing. The camera-based approach is integral to maintaining an air-gapped environment, meaning the wallet does not rely on potentially vulnerable USB or Bluetooth connections for communication.
+
+    The process involves creating an unsigned transaction as a QR code using a compatible wallet app. This QR code is then scanned by the hardware wallet's camera. Inside the wallet, the transaction is securely signed using the stored private key. The signed transaction is subsequently displayed as a new QR code on the wallet, which can then be scanned back by the app to broadcast it to the blockchain network. 
+
+    This method of using a camera for QR code scanning and transmission ensures that the private keys remain solely within the hardware wallet, significantly bolstering security against remote attacks. It also enhances privacy, as the wallet does not directly connect to the internet or other devices, thereby reducing exposure to potential vulnerabilities.
+  benefit: >
+    * **Enhanced security** by maintaining an air-gapped environment
+
+    * **Increased privacy** as the wallet does not directly connect to the internet
+
+    * **User-friendly** transaction process with QR code scanning
+  drawback: 
+

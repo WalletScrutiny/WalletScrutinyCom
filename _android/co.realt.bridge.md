@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: co.realt.bridge.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-07-04
+date: 2024-07-10
 signer: 
 reviewArchive: 
 twitter: RealTPlatform

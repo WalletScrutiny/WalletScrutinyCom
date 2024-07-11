@@ -7,8 +7,8 @@ users: 10
 appId: org.doichain.doiwallet
 appCountry: 
 released: 2022-05-01
-updated: 2022-05-02
-version: 6.2.4
+updated: 2024-07-08
+version: 6.6.0
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.doichain.doiwallet.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: fewusers
-date: 2024-04-24
+date: 2024-07-10
 signer: 
 reviewArchive: 
 twitter: 

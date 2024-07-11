@@ -4,12 +4,14 @@ import helperAppStore from './helperAppStore.mjs';
 import helperHardware from './helperHardware.mjs';
 import helperBearer from './helperBearer.mjs';
 import helperDesktop from './helperDesktop.mjs';
+import helperOthers from './helperOthers.mjs';
 import fs from 'fs';
 import yaml from 'js-yaml';
 var meta = yaml.load(fs.readFileSync('_data/platformMeta.yml'));
 const df = /^\d{4}-\d{2}-\d{2}$/; // the only date format we use
 
-const migration = function (header, body, fileName, category) {
+const migration = function (header, body, fileName, categoryHelper) {
+  const category = categoryHelper.category;
   const folder = `_${category}/`;
   // make sure, appId matches file name
   header.appId = fileName.slice(0, -3);
@@ -50,17 +52,21 @@ mv images/wIcons/${category}/{${header.icon},${newIcon}}`);
       console.error(`# ${folder}${header.appId}.md: ${e}.`);
     }
   }
-  if (!meta[category].verdicts.includes(header.verdict)) {
+  if (category !== 'others' && !meta[category].verdicts.includes(header.verdict)) {
     console.error(`# ${folder}${header.appId}.md uses wrong verdict "${header.verdict}".`);
   }
-  if (!meta[category].metas.includes(header.meta) && header.meta !== 'ok') {
+  if (category !== 'others' && !meta[category].metas.includes(header.meta) && header.meta !== 'ok') {
     console.error(`# ${folder}${header.appId}.md uses wrong meta "${header.meta}".`);
   }
   if (header.released && !df.test(header.released)) {
     header.released = new Date(Date.parse(header.released));
   }
+  for(let key in header){
+    if(header[key] == undefined && categoryHelper.headers.findIndex(x => x === key) < 0)
+      delete header[key];
+  }
 }; // crucial semicolon!
 
-[helperPlayStore, helperAppStore, helperHardware, helperBearer, helperDesktop].forEach(h => {
-  helper.migrateAll(h.category, migration, h.headers);
+[helperPlayStore, helperAppStore, helperHardware, helperBearer, helperDesktop, helperOthers].forEach(h => {
+  helper.migrateAll(h, migration);
 });

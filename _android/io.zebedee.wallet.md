@@ -4,15 +4,15 @@ title: 'ZBD: Earn Bitcoin Rewards'
 altTitle: 
 authors:
 - leo
-users: 500000
+users: 1000000
 appId: io.zebedee.wallet
 appCountry: 
 released: 2020-10-20
-updated: 2024-04-25
-version: 3.87.3
-stars: 4.6
+updated: 2024-06-14
+version: 3.88.0
+stars: 4.3
 ratings: 358
-reviews: 2512
+reviews: 3003
 size: 
 website: https://zbd.one/help
 repository: 

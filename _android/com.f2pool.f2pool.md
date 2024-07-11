@@ -8,7 +8,7 @@ users: 100000
 appId: com.f2pool.f2pool
 appCountry: 
 released: 2018-09-04
-updated: 2024-04-16
+updated: 2024-06-27
 version: VARY
 stars: 4.3
 ratings: 

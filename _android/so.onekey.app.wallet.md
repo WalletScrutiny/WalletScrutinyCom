@@ -10,7 +10,7 @@ appCountry:
 released: 2022-04-27
 updated: 2024-05-21
 version: 4.24.0
-stars: 3.9
+stars: 4
 ratings: 
 reviews: 70
 size: 
@@ -28,7 +28,7 @@ twitter: OneKeyHQ
 social:
 - https://discord.com/invite/nwUJaTzjzv
 redirect_from: 
-developerName: OneKey Limited
+developerName: ONEKEY LIMITED
 features: 
 
 ---

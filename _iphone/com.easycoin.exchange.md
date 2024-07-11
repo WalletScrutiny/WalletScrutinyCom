@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.easycoin.exchange.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-03-31
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: EasyCoinsCrypto

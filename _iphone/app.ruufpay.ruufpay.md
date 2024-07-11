@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: app.ruufpay.ruufpay.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-12-02
+date: 2024-06-29
 signer: 
 reviewArchive: 
 twitter: ruufpay

@@ -8,11 +8,11 @@ appId: com.kapital.trade.crypto
 appCountry: cz
 idd: 1487443266
 released: 2019-11-26
-updated: 2024-05-27
-version: 1.80.6
+updated: 2024-07-09
+version: 1.83.6
 stars: 4.7
-reviews: 781
-size: '98170880'
+reviews: 782
+size: '105723904'
 website: https://capital.com/
 repository: 
 issue: 

@@ -9,9 +9,9 @@ appCountry:
 released: 2021-12-29
 updated: 2024-05-29
 version: 2.2.0
-stars: 
+stars: 1.4
 ratings: 
-reviews: 
+reviews: 5
 size: 
 website: https://acttrader.com
 repository: 
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: ActTrader
+developerName: ActTrader Technologies Ltd
 features: 
 
 ---

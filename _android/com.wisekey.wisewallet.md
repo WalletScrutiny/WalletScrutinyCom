@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.wisekey.wisewallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-10-21
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

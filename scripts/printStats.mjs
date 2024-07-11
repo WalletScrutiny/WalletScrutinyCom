@@ -33,7 +33,8 @@ import helperDesktop from './helperDesktop.mjs';
 
 async function run () {
   const r = {};
-  const sl = function (header, body, fileName, category) {
+  const migration = function (header, body, fileName, categoryHelper) {
+    const category = categoryHelper.category;
     if ('defunct,removed'.includes(header.meta) && header.verdict === 'reproducible') {
       console.log(header.appId);
     }
@@ -43,7 +44,7 @@ async function run () {
   };
 
   for await (const h of [helperPlayStore, helperAppStore, helperHardware, helperBearer, helperDesktop]) {
-    helper.migrateAll(h.category, sl, h.headers);
+    helper.migrateAll(h, migration);
   }
   await new Promise(resolve => setTimeout(resolve, 3000));
   const metas = {};

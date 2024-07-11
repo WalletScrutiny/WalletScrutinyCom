@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.nebeus.appmobile.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-02-25
+date: 2024-06-09
 signer: 
 reviewArchive: 
 twitter: NebeusWorld

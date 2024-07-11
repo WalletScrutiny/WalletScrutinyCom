@@ -8,11 +8,11 @@ appId: com.bitrefill.bitrefill
 appCountry: 
 idd: 1378102623
 released: 2018-06-05
-updated: 2024-05-30
-version: 1.43.0
+updated: 2024-07-08
+version: 2.0.2
 stars: 4.7
-reviews: 279
-size: '46093312'
+reviews: 283
+size: '61967360'
 website: https://www.bitrefill.com
 repository: 
 issue: 
