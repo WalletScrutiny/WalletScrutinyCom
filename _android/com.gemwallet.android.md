@@ -21,7 +21,7 @@ icon: com.gemwallet.android.png
 bugbounty: 
 meta: ok
 verdict: obfuscated
-date: 2024-06-25
+date: 2024-07-12
 signer: 
 reviewArchive: 
 twitter: GemWalletApp
@@ -108,39 +108,9 @@ The `bundletool` command would build an .apks archive from the .aab:
     --device-spec=/home/gemwallet/device-spec.json 
 ```
 
-In this instance, we generated **unsigned** apks with **specificed device data** which we would then compare to official apks:
+In this instance, we generated **unsigned** apks with **specificed device data** which we would then compare to official apks. The checksums did not match.
 
-```
-$ apktool d device-specific-unsigned.apks -o device-specific-unsigned/`
-$ cd device-specific-unsigned/unknown/splits/
-$ sha256sum base-master.apk 
-8c5a4e056ab4c0ed80edf419b1346101fffa4da7db0f433fe04ecf6f44951439  base-master.apk
-```
-
-In comparison to the apk file extracted from the device and downloaded from Google Play:
-
-```
-$ sha256sum base.apk 
-d416a9f8206e27127d0056cab197a7766a32c9695babed3098da3b08a06d000c  base.apk
-```
-
-In our second attempt, ApkSigCopier transferred the signatures *from* the official apks *to* the unsigned apks.:
-
-```
-$ ls
-out.apk  signed.apk  unsigned.apk
-$ apksigcopier copy signed.apk unsigned.apk out.apk
-$ sha256sum out.apk
-0e121e54b405f1bee8549b1160bdbe8de816fc6bb43056feb487405b77a9815e  out.apk
-$ sha256sum signed.apk 
-d416a9f8206e27127d0056cab197a7766a32c9695babed3098da3b08a06d000c  signed.apk
-
-```
-
-Once again, it resulted in differing checksums.
-
-
-Diff between extracted apk directories:
+We proceeded to run a diff between extracted and official apk directories:
 
 ```
 $ diff fromBuildPatched/ fromPlay/
