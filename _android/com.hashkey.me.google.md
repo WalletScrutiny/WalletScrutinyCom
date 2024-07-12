@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.hashkey.me.google.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-05-26
+date: 2024-07-03
 signer: 
 reviewArchive: 
 twitter: hashkey_me

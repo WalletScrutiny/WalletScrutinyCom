@@ -4,7 +4,7 @@ title: 'Accrue: Send. Spend. Sell.'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.rocketsfintech.accrue
 appCountry: 
 released: 2021-10-09

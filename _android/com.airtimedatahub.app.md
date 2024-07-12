@@ -10,9 +10,9 @@ appCountry:
 released: 2019-02-19
 updated: 2023-06-23
 version: 3.5.1
-stars: 4.4
+stars: 4.3
 ratings: 
-reviews: 11
+reviews: 12
 size: 
 website: https://airtimedatahub.com/
 repository: 

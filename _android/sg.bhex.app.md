@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: sg.bhex.app.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2024-02-05
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

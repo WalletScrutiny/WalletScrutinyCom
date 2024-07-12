@@ -9,7 +9,7 @@ appId: com.buda.crypto
 appCountry: 
 released: 2018-01-04
 updated: 2024-06-12
-version: 2024.4.30
+version: 2024.6.4
 stars: 3.6
 ratings: 648
 reviews: 17

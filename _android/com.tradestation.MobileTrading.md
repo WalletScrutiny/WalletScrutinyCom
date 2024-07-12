@@ -8,9 +8,9 @@ users: 500000
 appId: com.tradestation.MobileTrading
 appCountry: us
 released: 2013-09-09
-updated: 2024-06-14
-version: 6.0.11
-stars: 3.5
+updated: 2024-06-24
+version: 6.0.12
+stars: 3.4
 ratings: 4823
 reviews: 1973
 size: 

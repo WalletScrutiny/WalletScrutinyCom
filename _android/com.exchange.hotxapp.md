@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.exchange.hotxapp.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-12-16
+date: 2024-07-10
 signer: 
 reviewArchive: 
 twitter: 

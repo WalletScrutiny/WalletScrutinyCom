@@ -13,7 +13,7 @@ updated: 2024-06-11
 version: 4.0.28
 stars: 4.5
 ratings: 946
-reviews: 131
+reviews: 133
 size: 
 website: https://blockstream.com/green
 repository: https://github.com/Blockstream/green_android
@@ -22,7 +22,7 @@ icon: com.greenaddress.greenbits_android_wallet.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-06-12
+date: 2024-07-02
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 reviewArchive:
 - date: 2024-06-05
@@ -270,3 +270,5 @@ tagger Angelos Veglektsis <angelos@aveworks.com> 1718115886 +0300
 ```
 
 This version of {{ page.title }} is **reproducible**.
+
+{% include asciicast %}

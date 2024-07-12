@@ -8,9 +8,9 @@ users: 10000
 appId: com.tbws
 appCountry: 
 released: 2021-05-27
-updated: 2022-06-19
-version: 1.24.0
-stars: 3.5
+updated: 2024-05-20
+version: 1.0-prod2
+stars: 3.6
 ratings: 
 reviews: 56
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.tbws.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2023-07-17
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

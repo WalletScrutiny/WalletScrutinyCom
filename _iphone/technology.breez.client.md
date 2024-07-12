@@ -8,11 +8,11 @@ appId: technology.breez.client
 appCountry: us
 idd: '1463604142'
 released: 2022-05-01
-updated: 2024-06-11
-version: 1.1.18
-stars: 3.9
-reviews: 36
-size: '193050624'
+updated: 2024-07-09
+version: 1.1.19
+stars: 4.1
+reviews: 43
+size: '193263616'
 website: 
 repository: https://github.com/breez/breezmobile
 issue: https://github.com/breez/breezmobile/issues/247

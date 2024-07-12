@@ -8,11 +8,11 @@ appId: com.nicehash.mobile
 appCountry: us
 idd: '1372054956'
 released: 2020-04-29
-updated: 2024-06-10
-version: 5.8.5
+updated: 2024-07-04
+version: 5.8.7
 stars: 4.6
-reviews: 3195
-size: '121223168'
+reviews: 3240
+size: '121845760'
 website: https://www.nicehash.com/
 repository: 
 issue: 

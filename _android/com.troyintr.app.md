@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.troyintr.app.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-07-31
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

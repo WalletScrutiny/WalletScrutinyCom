@@ -10,7 +10,7 @@ appCountry:
 released: 2019-11-06
 updated: 2024-05-22
 version: 2.2.2
-stars: 4
+stars: 4.1
 ratings: 
 reviews: 11
 size: 
@@ -30,7 +30,7 @@ social:
 - https://www.facebook.com/groups/800880653641607/
 - https://medium.com/nami-io
 redirect_from: 
-developerName: NAMI EXCHANGE
+developerName: Nami Exchange UAB
 features: 
 
 ---

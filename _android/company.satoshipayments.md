@@ -10,9 +10,9 @@ appCountry:
 released: 2023-01-23
 updated: 2024-04-06
 version: 0.1.7
-stars: 3.7
+stars: 3.4
 ratings: 
-reviews: 3
+reviews: 4
 size: 
 website: https://satoshipayments.company
 repository: 

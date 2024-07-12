@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.truzact.truzact-mobile-app.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-07-21
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: truzact

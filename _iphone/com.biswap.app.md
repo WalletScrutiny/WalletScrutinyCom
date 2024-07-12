@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.biswap.app.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-08-09
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: exchangilydex

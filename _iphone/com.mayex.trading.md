@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.mayex.trading.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2024-04-09
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: Mayex_Global

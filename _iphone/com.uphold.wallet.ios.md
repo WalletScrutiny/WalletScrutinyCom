@@ -8,11 +8,11 @@ appId: com.uphold.wallet.ios
 appCountry: 
 idd: 1101145849
 released: 2016-04-19
-updated: 2024-06-21
-version: 5.48.1
+updated: 2024-07-05
+version: 5.51.0
 stars: 4.7
-reviews: 52663
-size: '116492288'
+reviews: 53516
+size: '125569024'
 website: https://uphold.com
 repository: 
 issue: 

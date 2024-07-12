@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.b4ufinancial.app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-06-23
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

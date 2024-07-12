@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: fcm.cursdaq.com.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-07-25
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

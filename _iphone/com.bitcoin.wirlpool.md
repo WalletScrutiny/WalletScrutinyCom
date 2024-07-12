@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitcoin.wirlpool.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fake
-date: 2024-01-08
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

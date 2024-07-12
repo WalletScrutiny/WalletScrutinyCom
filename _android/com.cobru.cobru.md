@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.cobru.cobru.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-03-30
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: cobruapp

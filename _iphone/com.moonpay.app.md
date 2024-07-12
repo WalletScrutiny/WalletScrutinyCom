@@ -1,6 +1,6 @@
 ---
 wsId: moonPayBuyBitcoin
-title: 'MoonPay: Buy Bitcoin, Ethereum'
+title: 'MoonPay: Buy Bitcoin, Solana'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.moonpay.app
 appCountry: us
 idd: '1635031432'
 released: 2023-04-17
-updated: 2024-06-18
-version: 1.13.5
+updated: 2024-06-26
+version: 1.13.8
 stars: 4.4
-reviews: 1412
-size: '62386176'
+reviews: 1517
+size: '62390272'
 website: https://www.moonpay.com
 repository: 
 issue: 

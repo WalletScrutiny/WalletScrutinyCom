@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitango.android.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-06-03
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

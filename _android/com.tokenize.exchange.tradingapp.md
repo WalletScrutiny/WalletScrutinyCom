@@ -4,7 +4,7 @@ title: Tokenize Xchange
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.tokenize.exchange.tradingapp
 appCountry: us
 released: 2019-12-03

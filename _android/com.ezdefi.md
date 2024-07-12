@@ -20,9 +20,9 @@ repository:
 issue: 
 icon: com.ezdefi.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
-date: 2023-08-29
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: ezDeFi

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.nouroeddinne.miner.bitcoin.free.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
-date: 2023-12-13
+date: 2024-07-10
 signer: 
 reviewArchive: 
 twitter: 

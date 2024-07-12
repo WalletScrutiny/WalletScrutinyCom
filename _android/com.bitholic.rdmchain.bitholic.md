@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bitholic.rdmchain.bitholic.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2023-07-25
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 
