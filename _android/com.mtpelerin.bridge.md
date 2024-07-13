@@ -4,6 +4,7 @@ title: Bridge Wallet
 altTitle: 
 authors:
 - leo
+- danny
 users: 50000
 appId: com.mtpelerin.bridge
 appCountry: us
@@ -21,7 +22,7 @@ icon: com.mtpelerin.bridge.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2020-12-27
+date: 2024-07-13
 signer: 
 reviewArchive: 
 twitter: mtpelerin
@@ -35,6 +36,14 @@ developerName: Mt Pelerin Group SA
 features: 
 
 ---
+
+## Update 2024-07-13 
+
+It's organization's Github organization is listed [here](https://github.com/MtPelerin). 
+
+It has not made the source available for its Android app.
+
+## Review 2020-12-27
 
 On Google Play they claim
 

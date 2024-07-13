@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 - emanuel
+- danny
 users: 500000
 appId: com.zengo.wallet
 appCountry: 
@@ -22,7 +23,7 @@ icon: com.zengo.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2020-06-18
+date: 2024-07-13
 signer: 
 reviewArchive: 
 twitter: zengo
@@ -34,6 +35,10 @@ developerName: ZenGo
 features: 
 
 ---
+
+**Update 2024-07-13:**
+
+No changes have been observed concerning this app's source code availability.
 
 **Update 2021-03-08:** As
 [Emanuel mentioned here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/158),

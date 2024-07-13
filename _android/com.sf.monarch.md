@@ -4,6 +4,7 @@ title: Monarch Wallet
 altTitle: 
 authors:
 - leo
+- danny
 users: 50000
 appId: com.sf.monarch
 appCountry: 
@@ -21,7 +22,7 @@ icon: com.sf.monarch.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2020-04-12
+date: 2024-07-13
 signer: 
 reviewArchive: 
 twitter: Monarchtoken
@@ -36,6 +37,16 @@ developerName: Splash Factory
 features: 
 
 ---
+
+## Update 2024-07-13
+
+The domain linked to monarch wallet is now listed as monarchwallet.com.
+
+They have this message on their website: 
+
+> As part of this journey, we will discontinue our wallet services effective July 1, 2024. We understand the importance of a smooth transition for all our users, which is why we recommend switching to Coinbase DeFi Wallet
+
+## 2020-04-12
 
 This app appears to have been created for Monarch Tokens but it also features a
 Bitcoin wallet.

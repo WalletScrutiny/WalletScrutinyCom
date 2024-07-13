@@ -4,6 +4,7 @@ title: 'Zumo: Bitcoin & Crypto Wallet'
 altTitle: 
 authors:
 - leo
+- danny
 users: 10000
 appId: com.zumopay.core
 appCountry: 
@@ -21,7 +22,7 @@ icon: com.zumopay.core.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2020-10-12
+date: 2024-07-13
 signer: 
 reviewArchive: 
 twitter: zumopay
@@ -35,6 +36,12 @@ developerName: Zumopay
 features: 
 
 ---
+
+## Update 2024-07-13
+
+No updates have been noted regarding this app's source code availability.
+
+## Review 2020-10-12
 
 > 💰 Provides full ownership of funds - your crypto is only owned by you!
 

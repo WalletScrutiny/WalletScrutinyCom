@@ -4,6 +4,7 @@ title: Mobile Bitcoin Wallet
 altTitle: 
 authors:
 - leo
+- danny
 users: 10000
 appId: com.qcan.mobile.bitcoin.wallet
 appCountry: 
@@ -21,7 +22,7 @@ icon: com.qcan.mobile.bitcoin.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2020-12-08
+date: 2024-07-13
 signer: 
 reviewArchive: 
 twitter: 
@@ -32,6 +33,12 @@ developerName: Qcan.com
 features: 
 
 ---
+
+## Update 2024-07-13
+
+No changes have been noted regarding the source-availability of this app.
+
+## Review 2020-12-08
 
 > **Complete Control**<br>
   Your Bitcoin, 100% Under Your Control. You hold the key. No intermediary.
