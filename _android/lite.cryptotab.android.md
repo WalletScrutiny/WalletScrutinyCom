@@ -8,11 +8,11 @@ users: 1000000
 appId: lite.cryptotab.android
 appCountry: 
 released: 2021-06-16
-updated: 2024-07-02
-version: 6.2.20
+updated: 2024-07-11
+version: 6.2.21
 stars: 4.5
 ratings: 22930
-reviews: 1103
+reviews: 1107
 size: 
 website: https://cryptocompany.site/
 repository: 

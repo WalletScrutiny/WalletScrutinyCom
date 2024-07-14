@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: glim.network.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
-date: 2023-07-20
+date: 2024-07-14
 signer: 
 reviewArchive: 
 twitter: GlimNetwork

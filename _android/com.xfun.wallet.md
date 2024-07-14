@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.xfun.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-06-29
+date: 2024-07-14
 signer: 
 reviewArchive: 
 twitter: FUNtoken_io

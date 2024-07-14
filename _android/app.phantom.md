@@ -12,7 +12,7 @@ updated: 2024-07-04
 version: 24.11.1
 stars: 4.6
 ratings: 
-reviews: 578
+reviews: 580
 size: 
 website: https://phantom.app/
 repository: 

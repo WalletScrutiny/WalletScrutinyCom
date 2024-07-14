@@ -11,7 +11,7 @@ released: 2023-07-17
 updated: 2024-07-06
 version: 1.3.25
 stars: 4.5
-reviews: 45
+reviews: 47
 size: '43897856'
 website: https://gemwallet.com/presskit/
 repository: https://github.com/gemwalletcom/gem-android

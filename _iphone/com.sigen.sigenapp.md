@@ -11,7 +11,7 @@ released: 2020-04-20
 updated: 2024-06-24
 version: 2.9.26
 stars: 4.8
-reviews: 3731
+reviews: 3732
 size: '70027264'
 website: https://sigen.pro/
 repository: 

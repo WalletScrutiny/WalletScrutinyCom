@@ -12,7 +12,7 @@ updated: 2024-07-08
 version: 5.4.5
 stars: 3.5
 ratings: 116
-reviews: 131
+reviews: 132
 size: 
 website: https://www.batonex.com
 repository: 

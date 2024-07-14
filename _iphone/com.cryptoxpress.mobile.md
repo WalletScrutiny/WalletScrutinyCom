@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cryptoxpress.mobile.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-04-21
+date: 2024-07-14
 signer: 
 reviewArchive: 
 twitter: crypto_xpress

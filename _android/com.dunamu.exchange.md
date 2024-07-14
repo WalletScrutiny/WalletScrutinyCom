@@ -9,10 +9,10 @@ appId: com.dunamu.exchange
 appCountry: 
 released: 2017-10-23
 updated: 2024-07-09
-version: 1.28.0
+version: 1.28.1
 stars: 3.5
 ratings: 29440
-reviews: 16
+reviews: 17
 size: 
 website: https://upbit.com
 repository: 

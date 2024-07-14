@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.bytrade.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
-date: 2023-07-21
+date: 2024-07-14
 signer: 
 reviewArchive: 
 twitter: bytradeio

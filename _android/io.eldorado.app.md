@@ -1,6 +1,6 @@
 ---
 wsId: elDoradoWalletExchange
-title: El Dorado | USDT TRC20 Wallet
+title: El Dorado P2P
 altTitle: 
 authors:
 - danny
@@ -10,9 +10,9 @@ appCountry:
 released: 2022-04-19
 updated: 2024-07-08
 version: 1.3.962
-stars: 4.8
+stars: 4.7
 ratings: 
-reviews: 213
+reviews: 216
 size: 
 website: https://eldorado.io
 repository: 

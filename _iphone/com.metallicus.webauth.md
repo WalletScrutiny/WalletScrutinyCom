@@ -11,7 +11,7 @@ released: 2021-12-15
 updated: 2024-06-26
 version: 2.1.7
 stars: 4.7
-reviews: 171
+reviews: 170
 size: '45377536'
 website: https://xprnetwork.org/
 repository: 

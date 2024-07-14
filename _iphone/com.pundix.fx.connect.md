@@ -10,7 +10,7 @@ idd: 1504798360
 released: 2021-03-25
 updated: 2024-05-27
 version: 3.10.0
-stars: 3.1
+stars: 3.2
 reviews: 64
 size: '141721600'
 website: https://functionx.io

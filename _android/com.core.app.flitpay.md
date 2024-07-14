@@ -4,7 +4,7 @@ title: 'Flitpay: Crypto Trading App'
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.core.app.flitpay
 appCountry: dk
 released: 2017-05-17
@@ -12,7 +12,7 @@ updated: 2024-06-23
 version: 1.0.60
 stars: 4
 ratings: 2217
-reviews: 1901
+reviews: 1903
 size: 
 website: https://www.flitpay.com/
 repository: 

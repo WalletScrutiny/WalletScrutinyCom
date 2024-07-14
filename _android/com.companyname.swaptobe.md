@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Swap Tobe - Crypto Exchange
+title: Tobe Wallet
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 100000
 appId: com.companyname.swaptobe
 appCountry: 
 released: 2021-10-14
-updated: 2022-10-24
-version: '5.6'
+updated: 2024-07-12
+version: '5.8'
 stars: 4.3
 ratings: 
 reviews: 15
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.companyname.swaptobe.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2023-10-22
+date: 2024-07-14
 signer: 
 reviewArchive: 
 twitter: swap_tobe

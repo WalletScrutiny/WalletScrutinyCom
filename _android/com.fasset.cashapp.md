@@ -31,7 +31,7 @@ social:
 - https://www.instagram.com/fasset_official
 - https://t.me/+WHV71rgNlWEchWKr
 redirect_from: 
-developerName: FASSET
+developerName: Fasset Labuan Limited
 features: 
 
 ---

@@ -12,7 +12,7 @@ updated: 2024-05-27
 version: 3.0.24
 stars: 4.7
 ratings: 15803
-reviews: 24
+reviews: 25
 size: 
 website: https://www.giottus.com
 repository: 

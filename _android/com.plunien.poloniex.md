@@ -12,7 +12,7 @@ updated: 2024-07-05
 version: 2.0.5
 stars: 3.1
 ratings: 7425
-reviews: 232
+reviews: 233
 size: 
 website: https://support.poloniex.com/
 repository: 

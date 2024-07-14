@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 - leo
-users: 500000
+users: 1000000
 appId: com.kapital.trade.crypto
 appCountry: cz
 released: 2021-01-20

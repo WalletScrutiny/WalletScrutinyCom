@@ -8,11 +8,11 @@ appId: anny.trade
 appCountry: gb
 idd: '1642936782'
 released: 2023-02-28
-updated: 2024-05-30
-version: 1.4.4
+updated: 2024-07-11
+version: 1.4.5
 stars: 0
 reviews: 0
-size: '46937088'
+size: '46945280'
 website: 
 repository: 
 issue: 

@@ -8,11 +8,11 @@ appId: com.pro.apex
 appCountry: us
 idd: '1645456064'
 released: 2022-09-27
-updated: 2024-07-01
-version: 2.3.3
+updated: 2024-07-10
+version: 2.4.1
 stars: 4.2
 reviews: 51
-size: '88139776'
+size: '87809024'
 website: 
 repository: 
 issue: 

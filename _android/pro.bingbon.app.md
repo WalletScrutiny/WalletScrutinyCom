@@ -4,15 +4,15 @@ title: BingX Trade BTC, Buy Crypto
 altTitle: 
 authors:
 - kiwilamb
-users: 1000000
+users: 5000000
 appId: pro.bingbon.app
 appCountry: us
 released: 2019-05-18
 updated: 2024-07-09
-version: 4.20.0
+version: 4.20.1
 stars: 4.1
 ratings: 2828
-reviews: 1170
+reviews: 1168
 size: 
 website: https://bingx.com
 repository: 
