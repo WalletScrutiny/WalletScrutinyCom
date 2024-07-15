@@ -21,7 +21,7 @@ icon: com.bitfyapp.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-09-10
+date: 2024-07-15
 signer: 
 reviewArchive: 
 twitter: bitfyapp
@@ -32,6 +32,12 @@ developerName: Bitfy
 features: 
 
 ---
+
+## Update 2024-07-15
+
+No updates regarding its source-availability are noted. A search for the appID ["com.bitfyapp" on GitHub](com.bitfyapp), does not show any relevant code results.
+
+## Review 2021-09-10
 
 Bitfy is a Brazilian app that claims to have a:
 

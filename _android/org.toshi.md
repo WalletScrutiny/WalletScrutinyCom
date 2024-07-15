@@ -4,6 +4,7 @@ title: 'Coinbase Wallet: NFTs & Crypto'
 altTitle: 
 authors:
 - leo
+- danny
 users: 10000000
 appId: org.toshi
 appCountry: 
@@ -21,7 +22,7 @@ icon: org.toshi.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-05-31
+date: 2024-07-15
 signer: 
 reviewArchive: 
 twitter: CoinbaseWallet
@@ -35,6 +36,12 @@ developerName: Coinbase Wallet
 features: 
 
 ---
+
+## Update 2024-07-15
+
+The app is now called "Coinbase Wallet: NFTs & Crypto". Coinbase has made its wallet-sdk available for scrutiny but not the actual wallet. It has another project called the Smart Wallet, but that is Ethereum-exclusive and does not support Bitcoin. Apart from that, no changes have been noted. This app is still **not source-available**.
+
+## Review 2021-05-31
 
 Coinbase Wallet — Crypto Wallet & DApp Browser certainly sounds a lot like
 {% include walletLink.html wallet='android/com.coinbase.android' verdict='true' %}

@@ -20,8 +20,8 @@ issue:
 icon: com.giottus.giottus_mobile.png
 bugbounty: 
 meta: ok
-verdict: nosource
-date: 2021-08-27
+verdict: custodial
+date: 2024-07-15
 signer: 
 reviewArchive: 
 twitter: giottus
@@ -33,6 +33,14 @@ developerName: Giottus Technologies Private Limited
 features: 
 
 ---
+
+## Update 2024-07-15
+
+This app is evidently **custodial**. As stated in section 12.4 of their [Terms](https://www.giottus.com/docs/termsandconditions.html): 
+
+> Digital Currency Storage & Transmission Delays: Giottus securely stores all Digital Currency private keys in our control in a combination of online and offline storage. As a result, it may be necessary for Giottus to retrieve certain information from offline storage in order to facilitate a Cryptocurrency Transaction in accordance with your instructions, which may delay the initiation or crediting of such Cryptocurrency Transaction for 48 hours or more. You acknowledge and agree that a Cryptocurrency Transaction facilitated by Giottus may be delayed.
+
+## Review 2021-08-27
 
 {% include review/bitgo.md %}
 
@@ -57,6 +65,5 @@ Security information
 
 > Peer to Peer exchange facilitates transactions between two traders without routing the money through the exchange. Giottus lets a Buyer buy without sending INR to the Exchange.
 
-Giottus requires KYC verification, but because of their use of P2P exchange it appears that they don't control the clients' funds. 
 
-While our verdict for this app is **not custodial** there's still **no source.**
+

@@ -21,7 +21,7 @@ icon: com.github.ontio.onto.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-09-15
+date: 2024-07-15
 signer: 
 reviewArchive: 
 twitter: ONTOWallet
@@ -31,6 +31,12 @@ developerName: Ontology Foundation Ltd.
 features: 
 
 ---
+
+## Update 2024-07-15
+
+Nothing new changed with regards to the availability of this app's source code. It is still not available. 
+
+## Review 2021-09-15
 
 The Google Play description: 
 
