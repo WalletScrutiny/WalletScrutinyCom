@@ -21,7 +21,7 @@ icon: app.phantom.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-12-21
+date: 2024-07-15
 signer: 
 reviewArchive: 
 twitter: phantom
