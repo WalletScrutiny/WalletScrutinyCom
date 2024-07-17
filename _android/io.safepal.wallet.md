@@ -35,9 +35,9 @@ features:
 
 ## Update 2024-07-15
 
-GitHub account SafePalWallet contains the "safepal-app" repository, which states that it's a "Core Version" of the SafePal Wallet App.
+GitHub account [SafePalWallet](https://github.com/SafePalWallet/) contains the "[safepal-app](https://github.com/SafePalWallet/safepal-app)" repository, which states that it's a "Core Version" of the SafePal Wallet App.
 
-Other than that, there are no build instructions, tagged releases, or additional information on what the repository is. This product will remain **not verifiable** in the time being.
+Other than that, there are no claims of reproducibility, build instructions, tagged releases, or additional information on what the repository is. This product will remain **not verifiable** in the time being.
 
 ## Old Review 2021-04-26
 
