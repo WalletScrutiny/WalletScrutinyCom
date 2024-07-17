@@ -21,7 +21,7 @@ icon: com.exscudo.channels.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-04-22
+date: 2024-07-15
 signer: 
 reviewArchive: 
 twitter: ex_scudo
@@ -34,12 +34,15 @@ features:
 
 ---
 
+Notably, it features a generic descriptor as its app title "{{page.title}}" while the app's description claims it's called "Fintap.app" and the Play store id is `{{page.appId}}`.
+
 The Play Store description states...
 
-> All funds are fully protected and no one except the owner can access them.
+> Be confident in your funds: our EON blockchain has existed since 2018, and Fintap.app is a blockchain wallet with a private key that is generated and stored only on the user’s side.
 
 the provider is claiming the wallet is non-custodial.
-However no source code can be found in a public repository for validation.
 
-Our verdict: This ‘wallet’ claims to be non-custodial, however with no source code this is **not verifiable**.
+However despite the app's frequent updates no source code can be found in a public repository.
+
+Our verdict: This ‘wallet’ claims to be non-custodial, however with no source code for validation this is **not verifiable**.
 

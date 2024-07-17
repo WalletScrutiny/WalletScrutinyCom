@@ -4,6 +4,7 @@ title: 'Spot: bitcoin & crypto wallet'
 altTitle: 
 authors:
 - leo
+- danny
 users: 100000
 appId: com.spot.spot
 appCountry: 
@@ -19,9 +20,9 @@ repository:
 issue: 
 icon: com.spot.spot.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
-date: 2020-11-16
+date: 2024-07-13
 signer: 
 reviewArchive: 
 twitter: spot_bitcoin
@@ -34,6 +35,16 @@ developerName: Spot crypto wallet
 features: 
 
 ---
+
+## Update 2024-07-13
+
+On their website reads:
+
+> Spot will shut down definitely on April 30, 2024
+
+Apart from that, the app has not made its source code available. Users are permanently stopped upon opening the app and may no longer create a new wallet or backup.
+
+## Review 2020-11-16
 
 On their website we read:
 

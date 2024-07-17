@@ -4,6 +4,7 @@ title: CoinEx Wallet - Crypto & DeFi
 altTitle: 
 authors:
 - leo
+- danny
 users: 100000
 appId: com.viabtc.wallet
 appCountry: 
@@ -21,7 +22,7 @@ icon: com.viabtc.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2020-04-27
+date: 2024-07-13
 signer: 
 reviewArchive: 
 twitter: viawallet
@@ -34,6 +35,12 @@ developerName: CoinEx
 features: 
 
 ---
+
+## Update 2024-07-13
+
+No updates have been observed regarding this app's source code availability.
+
+## Review 2020-04-27
 
 This app's description contains
 
