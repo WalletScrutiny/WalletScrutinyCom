@@ -21,7 +21,7 @@ icon: ar.com.andinasmart.defiant.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-11-15
+date: 2024-07-16
 signer: 
 reviewArchive: 
 twitter: defiantApp
@@ -32,7 +32,15 @@ features:
 
 ---
 
-## App Description
+## Update 2024-07-16
+
+There is a notice on its website: 
+
+> WARNING: DEFIANT WILL STOP BEING MAINTAINED ON JULY 31 2024. DO NOT INSTALL THIS APP UNLESS YOU PERFEECTLY UNDERSTAND WHAT YOU ARE DOING AND THE RISKS INVOLVED.
+
+For the meantime, we will retain the verdict of **not being source-available**.
+
+## App Description 2021-11-15
 
 > Defiant allows you to secure, manage, and exchange cryptocurrencies like Bitcoin, Ethereum, and much more from a easy-to-use wallet that puts you in control of your assets.
 >
