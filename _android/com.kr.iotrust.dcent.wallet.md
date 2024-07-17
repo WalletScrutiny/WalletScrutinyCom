@@ -21,7 +21,7 @@ icon: com.kr.iotrust.dcent.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-05-03
+date: 2024-07-15
 signer: 
 reviewArchive: 
 twitter: DCENTwallets
@@ -33,6 +33,13 @@ developerName: IoTrust Co., Ltd
 features: 
 
 ---
+
+## Update 2024-07-15
+
+The source code for this app remains unaccounted for as of this date, thus leaving this app as **not verifiable.**
+
+
+## Old Review 2021-05-03
 
 Note that this wallet can operate as a software wallet and also used with a hardware device. This review is only in relation to the software wallet usage.<br>
 As with using the wallet with a hardware device the private keys would be managed by that device and we are not reviewing that setup.

@@ -4,6 +4,7 @@ title: Bitcoin & Crypto DeFi Wallet
 altTitle: Bitcoin Wallet by Bitcoin.com
 authors:
 - leo
+- danny
 users: 5000000
 appId: com.bitcoin.mwallet
 appCountry: 
@@ -21,7 +22,7 @@ icon: com.bitcoin.mwallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-05-20
+date: 2024-07-15
 signer: 
 reviewArchive:
 - date: 2019-12-20
@@ -43,6 +44,4 @@ features:
 
 According to
 [the words of its owner on 2020-04-12](https://www.reddit.com/r/btc/comments/g04ece/bitcoincom_wallet_app_is_still_closed_source/fn7rlvy/)
-this wallet is closed source until further notice. There was no indication of a
-change by 2020-05-20. We assume it is still
-supposed to be non-custodial but without source code, this is **not verifiable**.
+this wallet is closed source until further notice. There is no indication that this will be changing, and the repository's updates ended at the 5.4-hotfix. We assume it is still supposed to be non-custodial but without source code, this is **not verifiable**.
