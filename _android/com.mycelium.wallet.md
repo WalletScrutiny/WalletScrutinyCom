@@ -21,9 +21,14 @@ icon: com.mycelium.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-01-22
+date: 2024-07-17
 signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
 reviewArchive:
+- date: 2024-01-22
+  version: 3.16.2.0
+  appHash: 14da64f846aa54d80deccb30cf09f3193c86e4e9e8962beb2e03547bbca392f3
+  gitRevision: bd11d5ee3d5bbb34a8d793e347be876544f91efa
+  verdict: reproducible
 - date: 2023-09-24
   version: 3.16.1.0
   appHash: f03d86c61f6d4a1ba071cb509537f6e855045c58ab9e705a50b9b1cc182ed606
@@ -251,28 +256,32 @@ procedure expressed in our {% include testScript.html %}:
 ===== Begin Results =====
 appId:          com.mycelium.wallet
 signer:         b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
-apkVersionName: 3.16.2.0
-apkVersionCode: 3160200
+apkVersionName: 3.17.0
+apkVersionCode: 3170000
 verdict:        reproducible
-appHash:        14da64f846aa54d80deccb30cf09f3193c86e4e9e8962beb2e03547bbca392f3
-commit:         c2476d95257924b4f2fdd8f25ca2d97e210950e9
+appHash:        2db36a0e65f2308646a50b3d13c6300096fd3a1d4b18d9bb3c633501e91ff8db
+commit:         e6c0398d90c3ad9d465c5ef2638ec98570709887
 
 Diff:
-Files /tmp/fromPlay_com.mycelium.wallet_3160200/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3160200/META-INF/CERT.RSA differ
-Files /tmp/fromPlay_com.mycelium.wallet_3160200/META-INF/CERT.SF and /tmp/fromBuild_com.mycelium.wallet_3160200/META-INF/CERT.SF differ
+Files /tmp/fromPlay_com.mycelium.wallet_3170000/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3170000/META-INF/CERT.RSA differ
+Files /tmp/fromPlay_com.mycelium.wallet_3170000/META-INF/CERT.SF and /tmp/fromBuild_com.mycelium.wallet_3170000/META-INF/CERT.SF differ
 
 Revision, tag (and its signature):
-object c2476d95257924b4f2fdd8f25ca2d97e210950e9
+object e6c0398d90c3ad9d465c5ef2638ec98570709887
 type commit
-tag v3.16.2.0
-tagger AlexanderPavlenko <AlexanderPavlenko@users.noreply.github.com> 1704627896 +0400
+tag v3.17.0
+tagger AlexanderPavlenko <AlexanderPavlenko@users.noreply.github.com> 1721053155 +0400
 
-Mycelium Bitcoin Wallet v3.16.2.0
+Mycelium Bitcoin Wallet v3.17.0
 
-0bb6689d5452274c77bbe0ecd5e43cac5c7a5613f9391f7f3b7d2d1108a9a6dd71fb355442264283133db6a7f7a213f354f7d205fe720d31fcce44358d8da181  prodnet/release/mbw-prodnet-release.apk
-040bd3ea260a4e10a3106a578c39ce2acbfa4e21f8c13e16cccdb206f080dc31640338ecd01501365de24a8e5b8e9446bcabb78535032836b3954c3a3da45cf5  btctestnet/release/mbw-btctestnet-release.apk
-ceabe3cdab94db423538ea92f3906a11d5a8acd2ed327c6f1474443f2bd3401c711f1a77902166befff8ef5408d3f654df864ebaf12d650bdc16ae590da69789  prodnet/debug/mbw-prodnet-debug.apk
-bd5483140ba50fb54cde81a2202ba0bb6d646a4fdaf36e1b6f2e1ce15454cbde8598bb488d3cc7268d79dbfafca1bb1785dc0e35ffd7f60a79a09a0e5c9c2383  btctestnet/debug/mbw-btctestnet-debug.apk
+858054e52464f0b10a4769dd3843b054bf795feed5f311244d196194bf6926e4c7a8baac3deeddc8c604cd12929c1a81d10904c38bfe983943a316940b3a892b  prodnet/release/mbw-prodnet-release.apk
+deff0490602ef85d6da1f86047d9097eb64efe2a47583e413867a22f5626e8b8545271f2f027ed3cbe7a0df1477ccea70ed057b1d0eada25b43f0022efc1e7aa  prodnet/release/mbw-prodnet-release.apk_unzip/META-INF/MANIFEST.MF
+66a1e36a253cd4c4bda918c2a0c403fa0501dc9b0e1468b7ba3da6b89c09e102e83bf33fd76e986efff9bee4d8aea00aa75f94395644f662a7822bdd88538e9e  btctestnet/release/mbw-btctestnet-release.apk
+d49d4dc821bcf69f0f01a8f3546c4a3c736c97ea617d05c0d670998894cdc129ccff45daffb46ebe8859f693bec82b361078aa177c8839136f43d99056beae0e  btctestnet/release/mbw-btctestnet-release.apk_unzip/META-INF/MANIFEST.MF
+3865588e549527773f9cdd07edea001e1abf6d32ae6d5fbce0ec94d5bd094067bcefec18715b10ab9e90ba5b13236e918faf47bd3102059f063397444beb162e  prodnet/debug/mbw-prodnet-debug.apk
+ed07b1fa1a31b69f1f04aa1adb977e40e9e879c7c55186fd62739ea586d3177c7c2252606a23bf2d475d134724d20a76e17c7d1b2dbcf12750597388a693cd0c  prodnet/debug/mbw-prodnet-debug.apk_unzip/META-INF/MANIFEST.MF
+2ed330475a495474e7d3a1d0f3022752cd52955501669c5e0527a9f5f2e22752058cd2872b7c8bfe037495bfcc38aea6ffed0f6ed2690a64ba6232e9fea3ed5d  btctestnet/debug/mbw-btctestnet-debug.apk
+bbff0d892c2f33abcfdcbaf4f0af3c5dbaef360763e1481fac1dd958f231caabd8e02e42db608c9f4f7f8908917f69a64e146c7939b467806f56379a83d7baf3  btctestnet/debug/mbw-btctestnet-debug.apk_unzip/META-INF/MANIFEST.MF
 ===== End Results =====
 ```
 
