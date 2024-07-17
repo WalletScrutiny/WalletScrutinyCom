@@ -21,7 +21,7 @@ icon: com.ellipal.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-12-03
+date: 2024-07-17
 signer: 
 reviewArchive: 
 twitter: ellipalwallet
@@ -34,7 +34,15 @@ features:
 
 ---
 
-**Update 2021-12-03**: This appears to be the companion app to
+## Update 2024-07-17
+
+This article confirms that Ellipal is a [closed source](https://www.ellipal.com/blogs/news/how-much-does-open-source-contribute-to-security) product.
+
+>  "ELLIPAL allows Private keys import to overcome any worries originating from being closed source."
+
+## Old Review 2021-12-03 
+
+This appears to be the companion app to
 {% include walletLink.html wallet='hardware/ellipaltitan' verdict='true' %}.
 
 This app comes with the claim:

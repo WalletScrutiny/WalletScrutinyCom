@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: ar.com.andinasmart.defiant.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
 date: 2024-07-16
 signer: 
