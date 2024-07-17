@@ -20,7 +20,7 @@ repository:
 issue: 
 icon: com.sf.monarch.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
 date: 2024-07-13
 signer: 
@@ -45,6 +45,10 @@ The domain linked to monarch wallet is now listed as monarchwallet.com.
 They have this message on their website: 
 
 > As part of this journey, we will discontinue our wallet services effective July 1, 2024. We understand the importance of a smooth transition for all our users, which is why we recommend switching to Coinbase DeFi Wallet
+
+Although the wallet allows for the creation and backup of new wallets, the "Currencies" page is blank and empty leaving the app unable to send or receive bitcoin.
+
+Verdict: As the product is now officially announced to be discontinued, we believe it is inadvisable to continue to try to use this app as a bitcoin wallet.
 
 ## 2020-04-12
 

@@ -20,7 +20,7 @@ repository:
 issue: 
 icon: com.spot.spot.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
 date: 2024-07-13
 signer: 
@@ -42,7 +42,7 @@ On their website reads:
 
 > Spot will shut down definitely on April 30, 2024
 
-Apart from that, the app has not made its source code available. 
+Apart from that, the app has not made its source code available. Users are permanently stopped upon opening the app and may no longer create a new wallet or backup.
 
 ## Review 2020-11-16
 
