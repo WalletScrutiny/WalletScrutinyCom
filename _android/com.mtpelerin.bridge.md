@@ -39,7 +39,7 @@ features:
 
 ## Update 2024-07-13 
 
-It's organization's Github organization is listed [here](https://github.com/MtPelerin). 
+The provider's GitHub account appears to be [here](https://github.com/MtPelerin). 
 
 It has not made the source available for its Android app.
 
