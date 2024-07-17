@@ -35,7 +35,7 @@ features:
 
 ## Update 2024-07-15
 
-No updates regarding its source-availability are noted. A search for the appID ["com.bitfyapp" on GitHub](com.bitfyapp), does not show any relevant code results.
+No updates regarding its source-availability are noted. A search for the appID ["com.bitfyapp" on GitHub](https://github.com/search?q=%22com.bitfyapp%22+android&type=code), does not show any relevant code results.
 
 ## Review 2021-09-10
 
