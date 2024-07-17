@@ -4,6 +4,7 @@ title: 'Exodus: Crypto Bitcoin Wallet'
 altTitle: 
 authors:
 - leo
+- danny
 users: 1000000
 appId: exodusmovement.exodus
 appCountry: 
@@ -21,7 +22,7 @@ icon: exodusmovement.exodus.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2020-10-12
+date: 2024-07-13
 signer: 
 reviewArchive: 
 twitter: exodus_io
@@ -33,6 +34,12 @@ developerName: Exodus Movement, Inc.
 features: 
 
 ---
+
+## Update 2024-07-13
+
+There have been no changes noted regarding the availability of this app's source code.
+
+## Review 2020-10-12
 
 This app certainly sounds like it is non-custodial:
 

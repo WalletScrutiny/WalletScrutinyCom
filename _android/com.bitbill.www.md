@@ -4,6 +4,7 @@ title: 'Ownbit: Cold & MultiSig Wallet'
 altTitle: 
 authors:
 - leo
+- danny
 users: 10000
 appId: com.bitbill.www
 appCountry: 
@@ -21,7 +22,7 @@ icon: com.bitbill.www.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2020-04-15
+date: 2024-07-13
 signer: 
 reviewArchive: 
 twitter: 
@@ -33,6 +34,12 @@ developerName: ownbit
 features: 
 
 ---
+
+## Update 2024-07-13
+
+No changes have been noted regarding this app's source-availability.
+
+## Previous Review 2020-04-15
 
 On the Google Play description we read:
 
