@@ -4,6 +4,7 @@ title: 'ELLIPAL: Crypto Bitcoin Wallet'
 altTitle: 
 authors:
 - leo
+- danny
 users: 50000
 appId: com.ellipal.wallet
 appCountry: us

@@ -22,7 +22,7 @@ icon: kr.co.keypair.keywalletTouch.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-12-23
+date: 2024-07-17
 signer: 
 reviewArchive:
 - date: 2021-10-01
@@ -37,6 +37,10 @@ developerName: Keypair Co., Ltd.
 features: 
 
 ---
+
+**Update 2024-07-17**
+
+No change regarding source-availability is found. 
 
 **Updated Review 2022-01-04**:
 

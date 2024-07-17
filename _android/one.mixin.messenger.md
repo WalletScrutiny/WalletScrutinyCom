@@ -22,8 +22,8 @@ issue: https://github.com/MixinNetwork/android-app/issues/2559
 icon: one.mixin.messenger.png
 bugbounty: 
 meta: ok
-verdict: ftbfs
-date: 2021-11-17
+verdict: wip
+date: 2024-07-17
 signer: 
 reviewArchive: 
 twitter: MixinMessenger
@@ -35,6 +35,8 @@ developerName: Mixin Ltd
 features: 
 
 ---
+
+**Update 2024-07-17**: After almost three years, we are re-opening this for verification. The issue that was created has been closed with an [MR](https://github.com/MixinNetwork/android-app/pull/3899). 
 
 **Update 2021-11-17**: Although the source code is public, Emanuel failed to
 compile it from the source with the instructions provided. See the

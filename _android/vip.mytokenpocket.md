@@ -4,6 +4,7 @@ title: 'TokenPocket: Crypto & Bitcoin'
 altTitle: 
 authors:
 - leo
+- danny
 users: 1000000
 appId: vip.mytokenpocket
 appCountry: 
@@ -21,7 +22,7 @@ icon: vip.mytokenpocket.png
 bugbounty: 
 meta: ok
 verdict: obfuscated
-date: 2022-01-09
+date: 2024-07-17
 signer: 
 reviewArchive: 
 twitter: TokenPocket_TP
@@ -32,6 +33,12 @@ developerName: TP Global Ltd
 features: 
 
 ---
+
+## Update 2024-07-17
+
+We see the same [minification](https://github.com/TP-Lab/tp-android/blob/master/app/build.gradle#L17) and no changes for the last 6 years have been made to the Android app repository.
+
+## Review 2022-01-09
 
 From the description:
 
