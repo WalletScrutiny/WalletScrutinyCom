@@ -4,6 +4,7 @@ title: PTPWallet - Bitcoin, Ethereum,
 altTitle: 
 authors:
 - leo
+- danny
 users: 10000
 appId: com.ptpwallet
 appCountry: 
@@ -21,7 +22,7 @@ icon: com.ptpwallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-05-25
+date: 2024-07-15
 signer: 
 reviewArchive:
 - date: 2020-12-06
@@ -39,6 +40,10 @@ developerName: PTPWallet
 features: 
 
 ---
+
+**Update 2024-07-15**
+
+No notable changes regarding this app's source-availability has been discovered. A search on GitHub for the relevant repository has not yielded any relevant code.
 
 **Update 2021-05-25**: We had this app listed as custodial previously but now
 think they try to imply to be non-custodial. Absent source code, none of that is
