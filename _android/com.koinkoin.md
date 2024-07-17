@@ -8,8 +8,8 @@ users: 1000
 appId: com.koinkoin
 appCountry: 
 released: 2021-02-22
-updated: 2023-12-22
-version: 2.3.4
+updated: 2024-07-15
+version: 2.3.5
 stars: 3.3
 ratings: 
 reviews: 

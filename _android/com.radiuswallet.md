@@ -3,7 +3,7 @@ wsId:
 title: Radius Wallet
 altTitle: 
 authors: 
-users: 5
+users: 10
 appId: com.radiuswallet
 appCountry: 
 released: 2022-05-06

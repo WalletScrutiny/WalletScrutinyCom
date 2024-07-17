@@ -12,7 +12,7 @@ updated: 2024-07-04
 version: 0.7.7
 stars: 3.7
 ratings: 8141
-reviews: 62
+reviews: 63
 size: 
 website: https://chainge.finance
 repository: 

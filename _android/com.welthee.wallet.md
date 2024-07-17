@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.welthee.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-04-13
+date: 2024-07-17
 signer: 
 reviewArchive: 
 twitter: Welthee

@@ -4,7 +4,7 @@ title: BitcoLi Lightning wallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.bitcoli.bitcoli
 appCountry: 
 released: 2023-01-13

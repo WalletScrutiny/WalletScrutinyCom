@@ -11,7 +11,7 @@ released: 2023-08-24
 updated: 2024-07-02
 version: 1.10.4
 stars: 4.6
-reviews: 94
+reviews: 95
 size: '82071552'
 website: https://www.speed.app/
 repository: 

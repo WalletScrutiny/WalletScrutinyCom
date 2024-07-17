@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Tobe Wallet
+title: Tobe Wallet - Crypto Wallet
 altTitle: 
 authors:
 - danny

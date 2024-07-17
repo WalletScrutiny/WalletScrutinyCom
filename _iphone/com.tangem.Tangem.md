@@ -11,7 +11,7 @@ released: 2018-04-28
 updated: 2024-07-11
 version: '5.12'
 stars: 4.9
-reviews: 3937
+reviews: 3965
 size: '227381248'
 website: 
 repository: 

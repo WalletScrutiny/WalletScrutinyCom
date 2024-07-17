@@ -8,11 +8,11 @@ appId: com.spotware.ct
 appCountry: my
 idd: '767428811'
 released: 2013-12-05
-updated: 2024-07-06
-version: 5.0.54534
+updated: 2024-07-16
+version: 5.0.54540
 stars: 4.7
-reviews: 380
-size: '212695040'
+reviews: 382
+size: '211580928'
 website: https://ctrader.com/forum
 repository: 
 issue: 

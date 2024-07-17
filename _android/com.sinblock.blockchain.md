@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Aibit
+title: 'Aibit: Buy Bitcoin & Crypto'
 altTitle: 
 authors: 
 users: 10000

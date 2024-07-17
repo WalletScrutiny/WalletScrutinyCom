@@ -12,7 +12,7 @@ updated: 2024-06-25
 version: 4.16.0
 stars: 3.3
 ratings: 9232
-reviews: 14
+reviews: 15
 size: 
 website: https://coinone.co.kr
 repository: 
