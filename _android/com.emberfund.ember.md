@@ -21,7 +21,7 @@ icon: com.emberfund.ember.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-09-30
+date: 2024-07-15
 signer: 
 reviewArchive: 
 twitter: Ember_Fund
@@ -32,6 +32,12 @@ developerName: Ember Fund Inc
 features: 
 
 ---
+
+## Update 2024-07-15
+
+A search for its app ID ["com.emberfund.ember" on GitHub](https://github.com/search?q="com.emberfund.ember"&type=code), did not show any relevant Android repository. **No further changes are noted regarding source-availability**.
+
+## Review 2021-09-30
 
 From its Google Play description:
 
