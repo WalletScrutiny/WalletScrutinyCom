@@ -25,7 +25,7 @@ icon: kingmax.secsycript.card.x1.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-03-11
+date: 2024-07-15
 signer: 
 reviewArchive: 
 twitter: KINGMAX_tweet
@@ -36,6 +36,12 @@ social:
 features: 
 
 ---
+
+## Update 2024-07-15
+
+This product remains **not verifiable** with **no source** to reproduce.
+
+## Old Review 2021-03-11
 
 ## Companion App 
 

@@ -21,7 +21,7 @@ icon: com.alfredwallet.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2024-01-02
+date: 2024-07-15
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,6 +31,10 @@ developerName: PRO DIGITAL
 features: 
 
 ---
+
+## Update for 2024-07-15
+
+As of this update, the site alfwallet.io is inaccessible while the app is still up. There's no information on source code for this app.
 
 ## App Description from Google Play 
 
