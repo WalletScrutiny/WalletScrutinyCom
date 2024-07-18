@@ -12,7 +12,7 @@ updated: 2024-07-03
 version: 11.69.12
 stars: 4.5
 ratings: 1165
-reviews: 991
+reviews: 992
 size: 
 website: https://www.afriexapp.com/
 repository: 

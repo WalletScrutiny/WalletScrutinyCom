@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Bitso Alpha - Crypto trader Pr
+title: Bitso Alpha Pro
 altTitle: 
 authors:
 - danny

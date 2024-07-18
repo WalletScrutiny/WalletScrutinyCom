@@ -8,14 +8,14 @@ authors:
 users: 100
 appId: to.bitkit
 appCountry: 
-released: Jun 7, 2024
-updated: 2024-06-13
-version: 1.0.1
+released: 2024-06-07
+updated: 2024-07-03
+version: 1.0.2
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://bitkit.to
+website: https://bitkit.to/
 repository: https://github.com/synonymdev/bitkit
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/501
 icon: to.bitkit.png
@@ -33,8 +33,9 @@ social:
 - https://www.youtube.com/channel/UCyNruUjynpzvQXNTxbJBLmg
 redirect_from: 
 developerName: Synonym
-features: 
+features:
 - ln
+
 ---
 
 ## App Description from Google Play

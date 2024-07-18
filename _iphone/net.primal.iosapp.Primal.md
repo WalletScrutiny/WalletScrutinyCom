@@ -9,10 +9,10 @@ appCountry: us
 idd: '1673134518'
 released: 2023-12-01
 updated: 2024-07-12
-version: 1.7.21
+version: 1.9.3
 stars: 4.9
-reviews: 301
-size: '31575040'
+reviews: 306
+size: '32046080'
 website: https://primal.net
 repository: 
 issue: 
