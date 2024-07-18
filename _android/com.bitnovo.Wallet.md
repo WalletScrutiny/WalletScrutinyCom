@@ -21,7 +21,7 @@ icon: com.bitnovo.Wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-11-30
+date: 2024-07-17
 signer: 
 reviewArchive: 
 twitter: bitnovo

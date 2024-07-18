@@ -40,7 +40,7 @@ The website of the app claims:
 >
 > 100% open sourced project for improved transparency & further developments by Blockchain & Crypto geeks.
 
-A search for the app ID ["com.cryptokara" on GitHub](https://github.com/search?q=%22com.cryptokara%22+android&type=code), does not result in any relevant Android code.
+but fails to link to any source code. Neither could we find the app ID ["com.cryptokara" on GitHub](https://github.com/search?q=%22com.cryptokara%22+android&type=code) in any relevant Android code.
 
 ## Review 2022-06-24
 
