@@ -1,36 +1,82 @@
-FROM frolvlad/alpine-glibc
+# Builds 4.8.0
+# docker build -t edgeapp-build -f co.edgesecure.app.dockerfile
+# docker run -d --name edgeapp-container edgeapp-build
+# docker cp edgeapp-container:/home/appuser/output/app-release-universal.apk ./
+FROM eclipse-temurin:17-jdk-jammy
 
-RUN set -ex; \
-    apk update; \
-    apk add --no-cache \
-        git \
-        npm \
-        yarn \
-        openjdk11; \
-    adduser -D appuser; \
-    mkdir -p "/Users/jenkins/.jenkins/workspace/Edge_edge-react-gui_master/"; \
-    chown -R appuser:appuser /Users/
-    
+ENV ANDROID_HOME="/opt/android-sdk" \
+    ANDROID_SDK_ROOT="/opt/android-sdk" \
+    PATH="${PATH}:/opt/android-sdk/cmdline-tools/latest/bin:/opt/android-sdk/platform-tools"
+
+# Install Node.js 18.x and Yarn
+RUN apt-get update && apt-get install -y \
+    git \
+    wget \
+    unzip \
+    curl \
+    && curl -fsSL https://deb.nodesource.com/setup_18.x | bash - \
+    && apt-get install -y nodejs \
+    && npm install -g yarn \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN mkdir -p ${ANDROID_HOME}/cmdline-tools && \
+    wget -q https://dl.google.com/android/repository/commandlinetools-linux-8512546_latest.zip && \
+    unzip -q commandlinetools-linux-8512546_latest.zip -d ${ANDROID_HOME}/cmdline-tools && \
+    mv ${ANDROID_HOME}/cmdline-tools/cmdline-tools ${ANDROID_HOME}/cmdline-tools/latest && \
+    rm commandlinetools-linux-8512546_latest.zip
+
+RUN yes | sdkmanager --licenses && \
+    sdkmanager "platform-tools" "platforms;android-33" "build-tools;33.0.0" "ndk;25.1.8937393"
+
+RUN adduser --disabled-password --gecos '' appuser
+
+# Give appuser write permissions to the Android SDK directory
+RUN chown -R appuser:appuser ${ANDROID_HOME} && \
+    chmod -R 755 ${ANDROID_HOME}
+
 USER appuser
 
+WORKDIR /home/appuser
+
 ENV NODE_ENV="development" \
-    ANDROID_SDK_ROOT="/home/appuser/sdk/" \
-    ANDROID_HOME="/home/appuser/sdk/" \
     AIRBITZ_API_KEY="74591cbad4a4938e0049c9d90d4e24091e0d4070" \
     BUGSNAG_API_KEY="5aca2dbe708503471d8137625e092675"
 
-RUN set -ex; \
-    mkdir -p "/home/appuser/sdk/licenses"; \
-    printf "\n24333f8a63b6825ea9c5514f83c2829b004d1fee" > "/home/appuser/sdk/licenses/android-sdk-license"; \
-    cd /Users/jenkins/.jenkins/workspace/Edge_edge-react-gui_master/; \
-    git clone --branch v3.20.0 --depth 1 --no-tags --single-branch https://github.com/EdgeApp/edge-react-gui/ .
+RUN mkdir edge-react-gui && \
+    cd edge-react-gui && \
+    git clone --branch v4.8.0 --depth 1 --no-tags --single-branch https://github.com/EdgeApp/edge-react-gui/ .
 
-WORKDIR /Users/jenkins/.jenkins/workspace/Edge_edge-react-gui_master/
+WORKDIR /home/appuser/edge-react-gui
 
-RUN set -ex; \
-    yarnpkg install --frozen-lockfile --ignore-scripts; \
-    yarnpkg prepare
+RUN sed -i "s/versionCode 21000000/versionCode 24062402/g" android/app/build.gradle && \
+    sed -i 's/versionName "99.99.99"/versionName "4.8.0"/g' android/app/build.gradle && \
+    sed -i "s/uploadReactNativeMappings = true/uploadReactNativeMappings = false/g" android/app/build.gradle && \
+    sed -i '/^\s*<\/application>\s*/i <meta-data android:name="com.bugsnag.android.BUILD_UUID" android:value="fd7bc623-0f99-40f8-b23d-527c1483d077"/>' android/app/src/main/AndroidManifest.xml && \
+    sed -i 's/BUGSNAG_API_KEY/5aca2dbe708503471d8137625e092675/g' android/app/src/main/AndroidManifest.xml
 
-RUN set -ex; \    
-     cd /Users/jenkins/.jenkins/workspace/Edge_edge-react-gui_master/android/ ; \
-     ./gradlew packageReleaseUniversalApk
+# Debugging steps
+RUN node --version && npm --version && yarn --version
+RUN cat package.json
+RUN yarn install || (echo "Yarn install failed" && cat yarn-error.log && exit 1)
+RUN yarn prepare || (echo "Yarn prepare failed" && exit 1)
+RUN sed -i 's/AIRBITZ_API_KEY": "/AIRBITZ_API_KEY": "74591cbad4a4938e0049c9d90d4e24091e0d4070/g' env.json && \
+    sed -i 's/BUGSNAG_API_KEY": "/BUGSNAG_API_KEY": "5aca2dbe708503471d8137625e092675/g' env.json
+
+# Remove the package attribute only from the main app's AndroidManifest.xml
+RUN sed -i 's/package="[^"]*"//g' android/app/src/main/AndroidManifest.xml
+WORKDIR /home/appuser/edge-react-gui/android
+
+# Debug React Native CLI
+RUN node /home/appuser/edge-react-gui/node_modules/@react-native-community/cli/build/bin.js config
+RUN ./gradlew packageReleaseUniversalApk
+
+# Find and copy the APK to a known location
+RUN mkdir -p /home/appuser/output && \
+    find /home/appuser/edge-react-gui -name "*release*.apk" -exec cp {} /home/appuser/output/ \; && \
+    ls -l /home/appuser/output
+
+# Set the working directory to where the APK is located
+WORKDIR /home/appuser/output
+
+# This command will keep the container running
+CMD ["tail", "-f", "/dev/null"]

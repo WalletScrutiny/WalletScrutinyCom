@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 - emanuel
+- danny
 users: 500000
 appId: co.edgesecure.app
 appCountry: 
@@ -22,9 +23,14 @@ icon: co.edgesecure.app.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2023-11-01
+date: 2024-07-19
 signer: 
 reviewArchive:
+- date: 2023-10-31
+  version: 3.2.0
+  appHash: 
+  gitRevision: bc81fe15c5fe7520ba3836d58de315d288559d27
+  verdict: nonverifiable
 - date: 2022-11-02
   version: 2.25.0
   appHash: 
@@ -53,6 +59,91 @@ developerName: Edge (formerly Airbitz)
 features: 
 
 ---
+
+**Update 2024-07-19**: 
+
+1. Using a modified version of Emanuel's [script (for 3.6.0)](https://github.com/EdgeApp/edge-react-gui/issues/1748#issuecomment-1518387292), we successfully built the app. 
+
+2. We then ran: `$ aapt dump badging app-release-universal.apk | grep version*`
+
+    This resulted in: 
+
+      ```
+      package: name='co.edgesecure.app' versionCode='24062402' versionName='4.8.0' compileSdkVersion='34' compileSdkVersionCodename='14'
+      ```
+
+3. We ran the same command on the apk we got from our phone (official) `$ aapt dump badging co.edgesecure.app_v24062402.apk | grep 'package\|version'`
+ 
+    This gave: 
+
+      ```
+      package: name='co.edgesecure.app' versionCode='24062402' versionName='4.8.0' compileSdkVersion='34' compileSdkVersionCodename='14'
+      ```
+
+4. Next, we check for file-size differences: `$ ls -l app-release-universal.apk co.edgesecure.app_v24062402.apk`
+
+    This showed:
+
+      ```
+      -rw-r--r-- 1 danny danny 86193255 Jul 19 08:40 app-release-universal.apk
+      -rwxr----- 1 danny danny 86201447 Jul 19 08:59 co.edgesecure.app_v24062402.apk
+      ```
+
+    A difference of 8192.
+
+5. Next we checked the sha256sums of both apks: `$ sha256sum app-release-universal.apk co.edgesecure.app_v24062402.apk`
+
+    ```
+    0334ab31584f50fddcf5aa791a1851209545c824df0e827da66544c9f838e168  app-release-universal.apk
+    affec03a55ced83c3cf2cf5ae119de0eade7c35a14dab0c06334522773b7f781  co.edgesecure.app_v24062402.apk
+    ```
+
+6. Next, we created directories for app-release-universal.apk (built) and co.edgesecure.app_v24062402.apk (official) and unzipped their contents, using the unzip command. We then ran a diff, and this was the result:
+
+    ```
+    $ diff -r built official/
+    Binary files built/AndroidManifest.xml and official/AndroidManifest.xml differ
+    Binary files built/assets/dexopt/baseline.prof and official/assets/dexopt/baseline.prof differ
+    Binary files built/assets/dexopt/baseline.profm and official/assets/dexopt/baseline.profm differ
+    Binary files built/assets/index.android.bundle and official/assets/index.android.bundle differ
+    diff -r built/assets/sentry-debug-meta.properties official/assets/sentry-debug-meta.properties
+    2c2,3
+    < #Fri Jul 19 08:33:47 UTC 2024
+    ---
+    > #Mon Jun 24 19:12:34 PDT 2024
+    > io.sentry.bundle-ids=a7dbdc5d-ac94-4540-92de-097feba6c718
+    Binary files built/classes2.dex and official/classes2.dex differ
+    Binary files built/classes3.dex and official/classes3.dex differ
+    Binary files built/classes4.dex and official/classes4.dex differ
+    Binary files built/classes.dex and official/classes.dex differ
+    Binary files built/lib/arm64-v8a/libedge-core-jni.so and official/lib/arm64-v8a/libedge-core-jni.so differ
+    Binary files built/lib/arm64-v8a/libexpo-modules-core.so and official/lib/arm64-v8a/libexpo-modules-core.so differ
+    Binary files built/lib/arm64-v8a/libmymonero-jni.so and official/lib/arm64-v8a/libmymonero-jni.so differ
+    Binary files built/lib/arm64-v8a/libreanimated.so and official/lib/arm64-v8a/libreanimated.so differ
+    Binary files built/lib/arm64-v8a/librnscreens.so and official/lib/arm64-v8a/librnscreens.so differ
+    Binary files built/lib/armeabi-v7a/libedge-core-jni.so and official/lib/armeabi-v7a/libedge-core-jni.so differ
+    Binary files built/lib/armeabi-v7a/libexpo-modules-core.so and official/lib/armeabi-v7a/libexpo-modules-core.so differ
+    Binary files built/lib/armeabi-v7a/libmymonero-jni.so and official/lib/armeabi-v7a/libmymonero-jni.so differ
+    Binary files built/lib/armeabi-v7a/libreanimated.so and official/lib/armeabi-v7a/libreanimated.so differ
+    Binary files built/lib/armeabi-v7a/librnscreens.so and official/lib/armeabi-v7a/librnscreens.so differ
+    Binary files built/lib/x86/libedge-core-jni.so and official/lib/x86/libedge-core-jni.so differ
+    Binary files built/lib/x86/libexpo-modules-core.so and official/lib/x86/libexpo-modules-core.so differ
+    Binary files built/lib/x86/libmymonero-jni.so and official/lib/x86/libmymonero-jni.so differ
+    Binary files built/lib/x86/libreanimated.so and official/lib/x86/libreanimated.so differ
+    Binary files built/lib/x86/librnscreens.so and official/lib/x86/librnscreens.so differ
+    Binary files built/lib/x86_64/libedge-core-jni.so and official/lib/x86_64/libedge-core-jni.so differ
+    Binary files built/lib/x86_64/libexpo-modules-core.so and official/lib/x86_64/libexpo-modules-core.so differ
+    Binary files built/lib/x86_64/libmymonero-jni.so and official/lib/x86_64/libmymonero-jni.so differ
+    Binary files built/lib/x86_64/libreanimated.so and official/lib/x86_64/libreanimated.so differ
+    Binary files built/lib/x86_64/librnscreens.so and official/lib/x86_64/librnscreens.so differ
+    Binary files built/resources.arsc and official/resources.arsc differ
+    ```
+
+7. As an additional step, we ran `$ apktool d` on each, outputted in separate directories. 
+
+8. We then ran $ diff -r on the folders with the decompiled apks and [posted it on pastebin](https://pastebin.com/CCzxRWVa)
+
+Version 4.8.0 is evidently **not-verifiable**
 
 **Update 2023-10-31**: Our latest issue was not addressed by the provider but
 Emanuel had managed to compile a prior version of this app. Let's see how it
