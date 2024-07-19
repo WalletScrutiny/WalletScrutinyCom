@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.xsjys.bbtc.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosendreceive
-date: 2023-04-18
+date: 2024-07-19
 signer: 
 reviewArchive: 
 twitter: 

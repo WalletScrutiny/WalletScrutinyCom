@@ -11,7 +11,7 @@ released: 2018-06-21
 updated: 2024-07-16
 version: 2.6.7
 stars: 2.8
-reviews: 507
+reviews: 506
 size: '128532480'
 website: https://www.gopax.co.kr/notice
 repository: 

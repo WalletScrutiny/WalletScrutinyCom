@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: org.nativescript.knakenhybridapp.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-08-24
+date: 2024-07-19
 signer: 
 reviewArchive: 
 twitter: knaken_eu

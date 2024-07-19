@@ -10,8 +10,8 @@ users: 10000
 appId: app.zeusln.zeus
 appCountry: 
 released: 2020-07-07
-updated: 2024-07-12
-version: 0.8.5
+updated: 2024-07-17
+version: 0.8.5-hotfix
 stars: 4.3
 ratings: 45
 reviews: 33

@@ -8,8 +8,8 @@ appId: com.btckan.us
 appCountry: us
 idd: 1004852205
 released: 2015-06-24
-updated: 2024-07-16
-version: 8.23.1
+updated: 2024-07-18
+version: 8.23.3
 stars: 3.4
 reviews: 38
 size: '148011008'

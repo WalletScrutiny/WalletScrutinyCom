@@ -8,8 +8,8 @@ users: 10000
 appId: com.futurance.futurex
 appCountry: 
 released: 2022-07-07
-updated: 2024-06-25
-version: 2.1.9
+updated: 2024-07-18
+version: 2.2.0
 stars: 
 ratings: 
 reviews: 

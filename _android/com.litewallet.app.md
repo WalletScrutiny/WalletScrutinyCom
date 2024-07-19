@@ -19,9 +19,9 @@ repository: https://github.com/META-1-Official/litewallet-native
 issue: 
 icon: com.litewallet.app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
-date: 2024-06-7
+date: 2024-07-19
 signer: 
 reviewArchive: 
 twitter: 

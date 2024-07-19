@@ -9,10 +9,10 @@ appCountry: us
 idd: '1486151349'
 released: 2019-11-06
 updated: 2024-07-15
-version: 2.2.13
+version: 2.2.12
 stars: 4.1
 reviews: 62
-size: '54539264'
+size: '53413888'
 website: http://www.biconomy.com/
 repository: 
 issue: 

@@ -8,8 +8,8 @@ users: 10000
 appId: io.cimcome.app
 appCountry: bm
 released: 2020-12-09
-updated: 2024-05-22
-version: 2.2.7
+updated: 2024-07-17
+version: 2.2.8
 stars: 3.7
 ratings: 10
 reviews: 37

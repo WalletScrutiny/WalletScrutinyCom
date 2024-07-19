@@ -9,7 +9,7 @@ appId: com.xtb.xmobile2
 appCountry: 
 released: 2014-12-17
 updated: 2024-07-05
-version: 2.87.0
+version: 2.88.0
 stars: 4.2
 ratings: 22753
 reviews: 148

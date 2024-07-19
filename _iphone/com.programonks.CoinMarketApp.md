@@ -8,11 +8,11 @@ appId: com.programonks.CoinMarketApp
 appCountry: us
 idd: 1350234503
 released: 2018-03-02
-updated: 2024-07-10
-version: 15.12.1
+updated: 2024-07-18
+version: 15.13.0
 stars: 4.6
 reviews: 620
-size: '157786112'
+size: '158857216'
 website: https://www.dopamineapp.com/
 repository: 
 issue: 
