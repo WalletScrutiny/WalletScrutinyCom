@@ -21,7 +21,7 @@ icon: org.sapien.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-11-10
+date: 2024-07-16
 signer: 
 reviewArchive: 
 twitter: 
@@ -33,7 +33,11 @@ features:
 
 ---
 
-## App Description
+## Update 2024-07-16
+
+No changes are noted regarding the public availability of this app's source code. This is still **not source-available**.
+
+## App Description 2021-11-10
 
 > Sapien Wallet is an innovative, reliable, and convenient non-custodial cryptocurrency storage with a user rating system. With its help, you can receive, send, exchange, sell and withdraw BTC, ETH, USDT, TRX. There is an exchanger inside the app.
 >

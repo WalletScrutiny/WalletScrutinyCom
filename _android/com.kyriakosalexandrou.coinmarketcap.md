@@ -21,7 +21,7 @@ icon: com.kyriakosalexandrou.coinmarketcap.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-10-10
+date: 2024-07-16
 signer: 
 reviewArchive: 
 twitter: mydopamineapp
@@ -33,7 +33,11 @@ features:
 
 ---
 
-## App Description
+## Update 2024-07-16
+
+No changes have been observed regarding the public availability of this app's source code.
+
+## App Description 2021-10-10
 
 From its Google Play Description:
 

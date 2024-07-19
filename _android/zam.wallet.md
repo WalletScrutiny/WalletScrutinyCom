@@ -21,7 +21,7 @@ icon: zam.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-11-04
+date: 2024-07-16
 signer: 
 reviewArchive: 
 twitter: zam_io
@@ -33,7 +33,11 @@ features:
 
 ---
 
-**Note:** This app shares a logo with {% include walletLink.html wallet='android/ru.zamzamwallet' verdict='0' %}. However, these apps do not have the same developer. This app's developer is [ZamZam Technology](https://play.google.com/store/apps/developer?id=ZamZam+Technology), while the other Zamzam's app developer is [Zamzam Tech](https://play.google.com/store/apps/developer?id=Zamzam+Tech). They do not have the same developer page.
+## Update 2024-07-16
+
+No changes regarding the availability of its source has been found.
+
+**Note: 2021-11-04** This app shares a logo with {% include walletLink.html wallet='android/ru.zamzamwallet' verdict='0' %}. However, these apps do not have the same developer. This app's developer is [ZamZam Technology](https://play.google.com/store/apps/developer?id=ZamZam+Technology), while the other Zamzam's app developer is [Zamzam Tech](https://play.google.com/store/apps/developer?id=Zamzam+Tech). They do not have the same developer page.
 
 **Update on Note October 26, 2021:** We were able to verify the link between these two apps via a document found on [Zam.io's document page](https://docs.zam.io/ecosystem/zam.me-zamzam): The other is for Russia, this here for the rest of the world.
 
@@ -87,4 +91,4 @@ The description reads as follows:
 
 We could not find the source for the app as reported in [gitlab issue #367](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/367).
 
-> The linked github org don't contain repo that publish sources for mobile apps, didn't opened related issue on some of their github repos.
+> The linked github org don't contain repo that publish sources for mobile apps, didn't open related issue on some of their github repos.

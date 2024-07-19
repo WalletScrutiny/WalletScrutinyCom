@@ -4,6 +4,7 @@ title: Crypto.com l DeFi Wallet
 altTitle: 
 authors:
 - leo
+- danny
 users: 1000000
 appId: com.defi.wallet
 appCountry: 
@@ -21,7 +22,7 @@ icon: com.defi.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-10-24
+date: 2024-07-16
 signer: 
 reviewArchive: 
 twitter: cryptocom
@@ -36,6 +37,12 @@ developerName: Growth Labs
 features: 
 
 ---
+
+## Update 2024-07-16
+
+Almost three years after, a search for the app ID "com.defi.wallet" on GitHub only yields a library called "[defi-wallet-core-rs](https://github.com/crypto-com/defi-wallet-core-rs)" and not a buildable Android app. Their policy concerning the public availability of their Android app's source code has not changed.
+
+## Review 2021-10-24
 
 This app's description is promising:
 

@@ -20,8 +20,8 @@ issue:
 icon: com.zenapay.png
 bugbounty: 
 meta: ok
-verdict: nosource
-date: 2022-08-01
+verdict: nobtc
+date: 2024-07-17
 signer: 
 reviewArchive: 
 twitter: 
@@ -34,6 +34,10 @@ developerName: Epazz
 features: 
 
 ---
+
+## Update 2024-07-17
+
+As of this update, ZenaPay removed references to being a bitcoin wallet from its Play Store description. Ethereum is the only currency shown. Despite the mnemonics, we are marking this app as **not a bitcoin wallet**.
 
 ## Previous Review 2022-12-09
 

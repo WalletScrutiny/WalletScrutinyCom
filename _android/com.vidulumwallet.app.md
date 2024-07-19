@@ -4,6 +4,7 @@ title: Vidulum - Crypto Web Wallet
 altTitle: 
 authors:
 - leo
+- danny
 users: 10000
 appId: com.vidulumwallet.app
 appCountry: 
@@ -21,7 +22,7 @@ icon: com.vidulumwallet.app.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2022-03-21
+date: 2024-07-17
 signer: 
 reviewArchive: 
 twitter: VidulumApp
@@ -35,6 +36,12 @@ developerName: Vidulum LLC
 features: 
 
 ---
+
+## Update 2024-07-17
+
+No pertinent results were discovered when searching for the app ID ["com.vidulumwallet.app" on GitHub](https://github.com/search?q=%22com.vidulumwallet.app%22&type=code). An [issue](https://github.com/vidulum/vidulum.app/issues/1) filed on behalf of WalletScrutiny, regarding the availability of the source code of the project, remains unanswered. This app is **closed source**.
+
+## Review 2022-03-21
 
 On Google Play we read
 

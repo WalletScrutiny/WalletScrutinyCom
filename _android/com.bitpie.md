@@ -4,6 +4,7 @@ title: Bitpie Wallet
 altTitle: 
 authors:
 - leo
+- danny
 users: 100000
 appId: com.bitpie
 appCountry: 
@@ -21,7 +22,7 @@ icon: com.bitpie.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2022-04-07
+date: 2024-07-17
 signer: 
 reviewArchive: 
 twitter: BitpieWallet
@@ -36,6 +37,12 @@ features:
 - ln
 
 ---
+
+**Update 2024-07-17**: The last time this app was updated was in March 27, 2024. Prior to that, an [issue was filed](https://github.com/bitpiedotcom/bitpiedotcom.github.com/issues/7) on behalf of WalletScrutiny asking for its source-code to be made available. It went unanswered. Moreover, a search for the app ID on GitHub, turned up [hits on some cybersecurity database](https://github.com/github/advisory-database/blob/d8b7bd8352e1621965179b11ac9eff056e6363e1/advisories/unreviewed/2022/05/GHSA-8rhq-wwg6-2476/GHSA-8rhq-wwg6-2476.json#L9), which had a partial match on the app ID string. We are including the text for posterity:
+
+> The Bitpie application through 3.2.4 for Android and iOS uses cleartext storage for digital currency initial keys, which allows local users to steal currency by leveraging root access to read /com.biepie/shared_prefs/com.bitpie_preferences.xml (on Android) or a plist file in the app data folder (on iOS).
+
+With that interesting excerpt aside, the app is still **not source-available**.
 
 **Update 2022-11-23**: This app is available once more.
 
