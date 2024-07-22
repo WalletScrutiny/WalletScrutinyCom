@@ -36,17 +36,7 @@ features:
 
 We did not find any relevant repository when searching for the [app ID on GitHub](https://github.com/search?q=%22im.immune.app%22&type=code).
 
-Moreover, there's a warning when we attempted to browse their website:
-
-> Firefox detected an issue and did not continue to imm.app. The website is either misconfigured or your computer clock is set to the wrong time.
->
-> It’s likely the website’s certificate is expired, which prevents Firefox from connecting securely.
->
-> **What can you do about it?**
->
-> imm.app has a security policy called HTTP Strict Transport Security (HSTS), which means that Firefox can only connect to it securely. You can’t add an exception to visit this site.
->
-> The issue is most likely with the website, and there is nothing you can do to resolve it. You can notify the website’s administrator about the problem.
+Moreover, their website's ssl certificate expired three months ago, which suggests the project might be abandoned.
 
 
 ## App Description from [Google Play](https://play.google.com/store/apps/details?id=im.immune.app&gl=us) 2023-04-15
