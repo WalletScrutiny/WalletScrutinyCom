@@ -10,9 +10,9 @@ appCountry:
 released: 2021-04-06
 updated: 2024-07-14
 version: 1.30.1
-stars: 
+stars: 2.2
 ratings: 
-reviews: 
+reviews: 4
 size: 
 website: https://www.yuh.com
 repository: 

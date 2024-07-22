@@ -12,7 +12,7 @@ updated: 2024-06-30
 version: 7.2.3
 stars: 3.9
 ratings: 7353
-reviews: 279
+reviews: 280
 size: 
 website: https://ok-ex.co
 repository: 

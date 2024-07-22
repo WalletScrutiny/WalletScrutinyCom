@@ -8,7 +8,7 @@ users: 100000
 appId: com.companyname.swaptobe
 appCountry: 
 released: 2021-10-14
-updated: 2024-07-12
+updated: 2024-07-22
 version: '5.8'
 stars: 4.3
 ratings: 

@@ -10,9 +10,9 @@ appCountry:
 released: 2021-05-16
 updated: 2024-06-27
 version: 2.94.6
-stars: 4.2
+stars: 3.7
 ratings: 
-reviews: 4
+reviews: 5
 size: 
 website: https://attlas.io
 repository: 

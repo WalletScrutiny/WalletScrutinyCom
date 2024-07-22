@@ -1,12 +1,3 @@
-2024-07-05:
-- _android/com.aex.exchanges
-- _android/com.capitalsecurities.liqx
-- _android/com.coinme
-- _android/com.paed.paed
-- _iphone/app.yield
-- _android/com.yieldapp_mobile
-- _android/io.gigexchage.crypto
-- _iphone/com.namicorp.exchange
 2024-07-10:
 - _android/com.blocknance.wallet
 - _android/com.denxpro.plus
@@ -44,3 +35,12 @@
 - _android/finance.a4.mobile
 - _android/trade.aleairpay.com
 - _iphone/com.metatech.moonfarm
+2024-07-22:
+- _android/com.alfacash.alfacashier.alfacash
+- _android/com.cryptoswisshub
+- _android/com.digivault.authenticator
+- _android/com.jax.peaceWallet
+- _android/com.numiner.nuwallet
+- _android/me.bvault.app
+- _iphone/com.dexfin.mpcwallet
+- _iphone/com.quadency.app

@@ -8,7 +8,7 @@ users: 100000
 appId: co.za.altcointrader
 appCountry: 
 released: 2020-05-06
-updated: 2022-10-10
+updated: 2024-07-19
 version: 1.1.0
 stars: 3.6
 ratings: 835
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: co.za.altcointrader.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2023-10-06
+date: 2024-07-22
 signer: 
 reviewArchive: 
 twitter: AltCoinTraderSA

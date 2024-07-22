@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.yieldapp_mobile.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-05-03
+date: 2024-07-22
 signer: 
 reviewArchive: 
 twitter: yieldapp

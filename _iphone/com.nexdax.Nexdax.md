@@ -10,7 +10,7 @@ idd: '1617962449'
 released: 2022-06-23
 updated: 2022-08-16
 version: '1.1'
-stars: 0
+stars: 5
 reviews: 1
 size: '36487168'
 website: https://nexdax.com/
