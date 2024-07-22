@@ -23,10 +23,15 @@ icon: com.bitpay.wallet.png
 bugbounty: >-
   https://support.bitpay.com/hc/en-us/articles/204229369-Does-BitPay-have-a-bug-bounty-program-
 meta: ok
-verdict: ftbfs
-date: 2023-03-13
+verdict: wip
+date: 2024-07-20
 signer: 
 reviewArchive:
+- date: 2022-11-02
+  version: 14.10.1
+  appHash: 
+  gitRevision: 542873cd51a2ae85cae03cfe7272e34e53f3f4d3
+  verdict: ftbfs
 - date: 2022-11-02
   version: 12.6.4
   appHash: 
@@ -50,6 +55,8 @@ developerName: BitPay, Inc.
 features: 
 
 ---
+
+**Update 2024-07-20**: It may be time to retry building for a newer release. This app is **for verification**
 
 **Update 2023-03-12**: The source code of the last review was missing and was
 provided later on. That was version 12.6.4. Currently Google Play gives us

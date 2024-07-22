@@ -21,7 +21,7 @@ icon: im.immune.app.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-04-15
+date: 2024-07-20
 signer: 
 reviewArchive: 
 twitter: 
@@ -32,7 +32,14 @@ features:
 
 ---
 
-## App Description from [Google Play](https://play.google.com/store/apps/details?id=im.immune.app&gl=us) 
+## Review 2024-07-20
+
+We did not find any relevant repository when searching for the [app ID on GitHub](https://github.com/search?q=%22im.immune.app%22&type=code).
+
+Moreover, their website's ssl certificate expired three months ago, which suggests the project might be abandoned.
+
+
+## App Description from [Google Play](https://play.google.com/store/apps/details?id=im.immune.app&gl=us) 2023-04-15
 
 > IMMUNE contains all the usual messenger functions:
 - Sending text and voice messages

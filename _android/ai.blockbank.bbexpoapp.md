@@ -21,7 +21,7 @@ icon: ai.blockbank.bbexpoapp.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-04-05
+date: 2024-07-20
 signer: 
 reviewArchive: 
 twitter: BLOCKBANKapp
@@ -34,6 +34,10 @@ developerName: UAB HODL SERVICES
 features: 
 
 ---
+
+## Update 2024-07-20
+
+There have been no recent public updates on the release of its source code.
 
 ## Updated Review 2023-04-05 
 
