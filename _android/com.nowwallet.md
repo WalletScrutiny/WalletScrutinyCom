@@ -21,7 +21,7 @@ icon: com.nowwallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-04-08
+date: 2023-07-20
 signer: 
 reviewArchive: 
 twitter: NOW_Wallet
@@ -35,7 +35,11 @@ features:
 
 ---
 
-## App Description from Google Play 
+## Update 2024-07-20
+
+A search for the app ID on GitHub didn't turn up any relevant repository. This app is still **not source-available**.
+
+## Review 2023-04-08
 
 > NOW Wallet is a fast and secure non-custodial crypto wallet 
 > 

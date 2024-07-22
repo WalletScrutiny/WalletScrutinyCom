@@ -4,6 +4,7 @@ title: 'AnkerPay: Blockchain Crypto Wa'
 altTitle: 
 authors:
 - leo
+- danny
 users: 10000
 appId: com.ankerpay.wallet
 appCountry: us
@@ -21,12 +22,13 @@ icon: com.ankerpay.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-06-03
+date: 2024-07-22
 signer: 
 reviewArchive: 
 twitter: AnkerPay
 social:
 - https://www.facebook.com/AnkerPlatform
+- https://ankeratm.com/
 redirect_from:
 - /com.ankerpay.wallet/
 - /posts/com.ankerpay.wallet/
@@ -34,6 +36,12 @@ developerName: AnkerPay
 features: 
 
 ---
+
+## Update 2024-07-22
+
+While the app receives updates regularly, no comment has been made on the state of reproducibility. This is **not verifiable.**
+
+## Old Review 2023-06-03
 
 This app promises to be non-custodial:
 

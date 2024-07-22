@@ -21,7 +21,7 @@ icon: com.tongtong.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-04-19
+date: 2024-07-20
 signer: 
 reviewArchive: 
 twitter: tomatochain
@@ -34,7 +34,11 @@ features:
 
 ---
 
-## App Description from [Google Play](https://play.google.com/store/apps/details?id=com.tongtong.wallet) 
+## Update 2024-07-20
+
+We tried searching for the app ID on [GitHub and found only 2 repositories](https://github.com/search?q=%22com.tongtong.wallet%22&type=code), both are not related. This app's source is not publicly available.
+
+## App Description from [Google Play](https://play.google.com/store/apps/details?id=com.tongtong.wallet) 2023-04-19
 
 > Tongtong Wallet is a key element of the Tongtong Coin platform, which is a secure and easy-to-use cryptocurrency and mileage wallet.
 >
