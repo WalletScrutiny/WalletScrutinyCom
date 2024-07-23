@@ -25,7 +25,7 @@ date: 2024-07-22
 signer: 
 reviewArchive: 
 twitter: 
-social: 
+social:
 - https://awallet.digital/
 redirect_from: 
 developerName: Metaverse Network LLC

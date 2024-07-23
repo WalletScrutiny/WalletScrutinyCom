@@ -8,8 +8,8 @@ users: 10000
 appId: com.bitcoinfuture.bitcoinfuture
 appCountry: 
 released: 2019-05-05
-updated: 2024-06-25
-version: '1.4'
+updated: 2024-07-22
+version: '1.5'
 stars: 
 ratings: 
 reviews: 

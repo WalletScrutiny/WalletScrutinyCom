@@ -8,11 +8,11 @@ appId: com.pay99
 appCountry: br
 idd: 1588184260
 released: 2021-10-02
-updated: 2024-07-09
-version: 7.2.16
+updated: 2024-07-23
+version: 7.2.18
 stars: 4.1
 reviews: 1702
-size: '171721728'
+size: '171791360'
 website: 
 repository: 
 issue: 

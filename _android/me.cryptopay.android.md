@@ -7,7 +7,7 @@ users: 100000
 appId: me.cryptopay.android
 appCountry: de
 released: 2017-11-09
-updated: 2024-03-25
+updated: 2024-07-22
 version: 1.61.0
 stars: 4.3
 ratings: 1142

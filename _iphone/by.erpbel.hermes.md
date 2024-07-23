@@ -11,7 +11,7 @@ released: 2023-04-17
 updated: 2024-06-27
 version: 2.3.0
 stars: 1.7
-reviews: 29
+reviews: 30
 size: '23800832'
 website: https://bynex.io/en
 repository: 

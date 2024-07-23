@@ -8,7 +8,7 @@ users: 5000000
 appId: app.phantom
 appCountry: 
 released: 2022-04-12
-updated: 2024-07-04
+updated: 2024-07-19
 version: 24.11.1
 stars: 4.6
 ratings: 

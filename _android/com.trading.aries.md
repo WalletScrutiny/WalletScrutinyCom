@@ -8,8 +8,8 @@ users: 5000
 appId: com.trading.aries
 appCountry: ng
 released: 2021-06-23
-updated: 2024-07-18
-version: 3.7.3
+updated: 2024-07-22
+version: 3.7.4
 stars: 
 ratings: 
 reviews: 
