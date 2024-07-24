@@ -21,7 +21,7 @@ icon: com.streakk.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-07-03
+date: 2023-07-24
 signer: 
 reviewArchive: 
 twitter: streakkofficial
@@ -36,7 +36,11 @@ features:
 
 ---
 
-## App Description from Google Play
+## Update 2024-07-24
+
+Nothing significant regarding source-availability has been seen.
+
+## App Description from Google Play 2023-07-03
 
 > Streakk is crypto wallet. You can send, receive and store multiple cryptocurrencies safely and securely with the Streakk mobile app. It's 100% decentralized.
 >

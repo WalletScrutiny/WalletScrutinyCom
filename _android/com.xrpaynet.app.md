@@ -21,7 +21,7 @@ icon: com.xrpaynet.app.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-07-07
+date: 2023-07-24
 signer: 
 reviewArchive: 
 twitter: XRPayNet
@@ -36,7 +36,11 @@ features:
 
 ---
 
-## App Description from Google Play
+## Updates 2024-07-24
+
+No updates have been made regarding this app's source status. It is still not available.
+
+## App Description from Google Play 2023-07-07
 
 > Version 1 app serves as both a secure coin custody wallet and an exchange platform, featuring nearly 300 different cryptocurrencies that can all be seamlessly exchanged with one another. With approximately 90,000 trading pairs available, Volta Wallet offers unparalleled options for diversifying portfolios. Unlike most crypto exchanges, which limit smaller project coins/tokens to just a few trading options like Bitcoin, Ethereum, and USDT, Volta Wallet enables users to exchange any of the 300 coins on our platform with one another
 

@@ -21,7 +21,7 @@ icon: doshi.app.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-07-17
+date: 2023-07-24
 signer: 
 reviewArchive: 
 twitter: doshi_wallet
@@ -33,7 +33,13 @@ features:
 
 ---
 
-## App Description from Google Play
+## Update 2024-07-24
+
+[Terms:](https://www.doshi.app/terms-conditions)
+
+> Doshi App Limited (or our licensors) hold all intellectual property rights in and to the Doshi app worldwide. The app is licensed, not sold, to you for use. This means that we retain ownership of the app at all times.
+
+## App Description from Google Play 2023-07-17
 
 > - Collect NFTs or mint your own on Polygon using Doshi’s AI technology
 > - Get access to the latest DApps, NFT projects and blockchain-based Games.

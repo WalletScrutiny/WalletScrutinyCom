@@ -21,7 +21,7 @@ icon: com.fintoda.app.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-08-30
+date: 2024-07-24
 signer: 
 reviewArchive: 
 twitter: 
@@ -33,7 +33,11 @@ features:
 
 ---
 
-## App Description from Google Play
+## Update 2024-07-24
+
+Our assessment indicates that the source code for this app is not available to the public.
+
+## App Description from Google Play 2023-08-30
 
 > Fintoda is an easy and reliable way to store crypto. The best integration with Ledger Nano X hardware wallet provide you with more trust and confidence. Fintoda also supports Wallet Connect.
 >

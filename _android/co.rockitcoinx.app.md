@@ -21,7 +21,7 @@ icon: co.rockitcoinx.app.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-07-07
+date: 2024-07-24
 signer: 
 reviewArchive: 
 twitter: rockitcoin
@@ -34,7 +34,11 @@ features:
 
 ---
 
-## App Description from Google Play
+## Update 2024-07-24
+
+There hasn't been any news on whether the app's source code will be made available. The site's [terms](https://www.rockitcoin.com/terms-of-service/) explicitly license and prohibit decompiling, re-distributing or modifying the service's intellectual property including the app's source code, meaning it is closed source. 
+
+## App Description from Google Play 2023-07-07
 
 > Start Your Crypto Adventure with RockItCoin, the Most Trusted Name in Cryptocurrency™. We make buying crypto out-of-this-world easy with our network of over 2,000 Bitcoin ATMs and newly-designed mobile app!
 >

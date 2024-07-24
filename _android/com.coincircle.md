@@ -21,7 +21,7 @@ icon: com.coincircle.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-08-27
+date: 2024-07-24
 signer: 
 reviewArchive: 
 twitter: coincircle
@@ -34,7 +34,12 @@ features:
 
 ---
 
-## App Description
+## Update 2024-07-24
+
+There is nothing to support the notion that CoinCircle altered its source code policy. It is still **not available**. They also have not replied to our x post.
+
+## App Description 2023-08-27 
+
 The Google Play description gives the impression that this app is non-custodial:
 
 > You get the keys and you are in complete control of your digital assets.

@@ -21,7 +21,7 @@ icon: com.chainwallet.app.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-07-02
+date: 2023-07-24
 signer: 
 reviewArchive: 
 twitter: chain
@@ -35,7 +35,11 @@ features:
 
 ---
 
-## App Description from Google Play
+## Updates 2024-07-24
+
+Nothing changed with regards to its source-availability.
+
+## App Description from Google Play 2023-07-02
 
 > ⁃ Only you control full access to your funds with your security seed phrase as the Chain app is a non-custodial (self-custody) wallet.
 ⁃ Securely store and manage decentralized blockchain cryptocurrencies such as Bitcoin (BTC), Ethereum (ETH), XRP (XRP), Dash (DASH), Monero (XMR), and much more.

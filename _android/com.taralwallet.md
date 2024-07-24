@@ -21,7 +21,7 @@ icon: com.taralwallet.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-07-18
+date: 2024-07-24
 signer: 
 reviewArchive: 
 twitter: TaralityCoin
@@ -35,7 +35,21 @@ features:
 
 ---
 
-## App Description from Google Play
+## Update 2024-07-24
+
+According to the [terms:](https://tarality.com/terms-conditions)
+
+> 7.1. Ownership
+> 
+> All content and materials available on the Platform, including but not limited to software, logos, trademarks, and proprietary information, are the property of the Company and are protected by intellectual property laws.
+>
+> 7.2. License
+>
+> The Company grants you a limited, non-exclusive, non-transferable license to access and use the Platform for personal and lawful purposes in accordance with this Agreement.
+
+This app is **not source-available**.
+
+## App Description from Google Play 2023-07-18
 
 > - With Tarality Wallet, you can manage Bitcoin, Ethereum, BNB token right on your mobile phone.
 >

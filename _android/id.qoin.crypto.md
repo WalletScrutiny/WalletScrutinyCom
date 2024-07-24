@@ -21,7 +21,7 @@ icon: id.qoin.crypto.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-07-08
+date: 2024-07-24
 signer: 
 reviewArchive: 
 twitter: qoinpay
@@ -37,7 +37,11 @@ features:
 
 ---
 
-## App Description from Google Play
+## Update 2024-07-24
+
+Nothing changed much regarding the source availability of this project.
+
+## App Description from Google Play 2023-07-08
 
 > Turn your crypto assets into real products only with Qoinpay. The main features of Coinpay are:
 >

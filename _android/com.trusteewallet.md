@@ -4,6 +4,7 @@ title: Trustee | crypto & btc wallet
 altTitle: 
 authors:
 - leo
+- danny
 users: 500000
 appId: com.trusteewallet
 appCountry: 
@@ -21,7 +22,7 @@ icon: com.trusteewallet.png
 bugbounty: 
 meta: ok
 verdict: ftbfs
-date: 2023-09-30
+date: 2024-07-24
 signer: 
 reviewArchive:
 - date: 2020-01-24
@@ -44,6 +45,10 @@ developerName: BlockSoft Lab
 features: 
 
 ---
+
+**Update 2024-07-24**
+
+While the [issue we filed](https://github.com/trustee-wallet/trusteeWallet/issues/1) is still open, the repository release is still at v1.51.5. The last response on the issue is still with WalletScrutiny. Meanwhile, the Google Play version is 1.51.10 which was recently updated last June 28, 2024. We are retaining the verdict.
 
 **Update 2023-09-29**: We have not had a look in a long time. While the last
 time we were invited to re-evaluate, it didn't look too good, lets see if things

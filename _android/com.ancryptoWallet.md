@@ -38,7 +38,11 @@ features:
 
 ---
 
-## App Description from Google Play
+## Update 2024-07-24
+
+No significant change regarding source code availability is detected.
+
+## App Description from Google Play 2023-07-01
 
 > AnCrypto is a non-custodial, multi-chain, free, secure and safest digital crypto wallet that enables you to buy, sell, store and swap cryptocurrency across the different blockchain networks. At present, AnCrypto supports 9 blockchains including Bitcoin, Ethereum, Binance, Polygon (Matic), Doge, Tezos, Litecoin, Bitcoin Cash Tron & others.
 

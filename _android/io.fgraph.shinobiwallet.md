@@ -21,7 +21,7 @@ icon: io.fgraph.shinobiwallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-08-15
+date: 2024-07-24
 signer: 
 reviewArchive: 
 twitter: shinobi_wallet
@@ -35,7 +35,11 @@ features:
 
 ---
 
-## App Description from Google Play
+## Update 2024-07-24
+
+Our review has found no proof that the source code for this app is accessible to the public.
+
+## App Description from Google Play 2023-08-15
 
 > Shinobi Wallet is the most secure, easy-to-use, multi-blockchain wallet. Simple yet powerful, Shinobi Wallet comes with all the DeFi functionalities you will ever need to manage your digital assets.
 > 

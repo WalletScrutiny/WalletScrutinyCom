@@ -21,7 +21,7 @@ icon: com.pilab.biport.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-08-07
+date: 2024-07-24
 signer: 
 reviewArchive: 
 twitter: 
@@ -35,7 +35,11 @@ features:
 
 ---
 
-## App Description from Google Play
+## Update 2024-07-24
+
+No indications have been found that this app's source code is available to the public.
+
+## App Description from Google Play 2023-08-07
 
 > Biport Wallet aims to be your go-to-app to access to everything about blockchain. Your crypto assets like Bitcoin(BTC), Ethereum(ETH), Dogecoin(DOGE) and many other ERC20, BEP20, and ERC721 tokens are managed in a single page so that you do not have to switch networks to keep track of your cryptocurrencies scattered far and wide across multiple chains. If you are into NFTs, your Bored Ape Club, Cryptopunk or the equivalent are safe with us on Biport Wallet.
 

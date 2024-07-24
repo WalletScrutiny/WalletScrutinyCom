@@ -21,7 +21,7 @@ icon: io.balancenetwork.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-08-16
+date: 2024-07-24
 signer: 
 reviewArchive: 
 twitter: balancenetwork_
@@ -39,7 +39,11 @@ features:
 
 ---
 
-## App Description from Google Play
+## Update 2024-07-24
+
+The [terms](https://docs.balancenetwork.io/views/About/termsofuse.html) are explicit that it describes all code related to the project as the intellectual property of Balance Network. This app is not source-available.
+
+## App Description from Google Play 2023-08-16
 
 > Balance Wallet is a worldwide cryptocurrency wallet that offers you the best multi-chain wallet practice and is the gateway to Balance Ecosystem for the Balancers. You can send and exchange an extensive range of cryptocurrencies. It is a simple, fast and safe way to store cryptocurrency in blockchain app.
 >
