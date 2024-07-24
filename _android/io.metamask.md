@@ -4,6 +4,7 @@ title: MetaMask - Blockchain Wallet
 altTitle: 
 authors:
 - leo
+- danny
 users: 10000000
 appId: io.metamask
 appCountry: 
@@ -15,17 +16,18 @@ ratings: 57131
 reviews: 5118
 size: 
 website: https://metamask.io
-repository: 
+repository: https://github.com/MetaMask/metamask-mobile
 issue: 
 icon: io.metamask.png
 bugbounty: 
 meta: ok
 verdict: nobtc
-date: 2021-05-01
+date: 2024-07-24
 signer: 
 reviewArchive: 
-twitter: 
+twitter: MetaMask
 social: 
+- https://discord.com/invite/consensys
 redirect_from: 
 developerName: MetaMask Web3 Wallet
 features: 
