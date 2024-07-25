@@ -21,7 +21,7 @@ icon: app.pxq.android.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-08-29
+date: 2024-07-24
 signer: 
 reviewArchive: 
 twitter: 
@@ -32,7 +32,11 @@ features:
 
 ---
 
-## App Description from Google Play
+## Update 2024-07-24
+
+Nothing suggests that they've changed their policy concerning the availability of their code.
+
+## App Description from Google Play 2023-08-29
 
 > Create a secure, easy-to-use, and customizable cryptocurrency wallet with advanced staking options to maximize your digital assets' potential.
 >

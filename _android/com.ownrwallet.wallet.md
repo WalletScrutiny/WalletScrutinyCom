@@ -22,7 +22,7 @@ icon: com.ownrwallet.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-09-20
+date: 2024-07-24
 signer: 
 reviewArchive:
 - date: 2020-12-01
@@ -40,6 +40,12 @@ developerName: OWNR WALLET OU
 features: 
 
 ---
+
+## Update 2024-07-24
+
+There is no indication that this app's source code is publicly available.
+
+We also could not access their webpage. It says that we are blocked.
 
 ## Update 2023-09-20
 

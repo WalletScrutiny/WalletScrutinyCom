@@ -21,7 +21,7 @@ icon: com.sonicwallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-08-30
+date: 2024-07-24
 signer: 
 reviewArchive: 
 twitter: SonicWalletHQ
@@ -36,7 +36,11 @@ features:
 
 ---
 
-## App Description from Google Play
+## Update 2024-07-24
+
+This app is still **not source-available**.
+
+## App Description from Google Play 2023-08-30
 
 > Sonic Wallet is the easiest and safest way to make Global Payments, Earn High Interest (5% - 8% APY) and Buy Cryptocurrencies such as USDC, BitCoin, Ethereum.
 >

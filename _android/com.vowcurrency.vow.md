@@ -21,7 +21,7 @@ icon: com.vowcurrency.vow.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-07-11
+date: 2023-07-24
 signer: 
 reviewArchive: 
 twitter: vowcurrency
@@ -37,7 +37,11 @@ features:
 
 ---
 
-## App Description from Google Play
+## Update 2024-07-24
+
+The app's source code remains not available, with no signs of accessibility.
+
+## App Description from Google Play 2023-07-11
 
 > Vow is a decentralised wallet application which allows you to securely store, send, swap and spend your Vow and Vow currencies. As the official wallet app of the Vow community, it offers full DEX support and the knowledge that all crypto assets are held with your own keys. The wallet supports BTC, ETH, VOW and all Vow currencies.
 

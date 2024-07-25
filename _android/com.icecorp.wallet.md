@@ -21,7 +21,7 @@ icon: com.icecorp.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-08-28
+date: 2024-07-24
 signer: 
 reviewArchive: 
 twitter: icewalofficial
@@ -35,7 +35,11 @@ features:
 
 ---
 
-## App Description from Google Play
+## Update 2024-07-24
+
+Our analysis shows no indication that this app's source code is publicly accessible.
+
+## App Description from Google Play 2023-08-28
 
 > Icewal is a mobile cryptocurrency wallet. Take control of your crypto, NFTs, tokens, and digital assets. It is the easiest way to keep track of your NFT collection, create NFT and swap tokens.
 >

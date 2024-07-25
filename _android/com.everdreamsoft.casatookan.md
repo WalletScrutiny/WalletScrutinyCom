@@ -21,7 +21,7 @@ icon: com.everdreamsoft.casatookan.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-07-17
+date: 2024-07-24
 signer: 
 reviewArchive: 
 twitter: everdreamsoft
@@ -34,6 +34,12 @@ developerName: EverdreamSoft
 features: 
 
 ---
+
+## Update 2024-07-24
+
+There is no indication that this app's source code is available to the public. Searching for the [app ID on GitHub](https://github.com/search?q=%22com.everdreamsoft.casatookan%22&type=code) does not turn out relevant results.
+
+## Review 2023-07-17
 
 > This Bitcoin-Ethereum mobile wallet for blockchain gamers & collectors securely and privately store your digital assets and collections. Your digital estate is protected by a secure 12 words passphrase to ensure you are the only custodian of your digital property.
 >

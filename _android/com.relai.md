@@ -21,7 +21,7 @@ icon: com.relai.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-07-11
+date: 2024-07-24
 signer: 
 reviewArchive: 
 twitter: Relai_app
@@ -36,7 +36,11 @@ features:
 
 ---
 
-## App Description from Google Play
+## Update 2024-07-24
+
+It seems that relai app's Android repository is located [here](https://github.com/ademcan/relai-mobile-app/). However, it hasn't been updated in 5 years. The version on Google Play is version 2.8.12 which was updated on July 15, 2024. We communicated on X with who we determine is the developer of the app and received a response. The app is indeed [hosted in a private repository](https://x.com/_adembilican_/status/1816034453594030234).
+
+## App Description from Google Play 2023-07-11
 
 > You can buy Bitcoin in just a few clicks using your bank account, credit card, debit card, Apple Pay, or Google Pay.
 >

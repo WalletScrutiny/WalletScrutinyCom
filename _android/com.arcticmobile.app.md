@@ -21,7 +21,7 @@ icon: com.arcticmobile.app.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-07-03
+date: 2024-07-24
 signer: 
 reviewArchive: 
 twitter: arctic_wallet
@@ -36,7 +36,13 @@ features:
 
 ---
 
-## App Description from Google Play
+## Update 2024-07-24
+
+This app's source is not available. Taken from their [terms:](https://arcticwallet.io/terms-of-service)
+
+> The Software is licensed to You without charge based on a personal, non-exclusive, royalty-free, non-transferable, non-sublicensable, revocable, worldwide-basis license, for the purpose of accessing and transferring Crypto Assets. You are not permitted to redistribute the Software, modify any code or use any Arctic Wallet’s content, including images and text, as part of any other software or project of any kind. 
+
+## App Description from Google Play 2023-07-03
 
 > Arctic Wallet is a non-custodial crypto wallet built on the principles of decentralization and privacy.
 With Arctic Wallet, you can send, receive and store your crypto safely and securely. Non-custodial means that your private keys are stored only on your device and nowhere else, only you have access to them.

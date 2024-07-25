@@ -21,7 +21,7 @@ icon: com.avaxwallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-07-02
+date: 2024-07-24
 signer: 
 reviewArchive: 
 twitter: coreapp
@@ -38,7 +38,17 @@ features:
 
 ---
 
-## App Description from Google Play
+## Update 2024-07-24
+
+This time around searching for the app ID gave a lot of [GitHub code hits](https://github.com/search?q=%22com.avaxwallet%22&type=code). Mostly being part of bounty hunt database. 
+
+In Ava Labs, [Terms and Conditions:](https://www.avax.network/terms-of-use)
+
+> Unless otherwise indicated, the Site is our proprietary property and all source code, databases, functionality, software, website designs, information, audio, video, text, photographs, and graphics (excluding Third Party Content (as defined below)) on the Site (collectively, the “Content”) and the trademarks, service marks, and logos contained therein (the “Marks”) are owned or controlled by us or licensed to us, and are protected by copyright, trademark and other intellectual property laws and international conventions. You are not permitted to use the Marks without the prior written consent of the owner of the Mark.
+
+That being said, I have not been able to find the repository for the Android app.
+
+## App Description from Google Play 2023-07-02
 
 > ALL AT YOUR FINGERTIPS
 - Self custody your assets so that you are the sole owner and not dependent on anyone else

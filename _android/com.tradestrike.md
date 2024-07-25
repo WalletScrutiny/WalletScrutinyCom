@@ -21,7 +21,7 @@ icon: com.tradestrike.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-06-30
+date: 2024-07-24
 signer: 
 reviewArchive: 
 twitter: TradeStrikeBVI
@@ -38,7 +38,11 @@ features:
 
 ---
 
-## App Description from Google Play
+## Updates 2024-07-24
+
+No change has been noted and no relevant repository has been found when searching for the app ID on GitHub.
+
+## App Description from Google Play 2023-06-30
 
 > The StrikeX Wallet is Multichain, meaning that you don’t need multiple wallets for different chains. Send, receive & hold cryptocurrencies on the Bitcoin, Ethereum, Binance Smart Chain & Solana blockchains in ONE StrikeX Wallet.
 

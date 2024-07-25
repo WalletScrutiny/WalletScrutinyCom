@@ -21,7 +21,7 @@ icon: io.tux.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-08-18
+date: 2024-07-25
 signer: 
 reviewArchive: 
 twitter: Coinyexdotcom
@@ -33,7 +33,11 @@ features:
 
 ---
 
-## App Description from Google Play
+## Update 2024-07-25
+
+Searching for the app ID on Github did not turn out any relevant code or repositories. This app is **not source-available**.
+
+## App Description from Google Play 2023-08-18
 
 > An ultra-secure multi-cryptocurrency wallet that supports BTC, ETH, XRP, ADA and ERC-20 tokens.
 

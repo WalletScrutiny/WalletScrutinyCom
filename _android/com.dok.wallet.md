@@ -21,7 +21,7 @@ icon: com.dok.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-10-06
+date: 2024-07-24
 signer: 
 reviewArchive: 
 twitter: 
@@ -32,7 +32,11 @@ features:
 
 ---
 
-## App Description
+## Update 2024-07-24
+
+We find no evidence that it has changed its policy concerning its source's availability.
+
+## App Description 2023-10-06
 
 > - RESTORE any existing ETH wallet
 > - Easily MANAGE all your crypto assets
