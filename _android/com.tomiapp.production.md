@@ -39,7 +39,7 @@ features:
 
 ## Update 2024-07-24
 
-We have not found any indication that this app's source code is publicly accessible. Nothing has changed with regards to GitHub availability.
+We have not found any indication that this app's source code availability has changed.
 
 ## App Description from Google Play 2023-07-19
 

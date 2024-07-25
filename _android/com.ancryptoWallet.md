@@ -21,7 +21,7 @@ icon: com.ancryptoWallet.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-07-01
+date: 2024-07-24
 signer: 
 reviewArchive: 
 twitter: AnCryptoWallet
