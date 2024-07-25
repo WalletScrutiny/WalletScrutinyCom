@@ -1,6 +1,6 @@
 ---
 wsId: crypterium
-title: 'Сhoise.com: сryptocurrency'
+title: Сhoise.com
 altTitle: 
 authors:
 - leo
@@ -8,12 +8,12 @@ appId: com.Crypterium.Crypterium
 appCountry: 
 idd: 1360632912
 released: 2018-03-26
-updated: 2023-08-31
-version: '3.7'
+updated: 2024-07-22
+version: '6.2'
 stars: 4.2
 reviews: 928
-size: '238629888'
-website: https://cards.crypterium.com/visa
+size: '95895552'
+website: https://choise.com/
 repository: 
 issue: 
 icon: com.Crypterium.Crypterium.jpg

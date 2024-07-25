@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.blocknance.wallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
-date: 2024-03-12
+date: 2024-07-25
 signer: 
 reviewArchive: 
 twitter: blocknanceATM

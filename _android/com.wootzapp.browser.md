@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.wootzapp.browser.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-06-03
+date: 2024-07-25
 signer: 
 reviewArchive: 
 twitter: 

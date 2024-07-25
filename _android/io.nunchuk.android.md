@@ -6,7 +6,7 @@ authors:
 - leo
 - emanuel
 - mohammad
-users: 5000
+users: 10000
 appId: io.nunchuk.android
 appCountry: 
 released: 2021-11-11

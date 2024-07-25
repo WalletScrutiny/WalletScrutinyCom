@@ -8,8 +8,8 @@ users: 5000
 appId: com.coinrepublic.app
 appCountry: 
 released: 2020-12-02
-updated: 2024-07-05
-version: 2.4.6
+updated: 2024-07-24
+version: 2.5.0
 stars: 2.5
 ratings: 
 reviews: 

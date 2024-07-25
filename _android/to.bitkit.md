@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 - basantagoswami
-users: 100
+users: 500
 appId: to.bitkit
 appCountry: 
 released: 2024-06-07

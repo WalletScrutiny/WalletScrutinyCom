@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.denxpro.plus.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2024-03-07
+date: 2024-07-25
 signer: 
 reviewArchive: 
 twitter: 

@@ -7,8 +7,8 @@ users: 100
 appId: org.app.barteos
 appCountry: 
 released: 2021-04-30
-updated: 2024-07-17
-version: 1.0.14
+updated: 2024-07-24
+version: 1.0.15
 stars: 5
 ratings: 
 reviews: 
