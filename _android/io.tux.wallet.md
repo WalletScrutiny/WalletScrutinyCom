@@ -21,7 +21,7 @@ icon: io.tux.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2024-07-24
+date: 2024-07-25
 signer: 
 reviewArchive: 
 twitter: Coinyexdotcom
@@ -33,9 +33,9 @@ features:
 
 ---
 
-## Update 2024-07-24
+## Update 2024-07-25
 
-In its [terms](https://coinyex.com/page/terms-and-conditions), the software is described as part of its intellectual property rights. This is not source-available.
+Searching for the app ID on Github did not turn out any relevant code or repositories. This app is **not source-available**.
 
 ## App Description from Google Play 2023-08-18
 

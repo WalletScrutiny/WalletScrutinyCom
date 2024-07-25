@@ -21,7 +21,7 @@ icon: io.balancenetwork.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2024-07-24
+date: 2024-07-25
 signer: 
 reviewArchive: 
 twitter: balancenetwork_
@@ -41,7 +41,9 @@ features:
 
 ## Update 2024-07-24
 
-The [terms](https://docs.balancenetwork.io/views/About/termsofuse.html) are explicit that it describes all code related to the project as the intellectual property of Balance Network. This app is not source-available.
+A search for the [app ID on GitHub](https://github.com/search?q=io.balancenetwork.wallet&type=code) did not turn out any relevant code or repository.
+
+**This app is not source-available.**
 
 ## App Description from Google Play 2023-08-16
 
