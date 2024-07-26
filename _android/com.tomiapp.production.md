@@ -8,8 +8,8 @@ users: 50000
 appId: com.tomiapp.production
 appCountry: 
 released: 2022-09-08
-updated: 2024-07-20
-version: '111.0'
+updated: 2024-07-24
+version: '112.0'
 stars: 
 ratings: 
 reviews: 

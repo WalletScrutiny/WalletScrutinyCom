@@ -3,7 +3,7 @@ wsId:
 title: Bitaroo Express - Buy Bitcoin
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: au.com.bitaroo.express
 appCountry: 
 released: 
@@ -19,7 +19,7 @@ issue:
 icon: au.com.bitaroo.express.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 
