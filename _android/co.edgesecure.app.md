@@ -23,8 +23,8 @@ icon: co.edgesecure.app.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2024-07-19
-signer: 
+date: 2024-07-26
+signer: 8cd6a12e3dc595964fabcbe82341e28f4a2a4ac6a347fcbead488b76faa7e186
 reviewArchive:
 - date: 2023-10-31
   version: 3.2.0
@@ -62,6 +62,8 @@ features:
 
 **Update 2024-07-19**: 
 
+This review is for version 4.8.0. It has an app hash value of 8cd6a12e3dc595964fabcbe82341e28f4a2a4ac6a347fcbead488b76faa7e186.
+
 1. Using a modified version of Emanuel's [script (for 3.6.0)](https://github.com/EdgeApp/edge-react-gui/issues/1748#issuecomment-1518387292), we successfully built the app. 
 
 2. We then ran: `$ aapt dump badging app-release-universal.apk | grep version*`
@@ -79,26 +81,7 @@ features:
       ```
       package: name='co.edgesecure.app' versionCode='24062402' versionName='4.8.0' compileSdkVersion='34' compileSdkVersionCodename='14'
       ```
-
-4. Next, we check for file-size differences: `$ ls -l app-release-universal.apk co.edgesecure.app_v24062402.apk`
-
-    This showed:
-
-      ```
-      -rw-r--r-- 1 danny danny 86193255 Jul 19 08:40 app-release-universal.apk
-      -rwxr----- 1 danny danny 86201447 Jul 19 08:59 co.edgesecure.app_v24062402.apk
-      ```
-
-    A difference of 8192.
-
-5. Next we checked the sha256sums of both apks: `$ sha256sum app-release-universal.apk co.edgesecure.app_v24062402.apk`
-
-    ```
-    0334ab31584f50fddcf5aa791a1851209545c824df0e827da66544c9f838e168  app-release-universal.apk
-    affec03a55ced83c3cf2cf5ae119de0eade7c35a14dab0c06334522773b7f781  co.edgesecure.app_v24062402.apk
-    ```
-
-6. Next, we created directories for app-release-universal.apk (built) and co.edgesecure.app_v24062402.apk (official) and unzipped their contents, using the unzip command. We then ran a diff, and this was the result:
+4. Next, we created directories for app-release-universal.apk (built) and co.edgesecure.app_v24062402.apk (official) and unzipped their contents, using the unzip command. We then ran a diff, and this was the result:
 
     ```
     $ diff -r built official/
@@ -139,9 +122,9 @@ features:
     Binary files built/resources.arsc and official/resources.arsc differ
     ```
 
-7. As an additional step, we ran `$ apktool d` on each, outputted in separate directories. 
+5. As an additional step, we ran `$ apktool d` on each, outputted in separate directories. 
 
-8. We then ran $ diff -r on the folders with the decompiled apks and [posted it on pastebin](https://pastebin.com/CCzxRWVa)
+6. We then ran $ diff -r on the folders with the decompiled apks and [posted it on pastebin](https://pastebin.com/CCzxRWVa)
 
 Version 4.8.0 is evidently **not-verifiable**
 
