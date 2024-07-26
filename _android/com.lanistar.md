@@ -8,8 +8,8 @@ users: 500000
 appId: com.lanistar
 appCountry: 
 released: 2020-10-18
-updated: 2023-12-07
-version: 2.0.58
+updated: 2024-07-09
+version: 2.0.64
 stars: 2.9
 ratings: 
 reviews: 59

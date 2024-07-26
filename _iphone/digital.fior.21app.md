@@ -8,11 +8,11 @@ appId: digital.fior.21app
 appCountry: lu
 idd: '1579302952'
 released: 2022-03-29
-updated: 2024-06-24
-version: 2.0.24
+updated: 2024-07-24
+version: 2.0.26
 stars: 0
 reviews: 0
-size: '82433024'
+size: '77056000'
 website: https://21bitcoin.app/en/home
 repository: 
 issue: 

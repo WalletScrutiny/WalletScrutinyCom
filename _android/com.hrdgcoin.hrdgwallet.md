@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.hrdgcoin.hrdgwallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
-date: 2023-07-25
+date: 2024-07-17
 signer: 
 reviewArchive: 
 twitter: 

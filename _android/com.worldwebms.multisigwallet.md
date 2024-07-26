@@ -21,7 +21,7 @@ icon: com.worldwebms.multisigwallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-06-10
+date: 2024-07-22
 signer: 
 reviewArchive: 
 twitter: UnidoEP
@@ -32,11 +32,18 @@ social:
 - https://www.reddit.com/user/Unidocore
 - https://discord.com/invite/cs5HeDDmDY
 - https://unidocore.medium.com
+- https://github.com/unidocore
 redirect_from: 
 developerName: WorldWeb Group Pty Ltd
 features: 
 
 ---
+
+## Update 2024-07-22
+
+A quick Google search brought us a '[unidocore](https://github.com/unidocore)' profile on GitHub which links to this app's site and twitter. However none of the repositories were eligible for reproducibility testing. This app's claims will remain **not verifiable.**
+
+## Old Review 2023-06-10
 
 ## App Description from Google Play 
 

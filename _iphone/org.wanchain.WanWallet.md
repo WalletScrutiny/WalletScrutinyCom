@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.wanchain.WanWallet.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
-date: 2023-07-28
+date: 2024-07-17
 signer: 
 reviewArchive: 
 twitter: wanchain_org

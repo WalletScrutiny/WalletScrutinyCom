@@ -21,7 +21,7 @@ icon: io.changex.app.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-07-11
+date: 2024-07-24
 signer: 
 reviewArchive: 
 twitter: ChangeXapp
@@ -38,7 +38,11 @@ features:
 
 ---
 
-## App Description from Google Play
+## Update 2024-07-24
+
+The app's source code availability remains unchanged. There are now [9 results](https://github.com/search?q=%22io.changex.app%22&type=code) when searching for the app ID on GitHub, none of which are related to an Android repository. 
+
+## App Description from Google Play 2023-07-11
 
 > Introducing Changex - the one-stop DeFi wallet for buying, storing, and staking your favorite crypto assets. With the Changex crypto wallet you can easily buy crypto with your national currency, swap for any integrated DeFi token, and earn passive income by staking your assets in the app. With an ever-expanding list of crypto assets and supported blockchains, you can be sure to find your next gem at Changex. Changex has integrated 6 blockchains, including Ethereum, Polygon, and Arbitrum, and a wide array of more than 50 different cryptocurrencies, including popular assets like **BTC**...
 

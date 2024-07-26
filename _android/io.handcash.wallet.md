@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: HandCash
+title: HandCash - Gaming Wallet
 altTitle: 
 authors: 
 users: 100000

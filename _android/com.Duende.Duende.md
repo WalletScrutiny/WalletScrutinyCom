@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.Duende.Duende.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-08-15
+date: 2024-07-19
 signer: 
 reviewArchive: 
 twitter: 

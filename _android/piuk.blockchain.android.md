@@ -4,15 +4,16 @@ title: 'Blockchain.com: Crypto Wallet'
 altTitle: 
 authors:
 - leo
+- danny
 users: 10000000
 appId: piuk.blockchain.android
 appCountry: 
 released: 2013-02-01
-updated: 2024-07-03
-version: 202406.1.3
+updated: 2024-07-10
+version: 202406.2.3
 stars: 3.9
 ratings: 115830
-reviews: 6090
+reviews: 6101
 size: 
 website: https://www.blockchain.com
 repository: https://github.com/blockchain/My-Wallet-V3-Android
@@ -21,7 +22,7 @@ icon: piuk.blockchain.android.png
 bugbounty: https://hackerone.com/blockchain
 meta: ok
 verdict: nosource
-date: 2021-07-15
+date: 2024-07-15
 signer: 87a6e89e2e45848c1ddc43021e95812aae70b0b54c6c320c71db4dff83f7b6a0
 reviewArchive:
 - date: 2020-07-11
@@ -42,6 +43,8 @@ developerName: Blockchain Luxembourg S.A.
 features: 
 
 ---
+
+**Update 2024-07-15**: The repository designated as "My-Wallet-V3-Android" has been taken offline. We asked them why on [twitter](https://x.com/dannybuntu/status/1812775291087134762) and have yet to receive a response. We will continue marking this app as **not source-available** for the meantime.
 
 **Update 2021-07-15**: The app on Play Store is version **8.8.7**. The source
 repository does not contain any such version. The latest version on their GitHub

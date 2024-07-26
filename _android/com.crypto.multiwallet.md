@@ -4,13 +4,14 @@ title: Guarda Crypto Bitcoin Wallet
 altTitle: 
 authors:
 - leo
+- danny
 users: 500000
 appId: com.crypto.multiwallet
 appCountry: 
 released: 2018-11-01
-updated: 2024-06-25
-version: 3.0.67
-stars: 3.2
+updated: 2024-07-17
+version: 3.0.70
+stars: 3.1
 ratings: 3831
 reviews: 531
 size: 
@@ -21,7 +22,7 @@ icon: com.crypto.multiwallet.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2019-12-17
+date: 2024-07-13
 signer: 
 reviewArchive: 
 twitter: GuardaWallet
@@ -37,6 +38,12 @@ developerName: GUARDA
 features: 
 
 ---
+
+## Update 2024-07-13
+
+The repository named [guarda-android-wallets](https://github.com/guardaco/guarda-android-wallets) has been archived in 2021.
+
+## 2019-12-17
 
 This wallet - `com.crypto.multiwallet` according to their applicationId,
 "Moxi wallet" according to the first sentence of their description on Google

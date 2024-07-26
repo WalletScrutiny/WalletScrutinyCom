@@ -4,15 +4,16 @@ title: 'Enjin: Crypto & NFT Wallet'
 altTitle: 
 authors:
 - leo
+- danny
 users: 1000000
 appId: com.enjin.mobile.wallet
 appCountry: 
 released: 2018-01-01
-updated: 2024-05-08
-version: 2.10.26
+updated: 2024-07-10
+version: 2.11.5
 stars: 4.4
 ratings: 12608
-reviews: 1080
+reviews: 1083
 size: 
 website: https://enjin.io/wallet
 repository: 
@@ -21,7 +22,7 @@ icon: com.enjin.mobile.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2022-12-17
+date: 2024-07-20
 signer: 
 reviewArchive: 
 twitter: enjin
@@ -34,6 +35,12 @@ developerName: Enjin Pte. Ltd.
 features: 
 
 ---
+
+## Update 2024-07-20
+
+There have been no updates regarding the public release of its source code.
+
+## Review 2022-12-17
 
 Enjin: Blockchain & Crypto Wallet
 description starts promising:

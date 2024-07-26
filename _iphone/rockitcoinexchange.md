@@ -11,7 +11,7 @@ released: 2019-09-18
 updated: 2024-07-02
 version: 3.5.0
 stars: 3.2
-reviews: 134
+reviews: 133
 size: '72205312'
 website: https://rockitcoin.com
 repository: 

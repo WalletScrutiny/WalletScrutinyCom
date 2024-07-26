@@ -9,11 +9,11 @@ users: 100000
 appId: co.decrypt.app
 appCountry: 
 released: 2020-05-06
-updated: 2023-11-27
-version: 4.0.0
+updated: 2024-07-18
+version: 5.0.0
 stars: 4
 ratings: 2220
-reviews: 217
+reviews: 218
 size: 
 website: https://decrypt.co/
 repository: 

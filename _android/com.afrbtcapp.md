@@ -8,11 +8,11 @@ users: 100000
 appId: com.afrbtcapp
 appCountry: 
 released: 2019-05-05
-updated: 2023-11-13
-version: 4.1.2
-stars: 3.7
+updated: 2024-07-12
+version: 4.2.2
+stars: 3.8
 ratings: 
-reviews: 117
+reviews: 116
 size: 
 website: https://www.afrbtc.com
 repository: 

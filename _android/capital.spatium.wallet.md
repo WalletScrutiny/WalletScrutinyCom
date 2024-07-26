@@ -22,18 +22,36 @@ icon: capital.spatium.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-11-17
+date: 2024-07-17
 signer: 
 reviewArchive: 
 twitter: spatium_news
 social:
 - https://www.linkedin.com/company/spatium-capital
 - https://www.facebook.com/spatiumnews
+- https://github.com/CaspianTechnologies
 redirect_from: 
 developerName: CaspianTechnologies
 features: 
 
 ---
+
+## Update 2024-07-17
+
+The [Terms and Condition's](https://spatium.net/terms-and-conditions) wording has been updated since the last review:
+
+> All content included in or made available through the Site or any related content, materials and information such as text, graphics, logos, button icons, images, audio clips, digital downloads, data compilations is the property of CASPIAN TECHNOLOGIES PTE LTD (Singapore) or its affiliates or its content providers and protected by international copyright laws.  
+
+> You agree you will not copy, transmit, distribute, sell, license, reverse engineer, modify, publish, or participate in the transfer or sale of, create derivative works from, or in any other way exploit any of the content, in whole or in part without the prior written consent of CASPIAN TECHNOLOGIES PTE LTD (Singapore).
+>
+> We grant You a limited, personal, non-exclusive, non-transferable license to access the Site and to use the content, solely for personal, internal, and non-commercial purposes. Any right not expressly granted to You in this Terms are hereby reserved by CASPIAN TECHNOLOGIES PTE LTD (Singapore) and its affiliates and licensors.
+>
+> You may not use or exploit any marks without prior written consent from CASPIAN TECHNOLOGIES PTE LTD (Singapore).
+
+However, we assume the app itself remains closed source. We found a Github profile with the provider's name: [@CaspianTechnologies](https://github.com/CaspianTechnologies) 
+No source code for the app was to be found. Any claims this app has made concerning security are therefore **not verifiable.**
+
+## Old Review 2021-11-17
 
 ## App Description
 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.capitalsecurities.liqx.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosendreceive
-date: 2023-05-13
+date: 2024-07-25
 signer: 
 reviewArchive: 
 twitter: 

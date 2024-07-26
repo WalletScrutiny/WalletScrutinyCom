@@ -8,11 +8,11 @@ users: 100000
 appId: io.exnovin.app
 appCountry: 
 released: 2020-12-12
-updated: 2024-04-29
-version: 2.10.8
+updated: 2024-07-15
+version: 2.10.9
 stars: 3.9
 ratings: 930
-reviews: 23
+reviews: 24
 size: 
 website: https://exnovin.io
 repository: 

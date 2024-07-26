@@ -1,48 +1,43 @@
-2024-06-23:
-- _android/com.necen.coinpara.react
-- _android/com.nouroeddinne.miner.bitcoin.free
-- _android/fi.steakwallet.app
-- _android/io.kitefinancial.wallet
-- _android/sc.elitewallet.elitewallet
-- _iphone/com.eqifi.management.Eqifi
-- _iphone/com.ramzingate.ramzingate
-- _iphone/io.blockstream.green
-- _iphone/io.kamix.app
-- _iphone/io.klever.secure.exchange
-2024-06-29:
-- _android/ch.smd.icynote
-- _android/com.app.foxexchangeapp
-- _android/com.krypto
-- _android/com.profx.mining
-- _android/com.renasnce.byt
-- _android/com.richamster.app
-- _android/glim.network
-- _android/io.bytrade
-- _iphone/com.airtimedatahub.ios
-- _iphone/com.andinadefi.defiant
-- _iphone/com.cryptoxpress.mobile
-- _iphone/com.dex-trade.ios
-- _iphone/mn.telexa.app.www
-2024-07-01:
-- _iphone/com.CapiteraAG.Welthee
-- _iphone/com.brilliantts.fuzeW
-- _iphone/com.ghbglobal.ghbwalletios
-- _iphone/com.visionsoftware.vision
-- _iphone/net.iconomi.iconomi
-- _iphone/vn.beedu.blockchain
-2024-07-03:
-- _android/com.Duende.Duende
-- _android/com.litewallet.app
-- _android/com.xsjys.bbtc.cdex
-- _android/com.xsjys.bbtc
-- _android/io.livewallet.android
-- _android/org.nativescript.knakenhybridapp
-2024-07-05:
-- _android/com.aex.exchanges
-- _android/com.capitalsecurities.liqx
-- _android/com.coinme
-- _android/com.paed.paed
-- _iphone/app.yield
-- _android/com.yieldapp_mobile
-- _android/io.gigexchage.crypto
-- _iphone/com.namicorp.exchange
+2024-07-14:
+- _android/com.app.fxschool_ai
+- _android/com.herufinance
+- _android/com.infinitywalletapp
+- _android/com.koinwatech.koinwa
+- _android/com.moolre.moolreandroid
+- _android/com.spaceground
+- _android/com.wallet.dex
+- _android/io.sevenb.terminal
+- _iphone/co.hodlwallet
+- _iphone/com.moolre.moolreios
+- _iphone/com.tabank
+- _iphone/com.tokenomy.app
+- _iphone/com.vowcurrency.vow
+- _iphone/dev.com.gleecexchange.app
+2024-07-17:
+- _android/com.EkoWallet
+- _android/com.tmc.wallet
+- _iphone/com.savita.savitaapp
+- _iphone/com.trusteewallet
+2024-07-19:
+- _android/com.metatech.moonfarm
+- _android/finance.a4.mobile
+- _android/trade.aleairpay.com
+- _iphone/com.metatech.moonfarm
+2024-07-22:
+- _android/com.alfacash.alfacashier.alfacash
+- _android/com.cryptoswisshub
+- _android/com.digivault.authenticator
+- _android/com.jax.peaceWallet
+- _android/com.numiner.nuwallet
+- _android/me.bvault.app
+- _iphone/com.dexfin.mpcwallet
+- _iphone/com.quadency.app
+2024-07-23:
+- _android/com.natiol.infinity.io
+- _android/com.oasisexcflutter.app
+- _iphone/io.kryll.app
+2024-07-25:
+- _android/com.app.imanifamilycapitallimited
+2024-07-26:
+- _android/app.vipsats.vipsats
+- _iphone/co.zoomex.app

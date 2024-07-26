@@ -21,7 +21,7 @@ icon: org.talkapp.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-06-01
+date: 2024-07-22
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,6 +31,12 @@ developerName: Bull.B Technology Limited
 features: 
 
 ---
+
+## Update 2024-07-22
+
+Another search for the TALK+ source code yielded no results. This app is **not verifiable.**
+
+## Old Review 2023-06-01
 
 ## App Description from Google Play 
 

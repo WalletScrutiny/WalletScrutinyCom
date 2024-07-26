@@ -1,6 +1,6 @@
 ---
 wsId: elDoradoWalletExchange
-title: El Dorado | USDT TRC20 Wallet
+title: El Dorado P2P
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: io.eldorado.app
 appCountry: 
 released: 2022-04-19
-updated: 2024-06-20
-version: 1.3.944
-stars: 4.8
+updated: 2024-07-16
+version: 1.3.982
+stars: 4.9
 ratings: 
-reviews: 209
+reviews: 223
 size: 
 website: https://eldorado.io
 repository: 

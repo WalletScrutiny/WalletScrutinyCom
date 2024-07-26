@@ -21,7 +21,7 @@ icon: defisuisse.thorwallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-06-30
+date: 2024-07-24
 signer: 
 reviewArchive: 
 twitter: THORWalletDEX
@@ -35,7 +35,11 @@ features:
 
 ---
 
-## App Description from Google Play
+## Update 2024-07-24
+
+No change has been noted regarding this app's source availability.
+
+## App Description from Google Play 2023-06-30
 
 > - It is a non-custodial wallet.
 >

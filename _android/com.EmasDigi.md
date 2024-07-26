@@ -9,10 +9,10 @@ appId: com.EmasDigi
 appCountry: 
 released: 2018-01-21
 updated: 2024-06-28
-version: 5.7.0
-stars: 4.2
+version: 5.7.1
+stars: 4.1
 ratings: 27168
-reviews: 113
+reviews: 114
 size: 
 website: https://pluang.com
 repository: 

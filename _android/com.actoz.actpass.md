@@ -4,12 +4,12 @@ title: ActPass Wallet
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.actoz.actpass
 appCountry: 
 released: 2022-11-29
-updated: 2024-06-24
-version: 1.4.6
+updated: 2024-07-23
+version: 1.4.7
 stars: 4.2
 ratings: 
 reviews: 

@@ -7,7 +7,7 @@ authors:
 - Mohammad Rafigh
 - leo
 - danny
-users: 100000
+users: 500000
 appId: io.bluewallet.bluewallet
 appCountry: 
 released: 2018-11-01
@@ -15,7 +15,7 @@ updated: 2024-06-28
 version: 6.6.8
 stars: 3.7
 ratings: 1810
-reviews: 319
+reviews: 321
 size: 
 website: https://bluewallet.io
 repository: https://github.com/bluewallet/bluewallet

@@ -4,15 +4,16 @@ title: Bridge Wallet
 altTitle: 
 authors:
 - leo
+- danny
 users: 50000
 appId: com.mtpelerin.bridge
 appCountry: us
 released: 2020-04-07
-updated: 2024-07-05
-version: '1.41'
+updated: 2024-07-09
+version: '1.44'
 stars: 4
 ratings: 178
-reviews: 23
+reviews: 24
 size: 
 website: https://www.mtpelerin.com/bridge-wallet
 repository: 
@@ -21,7 +22,7 @@ icon: com.mtpelerin.bridge.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2020-12-27
+date: 2024-07-13
 signer: 
 reviewArchive: 
 twitter: mtpelerin
@@ -35,6 +36,14 @@ developerName: Mt Pelerin Group SA
 features: 
 
 ---
+
+## Update 2024-07-13 
+
+The provider's GitHub account appears to be [here](https://github.com/MtPelerin). 
+
+It has not made the source available for its Android app.
+
+## Review 2020-12-27
 
 On Google Play they claim
 

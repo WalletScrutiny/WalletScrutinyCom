@@ -10,9 +10,9 @@ appCountry:
 released: 2016-12-28
 updated: 2019-09-30
 version: 3.0.10
-stars: 4
+stars: 3.9
 ratings: 1690
-reviews: 133
+reviews: 134
 size: 
 website: http://cindicator.com
 repository: 

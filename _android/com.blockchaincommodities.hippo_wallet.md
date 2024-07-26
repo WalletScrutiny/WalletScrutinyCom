@@ -21,7 +21,7 @@ icon: com.blockchaincommodities.hippo_wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-06-29
+date: 2024-07-24
 signer: 
 reviewArchive: 
 twitter: HippoWallet
@@ -41,7 +41,11 @@ features:
 
 ---
 
-## App Description from Google Play
+## Update 2024-07-24
+
+No change has been noted regarding the availability for this app's source code. 
+
+## App Description from Google Play 2023-06-29
 
 > Hippo Wallet is a universal non-custodial app for cryptocurrencies. Send, receive and store your cryptocurrencies in one secure wallet. You can import and generate your crypto wallets safely with the Hippo Wallet mobile app. Hippo Wallet provides a secure system that makes it simple to work with multiple cryptocurrencies on your device. Manage your cryptocurrencies, with more coins and tokens being added along with additional wallet capabilities in the future!
 >

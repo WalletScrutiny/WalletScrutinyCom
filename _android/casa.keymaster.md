@@ -4,12 +4,13 @@ title: 'Casa: Bitcoin & Crypto Wallet'
 altTitle: 
 authors:
 - leo
+- danny
 users: 10000
 appId: casa.keymaster
 appCountry: 
 released: 2019-03-01
-updated: 2024-07-02
-version: 4.23.1
+updated: 2024-07-19
+version: 4.26.0
 stars: 4.8
 ratings: 204
 reviews: 25
@@ -21,7 +22,7 @@ icon: casa.keymaster.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-05-22
+date: 2024-07-15
 signer: 
 reviewArchive: 
 twitter: CasaHODL
@@ -33,6 +34,10 @@ developerName: CasaInc
 features: 
 
 ---
+
+**Update 2024-07-15**
+
+No changes in source code policy has been observed.
 
 **Update 2020-12-03**: This app is not obfuscated. Anybody can decompile at
 least version `2.27.10` and inspect the code or modify it to compile it back

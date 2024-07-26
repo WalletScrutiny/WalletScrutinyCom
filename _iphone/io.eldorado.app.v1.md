@@ -8,11 +8,11 @@ appId: io.eldorado.app.v1
 appCountry: ve
 idd: '1591303547'
 released: 2022-04-20
-updated: 2024-06-18
-version: 1.3.942
+updated: 2024-07-19
+version: 1.3.982
 stars: 4.9
-reviews: 1986
-size: '79343616'
+reviews: 2129
+size: '79875072'
 website: https://eldorado.io/
 repository: 
 issue: 

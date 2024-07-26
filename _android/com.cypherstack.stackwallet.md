@@ -8,8 +8,8 @@ users: 5000
 appId: com.cypherstack.stackwallet
 appCountry: 
 released: 2024-05-13
-updated: 2024-06-28
-version: 2.1.1
+updated: 2024-07-18
+version: 2.1.3
 stars: 
 ratings: 
 reviews: 

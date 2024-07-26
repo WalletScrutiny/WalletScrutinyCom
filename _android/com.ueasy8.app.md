@@ -4,15 +4,15 @@ title: UEEx
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.ueasy8.app
 appCountry: 
 released: 2021-12-28
 updated: 2024-06-06
 version: 4.1.6
-stars: 
+stars: 3
 ratings: 
-reviews: 
+reviews: 6
 size: 
 website: 
 repository: 

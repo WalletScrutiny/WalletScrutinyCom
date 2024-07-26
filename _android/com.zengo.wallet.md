@@ -5,15 +5,16 @@ altTitle:
 authors:
 - leo
 - emanuel
+- danny
 users: 500000
 appId: com.zengo.wallet
 appCountry: 
 released: 2020-01-19
-updated: 2024-06-13
-version: 7.12.1
+updated: 2024-07-18
+version: 7.12.3
 stars: 4.5
 ratings: 3936
-reviews: 497
+reviews: 500
 size: 
 website: https://www.zengo.com
 repository: https://www.github.com/kzen-networks
@@ -22,7 +23,7 @@ icon: com.zengo.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2020-06-18
+date: 2024-07-13
 signer: 
 reviewArchive: 
 twitter: zengo
@@ -34,6 +35,10 @@ developerName: ZenGo
 features: 
 
 ---
+
+**Update 2024-07-13:**
+
+No changes have been observed concerning this app's source code availability.
 
 **Update 2021-03-08:** As
 [Emanuel mentioned here](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/158),

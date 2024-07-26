@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.richamster.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-06-20
+date: 2024-07-14
 signer: 
 reviewArchive: 
 twitter: Richamster_com

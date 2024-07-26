@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.tokenize.exchange.trading.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-11-08
+date: 2024-07-25
 signer: 
 reviewArchive: 
 twitter: TokenizeXchange

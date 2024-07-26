@@ -10,7 +10,7 @@ appCountry:
 released: 2022-12-05
 updated: 2024-06-18
 version: VARY
-stars: 
+stars: 4.8
 ratings: 
 reviews: 
 size: 
@@ -21,7 +21,7 @@ icon: ammer.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-07-20
+date: 2024-07-24
 signer: 
 reviewArchive: 
 twitter: AmmerCards
@@ -34,7 +34,11 @@ features:
 
 This app is used in conjunction with the {% include walletLink.html wallet='hardware/ammer.cards' verdict='true' %}.
 
-## App Description from Google Play
+## Update 2024-07-24
+
+We did not find any evidence that the source code for this app is publicly available.
+
+## App Description from Google Play 2023-07-20
 
 > Ammer Wallet is a secure, non-custodial, multi-asset wallet app that allows you to easily manage your digital assets as well as fully use crypto for everyday shopping.
 >

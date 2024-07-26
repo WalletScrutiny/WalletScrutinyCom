@@ -4,6 +4,7 @@ title: 'ShapeShift: Crypto Platform'
 altTitle: 
 authors:
 - leo
+- danny
 users: 500000
 appId: com.shapeshift.droid_shapeshift
 appCountry: 
@@ -15,24 +16,40 @@ ratings: 2913
 reviews: 510
 size: 
 website: https://ShapeShift.com
-repository: 
+repository: https://github.com/shapeshift/mobile-app
 issue: 
 icon: com.shapeshift.droid_shapeshift.png
 bugbounty: 
 meta: ok
-verdict: nosource
-date: 2021-05-23
+verdict: wip
+date: 2024-07-15
 signer: 
 reviewArchive: 
 twitter: ShapeShift_io
 social:
 - https://www.facebook.com/ShapeShiftPlatform
+- https://www.instagram.com/shapeshift_io
+- https://www.youtube.com/channel/UCrZ2Ml63kLwZJ6amqoGaZeQ
+- https://t.me/shapeshiftofficial
 redirect_from:
 - /com.shapeshift.droid_shapeshift/
 developerName: ShapeShift.com
 features: 
 
 ---
+
+## Update 2024-07-15
+
+An [announcement](https://shapeshift.com/newsroom/shapeshift-releases-new-and-improved-mobile-app-and-migrates-legacy-users) was made on October 19, 2022 regarding ShapeShift's app:
+
+> “In addition to the numerous improvements and new features, the new mobile app is fully open-source and the only backend is blockchain data一which we are actively working to decentralize with FOXChain. ShapeShift DAO is dedicated to building the best interface to the decentralized universe, and with new wallets, chains, and protocols being added each week, the vision is coming together. However, for this vision to fully come to fruition, the interface can’t just exist on the web; it must be available on mobile too.” - Willy Ogorzaly
+
+- We confirmed the app has a Bitcoin wallet that can send/receive.
+- It provided the 12-word seed phrases
+- We confirmed the existence of its [GitHub repository](https://github.com/shapeshift/mobile-app) for the mobile app.
+- This app is due **for verification**.
+
+## Review 2021-05-23
 
 ShapeShift is best known for their non-custodial exchange but this app appears
 to be a wallet:

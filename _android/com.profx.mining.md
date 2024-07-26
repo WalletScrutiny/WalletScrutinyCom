@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.profx.mining.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-09-04
+date: 2024-07-14
 signer: 
 reviewArchive: 
 twitter: 

@@ -8,11 +8,11 @@ users: 50000
 appId: com.smartwallet.app
 appCountry: 
 released: 2023-02-10
-updated: 2024-06-13
-version: 1.17.1
+updated: 2024-07-23
+version: 1.17.3
 stars: 4.9
 ratings: 
-reviews: 72
+reviews: 74
 size: 
 website: https://www.echooo.xyz/
 repository: 
@@ -21,7 +21,7 @@ icon: com.smartwallet.app.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-06-29
+date: 2024-07-24
 signer: 
 reviewArchive: 
 twitter: echooo_wallet
@@ -34,7 +34,18 @@ features:
 
 ---
 
-## App Description from Google Play
+## Update 2024-07-24
+
+We searched [GitHub for the appId](https://github.com/search?q=%22com.smartwallet.app%22&type=code), "com.smartwallet.app", but did not find any relevant repository. On their website they claim that: 
+
+> Open Source and Rigorous Audits
+>
+> The smart contracts of the Echooo wallet have undergone exhaustive reviews by multiple reputable third-party institutions to ensure the absolute security of user private keys.
+>
+
+I suggested changing the wording on their site [on X](https://x.com/dannybuntu/status/1815932856239108365), as the header gives the impression that the entire project is Open Source. 
+
+## App Description from Google Play 2023-06-29
 
 > Echooo is a decentralized self-custodial MPC&AA smart contract wallet app that supports multi-signature and social recovery. The multi-signature mechanism ensures security while significantly reducing transaction costs through Echooo's unique AI-driven technology architecture, combined with the zkSync layer2 network. Echooo uses the ERC-4337 standard and continuously optimizes account abstraction, so as to deliver a better user experience and a seamless transition from Web2 to Web3 for more users.
 >

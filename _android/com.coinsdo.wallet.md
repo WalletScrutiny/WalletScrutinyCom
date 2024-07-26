@@ -10,9 +10,9 @@ appCountry:
 released: 2022-06-26
 updated: 2024-07-03
 version: 1.1.30
-stars: 4.5
+stars: 4.6
 ratings: 
-reviews: 80
+reviews: 81
 size: 
 website: https://www.coinsdo.com
 repository: 
@@ -21,7 +21,7 @@ icon: com.coinsdo.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-06-23
+date: 2024-07-24
 signer: 
 reviewArchive: 
 twitter: coinsdogroup
@@ -34,7 +34,11 @@ features:
 
 ---
 
-## App Description by Provider 
+## Update 2024-07-24
+
+Nothing has changed in this app's repository. It is still **not source-available** despite the Google Play app, being recently updated.
+
+## App Description by Provider 2023-06-23
 
 > CoinWallet is a decentralized, non-custodial wallet developed independently by CoinsDo. It solely manages your private key and does not host or engage in buying, selling, exchanging, or trading. CoinWallet has launched a new feature that leverages the Trusted Shards Computation (TSC) algorithm for collaborative digital asset management.
 >

@@ -8,11 +8,11 @@ users: 100000
 appId: com.fusion.chainge.android
 appCountry: us
 released: 2021-05-17
-updated: 2024-07-04
-version: 0.7.7
+updated: 2024-07-25
+version: 0.7.8
 stars: 3.7
 ratings: 8141
-reviews: 62
+reviews: 63
 size: 
 website: https://chainge.finance
 repository: 
@@ -21,7 +21,7 @@ icon: com.fusion.chainge.android.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-10-21
+date: 2024-07-16
 signer: 
 reviewArchive: 
 twitter: FinanceChainge
@@ -34,7 +34,11 @@ features:
 
 ---
 
-## App Description
+## Update 2024-07-16
+
+We did not find any change regarding the public availability of its source code. A search for the app ID ["com.fusion.chainge.android" on GitHub](https://github.com/search?q=%22com.fusion.chainge.android%22&type=code), did not show any Android related repositories.
+
+## App Description 2021-10-21
 
 > Chainge is a Defi app that aims to empower people from all corners of the world to become their own digital bank. With Chainge’s automated financial services, users will have complete control over their wealth while enjoying 100% freedom & security.
 

@@ -8,11 +8,11 @@ appId: com.bitazza.ios
 appCountry: th
 idd: 1476944844
 released: 2020-05-25
-updated: 2024-06-26
-version: 3.7.9
+updated: 2024-07-18
+version: 3.7.11
 stars: 4.2
-reviews: 1202
-size: '175384576'
+reviews: 1267
+size: '175576064'
 website: https://www.bitazza.com
 repository: 
 issue: 

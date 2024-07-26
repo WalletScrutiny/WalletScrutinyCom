@@ -8,11 +8,11 @@ users: 1000000
 appId: com.elrond.maiar.wallet
 appCountry: us
 released: 2021-01-15
-updated: 2024-06-28
-version: 2.6.0
+updated: 2024-07-19
+version: 2.10.0
 stars: 4.8
 ratings: 6106
-reviews: 317
+reviews: 323
 size: 
 website: https://xportal.com/
 repository: 
@@ -21,7 +21,7 @@ icon: com.elrond.maiar.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-08-27
+date: 2024-07-15
 signer: 
 reviewArchive: 
 twitter: getMaiar
@@ -33,6 +33,12 @@ developerName: xPortal Labs
 features: 
 
 ---
+
+## Update 2024-07-15
+
+Elrond Maiar is related to xPortal and to MultiversX. The project has 263 repositories, and the closest we could find that is [remotely related](https://github.com/multiversx/wallet-core) to an Android app is a fork of Trust Wallet that was last updated in 2022. If this is the repository for the android app then this is not in sync with the Google Play version which is now at 2.8.0. The probable GitHub repository "[wallet-core](https://github.com/multiversx/wallet-core)" only has tags up to version 2.1.0. This means that the app does **not really have its source code available**.
+
+## Review 2021-08-27
 
 > Maiar is a digital wallet and global payments app that is reimagining the way we interact with money, allowing you to exchange and securely store crypto on your mobile phone.
 

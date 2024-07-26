@@ -21,18 +21,26 @@ icon: digital.awallet.app.gp.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-06-12
+date: 2024-07-22
 signer: 
 reviewArchive: 
 twitter: 
-social: 
+social:
+- https://awallet.digital/
 redirect_from: 
 developerName: Metaverse Network LLC
 features: 
 
 ---
 
-## App Description from Google Play 
+## Update 2024-07-22
+
+A search for the appID {{page.appId}} on [Github](https://github.com/search?q=digital.awallet.app.gp&type=code) did not yield any relevant results.
+
+This app is not open source and **not verifiable.**
+
+
+## Old Review 2023-06-12
 
 > AWallet is designed to allow users to manage digital encrypted assets easily and enjoy the blockchain world. it supports the mainstream public chains such as Bitcoin, Ethereum, Polkadot, BSC, Heco, OEC and their token assets. Hundreds of DApps such as BSC, Heco , OK, NFT, etc. have been launched on AWallet's DApp zone, covering many application scenarios such as DeFi, DEX, NFT, games, mining, and data, leading users to experience the latest DApps.
 

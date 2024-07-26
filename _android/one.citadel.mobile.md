@@ -21,7 +21,7 @@ icon: one.citadel.mobile.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2022-12-08
+date: 2024-07-17
 signer: 
 reviewArchive: 
 twitter: CitadelDAO
@@ -37,6 +37,15 @@ developerName: Citadel.one
 features: 
 
 ---
+
+## Update 2024-07-17
+
+2 years on, we find [no relevant code](https://github.com/search?q=%22one.citadel.mobile%22&type=code) that points to the Android app. An [issue](https://github.com/citadeldao/citadel-frontend/issues/1) filed on behalf of WalletScrutiny, has resulted in a promise - but sadly, the promise goes unfulfilled.
+
+> Hello. Mobile application of integration the polkadot network will be ready after 2-3 weeks. Application in the process of testing. We are preparing the code of the app to publish in github.
+Thanks!
+
+No updates are noted thereafter. This app is still **not source-available**.
 
 ## Updated verdict 2022-12-08
 

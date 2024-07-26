@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: vn.beedu.blockchain.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-07-08
+date: 2024-07-17
 signer: 
 reviewArchive: 
 twitter: LynKey_

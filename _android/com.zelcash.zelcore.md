@@ -4,15 +4,16 @@ title: Zelcore - Crypto Wallet
 altTitle: 
 authors:
 - leo
+- danny
 users: 100000
 appId: com.zelcash.zelcore
 appCountry: 
 released: 2018-09-21
-updated: 2024-06-23
-version: 8.3.0
+updated: 2024-07-16
+version: 8.3.1
 stars: 3.5
 ratings: 834
-reviews: 131
+reviews: 133
 size: 
 website: https://zelcore.io
 repository: 
@@ -21,7 +22,7 @@ icon: com.zelcash.zelcore.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2020-04-07
+date: 2024-07-13
 signer: 
 reviewArchive: 
 twitter: zelcash
@@ -34,6 +35,12 @@ developerName: Zelcore Technologies Inc
 features: 
 
 ---
+
+## Update 2024-07-13
+
+No change regarding source-availability has been found.
+
+## 2020-04-07
 
 This application claims on their Google Play description:
 

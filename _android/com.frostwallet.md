@@ -8,8 +8,8 @@ users: 5000
 appId: com.frostwallet
 appCountry: 
 released: 2022-02-01
-updated: 2024-06-20
-version: 2.5.10
+updated: 2024-07-20
+version: 2.5.11
 stars: 4.3
 ratings: 
 reviews: 1
@@ -21,7 +21,7 @@ icon: com.frostwallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-07-19
+date: 2024-07-24
 signer: 
 reviewArchive: 
 twitter: 
@@ -34,7 +34,11 @@ features:
 
 ---
 
-## App Description from Google Play
+## Update 2024-07-24
+
+There is no evidence to suggest that this app's source code is publicly available.
+
+## App Description from Google Play 2023-07-19
 
 > Frost Wallet is a secure, decentralised cryptocurrency wallet from the TrustPool mining pool team. The app is non-custodial - your data is stored on the device where the app is installed, not on a shared server.
 

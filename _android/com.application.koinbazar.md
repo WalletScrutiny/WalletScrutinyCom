@@ -8,11 +8,11 @@ users: 100000
 appId: com.application.koinbazar
 appCountry: in
 released: 2021-05-17
-updated: 2024-05-21
-version: 3.0.34
+updated: 2024-07-15
+version: 3.0.42
 stars: 3.5
 ratings: 7090
-reviews: 2886
+reviews: 2896
 size: 
 website: https://koinbx.com/
 repository: 

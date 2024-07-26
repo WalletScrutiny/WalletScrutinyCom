@@ -12,7 +12,7 @@ updated: 2024-06-25
 version: 2.1.7
 stars: 4.4
 ratings: 
-reviews: 60
+reviews: 59
 size: 
 website: https://webauth.com/
 repository: 
@@ -21,7 +21,7 @@ icon: com.metallicus.webauth.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-07-06
+date: 2024-07-24
 signer: 
 reviewArchive: 
 twitter: protonxpr
@@ -36,7 +36,11 @@ features:
 
 ---
 
-## App Description from Google Play
+## Updates 2024-07-24
+
+No changes in the availability of the source is found. This app is still **not source-available.**
+
+## App Description from Google Play 2023-07-06
 
 > This app allows you to participate directly in the Proton ecosystem by staking XPR, earning block rewards, voting for block producers, and so much more. Verify your identity and gain access to new features, including cryptocurrency swapping and the ability to interact with different platforms and games that run on Proton!
 >

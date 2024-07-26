@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ramzingate.ramzingate.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
-date: 2024-02-24
+date: 2024-07-10
 signer: 
 reviewArchive: 
 twitter: 

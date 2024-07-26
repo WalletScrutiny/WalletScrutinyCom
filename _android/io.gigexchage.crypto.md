@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.gigexchage.crypto.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2024-04-21
+date: 2024-07-22
 signer: 
 reviewArchive: 
 twitter: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.arzjoo.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2020-11-16
+date: 2024-07-22
 signer: 
 reviewArchive: 
 twitter: arzjoo

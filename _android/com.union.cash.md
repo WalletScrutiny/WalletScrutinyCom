@@ -10,9 +10,9 @@ appCountry:
 released: 2021-06-25
 updated: 2024-06-04
 version: 1.3.5
-stars: 
+stars: 4.8
 ratings: 
-reviews: 
+reviews: 3
 size: 
 website: http://www.union.cash/
 repository: 

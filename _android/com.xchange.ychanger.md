@@ -14,7 +14,7 @@ stars: 4
 ratings: 
 reviews: 
 size: 
-website: https://ychanger.net/
+website: https://ychanger.org/
 repository: 
 issue: 
 icon: com.xchange.ychanger.png

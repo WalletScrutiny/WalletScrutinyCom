@@ -8,8 +8,8 @@ users: 1000
 appId: com.prodoge.prodoge
 appCountry: 
 released: 2019-09-17
-updated: 2023-03-11
-version: 3.3.3
+updated: 2024-07-19
+version: '3.35'
 stars: 5
 ratings: 
 reviews: 5
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.prodoge.prodoge.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nosource
-date: 2024-03-07
+date: 2024-07-25
 signer: 
 reviewArchive: 
 twitter: 

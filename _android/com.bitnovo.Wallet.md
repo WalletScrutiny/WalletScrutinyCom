@@ -21,7 +21,7 @@ icon: com.bitnovo.Wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-11-30
+date: 2024-07-17
 signer: 
 reviewArchive: 
 twitter: bitnovo
@@ -33,6 +33,16 @@ developerName: BITNOVO
 features: 
 
 ---
+
+## Update 2024-07-17:
+
+Still states it's self-custodial:
+
+> The key differentiator from any other app is that our wallet allows you to be the custodian and sole owner of your funds. As the popular saying goes: 'not your keys, not your coins.'
+
+There is a [GitHub profile](https://github.com/bitnovo). Source code remains to be found. 
+
+## Old Review 2021-11-30
 
 **Note:** There are two BitNovo apps on Google Play. Both are by the same developer: [Bitnovo](https://play.google.com/store/apps/developer?id=BITNOVO)
 

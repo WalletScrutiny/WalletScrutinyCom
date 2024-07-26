@@ -17,9 +17,9 @@ repository:
 issue: 
 icon: se.blockfirm.Pine.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2023-07-17
+date: 2024-07-10
 signer: 
 reviewArchive: 
 twitter: 

@@ -21,7 +21,7 @@ icon: app.coinhubatm.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-08-28
+date: 2024-07-24
 signer: 
 reviewArchive: 
 twitter: Coinhubusa
@@ -36,7 +36,11 @@ features:
 
 ---
 
-## Notes on similar apps 
+## Update 2024-07-24
+
+This app is still not source-available.
+
+## Notes on similar apps 2023-08-28
 
 Many apps share the same name of CoinHub, found in different parts of the world. Apart from the name, they have different branding identities and countries of origin. Here we note some of them: 
 

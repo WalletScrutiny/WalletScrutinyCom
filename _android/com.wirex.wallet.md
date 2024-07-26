@@ -8,8 +8,8 @@ users: 500000
 appId: com.wirex.wallet
 appCountry: nz
 released: 2021-12-03
-updated: 2024-06-19
-version: 0.5.18
+updated: 2024-07-07
+version: 0.6.3
 stars: 3.2
 ratings: 1053
 reviews: 15
@@ -21,7 +21,7 @@ icon: com.wirex.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2022-01-09
+date: 2024-07-17
 signer: 
 reviewArchive: 
 twitter: wirexapp
@@ -32,6 +32,12 @@ developerName: CCA LABS
 features: 
 
 ---
+
+## Update 2024-07-17
+
+No changes have been observed in the GitHub organization page. We also did not find any relevant Android repository when searching for ["com.wirex.wallet" on GitHub.](https://github.com/search?q=%22com.wirex.wallet%22&type=code)
+
+## Review 2022-01-09
 
 After app install, users are given two choices:
 

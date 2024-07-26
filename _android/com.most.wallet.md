@@ -8,8 +8,8 @@ users: 10000
 appId: com.most.wallet
 appCountry: 
 released: 2022-02-04
-updated: 2024-06-18
-version: 1.5.38
+updated: 2024-07-18
+version: 1.5.39
 stars: 
 ratings: 
 reviews: 
@@ -21,7 +21,7 @@ icon: com.most.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-04-28
+date: 2024-07-20
 signer: 
 reviewArchive: 
 twitter: 
@@ -32,7 +32,11 @@ features:
 
 ---
 
-## App Description 
+## Review 2024-07-20
+
+We [did not find any relevant](https://github.com/search?q=%22com.most.wallet%22&type=code) repository concerning this app. 
+
+## App Description 2023-04-28
 
 > MOST Wallet - multiple currencies mobile app for
 - Bitcoin

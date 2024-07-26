@@ -4,15 +4,16 @@ title: 'Trust: Crypto & Bitcoin Wallet'
 altTitle: 
 authors:
 - leo
+- danny
 users: 50000000
 appId: com.wallet.crypto.trustapp
 appCountry: 
 released: 2017-10-01
-updated: 2024-07-03
-version: 8.17.1
+updated: 2024-07-23
+version: 8.19.2
 stars: 4.5
 ratings: 841930
-reviews: 17711
+reviews: 17914
 size: 
 website: https://trustwallet.com/
 repository: 
@@ -21,7 +22,7 @@ icon: com.wallet.crypto.trustapp.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2019-11-20
+date: 2024-07-13
 signer: 
 reviewArchive: 
 twitter: trustwalletapp
@@ -37,6 +38,12 @@ developerName: DApps Platform, Inc.
 features: 
 
 ---
+
+## Update 2024-07-13
+
+Despite the passage of time, the devs have maintained the android app as not source-available. Only the wallet-core library is available publicly.
+
+## 2019-11-20
 
 Trust - Crypto & Bitcoin Wallet
 claims to be a non-custodial wallet. In the description on Google Play we read:

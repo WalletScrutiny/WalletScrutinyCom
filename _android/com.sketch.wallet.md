@@ -8,8 +8,8 @@ users: 5000
 appId: com.sketch.wallet
 appCountry: 
 released: 2021-07-28
-updated: 2024-04-17
-version: 1.0.92
+updated: 2024-07-18
+version: 2.0.7
 stars: 4.7
 ratings: 
 reviews: 
@@ -21,7 +21,7 @@ icon: com.sketch.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-05-03
+date: 2024-07-22
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,6 +31,12 @@ developerName: 앱관리자
 features: 
 
 ---
+
+## Update 2024-07-22
+
+The app remains without any available source code. Its claims of high security will continue to be **not verifiable.**
+
+## Old Review 2023-05-03
 
 ## App Description from Google Play
 

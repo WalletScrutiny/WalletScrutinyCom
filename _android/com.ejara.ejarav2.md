@@ -8,11 +8,11 @@ users: 100000
 appId: com.ejara.ejarav2
 appCountry: 
 released: 2021-03-08
-updated: 2024-06-19
-version: 3.7.3
-stars: 4
+updated: 2024-07-18
+version: 3.7.6
+stars: 3.9
 ratings: 
-reviews: 20
+reviews: 21
 size: 
 website: https://www.ejara.io
 repository: 
@@ -21,7 +21,7 @@ icon: com.ejara.ejarav2.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2022-02-22
+date: 2024-07-17
 signer: 
 reviewArchive: 
 twitter: EjaraApp
@@ -32,6 +32,12 @@ developerName: Ejara
 features: 
 
 ---
+
+## Update 2024-07-17
+
+Searching for the app ID ["com.ejara.ejarav2" on GitHub](https://github.com/search?q=%22com.ejara.ejarav2%22&type=code), did not result in a relevant Android code or repository. This app is still **not source-available.**
+
+## Review 2022-02-22
 
 ## App Description from [Google Play](https://play.google.com/store/apps/details?id=com.ejara.ejarav2)
 

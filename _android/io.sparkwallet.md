@@ -10,9 +10,9 @@ appCountry:
 released: 2022-02-09
 updated: 2023-12-07
 version: '3.3'
-stars: 3.7
+stars: 3.4
 ratings: 
-reviews: 3
+reviews: 5
 size: 
 website: https://sparkwallet.io/
 repository: 

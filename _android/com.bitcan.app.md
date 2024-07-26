@@ -8,11 +8,11 @@ users: 50000
 appId: com.bitcan.app
 appCountry: us
 released: 2017-10-18
-updated: 2024-04-08
-version: 8.21.0.3
-stars: 3
+updated: 2024-07-22
+version: 8.23.0.9
+stars: 3.1
 ratings: 92
-reviews: 28
+reviews: 29
 size: 
 website: http://www.bitkan.com
 repository: 

@@ -21,7 +21,7 @@ icon: com.ivan.fgwallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2022-06-30
+date: 2024-07-17
 signer: 
 reviewArchive: 
 twitter: srsfintech
@@ -33,7 +33,11 @@ features:
 
 ---
 
-## App Description 
+## Update 2024-07-17
+
+We can see in this app's [repository](https://github.com/Chainbytes/FGWallet) that it is a fork of [Bread Wallet Android](https://github.com/breadwallet/breadwallet-android). The repository has not been updated since [March 2018](https://github.com/Chainbytes/FGWallet/commit/0750eaffbe233aa9621e3c6146c4f0d3cdcea329). Meanwhile, their Google Play was [last updated May 2024](https://play.google.com/store/apps/details?id=com.ivan.fgwallet). This makes the app **not source-available**.
+
+## App Description 2022-06-30
 
 > An ultra-secure multi-cryptocurrency wallet that supports BTC, ETH, XRP, ADA and ERC-20 tokens. Your private keys never leave your device. Strong wallet encryption and cryptography guarantee that your funds will remain safe under your ultimate control.
 

@@ -1,6 +1,6 @@
 ---
 wsId: crypterium
-title: 'Сhoise.com: Crypto Wallet. NFT'
+title: Сhoise.com
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 500000
 appId: com.crypterium
 appCountry: 
 released: 2018-01-21
-updated: 2024-01-10
-version: 3.8.0
+updated: 2024-06-28
+version: '6.0'
 stars: 3.6
 ratings: 8728
-reviews: 426
+reviews: 425
 size: 
 website: https://choise.com
 repository: 

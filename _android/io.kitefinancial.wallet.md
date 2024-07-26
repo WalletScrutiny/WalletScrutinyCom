@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.kitefinancial.wallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-04-15
+date: 2024-07-10
 signer: 
 reviewArchive: 
 twitter: kite_financial

@@ -7,8 +7,8 @@ users: 100
 appId: com.prod.aspen
 appCountry: 
 released: 2022-06-28
-updated: 2024-06-26
-version: 2.1.11
+updated: 2024-07-11
+version: 2.1.12
 stars: 
 ratings: 
 reviews: 

@@ -9,10 +9,10 @@ appId: org.fxclub.libertex
 appCountry: cl
 released: 2015-05-22
 updated: 2024-07-03
-version: 2.38.0
+version: 2.39.0
 stars: 3.7
 ratings: 77624
-reviews: 1180
+reviews: 1186
 size: 
 website: https://libertex.org
 repository: 

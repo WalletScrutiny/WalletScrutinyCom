@@ -10,8 +10,8 @@ users: 10000
 appId: app.zeusln.zeus
 appCountry: 
 released: 2020-07-07
-updated: 2024-05-04
-version: 0.8.4
+updated: 2024-07-17
+version: 0.8.5-hotfix
 stars: 4.3
 ratings: 45
 reviews: 33
@@ -23,9 +23,14 @@ icon: app.zeusln.zeus.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-05-07
+date: 2024-07-22
 signer: cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
 reviewArchive:
+- date: 2024-05-07
+  version: 0.8.4
+  appHash: bf668808899b1a5a5e4b8aebf5f8ef26b41dacfdc802150592e81c93de198f64
+  gitRevision: 542873cd51a2ae85cae03cfe7272e34e53f3f4d3
+  verdict: reproducible
 - date: 2024-04-11
   version: 0.8.3
   appHash: afd3cace61fe5c896bbf3bd8399f12b9721415e78d9cbc694d8eb97dbbea21a1
@@ -85,18 +90,18 @@ We ran our updated {% include testScript.html %} and got this:
 ===== Begin Results =====
 appId:          app.zeusln.zeus
 signer:         cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
-apkVersionName: 0.8.4
-apkVersionCode: 86001
+apkVersionName: 0.8.5-hotfix
+apkVersionCode: 90001
 verdict:        
-appHash:        bf668808899b1a5a5e4b8aebf5f8ef26b41dacfdc802150592e81c93de198f64
-commit:         f14086f2380542ffa31d894cfa489e868fd62a5b
+appHash:        13ddb87f0f0a56c24997654b91be1e448a8c134374aeaf1f0ff9f993f1f734f8
+commit:         585051ec1ed78baff630565949551f102d8a148e
 
 Diff:
-Files /tmp/fromPlay_app.zeusln.zeus_86001/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_86001/AndroidManifest.xml differ
-Only in /tmp/fromPlay_app.zeusln.zeus_86001/META-INF: GOOGPLAY.RSA
-Only in /tmp/fromPlay_app.zeusln.zeus_86001/META-INF: GOOGPLAY.SF
-Only in /tmp/fromPlay_app.zeusln.zeus_86001/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_app.zeusln.zeus_86001: stamp-cert-sha256
+Files /tmp/fromPlay_app.zeusln.zeus_90001/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_90001/AndroidManifest.xml differ
+Only in /tmp/fromPlay_app.zeusln.zeus_90001/META-INF: GOOGPLAY.RSA
+Only in /tmp/fromPlay_app.zeusln.zeus_90001/META-INF: GOOGPLAY.SF
+Only in /tmp/fromPlay_app.zeusln.zeus_90001/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_app.zeusln.zeus_90001: stamp-cert-sha256
 
 Revision, tag (and its signature):
 
@@ -107,7 +112,6 @@ Revision, tag (and its signature):
 Again we checked that only signature-related lines differ and as before, this is
 the case for MANIFEST.MF and stamp-cert-sha256, too.
 
-While we don't know yet exactly how to automate testing, this app is
-**reproducible**.
+Version 0.8.5-hotfix of this app is **reproducible**.
 
 {% include asciicast %}

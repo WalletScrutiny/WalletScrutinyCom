@@ -21,7 +21,7 @@ icon: com.savl.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-09-11
+date: 2024-07-15
 signer: 
 reviewArchive: 
 twitter: 
@@ -32,6 +32,12 @@ developerName: Savl GmbH
 features: 
 
 ---
+
+## Update 2024-07-15
+
+The terms and conditions of the app has not changed, and thus the app remains the intellectual property of Savl. A search for the app ID "com.savl" on GitHub shows the [Savl organization](https://github.com/savl-gmbh), but as expected, not the Android app.
+
+## Review 2021-09-11
 
 > Account personalization with the ability to restore access. All the Savl wallets operations and data are protected by a unique 12-word key.
 

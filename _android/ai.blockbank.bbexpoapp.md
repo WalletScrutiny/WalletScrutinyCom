@@ -8,9 +8,9 @@ users: 10000
 appId: ai.blockbank.bbexpoapp
 appCountry: 
 released: 2021-10-21
-updated: 2024-07-02
-version: 4.2.6
-stars: 4.3
+updated: 2024-07-24
+version: 4.2.10
+stars: 4.4
 ratings: 
 reviews: 12
 size: 
@@ -21,7 +21,7 @@ icon: ai.blockbank.bbexpoapp.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-04-05
+date: 2024-07-20
 signer: 
 reviewArchive: 
 twitter: BLOCKBANKapp
@@ -34,6 +34,10 @@ developerName: UAB HODL SERVICES
 features: 
 
 ---
+
+## Update 2024-07-20
+
+There have been no recent public updates on the release of its source code.
 
 ## Updated Review 2023-04-05 
 

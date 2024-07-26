@@ -8,9 +8,9 @@ users: 5000
 appId: com.kryptogo.walletapp
 appCountry: 
 released: 2021-12-28
-updated: 2024-07-03
-version: 3.39.0
-stars: 4.6
+updated: 2024-07-25
+version: 3.40.2
+stars: 4.7
 ratings: 
 reviews: 3
 size: 
@@ -21,7 +21,7 @@ icon: com.kryptogo.walletapp.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-04-28
+date: 2024-07-20
 signer: 
 reviewArchive: 
 twitter: kryptogo_
@@ -36,6 +36,14 @@ developerName: KryptoGO
 features: 
 
 ---
+
+## Update 2024-07-20
+
+A search for the app ID "com.kryptogo.walletapp" turns up some potential android repository - but nothing conclusive. One such hit is for the repository called ["kg_sdk_example"](https://github.com/kryptogo/kg_sdk_example). This comes with an *android_example* folder and a build.gradle.kts file but no build instructions, no tags, branches or documentation that would match up with the Google Play version. 
+
+We filed an issue on [GitHub](https://github.com/kryptogo/kg_sdk_example/issues/1) and posted on [X.](https://x.com/dannybuntu/status/1814586277431550449)
+
+## Review 2023-04-28
 
 **Note:** The app has three related domains on its developer contacts. 
 

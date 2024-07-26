@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Bitso Alpha - Crypto trader Pr
+title: Bitso Alpha Pro
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: com.bitso.alpha
 appCountry: GI
 released: 2021-09-28
-updated: 2024-07-02
-version: 1.23.1
-stars: 3.9
+updated: 2024-07-16
+version: 1.26.0
+stars: 4
 ratings: 
-reviews: 508
+reviews: 513
 size: 
 website: https://bitso.com/alpha/landing
 repository: 

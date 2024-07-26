@@ -8,8 +8,8 @@ users: 100000
 appId: com.kucoin.wallet
 appCountry: 
 released: 2022-05-31
-updated: 2024-07-02
-version: 4.3.0
+updated: 2024-07-22
+version: 4.4.2
 stars: 4.3
 ratings: 
 reviews: 83
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: KuWallet
 social: 
 redirect_from: 
-developerName: Halo Wallet
+developerName: Halo(halo.social)
 features: 
 
 ---
