@@ -12,7 +12,7 @@ updated: 2024-07-13
 version: 3.3.8
 stars: 2.9
 ratings: 
-reviews: 17
+reviews: 18
 size: 
 website: https://www.weex.com
 repository: 

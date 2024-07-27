@@ -3,22 +3,24 @@ wsId:
 title: Proton Wallet - Secure BTC
 altTitle: 
 authors:
-- danny 
-users: 100
+- danny
+users: 1000
 appId: me.proton.wallet.android
 appCountry: 
-updated: 2024-07-24
+released: 
+updated: 2024-07-26
 version: VARY
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://proton.me
 repository: https://github.com/ProtonWallet/flutter-app
 issue: 
 icon: me.proton.wallet.android.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2024-07-25
 signer: 
 reviewArchive: 
@@ -28,7 +30,7 @@ social:
 - https://www.instagram.com/protonprivacy
 - https://www.facebook.com/Proton
 - https://www.linkedin.com/company/protonprivacy
-- https://mastodon.social/@protonprivacy 
+- https://mastodon.social/@protonprivacy
 redirect_from: 
 developerName: Proton AG
 features: 

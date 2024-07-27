@@ -1,6 +1,6 @@
 ---
 wsId: kriptomat
-title: 'Kriptomat: Buy & Store Crypto'
+title: 'Kriptomat: Invest & Buy Crypto'
 altTitle: 
 authors:
 - danny
@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.kriptomat.io
+website: https://kriptomat.io
 repository: 
 issue: 
 icon: io.kriptomat.app.png

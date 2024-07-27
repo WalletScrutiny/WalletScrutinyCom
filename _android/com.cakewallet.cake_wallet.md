@@ -1,47 +1,48 @@
 ---
 wsId: cake
 title: Cake Wallet
-altTitle:
+altTitle: 
 authors:
-  - leo
-  - keraliss
+- leo
+- keraliss
 users: 100000
 appId: com.cakewallet.cake_wallet
-appCountry:
+appCountry: 
 released: 2020-01-01
 updated: 2024-07-23
 version: 4.19.1
 stars: 4.7
 ratings: 730
 reviews: 409
-size:
+size: 
 website: https://cakewallet.com
 repository: https://github.com/cake-tech/cake_wallet
 issue: https://github.com/cake-tech/cake_wallet/issues/337
 icon: com.cakewallet.cake_wallet.jpg
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: ftbfs
 date: 2024-07-26
-signer:
+signer: 
 reviewArchive:
-  - date: 2022-11-02
-    version: 4.4.0
-    appHash:
-    gitRevision: 58eb9afc078bac8a5a23d3af42a18f3ad543887c
-    verdict: nonverifiable
-  - date: 2021-04-14
-    version: 4.1.4
-    appHash:
-    gitRevision: 3f57101209712caf0bf7dae6466ce81d29359fca
-    verdict: nonverifiable
+- date: 2022-11-02
+  version: 4.4.0
+  appHash: 
+  gitRevision: 58eb9afc078bac8a5a23d3af42a18f3ad543887c
+  verdict: nonverifiable
+- date: 2021-04-14
+  version: 4.1.4
+  appHash: 
+  gitRevision: 3f57101209712caf0bf7dae6466ce81d29359fca
+  verdict: nonverifiable
 twitter: cakewallet
 social:
-  - https://www.facebook.com/cakewallet
-  - https://www.reddit.com/r/cakewallet
-redirect_from:
+- https://www.facebook.com/cakewallet
+- https://www.reddit.com/r/cakewallet
+redirect_from: 
 developerName: Cake Labs
-features:
+features: 
+
 ---
 
 **Update 2024-07-26**: 

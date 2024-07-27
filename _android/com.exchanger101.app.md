@@ -10,9 +10,9 @@ appCountry:
 released: 2021-09-30
 updated: 2024-06-28
 version: 1.20.1
-stars: 4.3
+stars: 4.2
 ratings: 
-reviews: 6
+reviews: 7
 size: 
 website: https://exchanger101.com
 repository: 
