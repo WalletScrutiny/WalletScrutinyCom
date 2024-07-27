@@ -282,11 +282,91 @@ Binary files from-device/normalized-names/en.apk and locally-built/normalized-na
 Binary files from-device/normalized-names/xxhdpi.apk and locally-built/normalized-names/xxhdpi.apk differ
 ```
 
-We ran diffoscope on: 
+## We ran diffoscope on: 
+
 - **unpacked/base/AndroidManifest.xml** and this is the [pastebin result](https://pastebin.com/EGp4cYZT)
 - **unpacked/base/resources.arsc** the [pastebin result](https://pastebin.com/d7rPGtVv)
+- **normalized-names/arm6_v8a.apk** - the [pastebin result](https://pastebin.com/vQD5jP7y)
+  - `diffoscope from-device/normalized-names/arm64_v8a.apk locally-built/normalized-names/arm64_v8a.apk --text /home/danny/work/builds/world.bitkey.app/2024-07-25/1/diffoscope_arm64_v8a.txt`
+- **normalized-names/base.apk** - the [pastebin result](https://pastebin.com/068TLXTd)
+  - `diffoscope from-device/normalized-names/base.apk locally-built/normalized-names/base.apk --text /home/danny/work/builds/world.bitkey.app/2024-07-25/1/diffoscope_base.apk.txt`
+- **normalized-names/en.apk** - the [pastebin result](https://pastebin.com/rzwnTbdW)
+  - `diffoscope from-device/normalized-names/en.apk locally-built/normalized-names/en.apk --text /home/danny/work/builds/world.bitkey.app/2024-07-25/1/diffoscope_en.apk.txt`
+- **normalized-names/xxhdpi.apk** - the [pastebin result](https://pastebin.com/CNKCZdC6)
+  - `diffoscope from-device/normalized-names/xxhdpi.apk locally-built/normalized-names/xxhdpi.apk --text /home/danny/work/builds/world.bitkey.app/2024-07-25/1/diffoscope_xxhdpi.apk.txt`
+- **unpacked/base/res/xml/splits0.xml** - the [pastebin result](https://pastebin.com/f025L2We)
+  - `diffoscope from-device/unpacked/base/res/xml/splits0.xml locally-built/unpacked/base/res/xml/splits0.xml --text /home/danny/work/builds/world.bitkey.app/2024-07-25/1/diffoscope_splits0.xml.txt`
 
-We analyzed both and the minor discrepancies can be attributed to differences in build environments.
+## LLM analysis of the diffoscope results:
+
+1. **base.apk**
+   ChatGPT4 Analysis:
+
+   > - Significant differences in the APK Signing Block, particularly in keys and certificates. (APK Signing Block)
+   > - Differences in permissions, attributes, or structure, indicating potential changes in the app configuration or build process. (AndroidManifest.xml)
+   > - Variations in resource entries, IDs, or values, possibly due to different build tools or settings. (resources.arsc)
+
+2. **arm64_v8a**
+   ChatGPT4 Analysis:
+
+   > - The APK Signing Block has substantial changes, including differences in keys and certificates.
+   > - Key 0x42726577 and Key 0x6dff800d have different hexadecimal values, indicating different keys used for signing.
+   > - Changes in byte values at specific offsets in AndroidManifest.xml
+   > - Variations in resource files, which could be due to differences in resource processing, compression, or ordering during the build. (resources.arsc)
+
+3. **xxhdpi**
+   ChatGPT4 Analysis:
+
+   > - The signing blocks differ significantly, with variations in keys and certificates, suggesting different signing processes or keys.
+   > - Key 0x42726577 and Key 0x6dff800d show different hexadecimal values, indicating different keys used for signing.
+  
+4. **en.apk**
+   ChatGPT4 Analysis:
+
+   > - Differences in certificates and signing keys suggest different signatures or re-signing processes.
+   > - Variations in META-INF/* files, such as MANIFEST.MF, CERT.SF, and CERT.RSA, indicate differences in the signing metadata.
+   > - Differences in compiled resource files (resources.arsc).
+   > - Variations in AndroidManifest.xml, possibly due to different build environments or configurations.
+   > - Variations in file timestamps, ZIP metadata, and other metadata fields.
+
+   **Claude.ai Analysis:**
+
+   > Here are the key differences between the downloaded APK (from-device) and the locally built APK:\
+   >
+   > 1. APK Signing Block:\
+   >    - The downloaded APK contains an APK Signing Block, while the locally built APK does not.\
+   >    - This block includes several keys (0x42726577, 0x6dff800d, 0x7109871a, 0xf05368c0) with associated data.\
+   >
+   > 2. META-INF files:\
+   >    - The downloaded APK contains META-INF/MANIFEST.MF, META-INF/BNDLTOOL.SF, and META-INF/BNDLTOOL.RSA files.\
+   >    - The locally built APK is missing these META-INF files.\
+   >
+   > 3. AndroidManifest.xml:\
+   >    - The downloaded APK's manifest includes additional attributes and a meta-data element:\
+   >      - xmlns:n1="http://schemas.android.com/apk/distribution"\
+   >      - n1:splitTypes=""\
+   >      - `<meta-data>` element for "com.android.vending.derived.apk.id"\
+   >    - The locally built APK's manifest is simpler and lacks these additional elements.\
+   >
+   > 4. File count and compression:\
+   >    - The downloaded APK contains 6 files, while the locally built APK contains only 2 files.\
+   >    - The downloaded APK has a slightly higher compression ratio (1.6% vs 0.6%).\
+   >
+   > 5. APK verification:\
+   >    - The downloaded APK verifies successfully using v1, v2, and v3 signing schemes.\
+   >    - The locally built APK fails verification due to missing META-INF/MANIFEST.MF.\
+   >
+   > 6. resources.arsc:\
+   >    - Both APKs contain the resources.arsc file with the same size (64344 bytes).\
+   >    - There might be minor differences in the file content, but they are not explicitly shown in the diff.\
+   >
+   > These differences primarily relate to the signing and metadata of the APKs. The core content (resources.arsc) appears to be the same size in both APKs, which is a good sign for reproducibility. However, the build process needs to be adjusted to include proper signing and metadata generation to match the downloaded APK more closely.
+
+5. **splits0.xml**
+   ChatGPT4 Analysis:
+
+   > The diffoscope results show differences between two versions of the splits0.xml file. Key differences include changes in language configuration codes. For instance, entries such as config.in (Hindi), config.is (Icelandic), and config.it (Italian) are replaced with config.he (Hebrew), config.id (Indonesian), and so on. These changes reflect adjustments in the localization settings of the application, indicating updates in language support.
+
 
 ## Notes on the Bitkey Build 
 
