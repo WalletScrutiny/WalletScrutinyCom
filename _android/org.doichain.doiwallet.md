@@ -3,7 +3,7 @@ wsId:
 title: DoiWallet
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: org.doichain.doiwallet
 appCountry: 
 released: 2022-05-01

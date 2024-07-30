@@ -12,7 +12,7 @@ updated: 2024-07-19
 version: 2.2.7
 stars: 3.4
 ratings: 
-reviews: 7
+reviews: 8
 size: 
 website: https://trubit.com/
 repository: 

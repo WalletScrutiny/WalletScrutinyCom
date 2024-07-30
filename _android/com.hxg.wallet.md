@@ -12,7 +12,7 @@ updated: 2024-07-26
 version: 3.3.2
 stars: 3.9
 ratings: 
-reviews: 122
+reviews: 121
 size: 
 website: https://wowearn.com/
 repository: 

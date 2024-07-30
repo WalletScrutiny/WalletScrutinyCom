@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.spaceground.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2024-07-05
+date: 2024-07-30
 signer: 
 reviewArchive: 
 twitter: 

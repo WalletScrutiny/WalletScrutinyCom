@@ -8,8 +8,8 @@ users: 50000
 appId: delta.pk.mobile
 appCountry: bg
 released: 2013-03-29
-updated: 2023-10-17
-version: 5.9.9
+updated: 2024-07-29
+version: 5.9.10
 stars: 4.1
 ratings: 410
 reviews: 57

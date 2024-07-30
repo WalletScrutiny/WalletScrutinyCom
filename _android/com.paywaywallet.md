@@ -11,7 +11,7 @@ appCountry:
 released: 2019-02-13
 updated: 2024-05-29
 version: 4.0.1.1363 (biometric login)
-stars: 3.9
+stars: 3.8
 ratings: 254
 reviews: 4
 size: 

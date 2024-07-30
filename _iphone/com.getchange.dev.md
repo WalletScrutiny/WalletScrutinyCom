@@ -8,8 +8,8 @@ appId: com.getchange.dev
 appCountry: nl
 idd: 1442085358
 released: 2018-11-15
-updated: 2024-07-22
-version: 30.54.1
+updated: 2024-07-26
+version: 30.54.2
 stars: 4.1
 reviews: 37
 size: '109557760'

@@ -11,7 +11,7 @@ released: 2019-11-07
 updated: 2024-05-29
 version: 5.10.0
 stars: 4.3
-reviews: 296
+reviews: 297
 size: '82473984'
 website: https://app.zumo.tech
 repository: 

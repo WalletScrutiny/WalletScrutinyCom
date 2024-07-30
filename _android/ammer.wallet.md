@@ -8,7 +8,7 @@ users: 5000
 appId: ammer.wallet
 appCountry: 
 released: 2022-12-05
-updated: 2024-06-18
+updated: 2024-07-25
 version: VARY
 stars: 4.8
 ratings: 

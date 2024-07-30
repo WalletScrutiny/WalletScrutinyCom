@@ -11,7 +11,7 @@ updated: 2024-07-26
 version: 9.22.1
 stars: 4.2
 ratings: 603
-reviews: 41
+reviews: 40
 size: 
 website: https://www.xapobank.com/
 repository: 

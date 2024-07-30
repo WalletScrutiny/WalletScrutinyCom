@@ -12,7 +12,7 @@ updated: 2024-07-05
 version: 2.13.2
 stars: 4.5
 ratings: 
-reviews: 1284
+reviews: 1299
 size: 
 website: https://simple.app/
 repository: 

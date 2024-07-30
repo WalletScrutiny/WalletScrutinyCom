@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.sevenb.terminal.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2023-12-13
+date: 2024-07-30
 signer: 
 reviewArchive: 
 twitter: sevenb_roker

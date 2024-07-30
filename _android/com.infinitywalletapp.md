@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.infinitywalletapp.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2024-02-20
+date: 2024-07-30
 signer: 
 reviewArchive: 
 twitter: 
