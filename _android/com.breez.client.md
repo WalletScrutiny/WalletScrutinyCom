@@ -1,6 +1,6 @@
 ---
 wsId: breez
-title: "Breez: Lightning Client & POS"
+title: 'Breez: Lightning Client & POS'
 altTitle:
 authors:
   - leo
@@ -11,8 +11,8 @@ users: 10000
 appId: com.breez.client
 appCountry:
 released:
-updated: 2024-06-11
-version: 0.17.lnd
+updated: 2024-07-09
+version: VARY
 stars:
 ratings:
 reviews:
@@ -48,124 +48,28 @@ developerName: Breez Development LTD
 features:
   - ln
 ---
-
-<!-- new review here  -->
-
 **Update: 2024-07-24** 
 
-# 2024-07-24 Build Attempt
+**Review: BitPay Wallet Build**
 
-This Dockerfile sets up a development environment suitable for building the BreezMobile application. Here is a step-by-step breakdown of each command in the Dockerfile:
-
-## Stage 1: Build Stage for breez.aar
-
-### Base Image
-
-- `FROM debian:sid-slim AS breez_aar_builder`
-  - This command sets up the base image using `debian:sid-slim`. It is a minimal Debian-based image suitable for building the `breez.aar` file.
-
-### Installing Necessary Dependencies
-
-- `RUN set -ex; \`
-  - Uses `apt-get` to update package lists and install essential build tools and dependencies such as `unzip`, `ca-certificates`, `openjdk-11-jdk`, `curl`, `git`, `wget`, and `build-essential`.
-
-### Installing Go
-
-- `RUN set -ex; \`
-  - Installs Go by downloading the tarball, extracting it to `/usr/local`, and adding it to the `PATH`.
-
-### Setting Up Android SDK and NDK
-
-- `RUN set -ex; \`
-  - Downloads and configures the Android SDK and NDK, including necessary licenses and command-line tools.
-
-### Cloning the Breez Repository
-
-- `RUN set -ex; \`
-  - Clones the Breez repository from GitHub, with retry logic to handle potential cloning issues.
-
-### Environment Variables
-
-- `ENV ANDROID_SDK_ROOT="/home/appuser/app/sdk" \`
-  - Sets environment variables for the Android SDK, Go, and other necessary configurations.
-
-### Clean Go Module Cache and Install Dependencies
-
-- `RUN cd /home/appuser/breez && \`
-  - Cleans the Go module cache and ensures all dependencies are downloaded and verified.
-
-### Installing gomobile and gobind
-
-- `RUN go install golang.org/x/mobile/cmd/gomobile@latest && \`
-  - Installs `gomobile` and `gobind` for building the mobile bindings.
-
-### Building the Project
-
-- `RUN set -ex; \`
-  - Configures and builds the project using `gomobile` and a custom `build.sh` script.
-
-## Stage 2: Final Stage for Building APK
-
-### Base Image
-
-- `FROM debian:sid-slim`
-  - Sets up the base image for the final stage using `debian:sid-slim`.
-
-### Installing Necessary Dependencies
-
-- `RUN set -ex; \`
-  - Installs dependencies like `gradle`, `xz-utils`, `unzip`, `zip`, `openjdk-11-jdk`, `ca-certificates`, `file`, and `curl`.
-
-### Configuring Android SDK and Flutter
-
-- `RUN set -ex; \`
-  - Downloads and configures the Flutter SDK and Android SDK.
-
-### Cloning BreezMobile Repository and Configuring Build
-
-- `RUN set -ex; \`
-  - Clones the BreezMobile repository, checks out the specified tag `0.17.lnd`, and configures necessary build properties.
-
-### Copying breez.aar from Build Stage
-
-- `COPY --from=breez_aar_builder /home/appuser/breez/build/android/breez.aar /var/local/builder/breez/builds/master/breezmobile/android/app/libs/breez.aar`
-  - Copies the `breez.aar` file from the build stage to the final stage.
-
-### Building the APK
-
-- `RUN set -ex; \`
-  - Configures the Flutter project and builds the APK using Flutter.
-
-## Build Command
-
-- `CMD ["/bin/bash", "-c", "cd /var/local/builder/breez/builds/master/breezmobile && /home/appuser/app/sdk/flutter/bin/flutter build apk --target-platform=android-arm64 --flavor=client --release --target=lib/main.dart --no-tree-shake-icons"]`
-  - Specifies the default command to build the APK when a container is started from the image.
-
-
-
-
-## Verdict
-
-The build was successful with this command:
+The build was successful with the command:
 
 ```bash
 sudo docker build --no-cache -t breez_wallet -f com.breez.client.dockerfile .
 ```
 
-```plaintext
+```
 Successfully built 8b7ab5a53f19
 Successfully tagged breez_wallet:latest
 ```
 
-We were also able to extract the APK from the build file and obtained the official APK from the Play Store.
-
-We unzipped both APKs using `unzip --qqd` and tested for differences with:
+We extracted the APK from the build and obtained the official APK from the Play Store. After unzipping both APKs using `unzip --qqd`, we compared them with:
 
 ```bash
 diff --recursive from*
 ```
 
-Upon comparing with the APK from the Play Store, we found significant differences:
+Significant differences were found between the generated APK and the Play Store version.
 
 ```plaintext
   Binary files fromBuild/res/ZF.xml and fromOfficial/res/ZF.xml differ
@@ -212,7 +116,7 @@ Upon comparing with the APK from the Play Store, we found significant difference
   Only in fromOfficial: wallet.proto
 ```
 
-With these differences, the wallet is **not verifiable**.
+With these many differences, the wallet is **not verifiable**.
 
 
 ---
@@ -280,8 +184,8 @@ With diffs in some binary files the wallet is **not verifiable**.
 A description to our liking. Here it is in full:
 
 > Breez is a Lightning Network client which makes paying in bitcoin a seamless
-> experience. With Breez, anyone can send or receive small payments in bitcoin.
-> It's simple, fast and safe.
+  experience. With Breez, anyone can send or receive small payments in bitcoin.
+  It's simple, fast and safe.
 
 Ok, seamless, lightning, ... nice.
 

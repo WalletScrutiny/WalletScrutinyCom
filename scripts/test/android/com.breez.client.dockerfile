@@ -50,22 +50,11 @@ RUN set -ex; \
     cd /home/appuser/app/sdk/; \
     /home/appuser/app/sdk/cmdline-tools/bin/sdkmanager --sdk_root=/home/appuser/app/sdk/ --install "platforms;android-32";
 
-RUN set -ex; \
+    RUN set -ex; \
     cd /home/appuser/; \
     echo "Cloning Breez repository..."; \
-    for i in {1..5}; do \
-    if git clone https://github.com/breez/breez.git; then \
-        echo "Successfully cloned Breez repository"; \
-        break; \
-    else \
-        echo "Attempt $i failed. Retrying in 15 seconds..."; \
-        sleep 15; \
-    fi; \
-    if [ $i -eq 5 ]; then \
-        echo "Failed to clone repository after 5 attempts"; \
-        exit 1; \
-    fi; \
-done
+    git clone https://github.com/breez/breez.git || { echo "Failed to clone repository"; exit 1; }
+
 
 # Set environment variables
 ENV ANDROID_SDK_ROOT="/home/appuser/app/sdk" \
