@@ -24,7 +24,7 @@ issue:
 icon: twentytwo.portal.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: unreleased
 date: 2024-07-30
 signer: 
 reviewArchive: 
@@ -97,4 +97,4 @@ pub async fn handle_generate_seed(
 
 **5. Is it reproducible? - ❓**
 
-This hardware device's firmware is **for-verification**
+This hardware device's firmware is **for verification**
