@@ -297,76 +297,67 @@ Binary files from-device/normalized-names/xxhdpi.apk and locally-built/normalize
 - **unpacked/base/res/xml/splits0.xml** - the [pastebin result](https://pastebin.com/f025L2We)
   - `diffoscope from-device/unpacked/base/res/xml/splits0.xml locally-built/unpacked/base/res/xml/splits0.xml --text /home/danny/work/builds/world.bitkey.app/2024-07-25/1/diffoscope_splits0.xml.txt`
 
-## LLM analysis of the diffoscope results:
+## Analysis of the diffoscope results:
 
-1. **base.apk**
-   ChatGPT4 Analysis:
+### arm64_v8a.apk
+   
+   Of particular interest is the human-readable portion of the diffoscope results:
 
-   > - Significant differences in the APK Signing Block, particularly in keys and certificates. (APK Signing Block)
-   > - Differences in permissions, attributes, or structure, indicating potential changes in the app configuration or build process. (AndroidManifest.xml)
-   > - Variations in resource entries, IDs, or values, possibly due to different build tools or settings. (resources.arsc)
+   ```
+   ├── AndroidManifest.xml (decoded)
+   │ ├── AndroidManifest.xml
+   │ │ @@ -1,6 +1,4 @@
+   │ │  <?xml version="1.0" encoding="utf-8"?>
+   │ │ -<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:n1="http://schemas.android.com/apk/distribution" android:versionCode="2024630004" package="world.bitkey.app" split="config.arm64_v8a" n1:splitTypes="base__abi">
+   │ │ -  <application android:hasCode="false" android:extractNativeLibs="false">
+   │ │ -    <meta-data android:name="com.android.vending.derived.apk.id" android:value="2"/>
+   │ │ -  </application>
+   │ │ +<manifest xmlns:android="http://schemas.android.com/apk/res/android"   android:versionCode="2024630004" package="world.bitkey.app" split="config.arm64_v8a">
+   │ │ +  <application android:hasCode="false" android:extractNativeLibs="false"/>
+   │ │  </manifest>
+   ```
 
-2. **arm64_v8a**
-   ChatGPT4 Analysis:
+This segment shows that Google added this line: `<meta-data android:name="com.android.vending.derived.apk.id" android:value="2"/>`
 
-   > - The APK Signing Block has substantial changes, including differences in keys and certificates.
-   > - Key 0x42726577 and Key 0x6dff800d have different hexadecimal values, indicating different keys used for signing.
-   > - Changes in byte values at specific offsets in AndroidManifest.xml
-   > - Variations in resource files, which could be due to differences in resource processing, compression, or ordering during the build. (resources.arsc)
+Digging a little bit deeper, we find that:
 
-3. **xxhdpi**
-   ChatGPT4 Analysis:
+> Apps that are signed by Google will have a 'derived APK ID' written into their AndroidManifest.xml file.
 
-   > - The signing blocks differ significantly, with variations in keys and certificates, suggesting different signing processes or keys.
-   > - Key 0x42726577 and Key 0x6dff800d show different hexadecimal values, indicating different keys used for signing.
+[Source](https://stackoverflow.com/questions/44689959/androidmanifest-xml-file)
+
+This is further elaborated [here:](https://medium.com/@nimi0112/google-play-app-signing-to-secure-your-app-keys-883ab9996f18)
+
   
-4. **en.apk**
-   ChatGPT4 Analysis:
+> Modifications to your APK
+> 
+> Apps that are signed by Google will have a “derived APK ID” written into their AndroidManifest.xml file. You’ll see a meta-data element added under the application tag that references <meta-data android:name=”com.android.vending.derived.apk.id” android:value=”[ID]” />.
+>
+> This ID is the identifier of the modified APK and will be reported in the usual bug reporting tools. You can use the derived APK ID to recognize a specific APK that was delivered by Play.
+  
+### base.apk
 
-   > - Differences in certificates and signing keys suggest different signatures or re-signing processes.
-   > - Variations in META-INF/* files, such as MANIFEST.MF, CERT.SF, and CERT.RSA, indicate differences in the signing metadata.
-   > - Differences in compiled resource files (resources.arsc).
-   > - Variations in AndroidManifest.xml, possibly due to different build environments or configurations.
-   > - Variations in file timestamps, ZIP metadata, and other metadata fields.
+There are signing-related differences. Similar to the diffoscope output for arm64_v8a.apk, There are additional meta-data information which is present in the official apk but not in the built apk. 
 
-   **Claude.ai Analysis:**
+    <meta-data android:name="com.android.vending.derived.apk.id" android:value="2"/>
+    <meta-data android:name="com.android.stamp.source" android:value="https://play.google.com/store"/>
+    <meta-data android:name="com.android.stamp.type" android:value="STAMP_TYPE_DISTRIBUTION_APK"/>
+   
 
-   > Here are the key differences between the downloaded APK (from-device) and the locally built APK:\
-   >
-   > 1. APK Signing Block:\
-   >    - The downloaded APK contains an APK Signing Block, while the locally built APK does not.\
-   >    - This block includes several keys (0x42726577, 0x6dff800d, 0x7109871a, 0xf05368c0) with associated data.\
-   >
-   > 2. META-INF files:\
-   >    - The downloaded APK contains META-INF/MANIFEST.MF, META-INF/BNDLTOOL.SF, and META-INF/BNDLTOOL.RSA files.\
-   >    - The locally built APK is missing these META-INF files.\
-   >
-   > 3. AndroidManifest.xml:\
-   >    - The downloaded APK's manifest includes additional attributes and a meta-data element:\
-   >      - xmlns:n1="http://schemas.android.com/apk/distribution"\
-   >      - n1:splitTypes=""\
-   >      - `<meta-data>` element for "com.android.vending.derived.apk.id"\
-   >    - The locally built APK's manifest is simpler and lacks these additional elements.\
-   >
-   > 4. File count and compression:\
-   >    - The downloaded APK contains 6 files, while the locally built APK contains only 2 files.\
-   >    - The downloaded APK has a slightly higher compression ratio (1.6% vs 0.6%).\
-   >
-   > 5. APK verification:\
-   >    - The downloaded APK verifies successfully using v1, v2, and v3 signing schemes.\
-   >    - The locally built APK fails verification due to missing META-INF/MANIFEST.MF.\
-   >
-   > 6. resources.arsc:\
-   >    - Both APKs contain the resources.arsc file with the same size (64344 bytes).\
-   >    - There might be minor differences in the file content, but they are not explicitly shown in the diff.\
-   >
-   > These differences primarily relate to the signing and metadata of the APKs. The core content (resources.arsc) appears to be the same size in both APKs, which is a good sign for reproducibility. However, the build process needs to be adjusted to include proper signing and metadata generation to match the downloaded APK more closely.
+### en.apk
+   
+Apart from the signing differences. We find the same addition plus the namespace made to the official (Google Play) apk's AndroidManifest.xml: 
 
-5. **splits0.xml**
-   ChatGPT4 Analysis:
+    <meta-data android:name="com.android.vending.derived.apk.id" android:value="2"/>
 
-   > The diffoscope results show differences between two versions of the splits0.xml file. Key differences include changes in language configuration codes. For instance, entries such as config.in (Hindi), config.is (Icelandic), and config.it (Italian) are replaced with config.he (Hebrew), config.id (Indonesian), and so on. These changes reflect adjustments in the localization settings of the application, indicating updates in language support.
+    xmlns:n1="http://schemas.android.com/apk/distribution" and attribute n1:splitTypes=""
 
+### xxhdpi
+
+Again, we find: 
+
+    <meta-data android:name="com.android.vending.derived.apk.id" android:value="2"/>
+
+    xmlns:n1="http://schemas.android.com/apk/distribution" and an attribute n1:splitTypes=""
 
 ## Notes on the Bitkey Build 
 
@@ -383,4 +374,4 @@ Bitkey acknowledges the difference between apks extracted from AABs. More about 
   >
   > Since resources are important part of the application, we're using aapt2 diff to check for differences between APKs from device and from bundletool.
 
-From this we can conclude that the app is **reproducible**. 
+Most of the diffs produced stemmed from signing certificates and signatures. It is apparent that Google Play modifies the apk as seen with the addition of `<meta-data android:name="com.android.vending.derived.apk.id" android:value="2"/>`. From a "strict reproducibility" standpoint, this app is not-reproducible in the sense that it is bit-by-bit identical in the binary level. But, if we factor in the explanation provided by Bitkey above, and if we take cognizance of the fact that Google Play alters the apks distributed to the users, we can consider these as benign differences and give Bitkey the verdict of **reproducible**.
