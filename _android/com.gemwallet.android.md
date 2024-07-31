@@ -59,7 +59,7 @@ features:
 
 ## Analysis
 
-- We installed Gem Wallet app version 1.2.142 on our device. 
+- We installed Gem Wallet app version 1.2.144 on our device. 
 - Initialization began with wallet creation including the seed phrases.
 - This app supports multiple coins including Bitcoin.
 - There was an option to send and receive. The Bitcoin address was in the Bech32 format.
@@ -108,70 +108,50 @@ The `bundletool` command would build an .apks archive from the .aab:
     --device-spec=/home/gemwallet/device-spec.json 
 ```
 
-In this instance, we generated **unsigned** apks with **specificed device data** which we would then compare to official apks. The checksums did not match.
-
-We proceeded to run a diff between extracted and official apk directories:
-
-```
-$ diff fromBuildPatched/ fromPlay/
-diff fromBuildPatched/AndroidManifest.xml fromPlay/AndroidManifest.xml
-117a118,119
->         <meta-data android:name="com.android.stamp.source" android:value="https://play.google.com/store"/>
->         <meta-data android:name="com.android.stamp.type" android:value="STAMP_TYPE_DISTRIBUTION_APK"/>
-118a121
->         <meta-data android:name="com.android.vending.derived.apk.id" android:value="4"/>
-diff fromBuildPatched/apktool.yml fromPlay/apktool.yml
-2c2
-< apkFileName: out.apk
----
-> apkFileName: signed.apk
-143a144
->   stamp-cert-sha256: '8'
-171,172c172,173
-<   versionCode: '1'
-<   versionName: '1.0'
----
->   versionCode: '385'
->   versionName: 1.2.144
-Common subdirectories: fromBuildPatched/assets and fromPlay/assets
-Common subdirectories: fromBuildPatched/kotlin and fromPlay/kotlin
-Common subdirectories: fromBuildPatched/META-INF and fromPlay/META-INF
-Common subdirectories: fromBuildPatched/original and fromPlay/original
-Common subdirectories: fromBuildPatched/res and fromPlay/res
-Common subdirectories: fromBuildPatched/smali and fromPlay/smali
-Common subdirectories: fromBuildPatched/smali_classes2 and fromPlay/smali_classes2
-Common subdirectories: fromBuildPatched/smali_classes3 and fromPlay/smali_classes3
-Common subdirectories: fromBuildPatched/unknown and fromPlay/unknown
-```
-
-We tried again with a universal, unsigned build - and came up with similar results.
 
 ## Running the build with testAAB.sh script
 
-Finally, we ran testAAB.sh with device-spec.json, the gemwallet script plus dockerfile that we prepared, and these were the results:
+For Gemwallet, we thought it was appropriate to create a new script *testAAB.sh* for the purpose of testing reproducibility with an android app bundle. 
+
+"TestAAB.sh" is a script modified from our original <strong>test script <a href="/testScript">(?)</a></strong>. It can pass arguments such as a device's specifications listed in a json file to a bundletool command that can generate the appropriate apk files from a bundle.
+
+`./testAAB.sh -d ~/work/apk/com.gemwallet.android/1.2.144/ -s ~/work/device-spec/a11/device-spec.json`
+
+In this instance, we generated **unsigned** apks with specific device data which we would then compare to an official apk extracted from a Play Store installation. Here is the diff resulting from this:
 
 ```
-========================================
-APK Summary
-========================================
-- Official APKs:
-   1. base.apk - d416a9f8206e27127d0056cab197a7766a32c9695babed3098da3b08a06d000c
-   2. split_config.armeabi_v7a.apk - 41ea2df5f2c97ab47cfe56d0346811197d1170b04266e91c37f8838e52eb3ff7
-   3. split_config.en.apk - 582409b2cf48736c79957ede2d64a881fdc89bca99cd7fdff6839ebad8a3e074
-   4. split_config.xhdpi.apk - a446ca6f339deb489fd34e5661bebf6658971546002ea4e47c8bd531c03c40bb
-- Built APKs:
-   1. base-xxhdpi.apk - 35822b7cae800b77c0575553c419944d3314f9b6403c90c33256ecf1d4461ec3
-   2. base-x86_64.apk - 81eb5921a2f301afc102878177d5f83154df4ad6a110005d403c54d4feb87a4b
-   3. base-en.apk - c4624a13f25f9f6274b4e69520bb36a8e10389574edac57fdd455b7b06fcc7e9
-   4. base-master.apk - ccd93eacf9c7c92841b4b2afaa2e250807111a4d6a37b4476f70fb2f9b5f5c63
-========================================
+Binary files fromBuild_com.gemwallet.android_1.2.144/AndroidManifest.xml and fromPlay_com.gemwallet.android_1.2.144/AndroidManifest.xml differ
+Binary files fromBuild_com.gemwallet.android_1.2.144/assets/dexopt/baseline.prof and fromPlay_com.gemwallet.android_1.2.144/assets/dexopt/baseline.prof differ
+Binary files fromBuild_com.gemwallet.android_1.2.144/classes2.dex and fromPlay_com.gemwallet.android_1.2.144/classes2.dex differ
+Binary files fromBuild_com.gemwallet.android_1.2.144/classes3.dex and fromPlay_com.gemwallet.android_1.2.144/classes3.dex differ
+Binary files fromBuild_com.gemwallet.android_1.2.144/classes.dex and fromPlay_com.gemwallet.android_1.2.144/classes.dex differ
+Only in fromPlay_com.gemwallet.android_1.2.144/META-INF: BNDLTOOL.RSA
+Only in fromPlay_com.gemwallet.android_1.2.144/META-INF: BNDLTOOL.SF
+Only in fromPlay_com.gemwallet.android_1.2.144/META-INF: MANIFEST.MF
+Binary files fromBuild_com.gemwallet.android_1.2.144/res/xml/splits0.xml and fromPlay_com.gemwallet.android_1.2.144/res/xml/splits0.xml differ
+Binary files fromBuild_com.gemwallet.android_1.2.144/resources.arsc and fromPlay_com.gemwallet.android_1.2.144/resources.arsc differ
+Only in fromPlay_com.gemwallet.android_1.2.144/: stamp-cert-sha256
+```
+**AndroidManifest.xml diff:**
+
+```
+<         <meta-data android:name="com.android.stamp.source" android:value="https://play.google.com/store"/>
+<         <meta-data android:name="com.android.stamp.type" android:value="STAMP_TYPE_DISTRIBUTION_APK"/>
+121d118
+<         <meta-data android:name="com.android.vending.derived.apk.id" android:value="4"/>
+diff /tmp/fromPlay_com.gemwallet.android_1.2.144/apktool.yml /tmp/fromBuild_com.gemwallet.android_1.2.144/apktool.yml
+2c2
+< apkFileName: base.apk
+---
+> apkFileName: base-master.apk
 ```
 
-With none of the sha256sums matching in any of the tests we performed above, numerous diffs in many tests, and with knowledge that the project uses ProGuard to obfuscate its source code, we can only give the verdict of **obfuscated**. 
+Looking over the changes, [we noticed many of the differences pertain to read-and-write permissions, file permissions, and timestamps.](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/merge_requests/708#note_2023566413) 
 
-{% include asciicast %}
-
+Noting all of this, we verify this app as **reproducible.**
 
 ### Thank you to Gem Wallet for their donation
 
 * $500 on [2024-06-12](https://x.com/dannybuntu/status/1805418147580887150)
+
+{% include asciicast %}
