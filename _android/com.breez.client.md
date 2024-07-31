@@ -27,7 +27,7 @@ verdict: nonverifiable
 date: 2024-07-24
 signer:
 reviewArchive:
- -  date: 2023-07-12
+  - date: 2023-07-12
     version: 0.15.refund_hotfix
     appHash:
     gitRevision: 3fd8b756e9afbeface68b158e46d292877bc03d7
