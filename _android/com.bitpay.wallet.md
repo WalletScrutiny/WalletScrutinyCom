@@ -6,6 +6,7 @@ authors:
 - leo
 - danny
 - emanuel
+- keraliss
 users: 1000000
 appId: com.bitpay.wallet
 appCountry: 
@@ -23,10 +24,15 @@ icon: com.bitpay.wallet.png
 bugbounty: >-
   https://support.bitpay.com/hc/en-us/articles/204229369-Does-BitPay-have-a-bug-bounty-program-
 meta: ok
-verdict: wip
-date: 2024-07-20
+verdict: nonverifiable
+date: 2024-07-30
 signer: 
 reviewArchive:
+- date: 2024-07-20
+  version: 14.10.1
+  appHash: 
+  gitRevision: 03703dbef3fcabdbb7a9ca18963e255aab7de5b7
+  verdict: ftbfs
 - date: 2022-11-02
   version: 14.10.1
   appHash: 
@@ -55,6 +61,91 @@ developerName: BitPay, Inc.
 features: 
 
 ---
+
+**Update 2024-07-30:**
+
+**Review: BitPay Wallet Build**
+
+The build process for the BitPay Wallet was successfully completed using the Dockerfile. The APK was generated without errors. However, a thorough comparison between the built APK and the official APK revealed several discrepancies.
+
+**Command Used:**
+```bash
+sudo docker build -t bitpay_wallet -f bitpay.dockerfile .
+```
+
+**Differences Noted:**
+A recursive diff comparison between the generated APK and the official APK showed these differences:
+ ```
+diff --recursive from*
+Binary files fromBuild/AndroidManifest.xml and fromOfficial/AndroidManifest.xml differ
+Binary files fromBuild/assets/dexopt/baseline.prof and fromOfficial/assets/dexopt/baseline.prof differ
+Binary files fromBuild/assets/dexopt/baseline.profm and fromOfficial/assets/dexopt/baseline.profm differ
+Binary files fromBuild/assets/index.android.bundle and fromOfficial/assets/index.android.bundle differ
+Binary files fromBuild/classes2.dex and fromOfficial/classes2.dex differ
+Binary files fromBuild/classes3.dex and fromOfficial/classes3.dex differ
+Binary files fromBuild/classes.dex and fromOfficial/classes.dex differ
+Binary files fromBuild/lib/arm64-v8a/libreactnativemmkv.so and fromOfficial/lib/arm64-v8a/libreactnativemmkv.so differ
+Binary files fromBuild/lib/arm64-v8a/libreanimated.so and fromOfficial/lib/arm64-v8a/libreanimated.so differ
+Binary files fromBuild/lib/arm64-v8a/libVisionCamera.so and fromOfficial/lib/arm64-v8a/libVisionCamera.so differ
+Binary files fromBuild/lib/armeabi-v7a/libreactnativemmkv.so and fromOfficial/lib/armeabi-v7a/libreactnativemmkv.so differ
+Binary files fromBuild/lib/armeabi-v7a/libreanimated.so and fromOfficial/lib/armeabi-v7a/libreanimated.so differ
+Binary files fromBuild/lib/armeabi-v7a/libVisionCamera.so and fromOfficial/lib/armeabi-v7a/libVisionCamera.so differ
+Binary files fromBuild/lib/x86/libreactnativemmkv.so and fromOfficial/lib/x86/libreactnativemmkv.so differ
+Binary files fromBuild/lib/x86/libreanimated.so and fromOfficial/lib/x86/libreanimated.so differ
+Binary files fromBuild/lib/x86/libVisionCamera.so and fromOfficial/lib/x86/libVisionCamera.so differ
+Binary files fromBuild/lib/x86_64/libreactnativemmkv.so and fromOfficial/lib/x86_64/libreactnativemmkv.so differ
+Binary files fromBuild/lib/x86_64/libreanimated.so and fromOfficial/lib/x86_64/libreanimated.so differ
+Binary files fromBuild/lib/x86_64/libVisionCamera.so and fromOfficial/lib/x86_64/libVisionCamera.so differ
+Binary files fromBuild/res/0s.png and fromOfficial/res/0s.png differ
+Binary files fromBuild/res/2N.png and fromOfficial/res/2N.png differ
+Binary files fromBuild/res/3q.png and fromOfficial/res/3q.png differ
+Binary files fromBuild/res/5b.png and fromOfficial/res/5b.png differ
+Binary files fromBuild/res/61.png and fromOfficial/res/61.png differ
+Binary files fromBuild/res/68.png and fromOfficial/res/68.png differ
+Binary files fromBuild/res/6n.png and fromOfficial/res/6n.png differ
+Binary files fromBuild/res/ai.png and fromOfficial/res/ai.png differ
+Binary files fromBuild/res/aK.png and fromOfficial/res/aK.png differ
+Binary files fromBuild/res/-A.png and fromOfficial/res/-A.png differ
+Binary files fromBuild/res/as.png and fromOfficial/res/as.png differ
+Binary files fromBuild/res/BG.png and fromOfficial/res/BG.png differ
+Binary files fromBuild/res/bP.png and fromOfficial/res/bP.png differ
+Binary files fromBuild/res/C9.png and fromOfficial/res/C9.png differ
+Binary files fromBuild/res/cd.png and fromOfficial/res/cd.png differ
+Binary files fromBuild/res/CE.png and fromOfficial/res/CE.png differ
+Binary files fromBuild/res/CG.png and fromOfficial/res/CG.png differ
+Binary files fromBuild/res/cT.png and fromOfficial/res/cT.png differ
+Binary files fromBuild/res/Do.png and fromOfficial/res/Do.png differ
+Binary files fromBuild/res/ef.png and fromOfficial/res/ef.png differ
+Binary files fromBuild/res/eT.png and fromOfficial/res/eT.png differ
+Binary files fromBuild/res/F0.png and fromOfficial/res/F0.png differ
+Binary files fromBuild/res/fo.png and fromOfficial/res/fo.png differ
+Binary files fromBuild/res/Gj.png and fromOfficial/res/Gj.png differ
+Binary files fromBuild/res/Hi.png and fromOfficial/res/Hi.png differ
+Binary files fromBuild/res/hM.png and fromOfficial/res/hM.png differ
+Binary files fromBuild/res/in.png and fromOfficial/res/in.png differ
+Binary files fromBuild/res/IN.png and fromOfficial/res/IN.png differ
+Binary files fromBuild/res/JW.png and fromOfficial/res/JW.png differ
+Binary files fromBuild/res/lx.png and fromOfficial/res/lx.png differ
+Binary files fromBuild/res/mK.png and fromOfficial/res/mK.png differ
+Binary files fromBuild/res/nD.png and fromOfficial/res/nD.png differ
+Binary files fromBuild/res/NP.png and fromOfficial/res/NP.png differ
+Binary files fromBuild/res/OU.png and fromOfficial/res/OU.png differ
+Binary files fromBuild/res/rD.png and fromOfficial/res/rD.png differ
+Binary files fromBuild/res/s5.png and fromOfficial/res/s5.png differ
+Binary files fromBuild/res/uU.png and fromOfficial/res/uU.png differ
+Binary files fromBuild/res/v9.png and fromOfficial/res/v9.png differ
+Binary files fromBuild/res/vL.png and fromOfficial/res/vL.png differ
+Binary files fromBuild/res/Xl.png and fromOfficial/res/Xl.png differ
+Binary files fromBuild/res/yG.png and fromOfficial/res/yG.png differ
+Binary files fromBuild/res/Zl.png and fromOfficial/res/Zl.png differ
+Binary files fromBuild/res/zS.png and fromOfficial/res/zS.png differ
+Binary files fromBuild/res/ZU.png and fromOfficial/res/ZU.png differ
+Binary files fromBuild/resources.arsc and fromOfficial/resources.arsc differ
+```
+
+
+**Conclusion**:
+Although the BitPay Wallet build was successful, the discrepancies between the generated APK and the official version suggest that further investigation is needed. The wallet is **not verifiable** at this time.
 
 **Update 2024-07-20**: It may be time to retry building for a newer release. This app is **for verification**
 
