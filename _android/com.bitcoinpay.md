@@ -3,7 +3,7 @@ wsId:
 title: BitCoinPay Trade
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.bitcoinpay
 appCountry: 
 released: 2021-01-24

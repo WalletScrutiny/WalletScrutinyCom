@@ -8,7 +8,7 @@ users: 10000
 appId: fior.digital21app
 appCountry: 
 released: 
-updated: 2024-07-23
+updated: 2024-07-29
 version: 2.0.26
 stars: 4.8
 ratings: 

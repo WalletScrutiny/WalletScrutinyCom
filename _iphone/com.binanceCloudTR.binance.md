@@ -1,6 +1,6 @@
 ---
 wsId: BinanceTR
-title: 'Binance TR: Bitcoin ve Kripto'
+title: 'Binance TR: Bitcoin and Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.binanceCloudTR.binance
 appCountry: tr
 idd: 1548636153
 released: 2021-02-18
-updated: 2024-06-10
-version: 2.7.0
+updated: 2024-07-30
+version: 2.8.0
 stars: 4.7
-reviews: 95554
-size: '143042560'
+reviews: 95608
+size: '146529280'
 website: https://www.trbinance.com/
 repository: 
 issue: 

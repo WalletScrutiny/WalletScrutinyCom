@@ -1,53 +1,55 @@
 ---
 wsId: breez
 title: 'Breez: Lightning Client & POS'
-altTitle:
+altTitle: 
 authors:
-  - leo
-  - emanuel
-  - mohammad
-  - keraliss
+- leo
+- emanuel
+- mohammad
+- keraliss
 users: 10000
 appId: com.breez.client
-appCountry:
-released:
+appCountry: 
+released: 
 updated: 2024-07-09
 version: VARY
-stars:
-ratings:
-reviews:
-size:
+stars: 
+ratings: 
+reviews: 
+size: 
 website: http://breez.technology
 repository: https://github.com/breez/breezmobile
 issue: https://github.com/breez/breezmobile/issues/247
 icon: com.breez.client.png
-bugbounty:
+bugbounty: 
 meta: ok
 verdict: nonverifiable
 date: 2024-07-24
-signer:
+signer: 
 reviewArchive:
-  - date: 2023-07-12
-    version: 0.15.refund_hotfix
-    appHash:
-    gitRevision: 3fd8b756e9afbeface68b158e46d292877bc03d7
-    verdict: nonverifiable
-  - date: 2023-06-24
-    version: 0.15.refund_hotfix
-    appHash:
-    gitRevision: 3f6ea3a7e29487f3f7144bf5e7029b90d01e3d32
-    verdict: nonverifiable
+- date: 2023-07-12
+  version: 0.15.refund_hotfix
+  appHash: 
+  gitRevision: 3fd8b756e9afbeface68b158e46d292877bc03d7
+  verdict: nonverifiable
+- date: 2023-06-24
+  version: 0.15.refund_hotfix
+  appHash: 
+  gitRevision: 3f6ea3a7e29487f3f7144bf5e7029b90d01e3d32
+  verdict: nonverifiable
 twitter: breez_tech
-social:
+social: 
 redirect_from:
-  - /breez/
-  - /com.breez.client/
-  - /posts/2019/12/breez/
-  - /posts/com.breez.client/
+- /breez/
+- /com.breez.client/
+- /posts/2019/12/breez/
+- /posts/com.breez.client/
 developerName: Breez Development LTD
 features:
-  - ln
+- ln
+
 ---
+
 **Update: 2024-07-24** 
 
 **Review: BitPay Wallet Build**

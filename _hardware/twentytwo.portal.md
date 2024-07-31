@@ -2,18 +2,18 @@
 title: TwentyTwo Devices Portal Hardware Wallet
 appId: twentytwo.portal
 authors:
-  - danny
+- danny
 released: 2024-06-08
 discontinued: 
 updated: 2024-07-09
 version: 0.3.1
 binaries: 
 dimensions:
-  - 135
-  - 65
-  - 5 
+- 140
+- 65
+- 5
 weight: 30
-provider: TwentyTwo Devices 
+provider: TwentyTwo Devices
 providerWebsite: 
 website: https://twenty-two.xyz/
 shop: https://store.twenty-two.xyz/
@@ -31,6 +31,7 @@ reviewArchive:
 twitter: TwentyTwoHW
 social: 
 features: 
+
 ---
 
 ## Device Description from the Provider

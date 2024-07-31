@@ -11,9 +11,9 @@ appCountry:
 released: 2020-02-11
 updated: 2024-07-24
 version: 8.20.0
-stars: 4.8
+stars: 4.7
 ratings: 3949
-reviews: 1749
+reviews: 1764
 size: 
 website: https://bitkeep.com
 repository: 
