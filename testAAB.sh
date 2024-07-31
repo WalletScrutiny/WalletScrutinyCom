@@ -24,9 +24,11 @@ NC='\033[0m' # No Color
 # ===============================
 
 apkDir=""
+deviceSpecPath=""
 while [[ "$#" -gt 0 ]]; do
   case $1 in
     -d|--directory) apkDir="$2"; shift ;;
+    -s|--spec) deviceSpecPath="$2"; shift ;;
     -c|--cleanup) shouldCleanup=true ;;
     *) echo "Unknown argument: $1"; exit 1 ;;
   esac
@@ -42,6 +44,14 @@ if [ ! -d "$apkDir" ]; then
   echo "APK directory $apkDir not found!"
   exit 1
 fi
+
+# Use a default path if not provided
+if [ -z "$deviceSpecPath" ]; then
+  deviceSpecPath="/home/gemwallet/device-spec.json"
+fi
+
+# Copy device-spec.json into Docker build context
+cp "$deviceSpecPath" "$TEST_ANDROID_DIR/device-spec.json"
 
 # Functions
 # =========
@@ -80,15 +90,16 @@ getSigner() {
 
 usage() {
   echo 'NAME
-       testaab.sh - test if APKs can be built from source
+       testaab.sh - test if APK can be built from source
 
 SYNOPSIS
-       testaab.sh -d apkDirectory [-c]
+       testaab.sh -d apkDirectory [-s deviceSpecPath] [-c]
 
 DESCRIPTION
        This command tries to verify builds of apps that we verified before.
 
-       -d|--directory The directory containing APK files we want to test.
+       -d|--directory The directory containing the base.apk file we want to test.
+       -s|--spec The path to the device-spec.json file (optional)
        -c|--cleanup Cleanup temporary files after the test.'
 }
 
@@ -123,149 +134,67 @@ display_results() {
   { set -x; } 2>/dev/null
 }
 
-# Function to display a summary of APKs and their SHA256 checksums
-display_apk_summary() {
-  # Disable debug output 
-  { set +x; } 2>/dev/null
+# Main process
+# ============
 
-  echo -e "${BOLD_CYAN}"
-  echo "========================================"
-  echo "APK Summary"
-  echo "========================================"
-  echo "- Official APKs:"
-  
-  index=1
-  for apk in "$apkDir"/*.apk; do
-    if [ -f "$apk" ]; then
-      apkName=$(basename "$apk")
-      apkHash=$(sha256sum "$apk" | awk '{print $1;}')
-      echo "   $index. $apkName - $apkHash"
-      ((index++))
-    fi
-  done
-  
-  echo "- Built APKs:"
-  
-  index=1
-  # Search for built APKs in $workDir
-  for apk in $(find "$workDir" -name "*.apk" -type f); do
-    if [ -f "$apk" ]; then
-      apkName=$(basename "$apk")
-      apkHash=$(sha256sum "$apk" | awk '{print $1;}')
-      echo "   $index. $apkName - $apkHash" 
-      ((index++))
-    fi
-  done
-  
-  echo "========================================"
-  echo -e "${NC}"
+apk="$apkDir/base.apk"
+if [ ! -f "$apk" ]; then
+  echo "base.apk not found in $apkDir!"
+  exit 1
+fi
 
-  # Re-enable debug output
-  { set -x; } 2>/dev/null
-}
+appHash=$(sha256sum "$apk" | awk '{print $1;}')
+fromPlayFolder=/tmp/fromPlay$appHash
+rm -rf $fromPlayFolder
+signer=$( getSigner "$apk" )
+echo "Extracting APK content ..."
+containerApktool $fromPlayFolder "$apk"
+extractionResult=$?
+workDir=/tmp/test_$appId
+export workDir
 
-# Function to compare the built APKs with the official APKs
-compare() {
-  officialApk=$1
-  builtApk=$2
+if [ $extractionResult -ne 0 ]; then
+  extractionResult="Failed"
+else
+  extractionResult="Success"
+fi
 
-  if [ -z "$officialApk" ] || [ -z "$builtApk" ]; then
-    echo "Both official and built APK paths are required for comparison."
-    return 1
-  fi
+appId=$(grep 'package=' $fromPlayFolder/AndroidManifest.xml | sed 's/.*package=\"//g' | sed 's/\".*//g')
+versionName=$(grep 'versionName' $fromPlayFolder/apktool.yml | awk '{print $2}' | sed "s/'//g")
+versionCode=$(grep 'versionCode' $fromPlayFolder/apktool.yml | awk '{print $2}' | sed "s/'//g")
 
-  echo "Comparing official APK ($officialApk) with built APK ($builtApk)..."
+if [ -z "$appId" ]; then
+  echo "appId could not be determined from $apk"
+  exit 1
+fi
 
-  diff -r "$officialApk" "$builtApk"
-  if [ $? -eq 0 ]; then
-    echo "APKs match"
-  else
-    echo "APKs do not match"
-  fi
-}
+if [ -z "$versionName" ]; then
+  echo "versionName could not be determined from $apk"
+  exit 1
+fi
 
-# Loop through each APK in the directory and process
-colors=($GREEN $YELLOW $CYAN $PINK)
-colorIndex=0
+if [ -z "$versionCode" ]; then
+  echo "versionCode could not be determined from $apk"
+  exit 1
+fi
 
-apkDir=$(realpath "$apkDir")
+echo
+echo "Testing \"$apk\" ($appId version $versionName)"
+echo
 
-# Array to hold metadata for display
-declare -a metadataArray
+display_results "$GREEN" "$apk" "$appHash" "$signer" "$extractionResult" "$appId" "$versionName" "$versionCode"
 
-# Parse metadata for all APKs first
-for apk in "$apkDir"/*.apk; do
-  if [ ! -f "$apk" ]; then
-    echo "APK file $apk not found!"
-    continue
-  fi
-
-  color=${colors[$colorIndex]}
-  colorIndex=$(( (colorIndex + 1) % ${#colors[@]} ))
-
-  appHash=$(sha256sum "$apk" | awk '{print $1;}')
-  fromPlayFolder=/tmp/fromPlay$appHash
-  rm -rf $fromPlayFolder
-  signer=$( getSigner "$apk" )
-  echo "Extracting APK content ..."
-  containerApktool $fromPlayFolder "$apk"
-  extractionResult=$?
-  workDir=/tmp/test_$appId
-  export workDir
-
-  if [ $extractionResult -ne 0 ]; then
-    extractionResult="Failed"
-  else
-    extractionResult="Success"
-  fi
-
-  appId=$(grep 'package=' $fromPlayFolder/AndroidManifest.xml | sed 's/.*package=\"//g' | sed 's/\".*//g')
-  versionName=$(grep 'versionName' $fromPlayFolder/apktool.yml | awk '{print $2}' | sed "s/'//g")
-  versionCode=$(grep 'versionCode' $fromPlayFolder/apktool.yml | awk '{print $2}' | sed "s/'//g")
-
-  if [ -z "$appId" ]; then
-    echo "appId could not be determined from $apk"
-    appId="N/A"
-  fi
-
-  if [ -z "$versionName" ]; then
-    echo "versionName could not be determined from $apk"
-    versionName="N/A"
-  fi
-
-  if [ -z "$versionCode" ]; then
-    echo "versionCode could not be determined from $apk"
-    versionCode="N/A"
-  fi
-
-  echo
-  echo "Testing \"$apk\" ($appId version $versionName)"
-  echo
-
-  metadataArray+=("$color" "$apk" "$appHash" "$signer" "$extractionResult" "$appId" "$versionName" "$versionCode")
-done
-
-# Display all results in an ASCII box
-for ((i=0; i<${#metadataArray[@]}; i+=8)); do
-  display_results "${metadataArray[i]}" "${metadataArray[i+1]}" "${metadataArray[i+2]}" "${metadataArray[i+3]}" "${metadataArray[i+4]}" "${metadataArray[i+5]}" "${metadataArray[i+6]}" "${metadataArray[i+7]}"
-done
-
-# Extract appId and versionName from the metadata array for base.apk
-baseApkMetadata=("${metadataArray[@]:0:8}")
-appId="${baseApkMetadata[5]}"
-versionName="${baseApkMetadata[6]}"
-
-# Build the app using the corresponding appId.sh script
+# Source the appId.sh script
 echo "Attempting to source $TEST_ANDROID_DIR/$appId.sh"
 if [ -f "$TEST_ANDROID_DIR/$appId.sh" ]; then
-  source "$TEST_ANDROID_DIR/$appId.sh"
+  source "$TEST_ANDROID_DIR/$appId.sh" "$deviceSpecPath"
   echo "Sourced $TEST_ANDROID_DIR/$appId.sh successfully"
 else
   echo "Error: $TEST_ANDROID_DIR/$appId.sh not found"
   exit 1
 fi
 
-# Call the 'test' function if it exists
+# Run the test function
 if declare -f test > /dev/null; then
   test
   echo "Test function executed successfully"
@@ -274,57 +203,26 @@ else
   exit 1
 fi
 
-# Compare the built APKs with the official APKs
-for apk in "$apkDir"/*.apk; do
-  if [ ! -f "$apk" ]; then
-    echo "APK file $apk not found!"
-    continue
-  fi
+# Compare the built APK with the official APK
+builtApk="$workDir/built/base.apk"
+if [ ! -f "$builtApk" ]; then
+  echo "Built APK $builtApk not found"
+  exit 1
+fi
 
-  color=${colors[$colorIndex]}
-  colorIndex=$(( (colorIndex + 1) % ${#colors[@]} ))
+if declare -f compare > /dev/null; then
+  compare "$apk" "$builtApk"
+  echo "Compare function executed successfully"
+else
+  echo "Error: compare function not found"
+  exit 1
+fi
 
-  appHash=$(sha256sum "$apk" | awk '{print $1;}')
-  fromPlayFolder=/tmp/fromPlay$appHash
-  rm -rf $fromPlayFolder
-  signer=$( getSigner "$apk" )
-  echo "Extracting APK content ..."
-  containerApktool $fromPlayFolder "$apk"
-  extractionResult=$?
-
-  if [ $extractionResult -ne 0 ]; then
-    extractionResult="Failed"
-  else
-    extractionResult="Success"
-  fi
-
-  echo
-  echo "Testing \"$apk\" ($appId version $versionName)"
-  echo
-
-  # Display results in an ASCII box
-  display_results "$color" "$apk" "$appHash" "$signer" "$extractionResult" "$appId" "$versionName" "$versionCode"
-
-  builtApk="$workDir/built/$(basename "$apk" .apk)"
-  if [ ! -d "$builtApk" ]; then
-    echo "Built APK directory $builtApk not found"
-    continue
-  fi
-
-  # Assuming the 'compare' function exists in the sourced script
-  if declare -f compare > /dev/null; then
-    compare "$apk" "$builtApk"
-    echo "Compare function executed successfully"
-  else
-    echo "Error: compare function not found"
-    exit 1
-  fi
-
-  # Cleanup if needed
-  if [ "$shouldCleanup" = true ]; then
+# Cleanup if needed
+if [ "$shouldCleanup" = true ]; then
+  if declare -f cleanup > /dev/null; then
     cleanup
+  else
+    echo "Warning: cleanup function not found, but cleanup flag was set"
   fi
-done
-
-# Display the APK summary at the end
-display_apk_summary
+fi

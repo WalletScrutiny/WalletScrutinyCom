@@ -5,7 +5,6 @@ ARG TAG
 ARG REPO
 ARG GITHUB_USER
 ARG GITHUB_TOKEN
-ARG DEVICE_SPEC_PATH
 
 # Set environment variables for non-interactive installation
 ENV DEBIAN_FRONTEND=noninteractive
@@ -86,7 +85,6 @@ RUN brew install bundletool
 # Set up entrypoint to ensure environment variables are loaded
 ENTRYPOINT ["/bin/bash", "-c", "source /root/.bashrc && exec $0 \"$@\"", "--"]
 
-
 # Create the GemWallet folder
 RUN mkdir /home/gemwallet && cd /home/gemwallet
 
@@ -99,7 +97,7 @@ RUN git clone --branch $TAG https://$GITHUB_USER:$GITHUB_TOKEN@github.com/$(echo
 RUN echo "gpr.user=$GITHUB_USER" >> /home/gemwallet/local.properties && \
     echo "gpr.key=$GITHUB_TOKEN" >> /home/gemwallet/local.properties && \
     mv /home/gemwallet/local.properties /home/gemwallet/gem-android/local.properties
-    
+
 # Set environment variables for keystore
 ENV ANDROID_KEYSTORE_ALIAS="gemwallet-key"
 ENV ANDROID_KEYSTORE_PASSWORD="password"

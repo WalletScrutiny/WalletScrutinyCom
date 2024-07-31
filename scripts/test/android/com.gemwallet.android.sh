@@ -9,7 +9,6 @@ read -s -p "Enter your GitHub personal access token (must have read:packages per
 repo=https://github.com/gemwalletcom/gem-android
 tag="$versionName"
 builtApk=$workDir/built
-DEVICE_SPEC_PATH="/home/gemwallet/device-spec.json"
 
 test() {
   docker rmi gemwallet -f
@@ -18,7 +17,6 @@ test() {
     --build-arg TAG=$tag \
     --build-arg GITHUB_USER=$github_user \
     --build-arg GITHUB_TOKEN=$github_token \
-    --build-arg DEVICE_SPEC_PATH=$DEVICE_SPEC_PATH \
     --tag gemwallet \
     --file $SCRIPT_DIR/test/android/com.gemwallet.android.dockerfile \
     -f $SCRIPT_DIR/test/android/com.gemwallet.android.dockerfile \
