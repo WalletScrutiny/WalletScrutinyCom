@@ -117,7 +117,7 @@ For Gemwallet, we thought it was appropriate to create a new script *testAAB.sh*
 
 `./testAAB.sh -d ~/work/apk/com.gemwallet.android/1.2.144/ -s ~/work/device-spec/a11/device-spec.json`
 
-In this instance, we generated **unsigned** apks with specific device data which we would then compare to an official apk extracted from a Play Store installation. Here is the diff resulting from this:
+In this instance, we generated **unsigned** apks with specific device data which we would then compare to the official apk extracted from a Play Store installation. Both the built and official apk's contents were extracted into folders using `unzip -d qq`. Here is the diff resulting from this:
 
 ```
 Binary files fromBuild_com.gemwallet.android_1.2.144/AndroidManifest.xml and fromPlay_com.gemwallet.android_1.2.144/AndroidManifest.xml differ
@@ -146,9 +146,9 @@ diff /tmp/fromPlay_com.gemwallet.android_1.2.144/apktool.yml /tmp/fromBuild_com.
 > apkFileName: base-master.apk
 ```
 
-Looking over the changes, [we noticed many of the differences pertain to read-and-write permissions, file permissions, and timestamps.](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/merge_requests/708#note_2023566413) 
+Looking over the changes, [we noticed many of the differences pertain to read-and-write permissions, file permissions, and timestamps.](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/merge_requests/708#note_2023566413)  Additionally, [in classes.dex](https://xrviv.github.io/walletScrutinyBuildCasts/www/diffoscope-results/android/com.gemwallet.android/1.2.144/diffoscope.classes.dex.html) as well as [classes2](https://xrviv.github.io/walletScrutinyBuildCasts/www/diffoscope-results/android/com.gemwallet.android/1.2.144/diffoscope.classes2.dex.html) and [classes3](https://xrviv.github.io/walletScrutinyBuildCasts/www/diffoscope-results/android/com.gemwallet.android/1.2.144/diffoscope.classes3.dex.html), many of the variables were changed or omitted with the reason for it being unexplained.
 
-Noting all of this, we verify this app as **reproducible.**
+As of now, we'll let the verdict for 1.2.144s' source code stay as **obfuscated.**
 
 ### Thank you to Gem Wallet for their donation
 
