@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.btc-alpha.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2023-09-20
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: btcalpha

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: global.imxchange.iMX.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2023-05-22
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

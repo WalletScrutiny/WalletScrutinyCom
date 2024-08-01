@@ -4,7 +4,7 @@ title: MDAO Wallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.ttmbank.wallet.app
 appCountry: 
 released: 2021-08-05
@@ -21,7 +21,7 @@ icon: com.ttmbank.wallet.app.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2024-01-08
+date: 2024-07-15
 signer: 
 reviewArchive: 
 twitter: 0xMarsDAO
@@ -52,5 +52,5 @@ This is the companion app to the TTM (ToTheMoon) KeyWallet.
 - Choosing to create a wallet will give you a mnemonic phrase.
 - The wallet allows you to choose between various networks including BTC, Ethereum, TRON, Polygon, or BNB Chain.
 
-Although the wallet is self-custodial, the source code is currently **unavailable** and as such it is **not verifiable.**
+Although the wallet is self-custodial, the source code currently remains **unavailable** and as such it is **not verifiable.**
 

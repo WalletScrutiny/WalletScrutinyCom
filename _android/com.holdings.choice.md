@@ -10,9 +10,9 @@ appCountry:
 released: 2022-04-04
 updated: 2024-04-12
 version: 2.22.3
-stars: 3.5
+stars: 3.4
 ratings: 
-reviews: 24
+reviews: 25
 size: 
 website: https://www.choiceapp.io/
 repository: 

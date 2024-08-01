@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'AvaTrade: Trading App'
+title: Trading App By AvaTrade
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 1000000
 appId: com.avatrade.mobile
 appCountry: 
 released: 2017-05-23
-updated: 2024-06-18
-version: '136.1'
+updated: 2024-07-29
+version: '140.3'
 stars: 4.1
 ratings: 9327
 reviews: 11

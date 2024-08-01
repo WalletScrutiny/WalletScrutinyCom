@@ -8,11 +8,11 @@ users: 100000
 appId: com.bitwala.app
 appCountry: gd
 released: 2019-07-11
-updated: 2024-06-20
-version: 3.6.3
+updated: 2024-07-23
+version: 3.8.2
 stars: 3.5
 ratings: 4416
-reviews: 3559
+reviews: 3568
 size: 
 website: https://www.bitwala.com
 repository: 
@@ -21,7 +21,7 @@ icon: com.bitwala.app.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-12-22
+date: 2024-07-17
 signer: 
 reviewArchive: 
 twitter: nuribanking
@@ -33,6 +33,10 @@ features:
 ---
 
 {% include review/bitgo.md %}
+
+## Update 2024-07-17
+
+With no change regarding its source code policy, this app continues to be **not source-available**.
 
 ## Updated Review and Verdict 2021-12-22
 

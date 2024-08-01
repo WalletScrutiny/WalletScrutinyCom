@@ -8,11 +8,11 @@ appId: com.rainmanagement.rain
 appCountry: bh
 idd: 1414619890
 released: 2018-09-02
-updated: 2024-04-13
-version: 3.4.12
+updated: 2024-07-27
+version: 3.4.16
 stars: 4.7
-reviews: 2431
-size: '78009344'
+reviews: 2433
+size: '78907392'
 website: https://www.rain.bh/
 repository: 
 issue: 

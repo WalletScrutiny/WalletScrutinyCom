@@ -12,16 +12,16 @@ updated: 2023-07-26
 version: 3.0.1
 stars: 4
 ratings: 3741
-reviews: 81
+reviews: 80
 size: 
 website: https://sarmayex.com
 repository: 
 issue: 
 icon: com.arzjoo.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2020-11-16
+date: 2024-07-22
 signer: 
 reviewArchive: 
 twitter: arzjoo

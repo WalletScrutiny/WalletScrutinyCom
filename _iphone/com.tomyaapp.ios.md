@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.tomyaapp.ios.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-07-25
+date: 2024-07-19
 signer: 
 reviewArchive: 
 twitter: 

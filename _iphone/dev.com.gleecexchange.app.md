@@ -17,9 +17,9 @@ repository:
 issue: 
 icon: dev.com.gleecexchange.app.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-04-22
+date: 2024-07-30
 signer: 
 reviewArchive: 
 twitter: GleecOfficial

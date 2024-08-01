@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.wallet.dex.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: wip
-date: 2024-02-05
+date: 2024-07-30
 signer: 
 reviewArchive: 
 twitter: Dexwallets

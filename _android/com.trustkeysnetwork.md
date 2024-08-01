@@ -21,7 +21,7 @@ icon: com.trustkeysnetwork.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-10-07
+date: 2024-07-16
 signer: 
 reviewArchive: 
 twitter: trustkeysglobal
@@ -33,7 +33,11 @@ features:
 
 ---
 
-## App Description
+## Update 2024-07-16
+
+No changes were seen regarding this app's source-availability. A search for the app ID ["com.truskeysnetwork" on GitHub](https://github.com/search?q=org%3Atrustkeys%20%22com.trustkeysnetwork%22&type=code) did not yield an Android-related repository.
+
+## App Description 2021-10-07
 
 It is described as a "Decentralized Super-App" that allows **users to control the private keys** of their wallets, while at the same time have encrypted chat, social networking  and cryptocurrency trading functions.
 

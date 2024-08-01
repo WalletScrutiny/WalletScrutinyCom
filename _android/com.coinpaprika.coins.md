@@ -21,7 +21,7 @@ icon: com.coinpaprika.coins.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-09-11
+date: 2024-07-15
 signer: 
 reviewArchive: 
 twitter: CoinsOneApp
@@ -32,6 +32,12 @@ developerName: Coinpaprika
 features: 
 
 ---
+
+## Update 2024-07-15
+
+A search for the app ID ["com.coinpaprika.coins" on GitHub](https://github.com/search?q=%22com.coinpaprika.coins%22&type=code&p=1) does not show any relevant code or repository results.
+
+## Review 2021-09-11
 
 From the Google Play app description: 
 

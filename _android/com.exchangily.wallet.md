@@ -11,7 +11,7 @@ appCountry:
 released: 2020-02-05
 updated: 2023-07-20
 version: 2.2.106
-stars: 4.4
+stars: 4.3
 ratings: 32
 reviews: 6
 size: 
@@ -20,9 +20,9 @@ repository: https://github.com/blockchaingate/exchangily-mobile-app
 issue: https://github.com/blockchaingate/exchangily-mobile-app/issues/1
 icon: com.exchangily.wallet.png
 bugbounty: 
-meta: ok
-verdict: ftbfs
-date: 2021-04-11
+meta: stale
+verdict: wip
+date: 2024-07-17
 signer: 
 reviewArchive: 
 twitter: ExchangilyC
@@ -33,6 +33,12 @@ developerName: Exchangily LLC
 features: 
 
 ---
+
+## Update 2024-07-15 
+
+As Emanuel had solved and closed his [issue on GitHub](https://github.com/blockchaingate/exchangily-mobile-app/issues/1#issuecomment-822928914) the latest version of this app is now open **for verification.**
+
+## Old Review 2021-04-11
 
 This app is a self-custodial Bitcoin wallet:
 

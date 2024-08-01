@@ -8,11 +8,11 @@ users: 100000
 appId: com.secretkeylabs.xverse
 appCountry: cn
 released: 2021-10-12
-updated: 2024-06-05
-version: 1.31.0
+updated: 2024-07-15
+version: 1.33.0
 stars: 4.5
 ratings: 34
-reviews: 803
+reviews: 825
 size: 
 website: https://www.xverse.app/
 repository: 
@@ -21,7 +21,7 @@ icon: com.secretkeylabs.xverse.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2022-01-13
+date: 2024-07-17
 signer: 
 reviewArchive: 
 twitter: secretkeylabs
@@ -32,7 +32,11 @@ features:
 
 ---
 
-## App Description
+## Update 2024-07-17
+
+We did not find any change regarding the source-availability for this app. A search for the app ID ["com.secretekeylabs.xverse" on GitHub](https://github.com/search?q=%22com.secretkeylabs.xverse%22&type=code), did not point to a relevant Android app repository. Despite their claims of being an Open Source Android wallet, only the xverse-core library is available for scrutiny.
+
+## Review 2022-01-13
 
 > Send & receive Stacks (STX), Bitcoin (BTC) and all tokens built on Stacks. Xverse wallet is a mobile wallet for the Stacks blockchain.
 

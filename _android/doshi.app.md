@@ -21,7 +21,7 @@ icon: doshi.app.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-07-17
+date: 2024-07-25
 signer: 
 reviewArchive: 
 twitter: doshi_wallet
@@ -33,7 +33,26 @@ features:
 
 ---
 
-## App Description from Google Play
+## Update 2024-07-24
+
+[Terms:](https://www.doshi.app/terms-conditions)
+
+> Doshi App Limited (or our licensors) hold all intellectual property rights in and to the Doshi app worldwide. The app is licensed, not sold, to you for use. This means that we retain ownership of the app at all times.
+
+We searched GitHub again for the app ID and got:
+
+- 18 hits in [code](https://github.com/search?q=%22doshi.app%22&type=code) 
+- 2 [repositories](https://github.com/search?q=%22doshi.app%22&type=repositories)
+
+One of the hits in code is this:
+
+- [doshi](https://github.com/jeffersribeiro/doshi/blob/master/android/app/build.gradle)
+
+However, the app ID in the build.gradle file is **"com.doshi"** and not **"doshi.app"**. It's only version 1.0 and was last updated June 28, 2020. The app currently in review was released in August 22, 2022, last updated on 2023-11-17. 
+
+None of the other repositories are related to the app in review. The source for doshi.app is not publicly available.
+
+## App Description from Google Play 2023-07-17
 
 > - Collect NFTs or mint your own on Polygon using Doshi’s AI technology
 > - Get access to the latest DApps, NFT projects and blockchain-based Games.

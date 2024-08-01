@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.glamster.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-03-31
+date: 2024-06-29
 signer: 
 reviewArchive: 
 twitter: 

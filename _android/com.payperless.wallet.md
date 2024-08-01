@@ -8,9 +8,9 @@ users: 10000
 appId: com.payperless.wallet
 appCountry: 
 released: 2021-06-03
-updated: 2024-03-28
-version: 1.15.2
-stars: 4
+updated: 2024-07-26
+version: 1.17.0
+stars: 3.9
 ratings: 
 reviews: 13
 size: 
@@ -21,7 +21,7 @@ icon: com.payperless.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2022-04-11
+date: 2024-07-17
 signer: 
 reviewArchive: 
 twitter: Payperlesscom
@@ -34,7 +34,11 @@ features:
 
 ---
 
-## App Description 
+## Update 2024-07-17
+
+If one searches for the app ID ["com.payperless.wallet" on GitHub](https://github.com/search?q=%22com.payperless.wallet%22&type=code), you will not find any relevant GitHub Android repository or code. Despite the passage of time, this app is still **not source-available**.
+
+## App Description 2022-04-11
 
 The app is a multicurrency wallet with support for Bitcoin. 
 

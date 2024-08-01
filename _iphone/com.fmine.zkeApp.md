@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.fmine.zkeApp.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-06-13
+date: 2024-07-17
 signer: 
 reviewArchive: 
 twitter: ZKE_com

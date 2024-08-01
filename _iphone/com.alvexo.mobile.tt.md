@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.alvexo.mobile.tt.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosendreceive
-date: 2021-09-15
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: Alvexo_Trade

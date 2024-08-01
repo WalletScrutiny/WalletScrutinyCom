@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: exchange.delta.app.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-10-08
+date: 2024-07-14
 signer: 
 reviewArchive: 
 twitter: Delta_Exchange

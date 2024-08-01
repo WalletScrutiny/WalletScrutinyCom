@@ -4,15 +4,16 @@ title: 'imToken: BTC & ETH Wallet'
 altTitle: 
 authors:
 - leo
+- danny
 users: 1000000
 appId: im.token.app
 appCountry: 
 released: 2018-05-31
-updated: 2024-05-31
-version: 2.15.2
-stars: 4.3
+updated: 2024-07-01
+version: 2.15.3
+stars: 4.4
 ratings: 4350
-reviews: 227
+reviews: 230
 size: 
 website: https://token.im
 repository: 
@@ -21,7 +22,7 @@ icon: im.token.app.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-04-13
+date: 2024-07-15
 signer: 
 reviewArchive: 
 twitter: imTokenOfficial
@@ -31,6 +32,15 @@ developerName: IMTOKEN PTE.LTD.
 features: 
 
 ---
+
+## Update 2024-07-15
+
+Their official GitHub account "consenlabs" has many repositories yet none of them have a tagged release that matches the latest version of the app. Emanuel's issue was never followed-up upon.
+
+This app will continue to be **not verifiable.**
+
+
+## Old Review 2021-04-13
 
 In the description we read:
 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.probos.support.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
-date: 2023-10-03
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: probos_wallet

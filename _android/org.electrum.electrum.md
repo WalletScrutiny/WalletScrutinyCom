@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 - Mohammad Rafigh
+- danny
 users: 1000000
 appId: org.electrum.electrum
 appCountry: 
@@ -13,7 +14,7 @@ updated: 2024-05-30
 version: 4.5.5.0
 stars: 3.8
 ratings: 2500
-reviews: 328
+reviews: 330
 size: 
 website: https://electrum.org
 repository: https://github.com/spesmilo/electrum
@@ -22,7 +23,7 @@ icon: org.electrum.electrum.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-06-05
+date: 2024-07-11
 signer: 
 reviewArchive:
 - date: 2024-03-25
@@ -98,15 +99,15 @@ procedure expressed in our {% include testScript.html %}:
 appId:          org.electrum.electrum
 signer:         e543d576fa0f2a33d412bca4c7d61e2301830e956e7d947e75b9052d176027d3
 apkVersionName: 4.5.5.0
-apkVersionCode: 34050500
+apkVersionCode: 44050500
 verdict:        reproducible
-appHash:        4fbaff4d4e6c99744fb8744c0be01afa24ae70091ca0fa59dfc82d2beab5433a
+appHash:        5f25335ab62c13df2c20ce7d56e18db1f12eaf0fe00462bacae2a2ab0b71daf6
 commit:         7263a49129d14db288a01b0b9d569422baddf5e1
 
 Diff:
-Only in /tmp/fromPlay_org.electrum.electrum_34050500/META-INF: CERT.RSA
-Only in /tmp/fromPlay_org.electrum.electrum_34050500/META-INF: CERT.SF
-Only in /tmp/fromPlay_org.electrum.electrum_34050500/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_org.electrum.electrum_44050500/META-INF: CERT.RSA
+Only in /tmp/fromPlay_org.electrum.electrum_44050500/META-INF: CERT.SF
+Only in /tmp/fromPlay_org.electrum.electrum_44050500/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
 object 7263a49129d14db288a01b0b9d569422baddf5e1
@@ -116,6 +117,9 @@ tagger ThomasV <thomasv@electrum.org> 1716996193 +0200
 
 4.5.5
 ===== End Results =====
+
 ```
 
 This is what we want to see to file the product version as **reproducible**.
+
+{% include asciicast %}

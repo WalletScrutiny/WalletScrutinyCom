@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: tech.ionia.app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nobtc
-date: 2023-05-06
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: ionia_io

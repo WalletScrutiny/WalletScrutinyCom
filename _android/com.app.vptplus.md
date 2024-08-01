@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.app.vptplus.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-05-11
+date: 2024-07-14
 signer: 
 reviewArchive: 
 twitter: 

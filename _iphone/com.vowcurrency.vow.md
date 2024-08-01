@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.vowcurrency.vow.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2023-07-11
+date: 2024-07-30
 signer: 
 reviewArchive: 
 twitter: vowcurrency

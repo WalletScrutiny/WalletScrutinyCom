@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.instantexchange.instantexchange.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
-date: 2024-03-15
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

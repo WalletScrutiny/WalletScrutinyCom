@@ -4,6 +4,7 @@ title: AirGap Vault - Secure Secrets
 altTitle: 
 authors:
 - leo
+- keraliss
 users: 10000
 appId: it.airgap.vault
 appCountry: 
@@ -21,9 +22,14 @@ icon: it.airgap.vault.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2024-06-05
+date: 2024-07-30
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
 reviewArchive:
+- date: 2024-06-05
+  version: 3.31.0
+  appHash: 557ac77257fbe7b67834adee8c8fd955b87e8eed66c4db4a1b8b8f1781a4e060
+  gitRevision: 03703dbef3fcabdbb7a9ca18963e255aab7de5b7
+  verdict: nonverifiable
 - date: 2023-12-30
   version: 3.31.0
   appHash: b30f6adddb6bb5e5a583f29b97686980ea5872ec3f2899037afcd90286368efe
@@ -199,6 +205,323 @@ developerName: Papers AG
 features: 
 
 ---
+
+**Update 2024-07-30:** 
+
+We ran our {% include testScript.html %} which delivered these results:
+
+```
+===== Begin Results =====
+appId:          it.airgap.vault
+signer:         486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
+apkVersionName: 3.32.1
+apkVersionCode: 60786
+verdict:        
+appHash:        557ac77257fbe7b67834adee8c8fd955b87e8eed66c4db4a1b8b8f1781a4e060
+commit:         60feba0bfd7cf3129587ec2b0e39a48eb70503ef
+
+Diff:
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 1049.66a0a48bd7b6cd69.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 1059.285ba3cb9a3dedce.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 1102.35758f0811f3c71c.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 1117.1eb2c12445337385.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 1189.6e4ac3783e209775.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 120.3d0e2f5d5af4518a.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 1244.4ecab0fe2838fc36.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 1315.df5d23de7c3977ca.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 1354.16ea0cf2d1688f15.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 1368.453bc239536b1681.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 1372.cc062cd83c62ac00.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 138.a2dd31778d29ad78.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 1399.e5322e516001241f.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 1424.4bc375ac04b6492e.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 1433.fce4b01330b90a74.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 1493.17c336df4f52c0d1.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 1536.724686fcd4e64a00.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 1555.da5bd27573e8bae1.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 1577.dad99651a494a26f.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 1633.34a5651df0421b86.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 1647.17344dafdad01790.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 1691.715ae3289376b707.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 1710.fa0b50f270dd672f.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 1745.f3f97e165c5825c2.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 1750.f27c7b9b09db6baa.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 1791.3484004ab7afd4f4.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 1845.79a9f6e940edbb1d.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 185.c96286762ca725e2.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 2015.17538754b333507d.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 2075.3ef283fa77184951.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 2113.3c98a16b5c7ed787.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 2144.e465f6228608e22a.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 2150.9d9c7f39477f24e8.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 2348.ca3031e0dd723dfe.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 2375.3e5db760c13c4fc5.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 2405.d476d80638c90255.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 2415.1308221935d1fde7.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 2514.f635fa214cf72249.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 2560.5fb3d4bf2a94cadf.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 2605.523b9de55dd3c802.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 2628.26b44a9a6afd50d5.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 2841.804a6206a058c719.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 2885.8ba73c317c674aa1.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 2887.95e773841bd0802f.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 2912.eba0373f31503f38.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 2937.0196254c1e56b76f.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 2975.8b704b4e55fb6026.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 3104.42c081929ebce166.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 3110.9e61d915f2f80fa4.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 3150.6846a9fe860f7cce.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 3162.381dea2bf23a4751.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 3179.c103f82eccdb68d8.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 3347.07011b97265e9f22.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 340.05df0b6bb9da8886.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 3438.2aa44f1f6d9a4104.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 3483.94fcd74ab63997aa.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 3506.c475cd6fb294724a.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 3511.3169bfe3f61573cd.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 3528.d3f8c2211a6b012c.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 3530.de33a256aceee106.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 3544.a301add1dc471ed2.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 3591.a863f05b9e9ffba2.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 3672.c738ac591d906162.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 3676.2d7cc08ec8954f0b.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 3697.01f781a71b734c46.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 3734.fa0592815c1ee50f.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 3814.8e8fbf79c9bdb40e.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 3910.b1deba5706bbce9a.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 3985.6b71f7a099f7aee9.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 3998.07b98408ffe91490.js
+Files /tmp/fromPlay_it.airgap.vault_60786/assets/public/3rdpartylicenses.txt and /tmp/fromBuild_it.airgap.vault_60786/assets/public/3rdpartylicenses.txt differ
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 4004.d48da108c6f19f20.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 4087.30cd45da9076bd7d.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 4090.6205499467e89c5f.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 4109.ea9f0c35d5d2f487.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 4119.7b5f9149f0368198.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 413.2bb0e6bd5846a925.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 4171.3362c02cf24f7f51.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 4183.b027c044ce4d0848.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 4292.5b5c3fa88cb82bd8.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 433.b7542ec8e8a8ee24.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 435.94467fd81dcbeb76.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 4363.2bdf96179ba46a51.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 4382.2fd70f5b4fc1fdee.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 4386.42ec66e7a8419f58.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 4406.8ce5ad4b5bb55215.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 441.ffba4bcd05d3b226.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 4438.314631f2fcf206a6.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 4458.14c8743df4a2060f.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 4463.fcc8b76137725dc7.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 4485.9565428b51b5e2db.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 4506.a44ccfc7a1407303.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 4522.c80a4bdeec473b26.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 4530.c0769005886b9935.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 4578.4cab105095d0e997.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 4591.421d6800491861a4.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 4694.5aad4e1f4009653b.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 4699.be9082bdbcfb36ba.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 469.fbb56ba1fbe751bc.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 4736.0f512a33681cd498.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 4745.651f9cdbc7ab764a.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 4764.cb9434e2ee494031.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 4787.d1f4d52a1aeb7931.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 4942.7cefc337fa0e8032.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 505.665af6f92e60514e.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 507.b9ff512b02cb545a.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 5100.a829cfe0a0278636.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 5101.41960ca54a098060.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 5139.74f9e4ee8a0812d8.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 5155.34620851a4985c03.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 5197.a226f627ebe357b5.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 5222.ec20a1ea8634e848.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 523.c6f70c07021e13ed.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 5290.4ecaa6662df3261c.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 5303.ea1a475f964436be.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 535.9b76c39eb56834a7.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 5381.8a730c46c748c6f3.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 5394.13c2c67861e84e82.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 5421.4c77208025237e96.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 5454.85e615db12edd097.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 5495.92ceb889759752e9.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 551.14d4c5b251db7c23.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 5675.2c82c316f2dc6703.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 5712.8ba3e68ecbd3e7d8.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 57.1d3012a039d89535.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 5842.a203b43b4e7fc5da.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 5860.e0919288c5704ca2.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 5862.0dae9216b06792c1.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 5887.bcc15ea43e65d345.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 5933.cd5b3df52af932eb.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 5949.31f67a777a82f567.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 5962.ef107ada7989c149.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 6024.b1aaa78e8e449df7.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 604.cd4a60b53283d064.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 614.cdc663e7be1c6431.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 6181.164ae448d9f1eaaf.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 6210.1f9598de6a98dd35.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 6274.7caf03be5900807d.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 6277.9b31a56f69efb4a0.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 6304.216897c06e207c03.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 6319.026553ccfc339230.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 6366.59d1318796bdf07f.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 6367.f470d362c8094efb.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 6408.69e0cae150ac960c.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 6433.327302af95d91809.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 6469.67b9984dbb0e15f8.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 6550.0dc20b8a3dfdfc12.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 6561.fdcc6a89e41041a7.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 6570.c558a2a6672fb5cf.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 661.5326593345daa232.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 6642.c452108b989997f5.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 6673.3bc2a27c20b9b622.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 6754.e8b85a89536e719e.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 6779.250648b291485189.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 6800.7efced36d99ab16d.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 6811.9cbcda1f6fe7f886.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 6822.e093f79bfc8871c4.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 6878.dc9de4bd877d3343.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 6918.b68c0fe74b0ef164.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 7030.b8309f366bd637ca.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 7059.50ace6aad3705874.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 7076.e31e3d255818e59e.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 7094.99cc8b275ada1292.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 7179.6faac7b8d406c6c2.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 720.3496e3fb251e6abf.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 7219.2b2b007de07d04b0.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 7240.2b306bb773b1a746.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 7250.8819ce2469f6a022.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 7259.e694a1aa6d666e7a.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 7268.6a57529b2ac325ff.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 7330.bdb1826daf58993b.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 7347.8a7d777e227ffead.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 7372.4ccf023b7dd7d35a.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 7384.5e8a4dc2c5a88897.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 7419.ad4e074c53b540e8.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 7428.fe20343c3a9d4c0e.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 7458.9cd6af10bb9d1b7f.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 7465.ad3c71e0d6b969d7.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 7522.8388b870b22b7082.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 7571.67955a240de2ecc9.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 758.b0b6151178af3cd7.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 7600.013d6aa285d68ce2.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 7635.10a540e84206ba07.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 7666.0053c7570e39e47e.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 771.94bbdb45d2faad00.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 7720.992b82ae427c5417.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 7767.5aef2d833ebb244e.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 780.a006ac2886d409e1.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 7937.92afcc25f02cae35.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 7983.a8b31f7127887eaf.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 7989.0d135173c2bf8500.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 7995.b35d1badb06a78ac.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 8009.3a517897741b5278.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 8044.8b21f9ebfafb193b.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 8045.382e164aa5b5fb21.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 8066.c033ea5ce1bff1b7.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 8151.7211160b8e6b4251.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 8193.0c8a7d76009cd65a.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 8200.b7bd11f52be50b21.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 8231.dc1b80d106f24375.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 8280.b406e7c8c094b8c2.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 8299.f23906fb8a40cc94.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 8314.d292e2f9b68bd1e7.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 8360.79037bb2abeb4d11.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 8362.1cadd54445a8c778.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 8368.013a35a1ec3ba020.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 8380.6daddb3c5039250d.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 8382.043ad91edb137056.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 8431.7675471fd19006da.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 8433.e32777a837002270.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 8477.85b315c764b2c649.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 8484.eb5bc8862b88445d.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 8484.fe64a58ce638e1dd.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 8577.9e0cdb9a97e86f10.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 8584.11dd2a47f3f936b3.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 8594.df0530feda44cbf4.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 8633.d33dbebca244b6bd.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 8716.0319b25a9f80993a.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 8729.53a2458d89e361fe.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 8758.2136d4a10b89f0d6.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 8805.c6f1787c71f328c6.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 8811.a0d09753b88f23fb.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 8814.ad051c7fc6da4beb.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 8866.bb93b00353a913f4.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 8917.f9b39d509d3a71e4.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 8970.b3f6cbb36cca05e2.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 9002.8a686aa570060f72.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 9003.ff3af2c1f837d7d5.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 9044.8161c504acd7410b.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 908.fe54c935d3670df1.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 9122.0d7bfc100d4343ab.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 9152.8598b6ad1ff073a3.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 9175.4d2466daa72c8923.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 9303.c961ee69226c2839.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 9344.23139ea36bcca75c.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 9352.1caf2a441c7f7263.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 9382.0fb5d1ff47588677.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 945.9d61984781575915.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 9507.892e8d8e210cc552.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 9588.06d3455e17c76858.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 9606.aac241f6f135bf6e.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 962.ab03671ef1f26f44.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 964.2b805bab39d1f977.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 9702.98b6472698901575.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 9793.c5481e7332100afd.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 9820.a578df58c7897d12.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 9821.26d74e521e4bf1a4.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 9857.9b67de1c0e2e5c62.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 986.59b0e217fdd4e663.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 9876.95a1baaf21496b83.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 9882.93f4edb852d4bc5e.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: 9977.82aa11e4ae4c14ae.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: 9992.03ff81a5c2347de9.js
+Files /tmp/fromPlay_it.airgap.vault_60786/assets/public/assets/i18n/de.json and /tmp/fromBuild_it.airgap.vault_60786/assets/public/assets/i18n/de.json differ
+Files /tmp/fromPlay_it.airgap.vault_60786/assets/public/assets/i18n/en.json and /tmp/fromBuild_it.airgap.vault_60786/assets/public/assets/i18n/en.json differ
+Files /tmp/fromPlay_it.airgap.vault_60786/assets/public/assets/i18n/es.json and /tmp/fromBuild_it.airgap.vault_60786/assets/public/assets/i18n/es.json differ
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public/assets/i18n: fr.json
+Files /tmp/fromPlay_it.airgap.vault_60786/assets/public/assets/i18n/pt_BR.json and /tmp/fromBuild_it.airgap.vault_60786/assets/public/assets/i18n/pt_BR.json differ
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public/assets/i18n: ru.json
+Files /tmp/fromPlay_it.airgap.vault_60786/assets/public/assets/i18n/zh_CN.json and /tmp/fromBuild_it.airgap.vault_60786/assets/public/assets/i18n/zh_CN.json differ
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public/assets/i18n: zh.json
+Files /tmp/fromPlay_it.airgap.vault_60786/assets/public/assets/i18n-common/de.json and /tmp/fromBuild_it.airgap.vault_60786/assets/public/assets/i18n-common/de.json differ
+Files /tmp/fromPlay_it.airgap.vault_60786/assets/public/assets/i18n-common/en.json and /tmp/fromBuild_it.airgap.vault_60786/assets/public/assets/i18n-common/en.json differ
+Files /tmp/fromPlay_it.airgap.vault_60786/assets/public/assets/i18n-common/es.json and /tmp/fromBuild_it.airgap.vault_60786/assets/public/assets/i18n-common/es.json differ
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public/assets/i18n-common: fr.json
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public/assets/i18n-common: pt_BR.json
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public/assets/i18n-common: ru.json
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public/assets/i18n-common: zh-cn.json
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public/assets/i18n-common: zh_CN.json
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public/assets/icons: shapes.svg
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public/assets/symbols: cacu.svg
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public/assets/symbols: ytez.svg
+Files /tmp/fromPlay_it.airgap.vault_60786/assets/public/assets/workers/airgap-coin-lib.js and /tmp/fromBuild_it.airgap.vault_60786/assets/public/assets/workers/airgap-coin-lib.js differ
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: common.b68ce0b85ddb5351.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: common.c0e9d52d261fb9c9.js
+Files /tmp/fromPlay_it.airgap.vault_60786/assets/public/index.html and /tmp/fromBuild_it.airgap.vault_60786/assets/public/index.html differ
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: main.9f8d36ef5bcb0c71.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: main.d24077c74781c38c.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: polyfills.1a85f84598b6d97f.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: polyfills-core-js.293fba94f911a892.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: polyfills-core-js.380e164d401fe7e5.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: polyfills-dom.02d0781abc5dab13.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: polyfills-dom.d0b5855d05883eba.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: polyfills.ef442c55a3c9fd99.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/assets/public: runtime.1169f7414ca44a07.js
+Only in /tmp/fromBuild_it.airgap.vault_60786/assets/public: runtime.ddc52533cade6707.js
+Only in /tmp/fromPlay_it.airgap.vault_60786/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_it.airgap.vault_60786/META-INF: PAPERS.RSA
+Only in /tmp/fromPlay_it.airgap.vault_60786/META-INF: PAPERS.SF
+
+Revision, tag (and its signature):
+
+===== End Results =====
+```
+
+With This many diffs, this is **not verifiable**. 
+
+
+
+---
+
 
 We ran our {% include testScript.html %} which delivered these results:
 

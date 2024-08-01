@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.hots.quantity.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-12-02
+date: 2024-07-19
 signer: 
 reviewArchive: 
 twitter: hotscoin

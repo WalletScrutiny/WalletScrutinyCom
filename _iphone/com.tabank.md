@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.tabank.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2024-02-20
+date: 2024-07-30
 signer: 
 reviewArchive: 
 twitter: OrgTabank

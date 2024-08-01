@@ -11,16 +11,16 @@ released: 2022-06-15
 updated: 2024-05-31
 version: '24.0527'
 stars: 4.4
-reviews: 36
+reviews: 39
 size: '65255424'
 website: https://yield.app/
 repository: 
 issue: 
 icon: app.yield.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-05-03
+date: 2024-07-22
 signer: 
 reviewArchive: 
 twitter: yieldapp

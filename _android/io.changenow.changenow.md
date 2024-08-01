@@ -4,15 +4,16 @@ title: Crypto Exchange & Buy Crypto
 altTitle: 
 authors:
 - leo
+- danny
 users: 100000
 appId: io.changenow.changenow
 appCountry: 
 released: 2018-09-07
 updated: 2024-05-29
-version: 1.151.9
+version: 1.152.1
 stars: 4.8
 ratings: 2199
-reviews: 683
+reviews: 694
 size: 
 website: https://changenow.io
 repository: 
@@ -21,7 +22,7 @@ icon: io.changenow.changenow.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2020-11-16
+date: 2024-07-13
 signer: 
 reviewArchive: 
 twitter: ChangeNOW_io
@@ -34,6 +35,12 @@ developerName: ChangeNOW
 features: 
 
 ---
+
+## Update 2024-11-16
+
+No notable changes have been found regarding this app's source-availability.
+
+## 2020-11-16
 
 > We focus on simplicity and safety — the service is registration-free and non-custodial.
 

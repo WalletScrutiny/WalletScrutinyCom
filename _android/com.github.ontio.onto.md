@@ -8,8 +8,8 @@ users: 100000
 appId: com.github.ontio.onto
 appCountry: us
 released: 2018-06-27
-updated: 2024-06-07
-version: 4.7.4
+updated: 2024-07-18
+version: 4.7.7
 stars: 4.4
 ratings: 1170
 reviews: 126
@@ -21,7 +21,7 @@ icon: com.github.ontio.onto.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-09-15
+date: 2024-07-15
 signer: 
 reviewArchive: 
 twitter: ONTOWallet
@@ -31,6 +31,12 @@ developerName: Ontology Foundation Ltd.
 features: 
 
 ---
+
+## Update 2024-07-15
+
+Nothing new changed with regards to the availability of this app's source code. It is still not available. 
+
+## Review 2021-09-15
 
 The Google Play description: 
 

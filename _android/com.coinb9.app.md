@@ -4,7 +4,7 @@ title: B9 Crypto
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 100000
 appId: com.coinb9.app
 appCountry: 
 released: 2022-03-07

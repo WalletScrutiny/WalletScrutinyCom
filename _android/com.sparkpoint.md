@@ -22,7 +22,7 @@ icon: com.sparkpoint.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-03-06
+date: 2024-07-15
 signer: 
 reviewArchive: 
 twitter: sparkpointio
@@ -36,17 +36,14 @@ features:
 
 ---
 
-This app sounds at first as if it was not for Bitcoin but self-custodial:
+It has a standard description introducing the wallet's purpose:
 
-> In this initial release of SparkPoint, we are first enabling SparkPoint
-  Wallet, a 100% non-custodial wallet, so you can store your ETH and SRK tokens
-  on your Android devices.
+> Unlock the SparkPoint Ecosystem with our official crypto wallet app.
+Send, receive, and store BTC, ETH, SRK, SFUEL, other ERC-20 & BEP-20 tokens and your NFTs with ease & confidence.
 
-but further down we can also find Bitcoin:
-
-> - Send and receive Bitcoin (BTC)
+It also claims to be "100% non-custodial".
 
 **The reviews are brutal!!** Read the scam accusations and consider that
 positive ratings might be bought! This amount of accusations is not normal!
 
-That said, we can't find any source code and conclude the app is **not verifiable**.
+We were not able to find the source code nor any references to its availability and conclude the app is **not verifiable**.

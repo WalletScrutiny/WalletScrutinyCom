@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.union.cash.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-11-17
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

@@ -11,7 +11,7 @@ released: 2022-01-18
 updated: 2024-06-11
 version: 3.3.31
 stars: 4.4
-reviews: 1660
+reviews: 1882
 size: '60854272'
 website: https://useaccrue.com
 repository: 

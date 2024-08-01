@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.goldex.pro.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-10-14
+date: 2024-07-25
 signer: 
 reviewArchive: 
 twitter: 

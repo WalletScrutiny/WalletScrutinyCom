@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.wise.llc.wallet.app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
-date: 2023-07-04
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

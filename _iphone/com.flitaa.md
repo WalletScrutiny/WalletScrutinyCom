@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.flitaa.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2024-06-18
+date: 2024-07-25
 signer: 
 reviewArchive: 
 twitter: getflitaa

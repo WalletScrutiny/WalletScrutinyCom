@@ -4,6 +4,7 @@ title: Bitcoin Wallet Crypto Ethereum
 altTitle: 
 authors:
 - leo
+- danny
 users: 1000000
 appId: io.atomicwallet
 appCountry: 
@@ -12,7 +13,7 @@ updated: 2024-05-24
 version: 1.29.9
 stars: 4.3
 ratings: 62655
-reviews: 5617
+reviews: 5621
 size: 
 website: https://atomicwallet.io
 repository: 
@@ -21,7 +22,7 @@ icon: io.atomicwallet.png
 bugbounty: 
 meta: ok
 verdict: obfuscated
-date: 2021-03-02
+date: 2024-07-13
 signer: 
 reviewArchive:
 - date: 2020-10-12
@@ -37,6 +38,10 @@ developerName: Atomic Wallet
 features: 
 
 ---
+
+**Update 2024-07-13:**
+
+We have not seen any major changes regarding the source-availability of its Android app.
 
 **Update 2021-03-02:** We were approached by a visitor mentioning that Atomic
 does have a GitHub and indeed [they do](https://github.com/Atomicwallet) but

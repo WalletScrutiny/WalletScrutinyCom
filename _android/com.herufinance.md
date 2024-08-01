@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.herufinance.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-12-01
+date: 2024-07-30
 signer: 
 reviewArchive: 
 twitter: 

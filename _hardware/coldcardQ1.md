@@ -5,24 +5,24 @@ authors:
 - danny
 released: 2022-10-05
 discontinued: 
-updated: 2024-04-02
-version: v1.1.0Q
+updated: 2024-05-09
+version: v1.2.1Q
 binaries: https://coldcard.com/downloads/
 dimensions: 
 weight: 
 provider: Coinkite
 providerWebsite: 
-website: https://coinkite.com/
+website: https://coldcard.com/q
 shop: https://store.coinkite.com/store/cc-q1
 country: CA
-price: 199USD
+price: 219.99USD
 repository: https://github.com/Coldcard/firmware
 issue: 
 icon: coldcardQ1.png
 bugbounty: 
 meta: ok
-verdict: unreleased
-date: 2024-04-09
+verdict: reproducible
+date: 2024-05-31
 signer: 
 reviewArchive: 
 twitter: COLDCARDwallet
@@ -55,14 +55,26 @@ You can set a PIN code for the device and are offered four options in creating a
 
 ## Reproducibility 
 
-ColdCard Q is still in a pre-order phase as the date of this review, as stated in this [pull request](https://github.com/Coldcard/firmware/pull/332).
+As ColdcardQ1's source code is now available, we decided to check for reproducibility. Excluding a few changes to our [test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/scripts/test/hardware/coldCard.sh), steps to reproduce the product remain largely the same across the Coldcard series. We were able to build the binary file.
 
-> This PR will hold the Q related firmware changes until they are merged.
-> 
-> Coldcard Q is not yet shipping, but you can reserve your unit at our store.coinkite.com.
->
-> Built and signed binaries for the lucky few who have test Q hardware can be found here: https://coldcard.com/downloads
->
-> This branch will build both Mk4 and Q binaries with the same features (subject to hardware differences) but we have not yet tested the many changes on Mk4.
+```
+hexdump -C firmware-signed.bin | sed -e 's/^00003f[89abcdef]0 .*/(firmware signature here)/' > repro-got.txt
+hexdump -C check-fw.bin | sed -e 's/^00003f[89abcdef]0 .*/(firmware signature here)/' > repro-want.txt
+diff repro-got.txt repro-want.txt
 
-Currently, this product is **unreleased**.
+SUCCESS. 
+
+You have built a bit-for-bit identical copy of Coldcard firmware for v1.2.1Q
++ set +ex
+
+Hash of non-signature parts downloaded/compiled:
+81e9d676353402169b6e440482a7ad49c100653f5271439b06b00a77616749c1  2024-05-09T1529-v1.2.1Q-q1-nosig.bin
+81e9d676353402169b6e440482a7ad49c100653f5271439b06b00a77616749c1  firmware-nosig.bin
+
+Hash of the signed firmware:
+90b1edfbe194b093258f9cda8f4add4aa3317e9ea205ff35914da7d91410fdae  /tmp/firmware/releases/2024-05-09T1529-v1.2.1Q-q1-coldcard.dfu
+55f29ec5e2a476bd2cb153c465879b2dee9538c2704b19798ed262cf918838fb  /tmp/firmware/stm32/built/firmware-signed.dfu
+
+```
+
+Now that the firmware has been reproduced successfully, the unsigned binaries' checksums are matched. We can now mark this product as **reproducible.**

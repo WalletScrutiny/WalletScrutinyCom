@@ -8,11 +8,11 @@ users: 10000
 appId: com.saitapro
 appCountry: 
 released: 2022-07-29
-updated: 2024-06-10
-version: '1.43'
+updated: 2024-07-11
+version: '1.45'
 stars: 3.9
 ratings: 
-reviews: 329
+reviews: 331
 size: 
 website: http://Saitamatoken.com
 repository: 
@@ -21,7 +21,7 @@ icon: com.saitapro.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-07-02
+date: 2024-07-24
 signer: 
 reviewArchive: 
 twitter: WeAreSaitama
@@ -37,7 +37,11 @@ features:
 
 ---
 
-## App Description from Google Play
+## Update 2024-07-24
+
+No significant updates regarding source-availability to report.
+
+## App Description from Google Play 2023-07-02
 
 > - Non-custodial Wallet, meaning your assets are not centralized and truly belong to you.
 - Easily transfer digital currencies to your friends and family.

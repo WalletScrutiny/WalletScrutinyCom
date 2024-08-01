@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.eidoo.android.app.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-07-08
+date: 2024-07-14
 signer: 
 reviewArchive: 
 twitter: eidoo_io

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.crypstone.android.crypstone.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2023-05-22
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: CrypstoneGlobal

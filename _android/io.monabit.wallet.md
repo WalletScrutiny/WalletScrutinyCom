@@ -21,7 +21,7 @@ icon: io.monabit.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-07-20
+date: 2024-07-24
 signer: 
 reviewArchive: 
 twitter: 
@@ -35,7 +35,11 @@ features:
 
 ---
 
-## App Description from Google Play
+## Update 2024-07-24
+
+We have found no evidence to indicate that the source code for this app is publicly accessible.
+
+## App Description from Google Play 2023-07-20
 
 > Monabit is a decentralized wallet that allows you to manage and trade your crypto assets safely and quickly, without losing control of your funds; We support various crypto assets such as: Bitcoin (BTC), Tron (TRX), Ethereum (ETH), Tether USDT (ERC-20 and TRC-20), and Tokens (ERC-20 and TRC-20).
 >

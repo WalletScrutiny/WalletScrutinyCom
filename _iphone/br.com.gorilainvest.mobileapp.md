@@ -8,11 +8,11 @@ appId: br.com.gorilainvest.mobileapp
 appCountry: us
 idd: '1447950043'
 released: 2019-01-27
-updated: 2024-03-27
-version: 6.2.0
+updated: 2024-07-08
+version: 6.3.2
 stars: 4.7
-reviews: 231
-size: '45484032'
+reviews: 232
+size: '48913408'
 website: https://gorila.com.br/
 repository: 
 issue: 

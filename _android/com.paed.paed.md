@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.paed.paed.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2024-02-16
+date: 2024-07-22
 signer: 
 reviewArchive: 
 twitter: 

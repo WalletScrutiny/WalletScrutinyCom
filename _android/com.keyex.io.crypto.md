@@ -7,8 +7,8 @@ users: 100
 appId: com.keyex.io.crypto
 appCountry: 
 released: 2023-02-15
-updated: 2024-06-07
-version: 1.1.14
+updated: 2024-07-26
+version: 1.1.23
 stars: 
 ratings: 
 reviews: 

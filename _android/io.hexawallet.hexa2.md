@@ -20,8 +20,8 @@ issue:
 icon: io.hexawallet.hexa2.png
 bugbounty: 
 meta: ok
-verdict: ftbfs
-date: 2021-10-18
+verdict: wip
+date: 2024-07-16
 signer: 
 reviewArchive: 
 twitter: HexaWallet
@@ -32,6 +32,10 @@ developerName: BitHyve UK Ltd.
 features: 
 
 ---
+
+## Update 2024-07-16
+
+After several years, it may be worth re-visiting whether this app could be built and verified. Re-labelling this as **for verification**
 
 ## Updated Verdict 2021-12-21
 

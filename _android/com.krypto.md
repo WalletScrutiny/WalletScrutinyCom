@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.krypto.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2024-06-07
+date: 2024-07-14
 signer: 
 reviewArchive: 
 twitter: letskrypto

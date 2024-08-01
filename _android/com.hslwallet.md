@@ -7,8 +7,8 @@ users: 10
 appId: com.hslwallet
 appCountry: 
 released: 2021-08-04
-updated: 2024-02-08
-version: 7.5.0
+updated: 2024-07-29
+version: 7.7.2
 stars: 
 ratings: 
 reviews: 

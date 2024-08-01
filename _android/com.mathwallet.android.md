@@ -8,11 +8,11 @@ users: 100000
 appId: com.mathwallet.android
 appCountry: 
 released: 2021-10-26
-updated: 2024-06-03
-version: 5.4.7
+updated: 2024-07-18
+version: 5.5.1
 stars: 3.7
 ratings: 
-reviews: 52
+reviews: 54
 size: 
 website: https://www.mathwallet.org/
 repository: 
@@ -21,7 +21,7 @@ icon: com.mathwallet.android.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2024-01-05
+date: 2024-07-15
 signer: 
 reviewArchive: 
 twitter: Mathwallet
@@ -59,5 +59,10 @@ features:
 - The seed phrases were provided
 - There is support for segwit and taproot
 - The app is self-custodial
-- Although the repository contains many items, it does not have the Android app's source. 
-- The app is **not source-available**.
+
+## Reproducibility?
+
+In MathWallet's official GitHub profile we found a repository where its Playstore app ID was referenced. [MathWallet5SDK-Android](https://github.com/mathwallet/MathWallet5SDK-Android). The repository houses MathWallet's SDK, however that's all it is. There is no source code to use it with.
+
+MathWallet's profile houses a different repository called ["MathChain"](https://github.com/mathwallet/MathChain) which is a different project entirely.
+

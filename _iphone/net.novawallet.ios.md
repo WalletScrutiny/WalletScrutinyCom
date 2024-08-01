@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: net.novawallet.ios.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
-date: 2023-07-28
+date: 2024-07-19
 signer: 
 reviewArchive: 
 twitter: solidus_v

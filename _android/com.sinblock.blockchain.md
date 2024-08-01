@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Aibit
+title: 'Aibit: Buy Bitcoin & Crypto'
 altTitle: 
 authors: 
 users: 10000
 appId: com.sinblock.blockchain
 appCountry: 
 released: 2022-09-22
-updated: 2024-06-21
-version: 4.3.1
+updated: 2024-07-22
+version: 4.4.0
 stars: 
 ratings: 
 reviews: 

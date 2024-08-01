@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.altcoin.wallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2022-01-14
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

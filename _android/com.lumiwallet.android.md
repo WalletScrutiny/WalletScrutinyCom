@@ -12,16 +12,16 @@ updated: 2023-07-11
 version: 4.1.6
 stars: 4
 ratings: 6388
-reviews: 264
+reviews: 265
 size: 
 website: https://lumiwallet.com
 repository: 
 issue: 
 icon: com.lumiwallet.android.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-06-16
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: Lumi_wallet

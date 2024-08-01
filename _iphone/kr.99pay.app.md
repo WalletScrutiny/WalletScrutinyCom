@@ -8,11 +8,11 @@ appId: kr.99pay.app
 appCountry: kr
 idd: 1229582503
 released: 2017-05-05
-updated: 2024-06-03
-version: 5.5.0
+updated: 2024-07-04
+version: 5.5.2
 stars: 4.7
-reviews: 935
-size: '93493248'
+reviews: 1073
+size: '93530112'
 website: http://www.99pay.kr
 repository: 
 issue: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.dodiexchange.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2024-01-16
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

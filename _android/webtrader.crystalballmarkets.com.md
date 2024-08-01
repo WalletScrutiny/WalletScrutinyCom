@@ -3,7 +3,7 @@ wsId:
 title: Crystal Ball Markets MT7
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: webtrader.crystalballmarkets.com
 appCountry: 
 released: 2022-05-25

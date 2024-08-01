@@ -1,6 +1,6 @@
 ---
 wsId: makeDelta
-title: TraderCat - Alerts, Screener
+title: Traderkat - Alerts, Screener
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.makedelta.slying
 appCountry: kr
 idd: '1581110050'
 released: 2021-08-15
-updated: 2024-04-30
-version: 8.0.1
+updated: 2024-07-12
+version: 8.0.2
 stars: 4.7
-reviews: 117
-size: '57303040'
+reviews: 118
+size: '57657344'
 website: https://traderkat.io/
 repository: 
 issue: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: chat.n2n2.Chat.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-07-29
+date: 2024-07-17
 signer: 
 reviewArchive: 
 twitter: get_zion

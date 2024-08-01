@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bolt.pegasus.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-04-15
+date: 2024-07-17
 signer: 
 reviewArchive: 
 twitter: bolt_global

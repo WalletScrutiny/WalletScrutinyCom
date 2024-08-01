@@ -8,8 +8,8 @@ users: 10000
 appId: com.capitalsecurities.liqx
 appCountry: 
 released: 
-updated: 2024-04-03
-version: 2.6.8
+updated: 2024-07-02
+version: 2.7.1
 stars: 2.3
 ratings: 
 reviews: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.capitalsecurities.liqx.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosendreceive
-date: 2023-05-13
+date: 2024-07-22
 signer: 
 reviewArchive: 
 twitter: 

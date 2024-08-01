@@ -8,9 +8,9 @@ users: 5000
 appId: co.bacoor.keyring
 appCountry: 
 released: 2021-01-21
-updated: 2024-05-24
-version: 3.6.0
-stars: 4.7
+updated: 2024-06-28
+version: 3.7.0
+stars: 4.6
 ratings: 
 reviews: 1
 size: 
@@ -21,7 +21,7 @@ icon: co.bacoor.keyring.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-11-17
+date: 2024-07-17
 signer: 
 reviewArchive: 
 twitter: KEYRING_PRO
@@ -31,6 +31,23 @@ developerName: bacoor inc.
 features: 
 
 ---
+
+## Updated Review 2024-07-17
+
+KEYRING PRO has undergone a few changes over the years. It advertises itself as a Web3 Wallet as well as its new feature allowing users connect to a NFC Card/"Cold Wallet".
+
+> KEYRING PRO: A United Crypto Wallet For Bitcoin, Ethereum, Solana, Avalanche, Binance Chain, NFT & More
+>
+> KEYRING PRO is the ultimate Web3 wallet for professionals with adequate solutions executed in a secure and reliable environment.
+> The wallet offers users a convenient way to send and receive assets across a variety of blockchain networks, including Bitcoin, Ethereum, Solana, Binance Chain, Avalanche, and all EVM-compatible chains.
+> Additionally, it allows users to simultaneously connect to various Dapps via Wallet Connect infrastructure.
+
+It no longer mentions generating the private keys or creating wallet backups, although the option to do so is still there as seen in the [FAQs.](https://keyring.app/)
+
+There continues to be no mention of source code or links to a GitHub account. This wallet's claims of security remain **not verifiable.**
+
+
+## Old Review 2021-11-17
 
 ## App Description
 

@@ -4,6 +4,7 @@ title: 'Nash: Trade & Invest in Crypto'
 altTitle: 
 authors:
 - kiwilamb
+- danny
 users: 10000
 appId: io.nash.app
 appCountry: 
@@ -21,7 +22,7 @@ icon: io.nash.app.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-04-30
+date: 2024-07-15
 signer: 
 reviewArchive: 
 twitter: nashsocial
@@ -33,9 +34,9 @@ features:
 
 ---
 
-This statement in the description from the [play store](https://play.google.com/store/apps/details?id=io.nash.app) below is a claim only the user has access to the private keys.
+This statement in the description from the [play store](https://play.google.com/store/apps/details?id=io.nash.app) below is a claim that the users have full control of their funds.
 
-> Nash doesn’t take control of your funds – unlike Coinbase, Kraken or Binance. We’re the only fully-featured exchange where you can trade Bitcoin without giving up your private keys.
+> Fully self-custody - you have full control of your funds.
 
 With keys in control of the user, we need to find the source code in order to check reproducibility.
 However we are unable to locate a public source repository.

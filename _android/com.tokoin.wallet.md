@@ -21,7 +21,7 @@ icon: com.tokoin.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-11-10
+date: 2024-07-16
 signer: 
 reviewArchive: 
 twitter: tokoinindonesia
@@ -34,7 +34,11 @@ features:
 
 ---
 
-## App Description
+## Update 2024-07-16
+
+No change regarding source availability is found.
+
+## App Description 2021-11-10
 
 > It is the first official digital wallet from Tokoin where you can store and transfer your TOKO token. Besides TOKO, you can also manage multiple cryptocurrencies including Bitcoin and Ethereum.
 

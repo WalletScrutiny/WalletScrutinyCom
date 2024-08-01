@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.xbank_rn.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-06-13
+date: 2024-07-26
 signer: 
 reviewArchive: 
 twitter: xBank_Official

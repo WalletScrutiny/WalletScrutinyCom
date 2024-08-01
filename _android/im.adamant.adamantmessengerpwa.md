@@ -8,20 +8,20 @@ users: 10000
 appId: im.adamant.adamantmessengerpwa
 appCountry: 
 released: 2020-06-13
-updated: 2024-03-23
-version: 4.6.2.0
+updated: 2024-07-01
+version: 4.7.3
 stars: 4.2
 ratings: 
 reviews: 15
 size: 
 website: https://adamant.im
-repository: 
+repository: https://github.com/Adamant-im/adamant-im
 issue: 
 icon: im.adamant.adamantmessengerpwa.png
 bugbounty: 
 meta: ok
-verdict: nosource
-date: 2023-04-15
+verdict: wip
+date: 2024-07-20
 signer: 
 reviewArchive: 
 twitter: adamant_im
@@ -35,7 +35,11 @@ features:
 
 ---
 
-## App Description from [Google Play](https://play.google.com/store/apps/details?id=im.adamant.adamantmessengerpwa) 
+## Update 2024-07-20
+
+We found the repository for Adamant IM Messenger with a [GitHub release version](https://github.com/Adamant-im/adamant-im/releases/tag/v4.7.3) that is close to the Google Play version. This app is scheduled **for verification**
+
+## App Description from [Google Play](https://play.google.com/store/apps/details?id=im.adamant.adamantmessengerpwa) 2023-04-15
 
 > CRYPTO WALLET. Just a single password for all the internal cryptocurrencies: ADAMANT, Bitcoin, Ethereum, Doge, Dash, Binance coin, Bit-Z token, KuCoin token, Resfinex token, Stably Dollar. You have full control over private keys.
 

@@ -4,17 +4,17 @@ title: BitcoLi Lightning wallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.bitcoli.bitcoli
 appCountry: 
 released: 2023-01-13
-updated: 2024-04-08
-version: 1.0.28
+updated: 2024-07-22
+version: 1.1.2
 stars: 4.3
 ratings: 
 reviews: 2
 size: 
-website: https://bitcoli.com
+website: https://BitcoLi.com
 repository: 
 issue: 
 icon: com.bitcoli.bitcoli.jpg

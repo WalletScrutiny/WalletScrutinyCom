@@ -21,7 +21,7 @@ icon: io.bytewallet.bytewallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-05-05
+date: 2024-07-22
 signer: 
 reviewArchive: 
 twitter: bytefederal
@@ -36,7 +36,19 @@ features:
 
 ---
 
-## App Description from Google Play 
+## Update 2024-07-22
+
+[Description from the website:](https://www.bytefederal.com/)
+
+>  Send & receive Bitcoin, find any ATM and login instantly.
+>
+>    World’s fastest growing non-custodial crypto wallet
+>    Buy, sell & trade crypto under one platform
+>    Swap cryptocurrencies instantly
+
+It claims to be non-custodial, which means that the private keys would be under control of the user. As for the topic of reproducibility, we found an associated [GitHub profile.](https://github.com/bytefederal/) but no source code for the wallet. This app remains **not verifiable.**
+
+## Old Review 2023-05-05
 
 > Store, send, and receive Bitcoin safely and easily. Manage your ByteFederal account and find our nearest Bitcoin ATM locations.
 

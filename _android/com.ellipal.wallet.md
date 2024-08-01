@@ -4,15 +4,16 @@ title: 'ELLIPAL: Crypto Bitcoin Wallet'
 altTitle: 
 authors:
 - leo
+- danny
 users: 50000
 appId: com.ellipal.wallet
 appCountry: us
 released: 2018-07-02
-updated: 2024-06-13
+updated: 2024-07-12
 version: 3.12.3
 stars: 4.3
 ratings: 933
-reviews: 482
+reviews: 487
 size: 
 website: http://www.ellipal.com
 repository: 
@@ -21,7 +22,7 @@ icon: com.ellipal.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-12-03
+date: 2024-07-17
 signer: 
 reviewArchive: 
 twitter: ellipalwallet
@@ -34,7 +35,15 @@ features:
 
 ---
 
-**Update 2021-12-03**: This appears to be the companion app to
+## Update 2024-07-17
+
+This article confirms that Ellipal is a [closed source](https://www.ellipal.com/blogs/news/how-much-does-open-source-contribute-to-security) product.
+
+>  "ELLIPAL allows Private keys import to overcome any worries originating from being closed source."
+
+## Old Review 2021-12-03 
+
+This appears to be the companion app to
 {% include walletLink.html wallet='hardware/ellipaltitan' verdict='true' %}.
 
 This app comes with the claim:

@@ -11,7 +11,7 @@ released: 2021-12-31
 updated: 2024-06-20
 version: 3.001.148
 stars: 5
-reviews: 11
+reviews: 12
 size: '45011968'
 website: https://www.starworksglobal.com/starwallet
 repository: 

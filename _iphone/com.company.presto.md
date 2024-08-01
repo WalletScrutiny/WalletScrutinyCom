@@ -8,11 +8,11 @@ appId: com.company.presto
 appCountry: ng
 idd: '1644015124'
 released: 2022-11-22
-updated: 2024-05-30
-version: 2.5.3
+updated: 2024-07-24
+version: 2.5.4
 stars: 4.6
-reviews: 92
-size: '29658112'
+reviews: 108
+size: '37803008'
 website: https://prestohq.io/
 repository: 
 issue: 

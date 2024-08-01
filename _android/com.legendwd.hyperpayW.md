@@ -4,13 +4,14 @@ title: HyperPay :Wallet Crypto & Card
 altTitle: 
 authors:
 - leo
+- danny
 users: 100000
 appId: com.legendwd.hyperpayW
 appCountry: us
 released: 2018-10-25
-updated: 2024-06-20
-version: 5.3.8
-stars: 3.8
+updated: 2024-07-22
+version: 5.3.9
+stars: 3.9
 ratings: 2781
 reviews: 300
 size: 
@@ -21,7 +22,7 @@ icon: com.legendwd.hyperpayW.png
 bugbounty: 
 meta: ok
 verdict: obfuscated
-date: 2021-05-25
+date: 2024-07-15
 signer: 
 reviewArchive: 
 twitter: HyperPay_tech
@@ -33,6 +34,10 @@ developerName: LEGEND INTERNET SERVICES PTY LTD
 features: 
 
 ---
+
+**Update 2024-07-15**: There are no overt claims that this project is source-available. A search on GitHub for the appID "com.legend.hyperpayW" does turn up a hit on a [repository](https://github.com/huolongluo/byw105/blob/3ddf253c9195088851539e5dc7e8bfa0ed91d53f/coinw-android-v8.3.0/app/src/main/java/huolongluo/byw/byw/net/UrlConstants.java#L14) which appears to be an Android app. However, the repository has not been updated for 2 years and does not have sufficient description to link this to the app. 
+
+We are retaining the previous verdict.
 
 **Update 2022-01-10**: The app is back online.
 

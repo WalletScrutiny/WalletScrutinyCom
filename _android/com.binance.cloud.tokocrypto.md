@@ -8,11 +8,11 @@ users: 1000000
 appId: com.binance.cloud.tokocrypto
 appCountry: id
 released: 2020-10-19
-updated: 2024-05-17
-version: 2.10.3
-stars: 3.7
+updated: 2024-07-22
+version: 2.11.2
+stars: 4.1
 ratings: 34617
-reviews: 41903
+reviews: 42801
 size: 
 website: https://www.tokocrypto.com
 repository: 

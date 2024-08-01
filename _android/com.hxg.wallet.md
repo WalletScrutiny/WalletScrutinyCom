@@ -8,11 +8,11 @@ users: 100000
 appId: com.hxg.wallet
 appCountry: 
 released: 2022-09-30
-updated: 2024-06-13
-version: 3.2.6
-stars: 3.8
+updated: 2024-07-26
+version: 3.3.2
+stars: 3.9
 ratings: 
-reviews: 116
+reviews: 121
 size: 
 website: https://wowearn.com/
 repository: 
@@ -21,7 +21,7 @@ icon: com.hxg.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-07-09
+date: 2024-07-24
 signer: 
 reviewArchive: 
 twitter: WOWEARNENG
@@ -34,7 +34,11 @@ features:
 
 ---
 
-## App Description from Google Play
+## Update 2024-07-24
+
+There has been no progress in making the app's source code accessible.
+
+## App Description from Google Play 2023-07-09
 
 > Multiple payment options: WOW EARN supports 100+ payment methods in over 150+ countries/regions worldwide, providing you with great flexibility. You can use fiat currency to purchase cryptocurrencies, and WOW EARN collaborates with 10+ well-known companies in the industry such as Binance, Mercuryo, Simplex, making it easy for you to complete transactions.
 >

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.SwftBlockChain.client.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-05-24
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: SwftCoin

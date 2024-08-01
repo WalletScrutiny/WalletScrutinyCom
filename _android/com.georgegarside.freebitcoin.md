@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.georgegarside.freebitcoin.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
-date: 2023-05-21
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: grgarside

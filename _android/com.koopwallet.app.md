@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.koopwallet.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-07-07
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: KooP360

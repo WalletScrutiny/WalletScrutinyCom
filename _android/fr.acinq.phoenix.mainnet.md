@@ -9,11 +9,11 @@ users: 50000
 appId: fr.acinq.phoenix.mainnet
 appCountry: us
 released: 2019-12-10
-updated: 2024-06-18
-version: 2.2.4
+updated: 2024-07-19
+version: 2.3.5
 stars: 4.3
 ratings: 314
-reviews: 42
+reviews: 43
 size: 
 website: https://phoenix.acinq.co
 repository: https://github.com/ACINQ/phoenix
@@ -22,9 +22,19 @@ icon: fr.acinq.phoenix.mainnet.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2024-06-19
+date: 2024-07-22
 signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
 reviewArchive:
+- date: 2024-07-08
+  version: 2.3.1
+  appHash: ba8e8977da473ac4aab521597a7e7b7c3e706d445d399ad2f6922a1090c52f61
+  gitRevision: 966fa14654ee5f8a020e8969cc7ea8d00858cdce
+  verdict: nonverifiable
+- date: 2024-06-19
+  version: 2.2.4
+  appHash: 8c820394974ed0e3416c8f869c68ad6ffd291aa381ccc8231ecc985d1263103c
+  gitRevision: acc99e48283d129017269e7ad367b0492f4a060a
+  verdict: nonverifiable
 - date: 2024-04-13
   version: 2.2.2
   appHash: 2550481acca5f800e83a76a54f3cd2d390a64cadf9055b184b63df8b8e01cddd
@@ -112,18 +122,18 @@ Our test script gave us these results:
 ===== Begin Results =====
 appId:          fr.acinq.phoenix.mainnet
 signer:         ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
-apkVersionName: 2.2.4
-apkVersionCode: 80
+apkVersionName: 2.3.4
+apkVersionCode: 85
 verdict:        
-appHash:        8c820394974ed0e3416c8f869c68ad6ffd291aa381ccc8231ecc985d1263103c
-commit:         801e1b38b1e591989a9cc7b458d5fc9b842c0a91
+appHash:        11a0584f79bfc2f5c050c5c0a39558a11d964cb0122f13f5bf1db7818d744db7
+commit:         4a4130f0732e485fd9ac6271572143c482f26db3
 
 Diff:
-Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_80/assets/dexopt/baseline.prof and /tmp/fromBuild_fr.acinq.phoenix.mainnet_80/assets/dexopt/baseline.prof differ
-Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_80/classes5.dex and /tmp/fromBuild_fr.acinq.phoenix.mainnet_80/classes5.dex differ
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_80/META-INF: MAINNET.RSA
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_80/META-INF: MAINNET.SF
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_80/META-INF: MANIFEST.MF
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_85/assets/dexopt/baseline.prof and /tmp/fromBuild_fr.acinq.phoenix.mainnet_85/assets/dexopt/baseline.prof differ
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_85/classes5.dex and /tmp/fromBuild_fr.acinq.phoenix.mainnet_85/classes5.dex differ
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_85/META-INF: MAINNET.RSA
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_85/META-INF: MAINNET.SF
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_85/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
 
@@ -131,4 +141,6 @@ Revision, tag (and its signature):
 
 ```
 
-While there is one file-less in the diffs compared with version 2.2.2, the persistence of classes5.dex and baseline.prof indicate a significant diff than expected. This version is **not verifiable**.
+The persistence of classes5.dex and baseline.prof indicate a significant diff than expected. This version is **not verifiable**.
+
+{% include asciicast %}

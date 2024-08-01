@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.coininno.android.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-08-28
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: myCoininno

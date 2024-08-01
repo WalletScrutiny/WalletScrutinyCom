@@ -8,11 +8,11 @@ appId: com.bitbill.wallet
 appCountry: 
 idd: 1321798216
 released: 2018-02-07
-updated: 2024-06-18
-version: 4.49.0
+updated: 2024-07-15
+version: 4.50.0
 stars: 4.2
 reviews: 52
-size: '121846784'
+size: '122612736'
 website: http://www.bitbill.com
 repository: 
 issue: 

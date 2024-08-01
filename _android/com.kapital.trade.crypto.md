@@ -5,12 +5,12 @@ altTitle:
 authors:
 - danny
 - leo
-users: 500000
+users: 1000000
 appId: com.kapital.trade.crypto
 appCountry: cz
 released: 2021-01-20
-updated: 2024-06-20
-version: 1.83.0
+updated: 2024-07-18
+version: 1.84.0
 stars: 4.4
 ratings: 1225
 reviews: 29

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.aex.exchanges.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-08-14
+date: 2024-07-22
 signer: 
 reviewArchive: 
 twitter: openex_hq

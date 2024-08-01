@@ -21,7 +21,7 @@ icon: io.divipay.divi.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-11-04
+date: 2024-07-16
 signer: 
 reviewArchive: 
 twitter: diviproject
@@ -35,7 +35,11 @@ features:
 
 ---
 
-## App Description
+## Update 2024-07-16
+
+Nothing of note to report, this app is still **not source-available**.
+
+## App Description 2021-11-04
 
 Rewards, nodes, staking payments, lottery and others are the main features of this wallet
 

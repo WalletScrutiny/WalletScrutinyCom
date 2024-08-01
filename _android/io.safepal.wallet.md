@@ -4,15 +4,16 @@ title: 'SafePal: Crypto Wallet BTC NFT'
 altTitle: 
 authors:
 - leo
+- danny
 users: 1000000
 appId: io.safepal.wallet
 appCountry: 
 released: 2019-05-26
-updated: 2024-06-18
-version: 4.7.1
-stars: 4.5
+updated: 2024-07-10
+version: 4.7.3
+stars: 4.6
 ratings: 13497
-reviews: 729
+reviews: 744
 size: 
 website: https://www.safepal.com
 repository: 
@@ -21,7 +22,7 @@ icon: io.safepal.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-04-26
+date: 2024-07-15
 signer: 
 reviewArchive: 
 twitter: iSafePal
@@ -32,7 +33,15 @@ features:
 
 ---
 
-**Update 2021-04-26**: Now some months after the original review, Google finds
+## Update 2024-07-15
+
+GitHub account [SafePalWallet](https://github.com/SafePalWallet/) contains the "[safepal-app](https://github.com/SafePalWallet/safepal-app)" repository, which states that it's a "Core Version" of the SafePal Wallet App.
+
+Other than that, there are no claims of reproducibility, build instructions, tagged releases, or additional information on what the repository is. This product will remain **not verifiable** in the time being.
+
+## Old Review 2021-04-26
+
+Now some months after the original review, Google finds
 some things that confirms the claims of Binance "investing" in SafePal. The best
 link is probably
 [this article on SafePal by Binance](https://research.binance.com/en/projects/safepal).

@@ -4,24 +4,25 @@ title: Bitget Wallet, BitKeep Upgrade
 altTitle: 
 authors:
 - leo
+- danny
 users: 1000000
 appId: com.bitkeep.wallet
 appCountry: 
 released: 2020-02-11
-updated: 2024-06-13
-version: 8.17.0
-stars: 4.7
+updated: 2024-07-24
+version: 8.20.0
+stars: 4.8
 ratings: 3949
-reviews: 1375
+reviews: 1749
 size: 
 website: https://bitkeep.com
 repository: 
 issue: 
-icon: com.bitkeep.wallet.png
+icon: com.bitkeep.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-09-29
+date: 2024-07-15
 signer: 
 reviewArchive: 
 twitter: BitKeepOS
@@ -34,6 +35,12 @@ developerName: Bitget Wallet
 features: 
 
 ---
+
+## Update 2024-07-15
+
+There is no overt statement describing this project as source-available. A search for the app ID ["com.bitkeep.wallet" on GitHub](https://github.com/search?q=%22com.bitkeep.wallet%22+android&type=code), resulted in 51 results that are not an Android app. This app is still not source-available.
+
+## Review 2021-09-29
 
 The description
 

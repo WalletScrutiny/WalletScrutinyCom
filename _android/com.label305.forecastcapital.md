@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.label305.forecastcapital.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2024-03-19
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.capexcapital.capex.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-11-01
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

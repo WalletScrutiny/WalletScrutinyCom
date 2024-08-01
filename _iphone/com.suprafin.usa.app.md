@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.suprafin.usa.app.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2024-05-18
+date: 2024-07-25
 signer: 
 reviewArchive: 
 twitter: lreasor
