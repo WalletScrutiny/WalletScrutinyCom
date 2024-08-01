@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 - danny
+- keraliss
 users: 500000
 appId: com.trusteewallet
 appCountry: 
@@ -22,9 +23,14 @@ icon: com.trusteewallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2024-07-25
+date: 2024-08-01
 signer: 
 reviewArchive:
+- date: 2024-07-25
+  version: 1.51.5
+  appHash: 
+  gitRevision: e97a3391fb3493e5f52e2235d5d73b957bdf46ac
+  verdict: nosource
 - date: 2023-10-03
   version: 1.51.5
   appHash: 
@@ -50,6 +56,39 @@ developerName: BlockSoft Lab
 features: 
 
 ---
+### Update 2024-08-01:
+
+**Review: Build Issue with Trustee Wallet**
+
+During the build process for the Trustee Wallet, we encountered the following error using the Dockerfile specified in the repository:
+
+**Error Message Encountered:**
+
+```
+gyp ERR! build error 
+gyp ERR! stack Error: `make` failed with exit code: 2
+gyp ERR! stack at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/node_modules/node-gyp/lib/build.js:209:23)
+gyp ERR! System Linux 6.1.0-20-amd64
+gyp ERR! command "/usr/bin/node" "/usr/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js" "rebuild"
+gyp ERR! cwd /trustee/src/node_modules/sha3
+gyp ERR! node -v v18.20.2
+gyp ERR! node-gyp -v v10.0.1
+gyp ERR! not ok
+info Visit https://yarnpkg.com/en/docs/cli/install for documentation about this command.
+The command '/bin/sh -c cd ./src && yarn install --no-progress --frozen-lockfile' returned a non-zero code: 1
+```
+
+**Issue Breakdown:**
+
+The build error stems from a failure during the `make` process for the `sha3` module when running `yarn install`. This issue prevents the successful build of the Docker image and requires resolution.
+
+**Additional Concerns:**
+
+The version discrepancy between the GitHub repository and the Google Play version is notable. Currently, the GitHub release is v1.51.5, while the Google Play version is v1.51.10, updated as of June 28, 2024. This significant gap suggests a "source not available" verdict for the purposes of verification.
+
+**Verdict:**
+
+Currently, the Trustee Wallet build is **not verifiable** due to the encountered build error and the version inconsistency between the GitHub repository and Google Play Store. Addressing these issues is crucial for ensuring proper build verification and functionality.
 
 **Update 2024-07-25**
 
