@@ -56,7 +56,43 @@ check_versions() {
   fi
 }
 
+# Function to display files based on verdict
+display_files() {
+  local verdict=$1
+  echo -e "\e[1;35mFiles with verdict: $verdict\e[0m"
+  for file in "$MD_DIR"/*.md; do
+    local front_matter=$(awk '/^---$/ {f++} f==2 {exit} f {print}' "$file")
+    local file_verdict=$(echo "$front_matter" | grep '^verdict:' | awk '{print $2}')
+    local reviewed_date=$(echo "$front_matter" | grep '^date:' | awk '{print $2}')
+    if [[ "$file_verdict" == "$verdict" ]]; then
+      local filename=$(basename "$file")
+      echo -e "\e[1;36m$filename\e[0m | verdict: $file_verdict | last reviewed: $reviewed_date"
+    fi
+  done
+}
+
 # Iterate over each markdown file in the directory
 for file in "$MD_DIR"/*.md; do
   check_versions "$file"
 done
+
+# Function to handle user input
+user_prompt() {
+  echo -e "\e[1;35mWould you like to view [1] nosource, [2] unreleased, [3] wip, [4] nonverifiable?\e[0m"
+  read -p "Enter option (1-4): " option
+  case $option in
+    1) display_files "nosource" ;;
+    2) display_files "unreleased" ;;
+    3) display_files "wip" ;;
+    4) display_files "nonverifiable" ;;
+    *) echo "Invalid option" ;;
+  esac
+  echo -e "\e[1;35mWould you like to exit the script or view the results again? (exit/view)\e[0m"
+  read -p "Enter option (exit/view): " next_action
+  if [[ "$next_action" == "view" ]]; then
+    user_prompt
+  fi
+}
+
+# Start user prompt
+user_prompt
