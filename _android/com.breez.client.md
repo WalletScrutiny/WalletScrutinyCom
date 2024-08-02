@@ -52,7 +52,7 @@ features:
 
 **Update: 2024-07-24** 
 
-**Review: BitPay Wallet Build**
+**Review: Breez Wallet Build**
 
 The build was successful with the command:
 
