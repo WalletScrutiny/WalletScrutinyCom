@@ -12,7 +12,7 @@ updated: 2024-07-17
 version: 5.0.33
 stars: 4.5
 ratings: 
-reviews: 3
+reviews: 4
 size: 
 website: http://www.lmax.com/mobile
 repository: 

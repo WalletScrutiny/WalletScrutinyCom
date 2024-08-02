@@ -8,8 +8,8 @@ users: 10000
 appId: by.erpbel.hermes
 appCountry: 
 released: 2022-10-06
-updated: 2024-06-27
-version: 2.3.0
+updated: 2024-08-01
+version: '2.4'
 stars: 2.7
 ratings: 
 reviews: 

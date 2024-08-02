@@ -12,7 +12,7 @@ updated: 2024-07-24
 version: 3.48.37
 stars: 3.8
 ratings: 26258
-reviews: 1075
+reviews: 1076
 size: 
 website: https://wirexapp.com
 repository: 

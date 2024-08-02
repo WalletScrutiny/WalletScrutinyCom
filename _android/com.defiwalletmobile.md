@@ -12,7 +12,7 @@ updated: 2024-06-01
 version: 1.26.2
 stars: 4.8
 ratings: 
-reviews: 143
+reviews: 142
 size: 
 website: https://slavi.io/
 repository: https://github.com/SlvLabs/slavi-wallet

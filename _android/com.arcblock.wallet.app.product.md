@@ -8,11 +8,11 @@ users: 5000
 appId: com.arcblock.wallet.app.product
 appCountry: 
 released: 2020-01-07
-updated: 2024-07-17
-version: 5.5.3
+updated: 2024-08-02
+version: 5.6.4
 stars: 4.6
 ratings: 
-reviews: 15
+reviews: 16
 size: 
 website: https://www.didwallet.io/
 repository: 

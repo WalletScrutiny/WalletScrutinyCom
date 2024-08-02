@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.savita.savitaapp.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-08-15
+date: 2024-08-02
 signer: 
 reviewArchive: 
 twitter: 

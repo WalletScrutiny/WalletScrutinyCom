@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: black.com - Email, but better.
+title: black.com - Encrypted Email.
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.black.android
 appCountry: 
 released: 2021-07-09
-updated: 2024-06-14
-version: '50'
+updated: 2024-08-02
+version: '52'
 stars: 
 ratings: 
 reviews: 

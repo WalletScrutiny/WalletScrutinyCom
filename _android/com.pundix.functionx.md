@@ -9,7 +9,7 @@ appId: com.pundix.functionx
 appCountry: us
 released: 2021-03-25
 updated: 2024-07-30
-version: 4.0.1
+version: 4.0.2
 stars: 3.6
 ratings: 363
 reviews: 41

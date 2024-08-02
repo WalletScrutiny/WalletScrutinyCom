@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.trusteewallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nonverifiable
-date: 2021-07-30
+date: 2024-08-02
 signer: 
 reviewArchive: 
 twitter: Trustee_Wallet

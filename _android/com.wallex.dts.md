@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.wallex.dts.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-08-30
+date: 2024-08-02
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,6 +1,6 @@
 ---
 wsId: wooXTrading
-title: 'WOO X: Buy Crypto & BTC'
+title: 'WOO X: Trade Bitcoin & ETH'
 altTitle: 
 authors:
 - danny

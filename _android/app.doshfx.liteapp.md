@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: DoshFx - Buy Bitcoin
+title: DoshFX Buy Bitcoin and Crypto
 altTitle: 
 authors: 
 users: 500

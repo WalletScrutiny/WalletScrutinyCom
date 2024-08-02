@@ -1,6 +1,6 @@
 ---
 wsId: cobowallet
-title: 'Cobo Crypto Wallet: BTC & DASH'
+title: 'Cobo Crypto Wallet: BTC & ETH'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: cobo.wallet
 appCountry: 
 idd: 1406282615
 released: 2018-08-05
-updated: 2024-03-07
-version: 5.19.11
+updated: 2024-07-31
+version: 5.19.12
 stars: 2.8
 reviews: 6
-size: '93387776'
+size: '93670400'
 website: https://cobo.com
 repository: 
 issue: 

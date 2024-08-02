@@ -9,8 +9,8 @@ users: 50000
 appId: com.paywaywallet
 appCountry: 
 released: 2019-02-13
-updated: 2024-05-29
-version: 4.0.1.1363 (biometric login)
+updated: 2024-07-31
+version: 4.0.4.1381
 stars: 3.8
 ratings: 254
 reviews: 4

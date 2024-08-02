@@ -25,10 +25,10 @@ date: 2024-07-26
 signer: c0d0f9da7158cde788d0281e9ebd07034178165584d635f7ce17f77c037d961a
 reviewArchive:
 - date: 2024-03-23
-  version: '2024.63.0 (2)'
+  version: 2024.63.0 (2)
   appHash: 110568d39beb8b0ccb6fc0f4ed710c2d129392137acc9e97202d5ac1ee192125
   gitRevision: 93c2de0de2ff3717c59dffa274b444490b4a45d6
-  verdict: reproducible 
+  verdict: reproducible
 twitter: Bitkeyofficial
 social:
 - https://www.linkedin.com/company/bitkey-official

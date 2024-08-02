@@ -12,7 +12,7 @@ updated: 2024-06-28
 version: '6.0'
 stars: 3.6
 ratings: 8728
-reviews: 425
+reviews: 426
 size: 
 website: https://choise.com
 repository: 

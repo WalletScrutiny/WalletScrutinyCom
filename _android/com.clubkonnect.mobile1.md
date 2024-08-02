@@ -12,7 +12,7 @@ updated: 2024-04-19
 version: 2.0.34
 stars: 2.8
 ratings: 
-reviews: 85
+reviews: 86
 size: 
 website: http://www.clubkonnect.com
 repository: 

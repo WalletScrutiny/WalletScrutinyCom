@@ -4,12 +4,12 @@ title: KICKEX SECURELY CRYPTOCURRENCY
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.kickex.android
 appCountry: 
 released: 2022-06-15
-updated: 2024-07-17
-version: 1.11.0
+updated: 2024-07-31
+version: 1.13.0
 stars: 
 ratings: 
 reviews: 

@@ -8,10 +8,10 @@ appId: com.prestmit.app
 appCountry: us
 idd: 1581960714
 released: 2021-08-20
-updated: 2024-07-10
+updated: 2024-08-02
 version: 7.2.4
 stars: 4.1
-reviews: 1858
+reviews: 1863
 size: '111065088'
 website: https://prestmit.com
 repository: 

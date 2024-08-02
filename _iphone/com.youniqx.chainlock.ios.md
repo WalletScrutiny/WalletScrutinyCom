@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.youniqx.chainlock.ios.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-11-02
+date: 2024-08-02
 signer: 
 reviewArchive: 
 twitter: youniqx

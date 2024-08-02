@@ -1,6 +1,6 @@
 ---
 wsId: vault12
-title: Crypto Inheritance and Backup
+title: Vault12 Guard Inheritance
 altTitle: 
 authors:
 - danny

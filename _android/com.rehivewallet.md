@@ -7,8 +7,8 @@ users: 500
 appId: com.rehivewallet
 appCountry: 
 released: 2018-10-01
-updated: 2024-07-11
-version: 7.7.2
+updated: 2024-08-01
+version: 7.7.3
 stars: 4.2
 ratings: 
 reviews: 
