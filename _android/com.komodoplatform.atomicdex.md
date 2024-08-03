@@ -22,7 +22,7 @@ icon: com.komodoplatform.atomicdex.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2024-08-01
+date: 2024-08-03
 signer: cb9c6d9f6b0d981e24b771cbe946ae32af09e71de174a2d39756161b481d94b3
 reviewArchive: 
 twitter: KomodoPlatform
@@ -39,8 +39,8 @@ features:
 
  The source code for this wallet contained a [README with instructions](https://github.com/KomodoPlatform/komodo-wallet-mobile/wiki/Project-Setup#build-and-run) on how to verify and what dependencies were required, so using the information from these steps, we created a dockerfile for the use of our {% include testScript.html %}. 
 
- - [Dockerfile](../scripts/test/android/com.komodoplatform.atomicdex.dockerfile)
- - [Atomic Dex Build Script](../scripts/test/android/com.komodoplatform.atomicdex.sh)
+ - [Dockerfile](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/81b1f718a4b07edc4c6e84c819eb72a12acf3e28/scripts/test/android/com.komodoplatform.atomicdex.dockerfile)
+ - [Atomic Dex Build Script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/81b1f718a4b07edc4c6e84c819eb72a12acf3e28/scripts/test/android/com.komodoplatform.atomicdex.sh)
 
  After the proper environment is set up, our script will generate an AAB (Android App Bundle) from which we can use *bundletool* to create APKs suitable for various device configurations and perform further verifications.
 
@@ -117,4 +117,5 @@ v0.9.1 release
 4. [xhdpi.apk](https://xrviv.github.io/walletScrutinyBuildCasts/www/diffoscope-results/android/com.komodoplatform.atomicdex/105/diffo-split-apks/xhdpi.html)
 
 We could not consider the diffs of version 0.9.1 as benign as there are far too many differences. 
+We [updated the relevant issue](https://github.com/KomodoPlatform/komodo-wallet-mobile/issues/116#issuecomment-2266635605) in the repository of komodoplatform.atomicdex, and eagerly await their collaboration to make the build reproducible.
 Version 0.9.1 of this app is **not-verifiable** 
