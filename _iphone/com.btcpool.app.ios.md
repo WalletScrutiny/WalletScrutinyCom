@@ -10,8 +10,8 @@ idd: 1490997527
 released: 2020-01-21
 updated: 2023-08-31
 version: 2.3.3
-stars: 3.6
-reviews: 13
+stars: 3.5
+reviews: 12
 size: '63212544'
 website: https://btc.com/
 repository: 

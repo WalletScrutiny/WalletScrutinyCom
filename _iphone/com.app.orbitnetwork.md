@@ -11,7 +11,7 @@ released: 2020-01-12
 updated: 2021-08-29
 version: '2.0'
 stars: 4.7
-reviews: 110
+reviews: 109
 size: '28895232'
 website: https://orbitnetwork.com/
 repository: 

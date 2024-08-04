@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: trade.aleairpay.com.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-08-27
+date: 2024-08-04
 signer: 
 reviewArchive: 
 twitter: 

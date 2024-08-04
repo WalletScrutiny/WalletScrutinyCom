@@ -12,7 +12,7 @@ updated: 2024-07-25
 version: 3.0.1
 stars: 4.2
 ratings: 
-reviews: 67
+reviews: 66
 size: 
 website: https://www.coinstore.com
 repository: 

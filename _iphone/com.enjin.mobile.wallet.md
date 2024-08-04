@@ -12,7 +12,7 @@ released: 2018-03-12
 updated: 2024-07-10
 version: 2.11.0
 stars: 4.5
-reviews: 1266
+reviews: 1265
 size: '49861632'
 website: https://enjin.io/products/wallet
 repository: 

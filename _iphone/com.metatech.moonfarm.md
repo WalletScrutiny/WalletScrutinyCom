@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.metatech.moonfarm.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nobtc
-date: 2023-08-30
+date: 2024-08-04
 signer: 
 reviewArchive: 
 twitter: MoonfarmFinance

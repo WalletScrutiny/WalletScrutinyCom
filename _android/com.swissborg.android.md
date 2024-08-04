@@ -12,7 +12,7 @@ updated: 2024-07-23
 version: 1.89.0
 stars: 3.9
 ratings: 9203
-reviews: 934
+reviews: 935
 size: 
 website: https://swissborg.com
 repository: 

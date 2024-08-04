@@ -7,8 +7,8 @@ users: 500
 appId: com.bankcomat.android_bankcomat
 appCountry: 
 released: 2021-08-19
-updated: 2023-10-04
-version: 4.0.1
+updated: 2024-08-03
+version: 4.1.1
 stars: 
 ratings: 
 reviews: 

@@ -10,7 +10,7 @@ idd: 1515652068
 released: 2020-09-21
 updated: 2024-07-05
 version: 2.18.7
-stars: 0
+stars: 4.5
 reviews: 196
 size: '238809088'
 website: https://www.whalefin.com

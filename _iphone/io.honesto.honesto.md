@@ -11,7 +11,7 @@ released: 2021-12-09
 updated: 2024-07-31
 version: 2.2.0
 stars: 4.9
-reviews: 34
+reviews: 35
 size: '92264448'
 website: 
 repository: 

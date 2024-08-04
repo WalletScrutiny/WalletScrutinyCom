@@ -11,7 +11,7 @@ released: 2020-06-30
 updated: 2024-07-31
 version: 3.5.2
 stars: 4.8
-reviews: 3577
+reviews: 3603
 size: '117188608'
 website: https://bipa.app
 repository: 

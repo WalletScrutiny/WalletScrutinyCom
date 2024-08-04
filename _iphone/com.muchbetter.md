@@ -11,7 +11,7 @@ released: 2017-06-26
 updated: 2024-07-17
 version: 4.13.2
 stars: 4.4
-reviews: 419
+reviews: 420
 size: '79852544'
 website: https://www.muchbetter.com
 repository: 

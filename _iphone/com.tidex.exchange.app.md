@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.tidex.exchange.app.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-08-28
+date: 2024-08-04
 signer: 
 reviewArchive: 
 twitter: Tidex_Exchange

@@ -9,7 +9,7 @@ appId: com.cloud.tr
 appCountry: tr
 released: 2021-07-16
 updated: 2024-08-02
-version: 2.7.2
+version: 2.8.1
 stars: 2.8
 ratings: 42784
 reviews: 16392
