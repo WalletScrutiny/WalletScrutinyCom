@@ -22,9 +22,14 @@ icon: fr.acinq.phoenix.mainnet.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2024-07-22
+date: 2024-08-05
 signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
 reviewArchive:
+- date: 2024-07-22
+  version: 2.3.4
+  appHash: 11a0584f79bfc2f5c050c5c0a39558a11d964cb0122f13f5bf1db7818d744db7
+  gitRevision: 33cb7116032cc8ae077e4a17805d133709eeb5cd
+  verdict: nonverifiable
 - date: 2024-07-08
   version: 2.3.1
   appHash: ba8e8977da473ac4aab521597a7e7b7c3e706d445d399ad2f6922a1090c52f61
@@ -122,18 +127,18 @@ Our test script gave us these results:
 ===== Begin Results =====
 appId:          fr.acinq.phoenix.mainnet
 signer:         ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
-apkVersionName: 2.3.4
-apkVersionCode: 85
+apkVersionName: 2.3.6
+apkVersionCode: 87
 verdict:        
-appHash:        11a0584f79bfc2f5c050c5c0a39558a11d964cb0122f13f5bf1db7818d744db7
-commit:         4a4130f0732e485fd9ac6271572143c482f26db3
+appHash:        e0575204f2494f7c7e2349253d9962e5442fb7b91a5517fbee3e55723f0d5f62
+commit:         ff42728a1b7df8424d71a5aa7e7989472f53a711
 
 Diff:
-Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_85/assets/dexopt/baseline.prof and /tmp/fromBuild_fr.acinq.phoenix.mainnet_85/assets/dexopt/baseline.prof differ
-Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_85/classes5.dex and /tmp/fromBuild_fr.acinq.phoenix.mainnet_85/classes5.dex differ
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_85/META-INF: MAINNET.RSA
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_85/META-INF: MAINNET.SF
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_85/META-INF: MANIFEST.MF
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_87/assets/dexopt/baseline.prof and /tmp/fromBuild_fr.acinq.phoenix.mainnet_87/assets/dexopt/baseline.prof differ
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_87/classes5.dex and /tmp/fromBuild_fr.acinq.phoenix.mainnet_87/classes5.dex differ
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_87/META-INF: MAINNET.RSA
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_87/META-INF: MAINNET.SF
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_87/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
 
@@ -141,6 +146,8 @@ Revision, tag (and its signature):
 
 ```
 
-The persistence of classes5.dex and baseline.prof indicate a significant diff than expected. This version is **not verifiable**.
+The persistence of classes5.dex and baseline.prof indicate a significant diff than expected. [See our diff for yourself here.](https://xrviv.github.io/walletScrutinyBuildCasts/www/diffoscope-results/android/fr.acinq.phoenix.mainnet/2.3.6/diff.fr.acinq.phoenix.mainnet.html)
+
+This version is **not verifiable**.
 
 {% include asciicast %}
