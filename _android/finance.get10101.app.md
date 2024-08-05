@@ -34,4 +34,4 @@ features:
 
 10101 claims to be a self-custodial wallet that also utilizes Discreet Log Contracts for users looking to trade.
 
-It has a repository and instructions for building. This app is currently **for verification.**
+It has a repository and instructions for building. This app will be for **for verification** once it reached the 1000 downloads.
