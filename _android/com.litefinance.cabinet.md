@@ -11,7 +11,7 @@ updated: 2024-06-07
 version: v1.2.8.1951-cabinet-legacy-release
 stars: 4.5
 ratings: 
-reviews: 42
+reviews: 43
 size: 
 website: https://www.liteforex.eu
 repository: 

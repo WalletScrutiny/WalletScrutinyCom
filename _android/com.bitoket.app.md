@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitoket.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-08-15
+date: 2024-08-05
 signer: 
 reviewArchive: 
 twitter: 

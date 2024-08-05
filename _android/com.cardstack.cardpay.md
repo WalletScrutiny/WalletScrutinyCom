@@ -12,7 +12,7 @@ updated: 2023-02-16
 version: 1.2.0
 stars: 4.5
 ratings: 
-reviews: 3
+reviews: 4
 size: 
 website: https://www.cardstack.com/cardpay
 repository: 

@@ -11,7 +11,7 @@ released: 2021-08-20
 updated: 2024-08-02
 version: 7.2.4
 stars: 4.1
-reviews: 1867
+reviews: 1872
 size: '111065088'
 website: https://prestmit.com
 repository: 

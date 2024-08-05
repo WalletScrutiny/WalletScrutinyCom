@@ -9,7 +9,7 @@ appId: com.pandats.axia
 appCountry: il
 released: 2020-11-16
 updated: 2024-07-04
-version: 2.1.18
+version: 2.1.19
 stars: 4.7
 ratings: 744
 reviews: 5

@@ -10,9 +10,9 @@ appCountry:
 released: 2020-10-26
 updated: 2024-07-02
 version: 6.9.1.1
-stars: 
+stars: 4.2
 ratings: 
-reviews: 
+reviews: 3
 size: 
 website: https://credits.com/contacts.html
 repository: 

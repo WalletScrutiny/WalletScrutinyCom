@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.cryptore.android.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-07-10
+date: 2024-08-05
 signer: 
 reviewArchive: 
 twitter: coinlord_trade

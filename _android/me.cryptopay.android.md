@@ -11,7 +11,7 @@ updated: 2024-07-22
 version: 1.62.0
 stars: 4.3
 ratings: 1142
-reviews: 53
+reviews: 54
 size: 
 website: https://cryptopay.me
 repository: 

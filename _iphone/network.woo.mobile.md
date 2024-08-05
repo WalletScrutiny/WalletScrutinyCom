@@ -1,6 +1,6 @@
 ---
 wsId: wooXTrading
-title: 'WOO X: Buy Crypto & BTC'
+title: 'WOO X: Trade Bitcoin & ETH'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: network.woo.mobile
 appCountry: ph
 idd: '1576648404'
 released: 2021-09-17
-updated: 2024-07-22
-version: 3.32.0
+updated: 2024-08-05
+version: 3.33.0
 stars: 5
 reviews: 2
-size: '114998272'
+size: '116200448'
 website: https://woo.org/
 repository: 
 issue: 

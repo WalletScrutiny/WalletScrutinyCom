@@ -12,7 +12,7 @@ updated: 2024-07-30
 version: 1.2.160
 stars: 4.6
 ratings: 
-reviews: 40
+reviews: 
 size: 
 website: https://gemwallet.com
 repository: https://github.com/gemwalletcom/gem-android

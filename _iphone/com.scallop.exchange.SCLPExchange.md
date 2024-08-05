@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.scallop.exchange.SCLPExchange.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-08-15
+date: 2024-08-05
 signer: 
 reviewArchive: 
 twitter: ScallopOfficial

@@ -35,6 +35,7 @@ developerName: Komodo Platform
 features: 
 
 ---
+
 ## Reproducibility
 
  The source code for this wallet contained a [README with instructions](https://github.com/KomodoPlatform/komodo-wallet-mobile/wiki/Project-Setup#build-and-run) on how to verify and what dependencies were required, so using the information from these steps, we created a dockerfile for the use of our {% include testScript.html %}. 

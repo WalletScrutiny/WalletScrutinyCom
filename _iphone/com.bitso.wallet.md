@@ -11,7 +11,7 @@ released: 2018-02-19
 updated: 2024-07-27
 version: 3.66.0
 stars: 4.6
-reviews: 731
+reviews: 732
 size: '202304512'
 website: https://bitso.com/app
 repository: 
