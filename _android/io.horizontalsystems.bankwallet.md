@@ -21,10 +21,15 @@ issue: https://github.com/horizontalsystems/unstoppable-wallet-android/issues/60
 icon: io.horizontalsystems.bankwallet.png
 bugbounty: 
 meta: ok
-verdict: reproducible
-date: 2024-07-02
+verdict: nonverifiable
+date: 2024-08-05
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
 reviewArchive:
+- date: 2024-07-02
+  version: 0.39.0
+  appHash: a4f9f872a392a8593cc8fd91d05c504db0da88164211f855a630af494544f482
+  gitRevision: 33cb7116032cc8ae077e4a17805d133709eeb5cd
+  verdict: reproducible
 - date: 2024-06-10
   version: 0.38.5
   appHash: c769df6bf3e3acd993272f499a501a6f4612edbcfcfe506b2ceb668e941f4743
@@ -270,24 +275,42 @@ procedure expressed in our {% include testScript.html %}:
 ===== Begin Results =====
 appId:          io.horizontalsystems.bankwallet
 signer:         c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
-apkVersionName: 0.39.0
-apkVersionCode: 110
-verdict:        reproducible
-appHash:        a4f9f872a392a8593cc8fd91d05c504db0da88164211f855a630af494544f482
-commit:         ceae7cbffe6319432840cd33d0d65210c3e5a908
+apkVersionName: 0.39.2
+apkVersionCode: 112
+verdict:        
+appHash:        4d76c4345dce50f1e18850dfc2ca9c311876a8ba10dd9f5c57a77a530027c2fc
+commit:         d9d1b855a7a4df87278941264ed2da2b1f4aae00
 
 Diff:
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_110/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_110/META-INF: RELEASEK.RSA
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_110/META-INF: RELEASEK.SF
+Files /tmp/fromPlay_io.horizontalsystems.bankwallet_112/assets/dexopt/baseline.prof and /tmp/fromBuild_io.horizontalsystems.bankwallet_112/assets/dexopt/baseline.prof differ
+Files /tmp/fromPlay_io.horizontalsystems.bankwallet_112/classes6.dex and /tmp/fromBuild_io.horizontalsystems.bankwallet_112/classes6.dex differ
+Files /tmp/fromPlay_io.horizontalsystems.bankwallet_112/classes7.dex and /tmp/fromBuild_io.horizontalsystems.bankwallet_112/classes7.dex differ
 
 Revision, tag (and its signature):
 
 ===== End Results =====
 
+Run a full
+diff --recursive /tmp/fromPlay_io.horizontalsystems.bankwallet_112 /tmp/fromBuild_io.horizontalsystems.bankwallet_112
+meld /tmp/fromPlay_io.horizontalsystems.bankwallet_112 /tmp/fromBuild_io.horizontalsystems.bankwallet_112
+or
+diffoscope "/home/danny/work/apk/io.horizontalsystems.bankwallet/112/io.horizontalsystems.bankwallet_v112.apk" /tmp/test_io.horizontalsystems.bankwallet/app/app/build/outputs/apk/release/app-release-unsigned.apk
+for more details.
+
+
 ```
 
-This is what we want to see to call it **reproducible**.
+### Following the recommendations:
+
+`$ diff --recursive /tmp/fromPlay_io.horizontalsystems.bankwallet_112 /tmp/fromBuild_io.horizontalsystems.bankwallet_112 > /home/danny/work/diff-recursive-results/io.horizontalsystems.bankwallet/112/0805/diff-recursive-io.horizontalsystems.bankwallet_112.txt`
+
+```
+Binary files /tmp/fromPlay_io.horizontalsystems.bankwallet_112/assets/dexopt/baseline.prof and /tmp/fromBuild_io.horizontalsystems.bankwallet_112/assets/dexopt/baseline.prof differ
+Binary files /tmp/fromPlay_io.horizontalsystems.bankwallet_112/classes6.dex and /tmp/fromBuild_io.horizontalsystems.bankwallet_112/classes6.dex differ
+Binary files /tmp/fromPlay_io.horizontalsystems.bankwallet_112/classes7.dex and /tmp/fromBuild_io.horizontalsystems.bankwallet_112/classes7.dex differ
+```
+
+An HTML diff of our build vs a Play Store apk has been [uploaded here](https://xrviv.github.io/walletScrutinyBuildCasts/www/diffoscope-results/android/io.horizontalsystems.bankwallet/0.39.2/diffoscope.io.horizontalsystems.bankwallet.html). This diff strongly diverges from that of earlier versions with larger changes especially across the **classes6** and **classes7** dex files.  Because of that, this version is **not verifiable.**
 
 ### Thank you to Horizontal Systems for repeat donations
 
