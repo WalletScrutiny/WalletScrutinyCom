@@ -1,5 +1,5 @@
 ---
-wsId: finance.get10101
+wsId:
 title: '10101'
 altTitle: 
 authors: 
