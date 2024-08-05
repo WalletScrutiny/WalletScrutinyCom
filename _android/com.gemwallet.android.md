@@ -20,8 +20,8 @@ issue:
 icon: com.gemwallet.android.png
 bugbounty: 
 meta: ok
-verdict: obfuscated
-date: 2024-07-12
+verdict: nonverifiable
+date: 2024-08-05
 signer: 
 reviewArchive: 
 twitter: GemWalletApp
@@ -148,7 +148,7 @@ diff /tmp/fromPlay_com.gemwallet.android_1.2.144/apktool.yml /tmp/fromBuild_com.
 
 Looking over the changes, [we noticed many of the differences pertain to read-and-write permissions, file permissions, and timestamps.](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/merge_requests/708#note_2023566413)  Additionally, [in classes.dex](https://xrviv.github.io/walletScrutinyBuildCasts/www/diffoscope-results/android/com.gemwallet.android/1.2.144/diffoscope.classes.dex.html) as well as [classes2](https://xrviv.github.io/walletScrutinyBuildCasts/www/diffoscope-results/android/com.gemwallet.android/1.2.144/diffoscope.classes2.dex.html) and [classes3](https://xrviv.github.io/walletScrutinyBuildCasts/www/diffoscope-results/android/com.gemwallet.android/1.2.144/diffoscope.classes3.dex.html), many of the variables were changed or omitted with the reason for it being unexplained.
 
-As of now, we'll let the verdict for 1.2.144s' source code stay as **obfuscated.**
+The huge diffoscope output for version 1.2.144 lead us to give a verdict of **nonverifiable**
 
 ### Thank you to Gem Wallet for their donation
 
