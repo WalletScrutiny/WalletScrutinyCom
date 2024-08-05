@@ -13,7 +13,7 @@ version: 1.2.160
 stars: 4.6
 ratings: 
 reviews: 40
-size:
+size: 
 website: https://gemwallet.com
 repository: https://github.com/gemwalletcom/gem-android
 issue: 
