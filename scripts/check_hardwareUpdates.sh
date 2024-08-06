@@ -1,8 +1,36 @@
 #!/bin/bash
 
-# Ask the user for the PAT
-read -sp "Enter your GitHub Personal Access Token (PAT): " GITHUB_PAT
-echo
+# Function to print usage
+print_usage() {
+  echo "Usage: $0 [-g GITHUB_PAT]"
+  echo "  -g GITHUB_PAT    Github Personal Access Token"
+}
+
+# Parse command line options
+while getopts ":g:" opt; do
+    case ${opt} in
+        g )
+            GITHUB_PAT=$OPTARG
+            ;;
+        \? )
+            echo "Invalid option: $OPTARG" 1>&2
+            print_usage
+            exit 1
+            ;;
+        : ) 
+            echo "Invalid option: $OPTARG reguires an argument" 1>&2
+            print_usage
+            exit 1
+            ;;
+    esac
+done
+
+# Check if PAT is set and provide feedback
+if [ -n "$GITHUB_PAT" ]; then
+    echo "PAT is set"
+else
+    echo "PAT is not set. Queries may become rate-limited"
+fi
 
 # Export the PAT
 export GITHUB_PAT
