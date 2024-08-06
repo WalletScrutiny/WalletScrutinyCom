@@ -51,21 +51,21 @@ fetch_latest_version() {
   api_url=$(curl -H "Authorization: token $GITHUB_PAT" -Ls -w "%{url_effective}\n" "$api_url" -o /dev/null)
   
   local latest_version=$(curl -H "Authorization: token $GITHUB_PAT" -s "$api_url" | grep -oP '"tag_name": "\K(.*?)(?=")')
-  
+
   if [ -z "$latest_version" ]; then
     # If no releases found, check the latest tag
     api_url="${repo_url/github.com/api.github.com\/repos}/tags"
-    api_url=$(curl -H "Authorization: token $GITHUB_PAT" -Ls -w "%{url_effective}\n" "$api_url" -o /dev/null)
-    latest_version=$(curl -H "Authorization: token $GITHUB_PAT" -s "$api_url" | grep -oP '"name": "\K(.*?)(?=")' | head -n 1)
-  fi
-  
+    local latest_version=$(curl -H "Authorization: token $GITHUB_PAT" -s "$api_url" | grep -oP '"tag_name": "\K(.*?)(?=")')
+  fi 
+
   if [ -z "$latest_version" ]; then
     # If no tags found, check the latest commit date
     api_url="${repo_url/github.com/api.github.com\/repos}/commits"
-    api_url=$(curl -H "Authorization: token $GITHUB_PAT" -Ls -w "%{url_effective}\n" "$api_url" -o /dev/null)
     latest_commit_date=$(curl -H "Authorization: token $GITHUB_PAT" -s "$api_url" | grep -oP '"date": "\K(.*?)(?=")' | head -n 1)
     if [ -n "$latest_commit_date" ]; then
-      latest_version="latest commit is on $latest_commit_date"
+      # Simplify the date format to yyyy-mm-dd
+      simplified_date=$(date -d "$latest_commit_date" +%Y-%m-%d)
+      latest_version="commit: $simplified_date - \e[32mrelease/tag not found\e[0m"
     fi
   fi
 
@@ -86,10 +86,16 @@ check_versions() {
   if [[ "$meta" == "ok" && ("$verdict" == "reproducible" || "$verdict" == "nonverifiable" || "$verdict" == "wip") ]]; then
     if [ -n "$repo_url" ]; then
       local latest_version=$(fetch_latest_version "$repo_url")
-      if [ "$version" != "$latest_version" ]; then
-        echo -e "\e[1;36mOutdated: $filename\e[0m (current: $version, latest: $latest_version) | last verdict: \e[1;33m$verdict\e[0m | last reviewed: $reviewed_date"
-      else
-        echo -e "\e[1;36mUp-to-date: $filename\e[0m (version: $version) | last verdict: \e[1;33m$verdict\e[0m | last reviewed: $reviewed_date"
+      if [ $? -eq 0 ]; then
+        local current_version_display=$version
+        if [ -z "$version" ]; then
+          current_version_display="\e[32m(please update version in file)\e[0m"
+        fi
+        if [ "$version" != "$latest_version" ]; then
+          echo -e "\e[1;36mOutdated: $filename\e[0m (current: $current_version_display, latest: $latest_version) | last verdict: \e[1;33m$verdict\e[0m | last reviewed: $reviewed_date"
+        else
+          echo -e "\e[1;36mUp-to-date: $filename\e[0m (version: $current_version_display) | last verdict: \e[1;33m$verdict\e[0m | last reviewed: $reviewed_date"
+        fi
       fi
     else
       echo -e "\e[1;36mRepository URL not found in $filename\e[0m | last verdict: \e[1;33m$verdict\e[0m | last reviewed: $reviewed_date"
