@@ -7,8 +7,8 @@ authors:
 - leo
 released: 2019-01-18
 discontinued: 
-updated: 2021-12-14
-version: v4.1.8
+updated: 2022-12-07
+version: v4.2.0
 binaries: https://github.com/bithd/bithd-mcu/releases/
 dimensions:
 - 42
@@ -27,7 +27,7 @@ icon: bithdwatch2.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2022-04-18
+date: 2024-08-06
 signer: 
 reviewArchive:
 - date: 2021-12-11

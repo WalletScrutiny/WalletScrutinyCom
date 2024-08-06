@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2022-10-05
 discontinued: 
-updated: 2024-05-09
-version: v1.2.1Q
+updated: 2024-07-05
+version: v1.2.3Q
 binaries: https://coldcard.com/downloads/
 dimensions: 
 weight: 
@@ -22,7 +22,7 @@ icon: coldcardQ1.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-05-31
+date: 2024-08-06
 signer: 
 reviewArchive: 
 twitter: COLDCARDwallet

@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2024-04-02
 discontinued: 
-updated: 2024-04-02
-version: 1.4.8
+updated: 2024-07-24
+version: 1.5.8
 binaries: https://keyst.one/firmware
 dimensions:
 - 62
@@ -25,7 +25,7 @@ icon: keystone3.pro.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-06-03
+date: 2024-08-06
 signer: fbf1cf15c5ba13a91a6b27f73a21ae69d8b60b5ff34f6d32dbd55e8ff5f27025
 reviewArchive:
 - date: 2024-05-08

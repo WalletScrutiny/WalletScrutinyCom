@@ -8,7 +8,7 @@ authors:
 released: 2022-05-01
 discontinued: 
 updated: 2023-09-08
-version: v5.1.4
+version: v5.3.3
 binaries: https://coldcard.com/downloads/
 dimensions: 
 weight: 
@@ -24,7 +24,7 @@ icon: coldcardMk4.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2023-10-08
+date: 2024-08-06
 signer: 
 reviewArchive:
 - date: 2023-06-22

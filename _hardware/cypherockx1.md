@@ -9,8 +9,8 @@ authors:
 - Mohammad
 released: 2022-04-07
 discontinued: 
-updated: 2023-05-12
-version: 0.4.3075
+updated: 2024-07-02
+version: 0.6.768
 binaries: https://github.com/Cypherock/x1_wallet_firmware/releases/
 dimensions:
 - 30
@@ -29,7 +29,7 @@ icon: cypherockx1.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2023-05-25
+date: 2024-08-06
 signer: 
 reviewArchive:
 - data: 2023-04-06

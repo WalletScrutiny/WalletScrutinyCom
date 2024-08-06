@@ -6,9 +6,9 @@ authors:
 - danny
 released: 2019-03-01
 discontinued: 
-updated: 
-version: 
-binaries: 
+updated: 2022-07-12
+version: DMA-4 24
+binaries: https://bitfi.com/firmware
 dimensions:
 - 120
 - 67
@@ -26,7 +26,7 @@ icon: bitfiwallet.png
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2021-12-10
+date: 2024-08-06
 signer: 
 reviewArchive: 
 twitter: thebitfi
