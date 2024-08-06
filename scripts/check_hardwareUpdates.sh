@@ -83,6 +83,7 @@ check_versions() {
   local meta=$(echo "$front_matter" | grep '^meta:' | awk '{print $2}')
   local reviewed_date=$(echo "$front_matter" | grep '^date:' | awk '{print $2}')
 
+  # Ignores closed source verdicts, prompts user to update version if empty
   if [[ "$meta" == "ok" && ("$verdict" == "reproducible" || "$verdict" == "nonverifiable" || "$verdict" == "wip") ]]; then
     if [ -n "$repo_url" ]; then
       local latest_version=$(fetch_latest_version "$repo_url")
