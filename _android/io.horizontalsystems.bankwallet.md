@@ -272,6 +272,7 @@ procedure expressed in our {% include testScript.html %}:
 {% include asciicast %}
 
 ```
+
 ===== Begin Results =====
 appId:          io.horizontalsystems.bankwallet
 signer:         c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
@@ -300,7 +301,7 @@ for more details.
 
 ```
 
-### Following the recommendations:
+## Results of **diff --recursive** and **diffoscope**
 
 `$ diff --recursive /tmp/fromPlay_io.horizontalsystems.bankwallet_112 /tmp/fromBuild_io.horizontalsystems.bankwallet_112 > /home/danny/work/diff-recursive-results/io.horizontalsystems.bankwallet/112/0805/diff-recursive-io.horizontalsystems.bankwallet_112.txt`
 
@@ -310,7 +311,11 @@ Binary files /tmp/fromPlay_io.horizontalsystems.bankwallet_112/classes6.dex and 
 Binary files /tmp/fromPlay_io.horizontalsystems.bankwallet_112/classes7.dex and /tmp/fromBuild_io.horizontalsystems.bankwallet_112/classes7.dex differ
 ```
 
-An HTML diff of our build vs a Play Store apk has been [uploaded here](https://xrviv.github.io/walletScrutinyBuildCasts/www/diffoscope-results/android/io.horizontalsystems.bankwallet/0.39.2/diffoscope.io.horizontalsystems.bankwallet.html). This diff strongly diverges from that of earlier versions with larger changes especially across the **classes6** and **classes7** dex files.  Because of that, this version is **not verifiable.**
+The diff strongly diverges from that of earlier versions with larger changes especially across the **classes6** and **classes7** dex files.
+Note that the asciicast above contains the entire diffoscope results.  
+
+Because of that, this version is **not verifiable.**
+We have created the corresponding [issue with Unstoppable.](https://github.com/horizontalsystems/unstoppable-wallet-android/issues/7638)
 
 ### Thank you to Horizontal Systems for repeat donations
 
