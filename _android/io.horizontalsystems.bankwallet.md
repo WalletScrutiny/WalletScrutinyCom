@@ -17,7 +17,7 @@ reviews: 87
 size: 
 website: https://horizontalsystems.io/
 repository: https://github.com/horizontalsystems/unstoppable-wallet-android
-issue: https://github.com/horizontalsystems/unstoppable-wallet-android/issues/6071
+issue: https://github.com/horizontalsystems/unstoppable-wallet-android/issues/7638
 icon: io.horizontalsystems.bankwallet.png
 bugbounty: 
 meta: ok
