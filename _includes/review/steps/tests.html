@@ -1,6 +1,8 @@
+# Prototype2
 {% include wallet_score.html meta=include.meta platform=include.platform verdict=include.verdict %}
 
 {% assign failPoint = 0 %}
+{% assign verdict = include.verdict %}
 
 <div class="step methodology">
   <i class="fas fa-vial circle"></i>
@@ -19,8 +21,7 @@
     </p>
   </div>
   <div class="data score-data">
-    <div class="score">
-      <div>
+    <div>
       {% for instance in (1..count) %}
         <i class="pass"></i>
       {% endfor %}
@@ -28,7 +29,6 @@
       {% for instance in (1..remainder) %}
         <i class="fail"></i>
       {% endfor %}
-      </div>
     </div>
   </div>
   {% if page.tooltip.appliedMethodology %}
@@ -46,36 +46,41 @@
   {% endif %}
   </div>
   <div class="methodology-tests-list">
-  {% if include.verdict == 'wip' %}
-    {% assign failPoint = failPoint | plus: 1 %}
-  {% endif %}
-  {% for criterion in criteria %}
-    {% if include.verdict == criterion %}
-      {% unless include.verdict == 'reproducible' or include.verdict == 'diy' or include.verdict == 'nobinary %}
-        {% assign failPoint = failPoint | plus: 1 %}
-        {% assign class = 'fail'%}
-        {% assign icon = '<i class="fas fa-times-circle"></i>' %}
-      {% endunless %}
-    {% else %} 
+  {% assign tests = "fewusers,fake,nowallet,nobtc,nosendreceive,custodial,nosource,obfuscated,nosource,nonverifiable" | split: ',' %}
+  {% assign questions = "Do many people use this product?,Is this product the original?,Is it a wallet?,Is it for bitcoins?,Can it send and receive bitcoins?,Is the product self-custodial?,Is the source code publicly available?,Is the decompiled binary legible?,Can the product be built from the source provided?,Does the published binary match the published source code?" | split: ',' %}
+  {% for i in (0..9) %}
+    {% assign test = tests[i] %}
+    {% assign question = questions[i] %}
+    {% if verdict == test %}
+      {% assign failPoint = failPoint | plus: 1 %}
+      {% assign class = 'fail'%}
+      {% assign icon = '<i class="fas fa-times-circle"></i>' %}
+      {% assign dataOpen = 'true' %}
+    {% else %}
       {% if failPoint == 0 %}
         {% assign class = 'pass'%}
-      {% assign icon = '<i class="fas fa-check-circle"></i>' %}
-      {% else %} 
+        {% assign icon = '<i class="fas fa-check-circle"></i>' %}
+        {% assign dataOpen = 'false' %}
+      {% else %}
         {% assign class = 'untested'%}
-      {% assign icon = '<svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 17 17" xmlns="http://www.w3.org/2000/svg"><path d="m0 0h17v17h-17z" fill="none"/><path d="m8.5.1c4.636 0 8.4 3.764 8.4 8.4s-3.764 8.4-8.4 8.4-8.4-3.764-8.4-8.4 3.764-8.4 8.4-8.4zm6.4 7.269c0-.199-.161-.36-.36-.36-1.846 0-10.234 0-12.08 0-.199 0-.36.161-.36.36v2.262c0 .199.161.36.36.36h12.08c.199 0 .36-.161.36-.36 0-.574 0-1.688 0-2.262z" fill="var(--neutral-3)"/></svg>' %}
+        {% assign icon = '<svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 17 17" xmlns="http://www.w3.org/2000/svg"><path d="m0 0h17v17h-17z" fill="none"/><path d="m8.5.1c4.636 0 8.4 3.764 8.4 8.4s-3.764 8.4-8.4 8.4-8.4-3.764-8.4-8.4 3.764-8.4 8.4-8.4zm6.4 7.269c0-.199-.161-.36-.36-.36-1.846 0-10.234 0-12.08 0-.199 0-.36.161-.36.36v2.262c0 .199.161.36.36.36h12.08c.199 0 .36-.161.36-.36 0-.574 0-1.688 0-2.262z" fill="var(--neutral-3)"/></svg>' %}
+        {% assign dataOpen = 'false' %}
       {% endif %}
     {% endif %}
-      <div id="{{criterion}}" class="{{class}} {{criterion}} methodology-accordion" data-open="false" onclick="this.setAttribute('data-open', this.getAttribute('data-open')==='false'?'true':'false')">
-        <div class="accordion-head">
-          <span class="badge {{class}}">{{icon}}</span>
-          <span>{{ site.data.verdicts[criterion].question }}</span>
-          <i class="fas fa-caret-right"></i>
-          <i class="fas fa-caret-down"></i>
-        </div>
-        <div class="accordion-body textbox" onclick="event.stopPropagation()">
-          {% include /review/steps/verdict_methodology_review_embed.html verdict=criterion %}
-        </div>
+    <div id="{{test}}" class="{{class}} {{test}} methodology-accordion" data-open="{{dataOpen}}" onclick="this.setAttribute('data-open', this.getAttribute('data-open')==='false'?'true':'false')">
+      <div class="accordion-head">
+        <span class="badge {{class}}">{{icon}}</span>
+        <span>{{question}}</span>
+        <i class="fas fa-caret-right"></i>
+        <i class="fas fa-caret-down"></i>
       </div>
+      <div class="accordion-body textbox" onclick="event.stopPropagation()">
+        {% include /review/steps/verdict_methodology_review_embed.html verdict=test %}
+      </div>
+    </div>
+    {% if failPoint != 0 %}
+      {% break %}
+    {% endif %}
   {% endfor %}
   </div>
 </div>
