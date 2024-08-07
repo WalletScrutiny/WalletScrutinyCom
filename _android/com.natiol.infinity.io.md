@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.natiol.infinity.io.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
-date: 2024-01-09
+date: 2024-08-07
 signer: 
 reviewArchive: 
 twitter: natiolinfinity

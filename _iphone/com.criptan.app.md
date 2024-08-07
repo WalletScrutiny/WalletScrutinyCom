@@ -11,7 +11,7 @@ released: 2020-06-18
 updated: 2024-07-23
 version: 2.18.6
 stars: 4.6
-reviews: 315
+reviews: 316
 size: '111250432'
 website: https://criptan.es
 repository: 

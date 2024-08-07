@@ -1,6 +1,6 @@
 ---
 wsId: Coinmotion
-title: 'Coinmotion: Crypto Investing'
+title: 'Coinmotion: Buy Bitcoin easily'
 altTitle: 
 authors:
 - danny

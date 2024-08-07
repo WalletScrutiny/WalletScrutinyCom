@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.numiner.nuwallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2024-04-13
+date: 2024-08-07
 signer: 
 reviewArchive: 
 twitter: 

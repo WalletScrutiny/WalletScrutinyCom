@@ -1,6 +1,6 @@
 ---
 wsId: elDoradoWalletExchange
-title: El Dorado - Wallet & P2P
+title: El Dorado P2P
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: io.eldorado.app.v1
 appCountry: ve
 idd: '1591303547'
 released: 2022-04-20
-updated: 2024-07-19
-version: 1.3.982
+updated: 2024-08-06
+version: 1.3.1019
 stars: 4.9
-reviews: 2203
-size: '79875072'
+reviews: 2212
+size: '80525312'
 website: https://eldorado.io/
 repository: 
 issue: 

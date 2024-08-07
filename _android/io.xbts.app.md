@@ -19,9 +19,9 @@ repository: https://github.com/XBTS/app
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/499
 icon: io.xbts.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2023-09-05
+date: 2024-08-07
 signer: 
 reviewArchive: 
 twitter: 

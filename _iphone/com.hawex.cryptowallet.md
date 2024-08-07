@@ -13,7 +13,7 @@ version: 2.1 (18)
 stars: 0
 reviews: 0
 size: '102586368'
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.hawex.cryptowallet.jpg

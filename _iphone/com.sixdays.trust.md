@@ -11,7 +11,7 @@ released: 2017-09-27
 updated: 2024-08-05
 version: '11.11'
 stars: 4.7
-reviews: 191318
+reviews: 191331
 size: '142801920'
 website: https://trustwallet.com
 repository: 
@@ -28,7 +28,7 @@ social:
 - https://www.facebook.com/trustwalletapp
 - https://www.reddit.com/r/trustapp
 features: 
-developerName: SIX DAYS LLC
+developerName: DApps Platform Software Services Ltd.
 
 ---
 

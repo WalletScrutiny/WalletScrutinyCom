@@ -12,7 +12,7 @@ updated: 2024-07-31
 version: 5.0.3
 stars: 3.3
 ratings: 
-reviews: 42
+reviews: 40
 size: 
 website: https://www.coininn.com
 repository: 

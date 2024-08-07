@@ -10,9 +10,9 @@ appCountry:
 released: 2022-09-12
 updated: 2024-07-08
 version: 2.1.3
-stars: 
+stars: 3.2
 ratings: 
-reviews: 
+reviews: 1
 size: 
 website: https://swiftcoin.io/
 repository: 
