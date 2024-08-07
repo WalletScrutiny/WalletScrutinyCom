@@ -22,7 +22,7 @@ issue: https://github.com/airgap-it/airgap-vault/issues/197
 icon: it.airgap.vault.png
 bugbounty: 
 meta: ok
-verdict: reproducible
+verdict: nonverifiable
 date: 2024-08-07
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
 reviewArchive:
@@ -295,11 +295,9 @@ From [Android Developer Documentation](https://developer.android.com/topic/perfo
 >
 > By shipping a Baseline Profile in an app or library, Android Runtime (ART) can optimize specified code paths through Ahead-of-Time (AOT) compilation, providing performance enhancements for every new user and every app update. This Profile Guided Optimization (PGO) lets apps optimize startup, reduce interaction jank, and improve overall runtime performance for users from the first launch.
 
-We ran the diffoscope output between the two **baseline.profm** using an LLM, and it concluded that differences in build method can affect the profile settings. We can consider this as a benign difference. 
+The difference in **baseline.profm** is not negligible. From this, we can conclude that version **3.32.2** is **nonverifiable**
 
-From this, we can conclude that version **3.32.2** is **reproducible.**
-
-Nevertheless, we created an [issue](https://github.com/airgap-it/airgap-vault/issues/212) with Airgap Vault to query them about how baseline.profm can be configured for the build to be **reproducible**.
+Nevertheless, we created an [issue](https://github.com/airgap-it/airgap-vault/issues/212) with Airgap Vault to query them about how baseline.profm can be configured. 
 
 ## Asciicast
 
