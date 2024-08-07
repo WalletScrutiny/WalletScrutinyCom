@@ -25,10 +25,15 @@ issue:
 icon: coinfinitycardwallet.png
 bugbounty: 
 meta: ok
-verdict: sealed-plainkey
-date: 2023-03-07
+verdict: prefilled
+date: 2024-08-07
 signer: 
 reviewArchive:
+- date: 2023-03-07
+  version: 
+  appHash: 
+  gitRevision: 50a8d4aa7af67f4c5e6cd0e619f9a41e053c0cf0
+  verdict: sealed-plainkey
 - date: 2022-03-23
   version: 
   appHash: 
@@ -41,6 +46,12 @@ social:
 features: 
 
 ---
+
+**Updated Review 2024-08-07**
+
+Verdict changed to **prefilled** to account for manufacturer imprinting the private key on the card prior to user-acquisition.
+
+**Prior Review 2023-03-07**
 
 [From the details listed on the Shop page:](https://www.cardwallet.com/en/product/card-wallet-bitcoin/)
 
