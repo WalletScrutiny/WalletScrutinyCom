@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.tech.cryptoocean.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-08-15
+date: 2024-08-08
 signer: 
 reviewArchive: 
 twitter: 

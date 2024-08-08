@@ -8,10 +8,10 @@ appCountry: us
 idd: 1288676542
 released: 2017-09-25
 updated: 2024-08-05
-version: 2024.4.0
+version: 2024.3.3
 stars: 4.7
-reviews: 11005
-size: '137811968'
+reviews: 11003
+size: '126536704'
 website: https://delta.app
 repository: 
 issue: 

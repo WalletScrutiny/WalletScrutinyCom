@@ -12,7 +12,7 @@ updated: 2024-07-25
 version: VARY
 stars: 4.8
 ratings: 
-reviews: 
+reviews: 1
 size: 
 website: https://ammer.cards/
 repository: 

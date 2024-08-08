@@ -4,7 +4,7 @@ title: Satoshi - Bitcoin Wallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: company.satoshipayments
 appCountry: 
 released: 2023-01-23

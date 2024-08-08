@@ -9,10 +9,10 @@ appCountry: us
 idd: '1204112719'
 released: 2017-03-13
 updated: 2024-08-06
-version: 4.9.31
+version: 4.9.30
 stars: 4.7
-reviews: 70762
-size: '240850944'
+reviews: 70722
+size: '237518848'
 website: https://public.com
 repository: 
 issue: 

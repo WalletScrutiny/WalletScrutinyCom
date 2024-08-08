@@ -9,10 +9,10 @@ appCountry: at
 idd: '1449018960'
 released: 2019-11-29
 updated: 2024-08-06
-version: 2.80.1
+version: 2.80.0
 stars: 4.7
-reviews: 17282
-size: '224673792'
+reviews: 17232
+size: '224660480'
 website: https://www.bitpanda.com/app
 repository: 
 issue: 

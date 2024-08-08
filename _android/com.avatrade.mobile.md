@@ -9,7 +9,7 @@ appId: com.avatrade.mobile
 appCountry: 
 released: 2017-05-23
 updated: 2024-07-31
-version: '140.3'
+version: '141.3'
 stars: 4.1
 ratings: 9327
 reviews: 11

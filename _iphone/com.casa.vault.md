@@ -9,10 +9,10 @@ appCountry:
 idd: 1314586706
 released: 2018-08-02
 updated: 2024-08-05
-version: 4.28.0
+version: 4.27.0
 stars: 4.9
 reviews: 1018
-size: '138643456'
+size: '138745856'
 website: https://www.casa.io
 repository: 
 issue: 

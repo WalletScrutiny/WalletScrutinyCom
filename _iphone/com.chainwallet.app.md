@@ -8,11 +8,11 @@ appId: com.chainwallet.app
 appCountry: us
 idd: '6444779277'
 released: 2022-12-22
-updated: 2024-07-15
-version: 1.0.34
+updated: 2024-08-07
+version: 1.0.35
 stars: 4.7
 reviews: 12
-size: '178224128'
+size: '189205504'
 website: https://chain.com
 repository: 
 issue: 

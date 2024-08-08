@@ -7,7 +7,7 @@ users: 100000
 appId: com.xapo.bank
 appCountry: 
 released: 2021-05-27
-updated: 2024-07-31
+updated: 2024-08-07
 version: 9.24.0
 stars: 4.3
 ratings: 603

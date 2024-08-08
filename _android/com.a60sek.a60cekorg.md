@@ -8,8 +8,8 @@ users: 5000
 appId: com.a60sek.a60cekorg
 appCountry: 
 released: 2020-04-06
-updated: 2023-11-03
-version: 4.0.1
+updated: 2024-08-06
+version: 4.1.1
 stars: 
 ratings: 
 reviews: 

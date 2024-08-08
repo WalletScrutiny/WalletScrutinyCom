@@ -12,7 +12,7 @@ updated: 2024-08-05
 version: 6.51.0004
 stars: 4
 ratings: 231093
-reviews: 562
+reviews: 563
 size: 
 website: https://go.coindcx.com/
 repository: 

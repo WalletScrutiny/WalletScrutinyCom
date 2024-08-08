@@ -9,10 +9,10 @@ appCountry: ng
 idd: 1494556510
 released: 2020-04-13
 updated: 2024-08-06
-version: 1.91.1
+version: 1.91.0
 stars: 4.5
 reviews: 13
-size: '134592512'
+size: '134608896'
 website: https://btse.com
 repository: 
 issue: 
