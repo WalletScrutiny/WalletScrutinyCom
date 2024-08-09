@@ -18,8 +18,7 @@ reviews: 57
 size: 
 website: https://trusteeglobal.com
 repository: https://github.com/trustee-wallet/trusteeWallet
-issue: https://github.com/trustee-wallet/trusteeWallet/issues/1
-       https://github.com/trustee-wallet/trusteeWallet/issues/180
+issue: https://github.com/trustee-wallet/trusteeWallet/issues/180
 icon: com.trusteewallet.png
 bugbounty: 
 meta: ok
