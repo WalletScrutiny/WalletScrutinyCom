@@ -1,35 +1,19 @@
 #!/bin/bash
+
+# SPDX-FileCopyrightText: 2022 Foundation Devices Inc.
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+# Exit if anything fails
 set -e
 
-# Function to log messages
-log_message() {
-    echo "$(date '+%Y-%m-%d %H:%M:%S') - $1"
-}
+# Required for Cargo to build libtor-sys
+export PATH=$PATH:$ANDROID_SDK_ROOT/ndk/24.0.8215888/toolchains/llvm/prebuilt/linux-x86_64/bin/
+export AR=llvm-ar
+export RANLIB=llvm-ranlib
 
-# Build Rust libraries
-log_message "Starting Rust build for aarch64-linux-android"
+# Use specific Rust version
+rustup install 1.69.0
+rustup +1.69.0 target add aarch64-linux-android
 cargo +1.69.0 build --target=aarch64-linux-android
 cargo +1.69.0 build --target=aarch64-linux-android --release
-
-# Get Flutter dependencies
-log_message "Getting Flutter dependencies"
-flutter pub get
-
-# Build the APK
-log_message "Building APK"
-flutter build apk --release
-
-# Check if APK was built successfully
-APK_PATH="/root/repo/build/app/outputs/flutter-apk/app-release.apk"
-if [ -f "$APK_PATH" ]; then
-    log_message "Build completed successfully. APK is at $APK_PATH"
-else
-    log_message "ERROR: APK not found at $APK_PATH"
-    exit 1
-fi
-
-# Print versions for debugging
-log_message "Tool versions:"
-cargo --version
-rustc --version
-flutter --version
