@@ -24,9 +24,9 @@ repository: https://github.com/Bitfi/BitfiWallet
 issue: 
 icon: bitfiwallet.png
 bugbounty: 
-meta: ok
+meta: obsolete
 verdict: wip
-date: 2024-08-06
+date: 2024-08-12
 signer: 
 reviewArchive: 
 twitter: thebitfi

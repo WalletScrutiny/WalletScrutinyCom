@@ -25,7 +25,7 @@ repository: https://github.com/bithd/bithd-mcu
 issue: 
 icon: bithdwatch2.png
 bugbounty: 
-meta: ok
+meta: obsolete
 verdict: nonverifiable
 date: 2024-08-06
 signer: 
