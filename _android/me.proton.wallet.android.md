@@ -142,7 +142,7 @@ We initially tried to build manually from this Dockerfile:
 
 `$ docker run --rm -it proton-build`
 
-Inside the workspace directory I move to the *./rust* folder to find the **cargo.toml** file. I then try to run:
+Inside the workspace directory I move to the `./rust` folder to find the `cargo.toml` file. I then try to run:
 
 `cargo build --target aarch64-linux-android --release --verbose`
 
