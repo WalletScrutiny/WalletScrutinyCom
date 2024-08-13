@@ -9,10 +9,10 @@ appCountry: be
 idd: 1483903423
 released: 2020-05-28
 updated: 2024-08-08
-version: 2.46.3
+version: 2.46.0
 stars: 4.6
-reviews: 4473
-size: '111565824'
+reviews: 4171
+size: '111500288'
 website: https://bitvavo.com
 repository: 
 issue: 

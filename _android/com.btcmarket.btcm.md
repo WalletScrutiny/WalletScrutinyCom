@@ -10,9 +10,9 @@ appCountry:
 released: 2022-03-17
 updated: 2024-06-18
 version: 1.8.2
-stars: 
+stars: 4.6
 ratings: 
-reviews: 
+reviews: 2
 size: 
 website: https://btcmarkets.net
 repository: 

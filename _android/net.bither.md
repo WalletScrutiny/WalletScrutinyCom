@@ -7,8 +7,8 @@ users: 50000
 appId: net.bither
 appCountry: 
 released: 2014-02-27
-updated: 2024-05-29
-version: 2.1.3
+updated: 2024-08-13
+version: 2.1.5
 stars: 4.2
 ratings: 335
 reviews: 30

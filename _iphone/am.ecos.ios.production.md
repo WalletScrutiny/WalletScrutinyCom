@@ -8,11 +8,11 @@ appId: am.ecos.ios.production
 appCountry: us
 idd: 1528964374
 released: 2020-11-25
-updated: 2024-07-26
-version: 2.0.1
+updated: 2024-08-12
+version: 2.0.2
 stars: 3.5
 reviews: 209
-size: '74857472'
+size: '75343872'
 website: https://ecos.am/
 repository: 
 issue: 

@@ -8,8 +8,8 @@ users: 5000
 appId: me.proton.wallet.android
 appCountry: 
 released: 
-updated: 2024-08-08
-version: 1.0.0+66
+updated: 2024-08-12
+version: VARY
 stars: 
 ratings: 
 reviews: 

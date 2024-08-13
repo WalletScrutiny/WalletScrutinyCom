@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.felixo.mobile.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-08-29
+date: 2024-08-13
 signer: 
 reviewArchive: 
 twitter: felixoexchange

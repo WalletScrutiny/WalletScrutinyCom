@@ -8,8 +8,8 @@ users: 5000
 appId: com.rapiexchange
 appCountry: 
 released: 2022-04-19
-updated: 2024-06-26
-version: '2.54'
+updated: 2024-08-09
+version: '2.55'
 stars: 
 ratings: 
 reviews: 

@@ -1,6 +1,6 @@
 ---
 wsId: koinParkCrypto
-title: KoinPark
+title: Koinpark
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.app.KoinParkios
 appCountry: in
 idd: '6448510693'
 released: 2023-05-10
-updated: 2024-06-06
-version: '3.1'
+updated: 2024-08-12
+version: '3.2'
 stars: 4.1
 reviews: 73
-size: '76061696'
+size: '85358592'
 website: 
 repository: 
 issue: 

@@ -3,7 +3,7 @@ wsId:
 title: Electron Cash wallet for BCH
 altTitle: 
 authors: 
-users: 10000
+users: 50000
 appId: org.electroncash.wallet
 appCountry: 
 released: 2018-12-08

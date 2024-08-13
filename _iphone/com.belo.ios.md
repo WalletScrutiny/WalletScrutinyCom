@@ -8,11 +8,11 @@ appId: com.belo.ios
 appCountry: co
 idd: '1575614708'
 released: 2021-09-08
-updated: 2024-08-06
-version: 4.20.7
+updated: 2024-08-12
+version: 4.21.0
 stars: 4.7
 reviews: 15
-size: '78583808'
+size: '78624768'
 website: https://belo.app
 repository: 
 issue: 

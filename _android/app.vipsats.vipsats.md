@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: app.vipsats.vipsats.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: wip
-date: 2023-12-17
+date: 2024-08-13
 signer: 
 reviewArchive: 
 twitter: 

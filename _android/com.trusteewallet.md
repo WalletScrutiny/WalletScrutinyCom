@@ -56,6 +56,7 @@ developerName: BlockSoft Lab
 features: 
 
 ---
+
 ### Update 2024-08-01:
 
 **Review: Build Issue with Trustee Wallet**

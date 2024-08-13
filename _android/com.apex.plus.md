@@ -12,7 +12,7 @@ updated: 2024-08-03
 version: 2.6.2
 stars: 4.3
 ratings: 
-reviews: 20
+reviews: 21
 size: 
 website: https://apex.exchange
 repository: 

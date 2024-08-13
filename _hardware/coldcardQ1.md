@@ -25,10 +25,10 @@ meta: ok
 verdict: reproducible
 date: 2024-08-12
 signer: 
-reviewArchive: 
+reviewArchive:
 - date: 2024-05-31
   version: 1.2.1Q
-  appHash: 85186d87fcf6a8334e9f4c35680a505acb1ed274ffef2913d734dfa400c1f809 
+  appHash: 85186d87fcf6a8334e9f4c35680a505acb1ed274ffef2913d734dfa400c1f809
   gitRevision: f75bca706d73b85a627828802bc757f705bd9921
   verdict: reproducible
 twitter: COLDCARDwallet

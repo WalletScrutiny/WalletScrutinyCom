@@ -12,7 +12,7 @@ updated: 2024-04-12
 version: 2.22.3
 stars: 3.4
 ratings: 
-reviews: 25
+reviews: 26
 size: 
 website: https://www.choiceapp.io/
 repository: 

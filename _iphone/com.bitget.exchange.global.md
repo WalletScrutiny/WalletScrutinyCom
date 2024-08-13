@@ -9,10 +9,10 @@ appCountry: ua
 idd: 1442778704
 released: 2018-11-29
 updated: 2024-08-07
-version: 2.37.0
-stars: 4.3
-reviews: 998
-size: '376527872'
+version: 2.38.1
+stars: 4.4
+reviews: 1101
+size: '376552448'
 website: https://www.bitget.com/en
 repository: 
 issue: 
