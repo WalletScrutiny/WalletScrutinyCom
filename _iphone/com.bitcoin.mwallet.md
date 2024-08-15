@@ -9,9 +9,9 @@ appCountry:
 idd: 1252903728
 released: 2017-07-11
 updated: 2024-08-13
-version: 8.30.1
+version: 8.30.2
 stars: 4.6
-reviews: 30516
+reviews: 30546
 size: '246801408'
 website: https://wallet.bitcoin.com/
 repository: 

@@ -8,7 +8,7 @@ users: 10000
 appId: com.koinbasket.mobile
 appCountry: 
 released: 2022-07-02
-updated: 2024-08-12
+updated: 2024-08-14
 version: 2.0.2
 stars: 2.8
 ratings: 

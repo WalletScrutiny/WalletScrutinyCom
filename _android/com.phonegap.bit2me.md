@@ -4,7 +4,7 @@ title: Bit2Me - Bitcoin and Cryptos
 altTitle: 
 authors:
 - leo
-users: 100000
+users: 500000
 appId: com.phonegap.bit2me
 appCountry: 
 released: 2015-01-08

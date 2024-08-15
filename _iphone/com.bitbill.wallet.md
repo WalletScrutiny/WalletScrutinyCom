@@ -9,10 +9,10 @@ appCountry:
 idd: 1321798216
 released: 2018-02-07
 updated: 2024-07-30
-version: 4.51.0
-stars: 4.1
-reviews: 53
-size: '125984768'
+version: 4.50.0
+stars: 4.2
+reviews: 52
+size: '122612736'
 website: http://www.bitbill.com
 repository: 
 issue: 

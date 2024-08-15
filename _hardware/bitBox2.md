@@ -86,7 +86,6 @@ features:
 
 ---
 
-
 ```
 $ scripts/test/hardware/bitBox2.sh 9.19.0
 ...

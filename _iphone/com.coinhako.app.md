@@ -10,10 +10,10 @@ appCountry:
 idd: 1137855704
 released: 2016-09-04
 updated: 2024-08-12
-version: 4.6.50
+version: 4.6.48
 stars: 3.9
 reviews: 30
-size: '281419776'
+size: '281387008'
 website: https://www.coinhako.com
 repository: 
 issue: 

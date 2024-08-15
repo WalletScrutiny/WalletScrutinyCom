@@ -11,7 +11,7 @@ released: 2020-03-31
 updated: 2024-08-07
 version: 1.90.0
 stars: 4.4
-reviews: 1997
+reviews: 1998
 size: '146245632'
 website: https://swissborg.com
 repository: 

@@ -8,11 +8,11 @@ appId: com.river.riverapp
 appCountry: us
 idd: '1536176542'
 released: 2021-01-19
-updated: 2024-07-15
-version: 3.9.5
+updated: 2024-08-14
+version: 4.1.1
 stars: 4.8
-reviews: 2315
-size: '67616768'
+reviews: 2325
+size: '49011712'
 website: https://river.com/buy-bitcoin
 repository: 
 issue: 
