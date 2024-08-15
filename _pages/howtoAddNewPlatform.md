@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "How to Add a New Platform"
 permalink: /howtoAddNewPlatform/
 ---

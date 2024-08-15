@@ -1,5 +1,4 @@
 ---
-layout: archive
 title: "How to Write an Analysis"
 permalink: /howtoWriteAnAnalysis/
 ---
