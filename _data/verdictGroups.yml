@@ -1,7 +1,6 @@
 - key: allPassed
   verdicts:
   - reproducible
-  - nobinary
   title: All tests passed.
   short: All tests passed
   abstract: Reproducibility

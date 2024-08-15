@@ -2,7 +2,7 @@ short: Obfuscated!
 title: Obfuscated
 color: '#d33100'
 redflag: true
-pass: The source code was decompiled and found to be legible.
+pass: We did not notice obfuscation.
 message: The binary contains active obfuscation!
 question: Is the decompiled binary legible?
 details: >
