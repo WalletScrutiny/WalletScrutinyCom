@@ -320,7 +320,7 @@ timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database
 plugins:
   - jekyll-redirect-from
   - jekyll-minifier
-# mimic GitHub Pages with --safe
+  - jekyll-include-cache
 whitelist:
   - jekyll-feed
   - jemoji
