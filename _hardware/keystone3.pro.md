@@ -3,10 +3,11 @@ title: Keystone3 Pro
 appId: keystone3.pro
 authors:
 - danny
+- keraliss
 released: 2024-04-02
 discontinued: 
 updated: 2024-04-02
-version: 1.4.8
+version: 1.5.8
 binaries: https://keyst.one/firmware
 dimensions:
 - 62
@@ -25,9 +26,14 @@ icon: keystone3.pro.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-06-03
+date: 2024-08-14
 signer: fbf1cf15c5ba13a91a6b27f73a21ae69d8b60b5ff34f6d32dbd55e8ff5f27025
 reviewArchive:
+- date: 2024-06-03
+  version: 1.4.8
+  appHash: d2d73488930e4e91787d3d7010f6dfc22268ce406e1848fd96e02eaf4737bfe9
+  gitRevision: f7e12618fa33223fde14fce8c27c4a98833bb15c
+  verdict: reproducible
 - date: 2024-05-08
   version: 1.3.6
   appHash: b85edf5bd058028e708437c125ad3d67ab6da520b402d9aec59b47705f3a5509
@@ -93,20 +99,20 @@ We were able to craft a script from their provided [build instructions](https://
 ## Results
 
 ```
-Firmware checksum sha256: f6b056d0493a54afe3449f781cfd72f4c988f9eb49621f6cfa0f3f9a3f1f6a89 
+Firmware checksum sha256: 90b79ff332f2bd594ca92b81762c3a1adee0e73df2359343a85919800bfc54be 
 You can check this value on your device.
 All builds complete.
 ------------------------
 (SIGNED) Binary from Keystone Website :
-fbf1cf15c5ba13a91a6b27f73a21ae69d8b60b5ff34f6d32dbd55e8ff5f27025  keystone3.bin
+d2d73488930e4e91787d3d7010f6dfc22268ce406e1848fd96e02eaf4737bfe9  keystone3.bin
 ------------------------
 ------------------------
 Binary from build process:
-f6b056d0493a54afe3449f781cfd72f4c988f9eb49621f6cfa0f3f9a3f1f6a89  ./build/mh1903.bin
+90b79ff332f2bd594ca92b81762c3a1adee0e73df2359343a85919800bfc54be  ./build/mh1903.bin
 ------------------------
 ------------------------
 Unsigned Binary from Keystone Website :
-Firmware checksum sha256: f6b056d0493a54afe3449f781cfd72f4c988f9eb49621f6cfa0f3f9a3f1f6a89 
+Firmware checksum sha256: 90b79ff332f2bd594ca92b81762c3a1adee0e73df2359343a85919800bfc54be 
 You can check this value on your device.
 ------------------------
 Unsigned .bin hash must be the same as mh1903.bin.
@@ -123,5 +129,5 @@ They [promptly replied](https://github.com/KeystoneHQ/keystone3-firmware/issues/
 
 {% include asciicast %}
 
-Version 1.4.8 of Keystone 3 Pro is **reproducible**
+Version 1.5.8 of Keystone 3 Pro is **reproducible**
 
