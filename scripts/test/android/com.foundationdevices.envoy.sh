@@ -1,49 +1,30 @@
 #!/bin/bash
-repo="https://github.com/Foundation-Devices/envoy"
-tag="v$versionName"
-workDir="/tmp/test_com.foundationdevices.envoy"
-builtApk="$workDir/build/app/outputs/flutter-apk/app-release.apk"
 
-cleanup() {
-  echo "Cleaning up..."
-  cd /tmp
-  rm -rf "$workDir"
-}
+# Define the repository URL and directory name
+REPO_URL="https://github.com/Foundation-Devices/envoy.git"
+REPO_DIR="envoy"
 
-test() {
-  cleanup
-  git clone --branch "$tag" --depth 1 "$repo" "$workDir"
-  cd "$workDir" || { echo "Failed to change directory to $workDir"; return 1; }
-  
-  if [ ! -f "Dockerfile" ]; then
-    echo "Error: Dockerfile not found in $workDir"
-    return 1
-  fi
-  
-  docker build --tag envoy_builder .
-  
-  docker run \
-    --rm \
-    --volume "$workDir:/app" \
-    --workdir /app \
-    --env ANDROID_SDK_ROOT=/root/Android/sdk \
-    --env PATH="/root/.cargo/bin:/root/flutter/bin:$PATH" \
-    envoy_builder \
-    bash -c "
-      source ~/.cargo/env
-      ./build_ffi_android.sh
-      flutter build apk --release
-    "
-  
-  if [ ! -f "$builtApk" ]; then
-    echo "Error: APK file not found at $builtApk"
-    return 1
-  fi
-  
-  echo "Build completed successfully"
-  echo "APK location: $builtApk"
-}
+# Clone the repository
+echo "Cloning the repository from $REPO_URL"
+git clone "$REPO_URL"
+cd "$REPO_DIR" || exit
 
-cd /tmp
-test
-trap cleanup EXIT
+# Build the Docker image
+echo "Building the Dockerfile"
+docker build -t envoy-image .
+
+# Run the Docker container
+echo "Running the Docker container"
+CONTAINER_ID=$(docker run -d envoy-image)
+
+# Wait for the container to finish
+docker wait "$CONTAINER_ID"
+
+# Check if the container has exited and then copy the APK or any required files
+echo "Container has exited. Extracting APK or build outputs..."
+docker cp "$CONTAINER_ID":/root/target/aarch64-linux-android/release/ /home/keraliss/projects/walletScrutiny_build/envoy/
+
+# Clean up the container
+docker rm "$CONTAINER_ID"
+
+echo "Process completed."

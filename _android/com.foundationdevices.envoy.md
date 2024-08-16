@@ -22,7 +22,7 @@ icon: com.foundationdevices.envoy.jpg
 bugbounty: 
 meta: ok
 verdict: ftbfs
-date: 2024-08-06
+date: 2024-08-16
 signer: 
 reviewArchive: 
 twitter: FOUNDATIONdvcs
@@ -36,105 +36,28 @@ developerName: Foundation Devices
 features: 
 
 ---
-**Update 2024-08-06:**
+**Update 2024-08-16**:
 
-**Review: Envoy Wallet Build**
+### Review: Build Issue with Envoy APK Generation
 
-The build process for the Envoy Wallet was successfully initiated and completed using the provided Dockerfile. We created a script, {% include testScript.html %} , and got this output. 
+During the attempt to build an Android APK from the Envoy repository using Docker, the process encountered multiple issues.
 
-   **APK Not Found Error:**
-   ```   
-   BUILD FAILED in 26m 49s
-   Running Gradle task 'assembleRelease'...                         1609.5s
-   Gradle task assembleRelease failed with exit code 1
-   + '[' '!' -f /tmp/test_com.foundationdevices.envoy/build/app/outputs/flutter-apk/app-release.apk ']'
-   + echo 'Error: APK file not found at /tmp/test_com.foundationdevices.envoy/build/app/outputs/flutter-apk/app-release.apk'
-   Error: APK file not found at /tmp/test_com.foundationdevices.envoy/build/app/outputs/flutter-apk/app-release.apk
-   ```
+#### Docker Build Process:
+The Docker build process was initiated with the following command:
+```bash
+docker build -t envoy-image .
+```
+This command successfully compiled the Rust code and generated several `.a` and `.so` files.
 
-Despite the Docker image building and running successfully, the APK was not found, which suggests issues with the build output configuration or directory paths.
+#### Error Encountered:
+The expected output was an Android APK, but the build process only resulted in a `release` folder containing static and shared libraries (`.a` and `.so` files). The APK was not found because the build script only compiled Rust code without integrating with the Android Gradle build system.
 
-**Manual Build Attempt:**
+### Steps Taken:
+1. **Initial Setup:** The Docker environment was correctly set up, and the Rust project was cloned and built.
+2. **Compilation:** The Rust code compiled successfully, producing necessary libraries for Android.
+3. **Output Verification:** The process attempted to find the APK, but none was generated.
 
-After the initial build failed to produce a working APK, a manual Docker build was performed:
-
-1. **Manual Docker Build and Run Commands:**
-   ```
-   docker build -t envoy_wallet -f envoy.dockerfile .
-   ```
-
-   the build was successful 
-
-   ```
-   Successfully built 67097ce5b7b9
-
-   Successfully tagged envoy_wallet:latest
-   ```
-   Then we tried to run the container
-   ```
-   docker run -d --name envoy_build_container_new envoy_wallet
-   ```
-   And got this
-   ```
-   Error building OpenSSL:
-      Command: cd "/root/repo/target/aarch64-linux-android/release/build/openssl-sys-9f47e4e5d09d2dda/out/openssl-build/build/src" && MAKEFLAGS="-j --jobserver-fds=6,7 --jobserver-auth=6,7" "make" "build_libs"
-      Exit status: exit status: 2
-
-
-      , /root/.cargo/registry/src/mirrors.tuna.tsinghua.edu.cn-df7c3c540f42cdbd/openssl-src-300.2.1+3.2.0/src/lib.rs:611:9
-      note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
-      Resolving dependencies... (23.0s)
-      Note: intl is pinned to version 0.19.0 by flutter_localizations from the flutter SDK.
-      See https://dart.dev/go/sdk-version-pinning for details.
-
-
-      Because envoy depends on flutter_localizations from sdk which depends on intl 0.19.0, intl 0.19.0 is required.
-      So, because envoy depends on intl ^0.18.0, version solving failed.
-      Resolving dependencies... (4.8s)
-      Note: intl is pinned to version 0.19.0 by flutter_localizations from the flutter SDK.
-      See https://dart.dev/go/sdk-version-pinning for details.
-
-
-      Because envoy depends on flutter_localizations from sdk which depends on intl 0.19.0, intl 0.19.0 is required.
-      So, because envoy depends on intl ^0.18.0, version solving failed.
-      Build process completed. Checking for APK...
-      Versions of tools:
-      cargo 1.69.0 (6e9a83356 2023-04-12)
-      rustc 1.69.0 (84c898d65 2023-04-16)
-      Flutter 3.24.0 • channel stable • https://github.com/flutter/flutter.git
-      Framework • revision 80c2e84975 (8 days ago) • 2024-07-30 23:06:49 +0700
-      Engine • revision b8800d88be
-      Tools • Dart 3.5.0 • DevTools 2.37.2
-   ```
-
-
-**Issues Encountered:**
-
-1. **OpenSSL Build Failure:**
-   The build process for OpenSSL failed with the following error:
-   ```
-   Error building OpenSSL:
-   Command: cd "/root/repo/target/aarch64-linux-android/release/build/openssl-sys-9f47e4e5d09d2dda/out/openssl-build/build/src" && MAKEFLAGS="-j --jobserver-fds=6,7 --jobserver-auth=6,7" "make" "build_libs"
-   Exit status: exit status: 2
-   ```
-   This indicates potential issues with missing tools or incorrect configuration for building OpenSSL.
-
-2. **Flutter Dependency Conflict:**
-   There is a version conflict with the `intl` package. The project specifies `intl ^0.18.0`, but the Flutter SDK requires `intl 0.19.0` due to dependencies like `flutter_localizations`. This conflict prevents the successful build of the APK. The specific error encountered was:
-   ```
-   Error resolving dependencies:
-   Because envoy depends on flutter_localizations from sdk which depends on intl 0.19.0, intl 0.19.0 is required.
-   So, because envoy depends on intl ^0.18.0, version solving failed.
-   ```
-
-   Attempts to resolve this by updating the `intl` version in the `pubspec.yaml` file led to further issues:
-   
-   ```
-   Error: Version solving failed because every version of webfeed from git depends on intl ^0.18.0 and envoy depends on intl ^0.19.0.
-   ```
-
-**Conclusion:** Although the Docker image for the Envoy Wallet built successfully, significant issues with OpenSSL and Flutter dependencies prevented the APK from being generated correctly. As a result, the APK is not verifiable at this time.
-
+**Conclusion:** Although the Docker image for the Envoy Wallet built successfully, the APK was not generated correctly. As a result, the APK is **not verifiable** at this time.
 
 ## App Description from Google Play
 
