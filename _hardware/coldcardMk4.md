@@ -48,7 +48,7 @@ features:
 Here are the test results for the latest version:
 
 ```
-$ ./scripts/test/hardware/coldCard.sh  2024-07-05T1349-v5.3.3 4 2024-07-05T1348-v5.3.3-mk4-coldcard.dfu
+$ ./scripts/test/hardware/coldCard.sh  2024-07-05T1349-v5.3.3 mk4 2024-07-05T1348-v5.3.3-mk4-coldcard.dfu
 
 ...
 
@@ -63,16 +63,12 @@ You have built a bit-for-bit identical copy of Coldcard firmware for v5.3.3
 + set +ex
 
 Hash of non-signature parts downloaded/compiled:
-
-+ xxd /tmp/firmware/stm32/built/firmware-signed.bin | sed -e 's/^00003f[89abcdef]0: .*/(firmware signature here)/' | xxd -r >firmware-nosig.bin
-+ xxd /tmp/firmware/stm32/built/check-fw.bin | sed -e 's/^00003f[89abcdef]0: .*/(firmware signature here)/' | xxd -r >${version}${version_suffix}-nosig.bin
-
 a694b91d546b23584a31d3f4b7b7e9795f788c4b62f4699ef48ff96d0b64eb28  2024-07-05T1349-v5.3.3-mk4-nosig.bin
 a694b91d546b23584a31d3f4b7b7e9795f788c4b62f4699ef48ff96d0b64eb28  firmware-nosig.bin
 
 Hash of the signed firmware:
-4d83715772b31643abde3b9a0bb328003f4a31d14e2fe9c1e038077a518acaea  /tmp/firmware/releases/2024-07-05T1348-v5.3.3-mk4-coldcard.dfu
-06f97fef13550f756d759263f44ea93dce80a0f2a67cb3cb4242fb970f0c1266  /tmp/firmware/stm32/built/firmware-signed.dfu
+4d83715772b31643abde3b9a0bb328003f4a31d14e2fe9c1e038077a518acaea  /tmp/firmware/releases/2024-07-05T1349-v5.3.3-mk4-coldcard.dfu
+b61cdae1e8c3710fbb10b211b5a5229b42f7c2a89d72120a71b2017d2d67cdfb  /tmp/firmware/stm32/built/firmware-signed.dfu
 ```
 
 which shows this firmware is **reproducible**.
