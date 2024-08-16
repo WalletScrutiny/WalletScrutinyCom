@@ -20,9 +20,9 @@ repository: https://github.com/BitcoinComfy/BitcoinMRE
 issue: 
 icon: 
 bugbounty: 
-meta: ok
-verdict: diy
-date: 2022-11-23
+meta: diy
+verdict: wip
+date: 2024-08-16
 signer: 
 reviewArchive: 
 twitter: BitcoinComfy

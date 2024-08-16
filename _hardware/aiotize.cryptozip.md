@@ -20,9 +20,9 @@ repository:
 issue: 
 icon: aiotize.cryptozip.png
 bugbounty: 
-meta: ok
-verdict: diy
-date: 2022-05-19
+meta: diy
+verdict: nosource
+date: 2024-08-16
 signer: 
 reviewArchive: 
 twitter: aiotize

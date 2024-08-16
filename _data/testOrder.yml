@@ -19,10 +19,10 @@ verdicts:
   - sealed-noita
   - reproducible
   - nobinary
-  - diy
 metas:
   - defunct
   - obsolete
   - stale
+  - diy
   - outdated
   - discontinued

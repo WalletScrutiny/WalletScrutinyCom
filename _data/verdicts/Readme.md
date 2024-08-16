@@ -31,11 +31,11 @@ or the two `verdictOrder` variables.
 
 It will typically look like this: 
 
-> *verdicts = "nobinary,reproducible,diy,nonverifiable,ftbfs,nosource,custodial,nosendreceive,sealed-noita,noita,sealed-plainkey,plainkey,prefilled"*
+> *verdicts = "nobinary,reproducible,nonverifiable,ftbfs,nosource,custodial,nosendreceive,sealed-noita,noita,sealed-plainkey,plainkey,prefilled"*
 
 Add the new verdict:
 
-> *verdicts = "nobinary,reproducible,diy,nonverifiable,ftbfs,nosource,custodial,nosendreceive,sealed-noita,noita,sealed-plainkey,plainkey,prefilled,newverdict"*
+> *verdicts = "nobinary,reproducible,nonverifiable,ftbfs,nosource,custodial,nosendreceive,sealed-noita,noita,sealed-plainkey,plainkey,prefilled,newverdict"*
 
 Note: The position matters. The new verdict needs to be inserted accordingly.
 Currently, these lists are used for all platforms but the "newverdict" might apply to only one platform. One has to fit it in such that the corresponding platform's verdicts are in order.
