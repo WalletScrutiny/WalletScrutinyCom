@@ -1,60 +1,19 @@
-# Contributing to WalletScrutiny
+WalletScrutiny is committed to transparency and security in Bitcoin wallet reviews. We welcome contributions from the community to help us achieve this mission. Here’s how you can get involved:
 
-## How to contribute 
-Find the latest guidelines and instructions in our [contribution documentation](https://walletscrutiny.com/howtoContributeToWS/).
+## How to Contribute
 
-## How to write an analysis 
-Contributors who are looking to write a review need to read our [analysis guide](https://walletscrutiny.com/howtoWriteAnAnalysis/) prior to making a contribution.
+1. **Review the [GitLab Wiki](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/wikis/home) for detailed guides**:
+    - [How to Contribute to WalletScrutiny](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/wikis/How-to-Contribute-to-WalletScrutiny): Detailed steps for contributing to WalletScrutiny.
+    - [How to Add a New Platform](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/wikis/How-to-add-a-new-platform): Instructions for adding new Bitcoin wallet platforms.
+    - [How to Write an Analysis](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/wikis/How-to-write-an-Analysis): Guidelines for writing in-depth analyses of Bitcoin wallets.
 
-<!-- Place holder for possible future documentation. This format was borrowed from GitLab's own contributing.md file.
+2. **Explore Contribution Options**:
+    - **Write Opinions**: Share your insights on various Bitcoin wallets.
+    - **Write Reviews**: Update or create reviews for Bitcoin wallets.
+    - **Add New Products**: Contribute by adding new wallets to our database.
+    - **Help with Issue Tracking**: Create or resolve issues in our [GitLab issue tracker](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues).
 
-## Code of Conduct
-All contributors are expected to adhere to our [Code of Conduct](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/wikis/Code-of-Conduct). Please review it before contributing.
+3. **Collaborate and Discuss**: Join our community on platforms like [Discord](https://discord.gg/yVWqxHSjHH), [X.com](https://x.com/WalletScrutiny), and [Reddit](https://reddit.com/r/walletscrutiny).
 
-## Closing Policy for Issues and Merge Requests
-Our policy for closing issues and merge requests has been detailed in the [closing policy documentation](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/wikis/Closing-Policy).
+For more information and detailed instructions, visit our [GitLab Wiki](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/wikis/home).
 
-## Helping Others
-Want to help fellow contributors? Find out how you can assist others by reviewing our [Helping Others guide](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/wikis/Helping-Others).
-
-## I Want to Contribute!
-If you’re ready to contribute, start by reviewing our [contribution guidelines](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/wikis/Contribution-Guidelines).
-
-## Contribution Flow
-Learn about the steps involved in contributing to WalletScrutiny by reading our [Contribution Flow](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/wikis/Contribution-Flow) documentation.
-
-## Workflow Labels
-For more details on how to use labels in issues and merge requests, refer to our [workflow labels documentation](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/wikis/Workflow-Labels).
-
-- **Type Labels**: [View documentation](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/wikis/Type-Labels).
-- **Subject Labels**: [View documentation](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/wikis/Subject-Labels).
-- **Team Labels**: [View documentation](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/wikis/Team-Labels).
-- **Release Scoping Labels**: [View documentation](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/wikis/Release-Scoping-Labels).
-- **Priority Labels**: [View documentation](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/wikis/Priority-Labels).
-- **Severity Labels**: [View documentation](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/wikis/Severity-Labels).
-
-## Implement Design & UI Elements
-Guidance on implementing design and UI elements can be found in our [design & UI documentation](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/wikis/Design-UI-Elements).
-
-## Issue Tracker
-For detailed information on managing issues, refer to the [Issue Tracker documentation](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/wikis/Issue-Tracker).
-
-- **Issue Triaging**: [View documentation](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/wikis/Issue-Triaging).
-- **Feature Proposals**: [View documentation](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/wikis/Feature-Proposals).
-- **Issue Tracker Guidelines**: [View documentation](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/wikis/Issue-Tracker-Guidelines).
-- **Regression Issues**: [View documentation](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/wikis/Regression-Issues).
-- **Technical and UX Debt**: [View documentation](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/wikis/Technical-UX-Debt).
-- **Stewardship**: [View documentation](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/wikis/Stewardship).
-
-## Merge Requests
-Guidelines for submitting merge requests are available in our [Merge Request documentation](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/wikis/Merge-Request).
-
-- **Merge Request Guidelines**: [View documentation](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/wikis/Merge-Request-Guidelines).
-- **Contribution Acceptance Criteria**: [View documentation](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/wikis/Contribution-Acceptance-Criteria).
-
-## Definition of Done
-Review the [Definition of Done](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/wikis/Definition-of-Done) to understand when a task is considered complete.
-
-## Style Guides
-Our style guides ensure consistency across the project. [View the style guide documentation](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/wikis/Style-Guides) for more details.
--->
