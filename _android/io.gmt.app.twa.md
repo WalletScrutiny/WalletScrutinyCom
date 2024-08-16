@@ -8,8 +8,8 @@ users: 1000000
 appId: io.gmt.app.twa
 appCountry: 
 released: 2023-02-22
-updated: 2024-04-25
-version: '29'
+updated: 2024-08-15
+version: '31'
 stars: 3.6
 ratings: 
 reviews: 250

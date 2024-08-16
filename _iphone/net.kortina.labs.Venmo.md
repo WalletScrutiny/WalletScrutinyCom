@@ -8,11 +8,11 @@ appId: net.kortina.labs.Venmo
 appCountry: us
 idd: '351727428'
 released: 2010-04-03
-updated: 2024-08-06
-version: 10.47.0
+updated: 2024-08-16
+version: 10.47.1
 stars: 4.9
-reviews: 15440894
-size: '385050624'
+reviews: 15440930
+size: '385017856'
 website: https://venmo.com/
 repository: 
 issue: 

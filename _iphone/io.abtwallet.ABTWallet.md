@@ -8,8 +8,8 @@ appId: io.abtwallet.ABTWallet
 appCountry: us
 idd: '1460083542'
 released: 2019-05-19
-updated: 2024-08-02
-version: 5.6.1
+updated: 2024-08-16
+version: 5.6.8
 stars: 4.9
 reviews: 71
 size: '105885696'

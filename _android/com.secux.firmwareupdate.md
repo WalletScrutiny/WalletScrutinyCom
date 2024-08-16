@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.secux.firmwareupdate.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-08-29
+date: 2024-08-16
 signer: 
 reviewArchive: 
 twitter: 

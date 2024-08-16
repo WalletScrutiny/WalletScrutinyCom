@@ -1,6 +1,6 @@
 ---
 wsId: ambercrypto
-title: 'WhaleFin: buy Crypto, BTC, ETH'
+title: 'WhaleFin: Prime Crypto Service'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.ambergroup.amberapp
 appCountry: us
 idd: 1515652068
 released: 2020-09-21
-updated: 2024-07-05
-version: 2.18.7
+updated: 2024-08-15
+version: 2.19.0
 stars: 4.5
 reviews: 196
-size: '238809088'
+size: '238858240'
 website: https://www.whalefin.com
 repository: 
 issue: 

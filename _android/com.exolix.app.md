@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.exolix.app.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-07-21
+date: 2024-08-16
 signer: 
 reviewArchive: 
 twitter: Exolix_com

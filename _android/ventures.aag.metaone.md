@@ -10,9 +10,9 @@ appCountry:
 released: 2022-12-22
 updated: 2024-08-01
 version: 5.9.0
-stars: 4.3
+stars: 4.2
 ratings: 
-reviews: 12
+reviews: 13
 size: 
 website: https://getmeta.one/
 repository: 

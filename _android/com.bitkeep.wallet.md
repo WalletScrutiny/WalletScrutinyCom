@@ -5,7 +5,7 @@ altTitle:
 authors:
 - leo
 - danny
-users: 1000000
+users: 5000000
 appId: com.bitkeep.wallet
 appCountry: 
 released: 2020-02-11
@@ -13,7 +13,7 @@ updated: 2024-08-02
 version: 8.20.2
 stars: 4.6
 ratings: 3949
-reviews: 1932
+reviews: 1943
 size: 
 website: https://bitkeep.com
 repository: 
