@@ -54,10 +54,10 @@
   - unreleased
   - nobtc
   - nowallet
-  - diy
   metas:
   - stale
   - obsolete
+  - diy
   - defunct
   - discontinued
   - deprecated

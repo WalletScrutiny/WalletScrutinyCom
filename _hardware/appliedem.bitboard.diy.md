@@ -3,9 +3,10 @@ title: Bitboard by AppliedEM DIY Hardware Wallet
 appId: appliedem.bitboard.diy
 authors:
 - danny
+- leo
 released: 2018-03-03
-discontinued: 
-updated: 2018-03-28
+discontinued: 2021-12-16
+updated: 2021-12-16
 version: 
 binaries: 
 dimensions: 
@@ -20,9 +21,9 @@ repository: https://github.com/littledivy/arienai
 issue: 
 icon: appliedem.bitboard.diy.png
 bugbounty: 
-meta: obsolete
-verdict: diy
-date: 2022-05-23
+meta: diy
+verdict: wip
+date: 2024-08-16
 signer: 
 reviewArchive: 
 twitter: 

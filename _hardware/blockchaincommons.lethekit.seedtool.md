@@ -20,8 +20,8 @@ repository: https://github.com/BlockchainCommons/lethekit
 issue: 
 icon: blockchaincommons.lethekit.seedtool.png
 bugbounty: 
-meta: ok
-verdict: diy
+meta: diy
+verdict: wip
 date: 2022-04-29
 signer: 
 reviewArchive: 

@@ -20,9 +20,9 @@ repository: https://github.com/arcbtc/hardware-wallet-babybowser
 issue: 
 icon: arcbtc.baby.bowser.png
 bugbounty: 
-meta: ok
-verdict: diy
-date: 2023-02-14
+meta: diy
+verdict: wip
+date: 2024-08-16
 signer: 
 reviewArchive: 
 twitter: arcbtc
