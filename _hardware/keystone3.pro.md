@@ -7,7 +7,7 @@ authors:
 released: 2024-04-02
 discontinued: 
 updated: 2024-04-02
-version: 1.5.8
+version: 1.6.0
 binaries: https://keyst.one/firmware
 dimensions:
 - 62
@@ -26,9 +26,14 @@ icon: keystone3.pro.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-08-14
+date: 2024-08-16
 signer: fbf1cf15c5ba13a91a6b27f73a21ae69d8b60b5ff34f6d32dbd55e8ff5f27025
 reviewArchive:
+- date: 2024-08-14
+  version: 1.5.8
+  appHash: d2d73488930e4e91787d3d7010f6dfc22268ce406e1848fd96e02eaf4737bfe9
+  gitRevision: f76963fc172f89ec7eda683fd4cbcd1135499462
+  verdict: reproducible
 - date: 2024-06-03
   version: 1.4.8
   appHash: d2d73488930e4e91787d3d7010f6dfc22268ce406e1848fd96e02eaf4737bfe9
@@ -129,5 +134,5 @@ They [promptly replied](https://github.com/KeystoneHQ/keystone3-firmware/issues/
 
 {% include asciicast %}
 
-Version 1.5.8 of Keystone 3 Pro is **reproducible**
+Version 1.6.0 of Keystone 3 Pro is **reproducible**
 
