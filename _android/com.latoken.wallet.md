@@ -12,7 +12,7 @@ updated: 2024-07-06
 version: 1.194.00
 stars: 4.3
 ratings: 35079
-reviews: 112
+reviews: 111
 size: 
 website: http://latoken.com
 repository: 

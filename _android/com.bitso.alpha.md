@@ -10,7 +10,7 @@ appCountry: GI
 released: 2021-09-28
 updated: 2024-08-15
 version: 1.27.1
-stars: 3.9
+stars: 4
 ratings: 
 reviews: 519
 size: 

@@ -8,8 +8,8 @@ appId: com.wexopay.app
 appCountry: sk
 idd: '1549983870'
 released: 2021-02-09
-updated: 2024-07-08
-version: 2.7.3
+updated: 2024-08-16
+version: 2.7.4
 stars: 4.8
 reviews: 363
 size: '113625088'

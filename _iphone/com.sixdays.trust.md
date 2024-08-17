@@ -11,7 +11,7 @@ released: 2017-09-27
 updated: 2024-08-15
 version: 11.12.0
 stars: 4.7
-reviews: 191325
+reviews: 191333
 size: '148134912'
 website: https://trustwallet.com
 repository: 

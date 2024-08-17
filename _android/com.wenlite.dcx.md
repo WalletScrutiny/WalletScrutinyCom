@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.wenlite.dcx.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2024-02-20
+date: 2024-08-17
 signer: 
 reviewArchive: 
 twitter: 

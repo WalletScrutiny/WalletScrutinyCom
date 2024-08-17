@@ -10,9 +10,9 @@ appCountry:
 released: 2016-07-24
 updated: 2024-08-15
 version: 6.102.0
-stars: 4.1
+stars: 4.2
 ratings: 19172
-reviews: 476
+reviews: 477
 size: 
 website: https://remitano.com
 repository: 

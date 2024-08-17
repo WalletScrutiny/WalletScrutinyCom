@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.tehranExchangeGroup.tehran_exchange.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-06-03
+date: 2024-08-17
 signer: 
 reviewArchive: 
 twitter: 

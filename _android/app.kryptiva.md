@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: app.kryptiva.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2024-02-14
+date: 2024-08-17
 signer: 
 reviewArchive: 
 twitter: 

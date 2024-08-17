@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.wallet.kmpaywallet_android.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2024-03-01
+date: 2024-08-17
 signer: 
 reviewArchive: 
 twitter: 

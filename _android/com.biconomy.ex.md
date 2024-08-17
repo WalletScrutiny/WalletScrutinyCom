@@ -8,11 +8,11 @@ users: 100000
 appId: com.biconomy.ex
 appCountry: 
 released: 2020-01-14
-updated: 2024-08-07
-version: 2.2.20
+updated: 2024-08-15
+version: 2.2.21
 stars: 3.8
 ratings: 
-reviews: 90
+reviews: 91
 size: 
 website: https://www.biconomy.com
 repository: 

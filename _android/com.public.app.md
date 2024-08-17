@@ -12,7 +12,7 @@ updated: 2024-08-14
 version: 3.154.0
 stars: 4.1
 ratings: 
-reviews: 8594
+reviews: 8593
 size: 
 website: https://public.com
 repository: 
