@@ -8,7 +8,7 @@ RUN set -ex; \
     apt-get update; \
     DEBIAN_FRONTEND=noninteractive apt-get install --yes \
       -o APT::Install-Suggests=false --no-install-recommends \
-      patch git openjdk-11-jre-headless openjdk-11-jdk; \
+      patch git openjdk-17-jre-headless openjdk-17-jdk; \
     rm -rf /var/lib/apt/lists/*; \
     deluser node; \
     useradd --uid $UID --create-home --shell /bin/bash appuser; \
@@ -19,7 +19,8 @@ USER appuser
 
 ENV ANDROID_SDK_ROOT="/home/appuser/sdk" \
     ANDROID_HOME="/home/appuser/sdk" \
-    NODE_ENV="production"
+    NODE_ENV="production" \
+    JAVA_HOME="/usr/lib/jvm/java-17-openjdk-amd64"
 
 RUN set -ex; \
     mkdir -p "/home/appuser/sdk/licenses"; \
