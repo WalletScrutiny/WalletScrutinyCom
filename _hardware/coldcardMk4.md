@@ -7,8 +7,8 @@ authors:
 - mohammad
 released: 2022-05-01
 discontinued: 
-updated: 2023-09-08
-version: v5.1.4
+updated: 2024-07-05
+version: v5.3.3
 binaries: https://coldcard.com/downloads/
 dimensions: 
 weight: 
@@ -24,9 +24,14 @@ icon: coldcardMk4.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2023-10-08
+date: 2024-08-15
 signer: 
 reviewArchive:
+- date: 2023-10-08
+  version: v5.1.4
+  appHash: 4d83715772b31643abde3b9a0bb328003f4a31d14e2fe9c1e038077a518acaea
+  gitRevision: f7e12618fa33223fde14fce8c27c4a98833bb15c
+  verdict: reproducible
 - date: 2023-06-22
   version: v5.1.2
   appHash: 7aefd5bcce533f15337e83618ebbd42925d336792c82a5ca19a430b209b30b8a
@@ -39,10 +44,11 @@ features:
 
 ---
 
-**Update 2023-10-08**: Here are the test results for the latest version:
+**Update 2024-08-15**: Due to a mismatch in the [binary naming scheme](https://coldcard.com/downloads/mk4) and the [tagged releases on GitHub](https://github.com/Coldcard/firmware/releases/tag/2024-07-05T1349-v5.3.3), we had to work around the script.
+Here are the test results for the latest version:
 
 ```
-$ ./scripts/test/hardware/coldCard.sh "2023-09-08T2009-v5.1.4" 4
+$ ./scripts/test/hardware/coldCard.sh  2024-07-05T1349-v5.3.3 mk4 2024-07-05T1348-v5.3.3-mk4-coldcard.dfu
 
 ...
 
@@ -53,16 +59,16 @@ diff repro-got.txt repro-want.txt
 
 SUCCESS. 
 
-You have built a bit-for-bit identical copy of Coldcard firmware for v5.1.4
+You have built a bit-for-bit identical copy of Coldcard firmware for v5.3.3
 + set +ex
 
 Hash of non-signature parts downloaded/compiled:
-67fedbbf80b6f0229ec0efc00aaaa24e242618fb90e618d00da2a660c77693ee  2023-09-08T2009-v5.1.4-mk4-nosig.bin
-67fedbbf80b6f0229ec0efc00aaaa24e242618fb90e618d00da2a660c77693ee  firmware-nosig.bin
+a694b91d546b23584a31d3f4b7b7e9795f788c4b62f4699ef48ff96d0b64eb28  2024-07-05T1349-v5.3.3-mk4-nosig.bin
+a694b91d546b23584a31d3f4b7b7e9795f788c4b62f4699ef48ff96d0b64eb28  firmware-nosig.bin
 
 Hash of the signed firmware:
-fd707f2f69d006c9db84ceacd2a0dde79c3cb71730750e2676af610942898717  /tmp/firmware/releases/2023-09-08T2009-v5.1.4-mk4-coldcard.dfu
-1b1818fc1ae278bb4c9b1932f85aad76205abee5aa6bbe4995d2d038f37403a8  /tmp/firmware/stm32/built/firmware-signed.dfu
+4d83715772b31643abde3b9a0bb328003f4a31d14e2fe9c1e038077a518acaea  /tmp/firmware/releases/2024-07-05T1349-v5.3.3-mk4-coldcard.dfu
+b61cdae1e8c3710fbb10b211b5a5229b42f7c2a89d72120a71b2017d2d67cdfb  /tmp/firmware/stm32/built/firmware-signed.dfu
 ```
 
 which shows this firmware is **reproducible**.
@@ -140,3 +146,5 @@ Hash of the signed firmware:
 ```
 
 which shows this firmware is **reproducible**.
+
+{% include asciicast %}
