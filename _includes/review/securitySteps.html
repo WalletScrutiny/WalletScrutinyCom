@@ -16,6 +16,6 @@
   {% endif %}
   {% include /review/steps/platformNotes.html platform=platform %}
   {% if verdict && meta %}
-    {% include /review/steps/tests.html meta=meta verdict=verdict platform=platform %}
+    {% include_cached /review/steps/tests.html meta=meta verdict=verdict platform=platform %}
   {% endif %}
 </div>
