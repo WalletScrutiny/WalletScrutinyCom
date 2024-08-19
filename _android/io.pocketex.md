@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.pocketex.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-08-28
+date: 2024-08-19
 signer: 
 reviewArchive: 
 twitter: 

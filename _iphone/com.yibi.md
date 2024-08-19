@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.yibi.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2024-04-14
+date: 2024-08-19
 signer: 
 reviewArchive: 
 twitter: OfficialYibi

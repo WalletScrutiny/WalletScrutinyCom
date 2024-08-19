@@ -11,7 +11,7 @@ updated: 2024-07-25
 version: 1.7.2
 stars: 4.7
 ratings: 
-reviews: 82
+reviews: 83
 size: 
 website: https://alicebob.com/
 repository: 

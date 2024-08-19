@@ -9,9 +9,9 @@ appCountry:
 released: 2023-10-30
 updated: 2024-08-02
 version: '1.32'
-stars: 4.6
+stars: 4.5
 ratings: 
-reviews: 210
+reviews: 217
 size: 
 website: https://wallet.uniswap.org
 repository: 

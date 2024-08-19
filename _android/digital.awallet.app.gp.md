@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: digital.awallet.app.gp.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2024-07-22
+date: 2024-08-19
 signer: 
 reviewArchive: 
 twitter: 

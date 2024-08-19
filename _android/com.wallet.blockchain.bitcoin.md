@@ -7,8 +7,8 @@ users: 100
 appId: com.wallet.blockchain.bitcoin
 appCountry: 
 released: 2023-12-21
-updated: 2024-07-01
-version: 0.2.4
+updated: 2024-08-18
+version: 0.2.6
 stars: 
 ratings: 
 reviews: 

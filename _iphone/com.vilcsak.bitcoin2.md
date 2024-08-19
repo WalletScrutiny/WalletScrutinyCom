@@ -9,10 +9,10 @@ appCountry:
 idd: 886427730
 released: 2014-06-22
 updated: 2024-08-12
-version: 12.30.5
+version: 12.29.5
 stars: 4.7
-reviews: 1747363
-size: '221279232'
+reviews: 1747078
+size: '220242944'
 website: http://www.coinbase.com
 repository: 
 issue: 

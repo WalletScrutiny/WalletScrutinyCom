@@ -11,7 +11,7 @@ updated: 2024-05-22
 version: 2.7.6
 stars: 4.3
 ratings: 
-reviews: 1173
+reviews: 1172
 size: 
 website: https://bfastbfree.edercmf.com/
 repository: 

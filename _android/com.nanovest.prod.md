@@ -11,7 +11,7 @@ updated: 2024-08-13
 version: 3.14.1
 stars: 4.4
 ratings: 
-reviews: 24
+reviews: 25
 size: 
 website: https://nanovest.zendesk.com/hc/en-us
 repository: 

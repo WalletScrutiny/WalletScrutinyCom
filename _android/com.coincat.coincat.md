@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.coincat.coincat.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-11-01
+date: 2024-08-19
 signer: 
 reviewArchive: 
 twitter: Coincat_in
