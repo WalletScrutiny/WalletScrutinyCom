@@ -10,21 +10,26 @@ appId: io.horizontalsystems.bankwallet
 appCountry: 
 released: 2018-12-18
 updated: 2024-07-31
-version: 0.39.2
+version: 0.39.3
 stars: 4.2
 ratings: 556
 reviews: 89
 size: 
 website: https://horizontalsystems.io/
 repository: https://github.com/horizontalsystems/unstoppable-wallet-android
-issue: https://github.com/horizontalsystems/unstoppable-wallet-android/issues/7638
+issue:
 icon: io.horizontalsystems.bankwallet.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
-date: 2024-08-05
+verdict: reproducible
+date: 2024-08-20
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
 reviewArchive:
+- date: 2024-08-05
+  version: 0.39.2
+  appHash: 4d76c4345dce50f1e18850dfc2ca9c311876a8ba10dd9f5c57a77a530027c2fc
+  gitRevision: 541a3a95426d5d277d7590282bb5e1e1f341a4c0
+  verdict: nonverifiable
 - date: 2024-07-02
   version: 0.39.0
   appHash: a4f9f872a392a8593cc8fd91d05c504db0da88164211f855a630af494544f482
@@ -269,53 +274,32 @@ features:
 Here we test if the latest version can be reproduced, following the known
 procedure expressed in our {% include testScript.html %}:
 
-{% include asciicast %}
+
 
 ```
-
 ===== Begin Results =====
 appId:          io.horizontalsystems.bankwallet
 signer:         c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
-apkVersionName: 0.39.2
-apkVersionCode: 112
-verdict:        
-appHash:        4d76c4345dce50f1e18850dfc2ca9c311876a8ba10dd9f5c57a77a530027c2fc
-commit:         d9d1b855a7a4df87278941264ed2da2b1f4aae00
+apkVersionName: 0.39.3
+apkVersionCode: 113
+verdict:        reproducible
+appHash:        05c83d8031798a0f336109d980eac799a94307d3d0a3d842e0b2d53b54b0d36c
+commit:         6bd8ccab036704c07469f66c90ed414b52e2579f
 
 Diff:
-Files /tmp/fromPlay_io.horizontalsystems.bankwallet_112/assets/dexopt/baseline.prof and /tmp/fromBuild_io.horizontalsystems.bankwallet_112/assets/dexopt/baseline.prof differ
-Files /tmp/fromPlay_io.horizontalsystems.bankwallet_112/classes6.dex and /tmp/fromBuild_io.horizontalsystems.bankwallet_112/classes6.dex differ
-Files /tmp/fromPlay_io.horizontalsystems.bankwallet_112/classes7.dex and /tmp/fromBuild_io.horizontalsystems.bankwallet_112/classes7.dex differ
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_113/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_113/META-INF: RELEASEK.RSA
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_113/META-INF: RELEASEK.SF
 
 Revision, tag (and its signature):
 
 ===== End Results =====
-
-Run a full
-diff --recursive /tmp/fromPlay_io.horizontalsystems.bankwallet_112 /tmp/fromBuild_io.horizontalsystems.bankwallet_112
-meld /tmp/fromPlay_io.horizontalsystems.bankwallet_112 /tmp/fromBuild_io.horizontalsystems.bankwallet_112
-or
-diffoscope "/home/danny/work/apk/io.horizontalsystems.bankwallet/112/io.horizontalsystems.bankwallet_v112.apk" /tmp/test_io.horizontalsystems.bankwallet/app/app/build/outputs/apk/release/app-release-unsigned.apk
-for more details.
-
-
 ```
 
-## Results of **diff --recursive** and **diffoscope**
+{% include asciicast %}
 
-`$ diff --recursive /tmp/fromPlay_io.horizontalsystems.bankwallet_112 /tmp/fromBuild_io.horizontalsystems.bankwallet_112 > /home/danny/work/diff-recursive-results/io.horizontalsystems.bankwallet/112/0805/diff-recursive-io.horizontalsystems.bankwallet_112.txt`
 
-```
-Binary files /tmp/fromPlay_io.horizontalsystems.bankwallet_112/assets/dexopt/baseline.prof and /tmp/fromBuild_io.horizontalsystems.bankwallet_112/assets/dexopt/baseline.prof differ
-Binary files /tmp/fromPlay_io.horizontalsystems.bankwallet_112/classes6.dex and /tmp/fromBuild_io.horizontalsystems.bankwallet_112/classes6.dex differ
-Binary files /tmp/fromPlay_io.horizontalsystems.bankwallet_112/classes7.dex and /tmp/fromBuild_io.horizontalsystems.bankwallet_112/classes7.dex differ
-```
-
-The diff strongly diverges from that of earlier versions with larger changes especially across the **classes6** and **classes7** dex files.
-Note that the asciicast above contains the entire diffoscope results.  
-
-Because of that, this version is **not verifiable.**
-We have created the corresponding [issue with Unstoppable.](https://github.com/horizontalsystems/unstoppable-wallet-android/issues/7638)
+Version 0.39.3 is **reproducible**
 
 ### Thank you to Horizontal Systems for repeat donations
 
