@@ -29,7 +29,7 @@ icon: cypherockx1.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-08-06
+date: 2023-05-25
 signer: 
 reviewArchive:
 - data: 2023-04-06
