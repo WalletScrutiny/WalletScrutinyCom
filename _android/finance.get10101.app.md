@@ -21,7 +21,7 @@ issue:
 icon: finance.get10101.app.png
 bugbounty: 
 meta: ok
-verdict: ftbfs
+verdict: fewusers
 date: 2024-08-07
 signer: 
 reviewArchive: 
