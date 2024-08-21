@@ -21,7 +21,7 @@ icon: com.pundix.functionx.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2024-07-16
+date: 2024-08-20
 signer: 
 reviewArchive: 
 twitter: FUNCTIONX_IO
@@ -54,7 +54,7 @@ Among a few of the reviews include:
 
 ### The Site
 
-The terms of service can only be found on the app prior to "Create a new wallet" or "Import a Wallet". Curiously, we cannot find a link to this terms anywhere else on the site or online. We endeavored to make a [pastebin of the Terms](https://pastebin.com/HtC4CnEy) that are copied verbatim from the app as of September 30, 2021.
+The terms of service can only be found on the app prior to "Create a new wallet" or "Import a Wallet". Curiously, we cannot find a link to this terms anywhere else on the site or online. We endeavored to make a pastebin of the Terms that are copied verbatim from the app as of September 30, 2021. However, this was subjected to a takedown notice possibly from the provider, and was removed and no longer accessible.
 
 Some pertinent provisions:
 
