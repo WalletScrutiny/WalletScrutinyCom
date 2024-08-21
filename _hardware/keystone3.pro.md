@@ -27,16 +27,16 @@ bugbounty:
 meta: ok
 verdict: reproducible
 date: 2024-08-19
-signer: fbf1cf15c5ba13a91a6b27f73a21ae69d8b60b5ff34f6d32dbd55e8ff5f27025
+signer: 6853ffd1706faed1468e677621b2ef1ccf053dff4f9b22e7ba5b12a978e1eb37
 reviewArchive:
 - date: 2024-08-14
   version: 1.5.8
-  appHash: 6853ffd1706faed1468e677621b2ef1ccf053dff4f9b22e7ba5b12a978e1eb37
+  appHash: d2d73488930e4e91787d3d7010f6dfc22268ce406e1848fd96e02eaf4737bfe9
   gitRevision: fa57632b4e7ceb3aafffca647ebd23e2627751ff
   verdict: reproducible
 - date: 2024-06-03
   version: 1.4.8
-  appHash: d2d73488930e4e91787d3d7010f6dfc22268ce406e1848fd96e02eaf4737bfe9
+  appHash: fbf1cf15c5ba13a91a6b27f73a21ae69d8b60b5ff34f6d32dbd55e8ff5f27025
   gitRevision: f7e12618fa33223fde14fce8c27c4a98833bb15c
   verdict: reproducible
 - date: 2024-05-08
