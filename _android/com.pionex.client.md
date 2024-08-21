@@ -7,8 +7,8 @@ users: 1000000
 appId: com.pionex.client
 appCountry: us
 released: 2019-11-18
-updated: 2024-08-16
-version: 3.0.3.3
+updated: 2024-08-20
+version: 3.0.3.4
 stars: 3.6
 ratings: 5659
 reviews: 569

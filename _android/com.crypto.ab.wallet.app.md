@@ -9,9 +9,9 @@ appCountry:
 released: 2023-09-27
 updated: 2024-07-25
 version: 1.7.2
-stars: 4.7
+stars: 4.8
 ratings: 
-reviews: 83
+reviews: 85
 size: 
 website: https://alicebob.com/
 repository: 

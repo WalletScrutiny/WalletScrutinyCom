@@ -8,7 +8,7 @@ users: 500000
 appId: com.prestolabs.android.prex
 appCountry: 
 released: 2022-11-18
-updated: 2024-08-16
+updated: 2024-08-19
 version: 1.67.2
 stars: 2.7
 ratings: 
@@ -32,7 +32,7 @@ social:
 - https://www.youtube.com/channel/UC_3J-wzFgDu2P8NF_CrjAYg/featured
 - https://t.me/aqxannouncement
 redirect_from: 
-developerName: flipster
+developerName: Flipster Exchange
 features: 
 
 ---

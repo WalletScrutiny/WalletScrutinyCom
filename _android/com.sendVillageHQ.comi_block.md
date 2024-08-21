@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.sendVillageHQ.comi_block.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2022-11-02
+date: 2024-08-21
 signer: 
 reviewArchive: 
 twitter: 
