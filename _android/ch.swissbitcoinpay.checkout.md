@@ -20,10 +20,15 @@ issue: https://github.com/SwissBitcoinPay/app/issues/53
 icon: ch.swissbitcoinpay.checkout.png
 bugbounty: 
 meta: ok
-verdict: ftbfs
-date: 2024-06-04
+verdict: wip
+date: 2024-08-21
 signer: 
-reviewArchive: 
+reviewArchive:
+- date: 2024-06-04
+  version: 
+  appHash: 
+  gitRevision: 49d9b9282cfd495e90fb6d839423ce6ad7b5d721
+  verdict: ftbfs
 twitter: SwissBitcoinPay
 social:
 - https://www.linkedin.com/company/swiss-bitcoin-pay
@@ -70,153 +75,47 @@ features:
 - The 12-word seed phrase were provided during wallet creation.
 - They claim to have their app on [F-Droid](https://swiss-bitcoin-pay.ch/fdroid/repo/).
 - They provided the fingerprint (SHA-256) of the repository signing key.
-- I requested Swiss Pay to provide build instructions using a Docker container. This app is **[for verification](https://github.com/SwissBitcoinPay/app/issues/53)**.
 
-# 2024-06-04 Build Attempt
+# 2024-08-19 Dockerfile Update
 
-I started with a bare ubuntu Docker container: 
+The providers of Swiss Bitcoin Pay accommodated our request and provided a Dockerfile to build the app.
 
-```
-# Use the official Ubuntu base image
-FROM ubuntu:20.04
-
-# Prevent interactive prompts during package installation
-ENV DEBIAN_FRONTEND=noninteractive
-
-# Update package list and install basic tools
-RUN apt-get update && apt-get install -y \
-    curl \
-    wget \
-    unzip \
-    git \
-    vim \
-    sudo
-
-# Clean up
-RUN apt-get clean && rm -rf /var/lib/apt/lists/*
-
-# Set working directory
-WORKDIR /root
-```
-
-### Then run
-
-`docker run -it --name swissbitcoinpay-setup ubuntu-bare /bin/bash`
-
-## Restarting and Reconfiguring the Container
-
-### Start a new container from the base Ubuntu image:
-  
-```
-docker run -it --name swissbitcoinpay-setup ubuntu-bare /bin/bash
-```
-### Reinstall the necessary dependencies within the container:
-
-# Update package list and install basic tools
-```
-apt-get update && apt-get install -y \
-    curl \
-    wget \
-    unzip \
-    git \
-    vim \
-    sudo
-```
-
-### Install Node.js and npm
-```
-curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
-sudo apt-get install -y nodejs
-```
-### Install Yarn
-`npm install -g yarn`
-
-### Install React Native CLI
-```
-npm install -g react-native-cli
-```
-
-### Install JDK
-```
-apt-get install -y openjdk-17-jdk
-```
-
-### Set JAVA_HOME
-```
-export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
-export PATH=$JAVA_HOME/bin:$PATH
-```
-
-### Download and unzip the Android SDK command-line tools
-```
-wget https://dl.google.com/android/repository/commandlinetools-linux-8092744_latest.zip -O android-sdk.zip
-mkdir -p /usr/lib/android-sdk/cmdline-tools
-unzip android-sdk.zip -d /usr/lib/android-sdk/cmdline-tools
-mv /usr/lib/android-sdk/cmdline-tools/cmdline-tools /usr/lib/android-sdk/cmdline-tools/latest
-rm android-sdk.zip
-```
-
-# Set environment variables and update PATH
-```
-export ANDROID_HOME=/usr/lib/android-sdk
-export PATH=$PATH:$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools
-```
-
-### Install the Android SDK packages
-```
-yes | sdkmanager --licenses
-sdkmanager "platforms;android-33" "build-tools;33.0.2"
-```
-### Clone the project repository and install project dependencies:
+As such we were able to make a modified copy of their project's Dockerfile and incorporated it with our <strong>test script <a href="/testScript">(?)</a></strong>. Here are the summarized results:
 
 ```
-git clone https://github.com/SwissBitcoinPay/app /root/swissbitcoinpay
-cd /root/swissbitcoinpay
-yarn install
+===== Begin Results =====
+appId:          ch.swissbitcoinpay.checkout
+signer:         17d9c0bf025008da16d5a146e1beaca6ddcfe3cb0cf063da23c847d3007eb621
+apkVersionName: 2.1.1
+apkVersionCode: 381
+verdict:        
+appHash:        62df7d225d6178688f451604552fb5d79525a257ac59e281f0c02f4c96e4d343
+commit:         b350085a6f30027a83a8fdb18b73c5aed073cc97
+
+Diff:
+Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_381/AndroidManifest.xml and /tmp/fromBuild_ch.swissbitcoinpay.checkout_381/AndroidManifest.xml differ
+Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_381/assets/index.android.bundle and /tmp/fromBuild_ch.swissbitcoinpay.checkout_381/assets/index.android.bundle differ
+Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_381/res/drawable-mdpi-v4/src_assets_images_bitcoinwhiteborder.png and /tmp/fromBuild_ch.swissbitcoinpay.checkout_381/res/drawable-mdpi-v4/src_assets_images_bitcoinwhiteborder.png differ
+Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_381/res/drawable-mdpi-v4/src_assets_images_boltcardblack.png and /tmp/fromBuild_ch.swissbitcoinpay.checkout_381/res/drawable-mdpi-v4/src_assets_images_boltcardblack.png differ
+Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_381/res/drawable-mdpi-v4/src_assets_images_boltcard.png and /tmp/fromBuild_ch.swissbitcoinpay.checkout_381/res/drawable-mdpi-v4/src_assets_images_boltcard.png differ
+Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_381/res/drawable-mdpi-v4/src_assets_images_logosquarerounded.png and /tmp/fromBuild_ch.swissbitcoinpay.checkout_381/res/drawable-mdpi-v4/src_assets_images_logosquarerounded.png differ
+Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_381/res/mipmap-hdpi-v4/ic_launcher_adaptive_fore.png and /tmp/fromBuild_ch.swissbitcoinpay.checkout_381/res/mipmap-hdpi-v4/ic_launcher_adaptive_fore.png differ
+Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_381/resources.arsc and /tmp/fromBuild_ch.swissbitcoinpay.checkout_381/resources.arsc differ
+Only in /tmp/fromPlay_ch.swissbitcoinpay.checkout_381: stamp-cert-sha256
+
+Revision, tag (and its signature):
+
+===== End Results =====
+
+Run a full
+diff --recursive /tmp/fromPlay_ch.swissbitcoinpay.checkout_381 /tmp/fromBuild_ch.swissbitcoinpay.checkout_381
+meld /tmp/fromPlay_ch.swissbitcoinpay.checkout_381 /tmp/fromBuild_ch.swissbitcoinpay.checkout_381
+or
+diffoscope "/var/shared/apk/ch.swissbitcoinpay.checkout/381/ch.swissbitcoinpay.checkout_v381.apk" /tmp/test_ch.swissbitcoinpay.checkout/base-master.apk
+for more details.
 ```
+The app built successfully although many of the differences consisted of timestamps and file permission codes.
+[Link to full diffoscope here.](https://xrviv.github.io/walletScrutinyBuildCasts/www/diffoscope-results/android/ch.swissbitcoinpay.checkout/diff-results.html)
 
-### Build the APK:
+For now, we leave this as a work-in-progress.
 
-```
-cd android
-./gradlew assembleRelease
-```
-This results in build failure: 
-
-```
-> Task :react-native-vision-camera:compileReleaseKotlin
-w: file:///root/swissbitcoinpay/node_modules/react-native-vision-camera/android/src/main/java/com/mrousavy/camera/core/utils/CamcorderProfileUtils.kt:66:42 'get(Int, Int): CamcorderProfile!' is deprecated. Deprecated in Java
-w: file:///root/swissbitcoinpay/node_modules/react-native-vision-camera/android/src/main/java/com/mrousavy/camera/core/utils/CamcorderProfileUtils.kt:90:42 'get(Int, Int): CamcorderProfile!' is deprecated. Deprecated in Java
-w: file:///root/swissbitcoinpay/node_modules/react-native-vision-camera/android/src/main/java/com/mrousavy/camera/react/CameraViewModule.kt:13:46 'ReactModule' is deprecated. Deprecated in Java
-w: file:///root/swissbitcoinpay/node_modules/react-native-vision-camera/android/src/main/java/com/mrousavy/camera/react/CameraViewModule.kt:37:2 'ReactModule' is deprecated. Deprecated in Java
-
-> Task :react-native-barcode-zxing-scan:verifyReleaseResources FAILED
-
-FAILURE: Build failed with an exception.
-
-* What went wrong:
-Execution failed for task ':react-native-barcode-zxing-scan:verifyReleaseResources'.
-> A failure occurred while executing com.android.build.gradle.tasks.VerifyLibraryResourcesTask$Action
-   > Android resource linking failed
-     ERROR: /root/swissbitcoinpay/node_modules/react-native-barcode-zxing-scan/android/build/intermediates/merged_res/release/values/values.xml:2759: AAPT: error: resource android:attr/lStar not found.
-         
-
-* Try:
-> Run with --stacktrace option to get the stack trace.
-> Run with --info or --debug option to get more log output.
-> Run with --scan to get full insights.
-> Get more help at https://help.gradle.org.
-
-Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
-
-You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
-
-For more on this, please refer to https://docs.gradle.org/8.3/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
-
-BUILD FAILED in 1m 46s
-842 actionable tasks: 681 executed, 161 up-to-date
-```
-
-Our interim assessment highlights failures regarding: `react-native-barcode-zxing-scan:verifyReleaseResources`.
-
-We contacted them on [x.com](https://x.com/dannybuntu/status/1797828030167171307)
