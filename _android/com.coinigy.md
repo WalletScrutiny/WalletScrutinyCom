@@ -12,7 +12,7 @@ updated: 2024-07-01
 version: 0.5.36
 stars: 3.9
 ratings: 225
-reviews: 46
+reviews: 47
 size: 
 website: https://www.coinigy.com
 repository: 

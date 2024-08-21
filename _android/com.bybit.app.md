@@ -12,7 +12,7 @@ updated: 2024-08-17
 version: 4.46.5
 stars: 4.6
 ratings: 107859
-reviews: 3991
+reviews: 4047
 size: 
 website: https://www.bybit.com
 repository: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: webtrader.crystalballmarkets.com.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-12-13
+date: 2024-08-21
 signer: 
 reviewArchive: 
 twitter: 

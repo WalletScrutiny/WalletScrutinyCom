@@ -29,7 +29,7 @@ social:
 - https://www.linkedin.com/company/TrustSwap
 - https://www.facebook.com/TrustSwap
 redirect_from: 
-developerName: TrustSwap Inc.
+developerName: TrustSwap Inc
 features: 
 
 ---

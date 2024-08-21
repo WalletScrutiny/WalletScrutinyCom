@@ -8,11 +8,11 @@ appId: com.casa.vault
 appCountry: 
 idd: 1314586706
 released: 2018-08-02
-updated: 2024-08-12
-version: 4.29.0
+updated: 2024-08-19
+version: 4.30.0
 stars: 4.9
-reviews: 1023
-size: '138730496'
+reviews: 1024
+size: '138759168'
 website: https://www.casa.io
 repository: 
 issue: 

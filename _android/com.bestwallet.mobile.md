@@ -9,9 +9,9 @@ appCountry:
 released: 2023-07-24
 updated: 2024-07-26
 version: 2.1.0
-stars: 4.5
+stars: 4.6
 ratings: 
-reviews: 47
+reviews: 48
 size: 
 website: https://www.bestwallet.com
 repository: 

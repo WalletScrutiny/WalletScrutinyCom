@@ -8,17 +8,16 @@ verdicts:
   - nobtc
   - prefilled
   - plainkey
+  - sealed-plainkey
   - noita
+  - sealed-noita
   - nosendreceive
   - custodial
   - nosource
   - obfuscated
   - ftbfs
   - nonverifiable
-  - sealed-plainkey
-  - sealed-noita
   - reproducible
-  - nobinary
   - diy
 metas:
   - defunct

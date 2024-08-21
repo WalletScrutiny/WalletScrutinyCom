@@ -12,7 +12,7 @@ updated: 2024-08-06
 version: 4.5.1
 stars: 4.3
 ratings: 
-reviews: 83
+reviews: 84
 size: 
 website: https://kuwallet.com
 repository: 

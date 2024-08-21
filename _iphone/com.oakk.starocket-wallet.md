@@ -11,7 +11,7 @@ released: 2022-06-02
 updated: 2024-08-13
 version: 2.2.9
 stars: 5
-reviews: 6
+reviews: 7
 size: '92864512'
 website: https://trubit.com/
 repository: 

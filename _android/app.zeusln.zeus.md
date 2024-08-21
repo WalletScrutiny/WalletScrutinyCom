@@ -14,7 +14,7 @@ updated: 2024-07-17
 version: 0.8.5-hotfix
 stars: 4.3
 ratings: 45
-reviews: 33
+reviews: 34
 size: 
 website: https://zeusln.app
 repository: https://github.com/ZeusLN/zeus

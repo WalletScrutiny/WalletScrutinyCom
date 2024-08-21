@@ -9,10 +9,10 @@ appCountry: us
 idd: '1587374229'
 released: 2022-05-03
 updated: 2024-08-16
-version: 2.6.1
+version: 2.6.0
 stars: 4
 reviews: 32
-size: '121131008'
+size: '121690112'
 website: https://www.unbank.com/
 repository: 
 issue: 
