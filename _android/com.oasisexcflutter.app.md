@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.oasisexcflutter.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: wip
-date: 2024-01-16
+date: 2024-08-07
 signer: 
 reviewArchive: 
 twitter: 

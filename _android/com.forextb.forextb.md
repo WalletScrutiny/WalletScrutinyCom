@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.forextb.forextb.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosendreceive
-date: 2021-10-01
+date: 2024-08-15
 signer: 
 reviewArchive: 
 twitter: 

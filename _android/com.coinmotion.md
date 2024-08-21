@@ -1,6 +1,6 @@
 ---
 wsId: Coinmotion
-title: 'Coinmotion: Crypto Investing'
+title: 'Coinmotion: Buy Bitcoin easily'
 altTitle: 
 authors:
 - danny
@@ -8,7 +8,7 @@ users: 50000
 appId: com.coinmotion
 appCountry: in
 released: 2020-08-20
-updated: 2024-05-23
+updated: 2024-08-20
 version: 1.11.2
 stars: 4.2
 ratings: 

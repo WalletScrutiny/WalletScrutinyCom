@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.tokoin.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2024-07-16
+date: 2024-08-13
 signer: 
 reviewArchive: 
 twitter: tokoinindonesia

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: masterbank.ai.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-03-02
+date: 2024-08-19
 signer: 
 reviewArchive: 
 twitter: masterpay7

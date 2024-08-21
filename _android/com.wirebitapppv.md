@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.wirebitapppv.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-08-27
+date: 2024-08-19
 signer: 
 reviewArchive: 
 twitter: 

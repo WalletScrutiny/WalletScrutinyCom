@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: coinunited.io.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-11-15
+date: 2024-08-15
 signer: 
 reviewArchive: 
 twitter: realcoinunited

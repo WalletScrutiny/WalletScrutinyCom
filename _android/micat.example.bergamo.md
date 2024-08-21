@@ -7,7 +7,7 @@ users: 5
 appId: micat.example.bergamo
 appCountry: 
 released: 2022-09-16
-updated: 2022-11-14
+updated: 2024-08-14
 version: '1.0'
 stars: 
 ratings: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: micat.example.bergamo.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: fewusers
-date: 2023-11-25
+date: 2024-08-15
 signer: 
 reviewArchive: 
 twitter: 

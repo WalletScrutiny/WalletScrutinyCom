@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.obrinvestment.obrinvest.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosendreceive
-date: 2023-04-29
+date: 2024-08-15
 signer: 
 reviewArchive: 
 twitter: 

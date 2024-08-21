@@ -10,9 +10,9 @@ appCountry:
 released: 2022-12-05
 updated: 2024-07-25
 version: VARY
-stars: 4.8
+stars: 4.5
 ratings: 
-reviews: 
+reviews: 1
 size: 
 website: https://ammer.cards/
 repository: 

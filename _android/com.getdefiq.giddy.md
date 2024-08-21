@@ -10,9 +10,9 @@ appCountry:
 released: 2022-02-25
 updated: 2024-07-15
 version: 3.8.1
-stars: 4.4
+stars: 4.5
 ratings: 
-reviews: 121
+reviews: 120
 size: 
 website: https://giddy.co
 repository: 

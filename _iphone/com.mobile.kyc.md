@@ -13,7 +13,7 @@ version: 1.1.0
 stars: 0
 reviews: 0
 size: '42335232'
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.mobile.kyc.jpg

@@ -10,7 +10,7 @@ appCountry:
 released: 2013-10-04
 updated: 2024-07-15
 version: 3.17.0-TESTNET
-stars: 4
+stars: 3.9
 ratings: 146
 reviews: 10
 size: 

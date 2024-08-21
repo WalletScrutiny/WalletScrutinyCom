@@ -11,7 +11,7 @@ released: 2018-08-04
 updated: 2024-07-14
 version: 3.7.0
 stars: 4.9
-reviews: 17
+reviews: 18
 size: '48257024'
 website: https://adamant.im
 repository: 

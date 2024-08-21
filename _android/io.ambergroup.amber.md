@@ -1,6 +1,6 @@
 ---
 wsId: ambercrypto
-title: 'WhaleFin: Trade Crypto, BTC'
+title: 'WhaleFin: Prime Crypto Service'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 1000000
 appId: io.ambergroup.amber
 appCountry: us
 released: 2020-09-21
-updated: 2024-07-04
-version: 2.18.7
+updated: 2024-08-15
+version: 2.19.0
 stars: 4.7
 ratings: 2656
-reviews: 239
+reviews: 238
 size: 
 website: https://www.whalefin.com
 repository: 

@@ -3,6 +3,7 @@ title: Coldcard Q
 appId: coldcardQ1
 authors:
 - danny
+- keraliss
 released: 2022-10-05
 discontinued: 
 updated: 2024-07-05
@@ -22,15 +23,43 @@ icon: coldcardQ1.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-08-06
+date: 2024-08-12
 signer: 
 reviewArchive: 
+- date: 2024-05-31
+  version: 1.2.1Q
+  appHash: 85186d87fcf6a8334e9f4c35680a505acb1ed274ffef2913d734dfa400c1f809
+  gitRevision: f75bca706d73b85a627828802bc757f705bd9921
+  verdict: reproducible
 twitter: COLDCARDwallet
 social:
 - https://t.me/coldcard
 features: 
 
 ---
+**Updates on 2024-08-12**:
+
+As ColdcardQ1's source code is now available, we decided to check for reproducibility. Excluding a few changes to our [test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/scripts/test/hardware/coldCard.sh), steps to reproduce the product remain largely the same across the Coldcard series. We were able to build the binary file.
+
+```
+hexdump -C firmware-signed.bin | sed -e 's/^00003f[89abcdef]0 .*/(firmware signature here)/' > repro-got.txt
+hexdump -C check-fw.bin | sed -e 's/^00003f[89abcdef]0 .*/(firmware signature here)/' > repro-want.txt
+diff repro-got.txt repro-want.txt
+
+SUCCESS.
+
+You have built a bit-for-bit identical copy of Coldcard firmware for v1.2.3Q
++ set +ex
+
+Hash of non-signature parts downloaded/compiled:
+85186d87fcf6a8334e9f4c35680a505acb1ed274ffef2913d734dfa400c1f809  2024-07-05T1342-v1.2.3Q-q1-nosig.bin
+85186d87fcf6a8334e9f4c35680a505acb1ed274ffef2913d734dfa400c1f809  firmware-nosig.bin
+
+Hash of the signed firmware:
+54da941c8df84fcb84adcc62fdd3ee97d1fc12e2a9a648551ca614fcbacade3f  /tmp/firmware/releases/2024-07-05T1342-v1.2.3Q-q1-coldcard.dfu
+f222c2e6374057685900e4e3313ec9ec1931a9d1b8d8a13be13e04f80ba967f9  /tmp/firmware/stm32/built/firmware-signed.dfu
+
+```
 
 ## Product Description 
 

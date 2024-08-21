@@ -9,11 +9,11 @@ users: 1000000
 appId: im.token.app
 appCountry: 
 released: 2018-05-31
-updated: 2024-07-31
-version: 2.15.3
+updated: 2024-08-13
+version: 2.15.5
 stars: 4.4
 ratings: 4350
-reviews: 230
+reviews: 231
 size: 
 website: https://token.im
 repository: 

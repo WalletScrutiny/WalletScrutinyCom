@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.dexfin.mpcwallet.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
-date: 2024-03-23
+date: 2024-08-07
 signer: 
 reviewArchive: 
 twitter: https://twitter.com/dexfinexchange

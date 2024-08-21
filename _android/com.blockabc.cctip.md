@@ -3,15 +3,15 @@ wsId: blockabcCCtip
 title: Cwallet - Secure Crypto Wallet
 altTitle: 
 authors: 
-users: 100000
+users: 500000
 appId: com.blockabc.cctip
 appCountry: 
 released: 2020-07-21
-updated: 2024-06-26
-version: 3.2.0
-stars: 4.3
+updated: 2024-08-09
+version: 3.2.2
+stars: 4.4
 ratings: 
-reviews: 234
+reviews: 235
 size: 
 website: https://cwallet.com
 repository: 

@@ -1,18 +1,14 @@
-{%- assign verdict = include.verdict -%}
 {%- assign platform = include.platform -%}
 {%- assign meta = include.meta -%}
-{%- assign criteria = "" -%}
-{%- if meta != "ok" -%}
-  {%- assign platformCriteria = site.data.platformMeta[platform].verdicts | concat: site.data.platformMeta[platform].metas -%}
-{%- else -%}
-  {%- assign platformCriteria = site.data.platformMeta[platform].verdicts -%}
-{%- endif -%}
-{%- for c in platformCriteria -%}
+{%- assign verdict = include.verdict -%}
+
+{%- assign criteria = "" | split: "" -%}
+{%- for c in site.data.platformMeta[platform].verdicts -%}
   {%- if site.data.verdicts[c].pass -%}
-    {%- assign criteria = criteria | append: "," | append: c -%}
+    {%- assign c_array = c | split: "," -%}
+    {%- assign criteria = criteria | concat: c_array -%}
   {%- endif -%}
 {%- endfor -%}
-{%- assign criteria = criteria | remove_first: "," | split: ',' -%}
 {%- assign count = 0 -%}
 {%- if verdict == 'wip' -%}
   {%- capture failText -%}<br>We did not yet perform any tests.{%- endcapture -%}
@@ -20,7 +16,7 @@
   {%- for criterion in criteria -%}
     {%- if verdict == criterion -%}
       {%- case verdict -%}
-        {%- when "reproducible", "diy", "nobinary" -%}
+        {%- when "reproducible", "diy" -%}
         {%- assign count = count | plus: 1 -%}
       {%- else -%}
         {%- capture failText -%}<br>We stopped asking questions after we encountered a <a href="#{{criterion}}">failed answer</a>.{%- endcapture -%}

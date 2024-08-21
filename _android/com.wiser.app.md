@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.wiser.app.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2024-01-01
+date: 2024-08-15
 signer: 
 reviewArchive: 
 twitter: 

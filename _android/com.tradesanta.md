@@ -8,8 +8,8 @@ users: 50000
 appId: com.tradesanta
 appCountry: us
 released: 2019-05-20
-updated: 2022-12-05
-version: 3.1.5
+updated: 2024-08-13
+version: 3.2.0
 stars: 3.6
 ratings: 707
 reviews: 55
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.tradesanta.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nowallet
-date: 2023-12-01
+date: 2024-08-15
 signer: 
 reviewArchive: 
 twitter: 

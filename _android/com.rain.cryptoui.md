@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.rain.cryptoui.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-12-17
+date: 2024-08-19
 signer: 
 reviewArchive: 
 twitter: 

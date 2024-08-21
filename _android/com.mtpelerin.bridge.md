@@ -13,7 +13,7 @@ updated: 2024-07-09
 version: '1.44'
 stars: 4
 ratings: 178
-reviews: 24
+reviews: 26
 size: 
 website: https://www.mtpelerin.com/bridge-wallet
 repository: 

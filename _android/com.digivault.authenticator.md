@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.digivault.authenticator.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-11-08
+date: 2024-08-07
 signer: 
 reviewArchive: 
 twitter: 

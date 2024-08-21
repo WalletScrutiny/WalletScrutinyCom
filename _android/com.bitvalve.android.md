@@ -4,15 +4,15 @@ title: BitValve - P2P Crypto Exchange
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.bitvalve.android
 appCountry: 
 released: 2019-10-29
-updated: 2024-07-10
-version: 1.28.0
-stars: 4.6
+updated: 2024-08-15
+version: 1.29.0
+stars: 4.7
 ratings: 300
-reviews: 36
+reviews: 35
 size: 
 website: https://www.bitvalve.com
 repository: 

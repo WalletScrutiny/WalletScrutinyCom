@@ -4,15 +4,15 @@ title: Bit2Me - Bitcoin and Cryptos
 altTitle: 
 authors:
 - leo
-users: 100000
+users: 500000
 appId: com.phonegap.bit2me
 appCountry: 
 released: 2015-01-08
-updated: 2024-07-30
-version: 3.20.1
+updated: 2024-08-09
+version: 3.21.1
 stars: 3.9
 ratings: 5162
-reviews: 79
+reviews: 80
 size: 
 website: https://bit2me.com
 repository: 

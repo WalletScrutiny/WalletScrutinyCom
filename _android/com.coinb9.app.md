@@ -8,7 +8,7 @@ users: 100000
 appId: com.coinb9.app
 appCountry: 
 released: 2022-03-07
-updated: 2023-11-13
+updated: 2024-08-06
 version: 4.1.5
 stars: 4.2
 ratings: 

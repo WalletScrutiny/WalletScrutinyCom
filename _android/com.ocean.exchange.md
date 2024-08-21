@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.ocean.exchange.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2022-12-17
+date: 2024-08-19
 signer: 
 reviewArchive: 
 twitter: OceanexOfficial

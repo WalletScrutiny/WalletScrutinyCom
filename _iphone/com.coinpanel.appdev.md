@@ -8,7 +8,7 @@ appId: com.coinpanel.appdev
 appCountry: tt
 idd: '1611045031'
 released: 2022-05-15
-updated: 2023-01-12
+updated: 2024-08-07
 version: '2.0'
 stars: 0
 reviews: 0
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.coinpanel.appdev.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nowallet
-date: 2024-01-16
+date: 2024-08-13
 signer: 
 reviewArchive: 
 twitter: coin_panel

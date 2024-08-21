@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.cetoex.cetoex.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosendreceive
-date: 2023-06-29
+date: 2024-08-21
 signer: 
 reviewArchive: 
 twitter: Cetoex

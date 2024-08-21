@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: co.zoomex.app.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-07-01
+date: 2024-08-13
 signer: 
 reviewArchive: 
 twitter: zoomexofficial

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.alfacash.alfacashier.alfacash.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-06-03
+date: 2024-08-07
 signer: 
 reviewArchive: 
 twitter: 

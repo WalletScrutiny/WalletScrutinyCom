@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.asyasoftware.metropuli.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-08-27
+date: 2024-08-17
 signer: 
 reviewArchive: 
 twitter: 

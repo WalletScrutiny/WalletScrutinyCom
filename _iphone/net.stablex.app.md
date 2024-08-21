@@ -8,11 +8,11 @@ appId: net.stablex.app
 appCountry: tr
 idd: '1591457284'
 released: 2021-10-26
-updated: 2024-08-02
-version: 2.5.16
+updated: 2024-08-19
+version: 2.5.18
 stars: 3.6
 reviews: 47
-size: '51590144'
+size: '51594240'
 website: https://stablex.com.tr
 repository: 
 issue: 

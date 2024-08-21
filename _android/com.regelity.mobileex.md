@@ -8,8 +8,8 @@ users: 10000
 appId: com.regelity.mobileex
 appCountry: 
 released: 2022-12-15
-updated: 2024-07-09
-version: 2.0.30
+updated: 2024-08-19
+version: 2.0.32
 stars: 4
 ratings: 
 reviews: 

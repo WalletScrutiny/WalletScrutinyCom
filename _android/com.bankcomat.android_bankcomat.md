@@ -3,7 +3,7 @@ wsId:
 title: Обмен Биткоин с Bankcomat
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.bankcomat.android_bankcomat
 appCountry: 
 released: 2021-08-19
@@ -19,7 +19,7 @@ issue:
 icon: com.bankcomat.android_bankcomat.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-10-06
 signer: 
 reviewArchive: 

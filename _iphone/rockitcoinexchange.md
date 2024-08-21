@@ -8,11 +8,11 @@ appId: rockitcoinexchange
 appCountry: us
 idd: '1476730078'
 released: 2019-09-18
-updated: 2024-07-02
-version: 3.5.0
+updated: 2024-08-14
+version: 3.6.0
 stars: 3.2
-reviews: 135
-size: '72205312'
+reviews: 136
+size: '72221696'
 website: https://rockitcoin.com
 repository: 
 issue: 

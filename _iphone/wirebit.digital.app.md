@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: wirebit.digital.app.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-08-17
+date: 2024-08-19
 signer: 
 reviewArchive: 
 twitter: 

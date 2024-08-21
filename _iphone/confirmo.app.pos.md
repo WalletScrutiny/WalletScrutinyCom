@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: confirmo.app.pos.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2024-04-04
+date: 2024-08-13
 signer: 
 reviewArchive: 
 twitter: CryptoConfirmo

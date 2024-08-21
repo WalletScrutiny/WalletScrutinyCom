@@ -8,8 +8,8 @@ users: 100000
 appId: com.coincred.android
 appCountry: 
 released: 2021-09-01
-updated: 2024-07-05
-version: 2.4.5
+updated: 2024-08-13
+version: 2.4.6
 stars: 4.5
 ratings: 
 reviews: 28
@@ -17,7 +17,7 @@ size:
 website: https://coincred.org/
 repository: 
 issue: 
-icon: com.coincred.android.jpg
+icon: com.coincred.android.png
 bugbounty: 
 meta: ok
 verdict: custodial

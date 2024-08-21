@@ -10,7 +10,7 @@ appCountry:
 released: 2021-09-28
 updated: 2023-08-22
 version: 1.0.9
-stars: 2.3
+stars: 2.5
 ratings: 
 reviews: 11
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.secux.firmwareupdate.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-08-29
+date: 2024-08-16
 signer: 
 reviewArchive: 
 twitter: 

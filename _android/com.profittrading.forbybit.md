@@ -10,9 +10,9 @@ appCountry:
 released: 2020-03-22
 updated: 2024-06-03
 version: 3.1.4
-stars: 4.3
+stars: 3.9
 ratings: 41
-reviews: 2
+reviews: 3
 size: 
 website: https://profittradingapp.com/
 repository: 

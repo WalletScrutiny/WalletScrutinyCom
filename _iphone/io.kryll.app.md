@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.kryll.app.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
-date: 2023-09-05
+date: 2024-08-07
 signer: 
 reviewArchive: 
 twitter: kryll_io

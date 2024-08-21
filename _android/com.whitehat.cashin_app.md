@@ -12,7 +12,7 @@ updated: 2024-07-08
 version: 1.0.0
 stars: 4.8
 ratings: 
-reviews: 41
+reviews: 45
 size: 
 website: https://cash-in.app
 repository: 

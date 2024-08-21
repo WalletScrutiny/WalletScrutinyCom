@@ -10,10 +10,10 @@ appId: com.ellipal.wallet
 appCountry: us
 released: 2018-07-02
 updated: 2024-08-05
-version: 4.0.1
+version: 4.0.2
 stars: 4.3
 ratings: 933
-reviews: 488
+reviews: 490
 size: 
 website: http://www.ellipal.com
 repository: 

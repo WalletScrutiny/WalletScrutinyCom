@@ -7,8 +7,8 @@ users: 500
 appId: io.changeangel.exchange
 appCountry: 
 released: 2022-05-24
-updated: 2024-03-02
-version: 1.1.0
+updated: 2024-08-15
+version: 1.1.1
 stars: 
 ratings: 
 reviews: 

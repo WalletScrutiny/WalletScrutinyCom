@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.tomyaapp.android.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2024-03-01
+date: 2024-08-19
 signer: 
 reviewArchive: 
 twitter: 

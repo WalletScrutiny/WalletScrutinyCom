@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.deltra.crypto.bot.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2024-04-29
+date: 2024-08-15
 signer: 
 reviewArchive: 
 twitter: 
