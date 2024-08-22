@@ -12,7 +12,7 @@ appId: io.bluewallet.bluewallet
 appCountry: 
 released: 2018-11-01
 updated: 2024-08-18
-version: 7.0.0
+version: 7.0.1
 stars: 3.8
 ratings: 1810
 reviews: 323
@@ -24,9 +24,14 @@ icon: io.bluewallet.bluewallet.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2024-08-19
+date: 2024-08-22
 signer: 42250147991337ed230fbd93c0be0e5f6183d02eed9e1d53e5aac94167cf3f2f
 reviewArchive:
+- date: 2024-08-19
+  version: 7.0.0
+  appHash: f12b0129d0eaff98d967ebe4e8342fc1bf8cd7a994d9d3f03e227401e6ee9580
+  gitRevision: 49d9b9282cfd495e90fb6d839423ce6ad7b5d721
+  verdict: nonverifiable
 - date: 2024-07-01
   version: 6.6.8
   appHash: 895fccb6cf9c67fc273c1361b3bb21a7a054a26faf1b133b7d0b1128c491002d
@@ -130,47 +135,47 @@ The script succeeds with a huge diff:
 ===== Begin Results =====
 appId:          io.bluewallet.bluewallet
 signer:         42250147991337ed230fbd93c0be0e5f6183d02eed9e1d53e5aac94167cf3f2f
-apkVersionName: 7.0.0
-apkVersionCode: 1723966022
+apkVersionName: 7.0.1
+apkVersionCode: 1724261467
 verdict:        
-appHash:        f12b0129d0eaff98d967ebe4e8342fc1bf8cd7a994d9d3f03e227401e6ee9580
-commit:         7e5742355f416d92fd88b0e203da57df997b30d3
+appHash:        073c5c409f6c83b0ddbfb5141f70bfc2f64d6294d20905ca1d4bccfe7eb120b8
+commit:         991753def363183ac17fb18af219aff838414edc
 
 Diff:
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1723966022/AndroidManifest.xml and /tmp/fromBuild_io.bluewallet.bluewallet_1723966022/AndroidManifest.xml differ
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1723966022/assets/dexopt/baseline.prof and /tmp/fromBuild_io.bluewallet.bluewallet_1723966022/assets/dexopt/baseline.prof differ
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1723966022/assets/index.android.bundle and /tmp/fromBuild_io.bluewallet.bluewallet_1723966022/assets/index.android.bundle differ
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1723966022/classes2.dex and /tmp/fromBuild_io.bluewallet.bluewallet_1723966022/classes2.dex differ
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1723966022/lib/arm64-v8a/librealm.so and /tmp/fromBuild_io.bluewallet.bluewallet_1723966022/lib/arm64-v8a/librealm.so differ
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1723966022/lib/arm64-v8a/libreanimated.so and /tmp/fromBuild_io.bluewallet.bluewallet_1723966022/lib/arm64-v8a/libreanimated.so differ
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1723966022/lib/arm64-v8a/librnscreens.so and /tmp/fromBuild_io.bluewallet.bluewallet_1723966022/lib/arm64-v8a/librnscreens.so differ
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1723966022/lib/arm64-v8a/libworklets.so and /tmp/fromBuild_io.bluewallet.bluewallet_1723966022/lib/arm64-v8a/libworklets.so differ
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1723966022/lib/armeabi-v7a/librealm.so and /tmp/fromBuild_io.bluewallet.bluewallet_1723966022/lib/armeabi-v7a/librealm.so differ
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1723966022/lib/armeabi-v7a/libreanimated.so and /tmp/fromBuild_io.bluewallet.bluewallet_1723966022/lib/armeabi-v7a/libreanimated.so differ
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1723966022/lib/armeabi-v7a/librnscreens.so and /tmp/fromBuild_io.bluewallet.bluewallet_1723966022/lib/armeabi-v7a/librnscreens.so differ
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1723966022/lib/armeabi-v7a/libworklets.so and /tmp/fromBuild_io.bluewallet.bluewallet_1723966022/lib/armeabi-v7a/libworklets.so differ
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1723966022/lib/x86/librealm.so and /tmp/fromBuild_io.bluewallet.bluewallet_1723966022/lib/x86/librealm.so differ
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1723966022/lib/x86/libreanimated.so and /tmp/fromBuild_io.bluewallet.bluewallet_1723966022/lib/x86/libreanimated.so differ
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1723966022/lib/x86/librnscreens.so and /tmp/fromBuild_io.bluewallet.bluewallet_1723966022/lib/x86/librnscreens.so differ
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1723966022/lib/x86/libworklets.so and /tmp/fromBuild_io.bluewallet.bluewallet_1723966022/lib/x86/libworklets.so differ
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1723966022/lib/x86_64/librealm.so and /tmp/fromBuild_io.bluewallet.bluewallet_1723966022/lib/x86_64/librealm.so differ
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1723966022/lib/x86_64/libreanimated.so and /tmp/fromBuild_io.bluewallet.bluewallet_1723966022/lib/x86_64/libreanimated.so differ
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1723966022/lib/x86_64/librnscreens.so and /tmp/fromBuild_io.bluewallet.bluewallet_1723966022/lib/x86_64/librnscreens.so differ
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1723966022/lib/x86_64/libworklets.so and /tmp/fromBuild_io.bluewallet.bluewallet_1723966022/lib/x86_64/libworklets.so differ
-Only in /tmp/fromPlay_io.bluewallet.bluewallet_1723966022/META-INF: GOOGPLAY.RSA
-Only in /tmp/fromPlay_io.bluewallet.bluewallet_1723966022/META-INF: GOOGPLAY.SF
-Only in /tmp/fromPlay_io.bluewallet.bluewallet_1723966022/META-INF: MANIFEST.MF
-Files /tmp/fromPlay_io.bluewallet.bluewallet_1723966022/res/75.png and /tmp/fromBuild_io.bluewallet.bluewallet_1723966022/res/75.png differ
-Only in /tmp/fromPlay_io.bluewallet.bluewallet_1723966022: stamp-cert-sha256
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1724261467/AndroidManifest.xml and /tmp/fromBuild_io.bluewallet.bluewallet_1724261467/AndroidManifest.xml differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1724261467/assets/dexopt/baseline.prof and /tmp/fromBuild_io.bluewallet.bluewallet_1724261467/assets/dexopt/baseline.prof differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1724261467/assets/index.android.bundle and /tmp/fromBuild_io.bluewallet.bluewallet_1724261467/assets/index.android.bundle differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1724261467/classes2.dex and /tmp/fromBuild_io.bluewallet.bluewallet_1724261467/classes2.dex differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1724261467/lib/arm64-v8a/librealm.so and /tmp/fromBuild_io.bluewallet.bluewallet_1724261467/lib/arm64-v8a/librealm.so differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1724261467/lib/arm64-v8a/libreanimated.so and /tmp/fromBuild_io.bluewallet.bluewallet_1724261467/lib/arm64-v8a/libreanimated.so differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1724261467/lib/arm64-v8a/librnscreens.so and /tmp/fromBuild_io.bluewallet.bluewallet_1724261467/lib/arm64-v8a/librnscreens.so differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1724261467/lib/arm64-v8a/libworklets.so and /tmp/fromBuild_io.bluewallet.bluewallet_1724261467/lib/arm64-v8a/libworklets.so differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1724261467/lib/armeabi-v7a/librealm.so and /tmp/fromBuild_io.bluewallet.bluewallet_1724261467/lib/armeabi-v7a/librealm.so differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1724261467/lib/armeabi-v7a/libreanimated.so and /tmp/fromBuild_io.bluewallet.bluewallet_1724261467/lib/armeabi-v7a/libreanimated.so differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1724261467/lib/armeabi-v7a/librnscreens.so and /tmp/fromBuild_io.bluewallet.bluewallet_1724261467/lib/armeabi-v7a/librnscreens.so differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1724261467/lib/armeabi-v7a/libworklets.so and /tmp/fromBuild_io.bluewallet.bluewallet_1724261467/lib/armeabi-v7a/libworklets.so differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1724261467/lib/x86/librealm.so and /tmp/fromBuild_io.bluewallet.bluewallet_1724261467/lib/x86/librealm.so differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1724261467/lib/x86/libreanimated.so and /tmp/fromBuild_io.bluewallet.bluewallet_1724261467/lib/x86/libreanimated.so differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1724261467/lib/x86/librnscreens.so and /tmp/fromBuild_io.bluewallet.bluewallet_1724261467/lib/x86/librnscreens.so differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1724261467/lib/x86/libworklets.so and /tmp/fromBuild_io.bluewallet.bluewallet_1724261467/lib/x86/libworklets.so differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1724261467/lib/x86_64/librealm.so and /tmp/fromBuild_io.bluewallet.bluewallet_1724261467/lib/x86_64/librealm.so differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1724261467/lib/x86_64/libreanimated.so and /tmp/fromBuild_io.bluewallet.bluewallet_1724261467/lib/x86_64/libreanimated.so differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1724261467/lib/x86_64/librnscreens.so and /tmp/fromBuild_io.bluewallet.bluewallet_1724261467/lib/x86_64/librnscreens.so differ
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1724261467/lib/x86_64/libworklets.so and /tmp/fromBuild_io.bluewallet.bluewallet_1724261467/lib/x86_64/libworklets.so differ
+Only in /tmp/fromPlay_io.bluewallet.bluewallet_1724261467/META-INF: GOOGPLAY.RSA
+Only in /tmp/fromPlay_io.bluewallet.bluewallet_1724261467/META-INF: GOOGPLAY.SF
+Only in /tmp/fromPlay_io.bluewallet.bluewallet_1724261467/META-INF: MANIFEST.MF
+Files /tmp/fromPlay_io.bluewallet.bluewallet_1724261467/res/75.png and /tmp/fromBuild_io.bluewallet.bluewallet_1724261467/res/75.png differ
+Only in /tmp/fromPlay_io.bluewallet.bluewallet_1724261467: stamp-cert-sha256
 
 Revision, tag (and its signature):
-object 7e5742355f416d92fd88b0e203da57df997b30d3
+object 991753def363183ac17fb18af219aff838414edc
 type commit
-tag v7.0.0
-tagger Marcos Rodriguez Velez <marcospr@pm.me> 1723988452 -0400
+tag v7.0.1
+tagger Marcos Rodriguez Velez <marcospr@pm.me> 1724261200 -0400
 ===== End Results =====
 ```
 
-This binary is **not verifiable**. We've updated Java to version 17 as this was causing errors. 
+This binary is **not verifiable**. 
 
 {% include asciicast %}
