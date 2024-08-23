@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.sanctuaryex.wallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-08-28
+date: 2024-08-23
 signer: 
 reviewArchive: 
 twitter: 

@@ -8,8 +8,8 @@ appId: mn.ailab.corex
 appCountry: mn
 idd: '1600049260'
 released: 2021-12-20
-updated: 2024-08-16
-version: 2.0.64
+updated: 2024-08-21
+version: 2.0.65
 stars: 4.7
 reviews: 9
 size: '73504768'

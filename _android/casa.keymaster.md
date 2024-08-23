@@ -30,7 +30,7 @@ social:
 redirect_from:
 - /casa.keymaster/
 - /posts/casa.keymaster/
-developerName: CasaInc
+developerName: Casa, Inc
 features: 
 
 ---
