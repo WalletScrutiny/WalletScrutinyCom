@@ -1,6 +1,6 @@
 ---
 wsId: coinRepublic
-title: 'CoinRepublic: Buy Store Crypto'
+title: 'CoinRepublic: Buy BTC Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 5000
 appId: com.coinrepublic.app
 appCountry: 
 released: 2020-12-02
-updated: 2024-08-03
-version: 2.5.2
+updated: 2024-08-22
+version: 2.5.5
 stars: 2.5
 ratings: 
 reviews: 

@@ -8,8 +8,8 @@ users: 5000
 appId: com.quasarwallet.android
 appCountry: 
 released: 2022-04-05
-updated: 2023-12-19
-version: '1.3'
+updated: 2024-08-21
+version: '1.4'
 stars: 2.9
 ratings: 
 reviews: 5

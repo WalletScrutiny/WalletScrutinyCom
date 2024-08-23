@@ -10,8 +10,8 @@ idd: '1556014433'
 released: 2021-03-04
 updated: 2024-07-17
 version: 2.3.5
-stars: 0
-reviews: 0
+stars: 5
+reviews: 1
 size: '52047872'
 website: https://koinkoin.io/
 repository: 

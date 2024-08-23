@@ -12,7 +12,7 @@ updated: 2024-04-06
 version: 2.3.8
 stars: 2.9
 ratings: 
-reviews: 17
+reviews: 18
 size: 
 website: https://bousechanj.com/
 repository: 

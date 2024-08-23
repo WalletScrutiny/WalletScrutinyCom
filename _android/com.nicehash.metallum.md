@@ -8,8 +8,8 @@ users: 1000000
 appId: com.nicehash.metallum
 appCountry: 
 released: 2020-04-17
-updated: 2024-08-09
-version: 4.12.12
+updated: 2024-08-22
+version: 4.12.13
 stars: 3.6
 ratings: 
 reviews: 572

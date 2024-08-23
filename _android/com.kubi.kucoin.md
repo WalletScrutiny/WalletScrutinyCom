@@ -12,7 +12,7 @@ updated: 2024-08-13
 version: 3.115.0
 stars: 4.4
 ratings: 72555
-reviews: 4756
+reviews: 4758
 size: 
 website: https://www.kucoin.com
 repository: 

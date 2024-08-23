@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: net.softwareinfo.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-11-03
+date: 2024-08-23
 signer: 
 reviewArchive: 
 twitter: 
