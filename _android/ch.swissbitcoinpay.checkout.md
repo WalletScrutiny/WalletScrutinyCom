@@ -106,13 +106,6 @@ Only in /tmp/fromPlay_ch.swissbitcoinpay.checkout_381: stamp-cert-sha256
 Revision, tag (and its signature):
 
 ===== End Results =====
-
-Run a full
-diff --recursive /tmp/fromPlay_ch.swissbitcoinpay.checkout_381 /tmp/fromBuild_ch.swissbitcoinpay.checkout_381
-meld /tmp/fromPlay_ch.swissbitcoinpay.checkout_381 /tmp/fromBuild_ch.swissbitcoinpay.checkout_381
-or
-diffoscope "/var/shared/apk/ch.swissbitcoinpay.checkout/381/ch.swissbitcoinpay.checkout_v381.apk" /tmp/test_ch.swissbitcoinpay.checkout/base-master.apk
-for more details.
 ```
 The app built successfully although many of the differences consisted of timestamps and file permission codes.
 [Link to full diffoscope here.](https://xrviv.github.io/walletScrutinyBuildCasts/www/diffoscope-results/android/ch.swissbitcoinpay.checkout/diff-results.html)
