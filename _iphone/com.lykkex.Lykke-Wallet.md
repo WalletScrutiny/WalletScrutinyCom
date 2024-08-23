@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.lykkex.Lykke-Wallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-03-09
+date: 2024-08-23
 signer: 
 reviewArchive: 
 twitter: Lykke

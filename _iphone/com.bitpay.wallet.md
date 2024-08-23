@@ -9,11 +9,11 @@ appId: com.bitpay.wallet
 appCountry: 
 idd: 1149581638
 released: 2016-10-24
-updated: 2024-07-17
-version: 14.22.4
+updated: 2024-08-21
+version: 14.24.3
 stars: 4.3
-reviews: 2990
-size: '47569920'
+reviews: 2992
+size: '54557696'
 website: https://bitpay.com
 repository: https://github.com/bitpay/bitpay-app
 issue: https://github.com/bitpay/bitpay-app/issues/686

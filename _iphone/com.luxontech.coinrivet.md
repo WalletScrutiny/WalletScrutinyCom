@@ -8,11 +8,11 @@ appId: com.luxontech.coinrivet
 appCountry: ca
 idd: '1617049863'
 released: 2022-05-11
-updated: 2024-03-07
-version: 1.3.4
+updated: 2024-08-21
+version: 1.3.5
 stars: 0
 reviews: 0
-size: '23662592'
+size: '23817216'
 website: 
 repository: 
 issue: 

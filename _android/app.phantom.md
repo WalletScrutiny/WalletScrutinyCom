@@ -4,15 +4,15 @@ title: Phantom
 altTitle: 
 authors:
 - danny
-users: 5000000
+users: 10000000
 appId: app.phantom
 appCountry: 
 released: 2022-04-12
 updated: 2024-08-12
-version: 24.13.0
+version: 24.14.0
 stars: 4.5
 ratings: 
-reviews: 600
+reviews: 602
 size: 
 website: https://phantom.app/
 repository: 

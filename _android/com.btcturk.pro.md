@@ -9,10 +9,10 @@ appId: com.btcturk.pro
 appCountry: 
 released: 2020-09-10
 updated: 2024-08-19
-version: 2.10.1
+version: 2.11.0
 stars: 4.5
 ratings: 169442
-reviews: 231
+reviews: 232
 size: 
 website: https://kripto.btcturk.com
 repository: 

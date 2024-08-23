@@ -36,6 +36,7 @@ developerName: Foundation Devices
 features: 
 
 ---
+
 **Update 2024-08-16**
 
 Our [test script](/scripts/test/android/com.foundationdevices.envoy.sh) was executed successfully, resulting in a successfully built APK.
