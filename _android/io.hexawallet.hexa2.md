@@ -4,6 +4,7 @@ title: Bitcoin Tribe
 altTitle: 
 authors:
 - danny
+- keraliss
 users: 1000
 appId: io.hexawallet.hexa2
 appCountry: in
@@ -20,8 +21,8 @@ issue:
 icon: io.hexawallet.hexa2.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2024-07-16
+verdict: ftbfs
+date: 2024-08-23
 signer: 
 reviewArchive: 
 twitter: HexaWallet
@@ -32,6 +33,102 @@ developerName: BitHyve UK Ltd.
 features: 
 
 ---
+
+**Update 2024-08-23:**
+
+**Review: Bitcoin Tribe Wallet Build**
+
+Despite exhaustive efforts and multiple attempts, the build process for the Bitcoin Tribe Wallet repeatedly failed to complete successfully. Various optimizations and troubleshooting steps were implemented, but we could not produce a working APK .
+
+**Command Used:**
+```bash
+yarn config set registry https://registry.npmjs.org/ &&
+yarn install --network-timeout 600000 &&
+yarn upgrade &&
+./gradlew clean &&
+./gradlew assembleDebug --stacktrace --info --console=plain \
+-Dorg.gradle.jvmargs="-Xmx4096m -XX:MaxPermSize=1024m -XX:+HeapDumpOnOutOfMemoryError" \
+-Dorg.gradle.daemon=false \
+-Dorg.gradle.workers.max=2 \
+-Dorg.gradle.vfs.watch=true
+```
+
+**Build Failure Details:**
+The build process consistently failed after running for an extended period, with the latest attempt taking 41 minutes and 41 seconds before terminating. The error log showed multiple issues primarily related to Gradle execution:
+
+```
+      at org.gradle.execution.plan.CompositeNodeGroup.isCanCancel(CompositeNodeGroup.java:101)
+        at org.gradle.execution.plan.Node.isCanCancel(Node.java:232)
+        at org.gradle.execution.plan.FinalizerGroup.isCanCancel(FinalizerGroup.java:155)
+        at org.gradle.execution.plan.CompositeNodeGroup.isCanCancel(CompositeNodeGroup.java:101)
+        at org.gradle.execution.plan.Node.isCanCancel(Node.java:232)
+        at org.gradle.execution.plan.FinalizerGroup.isCanCancel(FinalizerGroup.java:155)
+        at org.gradle.execution.plan.CompositeNodeGroup.isCanCancel(CompositeNodeGroup.java:101)
+        at org.gradle.execution.plan.Node.isCanCancel(Node.java:232)
+        at org.gradle.execution.plan.FinalizerGroup.isCanCancel(FinalizerGroup.java:155)
+        at org.gradle.execution.plan.CompositeNodeGroup.isCanCancel(CompositeNodeGroup.java:101)
+        at org.gradle.execution.plan.Node.isCanCancel(Node.java:232)
+        at org.gradle.execution.plan.FinalizerGroup.isCanCancel(FinalizerGroup.java:155)
+        at org.gradle.execution.plan.CompositeNodeGroup.isCanCancel(CompositeNodeGroup.java:101)
+        at org.gradle.execution.plan.Node.isCanCancel(Node.java:232)
+        at org.gradle.execution.plan.FinalizerGroup.isCanCancel(FinalizerGroup.java:155)
+        at org.gradle.execution.plan.CompositeNodeGroup.isCanCancel(CompositeNodeGroup.java:101)
+        at org.gradle.execution.plan.Node.isCanCancel(Node.java:232)
+        at org.gradle.execution.plan.FinalizerGroup.isCanCancel(FinalizerGroup.java:155)
+
+==============================================================================
+
+* Get more help at https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.5.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+Execution optimizations have been disabled for 1 invalid unit(s) of work during this build to ensure correctness.
+Please consult deprecation warnings for more details.
+
+BUILD FAILED in 41m 41s
+1515 actionable tasks: 1510 executed, 5 up-to-date
+The command '/bin/sh -c yarn config set registry https://registry.npmjs.org/ &&     yarn install --network-timeout 600000 &&     yarn upgrade &&     ./gradlew clean &&     ./gradlew assembleDebug --stacktrace --info --console=plain     -Dorg.gradle.jvmargs="-Xmx4096m -XX:MaxPermSize=1024m -XX:+HeapDumpOnOutOfMemoryError"     -Dorg.gradle.daemon=false     -Dorg.gradle.workers.max=2     -Dorg.gradle.vfs.watch=true' returned a non-zero code: 1
+```
+
+**Critical Issues Encountered:**
+
+1. **Gradle Compatibility:**
+   The build flagged the use of deprecated Gradle features, which are incompatible with Gradle 8.0:
+   ```
+   Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+   ```
+   Attempts to update Gradle configurations did not resolve these issues.
+
+2. **Recursive Method Calls:**
+   The error log revealed a concerning pattern of recursive method calls, suggesting a potential infinite loop or stack overflow:
+   ```
+   at org.gradle.execution.plan.Node.isCanCancel(Node.java:232)
+   at org.gradle.execution.plan.FinalizerGroup.isCanCancel(FinalizerGroup.java:155)
+   at org.gradle.execution.plan.CompositeNodeGroup.isCanCancel(CompositeNodeGroup.java:101)
+   ```
+   This pattern repeated frequently, indicating a deep-rooted issue within the build logic.
+
+3. **Memory Allocation:**
+   Despite increasing JVM memory allocation to 4GB, the build process still showed signs of memory pressure:
+   ```
+   -Dorg.gradle.jvmargs="-Xmx4096m -XX:MaxPermSize=1024m -XX:+HeapDumpOnOutOfMemoryError"
+   ```
+   Increasing memory further did not alleviate the issue.
+
+4. **Build Optimization Failures:**
+   The build log showed that optimizations were disabled for certain tasks:
+   ```
+   Execution optimizations have been disabled for 1 invalid unit(s) of work during this build to ensure correctness.
+   ```
+   This suggests underlying issues with the project structure or build scripts that we could not resolve.
+
+**Conclusion:**
+Despite persistent efforts to update dependencies, adjust Gradle configurations, increase resources, and perform clean builds, the Bitcoin Tribe Wallet remains **not verifiable**. 
+
 
 ## Update 2024-07-16
 
