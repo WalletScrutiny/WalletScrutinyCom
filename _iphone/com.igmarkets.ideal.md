@@ -11,7 +11,7 @@ released: 2011-01-24
 updated: 2024-08-15
 version: 10.1984.0
 stars: 4.5
-reviews: 2664
+reviews: 2666
 size: '233793536'
 website: http://www.ig.com
 repository: 

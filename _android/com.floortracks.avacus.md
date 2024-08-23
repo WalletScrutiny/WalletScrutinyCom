@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.floortracks.avacus.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-08-19
+date: 2024-08-23
 signer: 
 reviewArchive: 
 twitter: SystemAvacus

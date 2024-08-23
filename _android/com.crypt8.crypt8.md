@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.crypt8.crypt8.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2024-08-23
 signer: 
 reviewArchive: 
 twitter: 
