@@ -21,7 +21,7 @@ repository: https://github.com/Coldcard/firmware
 issue: 
 icon: coldcardQ1.png
 bugbounty: 
-meta: ok
+meta: outdated
 verdict: reproducible
 date: 2024-08-12
 signer: 

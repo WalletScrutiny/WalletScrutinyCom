@@ -27,7 +27,7 @@ repository: https://github.com/Cypherock/x1_wallet_firmware
 issue: 
 icon: cypherockx1.png
 bugbounty: 
-meta: ok
+meta: outdated
 verdict: reproducible
 date: 2023-05-25
 signer: 

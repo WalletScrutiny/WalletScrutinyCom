@@ -27,7 +27,7 @@ repository: https://github.com/digitalbitbox/bitbox02-firmware
 issue: 
 icon: bitBox2.png
 bugbounty: 
-meta: ok
+meta: outdated
 verdict: reproducible
 date: 2024-08-09
 signer: 
