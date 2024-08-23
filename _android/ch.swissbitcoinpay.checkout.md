@@ -239,6 +239,8 @@ Binary files fromBuild_unpacked/xhdpi/resources.arsc and fromPlay_unpacked/xhdpi
 
 This confirms our verdict of **non-verifiable**
 
+We raised an issue regarding this in SwissBitcoinPay's [issue tracker.](https://github.com/SwissBitcoinPay/app/issues/107)
+
 
 
 
