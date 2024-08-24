@@ -7,10 +7,10 @@ authors:
 - Mohammad Rafigh
 - danny
 - keraliss
-released: 
+released: 2019-09-25
 discontinued: 
-updated: 2024-04-22
-version: 9.18.0
+updated: 2024-06-24
+version: 9.19.0-Multi
 binaries: https://github.com/digitalbitbox/bitbox02-firmware/releases
 dimensions:
 - 55
@@ -27,7 +27,7 @@ repository: https://github.com/digitalbitbox/bitbox02-firmware
 issue: 
 icon: bitBox2.png
 bugbounty: 
-meta: ok
+meta: outdated
 verdict: reproducible
 date: 2024-08-09
 signer: 
