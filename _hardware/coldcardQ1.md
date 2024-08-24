@@ -25,7 +25,7 @@ meta: outdated
 verdict: reproducible
 date: 2024-08-12
 signer: 
-reviewArchive: 
+reviewArchive:
 - date: 2024-05-31
   version: 1.2.1Q
   appHash: 85186d87fcf6a8334e9f4c35680a505acb1ed274ffef2913d734dfa400c1f809
@@ -37,6 +37,7 @@ social:
 features: 
 
 ---
+
 **Updates on 2024-08-12**:
 
 As ColdcardQ1's source code is now available, we decided to check for reproducibility. Excluding a few changes to our [test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/scripts/test/hardware/coldCard.sh), steps to reproduce the product remain largely the same across the Coldcard series. We were able to build the binary file.

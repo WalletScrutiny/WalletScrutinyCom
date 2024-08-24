@@ -14,7 +14,7 @@ binaries:
 dimensions:
 - 86
 - 52
-- 5.2 
+- 5.2
 weight: 20.5
 provider: Bixin
 providerWebsite: https://onekey.so/

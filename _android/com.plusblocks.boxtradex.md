@@ -1,6 +1,6 @@
 ---
 wsId: boxTradexExchange
-title: BOXTradEx
+title: BOXVERSE
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.plusblocks.boxtradex
 appCountry: 
 released: 2021-05-04
-updated: 2024-07-23
-version: 1.8.5
+updated: 2024-08-23
+version: 2.0.0
 stars: 4.6
 ratings: 
 reviews: 6
