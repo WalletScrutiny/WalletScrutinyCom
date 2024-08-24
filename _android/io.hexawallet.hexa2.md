@@ -17,7 +17,7 @@ reviews: 6
 size: 
 website: https://bitcointribe.app/
 repository: https://github.com/bithyve/hexa
-issue: 
+issue: https://github.com/bithyve/bitcointribe/issues/2544
 icon: io.hexawallet.hexa2.png
 bugbounty: 
 meta: ok
