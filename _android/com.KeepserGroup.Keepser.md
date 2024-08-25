@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.KeepserGroup.Keepser.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-02-17
+date: 2024-08-25
 signer: 
 reviewArchive: 
 twitter: keepser

@@ -8,8 +8,8 @@ appId: com.llc.bitcastle
 appCountry: gb
 idd: '1616104862'
 released: 2022-07-15
-updated: 2024-08-14
-version: 1.8.5
+updated: 2024-08-23
+version: 1.8.6
 stars: 0
 reviews: 0
 size: '203809792'

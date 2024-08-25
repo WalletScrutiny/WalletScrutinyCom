@@ -1,6 +1,6 @@
 ---
 wsId: coinTR
-title: 'CoinTR: Bitcoin Altcoin Crypto'
+title: CoinTR | Buy BTC & Crypto
 altTitle: 
 authors:
 - danny

@@ -1,17 +1,17 @@
 ---
 wsId: boxTradexExchange
-title: BOXTradEx
+title: BOXVERSE
 altTitle: 
 authors: 
 appId: com.plusblocks.exchange
 appCountry: ph
 idd: '1566819984'
 released: 2021-05-12
-updated: 2024-07-27
-version: 1.8.5
+updated: 2024-08-23
+version: 2.0.0
 stars: 0
 reviews: 0
-size: '124225536'
+size: '172588032'
 website: 
 repository: 
 issue: 

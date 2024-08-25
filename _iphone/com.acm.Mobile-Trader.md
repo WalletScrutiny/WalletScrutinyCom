@@ -10,8 +10,8 @@ idd: '340408565'
 released: 2009-12-09
 updated: 2024-08-19
 version: 3.24.1
-stars: 4.3
-reviews: 560
+stars: 4.2
+reviews: 562
 size: '61170688'
 website: https://www.swissquote.com/en-ch/private/trade/platforms/forex-cfds/cfxd
 repository: 
