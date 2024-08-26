@@ -7,8 +7,8 @@ authors:
 - danny
 released: 2021-01-01
 discontinued: 
-updated: 2024-05-09
-version: 1.0.30
+updated: 2024-08-09
+version: 1.0.31
 binaries: https://jadefw.blockstream.com/bin/jade/index.json
 dimensions:
 - 24
@@ -27,9 +27,14 @@ icon: blockstreamjade.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-05-15
+date: 2024-08-26
 signer: 
 reviewArchive:
+- date: 2024-05-15
+  version: 1.0.30
+  appHash: d62518df363ceb7002c171baf8149c644dd8dbb57b4f122db0c4b1dc5707328d
+  gitRevision: ecbebc9a15b23cf32825669dd3ebb1a647f7a332
+  verdict: reproducible
 - date: 2024-05-06
   version: 1.0.29
   appHash: ed9e949c2fea08ed56d9c842ffc94c5a9698dca78502137376bd0e421afbabf5
@@ -89,27 +94,25 @@ We tested the latest version of {{ page.title }} using our test script, covering
 all four build variants:
 
 ```
-$ scripts/test/hardware/blockstreamjade.sh 1.0.30
+$ scripts/test/hardware/blockstreamjade.sh 1.0.31
 ...
 Results:
-d62518df363ceb7002c171baf8149c644dd8dbb57b4f122db0c4b1dc5707328d  jade_1.0.30_10_ble.bin
-9ec79bd13e24107bea00c372f7e21ceccf409430d5cba8d7f02184c7290f85f8  jade_1.0.30_10_ble.built.bin
-9ec79bd13e24107bea00c372f7e21ceccf409430d5cba8d7f02184c7290f85f8  jade_1.0.30_10_ble_stripped.bin
-The Jade firmware version 1.0.30 10_ble is reproducible with above hashes.
-0bfbee52e5694dbcfb540fd5aa9ead6dd3acc5b1aa0a68d53a1005cc5bf8bdf6  jade_1.0.30_10_noR.bin
-167252882d816641f6f6fcacaf8aaea046a01b6f9be877759f94eeadbdfe1c1c  jade_1.0.30_10_noR.built.bin
-167252882d816641f6f6fcacaf8aaea046a01b6f9be877759f94eeadbdfe1c1c  jade_1.0.30_10_noR_stripped.bin
-The Jade firmware version 1.0.30 10_noR is reproducible with above hashes.
-feec96441572a28d7a80b22e9c65181de1d05b197872a7b10955af349fce7e2f  jade_1.0.30_11_ble.bin
-cb84f99175838b433ac6f70795529f52407aab156a167e765ded75d6c832973b  jade_1.0.30_11_ble.built.bin
-cb84f99175838b433ac6f70795529f52407aab156a167e765ded75d6c832973b  jade_1.0.30_11_ble_stripped.bin
-The Jade firmware version 1.0.30 11_ble is reproducible with above hashes.
-9ffaba14ce1390cef7b228a008be3fbc117a7bf5550670565c87dbc70e366156  jade_1.0.30_11_noR.bin
-1829cdda459baedd468bfed3f5f009b0a9c922c0ce2281578a55e07b7d3204d5  jade_1.0.30_11_noR.built.bin
-1829cdda459baedd468bfed3f5f009b0a9c922c0ce2281578a55e07b7d3204d5  jade_1.0.30_11_noR_stripped.bin
-The Jade firmware version 1.0.30 11_noR is reproducible with above hashes.
-
-
+26c918f0e7281b9cc8fdfc10baae2e5a8ac6edf0cd08e699a913daea3b97d04e  jade_1.0.31_10_ble.bin
+56c3543e2929b4b450d683fcad15a3f1cc6fe0c445db4d33c102985cfcf5bc7e  jade_1.0.31_10_ble.built.bin
+56c3543e2929b4b450d683fcad15a3f1cc6fe0c445db4d33c102985cfcf5bc7e  jade_1.0.31_10_ble_stripped.bin
+The Jade firmware version 1.0.31 10_ble is reproducible with above hashes.
+ba25801fa09ca3d0ddb1831b6384f1122f91804cd0d5c4a578aa422e4486c0da  jade_1.0.31_10_noR.bin
+45c7353e9d844a549463ab65504e27fcb4a15d3877789e5d30175cefa0bd9c61  jade_1.0.31_10_noR.built.bin
+45c7353e9d844a549463ab65504e27fcb4a15d3877789e5d30175cefa0bd9c61  jade_1.0.31_10_noR_stripped.bin
+The Jade firmware version 1.0.31 10_noR is reproducible with above hashes.
+b9c5568de7ccc4355f95fae91b35faa9ff85c95c42ef44d6151f242691a29f1a  jade_1.0.31_11_ble.bin
+35da48fdb0b478a2a1f889f97dc848af0d8b2c518b79bb0b864950cd16713920  jade_1.0.31_11_ble.built.bin
+35da48fdb0b478a2a1f889f97dc848af0d8b2c518b79bb0b864950cd16713920  jade_1.0.31_11_ble_stripped.bin
+The Jade firmware version 1.0.31 11_ble is reproducible with above hashes.
+4c88942060c01938fcdbf6be118771a9c1610a4647b98ce25e4baa813e36d437  jade_1.0.31_11_noR.bin
+4065e64e34c68f55eb28e918bf7982d8f9cb4415be6fa3babbc0638b7dd57df1  jade_1.0.31_11_noR.built.bin
+4065e64e34c68f55eb28e918bf7982d8f9cb4415be6fa3babbc0638b7dd57df1  jade_1.0.31_11_noR_stripped.bin
+The Jade firmware version 1.0.31 11_noR is reproducible with above hashes.
 ```
 
 This is what we want to see to give this product the verdict **reproducible**.
