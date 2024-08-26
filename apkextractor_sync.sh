@@ -17,6 +17,71 @@ check_command() {
   fi
 }
 
+is_app_installed() {
+  local package_name="$1"
+  if adb shell pm list packages | grep -q "^package:$package_name$"; then
+    return 0 # App is installed
+  else
+    return 1 # App is not installed
+  fi
+}
+
+get_version_code() {
+  local apk_path="$1"
+  aapt dump badging "$apk_path" | grep versionCode | awk '{print $3}' | sed "s/versionCode='//" | sed "s/'//"
+}
+
+get_full_apk_name() {
+  local package_name="$1"
+  local apk_path=$(adb shell pm path "$package_name" | grep "base.apk" | cut -d':' -f2 | tr -d '\r')
+  if [ -z "$apk_path" ]; then
+    echo "Error: Could not find base.apk for $package_name" >&2
+    return 1
+  fi
+  local apk_name=$(adb shell ls -l "$apk_path" | awk '{print $NF}')
+  echo "$apk_name"
+}
+
+# Function to determine naming convention
+determine_naming_convention() {
+  local dir="$1"
+  local app_id="$2"
+
+  if ssh $sshCredentials "ls $dir/${app_id}_v* 2>/dev/null"; then
+    echo "convention1"
+  elif ssh $sshCredentials "ls $dir/${app_id}-* 2>/dev/null"; then
+    echo "convention2"
+  else
+    echo "convention1" # Default to convention1 if no existing files
+  fi
+}
+
+if [ -z "$1" ]; then
+  echo -e "\033[1;31mError: No bundle ID provided. Usage: $0 <bundleId> [user@server]\033[0m]"
+  exit 1
+fi
+
+bundleId="$1"
+echo "bundleId=\"$bundleId\""
+
+# Check if the app is installed before proceeding
+if ! is_app_installed "$bundleId"; then
+  echo -e "\033[1;31mError: The app '$bundleId' is not installed on the connected device.\033[0m"
+  exit 1
+fi
+
+# Get the full APK name including version
+full_apk_name=$(get_full_apk_name "$bundleId")
+if [ $? -ne 0 ]; then
+  echo "Failed to get full APK name. Exiting."
+  exit 1
+fi
+echo "Full APK name: $full_apk_name"
+
+# Show and execute the command to get apk paths
+echo "Retrieving APK paths for bundle ID: $bundleId"
+apks=$(adb shell pm path $bundleId)
+
 # Check if bundletool is installed
 check_bundletool() {
   echo "Checking for bundletool in /usr/local/lib and /usr/share/java..."
@@ -51,8 +116,13 @@ check_command "adb"
 # Check if java is installed
 check_command "java"
 
+# Check if aapt is installed
+check_command "aapt"
+
 # Check if bundletool is installed
 check_bundletool
+
+
 
 if [ "$MISSING_DEPENDENCIES" = true ]; then
   echo -e "\033[1;31mPlease install the missing dependencies before running the script.\033[0m"
@@ -91,6 +161,13 @@ apks=$(adb shell pm path $bundleId)
 echo "APK paths retrieved:"
 echo "$apks"
 
+# Determine if the app uses single or split APKS by checking for patterns
+if echo "$apks" | grep -qE "split_|config."; then
+  echo -e "\033[1;33m▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮ $bundleId - uses split APKs ▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮\033[0m"
+else
+  echo -e "\033[1;33m▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮ $bundleId - uses single APK ▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮\033[0m"
+fi
+
 # Make official directory
 mkdir -p $bundleId/official_apks
 mkdir -p $bundleId/official
@@ -113,36 +190,37 @@ if [ ! -z "$2" ]; then
 
   echo -e "\033[1;33m▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮ Uploading files to server ▮▮▮▮▮▮▮▮▮▮▮▮▮▮▮\033[0m"
 
-  # Check if the directory exists on the server
-  if ssh $sshCredentials "test -d $bundleId/official"; then
-    echo "Directory exists on the server."
-    remoteDir="$bundleId"
-  else
-    echo -e "\033[1;33m**The directory does not exist on the server. Do you want to create it? (yes/no):**\033[0m"
-    read createDirChoice
-    if [ "$createDirChoice" = "yes" ]; then
-      ssh $sshCredentials "mkdir -p $bundleId/official_apks"
-      ssh $sshCredentials "mkdir -p $bundleId/official"
-      remoteDir="$bundleId"
+  ssh $sshCredentials "mkdir -p /var/shared/apk/$bundleId"
+
+  versionCode=$(get_version_code "$bundleId/official_apks/base.apk")
+
+  # Determine naming convention
+  namingConvention=$(determine_naming_convention "/var/shared/apk/$bundleId" "$bundleId")
+
+  # Create the version-specific directory
+  ssh $sshCredentials "mkdir -p /var/shared/apk/$bundleId/$versionCode"
+
+  # Upload and rename APKs
+  for apk in $bundleId/official_apks/*.apk; do
+    apkName=$(basename "$apk")
+    if [ "$apkName" = "base.apk" ]; then
+        if [ "$namingConvention" = "convention1" ]; then
+          newName="${bundleId}_v${versionCode}.apk"
+        else
+          newName="${bundleId}-${versionCode}.apk"
+        fi
     else
-      echo "The files will be extracted to the 'official' directory in the user's home directory."
-      ssh $sshCredentials "mkdir -p $bundleId/official_apks"
-      ssh $sshCredentials "mkdir -p ~$bundleId/official"
-      remoteDir="~$bundleId"
+        newName="$apkName"
     fi
-  fi
+    scp "$apk" "$sshCredentials:/var/shared/apk/$bundleId/$versionCode/$newName"
 
-  # Sync the APK files to the server
-  scp -r $bundleId/official_apks/ $sshCredentials:$remoteDir/
-  
-  # Get the list of APK files
-  apkFiles=$(ssh $sshCredentials "ls $remoteDir/official_apks/*.apk")
+    # Extract APK contents
+    extractDir=$(echo "$apkName" | sed 's/\.apk$//' | sed 's/split_config\.//')
+    ssh $sshCredentials "mkdir -p /var/shared/apk/$bundleId/$versionCode/$extractDir && unzip -q /var/shared/apk/$bundleId/$versionCode/$newName -d /var/shared/apk/$bundleId/$versionCode/$extractDir"
+  done 
 
-  # Extract APKs into their own directories on the server
-  ssh $sshCredentials "for apk in $(echo $apkFiles); do apkName=\$(echo \"\$apk\" | sed -e 's/split_config.//g' -e 's/.apk//g' -e 's:.*/::'); mkdir -p \"$remoteDir/official/\$apkName\"; unzip \"\$apk\" -d \"$remoteDir/official/\$apkName\"; done"
-
-  echo "APK files have been synchronized and processed on the server."
-else
+  echo "APK files have been uploaded, renamed, and extracted on the server."
+else 
   echo "Skipping server synchronization."
   exit 0
 fi
