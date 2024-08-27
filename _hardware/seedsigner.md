@@ -48,7 +48,7 @@ features:
 
 **Update 2024-09-14**: 
 
-We managed to build a script that makes it slightly easier to verify the SeedSigner. 
+We managed to build a [script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/e97be2a2e9604e8d4cdade68bef9687305784419/scripts/test/hardware/seedsigner.sh) that makes it slightly easier to verify the SeedSigner. 
 
 From it, we get these results:
 
