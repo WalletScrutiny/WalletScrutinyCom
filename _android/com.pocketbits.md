@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.pocketbits.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-07-28
+date: 2024-08-26
 signer: 
 reviewArchive: 
 twitter: PocketBitsIndia

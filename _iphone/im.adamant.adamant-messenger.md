@@ -8,11 +8,11 @@ appId: im.adamant.adamant-messenger
 appCountry: us
 idd: '1341473829'
 released: 2018-08-04
-updated: 2024-07-14
-version: 3.7.0
+updated: 2024-08-26
+version: 3.8.0
 stars: 4.9
 reviews: 18
-size: '48257024'
+size: '49580032'
 website: https://adamant.im
 repository: 
 issue: 

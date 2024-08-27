@@ -1,6 +1,6 @@
 ---
 wsId: tokocrypto
-title: 'Tokocrypto: Trade BTC & Crypto'
+title: 'Tokocrypto: Buy Bitcoin Crypto'
 altTitle: 
 authors:
 - danny
@@ -12,7 +12,7 @@ updated: 2024-08-13
 version: 2.12.0
 stars: 4.2
 ratings: 34617
-reviews: 43159
+reviews: 43268
 size: 
 website: https://www.tokocrypto.com
 repository: 

@@ -8,8 +8,8 @@ users: 50000
 appId: com.suniwallet.app
 appCountry: 
 released: 2023-03-06
-updated: 2024-06-17
-version: 2.3.1
+updated: 2024-08-23
+version: 2.4.1
 stars: 
 ratings: 
 reviews: 

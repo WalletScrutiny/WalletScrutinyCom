@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ownrwallet.wallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-09-19
+date: 2024-08-26
 signer: 
 reviewArchive: 
 twitter: ownrwallet

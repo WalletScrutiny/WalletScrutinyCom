@@ -8,8 +8,8 @@ users: 10000
 appId: com.BlockchainExplorer.DormantBitcoinExplorer
 appCountry: 
 released: 2023-01-03
-updated: 2024-07-28
-version: 1.2.3
+updated: 2024-08-25
+version: 1.2.4
 stars: 3.5
 ratings: 
 reviews: 14

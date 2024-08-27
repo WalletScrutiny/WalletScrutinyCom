@@ -8,9 +8,9 @@ users: 100000
 appId: com.dunamu.exchange.global
 appCountry: us
 released: 2018-11-06
-updated: 2024-08-16
+updated: 2024-08-24
 version: 1.17.1
-stars: 3.1
+stars: 3
 ratings: 3998
 reviews: 36
 size: 

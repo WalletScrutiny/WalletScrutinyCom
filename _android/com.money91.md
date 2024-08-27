@@ -7,8 +7,8 @@ users: 10000000
 appId: com.money91
 appCountry: 
 released: 2018-10-12
-updated: 2024-03-12
-version: 3.2.19-Rovi Trading-rovi-genesis-month-
+updated: 2024-08-26
+version: 3.2.20-Rovi Trading-rovi-genesis-month-
 stars: 4.6
 ratings: 
 reviews: 136

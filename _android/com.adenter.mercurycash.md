@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.adenter.mercurycash.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-09-02
+date: 2024-08-26
 signer: 
 reviewArchive: 
 twitter: mercurycash

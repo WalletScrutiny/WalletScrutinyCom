@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: ir.pulpal.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2023-09-02
+date: 2024-08-26
 signer: 
 reviewArchive: 
 twitter: 

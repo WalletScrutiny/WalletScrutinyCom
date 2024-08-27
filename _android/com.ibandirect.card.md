@@ -14,7 +14,7 @@ stars: 3
 ratings: 
 reviews: 
 size: 
-website: https://ibandirect.com
+website: https://coincardi.com
 repository: 
 issue: 
 icon: com.ibandirect.card.png

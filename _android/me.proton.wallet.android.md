@@ -4,7 +4,7 @@ title: Proton Wallet - Secure BTC
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: me.proton.wallet.android
 appCountry: 
 released: 

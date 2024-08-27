@@ -11,7 +11,7 @@ released: 2022-07-27
 updated: 2024-03-19
 version: 1.2.6
 stars: 3.5
-reviews: 22
+reviews: 23
 size: '131292160'
 website: https://www.cointree.com
 repository: 

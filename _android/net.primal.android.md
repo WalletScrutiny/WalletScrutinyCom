@@ -4,15 +4,15 @@ title: Primal
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: net.primal.android
 appCountry: 
 released: 2024-07-09
 updated: 2024-07-09
 version: 1.0.3
-stars: 
+stars: 4.3
 ratings: 
-reviews: 
+reviews: 3
 size: 
 website: https://www.primal.net
 repository: 
