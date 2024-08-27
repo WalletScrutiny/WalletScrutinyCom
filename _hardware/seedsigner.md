@@ -24,9 +24,14 @@ icon: seedsigner.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2023-09-14
+date: 2024-08-27
 signer: 
 reviewArchive:
+- date: 2023-09-14
+  version: 0.7.0
+  appHash: 
+  gitRevision: ecbebc9a15b23cf32825669dd3ebb1a647f7a332
+  verdict: reproducible
 - date: 2022-03-26
   version: 0.4.5
   appHash: 
@@ -40,6 +45,57 @@ social:
 features: 
 
 ---
+
+**Update 2024-09-14**: 
+
+We managed to build a script that makes it slightly easier to verify the SeedSigner. 
+
+From it, we get these results:
+
+```
+build-images-1  | Disk disk.img: 26 MiB, 27262976 bytes, 53248 sectors
+build-images-1  | Units: sectors of 1 * 512 = 512 bytes
+build-images-1  | Sector size (logical/physical): 512 bytes / 512 bytes
+build-images-1  | I/O size (minimum/optimal): 512 bytes / 512 bytes
+build-images-1  | 
+build-images-1  | >>> Script header accepted.
+build-images-1  | >>> Script header accepted.
+build-images-1  | >>> Created a new DOS disklabel with disk identifier 0xba5eba11.
+build-images-1  | disk.img1: Created a new partition 1 of type 'W95 FAT32 (LBA)' and of size 25 MiB.
+build-images-1  | disk.img2: Done.
+build-images-1  | 
+build-images-1  | New situation:
+build-images-1  | Disklabel type: dos
+build-images-1  | Disk identifier: 0xba5eba11
+build-images-1  | 
+build-images-1  | Device     Boot Start   End Sectors Size Id Type
+build-images-1  | disk.img1  *     2048 53247   51200  25M  c W95 FAT32 (LBA)
+build-images-1  | 
+build-images-1  | The partition table has been altered.
+build-images-1  | Syncing disks.
+build-images-1  | mkfs.fat 4.2 (2021-01-31)
+build-images-1  | /opt/buildroot
+build-images-1  | 917201e335bfc7ee4189f17827f954f89588dc0fdefdad80d26f2a65c5c8e6d0  /opt/../images/seedsigner_os.0.8.0.pi4.img
+build-images-1 exited with code 0
+Script finished.
+```
+
+The hash from their [release](https://github.com/SeedSigner/seedsigner/releases/download/0.8.0/seedsigner.0.8.0.sha256.txt)
+
+- Hash from the build: 917201e335bfc7ee4189f17827f954f89588dc0fdefdad80d26f2a65c5c8e6d0
+- Hash from repository: 917201e335bfc7ee4189f17827f954f89588dc0fdefdad80d26f2a65c5c8e6d0
+
+We verify if the actual image has this hash: 
+
+`$ wget https://github.com/SeedSigner/seedsigner/releases/download/0.8.0/seedsigner_os.0.8.0.pi4.img`
+`$ sha256sum seedsigner_os.0.8.0.pi4.img`
+`917201e335bfc7ee4189f17827f954f89588dc0fdefdad80d26f2a65c5c8e6d0  seedsigner_os.0.8.0.pi4.img`
+
+This confirms that version 0.8.0 is **reproducibile**
+
+
+{% include asciicast %}
+
 
 **Update 2023-09-14**: Seedsigner
 [announced reproducibility](https://twitter.com/SeedSigner/status/1701600348136436134)
