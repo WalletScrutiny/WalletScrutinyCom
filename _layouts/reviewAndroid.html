@@ -49,6 +49,17 @@ layout: default
 
       </div>
 
+      <!-- Drag-and-Drop-Area Start -->
+      <div id="drop-area">
+        <form class="my-form">
+          <p>Drop your APK here</p>
+          <input type="file" id="fileElem" accept=".apk" onchange="handleFileSelect(this.files)">
+          <label class="button" for="fileElem">Select an APK file</label>
+        </form>
+        <div id="file-list"></div>
+      </div>
+      <!-- Drag-and-Drop-Area End -->
+
       {% include /review/securityOverview.html wsId=page.wsId verdict=page.verdict meta=page.meta platform='android' filterPlatform='true' %}
 
       {% include /review/nostrOpinion.html %}
@@ -81,3 +92,7 @@ layout: default
 
 <script src="{{ base_path }}/assets/js/color-thief.umd.js"></script>
 <script src="{{ base_path }}/assets/js/review.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jsSHA/3.2.0/sha256.min.js"></script>
+<script src="https://unpkg.com/app-info-parser/dist/app-info-parser.min.js"></script>
+<script src="{{ base_path }}/assets/js/drag-and-drop.js"></script>
+

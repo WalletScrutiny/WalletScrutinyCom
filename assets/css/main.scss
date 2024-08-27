@@ -44,3 +44,27 @@
 @import "colours";
 @import "review";
 @import "custom-fonts";
+
+
+#drop-area {
+  border: 2px dashed #ccc;
+  border-radius: 20px;
+  width: 50%;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+#drop-area.highlight {
+  border-color: purple;
+}
+
+.my-form {
+  margin-bottom: 10px;
+}
+
+#file-list {
+  margin-top: 10px;
+  text-align: left;
+}
