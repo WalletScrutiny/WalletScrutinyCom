@@ -7,8 +7,8 @@ users: 500000
 appId: cc.bitbank.bitbank
 appCountry: 
 released: 
-updated: 2024-08-05
-version: 3.2.1
+updated: 2024-08-23
+version: 3.2.2
 stars: 
 ratings: 
 reviews: 

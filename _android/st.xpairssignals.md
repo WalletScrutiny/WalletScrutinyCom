@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: st.xpairssignals.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-08-29
+date: 2024-08-24
 signer: 
 reviewArchive: 
 twitter: 

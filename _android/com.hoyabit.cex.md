@@ -4,7 +4,7 @@ title: HOYA BIT 加密貨幣交易所
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.hoyabit.cex
 appCountry: 
 released: 2023-03-10

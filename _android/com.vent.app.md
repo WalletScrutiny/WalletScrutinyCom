@@ -12,7 +12,7 @@ updated: 2024-08-19
 version: 1.9.9
 stars: 4.9
 ratings: 
-reviews: 1
+reviews: 2
 size: 
 website: https://vent.africa
 repository: 

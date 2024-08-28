@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.infinito.wallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
-date: 2023-09-02
+date: 2024-08-26
 signer: 
 reviewArchive: 
 twitter: Infinito_Ltd

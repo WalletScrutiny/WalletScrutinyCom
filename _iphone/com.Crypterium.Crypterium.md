@@ -11,7 +11,7 @@ released: 2018-03-26
 updated: 2024-08-14
 version: '8.0'
 stars: 4.2
-reviews: 929
+reviews: 928
 size: '92530688'
 website: https://choise.com/
 repository: 

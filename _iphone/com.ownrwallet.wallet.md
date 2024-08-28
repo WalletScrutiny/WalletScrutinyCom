@@ -11,16 +11,16 @@ released: 2019-05-21
 updated: 2023-08-31
 version: 1.71.1
 stars: 4.7
-reviews: 132
+reviews: 131
 size: '88385536'
 website: https://ownrwallet.com
 repository: 
 issue: 
 icon: com.ownrwallet.wallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-09-19
+date: 2024-08-26
 signer: 
 reviewArchive: 
 twitter: ownrwallet

@@ -6,9 +6,9 @@ authors:
 - danny
 released: 2019-03-01
 discontinued: 
-updated: 
-version: 
-binaries: 
+updated: 2022-07-12
+version: DMA-4 24
+binaries: https://bitfi.com/firmware
 dimensions:
 - 120
 - 67
@@ -24,9 +24,9 @@ repository: https://github.com/Bitfi/BitfiWallet
 issue: 
 icon: bitfiwallet.png
 bugbounty: 
-meta: ok
+meta: obsolete
 verdict: wip
-date: 2021-12-10
+date: 2024-08-12
 signer: 
 reviewArchive: 
 twitter: thebitfi
@@ -82,4 +82,4 @@ On a [Youtube video](https://youtu.be/mw_OfbSPtbs?t=929) demonstrating this prod
 
 The linked Github account has [one relevant repository](https://github.com/Bitfi/BitfiWallet) with a url to [bitfi.com/firmware](https://bitfi.com/firmware).
 
-This app is for verification.
+The last release was done more than 2 years ago on July 12, 2022. However, the firmware's repository has been updated [8 months ago via a commit](https://github.com/Bitfi/BitfiWallet/commit/262693ac5903a5b05126257953e427271c95f1ba). The device's firmware **could still be verified** since the commit was updated 8 months ago.

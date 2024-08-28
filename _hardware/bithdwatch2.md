@@ -7,8 +7,8 @@ authors:
 - leo
 released: 2019-01-18
 discontinued: 
-updated: 2021-12-14
-version: v4.1.8
+updated: 2022-12-07
+version: v4.2.0
 binaries: https://github.com/bithd/bithd-mcu/releases/
 dimensions:
 - 42
@@ -25,9 +25,9 @@ repository: https://github.com/bithd/bithd-mcu
 issue: 
 icon: bithdwatch2.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nonverifiable
-date: 2022-04-18
+date: 2024-08-06
 signer: 
 reviewArchive:
 - date: 2021-12-11
@@ -40,6 +40,13 @@ social:
 features: 
 
 ---
+
+## Update 2024-08-20
+
+The last firmware release is dated December 7, 2022. The page for the device now results in a `403 - Forbidden` error. This indicates that this item is no longer for sale. 
+This is reflected in their [announcement](https://bitpie.zendesk.com/hc/en-001/articles/10034317527567-Announcement-Regarding-the-Adjustment-of-BITHD-Hardware-Wallet-Sales) made in 2023. With a product no longer on sale and the last update to the firmware in 2022, we can say that this is already **defunct**
+
+## Previous Review 2021-12-21
 
 <div class="alertBox"><div>
 <p>There is currently several red flags about this product.

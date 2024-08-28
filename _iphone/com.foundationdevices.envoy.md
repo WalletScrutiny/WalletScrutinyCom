@@ -8,11 +8,11 @@ appId: com.foundationdevices.envoy
 appCountry: us
 idd: '1584811818'
 released: 2022-07-14
-updated: 2024-06-19
-version: 1.7.0
+updated: 2024-08-26
+version: 1.8.2
 stars: 4.9
 reviews: 21
-size: '162018304'
+size: '164791296'
 website: 
 repository: https://github.com/Foundation-Devices/envoy
 issue: 

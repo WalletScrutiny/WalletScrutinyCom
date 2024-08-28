@@ -6,13 +6,16 @@ authors:
 - danny
 - leo
 - mohammad
-released: 
+released: 2022-08-23
 discontinued: 
-updated: 
-version: 
+updated: 2024-05-21
+version: v3.8.0
 binaries: 
-dimensions: 
-weight: 
+dimensions:
+- 86
+- 52
+- 5.2
+weight: 20.5
 provider: Bixin
 providerWebsite: https://onekey.so/
 website: https://onekey.so/en-US/hardware
@@ -25,7 +28,7 @@ icon: onekey.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2023-07-12
+date: 2024-08-06
 signer: 
 reviewArchive:
 - date: 2022-12-28

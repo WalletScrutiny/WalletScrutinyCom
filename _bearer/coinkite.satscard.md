@@ -19,7 +19,7 @@ website: https://getsatscard.com/
 shop: https://store.coinkite.com/store/satscard
 country: CA
 price: 6.99 USD
-repository: https://github.com/coinkite/coinkite-tap-proto
+repository: 
 issue: 
 icon: coinkite.satscard.png
 bugbounty: 

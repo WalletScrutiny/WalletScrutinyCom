@@ -8,8 +8,8 @@ users: 10000
 appId: com.gemwallet.android
 appCountry: ae
 released: 2023-06-26
-updated: 2024-08-22
-version: 1.2.165
+updated: 2024-08-26
+version: 1.2.168
 stars: 4.6
 ratings: 
 reviews: 

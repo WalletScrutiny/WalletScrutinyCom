@@ -11,7 +11,7 @@ released: 2019-10-11
 updated: 2024-07-02
 version: 2.7.16
 stars: 4.3
-reviews: 229
+reviews: 230
 size: '78522368'
 website: https://www.muun.com
 repository: https://github.com/muun/falcon

@@ -6,8 +6,8 @@ authors:
 - keraliss
 released: 2022-10-05
 discontinued: 
-updated: 2024-05-09
-version: v1.2.1Q
+updated: 2024-07-05
+version: v1.2.3Q
 binaries: https://coldcard.com/downloads/
 dimensions: 
 weight: 
@@ -21,7 +21,7 @@ repository: https://github.com/Coldcard/firmware
 issue: 
 icon: coldcardQ1.png
 bugbounty: 
-meta: ok
+meta: outdated
 verdict: reproducible
 date: 2024-08-12
 signer: 
@@ -61,7 +61,6 @@ Hash of the signed firmware:
 f222c2e6374057685900e4e3313ec9ec1931a9d1b8d8a13be13e04f80ba967f9  /tmp/firmware/stm32/built/firmware-signed.dfu
 
 ```
-
 
 ## Product Description 
 
