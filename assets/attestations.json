@@ -1,0 +1,396 @@
+[
+  {
+    "appId": "de.schildbach.wallet",
+    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
+    "apkVersionName": "'10.14'",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "c188015c6539bf594a38a36793cc9599b6b38439d34c4210c1f117d6b87b8d01",
+    "date": "2024-03-24"
+  },
+  {
+    "appId": "de.schildbach.wallet",
+    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
+    "apkVersionName": "'10.13'",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "f8f5d0da7406def49087e8b99f273c754c6042065e6ce879c267d918434c5655",
+    "date": "2024-01-28"
+  },
+  {
+    "appId": "de.schildbach.wallet",
+    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
+    "apkVersionName": "'10.12'",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "f8f5d0da7406def49087e8b99f273c754c6042065e6ce879c267d918434c5655",
+    "date": "2024-01-17"
+  },
+  {
+    "appId": "de.schildbach.wallet",
+    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
+    "apkVersionName": "'10.11'",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "c5a9f4f36e468cfafef5d5f5d5d780ab20534ff340face7a2a83e3187a25049f",
+    "date": "2023-12-19"
+  },
+  {
+    "appId": "de.schildbach.wallet",
+    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
+    "apkVersionName": "'10.09'",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "5d35e51533edf9ac668f4b008bc763a497fb3e342e57867bf4e8a1a98e1fb217",
+    "date": "2023-11-25"
+  },
+  {
+    "appId": "de.schildbach.wallet",
+    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
+    "apkVersionName": "'10.06'",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "c889bebbdf81b577ba34cbabfd9ba1a640367ca14ef559601060ac1ad5efe5dc",
+    "date": "2023-11-02"
+  },
+  {
+    "appId": "de.schildbach.wallet",
+    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
+    "apkVersionName": "'10.03'",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "66ebf8572371ad5f2567108b555f5f01e657e5d6bf4cd55624d43b3c319ac65f",
+    "date": "2023-04-26"
+  },
+  {
+    "appId": "de.schildbach.wallet",
+    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
+    "apkVersionName": "'9.23'",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "0ea97bf63ceff167b1d2a701b94c569c251b00cc1b06e98f02384e10493e202b",
+    "date": "2022-12-12"
+  },
+  {
+    "appId": "de.schildbach.wallet",
+    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
+    "apkVersionName": "'9.03'",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "3c4ffbb9a1bdf67a0d3113b1cf8385a464f152ca79ef0349dcadb266765f4c58",
+    "date": "2022-11-01"
+  },
+  {
+    "appId": "de.schildbach.wallet",
+    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
+    "apkVersionName": "'9.03'",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "90ef5b1b41546d9e0c99484a398a5e6c7d509d9fdfdd09354e55d68f2f7d84bd",
+    "date": "2022-01-11"
+  },
+  {
+    "appId": "de.schildbach.wallet",
+    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
+    "apkVersionName": "'9.02'",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "f8abb386f28c6a8eaadfde8494d3ceb443e2685015f940345f76b47b2b0ff25e",
+    "date": "2021-12-20"
+  },
+  {
+    "appId": "de.schildbach.wallet",
+    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
+    "apkVersionName": "'9.01'",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "422c9847403148de5d1e5e0f33b393d0b29513746bdfb15be7553913056ee727",
+    "date": "2021-11-21"
+  },
+  {
+    "appId": "de.schildbach.wallet",
+    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
+    "apkVersionName": "'8.19'",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "1f80c04950bf05270bef67e553b99d3593c836688a3922d4c2cee714389be54c",
+    "date": "2021-11-09"
+  },
+  {
+    "appId": "de.schildbach.wallet",
+    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
+    "apkVersionName": "'8.18'",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "f7178b9adaa88ab0a03486facb3857ac94ede677793ed0389878eb54e8023fb6",
+    "date": "2021-10-26"
+  },
+  {
+    "appId": "de.schildbach.wallet",
+    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
+    "apkVersionName": "'8.17'",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "5357e8a57e61df80d655cc7e477ed3f07f75e8e873429e4809a0f821e6d14fa8",
+    "date": "2021-09-18"
+  },
+  {
+    "appId": "de.schildbach.wallet",
+    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
+    "apkVersionName": "'8.16'",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "ce81ad485b99f0995dccf101c97ef5e0fa17e4832aa1a84f3a3ef3176142439e",
+    "date": "2021-09-18"
+  },
+  {
+    "appId": "de.schildbach.wallet",
+    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
+    "apkVersionName": "'8.15'",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "ef79679f1b67f00502e0e21ff6d31f97feb273d397f44850e3acf3ff68cf9464",
+    "date": "2021-07-28"
+  },
+  {
+    "appId": "de.schildbach.wallet",
+    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
+    "apkVersionName": "'8.14'",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "e4f9be85ecbac8a418ec4f2d1577f1cea0c265f1b0cd501408c3ec993213ef08",
+    "date": "2021-06-01"
+  },
+  {
+    "appId": "de.schildbach.wallet",
+    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
+    "apkVersionName": "'8.11'",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "6ca9862f4c53723ed77d3c2c85a46028c950f665dbac30c9c4aedde719988654",
+    "date": "2021-03-11"
+  },
+  {
+    "appId": "de.schildbach.wallet",
+    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
+    "apkVersionName": "'8.08'",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "c16a1e33ae3b6b1f66e0029a3385323d8e3d3ccf8e58394284c96c4268ba6625",
+    "date": "2020-12-29"
+  },
+  {
+    "appId": "de.schildbach.wallet",
+    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
+    "apkVersionName": "'8.07'",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "c6cc907735d141b9f6cfaced1d14d2dc715bace78232ec7ff14682aad9fe2788",
+    "date": "2020-11-17"
+  },
+  {
+    "appId": "de.schildbach.wallet",
+    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
+    "apkVersionName": "'8.06'",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "7c68050e0e746d9a7ea984ac2aa4d9541e5a140a073254f5c88036d1aa7430ab",
+    "date": "2020-10-12"
+  },
+  {
+    "appId": "de.schildbach.wallet",
+    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
+    "apkVersionName": "'8.05'",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "64a611be5c64b14a05a41f90c0a6e6112e7888a83675e5eeae827623e836e5c0",
+    "date": "2020-08-04"
+  },
+  {
+    "appId": "de.schildbach.wallet",
+    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
+    "apkVersionName": "'8.03'",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "09b78cea4be8ca41661b0a9ab3d4a2ed16c8947c2aaceeb39c931ee8e2d3f653",
+    "date": "2020-06-20"
+  },
+  {
+    "appId": "de.schildbach.wallet",
+    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
+    "apkVersionName": "'8.02'",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "f01e4028778bc2036902af2253522b7de0eb40ca3bff50f51a8c0918737fd6b4",
+    "date": "2020-05-03"
+  },
+  {
+    "appId": "de.schildbach.wallet",
+    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
+    "apkVersionName": "'8.01'",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "57c1f1d1f69be7caba2df305c32b1cbd7913537554d9e17006c4b97fd7705a8b",
+    "date": "2020-04-14"
+  },
+  {
+    "appId": "de.schildbach.wallet",
+    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
+    "apkVersionName": "'8.0'",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "d4bf786409e0cef85a2179a721c5f9b63542d422d6297c76c000194b6c540566",
+    "date": "2020-04-06"
+  },
+  {
+    "appId": "de.schildbach.wallet",
+    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
+    "apkVersionName": "'7.69'",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "c3e8495a55da4dffbdd969b77dccf957bcb816a4469e8adc22751fdfc8579ba4",
+    "date": "2020-03-29"
+  },
+  {
+    "appId": "de.schildbach.wallet",
+    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
+    "apkVersionName": "'7.68'",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "f19b776e4483921d9f8d430671241649c55915062f680030ed5652f752c34a26",
+    "date": "2020-03-20"
+  },
+  {
+    "appId": "de.schildbach.wallet",
+    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
+    "apkVersionName": "'7.61'",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "03d35ae1d496fc779f46ee91cc8c73e382f498115f8da748030b6031f2befff3",
+    "date": "2020-03-14"
+  },
+  {
+    "appId": "de.schildbach.wallet",
+    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
+    "apkVersionName": "'7.53'",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "03d35ae1d496fc779f46ee91cc8c73e382f498115f8da748030b6031f2befff3",
+    "date": "2020-02-16"
+  },
+  {
+    "appId": "de.schildbach.wallet",
+    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
+    "apkVersionName": "'7.47'",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "5c57b5b0e57484ddb9a80d04a3a7ff355ccaa2aecdd926231f4844076f071293",
+    "date": "2020-01-24"
+  },
+  {
+    "appId": "de.schildbach.wallet",
+    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
+    "apkVersionName": "'7.45'",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "4ed8da2be3e64b399d84dc4fd3b20141117c496eb45f6bac284d2bd8ee45efa5",
+    "date": "2020-01-18"
+  },
+  {
+    "appId": "de.schildbach.wallet",
+    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
+    "apkVersionName": "10.15",
+    "apkVersionCode": "101500",
+    "verdict": "reproducible",
+    "appHash": "0769738882d39b4e02abbdb301cbde4962cf01890d7874c2e0b9ff6d0a23bc9e"
+  },
+  {
+    "appId": "zapsolutions.zap",
+    "signer": "",
+    "apkVersionName": "0.5.6-beta",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "cdb21de8cc9fd0268a13ddacbc4bc5e453396808e0c764cacaccc8087af29d39",
+    "date": "2022-03-24"
+  },
+  {
+    "appId": "zapsolutions.zap",
+    "signer": "",
+    "apkVersionName": "0.5.5-beta",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "af44fc237ee82d7f7a3bd7c3ba096da058d6423f0dc8091312b103f06e783982",
+    "date": "2022-02-17"
+  },
+  {
+    "appId": "zapsolutions.zap",
+    "signer": "",
+    "apkVersionName": "0.5.4-beta",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "32bf9ee5b4e4093c2d50e2a4c3589081745526280c47887e0512f7934392bdcc",
+    "date": "2021-12-15"
+  },
+  {
+    "appId": "zapsolutions.zap",
+    "signer": "",
+    "apkVersionName": "0.5.3-beta",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "ab73d13b45ef0f20d43030a2fb00b64b280546307dc48bf95efd2d1aebabe9b4",
+    "date": "2021-12-06"
+  },
+  {
+    "appId": "zapsolutions.zap",
+    "signer": "",
+    "apkVersionName": "0.5.2-beta",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "f248710d319b11e37bc805fc7dbd5c27043a9a212f4359847126797d7af25757",
+    "date": "2021-10-19"
+  },
+  {
+    "appId": "zapsolutions.zap",
+    "signer": "",
+    "apkVersionName": "0.5.1-beta",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "dbf21e0cfb7f0bc238e9f24e123777f12e497ad574ada282a82e5dd98fa98d47",
+    "date": "2021-09-17"
+  },
+  {
+    "appId": "zapsolutions.zap",
+    "signer": "",
+    "apkVersionName": "0.4.1-beta",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "b0d049c45d3ab8bac242779795f330d47f207f44050e1b386f9488ea371feda2",
+    "date": "2021-04-27"
+  },
+  {
+    "appId": "zapsolutions.zap",
+    "signer": "",
+    "apkVersionName": "0.4.0-beta",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "cbf97dd8ecd9431c9ef7913eafa4f3473371d315fd18dc8d5218f44e99f72e65",
+    "date": "2020-12-22"
+  },
+  {
+    "appId": "zapsolutions.zap",
+    "signer": "",
+    "apkVersionName": "0.3.8-beta",
+    "apkVersionCode": "",
+    "verdict": "reproducible",
+    "appHash": "0902d86d218d385d627e943828fddc083689aa5998c4ae87e972e4b8625073d5",
+    "date": "2020-12-22"
+  },
+  {
+    "appId": "zapsolutions.zap",
+    "signer": "24a0e944a65d8cea692653e1a132a042c37be334f1b0b4200575fee6f46eca86",
+    "apkVersionName": "0.5.10-beta",
+    "apkVersionCode": "3040",
+    "verdict": "reproducible",
+    "appHash": "22b3821bb6f97aa9522be2600b50ac834f939ecf4a194b7d40043e13f17f381b"
+  }
+]

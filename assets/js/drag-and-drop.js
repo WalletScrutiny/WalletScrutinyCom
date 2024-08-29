@@ -48,6 +48,7 @@ document.addEventListener("DOMContentLoaded", function() {
             shaObj.update(reader.result);
             let hash = shaObj.getHash("HEX");
             parseAPK(file, hash);
+            searchAppData(hash); // Search for the app data in output.json after calculating the hash
         }
     }
 
@@ -62,18 +63,50 @@ document.addEventListener("DOMContentLoaded", function() {
             });
     }
 
-    function displayInfo(fileName, info, hash) {
+    function searchAppData(hash) {
+        fetch('/assets/attestations.json')  // Full URL path
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(appData => {
+                const results = appData.filter(app => app.appHash === hash);
+                if (results.length > 0) {
+                    displayAppData(results[0]); // Display additional data if a match is found
+                } else {
+                    console.log('No attestations found');
+                }
+            })
+            .catch(err => console.error('Error loading app data:', err));
+    }     
+
+    function displayAppData(appData) {
         let fileList = document.getElementById('file-list');
-        fileList.innerHTML = ''; // Clear the existing content
         let li = document.createElement('li');
         li.innerHTML = `
-      <strong>File:</strong> ${fileName}<br>
-      <strong>SHA-256:</strong> ${hash}<br>
-      <strong>Package:</strong> ${info.package}<br>
-      <strong>Version:</strong> ${info.versionName} (${info.versionCode})<br>
-      <strong>Min SDK:</strong> ${info.usesSdk.minSdkVersion || 'undefined'}<br>
-      <strong>Target SDK:</strong> ${info.usesSdk.targetSdkVersion || 'undefined'}<br>
-    `;
-        fileList.appendChild(li);
+          <strong>App ID:</strong> ${appData.appId}<br>
+          <strong>Signer:</strong> ${appData.signer}<br>
+          <strong>Version Name:</strong> ${appData.apkVersionName}<br>
+          <strong>Version Code:</strong> ${appData.apkVersionCode}<br>
+          <strong>Verdict:</strong> ${appData.verdict}<br>
+          <strong>Date:</strong> ${appData.date || 'undefined'}<br>
+        `;
+        fileList.appendChild(li); // Append the new info without clearing existing info
+    }
+
+    function displayInfo(fileName, info, hash) {
+        let fileList = document.getElementById('file-list');
+        let li = document.createElement('li');
+        li.innerHTML = `
+          <strong>File:</strong> ${fileName}<br>
+          <strong>SHA-256:</strong> ${hash}<br>
+          <strong>Package:</strong> ${info.package}<br>
+          <strong>Version:</strong> ${info.versionName} (${info.versionCode})<br>
+          <strong>Min SDK:</strong> ${info.usesSdk.minSdkVersion || 'undefined'}<br>
+          <strong>Target SDK:</strong> ${info.usesSdk.targetSdkVersion || 'undefined'}<br>
+        `;
+        fileList.appendChild(li); // Append the file information
     }
 });

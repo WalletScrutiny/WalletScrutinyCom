@@ -177,11 +177,6 @@ function parseResults(resultsString) {
     return result;
 }
 
-
-
-
-
-
 function processFilesInDirectory(directoryPath) {
     const outputData = [];
     const files = fs.readdirSync(directoryPath);
@@ -198,8 +193,9 @@ function processFilesInDirectory(directoryPath) {
     });
 
     console.log(`Total files processed: ${filesProcessed}`);
-    fs.writeFileSync('output.json', JSON.stringify(outputData.filter(entry => entry.appHash), null, 2), 'utf8');
-    console.log('Output written to output.json');
+    let outputFile = 'assets/attestations.json';
+    fs.writeFileSync(outputFile, JSON.stringify(outputData.filter(entry => entry.appHash), null, 2), 'utf8');
+    console.log(`Output written to ${outputFile}`);
 }
 
 // Directory path to the folder containing your Markdown files
