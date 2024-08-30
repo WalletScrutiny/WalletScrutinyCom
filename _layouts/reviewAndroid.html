@@ -2,6 +2,10 @@
 layout: default
 ---
 
+<script>
+  window.pageAppId = "{{ page.appId }}";  // This makes page.appId accessible in the JavaScript
+</script>
+
 <div id="main" class="app-review" role="main">
   {% if page.wsId %} 
     <script>window.wsId="{{ page.wsId }}"</script> 
@@ -53,7 +57,7 @@ layout: default
       <div id="drop-area">
         <form class="my-form">
           <p>Drop your APK here</p>
-          <input type="file" id="fileElem" accept=".apk" onchange="handleFileSelect(this.files)">
+          <input type="file" id="fileElem" accept=".apk">
           <label class="button" for="fileElem">Select an APK file</label>
         </form>
         <div id="file-list"></div>
@@ -91,6 +95,7 @@ layout: default
     </div>
   </article>
 </div>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jsSHA/3.2.0/sha256.min.js"></script>
 <script src="https://unpkg.com/app-info-parser/dist/app-info-parser.min.js"></script>
 <script src="{{ base_path }}/assets/js/drag-and-drop.js"></script>
