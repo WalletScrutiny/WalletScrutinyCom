@@ -23,9 +23,14 @@ icon: app.zeusln.zeus.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-07-22
+date: 2024-08-28
 signer: cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
 reviewArchive:
+- date: 2024-07-22
+  version: 0.8.5-hotfix
+  appHash: 13ddb87f0f0a56c24997654b91be1e448a8c134374aeaf1f0ff9f993f1f734f8
+  gitRevision: 6ae7c72d480ca51b583f6b18d05516226e30f5a4
+  verdict: reproducible
 - date: 2024-05-07
   version: 0.8.4
   appHash: bf668808899b1a5a5e4b8aebf5f8ef26b41dacfdc802150592e81c93de198f64
@@ -90,28 +95,26 @@ We ran our updated {% include testScript.html %} and got this:
 ===== Begin Results =====
 appId:          app.zeusln.zeus
 signer:         cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
-apkVersionName: 0.8.5-hotfix
-apkVersionCode: 90001
+apkVersionName: 0.9.0
+apkVersionCode: 92001
 verdict:        
-appHash:        13ddb87f0f0a56c24997654b91be1e448a8c134374aeaf1f0ff9f993f1f734f8
-commit:         585051ec1ed78baff630565949551f102d8a148e
+appHash:        137bf10d8cd8cd963796e936ff839d536dd244b141f0c21977116a50589d1243
+commit:         7a00dd650f75c71156dcb8401efc30845ddc01b1
 
 Diff:
-Files /tmp/fromPlay_app.zeusln.zeus_90001/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_90001/AndroidManifest.xml differ
-Only in /tmp/fromPlay_app.zeusln.zeus_90001/META-INF: GOOGPLAY.RSA
-Only in /tmp/fromPlay_app.zeusln.zeus_90001/META-INF: GOOGPLAY.SF
-Only in /tmp/fromPlay_app.zeusln.zeus_90001/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_app.zeusln.zeus_90001: stamp-cert-sha256
+Files /tmp/fromPlay_app.zeusln.zeus_92001/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_92001/AndroidManifest.xml differ
+Only in /tmp/fromPlay_app.zeusln.zeus_92001/META-INF: GOOGPLAY.RSA
+Only in /tmp/fromPlay_app.zeusln.zeus_92001/META-INF: GOOGPLAY.SF
+Only in /tmp/fromPlay_app.zeusln.zeus_92001/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_app.zeusln.zeus_92001: stamp-cert-sha256
 
 Revision, tag (and its signature):
 
 ===== End Results =====
 
+
 ```
 
-Again we checked that only signature-related lines differ and as before, this is
-the case for MANIFEST.MF and stamp-cert-sha256, too.
-
-Version 0.8.5-hotfix of this app is **reproducible**.
+Version 0.9.0 of this app is **reproducible**.
 
 {% include asciicast %}
