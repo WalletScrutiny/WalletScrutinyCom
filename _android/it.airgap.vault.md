@@ -22,10 +22,15 @@ issue: https://github.com/airgap-it/airgap-vault/issues/197
 icon: it.airgap.vault.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
-date: 2024-08-07
+verdict: reproducible
+date: 2024-08-29
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
 reviewArchive:
+- date: 2024-08-07
+  version: 3.32.2
+  appHash: 634bf593f331d318b4d0cbe089adc5bbb72eac35549b7a8a76e82261c19d798a
+  gitRevision: 6ae7c72d480ca51b583f6b18d05516226e30f5a4
+  verdict: nonverifiable
 - date: 2024-07-30
   version: 3.32.1
   appHash: 551f4226e1fb4622365b5327fe2f4329b74ede71e7d9bb3c205be6806885bd0f
@@ -212,7 +217,7 @@ features:
 
 ---
 
-**Update 2024-08-07** 
+**Update 2024-08-29** 
 
 We ran our {% include testScript.html %} which delivered these results:
 
@@ -220,17 +225,16 @@ We ran our {% include testScript.html %} which delivered these results:
 ===== Begin Results =====
 appId:          it.airgap.vault
 signer:         486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
-apkVersionName: 3.32.2
-apkVersionCode: 62533
-verdict:        
-appHash:        634bf593f331d318b4d0cbe089adc5bbb72eac35549b7a8a76e82261c19d798a
-commit:         4df9c575c1d9612947823c54f0c60d7bf55dcd40
+apkVersionName: 3.32.3
+apkVersionCode: 62924
+verdict:        reproducible
+appHash:        11c8dbf7056df1d700d947891cda94929c4ce4ea16c418c8dc0cac453577d0f3
+commit:         e30447ec10e501bb67e172253486e87579c7a0b7
 
 Diff:
-Files /tmp/fromPlay_it.airgap.vault_62533/assets/dexopt/baseline.profm and /tmp/fromBuild_it.airgap.vault_62533/assets/dexopt/baseline.profm differ
-Only in /tmp/fromPlay_it.airgap.vault_62533/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_it.airgap.vault_62533/META-INF: PAPERS.RSA
-Only in /tmp/fromPlay_it.airgap.vault_62533/META-INF: PAPERS.SF
+Only in /tmp/fromPlay_it.airgap.vault_62924/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_it.airgap.vault_62924/META-INF: PAPERS.RSA
+Only in /tmp/fromPlay_it.airgap.vault_62924/META-INF: PAPERS.SF
 
 Revision, tag (and its signature):
 
@@ -238,66 +242,7 @@ Revision, tag (and its signature):
 
 ```
 
-The diffs from **3.32.1** seems to have disappeared and what is left: 
-
-- **MANIFEST.MF** 
-- **PAPERS.RSA** 
-- **PAPERS.SF** 
-
-These are related to the signing differences between Google Play and the built app. 
-
-### baseline.profm 
-
-```
---- /tmp/fromPlay_it.airgap.vault_62533/assets/dexopt/baseline.profm
-+++ /tmp/fromBuild_it.airgap.vault_62533/assets/dexopt/baseline.profm
-@@ -1,16 +1,16 @@
--00000000: 7072 6d00 3030 3200 0200 c301 0000 e900  prm.002.........
--00000010: 0000 7801 4551 bb0e 0141 143d 33b3 6397  ..x.EQ...A.=3.c.
--00000020: 1524 b428 e824 0aa5 9f90 6855 c276 1ad9  .$.(.$....hU.v..
--00000030: 46d4 fec4 6ff8 041f e59c b986 bd99 fbbe  F...o...........
--00000040: e79e 9d01 6a9c 2ec7 b66d daf5 b9b9 ad16  ....j....m......
--00000050: c01b 0f78 4454 08e8 c1d1 0fd4 8eda 531c  ...xDT........S.
--00000060: 7387 1429 a3bc 6c87 674c adde 9a7a 4429  s..)..l.gL...zD)
--00000070: 88a1 238c 0e8f 3085 200c 9382 76c8 0965  ..#...0. ...v..e
--00000080: 3c26 28d9 212f a32a 2e88 6bf1 8c9d dae8  <&(.!/.*..k.....
--00000090: d39e 12f7 e858 5377 f73b 9327 65b5 3933  .....XSw.;.'e.93
--000000a0: b7fd 3573 79b3 d998 f0e4 5fb1 73eb 4a4c  ..5sy....._.s.JL
--000000b0: 2a32 f244 54d6 d8c6 c43e b0a2 3fb0 1b11  *2.DT....>..?...
--000000c0: befe d970 4a56 1cfa 694a 9ef1 d8ba 98f8  ...pJV..iJ......
--000000d0: dbcd e906 fe22 2445 62e4 31c7 b3b0 5a48  ....."$Eb.1...ZH
--000000e0: 79dd 60c0 fed7 3f80 f74b bc18 f7f3 636d  y.`...?..K....cm
--000000f0: f45a bd29 f87d 0072 1211 95              .Z.).}.r...
-+00000000: 7072 6d00 3030 3200 0200 c301 0000 eb00  prm.002.........
-+00000010: 0000 7801 4550 318e 0231 0c9c 381b 76d9  ..x.EP1..1..8.v.
-+00000020: 4580 c4b5 4001 1d12 c595 7c02 89f6 aa13  E...@.....|.....
-+00000030: d0d1 9cb6 395d cd4f f806 4fe0 51cc c4e4  ....9].O..O.Q...
-+00000040: 582b b133 b6c7 b306 4638 5ebe fbfe dc7f  X+.3....F8^.....
-+00000050: 6e4f e7df 760e 7e01 5d41 056e 56c0 0357  nO..v.~.]A.nV..W
-+00000060: 1812 1a44 b42c 30fa 408b 8c8c bec5 577e  ...D.,0.@.....W~
-+00000070: 0911 2e3f e099 f156 6dc7 7b4a abc8 a123  ...?...Vm.{J...#
-+00000080: 8e01 8f38 c520 0eb7 8a7e c20e 2186 0fd4  ...8. ...~..!...
-+00000090: ac50 5458 f5ae c8eb ef05 2b35 d1f2 9c1a  .PTX......+5....
-+000000a0: 7f29 30a7 eae1 aba7 74ca 6b72 51ee f33b  .)0.....t.krQ..;
-+000000b0: 6265 b2fb 94f9 14ff 601f b68d 9434 5464  be......`....4Td
-+000000c0: 6414 ea6a 5356 1f99 d11f f846 c4af 7f76  d..jSV.....F...v
-+000000d0: 9e9a 99c0 f5aa 4b91 ebd8 8594 f5fb e6b4  ......K.........
-+000000e0: 81b7 8949 2f29 322c 71ab 3c17 33ae 0d46  ...I/)2,q.<.3..F
-+000000f0: 1cfe ebc7 305b e38e 2753 3611 95         ....0[..'S6..
-
-```
-
-### What is **baseline.profm**?
-
-From [Android Developer Documentation](https://developer.android.com/topic/performance/baselineprofiles/overview)
-
-> Baseline Profiles improve code execution speed by about 30% from the first launch by avoiding interpretation and just-in-time (JIT) compilation steps for included code paths.
->
-> By shipping a Baseline Profile in an app or library, Android Runtime (ART) can optimize specified code paths through Ahead-of-Time (AOT) compilation, providing performance enhancements for every new user and every app update. This Profile Guided Optimization (PGO) lets apps optimize startup, reduce interaction jank, and improve overall runtime performance for users from the first launch.
-
-The difference in **baseline.profm** is not negligible. From this, we can conclude that version **3.32.2** is **nonverifiable**
-
-Nevertheless, we created an [issue](https://github.com/airgap-it/airgap-vault/issues/212) with Airgap Vault to query them about how baseline.profm can be configured. 
+Version 3.32.3 is **reproducible** again
 
 ## Asciicast
 
