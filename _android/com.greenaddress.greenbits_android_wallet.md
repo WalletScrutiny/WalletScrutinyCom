@@ -10,7 +10,7 @@ appId: com.greenaddress.greenbits_android_wallet
 appCountry: 
 released: 2015-01-01
 updated: 2024-08-16
-version: 4.0.31
+version: 4.0.33
 stars: 4.5
 ratings: 946
 reviews: 134
@@ -22,9 +22,14 @@ icon: com.greenaddress.greenbits_android_wallet.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-07-26
+date: 2024-08-28
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 reviewArchive:
+- date: 2024-07-26
+  version: 4.0.31
+  appHash: e975b91a4a346614f5df1ddd101fcd6dea92ec9c1180232bb0726c0e766b50f1
+  gitRevision: 6ae7c72d480ca51b583f6b18d05516226e30f5a4
+  verdict: reproducible
 - date: 2024-07-02
   version: 4.0.30
   appHash: 9001a6ba060040374ec7372a590862d62aed881deb6a6934a99c53322eb1d062
@@ -255,24 +260,23 @@ For that latest version, our {% include testScript.html %} returned this:
 ===== Begin Results =====
 appId:          com.greenaddress.greenbits_android_wallet
 signer:         32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
-apkVersionName: 4.0.31
-apkVersionCode: 22000431
+apkVersionName: 4.0.33
+apkVersionCode: 22000433
 verdict:        reproducible
-appHash:        e975b91a4a346614f5df1ddd101fcd6dea92ec9c1180232bb0726c0e766b50f1
-commit:         04c9cf4a4286c4a2ac8ca65191adcceb36a10569
+appHash:        1974e2b0b1c293e477d740ca15e10eec352c023f6f4595b47fcd44b0dadf32e0
+commit:         3dc7eed7b3dadc950465f6e79ab6dfe538e6b138
 
 Diff:
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000431/META-INF: GREENADD.RSA
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000431/META-INF: GREENADD.SF
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000431/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000433/META-INF: GREENADD.RSA
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000433/META-INF: GREENADD.SF
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000433/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
-object 04c9cf4a4286c4a2ac8ca65191adcceb36a10569
+object 3dc7eed7b3dadc950465f6e79ab6dfe538e6b138
 type commit
-tag release_4.0.31
-tagger Angelos Veglektsis <angelos@aveworks.com> 1721818107 +0300
+tag release_4.0.33
+tagger Angelos Veglektsis <angelos@aveworks.com> 1724767945 -0600
 ===== End Results =====
-
 ```
 
 This version of {{ page.title }} is **reproducible**.
