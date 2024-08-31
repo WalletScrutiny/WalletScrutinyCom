@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.app.Chainblock.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-12-13
+date: 2024-08-31
 signer: 
 reviewArchive: 
 twitter: 

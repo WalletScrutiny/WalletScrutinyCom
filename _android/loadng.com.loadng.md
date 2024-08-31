@@ -8,11 +8,11 @@ users: 10000
 appId: loadng.com.loadng
 appCountry: ng
 released: 2020-05-02
-updated: 2024-06-09
-version: 5.4.0
+updated: 2024-08-27
+version: 5.4.2
 stars: 4.1
 ratings: 259
-reviews: 695
+reviews: 696
 size: 
 website: https://app.load.ng/
 repository: 

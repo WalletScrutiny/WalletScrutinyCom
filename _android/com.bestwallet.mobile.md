@@ -3,16 +3,16 @@ wsId: bestWallet
 title: 'Best Wallet: Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 50000
 appId: com.bestwallet.mobile
 appCountry: 
 released: 2023-07-24
-updated: 2024-07-26
-version: 2.1.0
+updated: 2024-08-28
+version: 2.2.0
 stars: 4.6
 ratings: 
-reviews: 52
+reviews: 53
 size: 
 website: https://www.bestwallet.com
 repository: 
@@ -30,7 +30,7 @@ social:
 - https://discord.com/invite/ujKmVVycsW
 - https://www.youtube.com/@BestWallet
 - https://www.tiktok.com/@bestwalletofficial
-- https://www.instagram.com/bestwallethq 
+- https://www.instagram.com/bestwallethq
 redirect_from: 
 developerName: BESTWEB3
 features: 

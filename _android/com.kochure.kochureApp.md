@@ -10,9 +10,9 @@ appCountry:
 released: 2021-11-13
 updated: 2024-07-25
 version: 1.2.0
-stars: 4
+stars: 4.1
 ratings: 
-reviews: 2
+reviews: 3
 size: 
 website: https://kochure.com/
 repository: 

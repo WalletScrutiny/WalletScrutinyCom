@@ -8,7 +8,7 @@ users: 100000
 appId: com.icecorp.wallet
 appCountry: 
 released: 2022-08-24
-updated: 2024-07-23
+updated: 2024-08-26
 version: '2.6'
 stars: 3.6
 ratings: 

@@ -10,8 +10,8 @@ idd: '1546957530'
 released: 2022-03-19
 updated: 2024-06-26
 version: 1.7.4
-stars: 3.9
-reviews: 67
+stars: 3.8
+reviews: 68
 size: '25871360'
 website: https://www.btcmarkets.net
 repository: 

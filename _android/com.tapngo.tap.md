@@ -8,11 +8,11 @@ users: 100000
 appId: com.tapngo.tap
 appCountry: gb
 released: 2019-12-19
-updated: 2024-08-14
-version: 3.2.9
+updated: 2024-08-27
+version: 3.3.0
 stars: 4.3
 ratings: 1735
-reviews: 284
+reviews: 283
 size: 
 website: https://www.withtap.com
 repository: 

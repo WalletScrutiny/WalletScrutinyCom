@@ -12,7 +12,7 @@ updated: 2022-12-26
 version: 2.0.04
 stars: 4.2
 ratings: 808
-reviews: 725
+reviews: 726
 size: 
 website: https://bitpreco.com/
 repository: 

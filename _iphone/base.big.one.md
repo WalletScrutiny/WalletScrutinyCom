@@ -10,7 +10,7 @@ released: 2019-11-06
 updated: 2024-08-15
 version: 2.4.800
 stars: 4.4
-reviews: 110
+reviews: 109
 size: '187041792'
 website: https://big.one
 repository: 

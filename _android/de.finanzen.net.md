@@ -9,7 +9,7 @@ appId: de.finanzen.net
 appCountry: 
 released: 2012-03-26
 updated: 2024-08-26
-version: 5.4.2
+version: 5.4.3
 stars: 4.3
 ratings: 
 reviews: 64

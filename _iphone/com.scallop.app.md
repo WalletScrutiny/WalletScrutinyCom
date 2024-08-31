@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.scallop.app.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-08-18
+date: 2024-08-31
 signer: 
 reviewArchive: 
 twitter: ScallopOfficial

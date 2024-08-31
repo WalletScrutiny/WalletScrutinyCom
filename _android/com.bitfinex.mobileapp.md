@@ -12,7 +12,7 @@ updated: 2024-08-13
 version: 7.0.0
 stars: 3.5
 ratings: 1986
-reviews: 62
+reviews: 63
 size: 
 website: https://www.bitfinex.com
 repository: 

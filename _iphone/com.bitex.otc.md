@@ -11,7 +11,7 @@ released: 2021-09-02
 updated: 2024-08-22
 version: 1.8.6
 stars: 5
-reviews: 7
+reviews: 8
 size: '57883648'
 website: https://www.bitex.sg/
 repository: 

@@ -10,9 +10,9 @@ appCountry:
 released: 2022-05-24
 updated: 2023-10-19
 version: 2.0.1
-stars: 3.9
+stars: 3.8
 ratings: 
-reviews: 146
+reviews: 147
 size: 
 website: https://mara.xyz
 repository: 

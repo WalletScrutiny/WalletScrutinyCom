@@ -10,8 +10,8 @@ idd: '1531383905'
 released: 2020-11-11
 updated: 2024-08-21
 version: 2.2.285
-stars: 4.4
-reviews: 29
+stars: 4.3
+reviews: 30
 size: '60843008'
 website: https://blink.sv
 repository: https://github.com/GaloyMoney/galoy-mobile/

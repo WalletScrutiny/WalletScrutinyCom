@@ -4,7 +4,7 @@ title: Vauld - Earn, Lend with Crypto
 altTitle: 
 authors:
 - kiwilamb
-users: 500000
+users: 1000000
 appId: com.bankofhodlers.mobile
 appCountry: 
 released: 2020-04-30

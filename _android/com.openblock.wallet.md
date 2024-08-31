@@ -7,8 +7,8 @@ users: 500
 appId: com.openblock.wallet
 appCountry: 
 released: 2023-02-06
-updated: 2024-08-14
-version: 2.1.6
+updated: 2024-08-27
+version: 2.1.7
 stars: 5
 ratings: 
 reviews: 

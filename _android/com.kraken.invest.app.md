@@ -1,6 +1,6 @@
 ---
 wsId: krakenInvest
-title: 'Kraken: Buy Bitcoin & Crypto'
+title: 'Kraken: Buy Crypto & Bitcoin'
 altTitle: 
 authors:
 - danny
@@ -12,7 +12,7 @@ updated: 2024-08-23
 version: 2.31.0
 stars: 4.4
 ratings: 15716
-reviews: 3870
+reviews: 3877
 size: 
 website: https://www.kraken.com
 repository: 

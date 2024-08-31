@@ -3,7 +3,7 @@ wsId:
 title: 'Ampiy: Trade Bitcoin & Crypto'
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.ampiy.app
 appCountry: 
 released: 2022-04-06

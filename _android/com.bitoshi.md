@@ -4,7 +4,7 @@ title: 'Bitoshi: Buy & Sell Crypto'
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.bitoshi
 appCountry: 
 released: 2022-10-13

@@ -10,18 +10,18 @@ appCountry:
 released: 2021-11-28
 updated: 2023-09-02
 version: 1.2.7
-stars: 3.3
+stars: 3.1
 ratings: 
-reviews: 8
+reviews: 9
 size: 
 website: https://scallopx.com/
 repository: 
 issue: 
 icon: com.scallopxledger.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-08-18
+date: 2024-08-31
 signer: 
 reviewArchive: 
 twitter: ScallopOfficial

@@ -7,8 +7,8 @@ users: 500000
 appId: com.iqtrade.ex.app
 appCountry: 
 released: 2022-10-18
-updated: 2024-07-22
-version: 3.1.3
+updated: 2024-08-26
+version: 3.1.4
 stars: 4.4
 ratings: 
 reviews: 18

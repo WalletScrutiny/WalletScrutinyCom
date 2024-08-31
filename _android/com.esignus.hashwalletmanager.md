@@ -28,7 +28,7 @@ twitter:
 social:
 - https://t.me/hashwallet
 redirect_from: 
-developerName: eSignus Security Solutions, S.L.
+developerName: eSignus Security Solutions
 features: 
 
 ---

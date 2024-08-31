@@ -8,8 +8,8 @@ users: 1000
 appId: com.coldstoragecoins
 appCountry: 
 released: 2018-08-14
-updated: 2024-07-25
-version: 3.10.4
+updated: 2024-08-30
+version: 3.11.0
 stars: 2.8
 ratings: 
 reviews: 37

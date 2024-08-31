@@ -12,7 +12,7 @@ updated: 2024-07-24
 version: '1.7'
 stars: 3.4
 ratings: 
-reviews: 4
+reviews: 3
 size: 
 website: https://bitcoinfuture.com/
 repository: 

@@ -18,9 +18,9 @@ repository:
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/366
 icon: io.divipay.divi.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-11-04
+date: 2024-08-31
 signer: 
 reviewArchive: 
 twitter: diviproject

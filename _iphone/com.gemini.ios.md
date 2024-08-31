@@ -8,11 +8,11 @@ appId: com.gemini.ios
 appCountry: 
 idd: 1408914447
 released: 2018-12-11
-updated: 2024-08-22
-version: 24.820.1
+updated: 2024-08-28
+version: 24.827.0
 stars: 4.8
-reviews: 99951
-size: '148545536'
+reviews: 99981
+size: '157575168'
 website: https://www.gemini.com
 repository: 
 issue: 

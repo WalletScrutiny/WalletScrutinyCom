@@ -12,7 +12,7 @@ updated: 2024-08-21
 version: 4.0.2
 stars: 4.2
 ratings: 
-reviews: 23
+reviews: 24
 size: 
 website: https://www.osmowallet.com/
 repository: 

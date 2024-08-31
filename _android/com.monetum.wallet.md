@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.monetum.wallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-09-02
+date: 2024-08-31
 signer: 
 reviewArchive: 
 twitter: 

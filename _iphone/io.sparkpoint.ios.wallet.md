@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.sparkpoint.ios.wallet.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
-date: 2024-04-09
+date: 2024-08-31
 signer: 
 reviewArchive: 
 twitter: sparkpointio

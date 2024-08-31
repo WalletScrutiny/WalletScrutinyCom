@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.im.tech.imcard.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-06-02
+date: 2024-08-31
 signer: 
 reviewArchive: 
 twitter: 

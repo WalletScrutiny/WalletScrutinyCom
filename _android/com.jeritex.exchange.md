@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.jeritex.exchange.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2024-05-16
+date: 2024-08-31
 signer: 
 reviewArchive: 
 twitter: 

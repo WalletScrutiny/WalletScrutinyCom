@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: kr.co.rocketchart.gorillabit.v1.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-09-08
+date: 2024-08-31
 signer: 
 reviewArchive: 
 twitter: 

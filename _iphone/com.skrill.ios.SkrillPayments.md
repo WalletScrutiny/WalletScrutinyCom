@@ -11,7 +11,7 @@ released: 2013-10-29
 updated: 2024-08-21
 version: 3.142.0
 stars: 4.5
-reviews: 6611
+reviews: 6625
 size: '224878592'
 website: https://www.skrill.com/
 repository: 

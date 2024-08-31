@@ -3,14 +3,14 @@ wsId: worldCoin
 title: World App - Worldcoin Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: org.worldcoin.insight
 appCountry: us
 idd: '1560859847'
-released: '2022-06-25T07:00:00Z'
+released: 2022-06-25
 updated: 2024-08-26
 version: 2.7.6101
-stars: 4.63291
+stars: 4.6
 reviews: 1185
 size: '148143104'
 website: https://worldcoin.org
@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: worldcoin
 social:
-- https://www.linkedin.com/company/worldcoinproject 
+- https://www.linkedin.com/company/worldcoinproject
 - https://discord.com/invite/worldcoin
 - https://www.youtube.com/@worldcoinofficial
 features: 

@@ -9,10 +9,10 @@ appId: com.squareup.cash
 appCountry: 
 released: 2013-10-15
 updated: 2024-08-23
-version: 4.61.0
+version: 4.62.0
 stars: 4.6
 ratings: 1066810
-reviews: 389471
+reviews: 390049
 size: 
 website: https://cash.app
 repository: 
