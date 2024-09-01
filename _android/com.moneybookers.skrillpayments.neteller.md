@@ -11,7 +11,7 @@ updated: 2024-08-20
 version: 3.142.0-2024082011
 stars: 4
 ratings: 
-reviews: 251
+reviews: 252
 size: 
 website: https://www.neteller.com
 repository: 

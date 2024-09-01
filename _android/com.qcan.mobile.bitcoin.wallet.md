@@ -20,9 +20,9 @@ repository:
 issue: 
 icon: com.qcan.mobile.bitcoin.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2024-07-13
+date: 2024-09-01
 signer: 
 reviewArchive: 
 twitter: 

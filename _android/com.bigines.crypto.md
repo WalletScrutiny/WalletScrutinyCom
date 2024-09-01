@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bigines.crypto.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2024-01-16
+date: 2024-09-01
 signer: 
 reviewArchive: 
 twitter: 

@@ -12,7 +12,7 @@ updated: 2024-08-21
 version: 4.6.5
 stars: 4.5
 ratings: 24480
-reviews: 1195
+reviews: 1194
 size: 
 website: http://www.netdania.com
 repository: 

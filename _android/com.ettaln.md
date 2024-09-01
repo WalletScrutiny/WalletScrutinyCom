@@ -19,9 +19,9 @@ repository: https://github.com/EttaWallet/EttaWallet
 issue: 
 icon: com.ettaln.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2024-02-20
+date: 2024-09-01
 signer: 
 reviewArchive: 
 twitter: ettawallet
