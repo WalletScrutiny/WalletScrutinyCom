@@ -25,12 +25,7 @@ meta: discontinued
 verdict: noita
 date: 2023-02-13
 signer: 
-reviewArchive:
-- date: 2021-08-01
-  version: 
-  appHash: 
-  gitRevision: 8762a3742
-  verdict: wip
+reviewArchive: 
 twitter: 
 social: 
 features: 

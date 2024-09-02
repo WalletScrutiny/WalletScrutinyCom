@@ -12,7 +12,7 @@ updated: 2024-07-24
 version: '2.18'
 stars: 4.2
 ratings: 
-reviews: 1
+reviews: 2
 size: 
 website: https://safe3.app/
 repository: 

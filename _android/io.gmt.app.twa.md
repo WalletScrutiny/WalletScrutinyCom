@@ -12,7 +12,7 @@ updated: 2024-08-15
 version: '31'
 stars: 3.2
 ratings: 
-reviews: 273
+reviews: 276
 size: 
 website: https://gomining.com
 repository: 

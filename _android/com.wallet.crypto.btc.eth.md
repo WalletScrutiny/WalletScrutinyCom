@@ -11,7 +11,7 @@ updated: 2024-08-23
 version: 1.3.2
 stars: 4.6
 ratings: 
-reviews: 
+reviews: 8
 size: 
 website: https://ironwallet.io/
 repository: 

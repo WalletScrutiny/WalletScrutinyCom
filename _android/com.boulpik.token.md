@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.boulpik.token.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-09-08
+date: 2024-09-02
 signer: 
 reviewArchive: 
 twitter: 

@@ -12,7 +12,7 @@ updated: 2024-07-11
 version: '3.84'
 stars: 4.5
 ratings: 247
-reviews: 46
+reviews: 45
 size: 
 website: https://alphawallet.com/
 repository: 

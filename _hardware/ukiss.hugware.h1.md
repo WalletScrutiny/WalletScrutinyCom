@@ -24,12 +24,7 @@ meta: ok
 verdict: noita
 date: 2023-02-10
 signer: 
-reviewArchive:
-- date: 2022-11-09
-  version: 
-  appHash: 
-  gitRevision: 8762a3742
-  verdict: 
+reviewArchive: 
 twitter: UKISSTech
 social:
 - https://www.linkedin.com/company/ukiss-tech/

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cmcm.currency.exchange.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-05-24
+date: 2024-09-02
 signer: 
 reviewArchive: 
 twitter: BitrueOfficial

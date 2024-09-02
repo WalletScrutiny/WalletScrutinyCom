@@ -14,7 +14,7 @@ updated: 2024-06-08
 version: 1.51.10
 stars: 3.9
 ratings: 2467
-reviews: 57
+reviews: 58
 size: 
 website: https://trusteeglobal.com
 repository: https://github.com/trustee-wallet/trusteeWallet

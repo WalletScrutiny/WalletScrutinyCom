@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.capitual.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-02-17
+date: 2024-09-02
 signer: 
 reviewArchive: 
 twitter: capitual

@@ -10,8 +10,8 @@ idd: 1457929724
 released: 2019-07-20
 updated: 2024-08-13
 version: 3.48.4
-stars: 0
-reviews: 0
+stars: 4.9
+reviews: 93
 size: '98982912'
 website: https://www.vantagemarkets.com/
 repository: 

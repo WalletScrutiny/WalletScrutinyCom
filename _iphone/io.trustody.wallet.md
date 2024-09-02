@@ -9,7 +9,7 @@ appCountry: nz
 idd: '1599698329'
 released: 2022-03-04
 updated: 2024-08-27
-version: '8.0'
+version: 7.9.2
 stars: 0
 reviews: 0
 size: '138632192'

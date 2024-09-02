@@ -8,8 +8,8 @@ users: 1000
 appId: net.cryptomarkings.app
 appCountry: 
 released: 2022-10-30
-updated: 2023-01-12
-version: '1.4'
+updated: 2024-09-01
+version: '1.8'
 stars: 
 ratings: 
 reviews: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: net.cryptomarkings.app.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nowallet
-date: 2024-01-16
+date: 2024-09-02
 signer: 
 reviewArchive: 
 twitter: crypto_markings
