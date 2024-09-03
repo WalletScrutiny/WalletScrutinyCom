@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: ironwallet
 title: 'IronWallet: Cold Crypto Wallet'
 altTitle: 
 authors:
