@@ -53,7 +53,7 @@ It also does not include the X-SEED backup sheets and an Engraver.
 - **Built-in rechargeable lithium-ion battery:** 600mAh
 
 - **Secure Element Chip:** Infineon SLE 97
-- **Chip certification:*** CC EAL5+
+- **Chip certification:** CC EAL5+
 - **Bluetooth:** Bluetooth® 5 BLE
 - **USB cable:** USB Type-C
 
