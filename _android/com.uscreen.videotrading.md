@@ -2,7 +2,8 @@
 wsId: 
 title: Criptoclases for Android TV
 altTitle: 
-authors: 
+authors:
+- danny
 users: 1000
 appId: com.uscreen.videotrading
 appCountry: 
@@ -19,8 +20,8 @@ issue:
 icon: com.uscreen.videotrading.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-05-26
+verdict: nowallet
+date: 2024-09-02
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,3 +32,8 @@ features:
 
 ---
 
+## Observations
+
+> In Criptoclases you will find more than 30 complete courses and master classes on investment and trading strategies, technical analysis, fundamental analysis, psychotrading, Blockchain technology, cryptocurrency mining, security methods for investing, artificial intelligence, and much more.
+
+This is not a bitcoin wallet or a trading platform.
