@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.qcan.qcan.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2021-10-01
+date: 2024-09-03
 signer: 
 reviewArchive: 
 twitter: 

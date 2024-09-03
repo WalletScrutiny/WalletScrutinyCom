@@ -10,9 +10,9 @@ appCountry:
 released: 2022-11-18
 updated: 2024-08-30
 version: 1.70.2
-stars: 2.6
+stars: 2.7
 ratings: 
-reviews: 59
+reviews: 58
 size: 
 website: https://flipster.io
 repository: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bankofhodlers.app.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-05-08
+date: 2024-09-03
 signer: 
 reviewArchive: 
 twitter: Vauld_

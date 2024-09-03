@@ -1,6 +1,6 @@
 ---
 wsId: koinbasketCrypto
-title: 'KoinBasket: ProMax Crypto App'
+title: KoinBasket:Crypto like Stocks!
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.koinbasket.mobile
 appCountry: 
 released: 2022-07-02
-updated: 2024-08-14
-version: 2.0.2
+updated: 2024-09-02
+version: 2.0.3
 stars: 2.8
 ratings: 
 reviews: 11

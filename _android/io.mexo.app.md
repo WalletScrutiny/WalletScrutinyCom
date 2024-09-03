@@ -12,7 +12,7 @@ updated: 2024-08-30
 version: 3.5.6
 stars: 3.7
 ratings: 401
-reviews: 20
+reviews: 21
 size: 
 website: http://www.mexo.io
 repository: 

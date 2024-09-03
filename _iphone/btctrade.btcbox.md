@@ -10,8 +10,8 @@ idd: '1076075645'
 released: 2016-01-22
 updated: 2024-07-22
 version: '1.235'
-stars: 2.6
-reviews: 14
+stars: 2.8
+reviews: 15
 size: '11413504'
 website: http://www.btcbox.co.jp
 repository: 

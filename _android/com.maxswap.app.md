@@ -7,7 +7,7 @@ users: 100
 appId: com.maxswap.app
 appCountry: 
 released: 2024-06-19
-updated: 2024-06-19
+updated: 2024-09-02
 version: 1.0.0
 stars: 
 ratings: 

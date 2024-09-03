@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.antwallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-11-25
+date: 2024-09-03
 signer: 
 reviewArchive: 
 twitter: 

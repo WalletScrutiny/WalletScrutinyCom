@@ -9,7 +9,7 @@ appId: bipa.app.bipa
 appCountry: 
 released: 2021-01-18
 updated: 2024-09-01
-version: 3.5.7
+version: 3.5.8
 stars: 4.6
 ratings: 
 reviews: 7

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.hena.henawallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2022-05-26
+date: 2024-09-03
 signer: 
 reviewArchive: 
 twitter: 

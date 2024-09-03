@@ -13,7 +13,7 @@ updated: 2024-08-31
 version: '10.15'
 stars: 4
 ratings: 29247
-reviews: 2029
+reviews: 2030
 size: 
 website: https://github.com/bitcoin-wallet/bitcoin-wallet
 repository: https://github.com/bitcoin-wallet/bitcoin-wallet
