@@ -2,7 +2,8 @@
 wsId: 
 title: Обмен Биткоин с Bankcomat
 altTitle: 
-authors: 
+authors:
+- danny
 users: 1000
 appId: com.bankcomat.android_bankcomat
 appCountry: 
@@ -19,15 +20,18 @@ issue:
 icon: com.bankcomat.android_bankcomat.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-10-06
+verdict: nowallet
+date: 2024-09-03
 signer: 
 reviewArchive: 
 twitter: 
-social: 
+social:
+- https://vk.com/official_bankcomat
 redirect_from: 
 developerName: XchangeCapitalGroup OU
 features: 
 
 ---
+
+As seen from this app [screenshot](https://x.com/BitcoinWalletz/status/1830879498054836679), this is an exchange service similar to {% include walletLink.html wallet='android/com.changelly.app' verdict='true' %}. It does not provide wallet services that allow users to store their crypto.
 
