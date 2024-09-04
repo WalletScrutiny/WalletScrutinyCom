@@ -8,7 +8,7 @@ users: 50000
 appId: com.whitehat.cashin_app
 appCountry: 
 released: 2022-07-16
-updated: 2024-07-08
+updated: 2024-09-03
 version: 1.0.0
 stars: 4.8
 ratings: 

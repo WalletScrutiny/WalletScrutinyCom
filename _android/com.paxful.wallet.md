@@ -9,7 +9,7 @@ appId: com.paxful.wallet
 appCountry: 
 released: 2019-04-30
 updated: 2024-08-05
-version: 2.9.33.696
+version: 2.9.34.697
 stars: 3
 ratings: 21528
 reviews: 1927

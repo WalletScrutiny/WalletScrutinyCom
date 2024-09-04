@@ -12,7 +12,7 @@ updated: 2023-02-28
 version: 2.0.22
 stars: 5
 ratings: 
-reviews: 2
+reviews: 
 size: 
 website: https://privateum.com/
 repository: 

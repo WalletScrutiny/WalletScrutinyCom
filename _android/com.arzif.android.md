@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.arzif.android.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-09-30
+date: 2024-09-03
 signer: 
 reviewArchive: 
 twitter: Arzifofficial

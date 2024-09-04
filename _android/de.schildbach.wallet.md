@@ -10,7 +10,7 @@ appId: de.schildbach.wallet
 appCountry: 
 released: 2011-03-01
 updated: 2024-08-31
-version: '10.15'
+version: '10.16'
 stars: 4
 ratings: 29247
 reviews: 2030
