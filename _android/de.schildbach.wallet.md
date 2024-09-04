@@ -5,6 +5,7 @@ altTitle: Bitcoin Wallet (Schildbach)
 authors:
 - leo
 - danny
+- keraliss
 users: 10000000
 appId: de.schildbach.wallet
 appCountry: 
@@ -22,9 +23,14 @@ icon: de.schildbach.wallet.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-07-01
+date: 2024-09-04
 signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
 reviewArchive:
+- date: 2024-07-01
+  version: '10.15'
+  appHash: 0769738882d39b4e02abbdb301cbde4962cf01890d7874c2e0b9ff6d0a23bc9e
+  gitRevision: 9e250e6d703edc6562bbe84cfa3cdc3d6d209987
+  verdict: reproducible
 - date: 2024-03-24
   version: '10.14'
   appHash: c188015c6539bf594a38a36793cc9599b6b38439d34c4210c1f117d6b87b8d01
@@ -218,24 +224,24 @@ For the latest version the {% include testScript.html %} came to these results:
 ===== Begin Results =====
 appId:          de.schildbach.wallet
 signer:         58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
-apkVersionName: 10.15
-apkVersionCode: 101500
+apkVersionName: 10.16
+apkVersionCode: 101600
 verdict:        reproducible
-appHash:        0769738882d39b4e02abbdb301cbde4962cf01890d7874c2e0b9ff6d0a23bc9e
-commit:         db16eba48c7b34201f4a2d78b974462587efb10f
+appHash:        870b9ae00e1ad8d9d957e03880f4fa338edb7db4410032920014a61b8a9a8259
+commit:         941a3d9bd5abbc80557e9dafe0eb9204f363bf66
 
 Diff:
-Only in /tmp/fromPlay_de.schildbach.wallet_101500/META-INF: BITCOIN-.RSA
-Only in /tmp/fromPlay_de.schildbach.wallet_101500/META-INF: BITCOIN-.SF
-Files /tmp/fromPlay_de.schildbach.wallet_101500/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_101500/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_de.schildbach.wallet_101600/META-INF: BITCOIN-.RSA
+Only in /tmp/fromPlay_de.schildbach.wallet_101600/META-INF: BITCOIN-.SF
+Files /tmp/fromPlay_de.schildbach.wallet_101600/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_101600/META-INF/MANIFEST.MF differ
 
 Revision, tag (and its signature):
-object db16eba48c7b34201f4a2d78b974462587efb10f
+object 941a3d9bd5abbc80557e9dafe0eb9204f363bf66
 type commit
-tag v10.15
-tagger Andreas Schildbach <andreas@schildbach.de> 1719271439 +0200
+tag v10.16
+tagger Andreas Schildbach <andreas@schildbach.de> 1724970009 +0200
 
-10.15 release
+10.16 release
 ===== End Results =====
 ```
 
