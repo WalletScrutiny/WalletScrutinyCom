@@ -20,7 +20,7 @@ issue:
 icon: com.iqtrade.ex.app.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: custodial
 date: 2024-09-04
 signer: 
 reviewArchive: 
@@ -36,7 +36,9 @@ features:
 ---
 
 The registration process seems to be broken for this app/website. We tried inputting our mobile number and it kept issuing an error "Incorrect format"
-We tried several combinations both on the mobile app and on the website. On both occasions it issued the same error.
+We tried several combinations both on the mobile app and on the website. On both occasions it issued the same error. 
+
+We used a VPN to connect a Japanese server and the app informed us that our region is not supported. 
 
 ## App Description from Google Play
 
@@ -46,7 +48,10 @@ We tried several combinations both on the mobile app and on the website. On both
 
 We tried to look for documentation but it was sparse. We did find however, that it allowed users to [deposit cryptocurrencies](https://www.iq-trading.com/help/detail?id=783906019314245600)
 
-There are strong indications that this is a cryptocurrency exchange that is custodial, but until we manage to register and test it out, we'll mark this as a **work-in-progress**. 
+Their user policy does not have a lot of information about the actual service, but it did cite:
 
+> In accordance with the requirements of the Network Security Law of the People's Republic of China and Information Security Technology Personal Information
+
+This is highly-likely to be a **custodial** service with geographic restriction policies. 
 
 

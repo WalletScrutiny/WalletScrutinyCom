@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.crypto.ab.wallet.app.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosource
 date: 2024-09-04
 signer: 
