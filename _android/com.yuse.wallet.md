@@ -54,4 +54,4 @@ Here [is a page](https://yusetoken.io/decoding-security-the-power-of-12-word-phr
 
 Upon installing this app to test for ourselves, we find that users are allowed to create or restore existing wallets. The app has support for multiple networks including BTC and Ethereum. 
 
-Searching for the app's [ID in GitHub](https://github.com/search?q=%22com.yuse.wallet%22&type=code) did not yield results that definitively point to the source of an Android app.Additionally, the developers have no official associated GitHub profile. 
+We could not find a hint at the code repository being public on their website. Searching for the app's [ID in GitHub](https://github.com/search?q=%22com.yuse.wallet%22&type=code) did not yield promising results neither.
