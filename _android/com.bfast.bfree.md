@@ -20,12 +20,13 @@ issue:
 icon: com.bfast.bfree.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2024-08-17
+verdict: nowallet
+date: 2024-09-06
 signer: 
 reviewArchive: 
 twitter: 
-social: 
+social:
+- https://www.facebook.com/BProgrammers 
 redirect_from: 
 developerName: B Programmers
 features: 
