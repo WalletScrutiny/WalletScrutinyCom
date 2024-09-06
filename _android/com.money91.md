@@ -52,5 +52,5 @@ Among the choices was to join the [$HABIT network](https://www.habitnetwork.xyz/
 
 Its token has been delisted in ProBit. 
 
-Since we were not able to access the other functions of the app, and with the announcement telling us that users are encouraged to join a different company, this app app may be on the road to being **defunct**
+Since we were not able to access the other functions of the app, and with the announcement telling us that users are encouraged to join a different company, this app may be on the road to being **defunct**
 

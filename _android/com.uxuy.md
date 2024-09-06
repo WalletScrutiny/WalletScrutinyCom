@@ -93,4 +93,4 @@ Not your keys, not your coins.
 
 If we were to apply some real world use cases to this, absent the mnemonic phrase, all that airport security would have to do is to take control of the mobile phone. Perhaps, issue a subpoena to the provider and invoke anti-money laundering laws, and if the provider has their own shard, use the mobile phone and the provider shard to control the funds. 
 
-For this reason, we have to err on the side of caution and mark this as a **custodial** service. Even if it weren't and by some explanation they are indeed non-custodial, their source code is not available for perusal. They do have an [GitHub organization page](https://github.com/orgs/uxuycom/repositories).
+For this reason, we have to err on the side of caution and mark this as a **custodial** service. Even if it weren't and by some explanation they are indeed non-custodial, their source code is not available for perusal. They do have a [GitHub organization page](https://github.com/orgs/uxuycom/repositories).
