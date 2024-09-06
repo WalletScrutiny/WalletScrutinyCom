@@ -8,8 +8,8 @@ users: 100000
 appId: com.relai
 appCountry: 
 released: 
-updated: 2024-08-15
-version: 2.8.14
+updated: 2024-09-03
+version: 2.8.15
 stars: 
 ratings: 
 reviews: 

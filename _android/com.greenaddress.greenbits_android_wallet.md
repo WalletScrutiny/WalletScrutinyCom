@@ -249,7 +249,7 @@ redirect_from:
 - /com.greenaddress.greenbits_android_wallet/
 - /posts/2019/11/greenwallet/
 - /posts/com.greenaddress.greenbits_android_wallet/
-developerName: GreenAddress IT Ltd
+developerName: Blockstream Inc
 features: 
 
 ---

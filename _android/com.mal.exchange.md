@@ -4,7 +4,7 @@ title: 'Mal.io: Bitcoin,Trade Crypto'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.mal.exchange
 appCountry: 
 released: 2021-11-11

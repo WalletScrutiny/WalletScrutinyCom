@@ -3,7 +3,7 @@ wsId:
 title: 'Pepe Wallet: DeFi Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.Pepelabs.Pepewallet
 appCountry: 

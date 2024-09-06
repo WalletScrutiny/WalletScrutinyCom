@@ -1,6 +1,6 @@
 ---
 wsId: coinspace
-title: 'Coin Wallet: Buy Bitcoin'
+title: Coin Wallet - Bitcoin & Crypto
 altTitle: 
 authors:
 - leo

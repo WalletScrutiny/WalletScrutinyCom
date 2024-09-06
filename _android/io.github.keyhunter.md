@@ -8,8 +8,8 @@ users: 10000
 appId: io.github.keyhunter
 appCountry: 
 released: 2022-05-17
-updated: 2024-09-03
-version: 2.2.1
+updated: 2024-09-04
+version: 2.2.2
 stars: 4
 ratings: 
 reviews: 13

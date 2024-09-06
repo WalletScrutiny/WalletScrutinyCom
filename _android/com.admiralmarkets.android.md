@@ -12,7 +12,7 @@ updated: 2024-08-07
 version: 1.9.6
 stars: 4.3
 ratings: 
-reviews: 
+reviews: 4
 size: 
 website: https://www.admiralmarkets.com
 repository: 

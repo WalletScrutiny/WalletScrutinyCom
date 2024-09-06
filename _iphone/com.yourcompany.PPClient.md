@@ -1,6 +1,6 @@
 ---
 wsId: paypal
-title: PayPal - Send, Shop, Manage
+title: PayPal - Pay, Send, Save
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.yourcompany.PPClient
 appCountry: 
 idd: 283646709
 released: 2019-02-03
-updated: 2024-08-30
-version: 8.69.2
+updated: 2024-09-03
+version: 8.70.0
 stars: 4.8
-reviews: 6301915
-size: '373155840'
+reviews: 6301763
+size: '373531648'
 website: https://www.paypal.com/mobile
 repository: 
 issue: 

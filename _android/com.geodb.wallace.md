@@ -3,7 +3,7 @@ wsId:
 title: Wallace - Play and Earn Crypto
 altTitle: 
 authors:
-- danny 
+- danny
 users: 50000
 appId: com.geodb.wallace
 appCountry: 

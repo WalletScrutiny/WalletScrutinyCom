@@ -8,7 +8,7 @@ appId: com.mudrexmobile
 appCountry: 
 released: 
 updated: 2024-08-30
-version: '10.98'
+version: '11.0'
 stars: 3
 ratings: 
 reviews: 4

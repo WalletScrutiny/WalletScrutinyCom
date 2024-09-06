@@ -1,6 +1,6 @@
 ---
 wsId: RoyalQ
-title: Royal Q
+title: Royal Q - Crypto Trading Bot
 altTitle: 
 authors:
 - danny

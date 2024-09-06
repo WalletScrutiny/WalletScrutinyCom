@@ -7,8 +7,8 @@ users: 100000
 appId: io.bitunix.android
 appCountry: 
 released: 2023-07-26
-updated: 2024-08-12
-version: 2024.0812.9001 (da6095f5)
+updated: 2024-09-05
+version: 2024.0905.9712 (d802d97a)
 stars: 4.2
 ratings: 
 reviews: 34

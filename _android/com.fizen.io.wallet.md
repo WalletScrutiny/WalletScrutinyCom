@@ -10,9 +10,9 @@ appCountry:
 released: 2022-02-25
 updated: 2024-08-23
 version: 2.3.1
-stars: 
+stars: 4.2
 ratings: 
-reviews: 
+reviews: 2
 size: 
 website: https://fizen.io
 repository: 

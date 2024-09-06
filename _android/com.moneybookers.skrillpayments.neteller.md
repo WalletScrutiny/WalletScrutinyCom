@@ -7,7 +7,7 @@ users: 1000000
 appId: com.moneybookers.skrillpayments.neteller
 appCountry: 
 released: 2016-03-30
-updated: 2024-08-20
+updated: 2024-09-04
 version: 3.142.0-2024082011
 stars: 4
 ratings: 
