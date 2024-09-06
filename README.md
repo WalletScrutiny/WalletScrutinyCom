@@ -23,7 +23,7 @@ directory and avoid using `sudo` for gem installations, follow these steps:
 - Set the home path for gems in your `.bashrc` profile
 
 ```
-$ nano bashrc
+$ nano ~/.bashrc
 ```
 
 - Change the home and the path at the end of the file:
@@ -33,7 +33,7 @@ export GEM_HOME="$HOME/gems"
 export PATH="$HOME/gems/bin:$PATH"
 ```
 
-- Apply the changes with `$ source ./bashrc`
+- Apply the changes with `$ source ~/.bashrc`
 
 ### For local development
 

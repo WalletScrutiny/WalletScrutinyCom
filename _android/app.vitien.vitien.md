@@ -2,7 +2,8 @@
 wsId: 
 title: VITIEN
 altTitle: 
-authors: 
+authors:
+- danny
 users: 1000
 appId: app.vitien.vitien
 appCountry: 
@@ -13,14 +14,14 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: 
+website: https://www.vi-tien.net/
 repository: 
 issue: 
 icon: app.vitien.vitien.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-03
+verdict: nobtc
+date: 2024-09-06
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,3 +32,15 @@ features:
 
 ---
 
+## App Description
+
+> VITIEN is your secure crypto and bitcoin wallet, since 2023. VITIEN allows you to securely manage your tokens.
+
+We found the website url via the Privacy Policy on the Google Play page. 
+
+## The App
+
+Upon installing the app, there are choices to either create a wallet or import one via a mnemonic phrase. 
+
+- We backed up the mnemonic phrase for the Bitcoin wallet
+- At this stage, we [discovered](https://x.com/BitcoinWalletz/status/1831962230742757682/photo/1) that the Bitcoin wallet on this app is not native Bitcoin, but tokenized Bitcoin on the OMNI layer. Although this may sound like a Bitcoin token on the Bitcoin blockchain, this may introduce some complexities which **disqualifies it as a native Bitcoin wallet**. This tokenized Bitcoin is not the same as native Bitcoin.
