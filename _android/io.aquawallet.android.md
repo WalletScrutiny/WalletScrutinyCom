@@ -22,7 +22,7 @@ icon: io.aquawallet.android.png
 bugbounty: 
 meta: ok
 verdict: ftbfs
-date: 2024-08-28
+date: 2024-09-06
 signer: 
 reviewArchive: 
 twitter: AquaBitcoin
@@ -38,47 +38,42 @@ features:
 
 ---
 
-**Update 2024-08-28:**
+**Update 2024-09-06:**
 
 **Review: AquaWallet APK Build**
 
-We followed the AquaWallet build instructions provided in the repository, including setting up a Dockerfile and executing the build process. Despite closely following the instructions and attempting various fixes, we encountered a critical issue preventing the build from succeeding.
+We followed the AquaWallet build instructions outlined in the repository, using Docker to create the build environment. Despite attempting various fixes, we encountered a critical issue preventing the successful build of the APK.
 
 **Steps Taken:**
-1. **Created Dockerfile:** Implemented a Dockerfile as per the repository instructions to create the build environment.
+1. **Created Dockerfile:** Drafted a Dockerfile based on the repository's build instructions to set up the required environment.
 2. **Ran Docker Build Command:**
-   ```
-   docker build -t aqua-wallet-builder -f flutter.dockerfile .
+   ```bash
+   docker build -t aqua -f aqua.dockerfile .
    ```
 3. **Encountered Error:**
-   The build process failed with the following output:
+   During the build process, the following error was encountered:
    ```
-   building '/nix/store/73kfppks4wn164qwrnm12avl36840acm-build-tools_r34-linux.zip.drv'...
-   building '/nix/store/vcv7k6g78b54iqwppm2xkym42hqvg668-cmake-3.22.1-linux.zip.drv'...
-   ...
-   Submodule 'flutter' (https://github.com/flutter/flutter) registered for path 'flutter'
-   Cloning into '/app/flutter'...
-   Submodule path 'flutter': checked out 'f468f3366c26a5092eb964a230ce7892fda8f2f8'
-   make: /bin/bash: No such file or directory
-   make: *** [Makefile:6: install] Error 127
-   flutter pub get
-   The command '/bin/sh -c nix develop --experimental-features 'nix-command flakes' --command bash -c "make setup"' returned a non-zero code: 2
+   aqua.dockerfile:17
+   --------------------
+     15 |     
+     16 |     # Run 'make setup' to pull all dependencies and pre-built binaries for GDK and boltz-rust
+     17 | >>> RUN nix develop --experimental-features 'nix-command flakes' --command /bin/bash -c "make setup"
+     18 |     
+     19 |     # Build the APK
+   --------------------
+   ERROR: failed to solve: process "/bin/sh -c nix develop --experimental-features 'nix-command flakes' --command /bin/bash -c \"make setup\"" did not complete successfully: exit code: 127
    ```
-   The error indicates that the build process is failing due to the absence of `/bin/bash`, which is required to run the make command. This is causing the build process to stop, preventing the successful completion of the APK build.
+   This error indicates that the command failed to execute due to missing dependencies or an issue with Nix's experimental features. The `make setup` command, essential for pulling all necessary dependencies and binaries, could not be completed.
 
 4. **Troubleshooting Steps:**
-   - **Checked Dockerfile for Bash Installation:** Verified that `/bin/bash` was specified in the Dockerfile but found it missing in the build environment.
-   - **Updated Dockerfile:** Added explicit installation of Bash in the Dockerfile:
-     ```
-     RUN apk add --no-cache bash
-     ```
-   - **Consulted Documentation:** Rechecked the AquaWallet documentation and build instructions to ensure all prerequisites were met.
-   - **Verified Nix Configuration:** Ensured that Nix configuration was correct and that all dependencies were properly declared and available.
+   - **Verified Bash Installation:** Confirmed that `/bin/bash` was properly installed in the Docker environment to ensure compatibility with the `make` command.
+   - **Rechecked Nix Configurations:** Made sure the `nix develop` command used the correct syntax and experimental features (`nix-command` and `flakes`).
+   - **Reviewed Dockerfile:** Examined the Dockerfile for any missing dependencies or misconfigurations that might be causing the build to fail.
+   - **Tested Environment with Additional Tools:** Attempted installing necessary Nix packages directly but encountered further issues with missing binaries and dependencies for `flutter`, `gdk`, and `boltz-rust`.
 
 **Conclusion:**
 
-Despite extensive efforts to resolve the issue, including modifying the Dockerfile and verifying configurations, the AquaWallet APK build failed due to the missing Bash executable. We have reported the issue to the development team for further assistance. Until this issue is addressed, the APK remains **not verifiable**.
-
+Despite several adjustments and thorough troubleshooting, the build process for AquaWallet's APK failed due to issues in the Nix development environment and missing dependencies during the `make setup` stage. We have reported this issue to the development team for further guidance. As of now, the APK remains **not verifiable** until these build issues are resolved.
 
 
 ## App Description from Google Play
