@@ -43,4 +43,4 @@ We found the website url via the Privacy Policy on the Google Play page.
 Upon installing the app, there are choices to either create a wallet or import one via a mnemonic phrase. 
 
 - We backed up the mnemonic phrase for the Bitcoin wallet
-- At this stage, we [discovered](https://x.com/BitcoinWalletz/status/1831962230742757682/photo/1) that the Bitcoin wallet on this app is not native Bitcoin, but tokenized Bitcoin on the OMNI layer. Although this may sound like a Bitcoin token on the Bitcoin blockchain, this may introduce some complexities which **disqualifies it as a native Bitcoin wallet**. This tokenized Bitcoin is not the same as native Bitcoin.
+- At this stage, we [discovered](https://x.com/BitcoinWalletz/status/1831962230742757682/photo/1) that the Bitcoin wallet on this app is not native Bitcoin, but "Bitcoin on the OMNI layer". This wallet supports some kind of Bitcoin IOUs but not BTC.

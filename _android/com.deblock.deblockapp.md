@@ -67,8 +67,4 @@ There's a warning:
 
 > If you decide to use your wallet’s private key outside of the Deblock ecosystem, we will have to close your Deblock account
 
-In the section “What if Deblock disappears?” (and you have neither the app nor a backup), an Emergency Recovery Process is outlined: If Deblock vanishes and the user has no app or backup, an "independent third party" will provide a decryption SDK to release both shards of the private key from cold storage. This includes the user’s half of the private key, implying that third parties effectively control the private key.
-
-Although the user retains part of the private key, they still need to trust that the third-parties will do their job. There is no way to ensure that the app itself can securely generate and encrypt the private key either.
-
-Since the app is **not source-available**, there is no way to verify what is happening behind the scenes. This app is **not verifiable.**
+In the section “What if Deblock disappears?” (and you have neither the app nor a backup), an Emergency Recovery Process is outlined: If Deblock vanishes and the user has no app or backup, an "independent third party" will provide a decryption SDK to release both shards of the private key from cold storage. This includes the user’s half of the private key, implying that third parties effectively control the private key making this app **not verifiable.**
