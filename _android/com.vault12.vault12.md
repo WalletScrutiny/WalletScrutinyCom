@@ -12,7 +12,7 @@ updated: 2024-08-22
 version: 2.3.0
 stars: 4.3
 ratings: 
-reviews: 118
+reviews: 120
 size: 
 website: http://vault12.com
 repository: https://github.com/vault12

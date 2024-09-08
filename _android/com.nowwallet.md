@@ -1,6 +1,6 @@
 ---
 wsId: nowWallet
-title: 'NOW Wallet: Store & Buy Crypto'
+title: 'NOW Wallet: Buy & Store Crypto'
 altTitle: 
 authors:
 - danny

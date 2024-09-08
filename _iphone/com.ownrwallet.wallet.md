@@ -10,8 +10,8 @@ idd: '1459364947'
 released: 2019-05-21
 updated: 2023-08-31
 version: 1.71.1
-stars: 4.7
-reviews: 130
+stars: 4.6
+reviews: 116
 size: '88385536'
 website: https://ownrwallet.com
 repository: 

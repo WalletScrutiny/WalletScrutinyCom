@@ -8,8 +8,8 @@ users: 10000
 appId: com.cetoex.cetoex
 appCountry: 
 released: 2022-08-13
-updated: 2023-08-26
-version: '2.0'
+updated: 2024-09-07
+version: 1.0.0
 stars: 3.8
 ratings: 
 reviews: 2
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.cetoex.cetoex.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nosendreceive
-date: 2024-08-21
+date: 2024-09-08
 signer: 
 reviewArchive: 
 twitter: Cetoex

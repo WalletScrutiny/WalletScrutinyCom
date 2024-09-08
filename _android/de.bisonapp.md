@@ -3,7 +3,7 @@ wsId: bison
 title: BISON - Buy Bitcoin & Co
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: de.bisonapp
 appCountry: 
@@ -28,7 +28,7 @@ twitter: bisonapp
 social:
 - https://www.linkedin.com/company/bison-app
 - https://www.facebook.com/bisonapp
-- https://www.instagram.com/bisonapp 
+- https://www.instagram.com/bisonapp
 redirect_from: 
 developerName: Boerse Stuttgart Digital Broker GmbH
 features: 

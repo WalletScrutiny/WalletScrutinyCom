@@ -3,7 +3,7 @@ wsId: bitunix
 title: 'Bitunix: Crypto & BTC Trading'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: io.bitunix.android
 appCountry: 
@@ -29,7 +29,7 @@ social:
 - https://t.me/bitunixglobal
 - https://www.linkedin.com/company/bitunix
 - https://www.facebook.com/bitunix
-- https://www.instagram.com/bitunix.official 
+- https://www.instagram.com/bitunix.official
 redirect_from: 
 developerName: Bitunix
 features: 

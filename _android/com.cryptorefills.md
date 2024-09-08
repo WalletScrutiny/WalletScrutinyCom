@@ -8,11 +8,11 @@ users: 50000
 appId: com.cryptorefills
 appCountry: 
 released: 2019-04-22
-updated: 2024-09-05
-version: 1.0.10
+updated: 2024-09-06
+version: 1.0.11
 stars: 3.9
 ratings: 
-reviews: 44
+reviews: 43
 size: 
 website: https://www.cryptorefills.com
 repository: 

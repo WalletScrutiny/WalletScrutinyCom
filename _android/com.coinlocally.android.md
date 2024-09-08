@@ -12,7 +12,7 @@ updated: 2024-08-27
 version: 3.3.19
 stars: 3.6
 ratings: 
-reviews: 69
+reviews: 71
 size: 
 website: https://coinlocally.com
 repository: 

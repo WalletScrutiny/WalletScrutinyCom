@@ -10,8 +10,8 @@ idd: '1459044769'
 released: 2019-04-17
 updated: 2024-07-22
 version: 5.0.6
-stars: 4.2
-reviews: 1744
+stars: 4
+reviews: 1445
 size: '150322176'
 website: https://www.bitci.com.tr/
 repository: 

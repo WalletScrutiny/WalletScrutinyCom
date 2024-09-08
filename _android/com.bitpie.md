@@ -9,8 +9,8 @@ users: 100000
 appId: com.bitpie
 appCountry: 
 released: 2016-10-23
-updated: 2024-08-15
-version: 5.0.172.g
+updated: 2024-09-06
+version: 5.0.174.g
 stars: 3.9
 ratings: 847
 reviews: 125

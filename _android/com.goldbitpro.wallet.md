@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: GenB Technology Inc.
+developerName: Bstyle
 features: 
 
 ---

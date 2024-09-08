@@ -11,7 +11,7 @@ released: 2020-05-15
 updated: 2024-09-02
 version: 4.2.7
 stars: 4.8
-reviews: 73
+reviews: 75
 size: '70384640'
 website: https://simpleswap.io/mobile-app
 repository: 

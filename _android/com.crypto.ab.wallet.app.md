@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.crypto.ab.wallet.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2024-09-04
+date: 2024-09-08
 signer: 
 reviewArchive: 
 twitter: alicebob_wallet

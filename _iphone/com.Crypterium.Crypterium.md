@@ -8,11 +8,11 @@ appId: com.Crypterium.Crypterium
 appCountry: 
 idd: 1360632912
 released: 2018-03-26
-updated: 2024-09-02
-version: '9'
+updated: 2024-09-06
+version: '9.1'
 stars: 4.2
 reviews: 929
-size: '92925952'
+size: '93547520'
 website: https://choise.com/
 repository: 
 issue: 

@@ -8,11 +8,11 @@ appId: fm.fountain.apps
 appCountry: ph
 idd: '1576394424'
 released: 2021-07-28
-updated: 2024-08-30
-version: 1.1.1
+updated: 2024-09-05
+version: 1.1.2
 stars: 3
 reviews: 2
-size: '108616704'
+size: '108444672'
 website: https://www.fountain.fm
 repository: 
 issue: 

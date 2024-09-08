@@ -3,7 +3,7 @@ wsId: bison
 title: BISON - Buy Bitcoin & Co
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.bisonapp.bison
 appCountry: lv
 idd: '1362518159'
@@ -27,7 +27,7 @@ twitter: bisonapp
 social:
 - https://www.linkedin.com/company/bison-app
 - https://www.facebook.com/bisonapp
-- https://www.instagram.com/bisonapp 
+- https://www.instagram.com/bisonapp
 features: 
 developerName: Sowa Labs GmbH
 

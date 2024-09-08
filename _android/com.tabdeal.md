@@ -10,9 +10,9 @@ appCountry:
 released: 2021-08-14
 updated: 2024-08-24
 version: 4.8.2
-stars: 4.3
+stars: 4.2
 ratings: 
-reviews: 113
+reviews: 114
 size: 
 website: https://tabdeal.org
 repository: 

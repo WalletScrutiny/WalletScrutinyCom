@@ -4,7 +4,7 @@ title: Dapping
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.metarigo.webview
 appCountry: 
 released: 2022-08-23

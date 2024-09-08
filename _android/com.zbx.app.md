@@ -1,6 +1,6 @@
 ---
 wsId: ZBX
-title: ZBX
+title: ZBX - Bitcoin & Cryptocurrency
 altTitle: 
 authors:
 - danny

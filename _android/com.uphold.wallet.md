@@ -1,6 +1,6 @@
 ---
 wsId: UpholdbuyandsellBitcoin
-title: 'Uphold: Buy BTC, ETH and 260+'
+title: 'Uphold: Buy BTC, ETH and 300+'
 altTitle: 
 authors:
 - leo
@@ -12,7 +12,7 @@ updated: 2024-08-29
 version: 6.2.0
 stars: 4.6
 ratings: 20716
-reviews: 6120
+reviews: 6125
 size: 
 website: https://uphold.com
 repository: 

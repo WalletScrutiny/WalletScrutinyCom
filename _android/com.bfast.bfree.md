@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/BProgrammers 
+- https://www.facebook.com/BProgrammers
 redirect_from: 
 developerName: B Programmers
 features: 

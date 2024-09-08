@@ -11,9 +11,9 @@ appCountry:
 released: 
 updated: 2024-08-29
 version: 10.3.6.02
-stars: 4.3
+stars: 4.4
 ratings: 165702
-reviews: 39874
+reviews: 39888
 size: 
 website: https://www.webull.com
 repository: 
