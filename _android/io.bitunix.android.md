@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: bitunix
 title: 'Bitunix: Crypto & BTC Trading'
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 100000
 appId: io.bitunix.android
 appCountry: 
@@ -19,15 +20,30 @@ issue:
 icon: io.bitunix.android.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2024-08-31
+verdict: custodial
+date: 2024-09-06
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: BitunixOfficial
+social:
+- https://t.me/bitunixglobal
+- https://www.linkedin.com/company/bitunix
+- https://www.facebook.com/bitunix
+- https://www.instagram.com/bitunix.official 
 redirect_from: 
 developerName: Bitunix
 features: 
 
 ---
 
+## App Description from Google Play
+
+> Trade Bitcoin, Ethereum, and other altcoins.
+
+## Analysis 
+
+This cryptocurrency exchange:
+
+> All assets are 100% stored in cold wallets. Each withdrawal is thoroughly monitored on the blockchain and requires two-person approval with offline signatures. With the executive team's advanced Wall Street risk management experience, malicious actions are easily detected and protective measures are quickly deployed.
+
+Enough to lead us to a **custodial** verdict.
