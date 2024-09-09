@@ -48,7 +48,7 @@ function extractIssueInfo(filePath) {
   }
 }
 
-// Function to check if a GitHub issue is active and get its last update date
+// Function to check if a GitHub issue is active and get its last update date and last poster's username
 async function checkGitHubIssue(projectOwner, projectName, issueNumber, githubAccessToken) {
   const url = `https://api.github.com/repos/${projectOwner}/${projectName}/issues/${issueNumber}`;
   const headers = {
@@ -60,10 +60,20 @@ async function checkGitHubIssue(projectOwner, projectName, issueNumber, githubAc
     const issueData = response.data;
     const issueState = issueData.state || 'unknown';
     const lastUpdateDate = issueData.updated_at.split('T')[0]; // Extract and format last update date
-    return { state: issueState, lastUpdateDate };
+    const lastPosterUsername = issueData.user.login; // Get the username of the issue poster
+
+    // Get latest comment (if any)
+    let latestCommentUser = lastPosterUsername; // Default to the issue poster
+    if (issueData.comments > 0) {
+      const commentsResponse = await axios.get(issueData.comments_url, { headers });
+      const comments = commentsResponse.data;
+      latestCommentUser = comments[comments.length - 1].user.login; // Get the last comment's username
+    }
+
+    return { state: issueState, lastUpdateDate, lastPosterUsername: latestCommentUser };
   } catch (error) {
     console.error(`Error checking https://github.com/${projectOwner}/${projectName}/issues/${issueNumber} : ${error.message}`);
-    return { state: 'error', lastUpdateDate: 'unknown' };
+    return { state: 'error', lastUpdateDate: 'unknown', lastPosterUsername: 'unknown' };
   }
 }
 
@@ -90,7 +100,7 @@ let output = [];
   const threeMonthsAgo = new Date();
   threeMonthsAgo.setMonth(threeMonthsAgo.getMonth() - 3);
   for (const { projectOwner, projectName, issueUrl, issueNumber, fileName, folder, verdict } of issueInfo) {
-    const { state, lastUpdateDate } = await checkGitHubIssue(projectOwner, projectName, issueNumber, githubAccessToken);
+    const { state, lastUpdateDate, lastPosterUsername } = await checkGitHubIssue(projectOwner, projectName, issueNumber, githubAccessToken);
     if (new Date(lastUpdateDate) < threeMonthsAgo) {
       output.push({
         update: new Date(lastUpdateDate),
@@ -98,7 +108,8 @@ let output = [];
         issue: issueUrl,
         state: state,
         verdict: verdict,
-        folder: folder
+        folder: folder,
+        lastPosterUsername: lastPosterUsername // Store the username of the last poster
       });
     }
   }
@@ -120,6 +131,6 @@ let output = [];
     }
     const daysSince = Math.floor((new Date() - o.update) / 1000 / 60 / 60 / 24);
     const shortenedFileName = path.basename(o.filename);
-    console.log(`  - ${daysSince} days ago: | ${GREEN}${shortenedFileName}${RESET} | ${o.issue} | ${CYAN}Last Verdict: ${o.verdict}${RESET} | ${o.state}`);
+    console.log(`  - ${daysSince} days ago: | ${GREEN}${shortenedFileName}${RESET} | ${o.issue} | ${CYAN}Last Verdict: ${o.verdict}${RESET} | ${o.state} | Last post: ${o.lastPosterUsername}`);
   });
 })();
