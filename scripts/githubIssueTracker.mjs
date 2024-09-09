@@ -90,6 +90,7 @@ let output = [];
   output.sort((a, b) => b.update - a.update);
   output.forEach((o) => {
     const daysSince = Math.floor((new Date() - o.update) / 1000 / 60 / 60 / 24)
-    console.log(`${daysSince} days ago: file://${o.filename} ${o.issue} ${o.state}`)
+    const shortenedFileName = path.join(path.basename(path.dirname(o.filename)), path.basename(o.filename));
+    console.log(`${daysSince} days ago: ${shortenedFileName} ${o.issue} ${o.state}`)
   })
 })();
