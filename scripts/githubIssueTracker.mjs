@@ -8,6 +8,7 @@
 import fs from 'fs';
 import axios from 'axios';
 import path from 'path';
+import readline from 'readline'; // Added to capture user input
 
 const GREEN = '\x1b[32m';
 const RESET = '\x1b[0m';
@@ -79,7 +80,14 @@ async function checkGitHubIssue(projectOwner, projectName, issueNumber, githubAc
 }
 
 // Prepare the output
-let output = [];
+let recentOutput = {};  // Issues within the last 3 months, grouped by folder
+let earlierOutput = {}; // Issues older than 3 months, grouped by folder
+
+// Initialize folder groups
+folderPaths.forEach(folder => {
+  recentOutput[folder] = [];
+  earlierOutput[folder] = [];
+});
 
 // Check the status of each GitHub issue and append to the output text
 (async () => {
@@ -102,36 +110,60 @@ let output = [];
   threeMonthsAgo.setMonth(threeMonthsAgo.getMonth() - 3);
   for (const { projectOwner, projectName, issueUrl, issueNumber, fileName, folder, verdict } of issueInfo) {
     const { state, lastUpdateDate, lastPosterUsername } = await checkGitHubIssue(projectOwner, projectName, issueNumber, githubAccessToken);
+    const issueData = {
+      update: new Date(lastUpdateDate),
+      filename: fileName,
+      issue: issueUrl,
+      state: state,
+      verdict: verdict,
+      folder: folder,
+      lastPosterUsername: lastPosterUsername
+    };
+    
     if (new Date(lastUpdateDate) < threeMonthsAgo) {
-      output.push({
-        update: new Date(lastUpdateDate),
-        filename: fileName,
-        issue: issueUrl,
-        state: state,
-        verdict: verdict,
-        folder: folder,
-        lastPosterUsername: lastPosterUsername // Store the username of the last poster
-      });
+      earlierOutput[`./${folder}`].push(issueData); // Issues older than 3 months
+    } else {
+      recentOutput[`./${folder}`].push(issueData); // Issues updated within the last 3 months
     }
   }
 
-  // Sort output by folder, then by update time (newest to oldest)
-  output.sort((a, b) => {
-    if (a.folder === b.folder) {
-      return b.update - a.update; // Sort by update date within the same folder (newest to oldest)
+  // Sort and display the earlier results (older than 3 months), grouped by folder
+  console.log(`\nOlder issues (more than 3 months old):`);
+  folderPaths.forEach(folder => {
+    if (earlierOutput[folder].length > 0) {
+      console.log(`\n${GREEN}${folder}${RESET}`);
+      earlierOutput[folder].sort((a, b) => b.update - a.update); // Sort by update date (newest to oldest)
+      earlierOutput[folder].forEach((o) => {
+        const daysSince = Math.floor((new Date() - o.update) / 1000 / 60 / 60 / 24);
+        const shortenedFileName = path.basename(o.filename);
+        console.log(`  - ${daysSince} days ago: | ${GREEN}${shortenedFileName}${RESET} | ${o.issue} | ${CYAN}Last Verdict: ${o.verdict}${RESET} | ${o.state} | ${YELLOW}Last post: ${o.lastPosterUsername}${RESET}`);
+      });
     }
-    return a.folder.localeCompare(b.folder); // Sort by folder name
   });
 
-  // Group and display the results by folder
-  let currentFolder = '';
-  output.forEach((o) => {
-    if (o.folder !== currentFolder) {
-      currentFolder = o.folder;
-      console.log(`\n${GREEN}${currentFolder}${RESET}`); // Print folder name in green
+  // Ask the user if they want to display the recent results (within the last 3 months)
+  const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout,
+  });
+
+  rl.question('\nWould you like to see the latest issues (yes/no)? ', (answer) => {
+    if (answer.toLowerCase() === 'yes') {
+      console.log(`\nRecent issues (within the last 3 months):`);
+      folderPaths.forEach(folder => {
+        if (recentOutput[folder].length > 0) {
+          console.log(`\n${GREEN}${folder}${RESET}`);
+          recentOutput[folder].sort((a, b) => b.update - a.update); // Sort by update date (newest to oldest)
+          recentOutput[folder].forEach((o) => {
+            const daysSince = Math.floor((new Date() - o.update) / 1000 / 60 / 60 / 24);
+            const shortenedFileName = path.basename(o.filename);
+            console.log(`  - ${daysSince} days ago: | ${GREEN}${shortenedFileName}${RESET} | ${o.issue} | ${CYAN}Last Verdict: ${o.verdict}${RESET} | ${o.state} | ${YELLOW}Last post: ${o.lastPosterUsername}${RESET}`);
+          });
+        }
+      });
+    } else {
+      console.log('No recent issues displayed.');
     }
-    const daysSince = Math.floor((new Date() - o.update) / 1000 / 60 / 60 / 24);
-    const shortenedFileName = path.basename(o.filename);
-    console.log(`  - ${daysSince} days ago: | ${GREEN}${shortenedFileName}${RESET} | ${o.issue} | ${CYAN}Last Verdict: ${o.verdict}${RESET} | ${o.state} | ${YELLOW}Last post: ${o.lastPosterUsername}${RESET}`);
+    rl.close(); // Close the readline interface
   });
 })();
