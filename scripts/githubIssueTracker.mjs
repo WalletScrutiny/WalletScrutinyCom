@@ -12,6 +12,7 @@ import path from 'path';
 const GREEN = '\x1b[32m';
 const RESET = '\x1b[0m';
 const CYAN = '\x1b[36m';
+const YELLOW = '\x1b[33m';
 
 // Define the folder paths to search for .md files
 const folderPaths = ['./_android', './_iphone', './_bearer', './_hardware', './_desktop'];
@@ -131,6 +132,6 @@ let output = [];
     }
     const daysSince = Math.floor((new Date() - o.update) / 1000 / 60 / 60 / 24);
     const shortenedFileName = path.basename(o.filename);
-    console.log(`  - ${daysSince} days ago: | ${GREEN}${shortenedFileName}${RESET} | ${o.issue} | ${CYAN}Last Verdict: ${o.verdict}${RESET} | ${o.state} | Last post: ${o.lastPosterUsername}`);
+    console.log(`  - ${daysSince} days ago: | ${GREEN}${shortenedFileName}${RESET} | ${o.issue} | ${CYAN}Last Verdict: ${o.verdict}${RESET} | ${o.state} | ${YELLOW}Last post: ${o.lastPosterUsername}${RESET}`);
   });
 })();
