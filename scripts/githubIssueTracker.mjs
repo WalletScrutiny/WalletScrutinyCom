@@ -42,6 +42,7 @@ function extractIssueInfo(filePath) {
       issueUrl: issueUrl.replace('issue: ', ''), 
       issueNumber: issueNumber.split('/').pop(), 
       fileName: path.resolve(filePath),
+      folder: path.basename(path.dirname(filePath)), // Store folder name
       verdict 
     });
   }
@@ -88,23 +89,37 @@ let output = [];
   
   const threeMonthsAgo = new Date();
   threeMonthsAgo.setMonth(threeMonthsAgo.getMonth() - 3);
-  for (const { projectOwner, projectName, issueUrl, issueNumber, fileName, verdict } of issueInfo) {
+  for (const { projectOwner, projectName, issueUrl, issueNumber, fileName, folder, verdict } of issueInfo) {
     const { state, lastUpdateDate } = await checkGitHubIssue(projectOwner, projectName, issueNumber, githubAccessToken);
-    const csvLine = `${fileName},${state},${projectOwner}/${projectName},${lastUpdateDate},${issueUrl}\n`;
     if (new Date(lastUpdateDate) < threeMonthsAgo) {
       output.push({
         update: new Date(lastUpdateDate),
         filename: fileName,
         issue: issueUrl,
         state: state,
-        verdict: verdict
+        verdict: verdict,
+        folder: folder
       });
     }
   }
-  output.sort((a, b) => b.update - a.update);
+
+  // Sort output by folder, then by update time
+  output.sort((a, b) => {
+    if (a.folder === b.folder) {
+      return a.update - b.update; // Sort by update date within the same folder
+    }
+    return a.folder.localeCompare(b.folder); // Sort by folder name
+  });
+
+  // Group and display the results by folder
+  let currentFolder = '';
   output.forEach((o) => {
+    if (o.folder !== currentFolder) {
+      currentFolder = o.folder;
+      console.log(`\n${GREEN}${currentFolder}${RESET}`); // Print folder name in green
+    }
     const daysSince = Math.floor((new Date() - o.update) / 1000 / 60 / 60 / 24);
-    const shortenedFileName = path.join(path.basename(path.dirname(o.filename)), path.basename(o.filename));
-    console.log(`${daysSince} days ago: | ${GREEN}${shortenedFileName}${RESET} | ${o.issue} | ${CYAN}Last Verdict: ${o.verdict}${RESET} | ${o.state}`);
+    const shortenedFileName = path.basename(o.filename);
+    console.log(`  - ${daysSince} days ago: | ${GREEN}${shortenedFileName}${RESET} | ${o.issue} | ${CYAN}Last Verdict: ${o.verdict}${RESET} | ${o.state}`);
   });
 })();
