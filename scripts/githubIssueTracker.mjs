@@ -103,10 +103,10 @@ let output = [];
     }
   }
 
-  // Sort output by folder, then by update time
+  // Sort output by folder, then by update time (newest to oldest)
   output.sort((a, b) => {
     if (a.folder === b.folder) {
-      return a.update - b.update; // Sort by update date within the same folder
+      return b.update - a.update; // Sort by update date within the same folder (newest to oldest)
     }
     return a.folder.localeCompare(b.folder); // Sort by folder name
   });
