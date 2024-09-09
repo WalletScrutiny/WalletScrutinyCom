@@ -9,6 +9,9 @@ import fs from 'fs';
 import axios from 'axios';
 import path from 'path';
 
+const GREEN = '\x1b[32m';
+const RESET = '\x1b[0m';
+
 // Define the folder paths to search for .md files
 const folderPaths = ['./_android', './_iphone', './_bearer', './_hardware', './_desktop'];
 
@@ -91,6 +94,6 @@ let output = [];
   output.forEach((o) => {
     const daysSince = Math.floor((new Date() - o.update) / 1000 / 60 / 60 / 24)
     const shortenedFileName = path.join(path.basename(path.dirname(o.filename)), path.basename(o.filename));
-    console.log(`${daysSince} days ago: | ${shortenedFileName} | ${o.issue} | ${o.state}`)
+    console.log(`${daysSince} days ago: | ${GREEN}${shortenedFileName}${RESET} | ${o.issue} | ${o.state}`)
   })
 })();
