@@ -15,25 +15,34 @@ const RESET = '\x1b[0m';
 // Define the folder paths to search for .md files
 const folderPaths = ['./_android', './_iphone', './_bearer', './_hardware', './_desktop'];
 
-// Regular expression pattern to match issue URLs
+// Regular expression pattern to match issue URLs and verdicts
 const issuePattern = /issue:\s+(https:\/\/github\.com\/[^/]+\/[^/]+\/issues\/(\d+))/g;
-
+const verdictPattern = /verdict:\s+(.+)/;
 const metaOkPattern = /meta: ok/;
 
-// List to store extracted project names, issue numbers, and file names
+// List to store extracted project names, issue numbers, and file names, and verdicts
 const issueInfo = [];
 
 // Function to search for .md files and extract issue information
 function extractIssueInfo(filePath) {
   const content = fs.readFileSync(filePath, 'utf-8');
   if (!metaOkPattern.test(content)) {
-    return
+    return;
   }
   const matches = content.matchAll(issuePattern);
+  const verdictMatch = content.match(verdictPattern);
+  const verdict = verdictMatch ? verdictMatch[1].trim() : 'unknown';
   for (const match of matches) {
     const [issueUrl, issueNumber] = match;
     const [, projectOwner, projectName] = issueUrl.match(/github\.com\/([^/]+)\/([^/]+)\/issues/); // Extract project name
-    issueInfo.push({ projectOwner, projectName, issueUrl: issueUrl.replace('issue: ', ''), issueNumber: issueNumber.split('/').pop(), fileName: path.resolve(filePath) });
+    issueInfo.push({ 
+      projectOwner, 
+      projectName, 
+      issueUrl: issueUrl.replace('issue: ', ''), 
+      issueNumber: issueNumber.split('/').pop(), 
+      fileName: path.resolve(filePath),
+      verdict 
+    });
   }
 }
 
@@ -78,7 +87,7 @@ let output = [];
   
   const threeMonthsAgo = new Date();
   threeMonthsAgo.setMonth(threeMonthsAgo.getMonth() - 3);
-  for (const { projectOwner, projectName, issueUrl, issueNumber, fileName } of issueInfo) {
+  for (const { projectOwner, projectName, issueUrl, issueNumber, fileName, verdict } of issueInfo) {
     const { state, lastUpdateDate } = await checkGitHubIssue(projectOwner, projectName, issueNumber, githubAccessToken);
     const csvLine = `${fileName},${state},${projectOwner}/${projectName},${lastUpdateDate},${issueUrl}\n`;
     if (new Date(lastUpdateDate) < threeMonthsAgo) {
@@ -87,13 +96,14 @@ let output = [];
         filename: fileName,
         issue: issueUrl,
         state: state,
-      })
+        verdict: verdict
+      });
     }
   }
   output.sort((a, b) => b.update - a.update);
   output.forEach((o) => {
-    const daysSince = Math.floor((new Date() - o.update) / 1000 / 60 / 60 / 24)
+    const daysSince = Math.floor((new Date() - o.update) / 1000 / 60 / 60 / 24);
     const shortenedFileName = path.join(path.basename(path.dirname(o.filename)), path.basename(o.filename));
-    console.log(`${daysSince} days ago: | ${GREEN}${shortenedFileName}${RESET} | ${o.issue} | ${o.state}`)
-  })
+    console.log(`${daysSince} days ago: | ${GREEN}${shortenedFileName}${RESET} | ${o.issue} | Last Verdict: ${o.verdict} | ${o.state}`);
+  });
 })();
