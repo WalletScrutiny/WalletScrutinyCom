@@ -2,13 +2,12 @@
  * This script lists all open issues of products that are "meta: ok" and had no
  * update in more than three months. Issues are sorted oldest to newest.
  * This script can be started with
- * $ node scripts/githubIssueTracker.mjs $GITHUB_API_KEY
+ * $ node scripts/githubIssueTracker.mjs -n $GITHUB_API_KEY
  **/
 
 import fs from 'fs';
 import axios from 'axios';
 import path from 'path';
-import readline from 'readline'; // Added to capture user input
 
 const GREEN = '\x1b[32m';
 const RESET = '\x1b[0m';
@@ -91,8 +90,9 @@ folderPaths.forEach(folder => {
 
 // Check the status of each GitHub issue and append to the output text
 (async () => {
-  const githubAccessToken = process.argv[2];
-  if (githubAccessToken === undefined) {
+  const showNewResults = process.argv[2] === '-n';
+  const githubAccessToken = process.argv[3] || process.argv[2];
+  if (!githubAccessToken || (!showNewResults && process.argv.length < 3)) {
     console.error('Provide your GitHub Personal Access Token (https://github.com/settings/tokens) as parameter!');
     process.exit(1);
   }
@@ -141,29 +141,18 @@ folderPaths.forEach(folder => {
     }
   });
 
-  // Ask the user if they want to display the recent results (within the last 3 months)
-  const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout,
-  });
-
-  rl.question('\nWould you like to see the latest issues (yes/no)? ', (answer) => {
-    if (answer.toLowerCase() === 'yes') {
-      console.log(`\nRecent issues (within the last 3 months):`);
-      folderPaths.forEach(folder => {
-        if (recentOutput[folder].length > 0) {
-          console.log(`\n${GREEN}${folder}${RESET}`);
-          recentOutput[folder].sort((a, b) => b.update - a.update); // Sort by update date (newest to oldest)
-          recentOutput[folder].forEach((o) => {
-            const daysSince = Math.floor((new Date() - o.update) / 1000 / 60 / 60 / 24);
-            const shortenedFileName = path.basename(o.filename);
-            console.log(`  - ${daysSince} days ago: | ${GREEN}${shortenedFileName}${RESET} | ${o.issue} | ${CYAN}Last Verdict: ${o.verdict}${RESET} | ${o.state} | ${YELLOW}Last post: ${o.lastPosterUsername}${RESET}`);
-          });
-        }
-      });
-    } else {
-      console.log('No recent issues displayed.');
-    }
-    rl.close(); // Close the readline interface
-  });
+  if (showNewResults) {
+    console.log("\n--Results from 90 days and earlier-------------------------------------------------------------------------------------");
+    folderPaths.forEach(folder => {
+      if (recentOutput[folder].length > 0) {
+        console.log(`\n${GREEN}${folder}${RESET}`);
+        recentOutput[folder].sort((a, b) => b.update - a.update); // Sort by update date (newest to oldest)
+        recentOutput[folder].forEach((o) => {
+          const daysSince = Math.floor((new Date() - o.update) / 1000 / 60 / 60 / 24);
+          const shortenedFileName = path.basename(o.filename);
+          console.log(`  - ${daysSince} days ago: | ${GREEN}${shortenedFileName}${RESET} | ${o.issue} | ${CYAN}Last Verdict: ${o.verdict}${RESET} | ${o.state} | ${YELLOW}Last post: ${o.lastPosterUsername}${RESET}`);
+        });
+      }
+    });
+  }
 })();
