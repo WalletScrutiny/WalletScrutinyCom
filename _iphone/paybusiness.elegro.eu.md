@@ -19,12 +19,16 @@ issue:
 icon: paybusiness.elegro.eu.jpg
 bugbounty: 
 meta: ok
-verdict: nonverifiable
-date: 2023-06-12
+verdict: custodial
+date: 2024-09-07
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: elegro_eu
+social:
+- https://www.linkedin.com/company/niko-technologies-ou
+- https://t.me/d_ima13
+- https://www.youtube.com/channel/UC0O74-8XmeVTo9_aYXwoQNQ
+- https://medium.com/@elegro
 features: 
 developerName: Niko Technologies
 
