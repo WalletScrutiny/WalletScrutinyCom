@@ -12,7 +12,7 @@ updated: 2024-08-26
 version: 5.9.11
 stars: 4.2
 ratings: 2703
-reviews: 654
+reviews: 655
 size: 
 website: https://www.bitrue.com/
 repository: 

@@ -8,8 +8,8 @@ users: 10000
 appId: com.tatspace
 appCountry: 
 released: 2022-02-13
-updated: 2024-08-01
-version: 1.4.8
+updated: 2024-09-09
+version: 1.4.9
 stars: 3.2
 ratings: 
 reviews: 9

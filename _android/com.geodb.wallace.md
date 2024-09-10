@@ -12,7 +12,7 @@ updated: 2024-08-23
 version: 1.6.31
 stars: 3.4
 ratings: 
-reviews: 30
+reviews: 31
 size: 
 website: https://wallacewallet.io/
 repository: 

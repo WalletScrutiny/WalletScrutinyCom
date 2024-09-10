@@ -9,7 +9,7 @@ appId: com.primexbt.trade
 appCountry: 
 released: 2022-02-10
 updated: 2024-09-05
-version: 4.4.2
+version: 4.5.3
 stars: 3.9
 ratings: 
 reviews: 40

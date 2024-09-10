@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.alterdice.android.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2023-05-10
+date: 2024-09-10
 signer: 
 reviewArchive: 
 twitter: alterdicecom

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.ftrading.cryptotrading.android.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2023-09-14
+date: 2024-09-10
 signer: 
 reviewArchive: 
 twitter: 

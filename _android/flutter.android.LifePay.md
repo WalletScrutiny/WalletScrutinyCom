@@ -3,7 +3,7 @@ wsId: lifPay
 title: LifPay
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: flutter.android.LifePay
 appCountry: 
@@ -26,8 +26,9 @@ signer:
 reviewArchive: 
 twitter: lifpay
 social:
-- https://primal.net/p/npub1pzerv8rqqvhk82y85axa3t3yxr8rdqnea03zlmk5crsne509esqqw0x463
-- https://t.me/lifpay 
+- >-
+  https://primal.net/p/npub1pzerv8rqqvhk82y85axa3t3yxr8rdqnea03zlmk5crsne509esqqw0x463
+- https://t.me/lifpay
 redirect_from: 
 developerName: ProminentWise
 features: 

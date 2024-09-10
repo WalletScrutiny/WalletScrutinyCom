@@ -3,7 +3,7 @@ wsId: iMeMessenger
 title: 'iMe: AI Messenger for Telegram'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000000
 appId: com.iMe.android
 appCountry: 
@@ -12,7 +12,7 @@ updated: 2024-08-28
 version: 11.0.3
 stars: 4.7
 ratings: 
-reviews: 418
+reviews: 420
 size: 
 website: https://www.imem.app
 repository: https://github.com/imemessenger/iMe-Android
@@ -29,7 +29,7 @@ social:
 - https://t.me/ime_en
 - https://imesmartplatform.medium.com
 - https://www.youtube.com/c/iMeMessenger
-- https://www.reddit.com/r/iMeSmartPlatform 
+- https://www.reddit.com/r/iMeSmartPlatform
 redirect_from: 
 developerName: iMe Lab
 features: 

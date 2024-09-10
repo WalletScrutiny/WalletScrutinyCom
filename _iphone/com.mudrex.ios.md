@@ -3,7 +3,7 @@ wsId: mudrex
 title: 'Mudrex: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.mudrex.ios
 appCountry: in
 idd: '1609440707'
@@ -11,7 +11,7 @@ released: 2022-03-12
 updated: 2024-09-06
 version: '8.26'
 stars: 4.2
-reviews: 1132
+reviews: 1151
 size: '155234304'
 website: https://mudrex.com/
 repository: 
@@ -29,7 +29,7 @@ social:
 - https://t.me/mudrex_community
 - https://www.youtube.com/@Mudrex
 - https://www.instagram.com/officialmudrex
-- https://www.facebook.com/mudrex 
+- https://www.facebook.com/mudrex
 features: 
 developerName: Mudrex
 

@@ -3,7 +3,7 @@ wsId: mudrex
 title: 'Mudrex: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 500000
 appId: com.mudrexmobile
 appCountry: 
@@ -30,7 +30,7 @@ social:
 - https://t.me/mudrex_community
 - https://www.youtube.com/@Mudrex
 - https://www.instagram.com/officialmudrex
-- https://www.facebook.com/mudrex 
+- https://www.facebook.com/mudrex
 redirect_from: 
 developerName: Mudrex Inc.
 features: 

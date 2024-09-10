@@ -11,8 +11,8 @@ idd: 1505496232
 released: 2020-04-07
 updated: 2024-08-11
 version: 2.27.3
-stars: 4
-reviews: 85
+stars: 4.1
+reviews: 86
 size: '93315072'
 website: https://exmo.com/en
 repository: 

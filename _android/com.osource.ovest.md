@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.osource.ovest.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2024-02-24
+date: 2024-09-10
 signer: 
 reviewArchive: 
 twitter: 

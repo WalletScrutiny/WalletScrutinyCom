@@ -1,6 +1,6 @@
 ---
 wsId: rekeningku
-title: 'Reku: Beli Bitcoin & Crypto'
+title: Reku - Beli Kripto & Saham AS
 altTitle: 
 authors:
 - danny
@@ -8,7 +8,7 @@ users: 500000
 appId: com.rekeningku
 appCountry: us
 released: 2018-02-21
-updated: 2024-07-26
+updated: 2024-09-09
 version: 3.2.07
 stars: 4.3
 ratings: 22977

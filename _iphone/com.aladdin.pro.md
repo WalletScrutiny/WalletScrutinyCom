@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.aladdin.pro.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2024-02-05
+date: 2024-09-10
 signer: 
 reviewArchive: 
 twitter: abbcfoundation

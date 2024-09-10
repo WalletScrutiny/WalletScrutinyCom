@@ -3,7 +3,7 @@ wsId: coinext
 title: 'Coinext: Comprar Bitcoin'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: br.com.coinext
 appCountry: 
@@ -29,7 +29,7 @@ social:
 - https://www.linkedin.com/company/coinext
 - https://www.instagram.com/coinext
 - https://www.facebook.com/coinext
-- https://www.youtube.com/channel/UCBX952rbjhPqv7IJrbJR7tA 
+- https://www.youtube.com/channel/UCBX952rbjhPqv7IJrbJR7tA
 redirect_from: 
 developerName: Coinext Serviços Digitais Ltda.
 features: 

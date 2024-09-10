@@ -3,7 +3,7 @@ wsId: coinsquare
 title: 'Coinsquare: Buy Bitcoin Canada'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 100000
 appId: com.coinsquare.app.quicktrade
 appCountry: 
@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/coinsquare.io
 - https://www.instagram.com/coinsquare
 - https://www.linkedin.com/company/coinsquare
-- https://www.reddit.com/r/coinsquare 
+- https://www.reddit.com/r/coinsquare
 redirect_from: 
 developerName: Bitbuy
 features: 

@@ -11,7 +11,7 @@ released: 2021-06-07
 updated: 2024-08-29
 version: 4.27.0
 stars: 4.7
-reviews: 13230
+reviews: 13234
 size: '128691200'
 website: https://www.finanzen.net/zero/
 repository: 

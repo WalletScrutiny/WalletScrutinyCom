@@ -3,7 +3,7 @@ wsId: bitcoinStoreWallet
 title: Bitcoin Store Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 users: 5000
 appId: com.bitcoinstore.bitcoinstorewallet
 appCountry: 
@@ -28,7 +28,7 @@ twitter: storebitcoin
 social:
 - https://www.linkedin.com/company/bitstore-net
 - https://www.instagram.com/bitcoinstore.hr
-- https://www.facebook.com/bitcoinstore.hr 
+- https://www.facebook.com/bitcoinstore.hr
 redirect_from: 
 developerName: Digital Assets d.o.o
 features: 

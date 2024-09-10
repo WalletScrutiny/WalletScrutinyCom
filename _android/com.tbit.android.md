@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.tbit.android.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2024-05-04
+date: 2024-09-10
 signer: 
 reviewArchive: 
 twitter: 

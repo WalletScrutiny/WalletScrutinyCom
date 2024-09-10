@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.abbc.wallet.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
-date: 2023-12-01
+date: 2024-09-10
 signer: 
 reviewArchive: 
 twitter: abbcfoundation

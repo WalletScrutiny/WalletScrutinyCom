@@ -11,7 +11,7 @@ released: 2024-04-02
 updated: 2024-08-29
 version: 1.7.2
 stars: 4.7
-reviews: 1723
+reviews: 1736
 size: '422904832'
 website: https://deblock.com/fr-FR
 repository: 

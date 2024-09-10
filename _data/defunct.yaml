@@ -1,14 +1,3 @@
-2024-08-25:
-- _android/com.alterdice.android
-2024-08-26:
-- _android/com.ankerpay.wallet
-- _android/com.osource.ovest
-- _android/com.tbit.android
-- _android/io.kaiser.kaiserwallet2.ble_reader
-- _iphone/com.abbc.wallet
-- _iphone/com.aladdin.pro
-- _iphone/com.tidex.exchange.app
-- _iphone/com.xtmcapital.iqwallet
 2024-08-31:
 - _android/app.metavest.mobile
 - _android/com.BlockchainExplorer.DormantBitcoinExplorer
@@ -46,3 +35,11 @@
 - _android/delta.pk.mobile
 - _iphone/io.nanovest
 - _iphone/org.Matbea
+2024-09-10:
+- _android/com.bispex.bispex
+- _android/com.lopeer.lopeer
+- _android/com.worldpay.wallet
+- _android/com.xbank_rn
+- _android/io.laxya.laxya
+- _iphone/com.credits.CryptoWallet
+- _iphone/com.zelcash.zelcore

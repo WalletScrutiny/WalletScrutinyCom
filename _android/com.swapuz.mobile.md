@@ -7,8 +7,8 @@ users: 500
 appId: com.swapuz.mobile
 appCountry: 
 released: 2022-03-19
-updated: 2024-08-26
-version: 2024.08.01
+updated: 2024-09-09
+version: 2024.09.09
 stars: 4
 ratings: 
 reviews: 

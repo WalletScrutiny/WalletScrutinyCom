@@ -1,6 +1,6 @@
 ---
 wsId: CoinSwitch
-title: 'CoinSwitch: Bitcoin Crypto App'
+title: 'Bitcoin Crypto App: CoinSwitch'
 altTitle: 
 authors:
 - danny
@@ -12,7 +12,7 @@ updated: 2024-08-07
 version: 6.6.4
 stars: 4.4
 ratings: 413931
-reviews: 141919
+reviews: 141923
 size: 
 website: https://coinswitch.co
 repository: 

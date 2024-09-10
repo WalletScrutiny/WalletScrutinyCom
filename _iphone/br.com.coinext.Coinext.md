@@ -3,15 +3,15 @@ wsId: coinext
 title: 'Coinext: Comprar Bitcoin'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: br.com.coinext.Coinext
 appCountry: br
 idd: '1448731340'
-released: '2019-01-27T15:04:37Z'
+released: 2019-01-27
 updated: 2024-08-26
 version: 2.15.2
-stars: 4.78139
-reviews: 3655
+stars: 4.8
+reviews: 3659
 size: '56820736'
 website: https://coinext.com.br/
 repository: 

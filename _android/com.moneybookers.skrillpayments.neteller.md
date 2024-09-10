@@ -3,7 +3,7 @@ wsId: neteller
 title: NETELLER – Fast Payments
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000000
 appId: com.moneybookers.skrillpayments.neteller
 appCountry: 
