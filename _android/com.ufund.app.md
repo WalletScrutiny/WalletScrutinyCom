@@ -20,7 +20,7 @@ issue:
 icon: com.ufund.app.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nowallet
 date: 2024-04-24
 signer: 
 reviewArchive: 
@@ -36,7 +36,11 @@ features:
 
 ---
 
-## App Description from Google Play 
+## Update 2024-09-07
+
+We tried the service again. Logging in or signing up via the webform results in an error for us. They have not responded via twitter or via email. There is no documentation either on their terms about the presence of a Bitcoin wallet. We will view this as a fund-raising platform which is not 100% functional. This app **does not have a Bitcoin wallet**. We will update this information if new information arises.
+
+## App Description from Google Play 2024-04-24
 
 > UFUND is an innovative investment app that allows users to have full control of their investments in real economy and campaigns in a secure and easy environment. It is the future of investment, e trade, and fundraising for small businesses and individuals.
 >

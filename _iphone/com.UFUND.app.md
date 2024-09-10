@@ -19,8 +19,8 @@ issue:
 icon: com.UFUND.app.jpg
 bugbounty: 
 meta: obsolete
-verdict: wip
-date: 2023-12-29
+verdict: nowallet
+date: 2024-09-07
 signer: 
 reviewArchive: 
 twitter: UFUND1
