@@ -2,7 +2,8 @@
 wsId: mutiny
 title: Mutiny Wallet
 altTitle: 
-authors: 
+authors:
+- danny 
 appId: com.mutinywallet.mutiny
 appCountry: us
 idd: '6471030760'
@@ -13,19 +14,20 @@ stars: 4.8
 reviews: 18
 size: '47292416'
 website: https://www.mutinywallet.com/
-repository: 
+repository: https://github.com/MutinyWallet/mutiny-web
 issue: 
 icon: com.mutinywallet.mutiny.jpg
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2024-03-07
+date: 2024-09-10
 signer: 
 reviewArchive: 
-twitter: 
+twitter: MutinyWallet
 social: 
 features: 
 developerName: Mutiny Wallet, Inc.
 
 ---
 
+{% include copyFromAndroid.html %}
