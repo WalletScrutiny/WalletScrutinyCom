@@ -7,13 +7,10 @@ ENV DEBIAN_FRONTEND=noninteractive
 # Set environment variables
 ENV FLUTTER_HOME=/opt/flutter
 ENV ANDROID_SDK_ROOT=/opt/android-sdk
-ENV PATH="${PATH}:${FLUTTER_HOME}/bin:${ANDROID_SDK_ROOT}/cmdline-tools/latest/bin:${ANDROID_SDK_ROOT}/platform-tools:/root/.cargo/bin"
+ENV PATH="${PATH}:${FLUTTER_HOME}/bin:${ANDROID_SDK_ROOT}/cmdline-tools/latest/bin:${ANDROID_SDK_ROOT}/platform-tools"
 
-# Enable i386 architecture and update package lists
-RUN dpkg --add-architecture i386 && apt-get update
-
-# Install basic dependencies
-RUN apt-get install -y \
+# Install dependencies
+RUN apt-get update && apt-get install -y \
     curl \
     git \
     unzip \
@@ -45,16 +42,11 @@ RUN apt-get install -y \
     gcc \
     gperf \
     libc6-dev-i386 \
-    libc6:i386 \
-    libncurses5:i386 \
-    libstdc++6:i386 \
-    lib32z1 \
-    libbz2-1.0:i386 \
-    meson \  # Add meson here
     && rm -rf /var/lib/apt/lists/*
 
 # Install Rust
 RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
+ENV PATH="/root/.cargo/bin:${PATH}"
 RUN rustup install 1.67.1 1.72.0 1.73.0 && \
     rustup default 1.67.1 && \
     rustup target add aarch64-linux-android armv7-linux-androideabi i686-linux-android x86_64-linux-android && \
@@ -62,7 +54,7 @@ RUN rustup install 1.67.1 1.72.0 1.73.0 && \
 
 # Install Flutter
 RUN git clone https://github.com/flutter/flutter.git -b 3.22.1 $FLUTTER_HOME
-RUN flutter precache
+RUN flutter doctor
 
 # Install Android SDK
 RUN mkdir -p ${ANDROID_SDK_ROOT}/cmdline-tools && \
@@ -73,29 +65,32 @@ RUN mkdir -p ${ANDROID_SDK_ROOT}/cmdline-tools && \
 
 # Accept licenses and install necessary Android SDK components
 RUN yes | sdkmanager --licenses
-RUN sdkmanager "platform-tools" "platforms;android-30" "build-tools;30.0.3" "ndk;25.1.8937393" "cmdline-tools;latest"
+RUN sdkmanager "platform-tools" "platforms;android-30" "build-tools;30.0.3" "ndk;25.1.8937393"
 
-# Clone Stack Wallet repository and initialize submodules
+# Clone Stack Wallet repository
 WORKDIR /app
 RUN git clone https://github.com/cypherstack/stack_wallet.git && \
     cd stack_wallet && \
     git submodule update --init --recursive
 
-# Build secure storage dependencies (if needed)
-WORKDIR /app/stack_wallet/scripts/linux
-RUN ./build_secure_storage_deps.sh
-
 # Run prebuild script
 WORKDIR /app/stack_wallet/scripts
 RUN chmod +x prebuild.sh && ./prebuild.sh
 
-# Build coinlib for Android target
+# Check directory structure after prebuild
 WORKDIR /app/stack_wallet
-RUN dart run coinlib:build_linux
+RUN find /app/stack_wallet
 
-# Build the Stack Wallet application
+# Add debugging output before running build_app.sh
 WORKDIR /app/stack_wallet/scripts
-RUN chmod +x build_app.sh && ./build_app.sh -a stack_wallet -p android -v 1.0.0 -b 1
+RUN echo "APP_PROJECT_ROOT_DIR: $APP_PROJECT_ROOT_DIR" && \
+    echo "Environment variables:" && env && \
+    ls -la /app/stack_wallet && ls -la /app/stack_wallet/scripts
+
+# Run build_app.sh script with debugging information and skip confirmation
+RUN chmod +x build_app.sh && \
+    sed -i 's/confirmDisclaimer/#confirmDisclaimer/' build_app.sh && \
+    set -x && ./build_app.sh -a stack_wallet -p android -v 1.0.0 -b 1 || { echo "build_app.sh failed"; exit 1; }
 
 # Set up entrypoint
 WORKDIR /app/stack_wallet
