@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.flashratings.hodl.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2022-06-24
+date: 2024-09-11
 signer: 
 reviewArchive: 
 twitter: 

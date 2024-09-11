@@ -10,9 +10,9 @@ appCountry:
 released: 2018-11-09
 updated: 2024-07-17
 version: 5.4.0
-stars: 4.3
+stars: 4
 ratings: 
-reviews: 7
+reviews: 4
 size: 
 website: https://elegro.eu/
 repository: 

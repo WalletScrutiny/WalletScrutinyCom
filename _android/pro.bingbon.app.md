@@ -8,11 +8,11 @@ users: 5000000
 appId: pro.bingbon.app
 appCountry: us
 released: 2019-05-18
-updated: 2024-08-30
+updated: 2024-09-10
 version: 4.24.1
-stars: 4.1
+stars: 4
 ratings: 2828
-reviews: 1181
+reviews: 1180
 size: 
 website: https://bingx.com
 repository: 

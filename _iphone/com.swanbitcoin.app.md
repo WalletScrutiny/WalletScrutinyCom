@@ -11,7 +11,7 @@ released: 2022-08-25
 updated: 2024-09-04
 version: 1.9.4
 stars: 4.8
-reviews: 1687
+reviews: 1688
 size: '130979840'
 website: http://www.swanbitcoin.com
 repository: 

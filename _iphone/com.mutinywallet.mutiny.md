@@ -3,7 +3,7 @@ wsId: mutiny
 title: Mutiny Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.mutinywallet.mutiny
 appCountry: us
 idd: '6471030760'

@@ -12,7 +12,7 @@ updated: 2024-09-06
 version: 3.40.0
 stars: 4.6
 ratings: 1147
-reviews: 664
+reviews: 665
 size: 
 website: http://coolwallet.io
 repository: 
