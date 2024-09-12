@@ -4,6 +4,7 @@ title: 'Slavi: DeFi Crypto Wallet'
 altTitle: 
 authors:
 - danny
+- keraliss
 users: 50000
 appId: com.defiwalletmobile
 appCountry: 
@@ -36,6 +37,34 @@ developerName: Slavi Development
 features: 
 
 ---
+
+**Update 2024-09-12:**
+
+**Review: Slavi Wallet Build**
+
+The build process for the Slavi Wallet was initiated using the provided Dockerfile. While the Docker environment successfully cloned the repository and installed most dependencies, the build ultimately failed during the `npm install` step.
+
+**Command Used:**
+```
+docker build -t slavi_wallet -f slavi.dockerfile .
+```
+
+**Error Noted:**
+The build encountered an error when attempting to install npm dependencies, particularly when cloning a submodule from GitLab via SSH:
+```
+npm error code 128
+npm error git@gitlab.com: Permission denied (publickey).
+npm error fatal: Could not read from remote repository.
+```
+This suggests that npm was unable to clone a required Git repository due to SSH key authentication issues, despite efforts to configure npm to use HTTPS and disable strict SSL checks.
+
+**Attempts Made:**
+- Configured Git and npm to use HTTPS instead of SSH.
+- Tried disabling strict SSL to allow npm installations.
+- Attempted to bypass SSH authentication by setting the `GIT_ASKPASS` environment variable.
+
+**Conclusion:**
+The build for the Slavi Wallet was **unsuccessful** due to issues with `npm install`. The wallet remains **not verifiable** at this time, and further investigation is required to resolve Git repository access issues during npm dependency installation.
 
 ## App Description from Google Play
 
