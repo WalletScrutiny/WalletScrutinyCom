@@ -27,7 +27,7 @@ wget --quiet --output-document "jade_${version}_10_ble.bin.gz" "https://jadefw.b
 wget --quiet --output-document "jade_${version}_11_ble.bin.gz" "https://jadefw.blockstream.com/bin/jade1.1/${filename_11_ble}"
 wget --quiet --output-document "jade_${version}_10_noR.bin.gz" "https://jadefw.blockstream.com/bin/jade/${filename_10_noR}"
 wget --quiet --output-document "jade_${version}_11_noR.bin.gz" "https://jadefw.blockstream.com/bin/jade1.1/${filename_11_noR}"
-pigz --zlib --decompress *.gz
+pigz --zlib --decompress --keep *.gz
 
 DOCKER_BUILDKIT=1 docker build -f ./Dockerfile -t jade_builder .
 
@@ -64,7 +64,7 @@ for variant in {10,11}_{ble,noR}; do
   head -c -4096 $downloaded > $stripped
   expectedHash=$(sha256sum $stripped | awk '{print $1}')
   actualHash=$(sha256sum $built | awk '{print $1}')
-  sha256sum *${variant}*.bin
+  sha256sum *${variant}*.bin(|.gz)
   if [ "$expectedHash" == "$actualHash" ]; then
     echo "The Jade firmware version ${version} ${variant} is reproducible with above hashes."
   else
