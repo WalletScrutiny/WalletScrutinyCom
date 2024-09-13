@@ -10,8 +10,8 @@ idd: 1492139262
 released: 2019-12-22
 updated: 2024-07-28
 version: '1.87'
-stars: 3.7
-reviews: 9
+stars: 3.8
+reviews: 10
 size: '47351808'
 website: https://zixipay.com/
 repository: 

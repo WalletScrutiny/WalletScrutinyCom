@@ -12,7 +12,7 @@ updated: 2024-09-07
 version: 1.0.44
 stars: 4.2
 ratings: 
-reviews: 33
+reviews: 34
 size: 
 website: https://mal.io/
 repository: 

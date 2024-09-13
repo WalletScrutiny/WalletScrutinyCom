@@ -9,7 +9,7 @@ appId: com.coinb9.app
 appCountry: 
 released: 2022-03-07
 updated: 2024-08-06
-version: 4.1.5
+version: 4.1.7
 stars: 2.2
 ratings: 
 reviews: 1

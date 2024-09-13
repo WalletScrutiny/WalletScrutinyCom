@@ -10,8 +10,8 @@ idd: '1581610129'
 released: 2021-10-19
 updated: 2024-04-08
 version: 7.4.3
-stars: 4
-reviews: 43
+stars: 3.9
+reviews: 44
 size: '58036224'
 website: https://crypto-kara-site.vercel.app/
 repository: 

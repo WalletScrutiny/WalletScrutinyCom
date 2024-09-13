@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Bstyle
+developerName: BSTYLE TECHNOLOGY INC.
 features: 
 
 ---

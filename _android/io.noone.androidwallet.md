@@ -10,9 +10,9 @@ appCountry:
 released: 2023-03-17
 updated: 2024-09-10
 version: 1.17.0
-stars: 4.5
+stars: 4.3
 ratings: 
-reviews: 5
+reviews: 6
 size: 
 website: https://noone.io
 repository: 

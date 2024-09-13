@@ -8,8 +8,8 @@ users: 1000000
 appId: jp.coincheck.android
 appCountry: 
 released: 2015-04-23
-updated: 2024-08-29
-version: 4.13.10
+updated: 2024-09-05
+version: 4.13.11
 stars: 3.5
 ratings: 10711
 reviews: 11

@@ -11,7 +11,7 @@ released: 2018-01-04
 updated: 2024-09-10
 version: 6.84.0
 stars: 4.6
-reviews: 14265
+reviews: 14283
 size: '378573824'
 website: https://www.okx.com/download
 repository: 
@@ -28,7 +28,7 @@ social:
 - https://www.facebook.com/okexofficial
 - https://www.reddit.com/r/OKEx
 features: 
-developerName: OKEX MALTA LTD
+developerName: OKX MALTA LTD
 
 ---
 

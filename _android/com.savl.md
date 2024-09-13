@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 570
 reviews: 204
 size: 
-website: https://savl.com
+website: https://unitywallet.com
 repository: 
 issue: 
 icon: com.savl.png
