@@ -6,6 +6,7 @@ authors:
 - leo
 - emanuel
 - danny
+- keraliss
 users: 500000
 appId: co.edgesecure.app
 appCountry: 
@@ -23,9 +24,14 @@ icon: co.edgesecure.app.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2024-07-26
+date: 2024-09-10
 signer: 8cd6a12e3dc595964fabcbe82341e28f4a2a4ac6a347fcbead488b76faa7e186
 reviewArchive:
+- date: 2023-07-26
+  version: 4.8.0
+  appHash: 
+  gitRevision: 3703a5d0543f672252f7b37e5636a9e40c3b6e5e
+  verdict: nonverifiable
 - date: 2023-10-31
   version: 3.2.0
   appHash: 
