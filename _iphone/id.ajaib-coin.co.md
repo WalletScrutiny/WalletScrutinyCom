@@ -11,7 +11,7 @@ released: 2022-08-16
 updated: 2024-08-29
 version: 2.55.0
 stars: 4.2
-reviews: 1373
+reviews: 1376
 size: '198581248'
 website: https://kripto.ajaib.co.id/
 repository: 

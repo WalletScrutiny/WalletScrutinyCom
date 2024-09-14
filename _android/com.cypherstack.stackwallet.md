@@ -36,6 +36,7 @@ developerName: Cypher Stack Team
 features: 
 
 ---
+
 **Update 2024-09-11:**
 
 **Review: Stack Wallet Build**

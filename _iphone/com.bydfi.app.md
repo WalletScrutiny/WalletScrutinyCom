@@ -11,7 +11,7 @@ released: 2023-02-09
 updated: 2024-09-11
 version: V3.5.3
 stars: 4.7
-reviews: 569
+reviews: 573
 size: '222269440'
 website: https://www.bydfi.com/
 repository: 

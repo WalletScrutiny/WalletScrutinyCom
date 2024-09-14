@@ -8,11 +8,11 @@ appId: com.riflexo.TradeInterceptor
 appCountry: us
 idd: 329476057
 released: 2009-09-23
-updated: 2024-09-05
-version: 6.7.68
+updated: 2024-09-14
+version: 6.7.69
 stars: 4.8
 reviews: 478
-size: '85132288'
+size: '85185536'
 website: https://www.thinkmarkets.com/en/about-us/
 repository: 
 issue: 

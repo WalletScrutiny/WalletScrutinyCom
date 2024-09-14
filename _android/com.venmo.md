@@ -12,7 +12,7 @@ updated: 2024-09-04
 version: 10.49.0
 stars: 4.1
 ratings: 
-reviews: 301761
+reviews: 301893
 size: 
 website: https://venmo.com/
 repository: 

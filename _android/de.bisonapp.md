@@ -12,7 +12,7 @@ updated: 2024-09-02
 version: 3.28.0
 stars: 4.6
 ratings: 
-reviews: 1
+reviews: 2
 size: 
 website: https://bisonapp.com
 repository: 

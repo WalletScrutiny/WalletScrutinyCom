@@ -12,7 +12,7 @@ updated: 2024-09-05
 version: 4.5.3
 stars: 3.9
 ratings: 
-reviews: 41
+reviews: 40
 size: 
 website: https://primexbt.com/
 repository: 

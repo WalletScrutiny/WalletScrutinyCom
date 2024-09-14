@@ -10,9 +10,9 @@ appCountry: TR
 released: 2020-12-18
 updated: 2024-08-23
 version: 2.1.17
-stars: 4.6
+stars: 4.7
 ratings: 
-reviews: 1990
+reviews: 1997
 size: 
 website: https://www.bitlo.com/
 repository: 

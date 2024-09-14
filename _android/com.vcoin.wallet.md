@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.vcoin.wallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-09-20
+date: 2024-09-14
 signer: 
 reviewArchive: 
 twitter: 

@@ -11,7 +11,7 @@ released: 2023-12-05
 updated: 2024-08-08
 version: 1.8.0
 stars: 4.6
-reviews: 117
+reviews: 118
 size: '63460352'
 website: https://alicebob.com/
 repository: 
