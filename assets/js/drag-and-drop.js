@@ -1,5 +1,8 @@
+let knownAppIds = [];
+
 document.addEventListener("DOMContentLoaded", function() {
     initializeDragAndDrop();
+    loadKnownAppIds();
 });
 
 function initializeDragAndDrop() {
@@ -47,7 +50,17 @@ function processDroppedFiles(files) {
 
 async function handleFile(file) {
     const hash = await calculateFileHash(file);
-    const apkInfo = await parseAPK(file);
+    let apkInfo = null;
+    
+    if (file.name.toLowerCase().endsWith('.apk')) {
+        try {
+            apkInfo = await parseAPK(file);
+        } catch (error) {
+            console.warn('Error parsing APK:', error);
+            // Proceed without APK info
+        }
+    }
+    
     const appData = await fetchAppData(hash);
     
     clearFileList();
@@ -57,7 +70,9 @@ async function handleFile(file) {
     }
     displayApkInfo(apkInfo, hash, file);
     
-    checkAppIdMismatch(apkInfo?.package);
+    if (apkInfo?.package) {
+        checkAppIdMismatch(apkInfo.package);
+    }
 }
 
 async function calculateFileHash(file) {
@@ -85,8 +100,13 @@ async function sha256(data) {
 }
 
 async function parseAPK(file) {
-    const parser = new window.AppInfoParser(file);
-    return parser.parse();  // Directly return the promise
+    try {
+        const parser = new window.AppInfoParser(file);
+        return await parser.parse();
+    } catch (error) {
+        console.error('Error parsing APK:', error);
+        return null;
+    }
 }
 
 async function fetchAppData(hash) {
@@ -113,14 +133,16 @@ function displayApkInfo(info, hash, file) {
     const div = document.createElement('div');
     div.className = 'apk-info';
     div.innerHTML = `
-        <h3>APK Information</h3>
+        <h3>File Information</h3>
         <strong>File:</strong> ${file ? file.name : 'N/A'}<br>
         <strong>Size:</strong> ${file ? formatFileSize(file.size) : 'N/A'}<br>
         <strong>SHA-256:</strong> ${hash || 'N/A'}<br>
-        <strong>Package:</strong> ${info?.package || 'N/A'}<br>
-        <strong>Version:</strong> ${info?.versionName || 'N/A'} (${info?.versionCode || 'N/A'})<br>
-        <strong>Min SDK:</strong> ${info?.usesSdk?.minSdkVersion || 'N/A'}<br>
-        <strong>Target SDK:</strong> ${info?.usesSdk?.targetSdkVersion || 'N/A'}<br>
+        ${info ? `
+        <strong>Package:</strong> ${info.package || 'N/A'}<br>
+        <strong>Version:</strong> ${info.versionName || 'N/A'} (${info.versionCode || 'N/A'})<br>
+        <strong>Min SDK:</strong> ${info.usesSdk?.minSdkVersion || 'N/A'}<br>
+        <strong>Target SDK:</strong> ${info.usesSdk?.targetSdkVersion || 'N/A'}<br>
+        ` : ''}
     `;
     fileList.appendChild(div);
 }
@@ -142,17 +164,33 @@ function displayAppData(appData) {
         <strong>Verdict:</strong> <span class="verdict">${appData.verdict}</span><br>
         <strong>App ID:</strong> ${appData.appId}<br>
         <strong>Signer:</strong> ${appData.signer}<br>
-        <strong>Version Name:</strong> ${appData.apkVersionName}<br>
+        <strong>Version:</strong> ${appData.version}<br>
         <strong>Version Code:</strong> ${appData.apkVersionCode || 'undefined'}<br>
         <strong>Date:</strong> ${appData.date || 'undefined'}<br>
     `;
     fileList.appendChild(div);
 }
 
-function checkAppIdMismatch(packageName) {
-    const appIdFromPage = window.pageAppId; // Access `page.appId` from the global scope
+async function loadKnownAppIds() {
+    const cachedAppIds = localStorage.getItem('knownAppIds');
+    if (cachedAppIds) {
+        knownAppIds = JSON.parse(cachedAppIds);
+    } else {
+        try {
+            const response = await fetch('/assets/app-ids.json');
+            if (!response.ok) throw new Error('Network response was not ok');
+            knownAppIds = await response.json();
+            localStorage.setItem('knownAppIds', JSON.stringify(knownAppIds));
+        } catch (error) {
+            console.error('Error loading known app IDs:', error);
+        }
+    }
+}
 
-    if (appIdFromPage !== packageName) {
+function checkAppIdMismatch(packageName) {
+    const appIdFromPage = window.pageAppId;
+
+    if (appIdFromPage !== packageName && knownAppIds.includes(packageName)) {
         showRedirectButton(packageName);
     }
 }
