@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.capex.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-11-01
+date: 2024-09-16
 signer: 
 reviewArchive: 
 twitter: 

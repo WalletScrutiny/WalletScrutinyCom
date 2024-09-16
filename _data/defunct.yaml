@@ -1,20 +1,3 @@
-2024-08-31:
-- _android/app.metavest.mobile
-- _android/com.BlockchainExplorer.DormantBitcoinExplorer
-- _android/com.app.defi
-- _android/com.bgw.wallet
-- _android/com.brilliantts.fuzew
-- _android/com.circle.invest
-- _android/com.latoken.wallet
-- _android/com.tradestrike
-- _android/com.vaultycrypto.wallet
-- _android/company.satoshipayments
-- _android/kr.co.keypair.nixtouch
-- _iphone/com.bitlifi.app
-- _iphone/com.defexa.CryptoWallet-Defexa
-- _iphone/com.icecorp.wallet
-- _iphone/com.pt.powertrade
-- _iphone/vip.trcoin.global
 2024-09-02:
 - _iphone/com.bitqik
 2024-09-03:
@@ -62,3 +45,5 @@
 2024-09-14:
 - _android/com.xcnk.cryptoloupe.android
 - _android/tradefada.com.exchange.app
+2024-09-16:
+- _android/io.timexapp

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.circle.invest.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosendreceive
-date: 2024-04-17
+date: 2024-09-16
 signer: 
 reviewArchive: 
 twitter: circle

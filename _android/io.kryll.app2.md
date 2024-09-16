@@ -12,7 +12,7 @@ updated: 2024-02-26
 version: 2.3.20
 stars: 3.7
 ratings: 
-reviews: 7
+reviews: 8
 size: 
 website: https://kryl.io
 repository: 

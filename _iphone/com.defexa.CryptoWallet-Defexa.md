@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.defexa.CryptoWallet-Defexa.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2023-11-02
+date: 2024-09-16
 signer: 
 reviewArchive: 
 twitter: DefexaCrypto

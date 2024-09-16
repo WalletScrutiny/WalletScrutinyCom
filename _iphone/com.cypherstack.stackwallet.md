@@ -10,8 +10,8 @@ idd: '1634811534'
 released: 2022-08-26
 updated: 2024-09-12
 version: 2.1.6
-stars: 4.1
-reviews: 15
+stars: 4.2
+reviews: 16
 size: '179536896'
 website: https://stackwallet.com/
 repository: 

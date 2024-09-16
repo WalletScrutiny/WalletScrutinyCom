@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bitpezapro.app.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-09-22
+date: 2024-09-16
 signer: 
 reviewArchive: 
 twitter: 

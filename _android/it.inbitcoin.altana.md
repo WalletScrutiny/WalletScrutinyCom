@@ -9,7 +9,7 @@ users: 1000
 appId: it.inbitcoin.altana
 appCountry: 
 released: 2017-04-18
-updated: 2023-04-18
+updated: 2024-09-15
 version: VARY
 stars: 
 ratings: 
@@ -20,9 +20,9 @@ repository: https://github.com/inbitcoin/altana-android
 issue: https://github.com/inbitcoin/altana-android/issues/5
 icon: it.inbitcoin.altana.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nosource
-date: 2024-04-13
+date: 2024-09-16
 signer: 
 reviewArchive: 
 twitter: 

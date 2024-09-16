@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.app.defi.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
-date: 2023-11-25
+date: 2024-09-16
 signer: 
 reviewArchive: 
 twitter: 

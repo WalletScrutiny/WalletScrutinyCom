@@ -9,7 +9,7 @@ appId: com.nova.dax
 appCountry: 
 released: 2019-09-20
 updated: 2024-09-13
-version: 3.4.2
+version: 3.4.3
 stars: 4.2
 ratings: 15890
 reviews: 38

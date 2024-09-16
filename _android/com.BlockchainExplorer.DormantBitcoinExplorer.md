@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.BlockchainExplorer.DormantBitcoinExplorer.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
-date: 2024-05-15
+date: 2024-09-16
 signer: 
 reviewArchive: 
 twitter: 

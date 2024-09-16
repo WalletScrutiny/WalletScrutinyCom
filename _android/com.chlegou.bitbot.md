@@ -8,8 +8,8 @@ users: 100000
 appId: com.chlegou.bitbot
 appCountry: 
 released: 2019-01-02
-updated: 2024-04-22
-version: 2.0.1
+updated: 2024-09-14
+version: 2.1.0
 stars: 4
 ratings: 7718
 reviews: 432
