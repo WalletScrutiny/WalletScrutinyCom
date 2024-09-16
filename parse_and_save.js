@@ -37,8 +37,7 @@ function parseFile(filePath) {
                     entries.push({
                         appId,
                         signer,
-                        apkVersionName: reviewData.version || '',
-                        apkVersionCode: '',
+                        version: reviewData.version || '',
                         verdict: reviewData.verdict || '',
                         appHash: reviewData.appHash,
                         date: reviewData.date || ''
@@ -65,11 +64,10 @@ function parseFile(filePath) {
                 entries.push({
                     appId: currentTestResults.appId || '',
                     signer: currentTestResults.signer || '',
-                    apkVersionName: currentTestResults.apkVersionName || '',
-                    apkVersionCode: currentTestResults.apkVersionCode || '',
+                    version: currentTestResults.apkVersionName || '',
                     verdict: currentTestResults.verdict || '',
-                    appHash: currentTestResults.appHash,
-                    date: currentTestResults.date
+                    appHash: currentTestResults.appHash || data.appHash,
+                    date: currentTestResults.date  || data.date
                 });
             } else {
                 console.log('Skipping current test result due to missing appHash:', currentTestResults);
@@ -79,12 +77,13 @@ function parseFile(filePath) {
         }
 
         console.log('Final entries:', entries);
-        return entries;
+        return { appId, entries };
     } catch (error) {
         console.error(`Error parsing file ${filePath}: ${error.message}`);
-        return [];
+        return { appId: '', entries: [] };
     }
 }
+
 function parseYAML(yamlString) {
     console.log('yamlString:', yamlString)
     const lines = yamlString.split('\n');
@@ -97,7 +96,7 @@ function parseYAML(yamlString) {
 
     for (let line of lines) {
         line = line.trimRight();
-        if (line === '' || line.startsWith('#')) continue;
+        if (line === '' || line.startsWith('#') || line.startsWith('>-')) continue;
 
         if (line.startsWith('- ')) {
 
@@ -133,13 +132,16 @@ function parseYAML(yamlString) {
             var parts = trimmedLine.split(':');
             if (parts.length > 0) {
                 var key = parts[0].trim();
-                var value = parts[1].trim();
+                var value = parts.slice(1).join(':').trim();
                 if (value.length == 0) {
                     value = undefined;
                 }
                 console.log('-- key', '[' + key + ']', 'value', '[' + value + ']', 'last', last, 'dict', dict);
-                dict[key] = value;
-                // console.log('-- result[last][key]', result[last][key]);
+                if (dict) {
+                    dict[key] = value;
+                } else {
+                    console.log('Warning: Trying to set property on undefined dict. Skipping.');
+                }
             }
         }
         else {
@@ -179,6 +181,7 @@ function parseResults(resultsString) {
 
 function processFilesInDirectory(directoryPath) {
     const outputData = [];
+    const appIds = new Set(); // Use a Set to store unique appIds
     const files = fs.readdirSync(directoryPath);
     let filesProcessed = 0;
 
@@ -186,19 +189,60 @@ function processFilesInDirectory(directoryPath) {
         if (filename.endsWith('.md')) {
             const filePath = path.join(directoryPath, filename);
             console.log(`Processing file: ${filePath}`);
-            const entries = parseFile(filePath);
+            const { appId, entries } = parseFile(filePath);
+            
+            let folderName = path.basename(directoryPath);
+            folderName = folderName.startsWith('_') ? folderName.slice(1) : folderName;
+            
+            entries.forEach(entry => {
+                entry.type = folderName;
+            });
+            
             outputData.push(...entries);
+            if (appId) {
+                appIds.add(appId);
+            }
             filesProcessed += 1;
         }
     });
 
-    console.log(`Total files processed: ${filesProcessed}`);
-    let outputFile = 'assets/attestations.json';
-    fs.writeFileSync(outputFile, JSON.stringify(outputData.filter(entry => entry.appHash), null, 2), 'utf8');
-    console.log(`Output written to ${outputFile}`);
+    console.log(`Total files processed in ${directoryPath}: ${filesProcessed}`);
+    return { outputData, appIds };
 }
 
-// Directory path to the folder containing your Markdown files
-const directoryPath = process.argv[2] || '/path/to/your/markdown/files';
-console.log(`Using directory path: ${directoryPath}`);
-processFilesInDirectory(directoryPath);
+function processAllDirectories(directoryPaths) {
+    let attestationData = [];
+    let allAppIds = new Set();
+
+    directoryPaths.forEach(directoryPath => {
+        console.log(`Processing directory: ${directoryPath}`);
+        const { outputData, appIds } = processFilesInDirectory(directoryPath);
+        attestationData.push(...outputData);
+        appIds.forEach(id => allAppIds.add(id));
+    });
+
+    console.log(`Total directories processed: ${directoryPaths.length}`);
+    
+    // Filter attestations and write to file
+    const filteredAttestations = attestationData.filter(entry => entry.appHash);
+    let attestationsFile = 'assets/attestations.json';
+    fs.writeFileSync(attestationsFile, JSON.stringify(filteredAttestations, null, 2), 'utf8');
+    console.log(`${filteredAttestations.length} attestations written to ${attestationsFile}`);
+
+    // Write app-ids.json
+    const appIdsArray = Array.from(allAppIds);
+    let appIdsFile = 'assets/app-ids.json';
+    fs.writeFileSync(appIdsFile, JSON.stringify(appIdsArray, null, 2), 'utf8');
+    console.log(`${appIdsArray.length} App IDs written to ${appIdsFile}`);
+}
+
+// Get directory paths from command-line arguments
+const directoryPaths = process.argv.slice(2);
+
+if (directoryPaths.length === 0) {
+    console.log('Please provide at least one directory path as a command-line argument.');
+    process.exit(1);
+}
+
+console.log(`Using directory paths: ${directoryPaths.join(', ')}`);
+processAllDirectories(directoryPaths);
