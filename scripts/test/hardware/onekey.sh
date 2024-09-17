@@ -1,127 +1,102 @@
 #!/bin/bash
-### provide this script with the version without "v" and device type (classic, mini)
-### and short release date (mmdd like 0511) which is the suffix of the released binary
-version=$1
-type=$2
-short_release_date=$3
+# onekey.sh
 
-if [[ $type == mini ]]; then
-    boot_version_variable="BOOT_VERSION=\$(./tools/version.sh ./legacy/bootloader/version.h)"
-    build_script="nix-shell --run \"poetry run ./legacy/script/setup\"
-                  nix-shell --run \"export ONEKEY_MINI=1 && poetry run ./legacy/script/cibuild\"
-                  cp ./legacy/firmware/${type}*Stable*.bin /firmware"
-elif [[ $type == classic ]]; then
-    boot_version_variable="BOOT_VERSION=\$(./tools/version.sh ./legacy/bootloader/version.h)"
-    build_script="nix-shell --run \"poetry run ./legacy/script/setup\"
-                  nix-shell --run \"poetry run ./legacy/script/cibuild\"
-                  cp ./legacy/firmware/${type}*Stable*.bin /firmware"
-elif [[ $type == touch ]]; then
-    boot_version_variable="BOOT_VERSION=\$(./tools/version.sh ./core/embed/bootloader/version.h)"
-    build_script="git submodule update --init --recursive
-                  nix-shell --run \"poetry run make -C core build_boardloader\"
-                  nix-shell --run \"poetry run make -C core build_bootloader\"
-                  nix-shell --run \"poetry run make -C core build_firmware\"
-                  nix-shell --run \"poetry run core/tools/headertool.py -h core/build/firmware/touch*Stable*.bin\"
-                  cp ./core/build/firmware/${type}*Stable*.bin /firmware"
+# Ensure the script exits if any command fails
+set -e
+
+# Get the directory of the script
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+
+# Check if the correct number of arguments is provided
+if [ "$#" -ne 4 ]; then
+    echo "Usage: $0 <type> <version> <short_hash> <short_release_date>"
+    exit 1
 fi
 
-rm -rf /tmp/onekey_firmware
-mkdir /tmp/onekey_firmware
-chmod 777 /tmp/onekey_firmware
-cd /tmp/onekey_firmware
+# Assign input arguments to variables
+type=$1
+version=$2
+short_hash=$3
+short_release_date=$4
 
-podman run --rm -v ${PWD}:/firmware ubuntu:20.04 bash -c "
-set -x
-apt update
-apt -y upgrade
-apt install -y curl xz-utils sudo git wget g++
-useradd -m nixuser
-groupadd -r nixbld
-usermod -aG nixbld nixuser
-mkdir /nix
-install -d -m755 -o \$(id nixuser -u) -g \$(id nixuser -g) /nix
-sudo -H -u nixuser bash << EOF
-set -x
-if ! command -v nix-env &> /dev/null
-then 
-    echo 'Nix is not installed. Installing Nix...'
-    sh <(curl -L https://nixos.org/nix/install) --no-daemon
-else
-    echo 'Nix is already installed. Updating to the latest version...'
-    nix-channel --update
-    nix-env -u
-fi
-. ~/.nix-profile/etc/profile.d/nix.sh
-cd ~
-git clone https://github.com/OneKeyHQ/firmware
-cd firmware
-git checkout ${type}/v${version}
-${boot_version_variable}
-FIRMWARE_VERSION=${version}
-BUILD_DATE=\$(git --no-pager log -1 --format=%cd --date=format:'%Y%m%d' ${type}/v${version})
-SHORT_HASH=\$(git rev-parse --short HEAD)
-PRODUCTION=1
-echo 'DEBUG: Current directory: \$(pwd)'
-pwd
-echo 'DEBUG: Contents of current directory:'
-ls -la
-echo 'DEBUG: Contents of ci directory:'
-ls -la ci/
-echo 'DEBUG: Contents of ci/pyright directory:'
-ls -la ci/pyright/
-echo 'DEBUG: Modifying shell.nix to correct pyright path'
-sed -i 's|./pyright|./ci/pyright|' shell.nix
-echo 'DEBUG: Contents of shell.nix:'
-cat shell.nix
-echo 'DEBUG: Attempting to run nix-shell'
-nix-shell --run 'echo DEBUG: Successfully entered nix-shell' || echo 'DEBUG: Failed to enter nix-shell'
-echo 'DEBUG: Running nix-shell with poetry install'
-nix-shell --run 'poetry install' || echo 'DEBUG: Failed to run poetry install'
-echo 'DEBUG: Running nix-shell with setup script'
-nix-shell --run 'poetry run ./legacy/script/setup' || echo 'DEBUG: Failed to run setup script'
-echo 'DEBUG: Running nix-shell with build script'
-nix-shell --run 'poetry run ./legacy/script/cibuild' || echo 'DEBUG: Failed to run build script'
-echo 'DEBUG: Nix-shell commands completed'
-${build_script}
-cd /firmware
-SHORT_HASH=$(git rev-parse --short HEAD)
-# Debug prior to downloading the binary
-echo "DEBUG: Current directory: $(pwd)"
-echo "DEBUG: version: ${version}"
-echo "DEBUG: type: ${type}"
-echo "DEBUG: short_release_date: ${short_release_date}"
-echo "DEBUG: SHORT_HASH value: ${SHORT_HASH}"
-echo "DEBUG: Listing firmware directory content:"
-ls -l
+# Define the Docker image and container names
+IMAGE_NAME="onekey-firmware"
+CONTAINER_NAME="onekey-firmware-container"
 
-# If SHORT_HASH is empty, try to set it from the filename
-if [ -z "$SHORT_HASH" ]; then
-    echo "DEBUG: SHORT_HASH is empty, attempting to set it from filename"
-    SHORT_HASH=$(ls ${type}.*.bin | sed -n "s/.*-\\(.......\\.bin\\)/\\1/p" | sed 's/.bin//')
-    echo "DEBUG: SHORT_HASH set to: ${SHORT_HASH}"
-fi
+# Build the Docker image using the Dockerfile
+echo "Building Docker image..."
+docker build -t $IMAGE_NAME -f "$SCRIPT_DIR/onekey.dockerfile" "$SCRIPT_DIR"
 
-# Modify the wget command to use the correct parameters
-wget -O downloaded-firmware.bin "https://github.com/OneKeyHQ/firmware/releases/download/${type}%2Fv${version}/${type}.${version}-Stable-${short_release_date}-${SHORT_HASH}.signed.bin"
+# Run the Docker container and execute the build inside it
+echo "Running Docker container..."
 
-# Check download result
-if [ $? -eq 0 ]; then
-    echo "DEBUG: Download successful"
-else
-    echo "DEBUG: Download failed"
-    echo "DEBUG: Attempted URL: https://github.com/OneKeyHQ/firmware/releases/download/${type}%2Fv${version}/${type}.${version}-Stable-${short_release_date}-${SHORT_HASH}.signed.bin"
-fi
-EOF
-"
+docker run --rm -it \
+    -v "${PWD}/output:/home/nixuser/firmware/output" \
+    -e TYPE="$type" \
+    -e VERSION="$version" \
+    -e SHORT_HASH="$short_hash" \
+    -e SHORT_RELEASE_DATE="$short_release_date" \
+    --name $CONTAINER_NAME \
+    $IMAGE_NAME \
+    bash -c "
+    set -e
+    source /home/nixuser/.nix-profile/etc/profile.d/nix.sh
+    cd /home/nixuser
 
-sha256sum *
+    # Clone the repository
+    git clone https://github.com/OneKeyHQ/firmware.git
+    cd firmware
 
-# Calculate the SHA-256 sum of the built firmware and the downloaded firmware
-built_firmware_hash=$(sha256sum /firmware/classic*Stable*.bin | awk '{print $1}')
-downloaded_firmware_hash=$(sha256sum downloaded-firmware.bin | awk '{print $1}')
+    # Check out the desired version
+    git checkout ${TYPE}/v${VERSION}
 
-# Output the results in bright cyan
-echo -e "\e[96mRESULTS=========================================="
-echo -e "Built firmware hash: $built_firmware_hash"
-echo -e "Downloaded firmware hash: $downloaded_firmware_hash"
-echo -e "=================================================\e[0m"
+    # Update submodules
+    git submodule update --init --recursive
+
+    # Modify shell.nix if necessary
+    sed -i 's|./pyright|./ci/pyright|' shell.nix
+
+    # Enter Nix shell
+    nix-shell --run 'poetry install'
+
+    # Build the firmware based on the device type
+    if [[ \"${TYPE}\" == \"mini\" ]]; then
+        nix-shell --run 'export ONEKEY_MINI=1 && poetry run ./legacy/script/setup'
+        nix-shell --run 'export ONEKEY_MINI=1 && poetry run ./legacy/script/cibuild'
+        cp ./legacy/firmware/${TYPE}*Stable*.bin /home/nixuser/firmware/output/
+    elif [[ \"${TYPE}\" == \"classic\" ]]; then
+        nix-shell --run 'poetry run ./legacy/script/setup'
+        nix-shell --run 'poetry run ./legacy/script/cibuild'
+        cp ./legacy/firmware/${TYPE}*Stable*.bin /home/nixuser/firmware/output/
+    elif [[ \"${TYPE}\" == \"touch\" ]]; then
+        nix-shell --run 'poetry run make -C core build_boardloader'
+        nix-shell --run 'poetry run make -C core build_bootloader'
+        nix-shell --run 'poetry run make -C core build_firmware'
+        nix-shell --run 'poetry run core/tools/headertool.py -h core/build/firmware/touch*Stable*.bin'
+        cp ./core/build/firmware/${TYPE}*Stable*.bin /home/nixuser/firmware/output/
+    else
+        echo \"Invalid device type: ${TYPE}\"
+        exit 1
+    fi
+
+    # Download the official firmware for comparison
+    mkdir -p /home/nixuser/firmware/output/
+    cd /home/nixuser/firmware/output/
+
+    wget -O downloaded-firmware.bin \"https://github.com/OneKeyHQ/firmware/releases/download/${TYPE}%2Fv${VERSION}/${TYPE}.${VERSION}-Stable-${SHORT_RELEASE_DATE}-${SHORT_HASH}.signed.bin\"
+
+    # Calculate SHA-256 checksums
+    echo 'Calculating checksums...'
+    sha256sum ./${TYPE}*Stable*.bin > built_firmware.sha256
+    sha256sum downloaded-firmware.bin > downloaded_firmware.sha256
+
+    # Display the results
+    echo -e \"\e[96mRESULTS==========================================\"
+    echo -e \"Built firmware hash:\"
+    cat built_firmware.sha256
+    echo -e \"Downloaded firmware hash:\"
+    cat downloaded_firmware.sha256
+    echo -e \"=================================================\e[0m\"
+    "
+
+echo "Build completed. Check the 'output' directory for results."
