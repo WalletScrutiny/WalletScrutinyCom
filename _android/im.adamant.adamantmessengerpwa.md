@@ -20,8 +20,8 @@ issue:
 icon: im.adamant.adamantmessengerpwa.png
 bugbounty: 
 meta: ok
-verdict: reproducible
-date: 2024-09-13
+verdict: nonverifiable
+date: 2024-09-18
 signer: 
 reviewArchive: 
 twitter: adamant_im
@@ -67,10 +67,12 @@ We spent the better part of the day grappling with errors following these instru
    keytool -genkey -v -keystore android/app/dummy.keystore -alias dummy -keyalg RSA -keysize 2048 -validity 10000 -storepass dummy123 -keypass dummy123 -dname "CN=Dummy,OU=Dummy,O=Dummy,L=Dummy,S=Dummy,C=US"
    ```
 
-### There is a need to modify three files: 
+### There is a need to modify three files from the Adamant repository: 
+- [android/app/build.gradle](https://github.com/Adamant-im/adamant-im/blob/master/android/app/build.gradle)
+- [capacitor.env.example (is renamed capacitor.env)](https://github.com/Adamant-im/adamant-im/blob/master/capacitor.env.example)
+- [scripts/capacitor/build-android.mjs](https://github.com/Adamant-im/adamant-im/blob/master/scripts/capacitor/build-android.mjs)
   
-  - **android/app/build.gradle**
-
+  - **android/app/build.gradle**. Here, we insert the *defaultConfig* and *signingConfigs* configuration blocks above **buildTypes**
     ```
     defaultConfig {
         applicationId "im.adamant.adamantmessengerpwa"
@@ -102,20 +104,16 @@ We spent the better part of the day grappling with errors following these instru
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
-
     ```
-  - **capacitor.env** at the root of the cloned adamant-im folder
-
+  - **capacitor.env** is located at the root of the cloned adamant-im folder. Capacitor is a native bridge for cross-platform apps. It usually holds variables that are needed for the build environment.
     ```
     ANDROID_KEYSTORE_PATH="app/dummy.keystore"
     ANDROID_KEYSTORE_PASSWORD="dummy123"
     ANDROID_KEYSTORE_ALIAS="dummy"
     ANDROID_KEYSTORE_ALIAS_PASSWORD="dummy123"
     ANDROID_RELEASE_TYPE="AAB"
-
     ```
-  - **scripts/capacitor/build-android.mjs**
-
+  - **scripts/capacitor/build-android.mjs** is Adamant's build script 
     ```
     import dotenv from 'dotenv'
     import { $ } from 'execa'
@@ -162,30 +160,30 @@ We spent the better part of the day grappling with errors following these instru
 
 ### Build output after these modifications: 
 
-    `npm run android:build`
+- We then run `npm run android:build`
 
-    ```
-    ✔ Copying web assets from dist to android/app/src/main/assets/public in 43.57ms
-    ✔ Creating capacitor.config.json in android/app/src/main/assets in 1.28ms
-    ✔ copy android in 118.22ms
-    ✔ Updating Android plugins in 19.33ms
-    ✔ update android in 114.17ms
-    ✔ copy web in 38.59ms
-    ✔ update web in 36.08ms
-    [info] Sync finished in 0.506s
-    Build arguments: [
-    '--keystorepath="/home/danny/work/builds/im.adamant.adamantmessengerpwa/4.8.1/2/adamant-im/android/app/dummy.keystore"',
-    '--keystorepass="dummy123"',
-    '--keystorealias="dummy"',
-    '--keystorealiaspass="dummy123"',
-    '--androidreleasetype="AAB"',
-    '--signing-type jarsigner'
-    ]
-    ✔ Running Gradle build in 1.56s
-    ✔ Signing Release in 1.69s
-    [success] Successfully generated app-release-signed.aab at:
-    /home/danny/work/builds/im.adamant.adamantmessengerpwa/4.8.1/2/adamant-im/android/app/build/outputs/bundle/release
-    ```
+```bash
+✔ Copying web assets from dist to android/app/src/main/assets/public in 43.57ms
+✔ Creating capacitor.config.json in android/app/src/main/assets in 1.28ms
+✔ copy android in 118.22ms
+✔ Updating Android plugins in 19.33ms
+✔ update android in 114.17ms
+✔ copy web in 38.59ms
+✔ update web in 36.08ms
+[info] Sync finished in 0.506s
+Build arguments: [
+'--keystorepath="/home/danny/work/builds/im.adamant.adamantmessengerpwa/4.8.1/2/adamant-im/android/app/dummy.keystore"',
+'--keystorepass="dummy123"',
+'--keystorealias="dummy"',
+'--keystorealiaspass="dummy123"',
+'--androidreleasetype="AAB"',
+'--signing-type jarsigner'
+]
+✔ Running Gradle build in 1.56s
+✔ Signing Release in 1.69s
+[success] Successfully generated app-release-signed.aab at:
+/home/danny/work/builds/im.adamant.adamantmessengerpwa/4.8.1/2/adamant-im/android/app/build/outputs/bundle/release
+```    
 
 Now we need to generate 3 split apks to match those we pulled from our phone from the AAB we generated.
 
@@ -197,23 +195,20 @@ Now we need to generate 3 split apks to match those we pulled from our phone fro
 
 ### Copy the device-spec.json file from our device
 
-    `$ cp ~/work/device-spec/a11/device-spec.json .`
+    $ cp ~/work/device-spec/a11/device-spec.json .
 
 ### Download bundletool
 
-    `wget https://github.com/google/bundletool/releases/download/1.15.6/bundletool-all-1.15.6.jar`
+    wget https://github.com/google/bundletool/releases/download/1.15.6/bundletool-all-1.15.6.jar
 
 ### Use bundletool to generate APKs
 
-    ```
     java -jar bundletool-all-1.15.6.jar build-apks --bundle=/home/danny/work/builds/im.adamant.adamantmessengerpwa/4.8.1/2/adamant-im/android/app/build/outputs/bundle/release/app-release-signed.aab --output=device-specific.apks --device-spec=device-spec.json
-    ```
+    
 
 ### Extract the APKs
 
-    ```
     unzip device-specific.apks -d device_specific_apks
-    ```
 
 ### We then copy the split apks from our phone to the build server and place them in the *fromOfficial/* folder
 
@@ -223,7 +218,6 @@ Now we need to generate 3 split apks to match those we pulled from our phone fro
 
 ### We run a diff on the corresponding folders:
 
-    ```
     danny@lw10:~/work/compare/im.adamant.adamantmessngerpwa/4.8.1$ diff -r from*/base
     Binary files fromBuild/base/AndroidManifest.xml and fromOfficial/base/AndroidManifest.xml differ
     Only in fromOfficial/base/META-INF: BNDLTOOL.RSA
@@ -245,7 +239,6 @@ Now we need to generate 3 split apks to match those we pulled from our phone fro
     Only in fromOfficial/xhdpi: META-INF
     Binary files fromBuild/xhdpi/resources.arsc and fromOfficial/xhdpi/resources.arsc differ
     Only in fromOfficial/xhdpi: stamp-cert-sha256
-    ```
 
 ## Analysis of the diffs
 
@@ -253,7 +246,6 @@ In contrast with {% include walletLink.html wallet='android/world.bitkey.app' ve
 
 ### diffoscope --text resources.arsc.diff.txt fromBuild/base/resources.arsc fromOfficial/base/resources.arsc
 
-    ```
     danny@lw10:~/work/compare/im.adamant.adamantmessngerpwa/4.8.1$ cat resources.arsc.diff.txt 
     --- fromOfficial/base/resources.arsc
     +++ fromBuild/base/resources.arsc
@@ -275,25 +267,100 @@ In contrast with {% include walletLink.html wallet='android/world.bitkey.app' ve
     0000db30: 0000 0000 0000 0000 0000 0000 0000 0000  ................
     0000db40: 0000 0000 0000 0000 0000 0000 0000 0000  ................
     0000db50: 0000 0000 0000 0000 0102 5400 4802 0000  ..........T.H...
-    ```
 
 One such minor difference could be found at offset 0000dae0. Specifically the last `0100` (1 in decimal - official) and `0000` (0 in decimal - built). Which was also described in the **bitkey** review. The Bitkey team noted in resources.arsc:
 
 > Unfortunately Google Play has changed how they build resources.arsc. From our testing, it seems like they are using a previously reserved byte. When built using bundletool, that byte is always 0, thus making direct comparison using diff impossible.
 
-This brings us to the last step in our process - using aapt2 to check for diffs.
+Looking into this deeper, I find that generating hexdumps for *built* and *official* resources.arsc, will show more instances of these changes. [(Complete nosbin of the diffoscope of the hexdump)](https://nosbin.com/nevent1qqswgty4esa79g7tmkyyym7r86w5wph5rflncxmfzy275z20zuv9msgpzemhxue69uhkzarvv9ejumn0wd68ytnvv9hxgqg4waehxw309ajkgetw9ehx7um5wghxcctwvsq3wamnwvaz7tmwdaehgu3wvekhgtnhd9azucnf0gq3gamnwvaz7tmwdaehgu3wdau8gu3wv3jhvqgswaehxw309ahx7um5wgh8w6twv5q3jamnwvaz7tmwdaehgu3w0fjkyetyv4jjucmvda6kgqghwaehxw309aex2mrp0yhxxatjwfjkuapwveukjqg5waehxw309aex2mrp0yhxgctdw4eju6t0qyt8wumn8ghj7un9d3shjtnwdaeky6tw9e3k7mgprfmhxue69uhhyetvv9ujummjv9hxwetsd9kxctnyv4mqzxrhwden5te0wfjkccte9eekummjwsh8xmmrd9skc3jawjl)
 
-    ```
-    danny@lw10:~/work/compare/im.adamant.adamantmessngerpwa/4.8.1$ aapt2 diff fromBuild/base.apk fromOfficial/base.apk
-    danny@lw10:~/work/compare/im.adamant.adamantmessngerpwa/4.8.1$ aapt2 diff fromBuild/en.apk fromOfficial/en.apk
-    danny@lw10:~/work/compare/im.adamant.adamantmessngerpwa/4.8.1$ aapt2 diff fromBuild/xhdpi.apk fromOfficial/xhdpi.apk
-    ```
+### Using xxd shows more differences in resources.arsc
 
-No results indicate that are no differences.
+```
+$ xxd fromBuild/base/resources.arsc > built_resources.hex
+$ xxd fromOfficial/base/resources.arsc > official_resources.hex
+$ diffoscope built_resources.hex official_resources.hex
+```
 
-For this reason, we determine the app to be **reproducible**
+1. At offset `0000dae0`:  
+```
+- 0100 0000  
++ 0100 0100
+```
 
-# Update 2024-07-20
+2. At offset `0000dda0`:  
+```
+- 0200 0000  
++ 0200 0100
+```
+
+3. At offset `0000de90`:  
+```
+- 0300 0000  
++ 0300 0100
+```
+
+4. At offset `00010fc0`:  
+```
+- 0400 0000  
++ 0400 0200
+```
+
+5. At offset `00011c20`:  
+```
+- 0600 0000  
++ 0600 0700
+```
+
+6. At offset `00014b90`:  
+```
+- 0800 0000  
++ 0800 0100
+```
+
+7. At offset `00015e20`:  
+```
+- 0900 0000  
++ 0900 0100
+```
+
+8. At offset `00015f20`:  
+```
+- 0a00 0000  
++ 0a00 0100
+```
+
+9. At offset `00016ba0`:  
+```
+- 0d00 0000  
++ 0d00 0100
+```
+
+10. At offset `00016ff0`:  
+```
+- 0e00 0000  
++ 0e00 0d00
+```
+
+11. At offset `00020020`:  
+```
+- 1000 0000  
++ 1000 0100
+```
+
+12. At offset `00016020`:  
+```
+- 0b00 0000  
++ 0b00 0300
+```
+
+From what I understand with Bitkey's case, the difference in resources.arsc is only with 1 byte. Running xxd to generate a hexdump prior to running diffoscope on the hexdump between *build* and *official* results in diffs in at least 12 offsets. 
+
+These diffs could be significant, especially if they are *control bytes*. Although they may seem insignificant, a difference between `0` and `1` could be the difference between turning an option, flag, or switch "on" or "off". 
+
+For this reason, we are amending our verdict to **nonverifiable**.
+
+# Previous Review 2024-07-20
 
 We found the repository for Adamant IM Messenger with a [GitHub release version](https://github.com/Adamant-im/adamant-im/releases/tag/v4.7.3) that is close to the Google Play version. 
 
