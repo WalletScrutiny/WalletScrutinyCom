@@ -44,7 +44,7 @@ ENV NODE_ENV="development" \
 
 RUN mkdir edge-react-gui && \
     cd edge-react-gui && \
-    git clone --branch v4.8.0 --depth 1 --no-tags --single-branch https://github.com/EdgeApp/edge-react-gui/ .
+    git clone --branch v4.12.0 --depth 1 --no-tags --single-branch https://github.com/EdgeApp/edge-react-gui/ .
 
 WORKDIR /home/appuser/edge-react-gui
 
