@@ -4,6 +4,7 @@ title: Swiss Bitcoin Pay
 altTitle: 
 authors:
 - danny
+- keraliss
 users: 1000
 appId: ch.swissbitcoinpay.checkout
 appCountry: 
@@ -21,9 +22,14 @@ icon: ch.swissbitcoinpay.checkout.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2024-08-23
+date: 2024-09-18
 signer: 
 reviewArchive:
+- date: 2024-08-23
+  version: 2.1.1
+  appHash: 62df7d225d6178688f451604552fb5d79525a257ac59e281f0c02f4c96e4d343
+  gitRevision: 3703a5d0543f672252f7b37e5636a9e40c3b6e5e
+  verdict: nonverifiable
 - date: 2024-06-04
   version: 2.1.0
   appHash: 
@@ -39,6 +45,41 @@ features:
 - ln
 
 ---
+
+## Update 2024-09-10:
+We tested the project using our <strong>test script <a href="/testScript">(?)</a></strong>, and here is the result:
+```
+===== Begin Results =====
+appId:          ch.swissbitcoinpay.checkout
+signer:         17d9c0bf025008da16d5a146e1beaca6ddcfe3cb0cf063da23c847d3007eb621
+apkVersionName: 2.1.1
+apkVersionCode: 381
+verdict:        
+appHash:        62df7d225d6178688f451604552fb5d79525a257ac59e281f0c02f4c96e4d343
+commit:         b350085a6f30027a83a8fdb18b73c5aed073cc97
+
+Diff:
+Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_381/AndroidManifest.xml and /tmp/fromBuild_ch.swissbitcoinpay.checkout_381/AndroidManifest.xml differ
+Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_381/assets/index.android.bundle and /tmp/fromBuild_ch.swissbitcoinpay.checkout_381/assets/index.android.bundle differ
+Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_381/res/drawable-mdpi-v4/src_assets_images_bitcoinwhiteborder.png and /tmp/fromBuild_ch.swissbitcoinpay.checkout_381/res/drawable-mdpi-v4/src_assets_images_bitcoinwhiteborder.png differ
+Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_381/res/drawable-mdpi-v4/src_assets_images_boltcardblack.png and /tmp/fromBuild_ch.swissbitcoinpay.checkout_381/res/drawable-mdpi-v4/src_assets_images_boltcardblack.png differ
+Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_381/res/drawable-mdpi-v4/src_assets_images_boltcard.png and /tmp/fromBuild_ch.swissbitcoinpay.checkout_381/res/drawable-mdpi-v4/src_assets_images_boltcard.png differ
+Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_381/res/drawable-mdpi-v4/src_assets_images_logosquarerounded.png and /tmp/fromBuild_ch.swissbitcoinpay.checkout_381/res/drawable-mdpi-v4/src_assets_images_logosquarerounded.png differ
+Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_381/res/mipmap-hdpi-v4/ic_launcher_adaptive_fore.png and /tmp/fromBuild_ch.swissbitcoinpay.checkout_381/res/mipmap-hdpi-v4/ic_launcher_adaptive_fore.png differ
+Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_381/resources.arsc and /tmp/fromBuild_ch.swissbitcoinpay.checkout_381/resources.arsc differ
+Only in /tmp/fromPlay_ch.swissbitcoinpay.checkout_381: stamp-cert-sha256
+
+Revision, tag (and its signature):
+
+===== End Results =====
+```
+{% include asciicast %}
+
+The app built successfully although many of the differences consisted of timestamps and file permission codes.
+
+The amount of diffs indicate that the app is **nonverifiable.** 
+
+
 
 ## App Description from Google Play
 
