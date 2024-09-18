@@ -12,7 +12,7 @@ updated: 2024-08-26
 version: 3.1.4
 stars: 4.4
 ratings: 
-reviews: 18
+reviews: 19
 size: 
 website: https://www.iq-trading.com
 repository: 

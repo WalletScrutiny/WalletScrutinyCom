@@ -14,7 +14,7 @@ stars: 4.9
 ratings: 
 reviews: 
 size: 
-website: https://bytedex.io
+website: https://bexc.io
 repository: 
 issue: 
 icon: io.bytedex.mobile.tr.png
@@ -28,7 +28,7 @@ twitter: byteexchange
 social:
 - https://facebook.com/ByteExchangeOfficial
 redirect_from: 
-developerName: Byte Blockchain Technologies
+developerName: Bytedex Teknoloji A.ş.
 features: 
 
 ---

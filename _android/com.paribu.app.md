@@ -12,7 +12,7 @@ updated: 2024-09-11
 version: 5.0.2
 stars: 2.9
 ratings: 73042
-reviews: 101
+reviews: 102
 size: 
 website: https://www.paribu.com
 repository: 

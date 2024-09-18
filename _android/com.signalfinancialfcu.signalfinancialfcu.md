@@ -31,7 +31,7 @@ social:
 - https://www.youtube.com/channel/UCJnL9Mcc6BPw4s_BMGoYafw
 - https://www.facebook.com/signalfinancialFCU
 redirect_from: 
-developerName: Signal Financial FCU
+developerName: Signal Financial Federal Credit Union
 features: 
 
 ---

@@ -10,8 +10,8 @@ idd: '991673877'
 released: 2015-09-29
 updated: 2024-09-12
 version: 2.90.0
-stars: 4.8
-reviews: 207738
+stars: 4.7
+reviews: 210263
 size: '418003968'
 website: https://www.maya.ph/
 repository: 

@@ -11,7 +11,7 @@ released: 2021-11-28
 updated: 2024-09-10
 version: 3.0.1
 stars: 4.8
-reviews: 36
+reviews: 37
 size: '84302848'
 website: http://thorwallet.org
 repository: 

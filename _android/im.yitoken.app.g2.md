@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: im.yitoken.app.g2.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2024-08-19
+date: 2024-09-18
 signer: 
 reviewArchive: 
 twitter: 

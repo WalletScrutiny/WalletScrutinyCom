@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: br.com.yappi.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nowallet
-date: 2023-11-08
+date: 2024-09-18
 signer: 
 reviewArchive: 
 twitter: yappi_br

@@ -9,7 +9,7 @@ appId: com.tradestation.MobileTrading
 appCountry: us
 released: 2013-09-09
 updated: 2024-09-09
-version: 6.3.0
+version: 6.4.0
 stars: 3.4
 ratings: 4823
 reviews: 1978

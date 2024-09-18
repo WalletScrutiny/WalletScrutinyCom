@@ -65,6 +65,7 @@ developerName: Edge (formerly Airbitz)
 features: 
 
 ---
+
 **Update 2024-09-10:**
 
 **Review: EdgeSecure Wallet Build**

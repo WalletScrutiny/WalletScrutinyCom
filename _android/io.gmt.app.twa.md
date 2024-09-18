@@ -1,6 +1,6 @@
 ---
 wsId: goMiningToken
-title: GoMining
+title: GoMining - Coin Mining App
 altTitle: 
 authors:
 - danny
@@ -10,9 +10,9 @@ appCountry:
 released: 2023-02-22
 updated: 2024-08-15
 version: '31'
-stars: 2.9
+stars: 2.8
 ratings: 
-reviews: 290
+reviews: 289
 size: 
 website: https://gomining.com
 repository: 

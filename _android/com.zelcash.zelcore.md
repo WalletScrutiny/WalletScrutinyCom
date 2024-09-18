@@ -11,9 +11,9 @@ appCountry:
 released: 2018-09-21
 updated: 2024-08-26
 version: 8.5.0
-stars: 3.5
+stars: 3.4
 ratings: 834
-reviews: 134
+reviews: 135
 size: 
 website: https://zelcore.io
 repository: 
@@ -31,7 +31,7 @@ social:
 redirect_from:
 - /com.zelcash.zelcore/
 - /posts/com.zelcash.zelcore/
-developerName: Zelcore Technologies Inc
+developerName: Influx Technologies Limited
 features: 
 
 ---

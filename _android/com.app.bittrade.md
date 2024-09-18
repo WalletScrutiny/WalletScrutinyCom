@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.app.bittrade.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2024-02-20
+date: 2024-09-18
 signer: 
 reviewArchive: 
 twitter: 

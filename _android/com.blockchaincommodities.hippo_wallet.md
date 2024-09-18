@@ -8,8 +8,8 @@ users: 100000
 appId: com.blockchaincommodities.hippo_wallet
 appCountry: 
 released: 2022-02-05
-updated: 2024-03-16
-version: 1.17.0
+updated: 2024-09-17
+version: 1.18.1
 stars: 4.1
 ratings: 
 reviews: 16

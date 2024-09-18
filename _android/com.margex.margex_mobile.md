@@ -4,15 +4,15 @@ title: Margex – Up to 100x Leverage
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.margex.margex_mobile
 appCountry: 
 released: 2022-01-21
 updated: 2024-09-11
 version: 4.4.1
-stars: 4
+stars: 3.9
 ratings: 
-reviews: 40
+reviews: 41
 size: 
 website: https://margex.com
 repository: 

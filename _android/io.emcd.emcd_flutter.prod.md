@@ -1,6 +1,6 @@
 ---
 wsId: emcdPoolWallet
-title: 'EMCD: Mining pool, Wallet, P2P'
+title: 'EMCD: Crypto Wallet Mining BTC'
 altTitle: 
 authors:
 - danny
@@ -10,9 +10,9 @@ appCountry:
 released: 2022-01-03
 updated: 2024-09-09
 version: 2.4.0
-stars: 4.2
+stars: 4.1
 ratings: 
-reviews: 17
+reviews: 18
 size: 
 website: https://emcd.io/ru
 repository: 
