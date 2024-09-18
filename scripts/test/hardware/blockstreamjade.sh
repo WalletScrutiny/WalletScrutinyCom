@@ -64,7 +64,7 @@ for variant in {10,11}_{ble,noR}; do
   head -c -4096 $downloaded > $stripped
   expectedHash=$(sha256sum $stripped | awk '{print $1}')
   actualHash=$(sha256sum $built | awk '{print $1}')
-  sha256sum *${variant}*.bin(|.gz)
+  sha256sum *${variant}*.bin{,.gz}
   if [ "$expectedHash" == "$actualHash" ]; then
     echo "The Jade firmware version ${version} ${variant} is reproducible with above hashes."
   else
