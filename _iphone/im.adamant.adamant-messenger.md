@@ -14,13 +14,13 @@ stars: 4.9
 reviews: 18
 size: '49580032'
 website: https://adamant.im
-repository: 
+repository: https://github.com/Adamant-im/adamant-iOS
 issue: 
 icon: im.adamant.adamant-messenger.jpg
 bugbounty: 
 meta: ok
-verdict: nosource
-date: 2023-04-15
+verdict: nonverifiable
+date: 2024-09-19
 signer: 
 reviewArchive: 
 twitter: adamant_im
