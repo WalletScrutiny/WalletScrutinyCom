@@ -22,7 +22,7 @@ issue: https://github.com/KomodoPlatform/komodo-wallet-mobile/issues/116
 icon: com.komodoplatform.atomicdex.png
 bugbounty: 
 meta: ok
-verdict: ftbfs
+verdict: nosource
 date: 2024-08-30
 signer: cb9c6d9f6b0d981e24b771cbe946ae32af09e71de174a2d39756161b481d94b3
 reviewArchive: 
@@ -43,7 +43,10 @@ features:
 ---
 **Update 2024-08-30:**
 
-**Review: Komodo Wallet APK Build**
+## Version Unavailable: 
+We were testing the Komodo Wallet APK version 0.9.2, but the source code is currently not available. Please open an issue with the provider regarding this matter. We will close the merge request for now and revisit it once the source code is available.
+
+**Review: Komodo Wallet 0.9.0 APK Build**
 
 We attempted to build the Komodo Wallet APK using the instructions provided in the repository. The build process requires running a Dockerfile that utilizes the `fetch_coins.sh` script to fetch necessary coin data files. Unfortunately, we encountered an issue due to the absence of required files, such as `coins_config.json`, which the script depends on.
 
@@ -87,7 +90,7 @@ The error indicates that the `libmm2.a` library file is missing from the path `/
 
 **Conclusion:**
 
-The Komodo Wallet APK build was not successful due to missing essential files required by the `fetch_coins.sh` script, as well as a missing library file (`libmm2.a`) necessary for the build process when attempting without the script. As a result, the wallet is **not verifiable**. 
+The Komodo Wallet APK build was not successful, and since the source code for version 0.9.2 is not available, we conclude that there is no source code available for verification, making the wallet not verifiable.
 
 ## Reproducibility
 
