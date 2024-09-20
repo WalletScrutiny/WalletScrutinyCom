@@ -21,7 +21,7 @@ issue: https://github.com/SlvLabs/slavi-wallet/issues/8
 icon: com.defiwalletmobile.png
 bugbounty: 
 meta: ok
-verdict: ftbfs
+verdict: nosource
 date: 2024-09-12
 signer: 
 reviewArchive: 
@@ -64,7 +64,7 @@ This suggests that npm was unable to clone a required Git repository due to SSH 
 - Attempted to bypass SSH authentication by setting the `GIT_ASKPASS` environment variable.
 
 **Conclusion:**
-The build for the Slavi Wallet was **unsuccessful** due to issues with `npm install`. The wallet remains **not verifiable** at this time, and further investigation is required to resolve Git repository access issues during npm dependency installation.
+The build for the Slavi Wallet was unsuccessful due to issues with npm install. The repository requires access to a private repo for building, which we don't have access to. Therefore, it is marked as **nosource** and the wallet remains **not verifiable** at this time.
 
 ## App Description from Google Play
 

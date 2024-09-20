@@ -38,14 +38,15 @@ RUN gem update --system 3.3.22
 RUN gem install ffi -v 1.17.0
 
 # Set up Git configuration for private repository access
-RUN git config --global url."https://keraliss:glpat-1jVtsgctKFqyDgQ9PyAy@gitlab.com/".insteadOf "https://gitlab.com/"
+# NOTE: Replace <TOKEN> with your personal access token
+RUN git config --global url."https://<USERNAME>:<TOKEN>@gitlab.com/".insteadOf "https://gitlab.com/"
 
 # Install CocoaPods
 RUN gem install cocoapods
 
 # Install Android SDK dependencies
 RUN mkdir -p "/home/appuser/sdk/licenses" && \
-    echo "24333f8a63b6825ea9c5514f83c2829b004d1fee" > "/home/appuser/sdk/licenses/android-sdk-license"
+    echo "YOUR_LICENSE_HASH" > "/home/appuser/sdk/licenses/android-sdk-license"
 
 # Download and unzip the Android command line tools
 RUN wget https://dl.google.com/android/repository/commandlinetools-linux-9123335_latest.zip && \
