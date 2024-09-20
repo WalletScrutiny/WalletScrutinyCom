@@ -10,7 +10,7 @@ released: 2021-06-10
 updated: 2024-09-18
 version: 3.18.2
 stars: 4.2
-reviews: 35
+reviews: 34
 size: '49969152'
 website: https://knaken.eu/
 repository: 

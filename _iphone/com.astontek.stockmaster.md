@@ -11,9 +11,9 @@ released: 2013-03-07
 updated: 2024-05-07
 version: '7.29'
 stars: 4.6
-reviews: 69062
+reviews: 69075
 size: '87494656'
-website: https://www.astontek.com
+website: https://finabase.io
 repository: 
 issue: 
 icon: com.astontek.stockmaster.jpg
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
-developerName: Astontek Inc
+developerName: Apponance, Inc.
 
 ---
 

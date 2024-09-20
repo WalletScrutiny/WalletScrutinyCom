@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.fulldive.extension.fdwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-12-02
+date: 2024-09-20
 signer: 
 reviewArchive: 
 twitter: 

@@ -8,8 +8,8 @@ users: 100000
 appId: com.satang.pro
 appCountry: 
 released: 2020-04-12
-updated: 2024-09-13
-version: 2.0.89
+updated: 2024-09-18
+version: '2.2'
 stars: 3.5
 ratings: 
 reviews: 4

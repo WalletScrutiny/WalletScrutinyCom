@@ -11,7 +11,7 @@ released: 2018-10-05
 updated: 2023-12-13
 version: 3.0.1
 stars: 4.6
-reviews: 48
+reviews: 47
 size: '23826432'
 website: https://lisk.com/wallet
 repository: 

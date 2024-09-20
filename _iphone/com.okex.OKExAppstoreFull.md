@@ -11,7 +11,7 @@ released: 2018-01-04
 updated: 2024-09-17
 version: 6.85.0
 stars: 4.6
-reviews: 14276
+reviews: 14314
 size: '375868416'
 website: https://www.okx.com/download
 repository: 

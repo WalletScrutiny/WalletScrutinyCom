@@ -11,7 +11,7 @@ released: 2021-03-01
 updated: 2024-09-18
 version: 3.6.1
 stars: 4.9
-reviews: 139
+reviews: 138
 size: '160303104'
 website: https://help.trubit.com/en
 repository: 

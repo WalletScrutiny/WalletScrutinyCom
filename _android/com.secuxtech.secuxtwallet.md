@@ -8,8 +8,8 @@ users: 10000
 appId: com.secuxtech.secuxtwallet
 appCountry: TW
 released: 2022-05-20
-updated: 2024-08-13
-version: 2.1.00
+updated: 2024-09-13
+version: 2.1.01
 stars: 4.4
 ratings: 
 reviews: 2

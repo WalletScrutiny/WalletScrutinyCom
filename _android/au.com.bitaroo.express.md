@@ -8,8 +8,8 @@ users: 1000
 appId: au.com.bitaroo.express
 appCountry: 
 released: 
-updated: 2024-09-18
-version: 1.6.0
+updated: 2024-09-19
+version: 1.7.0
 stars: 
 ratings: 
 reviews: 

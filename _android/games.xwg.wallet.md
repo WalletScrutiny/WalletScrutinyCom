@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: games.xwg.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2024-01-24
+date: 2024-09-20
 signer: 
 reviewArchive: 
 twitter: xwg_games

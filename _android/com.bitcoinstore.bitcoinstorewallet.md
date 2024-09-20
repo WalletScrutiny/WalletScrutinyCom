@@ -4,7 +4,7 @@ title: Bitcoin Store Wallet
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.bitcoinstore.bitcoinstorewallet
 appCountry: 
 released: 2023-01-03

@@ -1,6 +1,6 @@
 ---
 wsId: coin98
-title: 'Coin98: Crypto & Defi Wallet'
+title: 'Coin98: Crypto & AI Wallet'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: coin98.crypto.finance.insights
 appCountry: us
 idd: 1561969966
 released: 2021-05-14
-updated: 2024-09-16
-version: 15.7.1
+updated: 2024-09-20
+version: 15.7.2
 stars: 4.5
 reviews: 661
-size: '239343616'
+size: '239699968'
 website: https://coin98.com
 repository: 
 issue: 
