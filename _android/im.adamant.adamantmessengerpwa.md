@@ -16,7 +16,7 @@ reviews: 15
 size: 
 website: https://adamant.im
 repository: https://github.com/Adamant-im/adamant-im
-issue: 
+issue: https://github.com/Adamant-im/adamant-im/issues/666
 icon: im.adamant.adamantmessengerpwa.png
 bugbounty: 
 meta: ok
@@ -359,6 +359,8 @@ From what I understand with Bitkey's case, the difference in resources.arsc is o
 These diffs could be significant, especially if they are *control bytes*. Although they may seem insignificant, a difference between `0` and `1` could be the difference between turning an option, flag, or switch "on" or "off". 
 
 For this reason, we are amending our verdict to **nonverifiable**.
+
+We filed an [issue](https://github.com/Adamant-im/adamant-im/issues/666) with them, and [invited them](https://x.com/dannybuntu/status/1836657095112081602) to collaborate.
 
 # Previous Review 2024-07-20
 
