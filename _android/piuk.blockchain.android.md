@@ -9,11 +9,11 @@ users: 10000000
 appId: piuk.blockchain.android
 appCountry: 
 released: 2013-02-01
-updated: 2024-09-16
+updated: 2024-09-19
 version: 202407.2.17
 stars: 3.9
 ratings: 115830
-reviews: 6119
+reviews: 6120
 size: 
 website: https://www.blockchain.com
 repository: 

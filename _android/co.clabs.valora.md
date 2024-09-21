@@ -12,7 +12,7 @@ updated: 2024-09-11
 version: 1.93.1
 stars: 4.3
 ratings: 
-reviews: 304
+reviews: 303
 size: 
 website: https://valoraapp.com
 repository: 

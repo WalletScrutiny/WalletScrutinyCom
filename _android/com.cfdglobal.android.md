@@ -12,7 +12,7 @@ updated: 2024-09-05
 version: 2.30.1
 stars: 4.4
 ratings: 336
-reviews: 7
+reviews: 8
 size: 
 website: https://www.capex.com
 repository: 

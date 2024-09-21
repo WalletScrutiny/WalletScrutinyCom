@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: org.chainverse.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nobtc
-date: 2024-03-19
+date: 2024-09-21
 signer: 
 reviewArchive: 
 twitter: Chainverseorg

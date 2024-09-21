@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.delio.deliohybrid.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2024-03-12
+date: 2024-09-21
 signer: 
 reviewArchive: 
 twitter: happydelio

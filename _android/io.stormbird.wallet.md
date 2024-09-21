@@ -4,7 +4,7 @@ title: AlphaWallet - Ethereum Wallet
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: io.stormbird.wallet
 appCountry: us
 released: 2018-05-19

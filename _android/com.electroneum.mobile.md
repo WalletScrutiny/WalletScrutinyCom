@@ -11,7 +11,7 @@ updated: 2024-05-01
 version: 5.6.0
 stars: 2.8
 ratings: 58803
-reviews: 2066
+reviews: 2065
 size: 
 website: http://electroneum.com
 repository: 

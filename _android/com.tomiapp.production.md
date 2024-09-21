@@ -1,6 +1,6 @@
 ---
 wsId: tomiPay
-title: tomi Wallet
+title: tomiPAY
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 50000
 appId: com.tomiapp.production
 appCountry: 
 released: 2022-09-08
-updated: 2024-09-19
-version: '119.0'
+updated: 2024-09-20
+version: '120.0'
 stars: 
 ratings: 
 reviews: 

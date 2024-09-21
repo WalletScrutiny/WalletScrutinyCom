@@ -12,7 +12,7 @@ updated: 2024-09-17
 version: 3.159.1
 stars: 4.1
 ratings: 
-reviews: 8608
+reviews: 8610
 size: 
 website: https://public.com
 repository: 
@@ -32,7 +32,7 @@ social:
 - https://medium.com/the-public-blog
 - https://www.tiktok.com/@public
 redirect_from: 
-developerName: Public Holdings Inc
+developerName: Public Holdings, Inc.
 features: 
 
 ---

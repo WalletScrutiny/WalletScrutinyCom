@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.mobile.stablehouse.env.stablehouse.io.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-03
+date: 2024-09-21
 signer: 
 reviewArchive: 
 twitter: 
