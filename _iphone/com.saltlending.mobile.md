@@ -11,7 +11,7 @@ released: 2019-01-07
 updated: 2024-09-19
 version: 2.14.37
 stars: 4.6
-reviews: 24
+reviews: 25
 size: '68432896'
 website: https://saltlending.com/
 repository: 

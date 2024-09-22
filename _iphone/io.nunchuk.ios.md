@@ -11,8 +11,8 @@ idd: 1563190073
 released: 2021-12-16
 updated: 2024-09-09
 version: 1.9.54
-stars: 4.7
-reviews: 51
+stars: 4.8
+reviews: 52
 size: '119414784'
 website: https://nunchuk.io
 repository: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.authentrend.atwallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2021-04-13
+date: 2024-09-22
 signer: 
 reviewArchive: 
 twitter: 

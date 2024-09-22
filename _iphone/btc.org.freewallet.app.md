@@ -10,8 +10,8 @@ idd: '1126844329'
 released: 2016-07-08
 updated: 2022-01-14
 version: 2.6.23
-stars: 4
-reviews: 114
+stars: 3.8
+reviews: 93
 size: '18610176'
 website: https://freewallet.org/btc-wallet
 repository: 

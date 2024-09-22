@@ -4,7 +4,7 @@ title: ProfitTradingApp For Bybit
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.profittrading.forbybit
 appCountry: 
 released: 2020-03-22

@@ -3,7 +3,7 @@ wsId:
 title: GleecDEX
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.gleec.gleecdex
 appCountry: 
 released: 2021-05-16

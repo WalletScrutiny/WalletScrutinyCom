@@ -12,7 +12,7 @@ updated: 2024-09-18
 version: 3.0.21
 stars: 3.8
 ratings: 291
-reviews: 7
+reviews: 8
 size: 
 website: https://simplefx.com
 repository: 
