@@ -69,7 +69,7 @@
 }
 
 // Updated styles for APK info and App Data
-#apk-info, #app-data {
+#app-data,  #file-info {
   border: 2px solid;
   border-radius: 5px;
   padding: 10px;
@@ -81,7 +81,7 @@
   }
 }
 
-#apk-info {
+#file-info {
   background-color: #1e5121;
 }
 

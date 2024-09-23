@@ -55,46 +55,40 @@ async function handleFile(file) {
     const hash = await calculateFileHash(file);
 
     // Display initial file information
-    displayInitialFileInfo(file, hash);
+    displayFileInfo(file, hash);
 
-    let apkInfoPromise = null;
-    if (file.name.toLowerCase().endsWith('.apk')) {
-        // Parse APK file asynchronously
-        apkInfoPromise = parseAPK(file).then(info => {
-            if (info) {
-                displayApkInfo(info);
-                checkAppIdMismatch(info.package);
-            }
-        }).catch(error => {
-            console.warn('Error parsing APK:', error);
-        });
-    } else {
+    if (!file.name.toLowerCase().endsWith('.apk')) {
         showUnsupportedFileMessage(file);
         console.timeEnd("Total handleFile time");
         return;
     }
 
     // Start fetching app data
-    const appDataPromise = fetchAppData(hash).then(appData => {
-        if (appData) { // Hash is in attestations.json
-            displayAppData(appData);
-        } else { // Hash is NOT in attestations.json        
-            showUnknownFileMessage();
-        }
-    }).catch(error => {
-        console.error('Error fetching app data:', error);
-    });
+    const appData = await fetchAppData(hash);
 
-    // Wait for both promises to complete (if needed)
-    await Promise.all([apkInfoPromise, appDataPromise]);
+    if (appData) { // Hash is in attestations.json
+        displayAppData(appData);
+        checkAppIdMismatch(appData.appId);
+    } else { // Hash is NOT in attestations.json
+        showUnknownFileMessage();
+        // Parse APK file only if hash is not found
+        try {
+            const apkInfo = await parseAPK(file);
+            if (apkInfo) {
+                checkAppIdMismatch(apkInfo.package);
+            }
+        } catch (error) {
+            console.warn('Error parsing APK:', error);
+        }
+    }
 
     console.timeEnd("Total handleFile time");
     console.log(`for file: ${file.name}, ${formatFileSize(file.size)}`);
 }
 
-function displayInitialFileInfo(file, hash) {
-    const initialInfoDiv = document.getElementById('initial-info');
-    initialInfoDiv.innerHTML = `
+function displayFileInfo(file, hash) {
+    const fileInfoDiv = document.getElementById('file-info');
+    fileInfoDiv.innerHTML = `
         <h3>File Information</h3>
         <strong>File:</strong> ${file ? file.name : 'N/A'}<br>
         <strong>Size:</strong> ${file ? formatFileSize(file.size) : 'N/A'}<br>
@@ -103,8 +97,8 @@ function displayInitialFileInfo(file, hash) {
 }
 
 function showUnsupportedFileMessage(file) {
-    const initialInfoDiv = document.getElementById('initial-info');
-    initialInfoDiv.innerHTML = `
+    const fileInfoDiv = document.getElementById('file-info');
+    fileInfoDiv.innerHTML = `
         <h3>Unsupported File</h3>
         <p>The file "${file.name}" is not supported. Please upload an APK file.</p>
     `;
@@ -172,22 +166,9 @@ async function fetchAppData(hash) {
 
 function clearFileList() {
     console.log("Clearing file list");
-    document.getElementById('initial-info').innerHTML = '';
+    document.getElementById('file-info').innerHTML = '';
     document.getElementById('app-data').innerHTML = '';
-    document.getElementById('apk-info').innerHTML = '';
     document.getElementById('redirect-button').innerHTML = '';
-}
-
-function displayApkInfo(info) {
-    console.log("Displaying APK info");
-    const apkInfoDiv = document.getElementById('apk-info');
-    apkInfoDiv.innerHTML = `
-        <h3>APK Information</h3>
-        <strong>Package:</strong> ${info.package || 'N/A'}<br>
-        <strong>Version:</strong> ${info.versionName || 'N/A'} (${info.versionCode || 'N/A'})<br>
-        <strong>Min SDK:</strong> ${info.usesSdk?.minSdkVersion || 'N/A'}<br>
-        <strong>Target SDK:</strong> ${info.usesSdk?.targetSdkVersion || 'N/A'}<br>
-    `;
 }
 
 function formatFileSize(bytes) {
