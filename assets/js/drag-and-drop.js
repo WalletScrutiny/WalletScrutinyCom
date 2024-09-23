@@ -1,8 +1,5 @@
-let knownAppIds = [];
-
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     initializeDragAndDrop();
-    loadKnownAppIds();
 });
 
 function initializeDragAndDrop() {
@@ -33,25 +30,30 @@ function setupHighlightEvents(element) {
 
 function handleDrop(e) {
     const files = e.dataTransfer.files;
-    processDroppedFiles(files);
+    if (files.length > 1) {
+        alert('Please drop only one file at a time.');
+        return;
+    }
+    processFile(files[0]);
 }
 
 function handleFileSelect(files) {
-    processDroppedFiles(files);
+    if (files.length > 1) {
+        alert('Please select only one file at a time.');
+        return;
+    }
+    processFile(files[0]);
 }
 
-function processDroppedFiles(files) {
-    if (files.length > 0) {
-        clearFileList();  // Clear the list before displaying new information
-        const file = files[0];
-        handleFile(file);
-    }
+function processFile(file) {
+    clearFileList();  // Clear the list before displaying new information
+    handleFile(file);
 }
 
 async function handleFile(file) {
     const hash = await calculateFileHash(file);
     let apkInfo = null;
-    
+
     if (file.name.toLowerCase().endsWith('.apk')) {
         try {
             apkInfo = await parseAPK(file);
@@ -60,36 +62,44 @@ async function handleFile(file) {
             // Proceed without APK info
         }
     }
-    
+
     const appData = await fetchAppData(hash);
-    
+
     clearFileList();
-    
-    if (appData) {
+
+    let appId = null;
+    if (appData) { // Hash is in attestations.json
         displayAppData(appData);
+
+        if (appData?.appId) {
+            appId = appData.appId;
+        }
+    } else { // Hash is NOT in attestations.json        
+        showUnknownFileMessage();
+        if (apkInfo?.package) {
+            appId = apkInfo.package;
+        }
     }
+
     displayApkInfo(apkInfo, hash, file);
-    
-    if (apkInfo?.package) {
-        checkAppIdMismatch(apkInfo.package);
-    }
+    checkAppIdMismatch(appId);
+}
+
+function showUnknownFileMessage() {
+    const fileList = document.getElementById('file-list');
+    const div = document.createElement('div');
+    div.className = 'unknown-file';
+    div.innerHTML = `
+        <h3>Unknown File</h3>
+        <p>We don't know this file. It could be a new version, one we did not test yet, or something malicious.</p>
+    `;
+    fileList.appendChild(div);
 }
 
 async function calculateFileHash(file) {
-    const reader = new FileReader();
-    reader.readAsArrayBuffer(file);
-
-    return new Promise((resolve, reject) => {
-        reader.onloadend = async function() {
-            try {
-                const hash = await sha256(reader.result); // Use the new sha256 function
-                resolve(hash);
-            } catch (error) {
-                reject(error);
-            }
-        };
-        reader.onerror = reject;
-    });
+    const arrayBuffer = await file.arrayBuffer();
+    const hash = await sha256(arrayBuffer); // Use the new sha256 function
+    return hash;
 }
 
 async function sha256(data) {
@@ -171,36 +181,24 @@ function displayAppData(appData) {
     fileList.appendChild(div);
 }
 
-async function loadKnownAppIds() {
-    const cachedAppIds = localStorage.getItem('knownAppIds');
-    if (cachedAppIds) {
-        knownAppIds = JSON.parse(cachedAppIds);
-    } else {
-        try {
-            const response = await fetch('/assets/app-ids.json');
-            if (!response.ok) throw new Error('Network response was not ok');
-            knownAppIds = await response.json();
-            localStorage.setItem('knownAppIds', JSON.stringify(knownAppIds));
-        } catch (error) {
-            console.error('Error loading known app IDs:', error);
+function checkAppIdMismatch(appId) {
+    const appIdFromPage = window.pageAppId;
+
+    if (appIdFromPage !== appId) {
+        let app = window.wallets.find(it => it.appId === appId);
+
+        if (app) {
+            showRedirectButton(app);
         }
     }
 }
 
-function checkAppIdMismatch(packageName) {
-    const appIdFromPage = window.pageAppId;
-
-    if (appIdFromPage !== packageName && knownAppIds.includes(packageName)) {
-        showRedirectButton(packageName);
-    }
-}
-
-function showRedirectButton(packageName) {
+function showRedirectButton(app) {
     const fileList = document.getElementById('file-list');
     const button = document.createElement('button');
-    button.innerHTML = `Go to Correct Page for ${packageName}`;
+    button.innerHTML = `Go to correct page for "${app.title}"`;
     button.onclick = () => {
-        window.location.href = `/android/${packageName}/`;  // Redirect to the correct page
+        window.location.href = `/${app.folder}/${app.appId}/`;  // Redirect to the correct page
     };
     fileList.appendChild(button);
 }
