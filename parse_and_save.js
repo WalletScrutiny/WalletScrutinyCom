@@ -1,11 +1,11 @@
 const fs = require('fs');
 const path = require('path');
+const yaml = require('js-yaml'); 
 
 function parseFile(filePath) {
     try {
         console.log(`Reading file: ${filePath}`);
         const content = fs.readFileSync(filePath, 'utf8');
-        console.log('File content read successfully.');
 
         const yamlPart = content.match(/---\n([\s\S]+?)\n---/);
         if (!yamlPart) {
@@ -16,14 +16,13 @@ function parseFile(filePath) {
         const yamlContent = yamlPart[1];
         console.log('YAML content extracted:', yamlContent);
 
-        const data = parseYAML(yamlContent);
+        const data = yaml.load(yamlContent, { schema: yaml.FAILSAFE_SCHEMA }); // Use js-yaml with FAILSAFE_SCHEMA to prevent date parsing
         console.log('Parsed YAML data:', data);
 
         console.log('Parsed YAML data:', JSON.stringify(data));
 
         const appId = data.appId || '';
         const signer = data.signer || '';
-        const date = data.date || '';
 
         let entries = [];
 
@@ -77,92 +76,11 @@ function parseFile(filePath) {
         }
 
         console.log('Final entries:', entries);
-        return { appId, entries };
+        return entries; // Return only entries
     } catch (error) {
         console.error(`Error parsing file ${filePath}: ${error.message}`);
-        return { appId: '', entries: [] };
+        return [];
     }
-}
-
-function parseYAML(yamlString) {
-    console.log('yamlString:', yamlString)
-    const lines = yamlString.split('\n');
-    const result = {};
-    let currentContext = [result];
-    let currentIndent = 0;
-    let last;
-
-    let dict;
-
-    for (let line of lines) {
-        line = line.trimRight();
-        if (line === '' || line.startsWith('#') || line.startsWith('>-')) continue;
-
-        if (line.startsWith('- ')) {
-
-            console.log('result[last] ==> ', result[last], typeof result[last])
-            if (result[last] == undefined) {
-                result[last] = [];
-            }
-
-            const trimmedLine = line.slice(2).trim();
-            console.log('line1', '[' + trimmedLine + ']');
-
-            if (trimmedLine.includes(':')) {
-                dict = {};
-                var parts = trimmedLine.split(': ');
-                if (parts.length > 0) {
-                    var key = parts[0];
-                    var value = parts[1];
-                    console.log('- key', '[' + key + ']', 'value', '[' + value + ']');
-                    dict[key] = value;
-                    result[last].push(dict);
-                }
-
-            }
-            else {
-                result[last].push(trimmedLine);
-            }
-
-        }
-        else if (line.startsWith('  ')) {
-            const trimmedLine = line.slice(2).trim();
-            console.log('line2', '[' + trimmedLine + ']');
-
-            var parts = trimmedLine.split(':');
-            if (parts.length > 0) {
-                var key = parts[0].trim();
-                var value = parts.slice(1).join(':').trim();
-                if (value.length == 0) {
-                    value = undefined;
-                }
-                console.log('-- key', '[' + key + ']', 'value', '[' + value + ']', 'last', last, 'dict', dict);
-                if (dict) {
-                    dict[key] = value;
-                } else {
-                    console.log('Warning: Trying to set property on undefined dict. Skipping.');
-                }
-            }
-        }
-        else {
-            const trimmedLine = line.trim();
-            console.log('line3', '[' + trimmedLine + ']');
-            var parts = trimmedLine.split(':');
-            if (parts.length > 0) {
-                var key = parts[0].trim();
-                var value = parts[1].trim();
-                if (value.length == 0) {
-                    value = undefined;
-                }
-
-                console.log('key', '[' + key + ']', 'value', '[' + value + ']');
-                result[key] = value;
-                last = key;
-            }
-        }
-    }
-
-    return result;
 }
 
 function parseResults(resultsString) {
@@ -181,44 +99,36 @@ function parseResults(resultsString) {
 
 function processFilesInDirectory(directoryPath) {
     const outputData = [];
-    const appIds = new Set(); // Use a Set to store unique appIds
     const files = fs.readdirSync(directoryPath);
     let filesProcessed = 0;
+
+    let folderName = path.basename(directoryPath);
+    folderName = folderName.startsWith('_') ? folderName.slice(1) : folderName;
 
     files.forEach(filename => {
         if (filename.endsWith('.md')) {
             const filePath = path.join(directoryPath, filename);
             console.log(`Processing file: ${filePath}`);
-            const { appId, entries } = parseFile(filePath);
-            
-            let folderName = path.basename(directoryPath);
-            folderName = folderName.startsWith('_') ? folderName.slice(1) : folderName;
-            
+
+            const entries = parseFile(filePath);
             entries.forEach(entry => {
-                entry.type = folderName;
+                entry.platform = folderName;
             });
-            
             outputData.push(...entries);
-            if (appId) {
-                appIds.add(appId);
-            }
             filesProcessed += 1;
         }
     });
 
-    console.log(`Total files processed in ${directoryPath}: ${filesProcessed}`);
-    return { outputData, appIds };
+    console.log(`Found ${outputData.length} appHashes in ${filesProcessed} files in directory: ${directoryPath}.`);
+    return outputData; // Return only outputData
 }
 
 function processAllDirectories(directoryPaths) {
     let attestationData = [];
-    let allAppIds = new Set();
-
     directoryPaths.forEach(directoryPath => {
         console.log(`Processing directory: ${directoryPath}`);
-        const { outputData, appIds } = processFilesInDirectory(directoryPath);
+        const outputData = processFilesInDirectory(directoryPath); 
         attestationData.push(...outputData);
-        appIds.forEach(id => allAppIds.add(id));
     });
 
     console.log(`Total directories processed: ${directoryPaths.length}`);
@@ -228,12 +138,6 @@ function processAllDirectories(directoryPaths) {
     let attestationsFile = 'assets/attestations.json';
     fs.writeFileSync(attestationsFile, JSON.stringify(filteredAttestations, null, 2), 'utf8');
     console.log(`${filteredAttestations.length} attestations written to ${attestationsFile}`);
-
-    // Write app-ids.json
-    const appIdsArray = Array.from(allAppIds);
-    let appIdsFile = 'assets/app-ids.json';
-    fs.writeFileSync(appIdsFile, JSON.stringify(appIdsArray, null, 2), 'utf8');
-    console.log(`${appIdsArray.length} App IDs written to ${appIdsFile}`);
 }
 
 // Get directory paths from command-line arguments

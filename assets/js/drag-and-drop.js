@@ -1,8 +1,5 @@
-let knownAppIds = [];
-
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function () {
     initializeDragAndDrop();
-    loadKnownAppIds();
 });
 
 function initializeDragAndDrop() {
@@ -33,118 +30,145 @@ function setupHighlightEvents(element) {
 
 function handleDrop(e) {
     const files = e.dataTransfer.files;
-    processDroppedFiles(files);
+    if (files.length > 1) {
+        alert('Please drop only one file at a time.');
+        return;
+    }
+    processFile(files[0]);
 }
 
 function handleFileSelect(files) {
-    processDroppedFiles(files);
+    if (files.length > 1) {
+        alert('Please select only one file at a time.');
+        return;
+    }
+    processFile(files[0]);
 }
 
-function processDroppedFiles(files) {
-    if (files.length > 0) {
-        clearFileList();  // Clear the list before displaying new information
-        const file = files[0];
-        handleFile(file);
-    }
+function processFile(file) {
+    clearFileList();  // Clear the list before displaying new information
+    handleFile(file);
 }
 
 async function handleFile(file) {
+    console.time("Total handleFile time");
     const hash = await calculateFileHash(file);
-    let apkInfo = null;
-    
-    if (file.name.toLowerCase().endsWith('.apk')) {
+
+    // Display initial file information
+    displayFileInfo(file, hash);
+
+    if (!file.name.toLowerCase().endsWith('.apk')) {
+        showUnsupportedFileMessage(file);
+        console.timeEnd("Total handleFile time");
+        return;
+    }
+
+    // Start fetching app data
+    const appData = await fetchAppData(hash);
+
+    if (appData) { // Hash is in attestations.json
+        displayAppData(appData);
+        checkAppIdMismatch(appData.appId);
+    } else { // Hash is NOT in attestations.json
+        showUnknownFileMessage();
+        // Parse APK file only if hash is not found
         try {
-            apkInfo = await parseAPK(file);
+            const apkInfo = await parseAPK(file);
+            if (apkInfo) {
+                checkAppIdMismatch(apkInfo.package);
+            }
         } catch (error) {
             console.warn('Error parsing APK:', error);
-            // Proceed without APK info
         }
     }
-    
-    const appData = await fetchAppData(hash);
-    
-    clearFileList();
-    
-    if (appData) {
-        displayAppData(appData);
-    }
-    displayApkInfo(apkInfo, hash, file);
-    
-    if (apkInfo?.package) {
-        checkAppIdMismatch(apkInfo.package);
-    }
+
+    console.timeEnd("Total handleFile time");
+    console.log(`for file: ${file.name}, ${formatFileSize(file.size)}`);
+}
+
+function displayFileInfo(file, hash) {
+    const fileInfoDiv = document.getElementById('file-info');
+    fileInfoDiv.innerHTML = `
+        <h3>File Information</h3>
+        <strong>File:</strong> ${file ? file.name : 'N/A'}<br>
+        <strong>Size:</strong> ${file ? formatFileSize(file.size) : 'N/A'}<br>
+        <strong>SHA-256:</strong> ${hash || 'N/A'}<br>
+    `;
+}
+
+function showUnsupportedFileMessage(file) {
+    const fileInfoDiv = document.getElementById('file-info');
+    fileInfoDiv.innerHTML = `
+        <h3>Unsupported File</h3>
+        <p>The file "${file.name}" is not supported. Please upload an APK file.</p>
+    `;
+}
+
+function showUnknownFileMessage() {
+    const appDataDiv = document.getElementById('app-data');
+    appDataDiv.innerHTML = `
+        <h3>Unknown File</h3>
+        <p>We don't know this file. It could be a new version, one we did not test yet, or something malicious.</p>
+    `;
 }
 
 async function calculateFileHash(file) {
-    const reader = new FileReader();
-    reader.readAsArrayBuffer(file);
-
-    return new Promise((resolve, reject) => {
-        reader.onloadend = async function() {
-            try {
-                const hash = await sha256(reader.result); // Use the new sha256 function
-                resolve(hash);
-            } catch (error) {
-                reject(error);
-            }
-        };
-        reader.onerror = reject;
-    });
+    console.time("calculateFileHash");
+    console.log("Calculating file hash");
+    const arrayBuffer = await file.arrayBuffer();
+    const hash = await sha256(arrayBuffer);
+    console.timeEnd("calculateFileHash");
+    return hash;
 }
 
 async function sha256(data) {
+    console.time("sha256");
+    console.log("Calculating SHA-256 hash");
     const hash = await window.crypto.subtle.digest("SHA-256", data);
     const hashArray = Array.from(new Uint8Array(hash));
     const hex = hashArray.map(b => b.toString(16).padStart(2, "0")).join("");
+    console.timeEnd("sha256");
     return hex;
 }
 
 async function parseAPK(file) {
+    console.time("parseAPK");
+    console.log("Parsing APK file");
     try {
         const parser = new window.AppInfoParser(file);
-        return await parser.parse();
+        const result = await parser.parse();
+        console.timeEnd("parseAPK");
+        return result;
     } catch (error) {
         console.error('Error parsing APK:', error);
+        console.timeEnd("parseAPK");
         return null;
     }
 }
 
 async function fetchAppData(hash) {
+    console.time("fetchAppData");
+    console.log("Fetching app data");
     try {
         const response = await fetch('/assets/attestations.json');
         if (!response.ok) throw new Error('Network response was not ok');
 
         const appData = await response.json();
         const results = appData.filter(app => app.appHash === hash);
+        console.timeEnd("fetchAppData");
         return results.length > 0 ? results[0] : null;
     } catch (error) {
         console.error('Error loading app data:', error);
+        console.timeEnd("fetchAppData");
         return null;
     }
 }
 
 function clearFileList() {
-    const fileList = document.getElementById('file-list');
-    fileList.innerHTML = '';  // Clear all previous information
-}
-
-function displayApkInfo(info, hash, file) {
-    const fileList = document.getElementById('file-list');
-    const div = document.createElement('div');
-    div.className = 'apk-info';
-    div.innerHTML = `
-        <h3>File Information</h3>
-        <strong>File:</strong> ${file ? file.name : 'N/A'}<br>
-        <strong>Size:</strong> ${file ? formatFileSize(file.size) : 'N/A'}<br>
-        <strong>SHA-256:</strong> ${hash || 'N/A'}<br>
-        ${info ? `
-        <strong>Package:</strong> ${info.package || 'N/A'}<br>
-        <strong>Version:</strong> ${info.versionName || 'N/A'} (${info.versionCode || 'N/A'})<br>
-        <strong>Min SDK:</strong> ${info.usesSdk?.minSdkVersion || 'N/A'}<br>
-        <strong>Target SDK:</strong> ${info.usesSdk?.targetSdkVersion || 'N/A'}<br>
-        ` : ''}
-    `;
-    fileList.appendChild(div);
+    console.log("Clearing file list");
+    document.getElementById('file-info').innerHTML = '';
+    document.getElementById('app-data').innerHTML = '';
+    document.getElementById('redirect-button').innerHTML = '';
 }
 
 function formatFileSize(bytes) {
@@ -156,51 +180,41 @@ function formatFileSize(bytes) {
 }
 
 function displayAppData(appData) {
-    const fileList = document.getElementById('file-list');
-    const div = document.createElement('div');
-    div.className = 'app-data';
-    div.innerHTML = `
+    console.log("Displaying app data");
+    const appDataDiv = document.getElementById('app-data');
+    appDataDiv.innerHTML = `
         <h3>App Data</h3>
         <strong>Verdict:</strong> <span class="verdict">${appData.verdict}</span><br>
         <strong>App ID:</strong> ${appData.appId}<br>
         <strong>Signer:</strong> ${appData.signer}<br>
         <strong>Version:</strong> ${appData.version}<br>
-        <strong>Version Code:</strong> ${appData.apkVersionCode || 'undefined'}<br>
         <strong>Date:</strong> ${appData.date || 'undefined'}<br>
     `;
-    fileList.appendChild(div);
 }
 
-async function loadKnownAppIds() {
-    const cachedAppIds = localStorage.getItem('knownAppIds');
-    if (cachedAppIds) {
-        knownAppIds = JSON.parse(cachedAppIds);
-    } else {
-        try {
-            const response = await fetch('/assets/app-ids.json');
-            if (!response.ok) throw new Error('Network response was not ok');
-            knownAppIds = await response.json();
-            localStorage.setItem('knownAppIds', JSON.stringify(knownAppIds));
-        } catch (error) {
-            console.error('Error loading known app IDs:', error);
-        }
-    }
-}
-
-function checkAppIdMismatch(packageName) {
+function checkAppIdMismatch(appId) {
+    console.log("Checking app ID mismatch");
+    console.time("checkAppIdMismatch");
     const appIdFromPage = window.pageAppId;
 
-    if (appIdFromPage !== packageName && knownAppIds.includes(packageName)) {
-        showRedirectButton(packageName);
+    if (appIdFromPage !== appId) {
+        let app = window.wallets.find(it => it.appId === appId);
+
+        if (app) {
+            showRedirectButton(app);
+        }
     }
+    console.timeEnd("checkAppIdMismatch");
 }
 
-function showRedirectButton(packageName) {
-    const fileList = document.getElementById('file-list');
+function showRedirectButton(app) {
+    console.log("Showing redirect button");
+    const redirectButtonDiv = document.getElementById('redirect-button');
+    redirectButtonDiv.innerHTML = ''; // Clear any existing content
     const button = document.createElement('button');
-    button.innerHTML = `Go to Correct Page for ${packageName}`;
+    button.innerHTML = `Go to correct page for "${app.title}"`;
     button.onclick = () => {
-        window.location.href = `/android/${packageName}/`;  // Redirect to the correct page
+        window.location.href = `/${app.folder}/${app.appId}/`;  // Redirect to the correct page
     };
-    fileList.appendChild(button);
+    redirectButtonDiv.appendChild(button);
 }

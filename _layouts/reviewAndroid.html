@@ -60,7 +60,11 @@ layout: default
           <input type="file" id="fileElem" accept=".apk">
           <label class="button" for="fileElem">Select an APK file</label>
         </form>
-        <div id="file-list"></div>
+        <div id="file-list">
+          <div id="file-info" class="info-section"></div>
+          <div id="app-data" class="info-section"></div>
+          <div id="redirect-button" class="info-section"></div>
+        </div>
       </div>
       <!-- Drag-and-Drop-Area End -->
 
@@ -96,7 +100,6 @@ layout: default
   </article>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jsSHA/3.2.0/sha256.min.js"></script>
 <script src="https://unpkg.com/app-info-parser/dist/app-info-parser.min.js"></script>
 <script src="{{ base_path }}/assets/js/drag-and-drop.js"></script>
 
