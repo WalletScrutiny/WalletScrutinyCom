@@ -56,11 +56,16 @@ layout: default
       <!-- Drag-and-Drop-Area Start -->
       <div id="drop-area">
         <form class="my-form">
-          <p>Drop your file here</p>
-          <input type="file" id="fileElem" accept="*/*">
-          <label class="button" for="fileElem">Select file</label>
+          <p>Drop your APK here</p>
+          <input type="file" id="fileElem" accept=".apk">
+          <label class="button" for="fileElem">Select an APK file</label>
         </form>
-        <div id="file-list"></div>
+        <div id="file-list">
+          <div id="initial-info" class="info-section"></div>
+          <div id="app-data" class="info-section"></div>
+          <div id="apk-info" class="info-section"></div>
+          <div id="redirect-button" class="info-section"></div>
+        </div>
       </div>
       <!-- Drag-and-Drop-Area End -->
 

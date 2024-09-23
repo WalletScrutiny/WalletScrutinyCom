@@ -69,7 +69,7 @@
 }
 
 // Updated styles for APK info and App Data
-.apk-info, .app-data {
+#apk-info, #app-data {
   border: 2px solid;
   border-radius: 5px;
   padding: 10px;
@@ -81,11 +81,11 @@
   }
 }
 
-.apk-info {
+#apk-info {
   background-color: #1e5121;
 }
 
-.app-data {
+#app-data {
   background-color: #072b54;
 
   .verdict {
@@ -98,4 +98,8 @@
     &.unverified { background-color: #FFC107; color: black; }
     &.flagged { background-color: #F44336; }
   }
+}
+
+.info-section:empty {
+  display: none;
 }
