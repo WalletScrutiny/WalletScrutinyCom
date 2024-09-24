@@ -9,7 +9,7 @@ authors:
 released: 2022-08-23
 discontinued: 
 updated: 2024-05-21
-version: v3.8.0
+version: v3.9.0
 binaries: 
 dimensions:
 - 86
@@ -28,9 +28,14 @@ icon: onekey.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2024-08-06
+date: 2024-09-17
 signer: 
 reviewArchive:
+- date: 2023-07-12
+  version: 3.0.0
+  appHash: a5d4ac8b98c1249f839fba018850df7deb66a3720f13a01c5d94250e426a0a71
+  gitRevision: f5c6f845966914e0bea7c7d2952029ab76388b3b
+  verdict: nonverifiable
 - date: 2022-12-28
   version: 
   appHash: 
@@ -43,7 +48,118 @@ features:
 
 ---
 
-**Update 2023-07-12**: We followed the steps that provider sent to us and ran a script which is based on their
+**Update 2024-09-17**: The script stopped working so we've had to adjust. 
+
+The results for Classic v3.9.0
+
+```
+Calculating checksums...
+RESULTS==========================================
+Built firmware hash:
+4d84d17402d206bed1cbfddaeb08dc92dd3ce9be56add8da28a0963571989451  ./classic.3.9.0-Stable-0917-f3b0717.bin
+Downloaded firmware hash:
+a8d7051ea8b4a85038d032e4b86d5e8ee8f34870e3f861e59bf1a5578c36d176  downloaded-firmware.bin
+=================================================
+Build completed. Check the 'output' directory for results.
+```
+
+{% include asciicast %}
+
+We then generated a hexdump of the built and downloaded firmware. Then used a unified diff to compare.
+
+```
+$ cd output/
+$ xxd classic.3.9.0-Stable-0917-f3b0717.bin > built-firmware.hex
+$ xxd downloaded-firmware.bin > downloaded-firmware.hex
+$ diff -u built-firmware.hex downloaded-firmware.hex > firmware_diff.txt
+```
+
+The output of the diff:
+
+```
+$ cat firmware_diff.txt 
+--- built-firmware.hex	2024-09-17 13:21:42.261583273 +0000
++++ downloaded-firmware.hex	2024-09-17 13:22:02.354205676 +0000
+@@ -16,8 +16,8 @@
+ 000000f0: e521 fc80 b931 89ea 3b32 99a2 536d be7c  .!...1..;2..Sm.|
+ 00000100: a3f1 5cb9 2dc7 c61f 07ed ec29 bdfc 1e53  ..\.-......)...S
+ 00000110: 15fa ecec c0cd 0a87 587b 9861 2c23 e7f0  ........X{.a,#..
+-00000120: c21b d588 58bd e555 9f40 d9eb ea27 6395  ....X..U.@...'c.
+-00000130: 520b 0d70 e29d ec8e 29e1 f5f9 d85b 0dc0  R..p....)....[..
++00000120: db58 e5b4 aa32 5c1b 6a66 1d2b 4e5d 351c  .X...2\.jf.+N]5.
++00000130: 3367 cd45 2fd7 b845 378b 5bf4 a3fd 4ec9  3g.E/..E7.[...N.
+ 00000140: 63b8 efba d27e 0bbd 7595 2426 8d8c d22c  c....~..u.$&...,
+ 00000150: cca3 61d3 7ab9 49c0 a623 e11a c436 f8df  ..a.z.I..#...6..
+ 00000160: 0b4a fa04 7fd6 98be 04f1 c4bd b53f 5f09  .J...........?_.
+@@ -32,23 +32,23 @@
+ 000001f0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00000200: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00000210: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+-00000220: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+-00000230: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+-00000240: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+-00000250: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+-00000260: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+-00000270: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+-00000280: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+-00000290: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+-000002a0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+-000002b0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+-000002c0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+-000002d0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+-000002e0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+-000002f0: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+-00000300: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+-00000310: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+-00000320: 0000 0000 0000 0000 0000 0000 0000 0000  ................
++00000220: 01f3 b146 bc03 1287 f80d 9f74 5036 ba5c  ...F.......tP6.\
++00000230: f347 c55e 1170 71f2 b240 d595 cb9c 8629  .G.^.pq..@.....)
++00000240: 232e bc4f 0c19 a5f0 c2cf 6cd9 6676 a7cf  #..O......l.fv..
++00000250: a7b0 6bd8 dbe2 10d6 8d67 f28e 883f 29ca  ..k......g...?).
++00000260: ba4e 625a dc80 c429 ba29 a343 e3ce 8765  .NbZ...).).C...e
++00000270: 5a0b 9d00 1760 5ea0 0dd1 06ca 89fc 9b12  Z....`^.........
++00000280: 23b3 8730 71c5 3ffb df29 1f21 c5be b599  #..0q.?..).!....
++00000290: 061d 19d3 2810 8c20 5319 7e8e e6c7 8444  ....(.. S.~....D
++000002a0: bb79 ceb0 2f60 3f10 7259 e123 068f 5322  .y../`?.rY.#..S"
++000002b0: 29c8 1860 a3b0 cb80 3cb7 2f6f 9c94 1575  )..`....<./o...u
++000002c0: 4800 5be3 7f6d 6b82 3f66 f8d1 2fa2 19a9  H.[..mk.?f../...
++000002d0: ea5e 8543 cac0 5240 eac5 79ae 2bd4 c819  .^.C..R@..y.+...
++000002e0: 169e 7329 401b b481 9371 b492 a124 c499  ..s)@....q...$..
++000002f0: 26b6 5400 d028 ac41 b168 4ab0 3e2c a8d3  &.T..(.A.hJ.>,..
++00000300: 73d8 31d7 f4d3 e59d 295b c4f8 3124 4e4c  s.1.....)[..1$NL
++00000310: 0594 4313 cd50 efff ac5d b0e4 f59d c1ff  ..C..P...]......
++00000320: 0103 0405 0000 0000 0000 0000 0000 0000  ................
+ 00000330: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00000340: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+ 00000350: 0000 0000 0000 0000 0000 0000 0000 0000  ................
+@@ -35488,7 +35488,7 @@
+ 0008a9f0: b071 7d65 2c08 c79a 4b39 d06c 3c2b d9bc  .q}e,...K9.l<+..
+ 0008aa00: 5f17 b200 332e 392e 3000 636c 6173 7369  _...3.9.0.classi
+ 0008aa10: 632e 332e 392e 302d 5374 6162 6c65 2d30  c.3.9.0-Stable-0
+-0008aa20: 3931 372d 6633 6230 3731 3700 556e 6578  917-f3b0717.Unex
++0008aa20: 3830 352d 6633 6230 3731 3700 556e 6578  805-f3b0717.Unex
+ 0008aa30: 7065 6374 6564 206d 6573 7361 6765 0041  pected message.A
+ 0008aa40: 6374 696f 6e20 6361 6e63 656c 6c65 6420  ction cancelled 
+ 0008aa50: 6279 2075 7365 7200 5049 4e20 6361 6e63  by user.PIN canc
+```
+
+One of the differences is the timestamp. The built firmware's value is 0917 - the date today. While the time stamp (or the short_release_date) on the downloaded firmware is 0805. 
+
+The second difference occurs between offsets `00000220` to `00000320`. In the built firmware, we noticed that the values are comprised of zeroes. The corresponding offsets in the downloaded firmware is comprised of non-zeroes. This could indicate missing data in the built firmware.
+
+We do not have enough data to determine the reason for the diffs here:
+
+```
+-00000120: c21b d588 58bd e555 9f40 d9eb ea27 6395
+-00000130: 520b 0d70 e29d ec8e 29e1 f5f9 d85b 0dc0
++00000120: db58 e5b4 aa32 5c1b 6a66 1d2b 4e5d 351c
++00000130: 3367 cd45 2fd7 b845 378b 5bf4 a3fd 4ec9
+```
+
+With that said, the firmware is still **not-verifiable**.
+We will update the [existing GitHub issue](https://github.com/OneKeyHQ/firmware/issues/404#issuecomment-1633287406).
+
+**Previous Review 2023-07-12**: We followed the steps that provider sent to us and ran a script which is based on their
 [Github actions](https://github.com/OneKeyHQ/firmware/blob/touch/.github/workflows/build-classic.yml).
 Here is the result for v3.0.0:
 
