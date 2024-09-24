@@ -1,3 +1,4 @@
+# Currently working for manual build for version. No integration with test script yet. Place device-spec.json file in the same directory as this Dockerfile. 
 # Use a base Ubuntu image
 FROM ubuntu:20.04
 
