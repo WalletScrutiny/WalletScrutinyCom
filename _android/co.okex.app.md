@@ -10,9 +10,9 @@ appCountry:
 released: 2019-09-11
 updated: 2024-08-31
 version: 7.2.5
-stars: 4.4
+stars: 4.3
 ratings: 7353
-reviews: 310
+reviews: 313
 size: 
 website: https://ok-ex.co
 repository: 

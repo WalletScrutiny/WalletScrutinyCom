@@ -9,7 +9,7 @@ appId: com.etoro.openbook
 appCountry: 
 released: 2013-11-05
 updated: 2024-09-17
-version: 651.273.3
+version: 651.300.1
 stars: 3.9
 ratings: 111823
 reviews: 3437

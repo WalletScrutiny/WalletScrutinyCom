@@ -11,7 +11,7 @@ released: 2018-10-03
 updated: 2024-08-27
 version: 1.2.3
 stars: 4.9
-reviews: 43
+reviews: 44
 size: '20466688'
 website: https://fullynoded.app
 repository: https://github.com/Fonta1n3/FullyNoded

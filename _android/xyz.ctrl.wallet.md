@@ -6,11 +6,13 @@ authors:
 users: 50
 appId: xyz.ctrl.wallet
 appCountry: 
+released: 
 updated: 2024-09-17
 version: VARY
 stars: 
 ratings: 
 reviews: 
+size: 
 website: https://ctrl.xyz
 repository: 
 issue: 

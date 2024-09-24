@@ -5,7 +5,7 @@ altTitle:
 authors:
 - leo
 - danny
-users: 1000000
+users: 5000000
 appId: vip.mytokenpocket
 appCountry: 
 released: 2018-06-29

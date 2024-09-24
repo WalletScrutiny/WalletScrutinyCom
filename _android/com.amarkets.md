@@ -8,11 +8,11 @@ users: 1000000
 appId: com.amarkets
 appCountry: us
 released: 2019-05-31
-updated: 2024-09-18
-version: 2.1.54
-stars: 4.3
+updated: 2024-09-23
+version: 2.1.55
+stars: 4.4
 ratings: 2509
-reviews: 177
+reviews: 178
 size: 
 website: https://www.amarkets.com
 repository: 

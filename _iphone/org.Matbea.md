@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.Matbea.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-04-07
+date: 2024-09-24
 signer: 
 reviewArchive: 
 twitter: 

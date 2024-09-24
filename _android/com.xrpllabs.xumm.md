@@ -8,7 +8,7 @@ users: 500000
 appId: com.xrpllabs.xumm
 appCountry: 
 released: 2020-12-29
-updated: 2024-04-09
+updated: 2024-09-16
 version: 2.8.2
 stars: 4.5
 ratings: 

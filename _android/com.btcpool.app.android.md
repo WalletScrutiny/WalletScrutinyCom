@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 261
 reviews: 23
 size: 
-website: https://btc.com
+website: https://cloverpool.com
 repository: 
 issue: 
 icon: com.btcpool.app.android.png

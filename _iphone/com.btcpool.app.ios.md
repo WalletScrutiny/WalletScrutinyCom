@@ -1,6 +1,6 @@
 ---
 wsId: BTCcomPool
-title: BTC.com - Leading Mining Pool
+title: CloverPool
 altTitle: 
 authors:
 - danny
@@ -8,19 +8,19 @@ appId: com.btcpool.app.ios
 appCountry: us
 idd: 1490997527
 released: 2020-01-21
-updated: 2023-08-31
-version: 2.3.3
+updated: 2024-09-23
+version: 2.4.0
 stars: 3.5
 reviews: 12
-size: '63212544'
-website: https://btc.com/
+size: '51878912'
+website: https://cloverpool.com/
 repository: 
 issue: 
 icon: com.btcpool.app.ios.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nowallet
-date: 2024-08-25
+date: 2024-09-24
 signer: 
 reviewArchive: 
 twitter: btccom_official

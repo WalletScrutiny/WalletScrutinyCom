@@ -12,9 +12,9 @@ appCountry: us
 released: 2020-11-17
 updated: 2024-01-31
 version: 2.3.19
-stars: 4
+stars: 3.9
 ratings: 545
-reviews: 23
+reviews: 22
 size: 
 website: https://velas.com
 repository: 
