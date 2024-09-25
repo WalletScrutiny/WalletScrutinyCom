@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: nonverifiable
 date: 2024-09-18
-signer: 
+signer: 17d9c0bf025008da16d5a146e1beaca6ddcfe3cb0cf063da23c847d3007eb621
 reviewArchive:
 - date: 2024-08-23
   version: 2.1.1
@@ -49,31 +49,51 @@ features:
 ## Update 2024-09-10:
 We tested the project using our <strong>test script <a href="/testScript">(?)</a></strong>, and here is the result:
 ```
+===== End Results =====
+
+Run a full
+diff --recursive /tmp/fromPlay_ch.swissbitcoinpay.checkout_386 /tmp/fromBuild_ch.swissbitcoinpay.checkout_386
+meld /tmp/fromPlay_ch.swissbitcoinpay.checkout_386 /tmp/fromBuild_ch.swissbitcoinpay.checkout_386
+or
+diffoscope "/home/keraliss/projects/apks/Swiss Bitcoin Pay.apk" /tmp/test_ch.swissbitcoinpay.checkout/base-master.apk
+for more details.'
 ===== Begin Results =====
 appId:          ch.swissbitcoinpay.checkout
 signer:         17d9c0bf025008da16d5a146e1beaca6ddcfe3cb0cf063da23c847d3007eb621
-apkVersionName: 2.1.1
-apkVersionCode: 381
+apkVersionName: 2.1.4
+apkVersionCode: 386
 verdict:        
-appHash:        62df7d225d6178688f451604552fb5d79525a257ac59e281f0c02f4c96e4d343
-commit:         b350085a6f30027a83a8fdb18b73c5aed073cc97
+appHash:        69a7e528ca403489349a482af6a35b94646b428dd27b09336793ad5817cdd9af
+commit:         6f2f989c0978da798d2c3c1b376e01ee0346a838
 
 Diff:
-Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_381/AndroidManifest.xml and /tmp/fromBuild_ch.swissbitcoinpay.checkout_381/AndroidManifest.xml differ
-Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_381/assets/index.android.bundle and /tmp/fromBuild_ch.swissbitcoinpay.checkout_381/assets/index.android.bundle differ
-Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_381/res/drawable-mdpi-v4/src_assets_images_bitcoinwhiteborder.png and /tmp/fromBuild_ch.swissbitcoinpay.checkout_381/res/drawable-mdpi-v4/src_assets_images_bitcoinwhiteborder.png differ
-Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_381/res/drawable-mdpi-v4/src_assets_images_boltcardblack.png and /tmp/fromBuild_ch.swissbitcoinpay.checkout_381/res/drawable-mdpi-v4/src_assets_images_boltcardblack.png differ
-Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_381/res/drawable-mdpi-v4/src_assets_images_boltcard.png and /tmp/fromBuild_ch.swissbitcoinpay.checkout_381/res/drawable-mdpi-v4/src_assets_images_boltcard.png differ
-Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_381/res/drawable-mdpi-v4/src_assets_images_logosquarerounded.png and /tmp/fromBuild_ch.swissbitcoinpay.checkout_381/res/drawable-mdpi-v4/src_assets_images_logosquarerounded.png differ
-Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_381/res/mipmap-hdpi-v4/ic_launcher_adaptive_fore.png and /tmp/fromBuild_ch.swissbitcoinpay.checkout_381/res/mipmap-hdpi-v4/ic_launcher_adaptive_fore.png differ
-Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_381/resources.arsc and /tmp/fromBuild_ch.swissbitcoinpay.checkout_381/resources.arsc differ
-Only in /tmp/fromPlay_ch.swissbitcoinpay.checkout_381: stamp-cert-sha256
+Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_386/AndroidManifest.xml and /tmp/fromBuild_ch.swissbitcoinpay.checkout_386/AndroidManifest.xml differ
+Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_386/assets/dexopt/baseline.prof and /tmp/fromBuild_ch.swissbitcoinpay.checkout_386/assets/dexopt/baseline.prof differ
+Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_386/assets/index.android.bundle and /tmp/fromBuild_ch.swissbitcoinpay.checkout_386/assets/index.android.bundle differ
+Only in /tmp/fromPlay_ch.swissbitcoinpay.checkout_386/assets: index.android.bundle.hbc.map
+Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_386/assets/index.android.bundle.map and /tmp/fromBuild_ch.swissbitcoinpay.checkout_386/assets/index.android.bundle.map differ
+Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_386/classes.dex and /tmp/fromBuild_ch.swissbitcoinpay.checkout_386/classes.dex differ
+Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_386/res/drawable/notification_bg_low.xml and /tmp/fromBuild_ch.swissbitcoinpay.checkout_386/res/drawable/notification_bg_low.xml differ
+Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_386/res/drawable/notification_bg.xml and /tmp/fromBuild_ch.swissbitcoinpay.checkout_386/res/drawable/notification_bg.xml differ
+Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_386/res/drawable/notification_tile_bg.xml and /tmp/fromBuild_ch.swissbitcoinpay.checkout_386/res/drawable/notification_tile_bg.xml differ
+Only in /tmp/fromBuild_ch.swissbitcoinpay.checkout_386/res/drawable-mdpi-v4: node_modules_reactnative_libraries_logbox_ui_logboximages_alerttriangle.png
+Only in /tmp/fromBuild_ch.swissbitcoinpay.checkout_386/res/drawable-mdpi-v4: node_modules_reactnative_libraries_logbox_ui_logboximages_chevronleft.png
+Only in /tmp/fromBuild_ch.swissbitcoinpay.checkout_386/res/drawable-mdpi-v4: node_modules_reactnative_libraries_logbox_ui_logboximages_chevronright.png
+Only in /tmp/fromBuild_ch.swissbitcoinpay.checkout_386/res/drawable-mdpi-v4: node_modules_reactnative_libraries_logbox_ui_logboximages_close.png
+Only in /tmp/fromBuild_ch.swissbitcoinpay.checkout_386/res/drawable-mdpi-v4: node_modules_reactnative_libraries_logbox_ui_logboximages_loader.png
+Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_386/res/drawable-mdpi-v4/src_assets_images_bitcointoslot.png and /tmp/fromBuild_ch.swissbitcoinpay.checkout_386/res/drawable-mdpi-v4/src_assets_images_bitcointoslot.png differ
+Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_386/res/drawable-mdpi-v4/src_assets_images_bitcoinwhiteborder.png and /tmp/fromBuild_ch.swissbitcoinpay.checkout_386/res/drawable-mdpi-v4/src_assets_images_bitcoinwhiteborder.png differ
+Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_386/res/drawable-mdpi-v4/src_assets_images_boltcardblack.png and /tmp/fromBuild_ch.swissbitcoinpay.checkout_386/res/drawable-mdpi-v4/src_assets_images_boltcardblack.png differ
+Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_386/res/drawable-mdpi-v4/src_assets_images_boltcard.png and /tmp/fromBuild_ch.swissbitcoinpay.checkout_386/res/drawable-mdpi-v4/src_assets_images_boltcard.png differ
+Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_386/res/drawable-mdpi-v4/src_assets_images_logosquarerounded.png and /tmp/fromBuild_ch.swissbitcoinpay.checkout_386/res/drawable-mdpi-v4/src_assets_images_logosquarerounded.png differ
+Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_386/res/mipmap-hdpi-v4/ic_launcher_adaptive_fore.png and /tmp/fromBuild_ch.swissbitcoinpay.checkout_386/res/mipmap-hdpi-v4/ic_launcher_adaptive_fore.png differ
+Files /tmp/fromPlay_ch.swissbitcoinpay.checkout_386/resources.arsc and /tmp/fromBuild_ch.swissbitcoinpay.checkout_386/resources.arsc differ
+Only in /tmp/fromPlay_ch.swissbitcoinpay.checkout_386: stamp-cert-sha256
 
 Revision, tag (and its signature):
 
 ===== End Results =====
 ```
-{% include asciicast %}
 
 The app built successfully although many of the differences consisted of timestamps and file permission codes.
 
