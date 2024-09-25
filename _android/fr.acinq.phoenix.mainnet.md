@@ -23,9 +23,14 @@ icon: fr.acinq.phoenix.mainnet.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2024-09-05
+date: 2024-09-25
 signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
 reviewArchive:
+- date: 2024-09-05
+  version: 2.3.8
+  appHash: 295a50bc3208c28db8ac9b1b5bdfa7eb746e2e2037469f8c2624ebe01119e464
+  gitRevision: b5555f01541e65a2eaefa2f691decb389658a9d3
+  verdict: nonverifiable
 - date: 2024-08-05
   version: 2.3.6
   appHash: e0575204f2494f7c7e2349253d9962e5442fb7b91a5517fbee3e55723f0d5f62
@@ -133,18 +138,18 @@ Our test script gave us these results:
 ===== Begin Results =====
 appId:          fr.acinq.phoenix.mainnet
 signer:         ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
-apkVersionName: 2.3.8
-apkVersionCode: 89
+apkVersionName: 2.3.9
+apkVersionCode: 90
 verdict:        
-appHash:        295a50bc3208c28db8ac9b1b5bdfa7eb746e2e2037469f8c2624ebe01119e464
-commit:         b6d6a6343935313b9556a529aa79158fb7e10550
+appHash:        0b902d26521ca46107449087cc4a4fe4c48a3b82ca2d8ed69a1b9446fd605bd0
+commit:         cc83db72e1d7a8468a39ad37f2da31ea837049aa
 
 Diff:
-Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_89/assets/dexopt/baseline.prof and /tmp/fromBuild_fr.acinq.phoenix.mainnet_89/assets/dexopt/baseline.prof differ
-Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_89/classes5.dex and /tmp/fromBuild_fr.acinq.phoenix.mainnet_89/classes5.dex differ
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_89/META-INF: MAINNET.RSA
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_89/META-INF: MAINNET.SF
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_89/META-INF: MANIFEST.MF
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_90/assets/dexopt/baseline.prof and /tmp/fromBuild_fr.acinq.phoenix.mainnet_90/assets/dexopt/baseline.prof differ
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_90/classes5.dex and /tmp/fromBuild_fr.acinq.phoenix.mainnet_90/classes5.dex differ
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_90/META-INF: MAINNET.RSA
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_90/META-INF: MAINNET.SF
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_90/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
 
@@ -152,8 +157,49 @@ Revision, tag (and its signature):
 
 ```
 
-The persistence of classes5.dex and baseline.prof indicate a significant diff than expected. [See our diff for yourself here.](https://xrviv.github.io/walletScrutinyBuildCasts/www/diffoscope-results/android/fr.acinq.phoenix.mainnet/2.3.6/diff.fr.acinq.phoenix.mainnet.html)
+The persistence of classes5.dex and baseline.prof indicate a significant diff than expected. In reference to this, we dig a little deeper to find out the reasons why. 
+It should be noted that in our issue, there seems to be some [resolution which is on another issue](https://github.com/ACINQ/phoenix/issues/112#ref-issue-2468324709) entitled, "[Fix APK builds to enhance build reproduceability](https://github.com/LeoColman/Petals/issues/675)". To quote:
 
-This version is **not verifiable**.
+> It seems to be on SQLDelight's end indeed
+> [cashapp/sqldelight#1548](https://github.com/cashapp/sqldelight/issues/1548)
+>
+> [ACINQ/phoenix#112](https://github.com/ACINQ/phoenix/issues/112)
+> https://x.com/WalletScrutiny/status/1335243710691500040
+> [muun/apollo#54](https://github.com/muun/apollo/issues/54)
+
+This was last mentioned on April 4, 2024. They have since upgraded to [SQLDelight v2.0.1](https://github.com/ACINQ/phoenix/issues/112#issuecomment-1795796737)
+
+After the build, we compared the pertinent files:
+
+1. We ran a diffoscope between the **built apk** and the **official apk**. We posted the [nosbin results](https://nosbin.com/nevent1qqsp7twfmgjpnvadxucer86vmuc79p09l8m7g6mln3fcpd5da58q37cpzemhxue69uhkzarvv9ejumn0wd68ytnvv9hxgqg4waehxw309ajkgetw9ehx7um5wghxcctwvsq3wamnwvaz7tmwdaehgu3wvekhgtnhd9azucnf0gq3gamnwvaz7tmwdaehgu3wdau8gu3wv3jhvqgswaehxw309ahx7um5wgh8w6twv5q3jamnwvaz7tmwdaehgu3w0fjkyetyv4jjucmvda6kgqghwaehxw309aex2mrp0yhxxatjwfjkuapwveukjqg5waehxw309aex2mrp0yhxgctdw4eju6t0qyt8wumn8ghj7un9d3shjtnwdaeky6tw9e3k7mgprfmhxue69uhhyetvv9ujummjv9hxwetsd9kxctnyv4mqzxrhwden5te0wfjkccte9eekummjwsh8xmmrd9skc6hw6t2)
+
+2. We also ran diffoscope on [**baseline.prof** and posted on nosbin](https://nosbin.com/nevent1qqspt5k77703g0fkgqv93xre63hfthamuwt2vphltpgd5wwclwwv44spzemhxue69uhkzarvv9ejumn0wd68ytnvv9hxgqg4waehxw309ajkgetw9ehx7um5wghxcctwvsq3wamnwvaz7tmwdaehgu3wvekhgtnhd9azucnf0gq3gamnwvaz7tmwdaehgu3wdau8gu3wv3jhvqgswaehxw309ahx7um5wgh8w6twv5q3jamnwvaz7tmwdaehgu3w0fjkyetyv4jjucmvda6kgqghwaehxw309aex2mrp0yhxxatjwfjkuapwveukjqg5waehxw309aex2mrp0yhxgctdw4eju6t0qyt8wumn8ghj7un9d3shjtnwdaeky6tw9e3k7mgprfmhxue69uhhyetvv9ujummjv9hxwetsd9kxctnyv4mqzxrhwden5te0wfjkccte9eekummjwsh8xmmrd9skc8tfwcz)
+
+3. [**classes5.dex**](https://nosbin.com/nevent1qqsvy3efmyqmxgew75vqcjrsnu663dz420llcfvgx4rk8hpvvn7m78spzemhxue69uhkzarvv9ejumn0wd68ytnvv9hxgqg4waehxw309ajkgetw9ehx7um5wghxcctwvsq3wamnwvaz7tmwdaehgu3wvekhgtnhd9azucnf0gq3gamnwvaz7tmwdaehgu3wdau8gu3wv3jhvqgswaehxw309ahx7um5wgh8w6twv5q3jamnwvaz7tmwdaehgu3w0fjkyetyv4jjucmvda6kgqghwaehxw309aex2mrp0yhxxatjwfjkuapwveukjqg5waehxw309aex2mrp0yhxgctdw4eju6t0qyt8wumn8ghj7un9d3shjtnwdaeky6tw9e3k7mgprfmhxue69uhhyetvv9ujummjv9hxwetsd9kxctnyv4mqzxrhwden5te0wfjkccte9eekummjwsh8xmmrd9skcxuer9q)
+
+## Asciinema 
 
 {% include asciicast %}
+
+## Manual Build 
+
+We successfully build manually using this procedure:
+
+1. Clone the repository https://github.com/ACINQ/phoenix
+2. Change to the directory 'phoenix'
+3. Checkout to the correct release 
+4. That directory contains a Dockerfile, so we run `docker build -t phoenix-build .`
+5. After the docker build, we run: `docker run --rm -v $(pwd):/home/ubuntu/phoenix -v $(pwd)/output:/output phoenix-manualbuild2 bash -c " git config --global --add safe.directory /home/ubuntu/phoenix && cd /home/ubuntu/phoenix && ./gradlew :phoenix-android:assembleRelease -PincludeAndroid=true --info --stacktrace && cp /home/ubuntu/phoenix/phoenix-android/build/outputs/apk/release/*.apk /output/ "`
+6. From there, the output apk is copied to the host machine
+7. We unzip the apk to their own directories, and then run a diff between the two directories. 
+
+The results of the diff:
+
+```
+danny@lw10:~/work/builds/fr.acinq.phoenix.mainnet/2.3.9/manual-build/compare$ diff --brief --recursive /tmp/fromPlay_fr.acinq.phoenix.mainnet_90 fromManualBuild/
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_90/META-INF: MAINNET.RSA
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_90/META-INF: MAINNET.SF
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_90/META-INF: MANIFEST.MF
+```
+
+These results indicate differences in the signing for the app. We tried to integrate the changes from the procedures in the manual build to the app-specific script, but it is still a work-in-progress.
