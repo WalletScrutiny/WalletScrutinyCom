@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Trading App By AvaTrade
+title: 'AvaTrade: Trading App'
 altTitle: 
 authors:
 - danny

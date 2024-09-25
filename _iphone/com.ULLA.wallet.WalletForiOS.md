@@ -8,11 +8,11 @@ appId: com.ULLA.wallet.WalletForiOS
 appCountry: us
 idd: '6443434220'
 released: 2022-10-19
-updated: 2024-09-13
-version: 3.3.8
+updated: 2024-09-25
+version: 3.3.9
 stars: 3.6
-reviews: 70
-size: '162288640'
+reviews: 71
+size: '162292736'
 website: 
 repository: 
 issue: 

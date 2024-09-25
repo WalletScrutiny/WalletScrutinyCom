@@ -10,9 +10,9 @@ appCountry:
 released: 2016-06-05
 updated: 2024-09-11
 version: 2.119.0
-stars: 4.3
+stars: 4.2
 ratings: 
-reviews: 934
+reviews: 939
 size: 
 website: https://www.paymaya.com/
 repository: 

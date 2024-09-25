@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.worldpay.wallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2022-06-22
+date: 2024-09-25
 signer: 
 reviewArchive: 
 twitter: 

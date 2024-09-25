@@ -4,7 +4,7 @@ title: 'Belo: your financial passport'
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.belo.android
 appCountry: 
 released: 2021-08-23

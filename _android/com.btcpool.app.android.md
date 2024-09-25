@@ -1,6 +1,6 @@
 ---
 wsId: BTCcomPool
-title: BTC.com - Leading Mining Pool
+title: CloverPool - Multi-coins Pool
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 100000
 appId: com.btcpool.app.android
 appCountry: us
 released: 2020-02-25
-updated: 2023-04-26
-version: 2.3.2
+updated: 2024-09-23
+version: 2.4.0
 stars: 3.9
 ratings: 261
 reviews: 23
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.btcpool.app.android.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nowallet
-date: 2024-04-21
+date: 2024-09-25
 signer: 
 reviewArchive: 
 twitter: btccom_official
@@ -29,7 +29,7 @@ social:
 - https://www.linkedin.com/company/btc.com
 - https://www.facebook.com/btccom
 redirect_from: 
-developerName: FINE BRAND LIMITED
+developerName: CloverPool Inc.
 features: 
 
 ---

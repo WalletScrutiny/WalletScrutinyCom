@@ -12,7 +12,7 @@ updated: 2024-09-17
 version: 2.3.0
 stars: 4.5
 ratings: 
-reviews: 62
+reviews: 63
 size: 
 website: https://www.bestwallet.com
 repository: 

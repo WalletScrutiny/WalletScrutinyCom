@@ -1,11 +1,3 @@
-2024-09-10:
-- _android/com.bispex.bispex
-- _android/com.lopeer.lopeer
-- _android/com.worldpay.wallet
-- _android/com.xbank_rn
-- _android/io.laxya.laxya
-- _iphone/com.credits.CryptoWallet
-- _iphone/com.zelcash.zelcore
 2024-09-11:
 - _android/com.beecrypt.beecrypthd
 - _android/com.lcx.app
@@ -64,3 +56,6 @@
 - _android/com.sonitix_mobility
 - _iphone/com.coinmena.coinmenaapp
 - _iphone/com.idea-soft.biteeu
+2024-09-25:
+- _android/com.ljkj.blockpay
+- _android/com.morix.wallet

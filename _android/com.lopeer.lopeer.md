@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.lopeer.lopeer.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-11-02
+date: 2024-09-25
 signer: 
 reviewArchive: 
 twitter: 

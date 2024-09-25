@@ -11,7 +11,7 @@ released: 2022-11-28
 updated: 2024-09-16
 version: 0.14.15
 stars: 4.3
-reviews: 49
+reviews: 48
 size: '58595328'
 website: https://www.core.app/
 repository: 
