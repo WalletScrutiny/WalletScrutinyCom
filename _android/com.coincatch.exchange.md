@@ -17,7 +17,7 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.coincatch.exchange.png
+icon: com.coincatch.exchange.jpg
 bugbounty: 
 meta: ok
 verdict: custodial

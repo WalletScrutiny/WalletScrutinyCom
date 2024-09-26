@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: pro.bingbon.finance.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-04-24
+date: 2024-09-26
 signer: 
 reviewArchive: 
 twitter: BingbonOfficial

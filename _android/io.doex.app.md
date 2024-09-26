@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.doex.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-07-30
+date: 2024-09-26
 signer: 
 reviewArchive: 
 twitter: Doex888

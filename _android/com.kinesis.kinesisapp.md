@@ -4,7 +4,7 @@ title: Kinesis - Buy gold and silver
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.kinesis.kinesisapp
 appCountry: us
 released: 2020-02-28

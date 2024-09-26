@@ -1,6 +1,6 @@
 ---
 wsId: maiarwallet
-title: xPortal
+title: 'xPortal: Crypto & DeFi Wallet'
 altTitle: 
 authors:
 - danny
@@ -12,7 +12,7 @@ updated: 2024-09-20
 version: 2.19.0
 stars: 4.8
 ratings: 6106
-reviews: 334
+reviews: 335
 size: 
 website: https://xportal.com/
 repository: 
