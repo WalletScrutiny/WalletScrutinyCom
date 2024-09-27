@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.iqtrader.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2023-11-03
+date: 2024-09-26
 signer: 
 reviewArchive: 
 twitter: IQTrader_io

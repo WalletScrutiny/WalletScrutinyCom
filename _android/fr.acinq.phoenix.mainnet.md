@@ -8,7 +8,7 @@ authors:
 - keraliss
 users: 50000
 appId: fr.acinq.phoenix.mainnet
-appCountry: us
+appCountry: gb
 released: 2019-12-10
 updated: 2024-09-11
 version: 2.3.9

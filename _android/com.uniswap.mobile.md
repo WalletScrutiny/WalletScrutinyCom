@@ -12,7 +12,7 @@ updated: 2024-09-17
 version: '1.35'
 stars: 4.6
 ratings: 
-reviews: 243
+reviews: 245
 size: 
 website: https://wallet.uniswap.org
 repository: 

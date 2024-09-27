@@ -4,7 +4,7 @@ title: ProfitTradingApp For Binance
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.profittrading.forbinance
 appCountry: 
 released: 2018-01-09
