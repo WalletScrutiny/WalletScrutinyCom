@@ -10,9 +10,7 @@ const baseDelay = 2000; // 2 seconds
 const cooldownPeriod = 60000; // 1 minute cooldown
 const filesPerCooldown = 50; // Number of files processed before triggering cooldown
 
-const countryCodes = [
-  'US', 'CN', 'JP', 'GB', 'DE', 'KR', 'FR', 'CA', 'BR', 'IN', 'RU', 'AU', 'IT', 'MX', 'ES',
-];
+const countryCodes = 'US,CN,JP,GB,DE,KR,FR,CA,BR,IN,RU,AU,IT,MX,ES'.split(',');
 
 let processedFiles = 0;
 let totalFiles = 0;
