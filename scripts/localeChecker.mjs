@@ -4,13 +4,17 @@ import yaml from 'js-yaml';
 import axios from 'axios';
 import pLimit from 'p-limit';
 
+function logError(message) {
+  console.error('\x1b[31m%s\x1b[0m', message);
+}
+
 const limit = pLimit(2); // Concurrency limited to 2
 const maxRetries = 5;
 const baseDelay = 2000; // 2 seconds
 const cooldownPeriod = 60000; // 1 minute cooldown
 const filesPerCooldown = 50; // Number of files processed before triggering cooldown
 
-const countryCodes = 'US,CN,JP,GB,DE,KR,FR,CA,BR,IN,RU,AU,IT,MX,ES'.split(',');
+const countryCodes = 'US,CN,JP,IN,GB,CA,BR,AR,DE,ZA,AU,NZ,KR,FR,RU'.split(',');
 
 let processedFiles = 0;
 let totalFiles = 0;
@@ -26,9 +30,13 @@ const customYamlType = new yaml.Type('!date', {
 
 const CUSTOM_SCHEMA = yaml.DEFAULT_SCHEMA.extend([customYamlType]);
 
-function extractFrontMatter(content) {
+function extractFrontMatter(content, filename) {
   const match = /^---\n([\s\S]+?)\n---/m.exec(content);
-  return match ? match[1] : null;
+  if (!match) {
+    logError(`Error: No front matter found in file: ${filename}`);
+    return null;
+  }
+  return match[1];
 }
 
 function stripQuotes(value) {
@@ -135,11 +143,31 @@ async function processFile(filePath) {
   processedFiles++;
   console.log(`Processing file ${processedFiles} of ${totalFiles}: ${filePath}`);
 
-  const fileContent = await fs.readFile(filePath, 'utf8');
-  const frontMatter = extractFrontMatter(fileContent);
+  let fileContent;
+  try {
+    fileContent = await fs.readFile(filePath, 'utf8');
+  } catch (error) {
+    logError(`Error: Unable to read file: ${filePath}. Reason: ${error.message}`);
+    return;
+  }
 
-  if (frontMatter) {
-    const metadata = yaml.load(frontMatter, { schema: CUSTOM_SCHEMA });
+  const frontMatter = extractFrontMatter(fileContent, path.basename(filePath));
+  if (!frontMatter) return;
+
+  let metadata;
+  try {
+    metadata = yaml.load(frontMatter, { schema: CUSTOM_SCHEMA });
+  } catch (error) {
+    logError(`Error: Invalid YAML syntax in front matter of file: ${path.basename(filePath)}. Reason: ${error.message}`);
+    return;
+  }
+  
+  // Check for unexpected date formats
+  ['released', 'updated'].forEach(dateField => {
+    if (metadata[dateField] && !(metadata[dateField] instanceof Date)) {
+      logError(`Warning: Unexpected date format encountered in '${dateField}' field of file: ${path.basename(filePath)}`);
+    }
+  });
 
     // Ensure 'released' and 'updated' are strings
     if (metadata.released instanceof Date) {
@@ -195,11 +223,10 @@ async function processFile(filePath) {
     }
   }
 
-  if (processedFiles % filesPerCooldown === 0) {
+  if (processedFiles > 0 && processedFiles % filesPerCooldown === 0) {
     await cooldown();
     console.log(`Resuming processing. ${totalFiles - processedFiles} files remaining.`);
   }
-}
 
 async function getFilesToProcess() {
   const directoryPath = path.join(process.cwd(), '_iphone');
