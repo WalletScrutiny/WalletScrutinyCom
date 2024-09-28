@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bitcan.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-09-01
+date: 2024-09-28
 signer: 
 reviewArchive: 
 twitter: bitkanofficial

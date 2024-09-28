@@ -4,7 +4,7 @@ title: Exchanger101
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.exchanger101.app
 appCountry: 
 released: 2021-09-30

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.bitunix.android.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2024-09-06
+date: 2024-09-28
 signer: 
 reviewArchive: 
 twitter: BitunixOfficial

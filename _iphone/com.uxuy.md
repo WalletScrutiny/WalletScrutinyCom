@@ -8,11 +8,11 @@ appId: com.uxuy
 appCountry: us
 idd: '6457257372'
 released: 2023-08-23
-updated: 2024-09-21
-version: 1.2.22
+updated: 2024-09-28
+version: 1.2.23
 stars: 3.8
 reviews: 13
-size: '134027264'
+size: '134078464'
 website: https://uxuy.com/wallet
 repository: 
 issue: 

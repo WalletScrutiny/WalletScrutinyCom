@@ -11,7 +11,7 @@ released: 2018-08-22
 updated: 2024-09-24
 version: 4.5.0
 stars: 5
-reviews: 1
+reviews: 2
 size: '82529280'
 website: https://plutus.it
 repository: 

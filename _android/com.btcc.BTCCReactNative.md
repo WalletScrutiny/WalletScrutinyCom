@@ -8,8 +8,8 @@ users: 100000
 appId: com.btcc.BTCCReactNative
 appCountry: 
 released: 2022-11-17
-updated: 2024-08-27
-version: 3.0.0
+updated: 2024-09-27
+version: 3.1.0
 stars: 4.5
 ratings: 
 reviews: 72

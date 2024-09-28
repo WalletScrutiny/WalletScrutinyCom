@@ -10,7 +10,7 @@ idd: '1453530188'
 released: 2019-03-02
 updated: 2024-08-23
 version: 4.14.1
-stars: 3.9
+stars: 4
 reviews: 1083
 size: '185019392'
 website: https://www.tronlink.org

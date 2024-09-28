@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: app.aitrade.ai.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nowallet
-date: 2023-12-16
+date: 2024-09-28
 signer: 
 reviewArchive: 
 twitter: 

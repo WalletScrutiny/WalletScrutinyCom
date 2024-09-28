@@ -11,7 +11,7 @@ released: 2019-10-21
 updated: 2024-09-18
 version: 5.0.4
 stars: 4.5
-reviews: 6680
+reviews: 6682
 size: '57674752'
 website: https://bitbuy.ca/
 repository: 

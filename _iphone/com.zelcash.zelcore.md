@@ -27,7 +27,7 @@ twitter: zelcash
 social:
 - https://www.reddit.com/r/ZelCash
 features: 
-developerName: Zelcore Technologies Inc.
+developerName: Influx Technologies Limited
 
 ---
 
