@@ -30,6 +30,10 @@ const customYamlType = new yaml.Type('!date', {
 
 const CUSTOM_SCHEMA = yaml.DEFAULT_SCHEMA.extend([customYamlType]);
 
+function logSuccess(message) {
+  console.log('\x1b[32m%s\x1b[0m', message);
+}
+
 function extractFrontMatter(content, filename) {
   const match = /^---\n([\s\S]+?)\n---/m.exec(content);
   if (!match) {
@@ -198,7 +202,7 @@ async function processFile(filePath) {
       }
 
       if (availableCountry) {
-        console.log(`${path.basename(filePath)} is available in ${availableCountry}`);
+        logSuccess(`${path.basename(filePath)} is available in ${availableCountry}`);
         metadata.meta = 'ok';
         metadata.appCountry = availableCountry;
         metadata.date = getTodayDate(); // Update date to today's date
@@ -216,9 +220,7 @@ async function processFile(filePath) {
         await fs.writeFile(filePath, newContent, 'utf8');
         console.log(`Updated ${path.basename(filePath)}`);
       } else {
-        console.log(
-          `${path.basename(filePath)} is not available in any of the specified countries.`
-        );
+        logError(`${path.basename(filePath)} is not available in any of the specified countries.`);
       }
     }
   }
