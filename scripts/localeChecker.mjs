@@ -4,17 +4,28 @@ import yaml from 'js-yaml';
 import axios from 'axios';
 import pLimit from 'p-limit';
 
-function logError(message) {
-  console.error('\x1b[31m%s\x1b[0m', message);
+// Parse command-line arguments
+let filePathToProcess = null;
+for (let i = 2; i < process.argv.length; i++) {
+  if (process.argv[i] === '-p' || process.argv[i] === '--path') {
+    filePathToProcess = process.argv[i + 1];
+    i++; // Skip the next argument, as we have consumed it
+  }
 }
 
+// Resolve the file path to an absolute path
+if (filePathToProcess) {
+  filePathToProcess = path.resolve(process.cwd(), filePathToProcess);
+}
+
+// Constants and configurations
 const limit = pLimit(2); // Concurrency limited to 2
 const maxRetries = 5;
 const baseDelay = 2000; // 2 seconds
 const cooldownPeriod = 60000; // 1 minute cooldown
 const filesPerCooldown = 50; // Number of files processed before triggering cooldown
 
-const countryCodes = 'US,CN,JP,IN,GB,CA,BR,AR,DE,ZA,AU,NZ,KR,FR,RU'.split(',');
+const countryCodes = 'us,cn,jp,in,gb,ca,br,ar,de,za,au,nz,kr,fr,ru'.split(',');
 
 let processedFiles = 0;
 let totalFiles = 0;
@@ -30,10 +41,28 @@ const customYamlType = new yaml.Type('!date', {
 
 const CUSTOM_SCHEMA = yaml.DEFAULT_SCHEMA.extend([customYamlType]);
 
+/**
+ * Log an error message in red color
+ * @param {string} message - The error message to log
+ */
+function logError(message) {
+  console.error('\x1b[31m%s\x1b[0m', message);
+}
+
+/**
+ * Log a success message in green color
+ * @param {string} message - The success message to log
+ */
 function logSuccess(message) {
   console.log('\x1b[32m%s\x1b[0m', message);
 }
 
+/**
+ * Extract front matter from file content
+ * @param {string} content - The content of the file
+ * @param {string} filename - The name of the file
+ * @returns {string|null} - The extracted front matter or null if not found
+ */
 function extractFrontMatter(content, filename) {
   const match = /^---\n([\s\S]+?)\n---/m.exec(content);
   if (!match) {
@@ -43,6 +72,11 @@ function extractFrontMatter(content, filename) {
   return match[1];
 }
 
+/**
+ * Strip quotes from a string value
+ * @param {string} value - The value to strip quotes from
+ * @returns {string} - The value without surrounding quotes
+ */
 function stripQuotes(value) {
   if (typeof value === 'string') {
     return value.replace(/^['"]|['"]$/g, '');
@@ -50,12 +84,24 @@ function stripQuotes(value) {
   return value;
 }
 
+/**
+ * Check if a value needs quotes in YAML
+ * @param {*} value - The value to check
+ * @returns {boolean} - True if the value needs quotes, false otherwise
+ */
 function needsQuotes(value) {
   if (typeof value !== 'string') return false;
   // YAML requires quotes if the string starts with certain characters or contains special characters
   return /^[\s-?:,[\]{}#&*!|>'"%@`]/.test(value) || /[\s]/.test(value);
 }
 
+/**
+ * Check if an app is available in a specific country
+ * @param {string} appId - The app ID to check
+ * @param {string} countryCode - The country code to check availability
+ * @param {number} retryCount - The current retry count
+ * @returns {Promise<boolean>} - True if the app is available, false otherwise
+ */
 async function isAppAvailable(appId, countryCode, retryCount = 0) {
   const url = `https://itunes.apple.com/lookup?id=${appId}&country=${countryCode}`;
   try {
@@ -74,6 +120,10 @@ async function isAppAvailable(appId, countryCode, retryCount = 0) {
   }
 }
 
+/**
+ * Perform a cooldown period with progress messages
+ * @returns {Promise<void>}
+ */
 async function cooldown() {
   console.log(
     "\n🚨 Whoa there, speed racer! We've processed 50 files. Time to give the API a breather. 🌬️"
@@ -102,6 +152,11 @@ async function cooldown() {
   );
 }
 
+/**
+ * Custom YAML dump function to format the output
+ * @param {Object} obj - The object to dump as YAML
+ * @returns {string} - The formatted YAML string
+ */
 function customYamlDump(obj) {
   const lines = [];
   for (const [key, value] of Object.entries(obj)) {
@@ -128,7 +183,7 @@ function customYamlDump(obj) {
       // Strip any existing surrounding quotes
       valueStr = valueStr.replace(/^['"]|['"]$/g, '');
       // Add quotes only if necessary
-      if (needsQuotes(valueStr) || key === 'idd' || key === 'size') {
+      if (needsQuotes(valueStr) || key === 'size') {
         lines.push(`${key}: '${valueStr}'`);
       } else {
         lines.push(`${key}: ${valueStr}`);
@@ -138,11 +193,20 @@ function customYamlDump(obj) {
   return lines.filter((line) => line.trim() !== '').join('\n');
 }
 
+/**
+ * Get today's date in YYYY-MM-DD format
+ * @returns {string} - Today's date
+ */
 function getTodayDate() {
   const today = new Date();
   return today.toISOString().split('T')[0];
 }
 
+/**
+ * Process a single file
+ * @param {string} filePath - The path of the file to process
+ * @returns {Promise<void>}
+ */
 async function processFile(filePath) {
   processedFiles++;
   console.log(`Processing file ${processedFiles} of ${totalFiles}: ${filePath}`);
@@ -173,55 +237,54 @@ async function processFile(filePath) {
     }
   });
 
-    // Ensure 'released' and 'updated' are strings
-    if (metadata.released instanceof Date) {
-      metadata.released = metadata.released.toISOString().split('T')[0];
+  // Ensure 'released' and 'updated' are strings
+  if (metadata.released instanceof Date) {
+    metadata.released = metadata.released.toISOString().split('T')[0];
+  }
+  if (metadata.updated instanceof Date) {
+    metadata.updated = metadata.updated.toISOString().split('T')[0];
+  }
+
+  // Store original 'released' and 'updated' dates
+  const originalReleased = metadata.released;
+  const originalUpdated = metadata.updated;
+
+  if (metadata.meta === 'removed') {
+    let appId = metadata.idd;
+    if (!appId) {
+      console.error(`App ID not found in metadata for ${path.basename(filePath)}`);
+      return;
     }
-    if (metadata.updated instanceof Date) {
-      metadata.updated = metadata.updated.toISOString().split('T')[0];
+
+    let availableCountry = null;
+    for (const code of countryCodes) {
+      const available = await isAppAvailable(appId, code);
+      if (available) {
+        availableCountry = code;
+        break;
+      }
     }
 
-    // Store original 'released' and 'updated' dates
-    const originalReleased = metadata.released;
-    const originalUpdated = metadata.updated;
+    if (availableCountry) {
+      logSuccess(`${path.basename(filePath)} is available in ${availableCountry}`);
+      metadata.meta = 'ok';
+      metadata.appCountry = availableCountry;
+      metadata.date = getTodayDate(); // Update date to today's date
 
-    if (metadata.meta === 'removed') {
-      let appId = metadata.idd;
-      if (!appId) {
-        console.error(`App ID not found in metadata for ${path.basename(filePath)}`);
-        return;
-      }
+      // Restore original 'released' and 'updated' dates
+      metadata.released = originalReleased;
+      metadata.updated = originalUpdated;
 
-      let availableCountry = null;
-      for (const code of countryCodes) {
-        const available = await isAppAvailable(appId, code);
-        if (available) {
-          availableCountry = code;
-          break;
-        }
-      }
+      const newFrontMatter = customYamlDump(metadata);
+      const newContent = fileContent.replace(
+        /^---\n[\s\S]+?\n---/m,
+        `---\n${newFrontMatter}\n---`
+      );
 
-      if (availableCountry) {
-        logSuccess(`${path.basename(filePath)} is available in ${availableCountry}`);
-        metadata.meta = 'ok';
-        metadata.appCountry = availableCountry;
-        metadata.date = getTodayDate(); // Update date to today's date
-
-        // Restore original 'released' and 'updated' dates
-        metadata.released = originalReleased;
-        metadata.updated = originalUpdated;
-
-        const newFrontMatter = customYamlDump(metadata);
-        const newContent = fileContent.replace(
-          /^---\n[\s\S]+?\n---/m,
-          `---\n${newFrontMatter}\n---`
-        );
-
-        await fs.writeFile(filePath, newContent, 'utf8');
-        console.log(`Updated ${path.basename(filePath)}`);
-      } else {
-        logError(`${path.basename(filePath)} is not available in any of the specified countries.`);
-      }
+      await fs.writeFile(filePath, newContent, 'utf8');
+      console.log(`Updated ${path.basename(filePath)}`);
+    } else {
+      logError(`${path.basename(filePath)} is not available in any of the specified countries.`);
     }
   }
 
@@ -229,17 +292,37 @@ async function processFile(filePath) {
     await cooldown();
     console.log(`Resuming processing. ${totalFiles - processedFiles} files remaining.`);
   }
-
-async function getFilesToProcess() {
-  const directoryPath = path.join(process.cwd(), '_iphone');
-  const files = await fs.readdir(directoryPath);
-  return files
-    .filter((file) => file.endsWith('.md'))
-    .map((file) => path.join(directoryPath, file));
 }
 
+/**
+ * Get the list of files to process
+ * @param {string|null} filePathToProcess - Optional specific file path to process
+ * @returns {Promise<string[]>} - Array of file paths to process
+ */
+async function getFilesToProcess(filePathToProcess) {
+  if (filePathToProcess) {
+    try {
+      await fs.access(filePathToProcess);
+      return [filePathToProcess];
+    } catch (error) {
+      console.error(`Error: The file ${filePathToProcess} does not exist.`);
+      process.exit(1);
+    }
+  } else {
+    const directoryPath = path.join(process.cwd(), '_iphone');
+    const files = await fs.readdir(directoryPath);
+    return files
+      .filter((file) => file.endsWith('.md'))
+      .map((file) => path.join(directoryPath, file));
+  }
+}
+
+/**
+ * Main function to process all files
+ * @returns {Promise<void>}
+ */
 async function processFiles() {
-  const files = await getFilesToProcess();
+  const files = await getFilesToProcess(filePathToProcess);
   totalFiles = files.length;
 
   console.log(`Starting processing of ${totalFiles} files:`);
@@ -251,6 +334,7 @@ async function processFiles() {
   await Promise.all(promises);
 }
 
+// Start processing files
 processFiles().catch((error) => {
   console.error('An error occurred:', error.message);
 });
