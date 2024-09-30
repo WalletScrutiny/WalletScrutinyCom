@@ -52,16 +52,17 @@ function processFile(file) {
 
 async function handleFile(file) {
     console.time("Total handleFile time");
-    const hash = await calculateFileHash(file);
-
-    // Display initial file information
-    displayFileInfo(file, hash);
 
     if (!file.name.toLowerCase().endsWith('.apk')) {
         showUnsupportedFileMessage(file);
         console.timeEnd("Total handleFile time");
         return;
     }
+
+    const hash = await calculateFileHash(file);
+
+    // Display initial file information
+    displayFileInfo(file, hash);
 
     // Start fetching app data
     const appData = await fetchAppData(hash);

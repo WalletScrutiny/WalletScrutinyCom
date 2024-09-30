@@ -84,9 +84,18 @@
     "appId": "ch.swissbitcoinpay.checkout",
     "signer": "17d9c0bf025008da16d5a146e1beaca6ddcfe3cb0cf063da23c847d3007eb621",
     "version": "2.1.1",
-    "verdict": "",
+    "verdict": "nonverifiable",
     "appHash": "62df7d225d6178688f451604552fb5d79525a257ac59e281f0c02f4c96e4d343",
     "date": "2024-08-23",
+    "platform": "android"
+  },
+  {
+    "appId": "ch.swissbitcoinpay.checkout",
+    "signer": "17d9c0bf025008da16d5a146e1beaca6ddcfe3cb0cf063da23c847d3007eb621",
+    "version": "2.1.4",
+    "verdict": "",
+    "appHash": "69a7e528ca403489349a482af6a35b94646b428dd27b09336793ad5817cdd9af",
+    "date": "2024-09-18",
     "platform": "android"
   },
   {
@@ -213,6 +222,15 @@
     "verdict": "reproducible",
     "appHash": "255a6fc14d8c900d92f9a707c73b50e2f1668ed020f2f23da3af50ca6fa7dd05",
     "date": "2023-11-09",
+    "platform": "android"
+  },
+  {
+    "appId": "com.greenaddress.greenbits_android_wallet",
+    "signer": "32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e",
+    "version": "4.0.33",
+    "verdict": "reproducible",
+    "appHash": "1974e2b0b1c293e477d740ca15e10eec352c023f6f4595b47fcd44b0dadf32e0",
+    "date": "2024-08-28",
     "platform": "android"
   },
   {
@@ -605,10 +623,10 @@
   {
     "appId": "com.greenaddress.greenbits_android_wallet",
     "signer": "32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e",
-    "version": "4.0.33",
+    "version": "4.0.34",
     "verdict": "reproducible",
-    "appHash": "1974e2b0b1c293e477d740ca15e10eec352c023f6f4595b47fcd44b0dadf32e0",
-    "date": "2024-08-28",
+    "appHash": "216ea286c8a21be3b073bd8da8ebd1afba4f3bfb2313e91c084887305ff41250",
+    "date": "2024-09-26",
     "platform": "android"
   },
   {

@@ -2,9 +2,11 @@ const fs = require('fs');
 const path = require('path');
 const yaml = require('js-yaml'); 
 
+console.debug = function() {};
+
 function parseFile(filePath) {
     try {
-        console.log(`Reading file: ${filePath}`);
+        console.debug(`Reading file: ${filePath}`);
         const content = fs.readFileSync(filePath, 'utf8');
 
         const yamlPart = content.match(/---\n([\s\S]+?)\n---/);
@@ -14,12 +16,10 @@ function parseFile(filePath) {
         }
 
         const yamlContent = yamlPart[1];
-        console.log('YAML content extracted:', yamlContent);
+        console.debug('YAML content extracted:', yamlContent);
 
         const data = yaml.load(yamlContent, { schema: yaml.FAILSAFE_SCHEMA }); // Use js-yaml with FAILSAFE_SCHEMA to prevent date parsing
-        console.log('Parsed YAML data:', data);
-
-        console.log('Parsed YAML data:', JSON.stringify(data));
+        console.debug('Parsed YAML data:', JSON.stringify(data));
 
         const appId = data.appId || '';
         const signer = data.signer || '';
@@ -27,12 +27,13 @@ function parseFile(filePath) {
         let entries = [];
 
         // Process reviewArchive if available
-        if (data.reviewArchive) {
-            console.log('Processing reviewArchive entries...');
+        if (data.reviewArchive && data.reviewArchive != null) {
+            console.debug('Processing reviewArchive entries...');
             data.reviewArchive.forEach(review => {
                 const reviewData = review;
-                console.log('Review entry:', reviewData);
-                if (reviewData.appHash) {
+
+                console.debug('Review entry:', reviewData);
+                if (reviewData.appHash && reviewData.verdict) {                    
                     entries.push({
                         appId,
                         signer,
@@ -42,22 +43,19 @@ function parseFile(filePath) {
                         date: reviewData.date || ''
                     });
                 } else {
-                    console.log('Skipping review entry due to missing appHash:', reviewData);
+                    console.debug('Skipping review entry due to missing appHash:', reviewData);
                 }
             });
         } else {
-            console.log('No reviewArchive entries found.');
+            console.debug('No reviewArchive entries found.', data.reviewArchive);
         }
 
         // Process current test results if available
         const resultsMatch = content.match(/===== Begin Results =====([\s\S]+?)===== End Results =====/);
         if (resultsMatch) {
-            console.log('Processing current test results...');
             const resultsContent = resultsMatch[1];
-            console.log('Current test results content:', resultsContent);
 
-            const currentTestResults = parseResults(resultsContent);
-            console.log('Parsed current test results:', currentTestResults);
+            const currentTestResults = parseResults(resultsContent);            
 
             if (currentTestResults.appHash) {
                 entries.push({
@@ -69,13 +67,12 @@ function parseFile(filePath) {
                     date: currentTestResults.date  || data.date
                 });
             } else {
-                console.log('Skipping current test result due to missing appHash:', currentTestResults);
+                console.debug('Skipping current test result due to missing appHash:', currentTestResults);
             }
         } else {
-            console.log('No current test results found.');
+            console.debug('No current test results found.');
         }
 
-        console.log('Final entries:', entries);
         return entries; // Return only entries
     } catch (error) {
         console.error(`Error parsing file ${filePath}: ${error.message}`);
@@ -108,7 +105,7 @@ function processFilesInDirectory(directoryPath) {
     files.forEach(filename => {
         if (filename.endsWith('.md')) {
             const filePath = path.join(directoryPath, filename);
-            console.log(`Processing file: ${filePath}`);
+            console.debug(`Processing file: ${filePath}`);
 
             const entries = parseFile(filePath);
             entries.forEach(entry => {
@@ -120,7 +117,7 @@ function processFilesInDirectory(directoryPath) {
     });
 
     console.log(`Found ${outputData.length} appHashes in ${filesProcessed} files in directory: ${directoryPath}.`);
-    return outputData; // Return only outputData
+    return outputData;
 }
 
 function processAllDirectories(directoryPaths) {
