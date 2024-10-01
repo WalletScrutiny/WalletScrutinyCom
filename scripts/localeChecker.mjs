@@ -94,7 +94,6 @@ function stripQuotes(value) {
  */
 function needsQuotes(value) {
   if (typeof value !== 'string') return false;
-  // YAML requires quotes if the string starts with certain characters or contains special characters
   return /^[\s-?:,[\]{}#&*!|>'"%@`]/.test(value) || /[\s]/.test(value);
 }
 
@@ -173,7 +172,6 @@ function customYamlDump(obj) {
         value.forEach((item) => lines.push(`- ${item}`));
       }
     } else if (value instanceof Date) {
-      // Output dates in YYYY-MM-DD format
       lines.push(`${key}: ${value.toISOString().split('T')[0]}`);
     } else if (typeof value === 'object') {
       lines.push(`${key}:`);
@@ -183,9 +181,7 @@ function customYamlDump(obj) {
       );
     } else {
       let valueStr = value.toString();
-      // Strip any existing surrounding quotes
       valueStr = valueStr.replace(/^['"]|['"]$/g, '');
-      // Add quotes only if necessary
       if (needsQuotes(valueStr) || key === 'size') {
         lines.push(`${key}: '${valueStr}'`);
       } else {
@@ -220,10 +216,12 @@ async function writeLogFile(countriesChecked) {
   ].join('\n');
 
   await fs.writeFile('removedFix.log', logContent, 'utf8');
-  console.log('The script only checks for 5 top, + top 2 markets for each continent')
-  console.log('Some of the files that were not updated, could be in other countries.')
-  console.log('A more comprehensive check would list 161 countries.')
-  console.log('-------------------------------------------------------------')
+  if (totalFiles > 1) {
+    console.log('The script only checks for 5 top, + top 2 markets for each continent');
+    console.log('Some of the files that were not updated could be available in other countries.');
+    console.log('A more comprehensive check would list 161 countries.');
+    console.log('-------------------------------------------------------------');
+  }
   console.log(`Log file "removedFix.log" has been created. Checked ${countriesChecked} countries.`);
 }
 
@@ -255,14 +253,12 @@ async function processFile(filePath, isSingleFile = false) {
     return;
   }
   
-  // Check for unexpected date formats
   ['released', 'updated'].forEach(dateField => {
     if (metadata[dateField] && !(metadata[dateField] instanceof Date)) {
       logError(`Warning: Unexpected date format encountered in '${dateField}' field of file: ${path.basename(filePath)}`);
     }
   });
 
-  // Ensure 'released' and 'updated' are strings
   if (metadata.released instanceof Date) {
     metadata.released = metadata.released.toISOString().split('T')[0];
   }
@@ -270,7 +266,6 @@ async function processFile(filePath, isSingleFile = false) {
     metadata.updated = metadata.updated.toISOString().split('T')[0];
   }
 
-  // Store original 'released' and 'updated' dates
   const originalReleased = metadata.released;
   const originalUpdated = metadata.updated;
 
@@ -284,24 +279,29 @@ async function processFile(filePath, isSingleFile = false) {
     let availableCountry = null;
     const codesToCheck = isSingleFile ? allCountryCodes : countryCodes;
 
-    console.log(`Checking availability in ${codesToCheck.length} countries...`);
-
-    for (const code of codesToCheck) {
-      const available = await isAppAvailable(appId, code);
-      if (available) {
-        availableCountry = code;
-        break;
+    if (isSingleFile) {
+      process.stdout.write('Checking ');
+      for (const code of codesToCheck) {
+        process.stdout.write(`${code},`);
+        const available = await isAppAvailable(appId, code);
+        if (available) {
+          availableCountry = code;
+          process.stdout.write(`\nApp is available in '${availableCountry.toUpperCase()}'\n`);
+          break;
+        }
+        await new Promise(resolve => setTimeout(resolve, 100));
       }
-      await new Promise(resolve => setTimeout(resolve, 100));
+      if (!availableCountry) {
+        console.log('\nApp not available in any of the specified countries.');
+      }
     }
 
     if (availableCountry) {
       logSuccess(`${path.basename(filePath)} is available in ${availableCountry}`);
       metadata.meta = 'ok';
       metadata.appCountry = availableCountry;
-      metadata.date = getTodayDate(); // Update date to today's date
+      metadata.date = getTodayDate();
 
-      // Restore original 'released' and 'updated' dates
       metadata.released = originalReleased;
       metadata.updated = originalUpdated;
 
