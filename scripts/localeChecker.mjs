@@ -204,25 +204,25 @@ function getTodayDate() {
  * Log information to the removed.log file
  * @returns {Promise<void>}
  */
-async function writeLogFile(countriesChecked) {
+async function writeLogFile() {
   const logContent = [
     `Number of updated files: ${updatedFiles.length}`,
-    `Number of countries checked: ${countriesChecked}`,
     '\nUpdated files:',
-    ...updatedFiles,
+    ...updatedFiles.map((file, index) => `${index + 1}. ${file}`), // Numbered list of updated files
     '\n' + '-'.repeat(50),
-    '\nFiles not available in other countries:',
-    ...unavailableFiles
+    '\nFiles not available in other countries (with meta: removed):',
+    ...unavailableFiles.map((file, index) => `${index + 1}. ${file}`), // Numbered list of unavailable files
+    '\nYou can manually check the above files using single-file processing.'
   ].join('\n');
 
   await fs.writeFile('removedFix.log', logContent, 'utf8');
   if (totalFiles > 1) {
-    console.log('The script only checks for 5 top, + top 2 markets for each continent');
+    console.log('The script only checks for the top 5 market-share countries, + top 2 markets for each continent');
     console.log('Some of the files that were not updated could be available in other countries.');
     console.log('A more comprehensive check would list 161 countries.');
     console.log('-------------------------------------------------------------');
   }
-  console.log(`Log file "removedFix.log" has been created. Checked ${countriesChecked} countries.`);
+  console.log(`Log file "removedFix.log" has been created.`);
 }
 
 /**
@@ -280,6 +280,7 @@ async function processFile(filePath, isSingleFile = false) {
     const codesToCheck = isSingleFile ? allCountryCodes : countryCodes;
 
     if (isSingleFile) {
+      // Single-file processing logic
       process.stdout.write('Checking ');
       for (const code of codesToCheck) {
         process.stdout.write(`${code},`);
@@ -293,6 +294,16 @@ async function processFile(filePath, isSingleFile = false) {
       }
       if (!availableCountry) {
         console.log('\nApp not available in any of the specified countries.');
+      }
+    } else {
+      // Multi-file processing logic
+      for (const code of codesToCheck) {
+        const available = await isAppAvailable(appId, code);
+        if (available) {
+          availableCountry = code;
+          break;
+        }
+        await new Promise(resolve => setTimeout(resolve, 100));
       }
     }
 
@@ -313,8 +324,14 @@ async function processFile(filePath, isSingleFile = false) {
 
       await fs.writeFile(filePath, newContent, 'utf8');
       console.log(`Updated ${path.basename(filePath)}`);
+
+      // Add the updated file to the updatedFiles list
+      updatedFiles.push(path.basename(filePath));
     } else {
       logError(`${path.basename(filePath)} is not available in any of the specified countries.`);
+
+      // Add the unavailable file to the unavailableFiles list
+      unavailableFiles.push(path.basename(filePath));
     }
   }
 
@@ -368,7 +385,7 @@ async function processFiles() {
   // Only write a log file if more than 1 files is processed
   if (totalFiles > 1) {
     const countriesChecked = isSingleFile ? allCountryCodes.length : countryCodes.length;
-    await writeLogFile(countriesChecked);
+    await writeLogFile();
   }
 }
 
