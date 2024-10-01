@@ -365,8 +365,11 @@ async function processFiles() {
 
   await Promise.all(promises);
 
-  const countriesChecked = totalFiles === 1 ? allCountryCodes.length : countryCodes.length;
-  await writeLogFile(countriesChecked);
+  // Only write a log file if more than 1 files is processed
+  if (totalFiles > 1) {
+    const countriesChecked = isSingleFile ? allCountryCodes.length : countryCodes.length;
+    await writeLogFile(countriesChecked);
+  }
 }
 
 // Start processing files
