@@ -44,3 +44,62 @@
 @import "colours";
 @import "review";
 @import "custom-fonts";
+
+#drop-area {
+  border: 2px dashed #ccc;
+  border-radius: 20px;
+  width: 50%;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+#drop-area.highlight {
+  border-color: purple;
+}
+
+.my-form {
+  margin-bottom: 10px;
+}
+
+#file-list {
+  margin-top: 10px;
+  text-align: left;
+}
+
+// Updated styles for APK info and App Data
+#app-data,  #file-info {
+  border: 2px solid;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: #fff;
+
+  h3 {
+    margin-top: 0;
+  }
+}
+
+#file-info {
+  background-color: #1e5121;
+}
+
+#app-data {
+  background-color: #072b54;
+
+  .verdict {
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 2px 5px;
+    border-radius: 3px;
+
+    &.verified { background-color: #4CAF50; }
+    &.unverified { background-color: #FFC107; color: black; }
+    &.flagged { background-color: #F44336; }
+  }
+}
+
+.info-section:empty {
+  display: none;
+}

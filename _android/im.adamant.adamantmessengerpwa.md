@@ -21,6 +21,7 @@ icon: im.adamant.adamantmessengerpwa.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
+appHashes: []
 date: 2024-09-18
 signer: 
 reviewArchive: 

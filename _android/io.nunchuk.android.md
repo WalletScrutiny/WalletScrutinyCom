@@ -23,17 +23,18 @@ icon: io.nunchuk.android.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
+appHashes: []
 date: 2023-07-05
 signer: 
 reviewArchive:
 - date: 2023-01-06
   version: 1.9.23
-  appHash: 
+  appHashes: []
   gitRevision: 49d61c1c5807f24ea01ba185a2de6793f8df0d38
   verdict: nonverifiable
 - date: 2021-12-15
   version: 1.9.21
-  appHash: 
+  appHashes: []
   gitRevision: f9bb0384d334f1ab3cd67824f43ff0053e7e51e7
   verdict: nosource
 twitter: nunchuk_io

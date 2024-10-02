@@ -21,17 +21,18 @@ icon: world.bitkey.app.png
 bugbounty: 
 meta: ok
 verdict: reproducible
+appHashes: []
 date: 2024-08-30
 signer: c0d0f9da7158cde788d0281e9ebd07034178165584d635f7ce17f77c037d961a
 reviewArchive:
 - date: 2024-08-30
   version: 2024.67.0 (1)
-  appHash: a3699344ebea4262a7d5652a6ea0a9bf45ab1b3a73423fae3e289c05f3c9ee72
+  appHashes: [a3699344ebea4262a7d5652a6ea0a9bf45ab1b3a73423fae3e289c05f3c9ee72]
   gitRevision: 3e0dace0287b9ad1ad11631f05bb5f067db5db6d
   verdict: reproducible
 - date: 2024-07-26
   version: 2024.63.0 (4)
-  appHash: d1adb1725e83e115c169f3676cee3b67fb97e044f6e8ba5be4c7dd88fe746de9
+  appHashes: [d1adb1725e83e115c169f3676cee3b67fb97e044f6e8ba5be4c7dd88fe746de9]
   gitRevision: 6ae7c72d480ca51b583f6b18d05516226e30f5a4
   verdict: reproducible
 - date: 2024-03-23
