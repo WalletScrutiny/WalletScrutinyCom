@@ -9,10 +9,10 @@ appId: com.coinstats.crypto.portfolio
 appCountry: 
 released: 2018-04-27
 updated: 2024-09-27
-version: 5.16.5
+version: 5.17.1
 stars: 4.5
 ratings: 
-reviews: 2424
+reviews: 2426
 size: 
 website: https://coinstats.app
 repository: 

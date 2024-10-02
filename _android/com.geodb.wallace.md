@@ -8,7 +8,7 @@ users: 50000
 appId: com.geodb.wallace
 appCountry: 
 released: 2022-08-23
-updated: 2024-08-23
+updated: 2024-09-27
 version: 1.6.31
 stars: 3.4
 ratings: 

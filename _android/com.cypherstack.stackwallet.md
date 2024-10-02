@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 - keraliss
-users: 5000
+users: 10000
 appId: com.cypherstack.stackwallet
 appCountry: 
 released: 2024-05-13

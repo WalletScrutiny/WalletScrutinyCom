@@ -11,7 +11,7 @@ released: 2020-01-02
 updated: 2024-09-17
 version: 101.0.8
 stars: 5
-reviews: 68
+reviews: 65
 size: '52321280'
 website: https://www.hashcashconsultants.com
 repository: 

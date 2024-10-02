@@ -10,9 +10,9 @@ appCountry:
 released: 2022-07-11
 updated: 2024-09-07
 version: 3.7.0
-stars: 4.4
+stars: 4
 ratings: 
-reviews: 5
+reviews: 6
 size: 
 website: https://needbux.com/app-ads.txt
 repository: 

@@ -10,9 +10,9 @@ appCountry:
 released: 2015-05-01
 updated: 2024-09-27
 version: 6.6.0
-stars: 4.4
+stars: 4.3
 ratings: 1234
-reviews: 77
+reviews: 79
 size: 
 website: https://coin.space
 repository: https://github.com/CoinSpace/CoinSpace

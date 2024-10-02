@@ -8,8 +8,8 @@ users: 5000
 appId: com.kyrrex
 appCountry: 
 released: 
-updated: 2024-09-24
-version: 4.2.20
+updated: 2024-09-27
+version: 4.2.21
 stars: 4.3
 ratings: 
 reviews: 

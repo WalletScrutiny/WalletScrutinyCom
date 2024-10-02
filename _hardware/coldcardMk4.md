@@ -13,7 +13,7 @@ binaries: https://coldcard.com/downloads/
 dimensions:
 - 86
 - 50
-- 7.5 
+- 7.5
 weight: 30
 provider: Coinkite
 providerWebsite: 
@@ -51,6 +51,7 @@ social:
 features: 
 
 ---
+
 **Update 2024-10-01**: There are no binary misnaming for tag 2024-09-12T1734-v5.4.0. We execute the ws coldcard script:
 
 `$ ./scripts/test/hardware/coldCard.sh 2024-09-12T1734-v5.4.0 mk4`

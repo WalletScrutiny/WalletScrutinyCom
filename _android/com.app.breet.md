@@ -12,7 +12,7 @@ updated: 2024-06-20
 version: 4.1.7
 stars: 4.5
 ratings: 
-reviews: 147
+reviews: 148
 size: 
 website: https://breet.app
 repository: 
@@ -31,7 +31,7 @@ social:
 - https://t.me/breetchannel
 - https://www.youtube.com/channel/UCyymPb01_pQF0JYj7l_YxxQ
 redirect_from: 
-developerName: Breet
+developerName: Breet Technologies Limited
 features: 
 
 ---

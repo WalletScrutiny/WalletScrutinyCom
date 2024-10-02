@@ -8,7 +8,7 @@ users: 1000
 appId: anny.trade
 appCountry: 
 released: 2022-11-01
-updated: 2024-09-27
+updated: 2024-10-01
 version: 1.4.6
 stars: 
 ratings: 

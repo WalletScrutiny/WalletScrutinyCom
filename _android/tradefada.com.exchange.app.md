@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: tradefada.com.exchange.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2024-09-04
+date: 2024-10-02
 signer: 
 reviewArchive: 
 twitter: tradefada

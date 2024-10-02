@@ -12,7 +12,7 @@ updated: 2024-07-16
 version: '0.42'
 stars: 4.1
 ratings: 
-reviews: 7
+reviews: 8
 size: 
 website: https://pilab.co
 repository: 

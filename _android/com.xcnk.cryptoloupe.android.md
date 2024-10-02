@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.xcnk.cryptoloupe.android.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
-date: 2024-01-23
+date: 2024-10-02
 signer: 
 reviewArchive: 
 twitter: 

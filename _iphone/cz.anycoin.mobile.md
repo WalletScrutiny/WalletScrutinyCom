@@ -11,7 +11,7 @@ released: 2022-04-25
 updated: 2024-07-10
 version: 1.26.8
 stars: 3.9
-reviews: 57
+reviews: 58
 size: '24127488'
 website: https://www.anycoin.cz
 repository: 

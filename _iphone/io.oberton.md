@@ -27,7 +27,7 @@ twitter: EverspaceWallet
 social:
 - https://everspace.app
 features: 
-developerName: BYTEHUB, TOV
+developerName: BYTEHUB, LLC
 
 ---
 

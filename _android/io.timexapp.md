@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.timexapp.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-08-16
+date: 2024-10-02
 signer: 
 reviewArchive: 
 twitter: ExchangeTimex

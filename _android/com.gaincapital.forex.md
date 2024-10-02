@@ -12,7 +12,7 @@ updated: 2024-09-24
 version: '1.198'
 stars: 3.5
 ratings: 392
-reviews: 25
+reviews: 26
 size: 
 website: https://www.forex.com
 repository: 
