@@ -8,11 +8,11 @@ appId: com.changelly.iosapp
 appCountry: us
 idd: '1435140380'
 released: 2019-10-04
-updated: 2024-08-14
-version: 2.42.1
-stars: 4.7
-reviews: 4868
-size: '219845632'
+updated: 2024-09-20
+version: 2.43.0
+stars: 4.6
+reviews: 4544
+size: '219960320'
 website: https://changelly.com
 repository: 
 issue: 

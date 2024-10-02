@@ -8,16 +8,16 @@ users: 10000
 appId: com.coincatch.exchange
 appCountry: 
 released: 2023-04-07
-updated: 2024-08-07
-version: 1.12.0
-stars: 4.6
+updated: 2024-09-21
+version: 1.13.1
+stars: 4.5
 ratings: 
-reviews: 24
+reviews: 26
 size: 
 website: 
 repository: 
 issue: 
-icon: com.coincatch.exchange.png
+icon: com.coincatch.exchange.jpg
 bugbounty: 
 meta: ok
 verdict: custodial

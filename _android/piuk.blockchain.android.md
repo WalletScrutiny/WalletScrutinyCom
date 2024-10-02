@@ -9,20 +9,20 @@ users: 10000000
 appId: piuk.blockchain.android
 appCountry: 
 released: 2013-02-01
-updated: 2024-09-02
-version: 202407.2.16
+updated: 2024-09-25
+version: 202409.1.5
 stars: 3.9
 ratings: 115830
-reviews: 6109
+reviews: 6122
 size: 
 website: https://www.blockchain.com
-repository: https://github.com/blockchain/My-Wallet-V3-Android
-issue: https://github.com/blockchain/My-Wallet-V3-Android/issues/1294
+repository: 
+issue: https://github.com/blockchain/blockchain-wallet-v4-frontend/issues/6456
 icon: piuk.blockchain.android.png
 bugbounty: https://hackerone.com/blockchain
 meta: ok
 verdict: nosource
-date: 2024-07-15
+date: 2024-09-12
 signer: 87a6e89e2e45848c1ddc43021e95812aae70b0b54c6c320c71db4dff83f7b6a0
 reviewArchive:
 - date: 2020-07-11
@@ -43,6 +43,31 @@ developerName: Blockchain Luxembourg S.A.
 features: 
 
 ---
+
+**Update 2024-09-12**: 
+
+We ran: 
+
+```
+$ aapt dump badging piuk.blockchain.android/official_apks/base.apk | grep version*
+package: name='piuk.blockchain.android' versionCode='32341' versionName='202407.2.16' platformBuildVersionName='14' platformBuildVersionCode='34' compileSdkVersion='34' compileSdkVersionCodename='14'
+```
+
+Strangely, we [could not find `32341`](https://github.com/blockchain/blockchain-wallet-v4-frontend/releases?q=3.23.41&expanded=true) in their releases
+We also [could not find `202407.2.16`](https://github.com/blockchain/blockchain-wallet-v4-frontend/releases?q=202407.2.16&expanded=true).
+
+What we can find is ["Blockchain Wallet v4 FrontEnd"](https://github.com/blockchain/blockchain-wallet-v4-frontend). A search for the [app ID points to this repository.](https://github.com/search?q=org%3Ablockchain%20%22piuk.blockchain.android%22&type=code). It includes:
+
+> ## Packages
+>
+> - blockchain-info-components The shared UI components library.
+> - blockchain-wallet-v4 The functional library for handling wallets.
+> - blockchain-wallet-v4-frontend The frontend application built with React/Redux.
+
+We also tried searching for the [build.gradle](https://github.com/search?q=org%3Ablockchain%20build.gradle&type=code) file but this has resulted in mostly unrelated repositories. The closest we could find that would make sense to be an Android wallet repository is the [`wallet-core` repository](https://github.com/blockchain/wallet-core) which has been archived in 2023.
+
+We will create a [new issue](https://github.com/blockchain/blockchain-wallet-v4-frontend/issues/6456) in lieu of the old one which is no longer available.
+
 
 **Update 2024-07-15**: The repository designated as "My-Wallet-V3-Android" has been taken offline. We asked them why on [twitter](https://x.com/dannybuntu/status/1812775291087134762) and have yet to receive a response. We will continue marking this app as **not source-available** for the meantime.
 

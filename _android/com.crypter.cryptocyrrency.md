@@ -8,11 +8,11 @@ users: 1000000
 appId: com.crypter.cryptocyrrency
 appCountry: us
 released: 2017-09-09
-updated: 2024-08-09
-version: 3.5.3
+updated: 2024-09-18
+version: 3.5.4
 stars: 4.3
 ratings: 78687
-reviews: 2706
+reviews: 2704
 size: 
 website: https://thecrypto.app
 repository: 
@@ -29,7 +29,7 @@ social:
 - https://www.linkedin.com/company/TrustSwap
 - https://www.facebook.com/TrustSwap
 redirect_from: 
-developerName: TrustSwap Inc
+developerName: TrustSwap Inc.
 features: 
 
 ---

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.vipsfinstock.vipsapp.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-07-11
+date: 2024-09-26
 signer: 
 reviewArchive: 
 twitter: VIPS_Finstock

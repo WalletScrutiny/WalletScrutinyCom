@@ -8,11 +8,11 @@ users: 100000
 appId: com.matrixport.bit
 appCountry: 
 released: 2021-03-15
-updated: 2024-08-14
-version: 1.8.9
+updated: 2024-09-30
+version: 1.9.2
 stars: 3.6
 ratings: 245
-reviews: 26
+reviews: 27
 size: 
 website: https://www.bit.com
 repository: 

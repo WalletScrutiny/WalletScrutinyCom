@@ -8,11 +8,11 @@ appId: com.zelcash.zelcore
 appCountry: 
 idd: 1436296839
 released: 2018-09-23
-updated: 2024-08-27
-version: v8.5.0
+updated: 2024-09-24
+version: v8.6.3
 stars: 1.7
 reviews: 6
-size: '98719744'
+size: '86225920'
 website: https://zelcore.io
 repository: 
 issue: 
@@ -27,7 +27,7 @@ twitter: zelcash
 social:
 - https://www.reddit.com/r/ZelCash
 features: 
-developerName: Zelcore Technologies Inc.
+developerName: Influx Technologies Limited
 
 ---
 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.laxya.laxya.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nowallet
-date: 2024-08-19
+date: 2024-09-25
 signer: 
 reviewArchive: 
 twitter: 

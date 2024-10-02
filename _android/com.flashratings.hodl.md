@@ -12,16 +12,16 @@ updated: 2023-09-16
 version: '9.11'
 stars: 4.4
 ratings: 
-reviews: 470
+reviews: 472
 size: 
 website: http://www.hodlfinance.com
 repository: 
 issue: 
 icon: com.flashratings.hodl.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2022-06-24
+date: 2024-09-11
 signer: 
 reviewArchive: 
 twitter: 

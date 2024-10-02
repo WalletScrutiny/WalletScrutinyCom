@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.goldtradeuk.io.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2024-05-24
+date: 2024-09-06
 signer: 
 reviewArchive: 
 twitter: 

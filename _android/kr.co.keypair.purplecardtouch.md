@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: kr.co.keypair.purplecardtouch.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2021-10-01
+date: 2024-09-21
 signer: 
 reviewArchive: 
 twitter: 

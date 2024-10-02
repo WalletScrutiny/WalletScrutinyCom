@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: BTCPAY POS
+title: BITCOIN POS
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 1000
 appId: technoprepay.btcpay.pos
 appCountry: 
 released: 2022-04-16
-updated: 2023-10-20
-version: 7.2.0
+updated: 2024-09-22
+version: 7.8.0
 stars: 
 ratings: 
 reviews: 

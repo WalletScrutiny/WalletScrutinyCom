@@ -1,6 +1,6 @@
 ---
 wsId: RoyalQ
-title: Royal Q
+title: Royal Q - Crypto Trading Bot
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 1000000
 appId: com.royalqs.royalq
 appCountry: 
 released: 2021-03-19
-updated: 2024-08-29
-version: 5.7.2
+updated: 2024-09-24
+version: 5.8.1
 stars: 4.1
 ratings: 
 reviews: 153

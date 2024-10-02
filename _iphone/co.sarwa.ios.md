@@ -10,8 +10,8 @@ idd: '1554353496'
 released: 2021-04-12
 updated: 2024-08-27
 version: 5.5.0
-stars: 4.2
-reviews: 46
+stars: 4.3
+reviews: 47
 size: '80318464'
 website: https://www.sarwa.co/blog
 repository: 

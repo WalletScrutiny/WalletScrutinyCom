@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: kr.co.keypair.nixtouch.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2021-12-20
+date: 2024-09-16
 signer: 
 reviewArchive: 
 twitter: 

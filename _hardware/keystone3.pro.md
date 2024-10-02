@@ -6,8 +6,8 @@ authors:
 - keraliss
 released: 2024-04-02
 discontinued: 
-updated: 2024-04-02
-version: 1.6.0
+updated: 2024-09-27
+version: 1.7.0
 binaries: https://keyst.one/firmware
 dimensions:
 - 62
@@ -26,9 +26,14 @@ icon: keystone3.pro.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-08-19
+date: 2024-10-01
 signer: 6853ffd1706faed1468e677621b2ef1ccf053dff4f9b22e7ba5b12a978e1eb37
 reviewArchive:
+- date: 2024-08-19
+  version: 1.6.0
+  appHash: 66c336583365ac855823a86ae1069f60ff567acab8d4df6cfc825eeacf7a66d1
+  gitRevision: 8644d08aa08a2187b92322fcd6fa5184ebeba288
+  verdict: reproducible
 - date: 2024-08-14
   version: 1.5.8
   appHash: d2d73488930e4e91787d3d7010f6dfc22268ce406e1848fd96e02eaf4737bfe9
@@ -72,6 +77,41 @@ Other Features:
 - Device verification
 - Fingerprint verification
 - Dice entropy
+
+# Updated Verification for 1.7.0 2024-10-01
+
+Run the script:
+
+`$ ./scripts/test/hardware/keystone3pro.sh 1.7.0`
+
+```
+Firmware checksum sha256: 8f6e9ed77bf1fa65b6ee7abe2f2791232ee197f3bf4d1c82c535c42f84c4a392 
+You can check this value on your device.
+All builds complete.
+------------------------
+(SIGNED) Binary from Keystone Website :
+b3ad06d6faa1f90bf1e55e8ed755a163cd48620fcf9308c98bb39438e14747aa  keystone3.bin
+------------------------
+------------------------
+Binary from build process:
+8f6e9ed77bf1fa65b6ee7abe2f2791232ee197f3bf4d1c82c535c42f84c4a392  ./build/mh1903.bin
+------------------------
+------------------------
+Unsigned Binary from Keystone Website :
+Firmware checksum sha256: 8f6e9ed77bf1fa65b6ee7abe2f2791232ee197f3bf4d1c82c535c42f84c4a392 
+You can check this value on your device.
+------------------------
+Unsigned .bin hash must be the same as mh1903.bin.
+```
+
+Version 1.7.0 of the Keystone3 Pro hardware device is **reproducible** 
+
+## Asciicast 
+
+{% include asciicast %}
+---
+
+# Previous Analysis 2024-08-19
 
 ## Private keys can be created offline?
 
@@ -131,8 +171,6 @@ We created an [issue](https://github.com/KeystoneHQ/keystone3-firmware/issues/96
 
 They [promptly replied](https://github.com/KeystoneHQ/keystone3-firmware/issues/967#issuecomment-2085060319), and pointed out that:
 > The keystone3-unsigned.bin is actually the compressed version of mh1903.bin with some headers, so what firmware-checker does is decompress the content then do a sha256 checksum.
-
-{% include asciicast %}
 
 Version 1.6.0 of Keystone 3 Pro is **reproducible**
 

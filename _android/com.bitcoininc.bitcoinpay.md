@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitcoininc.bitcoinpay.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2021-08-17
+date: 2024-09-24
 signer: 
 reviewArchive: 
 twitter: 

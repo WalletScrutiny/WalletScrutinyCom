@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: vip.trcoin.global.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-07-03
+date: 2024-09-16
 signer: 
 reviewArchive: 
 twitter: CoinTRpro

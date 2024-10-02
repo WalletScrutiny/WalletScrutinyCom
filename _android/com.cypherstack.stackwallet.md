@@ -4,24 +4,25 @@ title: Stack Wallet
 altTitle: 
 authors:
 - danny
-users: 5000
+- keraliss
+users: 10000
 appId: com.cypherstack.stackwallet
 appCountry: 
 released: 2024-05-13
-updated: 2024-08-01
-version: 2.1.4
+updated: 2024-09-02
+version: 2.1.5
 stars: 
 ratings: 
 reviews: 
 size: 
 website: 
 repository: https://github.com/cypherstack/stack_wallet/tags
-issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/503
+issue: https://github.com/cypherstack/stack_wallet/issues/984
 icon: com.cypherstack.stackwallet.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-09-08
+verdict: ftbfs
+date: 2023-09-11
 signer: 
 reviewArchive: 
 twitter: stack_wallet
@@ -35,6 +36,34 @@ developerName: Cypher Stack Team
 features: 
 
 ---
+
+**Update 2024-09-11:**
+
+**Review: Stack Wallet Build**
+
+The build process for the Stack Wallet was attempted using the provided Dockerfile. However, the build failed due to an issue within the `build_app.sh` script. The script could not proceed, and the build was halted.
+
+**Command Used:**
+```
+docker build -t stack_wallet -f stack.dockerfile .
+```
+
+**Error Noted:**
+The following error was encountered during the execution of the `build_app.sh` script:
+```
++ ./build_app.sh -a stack_wallet -p android -v 1.0.0 -b 1
+/app/stack_wallet /app/stack_wallet/scripts
+/app/stack_wallet/scripts
++ echo build_app.sh failed
++ exit 1
+build_app.sh failed
+```
+
+The Docker build process successfully reached the point of invoking the `build_app.sh` script, but the script failed without providing further details.
+
+**Conclusion**:
+The Stack Wallet build was not successful due to the failure of the `build_app.sh` script. Further investigation into the script and its dependencies is required to complete the build process. The wallet is **not verifiable** at this time.
+
 
 ## App Description from Google Play
 

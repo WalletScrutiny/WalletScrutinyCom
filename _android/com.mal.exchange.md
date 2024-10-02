@@ -4,15 +4,15 @@ title: 'Mal.io: Bitcoin,Trade Crypto'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.mal.exchange
 appCountry: 
 released: 2021-11-11
-updated: 2024-08-08
-version: 1.0.43
+updated: 2024-09-21
+version: 1.0.45
 stars: 4.2
 ratings: 
-reviews: 33
+reviews: 34
 size: 
 website: https://mal.io/
 repository: 

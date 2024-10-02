@@ -11,7 +11,7 @@ released: 2022-07-14
 updated: 2024-08-26
 version: 1.8.2
 stars: 4.9
-reviews: 22
+reviews: 23
 size: '164791296'
 website: 
 repository: https://github.com/Foundation-Devices/envoy

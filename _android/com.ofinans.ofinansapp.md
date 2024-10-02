@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.ofinans.ofinansapp.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2024-01-19
+date: 2024-09-08
 signer: 
 reviewArchive: 
 twitter: MiracleCashMore

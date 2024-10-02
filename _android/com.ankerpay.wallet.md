@@ -20,9 +20,9 @@ repository:
 issue: 
 icon: com.ankerpay.wallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2024-07-22
+date: 2024-09-10
 signer: 
 reviewArchive: 
 twitter: AnkerPay

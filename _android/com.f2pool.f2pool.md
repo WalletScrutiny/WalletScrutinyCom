@@ -12,7 +12,7 @@ updated: 2024-08-08
 version: VARY
 stars: 4.3
 ratings: 
-reviews: 79
+reviews: 78
 size: 
 website: https://www.f2pool.com
 repository: 

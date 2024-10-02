@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.trade360.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosendreceive
-date: 2023-09-24
+date: 2024-09-18
 signer: 
 reviewArchive: 
 twitter: Trade360_LTD

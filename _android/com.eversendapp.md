@@ -8,11 +8,11 @@ users: 1000000
 appId: com.eversendapp
 appCountry: lv
 released: 2019-02-01
-updated: 2024-08-29
-version: 0.5.80
-stars: 4.3
+updated: 2024-09-26
+version: 0.5.87
+stars: 4.2
 ratings: 5009
-reviews: 9540
+reviews: 9649
 size: 
 website: http://eversend.co
 repository: 

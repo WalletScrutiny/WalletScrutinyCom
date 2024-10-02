@@ -8,9 +8,9 @@ users: 100000
 appId: io.attlas
 appCountry: 
 released: 2021-05-16
-updated: 2024-08-10
-version: 2.97.0
-stars: 3.7
+updated: 2024-09-26
+version: 2.99.1
+stars: 3.9
 ratings: 
 reviews: 5
 size: 
@@ -28,7 +28,7 @@ twitter:
 social:
 - https://www.facebook.com/attlas.io/
 redirect_from: 
-developerName: ATTLAS PTE. LTD
+developerName: ATX GLOBAL
 features: 
 
 ---

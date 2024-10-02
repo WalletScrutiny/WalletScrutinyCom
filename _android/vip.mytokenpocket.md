@@ -5,15 +5,15 @@ altTitle:
 authors:
 - leo
 - danny
-users: 1000000
+users: 5000000
 appId: vip.mytokenpocket
 appCountry: 
 released: 2018-06-29
-updated: 2024-08-20
-version: 2.2.4
+updated: 2024-09-28
+version: 2.2.9
 stars: 4.4
 ratings: 16862
-reviews: 566
+reviews: 572
 size: 
 website: https://www.tokenpocket.pro/
 repository: https://github.com/TP-Lab/tp-android

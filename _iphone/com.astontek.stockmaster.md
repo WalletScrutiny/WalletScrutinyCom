@@ -8,12 +8,12 @@ appId: com.astontek.stockmaster
 appCountry: us
 idd: 591644846
 released: 2013-03-07
-updated: 2024-05-07
-version: '7.29'
+updated: 2024-09-27
+version: '7.31'
 stars: 4.6
-reviews: 69022
-size: '87494656'
-website: https://www.astontek.com
+reviews: 69104
+size: '87540736'
+website: https://finabase.io
 repository: 
 issue: 
 icon: com.astontek.stockmaster.jpg
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
-developerName: Astontek Inc
+developerName: Apponance, Inc.
 
 ---
 

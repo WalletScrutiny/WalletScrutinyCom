@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.interestinate.flutter_cryptowallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2021-12-28
+date: 2024-09-08
 signer: 
 reviewArchive: 
 twitter: 

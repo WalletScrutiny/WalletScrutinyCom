@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bgw.wallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-11-01
+date: 2024-09-16
 signer: 
 reviewArchive: 
 twitter: BG_Wallet

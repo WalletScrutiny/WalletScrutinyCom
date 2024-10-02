@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.yolllo.mobile.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2024-06-17
+date: 2024-09-08
 signer: 
 reviewArchive: 
 twitter: 

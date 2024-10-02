@@ -11,16 +11,16 @@ released: 2022-10-04
 updated: 2022-10-04
 version: '1.0'
 stars: 4.7
-reviews: 338
+reviews: 369
 size: '41970688'
 website: https://cash-in.app/
 repository: 
 issue: 
 icon: com.macroblocs.cashinApp.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosendreceive
-date: 2023-10-03
+date: 2024-09-24
 signer: 
 reviewArchive: 
 twitter: cashin_app

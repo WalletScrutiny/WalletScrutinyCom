@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Crypto Bitcoin Wallet MaxSwap
+title: 'MaxSwap: Crypto Bitcoin Wallet'
 altTitle: 
 authors: 
 users: 100

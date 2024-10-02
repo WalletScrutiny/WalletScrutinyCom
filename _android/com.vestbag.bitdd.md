@@ -7,8 +7,8 @@ users: 100
 appId: com.vestbag.bitdd
 appCountry: 
 released: 2022-11-02
-updated: 2022-11-02
-version: 1.0.0
+updated: 2024-09-21
+version: 1.0.1
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.vestbag.bitdd.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: fewusers
-date: 2023-10-30
+date: 2024-09-22
 signer: 
 reviewArchive: 
 twitter: 

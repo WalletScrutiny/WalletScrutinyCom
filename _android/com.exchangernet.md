@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 70
 reviews: 9
 size: 
-website: https://www.exchangernet.com/
+website: https://exchangernet.com/
 repository: 
 issue: 
 icon: com.exchangernet.png

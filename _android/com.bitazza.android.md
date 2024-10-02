@@ -8,11 +8,11 @@ users: 500000
 appId: com.bitazza.android
 appCountry: th
 released: 2020-09-29
-updated: 2024-08-20
+updated: 2024-09-19
 version: 4.1.0
-stars: 4.7
+stars: 4.8
 ratings: 5028
-reviews: 2225
+reviews: 2234
 size: 
 website: http://bitazza.com/
 repository: 

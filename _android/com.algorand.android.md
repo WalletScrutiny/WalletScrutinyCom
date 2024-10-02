@@ -3,15 +3,15 @@ wsId:
 title: Pera Algo Wallet
 altTitle: 
 authors: 
-users: 100000
+users: 500000
 appId: com.algorand.android
 appCountry: 
 released: 2019-06-07
 updated: 2024-08-21
-version: 5.10.12
+version: 5.10.13
 stars: 4.6
 ratings: 14091
-reviews: 1176
+reviews: 1179
 size: 
 website: https://perawallet.app
 repository: 

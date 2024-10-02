@@ -5,12 +5,13 @@ altTitle:
 authors:
 - leo
 - mohammad
+- keraliss
 users: 100000
 appId: io.muun.apollo
 appCountry: 
 released: 2017-04-25
-updated: 2024-08-06
-version: '52.1'
+updated: 2024-09-23
+version: '52.2'
 stars: 4.1
 ratings: 650
 reviews: 183
@@ -22,9 +23,14 @@ icon: io.muun.apollo.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2023-06-24
+date: 2024-09-04
 signer: 
 reviewArchive:
+- date: 2023-06-24
+  version: '50.13'
+  appHash: d9eab324dc83c171350ca4918bb24e0f14dda06f4f7b3cfa0c5f9ab86ca5ea60
+  gitRevision: 9e250e6d703edc6562bbe84cfa3cdc3d6d209987
+  verdict: nonverifiable
 - date: 2022-09-19
   version: '49.3'
   appHash: 70fcd9491963e6fe27f9efd41d3c90abf63539d0f9528de8abbad964675de723
@@ -72,25 +78,25 @@ With this {% include testScript.html %} we get:
 ===== Begin Results =====
 appId:          io.muun.apollo
 signer:         026ae0ac859cc32adf2d4e7aa909daf902f40db0b4fe6138358026fd62836ad1
-apkVersionName: 50.13
-apkVersionCode: 1013
-verdict:
-appHash:        d9eab324dc83c171350ca4918bb24e0f14dda06f4f7b3cfa0c5f9ab86ca5ea60
-commit:         58c9c82a68e63b3ae005fed05621be0cf869cc05
+apkVersionName: 52.1
+apkVersionCode: 1201
+verdict:        
+appHash:        4a86d245f978c2d84763c00c84cf2ea6d22e253de49a0f14f7c0c68b448bbc37
+commit:         71114605537f43dafe281da14fbd605f5ec18213
 
 Diff:
-Only in /tmp/fromPlay_io.muun.apollo_1013/META-INF: APOLLORE.RSA
-Only in /tmp/fromPlay_io.muun.apollo_1013/META-INF: APOLLORE.SF
-Only in /tmp/fromPlay_io.muun.apollo_1013/META-INF: MANIFEST.MF
-Files /tmp/fromPlay_io.muun.apollo_1013/resources.arsc and /tmp/fromBuild_io.muun.apollo_1013/resources.arsc differ
+Only in /tmp/fromPlay_io.muun.apollo_1201/META-INF: APOLLORE.RSA
+Only in /tmp/fromPlay_io.muun.apollo_1201/META-INF: APOLLORE.SF
+Only in /tmp/fromPlay_io.muun.apollo_1201/META-INF: MANIFEST.MF
+Files /tmp/fromPlay_io.muun.apollo_1201/resources.arsc and /tmp/fromBuild_io.muun.apollo_1201/resources.arsc differ
 
 Revision, tag (and its signature):
-object 58c9c82a68e63b3ae005fed05621be0cf869cc05
+object 71114605537f43dafe281da14fbd605f5ec18213
 type commit
-tag v50.13
-tagger acrespo <alvaro.andres.crespo@gmail.com> 1684797231 -0300
+tag v52.1
+tagger acrespo <alvaro.andres.crespo@gmail.com> 1722637252 -0300
 
-v50.13 (1013)
+v52.1          v52.1 (1201)
 ===== End Results =====
 ```
 
@@ -100,10 +106,11 @@ Let's unpack `resources.arsc` files and compare:
 $ aapt2 dump resources apollo.apk > fromPlay.txt
 $ aapt2 dump resources /tmp/test_io.muun.apollo/app/apk/apolloui-prod-release-unsigned.apk > fromBuild.txt
 $ diff fromPlay.txt fromBuild.txt
-11708c11708
-<       () "e2e27f098f0f4dd5bd472ec4d8b0ba2d"
+11761c11761
+<       () "3107f90a908d4f878857ee3ac32bbc15"
 ---
->       () "10abb903957f4fe18afcf69d8156997d"
+>       () "175be30bb07147df863c14466a1afbd1"
+
 ```
 
 The diff is related to `com.crashlytics.android.build_id` string value which is an

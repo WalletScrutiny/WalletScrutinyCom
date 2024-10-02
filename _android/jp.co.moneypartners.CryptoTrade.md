@@ -3,7 +3,7 @@ wsId:
 title: マネパの暗号資産取引・トレードアプリ
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: jp.co.moneypartners.CryptoTrade
 appCountry: 
 released: 2021-11-23
@@ -19,7 +19,7 @@ issue:
 icon: jp.co.moneypartners.CryptoTrade.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2024-08-31
 signer: 
 reviewArchive: 

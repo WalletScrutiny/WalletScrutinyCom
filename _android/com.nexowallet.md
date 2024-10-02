@@ -8,11 +8,11 @@ users: 5000000
 appId: com.nexowallet
 appCountry: 
 released: 2019-06-28
-updated: 2024-08-29
-version: 4.8.1
+updated: 2024-09-24
+version: 4.11.0
 stars: 4.1
 ratings: 21149
-reviews: 1814
+reviews: 1819
 size: 
 website: https://nexo.com
 repository: 

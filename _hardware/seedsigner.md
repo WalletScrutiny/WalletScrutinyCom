@@ -6,8 +6,8 @@ authors:
 - leo
 released: 2020-12-20
 discontinued: 
-updated: 2023-09-12
-version: 0.7.0
+updated: 2024-08-21
+version: 0.8.0
 binaries: https://github.com/SeedSigner/seedsigner/releases
 dimensions: 
 weight: 
@@ -24,7 +24,7 @@ icon: seedsigner.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-08-27
+date: 2024-10-01
 signer: 
 reviewArchive:
 - date: 2023-09-14

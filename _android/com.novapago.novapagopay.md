@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.novapago.novapagopay.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2024-08-17
+date: 2024-09-06
 signer: 
 reviewArchive: 
 twitter: 

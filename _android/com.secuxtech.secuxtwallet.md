@@ -1,5 +1,5 @@
 ---
-wsId: 
+wsId: secuXWalletForN
 title: SecuX Wallet
 altTitle: 
 authors:
@@ -8,8 +8,8 @@ users: 10000
 appId: com.secuxtech.secuxtwallet
 appCountry: TW
 released: 2022-05-20
-updated: 2024-08-13
-version: 2.1.00
+updated: 2024-09-13
+version: 2.1.01
 stars: 4.4
 ratings: 
 reviews: 2
@@ -20,8 +20,8 @@ issue:
 icon: com.secuxtech.secuxtwallet.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2022-11-24
+verdict: nowallet
+date: 2024-09-03
 signer: 
 reviewArchive: 
 twitter: SecuXwallet
@@ -32,4 +32,13 @@ features:
 
 ---
 
-This is the companion app to the {% include walletLink.html wallet='hardware/secuxnifty' verdict='true' %}
+This app tries to detect its hardware wallet counterparts. If it doesn't detect them, it doesn't function. This app, by itself is **not a wallet**.
+
+This is the companion app to the following: 
+
+- {% include walletLink.html wallet='hardware/secuxnifty' verdict='true' %}
+- {% include walletLink.html wallet='hardware/secuxneox' verdict='true' %}
+- {% include walletLink.html wallet='hardware/secuxneogold' verdict='true' %}
+
+
+

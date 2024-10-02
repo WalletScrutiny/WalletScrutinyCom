@@ -1,6 +1,6 @@
 ---
 wsId: bitkeep
-title: Bitget Wallet, ex BitKeep
+title: 'Bitget Wallet: Crypto and BTC'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.bitkeep.os
 appCountry: 
 idd: 1395301115
 released: 2018-09-26
-updated: 2024-08-17
-version: 8.21.0
+updated: 2024-09-28
+version: 8.23.0
 stars: 4.7
-reviews: 2491
-size: '168585216'
+reviews: 3318
+size: '183477248'
 website: https://bitkeep.com
 repository: 
 issue: 

@@ -8,11 +8,11 @@ appId: com.xiandanxiaohai.Bybt
 appCountry: us
 idd: 1522250001
 released: 2020-07-08
-updated: 2024-08-17
-version: 2.0.6
+updated: 2024-09-26
+version: 2.0.9
 stars: 4.9
-reviews: 2414
-size: '23864320'
+reviews: 2515
+size: '28422144'
 website: https://www.coinglass.com
 repository: 
 issue: 

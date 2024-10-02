@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.yield.demosp.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2024-05-24
+date: 2024-09-28
 signer: 
 reviewArchive: 
 twitter: yieldapp

@@ -10,9 +10,9 @@ appCountry:
 released: 2022-05-26
 updated: 2023-07-18
 version: 1.14.2
-stars: 
+stars: 1.8
 ratings: 
-reviews: 
+reviews: 3
 size: 
 website: https://eidoo.app/
 repository: 

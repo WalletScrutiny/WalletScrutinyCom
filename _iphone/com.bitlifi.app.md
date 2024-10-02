@@ -17,9 +17,9 @@ repository:
 issue: 
 icon: com.bitlifi.app.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-11-01
+date: 2024-09-16
 signer: 
 reviewArchive: 
 twitter: bitlifi

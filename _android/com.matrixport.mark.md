@@ -8,9 +8,9 @@ users: 100000
 appId: com.matrixport.mark
 appCountry: cn
 released: 2019-10-23
-updated: 2024-09-01
-version: 2.7.3
-stars: 4
+updated: 2024-09-30
+version: 2.8.1
+stars: 3.9
 ratings: 1103
 reviews: 862
 size: 

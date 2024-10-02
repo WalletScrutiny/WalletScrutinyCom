@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.latoken.wallet.png
 bugbounty: https://hackenproof.com/latoken/latoken-exchange
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-08-21
+date: 2024-09-16
 signer: 
 reviewArchive: 
 twitter: latokens

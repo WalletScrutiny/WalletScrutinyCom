@@ -1,6 +1,6 @@
 ---
 wsId: letsBit
-title: 'Let’sBit: Tu billetera virtual'
+title: 'Let''sBit: Tu billetera virtual'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.letsbit.app
 appCountry: ar
 idd: '1644159531'
 released: 2022-12-07
-updated: 2024-08-09
-version: 1.33.0
+updated: 2024-09-24
+version: 1.35.0
 stars: 4.4
-reviews: 316
-size: '70981632'
+reviews: 322
+size: '70942720'
 website: https://www.letsbit.io
 repository: 
 issue: 

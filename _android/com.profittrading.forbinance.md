@@ -4,12 +4,12 @@ title: ProfitTradingApp For Binance
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.profittrading.forbinance
 appCountry: 
 released: 2018-01-09
-updated: 2024-09-01
-version: 15.2.12
+updated: 2024-09-24
+version: 15.2.18
 stars: 4.3
 ratings: 1851
 reviews: 112

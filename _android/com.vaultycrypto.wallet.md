@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.vaultycrypto.wallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2024-07-31
+date: 2024-09-16
 signer: 
 reviewArchive: 
 twitter: 

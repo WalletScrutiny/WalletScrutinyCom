@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.brilliantts.fuzew.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
-date: 2024-04-17
+date: 2024-09-16
 signer: 
 reviewArchive: 
 twitter: w_fuze

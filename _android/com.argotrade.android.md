@@ -8,8 +8,8 @@ users: 50000
 appId: com.argotrade.android
 appCountry: 
 released: 2020-10-16
-updated: 2024-08-08
-version: 1.16.0
+updated: 2024-09-05
+version: 1.16.1
 stars: 
 ratings: 
 reviews: 

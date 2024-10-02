@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: company.satoshipayments.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2024-01-19
+date: 2024-09-16
 signer: 
 reviewArchive: 
 twitter: satoshipayments

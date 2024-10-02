@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bigdreamventures.cryptorefills.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-12-01
+date: 2024-10-02
 signer: 
 reviewArchive: 
 twitter: cryptorefills

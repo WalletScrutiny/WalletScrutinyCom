@@ -18,15 +18,15 @@ repository:
 issue: 
 icon: com.chainup.exchange.BKX.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-09-17
+date: 2024-09-10
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: (주)얼티밋
+developerName: 루비콘코리아(유)
 features: 
 
 ---

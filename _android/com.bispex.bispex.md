@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bispex.bispex.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2023-05-12
+date: 2024-09-25
 signer: 
 reviewArchive: 
 twitter: 

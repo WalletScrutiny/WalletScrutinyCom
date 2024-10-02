@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.aaatrade.aaatrader.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosendreceive
-date: 2023-05-09
+date: 2024-09-18
 signer: 
 reviewArchive: 
 twitter: 

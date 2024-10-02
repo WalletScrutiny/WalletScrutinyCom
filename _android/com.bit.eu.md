@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bit.eu.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-10-09
+date: 2024-09-28
 signer: 
 reviewArchive: 
 twitter: BiteeuExchange

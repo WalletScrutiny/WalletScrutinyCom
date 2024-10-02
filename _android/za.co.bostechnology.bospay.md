@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: za.co.bostechnology.bospay.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2024-07-23
+date: 2024-09-08
 signer: 
 reviewArchive: 
 twitter: 

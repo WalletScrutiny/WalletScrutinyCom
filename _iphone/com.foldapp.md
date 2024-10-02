@@ -1,6 +1,6 @@
 ---
 wsId: foldapp
-title: 'Fold: Earn and buy bitcoin'
+title: 'Fold: Bitcoin Personal Finance'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.foldapp
 appCountry: us
 idd: 1480424785
 released: 2019-11-18
-updated: 2024-08-24
-version: 140.3.0
-stars: 4.3
-reviews: 1919
-size: '115297280'
+updated: 2024-10-01
+version: 140.4.0
+stars: 4.2
+reviews: 1933
+size: '115850240'
 website: http://foldapp.com
 repository: 
 issue: 

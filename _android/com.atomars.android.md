@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.atomars.android.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2023-05-11
+date: 2024-09-08
 signer: 
 reviewArchive: 
 twitter: AtomarsExchange

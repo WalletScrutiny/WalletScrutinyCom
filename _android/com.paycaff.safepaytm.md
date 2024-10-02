@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.paycaff.safepaytm.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
-date: 2024-08-04
+date: 2024-09-06
 signer: 
 reviewArchive: 
 twitter: 

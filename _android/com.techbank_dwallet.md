@@ -8,8 +8,8 @@ users: 5000
 appId: com.techbank_dwallet
 appCountry: in
 released: 2020-10-09
-updated: 2024-08-21
-version: 3.3.6
+updated: 2024-09-25
+version: 3.3.8
 stars: 4.5
 ratings: 59
 reviews: 12

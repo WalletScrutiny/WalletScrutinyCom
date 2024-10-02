@@ -7,7 +7,7 @@ users: 500
 appId: com.goldenraven.padawanwallet
 appCountry: 
 released: 
-updated: 2024-07-22
+updated: 2024-09-26
 version: VARY
 stars: 
 ratings: 

@@ -12,7 +12,7 @@ updated: 2024-09-02
 version: '4.17'
 stars: 3.9
 ratings: 380
-reviews: 8
+reviews: 9
 size: 
 website: http://sticpay.com
 repository: 

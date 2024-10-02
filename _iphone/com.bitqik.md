@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitqik.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2024-07-01
+date: 2024-09-18
 signer: 
 reviewArchive: 
 twitter: bitqikofficial

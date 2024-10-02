@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.streakk.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-07-24
+date: 2024-09-21
 signer: 
 reviewArchive: 
 twitter: streakkofficial

@@ -8,8 +8,8 @@ users: 1000000
 appId: br.com.mercadobitcoin.android
 appCountry: 
 released: 2019-07-25
-updated: 2024-08-31
-version: 2.30.0
+updated: 2024-09-28
+version: 2.34.0
 stars: 4
 ratings: 51097
 reviews: 66

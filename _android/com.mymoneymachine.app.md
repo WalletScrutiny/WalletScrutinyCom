@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.mymoneymachine.app.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2024-07-26
+date: 2024-09-21
 signer: 
 reviewArchive: 
 twitter: 

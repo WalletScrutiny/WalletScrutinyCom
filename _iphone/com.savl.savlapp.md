@@ -1,6 +1,6 @@
 ---
 wsId: Savl
-title: Savl Crypto & Web3 Wallet
+title: Unity Wallet
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ appId: com.savl.savlapp
 appCountry: ru
 idd: 1369912925
 released: 2018-04-22
-updated: 2024-04-23
-version: '6.4'
+updated: 2024-09-25
+version: '7.1'
 stars: 4.5
 reviews: 261
-size: '186540032'
-website: https://savl.com
+size: '115694592'
+website: https://unitywallet.com
 repository: 
 issue: 
 icon: com.savl.savlapp.jpg

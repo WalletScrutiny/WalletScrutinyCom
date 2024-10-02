@@ -1,51 +1,56 @@
-2024-08-21:
-- _android/com.goldtradeuk.io
-- _android/com.novapago.novapagopay
-- _android/com.paycaff.safepaytm
-2024-08-23:
-- _android/com.atomars.android
-- _android/com.crypto.ab.wallet.app
-- _android/com.digi.exchange
-- _android/com.interestinate.flutter_cryptowallet
-- _android/com.localcoinswap.twa
-- _android/com.ofinans.miraclepos
-- _android/com.ofinans.ofinansapp
-- _android/com.phemex.turkey
-- _android/com.yolllo.mobile
-- _android/kr.co.keypair.afintouch
-- _android/me.flyp.mobile
-- _android/za.co.bostechnology.bospay
-- _iphone/doshi.app
-2024-08-25:
-- _android/com.alterdice.android
-2024-08-26:
-- _android/com.ankerpay.wallet
-- _android/com.osource.ovest
-- _android/com.tbit.android
-- _android/io.kaiser.kaiserwallet2.ble_reader
-- _iphone/com.abbc.wallet
-- _iphone/com.aladdin.pro
-- _iphone/com.tidex.exchange.app
-- _iphone/com.xtmcapital.iqwallet
-2024-08-31:
-- _android/app.metavest.mobile
-- _android/com.BlockchainExplorer.DormantBitcoinExplorer
-- _android/com.app.defi
-- _android/com.bgw.wallet
-- _android/com.brilliantts.fuzew
-- _android/com.circle.invest
-- _android/com.latoken.wallet
-- _android/com.tradestrike
-- _android/com.vaultycrypto.wallet
-- _android/company.satoshipayments
-- _android/kr.co.keypair.nixtouch
-- _iphone/com.bitlifi.app
-- _iphone/com.defexa.CryptoWallet-Defexa
-- _iphone/com.icecorp.wallet
-- _iphone/com.pt.powertrade
-- _iphone/vip.trcoin.global
-2024-09-02:
-- _iphone/com.bitqik
-2024-09-03:
-- _android/br.com.yappi
-- _android/im.yitoken.app.g2
+2024-09-18:
+- _android/app.jackbot
+- _android/co.smallet.keystorage
+- _android/com.bitgo.mobile
+- _android/com.coingrig
+- _android/com.dowallet
+- _android/com.hifasthq.hifast
+- _android/com.ompfinex.app
+- _android/com.ramzingate.ramzingate
+- _android/com.swiftywallet
+- _android/www.coindhan.com
+- _iphone/com.bitgo.mobile
+- _iphone/com.fimarketbt
+- _iphone/pay.changecoins
+- _iphone/ru.webtronics.touchwallet2
+2024-09-20:
+- _android/com.abbc.abbcmobile
+- _android/com.abbc.aladdin.pro
+- _iphone/com.ptpwallet
+2024-09-21:
+- _android/com.hmng.wallet
+- _android/com.something.marcelo.eurocoinandroid5
+- _android/jp.co.okasan_online.okasanonline.crypto.prd
+2024-09-22:
+- _android/com.hrdgcoin.hrdgwallet
+- _android/com.tiim.gooptions
+- _android/infii.app.ionewallet
+- _iphone/com.felixo.mobile
+- _iphone/com.hitbtc.wallet
+- _iphone/com.streakk.wallet
+- _iphone/jp.co.okasan-online.okasanonline.crypto.prd
+2024-09-24:
+- _android/com.application.inocyx
+- _android/com.mudrexmobile
+- _android/com.sonitix_mobility
+- _iphone/com.coinmena.coinmenaapp
+- _iphone/com.idea-soft.biteeu
+2024-09-25:
+- _android/com.ljkj.blockpay
+- _android/com.morix.wallet
+2024-09-26:
+- _android/co.rockitcoinx.app
+- _android/com.simpleswapapp
+- _android/fr.acinq.phoenix.mainnet
+2024-09-28:
+- _iphone/btc.org.freewallet.app
+2024-10-02:
+- _android/com.bettamask.production
+- _android/com.covest.covestM
+- _android/com.cryptere.wallet
+- _android/com.kodexpaywallet
+- _android/kr.co.keypair.nextouch
+- _android/net.cryptex.exchange.twa
+- _iphone/com.colodax.colodax
+- _iphone/dev.com.tradefada.app
+- _iphone/org.narkasa

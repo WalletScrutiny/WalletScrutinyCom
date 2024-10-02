@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.pro.bitcointoyou.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-04-27
+date: 2024-09-21
 signer: 
 reviewArchive: 
 twitter: bitcointoyou

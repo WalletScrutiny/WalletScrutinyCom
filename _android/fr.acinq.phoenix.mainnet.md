@@ -5,12 +5,13 @@ altTitle:
 authors:
 - leo
 - danny
+- keraliss
 users: 50000
 appId: fr.acinq.phoenix.mainnet
-appCountry: us
+appCountry: gb
 released: 2019-12-10
-updated: 2024-08-30
-version: 2.3.7
+updated: 2024-09-11
+version: 2.3.9
 stars: 4.3
 ratings: 314
 reviews: 44
@@ -22,9 +23,14 @@ icon: fr.acinq.phoenix.mainnet.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2024-08-05
+date: 2024-09-05
 signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
 reviewArchive:
+- date: 2024-08-05
+  version: 2.3.6
+  appHash: e0575204f2494f7c7e2349253d9962e5442fb7b91a5517fbee3e55723f0d5f62
+  gitRevision: 86701e7a262c2fc6f8ee85480751007fae845420
+  verdict: nonverifiable
 - date: 2024-07-22
   version: 2.3.4
   appHash: 11a0584f79bfc2f5c050c5c0a39558a11d964cb0122f13f5bf1db7818d744db7
@@ -127,18 +133,18 @@ Our test script gave us these results:
 ===== Begin Results =====
 appId:          fr.acinq.phoenix.mainnet
 signer:         ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
-apkVersionName: 2.3.6
-apkVersionCode: 87
+apkVersionName: 2.3.8
+apkVersionCode: 89
 verdict:        
-appHash:        e0575204f2494f7c7e2349253d9962e5442fb7b91a5517fbee3e55723f0d5f62
-commit:         ff42728a1b7df8424d71a5aa7e7989472f53a711
+appHash:        295a50bc3208c28db8ac9b1b5bdfa7eb746e2e2037469f8c2624ebe01119e464
+commit:         b6d6a6343935313b9556a529aa79158fb7e10550
 
 Diff:
-Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_87/assets/dexopt/baseline.prof and /tmp/fromBuild_fr.acinq.phoenix.mainnet_87/assets/dexopt/baseline.prof differ
-Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_87/classes5.dex and /tmp/fromBuild_fr.acinq.phoenix.mainnet_87/classes5.dex differ
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_87/META-INF: MAINNET.RSA
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_87/META-INF: MAINNET.SF
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_87/META-INF: MANIFEST.MF
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_89/assets/dexopt/baseline.prof and /tmp/fromBuild_fr.acinq.phoenix.mainnet_89/assets/dexopt/baseline.prof differ
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_89/classes5.dex and /tmp/fromBuild_fr.acinq.phoenix.mainnet_89/classes5.dex differ
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_89/META-INF: MAINNET.RSA
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_89/META-INF: MAINNET.SF
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_89/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
 

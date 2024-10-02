@@ -3,7 +3,7 @@ wsId:
 title: VCoin - Crypto Wallet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.vcoin.wallet
 appCountry: 
 released: 2022-09-19
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.vcoin.wallet.png
 bugbounty: 
-meta: stale
-verdict: fewusers
-date: 2023-09-20
+meta: obsolete
+verdict: wip
+date: 2024-09-14
 signer: 
 reviewArchive: 
 twitter: 

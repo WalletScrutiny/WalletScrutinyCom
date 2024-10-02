@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.icecorp.wallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2023-08-28
+date: 2024-09-16
 signer: 
 reviewArchive: 
 twitter: icewalofficial

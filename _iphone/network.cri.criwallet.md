@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: network.cri.criwallet.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-09-10
+date: 2024-09-06
 signer: 
 reviewArchive: 
 twitter: Cri_Vivranium

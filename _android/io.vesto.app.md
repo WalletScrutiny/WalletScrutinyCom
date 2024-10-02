@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.vesto.app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
-date: 2024-05-24
+date: 2024-09-26
 signer: 
 reviewArchive: 
 twitter: vestoprotocol

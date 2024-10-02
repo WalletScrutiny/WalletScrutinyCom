@@ -11,7 +11,7 @@ released: 2022-01-27
 updated: 2023-02-07
 version: 1.5.3
 stars: 4.4
-reviews: 42
+reviews: 43
 size: '101757952'
 website: https://ricewallet.io
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: paypal
-title: PayPal - Send, Shop, Manage
+title: PayPal - Pay, Send, Save
 altTitle: 
 authors:
 - emanuel
@@ -9,11 +9,11 @@ users: 100000000
 appId: com.paypal.android.p2pmobile
 appCountry: 
 released: 2016-02-19
-updated: 2024-08-23
-version: 8.69.2
-stars: 4.3
+updated: 2024-09-27
+version: 8.71.2
+stars: 4.2
 ratings: 2452159
-reviews: 401871
+reviews: 403733
 size: 
 website: https://www.paypal.com/mobile
 repository: 

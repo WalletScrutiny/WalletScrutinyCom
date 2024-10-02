@@ -10,9 +10,9 @@ appCountry:
 released: 2021-11-24
 updated: 2024-08-16
 version: 1.30.0
-stars: 3.2
+stars: 3.1
 ratings: 
-reviews: 28
+reviews: 29
 size: 
 website: https://secuxtech.com/
 repository: 
