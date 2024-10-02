@@ -7,7 +7,7 @@ from typing import List
 logging.basicConfig(filename='addHashes.log', level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
-VALID_VERDICTS = {'reproducible', 'nonverifiable', 'obfuscated', 'ftbfs', 'wip'}
+VALID_VERDICTS = {'reproducible', 'nonverifiable'}
 
 def find_markdown_files(directory: str) -> List[str]:
     """Find all markdown files in the specified directory."""
@@ -18,8 +18,8 @@ def find_markdown_files(directory: str) -> List[str]:
                 markdown_files.append(os.path.join(root, file))
     return markdown_files
 
-def process_file(file_path: str):
-    """Process a single markdown file."""
+def process_file(file_path: str) -> bool:
+    """Process a single markdown file. Returns True if file was processed, False otherwise."""
     try:
         with open(file_path, 'r', encoding='utf-8') as file:
             content = file.read()
@@ -27,8 +27,7 @@ def process_file(file_path: str):
         # Check if the verdict is valid
         verdict_match = re.search(r'verdict:\s*(\w+)', content)
         if not verdict_match or verdict_match.group(1).lower() not in VALID_VERDICTS:
-            logging.info(f"Skipping {file_path}: Invalid or missing verdict")
-            return
+            return False
 
         # Process content
         content = process_content(content)
@@ -36,9 +35,11 @@ def process_file(file_path: str):
         # Write the updated content back to the file
         write_file(file_path, content)
         logging.info(f"Successfully processed {file_path}")
+        return True
 
     except Exception as e:
         logging.error(f"Error processing {file_path}: {str(e)}")
+        return False
 
 def process_content(content: str) -> str:
     """Process the entire content of the file."""
@@ -96,30 +97,31 @@ def process_content_without_results(content: str, app_hash_value: str) -> str:
 
 def process_review_archive(content: str) -> str:
     """Process the reviewArchive section."""
-    def replace_app_hash(match):
-        entry = match.group(0)
-        if re.search(r'appHash:\s*\w+', entry, re.IGNORECASE):
-            hash_value_match = re.search(r'appHash:\s*(\w+)', entry, re.IGNORECASE)
-            if hash_value_match:
-                hash_value = hash_value_match.group(1)
-                entry = re.sub(r'appHash:\s*\w+', f"appHashes: [{hash_value}]", entry, flags=re.IGNORECASE)
+    def replace_app_hash(entry_match):
+        entry = entry_match.group(0)
+        # Process the entry line by line
+        lines = entry.split('\n')
+        new_lines = []
+        for line in lines:
+            apphash_match = re.match(r'(\s*)(appHash:)(.*)', line, re.IGNORECASE)
+            if apphash_match:
+                indent = apphash_match.group(1)
+                hash_value = apphash_match.group(3).strip()
+                if hash_value:
+                    new_lines.append(f"{indent}appHashes: [{hash_value}]")
+                else:
+                    new_lines.append(f"{indent}appHashes: []")
             else:
-                # Replace with 'appHashes: []'
-                entry = re.sub(r'appHash:\s*\n', 'appHashes: []\n', entry, flags=re.IGNORECASE)
-        elif 'appHashes:' in entry:
-            pass  # Do nothing
-        else:
-            # Do not add 'appHashes: []' if 'appHash' and 'appHashes' are absent
-            pass
-        return entry
+                new_lines.append(line)
+        return '\n'.join(new_lines)
 
-    review_archive_pattern = r'(-\s*date:.*?(?=-\s*date:|$))'
-    review_archive_section = re.search(r'reviewArchive:(.*)', content, re.DOTALL)
-
-    if review_archive_section:
-        updated_review_archive = re.sub(review_archive_pattern, replace_app_hash, review_archive_section.group(1), flags=re.DOTALL)
-        content = content[:review_archive_section.start()] + "reviewArchive:" + updated_review_archive
-
+    # Adjusted pattern to ensure we capture each entry correctly
+    review_archive_pattern = r'(-\s*date:.*?)(?=\n-\s*date:|\n$)'
+    review_archive_match = re.search(r'reviewArchive:(.*)', content, re.DOTALL)
+    if review_archive_match:
+        review_archive_content = review_archive_match.group(1)
+        updated_review_archive = re.sub(review_archive_pattern, replace_app_hash, review_archive_content, flags=re.DOTALL)
+        content = content[:review_archive_match.start()] + "reviewArchive:" + updated_review_archive
     return content
 
 def write_file(file_path: str, content: str):
@@ -132,9 +134,9 @@ def main(directory: str):
     markdown_files = find_markdown_files(directory)
     processed_count = 0
     for file in markdown_files:
-        process_file(file)
-        processed_count += 1
-    logging.info(f"Processed {processed_count} files. Check addHashes.log for details.")
+        if process_file(file):
+            processed_count += 1
+    logging.info(f"Successfully processed {processed_count} files.")
 
 if __name__ == "__main__":
     directory = input("Enter the directory path containing markdown files: ")
