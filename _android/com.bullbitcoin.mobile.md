@@ -21,6 +21,7 @@ icon: com.bullbitcoin.mobile.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
+appHashes: []
 date: 2024-09-24
 signer: 
 reviewArchive: 

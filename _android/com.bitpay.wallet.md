@@ -25,27 +25,28 @@ bugbounty: >-
   https://support.bitpay.com/hc/en-us/articles/204229369-Does-BitPay-have-a-bug-bounty-program-
 meta: ok
 verdict: nonverifiable
+appHashes: []
 date: 2024-07-30
 signer: 
 reviewArchive:
 - date: 2024-07-20
   version: 14.10.1
-  appHash: 
+  appHashes: []
   gitRevision: 03703dbef3fcabdbb7a9ca18963e255aab7de5b7
   verdict: ftbfs
 - date: 2022-11-02
   version: 14.10.1
-  appHash: 
+  appHashes: []
   gitRevision: 542873cd51a2ae85cae03cfe7272e34e53f3f4d3
   verdict: ftbfs
 - date: 2022-11-02
   version: 12.6.4
-  appHash: 
+  appHashes: []
   gitRevision: b323422a62c5d226572c32bffc8b499bbd9716a1
   verdict: nosource
 - date: 2019-11-29
   version: 
-  appHash: 
+  appHashes: []
   gitRevision: 8a474ddd867e50ed46404ed9d81f2a893bbf6619
   verdict: ftbfs
 twitter: BitPay

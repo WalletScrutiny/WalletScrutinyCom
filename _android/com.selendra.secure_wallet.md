@@ -21,6 +21,7 @@ icon: com.selendra.secure_wallet.png
 bugbounty: 
 meta: defunct
 verdict: nonverifiable
+appHashes: []
 date: 2022-03-07
 signer: 
 reviewArchive: 

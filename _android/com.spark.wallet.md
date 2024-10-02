@@ -22,6 +22,7 @@ icon: com.spark.wallet.png
 bugbounty: 
 meta: removed
 verdict: nonverifiable
+appHashes: []
 date: 2023-08-04
 signer: 
 reviewArchive: 

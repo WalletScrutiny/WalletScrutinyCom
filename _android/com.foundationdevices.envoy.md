@@ -22,6 +22,7 @@ icon: com.foundationdevices.envoy.jpg
 bugbounty: 
 meta: ok
 verdict: nonverifiable
+appHashes: []
 date: 2024-08-21
 signer: 
 reviewArchive: 

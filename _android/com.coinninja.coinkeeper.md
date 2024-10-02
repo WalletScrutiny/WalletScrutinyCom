@@ -20,6 +20,7 @@ icon: com.coinninja.coinkeeper.png
 bugbounty: 
 meta: removed
 verdict: nonverifiable
+appHashes: []
 date: 2021-07-21
 signer: 
 reviewArchive: 

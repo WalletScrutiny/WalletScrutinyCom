@@ -22,6 +22,7 @@ icon: com.blixtwallet.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
+appHashes: []
 date: 2022-02-07
 signer: 
 reviewArchive: 

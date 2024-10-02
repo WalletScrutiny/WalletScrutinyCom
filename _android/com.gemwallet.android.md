@@ -21,6 +21,7 @@ icon: com.gemwallet.android.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
+appHashes: []
 date: 2024-08-05
 signer: 
 reviewArchive: 
