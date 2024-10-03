@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: www.coindhan.com.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-04-18
+date: 2024-10-03
 signer: 
 reviewArchive: 
 twitter: coin_dhan

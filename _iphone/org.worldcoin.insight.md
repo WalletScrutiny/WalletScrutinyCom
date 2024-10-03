@@ -8,11 +8,11 @@ appId: org.worldcoin.insight
 appCountry: us
 idd: '1560859847'
 released: 2022-06-25
-updated: 2024-09-23
-version: 2.7.6300
+updated: 2024-10-02
+version: 2.7.6400
 stars: 4.6
 reviews: 1215
-size: '152110080'
+size: '155055104'
 website: https://worldcoin.org
 repository: 
 issue: 

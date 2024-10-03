@@ -10,7 +10,7 @@ idd: '6443685999'
 released: 2022-11-28
 updated: 2024-10-01
 version: 0.14.16
-stars: 4.2
+stars: 4.3
 reviews: 50
 size: '61613056'
 website: https://www.core.app/

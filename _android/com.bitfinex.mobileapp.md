@@ -8,7 +8,7 @@ users: 500000
 appId: com.bitfinex.mobileapp
 appCountry: 
 released: 2019-02-11
-updated: 2024-08-13
+updated: 2024-10-02
 version: 7.0.0
 stars: 3.4
 ratings: 1986

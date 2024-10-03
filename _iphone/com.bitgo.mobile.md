@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitgo.mobile.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2023-10-30
+date: 2024-10-03
 signer: 
 reviewArchive: 
 twitter: BitGo

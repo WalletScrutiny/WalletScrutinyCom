@@ -8,11 +8,11 @@ appId: com.tangem.Tangem
 appCountry: 
 idd: 1354868448
 released: 2018-04-28
-updated: 2024-09-26
-version: '5.15'
+updated: 2024-10-02
+version: '5.16'
 stars: 4.9
-reviews: 5147
-size: '234116096'
+reviews: 5163
+size: '234120192'
 website: 
 repository: 
 issue: 

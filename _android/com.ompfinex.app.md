@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.ompfinex.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2022-06-23
+date: 2024-10-03
 signer: 
 reviewArchive: 
 twitter: ompfinex

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: ru.webtronics.touchwallet2.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-07-02
+date: 2024-10-03
 signer: 
 reviewArchive: 
 twitter: Touch_Wallet

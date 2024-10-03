@@ -9,7 +9,7 @@ appId: io.yellowcard.app
 appCountry: za
 released: 2019-05-14
 updated: 2024-09-26
-version: 5.3.23
+version: 5.4.1
 stars: 3.8
 ratings: 4440
 reviews: 411

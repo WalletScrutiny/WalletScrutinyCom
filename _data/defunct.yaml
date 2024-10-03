@@ -1,18 +1,3 @@
-2024-09-18:
-- _android/app.jackbot
-- _android/co.smallet.keystorage
-- _android/com.bitgo.mobile
-- _android/com.coingrig
-- _android/com.dowallet
-- _android/com.hifasthq.hifast
-- _android/com.ompfinex.app
-- _android/com.ramzingate.ramzingate
-- _android/com.swiftywallet
-- _android/www.coindhan.com
-- _iphone/com.bitgo.mobile
-- _iphone/com.fimarketbt
-- _iphone/pay.changecoins
-- _iphone/ru.webtronics.touchwallet2
 2024-09-20:
 - _android/com.abbc.abbcmobile
 - _android/com.abbc.aladdin.pro
@@ -54,3 +39,8 @@
 - _iphone/com.colodax.colodax
 - _iphone/dev.com.tradefada.app
 - _iphone/org.narkasa
+2024-10-03:
+- _android/com.blockin.wallet
+- _android/com.coinpanel.appdev
+- _iphone/app.mybitstore.com
+- _android/com.sdb.app

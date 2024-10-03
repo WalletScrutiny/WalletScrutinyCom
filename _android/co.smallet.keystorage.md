@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: co.smallet.keystorage.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2024-03-15
+date: 2024-10-03
 signer: 
 reviewArchive: 
 twitter: 

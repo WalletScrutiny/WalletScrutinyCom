@@ -8,8 +8,8 @@ appId: com.rearden-metals.Cold-Storage-Coins
 appCountry: hu
 idd: '1352363663'
 released: 2018-03-11
-updated: 2024-09-19
-version: 3.11.1
+updated: 2024-10-02
+version: 3.11.2
 stars: 0
 reviews: 0
 size: '30853120'

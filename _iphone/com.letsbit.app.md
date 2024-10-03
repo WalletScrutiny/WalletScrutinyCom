@@ -1,6 +1,6 @@
 ---
 wsId: letsBit
-title: 'Let''sBit: Tu billetera virtual'
+title: 'LB Finanzas: billetera virtual'
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ appId: com.letsbit.app
 appCountry: ar
 idd: '1644159531'
 released: 2022-12-07
-updated: 2024-09-24
-version: 1.35.0
+updated: 2024-10-02
+version: 1.36.0
 stars: 4.4
 reviews: 322
-size: '70942720'
-website: https://www.letsbit.io
+size: '70946816'
+website: https://www.lbfinanzas.com
 repository: 
 issue: 
 icon: com.letsbit.app.jpg

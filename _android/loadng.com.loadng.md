@@ -12,7 +12,7 @@ updated: 2024-08-27
 version: 5.4.2
 stars: 4
 ratings: 259
-reviews: 700
+reviews: 701
 size: 
 website: https://app.load.ng/
 repository: 
