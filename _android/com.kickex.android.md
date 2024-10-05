@@ -8,8 +8,8 @@ users: 10000
 appId: com.kickex.android
 appCountry: 
 released: 2022-06-15
-updated: 2024-09-19
-version: 1.17.0
+updated: 2024-10-02
+version: 1.18.0
 stars: 
 ratings: 
 reviews: 

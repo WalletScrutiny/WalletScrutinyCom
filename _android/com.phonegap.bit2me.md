@@ -10,9 +10,9 @@ appCountry:
 released: 2015-01-08
 updated: 2024-09-29
 version: 3.24.1
-stars: 4
+stars: 3.9
 ratings: 5162
-reviews: 82
+reviews: 80
 size: 
 website: https://bit2me.com
 repository: 

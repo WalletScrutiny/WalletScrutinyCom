@@ -1,6 +1,6 @@
 ---
 wsId: BitcoinPoint
-title: BitcoinPoint
+title: BCP Markets
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ appId: com.cashin.store
 appCountry: gb
 idd: 1363753409
 released: 2018-08-15
-updated: 2024-07-18
-version: '7.5'
+updated: 2024-10-04
+version: '7.6'
 stars: 5
 reviews: 5
 size: '114722816'
-website: https://bitcoinpoint.com
+website: https://www.bcpmarkets.co.uk/
 repository: 
 issue: 
 icon: com.cashin.store.jpg

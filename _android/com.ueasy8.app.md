@@ -8,11 +8,11 @@ users: 50000
 appId: com.ueasy8.app
 appCountry: 
 released: 2021-12-28
-updated: 2024-08-31
-version: 4.1.7
-stars: 2.7
+updated: 2024-10-03
+version: 4.1.8
+stars: 2.6
 ratings: 
-reviews: 14
+reviews: 17
 size: 
 website: 
 repository: 

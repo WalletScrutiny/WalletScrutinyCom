@@ -8,11 +8,11 @@ appId: com.coinsquare.quicktrade
 appCountry: ca
 idd: '1539660922'
 released: 2021-02-05
-updated: 2024-09-17
-version: 5.0.4
+updated: 2024-10-03
+version: 5.0.6
 stars: 4.6
 reviews: 5058
-size: '58199040'
+size: '58539008'
 website: https://coinsquare.com
 repository: 
 issue: 

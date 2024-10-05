@@ -8,11 +8,11 @@ users: 100000
 appId: am.ecos.android
 appCountry: us
 released: 2020-09-22
-updated: 2024-09-25
-version: 2.0.4
+updated: 2024-10-02
+version: 2.0.5
 stars: 2.4
 ratings: 377
-reviews: 174
+reviews: 172
 size: 
 website: https://ecos.am
 repository: 

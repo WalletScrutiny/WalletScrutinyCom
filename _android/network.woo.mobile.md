@@ -14,7 +14,7 @@ stars: 3.8
 ratings: 
 reviews: 11
 size: 
-website: https://woo.org/
+website: https://woox.io/
 repository: 
 issue: 
 icon: network.woo.mobile.png

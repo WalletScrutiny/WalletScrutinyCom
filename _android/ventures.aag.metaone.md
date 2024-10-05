@@ -12,7 +12,7 @@ updated: 2024-08-01
 version: 5.9.0
 stars: 4.1
 ratings: 
-reviews: 13
+reviews: 14
 size: 
 website: https://getmeta.one/
 repository: 

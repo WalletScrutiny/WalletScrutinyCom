@@ -8,8 +8,8 @@ users: 1000
 appId: com.dxs.app
 appCountry: 
 released: 2022-04-25
-updated: 2024-09-25
-version: 1.0.4
+updated: 2024-10-04
+version: 1.0.6
 stars: 
 ratings: 
 reviews: 

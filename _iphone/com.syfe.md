@@ -11,7 +11,7 @@ released: 2020-02-24
 updated: 2024-10-02
 version: 11.8.1
 stars: 4
-reviews: 718
+reviews: 719
 size: '107352064'
 website: https://www.syfe.com
 repository: 

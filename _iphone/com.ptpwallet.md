@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ptpwallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2021-05-25
+date: 2024-10-05
 signer: 
 reviewArchive: 
 twitter: PtpWallet

@@ -8,8 +8,8 @@ users: 10000
 appId: com.taralwallet
 appCountry: 
 released: 2021-10-22
-updated: 2023-11-30
-version: 10.9.1
+updated: 2024-09-30
+version: 11.0.0
 stars: 3
 ratings: 
 reviews: 4
@@ -17,7 +17,7 @@ size:
 website: https://tarality.com
 repository: 
 issue: 
-icon: com.taralwallet.jpg
+icon: com.taralwallet.png
 bugbounty: 
 meta: ok
 verdict: nosource

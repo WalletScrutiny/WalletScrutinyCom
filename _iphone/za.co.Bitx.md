@@ -8,8 +8,8 @@ appId: za.co.Bitx
 appCountry: 
 idd: 927362479
 released: 2014-11-03
-updated: 2024-09-24
-version: 8.68.1
+updated: 2024-10-03
+version: 8.68.2
 stars: 4.2
 reviews: 3552
 size: '208362496'

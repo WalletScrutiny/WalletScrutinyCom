@@ -4,12 +4,12 @@ title: Deblock - Application bancaire
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.deblock.deblockapp
 appCountry: 
 released: 
 updated: 2024-10-02
-version: 1.2.10
+version: 1.2.11
 stars: 5
 ratings: 
 reviews: 7
