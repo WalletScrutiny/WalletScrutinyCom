@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.hmng.wallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2024-08-21
+date: 2024-10-06
 signer: 
 reviewArchive: 
 twitter: 

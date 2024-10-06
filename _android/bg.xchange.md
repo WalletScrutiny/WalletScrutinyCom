@@ -9,7 +9,7 @@ appId: bg.xchange
 appCountry: 
 released: 2020-12-22
 updated: 2024-09-19
-version: 2.2.1
+version: 2.2.2
 stars: 
 ratings: 
 reviews: 

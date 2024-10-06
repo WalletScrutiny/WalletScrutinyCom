@@ -11,7 +11,7 @@ released: 2020-06-08
 updated: 2024-10-04
 version: '3.53'
 stars: 4.5
-reviews: 1375
+reviews: 1376
 size: '125341696'
 website: https://www.ziglu.io
 repository: 

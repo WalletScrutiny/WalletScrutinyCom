@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.CapiteraAG.Welthee.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-04-13
+date: 2024-10-06
 signer: 
 reviewArchive: 
 twitter: Welthee

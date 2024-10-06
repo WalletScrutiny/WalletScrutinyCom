@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: 루비콘코리아(유)
+developerName: Neural Engine LLC
 features: 
 
 ---

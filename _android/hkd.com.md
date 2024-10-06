@@ -10,9 +10,9 @@ appCountry:
 released: 2020-09-11
 updated: 2024-06-25
 version: 2.9.3
-stars: 4.3
+stars: 4.2
 ratings: 
-reviews: 13
+reviews: 12
 size: 
 website: http://hkd.com
 repository: 
