@@ -22,9 +22,14 @@ icon: io.horizontalsystems.bankwallet.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-08-20
+date: 2024-10-07
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
 reviewArchive:
+- date: 2024-08-20
+  version: 0.39.3
+  appHash: 05c83d8031798a0f336109d980eac799a94307d3d0a3d842e0b2d53b54b0d36c
+  gitRevision: 5e103f43989742bf414e4bf66b1705c507022fc4
+  verdict: reproducible
 - date: 2024-08-05
   version: 0.39.2
   appHash: 4d76c4345dce50f1e18850dfc2ca9c311876a8ba10dd9f5c57a77a530027c2fc
@@ -280,16 +285,16 @@ procedure expressed in our {% include testScript.html %}:
 ===== Begin Results =====
 appId:          io.horizontalsystems.bankwallet
 signer:         c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
-apkVersionName: 0.39.3
-apkVersionCode: 113
+apkVersionName: 0.40.0
+apkVersionCode: 118
 verdict:        reproducible
-appHash:        05c83d8031798a0f336109d980eac799a94307d3d0a3d842e0b2d53b54b0d36c
-commit:         6bd8ccab036704c07469f66c90ed414b52e2579f
+appHash:        f5db836de54c5fd4bcc6819871edf7e5dd1d7ab8fb81c5e1bdcf3c16ab3534ad
+commit:         12cc03f3497da8520521543002ed8b191c6738cc
 
 Diff:
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_113/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_113/META-INF: RELEASEK.RSA
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_113/META-INF: RELEASEK.SF
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_118/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_118/META-INF: RELEASEK.RSA
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_118/META-INF: RELEASEK.SF
 
 Revision, tag (and its signature):
 
@@ -299,7 +304,7 @@ Revision, tag (and its signature):
 {% include asciicast %}
 
 
-Version 0.39.3 is **reproducible**
+Version 0.40.0 is **reproducible**
 
 ### Thank you to Horizontal Systems for repeat donations
 
