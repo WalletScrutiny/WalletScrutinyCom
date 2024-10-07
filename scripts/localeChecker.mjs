@@ -1,8 +1,8 @@
 import fs from 'fs/promises';
 import path from 'path';
-import yaml from 'js-yaml';
 import axios from 'axios';
 import pLimit from 'p-limit';
+import helper from './helper.mjs';
 
 // Parse command-line arguments
 let filePathToProcess = null;
@@ -30,25 +30,14 @@ const allCountryCodes = 'ae,af,ag,ai,al,am,ao,ar,at,au,az,bb,bd,be,bf,bg,bh,bj,b
 
 let processedFiles = 0;
 let totalFiles = 0;
-let updatedFiles = [];
-let unavailableFiles = [];
-
-// Custom YAML schema to preserve date formats
-const customYamlType = new yaml.Type('!date', {
-  kind: 'scalar',
-  resolve: (data) => data !== null,
-  construct: (data) => data,
-  instanceOf: Date,
-  represent: (data) => data.toISOString().split('T')[0],
-});
-
-const CUSTOM_SCHEMA = yaml.DEFAULT_SCHEMA.extend([customYamlType]);
+const updatedFiles = [];
+const unavailableFiles = [];
 
 /**
  * Log an error message in red color
  * @param {string} message - The error message to log
  */
-function logError(message) {
+function logError (message) {
   console.error('\x1b[31m%s\x1b[0m', message);
 }
 
@@ -56,45 +45,8 @@ function logError(message) {
  * Log a success message in green color
  * @param {string} message - The success message to log
  */
-function logSuccess(message) {
+function logSuccess (message) {
   console.log('\x1b[32m%s\x1b[0m', message);
-}
-
-/**
- * Extract front matter from file content
- * @param {string} content - The content of the file
- * @param {string} filename - The name of the file
- * @returns {string|null} - The extracted front matter or null if not found
- */
-function extractFrontMatter(content, filename) {
-  const match = /^---\n([\s\S]+?)\n---/m.exec(content);
-  if (!match) {
-    logError(`Error: No front matter found in file: ${filename}`);
-    return null;
-  }
-  return match[1];
-}
-
-/**
- * Strip quotes from a string value
- * @param {string} value - The value to strip quotes from
- * @returns {string} - The value without surrounding quotes
- */
-function stripQuotes(value) {
-  if (typeof value === 'string') {
-    return value.replace(/^['"]|['"]$/g, '');
-  }
-  return value;
-}
-
-/**
- * Check if a value needs quotes in YAML
- * @param {*} value - The value to check
- * @returns {boolean} - True if the value needs quotes, false otherwise
- */
-function needsQuotes(value) {
-  if (typeof value !== 'string') return false;
-  return /^[\s-?:,[\]{}#&*!|>'"%@`]/.test(value) || /[\s]/.test(value);
 }
 
 /**
@@ -104,7 +56,7 @@ function needsQuotes(value) {
  * @param {number} retryCount - The current retry count
  * @returns {Promise<boolean>} - True if the app is available, false otherwise
  */
-async function isAppAvailable(appId, countryCode, retryCount = 0) {
+async function isAppAvailable (appId, countryCode, retryCount = 0) {
   const url = `https://itunes.apple.com/lookup?id=${appId}&country=${countryCode}`;
   try {
     await new Promise((resolve) => setTimeout(resolve, 1000)); // 1 second delay between API calls
@@ -126,7 +78,7 @@ async function isAppAvailable(appId, countryCode, retryCount = 0) {
  * Perform a cooldown period with progress messages
  * @returns {Promise<void>}
  */
-async function cooldown() {
+async function cooldown () {
   console.log(
     "\n🚨 Whoa there, speed racer! We've processed 50 files. Time to give the API a breather. 🌬️"
   );
@@ -137,7 +89,7 @@ async function cooldown() {
     'API is practicing its deep breathing exercises.',
     'API is power napping.',
     'API is almost done with its meditation session.',
-    'API is stretching its digital muscles.',
+    'API is stretching its digital muscles.'
   ];
 
   const totalSteps = 6;
@@ -154,57 +106,13 @@ async function cooldown() {
   );
 }
 
-/**
- * Custom YAML dump function to format the output
- * @param {Object} obj - The object to dump as YAML
- * @returns {string} - The formatted YAML string
- */
-function customYamlDump(obj) {
-  const lines = [];
-  for (const [key, value] of Object.entries(obj)) {
-    if (value === null || value === undefined || value === '') {
-      lines.push(`${key}:`);
-    } else if (Array.isArray(value)) {
-      if (value.length === 0) {
-        lines.push(`${key}: []`);
-      } else {
-        lines.push(`${key}:`);
-        value.forEach((item) => lines.push(`- ${item}`));
-      }
-    } else if (value instanceof Date) {
-      lines.push(`${key}: ${value.toISOString().split('T')[0]}`);
-    } else if (typeof value === 'object') {
-      lines.push(`${key}:`);
-      const nestedLines = customYamlDump(value).split('\n');
-      lines.push(
-        ...nestedLines.map((line) => `  ${line}`).filter((line) => line.trim() !== '')
-      );
-    } else {
-      let valueStr = value.toString();
-      valueStr = valueStr.replace(/^['"]|['"]$/g, '');
-      if (needsQuotes(valueStr) || key === 'size') {
-        lines.push(`${key}: '${valueStr}'`);
-      } else {
-        lines.push(`${key}: ${valueStr}`);
-      }
-    }
-  }
-  return lines.filter((line) => line.trim() !== '').join('\n');
-}
+const today = new Date().toISOString().split('T')[0];
 
-/**
- * Get today's date in YYYY-MM-DD format
- * @returns {string} - Today's date
- */
-function getTodayDate() {
-  const today = new Date();
-  return today.toISOString().split('T')[0];
-}
 /**
  * Log information to the removed.log file
  * @returns {Promise<void>}
  */
-async function writeLogFile() {
+async function writeLogFile () {
   const logContent = [
     `Number of updated files: ${updatedFiles.length}`,
     '\nUpdated files:',
@@ -222,7 +130,7 @@ async function writeLogFile() {
     console.log('A more comprehensive check would list 161 countries.');
     console.log('-------------------------------------------------------------');
   }
-  console.log(`Log file "removedFix.log" has been created.`);
+  console.log('Log file "removedFix.log" has been created.');
 }
 
 /**
@@ -230,49 +138,20 @@ async function writeLogFile() {
  * @param {string} filePath - The path of the file to process
  * @returns {Promise<void>}
  */
-async function processFile(filePath, isSingleFile = false) {
+async function processFile (filePath, isSingleFile = false) {
   processedFiles++;
   console.log(`Processing file ${processedFiles} of ${totalFiles}: ${filePath}`);
 
-  let fileContent;
-  try {
-    fileContent = await fs.readFile(filePath, 'utf8');
-  } catch (error) {
-    logError(`Error: Unable to read file: ${filePath}. Reason: ${error.message}`);
-    return;
-  }
+  const content = { header: {}, body: undefined };
+  helper.loadFromFile(filePath, content);
 
-  const frontMatter = extractFrontMatter(fileContent, path.basename(filePath));
-  if (!frontMatter) return;
+  const originalReleased = content.header.released;
+  const originalUpdated = content.header.updated;
 
-  let metadata;
-  try {
-    metadata = yaml.load(frontMatter, { schema: CUSTOM_SCHEMA });
-  } catch (error) {
-    logError(`Error: Invalid YAML syntax in front matter of file: ${path.basename(filePath)}. Reason: ${error.message}`);
-    return;
-  }
-  
-  ['released', 'updated'].forEach(dateField => {
-    if (metadata[dateField] && !(metadata[dateField] instanceof Date)) {
-      logError(`Warning: Unexpected date format encountered in '${dateField}' field of file: ${path.basename(filePath)}`);
-    }
-  });
-
-  if (metadata.released instanceof Date) {
-    metadata.released = metadata.released.toISOString().split('T')[0];
-  }
-  if (metadata.updated instanceof Date) {
-    metadata.updated = metadata.updated.toISOString().split('T')[0];
-  }
-
-  const originalReleased = metadata.released;
-  const originalUpdated = metadata.updated;
-
-  if (metadata.meta === 'removed') {
-    let appId = metadata.idd;
+  if (content.header.meta === 'removed') {
+    const appId = content.header.idd;
     if (!appId) {
-      console.error(`App ID not found in metadata for ${path.basename(filePath)}`);
+      console.error(`App ID not found in content.header for ${path.basename(filePath)}`);
       return;
     }
 
@@ -309,18 +188,12 @@ async function processFile(filePath, isSingleFile = false) {
 
     if (availableCountry) {
       logSuccess(`${path.basename(filePath)} is available in ${availableCountry}`);
-      metadata.meta = 'ok';
-      metadata.appCountry = availableCountry;
-      metadata.date = getTodayDate();
+      content.header.meta = 'ok';
+      content.header.appCountry = availableCountry;
+      content.header.date = today;
 
-      metadata.released = originalReleased;
-      metadata.updated = originalUpdated;
-
-      const newFrontMatter = customYamlDump(metadata);
-      const newContent = fileContent.replace(
-        /^---\n[\s\S]+?\n---/m,
-        `---\n${newFrontMatter}\n---`
-      );
+      content.header.released = originalReleased;
+      content.header.updated = originalUpdated;
 
       helper.writeResult('_iphone/', content.header, content.body);
       console.log(`Updated ${path.basename(filePath)}`);
@@ -346,7 +219,7 @@ async function processFile(filePath, isSingleFile = false) {
  * @param {string|null} filePathToProcess - Optional specific file path to process
  * @returns {Promise<string[]>} - Array of file paths to process
  */
-async function getFilesToProcess(filePathToProcess) {
+async function getFilesToProcess (filePathToProcess) {
   if (filePathToProcess) {
     try {
       await fs.access(filePathToProcess);
@@ -368,7 +241,7 @@ async function getFilesToProcess(filePathToProcess) {
  * Main function to process all files
  * @returns {Promise<void>}
  */
-async function processFiles() {
+async function processFiles () {
   const files = await getFilesToProcess(filePathToProcess);
   totalFiles = files.length;
 
@@ -384,7 +257,6 @@ async function processFiles() {
 
   // Only write a log file if more than 1 files is processed
   if (totalFiles > 1) {
-    const countriesChecked = isSingleFile ? allCountryCodes.length : countryCodes.length;
     await writeLogFile();
   }
 }
