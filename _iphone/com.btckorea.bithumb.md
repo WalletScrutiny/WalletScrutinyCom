@@ -5,7 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.btckorea.bithumb
-appCountry: 
+appCountry: kr
 idd: 1299421592
 released: 2017-12-05
 updated: 2023-03-13
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.btckorea.bithumb.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-05-10
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: BithumbOfficial

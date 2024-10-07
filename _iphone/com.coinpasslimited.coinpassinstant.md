@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.coinpasslimited.coinpassinstant
-appCountry: bg
+appCountry: gb
 idd: '1530358553'
 released: 2020-11-20
 updated: 2024-01-03
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.coinpasslimited.coinpassinstant.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2024-02-05
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: coinpassglobal

@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.trader.brands.cfdglobal
-appCountry: gb
+appCountry: de
 idd: 1304998844
 released: 2018-02-03
 updated: 2023-09-27
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.trader.brands.cfdglobal.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosendreceive
-date: 2024-04-03
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: capex_en

@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.pt.powertrade
-appCountry: id
+appCountry: jp
 idd: '1548085709'
 released: 2021-04-15
 updated: 2024-01-19
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.pt.powertrade.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2024-09-16
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: powertradehq

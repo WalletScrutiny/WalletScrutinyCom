@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.xchange.24paybank
-appCountry: ru
+appCountry: us
 idd: '1504034176'
 released: 2020-03-24
 updated: 2022-12-21
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.xchange.24paybank.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nowallet
-date: 2024-05-18
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: 24Paybank

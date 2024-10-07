@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.paymium.mobile
-appCountry: us
+appCountry: fr
 idd: 1055288395
 released: 2016-01-18
 updated: 2023-02-03
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.paymium.mobile.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-06-21
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: paymium

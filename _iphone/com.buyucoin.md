@@ -5,7 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.buyucoin
-appCountry: 
+appCountry: in
 idd: 1539456610
 released: 2020-11-17
 updated: 2022-09-06
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.buyucoin.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-01-02
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: buyucoin

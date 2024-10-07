@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.xchangecapital.exmoney
-appCountry: ru
+appCountry: us
 idd: '1512922324'
 released: 2020-05-14
 updated: 2022-12-29
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.xchangecapital.exmoney.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nowallet
-date: 2024-05-18
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: 

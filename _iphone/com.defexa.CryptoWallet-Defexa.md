@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.defexa.CryptoWallet-Defexa
-appCountry: us
+appCountry: jp
 idd: '6446314571'
 released: 2023-05-29
 updated: 2024-08-24
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.defexa.CryptoWallet-Defexa.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosource
-date: 2024-09-16
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: DefexaCrypto

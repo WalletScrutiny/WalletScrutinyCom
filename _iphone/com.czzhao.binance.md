@@ -5,7 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.czzhao.binance
-appCountry: 
+appCountry: jp
 idd: 1436799971
 released: 2018-10-06
 updated: 2023-11-23
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.czzhao.binance.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-12-19
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: binance

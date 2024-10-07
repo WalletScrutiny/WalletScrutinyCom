@@ -5,7 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.livingroomofsatoshi.wallet
-appCountry: 
+appCountry: jp
 idd: 1438599608
 released: 2019-05-20
 updated: 2023-08-29
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.livingroomofsatoshi.wallet.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-12-19
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: walletofsatoshi

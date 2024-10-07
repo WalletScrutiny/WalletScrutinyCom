@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: app.simple.com
-appCountry: us
+appCountry: gb
 idd: '1603406843'
 released: 2022-05-06
 updated: 2023-08-09
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: app.simple.com.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-09-15
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: smpl_app

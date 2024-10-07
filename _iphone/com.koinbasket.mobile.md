@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.koinbasket.mobile
-appCountry: us
+appCountry: in
 idd: '1593355681'
 released: 2022-05-16
 updated: 2022-07-05
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.koinbasket.mobile.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nowallet
-date: 2024-02-05
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: koinbasket

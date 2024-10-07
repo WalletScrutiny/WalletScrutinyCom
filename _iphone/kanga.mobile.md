@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: kanga.mobile
-appCountry: us
+appCountry: jp
 idd: '1471634153'
 released: 2020-02-13
 updated: 2022-10-08
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: kanga.mobile.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-03-21
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: KangaExchange

@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.ios.coinmotion.app
-appCountry: in
+appCountry: ca
 idd: 1518765595
 released: 2020-11-19
 updated: 2023-10-23
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ios.coinmotion.app.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-12-19
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: Coinmotion

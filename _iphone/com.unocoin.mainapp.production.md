@@ -5,7 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.unocoin.mainapp.production
-appCountry: 
+appCountry: in
 idd: 1030422972
 released: 2016-05-12
 updated: 2023-03-01
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.unocoin.mainapp.production.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-04-16
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: Unocoin

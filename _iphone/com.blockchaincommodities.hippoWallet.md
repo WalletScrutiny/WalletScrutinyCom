@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.blockchaincommodities.hippoWallet
-appCountry: ae
+appCountry: us
 idd: '1613041499'
 released: 2022-04-01
 updated: 2024-03-19
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.blockchaincommodities.hippoWallet.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosource
-date: 2024-04-19
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: HippoWallet

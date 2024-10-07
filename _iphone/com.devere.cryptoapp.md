@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.devere.cryptoapp
-appCountry: us
+appCountry: jp
 idd: '1335720589'
 released: 2018-02-01
 updated: 2022-01-20
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.devere.cryptoapp.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosendreceive
-date: 2023-05-10
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: deveregroup

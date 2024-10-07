@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cointopay.iosapp.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2022-04-25
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: Cointopay

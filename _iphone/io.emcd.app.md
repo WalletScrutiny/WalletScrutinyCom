@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: io.emcd.app
-appCountry: us
+appCountry: jp
 idd: '1606903304'
 released: 2022-01-29
 updated: 2024-02-22
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.emcd.app.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2024-04-19
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: emcd_io

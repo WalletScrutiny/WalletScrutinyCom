@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.btc-alpha
-appCountry: us
+appCountry: gb
 idd: 1437629304
 released: 2019-04-20
 updated: 2022-09-25
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.btc-alpha.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2024-07-05
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: btcalpha

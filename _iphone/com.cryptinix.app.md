@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.cryptinix.app
-appCountry: sn
+appCountry: gb
 idd: 1539414769
 released: 2020-11-11
 updated: 2021-07-25
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cryptinix.app.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-09-04
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: 

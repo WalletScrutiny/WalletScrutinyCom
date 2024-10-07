@@ -5,7 +5,7 @@ altTitle:
 authors:
 - kiwilamb
 appId: com.coincorner.app.crypt
-appCountry: 
+appCountry: gb
 idd: 917721788
 released: 2014-09-22
 updated: 2023-09-04
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.coincorner.app.crypt.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-12-19
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: CoinCorner

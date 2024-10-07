@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.matrixport.mark
-appCountry: hk
+appCountry: us
 idd: 1488557973
 released: 2019-11-25
 updated: 2023-06-13
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.matrixport.mark.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-08-04
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: realMatrixport

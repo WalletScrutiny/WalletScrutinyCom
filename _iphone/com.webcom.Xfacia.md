@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.webcom.Xfacia
-appCountry: br
+appCountry: us
 idd: '1620527067'
 released: 2022-08-15
 updated: 2022-12-21
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.webcom.Xfacia.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2024-02-05
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: XfaciaXchange

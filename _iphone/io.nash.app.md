@@ -5,7 +5,7 @@ altTitle:
 authors:
 - kiwilamb
 appId: io.nash.app
-appCountry: 
+appCountry: de
 idd: 1475759236
 released: 2019-09-06
 updated: 2022-06-04
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.nash.app.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosource
-date: 2022-10-21
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: nashsocial

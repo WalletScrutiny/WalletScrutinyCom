@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.xchange.ychanger
-appCountry: ru
+appCountry: in
 idd: '1441211779'
 released: 2018-11-09
 updated: 2022-12-29
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.xchange.ychanger.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2024-05-18
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: 

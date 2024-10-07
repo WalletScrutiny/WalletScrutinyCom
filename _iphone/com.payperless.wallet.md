@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.payperless.wallet
-appCountry: us
+appCountry: jp
 idd: '1552741313'
 released: 2021-06-16
 updated: 2023-06-02
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.payperless.wallet.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosource
-date: 2024-03-02
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: Payperlesscom

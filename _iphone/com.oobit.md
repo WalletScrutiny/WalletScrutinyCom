@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.oobit
-appCountry: ru
+appCountry: br
 idd: '1598882898'
 released: 2022-02-05
 updated: 2023-04-06
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.oobit.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-08-04
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: 

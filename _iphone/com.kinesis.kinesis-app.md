@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.kinesis.kinesis-app
-appCountry: us
+appCountry: de
 idd: 1490483608
 released: 2020-02-28
 updated: 2023-03-21
@@ -18,9 +18,9 @@ repository: https://github.com/KinesisNetwork/wallet-mobile
 issue: 
 icon: com.kinesis.kinesis-app.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosource
-date: 2023-12-19
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: KinesisMonetary

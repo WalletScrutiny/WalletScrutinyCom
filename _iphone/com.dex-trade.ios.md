@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.dex-trade.ios.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2024-07-14
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: dextrade_

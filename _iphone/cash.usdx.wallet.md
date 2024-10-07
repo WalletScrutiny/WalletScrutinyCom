@@ -5,7 +5,7 @@ altTitle:
 authors:
 - kiwilamb
 appId: cash.usdx.wallet
-appCountry: 
+appCountry: us
 idd: 1367451869
 released: 2018-04-23
 updated: 2020-11-27
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: cash.usdx.wallet.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nobtc
-date: 2022-05-31
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: USDXwallet

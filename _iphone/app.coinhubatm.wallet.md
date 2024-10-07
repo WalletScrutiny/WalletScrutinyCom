@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: app.coinhubatm.wallet
-appCountry: tt
+appCountry: us
 idd: '6444903066'
 released: 2023-03-14
 updated: 2023-04-01
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: app.coinhubatm.wallet.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosource
-date: 2024-02-05
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: Coinhubusa

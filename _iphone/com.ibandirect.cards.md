@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.ibandirect.cards
-appCountry: sg
+appCountry: gb
 idd: 1538001175
 released: 2020-11-09
 updated: 2023-05-19
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ibandirect.cards.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-08-04
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: 

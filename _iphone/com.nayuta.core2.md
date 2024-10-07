@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.nayuta.core2.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nonverifiable
-date: 2024-07-05
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: 

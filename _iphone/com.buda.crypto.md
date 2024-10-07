@@ -5,7 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.buda.crypto
-appCountry: 
+appCountry: ar
 idd: 1321460860
 released: 2018-01-04
 updated: 2022-12-12
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.buda.crypto.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-01-11
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: BudaPuntoCom

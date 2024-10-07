@@ -5,7 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.mercuryo.app
-appCountry: 
+appCountry: us
 idd: 1446533733
 released: 2019-02-08
 updated: 2023-05-30
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.mercuryo.app.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-12-19
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: Mercuryo_io

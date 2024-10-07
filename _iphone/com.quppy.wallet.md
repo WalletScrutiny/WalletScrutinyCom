@@ -5,7 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.quppy.wallet
-appCountry: 
+appCountry: in
 idd: 1417802076
 released: 2018-08-09
 updated: 2022-12-23
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.quppy.wallet.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-08-16
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: QuppyPay

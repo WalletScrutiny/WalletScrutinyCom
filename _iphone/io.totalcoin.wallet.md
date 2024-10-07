@@ -5,7 +5,7 @@ altTitle:
 authors:
 - leo
 appId: io.totalcoin.wallet
-appCountry: 
+appCountry: in
 idd: 1392398906
 released: 2018-07-05
 updated: 2022-02-10
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.totalcoin.wallet.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2022-04-25
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: 

@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.hidollars.app
-appCountry: US
+appCountry: jp
 idd: '1583215766'
 released: 2021-10-06
 updated: 2023-01-19
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.hidollars.app.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-05-10
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: hi_com_official

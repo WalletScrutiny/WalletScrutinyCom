@@ -4,7 +4,7 @@ title: Gleec Exchange
 altTitle: 
 authors: 
 appId: dev.com.gleecexchange.app
-appCountry: us
+appCountry: ca
 idd: '1541005487'
 released: 2021-02-18
 updated: 2021-02-18
@@ -17,9 +17,9 @@ repository:
 issue: 
 icon: dev.com.gleecexchange.app.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: wip
-date: 2024-07-30
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: GleecOfficial

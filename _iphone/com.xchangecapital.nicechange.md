@@ -4,7 +4,7 @@ title: NiceChange - купить Биткоин
 altTitle: 
 authors: 
 appId: com.xchangecapital.nicechange
-appCountry: al
+appCountry: us
 idd: '1508205641'
 released: 2020-04-20
 updated: 2022-12-29
@@ -17,9 +17,9 @@ repository:
 issue: 
 icon: com.xchangecapital.nicechange.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2024-05-18
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: 

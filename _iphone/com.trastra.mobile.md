@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.trastra.mobile
-appCountry: us
+appCountry: de
 idd: 1446427008
 released: 2019-01-20
 updated: 2022-02-09
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.trastra.mobile.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2022-03-07
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: Trastra_ltd

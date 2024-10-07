@@ -6,7 +6,7 @@ authors:
 - kiwilamb
 - danny
 appId: com.xcoex.mobile
-appCountry: 
+appCountry: br
 idd: 1447945810
 released: 2019-01-21
 updated: 2024-01-11
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.xcoex.mobile.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2024-04-19
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: OfficialXcoex

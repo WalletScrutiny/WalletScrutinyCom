@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.fasset.cashapp
-appCountry: gb
+appCountry: us
 idd: '1599893605'
 released: 2021-12-14
 updated: 2023-09-27
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.fasset.cashapp.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2024-02-05
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: fasset_official

@@ -5,7 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.huobi.appStoreHuobiSystem
-appCountry: 
+appCountry: us
 idd: 1023263342
 released: 2015-08-19
 updated: 2024-03-07
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.huobi.appStoreHuobiSystem.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2024-04-03
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: HuobiGlobal

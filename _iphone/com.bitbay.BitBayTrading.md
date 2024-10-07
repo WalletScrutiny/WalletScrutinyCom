@@ -5,7 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.bitbay.BitBayTrading
-appCountry: 
+appCountry: ca
 idd: 1409644952
 released: 2018-11-20
 updated: 2023-11-07
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitbay.BitBayTrading.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-12-19
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: BitBay

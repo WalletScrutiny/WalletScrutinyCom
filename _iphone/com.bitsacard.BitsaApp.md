@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.bitsacard.BitsaApp
-appCountry: gb
+appCountry: de
 idd: 1458095544
 released: 2019-04-12
 updated: 2022-10-27
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitsacard.BitsaApp.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosendreceive
-date: 2023-03-21
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: bitsa_oficial

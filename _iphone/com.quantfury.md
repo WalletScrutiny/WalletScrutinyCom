@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.quantfury
-appCountry: gb
+appCountry: br
 idd: 1445564443
 released: 2018-12-15
 updated: 2023-11-29
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.quantfury.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2024-02-05
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: quantfury

@@ -7,7 +7,7 @@ authors:
 - leo
 - danny
 appId: com.roqqu.ios
-appCountry: 
+appCountry: de
 idd: 1505370687
 released: 2020-04-06
 updated: 2023-03-06
@@ -20,9 +20,9 @@ repository:
 issue: 
 icon: com.roqqu.ios.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-04-16
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: roqqupay

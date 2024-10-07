@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.admiralmarkets.tradersroom
-appCountry: us
+appCountry: in
 idd: 1222861799
 released: 2017-06-28
 updated: 2023-07-21
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.admiralmarkets.tradersroom.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosendreceive
-date: 2023-08-25
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: AdmiralsGlobal

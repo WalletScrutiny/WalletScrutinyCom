@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.pandats.axia
-appCountry: il
+appCountry: in
 idd: 1538965141
 released: 2020-11-16
 updated: 2024-03-04
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.pandats.axia.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosendreceive
-date: 2024-04-19
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: 

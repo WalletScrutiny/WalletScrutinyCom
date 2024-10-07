@@ -5,7 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.counos.wallet
-appCountry: 
+appCountry: us
 idd: 1408806845
 released: 2018-08-01
 updated: 2023-08-09
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.counos.wallet.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-09-15
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: counoscoin

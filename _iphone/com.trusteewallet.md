@@ -5,7 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.trusteewallet
-appCountry: 
+appCountry: jp
 idd: 1462924276
 released: 2019-06-14
 updated: 2024-05-16
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.trusteewallet.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nonverifiable
-date: 2024-08-02
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: Trustee_Wallet

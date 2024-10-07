@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.bitnovo.Wallet
-appCountry: us
+appCountry: in
 idd: 1553430666
 released: 2021-10-27
 updated: 2023-01-16
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitnovo.Wallet.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosource
-date: 2023-03-21
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: bitnovo

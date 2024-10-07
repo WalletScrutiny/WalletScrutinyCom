@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.noones.marketplace
-appCountry: ph
+appCountry: in
 idd: '6447785195'
 released: 2023-05-04
 updated: 2023-05-04
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.noones.marketplace.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-12-19
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: noonesapp

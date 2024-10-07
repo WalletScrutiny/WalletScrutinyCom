@@ -5,7 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.remitano.remitano
-appCountry: 
+appCountry: za
 idd: 1116327021
 released: 2016-05-28
 updated: 2022-05-19
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.remitano.remitano.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-01-02
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: remitano

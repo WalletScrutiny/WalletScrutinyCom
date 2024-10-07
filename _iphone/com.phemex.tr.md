@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.phemex.tr.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-12-19
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: 

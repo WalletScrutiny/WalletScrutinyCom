@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: icecream.group.kuna.fintech
-appCountry: us
+appCountry: ca
 idd: 1457062155
 released: 2019-03-27
 updated: 2023-06-10
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: icecream.group.kuna.fintech.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-08-04
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: KunaExchange

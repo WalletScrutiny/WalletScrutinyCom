@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.deribit
-appCountry: gb
+appCountry: in
 idd: '1293674041'
 released: 2017-11-17
 updated: 2023-10-27
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.deribit.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2024-02-05
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: deribitexchange

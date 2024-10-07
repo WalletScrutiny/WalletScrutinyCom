@@ -4,7 +4,7 @@ title: Bitlifi
 altTitle: 
 authors: 
 appId: com.bitlifi.app
-appCountry: us
+appCountry: jp
 idd: '6448746690'
 released: 2023-05-16
 updated: 2024-04-09
@@ -17,9 +17,9 @@ repository:
 issue: 
 icon: com.bitlifi.app.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2024-09-16
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: bitlifi

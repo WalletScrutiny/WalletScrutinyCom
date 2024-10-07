@@ -6,7 +6,7 @@ authors:
 - kiwilamb
 - leo
 appId: com.valr.mobile
-appCountry: 
+appCountry: jp
 idd: 1453499428
 released: 2019-09-27
 updated: 2024-04-24
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.valr.mobile.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2024-07-05
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: valrdotcom

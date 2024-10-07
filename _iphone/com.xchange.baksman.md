@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.xchange.baksman
-appCountry: ru
+appCountry: in
 idd: 1436169013
 released: 2018-09-21
 updated: 2023-08-28
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.xchange.baksman.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nowallet
-date: 2024-05-07
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: 

@@ -5,7 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.bit2me.flutter-ios
-appCountry: 
+appCountry: jp
 idd: 1459809738
 released: 2019-06-04
 updated: 2023-02-07
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bit2me.flutter-ios.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-04-16
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: bit2me

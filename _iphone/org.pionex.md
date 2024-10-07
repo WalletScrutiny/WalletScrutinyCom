@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: org.pionex
-appCountry: us
+appCountry: jp
 idd: 1485348891
 released: 2020-04-18
 updated: 2023-01-18
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.pionex.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-03-21
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: 
