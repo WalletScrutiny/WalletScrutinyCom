@@ -322,7 +322,7 @@ async function processFile(filePath, isSingleFile = false) {
         `---\n${newFrontMatter}\n---`
       );
 
-      await fs.writeFile(filePath, newContent, 'utf8');
+      helper.writeResult('_iphone/', content.header, content.body);
       console.log(`Updated ${path.basename(filePath)}`);
 
       // Add the updated file to the updatedFiles list

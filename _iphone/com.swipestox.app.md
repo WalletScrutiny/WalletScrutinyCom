@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.swipestox.app
-appCountry: gb
+appCountry: in
 idd: 1182702365
 released: 2017-01-15
 updated: 2022-11-09
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.swipestox.app.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosendreceive
-date: 2023-01-30
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: nagainvesting

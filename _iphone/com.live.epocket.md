@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.live.epocket
-appCountry: in
+appCountry: au
 idd: '1445852225'
 released: 2018-12-19
 updated: 2023-10-21
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.live.epocket.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-12-19
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: e_Pocket

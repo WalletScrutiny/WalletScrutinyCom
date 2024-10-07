@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.nitroex.nitroexexchangeapp
-appCountry: tt
+appCountry: us
 idd: 1569267465
 released: 2021-07-05
 updated: 2022-11-18
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.nitroex.nitroexexchangeapp.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-03-21
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: NitroExOfficial

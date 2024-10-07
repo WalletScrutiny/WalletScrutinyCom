@@ -5,7 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.youhodler.youhodler
-appCountry: 
+appCountry: jp
 idd: 1469351696
 released: 2019-07-25
 updated: 2023-01-17
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.youhodler.youhodler.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-06-21
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: youhodler

@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: pro.oceanex.exapp
-appCountry: us
+appCountry: jp
 idd: 1481311936
 released: 2019-10-05
 updated: 2022-04-13
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: pro.oceanex.exapp.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-01-11
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: OceanexOfficial

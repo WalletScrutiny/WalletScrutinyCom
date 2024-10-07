@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.ankerpay.ioswallet
-appCountry: us
+appCountry: za
 idd: 1487931971
 released: 2019-11-22
 updated: 2023-11-26
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ankerpay.ioswallet.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosource
-date: 2024-04-19
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: AnkerPay

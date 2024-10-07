@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.FinovelCyprusLimited.Skilling
-appCountry: gb
+appCountry: in
 idd: 1441386723
 released: 2019-05-30
 updated: 2023-10-09
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.FinovelCyprusLimited.Skilling.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosendreceive
-date: 2023-12-19
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: SkillingTrading

@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.digitra.digitraHB
-appCountry: us
+appCountry: br
 idd: '1577787451'
 released: 2022-03-12
 updated: 2023-05-09
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.digitra.digitraHB.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-06-21
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: Digitra_com

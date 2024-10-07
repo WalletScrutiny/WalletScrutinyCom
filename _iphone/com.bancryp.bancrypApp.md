@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bancryp.bancrypApp.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2024-02-05
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: 

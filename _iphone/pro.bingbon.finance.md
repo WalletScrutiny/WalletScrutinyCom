@@ -6,7 +6,7 @@ authors:
 - kiwilamb
 - leo
 appId: pro.bingbon.finance
-appCountry: de
+appCountry: us
 idd: 1500217666
 released: 2020-02-25
 updated: 2024-09-11
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: pro.bingbon.finance.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2024-09-26
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: BingbonOfficial

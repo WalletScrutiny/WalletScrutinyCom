@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.gcmasia.pro
-appCountry: my
+appCountry: in
 idd: '1223411781'
 released: 2017-05-01
 updated: 2022-04-13
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.gcmasia.pro.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nowallet
-date: 2024-04-03
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: 

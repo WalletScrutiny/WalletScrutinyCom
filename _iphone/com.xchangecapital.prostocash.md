@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.xchangecapital.prostocash
-appCountry: ru
+appCountry: us
 idd: '1477838562'
 released: 2019-09-09
 updated: 2022-12-22
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.xchangecapital.prostocash.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2024-05-18
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: 

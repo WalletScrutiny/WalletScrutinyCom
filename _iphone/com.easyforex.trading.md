@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.easyforex.trading
-appCountry: us
+appCountry: cn
 idd: 348823316
 released: 2010-01-05
 updated: 2022-12-23
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.easyforex.trading.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-08-04
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: easymarkets

@@ -4,7 +4,7 @@ title: 'Vivid: Mobile Banking'
 altTitle: 
 authors: 
 appId: com.vivid.money
-appCountry: me
+appCountry: jp
 idd: 1504417378
 released: 2020-10-09
 updated: 2023-02-22
@@ -17,9 +17,9 @@ repository:
 issue: 
 icon: com.vivid.money.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: wip
-date: 2023-05-30
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: 

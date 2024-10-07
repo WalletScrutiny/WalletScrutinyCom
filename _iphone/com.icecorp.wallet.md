@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.icecorp.wallet
-appCountry: tr
+appCountry: us
 idd: '1629607532'
 released: 2022-11-28
 updated: 2024-07-30
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.icecorp.wallet.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosource
-date: 2024-09-16
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: icewalofficial

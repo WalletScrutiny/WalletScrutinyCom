@@ -5,7 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.SwftBlockChain.client
-appCountry: 
+appCountry: jp
 idd: 1435569339
 released: 2018-09-28
 updated: 2024-04-17
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.SwftBlockChain.client.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2024-07-05
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: SwftCoin

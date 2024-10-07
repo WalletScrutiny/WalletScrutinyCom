@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.c2c.B.V.Crypto2Cash
-appCountry: gb
+appCountry: de
 idd: '1394099126'
 released: 2018-11-29
 updated: 2022-12-15
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.c2c.B.V.Crypto2Cash.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosendreceive
-date: 2024-02-05
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: Crypto2CashHQ

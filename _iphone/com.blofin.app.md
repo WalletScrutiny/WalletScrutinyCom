@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.blofin.app
-appCountry: tt
+appCountry: us
 idd: '1616804346'
 released: 2022-04-15
 updated: 2023-06-22
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.blofin.app.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosendreceive
-date: 2023-08-16
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: Blofin_Official

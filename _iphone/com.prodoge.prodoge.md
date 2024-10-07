@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.prodoge.prodoge
-appCountry: gb
+appCountry: jp
 idd: '1479083282'
 released: 2019-09-23
 updated: 2023-03-13
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.prodoge.prodoge.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosource
-date: 2024-04-03
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: 

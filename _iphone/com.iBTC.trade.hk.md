@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.iBTC.trade.hk
-appCountry: hk
+appCountry: us
 idd: '1489679343'
 released: 2019-12-18
 updated: 2022-05-18
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.iBTC.trade.hk.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2024-04-03
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: 

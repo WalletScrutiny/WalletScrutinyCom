@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.xrex.mobile
-appCountry: au
+appCountry: in
 idd: 1482096895
 released: 2020-02-19
 updated: 2023-05-11
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.xrex.mobile.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-09-04
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: xrexinc

@@ -6,7 +6,7 @@ authors:
 - leo
 - danny
 appId: com.SatoshiTango.SatoshiTango
-appCountry: 
+appCountry: jp
 idd: 1002555958
 released: 2015-07-08
 updated: 2023-02-07
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.SatoshiTango.SatoshiTango.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-08-04
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: satoshitango

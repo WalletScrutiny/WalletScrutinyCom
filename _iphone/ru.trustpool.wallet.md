@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: ru.trustpool.wallet
-appCountry: us
+appCountry: gb
 idd: '1607319106'
 released: 2022-02-09
 updated: 2023-09-06
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: ru.trustpool.wallet.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosource
-date: 2024-04-03
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: 

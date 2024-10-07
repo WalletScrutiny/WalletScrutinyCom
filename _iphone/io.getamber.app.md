@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: io.getamber.app
-appCountry: us
+appCountry: au
 idd: '1410639317'
 released: 2021-06-21
 updated: 2023-11-29
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.getamber.app.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2024-05-18
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: theamberapp

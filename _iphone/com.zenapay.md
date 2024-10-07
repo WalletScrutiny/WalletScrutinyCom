@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.zenapay
-appCountry: us
+appCountry: jp
 idd: '1292806306'
 released: 2017-10-26
 updated: 2023-10-30
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.zenapay.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosource
-date: 2023-12-19
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: 

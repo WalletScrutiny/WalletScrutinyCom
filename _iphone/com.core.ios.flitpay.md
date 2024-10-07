@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.core.ios.flitpay
-appCountry: dk
+appCountry: in
 idd: 1571975471
 released: 2021-08-27
 updated: 2022-11-03
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.core.ios.flitpay.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-08-04
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: flitpayofficial

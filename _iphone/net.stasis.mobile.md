@@ -5,7 +5,7 @@ altTitle:
 authors:
 - leo
 appId: net.stasis.mobile
-appCountry: 
+appCountry: jp
 idd: 1371949230
 released: 2018-07-06
 updated: 2023-07-28
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: net.stasis.mobile.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2024-04-03
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: stasisnet

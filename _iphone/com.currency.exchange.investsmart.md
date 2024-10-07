@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.currency.exchange.investsmart
-appCountry: tm
+appCountry: in
 idd: 1499070397
 released: 2020-04-14
 updated: 2022-11-18
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.currency.exchange.investsmart.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2024-04-03
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: currencycom

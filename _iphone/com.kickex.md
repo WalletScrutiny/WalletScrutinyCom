@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.kickex
-appCountry: us
+appCountry: in
 idd: '1532751538'
 released: 2022-06-15
 updated: 2022-12-05
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.kickex.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2024-04-19
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: kickexcom

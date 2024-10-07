@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.pionex.lite.appstore
-appCountry: kr
+appCountry: us
 idd: 1567213944
 released: 2021-05-22
 updated: 2021-08-27
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.pionex.lite.appstore.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2022-04-07
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: 

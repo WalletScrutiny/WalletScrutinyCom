@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.xchangecapital.xchange
-appCountry: ru
+appCountry: in
 idd: '1520392383'
 released: 2020-07-25
 updated: 2022-12-22
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.xchangecapital.xchange.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2024-05-18
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: XchangeO

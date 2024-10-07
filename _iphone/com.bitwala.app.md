@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.bitwala.app
-appCountry: gd
+appCountry: de
 idd: 1454003161
 released: 2019-05-11
 updated: 2024-02-01
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitwala.app.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosource
-date: 2024-03-02
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: nuribanking

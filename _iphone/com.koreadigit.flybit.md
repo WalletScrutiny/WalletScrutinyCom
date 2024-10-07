@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.koreadigit.flybit
-appCountry: us
+appCountry: kr
 idd: 1570368673
 released: 2021-07-07
 updated: 2022-10-20
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.koreadigit.flybit.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-01-11
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: 

@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.trusteeplus1
-appCountry: ma
+appCountry: us
 idd: '1634455978'
 released: 2022-07-18
 updated: 2023-06-19
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.trusteeplus1.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-09-15
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: TrusteeGlobal

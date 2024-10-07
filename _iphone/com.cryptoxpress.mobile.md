@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.cryptoxpress.mobile
-appCountry: ph
+appCountry: in
 idd: '1591792414'
 released: 2021-11-18
 updated: 2024-04-02
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cryptoxpress.mobile.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2024-07-14
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: crypto_xpress

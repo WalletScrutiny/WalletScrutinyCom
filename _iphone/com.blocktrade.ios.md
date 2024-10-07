@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.blocktrade.ios
-appCountry: us
+appCountry: de
 idd: 1360294403
 released: 2018-10-30
 updated: 2023-04-28
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.blocktrade.ios.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-06-21
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: Blocktradecom

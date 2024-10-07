@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.coindcx.btc
-appCountry: 
+appCountry: in
 idd: 1517787269
 released: 2020-12-09
 updated: 2022-05-28
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.coindcx.btc.jpg
 bugbounty: https://coindcx.com/bug-bounty
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-01-11
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: coindcx

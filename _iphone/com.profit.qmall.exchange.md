@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.profit.qmall.exchange
-appCountry: gb
+appCountry: de
 idd: '1600467380'
 released: 2021-12-21
 updated: 2023-09-06
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.profit.qmall.exchange.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-12-19
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: QmallExchange

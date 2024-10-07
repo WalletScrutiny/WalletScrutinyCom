@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.capital.trading
-appCountry: 
+appCountry: jp
 idd: 1230088754
 released: 2019-12-10
 updated: 2021-12-21
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.capital.trading.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosendreceive
-date: 2024-03-02
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: capitalcom

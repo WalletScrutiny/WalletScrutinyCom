@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.metasigns.hotx
-appCountry: us
+appCountry: ca
 idd: '1611301863'
 released: 2022-03-02
 updated: 2023-04-22
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.metasigns.hotx.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2024-02-05
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: 

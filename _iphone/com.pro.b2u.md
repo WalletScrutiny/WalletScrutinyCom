@@ -5,7 +5,7 @@ altTitle:
 authors:
 - kiwilamb
 appId: com.pro.b2u
-appCountry: 
+appCountry: br
 idd: 1489598378
 released: 2019-12-20
 updated: 2021-11-18
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.pro.b2u.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2022-01-15
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: bitcointoyou

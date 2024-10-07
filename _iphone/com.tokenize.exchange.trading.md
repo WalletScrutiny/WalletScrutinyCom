@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.tokenize.exchange.trading
-appCountry: us
+appCountry: jp
 idd: 1495765876
 released: 2020-02-02
 updated: 2024-06-10
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.tokenize.exchange.trading.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2024-07-25
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: TokenizeXchange

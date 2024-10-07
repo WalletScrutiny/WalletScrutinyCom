@@ -4,7 +4,7 @@ title: Coincheck Bitcoin Wallet
 altTitle: 
 authors: 
 appId: jp.coincheck.ios
-appCountry: 
+appCountry: jp
 idd: 957130004
 released: 2015-01-21
 updated: 2022-12-23
@@ -17,9 +17,9 @@ repository:
 issue: 
 icon: jp.coincheck.ios.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: wip
-date: 2023-01-30
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: 

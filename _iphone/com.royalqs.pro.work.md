@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.royalqs.pro.work
-appCountry: us
+appCountry: jp
 idd: '1587849038'
 released: 2021-10-06
 updated: 2022-11-21
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.royalqs.pro.work.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nowallet
-date: 2023-05-10
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: 

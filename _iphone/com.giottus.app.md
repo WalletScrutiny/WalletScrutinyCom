@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.giottus.app
-appCountry: us
+appCountry: in
 idd: 1537068185
 released: 2021-01-27
 updated: 2022-06-24
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.giottus.app.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosource
-date: 2023-01-11
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: giottus

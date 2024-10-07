@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: net.bitkap.frondend
-appCountry: fr
+appCountry: us
 idd: '1556696679'
 released: 2021-04-06
 updated: 2023-07-25
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: net.bitkap.frondend.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-12-19
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: BitkapO

@@ -5,7 +5,7 @@ altTitle:
 authors:
 - leo
 appId: com.goabra.abra
-appCountry: 
+appCountry: jp
 idd: 966301394
 released: 2015-03-12
 updated: 2024-02-16
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.goabra.abra.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2024-07-05
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: AbraGlobal

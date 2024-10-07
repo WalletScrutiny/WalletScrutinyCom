@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.bitqik
-appCountry: us
+appCountry: jp
 idd: '1645041960'
 released: 2022-09-26
 updated: 2023-07-05
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitqik.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2024-09-18
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: bitqikofficial

@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.vsmart.UnitedExchange
-appCountry: az
+appCountry: us
 idd: '1578830443'
 released: 2021-07-30
 updated: 2023-12-26
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.vsmart.UnitedExchange.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2024-02-05
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: exchange_united

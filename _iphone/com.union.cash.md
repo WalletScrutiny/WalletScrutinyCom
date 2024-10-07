@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: com.union.cash
-appCountry: us
+appCountry: de
 idd: '1576165600'
 released: 2021-07-14
 updated: 2024-04-07
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.union.cash.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2024-07-05
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: 

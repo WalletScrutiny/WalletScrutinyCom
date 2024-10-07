@@ -4,7 +4,7 @@ title: NovaDAX - Bitcoin Exchange
 altTitle: 
 authors: 
 appId: com.nova.dax
-appCountry: 
+appCountry: br
 idd: 1472203612
 released: 2019-10-02
 updated: 2023-01-03
@@ -17,9 +17,9 @@ repository:
 issue: 
 icon: com.nova.dax.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: wip
-date: 2023-03-21
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: 

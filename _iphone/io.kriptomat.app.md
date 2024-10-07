@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 appId: io.kriptomat.app
-appCountry: us
+appCountry: de
 idd: 1440135740
 released: 2018-12-20
 updated: 2022-06-29
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.kriptomat.app.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-01-11
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: kriptomat

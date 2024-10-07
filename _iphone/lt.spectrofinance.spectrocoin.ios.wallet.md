@@ -5,7 +5,7 @@ altTitle:
 authors:
 - leo
 appId: lt.spectrofinance.spectrocoin.ios.wallet
-appCountry: 
+appCountry: de
 idd: 923696089
 released: 2014-12-30
 updated: 2023-02-09
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: lt.spectrofinance.spectrocoin.ios.wallet.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-08-04
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: spectrocoin
