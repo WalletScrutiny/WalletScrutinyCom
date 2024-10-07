@@ -33,17 +33,17 @@ function parseFile(filePath) {
                 const reviewData = review;
 
                 console.debug('Review entry:', reviewData);
-                if (reviewData.appHash && reviewData.verdict) {                    
+                if ((reviewData.appHash || reviewData.appHashes) && reviewData.verdict) {                    
                     entries.push({
                         appId,
                         signer,
                         version: reviewData.version || '',
                         verdict: reviewData.verdict || '',
-                        appHash: reviewData.appHash,
+                        appHashes: reviewData.appHashes || [reviewData.appHash],
                         date: reviewData.date || ''
                     });
                 } else {
-                    console.debug('Skipping review entry due to missing appHash:', reviewData);
+                    console.debug('Skipping review entry due to missing appHash or appHashes:', reviewData);
                 }
             });
         } else {
@@ -57,17 +57,18 @@ function parseFile(filePath) {
 
             const currentTestResults = parseResults(resultsContent);            
 
-            if (currentTestResults.appHash) {
+            if (currentTestResults.appHash || currentTestResults.appHashes || data.appHash || data.appHashes) {
                 entries.push({
                     appId: currentTestResults.appId || '',
                     signer: currentTestResults.signer || '',
                     version: currentTestResults.apkVersionName || '',
                     verdict: currentTestResults.verdict || '',
-                    appHash: currentTestResults.appHash || data.appHash,
+                    appHashes: currentTestResults.appHashes || data.appHashes || 
+                               [currentTestResults.appHash || data.appHash].filter(Boolean),
                     date: currentTestResults.date  || data.date
                 });
             } else {
-                console.debug('Skipping current test result due to missing appHash:', currentTestResults);
+                console.debug('Skipping current test result due to missing appHash and appHashes:', currentTestResults);
             }
         } else {
             console.debug('No current test results found.');
@@ -131,7 +132,7 @@ function processAllDirectories(directoryPaths) {
     console.log(`Total directories processed: ${directoryPaths.length}`);
     
     // Filter attestations and write to file
-    const filteredAttestations = attestationData.filter(entry => entry.appHash);
+    const filteredAttestations = attestationData.filter(entry => entry.appHashes && entry.appHashes.length > 0);
     let attestationsFile = 'assets/attestations.json';
     fs.writeFileSync(attestationsFile, JSON.stringify(filteredAttestations, null, 2), 'utf8');
     console.log(`${filteredAttestations.length} attestations written to ${attestationsFile}`);
