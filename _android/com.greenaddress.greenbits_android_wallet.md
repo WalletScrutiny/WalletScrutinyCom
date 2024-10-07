@@ -21,10 +21,15 @@ issue: https://github.com/Blockstream/green_android/issues/189
 icon: com.greenaddress.greenbits_android_wallet.png
 bugbounty: 
 meta: ok
-verdict: reproducible
-date: 2024-09-26
+verdict: nonverifiable
+date: 2024-10-04
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 reviewArchive:
+- date: 2024-09-26
+  version: 4.0.34
+  appHash: 216ea286c8a21be3b073bd8da8ebd1afba4f3bfb2313e91c084887305ff41250
+  gitRevision: 4cd316aaac1b4bc5d6a0e0288368741858b8c98e
+  verdict: reproducible
 - date: 2024-08-28
   version: 4.0.33
   appHash: 1974e2b0b1c293e477d740ca15e10eec352c023f6f4595b47fcd44b0dadf32e0
@@ -265,25 +270,34 @@ For that latest version, our {% include testScript.html %} returned this:
 ===== Begin Results =====
 appId:          com.greenaddress.greenbits_android_wallet
 signer:         32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
-apkVersionName: 4.0.34
-apkVersionCode: 22000434
-verdict:        reproducible
-appHash:        216ea286c8a21be3b073bd8da8ebd1afba4f3bfb2313e91c084887305ff41250
-commit:         beb05ffb87831b4cee7a522195b6f6ed2cbf3d65
+apkVersionName: 4.0.35
+apkVersionCode: 22000435
+verdict:        
+appHash:        08ab955932047f871c1ad8bae33db6a497c3b93f86a5f99cb77d6cf83f7e61f9
+commit:         9d73b71e660ad67c5f29cba10a6775cb89faedb2
 
 Diff:
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000434/META-INF: GREENADD.RSA
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000434/META-INF: GREENADD.SF
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000434/META-INF: MANIFEST.MF
+Files /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000435/assets/dexopt/baseline.prof and /tmp/fromBuild_com.greenaddress.greenbits_android_wallet_22000435/assets/dexopt/baseline.prof differ
+Files /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000435/classes.dex and /tmp/fromBuild_com.greenaddress.greenbits_android_wallet_22000435/classes.dex differ
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000435/META-INF: GREENADD.RSA
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000435/META-INF: GREENADD.SF
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000435/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
-object beb05ffb87831b4cee7a522195b6f6ed2cbf3d65
+object 9d73b71e660ad67c5f29cba10a6775cb89faedb2
 type commit
-tag release_4.0.34
-tagger Angelos Veglektsis <angelos@aveworks.com> 1726565360 +0300
+tag release_4.0.35
+tagger Angelos Veglektsis <angelos@aveworks.com> 1727701772 +0300
 ===== End Results =====
+
 ```
 
-This version of {{ page.title }} is **reproducible**.
+This version of {{ page.title }} is **not verifiable**. 
+
+We ran a diffoscope on the official and built apk, `diffoscope --text diffoscope.com.greenaddress.greenbits_android_wallet.txt /var/shared/apk/com.greenaddress.greenbits_android_wallet/com.greenaddress.greenbits_android_wallet_v22000435.apk /tmp/test_com.greenaddress.greenbits_android_wallet/app/green/build/outputs/apk/productionGoogle/release/BlockstreamGreen-v4.0.35-productionGoogle-release-unsigned.apk`
+
+Then we posted the results on [nosbin.com](https://nosbin.com/nevent1qqs2tnusq833573fh8864zk603wzp9utl6l3vpw7d34vmeck5d43dmgpzemhxue69uhkzarvv9ejumn0wd68ytnvv9hxgqg4waehxw309ajkgetw9ehx7um5wghxcctwvsq3wamnwvaz7tmwdaehgu3wvekhgtnhd9azucnf0gq3gamnwvaz7tmwdaehgu3wdau8gu3wv3jhvqgswaehxw309ahx7um5wgh8w6twv5q3jamnwvaz7tmwdaehgu3w0fjkyetyv4jjucmvda6kgqghwaehxw309aex2mrp0yhxxatjwfjkuapwveukjqg5waehxw309aex2mrp0yhxgctdw4eju6t0qyt8wumn8ghj7un9d3shjtnwdaeky6tw9e3k7mgprfmhxue69uhhyetvv9ujummjv9hxwetsd9kxctnyv4mqzxrhwden5te0wfjkccte9eekummjwsh8xmmrd9skc4pwx84)
+
+Subsequently, we filed an [issue](https://github.com/Blockstream/green_android/issues/226) in their GitHub repository.
 
 {% include asciicast %}
