@@ -1,5 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
     initializeDragAndDrop();
+
+    setTimeout(() => {
+        listUserBlobs();
+    }, 1000);
 });
 
 function initializeDragAndDrop() {
@@ -53,12 +57,6 @@ function processFile(file) {
 async function handleFile(file) {
     console.time("Total handleFile time");
 
-    if (!file.name.toLowerCase().endsWith('.apk')) {
-        showUnsupportedFileMessage(file);
-        console.timeEnd("Total handleFile time");
-        return;
-    }
-
     const hash = await calculateFileHash(file);
 
     // Display initial file information
@@ -71,20 +69,92 @@ async function handleFile(file) {
         displayAppData(appData);
         checkAppIdMismatch(appData.appId);
     } else { // Hash is NOT in attestations.json
-        showUnknownFileMessage();
-        // Parse APK file only if hash is not found
-        try {
-            const apkInfo = await parseAPK(file);
-            if (apkInfo) {
-                checkAppIdMismatch(apkInfo.package);
+        // Check if file exists in Blossom
+        const existsInBlossom = await hasBlob(hash, '', serverUrl);
+
+        if (existsInBlossom) {
+            displayBlossomFileInfo(file.name, hash);
+        } else {
+            showUnknownFileMessage();
+            // Parse APK file only if it's an APK
+            if (file.name.toLowerCase().endsWith('.apk')) {
+                try {
+                    const apkInfo = await parseAPK(file);
+                    if (apkInfo) {
+                        checkAppIdMismatch(apkInfo.package);
+                    }
+                } catch (error) {
+                    console.warn('Error processing APK:', error);
+                }
             }
-        } catch (error) {
-            console.warn('Error parsing APK:', error);
+            // Upload unknown file to Blossom
+            await uploadToBlossom(file, hash);
         }
     }
 
     console.timeEnd("Total handleFile time");
     console.log(`for file: ${file.name}, ${formatFileSize(file.size)}`);
+}
+
+async function uploadToBlossom(file, hash) {
+    try {
+        // Clear previous messages
+        document.getElementById('app-data').innerHTML = '';
+
+        const exists = await hasBlob(hash, '', serverUrl);
+
+        if (exists) {
+            console.log(`Blob ${hash} already exists in Blossom`);
+            displayBlossomUploadStatus('File already exists in Blossom', 100);
+        } else {
+            console.log(`Uploading blob ${hash} to Blossom`);
+            displayBlossomUploadStatus('Preparing to upload...', 0);
+
+            const onProgress = (progress) => {
+                updateUploadProgress(progress);
+            };
+
+            const descriptor = await uploadBlobWithProgress(file, serverUrl, onProgress);
+
+            console.log('Uploaded blob descriptor:', descriptor);
+
+            displayBlossomUploadStatus('Upload complete!', 100);
+            await listUserBlobs();
+            displayBlossomUploadSuccess(file.name, hash);
+        }
+    } catch (error) {
+        console.error('Error uploading to Blossom:', error.message);
+        displayBlossomUploadError(error.message);
+    }
+}
+
+function updateUploadProgress(progress) {
+    displayBlossomUploadStatus(`Uploading... ${Math.round(progress)}%`, progress);
+}
+
+function displayBlossomUploadStatus(message, progress) {
+    const appDataDiv = document.getElementById('app-data');
+    appDataDiv.innerHTML = `
+        <h3>Blossom Upload Status</h3>
+        <p>${message}</p>
+        <progress value="${progress}" max="100"></progress>
+    `;
+}
+
+function displayBlossomUploadSuccess(fileName, hash) {
+    const appDataDiv = document.getElementById('app-data');
+    appDataDiv.innerHTML = `
+        <h3>Blossom Upload</h3>
+        <p>File "${fileName}" (${hash}) has been successfully uploaded to Blossom.</p>
+    `;
+}
+
+function displayBlossomUploadError(errorMessage) {
+    const appDataDiv = document.getElementById('app-data');
+    appDataDiv.innerHTML = `
+        <h3>Blossom Upload Error</h3>
+        <p>An error occurred while uploading to Blossom: ${errorMessage}</p>
+    `;
 }
 
 function displayFileInfo(file, hash) {
@@ -155,7 +225,7 @@ async function fetchAppData(hash) {
         if (!response.ok) throw new Error('Network response was not ok');
 
         const appData = await response.json();
-        const results = appData.filter(app => app.appHash === hash);
+        const results = appData.filter(app => app.appHashes && app.appHashes.includes(hash));
         console.timeEnd("fetchAppData");
         return results.length > 0 ? results[0] : null;
     } catch (error) {
@@ -178,6 +248,14 @@ function formatFileSize(bytes) {
     const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
     const i = Math.floor(Math.log(bytes) / Math.log(k));
     return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
+}
+
+function displayBlossomFileInfo(fileName, hash) {
+    const appDataDiv = document.getElementById('app-data');
+    appDataDiv.innerHTML = `
+        <h3>File Found in Blossom</h3>
+        <p>The file "${fileName}" (${hash}) exists in Blossom.</p>
+    `;
 }
 
 function displayAppData(appData) {

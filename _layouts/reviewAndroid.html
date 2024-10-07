@@ -57,8 +57,8 @@ layout: default
       <div id="drop-area">
         <form class="my-form">
           <p>Drop your APK here</p>
-          <input type="file" id="fileElem" accept=".apk">
-          <label class="button" for="fileElem">Select an APK file</label>
+          <input type="file" id="fileElem">
+          <label class="button" for="fileElem">Select a file</label>
         </form>
         <div id="file-list">
           <div id="file-info" class="info-section"></div>
@@ -100,6 +100,8 @@ layout: default
   </article>
 </div>
 
-<script src="https://unpkg.com/app-info-parser/dist/app-info-parser.min.js"></script>
+<!-- https://unpkg.com/app-info-parser/dist/app-info-parser.min.js -->
+<script src="{{ base_path }}/assets/js/app-info-parser.min.js"></script>
+<script src="{{ base_path }}/assets/js/blossom.js"></script>
 <script src="{{ base_path }}/assets/js/drag-and-drop.js"></script>
 
