@@ -8,11 +8,11 @@ appId: com.viabtc.ViaWallet
 appCountry: 
 idd: 1462031389
 released: 2019-05-21
-updated: 2024-09-19
-version: 4.7.0
+updated: 2024-10-08
+version: 4.7.1
 stars: 4.2
 reviews: 49
-size: '95301632'
+size: '94453760'
 website: https://wallet.coinex.com/
 repository: 
 issue: 

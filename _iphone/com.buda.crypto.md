@@ -8,11 +8,11 @@ appId: com.buda.crypto
 appCountry: ar
 idd: 1321460860
 released: 2018-01-04
-updated: 2022-12-12
-version: 2.4.3
+updated: 2024-08-27
+version: 2024.8.2
 stars: 5
-reviews: 4
-size: '25324544'
+reviews: 1
+size: '30024704'
 website: 
 repository: 
 issue: 
@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/BudaPuntoCom
 features:
 - ln
-developerName: 
+developerName: Buda.com
 
 ---
 

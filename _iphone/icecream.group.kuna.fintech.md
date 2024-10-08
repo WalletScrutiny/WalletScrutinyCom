@@ -8,11 +8,11 @@ appId: icecream.group.kuna.fintech
 appCountry: ca
 idd: 1457062155
 released: 2019-03-27
-updated: 2023-06-10
-version: 5.4.8
-stars: 4.5
-reviews: 55
-size: '162667520'
+updated: 2024-08-12
+version: 5.6.0
+stars: 4.2
+reviews: 10
+size: '189173760'
 website: https://kuna.io
 repository: 
 issue: 
@@ -27,7 +27,7 @@ twitter: KunaExchange
 social:
 - https://www.facebook.com/kunaexchange
 features: 
-developerName: Kuna Fintech Limited
+developerName: Kuna.io - buy sell crypto
 
 ---
 

@@ -8,11 +8,11 @@ appId: com.centurion.exchange
 appCountry: de
 idd: '1613498290'
 released: 2022-03-24
-updated: 2022-03-25
-version: 5.3.6
-stars: 5
-reviews: 1
-size: '168256512'
+updated: 2024-06-11
+version: '6'
+stars: 0
+reviews: 0
+size: '209555456'
 website: 
 repository: 
 issue: 

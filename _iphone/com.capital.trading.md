@@ -8,12 +8,12 @@ appId: com.capital.trading
 appCountry: jp
 idd: 1230088754
 released: 2019-12-10
-updated: 2021-12-21
-version: 1.36.3
-stars: 4.7
-reviews: 2314
-size: 98812928
-website: 
+updated: 2024-10-07
+version: 1.89.0
+stars: 4.5
+reviews: 290
+size: '129027072'
+website: https://capital.com/
 repository: 
 issue: 
 icon: com.capital.trading.jpg
@@ -30,7 +30,7 @@ social:
 - https://www.youtube.com/channel/UCn65Ma-zHYgnr56LPAwWDTw
 - https://www.reddit.com/r/capitalcom
 features: 
-developerName: 
+developerName: Capital Com SV Investments Limited
 
 ---
 

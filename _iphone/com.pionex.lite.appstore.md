@@ -1,6 +1,6 @@
 ---
 wsId: PionexLite
-title: Pionex - Buy BTC and ETH
+title: Pionex US - Buy BTC and ETH
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.pionex.lite.appstore
 appCountry: us
 idd: 1567213944
 released: 2021-05-22
-updated: 2021-08-27
-version: 1.1.7
-stars: 
-reviews: 
-size: 77867008
+updated: 2024-10-01
+version: 1.7.14
+stars: 4.6
+reviews: 724
+size: '119777280'
 website: 
 repository: 
 issue: 
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
-developerName: 
+developerName: PIONEX PTE. LTD.
 
 ---
 

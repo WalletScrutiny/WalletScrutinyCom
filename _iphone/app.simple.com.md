@@ -1,6 +1,6 @@
 ---
 wsId: simpleCrypto
-title: 'Simple crypto: Buy BTC, ETH'
+title: 'Simple: Buy Сrypto BTC, USDT'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: app.simple.com
 appCountry: gb
 idd: '1603406843'
 released: 2022-05-06
-updated: 2023-08-09
-version: 2.0.7
-stars: 5
-reviews: 2
-size: '126097408'
+updated: 2024-09-30
+version: 3.1.1
+stars: 4.9
+reviews: 172
+size: '168869888'
 website: https://simple.app/
 repository: 
 issue: 

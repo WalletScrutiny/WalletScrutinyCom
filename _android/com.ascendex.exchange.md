@@ -10,9 +10,9 @@ appCountry:
 released: 2021-04-28
 updated: 2024-10-01
 version: 3.4.9
-stars: 3.6
+stars: 3.5
 ratings: 6660
-reviews: 59
+reviews: 58
 size: 
 website: https://asdx.io/
 repository: 

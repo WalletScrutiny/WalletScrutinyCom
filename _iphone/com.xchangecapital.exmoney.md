@@ -10,17 +10,17 @@ idd: '1512922324'
 released: 2020-05-14
 updated: 2022-12-29
 version: 1.0.4
-stars: 5
-reviews: 15
+stars: 1
+reviews: 1
 size: '79970304'
 website: 
 repository: 
 issue: 
 icon: com.xchangecapital.exmoney.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2024-10-07
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: 

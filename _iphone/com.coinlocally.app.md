@@ -11,7 +11,7 @@ released: 2020-01-28
 updated: 2024-09-20
 version: 2.2.23
 stars: 4
-reviews: 107
+reviews: 108
 size: '47175680'
 website: https://coinlocally.com
 repository: 

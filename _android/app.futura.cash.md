@@ -4,7 +4,7 @@ title: Futura Exchange
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: app.futura.cash
 appCountry: 
 released: 2021-06-28

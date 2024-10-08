@@ -8,17 +8,17 @@ appId: com.cointopay.iosapp
 appCountry: us
 idd: 1450194783
 released: 2019-01-25
-updated: 2021-03-31
-version: 1.4.2
+updated: 2022-06-03
+version: 2.0.0
 stars: 5
 reviews: 1
-size: '35804160'
+size: '19372032'
 website: https://cointopay.com/
 repository: 
 issue: 
 icon: com.cointopay.iosapp.jpg
 bugbounty: 
-meta: ok
+meta: obsolete
 verdict: custodial
 date: 2024-10-07
 signer: 
@@ -28,7 +28,7 @@ social:
 - https://www.facebook.com/CointopayInternational
 - https://www.reddit.com/r/Cointopay
 features: 
-developerName: 
+developerName: Cointopay International B.V.
 
 ---
 

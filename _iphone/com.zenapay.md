@@ -8,11 +8,11 @@ appId: com.zenapay
 appCountry: jp
 idd: '1292806306'
 released: 2017-10-26
-updated: 2023-10-30
-version: '5.0'
-stars: 4.9
-reviews: 7
-size: '16259072'
+updated: 2024-07-02
+version: '5.2'
+stars: 0
+reviews: 0
+size: '15123456'
 website: https://www.zenapay.com/Product#ZenaPayWallet
 repository: 
 issue: 

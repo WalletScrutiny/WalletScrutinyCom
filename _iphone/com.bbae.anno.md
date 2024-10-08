@@ -8,11 +8,11 @@ appId: com.bbae.anno
 appCountry: cn
 idd: '1123918627'
 released: 2016-06-25
-updated: 2022-10-28
-version: 5.0.4
-stars: 4
-reviews: 4
-size: '138987520'
+updated: 2024-10-02
+version: 6.7.0
+stars: 4.8
+reviews: 557
+size: '128553984'
 website: https://www.bbae.com
 repository: 
 issue: 
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
-developerName: 
+developerName: BBAE Holdings LLC
 
 ---
 

@@ -8,12 +8,12 @@ appId: com.lcx.app
 appCountry: in
 idd: '1604594068'
 released: 2022-06-27
-updated: 2023-04-21
-version: 2.0.3
-stars: 4.3
-reviews: 36
-size: '57239552'
-website: 
+updated: 2024-09-17
+version: 2.5.3
+stars: 4.8
+reviews: 18
+size: '115210240'
+website: https://www.LCX.com/mobile/
 repository: 
 issue: 
 icon: com.lcx.app.jpg
@@ -28,7 +28,7 @@ social:
 - https://www.youtube.com/channel/UCNj78acRE-ywQPim-wZ8RTQ
 - https://www.instagram.com/lcx.exchange/
 features: 
-developerName: 
+developerName: LCX AG
 
 ---
 

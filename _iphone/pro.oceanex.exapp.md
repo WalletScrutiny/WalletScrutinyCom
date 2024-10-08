@@ -8,19 +8,19 @@ appId: pro.oceanex.exapp
 appCountry: jp
 idd: 1481311936
 released: 2019-10-05
-updated: 2022-04-13
-version: 1.5.3
-stars: 4.7
-reviews: 32
-size: '48093184'
+updated: 2022-10-19
+version: 1.5.4
+stars: 0
+reviews: 0
+size: '47679488'
 website: https://oceanex.pro/
 repository: 
 issue: 
 icon: pro.oceanex.exapp.jpg
 bugbounty: 
-meta: ok
+meta: obsolete
 verdict: custodial
-date: 2024-10-07
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: OceanexOfficial
@@ -28,7 +28,7 @@ social:
 - https://www.facebook.com/OceanExPROOfficial
 - https://www.reddit.com/r/OceanExOfficial
 features: 
-developerName: 
+developerName: OceanEx Limited
 
 ---
 

@@ -12,7 +12,7 @@ updated: 2024-10-03
 version: 1.6.2
 stars: 4.8
 ratings: 
-reviews: 15
+reviews: 14
 size: 
 website: https://safle.com/
 repository: 

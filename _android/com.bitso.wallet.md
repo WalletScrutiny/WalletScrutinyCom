@@ -10,9 +10,9 @@ appCountry:
 released: 2018-02-19
 updated: 2024-10-03
 version: 3.70.4
-stars: 3.7
+stars: 3.6
 ratings: 40512
-reviews: 296
+reviews: 297
 size: 
 website: https://bitso.com/app
 repository: 

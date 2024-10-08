@@ -10,17 +10,17 @@ idd: '1479083282'
 released: 2019-09-23
 updated: 2023-03-13
 version: 3.3.15
-stars: 2.4
-reviews: 8
+stars: 0
+reviews: 0
 size: '71558144'
 website: 
 repository: 
 issue: 
 icon: com.prodoge.prodoge.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2024-10-07
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: 

@@ -10,17 +10,17 @@ idd: 1561857024
 released: 2021-06-30
 updated: 2023-04-26
 version: 1.0.77
-stars: 3.9
-reviews: 17
+stars: 5
+reviews: 1
 size: '98912256'
 website: https://www.bitmama.io/
 repository: 
 issue: 
 icon: com.bitmama.bitmama.ios.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2024-10-07
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: bitmama

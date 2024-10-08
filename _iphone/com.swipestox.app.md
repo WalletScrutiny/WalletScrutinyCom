@@ -8,11 +8,11 @@ appId: com.swipestox.app
 appCountry: in
 idd: 1182702365
 released: 2017-01-15
-updated: 2022-11-09
-version: 8.5.5
-stars: 4.4
-reviews: 1518
-size: '143646720'
+updated: 2024-09-03
+version: 9.1.6
+stars: 4.7
+reviews: 46
+size: '171914240'
 website: https://www.naga.com
 repository: 
 issue: 
@@ -28,7 +28,7 @@ social:
 - https://www.linkedin.com/company/nagainvesting
 - https://www.facebook.com/nagainvesting
 features: 
-developerName: 
+developerName: NAGA Markets Ltd.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 wsId: phemexTR
-title: 'Phemex TR: TL ile Bitcoin Al'
+title: 'Phemex Pro: Crypto Trading'
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ appId: com.phemex.tr
 appCountry: us
 idd: '1587847973'
 released: 2021-10-10
-updated: 2022-09-28
-version: 1.2.5
+updated: 2024-09-05
+version: 5.5.26
 stars: 5
 reviews: 1
-size: '104222720'
-website: 
+size: '147055616'
+website: https://phemex.com/
 repository: 
 issue: 
 icon: com.phemex.tr.jpg

@@ -8,11 +8,11 @@ appId: org.pionex
 appCountry: jp
 idd: 1485348891
 released: 2020-04-18
-updated: 2023-01-18
-version: 2.1.2
-stars: 4.4
-reviews: 476
-size: '96990208'
+updated: 2024-10-04
+version: 3.0.6
+stars: 4.9
+reviews: 61
+size: '182106112'
 website: https://www.pionex.com
 repository: 
 issue: 
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
-developerName: 
+developerName: Bituniverse
 
 ---
 

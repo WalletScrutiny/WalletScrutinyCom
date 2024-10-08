@@ -1,6 +1,6 @@
 ---
 wsId: nash
-title: 'Nash: Spend, save & invest'
+title: Nash Crypto Platform
 altTitle: 
 authors:
 - kiwilamb
@@ -8,11 +8,11 @@ appId: io.nash.app
 appCountry: de
 idd: 1475759236
 released: 2019-09-06
-updated: 2022-06-04
-version: 11.0.5
-stars: 4.6
-reviews: 110
-size: '90502144'
+updated: 2024-10-07
+version: 17.0.3
+stars: 4.8
+reviews: 103
+size: '92402688'
 website: https://nash.io
 repository: 
 issue: 
@@ -27,7 +27,7 @@ twitter: nashsocial
 social:
 - https://www.linkedin.com/company/nashsocial
 features: 
-developerName: 
+developerName: Neon Exchange AG
 
 ---
 

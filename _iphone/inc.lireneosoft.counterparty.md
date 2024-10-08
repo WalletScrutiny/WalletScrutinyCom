@@ -18,16 +18,16 @@ repository: https://github.com/IndieSquare/indiesquare-wallet
 issue: 
 icon: inc.lireneosoft.counterparty.jpg
 bugbounty: 
-meta: ok
+meta: obsolete
 verdict: nosource
-date: 2024-10-07
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: Indie_Square
 social:
 - https://www.facebook.com/indiesquare.me
 features: 
-developerName: 
+developerName: IndieSquare Inc.
 
 ---
 

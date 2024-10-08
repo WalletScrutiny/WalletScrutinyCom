@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.tiim.gooptions.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
-date: 2023-09-20
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: 

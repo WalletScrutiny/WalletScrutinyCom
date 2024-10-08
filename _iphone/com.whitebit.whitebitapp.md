@@ -11,7 +11,7 @@ released: 2019-05-21
 updated: 2024-10-04
 version: 3.29.5
 stars: 4.7
-reviews: 2177
+reviews: 2178
 size: '119969792'
 website: https://whitebit.com
 repository: 

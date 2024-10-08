@@ -1,6 +1,6 @@
 ---
 wsId: Ibandirect
-title: Ibandirect
+title: Coincardi
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.ibandirect.cards
 appCountry: gb
 idd: 1538001175
 released: 2020-11-09
-updated: 2023-05-19
-version: 1.8.0
-stars: 0
-reviews: 0
-size: '85158912'
+updated: 2024-10-06
+version: 1.9.2
+stars: 5
+reviews: 1
+size: '53395456'
 website: https://ibandirect.com/
 repository: 
 issue: 

@@ -8,11 +8,11 @@ appId: com.nitroex.nitroexexchangeapp
 appCountry: us
 idd: 1569267465
 released: 2021-07-05
-updated: 2022-11-18
-version: 2.2.1
-stars: 0
-reviews: 0
-size: '95581184'
+updated: 2024-01-23
+version: 3.0.6
+stars: 5
+reviews: 1
+size: '80867328'
 website: https://www.nitroex.io/
 repository: 
 issue: 
@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/nitroex.io
 - https://www.reddit.com/r/nitroexchange
 features: 
-developerName: 
+developerName: Nitro Software Technologies LTD
 
 ---
 

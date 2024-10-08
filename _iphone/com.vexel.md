@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.vexel.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-10-16
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: 

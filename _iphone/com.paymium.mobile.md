@@ -1,6 +1,6 @@
 ---
 wsId: Paymium
-title: Paymium - Bitcoin Platform
+title: Paymium
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.paymium.mobile
 appCountry: fr
 idd: 1055288395
 released: 2016-01-18
-updated: 2023-02-03
-version: 3.4.0
-stars: 4.5
-reviews: 2
-size: '115031040'
+updated: 2024-10-02
+version: 8.5.0
+stars: 3.5
+reviews: 11
+size: '35410944'
 website: https://www.paymium.com/
 repository: 
 issue: 

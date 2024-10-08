@@ -8,11 +8,11 @@ appId: com.bitqik
 appCountry: jp
 idd: '1645041960'
 released: 2022-09-26
-updated: 2023-07-05
-version: 2.1.0
-stars: 3.7
-reviews: 3
-size: '32717824'
+updated: 2024-09-27
+version: 2.1.1
+stars: 5
+reviews: 1
+size: '33589248'
 website: 
 repository: 
 issue: 

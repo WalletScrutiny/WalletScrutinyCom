@@ -10,17 +10,17 @@ idd: '1556696679'
 released: 2021-04-06
 updated: 2023-07-25
 version: 2.1.10
-stars: 4.5
-reviews: 22
+stars: 3.9
+reviews: 20
 size: '45794304'
 website: 
 repository: 
 issue: 
 icon: net.bitkap.frondend.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2024-10-07
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: BitkapO

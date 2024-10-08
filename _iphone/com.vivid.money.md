@@ -1,18 +1,18 @@
 ---
 wsId: 
-title: 'Vivid: Mobile Banking'
+title: Vivid Business and Personal
 altTitle: 
 authors: 
 appId: com.vivid.money
 appCountry: jp
 idd: 1504417378
 released: 2020-10-09
-updated: 2023-02-22
-version: 2.49.0
-stars: 0
-reviews: 0
-size: '331750400'
-website: https://vivid.money/
+updated: 2024-10-02
+version: 3.35.0
+stars: 4.6
+reviews: 16
+size: '406577152'
+website: https://vivid.money/en-de
 repository: 
 issue: 
 icon: com.vivid.money.jpg

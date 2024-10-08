@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: jp.co.okasan-online.okasanonline.crypto.prd.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosendreceive
-date: 2023-08-08
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: 

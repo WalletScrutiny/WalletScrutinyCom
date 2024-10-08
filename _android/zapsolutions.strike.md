@@ -3,15 +3,15 @@ wsId: strike
 title: 'STRIKE: BITCOIN'
 altTitle: 
 authors: 
-users: 500000
+users: 1000000
 appId: zapsolutions.strike
 appCountry: 
 released: 2020-08-06
-updated: 2024-10-01
-version: v2.80
+updated: 2024-10-08
+version: v2.81
 stars: 4.5
 ratings: 6726
-reviews: 2411
+reviews: 2410
 size: 
 website: https://strike.me/
 repository: 

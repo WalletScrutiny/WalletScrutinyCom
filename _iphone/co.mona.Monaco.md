@@ -9,10 +9,10 @@ appCountry:
 idd: 1262148500
 released: 2017-08-31
 updated: 2024-10-05
-version: 3.196.01
+version: 3.195.01
 stars: 4.6
-reviews: 231561
-size: '639315968'
+reviews: 230138
+size: '635005952'
 website: https://crypto.com/
 repository: 
 issue: 

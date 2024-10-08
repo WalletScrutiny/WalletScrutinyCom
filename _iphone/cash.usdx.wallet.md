@@ -11,14 +11,14 @@ released: 2018-04-23
 updated: 2020-11-27
 version: 1.34.2
 stars: 4.7
-reviews: 151
+reviews: 143
 size: '55813120'
 website: https://usdx.cash/airdrop
 repository: 
 issue: 
 icon: cash.usdx.wallet.jpg
 bugbounty: 
-meta: ok
+meta: obsolete
 verdict: nobtc
 date: 2024-10-07
 signer: 
@@ -28,7 +28,7 @@ social:
 - https://www.facebook.com/USDXwallet
 - https://www.reddit.com/r/USDXwallet
 features: 
-developerName: 
+developerName: Lighthouse Blockchain Technology GmbH.
 
 ---
 

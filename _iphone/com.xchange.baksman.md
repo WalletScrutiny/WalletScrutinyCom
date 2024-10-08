@@ -10,17 +10,17 @@ idd: 1436169013
 released: 2018-09-21
 updated: 2023-08-28
 version: 2.2.9
-stars: 4.7
-reviews: 63
+stars: 0
+reviews: 0
 size: '14303232'
 website: 
 repository: 
 issue: 
 icon: com.xchange.baksman.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2024-10-07
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: 

@@ -12,7 +12,7 @@ updated: 2024-09-23
 version: 4.14.1
 stars: 4.1
 ratings: 
-reviews: 49
+reviews: 50
 size: 
 website: https://www.tronlink.org
 repository: 

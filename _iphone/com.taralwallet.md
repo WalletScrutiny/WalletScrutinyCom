@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.taralwallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2024-10-07
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: TaralityCoin

@@ -8,7 +8,7 @@ appId: com.tideisun.tidepay
 appCountry: us
 idd: 1384802533
 released: 2018-06-09
-updated: 2024-05-31
+updated: 2024-10-08
 version: 4.0.5
 stars: 3
 reviews: 2

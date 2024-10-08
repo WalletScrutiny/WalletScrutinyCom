@@ -8,12 +8,12 @@ appId: com.c2c.B.V.Crypto2Cash
 appCountry: de
 idd: '1394099126'
 released: 2018-11-29
-updated: 2022-12-15
-version: 2.10.2
-stars: 3.3
-reviews: 9
-size: '30099456'
-website: https://www.crypto2cash.com
+updated: 2024-09-04
+version: 3.1.1
+stars: 0
+reviews: 0
+size: '20125696'
+website: https://www.crypto2cash.com/
 repository: 
 issue: 
 icon: com.c2c.B.V.Crypto2Cash.jpg

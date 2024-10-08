@@ -12,7 +12,7 @@ updated: 2024-09-25
 version: 15.16.0
 stars: 3.8
 ratings: 26669
-reviews: 1392
+reviews: 1391
 size: 
 website: https://www.dopamineapp.com
 repository: 

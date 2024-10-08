@@ -1,6 +1,6 @@
 ---
 wsId: SatoshiTango
-title: Satoshi Tango
+title: 'Satoshi Tango: Bitcoin - USDT'
 altTitle: 
 authors:
 - leo
@@ -9,11 +9,11 @@ appId: com.SatoshiTango.SatoshiTango
 appCountry: jp
 idd: 1002555958
 released: 2015-07-08
-updated: 2023-02-07
-version: 4.5.4
-stars: 4.1
-reviews: 34
-size: '122518528'
+updated: 2024-08-15
+version: 5.1.0
+stars: 4.5
+reviews: 2
+size: '78558208'
 website: http://www.satoshitango.com
 repository: 
 issue: 

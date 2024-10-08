@@ -10,15 +10,15 @@ idd: '1489679343'
 released: 2019-12-18
 updated: 2022-05-18
 version: 1.6.0
-stars: 4.5
-reviews: 4
+stars: 0
+reviews: 0
 size: '28845056'
 website: https://ibtc.com.hk/
 repository: 
 issue: 
 icon: com.iBTC.trade.hk.jpg
 bugbounty: 
-meta: ok
+meta: obsolete
 verdict: custodial
 date: 2024-10-07
 signer: 

@@ -11,16 +11,16 @@ released: 2018-06-28
 updated: 2022-09-15
 version: 4.6.96
 stars: 2.8
-reviews: 145
+reviews: 147
 size: '135105536'
 website: https://hoo.com
 repository: 
 issue: 
 icon: cn.maolian.hufu.app.standard.jpg
 bugbounty: 
-meta: ok
+meta: obsolete
 verdict: custodial
-date: 2024-10-07
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: Hoo_exchange

@@ -1,6 +1,6 @@
 ---
 wsId: matrixport
-title: 'Matrixport: Buy & Earn Crypto'
+title: Matrixport
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.matrixport.mark
 appCountry: us
 idd: 1488557973
 released: 2019-11-25
-updated: 2023-06-13
-version: 3.5.00
-stars: 4.5
-reviews: 36
-size: '171804672'
+updated: 2024-10-05
+version: 3.9.22
+stars: 3.5
+reviews: 46
+size: '259940352'
 website: https://invest.matrixport.dev/en
 repository: 
 issue: 

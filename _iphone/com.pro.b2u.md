@@ -8,19 +8,19 @@ appId: com.pro.b2u
 appCountry: br
 idd: 1489598378
 released: 2019-12-20
-updated: 2021-11-18
-version: '1.83'
-stars: 4.2
-reviews: 6
-size: 118892544
+updated: 2023-09-27
+version: '2.4'
+stars: 2.5
+reviews: 162
+size: '41312256'
 website: https://www.bitcointoyou.com
 repository: 
 issue: 
 icon: com.pro.b2u.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2024-10-07
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: bitcointoyou
@@ -28,7 +28,7 @@ social:
 - https://www.linkedin.com/company/bitcointoyou
 - https://www.facebook.com/Bitcointoyou
 features: 
-developerName: 
+developerName: B2U Limited
 
 ---
 

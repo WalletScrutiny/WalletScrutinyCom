@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.dex-trade.ios.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 date: 2024-10-07
 signer: 

@@ -1,6 +1,6 @@
 ---
 wsId: hidollars
-title: 'hi: Web3 Wallet-Crypto Neobank'
+title: Hi:Easy-to-Use Crypto Neobank
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.hidollars.app
 appCountry: jp
 idd: '1583215766'
 released: 2021-10-06
-updated: 2023-01-19
-version: 2.4.6
-stars: 3.7
-reviews: 181
-size: '187669504'
+updated: 2024-09-26
+version: 2.18.3
+stars: 3.8
+reviews: 280
+size: '255840256'
 website: https://hi.com/
 repository: 
 issue: 
@@ -29,7 +29,7 @@ social:
 - https://www.instagram.com/hi.com.official
 - https://www.reddit.com/r/hi_official
 features: 
-developerName: 
+developerName: HI
 
 ---
 

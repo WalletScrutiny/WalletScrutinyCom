@@ -1,6 +1,6 @@
 ---
 wsId: Quppy
-title: 'Quppy: Bitcoin Crypto Wallet'
+title: 'Quppy: crypto, wallet, neobank'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.quppy.wallet
 appCountry: in
 idd: 1417802076
 released: 2018-08-09
-updated: 2022-12-23
-version: 2.0.55
-stars: 2.7
-reviews: 32
-size: '76879872'
+updated: 2024-09-11
+version: 2.0.100
+stars: 2.6
+reviews: 5
+size: '101723136'
 website: https://quppy.com
 repository: 
 issue: 

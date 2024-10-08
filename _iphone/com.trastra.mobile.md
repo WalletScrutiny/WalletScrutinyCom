@@ -1,6 +1,6 @@
 ---
 wsId: trastra
-title: 'TRASTRA: Crypto Wallet & Card'
+title: 'TRASTRA: Buy Bitcoin'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.trastra.mobile
 appCountry: de
 idd: 1446427008
 released: 2019-01-20
-updated: 2022-02-09
-version: 2.6.4
-stars: 3.5
-reviews: 6
-size: 47484928
+updated: 2024-09-20
+version: 5.0.0
+stars: 3.2
+reviews: 14
+size: '59951104'
 website: https://mobile-app.trastra.com/
 repository: 
 issue: 
@@ -28,7 +28,7 @@ social:
 - https://www.linkedin.com/company/trastra
 - https://www.facebook.com/trastra.ltd
 features: 
-developerName: 
+developerName: Trastra Limited
 
 ---
 

@@ -8,17 +8,17 @@ appId: com.buyucoin
 appCountry: in
 idd: 1539456610
 released: 2020-11-17
-updated: 2022-09-06
-version: '1.28'
-stars: 2
-reviews: 8
-size: '42923008'
+updated: 2023-02-13
+version: '1.33'
+stars: 3.9
+reviews: 923
+size: '45891584'
 website: https://www.buyucoin.com
 repository: 
 issue: 
 icon: com.buyucoin.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 date: 2024-10-07
 signer: 
@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/BuyUcoin
 - https://www.reddit.com/r/BuyUcoin
 features: 
-developerName: 
+developerName: iBlock Technologies Private Limited
 
 ---
 

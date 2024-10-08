@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.g360s.SafeX.jpg
 bugbounty: 
-meta: ok
+meta: obsolete
 verdict: nobtc
-date: 2024-10-07
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: ecoinofficial

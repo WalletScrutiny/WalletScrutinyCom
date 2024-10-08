@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.counos.wallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 date: 2024-10-07
 signer: 

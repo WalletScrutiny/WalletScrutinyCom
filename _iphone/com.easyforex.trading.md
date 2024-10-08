@@ -8,12 +8,12 @@ appId: com.easyforex.trading
 appCountry: cn
 idd: 348823316
 released: 2010-01-05
-updated: 2022-12-23
-version: 5.0.2
-stars: 4.6
-reviews: 243
-size: '152046592'
-website: https://www.easymarkets.com/int/platforms/easymarkets-mobile-app/
+updated: 2024-09-13
+version: 5.2.3
+stars: 4.4
+reviews: 205
+size: '128645120'
+website: https://www.easymarkets.com/eu/en-gb/platforms/easymarkets-mobile-app/
 repository: 
 issue: 
 icon: com.easyforex.trading.jpg

@@ -10,15 +10,15 @@ idd: 1499070397
 released: 2020-04-14
 updated: 2022-11-18
 version: 1.32.0
-stars: 4.9
-reviews: 39
+stars: 3.9
+reviews: 23
 size: '85975040'
 website: https://currency.com/
 repository: 
 issue: 
 icon: com.currency.exchange.investsmart.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 date: 2024-10-07
 signer: 

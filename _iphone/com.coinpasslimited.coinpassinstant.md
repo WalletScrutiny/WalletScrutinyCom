@@ -1,6 +1,6 @@
 ---
 wsId: coinpassMobile
-title: coinpass Mobile
+title: 'coinpass: Crypto for Business'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.coinpasslimited.coinpassinstant
 appCountry: gb
 idd: '1530358553'
 released: 2020-11-20
-updated: 2024-01-03
-version: 2.0.13
-stars: 0
-reviews: 0
-size: '55623680'
+updated: 2024-09-11
+version: 3.1.1
+stars: 3.3
+reviews: 19
+size: '61401088'
 website: https://coinpass.com/
 repository: 
 issue: 

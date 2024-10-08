@@ -1,6 +1,6 @@
 ---
 wsId: kriptomat
-title: Kriptomat
+title: 'Kriptomat: Invest & Buy Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: io.kriptomat.app
 appCountry: de
 idd: 1440135740
 released: 2018-12-20
-updated: 2022-06-29
-version: 2.2.22
-stars: 4.8
-reviews: 9
-size: '52414464'
+updated: 2024-09-30
+version: 5.4.1
+stars: 4.1
+reviews: 74
+size: '65248256'
 website: https://kriptomat.io
 repository: 
 issue: 
@@ -28,7 +28,7 @@ social:
 - https://www.linkedin.com/company/kriptomat
 - https://www.facebook.com/kriptomat.io
 features: 
-developerName: 
+developerName: FintechX OU
 
 ---
 

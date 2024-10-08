@@ -7,11 +7,11 @@ appId: com.nova.dax
 appCountry: br
 idd: 1472203612
 released: 2019-10-02
-updated: 2023-01-03
-version: 3.0.2
-stars: 4.7
-reviews: 36
-size: '63412224'
+updated: 2024-09-18
+version: 3.4.3
+stars: 4.6
+reviews: 2112
+size: '83357696'
 website: 
 repository: 
 issue: 
@@ -25,7 +25,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
-developerName: 
+developerName: NOVADAX BRASIL PAGAMENTOS LTDA
 
 ---
 

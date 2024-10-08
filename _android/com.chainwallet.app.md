@@ -10,9 +10,9 @@ appCountry:
 released: 2023-01-03
 updated: 2024-08-07
 version: 1.0.35
-stars: 3
+stars: 3.1
 ratings: 
-reviews: 13
+reviews: 12
 size: 
 website: https://chain.com
 repository: 

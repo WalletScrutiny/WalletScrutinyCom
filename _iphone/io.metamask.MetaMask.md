@@ -8,10 +8,10 @@ appId: io.metamask.MetaMask
 appCountry: 
 idd: 1438144202
 released: 2020-09-03
-updated: 2024-09-23
-version: 7.31.0
+updated: 2024-10-07
+version: 7.31.1
 stars: 4.7
-reviews: 58777
+reviews: 58864
 size: '67078144'
 website: https://metamask.io/
 repository: 

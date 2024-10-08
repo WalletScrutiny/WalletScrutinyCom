@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.streakk.wallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2023-07-03
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: streakkofficial

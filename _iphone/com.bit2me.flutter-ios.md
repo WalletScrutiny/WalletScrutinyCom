@@ -1,6 +1,6 @@
 ---
 wsId: bit2me
-title: Bit2Me - Buy Bitcoin
+title: Bit2Me - Buy Cryptocurrencies
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.bit2me.flutter-ios
 appCountry: jp
 idd: 1459809738
 released: 2019-06-04
-updated: 2023-02-07
-version: 2.3.1
-stars: 4.3
-reviews: 49
-size: '132020224'
+updated: 2024-10-07
+version: 3.25.1
+stars: 5
+reviews: 1
+size: '203698176'
 website: https://bit2me.com
 repository: 
 issue: 
@@ -28,7 +28,7 @@ social:
 - https://www.linkedin.com/company/bit2me
 - https://www.facebook.com/bit2me
 features: 
-developerName: 
+developerName: Bit2Me
 
 ---
 

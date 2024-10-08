@@ -8,11 +8,11 @@ appId: com.deribit
 appCountry: in
 idd: '1293674041'
 released: 2017-11-17
-updated: 2023-10-27
-version: 3.6.0
-stars: 4.9
-reviews: 12
-size: '35704832'
+updated: 2024-08-14
+version: 3.10.0
+stars: 5
+reviews: 3
+size: '45117440'
 website: http://www.deribit.com
 repository: 
 issue: 

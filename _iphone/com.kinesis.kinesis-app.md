@@ -8,11 +8,11 @@ appId: com.kinesis.kinesis-app
 appCountry: de
 idd: 1490483608
 released: 2020-02-28
-updated: 2023-03-21
-version: 1.12.4
-stars: 4
-reviews: 51
-size: '100733952'
+updated: 2024-10-07
+version: 2.1.4
+stars: 4.1
+reviews: 9
+size: '248726528'
 website: https://kinesis.money/
 repository: https://github.com/KinesisNetwork/wallet-mobile
 issue: 

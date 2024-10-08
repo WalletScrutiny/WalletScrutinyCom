@@ -8,11 +8,11 @@ appId: com.saitapro
 appCountry: us
 idd: '1636523777'
 released: 2022-08-05
-updated: 2024-02-14
-version: '1.94'
+updated: 2024-06-18
+version: '1.95'
 stars: 4.7
-reviews: 760
-size: '68945920'
+reviews: 771
+size: '71249920'
 website: 
 repository: 
 issue: 
@@ -31,7 +31,7 @@ social:
 - https://discord.com/invite/saitama
 - https://www.reddit.com/r/WeAreSaitama
 features: 
-developerName: SAITAMA TECHNOLOGY L.L.C
+developerName: SAITACHAIN LTD
 
 ---
 
