@@ -4,10 +4,9 @@
 
 import fs from 'fs/promises';
 import path from 'path';
-import axios from 'axios';
 import pLimit from 'p-limit';
-import { JSDOM } from 'jsdom';
 import helper from './helper.mjs';
+import { isAppAvailable, cooldown, logCountryProgress, countryCodes, allCountryCodes } from './countryAvailabilityChecker.mjs';
 
 // Parse command-line arguments
 let filePathToProcess = null;
@@ -23,8 +22,8 @@ for (let i = 2; i < process.argv.length; i++) {
 }
 
 // Validate platform flag
-if (!platform || (platform !== 'ios' && platform !== 'android')) {
-  console.error('Error: Please specify a valid platform using --platform ios or --platform android');
+if (!platform || (platform !== 'ios' && platform !== 'iphone' && platform !== 'android')) {
+  console.error('Error: Please specify a valid platform using --platform ios/iphone or --platform android');
   process.exit(1);
 }
 
@@ -35,13 +34,7 @@ if (filePathToProcess) {
 
 // Constants and configurations
 const limit = pLimit(2); // Concurrency limited to 2
-const maxRetries = 5;
-const baseDelay = 2000; // 2 seconds
-const cooldownPeriod = 60000; // 1 minute cooldown
 const filesPerCooldown = 50; // Number of files processed before triggering cooldown
-
-const countryCodes = 'US,CN,JP,IN,GB,CA,BR,AR,DE,ZA,AU,NZ,KR,FR,RU'.split(',');
-const allCountryCodes = 'AE,AF,AG,AI,AL,AM,AO,AR,AT,AU,AZ,BB,BD,BE,BF,BG,BH,BJ,BM,BN,BO,BR,BS,BT,BW,BY,BZ,CA,CD,CG,CH,CI,CL,CM,CN,CO,CR,CV,CY,CZ,DE,DK,DM,DO,DZ,EC,EE,EG,ES,FI,FJ,FM,FR,GB,GD,GH,GM,GR,GT,GW,GY,HK,HN,HR,HU,ID,IE,IL,IN,IS,IT,JM,JO,JP,KE,KG,KH,KN,KR,KW,KY,KZ,LA,LB,LC,LK,LR,LT,LU,LV,MD,MG,MK,ML,MM,MN,MO,MR,MS,MT,MU,MW,MX,MY,MZ,NA,NE,NG,NI,NL,NO,NP,NZ,OM,PA,PE,PG,PH,PK,PL,PT,PW,PY,QA,RO,RU,SA,SB,SC,SE,SG,SI,SK,SL,SN,SR,ST,SV,SZ,TC,TD,TH,TJ,TM,TN,TR,TT,TW,TZ,UA,UG,US,UY,UZ,VC,VE,VG,VN,YE,ZA,ZW'.split(',');
 
 let processedFiles = 0;
 let totalFiles = 0;
@@ -71,78 +64,6 @@ function logSuccess(message) {
  * @param {number} retryCount - The current retry count
  * @returns {Promise<boolean>} - True if the app is available, false otherwise
  */
-async function isAppAvailable(appId, countryCode, retryCount = 0) {
-  let url;
-  if (platform === 'ios') {
-    url = `https://itunes.apple.com/lookup?id=${appId}&country=${countryCode}`;
-  } else if (platform === 'android') {
-    url = `https://play.google.com/store/apps/details?id=${appId}&gl=${countryCode}`;
-  }
-
-  try {
-    await new Promise((resolve) => setTimeout(resolve, 1000)); // 1 second delay between API calls
-    const response = await axios.get(url, {
-      headers: platform === 'android' ? {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-      } : {}
-    });
-
-    if (platform === 'ios') {
-      return response.data.resultCount > 0;
-    } else if (platform === 'android') {
-      const dom = new JSDOM(response.data);
-      const document = dom.window.document;
-      const notFoundElement = document.querySelector('div[jscontroller="WYvdzc"]');
-      if (notFoundElement) {
-        const notFoundText = notFoundElement.textContent;
-        if (notFoundText.includes("isn't available in your country") || notFoundText.includes("not found")) {
-          return false;
-        }
-      }
-      return true;
-    }
-  } catch (error) {
-    if (error.response && (error.response.status === 403 || error.response.status === 429) && retryCount < maxRetries) {
-      const delay = baseDelay * Math.pow(2, retryCount);
-      console.log(`Rate limited. Retrying in ${delay / 1000} seconds...`);
-      await new Promise((resolve) => setTimeout(resolve, delay));
-      return isAppAvailable(appId, countryCode, retryCount + 1);
-    }
-    return false;
-  }
-}
-
-/**
- * Perform a cooldown period with progress messages
- * @returns {Promise<void>}
- */
-async function cooldown() {
-  console.log(
-    "\n🚨 Whoa there, speed racer! We've processed 50 files. Time to give the API a breather. 💨"
-  );
-
-  const cooldownMessages = [
-    'API is doing yoga to destress.',
-    'API is sipping on a digital smoothie.',
-    'API is practicing its deep breathing exercises.',
-    'API is power napping.',
-    'API is almost done with its meditation session.',
-    'API is stretching its digital muscles.'
-  ];
-
-  const totalSteps = 6;
-  const stepDuration = cooldownPeriod / totalSteps;
-
-  for (let i = 0; i < totalSteps; i++) {
-    await new Promise((resolve) => setTimeout(resolve, stepDuration));
-    const emoji = ['🕐', '🕑', '🕒', '🕓', '🕔', '🕕'][i];
-    console.log(`${emoji} Cooling down... (${(i + 1) * 10}s) ${cooldownMessages[i]}`);
-  }
-
-  console.log(
-    "✨ Cooldown complete! The API is refreshed and ready to rock 'n' roll again! 🎸\n"
-  );
-}
 
 const today = new Date();
 
@@ -199,12 +120,15 @@ async function processFile(filePath, isSingleFile = false) {
     const codesToCheck = isSingleFile ? allCountryCodes : countryCodes;
 
     for (const code of codesToCheck) {
-      const available = await isAppAvailable(appId, code);
+      if (isSingleFile) {
+        logCountryProgress(code, isSingleFile);
+      }
+      const available = await isAppAvailable(appId, code, platform);
       if (available) {
         availableCountry = code;
         break;
       }
-      await new Promise(resolve => setTimeout(resolve, 100));
+      await new Promise((resolve) => setTimeout(resolve, 1000));
     }
 
     if (availableCountry) {
@@ -224,10 +148,12 @@ async function processFile(filePath, isSingleFile = false) {
     }
   }
 
-  if (processedFiles > 0 && processedFiles % filesPerCooldown === 0) {
-    await cooldown();
+  if (totalFiles > 1 && processedFiles > 0 && processedFiles % filesPerCooldown === 0) {
+    await cooldown(60000); 
     console.log(`Resuming processing. ${totalFiles - processedFiles} files remaining.`);
   }
+  
+  
 }
 
 /**
