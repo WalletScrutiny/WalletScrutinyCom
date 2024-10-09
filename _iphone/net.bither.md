@@ -2,7 +2,10 @@
 wsId: bither
 title: Bither - Bitcoin Wallet
 altTitle: 
-authors: 
+authors:
+- leo
+- emanuel
+- keraliss
 appId: net.bither
 appCountry: 
 idd: 899478936
@@ -19,7 +22,7 @@ icon: net.bither.jpg
 bugbounty: 
 meta: ok
 verdict: obfuscated
-date: 2021-03-05
+date: 2024-10-09
 signer: 
 reviewArchive: 
 twitter: 
@@ -30,5 +33,6 @@ developerName: BITHER Limited
 ---
 
 At the risk of putting it into the wrong **not verifiable** category, we assume
-the App Store version is no better and refer to their Android app
-{% include walletLink.html wallet='android/net.bither' %} for our analysis.
+the App Store version is no better and refer to their Android app for our analysis.
+
+{% include walletLink.html wallet='android/net.bither' %}

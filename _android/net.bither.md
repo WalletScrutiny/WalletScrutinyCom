@@ -2,7 +2,10 @@
 wsId: bither
 title: Bither - Bitcoin Wallet
 altTitle: 
-authors: 
+authors:
+- leo
+- emanuel
+- keraliss
 users: 50000
 appId: net.bither
 appCountry: 
@@ -20,7 +23,7 @@ icon: net.bither.png
 bugbounty: 
 meta: ok
 verdict: obfuscated
-date: 2021-03-03
+date: 2024-10-09
 signer: 
 reviewArchive: 
 twitter: 
@@ -30,6 +33,44 @@ developerName: getcai
 features: 
 
 ---
+
+
+**Update 2024-10-09**: We tried again to build and compare the results. Again we
+found a huge diff.
+
+And again, building was a pain as the build instructions are still not updated
+and I went with a slight modification of Keraliss' dockerfile:
+
+```
+$ podman build --rm -t bither -f ./scripts/test/android/net.bither.dockerfile
+$ podman run --rm --volume $PWD:/mnt -it localhost/bither:latest cp bither-android/build/outputs/apk/release/bither-android-release-unsigned.apk /mnt/
+$ unzip -qqd fromBuild bither-android-release-unsigned.apk 
+$ unzip -qqd fromGoogle Bither\ 2.1.5.apk 
+$ diff --brief --recursive from*
+Files fromBuild/lib/arm64-v8a/libbitherjni.so and fromGoogle/lib/arm64-v8a/libbitherjni.so differ
+Files fromBuild/lib/arm64-v8a/libjpegbither.so and fromGoogle/lib/arm64-v8a/libjpegbither.so differ
+Files fromBuild/lib/arm64-v8a/libscrypt.so and fromGoogle/lib/arm64-v8a/libscrypt.so differ
+Only in fromGoogle/META-INF: CERT.RSA
+Only in fromGoogle/META-INF: CERT.SF
+Only in fromGoogle/META-INF: MANIFEST.MF
+Files fromBuild/res/9w.png and fromGoogle/res/9w.png differ
+Files fromBuild/res/cG.png and fromGoogle/res/cG.png differ
+Files fromBuild/res/dC.png and fromGoogle/res/dC.png differ
+Files fromBuild/res/e8.png and fromGoogle/res/e8.png differ
+Files fromBuild/res/Ib.png and fromGoogle/res/Ib.png differ
+Files fromBuild/res/IF.9.png and fromGoogle/res/IF.9.png differ
+Files fromBuild/res/wg.png and fromGoogle/res/wg.png differ
+Files fromBuild/res/xM.png and fromGoogle/res/xM.png differ
+Files fromBuild/res/xT.png and fromGoogle/res/xT.png differ
+Files fromBuild/res/Yl.png and fromGoogle/res/Yl.png differ
+```
+
+Especially the diff in the .so files is problematic and as minification is used,
+we cannot say much about details. This product is **not verifiable**.
+
+The years old issue was updated accordingly.
+
+## Old Analysis
 
 This app is an open source Bitcoin wallet with most of its information to be
 found not on their website but in the App description and on GitHub.
