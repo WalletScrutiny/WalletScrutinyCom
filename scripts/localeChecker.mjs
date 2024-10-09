@@ -273,9 +273,15 @@ async function processFiles() {
   files.forEach((file) => console.log(file));
   console.log('\n');
 
-  console.log(`There are a total of ${totalFiles} files that have "meta: removed".`); 
-  console.log(`Checking ${totalFiles} files if they are available in ${countryCodes.join(',')}.`);
-  console.log('=====================================================================================');
+  if (totalFiles > 1) {
+    console.log(`There are a total of ${totalFiles} files that have "meta: removed".`); 
+    console.log(`Checking ${totalFiles} files if they are available in ${countryCodes.join(',')}.`);
+    console.log('=====================================================================================');
+  }
+  
+  if (totalFiles === 1) {
+    console.log(`Checking availability in all countries for the file: ${files[0]}`);
+  }
 
   const isSingleFile = totalFiles === 1;
 
