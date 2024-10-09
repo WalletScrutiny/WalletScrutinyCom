@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.cobru.cobru
-appCountry: 
+appCountry: IN
 released: 2021-06-26
 updated: 2023-12-19
 version: 4.0.99
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.cobru.cobru.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2024-07-05
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: cobruapp

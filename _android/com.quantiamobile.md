@@ -5,7 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.quantiamobile
-appCountry: 
+appCountry: US
 released: 2022-07-19
 updated: 2022-12-14
 version: 1.0.6
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.quantiamobile.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: fewusers
-date: 2024-04-19
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: 

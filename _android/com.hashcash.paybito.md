@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.hashcash.paybito
-appCountry: 
+appCountry: CN
 released: 2019-10-24
 updated: 2022-01-28
 version: 2.2.11
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.hashcash.paybito.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2022-02-16
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: paybito

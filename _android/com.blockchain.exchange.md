@@ -6,7 +6,7 @@ authors:
 - danny
 users: 100000
 appId: com.blockchain.exchange
-appCountry: 
+appCountry: US
 released: 2021-10-27
 updated: 2023-10-08
 version: 202310.1.1
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.blockchain.exchange.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2023-12-19
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: blockchain

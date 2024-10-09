@@ -6,7 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.jeritex.exchange
-appCountry: 
+appCountry: US
 released: 2022-05-05
 updated: 2023-05-22
 version: 1.1.20
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.jeritex.exchange.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2024-08-31
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: 

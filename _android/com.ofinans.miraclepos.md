@@ -5,7 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.ofinans.miraclepos
-appCountry: 
+appCountry: US
 released: 2022-04-30
 updated: 2024-05-08
 version: 2.0.3
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ofinans.miraclepos.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: fewusers
-date: 2024-09-08
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: 

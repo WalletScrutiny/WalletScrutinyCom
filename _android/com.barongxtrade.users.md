@@ -5,7 +5,7 @@ altTitle:
 authors: 
 users: 10
 appId: com.barongxtrade.users
-appCountry: 
+appCountry: US
 released: 2022-10-28
 updated: 2023-04-30
 version: 4.0.1
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.barongxtrade.users.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: fewusers
-date: 2023-09-15
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: 

@@ -5,7 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: trade.nexus.mobile
-appCountry: 
+appCountry: US
 released: 2021-09-21
 updated: 2022-10-07
 version: 1.0.8
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: trade.nexus.mobile.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: fewusers
-date: 2024-03-02
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: 

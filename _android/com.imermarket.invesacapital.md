@@ -5,7 +5,7 @@ altTitle:
 authors: 
 users: 10000
 appId: com.imermarket.invesacapital
-appCountry: 
+appCountry: US
 released: 
 updated: 2024-07-02
 version: 2.7.1
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.imermarket.invesacapital.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosendreceive
-date: 2024-08-15
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: 

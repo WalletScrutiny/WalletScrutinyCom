@@ -6,7 +6,7 @@ authors:
 - danny
 users: 1000
 appId: com.blocpal.wallet
-appCountry: us
+appCountry: US
 released: 2018-10-30
 updated: 2022-01-19
 version: 2.0.38
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.blocpal.wallet.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosource
-date: 2023-08-04
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: 

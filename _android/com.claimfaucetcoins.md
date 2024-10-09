@@ -6,7 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.claimfaucetcoins
-appCountry: 
+appCountry: US
 released: 2020-04-21
 updated: 2022-08-18
 version: '2.2'
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.claimfaucetcoins.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nowallet
-date: 2024-02-05
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: 

@@ -6,7 +6,7 @@ authors:
 - danny
 users: 500000
 appId: com.icmarkets.mobileapp
-appCountry: 
+appCountry: US
 released: 2022-01-19
 updated: 2022-06-22
 version: '2.0'
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.icmarkets.mobileapp.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosendreceive
-date: 2023-12-19
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: IC_Markets

@@ -5,7 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.gioexchange.app
-appCountry: 
+appCountry: US
 released: 2020-05-07
 updated: 2022-09-01
 version: 1.0.0
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.gioexchange.app.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: fewusers
-date: 2023-09-15
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: 

@@ -6,7 +6,7 @@ authors:
 - leo
 users: 100000
 appId: co.busha.android
-appCountry: 
+appCountry: US
 released: 2019-01-21
 updated: 2024-02-01
 version: 6.5.2
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: co.busha.android.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2024-03-02
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: getbusha

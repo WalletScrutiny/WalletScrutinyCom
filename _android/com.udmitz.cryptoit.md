@@ -5,7 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.udmitz.cryptoit
-appCountry: 
+appCountry: US
 released: 2021-06-13
 updated: 2021-06-13
 version: 1.1.1
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.udmitz.cryptoit.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: fewusers
-date: 2024-04-03
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: 

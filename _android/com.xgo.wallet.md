@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.xgo.wallet
-appCountry: 
+appCountry: US
 released: 
 updated: 2023-12-21
 version: 1.15.0
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.xgo.wallet.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
-date: 2024-02-05
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: XGo_official

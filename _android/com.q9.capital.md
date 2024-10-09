@@ -5,7 +5,7 @@ altTitle:
 authors: 
 users: 100
 appId: com.q9.capital
-appCountry: 
+appCountry: US
 released: 2021-11-19
 updated: 2022-09-22
 version: 1.0.5
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.q9.capital.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: fewusers
-date: 2023-08-25
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: 

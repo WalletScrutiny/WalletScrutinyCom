@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: fi.steakwallet.app
-appCountry: 
+appCountry: US
 released: 2021-07-07
 updated: 2023-12-19
 version: 3.3.2
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: fi.steakwallet.app.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nobtc
-date: 2024-07-10
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: 

@@ -6,7 +6,7 @@ authors:
 - danny
 users: 5000
 appId: com.rippex.cryptotrading
-appCountry: 
+appCountry: US
 released: 2021-03-13
 updated: 2020-11-23
 version: '1.0'
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.rippex.cryptotrading.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nowallet
-date: 2022-02-25
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: 

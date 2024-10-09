@@ -6,7 +6,7 @@ authors:
 - danny
 users: 50000
 appId: com.crypto.ab.wallet.app
-appCountry: 
+appCountry: US
 released: 2023-09-27
 updated: 2024-07-25
 version: 1.7.2
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.crypto.ab.wallet.app.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosource
-date: 2024-09-08
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: alicebob_wallet

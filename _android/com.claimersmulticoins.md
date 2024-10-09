@@ -6,7 +6,7 @@ authors:
 - danny
 users: 10000
 appId: com.claimersmulticoins
-appCountry: 
+appCountry: US
 released: 2020-01-29
 updated: 2023-10-03
 version: '3.31'
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.claimersmulticoins.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nowallet
-date: 2023-12-19
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: 
