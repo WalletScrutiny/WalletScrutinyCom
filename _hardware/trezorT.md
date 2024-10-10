@@ -68,41 +68,50 @@ features:
 
 ---
 
+There was a change in the directory name containing the binaries so we've had to modify the script itself.
 With our
 [test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/scripts/test/hardware/trezorT.sh)
 this is the result:
 
 ```
-$ ./scripts/test/hardware/trezorT.sh 2.7.0
+$ ./scripts/test/hardware/trezorT.sh 2.8.1
 ...
 Fingerprints:
-b15ea2aeebc212d86490ab5e95c68982c63075c36e779f811f28d8c03f841feb build/core-R/bootloader/bootloader.bin
-522eb5db073c0f039f7164360668e75a43399d0b4e40edfd06f77f4401cd98aa build/core-R/firmware/firmware.bin
-b15ea2aeebc212d86490ab5e95c68982c63075c36e779f811f28d8c03f841feb build/core-R-bitcoinonly/bootloader/bootloader.bin
-bb91489a4790b3668e2f5d574a729a0f43009510550fecb5e04c0937d355b2cf build/core-R-bitcoinonly/firmware/firmware.bin
-d37c4ae71b31e63ba46113eaea4a1465409e5b6605fe800e8f43296c167e79be build/core-T/bootloader/bootloader.bin
-53a645218792e413ad06c27320b7d1adc944b690ce831301bbf11c30352d3278 build/core-T/firmware/firmware.bin
-d37c4ae71b31e63ba46113eaea4a1465409e5b6605fe800e8f43296c167e79be build/core-T-bitcoinonly/bootloader/bootloader.bin
-c94f07150a6f0bb2862d4c31c6059862aab14f0073dea581118eef51a983bc30 build/core-T-bitcoinonly/firmware/firmware.bin
+394a814e7ad10ae77bd73df485e9eb4234084973031ca25d864dd811f431bf0b build/core-R/bootloader/bootloader.bin
+cc4ec6f5904ec0246e83efb6e93aad4365d4269708c6699a8d49e29fdc281104 build/core-R/firmware/firmware.bin
+394a814e7ad10ae77bd73df485e9eb4234084973031ca25d864dd811f431bf0b build/core-R-bitcoinonly/bootloader/bootloader.bin
+9431a545a8ee2f6b222a23f7ccb910ca69b3e86a253d71719cadd8afb0b8ae2b build/core-R-bitcoinonly/firmware/firmware.bin
+2e4ad54edac5e0a13514c84603e053167142babf5f4d9ed4ec0e72ca748e0051 build/core-T/bootloader/bootloader.bin
+d3af84a212d32785449ca6575e3cf2a641920b353a82dec9f059083ea5d4b149 build/core-T/firmware/firmware.bin
+2e4ad54edac5e0a13514c84603e053167142babf5f4d9ed4ec0e72ca748e0051 build/core-T-bitcoinonly/bootloader/bootloader.bin
+38ab127fcf4263a18a3b07593301fdd2c6a1a96360b62c131adb849b5d18fae3 build/core-T-bitcoinonly/firmware/firmware.bin
+6ac53b9c78ff620508441714ae8ab07e18129f64c3c001ccd1239ad130bfd46f build/core-T3T1/bootloader/bootloader.bin
+6a064df4a928e1264d682a34cc014fc9272f312e0f8a8270ff88d6f1408fe68b build/core-T3T1/firmware/firmware.bin
+6ac53b9c78ff620508441714ae8ab07e18129f64c3c001ccd1239ad130bfd46f build/core-T3T1-bitcoinonly/bootloader/bootloader.bin
+6b17de0c89c9a7876687d6b9c44673f4aca7f8819237a755090848a3829bc36b build/core-T3T1-bitcoinonly/firmware/firmware.bin
 
 Hash of non-signature parts downloaded/compiled standard:
 65+0 records in
 65+0 records out
-65 bytes copied, 0.00046644 s, 139 kB/s
-d3b92f65af4dfebb69cfc385f8f13602664b7745b76fa5da58d0dca070c71d57  trezor-2.7.0.bin.zeroed
-d3b92f65af4dfebb69cfc385f8f13602664b7745b76fa5da58d0dca070c71d57  build/core-T/firmware/firmware.bin
+65 bytes copied, 0.000384774 s, 169 kB/s
+07fa8a94dd06b17cdd8a23295f9687cd861be80591e8ab912dafabf21117f264  trezor-core-2.8.1.bin.zeroed
+8f7df375c5c9cf8b923c37378cc1a94992e03836e3ec0df0ab0271340d431903  build/core-T/firmware/firmware.bin
 
 Hash of non-signature parts downloaded/compiled bitcoinonly:
 65+0 records in
 65+0 records out
-65 bytes copied, 0.000288168 s, 226 kB/s
-f4d780d27b2912b79c73629dfae423c9e636ecb830b0af2562a3066a2373f631  trezor-2.7.0-bitcoinonly.bin.zeroed
-f4d780d27b2912b79c73629dfae423c9e636ecb830b0af2562a3066a2373f631  build/core-T-bitcoinonly/firmware/firmware.bin
+65 bytes copied, 0.000330938 s, 196 kB/s
+07fa8a94dd06b17cdd8a23295f9687cd861be80591e8ab912dafabf21117f264  trezor-core-2.8.1-bitcoinonly.bin.zeroed
+e8666de29b3eb0a75fd1673875f5fbc6388147c23d1828f09fd4033b16fb1dfa  build/core-T-bitcoinonly/firmware/firmware.bin
 
 Hash of the signed firmware:
-cc4ca65bd7ce6e3af6ddab58346b08fc3331458cd93abc34e8cc1c76532e1f2c  trezor-2.7.0.bin
-0ffb46e9df4f69d4738dd47b5d735b88edd6facfa68ce119c7614e7e8357a40e  trezor-2.7.0-bitcoinonly.bin
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  trezor-core-2.8.1.bin
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  trezor-core-2.8.1-bitcoinonly.bin
+
 ```
 
-This looks good. The compiled versions only differ in 65 bytes - the signature -
-from the downloaded version. This firmware is **reproducible**.
+There are hash discrepancies between the non-signature parts of the compiled binary (8f7df3) and the downloaded version (07fa8a) for the standard version.
+This is also observed between the hashes for the bitcoin-only version.
+Strangely, the hashes of signed firmware for trezor-core-2.8.1.bin and trezor-core-2.8.1-bitcoinonly.bin are similar. 
+We will investigate further.
+
