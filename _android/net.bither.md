@@ -34,7 +34,6 @@ features:
 
 ---
 
-
 **Update 2024-10-09**: We tried again to build and compare the results. Again we
 found a huge diff.
 

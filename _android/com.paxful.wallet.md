@@ -10,9 +10,9 @@ appCountry:
 released: 2019-04-30
 updated: 2024-09-18
 version: 2.9.35.698
-stars: 3
+stars: 2.9
 ratings: 21528
-reviews: 1929
+reviews: 1930
 size: 
 website: https://Paxful.com
 repository: 

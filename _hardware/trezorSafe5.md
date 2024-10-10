@@ -9,7 +9,7 @@ updated: 2024-09-19
 version: 2.8.3
 binaries: https://github.com/trezor/data/tree/master/firmware/t2b1
 dimensions:
-- 65.9
+- 66
 - 40
 - 8
 weight: 23
@@ -20,7 +20,7 @@ shop: https://trezor.io/trezor-safe-5
 country: CZ
 price: 169USD
 repository: https://github.com/trezor/trezor-firmware
-issue:
+issue: 
 icon: trezorSafe5.png
 bugbounty: https://trezor.io/learn/a/how-to-report-an-issue
 meta: ok

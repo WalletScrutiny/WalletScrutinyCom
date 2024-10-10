@@ -4,7 +4,7 @@ title: 'Mudrex: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.mudrexmobile
 appCountry: 
 released: 

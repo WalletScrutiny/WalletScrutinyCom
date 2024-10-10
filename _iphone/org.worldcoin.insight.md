@@ -11,7 +11,7 @@ released: 2022-06-25
 updated: 2024-10-02
 version: 2.7.6400
 stars: 4.6
-reviews: 1221
+reviews: 1222
 size: '155055104'
 website: https://worldcoin.org
 repository: 

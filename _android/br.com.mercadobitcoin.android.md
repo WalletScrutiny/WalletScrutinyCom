@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'MB | Mercado Bitcoin: criptos'
+title: Mercado Bitcoin agora é MB
 altTitle: 
 authors:
 - danny

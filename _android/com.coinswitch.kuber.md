@@ -8,11 +8,11 @@ users: 10000000
 appId: com.coinswitch.kuber
 appCountry: in
 released: 2020-05-31
-updated: 2024-10-07
+updated: 2024-10-09
 version: 6.7.0
 stars: 4.4
 ratings: 413931
-reviews: 142034
+reviews: 142037
 size: 
 website: https://coinswitch.co
 repository: 

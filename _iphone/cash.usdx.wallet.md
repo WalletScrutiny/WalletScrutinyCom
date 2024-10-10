@@ -8,7 +8,7 @@ appId: cash.usdx.wallet
 appCountry: us
 idd: 1367451869
 released: 2018-04-23
-updated: 2020-11-27
+updated: 2024-10-08
 version: 1.34.2
 stars: 4.7
 reviews: 143
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: cash.usdx.wallet.jpg
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: nobtc
-date: 2024-10-07
+date: 2024-10-10
 signer: 
 reviewArchive: 
 twitter: USDXwallet
