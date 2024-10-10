@@ -7,8 +7,8 @@ authors:
 - danny
 released: 2018-03-01
 discontinued: 
-updated: 2024-03-20
-version: 2.7.0
+updated: 2024-08-04
+version: 2.8.1
 binaries: https://github.com/trezor/webwallet-data/tree/master/firmware/2
 dimensions:
 - 64
@@ -27,9 +27,14 @@ icon: trezorT.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-04-10
+date: 2024-10-10
 signer: 
 reviewArchive:
+- date: 2024-04-10
+  version: 2.7.0
+  appHash: cc4ca65bd7ce6e3af6ddab58346b08fc3331458cd93abc34e8cc1c76532e1f2c
+  gitRevision: d32b04cd41664f0cf706661b00871e6b48598db3
+  verdict: reproducible
 - date: 2024-04-01
   version: 2.6.4
   appHash: 05db9550eb91093822fad11254be889f6f300c4ab3c4c7394112bca195cb4383
