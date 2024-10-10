@@ -93,25 +93,28 @@ d3af84a212d32785449ca6575e3cf2a641920b353a82dec9f059083ea5d4b149 build/core-T/fi
 Hash of non-signature parts downloaded/compiled standard:
 65+0 records in
 65+0 records out
-65 bytes copied, 0.000384774 s, 169 kB/s
-07fa8a94dd06b17cdd8a23295f9687cd861be80591e8ab912dafabf21117f264  trezor-core-2.8.1.bin.zeroed
+65 bytes copied, 0.000144499 s, 450 kB/s
+8f7df375c5c9cf8b923c37378cc1a94992e03836e3ec0df0ab0271340d431903  trezor-core-2.8.1.bin.zeroed
 8f7df375c5c9cf8b923c37378cc1a94992e03836e3ec0df0ab0271340d431903  build/core-T/firmware/firmware.bin
 
 Hash of non-signature parts downloaded/compiled bitcoinonly:
 65+0 records in
 65+0 records out
-65 bytes copied, 0.000330938 s, 196 kB/s
-07fa8a94dd06b17cdd8a23295f9687cd861be80591e8ab912dafabf21117f264  trezor-core-2.8.1-bitcoinonly.bin.zeroed
+65 bytes copied, 0.000260148 s, 250 kB/s
+e8666de29b3eb0a75fd1673875f5fbc6388147c23d1828f09fd4033b16fb1dfa  trezor-core-2.8.1-bitcoinonly.bin.zeroed
 e8666de29b3eb0a75fd1673875f5fbc6388147c23d1828f09fd4033b16fb1dfa  build/core-T-bitcoinonly/firmware/firmware.bin
 
 Hash of the signed firmware:
-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  trezor-core-2.8.1.bin
-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  trezor-core-2.8.1-bitcoinonly.bin
-
+5289e1d5476c5097918c1d145d5a2e0a708da11d4cae13771012b8f792941b46  trezor-core-2.8.1.bin
+95d4e96c77525998e4d0c9a234e2c808e275ef26505e45cbe503465e69c606c4  trezor-core-2.8.1-bitcoinonly.bin
 ```
 
-There are hash discrepancies between the non-signature parts of the compiled binary (8f7df3) and the downloaded version (07fa8a) for the standard version.
-This is also observed between the hashes for the bitcoin-only version.
-Strangely, the hashes of signed firmware for trezor-core-2.8.1.bin and trezor-core-2.8.1-bitcoinonly.bin are similar. 
-We will investigate further.
+With the correct modifications to the [TrezorT.sh script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/1d8681a3f2a03ef61c79fd08112425e3fcb2e8a9/scripts/test/hardware/trezorT.sh), we were able to determine that the hash `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855` is of an empty file. This meant that the binaries weren't being downloaded. We verified the download url manually and found the correct url. 
 
+This resulted in the script properly building and outputting the desired results. 
+
+1. The hashes of the non-signature parts for standard, **match**. (8f7df375c5c9cf8b923c37378cc1a94992e03836e3ec0df0ab0271340d431903)
+2. The hashes of the non-signature parts for the downloaded and compiled binary, also **match**. (8f7df375c5c9cf8b923c37378cc1a94992e03836e3ec0df0ab0271340d431903)
+3. As expected, the signed firmware for the downloaded (standard) binary do not match with its bitcoin-only counterpart. This is ideal.
+
+We have reached the conclusion that version **2.8.1** is **reproducible.**
