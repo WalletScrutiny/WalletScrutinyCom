@@ -11,8 +11,8 @@ git clone https://github.com/trezor/trezor-firmware.git
 cd trezor-firmware
 
 # Download firmware files with correct paths and filenames
-wget https://data.trezor.io/firmware/t2/trezor-${version}.bin -O trezor-core-${version}.bin
-wget https://data.trezor.io/firmware/t2/trezor-${version}-bitcoinonly.bin -O trezor-core-${version}-bitcoinonly.bin
+wget https://data.trezor.io/firmware/t2t1/trezor-t2t1-${version}.bin -O trezor-core-${version}.bin
+wget https://data.trezor.io/firmware/t2t1/trezor-t2t1-${version}-bitcoinonly.bin -O trezor-core-${version}-bitcoinonly.bin
 
 # Copy downloaded files to the archive directory
 cp trezor-core-${version}.bin $ARCHIVE/trezor-core-${version}.bin
