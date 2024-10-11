@@ -6,8 +6,8 @@ authors:
 - leo
 released: 2023-10-12
 discontinued: 
-updated: 2023-12-06
-version: 2.6.4
+updated: 2024-07-10
+version: 2.8.0
 binaries: https://github.com/trezor/data/tree/master/firmware/t2b1
 dimensions:
 - 59
@@ -26,9 +26,14 @@ icon: trezorSafe3.png
 bugbounty: https://trezor.io/learn/a/how-to-report-an-issue
 meta: ok
 verdict: reproducible
-date: 2024-04-01
+date: 2024-10-11
 signer: 
-reviewArchive: 
+reviewArchive:
+- date: 2024-04-01
+  version: 2.6.4
+  appHash: 3940dc0615c651104baf0e10147550d4ad2e44e2ef317a94ed36245e3e016bf2
+  gitRevision: 94f7ab3986d010659c65faab60e2de3737a31adf
+  verdict: reproducible
 twitter: trezor
 social:
 - https://www.facebook.com/trezor.io
@@ -36,6 +41,77 @@ social:
 features: 
 
 ---
+
+## Updated Review 2024-10-11
+
+Following the instructions enumerated below, we were able to successfully build version 2.8.0 of the {{ page.title }} firmware. 
+
+### 1. Download version 2.8.0 of the binaries from the official Trezor website:
+
+   `$ wget https://data.trezor.io/firmware/t2b1/trezor-t2b1-2.8.0{,-bitcoinonly}.bin`
+
+### 2. Get the hashes of the binaries downloaded:
+
+   ```
+   $ sha256sum *.bin
+   bd29cf141327fd0a0e04fff9213eeacb9adc273586dd8992ecb3b09d05320666  trezor-t2b1-2.8.0.bin
+   7dfc875f9208524d00bcb8e56ef05e92f60e1a4bc94872dcabe01609a8177b35  trezor-t2b1-2.8.0-bitcoinonly.bin
+   ```
+
+### 3. Clone the repository for the trezor-firmware:
+
+   `$ git clone https://github.com/trezor/trezor-firmware.git`
+
+### 4. Change directory to the cloned repository:
+
+   `$ cd trezor-firmware`
+
+### 5. Checkout to version 2.8.0
+
+   `$ git checkout core/v2.8.0`
+
+### 6. Run the trezor firmware build script
+
+   `$ bash -c "./build-docker.sh --models R core/v2.8.0"`
+
+### 7. This resulted in the following fingerprints. Notice that Core-T, is not included:
+
+   ```
+   Built from commit a3a7b0cd7a8e0fe78726ddb1c3159c2972a7278a
+
+   Fingerprints:
+   5673e8cfc0f6cbae7a5e6c5b26473acdbda36a81d0fb074a680f4fba734690e1 build/core-R/bootloader/bootloader.bin
+   cf3ce230a69a681199f74cf6ac8c6c431f8fa7e0d0183437f93c5cc029fbd155 build/core-R/firmware/firmware.bin
+   5673e8cfc0f6cbae7a5e6c5b26473acdbda36a81d0fb074a680f4fba734690e1 build/core-R-bitcoinonly/bootloader/bootloader.bin
+   ae088439d44fc8643b8de28e0d7a8720cd3dbb247619f2742604bbe884542558 build/core-R-bitcoinonly/firmware/firmware.bin
+   ```
+### 8. We proceed with signature zeroing
+
+   ```
+   danny@lw10:~/work/builds/hardware/trezorSafe3/trezor-firmware$ cp ../trezor-t2b1-2.8.0-bitcoinonly.bin trezor-t2b1-2.8.0-bitcoinonly.bin.zeroed
+   danny@lw10:~/work/builds/hardware/trezorSafe3/trezor-firmware$ cp ../trezor-t2b1-2.8.0.bin trezor-t2b1-2.8.0.bin.zeroed
+   danny@lw10:~/work/builds/hardware/trezorSafe3/trezor-firmware$ vendorHeaderSize=4608
+   danny@lw10:~/work/builds/hardware/trezorSafe3/trezor-firmware$ seekSize=$(( 5567 - $vendorHeaderSize + 512 ))
+   danny@lw10:~/work/builds/hardware/trezorSafe3/trezor-firmware$ dd if=/dev/zero of=trezor-t2b1-2.8.0.bin.zeroed bs=1 seek=$seekSize count=65 conv=notrunc
+   65+0 records in
+   65+0 records out
+   65 bytes copied, 0.000164314 s, 396 kB/s
+   danny@lw10:~/work/builds/hardware/trezorSafe3/trezor-firmware$ dd if=/dev/zero of=trezor-t2b1-2.8.0-bitcoinonly.bin.zeroed bs=1 seek=$seekSize count=65 conv=notrunc
+   65+0 records in
+   65+0 records out
+   65 bytes copied, 0.000174494 s, 373 kB/s
+   danny@lw10:~/work/builds/hardware/trezorSafe3/trezor-firmware$ sha256sum *.zeroed build/core-R{,-bitcoinonly}/firmware/firmware.bin | sort
+   877aed88c703a89344ae9b098f84849a2e1db29c1740e71af5cc85042eeb8ec1  build/core-R/firmware/firmware.bin
+   877aed88c703a89344ae9b098f84849a2e1db29c1740e71af5cc85042eeb8ec1  trezor-t2b1-2.8.0.bin.zeroed
+   c1edd08f02b75430fbeedd77c4d155aadd81b030752fec4465698ab9a0b3d0e3  build/core-R-bitcoinonly/firmware/firmware.bin
+   c1edd08f02b75430fbeedd77c4d155aadd81b030752fec4465698ab9a0b3d0e3  trezor-t2b1-2.8.0-bitcoinonly.bin.zeroed
+   ```
+
+After zeroing out 65 bytes after a specific offset, we find that the hashes of the standard official and built binaries match. The same can be said of the bitcoinonly binaries. We can assert that version **2.8.0** of the latest firmware available for the {{ page.title }} is **reproducible**.
+
+{% include asciicast %}
+
+## Previous Review 2024-04-01
 
 This is the latest model of the Trezor hardware wallets and it does feature a
 so called "secure element" or SE in short. With that, our first worry is if we
@@ -133,4 +209,4 @@ c723a55315ed5528db602d8ef0eebeb4a8a9ed96a0e237122398a999fab5e75e  trezor-t2b1-2.
 This binary is **reproducible** except for the signature which is to be
 expected.
 
-{% include asciicast %}
+
