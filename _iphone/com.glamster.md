@@ -11,7 +11,7 @@ released: 2020-09-14
 updated: 2023-06-30
 version: 4.1.1
 stars: 4.6
-reviews: 241
+reviews: 242
 size: '119751680'
 website: https://glamster.io/
 repository: 

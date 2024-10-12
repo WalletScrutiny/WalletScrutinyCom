@@ -1,6 +1,6 @@
 ---
 wsId: coinInnBTCandDoge
-title: CoinInn:Buy BTC and Doge
+title: CoinInn-Find Newest Altcoin
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.coininn.yykik
 appCountry: us
 idd: '1501704472'
 released: 2020-03-08
-updated: 2023-08-22
-version: 3.0.38
-stars: 4.1
-reviews: 44
-size: '167042048'
+updated: 2024-09-25
+version: 5.0.9
+stars: 4.2
+reviews: 45
+size: '102086656'
 website: https://www.coininn.com
 repository: 
 issue: 

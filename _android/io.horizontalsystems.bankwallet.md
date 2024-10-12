@@ -9,8 +9,8 @@ users: 50000
 appId: io.horizontalsystems.bankwallet
 appCountry: 
 released: 2018-12-18
-updated: 2024-10-03
-version: 0.40.0
+updated: 2024-10-09
+version: 0.40.1
 stars: 4.1
 ratings: 556
 reviews: 91
@@ -22,9 +22,14 @@ icon: io.horizontalsystems.bankwallet.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-10-07
+date: 2024-10-11
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
 reviewArchive:
+- date: 2024-10-09
+  version: 0.40.0
+  appHash: f5db836de54c5fd4bcc6819871edf7e5dd1d7ab8fb81c5e1bdcf3c16ab3534ad
+  gitRevision: 94f7ab3986d010659c65faab60e2de3737a31adf
+  verdict: reproducible
 - date: 2024-08-20
   version: 0.39.3
   appHash: 05c83d8031798a0f336109d980eac799a94307d3d0a3d842e0b2d53b54b0d36c
@@ -285,26 +290,27 @@ procedure expressed in our {% include testScript.html %}:
 ===== Begin Results =====
 appId:          io.horizontalsystems.bankwallet
 signer:         c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
-apkVersionName: 0.40.0
-apkVersionCode: 118
+apkVersionName: 0.40.1
+apkVersionCode: 119
 verdict:        reproducible
-appHash:        f5db836de54c5fd4bcc6819871edf7e5dd1d7ab8fb81c5e1bdcf3c16ab3534ad
-commit:         12cc03f3497da8520521543002ed8b191c6738cc
+appHash:        6f320245b3638cb00e90305a29318e15d8c10b76a84dc686f5331d9393929ba7
+commit:         218cd81423c570cdd92b1d5161a600d07c35c232
 
 Diff:
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_118/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_118/META-INF: RELEASEK.RSA
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_118/META-INF: RELEASEK.SF
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_119/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_119/META-INF: RELEASEK.RSA
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_119/META-INF: RELEASEK.SF
 
 Revision, tag (and its signature):
 
 ===== End Results =====
+
 ```
 
 {% include asciicast %}
 
 
-Version 0.40.0 is **reproducible**
+Version 0.40.1 is **reproducible**
 
 ### Thank you to Horizontal Systems for repeat donations
 

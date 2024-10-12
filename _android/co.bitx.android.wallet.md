@@ -8,7 +8,7 @@ users: 10000000
 appId: co.bitx.android.wallet
 appCountry: 
 released: 2014-11-01
-updated: 2024-10-08
+updated: 2024-10-09
 version: 8.68.3
 stars: 3.6
 ratings: 96811

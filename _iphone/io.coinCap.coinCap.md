@@ -11,7 +11,7 @@ released: 2016-01-25
 updated: 2021-10-13
 version: 3.1.33
 stars: 4.7
-reviews: 41455
+reviews: 41443
 size: '69145600'
 website: http://coincap.io
 repository: 

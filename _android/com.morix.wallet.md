@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.morix.wallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2024-01-16
+date: 2024-10-10
 signer: 
 reviewArchive: 
 twitter: MoriXjp

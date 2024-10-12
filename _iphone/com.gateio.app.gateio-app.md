@@ -11,7 +11,7 @@ released: 2017-11-03
 updated: 2024-10-04
 version: 6.33.1
 stars: 3.8
-reviews: 422
+reviews: 423
 size: '706057216'
 website: https://gate.io
 repository: 

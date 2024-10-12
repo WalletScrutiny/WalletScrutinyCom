@@ -12,7 +12,7 @@ updated: 2024-10-01
 version: v1.80.1.22167
 stars: 4.3
 ratings: 11645
-reviews: 29
+reviews: 28
 size: 
 website: https://www.quantfury.com/
 repository: 

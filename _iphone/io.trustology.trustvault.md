@@ -8,8 +8,8 @@ appId: io.trustology.trustvault
 appCountry: ee
 idd: '1455959680'
 released: 2019-08-23
-updated: 2024-09-23
-version: 2.16.1
+updated: 2024-10-09
+version: 2.17.0
 stars: 0
 reviews: 0
 size: '66263040'

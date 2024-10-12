@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.sonitix_mobility.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-07-21
+date: 2024-10-10
 signer: 
 reviewArchive: 
 twitter: SonitixO

@@ -1,6 +1,6 @@
 ---
 wsId: eurocoinPay
-title: Eurocoinpay
+title: EurocoinPay
 altTitle: 
 authors:
 - danny

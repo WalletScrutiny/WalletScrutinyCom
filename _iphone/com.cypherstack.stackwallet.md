@@ -8,11 +8,11 @@ appId: com.cypherstack.stackwallet
 appCountry: 
 idd: '1634811534'
 released: 2022-08-26
-updated: 2024-09-12
-version: 2.1.6
+updated: 2024-10-07
+version: 2.1.7
 stars: 4.2
 reviews: 16
-size: '179536896'
+size: '176174080'
 website: https://stackwallet.com/
 repository: 
 issue: 

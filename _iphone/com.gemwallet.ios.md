@@ -8,11 +8,11 @@ appId: com.gemwallet.ios
 appCountry: us
 idd: '6448712670'
 released: 2023-07-17
-updated: 2024-10-02
-version: 1.3.52
+updated: 2024-10-09
+version: 1.3.53
 stars: 4.3
-reviews: 43
-size: '44238848'
+reviews: 42
+size: '44203008'
 website: https://gemwallet.com/presskit/
 repository: https://github.com/gemwalletcom/gem-android
 issue: 

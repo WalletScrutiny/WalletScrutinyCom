@@ -4,7 +4,7 @@ title: 'Fountain: Podcasts & Music'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: fm.fountain.apps
 appCountry: 
 released: 2021-08-02
@@ -12,7 +12,7 @@ updated: 2024-09-13
 version: 1.1.3
 stars: 4.2
 ratings: 
-reviews: 217
+reviews: 218
 size: 
 website: https://www.fountain.fm
 repository: 

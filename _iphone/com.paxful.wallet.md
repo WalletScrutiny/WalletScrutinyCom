@@ -11,7 +11,7 @@ released: 2019-05-09
 updated: 2024-10-08
 version: 2.12.2
 stars: 3.3
-reviews: 3025
+reviews: 3026
 size: '122680320'
 website: https://paxful.com
 repository: 

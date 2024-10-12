@@ -11,7 +11,7 @@ released: 2016-05-12
 updated: 2024-09-19
 version: 6.2.52
 stars: 3.6
-reviews: 1535
+reviews: 1531
 size: '190676992'
 website: https://www.unocoin.com
 repository: 
