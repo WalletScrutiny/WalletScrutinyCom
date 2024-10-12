@@ -8,8 +8,8 @@ users: 10000
 appId: com.bmdf.lemonbitcoincaptcha
 appCountry: 
 released: 2022-07-11
-updated: 2024-10-03
-version: 3.9.0
+updated: 2024-10-11
+version: 4.1.0
 stars: 4
 ratings: 
 reviews: 6

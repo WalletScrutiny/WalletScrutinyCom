@@ -9,8 +9,8 @@ users: 500
 appId: to.bitkit
 appCountry: 
 released: 2024-06-07
-updated: 2024-09-12
-version: 1.0.4
+updated: 2024-10-09
+version: 1.0.5
 stars: 
 ratings: 
 reviews: 

@@ -12,7 +12,7 @@ updated: 2022-11-23
 version: 2.0.8
 stars: 3.3
 ratings: 
-reviews: 24
+reviews: 23
 size: 
 website: https://www.ztb.im/
 repository: 

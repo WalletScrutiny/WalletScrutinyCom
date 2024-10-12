@@ -3,7 +3,7 @@ wsId:
 title: 'Stablehouse: Bitcoin & Crypto'
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.mobile.stablehouse.env.stablehouse.io
 appCountry: 
 released: 2022-10-24

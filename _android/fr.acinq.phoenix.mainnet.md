@@ -8,13 +8,13 @@ authors:
 - keraliss
 users: 50000
 appId: fr.acinq.phoenix.mainnet
-appCountry: gb
+appCountry: fr
 released: 2019-12-10
-updated: 2024-09-11
-version: 2.3.9
-stars: 4.3
+updated: 2024-10-09
+version: 2.4.0
+stars: 4.6
 ratings: 314
-reviews: 44
+reviews: 9
 size: 
 website: https://phoenix.acinq.co
 repository: https://github.com/ACINQ/phoenix
@@ -23,7 +23,7 @@ icon: fr.acinq.phoenix.mainnet.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2024-09-05
+date: 2024-10-12
 signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
 reviewArchive:
 - date: 2024-08-05

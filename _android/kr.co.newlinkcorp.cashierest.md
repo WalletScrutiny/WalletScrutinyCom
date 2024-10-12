@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: kr.co.newlinkcorp.cashierest.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-07-21
+date: 2024-10-12
 signer: 
 reviewArchive: 
 twitter: 

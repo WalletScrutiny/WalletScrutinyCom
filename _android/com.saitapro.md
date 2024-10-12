@@ -12,7 +12,7 @@ updated: 2024-09-27
 version: '1.54'
 stars: 3.9
 ratings: 
-reviews: 332
+reviews: 331
 size: 
 website: http://Saitamatoken.com
 repository: 

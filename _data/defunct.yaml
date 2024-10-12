@@ -1,6 +1,4 @@
 2024-09-26:
-- _android/co.rockitcoinx.app
-- _android/com.simpleswapapp
 - _android/fr.acinq.phoenix.mainnet
 2024-09-28:
 - _iphone/btc.org.freewallet.app
@@ -55,3 +53,9 @@
 - _android/com.emet.faswet
 - _android/com.hebeblock.hebewallet
 - _android/com.velesapp
+2024-10-12:
+- _android/app.yeonwallet
+- _android/com.boulpik.token
+- _android/com.cloud.dli.app
+- _android/io.sparkbase.app
+- _iphone/com.bit2me.flutter-ios

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.simpleswapapp.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
-date: 2021-10-01
+date: 2024-10-12
 signer: 
 reviewArchive: 
 twitter: SimpleSwap_io

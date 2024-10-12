@@ -10,9 +10,9 @@ appCountry:
 released: 2021-10-05
 updated: 2024-09-28
 version: 3.7.15_googleplay
-stars: 4.8
+stars: 4.7
 ratings: 
-reviews: 446
+reviews: 447
 size: 
 website: https://fxtrendo.com
 repository: 

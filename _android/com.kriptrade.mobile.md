@@ -8,8 +8,8 @@ users: 5000
 appId: com.kriptrade.mobile
 appCountry: 
 released: 2021-10-20
-updated: 2024-09-13
-version: 3.0.3
+updated: 2024-10-08
+version: 3.0.4
 stars: 4.1
 ratings: 
 reviews: 

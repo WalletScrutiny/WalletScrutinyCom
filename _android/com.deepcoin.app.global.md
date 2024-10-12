@@ -12,7 +12,7 @@ updated: 2024-10-02
 version: 7.4.37
 stars: 4.1
 ratings: 
-reviews: 28
+reviews: 27
 size: 
 website: https://www.deepcoin.com
 repository: 
