@@ -277,6 +277,17 @@
   {
     "appId": "com.greenaddress.greenbits_android_wallet",
     "signer": "32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e",
+    "version": "4.0.34",
+    "verdict": "reproducible",
+    "appHashes": [
+      "216ea286c8a21be3b073bd8da8ebd1afba4f3bfb2313e91c084887305ff41250"
+    ],
+    "date": "2024-09-26",
+    "platform": "android"
+  },
+  {
+    "appId": "com.greenaddress.greenbits_android_wallet",
+    "signer": "32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e",
     "version": "4.0.33",
     "verdict": "reproducible",
     "appHashes": [
@@ -761,12 +772,12 @@
   {
     "appId": "com.greenaddress.greenbits_android_wallet",
     "signer": "32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e",
-    "version": "4.0.34",
-    "verdict": "reproducible",
+    "version": "4.0.35",
+    "verdict": "",
     "appHashes": [
-      "216ea286c8a21be3b073bd8da8ebd1afba4f3bfb2313e91c084887305ff41250"
+      "08ab955932047f871c1ad8bae33db6a497c3b93f86a5f99cb77d6cf83f7e61f9"
     ],
-    "date": "2024-09-26",
+    "date": "2024-10-04",
     "platform": "android"
   },
   {
@@ -1888,7 +1899,7 @@
     "appHashes": [
       "295a50bc3208c28db8ac9b1b5bdfa7eb746e2e2037469f8c2624ebe01119e464"
     ],
-    "date": "2024-09-05",
+    "date": "2024-10-12",
     "platform": "android"
   },
   {
@@ -2065,6 +2076,17 @@
       "28916fc20d00dcf52816711f40663db2549e3229ac0e94b2cbb3c74d3de8ca65"
     ],
     "date": "2024-09-12",
+    "platform": "android"
+  },
+  {
+    "appId": "io.horizontalsystems.bankwallet",
+    "signer": "c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b",
+    "version": "0.40.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "f5db836de54c5fd4bcc6819871edf7e5dd1d7ab8fb81c5e1bdcf3c16ab3534ad"
+    ],
+    "date": "2024-10-09",
     "platform": "android"
   },
   {
@@ -2598,12 +2620,12 @@
   {
     "appId": "io.horizontalsystems.bankwallet",
     "signer": "c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b",
-    "version": "0.40.0",
+    "version": "0.40.1",
     "verdict": "reproducible",
     "appHashes": [
-      "f5db836de54c5fd4bcc6819871edf7e5dd1d7ab8fb81c5e1bdcf3c16ab3534ad"
+      "6f320245b3638cb00e90305a29318e15d8c10b76a84dc686f5331d9393929ba7"
     ],
-    "date": "2024-10-07",
+    "date": "2024-10-11",
     "platform": "android"
   },
   {

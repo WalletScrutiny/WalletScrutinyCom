@@ -50,28 +50,46 @@ function parseFile(filePath) {
             console.debug('No reviewArchive entries found.', data.reviewArchive);
         }
 
-        // Process current test results if available
-        const resultsMatch = content.match(/===== Begin Results =====([\s\S]+?)===== End Results =====/);
-        if (resultsMatch) {
-            const resultsContent = resultsMatch[1];
-
-            const currentTestResults = parseResults(resultsContent);            
-
-            if (currentTestResults.appHash || currentTestResults.appHashes || data.appHash || data.appHashes) {
+        // Process reviewCurrent if available
+        if (data.reviewCurrent && data.reviewCurrent != null) {
+            const reviewData = data.reviewCurrent;
+            if (reviewData.appHashes && reviewData.verdict) {
                 entries.push({
-                    appId: currentTestResults.appId || '',
-                    signer: currentTestResults.signer || '',
-                    version: currentTestResults.apkVersionName || '',
-                    verdict: currentTestResults.verdict || '',
-                    appHashes: currentTestResults.appHashes || data.appHashes || 
-                               [currentTestResults.appHash || data.appHash].filter(Boolean),
-                    date: currentTestResults.date  || data.date
+                    appId,
+                    signer,
+                    version: reviewData.version || '',
+                    verdict: reviewData.verdict || '',
+                    appHashes: reviewData.appHashes || [],
+                    date: reviewData.date || ''
                 });
             } else {
-                console.debug('Skipping current test result due to missing appHash and appHashes:', currentTestResults);
+                console.debug('Skipping reviewCurrent entry due to missing appHashes or verdict:', reviewData);
             }
         } else {
-            console.debug('No current test results found.');
+
+            // Process current test results if available
+            const resultsMatch = content.match(/===== Begin Results =====([\s\S]+?)===== End Results =====/);
+            if (resultsMatch) {
+                const resultsContent = resultsMatch[1];
+
+                const currentTestResults = parseResults(resultsContent);
+
+                if (currentTestResults.appHash || currentTestResults.appHashes || data.appHash || data.appHashes) {
+                    entries.push({
+                        appId: currentTestResults.appId || '',
+                        signer: currentTestResults.signer || '',
+                        version: currentTestResults.apkVersionName || '',
+                        verdict: currentTestResults.verdict || '',
+                        appHashes: currentTestResults.appHashes || data.appHashes ||
+                            [currentTestResults.appHash || data.appHash].filter(Boolean),
+                        date: currentTestResults.date || data.date
+                    });
+                } else {
+                    console.debug('Skipping current test result due to missing appHash and appHashes:', currentTestResults);
+                }
+            } else {
+                console.debug('No current test results found.');
+            }
         }
 
         return entries; // Return only entries
