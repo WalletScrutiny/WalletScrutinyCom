@@ -94,7 +94,58 @@ features:
 
 ---
 
-We ran our updated {% include testScript.html %} and got this:
+We ran several tests:
+
+1. Using our {% include testScript.html %}, however the build failed. We documented our efforts [here.](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/568)
+2. Since our current application-specific script is failing, we decided to use a custom script based off the instructions provided by Zeus [here.](https://github.com/ZeusLN/zeus/blob/master/docs/ReproducibleBuilds.md). This is currently a work in progress, but our tentative verdict for this is the results are coming off as **non-verifiable**.
+
+We are in the process of:
+
+a. Fine-tuning the custom script, to make the proper comparisons
+  - Manually performing the build to verify our approach.
+b. Restructuring it to fit the existing {% include testScript.html %}
+
+```
+BUILD SUCCESSFUL in 15m 34s
+1034 actionable tasks: 14 executed, 1020 up-to-date
+
+
+********************************
+**** APKs and SHA256 Hashes
+********************************
+
+f46892e947ed6c7b323bb7d9d1dd077729decd230924f7913040d95ba64d8be4  android/app/build/outputs/apk/release/zeus-arm64-v8a.apk
+a27ab15fc292f25c309a1b2cf286b07a0cee8bbf5446338e4b714d0812a0ce81  android/app/build/outputs/apk/release/zeus-armeabi-v7a.apk
+cbe928a6fe3f3c132e0724f7b9f48172825e994fc69e40f5a72d994bb1938e8c  android/app/build/outputs/apk/release/zeus-universal.apk
+b89ecba313a463a2cf8ec70d27426c15926c4792a4e029c877cdaba7af6c9629  android/app/build/outputs/apk/release/zeus-x86.apk
+bc9ab5bec7cb53e90b514bcf883a469b61429db97e9bb7e0d159de010e7a6636  android/app/build/outputs/apk/release/zeus-x86_64.apk
+
+
+Downloading the official APK for comparison...
+--2024-10-16 17:10:14--  https://zeusln.com/zeus-v0.9.1-universal.apk
+Resolving zeusln.com (zeusln.com)... 139.144.53.218
+Connecting to zeusln.com (zeusln.com)|139.144.53.218|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 153621554 (147M) [application/octet-stream]
+Saving to: ‘zeus-v0.9.1-universal.apk’
+
+zeus-v0.9.1-universal.apk            100%[======================================================================>] 146.50M  3.39MB/s    in 49s     
+
+2024-10-16 17:11:04 (3.01 MB/s) - ‘zeus-v0.9.1-universal.apk’ saved [153621554/153621554]
+
+Comparing the built APK with the official APK...
+The APKs differ: android/app/build/outputs/apk/release/zeus-arm64-v8a.apk
+The APKs differ: android/app/build/outputs/apk/release/zeus-armeabi-v7a.apk
+The APKs differ: android/app/build/outputs/apk/release/zeus-universal.apk
+The APKs differ: android/app/build/outputs/apk/release/zeus-x86_64.apk
+The APKs differ: android/app/build/outputs/apk/release/zeus-x86.apk
+Build and comparison process completed.
+```
+
+Verification for version **0.9.1** is currently a **work-in-progress*.
+We will file the appropriate issue once we've verified our approach.
+
+## Previous Verdict 2024-08-28
 
 ```
 ===== Begin Results =====
