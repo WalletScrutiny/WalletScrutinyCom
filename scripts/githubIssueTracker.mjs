@@ -49,11 +49,11 @@ function extractIssueInfo(filePath) {
   }
 }
 
-// Function to check if a GitHub issue is active and get its last update date and last poster's username
 async function checkGitHubIssue(projectOwner, projectName, issueNumber, githubAccessToken) {
   const url = `https://api.github.com/repos/${projectOwner}/${projectName}/issues/${issueNumber}`;
   const headers = {
     Authorization: `token ${githubAccessToken}`,
+    'User-Agent': 'GitHub-Issue-Tracker-Script'
   };
 
   try {
@@ -73,7 +73,27 @@ async function checkGitHubIssue(projectOwner, projectName, issueNumber, githubAc
 
     return { state: issueState, lastUpdateDate, lastPosterUsername: latestCommentUser };
   } catch (error) {
-    console.error(`Error checking https://github.com/${projectOwner}/${projectName}/issues/${issueNumber} : ${error.message}`);
+    let errorMessage = `Error checking ${url}: `;
+    if (error.response) {
+      // The request was made and the server responded with a status code
+      // that falls out of the range of 2xx
+      if (error.response.status === 401) {
+        errorMessage += "Authentication failed. Please check your GitHub Personal Access Token.";
+      } else if (error.response.status === 403) {
+        errorMessage += "API rate limit exceeded or insufficient permissions.";
+      } else if (error.response.status === 404) {
+        errorMessage += "Issue not found. It may have been deleted or made private.";
+      } else {
+        errorMessage += `Server responded with status code ${error.response.status}.`;
+      }
+    } else if (error.request) {
+      // The request was made but no response was received
+      errorMessage += "No response received from GitHub. Please check your internet connection.";
+    } else {
+      // Something happened in setting up the request that triggered an Error
+      errorMessage += `An error occurred: ${error.message}`;
+    }
+    console.error(errorMessage);
     return { state: 'error', lastUpdateDate: 'unknown', lastPosterUsername: 'unknown' };
   }
 }
