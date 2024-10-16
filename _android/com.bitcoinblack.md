@@ -3,7 +3,7 @@ wsId:
 title: bblack®
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.bitcoinblack
 appCountry: 
 released: 2022-09-21

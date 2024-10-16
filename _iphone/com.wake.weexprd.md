@@ -8,8 +8,8 @@ appId: com.wake.weexprd
 appCountry: us
 idd: '1609350789'
 released: 2022-03-04
-updated: 2024-10-09
-version: 4.2.3
+updated: 2024-10-10
+version: 4.2.4
 stars: 4.1
 reviews: 94
 size: '90788864'

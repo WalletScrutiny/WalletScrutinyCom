@@ -4,12 +4,12 @@ title: 'Ari10: Buy Bitcoin and crypto'
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.ari10.bitcan
 appCountry: 
 released: 2022-06-14
-updated: 2024-09-16
-version: 1.9.0
+updated: 2024-10-11
+version: 1.9.1
 stars: 
 ratings: 
 reviews: 

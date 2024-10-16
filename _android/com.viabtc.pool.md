@@ -4,12 +4,12 @@ title: ViaBTC-Crypto Mining Pool
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.viabtc.pool
 appCountry: 
 released: 2017-12-16
-updated: 2024-09-06
-version: 3.8.6
+updated: 2024-10-15
+version: 3.8.7
 stars: 4.2
 ratings: 
 reviews: 300

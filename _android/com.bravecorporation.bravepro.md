@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bravecorporation.bravepro.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2024-10-16
 signer: 
 reviewArchive: 
 twitter: 

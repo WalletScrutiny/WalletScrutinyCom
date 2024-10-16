@@ -4,7 +4,7 @@ title: Zed-Pay
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.zedpay.app.android
 appCountry: 
 released: 2022-10-25

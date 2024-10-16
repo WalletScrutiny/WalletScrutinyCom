@@ -12,7 +12,7 @@ updated: 2023-11-15
 version: '4.9'
 stars: 4.8
 ratings: 
-reviews: 34
+reviews: 25
 size: 
 website: https://royalq.cloud
 repository: 

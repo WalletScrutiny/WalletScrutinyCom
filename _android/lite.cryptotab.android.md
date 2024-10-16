@@ -12,7 +12,7 @@ updated: 2024-10-07
 version: 6.2.25
 stars: 4.4
 ratings: 22930
-reviews: 1351
+reviews: 1368
 size: 
 website: https://cryptocompany.site/
 repository: 

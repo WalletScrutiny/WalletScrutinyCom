@@ -7,11 +7,11 @@ appId: com.capitalika.exchange
 appCountry: ec
 idd: '1570799130'
 released: '2021-10-04'
-updated: 2023-12-20
-version: 1.1.1
+updated: 2024-10-14
+version: 1.2.0
 stars: 4.6
 reviews: 7
-size: '4990976'
+size: '4950016'
 website: https://capitalika.com/
 repository: 
 issue: 

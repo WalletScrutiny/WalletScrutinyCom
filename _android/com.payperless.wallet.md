@@ -12,7 +12,7 @@ updated: 2024-09-27
 version: 1.21.8
 stars: 3.9
 ratings: 
-reviews: 9
+reviews: 8
 size: 
 website: https://www.payperless.com
 repository: 

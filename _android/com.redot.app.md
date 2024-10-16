@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.redot.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-11-22
+date: 2024-10-16
 signer: 
 reviewArchive: 
 twitter: redotcom

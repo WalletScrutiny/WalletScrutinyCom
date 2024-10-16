@@ -1,6 +1,6 @@
 ---
 wsId: deblock
-title: Deblock - Crypto & Compte Euro
+title: Deblock - Compte Crypto & Euro
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.deblock.deblockapp.production
 appCountry: fr
 idd: '6479202981'
 released: 2024-04-02
-updated: 2024-09-22
-version: 1.9.0
+updated: 2024-10-16
+version: 1.9.1
 stars: 4.7
-reviews: 2255
-size: '432881664'
+reviews: 2350
+size: '434551808'
 website: https://deblock.com/fr-FR
 repository: 
 issue: 

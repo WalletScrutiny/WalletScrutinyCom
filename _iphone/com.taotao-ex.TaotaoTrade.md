@@ -11,7 +11,7 @@ released: 2019-06-02
 updated: 2024-10-02
 version: 3.22.0
 stars: 1.9
-reviews: 418
+reviews: 420
 size: '88098816'
 website: https://www.sbivc.co.jp/
 repository: 
@@ -27,7 +27,7 @@ twitter: sbivc_official
 social:
 - https://www.youtube.com/channel/UCvZUMOeEVQWp4ov77mHuDtg
 features: 
-developerName: TAOTAO INC.
+developerName: SBI VC TRADE CO., LTD.
 
 ---
 

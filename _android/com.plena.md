@@ -8,8 +8,8 @@ users: 100000
 appId: com.plena
 appCountry: 
 released: 2022-07-06
-updated: 2024-08-26
-version: 4.0.3
+updated: 2024-10-15
+version: 4.0.4
 stars: 4.8
 ratings: 
 reviews: 679

@@ -10,8 +10,8 @@ idd: '6468594241'
 released: 2024-01-03
 updated: 2024-09-24
 version: 0.2.4
-stars: 4.5
-reviews: 38
+stars: 4.4
+reviews: 39
 size: '116548608'
 website: https://aquawallet.io
 repository: https://github.com/AquaWallet/aqua-wallet

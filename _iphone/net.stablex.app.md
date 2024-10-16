@@ -10,8 +10,8 @@ idd: '1591457284'
 released: 2021-10-26
 updated: 2024-10-08
 version: 2.5.25
-stars: 3.5
-reviews: 50
+stars: 3.6
+reviews: 51
 size: '52078592'
 website: https://stablex.com.tr
 repository: 

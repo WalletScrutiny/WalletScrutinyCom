@@ -4,13 +4,13 @@ title: 'UXUY: Bitcoin Lightning Wallet'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.uxuy
 appCountry: 
 released: 2023-08-09
 updated: 2024-09-27
 version: 1.2.23
-stars: 4.1
+stars: 4
 ratings: 
 reviews: 12
 size: 

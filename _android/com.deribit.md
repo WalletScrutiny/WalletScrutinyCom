@@ -4,7 +4,7 @@ title: 'Deribit: BTC Options & Futures'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.deribit
 appCountry: 
 released: 2018-01-10

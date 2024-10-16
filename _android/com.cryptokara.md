@@ -12,7 +12,7 @@ updated: 2024-04-08
 version: 1.7.5
 stars: 4.4
 ratings: 
-reviews: 131
+reviews: 132
 size: 
 website: https://www.cryptokara.com/
 repository: 

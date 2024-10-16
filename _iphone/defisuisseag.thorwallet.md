@@ -8,11 +8,11 @@ appId: defisuisseag.thorwallet
 appCountry: ch
 idd: '1592064324'
 released: 2021-11-28
-updated: 2024-10-04
-version: 3.0.6
+updated: 2024-10-14
+version: 3.0.7
 stars: 4.8
 reviews: 37
-size: '83509248'
+size: '83513344'
 website: http://vultisig.com
 repository: 
 issue: 

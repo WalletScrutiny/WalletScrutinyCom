@@ -8,7 +8,7 @@ discontinued:
 updated: 2024-09-19
 version: 2.8.3
 binaries: https://data.trezor.io/firmware/t3t1/trezor-t3t1-2.8.3.bin
-dimensions: 
+dimensions:
 - 66
 - 40
 - 8

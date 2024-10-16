@@ -12,7 +12,7 @@ updated: 2024-08-30
 version: 1.17.14
 stars: 4.3
 ratings: 1401
-reviews: 94
+reviews: 93
 size: 
 website: https://coins.coinpaprika.com/
 repository: 

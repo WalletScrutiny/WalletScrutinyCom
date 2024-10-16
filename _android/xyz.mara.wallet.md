@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: xyz.mara.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-07-09
+date: 2024-10-16
 signer: 
 reviewArchive: 
 twitter: TheMARAverse

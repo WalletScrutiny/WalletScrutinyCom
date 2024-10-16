@@ -12,7 +12,7 @@ updated: 2024-10-02
 version: 2.9.3
 stars: 2.8
 ratings: 42784
-reviews: 16582
+reviews: 16591
 size: 
 website: https://www.trbinance.com/
 repository: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: btc.org.freewallet.app.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2024-01-05
+date: 2024-10-13
 signer: 
 reviewArchive: 
 twitter: freewalletorg

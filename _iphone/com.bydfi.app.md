@@ -1,6 +1,6 @@
 ---
 wsId: bydfiExchange
-title: 'BYDFi: Buy BTC, XRP & DOGE'
+title: 'BYDFi: Buy BTC, ETH & DOGE'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.bydfi.app
 appCountry: us
 idd: '6444251506'
 released: 2023-02-09
-updated: 2024-09-11
-version: V3.5.3
+updated: 2024-10-13
+version: V3.5.5
 stars: 4.7
-reviews: 588
-size: '222269440'
+reviews: 595
+size: '230347776'
 website: https://www.bydfi.com/
 repository: 
 issue: 

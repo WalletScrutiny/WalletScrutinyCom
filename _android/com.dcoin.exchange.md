@@ -10,9 +10,9 @@ appCountry: us
 released: 2018-11-25
 updated: 2023-05-30
 version: 5.7.8-play
-stars: 4.1
+stars: 4
 ratings: 1346
-reviews: 74
+reviews: 67
 size: 
 website: https://www.dcoin.com
 repository: 

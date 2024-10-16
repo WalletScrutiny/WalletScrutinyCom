@@ -14,7 +14,7 @@ stars: 4
 ratings: 
 reviews: 
 size: 
-website: https://trexfx.com
+website: https://trexglobals.com/
 repository: 
 issue: 
 icon: com.vnc.trex.bit.png
