@@ -7,8 +7,8 @@ authors:
 - leo
 released: 2020-01-01
 discontinued: 
-updated: 
-version: 
+updated: 2023-10-09
+version: 1.10.5
 binaries: 
 dimensions:
 - 41
@@ -27,7 +27,7 @@ icon: prokeyoptimum.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2022-03-15
+date: 2024-10-18
 signer: 
 reviewArchive: 
 twitter: tryProkey
@@ -39,6 +39,8 @@ social:
 features: 
 
 ---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KGf6tpHaA6w?si=b8PJLBCJYS6X83Tb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 The product page's description reads as below:
 

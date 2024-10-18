@@ -22,9 +22,14 @@ icon: confluxnetwork.bsim.png
 bugbounty: 
 meta: ok
 verdict: unreleased
-date: 2023-12-07
+date: 2024-10-18
 signer: 
-reviewArchive: 
+reviewArchive:
+- date: 2023-12-07
+  version: 
+  appHash: 
+  gitRevision: d86fb5bc651f71c40c52e6c3492bd9ba2db77fd2
+  verdict: unreleased
 twitter: Conflux_Network
 social:
 - https://t.me/Conflux_English
@@ -34,6 +39,14 @@ social:
 features: 
 
 ---
+
+## Update 2024-10-18
+
+This is from a twitter post made on May 30, 2024
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">First look at <a href="https://twitter.com/hashtag/Conflux?src=hash&amp;ref_src=twsrc%5Etfw">#Conflux</a>’s BSIM card in person at Consensus24! 🔥<br><br>Find our team at the conference and see it in action. <a href="https://twitter.com/Conflux_Network?ref_src=twsrc%5Etfw">@Conflux_Network</a> <a href="https://t.co/RIFc81VHuH">pic.twitter.com/RIFc81VHuH</a></p>&mdash; Cami (@CamillaCaban) <a href="https://twitter.com/CamillaCaban/status/1795931344544887193?ref_src=twsrc%5Etfw">May 29, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+We'll continue to mark it as **unreleased** until new information is found.
 
 ## Product Description
 

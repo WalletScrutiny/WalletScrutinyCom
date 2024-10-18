@@ -25,7 +25,7 @@ icon: aercrypt.png
 bugbounty: 
 meta: ok
 verdict: unreleased
-date: 2022-05-18
+date: 2024-10-18
 signer: 
 reviewArchive: 
 twitter: AerCrypt
@@ -34,7 +34,13 @@ features:
 
 ---
 
-## Product Description
+## Product Update 2024-10-18
+
+The provider claimed at the start of 2024 that they would be releasing within this year.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The AerCrypt is coming this year. Software development is upcoming and V1 versions of the device will start to wrap up. We can&#39;t wait to get these out to you all! <a href="https://t.co/4lqrXe59Sd">pic.twitter.com/4lqrXe59Sd</a></p>&mdash; aercrypt.mrx (@AerCrypt) <a href="https://twitter.com/AerCrypt/status/1743747392329892132?ref_src=twsrc%5Etfw">January 6, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## Product Description 2022-05-18
 
 > 
   - The AerCrypt is a modifiable handheld crypto wallet that can be used to interact with Web3 based dapps including NFTs, blockchain games, and many more.

@@ -22,9 +22,14 @@ icon: bitfold.png
 bugbounty: 
 meta: ok
 verdict: unreleased
-date: 2023-12-06
+date: 2024-10-18
 signer: 
-reviewArchive: 
+reviewArchive:
+- date: 2023-12-06
+  version: 
+  appHash: 
+  gitRevision: d86fb5bc651f71c40c52e6c3492bd9ba2db77fd2
+  verdict: unreleased 
 twitter: Bitfold
 social:
 - https://www.linkedin.com/company/bitfold
@@ -33,6 +38,29 @@ social:
 features: 
 
 ---
+
+## Update 2024-10-18
+
+### Roadmap
+
+> **2024** 
+>
+> Further technology development and next functionalities implementation, external tests and audits, 
+developed SDK, Dubai office, sales strategy and further fundraising activities
+>
+> **2025**
+>
+> Preparation for production and first short prototype series (100 units), device certifications, distribution channels setup, pre-sales of up to 10,000 units, key partnerships
+>
+> **2026**
+>
+> Scale production start shipping up to 10,000 units, commencing the sale of further units of the device
+> 
+> **2027**
+> 
+> Scaling of device sales further partnerships, work on additional products
+
+## Review 2023-12-06
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/O2Yz-GhG2KE?si=ZKvbhdo66-54ElnW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 

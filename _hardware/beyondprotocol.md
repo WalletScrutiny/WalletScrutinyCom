@@ -21,10 +21,15 @@ issue:
 icon: beyondprotocol.png
 bugbounty: 
 meta: ok
-verdict: unreleased
-date: 2022-05-19
+verdict: vapor
+date: 2024-10-18
 signer: 
-reviewArchive: 
+reviewArchive:
+- date: 2022-05-19
+  version: 
+  appHash: 
+  gitRevision: d86fb5bc651f71c40c52e6c3492bd9ba2db77fd2
+  verdict: unreleased 
 twitter: beyondprotocol1
 social:
 - https://www.linkedin.com/company/beyond-protocol/
@@ -36,6 +41,22 @@ social:
 features: 
 
 ---
+
+## Update 2024-10-18
+
+Jonathan Manzi, the CEO and co-founder of Beyond Protocol, was [sentenced to prison](https://www.justice.gov/usao-ne/pr/massachusetts-man-sentenced-computer-intrusion). This put the project on-hold, including development until funding becomes available. 
+
+> United States Attorney Steven Russell announced that Jonathan Manzi, 31, currently of Beverly, Massachusetts, was sentenced on April 20, 2023, in Lincoln, Nebraska, by Senior United States District Judge John M. Gerrard for obtaining information from a protected computer.  Manzi was sentenced to 18 months in prison and will also serve a year on supervised release. Manzi was also ordered to pay $655,000 in restitution. 
+
+As mentioned in their [Telegram channel](https://t.me/beyondprotocol):
+
+> **Q: When released from prison, will Jonathan remain CEO? If so, how will the team encourage people to trust, and invest in a project whose leader just got out of prison?** 
+>
+> Previously, the team proactively disclosed the circumstances surrounding the legal matters to pre-salers, institutional investors, and relevant partners. Although we were disappointed by the outcome and did not anticipate it, we had a corporate contingency plan in place in the event it came to pass. When Jonathan is able to resume his corporate duties as CEO, the plan is for those responsibilities to transfer back. As the circumstances surrounding the legal matters have not changed, and the team was able to successfully develop the project previously, we do not believe they will impact the project’s ability to achieve its objectives in the future – we believe this will be determined by other factors.
+
+The admins of the Telegram channel have "paused" chat in the Telegram channel. For now, we will mark this project as **vaporware** unless new information arises that says otherwise.
+
+## Review 2022-05-19
 
 **⚠️ Warning:** The Beyond Protocol project has a corresponding token [$BP](https://www.coinbase.com/price/beyond-protocol) that has lost 99.98% of its value from $79.30 USD to less than a cent. $BP is an ERC20 token [first made available](https://beyondprotocol.medium.com/important-tge-updates-token-distribution-exchange-info-8bd64f3a48fd) on Uniswap on October 4, 2021.
 
