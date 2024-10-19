@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.mobile.kyc.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
-date: 2023-10-24
+date: 2024-10-19
 signer: 
 reviewArchive: 
 twitter: kyc_coin

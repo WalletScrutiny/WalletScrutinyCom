@@ -12,7 +12,7 @@ updated: 2024-10-16
 version: 4.6.2
 stars: 4.5
 ratings: 
-reviews: 7
+reviews: 8
 size: 
 website: https://plutus.it/
 repository: 

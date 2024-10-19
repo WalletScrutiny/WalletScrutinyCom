@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Heat Wallet
+title: HW (deprecated)
 altTitle: 
 authors: 
 users: 100

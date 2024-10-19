@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: app.mybitstore.com.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2022-04-11
+date: 2024-10-19
 signer: 
 reviewArchive: 
 twitter: mybitstore

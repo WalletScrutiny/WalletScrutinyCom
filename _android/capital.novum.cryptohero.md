@@ -10,9 +10,9 @@ appCountry:
 released: 2021-07-16
 updated: 2023-11-17
 version: 2.1.0.15
-stars: 4
+stars: 3.9
 ratings: 
-reviews: 16
+reviews: 13
 size: 
 website: https://www.cryptohero.ai
 repository: 

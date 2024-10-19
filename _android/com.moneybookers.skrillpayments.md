@@ -12,7 +12,7 @@ updated: 2024-10-16
 version: 3.145.0-2024100107
 stars: 4.5
 ratings: 142059
-reviews: 3242
+reviews: 3246
 size: 
 website: https://www.skrill.com
 repository: 
@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/Skrillpayments
 - https://www.instagram.com/skrill
 redirect_from: 
-developerName: Paysafe
+developerName: Paysafe Holdings UK Limited
 features: 
 
 ---

@@ -10,7 +10,7 @@ appCountry:
 released: 2016-03-30
 updated: 2024-10-16
 version: 3.145.0-2024100107
-stars: 4
+stars: 4.1
 ratings: 
 reviews: 252
 size: 
@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/NETELLER
 - https://www.youtube.com/user/neteller
 redirect_from: 
-developerName: Paysafe
+developerName: Paysafe Holdings UK Limited
 features: 
 
 ---

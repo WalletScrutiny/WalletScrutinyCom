@@ -14,7 +14,7 @@ stars: 3.5
 ratings: 6660
 reviews: 58
 size: 
-website: https://asdx.io/
+website: https://www.ascendex.com/
 repository: 
 issue: 
 icon: com.ascendex.exchange.png

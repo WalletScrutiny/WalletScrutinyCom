@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.blockin.wallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-10-07
+date: 2024-10-19
 signer: 
 reviewArchive: 
 twitter: PoolinWallet

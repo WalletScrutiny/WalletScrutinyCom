@@ -8,8 +8,8 @@ appId: com.korbit.exchange
 appCountry: kr
 idd: 1434511619
 released: 2018-10-18
-updated: 2024-10-10
-version: 10.3.4
+updated: 2024-10-18
+version: 10.3.5
 stars: 2.6
 reviews: 597
 size: '102148096'

@@ -11,7 +11,7 @@ released: 2016-06-25
 updated: 2024-10-15
 version: 6.7.2
 stars: 4.8
-reviews: 559
+reviews: 561
 size: '128574464'
 website: https://www.bbae.com
 repository: 

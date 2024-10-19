@@ -10,9 +10,9 @@ appCountry:
 released: 2023-07-24
 updated: 2024-10-15
 version: 2.3.1
-stars: 4.6
+stars: 4.4
 ratings: 
-reviews: 74
+reviews: 78
 size: 
 website: https://www.bestwallet.com
 repository: 
@@ -32,7 +32,7 @@ social:
 - https://www.tiktok.com/@bestwalletofficial
 - https://www.instagram.com/bestwallethq
 redirect_from: 
-developerName: BESTWEB3
+developerName: BEST WALLET
 features: 
 
 ---

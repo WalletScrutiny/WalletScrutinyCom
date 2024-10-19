@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.fibitpro.fibitapp.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-07-20
+date: 2024-10-19
 signer: 
 reviewArchive: 
 twitter: fibitpro

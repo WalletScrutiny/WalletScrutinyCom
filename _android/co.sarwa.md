@@ -12,7 +12,7 @@ updated: 2024-08-26
 version: 5.5.0
 stars: 3.6
 ratings: 
-reviews: 14
+reviews: 16
 size: 
 website: https://www.sarwa.co
 repository: 

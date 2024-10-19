@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-02-25
 updated: 2024-09-23
 version: 2.4.0
-stars: 3.9
+stars: 4
 ratings: 261
-reviews: 23
+reviews: 24
 size: 
 website: https://cloverpool.com
 repository: 

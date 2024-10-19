@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.maze2.sezamewallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2022-07-31
+date: 2024-10-19
 signer: 
 reviewArchive: 
 twitter: 

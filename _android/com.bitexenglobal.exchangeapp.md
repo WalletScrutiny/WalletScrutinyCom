@@ -8,7 +8,7 @@ users: 10000
 appId: com.bitexenglobal.exchangeapp
 appCountry: 
 released: 
-updated: 2024-10-15
+updated: 2024-10-16
 version: '1.95'
 stars: 2.7
 ratings: 

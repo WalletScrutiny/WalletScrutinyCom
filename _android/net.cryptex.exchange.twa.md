@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: net.cryptex.exchange.twa.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
-date: 2023-10-30
+date: 2024-10-19
 signer: 
 reviewArchive: 
 twitter: 

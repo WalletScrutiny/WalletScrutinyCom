@@ -10,7 +10,7 @@ appCountry: qa
 released: 2021-08-22
 updated: 2024-08-29
 version: 2.43.3
-stars: 3.6
+stars: 3.5
 ratings: 319
 reviews: 300
 size: 

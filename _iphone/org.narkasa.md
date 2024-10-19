@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.narkasa.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2023-04-15
+date: 2024-10-19
 signer: 
 reviewArchive: 
 twitter: narkasacom

@@ -12,7 +12,7 @@ updated: 2024-10-16
 version: 4.4.8
 stars: 4.3
 ratings: 
-reviews: 51
+reviews: 52
 size: 
 website: https://margex.com
 repository: 

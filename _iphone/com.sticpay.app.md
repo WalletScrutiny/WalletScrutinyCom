@@ -8,11 +8,11 @@ appId: com.sticpay.app
 appCountry: us
 idd: 1274956968
 released: 2017-09-05
-updated: 2024-10-11
-version: '3.83'
+updated: 2024-10-17
+version: '3.84'
 stars: 4.4
 reviews: 24
-size: '26967040'
+size: '26971136'
 website: https://www.sticpay.com/
 repository: 
 issue: 

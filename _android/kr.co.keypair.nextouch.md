@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: kr.co.keypair.nextouch.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
-date: 2021-10-01
+date: 2024-10-19
 signer: 
 reviewArchive: 
 twitter: 

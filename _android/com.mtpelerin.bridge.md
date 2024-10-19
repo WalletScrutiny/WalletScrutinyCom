@@ -1,6 +1,6 @@
 ---
 wsId: bridgeWallet
-title: Bridge Wallet
+title: 'Bridge Wallet: Bitcoin, crypto'
 altTitle: 
 authors:
 - leo

@@ -12,7 +12,7 @@ updated: 2024-09-23
 version: 1.08.991
 stars: 4.8
 ratings: 934
-reviews: 42
+reviews: 41
 size: 
 website: https://paiexchange.com
 repository: 

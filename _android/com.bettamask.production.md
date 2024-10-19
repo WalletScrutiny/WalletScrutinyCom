@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bettamask.production.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-10-09
+date: 2024-10-19
 signer: 
 reviewArchive: 
 twitter: 

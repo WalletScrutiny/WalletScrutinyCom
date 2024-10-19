@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.colodax.colodax.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2023-09-08
+date: 2024-10-19
 signer: 
 reviewArchive: 
 twitter: colodax

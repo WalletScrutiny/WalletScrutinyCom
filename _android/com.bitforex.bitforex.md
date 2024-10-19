@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bitforex.bitforex.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-02-15
+date: 2024-10-19
 signer: 
 reviewArchive: 
 twitter: 
