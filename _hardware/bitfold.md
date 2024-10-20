@@ -25,11 +25,6 @@ verdict: unreleased
 date: 2024-10-18
 signer: 
 reviewArchive:
-- date: 2023-12-06
-  version: 
-  appHash: 
-  gitRevision: d86fb5bc651f71c40c52e6c3492bd9ba2db77fd2
-  verdict: unreleased 
 twitter: Bitfold
 social:
 - https://www.linkedin.com/company/bitfold
