@@ -25,11 +25,6 @@ verdict: vapor
 date: 2024-10-18
 signer: 
 reviewArchive:
-- date: 2023-03-08
-  version: 
-  appHash: 
-  gitRevision: d86fb5bc651f71c40c52e6c3492bd9ba2db77fd2
-  verdict: unreleased 
 twitter: radoystoyanov
 social: 
 features: 

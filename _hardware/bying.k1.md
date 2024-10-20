@@ -24,7 +24,7 @@ issue:
 icon: bying.k1.png
 bugbounty: 
 meta: defunct
-verdict: wip
+verdict: vapor
 date: 2024-10-18
 signer: 
 reviewArchive:
@@ -85,7 +85,7 @@ Translated using Google Translate:
 > 7. Finally, remind me again!!! Please look for Bying's only official website: https://bying.io
 
 However, when we visited the website, it is no longer available and its domain has [expired since 08-28-2024](https://www.whois.com/whois/bying.io). 
-With no other corroborating information that this product exists, we are marking it as **defunct** until new information comes along.
+With no other corroborating information that this product exists, we are marking it as **vapor** until new information comes along.
 
 ## Background Information 2023-11-17
 

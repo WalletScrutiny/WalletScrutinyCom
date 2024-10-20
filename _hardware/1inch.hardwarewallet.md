@@ -28,16 +28,6 @@ verdict: unreleased
 date: 2024-10-18
 signer: 
 reviewArchive:
-- date: 2023-03-01
-  version: 
-  appHash: 
-  gitRevision: d86fb5bc651f71c40c52e6c3492bd9ba2db77fd2
-  verdict: unreleased
-- date: 2022-04-29
-  version: 
-  appHash: 
-  gitRevision: 8762a3742
-  verdict: unreleased
 twitter: hrdwlt
 social:
 - https://medium.com/@hrdwlt
