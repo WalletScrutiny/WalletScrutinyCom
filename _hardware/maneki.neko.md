@@ -21,8 +21,8 @@ issue:
 icon: 
 bugbounty: 
 meta: ok
-verdict: unreleased
-date: 2022-04-29
+verdict: vapor
+date: 2024-10-21
 signer: 
 reviewArchive: 
 twitter: TheNeko_io
@@ -34,7 +34,13 @@ features:
 
 ---
 
-## Product Description 
+## Update 2024-10-21
+
+Their homepage is now parked.
+No further updates about the project have been detected.
+This product is **vaporware**.
+
+## Product Description 2022-04-29
 
 The project is fairly new. [Token information](https://www.coingecko.com/en/coins/the-neko) started in the first quarter of 2022.
 
