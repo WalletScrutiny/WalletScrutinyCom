@@ -1,6 +1,4 @@
-#!/usr/bin/env nix-shell
-#! nix-shell -i bash --pure
-#! nix-shell -p bash apktool apksigner git diffutils unzip openssl curl cacert podman fuse which
+#!/bin/bash
 
 set -x
 
@@ -9,7 +7,9 @@ set -x
 
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )/scripts"
 TEST_ANDROID_DIR="${SCRIPT_DIR}/test/android"
-takeUserActionCommand='echo "CTRL-D to continue"; bash'
+wsContainer="docker.io/walletscrutiny/android:5"
+takeUserActionCommand='echo "CTRL-D to continue";
+  bash'
 shouldCleanup=false
 
 # Read script arguments and flags
@@ -36,18 +36,36 @@ fi
 # Functions
 # =========
 
+containerApktool() {
+  targetFolder=$1
+  app=$2
+  targetFolderParent=$(dirname "$targetFolder")
+  targetFolderBase=$(basename "$targetFolder")
+  appFolder=$(dirname "$app")
+  appFile=$(basename "$app")
+  # Run apktool in a container so apktool doesn't need to be installed.
+  # The folder with the apk file is mounted read only and only the output folder
+  # is mounted with write permission.
+  podman run \
+    --rm \
+    --volume $targetFolderParent:/tfp \
+    --volume $appFolder:/af:ro \
+    $wsContainer \
+    sh -c "apktool d -o \"/tfp/$targetFolderBase\" \"/af/$appFile\""
+  return $?
+}
+
 getSigner() {
   DIR=$(dirname "$1")
   BASE=$(basename "$1")
-  s=$(apksigner verify --print-certs "$1" | grep "Signer #1 certificate SHA-256" | awk '{print $6}')
+  s=$(
+    podman run \
+      --rm \
+      --volume $DIR:/mnt:ro \
+      --workdir /mnt \
+      $wsContainer \
+      apksigner verify --print-certs "$BASE" | grep "Signer #1 certificate SHA-256"  | awk '{print $6}' )
   echo $s
-}
-
-apktoolDecode() {
-  targetFolder=$1
-  app=$2
-  apktool d -o "$targetFolder" "$app"
-  return $?
 }
 
 usage() {
@@ -77,11 +95,11 @@ fromPlayFolder=/tmp/fromPlay$appHash
 rm -rf $fromPlayFolder
 signer=$( getSigner "$downloadedApk" )
 echo "Extracting APK content ..."
-apktoolDecode $fromPlayFolder "$downloadedApk" || exit 1
+containerApktool $fromPlayFolder "$downloadedApk" || exit 1
 appId=$( cat $fromPlayFolder/AndroidManifest.xml | head -n 1 | sed 's/.*package=\"//g' | sed 's/\".*//g' )
 versionName=$( cat $fromPlayFolder/apktool.yml | grep versionName | sed 's/.*\: //g' | sed "s/'//g" )
 versionCode=$( cat $fromPlayFolder/apktool.yml | grep versionCode | sed 's/.*\: //g' | sed "s/'//g" )
-workDir=$HOME/tmp/test_$appId
+workDir=/tmp/test_$appId
 
 if [ -z $appId ]; then
   echo "appId could not be determined"
