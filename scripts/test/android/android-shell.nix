@@ -14,7 +14,7 @@ pkgs.mkShell {
 
   shellHook = ''
     # Set Android SDK environment variable
-    export ANDROID_HOME=${pkgs.androidenv.androidsdk}
+    export ANDROID_HOME=${pkgs.androidenv.androidPkgs.androidsdk}
 
     echo "Android build environment is set up."
   '';
