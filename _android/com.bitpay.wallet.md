@@ -24,10 +24,15 @@ icon: com.bitpay.wallet.png
 bugbounty: >-
   https://support.bitpay.com/hc/en-us/articles/204229369-Does-BitPay-have-a-bug-bounty-program-
 meta: ok
-verdict: nonverifiable
-date: 2024-07-30
+verdict: nosource
+date: 2024-10-21
 signer: 
 reviewArchive:
+- date: 2024-07-30
+  version: 14.22.1
+  appHash: 
+  gitRevision: d4e9ece8eca4cdf26337b7f25b982b7c1209e0e5
+  verdict: ftbfs
 - date: 2024-07-20
   version: 14.10.1
   appHash: 
@@ -61,6 +66,14 @@ developerName: BitPay, Inc.
 features: 
 
 ---
+
+**Update 2024-07-30:**
+
+While looking to build the wallet for reproducability, we noticed a version mismatch! The wallet version in the play store is  `14.24.7` but we were unable to find the corresponding code in the [repository](https://github.com/bitpay/bitpay-app)
+
+we have already opened an [issue](https://github.com/bitpay/bitpay-app/issues/1431) discussing this. Until the issue is resolved, the wallet remains **not verifiable**.
+
+
 
 **Update 2024-07-30:**
 
