@@ -19,7 +19,7 @@ website: https://shop.ledger.com/pages/ledger-stax
 shop: https://shop.ledger.com/products/ledger-stax
 country: FR
 price: 360USD
-repository: https://github.com/trezor/trezor-firmware
+repository: 
 issue: 
 icon: ledgerStax.png
 bugbounty: 
