@@ -7,7 +7,7 @@
 
 pkgs.mkShell {
   buildInputs = [
-    pkgs.gradle
+    pkgs.gradle_6
     pkgs.openjdk11     # Verwende nur JDK 11
     pkgs.wget
     pkgs.disorderfs

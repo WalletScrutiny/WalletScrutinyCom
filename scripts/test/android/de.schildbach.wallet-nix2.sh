@@ -30,6 +30,8 @@ test() {
   echo "Building APK with Gradle..."
   cd "$sortedDir"
   
+  ANDROID_HOME=/opt/android-sdk
+
   echo "ANDROID_HOME=$ANDROID_HOME"
   
   gradle \
