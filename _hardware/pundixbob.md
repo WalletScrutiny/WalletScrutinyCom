@@ -22,7 +22,7 @@ icon: pundixbob.png
 bugbounty: 
 meta: ok
 verdict: unreleased
-date: 2022-03-23
+date: 2024-10-22
 signer: 
 reviewArchive: 
 twitter: PundiXLabs
@@ -31,7 +31,17 @@ features:
 
 ---
 
-## Product Description
+## Update 2024-10-22
+
+Although the company Pundi X Labs seems to still be active on social media, 
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">今日は <a href="https://twitter.com/hashtag/%E4%BA%80%E5%9F%8E%E7%A5%AD?src=hash&amp;ref_src=twsrc%5Etfw">#亀城祭</a> です。 いつもお世話に <a href="https://twitter.com/hashtag/%E3%83%93%E3%83%83%E3%83%88%E3%82%B3%E3%82%A4%E3%83%B3?src=hash&amp;ref_src=twsrc%5Etfw">#ビットコイン</a> 決算でお世話になっている秋葉原無線部の委託もおきます。 <a href="https://t.co/GwYFDlfjro">pic.twitter.com/GwYFDlfjro</a></p>&mdash; Pundi X Japan | 株式会社プンディラボ.ジャパン (@PundiXLabs_jp) <a href="https://twitter.com/PundiXLabs_jp/status/1847825677929894051?ref_src=twsrc%5Etfw">October 20, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+we haven't gotten new information about the {{ page.title }}. So we asked the developers if there's new information. 
+
+Until further developments, we'll continue marking this device as **unreleased.**
+
+## Product Description 2022-03-23
 
 The Blok On Blok (BOB) smartphone was advertised as being "fully decentralized and operating on the Function X blockchain." It [started its Indiegogo campaign](https://www.indiegogo.com/projects/bob-world-s-1st-blockchain-phone#/) on January 7, 2020. As of this date, the campaign is closed.
 

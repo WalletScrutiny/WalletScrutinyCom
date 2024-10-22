@@ -21,8 +21,8 @@ issue:
 icon: oton.png
 bugbounty: 
 meta: ok
-verdict: unreleased
-date: 2022-04-29
+verdict: vapor
+date: 2024-10-22
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,7 +31,11 @@ features:
 
 ---
 
-## Background 
+## Update 2024-10-22
+
+No further updates and development have been noted about the product. We are marking this as **vaporware**.
+
+## Background 2022-04-29
 
 OTON is a project primarily centered on the "OTON ecosystem" which is directed to affiliate marketing and multilevel marketing. They also have an ERC-20 token by the same name, [(OTON - Optimal Trade Over Network)](https://etherscan.io/token/0x25bae8f104d364fd2c7510e17bb3a8f8b845dd6c). 
 

@@ -21,8 +21,8 @@ issue:
 icon: safemoon.hwallet.png
 bugbounty: 
 meta: ok
-verdict: unreleased
-date: 2022-05-17
+verdict: vapor
+date: 2024-10-22
 signer: 
 reviewArchive: 
 twitter: safemoon
@@ -35,7 +35,13 @@ features:
 
 ---
 
-## Background 
+## Update 2024-10-22
+
+Based on this tweet, we can assume that the device can now be marked as **vaporware**
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/hashtag/SafeMoonArmy?src=hash&amp;ref_src=twsrc%5Etfw">#SafeMoonArmy</a>, a message from the SafeMoon US LLC Chapter 7 Trustee: <br><br>REMINDER: CLAIMS IN THE SAFEMOON US, LLC BANKRUPTCY ARE DUE BY JULY 22, 2024. Submit claims at <a href="https://t.co/lFWvSExgvv">https://t.co/lFWvSExgvv</a>.<br><br>Frequently Asked Questions with responses from the Chapter 7 Trustee:<br><br>- If I file a…</p>&mdash; SafeMoon (@safemoon) <a href="https://twitter.com/safemoon/status/1806060080917258495?ref_src=twsrc%5Etfw">June 26, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## Background 2022-05-17
 
 Safemoon is a project with a BEP20 token of the same name that has recently undergone a token migration. It is [now listed as Safemoon V2.](https://coinmarketcap.com/currencies/safemoon-v2/) Its price is currently 0.00000001437 BTC or $0.0004398 USD. It has promised SafeMoon community members a hardware wallet (specifications unclear) since 2021. The rendering of a possible SafeMoon wallet on this page was borrowed from this [tweet](https://twitter.com/safemoon/status/1394383881789452306). 
 

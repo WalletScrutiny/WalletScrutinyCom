@@ -4,7 +4,7 @@ title: '10101'
 altTitle: 
 authors:
 - danny
-- kealiss
+- keraliss
 users: 500
 appId: finance.get10101.app
 appCountry: 
@@ -20,9 +20,9 @@ repository: https://github.com/get10101/10101/
 issue: 
 icon: finance.get10101.app.png
 bugbounty: 
-meta: ok
+meta: obsolete
 verdict: fewusers
-date: 2024-08-07
+date: 2024-10-22
 signer: 
 reviewArchive: 
 twitter: get10101
@@ -32,6 +32,18 @@ developerName: '10101'
 features: 
 
 ---
+
+## Update 2024-10-22
+
+{{ page.title }} have announced that they are winding down operations:
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Important update: we will wind down 10101 by the end of the year. For a detailed post on the shutdown please read our blog post. <br>We are really grateful to our community, our users and supporters who have been with us throughout our journey. <a href="https://t.co/BiZyIkCzX4">https://t.co/BiZyIkCzX4</a> <a href="https://t.co/sSmTZWx6Y6">pic.twitter.com/sSmTZWx6Y6</a></p>&mdash; 10101 (@get10101) <a href="https://twitter.com/get10101/status/1833098321482915910?ref_src=twsrc%5Etfw">September 9, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+They stated their reasons in this [blog post](https://10101.finance/blog/10101-is-shutting-down/)
+
+> However, as we reflect on our journey, we must acknowledge some of the challenges we've faced. Building a company is hard - building a Bitcoin company is even harder - and building self-custodial services is insanely difficult. Despite our best efforts, we’ve come to realize that the market’s appreciation for self-custodial services is not where we hoped it would be. While we stayed true to our vision of creating a fully self-custodial, trust-minimized platform, it’s clear that many users are more inclined toward the convenience offered by custodial services. This has been evident in the growth of our custodial competitors.
+>
+> I don’t want to sound too cynical, but it’s also disheartening to witness the lack of support from investors in this space. Many investors seem to be focused on short-term gains, funding projects that, in my opinion, are not fully aligned with the core ethos of Bitcoin - self-custodial, censorship-resistant, and decentralized.
 
 ### Update 2024-08-01:
 

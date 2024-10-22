@@ -3,7 +3,7 @@ title: Sentinel Wallet
 appId: sentinel.wallet
 authors:
 - danny
-released: 2022-11-27
+released: 
 discontinued: 
 updated: 
 version: 
@@ -21,8 +21,8 @@ issue:
 icon: sentinel.wallet.png
 bugbounty: 
 meta: ok
-verdict: unreleased
-date: 2023-03-03
+verdict: vapor
+date: 2024-10-22
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,7 +31,11 @@ features:
 
 ---
 
-## Product Description from the {{ page.title }} [Website](https://sentinelwallet.com/)
+## Update 2024-10-22
+
+While the website is still up, and the parent company Sentry Holdings, has raised [Series B funding](https://www.crunchbase.com/organization/blustor), and continues to exist, we do not see any indication that this specific product is commercially available. There is nowhere to purchase this product except through emailing them. This leads us to the assumption that they are looking for an alternative use case for their real product, which is their Biometric Solution. Absent the commercial availability of the Sentinel Wallet as a crypto/Bitcoin hardware wallet, we feel it appropriate to give this product a verdict of **vaporware**. 
+
+## Product Description from the {{ page.title }} [Website](https://sentinelwallet.com/) 2023-03-03
 
 > All sensitive transactions, digital signing, and computations take place inside the powerful microprocessor contained within the wallet, separated from the outside world.
 > 
