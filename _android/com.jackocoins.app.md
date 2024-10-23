@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.jackocoins.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosendreceive
-date: 2023-12-13
+date: 2024-10-23
 signer: 
 reviewArchive: 
 twitter: jackocoins

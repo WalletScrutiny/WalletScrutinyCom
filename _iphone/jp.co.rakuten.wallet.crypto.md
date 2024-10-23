@@ -1,6 +1,6 @@
 ---
 wsId: rakutenCrypto
-title: 楽天ウォレットアプリ
+title: 楽天ウォレットの暗号資産取引アプリ
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: jp.co.rakuten.wallet.crypto
 appCountry: jp
 idd: '1472320399'
 released: 2019-08-31
-updated: 2024-07-10
-version: 1.5.1
+updated: 2024-10-23
+version: 1.5.2
 stars: 4.2
-reviews: 7624
-size: '36396032'
+reviews: 7631
+size: '36457472'
 website: https://www.rakuten-wallet.co.jp/
 repository: 
 issue: 

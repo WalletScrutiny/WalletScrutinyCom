@@ -9,11 +9,11 @@ users: 5000000
 appId: com.chippercash
 appCountry: 
 released: 2018-07-07
-updated: 2024-09-30
-version: 1.103.0
+updated: 2024-10-21
+version: 1.105.0
 stars: 4.2
 ratings: 59630
-reviews: 3033
+reviews: 3038
 size: 
 website: https://chippercash.com
 repository: 

@@ -1,32 +1,3 @@
-2024-10-05:
-- _android/com.cyphereco.openturnkey
-- _android/com.finbloxapp.finblox
-- _android/com.hawex.wallet
-- _android/com.studentcoin
-- _android/com.thekingdombank.app
-- _android/io.hexn.mobile
-- _android/pro.cointr
-- _iphone/finance.hollox
-2024-10-06:
-- _android/xeliuqa.com
-- _iphone/com.coinpanel.appdev
-2024-10-07:
-- _android/com.arcticmobile.app
-- _android/com.arz8x.app.arz8x
-- _android/com.box.pro
-- _android/com.funex.coin
-- _android/com.ruufpay.ruufpaymobileapp
-- _android/com.savl
-- _android/com.wiseki.sekiapp
-- _android/doshi.app
-- _android/im.immune.app
-- _android/vip.mytokenpocket
-2024-10-08:
-- _android/com.cube.beepay
-- _android/com.jackocoins.app
-- _android/com.o3.o3wallet
-- _iphone/com.fasset.cashapp
-- _iphone/io.nanovest
 2024-10-10:
 - _android/com.airpay.appwallet
 - _android/com.alfredwallet.wallet
@@ -83,3 +54,19 @@
 - _android/it.inbitcoin.altana
 - _iphone/com.AlfredWallet
 - _iphone/com.frontierwallet
+2024-10-23:
+- _android/com.accru
+- _android/com.application.changecoin
+- _android/com.archos.safet.bridge
+- _android/com.ariomex.app
+- _android/com.ettaln
+- _android/com.hermesus.android
+- _android/com.libonomywallet
+- _android/com.metallum.nicex
+- _android/com.microbitcoin
+- _android/com.mykobo
+- _android/com.tent.app
+- _android/net.bither
+- _android/net.softwareinfo
+- _android/rmt.mobile
+- _iphone/network.wx.app

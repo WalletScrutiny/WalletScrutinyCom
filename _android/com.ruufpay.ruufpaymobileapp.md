@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.ruufpay.ruufpaymobileapp.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
-date: 2024-09-24
+date: 2024-10-23
 signer: 
 reviewArchive: 
 twitter: ruufpay

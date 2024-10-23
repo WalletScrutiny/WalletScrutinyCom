@@ -9,8 +9,8 @@ users: 50000
 appId: com.mtpelerin.bridge
 appCountry: us
 released: 2020-04-07
-updated: 2024-07-09
-version: '1.44'
+updated: 2024-10-21
+version: '1.45'
 stars: 4
 ratings: 178
 reviews: 27

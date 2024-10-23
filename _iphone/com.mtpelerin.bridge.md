@@ -1,6 +1,6 @@
 ---
 wsId: bridgeWallet
-title: 'Bridge: Bitcoin Crypto Wallet'
+title: 'Bridge Wallet: Bitcoin, crypto'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.mtpelerin.bridge
 appCountry: us
 idd: 1481859680
 released: 2020-04-08
-updated: 2024-07-11
-version: '1.44'
+updated: 2024-10-22
+version: '1.45'
 stars: 4.1
 reviews: 68
-size: '101646336'
+size: '125182976'
 website: https://www.mtpelerin.com/bridge-wallet
 repository: 
 issue: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.arz8x.app.arz8x.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-09-11
+date: 2024-10-23
 signer: 
 reviewArchive: 
 twitter: 

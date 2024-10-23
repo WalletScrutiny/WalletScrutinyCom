@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.meta1.appbeta.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2023-09-05
+date: 2024-10-23
 signer: 
 reviewArchive: 
 twitter: META1Coin

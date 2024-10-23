@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Mercado Bitcoin agora é MB
+title: MB | Investimentos Digitais
 altTitle: 
 authors:
 - danny
@@ -8,7 +8,7 @@ users: 1000000
 appId: br.com.mercadobitcoin.android
 appCountry: 
 released: 2019-07-25
-updated: 2024-10-11
+updated: 2024-10-18
 version: 2.37.0
 stars: 4
 ratings: 51097

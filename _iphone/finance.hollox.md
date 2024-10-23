@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: finance.hollox.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2023-11-25
+date: 2024-10-23
 signer: 
 reviewArchive: 
 twitter: Holloxintl

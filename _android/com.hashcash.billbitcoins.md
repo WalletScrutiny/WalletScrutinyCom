@@ -11,7 +11,7 @@ updated: 2024-10-08
 version: 2.0.12
 stars: 4.8
 ratings: 98
-reviews: 6
+reviews: 5
 size: 
 website: https://www.billbitcoins.com/index.html
 repository: 

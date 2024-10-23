@@ -11,7 +11,7 @@ released: 2020-02-21
 updated: 2020-02-22
 version: '1.0'
 stars: 3
-reviews: 66
+reviews: 67
 size: '545792'
 website: https://www.altcointrader.co.za/
 repository: 

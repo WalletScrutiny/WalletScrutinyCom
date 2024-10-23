@@ -4,7 +4,7 @@ title: StrikeX | DeFi Crypto Wallet
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.tradestrike
 appCountry: 
 released: 2022-09-26

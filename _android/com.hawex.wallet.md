@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.hawex.wallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2023-11-02
+date: 2024-10-23
 signer: 
 reviewArchive: 
 twitter: hawexdao

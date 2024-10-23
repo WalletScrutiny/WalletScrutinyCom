@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.finbloxapp.finblox.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-03-31
+date: 2024-10-23
 signer: 
 reviewArchive: 
 twitter: finblox

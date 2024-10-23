@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.fasset.cashapp.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2024-10-07
+date: 2024-10-23
 signer: 
 reviewArchive: 
 twitter: fasset_official

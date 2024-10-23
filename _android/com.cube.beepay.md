@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.cube.beepay.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nobtc
-date: 2024-07-05
+date: 2024-10-23
 signer: 
 reviewArchive: 
 twitter: BeFiWalletverse

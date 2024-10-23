@@ -24,7 +24,7 @@ meta: ok
 verdict: unreleased
 date: 2024-10-18
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: Bitfold
 social:
 - https://www.linkedin.com/company/bitfold

@@ -11,7 +11,7 @@ released: 2021-09-27
 updated: 2024-08-13
 version: 2.13.07
 stars: 3.1
-reviews: 33
+reviews: 32
 size: '57376768'
 website: https://skyewallet.com/
 repository: 

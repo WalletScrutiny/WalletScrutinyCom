@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.box.pro.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-07-06
+date: 2024-10-23
 signer: 
 reviewArchive: 
 twitter: Bibox365

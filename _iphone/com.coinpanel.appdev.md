@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.coinpanel.appdev.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
-date: 2024-08-13
+date: 2024-10-23
 signer: 
 reviewArchive: 
 twitter: coin_panel

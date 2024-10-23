@@ -9,8 +9,8 @@ updated: 2024-07-26
 version: 1.1.1
 binaries: 
 dimensions:
-- 78.4
-- 56.5
+- 78
+- 57
 - 7.7
 weight: 57.5
 provider: Ledger

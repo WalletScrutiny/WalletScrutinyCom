@@ -3,7 +3,7 @@ title: Agrimint Hardware Wallet
 appId: agrimint
 authors:
 - danny
-released:
+released: 
 discontinued: 
 updated: 
 version: 
@@ -24,7 +24,7 @@ meta: ok
 verdict: vapor
 date: 2024-10-18
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: radoystoyanov
 social: 
 features: 

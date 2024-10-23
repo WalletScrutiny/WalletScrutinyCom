@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.funex.coin.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-11-17
+date: 2024-10-23
 signer: 
 reviewArchive: 
 twitter: Funexclub

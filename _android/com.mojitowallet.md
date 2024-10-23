@@ -4,7 +4,7 @@ title: Mojito wallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.mojitowallet
 appCountry: 
 released: 

@@ -30,7 +30,7 @@ social:
 - https://www.facebook.com/CryptoComOfficial
 - https://www.reddit.com/r/Crypto_com
 features: 
-developerName: Crypto.com Exchange
+developerName: Foris DAX Limited
 
 ---
 

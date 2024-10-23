@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.milesblue.milesblue.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-02
+date: 2024-10-23
 signer: 
 reviewArchive: 
 twitter: 

@@ -4,7 +4,7 @@ title: 'Roostoo: Mock Crypto Trading'
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.roostoo.roostoo
 appCountry: 
 released: 2019-07-15

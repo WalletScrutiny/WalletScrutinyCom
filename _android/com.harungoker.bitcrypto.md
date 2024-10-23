@@ -3,7 +3,7 @@ wsId:
 title: BitCrypto
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.harungoker.bitcrypto
 appCountry: 
 released: 2022-06-27

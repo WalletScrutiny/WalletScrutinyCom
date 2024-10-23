@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: pro.cointr.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-07-03
+date: 2024-10-23
 signer: 
 reviewArchive: 
 twitter: CoinTRpro

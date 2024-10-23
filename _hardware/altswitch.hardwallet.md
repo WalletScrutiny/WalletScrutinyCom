@@ -24,7 +24,7 @@ meta: ok
 verdict: vapor
 date: 2024-10-18
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: altswitchglobal
 social: 
 features: 

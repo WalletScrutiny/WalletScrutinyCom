@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Swapitway Sell Trade Gift Card
+title: 'Swapitway: Sell Gift Cards'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 5000
 appId: swapitway.trade
 appCountry: 
 released: 2021-11-01
-updated: 2024-08-20
-version: '3'
+updated: 2024-10-23
+version: '4'
 stars: 2.8
 ratings: 
 reviews: 47
