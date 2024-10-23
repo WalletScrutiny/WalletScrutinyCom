@@ -6,6 +6,7 @@ authors:
 - leo
 - Mohammad Rafigh
 - danny
+- keraliss
 users: 1000000
 appId: org.electrum.electrum
 appCountry: 
@@ -23,9 +24,14 @@ icon: org.electrum.electrum.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-07-11
+date: 2024-10-23
 signer: 
 reviewArchive:
+- date: 2024-07-11
+  version: 4.5.5.0
+  appHash: 5f25335ab62c13df2c20ce7d56e18db1f12eaf0fe00462bacae2a2ab0b71daf6
+  gitRevision: 64219fc498da2057c7469cffb3cde9e128fe4ac7
+  verdict: reproducible
 - date: 2024-03-25
   version: 4.5.4.0
   appHash: cb4577e845374d7d118e05984d6c04bfbc1e065c1a31d2f8b4d3879499c88a98
@@ -98,24 +104,24 @@ procedure expressed in our {% include testScript.html %}:
 ===== Begin Results =====
 appId:          org.electrum.electrum
 signer:         e543d576fa0f2a33d412bca4c7d61e2301830e956e7d947e75b9052d176027d3
-apkVersionName: 4.5.5.0
-apkVersionCode: 44050500
+apkVersionName: 4.5.7
+apkVersionCode: 45405073
 verdict:        reproducible
-appHash:        5f25335ab62c13df2c20ce7d56e18db1f12eaf0fe00462bacae2a2ab0b71daf6
-commit:         7263a49129d14db288a01b0b9d569422baddf5e1
+appHash:        042333dc6dd81238c70609bffe580c4d871fc9cac295c2e588d7537c95355e94
+commit:         8ec250e5271ab6957b28c7a4aa3bbb4f3d276981
 
 Diff:
-Only in /tmp/fromPlay_org.electrum.electrum_44050500/META-INF: CERT.RSA
-Only in /tmp/fromPlay_org.electrum.electrum_44050500/META-INF: CERT.SF
-Only in /tmp/fromPlay_org.electrum.electrum_44050500/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_org.electrum.electrum_45405073/META-INF: CERT.RSA
+Only in /tmp/fromPlay_org.electrum.electrum_45405073/META-INF: CERT.SF
+Only in /tmp/fromPlay_org.electrum.electrum_45405073/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
-object 7263a49129d14db288a01b0b9d569422baddf5e1
+object 8ec250e5271ab6957b28c7a4aa3bbb4f3d276981
 type commit
-tag 4.5.5
-tagger ThomasV <thomasv@electrum.org> 1716996193 +0200
+tag 4.5.7
+tagger SomberNight <somber.night@protonmail.com> 1729438457 +0000
 
-4.5.5
+4.5.7
 ===== End Results =====
 
 ```
