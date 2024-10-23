@@ -21,17 +21,21 @@ issue:
 icon: anishathalye.notary.png
 bugbounty: 
 meta: ok
-verdict: unreleased
-date: 2022-04-29
+verdict: diy
+date: 2024-10-18
 signer: 
-reviewArchive: 
+reviewArchive:
 twitter: anishathalye
 social: 
 features: 
 
 ---
 
-## Product Description 
+## Update 2024-10-18
+
+With no further updates regarding the notary, we took a look at Anish's blog and found that he is now working on something else after finishing his PhD. The Notary's repository is no longer actively maintained, but this can be seen as a **do-it-yourself** project.
+
+## Product Description 2022-04-29
 
 From Anish Athalye's [Notary page](https://www.anish.io/notary/):
 

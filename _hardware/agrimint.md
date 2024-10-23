@@ -3,7 +3,7 @@ title: Agrimint Hardware Wallet
 appId: agrimint
 authors:
 - danny
-released: 2022-11-23
+released:
 discontinued: 
 updated: 
 version: 
@@ -21,15 +21,19 @@ issue:
 icon: agrimint.png
 bugbounty: 
 meta: ok
-verdict: unreleased
-date: 2023-03-08
+verdict: vapor
+date: 2024-10-18
 signer: 
-reviewArchive: 
+reviewArchive:
 twitter: radoystoyanov
 social: 
 features: 
 
 ---
+
+## Updated Review 2024-10-18
+
+We [tweeted agrimint](https://x.com/dannybuntu/status/1847156414520954982) to find out when they would be releasing their device. Their repository hasn't been updated since November 23, 2022. The likelihood of this product becoming commercially available is very low so we would be marking this as **vaporware** until new developments are available.
 
 ## Product Description from [GitHub repository](https://github.com/agrimint/hardwareWallet)
 

@@ -21,8 +21,8 @@ issue:
 icon: firstbiometrics.png
 bugbounty: 
 meta: stale
-verdict: unreleased
-date: 2022-03-11
+verdict: vapor
+date: 2024-10-18
 signer: 
 reviewArchive: 
 twitter: FIRSTBiometrics
@@ -33,7 +33,11 @@ features:
 
 ---
 
-## Product Description 
+## Update 2024-10-18
+
+After three years of little to no activity, this product still seems to be a prototype. Investors could get in touch with Firstbiometrics via email, and learn more about the product. We do not think this is a consumer product that can be readily bought. With only generic wallet information about the product and no technical specifications, and with no recent updates from this product, we are marking this product as **vaporware**
+
+## Product Description 2022-03-11
 
 In the product page, {{ page.title }} claims to be a "Hardware Wallet with Biometric ID Card"
 

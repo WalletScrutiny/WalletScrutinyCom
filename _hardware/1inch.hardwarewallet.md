@@ -25,14 +25,9 @@ icon: 1inch.hardwarewallet.png
 bugbounty: 
 meta: ok
 verdict: unreleased
-date: 2023-03-01
+date: 2024-10-18
 signer: 
 reviewArchive:
-- date: 2022-04-29
-  version: 
-  appHash: 
-  gitRevision: 8762a3742
-  verdict: unreleased
 twitter: hrdwlt
 social:
 - https://medium.com/@hrdwlt
@@ -40,6 +35,18 @@ social:
 features: 
 
 ---
+
+## Updated Review 2024-10-18
+
+From this [Medium post](https://medium.com/@hrdwlt/monthly-update-s-31eb13c5fc41) dated October 4, 2024:
+
+> Hardware Updates:
+>
+> - We wrapped up the test firmware for internal evaluation before sealing the device casing. It was handed over to our electronics team, who confirmed that all connectors  were securely in place and that nothing was damaged during installation. These checks were key to making sure our devices are reliable and fully functional.
+> - September will also be remembered for our work on power optimization. We introduced dynamic frequency adjustments for the main controller, lowering its frequency during idle times to save energy and cranking it up during active tasks. This tweak cut idle power consumption down to just 10–20 milliamps, significantly boosting energy efficiency and extending battery life.
+> - Our biggest pride this month was making huge strides in developing the most compact camera to meet our performance standards, including a 15 cm focal length and support for QR code density up to 85. After six months of collaboration with our partners, we successfully created a super compact 4x4x3 mm camera that hits all our targets.
+Excitingly, we’re also teaming up with our factory to make corrections and finalize the design for mass production. Now that we’ve wrapped up the Device Validation Test (DVT) phase, we’re making a few minor tweaks to the design as we gear up for the final PVT sample, which will serve as the foundation for mass production.
+
 
 ## Updated Review 2023-03-01
 
