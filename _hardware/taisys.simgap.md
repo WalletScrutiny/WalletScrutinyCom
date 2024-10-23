@@ -21,8 +21,8 @@ issue:
 icon: taisys.simgap.png
 bugbounty: 
 meta: ok
-verdict: unreleased
-date: 2023-12-07
+verdict: vapor
+date: 2024-10-23
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,7 +31,11 @@ features:
 
 ---
 
-## Product Description
+## Update 2024-10-23
+
+Apart from the press release, there is no indication that this product ever became commercially available. As is the case with these products, you would have to email the company, get a demo, and most likely invest huge sums before this would see mass adoption. While it could be made available, right now, it is **vaporware**.
+
+## Product Description 2023-12-07
 
 This product was mentioned in a [press release](http://taisys.io/news-detail?lang=&id=39d4VQN4kyFspmAwER3_9V6sTZbvIP1IYQQkIBdjyw).
 

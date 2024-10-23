@@ -21,8 +21,8 @@ issue:
 icon: skynance.skyport.png
 bugbounty: 
 meta: ok
-verdict: unreleased
-date: 2022-04-04
+verdict: vapor
+date: 2024-10-23
 signer: 
 reviewArchive: 
 twitter: skynanceworld
@@ -31,6 +31,12 @@ social:
 features: 
 
 ---
+
+## Update 2024-10-23
+
+Their website is now no longer available online. We tried searching for this project and product, but could not find any results. This is **vaporware**.
+
+## Previous Review 2022-04-04
 
 **⚠️ Warning:** Skynance is having a private sale for its skynance token. When you click the 'Buy Now' button it redirects to a telegram group that has already expired.
 

@@ -25,7 +25,7 @@ icon: twentytwo.portal.png
 bugbounty: 
 meta: ok
 verdict: unreleased
-date: 2024-07-30
+date: 2024-10-23
 signer: 
 reviewArchive: 
 twitter: TwentyTwoHW
@@ -33,8 +33,13 @@ social:
 features: 
 
 ---
+## Updates 2024-10-23
 
-## Device Description from the Provider
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iYFHqX9jo7Y?si=gJIEQ_Wd4Fi_9ZyA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+**The device is still in pre-order**
+
+## Device Description from the Provider 2024-07-30
 
 > The first mobile-native hardware wallet: designed to keep your keys safe and seamlessly integrate into any mobile wallet app.
 >

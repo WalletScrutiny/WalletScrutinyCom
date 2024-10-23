@@ -21,8 +21,8 @@ issue:
 icon: storecold.png
 bugbounty: 
 meta: stale
-verdict: unreleased
-date: 2022-03-11
+verdict: vapor
+date: 2024-10-23
 signer: 
 reviewArchive: 
 twitter: 
@@ -31,7 +31,11 @@ features:
 
 ---
 
-## General Overview
+## Update 2024-10-23
+
+With the website gone, this project can now be classified as **vaporware**
+
+## General Overview 2022-03-11
 
 Apart from its website, there is no other information about this hardware wallet. We could not find any twitter accounts or mentions of the product. There is no news or publicity about its release. There is no company information. Clicking on "Legal Action" on its homepage redirects to its homepage. We also could not find any reviews on YouTube.
 
