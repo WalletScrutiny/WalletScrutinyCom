@@ -24,8 +24,8 @@ issue:
 icon: nativault.png
 bugbounty: 
 meta: ok
-verdict: unreleased
-date: 2022-02-18
+verdict: vapor
+date: 2024-10-21
 signer: 
 reviewArchive: 
 twitter: nati_vault
@@ -33,6 +33,12 @@ social:
 features: 
 
 ---
+
+## Update 2024-10-21
+
+The website is no longer available. No further updates about the product can be found. This product is **vaporware**.
+
+## Previous Review 2022-02-18
 
 **⚠️ Warning: Nativault is holding an ICO Token Pre-Sale in 2022.**
 

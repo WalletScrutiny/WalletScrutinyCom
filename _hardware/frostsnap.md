@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2022-09-16
 discontinued: 
-updated: 2023-12-07
-version: 
+updated: 2024-10-09
+version: 0.1.0
 binaries: 
 dimensions: 
 weight: 
@@ -22,7 +22,7 @@ icon: frostsnap.png
 bugbounty: 
 meta: ok
 verdict: unreleased
-date: 2024-01-05
+date: 2024-10-21
 signer: 
 reviewArchive: 
 twitter: FrostsnapTech
@@ -31,7 +31,15 @@ features:
 
 ---
 
-## Product Description
+## Update 2024-10-21
+
+Development is still ongoing with the [latest commit](https://github.com/frostsnap/frostsnap/commit/bf98cfda9b21a005802b36b4467eace5598155ec) made on October 9, 2024. 
+
+We [posted](https://x.com/dannybuntu/status/1848285304152789134) on X.com to ask when they would be releasing their device.
+
+We derived the version number from the project's [cargo.toml](https://github.com/frostsnap/frostsnap/blob/master/device/Cargo.toml) file.
+
+## Product Description 2024-01-05
 
 > Connect one or more Frostsnap devices to your phone and easily create a Bitcoin wallet in our app.
 >

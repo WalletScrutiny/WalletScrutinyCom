@@ -24,8 +24,8 @@ issue:
 icon: hodllabs.vault.e.png
 bugbounty: 
 meta: ok
-verdict: unreleased
-date: 2022-05-17
+verdict: vapor
+date: 2024-10-21
 signer: 
 reviewArchive: 
 twitter: hodllabs
@@ -38,6 +38,12 @@ social:
 features: 
 
 ---
+
+## Update 2024-10-21
+
+2 years have passed since we made a tweet to HodlLabs, they have not replied. Their last social media post was also made in 2022. There is no proof that this product has made any headway. We are marking this device as **vaporware**.
+
+## Previous Review 2022-05-17
 
 **Note:** {{ page.title }} has a similar name to {% include walletLink.html wallet='hardware/evault' verdict='true' %}.
 

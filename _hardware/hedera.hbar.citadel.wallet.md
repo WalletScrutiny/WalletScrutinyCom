@@ -25,7 +25,7 @@ icon: hedera.hbar.citadel.wallet.png
 bugbounty: 
 meta: ok
 verdict: unreleased
-date: 2022-12-11
+date: 2024-10-21
 signer: 
 reviewArchive: 
 twitter: citadelwallet
@@ -33,6 +33,14 @@ social:
 features: 
 
 ---
+
+**Update 2024-10-21**
+
+There are posts on x.com that seems to be creating anticipation for the device's release.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Citadel Wallet enclosure manufacturing in progress 👀<br><br>Or as we like to say it:<br><br>We are minting Hardware Wallets in real life 🔥🔥<a href="https://twitter.com/hashtag/Hedera?src=hash&amp;ref_src=twsrc%5Etfw">#Hedera</a> <a href="https://twitter.com/search?q=%24HBAR&amp;src=ctag&amp;ref_src=twsrc%5Etfw">$HBAR</a> <a href="https://twitter.com/hashtag/HardwareWallet?src=hash&amp;ref_src=twsrc%5Etfw">#HardwareWallet</a> <a href="https://t.co/S4kxK0FfZa">pic.twitter.com/S4kxK0FfZa</a></p>&mdash; Citadel Wallet (@citadelwallet) <a href="https://twitter.com/citadelwallet/status/1828835299096744336?ref_src=twsrc%5Etfw">August 28, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+However, the device is not yet available for purchase. We will continue marking this as **unreleased**
 
 **UPDATE:** As of December 11, 2023 it has made progress towards "Wallet Prototype Beta Testing" and claims Software Firmware will be completed in Q1 of 2024. Pre-ordered hardware wallets will be delivered in Q2.
 
