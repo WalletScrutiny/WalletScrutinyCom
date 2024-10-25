@@ -72,10 +72,9 @@ RUN ./gradlew packageReleaseUniversalApk
 
 # Find and copy the APK to a known location
 RUN mkdir -p /home/appuser/output && \
-    find /home/appuser/edge-react-gui -name "*release*.apk" -exec cp {} /home/appuser/output/ \; && \
+    find /home/appuser/edge-react-gui -name "*release*.apk" -exec cp {} /home/appuser/output/app-release-universal.apk \; && \
     ls -l /home/appuser/output
 
-# Set the working directory to where the APK is located
 WORKDIR /home/appuser/output
 
 # This command will keep the container running
