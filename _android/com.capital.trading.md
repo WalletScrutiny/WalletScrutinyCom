@@ -15,7 +15,7 @@ ratings: 29536
 reviews: 26
 size: 
 website: https://capital.com
-repository: https://capital.com/
+repository: 
 issue: 
 icon: com.capital.trading.png
 bugbounty: 

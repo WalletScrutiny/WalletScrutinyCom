@@ -14,7 +14,7 @@ ratings: 8291
 reviews: 3928
 size: 13M
 website: https://btc.com
-repository: http://github.com/blocktrail/blocktrail-wallet
+repository: https://github.com/blocktrail/blocktrail-wallet
 issue: 
 icon: com.blocktrail.mywallet.png
 bugbounty: 
@@ -40,7 +40,7 @@ This app claims:
 so it's a self-custodial BTC wallet. And it's also open source:
 
 > This wallet is a free and open source software. You can view the code on
-  GitHub at http://github.com/blocktrail/blocktrail-wallet.
+  GitHub at https://github.com/blocktrail/blocktrail-wallet.
 
 That's great but can we reproduce the app?
 
