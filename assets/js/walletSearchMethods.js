@@ -47,12 +47,12 @@ function searchByWords(query, wallet) {
   return result;
 }
 
-function performSearch(wallets, query = false, platform = false) {
-  const verdictOrder = ["reproducible", "diy", "nonverifiable", "ftbfs", "nosource", "custodial", "nosendreceive", "sealed-noita", "noita", "sealed-plainkey", "plainkey", "obfuscated", "prefilled", "fake", "wip", "fewusers", "unreleased", "vapor", "nobtc", "nowallet"];
-  const platformOrder = ['desktop', 'android', 'iphone', 'hardware', 'bearer', 'others'];
+function performSearch (wallets, query = false, platform = false) {
+  const verdictOrder = ['reproducible', 'diy', 'nonverifiable', 'ftbfs', 'nosource', 'custodial', 'nosendreceive', 'sealed-noita', 'noita', 'sealed-plainkey', 'plainkey', 'obfuscated', 'prefilled', 'fake', 'wip', 'fewusers', 'unreleased', 'vapor', 'nobtc', 'nowallet'];
+  const platformOrder = ['hardware', 'desktop', 'android', 'iphone', 'bearer', 'others'];
   const metaOrder = ['ok', 'discontinued', 'deprecated', 'outdated', 'stale', 'obsolete', 'removed', 'defunct'];
 
-  let workingArray = [];
+  const workingArray = [];
   let walletsTemp = false;
   if (platform && platformOrder.includes(platform)) {
     walletsTemp = wallets.filter(function (w) {
@@ -61,12 +61,13 @@ function performSearch(wallets, query = false, platform = false) {
   } else {
     walletsTemp = wallets;
   }
-  
+
   for (const wallet of walletsTemp) {
     if (query && query.length > 0) {
       const result = searchByWords(query, wallet);
-      if (result)
+      if (result) {
         workingArray.push(result);
+      }
     } else {
       workingArray.push(wallet);
     }
@@ -76,44 +77,52 @@ function performSearch(wallets, query = false, platform = false) {
   if (query && query.length > 0) {
     temp = workingArray.filter((w) => w.matchRank === 0);
     temp = temp.length < 1 ? workingArray : temp;
-  }
-  else {
+  } else {
     temp = workingArray;
   }
 
   temp.sort((a, b) => {
-    if (a.verdict != b.verdict && a.verdict && b.verdict)
+    if (a.verdict !== b.verdict && a.verdict && b.verdict) {
       return verdictOrder.indexOf(a.verdict) - verdictOrder.indexOf(b.verdict);
-    if (a.folder != b.folder)
-      return platformOrder.indexOf(a.folder) - platformOrder.indexOf(b.folder);
-    if (a.meta != b.meta)
+    }
+    if (a.meta !== b.meta && a.meta && b.meta) {
       return metaOrder.indexOf(a.meta) - metaOrder.indexOf(b.meta);
-    if (a.users != b.users)
+    }
+    if (a.folder !== b.folder) {
+      return platformOrder.indexOf(a.folder) - platformOrder.indexOf(b.folder);
+    }
+    if (a.users !== b.users) {
       return b.users - a.users;
-    if (a.ratings != b.ratings)
+    }
+    if (a.ratings !== b.ratings) {
       return b.ratings - a.ratings;
-    if (a.reviews != b.reviews)
+    }
+    if (a.reviews !== b.reviews) {
       return b.reviews - a.reviews;
-    if (a.opinion != b.opinion) {
+    }
+    if (a.opinion !== b.opinion) {
       // products that have opinions at all are ranked above those without any
       // opinions on purpose. Once opinions pick up, we might change that to
       // treat zero opinions as score 0.
-      if (!b.opinion)
+      if (!b.opinion) {
         return -1;
-      if (!a.opinion)
+      }
+      if (!a.opinion) {
         return 1;
+      }
       const aScore =
           (a.opinion.positive || 0) * 10 +
           (a.opinion.negative || 0) * -10 +
-          (a.opinion.neutral || 0); 
+          (a.opinion.neutral || 0);
       const bScore =
           (b.opinion.positive || 0) * 10 +
           (b.opinion.negative || 0) * -10 +
-          (b.opinion.neutral || 0); 
+          (b.opinion.neutral || 0);
       return bScore - aScore;
     }
-    if (a.matchRank != b.matchRank)
+    if (a.matchRank !== b.matchRank) {
       return a.matchRank - b.matchRank;
+    }
     return a.appId.localeCompare(b.appId);
   });
   return temp;
