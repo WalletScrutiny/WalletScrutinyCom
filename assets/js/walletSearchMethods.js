@@ -91,6 +91,17 @@ function performSearch (wallets, query = false, platform = false) {
     if (a.folder !== b.folder) {
       return platformOrder.indexOf(a.folder) - platformOrder.indexOf(b.folder);
     }
+    if (a.opinion !== b.opinion) {
+      const aScore = a.opinion ? (a.opinion.positive || 0) * 10 +
+          (a.opinion.negative || 0) * -10 +
+          (a.opinion.neutral || 0) : 0;
+      const bScore = b.opinion ? (b.opinion.positive || 0) * 10 +
+          (b.opinion.negative || 0) * -10 +
+          (b.opinion.neutral || 0) : 0;
+      if (aScore !== bScore) {
+        return bScore - aScore;
+      }
+    }
     if (a.users !== b.users) {
       return b.users - a.users;
     }
@@ -99,26 +110,6 @@ function performSearch (wallets, query = false, platform = false) {
     }
     if (a.reviews !== b.reviews) {
       return b.reviews - a.reviews;
-    }
-    if (a.opinion !== b.opinion) {
-      // products that have opinions at all are ranked above those without any
-      // opinions on purpose. Once opinions pick up, we might change that to
-      // treat zero opinions as score 0.
-      if (!b.opinion) {
-        return -1;
-      }
-      if (!a.opinion) {
-        return 1;
-      }
-      const aScore =
-          (a.opinion.positive || 0) * 10 +
-          (a.opinion.negative || 0) * -10 +
-          (a.opinion.neutral || 0);
-      const bScore =
-          (b.opinion.positive || 0) * 10 +
-          (b.opinion.negative || 0) * -10 +
-          (b.opinion.neutral || 0);
-      return bScore - aScore;
     }
     if (a.matchRank !== b.matchRank) {
       return a.matchRank - b.matchRank;
