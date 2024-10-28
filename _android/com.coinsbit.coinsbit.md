@@ -12,7 +12,7 @@ updated: 2024-06-04
 version: 1.0.2
 stars: 2.5
 ratings: 1855
-reviews: 47
+reviews: 48
 size: 
 website: https://coinsbit.io/
 repository: 

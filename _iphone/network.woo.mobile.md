@@ -8,12 +8,12 @@ appId: network.woo.mobile
 appCountry: ph
 idd: '1576648404'
 released: 2021-09-17
-updated: 2024-10-15
-version: 3.38.1
+updated: 2024-10-28
+version: 3.39.0
 stars: 5
 reviews: 3
-size: '122884096'
-website: https://woo.org/
+size: '124674048'
+website: https://woox.io/
 repository: 
 issue: 
 icon: network.woo.mobile.jpg

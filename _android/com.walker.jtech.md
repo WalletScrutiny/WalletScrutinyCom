@@ -8,8 +8,8 @@ users: 10000
 appId: com.walker.jtech
 appCountry: 
 released: 2021-09-26
-updated: 2024-07-24
-version: 2.2.0
+updated: 2024-10-23
+version: 2.2.2
 stars: 3.2
 ratings: 
 reviews: 19

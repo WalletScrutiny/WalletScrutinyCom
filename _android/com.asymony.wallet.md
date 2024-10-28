@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.asymony.wallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
-date: 2024-08-23
+date: 2024-10-28
 signer: 
 reviewArchive: 
 twitter: 

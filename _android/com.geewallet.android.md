@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: 
+website: http://github.com/knocte/geewallet
 repository: https://github.com/knocte/geewallet
 issue: 
 icon: com.geewallet.android.png

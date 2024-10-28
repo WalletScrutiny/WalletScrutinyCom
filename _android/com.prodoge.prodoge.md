@@ -1,6 +1,6 @@
 ---
 wsId: alxCryptoWallet
-title: ALX Crypto Wallet
+title: ALX Wallet
 altTitle: 
 authors:
 - danny

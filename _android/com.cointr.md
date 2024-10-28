@@ -8,8 +8,8 @@ users: 10000
 appId: com.cointr
 appCountry: 
 released: 2022-08-17
-updated: 2024-10-18
-version: 3.1.11
+updated: 2024-10-25
+version: 3.1.12
 stars: 3.4
 ratings: 
 reviews: 7

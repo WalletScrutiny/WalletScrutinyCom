@@ -8,11 +8,11 @@ users: 100000
 appId: com.mathwallet.android
 appCountry: 
 released: 2021-10-26
-updated: 2024-09-25
-version: 5.5.6
+updated: 2024-10-24
+version: 5.5.8
 stars: 3.7
 ratings: 
-reviews: 56
+reviews: 57
 size: 
 website: https://www.mathwallet.org/
 repository: 

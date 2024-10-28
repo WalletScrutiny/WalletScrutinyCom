@@ -4,7 +4,7 @@ title: Jeroid
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.spantom.jeroid
 appCountry: us
 released: 2020-07-05

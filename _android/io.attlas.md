@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Attlas: Buy Bitcoin Securely'
+title: ATX - Buy Bitcoin Securely
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 100000
 appId: io.attlas
 appCountry: 
 released: 2021-05-16
-updated: 2024-09-26
-version: 2.99.1
+updated: 2024-10-26
+version: 3.5.4
 stars: 3.9
 ratings: 
 reviews: 5

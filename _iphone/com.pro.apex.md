@@ -10,8 +10,8 @@ idd: '1645456064'
 released: 2022-09-27
 updated: 2024-10-17
 version: 2.12.2
-stars: 4.1
-reviews: 54
+stars: 4
+reviews: 55
 size: '97880064'
 website: 
 repository: 

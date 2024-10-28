@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.airpay.appwallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
-date: 2024-04-05
+date: 2024-10-28
 signer: 
 reviewArchive: 
 twitter: airpayfinance

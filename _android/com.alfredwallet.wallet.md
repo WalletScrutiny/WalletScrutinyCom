@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.alfredwallet.wallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
-date: 2024-08-19
+date: 2024-10-28
 signer: 
 reviewArchive: 
 twitter: 

@@ -8,11 +8,11 @@ users: 500000
 appId: com.coinspot.app
 appCountry: au
 released: 2020-10-07
-updated: 2024-09-09
-version: 3.1.5
+updated: 2024-10-23
+version: 3.2.4
 stars: 4.7
 ratings: 3068
-reviews: 1790
+reviews: 1791
 size: 
 website: https://www.coinspot.com.au
 repository: 

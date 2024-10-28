@@ -4,7 +4,7 @@ title: CryptoDaaga
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.oxnov.cryptodaaga
 appCountry: 
 released: 2022-04-29

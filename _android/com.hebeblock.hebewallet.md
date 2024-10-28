@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.hebeblock.hebewallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
-date: 2024-06-17
+date: 2024-10-28
 signer: 
 reviewArchive: 
 twitter: BlockHebe

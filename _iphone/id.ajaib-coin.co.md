@@ -8,11 +8,11 @@ appId: id.ajaib-coin.co
 appCountry: id
 idd: '1634168301'
 released: 2022-08-16
-updated: 2024-10-11
-version: 2.58.0
+updated: 2024-10-24
+version: 2.59.0
 stars: 4.2
-reviews: 1483
-size: '208959488'
+reviews: 1485
+size: '210036736'
 website: https://kripto.ajaib.co.id/
 repository: 
 issue: 

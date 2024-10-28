@@ -1,24 +1,3 @@
-2024-10-10:
-- _android/com.airpay.appwallet
-- _android/com.alfredwallet.wallet
-- _android/com.asymony.wallet
-- _android/com.emet.faswet
-- _android/com.hebeblock.hebewallet
-- _android/com.velesapp
-2024-10-12:
-- _android/app.yeonwallet
-- _android/com.boulpik.token
-- _android/com.cloud.dli.app
-- _android/io.sparkbase.app
-- _iphone/com.bit2me.flutter-ios
-2024-10-13:
-- _iphone/com.buyucoin
-- _iphone/com.koinstrap.koinstrap
-- _iphone/com.noones.marketplace
-- _iphone/com.oduwatrustwallet.ios
-- _iphone/com.pandats.axia
-- _iphone/com.saitapro
-- _iphone/net.bitgin
 2024-10-16:
 - _android/app.doshfx.liteapp
 - _android/com.blockproex
@@ -70,3 +49,30 @@
 - _android/net.softwareinfo
 - _android/rmt.mobile
 - _iphone/network.wx.app
+2024-10-28:
+- _android/com.avivawallets
+- _android/com.ctin.inidev.android
+- _android/com.symverse.wallet
+- _android/com.talewallet
+- _android/semaphore.stocktrade.tradeweb
+- _android/trade.bot.app
+- _android/app.bitafrika.com
+- _android/app.metavest.mobile
+- _android/co.tradehall.app.tradehall
+- _android/com.aem.aemplus
+- _android/com.bitkoex
+- _android/com.coincat.coincat
+- _android/com.dxs.app
+- _android/com.exswallet
+- _android/com.getcoins.gcwallet2
+- _android/com.keyperwallet
+- _android/com.konai.cryptokona
+- _android/com.stiwallet
+- _android/com.ubrain.cryptowallet
+- _android/com.wRolariteX_12668517
+- _android/com.zedpay.app.android
+- _android/iforexcrypto.clients.android
+- _android/ru.mosapp.mobile.android5c9f540a7a6d7
+- _iphone/com.lcx.app
+- _iphone/com.sfc.fgwallet
+- _iphone/primexbtcom

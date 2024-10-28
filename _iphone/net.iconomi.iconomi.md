@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: net.iconomi.iconomi.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-10-26
+date: 2024-10-28
 signer: 
 reviewArchive: 
 twitter: iconomicom

@@ -11,16 +11,16 @@ released: 2020-04-08
 updated: 2023-11-02
 version: 5.3.0
 stars: 2.1
-reviews: 45
+reviews: 46
 size: '219313152'
 website: https://www.bibox.pro
 repository: 
 issue: 
 icon: com.biboxpro.release.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-07-06
+date: 2024-10-28
 signer: 
 reviewArchive: 
 twitter: Bibox365

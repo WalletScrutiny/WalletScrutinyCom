@@ -27,7 +27,7 @@ reviewArchive:
 twitter: keepser
 social: 
 redirect_from: 
-developerName: KEEPSER
+developerName: Freemindtronic SL
 features: 
 
 ---

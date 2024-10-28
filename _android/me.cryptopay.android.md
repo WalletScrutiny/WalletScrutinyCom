@@ -1,6 +1,6 @@
 ---
 wsId: cryptopay
-title: Cryptopay:Bitcoin wallet&card
+title: 'Cryptopay: Spend Crypto Daily'
 altTitle: 
 authors: 
 users: 100000

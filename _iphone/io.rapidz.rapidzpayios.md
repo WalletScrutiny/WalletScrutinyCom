@@ -1,6 +1,6 @@
 ---
 wsId: rapidzPay
-title: Rapidz Pay
+title: 'Rapidz: Crypto Wallet & Hub'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: io.rapidz.rapidzpayios
 appCountry: us
 idd: '1558420115'
 released: 2021-06-29
-updated: 2024-10-18
-version: 2.14.1
+updated: 2024-10-24
+version: 2.14.2
 stars: 3
 reviews: 2
-size: '63882240'
+size: '63378432'
 website: https://www.rapidz.io/
 repository: 
 issue: 

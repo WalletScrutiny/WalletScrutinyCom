@@ -12,7 +12,7 @@ updated: 2024-10-18
 version: 3.46.1
 stars: 3.9
 ratings: 
-reviews: 7379
+reviews: 7384
 size: 
 website: http://www.kinvo.com.br
 repository: 

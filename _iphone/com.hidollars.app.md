@@ -8,11 +8,11 @@ appId: com.hidollars.app
 appCountry: jp
 idd: '1583215766'
 released: 2021-10-06
-updated: 2024-09-26
-version: 2.18.3
+updated: 2024-10-28
+version: 2.19.0
 stars: 3.8
 reviews: 280
-size: '255840256'
+size: '253579264'
 website: https://hi.com/
 repository: 
 issue: 

@@ -12,7 +12,7 @@ updated: 2024-09-19
 version: 2.14.46
 stars: 4.6
 ratings: 231
-reviews: 39
+reviews: 40
 size: 
 website: https://saltlending.com
 repository: 

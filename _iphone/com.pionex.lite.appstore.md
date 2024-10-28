@@ -8,11 +8,11 @@ appId: com.pionex.lite.appstore
 appCountry: us
 idd: 1567213944
 released: 2021-05-22
-updated: 2024-10-19
-version: 1.7.18
+updated: 2024-10-27
+version: 1.7.20
 stars: 4.6
-reviews: 731
-size: '120190976'
+reviews: 733
+size: '120381440'
 website: 
 repository: 
 issue: 

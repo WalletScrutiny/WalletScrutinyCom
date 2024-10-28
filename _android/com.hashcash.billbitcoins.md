@@ -3,7 +3,7 @@ wsId:
 title: Billbitcoins- Pay With Crypto
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.hashcash.billbitcoins
 appCountry: 
 released: 2021-03-17
@@ -19,7 +19,7 @@ issue:
 icon: com.hashcash.billbitcoins.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2022-12-17
 signer: 
 reviewArchive: 

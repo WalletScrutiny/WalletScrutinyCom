@@ -4,7 +4,7 @@ title: Coinstore:Trade Crypto&Futures
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.io.coinstore
 appCountry: 
 released: 2021-03-29

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: app.yeonwallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2024-04-25
+date: 2024-10-28
 signer: 
 reviewArchive: 
 twitter: 

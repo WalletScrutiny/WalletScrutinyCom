@@ -3,7 +3,7 @@ wsId:
 title: Ctrl Wallet
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: xyz.ctrl.wallet
 appCountry: 
 released: 

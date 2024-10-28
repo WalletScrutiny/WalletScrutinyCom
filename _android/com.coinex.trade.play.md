@@ -1,6 +1,6 @@
 ---
 wsId: CoinEx
-title: 'CoinEx: Buy Bitcoin & Crypto'
+title: 'CoinEx: Buy Memecoin & Crypto'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.coinex.trade.play
 appCountry: 
 released: 2019-12-27
-updated: 2024-10-10
-version: 3.35.0
+updated: 2024-10-28
+version: 3.36.1
 stars: 4.4
 ratings: 60269
-reviews: 1400
+reviews: 1399
 size: 
 website: https://www.coinex.com/
 repository: 

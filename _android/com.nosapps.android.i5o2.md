@@ -7,8 +7,8 @@ users: 50
 appId: com.nosapps.android.i5o2
 appCountry: 
 released: 2022-06-03
-updated: 2024-10-16
-version: 1.2.161
+updated: 2024-10-24
+version: 1.2.169
 stars: 
 ratings: 
 reviews: 

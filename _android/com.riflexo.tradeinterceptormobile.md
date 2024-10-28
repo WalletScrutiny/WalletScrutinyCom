@@ -4,12 +4,12 @@ title: ThinkTrader
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.riflexo.tradeinterceptormobile
 appCountry: us
 released: 2010-08-02
-updated: 2024-10-12
-version: 6.17.4.1
+updated: 2024-10-25
+version: 6.17.4.3
 stars: 3.9
 ratings: 5176
 reviews: 342

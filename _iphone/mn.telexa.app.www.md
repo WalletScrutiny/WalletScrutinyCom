@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: mn.telexa.app.www.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2024-10-07
+date: 2024-10-28
 signer: 
 reviewArchive: 
 twitter: 

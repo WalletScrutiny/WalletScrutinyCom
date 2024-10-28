@@ -8,8 +8,8 @@ users: 10000
 appId: com.wallet.logos
 appCountry: 
 released: 2020-09-16
-updated: 2023-07-03
-version: 0.4.0
+updated: 2024-10-21
+version: 0.4.1
 stars: 
 ratings: 
 reviews: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.wallet.logos.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2024-06-29
+date: 2024-10-24
 signer: 
 reviewArchive: 
 twitter: 
