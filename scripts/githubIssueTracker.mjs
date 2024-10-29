@@ -1,13 +1,35 @@
 /**
- * This script lists all open issues of products that are "meta: ok" and had no
- * update in more than three months. Issues are sorted oldest to newest.
- * This script can be started with
- * $ node scripts/githubIssueTracker.mjs -n $GITHUB_API_KEY
- **/
-
+ *   Script that lists all open issues of products that are "meta: ok" and had no update in more than a configurable number of months. Issues are sorted oldest to newest.
+ *   You need to provide a Github Access Token to use this utility. Get one here: https://github.com/settings/tokens
+ * 
+ *   Execute without parameters to see usage.
+ */
 import fs from 'fs';
-import axios from 'axios';
+import { GitHub } from 'github-graphql-api';
 import path from 'path';
+import minimist from 'minimist';
+
+const args = minimist(process.argv.slice(2));
+
+const githubAccessToken = process.env.githubtoken || args.githubtoken;
+const months = args.months || 3;
+const debug = args.debug || false;
+
+if (debug) {
+  console.debug('\n------------------ DEBUG --------------------');
+  console.debug(' githubAccessToken:', githubAccessToken);
+  console.debug(' months:', months);
+  console.debug('---------------------------------------------\n');
+}
+
+if (!githubAccessToken) {
+  print_usage();
+  process.exit(1);
+}
+
+const outputFormat = args.format || 'human';
+
+const github = new GitHub({ token: githubAccessToken });
 
 const GREEN = '\x1b[32m';
 const RESET = '\x1b[0m';
@@ -17,13 +39,32 @@ const YELLOW = '\x1b[33m';
 // Define the folder paths to search for .md files
 const folderPaths = ['./_android', './_iphone', './_bearer', './_hardware', './_desktop'];
 
+let issues = {}; // Issues grouped by folder
+folderPaths.forEach(folder => {
+  issues[folder] = [];
+});
+
+// List to store extracted project names, issue numbers, and file names, and verdicts
+const issueInfo = [];
+
 // Regular expression pattern to match issue URLs and verdicts
 const issuePattern = /issue:\s+(https:\/\/github\.com\/[^/]+\/[^/]+\/issues\/(\d+))/g;
 const verdictPattern = /verdict:\s+(.+)/;
 const metaOkPattern = /meta: ok/;
 
-// List to store extracted project names, issue numbers, and file names, and verdicts
-const issueInfo = [];
+function print_usage() {
+  console.log("Usage:\n");
+  console.log("   githubtoken=\"github_pat_abcdefg\" node scripts/githubIssueTracker.mjs \n");
+  console.log("      -or- \n");
+  console.log("   node scripts/githubIssueTracker.mjs -githubtoken github_pat_abcdefg \n");
+  console.log("Optional parameters:\n");
+  console.log("   --months x - to set the number of months since the issue had an update (default is 3) \n");
+  console.log("   --new - to also show newer issues (default is don't show newer issues) \n");
+  console.log("   --format (human|table|csv) - to change the format of the output (default is human) \n");
+  console.log("   --debug - to see params and other debug info (default is debug disabled) \n");
+  console.log("Example:\n");
+  console.log("   node scripts/githubIssueTracker.mjs --new --format csv \n");
+}
 
 // Function to search for .md files and extract issue information
 function extractIssueInfo(filePath) {
@@ -37,86 +78,89 @@ function extractIssueInfo(filePath) {
   for (const match of matches) {
     const [issueUrl, issueNumber] = match;
     const [, projectOwner, projectName] = issueUrl.match(/github\.com\/([^/]+)\/([^/]+)\/issues/); // Extract project name
-    issueInfo.push({ 
-      projectOwner, 
-      projectName, 
-      issueUrl: issueUrl.replace('issue: ', ''), 
-      issueNumber: issueNumber.split('/').pop(), 
+    issueInfo.push({
+      projectOwner,
+      projectName,
+      issueUrl: issueUrl.replace('issue: ', ''),
+      issueNumber: issueNumber.split('/').pop(),
       fileName: path.resolve(filePath),
       folder: path.basename(path.dirname(filePath)), // Store folder name
-      verdict 
+      verdict
     });
   }
 }
 
-async function checkGitHubIssue(projectOwner, projectName, issueNumber, githubAccessToken) {
-  const url = `https://api.github.com/repos/${projectOwner}/${projectName}/issues/${issueNumber}`;
-  const headers = {
-    Authorization: `token ${githubAccessToken}`,
-    'User-Agent': 'GitHub-Issue-Tracker-Script'
-  };
+async function checkGitHubIssue(projectOwner, projectName, issueNumber) {
+  if (debug) {
+    console.debug('projectOwner', projectOwner);
+    console.debug('projectName', projectName);
+    console.debug('issueNumber', issueNumber);
+  }
 
   try {
-    const response = await axios.get(url, { headers });
-    const issueData = response.data;
-    const issueState = issueData.state || 'unknown';
-    const lastUpdateDate = issueData.updated_at.split('T')[0]; // Extract and format last update date
-    const lastPosterUsername = issueData.user.login; // Get the username of the issue poster
+    let result = await github.query(`
+        query {
+          repository (owner: "${projectOwner}", name: "${projectName}") {
+            name
+            issue (number: ${issueNumber}) {
+                number
+      					state
+      					updatedAt
+                author {
+                  login
+                }
+                comments (orderBy: {field: UPDATED_AT, direction: DESC}, first: 1) {
+                  nodes {
+                    author {
+                      login
+                    }
+                  }
+              }
+            }
+          }
+        }
+    `);
 
-    // Get latest comment (if any)
-    let latestCommentUser = lastPosterUsername; // Default to the issue poster
-    if (issueData.comments > 0) {
-      const commentsResponse = await axios.get(issueData.comments_url, { headers });
-      const comments = commentsResponse.data;
-      latestCommentUser = comments[comments.length - 1].user.login; // Get the last comment's username
+    const issue = result?.repository?.issue;
+    const comment = issue?.comments?.nodes[0];
+
+    if (debug) {
+      console.log('     * Processing issue: ', issue);
+      console.log('     * Processing comment: ', comment);
     }
 
-    return { state: issueState, lastUpdateDate, lastPosterUsername: latestCommentUser };
+    if (!issue) {
+      console.error(`There was a problem trying to get the issue information for issue https://github.com/${projectOwner}/${projectName}/issues/${issueNumber}.`);
+      process.exit(1);
+    }
+
+    const issueState = issue.state || 'unknown';
+    const lastUpdateDate = issue.updatedAt.split('T')[0]; // Extract and format last update date
+    const latestCommentUser = comment ? comment.author.login : issue.author.login;
+
+    return { state: issueState.toLowerCase(), lastUpdateDate, lastPosterUsername: latestCommentUser };
+
   } catch (error) {
-    let errorMessage = `Error checking ${url}: `;
-    if (error.response) {
-      // The request was made and the server responded with a status code
-      // that falls out of the range of 2xx
-      if (error.response.status === 401) {
-        errorMessage += "Authentication failed. Please check your GitHub Personal Access Token.";
-      } else if (error.response.status === 403) {
-        errorMessage += "API rate limit exceeded or insufficient permissions.";
-      } else if (error.response.status === 404) {
-        errorMessage += "Issue not found. It may have been deleted or made private.";
-      } else {
-        errorMessage += `Server responded with status code ${error.response.status}.`;
-      }
-    } else if (error.request) {
-      // The request was made but no response was received
-      errorMessage += "No response received from GitHub. Please check your internet connection.";
+    let errorMessage = `\nError checking issue https://github.com/${projectOwner}/${projectName}/issues/${issueNumber} \n\n`;
+
+    if (error === 'Unauthorized') {
+      errorMessage += "Authentication failed. Please check your GitHub Personal Access Token.";
+      console.error(errorMessage);
+
+      print_usage();
+      process.exit(1);
     } else {
-      // Something happened in setting up the request that triggered an Error
-      errorMessage += `An error occurred: ${error.message}`;
+      errorMessage += `An error occurred: ${error}`;
     }
+
     console.error(errorMessage);
+
     return { state: 'error', lastUpdateDate: 'unknown', lastPosterUsername: 'unknown' };
   }
 }
 
-// Prepare the output
-let recentOutput = {};  // Issues within the last 3 months, grouped by folder
-let earlierOutput = {}; // Issues older than 3 months, grouped by folder
-
-// Initialize folder groups
-folderPaths.forEach(folder => {
-  recentOutput[folder] = [];
-  earlierOutput[folder] = [];
-});
-
 // Check the status of each GitHub issue and append to the output text
 (async () => {
-  const showNewResults = process.argv[2] === '-n';
-  const githubAccessToken = process.argv[3] || process.argv[2];
-  if (!githubAccessToken || (!showNewResults && process.argv.length < 3)) {
-    console.error('Provide your GitHub Personal Access Token (https://github.com/settings/tokens) as parameter!');
-    process.exit(1);
-  }
-
   // Loop through each folder path and search for .md files
   folderPaths.forEach((folderPath) => {
     fs.readdirSync(folderPath).forEach((file) => {
@@ -125,54 +169,84 @@ folderPaths.forEach(folder => {
       }
     });
   });
-  
-  const threeMonthsAgo = new Date();
-  threeMonthsAgo.setMonth(threeMonthsAgo.getMonth() - 3);
+
+  const xMonthsAgo = new Date();
+  xMonthsAgo.setMonth(xMonthsAgo.getMonth() - months);
+
   for (const { projectOwner, projectName, issueUrl, issueNumber, fileName, folder, verdict } of issueInfo) {
-    const { state, lastUpdateDate, lastPosterUsername } = await checkGitHubIssue(projectOwner, projectName, issueNumber, githubAccessToken);
-    const issueData = {
+    const { state, lastUpdateDate, lastPosterUsername } = await checkGitHubIssue(projectOwner, projectName, issueNumber);
+
+    issues[`./${folder}`].push({
       update: new Date(lastUpdateDate),
       filename: fileName,
       issue: issueUrl,
       state: state,
       verdict: verdict,
       folder: folder,
-      lastPosterUsername: lastPosterUsername
-    };
-    
-    if (new Date(lastUpdateDate) < threeMonthsAgo) {
-      earlierOutput[`./${folder}`].push(issueData); // Issues older than 3 months
-    } else {
-      recentOutput[`./${folder}`].push(issueData); // Issues updated within the last 3 months
-    }
-  }
-
-  // Sort and display the earlier results (older than 3 months), grouped by folder
-  console.log(`\nOlder issues (more than 3 months old):`);
-  folderPaths.forEach(folder => {
-    if (earlierOutput[folder].length > 0) {
-      console.log(`\n${GREEN}${folder}${RESET}`);
-      earlierOutput[folder].sort((a, b) => b.update - a.update); // Sort by update date (newest to oldest)
-      earlierOutput[folder].forEach((o) => {
-        const daysSince = Math.floor((new Date() - o.update) / 1000 / 60 / 60 / 24);
-        const shortenedFileName = path.basename(o.filename);
-        console.log(`  - ${daysSince} days ago: | ${GREEN}${shortenedFileName}${RESET} | ${o.issue} | ${CYAN}Last Verdict: ${o.verdict}${RESET} | ${o.state} | ${YELLOW}Last post: ${o.lastPosterUsername}${RESET}`);
-      });
-    }
-  });
-
-  if (showNewResults) {
-    console.log("\n--Results from 90 days and earlier-------------------------------------------------------------------------------------");
-    folderPaths.forEach(folder => {
-      if (recentOutput[folder].length > 0) {
-        console.log(`\n${GREEN}${folder}${RESET}`);
-        recentOutput[folder].sort((a, b) => b.update - a.update); // Sort by update date (newest to oldest)
-        recentOutput[folder].forEach((o) => {
-          const daysSince = Math.floor((new Date() - o.update) / 1000 / 60 / 60 / 24);
-          const shortenedFileName = path.basename(o.filename);
-          console.log(`  - ${daysSince} days ago: | ${GREEN}${shortenedFileName}${RESET} | ${o.issue} | ${CYAN}Last Verdict: ${o.verdict}${RESET} | ${o.state} | ${YELLOW}Last post: ${o.lastPosterUsername}${RESET}`);
-        });
-      }
+      lastPosterUsername: lastPosterUsername,
+      older: new Date(lastUpdateDate) < xMonthsAgo ? true : false
     });
   }
+
+  // [true, false] here are used to iterate twice the issues, once for older and once for newer
+  // [true] would show only older issues
+  const issuesToShowOlder = args.new ? [true, false] : [true];
+
+  switch (outputFormat) {
+    case 'human':
+      issuesToShowOlder.forEach(older => {
+        if (older) {
+          console.log(`\nOlder issues (more than ${months} months old):`);
+        } else {
+          console.log(`\nNewer issues (less than ${months} months old):`);
+        }
+
+        folderPaths.forEach(folder => {
+          console.log(`\n${GREEN}${folder}${RESET}`);
+          issues[folder].sort((a, b) => b.update - a.update); // Sort by update date (newest to oldest)
+          issues[folder].forEach((o) => {
+            if (o.older === older) {
+              const daysSince = Math.floor((new Date() - o.update) / 1000 / 60 / 60 / 24);
+              const shortenedFileName = path.basename(o.filename);
+              console.log(`  - ${daysSince} days ago | ${GREEN}${shortenedFileName}${RESET} | ${o.issue} | ${CYAN}Last Verdict: ${o.verdict}${RESET} | ${o.state} | ${YELLOW}Last post: ${o.lastPosterUsername}${RESET}`);
+            }
+          });
+        });
+      });
+      break;
+
+    case 'table':
+      console.log(`Folder  |  Days      | File    | Issue URL                            | Last Verdict | Status | Last post author`);
+      console.log('-----------|------------|--------------------------------|----------------------');
+
+      issuesToShowOlder.forEach(older => {
+        folderPaths.forEach(folder => {
+          issues[folder].sort((a, b) => b.update - a.update); // Sort by update date (newest to oldest)
+          issues[folder].forEach((o) => {
+            if (o.older === older) {
+              const daysSince = Math.floor((new Date() - o.update) / 1000 / 60 / 60 / 24);
+              const shortenedFileName = path.basename(o.filename);
+              console.log(`${folder} | ${daysSince} | ${shortenedFileName} | ${o.issue} | ${o.verdict} | ${o.state} | ${o.lastPosterUsername}`);
+            }
+          });
+        });
+      });
+      break;
+
+    case 'csv':
+      issuesToShowOlder.forEach(older => {
+        folderPaths.forEach(folder => {
+          issues[folder].sort((a, b) => b.update - a.update); // Sort by update date (newest to oldest)
+          issues[folder].forEach((o) => {
+            if (o.older === older) {
+              const daysSince = Math.floor((new Date() - o.update) / 1000 / 60 / 60 / 24);
+              const shortenedFileName = path.basename(o.filename);
+              console.log(`${folder}, ${daysSince}, ${shortenedFileName}, ${o.issue}, ${o.verdict}, ${o.state}, ${o.lastPosterUsername}`);
+            }
+          });
+        });
+      });
+      break;
+  }
+
 })();
