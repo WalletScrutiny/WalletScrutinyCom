@@ -63,7 +63,7 @@ function print_usage() {
   console.log("   --format (human|table|csv) - to change the format of the output (default is human) \n");
   console.log("   --debug - to see params and other debug info (default is debug disabled) \n");
   console.log("Example:\n");
-  console.log("   node scripts/githubIssueTracker.mjs --new --format csv \n");
+  console.log("   node scripts/githubIssueTracker.mjs -githubtoken github_pat_abcdefg --new --format csv \n");
 }
 
 // Function to search for .md files and extract issue information
