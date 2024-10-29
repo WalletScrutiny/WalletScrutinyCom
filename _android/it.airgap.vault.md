@@ -23,9 +23,14 @@ icon: it.airgap.vault.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-09-30
+date: 2024-10-29
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
 reviewArchive:
+- date: 2024-09-30
+  version: 3.32.4
+  appHash: 47d3c17c6119db2915b6a701c0d8edd55de05e3a012b525770e4e87c4e12d8e3
+  gitRevision: d2eb92162454397ff2ac7370d87616eba57f3525
+  verdict: reproducible
 - date: 2024-08-29
   version: 3.32.3
   appHash: 11c8dbf7056df1d700d947891cda94929c4ce4ea16c418c8dc0cac453577d0f3
@@ -230,16 +235,16 @@ We ran our {% include testScript.html %} which delivered these results:
 ===== Begin Results =====
 appId:          it.airgap.vault
 signer:         486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
-apkVersionName: 3.32.4
-apkVersionCode: 63677
+apkVersionName: 3.32.5
+apkVersionCode: 64368
 verdict:        reproducible
-appHash:        47d3c17c6119db2915b6a701c0d8edd55de05e3a012b525770e4e87c4e12d8e3
-commit:         a5eba41f748ce9fc409f555c9b3a247ac6fe2342
+appHash:        075edcd1b99999d3229c38114d17a488e2d8e6d03d072654d99dc69171b711cc
+commit:         091fff8707ea5cac8670c143daade542c899bf6f
 
 Diff:
-Only in /tmp/fromPlay_it.airgap.vault_63677/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_it.airgap.vault_63677/META-INF: PAPERS.RSA
-Only in /tmp/fromPlay_it.airgap.vault_63677/META-INF: PAPERS.SF
+Only in /tmp/fromPlay_it.airgap.vault_64368/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_it.airgap.vault_64368/META-INF: PAPERS.RSA
+Only in /tmp/fromPlay_it.airgap.vault_64368/META-INF: PAPERS.SF
 
 Revision, tag (and its signature):
 
@@ -247,7 +252,7 @@ Revision, tag (and its signature):
 
 ```
 
-Version 3.32.3 is **reproducible** again
+Version 3.32.5 is **reproducible** again
 
 ## Asciicast
 
