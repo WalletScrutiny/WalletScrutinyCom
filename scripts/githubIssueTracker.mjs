@@ -12,7 +12,7 @@ import minimist from 'minimist';
 const args = minimist(process.argv.slice(2), {
   default: {
     githubtoken: process.env.githubtoken,
-    months: 2,
+    months: 0,
     show_closed: false,
     new: false,
     format: 'human',
@@ -61,7 +61,7 @@ function print_usage() {
       node scripts/githubIssueTracker.mjs -githubtoken github_pat_abcdefg
 
     Optional parameters:
-      --months x - set the number of months since the issue had an update (default is 2)
+      --months x - set the number of months since the issue had an update (default is 0)
       --new - also show newer issues (default is don't show newer issues)
       --show_closed - also show closed issues (default is don't show closed issues)
       --format (human|table|csv) - change the format of the output (default is human)
