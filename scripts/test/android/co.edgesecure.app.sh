@@ -2,7 +2,7 @@
 
 # Repository and tag information
 repo="https://github.com/EdgeApp/edge-react-gui"
-tag="v4.15.0"
+tag="v$versionName"
 
 # APK output location
 workDir="/tmp/test_co.edgesecure.app"
@@ -32,6 +32,3 @@ test() {
         exit 1
     fi
 }
-
-# Run the test function
-test
