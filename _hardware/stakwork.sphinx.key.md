@@ -21,8 +21,8 @@ issue:
 icon: 
 bugbounty: 
 meta: ok
-verdict: unreleased
-date: 2023-02-28
+verdict: diy
+date: 2024-10-23
 signer: 
 reviewArchive: 
 twitter: stakwork
@@ -31,7 +31,11 @@ features:
 
 ---
 
-## Product Description 
+## Update 2024-10-23
+
+The device has not seen any major change since our last review. The last commit was made [8 months ago.](https://github.com/stakwork/sphinx-key/commit/f54cedf7168546a81d751792c46d91246923f931). This device doesn't seem to be geared for a commercial release and appears to be more of a **do-it-yourself** project.
+
+## Product Description 2023-02-28
 
 > A Lightning Hardware Wallet based on Validating Lightning Signer
 

@@ -20,9 +20,9 @@ repository: https://github.com/AngainorDev/WALT_WALLET_BASIC
 issue: 
 icon: walt.png
 bugbounty: 
-meta: ok
-verdict: unreleased
-date: 2022-02-17
+meta: obsolete
+verdict: diy
+date: 2024-10-23
 signer: 
 reviewArchive: 
 twitter: Angainor15
@@ -30,6 +30,12 @@ social:
 features: 
 
 ---
+
+## Update 2024-10-23
+
+We are reclassifying this project as a do-it-yourself project. The last [commit](https://github.com/AngainorDev/WALT_WALLET_BASIC/commit/288cca5eaf65ab467febce7c2d829bbf6ead55ec) on this project was made on June 22, 2021, rendering this project as obsolete.
+
+## Previous Review 2022-02-17
 
 The primary 'website' of this project is a discord channel. There hasn't been much activity in it later than June 2021. The last official announcement was on June 4, 2021:
 
