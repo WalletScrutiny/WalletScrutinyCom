@@ -35,7 +35,7 @@ features:
 
 ## Updated Review 2024-10-23
 
-Unlike other unreleased products that we've marked as vaporware, this product still has an active website. The product has an actual price, that at least try to inform people that at least something is going on with the project. 
+Unlike other unreleased products that we've marked as vaporware years after first finding them, this product still has an active website. The product has an actual price, that at least try to inform people that at least something is going on with the project. 
 
 Here are a few:
 
