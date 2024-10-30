@@ -9,10 +9,10 @@ appCountry: cz
 idd: 1487443266
 released: 2019-11-26
 updated: 2024-10-28
-version: 1.90.1
+version: 1.90.0
 stars: 4.7
 reviews: 788
-size: '129203200'
+size: '129174528'
 website: https://capital.com/
 repository: 
 issue: 

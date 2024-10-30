@@ -11,7 +11,7 @@ released: 2021-12-16
 updated: 2024-10-16
 version: 1.3.0
 stars: 5
-reviews: 10
+reviews: 11
 size: '34275328'
 website: https://bitcoinjungle.app
 repository: https://github.com/Bitcoin-Jungle/bitcoin-jungle-mobile

@@ -9,7 +9,7 @@ appId: com.deblock.deblockapp
 appCountry: 
 released: 
 updated: 2024-10-25
-version: 1.2.19
+version: 1.2.21
 stars: 5
 ratings: 
 reviews: 7

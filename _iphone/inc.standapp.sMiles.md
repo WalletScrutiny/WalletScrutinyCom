@@ -9,10 +9,10 @@ appCountry: us
 idd: 1492458803
 released: 2020-12-18
 updated: 2024-10-28
-version: '9.3'
+version: '9.2'
 stars: 4.5
-reviews: 3865
-size: '208261120'
+reviews: 3859
+size: '206600192'
 website: https://www.smilesbitcoin.com/
 repository: 
 issue: 

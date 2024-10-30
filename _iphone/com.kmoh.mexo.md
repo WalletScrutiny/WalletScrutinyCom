@@ -10,8 +10,8 @@ idd: 1555609032
 released: 2021-03-01
 updated: 2024-10-23
 version: 3.6.3
-stars: 4.9
-reviews: 137
+stars: 0
+reviews: 0
 size: '161289216'
 website: https://help.trubit.com/en
 repository: 

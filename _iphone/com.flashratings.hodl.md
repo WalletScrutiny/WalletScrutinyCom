@@ -10,8 +10,8 @@ idd: '1253668876'
 released: 2017-08-01
 updated: 2024-10-11
 version: '9.13'
-stars: 4.8
-reviews: 34899
+stars: 0
+reviews: 0
 size: '63472640'
 website: https://www.hodl.mobi
 repository: 

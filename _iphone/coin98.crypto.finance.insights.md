@@ -11,7 +11,7 @@ released: 2021-05-14
 updated: 2024-10-18
 version: 15.8.0
 stars: 4.5
-reviews: 650
+reviews: 651
 size: '244976640'
 website: https://coin98.com
 repository: 

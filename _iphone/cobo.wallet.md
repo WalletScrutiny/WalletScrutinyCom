@@ -10,8 +10,8 @@ idd: 1406282615
 released: 2018-08-05
 updated: 2024-09-25
 version: 5.19.14
-stars: 2.8
-reviews: 6
+stars: 0
+reviews: 0
 size: '82713600'
 website: https://cobo.com
 repository: 

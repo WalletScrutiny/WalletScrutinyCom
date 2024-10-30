@@ -11,7 +11,7 @@ released: 2021-07-07
 updated: 2024-09-04
 version: 1.23.1
 stars: 4.1
-reviews: 17
+reviews: 0
 size: '114348032'
 website: https://blog.naver.com/flybit
 repository: 

@@ -4,7 +4,7 @@ title: PeerBR
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: br.com.peerbr
 appCountry: 
 released: 2019-05-24

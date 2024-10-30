@@ -3,7 +3,7 @@ wsId:
 title: Canada eCoin
 altTitle: 
 authors: 
-users: 10
+users: 50
 appId: org.canadaecoin.moonshine
 appCountry: 
 released: 2022-07-22

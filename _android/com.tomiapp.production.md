@@ -1,6 +1,6 @@
 ---
 wsId: tomiPay
-title: tomiPAY
+title: tomi Wallet
 altTitle: 
 authors:
 - danny

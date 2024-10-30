@@ -10,8 +10,8 @@ idd: '6457257372'
 released: 2023-08-23
 updated: 2024-10-28
 version: 1.2.26
-stars: 3.8
-reviews: 13
+stars: 3.9
+reviews: 14
 size: '134139904'
 website: https://uxuy.com/wallet
 repository: 

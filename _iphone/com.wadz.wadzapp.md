@@ -11,7 +11,7 @@ released: 2020-12-28
 updated: 2021-09-15
 version: 2.0.1
 stars: 5
-reviews: 1
+reviews: 0
 size: '69950464'
 website: https://www.wadzpay.com/
 repository: 

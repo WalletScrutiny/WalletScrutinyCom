@@ -9,7 +9,7 @@ appId: com.coinmotion
 appCountry: in
 released: 2020-08-20
 updated: 2024-10-22
-version: 1.11.4
+version: 1.11.5
 stars: 4.2
 ratings: 
 reviews: 

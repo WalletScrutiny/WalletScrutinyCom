@@ -9,10 +9,10 @@ appCountry: us
 idd: 938003185
 released: 2014-12-11
 updated: 2024-10-28
-version: 2024.43.0
+version: 2024.43.1
 stars: 4.2
-reviews: 4382262
-size: '514273280'
+reviews: 4382500
+size: '514269184'
 website: https://robinhood.com/
 repository: 
 issue: 

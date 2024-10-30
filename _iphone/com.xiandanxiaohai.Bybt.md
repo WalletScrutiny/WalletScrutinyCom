@@ -10,8 +10,8 @@ idd: 1522250001
 released: 2020-07-08
 updated: 2024-09-26
 version: 2.0.9
-stars: 4.9
-reviews: 2618
+stars: 0
+reviews: 0
 size: '28422144'
 website: https://www.coinglass.com
 repository: 

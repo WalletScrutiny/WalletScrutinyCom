@@ -10,8 +10,8 @@ idd: '1403702113'
 released: 2018-09-06
 updated: 2024-10-10
 version: 2.6.5
-stars: 4
-reviews: 180
+stars: 0
+reviews: 0
 size: '87476224'
 website: https://www.f2pool.com/
 repository: 
