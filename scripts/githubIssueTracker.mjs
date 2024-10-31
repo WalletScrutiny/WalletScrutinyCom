@@ -14,7 +14,6 @@ const args = minimist(process.argv.slice(2), {
     githubtoken: process.env.githubtoken,
     months: 0,
     show_closed: false,
-    new: false,
     format: 'human',
     show_only_not_subscribed: false
   }
@@ -62,13 +61,12 @@ function print_usage() {
 
     Optional parameters:
       --months x - set the number of months since the issue had an update (default is 0)
-      --new - also show newer issues (default is don't show newer issues)
       --show_closed - also show closed issues (default is don't show closed issues)
       --format (human|table|csv) - change the format of the output (default is human)
       --show_only_not_subscribed - to show only issues where you're not subscribed to the issue (default is show all the issues)
 
     Example:
-      node scripts/githubIssueTracker.mjs -githubtoken github_pat_abcdefg --new --format csv
+      node scripts/githubIssueTracker.mjs -githubtoken github_pat_abcdefg --months 2 --format csv
   `);
 }
 
@@ -162,6 +160,10 @@ async function checkGitHubIssue(projectOwner, projectName, issueNumber) {
 
 // Check the status of each GitHub issue and append to the output text
 (async () => {
+  if (outputFormat === 'human') { 
+    console.log('Reading issues from .md files...');
+  }
+
   // Loop through each folder path and search for .md files
   folderPaths.forEach((folderPath) => {
     fs.readdirSync(folderPath).forEach((file) => {
@@ -173,6 +175,10 @@ async function checkGitHubIssue(projectOwner, projectName, issueNumber) {
 
   const xMonthsAgo = new Date();
   xMonthsAgo.setMonth(xMonthsAgo.getMonth() - months);
+
+  if (outputFormat === 'human') {
+    console.log('Checking GitHub issues. It will take a while...');
+  }
 
   for (const { projectOwner, projectName, issueUrl, issueNumber, fileName, folder, verdict } of issueInfo) {
     const { state, lastUpdateDate, lastPosterUsername } = await checkGitHubIssue(projectOwner, projectName, issueNumber);
@@ -186,72 +192,58 @@ async function checkGitHubIssue(projectOwner, projectName, issueNumber) {
         verdict,
         folder,
         lastPosterUsername,
-        older: new Date(lastUpdateDate) < xMonthsAgo
+        olderThanSpecifiedMonths: new Date(lastUpdateDate) < xMonthsAgo
       });
     }
   }
 
-  // [true, false] here are used to iterate twice the issues, once for older and once for newer
-  // [true] would show only older issues
-  const issuesToShowOlder = args.new ? [true, false] : [true];
-
   switch (outputFormat) {
     case 'human':
-      issuesToShowOlder.forEach(older => {
-        if (older) {
-          console.log(`\nOlder issues (more than ${months} months old):`);
-        } else {
-          console.log(`\nNewer issues (less than ${months} months old):`);
-        }
+      console.log(`\nShowing issues older than ${months} months old:`);
 
-        folderPaths.forEach(folder => {
-          if (issues[folder].length > 0) {
-            console.log(`\n${GREEN}${folder}${RESET}`);
-            issues[folder].sort((a, b) => b.update - a.update); // Sort by update date (newest to oldest)
-            issues[folder].forEach((o) => {
-              if (o.older === older) {
-                const daysSince = Math.floor((new Date() - o.update) / 1000 / 60 / 60 / 24);
-                const shortenedFileName = path.basename(o.filename);
-                console.log(`  - ${daysSince} days ago | ${GREEN}${shortenedFileName}${RESET} | ${o.issue} | ${CYAN}Last Verdict: ${o.verdict}${RESET} | ${o.state} | ${YELLOW}Last post: ${o.lastPosterUsername}${RESET}`);
-              }
-            });
-          }
-        });
+      folderPaths.forEach(folder => {
+        if (issues[folder].length > 0) {
+          console.log(`\n${GREEN}${folder}${RESET}`);
+          issues[folder].sort((a, b) => b.update - a.update); // Sort by update date (newest to oldest)
+          issues[folder].forEach((o) => {
+            if (o.olderThanSpecifiedMonths) {
+              const daysSince = Math.floor((new Date() - o.update) / 1000 / 60 / 60 / 24);
+              const shortenedFileName = path.basename(o.filename);
+              console.log(`  - ${daysSince} days ago | ${GREEN}${shortenedFileName}${RESET} | ${o.issue} | ${CYAN}Last Verdict: ${o.verdict}${RESET} | ${o.state} | ${YELLOW}Last post: ${o.lastPosterUsername}${RESET}`);
+            }
+          });
+        }
       });
       break;
 
     case 'table':
-      console.log(`Folder  |  Days      | File    | Issue URL                            | Last Verdict | Status | Last post author`);
-      console.log('-----------|------------|--------------------------------|----------------------');
-
-      issuesToShowOlder.forEach(older => {
+      console.log(`Folder     | Days |          File           |              Issue URL              | Last Verdict | Status | Last post author`);
+      console.log('-----------|------|-------------------------|-------------------------------------|--------------|--------|-----------------');
+      
+      folderPaths.forEach(folder => {
         if (issues[folder].length > 0) {
-          folderPaths.forEach(folder => {
-            issues[folder].sort((a, b) => b.update - a.update); // Sort by update date (newest to oldest)
-            issues[folder].forEach((o) => {
-              if (o.older === older) {
-                const daysSince = Math.floor((new Date() - o.update) / 1000 / 60 / 60 / 24);
-                const shortenedFileName = path.basename(o.filename);
-                console.log(`${folder} | ${daysSince} | ${shortenedFileName} | ${o.issue} | ${o.verdict} | ${o.state} | ${o.lastPosterUsername}`);
-              }
-            });
+          issues[folder].sort((a, b) => b.update - a.update); // Sort by update date (newest to oldest)
+          issues[folder].forEach((o) => {
+            if (o.olderThanSpecifiedMonths) {
+              const daysSince = Math.floor((new Date() - o.update) / 1000 / 60 / 60 / 24);
+              const shortenedFileName = path.basename(o.filename);
+              console.log(`${folder} | ${daysSince} | ${shortenedFileName} | ${o.issue} | ${o.verdict} | ${o.state} | ${o.lastPosterUsername}`);
+            }
           });
         }
       });
       break;
 
     case 'csv':
-      issuesToShowOlder.forEach(older => {
+      folderPaths.forEach(folder => {
         if (issues[folder].length > 0) {
-          folderPaths.forEach(folder => {
-            issues[folder].sort((a, b) => b.update - a.update); // Sort by update date (newest to oldest)
-            issues[folder].forEach((o) => {
-              if (o.older === older) {
-                const daysSince = Math.floor((new Date() - o.update) / 1000 / 60 / 60 / 24);
-                const shortenedFileName = path.basename(o.filename);
-                console.log(`${folder}, ${daysSince}, ${shortenedFileName}, ${o.issue}, ${o.verdict}, ${o.state}, ${o.lastPosterUsername}`);
-              }
-            });
+          issues[folder].sort((a, b) => b.update - a.update); // Sort by update date (newest to oldest)
+          issues[folder].forEach((o) => {
+            if (o.olderThanSpecifiedMonths) {
+              const daysSince = Math.floor((new Date() - o.update) / 1000 / 60 / 60 / 24);
+              const shortenedFileName = path.basename(o.filename);
+              console.log(`${folder}, ${daysSince}, ${shortenedFileName}, ${o.issue}, ${o.verdict}, ${o.state}, ${o.lastPosterUsername}`);
+            }
           });
         }
       });
