@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: app.doshfx.liteapp.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-06-03
+date: 2024-10-31
 signer: 
 reviewArchive: 
 twitter: 

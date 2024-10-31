@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.espaciobitcoin.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2023-11-03
+date: 2024-10-31
 signer: 
 reviewArchive: 
 twitter: 

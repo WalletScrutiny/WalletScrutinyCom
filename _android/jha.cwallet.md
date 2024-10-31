@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: jha.cwallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2024-06-29
+date: 2024-10-31
 signer: 
 reviewArchive: 
 twitter: 

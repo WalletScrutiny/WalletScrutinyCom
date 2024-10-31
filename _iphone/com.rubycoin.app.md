@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.rubycoin.app.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2023-12-16
+date: 2024-10-31
 signer: 
 reviewArchive: 
 twitter: RubyCoinDAO

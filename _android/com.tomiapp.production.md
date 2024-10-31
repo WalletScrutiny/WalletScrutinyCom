@@ -1,6 +1,6 @@
 ---
 wsId: tomiPay
-title: tomi Wallet
+title: tomi Wallet - Crypto Control
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 50000
 appId: com.tomiapp.production
 appCountry: 
 released: 2022-09-08
-updated: 2024-10-19
-version: '124'
+updated: 2024-10-29
+version: '125.0'
 stars: 
 ratings: 
 reviews: 

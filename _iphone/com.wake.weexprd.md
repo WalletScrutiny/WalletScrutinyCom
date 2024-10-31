@@ -1,6 +1,6 @@
 ---
 wsId: weexTrade
-title: WEEX - Buy Bitcoin & Crypto
+title: 'WEEX: Trade Bitcoin & Futures'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.wake.weexprd
 appCountry: us
 idd: '1609350789'
 released: 2022-03-04
-updated: 2024-10-19
-version: 4.2.5
+updated: 2024-10-30
+version: 4.2.7
 stars: 4.1
-reviews: 96
-size: '91542528'
+reviews: 97
+size: '91648000'
 website: https://www.weex.com/en
 repository: 
 issue: 

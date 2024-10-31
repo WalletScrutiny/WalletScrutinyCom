@@ -10,8 +10,8 @@ idd: 1484394401
 released: 2020-11-28
 updated: 2024-10-09
 version: 4.5.0
-stars: 4.5
-reviews: 2926
+stars: 4.6
+reviews: 2970
 size: '118629376'
 website: https://zbd.gg
 repository: 

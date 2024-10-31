@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.contacripto.app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2024-05-30
+date: 2024-10-31
 signer: 
 reviewArchive: 
 twitter: 

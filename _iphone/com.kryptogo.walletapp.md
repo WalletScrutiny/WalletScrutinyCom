@@ -10,8 +10,8 @@ idd: '1593830910'
 released: 2021-12-28
 updated: 2024-10-25
 version: 3.47.0
-stars: 0
-reviews: 0
+stars: 5
+reviews: 3
 size: '97331200'
 website: https://kryptogo.com/wallet
 repository: 

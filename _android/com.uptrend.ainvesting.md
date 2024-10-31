@@ -8,8 +8,8 @@ users: 5000
 appId: com.uptrend.ainvesting
 appCountry: 
 released: 
-updated: 2024-09-10
-version: 7.0.28
+updated: 2024-10-29
+version: 7.0.30
 stars: 3.1
 ratings: 
 reviews: 

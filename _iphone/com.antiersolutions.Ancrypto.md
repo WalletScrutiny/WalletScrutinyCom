@@ -11,7 +11,7 @@ released: 2023-03-24
 updated: 2024-04-26
 version: '32'
 stars: 4.5
-reviews: 20
+reviews: 19
 size: '147074048'
 website: https://www.ancrypto.io/
 repository: 

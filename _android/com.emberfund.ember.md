@@ -12,7 +12,7 @@ updated: 2024-10-28
 version: '35.1'
 stars: 4.1
 ratings: 1026
-reviews: 1500
+reviews: 1503
 size: 
 website: https://www.emberfund.io/
 repository: 

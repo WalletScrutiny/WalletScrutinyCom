@@ -1,17 +1,17 @@
 ---
 wsId: cryptopay
-title: 'Cryptopay: Buy Bitcoin Safely'
+title: 'Cryptopay: Spend Crypto Daily'
 altTitle: 
 authors: 
 appId: me.cryptopay.app
 appCountry: de
 idd: 1223340174
 released: 2017-06-08
-updated: 2024-10-02
-version: '1.74'
+updated: 2024-10-30
+version: 1.74.1
 stars: 4.5
 reviews: 330
-size: '220169216'
+size: '220301312'
 website: https://cryptopay.me/
 repository: 
 issue: 

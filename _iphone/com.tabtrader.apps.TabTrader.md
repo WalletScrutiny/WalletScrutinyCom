@@ -12,8 +12,8 @@ idd: 1095716562
 released: 2016-09-02
 updated: 2024-10-27
 version: 5.1.2
-stars: 0
-reviews: 0
+stars: 4.7
+reviews: 4219
 size: '47757312'
 website: https://tabtrader.com
 repository: 

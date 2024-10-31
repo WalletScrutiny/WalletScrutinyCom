@@ -10,7 +10,7 @@ idd: '291973577'
 released: 2008-11-21
 updated: 2024-09-30
 version: '7.8'
-stars: 0
+stars: 4.7
 reviews: 271
 size: '225391616'
 website: http://www.finanzen.net/apps

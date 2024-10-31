@@ -1,6 +1,6 @@
 ---
 wsId: ChangeNOW
-title: Crypto Exchange & Buy Crypto
+title: 'Crypto exchange: USDT, Bitcoin'
 altTitle: 
 authors:
 - leo

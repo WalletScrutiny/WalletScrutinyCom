@@ -10,9 +10,9 @@ appCountry:
 released: 2018-06-26
 updated: 2024-10-21
 version: 2024.10.18
-stars: 3.8
+stars: 3.7
 ratings: 4414
-reviews: 192
+reviews: 189
 size: 
 website: https://www.digifinex.com/
 repository: 

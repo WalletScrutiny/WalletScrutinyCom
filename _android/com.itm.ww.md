@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.itm.ww.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-11-02
+date: 2024-10-31
 signer: 
 reviewArchive: 
 twitter: 

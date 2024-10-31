@@ -10,8 +10,8 @@ idd: 966538981
 released: 2015-02-20
 updated: 2023-06-25
 version: 4.1.3
-stars: 0
-reviews: 0
+stars: 3.6
+reviews: 193
 size: '14504960'
 website: https://libertyx.com
 repository: 

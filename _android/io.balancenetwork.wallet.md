@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.balancenetwork.wallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2024-07-25
+date: 2024-10-31
 signer: 
 reviewArchive: 
 twitter: balancenetwork_

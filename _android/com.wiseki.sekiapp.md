@@ -32,7 +32,7 @@ social:
 - https://www.facebook.com/sekiapp
 - https://www.tiktok.com/@seki_app
 redirect_from: 
-developerName: MyNig Devs
+developerName: Wiseki Technologies Limited
 features: 
 
 ---

@@ -1,6 +1,6 @@
 ---
 wsId: ivendPayPOS
-title: ivendPay POS
+title: IVPAY
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ appId: ivendpay.com
 appCountry: us
 idd: '1644875364'
 released: 2023-02-02
-updated: 2023-11-11
-version: 2.0.3
+updated: 2024-10-30
+version: 3.0.0
 stars: 0
 reviews: 0
-size: '34193408'
-website: https://ivendpay.com
+size: '37248000'
+website: https://ivpay.io
 repository: 
 issue: 
 icon: ivendpay.com.jpg

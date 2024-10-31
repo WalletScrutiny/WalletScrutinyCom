@@ -1,21 +1,3 @@
-2024-10-16:
-- _android/app.doshfx.liteapp
-- _android/com.blockproex
-- _android/com.bolt.pegasus
-- _android/com.contacripto.app
-- _android/com.espaciobitcoin
-- _android/com.fintech.kassio
-- _android/com.itm.ww
-- _android/io.balancenetwork.wallet
-- _android/jha.cwallet
-- _iphone/com.boquanhash.dotwallet
-- _iphone/com.coininn.yykik
-- _iphone/com.hashvest.hash
-- _iphone/com.icrypex.mobile
-- _iphone/com.obrinvestment.obrinvest
-- _iphone/com.reacnative.js.balancenetwork.wallet
-- _iphone/com.rubycoin.app
-- _iphone/pro.bingbon.finance
 2024-10-19:
 - _android/com.bitcoin.bankwallet
 - _android/com.funex.pro
@@ -80,3 +62,6 @@
 - _android/com.capex
 - _android/com.pockan.aicryptotrade
 - _iphone/com.bit2me.flutter-ios
+2024-10-31:
+- _android/com.alt5pro.droidapp
+- _iphone/com.kucoin.KuCoin.iOS

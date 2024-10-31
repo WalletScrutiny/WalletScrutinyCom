@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.reacnative.js.balancenetwork.wallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2023-08-16
+date: 2024-10-31
 signer: 
 reviewArchive: 
 twitter: balancenetwork_

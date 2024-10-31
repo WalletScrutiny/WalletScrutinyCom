@@ -8,11 +8,11 @@ appId: io.bitcoinlibre.app
 appCountry: us
 idd: 1590680702
 released: 2021-10-27
-updated: 2024-10-25
-version: 4.0.1
+updated: 2024-10-29
+version: 4.0.2
 stars: 4.4
 reviews: 431
-size: '120453120'
+size: '115283968'
 website: http://bitcoinlibre.io/
 repository: 
 issue: 

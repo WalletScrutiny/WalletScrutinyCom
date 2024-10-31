@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.hashvest.hash.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
-date: 2024-01-09
+date: 2024-10-31
 signer: 
 reviewArchive: 
 twitter: gethashapp

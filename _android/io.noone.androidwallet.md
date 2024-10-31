@@ -8,11 +8,11 @@ users: 10000
 appId: io.noone.androidwallet
 appCountry: 
 released: 2023-03-17
-updated: 2024-10-15
-version: 1.18.0
+updated: 2024-10-30
+version: 1.19.0
 stars: 4.5
 ratings: 
-reviews: 27
+reviews: 25
 size: 
 website: https://noone.io
 repository: 

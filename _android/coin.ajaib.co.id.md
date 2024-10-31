@@ -10,9 +10,9 @@ appCountry:
 released: 2022-07-15
 updated: 2024-10-23
 version: 2.59.0
-stars: 4.3
+stars: 4.4
 ratings: 
-reviews: 22
+reviews: 21
 size: 
 website: https://kripto.ajaib.co.id/
 repository: 
