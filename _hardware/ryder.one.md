@@ -1,6 +1,6 @@
 ---
 title: Ryder
-appId: ryder.wearable
+appId: ryder.one
 authors:
 - danny
 released: 2023-11-01
@@ -21,11 +21,11 @@ country: SG
 price: 179USD
 repository: https://github.com/Light-Labs/protocol
 issue: 
-icon: ryder.wearable.png
+icon: ryder.one.png
 bugbounty: 
 meta: ok
-verdict: plainkey
-date: 2024-10-22
+verdict: unreleased
+date: 2024-10-31
 signer: 
 reviewArchive: 
 twitter: Ryder_ID
@@ -82,9 +82,7 @@ To confirm transactions, the user has to tap the Ryder One two times on the pair
 
 ## Verdict
 
-The Ryder One has to be tapped onto a mobile device twice in order to sign transactions. This exposes the private key to a potentially malicious app that could subvert the transaction. Even though the device uses Shamir Secret Sharing, each part of the private key is still a shared part. These devices may not have same security measures as the hardware wallet itself and thus pose a risk. 
-
-Our verdict for this device is **plainkey**
+Until the device is widely available commercially, it is still **unreleased**.
 
 ## Product Description 2022-04-27
 

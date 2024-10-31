@@ -21,8 +21,8 @@ issue:
 icon: pundixbob.png
 bugbounty: 
 meta: ok
-verdict: unreleased
-date: 2024-10-22
+verdict: vapor
+date: 2024-10-31
 signer: 
 reviewArchive: 
 twitter: PundiXLabs
@@ -39,7 +39,7 @@ Although the company Pundi X Labs seems to still be active on social media,
 
 we haven't gotten new information about the {{ page.title }}. So we asked the developers if there's new information. 
 
-Until further developments, we'll continue marking this device as **unreleased.**
+Until further developments, we'll start marking this device as **vaporware**
 
 ## Product Description 2022-03-23
 
