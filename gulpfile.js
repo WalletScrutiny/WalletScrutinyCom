@@ -1,65 +1,75 @@
-var gulp = require('gulp');
-var shell = require('gulp-shell');
-var sass = require('gulp-sass')(require('node-sass'));
-var minify = require('gulp-minify');
-var rename = require('gulp-rename');
-sass.compiler = require('node-sass');
-var del = require('del');
+const { series, src, dest } = require('gulp');
+const exec = require('child_process').exec;
+const sass = require('gulp-sass')(require('sass'));
 const htmlmin = require('gulp-htmlmin');
+const minify = require('gulp-minify');
+const del = require('del');
+const rename = require('gulp-rename');
 
-gulp.task('minify', () => {
-  return gulp
-    .src('_site/index.html')
+function jekyllTask(done) {
+  exec('bundle exec jekyll build', function (err) {
+    done(err);
+  }).stdout.pipe(process.stdout);
+}
+
+function serveTask(done) {
+  exec('bundle exec jekyll serve --profile --trace --host=localhost --config _config.yml,_config.dev.yml', function (err) {
+    done(err);
+  }).stdout.pipe(process.stdout);
+}
+
+function serveIncrementalTask(done) {
+  exec('bundle exec jekyll serve --profile --trace --host=localhost --config _config.yml,_config.dev.yml --incremental', function (err) {
+    done(err);
+  }).stdout.pipe(process.stdout);
+}
+
+function sassTask(cb) {
+  src('./_site/assets/css/*.css')
+    .pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
+    .pipe(dest('./_site/assets/css/'));
+  cb();
+}
+
+async function minifyTask() {
+  return src('_site/index.html')
     .pipe(
       htmlmin({
         collapseWhitespace: true,
         removeComments: true
       })
     )
-    .pipe(gulp.dest('_site'));
-});
+    .pipe(dest('_site'));
+}
 
-gulp.task('minjs', () => {
-  return gulp.src('_site/**/*.js')
+async function minjsTask() {
+  return src('_site/**/*.js')
     .pipe(minify({
       ext: {
         min: '.jsm'
       },
       ignoreFiles: ['*.min.js', '*-min.js']
     }))
-    .pipe(gulp.dest('_site/'));
-});
+    .pipe(dest('_site/'));
+}
 
-gulp.task('cleanjs', () => {
-  return del(['_site/**/*.js', '!**/*.min.js', '!**/*-min.js']);
-});
+function cleanjsTask(done) {
+  del(['_site/**/*.js', '!**/*.min.js', '!**/*-min.js']);
+  done();
+}
 
-gulp.task('rename', () => {
-  return gulp
-    .src('./_site/**/*.jsm')
+async function renameTask() {
+  return src('./_site/**/*.jsm')
     .pipe(rename({ extname: '.js' }))
-    .pipe(gulp.dest('./_site/'));
-});
+    .pipe(dest('./_site/'));
+}
 
-gulp.task('cleanjsm', () => {
-  return del('_site/**/*.jsm');
-});
+function cleanjsmTask(done) {
+  del(['_site/**/*.jsm']);
+  done();
+}
 
-gulp.task('move', () => {
-  return gulp
-    .src('./_site/_minjs/')
-    .pipe(gulp.dest('./_site/'));
-});
-
-gulp.task('sass', () => {
-  return gulp
-    .src('./_site/assets/css/*.css')
-    .pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
-    .pipe(gulp.dest('./_site/assets/css/'));
-});
-
-// Task for building blog when something changed:
-gulp.task('jekyll',           shell.task('bundle exec jekyll build'));
-gulp.task('serve',            shell.task('bundle exec jekyll serve --profile --trace --host=localhost --config _config.yml,_config.dev.yml'));
-gulp.task('serveIncremental', shell.task('bundle exec jekyll serve --profile --trace --host=localhost --config _config.yml,_config.dev.yml --incremental '));
-gulp.task('default', gulp.series('jekyll', 'sass', 'minify', 'minjs', 'cleanjs', 'rename', 'cleanjsm'));
+exports.jekyll = jekyllTask;
+exports.serve = serveTask;
+exports.serveIncremental = serveIncrementalTask;
+exports.default = series(jekyllTask, sassTask, minifyTask, minifyTask, minjsTask, cleanjsTask, renameTask, cleanjsmTask);
