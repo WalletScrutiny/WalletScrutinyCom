@@ -10,14 +10,14 @@ version: 1.9.15
 binaries: 
 provider: 
 providerWebsite: 
-website: https://bisq.network/
-repository: https://github.com/bisq-network/bisq/
+website: https://bisq.network
+repository: https://github.com/bisq-network/bisq
 issue: 
 icon: bisq.png
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2024-04-24
+date: 2024-10-31
 reviewArchive: 
 twitter: bisq_network
 social: 

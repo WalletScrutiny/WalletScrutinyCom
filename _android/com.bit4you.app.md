@@ -21,16 +21,16 @@ icon: com.bit4you.app.png
 bugbounty: 
 meta: removed
 verdict: custodial
-date: 2023-09-28
+date: 2024-10-31
 signer: 
 reviewArchive: 
 twitter: Bit4you1
 social:
-- https://www.facebook.com/bit4you.io/
-- https://www.instagram.com/bit4you.io/
+- https://www.facebook.com/bit4you.io
+- https://www.instagram.com/bit4you.io
 redirect_from: 
 developerName: bit4you SA
-features: 
+features:
 
 ---
 

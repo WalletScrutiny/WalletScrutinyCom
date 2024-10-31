@@ -14,14 +14,14 @@ stars: 4
 ratings: 
 reviews: 
 size: 
-website: https://www.hupayx.com/
+website: https://www.hupayx.com
 repository: https://github.com/HUPAYX
 issue: 
 icon: com.thehumanplus.shuffle.png
 bugbounty: 
 meta: ok
 verdict: custodial
-date: 2023-09-11
+date: 2024-10-31
 signer: 
 reviewArchive: 
 twitter: hupayx

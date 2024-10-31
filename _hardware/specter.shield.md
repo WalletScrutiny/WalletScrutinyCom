@@ -22,12 +22,12 @@ icon: specter.shield.png
 bugbounty: 
 meta: ok
 verdict: diy
-date: 2023-02-07
+date: 2024-10-31
 signer: 
 reviewArchive: 
 twitter: specterwallet
 social:
-- https://www.linkedin.com/company/specterlabs/
+- https://www.linkedin.com/company/specterlabs
 features: 
 
 ---

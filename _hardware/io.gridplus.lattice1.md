@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: GridPlus
 providerWebsite: 
-website: https://gridplus.io/
+website: https://gridplus.io
 shop: https://gridplus.io/cart
 country: US
 price: 397USD
@@ -22,7 +22,7 @@ icon: io.gridplus.lattice1.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2023-06-22
+date: 2024-10-31
 signer: 
 reviewArchive: 
 twitter: gridplus

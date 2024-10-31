@@ -11,13 +11,13 @@ binaries:
 provider: 
 providerWebsite: 
 website: 
-repository: https://github.com/Fonta1n3/FullyNoded/
+repository: https://github.com/Fonta1n3/FullyNoded
 issue: 
 icon: fullynoded.png
 bugbounty: 
 meta: stale
 verdict: wip
-date: 2024-04-25
+date: 2024-10-31
 reviewArchive: 
 twitter: FullyNoded
 social: 

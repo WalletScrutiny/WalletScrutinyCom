@@ -11,7 +11,7 @@ binaries:
 dimensions: 
 weight: 
 provider: GridPlus
-providerWebsite: https://gridplus.io/
+providerWebsite: https://gridplus.io
 website: 
 shop: 
 country: 
@@ -22,7 +22,7 @@ icon: safecard.gridplus.png
 bugbounty: 
 meta: ok
 verdict: noita
-date: 2022-05-03
+date: 2024-10-31
 signer: 
 reviewArchive: 
 twitter: 

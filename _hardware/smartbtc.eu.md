@@ -11,8 +11,8 @@ binaries:
 dimensions: 
 weight: 
 provider: CardContact Systems GmbH
-providerWebsite: http://www.cardcontact.de/
-website: http://smartbtc.eu/
+providerWebsite: http://www.cardcontact.de
+website: http://smartbtc.eu
 shop: >-
   https://www.cardomatic.de/epages/64510967.sf/en_GB/?ObjectPath=/Shops/64510967/Categories/SmartCardHSM
 country: DE
@@ -23,7 +23,7 @@ icon: smartbtc.eu.png
 bugbounty: 
 meta: ok
 verdict: nowallet
-date: 2022-03-23
+date: 2024-10-31
 signer: 
 reviewArchive: 
 twitter: 

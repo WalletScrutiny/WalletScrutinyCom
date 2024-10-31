@@ -17,7 +17,7 @@ weight: 10
 provider: SatoChip
 providerWebsite: https://satochip.io
 website: https://satochip.io
-shop: https://satochip.io/shop/
+shop: https://satochip.io/shop
 country: BE
 price: 25EUR
 repository: https://github.com/Toporin
@@ -26,7 +26,7 @@ icon: satochip.png
 bugbounty: 
 meta: ok
 verdict: sealed-noita
-date: 2022-11-03
+date: 2024-10-31
 signer: 
 reviewArchive: 
 twitter: satochipwallet

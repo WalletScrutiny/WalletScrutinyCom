@@ -16,7 +16,7 @@ ratings:
 reviews: 
 size: 
 website: https://10101.finance
-repository: https://github.com/get10101/10101/
+repository: https://github.com/get10101/10101
 issue: 
 icon: finance.get10101.app.png
 bugbounty: 

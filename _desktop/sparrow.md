@@ -10,14 +10,14 @@ version: 1.8.6
 binaries: 
 provider: Craig Raw
 providerWebsite: 
-website: https://www.sparrowwallet.com/
-repository: https://github.com/sparrowwallet/sparrow/
+website: https://www.sparrowwallet.com
+repository: https://github.com/sparrowwallet/sparrow
 issue: 
 icon: sparrow.png
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2024-04-25
+date: 2024-10-31
 reviewArchive: 
 twitter: SparrowWallet
 social: 

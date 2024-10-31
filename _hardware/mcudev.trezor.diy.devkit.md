@@ -11,7 +11,7 @@ binaries:
 dimensions: 
 weight: 
 provider: mcudev
-providerWebsite: https://mcudev.github.io/
+providerWebsite: https://mcudev.github.io
 website: 
 shop: 
 country: 
@@ -22,7 +22,7 @@ icon: mcudev.trezor.diy.devkit.png
 bugbounty: 
 meta: obsolete
 verdict: diy
-date: 2022-11-11
+date: 2024-10-31
 signer: 
 reviewArchive: 
 twitter: 
