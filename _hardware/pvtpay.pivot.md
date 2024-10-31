@@ -20,7 +20,7 @@ repository:
 issue: 
 icon: pvtpay.pivot.png
 bugbounty: 
-meta: defunct
+meta: ok
 verdict: vapor
 date: 2024-10-22
 signer: 
