@@ -73,10 +73,11 @@ features:
 
 ## Update 2024-10-25:
 
-The build process for the EdgeSecure Wallet was completed successfully using the test script {% include testScript.html % }
-
+The build process for {{ page.title }} was completed successfully using our
+{% include testScript.html %}.
 
 Here is the result we got. 
+
 ```
 ===== Begin Results =====
 appId:          co.edgesecure.app
