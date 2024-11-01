@@ -112,7 +112,8 @@ display_files() {
     local front_matter=$(awk '/^---$/ {f++} f==2 {exit} f {print}' "$file")
     local file_verdict=$(echo "$front_matter" | grep '^verdict:' | awk '{print $2}')
     local reviewed_date=$(echo "$front_matter" | grep '^date:' | awk '{print $2}')
-    if [[ "$file_verdict" == "$verdict" ]]; then
+    local meta=$(echo "$front_matter" | grep '^meta:' | awk '{print $2}') 
+    if [[ "$file_verdict" == "$verdict" && "$meta" == "ok" ]]; then ## filters meta so it would not display meta: defunct items
       local filename=$(basename "$file")
       echo -e "\e[1;36m$filename\e[0m | verdict: \e[1;33m$file_verdict\e[0m | last reviewed: $reviewed_date"
     fi
