@@ -116,7 +116,6 @@ Only in /tmp/fromPlay_app.zeusln.zeus_95001: stamp-cert-sha256
 Revision, tag (and its signature):
 
 ===== End Results =====
-
 ```
 
 Size of stamp-cert-sha256
