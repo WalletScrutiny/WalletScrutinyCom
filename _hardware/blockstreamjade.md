@@ -7,8 +7,8 @@ authors:
 - danny
 released: 2021-01-01
 discontinued: 
-updated: 2024-08-09
-version: 1.0.31
+updated: 2024-10-11
+version: 1.0.32
 binaries: https://jadefw.blockstream.com/bin/jade/index.json
 dimensions:
 - 24
@@ -27,9 +27,14 @@ icon: blockstreamjade.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-08-26
+date: 2024-11-01
 signer: 
 reviewArchive:
+- date: 2024-08-26
+  version: 1.0.31
+  appHash: 26c918f0e7281b9cc8fdfc10baae2e5a8ac6edf0cd08e699a913daea3b97d04e
+  gitRevision: 0e340f881dd801491bb0f70aa3bc4a6850f74654
+  verdict: reproducible
 - date: 2024-05-15
   version: 1.0.30
   appHash: d62518df363ceb7002c171baf8149c644dd8dbb57b4f122db0c4b1dc5707328d
@@ -97,24 +102,28 @@ all four build variants:
 $ scripts/test/hardware/blockstreamjade.sh 1.0.31
 ...
 Results:
-26c918f0e7281b9cc8fdfc10baae2e5a8ac6edf0cd08e699a913daea3b97d04e  jade_1.0.31_10_ble.bin
-56c3543e2929b4b450d683fcad15a3f1cc6fe0c445db4d33c102985cfcf5bc7e  jade_1.0.31_10_ble.built.bin
-56c3543e2929b4b450d683fcad15a3f1cc6fe0c445db4d33c102985cfcf5bc7e  jade_1.0.31_10_ble_stripped.bin
-The Jade firmware version 1.0.31 10_ble is reproducible with above hashes.
-ba25801fa09ca3d0ddb1831b6384f1122f91804cd0d5c4a578aa422e4486c0da  jade_1.0.31_10_noR.bin
-45c7353e9d844a549463ab65504e27fcb4a15d3877789e5d30175cefa0bd9c61  jade_1.0.31_10_noR.built.bin
-45c7353e9d844a549463ab65504e27fcb4a15d3877789e5d30175cefa0bd9c61  jade_1.0.31_10_noR_stripped.bin
-The Jade firmware version 1.0.31 10_noR is reproducible with above hashes.
-b9c5568de7ccc4355f95fae91b35faa9ff85c95c42ef44d6151f242691a29f1a  jade_1.0.31_11_ble.bin
-35da48fdb0b478a2a1f889f97dc848af0d8b2c518b79bb0b864950cd16713920  jade_1.0.31_11_ble.built.bin
-35da48fdb0b478a2a1f889f97dc848af0d8b2c518b79bb0b864950cd16713920  jade_1.0.31_11_ble_stripped.bin
-The Jade firmware version 1.0.31 11_ble is reproducible with above hashes.
-4c88942060c01938fcdbf6be118771a9c1610a4647b98ce25e4baa813e36d437  jade_1.0.31_11_noR.bin
-4065e64e34c68f55eb28e918bf7982d8f9cb4415be6fa3babbc0638b7dd57df1  jade_1.0.31_11_noR.built.bin
-4065e64e34c68f55eb28e918bf7982d8f9cb4415be6fa3babbc0638b7dd57df1  jade_1.0.31_11_noR_stripped.bin
-The Jade firmware version 1.0.31 11_noR is reproducible with above hashes.
+2f5bb1939061ff13e5f8a5ca52aa51641558a2b5356219d7a5c4138245f71f11  jade_1.0.32_10_ble.bin
+619bcb47042bf5f30891f4ada6d18b03e6628a4775f25d3281fa8c3930af1a53  jade_1.0.32_10_ble.built.bin
+619bcb47042bf5f30891f4ada6d18b03e6628a4775f25d3281fa8c3930af1a53  jade_1.0.32_10_ble_stripped.bin
+118ce110a81c5689dd553a42ca3167bffe4457b5382c67a9f774e55f7f9d07b6  jade_1.0.32_10_ble.bin.gz
+The Jade firmware version 1.0.32 10_ble is reproducible with above hashes.
+52a2dbc6e026965ab3612ab513f5c7fbf2f80e3a2048d5c22a413f243edd4fc0  jade_1.0.32_10_noR.bin
+22ed8de6f764c130fe46618916da2130b09347b957cd62c64ae7f36a5ae515b4  jade_1.0.32_10_noR.built.bin
+22ed8de6f764c130fe46618916da2130b09347b957cd62c64ae7f36a5ae515b4  jade_1.0.32_10_noR_stripped.bin
+b201c4a20629d8246119f87928a13f85d006614236aa070c2635f71413d4e03d  jade_1.0.32_10_noR.bin.gz
+The Jade firmware version 1.0.32 10_noR is reproducible with above hashes.
+63fe4fae1cfbc6ae82e488c87114ce6f0bc498b354f065fe4ada44917bd19541  jade_1.0.32_11_ble.bin
+35a6d3e2d607a23f64cbddbf909a0d3fcafa08ebede39e2c73a6eb96c832dc87  jade_1.0.32_11_ble.built.bin
+35a6d3e2d607a23f64cbddbf909a0d3fcafa08ebede39e2c73a6eb96c832dc87  jade_1.0.32_11_ble_stripped.bin
+aa2e5e7a794d0ec91e30b113c793c8d901aa5381ca73d6bae352d1f81185bc16  jade_1.0.32_11_ble.bin.gz
+The Jade firmware version 1.0.32 11_ble is reproducible with above hashes.
+2f63b78676c2b0ddb56bcc9e8bcb851b3be9a3848597b495b8335cf8f7a7f005  jade_1.0.32_11_noR.bin
+93f3efda1d0b333dbe6c1b29f4e176f06869e241d423aa091caf7b45cc098b76  jade_1.0.32_11_noR.built.bin
+93f3efda1d0b333dbe6c1b29f4e176f06869e241d423aa091caf7b45cc098b76  jade_1.0.32_11_noR_stripped.bin
+081345760a695d06783e58710408a2d497d367f54021d14cc49edf939bd22d70  jade_1.0.32_11_noR.bin.gz
+The Jade firmware version 1.0.32 11_noR is reproducible with above hashes.
 ```
 
-This is what we want to see to give this product the verdict **reproducible**.
+Firmware version 1.0.32 of {{ page.title }} is **reproducible**
 
 {% include asciicast %}
