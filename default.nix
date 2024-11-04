@@ -4,21 +4,12 @@
 } }:
 
 pkgs.mkShell {
-  buildInputs = with pkgs; [
-    # Basic tools
-    bash
-    git
-    unzip
-    diffoscope
-    
-    # Android build tools
-    androidsdk
-    gradle
-    jdk11
-    
-    # Additional tools
-    wget
-    disorderfs
+  buildInputs = [
+    pkgs.gradle
+    pkgs.openjdk11
+    pkgs.wget
+    pkgs.disorderfs
+    pkgs.androidenv.androidPkgs.androidsdk
   ];
 
   # Environment variables
