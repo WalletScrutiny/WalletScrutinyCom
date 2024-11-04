@@ -21,8 +21,8 @@ issue:
 icon: sfyl.png
 bugbounty: 
 meta: ok
-verdict: unreleased
-date: 2022-04-04
+verdict: diy
+date: 2024-10-22
 signer: 
 reviewArchive: 
 twitter: tulipan81
@@ -32,7 +32,11 @@ features:
 
 ---
 
-## Product Description
+## Update 2024-10-22
+
+Its GitHub repository was last updated on June 16, 2024 indicating some activity. It is not commercially available as a stand-alone product and fits more the description of a **do-it-yourself** project.
+
+## Product Description 2022-04-04
 
 SFYL stands for Sorry For Your Loss. Developed by Valerio Vacarro, it is described as: 
 

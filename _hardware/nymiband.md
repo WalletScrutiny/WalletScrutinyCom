@@ -20,9 +20,9 @@ repository:
 issue: 
 icon: nymiband.png
 bugbounty: 
-meta: obsolete
-verdict: unreleased
-date: 2022-02-18
+meta: defunct
+verdict: vapor
+date: 2024-10-22
 signer: 
 reviewArchive: 
 twitter: 
@@ -30,6 +30,12 @@ social:
 features: 
 
 ---
+
+## Update 2024-10-22
+
+Ever since our initial review, no further updates have been made about the Nymi Band's bitcoin-related functions. There is also no mention of "bitcoin" or "crypto" on the website anymore. The company and the product still exists but sans bitcoin. Although, the band still exists, just not in a bitcoin sense, we will mark this product as **defunct** and **vaporware.**
+
+## Previous Review 2022-02-18
 
 Bionym [rebranded into Nymi in 2014](https://archive.canadianbusiness.com/technology-news/whats-in-a-name-bionym-rebrands-itself-as-nymi/). The company's focus was on wearable biometric devices that authenticated users for various purposes. 
 

@@ -21,8 +21,8 @@ issue:
 icon: scallop.png
 bugbounty: 
 meta: ok
-verdict: unreleased
-date: 2022-04-04
+verdict: vapor
+date: 2024-10-22
 signer: 
 reviewArchive: 
 twitter: ScallopDefiBank
@@ -35,7 +35,13 @@ features:
 
 ---
 
-## Notes on affiliated products 
+## Update 2024-10-22
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Now looking into @ScallopDefiBank, hardware wallet. May we know if the project is Open Source? Also, is there a product specification sheet for the device? <a href="https://t.co/tfdetcktqY">pic.twitter.com/tfdetcktqY</a></p>&mdash; 𝕯 | #bitcoin WalletScrutiny.com Researcher (@BitcoinWalletz) <a href="https://twitter.com/BitcoinWalletz/status/1505797557028810752?ref_src=twsrc%5Etfw">March 21, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+The {{ page.title }} is transitioning into a new brand. The idea of a Scallop branded hardware wallet is rightly **vaporware**.
+
+## Notes on affiliated products 2022-04-04
 
 The provider currently has these products
 

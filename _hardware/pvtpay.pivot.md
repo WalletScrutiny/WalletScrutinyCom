@@ -21,8 +21,8 @@ issue:
 icon: pvtpay.pivot.png
 bugbounty: 
 meta: ok
-verdict: unreleased
-date: 2022-04-04
+verdict: vapor
+date: 2024-10-22
 signer: 
 reviewArchive: 
 twitter: pvt_pay
@@ -35,7 +35,11 @@ features:
 
 ---
 
-## Preview 
+## Update 2024-10-22
+
+The website is no longer available and there are no mentions about this device on social media. We would be marking this device as **vaporware**
+
+## Preview 2022-04-04
 
 The Pivot appears to be a coin-shaped hardware wallet. 
 

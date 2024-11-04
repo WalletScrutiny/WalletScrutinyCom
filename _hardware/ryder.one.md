@@ -1,28 +1,31 @@
 ---
 title: Ryder
-appId: ryder.wearable
+appId: ryder.one
 authors:
 - danny
-released: 
+released: 2023-11-01
 discontinued: 
 updated: 
 version: 
 binaries: 
-dimensions: 
-weight: 
+dimensions:
+- 41
+- 55
+- 14.5 
+weight: 45
 provider: Ryder (Marvin Janssen)
 providerWebsite: 
 website: https://www.ryder.id/
-shop: 
+shop: https://www.indiegogo.com/projects/ryder-one-stress-free-crypto-wallet-for-everyone
 country: SG
-price: 50STX
+price: 179USD
 repository: https://github.com/Light-Labs/protocol
 issue: 
-icon: ryder.wearable.png
+icon: ryder.one.png
 bugbounty: 
 meta: ok
 verdict: unreleased
-date: 2022-04-27
+date: 2024-10-31
 signer: 
 reviewArchive: 
 twitter: Ryder_ID
@@ -33,7 +36,55 @@ features:
 
 ---
 
-## Product Description
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mnZ6mb7CbY4?si=_pyCHphkQ6rDyk5o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Update 2024-10-22
+
+Two years later and we see that there has been some major development. There are some changes when it comes to how it looks. Although it is currently in pre-order on its own website, there are indications in its indiegogo page that they were able to raise funds and ship some devices. 
+
+It was able to raise $225,152 SGD by 766 backers at the end of 2023. 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yafEu5ApDok?si=ratGA8UyYbsghPHm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+From the video, shipping would be delayed for 3 months more for security audits.
+
+## Technical Specifications
+
+- No seed phrases
+- 100% offline
+- No ports, no wireless connections (except NFC)
+- AMOLED Touch Display (1.6" 320x360 px )
+- Wireless charging
+- Tempered glass, aluminium body, polycarbonate edge
+- 200mAh lithium-ion rechargeable battery
+- Supports 1,000+ digital currencies
+- Secure button is directly connected to the Secure Element (EAL6+ Infineon SLC38)
+
+## Analysis
+
+From the unboxing video, we see that the Ryder device:
+1. has to be paired with a mobile phone prior to activation. 
+2. The user is then asked to input a passcode, and then the device generates the private keys offline using the secure element. 
+3. Once the private keys and the wallet is created, the backup must be transferred by tapping another device called the NFC Recovery Tag near the Ryder One.
+4. The backup is also performed on the paired mobile phone.
+- Users can have more than 1 recovery tag
+- Users can have social backups 
+
+This system is called the TapSafe Recovery system which is based on Shamir Secret Sharing. [Watch the description for TapSafe Recovery System](https://www.youtube.com/watch?v=iQs8ZsO5GvQ)
+
+To confirm transactions, the user has to tap the Ryder One two times on the paired NFC phone. [Watch it in action here](https://youtu.be/dIBUpqcWcp4?si=EizVBxpXvw7lWL_b&t=78)
+
+### Private keys can be created offline ✅
+### Private keys are not shared ❌ 
+### Device displays receive address for confirmation ✅ 
+### Interface ✅ 
+### Reproducibility ❌
+
+## Verdict
+
+Until the device is widely available commercially, it is still **unreleased**.
+
+## Product Description 2022-04-27
 
 > the current Ryder prototype is a full implementation of the current Blockstack authentication algorithm
 >
@@ -76,7 +127,7 @@ Many of the specifics for the project - which encompasses not just the hardware 
 > - Efforts for implementing firmware drivers for porting Ryder's firmware from the hardware abstraction
 > - Material Selection
 
-If we're not mistaken, the only way to currently "purchase" the hardware wallet is by participating in the NFT pre-sale they're holding. Although prototypes of the device has clearly been seen online, it is not available for purchase through conventional means - such as a shopping cart. As such we determine this device as **not yet released** until further notice.
+If we're not mistaken, the only way to currently "purchase" the hardware wallet is by participating in the NFT pre-sale they're holding. Although prototypes of the device has clearly been seen online, it is not available for purchase through conventional means - such as a shopping cart. As such we determine this device as not yet released until further notice.
 
 
 
