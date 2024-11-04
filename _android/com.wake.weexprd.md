@@ -8,7 +8,7 @@ users: 50000
 appId: com.wake.weexprd
 appCountry: 
 released: 2022-02-23
-updated: 2024-10-24
+updated: 2024-10-31
 version: 4.2.6
 stars: 2.9
 ratings: 

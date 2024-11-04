@@ -8,11 +8,11 @@ appId: ch.relai.relai
 appCountry: ch
 idd: '1513185997'
 released: 2020-07-01
-updated: 2024-10-30
-version: 2.10.0
+updated: 2024-11-04
+version: 2.10.1
 stars: 4.6
-reviews: 1783
-size: '99783680'
+reviews: 1800
+size: '99928064'
 website: https://relai.app/
 repository: 
 issue: 

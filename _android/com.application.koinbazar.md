@@ -9,7 +9,7 @@ appId: com.application.koinbazar
 appCountry: in
 released: 2021-05-17
 updated: 2024-10-30
-version: 3.0.49
+version: 3.0.51
 stars: 3.5
 ratings: 7090
 reviews: 2921

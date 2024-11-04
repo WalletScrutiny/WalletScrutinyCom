@@ -11,7 +11,7 @@ released: 2020-12-09
 updated: 2024-10-30
 version: CoinDCX v6.61.0003
 stars: 4.2
-reviews: 30442
+reviews: 30414
 size: '222069760'
 website: https://coindcx.com
 repository: 

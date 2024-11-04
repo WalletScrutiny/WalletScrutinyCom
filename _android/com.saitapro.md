@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.saitapro.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2024-07-24
+date: 2024-11-04
 signer: 
 reviewArchive: 
 twitter: WeAreSaitama

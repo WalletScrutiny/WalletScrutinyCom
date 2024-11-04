@@ -9,10 +9,10 @@ appId: com.public.app
 appCountry: 
 released: 2019-09-06
 updated: 2024-10-29
-version: 3.167.0
+version: 3.168.0
 stars: 4.1
 ratings: 
-reviews: 8682
+reviews: 8687
 size: 
 website: https://public.com
 repository: 

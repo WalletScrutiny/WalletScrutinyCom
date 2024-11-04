@@ -19,9 +19,9 @@ repository: https://github.com/ODUWAX/Android
 issue: 
 icon: com.oduwamultiwallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
-date: 2024-09-26
+date: 2024-11-04
 signer: 
 reviewArchive: 
 twitter: Oduwacoin

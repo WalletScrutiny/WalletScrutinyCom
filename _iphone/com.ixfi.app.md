@@ -8,11 +8,11 @@ appId: com.ixfi.app
 appCountry: ro
 idd: '1614823165'
 released: 2022-03-22
-updated: 2024-10-17
-version: 1.7.13
+updated: 2024-11-04
+version: 1.7.14
 stars: 4.9
 reviews: 98
-size: '213281792'
+size: '212738048'
 website: https://www.ixfi.com/landing
 repository: 
 issue: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: capital.novum.CryptoHero.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2022-07-14
+date: 2024-11-04
 signer: 
 reviewArchive: 
 twitter: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.exnovin.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-09-15
+date: 2024-11-04
 signer: 
 reviewArchive: 
 twitter: Exnovin_io

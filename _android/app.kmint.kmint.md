@@ -10,9 +10,9 @@ appCountry:
 released: 2022-03-03
 updated: 2024-04-08
 version: 2.1.4
-stars: 3.4
+stars: 3.6
 ratings: 
-reviews: 4
+reviews: 5
 size: 
 website: https://www.kmintprotocol.io/
 repository: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.alvexo.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosendreceive
-date: 2021-09-15
+date: 2024-11-04
 signer: 
 reviewArchive: 
 twitter: Alvexo_Trade

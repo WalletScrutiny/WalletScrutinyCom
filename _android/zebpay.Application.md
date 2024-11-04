@@ -10,9 +10,9 @@ appCountry:
 released: 2014-12-23
 updated: 2024-10-24
 version: 3.42.00
-stars: 3.2
+stars: 3.3
 ratings: 103840
-reviews: 74
+reviews: 75
 size: 
 website: https://www.zebpay.com
 repository: 
@@ -31,7 +31,7 @@ social:
 redirect_from:
 - /zebpay.Application/
 - /posts/zebpay.Application/
-developerName: Genie Technologies Pte Ltd
+developerName: Genie Technologies Private Limited
 features: 
 
 ---

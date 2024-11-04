@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.fincrypt.paybolt.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nobtc
-date: 2023-11-25
+date: 2024-11-04
 signer: 
 reviewArchive: 
 twitter: PayBoltOfficial

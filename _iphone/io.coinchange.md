@@ -11,7 +11,7 @@ released: 2021-11-09
 updated: 2023-04-18
 version: 2.0.2
 stars: 3.9
-reviews: 40
+reviews: 39
 size: '149646336'
 website: https://www.coinchange.io
 repository: 

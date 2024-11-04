@@ -1,6 +1,6 @@
 ---
 wsId: buenbit
-title: Buenbit
+title: 'Buenbit: Invierte en el futuro'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.buengroup.buenbit
 appCountry: co
 idd: '1552402029'
 released: 2021-11-23
-updated: 2024-08-05
-version: 3.13.0
+updated: 2024-11-01
+version: 3.22.0
 stars: 4.8
 reviews: 11
-size: '107197440'
+size: '112573440'
 website: https://www.buenbit.com/
 repository: 
 issue: 

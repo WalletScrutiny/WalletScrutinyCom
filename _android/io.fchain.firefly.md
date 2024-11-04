@@ -19,9 +19,9 @@ repository: https://github.com/fchainio/firefly#readme
 issue: 
 icon: io.fchain.firefly.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
-date: 2024-01-31
+date: 2024-11-04
 signer: 
 reviewArchive: 
 twitter: 

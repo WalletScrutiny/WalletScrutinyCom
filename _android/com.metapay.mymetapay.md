@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.metapay.mymetapay.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
-date: 2023-08-15
+date: 2024-11-04
 signer: 
 reviewArchive: 
 twitter: 

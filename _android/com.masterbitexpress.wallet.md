@@ -7,8 +7,8 @@ users: 500
 appId: com.masterbitexpress.wallet
 appCountry: 
 released: 2018-04-21
-updated: 2024-08-17
-version: 1.1.1.73
+updated: 2024-11-01
+version: 1.1.1.83
 stars: 
 ratings: 
 reviews: 

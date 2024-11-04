@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.kisco.app.android.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-01-10
+date: 2024-11-04
 signer: 
 reviewArchive: 
 twitter: 

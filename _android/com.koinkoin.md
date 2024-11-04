@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.koinkoin.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2024-01-18
+date: 2024-11-04
 signer: 
 reviewArchive: 
 twitter: koinkoin13

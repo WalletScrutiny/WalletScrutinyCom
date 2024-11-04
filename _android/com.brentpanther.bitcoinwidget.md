@@ -11,7 +11,7 @@ updated: 2024-10-29
 version: 8.6.0
 stars: 4.1
 ratings: 2110
-reviews: 209
+reviews: 210
 size: 
 website: http://www.brentpanther.com
 repository: 

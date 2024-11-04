@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bitbay.BitBayPay.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-05-10
+date: 2024-11-04
 signer: 
 reviewArchive: 
 twitter: zondaglobal

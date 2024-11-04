@@ -8,11 +8,11 @@ appId: com.giottus.app
 appCountry: in
 idd: 1537068185
 released: 2021-01-27
-updated: 2024-09-02
-version: 3.0.25
+updated: 2024-11-04
+version: 3.0.26
 stars: 4.4
-reviews: 948
-size: '77678592'
+reviews: 947
+size: '90986496'
 website: 
 repository: 
 issue: 

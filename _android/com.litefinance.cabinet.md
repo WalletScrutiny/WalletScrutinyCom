@@ -9,9 +9,9 @@ appCountry:
 released: 2022-02-09
 updated: 2024-09-24
 version: v1.2.8.1966-cabinet-legacy-release
-stars: 4.5
+stars: 4.4
 ratings: 
-reviews: 46
+reviews: 47
 size: 
 website: https://www.liteforex.eu
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: MEXC-Buy & Sell Bitcoin
+title: 'MEXC: Buy Bitcoin BTC & Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 5000000
 appId: com.mexcpro.client
 appCountry: 
 released: 2020-07-23
-updated: 2024-10-16
+updated: 2024-11-03
 version: VARY
-stars: 3.3
+stars: 3.4
 ratings: 12371
-reviews: 848
+reviews: 850
 size: 
 website: https://www.mexc.com
 repository: 

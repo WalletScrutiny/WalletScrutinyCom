@@ -12,7 +12,7 @@ updated: 2024-08-28
 version: 2.30.0
 stars: 4.1
 ratings: 2069
-reviews: 61
+reviews: 62
 size: 
 website: https://status.im
 repository: 

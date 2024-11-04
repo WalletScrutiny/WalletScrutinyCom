@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.tarmex.tarmex.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-11-02
+date: 2024-11-04
 signer: 
 reviewArchive: 
 twitter: Tarmexio

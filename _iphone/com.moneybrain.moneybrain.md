@@ -8,11 +8,11 @@ appId: com.moneybrain.moneybrain
 appCountry: gb
 idd: 1476827262
 released: 2019-10-15
-updated: 2024-10-16
-version: 2.3.204
+updated: 2024-11-02
+version: 3.0.18
 stars: 4.9
 reviews: 8
-size: '31872000'
+size: '46358528'
 website: https://www.moneybrain.com
 repository: 
 issue: 

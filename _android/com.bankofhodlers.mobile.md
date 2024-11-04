@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bankofhodlers.mobile.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-05-08
+date: 2024-11-04
 signer: 
 reviewArchive: 
 twitter: Vauld_

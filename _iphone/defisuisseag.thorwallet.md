@@ -1,6 +1,6 @@
 ---
 wsId: thorWalletDeFi
-title: 'Vultisig DeFi: Crypto Wallet'
+title: 'VultiWallet: Crypto Wallet'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: defisuisseag.thorwallet
 appCountry: ch
 idd: '1592064324'
 released: 2021-11-28
-updated: 2024-10-14
-version: 3.0.7
+updated: 2024-11-02
+version: 3.0.9
 stars: 4.8
 reviews: 37
-size: '83513344'
+size: '83484672'
 website: http://vultisig.com
 repository: 
 issue: 

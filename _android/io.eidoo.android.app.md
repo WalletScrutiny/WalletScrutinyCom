@@ -12,7 +12,7 @@ updated: 2023-07-18
 version: 1.14.2
 stars: 1.8
 ratings: 
-reviews: 3
+reviews: 4
 size: 
 website: https://eidoo.app/
 repository: 

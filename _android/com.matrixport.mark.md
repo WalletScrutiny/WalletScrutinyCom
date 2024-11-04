@@ -1,6 +1,6 @@
 ---
 wsId: matrixport
-title: 'Matrixport: Buy & Earn Crypto'
+title: 'Matrixport: Crypto Services'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 100000
 appId: com.matrixport.mark
 appCountry: cn
 released: 2019-10-23
-updated: 2024-10-30
-version: 2.8.9
+updated: 2024-11-02
+version: 2.9.0
 stars: 3.9
 ratings: 1103
 reviews: 862

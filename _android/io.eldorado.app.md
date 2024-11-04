@@ -10,9 +10,9 @@ appCountry:
 released: 2022-04-19
 updated: 2024-10-04
 version: 1.3.1101
-stars: 4.8
+stars: 4.7
 ratings: 
-reviews: 277
+reviews: 281
 size: 
 website: https://eldorado.io
 repository: 

@@ -8,7 +8,7 @@ users: 50000
 appId: com.tapbit.android
 appCountry: 
 released: 2022-09-20
-updated: 2024-10-12
+updated: 2024-10-31
 version: 3.7.6
 stars: 4.9
 ratings: 

@@ -8,8 +8,8 @@ users: 100000
 appId: com.arzjoo
 appCountry: 
 released: 2019-04-25
-updated: 2023-07-26
-version: 3.0.1
+updated: 2024-10-28
+version: 3.2.2
 stars: 4
 ratings: 3741
 reviews: 81
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.arzjoo.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2024-07-22
+date: 2024-11-04
 signer: 
 reviewArchive: 
 twitter: arzjoo

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.quadency.app.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2024-03-01
+date: 2024-11-04
 signer: 
 reviewArchive: 
 twitter: quadency

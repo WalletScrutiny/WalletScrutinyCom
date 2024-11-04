@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: MB | Investimentos Digitais
+title: 'MB | Mercado Bitcoin: criptos'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 1000000
 appId: br.com.mercadobitcoin.android
 appCountry: 
 released: 2019-07-25
-updated: 2024-10-25
-version: 2.38.1
+updated: 2024-11-02
+version: 2.39.0
 stars: 4
 ratings: 51097
 reviews: 66

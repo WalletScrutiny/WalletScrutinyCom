@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.payplux.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nowallet
-date: 2023-10-30
+date: 2024-11-04
 signer: 
 reviewArchive: 
 twitter: PayPlux

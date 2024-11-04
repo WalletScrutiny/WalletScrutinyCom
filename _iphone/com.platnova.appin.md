@@ -11,7 +11,7 @@ released: 2022-04-26
 updated: 2024-10-03
 version: 1.0.1
 stars: 3.5
-reviews: 46
+reviews: 47
 size: '169598976'
 website: https://platnova.com
 repository: 

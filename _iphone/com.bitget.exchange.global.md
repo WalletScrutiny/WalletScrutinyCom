@@ -11,7 +11,7 @@ released: 2018-11-29
 updated: 2024-10-31
 version: 2.45.0
 stars: 4.4
-reviews: 1331
+reviews: 1344
 size: '386644992'
 website: https://www.bitget.com/en
 repository: 

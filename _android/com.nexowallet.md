@@ -1,6 +1,6 @@
 ---
 wsId: nexo
-title: 'Nexo: Buy Bitcoin & Crypto'
+title: 'Nexo: Crypto Wealth Platform'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 5000000
 appId: com.nexowallet
 appCountry: 
 released: 2019-06-28
-updated: 2024-10-11
-version: 4.13.0
+updated: 2024-11-01
+version: 5.0.1
 stars: 4.1
 ratings: 21149
-reviews: 1819
+reviews: 1818
 size: 
 website: https://nexo.com
 repository: 

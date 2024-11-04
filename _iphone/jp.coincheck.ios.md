@@ -10,7 +10,7 @@ released: 2015-01-21
 updated: 2024-10-30
 version: 4.13.17
 stars: 4.3
-reviews: 101061
+reviews: 101095
 size: '76614656'
 website: https://coincheck.com
 repository: 

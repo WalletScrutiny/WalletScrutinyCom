@@ -10,8 +10,8 @@ idd: 1436296839
 released: 2018-09-23
 updated: 2024-10-30
 version: v8.8.1
-stars: 2
-reviews: 8
+stars: 2.3
+reviews: 9
 size: '77378560'
 website: https://zelcore.io
 repository: 

@@ -19,9 +19,9 @@ repository:
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/494
 icon: com.bitcoin.bankwallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2024-03-30
+date: 2024-11-04
 signer: 
 reviewArchive: 
 twitter: 

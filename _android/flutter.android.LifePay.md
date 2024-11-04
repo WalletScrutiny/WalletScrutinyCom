@@ -8,8 +8,8 @@ users: 1000
 appId: flutter.android.LifePay
 appCountry: 
 released: 2022-09-21
-updated: 2024-10-29
-version: 2.2.1
+updated: 2024-11-02
+version: 2.3.0
 stars: 
 ratings: 
 reviews: 

@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: pxcard_official
 social:
-- https://www.youtube.com/channel/UCYsNryvy53XR1UYVKmyHR0g 
+- https://www.youtube.com/channel/UCYsNryvy53XR1UYVKmyHR0g
 features: 
 
 ---

@@ -20,9 +20,9 @@ repository: https://github.com/get10101/10101/
 issue: 
 icon: finance.get10101.app.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: fewusers
-date: 2024-10-22
+date: 2024-11-04
 signer: 
 reviewArchive: 
 twitter: get10101

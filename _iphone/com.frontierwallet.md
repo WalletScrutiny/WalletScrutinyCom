@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.frontierwallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
-date: 2022-01-13
+date: 2024-11-04
 signer: 
 reviewArchive: 
 twitter: FrontierDotXYZ
