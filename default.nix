@@ -9,8 +9,7 @@ pkgs.mkShell {
     diffoscope
     
     # Android build tools
-    androidenv.androidPkgs_9_0.platform-tools
-    androidenv.androidPkgs_9_0.sdk
+    androidsdk
     gradle
     jdk11
     
@@ -21,7 +20,7 @@ pkgs.mkShell {
 
   # Environment variables
   shellHook = ''
-    export ANDROID_HOME=${pkgs.androidenv.androidPkgs_9_0.sdk}/libexec/android-sdk
+    export ANDROID_HOME=${pkgs.androidsdk}/libexec/android-sdk
     export PATH=$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH
   '';
-} 
+}
