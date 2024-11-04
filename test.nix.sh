@@ -170,7 +170,7 @@ cleanup() {
   rm -rf $fromPlayFolder $workDir $fromBuildUnzipped $fromPlayUnzipped
 }
 
-testScript="$TEST_ANDROID_DIR/$appId.sh"
+testScript="$TEST_ANDROID_DIR/$appId.nix.sh"
 if [ ! -f "$testScript" ]; then
   echo "Unknown appId $appId"
   echo
