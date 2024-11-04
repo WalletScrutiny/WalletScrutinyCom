@@ -3,60 +3,75 @@
 let
   versionName = "10.16";
   
+  # Configure Android SDK environment
+  androidComposition = pkgs.androidenv.composeAndroidPackages {
+    toolsVersion = "26.1.1";
+    platformToolsVersion = "33.0.3";
+    buildToolsVersions = [ "30.0.3" ];
+    includeEmulator = false;
+    includeSources = false;
+    platformVersions = [ "30" ];
+    includedExtras = [
+      "extras;android;m2repository"
+      "extras;google;m2repository"
+    ];
+  };
+
+  # Create a custom sdkmanager that automatically accepts licenses
   sdkmanager-with-licenses = pkgs.writeShellScriptBin "sdkmanager-with-licenses" ''
-    yes | ${pkgs.androidsdk}/bin/sdkmanager --licenses >/dev/null || true
-    exec ${pkgs.androidsdk}/bin/sdkmanager "$@"
+    yes | ${androidComposition.androidsdk}/bin/sdkmanager --licenses >/dev/null || true
+    exec ${androidComposition.androidsdk}/bin/sdkmanager "$@"
   '';
 
 in pkgs.stdenv.mkDerivation rec {
   pname = "bitcoin-wallet";
   version = versionName;
 
+  # Fetch source from git repository
   src = pkgs.fetchGit {
     url = "https://github.com/bitcoin-wallet/bitcoin-wallet.git";
     ref = "v${version}";
-    # rev will be determined automatically
   };
 
+  # Define build dependencies
   nativeBuildInputs = with pkgs; [
     gradle
     jdk11
-    androidenv.androidPkgs_9_0.platform-tools
-    androidenv.androidPkgs_9_0.sdk
+    androidComposition.platform-tools
     wget
     disorderfs
   ];
 
-  # Set environment variables
-  ANDROID_HOME = "${pkgs.androidenv.androidPkgs_9_0.sdk}/share/android-sdk";
+  # Set environment variables for the build
+  ANDROID_HOME = "${androidComposition.androidsdk}/share/android-sdk";
   GRADLE_OPTS = "-Dorg.gradle.daemon=false -Dorg.gradle.parallel=false";
-
-  # Build phase
+  
+  # Build phase - compile the APK
   buildPhase = ''
-    # Accept licenses
+    # Accept Android SDK licenses
     ${sdkmanager-with-licenses}/bin/sdkmanager-with-licenses
 
-    # Create sorted directory
+    # Create sorted directory for reproducible builds
     mkdir -p $TMPDIR/sorted
     disorderfs --sort-dirents=yes --reverse-dirents=no $PWD $TMPDIR/sorted
     cd $TMPDIR/sorted
 
-    # Build APK
+    # Build the release APK
     gradle --no-build-cache --no-daemon --no-parallel clean :wallet:assembleRelease
   '';
 
-  # Install phase
+  # Install phase - copy the built APK to output
   installPhase = ''
     mkdir -p $out/apk
     cp app/wallet/build/outputs/apk/prod/release/bitcoin-wallet-prod-release-unsigned.apk $out/apk/
   '';
 
-  # Disable checks that could interfere with the build
+  # Only run necessary phases and disable potentially problematic checks
   phases = [ "unpackPhase" "buildPhase" "installPhase" ];
   dontFixup = true;
   dontStrip = true;
 
-  # Metadata
+  # Package metadata
   meta = with pkgs.lib; {
     description = "Bitcoin Wallet for Android";
     homepage = "https://github.com/bitcoin-wallet/bitcoin-wallet";

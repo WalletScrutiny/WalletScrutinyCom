@@ -18,6 +18,9 @@ in pkgs.stdenv.mkDerivation {
     pkgs.wget
   ];
 
+  # Skip the unpackPhase as we are not using a src attribute
+  dontUnpack = true;
+
   buildPhase = ''
     # Create the working directory
     mkdir -p ${workDir}
@@ -27,7 +30,7 @@ in pkgs.stdenv.mkDerivation {
     # Accept licenses for Android SDK
     yes | ${pkgs.sdkmanager}/bin/sdkmanager --licenses >/dev/null || true
 
-    # Setup with disorderfs for reproducible builds
+    # Set up with disorderfs for reproducible builds
     mkdir /sorted/
     ${pkgs.disorderfs}/bin/disorderfs --sort-dirents=yes --reverse-dirents=no ${workDir}/app /sorted/
     cd /sorted/
@@ -40,6 +43,7 @@ in pkgs.stdenv.mkDerivation {
   '';
 
   installPhase = ''
+    # Create output directory and copy the built APK
     mkdir -p $out/bin
     cp ${builtApk} $out/bin/
   '';
