@@ -15,7 +15,7 @@ in pkgs.stdenv.mkDerivation rec {
   src = pkgs.fetchGit {
     url = "https://github.com/bitcoin-wallet/bitcoin-wallet.git";
     ref = "v${version}";
-    # rev wird automatisch ermittelt
+    # rev will be determined automatically
   };
 
   nativeBuildInputs = with pkgs; [
@@ -27,16 +27,16 @@ in pkgs.stdenv.mkDerivation rec {
     disorderfs
   ];
 
-  # Setze Umgebungsvariablen
+  # Set environment variables
   ANDROID_HOME = "${pkgs.androidenv.androidPkgs_9_0.sdk}/share/android-sdk";
   GRADLE_OPTS = "-Dorg.gradle.daemon=false -Dorg.gradle.parallel=false";
 
-  # Build-Phase
+  # Build phase
   buildPhase = ''
-    # Akzeptiere Lizenzen
+    # Accept licenses
     ${sdkmanager-with-licenses}/bin/sdkmanager-with-licenses
 
-    # Erstelle sortiertes Verzeichnis
+    # Create sorted directory
     mkdir -p $TMPDIR/sorted
     disorderfs --sort-dirents=yes --reverse-dirents=no $PWD $TMPDIR/sorted
     cd $TMPDIR/sorted
@@ -45,18 +45,18 @@ in pkgs.stdenv.mkDerivation rec {
     gradle --no-build-cache --no-daemon --no-parallel clean :wallet:assembleRelease
   '';
 
-  # Install-Phase
+  # Install phase
   installPhase = ''
     mkdir -p $out/apk
     cp app/wallet/build/outputs/apk/prod/release/bitcoin-wallet-prod-release-unsigned.apk $out/apk/
   '';
 
-  # Deaktiviere Prüfungen, die den Build stören könnten
+  # Disable checks that could interfere with the build
   phases = [ "unpackPhase" "buildPhase" "installPhase" ];
   dontFixup = true;
   dontStrip = true;
 
-  # Metadaten
+  # Metadata
   meta = with pkgs.lib; {
     description = "Bitcoin Wallet for Android";
     homepage = "https://github.com/bitcoin-wallet/bitcoin-wallet";
