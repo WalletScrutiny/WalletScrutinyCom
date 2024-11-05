@@ -25,7 +25,7 @@ issue:
 icon: secuxstonew10.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nosource
 date: 2022-11-24
 signer: 
 reviewArchive: 
@@ -53,6 +53,35 @@ features:
 - The device can connect to a web portal called [SecuXess](https://wallet.secuxtech.com/secuxess/#/) via USB  or Bluetooth (through a PC). 
 - More information about [SecuXess](https://secuxtech.com/howitworks/web/).
 - The portal can be used to "Add Accounts, Send and Receive".
+
+## Updated Review 2024-11-01
+
+They have replied through an email dated 2022-12-05: 
+
+1. Is your product open source? or merely source-available?
+
+    > Our products are currently open-source for some codes. We are planning to make our product firmware more open-sourced in Q1/2023.
+    > However some source codes are highly related security designs which will still be closed source to ensure our products from potential risk and been hacked.
+
+2. Is the SE solely responsible for the creation of entropy or the creation of the master key?
+
+    > SE is used to create the master (private) key and store it in SE with a high degree of security, even without leaving SE when signing transactions.
+
+3. Where do the firmware updates come from?
+
+    > Our product firmware is developed and maintained by our technical development team for adding new features, improving performance and fixing bugs.
+
+4. Where do the MCU and SE firmware get loaded from?
+
+    > SecuX has hosted a firmware update server and only the authorized SecuX products can access SecuX firmware update service.
+
+5. Is there a way to verify their fingerprints?
+
+    > There is a secure mechanism between firmware and device, which will verify the authenticity of the firmware by its signature and hash value of the loaded firmware.
+
+The partial availability of some elements of their code, means that this device will get a verdict of **no source-availability**. As mentioned in (2), the sole source of entropy is in the closed source SE, making it trivial to hide a backdoor using weak entropy.
+
+## Previous Review 2022-11-24
 
 ## Are the private keys shared with another device? 
 
