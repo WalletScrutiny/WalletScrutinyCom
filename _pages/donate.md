@@ -189,7 +189,7 @@ please donate using traditional or Lightning bitcoin wallets below.
         <option value="BTC">BTC</option>
       </select>
     </div>
-    <button class="submit" name="submit" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor">Pay</button>
+    <button class="submit" name="submit" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor">Donate</button>
   </div>
 </form>
 
