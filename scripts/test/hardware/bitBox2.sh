@@ -3,15 +3,38 @@
 ### provide this script with the version without "v" and the published buildHash
 
 version=$1
+ARCHIVE=/tmp  # Set ARCHIVE to /tmp to ensure write permissions
 
 # recreate and cd into test folder
-rm -rf ~/wsTest
+if [ -d "~/wsTest" ]; then
+  read -p "Directory ~/wsTest already exists. Would you like to use sudo to remove it? (y/n): " response
+  if [[ "$response" == "y" ]]; then
+    sudo rm -rf ~/wsTest
+  else
+    echo "Aborting script as ~/wsTest already exists and cannot be removed."
+    exit 1
+  fi
+fi
+
 mkdir ~/wsTest
 cd ~/wsTest
 
+# clone the repository
+if [ -d "bitbox02-firmware" ]; then
+  read -p "Directory bitbox02-firmware already exists. Would you like to use sudo to remove it? (y/n): " response
+  if [[ "$response" == "y" ]]; then
+    sudo rm -rf bitbox02-firmware
+  else
+    echo "Aborting script as bitbox02-firmware already exists and cannot be removed."
+    exit 1
+  fi
+fi
+
 git clone https://github.com/digitalbitbox/bitbox02-firmware
 cd bitbox02-firmware/
-wget https://github.com/digitalbitbox/bitbox02-firmware/releases/download/firmware-btc-only%2Fv${version}/firmware-btc.v${version}.signed.bin
+
+# Download the firmware using curl with automatic redirection handling
+curl -L -o firmware-btc.v${version}.signed.bin https://github.com/digitalbitbox/bitbox02-firmware/releases/download/firmware-btc-only%2Fv${version}/firmware-btc.v${version}.signed.bin
 
 # keep a copy of signed download for later ...
 cp firmware-btc.v${version}.signed.bin $ARCHIVE/bitbox02-firmware-btc.v${version}.signed.bin
