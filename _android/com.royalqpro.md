@@ -10,9 +10,9 @@ appCountry:
 released: 2022-02-22
 updated: 2024-03-19
 version: '3.0'
-stars: 
+stars: 4.8
 ratings: 
-reviews: 
+reviews: 3
 size: 
 website: https://royalqs.com
 repository: 

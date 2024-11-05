@@ -12,7 +12,7 @@ binaries: https://coldcard.com/downloads/
 dimensions:
 - 120
 - 75
-- 22 
+- 22
 weight: 93
 provider: Coinkite, Inc.
 providerWebsite: https://coinkite.com
@@ -31,12 +31,12 @@ signer: d840fa4e83ebc7b0f961f30f68d795bed61271e2314dda4ab0eb0b8bfe7192f4
 reviewArchive:
 - date: 2024-08-12
   version: 1.2.3Q
-  appHash: 54da941c8df84fcb84adcc62fdd3ee97d1fc12e2a9a648551ca614fcbacade3f 
+  appHash: 54da941c8df84fcb84adcc62fdd3ee97d1fc12e2a9a648551ca614fcbacade3f
   gitRevision: 0eae1408092d9dc6c7c7d4ad328c4f32fa968325
   verdict: reproducible
 - date: 2024-05-31
   version: 1.2.1Q
-  appHash: 90b1edfbe194b093258f9cda8f4add4aa3317e9ea205ff35914da7d91410fdae # Hash of the signed firmware
+  appHash: 90b1edfbe194b093258f9cda8f4add4aa3317e9ea205ff35914da7d91410fdae
   gitRevision: f75bca706d73b85a627828802bc757f705bd9921
   verdict: reproducible
 twitter: COLDCARDwallet

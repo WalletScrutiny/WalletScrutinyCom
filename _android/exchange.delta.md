@@ -9,7 +9,7 @@ appId: exchange.delta
 appCountry: nz
 released: 2021-05-07
 updated: 2024-10-16
-version: 1.11.1
+version: 1.12.1
 stars: 4
 ratings: 
 reviews: 

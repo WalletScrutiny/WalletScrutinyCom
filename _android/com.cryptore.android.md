@@ -8,8 +8,8 @@ users: 10000
 appId: com.cryptore.android
 appCountry: 
 released: 2021-12-16
-updated: 2024-10-14
-version: 1.2.1
+updated: 2024-11-05
+version: 1.2.2
 stars: 4.8
 ratings: 
 reviews: 5

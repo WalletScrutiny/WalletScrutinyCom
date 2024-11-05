@@ -9,8 +9,8 @@ appId: com.uniswap.mobile
 appCountry: 
 released: 2023-10-30
 updated: 2024-10-28
-version: 1.37.1
-stars: 4.6
+version: '1.38'
+stars: 4.7
 ratings: 
 reviews: 282
 size: 

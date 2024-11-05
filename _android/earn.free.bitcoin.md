@@ -12,7 +12,7 @@ updated: 2024-02-26
 version: '1.9'
 stars: 4.5
 ratings: 
-reviews: 4119
+reviews: 4120
 size: 
 website: http://freebitcoinapp.net/
 repository: 

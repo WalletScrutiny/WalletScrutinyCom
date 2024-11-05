@@ -8,8 +8,8 @@ users: 50000
 appId: com.deribit
 appCountry: 
 released: 2018-01-10
-updated: 2024-08-13
-version: 3.10.0
+updated: 2024-10-25
+version: 3.11.0
 stars: 4
 ratings: 
 reviews: 5

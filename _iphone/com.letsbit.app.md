@@ -11,7 +11,7 @@ released: 2022-12-07
 updated: 2024-10-28
 version: 1.38.0
 stars: 4.4
-reviews: 330
+reviews: 331
 size: '71165952'
 website: https://www.lbfinanzas.com
 repository: 

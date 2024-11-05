@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/bitcastle.English
 - https://t.me/bitcastle_official
 redirect_from: 
-developerName: bitcastle LLC
+developerName: bitcastle Limited
 features: 
 
 ---
