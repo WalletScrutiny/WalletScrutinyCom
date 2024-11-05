@@ -193,7 +193,6 @@ contact the developers via <a href="mailto:info@WalletScrutiny.com">email</a>,
 
 {% include donationSummary.html %}
 
-* Due to [this bug](https://github.com/btcpayserver/btcpayserver/issues/1343) in BtcPay-Server, at least 5mBTC are missing from the list above. Sorry for that.
 * 1 BTC = 100 000 000 sat
 * Amounts are rounded to the nearest zero. 
 * Timestamps aren’t specific to the minute so that blockchain analysis companies can’t easily identify on-chain transactions.
