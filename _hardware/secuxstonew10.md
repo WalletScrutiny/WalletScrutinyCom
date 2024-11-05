@@ -79,7 +79,7 @@ They have replied through an email dated 2022-12-05:
 
     > There is a secure mechanism between firmware and device, which will verify the authenticity of the firmware by its signature and hash value of the loaded firmware.
 
-The partial availability of some elements of their code, means that this device will get a verdict of **no source-availability**
+The partial availability of some elements of their code, means that this device will get a verdict of **no source-availability**. As mentioned in (2), the sole source of entropy is in the closed source SE, making it trivial to hide a backdoor using weak entropy.
 
 ## Previous Review 2022-11-24
 
