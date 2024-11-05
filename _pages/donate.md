@@ -141,7 +141,8 @@ function updateAspect(radioBtn) {
 
 function update() {
   var amount = document.getElementById('btcpay-input-price_7826565').value
-  if (!amount.match(/^[\.0-9]+$/)) {return
+  if (!amount.match(/^[\.0-9]+$/)) {
+    return
   }
 }
 </script>
@@ -193,7 +194,7 @@ contact the developers via <a href="mailto:info@WalletScrutiny.com">email</a>,
 {% include donationSummary.html %}
 
 * Due to [this bug](https://github.com/btcpayserver/btcpayserver/issues/1343) in BtcPay-Server, at least 5mBTC are missing from the list above. Sorry for that.
-* 1BTC = 1 000mBTC = 1 000 000µBTC = 100 000 000sat
+* 1 BTC = 100 000 000 sat
 * Amounts are rounded to the nearest zero. 
 * Timestamps aren’t specific to the minute so that blockchain analysis companies can’t easily identify on-chain transactions.
 
