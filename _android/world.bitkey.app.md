@@ -21,9 +21,14 @@ icon: world.bitkey.app.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-08-30
+date: 2024-09-23
 signer: c0d0f9da7158cde788d0281e9ebd07034178165584d635f7ce17f77c037d961a
 reviewArchive:
+- date: 2024-08-30
+  version: 2024.68.0 (1)
+  appHash: 0979d68dc323e95dbb5ddb4be259d7d0fcd83eccab4d5af5dd18a4632d216fa1
+  gitRevision: 65f0d9d3018e6f4e8a32f53de5263b6c2e132964
+  verdict: reproducible
 - date: 2024-08-30
   version: 2024.67.0 (1)
   appHash: a3699344ebea4262a7d5652a6ea0a9bf45ab1b3a73423fae3e289c05f3c9ee72
@@ -98,13 +103,13 @@ Here are the available recovery options [offered by Bitkey.](https://support.bit
 
 This is the [documentation](https://github.com/proto-at-block/bitkey/blob/main/app/verifiable-build/android/README.md) for the build process for the Bitkey Android app, and these are the [preparation instructions](https://github.com/proto-at-block/bitkey/blob/main/app/verifiable-build/android/README.md#prep-work).
 
-## Update for version 2024.68.0
+## Update for version 2024.69.0
 
-- We are still encountering cloning errors if the https protocol is used when performed on our local machine. When running `$ git submodule update --init --recursive` multiple network errors are encountered primarily involving gecko-sdk
+- For version 2024.69.0, we've had our machine freeze up several times if we perform the verification while the phone is connected. As before, we proceeded with the build by modifying `verify-android-apk` and `convert-aab-to-apks`.
 
 Verification can be quite troublesome if the Internet connection of the user is not fast enough. 
 
-**Note:** As of version 2024.68.0, the [modifications](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/_android/world.bitkey.app.md#update-2024-07-26-for-version-2024630-4) I made to Bitkey's script and methodology still apply. I have [submitted a PR](https://github.com/proto-at-block/bitkey/pull/4) to them.
+**Note:** As of version 2024.69.0, the [modifications](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/_android/world.bitkey.app.md#update-2024-07-26-for-version-2024630-4) I made to Bitkey's script and methodology still works. I have [submitted a PR](https://github.com/proto-at-block/bitkey/pull/4) to them.
 
 The modifications are for the following scripts: 
 
@@ -130,7 +135,7 @@ git submodule update --init --recursive
 - Modify **verify-android-apk** and **convert-aab-to-apks** as described above.
 
 - Generate the corresponding **device-spec.json** using bundletool. (See [Android Developer Documentation](https://developer.android.com/tools/bundletool))
-
+- **Important note:** Do not forget the other preparatory work found in the verification instructions.
 - We then execute `./bitkey/app/verifiable-build/android/verification/verify-android-apk -d /path/to/apk/directory -s /path/to/device-spec.json /path/to/bitkey/repo /path/to/build/directory`
 
 # Successful Build
@@ -143,16 +148,16 @@ Comparing builds:
 + '[' 2 -ne 2 ']'
 + which diff
 + which /usr/local/android-sdk/build-tools/34.0.0/aapt2
-+ lhs_comparable=/tmp/build/world.bitkey.app/2024.68.0/from-device/comparable
-+ lhs_apks=/tmp/build/world.bitkey.app/2024.68.0/from-device/normalized-names
-+ rhs_comparable=/tmp/build/world.bitkey.app/2024.68.0/locally-built/comparable
-+ rhs_apks=/tmp/build/world.bitkey.app/2024.68.0/locally-built/normalized-names
-++ find /tmp/build/world.bitkey.app/2024.68.0/from-device/normalized-names -maxdepth 1 -mindepth 1 -type f -exec basename '{}' ';'
++ lhs_comparable=/tmp/world.bitkey.app_2024.69.0/from-device/comparable
++ lhs_apks=/tmp/world.bitkey.app_2024.69.0/from-device/normalized-names
++ rhs_comparable=/tmp/world.bitkey.app_2024.69.0/locally-built/comparable
++ rhs_apks=/tmp/world.bitkey.app_2024.69.0/locally-built/normalized-names
+++ find /tmp/world.bitkey.app_2024.69.0/from-device/normalized-names -maxdepth 1 -mindepth 1 -type f -exec basename '{}' ';'
 + lhs_apk_files='base.apk
 arm64_v8a.apk
 en.apk
 xxhdpi.apk'
-++ find /tmp/build/world.bitkey.app/2024.68.0/locally-built/normalized-names -maxdepth 1 -mindepth 1 -type f -exec basename '{}' ';'
+++ find /tmp/world.bitkey.app_2024.69.0/locally-built/normalized-names -maxdepth 1 -mindepth 1 -type f -exec basename '{}' ';'
 + rhs_apk_files='base.apk
 arm64_v8a.apk
 en.apk
@@ -170,23 +175,23 @@ xxhdpi.apk'
 base.apk
 en.apk
 xxhdpi.apk'
-++ diff -x resources.arsc -r /tmp/build/world.bitkey.app/2024.68.0/from-device/comparable /tmp/build/world.bitkey.app/2024.68.0/locally-built/comparable
+++ diff -x resources.arsc -r /tmp/world.bitkey.app_2024.69.0/from-device/comparable /tmp/world.bitkey.app_2024.69.0/locally-built/comparable
 + differences=
 + diff_exit_status=0
 + diff_result=0
 + declare -a aapt_differences
 + for apk_file in $all_apk_files
-+ '[' '!' -f /tmp/build/world.bitkey.app/2024.68.0/from-device/normalized-names/arm64_v8a.apk ']'
-+ '[' '!' -f /tmp/build/world.bitkey.app/2024.68.0/locally-built/normalized-names/arm64_v8a.apk ']'
-+ unzip -l /tmp/build/world.bitkey.app/2024.68.0/from-device/normalized-names/arm64_v8a.apk resources.arsc
-Archive:  /tmp/build/world.bitkey.app/2024.68.0/from-device/normalized-names/arm64_v8a.apk
++ '[' '!' -f /tmp/world.bitkey.app_2024.69.0/from-device/normalized-names/arm64_v8a.apk ']'
++ '[' '!' -f /tmp/world.bitkey.app_2024.69.0/locally-built/normalized-names/arm64_v8a.apk ']'
++ unzip -l /tmp/world.bitkey.app_2024.69.0/from-device/normalized-names/arm64_v8a.apk resources.arsc
+Archive:  /tmp/world.bitkey.app_2024.69.0/from-device/normalized-names/arm64_v8a.apk
   Length      Date    Time    Name
 ---------  ---------- -----   ----
 ---------                     -------
         0                     0 files
 + lhs_contains_resources_exit_code=11
-+ unzip -l /tmp/build/world.bitkey.app/2024.68.0/locally-built/normalized-names/arm64_v8a.apk resources.arsc
-Archive:  /tmp/build/world.bitkey.app/2024.68.0/locally-built/normalized-names/arm64_v8a.apk
++ unzip -l /tmp/world.bitkey.app_2024.69.0/locally-built/normalized-names/arm64_v8a.apk resources.arsc
+Archive:  /tmp/world.bitkey.app_2024.69.0/locally-built/normalized-names/arm64_v8a.apk
   Length      Date    Time    Name
 ---------  ---------- -----   ----
 ---------                     -------
@@ -198,44 +203,44 @@ Archive:  /tmp/build/world.bitkey.app/2024.68.0/locally-built/normalized-names/a
 + echo 'Skipping aapt2 diff of arm64_v8a.apk as it doesn'\''t contain resources.arsc file'
 Skipping aapt2 diff of arm64_v8a.apk as it doesn't contain resources.arsc file
 + for apk_file in $all_apk_files
-+ '[' '!' -f /tmp/build/world.bitkey.app/2024.68.0/from-device/normalized-names/base.apk ']'
-+ '[' '!' -f /tmp/build/world.bitkey.app/2024.68.0/locally-built/normalized-names/base.apk ']'
-+ unzip -l /tmp/build/world.bitkey.app/2024.68.0/from-device/normalized-names/base.apk resources.arsc
-Archive:  /tmp/build/world.bitkey.app/2024.68.0/from-device/normalized-names/base.apk
++ '[' '!' -f /tmp/world.bitkey.app_2024.69.0/from-device/normalized-names/base.apk ']'
++ '[' '!' -f /tmp/world.bitkey.app_2024.69.0/locally-built/normalized-names/base.apk ']'
++ unzip -l /tmp/world.bitkey.app_2024.69.0/from-device/normalized-names/base.apk resources.arsc
+Archive:  /tmp/world.bitkey.app_2024.69.0/from-device/normalized-names/base.apk
   Length      Date    Time    Name
 ---------  ---------- -----   ----
-   124960  1981-01-01 01:01   resources.arsc
+   125032  1981-01-01 01:01   resources.arsc
 ---------                     -------
-   124960                     1 file
+   125032                     1 file
 + lhs_contains_resources_exit_code=0
-+ unzip -l /tmp/build/world.bitkey.app/2024.68.0/locally-built/normalized-names/base.apk resources.arsc
-Archive:  /tmp/build/world.bitkey.app/2024.68.0/locally-built/normalized-names/base.apk
++ unzip -l /tmp/world.bitkey.app_2024.69.0/locally-built/normalized-names/base.apk resources.arsc
+Archive:  /tmp/world.bitkey.app_2024.69.0/locally-built/normalized-names/base.apk
   Length      Date    Time    Name
 ---------  ---------- -----   ----
-   124960  1981-01-01 01:01   resources.arsc
+   125032  1981-01-01 01:01   resources.arsc
 ---------                     -------
-   124960                     1 file
+   125032                     1 file
 + rhs_contains_resources_exit_code=0
 + '[' 0 -ne 0 ']'
 + '[' 0 -ne 0 ']'
-++ /usr/local/android-sdk/build-tools/34.0.0/aapt2 diff /tmp/build/world.bitkey.app/2024.68.0/from-device/normalized-names/base.apk /tmp/build/world.bitkey.app/2024.68.0/locally-built/normalized-names/base.apk
+++ /usr/local/android-sdk/build-tools/34.0.0/aapt2 diff /tmp/world.bitkey.app_2024.69.0/from-device/normalized-names/base.apk /tmp/world.bitkey.app_2024.69.0/locally-built/normalized-names/base.apk
 + aapt_difference=
 + aapt_diff_exit_status=0
 + '[' '' '!=' '' ']'
 + diff_result=0
 + for apk_file in $all_apk_files
-+ '[' '!' -f /tmp/build/world.bitkey.app/2024.68.0/from-device/normalized-names/en.apk ']'
-+ '[' '!' -f /tmp/build/world.bitkey.app/2024.68.0/locally-built/normalized-names/en.apk ']'
-+ unzip -l /tmp/build/world.bitkey.app/2024.68.0/from-device/normalized-names/en.apk resources.arsc
-Archive:  /tmp/build/world.bitkey.app/2024.68.0/from-device/normalized-names/en.apk
++ '[' '!' -f /tmp/world.bitkey.app_2024.69.0/from-device/normalized-names/en.apk ']'
++ '[' '!' -f /tmp/world.bitkey.app_2024.69.0/locally-built/normalized-names/en.apk ']'
++ unzip -l /tmp/world.bitkey.app_2024.69.0/from-device/normalized-names/en.apk resources.arsc
+Archive:  /tmp/world.bitkey.app_2024.69.0/from-device/normalized-names/en.apk
   Length      Date    Time    Name
 ---------  ---------- -----   ----
     48684  1981-01-01 01:01   resources.arsc
 ---------                     -------
     48684                     1 file
 + lhs_contains_resources_exit_code=0
-+ unzip -l /tmp/build/world.bitkey.app/2024.68.0/locally-built/normalized-names/en.apk resources.arsc
-Archive:  /tmp/build/world.bitkey.app/2024.68.0/locally-built/normalized-names/en.apk
++ unzip -l /tmp/world.bitkey.app_2024.69.0/locally-built/normalized-names/en.apk resources.arsc
+Archive:  /tmp/world.bitkey.app_2024.69.0/locally-built/normalized-names/en.apk
   Length      Date    Time    Name
 ---------  ---------- -----   ----
     48684  1981-01-01 01:01   resources.arsc
@@ -244,24 +249,24 @@ Archive:  /tmp/build/world.bitkey.app/2024.68.0/locally-built/normalized-names/e
 + rhs_contains_resources_exit_code=0
 + '[' 0 -ne 0 ']'
 + '[' 0 -ne 0 ']'
-++ /usr/local/android-sdk/build-tools/34.0.0/aapt2 diff /tmp/build/world.bitkey.app/2024.68.0/from-device/normalized-names/en.apk /tmp/build/world.bitkey.app/2024.68.0/locally-built/normalized-names/en.apk
+++ /usr/local/android-sdk/build-tools/34.0.0/aapt2 diff /tmp/world.bitkey.app_2024.69.0/from-device/normalized-names/en.apk /tmp/world.bitkey.app_2024.69.0/locally-built/normalized-names/en.apk
 + aapt_difference=
 + aapt_diff_exit_status=0
 + '[' '' '!=' '' ']'
 + diff_result=0
 + for apk_file in $all_apk_files
-+ '[' '!' -f /tmp/build/world.bitkey.app/2024.68.0/from-device/normalized-names/xxhdpi.apk ']'
-+ '[' '!' -f /tmp/build/world.bitkey.app/2024.68.0/locally-built/normalized-names/xxhdpi.apk ']'
-+ unzip -l /tmp/build/world.bitkey.app/2024.68.0/from-device/normalized-names/xxhdpi.apk resources.arsc
-Archive:  /tmp/build/world.bitkey.app/2024.68.0/from-device/normalized-names/xxhdpi.apk
++ '[' '!' -f /tmp/world.bitkey.app_2024.69.0/from-device/normalized-names/xxhdpi.apk ']'
++ '[' '!' -f /tmp/world.bitkey.app_2024.69.0/locally-built/normalized-names/xxhdpi.apk ']'
++ unzip -l /tmp/world.bitkey.app_2024.69.0/from-device/normalized-names/xxhdpi.apk resources.arsc
+Archive:  /tmp/world.bitkey.app_2024.69.0/from-device/normalized-names/xxhdpi.apk
   Length      Date    Time    Name
 ---------  ---------- -----   ----
      9844  1981-01-01 01:01   resources.arsc
 ---------                     -------
      9844                     1 file
 + lhs_contains_resources_exit_code=0
-+ unzip -l /tmp/build/world.bitkey.app/2024.68.0/locally-built/normalized-names/xxhdpi.apk resources.arsc
-Archive:  /tmp/build/world.bitkey.app/2024.68.0/locally-built/normalized-names/xxhdpi.apk
++ unzip -l /tmp/world.bitkey.app_2024.69.0/locally-built/normalized-names/xxhdpi.apk resources.arsc
+Archive:  /tmp/world.bitkey.app_2024.69.0/locally-built/normalized-names/xxhdpi.apk
   Length      Date    Time    Name
 ---------  ---------- -----   ----
      9844  1981-01-01 01:01   resources.arsc
@@ -270,7 +275,7 @@ Archive:  /tmp/build/world.bitkey.app/2024.68.0/locally-built/normalized-names/x
 + rhs_contains_resources_exit_code=0
 + '[' 0 -ne 0 ']'
 + '[' 0 -ne 0 ']'
-++ /usr/local/android-sdk/build-tools/34.0.0/aapt2 diff /tmp/build/world.bitkey.app/2024.68.0/from-device/normalized-names/xxhdpi.apk /tmp/build/world.bitkey.app/2024.68.0/locally-built/normalized-names/xxhdpi.apk
+++ /usr/local/android-sdk/build-tools/34.0.0/aapt2 diff /tmp/world.bitkey.app_2024.69.0/from-device/normalized-names/xxhdpi.apk /tmp/world.bitkey.app_2024.69.0/locally-built/normalized-names/xxhdpi.apk
 + aapt_difference=
 + aapt_diff_exit_status=0
 + '[' '' '!=' '' ']'
@@ -278,6 +283,7 @@ Archive:  /tmp/build/world.bitkey.app/2024.68.0/locally-built/normalized-names/x
 + '[' 0 -eq 0 ']'
 + echo 'The builds are identical!'
 The builds are identical!
+
 ```
 
 
@@ -316,24 +322,24 @@ Binary files from-device/normalized-names/xxhdpi.apk and locally-built/normalize
 
 ## We ran diffoscope on: 
 
-- **unpacked/base/AndroidManifest.xml** and this is the [pastebin result](https://pastebin.com/KzQYFe6L)
-- **unpacked/base/resources.arsc** the [pastebin result](https://pastebin.com/get7j6HF)
-- **normalized-names/arm64_v8a.apk** - the [pastebin result](https://pastebin.com/2WkNiKaT)
-  - `danny@lw10:~/work/builds/world.bitkey.app/2024.67.0-1/success/3$ diffoscope --text bitkey-2024.67.0.1-arm6_v8a.apk.txt from-device/normalized-names/arm64_v8a.apk locally-built/normalized-names/arm64_v8a.apk`
-- **normalized-names/base.apk** - the [pastebin result](https://pastebin.com/E9DEu58p)
-  - `danny@lw10:~/work/builds/world.bitkey.app/2024.67.0-1/success/3$ diffoscope --text bitkey-2024.67.0.1-base.apk.txt from-device/normalized-names/base.apk locally-built/normalized-names/base.apk`
-- **normalized-names/en.apk** - the [pastebin result](https://pastebin.com/LLXWmZYW)
-  - `danny@lw10:~/work/builds/world.bitkey.app/2024.67.0-1/success/3$ diffoscope --text bitkey-2024.67.0.1-en.apk.txt from-device/normalized-names/en.apk locally-built/normalized-names/en.apk`
-- **normalized-names/xxhdpi.apk** - the [pastebin result](https://pastebin.com/MzkNNbJ8)
-  - `danny@lw10:~/work/builds/world.bitkey.app/2024.67.0-1/success/3$ diffoscope --text bitkey-2024.67.0.1-xxhdpi.apk.txt from-device/normalized-names/xxhdpi.apk locally-built/normalized-names/xxhdpi.apk`
-- **unpacked/base/res/xml/splits0.xml** - the [pastebin result](https://pastebin.com/LS54vYv7)
-  - `danny@lw10:~/work/builds/world.bitkey.app/2024.67.0-1/success/3$ diffoscope --text bitkey-2024.67.0.1-splits0.xml.txt from-device/unpacked/base/res/xml/splits0.xml locally-built/unpacked/base/res/xml/splits0.xml`
+- **unpacked/base/AndroidManifest.xml** and this is the [nosbin result](https://nosbin.com/nevent1qqsxksf3dzq8m9f48uksdnuv48zt4rsafhv6kwt4l22ay92uej2vjgcpzemhxue69uhkzarvv9ejumn0wd68ytnvv9hxgqg4waehxw309ajkgetw9ehx7um5wghxcctwvsq3wamnwvaz7tmwdaehgu3wvekhgtnhd9azucnf0gq3gamnwvaz7tmwdaehgu3wdau8gu3wv3jhvqgswaehxw309ahx7um5wgh8w6twv5q3jamnwvaz7tmwdaehgu3w0fjkyetyv4jjucmvda6kgqghwaehxw309aex2mrp0yhxxatjwfjkuapwveukjqg5waehxw309aex2mrp0yhxgctdw4eju6t0qyt8wumn8ghj7un9d3shjtnwdaeky6tw9e3k7mgprfmhxue69uhhyetvv9ujummjv9hxwetsd9kxctnyv4mqzxrhwden5te0wfjkccte9eekummjwsh8xmmrd9skcq4u7qx)
+- **unpacked/base/resources.arsc** the [nosbin result](https://nosbin.com/nevent1qqs23m9qg8asz8jqqaengklls6hd59ck98ckqtgnqypxufx0p6s5duspzemhxue69uhkzarvv9ejumn0wd68ytnvv9hxgqg4waehxw309ajkgetw9ehx7um5wghxcctwvsq3wamnwvaz7tmwdaehgu3wvekhgtnhd9azucnf0gq3gamnwvaz7tmwdaehgu3wdau8gu3wv3jhvqgswaehxw309ahx7um5wgh8w6twv5q3jamnwvaz7tmwdaehgu3w0fjkyetyv4jjucmvda6kgqghwaehxw309aex2mrp0yhxxatjwfjkuapwveukjqg5waehxw309aex2mrp0yhxgctdw4eju6t0qyt8wumn8ghj7un9d3shjtnwdaeky6tw9e3k7mgprfmhxue69uhhyetvv9ujummjv9hxwetsd9kxctnyv4mqzxrhwden5te0wfjkccte9eekummjwsh8xmmrd9skck5hfu5)
+- **normalized-names/arm64_v8a.apk** - the [nosbin result](https://nosbin.com/nevent1qqsd6kqd84znfu550v5ekwcw44seds5ml5n4p846q8u7x8s8w2f30sgpzemhxue69uhkzarvv9ejumn0wd68ytnvv9hxgqg4waehxw309ajkgetw9ehx7um5wghxcctwvsq3wamnwvaz7tmwdaehgu3wvekhgtnhd9azucnf0gq3gamnwvaz7tmwdaehgu3wdau8gu3wv3jhvqgswaehxw309ahx7um5wgh8w6twv5q3jamnwvaz7tmwdaehgu3w0fjkyetyv4jjucmvda6kgqghwaehxw309aex2mrp0yhxxatjwfjkuapwveukjqg5waehxw309aex2mrp0yhxgctdw4eju6t0qyt8wumn8ghj7un9d3shjtnwdaeky6tw9e3k7mgprfmhxue69uhhyetvv9ujummjv9hxwetsd9kxctnyv4mqzxrhwden5te0wfjkccte9eekummjwsh8xmmrd9skcgru62m)
+  - `danny@lw10:/tmp/world.bitkey.app_2024.69.0$ diffoscope --text diffoscope_world.bitkey.app_2024.69.0_norm_arm64_v8a.apk.txt from-device/normalized-names/arm64_v8a.apk locally-built/normalized-names/arm64_v8a.apk`
+- **normalized-names/base.apk** - the [pastebin result (nosbin error for this paste)](https://pastebin.com/UQ7rS7jB)
+  - `danny@lw10:/tmp/world.bitkey.app_2024.69.0$ diffoscope --text diffoscope_world.bitkey.app_2024.69.0_norm_base.apk.txt from-device/normalized-names/base.apk locally-built/normalized-names/base.apk`
+- **normalized-names/en.apk** - the [nosbin result](https://nosbin.com/nevent1qqswt27hqtuzpu8mpf28tss9k2l04y0ztffvm9xd0daeuv2rct7mehcpzemhxue69uhkzarvv9ejumn0wd68ytnvv9hxgqg4waehxw309ajkgetw9ehx7um5wghxcctwvsq3wamnwvaz7tmwdaehgu3wvekhgtnhd9azucnf0gq3gamnwvaz7tmwdaehgu3wdau8gu3wv3jhvqgswaehxw309ahx7um5wgh8w6twv5q3jamnwvaz7tmwdaehgu3w0fjkyetyv4jjucmvda6kgqghwaehxw309aex2mrp0yhxxatjwfjkuapwveukjqg5waehxw309aex2mrp0yhxgctdw4eju6t0qyt8wumn8ghj7un9d3shjtnwdaeky6tw9e3k7mgprfmhxue69uhhyetvv9ujummjv9hxwetsd9kxctnyv4mqzxrhwden5te0wfjkccte9eekummjwsh8xmmrd9skcqdwh02)
+  - `danny@lw10:/tmp/world.bitkey.app_2024.69.0$ diffoscope --text diffoscope_world.bitkey.app_2024.69.0_norm_en.apk.txt from-device/normalized-names/en.apk locally-built/normalized-names/en.apk`
+- **normalized-names/xxhdpi.apk** - the [nosbin result](https://nosbin.com/nevent1qqs853zu5qnychlvzckddvh65jhe2qxa3rypyvcg3ajzpmff37fcd5qpzemhxue69uhkzarvv9ejumn0wd68ytnvv9hxgqg4waehxw309ajkgetw9ehx7um5wghxcctwvsq3wamnwvaz7tmwdaehgu3wvekhgtnhd9azucnf0gq3gamnwvaz7tmwdaehgu3wdau8gu3wv3jhvqgswaehxw309ahx7um5wgh8w6twv5q3jamnwvaz7tmwdaehgu3w0fjkyetyv4jjucmvda6kgqghwaehxw309aex2mrp0yhxxatjwfjkuapwveukjqg5waehxw309aex2mrp0yhxgctdw4eju6t0qyt8wumn8ghj7un9d3shjtnwdaeky6tw9e3k7mgprfmhxue69uhhyetvv9ujummjv9hxwetsd9kxctnyv4mqzxrhwden5te0wfjkccte9eekummjwsh8xmmrd9skc38pzcc)
+  - `danny@lw10:/tmp/world.bitkey.app_2024.69.0$ diffoscope --text diffoscope_world.bitkey.app_2024.69.0_norm_xxhdpi.apk.txt from-device/normalized-names/xxhdpi.apk locally-built/normalized-names/xxhdpi.apk`
+- **unpacked/base/res/xml/splits0.xml** - the [nosbin result](https://nosbin.com/nevent1qqsy0723rel4tw5v6kqcwah6rwd9ylh7nl4z0pmcdlzjq925jwkpdcgpzemhxue69uhkzarvv9ejumn0wd68ytnvv9hxgqg4waehxw309ajkgetw9ehx7um5wghxcctwvsq3wamnwvaz7tmwdaehgu3wvekhgtnhd9azucnf0gq3gamnwvaz7tmwdaehgu3wdau8gu3wv3jhvqgswaehxw309ahx7um5wgh8w6twv5q3jamnwvaz7tmwdaehgu3w0fjkyetyv4jjucmvda6kgqghwaehxw309aex2mrp0yhxxatjwfjkuapwveukjqg5waehxw309aex2mrp0yhxgctdw4eju6t0qyt8wumn8ghj7un9d3shjtnwdaeky6tw9e3k7mgprfmhxue69uhhyetvv9ujummjv9hxwetsd9kxctnyv4mqzxrhwden5te0wfjkccte9eekummjwsh8xmmrd9skccdd06u)
+  - `danny@lw10:/tmp/world.bitkey.app_2024.69.0$ diffoscope --text diffoscope_world.bitkey.app_2024.69.0_unpacked_base_splits0.xml.txt from-device/unpacked/base/res/xml/splits0.xml locally-built/unpacked/base/res/xml/splits0.xml`
 
 ## Analysis of the diffoscope results:
 
 ### arm64_v8a.apk
    
-   Of particular interest is the human-readable portion of the diffoscope results:
+   Again, we observe the same addition to the 'official' version:
 
    ```
       AndroidManifest.xml (decoded)
@@ -349,7 +355,7 @@ Binary files from-device/normalized-names/xxhdpi.apk and locally-built/normalize
   │ │  </manifest>
    ```
 
-Like before, we find this segment shows that Google added this line: `<meta-data android:name="com.android.vending.derived.apk.id" android:value="2"/>`
+Similarly, the same segment is added: `<meta-data android:name="com.android.vending.derived.apk.id" android:value="2"/>`
 
 Digging a little bit deeper, we find that:
 
