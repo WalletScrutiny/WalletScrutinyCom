@@ -24,15 +24,15 @@ function serveIncrementalTask(done) {
   }).stdout.pipe(process.stdout);
 }
 
-function sassTask(cb) {
+function sassTask(done) {
   src('./_site/assets/css/*.css')
     .pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
     .pipe(dest('./_site/assets/css/'));
-  cb();
+  done();
 }
 
-async function minifyTask() {
-  return src('_site/index.html')
+function minifyTask(done) {
+  src('_site/index.html')
     .pipe(
       htmlmin({
         collapseWhitespace: true,
@@ -40,10 +40,11 @@ async function minifyTask() {
       })
     )
     .pipe(dest('_site'));
+  done();
 }
 
-async function minjsTask() {
-  return src('_site/**/*.js')
+function minjsTask(done) {
+  src('_site/**/*.js')
     .pipe(minify({
       ext: {
         min: '.jsm'
@@ -51,6 +52,7 @@ async function minjsTask() {
       ignoreFiles: ['*.min.js', '*-min.js']
     }))
     .pipe(dest('_site/'));
+  done();
 }
 
 function cleanjsTask(done) {
@@ -58,7 +60,7 @@ function cleanjsTask(done) {
   done();
 }
 
-async function renameTask() {
+function renameTask() {
   return src('./_site/**/*.jsm')
     .pipe(rename({ extname: '.js' }))
     .pipe(dest('./_site/'));
