@@ -27,11 +27,16 @@ repository: https://github.com/Cypherock/x1_wallet_firmware
 issue: 
 icon: cypherockx1.png
 bugbounty: 
-meta: outdated
+meta: ok
 verdict: reproducible
-date: 2023-05-25
+date: 2024-11-05
 signer: 
 reviewArchive:
+- data: 2023-05-25
+  version: 0.4.3075
+  appHash: 656945ae37510bb1b7452c97d27cd5b638ddb0119e44e9af5aa32e02302f458e
+  gitRevision: df67e48af949af6feceb8818552f44bb4245953a
+  verdict: reproducible
 - data: 2023-04-06
   version: 0.4.2307
   appHash: 09ed533290cdff4ca5f8148597a4d0a924ab5f10010a30ec2866abd39558a62d
@@ -84,115 +89,39 @@ From the [FAQ](https://www.cypherock.com/faq/): Can the company somehow steal th
 - List of tools required to successfully build the project can be found here: [Building project](https://github.com/Cypherock/x1_wallet_firmware/tree/v0.4.1290#building-project)
 - Sequence of commands run on docker can be found here: [Docker commands v0.4.1290](https://github.com/Cypherock/x1_wallet_firmware/blob/v0.4.1290/.github/workflows/containerized-build.yml)
 
-### Reproducing the Cypherock X1 Wallet Initial firmware v0.4.1290 on Windows 11
+# Update 2024-11-05 (Version 0.6.768)
+## Please see previous reproducible attempts in the archives below
 
-* On Git Bash Shell, checkout X1 Wallet firmware using tag:
-        
-```
-MINGW64 ~/Desktop/Cypherock/X1_wallet/Firmware/v0.4.1290 ((v0.4.1290)) $ git clone git@github.com:Cypherock/x1_wallet_firmware.git .  --recurse-submodules
-MINGW64 ~/Desktop/Cypherock/X1_wallet/Firmware/v0.4.1290 ((v0.4.1290)) $ git checkout v0.4.1290
-```
+There has been some notable changes to the way Cypherock X1 firmware is verified and built from v0.6.768. 
+The new instructions could be found [here.](https://github.com/Cypherock/x1_wallet_firmware/blob/main/VERIFY.md)
 
-* On Powershell, setup Docker and compile:
+We have created a new script to automate this procedure, but you can still find the old script in the archives.
 
-```
-PS C:\Users\LENEVO\Desktop\Cypherock\X1_wallet\Firmware\v0.4.1290>  docker build . --file Dockerfile --tag x1-wallet-app-env
-PS C:\Users\LENEVO\Desktop\Cypherock\X1_wallet\Firmware\v0.4.1290>  mkdir -p build
-PS C:\Users\LENEVO\Desktop\Cypherock\X1_wallet\Firmware\v0.4.1290>  docker run -v ${pwd}/build:/out -it x1-wallet-app-env /bin/ash
-/home/build/Release # mkdir -p /dist/initial && cd /home
-/home/build/Release # cd build/Release/
-/home/build/Release # cmake -DDEV_SWITCH=OFF -DDEBUG_SWITCH=OFF -DSIGN_BINARY=OFF -DCMAKE_BUILD_TYPE:STRING=Release -DFIRMWARE_TYPE=Initial -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=ON -DCMAKE_BUILD_PLATFORM:STRING=Device -G Ninja ../../
-/home/build/Release # ninja
-/home/build/Release # sha256sum Cypherock-Initial.bin
-dc665362d2bc1c15c5105e129694a2a31c8de1ba0245534244bb15500b8af2ee  Cypherock-Initial.bin
-cp Cypherock-*.* /dist/initial && cp -a /dist/. /out
-exit
-```
-
-* Compare from the Cypherock-Initial.bin (unsigned) [release binary](https://github.com/Cypherock/x1_wallet_firmware/actions/runs/3861423676).
+Here are the results:
 
 ```
-MINGW64 ~/Desktop/Cypherock/X1_wallet/Firmware/v0.4.1290 ((v0.4.1290)) $ sha256sum.exe initial-release-outputs/release/Cypherock-Initial.bin
-dc665362d2bc1c15c5105e129694a2a31c8de1ba0245534244bb15500b8af2ee *initial-release-outputs/release/Cypherock-Initial.bin
+build-firmware_1  | Calculating SHA256 checksums for built binary...
+build-firmware_1  | be1594eb974efa7b2eac3e251c7c851e91c814fbd6378e6e8fd6e778156e8674  Cypherock-Main.bin
+build-firmware_1  | Downloading released firmware binary from GitHub...
+build-firmware_1  | Connecting to github.com (140.82.121.4:443)
+build-firmware_1  | Connecting to objects.githubusercontent.com (185.199.110.133:443)
+build-firmware_1  | saving to 'Cypherock-Main-released.bin'
+build-firmware_1  | Cypherock-Main-relea 100% |********************************|  538k  0:00:00 ETA
+build-firmware_1  | 'Cypherock-Main-released.bin' saved
+build-firmware_1  | Calculating SHA256 checksums...
+build-firmware_1  | be1594eb974efa7b2eac3e251c7c851e91c814fbd6378e6e8fd6e778156e8674  Cypherock-Main-released.bin
+build-firmware_1  | Compare built and released binaries...
+build-firmware_1  | be1594eb974efa7b2eac3e251c7c851e91c814fbd6378e6e8fd6e778156e8674  Cypherock-Main.bin
+build-firmware_1  | be1594eb974efa7b2eac3e251c7c851e91c814fbd6378e6e8fd6e778156e8674  Cypherock-Main-released.bin
+hardware_build-firmware_1 exited with code 0
+Aborting on container exit...
+Cleaning up docker-compose.yml...
+docker-compose.yml cleaned up successfully.
 ```
 
-***Fingerprint (SHA256 hash) of released unsigned initial X1 Wallet firmware binary and compiled initial X1 Wallet firmware binary matches. Therefore, we conclude that the firmware is reproducible.***
+Note that Cypherock-Initial is no longer found in the releases.
 
+The checksums of the built binary and the release binary match, and thus version 0.6.768 is **reproducible**.
+The checksum for **version 0.6.768** can be verified in their repository [here.](https://github.com/Cypherock/x1_wallet_firmware/releases/tag/v0.6.768)
 
-### Reproducing the Cypherock X1 Wallet Main firmware v0.4.1290 on Windows 11
-* On Git Bash Shell, checkout X1 Wallet firmware using tag:
-        
-```
-MINGW64 ~/Desktop/Cypherock/X1_wallet/Firmware/v0.4.1290 ((v0.4.1290)) $ git clone git@github.com:Cypherock/x1_wallet_firmware.git . --recurse-submodules
-MINGW64 ~/Desktop/Cypherock/X1_wallet/Firmware/v0.4.1290 ((v0.4.1290)) $ git checkout v0.4.1290
-```
-
-* On Powershell, setup Docker and compile:
-
-```
-PS C:\Users\LENEVO\Desktop\Cypherock\X1_wallet\Firmware\v0.4.1290>  docker build . --file Dockerfile --tag x1-wallet-app-env
-PS C:\Users\LENEVO\Desktop\Cypherock\X1_wallet\Firmware\v0.4.1290>  mkdir -p build
-PS C:\Users\LENEVO\Desktop\Cypherock\X1_wallet\Firmware\v0.4.1290>  docker run -v ${pwd}/build:/out -it x1-wallet-app-env /bin/ash
-/home/build/Release # mkdir -p /dist/main && cd /home
-/home/build/Release # cd build/Release/
-/home/build/Release # cmake -DDEV_SWITCH=OFF -DDEBUG_SWITCH=OFF -DSIGN_BINARY=OFF -DCMAKE_BUILD_TYPE:STRING=Release -DFIRMWARE_TYPE=Main -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=ON -DCMAKE_BUILD_PLATFORM:STRING=Device -G Ninja ../../
-/home/build/Release # ninja
-/home/build/Release # sha256sum Cypherock-Main.bin
-fe5dd33a719eff4e2aa869108ba139e6f87204e6263870b0c5da1113b72ac32c  Cypherock-Main.bin
-cp Cypherock-*.* /dist/main && cp -a /dist/. /out
-exit
-```
-
-* Compare from the Cypherock-Main.bin (unsigned) [release binary](https://github.com/Cypherock/x1_wallet_firmware/actions/runs/3861423676).
-
-```
-MINGW64 ~/Desktop/Cypherock/X1_wallet/Firmware/v0.4.1290 ((v0.4.1290))
-$ sha256sum.exe main-release-outputs/release/Cypherock-Main.bin
-fe5dd33a719eff4e2aa869108ba139e6f87204e6263870b0c5da1113b72ac32c *main-release-outputs/release/Cypherock-Main.bin
-```
-
-***Fingerprint (SHA256 hash) of released unsigned main X1 Wallet firmware binary and compiled main X1 Wallet firmware binary matches. Therefore, we conclude that the firmware is reproducible.***
-
-## Installing firmware updates
-
-- The user has the flexibility to install a firmware update or not. The secure bootloader, which forms the root of trust, verifies if the firmware is a newer version than the currently installed version and [verifies the source of the firmware](https://github.com/Cypherock/x1_wallet_firmware/blob/main/docs/bootloader.md) (through 2 signatures).
-- Users can view the installed version and the commit hash of the release corresponding to the installed Cypherock X1 Wallet firmware binary and can verify it against the GitHub repository. This cross check should provide enough confidence to the user that the installed firmware binary matches the release binary on the public source. 
-- However, based on feedback received from different users, Cypherock X1 Wallet team is planning to add a user configurable functionality, through which SHA256 digest of the newly installed firmware is displayed after a successful firmware update.
-
-## Reproduced above procedure by Leo
-
-Leo independently reproduced version `v0.4.2307` as follows:
-
-```
-$ git clone git@github.com:Cypherock/x1_wallet_firmware.git
-$ cd x1_wallet_firmware/
-$ git checkout v0.4.2307 
-$ git submodule update --init --recursive
-$ podman run --volume=${PWD}/build:/out --rm -it x1-wallet-app-env /bin/ash -c "\
-    mkdir -p /dist/initial && cd /home/build/Release/ ;\
-    cmake -DDEV_SWITCH=OFF -DDEBUG_SWITCH=OFF -DSIGN_BINARY=OFF -DCMAKE_BUILD_TYPE:STRING=Release -DFIRMWARE_TYPE=Initial -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=ON -DCMAKE_BUILD_PLATFORM:STRING=Device -G Ninja ../../ ; \
-    ninja; \
-    cp Cypherock-*.* /dist/initial && cp -a /dist/. /out"
-$ podman run --volume=${PWD}/build:/out --rm -it x1-wallet-app-env /bin/ash -c "\
-    mkdir -p /dist/initial && cd /home/build/Release/ ;\
-    cmake -DDEV_SWITCH=OFF -DDEBUG_SWITCH=OFF -DSIGN_BINARY=OFF -DCMAKE_BUILD_TYPE:STRING=Release -DFIRMWARE_TYPE=Main -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=ON -DCMAKE_BUILD_PLATFORM:STRING=Device -G Ninja ../../ ; \
-    ninja; \
-    cp Cypherock-*.* /dist/initial && cp -a /dist/. /out"
-$ wget https://github.com/Cypherock/x1_wallet_firmware/releases/download/v0.4.2307/Cypherock-{Initial,Main}.bin
-$ sha256sum build/initial/Cypherock-Initial.bin Cypherock-Initial.bin build/initial/Cypherock-Main.bin Cypherock-Main.bin
-757d8c49b8f084400e7c8631b7e8f5cbfe4b7d527cfd8a7e056c1f43f9232e63  build/initial/Cypherock-Initial.bin
-757d8c49b8f084400e7c8631b7e8f5cbfe4b7d527cfd8a7e056c1f43f9232e63  Cypherock-Initial.bin
-09ed533290cdff4ca5f8148597a4d0a924ab5f10010a30ec2866abd39558a62d  build/initial/Cypherock-Main.bin
-09ed533290cdff4ca5f8148597a4d0a924ab5f10010a30ec2866abd39558a62d  Cypherock-Main.bin
-```
-## Reproduced by Mohammad
-
-Mohammad independently reproduced version `v0.4.3075` with this results:
-
-```
-$ sha256sum build/Cypherock-Initial.bin Cypherock-Initial.bin build/Cypherock-Main.bin Cypherock-Main.bin
-649f94d564c822291080ea27f81815c67ff08e60a3f6f00cd2936851ab9e98dd  build/Cypherock-Initial.bin
-649f94d564c822291080ea27f81815c67ff08e60a3f6f00cd2936851ab9e98dd  Cypherock-Initial.bin
-656945ae37510bb1b7452c97d27cd5b638ddb0119e44e9af5aa32e02302f458e  build/Cypherock-Main.bin
-656945ae37510bb1b7452c97d27cd5b638ddb0119e44e9af5aa32e02302f458e  Cypherock-Main.bin
-```
+{% include asciicast %}
