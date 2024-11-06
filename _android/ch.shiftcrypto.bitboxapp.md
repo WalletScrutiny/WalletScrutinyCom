@@ -14,7 +14,7 @@ ratings: 83
 reviews: 8
 size: 
 website: https://shiftcrypto.ch/app/
-repository: https://github.com/digitalbitbox/bitbox-wallet-app
+repository: https://github.com/BitBoxSwiss/bitbox-wallet-app
 issue: 
 icon: ch.shiftcrypto.bitboxapp.png
 bugbounty: 
