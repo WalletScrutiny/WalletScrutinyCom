@@ -100,23 +100,25 @@ We have created a new script to automate this procedure, but you can still find 
 Here are the results:
 
 ```
-build-firmware_1  | Calculating SHA256 checksums for built binary...
-build-firmware_1  | be1594eb974efa7b2eac3e251c7c851e91c814fbd6378e6e8fd6e778156e8674  Cypherock-Main.bin
-build-firmware_1  | Downloading released firmware binary from GitHub...
-build-firmware_1  | Connecting to github.com (140.82.121.4:443)
-build-firmware_1  | Connecting to objects.githubusercontent.com (185.199.110.133:443)
-build-firmware_1  | saving to 'Cypherock-Main-released.bin'
-build-firmware_1  | Cypherock-Main-relea 100% |********************************|  538k  0:00:00 ETA
-build-firmware_1  | 'Cypherock-Main-released.bin' saved
-build-firmware_1  | Calculating SHA256 checksums...
-build-firmware_1  | be1594eb974efa7b2eac3e251c7c851e91c814fbd6378e6e8fd6e778156e8674  Cypherock-Main-released.bin
-build-firmware_1  | Compare built and released binaries...
-build-firmware_1  | be1594eb974efa7b2eac3e251c7c851e91c814fbd6378e6e8fd6e778156e8674  Cypherock-Main.bin
-build-firmware_1  | be1594eb974efa7b2eac3e251c7c851e91c814fbd6378e6e8fd6e778156e8674  Cypherock-Main-released.bin
-hardware_build-firmware_1 exited with code 0
-Aborting on container exit...
-Cleaning up docker-compose.yml...
-docker-compose.yml cleaned up successfully.
+[445/445] Linking C executable Cypherock-Main.elf
+   text	   data	    bss	    dec	    hex	filename
+ 547880	   3500	  46208	 597588	  91e54	Cypherock-Main.elf
+Calculating SHA256 checksums for built binary...
+Downloading released firmware binary from GitHub...
+Connecting to github.com (140.82.121.3:443)
+Connecting to objects.githubusercontent.com (185.199.108.133:443)
+saving to 'Cypherock-Main-released.bin'
+Cypherock-Main-relea 100% |********************************|  538k  0:00:00 ETA
+'Cypherock-Main-released.bin' saved
+Calculating SHA256 checksums...
+Compare built and released binaries...
+be1594eb974efa7b2eac3e251c7c851e91c814fbd6378e6e8fd6e778156e8674  Cypherock-Main.bin
+be1594eb974efa7b2eac3e251c7c851e91c814fbd6378e6e8fd6e778156e8674  Cypherock-Main-released.bin
+COMMIT cypherock-x1-verifier
+--> cc2fb8ebe02
+Successfully tagged localhost/cypherock-x1-verifier:latest
+cc2fb8ebe02c631f35bfbffb47a7dc79d51d39898966600c2fdd89d7c155eb5e
+Running the container to verify firmware...
 ```
 
 Note that Cypherock-Initial is no longer found in the releases.

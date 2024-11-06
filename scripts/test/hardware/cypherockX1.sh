@@ -1,6 +1,5 @@
 #!/bin/bash
-# Script to verify Cypherock X1 firmware reproducibility
-# Instructions source: https://github.com/Cypherock/x1_wallet_firmware/blob/main/VERIFY.md
+# cypherockX1.sh - Script to build and run Cypherock X1 firmware verification
 
 # Ensure a version is passed as an argument
 if [ -z "$1" ]; then
@@ -8,73 +7,27 @@ if [ -z "$1" ]; then
   exit 1
 fi
 
-# Set version tag from the argument
-VERSION_TAG="v$1"  # Added 'v' prefix here
-export VERSION_TAG
+# Set version tag from argument
+VERSION_TAG="v$1"
 
-# Define the path for the docker-compose file
-COMPOSE_FILE="./scripts/test/hardware/docker-compose.yml"
+# Define the image name for easy reference
+IMAGE_NAME="cypherock-x1-verifier"
+DOCKERFILE_PATH="scripts/test/hardware/cypherockX1.dockerfile"
 
-# Create the docker-compose.yml file
-echo "Creating docker-compose.yml file..."
-cat > $COMPOSE_FILE <<'EOL'
-version: '3'
-services:
-  build-firmware:
-    image: cypherock/x1-firmware-builder:v0.0.0
-    environment:
-      - VERSION_TAG=${VERSION_TAG}
-    command: |
-      bash -c '
-        set -e
-        
-        echo "Cloning repository..."
-        if [ -d "x1_wallet_firmware" ]; then
-          echo "Removing existing x1_wallet_firmware directory..."
-          rm -rf x1_wallet_firmware
-        fi
-        
-        git clone --branch ${VERSION_TAG} --depth 1 https://github.com/Cypherock/x1_wallet_firmware.git --recurse-submodules
-        
-        cd x1_wallet_firmware
-        mkdir -p build
-        cd build
-        
-        echo "Building firmware..."
-        cmake -DCMAKE_BUILD_TYPE="Release" -DFIRMWARE_TYPE="Main" -DCMAKE_BUILD_PLATFORM="Device" -G "Ninja" ..
-        ninja
-        
-        echo "Calculating SHA256 checksums for built binary..."
-        sha256sum Cypherock-Main.bin > ../build_checksum.txt
-        cat ../build_checksum.txt
-        
-        cd ..
-        echo "Downloading released firmware binary from GitHub..."
-        wget -O Cypherock-Main-released.bin "https://github.com/Cypherock/x1_wallet_firmware/releases/download/${VERSION_TAG}/Cypherock-Main.bin"
-        
-        echo "Calculating SHA256 checksums..."
-        sha256sum Cypherock-Main-released.bin > release_checksum.txt
-        cat release_checksum.txt
-        
-        echo "Compare built and released binaries..."
-        cat build_checksum.txt
-        cat release_checksum.txt
-      '
-EOL
+# Cleanup function to remove previous images with the same tag
+cleanup() {
+  echo "Cleaning up old images..."
+  # Remove any existing images with the same name to force a fresh build
+  podman image rm -f $IMAGE_NAME || true
+}
 
-echo "docker-compose.yml file created successfully."
+# Run the cleanup before building a new image
+cleanup
 
-# Run Docker Compose to execute the firmware build and verification
-echo "Running Docker Compose to verify firmware build..."
-docker-compose -f $COMPOSE_FILE up --exit-code-from build-firmware
+# Build the Docker image using the specified Dockerfile
+echo "Building the image with Podman..."
+podman build -t $IMAGE_NAME --build-arg VERSION_TAG=$VERSION_TAG -f $DOCKERFILE_PATH
 
-# Store the exit code
-EXIT_CODE=$?
-
-# Cleanup the docker-compose.yml after running the script
-echo "Cleaning up docker-compose.yml..."
-rm -f $COMPOSE_FILE
-echo "docker-compose.yml cleaned up successfully."
-
-# Exit with the same code as the Docker container
-exit $EXIT_CODE
+# Run the container to perform the firmware verification
+echo "Running the container to verify firmware..."
+podman run --rm $IMAGE_NAME
