@@ -16,7 +16,7 @@ reviews:
 size: 
 website: https://www.mintlayer.org/en/mojito-wallet/
 repository: https://github.com/mintlayer/mojito_mobile_wallet
-issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/502
+issue: https://github.com/mintlayer/mojito_mobile_wallet/issues/101
 icon: com.mojitowallet.png
 bugbounty: 
 meta: ok
