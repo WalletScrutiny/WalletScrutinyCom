@@ -16,13 +16,13 @@ website:
 shop: 
 country: 
 price: 40USD
-repository: https://github.com/GridPlus
+repository: https://github.com/GridPlus/safe-card
 issue: 
 icon: safecard.gridplus.png
 bugbounty: 
 meta: ok
 verdict: noita
-date: 2024-10-31
+date: 2022-05-03
 signer: 
 reviewArchive: 
 twitter: 

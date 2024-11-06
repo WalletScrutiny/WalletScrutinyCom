@@ -17,13 +17,13 @@ shop: >-
   https://www.cardomatic.de/epages/64510967.sf/en_GB/?ObjectPath=/Shops/64510967/Categories/SmartCardHSM
 country: DE
 price: 34EUR
-repository: https://github.com/CardContact
+repository: https://github.com/CardContact/sc-hsm-embedded
 issue: 
 icon: smartbtc.eu.png
 bugbounty: 
 meta: ok
 verdict: nowallet
-date: 2024-10-31
+date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: 

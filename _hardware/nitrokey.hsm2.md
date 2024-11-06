@@ -19,13 +19,13 @@ website:
 shop: https://shop.nitrokey.com/shop/product/nkhs2-nitrokey-hsm-2-7
 country: DE
 price: 69EUR
-repository: https://github.com/Nitrokey/nitrokey-documentation/tree/master/hsm
+repository: https://github.com/Nitrokey/nitrokey-pro-firmware
 issue: 
 icon: nitrokey.hsm2.png
 bugbounty: 
 meta: ok
 verdict: nowallet
-date: 2024-10-31
+date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: nitrokey

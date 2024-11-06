@@ -15,13 +15,13 @@ ratings:
 reviews: 
 size: 
 website: https://www.bit4you.io
-repository: https://gitlab.com/bit4you
+repository:
 issue: 
 icon: com.bit4you.app.png
 bugbounty: 
 meta: removed
 verdict: custodial
-date: 2024-10-31
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: Bit4you1

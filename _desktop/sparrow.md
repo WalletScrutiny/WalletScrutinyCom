@@ -17,7 +17,7 @@ icon: sparrow.png
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2024-10-31
+date: 2024-04-25
 reviewArchive: 
 twitter: SparrowWallet
 social: 

@@ -16,13 +16,13 @@ website: https://gridplus.io
 shop: https://gridplus.io/cart
 country: US
 price: 397USD
-repository: https://github.com/GridPlus/lattice-software-releases/releases
+repository: https://github.com/GridPlus/lattice-software-releases
 issue: 
 icon: io.gridplus.lattice1.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2024-10-31
+date: 2023-06-22
 signer: 
 reviewArchive: 
 twitter: gridplus

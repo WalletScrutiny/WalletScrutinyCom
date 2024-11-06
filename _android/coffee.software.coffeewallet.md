@@ -23,7 +23,7 @@ icon: coffee.software.coffeewallet.png
 bugbounty: 
 meta: obsolete
 verdict: nonverifiable
-date: 2024-10-31
+date: 2024-07-03
 signer: 
 reviewArchive: 
 twitter: CoffeeWallet

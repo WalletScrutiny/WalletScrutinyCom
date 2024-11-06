@@ -17,7 +17,7 @@ icon: fullynoded.png
 bugbounty: 
 meta: stale
 verdict: wip
-date: 2024-10-31
+date: 2024-04-25
 reviewArchive: 
 twitter: FullyNoded
 social: 

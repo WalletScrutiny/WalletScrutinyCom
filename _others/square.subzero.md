@@ -4,7 +4,7 @@ appId: square.subzero
 authors:
 - danny
 icon: square.subzero.png
-date: 2024-10-31
+date: 2022-05-26
 released: 2018-10-23
 updated: 2022-05-03
 version: v1.0.0

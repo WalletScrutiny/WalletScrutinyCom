@@ -14,13 +14,13 @@ stars: 4.4
 reviews: 14
 size: '97445888'
 website: https://citadel.one
-repository: https://github.com/citadeldao
+repository:
 issue: 
 icon: one.citadel.mobile.jpg
 bugbounty: 
 meta: stale
 verdict: nosource
-date: 2024-10-31
+date: 2024-05-15
 signer: 
 reviewArchive: 
 twitter: CitadelDAO

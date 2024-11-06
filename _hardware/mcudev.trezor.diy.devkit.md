@@ -16,13 +16,12 @@ website:
 shop: 
 country: 
 price: 
-repository: https://github.com/mcudev/mcudev.github.io/tree/master/trezor-dev-kit
-issue: 
+repository: https://github.com/mcudev/mcudev.github.io
 icon: mcudev.trezor.diy.devkit.png
 bugbounty: 
 meta: obsolete
 verdict: diy
-date: 2024-10-31
+date: 2022-11-11
 signer: 
 reviewArchive: 
 twitter: 

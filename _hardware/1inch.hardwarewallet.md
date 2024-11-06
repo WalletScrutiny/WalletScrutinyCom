@@ -19,13 +19,13 @@ website: https://hw.1inch.io
 shop: 
 country: 
 price: 
-repository: https://github.com/HRDWLT
+repository:
 issue: 
 icon: 1inch.hardwarewallet.png
 bugbounty: 
 meta: ok
 verdict: unreleased
-date: 2024-10-31
+date: 2024-10-18
 signer: 
 reviewArchive: 
 twitter: hrdwlt
