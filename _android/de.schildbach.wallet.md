@@ -23,9 +23,14 @@ icon: de.schildbach.wallet.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-11-01
+date: 2024-11-06
 signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
 reviewArchive:
+- date: 2024-11-01
+  version: '10.19'
+  appHash: 176da991d59f8fb4a1e38fb1c21c504d23d6bc403aaaf576744b02b8ec0d970c
+  gitRevision: 5e67b0f51e6c67a3e1140ba66a1b4222e8cfe2a4
+  verdict: reproducible
 - date: 2024-09-04
   version: '10.16'
   appHash: 870b9ae00e1ad8d9d957e03880f4fa338edb7db4410032920014a61b8a9a8259
@@ -229,24 +234,24 @@ For the latest version the {% include testScript.html %} came to these results:
 ===== Begin Results =====
 appId:          de.schildbach.wallet
 signer:         58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
-apkVersionName: 10.19
-apkVersionCode: 101900
+apkVersionName: 10.20
+apkVersionCode: 102000
 verdict:        reproducible
-appHash:        176da991d59f8fb4a1e38fb1c21c504d23d6bc403aaaf576744b02b8ec0d970c
-commit:         07bc0386def0c309d3c1f7f50448b5dd9bcbafa5
+appHash:        9e859167b259383324d44b049e9310a0715bae2837db2582519f4012b4e27fcb
+commit:         f37e8013acdb75091b0e161149851972a026a24e
 
 Diff:
-Only in /tmp/fromPlay_de.schildbach.wallet_101900/META-INF: BITCOIN-.RSA
-Only in /tmp/fromPlay_de.schildbach.wallet_101900/META-INF: BITCOIN-.SF
-Files /tmp/fromPlay_de.schildbach.wallet_101900/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_101900/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_de.schildbach.wallet_102000/META-INF: BITCOIN-.RSA
+Only in /tmp/fromPlay_de.schildbach.wallet_102000/META-INF: BITCOIN-.SF
+Files /tmp/fromPlay_de.schildbach.wallet_102000/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_102000/META-INF/MANIFEST.MF differ
 
 Revision, tag (and its signature):
-object 07bc0386def0c309d3c1f7f50448b5dd9bcbafa5
+object f37e8013acdb75091b0e161149851972a026a24e
 type commit
-tag v10.19
-tagger Andreas Schildbach <andreas@schildbach.de> 1730335983 +0100
+tag v10.20
+tagger Andreas Schildbach <andreas@schildbach.de> 1730546885 +0100
 
-10.19 release
+10.20 release
 ===== End Results =====
 ```
 
