@@ -43,7 +43,7 @@ Check out the website for more details: https://shiftcrypto.ch/bitbox01/.
 >
 > This app allows using a mobile phone as a large screen for securely verifying transactions and receiving addresses created by the Digital Bitbox (BitBox01) hardware wallet.
 >
-> The code is open source and available here: https://github.com/digitalbitbox/2FA-app. 
+> The code is open source and available here: https://github.com/BitBoxSwiss/2FA-app. 
 
 ## Analysis 
 

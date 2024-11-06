@@ -11,7 +11,7 @@ binaries:
 provider: Shift Crypto AG
 providerWebsite: https://shiftcrypto.ch
 website: https://shiftcrypto.ch/download
-repository: https://github.com/digitalbitbox/bitbox-wallet-app
+repository: https://github.com/BitBoxSwiss/bitbox-wallet-app
 issue: 
 icon: bitbox.app.png
 bugbounty: https://shiftcrypto.ch/bug-bounty-program

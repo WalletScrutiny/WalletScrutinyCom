@@ -11,7 +11,7 @@ released: 2019-09-25
 discontinued: 
 updated: 2024-09-26
 version: 9.21.0-Multi
-binaries: https://github.com/digitalbitbox/bitbox02-firmware/releases
+binaries: https://github.com/BitBoxSwiss/bitbox02-firmware/releases
 dimensions:
 - 55
 - 25
@@ -23,7 +23,7 @@ website: https://shiftcrypto.ch/
 shop: https://shiftcrypto.shop/en/products/bitbox02-bitcoin-only-4/
 country: CH
 price: 149EUR
-repository: https://github.com/digitalbitbox/bitbox02-firmware
+repository: https://github.com/BitBoxSwiss/bitbox02-firmware
 issue: 
 icon: bitBox2.png
 bugbounty: 
@@ -39,7 +39,7 @@ reviewArchive:
   verdict: reproducible
 - date: 2023-05-03
   version: 9.18.0
-  appHash: 13414426ac7f848d1f264059b82f4bb15e6dba03e178cbd46a8bda49ac9123db # The appHash should be of the signed bin
+  appHash: 13414426ac7f848d1f264059b82f4bb15e6dba03e178cbd46a8bda49ac9123db
   gitRevision: b0b9c5e36447ee68308bafffe4f4b719ae356088
   verdict: reproducible
 - date: 2023-10-10
@@ -94,6 +94,8 @@ features:
 ```
 $ scripts/test/hardware/bitBox2.sh 9.21.0
 ...
+[100%] Linking C executable ../bin/firmware-btc.elf
+
 Generating binary firmware-btc.bin
    text	   data	    bss	    dec	    hex	filename
  541768	  19172	 191064	 752004	  b7984	firmware-btc.elf
@@ -111,10 +113,10 @@ signed download             ff35982362faa1c6ca5066d1c4b4309eea52a4a14aa31f7a7fa4
 signed download minus sig.  36895857c346c1fbd0d206853b7031e985c1a959e9f7f9396a7ae94dfffa9679  p_firmware-btc.bin
 built binary                36895857c346c1fbd0d206853b7031e985c1a959e9f7f9396a7ae94dfffa9679  temp/build/bin/firmware-btc.bin
 firmware as shown in device 4b851096907dbd168f1d3873f7be1adc8c43d779d3015b3f3bbf5038842980b1
-                            (The latter is a double sha256 over version,
-                             firmware and padding)
-
+                           (The latter is a double sha256 over version,
+                            firmware and padding)
 ```
 
 Version 9.21.0 is **reproducible**.
 
+{% include asciicast %}
