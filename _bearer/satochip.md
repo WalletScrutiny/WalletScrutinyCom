@@ -17,7 +17,7 @@ weight: 10
 provider: SatoChip
 providerWebsite: https://satochip.io
 website: https://satochip.io
-shop: https://satochip.io/shop/
+shop: https://satochip.io/shop
 country: BE
 price: 25EUR
 repository: https://github.com/Toporin

@@ -12,11 +12,11 @@ dimensions:
 weight: 
 provider: GridPlus
 providerWebsite: 
-website: https://gridplus.io/
+website: https://gridplus.io
 shop: https://gridplus.io/cart
 country: US
 price: 397USD
-repository: https://github.com/GridPlus/lattice-software-releases/releases
+repository: https://github.com/GridPlus/lattice-software-releases
 issue: 
 icon: io.gridplus.lattice1.png
 bugbounty: 

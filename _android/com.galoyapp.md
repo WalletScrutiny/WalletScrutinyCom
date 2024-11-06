@@ -16,7 +16,7 @@ ratings:
 reviews: 32
 size: 
 website: https://blink.sv/
-repository: https://github.com/GaloyMoney/galoy-mobile/
+repository: https://github.com/GaloyMoney/galoy-mobile
 issue: 
 icon: com.galoyapp.png
 bugbounty: 

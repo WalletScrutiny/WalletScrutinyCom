@@ -11,12 +11,12 @@ binaries:
 dimensions: 
 weight: 
 provider: GridPlus
-providerWebsite: https://gridplus.io/
+providerWebsite: https://gridplus.io
 website: 
 shop: 
 country: 
 price: 40USD
-repository: https://github.com/GridPlus
+repository: https://github.com/GridPlus/safe-card
 issue: 
 icon: safecard.gridplus.png
 bugbounty: 

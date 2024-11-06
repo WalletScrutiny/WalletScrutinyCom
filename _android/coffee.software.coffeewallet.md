@@ -17,7 +17,7 @@ ratings:
 reviews: 7
 size: 
 website: https://wallet.coffee/
-repository: https://github.com/coffee-software/coffee.wallet/
+repository: https://github.com/coffee-software/coffee.wallet
 issue: https://github.com/coffee-software/coffee.wallet/issues/89
 icon: coffee.software.coffeewallet.png
 bugbounty: 

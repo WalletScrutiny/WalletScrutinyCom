@@ -13,8 +13,8 @@ version: 2.9.5
 stars: 4.4
 reviews: 14
 size: '97445888'
-website: https://citadel.one/
-repository: https://github.com/citadeldao
+website: https://citadel.one
+repository:
 issue: 
 icon: one.citadel.mobile.jpg
 bugbounty: 
@@ -25,11 +25,11 @@ signer:
 reviewArchive: 
 twitter: CitadelDAO
 social:
-- https://www.reddit.com/r/citadeldao/
+- https://www.reddit.com/r/citadeldao
 - https://medium.com/citadel-one
-- https://www.instagram.com/citadeldao/
+- https://www.instagram.com/citadeldao
 - https://www.youtube.com/channel/UCl6VvVIrAr7ztJ1Wf7xBxrA
-- https://www.linkedin.com/company/citadel-one/
+- https://www.linkedin.com/company/citadel-one
 - https://www.facebook.com/Citadel.One
 features: 
 developerName: Citadel.one LTD

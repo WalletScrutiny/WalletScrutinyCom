@@ -10,8 +10,8 @@ version: 0.96.5
 binaries: 
 provider: Armory Technologies
 providerWebsite: 
-website: https://www.bitcoinarmory.com/
-repository: https://github.com/goatpig/BitcoinArmory/
+website: https://www.bitcoinarmory.com
+repository: https://github.com/goatpig/BitcoinArmory
 issue: 
 icon: armory.png
 bugbounty: 

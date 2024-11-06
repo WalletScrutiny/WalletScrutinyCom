@@ -14,8 +14,8 @@ stars: 4
 ratings: 
 reviews: 
 size: 
-website: https://www.hupayx.com/
-repository: https://github.com/HUPAYX
+website: https://www.hupayx.com
+repository:
 issue: 
 icon: com.thehumanplus.shuffle.png
 bugbounty: 

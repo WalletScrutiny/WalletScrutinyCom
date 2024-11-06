@@ -20,7 +20,7 @@ website: https://shop.safepal.io/products/safepal-hardware-wallet-s1-bitcoin-wal
 shop: https://shop.safepal.io/products/safepal-hardware-wallet-s1-bitcoin-wallet
 country: CH
 price: 49.99USD
-repository: https://github.com/safepal/
+repository: https://github.com/SafePalWallet/safepal-x1
 issue: 
 icon: safepals1.png
 bugbounty: 

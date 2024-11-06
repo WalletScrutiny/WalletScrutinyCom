@@ -11,7 +11,7 @@ binaries:
 provider: 
 providerWebsite: 
 website: 
-repository: https://github.com/Fonta1n3/FullyNoded/
+repository: https://github.com/Fonta1n3/FullyNoded
 issue: 
 icon: fullynoded.png
 bugbounty: 

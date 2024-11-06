@@ -14,7 +14,7 @@ stars: 4.3
 reviews: 32
 size: '61305856'
 website: https://blink.sv
-repository: https://github.com/GaloyMoney/galoy-mobile/
+repository: https://github.com/GaloyMoney/galoy-mobile
 issue: 
 icon: io.galoy.bitcoinbeach.jpg
 bugbounty: 

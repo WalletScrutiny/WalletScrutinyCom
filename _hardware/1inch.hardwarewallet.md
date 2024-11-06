@@ -15,11 +15,11 @@ dimensions:
 weight: 70
 provider: Alexander Devyatkin, Mikhail Svetkin, Igor Zarochintsev, and others.
 providerWebsite: 
-website: https://hw.1inch.io/
+website: https://hw.1inch.io
 shop: 
 country: 
 price: 
-repository: https://github.com/HRDWLT
+repository:
 issue: 
 icon: 1inch.hardwarewallet.png
 bugbounty: 
@@ -31,7 +31,7 @@ reviewArchive:
 twitter: hrdwlt
 social:
 - https://medium.com/@hrdwlt
-- https://www.linkedin.com/company/hwlt/
+- https://www.linkedin.com/company/hwlt
 features: 
 
 ---

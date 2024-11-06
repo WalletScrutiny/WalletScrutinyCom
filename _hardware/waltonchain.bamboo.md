@@ -14,12 +14,12 @@ dimensions:
 - 10
 weight: 
 provider: Waltonchain
-providerWebsite: https://www.waltonchain.org/
+providerWebsite: https://www.waltonchain.org
 website: 
 shop: 
 country: CN
 price: 90 USD
-repository: https://github.com/WaltonChain/BambooWallet/
+repository: https://github.com/WaltonChain/BambooWallet
 issue: 
 icon: waltonchain.bamboo.png
 bugbounty: 

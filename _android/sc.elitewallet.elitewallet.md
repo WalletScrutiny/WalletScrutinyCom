@@ -15,7 +15,7 @@ ratings:
 reviews: 3
 size: 
 website: https://elitewallet.sc
-repository: https://github.com/Elite-Labs/EliteWallet/releases/
+repository: https://github.com/Elite-Labs/EliteWallet
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/497
 icon: sc.elitewallet.elitewallet.png
 bugbounty: 
