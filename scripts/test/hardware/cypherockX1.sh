@@ -1,31 +1,33 @@
 #!/bin/bash
+# cypherockX1.sh - Script to build and run Cypherock X1 firmware verification
 
-### provide this script with the version without "v"
+# Ensure a version is passed as an argument
+if [ -z "$1" ]; then
+  echo "Usage: $0 <version>"
+  exit 1
+fi
 
-version=$1
+# Set version tag from argument
+VERSION_TAG="v$1"
 
-cd /tmp
-git clone https://github.com/Cypherock/x1_wallet_firmware.git
-cd x1_wallet_firmware
-git submodule update --init --recursive
-git checkout v${version}
-docker build . --file Dockerfile --tag x1-wallet-app-env
-mkdir build
+# Define the image name for easy reference
+IMAGE_NAME="cypherock-x1-verifier"
+DOCKERFILE_PATH="scripts/test/hardware/cypherockX1.dockerfile"
 
-# initial firmware
-docker run -v ${PWD}/build:/out --rm -it x1-wallet-app-env /bin/ash -c "\
-      cd /home/build/Release/ ;\
-      cmake -DDEV_SWITCH=OFF -DDEBUG_SWITCH=OFF -DSIGN_BINARY=OFF -DCMAKE_BUILD_TYPE:STRING=Release -DFIRMWARE_TYPE=Initial -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=ON -DCMAKE_BUILD_PLATFORM:STRING=Device -G Ninja ../../ ;\
-      ninja; \
-      cp Cypherock-*.bin /out"
+# Cleanup function to remove previous images with the same tag
+cleanup() {
+  echo "Cleaning up old images..."
+  # Remove any existing images with the same name to force a fresh build
+  podman image rm -f $IMAGE_NAME || true
+}
 
-# main firmware
-docker run -v ${PWD}/build:/out --rm -it x1-wallet-app-env /bin/ash -c "\
-      cd /home/build/Release/ ;\
-      cmake -DDEV_SWITCH=OFF -DDEBUG_SWITCH=OFF -DSIGN_BINARY=OFF -DCMAKE_BUILD_TYPE:STRING=Release -DFIRMWARE_TYPE=Main -DCMAKE_EXPORT_COMPILE_COMMANDS:BOOL=ON -DCMAKE_BUILD_PLATFORM:STRING=Device -G Ninja ../../ ;\
-      ninja; \
-      cp Cypherock-*.bin /out"
+# Run the cleanup before building a new image
+cleanup
 
-wget https://github.com/Cypherock/x1_wallet_firmware/releases/download/v$version/Cypherock-{Initial,Main}.bin
+# Build the Docker image using the specified Dockerfile
+echo "Building the image with Podman..."
+podman build -t $IMAGE_NAME --build-arg VERSION_TAG=$VERSION_TAG -f $DOCKERFILE_PATH
 
-sha256sum build/Cypherock-Initial.bin Cypherock-Initial.bin build/Cypherock-Main.bin Cypherock-Main.bin
+# Run the container to perform the firmware verification
+echo "Running the container to verify firmware..."
+podman run --rm $IMAGE_NAME
