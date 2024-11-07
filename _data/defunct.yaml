@@ -1,19 +1,3 @@
-2024-10-23:
-- _android/com.accru
-- _android/com.application.changecoin
-- _android/com.archos.safet.bridge
-- _android/com.ariomex.app
-- _android/com.ettaln
-- _android/com.hermesus.android
-- _android/com.libonomywallet
-- _android/com.metallum.nicex
-- _android/com.microbitcoin
-- _android/com.mykobo
-- _android/com.tent.app
-- _android/net.bither
-- _android/net.softwareinfo
-- _android/rmt.mobile
-- _iphone/network.wx.app
 2024-10-28:
 - _android/com.avivawallets
 - _android/com.ctin.inidev.android
@@ -67,3 +51,14 @@
 - _android/com.worldwebms.multisigwallet
 - _iphone/com.tradearies.ariestrading
 - _iphone/inc.lireneosoft.counterparty
+2024-11-07:
+- _android/com.a60sek.a60cekorg
+- _android/com.baviera.capital
+- _android/com.bravecorporation.BraveID
+- _android/com.btcontract.wallet
+- _android/com.koinstrap.koinstrap
+- _android/com.trading.aries
+- _android/global.bitex.bitexpay.android
+- _android/in.spiegel.ixtokens
+- _android/io.cryptonest.bankwallet
+- _iphone/com.zed-pay.app.ios

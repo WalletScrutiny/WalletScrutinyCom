@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.tent.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-06-03
+date: 2024-11-07
 signer: 
 reviewArchive: 
 twitter: 

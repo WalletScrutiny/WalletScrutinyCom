@@ -19,7 +19,7 @@ website: https://hw.1inch.io
 shop: 
 country: 
 price: 
-repository:
+repository: 
 issue: 
 icon: 1inch.hardwarewallet.png
 bugbounty: 

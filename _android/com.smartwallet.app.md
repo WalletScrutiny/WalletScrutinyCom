@@ -8,11 +8,11 @@ users: 50000
 appId: com.smartwallet.app
 appCountry: 
 released: 2023-02-10
-updated: 2024-11-04
+updated: 2024-11-06
 version: 1.18.2
 stars: 4.8
 ratings: 
-reviews: 75
+reviews: 76
 size: 
 website: https://www.echooo.xyz/
 repository: 

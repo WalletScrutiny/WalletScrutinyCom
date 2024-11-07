@@ -4,7 +4,7 @@ title: Oobit - Tap to Pay in Crypto
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.oobit
 appCountry: 
 released: 2022-02-07

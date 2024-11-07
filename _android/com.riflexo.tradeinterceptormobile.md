@@ -8,8 +8,8 @@ users: 1000000
 appId: com.riflexo.tradeinterceptormobile
 appCountry: us
 released: 2010-08-02
-updated: 2024-10-25
-version: 6.17.4.3
+updated: 2024-11-06
+version: 6.17.4.5
 stars: 3.9
 ratings: 5176
 reviews: 342

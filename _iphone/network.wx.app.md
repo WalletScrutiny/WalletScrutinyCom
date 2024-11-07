@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: network.wx.app.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nobtc
-date: 2024-06-03
+date: 2024-11-07
 signer: 
 reviewArchive: 
 twitter: WXNetwork

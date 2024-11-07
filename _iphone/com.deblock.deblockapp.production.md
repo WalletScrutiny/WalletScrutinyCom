@@ -11,7 +11,7 @@ released: 2024-04-02
 updated: 2024-10-29
 version: 1.10.0
 stars: 4.7
-reviews: 2627
+reviews: 2669
 size: '438791168'
 website: https://deblock.com/fr-FR
 repository: 

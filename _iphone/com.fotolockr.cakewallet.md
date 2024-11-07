@@ -11,7 +11,7 @@ released: 2018-01-19
 updated: 2024-10-22
 version: 4.20.1
 stars: 4.7
-reviews: 2217
+reviews: 2225
 size: '163566592'
 website: https://cakewallet.com
 repository: https://github.com/cake-tech/cake_wallet

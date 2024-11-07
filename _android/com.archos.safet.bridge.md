@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.archos.safet.bridge.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
-date: 2023-04-20
+date: 2024-11-07
 signer: 
 reviewArchive: 
 twitter: 

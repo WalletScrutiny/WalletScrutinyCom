@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.accru.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2024-01-16
+date: 2024-11-07
 signer: 
 reviewArchive: 
 twitter: AQRU_Official

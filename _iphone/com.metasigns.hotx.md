@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.metasigns.hotx.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2024-10-07
+date: 2024-11-07
 signer: 
 reviewArchive: 
 twitter: 

@@ -15,7 +15,7 @@ ratings:
 reviews: 
 size: 
 website: https://www.bit4you.io
-repository:
+repository: 
 issue: 
 icon: com.bit4you.app.png
 bugbounty: 
@@ -30,7 +30,7 @@ social:
 - https://www.instagram.com/bit4you.io
 redirect_from: 
 developerName: bit4you SA
-features:
+features: 
 
 ---
 

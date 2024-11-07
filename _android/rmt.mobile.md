@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: rmt.mobile.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2022-06-23
+date: 2024-11-07
 signer: 
 reviewArchive: 
 twitter: 

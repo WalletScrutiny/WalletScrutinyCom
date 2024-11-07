@@ -5,12 +5,12 @@ altTitle:
 authors:
 - leo
 - danny
-users: 50000
+users: 100000
 appId: com.mtpelerin.bridge
 appCountry: us
 released: 2020-04-07
-updated: 2024-10-21
-version: '1.45'
+updated: 2024-11-06
+version: '1.46'
 stars: 4
 ratings: 178
 reviews: 27

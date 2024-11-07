@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.metallum.nicex.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-07-21
+date: 2024-11-07
 signer: 
 reviewArchive: 
 twitter: NiceXExchange

@@ -4,7 +4,7 @@ title: SmartCash Transact
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.wongeta.smartcashtransact
 appCountry: 
 released: 2018-12-31

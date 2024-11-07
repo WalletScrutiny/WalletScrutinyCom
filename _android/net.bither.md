@@ -21,9 +21,9 @@ repository: https://github.com/bither/bither-android
 issue: https://github.com/bither/bither-android/issues/69
 icon: net.bither.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: obfuscated
-date: 2024-10-09
+date: 2024-11-07
 signer: 
 reviewArchive: 
 twitter: 

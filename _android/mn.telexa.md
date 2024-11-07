@@ -10,9 +10,9 @@ appCountry:
 released: 2021-12-08
 updated: 2023-09-07
 version: '6.5'
-stars: 4.6
+stars: 4.7
 ratings: 
-reviews: 11
+reviews: 12
 size: 
 website: https://www.telexa.mn/
 repository: 

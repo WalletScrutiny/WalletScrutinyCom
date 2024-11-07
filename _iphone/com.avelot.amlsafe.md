@@ -11,7 +11,7 @@ released: 2020-07-28
 updated: 2024-10-18
 version: 2.21.732
 stars: 4.8
-reviews: 61
+reviews: 60
 size: '98246656'
 website: https://Safe3.app
 repository: 

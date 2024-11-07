@@ -8,11 +8,11 @@ appId: com.CryptoCurrency.dev
 appCountry: us
 idd: 1339112917
 released: 2018-02-21
-updated: 2024-10-25
-version: 3.4.1
+updated: 2024-11-06
+version: 3.4.2
 stars: 4.7
-reviews: 2389
-size: '236785664'
+reviews: 2388
+size: '236773376'
 website: https://thecrypto.app
 repository: 
 issue: 

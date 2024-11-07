@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.libonomywallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nobtc
-date: 2024-03-15
+date: 2024-11-07
 signer: 
 reviewArchive: 
 twitter: 

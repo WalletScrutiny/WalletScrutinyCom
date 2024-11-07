@@ -12,7 +12,7 @@ updated: 2024-11-04
 version: 4.32.0
 stars: 3.8
 ratings: 
-reviews: 62
+reviews: 63
 size: 
 website: https://belo.app
 repository: 

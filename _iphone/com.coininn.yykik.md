@@ -8,11 +8,11 @@ appId: com.coininn.yykik
 appCountry: us
 idd: '1501704472'
 released: 2020-03-08
-updated: 2024-10-24
-version: 5.0.10
+updated: 2024-11-07
+version: 5.0.13
 stars: 4.2
 reviews: 45
-size: '102991872'
+size: '103135232'
 website: https://www.coininn.com
 repository: 
 issue: 

@@ -33,7 +33,7 @@ social:
 - https://discord.com/invite/fepCFhdWeD
 - https://www.instagram.com/privappnetwork
 redirect_from: 
-developerName: Privapp Network
+developerName: Solvex Network
 features: 
 
 ---

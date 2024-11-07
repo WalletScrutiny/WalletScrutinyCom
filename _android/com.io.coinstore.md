@@ -25,12 +25,12 @@ date: 2022-06-22
 signer: 
 reviewArchive: 
 twitter: coinstore_en
-social: 
+social:
 - https://www.linkedin.com/company/coinstore
 - https://coinstore.medium.com
 - https://www.facebook.com/coinstoreglobal
 - https://t.me/coinstore_english
-redirect_from:
+redirect_from: 
 developerName: CS- Coinstore
 features: 
 

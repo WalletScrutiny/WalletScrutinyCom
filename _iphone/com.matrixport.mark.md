@@ -1,6 +1,6 @@
 ---
 wsId: matrixport
-title: Matrixport
+title: 'Matrixport: Crypto Services'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.matrixport.mark
 appCountry: us
 idd: 1488557973
 released: 2019-11-25
-updated: 2024-11-04
-version: 3.9.70
+updated: 2024-11-07
+version: 3.9.80
 stars: 3.6
-reviews: 47
-size: '262131712'
+reviews: 48
+size: '262358016'
 website: https://invest.matrixport.dev/en
 repository: 
 issue: 

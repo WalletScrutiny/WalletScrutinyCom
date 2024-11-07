@@ -10,8 +10,8 @@ idd: '1560859847'
 released: 2022-06-25
 updated: 2024-10-31
 version: 2.8.6700
-stars: 4.6
-reviews: 1331
+stars: 4.7
+reviews: 1335
 size: '179482624'
 website: https://worldcoin.org
 repository: 

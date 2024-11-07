@@ -4,7 +4,7 @@ title: 'WEEX: Trade Bitcoin & Futures'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.wake.weexprd
 appCountry: 
 released: 2022-02-23
@@ -12,7 +12,7 @@ updated: 2024-10-31
 version: 4.2.7
 stars: 2.9
 ratings: 
-reviews: 24
+reviews: 25
 size: 
 website: https://www.weex.com
 repository: 
@@ -30,7 +30,7 @@ social:
 - https://t.me/Weex_Global
 - https://www.linkedin.com/company/weex-global
 redirect_from: 
-developerName: playstore@weexglobal.com
+developerName: WEEX PRO
 features: 
 
 ---

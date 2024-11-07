@@ -8,11 +8,11 @@ appId: com.sigen.sigenapp
 appCountry: ru
 idd: 1505741102
 released: 2020-04-20
-updated: 2024-10-20
-version: 2.9.40
+updated: 2024-11-07
+version: 2.9.41
 stars: 4.8
 reviews: 3725
-size: '57901056'
+size: '57905152'
 website: https://sigen.pro/
 repository: 
 issue: 

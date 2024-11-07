@@ -12,7 +12,7 @@ updated: 2024-10-25
 version: 2.53.0
 stars: 4.1
 ratings: 2272
-reviews: 2927
+reviews: 2934
 size: 
 website: https://bitvavo.com/
 repository: 

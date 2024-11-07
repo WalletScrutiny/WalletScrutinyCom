@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.mykobo.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2024-06-29
+date: 2024-11-07
 signer: 
 reviewArchive: 
 twitter: 

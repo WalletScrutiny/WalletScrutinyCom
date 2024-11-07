@@ -13,8 +13,8 @@ version: 2.9.5
 stars: 4.4
 reviews: 14
 size: '97445888'
-website: https://citadel.one
-repository:
+website: https://citadel.one/
+repository: 
 issue: 
 icon: one.citadel.mobile.jpg
 bugbounty: 

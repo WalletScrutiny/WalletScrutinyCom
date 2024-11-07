@@ -14,7 +14,7 @@ stars: 4.1
 ratings: 2069
 reviews: 61
 size: 
-website: https://status.im
+website: https://status.app
 repository: 
 issue: 
 icon: im.status.ethereum.png

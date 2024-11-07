@@ -8,11 +8,11 @@ appId: com.cashin.store
 appCountry: gb
 idd: 1363753409
 released: 2018-08-15
-updated: 2024-11-04
-version: '7.9'
+updated: 2024-11-05
+version: 7.9.1
 stars: 5
 reviews: 5
-size: '114722816'
+size: '114782208'
 website: https://www.bcpmarkets.co.uk/
 repository: 
 issue: 

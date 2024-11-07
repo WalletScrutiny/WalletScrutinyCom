@@ -11,7 +11,7 @@ released: 2021-07-27
 updated: 2024-10-16
 version: 1.6.0
 stars: 3.4
-reviews: 36
+reviews: 37
 size: '83714048'
 website: https://www.bytefederal.com/
 repository: 

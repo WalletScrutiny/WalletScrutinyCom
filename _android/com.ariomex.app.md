@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ariomex.app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2022-10-21
+date: 2024-11-07
 signer: 
 reviewArchive: 
 twitter: 
