@@ -26,11 +26,11 @@ signer:
 reviewArchive: 
 twitter: coinstore_en
 social: 
-redirect_from:
 - https://www.linkedin.com/company/coinstore
 - https://coinstore.medium.com
 - https://www.facebook.com/coinstoreglobal
 - https://t.me/coinstore_english
+redirect_from:
 developerName: CS- Coinstore
 features: 
 
