@@ -3,8 +3,6 @@ const exec = require('child_process').exec;
 const sass = require('gulp-sass')(require('sass'));
 const htmlmin = require('gulp-htmlmin');
 const minify = require('gulp-minify');
-const del = require('del');
-const rename = require('gulp-rename');
 
 function jekyllTask(done) {
   exec('bundle exec jekyll build', function (err) {
@@ -25,13 +23,13 @@ function serveIncrementalTask(done) {
 }
 
 function sassTask(done) {
-  src('./_site/assets/css/*.css')
+  src('_site/assets/css/*.css')
     .pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
-    .pipe(dest('./_site/assets/css/'));
+    .pipe(dest('_site/assets/css/'));
   done();
 }
 
-function minifyTask(done) {
+function minifyIndexHtmlTask(done) {
   src('_site/index.html')
     .pipe(
       htmlmin({
@@ -43,11 +41,12 @@ function minifyTask(done) {
   done();
 }
 
-function minjsTask(done) {
+function minifyJSTask(done) {
   src('_site/**/*.js')
     .pipe(minify({
+      noSource: true,
       ext: {
-        min: '.jsm'
+        min: '.js'
       },
       ignoreFiles: ['*.min.js', '*-min.js']
     }))
@@ -55,23 +54,7 @@ function minjsTask(done) {
   done();
 }
 
-function cleanjsTask(done) {
-  del(['_site/**/*.js', '!**/*.min.js', '!**/*-min.js']);
-  done();
-}
-
-function renameTask() {
-  return src('./_site/**/*.jsm')
-    .pipe(rename({ extname: '.js' }))
-    .pipe(dest('./_site/'));
-}
-
-function cleanjsmTask(done) {
-  del(['_site/**/*.jsm']);
-  done();
-}
-
 exports.jekyll = jekyllTask;
 exports.serve = serveTask;
 exports.serveIncremental = serveIncrementalTask;
-exports.default = series(jekyllTask, sassTask, minifyTask, minifyTask, minjsTask, cleanjsTask, renameTask, cleanjsmTask);
+exports.default = series(jekyllTask, sassTask, minifyIndexHtmlTask, minifyJSTask);
