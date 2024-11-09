@@ -4,7 +4,7 @@ title: Capex
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.cfdglobal.android
 appCountry: gb
 released: 2017-10-04

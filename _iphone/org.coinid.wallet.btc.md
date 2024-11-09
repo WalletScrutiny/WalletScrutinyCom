@@ -19,9 +19,9 @@ repository: https://github.com/COINiD/COINiDWallet
 issue: https://github.com/COINiD/COINiDWallet/issues/24
 icon: org.coinid.wallet.btc.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: ftbfs
-date: 2023-11-25
+date: 2024-11-09
 signer: 
 reviewArchive: 
 twitter: COINiDGroup

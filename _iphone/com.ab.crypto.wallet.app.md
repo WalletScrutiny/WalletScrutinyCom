@@ -10,8 +10,8 @@ idd: '6467197622'
 released: 2023-12-05
 updated: 2024-10-21
 version: 1.9.0
-stars: 4.4
-reviews: 69
+stars: 4.5
+reviews: 77
 size: '65944576'
 website: https://alicebob.com/
 repository: 

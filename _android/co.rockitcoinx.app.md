@@ -12,7 +12,7 @@ updated: 2024-08-23
 version: 3.6.1
 stars: 4.1
 ratings: 
-reviews: 171
+reviews: 170
 size: 
 website: https://rockitcoin.com
 repository: 

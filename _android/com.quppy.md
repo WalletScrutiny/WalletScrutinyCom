@@ -12,7 +12,7 @@ updated: 2024-11-04
 version: 2.0.112
 stars: 4.1
 ratings: 3900
-reviews: 38
+reviews: 37
 size: 
 website: https://quppy.com/
 repository: 

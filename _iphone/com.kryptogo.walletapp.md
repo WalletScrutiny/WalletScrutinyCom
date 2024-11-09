@@ -8,11 +8,11 @@ appId: com.kryptogo.walletapp
 appCountry: us
 idd: '1593830910'
 released: 2021-12-28
-updated: 2024-10-25
-version: 3.47.0
+updated: 2024-11-08
+version: 3.48.0
 stars: 5
 reviews: 3
-size: '97331200'
+size: '97453056'
 website: https://kryptogo.com/wallet
 repository: 
 issue: 

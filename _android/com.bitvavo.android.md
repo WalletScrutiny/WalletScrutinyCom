@@ -10,9 +10,9 @@ appCountry: nl
 released: 2020-08-19
 updated: 2024-10-25
 version: 2.53.0
-stars: 4.1
+stars: 4.2
 ratings: 2272
-reviews: 2934
+reviews: 2935
 size: 
 website: https://bitvavo.com/
 repository: 

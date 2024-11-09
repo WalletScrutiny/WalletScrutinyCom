@@ -8,8 +8,8 @@ appId: com.swipestox.app
 appCountry: in
 idd: 1182702365
 released: 2017-01-15
-updated: 2024-11-06
-version: 9.1.8
+updated: 2024-11-08
+version: 9.1.9
 stars: 4.7
 reviews: 46
 size: '172829696'

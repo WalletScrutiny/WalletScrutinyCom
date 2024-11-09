@@ -17,7 +17,7 @@ size:
 website: https://weareblox.com
 repository: 
 issue: 
-icon: com.weareblox.app.jpg
+icon: com.weareblox.app.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive

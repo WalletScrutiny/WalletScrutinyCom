@@ -8,10 +8,10 @@ appId: com.coindcx.btc
 appCountry: in
 idd: 1517787269
 released: 2020-12-09
-updated: 2024-11-06
-version: CoinDCX v6.61.0008
+updated: 2024-11-08
+version: 6.62.0003
 stars: 4.2
-reviews: 30449
+reviews: 30474
 size: '222774272'
 website: https://coindcx.com
 repository: 
