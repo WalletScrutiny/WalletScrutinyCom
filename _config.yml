@@ -325,6 +325,13 @@ whitelist:
   - jekyll-feed
   - jemoji
 
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
 brotli:
   extensions:
     - '.html'
