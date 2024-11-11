@@ -1,7 +1,6 @@
 ---
-layout: compress
+layout: null
 ---
-
 
 {% include /json/platforms.json %}
 {% include /json/verdicts.json %}
