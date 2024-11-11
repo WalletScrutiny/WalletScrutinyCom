@@ -5,21 +5,6 @@ author_profile: true
 
 {% include base_path %}
 
-<script>
-function lsTest(){
-
-    var test = 'test';
-    try {
-        localStorage.setItem(test, test)
-        localStorage.removeItem(test)
-        return true
-    } catch(e) {
-        return false
-    }
-
-}
-</script>
-
 <div class="atf-head">
 <h1>Transparency first, second, and third.</h1>
 <h3>We get to know wallets. Here’s where you get to know us.</h3>

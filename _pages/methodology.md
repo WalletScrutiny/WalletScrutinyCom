@@ -29,46 +29,49 @@ author_profile: true
 </div>
 
 <script>
-  let lastQuery = false
+  let lastQuery = false;
   function url(){
-    let urlPlatformCategory = false
-    let urlIndex = 1
+    let urlPlatformCategory = false;
+    let urlIndex = 1;
     if(window.location.search.indexOf('?')>=0){
-    const query = window.location.search.split('?')
+      const query = window.location.search.split('?');
 
-      let urlIndexCounter = 1
-      let tabQuery = query[1].indexOf("/")>0?query[1].split("/")[0]:query[1]
+      let urlIndexCounter = 1;
+      let tabQuery = query[1].indexOf("/")>0?query[1].split("/")[0]:query[1];
       for(const tab of document.querySelectorAll(".tabulation .tab")){
         if(tabQuery===tab.innerHTML.replace(/ /g, '-').toLowerCase()){
-          urlIndex = urlIndexCounter
-          break
+          urlIndex = urlIndexCounter;
+          break;
         }
         urlIndexCounter++
       }
-      urlPlatformCategory = query[1].indexOf("/")>0?query[1].split("/")[1]:false
+      urlPlatformCategory = query[1].indexOf("/")>0?query[1].split("/")[1]:false;
     }
-    if(urlIndex==2){processSelectedSubcategory(urlPlatformCategory)}
-    document.body.setAttribute("data-active-index", urlIndex)
-    lastQuery = window.location.search.split('?')[1]
+    if (urlIndex == 2) {
+      processSelectedSubcategory(urlPlatformCategory);
+    }
+    document.body.setAttribute("data-active-index", urlIndex);
+    lastQuery = window.location.search.split('?')[1];
   }
 
-  let index = 1
-  for(const tab of document.querySelectorAll(".tabulation .tab")){
-    tab.setAttribute("data-index", index)
-    tab.addEventListener("click", (event)=>{
-      document.body.setAttribute("data-active-index", event.target.getAttribute("data-index"))
-      const newQuery = event.target.innerHTML.replace(/ /g, '-').toLowerCase()
-      if(lastQuery!==newQuery)
-      {window.history.pushState('data', null, `/methodology/?${newQuery}` )
-      lastQuery = window.location.search.split('?')[1]}
-    })
-    index++
+  let index = 1;
+  for (const tab of document.querySelectorAll(".tabulation .tab")) {
+    tab.setAttribute("data-index", index);
+    tab.addEventListener("click", (event) => {
+      document.body.setAttribute("data-active-index", event.target.getAttribute("data-index"));
+      const newQuery = event.target.innerHTML.replace(/ /g, '-').toLowerCase();
+      if (lastQuery !== newQuery) {
+        window.history.pushState('data', null, `/methodology/?${newQuery}`);
+      }
+      lastQuery = window.location.search.split('?')[1];
+    });
+    index++;
   }
-  url()
-  window.addEventListener("popstate", (event)=>{
-
-    console.log(event, lastQuery, window.location.search.split('?')[1]); 
-    if(lastQuery!==window.location.search.split('?')[1])
-    {url()}
-  })
+  url();
+  window.addEventListener("popstate", (event) => {
+    console.log(event, lastQuery, window.location.search.split('?')[1]);
+    if (lastQuery !== window.location.search.split('?')[1]) {
+      url();
+    }
+  });
 </script>
