@@ -1,4 +1,4 @@
-const { series, src, dest } = require('gulp');
+const { series, parallel, src, dest } = require('gulp');
 const exec = require('child_process').exec;
 const sass = require('gulp-sass')(require('sass'));
 const htmlmin = require('gulp-htmlmin');
@@ -23,14 +23,14 @@ function serveIncrementalTask(done) {
 }
 
 function sassTask(done) {
-  src('_site/assets/css/*.css')
+  return src('_site/assets/css/*.css')
     .pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
     .pipe(dest('_site/assets/css/'));
   done();
 }
 
 function minifyIndexHtmlTask(done) {
-  src('_site/index.html')
+  return src('_site/index.html')
     .pipe(
       htmlmin({
         collapseWhitespace: true,
@@ -42,7 +42,7 @@ function minifyIndexHtmlTask(done) {
 }
 
 function minifyJSTask(done) {
-  src('_site/**/*.js')
+  return src('_site/**/*.js')
     .pipe(minify({
       noSource: true,
       ext: {
@@ -54,12 +54,18 @@ function minifyJSTask(done) {
   done();
 }
 
-function brotlifyTask(done) {
-    exec('npx brotli-cli compress -q 11 --glob "_site/*.html" --glob "_site/**/*.{js,css,json,ttf,svg,eot,cast}"', function (err) {
+function brotlifyHTMLTask(done) {
+    exec('npx brotli-cli compress -q 6 --glob "_site/**/*.html"', function (err) {
+        done(err);
+    });
+}
+
+function brotlifyOthersTask(done) {
+    exec('npx brotli-cli compress -q 10 --glob "_site/*.html" --glob "_site/**/*.{js,css,json,ttf,svg,eot,cast}"', function (err) {
         done(err);
     });
 }
 
 exports.serve = serveTask;
 exports.serveIncremental = serveIncrementalTask;
-exports.default = series(jekyllTask, sassTask, minifyIndexHtmlTask, minifyJSTask, brotlifyTask);
+exports.default = series(jekyllTask, parallel(sassTask, minifyIndexHtmlTask, minifyJSTask), brotlifyHTMLTask, brotlifyOthersTask);
