@@ -1,0 +1,18 @@
+ refresh-apps:
+  image: node:20
+  variables:
+    LN_KEY: ${BTCPAYSERVER_RO_TOKEN}
+  script:
+    - apt update
+    - apt install -y imagemagick-6.q16 parallel
+    - chmod +x ./refresh.sh
+    - ./refresh.sh -k $LN_KEY  > refresh_output.log
+  artifacts:
+    paths:
+      - refresh_output.log
+    expire_in: 1 week
+  rules:
+    - when: manual
+    - if: $CI_PIPELINE_SOURCE == "schedule"
+      when: always
+  allow_failure: true
