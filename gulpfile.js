@@ -54,7 +54,12 @@ function minifyJSTask(done) {
   done();
 }
 
-exports.jekyll = jekyllTask;
+function brotlifyTask(done) {
+    exec('npx brotli-cli compress -q 11 --glob "_site/*.html" --glob "_site/**/*.{js,css,json,ttf,svg,eot,cast}"', function (err) {
+        done(err);
+    });
+}
+
 exports.serve = serveTask;
 exports.serveIncremental = serveIncrementalTask;
-exports.default = series(jekyllTask, sassTask, minifyIndexHtmlTask, minifyJSTask);
+exports.default = series(jekyllTask, sassTask, minifyIndexHtmlTask, minifyJSTask, brotlifyTask);

@@ -17,7 +17,6 @@ gem "jekyll", "~> 4.3.0"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem 'jekyll-redirect-from'
-  gem 'jekyll-brotli'
 end
 install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
   gem "tzinfo", "~> 1.2"

@@ -319,28 +319,13 @@ timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database
 # Plugins
 plugins:
   - jekyll-redirect-from
-  - jekyll-brotli
   - jekyll-include-cache
 whitelist:
   - jekyll-feed
   - jemoji
 
-# HTML Compression
-# - http://jch.penibelst.de/
+# HTML Compression - http://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
-    envs: development
-
-brotli:
-  extensions:
-    - '.html'
-    - '.css'
-    - '.js'
-    - '.json'
-    - '.ttf'
-    - '.svg'
-    - '.eot'
-    - '.woff2'
-    - '.xml'
-    - '.cast'
+    envs: [development, production]
