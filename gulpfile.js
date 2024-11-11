@@ -22,14 +22,13 @@ function serveIncrementalTask(done) {
   }).stdout.pipe(process.stdout);
 }
 
-function sassTask(done) {
+function sassTask() {
   return src('_site/assets/css/*.css')
     .pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
     .pipe(dest('_site/assets/css/'));
-  done();
 }
 
-function minifyIndexHtmlTask(done) {
+function minifyIndexHtmlTask() {
   return src('_site/index.html')
     .pipe(
       htmlmin({
@@ -38,10 +37,9 @@ function minifyIndexHtmlTask(done) {
       })
     )
     .pipe(dest('_site'));
-  done();
 }
 
-function minifyJSTask(done) {
+function minifyJSTask() {
   return src('_site/**/*.js')
     .pipe(minify({
       noSource: true,
@@ -51,7 +49,6 @@ function minifyJSTask(done) {
       ignoreFiles: ['*.min.js', '*-min.js']
     }))
     .pipe(dest('_site/'));
-  done();
 }
 
 function brotlifyHTMLTask(done) {
