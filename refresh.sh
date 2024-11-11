@@ -12,17 +12,16 @@ do
   esac
 done
 
-
-echo "installing missing stuff"
+echo " * Installing node packages..."
 npm install
 
-echo "Updating from Google and Apple $apps ..."
+echo " * Updating from Google and Apple $apps ..."
 node \
   --input-type=module \
   --eval "import refreshApps from \"./refreshApps.mjs\"; refreshApps.refresh(false, \"$apps\")"
 
 if [ -z "$apps" ]; then
-  echo "Running script to generate app IDs..."
+  echo " * Running script to generate app IDs..."
   wait
   apps=$(node scripts/defunctParser.js) 
   if [ -n "$apps" ]; then
@@ -32,19 +31,26 @@ if [ -z "$apps" ]; then
   fi
 fi
 
-echo "Refreshing donations page ..."
+echo " * Refreshing donations page from BTCPay..."
 node refreshDonations.mjs $btcPayKey
 wait
 
+echo " * Update/resize images and icons..."
 if [ "$( git diff --name-only | grep 'wIcons' )" != "" ]; then
   ./updateImages.sh
 fi
+
+echo " * Generating Twitter cards..."
 node scripts/twitterCardGen.mjs
 
 wait
 
+echo " * Calling refreshResults.sh..."
+./refreshResults.sh
+
+echo " * Generate allOpinions.html from Nostr..."
+node ./scripts/compileAllOpinions.js
+
 echo
 echo
 echo "Done! I'm just a stupid bot! Please carefully review my changes before committing or publishing!"
-./refreshResults.sh
-node ./scripts/compileAllOpinions.js
