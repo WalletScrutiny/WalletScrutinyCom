@@ -5,7 +5,6 @@ const btcpayServerUrl = 'https://pos.btcpay.nz';
 const storeId = '7WhWPWK41yURwAUoY8SiAsrvVzkSXyndHfLJKX2aanAK';
 const historyCount = 10;
 const apiEndpointInvoices = `/api/v1/stores/${storeId}/invoices?status=Settled&take=${historyCount}`;
-const apiEndpointPaymentMethods = `/api/v1/stores/${storeId}/invoices/${invoice.id}/payment-methods`;
 const apiKey = process.argv[2];
 if (apiKey === undefined) {
   console.error('No API key provided. Skipping Donations update.');
@@ -38,6 +37,7 @@ fetch(btcpayServerUrl + apiEndpointInvoices, {
 `);
 
     for (const invoice of invoices) {
+      const apiEndpointPaymentMethods = `/api/v1/stores/${storeId}/invoices/${invoice.id}/payment-methods`;
       await fetch(btcpayServerUrl + apiEndpointPaymentMethods, {
         method: 'GET',
         headers: headers
