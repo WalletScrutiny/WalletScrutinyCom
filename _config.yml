@@ -319,19 +319,13 @@ timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database
 # Plugins
 plugins:
   - jekyll-redirect-from
-  - jekyll-minifier
   - jekyll-include-cache
 whitelist:
   - jekyll-feed
   - jemoji
 
-jekyll-minifier:
-  uglifier_args:
-    harmony: true
-
-# HTML Compression
-# - http://jch.penibelst.de/
+# HTML Compression - http://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
-    envs: development
+    envs: [development, production]

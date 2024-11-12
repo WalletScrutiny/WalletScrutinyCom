@@ -45,9 +45,9 @@
   document.body.classList.add(window.theme);
   function toggleTheme(){
     if(window.theme !== "dark"){
-      window.theme = "dark"
-      document.body.classList.remove("light")
-      document.body.classList.add("dark")
+      window.theme = "dark";
+      document.body.classList.remove("light");
+      document.body.classList.add("dark");
     } else {
       window.theme = "light";
       document.body.classList.remove("dark");
@@ -55,14 +55,12 @@
     }
     try { localStorage.setItem('colour-scheme', window.theme) } catch (e) {}
   }
-</script>
 
-<script>
   document.querySelector(".navicon").parentNode.addEventListener("click", (event) => {
-    const self = document.querySelector(".navicon").parentNode
-    const right = (window.outerWidth - self.getBoundingClientRect().right)-(self.clientWidth/2)
-    document.querySelector(".hidden-links").style.right=`calc(${right}px + 1.5rem)`
-  })
+    const self = document.querySelector(".navicon").parentNode;
+    const right = (window.outerWidth - self.getBoundingClientRect().right)-(self.clientWidth/2);
+    document.querySelector(".hidden-links").style.right=`calc(${right}px + 1.5rem)`;
+  });
 </script>
-<script src="{{ base_path }}/assets/js/walletSearchMethods.js"></script>
-<script src="{{ base_path }}/assets/js/searchWalletsNav.js"></script>
+<script defer src="{{ base_path }}/assets/js/walletSearchMethods.js"></script>
+<script defer src="{{ base_path }}/assets/js/searchWalletsNav.js"></script>
