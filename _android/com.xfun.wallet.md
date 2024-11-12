@@ -12,7 +12,7 @@ updated: 2024-04-24
 version: 2.0.4
 stars: 4
 ratings: 
-reviews: 10
+reviews: 11
 size: 
 website: https://xfun.io
 repository: 

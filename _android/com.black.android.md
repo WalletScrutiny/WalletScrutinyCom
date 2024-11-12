@@ -10,9 +10,9 @@ appCountry:
 released: 2021-07-09
 updated: 2024-11-08
 version: '55'
-stars: 1.8
+stars: 2.3
 ratings: 
-reviews: 2
+reviews: 3
 size: 
 website: https://black.com
 repository: 

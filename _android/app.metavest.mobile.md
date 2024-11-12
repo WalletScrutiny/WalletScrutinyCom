@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: app.metavest.mobile.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2024-09-16
+date: 2024-11-12
 signer: 
 reviewArchive: 
 twitter: MetavestApp

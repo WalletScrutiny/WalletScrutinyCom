@@ -11,7 +11,7 @@ released: 2017-01-15
 updated: 2024-11-08
 version: 9.1.9
 stars: 4.7
-reviews: 46
+reviews: 47
 size: '172829696'
 website: https://www.naga.com
 repository: 

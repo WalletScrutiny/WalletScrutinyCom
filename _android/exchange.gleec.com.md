@@ -3,11 +3,11 @@ wsId: gleecExchange
 title: Gleec BTC
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: exchange.gleec.com
 appCountry: 
 released: 2021-02-17
-updated: 2024-10-25
+updated: 2024-11-08
 version: 1.33.0
 stars: 2.6
 ratings: 
@@ -19,7 +19,7 @@ issue:
 icon: exchange.gleec.com.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-10-30
 signer: 
 reviewArchive: 

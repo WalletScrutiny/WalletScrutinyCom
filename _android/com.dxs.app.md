@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.dxs.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
-date: 2023-01-02
+date: 2024-11-12
 signer: 
 reviewArchive: 
 twitter: 

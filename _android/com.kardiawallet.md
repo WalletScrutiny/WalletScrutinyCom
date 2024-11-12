@@ -28,7 +28,7 @@ twitter: KardiaChain
 social:
 - https://www.facebook.com/KardiaChainFoundation
 redirect_from: 
-developerName: Kardia
+developerName: HAVENIUM PTE. LTD.
 features: 
 
 ---

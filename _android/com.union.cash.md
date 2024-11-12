@@ -4,7 +4,7 @@ title: Union.cash
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.union.cash
 appCountry: 
 released: 2021-06-25

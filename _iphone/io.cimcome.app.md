@@ -8,11 +8,11 @@ appId: io.cimcome.app
 appCountry: bm
 idd: 1536525077
 released: 2020-12-09
-updated: 2024-09-26
-version: 2.2.10
+updated: 2024-11-12
+version: 2.2.12
 stars: 0
 reviews: 0
-size: '71521280'
+size: '81701888'
 website: https://cimcome.sg
 repository: 
 issue: 

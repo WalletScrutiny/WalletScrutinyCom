@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.exswallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nobtc
-date: 2024-01-16
+date: 2024-11-12
 signer: 
 reviewArchive: 
 twitter: MIRAQLE_MQL

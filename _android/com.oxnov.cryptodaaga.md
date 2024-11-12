@@ -28,7 +28,7 @@ twitter:
 social:
 - https://cryptodaaga.com
 redirect_from: 
-developerName: CRYPTODAAGA SARL
+developerName: OXNOV TECHNOLOGY SARL
 features: 
 
 ---

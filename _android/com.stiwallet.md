@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.stiwallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-04-04
+date: 2024-11-12
 signer: 
 reviewArchive: 
 twitter: 

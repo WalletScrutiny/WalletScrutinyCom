@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: org.coincabin.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-11-03
+date: 2024-11-12
 signer: 
 reviewArchive: 
 twitter: everstrike_io

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.RoyalQ.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-10-06
+date: 2024-11-12
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ctin.inidev.android.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-05-26
+date: 2024-11-12
 signer: 
 reviewArchive: 
 twitter: 

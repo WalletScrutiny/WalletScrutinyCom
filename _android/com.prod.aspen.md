@@ -3,7 +3,7 @@ wsId:
 title: Aspen Digital
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.prod.aspen
 appCountry: 
 released: 2022-06-28

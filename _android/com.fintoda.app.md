@@ -4,7 +4,7 @@ title: Fintoda Wallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.fintoda.app
 appCountry: 
 released: 2021-08-26

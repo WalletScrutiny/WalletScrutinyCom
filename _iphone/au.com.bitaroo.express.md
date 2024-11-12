@@ -11,7 +11,7 @@ released: 2022-12-20
 updated: 2024-11-05
 version: 1.9.0
 stars: 4.9
-reviews: 7
+reviews: 8
 size: '43914240'
 website: https://www.bitaroo.com.au/
 repository: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.sinest.adappterwallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-11-25
+date: 2024-11-12
 signer: 
 reviewArchive: 
 twitter: 

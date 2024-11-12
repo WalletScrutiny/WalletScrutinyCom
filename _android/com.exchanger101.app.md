@@ -12,7 +12,7 @@ updated: 2024-10-22
 version: 1.21.20
 stars: 4.1
 ratings: 
-reviews: 6
+reviews: 7
 size: 
 website: https://exchanger101.com
 repository: 

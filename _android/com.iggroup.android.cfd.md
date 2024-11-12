@@ -10,7 +10,7 @@ appCountry: br
 released: 2015-05-11
 updated: 2024-11-06
 version: 24.10.8
-stars: 3.7
+stars: 3.8
 ratings: 
 reviews: 13
 size: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.avivawallets.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2024-04-24
+date: 2024-11-12
 signer: 
 reviewArchive: 
 twitter: 

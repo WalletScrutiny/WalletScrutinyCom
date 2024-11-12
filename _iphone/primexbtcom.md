@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: primexbtcom.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-07-01
+date: 2024-11-12
 signer: 
 reviewArchive: 
 twitter: primexbt

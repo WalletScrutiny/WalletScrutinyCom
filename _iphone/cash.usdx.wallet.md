@@ -11,7 +11,7 @@ released: 2018-04-23
 updated: 2024-10-08
 version: 1.34.2
 stars: 4.7
-reviews: 143
+reviews: 142
 size: '55813120'
 website: https://usdx.cash/airdrop
 repository: 

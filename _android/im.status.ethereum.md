@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Status - Gateway to Ethereum
+title: 'Status: Social Crypto Wallet'
 altTitle: 
 authors:
 - leo

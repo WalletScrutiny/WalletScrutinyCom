@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: semaphore.stocktrade.tradeweb.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-05-06
+date: 2024-11-12
 signer: 
 reviewArchive: 
 twitter: 

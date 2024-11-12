@@ -12,7 +12,7 @@ updated: 2024-09-26
 version: 1.0.0
 stars: 3.8
 ratings: 
-reviews: 2
+reviews: 3
 size: 
 website: https://cetoex.com
 repository: 

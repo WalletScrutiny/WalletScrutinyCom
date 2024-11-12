@@ -8,11 +8,11 @@ users: 1000000
 appId: com.iMe.android
 appCountry: 
 released: 2019-07-22
-updated: 2024-10-29
+updated: 2024-11-09
 version: 11.2.4
-stars: 4.6
+stars: 4.5
 ratings: 
-reviews: 492
+reviews: 502
 size: 
 website: https://www.imem.app
 repository: https://github.com/imemessenger/iMe-Android

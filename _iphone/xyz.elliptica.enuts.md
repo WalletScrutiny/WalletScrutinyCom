@@ -10,8 +10,8 @@ idd: '6477824421'
 released: 2024-02-14
 updated: 2024-02-14
 version: 0.3.0
-stars: 0
-reviews: 0
+stars: 4
+reviews: 1
 size: '24876032'
 website: https://enuts.cash
 repository: 

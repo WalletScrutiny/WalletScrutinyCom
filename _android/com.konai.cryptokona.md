@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.konai.cryptokona.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
-date: 2023-05-30
+date: 2024-11-12
 signer: 
 reviewArchive: 
 twitter: 

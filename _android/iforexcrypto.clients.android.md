@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: iforexcrypto.clients.android.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosendreceive
-date: 2023-08-14
+date: 2024-11-12
 signer: 
 reviewArchive: 
 twitter: iforexcrypto_o

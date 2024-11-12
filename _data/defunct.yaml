@@ -1,30 +1,3 @@
-2024-10-28:
-- _android/com.avivawallets
-- _android/com.ctin.inidev.android
-- _android/com.symverse.wallet
-- _android/com.talewallet
-- _android/semaphore.stocktrade.tradeweb
-- _android/trade.bot.app
-- _android/app.bitafrika.com
-- _android/app.metavest.mobile
-- _android/co.tradehall.app.tradehall
-- _android/com.aem.aemplus
-- _android/com.bitkoex
-- _android/com.coincat.coincat
-- _android/com.dxs.app
-- _android/com.exswallet
-- _android/com.getcoins.gcwallet2
-- _android/com.keyperwallet
-- _android/com.konai.cryptokona
-- _android/com.stiwallet
-- _android/com.ubrain.cryptowallet
-- _android/com.wRolariteX_12668517
-- _android/com.zedpay.app.android
-- _android/iforexcrypto.clients.android
-- _android/ru.mosapp.mobile.android5c9f540a7a6d7
-- _iphone/com.lcx.app
-- _iphone/com.sfc.fgwallet
-- _iphone/primexbtcom
 2024-10-30:
 - _android/com.capex
 - _android/com.pockan.aicryptotrade
@@ -68,3 +41,12 @@
 - _android/com.eletac.tronwallet
 - _iphone/cc.coincollect.app
 - _iphone/com.btse.BTSE
+2024-11-12:
+- _android/changella.changella
+- _android/com.aabb
+- _android/com.libertify
+- _android/org.orinocodev.orinoco.io
+- _iphone/com.devere.cryptoapp
+- _iphone/com.hots.quantity
+- _iphone/com.kickex
+- _iphone/io.timexapp

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.talewallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
-date: 2023-08-28
+date: 2024-11-12
 signer: 
 reviewArchive: 
 twitter: TaleWallet

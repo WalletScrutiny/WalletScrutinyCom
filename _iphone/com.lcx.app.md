@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.lcx.app.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2024-10-07
+date: 2024-11-12
 signer: 
 reviewArchive: 
 twitter: lcx

@@ -8,7 +8,7 @@ appId: com.babbltd.babb-ios
 appCountry: us
 idd: '1474391121'
 released: 2020-04-14
-updated: 2024-11-06
+updated: 2024-11-12
 version: 2.5.2
 stars: 4.4
 reviews: 83
