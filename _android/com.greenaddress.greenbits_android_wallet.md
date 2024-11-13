@@ -29,7 +29,7 @@ reviewArchive:
   version: 4.0.35
   appHash: 08ab955932047f871c1ad8bae33db6a497c3b93f86a5f99cb77d6cf83f7e61f9
   gitRevision: 3d120924f037ab572b74baacf2ab4ffa8a40b137
-  verdict: reproducible
+  verdict: nonverifiable
 - date: 2024-09-26
   version: 4.0.34
   appHash: 216ea286c8a21be3b073bd8da8ebd1afba4f3bfb2313e91c084887305ff41250
