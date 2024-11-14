@@ -8,15 +8,9 @@ author_profile: true
 
 {% include base_path %}
 
-<link rel="stylesheet" href="{{ base_path }}/assets/css/styles.css">
-
-
 <div class="title-wrapper">
 
-
-
 {% include homepage/wallet-filters.html %}
-
 
   <!--
     The content of this div gets replaced if JS is enabled.
@@ -30,10 +24,3 @@ author_profile: true
 {% include homepage/stats.html %}
 
 {% include homepage/cta.html %}
-
-
-
-<script src="{{ base_path }}/assets/js/color-thief.umd.js"></script>
-<script src="{{ base_path }}/assets/js/ui-components.js"></script>
-<script src="{{ base_path }}/assets/js/walletSearchMethods.js"></script>
-<script src="{{ base_path }}/assets/js/landingPageWalletGrid.js"></script>

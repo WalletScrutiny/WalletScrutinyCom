@@ -32,7 +32,6 @@
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
           <li><a class="theme-parent no-hover" onclick="toggleTheme()" title="Toggle light/dark website theme"><i class="fas fa-moon"></i><i class="fas fa-sun"></i></a></li>
-          <!-- <li><a class="vibrancy no-hover" onclick="toggleVibrancy()" title="Toggle vibrant website theme"></a></li> -->
         </ul>
         <button><div class="navicon"></div></button>
         <ul class="hidden-links hidden"></ul>
@@ -62,5 +61,3 @@
     document.querySelector(".hidden-links").style.right=`calc(${right}px + 1.5rem)`;
   });
 </script>
-<script defer src="{{ base_path }}/assets/js/walletSearchMethods.js"></script>
-<script defer src="{{ base_path }}/assets/js/searchWalletsNav.js"></script>

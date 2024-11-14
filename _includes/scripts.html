@@ -1,7 +1,15 @@
-<script src="{{ base_path }}/assets/js/main.min.js"></script>
-
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
 {% include base_path %}
 
+<script type="text/javascript" src="{{ base_path }}/assets/js/color-thief.umd.js"></script>
+{% if page.url == "/" %}
+<script type="text/javascript" src="{{ base_path }}/assets/js/ui-components.js"></script>
+<script type="text/javascript" src="{{ base_path }}/assets/js/landingPageWalletGrid.js"></script>
+{% endif %}
+<script type="text/javascript" defer src="{{ base_path }}/allWallets.js"></script>
+<script type="text/javascript" defer src="{{ base_path }}/assets/js/walletSearchMethods.js"></script>
+<script type="text/javascript" defer src="{{ base_path }}/assets/js/searchWalletsNav.js"></script>
+<script type="text/javascript" src="{{ base_path }}/assets/js/walletsJSON.js"></script>
+<script type="text/javascript" src="{{ base_path }}/assets/js/main.min.js"></script>
 <script type="text/javascript" src="{{ base_path }}/assets/js/walletlist.js"></script>

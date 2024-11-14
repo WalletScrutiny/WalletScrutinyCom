@@ -37,3 +37,20 @@ function addDropdownEvents(target, fn) {
     })
   }
 }
+
+function copyToClipboard(target) {
+  const text = target.parentNode.querySelectorAll("code")[0].innerText.replace(/\s+/g, ' ')
+  const dummyInput = document.createElement("input")
+  dummyInput.setAttribute("style", "opacity:0;position:fixed;z-index:-99;pointer-events:none")
+  document.body.append(dummyInput)
+  dummyInput.value = text
+  dummyInput.focus()
+  dummyInput.select()
+  if (document.execCommand("copy")) {
+    target.innerHTML = '<i class="fas fa-clipboard-check"></i>&nbsp;Successfully copied'
+    dummyInput.remove()
+    setTimeout(() => {
+      target.innerHTML = '<i class="fas fa-copy"></i>&nbsp;Copy to clipboard'
+    }, 1e3)
+  }
+}
