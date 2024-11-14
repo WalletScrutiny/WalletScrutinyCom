@@ -26,6 +26,11 @@ verdict: reproducible
 date: 2024-08-28
 signer: cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
 reviewArchive:
+- date: 2024-08-28
+  version: 0.9.0
+  appHash: 137bf10d8cd8cd963796e936ff839d536dd244b141f0c21977116a50589d1243
+  gitRevision: 7040a9add3e44cbaac48e7d412c898cff071ffb5
+  verdict: reproducible
 - date: 2024-07-22
   version: 0.8.5-hotfix
   appHash: 13ddb87f0f0a56c24997654b91be1e448a8c134374aeaf1f0ff9f993f1f734f8
@@ -95,26 +100,42 @@ We ran our updated {% include testScript.html %} and got this:
 ===== Begin Results =====
 appId:          app.zeusln.zeus
 signer:         cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
-apkVersionName: 0.9.0
-apkVersionCode: 92001
+apkVersionName: 0.9.2
+apkVersionCode: 95001
 verdict:        
-appHash:        137bf10d8cd8cd963796e936ff839d536dd244b141f0c21977116a50589d1243
-commit:         7a00dd650f75c71156dcb8401efc30845ddc01b1
+appHash:        388d9e8b545aa657c1a147a0a24ee700af31cdecd2c9cdacaa6e208e1db9ea10
+commit:         dd87266ef47f95b4d95b6b70ff0e2eaf0c1ff680
 
 Diff:
-Files /tmp/fromPlay_app.zeusln.zeus_92001/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_92001/AndroidManifest.xml differ
-Only in /tmp/fromPlay_app.zeusln.zeus_92001/META-INF: GOOGPLAY.RSA
-Only in /tmp/fromPlay_app.zeusln.zeus_92001/META-INF: GOOGPLAY.SF
-Only in /tmp/fromPlay_app.zeusln.zeus_92001/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_app.zeusln.zeus_92001: stamp-cert-sha256
+Files /tmp/fromPlay_app.zeusln.zeus_95001/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_95001/AndroidManifest.xml differ
+Only in /tmp/fromPlay_app.zeusln.zeus_95001/META-INF: GOOGPLAY.RSA
+Only in /tmp/fromPlay_app.zeusln.zeus_95001/META-INF: GOOGPLAY.SF
+Only in /tmp/fromPlay_app.zeusln.zeus_95001/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_app.zeusln.zeus_95001: stamp-cert-sha256
 
 Revision, tag (and its signature):
 
 ===== End Results =====
 
-
 ```
 
-Version 0.9.0 of this app is **reproducible**.
+Size of stamp-cert-sha256
+
+```
+$ wc -c stamp-cert-sha256 
+32 stamp-cert-sha256
+```
+
+32 bytes.
+
+**diffoscope on AndroidManifest.xml**
+
+There is only a one-line difference:
+
+`236 	····<meta-data·android:name="com.android.vending.derived.apk.id"·android:value="1"/>`
+
+This, minus the signing differences, make version 0.9.2 of this app **reproducible**.
+
+[Issue 2470](https://github.com/ZeusLN/zeus/issues/2470) is now closed.
 
 {% include asciicast %}
