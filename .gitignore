@@ -10,3 +10,4 @@ node_modules/
 .vscode/
 vendor/
 images/social/
+_data/git.yml

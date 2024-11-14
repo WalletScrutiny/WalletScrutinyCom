@@ -1,8 +1,15 @@
-const { series, parallel, src, dest } = require('gulp');
+const {series, parallel, src, dest} = require('gulp');
 const exec = require('child_process').exec;
+const execSync = require('child_process').execSync;
 const sass = require('gulp-sass')(require('sass'));
 const htmlmin = require('gulp-htmlmin');
 const minify = require('gulp-minify');
+
+function saveGitVariablesTask(done) {
+  execSync('printf "last_commit_ref: %s\\n" "$(git rev-parse HEAD)" > ./_data/git.yml');
+  execSync('printf "uncommited: %s\\n" "$(git status -s -b | tr \'\\n\' \'*\' | tr \'##\' \' \')" >> ./_data/git.yml');
+  done();
+}
 
 function jekyllTask(done) {
   exec('bundle exec jekyll build', function (err) {
@@ -52,17 +59,17 @@ function minifyJSTask() {
 }
 
 function brotlifyHTMLTask(done) {
-    exec('npx brotli-cli compress -q 6 --glob "_site/**/*.html"', function (err) {
-        done(err);
-    });
+  exec('npx brotli-cli compress -q 6 --glob "_site/**/*.html"', function (err) {
+    done(err);
+  });
 }
 
 function brotlifyOthersTask(done) {
-    exec('npx brotli-cli compress -q 10 --glob "_site/*.html" --glob "_site/**/*.{js,css,json,ttf,svg,eot,cast}"', function (err) {
-        done(err);
-    });
+  exec('npx brotli-cli compress -q 10 --glob "_site/*.html" --glob "_site/**/*.{js,css,json,ttf,svg,eot,cast}"', function (err) {
+    done(err);
+  });
 }
 
-exports.serve = serveTask;
-exports.serveIncremental = serveIncrementalTask;
-exports.default = series(jekyllTask, parallel(sassTask, minifyIndexHtmlTask, minifyJSTask), brotlifyHTMLTask, brotlifyOthersTask);
+exports.serve = series(saveGitVariablesTask, serveTask);
+exports.serveIncremental = series(saveGitVariablesTask, serveIncrementalTask);
+exports.default = series(saveGitVariablesTask, jekyllTask, parallel(sassTask, minifyIndexHtmlTask, minifyJSTask), brotlifyHTMLTask, brotlifyOthersTask);
