@@ -8,11 +8,11 @@ appId: com.rearden-metals.Cold-Storage-Coins
 appCountry: hu
 idd: '1352363663'
 released: 2018-03-11
-updated: 2024-10-02
-version: 3.11.2
+updated: 2024-11-12
+version: 3.13.0
 stars: 0
 reviews: 0
-size: '30853120'
+size: '30849024'
 website: https://blockchainmint.com
 repository: 
 issue: 

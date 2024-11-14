@@ -12,7 +12,7 @@ updated: 2023-11-21
 version: 3.1.29
 stars: 3.6
 ratings: 5765
-reviews: 13
+reviews: 12
 size: 
 website: https://bitay.com.tr
 repository: 

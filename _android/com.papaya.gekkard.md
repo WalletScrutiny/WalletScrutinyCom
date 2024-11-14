@@ -12,7 +12,7 @@ updated: 2024-10-14
 version: 1.1.1
 stars: 2.3
 ratings: 43
-reviews: 67
+reviews: 68
 size: 
 website: https://gekkoin.com/index.html
 repository: 

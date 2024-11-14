@@ -11,7 +11,7 @@ released: 2019-02-08
 updated: 2024-10-24
 version: 2.2.1
 stars: 4.7
-reviews: 973
+reviews: 975
 size: '119136256'
 website: https://mercuryo.io/
 repository: 

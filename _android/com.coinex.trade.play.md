@@ -1,6 +1,6 @@
 ---
 wsId: CoinEx
-title: 'CoinEx: Buy Memecoin & Crypto'
+title: 'CoinEx: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - leo
@@ -12,7 +12,7 @@ updated: 2024-10-31
 version: 3.36.3
 stars: 4.4
 ratings: 60269
-reviews: 1396
+reviews: 1397
 size: 
 website: https://www.coinex.com/
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: mona
-title: Crypto.com - Buy Bitcoin, ETH
+title: Crypto.com - Buy Bitcoin, DOGE
 altTitle: 
 authors:
 - leo
@@ -13,7 +13,7 @@ updated: 2024-11-08
 version: 3.198.11
 stars: 4.4
 ratings: 281384
-reviews: 51119
+reviews: 51172
 size: 
 website: https://crypto.com/
 repository: 

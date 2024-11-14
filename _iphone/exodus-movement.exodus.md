@@ -11,7 +11,7 @@ released: 2019-03-23
 updated: 2024-11-11
 version: 24.45.7
 stars: 4.5
-reviews: 23662
+reviews: 23698
 size: '73485312'
 website: https://exodus.com/mobile
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: ooBit
-title: Oobit - Tap to Pay in Crypto
+title: Oobit - Tap to Pay with Crypto
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 100000
 appId: com.oobit
 appCountry: 
 released: 2022-02-07
-updated: 2024-10-22
-version: 1.8.5
+updated: 2024-11-12
+version: 1.8.6
 stars: 3.1
 ratings: 
 reviews: 18

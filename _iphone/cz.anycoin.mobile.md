@@ -8,8 +8,8 @@ appId: cz.anycoin.mobile
 appCountry: cz
 idd: '1616670336'
 released: 2022-04-25
-updated: 2024-11-10
-version: 1.27.4
+updated: 2024-11-12
+version: 1.27.5
 stars: 4
 reviews: 60
 size: '26076160'

@@ -12,7 +12,7 @@ updated: 2024-11-07
 version: 5.0.2
 stars: 3.9
 ratings: 
-reviews: 1446
+reviews: 1443
 size: 
 website: http://www.bananatok.com
 repository: 

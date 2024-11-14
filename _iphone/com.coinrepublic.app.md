@@ -1,6 +1,6 @@
 ---
 wsId: coinRepublic
-title: 'CoinRepublic: Crypto BTC Alts'
+title: 'CoinRepublic: Buy Crypto & BTC'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.coinrepublic.app
 appCountry: au
 idd: '1540941971'
 released: 2020-11-28
-updated: 2024-10-30
-version: 2.6.1
+updated: 2024-11-13
+version: 2.6.3
 stars: 5
 reviews: 4
-size: '41369600'
+size: '44302336'
 website: https://coinrepublic.exchange/
 repository: 
 issue: 

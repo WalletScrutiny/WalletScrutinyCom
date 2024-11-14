@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.walletx.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nobtc
-date: 2023-11-25
+date: 2024-11-13
 signer: 
 reviewArchive: 
 twitter: 

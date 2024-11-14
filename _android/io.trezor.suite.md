@@ -12,7 +12,7 @@ updated: 2024-10-16
 version: 24.10.1
 stars: 3.1
 ratings: 
-reviews: 53
+reviews: 54
 size: 
 website: https://trezor.io
 repository: 

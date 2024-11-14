@@ -3,7 +3,7 @@ wsId:
 title: SOLO DEX
 altTitle: 
 authors: 
-users: 50000
+users: 100000
 appId: com.sologenicwallet
 appCountry: 
 released: 2020-02-04

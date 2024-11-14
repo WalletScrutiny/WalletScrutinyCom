@@ -11,7 +11,7 @@ released: 2020-12-13
 updated: 2024-07-29
 version: 6.0.1
 stars: 4.5
-reviews: 183
+reviews: 184
 size: '147590144'
 website: https://www.cmorq.com/
 repository: 

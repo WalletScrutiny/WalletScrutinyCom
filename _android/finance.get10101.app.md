@@ -9,7 +9,7 @@ users: 500
 appId: finance.get10101.app
 appCountry: 
 released: 
-updated: 2024-08-10
+updated: 2024-11-13
 version: VARY
 stars: 
 ratings: 

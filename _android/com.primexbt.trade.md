@@ -8,7 +8,7 @@ users: 100000
 appId: com.primexbt.trade
 appCountry: 
 released: 2022-02-10
-updated: 2024-11-07
+updated: 2024-11-13
 version: 4.8.4
 stars: 3.8
 ratings: 

@@ -8,8 +8,8 @@ appId: io.nash.app
 appCountry: de
 idd: 1475759236
 released: 2019-09-06
-updated: 2024-11-11
-version: 17.0.5
+updated: 2024-11-13
+version: 17.0.6
 stars: 4.8
 reviews: 104
 size: '92476416'

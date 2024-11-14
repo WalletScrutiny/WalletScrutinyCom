@@ -8,11 +8,11 @@ appId: kanga.mobile
 appCountry: jp
 idd: '1471634153'
 released: 2020-02-13
-updated: 2024-10-24
-version: 1.20.11
+updated: 2024-11-12
+version: 1.20.12
 stars: 2.5
 reviews: 6
-size: '32527360'
+size: '32558080'
 website: http://kanga.exchange
 repository: 
 issue: 
