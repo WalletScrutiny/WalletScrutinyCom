@@ -9,8 +9,8 @@ appId: com.wake.weexprd
 appCountry: 
 released: 2022-02-23
 updated: 2024-11-12
-version: 4.2.7
-stars: 2.9
+version: 4.2.8
+stars: 2.8
 ratings: 
 reviews: 26
 size: 

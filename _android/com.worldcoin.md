@@ -9,7 +9,7 @@ appId: com.worldcoin
 appCountry: 
 released: 2022-10-04
 updated: 2024-11-13
-version: 2.8.6704
+version: 2.8.6802
 stars: 3.7
 ratings: 
 reviews: 343

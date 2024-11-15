@@ -12,7 +12,7 @@ updated: 2024-11-12
 version: 11.6.2
 stars: 4.6
 ratings: 11618
-reviews: 2093
+reviews: 2094
 size: 
 website: https://lobstr.co/
 repository: 

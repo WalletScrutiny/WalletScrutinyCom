@@ -4,7 +4,7 @@ title: RapiXchangE
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.rapiexchange
 appCountry: 
 released: 2022-04-19

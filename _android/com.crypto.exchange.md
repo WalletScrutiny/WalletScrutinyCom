@@ -31,7 +31,7 @@ social:
 - https://www.facebook.com/CryptoComOfficial
 - https://www.reddit.com/r/Crypto_com
 redirect_from: 
-developerName: CRO DAX Limited
+developerName: Foris DAX Limited
 features: 
 
 ---
