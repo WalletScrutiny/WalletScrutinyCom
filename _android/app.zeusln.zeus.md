@@ -23,7 +23,7 @@ icon: app.zeusln.zeus.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-08-28
+date: 2024-11-14
 signer: cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
 reviewArchive:
 - date: 2024-08-28
