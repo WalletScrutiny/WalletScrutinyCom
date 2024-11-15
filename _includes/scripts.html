@@ -11,6 +11,9 @@
 <script>
     window.addEventListener('load', function() {
         const script = document.createElement('script');
+        script.onload = () => {
+          window.dispatchEvent(new CustomEvent("allWalletsLoaded"));
+        };
         script.src = '{{ base_path }}/allWallets.js';
         document.body.appendChild(script);
     });
