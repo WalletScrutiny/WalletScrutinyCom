@@ -12,7 +12,7 @@ updated: 2024-11-05
 version: 2024.72.1 (1)
 stars: 4.1
 ratings: 
-reviews: 11
+reviews: 12
 size: 
 website: https://bitkey.world
 repository: https://github.com/proto-at-block/bitkey

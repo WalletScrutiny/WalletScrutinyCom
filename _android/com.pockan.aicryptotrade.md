@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.pockan.aicryptotrade.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2024-03-25
+date: 2024-11-15
 signer: 
 reviewArchive: 
 twitter: 

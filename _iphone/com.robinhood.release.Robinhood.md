@@ -8,11 +8,11 @@ appId: com.robinhood.release.Robinhood
 appCountry: us
 idd: 938003185
 released: 2014-12-11
-updated: 2024-11-11
-version: 2024.45.0
+updated: 2024-11-14
+version: 2024.45.1
 stars: 4.2
-reviews: 4394234
-size: '522787840'
+reviews: 4396488
+size: '522783744'
 website: https://robinhood.com/
 repository: 
 issue: 

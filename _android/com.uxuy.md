@@ -12,7 +12,7 @@ updated: 2024-10-25
 version: 1.2.26
 stars: 4
 ratings: 
-reviews: 13
+reviews: 14
 size: 
 website: https://uxuy.com
 repository: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.kucoin.KuCoin.iOS.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-02-09
+date: 2024-11-15
 signer: 
 reviewArchive: 
 twitter: KuCoinCom

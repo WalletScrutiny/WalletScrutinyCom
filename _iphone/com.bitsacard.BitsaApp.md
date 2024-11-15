@@ -8,11 +8,11 @@ appId: com.bitsacard.BitsaApp
 appCountry: de
 idd: 1458095544
 released: 2019-04-12
-updated: 2024-11-11
-version: 2.23.2
+updated: 2024-11-14
+version: 2.24.0
 stars: 2
 reviews: 64
-size: '153863168'
+size: '152162304'
 website: https://www.bitsacard.com/en/
 repository: 
 issue: 

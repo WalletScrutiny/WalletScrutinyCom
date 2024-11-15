@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.patriciauniverse.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-08-29
+date: 2024-11-15
 signer: 
 reviewArchive: 
 twitter: PatriciaSwitch

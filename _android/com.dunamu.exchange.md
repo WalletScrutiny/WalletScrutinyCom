@@ -12,7 +12,7 @@ updated: 2024-11-01
 version: 1.30.3p1
 stars: 3.5
 ratings: 29440
-reviews: 17
+reviews: 18
 size: 
 website: https://upbit.com
 repository: 

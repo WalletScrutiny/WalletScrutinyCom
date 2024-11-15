@@ -8,8 +8,8 @@ users: 1000
 appId: com.cexchange.app
 appCountry: 
 released: 2021-02-21
-updated: 2023-09-04
-version: 1.0.12
+updated: 2024-11-14
+version: 12.0.1
 stars: 
 ratings: 
 reviews: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.cexchange.app.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2024-08-31
+date: 2024-11-15
 signer: 
 reviewArchive: 
 twitter: cExchange2

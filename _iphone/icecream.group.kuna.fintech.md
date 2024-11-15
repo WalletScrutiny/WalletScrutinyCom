@@ -8,11 +8,11 @@ appId: icecream.group.kuna.fintech
 appCountry: ca
 idd: 1457062155
 released: 2019-03-27
-updated: 2024-10-28
-version: 5.6.1
+updated: 2024-11-14
+version: 5.6.3
 stars: 4.2
 reviews: 10
-size: '194805760'
+size: '194875392'
 website: https://kuna.io
 repository: 
 issue: 

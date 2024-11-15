@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Royal Q App - Auto Trading bot
+title: Royal App - Auto Trading bot Q
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 50000
 appId: com.RoyalQ
 appCountry: 
 released: 2021-10-08
-updated: 2024-11-12
-version: '5.0'
+updated: 2024-11-14
+version: '5.1'
 stars: 4.7
 ratings: 
 reviews: 15

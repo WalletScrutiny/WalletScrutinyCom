@@ -7,11 +7,11 @@ appId: nl.knaken.ios
 appCountry: nl
 idd: '1566004838'
 released: 2021-06-10
-updated: 2024-11-10
-version: 4.10.1
+updated: 2024-11-14
+version: 4.10.2
 stars: 4.2
 reviews: 35
-size: '94603264'
+size: '94627840'
 website: https://knaken.eu/
 repository: 
 issue: 

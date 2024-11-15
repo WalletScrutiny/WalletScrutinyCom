@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.alt5pro.droidapp.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2024-02-07
+date: 2024-11-15
 signer: 
 reviewArchive: 
 twitter: alt_sigma

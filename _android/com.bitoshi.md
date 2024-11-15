@@ -12,7 +12,7 @@ updated: 2024-05-14
 version: 1.3.5
 stars: 4.2
 ratings: 
-reviews: 13
+reviews: 14
 size: 
 website: https://bitoshi.africa
 repository: 
