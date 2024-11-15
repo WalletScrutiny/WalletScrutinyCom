@@ -1,10 +1,9 @@
 {% assign posts = site.android.size
-  | add: site.iphone.size
-  | add: site.hardware.size
-  | add: site.others.size
-  | add: site.desktop.size
-  | add: site.bearer.size %}
-
+  | plus: site.iphone.size
+  | plus: site.hardware.size
+  | plus: site.others.size
+  | plus: site.desktop.size
+  | plus: site.bearer.size %}
 {% if include.raw %}
 {% assign fullCount = posts %}
 {% elsif include.locale %}

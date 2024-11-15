@@ -63,5 +63,5 @@ At its most basic, adding a platform starts with these steps:
 12. Make sure to include `desktop` in the file **wallets.js** under:
 
     `const platformOrder = "hardware,android,iphone,bearer,desktop"`
-13. Edit **allAppList.html** to include desktop. This is an example entry for **Hardware**. Replace all instances of _hardware_ with `desktop`. Be sure to match the fields in the front matter of your .md files.
+13. Edit **allProducts.json** to include desktop. This is an example entry for **Hardware**. Replace all instances of _hardware_ with `desktop`. Be sure to match the fields in the front matter of your .md files.
     ![image2](../images/contributing/image2.png)
