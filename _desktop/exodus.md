@@ -4,9 +4,9 @@ appId: exodus
 authors:
 - danny
 released: 2015-12-09
-discontinued: 2024-04-22
-updated: 
-version: 24.17.5
+discontinued: 
+updated: 2024-11-01
+version: 24.41.6
 binaries: 
 provider: Exodus Movement, Inc.
 providerWebsite: 

@@ -5,9 +5,9 @@ authors:
 - danny
 released: 2022-10-18
 discontinued: 
-updated: 
-version: 1.1.0
-binaries: https://download.ellipal.com/coldwallet/Ellipal_mini_v1.1.0.zip
+updated: 2024-10-08
+version: 4.2.0
+binaries: https://www.ellipal.com/pages/ellipal-titan-mini-firmware-update
 dimensions:
 - 75
 - 71

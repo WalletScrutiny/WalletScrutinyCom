@@ -15,6 +15,14 @@ const migration = function (header, body, fileName, categoryHelper) {
   const folder = `_${category}/`;
   // make sure, appId matches file name
   header.appId = fileName.slice(0, -3);
+
+  // Check for missing 'updated' field when 'version' is defined
+  if (header.version && !header.updated) {
+    console.error(
+        `\x1b[36mWarning: 'updated' field is missing for ${folder}${header.appId}.md with version ${header.version}\x1b[0m`
+    );
+  }
+
   header.social = header.social || [];
   for (const l of header.social) {
     if (l == null ||

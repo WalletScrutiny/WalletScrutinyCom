@@ -23,9 +23,9 @@ repository:
 issue: 
 icon: tangemnote.png
 bugbounty: 
-meta: ok
+meta: obsolete
 verdict: noita
-date: 2022-03-23
+date: 2024-11-15
 signer: 
 reviewArchive: 
 twitter: Tangem

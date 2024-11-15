@@ -20,6 +20,16 @@ node \
   --input-type=module \
   --eval "import refreshApps from \"./refreshApps.mjs\"; refreshApps.refresh(false, \"$apps\")"
 
+# Missing update field checker
+echo " * Checking for missing 'updated' fields in apps..."
+for file in $(find ./_hardware ./_android ./_iphone ./_bearer ./_desktop -name "*.md"); do
+  version=$(grep -m 1 "^version:" $file | awk '{print $2}')
+  updated=$(grep -m 1 "^updated:" $file | awk '{print $2}')
+  if [ -n "$version" ] && [ -z "$updated" ]; then
+    echo -e "\033[1;36mWarning: 'updated' field is missing for file $file with version $version\033[0m"
+  fi
+done
+
 if [ -z "$apps" ]; then
   echo " * Running script to generate app IDs..."
   wait
