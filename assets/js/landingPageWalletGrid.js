@@ -195,7 +195,7 @@ function generateAndAppendPagination(workingArray, pageNo) {
 }
 
 function generateDropdownAndInputCounts() {
-  document.querySelector(".query-string").setAttribute("placeholder", document.querySelector(".query-string").getAttribute("placeholder").replace(/all/, String(window.wallets.length).replace(/\B(?=(\d{3})+(?!\d))/g, ",")))
+  document.querySelector(".query-string").setAttribute("placeholder", `Search ${String(window.wallets.length).replace(/\B(?=(\d{3})+(?!\d))/g, ',')} security reviews…`);
 }
 
 function generateFeedbackText(workingArray, platform, queryRaw, redirected = false) {

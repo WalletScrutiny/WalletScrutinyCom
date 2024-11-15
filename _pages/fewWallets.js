@@ -1,11 +1,11 @@
 ---
 layout: null
-permalink: /allWallets.js
+permalink: /fewWallets.js
 ---
 
 (() => {
   const wallets = [];
-  const data = {% include allProducts.json %};
+  const data = {% include fewProducts.json %};
   const opinions = {% include allOpinions.json %};
   window.verdicts = data.verdicts;
   const folders = ["hardware", "android", "iphone", "bearer", "desktop", "others"];
@@ -20,6 +20,5 @@ permalink: /allWallets.js
       wallets.push(w);
     });
   });
-  window.wallets = wallets;
-  window.versionTag();
+  window.wallets = window.wallets || wallets;
 })();

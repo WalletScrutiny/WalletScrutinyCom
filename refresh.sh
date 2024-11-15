@@ -48,7 +48,7 @@ wait
 echo " * Calling refreshResults.sh..."
 ./refreshResults.sh
 
-echo " * Generate allOpinions.html from Nostr..."
+echo " * Generate allOpinions.json from Nostr..."
 node ./scripts/compileAllOpinions.js
 
 echo
