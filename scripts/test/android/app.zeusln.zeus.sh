@@ -17,20 +17,8 @@ test() {
   CONTAINER_NAME="zeus_builder_container"
   ZEUS_PATH=/olympus/zeus
 
-# Default options for the Docker command
-TTY_FLAG="-it"
-
-# Parse arguments
-while [[ "$#" -gt 0 ]]; do
-    case $1 in
-        --no-tty) TTY_FLAG="" ;; # Remove -it if --no-tty is provided
-        *) echo "Unknown parameter: $1" && exit 1 ;;
-    esac
-    shift
-done
-
-# Run the Docker command
-docker run --rm $TTY_FLAG --name $CONTAINER_NAME -v "$(pwd):$ZEUS_PATH" $BUILDER_IMAGE bash -c \
+# Run the Podman command
+podman run --rm --name $CONTAINER_NAME -v "$(pwd):$ZEUS_PATH" $BUILDER_IMAGE bash -c \
      'echo -e "\n\n********************************\n*** Building ZEUS...\n********************************\n" && \
       cd /olympus/zeus ; yarn install --frozen-lockfile && \
       cd /olympus/zeus/android ; ./gradlew app:assembleRelease && \
