@@ -145,7 +145,7 @@ function generateAndAppendPagination(workingArray, pageNo) {
     });
 
     return;
-}
+  }
   // Continuation of previous code
   let pagination = document.createElement("div")
   pagination.classList.add("pagination")
@@ -185,7 +185,14 @@ function generateAndAppendPagination(workingArray, pageNo) {
     if (allowedTargets.indexOf(i) < 0) { clickTarget.style.display = 'none' } else { lastValidOption = index }
     pagination.append(clickTarget)
   }
-  document.querySelector(".wallet-placeholder").append(pagination)
+
+  const paginationWidget = document.querySelector(".wallet-placeholder .pagination");
+  if (paginationWidget) {
+    paginationWidget.replaceWith(pagination);
+  } else {
+    document.querySelector(".wallet-placeholder").append(pagination);
+  }
+
   if (!window.blockScrollingFocus) {
     setTimeout(() => {
       window.scroll(0, document.querySelector("#homepageSearch").offsetTop)
@@ -195,7 +202,7 @@ function generateAndAppendPagination(workingArray, pageNo) {
 }
 
 function generateDropdownAndInputCounts() {
-  document.querySelector(".query-string").setAttribute("placeholder", document.querySelector(".query-string").getAttribute("placeholder").replace(/all/, String(window.wallets.length).replace(/\B(?=(\d{3})+(?!\d))/g, ",")))
+  document.querySelector(".query-string").setAttribute("placeholder", `Search ${window.full_wallet_count} security reviews…`);
 }
 
 function generateFeedbackText(workingArray, platform, queryRaw, redirected = false) {
@@ -316,4 +323,17 @@ document.querySelector(".query-string").addEventListener("input", () => {
     window.history.pushState('data', null, `/?platform=${platform}&page=0&query-string=${queryRaw}`)
     updateWalletGridInputOriginatingFromURL()
   }, 500)
-})
+});
+
+window.addEventListener("allWalletsLoaded", () => {
+  const platform = document.querySelector(".dropdown-platform .selected") ? document.querySelector(".dropdown-platform .selected").getAttribute("data") : "allPlatforms"
+  const page = document.querySelector(".pagination .selected") ? document.querySelector(".pagination .selected").innerHTML : 1
+  const queryRaw = document.querySelector(".query-string").value.length > 0 ? encodeURI(document.querySelector(".query-string").value) : ""
+  const query = queryRaw.toUpperCase()
+  //query = decodeURI(query)
+  const workingArray = performSearch(window.wallets, query, platform) || false;
+
+  window.blockScrollingFocus = true;
+
+  generateAndAppendPagination(workingArray, page);
+});

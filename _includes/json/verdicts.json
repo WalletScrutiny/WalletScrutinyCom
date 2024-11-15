@@ -1,15 +1,1 @@
-{% assign verdicts = 'const siteVerdicts = [' %}
-
-
-{% for v in site.data.verdicts %}
-  {% assign verdicts = verdicts | append: ',"' %}
-  {% assign verdicts = verdicts | append: v[0] %}
-  {% assign verdicts = verdicts | append: '"' %}
-{% endfor %}
-
-
-{% assign verdicts = verdicts | remove_first: "," | append: '];' %}
-
-
-
-{{verdicts}}
+const siteVerdicts = [{% for v in site.data.verdicts %}"{{v[0]}}"{% unless forloop.last %},{% endunless %}{% endfor %}]

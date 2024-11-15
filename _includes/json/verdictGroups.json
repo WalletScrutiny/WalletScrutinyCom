@@ -1,13 +1,6 @@
-{% assign verdicts = '' %}
-
 {% assign verdictGroups = site.data.topVerdicts | concat: site.data.verdictGroups %}
 
-{% for vg in verdictGroups %}
-  {% assign vgJson = vg | jsonify %}
-  {% assign verdicts = verdicts | append: '"' | append: vg.key | append: '": '
-    | append: vgJson %}
-  {% unless forloop.last %}
-    {% assign verdicts = verdicts | append: ',' %}
-  {% endunless %}
+const verdictGroups = {
+{% for vg in verdictGroups %}"{{vg.key}}": {{vg | jsonify}}{% unless forloop.last %},{% endunless %}
 {% endfor %}
-const verdictGroups = { {{verdicts}} }
+}

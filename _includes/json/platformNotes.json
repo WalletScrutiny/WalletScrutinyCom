@@ -1,19 +1,5 @@
-{% assign platformNotes = 'const platformNotes = {' %}
-
-
-{% for p in site.data.platformMeta %}
-  {% if p[1].notes %}
-    {% assign platformNotes = platformNotes | append: ',"' %}
-    {% assign platformNotes = platformNotes | append: p[0] %}
-    {% assign platformNotes = platformNotes | append: '":"' %}
-    {% assign platformNotes = platformNotes | append: p[1].notes %}
-    {% assign platformNotes = platformNotes | append: '"' %}
-    {% endif %}
+{% assign platformNotes = {} %}
+const platformNotes = {
+{% for p in site.data.platformMeta %}{% if p[1].notes %}"{{p[0]}}":"{{p[1].notes}}",{% endif %}
 {% endfor %}
-
-
-{% assign platformNotes = platformNotes | remove_first: "," | append: '};' %}
-
-
-
-{{platformNotes}}
+}

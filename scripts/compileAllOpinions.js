@@ -19,7 +19,7 @@ const getNames = async () => {
   return names;
 };
 
-function isEmpty(obj) {
+function isEmpty (obj) {
   for (const prop in obj) {
     if (Object.hasOwn(obj, prop)) {
       return false;
@@ -32,14 +32,12 @@ function isEmpty(obj) {
   const names = await getNames();
   // todo: shouldn't have to configure the trusted authors twice in this project
   const summariser = new Summariser({
-    relay: 
-      'wss://nos.lol',
+    relay: 'wss://nos.lol',
     trustedAuthors: [
       'npub1gm7tuvr9atc6u7q3gevjfeyfyvmrlul4y67k7u7hcxztz67ceexs078rf6', // Leo
       'npub1r709glp0xx2zvgac45wswufjst5xgr7cear5a8me7x9vazhjzmksp2sf7d', // Danny
-      'npub1mtd7s63xd85ykv09p7y8wvg754jpsfpplxknh5xr0pu938zf86fqygqxas', // The Bitcoin Hole
-      // 'npub1gmm2ehusvs35zgh6pq84m8hkj4ea0ygy3c9j2e3slzhjjce3kmns5tdaz2', // Basanta
-  ]
+      'npub1mtd7s63xd85ykv09p7y8wvg754jpsfpplxknh5xr0pu938zf86fqygqxas' // The Bitcoin Hole
+    ]
   });
   await summariser.onReady();
 
@@ -57,6 +55,6 @@ function isEmpty(obj) {
     }
   }
 
-  await fs.writeFile('_includes/allOpinions.html', JSON.stringify(all));
+  await fs.writeFile('_includes/allOpinions.json', JSON.stringify(all));
   process.exit(0);
 })();
