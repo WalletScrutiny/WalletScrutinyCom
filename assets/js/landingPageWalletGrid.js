@@ -145,7 +145,7 @@ function generateAndAppendPagination(workingArray, pageNo) {
     });
 
     return;
-}
+  }
   // Continuation of previous code
   let pagination = document.createElement("div")
   pagination.classList.add("pagination")
@@ -195,7 +195,7 @@ function generateAndAppendPagination(workingArray, pageNo) {
 }
 
 function generateDropdownAndInputCounts() {
-  document.querySelector(".query-string").setAttribute("placeholder", `Search ${String(window.wallets.length).replace(/\B(?=(\d{3})+(?!\d))/g, ',')} security reviews…`);
+  document.querySelector(".query-string").setAttribute("placeholder", `Search ${window.full_wallet_count} security reviews…`);
 }
 
 function generateFeedbackText(workingArray, platform, queryRaw, redirected = false) {
