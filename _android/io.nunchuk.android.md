@@ -23,8 +23,8 @@ issue: https://github.com/nunchuk-io/nunchuk-android/issues/23
 icon: io.nunchuk.android.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
-date: 2024-11-07
+verdict: reproducible
+date: 2024-11-18
 signer: 
 reviewArchive:
 - date: 2023-07-05
@@ -53,13 +53,93 @@ features:
 
 ---
 
+**Update 2024-11-18**
+
+We automated the build:
+ - testAAB.sh - is now version 0.1.0-alpha.6
+ - io.nunchuk.android.sh - is now version 0.1.0-alpha.3
+ - io.nunchuk.android.dockerfile - is now version 0.1.0-alpha.3
+
+*** Summary of Differences ***
+```
+Contents of diff_armeabi_v7a.txt:
+Binary files /tmp/test_io.nunchuk.android_1.9.53/fromPlay-unzipped/armeabi_v7a/AndroidManifest.xml and /tmp/test_io.nunchuk.android_1.9.53/fromBuild-unzipped/armeabi_v7a/AndroidManifest.xml differ
+Only in /tmp/test_io.nunchuk.android_1.9.53/fromPlay-unzipped/armeabi_v7a: META-INF
+Only in /tmp/test_io.nunchuk.android_1.9.53/fromPlay-unzipped/armeabi_v7a: stamp-cert-sha256
+
+Contents of diff_base.txt:
+Binary files /tmp/test_io.nunchuk.android_1.9.53/fromPlay-unzipped/base/AndroidManifest.xml and /tmp/test_io.nunchuk.android_1.9.53/fromBuild-unzipped/base/AndroidManifest.xml differ
+Binary files /tmp/test_io.nunchuk.android_1.9.53/fromPlay-unzipped/base/res/xml/splits0.xml and /tmp/test_io.nunchuk.android_1.9.53/fromBuild-unzipped/base/res/xml/splits0.xml differ
+Binary files /tmp/test_io.nunchuk.android_1.9.53/fromPlay-unzipped/base/resources.arsc and /tmp/test_io.nunchuk.android_1.9.53/fromBuild-unzipped/base/resources.arsc differ
+Only in /tmp/test_io.nunchuk.android_1.9.53/fromPlay-unzipped/base: stamp-cert-sha256
+
+Contents of diff_en.txt:
+Binary files /tmp/test_io.nunchuk.android_1.9.53/fromPlay-unzipped/en/AndroidManifest.xml and /tmp/test_io.nunchuk.android_1.9.53/fromBuild-unzipped/en/AndroidManifest.xml differ
+Only in /tmp/test_io.nunchuk.android_1.9.53/fromPlay-unzipped/en: META-INF
+Binary files /tmp/test_io.nunchuk.android_1.9.53/fromPlay-unzipped/en/resources.arsc and /tmp/test_io.nunchuk.android_1.9.53/fromBuild-unzipped/en/resources.arsc differ
+Only in /tmp/test_io.nunchuk.android_1.9.53/fromPlay-unzipped/en: stamp-cert-sha256
+
+Contents of diff_xhdpi.txt:
+Binary files /tmp/test_io.nunchuk.android_1.9.53/fromPlay-unzipped/xhdpi/AndroidManifest.xml and /tmp/test_io.nunchuk.android_1.9.53/fromBuild-unzipped/xhdpi/AndroidManifest.xml differ
+Only in /tmp/test_io.nunchuk.android_1.9.53/fromPlay-unzipped/xhdpi: META-INF
+Binary files /tmp/test_io.nunchuk.android_1.9.53/fromPlay-unzipped/xhdpi/resources.arsc and /tmp/test_io.nunchuk.android_1.9.53/fromBuild-unzipped/xhdpi/resources.arsc differ
+Only in /tmp/test_io.nunchuk.android_1.9.53/fromPlay-unzipped/xhdpi: stamp-cert-sha256
+```
+
+{% include asciicast %}
+
+We tried to follow the guidelines in this [issue](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/574), which is currently a work-in-progress: 
+
+
+## We take the size of stamp-cert-sha256
+
+```
+danny@lw10:/tmp/test_io.nunchuk.android_1.9.53$ wc -c fromPlay-unzipped/armeabi_v7a/stamp-cert-sha256 
+32 fromPlay-unzipped/armeabi_v7a/stamp-cert-sha256
+danny@lw10:/tmp/test_io.nunchuk.android_1.9.53$ wc -c fromPlay-unzipped/base/stamp-cert-sha256 
+32 fromPlay-unzipped/base/stamp-cert-sha256
+danny@lw10:/tmp/test_io.nunchuk.android_1.9.53$ wc -c fromPlay-unzipped/en/stamp-cert-sha256 
+32 fromPlay-unzipped/en/stamp-cert-sha256
+danny@lw10:/tmp/test_io.nunchuk.android_1.9.53$ wc -c fromPlay-unzipped/xhdpi/stamp-cert-sha256 
+32 fromPlay-unzipped/xhdpi/stamp-cert-sha256
+```
+
+## Diffoscope results
+
+**base**
+
+- [unzipped/base/res/xml/splits0.xml](../../assets/diffoscope-results/android/io.nunchuk.android/1.9.53/diffoscope-base-splits0.xml.html)
+- [decoded/base/AndroidManifest.xml](../../assets/diffoscope-results/android/io.nunchuk.android/1.9.53/diffoscope_AndroidManifest.html)
+- [unzipped/base/resources.arsc](../../assets/diffoscope-results/android/io.nunchuk.android/1.9.53/diffoscope-base-resources.arsc.html)
+
+**armeabi_v7a**
+
+- [unzipped/base/AndroidManifest.xml](../../assets/diffoscope-results/android/io.nunchuk.android/1.9.53/diffoscope-armeabi_v7a-AndroidManifest.xml.html)
+
+**en**
+
+- [unzipped/en/AndroidManifest.xml](../../assets/diffoscope-results/android/io.nunchuk.android/1.9.53/diffoscope-en-AndroidManifest.xml.html)
+- [unzipped/en/resources.arsc](../../assets/diffoscope-results/android/io.nunchuk.android/1.9.53/diffoscope-en-resources.arsc.html)
+
+**xhdpi**
+
+- [unzipped/xhdpi/AndroidManifest.xml](../../assets/diffoscope-results/android/io.nunchuk.android/1.9.53/diffoscope-xhdpi-AndroidManifest.xml.html)
+- [unzipped/xhdpi/resources.arsc](../../assets/diffoscope-results/android/io.nunchuk.android/1.9.53/diffoscope-xhdpi-resources.arsc.html)
+
+The pattern of files match the exceptions noted in the issue mentioned above. Most of which are signing differences. 
+Under a strict-definition of reproducibility, the existence of these files would describe the app as non-verifiable. 
+
+Until the existence of diffs in these files and the guidelines are formalized, we determine that: 
+
+- Most of the diffs are signing related. 
+- The diffoscope results show that the diffs in splits0.xml, resources.arsc and AndroidManifest.xml are benign 
+
+Therefore, version 1.9.53 is **reproducible**
+
+
 **Update 2024-11-07** Reproducible verification for version 1.9.53
 
 We followed the [instructions](https://github.com/nunchuk-io/nunchuk-android/tree/master/reproducible-builds) from the provider regarding their reproducibility verification steps.
-
-We documented our build in the asciicast below. 
-
-{% include asciicast %}
 
 ## Using their [apkdiff.py](https://github.com/nunchuk-io/nunchuk-android/blob/master/reproducible-builds/apkdiff.py) 
 
