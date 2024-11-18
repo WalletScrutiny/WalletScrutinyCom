@@ -56,18 +56,23 @@ layout: default
       <!-- Drag-and-Drop-Area Start -->
       <div id="drop-area">
         <form class="my-form">
-          <p>Drop your APK here</p>
-          <input type="file" id="fileElem">
-          <label class="button" for="fileElem">Select a file</label>
+          <span class="drop-text">Drop file to verify</span>
+          <input type="file" id="fileElem" style="display: none;" />
+          <div id="select">
+            <br />
+            <span>or</span>
+            <br />
+            <label class="button" for="fileElem">Select a file</label>
+          </div>  
         </form>
         <div id="file-list">
-          <div id="file-info" class="info-section"></div>
-          <div id="app-data" class="info-section"></div>
+          <div id="file-info" class="textbox"></div>
+          <div id="app-data" class="textbox"></div>
           <div id="redirect-button" class="info-section"></div>
         </div>
       </div>
       <!-- Drag-and-Drop-Area End -->
-
+       
       {% include /review/securityOverview.html wsId=page.wsId verdict=page.verdict meta=page.meta platform='android' filterPlatform='true' %}
 
       {% include /review/nostrOpinion.html %}
@@ -100,7 +105,7 @@ layout: default
   </article>
 </div>
 
-<!-- https://unpkg.com/app-info-parser/dist/app-info-parser.min.js -->
+<!-- https://www.npmjs.com/package/app-info-parser -->
 <script src="{{ base_path }}/assets/js/app-info-parser.min.js"></script>
 <script src="{{ base_path }}/assets/js/blossom.js"></script>
 <script src="{{ base_path }}/assets/js/drag-and-drop.js"></script>

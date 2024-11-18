@@ -146,7 +146,7 @@ function displayBlossomUploadSuccess(fileName, hash) {
     appDataDiv.innerHTML = `
         <h3>Blossom Upload</h3>
         <p>File "${fileName}" (${hash}) has been successfully uploaded to Blossom.</p>
-    `;
+    `;  
 }
 
 function displayBlossomUploadError(errorMessage) {
@@ -263,7 +263,7 @@ function displayAppData(appData) {
     const appDataDiv = document.getElementById('app-data');
     appDataDiv.innerHTML = `
         <h3>App Data</h3>
-        <strong>Verdict:</strong> <span class="verdict">${appData.verdict}</span><br>
+        <strong>Verdict:</strong><span class="verdict ${appData.verdict}">${appData.verdict}</span><br>
         <strong>App ID:</strong> ${appData.appId}<br>
         <strong>Signer:</strong> ${appData.signer}<br>
         <strong>Version:</strong> ${appData.version}<br>
