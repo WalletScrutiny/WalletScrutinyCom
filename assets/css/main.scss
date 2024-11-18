@@ -45,60 +45,67 @@
 @import "custom-fonts";
 
 #drop-area {
+  font-size: 17px;
   border: 2px dashed #ccc;
   border-radius: 20px;
-  width: 50%;
-  margin: 20px auto;
-  padding: 20px;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 5px 10px;
   text-align: center;
   word-wrap: break-word;
-}
 
-#drop-area.highlight {
-  border-color: purple;
-}
+  #select {
+    display: none;
+  }
 
-.my-form {
-  margin-bottom: 10px;
-}
+  &:hover #select {
+    display: block;
+  }
 
-#file-list {
-  margin-top: 10px;
-  text-align: left;
-}
+  #file-list {
+    text-align: left;
+  }
 
-// Updated styles for APK info and App Data
-#app-data,  #file-info {
-  border: 2px solid;
-  border-radius: 5px;
-  padding: 10px;
-  margin-bottom: 10px;
-  color: #fff;
+  #file-info,
+  #app-data {
+    font-size: 15px;
 
-  h3 {
-    margin-top: 0;
+    h3 {
+      margin-top: 0;
+    }
+
+    &:empty {
+      display: none;
+    }
+  }
+
+  &.highlight {
+    border-color: purple;
   }
 }
 
-#file-info {
-  background-color: #1e5121;
+.my-form {
+  margin-bottom: 0;
 }
 
 #app-data {
-  background-color: #072b54;
-
   .verdict {
     font-weight: bold;
     text-decoration: underline;
     padding: 2px 5px;
     border-radius: 3px;
 
-    &.verified { background-color: #4CAF50; }
-    &.unverified { background-color: #FFC107; color: black; }
-    &.flagged { background-color: #F44336; }
-  }
-}
+    &.verified {
+      background-color: #4caf50;
+    }
 
-.info-section:empty {
-  display: none;
+    &.unverified {
+      background-color: #ffc107;
+      color: black;
+    }
+
+    &.flagged {
+      background-color: #f44336;
+    }
+  }
 }
