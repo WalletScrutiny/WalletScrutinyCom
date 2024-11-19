@@ -55,12 +55,9 @@ features:
 
 **Update 2024-11-18**
 
-We automated the build:
- - testAAB.sh - is now version 0.1.0-alpha.6
- - io.nunchuk.android.sh - is now version 0.1.0-alpha.3
- - io.nunchuk.android.dockerfile - is now version 0.1.0-alpha.3
+To automate building {{ page.title }}, we had to not only update the wallet specific files `io.nunchuk.android.sh` and `io.nunchuk.android.dockerfile` but also drastically improved our general Android App Bundle (AAB) test script `testAAB.sh` which now for the first time could find an AAB to be reproducible.
 
-*** Summary of Differences ***
+*Summary of Differences*
 ```
 Contents of diff_armeabi_v7a.txt:
 Binary files /tmp/test_io.nunchuk.android_1.9.53/fromPlay-unzipped/armeabi_v7a/AndroidManifest.xml and /tmp/test_io.nunchuk.android_1.9.53/fromBuild-unzipped/armeabi_v7a/AndroidManifest.xml differ
@@ -94,14 +91,12 @@ We tried to follow the guidelines in this [issue](https://gitlab.com/walletscrut
 ## We take the size of stamp-cert-sha256
 
 ```
-danny@lw10:/tmp/test_io.nunchuk.android_1.9.53$ wc -c fromPlay-unzipped/armeabi_v7a/stamp-cert-sha256 
-32 fromPlay-unzipped/armeabi_v7a/stamp-cert-sha256
-danny@lw10:/tmp/test_io.nunchuk.android_1.9.53$ wc -c fromPlay-unzipped/base/stamp-cert-sha256 
-32 fromPlay-unzipped/base/stamp-cert-sha256
-danny@lw10:/tmp/test_io.nunchuk.android_1.9.53$ wc -c fromPlay-unzipped/en/stamp-cert-sha256 
-32 fromPlay-unzipped/en/stamp-cert-sha256
-danny@lw10:/tmp/test_io.nunchuk.android_1.9.53$ wc -c fromPlay-unzipped/xhdpi/stamp-cert-sha256 
-32 fromPlay-unzipped/xhdpi/stamp-cert-sha256
+$ wc -c fromPlay-unzipped/{base,armeabi_v7a,en,xhdpi}/stamp-cert-sha256
+ 32 fromPlay-unzipped/base/stamp-cert-sha256
+ 32 fromPlay-unzipped/armeabi_v7a/stamp-cert-sha256
+ 32 fromPlay-unzipped/en/stamp-cert-sha256
+ 32 fromPlay-unzipped/xhdpi/stamp-cert-sha256
+128 total
 ```
 
 ## Diffoscope results
