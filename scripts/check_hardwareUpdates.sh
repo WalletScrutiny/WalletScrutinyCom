@@ -18,7 +18,7 @@ while getopts ":g:" opt; do
             exit 1
             ;;
         : ) 
-            echo "Invalid option: $OPTARG reguires an argument" 1>&2
+            echo "Invalid option: $OPTARG requires an argument" 1>&2
             print_usage
             exit 1
             ;;
@@ -44,26 +44,20 @@ MD_DIR="$SCRIPT_DIR/../_hardware"
 # Function to fetch the latest version from the GitHub repository
 fetch_latest_version() {
   local repo_url=$1
-  # Fetch the latest release information from GitHub API
   local api_url="${repo_url/github.com/api.github.com\/repos}/releases/latest"
   
-  # Follow redirects to get the final URL
   api_url=$(curl -H "Authorization: token $GITHUB_PAT" -Ls -w "%{url_effective}\n" "$api_url" -o /dev/null)
-  
   local latest_version=$(curl -H "Authorization: token $GITHUB_PAT" -s "$api_url" | grep -oP '"tag_name": "\K(.*?)(?=")')
 
   if [ -z "$latest_version" ]; then
-    # If no releases found, check the latest tag
     api_url="${repo_url/github.com/api.github.com\/repos}/tags"
-    local latest_version=$(curl -H "Authorization: token $GITHUB_PAT" -s "$api_url" | grep -oP '"tag_name": "\K(.*?)(?=")')
+    latest_version=$(curl -H "Authorization: token $GITHUB_PAT" -s "$api_url" | grep -oP '"tag_name": "\K(.*?)(?=")')
   fi 
 
   if [ -z "$latest_version" ]; then
-    # If no tags found, check the latest commit date
     api_url="${repo_url/github.com/api.github.com\/repos}/commits"
     latest_commit_date=$(curl -H "Authorization: token $GITHUB_PAT" -s "$api_url" | grep -oP '"date": "\K(.*?)(?=")' | head -n 1)
     if [ -n "$latest_commit_date" ]; then
-      # Simplify the date format to yyyy-mm-dd
       simplified_date=$(date -d "$latest_commit_date" +%Y-%m-%d)
       latest_version="commit: $simplified_date - \e[32mrelease/tag not found\e[0m"
     fi
@@ -83,7 +77,6 @@ check_versions() {
   local meta=$(echo "$front_matter" | grep '^meta:' | awk '{print $2}')
   local reviewed_date=$(echo "$front_matter" | grep '^date:' | awk '{print $2}')
 
-  # Ignores closed source verdicts, prompts user to update version if empty
   if [[ "$meta" == "ok" && ("$verdict" == "reproducible" || "$verdict" == "nonverifiable" || "$verdict" == "wip") ]]; then
     if [ -n "$repo_url" ]; then
       local latest_version=$(fetch_latest_version "$repo_url")
@@ -104,17 +97,21 @@ check_versions() {
   fi
 }
 
-# Function to display files based on verdict
+# Function to display files based on verdict or meta
 display_files() {
   local verdict=$1
-  echo -e "\e[1;32mFiles with verdict: $verdict\e[0m"
+  local meta=$2
+  echo -e "\e[1;32mFiles with ${verdict:+verdict: $verdict}${meta:+ and meta: $meta}\e[0m"
   for file in "$MD_DIR"/*.md; do
     local front_matter=$(awk '/^---$/ {f++} f==2 {exit} f {print}' "$file")
     local file_verdict=$(echo "$front_matter" | grep '^verdict:' | awk '{print $2}')
+    local file_meta=$(echo "$front_matter" | grep '^meta:' | awk '{print $2}')
     local reviewed_date=$(echo "$front_matter" | grep '^date:' | awk '{print $2}')
-    if [[ "$file_verdict" == "$verdict" ]]; then
+    
+    if { [[ -z "$verdict" ]] || [[ "$file_verdict" == "$verdict" ]]; } &&
+       { [[ -z "$meta" ]] || [[ "$file_meta" == "$meta" ]]; }; then
       local filename=$(basename "$file")
-      echo -e "\e[1;36m$filename\e[0m | verdict: \e[1;33m$file_verdict\e[0m | last reviewed: $reviewed_date"
+      echo -e "\e[1;36m$filename\e[0m | verdict: \e[1;33m$file_verdict\e[0m | meta: \e[1;33m$file_meta\e[0m | last reviewed: $reviewed_date"
     fi
   done
 }
@@ -134,7 +131,11 @@ user_prompt() {
   echo -e "\e[1;32m5. vapor\e[0m"
   echo -e "\e[1;32m6. reproducible\e[0m"
   echo -e "\e[1;32m7. exit\e[0m"
-  read -p "Enter option (1-7): " option
+  echo -e "\e[1;32m8. stale\e[0m"
+  echo -e "\e[1;32m9. obsolete\e[0m"
+  echo -e "\e[1;32m10. discontinued\e[0m"
+  echo -e "\e[1;32m11. outdated\e[0m"
+  read -p "Enter option (1-11): " option
   case $option in
     1) display_files "nosource" ;;
     2) display_files "unreleased" ;;
@@ -147,6 +148,10 @@ user_prompt() {
       echo -e "\e[1;32mPersonal Access Token has been cleared from the environment.\e[0m"
       exit 0
       ;;
+    8) display_files "" "stale" ;;
+    9) display_files "" "obsolete" ;;
+    10) display_files "" "discontinued" ;;
+    11) display_files "" "outdated" ;;
     *) echo "Invalid option" ;;
   esac
   echo -e "\e[1;32mWould you like to exit the script or view the results again? (exit/view)\e[0m"
