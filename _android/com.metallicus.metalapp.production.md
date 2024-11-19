@@ -9,7 +9,7 @@ appId: com.metallicus.metalapp.production
 appCountry: us
 released: 2020-01-14
 updated: 2024-08-29
-version: 3.1.158
+version: 3.1.161
 stars: 4.1
 ratings: 564
 reviews: 349

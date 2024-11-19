@@ -10,9 +10,9 @@ appCountry:
 released: 2022-07-29
 updated: 2023-09-26
 version: '3.7'
-stars: 4.6
+stars: 4
 ratings: 
-reviews: 1
+reviews: 2
 size: 
 website: https://odbdrwodqyzixyxti.earn.world/
 repository: 

@@ -12,7 +12,7 @@ updated: 2024-11-08
 version: 2.9.27
 stars: 4
 ratings: 
-reviews: 247
+reviews: 246
 size: 
 website: https://www.superex.com
 repository: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bootleg.iforexCryptoWrapper.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosendreceive
-date: 2023-08-14
+date: 2024-11-19
 signer: 
 reviewArchive: 
 twitter: iforexcrypto_o

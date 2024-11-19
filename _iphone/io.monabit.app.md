@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.monabit.app.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-07-20
+date: 2024-11-19
 signer: 
 reviewArchive: 
 twitter: 

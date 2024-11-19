@@ -18,9 +18,9 @@ repository: https://github.com/breadwallet/brd-mobile
 issue: https://github.com/breadwallet/brd-mobile/issues/13
 icon: org.voisine.breadwallet.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
-date: 2024-03-15
+date: 2024-11-19
 signer: 
 reviewArchive:
 - date: 2022-04-07

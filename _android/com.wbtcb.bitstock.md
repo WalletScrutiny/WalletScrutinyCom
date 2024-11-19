@@ -9,7 +9,7 @@ appId: com.wbtcb.bitstock
 appCountry: 
 released: 2020-06-17
 updated: 2024-09-13
-version: 2.6.4
+version: 2.6.8
 stars: 3
 ratings: 
 reviews: 2

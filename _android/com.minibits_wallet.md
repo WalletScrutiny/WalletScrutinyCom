@@ -3,7 +3,7 @@ wsId:
 title: Minibits Wallet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.minibits_wallet
 appCountry: 
 released: 
@@ -19,7 +19,7 @@ issue:
 icon: com.minibits_wallet.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2024-01-19
 signer: 
 reviewArchive: 

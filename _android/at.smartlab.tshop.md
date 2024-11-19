@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: TabShop POS & Point of Sale
+title: TabShop POS - Cash register
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 500000
 appId: at.smartlab.tshop
 appCountry: 
 released: 2012-12-22
-updated: 2024-08-15
-version: '220'
+updated: 2024-11-17
+version: '222'
 stars: 4
 ratings: 3750
 reviews: 261

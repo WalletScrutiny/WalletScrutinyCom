@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.app.bitay.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2022-11-02
+date: 2024-11-19
 signer: 
 reviewArchive: 
 twitter: BitayTurkiye

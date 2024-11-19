@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.triunits.android.triunits.triunits.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2024-09-21
+date: 2024-11-19
 signer: 
 reviewArchive: 
 twitter: 

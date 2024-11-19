@@ -12,7 +12,7 @@ released: 2020-02-25
 updated: 2024-10-29
 version: 4.28.0
 stars: 4.7
-reviews: 2152
+reviews: 2157
 size: '216071168'
 website: https://bingbon.com
 repository: 

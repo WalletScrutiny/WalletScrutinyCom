@@ -3,7 +3,7 @@ wsId:
 title: Amadis
 altTitle: 
 authors: 
-users: 5
+users: 1
 appId: micat.example.bergamo
 appCountry: 
 released: 2022-09-16

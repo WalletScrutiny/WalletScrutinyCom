@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.spedn.spedn.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosendreceive
-date: 2023-07-28
+date: 2024-11-19
 signer: 
 reviewArchive: 
 twitter: FlexaHQ

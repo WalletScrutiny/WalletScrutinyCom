@@ -11,7 +11,7 @@ released: 2020-04-09
 updated: 2024-08-12
 version: 1.30.0
 stars: 4.6
-reviews: 26200
+reviews: 26202
 size: '192657408'
 website: https://www.btcturk.com
 repository: 
@@ -28,7 +28,7 @@ social:
 - https://www.linkedin.com/company/btcturk
 - https://www.facebook.com/btcturk
 features: 
-developerName: ELIPTIK YAZILIM VE TICARET ANONIM SIRKETI
+developerName: BTCTURK KRIPTO VARLIK ALIM SATIM PLATFORMU ANONIM SIRKETI
 
 ---
 

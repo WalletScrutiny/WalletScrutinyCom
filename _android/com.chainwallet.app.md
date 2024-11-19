@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.chainwallet.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2023-07-24
+date: 2024-11-19
 signer: 
 reviewArchive: 
 twitter: chain

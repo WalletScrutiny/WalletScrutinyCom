@@ -8,11 +8,11 @@ users: 10000
 appId: com.tbtc_app
 appCountry: 
 released: 2022-03-17
-updated: 2024-08-27
-version: 0.1.34
-stars: 3.9
+updated: 2024-11-13
+version: 0.1.35
+stars: 3.8
 ratings: 
-reviews: 15
+reviews: 16
 size: 
 website: https://thebitcoincompany.com
 repository: 

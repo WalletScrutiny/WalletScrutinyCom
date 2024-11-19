@@ -10,8 +10,8 @@ idd: 1447206611
 released: 2019-01-26
 updated: 2024-10-30
 version: 6.1.6
-stars: 3.8
-reviews: 69
+stars: 3.9
+reviews: 70
 size: '62820352'
 website: https://dcentwallet.com/
 repository: 

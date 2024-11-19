@@ -8,11 +8,11 @@ users: 100000
 appId: com.secretkeylabs.xverse
 appCountry: cn
 released: 2021-10-12
-updated: 2024-11-13
-version: 1.39.1
+updated: 2024-11-15
+version: 1.39.2
 stars: 4.5
 ratings: 34
-reviews: 913
+reviews: 915
 size: 
 website: https://www.xverse.app/
 repository: 

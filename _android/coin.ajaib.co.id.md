@@ -4,11 +4,11 @@ title: 'Ajaib Kripto: Buy BTC & Crypto'
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: coin.ajaib.co.id
 appCountry: 
 released: 2022-07-15
-updated: 2024-10-23
+updated: 2024-11-15
 version: 2.59.0
 stars: 4.4
 ratings: 

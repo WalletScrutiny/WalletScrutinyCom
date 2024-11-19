@@ -10,8 +10,8 @@ idd: '1513185997'
 released: 2020-07-01
 updated: 2024-11-13
 version: 2.10.2
-stars: 4.6
-reviews: 1844
+stars: 4.5
+reviews: 1865
 size: '100079616'
 website: https://relai.app/
 repository: 

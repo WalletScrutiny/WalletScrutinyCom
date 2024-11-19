@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: AFRBTC TEAM
+developerName: GiftCards Team
 features: 
 
 ---

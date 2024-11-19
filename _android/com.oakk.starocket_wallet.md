@@ -8,8 +8,8 @@ users: 10000
 appId: com.oakk.starocket_wallet
 appCountry: 
 released: 2022-05-29
-updated: 2024-11-13
-version: 3.0.0
+updated: 2024-11-15
+version: 3.0.1
 stars: 3.4
 ratings: 
 reviews: 8

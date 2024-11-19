@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ninja.ninjapay.me.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-03
+date: 2024-11-19
 signer: 
 reviewArchive: 
 twitter: 

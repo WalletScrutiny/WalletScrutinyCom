@@ -1,6 +1,6 @@
 ---
 wsId: alxCryptoWallet
-title: ALX Crypto Wallet
+title: ALX Wallet
 altTitle: 
 authors:
 - danny
@@ -8,19 +8,19 @@ appId: com.prodoge.prodoge
 appCountry: jp
 idd: '1479083282'
 released: 2019-09-23
-updated: 2023-03-13
-version: 3.3.15
+updated: 2024-11-15
+version: '3.35'
 stars: 0
 reviews: 0
-size: '71558144'
+size: '87840768'
 website: 
 repository: 
 issue: 
 icon: com.prodoge.prodoge.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nosource
-date: 2024-10-08
+date: 2024-11-19
 signer: 
 reviewArchive: 
 twitter: 

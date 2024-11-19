@@ -12,7 +12,7 @@ updated: 2024-11-14
 version: 1.9.19
 stars: 4.7
 ratings: 
-reviews: 186
+reviews: 191
 size: 
 website: https://www.swanbitcoin.com
 repository: 

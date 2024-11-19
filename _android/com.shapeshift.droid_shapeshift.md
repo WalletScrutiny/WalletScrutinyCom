@@ -11,9 +11,9 @@ appCountry:
 released: 2015-10-26
 updated: 2024-06-20
 version: 3.1.0
-stars: 3.2
+stars: 3.3
 ratings: 2913
-reviews: 510
+reviews: 509
 size: 
 website: https://ShapeShift.com
 repository: https://github.com/shapeshift/mobile-app

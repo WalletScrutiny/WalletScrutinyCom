@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.zimi.arkpay.PROD.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-08-08
+date: 2024-11-19
 signer: 
 reviewArchive: 
 twitter: 

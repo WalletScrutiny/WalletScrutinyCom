@@ -12,7 +12,7 @@ updated: 2024-10-09
 version: 1.2.1
 stars: 4.5
 ratings: 
-reviews: 4
+reviews: 5
 size: 
 website: https://BitcoLi.com
 repository: 

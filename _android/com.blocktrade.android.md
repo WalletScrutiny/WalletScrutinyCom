@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.blocktrade.android.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-11-03
+date: 2024-11-19
 signer: 
 reviewArchive: 
 twitter: Blocktradecom

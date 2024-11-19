@@ -14,7 +14,7 @@ updated: 2024-11-08
 version: 7.2.1
 stars: 3.9
 ratings: 57218
-reviews: 1155
+reviews: 1156
 size: 
 website: http://www.tab-trader.com
 repository: 

@@ -11,9 +11,9 @@ appCountry:
 released: 2018-05-31
 updated: 2024-11-01
 version: 2.15.8
-stars: 4.4
+stars: 4.3
 ratings: 4350
-reviews: 230
+reviews: 231
 size: 
 website: https://token.im
 repository: 

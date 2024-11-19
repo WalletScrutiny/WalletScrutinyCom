@@ -10,7 +10,7 @@ appCountry:
 released: 2023-06-18
 updated: 2024-11-14
 version: 2.4.13.0.0.0.fp.gps
-stars: 4.7
+stars: 4.6
 ratings: 
 reviews: 247
 size: 

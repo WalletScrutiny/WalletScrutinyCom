@@ -1,6 +1,6 @@
 ---
 wsId: biyaGlobal
-title: BIYA Global - USDT投资港美股外汇比特币钱包
+title: BIYA Global -资产兑换出入金全球汇款美港股交易
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.BIYAGlobal.www
 appCountry: 
 released: 2021-04-13
-updated: 2024-10-18
-version: 2.8.500
+updated: 2024-11-14
+version: 2.8.510
 stars: 3.7
 ratings: 
 reviews: 5
