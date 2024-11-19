@@ -158,17 +158,10 @@ function generateAndAppendPagination(workingArray, pageNo) {
     const clickTarget = document.createElement("div")
     clickTarget.classList.add("click-target")
     clickTarget.innerHTML = i + 1
-    clickTarget.addEventListener("click", (event) => {
-      document.querySelector(".pagination .click-target.selected").classList.remove("selected")
-      event.target.classList.add("selected")
-      updateWalletGridInputOriginatingFromUI()
-      window.scroll(0,document.querySelector('#homepageSearch').offsetTop)
-    })
     clickTarget.setAttribute("data-index", i)
     if (i == page) { clickTarget.classList.add("selected") }
 
     if (allowedTargets.indexOf(i) >= 0) {
-
       if (i > page && primaryGapSet && !additionalGapSet && ((allowedTargets[index] - allowedTargets[lastValidOption]) > 1)) {
         clickTarget.classList.add("major-gap")
         additionalGapSet = true
@@ -182,8 +175,18 @@ function generateAndAppendPagination(workingArray, pageNo) {
         primaryGapSet = true
       }
     }
-    if (allowedTargets.indexOf(i) < 0) { clickTarget.style.display = 'none' } else { lastValidOption = index }
-    pagination.append(clickTarget)
+
+    if (allowedTargets.indexOf(i) >= 0) {
+      clickTarget.addEventListener("click", (event) => {
+        document.querySelector(".pagination .click-target.selected").classList.remove("selected")
+        event.target.classList.add("selected")
+        updateWalletGridInputOriginatingFromUI()
+        window.scroll(0,document.querySelector('#homepageSearch').offsetTop)
+      })
+
+      lastValidOption = index
+      pagination.append(clickTarget)
+    }
   }
 
   const paginationWidget = document.querySelector(".wallet-placeholder .pagination");
