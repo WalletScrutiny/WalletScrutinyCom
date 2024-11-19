@@ -23,8 +23,8 @@ issue: https://github.com/nunchuk-io/nunchuk-android/issues/23
 icon: io.nunchuk.android.png
 bugbounty: 
 meta: ok
-verdict: reproducible
-date: 2024-11-18
+verdict: nonverifiable
+date: 2024-11-19
 signer: 
 reviewArchive:
 - date: 2023-07-05
@@ -53,7 +53,7 @@ features:
 
 ---
 
-**Update 2024-11-18**
+**Update 2024-11-19**
 
 To automate building {{ page.title }}, we had to not only update the wallet specific files `io.nunchuk.android.sh` and `io.nunchuk.android.dockerfile` but also drastically improved our general Android App Bundle (AAB) test script `testAAB.sh` which now for the first time could find an AAB to be reproducible.
 
@@ -85,7 +85,7 @@ Only in /tmp/test_io.nunchuk.android_1.9.53/fromPlay-unzipped/xhdpi: stamp-cert-
 
 {% include asciicast %}
 
-We tried to follow the guidelines in this [issue](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/574), which is currently a work-in-progress: 
+We tried to follow the guidelines in this [issue](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/574), which is currently a work-in-progress.
 
 
 ## We take the size of stamp-cert-sha256
@@ -121,18 +121,14 @@ $ wc -c fromPlay-unzipped/{base,armeabi_v7a,en,xhdpi}/stamp-cert-sha256
 - [unzipped/xhdpi/AndroidManifest.xml](../../assets/diffoscope-results/android/io.nunchuk.android/1.9.53/diffoscope-xhdpi-AndroidManifest.xml.html)
 - [unzipped/xhdpi/resources.arsc](../../assets/diffoscope-results/android/io.nunchuk.android/1.9.53/diffoscope-xhdpi-resources.arsc.html)
 
-The pattern of files match the exceptions noted in the issue mentioned above. Most of which are signing differences. 
-Under a strict-definition of reproducibility, the existence of these files would describe the app as non-verifiable. 
+The pattern of files match the exceptions noted in the issue mentioned above.
 
-Until the existence of diffs in these files and the guidelines are formalized, we determine that: 
+We note that there are too many diffs to make this version reproducibile. Therefore, version 1.9.53 is **nonverifiable**
 
-- Most of the diffs are signing related. 
-- The diffoscope results show that the diffs in splits0.xml, resources.arsc and AndroidManifest.xml are benign 
-
-Therefore, version 1.9.53 is **reproducible**
+- We are documenting these diffs in our [wiki: Excerpts in Reproducibility](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/wikis/Excerpts-about-Reproducibility-(WIP)#november-19-2024---leo-on-nunchuk-ionunchukandroid_v1953)
 
 
-**Update 2024-11-07** Reproducible verification for version 1.9.53
+**Previous Review 2024-11-07** Reproducible verification for version 1.9.53
 
 We followed the [instructions](https://github.com/nunchuk-io/nunchuk-android/tree/master/reproducible-builds) from the provider regarding their reproducibility verification steps.
 
