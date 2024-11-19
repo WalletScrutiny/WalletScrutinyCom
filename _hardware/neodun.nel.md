@@ -20,7 +20,7 @@ repository: https://github.com/NewEconoLab/NeoDun
 issue: 
 icon: neodun.nel.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: vapor
 date: 2022-05-25
 signer: 
