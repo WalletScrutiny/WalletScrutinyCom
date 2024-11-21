@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.exchanger24pb.myapplication24.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-12-01
+date: 2024-11-21
 signer: 
 reviewArchive: 
 twitter: 24Paybank

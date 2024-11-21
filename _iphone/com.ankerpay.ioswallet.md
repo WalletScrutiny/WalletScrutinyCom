@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ankerpay.ioswallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2024-10-07
+date: 2024-11-21
 signer: 
 reviewArchive: 
 twitter: AnkerPay

@@ -8,11 +8,11 @@ appId: com.saltlending.mobile
 appCountry: us
 idd: 1383851676
 released: 2019-01-07
-updated: 2024-11-15
-version: 2.15.29
+updated: 2024-11-19
+version: 2.15.31
 stars: 4.6
 reviews: 25
-size: '68582400'
+size: '68586496'
 website: https://saltlending.com/
 repository: 
 issue: 

@@ -7,8 +7,8 @@ users: 50
 appId: org.doichain.doiwallet
 appCountry: 
 released: 2022-05-01
-updated: 2024-07-08
-version: 6.6.0
+updated: 2024-10-31
+version: 7.0.3
 stars: 
 ratings: 
 reviews: 

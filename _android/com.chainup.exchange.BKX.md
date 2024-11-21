@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.chainup.exchange.BKX.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2024-09-10
+date: 2024-11-21
 signer: 
 reviewArchive: 
 twitter: 

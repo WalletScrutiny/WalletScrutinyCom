@@ -8,11 +8,11 @@ appId: com.bitlo
 appCountry: tr
 idd: '1544492069'
 released: 2020-12-28
-updated: 2024-10-30
-version: 2.1.22
+updated: 2024-11-19
+version: 2.1.23
 stars: 4.6
-reviews: 2858
-size: '84239360'
+reviews: 2877
+size: '86049792'
 website: https://www.bitlo.com/
 repository: 
 issue: 

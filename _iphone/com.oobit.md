@@ -8,11 +8,11 @@ appId: com.oobit
 appCountry: br
 idd: '1598882898'
 released: 2022-02-05
-updated: 2024-11-12
-version: '1.70'
+updated: 2024-11-19
+version: 1.7.1
 stars: 1
 reviews: 2
-size: '135021568'
+size: '135507968'
 website: https://www.oobit.com/
 repository: 
 issue: 

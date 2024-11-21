@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.tradearies.ariestrading.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosendreceive
-date: 2021-11-22
+date: 2024-11-21
 signer: 
 reviewArchive: 
 twitter: TradeAries

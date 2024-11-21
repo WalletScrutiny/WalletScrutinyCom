@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.worldwebms.multisigwallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2024-07-22
+date: 2024-11-21
 signer: 
 reviewArchive: 
 twitter: UnidoEP

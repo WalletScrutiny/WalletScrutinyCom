@@ -20,9 +20,9 @@ repository:
 issue: 
 icon: com.blockchain.explorer.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2023-12-01
+date: 2024-11-21
 signer: 
 reviewArchive: 
 twitter: 

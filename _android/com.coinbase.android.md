@@ -12,7 +12,7 @@ updated: 2024-11-14
 version: 12.43.8
 stars: 4.6
 ratings: 666901
-reviews: 102734
+reviews: 102873
 size: 
 website: https://coinbase.com/
 repository: 

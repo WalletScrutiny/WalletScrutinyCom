@@ -9,7 +9,7 @@ appId: coin.ajaib.co.id
 appCountry: 
 released: 2022-07-15
 updated: 2024-11-15
-version: 2.59.0
+version: 2.60.0
 stars: 4.4
 ratings: 
 reviews: 21

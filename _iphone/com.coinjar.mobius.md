@@ -8,11 +8,11 @@ appId: com.coinjar.mobius
 appCountry: au
 idd: 958797429
 released: 2015-02-04
-updated: 2024-11-13
-version: 3.6.0
+updated: 2024-11-19
+version: 3.7.0
 stars: 4.7
-reviews: 14136
-size: '68582400'
+reviews: 14137
+size: '68578304'
 website: https://www.coinjar.com
 repository: 
 issue: 

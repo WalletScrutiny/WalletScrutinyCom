@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Ripio Bitcoin Wallet
+title: Ripio App | Crypto Wallet
 altTitle: 
 authors:
 - leo
@@ -8,7 +8,7 @@ users: 1000000
 appId: com.ripio.android
 appCountry: 
 released: 2015-06-01
-updated: 2024-10-29
+updated: 2024-11-14
 version: 6.1.15
 stars: 3.6
 ratings: 34376

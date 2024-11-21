@@ -11,7 +11,7 @@ released: 2016-01-18
 updated: 2024-11-18
 version: 8.6.1
 stars: 3.3
-reviews: 13
+reviews: 14
 size: '35488768'
 website: https://www.paymium.com/
 repository: 

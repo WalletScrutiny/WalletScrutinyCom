@@ -8,11 +8,11 @@ appId: com.triviologic.xtrader
 appCountry: cl
 idd: 864027750
 released: 2014-05-30
-updated: 2024-11-18
-version: 7.0.1
+updated: 2024-11-19
+version: 7.0.2
 stars: 2.5
 reviews: 28
-size: '69354496'
+size: '69194752'
 website: https://www.xtrade.com/
 repository: 
 issue: 

@@ -12,7 +12,7 @@ updated: 2024-11-07
 version: 2.0.31
 stars: 4.8
 ratings: 
-reviews: 8
+reviews: 9
 size: 
 website: https://www.xbo.com/
 repository: 

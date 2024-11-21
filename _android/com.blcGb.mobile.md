@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.blcGb.mobile.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2024-02-20
+date: 2024-11-21
 signer: 
 reviewArchive: 
 twitter: 
