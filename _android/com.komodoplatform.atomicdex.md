@@ -18,12 +18,12 @@ reviews: 9
 size: 
 website: https://atomicdex.io
 repository: https://github.com/KomodoPlatform/komodo-wallet-mobile
-issue: https://github.com/KomodoPlatform/komodo-wallet-mobile/issues/116
+issue: https://github.com/KomodoPlatform/komodo-wallet-mobile/issues/157
 icon: com.komodoplatform.atomicdex.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2024-08-30
+date: 2024-11-22
 signer: cb9c6d9f6b0d981e24b771cbe946ae32af09e71de174a2d39756161b481d94b3
 reviewArchive: 
 - date: 2024-08-03
@@ -41,56 +41,11 @@ developerName: Komodo Platform
 features: 
 
 ---
-**Update 2024-08-30:**
+**Update 2024-11-22:**
 
-## Version Unavailable: 
-We were testing the Komodo Wallet APK version 0.9.2, but the source code is currently not available. Please open an issue with the provider regarding this matter. We will close the merge request for now and revisit it once the source code is available.
+## Version Unavailable:  
 
-**Review: Komodo Wallet 0.9.0 APK Build**
-
-We attempted to build the Komodo Wallet APK using the instructions provided in the repository. The build process requires running a Dockerfile that utilizes the `fetch_coins.sh` script to fetch necessary coin data files. Unfortunately, we encountered an issue due to the absence of required files, such as `coins_config.json`, which the script depends on.
-
-**Command Used:**
-```bash
-docker build -t komodo-wallet .
-```
-
-**Error Encountered:**
-The build process encountered the following error when attempting to execute `fetch_coins.sh`:
-```
-Error: 'assets/coins_config.json' file not found.
-```
-
-This error occurs because the `fetch_coins.sh` script expects the `assets/coins_config.json` file to be present in the repository. Since this file is missing, the script cannot fetch or verify the required coin data, resulting in a build failure.
-
-We also tried to run the build without using the `fetch_coins.sh` script, which led to another error:
-
-```
-FAILURE: Build failed with an exception.
-
-* What went wrong:
-Execution failed for task ':app:buildCMakeRelWithDebInfo[arm64-v8a]'.
-> Build command failed.
-  Error while executing process /usr/local/android-sdk/cmake/3.18.1/bin/ninja with arguments {-C /home/atomicdex_mobile/android/app/.cxx/RelWithDebInfo/2q2p4k6a/arm64-v8a mm2-lib}
-  ninja: Entering directory '/home/atomicdex_mobile/android/app/.cxx/RelWithDebInfo/2q2p4k6a/arm64-v8a'
-  
-  ninja: error: '/home/atomicdex_mobile/android/app/src/main/cpp/libs/arm64-v8a/libmm2.a', needed by '/home/atomicdex_mobile/build/app/intermediates/cxx/RelWithDebInfo/2q2p4k6a/obj/arm64-v8a/libmm2-lib.so', missing and no known rule to make it
-
-* Try:
-> Run with --stacktrace option to get the stack trace.
-> Run with --info or --debug option to get more log output.
-> Run with --scan to get full insights.
-
-* Get more help at https://help.gradle.org
-
-BUILD FAILED in 4m 42s
-```
-
-The error indicates that the `libmm2.a` library file is missing from the path `/home/atomicdex_mobile/android/app/src/main/cpp/libs/arm64-v8a/`, and there are no rules to make it, causing the build to fail.
-
-**Conclusion:**
-
-The Komodo Wallet APK build was not successful, and since the source code for version 0.9.2 is not available, we conclude that there is no source code available for verification, making the wallet not verifiable.
+We were testing the Komodo Wallet APK version 0.9.2, but the source code is currently not available. Despite opening an issue with the provider to request the source code, we have not received any response. As a result, we will mark the wallet as no source and revisit it once the source code is provided.
 
 ## Reproducibility
 
