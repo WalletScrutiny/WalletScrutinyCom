@@ -22,7 +22,7 @@ icon: com.foundationdevices.envoy.jpg
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2024-10-22
+date: 2024-11-22
 signer: 
 reviewArchive: 
 twitter: FOUNDATIONdvcs
@@ -37,7 +37,69 @@ features:
 
 ---
 
-## Update 2024-10-22
+## Updated Review v1.8.4 2024-11-22
+
+### Split APK comparison
+
+- With a modified build process, we were able to generate an AAB file by issuing the command 'just docker-build-android' after cloning the repository
+- We automated this process with an updated script, since {{ page.title }} uses **split-apks**.
+
+```
+========================================
+**Official APKs Hashes**
+base.apk - 7d883cf4ac02b16238e2075a726db8dcefd7250f8461d06565e2daf9b520e2be
+split_config.arm64_v8a.apk - c7283366b3c0857aae728dfa38d5776985362c000864d11ad95e5ea446019bae
+split_config.en.apk - 2e8d46dc9d6df35d69b1f796e1ff44dd5eef92aafcb94c88159a7dd96c6527bd
+split_config.xxhdpi.apk - a3830481af62bf78d71a3e628f837fc76959d38028e985945bea956f8e80a931
+========================================
+Built APKs:
+========================================
+**Built APKs Hashes**
+base-arm64_v8a.apk - 3e8f3eeb18c4ef6ca109e353db416e7a7839265549881793d1d3ebcc1ca4dfbc
+base-en.apk - b60c2f36cff6cd5d2d52f16c6342145b276957e9a422728bba99e2cf4abc1a0c
+base-master.apk - 54602149925cb94beccc4bb1e35960e3fbfc6025c848991d3415255ac6ca6856
+base-xxhdpi.apk - 71181091b49726b1f445ba842ab57057ebdb947e5f92020eafec9e046893dd5e
+========================================
+```
+
+### We then process the diffs
+
+Differences found between /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/arm64_v8a and /tmp/test_com.foundationdevices.envoy_1.8.4/fromBuild-unzipped/arm64_v8a
+
+```
+Binary files /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/arm64_v8a/AndroidManifest.xml and /tmp/test_com.foundationdevices.envoy_1.8.4/fromBuild-unzipped/arm64_v8a/AndroidManifest.xml differ
+Binary files /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/arm64_v8a/lib/arm64-v8a/libapp.so and /tmp/test_com.foundationdevices.envoy_1.8.4/fromBuild-unzipped/arm64_v8a/lib/arm64-v8a/libapp.so differ
+Binary files /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/arm64_v8a/lib/arm64-v8a/libtor.so and /tmp/test_com.foundationdevices.envoy_1.8.4/fromBuild-unzipped/arm64_v8a/lib/arm64-v8a/libtor.so differ
+Only in /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/arm64_v8a: META-INF
+Only in /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/arm64_v8a: stamp-cert-sha256
+```
+
+Differences found between /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/en and /tmp/test_com.foundationdevices.envoy_1.8.4/fromBuild-unzipped/en
+
+```
+Binary files /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/en/AndroidManifest.xml and /tmp/test_com.foundationdevices.envoy_1.8.4/fromBuild-unzipped/en/AndroidManifest.xml differ
+Only in /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/en: META-INF
+Binary files /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/en/resources.arsc and /tmp/test_com.foundationdevices.envoy_1.8.4/fromBuild-unzipped/en/resources.arsc differ
+Only in /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/en: stamp-cert-sha256
+```
+
+Differences found between /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/xxhdpi and /tmp/test_com.foundationdevices.envoy_1.8.4/fromBuild-unzipped/xxhdpi
+
+```
+Binary files /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/xxhdpi/AndroidManifest.xml and /tmp/test_com.foundationdevices.envoy_1.8.4/fromBuild-unzipped/xxhdpi/AndroidManifest.xml differ
+Only in /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/xxhdpi: META-INF
+Binary files /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/xxhdpi/resources.arsc and /tmp/test_com.foundationdevices.envoy_1.8.4/fromBuild-unzipped/xxhdpi/resources.arsc differ
+Only in /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/xxhdpi: stamp-cert-sha256
+```
+
+Differences found between /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/base and /tmp/test_com.foundationdevices.envoy_1.8.4/fromBuild-unzipped/base
+
+is too large to put here. 
+We put it in a [txt file.](../../assets/diff-results/com.foundationdevices.envoy/1.8.4/diff_base.txt)
+
+{% include asciicast %}
+
+## Previous Review 2024-10-22
 
 Our [test script](/scripts/test/android/com.foundationdevices.envoy.sh) was executed successfully, resulting in a successfully built APK.
 
