@@ -11,7 +11,7 @@ released: 2018-10-06
 updated: 2024-11-20
 version: 2.92.1
 stars: 4.6
-reviews: 40882
+reviews: 40892
 size: '765263872'
 website: https://www.binance.com
 repository: 

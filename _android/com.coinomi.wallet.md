@@ -8,7 +8,7 @@ users: 1000000
 appId: com.coinomi.wallet
 appCountry: 
 released: 2014-01-31
-updated: 2024-11-14
+updated: 2024-11-21
 version: 1.4.0
 stars: 3.7
 ratings: 39950

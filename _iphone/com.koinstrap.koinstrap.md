@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.koinstrap.koinstrap.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-11-22
+date: 2024-11-22
 signer: 
 reviewArchive: 
 twitter: koinstrap

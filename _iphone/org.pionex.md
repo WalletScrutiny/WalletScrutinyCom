@@ -11,7 +11,7 @@ released: 2020-04-18
 updated: 2024-11-06
 version: 3.0.7
 stars: 4.9
-reviews: 60
+reviews: 61
 size: '184135680'
 website: https://www.pionex.com
 repository: 

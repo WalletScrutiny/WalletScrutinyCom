@@ -11,7 +11,7 @@ released: 2023-04-12
 updated: 2024-11-18
 version: '1.39'
 stars: 4.8
-reviews: 11147
+reviews: 11162
 size: '69928960'
 website: https://wallet.uniswap.org/
 repository: 

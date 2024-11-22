@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: global.bitex.bitexpay.android.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2022-12-17
+date: 2024-11-22
 signer: 
 reviewArchive: 
 twitter: 

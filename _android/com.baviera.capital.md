@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.baviera.capital.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-06-03
+date: 2024-11-22
 signer: 
 reviewArchive: 
 twitter: 

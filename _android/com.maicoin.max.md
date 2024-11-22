@@ -12,7 +12,7 @@ updated: 2024-04-26
 version: 13.0.0
 stars: 3.4
 ratings: 1049
-reviews: 10
+reviews: 11
 size: 
 website: https://max.maicoin.com
 repository: 
