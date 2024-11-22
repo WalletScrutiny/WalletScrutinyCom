@@ -15,6 +15,9 @@ done
 echo " * Installing node packages..."
 npm install
 
+echo " * Checking URLs..."
+node ./scripts/checkUrls.js
+
 echo " * Updating from Google and Apple $apps ..."
 node \
   --input-type=module \
