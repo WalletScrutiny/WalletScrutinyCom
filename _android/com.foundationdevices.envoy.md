@@ -45,20 +45,22 @@ features:
 - We automated this process with an updated script, since {{ page.title }} uses **split-apks**.
 
 ```
+Official APKs:
 ========================================
 **Official APKs Hashes**
-base.apk - 7d883cf4ac02b16238e2075a726db8dcefd7250f8461d06565e2daf9b520e2be
-split_config.arm64_v8a.apk - c7283366b3c0857aae728dfa38d5776985362c000864d11ad95e5ea446019bae
-split_config.en.apk - 2e8d46dc9d6df35d69b1f796e1ff44dd5eef92aafcb94c88159a7dd96c6527bd
-split_config.xxhdpi.apk - a3830481af62bf78d71a3e628f837fc76959d38028e985945bea956f8e80a931
+7d883cf4ac02b16238e2075a726db8dcefd7250f8461d06565e2daf9b520e2be base.apk
+c7283366b3c0857aae728dfa38d5776985362c000864d11ad95e5ea446019bae split_config.arm64_v8a.apk
+2e8d46dc9d6df35d69b1f796e1ff44dd5eef92aafcb94c88159a7dd96c6527bd split_config.en.apk
+a3830481af62bf78d71a3e628f837fc76959d38028e985945bea956f8e80a931 split_config.xxhdpi.apk
 ========================================
 Built APKs:
 ========================================
 **Built APKs Hashes**
-base-arm64_v8a.apk - 3e8f3eeb18c4ef6ca109e353db416e7a7839265549881793d1d3ebcc1ca4dfbc
-base-en.apk - b60c2f36cff6cd5d2d52f16c6342145b276957e9a422728bba99e2cf4abc1a0c
-base-master.apk - 54602149925cb94beccc4bb1e35960e3fbfc6025c848991d3415255ac6ca6856
-base-xxhdpi.apk - 71181091b49726b1f445ba842ab57057ebdb947e5f92020eafec9e046893dd5e
+3e8f3eeb18c4ef6ca109e353db416e7a7839265549881793d1d3ebcc1ca4dfbc base-arm64_v8a.apk
+b60c2f36cff6cd5d2d52f16c6342145b276957e9a422728bba99e2cf4abc1a0c base-en.apk
+54602149925cb94beccc4bb1e35960e3fbfc6025c848991d3415255ac6ca6856 base-master.apk
+71181091b49726b1f445ba842ab57057ebdb947e5f92020eafec9e046893dd5e base-xxhdpi.apk
+========================================
 ========================================
 ```
 
@@ -92,10 +94,8 @@ Binary files /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/xxhdp
 Only in /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/xxhdpi: stamp-cert-sha256
 ```
 
-Differences found between /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/base and /tmp/test_com.foundationdevices.envoy_1.8.4/fromBuild-unzipped/base
+Differences found between `/tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/base` and `/tmp/test_com.foundationdevices.envoy_1.8.4/fromBuild-unzipped/base` is too large to put here and included characters that are not parsed properly. So we endeavored to use diffoscope on the two folders instead [found in this file](/assets/diffoscope-results/android/com.foundationdevices.envoy/1.8.4/diffo_base.html)
 
-is too large to put here. 
-We put it in a [txt file.](../../assets/diff-results/com.foundationdevices.envoy/1.8.4/diff_base.txt)
 
 {% include asciicast %}
 
