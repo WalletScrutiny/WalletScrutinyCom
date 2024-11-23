@@ -8,8 +8,8 @@ users: 500000
 appId: com.crypterium
 appCountry: 
 released: 2018-01-21
-updated: 2024-10-02
-version: '11.0'
+updated: 2024-11-22
+version: '11.2'
 stars: 3.5
 ratings: 8728
 reviews: 428

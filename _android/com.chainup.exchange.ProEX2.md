@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.chainup.exchange.ProEX2.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-05-13
+date: 2024-11-23
 signer: 
 reviewArchive: 
 twitter: 

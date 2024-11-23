@@ -10,8 +10,8 @@ idd: '1594397830'
 released: 2022-04-06
 updated: 2024-06-24
 version: 2.8.0
-stars: 4.7
-reviews: 175
+stars: 4.6
+reviews: 176
 size: '52275200'
 website: https://s-wallet.ai
 repository: 

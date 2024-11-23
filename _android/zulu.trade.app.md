@@ -1,6 +1,6 @@
 ---
 wsId: ZuluTrade
-title: ZuluTrade for Social Trading
+title: ZuluTrade for Copy Trading
 altTitle: 
 authors:
 - danny

@@ -7,8 +7,8 @@ users: 100
 appId: org.maze2.sezamewallet
 appCountry: 
 released: 2022-03-31
-updated: 2023-10-24
-version: 0.13.0
+updated: 2024-11-22
+version: 0.15.5
 stars: 
 ratings: 
 reviews: 
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.maze2.sezamewallet.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: fewusers
-date: 2024-10-19
+date: 2024-11-23
 signer: 
 reviewArchive: 
 twitter: 

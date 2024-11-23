@@ -11,7 +11,7 @@ appCountry: sv
 released: 2021-09-06
 updated: 2023-06-21
 version: 2.4.1
-stars: 2.8
+stars: 2.7
 ratings: 27085
 reviews: 13998
 size: 

@@ -8,7 +8,7 @@ users: 100000
 appId: com.metallicus.metalapp.production
 appCountry: us
 released: 2020-01-14
-updated: 2024-08-29
+updated: 2024-11-15
 version: 3.1.161
 stars: 4.1
 ratings: 564

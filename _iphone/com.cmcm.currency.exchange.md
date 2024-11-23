@@ -11,7 +11,7 @@ released: 2018-09-16
 updated: 2024-11-19
 version: 6.0.4
 stars: 4.2
-reviews: 1081
+reviews: 1080
 size: '98578432'
 website: https://www.bitrue.com
 repository: 

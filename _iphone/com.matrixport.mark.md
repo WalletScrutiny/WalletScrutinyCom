@@ -11,7 +11,7 @@ released: 2019-11-25
 updated: 2024-11-20
 version: 4.0.00
 stars: 3.6
-reviews: 47
+reviews: 48
 size: '263195648'
 website: https://invest.matrixport.dev/en
 repository: 

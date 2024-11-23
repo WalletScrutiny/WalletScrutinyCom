@@ -12,7 +12,7 @@ updated: 2024-11-12
 version: 2.3.2
 stars: 3.9
 ratings: 1039
-reviews: 187
+reviews: 188
 size: 
 website: https://www.bitrefill.com
 repository: 
