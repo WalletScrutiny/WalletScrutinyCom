@@ -26,7 +26,6 @@ signer:
 reviewArchive: 
 twitter: obiexfinance
 social:
-- https://www.facebook.com/obiexfinance
 - https://www.instagram.com/obiexfinance/
 redirect_from: 
 developerName: Obiex Africa Ltd.

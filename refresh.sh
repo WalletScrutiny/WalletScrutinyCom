@@ -18,6 +18,9 @@ npm install
 echo " * Checking URLs..."
 node ./scripts/checkUrls.js
 
+echo " * Checking for social medias..."
+node ./scripts/checkSocial.js
+
 echo " * Updating from Google and Apple $apps ..."
 node \
   --input-type=module \
