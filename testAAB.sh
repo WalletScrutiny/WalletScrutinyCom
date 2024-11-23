@@ -99,7 +99,7 @@ list_apk_hashes() {
   for apk_file in "$dir"/*.apk; do
     [ -e "$apk_file" ] || continue
     apk_hash=$(sha256sum "$apk_file" | awk '{print $1}')
-    echo "$(basename "$apk_file") - $apk_hash"
+    echo "$apk_hash $(basename "$apk_file")"
   done
   echo -e "${BOLD_CYAN}========================================${NC}"
 }
