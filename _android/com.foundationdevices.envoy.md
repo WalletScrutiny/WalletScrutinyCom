@@ -68,6 +68,8 @@ b60c2f36cff6cd5d2d52f16c6342145b276957e9a422728bba99e2cf4abc1a0c base-en.apk
 
 Differences found between /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/arm64_v8a and /tmp/test_com.foundationdevices.envoy_1.8.4/fromBuild-unzipped/arm64_v8a
 
+### arm64_v8a
+
 ```
 Binary files /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/arm64_v8a/AndroidManifest.xml and /tmp/test_com.foundationdevices.envoy_1.8.4/fromBuild-unzipped/arm64_v8a/AndroidManifest.xml differ
 Binary files /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/arm64_v8a/lib/arm64-v8a/libapp.so and /tmp/test_com.foundationdevices.envoy_1.8.4/fromBuild-unzipped/arm64_v8a/lib/arm64-v8a/libapp.so differ
@@ -75,6 +77,12 @@ Binary files /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/arm64
 Only in /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/arm64_v8a: META-INF
 Only in /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/arm64_v8a: stamp-cert-sha256
 ```
+
+- [AndroidManifest.xml diffoscope](/assets/diffoscope-results/android/com.foundationdevices.envoy/1.8.4/diffo-arm64_v8a-AndroidManifest.xml.html)
+- [libapp.so](/assets/diffoscope-results/android/com.foundationdevices.envoy/1.8.4/diffo-arm64_v8a-libapp.so.html)
+- [libtor.so](/assets/diffoscope-results/android/com.foundationdevices.envoy/1.8.4/diffo-arm64_v8a-libtor.so.html)
+
+### en.apk
 
 Differences found between /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/en and /tmp/test_com.foundationdevices.envoy_1.8.4/fromBuild-unzipped/en
 
@@ -85,6 +93,11 @@ Binary files /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/en/re
 Only in /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/en: stamp-cert-sha256
 ```
 
+- [AndroidManifest.xml](/assets/diffoscope-results/android/com.foundationdevices.envoy/1.8.4/diffo-en-AndroidManifest.xml.html)
+- [resources.arsc](/assets/diffoscope-results/android/com.foundationdevices.envoy/1.8.4/diffo-en-resources.arsc.html)
+
+### xxhdpi.apk
+
 Differences found between /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/xxhdpi and /tmp/test_com.foundationdevices.envoy_1.8.4/fromBuild-unzipped/xxhdpi
 
 ```
@@ -93,6 +106,11 @@ Only in /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/xxhdpi: ME
 Binary files /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/xxhdpi/resources.arsc and /tmp/test_com.foundationdevices.envoy_1.8.4/fromBuild-unzipped/xxhdpi/resources.arsc differ
 Only in /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/xxhdpi: stamp-cert-sha256
 ```
+
+- [AndroidManifest.xml](/assets/diffoscope-results/android/com.foundationdevices.envoy/1.8.4/diffo-xxhdpi-AndroidManifest.xml.html)
+- [resources.arsc](/assets/diffoscope-results/android/com.foundationdevices.envoy/1.8.4/diffo-xxhdpi-resources.arsc.html)
+
+### base.apk
 
 Differences found between `/tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/base` and `/tmp/test_com.foundationdevices.envoy_1.8.4/fromBuild-unzipped/base` is too large to put here and included characters that are not parsed properly. So we endeavored to use diffoscope on the two folders instead [found in this file](/assets/diffoscope-results/android/com.foundationdevices.envoy/1.8.4/diffo_base.html)
 
