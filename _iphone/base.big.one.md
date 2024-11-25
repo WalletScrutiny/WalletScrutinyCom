@@ -10,7 +10,7 @@ released: 2019-11-06
 updated: 2024-11-11
 version: 2.5.010
 stars: 4.4
-reviews: 111
+reviews: 110
 size: '188752896'
 website: http://www.bigone.com
 repository: 

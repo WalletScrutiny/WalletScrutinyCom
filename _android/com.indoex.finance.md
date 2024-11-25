@@ -8,8 +8,8 @@ users: 10000
 appId: com.indoex.finance
 appCountry: 
 released: 2022-08-04
-updated: 2023-05-22
-version: 1.0.34
+updated: 2024-11-21
+version: 1.0.37
 stars: 3.2
 ratings: 
 reviews: 3
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.indoex.finance.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2024-05-16
+date: 2024-11-25
 signer: 
 reviewArchive: 
 twitter: Indoex_LTD

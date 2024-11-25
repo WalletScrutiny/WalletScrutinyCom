@@ -10,9 +10,9 @@ appCountry: br
 released: 2021-09-23
 updated: 2024-11-13
 version: 7.2.34
-stars: 2.4
+stars: 2.3
 ratings: 4563
-reviews: 8301
+reviews: 8304
 size: 
 website: 
 repository: 

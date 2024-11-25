@@ -11,7 +11,7 @@ released: 2017-06-26
 updated: 2024-10-30
 version: 4.19.0
 stars: 4.4
-reviews: 429
+reviews: 430
 size: '82056192'
 website: https://www.muchbetter.com
 repository: 

@@ -12,7 +12,7 @@ updated: 2024-11-19
 version: VARY
 stars: 3.7
 ratings: 12371
-reviews: 868
+reviews: 872
 size: 
 website: https://www.mexc.com
 repository: 

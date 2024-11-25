@@ -11,7 +11,7 @@ released: 2018-12-29
 updated: 2024-10-03
 version: 3.4.0
 stars: 5
-reviews: 3
+reviews: 4
 size: '23124992'
 website: 
 repository: 

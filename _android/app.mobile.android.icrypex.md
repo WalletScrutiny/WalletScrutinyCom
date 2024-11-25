@@ -31,7 +31,7 @@ social:
 - https://www.facebook.com/ICRYPEX/
 - https://www.tiktok.com/@icrypex
 redirect_from: 
-developerName: ICRYPEX BILISIM ANONIM SIRKETI
+developerName: ICRYPEX KRİPTO VARLIK ALIM SATIM PLATFORMU A.Ş.
 features: 
 
 ---

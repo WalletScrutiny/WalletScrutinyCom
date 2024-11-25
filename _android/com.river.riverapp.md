@@ -10,9 +10,9 @@ appCountry:
 released: 2023-10-20
 updated: 2024-11-21
 version: 4.11.0
-stars: 4.8
+stars: 4.9
 ratings: 
-reviews: 125
+reviews: 126
 size: 
 website: https://river.com/
 repository: 

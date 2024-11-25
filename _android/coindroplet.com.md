@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: coindroplet.com.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2023-12-01
+date: 2024-11-25
 signer: 
 reviewArchive: 
 twitter: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.eletac.tronwallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
-date: 2024-03-02
+date: 2024-11-25
 signer: 
 reviewArchive: 
 twitter: VisionCryptoApp

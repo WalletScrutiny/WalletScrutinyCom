@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.cwallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2023-07-17
+date: 2024-11-25
 signer: 
 reviewArchive: 
 twitter: WalletXapa

@@ -12,7 +12,7 @@ updated: 2024-08-16
 version: 1.30.0
 stars: 3.1
 ratings: 
-reviews: 29
+reviews: 30
 size: 
 website: https://secuxtech.com/
 repository: 

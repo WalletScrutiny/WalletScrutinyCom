@@ -1,9 +1,3 @@
-2024-11-09:
-- _android/com.blixtwallet
-- _android/com.cwallet
-- _android/com.eletac.tronwallet
-- _iphone/cc.coincollect.app
-- _iphone/com.btse.BTSE
 2024-11-12:
 - _android/changella.changella
 - _android/com.aabb
@@ -71,3 +65,7 @@
 2024-11-23:
 - _android/ch.swissbitcoinpay.checkout
 - _iphone/com.paxful.wallet
+2024-11-25:
+- _android/com.vidulumwallet.app
+- _iphone/com.app.orbitnetwork
+- _iphone/com.vsmart.UnitedExchange

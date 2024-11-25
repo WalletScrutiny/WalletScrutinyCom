@@ -10,8 +10,8 @@ idd: 1506581586
 released: 2020-10-14
 updated: 2024-11-18
 version: 1.205.6487
-stars: 4.1
-reviews: 94
+stars: 4.2
+reviews: 95
 size: '155066368'
 website: https://www.forex.com/en-uk/
 repository: 

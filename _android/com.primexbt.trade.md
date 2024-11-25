@@ -10,9 +10,9 @@ appCountry:
 released: 2022-02-10
 updated: 2024-11-22
 version: 4.8.5
-stars: 3.8
+stars: 3.7
 ratings: 
-reviews: 42
+reviews: 43
 size: 
 website: https://primexbt.com/
 repository: 

@@ -12,7 +12,7 @@ updated: 2024-11-19
 version: 1.20.15
 stars: 2.1
 ratings: 2482
-reviews: 829
+reviews: 831
 size: 
 website: https://www.tryanchor.com
 repository: 

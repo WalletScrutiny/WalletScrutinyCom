@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.npbfx.app.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosendreceive
-date: 2023-12-01
+date: 2024-11-25
 signer: 
 reviewArchive: 
 twitter: 

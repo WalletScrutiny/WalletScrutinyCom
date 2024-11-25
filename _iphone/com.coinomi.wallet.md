@@ -11,7 +11,7 @@ released: 2018-03-22
 updated: 2024-11-05
 version: 1.30.2
 stars: 4.5
-reviews: 1848
+reviews: 1849
 size: '152333312'
 website: https://www.coinomi.com
 repository: 

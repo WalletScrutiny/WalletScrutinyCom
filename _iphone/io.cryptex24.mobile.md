@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.cryptex24.mobile.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-12-01
+date: 2024-11-25
 signer: 
 reviewArchive: 
 twitter: 
