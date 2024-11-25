@@ -1,17 +1,16 @@
+var uploadsActivated = false;
+
 document.addEventListener("DOMContentLoaded", function () {
     initializeDragAndDrop();
-
-    setTimeout(() => {
-        listUserBlobs();
-    }, 1000);
 });
 
 function initializeDragAndDrop() {
     const dropArea = document.getElementById('drop-area');
+    const fileElem = document.getElementById('fileElem');
     preventDefaultDragBehaviors(dropArea);
     setupHighlightEvents(dropArea);
-    dropArea.addEventListener('drop', handleDrop, false);
-    document.getElementById('fileElem').addEventListener('change', e => handleFileSelect(e.target.files));
+    dropArea.addEventListener('drop', e => processFiles(e.dataTransfer.files));
+    fileElem.addEventListener('change', e => processFiles(e.target.files));
 }
 
 function preventDefaultDragBehaviors(element) {
@@ -32,26 +31,14 @@ function setupHighlightEvents(element) {
     });
 }
 
-function handleDrop(e) {
-    const files = e.dataTransfer.files;
+function processFiles(files) {
     if (files.length > 1) {
-        alert('Please drop only one file at a time.');
+        alert('Please select or drop only one file at a time.');
         return;
     }
-    processFile(files[0]);
-}
 
-function handleFileSelect(files) {
-    if (files.length > 1) {
-        alert('Please select only one file at a time.');
-        return;
-    }
-    processFile(files[0]);
-}
-
-function processFile(file) {
     clearFileList();  // Clear the list before displaying new information
-    handleFile(file);
+    handleFile(files[0]);
 }
 
 async function handleFile(file) {
@@ -59,47 +46,73 @@ async function handleFile(file) {
 
     const hash = await calculateFileHash(file);
 
+    const select = document.getElementById('select');
+    select.classList.remove('hover-mode');
+    select.classList.add('always-visible');
+
     // Display initial file information
     displayFileInfo(file, hash);
 
     // Start fetching app data
     const appData = await fetchAppData(hash);
 
-    if (appData) { // Hash is in attestations.json
+    if (appData) { // Hash is in attestations.json        
+        displayFileInfo(file, hash, appData.appId);
         displayAppData(appData);
         checkAppIdMismatch(appData.appId);
     } else { // Hash is NOT in attestations.json
-        // Check if file exists in Blossom
-        const existsInBlossom = await hasBlob(hash, '', serverUrl);
-
-        if (existsInBlossom) {
-            displayBlossomFileInfo(file.name, hash);
-        } else {
-            showUnknownFileMessage();
-            // Parse APK file only if it's an APK
-            if (file.name.toLowerCase().endsWith('.apk')) {
-                try {
-                    const apkInfo = await parseAPK(file);
-                    if (apkInfo) {
-                        checkAppIdMismatch(apkInfo.package);
-                    }
-                } catch (error) {
-                    console.warn('Error processing APK:', error);
-                }
-            }
-            // Upload unknown file to Blossom
-            await uploadToBlossom(file, hash);
-        }
+        await handleUnknownFile(file, hash);
     }
 
     console.timeEnd("Total handleFile time");
     console.log(`for file: ${file.name}, ${formatFileSize(file.size)}`);
 }
 
+async function handleUnknownFile(file, hash) {
+    if (!uploadsActivated) {
+        await processUnknownApk(file, hash);
+        return;
+    }
+
+    // Check if file exists in Blossom
+    const existsInBlossom = await hasBlob(hash, '', serverUrl);
+
+    if (existsInBlossom) {
+        displayBlossomFileInfo(file.name, hash);
+    } else {
+        await processUnknownApk(file, hash);
+        await uploadToBlossom(file, hash);
+    }
+}
+
+async function processUnknownApk(file, hash) {
+    // Parse APK file only if it's an APK
+    if (file.name.toLowerCase().endsWith('.apk')) {
+        try {
+            const apkInfo = await parseAPK(file);
+            if (apkInfo) {
+                displayFileInfo(file, hash, apkInfo.package);
+                showUnknownVersionMessage(apkInfo);
+
+                checkAppIdMismatch(apkInfo.package);
+            }
+            else {
+                showNoApkMessage();
+            }
+        } catch (error) {
+            showNoApkMessage();
+            console.warn('Error processing APK:', error);
+        }
+    }
+    else {
+        showNoApkMessage();
+    }
+}
+
 async function uploadToBlossom(file, hash) {
     try {
         // Clear previous messages
-        document.getElementById('app-data').innerHTML = '';
+        updateDomElement('app-data', '');
 
         const exists = await hasBlob(hash, '', serverUrl);
 
@@ -132,55 +145,105 @@ function updateUploadProgress(progress) {
     displayBlossomUploadStatus(`Uploading... ${Math.round(progress)}%`, progress);
 }
 
+function updateDomElement(elementId, htmlContent) {
+    const element = document.getElementById(elementId);
+    if (element) {
+        element.innerHTML = htmlContent;
+    } else {
+        console.warn(`Element with id "${elementId}" not found.`);
+    }
+}
+
 function displayBlossomUploadStatus(message, progress) {
-    const appDataDiv = document.getElementById('app-data');
-    appDataDiv.innerHTML = `
+    updateDomElement('app-data', `
         <h3>Blossom Upload Status</h3>
         <p>${message}</p>
         <progress value="${progress}" max="100"></progress>
-    `;
+    `);
 }
 
 function displayBlossomUploadSuccess(fileName, hash) {
-    const appDataDiv = document.getElementById('app-data');
-    appDataDiv.innerHTML = `
+    updateDomElement('app-data', `
         <h3>Blossom Upload</h3>
         <p>File "${fileName}" (${hash}) has been successfully uploaded to Blossom.</p>
-    `;  
+    `);
 }
 
 function displayBlossomUploadError(errorMessage) {
-    const appDataDiv = document.getElementById('app-data');
-    appDataDiv.innerHTML = `
+    updateDomElement('app-data', `
         <h3>Blossom Upload Error</h3>
         <p>An error occurred while uploading to Blossom: ${errorMessage}</p>
-    `;
-}
-
-function displayFileInfo(file, hash) {
-    const fileInfoDiv = document.getElementById('file-info');
-    fileInfoDiv.innerHTML = `
-        <h3>File Information</h3>
-        <strong>File:</strong> ${file ? file.name : 'N/A'}<br>
-        <strong>Size:</strong> ${file ? formatFileSize(file.size) : 'N/A'}<br>
-        <strong>SHA-256:</strong> ${hash || 'N/A'}<br>
-    `;
+    `);
 }
 
 function showUnsupportedFileMessage(file) {
-    const fileInfoDiv = document.getElementById('file-info');
-    fileInfoDiv.innerHTML = `
+    updateDomElement('file-info', `
         <h3>Unsupported File</h3>
         <p>The file "${file.name}" is not supported. Please upload an APK file.</p>
-    `;
+    `);
 }
 
-function showUnknownFileMessage() {
-    const appDataDiv = document.getElementById('app-data');
-    appDataDiv.innerHTML = `
-        <h3>Unknown File</h3>
-        <p>We don't know this file. It could be a new version, one we did not test yet, or something malicious.</p>
-    `;
+function displayFileInfo(file, hash, appId) {
+    updateDomElement('file-info', `
+        <h3>File Information</h3>
+        <strong>File:</strong> ${file ? file.name : 'N/A'}<br>
+        ${appId ? `<strong>App ID:</strong> ${appId}<br>` : ''}
+        <strong>Size:</strong> ${file ? formatFileSize(file.size) : 'N/A'}<br>
+        <strong>SHA-256:</strong> ${hash || 'N/A'}<br>        
+    `);
+}
+
+function displayAppData(appData) {
+    const app = window.wallets.find(it => it.appId === appData.appId);
+
+    console.log("Displaying app data");
+    updateDomElement('app-data', `
+        <h3>${app.title}</h3>
+        <strong>Verdict:</strong><span class="verdict ${appData.verdict}">${appData.verdict}</span><br>
+        <strong>App ID:</strong> ${appData.appId}<br>
+        <strong>Signer:</strong> ${appData.signer}<br>
+        <strong>Version:</strong> ${appData.version}<br>
+        <strong>Date:</strong> ${appData.date || 'undefined'}<br>
+    `);
+}
+
+function showUnknownVersionMessage(apkInfo) {
+    const app = window.wallets.find(it => it.appId === apkInfo.package);
+
+    let message;
+
+    if (app) {
+        // Case 1: We know this wallet/app
+        message = `
+            <h3>${app.title}</h3>
+            <p>This appears to be version <b>${apkInfo.versionName}</b> of <b>${app.title}</b>, but we haven't verified this specific version yet.</p>
+            <p>This could be:</p>
+            <ul>
+                <li>A newer version we haven't tested yet</li>
+                <li>An older version that we haven't tested</li>
+                <li>A modified version of the app</li>
+            </ul>`;
+    } else {
+        // Case 2: Unknown app
+        message = `
+            <h3>Unknown Application</h3>
+            <p>This is an APK with:</p>
+            <ul>
+                <li>Application ID: ${apkInfo.package}</li>
+                <li>Version: ${apkInfo.versionName}</li>
+            </ul>
+            <p>Sorry, but we don't have any information about this application in our database yet.</p>`;
+    }
+
+    updateDomElement('app-data', message);
+}
+
+
+function showNoApkMessage() {
+    updateDomElement('app-data', `
+        <h3>Invalid APK File</h3>
+        <p>The file could not be processed as a valid APK. Please ensure you're uploading a properly formatted Android application package.</p>
+    `);
 }
 
 async function calculateFileHash(file) {
@@ -237,9 +300,7 @@ async function fetchAppData(hash) {
 
 function clearFileList() {
     console.log("Clearing file list");
-    document.getElementById('file-info').innerHTML = '';
-    document.getElementById('app-data').innerHTML = '';
-    document.getElementById('redirect-button').innerHTML = '';
+    ['file-info', 'app-data', 'redirect-button'].forEach(id => updateDomElement(id, ''));
 }
 
 function formatFileSize(bytes) {
@@ -251,24 +312,10 @@ function formatFileSize(bytes) {
 }
 
 function displayBlossomFileInfo(fileName, hash) {
-    const appDataDiv = document.getElementById('app-data');
-    appDataDiv.innerHTML = `
+    updateDomElement('app-data', `
         <h3>File Found in Blossom</h3>
         <p>The file "${fileName}" (${hash}) exists in Blossom.</p>
-    `;
-}
-
-function displayAppData(appData) {
-    console.log("Displaying app data");
-    const appDataDiv = document.getElementById('app-data');
-    appDataDiv.innerHTML = `
-        <h3>App Data</h3>
-        <strong>Verdict:</strong><span class="verdict ${appData.verdict}">${appData.verdict}</span><br>
-        <strong>App ID:</strong> ${appData.appId}<br>
-        <strong>Signer:</strong> ${appData.signer}<br>
-        <strong>Version:</strong> ${appData.version}<br>
-        <strong>Date:</strong> ${appData.date || 'undefined'}<br>
-    `;
+    `);
 }
 
 function checkAppIdMismatch(appId) {

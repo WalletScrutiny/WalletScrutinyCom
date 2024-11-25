@@ -1,9 +1,5 @@
 const serverUrl = 'https://cdn.satellite.earth'; // works, but paid
 
-// const serverUrl = 'https://cdn.nostrcheck.me'; // free, but limited file types
-
-console.log('Upload.js initialized', serverUrl);
-
 function isNostrAvailable() {
   return typeof window.nostr !== 'undefined' && typeof window.nostr.signEvent === 'function';
 }
