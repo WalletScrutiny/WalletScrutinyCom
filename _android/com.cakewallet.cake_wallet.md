@@ -21,10 +21,15 @@ issue: https://github.com/cake-tech/cake_wallet/issues/337
 icon: com.cakewallet.cake_wallet.jpg
 bugbounty: 
 meta: ok
-verdict: ftbfs
-date: 2024-07-26
+verdict: nonverifiable
+date: 2024-11-26
 signer: 
 reviewArchive:
+- date: 2024-07-26
+  version: 4.19.1
+  appHash: 
+  gitRevision: 71ff3b4fadbd0c5156f39ee8296ddaa8047fb6fe
+  verdict: ftbfs
 - date: 2022-11-02
   version: 4.4.0
   appHash: 
@@ -42,6 +47,139 @@ social:
 redirect_from: 
 developerName: Cake Labs
 features: 
+
+---
+
+## Update 2024-11-26:
+
+We attempted to verify the reproducibility of the Cake Wallet build by comparing the official APK with our built version. 
+
+**Source of APKs:**
+- Official APKs were obtained using our [apkextractor_sync.sh](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/apkextractor_sync.sh?ref_type=heads) script from a USB-connected phone. This extracted `base.apk` and various split APKs.
+- Built APK was generated using a Dockerfile (`cakeRELEASE.Dockerfile`) provided by Justxd22 from [Cake_wallet_DOCKER_xD](https://github.com/Justxd22/Cake_wallet_DOCKER_xD/blob/main/cakeRELEASE.Dockerfile)
+
+**Directory Structure (All Extracted and Built APKs):**
+```
+.
+├── builtapks
+│   ├── app-arm64-v8a-release.apk
+│   ├── app-arm64-v8a-release.apk.sha1
+│   ├── app-armeabi-v7a-release.apk
+│   ├── app-armeabi-v7a-release.apk.sha1
+│   ├── app-x86_64-release.apk
+│   ├── app-x86_64-release.apk.sha1
+│   └── build_output.zip
+├── cake.dockerfile
+└── official_apks
+    ├── base.apk
+    ├── split_config.arm64_v8a.apk
+    ├── split_config.bn.apk
+    ├── split_config.en.apk
+    ├── split_config.gu.apk
+    ├── split_config.hdpi.apk
+    ├── split_config.hi.apk
+    ├── split_config.kn.apk
+    ├── split_config.mr.apk
+    ├── split_config.ta.apk
+    └── split_config.te.apk
+```
+
+For our comparison, we selected the ARM64-v8a versions as this is the most common architecture for modern Android devices. From the official APKs, we needed both `base.apk` (which contains the main application code) and `split_config.arm64_v8a.apk` (which contains the architecture-specific native libraries) to match the contents of our built `app-arm64-v8a-release.apk`. The other split APKs (bn, en, gu, etc.) are language-specific resources that aren't relevant for verifying the core application build.
+
+**APKs Compared:**
+- Built APK: `app-arm64-v8a-release.apk`
+- Official APKs: `base.apk` + `split_config.arm64_v8a.apk`
+
+**Command Used:**
+```bash
+# Extract both APKs
+mkdir -p fromOfficial fromBuild
+(cd official_apks && unzip -qqd ../fromOfficial base.apk && unzip -qqd ../fromOfficial split_config.arm64_v8a.apk)
+(cd builtapks && unzip -qqd ../fromBuild app-arm64-v8a-release.apk)
+
+# Compare directories excluding .png and .xml files
+diff --recursive fromBuild fromOfficial
+```
+
+**Output**: This is the output of the command, excluding png and xml files, which we had around 700+
+```
+Only in fromOfficial/META-INF: BNDLTOOL.RSA
+Only in fromOfficial/META-INF: BNDLTOOL.SF
+Only in fromOfficial/META-INF: MANIFEST.MF
+Only in fromOfficial/res: anim
+Only in fromOfficial/res: animator
+Only in fromOfficial/res: animator-v21
+Only in fromOfficial/res: anim-v21
+Only in fromOfficial/res: drawable
+Only in fromOfficial/res: drawable-anydpi-v23
+Only in fromOfficial/res: drawable-hdpi-v4
+Only in fromOfficial/res: drawable-night-v8
+Only in fromOfficial/res: drawable-v21
+Only in fromOfficial/res: drawable-v23
+Only in fromOfficial/res: drawable-watch-v20
+Only in fromOfficial/res: interpolator
+Only in fromOfficial/res: interpolator-v21
+Only in fromOfficial/res: layout
+Only in fromOfficial/res: layout-land
+Only in fromOfficial/res: layout-sw600dp-v13
+Only in fromOfficial/res: layout-v21
+Only in fromOfficial/res: layout-v26
+Only in fromOfficial/res: layout-watch-v20
+Only in fromOfficial/res: menu
+Only in fromOfficial/res: mipmap-anydpi-v26
+Only in fromOfficial/res: mipmap-hdpi-v4
+Only in fromOfficial/res: mipmap-mdpi-v4
+Only in fromOfficial/res: mipmap-xhdpi-v4
+Only in fromOfficial/res: mipmap-xxhdpi-v4
+Only in fromOfficial/res: mipmap-xxxhdpi-v4
+Only in fromOfficial/res: xml
+Only in fromOfficial: stamp-cert-sha256
+```
+
+**Differences Noted:**
+The comparison revealed several differences:
+
+1. Signing-related files (expected differences):
+```
+Only in fromOfficial/META-INF: BNDLTOOL.RSA
+Only in fromOfficial/META-INF: BNDLTOOL.SF
+Only in fromOfficial/META-INF: MANIFEST.MF
+Only in fromOfficial: stamp-cert-sha256
+```
+
+2. Resource directory structure differences:
+```
+Only in fromOfficial/res: anim
+Only in fromOfficial/res: animator
+Only in fromOfficial/res: animator-v21
+Only in fromOfficial/res: anim-v21
+Only in fromOfficial/res: drawable
+Only in fromOfficial/res: drawable-anydpi-v23
+Only in fromOfficial/res: drawable-hdpi-v4
+Only in fromOfficial/res: drawable-night-v8
+Only in fromOfficial/res: drawable-v21
+Only in fromOfficial/res: drawable-v23
+Only in fromOfficial/res: drawable-watch-v20
+Only in fromOfficial/res: interpolator
+Only in fromOfficial/res: interpolator-v21
+Only in fromOfficial/res: layout
+Only in fromOfficial/res: layout-land
+Only in fromOfficial/res: layout-sw600dp-v13
+Only in fromOfficial/res: layout-v21
+Only in fromOfficial/res: layout-v26
+Only in fromOfficial/res: layout-watch-v20
+Only in fromOfficial/res: menu
+Only in fromOfficial/res: mipmap-anydpi-v26
+Only in fromOfficial/res: mipmap-hdpi-v4
+Only in fromOfficial/res: mipmap-mdpi-v4
+Only in fromOfficial/res: mipmap-xhdpi-v4
+Only in fromOfficial/res: mipmap-xxhdpi-v4
+Only in fromOfficial/res: mipmap-xxxhdpi-v4
+Only in fromOfficial/res: xml
+```
+
+**Conclusion:**
+While signing-related differences are expected, the significant differences in resource directory structure suggest indicates The Cake Wallet build is currently **not verifiable**.
 
 ---
 
