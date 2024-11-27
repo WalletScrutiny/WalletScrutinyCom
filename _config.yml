@@ -298,9 +298,7 @@ defaults:
 
 # Sass/SCSS
 sass:
-  sass_dir: _sass
   quiet_deps: true
-  silence_deprecations: ['import', 'global-builtin', 'slash-div']
 
 # Outputting
 permalink: /:categories/:title/
