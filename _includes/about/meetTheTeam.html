@@ -3,7 +3,7 @@
 <div class="team">
 {% assign team = "lw,dg,ml,em,ts" | split: "," %}
 {% for a in team %}
-  {% assign author = site.authors | where: 'short', a | first %}
+  {% assign author = site.authors | find: 'short', a %}
   {% assign avatar = author.avatar %}
   {% if avatar contains '://' %}
     {% assign prefix = '' %}
