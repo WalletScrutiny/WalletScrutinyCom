@@ -5,6 +5,7 @@ altTitle:
 authors:
 - leo
 - danny
+- keraliss
 users: 50000
 appId: io.horizontalsystems.bankwallet
 appCountry: 
@@ -22,9 +23,14 @@ icon: io.horizontalsystems.bankwallet.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-10-11
+date: 2024-11-28
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
 reviewArchive:
+- date: 2024-10-11
+  version: 0.40.0
+  appHash: 6f320245b3638cb00e90305a29318e15d8c10b76a84dc686f5331d9393929ba7
+  gitRevision: 71ff3b4fadbd0c5156f39ee8296ddaa8047fb6fe
+  verdict: reproducible
 - date: 2024-10-09
   version: 0.40.0
   appHash: f5db836de54c5fd4bcc6819871edf7e5dd1d7ab8fb81c5e1bdcf3c16ab3534ad
@@ -290,16 +296,16 @@ procedure expressed in our {% include testScript.html %}:
 ===== Begin Results =====
 appId:          io.horizontalsystems.bankwallet
 signer:         c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
-apkVersionName: 0.40.1
-apkVersionCode: 119
+apkVersionName: 0.41.0
+apkVersionCode: 122
 verdict:        reproducible
-appHash:        6f320245b3638cb00e90305a29318e15d8c10b76a84dc686f5331d9393929ba7
-commit:         218cd81423c570cdd92b1d5161a600d07c35c232
+appHash:        e2c29943e380d21a18abb4ebe33f8a5379bd662caff4073af9eab5731e04098a
+commit:         6779bfeb13c3bfe815897c88e6167e2eac21f5e8
 
 Diff:
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_119/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_119/META-INF: RELEASEK.RSA
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_119/META-INF: RELEASEK.SF
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_122/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_122/META-INF: RELEASEK.RSA
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_122/META-INF: RELEASEK.SF
 
 Revision, tag (and its signature):
 
