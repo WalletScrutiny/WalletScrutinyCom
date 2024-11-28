@@ -5,7 +5,7 @@
     "apps": [ 
       {% assign iphone = site.iphone | where: 'meta', 'ok' | where: 'verdict', 'reproducible' %}
       {% for post in iphone %}
-      {% include wallet_score.html verdict = post.verdict meta = post.meta platform='iphone' %}
+      {% include wallet_score.html verdict = post.verdict platform='iphone' %}
       {
         "wsId": "{{ post.wsId }}",
         "appId": "{{ post.appId }}",
@@ -24,7 +24,7 @@
     "apps": [ 
       {% assign hardware = site.hardware | where: 'meta', 'ok' | where: 'verdict', 'reproducible' %}
       {% for post in hardware %}
-      {% include wallet_score.html verdict = post.verdict meta = post.meta platform='hardware' %}
+      {% include wallet_score.html verdict = post.verdict platform='hardware' %}
       {
         "appId": "{{ post.appId }}",
         "title": "{{ post.title }}",
@@ -42,7 +42,7 @@
     "apps": [ 
       {% assign bearer = site.bearer | where: 'meta', 'ok' | where: 'verdict', 'reproducible' %}
       {% for post in bearer %}
-      {% include wallet_score.html verdict = post.verdict meta = post.meta platform='bearer' %}
+      {% include wallet_score.html verdict = post.verdict platform='bearer' %}
       {
         "appId": "{{ post.appId }}",
         "title": "{{ post.title }}",
@@ -60,8 +60,7 @@
     "apps": [ 
       {% assign android = site.android | where: 'meta', 'ok' | where: 'verdict', 'reproducible' %}
       {% for post in android %}
-      {% include wallet_score.html verdict = post.verdict meta = post.meta platform='android' %}
-      {
+      {% include wallet_score.html verdict = post.verdict platform='android' %}
         "wsId": "{{ post.wsId }}",
         "appId": "{{ post.appId }}",
         "title": "{{ post.title | escape }}",
@@ -80,7 +79,7 @@
     "apps": [ 
       {% assign desktop = site.desktop | where: 'meta', 'ok' | where: 'verdict', 'reproducible' %}
       {% for post in desktop %}
-      {% include wallet_score.html verdict = post.verdict meta = post.meta platform='desktop' %}
+      {% include wallet_score.html verdict = post.verdict platform='desktop' %}
       {
         "appId": "{{ post.appId }}",
         "title": "{{ post.title | escape }}",

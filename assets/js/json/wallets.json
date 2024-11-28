@@ -28,7 +28,7 @@ layout: compress
 
 {%- assign thisPost = thisPost | append: ',"' | append : post.appId | append : '":{' | append : contents -%}
 
-{%- include_cached wallet_score.html verdict = post.verdict platform=folderKey -%}
+{%- include wallet_score.html verdict = post.verdict platform=folderKey -%}
 {%- assign score = ',"score":{"numerator":' -%}
 {%- assign score = score | append: count -%}
 {%- assign score = score | append: ',"denominator":' -%}
