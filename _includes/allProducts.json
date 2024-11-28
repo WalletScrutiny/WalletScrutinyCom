@@ -4,7 +4,7 @@
     "category": "App Store",
     "apps": [ 
       {% for post in site.iphone %}
-      {% include wallet_score.html verdict = post.verdict meta = post.meta platform='iphone' %}
+      {% include wallet_score.html verdict = post.verdict platform='iphone' %}
       {
         "wsId": "{{ post.wsId }}",
         "appId": "{{ post.appId }}",
@@ -22,7 +22,7 @@
     "category": "Hardware Wallet",
     "apps": [ 
       {% for post in site.hardware %}
-      {% include wallet_score.html verdict = post.verdict meta = post.meta platform='hardware' %}
+      {% include wallet_score.html verdict = post.verdict platform='hardware' %}
       {
         "appId": "{{ post.appId }}",
         "title": "{{ post.title }}",
@@ -39,7 +39,7 @@
     "category": "Bearer Token",
     "apps": [ 
       {% for post in site.bearer %}
-      {% include wallet_score.html verdict = post.verdict meta = post.meta platform='bearer' %}
+      {% include wallet_score.html verdict = post.verdict platform='bearer' %}
       {
         "appId": "{{ post.appId }}",
         "title": "{{ post.title }}",
@@ -56,7 +56,7 @@
     "category": "Play Store",
     "apps": [ 
       {% for post in site.android %}
-      {% include wallet_score.html verdict = post.verdict meta = post.meta platform='android' %}
+      {% include wallet_score.html verdict = post.verdict platform='android' %}
       {
         "wsId": "{{ post.wsId }}",
         "appId": "{{ post.appId }}",
@@ -75,7 +75,7 @@
     "category": "Desktop",
     "apps": [ 
       {% for post in site.desktop %}
-      {% include wallet_score.html verdict = post.verdict meta = post.meta platform='desktop' %}
+      {% include wallet_score.html verdict = post.verdict platform='desktop' %}
       {
         "appId": "{{ post.appId }}",
         "title": "{{ post.title | escape }}",
