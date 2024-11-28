@@ -95,11 +95,11 @@ list_apk_hashes() {
   local dir="$1"
   local title="$2"
   echo -e "${BOLD_CYAN}========================================${NC}"
-  echo -e "${BOLD_CYAN}*** $title ***${NC}"
+  echo -e "${BOLD_CYAN}**$title**${NC}"
   for apk_file in "$dir"/*.apk; do
     [ -e "$apk_file" ] || continue
     apk_hash=$(sha256sum "$apk_file" | awk '{print $1}')
-    echo "$(basename "$apk_file") - $apk_hash"
+    echo "$apk_hash $(basename "$apk_file")"
   done
   echo -e "${BOLD_CYAN}========================================${NC}"
 }
@@ -260,7 +260,10 @@ for dir in "$workDir/fromPlay-unzipped"/*; do
       touch "$workDir/diff_$dir_name.txt"
     else
       echo -e "${YELLOW}Differences found between $dir and $workDir/fromBuild-unzipped/$dir_name${NC}"
-      echo -e "${BRIGHT_CYAN}$diff_result${NC}"
+      echo -e "${BRIGHT_CYAN}$(echo "$diff_result" | head -n 10)${NC}"
+      if [ "$(echo "$diff_result" | wc -l)" -gt 10 ]; then
+        echo -e "${YELLOW}[Output truncated. Full diff saved to $workDir/diff_$dir_name.txt]${NC}"
+      fi
       echo "$diff_result" > "$workDir/diff_$dir_name.txt"
       echo "Differences saved to $workDir/diff_$dir_name.txt"
     fi

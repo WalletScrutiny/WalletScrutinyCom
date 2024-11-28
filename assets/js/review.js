@@ -107,6 +107,11 @@ document.querySelectorAll(".methodology-accordion").forEach((ele)=>{
 })
 
 for (const frame of document.querySelectorAll('iframe')) {
-  let theme = localStorage && localStorage.getItem("colour-scheme") ? localStorage.getItem("colour-scheme") : 'auto'
-  frame.setAttribute("src", String(frame.getAttribute("src")).replace(/auto/, theme))
+  let src = frame.getAttribute("src");
+  if (!src) {
+    console.error("Iframe with no src attribute found:", frame);
+    continue; 
+  }
+  let theme = localStorage && localStorage.getItem("colour-scheme") ? localStorage.getItem("colour-scheme") : 'auto';
+  frame.setAttribute("src", src.replace(/auto/, theme));
 }
