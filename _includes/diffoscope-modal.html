@@ -1,5 +1,3 @@
-
-{% if include.label and include.url %}
 <link rel="stylesheet" href="/assets/css/diffoscope-modal.css">
 <div id="diffoscopeModal" class="diffoscope-modal">
     <div class="diffoscope-modal-content">
@@ -15,10 +13,12 @@ document.addEventListener('DOMContentLoaded', function () {
     var iframe = document.getElementById('diffoscopeFrame');
 
     // Open modal
-    document.querySelector('a[data-modal-link="{{ include.url | escape_js }}"]').addEventListener('click', function (e) {
+    document.querySelectorAll('a[data-modal-link]').forEach(function (link) {
+      link.addEventListener('click', function (e) {
         e.preventDefault();
-        iframe.src = this.href;
+        iframe.src = this.getAttribute('href');
         modal.style.display = 'flex';
+      });
     });
 
     // Close modal
@@ -36,6 +36,5 @@ document.addEventListener('DOMContentLoaded', function () {
     };
 });
 </script>
-{% endif %}
 
-<a href="{{ include.url }}" data-modal-link="{{ include.url }}">{% if include.label %}{{ include.label }}{% else %}Diffoscope{% endif %}</a>
+<a href="{{ include.url }}" data-modal-link="{{ include.url }}">{{ include.label }}</a>

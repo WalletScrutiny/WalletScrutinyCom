@@ -122,7 +122,7 @@ Differences found between `/tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-
 
 ## Previous Review 2024-10-22
 
-Our [test script](/scripts/test/android/com.foundationdevices.envoy.sh) was executed successfully, resulting in a successfully built APK.
+Our [test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/scripts/test/android/com.foundationdevices.envoy.sh) was executed successfully, resulting in a successfully built APK.
 
 The APK was built successfully:
 
