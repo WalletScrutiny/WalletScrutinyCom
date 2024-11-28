@@ -61,6 +61,7 @@
       {% assign android = site.android | where: 'meta', 'ok' | where: 'verdict', 'reproducible' %}
       {% for post in android %}
       {% include wallet_score.html verdict = post.verdict platform='android' %}
+      {
         "wsId": "{{ post.wsId }}",
         "appId": "{{ post.appId }}",
         "title": "{{ post.title | escape }}",
