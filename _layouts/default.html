@@ -10,8 +10,14 @@ layout: compress
   </head>
 
   <body class="vibrant">
+    {% if page.url == "/" %}
+    {% assign is_home = true %}
+    {% else %}
+    {% assign is_home = false %}
+    {% endif %}
+
     {% include_cached browser-upgrade.html %}
-    {% include_cached masthead.html %}
+    {% include_cached masthead.html is_home=is_home %}
 
     {{ content }}
 
