@@ -2,7 +2,8 @@
 wsId: 
 title: SMART VALOR - Buy BTC & Crypto
 altTitle: 
-authors: 
+authors:
+- danny 
 users: 1000
 appId: com.smartvalor.smartvalor
 appCountry: 
@@ -19,11 +20,11 @@ issue:
 icon: com.smartvalor.smartvalor.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2023-06-03
+verdict: custodial
+date: 2024-11-28
 signer: 
 reviewArchive: 
-twitter: 
+twitter: smartvalorinc
 social: 
 redirect_from: 
 developerName: Smart Valor
@@ -31,3 +32,17 @@ features:
 
 ---
 
+## Google Play Description
+
+> "...Buy bitcoin & many other tokens..."
+
+> "...trade cryptocurrencies..."
+
+## Analysis 
+
+In Smart Valor's [Terms and Conditions](https://smartvalor.com/en/docs/TERMS_AND_CONDITIONS)
+
+1. The relationship between the user and the platform is a legally-binding contract.
+2. They have a **Digital Asset Storage Agreement** clause in section 24. They describe this arrangement as *"Digital Assets entrusted to and accepted by Valor Platform"*
+
+This is a **custodial** platform.
