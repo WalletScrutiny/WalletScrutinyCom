@@ -11,3 +11,4 @@ node_modules/
 vendor/
 images/social/
 _data/git.yml
+dist/

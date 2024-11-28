@@ -44,7 +44,7 @@ compiles the project and you should see the changes when refreshing the browser.
 Each build takes around 7s.
 
 ```
-npx gulp serve
+npm run dev
 ```
 
 or
@@ -55,11 +55,11 @@ bundle exec jekyll serve --profile --trace
 
 ### For production deployment
 
-This will also minify the html, css and js which takes all in all about 50s. The
+This will also minify the css and js which takes all in all about 1 minute. The
 result can be found in the `_site/` folder and uploaded to your web server.
 
 ```
-npx gulp
+npm run build
 ```
 
 ## Run the wallet apk test script

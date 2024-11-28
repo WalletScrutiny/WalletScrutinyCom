@@ -126,7 +126,8 @@ exclude:
   - "*.sublime-workspace"
   - .asset-cache
   - .bundle
-  - .jekyll-assets-cache
+  - .idea
+  - .jekyll-cache
   - .sass-cache
   - CHANGELOG
   - Capfile
@@ -138,11 +139,14 @@ exclude:
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
+  - assets/css/barlow.css
+  - assets/css/styles.css
   - config
-  - gulpfile.js
+  - webpack.config.js
   - log
   - node_modules
   - package.json
+  - package-lock.json
   - tmp
   - vendor
   - resSources
@@ -295,8 +299,7 @@ defaults:
 
 # Sass/SCSS
 sass:
-  sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  quiet_deps: true
 
 # Outputting
 permalink: /:categories/:title/
