@@ -1,5 +1,5 @@
 //SET VARIABLES AND DOM OBJECTS + EVENTS NEEDED LATER - bug fix 2
-const paginationLimit = 120
+const paginationLimit = 12
 let hasRedirected = false
 window.blockScrollingFocus=false
 window.verdictCount = {}
