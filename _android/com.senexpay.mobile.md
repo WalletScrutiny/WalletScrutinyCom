@@ -8,8 +8,8 @@ users: 1000
 appId: com.senexpay.mobile
 appCountry: 
 released: 2022-08-16
-updated: 2024-11-23
-version: '1.7.1 '
+updated: 2024-11-28
+version: '1.7.2 '
 stars: 
 ratings: 
 reviews: 

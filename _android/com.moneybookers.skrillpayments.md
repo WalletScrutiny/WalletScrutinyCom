@@ -8,11 +8,11 @@ users: 10000000
 appId: com.moneybookers.skrillpayments
 appCountry: 
 released: 2013-10-29
-updated: 2024-11-20
-version: 3.148.0-2024111214
+updated: 2024-11-27
+version: 3.148.2-2024112014
 stars: 4.5
 ratings: 142059
-reviews: 3279
+reviews: 3284
 size: 
 website: https://www.skrill.com
 repository: 

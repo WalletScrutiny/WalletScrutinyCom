@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.herowallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2024-02-20
+date: 2024-11-29
 signer: 
 reviewArchive: 
 twitter: 

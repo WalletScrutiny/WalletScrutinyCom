@@ -3,7 +3,7 @@ wsId:
 title: Lightning Address to Invoice
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: ua.com.radiokot.lnaddr2invoice
 appCountry: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://www.linkedin.com/in/radiokot 
+- https://www.linkedin.com/in/radiokot
 redirect_from: 
 developerName: Oleg K
 features: 

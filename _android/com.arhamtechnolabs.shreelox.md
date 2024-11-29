@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.arhamtechnolabs.shreelox.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2024-05-08
+date: 2024-11-29
 signer: 
 reviewArchive: 
 twitter: 

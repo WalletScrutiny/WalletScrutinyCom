@@ -8,8 +8,8 @@ appId: com.payperless.wallet
 appCountry: jp
 idd: '1552741313'
 released: 2021-06-16
-updated: 2024-11-23
-version: '1.27'
+updated: 2024-11-28
+version: '1.28'
 stars: 0
 reviews: 0
 size: '96335872'

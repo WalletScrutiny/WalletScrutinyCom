@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: global.anypay.pos.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nowallet
-date: 2024-08-25
+date: 2024-11-29
 signer: 
 reviewArchive: 
 twitter: 

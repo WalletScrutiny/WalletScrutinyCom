@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: global.finx.FINX.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nobtc
-date: 2024-02-20
+date: 2024-11-29
 signer: 
 reviewArchive: 
 twitter: FINXSupport

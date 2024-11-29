@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.kryptrx.app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2023-11-25
+date: 2024-11-29
 signer: 
 reviewArchive: 
 twitter: 

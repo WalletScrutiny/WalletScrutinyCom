@@ -3,7 +3,7 @@ wsId:
 title: Billbitcoins- Pay With Crypto
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.hashcash.billbitcoins
 appCountry: 

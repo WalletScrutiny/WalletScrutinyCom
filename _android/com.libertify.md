@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.libertify.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
-date: 2023-11-02
+date: 2024-11-29
 signer: 
 reviewArchive: 
 twitter: Libertify_

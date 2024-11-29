@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.companyname.swaptobe.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2024-07-14
+date: 2024-11-29
 signer: 
 reviewArchive: 
 twitter: swap_tobe

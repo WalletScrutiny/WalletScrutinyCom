@@ -3,7 +3,7 @@ wsId: ultorex
 title: Ultorex
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.ultorexapp.io
 appCountry: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: UltorexOfficial
 social:
 - https://www.facebook.com/ultorex
-- https://t.me/UltorexOfficial 
+- https://t.me/UltorexOfficial
 redirect_from: 
 developerName: Ultorex
 features: 

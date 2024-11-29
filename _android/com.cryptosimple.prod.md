@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.cryptosimple.prod.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
-date: 2023-12-13
+date: 2024-11-29
 signer: 
 reviewArchive: 
 twitter: 

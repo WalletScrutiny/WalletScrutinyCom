@@ -8,11 +8,11 @@ appId: com.huobi.appStoreHuobiSystem
 appCountry: us
 idd: 1023263342
 released: 2015-08-19
-updated: 2024-11-14
-version: 10.37.0
+updated: 2024-11-28
+version: 10.38.0
 stars: 3.8
-reviews: 1268
-size: '302959616'
+reviews: 1267
+size: '303111168'
 website: https://www.htx.com
 repository: 
 issue: 
@@ -27,7 +27,7 @@ twitter: HuobiGlobal
 social:
 - https://www.facebook.com/huobiglobalofficial
 features: 
-developerName: Huobi LTD
+developerName: SAFE GLORY UAB
 
 ---
 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.evraon.trading.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2023-12-13
+date: 2024-11-29
 signer: 
 reviewArchive: 
 twitter: 

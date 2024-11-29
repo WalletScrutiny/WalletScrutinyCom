@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.aabb.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
-date: 2024-06-29
+date: 2024-11-29
 signer: 
 reviewArchive: 
 twitter: AsiaBroadband

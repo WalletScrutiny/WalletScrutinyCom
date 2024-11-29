@@ -8,11 +8,11 @@ appId: com.margex.mobile
 appCountry: us
 idd: '1607974744'
 released: 2022-02-09
-updated: 2024-10-24
-version: 4.5.1
+updated: 2024-11-26
+version: 4.5.2
 stars: 4.6
-reviews: 326
-size: '80567296'
+reviews: 342
+size: '80763904'
 website: 
 repository: 
 issue: 

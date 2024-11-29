@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Simple Courses
+developerName: Quarecy Software LTD
 features: 
 
 ---

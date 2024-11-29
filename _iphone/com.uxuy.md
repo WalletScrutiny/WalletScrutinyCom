@@ -1,6 +1,6 @@
 ---
 wsId: uxuy
-title: 'UXUY: Bitcoin Lightning Wallet'
+title: 'UXUY: A wallet for Memecoins'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.uxuy
 appCountry: us
 idd: '6457257372'
 released: 2023-08-23
-updated: 2024-10-28
-version: 1.2.26
+updated: 2024-11-28
+version: 1.3.0
 stars: 3.9
-reviews: 14
-size: '134139904'
+reviews: 15
+size: '135206912'
 website: https://uxuy.com/wallet
 repository: 
 issue: 

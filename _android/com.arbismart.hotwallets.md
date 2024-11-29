@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.arbismart.hotwallets.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2024-06-23
+date: 2024-11-29
 signer: 
 reviewArchive: 
 twitter: arbismart

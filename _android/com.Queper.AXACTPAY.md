@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Axact Solutions
+developerName: Pinomz Technologies
 features: 
 
 ---

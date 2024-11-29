@@ -4,7 +4,7 @@ title: Quasar Wallet
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.quasarwallet.android
 appCountry: 
 released: 2022-04-05

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bimofan.quantification.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2023-08-16
+date: 2024-11-29
 signer: 
 reviewArchive: 
 twitter: 

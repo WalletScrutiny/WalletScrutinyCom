@@ -12,7 +12,7 @@ updated: 2024-11-13
 version: VARY
 stars: 3.3
 ratings: 2277
-reviews: 125
+reviews: 127
 size: 
 website: https://www.coinpayments.net/
 repository: 

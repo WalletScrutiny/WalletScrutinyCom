@@ -8,8 +8,8 @@ appId: digital.fior.21app
 appCountry: lu
 idd: '1579302952'
 released: 2022-03-29
-updated: 2024-11-15
-version: 2.0.33
+updated: 2024-11-27
+version: 2.0.34
 stars: 0
 reviews: 0
 size: '76180480'

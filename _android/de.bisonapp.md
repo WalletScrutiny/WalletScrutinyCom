@@ -8,8 +8,8 @@ users: 100000
 appId: de.bisonapp
 appCountry: 
 released: 
-updated: 2024-11-11
-version: 4.1.0
+updated: 2024-11-26
+version: 4.1.1
 stars: 4.6
 ratings: 
 reviews: 2

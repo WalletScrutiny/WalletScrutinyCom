@@ -12,7 +12,7 @@ updated: 2024-10-02
 version: 2.1.0
 stars: 4.2
 ratings: 1058
-reviews: 138
+reviews: 139
 size: 
 website: https://goodcrypto.app
 repository: 

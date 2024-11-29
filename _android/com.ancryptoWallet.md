@@ -14,7 +14,7 @@ stars: 4.5
 ratings: 
 reviews: 28
 size: 
-website: https://www.ancrypto.io/
+website: https://gemspocket.com/
 repository: 
 issue: 
 icon: com.ancryptoWallet.jpg

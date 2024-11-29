@@ -3,7 +3,7 @@ wsId:
 title: SMART VALOR - Buy BTC & Crypto
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.smartvalor.smartvalor
 appCountry: 

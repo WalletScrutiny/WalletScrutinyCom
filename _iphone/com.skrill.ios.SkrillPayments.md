@@ -8,11 +8,11 @@ appId: com.skrill.ios.SkrillPayments
 appCountry: gb
 idd: '718248239'
 released: 2013-10-29
-updated: 2024-11-20
-version: 3.148.0
+updated: 2024-11-27
+version: 3.149.0
 stars: 4.5
-reviews: 6890
-size: '234137600'
+reviews: 6909
+size: '234895360'
 website: https://www.skrill.com/
 repository: 
 issue: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ara.WMUWallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-07-17
+date: 2024-11-29
 signer: 
 reviewArchive: 
 twitter: 

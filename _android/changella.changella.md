@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: changella.changella.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2024-08-15
+date: 2024-11-29
 signer: 
 reviewArchive: 
 twitter: 

@@ -8,11 +8,11 @@ appId: com.blockcode.plutus.tappay
 appCountry: gb
 idd: '1410685948'
 released: 2018-08-22
-updated: 2024-10-27
-version: 4.6.3
-stars: 2.4
-reviews: 14
-size: '81787904'
+updated: 2024-11-27
+version: 4.7.0
+stars: 0
+reviews: 0
+size: '84553728'
 website: https://plutus.it
 repository: 
 issue: 

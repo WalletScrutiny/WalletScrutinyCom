@@ -12,7 +12,7 @@ updated: 2024-11-21
 version: 3.0.7
 stars: 4.3
 ratings: 
-reviews: 237
+reviews: 235
 size: 
 website: https://pandar.ng
 repository: 

@@ -8,8 +8,8 @@ users: 50000
 appId: io.mexo.app
 appCountry: us
 released: 2020-08-30
-updated: 2024-11-17
-version: 3.6.6
+updated: 2024-11-25
+version: 3.6.7
 stars: 3
 ratings: 401
 reviews: 15

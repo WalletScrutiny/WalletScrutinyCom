@@ -8,11 +8,11 @@ users: 500000
 appId: com.bitvavo.android
 appCountry: nl
 released: 2020-08-19
-updated: 2024-11-08
+updated: 2024-11-26
 version: 2.54.0
 stars: 4.7
 ratings: 2272
-reviews: 3264
+reviews: 3280
 size: 
 website: https://bitvavo.com/
 repository: 

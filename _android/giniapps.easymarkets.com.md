@@ -10,9 +10,9 @@ appCountry: us
 released: 2017-04-05
 updated: 2024-09-12
 version: 2.2.4
-stars: 3.4
+stars: 3.5
 ratings: 1761
-reviews: 36
+reviews: 37
 size: 
 website: https://www.easymarkets.com/
 repository: 

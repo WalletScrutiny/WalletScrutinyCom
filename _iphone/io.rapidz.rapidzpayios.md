@@ -8,11 +8,11 @@ appId: io.rapidz.rapidzpayios
 appCountry: us
 idd: '1558420115'
 released: 2021-06-29
-updated: 2024-10-24
-version: 2.14.2
+updated: 2024-11-27
+version: 2.14.4
 stars: 3
 reviews: 2
-size: '63378432'
+size: '63259648'
 website: https://www.rapidz.io/
 repository: 
 issue: 

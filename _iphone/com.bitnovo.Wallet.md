@@ -8,11 +8,11 @@ appId: com.bitnovo.Wallet
 appCountry: in
 idd: 1553430666
 released: 2021-10-27
-updated: 2024-11-15
-version: 3.0.37
+updated: 2024-11-28
+version: 3.0.38
 stars: 0
 reviews: 0
-size: '79238144'
+size: '79787008'
 website: https://www.bitnovo.com
 repository: 
 issue: 

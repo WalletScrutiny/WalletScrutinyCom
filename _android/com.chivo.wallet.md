@@ -9,20 +9,20 @@ users: 1000000
 appId: com.chivo.wallet
 appCountry: sv
 released: 2021-09-06
-updated: 2023-06-21
-version: 2.4.1
+updated: 2024-11-25
+version: 3.0.0
 stars: 2.7
 ratings: 27085
-reviews: 14001
+reviews: 14007
 size: 
 website: https://www.chivowallet.com
 repository: 
 issue: 
 icon: com.chivo.wallet.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: obfuscated
-date: 2024-06-17
+date: 2024-11-29
 signer: 
 reviewArchive:
 - date: 2021-10-10

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: TapSwap Kenya
+title: TapSwap
 altTitle: 
 authors:
 - danny
@@ -29,7 +29,7 @@ social:
 - https://www.instagram.com/tapswap_kenya/
 - https://www.linkedin.com/company/tapswap/
 redirect_from: 
-developerName: TapSwap Kenya Limited
+developerName: TapSwap
 features: 
 
 ---

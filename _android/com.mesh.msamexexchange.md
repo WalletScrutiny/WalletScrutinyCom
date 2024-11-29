@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.mesh.msamexexchange.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-06-02
+date: 2024-11-29
 signer: 
 reviewArchive: 
 twitter: 

@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/peerbr
 - https://www.instagram.com/peerbr
 - https://www.linkedin.com/company/peerbr
-- https://www.tiktok.com/@peer_br 
+- https://www.tiktok.com/@peer_br
 redirect_from: 
 developerName: Grupo GCB
 features: 

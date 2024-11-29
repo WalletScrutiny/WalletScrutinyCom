@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.evercash.mobile.client.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-03
+date: 2024-11-29
 signer: 
 reviewArchive: 
 twitter: 

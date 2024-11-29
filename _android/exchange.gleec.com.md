@@ -3,7 +3,7 @@ wsId: gleecExchange
 title: Gleec BTC
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: exchange.gleec.com
 appCountry: 

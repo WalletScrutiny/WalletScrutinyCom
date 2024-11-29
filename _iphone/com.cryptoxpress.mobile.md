@@ -10,7 +10,7 @@ idd: '1591792414'
 released: 2021-11-18
 updated: 2024-10-17
 version: 1.0.20
-stars: 4.4
+stars: 4.6
 reviews: 19
 size: '87776256'
 website: https://cryptoxpress.com/

@@ -10,8 +10,8 @@ idd: '1409599830'
 released: 2018-07-29
 updated: 2024-11-01
 version: 5.9.1
-stars: 3.1
-reviews: 60
+stars: 3.2
+reviews: 62
 size: '165696512'
 website: https://coinmerce.io/en/
 repository: 

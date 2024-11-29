@@ -11,7 +11,7 @@ released: 2018-04-22
 updated: 2024-11-04
 version: '7.2'
 stars: 4.5
-reviews: 261
+reviews: 257
 size: '115694592'
 website: https://unitywallet.com
 repository: 

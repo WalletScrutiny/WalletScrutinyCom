@@ -8,11 +8,11 @@ appId: com.quidax.lite
 appCountry: ng
 idd: '1603997707'
 released: 2022-01-13
-updated: 2024-09-20
-version: 1.18.7
+updated: 2024-11-25
+version: 1.9.0
 stars: 4.4
-reviews: 1624
-size: '66077696'
+reviews: 1627
+size: '67747840'
 website: 
 repository: 
 issue: 

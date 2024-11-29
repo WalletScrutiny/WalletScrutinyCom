@@ -11,7 +11,7 @@ released: 2020-07-28
 updated: 2024-11-09
 version: 2.22.738
 stars: 4.8
-reviews: 60
+reviews: 59
 size: '90507264'
 website: https://Safe3.app
 repository: 
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
-developerName: Avelot Limited
+developerName: Safe3 UAB
 
 ---
 
