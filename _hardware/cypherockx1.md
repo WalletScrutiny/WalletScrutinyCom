@@ -9,8 +9,8 @@ authors:
 - Mohammad
 released: 2022-04-07
 discontinued: 
-updated: 2024-07-02
-version: 0.6.768
+updated: 2024-11-25
+version: 0.6.1280
 binaries: https://github.com/Cypherock/x1_wallet_firmware/releases/
 dimensions:
 - 30
@@ -29,9 +29,14 @@ icon: cypherockx1.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-11-05
+date: 2024-11-29
 signer: 
 reviewArchive:
+- data: 2024-11-05
+  version: 0.6.768
+  appHash: be1594eb974efa7b2eac3e251c7c851e91c814fbd6378e6e8fd6e778156e8674
+  gitRevision: c44d57846d87ed548dba1617429f7f227b6ec56e
+  verdict: reproducible
 - data: 2023-05-25
   version: 0.4.3075
   appHash: 656945ae37510bb1b7452c97d27cd5b638ddb0119e44e9af5aa32e02302f458e
@@ -89,7 +94,7 @@ From the [FAQ](https://www.cypherock.com/faq/): Can the company somehow steal th
 - List of tools required to successfully build the project can be found here: [Building project](https://github.com/Cypherock/x1_wallet_firmware/tree/v0.4.1290#building-project)
 - Sequence of commands run on docker can be found here: [Docker commands v0.4.1290](https://github.com/Cypherock/x1_wallet_firmware/blob/v0.4.1290/.github/workflows/containerized-build.yml)
 
-# Update 2024-11-05 (Version 0.6.768)
+# Update 2024-11-29 (Version 0.6.1280)
 ## Please see previous reproducible attempts in the archives below
 
 There has been some notable changes to the way Cypherock X1 firmware is verified and built from v0.6.768. 
@@ -100,30 +105,29 @@ We have created a new script to automate this procedure, but you can still find 
 Here are the results:
 
 ```
-[445/445] Linking C executable Cypherock-Main.elf
+[470/470] Linking C executable Cypherock-Main.elf
    text	   data	    bss	    dec	    hex	filename
- 547880	   3500	  46208	 597588	  91e54	Cypherock-Main.elf
+ 574312	   3548	  46656	 624516	  98784	Cypherock-Main.elf
 Calculating SHA256 checksums for built binary...
 Downloading released firmware binary from GitHub...
 Connecting to github.com (140.82.121.3:443)
-Connecting to objects.githubusercontent.com (185.199.108.133:443)
+Connecting to objects.githubusercontent.com (185.199.109.133:443)
 saving to 'Cypherock-Main-released.bin'
-Cypherock-Main-relea 100% |********************************|  538k  0:00:00 ETA
+Cypherock-Main-relea 100% |********************************|  564k  0:00:00 ETA
 'Cypherock-Main-released.bin' saved
 Calculating SHA256 checksums...
 Compare built and released binaries...
-be1594eb974efa7b2eac3e251c7c851e91c814fbd6378e6e8fd6e778156e8674  Cypherock-Main.bin
-be1594eb974efa7b2eac3e251c7c851e91c814fbd6378e6e8fd6e778156e8674  Cypherock-Main-released.bin
+4407693c9d055870e2b5c7a390087bf4aa8274c9c272c8a1f7b825884a417de2  Cypherock-Main.bin
+4407693c9d055870e2b5c7a390087bf4aa8274c9c272c8a1f7b825884a417de2  Cypherock-Main-released.bin
 COMMIT cypherock-x1-verifier
---> cc2fb8ebe02
+--> 6e03f732743
 Successfully tagged localhost/cypherock-x1-verifier:latest
-cc2fb8ebe02c631f35bfbffb47a7dc79d51d39898966600c2fdd89d7c155eb5e
-Running the container to verify firmware...
+6e03f73274397bd0ca09d7712c71b833d1dd8f9ea2e598e45f8c3cade1e58bd5
 ```
 
 Note that Cypherock-Initial is no longer found in the releases.
 
-The checksums of the built binary and the release binary match, and thus version 0.6.768 is **reproducible**.
-The checksum for **version 0.6.768** can be verified in their repository [here.](https://github.com/Cypherock/x1_wallet_firmware/releases/tag/v0.6.768)
+The checksums of the built binary and the release binary match, and thus version 0.6.1280 is **reproducible**.
+The checksum for **0.6.1280** can be verified in their repository [here.](https://github.com/Cypherock/x1_wallet_firmware/releases/tag/v0.6.1280)
 
 {% include asciicast %}
