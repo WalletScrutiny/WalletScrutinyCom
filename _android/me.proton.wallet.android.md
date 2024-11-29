@@ -16,7 +16,7 @@ reviews:
 size: 
 website: https://proton.me
 repository: https://github.com/ProtonWallet/flutter-app
-issue: https://github.com/shapeshift/mobile-app/issues/104#issuecomment-2275310236
+issue: https://github.com/ProtonWallet/flutter-app/issues/4
 icon: me.proton.wallet.android.png
 bugbounty: 
 meta: ok
@@ -159,7 +159,7 @@ We tried several times with various iterations of Docker images which we thought
 
 At this stage, we feel that this internal registry `proton_internal`, may be causing the failure of most builds. 
 
-For this reason, we filed an [issue](https://github.com/shapeshift/mobile-app/issues/104#issuecomment-2275310236) in their repository in the hopes that we can collaborate with the Proton team. For the meantime, we determine that this app's source, **does not build** due to insufficient build instructions and the possibility of internal registries that may be causing the build failures.
+For this reason, we filed an [issue](https://github.com/ProtonWallet/flutter-app/issues/4) in their repository in the hopes that we can collaborate with the Proton team. For the meantime, we determine that this app's source, **does not build** due to insufficient build instructions and the possibility of internal registries that may be causing the build failures.
 
 ## App Description from Play
 
