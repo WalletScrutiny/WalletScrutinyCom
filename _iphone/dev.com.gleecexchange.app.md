@@ -18,8 +18,8 @@ issue:
 icon: dev.com.gleecexchange.app.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2024-10-07
+verdict: custodial
+date: 2024-11-28
 signer: 
 reviewArchive: 
 twitter: GleecOfficial

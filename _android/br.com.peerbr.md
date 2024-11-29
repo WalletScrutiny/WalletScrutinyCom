@@ -21,11 +21,15 @@ icon: br.com.peerbr.png
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2023-06-13
+date: 2024-11-29
 signer: 
 reviewArchive: 
 twitter: 
-social: 
+social:
+- https://www.facebook.com/peerbr
+- https://www.instagram.com/peerbr
+- https://www.linkedin.com/company/peerbr
+- https://www.tiktok.com/@peer_br 
 redirect_from: 
 developerName: Grupo GCB
 features: 
@@ -38,7 +42,23 @@ features:
 >
 > Assets of the new economy free of intermediaries such as Cryptocurrencies, Precatórios, Consortium Quotas and much more!
 
-## Analysis
+## Update 2024-11-28
+
+After some difficulties translating, we found its [Terms and Conditions](https://static.peerbr.com/peerbr-v2/documents/TermosDeUso-06-2024.pdf?_gl=1*auytop*_gcl_au*MTY2OTQ4NTg1Ni4xNzMyNzkzNDMx*_ga*MjAwMTA2MDM0My4xNzMyNzkzNDMy*_ga_QYV3HZEFF4*MTczMjc5MzQzMi4xLjEuMTczMjc5MzUzOC42MC4wLjA.) (clicking the link opens a PDF file)
+
+In number 1, clause (v):
+
+> "(v) a atividade de corretagem e custódia de criptoativos"
+
+Translated using Google translate:
+
+> "(v) the activity of brokerage and custody of crypto assets"
+
+What is not so clear is whether they provide something like an account to the users denominated in Bitcoin. We messaged them again, this time on LinkedIn. 
+
+For now this app still persists as a **work-in-progress**.
+
+## Previous Analysis 2023-06-13
 
 Translated from the [Home Page](https://www.peerbr.com.br/), Portuguese using Google Translate
 
