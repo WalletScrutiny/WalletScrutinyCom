@@ -49,7 +49,7 @@ function searchByWords(query, wallet) {
 }
 
 function performSearch (wallets, query = false, platform = false) {
-  const verdictOrder = ['reproducible', 'diy', 'nonverifiable', 'ftbfs', 'nosource', 'custodial', 'nosendreceive', 'sealed-noita', 'noita', 'sealed-plainkey', 'plainkey', 'obfuscated', 'prefilled', 'fake', 'wip', 'fewusers', 'unreleased', 'vapor', 'nobtc', 'nowallet'];
+  const verdictOrder = ['reproducible', 'diy', 'nonverifiable', 'ftbfs', 'nosource', 'ecash', 'custodial', 'nosendreceive', 'sealed-noita', 'noita', 'sealed-plainkey', 'plainkey', 'obfuscated', 'prefilled', 'fake', 'wip', 'fewusers', 'unreleased', 'vapor', 'nobtc', 'nowallet'];
   const platformOrder = ['hardware', 'desktop', 'android', 'iphone', 'bearer', 'others'];
   const metaOrder = ['ok', 'discontinued', 'deprecated', 'outdated', 'stale', 'obsolete', 'removed', 'defunct'];
 

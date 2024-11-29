@@ -12,6 +12,7 @@ android:
     - nobtc
     - nosendreceive
     - custodial
+    - ecash
     - nosource
     - obfuscated
     - ftbfs
@@ -59,6 +60,7 @@ iphone:
     - nobtc
     - nosendreceive
     - custodial
+    - ecash
     - nosource
     - obfuscated
     - ftbfs

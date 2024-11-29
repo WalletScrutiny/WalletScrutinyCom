@@ -402,4 +402,35 @@ cameraFunction:
 
     * **User-friendly** transaction process with QR code scanning
   drawback: 
+cashu:
+  short: Cashu eCash
+  long: >
+    Cashu is an Chaumian eCash protocol that has excellent privacy at the expense of a custodial setup.
+    Products that support Cashu eCash can connect to Cashu mints and typically send and receive via the lightning network using LN nodes connected to the same mint.
 
+    <a href='https://cashu.space/'>Learn more about Cashu</a>.
+  benefit: >
+    * **Enhanced privacy** as the mint cannot track flows of funds even of users of the same mint.
+
+    * **Lower cost** as the mint can keep the on-chain fees to a minimum, passing on the savings to the users.
+
+    * **User-friendly** as users don't need to care about lightning network channel management or on-chain fees.
+  drawback: >
+    eCash is fundamentally custodial. If the custodian disappears with the money or gets hacked, all the users of that mint lose their funds.
+fedimint:
+  short: Fedimint eCash
+  long: >
+    Fedimint is an Chaumian eCash protocol that has excellent privacy at the expense of a custodial setup.
+    Products that support Fedimint eCash can connect to Fedimint mints and typically send and receive via the lightning network using LN nodes connected to the same mint.
+
+    <a href='https://fedimint.org/'>Learn more about Fedimint</a>.
+  benefit: >
+    * **Enhanced privacy** as the mint cannot track flows of funds even of users of the same mint.
+
+    * **Lower cost** as the mint can keep the on-chain fees to a minimum, passing on the savings to the users.
+
+    * **User-friendly** as users don't need to care about lightning network channel management or on-chain fees.
+    
+    * **Federated:** In Fedimint, the custodians can be multiple, where a single mint operator can never steal funds on their own.
+  drawback: >
+    eCash is fundamentally custodial. If the custodian disappears with the money or gets hacked, all the users of that mint lose their funds.
