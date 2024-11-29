@@ -62,10 +62,10 @@ Trust in attestations is built through:
   "kind":    30301,
   "tags":    [
     ["d",            "<asset-event-id>"],
-    ["status",       "reproducible"],
-    ["instructions", "<url-to-build-instructions>"]
+    ["status",       "reproducible"]
   ],
-  "content": "Detailed reproduction process and results"
+  "content": "Detailed reproduction process and results",
+  "instructions": "<url-to-build-instructions>"
 }
 ```
 
@@ -75,13 +75,17 @@ Trust in attestations is built through:
   "kind":    30302,
   "tags":    [
     ["d",      "<attestation-event-id>"],
+    ["x",      "<asset-event-id>"],
     ["result", false]
   ],
   "content": "I don't get the same result as the attester. Got differences in file xx and yy"
 }
 ```
 
-*Note: Replacing the Attestation event invalidates the Endorsement. Clients should find where this happens and ask for re-endorsement.*
+*Note: Replacing the Attestation event invalidates the Endorsement. Clients should find where this happens and ask for
+re-endorsement.* To be able to point to a user that an Endorsement was made for an Attestation of an Asset, the
+Endorsement also must point to the Asset, or it will be left orphan. That way we can show the outdated Endorsement in
+the application page.
 
 ## Documentation needed
 ### For Reproducers
@@ -99,3 +103,10 @@ Trust in attestations is built through:
 1. Gamification with a Leaderboard for both Reproducers and Binary providers
 2. Website to find binaries that await reproduction
 3. Search by hash or download url
+
+## To Be Decided
+1. In the **Attestation** event, clarify the difference between `content` and `instructions`
+2. If we don't add the application id to the **Asset Registration** event, there is no way to link those events
+with our applications in WS. If we add it, we stop being able to use ZapStore's already created events. We could
+use the "**App/Release/Asset Registration**" path to get the application id if it's not available in the
+**Asset Registration** event, but having 2 ways to get the same information don't seem like a good idea.
