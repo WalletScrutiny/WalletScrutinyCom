@@ -20,8 +20,8 @@ issue:
 icon: com.minibits_wallet.png
 bugbounty: 
 meta: ok
-verdict: nobtc
-date: 2024-11-28
+verdict: custodial
+date: 2024-11-29
 signer: 
 reviewArchive: 
 twitter: MinibitsCash
@@ -50,4 +50,7 @@ The wallet app is still in its beta-testing stages, but as it reminds its users:
 >
 > Mints are custodial by design,. Run your own or use them only for research and testing.
 
-We created a wallet profile. We discovered that the default mint is the minibits mint. Although there is a feature that allows users to create an ln invoice, we **cannot find a Bitcoin wallet implementation**.
+We created a wallet profile. We discovered that the default mint is the minibits mint. Although there is a feature that allows users to create an ln invoice. 
+
+This app is **custodial**.
+

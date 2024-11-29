@@ -21,11 +21,15 @@ icon: br.com.peerbr.png
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2023-06-13
+date: 2024-11-29
 signer: 
 reviewArchive: 
 twitter: 
-social: 
+social:
+- https://www.facebook.com/peerbr
+- https://www.instagram.com/peerbr
+- https://www.linkedin.com/company/peerbr
+- https://www.tiktok.com/@peer_br 
 redirect_from: 
 developerName: Grupo GCB
 features: 
