@@ -4,7 +4,7 @@
   Tests performed by {% for a in authors %}{%
     if forloop.index > 1 %}, {%
     endif %}{%
-    assign author = site.authors | where: 'slug', a | first %}{%
+    assign author = site.authors | find: 'slug', a %}{%
     if author %}<a href="/authors/{{ a }}">{{ author.name }}</a>{%
     else %}{{ a }}{%
     endif %}{%

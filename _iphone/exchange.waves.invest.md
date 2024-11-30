@@ -3,7 +3,7 @@ wsId: wxInvest
 title: WX Invest
 altTitle: 
 authors:
-- - danny
+- danny
 appId: exchange.waves.invest
 appCountry: us
 idd: '1582794195'

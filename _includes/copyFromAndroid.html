@@ -1,6 +1,6 @@
 (Analysis from Android review)
 {% if site.environment != "development" %}
-  {%- assign otherPost = site.android | where:"wsId", page.wsId | first -%}
+  {%- assign otherPost = site.android | find:"wsId", page.wsId -%}
 
   {{ otherPost.content }}
 {% else %}
