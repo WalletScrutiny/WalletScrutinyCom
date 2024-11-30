@@ -1,12 +1,22 @@
 //SET VARIABLES AND DOM OBJECTS + EVENTS NEEDED LATER - bug fix 2
-const paginationLimit = 12
+const paginationLimit = 120
 let hasRedirected = false
-window.blockScrollingFocus=false
+window.blockScrollingFocus = false
 window.verdictCount = {}
+let isInitializing = true
 const wfInputTargets = { platform: { type: "dropdown" }, "query-string": { type: "string" } }
+
+window.addEventListener('allWalletsLoaded', () => {
+  isInitializing = false;
+  updateWalletGridInputOriginatingFromURL();
+});
+
 for (const [key, value] of Object.entries(wfInputTargets)) {
-  if (value.type === 'dropdown')
-    addDropdownEvents(key, () => { updateWalletGridInputOriginatingFromUI() })
+  if (value.type === 'dropdown') {
+    addDropdownEvents(key, () => { 
+      if (!isInitializing) updateWalletGridInputOriginatingFromUI();
+    });
+  }
 }
 
 function updateWalletGridInputOriginatingFromUI() {
@@ -32,7 +42,7 @@ function updateWalletGridInputOriginatingFromURL() {
   const platform = param.get('platform') ? param.get('platform') : "allPlatforms"
   const queryRaw = param.get('query-string') ? param.get('query-string') : ""
   const query = queryRaw.toUpperCase()
-  const page = param.get('page') ? param.get('page') : 1
+  const page = param.get('page') || "1"
   if (param.size == 0) { window.blockScrollingFocus = true }
   buildWalletGridAndPaginationUI(platform, page, query, queryRaw)
 }
@@ -112,6 +122,7 @@ function generateAndAppendWalletTiles(workingArray, pageNo) {
 }
 
 function generateAndAppendPagination(workingArray, pageNo) {
+  if (isInitializing) return
   if (workingArray.length >= paginationLimit && (Math.ceil(workingArray.length / paginationLimit) < pageNo)) {
     updateWalletGridInputOriginatingFromUI()
     return
@@ -313,9 +324,11 @@ window.addEventListener("popstate", () => {
 });
 window.addEventListener("load", () => {
   updateWalletGridInputOriginatingFromURL()
+  isInitializing = false;
 });
 window.queryStringTimeout = false
 document.querySelector(".query-string").addEventListener("input", () => {
+  if (isInitializing) return
   clearTimeout(window.queryStringTimeout)
   window.queryStringTimeout = setTimeout(() => {
     const queryRaw = document.querySelector(".query-string").value.length > 0 ? encodeURI(document.querySelector(".query-string").value) : ""
@@ -329,14 +342,14 @@ document.querySelector(".query-string").addEventListener("input", () => {
 });
 
 window.addEventListener("allWalletsLoaded", () => {
+  isInitializing = false
   const platform = document.querySelector(".dropdown-platform .selected") ? document.querySelector(".dropdown-platform .selected").getAttribute("data") : "allPlatforms"
   const page = document.querySelector(".pagination .selected") ? document.querySelector(".pagination .selected").innerHTML : 1
   const queryRaw = document.querySelector(".query-string").value.length > 0 ? encodeURI(document.querySelector(".query-string").value) : ""
   const query = queryRaw.toUpperCase()
-  //query = decodeURI(query)
   const workingArray = performSearch(window.wallets, query, platform) || false;
 
-  window.blockScrollingFocus = true;
+  window.blockScrollingFocus = true 
 
   generateAndAppendPagination(workingArray, page);
 });
