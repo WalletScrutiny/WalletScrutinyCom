@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.nexdax.Nexdax.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2024-08-05
+date: 2024-11-30
 signer: 
 reviewArchive: 
 twitter: nexdax_exchange

@@ -1,6 +1,6 @@
 ---
 wsId: uxuy
-title: 'UXUY: A wallet for Memecoins'
+title: 'UXUY: Memecoin for Trading'
 altTitle: 
 authors:
 - danny

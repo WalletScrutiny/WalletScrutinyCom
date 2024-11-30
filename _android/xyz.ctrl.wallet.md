@@ -7,7 +7,7 @@ users: 500
 appId: xyz.ctrl.wallet
 appCountry: 
 released: 
-updated: 2024-11-26
+updated: 2024-11-29
 version: VARY
 stars: 
 ratings: 

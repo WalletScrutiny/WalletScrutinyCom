@@ -12,7 +12,7 @@ updated: 2024-10-07
 version: 1.1.17
 stars: 4.5
 ratings: 
-reviews: 10
+reviews: 8
 size: 
 website: https://stealthex.io/
 repository: 

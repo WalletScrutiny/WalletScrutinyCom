@@ -12,7 +12,7 @@ updated: 2024-11-28
 version: 24.11.4
 stars: 3.8
 ratings: 
-reviews: 13
+reviews: 14
 size: 
 website: http://www.ig.com
 repository: 

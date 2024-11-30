@@ -1,6 +1,6 @@
 ---
 wsId: ancryptoWallet
-title: 'AnCrypto: Safest Web3 Wallet'
+title: Gems Pocket
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 100000
 appId: com.ancryptoWallet
 appCountry: 
 released: 2022-09-27
-updated: 2024-04-26
-version: 1.39.25
+updated: 2024-11-27
+version: 1.42.0
 stars: 4.5
 ratings: 
 reviews: 28
@@ -17,7 +17,7 @@ size:
 website: https://gemspocket.com/
 repository: 
 issue: 
-icon: com.ancryptoWallet.jpg
+icon: com.ancryptoWallet.png
 bugbounty: 
 meta: ok
 verdict: nosource

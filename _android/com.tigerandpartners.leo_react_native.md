@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.tigerandpartners.leo_react_native.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-07-11
+date: 2024-11-30
 signer: 
 reviewArchive: 
 twitter: LEO12_EXCHANGE

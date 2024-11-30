@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.blockkoinmobile.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2024-07-22
+date: 2024-11-30
 signer: 
 reviewArchive: 
 twitter: 

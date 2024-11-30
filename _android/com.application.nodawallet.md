@@ -19,9 +19,9 @@ repository: https://github.com/nodawallet/NodaWallet-Android
 issue: https://github.com/nodawallet/NodaWallet-Android/issues/1
 icon: com.application.nodawallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
-date: 2024-05-10
+date: 2024-11-30
 signer: 
 reviewArchive: 
 twitter: DexNodaWallett

@@ -9,7 +9,7 @@ appId: com.tongtong.wallet
 appCountry: 
 released: 2022-04-21
 updated: 2024-11-21
-version: 1.6.04
+version: 1.6.05
 stars: 
 ratings: 
 reviews: 

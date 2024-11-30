@@ -12,7 +12,7 @@ updated: 2024-11-21
 version: 2.92.2
 stars: 4.7
 ratings: 619117
-reviews: 14407
+reviews: 14410
 size: 
 website: https://www.binance.com/
 repository: 

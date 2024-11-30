@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.canadaecoin.moonshine.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2024-03-12
+date: 2024-11-30
 signer: 
 reviewArchive: 
 twitter: 

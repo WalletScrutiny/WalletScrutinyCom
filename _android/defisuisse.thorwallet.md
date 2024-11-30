@@ -12,7 +12,7 @@ updated: 2024-11-04
 version: 3.0.0
 stars: 4
 ratings: 
-reviews: 30
+reviews: 31
 size: 
 website: http://thorwallet.org
 repository: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.modu.jgzsj.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
-date: 2023-07-11
+date: 2024-11-30
 signer: 
 reviewArchive: 
 twitter: 

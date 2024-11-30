@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: cy.agorise.palmpay.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
-date: 2024-01-16
+date: 2024-11-30
 signer: 
 reviewArchive: 
 twitter: Agorise_world

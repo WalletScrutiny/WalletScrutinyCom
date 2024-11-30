@@ -32,7 +32,7 @@ social:
 - https://bibexchange.medium.com
 - https://t.me/BIBexchange_China
 redirect_from: 
-developerName: bibvip.com
+developerName: ebpay.net
 features: 
 
 ---
