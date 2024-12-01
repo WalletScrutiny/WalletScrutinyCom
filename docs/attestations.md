@@ -62,10 +62,10 @@ Trust in attestations is built through:
   "kind":    30301,
   "tags":    [
     ["d",            "<asset-event-id>"],
-    ["status",       "reproducible"]
+    ["status",       "reproducible"],
+    ["instructions", "<url-to-build-instructions>"]
   ],
-  "content": "Detailed reproduction process and results",
-  "instructions": "<url-to-build-instructions>"
+  "content": "Detailed reproduction process and results"
 }
 ```
 
@@ -103,10 +103,3 @@ the application page.
 1. Gamification with a Leaderboard for both Reproducers and Binary providers
 2. Website to find binaries that await reproduction
 3. Search by hash or download url
-
-## To Be Decided
-1. In the **Attestation** event, clarify the difference between `content` and `instructions`
-2. If we don't add the application id to the **Asset Registration** event, there is no way to link those events
-with our applications in WS. If we add it, we stop being able to use ZapStore's already created events. We could
-use the "**App/Release/Asset Registration**" path to get the application id if it's not available in the
-**Asset Registration** event, but having 2 ways to get the same information don't seem like a good idea.
