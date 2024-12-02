@@ -155,6 +155,9 @@ exclude:
   - vendor
   - resSources
   - scripts
+  - "refresh*.mjs"
+  - google-play-scraper
+  - src
   - src
   - /*.sh
   - /*.mjs
