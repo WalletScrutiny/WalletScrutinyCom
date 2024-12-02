@@ -2139,6 +2139,17 @@
     "version": "0.40.0",
     "verdict": "reproducible",
     "appHashes": [
+      "6f320245b3638cb00e90305a29318e15d8c10b76a84dc686f5331d9393929ba7"
+    ],
+    "date": "2024-10-11",
+    "platform": "android"
+  },
+  {
+    "appId": "io.horizontalsystems.bankwallet",
+    "signer": "c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b",
+    "version": "0.40.0",
+    "verdict": "reproducible",
+    "appHashes": [
       "f5db836de54c5fd4bcc6819871edf7e5dd1d7ab8fb81c5e1bdcf3c16ab3534ad"
     ],
     "date": "2024-10-09",
@@ -2675,12 +2686,12 @@
   {
     "appId": "io.horizontalsystems.bankwallet",
     "signer": "c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b",
-    "version": "0.40.1",
+    "version": "0.41.0",
     "verdict": "reproducible",
     "appHashes": [
-      "6f320245b3638cb00e90305a29318e15d8c10b76a84dc686f5331d9393929ba7"
+      "e2c29943e380d21a18abb4ebe33f8a5379bd662caff4073af9eab5731e04098a"
     ],
-    "date": "2024-10-11",
+    "date": "2024-11-28",
     "platform": "android"
   },
   {
