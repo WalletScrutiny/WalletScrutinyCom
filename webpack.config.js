@@ -3,15 +3,23 @@ const TerserPlugin = require('terser-webpack-plugin');
 const WebpackShellPluginNext = require('webpack-shell-plugin-next');
 
 module.exports = {
-  devtool: 'source-map', 
+  devtool: 'source-map',
   entry: {
     jquery: [
       './assets/js/_main.js',
       './assets/js/plugins/jquery.fitvids.js',
       './assets/js/plugins/jquery.greedy-navigation.js'
     ],
-    dragAndDrop: './src/drag-and-drop.js',
-    blossom: './src/blossom.js',
+    dragAndDrop: [
+      './src/drag-and-drop-utils.js',
+      './src/blossom.js',
+      './src/blossom-utils.js',
+      './src/drag-and-drop.js'
+    ],
+    attestation: [
+      './src/attestation_utils.mjs',
+      './src/assets-table.js'
+    ]
   },
   output: {
     filename: '[name].bundle.min.js',
@@ -23,8 +31,8 @@ module.exports = {
       zlib: require.resolve('browserify-zlib'),
       util: require.resolve('util/'),
       stream: require.resolve('stream-browserify'),
-      assert: require.resolve('assert'), 
-      process: require.resolve('process/browser'), 
+      assert: require.resolve('assert'),
+      process: require.resolve('process/browser'),
     },
   },
   module: {
