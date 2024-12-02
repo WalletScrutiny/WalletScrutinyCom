@@ -8,7 +8,8 @@ module.exports = {
       './assets/js/_main.js',
       './assets/js/plugins/jquery.fitvids.js',
       './assets/js/plugins/jquery.greedy-navigation.js'
-    ]
+    ],
+    nostr: './src/nostr-test.js'
   },
   output: {
     filename: '[name].bundle.min.js',

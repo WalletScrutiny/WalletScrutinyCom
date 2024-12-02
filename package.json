@@ -48,6 +48,7 @@
     "brotlifyOthers": "npx brotli-cli compress -q 10 --glob \"_site/*.html\" --glob \"_site/**/*.{js,css,json,ttf,svg,eot,cast}\""
   },
   "dependencies": {
+    "@nostr-dev-kit/ndk": "^2.10.7",
     "jquery": "^3.7.1"
   }
 }
