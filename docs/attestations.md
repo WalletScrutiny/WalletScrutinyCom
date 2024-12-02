@@ -43,6 +43,7 @@ Trust in attestations is built through:
   "id":      "<asset-event-id>",
   "kind":    1063,
   "tags":    [
+    ["i",        "app.zeusln.zeus"],
     ["url",      "https://example.com/wallet-1.2.3.deb"],
     ["version",  "1.2.3"],
     ["m",        "application/vnd.android.package-archive"],
