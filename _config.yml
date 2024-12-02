@@ -153,6 +153,7 @@ exclude:
   - scripts
   - "refresh*.mjs"
   - google-play-scraper
+  - src
 keep_files:
   - .git
 encoding: "utf-8"
