@@ -1,5 +1,5 @@
 //SET VARIABLES AND DOM OBJECTS + EVENTS NEEDED LATER - bug fix 2
-const paginationLimit = 120
+const paginationLimit = 12
 let hasRedirected = false
 window.blockScrollingFocus = false
 window.verdictCount = {}
@@ -328,7 +328,9 @@ window.addEventListener("load", () => {
 });
 window.queryStringTimeout = false
 document.querySelector(".query-string").addEventListener("input", () => {
-  if (isInitializing) return
+  if (isInitializing) {
+    return;
+  }
   clearTimeout(window.queryStringTimeout)
   window.queryStringTimeout = setTimeout(() => {
     const queryRaw = document.querySelector(".query-string").value.length > 0 ? encodeURI(document.querySelector(".query-string").value) : ""
