@@ -20,7 +20,7 @@ permalink: /binaries/
 
     const table = document.createElement('table');
     const headerRow = document.createElement('tr');
-    headerRow.innerHTML = '<th style="text-align: center;">Name</th><th style="text-align: center;">SHA256</th><th style="text-align: center;">Created At</th>';
+    headerRow.innerHTML = '<th style="text-align: center;">Wallet</th><th style="text-align: center;">Description</th><th style="text-align: center;">SHA256</th><th style="text-align: center;">Created At</th>';
     table.appendChild(headerRow);
 
     sortedBinaries.forEach(binary => {
@@ -36,7 +36,12 @@ permalink: /binaries/
       const sha256Hash = binary.tags.find(tag => tag[0] === 'x')?.[1] || '';
       const truncatedHash = `${sha256Hash.slice(0,4)}...${sha256Hash.slice(-4)}`;
       
+      const identifier = binary.tags.find(tag => tag[0] === 'i')?.[1] || binary.pubkey;
+
+      console.log('window.wallets', window.wallets);
+      
       row.innerHTML = `
+        <td>${identifier}</td>
         <td>${binary.content}</td>
         <td>
           <span>${truncatedHash}</span>
