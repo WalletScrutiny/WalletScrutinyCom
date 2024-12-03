@@ -307,8 +307,6 @@ for more details.
 + '[' false = true ']'
 ```
 
-{% include diffoscope-modal.html label='Diffoscope between built and official apks' url='/assets/diffoscope-results/android/com.greenaddress.greenbits_android_wallet/diffo-com.greenaddress.greenbits_android_wallet_v22000439.html' manifestUrl='/assets/diffoscope-results/android/com.greenaddress.greenbits_android_wallet/diffo-com.greenaddress.greenbits_android_wallet_v22000439.html' %}
-
 Version 4.1.0 of {{ page.title }} is **reproducible**. 
 
 
