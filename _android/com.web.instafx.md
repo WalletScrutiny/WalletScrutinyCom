@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.web.instafx.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2023-12-21
+date: 2024-12-04
 signer: 
 reviewArchive: 
 twitter: 

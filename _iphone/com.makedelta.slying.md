@@ -11,7 +11,7 @@ released: 2021-08-15
 updated: 2024-10-03
 version: 8.0.4
 stars: 4.7
-reviews: 120
+reviews: 121
 size: '69179392'
 website: https://traderkat.io/
 repository: 

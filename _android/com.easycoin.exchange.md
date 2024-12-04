@@ -12,7 +12,7 @@ updated: 2023-07-07
 version: 1.0.76
 stars: 5
 ratings: 
-reviews: 33
+reviews: 32
 size: 
 website: https://www.easycoins.com/
 repository: 

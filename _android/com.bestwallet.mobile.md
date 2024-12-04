@@ -12,7 +12,7 @@ updated: 2024-10-15
 version: 2.3.1
 stars: 4.6
 ratings: 
-reviews: 131
+reviews: 137
 size: 
 website: https://www.bestwallet.com
 repository: 
@@ -32,7 +32,7 @@ social:
 - https://www.tiktok.com/@bestwalletofficial
 - https://www.instagram.com/bestwallethq
 redirect_from: 
-developerName: BEST WALLET
+developerName: BEST WALLET EOOD
 features: 
 
 ---

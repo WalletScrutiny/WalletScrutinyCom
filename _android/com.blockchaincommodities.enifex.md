@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.blockchaincommodities.enifex.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-12-13
+date: 2024-12-04
 signer: 
 reviewArchive: 
 twitter: 

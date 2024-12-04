@@ -8,8 +8,8 @@ appId: io.coinweb.wallet
 appCountry: us
 idd: '6443891261'
 released: 2023-05-04
-updated: 2024-10-02
-version: 1.1.0
+updated: 2024-12-03
+version: 1.1.1
 stars: 4
 reviews: 4
 size: '57228288'

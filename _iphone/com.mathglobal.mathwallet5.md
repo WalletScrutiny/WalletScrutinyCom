@@ -11,7 +11,7 @@ released: 2021-08-30
 updated: 2024-11-14
 version: 5.4.0
 stars: 3.6
-reviews: 39
+reviews: 40
 size: '82826240'
 website: https://www.mathwallet.org
 repository: 

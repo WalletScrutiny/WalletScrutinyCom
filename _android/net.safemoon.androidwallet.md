@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: net.safemoon.androidwallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-02-13
+date: 2024-12-04
 signer: 
 reviewArchive: 
 twitter: safemoon

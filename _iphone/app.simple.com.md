@@ -11,7 +11,7 @@ released: 2022-05-06
 updated: 2024-11-21
 version: 3.4.1
 stars: 4.9
-reviews: 185
+reviews: 187
 size: '170006528'
 website: https://simple.app/
 repository: 

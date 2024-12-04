@@ -8,11 +8,11 @@ appId: com.bydfi.app
 appCountry: us
 idd: '6444251506'
 released: 2023-02-09
-updated: 2024-11-27
-version: V3.5.7
+updated: 2024-12-02
+version: V3.5.8
 stars: 4.6
-reviews: 619
-size: '238101504'
+reviews: 631
+size: '238217216'
 website: https://www.bydfi.com/
 repository: 
 issue: 

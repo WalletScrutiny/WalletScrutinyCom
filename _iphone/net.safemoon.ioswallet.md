@@ -11,16 +11,16 @@ released: 2021-10-06
 updated: 2023-12-06
 version: '3.54'
 stars: 4.8
-reviews: 14638
+reviews: 14640
 size: '144665600'
 website: https://safemoon.com/
 repository: 
 issue: 
 icon: net.safemoon.ioswallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-03-23
+date: 2024-12-04
 signer: 
 reviewArchive: 
 twitter: safemoon

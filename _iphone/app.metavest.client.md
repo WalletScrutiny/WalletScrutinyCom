@@ -1,6 +1,6 @@
 ---
 wsId: metavestCryptoBank
-title: 'Metavest: Crypto Bank & Wallet'
+title: 'Metavest: AI Crypto Portfolio'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: app.metavest.client
 appCountry: ph
 idd: '1622578169'
 released: 2022-07-28
-updated: 2024-10-11
-version: 3.0.1
+updated: 2024-12-01
+version: 3.1.0
 stars: 0
 reviews: 0
-size: '48897024'
+size: '48929792'
 website: https://metavest.app/affiliate
 repository: 
 issue: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.geodb.wallace.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
-date: 2024-09-04
+date: 2024-12-04
 signer: 
 reviewArchive: 
 twitter: 

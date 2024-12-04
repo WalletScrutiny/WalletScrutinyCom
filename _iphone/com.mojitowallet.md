@@ -8,11 +8,11 @@ appId: com.mojitowallet
 appCountry: us
 idd: '1620691992'
 released: 2022-07-15
-updated: 2024-07-24
-version: 0.3.2
+updated: 2024-12-03
+version: 0.3.3
 stars: 5
 reviews: 7
-size: '51167232'
+size: '50921472'
 website: https://www.mintlayer.org/
 repository: 
 issue: 

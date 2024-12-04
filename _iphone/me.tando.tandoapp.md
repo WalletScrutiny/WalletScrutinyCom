@@ -6,7 +6,7 @@ authors:
 appId: me.tando.tandoapp
 appCountry: us
 idd: '6584531359'
-released: '2024-10-28T07:00:00Z'
+released: 2024-10-28
 updated: 2024-11-29
 version: 1.1.7
 stars: 0

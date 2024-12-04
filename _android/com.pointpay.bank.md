@@ -8,8 +8,8 @@ users: 100000
 appId: com.pointpay.bank
 appCountry: 
 released: 2020-07-21
-updated: 2024-11-06
-version: 8.8.36
+updated: 2024-11-27
+version: 8.8.37
 stars: 4.1
 ratings: 3831
 reviews: 137

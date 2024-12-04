@@ -12,7 +12,7 @@ updated: 2024-11-28
 version: 5.0.3
 stars: 3.5
 ratings: 151
-reviews: 207
+reviews: 209
 size: 
 website: https://coinunited.io/
 repository: 

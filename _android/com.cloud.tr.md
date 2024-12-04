@@ -8,11 +8,11 @@ users: 5000000
 appId: com.cloud.tr
 appCountry: tr
 released: 2021-07-16
-updated: 2024-11-28
+updated: 2024-12-02
 version: 2.10.1
 stars: 4.8
 ratings: 42784
-reviews: 17436
+reviews: 17518
 size: 
 website: https://www.trbinance.com/
 repository: 

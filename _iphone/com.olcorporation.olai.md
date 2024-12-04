@@ -8,11 +8,11 @@ appId: com.olcorporation.olai
 appCountry: us
 idd: '1450480822'
 released: 2019-07-31
-updated: 2024-11-13
-version: 11.3.1
+updated: 2024-11-30
+version: 11.3.2
 stars: 4.7
-reviews: 6523
-size: '276494336'
+reviews: 6540
+size: '277168128'
 website: https://imem.app/
 repository: 
 issue: 

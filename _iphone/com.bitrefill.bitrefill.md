@@ -11,7 +11,7 @@ released: 2018-06-05
 updated: 2024-11-24
 version: 2.4.0
 stars: 4.7
-reviews: 287
+reviews: 288
 size: '66618368'
 website: https://www.bitrefill.com
 repository: 

@@ -4,15 +4,15 @@ title: 'BTSE: Buy & Sell Crypto'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.btse.finance
 appCountry: ng
 released: 2020-11-30
-updated: 2024-11-22
-version: 1.91.0
-stars: 4.5
+updated: 2024-11-30
+version: 1.91.1
+stars: 4.3
 ratings: 62
-reviews: 42
+reviews: 45
 size: 
 website: https://btse.com
 repository: 

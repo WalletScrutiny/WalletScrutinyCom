@@ -8,10 +8,10 @@ appId: com.btckorea.bithumb
 appCountry: kr
 idd: 1299421592
 released: 2017-12-05
-updated: 2024-11-28
-version: 2.5.8
-stars: 1.9
-reviews: 3135
+updated: 2024-12-04
+version: 2.6.0
+stars: 2
+reviews: 3182
 size: '299821056'
 website: https://en.bithumb.com
 repository: 

@@ -11,7 +11,7 @@ released: 2018-03-26
 updated: 2024-11-07
 version: '11.0'
 stars: 4.2
-reviews: 928
+reviews: 929
 size: '95361024'
 website: https://choise.com/
 repository: 

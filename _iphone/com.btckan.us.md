@@ -8,11 +8,11 @@ appId: com.btckan.us
 appCountry: us
 idd: 1004852205
 released: 2015-06-24
-updated: 2024-10-29
-version: 8.23.6
+updated: 2024-12-03
+version: 8.26.0
 stars: 3.5
 reviews: 40
-size: '149103616'
+size: '169486336'
 website: https://bitkan.com/
 repository: 
 issue: 
