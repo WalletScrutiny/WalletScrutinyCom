@@ -32,6 +32,13 @@ const validateUrl = function(url) {
   }
 }
 
+const getNostrProfile = async function (pubkey) {
+  const user = ndk.getUser({ pubkey });
+  await user.fetchProfile();
+
+  return user.profile;
+}
+
 const getAttestators = async function () {
   console.debug("Getting attestators from Nostr");
 
@@ -103,6 +110,7 @@ const createAttestation = async function ({sha256, content, status, assetEventId
   }
 
   await ndk.connect(connectTimeout);
+  await new Promise(resolve => setTimeout(resolve, 5000));
 
   const ndkEvent = new NDKEvent(ndk);
   ndkEvent.kind = attestationKind;
@@ -136,6 +144,7 @@ const createEndorsement = async function ({sha256, content, result, attestationE
   }
 
   await ndk.connect(connectTimeout);
+  await new Promise(resolve => setTimeout(resolve, 5000));
 
   const ndkEvent = new NDKEvent(ndk);
   ndkEvent.kind = endorsementKind;
@@ -271,6 +280,7 @@ const getAttestationInfoLastMonths = async function(months = 6) {
   };
 }
 
+window.getNostrProfile = getNostrProfile;
 window.getBinariesWithSHA256 = getBinariesWithSHA256;
 window.getBinaries = getBinaries;
 window.createAssetRegistration = createAssetRegistration;
@@ -279,6 +289,7 @@ window.createEndorsement = createEndorsement;
 window.getAttestationInfoLastMonths = getAttestationInfoLastMonths;
 
 export {
+  getNostrProfile,
   getBinariesWithSHA256,
   getAttestationInfoForAppId,
   createAssetRegistration,
