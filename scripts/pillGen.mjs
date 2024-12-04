@@ -28,19 +28,20 @@ registerFont('assets/fonts/Barlow/barlow-v12-latin-500.ttf', { family: 'Barlow' 
 // Timer variables for progress tracking
 let totalFiles = 0;
 let processedFiles = 0;
+let skippedFiles = 0;
 const startTime = Date.now();
 
 // Progress Tracking Function
 async function showProgress() {
     const i = setInterval(() => {
         const elapsed = (Date.now() - startTime) / 1000;
-        const remaining = totalFiles - processedFiles;
+        const remaining = totalFiles - (processedFiles + skippedFiles);
         const rate = processedFiles / elapsed;
-        console.log(`${elapsed.toFixed(1)}s: ${remaining} files remaining, processed ${processedFiles} at ${rate.toFixed(1)} files/s`);
+        console.log(`${elapsed.toFixed(1)}s: ${remaining} files remaining, processed ${processedFiles}, skipped ${skippedFiles} at ${rate.toFixed(1)} files/s`);
         
-        if (processedFiles >= totalFiles) {
+        if (processedFiles + skippedFiles >= totalFiles) {
             clearInterval(i);
-            console.log(`Finished in ${elapsed.toFixed(1)}s`);
+            console.log(`Finished in ${elapsed.toFixed(1)}s. Total processed: ${processedFiles}, skipped: ${skippedFiles}`);
         }
     }, 5000);
 }
@@ -110,6 +111,16 @@ function drawPill(verdict) {
     return canvas;
 }
 
+// Constants for verdicts
+const REPRODUCIBLE_YES = 'reproducible';
+const REPRODUCIBLE_NO = ['nonverifiable', 'ftbfs', 'obfuscated'];
+const EXCLUDED_VERDICTS = [
+    'diy', 'custodial', 'nosendreceive', 'nosource',
+    'fewusers', 'vapor', 'unreleased', 'nobtc',
+    'nowallet', 'fake', 'wip', 'prefilled', 'noita',
+    'plainkey', 'sealed-noita', 'sealed-plainkey'
+];
+
 async function processOneFile(platform, mdFilesPath, file) {
     const filePath = path.join(mdFilesPath, file);
     const content = await fsp.readFile(filePath, 'utf8');
@@ -117,13 +128,33 @@ async function processOneFile(platform, mdFilesPath, file) {
     // Extract front matter
     const frontMatterMatch = content.match(/^---\n([\s\S]*?)\n---/);
     if (!frontMatterMatch) {
-        console.log(`No front matter found in ${file}`);
+        skippedFiles++;
         return;
     }
     
     const frontMatter = yaml.load(frontMatterMatch[1]);
     if (!frontMatter || !frontMatter.verdict) {
-        console.log(`No verdict found in ${file}`);
+        skippedFiles++;
+        return;
+    }
+
+    // Check meta status first
+    if (!frontMatter.meta || frontMatter.meta !== 'ok') {
+        skippedFiles++;
+        return;
+    }
+
+    const verdict = frontMatter.verdict;
+
+    // Check if verdict is in exclusion list
+    if (EXCLUDED_VERDICTS.includes(verdict)) {
+        skippedFiles++;
+        return;
+    }
+
+    // Only proceed if verdict is reproducible or in REPRODUCIBLE_NO list
+    if (verdict !== REPRODUCIBLE_YES && !REPRODUCIBLE_NO.includes(verdict)) {
+        skippedFiles++;
         return;
     }
     
@@ -136,12 +167,12 @@ async function processOneFile(platform, mdFilesPath, file) {
     await fsp.mkdir(outputDir, { recursive: true });
     
     // Generate and save the pill image
-    const canvas = drawPill(frontMatter.verdict);
+    const canvas = drawPill(verdict);
     const buffer = canvas.toBuffer('image/png');
     await fsp.writeFile(outputPath, buffer);
     
     processedFiles++;
-    console.log(`Generated pill for ${file} with verdict: ${frontMatter.verdict}`);
+    console.log(`Generated pill for ${file}`);
 }
 
 async function processFiles() {
