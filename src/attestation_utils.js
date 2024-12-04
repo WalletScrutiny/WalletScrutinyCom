@@ -1,8 +1,10 @@
 import NDK, {NDKEvent, NDKNip07Signer, NDKPublishError} from "@nostr-dev-kit/ndk";
 
-const assetRegistrationKind = 10630; // 1063
+const assetRegistrationKind = 106300; // 1063
 const attestationKind = 303010; // 30301
 const endorsementKind = 303020; // 30302
+
+const connectTimeout = 2000;
 
 const nip07signer = new NDKNip07Signer();
 const ndk = new NDK({
@@ -60,8 +62,9 @@ const createAssetRegistration = async function ({
     throw new Error("Missing required parameters");
   }
 
-  await ndk.connect();
-
+  await ndk.connect(connectTimeout);
+  await new Promise(resolve => setTimeout(resolve, 5000));
+  
   const ndkEvent = new NDKEvent(ndk);
   ndkEvent.kind = assetRegistrationKind;
   ndkEvent.content = name;
@@ -99,7 +102,7 @@ const createAttestation = async function ({sha256, content, status, assetEventId
     throw new Error("Missing required parameters");
   }
 
-  await ndk.connect();
+  await ndk.connect(connectTimeout);
 
   const ndkEvent = new NDKEvent(ndk);
   ndkEvent.kind = attestationKind;
@@ -132,7 +135,7 @@ const createEndorsement = async function ({sha256, content, result, attestationE
     throw new Error("Missing required parameters");
   }
 
-  await ndk.connect();
+  await ndk.connect(connectTimeout);
 
   const ndkEvent = new NDKEvent(ndk);
   ndkEvent.kind = endorsementKind;
@@ -160,7 +163,7 @@ const createEndorsement = async function ({sha256, content, result, attestationE
 const getBinariesWithSHA256 = async function (sha256) {
   console.debug("Getting binaries for: ", sha256);
 
-  await ndk.connect();
+  await ndk.connect(connectTimeout);
 
   const binaries = await ndk.fetchEvents({
     kinds: [assetRegistrationKind],
@@ -176,7 +179,7 @@ const getBinariesWithSHA256 = async function (sha256) {
 const getBinaries = async function (limit = 10) {
   console.debug(`Getting last ${limit} binaries`);
 
-  await ndk.connect();
+  await ndk.connect(connectTimeout);
 
   const binaries = await ndk.fetchEvents({
     kinds: [assetRegistrationKind],
@@ -196,7 +199,7 @@ const getBinaries = async function (limit = 10) {
 const getAttestationInfoForAppId = async function (appId, assetLimit = 10) {
   console.debug("Getting attestation info for: ", appId);
 
-  await ndk.connect();
+  await ndk.connect(connectTimeout);
 
   const binaries = await ndk.fetchEvents({
     kinds: [assetRegistrationKind],
@@ -241,7 +244,7 @@ const getTimestampMonthsAgo = function(months = 6) {
 const getAttestationInfoLastMonths = async function(months = 6) {
   console.debug(`Getting events from last ${months} months`);
 
-  await ndk.connect();
+  await ndk.connect(connectTimeout);
 
   const events = await ndk.fetchEvents({
     kinds: [assetRegistrationKind, attestationKind, endorsementKind],
@@ -251,7 +254,6 @@ const getAttestationInfoLastMonths = async function(months = 6) {
   const attestationsMap = new Map();
   const attestations = Array.from(events).filter(event => event.kind === attestationKind);
   
-  // Convertir el array de attestations en un Map usando sha256 como clave
   attestations.forEach(attestation => {
     const sha256 = getFirstTag(attestation, 'x');
     if (sha256) {
