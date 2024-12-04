@@ -8,7 +8,7 @@ permalink: /binaries/
 
 <style>
   .markdown-content {
-    padding: 10px;
+    padding: 0;
     overflow-wrap: break-word;
   }
   .markdown-content code {
@@ -38,12 +38,36 @@ permalink: /binaries/
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   }
+  .profile-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+  }
+  .profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .profile-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .profile-nip05 {
+    font-size: 0.9em;
+    color: #666;
+  }
+  #attestationContent p {
+    margin-top: 0.4em;
+    margin-bottom: 0em;
+  }
 </style>
 
 <div id="binariesTable"></div>
 
-<div id="attestationModal" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%); padding:20px; border:1px solid var(--border-color); z-index:1000;" class="modal-theme">
-  <span id="closeModal" style="cursor:pointer; position:absolute; top:10px; right:10px;">&times;</span>
+<div id="attestationModal" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%); padding:20px; padding-top:5px; border:1px solid var(--border-color); z-index:1000;" class="modal-theme">
+  <span id="closeModal" style="cursor:pointer; position:absolute; top:10px; right:10px; font-size: 24px;">&times;</span>
   <div id="attestationContent"></div>
 </div>
 
@@ -58,7 +82,7 @@ permalink: /binaries/
     document.getElementById('loadingSpinner').style.display = 'block';
 
     const response = await getAttestationInfoLastMonths();
-    console.log('**** response', response);
+    // console.log('**** response', response);
 
     document.getElementById('loadingSpinner').style.display = 'none';
 
@@ -111,17 +135,15 @@ permalink: /binaries/
             minute: '2-digit'
           });
 
-          attestationInfo = {
-            content: attestation.content,
-            created_at: attestation.created_at,
-            status: attestation.tags.find(tag => tag[0] === 'status')?.[1] || ''
-          };
+          const status = attestation.tags.find(tag => tag[0] === 'status')?.[1] || '';
 
-          listItems += `<li onclick='showAttestationModal(${JSON.stringify(attestationInfo)})' style="cursor: pointer;">
-            ${attestationDate}
+          const statusIcon = status === 'reproducible' ? '✅' : '❌';
+
+          listItems += `<li onclick='showAttestationModal("${sha256Hash}", "${attestation.id}")' style="cursor: pointer;">
+            ${attestationDate} <span style="margin: 0 8px;">${statusIcon}</span>
           </li>`;
         }
-        attestationList = `<ul style="font-size: smaller;">${listItems}</ul>`;
+        attestationList = `<ul>${listItems}</ul>`;
       } else {
         attestationList = `No attestations yet - <a href="/attest" target="_blank" rel="noopener noreferrer">do it yourself</a>`;
       }
@@ -150,22 +172,73 @@ permalink: /binaries/
     });
 
     document.getElementById('binariesTable').appendChild(table);
+    
+    // Add spacer div after table
+    const spacer = document.createElement('div');
+    spacer.style.height = '200px';  // Ajusta esta altura según necesites
+    document.getElementById('binariesTable').appendChild(spacer);
 
-    window.showAttestationModal = function(attestation) {
+    window.showAttestationModal = async function(sha256Hash, attestationId) {
+      const attestations = response.attestations.get(sha256Hash);
+      const attestation  = attestations.find(a => a.id === attestationId);
+      const otherAttestationsBySamePubkey = attestations.filter(a => (a.pubkey === attestation.pubkey && a.id !== attestationId));
+
+      const status = attestation.tags.find(tag => tag[0] === 'status')?.[1] || '';
+
       const modal = document.getElementById('attestationModal');
       const content = document.getElementById('attestationContent');
       
       modal.style.background = window.theme === 'dark' ? '#2d2d2d' : 'white';
       modal.style.color = window.theme === 'dark' ? 'white' : 'black';
+
+      let otherAttestationsHTML = '';
+      if (otherAttestationsBySamePubkey.length > 0) {
+        for (const otherAttestation of otherAttestationsBySamePubkey) {
+          const attestationDate = new Date(otherAttestation.created_at * 1000).toLocaleDateString(navigator.language, {
+            year: 'numeric',
+            month: 'short',
+            day: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit'
+          });
+
+          const status = otherAttestation.tags.find(tag => tag[0] === 'status')?.[1] || '';
+
+          const statusIcon = status === 'reproducible' ? '✅' : '❌';
+
+          otherAttestationsHTML += `<li>
+            ${attestationDate} <span style="margin: 0 8px;">${statusIcon}</span>
+          </li>`;
+        }
+        otherAttestationsHTML = `<ul>${otherAttestationsHTML}</ul>`;
+      }
       
       content.innerHTML = `
+        <p><strong>Attempt by:</strong> <span id="attempt-by">${attestation.pubkey}</span></p>
         <p><strong>Created At:</strong> ${new Date(attestation.created_at * 1000).toLocaleString()}</p>
-        <p><strong>Status: </strong> ${attestation.status}</p>
+        <p><strong>Status: </strong> ${status} ${status === 'reproducible' ? '✅' : '❌'}</p>
         <p><strong>Information:</strong>
           <div class="markdown-content">${marked.parse(attestation.content)}</div>
-        </p>         
+        </p>
       `;
+
+      if (otherAttestationsHTML !== '') {
+        content.innerHTML += `<p><strong>Other attempts by this user:</strong> ${otherAttestationsHTML}</p>`;
+      }
+
       modal.style.display = 'block';
+
+      const profile = await getNostrProfile(attestation.pubkey);
+      
+      document.getElementById('attempt-by').innerHTML = `
+        <div class="profile-card">
+          ${profile.image ? `<img src="${profile.image}" class="profile-image" onerror="this.style.display='none'"/>` : ''}
+          <div class="profile-info">
+            <div>${profile.name || attestation.pubkey}</div>
+            ${profile.nip05 ? `<div class="profile-nip05">${profile.nip05}</div>` : ''}
+          </div>
+        </div>
+      `;
     };
 
     document.getElementById('closeModal').onclick = function() {
