@@ -10,9 +10,10 @@ permalink: /binaries/
 
 <script>
   (async () => {
-    const response = await getBinaries(5);
+    const response = await getAttestationInfoLastMonths();
+    console.log('**** response', response);
 
-    const binaries = Array.from(response);
+    const binaries = Array.from(response.assets);
 
     const sortedBinaries = binaries.sort((a, b) => 
       new Date(b.created_at) - new Date(a.created_at)
@@ -20,7 +21,13 @@ permalink: /binaries/
 
     const table = document.createElement('table');
     const headerRow = document.createElement('tr');
-    headerRow.innerHTML = '<th style="text-align: center;">Wallet</th><th style="text-align: center;">Description</th><th style="text-align: center;">SHA256</th><th style="text-align: center;">Created At</th>';
+    headerRow.innerHTML = `
+      <th style="text-align: center;">Wallet</th>
+      <th style="text-align: center;">Description</th>
+      <th style="text-align: center;">SHA256</th>
+      <th style="text-align: center;">Attestations</th>
+      <th style="text-align: center;">Created At</th>
+    `;
     table.appendChild(headerRow);
 
     sortedBinaries.forEach(binary => {
@@ -36,12 +43,20 @@ permalink: /binaries/
       const sha256Hash = binary.tags.find(tag => tag[0] === 'x')?.[1] || '';
       const truncatedHash = `${sha256Hash.slice(0,4)}...${sha256Hash.slice(-4)}`;
       
-      const identifier = binary.tags.find(tag => tag[0] === 'i')?.[1] || binary.pubkey;
+      const identifier = binary.tags.find(tag => tag[0] === 'i')?.[1] || "";
 
       console.log('window.wallets', window.wallets);
       
+      const attestations = response.attestations.get(binary.tags.find(tag => tag[0] === 'x')?.[1]) || [];
+      const attestationList = attestations.map(attestation => attestation.content).join(', ');
+
+      const wallet = window.wallets.find(w => w.appId === identifier);
+      const walletTitle = wallet ? wallet.title : identifier;
+
       row.innerHTML = `
-        <td>${identifier}</td>
+        <td>
+          ${wallet ? `<a href="${wallet.url}" target="_blank" rel="noopener noreferrer">${walletTitle}</a>` : walletTitle}
+        </td>
         <td>${binary.content}</td>
         <td>
           <span>${truncatedHash}</span>
@@ -49,6 +64,7 @@ permalink: /binaries/
             📋
           </button>
         </td>
+        <td>${attestationList}</td>
         <td>${date}</td>
       `;
       table.appendChild(row);
