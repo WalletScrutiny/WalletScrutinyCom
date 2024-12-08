@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.paxful.wallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-05-14
+date: 2024-12-08
 signer: 
 reviewArchive: 
 twitter: paxful

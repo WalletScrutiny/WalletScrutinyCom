@@ -11,7 +11,7 @@ released: 2023-08-23
 updated: 2024-12-04
 version: 1.3.01
 stars: 3.9
-reviews: 15
+reviews: 14
 size: '135473152'
 website: https://uxuy.com/wallet
 repository: 

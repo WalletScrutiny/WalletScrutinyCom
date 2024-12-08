@@ -11,7 +11,7 @@ released: 2021-11-23
 updated: 2024-11-28
 version: 3.24.0
 stars: 4.8
-reviews: 12
+reviews: 13
 size: '112831488'
 website: https://www.buenbit.com/
 repository: 

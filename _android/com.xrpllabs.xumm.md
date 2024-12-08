@@ -10,9 +10,9 @@ appCountry:
 released: 2020-12-29
 updated: 2024-11-28
 version: 3.2.0
-stars: 5
+stars: 4.9
 ratings: 
-reviews: 459
+reviews: 472
 size: 
 website: https://xumm.app/
 repository: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: XummWallet
 social: 
 redirect_from: 
-developerName: XRPL Labs
+developerName: XRPL Labs (The Integrators BV)
 features: 
 
 ---

@@ -8,11 +8,11 @@ appId: com.afriex.afriex
 appCountry: us
 idd: 1492022568
 released: 2020-03-06
-updated: 2024-11-25
-version: 11.108.4
+updated: 2024-12-06
+version: 11.108.5
 stars: 4.8
 reviews: 8397
-size: '130827264'
+size: '130845696'
 website: https://afriexapp.com
 repository: 
 issue: 

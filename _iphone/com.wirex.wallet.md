@@ -8,11 +8,11 @@ appId: com.wirex.wallet
 appCountry: nz
 idd: 1594165139
 released: 2021-12-07
-updated: 2024-11-25
-version: 0.6.8
+updated: 2024-12-04
+version: 0.6.9
 stars: 4
 reviews: 9
-size: '90228736'
+size: '90306560'
 website: https://www.coca.xyz/
 repository: 
 issue: 

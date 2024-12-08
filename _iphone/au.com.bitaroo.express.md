@@ -10,8 +10,8 @@ idd: '6444825898'
 released: 2022-12-20
 updated: 2024-11-22
 version: 1.10.0
-stars: 4.9
-reviews: 8
+stars: 4.8
+reviews: 9
 size: '43926528'
 website: https://www.bitaroo.com.au/
 repository: 

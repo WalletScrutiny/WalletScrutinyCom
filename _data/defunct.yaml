@@ -1,24 +1,3 @@
-2024-11-21:
-- _android/com.cloud.blockfinex
-- _android/com.cloud.xmeta
-- _android/com.crypto.croytowallet
-- _android/mudra.exchange
-- _android/us.atayen.ihave
-- _iphone/cash.usdx.wallet
-- _iphone/com.c2c.B.V.Crypto2Cash
-- _iphone/com.coininn.yykik
-- _iphone/net.stasis.mobile
-2024-11-22:
-- _android/com.ex.rbul
-- _android/com.ixwallet.app
-- _android/io.android.titanwallet
-- _android/io.bytedex.mobile.tr
-- _android/io.rubix.exchange
-- _iphone/com.brave-corporation.brave-pay
-- _iphone/com.pandats.axia
-2024-11-23:
-- _android/ch.swissbitcoinpay.checkout
-- _iphone/com.paxful.wallet
 2024-11-25:
 - _android/com.vidulumwallet.app
 - _iphone/com.app.orbitnetwork
@@ -66,3 +45,16 @@
 - _iphone/com.bitoshi
 - _iphone/com.blockchain.exchangeapp
 - _iphone/com.g360s.SafeX
+2024-12-08:
+- _android/com.ataix.exchange
+- _android/com.capitalJ.onJuno
+- _android/com.newcurrency.coinstrunk.v1
+- _android/com.privateum.wallet
+- _android/com.stibits
+- _android/eu.cryptomerchant.pos
+- _android/io.bumoon.boo
+- _android/io.holduz.mobile
+- _android/me.coinbag
+- _android/org.app.barteos
+- _android/ru.borik.cryptomarket.android
+- _iphone/com.capitalJ.onJuno

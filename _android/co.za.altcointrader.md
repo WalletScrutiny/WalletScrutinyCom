@@ -12,7 +12,7 @@ updated: 2024-07-19
 version: 1.1.0
 stars: 3.1
 ratings: 835
-reviews: 7
+reviews: 8
 size: 
 website: https://www.altcointrader.co.za/
 repository: 

@@ -11,7 +11,7 @@ released: 2019-05-21
 updated: 2024-12-03
 version: 4.9.0
 stars: 4.2
-reviews: 49
+reviews: 50
 size: '108680192'
 website: https://wallet.coinex.com/
 repository: 

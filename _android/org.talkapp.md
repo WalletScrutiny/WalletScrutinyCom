@@ -8,8 +8,8 @@ users: 1000
 appId: org.talkapp
 appCountry: 
 released: 2021-01-05
-updated: 2024-11-23
-version: 2.22.23
+updated: 2024-12-02
+version: 2.22.24
 stars: 3.3
 ratings: 
 reviews: 

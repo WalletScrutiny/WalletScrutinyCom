@@ -13,7 +13,7 @@ version: 3.3.7
 stars: 4.2
 reviews: 73
 size: '48429056'
-website: https://zam.io
+website: http://zam.io
 repository: 
 issue: 
 icon: zamzam.wallet.app.jpg
@@ -27,7 +27,7 @@ twitter: zam_io
 social:
 - https://www.linkedin.com/company/11770701
 features: 
-developerName: ZAMZAMTECHNOLOGY OU
+developerName: Zamio Limited MMC
 
 ---
 

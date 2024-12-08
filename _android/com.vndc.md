@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-03-07
 updated: 2024-12-01
 version: 5.8.9
-stars: 4.4
+stars: 4.3
 ratings: 46866
-reviews: 1140
+reviews: 1144
 size: 
 website: https://goonus.io
 repository: 

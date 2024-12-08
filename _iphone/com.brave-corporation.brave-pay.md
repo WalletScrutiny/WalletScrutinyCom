@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.brave-corporation.brave-pay.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2024-10-23
+date: 2024-12-08
 signer: 
 reviewArchive: 
 twitter: BraveCorporati1

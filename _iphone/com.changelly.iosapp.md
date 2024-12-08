@@ -11,7 +11,7 @@ released: 2019-10-04
 updated: 2024-12-02
 version: 2.46.0
 stars: 4.6
-reviews: 4829
+reviews: 4849
 size: '225883136'
 website: https://changelly.com
 repository: 

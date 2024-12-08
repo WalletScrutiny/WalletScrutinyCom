@@ -11,7 +11,7 @@ released: 2020-09-03
 updated: 2024-12-02
 version: 7.36.0
 stars: 4.7
-reviews: 61051
+reviews: 61288
 size: '68494336'
 website: https://metamask.io/
 repository: 

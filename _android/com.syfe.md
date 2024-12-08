@@ -1,6 +1,6 @@
 ---
 wsId: syfeInvest
-title: 'Syfe: Stay Invested'
+title: 'Syfe: Invest, Trade and Save'
 altTitle: 
 authors:
 - danny

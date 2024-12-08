@@ -12,7 +12,7 @@ updated: 2024-10-14
 version: 1.2.0.prod
 stars: 4.3
 ratings: 
-reviews: 35
+reviews: 36
 size: 
 website: 
 repository: 

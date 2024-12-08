@@ -8,11 +8,11 @@ users: 500000
 appId: com.prestolabs.android.prex
 appCountry: 
 released: 2022-11-18
-updated: 2024-11-28
+updated: 2024-12-05
 version: 1.83.1
 stars: 2.7
 ratings: 
-reviews: 58
+reviews: 59
 size: 
 website: https://flipster.io
 repository: 

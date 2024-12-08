@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.sparkwallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-09-06
+date: 2024-12-08
 signer: 
 reviewArchive: 
 twitter: sparkwalletapp

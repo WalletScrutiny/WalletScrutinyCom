@@ -13,7 +13,7 @@ updated: 2024-12-01
 version: 0.2.6
 stars: 4.6
 ratings: 
-reviews: 11
+reviews: 12
 size: 
 website: https://aquawallet.io
 repository: https://github.com/AquaWallet/aqua-wallet

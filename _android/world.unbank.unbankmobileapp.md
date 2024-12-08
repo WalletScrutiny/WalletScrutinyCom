@@ -12,7 +12,7 @@ updated: 2024-11-29
 version: 2.7.2
 stars: 4.4
 ratings: 
-reviews: 23
+reviews: 24
 size: 
 website: https://www.unbank.world/
 repository: 
@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/unbankworld
 - https://www.instagram.com/unbankworld
 redirect_from: 
-developerName: Unbank.com
+developerName: Kalbas, Inc.
 features: 
 
 ---

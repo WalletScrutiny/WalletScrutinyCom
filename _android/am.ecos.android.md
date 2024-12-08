@@ -12,7 +12,7 @@ updated: 2024-12-02
 version: 2.1.1
 stars: 2.2
 ratings: 377
-reviews: 179
+reviews: 180
 size: 
 website: https://ecos.am
 repository: 

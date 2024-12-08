@@ -9,10 +9,10 @@ appId: com.uphold.wallet
 appCountry: 
 released: 2015-12-29
 updated: 2024-11-29
-version: 6.15.1
+version: 6.16.0
 stars: 4.6
 ratings: 20716
-reviews: 6447
+reviews: 6483
 size: 
 website: https://uphold.com
 repository: 

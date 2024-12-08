@@ -3,7 +3,7 @@ wsId:
 title: Ctrl Wallet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: xyz.ctrl.wallet
 appCountry: 
 released: 
@@ -19,7 +19,7 @@ issue:
 icon: xyz.ctrl.wallet.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2024-09-24
 signer: 
 reviewArchive: 

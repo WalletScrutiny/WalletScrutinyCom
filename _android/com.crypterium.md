@@ -10,9 +10,9 @@ appCountry:
 released: 2018-01-21
 updated: 2024-11-22
 version: '11.2'
-stars: 3.5
+stars: 3.4
 ratings: 8728
-reviews: 428
+reviews: 429
 size: 
 website: https://choise.com
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: coinme
-title: 'Coinme: Buy Bitcoin & Crypto'
+title: 'Coinme: Buy Bitcoin & Dogecoin'
 altTitle: 
 authors:
 - danny
@@ -12,7 +12,7 @@ updated: 2024-11-12
 version: 3.0.6
 stars: 4.1
 ratings: 782
-reviews: 959
+reviews: 962
 size: 
 website: https://www.coinme.com
 repository: 

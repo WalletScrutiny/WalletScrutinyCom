@@ -8,8 +8,8 @@ appId: com.wallet.crypto.btc.eth
 appCountry: us
 idd: '6451146325'
 released: 2023-10-02
-updated: 2024-11-16
-version: 1.3.6
+updated: 2024-12-04
+version: 1.3.7
 stars: 2.5
 reviews: 2
 size: '123758592'

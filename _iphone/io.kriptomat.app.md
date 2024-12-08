@@ -11,7 +11,7 @@ released: 2018-12-20
 updated: 2024-10-11
 version: 5.5.0
 stars: 4.1
-reviews: 77
+reviews: 78
 size: '65757184'
 website: https://kriptomat.io
 repository: 

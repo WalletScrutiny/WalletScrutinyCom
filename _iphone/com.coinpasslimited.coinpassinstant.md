@@ -8,11 +8,11 @@ appId: com.coinpasslimited.coinpassinstant
 appCountry: gb
 idd: '1530358553'
 released: 2020-11-20
-updated: 2024-10-25
-version: 3.1.2
+updated: 2024-12-06
+version: 3.2.0
 stars: 3.3
 reviews: 19
-size: '61401088'
+size: '60727296'
 website: https://coinpass.com/
 repository: 
 issue: 

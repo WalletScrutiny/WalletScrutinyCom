@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
-developerName: Safe3 UAB
+developerName: Avelot Limited
 
 ---
 

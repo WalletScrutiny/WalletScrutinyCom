@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.yykj.bitfree.en.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-12-13
+date: 2024-12-08
 signer: 
 reviewArchive: 
 twitter: bitfree_us

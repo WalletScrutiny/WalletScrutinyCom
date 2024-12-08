@@ -1,6 +1,6 @@
 ---
 wsId: Coinmotion
-title: 'Coinmotion: Buy Bitcoin easily'
+title: 'Coinmotion: Buy Bitcoin Easily'
 altTitle: 
 authors:
 - danny
