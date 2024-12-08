@@ -26,7 +26,7 @@ icon: safepals1.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-07-07
+date: 2024-12-08
 signer: 
 reviewArchive: 
 twitter: iSafePal
@@ -34,6 +34,8 @@ social:
 features: 
 
 ---
+
+**Update 2024-12-08:** Years later, no change to the source availability was found.
 
 The SafePal S1 can generate seed phrases upon setup, display and sign transactions, and claims to have a "100% offline air-gapped signing mechanism."
 

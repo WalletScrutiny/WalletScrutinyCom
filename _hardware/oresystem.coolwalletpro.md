@@ -25,7 +25,7 @@ icon: oresystem.coolwalletpro.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2022-05-18
+date: 2024-12-08
 signer: 
 reviewArchive: 
 twitter: ORESystemNFT
@@ -34,6 +34,8 @@ social:
 features: 
 
 ---
+
+**Update 2024-12-08:** This product remains available and not verifiable.
 
 ## Background Information 
 

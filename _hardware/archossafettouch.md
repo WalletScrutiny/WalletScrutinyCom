@@ -22,9 +22,9 @@ repository:
 issue: 
 icon: archossafettouch.png
 bugbounty: 
-meta: ok
+meta: obsolete
 verdict: nosource
-date: 2021-08-22
+date: 2024-12-08
 signer: 
 reviewArchive: 
 twitter: ARCHOS
@@ -34,6 +34,9 @@ social:
 features: 
 
 ---
+
+**Update 2024-12-08:** The shop doesn't show the product anymore. The Twitter account
+is inactive ever since. This product is at the very least obsolete.
 
 After not so much success reviewing its predecessor
 {% include walletLink.html wallet='hardware/archossafetmini' verdict='true' %},

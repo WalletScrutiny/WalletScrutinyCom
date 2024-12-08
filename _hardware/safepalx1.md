@@ -25,7 +25,7 @@ icon: safepalx1.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2024-04-11
+date: 2024-12-08
 signer: 
 reviewArchive: 
 twitter: iSafePal
@@ -38,6 +38,8 @@ social:
 features: 
 
 ---
+
+**Update 2024-12-08:** While a code repository does show recent activity, issues do not get addressed by the provider, including no build instructions or confirmation that this repository is indeed what they claim to be the source of the hardware wallet's firmware.
 
 ## Update
 

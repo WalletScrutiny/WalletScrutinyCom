@@ -25,7 +25,7 @@ icon: ledgerNanoS.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-08-01
+date: 2024-12-08
 signer: 
 reviewArchive: 
 twitter: Ledger
@@ -39,6 +39,8 @@ social:
 features: 
 
 ---
+
+**Update 2024-12-08:** Ledger has not changed their take on source availability.
 
 Ledger has this to say about their technology:
 

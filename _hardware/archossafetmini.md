@@ -25,9 +25,9 @@ repository:
 issue: 
 icon: archossafetmini.png
 bugbounty: 
-meta: ok
+meta: obsolete
 verdict: nosource
-date: 2021-08-22
+date: 2024-12-08
 signer: 
 reviewArchive: 
 twitter: ARCHOS
@@ -37,6 +37,9 @@ social:
 features: 
 
 ---
+
+**Update 2024-12-08:** The shop doesn't show the product anymore. The Twitter account
+is inactive ever since. This product is at the very least obsolete.
 
 **Update 2021-08-22**: As there is no claims of open source and nobody replied
 to [our tweet](https://twitter.com/WalletScrutiny/status/1427064999663570944),
