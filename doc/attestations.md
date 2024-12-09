@@ -61,9 +61,9 @@ Trust in attestations is built through:
   "id":      "<attestation-event-id>",
   "kind":    30301,
   "tags":    [
-    ["d",            "<asset-event-id>"],
-    ["status",       "reproducible"]
-    ["x",        "deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe"],
+    ["d",       "<asset-event-id>"],
+    ["x",       "deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe"],
+    ["status",  "reproducible"]
   ],
   "content": "Detailed reproduction process and results. Markdown permitted"
 }
@@ -74,11 +74,11 @@ Trust in attestations is built through:
 {
   "kind":    30302,
   "tags":    [
-    ["d",      "<attestation-event-id>"],
-    ["x",      "deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe"],
-    ["result", "false"]
+    ["d",       "<attestation-event-id>"],
+    ["x",       "deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe"],
+    ["status",  "reproducible"]
   ],
-  "content": "I don't get the same result as the attester. Got differences in file xx and yy"
+  "content": "Brief summary of what happened when you tried to reproduce a specific attestation. No markdown permitted"
 }
 ```
 
