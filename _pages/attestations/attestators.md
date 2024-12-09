@@ -23,6 +23,7 @@ permalink: /attestators/
     align-items: center;
     gap: 10px;
     margin: 0;
+    padding: 6px;
   }
   .profile-image {
     width: 40px;
@@ -72,26 +73,40 @@ permalink: /attestators/
     response.attestations.forEach((attestationList, sha256) => {
       attestationList.forEach(attestation => {
         const pubkey = attestation.pubkey;
-        attestatorStats.set(pubkey, (attestatorStats.get(pubkey) || 0) + 1);
+
+        const currentStats = attestatorStats.get(pubkey) || {
+          attestations: 0,
+          endorsements: 0
+        };
+
+        currentStats.attestations += 1;
+
+        const endorsements = response.endorsements.get(attestation.id) || [];
+        const reproducibleEndorsements = endorsements.filter(endorsement => 
+          getFirstTag(endorsement, 'status6') === 'reproducible'
+        ).length;
+        currentStats.endorsements += reproducibleEndorsements;
+
+        attestatorStats.set(pubkey, currentStats);
       });
     });
 
     const sortedAttestators = Array.from(attestatorStats.entries())
-      .sort((a, b) => b[1] - a[1]);
+      .sort((a, b) => (b[1].attestations + b[1].endorsements) - (a[1].attestations + a[1].endorsements));
 
     const tableHTML = `
       <table>
         <thead>
           <tr>
             <th>Attestator</th>
-            <th class="attestation-count"># Attestations</th>
+            <th class="attestation-count"># Attestations, Endorsements</th>
           </tr>
         </thead>
         <tbody>
-          ${sortedAttestators.map(([pubkey, count]) => `
+          ${sortedAttestators.map(([pubkey, stats]) => `
             <tr>
               <td id="profile-${pubkey}">${pubkey}</td>
-              <td class="attestation-count">${count}</td>
+              <td class="attestation-count">${stats.attestations}, ${stats.endorsements}</td>
             </tr>
           `).join('')}
         </tbody>
