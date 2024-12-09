@@ -26,7 +26,7 @@ Trust in attestations is built through:
 - Each binary submission must be referenced by nostr events
 - Binary providers and attestators can be different entities
 - Binaries not referenced by relevant nostr events may get deleted after a certain period
-- Binaries might be referenced by more than one kind 1063 event. The client has to consolidate these
+- Binaries might be referenced by more than one [nip-94](https://github.com/nostr-protocol/nips/blob/master/94.md) Asset Registration event. The client has to consolidate these
 
 ### Conflicting Attestations
 - Multiple attestations for the same binary are allowed and expected
