@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Latest Binaries"
+title: "Latest Assets"
 permalink: /binaries/
 ---
 
@@ -25,6 +25,7 @@ permalink: /binaries/
   .markdown-content img {
     max-width: 100%;
   }
+  
   .spinner {
     border: 8px solid rgba(0, 0, 0, 0.1);
     border-top: 8px solid #3498db;
@@ -33,11 +34,11 @@ permalink: /binaries/
     height: 50px;
     animation: spin 1s linear infinite;
   }
-
   @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
   }
+
   .profile-card {
     display: flex;
     align-items: center;
@@ -61,6 +62,13 @@ permalink: /binaries/
   #attestationContent p {
     margin-top: 0.4em;
     margin-bottom: 0em;
+  }
+
+  thead {
+    background-color: #f5f5f5;
+  }
+  body.dark thead {
+    background-color: #656565;
   }
 </style>
 
@@ -93,22 +101,25 @@ permalink: /binaries/
     );
 
     const table = document.createElement('table');
-    const headerRow = document.createElement('tr');
-    headerRow.innerHTML = `
-      <th style="text-align: center;">Wallet</th>
-      <th style="text-align: center;">Description</th>
-      <th style="text-align: center;">SHA256</th>
-      <th style="text-align: center;">URL</th>
-      <th style="text-align: center;">Attestations</th>
-      <th style="text-align: center;">Created At</th>
-    `;
-    table.appendChild(headerRow);
+    table.innerHTML = `
+      <thead>
+        <tr>
+          <th style="text-align: center;">Wallet</th>
+          <th style="text-align: center;">Version</th>
+          <th style="text-align: center;">Asset Description</th>
+          <th style="text-align: center;">SHA256</th>
+          <th style="text-align: center;">URL</th>
+          <th style="text-align: center;">Attestations</th>
+          <th style="text-align: center;">Observed At</th>
+        </tr>
+      </thead>
+    ` ;
 
     sortedBinaries.forEach(binary => {
       const row = document.createElement('tr');
       const date = new Date(binary.created_at * 1000).toLocaleDateString(navigator.language, {
-        year: 'numeric',
-        month: 'long',
+        year: '2-digit',
+        month: 'short',
         day: 'numeric',
         hour: '2-digit',
         minute: '2-digit'
@@ -118,6 +129,7 @@ permalink: /binaries/
       const truncatedHash = `${sha256Hash.slice(0,4)}...${sha256Hash.slice(-4)}`;
       
       const downloadUrl = binary.tags.find(tag => tag[0] === 'url')?.[1] || '';
+      const version = binary.tags.find(tag => tag[0] === 'version')?.[1] || '';
 
       const identifier = binary.tags.find(tag => tag[0] === 'i')?.[1] || "";
 
@@ -155,6 +167,7 @@ permalink: /binaries/
         <td style="text-align: center;">
           ${wallet ? `<a href="${wallet.url}" target="_blank" rel="noopener noreferrer">${walletTitle}</a>` : walletTitle}
         </td>
+        <td style="text-align: center;">${version}</td>
         <td>${binary.content}</td>
         <td style="text-align: center;">
           <span>${truncatedHash}</span>
