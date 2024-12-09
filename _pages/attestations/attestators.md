@@ -101,6 +101,11 @@ permalink: /attestators/
     document.getElementById('attestatorsTable').innerHTML = tableHTML;
     document.getElementById('loadingSpinner').style.display = 'none';
 
+    // Add spacer div after table
+    const spacer = document.createElement('div');
+    spacer.style.height = '300px';
+    document.getElementById('attestatorsTable').appendChild(spacer);
+
     // Load profiles asynchronously
     for (const [pubkey] of sortedAttestators) {
       try {
