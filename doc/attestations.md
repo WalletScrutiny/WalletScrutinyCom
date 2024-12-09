@@ -63,7 +63,7 @@ Trust in attestations is built through:
   "tags":    [
     ["d",            "<asset-event-id>"],
     ["status",       "reproducible"]
-     ["x",        "deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe"],
+    ["x",        "deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe"],
   ],
   "content": "Detailed reproduction process and results. Markdown permitted"
 }
