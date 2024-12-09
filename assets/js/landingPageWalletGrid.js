@@ -41,7 +41,7 @@ function buildWalletGridAndPaginationUI(platform, page, query, queryRaw) {
   query = decodeURI(query)
   let workingArray = false
 
-  workingArray = performSearch(window.wallets, query, platform)
+  workingArray = SearchProcessor.performSearch(window.wallets, query, platform)
 
   generateAndAppendWalletTiles(workingArray, page)
   generateAndAppendPagination(workingArray, page)
@@ -66,7 +66,7 @@ function generateAndAppendWalletTiles(workingArray, pageNo) {
     const wallet = workingArray[numb]
     if (!wallet) { break }
     const domClass = String(`${wallet.folder}${String(wallet.appId)}`).replace(/\./g, "_")
-    const icon = getIcon(wallet.folder)
+    const icon = CONSTANTS.PLATFORM_ICONS[wallet.folder]
     const delay = (i + 1) * 80
     let passed = ``
     let failed = ``
@@ -334,7 +334,7 @@ window.addEventListener("allWalletsLoaded", () => {
   const queryRaw = document.querySelector(".query-string").value.length > 0 ? encodeURI(document.querySelector(".query-string").value) : ""
   const query = queryRaw.toUpperCase()
   //query = decodeURI(query)
-  const workingArray = performSearch(window.wallets, query, platform) || false;
+  const workingArray = SearchProcessor.performSearch(window.wallets, query, platform) || false;
 
   window.blockScrollingFocus = true;
 

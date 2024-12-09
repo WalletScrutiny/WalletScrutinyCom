@@ -1,359 +1,479 @@
-// Core search functions
-function searchByWords(query, wallet) {
-  const searchTermWords = query.length > 0 ? query.split(" ") : false;
-  let walletAsStr = '';
-  for (const [key, value] of Object.entries(wallet)) {
-    walletAsStr += `${wallet.altTitle}${JSON.stringify(value)}${key}`;
+// Constants
+const CONSTANTS = {
+  MIN_SEARCH_LENGTH: 1,
+  SEARCH_DELAY: 200,
+  MOBILE_WIDTH: 700,
+  ANIMATION_DELAY: 80,
+  VERDICT_ORDER: ['reproducible', 'diy', 'nonverifiable', 'ftbfs', 'nosource', 'custodial', 'nosendreceive', 'sealed-noita', 'noita', 'sealed-plainkey', 'plainkey', 'obfuscated', 'prefilled', 'fake', 'wip', 'fewusers', 'unreleased', 'vapor', 'nobtc', 'nowallet'],
+  PLATFORM_ORDER: ['hardware', 'desktop', 'android', 'iphone', 'bearer', 'others'],
+  META_ORDER: ['ok', 'discontinued', 'deprecated', 'outdated', 'stale', 'obsolete', 'removed', 'defunct'],
+  PLATFORM_ICONS: {
+    all: 'i-all-devices',
+    android: 'fab fa-google-play',
+    iphone: 'i-app-store',
+    hardware: 'fas fa-toolbox',
+    bearer: 'i-btc',
+    desktop: 'fas fa-desktop',
+    others: 'fas fa-calculator'
   }
-  walletAsStr = `${wallet.title}${walletAsStr}`;
-  walletAsStr = String(walletAsStr).toUpperCase();
-
-  let result = false;
-  for (let i = 0; i < searchTermWords.length; i++) {
-    const word = searchTermWords[i];
-    const word2 =searchTermWords[i + 1] ? word + searchTermWords[i + 1] : false;
-    const word3 =searchTermWords[i + 1] ? `${word} ${searchTermWords[i + 1]}` : false;
-    const word4 = String(query);
-    if (wallet.title.indexOf(word4) >= 0) {
-      result = wallet;
-      wallet.matchRank = 0;
-      wallet.matchData = "word4 title " + word4;
-      break;
-    }
-    if (walletAsStr.indexOf(word4) >= 0) {
-      result = wallet;
-      wallet.matchRank = walletAsStr.indexOf(word4);
-      wallet.matchData = "word4 " + word4;
-      break;
-    }
-    if (walletAsStr.indexOf(word3) >= 0) {
-      result = wallet;
-      wallet.matchRank = walletAsStr.indexOf(word4);
-      wallet.matchData = "word3 " + word3;
-      break;
-    }
-    if (walletAsStr.indexOf(word2) >= 0) {
-      result = wallet;
-      wallet.matchRank = walletAsStr.indexOf(word2);
-      wallet.matchData = "word2 " + word2;
-      break;
-    }
-    if (walletAsStr.indexOf(word) >= 0) {
-      result = wallet;
-      wallet.matchRank = walletAsStr.indexOf(word) + (i + 1);
-      wallet.matchData = "word " + word;
-      break;
-    }
-  }
-  return result;
-}
-
-function performSearch (wallets, query = false, platform = false) {
-  const verdictOrder = ['reproducible', 'diy', 'nonverifiable', 'ftbfs', 'nosource', 'custodial', 'nosendreceive', 'sealed-noita', 'noita', 'sealed-plainkey', 'plainkey', 'obfuscated', 'prefilled', 'fake', 'wip', 'fewusers', 'unreleased', 'vapor', 'nobtc', 'nowallet'];
-  const platformOrder = ['hardware', 'desktop', 'android', 'iphone', 'bearer', 'others'];
-  const metaOrder = ['ok', 'discontinued', 'deprecated', 'outdated', 'stale', 'obsolete', 'removed', 'defunct'];
-
-  const workingArray = [];
-  let walletsTemp = false;
-  if (platform && platformOrder.includes(platform)) {
-    walletsTemp = wallets.filter(function (w) {
-      return w.folder === platform;
-    });
-  } else {
-    walletsTemp = wallets;
-  }
-
-  for (const wallet of walletsTemp) {
-    if (query && query.length > 0) {
-      const result = searchByWords(query, wallet);
-      if (result) {
-        workingArray.push(result);
-      }
-    } else {
-      workingArray.push(wallet);
-    }
-  }
-
-  let temp = [];
-  if (query && query.length > 0) {
-    temp = workingArray.filter((w) => w.matchRank === 0);
-    temp = temp.length < 1 ? workingArray : temp;
-  } else {
-    temp = workingArray;
-  }
-
-  temp.sort((a, b) => {
-    if (a.verdict !== b.verdict && a.verdict && b.verdict) {
-      return verdictOrder.indexOf(a.verdict) - verdictOrder.indexOf(b.verdict);
-    }
-    if (a.meta !== b.meta && a.meta && b.meta) {
-      return metaOrder.indexOf(a.meta) - metaOrder.indexOf(b.meta);
-    }
-    if (a.folder !== b.folder) {
-      return platformOrder.indexOf(a.folder) - platformOrder.indexOf(b.folder);
-    }
-    if (a.users !== b.users) {
-      return b.users - a.users;
-    }
-    if (a.ratings !== b.ratings) {
-      return b.ratings - a.ratings;
-    }
-    if (a.reviews !== b.reviews) {
-      return b.reviews - a.reviews;
-    }
-    if (a.opinion !== b.opinion) {
-      // products that have opinions at all are ranked above those without any
-      // opinions on purpose. Once opinions pick up, we might change that to
-      // treat zero opinions as score 0.
-      if (!b.opinion) {
-        return -1;
-      }
-      if (!a.opinion) {
-        return 1;
-      }
-      const aScore =
-          (a.opinion.positive || 0) * 10 +
-          (a.opinion.negative || 0) * -10 +
-          (a.opinion.neutral || 0);
-      const bScore =
-          (b.opinion.positive || 0) * 10 +
-          (b.opinion.negative || 0) * -10 +
-          (b.opinion.neutral || 0);
-      return bScore - aScore;
-    }
-    if (a.matchRank !== b.matchRank) {
-      return a.matchRank - b.matchRank;
-    }
-    return a.appId.localeCompare(b.appId);
-  });
-  return temp;
-}
-
-// UI related functions
-function exitSearchUI () {
-  const ui = document.querySelector('.results-target');
-  ui.innerHTML = '';
-  ui.classList.remove('visible');
-  document.body.classList.remove('search-ui-active');
-  document.querySelector('.wallet-search').classList.remove('active');
-}
-
-function searchTrigger () {
-  if (window.searchTerm && window.searchTerm.length > 1) {
-    document.querySelector('.wallet-search').classList.add('active');
-    document.querySelector('.search-controls').classList.add('working');
-    document.querySelector('.search-controls').classList.add('edited');
-  } else {
-    document.querySelector('.wallet-search').classList.remove('active');
-    document.querySelector('.search-controls').classList.remove('working');
-    document.querySelector('.search-controls').classList.remove('edited');
-  }
-
-  clearTimeout(window.walletSearchTimeoutTrigger);
-  if (window.searchTerm && window.searchTerm.length > 1) {
-    window.walletSearchTimeoutTrigger = setTimeout(() => {
-      doNavBarSearch(window.searchTerm);
-    }, 200);
-  }
-}
-
-function doNavBarSearch (input) {
-  document.body.classList.add('search-ui-active');
-  const result = document.querySelector('.results-target');
-  result.classList.add('visible');
-  const term = input.toUpperCase();
-
-  const minTermLength = 1;
-  if (term.length > minTermLength) {
-    result.innerHTML = '';
-
-    const wallets = performSearch(versionTaggedWallets, term);
-
-    if (!wallets || wallets.length === 0) {
-      result.innerHTML = '<li onclick="event.stopPropagation();"><a style="font-size:.7rem;opacity:.7;text-style:italics;">No matches</a></li>';
-      document.querySelector('.search-controls').classList.remove('working');
-    }
-    for (const wallet of wallets) {
-      if (wallet.title) {
-        const walletRow = document.createElement('li');
-        if (wallets.length < 10) {
-          walletRow.style['animation-delay'] = wallets.length * 80 + 'ms';
-        }
-        walletRow.classList.add('actionable');
-        let compactedResults = '';
-        compactedResults += makeCompactResultsHTML(wallet);
-        var walletGroupClass = '';
-        if (wallet.versions && wallet.versions.length > 0) {
-          for (let i = 0; i < wallet.versions.length; i++) {
-            compactedResults += makeCompactResultsHTML(wallet.versions[i]);
-          }
-          walletGroupClass = 'grouped';
-        }
-        walletRow.innerHTML = `<div class="${walletGroupClass}">${compactedResults}</div>`;
-        document.querySelector('.search-controls').classList.remove('working');
-        result.append(walletRow);
-      }
-    }
-  } else if (term.length !== 0) {
-    var l = document.createElement('li');
-    var rem = (minTermLength + 1) - term.length;
-    var s = rem > 1 ? 's' : '';
-    l.innerHTML = `<a style='font-size:.7rem;opacity:.7;text-style:italics;'>Enter ${rem} more character${s} to search all records</a>`;
-    result.append(l);
-  } else {
-    document.querySelector('.search-controls').classList.remove('working');
-    result.innerHTML = '';
-  }
-  searchScrollToTop();
-}
-
-function getIcon (name) {
-  let faCollection = ''
-  switch (name) {
-    case 'all': faCollection = 'i-all-devices'; break;
-    case 'android': faCollection = 'fab fa-google-play'; break;
-    case 'iphone': faCollection = 'i-app-store'; break;
-    case 'hardware': faCollection = 'fas fa-toolbox'; break;
-    case 'bearer': faCollection = 'i-btc'; break;
-    case 'desktop': faCollection = 'fas fa-desktop'; break;
-    case 'others': faCollection = 'fas fa-calculator'; break;
-  }
-  return faCollection;
-}
-
-function makeCompactResultsHTML (wallet) {
-  let result = '';
-  const faCollection = getIcon(wallet.folder);
-  const basePath = wallet.base_path || '';
-  var analysisUrl = `${basePath}${wallet.url}`;
-  let passed = '';
-  let failed = '';
-  if (wallet.score) {
-    for (let i = 0; i < wallet.score.numerator; i++) { passed += '<i class="pass"></i>'; }
-    for (let i = 0; i < (wallet.score.denominator - wallet.score.numerator); i++) { failed += '<i class="fail"></i>'; }
-  }
-  result += `<a class="result-pl-inner ${wallet.meta}" onclick="window.location.href = '${analysisUrl}';" href='${analysisUrl}'>
-    <div class="icon-wrapper"><img src='${basePath}/images/${wallet.icon ? `wIcons/${wallet.folder}/small/${wallet.icon}` : 'noimg.svg'}' class='wallet-icon' loading="lazy"/></div>
-      <span class="result-title-wrapper">
-        <span>${wallet.altTitle || wallet.title}</span>
-        <small>
-          <span class="category"><i class="${faCollection}"></i>&nbsp;<span> ${wallet.category}</span></span>
-        </small>
-      </span>
-      <span class="stats">
-      ${wallet.meta && wallet.meta !== 'outdated'
-        ? `<span data-text="${window.verdicts[wallet.verdict].short}" class="stamp stamp-${wallet.verdict}" alt=""></span>`
-        : ''}
-      ${wallet.meta && wallet.meta !== 'ok'
-        ? `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>`
-        : ''}
-      ${wallet.score
-        ? `<div class="tests-passed" data-numerator="${wallet.score.numerator}" data-denominator="${wallet.score.denominator}">
-          <span>Passed ${wallet.score.numerator !== wallet.score.denominator ? wallet.score.numerator : 'all'} ${wallet.score.numerator !== wallet.score.denominator ? 'of' : ''} ${wallet.score.denominator} tests</span>
-          <div>${passed}${failed}</div>
-        </div>`
-        : ''}
-    </span>
-    </a>`;
-  return result;
-}
-
-function searchScrollToTop () {
-  if (window.innerWidth <= 700) {
-    window.scrollTo({
-      top: 0,
-      left: 0,
-      behavior: 'smooth'
-    });
-  }
-}
-
-// Event listeners and initialization
-window.addEventListener('resize', () => {
-  if (window.outerWidth <= 700) {
-    exitSearchUI();
-  }
-});
-
-const versionTaggedWallets = [];
-
-window.versionTag = () => {
-  var readerRec = [];
-  versionTaggedWallets.length = 0;
-  window.wallets.forEach(e => {
-    if (e.wsId) {
-      const wsId = e.wsId;
-      var i = readerRec.indexOf(wsId);
-      if (wsId.length > 0 && i < 0) {
-        versionTaggedWallets.push(e);
-        readerRec.push(wsId);
-      } else {
-        // If we already added a product with this wsId, we add the new one as a
-        // 'version' of the prior one.
-        const versionsI = versionTaggedWallets[i].versions || [];
-        versionsI.push(e);
-        versionTaggedWallets[i].versions = versionsI;
-      }
-    } else if (e.appId && e.appId.length > 0) {
-      // making sure the appId doesn't match any wsId:
-      const appId = `__${e.appId}__`;
-      if (!readerRec.includes(appId)) {
-        versionTaggedWallets.push(e);
-        readerRec.push(appId);
-      }
-    }
-  });
 };
 
-if (document.querySelector('.searchbar')) {
-  document.body.addEventListener('click', () => {
-    exitSearchUI();
-  });
-  document.querySelector('.reset-search').addEventListener('click', (event) => {
-    event.stopPropagation();
-    window.searchTerm = '';
-    document.querySelector('.searchbar').value = '';
-    document.querySelector('.search-controls').classList.remove('hint-return');
-    document.querySelector('.wallet-search').classList.remove('active');
-    document.querySelector('.search-controls').classList.remove('working');
-    document.querySelector('.search-controls').classList.remove('edited');
-    exitSearchUI();
-  });
-  document.querySelectorAll('.search-trigger-target').forEach((ele) => {
-    ele.addEventListener('click', (event) => {
-      event.stopPropagation();
-      searchTrigger();
-    });
-  });
-  document.querySelector('.searchbar').value = '';
-  document.querySelector('.searchbar').addEventListener('input', () => {
-    window.searchTerm = document.querySelector('.searchbar').value;
-    searchTrigger();
-  });
-  document.querySelector('.searchbar').addEventListener('keyup', (e) => {
-    if (e.key === 'Enter' || e.keyCode === 13) {
-      window.searchTerm = document.querySelector('.searchbar').value;
-      searchTrigger();
+// Core search functions
+class WalletSearcher {
+  static searchByWords(query, wallet) {
+    if (!query?.length) return false;
+
+    const searchTermWords = query.split(" ");
+    const walletAsStr = this._getSearchableString(wallet);
+
+    for (let i = 0; i < searchTermWords.length; i++) {
+      const matchResult = this._findMatch({
+        wallet,
+        word: searchTermWords[i],
+        nextWord: searchTermWords[i + 1],
+        fullQuery: query,
+        walletAsStr,
+        index: i
+      });
+
+      if (matchResult) return matchResult;
     }
-  });
-  document.querySelector('.mobile-search-shortcut').addEventListener('click', () => {
-    if (!document.querySelector('.wallet-search').classList.contains('mobile-active')) {
-      document.querySelector('.wallet-search').classList.add('mobile-active');
-      document.querySelector('.mobile-search-shortcut').classList.add('active');
-      document.querySelector('.searchbar').focus();
-    } else {
-      document.querySelector('.wallet-search').classList.remove('mobile-active');
-      document.querySelector('.mobile-search-shortcut').classList.remove('active');
+    return false;
+  }
+
+  static _getSearchableString(wallet) {
+    const baseString = `${wallet.title}${wallet.altTitle}`;
+    const entries = Object.entries(wallet)
+      .map(([key, value]) => `${JSON.stringify(value)}${key}`)
+      .join('');
+    return `${baseString}${entries}`.toUpperCase();
+  }
+
+  static _findMatch({ wallet, word, nextWord, fullQuery, walletAsStr, index }) {
+    const patterns = [
+      { text: fullQuery, rank: 0, type: 'exact title' },
+      { text: fullQuery, rank: 0, type: 'exact' },
+      { text: `${word} ${nextWord}`, rank: 0, type: 'two words' },
+      { text: word + nextWord, rank: 0, type: 'combined' },
+      { text: word, rank: index + 1, type: 'single' }
+    ];
+
+    for (const pattern of patterns) {
+      const upperPattern = pattern.text.toUpperCase();
+      const titleMatch = pattern.type === 'exact title' && wallet.title.indexOf(pattern.text) >= 0;
+      const contentMatch = pattern.type !== 'exact title' && walletAsStr.indexOf(upperPattern) >= 0;
+
+      if (titleMatch || contentMatch) {
+        return {
+          ...wallet,
+          matchRank: pattern.rank,
+          matchData: `${pattern.type} ${pattern.text}`
+        };
+      }
     }
-  });
-  document.querySelector('.searchbar').addEventListener('click', (event) => {
-    event.stopPropagation();
-    if (window.searchTerm && window.searchTerm.length > 0) {
-      document.querySelector('.search-controls').classList.add('hint-return');
-    } else {
-      document.querySelector('.search-controls').classList.remove('hint-return');
-    }
-  });
+    return null;
+  }
 }
 
-window.versionTag();
+// Search results processor
+class SearchProcessor {
+  static performSearch(wallets, query = '', platform = '') {
+    const filteredWallets = this._filterByPlatform(wallets, platform);
+    const searchResults = this._performSearch(filteredWallets, query);
+    return this._sortResults(searchResults, query);
+  }
+
+  static _filterByPlatform(wallets, platform) {
+    if (!platform || !CONSTANTS.PLATFORM_ORDER.includes(platform)) {
+      return wallets;
+    }
+    return wallets.filter(w => w.folder === platform);
+  }
+
+  static _performSearch(wallets, query) {
+    if (!query) return wallets;
+    
+    return wallets.reduce((results, wallet) => {
+      const result = WalletSearcher.searchByWords(query, wallet);
+      return result ? [...results, result] : results;
+    }, []);
+  }
+
+  static _sortResults(wallets, query) {
+    const exactMatches = query ? wallets.filter(w => w.matchRank === 0) : wallets;
+    const resultsToSort = exactMatches.length > 0 ? exactMatches : wallets;
+
+    return resultsToSort.sort((a, b) => {
+      // Sort by verdict
+      if (a.verdict !== b.verdict && a.verdict && b.verdict) {
+        return CONSTANTS.VERDICT_ORDER.indexOf(a.verdict) - CONSTANTS.VERDICT_ORDER.indexOf(b.verdict);
+      }
+      
+      // Sort by meta
+      if (a.meta !== b.meta && a.meta && b.meta) {
+        return CONSTANTS.META_ORDER.indexOf(a.meta) - CONSTANTS.META_ORDER.indexOf(b.meta);
+      }
+      
+      // Sort by platform
+      if (a.folder !== b.folder) {
+        return CONSTANTS.PLATFORM_ORDER.indexOf(a.folder) - CONSTANTS.PLATFORM_ORDER.indexOf(b.folder);
+      }
+      
+      // Sort by metrics
+      for (const metric of ['users', 'ratings', 'reviews']) {
+        if (a[metric] !== b[metric]) {
+          return b[metric] - a[metric];
+        }
+      }
+      
+      // Sort by opinion
+      if (a.opinion !== b.opinion) {
+        return this._compareOpinions(a.opinion, b.opinion);
+      }
+      
+      // Sort by match rank
+      if (a.matchRank !== b.matchRank) {
+        return a.matchRank - b.matchRank;
+      }
+      
+      return a.appId.localeCompare(b.appId);
+    });
+  }
+
+  static _compareOpinions(a, b) {
+    if (!b) return -1;
+    if (!a) return 1;
+
+    const getScore = opinion => (
+      (opinion.positive || 0) * 10 +
+      (opinion.negative || 0) * -10 +
+      (opinion.neutral || 0)
+    );
+
+    return getScore(b) - getScore(a);
+  }
+}
+
+// UI Controller
+class UIController {
+  static _searchTimeoutId = null;
+
+  static init() {
+    if (!document.querySelector('.searchbar')) return;
+
+    this._setupEventListeners();
+    this._initializeSearchBar();
+  }
+
+  static _setupEventListeners() {
+    // Body click handler
+    document.body.addEventListener('click', () => this.exitSearchUI());
+
+    // Reset search button
+    document.querySelector('.reset-search')?.addEventListener('click', (event) => {
+      event.stopPropagation();
+      this._resetSearch();
+    });
+
+    // Search triggers
+    document.querySelectorAll('.search-trigger-target').forEach(ele => {
+      ele.addEventListener('click', (event) => {
+        event.stopPropagation();
+        this._handleSearchTrigger();
+      });
+    });
+
+    // Search input handlers
+    const searchbar = document.querySelector('.searchbar');
+    searchbar?.addEventListener('input', () => this._handleSearchInput());
+    searchbar?.addEventListener('keyup', (e) => {
+      if (e.key === 'Enter' || e.keyCode === 13) {
+        this._handleSearchInput();
+      }
+    });
+    searchbar?.addEventListener('click', (event) => this._handleSearchbarClick(event));
+
+    // Mobile search
+    document.querySelector('.mobile-search-shortcut')?.addEventListener('click', () => 
+      this._toggleMobileSearch()
+    );
+
+    // Window resize
+    window.addEventListener('resize', () => {
+      if (window.outerWidth <= CONSTANTS.MOBILE_WIDTH) {
+        this.exitSearchUI();
+      }
+    });
+  }
+
+  static _initializeSearchBar() {
+    const searchbar = document.querySelector('.searchbar');
+    if (searchbar) {
+      searchbar.value = '';
+      window.searchTerm = '';
+    }
+  }
+
+  static exitSearchUI() {
+    const ui = document.querySelector('.results-target');
+    if (!ui) return;
+
+    ui.innerHTML = '';
+    ui.classList.remove('visible');
+    document.body.classList.remove('search-ui-active');
+    document.querySelector('.wallet-search')?.classList.remove('active');
+  }
+
+  static _resetSearch() {
+    window.searchTerm = '';
+    const searchbar = document.querySelector('.searchbar');
+    if (searchbar) searchbar.value = '';
+
+    const controls = document.querySelector('.search-controls');
+    controls?.classList.remove('hint-return', 'working', 'edited');
+    document.querySelector('.wallet-search')?.classList.remove('active');
+
+    this.exitSearchUI();
+  }
+
+  static _handleSearchTrigger() {
+    const hasSearchTerm = window.searchTerm?.length > 1;
+    const searchControls = document.querySelector('.search-controls');
+    const walletSearch = document.querySelector('.wallet-search');
+
+    if (hasSearchTerm) {
+      walletSearch?.classList.add('active');
+      searchControls?.classList.add('working', 'edited');
+    } else {
+      walletSearch?.classList.remove('active');
+      searchControls?.classList.remove('working', 'edited');
+    }
+
+    clearTimeout(this._searchTimeoutId);
+    if (hasSearchTerm) {
+      this._searchTimeoutId = setTimeout(() => {
+        this._doNavBarSearch(window.searchTerm);
+      }, CONSTANTS.SEARCH_DELAY);
+    }
+  }
+
+  static _handleSearchInput() {
+    window.searchTerm = document.querySelector('.searchbar')?.value || '';
+    this._handleSearchTrigger();
+  }
+
+  static _handleSearchbarClick(event) {
+    event.stopPropagation();
+    const controls = document.querySelector('.search-controls');
+    if (window.searchTerm?.length > 0) {
+      controls?.classList.add('hint-return');
+    } else {
+      controls?.classList.remove('hint-return');
+    }
+  }
+
+  static _toggleMobileSearch() {
+    const walletSearch = document.querySelector('.wallet-search');
+    const searchShortcut = document.querySelector('.mobile-search-shortcut');
+    const searchbar = document.querySelector('.searchbar');
+
+    const isActive = walletSearch?.classList.contains('mobile-active');
+    
+    if (!isActive) {
+      walletSearch?.classList.add('mobile-active');
+      searchShortcut?.classList.add('active');
+      searchbar?.focus();
+    } else {
+      walletSearch?.classList.remove('mobile-active');
+      searchShortcut?.classList.remove('active');
+    }
+  }
+
+  static _doNavBarSearch(input) {
+    document.body.classList.add('search-ui-active');
+    const result = document.querySelector('.results-target');
+    if (!result) return;
+
+    result.classList.add('visible');
+    const term = input.toUpperCase();
+
+    if (term.length > CONSTANTS.MIN_SEARCH_LENGTH) {
+      this._performSearch(result, term);
+    } else if (term.length !== 0) {
+      this._showMinLengthMessage(result);
+    } else {
+      document.querySelector('.search-controls')?.classList.remove('working');
+      result.innerHTML = '';
+    }
+
+    this._scrollToTop();
+  }
+
+  static _performSearch(resultElement, term) {
+    resultElement.innerHTML = '';
+    const wallets = SearchProcessor.performSearch(versionTaggedWallets, term);
+
+    if (!wallets?.length) {
+      this._showNoMatchesMessage(resultElement);
+      return;
+    }
+
+    this._displaySearchResults(resultElement, wallets);
+  }
+
+  static _showMinLengthMessage(resultElement) {
+    const remainingChars = CONSTANTS.MIN_SEARCH_LENGTH + 1 - window.searchTerm.length;
+    const plural = remainingChars > 1 ? 's' : '';
+    
+    const li = document.createElement('li');
+    li.innerHTML = `<a style='font-size:.7rem;opacity:.7;text-style:italics;'>Enter ${remainingChars} more character${plural} to search all records</a>`;
+    resultElement.append(li);
+  }
+
+  static _showNoMatchesMessage(resultElement) {
+    resultElement.innerHTML = '<li onclick="event.stopPropagation();"><a style="font-size:.7rem;opacity:.7;text-style:italics;">No matches</a></li>';
+    document.querySelector('.search-controls')?.classList.remove('working');
+  }
+
+  static _displaySearchResults(resultElement, wallets) {
+    wallets.forEach((wallet, index) => {
+      if (!wallet.title) return;
+
+      const walletRow = this._createWalletRow(wallet, index < 10 ? index : null);
+      resultElement.append(walletRow);
+    });
+
+    document.querySelector('.search-controls')?.classList.remove('working');
+  }
+
+  static _createWalletRow(wallet, index) {
+    const walletRow = document.createElement('li');
+    if (index !== null) {
+      walletRow.style['animation-delay'] = `${index * CONSTANTS.ANIMATION_DELAY}ms`;
+    }
+    walletRow.classList.add('actionable');
+
+    let compactedResults = this._makeCompactResultsHTML(wallet);
+    if (wallet.versions?.length > 0) {
+      wallet.versions.forEach(version => {
+        compactedResults += this._makeCompactResultsHTML(version);
+      });
+    }
+
+    const groupClass = wallet.versions?.length > 0 ? 'grouped' : '';
+    walletRow.innerHTML = `<div class="${groupClass}">${compactedResults}</div>`;
+    return walletRow;
+  }
+
+  static _makeCompactResultsHTML(wallet) {
+    const icon = CONSTANTS.PLATFORM_ICONS[wallet.folder] || '';
+    const basePath = wallet.base_path || '';
+    const analysisUrl = `${basePath}${wallet.url}`;
+    const scoreDisplay = this._createScoreDisplay(wallet.score);
+
+    return `
+      <a class="result-pl-inner ${wallet.meta || ''}" onclick="window.location.href = '${analysisUrl}';" href='${analysisUrl}'>
+        <div class="icon-wrapper">
+          <img src='${basePath}/images/${wallet.icon ? `wIcons/${wallet.folder}/small/${wallet.icon}` : 'noimg.svg'}' 
+               class='wallet-icon' loading="lazy"/>
+        </div>
+        <span class="result-title-wrapper">
+          <span>${wallet.altTitle || wallet.title}</span>
+          <small>
+            <span class="category">
+              <i class="${icon}"></i>&nbsp;
+              <span>${wallet.category}</span>
+            </span>
+          </small>
+        </span>
+        <span class="stats">
+          ${this._createVerdictStamp(wallet)}
+          ${this._createMetaStamp(wallet)}
+          ${scoreDisplay}
+        </span>
+      </a>
+    `;
+  }
+
+  static _createScoreDisplay(score) {
+    if (!score) return '';
+
+    const passed = Array(score.numerator).fill('<i class="pass"></i>').join('');
+    const failed = Array(score.denominator - score.numerator).fill('<i class="fail"></i>').join('');
+
+    return `
+      <div class="tests-passed" data-numerator="${score.numerator}" data-denominator="${score.denominator}">
+        <span>Passed ${score.numerator !== score.denominator ? score.numerator : 'all'} 
+              ${score.numerator !== score.denominator ? 'of' : ''} ${score.denominator} tests</span>
+        <div>${passed}${failed}</div>
+      </div>
+    `;
+  }
+
+  static _createVerdictStamp(wallet) {
+    if (!wallet.meta || wallet.meta === 'outdated') return '';
+    return `<span data-text="${window.verdicts[wallet.verdict].short}" class="stamp stamp-${wallet.verdict}" alt=""></span>`;
+  }
+
+  static _createMetaStamp(wallet) {
+    if (!wallet.meta || wallet.meta === 'ok') return '';
+    return `<span data-text="${window.verdicts[wallet.meta].short}" class="stamp stamp-${wallet.meta}" alt=""></span>`;
+  }
+
+  static _scrollToTop() {
+    if (window.innerWidth <= CONSTANTS.MOBILE_WIDTH) {
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth'
+      });
+    }
+  }
+}
+
+// Version tagging functionality
+class VersionTagger {
+  static tagWallets() {
+    const readerRec = [];
+    versionTaggedWallets.length = 0;
+
+    window.wallets.forEach(wallet => {
+      if (wallet.wsId) {
+        this._handleWsIdWallet(wallet, readerRec);
+      } else if (wallet.appId) {
+        this._handleAppIdWallet(wallet, readerRec);
+      }
+    });
+  }
+
+  static _handleWsIdWallet(wallet, readerRec) {
+    const wsId = wallet.wsId;
+    const existingIndex = readerRec.indexOf(wsId);
+
+    if (wsId.length > 0 && existingIndex < 0) {
+      versionTaggedWallets.push(wallet);
+      readerRec.push(wsId);
+    } else {
+      this._addAsVersion(wallet, existingIndex);
+    }
+  }
+
+  static _handleAppIdWallet(wallet, readerRec) {
+    const appId = `__${wallet.appId}__`;
+    if (!readerRec.includes(appId)) {
+      versionTaggedWallets.push(wallet);
+      readerRec.push(appId);
+    }
+  }
+
+  static _addAsVersion(wallet, parentIndex) {
+    const parent = versionTaggedWallets[parentIndex];
+    if (!parent.versions) parent.versions = [];
+    parent.versions.push(wallet);
+  }
+}
+
+// Initialize
+const versionTaggedWallets = [];
+window.versionTag = () => VersionTagger.tagWallets();
+UIController.init();
