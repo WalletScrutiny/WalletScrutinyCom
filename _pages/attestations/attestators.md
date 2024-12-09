@@ -40,7 +40,6 @@ permalink: /attestators/
     color: #666;
   }
 
-  /* Add new style for attestation count column */
   .attestation-count {
     text-align: center;
   }
