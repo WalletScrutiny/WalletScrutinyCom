@@ -3357,6 +3357,17 @@
   {
     "appId": "world.bitkey.app",
     "signer": "c0d0f9da7158cde788d0281e9ebd07034178165584d635f7ce17f77c037d961a",
+    "version": "2024.69.0 (4)",
+    "verdict": "reproducible",
+    "appHashes": [
+      "67c4d8ec5beec9b6424a39700e0fc9673f713a98d965a6cdd3ef4a968fd000af"
+    ],
+    "date": "2024-09-23",
+    "platform": "android"
+  },
+  {
+    "appId": "world.bitkey.app",
+    "signer": "c0d0f9da7158cde788d0281e9ebd07034178165584d635f7ce17f77c037d961a",
     "version": "2024.68.0 (1)",
     "verdict": "reproducible",
     "appHashes": [
