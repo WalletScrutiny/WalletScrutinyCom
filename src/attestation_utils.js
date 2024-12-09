@@ -134,12 +134,12 @@ const createAttestation = async function ({sha256, content, status, assetEventId
   }
 }
 
-const createEndorsement = async function ({sha256, content, result, attestationEventId}) {
+const createEndorsement = async function ({sha256, content, status, attestationEventId}) {
   console.debug("Creating endorsement for attestation: ", attestationEventId);
 
   validateSHA256(sha256);
 
-  if (!content || !result || !attestationEventId) {
+  if (!content || !status || !attestationEventId) {
     throw new Error("Missing required parameters");
   }
 
@@ -153,7 +153,7 @@ const createEndorsement = async function ({sha256, content, result, attestationE
   ndkEvent.tags = [
     ["x", sha256],
     ["d", attestationEventId],
-    ["result", result]
+    ["status", status]
   ];
 
   try {
@@ -261,7 +261,9 @@ const getAttestationInfoLastMonths = async function(months = 6) {
   });
 
   const attestationsMap = new Map();
+  const endorsementsMap = new Map();
   const attestations = Array.from(events).filter(event => event.kind === attestationKind);
+  const endorsements = Array.from(events).filter(event => event.kind === endorsementKind);
   
   attestations.forEach(attestation => {
     const sha256 = getFirstTag(attestation, 'x');
@@ -273,10 +275,20 @@ const getAttestationInfoLastMonths = async function(months = 6) {
     }
   });
 
+  endorsements.forEach(endorsement => {
+    const attestationEventId = getFirstTag(endorsement, 'd');
+    if (attestationEventId) {
+      if (!endorsementsMap.has(attestationEventId)) {
+        endorsementsMap.set(attestationEventId, []);
+      }
+      endorsementsMap.get(attestationEventId).push(endorsement);
+    }
+  });
+
   return {
     assets: Array.from(events).filter(event => event.kind === assetRegistrationKind),
     attestations: attestationsMap,
-    endorsements: Array.from(events).filter(event => event.kind === endorsementKind)
+    endorsements: endorsementsMap
   };
 }
 
@@ -287,6 +299,7 @@ window.createAssetRegistration = createAssetRegistration;
 window.createAttestation = createAttestation;
 window.createEndorsement = createEndorsement;
 window.getAttestationInfoLastMonths = getAttestationInfoLastMonths;
+window.getFirstTag = getFirstTag;
 
 export {
   getNostrProfile,
@@ -295,5 +308,6 @@ export {
   createAssetRegistration,
   createAttestation,
   createEndorsement,
-  getAttestationInfoLastMonths
+  getAttestationInfoLastMonths,
+  getFirstTag
 };
