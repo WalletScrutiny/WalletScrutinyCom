@@ -116,7 +116,6 @@ permalink: /binaries/
     ` ;
 
     sortedBinaries.forEach(binary => {
-      const row = document.createElement('tr');
       const date = new Date(binary.created_at * 1000).toLocaleDateString(navigator.language, {
         year: '2-digit',
         month: 'short',
@@ -127,10 +126,8 @@ permalink: /binaries/
 
       const sha256Hash = binary.tags.find(tag => tag[0] === 'x')?.[1] || '';
       const truncatedHash = `${sha256Hash.slice(0,4)}...${sha256Hash.slice(-4)}`;
-      
       const downloadUrl = binary.tags.find(tag => tag[0] === 'url')?.[1] || '';
       const version = binary.tags.find(tag => tag[0] === 'version')?.[1] || '';
-
       const identifier = binary.tags.find(tag => tag[0] === 'i')?.[1] || "";
 
       const attestations = response.attestations.get(binary.tags.find(tag => tag[0] === 'x')?.[1]) || [];
@@ -163,6 +160,7 @@ permalink: /binaries/
       const wallet = window.wallets.find(w => w.appId === identifier);
       const walletTitle = wallet ? wallet.title : identifier;
 
+      const row = document.createElement('tr');
       row.innerHTML = `
         <td style="text-align: center;">
           ${wallet ? `<a href="${wallet.url}" target="_blank" rel="noopener noreferrer">${walletTitle}</a>` : walletTitle}
@@ -188,7 +186,7 @@ permalink: /binaries/
     
     // Add spacer div after table
     const spacer = document.createElement('div');
-    spacer.style.height = '200px';  // Ajusta esta altura según necesites
+    spacer.style.height = '300px';
     document.getElementById('binariesTable').appendChild(spacer);
 
     window.showAttestationModal = async function(sha256Hash, attestationId) {
