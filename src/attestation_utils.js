@@ -39,18 +39,6 @@ const getNostrProfile = async function (pubkey) {
   return user.profile;
 }
 
-const getAttestators = async function () {
-  console.debug("Getting attestators from Nostr");
-
-  const attestators = await ndk.fetchEvents({
-    kinds: [attestationKind]
-  });
-
-  for (const binary of binaries) {
-    console.debug(binary.rawEvent());
-  }
-}
-
 const createAssetRegistration = async function ({
   sha256,
   appId,
@@ -169,73 +157,18 @@ const createEndorsement = async function ({sha256, content, status, attestationE
   }
 }
 
-const getBinariesWithSHA256 = async function (sha256) {
-  console.debug("Getting binaries for: ", sha256);
+const getAssetsWithSHA256 = async function (sha256) {
+  console.debug("Getting assets for: ", sha256);
 
   await ndk.connect(connectTimeout);
 
-  const binaries = await ndk.fetchEvents({
+  const assets = await ndk.fetchEvents({
     kinds: [assetRegistrationKind],
     "#x": [sha256]
   });
 
-  for (const binary of binaries) {
-    console.debug(binary.rawEvent());
-  }
-}
-
-/* OLD VERSION, CHAINED EVENTS */
-const getBinaries = async function (limit = 10) {
-  console.debug(`Getting last ${limit} binaries`);
-
-  await ndk.connect(connectTimeout);
-
-  const binaries = await ndk.fetchEvents({
-    kinds: [assetRegistrationKind],
-    limit: limit
-  });
-
-  for (const binary of binaries) {
-    console.log(binary.rawEvent());
-  }
-
-  console.log('binaries:', binaries);
-
-  return binaries;
-}
-
-/* OLD VERSION, CHAINED EVENTS */
-const getAttestationInfoForAppId = async function (appId, assetLimit = 10) {
-  console.debug("Getting attestation info for: ", appId);
-
-  await ndk.connect(connectTimeout);
-
-  const binaries = await ndk.fetchEvents({
-    kinds: [assetRegistrationKind],
-    "#i": [appId],
-    limit: assetLimit
-  });
-
-  if (binaries.length === 0) {
-    console.debug("No binaries found for: ", appId);
-    return [];
-  }
-
-  let binaryIds = [];
-  for (const binary of binaries) {
-    console.debug(binary.rawEvent());
-    binaryIds.push(binary.id);
-  }
-
-  const attestationsAndEndorsements = await ndk.fetchEvents({
-    kinds: [attestationKind, endorsementKind],
-    "#d": binaryIds
-  });
-
-  return {
-    binaries: binaries,
-    attestations: attestationsAndEndorsements.filter(event => event.kind === attestationKind),
-    endorsements: attestationsAndEndorsements.filter(event => event.kind === endorsementKind)
+  for (const asset of assets) {
+    console.debug(asset.rawEvent());
   }
 }
 
@@ -292,22 +225,20 @@ const getAttestationInfoLastMonths = async function(months = 6) {
   };
 }
 
-window.getNostrProfile = getNostrProfile;
-window.getBinariesWithSHA256 = getBinariesWithSHA256;
-window.getBinaries = getBinaries;
 window.createAssetRegistration = createAssetRegistration;
 window.createAttestation = createAttestation;
 window.createEndorsement = createEndorsement;
+window.getNostrProfile = getNostrProfile;
+window.getAssetsWithSHA256 = getAssetsWithSHA256;
 window.getAttestationInfoLastMonths = getAttestationInfoLastMonths;
 window.getFirstTag = getFirstTag;
 
 export {
-  getNostrProfile,
-  getBinariesWithSHA256,
-  getAttestationInfoForAppId,
   createAssetRegistration,
   createAttestation,
   createEndorsement,
+  getNostrProfile,
+  getAssetsWithSHA256,
   getAttestationInfoLastMonths,
   getFirstTag
 };
