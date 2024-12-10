@@ -18,7 +18,7 @@ const ndk = new NDK({
 });
 
 const validateSHA256 = function(sha256) {
-  if (!sha256 || typeof sha256 !== 'string' || sha256.length !== 64) {
+  if (!sha256 || !/^[0-9a-f]{64}$/i.test(sha256)) {
     throw new Error("Invalid SHA256 hash: must be a 64-character hexadecimal string");
   }
 }
