@@ -1,39 +1,78 @@
 ---
 layout: archive
-title: "Top Attestators"
-permalink: /attestators/
+title: "Top Build Verifiers"
+permalink: /verifiers/
 ---
 
-<link rel="stylesheet" href="{{ base_path }}/assets/css/attestations.css">
+<link rel="stylesheet" href="{{ base_path }}/assets/css/verifications.css">
 
 <style>
   table { 
-    width: initial;
+    width: 100%;
     margin: auto;
+    border-collapse: collapse;
   }
-  table th:nth-child(1) {
-    padding-left: 8em;
-    padding-right: 8em;
+  
+  @media screen and (min-width: 768px) {
+    table {
+      width: initial;
+    }
+    table th:nth-child(1) {
+      padding-left: 8em;
+      padding-right: 8em;
+    }
+    table th:nth-child(2) {
+      padding-left: 5em;
+      padding-right: 5em;
+    }
   }
-  table th:nth-child(2) {
-    padding-left: 5em;
-    padding-right: 5em;
+
+  @media screen and (max-width: 767px) {
+    table th, table td {
+      padding: 0.5em;
+    }
+    .profile-info {
+      font-size: 14px;
+    }
+    .attestation-count-column {
+      font-size: 1.2em !important;
+    }
   }
 
   .attestator-card-column {
     padding: 1.3em;
   }
+  @media screen and (max-width: 767px) {
+    .attestator-card-column {
+      padding: 0.5em;
+    }
+  }
+
   .attestation-count-column {
     text-align: center;
     font-size: 1.5em;
   }
 
-  .profile-info {
-    font-size: 18px;
-  }
   .profile-image {
     width: 50px;
     height: 50px;
+  }
+
+  .profile-card {
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .profile-info {
+    font-size: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .profile-info div {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 </style>
 
@@ -42,12 +81,12 @@ permalink: /attestators/
 </div>
 
 <div style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
-  {% include shareButton.html defaultMessage="Look at the Top Attestators ranking on WalletScrutiny!" %}
+  {% include shareButton.html defaultMessage="Look at the Top Verifiers ranking on WalletScrutiny!" %}
 </div>
 
 <div id="attestatorsTable"></div>
 
-<script src="{{'/dist/attestation.bundle.min.js' | relative_url }}"></script>
+<script src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
 
 <script>
   (async () => {
@@ -55,24 +94,22 @@ permalink: /attestators/
 
     await nostrConnect();
 
-    const response = await getAllAssetInformation({
-      months: 6
-    });
+    const response = await getAllAssetInformation({});
 
     const attestatorStats = new Map();
 
-    response.attestations.forEach((attestationList, sha256) => {
-      attestationList.forEach(attestation => {
-        const pubkey = attestation.pubkey;
+    response.verifications.forEach((verificationList, sha256) => {
+      verificationList.forEach(verification => {
+        const pubkey = verification.pubkey;
 
         const currentStats = attestatorStats.get(pubkey) || {
-          attestations: 0,
+          verifications: 0,
           endorsements: 0
         };
 
-        currentStats.attestations += 1;
+        currentStats.verifications += 1;
 
-        const endorsements = response.endorsements.get(attestation.id) || [];
+        const endorsements = response.endorsements.get(verification.id) || [];
         const reproducibleEndorsements = endorsements.filter(endorsement => 
           getFirstTag(endorsement, 'status') === 'reproducible'
         ).length;
@@ -83,21 +120,21 @@ permalink: /attestators/
     });
 
     const sortedAttestators = Array.from(attestatorStats.entries())
-      .sort((a, b) => (b[1].attestations + b[1].endorsements) - (a[1].attestations + a[1].endorsements));
+      .sort((a, b) => (b[1].verifications + b[1].endorsements) - (a[1].verifications + a[1].endorsements));
 
     const tableHTML = `
       <table>
         <thead>
           <tr>
-            <th>Attestator</th>
-            <th># Attestations</th> <!-- , Endorsements -->
+            <th>Verifier</th>
+            <th># Verifications</th> <!-- , Endorsements -->
           </tr>
         </thead>
         <tbody>
           ${sortedAttestators.map(([pubkey, stats]) => `
             <tr>
-              <td class="attestator-card-column" id="profile-${pubkey}"><a href="/attestator/?pubkey=${pubkey}">${getNpubFromPubkey(pubkey)}</a></td>
-              <td class="attestation-count-column">${stats.attestations}</td> <!-- , ${stats.endorsements} -->
+              <td class="attestator-card-column" id="profile-${pubkey}"><a href="/verifier/?pubkey=${pubkey}">${getNpubFromPubkey(pubkey)}</a></td>
+              <td class="attestation-count-column">${stats.verifications}</td> <!-- , ${stats.endorsements} -->
             </tr>
           `).join('')}
         </tbody>
@@ -117,7 +154,7 @@ permalink: /attestators/
         const profileElement = document.getElementById(`profile-${pubkey}`);
         if (profileElement) {
           profileElement.innerHTML = `
-            <div class="profile-card" onclick="window.location.href='/attestator/?pubkey=${pubkey}'">
+            <div class="profile-card" onclick="window.location.href='/verifier/?pubkey=${pubkey}'">
               ${profile.image ? `<img src="${profile.image}" class="profile-image" onerror="this.style.display='none'"/>` : ''}
               <div class="profile-info">
                 <div>${profile.name || pubkey}</div>
