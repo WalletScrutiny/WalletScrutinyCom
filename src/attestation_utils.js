@@ -34,9 +34,7 @@ const validateUrl = function(url) {
 
 const getNostrProfile = async function (pubkey) {
   const user = ndk.getUser({ pubkey });
-  await user.fetchProfile();
-
-  return user.profile;
+  return await user.fetchProfile();
 }
 
 const createAssetRegistration = async function ({
