@@ -24,6 +24,7 @@ permalink: /attestators/
     gap: 10px;
     margin: 0;
     padding: 6px;
+    cursor: pointer;
   }
   .profile-image {
     width: 40px;
@@ -127,7 +128,7 @@ permalink: /attestators/
         const profileElement = document.getElementById(`profile-${pubkey}`);
         if (profileElement) {
           profileElement.innerHTML = `
-            <div class="profile-card">
+            <div class="profile-card" onclick="window.location.href='/attestator/?pubkey=${pubkey}'">
               ${profile.image ? `<img src="${profile.image}" class="profile-image" onerror="this.style.display='none'"/>` : ''}
               <div class="profile-info">
                 <div>${profile.name || pubkey}</div>
