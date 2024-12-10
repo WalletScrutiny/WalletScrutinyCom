@@ -44,6 +44,7 @@ permalink: /binaries/
     align-items: center;
     gap: 10px;
     margin: 0;
+    cursor: pointer;
   }
   .profile-image {
     width: 40px;
@@ -242,7 +243,7 @@ permalink: /binaries/
       const profile = await getNostrProfile(attestation.pubkey);
       
       document.getElementById('attempt-by').innerHTML = `
-        <div class="profile-card">
+        <div class="profile-card" onclick="window.location.href='/attestator/?pubkey=${attestation.pubkey}'">
           ${profile.image ? `<img src="${profile.image}" class="profile-image" onerror="this.style.display='none'"/>` : ''}
           <div class="profile-info">
             <div>${profile.name || attestation.pubkey}</div>
