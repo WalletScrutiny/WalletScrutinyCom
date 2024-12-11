@@ -24,8 +24,8 @@ issue:
 icon: coldlar.ultra.png
 bugbounty: 
 meta: ok
-verdict: nosource
-date: 2024-12-09
+verdict: plainkey
+date: 2024-12-11
 signer: 
 reviewArchive: 
 twitter: Coldlar
@@ -46,13 +46,25 @@ features:
 - 5 inch touch screen
 - Fingerprint recognition 
 
+### Companion App
+
+- The device requires a companion app. The Android app could be [downloaded](https://www.coldlar.com/en/download) from the website since it is not available on Google Play. We installed this app on an Android emulator, and it is named "Coinbag-1.2.0.apk"
+- The iPhone companion app redirects to {% include walletLink.html wallet='iphone/com.coinlinksec' verdict='true' %}, which seems to have a different name from ColdLar. Like the Android app, it is named Coinbag.
+- We could not find a desktop app.
+
+### This is a recording of the companion app running on an Android emulator.
+
+<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">ColdLar Wallet&#39;s companion app is named CoinBagWallet. <a href="https://t.co/7Cb4FBoH8p">pic.twitter.com/7Cb4FBoH8p</a></p>&mdash; 🐧 dannybuntu (@dannybuntu) <a href="https://twitter.com/dannybuntu/status/1866769455193395279?ref_src=twsrc%5Etfw">December 11, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+- The companion app does not have an officially designated Google Play application ID. From what we tested on the emulator, if the app is not connected via QR code or NFC, it will not work since these two options are needed to access some of the wallet functionalities.
+
 ## Private keys can be created offline - ✔️
 
 The ColdLar Ultra uses a two-part system:
 - Hardware cold wallet (cold end) - handles private key generation, transaction construction and digital signatures
 - Coldlar App (hot end) - connects to blockchain network for balance queries and transaction broadcasting
 
-Note: The Android app is not available on Google Play.
+**Note:** The Android app is not available on Google Play.
 
 The device offers two methods for private key generation:
 1. Random seed password + payment password combination
@@ -60,9 +72,10 @@ The device offers two methods for private key generation:
 
 All key operations are performed offline, with cold-hot communication strictly via QR codes, ensuring private keys never touch the internet.
 
-## Private keys are not shared - ✔️
+## Private keys are not shared - **?**
 
 According to the manual:
+
 1. The seed password is not stored in plaintext but is encrypted using the payment password
 2. ColdLar explicitly states they do not store user seed passwords or payment passwords
 3. Users must have both seed password and payment password to control assets
@@ -73,21 +86,17 @@ According to the manual:
    - Never entering passwords on any webpage
    - Never saving on networked devices
 
-## Device displays receive address for confirmation - ✔️
+## Analysis
 
-According to this [tutorial video](https://youtu.be/RSFemN3hjAE), the Coldlar device will display the receive address for confirmation.
+Although the manual claims that: 
 
-## Interface - ✔️
+> The cold end manages the private keys,mainly responsible for generating private keys,constructing transactions and digital signatures;the hot end connects to the blockchain network,mainly responsible for querying balances,broadcasting transactions and monitoring asset dynamics. The cold and hot ends communicate via QR codes,ensuring that the private key never touches the internet, completely eliminating the risk of private key theft by online hackers
 
-The device features:
-- 5-inch touch screen display
-- Fingerprint recognition
-- QR code scanning capability for air-gapped transactions
+1. If the source code is not available for both the app or the firmware, users would have to *trust* that these claims are true. There simply is no way to verify this.
+2. Having an app that is not available on Google Play is another point of concern. Downloading an apk straight from the servers of the provider, without any verification, is another security risk.
 
-## Source-availability
+- What if a disgruntled employee, replaces the apk with a malicious one?
+- What if the apk is modified to do something else?
 
-- A search on Github for "Coldlar" resulted in an organization page.
-- The Coldlar organization only had a fork of the website bitcoincash.org as their sole repository.
-
-There are **no** claims and proof that the Coldlar Ultra device is **source-available**.  
+For this reason, the risk that we see is that this device could potentially be connecting to an unsecure app which claims to do one thing, but does not provide proof of that. We will give this device a verdict of **plainkey** since the possibility of it sharing private key information from an unverifiable app is likely.
 
