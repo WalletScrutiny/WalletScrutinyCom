@@ -21,10 +21,12 @@ issue:
 icon: com.btcontract.wallet.png
 bugbounty: 
 meta: ok
-verdict: reproducible
-appHashes: [255a6fc14d8c900d92f9a707c73b50e2f1668ed020f2f23da3af50ca6fa7dd05]
-date: 2023-11-09
-signer: dca2c3527ec7f7c0e38c0353278e7a5674cfa6e4b7556510ff05f60073ca338a
+reviewCurrent:
+  version: 2.5.8
+  signer: dca2c3527ec7f7c0e38c0353278e7a5674cfa6e4b7556510ff05f60073ca338a
+  appHashes: [255a6fc14d8c900d92f9a707c73b50e2f1668ed020f2f23da3af50ca6fa7dd05]
+  verdict: reproducible
+  date: 2023-11-09
 reviewArchive:
 - date: 2023-10-07
   version: 2.5.4

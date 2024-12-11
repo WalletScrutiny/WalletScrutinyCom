@@ -1,8 +1,7 @@
-// Run as 'node scripts/markdown_processor.mjs /path/to/markdown/files'
+// Run as 'node scripts/markdown_processor.mjs /path/to/markdown/files [--verdict=value]'
 // Alpha-1.1
 
 import fs from 'fs';
-import { promisify } from 'util';
 import path from 'path';
 import { fileURLToPath } from 'url'; // Moved import to the top
 import { dirname } from 'path';
@@ -46,7 +45,7 @@ async function findMarkdownFiles(directory) {
   return markdownFiles;
 }
 
-async function processFile(filePath) {
+async function processFile(filePath, targetVerdict) {
   try {
     let content = await fs.promises.readFile(filePath, 'utf-8');
 
@@ -62,7 +61,7 @@ async function processFile(filePath) {
       );
       if (fieldsPresent) {
         logInfo(`Skipped ${filePath} (already correctly formatted).`);
-        return false;
+        return null;
       } else {
         logInfo(`Processing ${filePath} (incomplete reviewCurrent).`);
       }
@@ -71,128 +70,201 @@ async function processFile(filePath) {
     }
 
     // Process content
-    content = await processContent(content);
+    const properties = await processContent(content);
 
-    // Write the updated content back to the file
-    await writeFile(filePath, content);
-    logInfo(`Successfully processed ${filePath}`);
-    return true;
+    // Skip files that don't match the target verdict
+    if (targetVerdict && properties.verdict !== targetVerdict) {
+      logInfo(`Skipping ${filePath} - verdict '${properties.verdict}' doesn't match target '${targetVerdict}'`);
+      return null;
+    }
+
+    const newContent = await processContentWithoutResults(content, properties);
+    if (newContent !== content) {
+      await writeFile(filePath, newContent);
+      logInfo(`Updated ${filePath}`);
+      return filePath;
+    }
+    return null;
   } catch (error) {
-    logError(`Error processing ${filePath}: ${error.message}`);
-    return false;
+    logError(`Error processing file ${filePath}: ${error.message}`);
+    return null;
   }
+}
+
+// Helper function to extract properties from Results block
+function extractResultsProperties(resultsBlock) {
+  const properties = {};
+  const patterns = {
+    version: /apkVersionName:\s*(\S+)/,
+    signer: /signer:\s*(\S+)/,
+    appHash: /appHash:\s*(\S+)/,
+    verdict: /verdict:\s*(\S+)/,
+    gitRevision: /commit:\s*(\S+)/
+  };
+
+  for (const [key, pattern] of Object.entries(patterns)) {
+    const match = resultsBlock.match(pattern);
+    if (match && match[1] && match[1].trim() !== '') {
+      properties[key] = match[1].trim();
+    }
+  }
+
+  return properties;
+}
+
+// Helper function to extract top-level fields
+function extractTopLevelFields(content) {
+  const fields = {};
+  const patterns = {
+    version: /^version:\s*['"]?([^'"}\s]+)['"]?\s*$/m,
+    signer: /^signer:\s*(\S+)\s*$/m,
+    appHashes: /^appHashes:\s*\[(.*?)\]\s*$/m,
+    verdict: /^verdict:\s*(\S+)\s*$/m,
+    date: /^date:\s*(\S+)\s*$/m
+  };
+
+  for (const [key, pattern] of Object.entries(patterns)) {
+    const match = content.match(pattern);
+    if (match && match[1] && match[1].trim() !== '') {
+      if (key === 'appHashes') {
+        // Handle appHashes array format
+        const hashesStr = match[1].trim();
+        fields[key] = hashesStr ? hashesStr.split(',').map(h => h.trim()) : [];
+      } else {
+        fields[key] = match[1].trim();
+      }
+    }
+  }
+
+  return fields;
 }
 
 async function processContent(content) {
   // Normalize line endings
   content = content.replace(/\r\n/g, '\n').replace(/\r/g, '\n');
 
-  // Find the Results block
-  const resultsBlockMatch = content.match(/===== Begin Results =====[\s\S]*?===== End Results =====/);
-  if (resultsBlockMatch) {
-    const resultsBlock = resultsBlockMatch[0];
-    const beforeResults = content.slice(0, resultsBlockMatch.index);
-    const afterResults = content.slice(resultsBlockMatch.index + resultsBlock.length);
+  // Find all Results blocks
+  const resultsBlocks = [...content.matchAll(/===== Begin Results =====([\s\S]*?)===== End Results =====/g)];
+  
+  let properties = {};
+  
+  if (resultsBlocks.length > 0) {
+    // Sort Results blocks by date if present, otherwise use the last one
+    const blocksWithDates = resultsBlocks.map(match => {
+      const block = match[0];
+      const dateMatch = block.match(/date:\s*(\S+)/);
+      return {
+        block,
+        date: dateMatch ? new Date(dateMatch[1]) : new Date(0),
+        index: match.index
+      };
+    });
 
-    // Extract appHash from the results block
-    const appHashMatch = resultsBlock.match(/appHash:\s*([0-9a-fA-F]+)/);
-    const appHashValue = appHashMatch ? appHashMatch[1] : null;
+    // Sort by date in descending order (most recent first)
+    blocksWithDates.sort((a, b) => b.date - a.date);
+    
+    // Use the most recent Results block
+    const mostRecentBlock = blocksWithDates[0];
+    properties = extractResultsProperties(mostRecentBlock.block);
+    
+    // Split content and process
+    const beforeResults = content.slice(0, mostRecentBlock.index);
+    const afterResults = content.slice(mostRecentBlock.index + mostRecentBlock.block.length);
 
-    // Process before_results
-    const beforeResultsProcessed = await processContentWithoutResults(beforeResults, appHashValue);
+    // Extract top-level fields to fill in any missing properties
+    const topLevelFields = extractTopLevelFields(beforeResults);
+    
+    // Merge properties, preferring Results block values over top-level fields
+    properties = {
+      version: properties.version || topLevelFields.version || '',
+      signer: properties.signer || topLevelFields.signer || '',
+      appHash: properties.appHash || (topLevelFields.appHashes ? topLevelFields.appHashes[0] : ''),
+      verdict: properties.verdict || topLevelFields.verdict || '',
+      date: topLevelFields.date || new Date().toISOString().split('T')[0]
+    };
 
-    // Process after_results
+    // Process content parts
+    const beforeResultsProcessed = await processContentWithoutResults(beforeResults, properties);
     const afterResultsProcessed = await processContentWithoutResults(afterResults, null);
 
     // Reassemble the content
-    content = beforeResultsProcessed + resultsBlock + afterResultsProcessed;
+    content = beforeResultsProcessed + mostRecentBlock.block + afterResultsProcessed;
   } else {
-    // No Results block, process the entire content
-    content = await processContentWithoutResults(content, null);
+    // No Results block, extract from top-level fields
+    const topLevelFields = extractTopLevelFields(content);
+    properties = {
+      version: topLevelFields.version || '',
+      signer: topLevelFields.signer || '',
+      appHash: topLevelFields.appHashes ? topLevelFields.appHashes[0] : '',
+      verdict: topLevelFields.verdict || '',
+      date: topLevelFields.date || new Date().toISOString().split('T')[0]
+    };
+    
+    content = await processContentWithoutResults(content, properties);
   }
 
-  return content;
+  return properties;
 }
 
-async function processContentWithoutResults(content, appHashValue) {
-  // Normalize line endings
-  content = content.replace(/\r\n/g, '\n').replace(/\r/g, '\n');
-
-  // Split the content into lines
-  const lines = content.split('\n');
-
-  // Initialize variables
-  let version = '';
-  let signer = '';
-  let verdict = '';
-  let date = '';
-  const newLines = [];
-  let inFrontMatter = false;
-
-  for (const line of lines) {
-    const strippedLine = line.trim();
-    if (strippedLine === '---') {
-      inFrontMatter = !inFrontMatter;
-      newLines.push(line);
-      continue;
-    }
-    if (inFrontMatter) {
-      if (line.startsWith('version:')) {
-        version = line.split(':').slice(1).join(':').trim();
-      } else if (line.startsWith('signer:')) {
-        signer = line.split(':').slice(1).join(':').trim();
-      } else if (line.startsWith('verdict:')) {
-        verdict = line.split(':').slice(1).join(':').trim();
-      } else if (line.startsWith('date:')) {
-        date = line.split(':').slice(1).join(':').trim();
-      } else if (line.startsWith('appHashes:')) {
-        // Remove appHashes from top-level fields
-        // Do nothing
-      } else {
-        newLines.push(line);
-      }
-    } else {
-      newLines.push(line);
-    }
+async function processContentWithoutResults(content, properties) {
+  // Split content at both '---' separators
+  const parts = content.split('---');
+  
+  // We need at least 3 parts: top section, metadata section, and review section
+  if (parts.length < 3) {
+    logError('Content does not have the expected format with two "---" separators');
+    return content;
   }
+
+  // Extract the sections
+  const [topSection, metadataSection, ...reviewSections] = parts;
+
+  // Split metadata section into lines
+  const metadataLines = metadataSection.split('\n');
+  
+  // Find the index of reviewArchive
+  const archiveIndex = metadataLines.findIndex(line => line.startsWith('reviewArchive:'));
+  
+  // Filter out standalone fields (not under reviewArchive) that will be moved to reviewCurrent
+  const filteredLines = metadataLines.filter(line => {
+    const trimmed = line.trim();
+    if (!trimmed) return true; // Keep empty lines
+    if (line.startsWith(' ')) return true; // Keep indented lines (they're under something)
+    return !line.startsWith('verdict:') && 
+           !line.startsWith('date:') && 
+           !line.startsWith('appHashes:') &&
+           !line.startsWith('signer:') &&
+           !line.startsWith('reviewCurrent:');
+  });
 
   // Build the reviewCurrent block
-  const appHashes = appHashValue ? `[${appHashValue}]` : '[]';
+  const appHashes = properties.appHash ? `[${properties.appHash}]` : '[]';
   const reviewCurrentBlock = [
     'reviewCurrent:',
-    `  version: ${version}`,
-    `  signer: ${signer}`,
+    `  version: ${properties.version || ''}`,
+    `  signer: ${properties.signer || ''}`,
     `  appHashes: ${appHashes}`,
-    `  verdict: ${verdict}`,
-    `  date: ${date}`,
-  ].join('\n');
+    `  verdict: ${properties.verdict || ''}`,
+    `  date: ${properties.date || ''}`
+  ];
 
-  // Insert reviewCurrent before reviewArchive or at the end of front matter
-  let inserted = false;
-  for (let i = 0; i < newLines.length; i++) {
-    if (newLines[i].startsWith('reviewArchive:')) {
-      newLines.splice(i, 0, reviewCurrentBlock);
-      inserted = true;
-      break;
-    }
-  }
-  if (!inserted) {
-    // Insert before closing '---'
-    for (let i = 0; i < newLines.length; i++) {
-      if (newLines[i].trim() === '---' && i !== 0) {
-        newLines.splice(i, 0, reviewCurrentBlock);
-        break;
-      }
-    }
+  // Create new metadata section with reviewCurrent in the right place
+  let newMetadataLines = [];
+  if (archiveIndex !== -1) {
+    const archiveIndexInFiltered = filteredLines.findIndex(line => line.startsWith('reviewArchive:'));
+    newMetadataLines = [
+      ...filteredLines.slice(0, archiveIndexInFiltered),
+      ...reviewCurrentBlock,
+      ...filteredLines.slice(archiveIndexInFiltered)
+    ];
+  } else {
+    newMetadataLines = [...filteredLines, ...reviewCurrentBlock];
   }
 
-  // Join the lines back together
-  content = newLines.join('\n');
-
-  // Process the reviewArchive section
-  content = await processReviewArchive(content);
-
-  return content;
+  // Combine all sections back together, preserving original separators
+  return topSection + '---' + 
+         newMetadataLines.join('\n') + '---' + 
+         reviewSections.join('---');
 }
 
 async function processReviewArchive(content) {
@@ -227,31 +299,40 @@ async function writeFile(filePath, content) {
   await fs.promises.writeFile(filePath, content, 'utf-8');
 }
 
-async function main(directory) {
-  const markdownFiles = await findMarkdownFiles(directory);
-  let processedCount = 0;
-  for (const file of markdownFiles) {
-    if (await processFile(file)) {
-      processedCount += 1;
-    }
+async function main(directory, targetVerdict) {
+  try {
+    const files = await findMarkdownFiles(directory);
+    logInfo(`Found ${files.length} markdown files`);
+    
+    const processedFiles = await Promise.all(files.map(file => processFile(file, targetVerdict)));
+    const updatedFiles = processedFiles.filter(file => file !== null);
+    
+    logInfo(`Successfully processed ${updatedFiles.length} files`);
+    logStream.end();
+  } catch (error) {
+    logError(`Error in main: ${error.message}`);
+    logStream.end();
+    process.exit(1);
   }
-  logInfo(`Successfully processed ${processedCount} out of ${markdownFiles.length} files.`);
-  console.log(`Modified ${processedCount} files out of ${markdownFiles.length}.`);
-
-  // Close the log stream
-  logStream.end();
 }
 
 // Execute the main function if the script is run directly
 if (process.argv[1] === __filename) {
   const args = process.argv.slice(2);
   if (args.length < 1) {
-    console.error('Usage: node markdown_processor.mjs <directory>');
+    console.error('Please provide a directory path');
     process.exit(1);
   }
+
   const directory = args[0];
-  main(directory).catch((error) => {
-    logError(`Error in main: ${error.message}`);
-    console.error(`Error: ${error.message}`);
-  });
+  let targetVerdict = null;
+
+  // Parse command line arguments for verdict
+  const verdictArg = args.find(arg => arg.startsWith('--verdict='));
+  if (verdictArg) {
+    targetVerdict = verdictArg.split('=')[1];
+    logInfo(`Filtering for verdict: ${targetVerdict}`);
+  }
+
+  main(directory, targetVerdict);
 }

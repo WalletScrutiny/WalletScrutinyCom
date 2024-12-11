@@ -21,10 +21,12 @@ issue:
 icon: io.horizontalsystems.bankwallet.png
 bugbounty: 
 meta: ok
-verdict: reproducible
-appHashes: [05c83d8031798a0f336109d980eac799a94307d3d0a3d842e0b2d53b54b0d36c]
-date: 2024-08-20
-signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
+reviewCurrent:
+  version: 0.39.3
+  signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
+  appHashes: [05c83d8031798a0f336109d980eac799a94307d3d0a3d842e0b2d53b54b0d36c]
+  verdict: reproducible
+  date: 2024-08-20
 reviewArchive:
 - date: 2024-08-05
   version: 0.39.2

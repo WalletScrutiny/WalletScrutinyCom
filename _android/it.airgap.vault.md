@@ -22,10 +22,12 @@ issue: https://github.com/airgap-it/airgap-vault/issues/197
 icon: it.airgap.vault.png
 bugbounty: 
 meta: ok
-verdict: reproducible
-appHashes: [11c8dbf7056df1d700d947891cda94929c4ce4ea16c418c8dc0cac453577d0f3]
-date: 2024-08-29
-signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
+reviewCurrent:
+  version: 3.32.3
+  signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
+  appHashes: [11c8dbf7056df1d700d947891cda94929c4ce4ea16c418c8dc0cac453577d0f3]
+  verdict: reproducible
+  date: 2024-08-29
 reviewArchive:
 - date: 2024-08-07
   version: 3.32.2

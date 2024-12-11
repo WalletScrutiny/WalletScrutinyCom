@@ -20,10 +20,12 @@ issue:
 icon: world.bitkey.app.png
 bugbounty: 
 meta: ok
-verdict: reproducible
-appHashes: []
-date: 2024-08-30
-signer: c0d0f9da7158cde788d0281e9ebd07034178165584d635f7ce17f77c037d961a
+reviewCurrent:
+  version: 
+  signer: c0d0f9da7158cde788d0281e9ebd07034178165584d635f7ce17f77c037d961a
+  appHashes: []
+  verdict: reproducible
+  date: 2024-08-30
 reviewArchive:
 - date: 2024-08-30
   version: 2024.67.0 (1)

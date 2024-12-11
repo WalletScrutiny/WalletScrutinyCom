@@ -22,10 +22,12 @@ issue:
 icon: de.schildbach.wallet.png
 bugbounty: 
 meta: ok
-verdict: reproducible
-appHashes: [870b9ae00e1ad8d9d957e03880f4fa338edb7db4410032920014a61b8a9a8259]
-date: 2024-09-04
-signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
+reviewCurrent:
+  version: 10.16
+  signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
+  appHashes: [870b9ae00e1ad8d9d957e03880f4fa338edb7db4410032920014a61b8a9a8259]
+  verdict: reproducible
+  date: 2024-09-04
 reviewArchive:
 - date: 2024-07-01
   version: '10.15'

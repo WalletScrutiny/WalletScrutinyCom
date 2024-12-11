@@ -21,10 +21,12 @@ issue:
 icon: com.greenaddress.abcore.png
 bugbounty: 
 meta: removed
-verdict: reproducible
-appHashes: []
-date: 2024-04-19
-signer: 
+reviewCurrent:
+  version: VARY
+  signer: reviewArchive:
+  appHashes: []
+  verdict: reproducible
+  date: 2024-04-19
 reviewArchive: 
 twitter: 
 social: 
