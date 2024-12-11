@@ -45,6 +45,10 @@ node scripts/twitterCardGen.mjs
 
 wait
 
+echo " * Generating verdict pills..."
+./scripts/pillGen.sh
+wait
+
 echo " * Calling refreshResults.sh..."
 ./refreshResults.sh
 
