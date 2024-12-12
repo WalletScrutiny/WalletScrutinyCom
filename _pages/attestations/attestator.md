@@ -4,26 +4,11 @@ title: "Attestator Page"
 permalink: /attestator/
 ---
 
-<style>
-  .profile-card {
-    text-align: center;
-    padding: 20px;
-    max-width: 400px;
-    margin: 0 auto;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    margin-bottom: 20px;
-  }
+<link rel="stylesheet" href="{{ base_path }}/assets/css/attestations.css">
 
+<style>
   #binariesTable {
     margin-top: 20px;
-  }
-
-  thead {
-    background-color: #f5f5f5;
-  }
-  body.dark thead {
-    background-color: #656565;
   }
 </style>
 
@@ -55,7 +40,7 @@ permalink: /attestator/
       const profile = await getNostrProfile(pubkey);
 
       document.getElementById('attestator').innerHTML = `
-        <div class="profile-card">
+        <div class="big-profile-card">
           <img src="${profile.image}" alt="Profile Picture" style="width: 200px; height: 200px; border-radius: 50%; margin-bottom: 10px;">
           <div style="font-size: 1.5em; font-weight: bold;">${profile.name}</div>
         </div>
