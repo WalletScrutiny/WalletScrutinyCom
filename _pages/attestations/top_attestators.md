@@ -4,52 +4,11 @@ title: "Top Attestators"
 permalink: /attestators/
 ---
 
+<link rel="stylesheet" href="{{ base_path }}/assets/css/attestations.css">
+
 <style>
-  .spinner {
-    border: 8px solid rgba(0, 0, 0, 0.1);
-    border-top: 8px solid #3498db;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    animation: spin 1s linear infinite;
-  }
-  @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-  }
-
-  .profile-card {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin: 0;
-    padding: 6px;
-    cursor: pointer;
-  }
-  .profile-image {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    object-fit: cover;
-  }
-  .profile-info {
-    display: flex;
-    flex-direction: column;
-  }
-  .profile-nip05 {
-    font-size: 0.9em;
-    color: #666;
-  }
-
   .attestation-count {
     text-align: center;
-  }
-
-  thead {
-    background-color: #f5f5f5;
-  }
-  body.dark thead {
-    background-color: #656565;
   }
 </style>
 
