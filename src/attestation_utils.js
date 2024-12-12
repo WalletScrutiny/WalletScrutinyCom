@@ -182,18 +182,24 @@ const getTimestampMonthsAgo = function(months = 6) {
   return Math.floor(date.getTime() / 1000); // Convert to Unix timestamp (seconds)
 }
 
-const getAttestationInfoLastMonths = async function({ months, pubkey }) {
-  console.debug(`Getting events from last ${months} months`);
-
+const getAttestationInfoLastMonths = async function({ months, pubkey, appId, limit }) {
   await ndk.connect(connectTimeout);
 
   const filter = {
     kinds: [assetRegistrationKind, attestationKind, endorsementKind],
-    since: getTimestampMonthsAgo(months)
   };
-
+  if (months) {
+    console.debug(`Getting events from last ${months} months`);
+    filter.since = getTimestampMonthsAgo(months);
+  }
   if (pubkey) {
     filter.authors = [pubkey];
+  }
+  if (appId) {
+    filter["#i"] = [appId];
+  }
+  if (limit) {
+    filter.limit = limit;
   }
 
   const events = await ndk.fetchEvents(filter);
