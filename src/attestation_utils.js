@@ -33,6 +33,7 @@ const validateUrl = function(url) {
 }
 
 const getNostrProfile = async function (pubkey) {
+  await ndk.connect(connectTimeout);
   const user = ndk.getUser({ pubkey });
   return await user.fetchProfile();
 }
