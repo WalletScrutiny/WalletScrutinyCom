@@ -66,7 +66,9 @@ permalink: /attestators/
   (async () => {
     document.getElementById('loadingSpinner').style.display = 'block';
 
-    const response = await getAttestationInfoLastMonths();
+    const response = await getAttestationInfoLastMonths({
+      months: 6
+    });
 
     const attestatorStats = new Map();
 
