@@ -24,7 +24,7 @@ permalink: /binaries/
   (async () => {
     document.getElementById('loadingSpinner').style.display = 'block';
 
-    await renderAssetsTable('binariesTable');
+    await renderAssetsTable({htmlElementId: 'binariesTable'});
 
     document.getElementById('loadingSpinner').style.display = 'none';
 
