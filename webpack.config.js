@@ -9,7 +9,10 @@ module.exports = {
       './assets/js/plugins/jquery.fitvids.js',
       './assets/js/plugins/jquery.greedy-navigation.js'
     ],
-    attestation: './src/attestation_utils.js'
+    attestation: [
+      './src/attestation_utils.js',
+      './src/assets-table.js'
+    ]
   },
   output: {
     filename: '[name].bundle.min.js',
