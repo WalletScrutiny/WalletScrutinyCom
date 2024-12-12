@@ -69,12 +69,12 @@ reviewArchive:
 - data: 2023-04-27
   version: 3.25.0
   appHash: 5d61189f93a120d87d03433236d222b3bdd44e6678f970728706e48d5eb9a514
-  gitRevision: 35f35e68120480b84f511f869dcbcfce89e59ac5
+  gitRevision: a65a08716f1d718fc1762824b5fc35478d90d807
   verdict: reproducible
 - data: 2022-11-02
   version: 3.18.0
   appHash: c7c35602fd09fa04c3435dc1a5382bd872f02b7cb03f005f263e7701e5342998
-  gitRevision: 1cc56548e3bf450bdf87f6440105e2d464cea29b
+  gitRevision: a65a08716f1d718fc1762824b5fc35478d90d807
   verdict: reproducible
 - date: 2022-08-07
   version: 3.17.2

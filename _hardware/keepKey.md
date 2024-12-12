@@ -38,7 +38,7 @@ reviewArchive:
 - date: 2022-08-07
   version: 7.2.1
   appHash: c6cf79e7c2cc1b9cf7eca57aacaab5310b4dd0eff1559cda307295d753251eff
-  gitRevision: d676685e46f55e2adc586138dab8ad0506505969
+  gitRevision: 4d17758721800cfb909014c9a158065de16cc6d3
   verdict: reproducible
 - date: 2021-07-31
   version: 7.1.7

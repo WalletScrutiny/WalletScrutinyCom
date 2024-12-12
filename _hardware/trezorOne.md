@@ -32,7 +32,7 @@ reviewArchive:
 - date: 2022-12-05
   version: 1.11.2
   appHash: 948098e56cf02f1d7b0660d44f02451dfd81b3114af87c962e7c6012f58853bb
-  gitRevision: 0d87b55ba4fed7eecc72bf2a94ee473830b095e9
+  gitRevision: fcb6c11f4f50b25bafda2706c89938daa5c8399e
   verdict: reproducible
 - date: 2022-08-07
   version: 1.10.5

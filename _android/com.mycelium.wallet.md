@@ -42,7 +42,7 @@ reviewArchive:
 - date: 2023-01-12
   version: 3.16.0.15
   appHash: 50534bbe29e778e6b8d0ade5cb2c2524c6333b27446bb06e1880771c6009ec99
-  gitRevision: 48c4143403d94cf29a968f1510d714fd7c49efcf
+  gitRevision: 7040a9add3e44cbaac48e7d412c898cff071ffb5
   verdict: reproducible
 - date: 2022-11-04
   version: 3.16.0.13

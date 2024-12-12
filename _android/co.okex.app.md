@@ -27,7 +27,7 @@ reviewArchive:
 - date: 2020-11-16
   version: ''
   appHash: 
-  gitRevision: bcb5dbfd724ca531c1965cce7ef0d38f023e4c0c
+  gitRevision: 7040a9add3e44cbaac48e7d412c898cff071ffb5
   verdict: custodial
 twitter: 
 social: 
