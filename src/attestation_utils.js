@@ -199,7 +199,6 @@ const getAttestationInfoLastMonths = async function({ months, assetsPubkey, atte
   if (appId) {
     filter_assets["#i"] = [appId];
   }
-  console.log('filter_assets', filter_assets);
 
   // Filter Attestations + Endorsements
   const filter_attestations = {
