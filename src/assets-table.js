@@ -1,6 +1,6 @@
 let response = null;
 
-window.renderAssetsTable = async function({htmlElementId, assetsPubkey, appId}) {
+window.renderAssetsTable = async function({htmlElementId, assetsPubkey, appId, compact}) {
   response = await getAttestationInfoLastMonths({
     months: 6,
     assetsPubkey,
@@ -17,7 +17,7 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, appId}) 
   table.innerHTML = `
     <thead>
       <tr>
-        <th style="text-align: center;">Wallet</th>
+        ${!compact ? '<th style="text-align: center;">Wallet</th>' : ''}
         <th style="text-align: center;">Version</th>
         <th style="text-align: center;">Asset Description</th>
         <th style="text-align: center;">SHA256</th>
@@ -75,9 +75,9 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, appId}) 
 
     const row = document.createElement('tr');
     row.innerHTML = `
-      <td style="text-align: center;">
+      ${!compact ? `<td style="text-align: center;">
         ${wallet ? `<a href="${wallet.url}" target="_blank" rel="noopener noreferrer">${walletTitle}</a>` : walletTitle}
-      </td>
+      </td>` : ''}
       <td style="text-align: center;">${version}</td>
       <td>${binary.content}</td>
       <td style="text-align: center;">
@@ -98,9 +98,11 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, appId}) 
   document.getElementById(htmlElementId).appendChild(table);
 
   // Add spacer div after table
-  const spacer = document.createElement('div');
-  spacer.style.height = '300px';
-  document.getElementById(htmlElementId).appendChild(spacer);
+  if (!compact) {
+    const spacer = document.createElement('div');
+    spacer.style.height = '300px';
+    document.getElementById(htmlElementId).appendChild(spacer);
+  }
 };
 
 window.showAttestationModal = async function(sha256Hash, attestationId) {
