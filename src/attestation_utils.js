@@ -182,27 +182,37 @@ const getTimestampMonthsAgo = function(months = 6) {
   return Math.floor(date.getTime() / 1000); // Convert to Unix timestamp (seconds)
 }
 
-const getAttestationInfoLastMonths = async function({ months, pubkey, appId, limit }) {
+const getAttestationInfoLastMonths = async function({ months, assetsPubkey, attestationsPubkey, appId }) {
   await ndk.connect(connectTimeout);
 
-  const filter = {
-    kinds: [assetRegistrationKind, attestationKind, endorsementKind],
+  // Filter Assets
+  const filter_assets = {
+    kinds: [assetRegistrationKind],
   };
   if (months) {
     console.debug(`Getting events from last ${months} months`);
-    filter.since = getTimestampMonthsAgo(months);
+    filter_assets.since = getTimestampMonthsAgo(months);
   }
-  if (pubkey) {
-    filter.authors = [pubkey];
+  if (assetsPubkey) {
+    filter_assets.authors = [assetsPubkey];
   }
   if (appId) {
-    filter["#i"] = [appId];
+    filter_assets["#i"] = [appId];
   }
-  if (limit) {
-    filter.limit = limit;
+  console.log('filter_assets', filter_assets);
+
+  // Filter Attestations + Endorsements
+  const filter_attestations = {
+    kinds: [attestationKind, endorsementKind],
+  }
+  if (months) {
+    filter_attestations.since = getTimestampMonthsAgo(months);
+  }
+  if (attestationsPubkey) {
+    filter_attestations.authors = [attestationsPubkey];
   }
 
-  const events = await ndk.fetchEvents(filter);
+  const events = await ndk.fetchEvents([filter_assets, filter_attestations]);
 
   const attestationsMap = new Map();
   const endorsementsMap = new Map();

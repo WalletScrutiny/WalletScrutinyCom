@@ -1,9 +1,9 @@
 let response = null;
 
-window.renderAssetsTable = async function({htmlElementId, pubkey, appId}) {
+window.renderAssetsTable = async function({htmlElementId, assetsPubkey, appId}) {
   response = await getAttestationInfoLastMonths({
     months: 6,
-    pubkey,
+    assetsPubkey,
     appId
   });
 

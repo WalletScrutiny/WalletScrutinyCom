@@ -47,7 +47,7 @@ permalink: /attestator/
       `;
 
       // Binaries
-      await renderAssetsTable({htmlElementId:'binariesTable', pubkey});
+      await renderAssetsTable({htmlElementId:'binariesTable', assetsPubkey: pubkey});
 
       document.getElementById('closeModal').onclick = function() {
         document.getElementById('attestationModal').style.display = 'none';
