@@ -30,3 +30,11 @@
     font-size: 0.9em;
     color: #666;
 }
+@media screen and (max-width: 767px) {
+    .profile-nip05 {
+        font-size: 0.6em;
+    }
+    .profile-card {
+        gap: 2px;
+    }
+}

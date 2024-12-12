@@ -7,6 +7,23 @@
   width: 100%;
 }
 
+@media screen and (max-width: 480px) {
+  .hide-on-mobile {
+    display: none !important;
+  }
+  .show-on-mobile {
+    display: initial !important;
+  }
+}
+@media screen and (min-width: 481px) {
+  .hide-on-mobile {
+    display: table-cell;
+  }
+  .show-on-mobile {
+    display: none !important;
+  }
+}
+
 /* Spinner */
 .spinner {
   border: 8px solid rgba(0, 0, 0, 0.1);
@@ -103,7 +120,7 @@ table {
     border: none;
     background: none;
     cursor: pointer;
-    padding: 0 5px;
+    padding: 0;
   }
 }
 
@@ -121,16 +138,25 @@ table {
   text-decoration: underline;
 }
 
+.hash-display {
+  display: inline-block;
+  max-width: 80px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+}
+
 .attestation-status {
   color: var(--accent-text);
-  
+
   &:hover {
     text-decoration: underline;
   }
 }
 
 /* Attestation Modal */
-#attestationModal {
+#verificationModal {
   display: none;
   position: fixed;
   top: 50%;
@@ -139,28 +165,27 @@ table {
   border: 1px solid var(--border-color);
   z-index: 1000;
   border-radius: 12px;
-  height: 60vh;
+  height: 80vh;
   background: var(--background-color);
-  width: auto;
 
   @media screen and (max-width: 480px) {
-    max-width: 97vw;
+    width: 97vw;
   }
   @media screen and (min-width: 481px) {
-    max-width: 90vw;
+    width: 95vw;
   }
   @media screen and (min-width: 1200px) {
-    max-width: 85vw;
+    width: 85vw;
   }
   @media screen and (min-width: 1800px) {
-    max-width: 80vw;
+    width: 80vw;
   }
   @media screen and (min-width: 2300px) {
-    max-width: 75vw;
+    width: 75vw;
   }
 }
 
-#attestationContent {
+#verificationContent {
   padding: 20px;
   padding-top: 5px;
   height: 100%;
@@ -182,7 +207,7 @@ table {
   &::-webkit-scrollbar-thumb {
     background: rgba(0, 0, 0, 0.2);
     border-radius: 10px;
-    
+
     &:hover {
       background: rgba(0, 0, 0, 0.3);
     }
@@ -211,7 +236,7 @@ table {
     }
   }
 }
-#attestationContent p {
+#verificationContent p {
   margin-top: 0.4em;
   margin-bottom: 0em;
 }
@@ -246,6 +271,22 @@ table {
   color: var(--text-color);
 }
 
+/* Checkboxes and Labels */
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-top: 0;
+  vertical-align: middle;
+}
+
+label {
+  font-size: 1rem;
+  line-height: 46px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
 .form-control {
   width: 100%;
   padding: 8px;
@@ -276,14 +317,14 @@ input, textarea, select {
   padding: 15px;
   border-radius: 4px;
   margin-bottom: 20px;
-  
+
   .info-item {
     margin-bottom: 10px;
-    
+
     &:last-child {
       margin-bottom: 0;
     }
-    
+
     label {
       font-weight: bold;
       margin-right: 10px;
@@ -340,20 +381,20 @@ input, textarea, select {
   text-decoration: none !important;
   font-size: 16px;
 }
-
+.btn-medium {
+  padding: 7px 12px;
+}
 .btn-small {
-  font-size: 0.9em;
   padding: 4px 8px;
 }
 
 .btn-info {
   background-color: #007bff;
-  
+
   &:hover {
     background-color: #0056b3;
   }
 }
-
 .btn-success {
   display: inline-block;
   background-color: #4CAF50;
@@ -361,7 +402,7 @@ input, textarea, select {
   text-decoration: none;
   border-radius: 4px;
   transition: background-color 0.3s;
-  
+
   &:hover {
     background-color: #337136;
     color: var(--text-color);
@@ -369,20 +410,30 @@ input, textarea, select {
   }
 }
 
-/* Toast */
-.toast {
-  position: fixed;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  padding: 15px 25px;
-  color: black;
-  border-radius: 4px;
-  z-index: 1000;
-  opacity: 0;
-  transition: opacity 0.3s ease-in-out;
+#attestationForm p {
+  margin-top: 0em;
+  margin-bottom: 0em;
 }
 
-.toast.show {
-  opacity: 1;
+/* App ID Autocomplete */
+.suggestions-container {
+  display: none;
+  position: absolute;
+  border: 1px solid #ddd;
+  border-top: none;
+  z-index: 1000;
+  background: var(--neutral-5);
+  width: 100%;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.suggestion-item {
+  padding: 8px 10px;
+  cursor: pointer;
+  color: var(--text-color);
+}
+
+.suggestion-item:hover {
+  background-color: #6f6f6f;
 }
