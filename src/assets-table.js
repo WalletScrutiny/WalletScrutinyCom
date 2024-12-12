@@ -99,9 +99,8 @@ window.renderAssetsTable = async function(htmlElementId, pubkey) {
   // Add spacer div after table
   const spacer = document.createElement('div');
   spacer.style.height = '300px';
-  document.getElementById('binariesTable').appendChild(spacer);
+  document.getElementById(htmlElementId).appendChild(spacer);
 };
-
 
 window.showAttestationModal = async function(sha256Hash, attestationId) {
   const attestations = response.attestations.get(sha256Hash);
@@ -112,7 +111,7 @@ window.showAttestationModal = async function(sha256Hash, attestationId) {
 
   const modal = document.getElementById('attestationModal');
   const content = document.getElementById('attestationContent');
-  
+
   modal.style.background = window.theme === 'dark' ? '#2d2d2d' : 'white';
   modal.style.color = window.theme === 'dark' ? 'white' : 'black';
 

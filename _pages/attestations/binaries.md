@@ -6,10 +6,6 @@ permalink: /binaries/
 
 <link rel="stylesheet" href="{{ base_path }}/assets/css/attestations.css">
 
-<style>
-
-</style>
-
 <div id="binariesTable"></div>
 
 <div id="attestationModal" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%); padding:20px; padding-top:5px; border:1px solid var(--border-color); z-index:1000;" class="modal-theme">
