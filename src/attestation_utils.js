@@ -237,13 +237,3 @@ window.getNostrProfile = getNostrProfile;
 window.getAssetsWithSHA256 = getAssetsWithSHA256;
 window.getAttestationInfoLastMonths = getAttestationInfoLastMonths;
 window.getFirstTag = getFirstTag;
-
-export {
-  createAssetRegistration,
-  createAttestation,
-  createEndorsement,
-  getNostrProfile,
-  getAssetsWithSHA256,
-  getAttestationInfoLastMonths,
-  getFirstTag
-};

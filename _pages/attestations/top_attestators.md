@@ -57,7 +57,6 @@ permalink: /attestators/
   <div class="spinner"></div>
 </div>
 
-<h2>In the last 6 months</h2>
 <div id="attestatorsTable"></div>
 
 <script src="{{'/dist/attestation.bundle.min.js' | relative_url }}"></script>
