@@ -3,6 +3,8 @@
 <script type="text/javascript" src="{{ base_path }}/assets/js/color-thief.umd.js"></script>
 {% if page.layout contains "review" %}
 <script type="text/javascript" src="{{ base_path }}/assets/js/review.js"></script>
+<script type="text/javascript" src="{{'/dist/attestation.bundle.min.js' | relative_url }}"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 {% endif %}
 {% if page.url == "/" %}
 <script type="text/javascript" src="{{ base_path }}/assets/js/ui-components.js"></script>
