@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Creating New Asset"
-permalink: /new_asset_2/
+permalink: /test_new_asset_2/
 ---
 
 <script src="{{'/dist/attestation.bundle.min.js' | relative_url }}"></script>

@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Creating New Attestation"
-permalink: /new_attestation/
+permalink: /test_new_attestation/
 ---
 
 <link rel="stylesheet" href="{{ base_path }}/assets/css/attestations.css">

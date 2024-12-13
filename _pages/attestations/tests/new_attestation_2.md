@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Creating New Attestation"
-permalink: /new_attestation_2/
+permalink: /test_new_attestation_2/
 ---
 
 <script src="{{'/dist/attestation.bundle.min.js' | relative_url }}"></script>
