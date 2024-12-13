@@ -20,10 +20,15 @@ issue:
 icon: world.bitkey.app.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
+verdict: reproducible
 date: 2024-12-07
 signer: c0d0f9da7158cde788d0281e9ebd07034178165584d635f7ce17f77c037d961a
 reviewArchive:
+- date: 2024-12-07
+  version: 2024.73.1 (2)
+  appHash: c450bc84fe154daa4cec5af3a87bf1646fd0fa2d340a99a608d25f737173ca52 
+  gitRevision: 5d7b9b51299533649649997ba132ef2bd73f49f5
+  verdict: nonverifiable
 - date: 2024-09-23
   version: 2024.69.0 (4)
   appHash: 67c4d8ec5beec9b6424a39700e0fc9673f713a98d965a6cdd3ef4a968fd000af
@@ -77,7 +82,7 @@ This is the **companion app** to the {% include walletLink.html wallet='hardware
 
 [Documentation](https://github.com/proto-at-block/bitkey/blob/main/app/verifiable-build/android/README.md) 
 
-## Verification Update for version 2024.73.1 (2)
+## Version 2024.74.1 (1)
 
 For this review, we encountered several difficulties with the build process.   
 
@@ -103,93 +108,66 @@ incomparable_files=(
 
 Files matching `\*/res/xml/splits\*.xml` are also excluded as seen in line 32 of **[normalize-apk-content](https://github.com/proto-at-block/bitkey/blob/2c0dd04b9b434ae1d36747128471b26622f182c6/app/verifiable-build/android/verification/steps/normalize-apk-content#L32)**
 
-## Results
+## [Successful Build](https://asciinema.org/a/694658)
 
-### arm64_v8a.apk
+Although the app was built successfully, the script for comparing builds was cut short because of a problem with AAPT2. We instead compared the files manually.
 
-```
-Binary files from-device/comparable/arm64_v8a/lib/arm64-v8a/libcore.so and locally-built/comparable/arm64_v8a/lib/arm64-v8a/libcore.so differ
-```
+## Diffs
 
-Diffoscope results for: {% include diffoscope-modal.html label='libcore.so' url='/assets/diffoscope-results/android/world.bitkey.app/2024.73.1/arm64_v8a/diffo-arm64_v8a-libcore.so.html' %}
+`$ diff -r from-device/comparable/ locally-built/comparable/`
+Binary files from-device/comparable/base/assets/dexopt/baseline.prof and locally-built/comparable/base/assets/dexopt/baseline.prof differ
+Binary files from-device/comparable/base/classes2.dex and locally-built/comparable/base/classes2.dex differ
+Binary files from-device/comparable/base/classes.dex and locally-built/comparable/base/classes.dex differ
+Binary files from-device/comparable/base/resources.arsc and locally-built/comparable/base/resources.arsc differ
+Binary files from-device/comparable/en/resources.arsc and locally-built/comparable/en/resources.arsc differ
+Binary files from-device/comparable/xxhdpi/resources.arsc and locally-built/comparable/xxhdpi/resources.arsc differ
+
 
 ### base.apk
 
 ```
-$ diff -r from-device/comparable/base locally-built/comparable/base
-Only in locally-built/comparable/base/assets/composeResources/bitkey.shared.ui_core_public.generated.resources/drawable: bitcoin_badged.xml
-Only in locally-built/comparable/base/assets/composeResources/bitkey.shared.ui_core_public.generated.resources/drawable: bitcoin_consolidation.xml
-Only in locally-built/comparable/base/assets/composeResources/bitkey.shared.ui_core_public.generated.resources/drawable: bitkey_corian.webp
-Only in locally-built/comparable/base/assets/composeResources/bitkey.shared.ui_core_public.generated.resources/drawable: small_icon_check_inheritance.xml
-Only in locally-built/comparable/base/assets/composeResources/bitkey.shared.ui_core_public.generated.resources/drawable: small_icon_clock_hands.xml
-Only in locally-built/comparable/base/assets/composeResources/bitkey.shared.ui_core_public.generated.resources/drawable: warning_badge.xml
-Only in locally-built/comparable/base/assets/composeResources/bitkey.shared.ui_core_public.generated.resources/files: loader_badge.json
+$ diff -r from-device/comparable/base loc ally-built/comparable/base
 Binary files from-device/comparable/base/assets/dexopt/baseline.prof and locally-built/comparable/base/assets/dexopt/baseline.prof differ
-Binary files from-device/comparable/base/assets/dexopt/baseline.profm and locally-built/comparable/base/assets/dexopt/baseline.profm differ
 Binary files from-device/comparable/base/classes2.dex and locally-built/comparable/base/classes2.dex differ
 Binary files from-device/comparable/base/classes.dex and locally-built/comparable/base/classes.dex differ
-diff -r from-device/comparable/base/META-INF/androidx.compose.material3_material3.version locally-built/comparable/base/META-INF/androidx.compose.material3_material3.version
-1c1
-< 1.3.0
----
-> 1.3.1
-Only in locally-built/comparable/base/META-INF/services: ah.o
-Only in from-device/comparable/base/META-INF/services: B8.a
-Only in locally-built/comparable/base/META-INF/services: D8.a
-Only in from-device/comparable/base/META-INF/services: De.e
-Only in locally-built/comparable/base/META-INF/services: Fe.e
-Only in from-device/comparable/base/META-INF/services: ge.g
-Only in from-device/comparable/base/META-INF/services: Gf.c
-Only in locally-built/comparable/base/META-INF/services: ie.g
-Only in locally-built/comparable/base/META-INF/services: If.c
-Only in from-device/comparable/base/META-INF/services: lg.g
-Only in locally-built/comparable/base/META-INF/services: ng.g
-Only in from-device/comparable/base/META-INF/services: Tg.B
-Only in locally-built/comparable/base/META-INF/services: Vg.B
-Only in from-device/comparable/base/META-INF/services: x8.d
-Only in from-device/comparable/base/META-INF/services: Yg.o
-Only in locally-built/comparable/base/META-INF/services: z8.d
-Binary files from-device/comparable/base/META-INF/state-machine-ui-public_release.kotlin_module and locally-built/comparable/base/META-INF/state-machine-ui-public_release.kotlin_module differ
-Binary files from-device/comparable/base/res/drawable/abc_btn_check_material_anim.xml and locally-built/comparable/base/res/drawable/abc_btn_check_material_anim.xml differ
-Binary files from-device/comparable/base/res/drawable/abc_btn_radio_material_anim.xml and locally-built/comparable/base/res/drawable/abc_btn_radio_material_anim.xml differ
-Only in locally-built/comparable/base/res/drawable: bitcoin_consolidation.xml
-Binary files from-device/comparable/base/res/drawable/btn_checkbox_checked_to_unchecked_mtrl_animation.xml and locally-built/comparable/base/res/drawable/btn_checkbox_checked_to_unchecked_mtrl_animation.xml differ
-Binary files from-device/comparable/base/res/drawable/btn_checkbox_unchecked_to_checked_mtrl_animation.xml and locally-built/comparable/base/res/drawable/btn_checkbox_unchecked_to_checked_mtrl_animation.xml differ
-Binary files from-device/comparable/base/res/drawable/btn_radio_off_to_on_mtrl_animation.xml and locally-built/comparable/base/res/drawable/btn_radio_off_to_on_mtrl_animation.xml differ
-Binary files from-device/comparable/base/res/drawable/btn_radio_on_to_off_mtrl_animation.xml and locally-built/comparable/base/res/drawable/btn_radio_on_to_off_mtrl_animation.xml differ
-Binary files from-device/comparable/base/res/drawable/notification_bg_low.xml and locally-built/comparable/base/res/drawable/notification_bg_low.xml differ
-Binary files from-device/comparable/base/res/drawable/notification_bg.xml and locally-built/comparable/base/res/drawable/notification_bg.xml differ
-Binary files from-device/comparable/base/res/drawable/notification_tile_bg.xml and locally-built/comparable/base/res/drawable/notification_tile_bg.xml differ
-Only in locally-built/comparable/base/res/drawable: warning_badge.xml
-Binary files from-device/comparable/base/res/drawable-v23/compat_splash_screen.xml and locally-built/comparable/base/res/drawable-v23/compat_splash_screen.xml differ
-Binary files from-device/comparable/base/res/mipmap-anydpi-v26/ic_launcher_round.xml and locally-built/comparable/base/res/mipmap-anydpi-v26/ic_launcher_round.xml differ
-Binary files from-device/comparable/base/res/mipmap-anydpi-v26/ic_launcher.xml and locally-built/comparable/base/res/mipmap-anydpi-v26/ic_launcher.xml differ
-Binary files from-device/comparable/base/resources.arsc and locally-built/comparable/base/resources.arsc differ
+Binary files from-device/comparable/base/resources.arsc and locally-built/comparable/base/resources.arsc differ 
 ```
 
-The diffs are too plenty that an in-depth diffoscope analysis would be too resource-intensive. 
+Diffoscope results for {% include diffoscope-modal.html label='classes2.dex' url='/assets/diffoscope-results/android/world.bitkey.app/2024.74.1.1/base/classes2.dex.html' %}
+Diffoscope results for {% include diffoscope-modal.html label='classes.dex' url='/assets/diffoscope-results/android/world.bitkey.app/2024.74.1.1/base/classes.dex.html' %}
 
-### en.apk
 
-```
-$ diff -r from-device/comparable/en/ locally-built/comparable/en
-Binary files from-device/comparable/en/resources.arsc and locally-built/comparable/en/resources.arsc differ
-```
+`$ diff -r from-device/unpacked locally-built/unpacked`
 
-Diffoscope results for:{% include diffoscope-modal.html label='resources.arsc' url='/assets/diffoscope-results/android/world.bitkey.app/2024.73.1/en/diffo-en-resources.arsc.html' %}
+Binary files from-device/unpacked/arm64_v8a/AndroidManifest.xml and locally-built/unpacked/arm64_v8a/AndroidManifest.xml differ
+Only in from-device/unpacked/arm64_v8a: META-INF
+Only in from-device/unpacked/arm64_v8a: stamp-cert-sha256
+Binary files from-device/unpacked/base/AndroidManifest.xml and locally-built/unpacked/base/AndroidManifest.xml differ
+Binary files from-device/unpacked/base/assets/dexopt/baseline.prof and locally-built/unpacked/base/assets/dexopt/baseline.prof differ
+Binary files from-device/unpacked/base/classes2.dex and locally-built/unpacked/base/classes2.dex differ
+Binary files from-device/unpacked/base/classes.dex and locally-built/unpacked/base/classes.dex differ
+Binary files from-device/unpacked/base/res/xml/splits0.xml and locally-built/unpacked/base/res/xml/splits0.xml differ
+Binary files from-device/unpacked/base/resources.arsc and locally-built/unpacked/base/resources.arsc differ
+Only in from-device/unpacked/base: stamp-cert-sha256
+Binary files from-device/unpacked/en/AndroidManifest.xml and locally-built/unpacked/en/AndroidManifest.xml differ
+Only in from-device/unpacked/en: META-INF
+Binary files from-device/unpacked/en/resources.arsc and locally-built/unpacked/en/resources.arsc differ
+Only in from-device/unpacked/en: stamp-cert-sha256
+Binary files from-device/unpacked/xxhdpi/AndroidManifest.xml and locally-built/unpacked/xxhdpi/AndroidManifest.xml differ
+Only in from-device/unpacked/xxhdpi: META-INF
+Binary files from-device/unpacked/xxhdpi/resources.arsc and locally-built/unpacked/xxhdpi/resources.arsc differ
+Only in from-device/unpacked/xxhdpi: stamp-cert-sha256
 
-### xxhdpi.apk
+`$ diff -r from-device/normalized-names locally-built/normalized-names`
 
-```
-$ diff -r from-device/comparable/xxhdpi/ locally-built/comparable/xxhdpi/
-Binary files from-device/comparable/xxhdpi/resources.arsc and locally-built/comparable/xxhdpi/resources.arsc differ
-```
+Aside from the differences in classes.dex and classes2.dex, the file diff looks similar to [v2024.69.0](https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/3cb9e16e08babae6e2f6ce682158ba2aa6c603c5/_android/world.bitkey.app.md)
 
-Diffoscope results for: {% include diffoscope-modal.html label='resources.arsc' url='/assets/diffoscope-results/android/world.bitkey.app/2024.73.1/xxhdpi/diffo-xxhdpi-resources.arsc.html' %}
+As such, we will mark this app as **reproducible.**
 
-The huge differences between the APKs lead us to the conclusion that version 2024.73.1(2) is **not verifiable**.
-
-The [Nosbin build log, ](https://nosbin.com/nevent1qqsf5ta46x799sfw5cmydyrgkq6vxsm38vj3vavdk5x2fmdvhhh7e4qpzemhxue69uhkzarvv9ejumn0wd68ytnvv9hxgqg4waehxw309ajkgetw9ehx7um5wghxcctwvsq3wamnwvaz7tmwdaehgu3wvekhgtnhd9azucnf0gq3gamnwvaz7tmwdaehgu3wdau8gu3wv3jhvqgswaehxw309ahx7um5wgh8w6twv5q3jamnwvaz7tmwdaehgu3w0fjkyetyv4jjucmvda6kgqghwaehxw309aex2mrp0yhxxatjwfjkuapwveukjqg5waehxw309aex2mrp0yhxgctdw4eju6t0qyt8wumn8ghj7un9d3shjtnwdaeky6tw9e3k7mgprfmhxue69uhhyetvv9ujummjv9hxwetsd9kxctnyv4mqzxrhwden5te0wfjkccte9eekummjwsh8xmmrd9skckcl382) [Pastebin copy](https://pastebin.com/k3xGqZMa)
+Binary files from-device/normalized-names/arm64_v8a.apk and locally-built/normalized-names/arm64_v8a.apk differ
+Binary files from-device/normalized-names/base.apk and locally-built/normalized-names/base.apk differ
+Binary files from-device/normalized-names/en.apk and locally-built/normalized-names/en.apk differ
+Binary files from-device/normalized-names/xxhdpi.apk and locally-built/normalized-names/xxhdpi.apk differ
 
 
 ## For archival purposes:
@@ -197,10 +175,10 @@ The [Nosbin build log, ](https://nosbin.com/nevent1qqsf5ta46x799sfw5cmydyrgkq6vx
 ### From device APK checksums:
 
 ```
-fc27a6e11e4d4f0f800e02eacad6d8723d71f41ca64eb89511aa962b22ccd648  base.apk
-66a622b73b665f15bec2a9bcf491354340999917f4892e8685cc5194392897e9  split_config.arm64_v8a.apk
-54e7ea9ff748c22715f32d2448307f0e5533928ceff4739d420091e76383dd39  split_config.en.apk
-cf7d7253dfc89a78fb0a411162951234df36a6b92330344e363834e2c47dd978  split_config.xxhdpi.apk
+b7d9b4829f6296a7c01ee789e10cf4fad4b1bf514f8f2fafd2844ca129d57c91  base.apk
+e81e73a66e18e53eb8be2eadfee9fb901c5554ed1ba5cc92466e04aeeed41d19  split_config.arm64_v8a.apk
+221ddbe7796a123c565a002e2bf0356a4d2d4098a8a58f415d25e852d6300d1e  split_config.en.apk
+a6a40e592bafb2c58c92491a9fd27107a018cc1add4013754e54f7187a9eb404  split_config.xxhdpi.apk
 ```
 
 ### Locally built APK checksums:
@@ -208,6 +186,6 @@ cf7d7253dfc89a78fb0a411162951234df36a6b92330344e363834e2c47dd978  split_config.x
 ```
 75231c06bae15ce51167b68b483b9ffde702c8a7ff0728e37fad8b84e2c32b5b  base-arm64_v8a.apk
 6af1a20c2d7b9370f6409ced1a9b33fd441d03d4b47d7b3a901f645b297d9046  base-en.apk
-c450bc84fe154daa4cec5af3a87bf1646fd0fa2d340a99a608d25f737173ca52  base-master.apk
+b433801ca76ff773e839ca7a2c0473bc0a729c252c815f2bd4f5ec839331e412  base-master.apk
 6f95117f4940e34eaa1dbc151e78b721d1691ccaa01f2b538a11712c37a316ee  base-xxhdpi.apk
 ```
