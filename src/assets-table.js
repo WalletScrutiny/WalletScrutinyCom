@@ -67,7 +67,7 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, appId, c
       }
       attestationList = `<ul>${listItems}</ul>`;
     } else {
-      attestationList = `No attestations yet - <a href="/attest" target="_blank" rel="noopener noreferrer">do it yourself</a>`;
+      attestationList = `No attestations yet - <a href="/new_asset/" target="_blank" rel="noopener noreferrer">do it yourself</a>`;
     }
 
     const wallet = window.wallets.find(w => w.appId === identifier);
