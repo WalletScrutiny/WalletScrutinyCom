@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Creating New Endorsement"
-permalink: /new_endorsement/
+permalink: /test_new_endorsement/
 ---
 
 <script src="{{'/dist/attestation.bundle.min.js' | relative_url }}"></script>
