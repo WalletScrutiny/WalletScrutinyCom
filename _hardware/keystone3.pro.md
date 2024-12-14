@@ -7,7 +7,7 @@ authors:
 released: 2024-04-02
 discontinued: 
 updated: 2024-11-18
-version: 1.7.10
+version: 1.7.12
 binaries: https://keyst.one/firmware
 dimensions:
 - 62
@@ -26,9 +26,14 @@ icon: keystone3.pro.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-11-20
+date: 2024-12-10
 signer: 6853ffd1706faed1468e677621b2ef1ccf053dff4f9b22e7ba5b12a978e1eb37
 reviewArchive:
+- date: 2024-11-20
+  version: 1.7.10
+  appHash: 93f3b45eee2403be6f5a1aaeccbaa863dc7df24b666f250b5147b5c54ef27546
+  gitRevision: 5d7b9b51299533649649997ba132ef2bd73f49f5
+  verdict: reproducible
 - date: 2024-10-31
   version: 1.7.8
   appHash: d969529b94c562432df896b6eefcc8605f736081b38646cbeca237304033b674
@@ -88,37 +93,33 @@ Other Features:
 - Fingerprint verification
 - Dice entropy
 
-# Updated Verification for 1.7.10 2024-11-20
+# Updated Verification for 1.7.12 2024-12-10
 
 Run the script:
 
-`$ ./scripts/test/hardware/keystone3pro.sh 1.7.10`
+`$ ./scripts/test/hardware/keystone3pro.sh 1.7.12`
 
 ```
-Finished dev [unoptimized + debuginfo] target(s) in 0.04s
-Firmware checksum sha256: 93f3b45eee2403be6f5a1aaeccbaa863dc7df24b666f250b5147b5c54ef27546 
+Firmware checksum sha256: 30150196c0ea1e6dd258a96a395054fb17a844554f140a2cab3ced124c8b84a7 
 You can check this value on your device.
 ------------------------
 (SIGNED) Binary from Keystone Website:
-92e5c932cc8a18be8f3cdc9709cd31e5a15ffa5465f4eff645d1de05803e34ae  keystone3.bin
+4acb98c0b3bac04bbe79ec68d2b6dc359925192a4d0c7647e0b79cbc649a5a7f  keystone3.bin
 ------------------------
 ------------------------
 Binary from build process:
-93f3b45eee2403be6f5a1aaeccbaa863dc7df24b666f250b5147b5c54ef27546  ./build/mh1903.bin
+30150196c0ea1e6dd258a96a395054fb17a844554f140a2cab3ced124c8b84a7  ./build/mh1903.bin
 ------------------------
 ------------------------
 Unsigned Binary from Keystone Website:
-Firmware checksum sha256: 93f3b45eee2403be6f5a1aaeccbaa863dc7df24b666f250b5147b5c54ef27546 
+Firmware checksum sha256: 30150196c0ea1e6dd258a96a395054fb17a844554f140a2cab3ced124c8b84a7 
 You can check this value on your device.
 ------------------------
 Unsigned .bin hash must be the same as mh1903.bin.
 ```
 
-Version 1.7.10 of the Keystone3 Pro hardware device is **reproducible** 
+Version 1.7.12 of the Keystone3 Pro hardware device is **reproducible** 
 
-## Asciicast 
-
-{% include asciicast %}
 ---
 
 # Previous Analysis 2024-08-19
