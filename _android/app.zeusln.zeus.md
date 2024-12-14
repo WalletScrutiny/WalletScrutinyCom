@@ -6,6 +6,7 @@ authors:
 - leo
 - mohammad
 - danny
+- keraliss
 users: 10000
 appId: app.zeusln.zeus
 appCountry: 
@@ -23,9 +24,14 @@ icon: app.zeusln.zeus.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-11-14
+date: 2024-12-13
 signer: cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
 reviewArchive:
+- date: 2024-11-14
+  version: 0.9.2
+  appHash: 388d9e8b545aa657c1a147a0a24ee700af31cdecd2c9cdacaa6e208e1db9ea10
+  gitRevision: 5d7b9b51299533649649997ba132ef2bd73f49f5
+  verdict: reproducible
 - date: 2024-08-28
   version: 0.9.0
   appHash: 137bf10d8cd8cd963796e936ff839d536dd244b141f0c21977116a50589d1243
@@ -100,18 +106,18 @@ We ran our updated {% include testScript.html %} and got this:
 ===== Begin Results =====
 appId:          app.zeusln.zeus
 signer:         cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
-apkVersionName: 0.9.2
-apkVersionCode: 95001
+apkVersionName: 0.9.3
+apkVersionCode: 96003
 verdict:        
-appHash:        388d9e8b545aa657c1a147a0a24ee700af31cdecd2c9cdacaa6e208e1db9ea10
-commit:         dd87266ef47f95b4d95b6b70ff0e2eaf0c1ff680
+appHash:        3670e08e0720f8dbb021ff15fe02fb0f6c5df810a972ced5c0356a29e296563c
+commit:         8e953d6e4638c005096ec9262896911555f475ae
 
 Diff:
-Files /tmp/fromPlay_app.zeusln.zeus_95001/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_95001/AndroidManifest.xml differ
-Only in /tmp/fromPlay_app.zeusln.zeus_95001/META-INF: GOOGPLAY.RSA
-Only in /tmp/fromPlay_app.zeusln.zeus_95001/META-INF: GOOGPLAY.SF
-Only in /tmp/fromPlay_app.zeusln.zeus_95001/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_app.zeusln.zeus_95001: stamp-cert-sha256
+Files /tmp/fromPlay_app.zeusln.zeus_96003/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_96003/AndroidManifest.xml differ
+Only in /tmp/fromPlay_app.zeusln.zeus_96003/META-INF: GOOGPLAY.RSA
+Only in /tmp/fromPlay_app.zeusln.zeus_96003/META-INF: GOOGPLAY.SF
+Only in /tmp/fromPlay_app.zeusln.zeus_96003/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_app.zeusln.zeus_96003: stamp-cert-sha256
 
 Revision, tag (and its signature):
 
@@ -134,8 +140,7 @@ There is only a one-line difference:
 
 `236 	····<meta-data·android:name="com.android.vending.derived.apk.id"·android:value="1"/>`
 
-This, minus the signing differences, make version 0.9.2 of this app **reproducible**.
+This, minus the signing differences, make version 0.9.3 of this app **reproducible**.
 
 [Issue 2470](https://github.com/ZeusLN/zeus/issues/2470) is now closed.
 
-{% include asciicast %}
