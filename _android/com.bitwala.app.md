@@ -27,7 +27,7 @@ reviewArchive:
 twitter: nuribanking
 social: 
 redirect_from: 
-developerName: Bitwala Apps
+developerName: Bitwala
 features: 
 
 ---

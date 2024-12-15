@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.lisk.mobile.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
-date: 2023-10-22
+date: 2024-12-15
 signer: 
 reviewArchive: 
 twitter: LiskHQ

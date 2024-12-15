@@ -10,9 +10,9 @@ appCountry:
 released: 2022-09-27
 updated: 2024-12-05
 version: 1.44.0
-stars: 4.5
+stars: 4.4
 ratings: 
-reviews: 28
+reviews: 29
 size: 
 website: https://gemspocket.com/
 repository: 

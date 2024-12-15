@@ -8,11 +8,11 @@ appId: com.livingroomofsatoshi.wallet
 appCountry: jp
 idd: 1438599608
 released: 2019-05-20
-updated: 2024-11-12
-version: 2.6.4
-stars: 4.1
-reviews: 9
-size: '46396416'
+updated: 2024-12-11
+version: 2.6.5
+stars: 4.2
+reviews: 10
+size: '46449664'
 website: https://www.walletofsatoshi.com
 repository: 
 issue: 

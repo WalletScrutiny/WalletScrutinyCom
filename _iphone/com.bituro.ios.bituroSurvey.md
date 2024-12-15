@@ -11,7 +11,7 @@ released: 2017-07-15
 updated: 2024-11-13
 version: 2.6.0
 stars: 4.5
-reviews: 438
+reviews: 440
 size: '26559488'
 website: https://bituro.com/app/views/contact.php
 repository: 

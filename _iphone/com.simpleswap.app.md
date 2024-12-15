@@ -10,8 +10,8 @@ idd: 1506038278
 released: 2020-05-15
 updated: 2024-12-03
 version: 4.3.6
-stars: 4.6
-reviews: 84
+stars: 4.7
+reviews: 90
 size: '70155264'
 website: https://simpleswap.io/mobile-app
 repository: 

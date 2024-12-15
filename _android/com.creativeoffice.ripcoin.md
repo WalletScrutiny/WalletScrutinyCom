@@ -12,7 +12,7 @@ updated: 2024-12-02
 version: '20210'
 stars: 3.3
 ratings: 
-reviews: 225
+reviews: 226
 size: 
 website: https://antcoin.antf.online/
 repository: 

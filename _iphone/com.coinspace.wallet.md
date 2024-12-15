@@ -8,11 +8,11 @@ appId: com.coinspace.wallet
 appCountry: 
 idd: 980719434
 released: 2015-12-14
-updated: 2024-10-25
-version: 6.6.2
+updated: 2024-12-10
+version: 6.6.3
 stars: 4.5
-reviews: 317
-size: '27005952'
+reviews: 319
+size: '27034624'
 website: https://coin.space/
 repository: https://github.com/CoinSpace/CoinSpace
 issue: 

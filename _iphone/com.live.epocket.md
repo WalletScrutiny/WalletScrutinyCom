@@ -8,8 +8,8 @@ appId: com.live.epocket
 appCountry: au
 idd: '1445852225'
 released: 2018-12-19
-updated: 2024-12-05
-version: 3.3.34
+updated: 2024-12-13
+version: 3.3.35
 stars: 3.7
 reviews: 28
 size: '44968960'

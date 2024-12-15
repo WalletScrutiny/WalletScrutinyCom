@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: finance.ottr.android.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-08-15
+date: 2024-12-15
 signer: 
 reviewArchive: 
 twitter: 

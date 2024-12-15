@@ -12,16 +12,16 @@ updated: 2022-12-19
 version: 3.1.5
 stars: 3
 ratings: 1231
-reviews: 116
+reviews: 117
 size: 
 website: http://www.coinfield.com
 repository: 
 issue: 
 icon: com.coinfield.csapp.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-12-16
+date: 2024-12-15
 signer: 
 reviewArchive: 
 twitter: CoinFieldEx

@@ -8,11 +8,11 @@ appId: com.bitbay.BitBayTrading
 appCountry: ca
 idd: 1409644952
 released: 2018-11-20
-updated: 2024-09-17
-version: 1.4.10
+updated: 2024-12-12
+version: 1.4.12
 stars: 5
 reviews: 3
-size: '69495808'
+size: '68254720'
 website: https://zondacrypto.com
 repository: 
 issue: 

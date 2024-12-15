@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: holaacapital.trader.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2024-03-30
+date: 2024-12-15
 signer: 
 reviewArchive: 
 twitter: 

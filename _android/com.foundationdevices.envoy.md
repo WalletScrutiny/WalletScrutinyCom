@@ -13,7 +13,7 @@ updated: 2024-11-27
 version: 1.8.5
 stars: 4.1
 ratings: 
-reviews: 4
+reviews: 5
 size: 
 website: https://foundationdevices.com/
 repository: https://github.com/Foundation-Devices/envoy

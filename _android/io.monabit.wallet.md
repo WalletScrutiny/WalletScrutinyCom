@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.monabit.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2024-07-24
+date: 2024-12-15
 signer: 
 reviewArchive: 
 twitter: 

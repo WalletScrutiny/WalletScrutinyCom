@@ -12,7 +12,7 @@ updated: 2024-11-29
 version: 2.7.2
 stars: 4.4
 ratings: 
-reviews: 24
+reviews: 23
 size: 
 website: https://www.unbank.world/
 repository: 

@@ -12,7 +12,7 @@ updated: 2024-12-03
 version: 2.2.33
 stars: 4
 ratings: 
-reviews: 99
+reviews: 100
 size: 
 website: https://www.biconomy.com
 repository: 

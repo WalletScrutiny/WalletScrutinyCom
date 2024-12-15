@@ -12,7 +12,7 @@ updated: 2024-12-03
 version: 3.3.4
 stars: 2.9
 ratings: 25850
-reviews: 67
+reviews: 68
 size: 
 website: http://www.bithumb.com/
 repository: 

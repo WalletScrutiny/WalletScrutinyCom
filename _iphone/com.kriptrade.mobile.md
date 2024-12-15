@@ -8,11 +8,11 @@ appId: com.kriptrade.mobile
 appCountry: tr
 idd: '1591104692'
 released: 2021-10-28
-updated: 2024-11-22
-version: 3.0.5
-stars: 4.2
+updated: 2024-12-13
+version: 3.0.6
+stars: 4.1
 reviews: 17
-size: '40697856'
+size: '40710144'
 website: https://kriptrade.com
 repository: 
 issue: 
@@ -29,7 +29,7 @@ social:
 - https://www.instagram.com/kriptrade
 - https://www.youtube.com/channel/UCJxN4di4kXY89NxOiv3K6BA
 features: 
-developerName: Kriptrade
+developerName: KRIPTRADE KRIPTO VARLIK ALIM SATIM PLATFORMU ANONIM SIRKETI
 
 ---
 

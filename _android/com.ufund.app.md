@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.ufund.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
-date: 2024-04-24
+date: 2024-12-15
 signer: 
 reviewArchive: 
 twitter: UFUND1

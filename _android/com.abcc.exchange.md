@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.abcc.exchange.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2024-02-24
+date: 2024-12-15
 signer: 
 reviewArchive: 
 twitter: ABCCExOfficial

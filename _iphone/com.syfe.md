@@ -1,6 +1,6 @@
 ---
 wsId: syfeInvest
-title: 'Syfe: Stay Invested'
+title: 'Syfe: Invest, Trade and Save'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.syfe
 appCountry: sg
 idd: '1497156434'
 released: 2020-02-24
-updated: 2024-12-02
-version: 12.2.1
+updated: 2024-12-11
+version: 12.3.1
 stars: 4.1
 reviews: 854
-size: '108829696'
+size: '109037568'
 website: https://www.syfe.com
 repository: 
 issue: 

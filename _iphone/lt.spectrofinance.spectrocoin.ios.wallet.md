@@ -8,8 +8,8 @@ appId: lt.spectrofinance.spectrocoin.ios.wallet
 appCountry: de
 idd: 923696089
 released: 2014-12-30
-updated: 2024-11-14
-version: 2.7.0
+updated: 2024-12-10
+version: 2.7.1
 stars: 2.2
 reviews: 10
 size: '39958528'

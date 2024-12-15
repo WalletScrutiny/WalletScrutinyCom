@@ -28,7 +28,7 @@ twitter: cropty_app
 social:
 - https://www.youtube.com/@croptytv
 redirect_from: 
-developerName: COIN CATCH PVT
+developerName: Coinscatch
 features: 
 
 ---

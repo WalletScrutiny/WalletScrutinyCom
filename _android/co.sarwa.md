@@ -8,7 +8,7 @@ users: 100000
 appId: co.sarwa
 appCountry: 
 released: 2021-04-04
-updated: 2024-11-27
+updated: 2024-12-10
 version: 5.8.1
 stars: 3.6
 ratings: 

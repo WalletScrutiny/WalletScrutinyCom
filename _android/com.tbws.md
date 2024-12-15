@@ -12,7 +12,7 @@ updated: 2024-05-20
 version: 1.0-prod2
 stars: 3.6
 ratings: 
-reviews: 56
+reviews: 57
 size: 
 website: https://theblackwallstreet.com
 repository: 

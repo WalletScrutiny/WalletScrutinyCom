@@ -3,7 +3,7 @@ wsId:
 title: wallet.app
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: app.wallet.crypto
 appCountry: 
 released: 2021-10-30

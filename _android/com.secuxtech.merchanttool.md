@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.secuxtech.merchanttool.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-11-25
+date: 2024-12-15
 signer: 
 reviewArchive: 
 twitter: 

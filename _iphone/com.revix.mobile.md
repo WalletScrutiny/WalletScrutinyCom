@@ -10,8 +10,8 @@ idd: '1590491829'
 released: 2022-08-01
 updated: 2024-11-15
 version: 2.2.0
-stars: 3.9
-reviews: 26
+stars: 3.8
+reviews: 27
 size: '91393024'
 website: https://www.altify.app/
 repository: 

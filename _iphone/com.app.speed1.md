@@ -8,11 +8,11 @@ appId: com.app.speed1
 appCountry: us
 idd: '6462426281'
 released: 2023-08-24
-updated: 2024-11-22
-version: 1.12.0
-stars: 4.5
-reviews: 167
-size: '81457152'
+updated: 2024-12-12
+version: 1.12.1
+stars: 4.6
+reviews: 187
+size: '84083712'
 website: https://www.speed.app/
 repository: 
 issue: 

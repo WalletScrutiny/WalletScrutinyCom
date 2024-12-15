@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.coinbaazarDistribution.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-11-22
+date: 2024-12-15
 signer: 
 reviewArchive: 
 twitter: coin_baazar

@@ -17,7 +17,7 @@ size:
 website: https://gethashwallet.com
 repository: 
 issue: 
-icon: com.esignus.hashwalletmanager.jpg
+icon: com.esignus.hashwalletmanager.png
 bugbounty: 
 meta: ok
 verdict: nowallet

@@ -6,9 +6,9 @@ authors:
 users: 1000
 appId: xyz.ctrl.wallet
 appCountry: 
-released: 
-updated: 2024-11-29
-version: VARY
+released: 2024-11-29
+updated: 2024-12-10
+version: 1.0.3
 stars: 
 ratings: 
 reviews: 
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: XDEFI WALLET
+developerName: Ctrl Wallet
 features: 
 
 ---

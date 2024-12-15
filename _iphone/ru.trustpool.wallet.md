@@ -8,8 +8,8 @@ appId: ru.trustpool.wallet
 appCountry: gb
 idd: '1607319106'
 released: 2022-02-09
-updated: 2024-12-03
-version: 2.5.20
+updated: 2024-12-11
+version: 2.5.22
 stars: 5
 reviews: 1
 size: '54661120'

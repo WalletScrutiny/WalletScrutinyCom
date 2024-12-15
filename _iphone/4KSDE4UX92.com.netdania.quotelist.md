@@ -8,11 +8,11 @@ appId: 4KSDE4UX92.com.netdania.quotelist
 appCountry: us
 idd: 446371774
 released: 2011-07-01
-updated: 2024-10-14
-version: 4.10.9
+updated: 2024-12-13
+version: 4.10.10
 stars: 4.7
-reviews: 13282
-size: '82013184'
+reviews: 13303
+size: '74502144'
 website: http://www.netdania.com
 repository: 
 issue: 

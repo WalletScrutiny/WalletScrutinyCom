@@ -4,7 +4,7 @@ title: Trezor Suite Lite
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: io.trezor.suite
 appCountry: 
 released: 2023-05-09

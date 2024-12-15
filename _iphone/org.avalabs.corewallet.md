@@ -8,8 +8,8 @@ appId: org.avalabs.corewallet
 appCountry: us
 idd: '6443685999'
 released: 2022-11-28
-updated: 2024-11-28
-version: 0.14.20
+updated: 2024-12-14
+version: 0.14.21
 stars: 4.5
 reviews: 69
 size: '63057920'

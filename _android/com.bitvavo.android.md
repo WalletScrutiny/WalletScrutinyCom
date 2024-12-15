@@ -4,15 +4,15 @@ title: Bitvavo | Buy Bitcoin & Crypto
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.bitvavo.android
 appCountry: nl
 released: 2020-08-19
-updated: 2024-11-26
-version: 2.55.0
+updated: 2024-12-09
+version: 2.56.1
 stars: 4.7
 ratings: 2272
-reviews: 3290
+reviews: 3297
 size: 
 website: https://bitvavo.com/
 repository: 

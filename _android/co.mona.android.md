@@ -9,11 +9,11 @@ users: 10000000
 appId: co.mona.android
 appCountry: 
 released: 2017-08-30
-updated: 2024-11-27
-version: 3.200.0
+updated: 2024-12-10
+version: 3.201.0
 stars: 4.4
 ratings: 281384
-reviews: 51845
+reviews: 52012
 size: 
 website: https://crypto.com/
 repository: 
