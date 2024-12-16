@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Asset Information"
-permalink: /binary/
+permalink: /asset/
 ---
 
 <link rel="stylesheet" href="{{ base_path }}/assets/css/attestations.css">
