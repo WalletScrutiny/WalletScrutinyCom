@@ -4,6 +4,8 @@ title: "Creating New Asset"
 permalink: /new_asset/
 ---
 
+<script type="text/javascript" src="{{'/dist/attestation.bundle.min.js' | relative_url }}"></script>
+
 <style>
 .form-container {
   max-width: 600px;
@@ -75,8 +77,8 @@ input {
     </div>
 
     <div class="form-group">
-      <label for="hash">Hash*:</label>
-      <input type="text" id="hash" name="hash" class="form-control" required>
+      <label for="sha256">Hash (sha256)*:</label>
+      <input type="text" id="sha256" name="sha256" class="form-control" required>
       <small class="form-text">Example: deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe</small>
     </div>
 
@@ -126,9 +128,12 @@ function validateForm() {
   const name = document.getElementById('name').value.trim();
   const url = document.getElementById('url').value.trim();
   const version = document.getElementById('version').value.trim();
-  const hash = document.getElementById('hash').value.trim();
+  const sha256 = document.getElementById('sha256').value.trim();
+  const appId = document.getElementById('appId').value.trim();
+  const mimeType = document.getElementById('mimeType').value.trim();
+  const platform = document.getElementById('platform').value;
 
-  if (!name || !url || !version || !hash) {
+  if (!name || !url || !version || !sha256) {
     alert('Please fill in all required fields');
     return false;
   }
@@ -146,13 +151,23 @@ function validateForm() {
 function loadUrlParams() {
   const urlParams = new URLSearchParams(window.location.search);
   
-  const fields = ['name', 'url', 'version', 'hash', 'appId', 'mimeType', 'platform'];
+  const fields = ['name', 'url', 'version', 'sha256', 'appId', 'mimeType', 'platform'];
   fields.forEach(field => {
     const value = urlParams.get(field);
     if (value) {
       document.getElementById(field).value = value;
     }
   });
+
+  if (urlParams.toString() === '') {
+    document.getElementById('name').value = 'Universal APK from Github';
+    document.getElementById('url').value = 'https://github.com/ZeusLN/zeus/releases/download/v0.9.2/zeus-v0.9.2-universal.apk';
+    document.getElementById('version').value = '0.9.2';
+    document.getElementById('sha256').value = 'deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe';
+    document.getElementById('appId').value = 'app.zeusln.zeus';
+    document.getElementById('mimeType').value = 'application/vnd.android.package-archive';
+    document.getElementById('platform').value = 'Android Universal';
+  }
 }
 
 async function handleSubmit(event) {
@@ -166,7 +181,7 @@ async function handleSubmit(event) {
     name: document.getElementById('name').value.trim(),
     url: document.getElementById('url').value.trim(),
     version: document.getElementById('version').value.trim(),
-    hash: document.getElementById('hash').value.trim(),
+    sha256: document.getElementById('sha256').value.trim(),
     appId: document.getElementById('appId').value.trim(),
     mimeType: document.getElementById('mimeType').value.trim(),
     platform: document.getElementById('platform').value
@@ -179,7 +194,7 @@ async function handleSubmit(event) {
   try {
     await createAssetRegistration(formData);
     alert('Asset registered successfully!');
-    window.location.href = '/attestations/';
+    window.location.href = '/asset/?sha256=' + formData.sha256;
   } catch (error) {
     alert('Error registering asset: ' + error.message);
   }
