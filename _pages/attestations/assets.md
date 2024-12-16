@@ -1,35 +1,35 @@
 ---
 layout: archive
-title: "Latest Assets"
+title: "Asset Registry"
 permalink: /assets/
 ---
 
-<link rel="stylesheet" href="{{ base_path }}/assets/css/attestations.css">
+<link rel="stylesheet" href="{{ base_path }}/assets/css/verifications.css">
 
 <div style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
   <a href="/new_asset/" class="btn btn-success">Register New Asset</a>
-  {% include shareButton.html defaultMessage="Look at the list of Latest Assets reported on WalletScrutiny and help us improve the transparency of the Bitcoin ecosystem!" %}
+  {% include shareButton.html defaultMessage="Look at the list of latest assets reported on WalletScrutiny and help us improve the transparency of the Bitcoin ecosystem!" %}
 </div>
 
 <div id="binariesTable"></div>
 
-<div id="attestationModal">
+<div id="verificationModal">
   <span id="closeModal">&times;</span>
-  <div id="attestationContent"></div>
+  <div id="verificationContent"></div>
 </div>
 
 <div id="loadingSpinner">
   <div class="spinner"></div>
 </div>
 
-<script src="{{'/dist/attestation.bundle.min.js' | relative_url }}"></script>
+<script src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
 
 <script>
   (async () => {
     document.getElementById('loadingSpinner').style.display = 'block';
 
     await nostrConnect();
-    await renderAssetsTable({htmlElementId: 'binariesTable'});
+    await renderAssetsTable({htmlElementId: 'binariesTable', enableSearch: true, showOnlyRows: 100000});
 
     document.getElementById('loadingSpinner').style.display = 'none';
   })();

@@ -4,13 +4,13 @@ title: "Asset Information"
 permalink: /asset/
 ---
 
-<link rel="stylesheet" href="{{ base_path }}/assets/css/attestations.css">
+<link rel="stylesheet" href="{{ base_path }}/assets/css/verifications.css">
 
 <h2 id="sha256title" style="text-align: center; margin-bottom: 2em;"></h2>
 
 <div style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
   <a href="/assets/" class="btn btn-success">All Assets</a>
-  {% include shareButton.html defaultMessage="Asset information on WalletScrutiny:" %}
+  {% include shareButton.html defaultMessage="Check out this asset information I registered on WalletScrutiny:" %}
 </div>
 
 <div id="binariesTable"></div>
@@ -22,16 +22,16 @@ permalink: /asset/
   </div>
 </div>
 
-<div id="attestationModal">
+<div id="verificationModal">
   <span id="closeModal">&times;</span>
-  <div id="attestationContent"></div>
+  <div id="verificationContent"></div>
 </div>
 
 <div id="loadingSpinner">
   <div class="spinner"></div>
 </div>
 
-<script src="{{'/dist/attestation.bundle.min.js' | relative_url }}"></script>
+<script src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
 
 <script>
   (async () => {
@@ -55,13 +55,13 @@ permalink: /asset/
     const explanationText = document.getElementById('explanationText');
     const registerAssetButton = document.getElementById('registerAssetButton');
 
-    if (result && result.hasBinaries) {
+    if (result?.hasAssets || result?.hasVerifications) {
       binariesTable.style.display = 'block';
       registerAssetButton.style.display = 'none';
-      if (result.hasAttestations) {
-        explanationText.innerHTML = 'Above is the list of assets found in Nostr with the provided SHA256 hash. You can click on available attestations to view their details.';
+      if (result.hasVerifications) {
+        explanationText.innerHTML = 'Above is the list of assets found in Nostr with the SHA256 hash provided. You can click on available verifications to view their details.';
       } else {
-        explanationText.innerHTML = 'Above is the list of assets found in Nostr with the provided SHA256 hash. No attestations have been made yet. If you\'ve verified this binary by building it from source yourself, you can contribute by creating a new attestation to help others verify its authenticity.';
+        explanationText.innerHTML = 'Above is the list of assets found in Nostr with the SHA256 hash provided. No verifications have been made yet. If you\'ve verified this binary by building it from source yourself, you can contribute by creating a new verification to help others verify its authenticity.';
       }
     } else {
       binariesTable.style.display = 'none';
