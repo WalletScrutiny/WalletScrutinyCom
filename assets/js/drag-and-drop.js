@@ -115,6 +115,13 @@ function disableHoverMode() {
     const select = document.getElementById('select');
     select.classList.remove('hover-mode');
     select.classList.add('always-visible');
+
+    const dropText = document.querySelector(".drop-text");
+    const selectLabel = document.querySelector("#select label");
+
+    // Change the text after a file is selected or dropped
+    dropText.textContent = "Drop another file to verify";
+    selectLabel.textContent = "Select a new file";
 }
 
 async function handleUnknownFile(file, hash) {
