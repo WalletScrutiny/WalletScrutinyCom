@@ -24,8 +24,8 @@ issue:
 icon: coldlar.ultra.png
 bugbounty: 
 meta: ok
-verdict: plainkey
-date: 2024-12-11
+verdict: nosource
+date: 2024-12-16
 signer: 
 reviewArchive: 
 twitter: Coldlar
