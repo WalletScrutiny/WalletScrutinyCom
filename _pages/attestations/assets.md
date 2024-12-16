@@ -8,12 +8,12 @@ permalink: /assets/
 
 <div id="binariesTable"></div>
 
-<div id="attestationModal" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%); padding:20px; padding-top:5px; border:1px solid var(--border-color); z-index:1000;" class="modal-theme">
-  <span id="closeModal" style="cursor:pointer; position:absolute; top:10px; right:10px; font-size: 24px;">&times;</span>
+<div id="attestationModal" class="attestation-modal modal-theme">
+  <span id="closeModal" class="attestation-modal__close">&times;</span>
   <div id="attestationContent"></div>
 </div>
 
-<div id="loadingSpinner" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%); z-index:1000;">
+<div id="loadingSpinner">
   <div class="spinner"></div>
 </div>
 
