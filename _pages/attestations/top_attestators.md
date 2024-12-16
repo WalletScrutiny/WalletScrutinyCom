@@ -12,7 +12,7 @@ permalink: /attestators/
   }
 </style>
 
-<div id="loadingSpinner" style="display:none; position:fixed; top:50%; left:50%; transform:translate(-50%, -50%); z-index:1000;">
+<div id="loadingSpinner">
   <div class="spinner"></div>
 </div>
 
