@@ -90,7 +90,7 @@ According to the manual:
 
 Although the manual claims that: 
 
-> The cold end manages the private keys,mainly responsible for generating private keys,constructing transactions and digital signatures;the hot end connects to the blockchain network,mainly responsible for querying balances,broadcasting transactions and monitoring asset dynamics. The cold and hot ends communicate via QR codes,ensuring that the private key never touches the internet, completely eliminating the risk of private key theft by online hackers
+> The cold end manages the private keys, mainly responsible for generating private keys, constructing transactions and digital signatures; the hot end connects to the blockchain network, mainly responsible for querying balances, broadcasting transactions and monitoring asset dynamics. The cold and hot ends communicate via QR codes, ensuring that the private key never touches the internet, completely eliminating the risk of private key theft by online hackers
 
 1. If the source code is not available for both the app or the firmware, users would have to *trust* that these claims are true. There simply is no way to verify this.
 2. Having an app that is not available on Google Play is another point of concern. Downloading an apk straight from the servers of the provider, without any verification, is another security risk.
