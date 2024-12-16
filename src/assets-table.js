@@ -12,6 +12,8 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, appId, s
   });
 
   const binaries = Array.from(response.assets);
+  const hasBinaries = binaries.length > 0;
+  let hasAttestations = false;
 
   const sortedBinaries = binaries.sort((a, b) => 
     new Date(b.created_at) - new Date(a.created_at)
@@ -51,6 +53,7 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, appId, s
 
     let attestationList;
     if (attestations.length > 0) {
+      hasAttestations = true;
       let listItems = '';
       for (const attestation of attestations) {
         const attestationDate = new Date(attestation.created_at * 1000).toLocaleDateString(navigator.language, {
@@ -107,6 +110,11 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, appId, s
     spacer.style.height = '300px';
     document.getElementById(htmlElementId).appendChild(spacer);
   }
+
+  return {
+    hasAttestations,
+    hasBinaries
+  };
 };
 
 window.showAttestationModal = async function(sha256Hash, attestationId) {
