@@ -1,6 +1,6 @@
 let response = null;
 
-window.renderAssetsTable = async function({htmlElementId, assetsPubkey, appId, sha256, compact}) {
+window.renderAssetsTable = async function({htmlElementId, assetsPubkey, appId, sha256, hideConfig}) {
   response = await getAllAssetInformation({
     months: 6,
     assetsPubkey,
@@ -18,10 +18,10 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, appId, s
   table.innerHTML = `
     <thead>
       <tr>
-        ${!compact ? '<th style="text-align: center;">Wallet</th>' : ''}
+        ${hideConfig?.wallet ? '' : '<th style="text-align: center;">Wallet</th>'}
         <th style="text-align: center;">Version</th>
         <th style="text-align: center;">Asset Description</th>
-        <th style="text-align: center;">SHA256</th>
+        ${hideConfig?.sha256 ? '' : '<th style="text-align: center;">SHA256</th>'}
         <th style="text-align: center;">URL</th>
         <th style="text-align: center;">Attestations</th>
         <th style="text-align: center;">Observed At</th>
@@ -76,17 +76,17 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, appId, s
 
     const row = document.createElement('tr');
     row.innerHTML = `
-      ${!compact ? `<td style="text-align: center;">
+      ${hideConfig?.wallet ? '' : `<td style="text-align: center;">
         ${wallet ? `<a href="${wallet.url}" target="_blank" rel="noopener noreferrer">${walletTitle}</a>` : walletTitle}
-      </td>` : ''}
+      </td>`}
       <td style="text-align: center;">${version}</td>
       <td>${binary.content}</td>
-      <td style="text-align: center;">
+      ${hideConfig?.sha256 ? '' : `<td style="text-align: center;">
         <span>${truncatedHash}</span>
         <button onclick="navigator.clipboard.writeText('${sha256Hash}')" style="border: none; background: none; cursor: pointer; padding: 0 5px;">
           📋
         </button>
-      </td>
+      </td>`}
       <td style="text-align: center;">
         ${downloadUrl ? `<a href="${downloadUrl}" target="_blank" rel="noopener noreferrer">Download</a>` : 'N/A'}
       </td>
@@ -99,7 +99,7 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, appId, s
   document.getElementById(htmlElementId).appendChild(table);
 
   // Add spacer div after table
-  if (!compact) {
+  if (!hideConfig?.spacer) {
     const spacer = document.createElement('div');
     spacer.style.height = '300px';
     document.getElementById(htmlElementId).appendChild(spacer);
