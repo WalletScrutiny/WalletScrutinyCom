@@ -1,10 +1,11 @@
 let response = null;
 
-window.renderAssetsTable = async function({htmlElementId, assetsPubkey, appId, compact}) {
-  response = await getAttestationInfoLastMonths({
+window.renderAssetsTable = async function({htmlElementId, assetsPubkey, appId, sha256, compact}) {
+  response = await getAllAssetInformation({
     months: 6,
     assetsPubkey,
-    appId
+    appId,
+    sha256
   });
 
   const binaries = Array.from(response.assets);
