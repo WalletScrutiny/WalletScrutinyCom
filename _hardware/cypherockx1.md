@@ -112,12 +112,12 @@ Here are the results:
 
 ```
 [472/472] Linking C executable Cypherock-Main.elf
-   text    data     bss     dec     hex filename
- 574728    3548   46664  624940   9892c Cypherock-Main.elf
+   text	   data	    bss	    dec	    hex	filename
+ 574728	   3548	  46664	 624940	  9892c	Cypherock-Main.elf
 Calculating SHA256 checksums for built binary...
 Downloading released firmware binary from GitHub...
-Connecting to github.com (20.207.73.82:443)
-Connecting to objects.githubusercontent.com (185.199.110.133:443)
+Connecting to github.com (140.82.121.4:443)
+Connecting to objects.githubusercontent.com (185.199.111.133:443)
 saving to 'Cypherock-Main-released.bin'
 Cypherock-Main-relea 100% |********************************|  564k  0:00:00 ETA
 'Cypherock-Main-released.bin' saved
@@ -126,9 +126,10 @@ Compare built and released binaries...
 2d8ea19e1d257280eb21fbe98b1539389b456176284fe77012dd9be54423a93d  Cypherock-Main.bin
 2d8ea19e1d257280eb21fbe98b1539389b456176284fe77012dd9be54423a93d  Cypherock-Main-released.bin
 COMMIT cypherock-x1-verifier
---> 971836202079
+--> 795e4f044d3
 Successfully tagged localhost/cypherock-x1-verifier:latest
-971836202079e708bdcb0036a897988e72b81e4a22667f4067096d5f0c33fc26
+795e4f044d326c8371edbbd43b92e43d97c705d6054236f8aa613ff63c8fbf78
+
 ```
 
 Note that Cypherock-Initial is no longer found in the releases.
