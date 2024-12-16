@@ -20,8 +20,8 @@ issue:
 icon: world.bitkey.app.png
 bugbounty: 
 meta: ok
-verdict: reproducible
-date: 2024-12-07
+verdict: nonverifiable
+date: 2024-12-16
 signer: c0d0f9da7158cde788d0281e9ebd07034178165584d635f7ce17f77c037d961a
 reviewArchive:
 - date: 2024-12-07
@@ -84,15 +84,9 @@ This is the **companion app** to the {% include walletLink.html wallet='hardware
 
 ## Version 2024.74.1 (1)
 
-For this review, we encountered several difficulties with the build process.   
+We used **Bitkey's own [verification script](https://github.com/proto-at-block/bitkey/blob/main/app/verifiable-build/android/verification/verify-android-apk)** to verify the build. This process requires a phone connected via USB to the build computer.
 
-First, we tried applying the modifications suggested in [this](https://github.com/proto-at-block/bitkey/pull/4) PR and the build process did not complete. Thus, we could no longer test the app independent of a phone connected via USB to the build computer. 
-
-Secondly, for the process to succeed, the build computer must have a stable internet connection with enough RAM. Otherwise, the build process would crash and reboot the computer.
-
-Third, we used **Bitkey's own [verification script](https://github.com/proto-at-block/bitkey/blob/main/app/verifiable-build/android/verification/verify-android-apk)** to verify the build. This process requires a phone connected via USB to the build computer.
-
-Fourth, we see in the sub-script [**normalize-apk-content**](https://github.com/proto-at-block/bitkey/blob/2c0dd04b9b434ae1d36747128471b26622f182c6/app/verifiable-build/android/verification/steps/normalize-apk-content#L26) that Bitkey excludes these signing-related files from comparison:
+We see in the sub-script [**normalize-apk-content**](https://github.com/proto-at-block/bitkey/blob/2c0dd04b9b434ae1d36747128471b26622f182c6/app/verifiable-build/android/verification/steps/normalize-apk-content#L26) that Bitkey excludes these signing-related files from comparison:
 
 ```
 incomparable_files=(
@@ -108,20 +102,22 @@ incomparable_files=(
 
 Files matching `\*/res/xml/splits\*.xml` are also excluded as seen in line 32 of **[normalize-apk-content](https://github.com/proto-at-block/bitkey/blob/2c0dd04b9b434ae1d36747128471b26622f182c6/app/verifiable-build/android/verification/steps/normalize-apk-content#L32)**
 
-## [Successful Build](https://asciinema.org/a/694658)
+## Successful Build
 
-Although the app was built successfully, the script for comparing builds was cut short because of a problem with AAPT2. We instead compared the files manually.
+[View on asciinema](https://asciinema.org/a/694658)
 
 ## Diffs
 
 `$ diff -r from-device/comparable/ locally-built/comparable/`
+
+```
 Binary files from-device/comparable/base/assets/dexopt/baseline.prof and locally-built/comparable/base/assets/dexopt/baseline.prof differ
 Binary files from-device/comparable/base/classes2.dex and locally-built/comparable/base/classes2.dex differ
 Binary files from-device/comparable/base/classes.dex and locally-built/comparable/base/classes.dex differ
 Binary files from-device/comparable/base/resources.arsc and locally-built/comparable/base/resources.arsc differ
 Binary files from-device/comparable/en/resources.arsc and locally-built/comparable/en/resources.arsc differ
 Binary files from-device/comparable/xxhdpi/resources.arsc and locally-built/comparable/xxhdpi/resources.arsc differ
-
+```
 
 ### base.apk
 
@@ -134,11 +130,13 @@ Binary files from-device/comparable/base/resources.arsc and locally-built/compar
 ```
 
 Diffoscope results for {% include diffoscope-modal.html label='classes2.dex' url='/assets/diffoscope-results/android/world.bitkey.app/2024.74.1.1/base/classes2.dex.html' %}
+
 Diffoscope results for {% include diffoscope-modal.html label='classes.dex' url='/assets/diffoscope-results/android/world.bitkey.app/2024.74.1.1/base/classes.dex.html' %}
 
 
 `$ diff -r from-device/unpacked locally-built/unpacked`
 
+```
 Binary files from-device/unpacked/arm64_v8a/AndroidManifest.xml and locally-built/unpacked/arm64_v8a/AndroidManifest.xml differ
 Only in from-device/unpacked/arm64_v8a: META-INF
 Only in from-device/unpacked/arm64_v8a: stamp-cert-sha256
@@ -157,18 +155,20 @@ Binary files from-device/unpacked/xxhdpi/AndroidManifest.xml and locally-built/u
 Only in from-device/unpacked/xxhdpi: META-INF
 Binary files from-device/unpacked/xxhdpi/resources.arsc and locally-built/unpacked/xxhdpi/resources.arsc differ
 Only in from-device/unpacked/xxhdpi: stamp-cert-sha256
+```
 
 `$ diff -r from-device/normalized-names locally-built/normalized-names`
 
-Aside from the differences in classes.dex and classes2.dex, the file diff looks similar to [v2024.69.0](https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/3cb9e16e08babae6e2f6ce682158ba2aa6c603c5/_android/world.bitkey.app.md)
+## Verdict
 
-As such, we will mark this app as **reproducible.**
+Similar to the previous version, this version has a verdict of **not verifiable**.
 
+```
 Binary files from-device/normalized-names/arm64_v8a.apk and locally-built/normalized-names/arm64_v8a.apk differ
 Binary files from-device/normalized-names/base.apk and locally-built/normalized-names/base.apk differ
 Binary files from-device/normalized-names/en.apk and locally-built/normalized-names/en.apk differ
 Binary files from-device/normalized-names/xxhdpi.apk and locally-built/normalized-names/xxhdpi.apk differ
-
+```
 
 ## For archival purposes:
 
