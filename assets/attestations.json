@@ -2,6 +2,17 @@
   {
     "appId": "app.zeusln.zeus",
     "signer": "cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359",
+    "version": "0.9.2",
+    "verdict": "reproducible",
+    "appHashes": [
+      "388d9e8b545aa657c1a147a0a24ee700af31cdecd2c9cdacaa6e208e1db9ea10"
+    ],
+    "date": "2024-11-14",
+    "platform": "android"
+  },
+  {
+    "appId": "app.zeusln.zeus",
+    "signer": "cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359",
     "version": "0.9.0",
     "verdict": "reproducible",
     "appHashes": [
@@ -101,12 +112,12 @@
   {
     "appId": "app.zeusln.zeus",
     "signer": "cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359",
-    "version": "0.9.2",
+    "version": "0.9.3",
     "verdict": "",
     "appHashes": [
-      "388d9e8b545aa657c1a147a0a24ee700af31cdecd2c9cdacaa6e208e1db9ea10"
+      "3670e08e0720f8dbb021ff15fe02fb0f6c5df810a972ced5c0356a29e296563c"
     ],
-    "date": "2024-11-14",
+    "date": "2024-12-13",
     "platform": "android"
   },
   {
@@ -294,6 +305,17 @@
       "255a6fc14d8c900d92f9a707c73b50e2f1668ed020f2f23da3af50ca6fa7dd05"
     ],
     "date": "2024-11-22",
+    "platform": "android"
+  },
+  {
+    "appId": "com.greenaddress.greenbits_android_wallet",
+    "signer": "32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e",
+    "version": "4.0.37",
+    "verdict": "reproducible",
+    "appHashes": [
+      "9c7ec3f9be769bc64db028a07be3608b2056a11f5d77302695e88adc0188f574"
+    ],
+    "date": "2024-11-13",
     "platform": "android"
   },
   {
@@ -805,12 +827,12 @@
   {
     "appId": "com.greenaddress.greenbits_android_wallet",
     "signer": "32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e",
-    "version": "4.0.37",
+    "version": "4.1.0",
     "verdict": "reproducible",
     "appHashes": [
-      "9c7ec3f9be769bc64db028a07be3608b2056a11f5d77302695e88adc0188f574"
+      "8be987721bac112365d720aee87481b80e49b78093b599919a1120ca378530f6"
     ],
-    "date": "2024-11-13",
+    "date": "2024-12-02",
     "platform": "android"
   },
   {
