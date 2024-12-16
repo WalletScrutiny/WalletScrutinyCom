@@ -1,4 +1,5 @@
 import {marked} from 'marked';
+import DOMPurify from 'dompurify';
 
 let response = null;
 
@@ -148,7 +149,7 @@ window.showAttestationModal = async function(sha256Hash, attestationId) {
     <p><strong>Created At:</strong> ${new Date(attestation.created_at * 1000).toLocaleString()}</p>
     <p><strong>Status: </strong> ${status} ${status === 'reproducible' ? '✅' : '❌'}</p>
     <p><strong>Information:</strong>
-      <div class="markdown-content">${marked.parse(attestation.content)}</div>
+      <div class="markdown-content">${DOMPurify.sanitize(marked.parse(attestation.content))}</div>
     </p>
   `;
 
