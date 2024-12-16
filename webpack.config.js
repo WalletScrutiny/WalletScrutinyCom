@@ -5,7 +5,7 @@ const WebpackShellPluginNext = require('webpack-shell-plugin-next');
 module.exports = {
   entry: {
     jquery: [
-      './assets/js/_main.js',
+      './src/_main.js',
       './assets/js/plugins/jquery.fitvids.js',
       './assets/js/plugins/jquery.greedy-navigation.js'
     ]
