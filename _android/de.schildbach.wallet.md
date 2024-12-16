@@ -10,11 +10,11 @@ users: 10000000
 appId: de.schildbach.wallet
 appCountry: 
 released: 2011-03-01
-updated: 2024-11-02
+updated: 2024-12-16
 version: '10.20'
 stars: 4
 ratings: 29247
-reviews: 2075
+reviews: 2077
 size: 
 website: https://github.com/bitcoin-wallet/bitcoin-wallet
 repository: https://github.com/bitcoin-wallet/bitcoin-wallet

@@ -8,8 +8,8 @@ users: 500000
 appId: com.shaketh
 appCountry: 
 released: 2018-02-20
-updated: 2024-12-10
-version: 3.11.12
+updated: 2024-12-13
+version: 3.12.0
 stars: 4.5
 ratings: 10533
 reviews: 19

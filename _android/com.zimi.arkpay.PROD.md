@@ -8,8 +8,8 @@ users: 1000
 appId: com.zimi.arkpay.PROD
 appCountry: 
 released: 2020-06-03
-updated: 2023-11-24
-version: 2.13.0
+updated: 2024-12-16
+version: 2.15.0
 stars: 3.9
 ratings: 
 reviews: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.zimi.arkpay.PROD.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2024-11-19
+date: 2024-12-16
 signer: 
 reviewArchive: 
 twitter: 

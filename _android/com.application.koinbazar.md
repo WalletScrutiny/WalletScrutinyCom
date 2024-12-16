@@ -12,7 +12,7 @@ updated: 2024-12-13
 version: 3.0.55
 stars: 3.5
 ratings: 7090
-reviews: 2936
+reviews: 2937
 size: 
 website: https://koinbx.com/
 repository: 

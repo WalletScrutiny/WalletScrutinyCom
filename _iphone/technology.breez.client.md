@@ -11,7 +11,7 @@ released: 2022-05-01
 updated: 2024-12-05
 version: 1.1.20
 stars: 3.9
-reviews: 47
+reviews: 48
 size: '193890304'
 website: 
 repository: https://github.com/breez/breezmobile

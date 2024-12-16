@@ -12,7 +12,7 @@ updated: 2024-12-11
 version: 2.8.7002
 stars: 3.7
 ratings: 
-reviews: 354
+reviews: 357
 size: 
 website: https://worldcoin.org
 repository: 

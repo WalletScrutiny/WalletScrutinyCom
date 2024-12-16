@@ -12,7 +12,7 @@ updated: 2024-12-09
 version: 3.24.2
 stars: 3.7
 ratings: 
-reviews: 30
+reviews: 31
 size: 
 website: https://www.buenbit.com
 repository: 

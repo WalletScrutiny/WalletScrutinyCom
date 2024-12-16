@@ -10,9 +10,9 @@ appCountry: us
 released: 2019-05-18
 updated: 2024-12-13
 version: 4.31.0
-stars: 4.1
+stars: 4
 ratings: 2828
-reviews: 1213
+reviews: 1214
 size: 
 website: https://bingx.com
 repository: 
@@ -30,7 +30,7 @@ social:
 - https://www.facebook.com/BingbonOfficial
 - https://www.reddit.com/r/Bingbon
 redirect_from: 
-developerName: BINGX GLOBAL
+developerName: BINGX GROUP LIMITED
 features: 
 
 ---

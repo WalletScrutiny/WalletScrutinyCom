@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.fintoda.app.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-08-30
+date: 2024-12-16
 signer: 
 reviewArchive: 
 twitter: 

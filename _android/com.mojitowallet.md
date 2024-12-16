@@ -8,8 +8,8 @@ users: 5000
 appId: com.mojitowallet
 appCountry: 
 released: 
-updated: 2024-12-13
-version: 0.4.0
+updated: 2024-12-15
+version: 0.4.1
 stars: 
 ratings: 
 reviews: 

@@ -12,7 +12,7 @@ updated: 2024-12-11
 version: 4.30.6
 stars: 4.8
 ratings: 
-reviews: 138
+reviews: 143
 size: 
 website: https://river.com/
 repository: 
