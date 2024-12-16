@@ -1,6 +1,6 @@
-const fs = require('fs');
-const path = require('path');
-const yaml = require('js-yaml'); 
+import fs from 'fs';
+import path from 'path';
+import yaml from 'js-yaml'; 
 
 console.debug = function() {};
 
@@ -156,13 +156,19 @@ function processAllDirectories(directoryPaths) {
     console.log(`${filteredAttestations.length} attestations written to ${attestationsFile}`);
 }
 
-// Get directory paths from command-line arguments
-const directoryPaths = process.argv.slice(2);
+// Direct execution check
+if (import.meta.url === `file://${process.argv[1]}`) {
+    // Get directory paths from command-line arguments    
+    const directoryPaths = process.argv.slice(2);
 
-if (directoryPaths.length === 0) {
-    console.log('Please provide at least one directory path as a command-line argument.');
-    process.exit(1);
+    if (directoryPaths.length === 0) {
+        console.log('Please provide at least one directory path as a command-line argument.');
+        process.exit(1);
+    }
+
+    console.log(`Using directory paths: ${directoryPaths.join(', ')}`);
+    processAllDirectories(directoryPaths);
 }
 
-console.log(`Using directory paths: ${directoryPaths.join(', ')}`);
-processAllDirectories(directoryPaths);
+// Export functionality for use in other modules
+export { processAllDirectories, processFilesInDirectory, parseFile };
