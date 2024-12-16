@@ -1,3 +1,5 @@
+import {marked} from 'marked';
+
 let response = null;
 
 window.renderAssetsTable = async function({htmlElementId, assetsPubkey, appId, sha256, hideConfig}) {
