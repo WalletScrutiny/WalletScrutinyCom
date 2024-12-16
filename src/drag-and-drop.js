@@ -1,4 +1,8 @@
-var uploadsActivated = false;
+import AppInfoParser from 'app-info-parser';
+import { hasBlob, uploadBlobWithProgress, listUserBlobs, sha256FromBlob } from './blossom.js';
+
+const uploadsActivated = false;
+const blossomServerUrl = 'https://cdn.satellite.earth'; 
 
 document.addEventListener("DOMContentLoaded", async function () {
     initializeDragAndDrop();
@@ -43,7 +47,7 @@ function scrollToVersion(version) {
             updatedTarget.classList.add('highlightRow');
 
         } else {
-            console.warn(`No table row found for version: ${appData.version}`);
+            console.warn(`No table row found for version: ${version}`);
         }
     }, 500);
 }
@@ -101,8 +105,9 @@ async function handleFile(file) {
     if (appData) { // Hash is in attestations.json        
         displayFileInfo(file, hash, appData.appId);
         displayAppData(appData);
-        scrollToVersion(appData.version)
-        checkAppIdMismatch(appData.appId, hash);
+        if (isAppIdCorrect(appData.appId, hash)) {
+            scrollToVersion(appData.version);
+        }
     } else { // Hash is NOT in attestations.json
         await handleUnknownFile(file, hash);
     }
@@ -131,7 +136,7 @@ async function handleUnknownFile(file, hash) {
     }
 
     // Check if file exists in Blossom
-    const existsInBlossom = await hasBlob(hash, '', serverUrl);
+    const existsInBlossom = await hasBlob(hash, '', blossomServerUrl);
 
     if (existsInBlossom) {
         displayBlossomFileInfo(file.name, hash);
@@ -149,8 +154,7 @@ async function processUnknownApk(file, hash) {
             if (apkInfo) {
                 displayFileInfo(file, hash, apkInfo.package);
                 showUnknownVersionMessage(apkInfo);
-
-                checkAppIdMismatch(apkInfo.package, hash);
+                isAppIdCorrect(apkInfo.package, hash);
             }
             else {
                 showNoApkMessage();
@@ -170,7 +174,7 @@ async function uploadToBlossom(file, hash) {
         // Clear previous messages
         updateDomElement('app-data', '');
 
-        const exists = await hasBlob(hash, '', serverUrl);
+        const exists = await hasBlob(hash, '', blossomServerUrl);
 
         if (exists) {
             console.log(`Blob ${hash} already exists in Blossom`);
@@ -183,12 +187,12 @@ async function uploadToBlossom(file, hash) {
                 updateUploadProgress(progress);
             };
 
-            const descriptor = await uploadBlobWithProgress(file, serverUrl, onProgress);
+            const descriptor = await uploadBlobWithProgress(file, blossomServerUrl, onProgress);
 
             console.log('Uploaded blob descriptor:', descriptor);
 
             displayBlossomUploadStatus('Upload complete!', 100);
-            await listUserBlobs();
+            await listUserBlobs(blossomServerUrl);
             displayBlossomUploadSuccess(file.name, hash);
         }
     } catch (error) {
@@ -325,7 +329,7 @@ async function parseAPK(file) {
     console.time("parseAPK");
     console.log("Parsing APK file");
     try {
-        const parser = new window.AppInfoParser(file);
+        const parser = new AppInfoParser(file);
         const result = await parser.parse();
         console.timeEnd("parseAPK");
         return result;
@@ -374,9 +378,9 @@ function displayBlossomFileInfo(fileName, hash) {
     `);
 }
 
-function checkAppIdMismatch(appId, hash) {
-    console.log("Checking app ID mismatch");
-    console.time("checkAppIdMismatch");
+function isAppIdCorrect(appId, hash) {
+    console.log("Checking if app ID is correct");
+    console.time("isAppIdCorrect");
     const appIdFromPage = window.pageAppId;
 
     if (appIdFromPage !== appId) {
@@ -385,8 +389,11 @@ function checkAppIdMismatch(appId, hash) {
         if (app) {
             showRedirectButton(app, hash);
         }
+        console.timeEnd("isAppIdCorrect");
+        return false;
     }
-    console.timeEnd("checkAppIdMismatch");
+    console.timeEnd("isAppIdCorrect");
+    return true;
 }
 
 function showRedirectButton(app, hash) {
