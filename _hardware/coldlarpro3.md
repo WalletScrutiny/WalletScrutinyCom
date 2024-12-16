@@ -18,7 +18,7 @@ provider: ColdLar Information Technology Co.
 providerWebsite: https://www.coldlar.com/
 website: 
 shop: https://www.coldlar.com/productDetails/10062
-country: CH
+country: CN
 price: 620USD
 repository: 
 issue: 
