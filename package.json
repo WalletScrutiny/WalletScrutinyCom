@@ -49,6 +49,7 @@
   },
   "dependencies": {
     "@nostr-dev-kit/ndk": "^2.10.7",
-    "jquery": "^3.7.1"
+    "jquery": "^3.7.1",
+    "marked": "^15.0.4"
   }
 }
