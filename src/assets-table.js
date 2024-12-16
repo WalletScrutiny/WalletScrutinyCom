@@ -23,16 +23,16 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, appId, s
   table.innerHTML = `
     <thead>
       <tr>
-        ${hideConfig?.wallet ? '' : '<th style="text-align: center;">Wallet</th>'}
-        <th style="text-align: center;">Version</th>
-        <th style="text-align: center;">Asset Description</th>
-        ${hideConfig?.sha256 ? '' : '<th style="text-align: center;">SHA256</th>'}
-        <th style="text-align: center;">URL</th>
-        <th style="text-align: center;">Attestations</th>
-        <th style="text-align: center;">Observed At</th>
+        ${hideConfig?.wallet ? '' : '<th>Wallet</th>'}
+        <th>Version</th>
+        <th>Asset Description</th>
+        ${hideConfig?.sha256 ? '' : '<th>SHA256</th>'}
+        <th>URL</th>
+        <th>Attestations</th>
+        <th>Observed At</th>
       </tr>
     </thead>
-  ` ;
+  `;
 
   sortedBinaries.forEach(binary => {
     const date = new Date(binary.created_at * 1000).toLocaleDateString(navigator.language, {
@@ -74,7 +74,7 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, appId, s
       }
       attestationList = `<ul>${listItems}</ul>`;
     } else {
-      attestationList = `No attestations yet - <a href="/new_asset/" target="_blank" rel="noopener noreferrer">do it yourself</a>`;
+      attestationList = `No attestations yet. <div style="margin-top: 4px;"><a href="/new_attestation/?sha256=${sha256Hash}" class="attest-button" target="_blank" rel="noopener noreferrer">Attest this binary</a></div>`;
     }
 
     const wallet = window.wallets.find(w => w.appId === identifier);
@@ -82,22 +82,22 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, appId, s
 
     const row = document.createElement('tr');
     row.innerHTML = `
-      ${hideConfig?.wallet ? '' : `<td style="text-align: center;">
+      ${hideConfig?.wallet ? '' : `<td>
         ${wallet ? `<a href="${wallet.url}" target="_blank" rel="noopener noreferrer">${walletTitle}</a>` : walletTitle}
       </td>`}
-      <td style="text-align: center;">${version}</td>
-      <td>${binary.content}</td>
-      ${hideConfig?.sha256 ? '' : `<td style="text-align: center;">
+      <td>${version}</td>
+      <td class="asset-description">${binary.content}</td>
+      ${hideConfig?.sha256 ? '' : `<td>
         <span>${truncatedHash}</span>
-        <button onclick="navigator.clipboard.writeText('${sha256Hash}')" style="border: none; background: none; cursor: pointer; padding: 0 5px;">
+        <button onclick="navigator.clipboard.writeText('${sha256Hash}')" class="copy-button">
           📋
         </button>
       </td>`}
-      <td style="text-align: center;">
+      <td>
         ${downloadUrl ? `<a href="${downloadUrl}" target="_blank" rel="noopener noreferrer">Download</a>` : 'N/A'}
       </td>
-      <td style="text-align: center;">${attestationList}</td>
-      <td style="text-align: center;">${date}</td>
+      <td>${attestationList}</td>
+      <td>${date}</td>
     `;
     table.appendChild(row);
   });
