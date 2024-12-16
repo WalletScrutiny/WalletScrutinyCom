@@ -95,6 +95,7 @@ The hashes of the zeroed version of v2.8.6 bitcoin-only matches with the **signa
 
 **Version 2.8.6 of the {{ page.title }} is reproducible**.
 
+{% include asciicast %}
 
 ## Review 2024-10-08
 
