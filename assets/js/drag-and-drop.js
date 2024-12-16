@@ -1,8 +1,52 @@
 var uploadsActivated = false;
 
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", async function () {
     initializeDragAndDrop();
+
+    // If appHash passed to url show AppData and scroll to row in archive.
+    const urlParams = new URLSearchParams(window.location.search);
+    const hash = urlParams.get('hash');
+    if (hash) {
+        const appData = await fetchAppData(hash); 
+        if (appData) {
+            displayAppData(appData);
+            disableHoverMode();
+        
+            if (appData.version) {
+                scrollToVersion(appData.version);
+            } else {
+                console.warn('Version not found in appData.');
+            }
+        } else {
+            console.error('No app data found for this hash.');
+        }
+    }
 });
+
+function scrollToVersion(version) {
+    const versionId = `version-${version.replace(/\./g, '-')}`; // Generate row ID
+    const targetElement = document.getElementById(versionId);
+
+    // Check if the row is visible
+    if (targetElement && !targetElement.offsetParent) {
+        const showMoreButton = document.querySelector('a[href="#resultsArchive"]');
+        if (showMoreButton) {
+            showMoreButton.click(); // Expand the table
+        }
+    }
+
+    // Wait for the table to expand, then scroll to and highlight the target row
+    setTimeout(() => {
+        const updatedTarget = document.getElementById(versionId);
+        if (updatedTarget) {
+            updatedTarget.scrollIntoView({ block: 'center' });
+            updatedTarget.classList.add('highlightRow');
+
+        } else {
+            console.warn(`No table row found for version: ${appData.version}`);
+        }
+    }, 500);
+}
 
 function initializeDragAndDrop() {
     const dropArea = document.getElementById('drop-area');
@@ -46,9 +90,7 @@ async function handleFile(file) {
 
     const hash = await calculateFileHash(file);
 
-    const select = document.getElementById('select');
-    select.classList.remove('hover-mode');
-    select.classList.add('always-visible');
+    disableHoverMode();
 
     // Display initial file information
     displayFileInfo(file, hash);
@@ -59,13 +101,20 @@ async function handleFile(file) {
     if (appData) { // Hash is in attestations.json        
         displayFileInfo(file, hash, appData.appId);
         displayAppData(appData);
-        checkAppIdMismatch(appData.appId);
+        scrollToVersion(appData.version)
+        checkAppIdMismatch(appData.appId, hash);
     } else { // Hash is NOT in attestations.json
         await handleUnknownFile(file, hash);
     }
 
     console.timeEnd("Total handleFile time");
     console.log(`for file: ${file.name}, ${formatFileSize(file.size)}`);
+}
+
+function disableHoverMode() {
+    const select = document.getElementById('select');
+    select.classList.remove('hover-mode');
+    select.classList.add('always-visible');
 }
 
 async function handleUnknownFile(file, hash) {
@@ -94,7 +143,7 @@ async function processUnknownApk(file, hash) {
                 displayFileInfo(file, hash, apkInfo.package);
                 showUnknownVersionMessage(apkInfo);
 
-                checkAppIdMismatch(apkInfo.package);
+                checkAppIdMismatch(apkInfo.package, hash);
             }
             else {
                 showNoApkMessage();
@@ -318,7 +367,7 @@ function displayBlossomFileInfo(fileName, hash) {
     `);
 }
 
-function checkAppIdMismatch(appId) {
+function checkAppIdMismatch(appId, hash) {
     console.log("Checking app ID mismatch");
     console.time("checkAppIdMismatch");
     const appIdFromPage = window.pageAppId;
@@ -327,20 +376,20 @@ function checkAppIdMismatch(appId) {
         let app = window.wallets.find(it => it.appId === appId);
 
         if (app) {
-            showRedirectButton(app);
+            showRedirectButton(app, hash);
         }
     }
     console.timeEnd("checkAppIdMismatch");
 }
 
-function showRedirectButton(app) {
+function showRedirectButton(app, hash) {
     console.log("Showing redirect button");
     const redirectButtonDiv = document.getElementById('redirect-button');
     redirectButtonDiv.innerHTML = ''; // Clear any existing content
     const button = document.createElement('button');
     button.innerHTML = `Go to correct page for "${app.title}"`;
     button.onclick = () => {
-        window.location.href = `/${app.folder}/${app.appId}/`;  // Redirect to the correct page
+        window.location.href = `/${app.folder}/${app.appId}/?hash=${encodeURIComponent(hash)}`;
     };
     redirectButtonDiv.appendChild(button);
 }
