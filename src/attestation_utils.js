@@ -182,7 +182,7 @@ const getTimestampMonthsAgo = function(months = 6) {
   return Math.floor(date.getTime() / 1000); // Convert to Unix timestamp (seconds)
 }
 
-const getAllAssetInformation = async function({ months, assetsPubkey, attestationsPubkey, appId }) {
+const getAllAssetInformation = async function({ months, assetsPubkey, attestationsPubkey, appId, sha256 }) {
   await ndk.connect(connectTimeout);
 
   // Filter Assets
@@ -199,6 +199,9 @@ const getAllAssetInformation = async function({ months, assetsPubkey, attestatio
   if (appId) {
     filter_assets["#i"] = [appId];
   }
+  if (sha256) {
+    filter_assets["#x"] = [sha256];
+  }
 
   // Filter Attestations + Endorsements
   const filter_attestations = {
@@ -209,6 +212,9 @@ const getAllAssetInformation = async function({ months, assetsPubkey, attestatio
   }
   if (attestationsPubkey) {
     filter_attestations.authors = [attestationsPubkey];
+  }
+  if (sha256) {
+    filter_attestations["#x"] = [sha256];
   }
 
   const events = await ndk.fetchEvents([filter_assets, filter_attestations]);

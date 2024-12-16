@@ -90,7 +90,7 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, appId, s
       <td style="text-align: center;">
         ${downloadUrl ? `<a href="${downloadUrl}" target="_blank" rel="noopener noreferrer">Download</a>` : 'N/A'}
       </td>
-      <td>${attestationList}</td>
+      <td style="text-align: center;">${attestationList}</td>
       <td style="text-align: center;">${date}</td>
     `;
     table.appendChild(row);
