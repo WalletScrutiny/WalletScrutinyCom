@@ -182,7 +182,7 @@ const getTimestampMonthsAgo = function(months = 6) {
   return Math.floor(date.getTime() / 1000); // Convert to Unix timestamp (seconds)
 }
 
-const getAttestationInfoLastMonths = async function({ months, assetsPubkey, attestationsPubkey, appId }) {
+const getAllAssetInformation = async function({ months, assetsPubkey, attestationsPubkey, appId }) {
   await ndk.connect(connectTimeout);
 
   // Filter Assets
@@ -250,5 +250,5 @@ window.createAttestation = createAttestation;
 window.createEndorsement = createEndorsement;
 window.getNostrProfile = getNostrProfile;
 window.getAssetsWithSHA256 = getAssetsWithSHA256;
-window.getAttestationInfoLastMonths = getAttestationInfoLastMonths;
+window.getAllAssetInformation = getAllAssetInformation;
 window.getFirstTag = getFirstTag;

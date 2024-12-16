@@ -24,7 +24,7 @@ permalink: /attestators/
   (async () => {
     document.getElementById('loadingSpinner').style.display = 'block';
 
-    const response = await getAttestationInfoLastMonths({
+    const response = await getAllAssetInformation({
       months: 6
     });
 
