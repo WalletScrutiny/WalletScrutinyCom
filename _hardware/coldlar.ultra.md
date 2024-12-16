@@ -72,7 +72,7 @@ The device offers two methods for private key generation:
 
 All key operations are performed offline, with cold-hot communication strictly via QR codes, ensuring private keys never touch the internet.
 
-## Private keys are not shared - **?**
+## Private keys are not shared - ✔️
 
 According to the manual:
 
@@ -86,17 +86,24 @@ According to the manual:
    - Never entering passwords on any webpage
    - Never saving on networked devices
 
-## Analysis
-
-Although the manual claims that: 
+The manual claims that: 
 
 > The cold end manages the private keys, mainly responsible for generating private keys, constructing transactions and digital signatures; the hot end connects to the blockchain network, mainly responsible for querying balances, broadcasting transactions and monitoring asset dynamics. The cold and hot ends communicate via QR codes, ensuring that the private key never touches the internet, completely eliminating the risk of private key theft by online hackers
 
-1. If the source code is not available for both the app or the firmware, users would have to *trust* that these claims are true. There simply is no way to verify this.
-2. Having an app that is not available on Google Play is another point of concern. Downloading an apk straight from the servers of the provider, without any verification, is another security risk.
+## Device displays receive address for confirmation - ✔️
 
-- What if a disgruntled employee, replaces the apk with a malicious one?
-- What if the apk is modified to do something else?
+Yes. 
 
-For this reason, the risk that we see is that this device could potentially be connecting to an unsecure app which claims to do one thing, but does not provide proof of that. We will give this device a verdict of **plainkey** since the possibility of it sharing private key information from an unverifiable app is likely.
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RSFemN3hjAE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+## Interface - ✔️
+
+The touchscreen allows the user to confirm the address and the amount of the transaction prior to sending the transaction.
+
+## Reproducibility - ❌
+
+The ColdLar Ultra does **not** make claims regarding its source-availability. 
+
+While it has a GitHub organization page, its only public repository is a fork of the bitcoincash.org website. 
+
+This device is **not source-available**.
