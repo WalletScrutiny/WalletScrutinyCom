@@ -1,19 +1,20 @@
-const serverUrl = 'https://cdn.satellite.earth'; // works, but paid
 
-function isNostrAvailable() {
+
+// Check if Nostr is available in the browser
+export function isNostrAvailable() {
   return typeof window.nostr !== 'undefined' && typeof window.nostr.signEvent === 'function';
 }
 
-// Nostr event signer function
-async function signer(event) {
+// Sign a Nostr event
+export async function signer(event) {
   if (!isNostrAvailable()) {
     throw new Error('Nostr provider is not available');
   }
   return await window.nostr.signEvent(event);
 }
 
-// Add a function to get the current user's public key
-async function getCurrentPublicKey() {
+// Get the current user's public key
+export async function getCurrentPublicKey() {
   if (!isNostrAvailable()) {
     throw new Error('Nostr provider is not available');
   }
@@ -25,7 +26,8 @@ async function getCurrentPublicKey() {
   }
 }
 
-async function listUserBlobs() {
+// List blobs uploaded by the current user
+export async function listUserBlobs(serverUrl) {
   const since = null;
   const until = null;
   const requireAuth = true;
@@ -38,7 +40,6 @@ async function listUserBlobs() {
     console.log('Blobs uploaded by pubKey:', pubKey, blobs.length);
 
     blobs.forEach((blob, index) => {
-      // Console log for debugging
       console.log(`Blob ${index + 1}:`);
       console.log(`  SHA256: ${blob.sha256}`);
       console.log(`  Created: ${new Date(blob.created * 1000).toLocaleString()}`);
@@ -55,8 +56,8 @@ async function listUserBlobs() {
   }
 }
 
-// Helper function to create and sign an authorization event
-async function createAuthorizationEvent(verb, content, xTags = [], serverUrl = '', tags = []) {
+// Create and sign an authorization event
+export async function createAuthorizationEvent(verb, content, xTags = [], serverUrl = '', tags = []) {
   const event = {
     kind: 24242,
     created_at: Math.floor(Date.now() / 1000),
@@ -72,12 +73,10 @@ async function createAuthorizationEvent(verb, content, xTags = [], serverUrl = '
     event.tags.push([key, value]);
   });
 
-  // Add x tags if any
   xTags.forEach(x => {
     event.tags.push(['x', x]);
   });
 
-  // Add server tag if provided
   if (serverUrl) {
     event.tags.push(['server', serverUrl]);
   }
@@ -85,31 +84,31 @@ async function createAuthorizationEvent(verb, content, xTags = [], serverUrl = '
   return await signer(event);
 }
 
-// Helper function to create the Authorization header
-async function createAuthorizationHeader(verb, content, xTags = [], serverUrl = '', tags = []) {
+// Create an authorization header
+export async function createAuthorizationHeader(verb, content, xTags = [], serverUrl = '', tags = []) {
   const signedEvent = await createAuthorizationEvent(verb, content, xTags, serverUrl, tags);
   const eventJson = JSON.stringify(signedEvent);
   const eventBase64 = btoa(eventJson);
   return 'Nostr ' + eventBase64;
 }
 
-// Helper function to calculate SHA256 of a blob
-async function sha256FromBlob(blob) {
+// Calculate SHA256 of a blob
+export async function sha256FromBlob(blob) {
   const arrayBuffer = await blob.arrayBuffer();
-  return sha256(arrayBuffer); // Use sha256 here
+  return sha256(arrayBuffer);
 }
 
-async function sha256(data) {
+// Calculate SHA256 from data
+export async function sha256(data) {
   const hash = await window.crypto.subtle.digest("SHA-256", data);
   const hashArray = Array.from(new Uint8Array(hash));
   return hashArray.map(b => b.toString(16).padStart(2, "0")).join("");
 }
 
-// HEAD /<sha256> - Has Blob
-async function hasBlob(sha256, fileExtension = '', serverUrl) {
+// Check if a blob exists on the server
+export async function hasBlob(sha256, fileExtension = '', serverUrl) {
   const url = `${serverUrl}/${sha256}${fileExtension}`;
   const response = await fetch(url, { method: 'HEAD' });
-  console.log('response', response);
   if (response.ok) {
     return true;
   } else if (response.status === 404) {
@@ -120,15 +119,15 @@ async function hasBlob(sha256, fileExtension = '', serverUrl) {
   }
 }
 
-// PUT /upload - Upload Blob
-async function uploadBlobWithProgress(blob, serverUrl, onProgress) {
+// Upload a blob with progress tracking
+export async function uploadBlobWithProgress(blob, serverUrl, onProgress) {
   const sha256 = await sha256FromBlob(blob);
   const mimeType = blob.type || 'application/octet-stream';
 
-  var tags = [
+  const tags = [
     ['name', blob.name],
     ['size', blob.size],
-  ]
+  ];
 
   const authHeader = await createAuthorizationHeader('upload', `Upload blob ${sha256}`, [sha256], serverUrl, tags);
 
@@ -137,24 +136,20 @@ async function uploadBlobWithProgress(blob, serverUrl, onProgress) {
     'Authorization': authHeader,
   };
 
-  console.log('headers:', headers)
-
   const url = `${serverUrl}/upload`;
 
   return new Promise((resolve, reject) => {
     const xhr = new XMLHttpRequest();
     xhr.open('PUT', url, true);
-    
+
     Object.keys(headers).forEach(key => {
       xhr.setRequestHeader(key, headers[key]);
     });
 
     xhr.upload.onprogress = (event) => {
-      if (event.lengthComputable) {
+      if (event.lengthComputable && onProgress) {
         const percentComplete = (event.loaded / event.total) * 100;
-        if (onProgress) {
-          onProgress(percentComplete);
-        }
+        onProgress(percentComplete);
       }
     };
 
@@ -174,10 +169,9 @@ async function uploadBlobWithProgress(blob, serverUrl, onProgress) {
   });
 }
 
-// GET /list/<pubkey> - List Blobs
-async function listBlobs(pubkey, serverUrl, since = null, until = null, requireAuth = false) {
+// List blobs for a specific public key
+export async function listBlobs(pubkey, serverUrl, since = null, until = null, requireAuth = false) {
   let url = `${serverUrl}/list/${pubkey}`;
-  console.log('listBlobs', url);
   const params = new URLSearchParams();
   if (since) params.append('since', since);
   if (until) params.append('until', until);
@@ -185,9 +179,7 @@ async function listBlobs(pubkey, serverUrl, since = null, until = null, requireA
     url += '?' + params.toString();
   }
 
-  let headers = {
-    'Accept': 'application/json',
-  };
+  const headers = { 'Accept': 'application/json' };
 
   if (requireAuth) {
     headers['Authorization'] = await createAuthorizationHeader('list', 'List Blobs');
