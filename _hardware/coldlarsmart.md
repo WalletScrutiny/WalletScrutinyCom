@@ -34,7 +34,7 @@ features:
 
 ## Updated Review 2024-12-09
 
-The website is available once more and has been [updated](https://www.coldlar.com/en/announcement/10000002?type=1). However, the device coldLar Smart is no longer in the list of items for sale. There are also no user manuals available that reference this specific device. The verdict is unchanged.
+The website is available once more and has been [updated](https://www.coldlar.com/en/announcement/10000002?type=1). However, the device coldLar Smart is no longer in the list of items for sale. There are also no user manuals available that reference this specific device.
 
 
 ## Previous Review 2022-11-26
