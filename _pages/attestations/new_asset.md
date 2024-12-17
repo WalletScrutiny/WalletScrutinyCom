@@ -100,7 +100,29 @@ function validateForm() {
   return true;
 }
 
-function loadUrlParams() {
+async function loadUrlParams() {
+  const showError = (message) => {
+    document.querySelector('.form-container').style.display = 'none';
+    
+    const errorDiv = document.createElement('div');
+    errorDiv.className = 'error-message';
+    errorDiv.innerHTML = `
+      <p>${message}</p>
+      <p><a href="/nostr-info/" target="_blank">(learn more about Nostr)</a></p>
+      <p><a href="/assets/" class="btn btn-info">Return to assets page</a></p>
+    `;
+    
+    document.querySelector('.form-container').insertAdjacentElement('beforebegin', errorDiv);
+  };
+
+  // Check for Nostr extension first
+  try {
+    await userHasBrowserExtension();
+  } catch (error) {
+    showError('A Nostr browser extension is required to create assets.');
+    return;
+  }
+
   const urlParams = new URLSearchParams(window.location.search);
   
   const fields = ['name', 'url', 'version', 'sha256', 'appId', 'mimeType', 'platform'];
