@@ -6,8 +6,8 @@ authors:
 - keraliss
 released: 2024-04-02
 discontinued: 
-updated: 2024-11-18
-version: 1.7.12
+updated: 2024-12-13
+version: 1.7.16
 binaries: https://keyst.one/firmware
 dimensions:
 - 62
@@ -26,9 +26,14 @@ icon: keystone3.pro.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-12-10
+date: 2024-12-17
 signer: 6853ffd1706faed1468e677621b2ef1ccf053dff4f9b22e7ba5b12a978e1eb37
 reviewArchive:
+- date: 2024-12-10
+  version: 1.7.12
+  appHash: 30150196c0ea1e6dd258a96a395054fb17a844554f140a2cab3ced124c8b84a7
+  gitRevision: ba0aa32f1d9448f95829d629cdc2b12354f1d9ba
+  verdict: reproducible
 - date: 2024-11-20
   version: 1.7.10
   appHash: 93f3b45eee2403be6f5a1aaeccbaa863dc7df24b666f250b5147b5c54ef27546
@@ -93,7 +98,36 @@ Other Features:
 - Fingerprint verification
 - Dice entropy
 
-# Updated Verification for 1.7.12 2024-12-10
+# Updated Verification for 1.7.16 2024-12-17
+
+Run the script:
+
+`$ ./scripts/test/hardware/keystone3pro.sh 1.7.16`
+
+```
+Firmware checksum sha256: 5b1e33c10cc439809c23b8c0c5e44ed84c34cd1206b15aeef27ff0db7d30c4c2 
+You can check this value on your device.
+------------------------
+(SIGNED) Binary from Keystone Website:
+c24cc4b1cf388672416b6e820382bc5048759f62357aff30546cbd5ec52d116d  keystone3.bin
+------------------------
+------------------------
+Binary from build process:
+5b1e33c10cc439809c23b8c0c5e44ed84c34cd1206b15aeef27ff0db7d30c4c2  ./build/mh1903.bin
+------------------------
+------------------------
+Unsigned Binary from Keystone Website:
+Firmware checksum sha256: 5b1e33c10cc439809c23b8c0c5e44ed84c34cd1206b15aeef27ff0db7d30c4c2 
+You can check this value on your device.
+------------------------
+Unsigned .bin hash must be the same as mh1903.bin.
+```
+
+Version 1.7.16 of the {{ page.title}} hardware device is **reproducible**
+
+<hr>
+
+# Previous Verification for 1.7.12 2024-12-10
 
 Run the script:
 
