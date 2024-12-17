@@ -12,7 +12,7 @@ updated: 2024-12-16
 version: 3.8.30_googleplay
 stars: 4.9
 ratings: 
-reviews: 566
+reviews: 567
 size: 
 website: https://fxtrendo.com
 repository: 

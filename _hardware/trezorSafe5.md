@@ -28,7 +28,7 @@ meta: ok
 verdict: reproducible
 date: 2024-12-13
 signer: 
-reviewArchive: 
+reviewArchive:
 - date: 2024-10-14
   version: 2.8.3
   appHash: 9f68696478e09d7bf8b8f5181413d8a5386b37571dc2f5ed8511a24f4c1d35b7

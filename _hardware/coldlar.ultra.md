@@ -9,7 +9,7 @@ updated:
 version: 
 binaries: 
 dimensions:
-- 135
+- 140
 - 71
 - 8.6
 weight: 160
@@ -29,7 +29,7 @@ date: 2024-12-16
 signer: 
 reviewArchive: 
 twitter: Coldlar
-social:
+social: 
 features: 
 
 ---

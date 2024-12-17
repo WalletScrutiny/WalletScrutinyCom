@@ -3,16 +3,16 @@ wsId:
 title: Coinbag -Crypto & Web3 Wallet
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.coinlinksec
 appCountry: us
 idd: '6479732222'
-released: '2024-03-26T07:00:00Z'
-updated: 2024-12-04
-version: 1.1.7
+released: 2024-03-26
+updated: 2024-12-17
+version: 1.2.2
 stars: 5
 reviews: 1
-size: '107758592'
+size: '109072384'
 website: https://www.coinlink.tech
 repository: 
 issue: 
