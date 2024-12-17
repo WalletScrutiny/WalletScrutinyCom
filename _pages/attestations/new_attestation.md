@@ -31,7 +31,7 @@ permalink: /new_attestation/
       <small class="form-text">Describe your attestation process and findings with as much detail as possible (minimum 10, maximum 60000 characters). Markdown is supported.</small>
     </div>
 
-    <button type="submit" class="btn btn-primary">Create Attestation</button>
+    <button type="submit" class="btn btn-success">Create Attestation</button>
   </form>
 </div>
 
@@ -74,7 +74,7 @@ async function loadUrlParamsAndGetAssetInfo() {
     errorDiv.className = 'error-message';
     errorDiv.innerHTML = `
       <p>${message}</p>
-      <p><a href="/assets/" class="btn btn-primary">Return to assets page</a></p>
+      <p><a href="/assets/" class="btn btn-info">Return to assets page</a></p>
     `;
     
     document.querySelector('.form-container').insertAdjacentElement('beforebegin', errorDiv);
