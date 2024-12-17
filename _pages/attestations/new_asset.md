@@ -11,6 +11,18 @@ permalink: /new_asset/
 <div class="form-container">
   <form id="assetForm" onsubmit="handleSubmit(event)">
     <div class="form-group">
+      <label for="appId">App ID:</label>
+      <input type="text" id="appId" name="appId" class="form-control">
+      <small class="form-text">Example: app.zeusln.zeus</small>
+    </div>
+
+    <div class="form-group">
+      <label for="version">Version*:</label>
+      <input type="text" id="version" name="version" class="form-control" required>
+      <small class="form-text">Example: 0.9.2</small>
+    </div>
+
+    <div class="form-group">
       <label for="name">Asset Name*:</label>
       <input type="text" id="name" name="name" class="form-control" required>
       <small class="form-text">Example: Universal APK from Github</small>
@@ -23,27 +35,9 @@ permalink: /new_asset/
     </div>
 
     <div class="form-group">
-      <label for="version">Version*:</label>
-      <input type="text" id="version" name="version" class="form-control" required>
-      <small class="form-text">Example: 0.9.2</small>
-    </div>
-
-    <div class="form-group">
       <label for="sha256">Hash (sha256)*:</label>
       <input type="text" id="sha256" name="sha256" class="form-control" required>
       <small class="form-text">Example: deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe</small>
-    </div>
-
-    <div class="form-group">
-      <label for="appId">App ID:</label>
-      <input type="text" id="appId" name="appId" class="form-control">
-      <small class="form-text">Example: app.zeusln.zeus</small>
-    </div>
-
-    <div class="form-group">
-      <label for="mimeType">MIME Type:</label>
-      <input type="text" id="mimeType" name="mimeType" class="form-control">
-      <small class="form-text">Example: application/vnd.android.package-archive</small>
     </div>
 
     <div class="form-group">
@@ -58,24 +52,17 @@ permalink: /new_asset/
       </select>
     </div>
 
+    <div class="form-group">
+      <label for="mimeType">MIME Type:</label>
+      <input type="text" id="mimeType" name="mimeType" class="form-control">
+      <small class="form-text">Example: application/vnd.android.package-archive</small>
+    </div>
+
     <button type="submit" class="btn btn-success">Register Asset</button>
   </form>
 </div>
 
 <script>
-  /*
-    (async () => {
-    const createdAssetResult = await createAssetRegistration({
-      name: "Universal APK from Github",
-      appId: "app.zeusln.zeus",
-      url: "https://github.com/ZeusLN/zeus/releases/download/v0.9.2/zeus-v0.9.2-universal.apk",
-      version: "0.9.2",
-      mimeType: "application/vnd.android.package-archive",
-      sha256: "deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe",
-      platform: "Android Universal"
-    });
-  })();
-  */
 function validateForm() {
   const name = document.getElementById('name').value.trim();
   const url = document.getElementById('url').value.trim();
@@ -132,16 +119,6 @@ async function loadUrlParams() {
       document.getElementById(field).value = value;
     }
   });
-
-  if (urlParams.toString() === '') {
-    document.getElementById('name').value = 'Universal APK from Github';
-    document.getElementById('url').value = 'https://github.com/ZeusLN/zeus/releases/download/v0.9.2/zeus-v0.9.2-universal.apk';
-    document.getElementById('version').value = '0.9.2';
-    document.getElementById('sha256').value = 'deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe';
-    document.getElementById('appId').value = 'app.zeusln.zeus';
-    document.getElementById('mimeType').value = 'application/vnd.android.package-archive';
-    document.getElementById('platform').value = 'Android Universal';
-  }
 }
 
 async function handleSubmit(event) {
