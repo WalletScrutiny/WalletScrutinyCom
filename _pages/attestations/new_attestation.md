@@ -67,28 +67,37 @@ async function loadUrlParamsAndGetAssetInfo() {
   const sha256 = urlParams.get('sha256');
   const assetEventId = urlParams.get('assetEventId');
 
-  if (!sha256 || !assetEventId) {
+  const showError = (message) => {
     document.querySelector('.form-container').style.display = 'none';
     
     const errorDiv = document.createElement('div');
     errorDiv.className = 'error-message';
     errorDiv.innerHTML = `
-      <p>Required URL parameters are missing.</p>
+      <p>${message}</p>
       <p><a href="/assets/" class="btn btn-primary">Return to assets page</a></p>
     `;
     
     document.querySelector('.form-container').insertAdjacentElement('beforebegin', errorDiv);
+  };
+
+  if (!sha256 || !assetEventId) {
+    showError('Required URL parameters are missing.');
     return;
   }
 
   // Show asset information and previous attestations
   const pubkey = await getUserPubkey();
 
-  await renderAssetsTable({
+  const result = await renderAssetsTable({
     htmlElementId:'previousAttestations',
     sha256: sha256,
     hideConfig: {spacer: true, buttons: true}
   });
+  
+  if (!result.info || !result.info.assets || result.info.assets.length === 0) {
+    showError('No assets found for the provided parameters.');
+    return;
+  }
 }
 
 async function handleSubmit(event) {
