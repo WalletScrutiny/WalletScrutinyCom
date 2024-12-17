@@ -46,9 +46,11 @@ sitemap: false
 </style>
 
 <script>
-  const queryUrl = window.location.pathname.split('/brokenlink/')[1];
-  if (queryUrl) {
-      const brokenUrl = decodeURIComponent(queryUrl.replace('https:/', 'https://'));
+  const path = window.location.pathname;
+  const match = path.match(/\/brokenlink\/(https?:\/\/.+)/i);
+  
+  if (match) {
+      const brokenUrl = decodeURIComponent(match[1]);
       document.getElementById('broken-url').textContent = brokenUrl;
       
       fetch(`https://archive.org/wayback/available?url=${encodeURIComponent(brokenUrl)}`)
