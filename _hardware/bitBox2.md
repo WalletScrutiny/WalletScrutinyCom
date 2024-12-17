@@ -55,7 +55,7 @@ reviewArchive:
 - data: 2022-11-18
   version: 9.13.1
   appHash: 0f64c9ba01bb25500bfd3c96c133daa7da4a688234facbdd42a4f5e54d58e995
-  gitRevision: f122e03466bc36063fc21fa47ba7f08b4731cb38
+  gitRevision: 6076d21c5df6d19945229d86c013c5d3f8a94d26
   verdict: reproducible
 - date: 2022-08-07
   version: 9.12.0

@@ -111,7 +111,7 @@ reviewArchive:
 - date: 2023-05-21
   version: 6.4.4
   appHash: 566dfd2e6d98cac8fdc2124800947c1ae5f555bdb86396f928ab69c90c7a0e60
-  gitRevision: f2b4536854aee3468ad1e8a25abb3959ff666bba
+  gitRevision: 90f578a5c04ffc650161d0a142dd2df34799ebc2
   verdict: reproducible
 - date: 2020-07-14
   version: 6.3.2

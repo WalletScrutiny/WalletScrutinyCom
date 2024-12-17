@@ -98,7 +98,7 @@ reviewArchive:
 - date: 2022-11-01
   version: 3.8.9
   appHash: c318f32b88543ffb89b3f1f6bab589007358c253c03711cc93c98f3b6e30f254
-  gitRevision: c8239d1de8b6982590daf5d7222f0f8bc991e185
+  gitRevision: 7040a9add3e44cbaac48e7d412c898cff071ffb5
   verdict: reproducible
 - date: 2022-08-07
   version: 3.8.2

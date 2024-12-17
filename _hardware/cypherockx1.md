@@ -51,7 +51,7 @@ reviewArchive:
 - data: 2023-04-06
   version: 0.4.2307
   appHash: 09ed533290cdff4ca5f8148597a4d0a924ab5f10010a30ec2866abd39558a62d
-  gitRevision: 78a98a9cb67b79f007cd337b1b1f0a6e5550e8fb
+  gitRevision: 6e003e6ad691140f3665fcf18953e97e301150ca
   verdict: reproducible
 twitter: CypherockWallet
 social:
