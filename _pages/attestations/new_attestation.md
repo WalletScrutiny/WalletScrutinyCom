@@ -14,25 +14,22 @@ permalink: /new_attestation/
       <span class="info-label">SHA256:</span>
       <span id="sha256Display" class="info-value"></span>
     </div>
-    <div class="info-row">
-      <span class="info-label">Asset Event ID:</span>
-      <span id="eventIdDisplay" class="info-value"></span>
-    </div>
   </div>
 
   <form id="attestationForm" onsubmit="handleSubmit(event)">
     <div class="form-group">
       <label for="status">Status*:</label>
       <select id="status" name="status" class="form-control" required>
-        <option value="reproducible">Reproducible</option>
+        <option value="">Select a status</option>
         <option value="not_reproducible">Not Reproducible</option>
+        <option value="reproducible">Reproducible</option>
       </select>
     </div>
 
     <div class="form-group">
       <label for="content">Content*:</label>
       <textarea id="content" name="content" class="form-control" rows="10" required></textarea>
-      <small class="form-text">Describe your attestation process and findings. Markdown is supported.</small>
+      <small class="form-text">Describe your attestation process and findings with as much detail as possible (minimum 10, maximum 60000 characters). Markdown is supported.</small>
     </div>
 
     <button type="submit" class="btn btn-primary">Create Attestation</button>
@@ -46,6 +43,15 @@ function validateForm() {
 
   if (!content || !status) {
     alert('Please fill in all required fields');
+    return false;
+  }
+
+  if (content.length < 10) {
+    alert('Content must be at least 10 characters long');
+    return false;
+  }
+  if (content.length > 60000) {
+    alert('Content cannot exceed 60000 characters');
     return false;
   }
 
@@ -72,19 +78,6 @@ function loadUrlParams() {
   }
 
   document.getElementById('sha256Display').textContent = sha256;
-  document.getElementById('eventIdDisplay').textContent = assetEventId;
-
-  // Example content
-  if (!document.getElementById('content').value) {
-    document.getElementById('content').value = 
-`## Zeus Wallet Build Verification
-Successfully compiled Zeus Wallet from source.
-Build environment: Ubuntu 22.04, Node.js 18.15.0
-All tests passed ✅
-Binary matches expected hash.
-
-*Verified on: ${new Date().toISOString().split('T')[0]}*`;
-  }
 }
 
 async function handleSubmit(event) {
