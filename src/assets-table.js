@@ -3,10 +3,11 @@ import DOMPurify from 'dompurify';
 
 let response = null;
 
-window.renderAssetsTable = async function({htmlElementId, assetsPubkey, appId, sha256, hideConfig}) {
+window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestationsPubkey, appId, sha256, hideConfig}) {
   response = await getAllAssetInformation({
     months: 6,
     assetsPubkey,
+    attestationsPubkey,
     appId,
     sha256
   });
@@ -73,9 +74,13 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, appId, s
           ${attestationDate} <span style="margin: 0 8px;">${statusIcon}</span>
         </li>`;
       }
-      attestationList = `<ul>${listItems}</ul> <div style="margin-top: 4px;"><a href="/new_attestation/?sha256=${sha256Hash}&assetEventId=${eventId}" class="btn-small attest-button" target="_blank" rel="noopener noreferrer">Create another attestation</a></div>`;
+      attestationList = `<ul>${listItems}</ul>
+      ${hideConfig?.buttons ? '' :
+      `<div style="margin-top: 4px;"><a href="/new_attestation/?sha256=${sha256Hash}&assetEventId=${eventId}" class="btn-small attest-button" target="_blank" rel="noopener noreferrer">Create another attestation</a></div>`}`;
     } else {
-      attestationList = `No attestations yet. <div style="margin-top: 4px;"><a href="/new_attestation/?sha256=${sha256Hash}&assetEventId=${eventId}" class="btn-small attest-button" target="_blank" rel="noopener noreferrer">Attest this binary</a></div>`;
+      attestationList = `No attestations yet.
+      ${hideConfig?.buttons ? '' : 
+      `<div style="margin-top: 4px;"><a href="/new_attestation/?sha256=${sha256Hash}&assetEventId=${eventId}" class="btn-small attest-button" target="_blank" rel="noopener noreferrer">Attest this binary</a></div>`}`;
     }
 
     const wallet = window.wallets.find(w => w.appId === identifier);
@@ -114,7 +119,8 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, appId, s
 
   return {
     hasAttestations,
-    hasBinaries
+    hasBinaries,
+    info: response
   };
 };
 
