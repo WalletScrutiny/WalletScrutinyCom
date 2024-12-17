@@ -68,10 +68,12 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
 
         const status = attestation.tags.find(tag => tag[0] === 'status')?.[1] || '';
 
-        const statusIcon = status === 'reproducible' ? '✅' : '❌';
+        const statusIcon = status === 'reproducible' 
+          ? '<span title="Reproducible">✅</span>' 
+          : '<span title="Not Reproducible">❌</span>';
 
         listItems += `<li onclick='showAttestationModal("${sha256Hash}", "${attestation.id}")' style="cursor: pointer;">
-          ${attestationDate} <span style="margin: 0 8px;">${statusIcon}</span>
+          ${attestationDate} ${statusIcon}
         </li>`;
       }
       attestationList = `<ul>${listItems}</ul>
@@ -150,10 +152,12 @@ window.showAttestationModal = async function(sha256Hash, attestationId) {
 
       const status = otherAttestation.tags.find(tag => tag[0] === 'status')?.[1] || '';
 
-      const statusIcon = status === 'reproducible' ? '✅' : '❌';
+      const statusIcon = status === 'reproducible' 
+        ? '<span title="Reproducible">✅</span>' 
+        : '<span title="Not Reproducible">❌</span>';
 
       otherAttestationsHTML += `<li>
-        ${attestationDate} <span style="margin: 0 8px;">${statusIcon}</span>
+        ${attestationDate} ${statusIcon}
       </li>`;
     }
     otherAttestationsHTML = `<ul>${otherAttestationsHTML}</ul>`;
