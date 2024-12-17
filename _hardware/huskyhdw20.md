@@ -23,9 +23,9 @@ repository:
 issue: 
 icon: huskyhdw20.png
 bugbounty: 
-meta: ok
+meta: obsolete
 verdict: nosource
-date: 2022-02-18
+date: 2024-11-15
 signer: 
 reviewArchive: 
 twitter: 

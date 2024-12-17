@@ -37,12 +37,14 @@ layout: default
           </h1>
 
           {% if page.version %}
-          <div title="Latest Release: {{ page.version }} - {{ page.updated | date_to_long_string: 'ordinal' }}" class="secondary-text">
+          <div title="Latest Release: {{ page.version }}{% if page.updated %} - {{ page.updated | date_to_long_string: 'ordinal' }}{% endif %}" class="secondary-text">
               Latest Release: 
               {{ page.version }}
+              {% if page.updated %}
                 <span class="calculate-time-elapsed label-lower brackets" data="{{ page.updated | date: '%s' }}">
-              {{ page.updated | date_to_long_string: "ordinal" }}
-            </span>
+                {{ page.updated | date_to_long_string: "ordinal" }}
+                </span>
+              {% endif %}
           </div>
           {% endif %}
         </div>
