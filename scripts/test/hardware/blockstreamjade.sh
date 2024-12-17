@@ -11,6 +11,12 @@ cd /tmp
 git clone https://github.com/Blockstream/jade
 cd jade
 git checkout ${version}
+
+# Temporary fix: Remove --recursive flag from QEMU cloning in Dockerfile
+# This fix can be removed once Blockstream merges their fix (see: espressif/qemu#106)
+# https://github.com/Blockstream/Jade/issues/191
+sed -i '/^RUN git clone.*qemu.git/s/--recursive --shallow-submodules/--shallow-submodules/' Dockerfile
+
 git submodule update --init --recursive
 # download 4 binaries
 jade10index=jade1.0.json
