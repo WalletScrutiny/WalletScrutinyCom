@@ -63,10 +63,6 @@ function validateForm() {
 }
 
 async function loadUrlParamsAndGetAssetInfo() {
-  const urlParams = new URLSearchParams(window.location.search);
-  const sha256 = urlParams.get('sha256');
-  const assetEventId = urlParams.get('assetEventId');
-
   const showError = (message) => {
     document.querySelector('.form-container').style.display = 'none';
     
@@ -79,6 +75,17 @@ async function loadUrlParamsAndGetAssetInfo() {
     
     document.querySelector('.form-container').insertAdjacentElement('beforebegin', errorDiv);
   };
+
+  try {
+    await userHasBrowserExtension();
+  } catch (error) {
+    showError('A Nostr browser extension is required to create attestations.');
+    return;
+  }
+
+  const urlParams = new URLSearchParams(window.location.search);
+  const sha256 = urlParams.get('sha256');
+  const assetEventId = urlParams.get('assetEventId');
 
   if (!sha256 || !assetEventId) {
     showError('Required URL parameters are missing.');
