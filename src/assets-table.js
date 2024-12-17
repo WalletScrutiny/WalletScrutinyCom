@@ -43,6 +43,7 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, appId, s
       minute: '2-digit'
     });
 
+    const eventId = binary.id;
     const sha256Hash = binary.tags.find(tag => tag[0] === 'x')?.[1] || '';
     const truncatedHash = `${sha256Hash.slice(0,4)}...${sha256Hash.slice(-4)}`;
     const downloadUrl = binary.tags.find(tag => tag[0] === 'url')?.[1] || '';
@@ -72,9 +73,9 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, appId, s
           ${attestationDate} <span style="margin: 0 8px;">${statusIcon}</span>
         </li>`;
       }
-      attestationList = `<ul>${listItems}</ul>`;
+      attestationList = `<ul>${listItems}</ul> <div style="margin-top: 4px;"><a href="/new_attestation/?sha256=${sha256Hash}&assetEventId=${eventId}" class="btn-small attest-button" target="_blank" rel="noopener noreferrer">Create another attestation</a></div>`;
     } else {
-      attestationList = `No attestations yet. <div style="margin-top: 4px;"><a href="/new_attestation/?sha256=${sha256Hash}" class="attest-button" target="_blank" rel="noopener noreferrer">Attest this binary</a></div>`;
+      attestationList = `No attestations yet. <div style="margin-top: 4px;"><a href="/new_attestation/?sha256=${sha256Hash}&assetEventId=${eventId}" class="btn-small attest-button" target="_blank" rel="noopener noreferrer">Attest this binary</a></div>`;
     }
 
     const wallet = window.wallets.find(w => w.appId === identifier);
