@@ -78,11 +78,11 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
       }
       attestationList = `<ul>${listItems}</ul>
       ${hideConfig?.buttons ? '' :
-      `<div style="margin-top: 4px;"><a href="/new_attestation/?sha256=${sha256Hash}&assetEventId=${eventId}" class="btn-small attest-button" target="_blank" rel="noopener noreferrer">Create another attestation</a></div>`}`;
+      `<div style="margin-top: 4px;"><a href="/new_attestation/?sha256=${sha256Hash}&assetEventId=${eventId}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">Create another attestation</a></div>`}`;
     } else {
       attestationList = `No attestations yet.
       ${hideConfig?.buttons ? '' : 
-      `<div style="margin-top: 4px;"><a href="/new_attestation/?sha256=${sha256Hash}&assetEventId=${eventId}" class="btn-small attest-button" target="_blank" rel="noopener noreferrer">Attest this binary</a></div>`}`;
+      `<div style="margin-top: 4px;"><a href="/new_attestation/?sha256=${sha256Hash}&assetEventId=${eventId}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">Attest this binary</a></div>`}`;
     }
 
     const wallet = window.wallets.find(w => w.appId === identifier);
