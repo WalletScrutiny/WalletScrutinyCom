@@ -10,7 +10,7 @@ permalink: /new_attestation/
 
 <div class="form-container">
   <div class="info-message">
-    <p>You are about to create an attestation for a specific asset. Below you can find the asset information and any previous attestations that may have been made. Feel free to review existing attestations before creating your own.</p>
+    <p></p>
   </div>
 
   <div id="previousAttestations" style="margin-bottom: 3em;"></div>
@@ -97,6 +97,13 @@ async function loadUrlParamsAndGetAssetInfo() {
   if (!result.info || !result.info.assets || result.info.assets.length === 0) {
     showError('No assets found for the provided parameters.');
     return;
+  }
+
+  const infoMessage = document.querySelector('.info-message p');
+  if (result.hasAttestations) {
+    infoMessage.textContent = 'You are about to create an attestation for a specific asset. Below you can find the asset information and other attestations that were made. Feel free to review them before creating your own.';
+  } else {
+    infoMessage.textContent = 'Below you can find the asset information. Since there are no previous attestations, you will be the first one to provide feedback about this asset.';
   }
 }
 
