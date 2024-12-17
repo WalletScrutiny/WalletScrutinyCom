@@ -17,6 +17,11 @@ const ndk = new NDK({
   signer: nip07signer
 });
 
+const getUserPubkey = async function() {
+  const signer = await nip07signer.user();
+  return signer.pubkey;
+}
+
 const validateSHA256 = function(sha256) {
   if (!sha256 || !/^[0-9a-f]{64}$/i.test(sha256)) {
     throw new Error("Invalid SHA256 hash: must be a 64-character hexadecimal string");
@@ -258,3 +263,4 @@ window.getNostrProfile = getNostrProfile;
 window.getAssetsWithSHA256 = getAssetsWithSHA256;
 window.getAllAssetInformation = getAllAssetInformation;
 window.getFirstTag = getFirstTag;
+window.getUserPubkey = getUserPubkey;

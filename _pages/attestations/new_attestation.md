@@ -16,6 +16,8 @@ permalink: /new_attestation/
     </div>
   </div>
 
+  <div id="previousAttestations" style="margin-bottom: 3em;"></div>
+
   <form id="attestationForm" onsubmit="handleSubmit(event)">
     <div class="form-group">
       <label for="status">Status*:</label>
@@ -58,7 +60,7 @@ function validateForm() {
   return true;
 }
 
-function loadUrlParams() {
+async function loadUrlParamsAndGetAssetInfo() {
   const urlParams = new URLSearchParams(window.location.search);
   const sha256 = urlParams.get('sha256');
   const assetEventId = urlParams.get('assetEventId');
@@ -78,6 +80,16 @@ function loadUrlParams() {
   }
 
   document.getElementById('sha256Display').textContent = sha256;
+
+  // Show previous attestations
+  const pubkey = await getUserPubkey();
+
+  await renderAssetsTable({
+    htmlElementId:'previousAttestations',
+    attestationsPubkey: pubkey,
+    sha256: sha256,
+    hideConfig: {spacer: true, buttons: true}
+  });
 }
 
 async function handleSubmit(event) {
@@ -106,5 +118,5 @@ async function handleSubmit(event) {
   }
 }
 
-document.addEventListener('DOMContentLoaded', loadUrlParams);
+document.addEventListener('DOMContentLoaded', loadUrlParamsAndGetAssetInfo);
 </script>
