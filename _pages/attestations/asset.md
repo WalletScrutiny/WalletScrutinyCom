@@ -13,7 +13,7 @@ permalink: /asset/
 <div class="explanation-box" style="margin-top: 2em; padding: 1em; border: 1px solid var(--border-color); border-radius: 4px;">
   <p id="explanationText">Loading...</p>
   <div id="registerAssetButton" style="text-align: center; margin-top: 1em; display: none;">
-    <a href="" class="btn attest-button">Register Asset</a>
+    <a href="" class="btn btn-small attest-button">Register Asset</a>
   </div>
 </div>
 
