@@ -111,7 +111,7 @@ async function loadUrlParamsAndGetAssetInfo() {
   } else {
     message = '<p>Below you can find the asset information. Since there are no previous attestations, you will be the first one to provide feedback about this asset.</p>';
   }
-  message += '<p>Choose if you could reproduce the asset or not, and describe your attestation process and findings with as much detail as possible (minimum 10, maximum 60000 characters). Markdown is supported.</p>';
+  message += '<p>To create the attestation, first choose the status (if you could reproduce the asset or not), and then describe your attestation process and findings with as much detail as possible (minimum 10, maximum 60000 characters). Markdown is supported.</p>';
   infoMessage.innerHTML = message;
 }
 
