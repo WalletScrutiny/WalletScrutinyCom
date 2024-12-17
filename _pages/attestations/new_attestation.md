@@ -9,11 +9,8 @@ permalink: /new_attestation/
 <script type="text/javascript" src="{{'/dist/attestation.bundle.min.js' | relative_url }}"></script>
 
 <div class="form-container">
-  <div class="static-info">
-    <div class="info-row">
-      <span class="info-label">SHA256:</span>
-      <span id="sha256Display" class="info-value"></span>
-    </div>
+  <div class="info-message">
+    <p>You are about to create an attestation for a specific asset. Below you can find the asset information and any previous attestations that may have been made. Feel free to review existing attestations before creating your own.</p>
   </div>
 
   <div id="previousAttestations" style="margin-bottom: 3em;"></div>
@@ -36,6 +33,11 @@ permalink: /new_attestation/
 
     <button type="submit" class="btn btn-primary">Create Attestation</button>
   </form>
+</div>
+
+<div id="attestationModal" class="attestation-modal modal-theme">
+  <span id="closeModal" class="attestation-modal__close">&times;</span>
+  <div id="attestationContent"></div>
 </div>
 
 <script>
@@ -79,14 +81,11 @@ async function loadUrlParamsAndGetAssetInfo() {
     return;
   }
 
-  document.getElementById('sha256Display').textContent = sha256;
-
-  // Show previous attestations
+  // Show asset information and previous attestations
   const pubkey = await getUserPubkey();
 
   await renderAssetsTable({
     htmlElementId:'previousAttestations',
-    attestationsPubkey: pubkey,
     sha256: sha256,
     hideConfig: {spacer: true, buttons: true}
   });
@@ -119,4 +118,8 @@ async function handleSubmit(event) {
 }
 
 document.addEventListener('DOMContentLoaded', loadUrlParamsAndGetAssetInfo);
+
+document.getElementById('closeModal').onclick = function() {
+  document.getElementById('attestationModal').style.display = 'none';
+};
 </script>
