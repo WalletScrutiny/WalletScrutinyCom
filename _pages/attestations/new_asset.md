@@ -58,7 +58,7 @@ permalink: /new_asset/
       </select>
     </div>
 
-    <button type="submit" class="btn btn-info">Register Asset</button>
+    <button type="submit" class="btn btn-success">Register Asset</button>
   </form>
 </div>
 
