@@ -9,9 +9,7 @@ permalink: /new_attestation/
 <script type="text/javascript" src="{{'/dist/attestation.bundle.min.js' | relative_url }}"></script>
 
 <div class="form-container">
-  <div class="info-message">
-    <p></p>
-  </div>
+  <div class="info-message"></div>
 
   <div id="previousAttestations" style="margin-bottom: 3em;"></div>
 
@@ -28,7 +26,7 @@ permalink: /new_attestation/
     <div class="form-group">
       <label for="content">Content*:</label>
       <textarea id="content" name="content" class="form-control" rows="10" required></textarea>
-      <small class="form-text">Describe your attestation process and findings with as much detail as possible (minimum 10, maximum 60000 characters). Markdown is supported.</small>
+      <div class="char-counter">Characters: <span id="charCount">0</span>/60000</div>
     </div>
 
     <button type="submit" class="btn btn-success">Create Attestation</button>
@@ -106,12 +104,15 @@ async function loadUrlParamsAndGetAssetInfo() {
     return;
   }
 
-  const infoMessage = document.querySelector('.info-message p');
+  const infoMessage = document.querySelector('.info-message');
+  let message = '';
   if (result.hasAttestations) {
-    infoMessage.textContent = 'You are about to create an attestation for a specific asset. Below you can find the asset information and other attestations that were made. Feel free to review them before creating your own.';
+    message = '<p>You are about to create an attestation for a specific asset. Below you can find the asset information and other attestations that were made. Feel free to review them before creating your own.</p>';
   } else {
-    infoMessage.textContent = 'Below you can find the asset information. Since there are no previous attestations, you will be the first one to provide feedback about this asset.';
+    message = '<p>Below you can find the asset information. Since there are no previous attestations, you will be the first one to provide feedback about this asset.</p>';
   }
+  message += '<p>Choose if you could reproduce the asset or not, and describe your attestation process and findings with as much detail as possible (minimum 10, maximum 60000 characters). Markdown is supported.</p>';
+  infoMessage.innerHTML = message;
 }
 
 async function handleSubmit(event) {
@@ -140,7 +141,17 @@ async function handleSubmit(event) {
   }
 }
 
-document.addEventListener('DOMContentLoaded', loadUrlParamsAndGetAssetInfo);
+function updateCharCount() {
+  const content = document.getElementById('content').value;
+  const charCount = document.getElementById('charCount');
+  charCount.textContent = content.length;
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+  loadUrlParamsAndGetAssetInfo();
+
+  document.getElementById('content').addEventListener('input', updateCharCount);
+});
 
 document.getElementById('closeModal').onclick = function() {
   document.getElementById('attestationModal').style.display = 'none';
