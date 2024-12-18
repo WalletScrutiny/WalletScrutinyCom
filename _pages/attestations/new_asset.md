@@ -167,7 +167,7 @@ async function loadUrlParams() {
     errorDiv.className = 'error-message';
     errorDiv.innerHTML = `
       <p>${message}</p>
-      <p><a href="/nostr-info/" target="_blank">(learn more about Nostr)</a></p>
+      <p><a href="/nostr/" target="_blank">(learn more about Nostr)</a></p>
       <p><a href="/assets/" class="btn btn-info">Return to assets page</a></p>
     `;
     
