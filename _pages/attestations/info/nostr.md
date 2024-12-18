@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Information about Nostr"
-permalink: /nostr-info/
+permalink: /nostr/
 ---
 
 <p>Nostr is a decentralized social network protocol that allows users to communicate and share information without relying on centralized platforms. It uses cryptographic keys and public-key cryptography to ensure secure and private communication. Nostr is designed to be open-source, decentralized, and censorship-resistant, providing a more secure and private alternative to traditional social media platforms.</p>
