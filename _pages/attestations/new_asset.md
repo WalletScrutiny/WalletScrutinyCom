@@ -14,7 +14,7 @@ permalink: /new_asset/
       <label for="appId">App ID:</label>
       <input type="text" id="appId" name="appId" class="form-control" autocomplete="off">
       <div id="appIdSuggestions" class="suggestions-container"></div>
-      <small class="form-text">Example: app.zeusln.zeus</small>
+      <small class="form-text">Example: app.zeusln.zeus. Start typing wallet name or ID to search for known apps, or write a new app ID.</small>
     </div>
 
     <div class="form-group">
