@@ -12,7 +12,8 @@ permalink: /new_asset/
   <form id="assetForm" onsubmit="handleSubmit(event)">
     <div class="form-group">
       <label for="appId">App ID:</label>
-      <input type="text" id="appId" name="appId" class="form-control">
+      <input type="text" id="appId" name="appId" class="form-control" autocomplete="off">
+      <div id="appIdSuggestions" class="suggestions-container"></div>
       <small class="form-text">Example: app.zeusln.zeus</small>
     </div>
 
@@ -62,6 +63,30 @@ permalink: /new_asset/
   </form>
 </div>
 
+<style>
+.suggestions-container {
+  display: none;
+  position: absolute;
+  border: 1px solid #ddd;
+  border-top: none;
+  z-index: 1000;
+  background: var(--neutral-5);
+  width: 100%;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.suggestion-item {
+  padding: 8px 10px;
+  cursor: pointer;
+  color: var(--text-color);
+}
+
+.suggestion-item:hover {
+  background-color: #f0f0f0;
+}
+</style>
+
 <script>
 function validateForm() {
   const name = document.getElementById('name').value.trim();
@@ -72,7 +97,7 @@ function validateForm() {
   const mimeType = document.getElementById('mimeType').value.trim();
   const platform = document.getElementById('platform').value;
 
-  if (!name || !url || !version || !sha256) {
+  if (!appId || !name || !url || !version || !sha256) {
     alert('Please fill in all required fields');
     return false;
   }
@@ -85,6 +110,53 @@ function validateForm() {
   }
 
   return true;
+}
+
+function setupAppIdAutocomplete() {
+  const appIdInput = document.getElementById('appId');
+  const suggestionsContainer = document.getElementById('appIdSuggestions');
+  
+  function filterWallets(searchText) {
+    if (!window.wallets) return [];
+    return window.wallets.filter(wallet => {
+      const searchLower = searchText.toLowerCase();
+      return wallet.appId.toLowerCase().includes(searchLower) || 
+             wallet.title.toLowerCase().includes(searchLower);
+    });
+  }
+
+  function showSuggestions(suggestions) {
+    suggestionsContainer.innerHTML = '';
+    if (suggestions.length === 0) {
+      suggestionsContainer.style.display = 'none';
+      return;
+    }
+
+    suggestions.forEach(wallet => {
+      const div = document.createElement('div');
+      div.className = 'suggestion-item';
+      div.textContent = `${wallet.title}${wallet.folder ? ' (' + wallet.folder + ')' : ''} - ${wallet.appId}`;
+      div.onclick = () => {
+        appIdInput.value = wallet.appId;
+        suggestionsContainer.style.display = 'none';
+      };
+      suggestionsContainer.appendChild(div);
+    });
+    
+    suggestionsContainer.style.display = 'block';
+  }
+
+  appIdInput.addEventListener('input', (e) => {
+    const searchText = e.target.value;
+    const filteredWallets = filterWallets(searchText);
+    showSuggestions(filteredWallets);
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!appIdInput.contains(e.target) && !suggestionsContainer.contains(e.target)) {
+      suggestionsContainer.style.display = 'none';
+    }
+  });
 }
 
 async function loadUrlParams() {
@@ -102,12 +174,15 @@ async function loadUrlParams() {
     document.querySelector('.form-container').insertAdjacentElement('beforebegin', errorDiv);
   };
 
-  // Check for Nostr extension first
   try {
     await userHasBrowserExtension();
   } catch (error) {
     showError('A Nostr browser extension is required to create assets.');
     return;
+  }
+
+  if (window.wallets && window.wallets.length > 0) {
+    setupAppIdAutocomplete();
   }
 
   const urlParams = new URLSearchParams(window.location.search);
