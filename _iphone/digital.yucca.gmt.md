@@ -10,8 +10,8 @@ idd: '1622100275'
 released: 2022-10-21
 updated: 2024-12-01
 version: 3.3.4
-stars: 4.1
-reviews: 1818
+stars: 4.2
+reviews: 1833
 size: '25331712'
 website: https://gomining.com/
 repository: 

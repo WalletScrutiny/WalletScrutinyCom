@@ -13,7 +13,7 @@ released: 2018-01-20
 updated: 2024-12-12
 version: 2.0.2
 stars: 4.8
-reviews: 907
+reviews: 908
 size: '107212800'
 website: https://mixinmessenger.zendesk.com/
 repository: https://github.com/MixinNetwork/android-app

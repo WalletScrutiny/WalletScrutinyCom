@@ -12,7 +12,7 @@ updated: 2024-12-02
 version: 5.0.54572
 stars: 4.7
 ratings: 
-reviews: 242
+reviews: 243
 size: 
 website: https://ctrader.com/forum
 repository: 

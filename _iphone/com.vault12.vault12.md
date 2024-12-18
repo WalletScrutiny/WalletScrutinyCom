@@ -10,7 +10,7 @@ idd: '1451596986'
 released: 2019-08-28
 updated: 2024-12-11
 version: 2.5.2
-stars: 4.5
+stars: 4.4
 reviews: 26
 size: '85814272'
 website: https://vault12.com/guard

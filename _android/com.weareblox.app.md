@@ -9,7 +9,7 @@ appId: com.weareblox.app
 appCountry: 
 released: 
 updated: 2024-12-10
-version: 6.2.0
+version: 6.3.0
 stars: 3.4
 ratings: 
 reviews: 

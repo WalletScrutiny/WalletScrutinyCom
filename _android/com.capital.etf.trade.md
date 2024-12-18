@@ -9,7 +9,7 @@ users: 1000000
 appId: com.capital.etf.trade
 appCountry: 
 released: 
-updated: 2024-12-10
+updated: 2024-12-17
 version: 1.92.2
 stars: 4.6
 ratings: 

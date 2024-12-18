@@ -3,7 +3,7 @@ wsId:
 title: Tando
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: me.tando.tandoapp
 appCountry: 
 released: 2024-08-21
@@ -19,7 +19,7 @@ issue:
 icon: me.tando.tandoapp.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2024-12-02
 signer: 
 reviewArchive: 

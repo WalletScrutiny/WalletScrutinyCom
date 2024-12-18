@@ -11,7 +11,7 @@ released: 2020-12-28
 updated: 2024-11-19
 version: 2.1.23
 stars: 4.6
-reviews: 3080
+reviews: 3083
 size: '86049792'
 website: https://www.bitlo.com/
 repository: 

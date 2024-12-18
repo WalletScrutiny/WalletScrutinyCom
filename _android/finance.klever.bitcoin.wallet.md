@@ -14,7 +14,7 @@ stars: 4.5
 ratings: 
 reviews: 157
 size: 
-website: https://klever.org/
+website: https://klever.io
 repository: 
 issue: 
 icon: finance.klever.bitcoin.wallet.png

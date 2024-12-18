@@ -6,7 +6,7 @@ authors:
 appId: com.stba.satoshi
 appCountry: us
 idd: '6463799763'
-released: '2024-11-19T08:00:00Z'
+released: 2024-11-19
 updated: 2024-12-13
 version: 1.0.4
 stars: 5

@@ -8,11 +8,11 @@ appId: com.compie.fxoro
 appCountry: th
 idd: '1579042568'
 released: 2022-06-16
-updated: 2024-12-15
-version: 1.5.0
+updated: 2024-12-17
+version: 1.5.1
 stars: 0
 reviews: 0
-size: '66429952'
+size: '66655232'
 website: http://fxoro.com
 repository: 
 issue: 

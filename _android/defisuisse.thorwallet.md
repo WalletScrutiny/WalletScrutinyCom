@@ -1,6 +1,6 @@
 ---
 wsId: thorWalletDeFi
-title: Vultisig DeFi - Crypto Wallet
+title: THORWallet - Crypto Wallet
 altTitle: 
 authors:
 - danny

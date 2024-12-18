@@ -12,7 +12,7 @@ updated: 2024-11-18
 version: 2.1.23
 stars: 4.7
 ratings: 
-reviews: 2348
+reviews: 2350
 size: 
 website: https://www.bitlo.com/
 repository: 

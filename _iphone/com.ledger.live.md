@@ -11,7 +11,7 @@ released: 2019-01-28
 updated: 2024-12-03
 version: '3.58'
 stars: 4.9
-reviews: 10769
+reviews: 10780
 size: '162793472'
 website: https://www.ledger.com/ledger-live
 repository: 

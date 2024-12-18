@@ -10,9 +10,9 @@ appCountry:
 released: 2022-10-04
 updated: 2024-12-11
 version: 2.8.7002
-stars: 3.7
+stars: 3.8
 ratings: 
-reviews: 357
+reviews: 358
 size: 
 website: https://worldcoin.org
 repository: 

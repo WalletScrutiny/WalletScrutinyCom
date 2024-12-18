@@ -8,11 +8,11 @@ appId: com.pandats.axia
 appCountry: in
 idd: 1538965141
 released: 2020-11-16
-updated: 2024-11-24
-version: 3.2.1
+updated: 2024-12-16
+version: 3.3.0
 stars: 1
 reviews: 1
-size: '126951424'
+size: '127909888'
 website: https://www.axiainvestments.com
 repository: 
 issue: 

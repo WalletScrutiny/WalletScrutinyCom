@@ -12,7 +12,7 @@ updated: 2024-12-12
 version: 2.125.1
 stars: 4.1
 ratings: 
-reviews: 990
+reviews: 991
 size: 
 website: https://www.paymaya.com/
 repository: 

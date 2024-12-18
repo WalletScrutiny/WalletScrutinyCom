@@ -12,7 +12,7 @@ updated: 2024-12-10
 version: 3.8.6
 stars: 3.8
 ratings: 291
-reviews: 166
+reviews: 168
 size: 
 website: https://www.iconomi.com
 repository: 
