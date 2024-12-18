@@ -1,0 +1,71 @@
+---
+layout: archive
+title: "User Created Attestations on Nostr"
+permalink: /attestations/
+---
+
+<style>
+.drop-zone {
+    border: 2px dashed #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.drop-placeholder {
+    background-color: #f5f5f5;
+    padding: 40px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.drop-placeholder p {
+    margin: 0;
+    color: #666;
+    font-size: 1.1em;
+}
+</style>
+
+<div class="attestations-intro">
+    <h2>What are User Created Nostr Attestations?</h2>
+    
+    <p>Nostr Attestations represent a novel approach to software binary verification, enabling users to independently reproduce binaries from source code and share their findings with the community. This system leverages the decentralized Nostr network to store and distribute verification messages.</p>
+
+    <p>When users compile software from source code and verify that the resulting binary matches or doesn't match the distributed version, they can create an attestation - a signed message confirming or denying this verification. These attestations are then broadcast through the Nostr network, creating a public record of independent verifications that other users can see and reference.</p>
+
+    <p>This community-driven verification system helps enhance software security and transparency by:</p>
+
+    <ul>
+        <li>Allowing users to verify software authenticity independently</li>
+        <li>Creating a decentralized record of verifications</li>
+        <li>Making binary verification results publicly accessible</li>
+        <li>Building trust through community participation</li>
+    </ul>
+</div>
+
+<div class="finding-attestations">
+    <h2>Finding Bitcoin Wallet Attestations</h2>
+    <p>To find attestations for a specific Bitcoin wallet, you can use our Wallet Search feature located in the navigation bar at the top and click on the wallet you are interested in.</p>
+    <p class="note">Note: Not all Bitcoin wallets may have attestations available, as this is a community-driven effort and relatively new verification system.</p>
+</div>
+
+<div class="binary-verification">
+    <h2>Find attestations for a specific binary</h2>
+
+    <p>You can check attestations for any specific binary file by using our verification tool. Drag and drop here your binary file to verify:</p>
+
+    <div class="drop-zone">
+        <div class="drop-placeholder">
+            <p>Drop it here</p>
+        </div>
+    </div>
+
+    <p>If the <b>binary is new to the network</b>, you'll be prompted to provide some additional information to register it.</p>
+    <p>If the <b>binary is already known</b>, you'll be able to view existing attestations, access build instructions, and create your own attestation.</p>
+</div>
+
+<div class="prerequisites">
+    <h2>Prerequisites</h2>
+    <p>If you only want to <b>view existing attestations</b>, you don't need any additional tools.</p>
+    <p>To <b>contribute new binary information or create attestations</b>, you'll need a Nostr browser extension. Learn more about <a href="/nostr/">getting started with Nostr</a>.</p>
+</div>
