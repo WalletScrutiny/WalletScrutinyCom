@@ -59,14 +59,14 @@ permalink: /attestators/
         <thead>
           <tr>
             <th>Attestator</th>
-            <th class="attestation-count"># Attestations, Endorsements</th>
+            <th class="attestation-count"># Attestations</th> <!-- , Endorsements -->
           </tr>
         </thead>
         <tbody>
           ${sortedAttestators.map(([pubkey, stats]) => `
             <tr>
               <td id="profile-${pubkey}">${pubkey}</td>
-              <td class="attestation-count">${stats.attestations}, ${stats.endorsements}</td>
+              <td class="attestation-count">${stats.attestations}</td> <!-- , ${stats.endorsements} -->
             </tr>
           `).join('')}
         </tbody>
