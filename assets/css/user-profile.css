@@ -23,6 +23,7 @@
 .profile-info {
     display: flex;
     flex-direction: column;
+    text-align: left;
 }
 .profile-nip05 {
     font-size: 0.9em;
