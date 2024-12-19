@@ -56,12 +56,12 @@ const createAssetRegistration = async function ({
   platform,
   name
 }) {
-  console.debug("Creating asset: ", name);
-
   validateSHA256(sha256);
-  validateUrl(url);
+  if (url) {
+    validateUrl(url);
+  }
 
-  if (!appId || !url || !version || !mimeType || !platform || !name) {
+  if (!appId || !url || !version || !name) {
     throw new Error("Missing required parameters");
   }
 
@@ -75,10 +75,10 @@ const createAssetRegistration = async function ({
     ["x", sha256],
     ["ox", sha256],
     ["i", appId],
-    ["url", url],
+    ["url", url ?? ''],
     ["version", version],
-    ["m", mimeType],
-    ["platform", platform]
+    ["m", mimeType ?? ''],
+    ["platform", platform ?? '']
   ];
 
   try {
