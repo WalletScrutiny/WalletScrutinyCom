@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Creating New Asset"
+title: "Registering New Asset"
 permalink: /new_asset/
 ---
 
@@ -26,19 +26,19 @@ permalink: /new_asset/
     <div class="form-group">
       <label for="name">Asset Name*:</label>
       <input type="text" id="name" name="name" class="form-control" required>
-      <small class="form-text">Example: Universal APK from Github</small>
-    </div>
-
-    <div class="form-group">
-      <label for="url">Asset URL*:</label>
-      <input type="url" id="url" name="url" class="form-control" required>
-      <small class="form-text">Example: https://github.com/ZeusLN/zeus/releases/download/v0.9.2/zeus-v0.9.2-universal.apk</small>
+      <small class="form-text">Example: Universal APK from Github / Debian package amd64 / MacOS App Store</small>
     </div>
 
     <div class="form-group">
       <label for="sha256">Hash (sha256)*:</label>
       <input type="text" id="sha256" name="sha256" class="form-control" required>
       <small class="form-text">Example: deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe</small>
+    </div>
+
+    <div class="form-group">
+      <label for="url">Download URL:</label>
+      <input type="url" id="url" name="url" class="form-control">
+      <small class="form-text">Example: https://github.com/ZeusLN/zeus/releases/download/v0.9.2/zeus-v0.9.2-universal.apk</small>
     </div>
 
     <div class="form-group">
@@ -90,22 +90,12 @@ permalink: /new_asset/
 <script>
 function validateForm() {
   const name = document.getElementById('name').value.trim();
-  const url = document.getElementById('url').value.trim();
   const version = document.getElementById('version').value.trim();
   const sha256 = document.getElementById('sha256').value.trim();
   const appId = document.getElementById('appId').value.trim();
-  const mimeType = document.getElementById('mimeType').value.trim();
-  const platform = document.getElementById('platform').value;
 
-  if (!appId || !name || !url || !version || !sha256) {
+  if (!appId || !name || !version || !sha256) {
     alert('Please fill in all required fields');
-    return false;
-  }
-
-  try {
-    new URL(url);
-  } catch (e) {
-    alert('Please enter a valid URL');
     return false;
   }
 
