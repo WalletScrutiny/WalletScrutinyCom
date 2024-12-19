@@ -8,13 +8,14 @@ permalink: /attestations/
 .drop-zone {
     border: 2px dashed #ccc;
     border-radius: 8px;
-    padding: 20px;
-    margin: 20px 0;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 300px;
 }
 
 .drop-placeholder {
     background-color: #f5f5f5;
-    padding: 40px;
+    padding: 20px;
     text-align: center;
     border-radius: 4px;
 }
@@ -43,25 +44,23 @@ permalink: /attestations/
     </ul>
 </div>
 
-<div class="finding-attestations">
-    <h2>Finding Bitcoin Wallet Attestations</h2>
-    <p>To find attestations for a specific Bitcoin wallet, you can use our Wallet Search feature located in the navigation bar at the top and click on the wallet you are interested in.</p>
-    <p class="note">Note: Not all Bitcoin wallets may have attestations available, as this is a community-driven effort and relatively new verification system.</p>
-</div>
-
-<div class="binary-verification">
-    <h2>Find attestations for a specific binary</h2>
-
-    <p>You can check attestations for any specific binary file by using our verification tool. Drag and drop here your binary file to verify:</p>
-
+<div class="getting-started">
+    <h2>Where to Start?</h2>
+    <p>There are four main ways to explore attestations in our system:</p>
+    <ul style="margin-bottom: 0;">
+        <li><a href="/assets/">Browse Latest Assets</a> - View all the wallet binaries that have been added to our system</li>
+        <li><a href="/attestators/">Top Attestators</a> - See the most active community members who verify wallet binaries</li>
+        <li>Use the Wallet Search - Find attestations for a specific Bitcoin wallet using our search feature in the navigation bar at the top</li>
+        <li>Verify a specific binary - Drop your binary file in our verification tool to check existing attestations or create new ones:</li>
+    </ul>
     <div class="drop-zone">
         <div class="drop-placeholder">
             <p>Drop it here</p>
         </div>
     </div>
-
     <p>If the <b>binary is new to the network</b>, you'll be prompted to provide some additional information to register it.</p>
     <p>If the <b>binary is already known</b>, you'll be able to view existing attestations, access build instructions, and create your own attestation.</p>
+    <p class="note">Note: Not all Bitcoin wallets may have attestations available, as this is a community-driven effort and relatively new verification system.</p>
 </div>
 
 <div class="prerequisites">
