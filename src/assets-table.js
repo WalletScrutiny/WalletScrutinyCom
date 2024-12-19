@@ -56,8 +56,17 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
     let attestationList;
     if (attestations.length > 0) {
       hasAttestations = true;
-      let listItems = '';
+      
+      const latestAttestationsByUser = new Map();
       for (const attestation of attestations) {
+        const existingAttestation = latestAttestationsByUser.get(attestation.pubkey);
+        if (!existingAttestation || attestation.created_at > existingAttestation.created_at) {
+          latestAttestationsByUser.set(attestation.pubkey, attestation);
+        }
+      }
+
+      let listItems = '';
+      for (const attestation of latestAttestationsByUser.values()) {
         const attestationDate = new Date(attestation.created_at * 1000).toLocaleDateString(navigator.language, {
           year: 'numeric',
           month: 'short',
@@ -69,14 +78,14 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
         const status = attestation.tags.find(tag => tag[0] === 'status')?.[1] || '';
 
         const statusIcon = status === 'reproducible' 
-          ? '<span title="Reproducible">✅</span>' 
-          : '<span title="Not Reproducible">❌</span>';
+          ? '<span title="Reproducible" style="margin-left: 6px;">✅</span>' 
+          : '<span title="Not Reproducible" style="margin-left: 6px;">❌</span>';
 
         listItems += `<li onclick='showAttestationModal("${sha256Hash}", "${attestation.id}")' style="cursor: pointer;">
           ${attestationDate} ${statusIcon}
         </li>`;
       }
-      attestationList = `<ul>${listItems}</ul>
+      attestationList = `<ul style="text-align: left; padding-inline-start: 20px;">${listItems}</ul>
       ${hideConfig?.buttons ? '' :
       `<div style="margin-top: 4px;"><a href="/new_attestation/?sha256=${sha256Hash}&assetEventId=${eventId}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">Create another attestation</a></div>`}`;
     } else {
@@ -153,8 +162,8 @@ window.showAttestationModal = async function(sha256Hash, attestationId) {
       const status = otherAttestation.tags.find(tag => tag[0] === 'status')?.[1] || '';
 
       const statusIcon = status === 'reproducible' 
-        ? '<span title="Reproducible">✅</span>' 
-        : '<span title="Not Reproducible">❌</span>';
+        ? '<span title="Reproducible" style="margin-left: 6px;">✅</span>' 
+        : '<span title="Not Reproducible" style="margin-left: 6px;">❌</span>';
 
       otherAttestationsHTML += `<li>
         ${attestationDate} ${statusIcon}
@@ -165,7 +174,13 @@ window.showAttestationModal = async function(sha256Hash, attestationId) {
   
   content.innerHTML = `
     <p><strong>Attempt by:</strong> <span id="attempt-by">${attestation.pubkey}</span></p>
-    <p><strong>Created At:</strong> ${new Date(attestation.created_at * 1000).toLocaleString()}</p>
+    <p><strong>Created At:</strong> ${new Date(attestation.created_at * 1000).toLocaleDateString(navigator.language, {
+      year: 'numeric',
+      month: 'short',
+      day: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit'
+    })}</p>
     <p><strong>Status: </strong> ${status} ${status === 'reproducible' ? '✅' : '❌'}</p>
     <p><strong>Information:</strong>
       <div class="markdown-content">${DOMPurify.sanitize(marked.parse(attestation.content))}</div>
