@@ -6,6 +6,11 @@ permalink: /assets/
 
 <link rel="stylesheet" href="{{ base_path }}/assets/css/attestations.css">
 
+<div style="margin-bottom: 20px;">
+  <a href="/new_asset/" class="btn btn-info" style="float: left;">Register New Asset</a>
+  <div style="clear: both;"></div>
+</div>
+
 <div id="binariesTable"></div>
 
 <div id="attestationModal" class="attestation-modal modal-theme">
