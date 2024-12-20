@@ -40,8 +40,7 @@ permalink: /asset/
       htmlElementId: 'binariesTable',
       sha256: sha256,
       hideConfig: {
-        sha256: true,
-        spacer: true
+        sha256: true
       }
     });
 
