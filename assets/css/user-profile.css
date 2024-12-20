@@ -12,18 +12,19 @@
     align-items: center;
     gap: 10px;
     margin: 0;
-    cursor: pointer;
 }
 .profile-image {
     width: 40px;
     height: 40px;
     border-radius: 50%;
     object-fit: cover;
+    cursor: pointer;
 }
 .profile-info {
     display: flex;
     flex-direction: column;
     text-align: left;
+    cursor: pointer;
 }
 .profile-nip05 {
     font-size: 0.9em;
