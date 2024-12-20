@@ -216,7 +216,7 @@ async function handleSubmit(event) {
   try {
     await createAssetRegistration(formData);
     spinner.style.display = 'none';
-    showToast('Asset registered successfully!');
+    await showToast('Asset registered successfully!');
     window.location.href = '/asset/?sha256=' + formData.sha256;
   } catch (error) {
     spinner.style.display = 'none';
