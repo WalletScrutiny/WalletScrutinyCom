@@ -31,6 +31,9 @@ permalink: /new_attestation/
 
     <button type="submit" class="btn btn-success">Create Attestation</button>
   </form>
+  <div id="loadingSpinner" style="display: none;">
+    <div class="spinner"></div>
+  </div>
 </div>
 
 <div id="attestationModal" class="attestation-modal modal-theme">
@@ -43,17 +46,12 @@ function validateForm() {
   const content = document.getElementById('content').value.trim();
   const status = document.getElementById('status').value;
 
-  if (!content || !status) {
-    alert('Please fill in all required fields');
-    return false;
-  }
-
-  if (content.length < 10) {
-    alert('Content must be at least 10 characters long');
+  if (content.length < 20) {
+    showToast('Content must be at least 20 characters long', 'error');
     return false;
   }
   if (content.length > 60000) {
-    alert('Content cannot exceed 60000 characters');
+    showToast('Content cannot exceed 60000 characters', 'error');
     return false;
   }
 
@@ -111,7 +109,7 @@ async function loadUrlParamsAndGetAssetInfo() {
   } else {
     message = '<p>Below you can find the asset information. Since there are no previous attestations, you will be the first one to provide feedback about this asset.</p>';
   }
-  message += '<p>To create the attestation, first choose the status (if you could reproduce the asset or not), and then describe your attestation process and findings with as much detail as possible (minimum 10, maximum 60000 characters). Markdown is supported.</p>';
+  message += '<p>To create the attestation, first choose the status (if you could reproduce the asset or not), and then describe your attestation process and findings with as much detail as possible (minimum 20, maximum 60000 characters). Markdown is supported.</p>';
   infoMessage.innerHTML = message;
 }
 
@@ -132,12 +130,17 @@ async function handleSubmit(event) {
     assetEventId: assetEventId
   };
 
+  const spinner = document.getElementById('loadingSpinner');
+  spinner.style.display = 'block';
+
   try {
     await createAttestation(formData);
-    alert('Attestation created successfully!');
+    spinner.style.display = 'none';
+    await showToast('Attestation created successfully!');
     window.location.href = '/asset/?sha256=' + sha256;
   } catch (error) {
-    alert('Error creating attestation: ' + error.message);
+    spinner.style.display = 'none';
+    showToast(error.message, 'error');
   }
 }
 
