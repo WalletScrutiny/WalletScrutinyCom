@@ -20,9 +20,13 @@ issue: https://github.com/mintlayer/mojito_mobile_wallet/issues/101
 icon: com.mojitowallet.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
 date: 2023-09-06
-signer: 
+signer:
+reviewCurrent:
+- date: 2023-09-06
+  version: 0.2.7
+  appHashes: []
+  verdict: nonverifiable 
 reviewArchive: 
 twitter: mintlayer
 social:

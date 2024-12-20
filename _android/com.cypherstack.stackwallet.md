@@ -21,9 +21,13 @@ issue: https://github.com/cypherstack/stack_wallet/issues/984
 icon: com.cypherstack.stackwallet.png
 bugbounty: 
 meta: ok
-verdict: ftbfs
 date: 2023-09-11
-signer: 
+signer:
+reviewCurrent:
+- date: 2023-09-11
+  version: 2.1.9
+  appHashes: []
+  verdict: ftbfs
 reviewArchive: 
 twitter: stack_wallet
 social:

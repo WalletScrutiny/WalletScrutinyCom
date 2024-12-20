@@ -25,38 +25,42 @@ issue:
 icon: trezorOne.png
 bugbounty: https://trezor.io/security
 meta: ok
-verdict: reproducible
 date: 2023-05-25
-signer: 
+signer:
+reviewCurrent:
+- date: 2023-05-25
+  version: 1.12.1
+  appHashes: [859dff49705fb81e83fe6d2efcf8f739f847081037aacf4f176624009a738ed8]
+  verdict: reproducible 
 reviewArchive:
 - date: 2022-12-05
   version: 1.11.2
-  appHash: 948098e56cf02f1d7b0660d44f02451dfd81b3114af87c962e7c6012f58853bb
+  appHashes: [948098e56cf02f1d7b0660d44f02451dfd81b3114af87c962e7c6012f58853bb]
   gitRevision: 0d87b55ba4fed7eecc72bf2a94ee473830b095e9
   verdict: reproducible
 - date: 2022-08-07
   version: 1.10.5
-  appHash: dfac7b21f88d3077ebba0928adb8c75040498379a77d5969136a15d1aa7978a9
+  appHashes: [dfac7b21f88d3077ebba0928adb8c75040498379a77d5969136a15d1aa7978a9]
   gitRevision: c27741da56057bd7e525048b7b4f80d5984eb5f2
   verdict: reproducible
 - date: 2022-01-10
   version: 1.10.4
-  appHash: 8ead447cab0ee12af244edc7a18125e71df133730d9c67d627557804bafc57ee
+  appHashes: [8ead447cab0ee12af244edc7a18125e71df133730d9c67d627557804bafc57ee]
   gitRevision: 49009f7ec76dd42f6117772298d5150bbbe4d3c5
   verdict: reproducible
 - date: 2021-10-05
   version: 1.10.3
-  appHash: 50715ae29939575b5577725ae4062ab12514f85ac1bb761e881cc6876ff32055
+  appHashes: [50715ae29939575b5577725ae4062ab12514f85ac1bb761e881cc6876ff32055]
   gitRevision: 8d95977073353d5addee069f2003f3974cd50595
   verdict: reproducible
 - date: 2021-08-23
   version: 1.10.2
-  appHash: 7ed716b2813f8b81983700e6d286f6ff17a17e830cb85954fe31e9a7ec9388b8
+  appHashes: [7ed716b2813f8b81983700e6d286f6ff17a17e830cb85954fe31e9a7ec9388b8]
   gitRevision: 6dc6f1b5fb7a04bda310151b15e7d46de1daf49d
   verdict: reproducible
 - date: 2021-07-17
   version: 1.9.4
-  appHash: c406a36aa83932f656caa5246e8a4383f426e4f970b11d86cad76ab95778a6ff
+  appHashes: [c406a36aa83932f656caa5246e8a4383f426e4f970b11d86cad76ab95778a6ff]
   gitRevision: 334cec64b40fc04f8ac0597f27b23e1635136fc1
   verdict: reproducible
 twitter: trezor

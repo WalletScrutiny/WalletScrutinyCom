@@ -21,9 +21,13 @@ issue: https://github.com/hsjoberg/blixt-wallet/issues/318
 icon: com.blixtwallet.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
 date: 2022-02-07
-signer: 
+signer:
+reviewCurrent:
+- date: 2022-02-07
+  version: VARY
+  appHashes: []
+  verdict: nonverifiable  
 reviewArchive: 
 twitter: BlixtWallet
 social: 

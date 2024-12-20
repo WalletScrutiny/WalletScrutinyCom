@@ -21,9 +21,13 @@ issue:
 icon: com.chivo.wallet.png
 bugbounty: 
 meta: ok
-verdict: obfuscated
 date: 2024-11-29
-signer: 
+signer:
+reviewCurrent:
+- date: 2024-11-29
+  version: 3.0.0
+  appHashes: []
+  verdict: obfuscated
 reviewArchive:
 - date: 2021-10-10
   version: 1.1.0

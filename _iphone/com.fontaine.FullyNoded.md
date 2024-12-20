@@ -19,9 +19,13 @@ issue:
 icon: com.fontaine.FullyNoded.jpg
 bugbounty: 
 meta: ok
-verdict: nonverifiable
 date: 2023-11-17
-signer: 
+signer:
+reviewCurrent:
+- date: 2023-11-17
+  version: 1.3.0
+  appHashes: []
+  verdict: nonverifiable 
 reviewArchive: 
 twitter: FullyNoded
 social: 

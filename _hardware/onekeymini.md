@@ -23,14 +23,18 @@ issue: https://github.com/OneKeyHQ/firmware/issues/404#issuecomment-1633287406
 icon: onekeymini.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
 date: 2023-07-12
-signer: 
+signer:
+reviewCurrent:
+- date: 2023-07-12
+  version: 3.0.0
+  appHashes: [88b76f05d95e6718d0bf3d4dabb12cf2403cfed91c351008441fe2a33b1cd9ae]
+  verdict: nonverifiable
 reviewArchive:
 - date: 2022-12-28
   version: 
-  appHash: 
-  gitRevision: af3f19185636ea53741eb7c3c975d3b0fec995e5
+  appHashes: []
+  gitRevision: 
   verdict: nosource
 twitter: onekeyhq
 social:

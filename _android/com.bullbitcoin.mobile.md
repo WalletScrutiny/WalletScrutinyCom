@@ -20,9 +20,13 @@ issue: https://github.com/SatoshiPortal/bullbitcoin-mobile/issues/326
 icon: com.bullbitcoin.mobile.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
 date: 2024-09-24
-signer: 
+signer:
+reviewCurrent:
+- date: 2024-09-24
+  version: 0.3.2
+  appHashes: []
+  verdict: nonverifiable
 reviewArchive: 
 twitter: bullbitcoin_
 social:

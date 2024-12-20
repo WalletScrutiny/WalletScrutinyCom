@@ -19,13 +19,17 @@ issue:
 icon: com.coinspace.wallet.jpg
 bugbounty: https://www.openbugbounty.org//bugbounty/CoinAppWallet/
 meta: ok
-verdict: nonverifiable
 date: 2023-04-22
-signer: 
+signer:
+reviewCurrent:
+- date: 2023-04-22
+  version: 6.6.3
+  appHashes: []
+  verdict: nonverifiable 
 reviewArchive:
 - date: 2019-12-16
   version: v2.16.3
-  appHash: 
+  appHashes: []
   gitRevision: 05400fa6155c33892a2955e12311ede0d86da12a
   verdict: ftbfs
 twitter: coinappwallet

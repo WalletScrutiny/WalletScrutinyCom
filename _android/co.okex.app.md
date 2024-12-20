@@ -20,13 +20,17 @@ issue:
 icon: co.okex.app.png
 bugbounty: 
 meta: ok
-verdict: custodial
 date: 2021-10-01
-signer: 
+signer:
+reviewCurrent:
+- date: 2021-10-01
+  version: 7.2.7
+  appHashes: []
+  verdict: custodial 
 reviewArchive:
 - date: 2020-11-16
-  version: ''
-  appHash: 
+  version:
+  appHashes: []
   gitRevision: bcb5dbfd724ca531c1965cce7ef0d38f023e4c0c
   verdict: custodial
 twitter: 

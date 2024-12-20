@@ -19,9 +19,13 @@ issue:
 icon: com.trusteewallet.jpg
 bugbounty: 
 meta: ok
-verdict: nonverifiable
 date: 2024-10-07
-signer: 
+signer:
+reviewCurrent:
+- date: 2024-10-07
+  version: 1.51.10
+  appHashes: []
+  verdict: nonverifiable  
 reviewArchive: 
 twitter: Trustee_Wallet
 social:

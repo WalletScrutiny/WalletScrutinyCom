@@ -19,9 +19,13 @@ issue: https://github.com/ZeusLN/zeus/issues/416
 icon: com.zeusln.zeus.jpg
 bugbounty: 
 meta: ok
-verdict: nonverifiable
 date: 2023-12-30
-signer: 
+signer:
+reviewCurrent:
+- date: 2023-12-30
+  version: 0.9.3
+  appHashes: []
+  verdict: nonverifiable 
 reviewArchive: 
 twitter: ZeusLN
 social: 

@@ -19,9 +19,13 @@ issue:
 icon: io.hexawallet.hexa2.jpg
 bugbounty: 
 meta: ok
-verdict: ftbfs
 date: 2021-12-19
-signer: 
+signer:
+reviewCurrent:
+- date: 2021-12-19
+  version: 2.4.6
+  appHashes: []
+  verdict: ftbfs 
 reviewArchive: 
 twitter: HexaWallet
 social:

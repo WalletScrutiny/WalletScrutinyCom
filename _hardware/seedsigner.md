@@ -23,18 +23,22 @@ issue:
 icon: seedsigner.png
 bugbounty: 
 meta: ok
-verdict: reproducible
 date: 2024-10-01
-signer: 
+signer:
+reviewCurrent:
+- date: 2024-10-01
+  version: 0.8.0
+  appHashes: [917201e335bfc7ee4189f17827f954f89588dc0fdefdad80d26f2a65c5c8e6d0]
+  verdict: reproducible
 reviewArchive:
 - date: 2023-09-14
   version: 0.7.0
-  appHash: 
+  appHashes: []
   gitRevision: ecbebc9a15b23cf32825669dd3ebb1a647f7a332
   verdict: reproducible
 - date: 2022-03-26
   version: 0.4.5
-  appHash: 
+  appHashes: []   
   gitRevision: bb77f0f230d1ae52c437d16db7f43d440d9aa003
   verdict: nonverifiable
 twitter: SeedSigner

@@ -20,13 +20,17 @@ issue:
 icon: ja.xx.exch.ange.png
 bugbounty: 
 meta: removed
-verdict: fake
 date: 2022-01-15
-signer: 
+signer:
+reviewCurrent:
+- date: 2022-01-15
+  version: 1
+  appHashes: [] 
+  verdict: fake  
 reviewArchive:
 - date: 2021-10-05
   version: '1'
-  appHash: 
+  appHashes: []
   gitRevision: 56fb701c15d8bd888ec328bc938ceea06621175f
   verdict: fake
 twitter: 

@@ -21,9 +21,13 @@ issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/501
 icon: to.bitkit.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
 date: 2024-06-16
 signer: 422ae8e4c9b4f1288efb27df173e31cadfd7134d61fa5357eb5ed9eae83c75a7
+reviewCurrent:
+- date: 2024-06-16
+  version: 1.0.1
+  appHashes: [7b571191e0d74c1e9c748574d6c3bdde73851712646d73ae9f3ccf5cb4f06f5d]
+  verdict: nonverifiable
 reviewArchive: 
 twitter: bitkitwallet
 social:

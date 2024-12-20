@@ -21,13 +21,17 @@ issue:
 icon: io.atomicwallet.png
 bugbounty: 
 meta: ok
-verdict: obfuscated
 date: 2024-07-13
-signer: 
+signer:
+reviewCurrent:
+- date: 2024-07-13
+  version: 1.34.4
+  appHashes: []
+  verdict: obfuscated
 reviewArchive:
 - date: 2020-10-12
   version: 0.72.1
-  appHash: 
+  appHashes: []
   gitRevision: d83253e829502835962be71b96dd37287dc87f5c
   verdict: nosource
 twitter: atomicwallet

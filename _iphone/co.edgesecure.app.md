@@ -20,13 +20,17 @@ issue:
 icon: co.edgesecure.app.jpg
 bugbounty: 
 meta: ok
-verdict: nonverifiable
 date: 2022-03-13
-signer: 
+signer:
+reviewCurrent:
+- date: 2022-03-13
+  version: 4.18.0
+  appHashes: []
+  verdict: nonverifiable  
 reviewArchive:
 - date: 2019-11-10
   version: 1.10.1
-  appHash: 
+  appHashes: []
   gitRevision: 1707808e9efc2ab4ea3a03510ebd408811586d47
   verdict: ftbfs
 twitter: edgewallet

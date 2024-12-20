@@ -20,9 +20,13 @@ issue:
 icon: cash.p.terminal.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
 date: 2024-09-12
-signer: 
+signer:
+reviewCurrent:
+- date: 2024-09-12
+  version: 0.41.0
+  appHashes: []
+  verdict: nonverifiable 
 reviewArchive: 
 twitter: PirateCash_NET
 social:

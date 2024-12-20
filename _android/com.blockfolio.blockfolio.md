@@ -20,13 +20,17 @@ issue:
 icon: com.blockfolio.blockfolio.png
 bugbounty: 
 meta: removed
-verdict: custodial
 date: 2023-01-02
-signer: 
+signer:
+reviewCurrent:
+- date: 2023-01-02
+  version: 4.12.5
+  appHashes: []
+  verdict: custodial 
 reviewArchive:
 - date: 2019-11-10
   version: 4.0.1
-  appHash: 
+  appHashes: []
   gitRevision: a7a616c5d7474cbbd0fdaa0387b8ce4cc578e960
   verdict: nowallet
 twitter: Blockfolio

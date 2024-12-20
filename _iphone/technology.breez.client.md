@@ -19,9 +19,13 @@ issue: https://github.com/breez/breezmobile/issues/247
 icon: technology.breez.client.jpg
 bugbounty: 
 meta: ok
-verdict: nonverifiable
 date: 2023-12-15
-signer: 
+signer:
+reviewCurrent:
+- date: 2023-12-15
+  version: 1.1.20
+  appHashes: []
+  verdict: nonverifiable
 reviewArchive: 
 twitter: breez_tech
 social:

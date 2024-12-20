@@ -19,9 +19,13 @@ issue:
 icon: atomicwallet.jpg
 bugbounty: 
 meta: ok
-verdict: obfuscated
 date: 2023-11-22
-signer: 
+signer:
+reviewCurrent:
+- date: 2023-11-22
+  version: 1.29.5
+  appHashes: []
+  verdict: obfuscated
 reviewArchive: 
 twitter: atomicwallet
 social:

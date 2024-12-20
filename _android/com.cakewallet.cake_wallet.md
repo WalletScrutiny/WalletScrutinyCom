@@ -21,18 +21,22 @@ issue: https://github.com/cake-tech/cake_wallet/issues/337
 icon: com.cakewallet.cake_wallet.jpg
 bugbounty: 
 meta: ok
-verdict: ftbfs
 date: 2024-07-26
-signer: 
+signer:
+reviewCurrent:
+- date: 2024-07-26
+  version: 4.21.2
+  appHashes: []
+  verdict:  ftbfs
 reviewArchive:
 - date: 2022-11-02
   version: 4.4.0
-  appHash: 
+  appHashes: []
   gitRevision: 58eb9afc078bac8a5a23d3af42a18f3ad543887c
   verdict: nonverifiable
 - date: 2021-04-14
   version: 4.1.4
-  appHash: 
+  appHashes: []
   gitRevision: 3f57101209712caf0bf7dae6466ce81d29359fca
   verdict: nonverifiable
 twitter: cakewallet

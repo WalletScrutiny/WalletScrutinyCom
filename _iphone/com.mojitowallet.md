@@ -19,9 +19,13 @@ issue:
 icon: com.mojitowallet.jpg
 bugbounty: 
 meta: ok
-verdict: nonverifiable
 date: 2023-09-06
-signer: 
+signer:
+reviewCurrent:
+- date: 2023-09-06
+  version: 0.4.0  
+  appHashes: []
+  verdict: nonverifiable  
 reviewArchive: 
 twitter: mintlayer
 social:

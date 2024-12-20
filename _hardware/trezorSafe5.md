@@ -24,9 +24,13 @@ issue: https://github.com/trezor/trezor-firmware/issues/4254
 icon: trezorSafe5.png
 bugbounty: https://trezor.io/learn/a/how-to-report-an-issue
 meta: ok
-verdict: reproducible
 date: 2024-10-14
 signer: 
+reviewCurrent:
+- date: 2024-10-14
+  version: 2.8.3
+  appHashes: [dfabe8b10368f268cedaa505e284192329f489519dd71feb5fba7d610ef748fc, 83677f634f29e0f066153b599c25a8047729608d555f4c289b91df726472fd5d]
+  verdict: reproducible
 reviewArchive: 
 twitter: trezor
 social:
@@ -103,4 +107,3 @@ Built on the technology behind the {% include walletLink.html wallet='hardware/t
 - Shipped without firmware (can be installed through USB-C using Trezor Suite)  
 - Pin and passphrase protection
 - Bitcoin-only and Universal (1000 coins and tokens) variants
-

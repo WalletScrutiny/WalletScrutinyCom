@@ -20,9 +20,13 @@ issue:
 icon: com.gemwallet.android.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
 date: 2024-08-05
-signer: 
+signer:
+reviewCurrent:
+- date: 2024-08-05
+  version: 1.2.144
+  appHashes: []
+  verdict: nonverifiable 
 reviewArchive: 
 twitter: GemWalletApp
 social:

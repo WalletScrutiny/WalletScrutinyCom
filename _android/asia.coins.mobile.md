@@ -20,13 +20,17 @@ issue:
 icon: asia.coins.mobile.png
 bugbounty: 
 meta: ok
-verdict: custodial
 date: 2020-10-12
-signer: 
+signer:
+reviewCurrent:
+- date: 2024-12-02
+  version: 7.8.5.1
+  appHashes: []
+  verdict: custodial 
 reviewArchive:
 - date: 2019-11-17
   version: 3.3.92
-  appHash: 
+  appHashes: []
   gitRevision: 372c9c03c6422faed457f1a9975d7cab8f13d01f
   verdict: nosource
 twitter: coinsph

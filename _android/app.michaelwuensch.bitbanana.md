@@ -21,9 +21,13 @@ issue: https://github.com/michaelWuensch/BitBanana/issues/95
 icon: app.michaelwuensch.bitbanana.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
 date: 2024-10-21
-signer: 
+signer:
+reviewCurrent:
+- date: 2024-10-21
+  version: 0.8.7
+  appHashes: []
+  verdict: nonverifiable 
 reviewArchive: 
 twitter: BitBananaApp
 social:
