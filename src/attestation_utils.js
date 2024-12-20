@@ -61,7 +61,7 @@ const createAssetRegistration = async function ({
     validateUrl(url);
   }
 
-  if (!appId || !url || !version || !name) {
+  if (!appId || !version || !name) {
     throw new Error("Missing required parameters");
   }
 
@@ -260,6 +260,42 @@ const getAllAssetInformation = async function({ months, assetsPubkey, attestatio
   };
 }
 
+function showToast(message, type = 'success', duration = 3000) {
+  // Remove existing toast if any
+  const existingToast = document.querySelector('.toast');
+  if (existingToast) {
+    existingToast.remove();
+  }
+
+  let color;
+  if (type === 'error') {
+    duration = 4000;
+    color = '#ff5861';
+  } else if (type === 'success') {
+    color = '#00a96e';
+  } else if (type === 'warning') {
+    color = '#ffbe00';
+  } else if (type === 'info') {
+    color = '#00b6ff';
+  }
+
+  // Create new toast
+  const toast = document.createElement('div');
+  toast.className = 'toast';
+  toast.style.backgroundColor = color;
+  toast.textContent = message;
+  document.body.appendChild(toast);
+
+  // Show toast
+  setTimeout(() => toast.classList.add('show'), 100);
+
+  // Hide and remove toast after duration
+  setTimeout(() => {
+    toast.classList.remove('show');
+    setTimeout(() => toast.remove(), duration);
+  }, duration);
+}
+
 window.createAssetRegistration = createAssetRegistration;
 window.createAttestation = createAttestation;
 window.createEndorsement = createEndorsement;
@@ -269,3 +305,4 @@ window.getAllAssetInformation = getAllAssetInformation;
 window.getFirstTag = getFirstTag;
 window.getUserPubkey = getUserPubkey;
 window.userHasBrowserExtension = userHasBrowserExtension;
+window.showToast = showToast;
