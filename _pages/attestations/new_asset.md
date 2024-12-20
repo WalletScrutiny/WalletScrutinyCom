@@ -86,7 +86,7 @@ permalink: /new_asset/
 }
 
 .suggestion-item:hover {
-  background-color: #f0f0f0;
+  background-color: #6f6f6f;
 }
 </style>
 
