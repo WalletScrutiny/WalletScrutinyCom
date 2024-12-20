@@ -9,6 +9,10 @@ permalink: /new_asset/
 <script type="text/javascript" src="{{'/dist/attestation.bundle.min.js' | relative_url }}"></script>
 
 <div class="form-container">
+  <div class="info-message">
+    <p>To add a new asset to Nostr so it can be verified by you or others, you will need to provide the following information:</p>
+  </div>
+
   <form id="assetForm" onsubmit="handleSubmit(event)">
     <div class="form-group">
       <label for="appId">App ID:</label>
