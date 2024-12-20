@@ -18,6 +18,7 @@
   // -webkit-animation-delay: 0.45s;
   animation-delay: 0.45s;
   background-color: #222;
+  flex-shrink: 0;
 
   .footer-links {
     display: flex;
