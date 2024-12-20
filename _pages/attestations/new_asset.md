@@ -61,6 +61,9 @@ permalink: /new_asset/
 
     <button type="submit" class="btn btn-success">Register Asset</button>
   </form>
+  <div id="loadingSpinner" style="display: none;">
+    <div class="spinner"></div>
+  </div>
 </div>
 
 <style>
@@ -207,12 +210,17 @@ async function handleSubmit(event) {
   if (!formData.mimeType) delete formData.mimeType;
   if (!formData.platform) delete formData.platform;
 
+  const spinner = document.getElementById('loadingSpinner');
+  spinner.style.display = 'block';
+
   try {
     await createAssetRegistration(formData);
-    alert('Asset registered successfully!');
+    spinner.style.display = 'none';
+    showToast('Asset registered successfully!');
     window.location.href = '/asset/?sha256=' + formData.sha256;
   } catch (error) {
-    alert('Error registering asset: ' + error.message);
+    spinner.style.display = 'none';
+    showToast(error.message, 'error');
   }
 }
 
