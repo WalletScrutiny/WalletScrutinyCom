@@ -138,7 +138,7 @@ window.showAttestationModal = async function(sha256Hash, attestationId) {
   const modal = document.getElementById('attestationModal');
   const content = document.getElementById('attestationContent');
 
-  modal.style.background = window.theme === 'dark' ? '#2d2d2d' : 'white';
+  modal.style.background = window.theme === 'dark' ? '#2d2d2d' : '#e1e1e1';
   modal.style.color = window.theme === 'dark' ? 'white' : 'black';
 
   let otherAttestationsHTML = '';
