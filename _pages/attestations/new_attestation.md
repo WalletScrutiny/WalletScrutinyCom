@@ -96,7 +96,7 @@ async function loadUrlParamsAndGetAssetInfo() {
   const result = await renderAssetsTable({
     htmlElementId:'previousAttestations',
     sha256: sha256,
-    hideConfig: {spacer: true, buttons: true}
+    hideConfig: {buttons: true}
   });
   
   if (!result.info || !result.info.assets || result.info.assets.length === 0) {

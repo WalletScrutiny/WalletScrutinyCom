@@ -121,13 +121,6 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
 
   document.getElementById(htmlElementId).appendChild(table);
 
-  // Add spacer div after table
-  if (!hideConfig?.spacer) {
-    const spacer = document.createElement('div');
-    spacer.style.height = '300px';
-    document.getElementById(htmlElementId).appendChild(spacer);
-  }
-
   return {
     hasAttestations,
     hasBinaries,
