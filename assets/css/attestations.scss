@@ -88,6 +88,8 @@ table {
   padding-top: 5px;
   border: 1px solid var(--border-color);
   z-index: 1000;
+  border-radius: 12px;
+  overflow: hidden;
 }
 
 .attestation-modal__close {
@@ -96,6 +98,10 @@ table {
   top: 0;
   right: 20px;
   font-size: 44px;
+}
+
+.attestation-modal-content {
+  border-radius: 12px;
 }
 
 /* Form */
