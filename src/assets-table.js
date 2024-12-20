@@ -189,9 +189,9 @@ window.showAttestationModal = async function(sha256Hash, attestationId) {
   const profile = await getNostrProfile(attestation.pubkey);
   
   document.getElementById('attempt-by').innerHTML = `
-    <div class="profile-card" onclick="window.location.href='/attestator/?pubkey=${attestation.pubkey}'">
-      ${profile.image ? `<img src="${profile.image}" class="profile-image" onerror="this.style.display='none'"/>` : ''}
-      <div class="profile-info">
+    <div class="profile-card">
+      ${profile.image ? `<img src="${profile.image}" class="profile-image" onclick="window.location.href='/attestator/?pubkey=${attestation.pubkey}'" onerror="this.style.display='none'"/>` : ''}
+      <div class="profile-info" onclick="window.location.href='/attestator/?pubkey=${attestation.pubkey}'">
         <div>${profile.name || attestation.pubkey}</div>
         ${profile.nip05 ? `<div class="profile-nip05">${profile.nip05}</div>` : ''}
       </div>
