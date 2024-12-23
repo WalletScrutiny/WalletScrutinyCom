@@ -219,12 +219,14 @@ window.showAttestationModal = async function(sha256Hash, attestationId) {
     if (!modal.contains(event.target)) {
       modal.style.display = 'none';
       window.removeEventListener('click', handleClick);
+      window.removeEventListener('keydown', handleKeyDown);
     }
   };
 
   const handleKeyDown = function(event) {
     if (event.key === 'Escape') {
       modal.style.display = 'none';
+      window.removeEventListener('click', handleClick);
       window.removeEventListener('keydown', handleKeyDown);
     }
   };
