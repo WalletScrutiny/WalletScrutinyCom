@@ -25,6 +25,14 @@ permalink: /attestations/
     color: #666;
     font-size: 1.1em;
 }
+
+.p-pre-code {
+    margin-bottom: 0;
+}
+
+pre {
+    margin-top: 0.25em;
+}
 </style>
 
 <div class="attestations-intro">
@@ -68,3 +76,23 @@ permalink: /attestations/
     <p>If you only want to <b>view existing attestations</b>, you don't need any additional tools.</p>
     <p>To <b>contribute new binary information or create attestations</b>, you'll need a Nostr browser extension. Learn more about <a href="/nostr/">getting started with Nostr</a>.</p>
 </div>
+
+<div class="calculate-hash">
+    <h2>How can I calculate the SHA256 hash of a binary?</h2>
+    <p>To register a new binary, you'll need its SHA256 hash. You have two options to calculate it:</p>
+
+    <h3>Option 1: Using Our Tool</h3>
+    <p>Simply drag and drop your file into the drop zone above, and we'll calculate the SHA256 hash for you automatically.</p>
+    <div class="drop-zone">
+        <div class="drop-placeholder">
+            <p>Drop it here</p>
+        </div>
+    </div>
+
+    <h3>Option 2: Using sha256sum (Command Line)</h3>
+    <p class="p-pre-code">On Linux or macOS, open a terminal and run:</p>
+    <pre><code>sha256sum path/to/your/file</code></pre>
+    <p class="p-pre-code">On Windows, use:</p>
+    <pre><code>certutil -hashfile path/to/your/file SHA256</code></pre>
+</div>
+
