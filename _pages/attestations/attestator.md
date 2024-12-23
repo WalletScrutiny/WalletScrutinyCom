@@ -38,12 +38,13 @@ permalink: /attestator/
       // Profile
       const profile = await getNostrProfile(pubkey);
 
-      document.getElementById('attestator').innerHTML = `
-        <div class="big-profile-card">
-          <img src="${profile.image}" alt="Profile Picture" style="width: 200px; height: 200px; border-radius: 50%; margin-bottom: 10px;">
-          <div style="font-size: 1.5em; font-weight: bold;">${profile.name}</div>
-        </div>
-      `;
+      if (profile?.image) {
+        document.getElementById('attestator').innerHTML = `
+          <div class="big-profile-card">
+            <img src="${profile.image}" alt="Profile Picture" style="width: 200px; height: 200px; border-radius: 50%; margin-bottom: 10px;">
+          <div style="font-size: 1.5em; font-weight: bold;">${profile.name ?? ''}</div>
+        </div>`;
+      }
 
       // Binaries
       await renderAssetsTable({htmlElementId:'binariesTable', assetsPubkey: pubkey});
