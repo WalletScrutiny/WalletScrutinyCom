@@ -47,8 +47,7 @@ layout: default
         </div>
       </div>
 
-      <h3>Binaries found on Nostr:</h3>
-      <div id="appsTable"></div>
+      {% include /review/nostrAttestations.html %}
 
       {% include /review/securityOverview.html wsId=page.wsId verdict=page.verdict meta=page.meta platform='android' filterPlatform='true' %}
 
@@ -79,9 +78,3 @@ layout: default
     </div>
   </article>
 </div>
-
-<script>
-  window.onload = async () => {
-    await renderAssetsTable({htmlElementId: 'appsTable', appId: '{{ page.appId }}', hideConfig: {wallet: true}});
-  };
-</script>
