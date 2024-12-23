@@ -85,7 +85,7 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
           ${attestationDate} ${statusIcon}
         </li>`;
       }
-      attestationList = `<ul style="text-align: left; padding-inline-start: 20px;">${listItems}</ul>
+      attestationList = `<ul style="padding: 0; margin: 0; list-style-position: inside;">${listItems}</ul>
       ${hideConfig?.buttons ? '' :
       `<div style="margin-top: 4px;"><a href="/new_attestation/?sha256=${sha256Hash}&assetEventId=${eventId}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">Create another attestation</a></div>`}`;
     } else {
