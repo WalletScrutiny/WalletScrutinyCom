@@ -35,89 +35,99 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
     </thead>
   `;
 
-  sortedBinaries.forEach(binary => {
-    const date = new Date(binary.created_at * 1000).toLocaleDateString(navigator.language, {
-      year: '2-digit',
-      month: 'short',
-      day: 'numeric',
-      hour: '2-digit',
-      minute: '2-digit'
-    });
+  if (sortedBinaries.length > 0) {
+    sortedBinaries.forEach(binary => {
+      const date = new Date(binary.created_at * 1000).toLocaleDateString(navigator.language, {
+        year: '2-digit',
+        month: 'short',
+        day: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit'
+      });
 
-    const eventId = binary.id;
-    const sha256Hash = binary.tags.find(tag => tag[0] === 'x')?.[1] || '';
-    const truncatedHash = `${sha256Hash.slice(0,4)}...${sha256Hash.slice(-4)}`;
-    const downloadUrl = binary.tags.find(tag => tag[0] === 'url')?.[1] || '';
-    const version = binary.tags.find(tag => tag[0] === 'version')?.[1] || '';
-    const identifier = binary.tags.find(tag => tag[0] === 'i')?.[1] || "";
+      const eventId = binary.id;
+      const sha256Hash = binary.tags.find(tag => tag[0] === 'x')?.[1] || '';
+      const truncatedHash = `${sha256Hash.slice(0,4)}...${sha256Hash.slice(-4)}`;
+      const downloadUrl = binary.tags.find(tag => tag[0] === 'url')?.[1] || '';
+      const version = binary.tags.find(tag => tag[0] === 'version')?.[1] || '';
+      const identifier = binary.tags.find(tag => tag[0] === 'i')?.[1] || "";
 
-    const attestations = response.attestations.get(binary.tags.find(tag => tag[0] === 'x')?.[1]) || [];
+      const attestations = response.attestations.get(binary.tags.find(tag => tag[0] === 'x')?.[1]) || [];
 
-    let attestationList;
-    if (attestations.length > 0) {
-      hasAttestations = true;
-      
-      const latestAttestationsByUser = new Map();
-      for (const attestation of attestations) {
-        const existingAttestation = latestAttestationsByUser.get(attestation.pubkey);
-        if (!existingAttestation || attestation.created_at > existingAttestation.created_at) {
-          latestAttestationsByUser.set(attestation.pubkey, attestation);
+      let attestationList;
+      if (attestations.length > 0) {
+        hasAttestations = true;
+        
+        const latestAttestationsByUser = new Map();
+        for (const attestation of attestations) {
+          const existingAttestation = latestAttestationsByUser.get(attestation.pubkey);
+          if (!existingAttestation || attestation.created_at > existingAttestation.created_at) {
+            latestAttestationsByUser.set(attestation.pubkey, attestation);
+          }
         }
+
+        let listItems = '';
+        for (const attestation of latestAttestationsByUser.values()) {
+          const attestationDate = new Date(attestation.created_at * 1000).toLocaleDateString(navigator.language, {
+            year: 'numeric',
+            month: 'short',
+            day: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit'
+          });
+
+          const status = attestation.tags.find(tag => tag[0] === 'status')?.[1] || '';
+
+          const statusIcon = status === 'reproducible' 
+            ? '<span title="Reproducible" style="margin-left: 6px;">✅</span>' 
+            : '<span title="Not Reproducible" style="margin-left: 6px;">❌</span>';
+
+          listItems += `<li onclick='showAttestationModal("${sha256Hash}", "${attestation.id}")' style="cursor: pointer;">
+            ${attestationDate} ${statusIcon}
+          </li>`;
+        }
+        attestationList = `<ul style="padding: 0; margin: 0; list-style-position: inside;">${listItems}</ul>
+        ${hideConfig?.buttons ? '' :
+        `<div style="margin-top: 4px;"><a href="/new_attestation/?sha256=${sha256Hash}&assetEventId=${eventId}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">Create another attestation</a></div>`}`;
+      } else {
+        attestationList = `No attestations yet.
+        ${hideConfig?.buttons ? '' : 
+        `<div style="margin-top: 4px;"><a href="/new_attestation/?sha256=${sha256Hash}&assetEventId=${eventId}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">Attest this binary</a></div>`}`;
       }
 
-      let listItems = '';
-      for (const attestation of latestAttestationsByUser.values()) {
-        const attestationDate = new Date(attestation.created_at * 1000).toLocaleDateString(navigator.language, {
-          year: 'numeric',
-          month: 'short',
-          day: 'numeric',
-          hour: '2-digit',
-          minute: '2-digit'
-        });
+      const wallet = window.wallets.find(w => w.appId === identifier);
+      const walletTitle = wallet ? wallet.title : identifier;
 
-        const status = attestation.tags.find(tag => tag[0] === 'status')?.[1] || '';
-
-        const statusIcon = status === 'reproducible' 
-          ? '<span title="Reproducible" style="margin-left: 6px;">✅</span>' 
-          : '<span title="Not Reproducible" style="margin-left: 6px;">❌</span>';
-
-        listItems += `<li onclick='showAttestationModal("${sha256Hash}", "${attestation.id}")' style="cursor: pointer;">
-          ${attestationDate} ${statusIcon}
-        </li>`;
-      }
-      attestationList = `<ul style="padding: 0; margin: 0; list-style-position: inside;">${listItems}</ul>
-      ${hideConfig?.buttons ? '' :
-      `<div style="margin-top: 4px;"><a href="/new_attestation/?sha256=${sha256Hash}&assetEventId=${eventId}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">Create another attestation</a></div>`}`;
-    } else {
-      attestationList = `No attestations yet.
-      ${hideConfig?.buttons ? '' : 
-      `<div style="margin-top: 4px;"><a href="/new_attestation/?sha256=${sha256Hash}&assetEventId=${eventId}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">Attest this binary</a></div>`}`;
-    }
-
-    const wallet = window.wallets.find(w => w.appId === identifier);
-    const walletTitle = wallet ? wallet.title : identifier;
-
+      const row = document.createElement('tr');
+      row.innerHTML = `
+        ${hideConfig?.wallet ? '' : `<td>
+          ${wallet ? `<a href="${wallet.url}" target="_blank" rel="noopener noreferrer">${walletTitle}</a>` : walletTitle}
+        </td>`}
+        <td>${version}</td>
+        <td class="asset-description">${binary.content}</td>
+        ${hideConfig?.sha256 ? '' : `<td>
+          <span>${truncatedHash}</span>
+          <button onclick="navigator.clipboard.writeText('${sha256Hash}')" class="copy-button">
+            📋
+          </button>
+        </td>`}
+        <td>
+          ${downloadUrl ? `<a href="${downloadUrl}" target="_blank" rel="noopener noreferrer">Download</a>` : 'N/A'}
+        </td>
+        <td>${attestationList}</td>
+        <td>${date}</td>
+      `;
+      table.appendChild(row);
+    });
+  } else {
     const row = document.createElement('tr');
-    row.innerHTML = `
-      ${hideConfig?.wallet ? '' : `<td>
-        ${wallet ? `<a href="${wallet.url}" target="_blank" rel="noopener noreferrer">${walletTitle}</a>` : walletTitle}
-      </td>`}
-      <td>${version}</td>
-      <td class="asset-description">${binary.content}</td>
-      ${hideConfig?.sha256 ? '' : `<td>
-        <span>${truncatedHash}</span>
-        <button onclick="navigator.clipboard.writeText('${sha256Hash}')" class="copy-button">
-          📋
-        </button>
-      </td>`}
-      <td>
-        ${downloadUrl ? `<a href="${downloadUrl}" target="_blank" rel="noopener noreferrer">Download</a>` : 'N/A'}
-      </td>
-      <td>${attestationList}</td>
-      <td>${date}</td>
-    `;
+    if (pubkey) {
+      row.innerHTML = '<td colspan="8">No assets found for this user</td>';
+    } else {
+      row.innerHTML = '<td colspan="8">No assets found</td>';
+    }
     table.appendChild(row);
-  });
+  }
 
   document.getElementById(htmlElementId).appendChild(table);
 
