@@ -93,6 +93,8 @@ const createAssetRegistration = async function ({
         console.error(`error publishing to relay ${relay.url}`, err);
       }
     }
+
+    throw error;
   }
 }
 
@@ -127,6 +129,8 @@ const createAttestation = async function ({sha256, content, status, assetEventId
         console.error(`error publishing to relay ${relay.url}`, err);
       }
     }
+
+    throw error;
   }
 }
 
@@ -162,6 +166,8 @@ const createEndorsement = async function ({sha256, content, status, attestationE
         console.error(`error publishing to relay ${relay.url}`, err);
       }
     }
+
+    throw error;
   }
 }
 
