@@ -155,8 +155,4 @@ document.addEventListener('DOMContentLoaded', function() {
 
   document.getElementById('content').addEventListener('input', updateCharCount);
 });
-
-document.getElementById('closeModal').onclick = function() {
-  document.getElementById('attestationModal').style.display = 'none';
-};
 </script>

@@ -207,4 +207,28 @@ window.showAttestationModal = async function(sha256Hash, attestationId) {
       </div>
     </div>
   `;
+
+  document.getElementById('closeModal').onclick = function() {
+    modal.style.display = 'none';
+    window.removeEventListener('click', handleClick);
+    window.removeEventListener('keydown', handleKeyDown);
+  };
+
+  const handleClick = function(event) {
+    console.log('handleClick', event.target);
+    if (!modal.contains(event.target)) {
+      modal.style.display = 'none';
+      window.removeEventListener('click', handleClick);
+    }
+  };
+
+  const handleKeyDown = function(event) {
+    if (event.key === 'Escape') {
+      modal.style.display = 'none';
+      window.removeEventListener('keydown', handleKeyDown);
+    }
+  };
+
+  window.addEventListener('click', handleClick);
+  window.addEventListener('keydown', handleKeyDown);
 };
