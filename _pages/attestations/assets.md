@@ -31,9 +31,5 @@ permalink: /assets/
     await renderAssetsTable({htmlElementId: 'binariesTable'});
 
     document.getElementById('loadingSpinner').style.display = 'none';
-
-    document.getElementById('closeModal').onclick = function() {
-      document.getElementById('attestationModal').style.display = 'none';
-    };
   })();
 </script>
