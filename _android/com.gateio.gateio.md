@@ -1,6 +1,6 @@
 ---
 wsId: gate.io
-title: Gate.io - Buy Bitcoin & Crypto
+title: 'Gate.io:  Trade BTC & ETH'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 5000000
 appId: com.gateio.gateio
 appCountry: id
 released: 2017-11-03
-updated: 2024-12-11
-version: 6.42.1
-stars: 4.7
+updated: 2024-12-22
+version: 6.43.6
+stars: 4.8
 ratings: 17546
-reviews: 3900
+reviews: 4265
 size: 
 website: https://gate.io/
 repository: 

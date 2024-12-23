@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.dc.bib.lite.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-07-28
+date: 2024-12-23
 signer: 
 reviewArchive: 
 twitter: bib_exchange

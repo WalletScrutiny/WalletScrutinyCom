@@ -12,7 +12,7 @@ updated: 2024-12-16
 version: 3.33.1
 stars: 4.4
 ratings: 1962
-reviews: 1182
+reviews: 1185
 size: 
 website: https://whitebit.com/
 repository: 

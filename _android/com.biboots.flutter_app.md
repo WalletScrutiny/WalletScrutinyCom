@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.biboots.flutter_app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-03-09
+date: 2024-12-23
 signer: 
 reviewArchive: 
 twitter: FairdeskGlobal

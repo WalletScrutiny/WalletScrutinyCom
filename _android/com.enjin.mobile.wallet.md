@@ -11,9 +11,9 @@ appCountry:
 released: 2018-01-01
 updated: 2024-12-03
 version: 2.11.35
-stars: 4.4
+stars: 4.3
 ratings: 12608
-reviews: 1088
+reviews: 1089
 size: 
 website: https://enjin.io/wallet
 repository: 

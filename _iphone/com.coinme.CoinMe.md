@@ -1,6 +1,6 @@
 ---
 wsId: coinme
-title: 'Coinme: Buy Bitcoin & Crypto'
+title: 'Coinme: Buy Bitcoin & Dogecoin'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.coinme.CoinMe
 appCountry: us
 idd: 1545440300
 released: 2021-05-11
-updated: 2024-11-14
-version: 3.0.6
+updated: 2024-12-20
+version: 3.0.7
 stars: 4.6
-reviews: 4995
-size: '128178176'
+reviews: 4994
+size: '135583744'
 website: https://coinme.com/
 repository: 
 issue: 

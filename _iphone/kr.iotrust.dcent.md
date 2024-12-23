@@ -8,8 +8,8 @@ appId: kr.iotrust.dcent
 appCountry: kr
 idd: 1447206611
 released: 2019-01-26
-updated: 2024-12-09
-version: 7.1.0
+updated: 2024-12-23
+version: 7.2.0
 stars: 3.9
 reviews: 70
 size: '62881792'

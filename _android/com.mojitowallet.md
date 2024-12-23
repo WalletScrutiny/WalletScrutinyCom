@@ -5,7 +5,7 @@ altTitle:
 authors:
 - danny
 - keraliss
-users: 1000
+users: 5000
 appId: com.mojitowallet
 appCountry: 
 released: 
@@ -37,6 +37,7 @@ developerName: RBB SRL
 features: 
 
 ---
+
 **Update 2024-12-21:**
 
 # Mojito Wallet Reproducibility Review

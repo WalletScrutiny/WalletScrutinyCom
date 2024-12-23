@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.xchange.mchange.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2024-10-08
+date: 2024-12-23
 signer: 
 reviewArchive: 
 twitter: 

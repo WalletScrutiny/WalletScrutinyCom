@@ -8,8 +8,8 @@ users: 10000
 appId: com.makedelta.slying
 appCountry: 
 released: 2021-08-07
-updated: 2024-09-27
-version: 8.0.3
+updated: 2024-12-18
+version: 8.0.4
 stars: 
 ratings: 
 reviews: 

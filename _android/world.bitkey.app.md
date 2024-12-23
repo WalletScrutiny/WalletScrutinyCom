@@ -4,7 +4,7 @@ title: Bitkey - Bitcoin Wallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: world.bitkey.app
 appCountry: US
 released: 2024-02-28
@@ -12,7 +12,7 @@ updated: 2024-12-05
 version: 2024.74.1 (1)
 stars: 4.1
 ratings: 
-reviews: 13
+reviews: 14
 size: 
 website: https://bitkey.world
 repository: https://github.com/proto-at-block/bitkey

@@ -12,7 +12,7 @@ updated: 2024-11-20
 version: 2.9.43
 stars: 4.2
 ratings: 22751
-reviews: 6293
+reviews: 6292
 size: 
 website: https://sigen.pro/
 repository: 

@@ -8,8 +8,8 @@ users: 100000
 appId: com.forex4you.android
 appCountry: th
 released: 2015-10-06
-updated: 2024-10-03
-version: 6.5.5
+updated: 2024-12-20
+version: 6.6.1
 stars: 4.6
 ratings: 2457
 reviews: 237

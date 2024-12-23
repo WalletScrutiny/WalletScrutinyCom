@@ -11,7 +11,7 @@ released: 2019-05-11
 updated: 2024-12-17
 version: 8.7.10
 stars: 4.4
-reviews: 1901
+reviews: 1960
 size: '209273856'
 website: https://www.btcc.com/en-US
 repository: 

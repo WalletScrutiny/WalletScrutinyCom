@@ -10,8 +10,8 @@ idd: '1367107864'
 released: 2018-04-06
 updated: 2022-10-25
 version: 1.7.0
-stars: 4.5
-reviews: 2
+stars: 4.3
+reviews: 3
 size: '21629952'
 website: https://bitcoinmonitor.app
 repository: 
