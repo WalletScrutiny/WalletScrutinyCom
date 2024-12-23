@@ -121,7 +121,7 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
     });
   } else {
     const row = document.createElement('tr');
-    if (pubkey) {
+    if (assetsPubkey || attestationsPubkey) {
       row.innerHTML = '<td colspan="8">No assets found for this user</td>';
     } else {
       row.innerHTML = '<td colspan="8">No assets found</td>';
