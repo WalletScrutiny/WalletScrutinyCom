@@ -14,12 +14,12 @@ permalink: /attestator/
 
 <div id="attestator"></div>
 
+<div id="binariesTable"></div>
+
 <div id="attestationModal" class="attestation-modal modal-theme">
   <span id="closeModal" class="attestation-modal__close">&times;</span>
   <div id="attestationContent"></div>
 </div>
-
-<div id="binariesTable"></div>
 
 <div id="loadingSpinner">
   <div class="spinner"></div>
@@ -48,10 +48,6 @@ permalink: /attestator/
 
       // Binaries
       await renderAssetsTable({htmlElementId:'binariesTable', assetsPubkey: pubkey});
-
-      document.getElementById('closeModal').onclick = function() {
-        document.getElementById('attestationModal').style.display = 'none';
-      };
 
       document.getElementById('loadingSpinner').style.display = 'none';
     } catch (error) {
