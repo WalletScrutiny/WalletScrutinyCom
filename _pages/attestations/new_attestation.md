@@ -72,9 +72,7 @@ async function loadUrlParamsAndGetAssetInfo() {
     document.querySelector('.form-container').insertAdjacentElement('beforebegin', errorDiv);
   };
 
-  try {
-    await userHasBrowserExtension();
-  } catch (error) {
+  if (!await userHasBrowserExtension()) {
     showError('A Nostr browser extension is required to create attestations.');
     return;
   }
