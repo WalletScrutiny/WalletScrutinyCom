@@ -43,7 +43,7 @@ permalink: /attestators/
 
         const endorsements = response.endorsements.get(attestation.id) || [];
         const reproducibleEndorsements = endorsements.filter(endorsement => 
-          getFirstTag(endorsement, 'status6') === 'reproducible'
+          getFirstTag(endorsement, 'status') === 'reproducible'
         ).length;
         currentStats.endorsements += reproducibleEndorsements;
 
