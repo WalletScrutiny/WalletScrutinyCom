@@ -342,9 +342,39 @@ function showToast(message, type = 'success', duration = 4000) {
   });
 }
 
+const createNostrNote = async function (message) {
+  if (!message) {
+    throw new Error("Message is required");
+  }
+
+  ndk.signer = nip07signer;
+  await ndk.connect(connectTimeout);
+  await new Promise(resolve => setTimeout(resolve, 5000));
+
+  const ndkEvent = new NDKEvent(ndk);
+  ndkEvent.kind = 1;
+  ndkEvent.content = message;
+
+  try {
+    const publishedToRelays = await ndkEvent.publish();
+    console.debug(`published note to ${publishedToRelays.size} relays`);
+    delete ndk.signer;
+  } catch (error) {
+    delete ndk.signer;
+    console.error("error publishing note to relays", error);
+    if (error instanceof NDKPublishError) {
+      for (const [relay, err] of error.errors) {
+        console.error(`error publishing to relay ${relay.url}`, err);
+      }
+    }
+    throw error;
+  }
+}
+
 window.createAssetRegistration = createAssetRegistration;
 window.createAttestation = createAttestation;
 window.createEndorsement = createEndorsement;
+window.createNostrNote = createNostrNote;
 window.getNostrProfile = getNostrProfile;
 window.getAssetsWithSHA256 = getAssetsWithSHA256;
 window.getAllAssetInformation = getAllAssetInformation;
