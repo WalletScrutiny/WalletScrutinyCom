@@ -7,6 +7,9 @@ permalink: /attestator/
 <link rel="stylesheet" href="{{ base_path }}/assets/css/attestations.css">
 
 <style>
+  .archive {
+    width: 100%;
+  }
   #binariesTable {
     margin-top: 20px;
   }
@@ -47,7 +50,7 @@ permalink: /attestator/
       }
 
       // Binaries
-      await renderAssetsTable({htmlElementId:'binariesTable', assetsPubkey: pubkey});
+      await renderAssetsTable({htmlElementId:'binariesTable', assetsPubkey: pubkey, getAssetsForMyAttestations: true});
 
       document.getElementById('loadingSpinner').style.display = 'none';
     } catch (error) {

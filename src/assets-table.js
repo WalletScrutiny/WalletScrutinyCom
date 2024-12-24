@@ -3,13 +3,14 @@ import DOMPurify from 'dompurify';
 
 let response = null;
 
-window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestationsPubkey, appId, sha256, hideConfig}) {
+window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestationsPubkey, appId, sha256, hideConfig, getAssetsForMyAttestations}) {
   response = await getAllAssetInformation({
     months: 6,
     assetsPubkey,
     attestationsPubkey,
     appId,
-    sha256
+    sha256,
+    getAssetsForMyAttestations
   });
 
   const binaries = Array.from(response.assets);
@@ -31,6 +32,7 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
         <th>URL</th>
         <th>Attestations</th>
         <th>Observed At</th>
+        ${getAssetsForMyAttestations ? '<th>Worked On</th>' : ''}
       </tr>
     </thead>
   `;
@@ -116,6 +118,13 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
         </td>
         <td>${attestationList}</td>
         <td>${date}</td>
+        ${getAssetsForMyAttestations ? `
+          <td>
+            <ul style="padding: 0; margin: 0; list-style-position: inside; text-align: left;">
+            ${binary.pubkey === assetsPubkey ? '<li>Registered Asset</li>' : ''}
+            ${(attestations.some(att => att.pubkey === assetsPubkey)) ? '<li>Created Attestation</li>' : ''}
+            </ul>
+          </td>` : ''}
       `;
       table.appendChild(row);
     });
@@ -215,7 +224,6 @@ window.showAttestationModal = async function(sha256Hash, attestationId) {
   };
 
   const handleClick = function(event) {
-    console.log('handleClick', event.target);
     if (!modal.contains(event.target)) {
       modal.style.display = 'none';
       window.removeEventListener('click', handleClick);
