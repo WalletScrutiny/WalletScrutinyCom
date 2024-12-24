@@ -23,7 +23,10 @@ const getUserPubkey = async function() {
 }
 
 const userHasBrowserExtension = async function() {
-  return nip07signer._userPromise;
+  if (nip07signer._userPromise) {
+    return nip07signer._userPromise;
+  }
+  throw new Error("No Nostr browser extension found");
 }
 
 const validateSHA256 = function(sha256) {
