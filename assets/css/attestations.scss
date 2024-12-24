@@ -217,6 +217,8 @@ input, textarea, select {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  text-decoration: none !important;
+  font-size: 16px;
 }
 
 .btn-small {

@@ -16,6 +16,10 @@ permalink: /attestators/
   <div class="spinner"></div>
 </div>
 
+<div style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
+  {% include nostr/shareOnNostrButton.html defaultMessage="Look at the Top Attestators ranking on WalletScrutiny!" %}
+</div>
+
 <div id="attestatorsTable"></div>
 
 <script src="{{'/dist/attestation.bundle.min.js' | relative_url }}"></script>
