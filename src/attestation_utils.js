@@ -197,7 +197,7 @@ const getTimestampMonthsAgo = function(months = 6) {
   return Math.floor(date.getTime() / 1000); // Convert to Unix timestamp (seconds)
 }
 
-const getAllAssetInformation = async function({ months, assetsPubkey, attestationsPubkey, appId, sha256 }) {
+const getAllAssetInformation = async function({ months, assetsPubkey, attestationsPubkey, appId, sha256, getAssetsForMyAttestations }) {
   await ndk.connect(connectTimeout);
 
   // Filter Assets
@@ -234,10 +234,12 @@ const getAllAssetInformation = async function({ months, assetsPubkey, attestatio
 
   const events = await ndk.fetchEvents([filter_assets, filter_attestations]);
 
-  const attestationsMap = new Map();
-  const endorsementsMap = new Map();
+  const assets = Array.from(events).filter(event => event.kind === assetRegistrationKind);
   const attestations = Array.from(events).filter(event => event.kind === attestationKind);
   const endorsements = Array.from(events).filter(event => event.kind === endorsementKind);
+
+  const attestationsMap = new Map();
+  const endorsementsMap = new Map();
   
   attestations.forEach(attestation => {
     const sha256 = getFirstTag(attestation, 'x');
@@ -259,8 +261,35 @@ const getAllAssetInformation = async function({ months, assetsPubkey, attestatio
     }
   });
 
+  if (getAssetsForMyAttestations) {
+    // Iterates over all the attestations. For the ones matching the pubkey, check
+    // if the asset they're referring to is already loaded. If it isn't, load those
+    // assets from Nostr in a second step.
+
+    const attestedAssetsToBeRequestedSet = new Set();
+    const sha256OfAssetsAlreadyLoadedSet = new Set(assets.map(asset => getFirstTag(asset, 'x')));
+    
+    attestationsMap.forEach((attestations, sha256) => {
+      attestations.forEach(attestation => {
+        if (attestation.pubkey === assetsPubkey) {
+          if (!sha256OfAssetsAlreadyLoadedSet.has(sha256)) {
+            attestedAssetsToBeRequestedSet.add(sha256);
+          }
+        }
+      });
+    });
+
+    if (attestedAssetsToBeRequestedSet.size > 0) {
+      const extraAssetsToRequest = await ndk.fetchEvents({
+        kinds: [assetRegistrationKind],
+        "#x": Array.from(attestedAssetsToBeRequestedSet)
+      });
+      assets.push(...Array.from(extraAssetsToRequest));
+    }
+  }
+
   return {
-    assets: Array.from(events).filter(event => event.kind === assetRegistrationKind),
+    assets: assets,
     attestations: attestationsMap,
     endorsements: endorsementsMap
   };
