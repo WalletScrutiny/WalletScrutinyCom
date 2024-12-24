@@ -56,6 +56,7 @@ permalink: /attestator/
     } catch (error) {
       console.error('Error loading profile:', error);
       document.getElementById('attestator').innerHTML = 'Error loading profile';
+      document.getElementById('loadingSpinner').style.display = 'none';
     }
   })();
 </script>
