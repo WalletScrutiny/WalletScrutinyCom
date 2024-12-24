@@ -22,11 +22,16 @@ const getUserPubkey = async function() {
   return signer.pubkey;
 }
 
-const userHasBrowserExtension = async function() {
-  if (nip07signer._userPromise) {
-    return nip07signer._userPromise;
-  }
-  throw new Error("No Nostr browser extension found");
+const userHasBrowserExtension = function() {
+  return new Promise((resolve) => {
+    if (window.nostr) {
+        resolve(true);
+    }
+    // Wait a bit for the extension to load
+    setTimeout(() => {
+        resolve(Boolean(window.nostr));
+    }, 100);
+  });
 }
 
 const validateSHA256 = function(sha256) {
