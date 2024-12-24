@@ -87,8 +87,6 @@ async function loadUrlParamsAndGetAssetInfo() {
   }
 
   // Show asset information and previous attestations
-  const pubkey = await getUserPubkey();
-
   const result = await renderAssetsTable({
     htmlElementId:'previousAttestations',
     sha256: sha256,
