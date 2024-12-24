@@ -185,7 +185,7 @@ window.showAttestationModal = async function(sha256Hash, attestationId) {
   }
   
   content.innerHTML = `
-    <p><strong>Attempt by:</strong> <span id="attempt-by">${attestation.pubkey}</span></p>
+    <p><strong>Attempt by:</strong> <span id="attempt-by"></span></p>
     <p><strong>Created At:</strong> ${new Date(attestation.created_at * 1000).toLocaleDateString(navigator.language, {
       year: 'numeric',
       month: 'short',
@@ -207,7 +207,7 @@ window.showAttestationModal = async function(sha256Hash, attestationId) {
 
   const profile = await getNostrProfile(attestation.pubkey);
   
-  document.getElementById('attempt-by').innerHTML = `
+  document.getElementById('attempt-by').innerHTML = profile ? `
     <div class="profile-card">
       ${profile.image ? `<img src="${profile.image}" class="profile-image" onclick="window.location.href='/attestator/?pubkey=${attestation.pubkey}'" onerror="this.style.display='none'"/>` : ''}
       <div class="profile-info" onclick="window.location.href='/attestator/?pubkey=${attestation.pubkey}'">
@@ -215,7 +215,7 @@ window.showAttestationModal = async function(sha256Hash, attestationId) {
         ${profile.nip05 ? `<div class="profile-nip05">${profile.nip05}</div>` : ''}
       </div>
     </div>
-  `;
+  ` : attestation.pubkey;
 
   document.getElementById('closeModal').onclick = function() {
     modal.style.display = 'none';
