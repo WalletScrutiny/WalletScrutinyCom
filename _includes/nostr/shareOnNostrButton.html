@@ -102,7 +102,12 @@
   shareButton.onclick = function() {
     const message = document.getElementById('shareTextarea').value;
     console.log('Sharing message:', message);
-    createNostrNote(message);
+    try {
+      createNostrNote(message);
+      showToast('Note shared successfully!');
+    } catch (error) {
+      showToast('Error sharing note: ' + error.message, 'error');
+    }
     shareModal.style.display = 'none';
   }
 </script>
