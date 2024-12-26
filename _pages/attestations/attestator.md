@@ -18,7 +18,7 @@ permalink: /attestator/
 <div id="attestator"></div>
 
 <div style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
-  {% include nostr/shareOnNostrButton.html defaultMessage="Look at my attestator profile on WalletScrutiny!" %}
+  {% include shareButton.html defaultMessage="Look at my attestator profile on WalletScrutiny!" %}
 </div>
 
 <div id="binariesTable"></div>
