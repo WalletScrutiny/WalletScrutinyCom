@@ -51,17 +51,54 @@
     margin-top: 0;
     margin-bottom: 0;
   }
-  #shareNostrBtn {
+  .shareButtonNetwork {
     float: left;
     padding-left: 16px;
+    text-decoration: none !important;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 4px;
+  }
+  .dropdown-content a {
+    padding: 12px 16px;
     text-decoration: none;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .dropdown-content a:hover {
+    background-color: #c5c4c4;
+    width: 100%;
+  }
+  .show {
+    display: block;
   }
 </style>
 
-<a href="#" id="shareNostrBtn" class="btn btn-info">
-  <i class="fas fa-share-alt" style="margin-right: 10px;font-size: medium;"></i>
-  Share on Nostr
-</a>
+<div class="dropdown">
+  <a href="#" id="shareBtn" class="btn btn-info">
+    <i class="fas fa-share-alt" style="margin-right: 10px;font-size: medium;"></i>
+    Share
+  </a>
+  <div id="shareDropdown" class="dropdown-content">
+    <a href="#" id="shareNostrBtn" class="shareButtonNetwork">
+      <i class="fas fa-broadcast-tower" style="margin-right: 10px;"></i>Share on Nostr
+    </a>
+    <a href="#" id="shareXBtn" class="shareButtonNetwork">
+      <i class="fab fa-x-twitter" style="margin-right: 10px;"></i>Share on X
+    </a>
+  </div>
+</div>
 
 <div id="shareModal">
   <div id="share-modal-content">
@@ -78,15 +115,31 @@
   const shareNostrBtn = document.getElementById('shareNostrBtn');
   const closeShareModal = document.getElementById('closeShareModal');
   const shareButton = document.getElementById('shareButton');
+  const shareBtn = document.getElementById('shareBtn');
+  const shareDropdown = document.getElementById('shareDropdown');
+  const shareXBtn = document.getElementById('shareXBtn');
 
   shareModalContent.style.background = window.theme === 'dark' ? '#2d2d2d' : '#e1e1e1';
   shareModalContent.style.color = window.theme === 'dark' ? 'white' : 'black';
+
+  shareBtn.onclick = function(e) {
+    e.preventDefault();
+    shareDropdown.classList.toggle("show");
+  }
 
   shareNostrBtn.onclick = function(e) {
     e.preventDefault();
     const currentUrl = window.location.href;
     document.getElementById('shareTextarea').value = `{{ include.defaultMessage }}\n\n{{ page.url | absolute_url }}`;
     shareModal.style.display = 'block';
+    shareDropdown.classList.remove("show");
+  }
+
+  shareXBtn.onclick = function(e) {
+    e.preventDefault();
+    const text = encodeURIComponent(`{{ include.defaultMessage }}\n\n{{ page.url | absolute_url }}`);
+    window.open(`https://twitter.com/intent/tweet?text=${text}`, '_blank');
+    shareDropdown.classList.remove("show");
   }
 
   closeShareModal.onclick = function() {
@@ -94,6 +147,11 @@
   }
 
   window.onclick = function(event) {
+    if (!event.target.matches('#shareBtn')) {
+      if (shareDropdown.classList.contains('show')) {
+        shareDropdown.classList.remove('show');
+      }
+    }
     if (event.target == shareModal) {
       shareModal.style.display = 'none';
     }
