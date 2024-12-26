@@ -7,6 +7,7 @@ const endorsementKind = 303020; // 30302
 const connectTimeout = 2000;
 
 const nip07signer = new NDKNip07Signer();
+
 const ndk = new NDK({
   explicitRelayUrls: [
     "wss://relay.zapstore.dev",
@@ -14,7 +15,6 @@ const ndk = new NDK({
     "wss://relay.damus.io",
     "wss://relay.nostr.net"
   ],
-  signer: nip07signer
 });
 
 const getUserPubkey = async function() {
@@ -73,6 +73,7 @@ const createAssetRegistration = async function ({
     throw new Error("Missing required parameters");
   }
 
+  ndk.signer = nip07signer;
   await ndk.connect(connectTimeout);
   await new Promise(resolve => setTimeout(resolve, 5000));
   
@@ -92,8 +93,9 @@ const createAssetRegistration = async function ({
   try {
     const publishedToRelays = await ndkEvent.publish();
     console.log(`published to ${publishedToRelays.size} relays`)
-
+    delete ndk.signer;
   } catch (error) {
+    delete ndk.signer;
     console.error("error publishing to relays", error);
 
     if (error instanceof NDKPublishError) {
@@ -115,6 +117,7 @@ const createAttestation = async function ({sha256, content, status, assetEventId
     throw new Error("Missing required parameters");
   }
 
+  ndk.signer = nip07signer;
   await ndk.connect(connectTimeout);
   await new Promise(resolve => setTimeout(resolve, 5000));
 
@@ -130,7 +133,9 @@ const createAttestation = async function ({sha256, content, status, assetEventId
   try {
     const publishedToRelays = await ndkEvent.publish();
     console.log(`published attestation to ${publishedToRelays.size} relays`);
+    delete ndk.signer;
   } catch (error) {
+    delete ndk.signer;
     console.error("error publishing attestation to relays", error);
     if (error instanceof NDKPublishError) {
       for (const [relay, err] of error.errors) {
@@ -151,6 +156,7 @@ const createEndorsement = async function ({sha256, content, status, attestationE
     throw new Error("Missing required parameters");
   }
 
+  ndk.signer = nip07signer;
   await ndk.connect(connectTimeout);
   await new Promise(resolve => setTimeout(resolve, 5000));
 
@@ -167,7 +173,9 @@ const createEndorsement = async function ({sha256, content, status, attestationE
   try {
     const publishedToRelays = await ndkEvent.publish();
     console.log(`published endorsement to ${publishedToRelays.size} relays`);
+    delete ndk.signer;
   } catch (error) {
+    delete ndk.signer;
     console.error("error publishing endorsement to relays", error);
     if (error instanceof NDKPublishError) {
       for (const [relay, err] of error.errors) {
