@@ -8,11 +8,11 @@ appId: ch.swissbitcoinpay.checkout
 appCountry: us
 idd: '6444370155'
 released: 2022-11-19
-updated: 2024-12-18
-version: 2.2.7
+updated: 2024-12-23
+version: 2.2.9
 stars: 0
 reviews: 0
-size: '31931392'
+size: '31935488'
 website: https://swiss-bitcoin-pay.ch
 repository: https://github.com/SwissBitcoinPay/app
 issue: 

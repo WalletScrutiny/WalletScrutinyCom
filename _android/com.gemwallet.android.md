@@ -10,9 +10,9 @@ appCountry: ae
 released: 2023-06-26
 updated: 2024-12-20
 version: 1.2.224
-stars: 4.6
+stars: 5
 ratings: 
-reviews: 
+reviews: 3
 size: 
 website: https://gemwallet.com
 repository: https://github.com/gemwalletcom/gem-android

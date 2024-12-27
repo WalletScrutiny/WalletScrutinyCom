@@ -4,7 +4,7 @@ title: Pro Exchange
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.chainup.exchange.ProEX2
 appCountry: 
 released: 2022-04-06

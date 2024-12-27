@@ -12,7 +12,7 @@ appId: co.edgesecure.app
 appCountry: 
 released: 2018-03-01
 updated: 2024-12-20
-version: 4.19.0
+version: 4.19.1
 stars: 4.2
 ratings: 3880
 reviews: 683

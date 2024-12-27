@@ -11,7 +11,7 @@ released: 2020-02-19
 updated: 2024-12-22
 version: 2.1.428
 stars: 5
-reviews: 8
+reviews: 9
 size: '159728640'
 website: https://xrex.io/
 repository: 

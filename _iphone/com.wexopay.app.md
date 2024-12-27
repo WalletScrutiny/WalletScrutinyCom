@@ -11,7 +11,7 @@ released: 2021-02-09
 updated: 2024-12-22
 version: 3.0.9
 stars: 4.8
-reviews: 454
+reviews: 457
 size: '117467136'
 website: https://wexopay.com
 repository: 
@@ -30,7 +30,7 @@ social:
 - https://www.youtube.com/channel/UCZhC-OF4j0I5ls51EjKT1UA
 - https://discord.com/invite/jhqwr7KFCn
 features: 
-developerName: UPDN ONE s.r.o.
+developerName: Wexo Europe s.r.o.
 
 ---
 

@@ -8,11 +8,11 @@ appId: com.coinwapp.legend
 appCountry: us
 idd: '1494077068'
 released: 2020-01-14
-updated: 2024-12-22
-version: 10.0.5
+updated: 2024-12-26
+version: 10.0.7
 stars: 3.6
 reviews: 17
-size: '215122944'
+size: '216163328'
 website: 
 repository: 
 issue: 

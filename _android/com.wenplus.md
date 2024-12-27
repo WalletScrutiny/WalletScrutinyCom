@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.wenplus.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-12-30
+date: 2024-12-27
 signer: 
 reviewArchive: 
 twitter: 

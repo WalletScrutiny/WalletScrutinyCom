@@ -13,7 +13,7 @@ updated: 2024-12-18
 version: 4.22.0
 stars: 4.7
 ratings: 730
-reviews: 460
+reviews: 462
 size: 
 website: https://cakewallet.com
 repository: https://github.com/cake-tech/cake_wallet
@@ -49,6 +49,7 @@ developerName: Cake Labs
 features: 
 
 ---
+
 ## Update 2024-12-25:
 We attempted to verify the reproducibility of the Cake Wallet build by comparing the official APK with our built version using split APKs.
 

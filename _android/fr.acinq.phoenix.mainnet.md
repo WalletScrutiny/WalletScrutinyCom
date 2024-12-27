@@ -6,7 +6,7 @@ authors:
 - leo
 - danny
 - keraliss
-users: 50000
+users: 100000
 appId: fr.acinq.phoenix.mainnet
 appCountry: fr
 released: 2019-12-10

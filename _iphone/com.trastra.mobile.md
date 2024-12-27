@@ -8,11 +8,11 @@ appId: com.trastra.mobile
 appCountry: de
 idd: 1446427008
 released: 2019-01-20
-updated: 2024-12-10
-version: 5.0.5
+updated: 2024-12-25
+version: 5.0.6
 stars: 5
 reviews: 1
-size: '60026880'
+size: '60372992'
 website: https://mobile-app.trastra.com/
 repository: 
 issue: 

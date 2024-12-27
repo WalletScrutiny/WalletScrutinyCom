@@ -10,9 +10,9 @@ appCountry: us
 released: 2023-02-16
 updated: 2024-11-28
 version: 2.2.2
-stars: 3.5
+stars: 3.2
 ratings: 
-reviews: 2
+reviews: 3
 size: 
 website: https://slingshot.finance
 repository: 

@@ -8,11 +8,11 @@ appId: com.koinkoin.app
 appCountry: ng
 idd: '1556014433'
 released: 2021-03-04
-updated: 2024-07-17
-version: 2.3.5
+updated: 2024-12-23
+version: 2.4.0
 stars: 5
 reviews: 1
-size: '52047872'
+size: '476810240'
 website: https://koinkoin.io/
 repository: 
 issue: 

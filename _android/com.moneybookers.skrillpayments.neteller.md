@@ -10,9 +10,9 @@ appCountry:
 released: 2016-03-30
 updated: 2024-12-11
 version: 3.150.0-2024121014
-stars: 4.1
+stars: 4
 ratings: 
-reviews: 254
+reviews: 255
 size: 
 website: https://www.neteller.com
 repository: 

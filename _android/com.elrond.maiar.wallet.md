@@ -8,11 +8,11 @@ users: 1000000
 appId: com.elrond.maiar.wallet
 appCountry: us
 released: 2021-01-15
-updated: 2024-11-27
-version: 2.34.1
+updated: 2024-12-19
+version: 2.35.0
 stars: 4.7
 ratings: 6106
-reviews: 373
+reviews: 374
 size: 
 website: https://xportal.com/
 repository: 
