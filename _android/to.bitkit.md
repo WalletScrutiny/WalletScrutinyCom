@@ -18,7 +18,7 @@ reviews:
 size: 
 website: https://bitkit.to/
 repository: https://github.com/synonymdev/bitkit
-issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/501
+issue: https://github.com/synonymdev/bitkit/issues/2414
 icon: to.bitkit.png
 bugbounty: 
 meta: ok
@@ -80,13 +80,11 @@ Diff:
 Files /tmp/fromPlay_to.bitkit_142/AndroidManifest.xml and /tmp/fromBuild_to.bitkit_142/AndroidManifest.xml differ
 Files /tmp/fromPlay_to.bitkit_142/assets/dexopt/baseline.prof and /tmp/fromBuild_to.bitkit_142/assets/dexopt/baseline.prof differ
 Files /tmp/fromPlay_to.bitkit_142/assets/index.android.bundle and /tmp/fromBuild_to.bitkit_142/assets/index.android.bundle differ
-Only in /tmp/fromBuild_to.bitkit_142/assets: index.android.jsbundle
 Files /tmp/fromPlay_to.bitkit_142/classes2.dex and /tmp/fromBuild_to.bitkit_142/classes2.dex differ
 Files /tmp/fromPlay_to.bitkit_142/classes3.dex and /tmp/fromBuild_to.bitkit_142/classes3.dex differ
 Files /tmp/fromPlay_to.bitkit_142/classes.dex and /tmp/fromBuild_to.bitkit_142/classes.dex differ
 Only in /tmp/fromBuild_to.bitkit_142: lib
 Only in /tmp/fromBuild_to.bitkit_142/res: 2X.ttf
-Only in /tmp/fromBuild_to.bitkit_142/res: 5c.
 Only in /tmp/fromPlay_to.bitkit_142/res: anim
 Only in /tmp/fromPlay_to.bitkit_142/res: animator
 Only in /tmp/fromPlay_to.bitkit_142/res: animator-v21
@@ -102,6 +100,7 @@ Only in /tmp/fromPlay_to.bitkit_142/res: drawable-watch-v20
 Only in /tmp/fromPlay_to.bitkit_142/res: interpolator
 Only in /tmp/fromPlay_to.bitkit_142/res: interpolator-v21
 Only in /tmp/fromPlay_to.bitkit_142/res: layout
+...
 Only in /tmp/fromPlay_to.bitkit_142/res: layout-land
 Only in /tmp/fromPlay_to.bitkit_142/res: layout-ldrtl-v17
 Only in /tmp/fromPlay_to.bitkit_142/res: layout-sw600dp-v13
@@ -114,7 +113,6 @@ Only in /tmp/fromPlay_to.bitkit_142/res: mipmap-mdpi-v4
 Only in /tmp/fromPlay_to.bitkit_142/res: mipmap-xhdpi-v4
 Only in /tmp/fromPlay_to.bitkit_142/res: mipmap-xxhdpi-v4
 Only in /tmp/fromPlay_to.bitkit_142/res: mipmap-xxxhdpi-v4
-Only in /tmp/fromBuild_to.bitkit_142/res: Ot.
 Only in /tmp/fromPlay_to.bitkit_142/res: raw
 Only in /tmp/fromPlay_to.bitkit_142/res: xml
 Files /tmp/fromPlay_to.bitkit_142/resources.arsc and /tmp/fromBuild_to.bitkit_142/resources.arsc differ
