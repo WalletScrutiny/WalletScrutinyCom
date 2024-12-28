@@ -10,6 +10,12 @@ permalink: /attestator/
   .archive {
     width: 100%;
   }
+  .npubFallback {
+    font-weight: bold;
+    padding: 20px;
+    padding-top: 0;
+    text-align: center;
+  }
   #binariesTable {
     margin-top: 20px;
   }
@@ -45,12 +51,16 @@ permalink: /attestator/
       // Profile
       const profile = await getNostrProfile(pubkey);
 
-      if (profile?.image) {
-        document.getElementById('attestator').innerHTML = `
-          <div class="big-profile-card">
-            <img src="${profile.image}" alt="Profile Picture" style="width: 200px; height: 200px; border-radius: 50%; margin-bottom: 10px;">
-          <div style="font-size: 1.5em; font-weight: bold;">${profile.name ?? ''}</div>
-        </div>`;
+      if (!profile) {
+        document.getElementById('attestator').innerHTML = `<div class="npubFallback">${getNpubFromPubkey(pubkey)}</div>`;
+      } else {
+        if (profile?.image) {
+          document.getElementById('attestator').innerHTML = `
+            <div class="big-profile-card">
+              <img src="${profile.image}" alt="Profile Picture" style="width: 200px; height: 200px; border-radius: 50%; margin-bottom: 10px;">
+            <div style="font-size: 1.5em; font-weight: bold;">${profile.name ?? ''}</div>
+          </div>`;
+        }
       }
 
       // Binaries
