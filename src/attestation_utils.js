@@ -6,17 +6,6 @@ const endorsementKind = 303020; // 30302
 
 const connectTimeout = 2000;
 
-const nip07signer = new NDKNip07Signer();
-
-const ndk = new NDK({
-  explicitRelayUrls: [
-    "wss://relay.zapstore.dev",
-    "wss://relay.primal.net/",
-    "wss://relay.damus.io",
-    "wss://relay.nostr.net"
-  ],
-});
-
 const getUserPubkey = async function() {
   const signer = await nip07signer.user();
   return signer.pubkey;
@@ -50,7 +39,6 @@ const validateUrl = function(url) {
 }
 
 const getNostrProfile = async function (pubkey) {
-  await ndk.connect(connectTimeout);
   const user = ndk.getUser({ pubkey });
   return await user.fetchProfile();
 }
@@ -190,8 +178,6 @@ const createEndorsement = async function ({sha256, content, status, attestationE
 const getAssetsWithSHA256 = async function (sha256) {
   console.debug("Getting assets for: ", sha256);
 
-  await ndk.connect(connectTimeout);
-
   const assets = await ndk.fetchEvents({
     kinds: [assetRegistrationKind],
     "#x": [sha256]
@@ -214,8 +200,6 @@ const getTimestampMonthsAgo = function(months = 6) {
 }
 
 const getAllAssetInformation = async function({ months, assetsPubkey, attestationsPubkey, appId, sha256, getAssetsForMyAttestations }) {
-  await ndk.connect(connectTimeout);
-
   // Filter Assets
   const filter_assets = {
     kinds: [assetRegistrationKind],
@@ -390,3 +374,20 @@ window.getFirstTag = getFirstTag;
 window.getUserPubkey = getUserPubkey;
 window.userHasBrowserExtension = userHasBrowserExtension;
 window.showToast = showToast;
+window.getNpubFromPubkey = getNpubFromPubkey;
+
+
+const nip07signer = new NDKNip07Signer();
+
+const ndk = new NDK({
+  explicitRelayUrls: [
+    "wss://relay.primal.net/",
+    "wss://relay.zapstore.dev/",
+    "wss://relay.damus.io/",
+    "wss://relay.nostr.net/",
+    "wss://relay.snort.social/",
+    "wss://nostr-pub.wellorder.net/"
+  ],
+});
+
+await ndk.connect(connectTimeout);
