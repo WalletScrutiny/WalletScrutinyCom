@@ -69,7 +69,7 @@ permalink: /attestators/
         <tbody>
           ${sortedAttestators.map(([pubkey, stats]) => `
             <tr>
-              <td id="profile-${pubkey}">${pubkey}</td>
+              <td id="profile-${pubkey}"><a href="/attestator/?pubkey=${pubkey}">${getNpubFromPubkey(pubkey)}</a></td>
               <td class="attestation-count">${stats.attestations}</td> <!-- , ${stats.endorsements} -->
             </tr>
           `).join('')}
@@ -84,6 +84,9 @@ permalink: /attestators/
     for (const [pubkey] of sortedAttestators) {
       try {
         const profile = await getNostrProfile(pubkey);
+        if (!profile) {
+          continue;
+        }
         const profileElement = document.getElementById(`profile-${pubkey}`);
         if (profileElement) {
           profileElement.innerHTML = `
