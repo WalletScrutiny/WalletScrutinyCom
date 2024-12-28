@@ -43,6 +43,11 @@ const getNostrProfile = async function (pubkey) {
   return await user.fetchProfile();
 }
 
+const getNpubFromPubkey = function (pubkey) {
+  const user = ndk.getUser({ pubkey });
+  return user.npub;
+}
+
 const createAssetRegistration = async function ({
   sha256,
   appId,
