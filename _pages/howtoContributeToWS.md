@@ -5,7 +5,7 @@ permalink: /howtoContributeToWS/
 
 WalletScrutiny aims to promote accountability and auditability in Bitcoin wallet security. Here’s how you can contribute:
 
-**Create Attestations:** Create attestations for wallets you have tried to verify. More info [here](http://localhost:4000/attestations/).
+**Create Attestations:** Create attestations for wallets you have tried to verify. More info [here](/attestations/).
 
 **Write Opinions:** Share your insights on Bitcoin apps or devices, including opposing views. Write an opinion on a wallet. It will be shared to NOSTR to extend discussions beyond this website.
 
