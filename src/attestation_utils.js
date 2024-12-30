@@ -53,7 +53,6 @@ const createAssetRegistration = async function ({
   appId,
   url,
   version,
-  mimeType,
   platform,
   name
 }) {
@@ -79,7 +78,6 @@ const createAssetRegistration = async function ({
     ["i", appId],
     ["url", url ?? ''],
     ["version", version],
-    ["m", mimeType ?? ''],
     ["platform", platform ?? '']
   ];
 
