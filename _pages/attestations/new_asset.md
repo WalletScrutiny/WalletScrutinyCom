@@ -57,12 +57,6 @@ permalink: /new_asset/
       </select>
     </div>
 
-    <div class="form-group">
-      <label for="mimeType">MIME Type:</label>
-      <input type="text" id="mimeType" name="mimeType" class="form-control">
-      <small class="form-text">Example: application/vnd.android.package-archive</small>
-    </div>
-
     <button type="submit" class="btn btn-success">Register Asset</button>
   </form>
   <div id="loadingSpinner" style="display: none;">
@@ -182,7 +176,7 @@ async function loadUrlParams() {
 
   const urlParams = new URLSearchParams(window.location.search);
   
-  const fields = ['name', 'url', 'version', 'sha256', 'appId', 'mimeType', 'platform'];
+  const fields = ['name', 'url', 'version', 'sha256', 'appId', 'platform'];
   fields.forEach(field => {
     const value = urlParams.get(field);
     if (value) {
@@ -204,12 +198,10 @@ async function handleSubmit(event) {
     version: document.getElementById('version').value.trim(),
     sha256: document.getElementById('sha256').value.trim(),
     appId: document.getElementById('appId').value.trim(),
-    mimeType: document.getElementById('mimeType').value.trim(),
     platform: document.getElementById('platform').value
   };
 
   if (!formData.appId) delete formData.appId;
-  if (!formData.mimeType) delete formData.mimeType;
   if (!formData.platform) delete formData.platform;
 
   const spinner = document.getElementById('loadingSpinner');
