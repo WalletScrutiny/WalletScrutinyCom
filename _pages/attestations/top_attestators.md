@@ -21,11 +21,19 @@ permalink: /attestators/
   }
 
   .attestator-card-column {
-    padding: 1.5em;
+    padding: 1.3em;
   }
   .attestation-count-column {
     text-align: center;
     font-size: 1.5em;
+  }
+
+  .profile-info {
+    font-size: 18px;
+  }
+  .profile-image {
+    width: 50px;
+    height: 50px;
   }
 </style>
 
