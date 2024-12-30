@@ -7,8 +7,25 @@ permalink: /attestators/
 <link rel="stylesheet" href="{{ base_path }}/assets/css/attestations.css">
 
 <style>
-  .attestation-count {
+  table { 
+    width: initial;
+    margin: auto;
+  }
+  table th:nth-child(1) {
+    padding-left: 8em;
+    padding-right: 8em;
+  }
+  table th:nth-child(2) {
+    padding-left: 5em;
+    padding-right: 5em;
+  }
+
+  .attestator-card-column {
+    padding: 1.5em;
+  }
+  .attestation-count-column {
     text-align: center;
+    font-size: 1.5em;
   }
 </style>
 
@@ -63,14 +80,14 @@ permalink: /attestators/
         <thead>
           <tr>
             <th>Attestator</th>
-            <th class="attestation-count"># Attestations</th> <!-- , Endorsements -->
+            <th># Attestations</th> <!-- , Endorsements -->
           </tr>
         </thead>
         <tbody>
           ${sortedAttestators.map(([pubkey, stats]) => `
             <tr>
-              <td id="profile-${pubkey}"><a href="/attestator/?pubkey=${pubkey}">${getNpubFromPubkey(pubkey)}</a></td>
-              <td class="attestation-count">${stats.attestations}</td> <!-- , ${stats.endorsements} -->
+              <td class="attestator-card-column" id="profile-${pubkey}"><a href="/attestator/?pubkey=${pubkey}">${getNpubFromPubkey(pubkey)}</a></td>
+              <td class="attestation-count-column">${stats.attestations}</td> <!-- , ${stats.endorsements} -->
             </tr>
           `).join('')}
         </tbody>
