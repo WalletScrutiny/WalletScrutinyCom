@@ -9,6 +9,7 @@ permalink: /asset/
 <h2 id="sha256title" style="text-align: center; margin-bottom: 2em;"></h2>
 
 <div style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
+  <a href="/assets/" class="btn btn-success">All Assets</a>
   {% include shareButton.html defaultMessage="Asset information on WalletScrutiny:" %}
 </div>
 
