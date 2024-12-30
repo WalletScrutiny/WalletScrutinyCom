@@ -8,6 +8,10 @@ permalink: /asset/
 
 <h2 id="sha256title" style="text-align: center; margin-bottom: 2em;"></h2>
 
+<div style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
+  {% include shareButton.html defaultMessage="Asset information on WalletScrutiny:" %}
+</div>
+
 <div id="binariesTable"></div>
 
 <div class="explanation-box" style="margin-top: 2em; padding: 1em; border: 1px solid var(--border-color); border-radius: 4px;">
