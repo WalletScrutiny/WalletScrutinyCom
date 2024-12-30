@@ -146,6 +146,7 @@ exclude:
   - assets/css/styles.css
   - backup
   - config
+  - docs
   - webpack.config.js
   - log
   - node_modules
@@ -155,9 +156,6 @@ exclude:
   - vendor
   - resSources
   - scripts
-  - "refresh*.mjs"
-  - google-play-scraper
-  - src
   - src
   - /*.sh
   - /*.mjs
