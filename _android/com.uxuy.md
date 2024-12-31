@@ -8,11 +8,11 @@ users: 100000
 appId: com.uxuy
 appCountry: 
 released: 2023-08-09
-updated: 2024-12-17
-version: 1.3.05
+updated: 2024-12-29
+version: 1.3.07
 stars: 4.1
 ratings: 
-reviews: 18
+reviews: 21
 size: 
 website: https://uxuy.com
 repository: 

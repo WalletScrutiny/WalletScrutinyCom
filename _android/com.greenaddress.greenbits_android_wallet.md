@@ -10,7 +10,7 @@ appId: com.greenaddress.greenbits_android_wallet
 appCountry: 
 released: 2015-01-01
 updated: 2024-12-20
-version: 4.1.0
+version: 4.1.1
 stars: 4.4
 ratings: 946
 reviews: 137

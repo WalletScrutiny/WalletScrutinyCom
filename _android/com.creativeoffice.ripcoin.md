@@ -10,7 +10,7 @@ appCountry:
 released: 2021-02-25
 updated: 2024-12-02
 version: '20210'
-stars: 3.3
+stars: 3.4
 ratings: 
 reviews: 226
 size: 

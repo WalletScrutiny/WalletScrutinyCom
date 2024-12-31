@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: kumo.africa.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-06-03
+date: 2024-12-31
 signer: 
 reviewArchive: 
 twitter: 

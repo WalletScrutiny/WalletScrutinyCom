@@ -11,7 +11,7 @@ released: 2023-08-02
 updated: 2024-12-22
 version: 2.4.3
 stars: 4.6
-reviews: 1233
+reviews: 1305
 size: '156473344'
 website: https://bestwallet.com/
 repository: 

@@ -8,9 +8,9 @@ users: 100000
 appId: com.trendo.android
 appCountry: 
 released: 2021-10-05
-updated: 2024-12-17
-version: 3.8.32_googleplay
-stars: 4.9
+updated: 2024-12-30
+version: 3.9.01_googleplay
+stars: 4.8
 ratings: 
 reviews: 577
 size: 

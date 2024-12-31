@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.gluwa.app.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2023-07-11
+date: 2024-12-31
 signer: 
 reviewArchive: 
 twitter: gluwa

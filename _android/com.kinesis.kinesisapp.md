@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-02-28
 updated: 2024-12-19
 version: 2.4.0
-stars: 3.7
+stars: 3.6
 ratings: 424
-reviews: 90
+reviews: 92
 size: 
 website: https://kinesis.money/
 repository: https://github.com/KinesisNetwork/wallet-mobile

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.mufin.iconfi.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2024-01-05
+date: 2024-12-31
 signer: 
 reviewArchive: 
 twitter: ICONFiWorld

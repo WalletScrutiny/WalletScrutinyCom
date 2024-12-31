@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.bit2me.flutter-ios.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2024-10-07
+date: 2024-12-31
 signer: 
 reviewArchive: 
 twitter: bit2me

@@ -4,7 +4,7 @@ title: CIEx
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.exchange.Ciexv2
 appCountry: 
 released: 2022-07-20

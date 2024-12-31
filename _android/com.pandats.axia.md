@@ -8,8 +8,8 @@ users: 100000
 appId: com.pandats.axia
 appCountry: il
 released: 2020-11-16
-updated: 2024-12-09
-version: 3.3.1
+updated: 2024-12-30
+version: 3.3.2
 stars: 4.7
 ratings: 744
 reviews: 5

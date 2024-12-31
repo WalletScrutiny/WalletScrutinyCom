@@ -12,7 +12,7 @@ updated: 2024-12-16
 version: 4.1.6
 stars: 4.8
 ratings: 5028
-reviews: 2271
+reviews: 2270
 size: 
 website: http://bitazza.com/
 repository: 

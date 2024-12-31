@@ -14,9 +14,9 @@ appCountry:
 released: 2018-11-01
 updated: 2024-11-30
 version: 7.0.6
-stars: 3.9
+stars: 4
 ratings: 1810
-reviews: 330
+reviews: 331
 size: 
 website: https://bluewallet.io
 repository: https://github.com/bluewallet/bluewallet

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bitbay.pay.bitcoin.pos.terminal.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2024-11-04
+date: 2024-12-31
 signer: 
 reviewArchive: 
 twitter: zondaglobal

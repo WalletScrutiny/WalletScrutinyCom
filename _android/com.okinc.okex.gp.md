@@ -9,10 +9,10 @@ appId: com.okinc.okex.gp
 appCountry: 
 released: 2019-10-29
 updated: 2024-12-23
-version: 6.99.0
+version: 6.100.0
 stars: 4.4
 ratings: 188391
-reviews: 3318
+reviews: 3325
 size: 
 website: https://www.okx.com/
 repository: 

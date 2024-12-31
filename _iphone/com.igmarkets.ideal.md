@@ -10,8 +10,8 @@ idd: '406492428'
 released: 2011-01-24
 updated: 2024-12-18
 version: 10.2318.0
-stars: 4.5
-reviews: 2708
+stars: 4.6
+reviews: 2715
 size: '240448512'
 website: https://www.ig.com/uk/trading-platforms/trading-apps
 repository: 

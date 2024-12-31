@@ -12,7 +12,7 @@ updated: 2024-12-20
 version: 2.0.5
 stars: 4.4
 ratings: 
-reviews: 96
+reviews: 97
 size: 
 website: https://www.coinsdo.com
 repository: 

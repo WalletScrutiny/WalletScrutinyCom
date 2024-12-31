@@ -8,11 +8,11 @@ appId: com.vttech.VantageFX
 appCountry: ph
 idd: 1457929724
 released: 2019-07-20
-updated: 2024-12-12
-version: 3.52.1
+updated: 2024-12-30
+version: 3.53.0
 stars: 4.9
 reviews: 62
-size: '99205120'
+size: '100377600'
 website: https://www.vantagemarkets.com/
 repository: 
 issue: 

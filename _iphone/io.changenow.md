@@ -11,7 +11,7 @@ released: 2020-06-29
 updated: 2024-12-19
 version: 2.8.2
 stars: 4.8
-reviews: 1972
+reviews: 1976
 size: '71949312'
 website: https://changenow.io
 repository: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.whalecomp.whalecomp.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2024-02-16
+date: 2024-12-31
 signer: 
 reviewArchive: 
 twitter: 
