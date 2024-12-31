@@ -1,74 +1,95 @@
-FROM docker.io/library/debian:bullseye-slim
+FROM ubuntu:22.04
 
-ARG UID=1000
-ARG TAG
+# Prevent interactive prompts during package installation
+ENV DEBIAN_FRONTEND=noninteractive
 
-# Retry function. Had to add it because this script used to fail a lot
-# during the apt-get install part.
-# Also defined it in a shell script file to avoid issues with Docker RUN commands
-RUN set -ex; \
-    echo '#!/bin/sh' > /usr/local/bin/retry; \
-    echo 'n=0; max=5; delay=5;' >> /usr/local/bin/retry; \
-    echo 'while true; do' >> /usr/local/bin/retry; \
-    echo '  "$@" && break || {' >> /usr/local/bin/retry; \
-    echo '    if [ $n -lt $max ]; then' >> /usr/local/bin/retry; \
-    echo '      n=$(expr $n + 1);' >> /usr/local/bin/retry; \
-    echo '      echo "Command failed. Attempt $n/$max:";' >> /usr/local/bin/retry; \
-    echo '      sleep $delay;' >> /usr/local/bin/retry; \
-    echo '    else' >> /usr/local/bin/retry; \
-    echo '      echo "The command has failed after $n attempts.";' >> /usr/local/bin/retry; \
-    echo '      exit 1;' >> /usr/local/bin/retry; \
-    echo '    fi;' >> /usr/local/bin/retry; \
-    echo '  }' >> /usr/local/bin/retry; \
-    echo 'done' >> /usr/local/bin/retry; \
-    chmod +x /usr/local/bin/retry
+# Set environment variables
+ENV NODE_VERSION=18.19.0
+ENV ANDROID_HOME=/opt/android-sdk
+ENV PATH=${PATH}:${ANDROID_HOME}/tools:${ANDROID_HOME}/platform-tools
+ENV NVM_DIR=/root/.nvm
+ENV NODE_PATH=$NVM_DIR/v$NODE_VERSION/lib/node_modules
+ENV PATH=$NVM_DIR/versions/node/v$NODE_VERSION/bin:$PATH
+ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
 
-RUN set -ex; \
-    # Update and install dependencies with retry mechanism
-    retry apt-get update; \
-    DEBIAN_FRONTEND=noninteractive retry apt-get install --yes \
-      -o APT::Install-Suggests=false --no-install-recommends \
-      patch git openjdk-17-jre-headless openjdk-17-jdk curl; \
-    rm -rf /var/lib/apt/lists/*; \
-    useradd --uid $UID --create-home --shell /bin/bash appuser; \
-    mkdir -p /Users/runner/work/1/; \
-    chown -R appuser:appuser /Users/
+# Install essential packages and Java 17
+RUN apt-get update && apt-get install -y \
+    curl \
+    git \
+    unzip \
+    python3 \
+    build-essential \
+    openjdk-17-jdk \
+    && rm -rf /var/lib/apt/lists/*
 
-USER appuser
+# Install Node.js using nvm
+RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash \
+    && . $NVM_DIR/nvm.sh \
+    && nvm install $NODE_VERSION \
+    && nvm alias default $NODE_VERSION \
+    && nvm use default
 
-ENV ANDROID_SDK_ROOT="/home/appuser/sdk" \
-    ANDROID_HOME="/home/appuser/sdk"
+# Install yarn
+RUN npm install -g yarn
 
-RUN set -ex; \
-    mkdir -p "/home/appuser/sdk/licenses"; \
-    printf "\n24333f8a63b6825ea9c5514f83c2829b004d1fee" > "/home/appuser/sdk/licenses/android-sdk-license"; \
-    cd /Users/runner/work/1/; \
-    git clone --branch $TAG https://github.com/synonymdev/bitkit.git /Users/runner/work/1/s/
+# Install Android SDK
+RUN mkdir -p ${ANDROID_HOME} && cd ${ANDROID_HOME} \
+    && curl -o sdk-tools.zip https://dl.google.com/android/repository/commandlinetools-linux-9477386_latest.zip \
+    && unzip sdk-tools.zip \
+    && rm sdk-tools.zip
 
-WORKDIR /Users/runner/work/1/s/
+# Accept licenses and install required Android SDK packages
+RUN yes | ${ANDROID_HOME}/cmdline-tools/bin/sdkmanager --sdk_root=${ANDROID_HOME} "platform-tools" "platforms;android-33" "build-tools;33.0.0" \
+    && yes | ${ANDROID_HOME}/cmdline-tools/bin/sdkmanager --sdk_root=${ANDROID_HOME} --licenses
 
-RUN curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+# Set up gradle properties for signing
+RUN mkdir -p /root/.gradle
+RUN echo "BITKIT_UPLOAD_STORE_FILE=debug.keystore\n\
+BITKIT_UPLOAD_STORE_PASSWORD=android\n\
+BITKIT_UPLOAD_KEY_ALIAS=androiddebugkey\n\
+BITKIT_UPLOAD_KEY_PASSWORD=android" > /root/.gradle/gradle.properties
 
-# We need to use dev for node_env so that yarn installs the dev dependencies (needed for building)
-ENV NVM_DIR="/home/appuser/.nvm" \
-    NODE_ENV="development"
+WORKDIR /app
 
-RUN . "$NVM_DIR/nvm.sh" && \
-    nvm install $(cat .node-version) && \
-    nvm use $(cat .node-version) && \
-    npm install -g yarn && \
-    yarn install --frozen-lockfile
+# Clone the repository
+RUN git clone https://github.com/synonymdev/bitkit.git .
 
-ENV NODE_ENV="production"
+# Create .env file with all required variables
+RUN echo "\
+# middleware for redux-logger\n\
+ENABLE_REDUX_LOGGER=true\n\
+ENABLE_REDUX_IMMUTABLE_CHECK=true\n\
+ENABLE_I18NEXT_DEBUGGER=false\n\
+ENABLE_MIGRATION_DEBUG=false\n\
+ENABLE_LDK_LOGS=true\n\
+BACKUPS_SERVER_HOST=https://blocktank.synonym.to/staging-backups-ldk\n\
+BACKUPS_SERVER_PUBKEY=02c03b8b8c1b5500b622646867d99bf91676fac0f38e2182c91a9ff0d053a21d6d\n\
+WEB_RELAY=https://webrelay.slashtags.to\n\
+BLOCKTANK_HOST=https://api1.blocktank.to/api\n\
+ELECTRUM_BITCOIN_HOST=35.187.18.233\n\
+ELECTRUM_BITCOIN_SSL_PORT=8900\n\
+ELECTRUM_BITCOIN_TCP_PORT=8911\n\
+ELECTRUM_BITCOIN_PROTO=ssl\n\
+ELECTRUM_REGTEST_HOST=35.233.47.252\n\
+ELECTRUM_REGTEST_SSL_PORT=18484\n\
+ELECTRUM_REGTEST_TCP_PORT=18483\n\
+ELECTRUM_REGTEST_PROTO=tcp\n\
+ELECTRUM_SIGNET_HOST=35.233.47.252\n\
+ELECTRUM_SIGNET_SSL_PORT=18484\n\
+ELECTRUM_SIGNET_TCP_PORT=18483\n\
+ELECTRUM_SIGNET_PROTO=tcp\n\
+TREASURE_HUNT_HOST=' '\n\
+TRUSTED_ZERO_CONF_PEERS=0296b2db342fcf87ea94d981757fdf4d3e545bd5cef4919f58b5d38dfdd73bf5c9,03b9a456fb45d5ac98c02040d39aec77fa3eeb41fd22cf40b862b393bcfc43473a,039b8b4dd1d88c2c5db374290cda397a8f5d79f312d6ea5d5bfdfc7c6ff363eae3,03342eac98d8c07ac8a4f303b2ad09a34b3350357730013d534d0537a4d1d8a14d,03816141f1dce7782ec32b66a300783b1d436b19777e7c686ed00115bd4b88ff4b\n\
+WALLET_DEFAULT_SELECTED_NETWORK=bitcoin\n\
+E2E=false\n\
+CHATWOOT_API=https://synonym.to/api/chatwoot\n\
+" > .env
 
-RUN cp .env.development .env; \
-    echo "sdk.dir=/home/appuser/sdk" > android/local.properties; \
-    mkdir -p ~/.gradle; \
-    echo "BITKIT_UPLOAD_STORE_FILE=debug.keystore" >> ~/.gradle/gradle.properties; \
-    echo "BITKIT_UPLOAD_STORE_PASSWORD=android" >> ~/.gradle/gradle.properties; \
-    echo "BITKIT_UPLOAD_KEY_ALIAS=androiddebugkey" >> ~/.gradle/gradle.properties; \
-    echo "BITKIT_UPLOAD_KEY_PASSWORD=android" >> ~/.gradle/gradle.properties; \
-    echo "org.gradle.daemon=false" >> ~/.gradle/gradle.properties; \
-    echo "org.gradle.jvmargs=-Xmx2g -XX:MaxMetaspaceSize=512m -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8" >> ~/.gradle/gradle.properties
+# Install dependencies
+RUN yarn install
 
-RUN . "$NVM_DIR/nvm.sh" && yarn bundle
+# Build command for the APK
+CMD cd android && \
+    ./gradlew assembleRelease && \
+    mkdir -p /output && \
+    find . -name "*.apk" -exec cp {} /output/bitkit.apk \;
