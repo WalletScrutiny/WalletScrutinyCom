@@ -22,9 +22,14 @@ icon: app.michaelwuensch.bitbanana.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2024-10-21
+date: 2024-01-02
 signer: 
-reviewArchive: 
+reviewArchive:
+- date: 2024-10-21
+  version: 0.8.7
+  appHash: 
+  gitRevision: 8e88c9ff17f8903e91d21c64e95f6031b1f7dab2
+  verdict: ftbfs
 twitter: BitBananaApp
 social:
 - https://discord.gg/Xg85BuTc9A
@@ -35,6 +40,75 @@ developerName: Michael Wünsch
 features: 
 
 ---
+
+## Updated on 2025-01-02
+
+We ran our updated {% include testScript.html %} and got this
+```
+===== Begin Results =====
+appId:          app.michaelwuensch.bitbanana
+signer:         98d818b12efa005735dc3d6b6ed78a05d8f75629e0afaf001655ed6aacfd2884
+apkVersionName: 0.8.8
+apkVersionCode: 65
+verdict:        
+appHash:        23f5f22e06e56604b75bfea649f3e0b0d0c2a1ebc8c487dc84224acd48a8993a
+commit:         0a8a446ebcb63f3ef5bd9c28d6b30ee6e599bf80
+
+Diff:
+Files /tmp/fromPlay_app.michaelwuensch.bitbanana_65/classes2.dex and /tmp/fromBuild_app.michaelwuensch.bitbanana_65/classes2.dex differ
+Files /tmp/fromPlay_app.michaelwuensch.bitbanana_65/classes3.dex and /tmp/fromBuild_app.michaelwuensch.bitbanana_65/classes3.dex differ
+Files /tmp/fromPlay_app.michaelwuensch.bitbanana_65/classes4.dex and /tmp/fromBuild_app.michaelwuensch.bitbanana_65/classes4.dex differ
+Files /tmp/fromPlay_app.michaelwuensch.bitbanana_65/classes5.dex and /tmp/fromBuild_app.michaelwuensch.bitbanana_65/classes5.dex differ
+Only in /tmp/fromBuild_app.michaelwuensch.bitbanana_65: lib
+Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: anim
+Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: animator
+Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: animator-v21
+Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: anim-v21
+Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: drawable
+Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: drawable-anydpi-v23
+Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: drawable-hdpi-v4
+Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: drawable-v21
+Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: drawable-v23
+Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: drawable-watch-v20
+Only in /tmp/fromBuild_app.michaelwuensch.bitbanana_65/res: E5.ogg
+Only in /tmp/fromBuild_app.michaelwuensch.bitbanana_65/res: Fw.json
+Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: interpolator
+Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: interpolator-v21
+Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: layout
+Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: layout-land
+Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: layout-sw600dp-v13
+Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: layout-v21
+Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: layout-v26
+Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: layout-watch-v20
+Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: menu
+Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: mipmap-anydpi-v26
+Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: mipmap-hdpi-v4
+Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: mipmap-mdpi-v4
+Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: mipmap-xhdpi-v4
+Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: mipmap-xxhdpi-v4
+Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: mipmap-xxxhdpi-v4
+Only in /tmp/fromBuild_app.michaelwuensch.bitbanana_65/res: Pl.json
+Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: raw
+Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: xml
+Only in /tmp/fromBuild_app.michaelwuensch.bitbanana_65/res: xP.json
+Files /tmp/fromPlay_app.michaelwuensch.bitbanana_65/resources.arsc and /tmp/fromBuild_app.michaelwuensch.bitbanana_65/resources.arsc differ
+Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65: stamp-cert-sha256
+
+Revision, tag (and its signature):
+
+===== End Results =====
+```
+The main things we saw are - 
+
+1. Different DEX files (classes2.dex through classes5.dex differ) - this means the compiled code is different
+2. Missing resource directories in the built version (anim, drawable, layout, etc.) that are present in the Play Store version
+3. Additional files in built version (E5.ogg, Fw.json, Pl.json, xP.json) that aren't in the Play Store version
+4. Different resources.arsc files
+
+
+With these differences, the wallet is **not reproducable**
+
+{% include asciicast %}
 
 ### Update on 2024-10-21
 
