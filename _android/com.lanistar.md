@@ -12,7 +12,7 @@ updated: 2024-07-09
 version: 2.0.64
 stars: 2.9
 ratings: 
-reviews: 59
+reviews: 58
 size: 
 website: https://www.lanistar.com
 repository: 

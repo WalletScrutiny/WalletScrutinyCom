@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: eu.cryptomerchant.pos.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2024-10-16
+date: 2024-12-23
 signer: 
 reviewArchive: 
 twitter: 

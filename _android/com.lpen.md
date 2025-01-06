@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.lpen.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2024-04-05
+date: 2024-12-23
 signer: 
 reviewArchive: 
 twitter: 

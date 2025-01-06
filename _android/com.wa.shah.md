@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.wa.shah.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nobtc
-date: 2024-09-08
+date: 2024-12-31
 signer: 
 reviewArchive: 
 twitter: ShahOfCryptoApp

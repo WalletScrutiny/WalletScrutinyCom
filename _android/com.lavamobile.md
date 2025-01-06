@@ -3,12 +3,12 @@ wsId:
 title: Lava
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.lavamobile
 appCountry: 
 released: 2024-05-25
-updated: 2024-12-17
-version: 1.7.5
+updated: 2025-01-02
+version: 1.7.6
 stars: 
 ratings: 
 reviews: 

@@ -4,6 +4,7 @@ title: Mojito wallet
 altTitle: 
 authors:
 - danny
+- keraliss
 users: 5000
 appId: com.mojitowallet
 appCountry: 
@@ -20,8 +21,8 @@ issue: https://github.com/mintlayer/mojito_mobile_wallet/issues/101
 icon: com.mojitowallet.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
-date: 2023-09-06
+verdict: ftbfs
+date: 2024-12-21
 signer: 
 reviewArchive: 
 twitter: mintlayer
@@ -36,6 +37,43 @@ developerName: RBB SRL
 features: 
 
 ---
+
+**Update 2024-12-21:**
+
+# Mojito Wallet Reproducibility Review
+
+## Summary
+The Mojito mobile wallet's build process has critical reproducibility issues that prevent successful compilation from source code. The project fails at the initial dependency installation stage, making it impossible to verify the published binaries against the source code.
+
+## Build Attempt Details
+
+### Environment
+- Ubuntu Linux
+- Node.js 16.14.2 (as specified in requirements)
+- npm latest version
+- JDK 11
+
+### Build Process Issues
+
+1. **Initial Dependencies Installation**
+   - Basic `npm install` fails with dependency conflicts
+   - Cleaning (`rm -rf node_modules package-lock.json`) and reinstalling fails
+   - Even with `--legacy-peer-deps` flag, installation fails
+
+2. **Dependency Access Issues**
+   - Project depends on private/inaccessible git repositories:
+     - BlueWallet/react-native-document-picker
+     - BlueWallet/react-native-qrcode-local-image
+   - No public alternatives specified in package.json
+
+3. **Version Conflicts**
+   - ESLint version conflicts between dependencies
+   - React (17.0.2) and React Native (0.64.2) version mismatch
+   - Multiple peer dependency conflicts
+
+## Conclusion
+
+  We were unable to build the wallet due to dependency installation failures and inaccessible private repositories. For that, the wallet is **not reproducable** for now!
 
 ## App Description from Google Play
 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.app.finexexchange.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2024-11-21
+date: 2024-12-23
 signer: 
 reviewArchive: 
 twitter: 

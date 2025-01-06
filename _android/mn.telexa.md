@@ -12,7 +12,7 @@ updated: 2023-09-07
 version: '6.5'
 stars: 4.6
 ratings: 
-reviews: 11
+reviews: 10
 size: 
 website: https://www.telexa.mn/
 repository: 

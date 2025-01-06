@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.books.x7exchange.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2024-01-16
+date: 2024-12-31
 signer: 
 reviewArchive: 
 twitter: x7exchange

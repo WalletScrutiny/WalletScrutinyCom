@@ -11,7 +11,7 @@ released: 2022-08-26
 updated: 2024-12-05
 version: 2.1.9
 stars: 4.2
-reviews: 16
+reviews: 17
 size: '178164736'
 website: https://stackwallet.com/
 repository: 

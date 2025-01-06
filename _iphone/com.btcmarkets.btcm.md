@@ -11,7 +11,7 @@ released: 2022-03-19
 updated: 2024-12-10
 version: 1.8.1
 stars: 3.8
-reviews: 71
+reviews: 72
 size: '38417408'
 website: https://www.btcmarkets.net
 repository: 

@@ -1,64 +1,43 @@
-2024-12-04:
-- _android/capital.amir.wallet
-- _android/com.app.finexexchange
-- _android/com.biboots.flutter_app
-- _android/com.coinboxwallet
-- _android/com.dc.bib.lite
-- _android/com.lpen
-- _android/com.molnike.crypto.backup
-- _android/com.reyesfields.wgxqwnizbv
-- _android/com.safepay.live
-- _android/com.xccg.xchange
-- _android/ir.pulpal.app
-- _android/network.bho.wallet
-- _iphone/com.Fairdesk.fairdesk
-- _iphone/com.bitoshi
-- _iphone/com.blockchain.exchangeapp
-- _iphone/com.g360s.SafeX
-2024-12-08:
-- _android/com.ataix.exchange
-- _android/com.capitalJ.onJuno
-- _android/com.newcurrency.coinstrunk.v1
-- _android/com.privateum.wallet
-- _android/com.stibits
-- _android/eu.cryptomerchant.pos
-- _android/io.bumoon.boo
-- _android/io.holduz.mobile
-- _android/me.coinbag
-- _android/org.app.barteos
-- _android/ru.borik.cryptomarket.android
-- _iphone/com.capitalJ.onJuno
-2024-12-15:
-- _android/chukstem.xcoinance
-- _android/com.application.inocyx
-- _android/com.books.x7exchange
-- _android/com.cakecodes.bitmaker
-- _android/com.exchange.Ciexv2
-- _android/com.gluwa.android
-- _android/com.iorys
-- _android/com.mitin.app.swaps
-- _android/com.shah.bit
-- _android/com.sofitto.sugi
-- _android/com.vynkpay
-- _android/com.wa.shah
-- _android/digital.awallet.app.gp
-- _android/kumo.africa
-- _iphone/com.bit2me.flutter-ios
-- _iphone/com.gluwa.app
-2024-12-16:
-- _iphone/com.pandats.axia
-- _iphone/com.vn.trextrade.tt
-- _android/com.RoyalQ
-- _android/com.bitbay.pay.bitcoin.pos.terminal
-- _android/com.macaron_swap
-- _android/com.wallex.dts
-- _android/com.whalecomp.whalecomp
-2024-12-18:
-- _iphone/TbitApp.com
-- _android/com.qm.bitdata.pro
-- _android/hkd.com
-- _android/in.instacrypto
-- _iphone/com.billance.cn
-- _iphone/com.bitbay.BitBayPay
-- _iphone/com.coininn.yykik
-- _iphone/com.rice.wallet
+2024-12-23:
+- _android/com.christonet.leobitcoin
+- _android/com.dexfin.mpcwallet
+- _android/com.fradx.application
+- _android/com.growspace.com
+- _android/com.hslwallet
+- _android/com.nichie.curdex
+- _android/easyexchangepro.com.easy_pro
+- _android/io.meta1.appbeta
+- _android/org.bixter.twa
+- _iphone/com.emet.faswet
+- _iphone/com.vidulum.app
+2024-12-27:
+- _iphone/com.bitplaza
+- _iphone/com.coinmena.coinmenaapp
+- _iphone/com.ecoonlineng.ecotrader
+- _iphone/com.hawex.cryptowallet
+- _iphone/com.tokoin.wallet
+- _iphone/com.xchange.24paybank
+- _iphone/com.xchange.baksman
+- _iphone/com.xchange.mchange
+- _iphone/com.xchange.ychanger
+- _iphone/com.xchangecapital.exmoney
+- _iphone/com.xchangecapital.nicechange
+- _iphone/com.xchangecapital.prostocash
+- _iphone/com.xchangecapital.xchange
+- _iphone/pro.covest.mapple
+2024-12-31:
+- _android/com.app.coinloan
+- _android/com.devere.dcx
+- _android/com.project.odds
+- _android/io.pocketex
+- _iphone/com.sf.monarch
+2025-01-06:
+- _android/com.gloath.portalsapp
+- _android/com.komodoplatform.atomicdex
+- _android/com.mutinywallet.mutinywallet
+- _iphone/app.simple.com
+- _iphone/com.bytrade.io
+- _iphone/com.kochure.kochure-app
+- _iphone/com.koopwallet.app
+- _iphone/com.mutinywallet.mutiny
+- _iphone/com.tratao.xpocket

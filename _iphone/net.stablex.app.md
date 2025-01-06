@@ -29,7 +29,7 @@ social:
 - https://www.youtube.com/channel/UC261DPjgdgZcP9PgoKrGc7A
 - https://www.linkedin.com/company/stablex-net
 features: 
-developerName: STABLEX BILISIM TEKNOLOJI ANONIM SIRKETI
+developerName: STABLEX KRIPTO VARLIK ALIM SATIM PLATFORMU ANONIM SIRKETI
 
 ---
 

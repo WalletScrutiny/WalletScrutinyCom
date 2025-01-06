@@ -11,7 +11,7 @@ released: 2022-04-28
 updated: 2024-12-11
 version: 2.4.3
 stars: 5
-reviews: 5
+reviews: 6
 size: '197219328'
 website: https://fizen.io
 repository: 

@@ -9,7 +9,7 @@ appId: com.bitexenglobal.exchangeapp
 appCountry: 
 released: 
 updated: 2024-12-11
-version: '1.96'
+version: '1.97'
 stars: 2.7
 ratings: 
 reviews: 

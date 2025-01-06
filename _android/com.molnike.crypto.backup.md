@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.molnike.crypto.backup.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2024-02-24
+date: 2024-12-23
 signer: 
 reviewArchive: 
 twitter: 

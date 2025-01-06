@@ -9,10 +9,10 @@ appId: com.paymaya
 appCountry: 
 released: 2016-06-05
 updated: 2024-12-12
-version: 2.125.1
-stars: 4.1
+version: 2.126.0
+stars: 4
 ratings: 
-reviews: 991
+reviews: 996
 size: 
 website: https://www.paymaya.com/
 repository: 

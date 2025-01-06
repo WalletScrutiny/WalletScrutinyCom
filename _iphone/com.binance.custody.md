@@ -8,8 +8,8 @@ appId: com.binance.custody
 appCountry: sg
 idd: '1595828184'
 released: 2021-12-01
-updated: 2024-12-16
-version: 4.0.1
+updated: 2024-12-18
+version: 4.1.0
 stars: 4.5
 reviews: 2
 size: '107591680'

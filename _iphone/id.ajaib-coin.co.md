@@ -1,6 +1,6 @@
 ---
 wsId: ajaibkripto
-title: 'Ajaib Kripto: Buy BTC & Crypto'
+title: Ajaib Alpha (Ajaib Kripto)
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ appId: id.ajaib-coin.co
 appCountry: id
 idd: '1634168301'
 released: 2022-08-16
-updated: 2024-12-06
-version: 2.62.0
+updated: 2024-12-23
+version: 2.63.1
 stars: 4.2
-reviews: 1822
-size: '224799744'
-website: https://kripto.ajaib.co.id/
+reviews: 1974
+size: '203044864'
+website: https://alpha.ajaib.co.id/
 repository: 
 issue: 
 icon: id.ajaib-coin.co.jpg

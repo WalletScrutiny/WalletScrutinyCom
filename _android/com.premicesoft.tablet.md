@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.premicesoft.tablet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-12-31
+date: 2024-12-27
 signer: 
 reviewArchive: 
 twitter: 

@@ -10,11 +10,11 @@ appId: com.roqqu.ios
 appCountry: de
 idd: 1505370687
 released: 2020-04-06
-updated: 2024-12-12
-version: 2.5.40
+updated: 2025-01-02
+version: 2.5.43
 stars: 3
 reviews: 2
-size: '193379328'
+size: '245541888'
 website: https://roqqu.com
 repository: 
 issue: 

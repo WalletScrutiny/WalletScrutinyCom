@@ -12,7 +12,7 @@ updated: 2024-12-12
 version: 3.5.0
 stars: 4.2
 ratings: 15890
-reviews: 39
+reviews: 40
 size: 
 website: https://www.novadax.com
 repository: 

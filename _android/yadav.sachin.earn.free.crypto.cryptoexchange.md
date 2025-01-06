@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: yadav.sachin.earn.free.crypto.cryptoexchange.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2024-01-03
+date: 2024-12-31
 signer: 
 reviewArchive: 
 twitter: 

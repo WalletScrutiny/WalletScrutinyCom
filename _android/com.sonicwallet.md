@@ -4,7 +4,7 @@ title: Sonic Wallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.sonicwallet
 appCountry: 
 released: 2022-02-17

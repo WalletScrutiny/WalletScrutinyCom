@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.shah.bit.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2024-08-15
+date: 2024-12-31
 signer: 
 reviewArchive: 
 twitter: 

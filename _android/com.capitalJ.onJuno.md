@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.capitalJ.onJuno.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-07-19
+date: 2024-12-23
 signer: 
 reviewArchive: 
 twitter: JunoFinanceHQ

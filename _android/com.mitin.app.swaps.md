@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.mitin.app.swaps.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nowallet
-date: 2024-08-25
+date: 2024-12-31
 signer: 
 reviewArchive: 
 twitter: swapsapp_

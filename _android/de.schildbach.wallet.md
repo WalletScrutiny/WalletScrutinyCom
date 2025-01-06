@@ -14,7 +14,7 @@ updated: 2024-12-16
 version: '10.20'
 stars: 4
 ratings: 29247
-reviews: 2078
+reviews: 2080
 size: 
 website: https://github.com/bitcoin-wallet/bitcoin-wallet
 repository: https://github.com/bitcoin-wallet/bitcoin-wallet
@@ -23,9 +23,14 @@ icon: de.schildbach.wallet.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-11-06
+date: 2024-12-26
 signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
 reviewArchive:
+- date: 2024-11-06
+  version: '10.20'
+  appHash: 9e859167b259383324d44b049e9310a0715bae2837db2582519f4012b4e27fcb
+  gitRevision: 4db6e2737d26763be78b1101f735676beb9804da
+  verdict: reproducible
 - date: 2024-11-01
   version: '10.19'
   appHash: 176da991d59f8fb4a1e38fb1c21c504d23d6bc403aaaf576744b02b8ec0d970c
@@ -234,25 +239,27 @@ For the latest version the {% include testScript.html %} came to these results:
 ===== Begin Results =====
 appId:          de.schildbach.wallet
 signer:         58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
-apkVersionName: 10.20
-apkVersionCode: 102000
+apkVersionName: 10.21
+apkVersionCode: 102100
 verdict:        reproducible
-appHash:        9e859167b259383324d44b049e9310a0715bae2837db2582519f4012b4e27fcb
-commit:         f37e8013acdb75091b0e161149851972a026a24e
+appHash:        82de71bf0db5aba9364b19b663f69e7c3588c98fcadb02afcc1f1438b35d16cb
+commit:         3e894e41ef9dab61628d7ece94bbe9ec9d61a287
 
 Diff:
-Only in /tmp/fromPlay_de.schildbach.wallet_102000/META-INF: BITCOIN-.RSA
-Only in /tmp/fromPlay_de.schildbach.wallet_102000/META-INF: BITCOIN-.SF
-Files /tmp/fromPlay_de.schildbach.wallet_102000/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_102000/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_de.schildbach.wallet_102100/META-INF: BITCOIN-.RSA
+Only in /tmp/fromPlay_de.schildbach.wallet_102100/META-INF: BITCOIN-.SF
+Files /tmp/fromPlay_de.schildbach.wallet_102100/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_102100/META-INF/MANIFEST.MF differ
 
 Revision, tag (and its signature):
-object f37e8013acdb75091b0e161149851972a026a24e
+object 3e894e41ef9dab61628d7ece94bbe9ec9d61a287
 type commit
-tag v10.20
-tagger Andreas Schildbach <andreas@schildbach.de> 1730546885 +0100
+tag v10.21
+tagger Andreas Schildbach <andreas@schildbach.de> 1734198797 +0100
 
-10.20 release
+10.21 release
 ===== End Results =====
 ```
+{% include asciicast %}
+
 
 This app is **reproducible**.

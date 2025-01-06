@@ -10,8 +10,8 @@ idd: '1541127587'
 released: 2021-03-22
 updated: 2024-12-03
 version: 3.7.5+321
-stars: 3.9
-reviews: 59
+stars: 4
+reviews: 61
 size: '206080000'
 website: https://www.ejara.io
 repository: 

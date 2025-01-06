@@ -1,6 +1,6 @@
 ---
 wsId: ajaibkripto
-title: 'Ajaib Kripto: Buy BTC & Crypto'
+title: Ajaib Alpha (Ajaib Kripto)
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 1000000
 appId: coin.ajaib.co.id
 appCountry: 
 released: 2022-07-15
-updated: 2024-12-06
-version: 2.62.0
+updated: 2024-12-23
+version: 2.63.1
 stars: 4.3
 ratings: 
 reviews: 23

@@ -1,6 +1,6 @@
 ---
 wsId: iCrypex
-title: 'ICRYPEX: Buy and Sell Bitcoin'
+title: 'ICRYPEX TR: Bitcoin, Kripto Al'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: app.mobile.android.icrypex
 appCountry: 
 released: 2021-09-02
-updated: 2024-11-07
-version: '14.6'
-stars: 3.2
+updated: 2024-12-29
+version: '15.5'
+stars: 3
 ratings: 
-reviews: 8
+reviews: 9
 size: 
 website: https://www.icrypex.com/
 repository: 

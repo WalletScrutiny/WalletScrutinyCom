@@ -5,6 +5,7 @@ altTitle:
 authors:
 - danny
 - leo
+- keraliss
 users: 10000
 appId: com.komodoplatform.atomicdex
 appCountry: 
@@ -17,14 +18,19 @@ reviews: 9
 size: 
 website: https://atomicdex.io
 repository: https://github.com/KomodoPlatform/komodo-wallet-mobile
-issue: https://github.com/KomodoPlatform/komodo-wallet-mobile/issues/116
+issue: https://github.com/KomodoPlatform/komodo-wallet-mobile/issues/157
 icon: com.komodoplatform.atomicdex.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
-date: 2024-08-03
+verdict: nosource
+date: 2024-11-22
 signer: cb9c6d9f6b0d981e24b771cbe946ae32af09e71de174a2d39756161b481d94b3
-reviewArchive: 
+reviewArchive:
+- date: 2024-08-03
+  version: 0.9.1
+  appHash: 
+  gitRevision: 6ae7c72d480ca51b583f6b18d05516226e30f5a4
+  verdict: nonverifiable
 twitter: KomodoPlatform
 social:
 - https://discord.com/invite/3rzDPAr
@@ -35,6 +41,12 @@ developerName: Komodo Platform
 features: 
 
 ---
+
+**Update 2024-11-22:**
+
+## Version Unavailable:  
+
+We were testing the Komodo Wallet APK version 0.9.2, but the source code is currently not available. Despite opening an issue with the provider to request the source code, we have not received any response. As a result, we will mark the wallet as no source and revisit it once the source code is provided.
 
 ## Reproducibility
 

@@ -4,7 +4,7 @@ title: Bitgert Exchange
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: exchange.bitgert.app
 appCountry: 
 released: 2023-01-13

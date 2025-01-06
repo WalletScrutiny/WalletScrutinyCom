@@ -8,8 +8,8 @@ users: 100000
 appId: com.kardiawallet
 appCountry: vn
 released: 2021-01-13
-updated: 2023-03-20
-version: 2.4.10
+updated: 2024-12-25
+version: 3.0.0
 stars: 4.3
 ratings: 1064
 reviews: 124
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.kardiawallet.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nobtc
-date: 2024-03-15
+date: 2025-01-06
 signer: 
 reviewArchive: 
 twitter: KardiaChain

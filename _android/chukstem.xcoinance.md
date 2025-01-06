@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: chukstem.xcoinance.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-10-30
+date: 2024-12-31
 signer: 
 reviewArchive: 
 twitter: 

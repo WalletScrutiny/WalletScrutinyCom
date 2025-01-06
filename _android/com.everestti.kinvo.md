@@ -4,7 +4,7 @@ title: 'Kinvo: Acompanhe investimentos'
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.everestti.kinvo
 appCountry: BR
 released: 2017-12-22
@@ -12,7 +12,7 @@ updated: 2024-12-12
 version: 3.49.0
 stars: 3.9
 ratings: 
-reviews: 7405
+reviews: 7410
 size: 
 website: http://www.kinvo.com.br
 repository: 

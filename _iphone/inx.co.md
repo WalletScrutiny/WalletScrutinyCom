@@ -10,17 +10,17 @@ idd: '1601656456'
 released: 2022-06-11
 updated: 2024-01-11
 version: 2.0.6
-stars: 3.8
-reviews: 13
+stars: 3.9
+reviews: 14
 size: '37974016'
 website: 
 repository: 
 issue: 
 icon: inx.co.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-06-30
+date: 2025-01-06
 signer: 
 reviewArchive: 
 twitter: INX_Group

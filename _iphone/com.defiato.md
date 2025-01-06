@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.defiato.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-12-29
+date: 2024-12-23
 signer: 
 reviewArchive: 
 twitter: 

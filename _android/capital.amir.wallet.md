@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: capital.amir.wallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2021-10-04
+date: 2024-12-23
 signer: 
 reviewArchive: 
 twitter: 

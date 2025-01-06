@@ -10,8 +10,8 @@ idd: '1603406843'
 released: 2022-05-06
 updated: 2024-11-21
 version: 3.4.1
-stars: 4.9
-reviews: 191
+stars: 4.8
+reviews: 200
 size: '170006528'
 website: https://simple.app/
 repository: 

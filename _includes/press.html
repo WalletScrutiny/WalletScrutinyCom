@@ -7,6 +7,22 @@
 {% assign truncatedClass = 'truncated' %}
 {% endif %}
 
+<script>
+function fpress(el) {
+  document.querySelector(`.press-button-holder-${el}`).classList.toggle('activated');
+  document.querySelector(`#press_button_${el}`).classList.toggle('activated');
+  document.querySelectorAll(`.press.${el}`).forEach(elem => {
+    elem.classList.toggle('hidden');
+  });
+}
+
+function showAllPublications(self){
+  self.style.display="none";
+  document.querySelector('.press-container.truncated').classList.remove('truncated');
+  document.querySelector('.press-controls').removeAttribute('style');
+}
+</script>
+
 <div class="page-section" id="featuredOn">
   <div {{truncatedStyle}} class="press-controls">
     <div class="press-button-holder press-button-holder-EN activated">
@@ -15,31 +31,18 @@
     </div>
     <div class="press-button-holder press-button-holder-DE activated">
       <i class="fas fa-check check"></i>
-    <input type="button" class="activated" id="press_button_DE" value="Deutsch" onclick="fpress('DE');" />
+      <input type="button" class="activated" id="press_button_DE" value="Deutsch" onclick="fpress('DE');" />
     </div>
     <div class="press-button-holder press-button-holder-NL activated">
       <i class="fas fa-check check"></i>
-    <input type="button" class="activated" id="press_button_NL" value="Nederlands" onclick="fpress('NL');" />
+      <input type="button" class="activated" id="press_button_NL" value="Nederlands" onclick="fpress('NL');" />
     </div>
     <div class="press-button-holder press-button-holder-ES activated">
       <i class="fas fa-check check"></i>
-    <input type="button" class="activated" id="press_button_ES" value="Español" onclick="fpress('ES');" />
+      <input type="button" class="activated" id="press_button_ES" value="Español" onclick="fpress('ES');" />
     </div>
     <span class="help-text">Filter by publication language.</span>
   </div>
-<script>
-  function fpress(el) {
-    $( ".press-button-holder-" + el ).toggleClass( 'activated' );
-    $( "#press_button_" + el ).toggleClass( 'activated' );
-    $( ".press." + el ).toggleClass( 'hidden' );
-  }
-
-  function showAllPublications(self){
-    self.style.display="none";
-    document.querySelector('.press-container.truncated').classList.remove('truncated');
-    document.querySelector('.press-controls').removeAttribute('style');
-  }
-</script>
 
 <div class="press-container {{truncatedClass}}">
 {% for p in site.press reversed %}
@@ -77,7 +80,6 @@ format: {{ p.format }}
 
 <style>
   /* PRESS */
-
   .help-text{
     width: 100%;
     text-align: center;
@@ -93,10 +95,10 @@ format: {{ p.format }}
 
 @media (max-width: 600px){
   .press-controls {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
 
 .press-button-holder>.check {
@@ -188,7 +190,6 @@ format: {{ p.format }}
   margin: auto;
 }
 
-
 .press-container {
   display: flex;
   flex-direction: row;
@@ -257,6 +258,5 @@ format: {{ p.format }}
 .press .ES::before {
   content: "Language: Español";
 }
-
 /* END PRESS */
 </style>

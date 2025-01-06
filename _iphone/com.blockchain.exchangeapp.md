@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.blockchain.exchangeapp.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-02-08
+date: 2024-12-23
 signer: 
 reviewArchive: 
 twitter: blockchain

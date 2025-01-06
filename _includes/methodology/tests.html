@@ -32,29 +32,31 @@
       {% endif %}
     {% endfor %}
 
-    {% if verdicts.size != 0 %}
-      {% assign verdicts = verdicts | uniq %}
-      <div class="methodology-item {{item}}" data-id="{{key}}">
-
+    <div class="methodology-item {{item}}" data-id="{{key}}">
       <div class="info">
         {{site.data.platformMeta[key].description | markdownify}}
       </div>
-      <h2>We answer the following questions usually in this order:</h2>
 
-      {% for ver in verdicts %}
-        {% include /methodology/section_title.html verdict=ver type="verdict" %}
-        {% include verdictMethodology.html verdict=ver category=key %}
-      {% endfor %}
+      {% if verdicts.size != 0 %}
+        {% assign verdicts = verdicts | uniq %}
+        <h2>We answer the following questions usually in this order:</h2>
+
+        {% for ver in verdicts %}
+          {% include /methodology/section_title.html verdict=ver type="verdict" %}
+          {% include verdictMethodology.html verdict=ver category=key %}
+        {% endfor %}
+      {% endif %}
+
       {% if metas.size != 0 %}
         {% assign metas = metas | uniq %}
         <h2>Independent of the detailed analysis, we might assign a meta-verdict:</h2>
+
         {% include /methodology/section_title.html type="meta" %}
         {% for meta in metas %}
           {% include verdictMethodology.html verdict=meta category=key %}
         {% endfor %}
       {% endif %}
-      </div>
-    {% endif %}
+    </div>
   {% endfor %}
 
   <div class="methodology-item allPlatforms" data-id="allPlatforms">

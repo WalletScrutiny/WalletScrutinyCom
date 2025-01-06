@@ -11,7 +11,7 @@ released: 2019-12-03
 updated: 2024-12-11
 version: 2.8.16
 stars: 4.8
-reviews: 973
+reviews: 972
 size: '42192896'
 website: http://coins.coinpaprika.com
 repository: 

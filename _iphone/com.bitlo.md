@@ -8,11 +8,11 @@ appId: com.bitlo
 appCountry: tr
 idd: '1544492069'
 released: 2020-12-28
-updated: 2024-11-19
-version: 2.1.23
+updated: 2024-12-19
+version: 2.1.24
 stars: 4.6
-reviews: 3083
-size: '86049792'
+reviews: 3197
+size: '89038848'
 website: https://www.bitlo.com/
 repository: 
 issue: 
@@ -27,7 +27,7 @@ twitter: bitlocom
 social:
 - https://www.linkedin.com/company/bitlo/
 features: 
-developerName: Bitlo Teknoloji Anonim Şirketi
+developerName: Bitlo Kripto Varlik Alim Satim Platformu Anonim Sirketi
 
 ---
 

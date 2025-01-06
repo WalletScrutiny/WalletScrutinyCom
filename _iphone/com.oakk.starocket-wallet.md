@@ -8,11 +8,11 @@ appId: com.oakk.starocket-wallet
 appCountry: us
 idd: '1612013344'
 released: 2022-06-02
-updated: 2024-12-13
-version: 3.0.3
+updated: 2024-12-23
+version: 3.0.4
 stars: 5
 reviews: 7
-size: '92197888'
+size: '91860992'
 website: https://trubit.com/
 repository: 
 issue: 

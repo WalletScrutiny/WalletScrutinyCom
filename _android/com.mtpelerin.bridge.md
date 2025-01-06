@@ -11,9 +11,9 @@ appCountry: us
 released: 2020-04-07
 updated: 2024-11-06
 version: '1.46'
-stars: 4.1
+stars: 4
 ratings: 178
-reviews: 27
+reviews: 28
 size: 
 website: https://www.mtpelerin.com/bridge-wallet
 repository: 

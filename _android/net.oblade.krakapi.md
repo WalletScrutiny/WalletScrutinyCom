@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: net.oblade.krakapi.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2024-01-16
+date: 2024-12-31
 signer: 
 reviewArchive: 
 twitter: 

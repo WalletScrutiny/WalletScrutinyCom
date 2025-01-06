@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.Fairdesk.fairdesk.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-03-09
+date: 2024-12-23
 signer: 
 reviewArchive: 
 twitter: FairdeskGlobal

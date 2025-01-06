@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.reactjs.native.example.AccruApp.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2024-01-16
+date: 2024-12-31
 signer: 
 reviewArchive: 
 twitter: AQRU_Official

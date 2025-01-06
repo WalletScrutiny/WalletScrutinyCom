@@ -4,7 +4,7 @@ title: TUX Wallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: io.tux.wallet
 appCountry: 
 released: 2020-01-28

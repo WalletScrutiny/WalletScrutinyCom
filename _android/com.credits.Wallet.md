@@ -32,7 +32,7 @@ social:
 - https://www.linkedin.com/company/creditscom
 - https://www.facebook.com/creditscom
 redirect_from: 
-developerName: CS Solutions Technology Ltd
+developerName: SOFTWARE C SP Z.O.O
 features: 
 
 ---
