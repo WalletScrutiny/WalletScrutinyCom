@@ -7,7 +7,7 @@ authors:
 released: 2024-04-02
 discontinued: 
 updated: 2024-12-13
-version: 1.8.0
+version: 1.8.2
 binaries: https://keyst.one/firmware
 dimensions:
 - 62
@@ -26,9 +26,14 @@ icon: keystone3.pro.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-12-23
+date: 2024-12-31
 signer: 6853ffd1706faed1468e677621b2ef1ccf053dff4f9b22e7ba5b12a978e1eb37
 reviewArchive:
+- date: 2024-12-23
+  version: 1.8.0
+  appHash: a6a252c3b82435ba989a30429edfb86453e992b5566bca7ee36e6c0480ea753d
+  gitRevision: d556b513f2c26dc38f5a8b4ff573bea8b1619edc
+  verdict: reproducible
 - date: 2024-12-17
   version: 1.7.16
   appHash: c24cc4b1cf388672416b6e820382bc5048759f62357aff30546cbd5ec52d116d
@@ -103,32 +108,34 @@ Other Features:
 - Fingerprint verification
 - Dice entropy
 
-# Updated Verification for 1.8.0 2024-12-23
+# Updated Verification for 1.8.2 2024-12-31
 
 Run the script:
 
-`$ ./scripts/test/hardware/keystone3pro.sh 1.8.0`
+`$ ./scripts/test/hardware/keystone3pro.sh 1.8.2`
 
 ```
-Firmware checksum sha256: a6a252c3b82435ba989a30429edfb86453e992b5566bca7ee36e6c0480ea753d 
+Firmware checksum sha256: 5609915455a3f867fca8bdb026b596a70be0cb1f5678a5aeab5ab8218075fd22 
 You can check this value on your device.
 ------------------------
 (SIGNED) Binary from Keystone Website:
-1b190ae5b3965065b36aa38ed52a2f9ba1f603bc16643e9fb12647f8dcacd9a6  keystone3.bin
+4697250d2e7f9fff681aca98fb9fa62dcc00dd3fa786457e19ec1e01721c5aa1  keystone3.bin
 ------------------------
 ------------------------
 Binary from build process:
-a6a252c3b82435ba989a30429edfb86453e992b5566bca7ee36e6c0480ea753d  ./build/mh1903.bin
+5609915455a3f867fca8bdb026b596a70be0cb1f5678a5aeab5ab8218075fd22  ./build/mh1903.bin
 ------------------------
 ------------------------
 Unsigned Binary from Keystone Website:
-Firmware checksum sha256: a6a252c3b82435ba989a30429edfb86453e992b5566bca7ee36e6c0480ea753d 
+Firmware checksum sha256: 5609915455a3f867fca8bdb026b596a70be0cb1f5678a5aeab5ab8218075fd22 
 You can check this value on your device.
 ------------------------
 Unsigned .bin hash must be the same as mh1903.bin.
 ```
 
-Version 1.8.0 of the {{ page.title}} hardware device is **reproducible**
+Version 1.8.2 of the {{ page.title}} hardware device is **reproducible**
+
+{% include asciicast %}
 
 <hr>
 
