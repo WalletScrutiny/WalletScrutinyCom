@@ -19,8 +19,8 @@ providerWebsite: https://tangem.com
 website: https://tangem.com
 shop: https://tangem.com/en/pricing/
 country: CH
-price: 54.90
-repository:
+price: 54.9
+repository: 
 issue: 
 icon: tangem.png
 bugbounty: 

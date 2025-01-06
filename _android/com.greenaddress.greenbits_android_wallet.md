@@ -9,7 +9,7 @@ users: 100000
 appId: com.greenaddress.greenbits_android_wallet
 appCountry: 
 released: 2015-01-01
-updated: 2024-12-20
+updated: 2025-01-06
 version: 4.1.1
 stars: 4.4
 ratings: 946

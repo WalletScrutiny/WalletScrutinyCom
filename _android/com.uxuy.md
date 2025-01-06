@@ -12,7 +12,7 @@ updated: 2025-01-04
 version: 1.3.08
 stars: 4
 ratings: 
-reviews: 21
+reviews: 22
 size: 
 website: https://uxuy.com
 repository: 

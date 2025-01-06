@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.plutus.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2020-10-12
+date: 2025-01-06
 signer: 
 reviewArchive: 
 twitter: AbraGlobal

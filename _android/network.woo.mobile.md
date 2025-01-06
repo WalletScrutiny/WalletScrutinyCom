@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/WOOnetwork.official
 - https://www.linkedin.com/company/woonetwork/
 redirect_from: 
-developerName: Wootech Limited
+developerName: WOOTECH Limited
 features: 
 
 ---

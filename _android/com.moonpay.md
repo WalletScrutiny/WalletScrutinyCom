@@ -12,7 +12,7 @@ updated: 2024-12-18
 version: 1.14.84
 stars: 3.9
 ratings: 
-reviews: 392
+reviews: 394
 size: 
 website: https://www.moonpay.com/
 repository: 

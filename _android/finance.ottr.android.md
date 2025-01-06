@@ -12,7 +12,7 @@ updated: 2023-12-18
 version: '1.58'
 stars: 3.2
 ratings: 
-reviews: 6
+reviews: 7
 size: 
 website: https://ottr.finance
 repository: 
