@@ -22,9 +22,14 @@ icon: com.greenaddress.greenbits_android_wallet.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-12-02
+date: 2025-01-06
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 reviewArchive:
+- date: 2024-12-02
+  version: 4.1.0
+  appHash: 8be987721bac112365d720aee87481b80e49b78093b599919a1120ca378530f6
+  gitRevision: d7dc11abaa3b2e7aae9321e66de7eea53a03f064
+  verdict: reproducible
 - date: 2024-11-13
   version: 4.0.37
   appHash: 9c7ec3f9be769bc64db028a07be3608b2056a11f5d77302695e88adc0188f574
@@ -280,22 +285,22 @@ For that latest version, our {% include testScript.html %} returned this:
 ===== Begin Results =====
 appId:          com.greenaddress.greenbits_android_wallet
 signer:         32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
-apkVersionName: 4.1.0
-apkVersionCode: 22000439
+apkVersionName: 4.1.1
+apkVersionCode: 22000440
 verdict:        reproducible
-appHash:        8be987721bac112365d720aee87481b80e49b78093b599919a1120ca378530f6
-commit:         d04f487166c76996da941ea6ec7e9b5644607022
+appHash:        96ef6bc26f0de1d56389a2a17a082b7fcf37952b24e02615cdec63bc8388b4a8
+commit:         38bf6a654a0c21769eb65c0154fb5a41f52093ab
 
 Diff:
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000439/META-INF: GREENADD.RSA
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000439/META-INF: GREENADD.SF
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000439/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000440/META-INF: GREENADD.RSA
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000440/META-INF: GREENADD.SF
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000440/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
-object d04f487166c76996da941ea6ec7e9b5644607022
+object 38bf6a654a0c21769eb65c0154fb5a41f52093ab
 type commit
-tag release_4.1.0
-tagger Angelos Veglektsis <angelos@blockstream.com> 1732743452 +0200
+tag release_4.1.1
+tagger Angelos Veglektsis <angelos@blockstream.com> 1734713477 +0200
 ===== End Results =====
 
 Run a full
@@ -307,7 +312,7 @@ for more details.
 + '[' false = true ']'
 ```
 
-Version 4.1.0 of {{ page.title }} is **reproducible**. 
+Version 4.1.1 of {{ page.title }} is **reproducible**. 
 
 
 {% include asciicast %}
