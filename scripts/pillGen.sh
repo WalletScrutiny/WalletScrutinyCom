@@ -15,6 +15,14 @@ fi
 process_file() {
     local yaml_file="$1"
     local platform="$2"
+    
+    # First check if meta is ok
+    meta=$(grep -m 1 "meta:" "$yaml_file" | cut -d':' -f2 | tr -d ' \r\n')
+    if [ "$meta" != "ok" ]; then
+        # echo -n "s" 
+        return
+    fi
+    
     verdict=$(grep -m 1 "verdict:" "$yaml_file" | cut -d':' -f2 | tr -d ' \r\n')
     base_name=$(basename "$yaml_file")
     base_name="${base_name%.*}"
