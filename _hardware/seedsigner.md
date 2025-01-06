@@ -50,6 +50,7 @@ features:
 
 **Update 2024-12-18**:
 
+```
 ===== Begin Results =====
 appId:          seedsigner
 board:          Raspberry Pi Zero 1.3
@@ -85,6 +86,7 @@ builtHash:      917201e335bfc7ee4189f17827f954f89588dc0fdefdad80d26f2a65c5c8e6d0
 releaseHash:    917201e335bfc7ee4189f17827f954f89588dc0fdefdad80d26f2a65c5c8e6d0
 verdict:        reproducible
 ===== End Results =====
+```
 
 **Update 2024-09-14**: 
 
