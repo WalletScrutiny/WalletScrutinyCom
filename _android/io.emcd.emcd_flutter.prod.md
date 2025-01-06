@@ -12,7 +12,7 @@ updated: 2024-11-25
 version: 2.8.1
 stars: 4.4
 ratings: 
-reviews: 24
+reviews: 25
 size: 
 website: https://emcd.io/ru
 repository: 

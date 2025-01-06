@@ -10,8 +10,8 @@ idd: '1620691992'
 released: 2022-07-15
 updated: 2024-12-24
 version: 0.4.2
-stars: 5
-reviews: 7
+stars: 4.5
+reviews: 8
 size: '49131520'
 website: https://www.mintlayer.org/
 repository: 

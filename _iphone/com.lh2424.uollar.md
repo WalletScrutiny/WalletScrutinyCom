@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.lh2424.uollar.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2024-10-08
+date: 2025-01-06
 signer: 
 reviewArchive: 
 twitter: uollar_io

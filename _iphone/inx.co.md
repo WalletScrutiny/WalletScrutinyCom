@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: inx.co.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-06-30
+date: 2025-01-06
 signer: 
 reviewArchive: 
 twitter: INX_Group

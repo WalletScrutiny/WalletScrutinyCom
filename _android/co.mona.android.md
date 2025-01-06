@@ -13,12 +13,12 @@ updated: 2024-12-28
 version: 3.201.30
 stars: 4.5
 ratings: 281384
-reviews: 52302
+reviews: 52380
 size: 
 website: https://crypto.com/
 repository: 
 issue: 
-icon: co.mona.android.png
+icon: co.mona.android.jpg
 bugbounty: 
 meta: ok
 verdict: custodial

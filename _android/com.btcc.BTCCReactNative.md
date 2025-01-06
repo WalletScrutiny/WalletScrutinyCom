@@ -4,13 +4,13 @@ title: 'BTCC Lite: Trade Crypto & BTC'
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.btcc.BTCCReactNative
 appCountry: 
 released: 2022-11-17
 updated: 2024-09-27
 version: 3.1.0
-stars: 4.5
+stars: 4.4
 ratings: 
 reviews: 76
 size: 

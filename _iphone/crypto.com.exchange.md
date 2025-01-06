@@ -12,7 +12,7 @@ released: 2021-06-15
 updated: 2024-12-30
 version: 2.52.0
 stars: 4.8
-reviews: 96
+reviews: 97
 size: '178098176'
 website: https://crypto.com/exchange
 repository: 

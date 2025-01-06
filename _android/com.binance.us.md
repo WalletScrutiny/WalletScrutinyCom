@@ -10,9 +10,9 @@ appCountry:
 released: 2019-12-23
 updated: 2024-11-28
 version: 3.19.0
-stars: 3.3
+stars: 3.2
 ratings: 7187
-reviews: 6438
+reviews: 6448
 size: 
 website: https://www.binance.us
 repository: 

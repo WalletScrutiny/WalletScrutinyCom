@@ -11,7 +11,7 @@ released: 2023-04-22
 updated: 2024-12-23
 version: 1.14.2
 stars: 4.8
-reviews: 40
+reviews: 42
 size: '256070656'
 website: http://www.echooo.xyz
 repository: 

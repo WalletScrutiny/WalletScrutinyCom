@@ -12,7 +12,7 @@ updated: 2024-11-28
 version: 3.2.0
 stars: 4.8
 ratings: 
-reviews: 463
+reviews: 465
 size: 
 website: https://xumm.app/
 repository: 

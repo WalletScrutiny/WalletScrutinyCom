@@ -12,7 +12,7 @@ updated: 2024-12-05
 version: 2.1.15
 stars: 4.4
 ratings: 
-reviews: 60
+reviews: 59
 size: 
 website: https://webauth.com/
 repository: 

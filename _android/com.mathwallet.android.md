@@ -12,7 +12,7 @@ updated: 2024-12-17
 version: 5.6.2
 stars: 3.6
 ratings: 
-reviews: 59
+reviews: 60
 size: 
 website: https://www.mathwallet.org/
 repository: 

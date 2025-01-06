@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2025-01-03
 discontinued: 
-updated:
-version:
+updated: 
+version: 
 binaries: 
 dimensions:
 - 65
@@ -24,10 +24,10 @@ issue:
 icon: blockstreamjadeplus.png
 bugbounty: 
 meta: ok
-verdict: wip 
+verdict: wip
 date: 2025-01-04
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: Blockstream
 social:
 - https://www.linkedin.com/company/blockstream
@@ -35,6 +35,7 @@ social:
 - https://t.me/blockstream
 - https://www.youtube.com/channel/UCZNt3fZazX9cwWcC9vjDJ4Q
 features: 
+
 ---
 
 ## Can the private keys be created offline? - ✔️
