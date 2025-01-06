@@ -3,31 +3,12 @@
 # Get absolute path to the assets directory
 SITE_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 ASSETS_DIR="$SITE_ROOT/assets/images/pills"
-mkdir -p "$ASSETS_DIR"
 
-# Generate template images if they don't exist
-if [ ! -f "$ASSETS_DIR/good.png" ]; then
-    echo "Generating template images..."
-    # Create mask
-    convert -size 120x20 xc:black \
-            -fill white -draw "roundrectangle 0,0 119,19 4,4" \
-            "$ASSETS_DIR/mask.png"
-
-    # Create good pill
-    convert -size 90x20 xc:black -size 30x20 xc:darkgreen +append \
-            -font "$SITE_ROOT/assets/fonts/Barlow/barlow-v12-latin-500.ttf" \
-            -fill white -pointsize 12 \
-            -draw "text 5,14 'reproducible:'" -draw "text 95,14 'yes'" \
-            "$ASSETS_DIR/mask.png" -compose CopyOpacity -composite \
-            "$ASSETS_DIR/good.png"
-
-    # Create bad pill
-    convert -size 90x20 xc:black -size 30x20 xc:red +append \
-            -font "$SITE_ROOT/assets/fonts/Barlow/barlow-v12-latin-500.ttf" \
-            -fill white -pointsize 12 \
-            -draw "text 5,14 'reproducible:'" -draw "text 95,14 'no'" \
-            "$ASSETS_DIR/mask.png" -compose CopyOpacity -composite \
-            "$ASSETS_DIR/bad.png"
+# Check if template images exist
+if [ ! -f "$ASSETS_DIR/good.png" ] || [ ! -f "$ASSETS_DIR/bad.png" ]; then
+    echo "Error: Template images (good.png, bad.png) not found in $ASSETS_DIR"
+    echo "Please ensure these images exist before running this script."
+    exit 1
 fi
 
 # Process files function
@@ -44,11 +25,11 @@ process_file() {
     case "$verdict" in
         "reproducible")
             echo -n "+"
-            ln -sf "$ASSETS_DIR/good.png" "$output_file"
+            (cd "$platform_dir" && ln -sf "../good.png" "$base_name.png")
             ;;
         "nonverifiable"|"ftbfs"|"obfuscated")
             echo -n "-"
-            ln -sf "$ASSETS_DIR/bad.png" "$output_file"
+            (cd "$platform_dir" && ln -sf "../bad.png" "$base_name.png")
             ;;
     esac
 }
