@@ -68,7 +68,7 @@ layout: default
           <div class="label active" data-for="social-share" data-text="Share" data-suffix="on social media"></div>
           <div class="label" data-for="embed-widget" data-text="Embed" data-suffix="a widget on your website"></div>
           <div class="label" data-for="embed-image" data-text="Embed" data-suffix="an image on your website"></div>
-          {% include_cached embed_pill_title.html verdict=page.verdict %}
+          {% include_cached embed_pill_title.html verdict=page.verdict meta=page.meta %}
         </div>
         <div class="payloads">
           <div class="social-share active">{% include social-share.html %}</div>

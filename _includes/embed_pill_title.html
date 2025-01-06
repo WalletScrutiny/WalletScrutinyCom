@@ -1,7 +1,7 @@
 {% assign show_pill = false %}
 {% assign pill_verdicts = "reproducible,nonverifiable,ftbfs,obfuscated" | split: "," %}
 
-{% if pill_verdicts contains page.verdict %}
+{% if pill_verdicts contains page.verdict and page.meta == "ok" %}
   {% assign show_pill = true %}
 {% endif %}
 
