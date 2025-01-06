@@ -16,17 +16,17 @@ dimensions:
 weight: 3
 provider: Tangem
 providerWebsite: https://tangem.com
-website: https://shop.tangem.com/collections/crypto-hardware-wallet
-shop: https://shop.tangem.com/products/tangem-card-pack
+website: https://tangem.com
+shop: https://tangem.com/en/pricing/
 country: CH
-price: 39.99USD
-repository: https://github.com/tangem
+price: 54.90
+repository:
 issue: 
 icon: tangem.png
 bugbounty: 
 meta: ok
 verdict: noita
-date: 2022-03-23
+date: 2024-01-06
 signer: 
 reviewArchive: 
 twitter: tangem
@@ -35,6 +35,12 @@ social:
 features: 
 
 ---
+
+## Update 2025-01-06
+
+Updated links. Product can be bought in sets of 2 or 3. Pricing update is for a set of 2.
+
+## Previous Review 2022-03-23
 
 Tangem Wallet and {% include walletLink.html wallet='hardware/tangemnote' verdict='true' %} are from the same providers.
 
