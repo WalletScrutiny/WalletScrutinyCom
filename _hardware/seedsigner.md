@@ -24,8 +24,8 @@ icon: seedsigner.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-date: 2024-10-01
-signer: 
+date: 2024-12-18
+signer:
 reviewArchive:
 - date: 2023-09-14
   version: 0.7.0
@@ -45,6 +45,46 @@ social:
 features: 
 
 ---
+
+**Update 2024-12-18**:
+
+```
+===== Begin Results =====
+appId:          seedsigner
+board:          Raspberry Pi Zero 1.3
+version:        0.8.0
+builtHash:      1d0f1c412f64b40e6aba21b5bacdb41d9323653c170ce06d0a3f1dd71fddb28e
+releaseHash:    1d0f1c412f64b40e6aba21b5bacdb41d9323653c170ce06d0a3f1dd71fddb28e
+verdict:        reproducible
+===== End Results =====
+
+===== Begin Results =====
+appId:          seedsigner
+board:          Raspberry Pi 2 Model B
+version:        0.8.0
+builtHash:      11c5553d75b3ebca4988ae3c4573b60b33a12bc4779282454ae34404ba797670
+releaseHash:    11c5553d75b3ebca4988ae3c4573b60b33a12bc4779282454ae34404ba797670
+verdict:        reproducible
+===== End Results =====
+
+===== Begin Results =====
+appId:          seedsigner
+board:          Raspberry Pi Zero 2 W
+version:        0.8.0
+builtHash:      c8d5352ed4a86c19eb9ef54f2920934f8ce460742b464ea94dc9114f9f4e039a
+releaseHash:    c8d5352ed4a86c19eb9ef54f2920934f8ce460742b464ea94dc9114f9f4e039a
+verdict:        reproducible
+===== End Results =====
+
+===== Begin Results =====
+appId:          seedsigner
+board:          Raspberry Pi 4 Model B
+version:        0.8.0
+builtHash:      917201e335bfc7ee4189f17827f954f89588dc0fdefdad80d26f2a65c5c8e6d0
+releaseHash:    917201e335bfc7ee4189f17827f954f89588dc0fdefdad80d26f2a65c5c8e6d0
+verdict:        reproducible
+===== End Results =====
+```
 
 **Update 2024-09-14**: 
 
