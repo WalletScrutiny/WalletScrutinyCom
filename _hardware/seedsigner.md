@@ -26,11 +26,6 @@ meta: ok
 verdict: reproducible
 date: 2024-12-18
 signer:
-reviewCurrent:
-- date: 2024-12-18
-  version: 0.8.0
-  appHash: 1d0f1c412f64b40e6aba21b5bacdb41d9323653c170ce06d0a3f1dd71fddb28e
-  verdict: reproducible 
 reviewArchive:
 - date: 2023-09-14
   version: 0.7.0
