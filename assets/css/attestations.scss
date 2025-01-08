@@ -42,10 +42,9 @@
   border-radius: 3px;
 }
 .markdown-content pre {
-  background-color: rgba(0,0,0,0.05);
   padding: 10px;
   border-radius: 5px;
-  overflow-x: auto;
+  overflow-x: unset;
 }
 .markdown-content img {
   max-width: 100%;
@@ -84,30 +83,65 @@ table {
 }
 
 /* Attestation Modal */
-.attestation-modal {
+#attestationModal {
   display: none;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 20px;
-  padding-top: 5px;
   border: 1px solid var(--border-color);
   z-index: 1000;
   border-radius: 12px;
-  overflow: hidden;
+  width: auto;
+  max-width: 75vw;
+  height: 60vh;
+  background: var(--background-color);
 }
 
-.attestation-modal__close {
+#attestationContent {
+  padding: 20px;
+  padding-top: 5px;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: auto;
+  max-width: 100%;
+
+  /* Styles for scrollbar */
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    
+    &:hover {
+      background: rgba(0, 0, 0, 0.3);
+    }
+  }
+  /* Styles for scrollbar - Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.8) rgba(0, 0, 0, 0.1);
+}
+
+#closeModal {
   cursor: pointer;
-  position: absolute;
+  position: fixed;
   top: 0;
-  right: 20px;
+  right: 0;
+  padding: 0 17px;
   font-size: 44px;
-}
-
-.attestation-modal-content {
+  line-height: 1;
+  z-index: 2;
+  background: var(--background-color);
   border-radius: 12px;
+  clear: both;
+  z-index: 1000;
 }
 
 /* Form */

@@ -148,6 +148,8 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
 };
 
 window.showAttestationModal = async function(sha256Hash, attestationId) {
+  document.body.classList.add("modal-open");
+  
   const attestations = response.attestations.get(sha256Hash);
   const attestation  = attestations.find(a => a.id === attestationId);
   const otherAttestationsBySamePubkey = attestations.filter(a => (a.pubkey === attestation.pubkey && a.id !== attestationId));
@@ -156,6 +158,12 @@ window.showAttestationModal = async function(sha256Hash, attestationId) {
 
   const modal = document.getElementById('attestationModal');
   const content = document.getElementById('attestationContent');
+  
+  // Reset scroll positions before showing the modal again
+  setTimeout(() => {
+    content.scrollTop = 0;
+    content.scrollLeft = 0;
+  }, 0);
 
   modal.style.background = window.theme === 'dark' ? '#2d2d2d' : '#e1e1e1';
   modal.style.color = window.theme === 'dark' ? 'white' : 'black';
@@ -221,6 +229,7 @@ window.showAttestationModal = async function(sha256Hash, attestationId) {
     modal.style.display = 'none';
     window.removeEventListener('click', handleClick);
     window.removeEventListener('keydown', handleKeyDown);
+    document.body.classList.remove("modal-open");
   };
 
   const handleClick = function(event) {
@@ -228,6 +237,7 @@ window.showAttestationModal = async function(sha256Hash, attestationId) {
       modal.style.display = 'none';
       window.removeEventListener('click', handleClick);
       window.removeEventListener('keydown', handleKeyDown);
+      document.body.classList.remove("modal-open");
     }
   };
 
@@ -236,6 +246,7 @@ window.showAttestationModal = async function(sha256Hash, attestationId) {
       modal.style.display = 'none';
       window.removeEventListener('click', handleClick);
       window.removeEventListener('keydown', handleKeyDown);
+      document.body.classList.remove("modal-open");
     }
   };
 

@@ -36,8 +36,8 @@ permalink: /new_attestation/
   </div>
 </div>
 
-<div id="attestationModal" class="attestation-modal modal-theme">
-  <span id="closeModal" class="attestation-modal__close">&times;</span>
+<div id="attestationModal" class="modal-theme">
+  <span id="closeModal">&times;</span>
   <div id="attestationContent"></div>
 </div>
 
