@@ -11,11 +11,6 @@ permalink: /assets/
   {% include shareButton.html defaultMessage="Look at the list of latest assets reported on WalletScrutiny and help us improve the transparency of the Bitcoin ecosystem!" %}
 </div>
 
-<div style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
-  <a href="/new_asset/" class="btn btn-success">Register New Asset</a>
-  {% include shareButton.html defaultMessage="Look at the list of Latest Assets reported on WalletScrutiny and help us improve the transparency of the Bitcoin ecosystem!" %}
-</div>
-
 <div id="binariesTable"></div>
 
 <div id="verificationModal">
