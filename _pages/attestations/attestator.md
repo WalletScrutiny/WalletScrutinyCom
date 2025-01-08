@@ -7,9 +7,6 @@ permalink: /attestator/
 <link rel="stylesheet" href="{{ base_path }}/assets/css/attestations.css">
 
 <style>
-  .archive {
-    width: 100%;
-  }
   .npubFallback {
     font-weight: bold;
     padding: 20px;
