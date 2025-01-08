@@ -29,7 +29,7 @@ permalink: /attestator/
 
 <div id="binariesTable"></div>
 
-<div id="attestationModal" class="modal-theme">
+<div id="attestationModal">
   <span id="closeModal">&times;</span>
   <div id="attestationContent"></div>
 </div>
