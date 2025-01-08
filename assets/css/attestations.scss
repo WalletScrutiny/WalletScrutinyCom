@@ -54,12 +54,6 @@
   max-width: 100%;
 }
 
-/* Other */
-#attestationContent p {
-  margin-top: 0.4em;
-  margin-bottom: 0em;
-}
-
 /* Tables */
 thead {
   background-color: #f5f5f5;
@@ -131,6 +125,10 @@ table {
   /* Styles for scrollbar - Firefox */
   scrollbar-width: thin;
   scrollbar-color: rgba(0, 0, 0, 0.8) rgba(0, 0, 0, 0.1);
+}
+#attestationContent p {
+  margin-top: 0.4em;
+  margin-bottom: 0em;
 }
 
 #closeModal {
