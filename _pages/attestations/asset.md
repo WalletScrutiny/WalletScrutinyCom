@@ -22,7 +22,7 @@ permalink: /asset/
   </div>
 </div>
 
-<div id="attestationModal" class="modal-theme">
+<div id="attestationModal">
   <span id="closeModal">&times;</span>
   <div id="attestationContent"></div>
 </div>
