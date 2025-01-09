@@ -22,10 +22,10 @@ icon: app.michaelwuensch.bitbanana.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2024-01-02
+date: 2025-01-02
 signer: 
 reviewArchive:
-- date: 2025-01-02
+- date: 2024-01-02
   version: 0.8.8
   appHash: 23f5f22e06e56604b75bfea649f3e0b0d0c2a1ebc8c487dc84224acd48a8993a
   gitRevision: 16370f5e0f023ab1aee882013b60db42bddd55eb
