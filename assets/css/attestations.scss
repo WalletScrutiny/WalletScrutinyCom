@@ -63,9 +63,28 @@ body.dark thead {
 }
 
 table {
+
+  @media screen and (max-width: 480px) {
+    font-size: 0.7em;
+  }
+  @media screen and (min-width: 481px) {
+    font-size: 0.7em;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 0.85em;
+  }
+  @media screen and (min-width: 1800px) {
+    font-size: 0.9em;
+  }
+  @media screen and (min-width: 2300px) {
+    font-size: 1em;
+  }
+
   th, td {
     text-align: center;
-    padding: 10px;
+    @media screen and (min-width: 1200px) {
+      padding: 10px;
+    }
   }
 
   td.asset-description {
