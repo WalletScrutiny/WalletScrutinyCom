@@ -48,7 +48,41 @@ features:
 
 ## Updated on 2025-01-07
 
-We endeavored to adapt the comparison process to comparing via the [testAAB.sh script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/testAAB.sh). This script has been tested on the latest version of BitBanana (0.8.9) and the test results are as follows:
+We endeavored to adapt the comparison process to comparing via the [testAAB.sh script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/testAAB.sh). 
+
+### Process
+
+**Step 1.** Download the apks from the phone
+
+To make use of the testAAB.sh script, we need to download the latest version of the BitBanana app from the Play Store and extract the APKs that are included in the app by using the [apkextractor_sync.sh](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/apkextractor_sync.sh). 
+
+`$ apkextractor_sync.sh app.michaelwuensch.bitbanana`
+
+There is usually 3 or 4 apks produced using this process placed in a folder.
+
+**Step 2.** Download the device-spec.json file from your device
+
+Use the device-spec_extractor.sh script to download the device-spec.json file from your device.
+
+`$ ./device-spec_extractor.sh`
+
+**Step 3.** Source the device-spec.json file
+
+Modify this line in the scripts/test/android/app.michaelwuensch.bitbanana.sh
+
+`deviceSpec="/var/shared/device-spec/a11/device-spec.json"`
+
+Change the directory to the location of **your** device-spec.json file.
+
+**Step 4.** Run testAAB.sh
+
+When using testAAB.sh locally, take note of the folder location of the app.
+
+Invoke:
+
+`$ testAAB.sh -d /path/to/apk-directory`
+
+This script has been tested on the latest version of BitBanana (0.8.9) and the test results are as follows:
 
 ```
 armeabi_v7a.apk
