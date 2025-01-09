@@ -9,9 +9,9 @@ updated: 2025-01-06
 version: 4.11.0
 binaries: 
 dimensions:
-- 90.1
-- 54.4
-- 7.6 
+- 90
+- 54
+- 7.6
 weight: 65
 provider: Bixin
 providerWebsite: https://onekey.so/
@@ -27,12 +27,13 @@ meta: ok
 verdict: wip
 date: 2025-01-07
 signer: 
-reviewArchive:
+reviewArchive: 
 twitter: OneKeyHQ
 social:
 - https://www.reddit.com/r/OneKeyHQ
 - https://www.youtube.com/@onekeyhq
 features: 
+
 ---
 
 ## [Product Documentation](https://help.onekey.so/hc/en-us/articles/9384870496143-Authenticate-OneKey-Pro)

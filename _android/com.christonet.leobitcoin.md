@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.christonet.leobitcoin.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2024-07-14
+date: 2025-01-09
 signer: 
 reviewArchive: 
 twitter: 

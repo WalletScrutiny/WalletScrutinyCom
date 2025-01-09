@@ -8,11 +8,11 @@ appId: com.letsbit.app
 appCountry: ar
 idd: '1644159531'
 released: 2022-12-07
-updated: 2024-12-31
-version: 1.44.0
+updated: 2025-01-07
+version: 1.45.0
 stars: 4.4
-reviews: 349
-size: '73677824'
+reviews: 350
+size: '74508288'
 website: https://www.lbfinanzas.com
 repository: 
 issue: 

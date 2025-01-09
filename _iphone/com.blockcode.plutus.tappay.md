@@ -10,8 +10,8 @@ idd: '1410685948'
 released: 2018-08-22
 updated: 2025-01-05
 version: 4.9.2
-stars: 0
-reviews: 0
+stars: 1.8
+reviews: 5
 size: '89939968'
 website: https://plutus.it
 repository: 

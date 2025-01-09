@@ -30,7 +30,7 @@ social:
 redirect_from:
 - /com.lumiwallet.android/
 - /posts/com.lumiwallet.android/
-developerName: NO ONE FZCO
+developerName: Raias Llc
 features: 
 
 ---

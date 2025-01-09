@@ -8,8 +8,8 @@ users: 5000
 appId: io.tux.wallet
 appCountry: 
 released: 2020-01-28
-updated: 2024-08-12
-version: 2.1.8
+updated: 2024-12-31
+version: 3.0.0
 stars: 
 ratings: 
 reviews: 

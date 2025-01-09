@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.papaya.gekkard.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2024-01-16
+date: 2025-01-09
 signer: 
 reviewArchive: 
 twitter: 

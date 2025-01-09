@@ -1,6 +1,6 @@
 ---
 wsId: iqoption
-title: IQ Option – FX Broker
+title: IQ Option – Trading Broker
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ appId: com.trading.iqoption
 appCountry: gb
 idd: '871125783'
 released: 2014-05-15
-updated: 2024-12-16
-version: '4.70'
+updated: 2025-01-08
+version: '4.71'
 stars: 3.8
 reviews: 1249
 size: '159475712'

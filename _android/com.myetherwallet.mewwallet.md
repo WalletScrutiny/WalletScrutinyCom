@@ -12,7 +12,7 @@ updated: 2024-11-11
 version: 2.8.4
 stars: 4.4
 ratings: 7093
-reviews: 612
+reviews: 613
 size: 
 website: http://mewwallet.com
 repository: 

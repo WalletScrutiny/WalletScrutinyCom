@@ -11,7 +11,7 @@ released: 2021-10-28
 updated: 2024-12-13
 version: 3.0.6
 stars: 4.3
-reviews: 21
+reviews: 22
 size: '40710144'
 website: https://kriptrade.com
 repository: 

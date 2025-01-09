@@ -8,7 +8,7 @@ users: 1000000
 appId: com.bankofhodlers.mobile
 appCountry: 
 released: 2020-04-30
-updated: 2023-11-09
+updated: 2025-01-07
 version: 2.9.0
 stars: 3.4
 ratings: 8047
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bankofhodlers.mobile.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2024-11-04
+date: 2025-01-09
 signer: 
 reviewArchive: 
 twitter: Vauld_

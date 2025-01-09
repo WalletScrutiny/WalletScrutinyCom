@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.hslwallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2022-12-17
+date: 2025-01-09
 signer: 
 reviewArchive: 
 twitter: 

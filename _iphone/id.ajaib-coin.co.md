@@ -11,7 +11,7 @@ released: 2022-08-16
 updated: 2024-12-23
 version: 2.63.1
 stars: 4.2
-reviews: 1974
+reviews: 1978
 size: '203044864'
 website: https://alpha.ajaib.co.id/
 repository: 

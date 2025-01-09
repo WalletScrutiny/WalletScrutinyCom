@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.vidulum.app.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2021-10-01
+date: 2025-01-09
 signer: 
 reviewArchive: 
 twitter: VidulumApp

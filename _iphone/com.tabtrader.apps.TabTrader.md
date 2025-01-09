@@ -13,7 +13,7 @@ released: 2016-09-02
 updated: 2024-12-03
 version: 5.2.4
 stars: 4.7
-reviews: 4267
+reviews: 4269
 size: '67259392'
 website: https://tabtrader.com
 repository: 

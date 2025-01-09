@@ -12,7 +12,7 @@ updated: 2024-12-23
 version: 2.35.1
 stars: 4.7
 ratings: 6106
-reviews: 375
+reviews: 376
 size: 
 website: https://xportal.com/
 repository: 

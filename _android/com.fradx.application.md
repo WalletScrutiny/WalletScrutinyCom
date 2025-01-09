@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.fradx.application.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2024-09-11
+date: 2025-01-09
 signer: 
 reviewArchive: 
 twitter: 

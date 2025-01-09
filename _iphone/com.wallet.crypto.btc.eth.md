@@ -1,6 +1,6 @@
 ---
 wsId: ironwallet
-title: 'IronWallet: Crypto BTC Wallet'
+title: 'IronWallet: Cold Crypto Wallet'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.wallet.crypto.btc.eth
 appCountry: us
 idd: '6451146325'
 released: 2023-10-02
-updated: 2024-12-04
-version: 1.3.7
+updated: 2025-01-07
+version: 1.4.5
 stars: 2.5
 reviews: 2
-size: '123758592'
+size: '124149760'
 website: https://ironwallet.io/
 repository: 
 issue: 

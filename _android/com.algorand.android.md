@@ -7,7 +7,7 @@ users: 500000
 appId: com.algorand.android
 appCountry: 
 released: 2019-06-07
-updated: 2024-12-17
+updated: 2025-01-08
 version: 5.14.0
 stars: 4.6
 ratings: 14091

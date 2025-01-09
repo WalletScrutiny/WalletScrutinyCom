@@ -12,7 +12,7 @@ updated: 2025-01-06
 version: 2024.50.8
 stars: 4.2
 ratings: 445358
-reviews: 257439
+reviews: 257516
 size: 
 website: https://robinhood.com/
 repository: 

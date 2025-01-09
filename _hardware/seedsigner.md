@@ -25,7 +25,7 @@ bugbounty:
 meta: ok
 verdict: reproducible
 date: 2024-12-18
-signer:
+signer: 
 reviewArchive:
 - date: 2023-09-14
   version: 0.7.0

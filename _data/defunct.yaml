@@ -1,15 +1,3 @@
-2024-12-23:
-- _android/com.christonet.leobitcoin
-- _android/com.dexfin.mpcwallet
-- _android/com.fradx.application
-- _android/com.growspace.com
-- _android/com.hslwallet
-- _android/com.nichie.curdex
-- _android/easyexchangepro.com.easy_pro
-- _android/io.meta1.appbeta
-- _android/org.bixter.twa
-- _iphone/com.emet.faswet
-- _iphone/com.vidulum.app
 2024-12-27:
 - _iphone/com.bitplaza
 - _iphone/com.coinmena.coinmenaapp
@@ -42,3 +30,8 @@
 - _iphone/com.mutinywallet.mutiny
 - _iphone/com.tratao.xpocket
 - _android/com.risingcoin.android
+2025-01-09:
+- _android/capital.spatium.wallet
+- _android/com.blockcurators.coinkit
+- _android/com.cryppter.app.release
+- _android/com.gateio.lite

@@ -8,8 +8,8 @@ users: 100000
 appId: com.blockin.google
 appCountry: 
 released: 2020-03-12
-updated: 2024-12-24
-version: 3.6.17
+updated: 2025-01-07
+version: 3.6.19
 stars: 4.1
 ratings: 764
 reviews: 34

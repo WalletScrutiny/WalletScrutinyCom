@@ -10,7 +10,7 @@ appCountry:
 released: 2023-03-17
 updated: 2024-12-24
 version: 1.20.1
-stars: 4.4
+stars: 4.3
 ratings: 
 reviews: 38
 size: 
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: NooneWallet
 social: 
 redirect_from: 
-developerName: NO ONE FZCO
+developerName: Raias Llc
 features: 
 
 ---
