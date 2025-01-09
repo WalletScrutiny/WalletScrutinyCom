@@ -48,64 +48,90 @@
     margin-bottom: 0;
   }
   .shareButtonNetwork {
-    float: left;
-    text-decoration: none !important;
-  }
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #007bff;
-    min-width: 230px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    border-radius: 4px;
-  }
-  .dropdown-content a {
-    color: white;
-    padding: 12px 16px;
-    display: block;
-    width: 100%;
-    box-sizing: border-box;
-  }
-  .dropdown-content a:hover {
-    color: white;
-    background-color: #0056b3;
-    width: 100%;
-    border-radius: 4px;
-  }
-  .show {
-    display: block;
-  }
+      float: left;
+      text-decoration: none !important;
+    }
 </style>
 
-<div class="dropdown">
-  <a href="#" id="shareBtn" class="btn btn-info">
-    <i class="fas fa-share-alt" style="margin-right: 10px;font-size: medium;"></i>
-    Share
-  </a>
-  <div id="shareDropdown" class="dropdown-content">
-    <a href="#" id="shareNostrBtn" class="shareButtonNetwork">
-      <img src="/images/nostr_logo.svg" style="width: 25px; height: 25px; margin-right: 10px; margin-left: -3px;" alt="Nostr Logo">
-      Share on Nostr
+{% if include.showRawButtons == true %}
+
+{% else %}
+  <style>
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #007bff;
+      min-width: 230px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      border-radius: 4px;
+    }
+    .dropdown-content a {
+      color: white;
+      padding: 12px 16px;
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+    }
+    .dropdown-content a:hover {
+      color: white;
+      background-color: #0056b3;
+      width: 100%;
+      border-radius: 4px;
+    }
+    .show {
+      display: block;
+    }
+  </style>  
+{% endif %}
+
+{% assign nostrButton = '<a href="#" id="shareNostrBtn" class="btn btn-info shareButtonNetwork">
+  <img src="/images/nostr_logo.svg" style="width: 25px; height: 25px; margin-right: 10px; margin-left: -3px;" alt="Nostr Logo">
+  Share on Nostr
+</a>' %}
+
+{% assign xButton = '<a href="#" id="shareXBtn" class="btn btn-info shareButtonNetwork">
+  <img src="/images/x_logo.svg" style="width: 21px; height: 21px; margin-right: 10px; margin-top: 3px;" alt="X Logo">
+  Share on X
+</a>' %}
+
+{% assign fbButton = '<a href="#" id="shareFBBtn" class="btn btn-info shareButtonNetwork">
+  <i class="fab fa-facebook" style="margin-right: 10px; font-size: 24px; vertical-align: middle;" aria-hidden="true"></i>
+  Share on Facebook
+</a>' %}
+
+{% assign linkedinButton = '<a href="#" id="shareLinkedinBtn" class="btn btn-info shareButtonNetwork">
+  <i class="fab fa-linkedin" style="margin-right: 10px; font-size: 24px; vertical-align: middle;" aria-hidden="true"></i>
+  Share on LinkedIn
+</a>' %}
+
+{% if include.showRawButtons == true %}
+  {% if site.data.ui-text[site.locale].share_on_label %}
+    <h4 class="page__share-title">{{ site.data.ui-text[site.locale].share_on_label | default: "Share on" }}</h4><br>
+  {% endif %}
+
+  {{ nostrButton }}
+  {{ xButton }}
+  {{ fbButton }}
+  {{ linkedinButton }}
+{% else %}
+  <div class="dropdown">
+    <a href="#" id="shareBtn" class="btn btn-info">
+      <i class="fas fa-share-alt" style="margin-right: 10px;font-size: medium;"></i>
+      Share
     </a>
-    <a href="#" id="shareXBtn" class="shareButtonNetwork">
-      <img src="/images/x_logo.svg" style="width: 21px; height: 21px; margin-right: 10px;" alt="X Logo">
-      Share on X
-    </a>
-    <a href="#" id="shareFBBtn" class="shareButtonNetwork">
-      <i class="fab fa-facebook" style="width: 21px; height: 21px; margin-right: 10px; font-size: 24px;" aria-hidden="true"></i>
-      Share on Facebook
-    </a>
-    <a href="#" id="shareLinkedinBtn" class="shareButtonNetwork">
-      <i class="fab fa-linkedin" style="width: 21px; height: 21px; margin-right: 10px; font-size: 24px;" aria-hidden="true"></i>
-      Share on LinkedIn
-    </a>
+    <div id="shareDropdown" class="dropdown-content">
+      {{ nostrButton}}
+      {{ xButton }}
+      {{ fbButton }}
+      {{ linkedinButton }}
+    </div>
   </div>
-</div>
+{% endif %}
 
 <div id="shareModal">
   <div id="share-modal-content">
@@ -119,19 +145,19 @@
 <script>
   const shareModal = document.getElementById('shareModal');
   const shareModalContent = document.getElementById('share-modal-content');
-  const shareNostrBtn = document.getElementById('shareNostrBtn');
   const closeShareModal = document.getElementById('closeShareModal');
   const shareButton = document.getElementById('shareButton');
   const shareBtn = document.getElementById('shareBtn');
   const shareDropdown = document.getElementById('shareDropdown');
-  const shareXBtn = document.getElementById('shareXBtn');
 
   shareModalContent.style.background = window.theme === 'dark' ? '#2d2d2d' : '#e1e1e1';
   shareModalContent.style.color = window.theme === 'dark' ? 'white' : 'black';
 
-  shareBtn.onclick = function(e) {
-    e.preventDefault();
-    shareDropdown.classList.toggle("show");
+  if (shareBtn) {
+    shareBtn.onclick = function(e) {
+      e.preventDefault();
+      shareDropdown.classList.toggle("show");
+    }
   }
 
   shareNostrBtn.onclick = function(e) {
