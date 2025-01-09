@@ -59,7 +59,7 @@
     display: none;
     position: absolute;
     background-color: #007bff;
-    min-width: 200px;
+    min-width: 230px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     border-radius: 4px;
@@ -95,6 +95,14 @@
     <a href="#" id="shareXBtn" class="shareButtonNetwork">
       <img src="/images/x_logo.svg" style="width: 21px; height: 21px; margin-right: 10px;" alt="X Logo">
       Share on X
+    </a>
+    <a href="#" id="shareFBBtn" class="shareButtonNetwork">
+      <i class="fab fa-facebook" style="width: 21px; height: 21px; margin-right: 10px; font-size: 24px;" aria-hidden="true"></i>
+      Share on Facebook
+    </a>
+    <a href="#" id="shareLinkedinBtn" class="shareButtonNetwork">
+      <i class="fab fa-linkedin" style="width: 21px; height: 21px; margin-right: 10px; font-size: 24px;" aria-hidden="true"></i>
+      Share on LinkedIn
     </a>
   </div>
 </div>
@@ -138,6 +146,21 @@
     e.preventDefault();
     const text = encodeURIComponent(`{{ include.defaultMessage }}\n\n{{ page.url | absolute_url }}`);
     window.open(`https://twitter.com/intent/tweet?text=${text}`, '_blank');
+    shareDropdown.classList.remove("show");
+  }
+
+  shareFBBtn.onclick = function(e) {
+    e.preventDefault();
+    const url = `{{ page.url | absolute_url }}`;
+    window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, '_blank');
+    shareDropdown.classList.remove("show");
+  }
+
+  shareLinkedinBtn.onclick = function(e) {
+    e.preventDefault();
+    const url = `{{ page.url | absolute_url }}`;
+    const text = `{{ include.defaultMessage }}`;
+    window.open(`https://www.linkedin.com/feed/?shareActive=true&shareUrl=${url}&text=${text}`, '_blank');
     shareDropdown.classList.remove("show");
   }
 
