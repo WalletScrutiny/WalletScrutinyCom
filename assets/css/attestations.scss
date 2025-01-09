@@ -90,10 +90,25 @@ table {
   border: 1px solid var(--border-color);
   z-index: 1000;
   border-radius: 12px;
-  width: auto;
-  max-width: 75vw;
   height: 60vh;
   background: var(--background-color);
+  width: auto;
+
+  @media screen and (max-width: 480px) {
+    max-width: 97vw;
+  }
+  @media screen and (min-width: 481px) {
+    max-width: 90vw;
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 85vw;
+  }
+  @media screen and (min-width: 1800px) {
+    max-width: 80vw;
+  }
+  @media screen and (min-width: 2300px) {
+    max-width: 75vw;
+  }
 }
 
 #attestationContent {
@@ -103,6 +118,19 @@ table {
   overflow-y: auto;
   overflow-x: auto;
   max-width: 100%;
+  font-size: 16px;
+
+  @media screen and (max-width: 480px) {
+    font-size: 14px;
+  }
+
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    font-size: 15px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 18px;
+  }
 
   /* Styles for scrollbar */
   &::-webkit-scrollbar {
