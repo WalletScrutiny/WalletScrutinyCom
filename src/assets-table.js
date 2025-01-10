@@ -26,6 +26,7 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
     <thead>
       <tr>
         ${hideConfig?.wallet ? '' : '<th>Wallet</th>'}
+        ${hideConfig?.wallet ? '<th>Version</th>' : ''}
         <th>Asset Description</th>
         ${hideConfig?.sha256 ? '' : '<th>SHA256</th>'}
         <th>URL</th>
@@ -104,6 +105,9 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
         ${hideConfig?.wallet ? '' : `<td>
           ${wallet ? `<a href="${wallet.url}" target="_blank" rel="noopener noreferrer">${walletTitle}</a><br>${version}` : walletTitle}
         </td>`}
+        ${hideConfig?.wallet ? `<td>
+          ${version}
+        </td>` : ''}
         <td class="asset-description">${binary.content}</td>
         ${hideConfig?.sha256 ? '' : `<td>
           <span>${truncatedHash}</span>
