@@ -7,6 +7,28 @@ permalink: /attestator/
 <link rel="stylesheet" href="{{ base_path }}/assets/css/attestations.css">
 
 <style>
+  #main {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 97% !important;
+  }
+
+  @media screen and (min-width: 1800px) {
+    #main {
+      max-width: 87% !important;
+    }
+  }
+  @media screen and (min-width: 2300px) {
+    #main {
+      max-width: 75% !important;
+    }
+  }
+  @media screen and (min-width: 2800px) {
+    #main {
+      max-width: 70% !important;
+    }
+  }
+
   .npubFallback {
     font-weight: bold;
     padding: 20px;
