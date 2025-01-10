@@ -22,6 +22,9 @@ permalink: /attestator/
 
 <div style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
   {% include shareButton.html defaultMessage="Look at my attestator profile on WalletScrutiny!" %}
+  <a href="" target="_blank" id="njumpLink" class="btn btn-primary" style="background-color: #007bff;">
+    <i class="fas fa-external-link-alt" style="margin-right: 7px;"></i> njump.me
+  </a>
 </div>
 
 <div id="binariesTable"></div>
@@ -40,6 +43,9 @@ permalink: /attestator/
 <script>
   const urlParams = new URLSearchParams(window.location.search);
   const pubkey = urlParams.get('pubkey');
+  const npub = getNpubFromPubkey(pubkey);
+
+  document.getElementById('njumpLink').href = `https://njump.me/${npub}`;
 
   (async () => {
     try {
@@ -55,8 +61,8 @@ permalink: /attestator/
           document.getElementById('attestator').innerHTML = `
             <div class="big-profile-card">
               <img src="${profile.image}" alt="Profile Picture" style="width: 200px; height: 200px; border-radius: 50%; margin-bottom: 10px;">
-            <div style="font-size: 1.5em; font-weight: bold;">${profile.name ?? ''}</div>
-          </div>`;
+              <div style="font-size: 1.5em; font-weight: bold;">${profile.name ?? ''}</div>
+            </div>`;
         }
       }
 
