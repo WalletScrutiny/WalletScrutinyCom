@@ -63,7 +63,6 @@ body.dark thead {
 }
 
 table {
-
   @media screen and (max-width: 480px) {
     font-size: 0.7em;
   }
@@ -139,18 +138,6 @@ table {
   max-width: 100%;
   font-size: 16px;
 
-  @media screen and (max-width: 480px) {
-    font-size: 14px;
-  }
-
-  @media screen and (min-width: 481px) and (max-width: 768px) {
-    font-size: 15px;
-  }
-
-  @media screen and (min-width: 1200px) {
-    font-size: 18px;
-  }
-
   /* Styles for scrollbar */
   &::-webkit-scrollbar {
     width: 10px;
@@ -172,6 +159,18 @@ table {
   /* Styles for scrollbar - Firefox */
   scrollbar-width: thin;
   scrollbar-color: rgba(0, 0, 0, 0.8) rgba(0, 0, 0, 0.1);
+
+  @media screen and (max-width: 480px) {
+    font-size: 14px;
+  }
+
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    font-size: 15px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 18px;
+  }
 }
 #attestationContent p {
   margin-top: 0.4em;
