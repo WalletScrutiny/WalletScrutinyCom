@@ -22,7 +22,7 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
   );
 
   // Add old tests information to sortedBinaries
-  if (oldTestsInfo && Array.isArray(oldTestsInfo)) {
+  if (typeof oldTestsInfo !== 'undefined' && Array.isArray(oldTestsInfo)) {
     oldTestsInfo.forEach(oldTest => {
       if (oldTest.date && oldTest.version && oldTest.verdict) {
         sortedBinaries.push({
