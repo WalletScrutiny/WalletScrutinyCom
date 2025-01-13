@@ -10,7 +10,5 @@
                     verdict: "{{ review.verdict }}"
                 },{% endfor %}
         ];
-    {% else %}
-        const oldTestsInfo = [];
     {% endif %}
 </script>
