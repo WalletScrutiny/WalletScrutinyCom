@@ -71,7 +71,9 @@ layout: default
           </div>
           <div class="payloads">
             {% assign defaultMessage = page.title | append: ' on WalletScrutiny:' %}
-            <div class="social-share active" style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">{% include shareButton.html defaultMessage=defaultMessage showRawButtons=true %}</div>
+            <div class="social-share active" style="padding: 25px;">
+              {% include shareButton.html defaultMessage=defaultMessage showRawButtons=true %}
+            </div>
             <div class="embed-widget">{% include embed_widget.html %}</div>
             <div class="embed-image">{% include embed_image.html %}</div>
           </div>
