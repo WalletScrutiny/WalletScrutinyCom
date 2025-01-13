@@ -21,6 +21,26 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
     new Date(b.created_at) - new Date(a.created_at)
   );
 
+  // Add old tests information to sortedBinaries
+  if (oldTestsInfo && Array.isArray(oldTestsInfo)) {
+    oldTestsInfo.forEach(oldTest => {
+      if (oldTest.date && oldTest.version && oldTest.verdict) {
+        sortedBinaries.push({
+          created_at: Math.floor(new Date(oldTest.date).getTime() / 1000),
+          tags: [
+            ['version', oldTest.version],
+            ['status', oldTest.verdict],
+            ['x', oldTest.appHash]
+          ],
+          content: `Legacy test from ${oldTest.date}`,
+          isLegacy: true
+        });
+      }
+    });
+    // Re-sort to include the old tests in chronological order
+    sortedBinaries.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+  }
+
   const table = document.createElement('table');
   table.innerHTML = `
     <thead>
@@ -39,19 +59,26 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
 
   if (sortedBinaries.length > 0) {
     sortedBinaries.forEach(binary => {
-      const date = new Date(binary.created_at * 1000).toLocaleDateString(navigator.language, {
-        year: '2-digit',
-        month: 'short',
-        day: 'numeric',
-        hour: '2-digit',
-        minute: '2-digit'
-      });
+      const date = new Date(binary.created_at * 1000).toLocaleDateString(navigator.language, 
+        binary.isLegacy ? {
+          year: '2-digit',
+          month: 'short',
+          day: 'numeric'
+        } : {
+          year: '2-digit',
+          month: 'short',
+          day: 'numeric',
+          hour: '2-digit',
+          minute: '2-digit'
+        }
+      );
 
       const eventId = binary.id;
       const sha256Hash = binary.tags.find(tag => tag[0] === 'x')?.[1] || '';
       const truncatedHash = `${sha256Hash.slice(0,4)}...${sha256Hash.slice(-4)}`;
       const downloadUrl = binary.tags.find(tag => tag[0] === 'url')?.[1] || '';
       const version = binary.tags.find(tag => tag[0] === 'version')?.[1] || '';
+      const oldInfoStatus = binary.tags.find(tag => tag[0] === 'status')?.[1] || '';
       const identifier = binary.tags.find(tag => tag[0] === 'i')?.[1] || "";
 
       const attestations = response.attestations.get(binary.tags.find(tag => tag[0] === 'x')?.[1]) || [];
@@ -116,9 +143,9 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
           </button>
         </td>`}
         <td>
-          ${downloadUrl ? `<a href="${downloadUrl}" target="_blank" rel="noopener noreferrer">Download</a>` : 'N/A'}
+          ${downloadUrl ? `<a href="${downloadUrl}" target="_blank" rel="noopener noreferrer">Download</a>` : '-'}
         </td>
-        <td>${attestationList}</td>
+        <td>${binary.isLegacy ? oldInfoStatus : attestationList}</td>
         <td>${date}</td>
         ${getAssetsForMyAttestations ? `
           <td>
