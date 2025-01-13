@@ -21,9 +21,14 @@ icon: com.bullbitcoin.mobile.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2024-09-24
+date: 2025-01-13
 signer: 
-reviewArchive: 
+reviewArchive:
+- date: 2023-07-05
+  version: 0.3.2
+  appHash: 
+  gitRevision: 3fadfe82d841cefe9dabe322d1422f8404c98484
+  verdict: nonverifiable 
 twitter: bullbitcoin_
 social:
 - https://www.facebook.com/bullbitcoindotcom
@@ -35,56 +40,82 @@ features:
 
 ---
 
-# Verification 2024-09-24
+# Verification 2025-01-12 for version 0.4.0
 
-1. We begin by looking for the build instructions. At the time of writing, the Bull Bitcoin team has indicated that they [would be providing](https://github.com/SatoshiPortal/bullbitcoin-mobile/issues/326#issuecomment-2363816854) a BUILD.md file in later releases.
+We have successfully integrated the bullbitcoin dockerfile with the testAAB.sh script, which now passes on the location of the device-spec.json file. 
 
-2. [Dockerfile version 0.3.2](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/c1ec6e8920ce5af8d4cacb9d1eb40001fc84e49d/scripts/test/android/com.bullbitcoin.android.dockerfile) was crafted that would enable building the split apks. 
-
-3. We use the [apkextractor_sync.sh](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/apkextractor_sync.sh?ref_type=heads) file to extract the split apks from our USB-connected phone.
-
-4. After several tries, we successfully built and copied the split apks to our host machine.
+`$ ./testAAB.sh -d /var/shared/apk/com.bullbitcoin.mobile/0.4.0/ -s /var/shared/device-spec/a11/device-spec.json` 
 
 ## Diff results 
 
 ```
-danny@lw10:~/work/compare/com.bullbitcoin.mobile/0.3.2$ diff -r -q fromOfficial/ fromBuild/
-Files fromOfficial/armeabi_v7a/AndroidManifest.xml and fromBuild/armeabi_v7a/AndroidManifest.xml differ
-Files fromOfficial/armeabi_v7a/lib/armeabi-v7a/libapp.so and fromBuild/armeabi_v7a/lib/armeabi-v7a/libapp.so differ
-Files fromOfficial/armeabi_v7a/lib/armeabi-v7a/libboltz_dart.so and fromBuild/armeabi_v7a/lib/armeabi-v7a/libboltz_dart.so differ
-Files fromOfficial/armeabi_v7a/lib/armeabi-v7a/libflutter.so and fromBuild/armeabi_v7a/lib/armeabi-v7a/libflutter.so differ
-Files fromOfficial/armeabi_v7a/lib/armeabi-v7a/liblwk_dart.so and fromBuild/armeabi_v7a/lib/armeabi-v7a/liblwk_dart.so differ
-Only in fromOfficial/armeabi_v7a: META-INF
-Only in fromOfficial/armeabi_v7a: stamp-cert-sha256
-Files fromOfficial/armeabi_v7a.apk and fromBuild/armeabi_v7a.apk differ
-Files fromOfficial/base/AndroidManifest.xml and fromBuild/base/AndroidManifest.xml differ
-Files fromOfficial/base/assets/flutter_assets/NOTICES.Z and fromBuild/base/assets/flutter_assets/NOTICES.Z differ
-Only in fromOfficial/base/META-INF: BNDLTOOL.RSA
-Only in fromOfficial/base/META-INF: BNDLTOOL.SF
-Only in fromOfficial/base/META-INF: MANIFEST.MF
-Files fromOfficial/base/res/xml/splits0.xml and fromBuild/base/res/xml/splits0.xml differ
-Files fromOfficial/base/resources.arsc and fromBuild/base/resources.arsc differ
-Only in fromOfficial/base: stamp-cert-sha256
-Files fromOfficial/base.apk and fromBuild/base.apk differ
-Files fromOfficial/en/AndroidManifest.xml and fromBuild/en/AndroidManifest.xml differ
-Only in fromOfficial/en: META-INF
-Files fromOfficial/en/resources.arsc and fromBuild/en/resources.arsc differ
-Only in fromOfficial/en: stamp-cert-sha256
-Files fromOfficial/en.apk and fromBuild/en.apk differ
-Files fromOfficial/xhdpi/AndroidManifest.xml and fromBuild/xhdpi/AndroidManifest.xml differ
-Only in fromOfficial/xhdpi: META-INF
-Files fromOfficial/xhdpi/resources.arsc and fromBuild/xhdpi/resources.arsc differ
-Only in fromOfficial/xhdpi: stamp-cert-sha256
-Files fromOfficial/xhdpi.apk and fromBuild/xhdpi.apk differ
+Differences found between /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/armeabi_v7a and /tmp/test_com.bullbitcoin.mobile_0.4.0/fromBuild-unzipped/armeabi_v7a
+Binary files /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/armeabi_v7a/AndroidManifest.xml and /tmp/test_com.bullbitcoin.mobile_0.4.0/fromBuild-unzipped/armeabi_v7a/AndroidManifest.xml differ
+Binary files /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/armeabi_v7a/lib/armeabi-v7a/libapp.so and /tmp/test_com.bullbitcoin.mobile_0.4.0/fromBuild-unzipped/armeabi_v7a/lib/armeabi-v7a/libapp.so differ
+Binary files /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/armeabi_v7a/lib/armeabi-v7a/libboltz_dart.so and /tmp/test_com.bullbitcoin.mobile_0.4.0/fromBuild-unzipped/armeabi_v7a/lib/armeabi-v7a/libboltz_dart.so differ
+Binary files /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/armeabi_v7a/lib/armeabi-v7a/liblwk_dart.so and /tmp/test_com.bullbitcoin.mobile_0.4.0/fromBuild-unzipped/armeabi_v7a/lib/armeabi-v7a/liblwk_dart.so differ
+Binary files /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/armeabi_v7a/lib/armeabi-v7a/libpayjoin_flutter.so and /tmp/test_com.bullbitcoin.mobile_0.4.0/fromBuild-unzipped/armeabi_v7a/lib/armeabi-v7a/libpayjoin_flutter.so differ
+Only in /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/armeabi_v7a: META-INF
+Only in /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/armeabi_v7a: stamp-cert-sha256
+Differences saved to /tmp/test_com.bullbitcoin.mobile_0.4.0/diff_armeabi_v7a.txt
+
+Comparing base...
+Differences found between /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/base and /tmp/test_com.bullbitcoin.mobile_0.4.0/fromBuild-unzipped/base
+Binary files /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/base/AndroidManifest.xml and /tmp/test_com.bullbitcoin.mobile_0.4.0/fromBuild-unzipped/base/AndroidManifest.xml differ
+Binary files /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/base/res/xml/splits0.xml and /tmp/test_com.bullbitcoin.mobile_0.4.0/fromBuild-unzipped/base/res/xml/splits0.xml differ
+Binary files /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/base/resources.arsc and /tmp/test_com.bullbitcoin.mobile_0.4.0/fromBuild-unzipped/base/resources.arsc differ
+Only in /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/base: stamp-cert-sha256
+Differences saved to /tmp/test_com.bullbitcoin.mobile_0.4.0/diff_base.txt
+
+Comparing en...
+Differences found between /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/en and /tmp/test_com.bullbitcoin.mobile_0.4.0/fromBuild-unzipped/en
+Binary files /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/en/AndroidManifest.xml and /tmp/test_com.bullbitcoin.mobile_0.4.0/fromBuild-unzipped/en/AndroidManifest.xml differ
+Only in /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/en: META-INF
+Binary files /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/en/resources.arsc and /tmp/test_com.bullbitcoin.mobile_0.4.0/fromBuild-unzipped/en/resources.arsc differ
+Only in /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/en: stamp-cert-sha256
+Differences saved to /tmp/test_com.bullbitcoin.mobile_0.4.0/diff_en.txt
+
+Comparing xhdpi...
+Differences found between /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/xhdpi and /tmp/test_com.bullbitcoin.mobile_0.4.0/fromBuild-unzipped/xhdpi
+Binary files /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/xhdpi/AndroidManifest.xml and /tmp/test_com.bullbitcoin.mobile_0.4.0/fromBuild-unzipped/xhdpi/AndroidManifest.xml differ
+Only in /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/xhdpi: META-INF
+Binary files /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/xhdpi/resources.arsc and /tmp/test_com.bullbitcoin.mobile_0.4.0/fromBuild-unzipped/xhdpi/resources.arsc differ
+Only in /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/xhdpi: stamp-cert-sha256
+Differences saved to /tmp/test_com.bullbitcoin.mobile_0.4.0/diff_xhdpi.txt
+Built base.apk not found at /tmp/test_com.bullbitcoin.mobile_0.4.0/built-split_apks/base.apk
+
 ```
+
+## Diffoscope results
+
+**armeabi_v7a**
+{% include diffoscope-modal.html label='AndroidManifest.xml' url='/assets/diffoscope-results/android/com.bullbitcoin.mobile/0.4.0/armeabi_v7a/diffo-com.bullbitcoin.mobile_v0.4.0-armeabi_v7a-AndroidManifest.xml.html' %}
+{% include diffoscope-modal.html label='libapp.so' url='/assets/diffoscope-results/android/com.bullbitcoin.mobile/0.4.0/armeabi_v7a/diffo-com.bullbitcoin.mobile_v0.4.0-armeabi_v7a-libapp.so.html' %}
+{% include diffoscope-modal.html label='libboltz_dart.so' url='/assets/diffoscope-results/android/com.bullbitcoin.mobile/0.4.0/armeabi_v7a/diffo-com.bullbitcoin.mobile_v0.4.0-armeabi_v7a-libboltz_dart.so.html' %}
+{% include diffoscope-modal.html label='liblwk_dart.so' url='/assets/diffoscope-results/android/com.bullbitcoin.mobile/0.4.0/armeabi_v7a/diffo-com.bullbitcoin.mobile_v0.4.0-armeabi_v7a-liblwk_dart.so.html' %}
+{% include diffoscope-modal.html label='libpayjoin_flutter.so' url='/assets/diffoscope-results/android/com.bullbitcoin.mobile/0.4.0/armeabi_v7a/diffo-com.bullbitcoin.mobile_v0.4.0-armeabi_v7a-libpayjoin_flutter.so.html' %}
+
+**base**
+{% include diffoscope-modal.html label='AndroidManifest.xml' url='/assets/diffoscope-results/android/com.bullbitcoin.mobile/0.4.0/base/diffo-com.bullbitcoin.mobile_v0.4.0-base-AndroidManifest.xml.html' %}
+{% include diffoscope-modal.html label='resources.arsc' url='/assets/diffoscope-results/android/com.bullbitcoin.mobile/0.4.0/base/diffo-com.bullbitcoin.mobile_v0.4.0-base-resources.arsc.html' %}
+{% include diffoscope-modal.html label='splits0.xml' url='/assets/diffoscope-results/android/com.bullbitcoin.mobile/0.4.0/base/diffo-com.bullbitcoin.mobile_v0.4.0-base-splits0.xml.html' %}
+
+**en**
+{% include diffoscope-modal.html label='AndroidManifest.xml' url='/assets/diffoscope-results/android/com.bullbitcoin.mobile/0.4.0/en/diffo-com.bullbitcoin.mobile_v0.4.0-en-AndroidManifest.xml.html' %}
+{% include diffoscope-modal.html label='resources.arsc' url='/assets/diffoscope-results/android/com.bullbitcoin.mobile/0.4.0/en/diffo-com.bullbitcoin.mobile_v0.4.0-en-resources.arsc.html' %}
+
+**xhdpi**
+{% include diffoscope-modal.html label='AndroidManifest.xml' url='/assets/diffoscope-results/android/com.bullbitcoin.mobile/0.4.0/xhdpi/diffo-com.bullbitcoin.mobile_v0.4.0-xhdpi-AndroidManifest.xml.html' %}
+{% include diffoscope-modal.html label='resources.arsc' url='/assets/diffoscope-results/android/com.bullbitcoin.mobile/0.4.0/xhdpi/diffo-com.bullbitcoin.mobile_v0.4.0-xhdpi-resources.arsc.html' %}
+
 
 ## Asciicast 
 
 {% include asciicast %}
 
-## Diffoscope results
+## Conclusion
 
-We ran diffoscope on the apks, but the diffs reached more than 200,000 lines and more than 300 MB. This caused nosbin.com to error. Suffice to say, the diffs are large enough to merit this beta version 0.3.2, a verdict of **non-verifiable**
+Even if we exclude the signing related diffs, the above results lead us to conclude that version 0.4.0 of the app is **nonverifiable**
 
 # Previous Review 2024-08-30
 
