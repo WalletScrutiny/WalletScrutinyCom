@@ -137,10 +137,11 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
         </td>` : ''}
         <td class="asset-description">${binary.content}</td>
         ${hideConfig?.sha256 ? '' : `<td>
+          ${sha256Hash ? `
           <span>${truncatedHash}</span>
           <button onclick="navigator.clipboard.writeText('${sha256Hash}')" class="copy-button">
             📋
-          </button>
+          </button>` : '-'}
         </td>`}
         <td>
           ${downloadUrl ? `<a href="${downloadUrl}" target="_blank" rel="noopener noreferrer">Download</a>` : '-'}
