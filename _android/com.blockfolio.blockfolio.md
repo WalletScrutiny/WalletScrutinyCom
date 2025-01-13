@@ -23,7 +23,7 @@ meta: removed
 date: 2023-01-02
 signer:
 reviewCurrent:
-- date: 2023-01-02
+  date: 2023-01-02
   version: 4.12.5
   appHashes: []
   verdict: custodial 

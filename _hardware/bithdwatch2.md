@@ -29,7 +29,7 @@ meta: defunct
 date: 2024-08-06
 signer:
 reviewCurrent:
-- date: 2024-08-06
+  date: 2024-08-06
   version: 4.2.0
   appHashes: [7c3126aaff2e983c89f621fa7a3d269385832aeeccc3f13ddd1e540656b059d2]
   verdict: nonverifiable

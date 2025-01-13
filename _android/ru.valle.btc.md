@@ -23,7 +23,7 @@ meta: removed
 date: 2024-02-05
 signer: ee22ff921a6fbff122b609d21f56061c2e8b5c4fcaaf388be2549c0c1083c00f
 reviewCurrent:
-- date: 2024-02-05
+  date: 2024-02-05
   version: VARY
   appHashes: []
   verdict: ftbfs

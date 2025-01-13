@@ -25,7 +25,7 @@ meta: ok
 date: 2024-11-06
 signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
 reviewCurrent:
-- date: 2024-11-06
+  date: 2024-11-06
   version: 10.20
   appHashes: [9e859167b259383324d44b049e9310a0715bae2837db2582519f4012b4e27fcb]
   verdict: reproducible

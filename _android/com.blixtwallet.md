@@ -24,7 +24,7 @@ meta: ok
 date: 2022-02-07
 signer:
 reviewCurrent:
-- date: 2022-02-07
+  date: 2022-02-07
   version: VARY
   appHashes: []
   verdict: nonverifiable  

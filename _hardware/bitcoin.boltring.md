@@ -25,7 +25,7 @@ meta: ok
 date: 2023-12-11
 signer:
 reviewCurrent:
-- date: 2023-12-11
+  date: 2023-12-11
   version: 
   appHashes: []
   verdict: nowallet

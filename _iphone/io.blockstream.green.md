@@ -22,7 +22,7 @@ meta: ok
 date: 2020-12-19
 signer:
 reviewCurrent:
-- date: 2020-12-19
+  date: 2020-12-19
   version: 4.1.0
   appHashes: []
   verdict: nonverifiable

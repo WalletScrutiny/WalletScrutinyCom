@@ -23,7 +23,7 @@ meta: obsolete
 date: 2024-03-12
 signer:
 reviewCurrent:
-- date: 2024-03-12
+  date: 2024-03-12
   version: 4.18.0
   appHashes: []
   verdict: nosource 

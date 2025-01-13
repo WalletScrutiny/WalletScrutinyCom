@@ -5,7 +5,7 @@
     "version": "0.9.2",
     "verdict": "reproducible",
     "appHashes": [
-      "388d9e8b545aa657c1a147a0a24ee700af31cdecd2c9cdacaa6e208e1db9ea10"
+      "deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe"
     ],
     "date": "2024-11-14",
     "platform": "android"
@@ -113,7 +113,7 @@
     "appId": "app.zeusln.zeus",
     "signer": "cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359",
     "version": "0.9.3",
-    "verdict": "",
+    "verdict": "reproducible",
     "appHashes": [
       "3670e08e0720f8dbb021ff15fe02fb0f6c5df810a972ced5c0356a29e296563c"
     ],
@@ -135,7 +135,7 @@
     "appId": "ch.swissbitcoinpay.checkout",
     "signer": "17d9c0bf025008da16d5a146e1beaca6ddcfe3cb0cf063da23c847d3007eb621",
     "version": "2.1.4",
-    "verdict": "",
+    "verdict": "nonverifiable",
     "appHashes": [
       "69a7e528ca403489349a482af6a35b94646b428dd27b09336793ad5817cdd9af"
     ],
@@ -146,7 +146,7 @@
     "appId": "co.edgesecure.app",
     "signer": "8cd6a12e3dc595964fabcbe82341e28f4a2a4ac6a347fcbead488b76faa7e186",
     "version": "4.15.0",
-    "verdict": "",
+    "verdict": "nonverifiable",
     "appHashes": [
       "66342d9ece392d2245abc2ff175ffdb6d800fa3d0b659eb6b62f888e041dab7e"
     ],
@@ -303,6 +303,20 @@
     "verdict": "reproducible",
     "appHashes": [
       "255a6fc14d8c900d92f9a707c73b50e2f1668ed020f2f23da3af50ca6fa7dd05"
+    ],
+    "date": "2024-11-22",
+    "platform": "android"
+  },
+  {
+    "appId": "com.foundationdevices.envoy",
+    "signer": "",
+    "version": "1.8.4",
+    "verdict": "nonverifiable",
+    "appHashes": [
+      "7d883cf4ac02b16238e2075a726db8dcefd7250f8461d06565e2daf9b520e2be",
+      "c7283366b3c0857aae728dfa38d5776985362c000864d11ad95e5ea446019bae",
+      "2e8d46dc9d6df35d69b1f796e1ff44dd5eef92aafcb94c88159a7dd96c6527bd",
+      "a3830481af62bf78d71a3e628f837fc76959d38028e985945bea956f8e80a931"
     ],
     "date": "2024-11-22",
     "platform": "android"
@@ -610,17 +624,7 @@
     "version": "3.5.9",
     "verdict": "nonverifiable",
     "appHashes": [
-      "76cc3df154ff6d47b5366a328515cf14c1d550ca7d71063d851c1949324ef4fa"
-    ],
-    "date": "2021-05-15",
-    "platform": "android"
-  },
-  {
-    "appId": "com.greenaddress.greenbits_android_wallet",
-    "signer": "32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e",
-    "version": "3.5.9",
-    "verdict": "nonverifiable",
-    "appHashes": [
+      "76cc3df154ff6d47b5366a328515cf14c1d550ca7d71063d851c1949324ef4fa",
       "f62c0b4b4882ad15a561fbabcccc34739d66470e752a21a4eab4037736593476"
     ],
     "date": "2021-05-03",
@@ -839,7 +843,7 @@
     "appId": "com.komodoplatform.atomicdex",
     "signer": "cb9c6d9f6b0d981e24b771cbe946ae32af09e71de174a2d39756161b481d94b3",
     "version": "0.9.1",
-    "verdict": "",
+    "verdict": "nonverifiable",
     "appHashes": [
       "e1a99f4bb5a80153a68e184d5bebdabd044c325478a182dcd938494ac3bac3ff"
     ],
@@ -1028,17 +1032,7 @@
     "version": "3.12.2.0",
     "verdict": "reproducible",
     "appHashes": [
-      "8ebca59a3b86d3364e83fa549b23b842c63bcf1bbade528849b21d40573f4f8a"
-    ],
-    "date": "2021-11-14",
-    "platform": "android"
-  },
-  {
-    "appId": "com.mycelium.wallet",
-    "signer": "b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e",
-    "version": "3.12.2.0",
-    "verdict": "reproducible",
-    "appHashes": [
+      "8ebca59a3b86d3364e83fa549b23b842c63bcf1bbade528849b21d40573f4f8a",
       "f4a163ba974e57d32345ef27261c159f6b396df4ea5a7cdf2c2ab9b0c49b5a4c"
     ],
     "date": "2021-11-14",
@@ -1235,17 +1229,6 @@
     "appId": "com.mycelium.wallet",
     "signer": "b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e",
     "version": "3.4.0.0",
-    "verdict": "reproducible",
-    "appHashes": [
-      "35d7eeafa87ce88d527c9a41865eaa4cdcd158be8ea190c84133fbb02bfb6c46"
-    ],
-    "date": "2020-05-06",
-    "platform": "android"
-  },
-  {
-    "appId": "com.mycelium.wallet",
-    "signer": "b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e",
-    "version": "3.4.0.0",
     "verdict": "nonverifiable",
     "appHashes": [
       "35d7eeafa87ce88d527c9a41865eaa4cdcd158be8ea190c84133fbb02bfb6c46"
@@ -1273,17 +1256,6 @@
       "b47ea1f72443281aaf6405c52fac0c7747b064dae8f282307a5dfae737e6328b"
     ],
     "date": "2020-03-20",
-    "platform": "android"
-  },
-  {
-    "appId": "com.mycelium.wallet",
-    "signer": "b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e",
-    "version": "3.3.1.1",
-    "verdict": "reproducible",
-    "appHashes": [
-      "6549d022684cac8521ff4c97cdd205ef289c58b58a589e092f1a5439aaf06a59"
-    ],
-    "date": "2020-02-17",
     "platform": "android"
   },
   {
@@ -1446,7 +1418,7 @@
     "version": "10.12",
     "verdict": "reproducible",
     "appHashes": [
-      "f8f5d0da7406def49087e8b99f273c754c6042065e6ce879c267d918434c5655"
+      "c6147e5a1bf55d093391f8fceb7678686aea51ad819787463274a5d771d6ea4a"
     ],
     "date": "2024-01-17",
     "platform": "android"
@@ -1512,17 +1484,7 @@
     "version": "9.03",
     "verdict": "reproducible",
     "appHashes": [
-      "3c4ffbb9a1bdf67a0d3113b1cf8385a464f152ca79ef0349dcadb266765f4c58"
-    ],
-    "date": "2022-11-01",
-    "platform": "android"
-  },
-  {
-    "appId": "de.schildbach.wallet",
-    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
-    "version": "9.03",
-    "verdict": "reproducible",
-    "appHashes": [
+      "3c4ffbb9a1bdf67a0d3113b1cf8385a464f152ca79ef0349dcadb266765f4c58",
       "90ef5b1b41546d9e0c99484a398a5e6c7d509d9fdfdd09354e55d68f2f7d84bd"
     ],
     "date": "2022-01-11",
@@ -1754,7 +1716,7 @@
     "version": "7.53",
     "verdict": "reproducible",
     "appHashes": [
-      "03d35ae1d496fc779f46ee91cc8c73e382f498115f8da748030b6031f2befff3"
+      "0d9b5d5ed8a131086dc4282e25edb09d31deb11ad53a61202480dea0c23e489f"
     ],
     "date": "2020-02-16",
     "platform": "android"
@@ -1972,11 +1934,11 @@
     "appId": "fr.acinq.phoenix.mainnet",
     "signer": "ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629",
     "version": "2.3.8",
-    "verdict": "",
+    "verdict": "nonverifiable",
     "appHashes": [
       "295a50bc3208c28db8ac9b1b5bdfa7eb746e2e2037469f8c2624ebe01119e464"
     ],
-    "date": "2024-10-12",
+    "date": "2024-09-05",
     "platform": "android"
   },
   {
@@ -2148,7 +2110,7 @@
     "appId": "io.bluewallet.bluewallet",
     "signer": "42250147991337ed230fbd93c0be0e5f6183d02eed9e1d53e5aac94167cf3f2f",
     "version": "7.0.4",
-    "verdict": "",
+    "verdict": "nonverifiable",
     "appHashes": [
       "28916fc20d00dcf52816711f40663db2549e3229ac0e94b2cbb3c74d3de8ca65"
     ],
@@ -2161,17 +2123,7 @@
     "version": "0.40.0",
     "verdict": "reproducible",
     "appHashes": [
-      "6f320245b3638cb00e90305a29318e15d8c10b76a84dc686f5331d9393929ba7"
-    ],
-    "date": "2024-10-11",
-    "platform": "android"
-  },
-  {
-    "appId": "io.horizontalsystems.bankwallet",
-    "signer": "c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b",
-    "version": "0.40.0",
-    "verdict": "reproducible",
-    "appHashes": [
+      "6f320245b3638cb00e90305a29318e15d8c10b76a84dc686f5331d9393929ba7",
       "f5db836de54c5fd4bcc6819871edf7e5dd1d7ab8fb81c5e1bdcf3c16ab3534ad"
     ],
     "date": "2024-10-09",
@@ -2436,17 +2388,7 @@
     "version": "0.21.4",
     "verdict": "reproducible",
     "appHashes": [
-      "e3073f989a151b1a7ac2e518f40ffe8e5d2f1db48e3ff39c867a5d09c19c2bd4"
-    ],
-    "date": "2021-07-09",
-    "platform": "android"
-  },
-  {
-    "appId": "io.horizontalsystems.bankwallet",
-    "signer": "c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b",
-    "version": "0.21.4",
-    "verdict": "reproducible",
-    "appHashes": [
+      "e3073f989a151b1a7ac2e518f40ffe8e5d2f1db48e3ff39c867a5d09c19c2bd4",
       "351ddd179d58b9ebdcb80cccd987caab7ea381949db4baad2689214a7c6c94d1"
     ],
     "date": "2021-06-15",
@@ -2667,31 +2609,10 @@
     "version": "0.12.0",
     "verdict": "nonverifiable",
     "appHashes": [
-      "cc616d5c4b67911e3ef65dc58f6cf045d18810826cd362a85776459607cb070c"
-    ],
-    "date": "2020-03-25",
-    "platform": "android"
-  },
-  {
-    "appId": "io.horizontalsystems.bankwallet",
-    "signer": "c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b",
-    "version": "0.12.0",
-    "verdict": "nonverifiable",
-    "appHashes": [
+      "cc616d5c4b67911e3ef65dc58f6cf045d18810826cd362a85776459607cb070c",
       "cc616d5c4b67911e3ef65dc58f6cf045d18810826cd362a85776459607cb070c"
     ],
     "date": "2020-03-21",
-    "platform": "android"
-  },
-  {
-    "appId": "io.horizontalsystems.bankwallet",
-    "signer": "c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b",
-    "version": "0.11.0",
-    "verdict": "reproducible",
-    "appHashes": [
-      "f5bd6b218bb5e4fa605ed0c8e3dd9f424baf2656b9008f269d9e34697e0b21c0"
-    ],
-    "date": "2020-01-31",
     "platform": "android"
   },
   {
@@ -2703,17 +2624,6 @@
       "f5bd6b218bb5e4fa605ed0c8e3dd9f424baf2656b9008f269d9e34697e0b21c0"
     ],
     "date": "2020-01-29",
-    "platform": "android"
-  },
-  {
-    "appId": "io.horizontalsystems.bankwallet",
-    "signer": "c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b",
-    "version": "0.41.0",
-    "verdict": "reproducible",
-    "appHashes": [
-      "e2c29943e380d21a18abb4ebe33f8a5379bd662caff4073af9eab5731e04098a"
-    ],
-    "date": "2024-11-28",
     "platform": "android"
   },
   {
@@ -2784,9 +2694,9 @@
   },
   {
     "appId": "io.muun.apollo",
-    "signer": "026ae0ac859cc32adf2d4e7aa909daf902f40db0b4fe6138358026fd62836ad1",
+    "signer": "",
     "version": "52.1",
-    "verdict": "",
+    "verdict": "nonverifiable",
     "appHashes": [
       "4a86d245f978c2d84763c00c84cf2ea6d22e253de49a0f14f7c0c68b448bbc37"
     ],
@@ -2841,19 +2751,9 @@
     "appId": "it.airgap.vault",
     "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
     "version": "3.31.0",
-    "verdict": "nonverifiable",
-    "appHashes": [
-      "557ac77257fbe7b67834adee8c8fd955b87e8eed66c4db4a1b8b8f1781a4e060"
-    ],
-    "date": "2024-06-05",
-    "platform": "android"
-  },
-  {
-    "appId": "it.airgap.vault",
-    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
-    "version": "3.31.0",
     "verdict": "reproducible",
     "appHashes": [
+      "557ac77257fbe7b67834adee8c8fd955b87e8eed66c4db4a1b8b8f1781a4e060",
       "b30f6adddb6bb5e5a583f29b97686980ea5872ec3f2899037afcd90286368efe"
     ],
     "date": "2023-12-30",
@@ -2889,7 +2789,7 @@
     "appHashes": [
       "5d61189f93a120d87d03433236d222b3bdd44e6678f970728706e48d5eb9a514"
     ],
-    "date": "",
+    "date": "2023-04-27",
     "platform": "android"
   },
   {
@@ -2900,7 +2800,7 @@
     "appHashes": [
       "c7c35602fd09fa04c3435dc1a5382bd872f02b7cb03f005f263e7701e5342998"
     ],
-    "date": "",
+    "date": "2022-11-02",
     "platform": "android"
   },
   {
@@ -3085,17 +2985,7 @@
     "version": "3.6.2",
     "verdict": "reproducible",
     "appHashes": [
-      "2394251a22f5658ed60187854f1a8d1dd97af367c779c698f3e4a75516c5d025"
-    ],
-    "date": "2021-03-03",
-    "platform": "android"
-  },
-  {
-    "appId": "it.airgap.vault",
-    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
-    "version": "3.6.2",
-    "verdict": "reproducible",
-    "appHashes": [
+      "2394251a22f5658ed60187854f1a8d1dd97af367c779c698f3e4a75516c5d025",
       "f3ff145265859f45da2c7a310ac6c94183c61910fe2bf2fba0da7dbf8e56e626"
     ],
     "date": "2021-02-27",
@@ -3149,17 +3039,6 @@
     "appId": "it.airgap.vault",
     "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
     "version": "3.3.0",
-    "verdict": "reproducible",
-    "appHashes": [
-      "caa4da6ca8fa905e4b25594bebbbcb4bfe030a70178ca65a9b0a60f2651bb316"
-    ],
-    "date": "2020-07-22",
-    "platform": "android"
-  },
-  {
-    "appId": "it.airgap.vault",
-    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
-    "version": "3.3.0",
     "verdict": "nonverifiable",
     "appHashes": [
       "caa4da6ca8fa905e4b25594bebbbcb4bfe030a70178ca65a9b0a60f2651bb316"
@@ -3187,17 +3066,6 @@
       "f6f2f37ef164a585ae5de0ff28d5beaf729c8e41495ce1525af7b7642e1f963a"
     ],
     "date": "2020-04-09",
-    "platform": "android"
-  },
-  {
-    "appId": "it.airgap.vault",
-    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
-    "version": "3.0.0",
-    "verdict": "reproducible",
-    "appHashes": [
-      "d3bb8f0c7c30119405ef9b6c00ca5574e89da76d8ca5208aecc3530bf24e1987"
-    ],
-    "date": "2020-01-06",
     "platform": "android"
   },
   {
@@ -3303,30 +3171,10 @@
     "appId": "org.electrum.electrum",
     "signer": "",
     "version": "4.1.5.0",
-    "verdict": "nonverifiable",
-    "appHashes": [
-      "5042c47441ffa110f3edf0669d8135e77643e314d63428c262f8e091555b3588"
-    ],
-    "date": "2022-04-15",
-    "platform": "android"
-  },
-  {
-    "appId": "org.electrum.electrum",
-    "signer": "",
-    "version": "4.1.5.0",
-    "verdict": "nonverifiable",
-    "appHashes": [
-      "3b5011c575ba0646855f8686e7952fe3a4da70ca009082dd6a683bc12de529ca"
-    ],
-    "date": "2022-01-21",
-    "platform": "android"
-  },
-  {
-    "appId": "org.electrum.electrum",
-    "signer": "",
-    "version": "4.1.5.0",
     "verdict": "reproducible",
     "appHashes": [
+      "5042c47441ffa110f3edf0669d8135e77643e314d63428c262f8e091555b3588",
+      "3b5011c575ba0646855f8686e7952fe3a4da70ca009082dd6a683bc12de529ca",
       "de25614cc8f8fa20262f20df816634a349cf796b3e4cf026087e4dec12c15231"
     ],
     "date": "2021-07-19",
@@ -3345,7 +3193,7 @@
   },
   {
     "appId": "org.electrum.electrum",
-    "signer": "e543d576fa0f2a33d412bca4c7d61e2301830e956e7d947e75b9052d176027d3",
+    "signer": "",
     "version": "4.5.7",
     "verdict": "reproducible",
     "appHashes": [
@@ -3367,9 +3215,9 @@
   },
   {
     "appId": "to.bitkit",
-    "signer": "4f707d19ec04d61736f3ca095fd1c14bdae844e68f372ff9e8da74684d4e4f89",
+    "signer": "422ae8e4c9b4f1288efb27df173e31cadfd7134d61fa5357eb5ed9eae83c75a7",
     "version": "1.0.1",
-    "verdict": "",
+    "verdict": "nonverifiable",
     "appHashes": [
       "7b571191e0d74c1e9c748574d6c3bdde73851712646d73ae9f3ccf5cb4f06f5d"
     ],
@@ -3429,6 +3277,20 @@
       "110568d39beb8b0ccb6fc0f4ed710c2d129392137acc9e97202d5ac1ee192125"
     ],
     "date": "2024-03-23",
+    "platform": "android"
+  },
+  {
+    "appId": "world.bitkey.app",
+    "signer": "c0d0f9da7158cde788d0281e9ebd07034178165584d635f7ce17f77c037d961a",
+    "version": "2024.73.1 (2)",
+    "verdict": "nonverifiable",
+    "appHashes": [
+      "fc27a6e11e4d4f0f800e02eacad6d8723d71f41ca64eb89511aa962b22ccd648",
+      "66a622b73b665f15bec2a9bcf491354340999917f4892e8685cc5194392897e9",
+      "54e7ea9ff748c22715f32d2448307f0e5533928ceff4739d420091e76383dd39",
+      "cf7d7253dfc89a78fb0a411162951234df36a6b92330344e363834e2c47dd978"
+    ],
+    "date": "2024-12-07",
     "platform": "android"
   },
   {

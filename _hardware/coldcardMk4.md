@@ -29,7 +29,7 @@ meta: ok
 date: 2024-10-01
 signer: 
 reviewCurrent:
-- date: 2024-10-01
+  date: 2024-10-01
   version: v5.4.0
   appHashes: [04114bc10eaebf4a7296823561e966bdf871bb8cbbc77617f2f0714c89ff95d5]
   verdict: reproducible

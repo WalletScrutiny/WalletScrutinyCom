@@ -29,7 +29,7 @@ meta: discontinued
 date: 2022-11-25
 signer:
 reviewCurrent:
-- date: 2022-11-25
+  date: 2022-11-25
   version: 4.1.8
   appHashes: [784c7448e0b713ef7952ebd454d4e809b15adffd23ac84cfdd3af06358e7cfe2]
   verdict: nonverifiable  

@@ -25,7 +25,7 @@ meta: ok
 date: 2024-08-01
 signer:
 reviewCurrent:
-- date: 2024-08-01
+  date: 2024-08-01
   version: 1.51.10
   appHashes: []
   verdict: nosource 

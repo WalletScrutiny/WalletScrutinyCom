@@ -25,7 +25,7 @@ verdict: nonverifiable
 date: 2024-08-03
 signer: cb9c6d9f6b0d981e24b771cbe946ae32af09e71de174a2d39756161b481d94b3
 reviewCurrent:
-- date: 2024-08-03
+  date: 2024-08-03
   version: 0.9.1
   appHashes: [e1a99f4bb5a80153a68e184d5bebdabd044c325478a182dcd938494ac3bac3ff]
   verdict: nonverifiable

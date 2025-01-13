@@ -22,7 +22,7 @@ meta: ok
 date: 2023-11-22
 signer:
 reviewCurrent:
-- date: 2023-11-22
+  date: 2023-11-22
   version: 1.29.5
   appHashes: []
   verdict: obfuscated

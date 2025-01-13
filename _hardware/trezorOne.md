@@ -28,7 +28,7 @@ meta: ok
 date: 2023-05-25
 signer:
 reviewCurrent:
-- date: 2023-05-25
+  date: 2023-05-25
   version: 1.12.1
   appHashes: [859dff49705fb81e83fe6d2efcf8f739f847081037aacf4f176624009a738ed8]
   verdict: reproducible 

@@ -23,7 +23,7 @@ meta: ok
 date: 2024-08-12
 signer:
 reviewCurrent:
-- date: 2024-08-12
+  date: 2024-08-12
   version: VARY
   appHashes: []
   verdict: ftbfs 

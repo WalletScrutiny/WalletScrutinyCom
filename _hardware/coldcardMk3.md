@@ -30,7 +30,7 @@ meta: discontinued
 date: 2023-10-08
 signer:
 reviewCurrent:
-- date: 2023-10-08
+  date: 2023-10-08
   version: v4.1.9
   appHashes: [f6fb19d95bd1e38535f137bed60cafbfcd52379a686e3d12f372f881d78e640e]
   verdict: reproducible

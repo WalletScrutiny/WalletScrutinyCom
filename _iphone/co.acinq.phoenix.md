@@ -23,7 +23,7 @@ meta: ok
 date: 2024-07-05
 signer:
 reviewCurrent:
-- date: 2024-07-05
+  date: 2024-07-05
   version: 2.4.3
   appHashes: []
   verdict: nonverifiable 

@@ -29,7 +29,7 @@ meta: ok
 date: 2023-02-13
 signer: 
 reviewCurrent:
-- date: 2021-09-01
+  date: 2021-09-01
   version: 2.11.0
   appHashes: []
   gitRevision: 8762a3742

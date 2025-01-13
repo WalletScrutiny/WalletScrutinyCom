@@ -24,7 +24,7 @@ meta: ok
 date: 2024-07-17
 signer:
 reviewCurrent:
-- date: 2024-07-17
+  date: 2024-07-17
   version: 2.3.8
   appHashes: []
   verdict: obfuscated

@@ -23,7 +23,7 @@ meta: ok
 date: 2023-03-13
 signer:
 reviewCurrent:
-- date: 2023-03-13
+  date: 2023-03-13
   version: 14.27.1
   appHashes: []
   verdict: ftbfs 

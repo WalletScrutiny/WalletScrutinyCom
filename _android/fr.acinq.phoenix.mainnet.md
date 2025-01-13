@@ -25,7 +25,7 @@ meta: ok
 date: 2024-10-12
 signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
 reviewCurrent:
-- date: 2024-09-05
+  date: 2024-09-05
   version: 2.3.8
   appHashes: [295a50bc3208c28db8ac9b1b5bdfa7eb746e2e2037469f8c2624ebe01119e464]
   verdict: nonverifiable

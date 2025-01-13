@@ -23,7 +23,7 @@ meta: removed
 date: 2022-01-15
 signer:
 reviewCurrent:
-- date: 2022-01-15
+  date: 2022-01-15
   version: 1
   appHashes: [] 
   verdict: fake  

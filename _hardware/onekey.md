@@ -30,7 +30,7 @@ meta: ok
 date: 2024-09-17
 signer:
 reviewCurrent:
-- date: 2024-09-24
+  date: 2024-09-24
   version: 3.9.0
   appHashes: [a8d7051ea8b4a85038d032e4b86d5e8ee8f34870e3f861e59bf1a5578c36d176]
   verdict: nonverifiable 

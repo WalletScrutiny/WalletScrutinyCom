@@ -26,14 +26,14 @@ meta: ok
 date: 2024-12-13
 signer: cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
 reviewCurrent:
-- date: 2024-12-13
+  date: 2024-12-13
   version: 0.9.3
   appHashes: [3670e08e0720f8dbb021ff15fe02fb0f6c5df810a972ced5c0356a29e296563c]
   verdict: reproducible
 reviewArchive:
 - date: 2024-11-14
   version: 0.9.2
-  appHashes: [388d9e8b545aa657c1a147a0a24ee700af31cdecd2c9cdacaa6e208e1db9ea10]
+  appHashes: [deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe]
   gitRevision: 5d7b9b51299533649649997ba132ef2bd73f49f5
   verdict: reproducible
 - date: 2024-08-28

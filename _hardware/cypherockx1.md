@@ -31,7 +31,7 @@ meta: ok
 date: 2024-11-29
 signer: 
 reviewCurrent:
-- date: 2024-11-29
+  date: 2024-11-29
   version: 0.6.1280
   appHashes: [4407693c9d055870e2b5c7a390087bf4aa8274c9c272c8a1f7b825884a417de2]
   gitRevision: c44d57846d87ed548dba1617429f7f227b6ec56e

@@ -22,7 +22,7 @@ meta: removed
 date: 2024-11-19
 signer:
 reviewCurrent:
-- date: 2024-11-19
+  date: 2024-11-19
   version: 4.18.0
   appHashes: []
   verdict: nosource 

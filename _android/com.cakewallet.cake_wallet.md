@@ -24,7 +24,7 @@ meta: ok
 date: 2024-07-26
 signer:
 reviewCurrent:
-- date: 2024-07-26
+  date: 2024-07-26
   version: 4.21.2
   appHashes: []
   verdict:  ftbfs

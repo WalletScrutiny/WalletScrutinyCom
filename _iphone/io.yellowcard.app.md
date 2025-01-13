@@ -23,7 +23,7 @@ meta: ok
 date: 2021-07-28
 signer:
 reviewCurrent:
-- date: 2021-07-28
+  date: 2021-07-28
   version: 6.0.0
   appHashes: []
   verdict: custodial 

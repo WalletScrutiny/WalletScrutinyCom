@@ -28,7 +28,7 @@ meta: ok
 date: 2024-10-11
 signer:
 reviewCurrent:
-- date: 2024-10-11
+  date: 2024-10-11
   version: 2.8.0
   appHashes: [877aed88c703a89344ae9b098f84849a2e1db29c1740e71af5cc85042eeb8ec1, c1edd08f02b75430fbeedd77c4d155aadd81b030752fec4465698ab9a0b3d0e3]
   verdict: reproducible 

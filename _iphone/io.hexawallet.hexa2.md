@@ -22,7 +22,7 @@ meta: ok
 date: 2021-12-19
 signer:
 reviewCurrent:
-- date: 2021-12-19
+  date: 2021-12-19
   version: 2.4.6
   appHashes: []
   verdict: ftbfs 

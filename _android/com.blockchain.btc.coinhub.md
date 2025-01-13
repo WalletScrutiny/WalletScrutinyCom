@@ -22,7 +22,7 @@ meta: ok
 date: 2021-07-26
 signer:
 reviewCurrent:
-- date: 2021-07-26
+  date: 2021-07-26
   version: 1.2.0.9.6
   appHashes: []
   verdict: fake  

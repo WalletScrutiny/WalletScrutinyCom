@@ -22,7 +22,7 @@ meta: ok
 date: 2021-12-24
 signer:
 reviewCurrent:
-- date: 2021-12-24
+  date: 2021-12-24
   version: 6.5.4
   appHashes: []
   verdict: nosendreceive 
