@@ -22,8 +22,13 @@ icon: com.cakewallet.cake_wallet.jpg
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2024-12-25
-signer: 
+date: 2025-01-14
+signer:
+reviewCurrent:
+  date: 2024-12-25
+  version: 4.21.0
+  appHashes: []
+  verdict:  nonverifiable 
 reviewArchive:
 - date: 2024-07-26
   version: 4.19.1
@@ -32,12 +37,12 @@ reviewArchive:
   verdict: ftbfs
 - date: 2022-11-02
   version: 4.4.0
-  appHash: 
+  appHashes: []
   gitRevision: 58eb9afc078bac8a5a23d3af42a18f3ad543887c
   verdict: nonverifiable
 - date: 2021-04-14
   version: 4.1.4
-  appHash: 
+  appHashes: []
   gitRevision: 3f57101209712caf0bf7dae6466ce81d29359fca
   verdict: nonverifiable
 twitter: cakewallet

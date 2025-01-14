@@ -7,7 +7,7 @@ authors:
 released: 
 discontinued: 
 updated: 
-version: 
+version: 2.0.4
 binaries: 
 dimensions:
 - 120
@@ -25,9 +25,13 @@ issue: https://github.com/SalletOne/sallet-one-cold/issues/6
 icon: sallet.one.png
 bugbounty: 
 meta: ok
-verdict: ftbfs
 date: 2022-08-07
-signer: 
+signer:
+reviewCurrent:
+  date: 2022-08-07
+  version: 2.0.4
+  appHashes: []
+  verdict: ftbfs    
 reviewArchive: 
 twitter: SalletOne
 social:

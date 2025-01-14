@@ -19,9 +19,13 @@ issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/498
 icon: com.rockwallet.app.jpg
 bugbounty: 
 meta: ok
-verdict: nonverifiable
 date: 2023-08-28
-signer: 
+signer:
+reviewCurrent:
+  date: 2023-08-28
+  version: 5.16.0
+  appHashes: []
+  verdict: nonverifiable 
 reviewArchive: 
 twitter: rockwallet
 social:

@@ -19,9 +19,13 @@ issue:
 icon: com.muun.falcon.jpg
 bugbounty: 
 meta: ok
-verdict: nonverifiable
 date: 2021-07-30
-signer: 
+signer:
+reviewCurrent:
+  date: 2021-07-30
+  version: 2.8.0
+  appHashes: []
+  verdict: nonverifiable 
 reviewArchive: 
 twitter: muunwallet
 social: 

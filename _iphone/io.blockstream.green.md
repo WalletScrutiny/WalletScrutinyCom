@@ -19,9 +19,13 @@ issue:
 icon: io.blockstream.green.jpg
 bugbounty: 
 meta: ok
-verdict: nonverifiable
 date: 2020-12-19
-signer: 
+signer:
+reviewCurrent:
+  date: 2020-12-19
+  version: 4.1.0
+  appHashes: []
+  verdict: nonverifiable
 reviewArchive: 
 twitter: Blockstream
 social:

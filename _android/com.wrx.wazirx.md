@@ -21,13 +21,17 @@ issue:
 icon: com.wrx.wazirx.png
 bugbounty: 
 meta: ok
-verdict: custodial
 date: 2021-08-09
-signer: 
+signer:
+reviewCurrent:
+  date: 2021-08-09
+  version: 3.2.2
+  appHashes: []
+  verdict: custodial 
 reviewArchive:
 - date: 2021-04-16
   version: 2.13.4
-  appHash: 
+  appHashes: []
   gitRevision: ef345dd316ca2a0ef9a19f23680a94e1a42fd171
   verdict: nowallet
 twitter: WazirxIndia

@@ -19,9 +19,13 @@ issue:
 icon: io.slavi.wallet.jpg
 bugbounty: 
 meta: ok
-verdict: nonverifiable
 date: 2023-07-06
-signer: 
+signer:
+reviewCurrent:
+  date: 2023-07-06
+  version: 1.26
+  appHashes: []
+  verdict: nonverifiable
 reviewArchive: 
 twitter: slavi_io
 social:

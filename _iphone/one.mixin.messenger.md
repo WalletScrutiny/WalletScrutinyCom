@@ -21,9 +21,13 @@ issue: https://github.com/MixinNetwork/android-app/issues/2559
 icon: one.mixin.messenger.jpg
 bugbounty: 
 meta: ok
-verdict: ftbfs
 date: 2021-11-17
-signer: 
+signer:
+reviewCurrent:
+  date: 2021-11-17
+  version: 2.0.2
+  appHashes: []
+  verdict: ftbfs 
 reviewArchive: 
 twitter: MixinMessenger
 social:

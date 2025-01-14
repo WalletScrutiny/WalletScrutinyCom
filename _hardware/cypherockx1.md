@@ -31,26 +31,31 @@ bugbounty:
 meta: ok
 verdict: reproducible
 date: 2024-12-10
-signer: 
+signer:
+reviewCurrent:
+  date: 2024-12-10
+  version: 0.6.1282
+  appHashes: [2d8ea19e1d257280eb21fbe98b1539389b456176284fe77012dd9be54423a93d]
+  verdict: reproducible 
 reviewArchive:
 - data: 2024-11-29
   version: 0.6.1280
-  appHash: 4407693c9d055870e2b5c7a390087bf4aa8274c9c272c8a1f7b825884a417de2
+  appHash: [4407693c9d055870e2b5c7a390087bf4aa8274c9c272c8a1f7b825884a417de2]
   gitRevision: 5d7b9b51299533649649997ba132ef2bd73f49f5
   verdict: reproducible
-- data: 2024-11-05
+- date: 2024-11-05
   version: 0.6.768
-  appHash: be1594eb974efa7b2eac3e251c7c851e91c814fbd6378e6e8fd6e778156e8674
+  appHashes: [be1594eb974efa7b2eac3e251c7c851e91c814fbd6378e6e8fd6e778156e8674]
   gitRevision: c44d57846d87ed548dba1617429f7f227b6ec56e
   verdict: reproducible
-- data: 2023-05-25
+- date: 2023-05-25
   version: 0.4.3075
-  appHash: 656945ae37510bb1b7452c97d27cd5b638ddb0119e44e9af5aa32e02302f458e
+  appHashes: [656945ae37510bb1b7452c97d27cd5b638ddb0119e44e9af5aa32e02302f458e]
   gitRevision: df67e48af949af6feceb8818552f44bb4245953a
   verdict: reproducible
-- data: 2023-04-06
+- date: 2023-04-06
   version: 0.4.2307
-  appHash: 09ed533290cdff4ca5f8148597a4d0a924ab5f10010a30ec2866abd39558a62d
+  appHashes: [09ed533290cdff4ca5f8148597a4d0a924ab5f10010a30ec2866abd39558a62d]
   gitRevision: 6e003e6ad691140f3665fcf18953e97e301150ca
   verdict: reproducible
 twitter: CypherockWallet

@@ -21,9 +21,13 @@ issue: https://github.com/bithyve/bitcointribe/issues/2544
 icon: io.hexawallet.hexa2.png
 bugbounty: 
 meta: ok
-verdict: ftbfs
 date: 2024-08-23
-signer: 
+signer:
+reviewCurrent:
+  date: 2024-08-23
+  version: 2.4.6
+  appHashes: []
+  verdict: ftbfs 
 reviewArchive: 
 twitter: HexaWallet
 social:

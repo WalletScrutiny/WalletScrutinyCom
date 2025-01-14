@@ -19,9 +19,13 @@ issue:
 icon: io.horizontalsystems.bank-wallet.jpg
 bugbounty: 
 meta: ok
-verdict: nonverifiable
 date: 2020-12-19
-signer: 
+signer:
+reviewCurrent:
+  date: 2020-12-19
+  version: 0.41.1
+  appHashes: []
+  verdict: nonverifiable
 reviewArchive: 
 twitter: unstoppablebyhs
 social:

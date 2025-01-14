@@ -21,9 +21,13 @@ issue: https://github.com/Foundation-Devices/envoy/issues/1395
 icon: com.foundationdevices.envoy.jpg
 bugbounty: 
 meta: ok
-verdict: nonverifiable
 date: 2024-11-22
-signer: 
+signer:
+reviewCurrent:
+  date: 2024-11-22
+  version: 1.8.4 
+  appHashes: [7d883cf4ac02b16238e2075a726db8dcefd7250f8461d06565e2daf9b520e2be, c7283366b3c0857aae728dfa38d5776985362c000864d11ad95e5ea446019bae, 2e8d46dc9d6df35d69b1f796e1ff44dd5eef92aafcb94c88159a7dd96c6527bd, a3830481af62bf78d71a3e628f837fc76959d38028e985945bea956f8e80a931]
+  verdict: nonverifiable  
 reviewArchive: 
 twitter: FOUNDATIONdvcs
 social:

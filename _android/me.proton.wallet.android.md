@@ -20,9 +20,13 @@ issue: https://github.com/ProtonWallet/flutter-app/issues/4
 icon: me.proton.wallet.android.png
 bugbounty: 
 meta: ok
-verdict: ftbfs
 date: 2024-08-12
-signer: 
+signer:
+reviewCurrent:
+  date: 2024-08-12
+  version: VARY
+  appHashes: []
+  verdict: ftbfs 
 reviewArchive: 
 twitter: ProtonPrivacy
 social:
