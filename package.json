@@ -51,6 +51,7 @@
     "@nostr-dev-kit/ndk": "^2.10.7",
     "dompurify": "^3.2.3",
     "jquery": "^3.7.1",
-    "marked": "^15.0.6"
+    "marked": "^15.0.6",
+    "ws": "^8.18.0"
   }
 }
