@@ -1,13 +1,15 @@
 export const explicitRelayUrls = [
-  "wss://relay.primal.net/",
-  "wss://relay.zapstore.dev/",
-  "wss://relay.damus.io/",
-  "wss://relay.nostr.net/",
-  "wss://relay.snort.social/",
-  "wss://nostr-pub.wellorder.net/"
+  "wss://relay.primal.net/",          // CA
+  "wss://relay.damus.io/",            // CA
+  "wss://strfry.iris.to/",            // CA
+  "wss://vidono.apps.slidestr.net/",  // FR
+  "wss://relay.nostr.band/",          // FI
+  "wss://nostr.mom/"                  // DE (rate-limited)
 ];
 
-// Attestations
-export const assetRegistrationKind = 106300; // 1063
-export const attestationKind = 303010; // 30301
-export const endorsementKind = 303020; // 30302
+// Verifications
+export const assetRegistrationKind = 1266; // 1063
+export const verificationKind = 32303; // 30301
+export const endorsementKind = 30302;
+
+export const verificationsFeatureSinceTS = 1742220163;
