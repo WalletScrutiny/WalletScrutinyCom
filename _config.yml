@@ -144,6 +144,7 @@ exclude:
   - assets/js/vendor
   - assets/css/barlow.css
   - assets/css/styles.css
+  - backup
   - config
   - webpack.config.js
   - log

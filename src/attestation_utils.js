@@ -1,8 +1,5 @@
 import NDK, {NDKEvent, NDKNip07Signer, NDKPublishError} from "@nostr-dev-kit/ndk";
-
-const assetRegistrationKind = 106300; // 1063
-const attestationKind = 303010; // 30301
-const endorsementKind = 303020; // 30302
+import { assetRegistrationKind, attestationKind, endorsementKind, explicitRelayUrls } from "./nostr-constants.mjs";
 
 const connectTimeout = 2000;
 
@@ -383,14 +380,7 @@ window.getNpubFromPubkey = getNpubFromPubkey;
 const nip07signer = new NDKNip07Signer();
 
 const ndk = new NDK({
-  explicitRelayUrls: [
-    "wss://relay.primal.net/",
-    "wss://relay.zapstore.dev/",
-    "wss://relay.damus.io/",
-    "wss://relay.nostr.net/",
-    "wss://relay.snort.social/",
-    "wss://nostr-pub.wellorder.net/"
-  ],
+  explicitRelayUrls: explicitRelayUrls,
 });
 
 await ndk.connect(connectTimeout);

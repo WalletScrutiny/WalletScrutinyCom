@@ -13,3 +13,4 @@ vendor/
 images/social/
 _data/git.yml
 dist/
+backup/
