@@ -14,6 +14,7 @@ RUN apt update && apt install -y \
     zip \
     libglu1-mesa \
     wget \
+    sudo \
     clang \
     cmake \
     ninja-build \
@@ -27,16 +28,14 @@ RUN wget -q https://github.com/google/bundletool/releases/download/1.17.2/bundle
     echo '#!/bin/bash\njava -jar /usr/local/bin/bundletool.jar "$@"' > /usr/local/bin/bundletool && \
     chmod +x /usr/local/bin/bundletool
 
-RUN apt update && apt install -y sudo
 RUN adduser --disabled-password --gecos '' $USER
 RUN adduser $USER sudo
 RUN echo '%sudo ALL=(ALL) NOPASSWD:ALL' >> /etc/sudoers
 
-USER $USER
-RUN sudo apt update 
-
 # Install OpenJDK 17
-RUN sudo apt-get update && sudo apt-get install -y openjdk-17-jdk && sudo rm -rf /var/lib/apt/lists/*
+RUN sudo apt-get install -y openjdk-17-jdk && sudo rm -rf /var/lib/apt/lists/*
+
+USER $USER
 
 # Install Rust
 RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y

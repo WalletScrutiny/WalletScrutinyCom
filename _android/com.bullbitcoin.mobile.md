@@ -46,68 +46,70 @@ We have successfully integrated the bullbitcoin dockerfile with the testAAB.sh s
 
 `$ ./testAAB.sh -d /var/shared/apk/com.bullbitcoin.mobile/0.4.0/ -s /var/shared/device-spec/a11/device-spec.json` 
 
+========================================
+
 ## Diff results 
 
+*Excludes AndroidManifest.xml and other signing related diffs.
+
+**armeabi_v7a.apk** - nonverifiable
+
+6a6747180656be691839738a8c5c40528afc7820cb7355e1f7fde7515c99997f - Official
+8329375919aa765b863b5be3655b6b193c85487bb67f752de67f49f4eedacd34 - Built 
+
 ```
-Differences found between /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/armeabi_v7a and /tmp/test_com.bullbitcoin.mobile_0.4.0/fromBuild-unzipped/armeabi_v7a
-Binary files /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/armeabi_v7a/AndroidManifest.xml and /tmp/test_com.bullbitcoin.mobile_0.4.0/fromBuild-unzipped/armeabi_v7a/AndroidManifest.xml differ
-Binary files /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/armeabi_v7a/lib/armeabi-v7a/libapp.so and /tmp/test_com.bullbitcoin.mobile_0.4.0/fromBuild-unzipped/armeabi_v7a/lib/armeabi-v7a/libapp.so differ
-Binary files /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/armeabi_v7a/lib/armeabi-v7a/libboltz_dart.so and /tmp/test_com.bullbitcoin.mobile_0.4.0/fromBuild-unzipped/armeabi_v7a/lib/armeabi-v7a/libboltz_dart.so differ
-Binary files /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/armeabi_v7a/lib/armeabi-v7a/liblwk_dart.so and /tmp/test_com.bullbitcoin.mobile_0.4.0/fromBuild-unzipped/armeabi_v7a/lib/armeabi-v7a/liblwk_dart.so differ
-Binary files /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/armeabi_v7a/lib/armeabi-v7a/libpayjoin_flutter.so and /tmp/test_com.bullbitcoin.mobile_0.4.0/fromBuild-unzipped/armeabi_v7a/lib/armeabi-v7a/libpayjoin_flutter.so differ
-Only in /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/armeabi_v7a: META-INF
-Only in /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/armeabi_v7a: stamp-cert-sha256
-Differences saved to /tmp/test_com.bullbitcoin.mobile_0.4.0/diff_armeabi_v7a.txt
+  - libapp.so
+  - libboltz_dart.so
+  - libllwk_dart.so
+  - libpayjoin_flutter.so
+```
 
-Comparing base...
-Differences found between /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/base and /tmp/test_com.bullbitcoin.mobile_0.4.0/fromBuild-unzipped/base
-Binary files /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/base/AndroidManifest.xml and /tmp/test_com.bullbitcoin.mobile_0.4.0/fromBuild-unzipped/base/AndroidManifest.xml differ
-Binary files /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/base/res/xml/splits0.xml and /tmp/test_com.bullbitcoin.mobile_0.4.0/fromBuild-unzipped/base/res/xml/splits0.xml differ
-Binary files /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/base/resources.arsc and /tmp/test_com.bullbitcoin.mobile_0.4.0/fromBuild-unzipped/base/resources.arsc differ
-Only in /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/base: stamp-cert-sha256
-Differences saved to /tmp/test_com.bullbitcoin.mobile_0.4.0/diff_base.txt
+The **.so** files listed are shared object libraries commonly used in Android applications. 
 
-Comparing en...
-Differences found between /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/en and /tmp/test_com.bullbitcoin.mobile_0.4.0/fromBuild-unzipped/en
-Binary files /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/en/AndroidManifest.xml and /tmp/test_com.bullbitcoin.mobile_0.4.0/fromBuild-unzipped/en/AndroidManifest.xml differ
-Only in /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/en: META-INF
-Binary files /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/en/resources.arsc and /tmp/test_com.bullbitcoin.mobile_0.4.0/fromBuild-unzipped/en/resources.arsc differ
-Only in /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/en: stamp-cert-sha256
-Differences saved to /tmp/test_com.bullbitcoin.mobile_0.4.0/diff_en.txt
+- **libapp.so:** This is likely a core library for the application, containing essential native code used by the app.
+- **libboltz_dart.so:** This library is probably related to the Boltz service, which is used for atomic swaps and other cryptocurrency-related operations. The dart suffix indicates it is used with Dart, the programming language behind Flutter.
+- **libllwk_dart.so:** This library might be related to a specific functionality or service within the app, with llwk being an acronym or shorthand for that service. The dart suffix again indicates usage with Dart.
+- **libpayjoin_flutter.so:** This library is likely related to the PayJoin protocol, a privacy-enhancing Bitcoin transaction method. The flutter suffix indicates it is used within a Flutter application.
 
-Comparing xhdpi...
-Differences found between /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/xhdpi and /tmp/test_com.bullbitcoin.mobile_0.4.0/fromBuild-unzipped/xhdpi
-Binary files /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/xhdpi/AndroidManifest.xml and /tmp/test_com.bullbitcoin.mobile_0.4.0/fromBuild-unzipped/xhdpi/AndroidManifest.xml differ
-Only in /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/xhdpi: META-INF
-Binary files /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/xhdpi/resources.arsc and /tmp/test_com.bullbitcoin.mobile_0.4.0/fromBuild-unzipped/xhdpi/resources.arsc differ
-Only in /tmp/test_com.bullbitcoin.mobile_0.4.0/fromPlay-unzipped/xhdpi: stamp-cert-sha256
-Differences saved to /tmp/test_com.bullbitcoin.mobile_0.4.0/diff_xhdpi.txt
-Built base.apk not found at /tmp/test_com.bullbitcoin.mobile_0.4.0/built-split_apks/base.apk
+**base.apk** - **nonverifiable**
 
+eda2f8e832d5d07b2269ef444618f9d1b784e523d145243822680a8947d153b7 - Official
+2adc1b2499a0a23816787328b002da200f4cccefc9749a2aeadc18bdce72a8e8 - Built
+
+```
+  - splits0.xml
+```
+
+**en.apk** - **reproducible**
+
+ddaf3734e4510459ae5f0fbbf862532536bcac912e70945cd55e03be6019de93 - Official
+a2a0341f6aff908007c27d733532d238f90016b81748b08d866d07e82864f4b9 - Built 
+
+```
+  - Only signing-related diffs
+```
+
+**xhdpi.apk** - **reproducible**
+
+e1f06b911d85898bf1d9ca55064d2b586c55ea2ef4dafc71876fe4323e28198d - Official
+65040fb889b99303f5fa7fe91ad5d58f996a19bbd16bdee711618b8c7e5b631a - Built
+
+```
+  - Only signing-related diffs
 ```
 
 ## Diffoscope results
 
 **armeabi_v7a**
-{% include diffoscope-modal.html label='AndroidManifest.xml' url='/assets/diffoscope-results/android/com.bullbitcoin.mobile/0.4.0/armeabi_v7a/diffo-com.bullbitcoin.mobile_v0.4.0-armeabi_v7a-AndroidManifest.xml.html' %}
-{% include diffoscope-modal.html label='libapp.so' url='/assets/diffoscope-results/android/com.bullbitcoin.mobile/0.4.0/armeabi_v7a/diffo-com.bullbitcoin.mobile_v0.4.0-armeabi_v7a-libapp.so.html' %}
-{% include diffoscope-modal.html label='libboltz_dart.so' url='/assets/diffoscope-results/android/com.bullbitcoin.mobile/0.4.0/armeabi_v7a/diffo-com.bullbitcoin.mobile_v0.4.0-armeabi_v7a-libboltz_dart.so.html' %}
-{% include diffoscope-modal.html label='liblwk_dart.so' url='/assets/diffoscope-results/android/com.bullbitcoin.mobile/0.4.0/armeabi_v7a/diffo-com.bullbitcoin.mobile_v0.4.0-armeabi_v7a-liblwk_dart.so.html' %}
-{% include diffoscope-modal.html label='libpayjoin_flutter.so' url='/assets/diffoscope-results/android/com.bullbitcoin.mobile/0.4.0/armeabi_v7a/diffo-com.bullbitcoin.mobile_v0.4.0-armeabi_v7a-libpayjoin_flutter.so.html' %}
 
-**base**
-{% include diffoscope-modal.html label='AndroidManifest.xml' url='/assets/diffoscope-results/android/com.bullbitcoin.mobile/0.4.0/base/diffo-com.bullbitcoin.mobile_v0.4.0-base-AndroidManifest.xml.html' %}
-{% include diffoscope-modal.html label='resources.arsc' url='/assets/diffoscope-results/android/com.bullbitcoin.mobile/0.4.0/base/diffo-com.bullbitcoin.mobile_v0.4.0-base-resources.arsc.html' %}
-{% include diffoscope-modal.html label='splits0.xml' url='/assets/diffoscope-results/android/com.bullbitcoin.mobile/0.4.0/base/diffo-com.bullbitcoin.mobile_v0.4.0-base-splits0.xml.html' %}
+  {% include diffoscope-modal.html label='libapp.so' url='/assets/diffoscope-results/android/com.bullbitcoin.mobile/0.4.0/armeabi_v7a/diffo-com.bullbitcoin.mobile_v0.4.0-armeabi_v7a-libapp.so.html' %}
+  {% include diffoscope-modal.html label='libboltz_dart.so' url='/assets/diffoscope-results/android/com.bullbitcoin.mobile/0.4.0/armeabi_v7a/diffo-com.bullbitcoin.mobile_v0.4.0-armeabi_v7a-libboltz_dart.so.html' %}
+  {% include diffoscope-modal.html label='liblwk_dart.so' url='/assets/diffoscope-results/android/com.bullbitcoin.mobile/0.4.0/armeabi_v7a/diffo-com.bullbitcoin.mobile_v0.4.0-armeabi_v7a-liblwk_dart.so.html' %}
+  {% include diffoscope-modal.html label='libpayjoin_flutter.so' url='/assets/diffoscope-results/android/com.bullbitcoin.mobile/0.4.0/armeabi_v7a/diffo-com.bullbitcoin.mobile_v0.4.0-armeabi_v7a-libpayjoin_flutter.so.html' %}
 
-**en**
-{% include diffoscope-modal.html label='AndroidManifest.xml' url='/assets/diffoscope-results/android/com.bullbitcoin.mobile/0.4.0/en/diffo-com.bullbitcoin.mobile_v0.4.0-en-AndroidManifest.xml.html' %}
-{% include diffoscope-modal.html label='resources.arsc' url='/assets/diffoscope-results/android/com.bullbitcoin.mobile/0.4.0/en/diffo-com.bullbitcoin.mobile_v0.4.0-en-resources.arsc.html' %}
+**base** 
 
-**xhdpi**
-{% include diffoscope-modal.html label='AndroidManifest.xml' url='/assets/diffoscope-results/android/com.bullbitcoin.mobile/0.4.0/xhdpi/diffo-com.bullbitcoin.mobile_v0.4.0-xhdpi-AndroidManifest.xml.html' %}
-{% include diffoscope-modal.html label='resources.arsc' url='/assets/diffoscope-results/android/com.bullbitcoin.mobile/0.4.0/xhdpi/diffo-com.bullbitcoin.mobile_v0.4.0-xhdpi-resources.arsc.html' %}
-
+  {% include diffoscope-modal.html label='splits0.xml' url='/assets/diffoscope-results/android/com.bullbitcoin.mobile/0.4.0/base/diffo-com.bullbitcoin.mobile_v0.4.0-base-splits0.xml.html' %}
 
 ## Asciicast 
 
