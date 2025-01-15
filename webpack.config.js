@@ -10,7 +10,7 @@ module.exports = {
       './assets/js/plugins/jquery.greedy-navigation.js'
     ],
     attestation: [
-      './src/attestation_utils.js',
+      './src/attestation_utils.mjs',
       './src/assets-table.js'
     ]
   },
