@@ -10,9 +10,9 @@ appCountry:
 released: 2021-10-31
 updated: 2023-11-29
 version: 2.1.0
-stars: 3.7
+stars: 3.6
 ratings: 
-reviews: 155
+reviews: 154
 size: 
 website: https://coinchange.io
 repository: 

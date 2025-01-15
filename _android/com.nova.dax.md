@@ -4,7 +4,7 @@ title: NovaDAX - Buy & Sell Bitcoin
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.nova.dax
 appCountry: 
 released: 2019-09-20

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.stasis.stasiswallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2020-05-03
+date: 2025-01-15
 signer: 
 reviewArchive: 
 twitter: stasisnet

@@ -10,8 +10,8 @@ idd: '1587847973'
 released: 2021-10-10
 updated: 2024-11-14
 version: 5.5.33
-stars: 4.7
-reviews: 3
+stars: 4.8
+reviews: 4
 size: '146268160'
 website: https://phemex.com/
 repository: 

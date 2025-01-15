@@ -4,7 +4,7 @@ title: NGRAVE LIQUID - Crypto app
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: io.ngrave.liquid
 appCountry: 
 released: 2021-11-06

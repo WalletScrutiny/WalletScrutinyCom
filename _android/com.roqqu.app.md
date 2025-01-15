@@ -13,7 +13,7 @@ updated: 2024-12-30
 version: 2.5.43
 stars: 4.1
 ratings: 24688
-reviews: 847
+reviews: 848
 size: 
 website: https://roqqu.com
 repository: 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.rootone.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-09-11
+date: 2025-01-15
 signer: 
 reviewArchive: 
 twitter: 

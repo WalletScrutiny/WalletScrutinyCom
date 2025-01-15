@@ -32,7 +32,7 @@ social:
 - https://www.instagram.com/starworksglobal
 - https://www.youtube.com/channel/UCty8czQ20jNHRB-cTeQrUDg
 redirect_from: 
-developerName: Starworks Global Pte.Ltd.
+developerName: Starworks Global
 features: 
 
 ---

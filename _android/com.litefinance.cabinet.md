@@ -7,7 +7,7 @@ users: 100000
 appId: com.litefinance.cabinet
 appCountry: 
 released: 2022-02-09
-updated: 2025-01-04
+updated: 2025-01-13
 version: v1.2.8.1977-cabinet-legacy-release
 stars: 4.4
 ratings: 

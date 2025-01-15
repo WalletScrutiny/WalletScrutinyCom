@@ -1,6 +1,6 @@
 ---
 wsId: mona
-title: Crypto.com - Buy Bitcoin, DOGE
+title: Crypto.com - Buy Bitcoin, CRO
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: co.mona.Monaco
 appCountry: 
 idd: 1262148500
 released: 2017-08-31
-updated: 2025-01-07
-version: 3.202.10
+updated: 2025-01-13
+version: 3.202.22
 stars: 4.6
-reviews: 270464
-size: '666532864'
+reviews: 272254
+size: '666528768'
 website: https://crypto.com/
 repository: 
 issue: 

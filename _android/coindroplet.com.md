@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: CoinDroplet Labs, LLC
+developerName: Trustee Plays LLC
 features: 
 
 ---

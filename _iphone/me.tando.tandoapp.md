@@ -9,8 +9,8 @@ idd: '6584531359'
 released: 2024-10-28
 updated: 2025-01-08
 version: 1.1.9
-stars: 0
-reviews: 0
+stars: 5
+reviews: 3
 size: '29359104'
 website: https://tando.me/
 repository: 

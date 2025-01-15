@@ -28,7 +28,7 @@ reviewArchive:
   version: 0.3.2
   appHash: 
   gitRevision: 3fadfe82d841cefe9dabe322d1422f8404c98484
-  verdict: nonverifiable 
+  verdict: nonverifiable
 twitter: bullbitcoin_
 social:
 - https://www.facebook.com/bullbitcoindotcom
