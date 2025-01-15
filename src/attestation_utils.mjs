@@ -1,5 +1,7 @@
 import NDK, {NDKEvent, NDKNip07Signer, NDKPrivateKeySigner, NDKPublishError} from "@nostr-dev-kit/ndk";
-import { assetRegistrationKind, attestationKind, endorsementKind, explicitRelayUrls } from "./nostr-constants.mjs";
+import { nip19 } from 'nostr-tools';
+import DOMPurify from 'dompurify';
+import { assetRegistrationKind, verificationKind, endorsementKind, explicitRelayUrls, verificationsFeatureSinceTS } from "./nostr-constants.mjs";
 import WebSocket from "ws";
 if (typeof global !== 'undefined') {
   global.WebSocket = WebSocket; // Make WebSocket available globally as NDK expects it
@@ -47,29 +49,25 @@ const userHasBrowserExtension = function() {
       resolve(false);
     }
     if (window.nostr) {
-        resolve(true);
+      resolve(true);
     }
 
     // Wait a bit for the extension to load
     setTimeout(() => {
-        console.debug("Browser extension:", Boolean(window.nostr));
-        resolve(Boolean(window.nostr));
+      console.debug("Browser extension:", Boolean(window.nostr));
+      resolve(Boolean(window.nostr));
     }, 100);
   });
 }
 
-const validateSHA256 = function(sha256) {
-  if (!sha256 || !/^[0-9a-f]{64}$/i.test(sha256)) {
-    throw new Error("Invalid SHA256 hash: must be a 64-character hexadecimal string");
+const validateSHA256 = function(hashes) {
+  if (!hashes || !Array.isArray(hashes) || hashes.length === 0) {
+    throw new Error("You must add at least one SHA256 hash");
   }
-}
-
-const validateUrl = function(url) {
-  try {
-    new URL(url);
-    return true;
-  } catch (error) {
-    throw new Error("Invalid URL format");
+  for (const hash of hashes) {
+    if (!/^[0-9a-f]{64}$/i.test(hash)) {
+      throw new Error("Invalid SHA256 hash: must be a 64-character hexadecimal string: " + hash);
+    }
   }
 }
 
@@ -84,33 +82,48 @@ const getNpubFromPubkey = function (pubkey) {
 }
 
 const createAssetRegistration = async function ({
-  sha256,
-  appId,
-  url,
-  version,
-  platform,
-  name
-}) {
-  validateSHA256(sha256);
-  if (url) {
-    validateUrl(url);
+                                                  sha256,
+                                                  appId,
+                                                  version,
+                                                  platform,
+                                                  description,
+                                                  createdAt = null
+                                                }) {
+  validateSHA256([sha256]);
+
+  if (!appId || !version || !description) {
+    throw new Error("Missing required parameters");
   }
 
-  if (!appId || !version || !name) {
-    throw new Error("Missing required parameters");
+  // Limit length of parameters
+  if (appId && appId.length > 50) {
+    throw new Error("App ID must be 50 characters or less");
+  }
+  if (version && version.length > 15) {
+    throw new Error("Version must be 15 characters or less");
+  }
+  if (platform && platform.length > 10) {
+    throw new Error("Platform must be 10 characters or less");
+  }
+  if (description && description.length > 120) {
+    throw new Error("Description must be 120 characters or less");
   }
 
   const ndkEvent = new NDKEvent(ndk);
   ndkEvent.kind = assetRegistrationKind;
-  ndkEvent.content = name;
+  ndkEvent.content = description;
+  ndkEvent.created_at = getCreatedAt(createdAt);
   ndkEvent.tags = [
     ["x", sha256],
     ["ox", sha256],
     ["i", appId],
-    ["url", url ?? ''],
-    ["version", version],
-    ["platform", platform ?? '']
+    ["version", version]
   ];
+  if (platform) {
+    ndkEvent.tags.push(["platform", platform]);
+  }
+
+  eventSanitize(ndkEvent);
 
   try {
     const publishedToRelays = await ndkEvent.publish();
@@ -129,34 +142,76 @@ const createAssetRegistration = async function ({
   }
 }
 
-const createAttestation = async function ({sha256, content, status, assetEventId}) {
-  console.debug("Creating attestation for asset: ", assetEventId);
+const createVerification = async function ({
+                                             hashes,
+                                             description,
+                                             content,
+                                             status,
+                                             appId,
+                                             version,
+                                             platform,
+                                             createdAt = null
+                                           }) {
+  validateSHA256(hashes);
 
-  validateSHA256(sha256);
-
-  if (!content || !status || !assetEventId) {
+  if (!content || !status) {
     throw new Error("Missing required parameters");
   }
 
-  if (!['reproducible', 'not_reproducible', 'ftbfs'].includes(status)) {
+  if (!['reproducible', 'not_reproducible', 'ftbfs', 'spam', 'notag', 'nosource', 'warning', 'obfuscated'].includes(status)) {
     throw new Error("Invalid status");
   }
 
+  // Limit length of parameters
+  if (appId && appId.length > 50) {
+    throw new Error("App ID must be 50 characters or less");
+  }
+  if (version && version.length > 15) {
+    throw new Error("Version must be 15 characters or less");
+  }
+  if (platform && platform.length > 10) {
+    throw new Error("Platform must be 10 characters or less");
+  }
+  if (description && description.length > 120) {
+    throw new Error("Description must be 120 characters or less");
+  }
+  if (content && content.length > 60000) {
+    throw new Error("Content must be 60000 characters or less");
+  }
+
   const ndkEvent = new NDKEvent(ndk);
-  ndkEvent.kind = attestationKind;
-  ndkEvent.content = content;
+  ndkEvent.kind = verificationKind;
+  ndkEvent.created_at = getCreatedAt(createdAt);
+  ndkEvent.content = JSON.stringify({
+    description: description || '',
+    content: content,
+  });
 
   ndkEvent.tags = [
-    ["x", sha256],
     ["status", status]
   ];
 
+  if (appId) {
+    ndkEvent.tags.push(["i", appId]);
+  }
+  if (version) {
+    ndkEvent.tags.push(["version", version]);
+  }
+  if (platform) {
+    ndkEvent.tags.push(["platform", platform]);
+  }
+  hashes.forEach(hash => {
+    ndkEvent.tags.push(["x", hash]);
+  });
+
+  eventSanitize(ndkEvent);
+
   try {
     const publishedToRelays = await ndkEvent.publish();
-    console.log(`published attestation to ${publishedToRelays.size} relays`);
+    console.log(`published verification to ${publishedToRelays.size} relays`);
     return ndkEvent;
   } catch (error) {
-    console.error("error publishing attestation to relays", error);
+    console.error("error publishing verification to relays", error);
     if (error instanceof NDKPublishError) {
       for (const [relay, err] of error.errors) {
         console.error(`error publishing to relay ${relay.url}`, err);
@@ -167,22 +222,22 @@ const createAttestation = async function ({sha256, content, status, assetEventId
   }
 }
 
-const createEndorsement = async function ({sha256, content, status, attestationEventId}) {
-  console.debug("Creating endorsement for attestation: ", attestationEventId);
+const createEndorsement = async function ({sha256, content, status, verificationEventId, createdAt = null}) {
+  console.debug("Creating endorsement for verification: ", verificationEventId);
 
-  validateSHA256(sha256);
+  validateSHA256([sha256]);
 
-  if (!content || !status || !attestationEventId) {
+  if (!content || !status || !verificationEventId) {
     throw new Error("Missing required parameters");
   }
 
   const ndkEvent = new NDKEvent(ndk);
   ndkEvent.kind = endorsementKind;
   ndkEvent.content = content;
-
+  ndkEvent.created_at = getCreatedAt(createdAt);
   ndkEvent.tags = [
     ["x", sha256],
-    ["d", attestationEventId],
+    ["d", verificationEventId],
     ["status", status]
   ];
 
@@ -201,6 +256,10 @@ const createEndorsement = async function ({sha256, content, status, attestationE
   }
 }
 
+function getCreatedAt(createdAt) {
+  return createdAt ? Math.floor(new Date(createdAt).getTime() / 1000) : Math.floor(new Date().getTime() / 1000);
+}
+
 function getFirstTag(event, tagName) {
   const tags = event.getMatchingTags(tagName);
   return tags.length === 0 ? "" : tags[0][1];
@@ -212,111 +271,176 @@ const getTimestampMonthsAgo = function(months = 6) {
   return Math.floor(date.getTime() / 1000); // Convert to Unix timestamp (seconds)
 }
 
-const getAllAssetInformation = async function({ months, assetsPubkey, attestationsPubkey, appId, sha256, getAssetsForMyAttestations }) {
-  // Filter Assets
+function isValidJSONObject(str) {
+  try {
+    const parsed = JSON.parse(str);
+    return parsed && typeof parsed === 'object' && !Array.isArray(parsed);
+  } catch (e) {
+    return false;
+  }
+}
+
+function eventSanitize(event) {
+  const isBrowser = typeof window !== 'undefined';
+
+  // Sanitize content
+  if (isValidJSONObject(event.content)) {
+    const contentObject = JSON.parse(event.content);
+
+    Object.keys(contentObject).forEach(key => {
+      let sanitizedContent = isBrowser ? DOMPurify.sanitize(contentObject[key]) : contentObject[key];
+
+      if (key === 'description') {
+        sanitizedContent = sanitizedContent.substring(0, 120);
+      } else if (key === 'content') {
+        sanitizedContent = sanitizedContent.substring(0, 60000);
+      }
+
+      contentObject[key] = sanitizedContent;
+    });
+
+    event.content = JSON.stringify(contentObject);
+  } else {
+    event.content = isBrowser ? DOMPurify.sanitize(event.content) : event.content;
+    event.content = event.content.substring(0, 120);
+  }
+
+  // Sanitize tags
+  event.tags.forEach(tag => {
+    let sanitizedTag = isBrowser ? DOMPurify.sanitize(tag[1]) : tag[1];
+
+    if (tag[0] === 'i') {
+      sanitizedTag = sanitizedTag.substring(0, 50);
+    } else if (tag[0] === 'version') {
+      sanitizedTag = sanitizedTag.substring(0, 15);
+    } else if (['x', 'ox'].includes(tag[0])) {
+      sanitizedTag = sanitizedTag.substring(0, 64);
+    } else if (tag[0] === 'platform') {
+      sanitizedTag = sanitizedTag.substring(0, 10);
+    } else if (tag[0] === 'status') {
+      sanitizedTag = sanitizedTag.substring(0, 16);
+    }
+
+    tag[1] = sanitizedTag;
+  });
+}
+
+const getAllAssetInformation = async function({
+                                                months,
+                                                pubkey,
+                                                appId,
+                                                sha256
+                                              }) {
+  console.time('getAllAssetInformation');
   const filter_assets = {
     kinds: [assetRegistrationKind],
   };
   if (months) {
     console.debug(`Getting events from last ${months} months`);
     filter_assets.since = getTimestampMonthsAgo(months);
+  } else {
+    console.debug(`Getting events from ${verificationsFeatureSinceTS} onwards`);
+    filter_assets.since = verificationsFeatureSinceTS;
   }
-  if (assetsPubkey) {
-    filter_assets.authors = [assetsPubkey];
+  if (pubkey) {
+    filter_assets.authors = [pubkey];
   }
   if (appId) {
-    filter_assets["#i"] = [appId];
+    filter_assets["#i"] = Array.isArray(appId) ? appId : [appId];
   }
   if (sha256) {
     filter_assets["#x"] = [sha256];
   }
 
-  // Filter Attestations + Endorsements
-  const filter_attestations = {
-    kinds: [attestationKind, endorsementKind],
+
+  const filter_verifications = {
+    kinds: [verificationKind],  // TODO: Add endorsementKind
   }
   if (months) {
-    filter_attestations.since = getTimestampMonthsAgo(months);
+    filter_verifications.since = getTimestampMonthsAgo(months);
+  } else {
+    filter_verifications.since = verificationsFeatureSinceTS;
   }
-  if (attestationsPubkey) {
-    filter_attestations.authors = [attestationsPubkey];
+  if (pubkey) {
+    filter_verifications.authors = [pubkey];
+  }
+  if (appId) {
+    filter_verifications["#i"] = Array.isArray(appId) ? appId : [appId];
   }
   if (sha256) {
-    filter_attestations["#x"] = [sha256];
+    filter_verifications["#x"] = [sha256];
   }
 
-  const events = await ndk.fetchEvents([filter_assets, filter_attestations]);
+  const events = await ndk.fetchEvents([filter_assets, filter_verifications]);
+
+  events.forEach(event => {
+    eventSanitize(event);
+  });
 
   const assets = Array.from(events).filter(event => event.kind === assetRegistrationKind);
-  const attestations = Array.from(events).filter(event => event.kind === attestationKind);
-  const endorsements = Array.from(events).filter(event => event.kind === endorsementKind);
+  const verifications = Array.from(events).filter(event => event.kind === verificationKind);
+  //const endorsements = Array.from(events).filter(event => event.kind === endorsementKind);
 
   const assetsMap = new Map();
-  const attestationsMap = new Map();
+  const verificationsMap = new Map();
   const endorsementsMap = new Map();
 
-  attestations.forEach(attestation => {
-    const sha256 = getFirstTag(attestation, 'x');
-    if (sha256) {
-      if (!attestationsMap.has(sha256)) {
-        attestationsMap.set(sha256, []);
-      }
-      attestationsMap.get(sha256).push(attestation);
-    }
-  });
-
-  endorsements.forEach(endorsement => {
-    const attestationEventId = getFirstTag(endorsement, 'd');
-    if (attestationEventId) {
-      if (!endorsementsMap.has(attestationEventId)) {
-        endorsementsMap.set(attestationEventId, []);
-      }
-      endorsementsMap.get(attestationEventId).push(endorsement);
-    }
-  });
-
-  if (getAssetsForMyAttestations) {
-    // Iterates over all the attestations. For the ones matching the pubkey, check
-    // if the asset they're referring to is already loaded. If it isn't, load those
-    // assets from Nostr in a second step.
-
-    const attestedAssetsToBeRequestedSet = new Set();
-    const sha256OfAssetsAlreadyLoadedSet = new Set(assets.map(asset => getFirstTag(asset, 'x')));
-    
-    attestationsMap.forEach((attestations, sha256) => {
-      attestations.forEach(attestation => {
-        if (attestation.pubkey === assetsPubkey) {
-          if (!sha256OfAssetsAlreadyLoadedSet.has(sha256)) {
-            attestedAssetsToBeRequestedSet.add(sha256);
-          }
-        }
-      });
-    });
-
-    if (attestedAssetsToBeRequestedSet.size > 0) {
-      const extraAssetsToRequest = await ndk.fetchEvents({
-        kinds: [assetRegistrationKind],
-        "#x": Array.from(attestedAssetsToBeRequestedSet)
-      });
-      assets.push(...Array.from(extraAssetsToRequest));
-    }
-  }
-
   assets.forEach(asset => {
-    const sha256 = getFirstTag(asset, 'x');
-    if (sha256) {
-      if (!assetsMap.has(sha256)) {
-        assetsMap.set(sha256, []);
+    const sha256FromEventTag = getFirstTag(asset, 'x');
+    if (sha256FromEventTag) {
+      if (!assetsMap.has(sha256FromEventTag)) {
+        assetsMap.set(sha256FromEventTag, []);
       }
-      assetsMap.get(sha256).push(asset);
+      assetsMap.get(sha256FromEventTag).push(asset);
     }
   });
+
+  verifications.forEach(verification => {
+    const sha256FromEventTag = getFirstTag(verification, 'x');
+    if (sha256FromEventTag) {
+      if (!verificationsMap.has(sha256FromEventTag)) {
+        verificationsMap.set(sha256FromEventTag, []);
+      }
+      verificationsMap.get(sha256FromEventTag).push(verification);
+    }
+  });
+
+  /*
+  endorsements.forEach(endorsement => {
+    const verificationEventId = getFirstTag(endorsement, 'd');
+    if (verificationEventId) {
+      if (!endorsementsMap.has(verificationEventId)) {
+        endorsementsMap.set(verificationEventId, []);
+      }
+      endorsementsMap.get(verificationEventId).push(endorsement);
+    }
+  });
+  */
+
+  console.timeEnd('getAllAssetInformation');
 
   return {
     assets: assetsMap,
-    attestations: attestationsMap,
+    verifications: verificationsMap,
     endorsements: endorsementsMap
   };
+}
+
+function getAppInfoFromEventInfo(eventInfo) {
+  const isAsset = eventInfo.kind === assetRegistrationKind;
+
+  const createdAt = eventInfo.created_at;
+  const description = isAsset ? '' : JSON.parse(eventInfo.content).description;
+  const content = isAsset ? eventInfo.content : JSON.parse(eventInfo.content).content;
+  const appId = eventInfo.tags.find(tag => tag[0] === 'i')?.[1];
+  const version = eventInfo.tags.find(tag => tag[0] === 'version')?.[1];
+  const platform = eventInfo.tags.find(tag => tag[0] === 'platform')?.[1];
+  const status = eventInfo.tags.find(tag => tag[0] === 'status')?.[1];
+  const url = eventInfo.tags.find(tag => tag[0] === 'url')?.[1];
+  const gitRevision = eventInfo.tags.find(tag => tag[0] === 'git_revision')?.[1];
+  const appHashes = eventInfo.tags.filter(tag => tag[0] === 'x').map(tag => tag[1]);
+
+  return { isAsset, appId, version, createdAt, description, content, platform, status, url, gitRevision, appHashes };
 }
 
 function showToast(message, type = 'success', duration = 4000) {
@@ -343,7 +467,7 @@ function showToast(message, type = 'success', duration = 4000) {
     const toast = document.createElement('div');
     toast.className = 'toast';
     toast.style.backgroundColor = color;
-    toast.textContent = message;
+    toast.innerHTML = message;
     document.body.appendChild(toast);
 
     // Show toast
@@ -370,6 +494,7 @@ const createNostrNote = async function (message) {
   try {
     const publishedToRelays = await ndkEvent.publish();
     console.debug(`published note to ${publishedToRelays.size} relays`);
+    return ndkEvent.id;
   } catch (error) {
     console.error("error publishing note to relays", error);
     if (error instanceof NDKPublishError) {
@@ -381,10 +506,67 @@ const createNostrNote = async function (message) {
   }
 }
 
+function setupAppIdAutocomplete() {
+  const appIdInput = document.getElementById('appId');
+  const suggestionsContainer = document.getElementById('appIdSuggestions');
+
+  function filterWallets(searchText) {
+    if (!window.wallets) return [];
+    return window.wallets.filter(wallet => {
+      const searchLower = searchText.toLowerCase();
+      return wallet.appId.toLowerCase().includes(searchLower) ||
+        wallet.title.toLowerCase().includes(searchLower);
+    });
+  }
+
+  // Helper function to decode HTML entities
+  function decodeHtmlEntities(text) {
+    const textArea = document.createElement('textarea');
+    textArea.innerHTML = text;
+    return textArea.value;
+  }
+
+  function showSuggestions(suggestions) {
+    suggestionsContainer.innerHTML = '';
+    if (suggestions.length === 0) {
+      suggestionsContainer.style.display = 'none';
+      return;
+    }
+
+    suggestions.forEach(wallet => {
+      const div = document.createElement('div');
+      div.className = 'suggestion-item';
+      // Decode HTML entities in the title before displaying
+      const decodedTitle = decodeHtmlEntities(wallet.title);
+      div.textContent = `${decodedTitle}${wallet.folder ? ' (' + wallet.folder + ')' : ''} - ${wallet.appId}`;
+      div.onclick = () => {
+        appIdInput.value = wallet.appId;
+        suggestionsContainer.style.display = 'none';
+      };
+      suggestionsContainer.appendChild(div);
+    });
+
+    suggestionsContainer.style.display = 'block';
+  }
+
+  appIdInput.addEventListener('input', (e) => {
+    const searchText = e.target.value;
+    const filteredWallets = filterWallets(searchText);
+    showSuggestions(filteredWallets);
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!appIdInput.contains(e.target) && !suggestionsContainer.contains(e.target)) {
+      suggestionsContainer.style.display = 'none';
+    }
+  });
+}
+
+
 if (typeof window !== 'undefined') {
   window.nostrConnect = nostrConnect;
   window.createAssetRegistration = createAssetRegistration;
-  window.createAttestation = createAttestation;
+  window.createVerification = createVerification;
   window.createEndorsement = createEndorsement;
   window.createNostrNote = createNostrNote;
   window.getNostrProfile = getNostrProfile;
@@ -394,12 +576,15 @@ if (typeof window !== 'undefined') {
   window.userHasBrowserExtension = userHasBrowserExtension;
   window.showToast = showToast;
   window.getNpubFromPubkey = getNpubFromPubkey;
+  window.setupAppIdAutocomplete = setupAppIdAutocomplete;
+  window.getAppInfoFromEventInfo = getAppInfoFromEventInfo;
+  window.nip19 = nip19;
 }
 
 export {
   nostrConnect,
   createAssetRegistration,
-  createAttestation,
+  createVerification,
   createEndorsement,
   createNostrNote,
   getNostrProfile,
@@ -408,5 +593,8 @@ export {
   getUserPubkey,
   userHasBrowserExtension,
   showToast,
-  getNpubFromPubkey
+  getNpubFromPubkey,
+  setupAppIdAutocomplete,
+  getAppInfoFromEventInfo,
+  nip19
 };
