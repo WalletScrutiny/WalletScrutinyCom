@@ -1,7 +1,7 @@
 #!/bin/bash
-# testAAB.sh v0.1.0-alpha.6
+# testAAB.sh v0.1.0-alpha.7
 # This script tests if an AAB and then split apks can be built from source.
-# Currently works with io.nunchuk.android_v1.9.53
+# Currently works with io.nunchuk.android_v1.9.53, com.bullbitcoin.mobile_v0.4.0
 
 # Uncomment for debugging
 # set -x
@@ -29,6 +29,7 @@ while [[ "$#" -gt 0 ]]; do
   case $1 in
     -d|--directory) apkDir="$2"; shift ;;
     -c|--cleanup) shouldCleanup=true ;;
+    -s|--spec) deviceSpec="$2"; shift ;;
     *) echo "Unknown argument: $1"; exit 1 ;;
   esac
   shift
@@ -43,6 +44,9 @@ if [ ! -d "$apkDir" ]; then
   echo "APK directory $apkDir not found!"
   exit 1
 fi
+
+# export deviceSpec for device-specific scripts that may need it
+export deviceSpec
 
 # Functions
 # =========
@@ -228,7 +232,14 @@ list_apk_hashes "$workDir/built-split_apks" "Built APKs Hashes"
 for apk_file in "$workDir/built-split_apks"/*.apk; do
   [ -e "$apk_file" ] || continue
   apk_name=$(basename "$apk_file")
-  # Normalize apk_name
+
+  # Special handling for base-master.apk - match with fromPlay extraction to base
+  if [ "$apk_name" = "base-master.apk" ]; then
+    mkdir -p "$workDir/fromBuild-unzipped/base"
+    unzip -o "$apk_file" -d "$workDir/fromBuild-unzipped/base"
+    continue
+  fi
+    # Normalize apk_name
   normalized_name=$(echo "$apk_name" | sed 's/^base-//; s/^split_config\.//; s/\.apk$//')
   mkdir -p "$workDir/fromBuild-unzipped/$normalized_name"
   unzip -o "$apk_file" -d "$workDir/fromBuild-unzipped/$normalized_name"
