@@ -5,11 +5,10 @@ title: "Broken Link"
 excerpt: "This link appears to be broken or no longer available."
 sitemap: false
 ---
-
 <div class="container">
-  <img src="https://www.contentellect.com/wp-content/uploads/2022/02/broken-link-building-meme.jpg" alt="Broken Link" class="broken-img">
+  <img src="/images/broken_link.jpg" alt="Broken Link" class="broken-img">
   <p>
-    We have found <span id="broken-url"></span> to not be correct anymore
+    We have found <a id="broken-url" href=""></a> to not be correct anymore
     and the content neither to be found on the
     <a id="archive-link" href="https://web.archive.org">Internet Archive</a>. 
     If you know of a new, correct address, please
@@ -51,7 +50,9 @@ sitemap: false
   
   if (match) {
       const brokenUrl = decodeURIComponent(match[1]);
-      document.getElementById('broken-url').textContent = brokenUrl;
+      const urlElement = document.getElementById('broken-url');
+      urlElement.textContent = brokenUrl;
+      urlElement.href = brokenUrl;
       
       fetch(`https://archive.org/wayback/available?url=${encodeURIComponent(brokenUrl)}`)
           .then(response => response.json())
