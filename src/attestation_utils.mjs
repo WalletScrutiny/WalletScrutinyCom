@@ -5,7 +5,36 @@ if (typeof global !== 'undefined') {
   global.WebSocket = WebSocket; // Make WebSocket available globally as NDK expects it
 }
 
+let ndk;
+
 const connectTimeout = 2000;
+
+const nostrConnect = async function (nostrPrivateKey) {
+  let signer;
+
+  if (await userHasBrowserExtension()) {
+    console.debug("Signer: Using browser extension");
+    signer = new NDKNip07Signer();
+  } else if (nostrPrivateKey) {
+    console.debug("Signer: Using private key");
+    signer = new NDKPrivateKeySigner(nostrPrivateKey);
+  } else {
+    console.debug("Signer: No signer available");
+    signer = null;
+  }
+
+  ndk = new NDK({
+    explicitRelayUrls: explicitRelayUrls,
+    signer: signer
+  });
+
+  try {
+    await ndk.connect(connectTimeout);
+  } catch (e) {
+    console.error("ndk connect failed", e);
+    throw e;
+  }
+}
 
 const getUserPubkey = async function() {
   const signer = await nip07signer.user();
@@ -19,6 +48,7 @@ const userHasBrowserExtension = function() {
     }
     // Wait a bit for the extension to load
     setTimeout(() => {
+        console.debug("Browser extension:", Boolean(window.nostr));
         resolve(Boolean(window.nostr));
     }, 100);
   });
@@ -55,8 +85,7 @@ const createAssetRegistration = async function ({
   url,
   version,
   platform,
-  name,
-  nostrPrivateKey
+  name
 }) {
   validateSHA256(sha256);
   if (url) {
@@ -67,15 +96,6 @@ const createAssetRegistration = async function ({
     throw new Error("Missing required parameters");
   }
 
-  if (nostrPrivateKey) {
-    ndk.signer = new NDKPrivateKeySigner(nostrPrivateKey);
-  } else {
-    ndk.signer = nip07signer;
-  }
-
-  await ndk.connect(connectTimeout);
-  await new Promise(resolve => setTimeout(resolve, 5000));
-  
   const ndkEvent = new NDKEvent(ndk);
   ndkEvent.kind = assetRegistrationKind;
   ndkEvent.content = name;
@@ -91,9 +111,8 @@ const createAssetRegistration = async function ({
   try {
     const publishedToRelays = await ndkEvent.publish();
     console.log(`published to ${publishedToRelays.size} relays`)
-    delete ndk.signer;
+    return ndkEvent;
   } catch (error) {
-    delete ndk.signer;
     console.error("error publishing to relays", error);
 
     if (error instanceof NDKPublishError) {
@@ -106,7 +125,7 @@ const createAssetRegistration = async function ({
   }
 }
 
-const createAttestation = async function ({sha256, content, status, assetEventId, nostrPrivateKey}) {
+const createAttestation = async function ({sha256, content, status, assetEventId}) {
   console.debug("Creating attestation for asset: ", assetEventId);
 
   validateSHA256(sha256);
@@ -115,18 +134,9 @@ const createAttestation = async function ({sha256, content, status, assetEventId
     throw new Error("Missing required parameters");
   }
 
-  if (status !== 'reproducible' && status !== 'not_reproducible') {
+  if (!['reproducible', 'not_reproducible', 'ftbfs'].includes(status)) {
     throw new Error("Invalid status");
   }
-
-  if (nostrPrivateKey) {
-    ndk.signer = new NDKPrivateKeySigner(nostrPrivateKey);
-  } else {
-    ndk.signer = nip07signer;
-  }
-
-  await ndk.connect(connectTimeout);
-  await new Promise(resolve => setTimeout(resolve, 5000));
 
   const ndkEvent = new NDKEvent(ndk);
   ndkEvent.kind = attestationKind;
@@ -140,9 +150,8 @@ const createAttestation = async function ({sha256, content, status, assetEventId
   try {
     const publishedToRelays = await ndkEvent.publish();
     console.log(`published attestation to ${publishedToRelays.size} relays`);
-    delete ndk.signer;
+    return ndkEvent;
   } catch (error) {
-    delete ndk.signer;
     console.error("error publishing attestation to relays", error);
     if (error instanceof NDKPublishError) {
       for (const [relay, err] of error.errors) {
@@ -163,10 +172,6 @@ const createEndorsement = async function ({sha256, content, status, attestationE
     throw new Error("Missing required parameters");
   }
 
-  ndk.signer = nip07signer;
-  await ndk.connect(connectTimeout);
-  await new Promise(resolve => setTimeout(resolve, 5000));
-
   const ndkEvent = new NDKEvent(ndk);
   ndkEvent.kind = endorsementKind;
   ndkEvent.content = content;
@@ -180,9 +185,7 @@ const createEndorsement = async function ({sha256, content, status, attestationE
   try {
     const publishedToRelays = await ndkEvent.publish();
     console.log(`published endorsement to ${publishedToRelays.size} relays`);
-    delete ndk.signer;
   } catch (error) {
-    delete ndk.signer;
     console.error("error publishing endorsement to relays", error);
     if (error instanceof NDKPublishError) {
       for (const [relay, err] of error.errors) {
@@ -358,10 +361,6 @@ const createNostrNote = async function (message) {
     throw new Error("Message is required");
   }
 
-  ndk.signer = nip07signer;
-  await ndk.connect(connectTimeout);
-  await new Promise(resolve => setTimeout(resolve, 5000));
-
   const ndkEvent = new NDKEvent(ndk);
   ndkEvent.kind = 1;
   ndkEvent.content = message;
@@ -369,9 +368,7 @@ const createNostrNote = async function (message) {
   try {
     const publishedToRelays = await ndkEvent.publish();
     console.debug(`published note to ${publishedToRelays.size} relays`);
-    delete ndk.signer;
   } catch (error) {
-    delete ndk.signer;
     console.error("error publishing note to relays", error);
     if (error instanceof NDKPublishError) {
       for (const [relay, err] of error.errors) {
@@ -383,6 +380,7 @@ const createNostrNote = async function (message) {
 }
 
 if (typeof window !== 'undefined') {
+  window.nostrConnect = nostrConnect;
   window.createAssetRegistration = createAssetRegistration;
   window.createAttestation = createAttestation;
   window.createEndorsement = createEndorsement;
@@ -398,6 +396,7 @@ if (typeof window !== 'undefined') {
 }
 
 export {
+  nostrConnect,
   createAssetRegistration,
   createAttestation,
   createEndorsement,
@@ -411,11 +410,3 @@ export {
   showToast,
   getNpubFromPubkey
 };
-const nip07signer = new NDKNip07Signer();
-
-const ndk = new NDK({
-  explicitRelayUrls: explicitRelayUrls,
-});
-
-await ndk.connect(connectTimeout);
-

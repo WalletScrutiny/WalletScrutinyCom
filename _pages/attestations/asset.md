@@ -41,6 +41,8 @@ permalink: /asset/
     const sha256 = urlParams.get('sha256');
     document.getElementById('sha256title').innerHTML = sha256;
 
+    await nostrConnect();
+
     const result = await renderAssetsTable({
       htmlElementId: 'binariesTable',
       sha256: sha256,

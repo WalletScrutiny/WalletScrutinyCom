@@ -65,19 +65,21 @@ permalink: /attestator/
 <script>
   const urlParams = new URLSearchParams(window.location.search);
   const pubkey = urlParams.get('pubkey');
-  const npub = getNpubFromPubkey(pubkey);
-
-  document.getElementById('njumpLink').href = `https://njump.me/${npub}`;
 
   (async () => {
     try {
       document.getElementById('loadingSpinner').style.display = 'block';
 
+      await nostrConnect();
+      const npub = getNpubFromPubkey(pubkey);
+
+      document.getElementById('njumpLink').href = `https://njump.me/${npub}`;
+
       // Profile
       const profile = await getNostrProfile(pubkey);
 
       if (!profile) {
-        document.getElementById('attestator').innerHTML = `<div class="npubFallback">${getNpubFromPubkey(pubkey)}</div>`;
+        document.getElementById('attestator').innerHTML = `<div class="npubFallback">${npub}</div>`;
       } else {
         if (profile?.image) {
           document.getElementById('attestator').innerHTML = `
