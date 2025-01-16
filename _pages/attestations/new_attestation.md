@@ -87,6 +87,8 @@ async function loadUrlParamsAndGetAssetInfo() {
     return;
   }
 
+  await nostrConnect();
+
   // Show asset information and previous attestations
   const result = await renderAssetsTable({
     htmlElementId:'previousAttestations',

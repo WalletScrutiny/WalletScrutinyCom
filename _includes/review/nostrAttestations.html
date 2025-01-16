@@ -8,6 +8,7 @@
 
 <script>
   window.onload = async () => {
+    await nostrConnect();
     await renderAssetsTable({htmlElementId: 'appsTable', appId: '{{ page.appId }}', hideConfig: {wallet: true}});
   };
 </script>
