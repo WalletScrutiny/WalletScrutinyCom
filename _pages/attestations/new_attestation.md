@@ -18,8 +18,9 @@ permalink: /new_attestation/
       <label for="status">Status*:</label>
       <select id="status" name="status" class="form-control" required>
         <option value="">Select a status</option>
-        <option value="not_reproducible">Not Reproducible</option>
         <option value="reproducible">Reproducible</option>
+        <option value="not_reproducible">Not Reproducible</option>
+        <option value="ftbfs">Failed to Build from Source</option>
       </select>
     </div>
 
