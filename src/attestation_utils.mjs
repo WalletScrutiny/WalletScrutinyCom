@@ -264,9 +264,10 @@ const getAllAssetInformation = async function({ months, assetsPubkey, attestatio
   const attestations = Array.from(events).filter(event => event.kind === attestationKind);
   const endorsements = Array.from(events).filter(event => event.kind === endorsementKind);
 
+  const assetsMap = new Map();
   const attestationsMap = new Map();
   const endorsementsMap = new Map();
-  
+
   attestations.forEach(attestation => {
     const sha256 = getFirstTag(attestation, 'x');
     if (sha256) {
@@ -314,8 +315,18 @@ const getAllAssetInformation = async function({ months, assetsPubkey, attestatio
     }
   }
 
+  assets.forEach(asset => {
+    const sha256 = getFirstTag(asset, 'x');
+    if (sha256) {
+      if (!assetsMap.has(sha256)) {
+        assetsMap.set(sha256, []);
+      }
+      assetsMap.get(sha256).push(asset);
+    }
+  });
+
   return {
-    assets: assets,
+    assets: assetsMap,
     attestations: attestationsMap,
     endorsements: endorsementsMap
   };
