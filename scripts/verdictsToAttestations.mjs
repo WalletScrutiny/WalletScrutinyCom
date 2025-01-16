@@ -1,11 +1,11 @@
 import fs from 'fs';
 import path from 'path';
 import yaml from 'js-yaml'; 
-import { createAssetRegistration, createAttestation } from '../src/attestation_utils.mjs';
+import { nostrConnect, createAssetRegistration, createAttestation } from '../src/attestation_utils.mjs';
 
 console.debug = function() {};
 
-async function parseFile(filePath, nostrPrivateKey, folderName) {
+async function parseFile(filePath, folderName) {
     try {
         console.debug(`Reading file: ${filePath}`);
         const content = fs.readFileSync(filePath, 'utf8');
@@ -63,7 +63,21 @@ async function parseFile(filePath, nostrPrivateKey, folderName) {
         }
 
         // Process Results (text after the YAML front matter)
-        const contentAfterYaml = (content.split(/---\n[\s\S]+?\n---/)[1].replace('{% include testScript.html %}', 'script at https://walletscrutiny.com/testScript/') || '').slice(0, 50000);
+        const contentAfterYaml = (content.split(/---\n[\s\S]+?\n---/)[1]
+            .replace('{% include testScript.html %}', 'script at https://walletscrutiny.com/testScript/') || '')
+            .replace('{{ page.title }}', data.title)
+            .replace('{% include asciicast %}', `<link rel="stylesheet" type="text/css" href="/assets/css/asciinema-player.min.css" />
+                        <div id="ascii_cast_player"></div>
+                        <script src="/assets/js/asciinema-player.min.js"></script>
+                        <script>
+                        AsciinemaPlayer.create(
+                            '/assets/casts/{{ page.collection }}/{{ page.appId }}.cast',
+                            document.getElementById('ascii_cast_player'),{
+                            idleTimeLimit: 1,
+                            autoPlay: true
+                            });
+                        </script>`)
+            .slice(0, 50000);
 
 
         if (['fewusers', 'custodial', 'nosource', 'nowallet', 'fake', 'nobtc', 'nosendreceive', 'obfuscated', 'wip'].includes(data.verdict)) {
@@ -106,10 +120,9 @@ async function parseFile(filePath, nostrPrivateKey, folderName) {
                 appId,
                 version,
                 platform: folderName,
-                name: data.title,
+                name: "Google Play extracted apk",
                 content: contentAfterYaml,
-                status: status,
-                nostrPrivateKey
+                status: status
             });
         }
 
@@ -125,10 +138,9 @@ async function createNostrEvents({
     platform,
     name,
     content,
-    status,
-    nostrPrivateKey
+    status
 }) {
-    console.log('   ----------------------------------------------------------------\n    Creating Nostr events...\n   ----------------------------------------------------------------', {
+    console.log('   ----------------------------------------------------------------\n    Nostr events will be created with this data:\n   ----------------------------------------------------------------', {
         sha256,
         appId,
         version,
@@ -139,23 +151,25 @@ async function createNostrEvents({
     });
 
     console.log('   ----------------------------------------------------------------\n    Creating asset registration...\n   ----------------------------------------------------------------');
-    const assetEventId = await createAssetRegistration({
+    const assetEvent = await createAssetRegistration({
         sha256,
         appId,
         version,
         platform,
-        name,
-        nostrPrivateKey
+        name
     });
+    await new Promise(resolve => setTimeout(resolve, 300));
+
+    const assetEventId = assetEvent.id;
 
     console.log('   ----------------------------------------------------------------\n    Creating attestation...\n   ----------------------------------------------------------------');
     await createAttestation({
         sha256,
         content,
         status,
-        assetEventId,
-        nostrPrivateKey
+        assetEventId
     });
+    await new Promise(resolve => setTimeout(resolve, 300));
 }
 
 function parseResults(resultsString) {
@@ -183,6 +197,10 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     const nostrPrivateKey = process.argv[2];
     const directoryPaths = process.argv.slice(3);
 
+    console.log('Connecting to Nostr relays...');
+    await nostrConnect(nostrPrivateKey);
+    await new Promise(resolve => setTimeout(resolve, 5000));
+
     if (directoryPaths.length === 0) {
         console.log('Please provide at least one directory path as a command-line argument.');
         process.exit(1);
@@ -202,7 +220,7 @@ if (import.meta.url === `file://${process.argv[1]}`) {
                     const filePath = path.join(directoryPath, filename);
                     console.debug(`Processing file: ${filePath}`);
         
-                    await parseFile(filePath, nostrPrivateKey, folderName);
+                    await parseFile(filePath, folderName);
                 }
             }
         }
