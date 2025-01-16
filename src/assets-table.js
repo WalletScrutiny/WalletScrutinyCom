@@ -64,9 +64,9 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
   `;
 
   if (sortedBinaries.length > 0) {
-    sortedBinaries.forEach(({sha256, assets}) => {
-      // Use the most recent asset for display
-      const binary = assets[0];
+    sortedBinaries.forEach((item) => {
+      // Handle both legacy and new format
+      const binary = item.assets ? item.assets[0] : item;
       const date = new Date(binary.created_at * 1000).toLocaleDateString(navigator.language, 
         binary.isLegacy ? {
           year: '2-digit',
@@ -82,8 +82,8 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
       );
 
       const eventId = binary.id;
-      const sha256Hash = sha256;
-      const truncatedHash = `${sha256Hash.slice(0,4)}...${sha256Hash.slice(-4)}`;
+      const sha256Hash = item.sha256 || binary.tags?.find(tag => tag[0] === 'x')?.[1] || '';
+      const truncatedHash = sha256Hash ? `${sha256Hash.slice(0,4)}...${sha256Hash.slice(-4)}` : '';
       const downloadUrl = binary.tags.find(tag => tag[0] === 'url')?.[1] || '';
       const version = binary.tags.find(tag => tag[0] === 'version')?.[1] || '';
       const oldInfoStatus = binary.tags.find(tag => tag[0] === 'status')?.[1] || '';
@@ -143,7 +143,7 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
         ${hideConfig?.wallet ? `<td>
           ${version}
         </td>` : ''}
-        <td class="asset-description">${assets.map(asset => asset.content).join('<br><br>')}</td>
+        <td class="asset-description">${item.assets ? [...new Set(item.assets.map(asset => asset.content))].join('<br>') : binary.content}</td>
         ${hideConfig?.sha256 ? '' : `<td>
           ${sha256Hash ? `
           <span>${truncatedHash}</span>
