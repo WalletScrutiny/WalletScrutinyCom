@@ -38,7 +38,7 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
             ['status', oldTest.verdict],
             ['x', oldTest.appHash]
           ],
-          content: `Legacy test from ${oldTest.date}`,
+          content: `Legacy verdict (WS)`,
           isLegacy: true
         });
       }
