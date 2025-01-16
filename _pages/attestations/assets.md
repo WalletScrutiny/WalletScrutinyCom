@@ -28,6 +28,7 @@ permalink: /assets/
   (async () => {
     document.getElementById('loadingSpinner').style.display = 'block';
 
+    await nostrConnect();
     await renderAssetsTable({htmlElementId: 'binariesTable'});
 
     document.getElementById('loadingSpinner').style.display = 'none';

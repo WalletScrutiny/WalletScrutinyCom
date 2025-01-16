@@ -53,6 +53,8 @@ permalink: /attestators/
   (async () => {
     document.getElementById('loadingSpinner').style.display = 'block';
 
+    await nostrConnect();
+
     const response = await getAllAssetInformation({
       months: 6
     });
