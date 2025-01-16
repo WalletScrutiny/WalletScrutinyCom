@@ -150,7 +150,7 @@
   const shareButton = document.getElementById('shareButton');
   const shareBtn = document.getElementById('shareBtn');
   const shareDropdown = document.getElementById('shareDropdown');
-
+  
   shareModalContent.style.background = window.theme === 'dark' ? '#2d2d2d' : '#e1e1e1';
   shareModalContent.style.color = window.theme === 'dark' ? 'white' : 'black';
 
@@ -166,21 +166,21 @@
     const currentUrl = window.location.href;
     document.getElementById('shareTextarea').value = `{{ include.defaultMessage }}\n\n{{ page.url | absolute_url }}`;
     shareModal.style.display = 'block';
-    shareDropdown.classList.remove("show");
+    shareDropdown?.classList.remove("show");
   }
 
   shareXBtn.onclick = function(e) {
     e.preventDefault();
     const text = encodeURIComponent(`{{ include.defaultMessage }}\n\n{{ page.url | absolute_url }}`);
     window.open(`https://twitter.com/intent/tweet?text=${text}`, '_blank');
-    shareDropdown.classList.remove("show");
+    shareDropdown?.classList.remove("show");
   }
 
   shareFBBtn.onclick = function(e) {
     e.preventDefault();
     const url = `{{ page.url | absolute_url }}`;
     window.open(`https://www.facebook.com/sharer/sharer.php?u=${url}`, '_blank');
-    shareDropdown.classList.remove("show");
+    shareDropdown?.classList.remove("show");
   }
 
   shareLinkedinBtn.onclick = function(e) {
@@ -188,7 +188,7 @@
     const url = `{{ page.url | absolute_url }}`;
     const text = `{{ include.defaultMessage }}`;
     window.open(`https://www.linkedin.com/feed/?shareActive=true&shareUrl=${url}&text=${text}`, '_blank');
-    shareDropdown.classList.remove("show");
+    shareDropdown?.classList.remove("show");
   }
 
   closeShareModal.onclick = function() {
@@ -197,7 +197,7 @@
 
   window.onclick = function(event) {
     if (!event.target.matches('#shareBtn')) {
-      if (shareDropdown.classList.contains('show')) {
+      if (shareDropdown?.classList.contains('show')) {
         shareDropdown.classList.remove('show');
       }
     }
