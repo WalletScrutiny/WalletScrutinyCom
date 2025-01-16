@@ -21,14 +21,16 @@ issue:
 icon: com.tangem.wallet.png
 bugbounty: 
 meta: ok
+verdict: wip
+appHashes: []
 date: 2024-08-20
 signer:
-reviewCurrent:
-  date: 2024-08-20
+reviewArchive:
+- date: 2024-08-20
   version: 5.18.6
   appHashes: []
+  gitRevision: 7dca9fc061b5239ece7294a0c8529fd0828ce608
   verdict: nosource 
-reviewArchive:
 - date: 2024-07-02
   version: 5.5.1
   appHashes: []

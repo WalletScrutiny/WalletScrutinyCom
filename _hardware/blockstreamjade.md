@@ -27,22 +27,13 @@ icon: blockstreamjade.png
 bugbounty: 
 meta: ok
 verdict: reproducible
+appHashes: [feb8ae2404816c9933f9bc2596329ca5976224c66b3a847c168be65797351d71, 7ad0dbbbfe33267665df5467ce1cbbbb6c3f139562177a276dbfb91d0edaca67, d76a0cf87df6900477b1fbd1512a6d0fc4bf99a7a4c80e04313eb2c1beb4d17c, 26230eb16f4e849b98316f4ed1fa8fd3ba4e11d9ff339d5bac4e6934e315ab03]
 date: 2024-12-17
 signer: 
-reviewCurrent:
-  date: 2024-12-17
-  version: 1.0.33
-  appHashes: [feb8ae2404816c9933f9bc2596329ca5976224c66b3a847c168be65797351d71, 7ad0dbbbfe33267665df5467ce1cbbbb6c3f139562177a276dbfb91d0edaca67, d76a0cf87df6900477b1fbd1512a6d0fc4bf99a7a4c80e04313eb2c1beb4d17c, 26230eb16f4e849b98316f4ed1fa8fd3ba4e11d9ff339d5bac4e6934e315ab03] 
-  verdict: reproducible
 reviewArchive:
-- date: 2024-12-17
-  version: 1.0.33
-  appHash: [2f5bb1939061ff13e5f8a5ca52aa51641558a2b5356219d7a5c4138245f71f11]
-  gitRevision: d77578a578f6cff4c6e5b83ddfb426a3267f355a
-  verdict: reproducible
 - date: 2024-11-01
   version: 1.0.32
-  appHash: [2f5bb1939061ff13e5f8a5ca52aa51641558a2b5356219d7a5c4138245f71f11]
+  appHashes: [2f5bb1939061ff13e5f8a5ca52aa51641558a2b5356219d7a5c4138245f71f11]
   gitRevision: d77578a578f6cff4c6e5b83ddfb426a3267f355a
   verdict: reproducible
 - date: 2024-08-26

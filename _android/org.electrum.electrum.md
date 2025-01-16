@@ -23,13 +23,10 @@ issue: https://github.com/spesmilo/electrum/issues/8838
 icon: org.electrum.electrum.png
 bugbounty: 
 meta: ok
+verdict: reproducible
+appHashes: [042333dc6dd81238c70609bffe580c4d871fc9cac295c2e588d7537c95355e94]
 date: 2024-10-23
 signer: 
-reviewCurrent:
-  date: 2024-10-23
-  version: 4.5.7
-  appHashes: [042333dc6dd81238c70609bffe580c4d871fc9cac295c2e588d7537c95355e94]
-  verdict: reproducible
 reviewArchive:
 - date: 2024-07-11
   version: 4.5.5.0

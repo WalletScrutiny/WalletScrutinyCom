@@ -27,13 +27,9 @@ icon: passport.png
 bugbounty: https://foundationdevices.com/security/
 meta: discontinued
 verdict: reproducible
+appHashes: [db160a44f538e8f030252a2076f8f6ed4927549ac4403834c6a39d43c7b400de]
 date: 2024-04-18
 signer:
-reviewCurrent:
-  date: 2024-04-18
-  version: v2.3.0
-  appHashes: [db160a44f538e8f030252a2076f8f6ed4927549ac4403834c6a39d43c7b400de]
-  verdict: reproducible  
 reviewArchive:
 - date: 2023-06-20
   version: v2.1.2

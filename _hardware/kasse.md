@@ -26,15 +26,16 @@ issue:
 icon: kasse.png
 bugbounty: 
 meta: ok
+verdict: nosource
+appHashes: []
 date: 2023-02-13
 signer: 
-reviewCurrent:
-  date: 2021-09-01
+reviewArchive:
+- date: 2021-09-01
   version: 2.11.0
   appHashes: []
   gitRevision: 8762a3742
   verdict: nosource
-reviewArchive:
 twitter: KasseUSA
 social:
 - https://www.instagram.com/kasseusa/?hl=en

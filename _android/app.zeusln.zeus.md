@@ -24,13 +24,9 @@ icon: app.zeusln.zeus.png
 bugbounty: 
 meta: ok
 verdict: reproducible
+appHashes: [e6498f7327d6d152f114b851b8c01a5b7c7890414c192a00ea3846bf0f82229f]
 date: 2025-01-03
 signer: cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
-reviewCurrent:
-  date: 2024-01-03
-  version: 0.9.4
-  appHashes: [e6498f7327d6d152f114b851b8c01a5b7c7890414c192a00ea3846bf0f82229f]
-  verdict: reproducible
 reviewArchive:
 - date: 2004-12-13
   version: 0.9.3

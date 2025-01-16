@@ -28,17 +28,13 @@ icon: coldcardMk4.png
 bugbounty: 
 meta: ok
 verdict: reproducible
+appHashes: [681874256bcfca71a3908f1dd6c623804517fdba99a51ed04c73b96119650c13, 70e375200649ee77723fd816d581fe58e47472e72e7862773658a738685d4336]
 date: 2025-01-02
 signer: 
-reviewCurrent:
-  date: 2024-01-02
-  version: v6.3.4X
-  appHashes: [681874256bcfca71a3908f1dd6c623804517fdba99a51ed04c73b96119650c13, 70e375200649ee77723fd816d581fe58e47472e72e7862773658a738685d4336]
-  verdict: reproducible
 reviewArchive:
 - date: 2024-10-01
   version: v5.4.0
-  appHash: [04114bc10eaebf4a7296823561e966bdf871bb8cbbc77617f2f0714c89ff95d5]
+  appHashes: [04114bc10eaebf4a7296823561e966bdf871bb8cbbc77617f2f0714c89ff95d5]
   gitRevision: d7dc11abaa3b2e7aae9321e66de7eea53a03f064
   verdict: reproducible
 - date: 2024-08-15

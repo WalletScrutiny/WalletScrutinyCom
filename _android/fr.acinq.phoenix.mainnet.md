@@ -22,14 +22,16 @@ issue: https://github.com/ACINQ/phoenix/issues/112
 icon: fr.acinq.phoenix.mainnet.png
 bugbounty: 
 meta: ok
+verdict: wip
+appHashes: []
 date: 2024-10-12
 signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
-reviewCurrent:
-  date: 2024-09-05
+reviewArchive:
+- date: 2024-09-05
   version: 2.3.8
   appHashes: [295a50bc3208c28db8ac9b1b5bdfa7eb746e2e2037469f8c2624ebe01119e464]
+  gitRevision: 1c24468eb363380524219e74a72b68eed75509f4
   verdict: nonverifiable
-reviewArchive:
 - date: 2024-08-05
   version: 2.3.6
   appHashes: [e0575204f2494f7c7e2349253d9962e5442fb7b91a5517fbee3e55723f0d5f62]

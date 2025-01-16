@@ -11,7 +11,7 @@ appId: de.schildbach.wallet
 appCountry: 
 released: 2011-03-01
 updated: 2024-12-16
-version: 10.20
+version: 10.21
 stars: 4
 ratings: 29247
 reviews: 2082
@@ -23,17 +23,13 @@ icon: de.schildbach.wallet.png
 bugbounty: 
 meta: ok
 verdict: reproducible
+appHashes: [82de71bf0db5aba9364b19b663f69e7c3588c98fcadb02afcc1f1438b35d16cb]
 date: 2024-12-26
 signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
-reviewCurrent:
-  date: 2024-12-26
-  version: 10.21
-  appHashes: [82de71bf0db5aba9364b19b663f69e7c3588c98fcadb02afcc1f1438b35d16cb]
-  verdict: reproducible
 reviewArchive:
 - date: 2024-11-06
   version: 10.20
-  appHash: [9e859167b259383324d44b049e9310a0715bae2837db2582519f4012b4e27fcb]
+  appHashes: [9e859167b259383324d44b049e9310a0715bae2837db2582519f4012b4e27fcb]
   gitRevision: 4db6e2737d26763be78b1101f735676beb9804da
   verdict: reproducible
 - date: 2024-11-01

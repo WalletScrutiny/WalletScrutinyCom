@@ -28,13 +28,10 @@ issue:
 icon: passportb2.png
 bugbounty: https://foundationdevices.com/security/
 meta: ok
+verdict: reproducible
+appHashes: [714e6fc84664c206984d995e1630e360cba18d96ea4d17ffa577f95e89659ed2]
 date: 2024-10-30
 signer:
-reviewCurrent:
-  date: 2024-10-30
-  version: 2.3.5
-  appHashes: [714e6fc84664c206984d995e1630e360cba18d96ea4d17ffa577f95e89659ed2]
-  verdict: reproducible   
 reviewArchive:
 - date: 2024-10-16
   version: v2.3.4

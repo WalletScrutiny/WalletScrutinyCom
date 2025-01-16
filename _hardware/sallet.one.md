@@ -25,13 +25,10 @@ issue: https://github.com/SalletOne/sallet-one-cold/issues/6
 icon: sallet.one.png
 bugbounty: 
 meta: ok
+verdict: ftbfs
+appHashes: []
 date: 2022-08-07
 signer:
-reviewCurrent:
-  date: 2022-08-07
-  version: 2.0.4
-  appHashes: []
-  verdict: ftbfs    
 reviewArchive: 
 twitter: SalletOne
 social:

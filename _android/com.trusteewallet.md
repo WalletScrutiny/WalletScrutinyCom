@@ -22,13 +22,10 @@ issue: https://github.com/trustee-wallet/trusteeWallet/issues/180
 icon: com.trusteewallet.png
 bugbounty: 
 meta: ok
+verdict: nosource
+appHashes: []
 date: 2024-08-01
 signer:
-reviewCurrent:
-  date: 2024-08-01
-  version: 1.51.10
-  appHashes: []
-  verdict: nosource 
 reviewArchive:
 - date: 2023-10-03
   version: 1.51.5

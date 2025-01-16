@@ -25,14 +25,16 @@ issue: https://github.com/trezor/trezor-firmware/issues/4254
 icon: trezorSafe5.png
 bugbounty: https://trezor.io/learn/a/how-to-report-an-issue
 meta: ok
+verdict: reproducible
+appHashes: [73c8e70fc6785616574cb7d1ac274f3cea596870dff2316d3599adde1b4f2eb2, 538515eb83558832356340ef198559ca14fa5a70220b14e2fb06dc3c8fef5d03, 197197aba0f412a74be96a2a6ad1537437cee67e517bd94d1cb776c263a37ffe, 78a69afb22d7c0704bd40479bde3ee2d15c390a1819129cf5954643d8d65e0fc]
 date: 2024-12-13
 signer: 
-reviewCurrent:
-  date: 2024-10-14
+reviewArchive: 
+- date: 2024-10-14
   version: 2.8.3
   appHashes: [dfabe8b10368f268cedaa505e284192329f489519dd71feb5fba7d610ef748fc, 83677f634f29e0f066153b599c25a8047729608d555f4c289b91df726472fd5d]
+  gitRevision: 738417cd47c4721457816c5a6a7891cd212a35c6
   verdict: reproducible
-reviewArchive: 
 twitter: trezor
 social:
 - https://www.facebook.com/trezor.io
@@ -94,7 +96,6 @@ The hashes of the zeroed version of v2.8.6 bitcoin-only matches with the **signa
 
 **Version 2.8.6 of the {{ page.title }} is reproducible**.
 
-{% include asciicast %}
 
 ## Review 2024-10-08
 

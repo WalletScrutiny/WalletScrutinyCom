@@ -21,14 +21,16 @@ issue:
 icon: kr.co.keypair.keywalletTouch.png
 bugbounty: 
 meta: ok
+verdict: wip
+appHashes: []
 date: 2024-07-17
 signer:
-reviewCurrent:
-  date: 2024-07-17
+reviewArchive:
+- date: 2024-07-17
   version: 3.0.46
   appHashes: []
+  gitRevision: 6c17feb4d414efa40ea736b9d2e8d44216776893
   verdict: nosource 
-reviewArchive:
 - date: 2021-10-01
   version: Varies with device
   appHashes: []

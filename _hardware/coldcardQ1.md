@@ -25,13 +25,10 @@ issue:
 icon: coldcardQ1.png
 bugbounty: 
 meta: ok
+verdict: reproducible
+appHashes: [cb23d9c1ace86724de450893239773e711f9c68486cd7d08fc6e4da5db1cc2b3]
 date: 2024-11-05
 signer: d840fa4e83ebc7b0f961f30f68d795bed61271e2314dda4ab0eb0b8bfe7192f4
-reviewCurrent:
-  date: 2024-11-05
-  version: 1.3.0Q
-  appHashes: [cb23d9c1ace86724de450893239773e711f9c68486cd7d08fc6e4da5db1cc2b3]
-  verdict: reproducible
 reviewArchive:
 - date: 2024-08-12
   version: 1.2.3Q

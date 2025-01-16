@@ -22,13 +22,10 @@ issue:
 icon: bitcoin.boltring.png
 bugbounty: 
 meta: ok
+verdict: nowallet
+appHashes: []
 date: 2023-12-11
 signer:
-reviewCurrent:
-  date: 2023-12-11
-  version: 
-  appHashes: []
-  verdict: nowallet
 reviewArchive:
 - date: 2023-02-07
   version: 

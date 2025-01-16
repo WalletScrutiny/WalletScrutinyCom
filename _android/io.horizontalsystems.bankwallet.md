@@ -22,25 +22,21 @@ issue:
 icon: io.horizontalsystems.bankwallet.png
 bugbounty: 
 meta: ok
+verdict: reproducible
+appHashes: [1d05920d444e0b6e71a2ae97a7970218c4975e665ed75086481d2ffbcab3b044]
 date: 2024-12-27
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
-reviewCurrent:  
-  date: 2024-12-27
-  version: 0.41.3
-  appHashes: [1d05920d444e0b6e71a2ae97a7970218c4975e665ed75086481d2ffbcab3b044]
-  verdict: reproducible
 reviewArchive:
 - date: 2024-11-28
   version: 0.41.0
-  appHash: e2c29943e380d21a18abb4ebe33f8a5379bd662caff4073af9eab5731e04098a
+  appHashes: [e2c29943e380d21a18abb4ebe33f8a5379bd662caff4073af9eab5731e04098a]
   gitRevision: 3a36e95773124868785d37ceb7afd3825f696f65
   verdict: reproducible
 - date: 2024-10-11
   version: 0.40.0
-  appHash: 6f320245b3638cb00e90305a29318e15d8c10b76a84dc686f5331d9393929ba7
+  appHashes: [6f320245b3638cb00e90305a29318e15d8c10b76a84dc686f5331d9393929ba7]
   gitRevision: 71ff3b4fadbd0c5156f39ee8296ddaa8047fb6fe
   verdict: reproducible
-reviewArchive:
 - date: 2024-10-09
   version: 0.40.0
   appHashes: [6f320245b3638cb00e90305a29318e15d8c10b76a84dc686f5331d9393929ba7, f5db836de54c5fd4bcc6819871edf7e5dd1d7ab8fb81c5e1bdcf3c16ab3534ad]

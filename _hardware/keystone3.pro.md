@@ -26,13 +26,9 @@ icon: keystone3.pro.png
 bugbounty: 
 meta: ok
 verdict: reproducible
+appHashes: [5609915455a3f867fca8bdb026b596a70be0cb1f5678a5aeab5ab8218075fd22]
 date: 2024-12-31
 signer: 6853ffd1706faed1468e677621b2ef1ccf053dff4f9b22e7ba5b12a978e1eb37
-reviewCurrent:
-  date: 2024-12-31
-  version: 1.8.2
-  appHashes: [5609915455a3f867fca8bdb026b596a70be0cb1f5678a5aeab5ab8218075fd22]
-  verdict: reproducible
 reviewArchive:
 - date: 2024-12-23
   version: 1.8.0

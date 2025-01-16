@@ -21,13 +21,10 @@ issue:
 icon: com.wrx.wazirx.png
 bugbounty: 
 meta: ok
+verdict: custodial
+appHashes: []
 date: 2021-08-09
 signer:
-reviewCurrent:
-  date: 2021-08-09
-  version: 3.2.2
-  appHashes: []
-  verdict: custodial 
 reviewArchive:
 - date: 2021-04-16
   version: 2.13.4

@@ -21,13 +21,10 @@ issue: https://github.com/AquaWallet/aqua-wallet/issues/9
 icon: io.aquawallet.android.png
 bugbounty: 
 meta: ok
+verdict: ftbfs
+appHashes: []
 date: 2024-09-06
 signer:
-reviewCurrent:
-  date: 2024-09-06
-  version: 0.2.6
-  appHashes: []
-  verdict: ftbfs 
 reviewArchive: 
 twitter: AquaBitcoin
 social:

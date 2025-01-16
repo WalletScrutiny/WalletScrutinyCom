@@ -22,14 +22,16 @@ issue: https://github.com/muun/apollo/issues/54
 icon: io.muun.apollo.png
 bugbounty: 
 meta: ok
+verdict: wip
+appHashes: []
 date: 2024-09-04
 signer:
-reviewCurrent:
-  date: 2024-09-04
+reviewArchive:
+- date: 2024-09-04
   version: 52.1
   appHashes: [4a86d245f978c2d84763c00c84cf2ea6d22e253de49a0f14f7c0c68b448bbc37]
+  gitRevision: 4458285efc54bd9bc76d74f88e696201a4af4a93
   verdict: nonverifiable
-reviewArchive:
 - date: 2023-06-24
   version: 50.13
   appHashes: [d9eab324dc83c171350ca4918bb24e0f14dda06f4f7b3cfa0c5f9ab86ca5ea60]

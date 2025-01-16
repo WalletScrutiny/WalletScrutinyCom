@@ -25,13 +25,10 @@ issue:
 icon: trezorOne.png
 bugbounty: https://trezor.io/security
 meta: ok
+verdict: reproducible
+appHashes: [859dff49705fb81e83fe6d2efcf8f739f847081037aacf4f176624009a738ed8]
 date: 2023-05-25
 signer:
-reviewCurrent:
-  date: 2023-05-25
-  version: 1.12.1
-  appHashes: [859dff49705fb81e83fe6d2efcf8f739f847081037aacf4f176624009a738ed8]
-  verdict: reproducible 
 reviewArchive:
 - date: 2022-12-05
   version: 1.11.2

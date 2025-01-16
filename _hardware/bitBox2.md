@@ -28,13 +28,10 @@ issue:
 icon: bitBox2.png
 bugbounty: 
 meta: ok
+verdict: reproducible
+appHashes: [36895857c346c1fbd0d206853b7031e985c1a959e9f7f9396a7ae94dfffa9679]
 date: 2024-11-05
 signer: 
-reviewCurrent:
-  date: 2024-11-04
-  version: 9.21.0 
-  appHashes: [36895857c346c1fbd0d206853b7031e985c1a959e9f7f9396a7ae94dfffa9679]
-  verdict: reproducible
 reviewArchive:
 - date: 2024-08-09
   version: 9.19.0
@@ -58,7 +55,7 @@ reviewArchive:
   verdict: reproducible
 - date: 2022-11-18
   version: 9.13.1
-  appHash: [0f64c9ba01bb25500bfd3c96c133daa7da4a688234facbdd42a4f5e54d58e995]
+  appHashes: [0f64c9ba01bb25500bfd3c96c133daa7da4a688234facbdd42a4f5e54d58e995]
   gitRevision: 6076d21c5df6d19945229d86c013c5d3f8a94d26
   verdict: reproducible
 - date: 2022-08-07

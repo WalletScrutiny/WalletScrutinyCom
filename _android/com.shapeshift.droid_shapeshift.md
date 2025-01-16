@@ -21,13 +21,10 @@ issue: https://github.com/shapeshift/mobile-app/issues/104
 icon: com.shapeshift.droid_shapeshift.png
 bugbounty: 
 meta: ok
+verdict: nonverifiable
+appHashes: []
 date: 2024-08-09
 signer:
-reviewCurrent:
-  date: 2024-08-09
-  version: 3.1.0
-  appHashes: []
-  verdict: nonverifiable 
 reviewArchive: 
 twitter: ShapeShift_io
 social:

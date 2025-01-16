@@ -27,13 +27,10 @@ issue: https://github.com/OneKeyHQ/firmware/issues/404#issuecomment-1633287406
 icon: onekey.png
 bugbounty: 
 meta: ok
-date: 2024-09-17
+verdict: nonverifiable
+appHashes: [a8d7051ea8b4a85038d032e4b86d5e8ee8f34870e3f861e59bf1a5578c36d176]
+date: 2024-09-24
 signer:
-reviewCurrent:
-  date: 2024-09-24
-  version: 3.9.0
-  appHashes: [a8d7051ea8b4a85038d032e4b86d5e8ee8f34870e3f861e59bf1a5578c36d176]
-  verdict: nonverifiable 
 reviewArchive:
 - date: 2023-07-12
   version: 3.0.0

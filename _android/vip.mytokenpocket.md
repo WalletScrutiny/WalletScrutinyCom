@@ -21,14 +21,16 @@ issue: https://github.com/TP-Lab/tp-android/issues/15
 icon: vip.mytokenpocket.png
 bugbounty: 
 meta: ok
+verdict: wip
+appHashes: []
 date: 2024-07-17
 signer:
-reviewCurrent:
-  date: 2024-07-17
+reviewArchive:
+- date: 2024-07-17
   version: 2.3.8
   appHashes: []
-  verdict: obfuscated
-reviewArchive: 
+  gitRevision: 4458285efc54bd9bc76d74f88e696201a4af4a93
+  verdict: obfuscated 
 twitter: TokenPocket_TP
 social:
 - https://www.facebook.com/TokenPocket

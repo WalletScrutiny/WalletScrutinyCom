@@ -23,14 +23,16 @@ issue: https://github.com/nunchuk-io/nunchuk-android/issues/23
 icon: io.nunchuk.android.png
 bugbounty: 
 meta: ok
+verdict: wip
+appHashes: []
 date: 2024-11-19
 signer:
-reviewCurrent:
-  date: 2024-11-19
+reviewArchive:
+- date: 2024-11-19
   version: 1.9.53
   appHashes: []
+  gitRevision: 4458285efc54bd9bc76d74f88e696201a4af4a93
   verdict: nonverifiable 
-reviewArchive:
 - date: 2023-07-05
   version: 1.9.32
   appHashes: []
