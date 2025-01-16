@@ -32,6 +32,17 @@ permalink: /new_attestation/
 
     <button type="submit" class="btn btn-success">Create Attestation</button>
   </form>
+  <div style="margin-top: 3em;">
+    <p>
+      <b>Reproducible:</b> You've been able to build the asset and differences with the tested binary are minimal.
+    </p>
+    <p>
+      <b>Not Reproducible:</b> You've been able to build the asset, but differences with the tested binary are significant.
+    </p>
+    <p>
+      <b>Failed to Build from Source:</b> You failed to build the asset from source.
+    </p>
+  </div>
   <div id="loadingSpinner" style="display: none;">
     <div class="spinner"></div>
   </div>
