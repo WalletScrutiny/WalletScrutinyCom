@@ -227,7 +227,7 @@ window.showAttestationModal = async function(sha256Hash, attestationId) {
         ${attestationDate} ${statusIcon}
       </li>`;
     }
-    otherAttestationsHTML = `<ul>${otherAttestationsHTML}</ul>`;
+    otherAttestationsHTML = `<ul class="attestation-other-attempts">${otherAttestationsHTML}</ul>`;
   }
   
   content.innerHTML = `
@@ -239,15 +239,17 @@ window.showAttestationModal = async function(sha256Hash, attestationId) {
       hour: '2-digit',
       minute: '2-digit'
     })}</p>
-    <p><strong>Status: </strong> ${status} ${status === 'reproducible' ? '✅' : '❌'}</p>
-    <p><strong>Information:</strong>
-      <div class="markdown-content">${DOMPurify.sanitize(marked.parse(attestation.content))}</div>
-    </p>
-  `;
+    <p><strong>Status: </strong> ${status} ${status === 'reproducible' ? '✅' : '❌'}</p>`;
 
   if (otherAttestationsHTML !== '') {
     content.innerHTML += `<p><strong>Other attempts by this user:</strong> ${otherAttestationsHTML}</p>`;
   }
+
+  content.innerHTML += `
+    <p><strong>Information:</strong>
+      <div class="markdown-content">${DOMPurify.sanitize(marked.parse(attestation.content))}</div>
+    </p>
+  `;
 
   modal.style.display = 'block';
 
