@@ -43,9 +43,13 @@ const getUserPubkey = async function() {
 
 const userHasBrowserExtension = function() {
   return new Promise((resolve) => {
+    if (typeof window === 'undefined') {
+      resolve(false);
+    }
     if (window.nostr) {
         resolve(true);
     }
+
     // Wait a bit for the extension to load
     setTimeout(() => {
         console.debug("Browser extension:", Boolean(window.nostr));
