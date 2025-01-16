@@ -1,10 +1,11 @@
 import fs from 'fs';
 import path from 'path';
 import yaml from 'js-yaml'; 
+import { createAssetRegistration, createAttestation } from '../src/attestation_utils.mjs';
 
 console.debug = function() {};
 
-function parseFile(filePath, folderName) {
+async function parseFile(filePath, nostrPrivateKey, folderName) {
     try {
         console.debug(`Reading file: ${filePath}`);
         const content = fs.readFileSync(filePath, 'utf8');
@@ -25,6 +26,7 @@ function parseFile(filePath, folderName) {
         const appId = data.appId || '';
         let appHash = null;
         let version = null;
+        let status = null;
 
         // Process reviewArchive if available
         if (data.reviewArchive && data.reviewArchive.length > 0) {
@@ -61,8 +63,7 @@ function parseFile(filePath, folderName) {
         }
 
         // Process Results (text after the YAML front matter)
-        const contentAfterYaml = content.split(/---\n[\s\S]+?\n---/)[1].replace('{% include testScript.html %}', 'script at https://walletscrutiny.com/testScript/') || '';
-        //console.log('Content after YAML:', contentAfterYaml);
+        const contentAfterYaml = (content.split(/---\n[\s\S]+?\n---/)[1].replace('{% include testScript.html %}', 'script at https://walletscrutiny.com/testScript/') || '').slice(0, 50000);
 
 
         if (['fewusers', 'custodial', 'nosource', 'nowallet', 'fake', 'nobtc', 'nosendreceive', 'obfuscated', 'wip'].includes(data.verdict)) {
@@ -71,6 +72,18 @@ function parseFile(filePath, folderName) {
         }
         if (['reproducible', 'nonverifiable', 'ftbfs'].includes(data.verdict)) {
             console.log(`   Verdict (${appId}): ${data.verdict}`);
+
+            switch (data.verdict) {
+                case 'reproducible':
+                    status = 'reproducible';
+                    break;
+                case 'nonverifiable':
+                    status = 'not_reproducible';
+                    break;
+                case 'ftbfs':
+                    status = 'ftbfs';
+                    break;
+            }
         }
 
 
@@ -88,14 +101,15 @@ function parseFile(filePath, folderName) {
             //console.error(data);
             //process.exit(1);
         } else {
-            createNostrEvents({
+            await createNostrEvents({
                 sha256: appHash,
                 appId,
                 version,
                 platform: folderName,
                 name: data.title,
                 content: contentAfterYaml,
-                status: data.verdict
+                status: status,
+                nostrPrivateKey
             });
         }
 
@@ -104,16 +118,17 @@ function parseFile(filePath, folderName) {
     }
 }
 
-function createNostrEvents({
+async function createNostrEvents({
     sha256,
     appId,
     version,
     platform,
     name,
     content,
-    status
+    status,
+    nostrPrivateKey
 }) {
-    console.log('   --------------------------------\n    Creating Nostr events...\n   --------------------------------', {
+    console.log('   ----------------------------------------------------------------\n    Creating Nostr events...\n   ----------------------------------------------------------------', {
         sha256,
         appId,
         version,
@@ -123,22 +138,24 @@ function createNostrEvents({
         status
     });
 
-    /*
-    const assetEventId = createAssetRegistration({
+    console.log('   ----------------------------------------------------------------\n    Creating asset registration...\n   ----------------------------------------------------------------');
+    const assetEventId = await createAssetRegistration({
         sha256,
         appId,
         version,
         platform,
-        name
+        name,
+        nostrPrivateKey
     });
 
-    createAttestation({
+    console.log('   ----------------------------------------------------------------\n    Creating attestation...\n   ----------------------------------------------------------------');
+    await createAttestation({
         sha256,
         content,
         status,
-        assetEventId
+        assetEventId,
+        nostrPrivateKey
     });
-    */
 }
 
 function parseResults(resultsString) {
@@ -157,32 +174,40 @@ function parseResults(resultsString) {
 
 // Direct execution check
 if (import.meta.url === `file://${process.argv[1]}`) {
-    // Get directory paths from command-line arguments    
-    const directoryPaths = process.argv.slice(2);
+    // Get Nostr private key and directory paths from command-line arguments
+    if (process.argv.length < 4) {
+        console.log('Usage: node verdictsToAttestations.mjs <nostr_private_key> <directory_path1> [directory_path2 ...]');
+        process.exit(1);
+    }
+
+    const nostrPrivateKey = process.argv[2];
+    const directoryPaths = process.argv.slice(3);
 
     if (directoryPaths.length === 0) {
         console.log('Please provide at least one directory path as a command-line argument.');
         process.exit(1);
     }
 
-    directoryPaths.forEach(directoryPath => {
-        console.log(`Processing directory: ${directoryPath}`);
-
-        const files = fs.readdirSync(directoryPath);
-        console.log(`Found ${files.length} files in directory: ${directoryPath}`);
-    
-        let folderName = path.basename(directoryPath);
-        folderName = folderName.startsWith('_') ? folderName.slice(1) : folderName;
-    
-        files.forEach(filename => {
-            if (filename.endsWith('.md')) {
-                const filePath = path.join(directoryPath, filename);
-                console.debug(`Processing file: ${filePath}`);
-    
-                parseFile(filePath, folderName);
+    (async () => {
+        for (const directoryPath of directoryPaths) {
+            console.log(`Processing directory: ${directoryPath}`);
+            const files = fs.readdirSync(directoryPath);
+            console.log(`Found ${files.length} files in directory: ${directoryPath}`);
+        
+            let folderName = path.basename(directoryPath);
+            folderName = folderName.startsWith('_') ? folderName.slice(1) : folderName;
+        
+            for (const filename of files) {
+                if (filename.endsWith('.md')) {
+                    const filePath = path.join(directoryPath, filename);
+                    console.debug(`Processing file: ${filePath}`);
+        
+                    await parseFile(filePath, nostrPrivateKey, folderName);
+                }
             }
-        });
-    });
+        }
 
-    console.log(`Total directories processed: ${directoryPaths.length}`);
+        console.log(`Total directories processed: ${directoryPaths.length}`);
+        process.exit(0);
+    })();
 }
