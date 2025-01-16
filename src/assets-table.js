@@ -13,15 +13,21 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
     getAssetsForMyAttestations
   });
 
-  const binaries = Array.from(response.assets);
-  const hasBinaries = binaries.length > 0;
+  const hasBinaries = response.assets.size > 0;
   let hasAttestations = false;
 
-  const sortedBinaries = binaries.sort((a, b) => 
-    new Date(b.created_at) - new Date(a.created_at)
-  );
+  // Convert to array and sort by most recent asset in each group
+  const sortedBinaries = Array.from(response.assets.entries()).map(([sha256, assets]) => {
+    // Sort assets within each SHA256 group by date and take the most recent one
+    const sortedAssets = assets.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+    return {
+      sha256,
+      assets: sortedAssets,
+      created_at: sortedAssets[0].created_at  // Use the most recent asset's created_at for sorting
+    };
+  });
 
-  // Add old tests information to sortedBinaries
+  // Add old tests information to sortedBinaries if oldTestsInfo is defined and is an array
   if (typeof oldTestsInfo !== 'undefined' && Array.isArray(oldTestsInfo)) {
     oldTestsInfo.forEach(oldTest => {
       if (oldTest.date && oldTest.version && oldTest.verdict) {
@@ -37,9 +43,9 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
         });
       }
     });
-    // Re-sort to include the old tests in chronological order
-    sortedBinaries.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
   }
+
+  sortedBinaries.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
 
   const table = document.createElement('table');
   table.innerHTML = `
@@ -58,7 +64,9 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
   `;
 
   if (sortedBinaries.length > 0) {
-    sortedBinaries.forEach(binary => {
+    sortedBinaries.forEach(({sha256, assets}) => {
+      // Use the most recent asset for display
+      const binary = assets[0];
       const date = new Date(binary.created_at * 1000).toLocaleDateString(navigator.language, 
         binary.isLegacy ? {
           year: '2-digit',
@@ -74,7 +82,7 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
       );
 
       const eventId = binary.id;
-      const sha256Hash = binary.tags.find(tag => tag[0] === 'x')?.[1] || '';
+      const sha256Hash = sha256;
       const truncatedHash = `${sha256Hash.slice(0,4)}...${sha256Hash.slice(-4)}`;
       const downloadUrl = binary.tags.find(tag => tag[0] === 'url')?.[1] || '';
       const version = binary.tags.find(tag => tag[0] === 'version')?.[1] || '';
@@ -135,7 +143,7 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
         ${hideConfig?.wallet ? `<td>
           ${version}
         </td>` : ''}
-        <td class="asset-description">${binary.content}</td>
+        <td class="asset-description">${assets.map(asset => asset.content).join('<br><br>')}</td>
         ${hideConfig?.sha256 ? '' : `<td>
           ${sha256Hash ? `
           <span>${truncatedHash}</span>
