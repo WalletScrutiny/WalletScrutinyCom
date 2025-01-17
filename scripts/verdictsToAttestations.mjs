@@ -71,7 +71,7 @@ async function parseFile(filePath, folderName) {
                         <script src="/assets/js/asciinema-player.min.js"></script>
                         <script>
                         AsciinemaPlayer.create(
-                            '/assets/casts/{{ page.collection }}/{{ page.appId }}.cast',
+                            '/assets/casts/`+folderName+'/'+appId+`.cast',
                             document.getElementById('ascii_cast_player'),{
                             idleTimeLimit: 1,
                             autoPlay: true
