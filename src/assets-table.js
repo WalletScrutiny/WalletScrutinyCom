@@ -147,7 +147,7 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
         ${hideConfig?.sha256 ? '' : `<td>
           ${sha256Hash ? `
           <span>${truncatedHash}</span>
-          <button onclick="navigator.clipboard.writeText('${sha256Hash}')" class="copy-button">
+          <button onclick="navigator.clipboard.writeText('${sha256Hash}').then(() => showToast('SHA256 copied to clipboard'))" class="copy-button">
             📋
           </button>` : '-'}
         </td>`}
