@@ -53,6 +53,9 @@ or
 bundle exec jekyll serve --profile --trace
 ```
 
+If you're working on a single page or file that doesn't require Jekyll to build a lot of pages, you can use
+`npm run dev-live`, so the browser will auto-reload the page after Jekyll has compiled it.
+
 ### For production deployment
 
 This will also minify the css and js which takes all in all about 1 minute. The

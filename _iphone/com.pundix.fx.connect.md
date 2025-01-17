@@ -1,6 +1,6 @@
 ---
 wsId: functionX
-title: FX Wallet by Function X
+title: Pundi Wallet
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ appId: com.pundix.fx.connect
 appCountry: us
 idd: 1504798360
 released: 2021-03-25
-updated: 2024-10-25
-version: 4.3.0
+updated: 2025-01-13
+version: 5.0.0
 stars: 3.2
 reviews: 64
-size: '157349888'
-website: https://functionx.io
+size: '156903424'
+website: https://pundi.ai/
 repository: https://github.com/FunctionX/fx-wallet-android
 issue: 
 icon: com.pundix.fx.connect.jpg

@@ -4,7 +4,7 @@ title: Signal Financial FCU
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.signalfinancialfcu.signalfinancialfcu
 appCountry: 
 released: 2022-09-20

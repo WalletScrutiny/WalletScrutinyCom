@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.usscyber.xliquiduss.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-06-03
+date: 2025-01-15
 signer: 
 reviewArchive: 
 twitter: 

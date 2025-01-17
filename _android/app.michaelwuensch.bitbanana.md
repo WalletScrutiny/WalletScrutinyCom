@@ -52,127 +52,98 @@ features:
 
 ---
 
-## Updated on 2025-01-02
+## Updated on 2025-01-07
 
-We ran our updated {% include testScript.html %} and got this
-```
-===== Begin Results =====
-appId:          app.michaelwuensch.bitbanana
-signer:         98d818b12efa005735dc3d6b6ed78a05d8f75629e0afaf001655ed6aacfd2884
-apkVersionName: 0.8.8
-apkVersionCode: 65
-verdict:        
-appHash:        23f5f22e06e56604b75bfea649f3e0b0d0c2a1ebc8c487dc84224acd48a8993a
-commit:         0a8a446ebcb63f3ef5bd9c28d6b30ee6e599bf80
+We endeavored to adapt the comparison process to comparing via the [testAAB.sh script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/testAAB.sh). 
 
-Diff:
-Files /tmp/fromPlay_app.michaelwuensch.bitbanana_65/classes2.dex and /tmp/fromBuild_app.michaelwuensch.bitbanana_65/classes2.dex differ
-Files /tmp/fromPlay_app.michaelwuensch.bitbanana_65/classes3.dex and /tmp/fromBuild_app.michaelwuensch.bitbanana_65/classes3.dex differ
-Files /tmp/fromPlay_app.michaelwuensch.bitbanana_65/classes4.dex and /tmp/fromBuild_app.michaelwuensch.bitbanana_65/classes4.dex differ
-Files /tmp/fromPlay_app.michaelwuensch.bitbanana_65/classes5.dex and /tmp/fromBuild_app.michaelwuensch.bitbanana_65/classes5.dex differ
-Only in /tmp/fromBuild_app.michaelwuensch.bitbanana_65: lib
-Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: anim
-Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: animator
-Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: animator-v21
-Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: anim-v21
-Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: drawable
-Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: drawable-anydpi-v23
-Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: drawable-hdpi-v4
-Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: drawable-v21
-Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: drawable-v23
-Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: drawable-watch-v20
-Only in /tmp/fromBuild_app.michaelwuensch.bitbanana_65/res: E5.ogg
-Only in /tmp/fromBuild_app.michaelwuensch.bitbanana_65/res: Fw.json
-Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: interpolator
-Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: interpolator-v21
-Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: layout
-Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: layout-land
-Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: layout-sw600dp-v13
-Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: layout-v21
-Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: layout-v26
-Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: layout-watch-v20
-Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: menu
-Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: mipmap-anydpi-v26
-Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: mipmap-hdpi-v4
-Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: mipmap-mdpi-v4
-Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: mipmap-xhdpi-v4
-Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: mipmap-xxhdpi-v4
-Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: mipmap-xxxhdpi-v4
-Only in /tmp/fromBuild_app.michaelwuensch.bitbanana_65/res: Pl.json
-Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: raw
-Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65/res: xml
-Only in /tmp/fromBuild_app.michaelwuensch.bitbanana_65/res: xP.json
-Files /tmp/fromPlay_app.michaelwuensch.bitbanana_65/resources.arsc and /tmp/fromBuild_app.michaelwuensch.bitbanana_65/resources.arsc differ
-Only in /tmp/fromPlay_app.michaelwuensch.bitbanana_65: stamp-cert-sha256
+### Process
 
-Revision, tag (and its signature):
+**Step 1.** Download the apks from the phone
 
-===== End Results =====
-```
-The main things we saw are - 
+To make use of the testAAB.sh script, we need to download the latest version of the BitBanana app from the Play Store and extract the APKs that are included in the app by using the [apkextractor_sync.sh](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/apkextractor_sync.sh). 
 
-1. Different DEX files (classes2.dex through classes5.dex differ) - this means the compiled code is different
-2. Missing resource directories in the built version (anim, drawable, layout, etc.) that are present in the Play Store version
-3. Additional files in built version (E5.ogg, Fw.json, Pl.json, xP.json) that aren't in the Play Store version
-4. Different resources.arsc files
+`$ apkextractor_sync.sh app.michaelwuensch.bitbanana`
 
+There is usually 3 or 4 apks produced using this process placed in a folder.
 
-With these differences, the wallet is **not reproducable**
+**Step 2.** Download the device-spec.json file from your device
 
-{% include asciicast %}
+Use the device-spec_extractor.sh script to download the device-spec.json file from your device.
 
-### Update on 2024-10-21
+`$ ./device-spec_extractor.sh`
 
-We followed the build instructions from the repository and successfully generated the APK. Additionally, we retrieved the official APK from the Play Store for comparison.
+**Step 3.** Source the device-spec.json file
 
-To compare the two APKs, we extracted the contents of both using these commands : 
-`unzip -qqd fromOfficial *.apk`
-`unzip -qqd fromBuild *.apk`
+Modify this line in the scripts/test/android/app.michaelwuensch.bitbanana.sh
 
-and ran the following command to identify any differences:
+`deviceSpec="/var/shared/device-spec/a11/device-spec.json"`
 
-`diff --brief --recursive fromBuild/ fromOfficial/`
+Change the directory to the location of **your** device-spec.json file.
 
-The comparison resulted in several differences between the two APKs:
+**Step 4.** Run testAAB.sh
+
+When using testAAB.sh locally, take note of the folder location of the app.
+
+Invoke:
+
+`$ testAAB.sh -d /path/to/apk-directory`
+
+This script has been tested on the latest version of BitBanana (0.8.9) and the test results are as follows:
 
 ```
-Files fromBuild/classes2.dex and fromOfficial/classes2.dex differ
-Files fromBuild/classes3.dex and fromOfficial/classes3.dex differ
-Files fromBuild/classes5.dex and fromOfficial/classes5.dex differ
-Only in fromOfficial/: lib
-Only in fromBuild/res: anim
-Only in fromBuild/res: animator
-Only in fromBuild/res: animator-v21
-Only in fromBuild/res: anim-v21
-Only in fromBuild/res: drawable
-Only in fromBuild/res: drawable-anydpi-v23
-Only in fromBuild/res: drawable-v21
-Only in fromBuild/res: drawable-v23
-Only in fromBuild/res: drawable-watch-v20
-Only in fromOfficial/res: E5.ogg
-Only in fromBuild/res: interpolator
-Only in fromBuild/res: interpolator-v21
-Only in fromBuild/res: layout
-Only in fromBuild/res: layout-land
-Only in fromBuild/res: layout-sw600dp-v13
-Only in fromBuild/res: layout-v21
-Only in fromBuild/res: layout-v26
-Only in fromBuild/res: layout-watch-v20
-Only in fromBuild/res: menu
-Only in fromBuild/res: mipmap-anydpi-v26
-Only in fromBuild/res: mipmap-hdpi-v4
-Only in fromBuild/res: mipmap-mdpi-v4
-Only in fromBuild/res: mipmap-xhdpi-v4
-Only in fromBuild/res: mipmap-xxhdpi-v4
-Only in fromBuild/res: mipmap-xxxhdpi-v4
-Only in fromBuild/res: raw
-Only in fromOfficial/res: rM.txt
-Only in fromBuild/res: xml
-Files fromBuild/resources.arsc and fromOfficial/resources.arsc differ
-Only in fromBuild/: stamp-cert-sha256
+armeabi_v7a.apk
+
+Binary files /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromPlay-unzipped/armeabi_v7a/AndroidManifest.xml and /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromBuild-unzipped/armeabi_v7a/AndroidManifest.xml differ
+Only in /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromPlay-unzipped/armeabi_v7a: META-INF
+Only in /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromPlay-unzipped/armeabi_v7a: stamp-cert-sha256
+
+base.apk 
+
+Binary files /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromPlay-unzipped/base/AndroidManifest.xml and /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromBuild-unzipped/base/AndroidManifest.xml differ
+Binary files /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromPlay-unzipped/base/assets/dexopt/baseline.prof and /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromBuild-unzipped/base/assets/dexopt/baseline.prof differ
+Binary files /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromPlay-unzipped/base/assets/dexopt/baseline.profm and /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromBuild-unzipped/base/assets/dexopt/baseline.profm differ
+Binary files /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromPlay-unzipped/base/classes4.dex and /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromBuild-unzipped/base/classes4.dex differ
+Binary files /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromPlay-unzipped/base/classes5.dex and /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromBuild-unzipped/base/classes5.dex differ
+Binary files /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromPlay-unzipped/base/classes.dex and /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromBuild-unzipped/base/classes.dex differ
+Binary files /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromPlay-unzipped/base/res/xml/splits0.xml and /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromBuild-unzipped/base/res/xml/splits0.xml differ
+Binary files /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromPlay-unzipped/base/resources.arsc and /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromBuild-unzipped/base/resources.arsc differ
+Only in /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromPlay-unzipped/base: stamp-cert-sha256
+
+xhdpi.apk
+
+Binary files /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromPlay-unzipped/xhdpi/AndroidManifest.xml and /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromBuild-unzipped/xhdpi/AndroidManifest.xml differ
+Only in /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromPlay-unzipped/xhdpi: META-INF
+Binary files /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromPlay-unzipped/xhdpi/resources.arsc and /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromBuild-unzipped/xhdpi/resources.arsc differ
+Only in /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromPlay-unzipped/xhdpi: stamp-cert-sha256
 ```
 
-There were also 900+ lines of diff containing png, webp and xml changes. Given the extent of these differences, we conclude that the APK is **not verifiable** at this time. 
+## Excluding signing-related diffs:  
+
+### In armeabi_v7a.apk only AndroidManifest.xml differs 
+
+  {% include diffoscope-modal.html label='AndroidManifest.xml' url='/assets/diffoscope-results/android/app.michaelwuensch.bitbanana/0.8.9/diffoscope_armeabi_v7a_AndroidManifest.html' %}
+
+### In base.apk, the following files differ:
+
+  {% include diffoscope-modal.html label='AndroidManifest.xml' url='/assets/diffoscope-results/android/app.michaelwuensch.bitbanana/0.8.9/diffoscope_base_AndroidManifest.html' %}
+  
+  {% include diffoscope-modal.html label='classes.dex' url='/assets/diffoscope-results/android/app.michaelwuensch.bitbanana/0.8.9/diffoscope_base_classes.dex.html' %}
+  
+  {% include diffoscope-modal.html label='classes4.dex' url='/assets/diffoscope-results/android/app.michaelwuensch.bitbanana/0.8.9/diffoscope_base_classes4.dex.html' %}
+  
+  {% include diffoscope-modal.html label='classes5.dex' url='/assets/diffoscope-results/android/app.michaelwuensch.bitbanana/0.8.9/diffoscope_base_classes5.dex.html' %}
+  
+  {% include diffoscope-modal.html label='baseline.prof' url='/assets/diffoscope-results/android/app.michaelwuensch.bitbanana/0.8.9/diffoscope_base_baseline.prof.html' %}
+
+  {% include diffoscope-modal.html label='baseline.profm' url='/assets/diffoscope-results/android/app.michaelwuensch.bitbanana/0.8.9/diffoscope_base_baseline.profm.html' %}
+   
+
+### In xhdpi.apk, the following files differ: 
+  
+  {% include diffoscope-modal.html label='AndroidManifest.xml' url='/assets/diffoscope-results/android/app.michaelwuensch.bitbanana/0.8.9/diffoscope_xhdpi_AndroidManifest.xml.html' %}
+  
+
+We are currently in the process of investigating the cause for the remaining diffs. While doing so, we can conclude that version 0.8.9 is **nonverifiable**.
 
 ## App Description from Google Play
 
@@ -183,4 +154,3 @@ There were also 900+ lines of diff containing png, webp and xml changes. Given t
 While not explicitly a wallet, it does incorporate features that are akin to a wallet. The user initializes by connecting to a bitcoin lightning node. Once connected to a node, features such as backup, restore and other wallet features such as send and receive are made available. 
 
 The provider has provided links to F-Droid and has self-described as reproducible. This app is [**for verification**](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/512)
-

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.sf.monarch.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2021-05-22
+date: 2025-01-15
 signer: 
 reviewArchive: 
 twitter: Monarchtoken

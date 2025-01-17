@@ -1,6 +1,6 @@
 ---
 wsId: functionX
-title: FX Wallet by Function X
+title: Pundi Wallet
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.pundix.functionx
 appCountry: us
 released: 2021-03-25
-updated: 2024-11-23
-version: 4.4.0
+updated: 2025-01-09
+version: 5.0.0
 stars: 3.6
 ratings: 363
 reviews: 41

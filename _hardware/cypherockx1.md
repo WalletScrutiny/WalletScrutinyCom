@@ -10,8 +10,8 @@ authors:
 - keraliss
 released: 2022-04-07
 discontinued: 
-updated: 2024-11-25
-version: 0.6.1282
+updated: 2025-01-11
+version: 0.6.1539
 binaries: https://github.com/Cypherock/x1_wallet_firmware/releases/
 dimensions:
 - 30
@@ -100,6 +100,34 @@ From the [FAQ](https://www.cypherock.com/faq/): Can the company somehow steal th
 - The docker file corresponding to the latest release can be found here: [Dockerfile v0.4.1290](https://github.com/Cypherock/x1_wallet_firmware/blob/v0.4.1290/Dockerfile)
 - List of tools required to successfully build the project can be found here: [Building project](https://github.com/Cypherock/x1_wallet_firmware/tree/v0.4.1290#building-project)
 - Sequence of commands run on docker can be found here: [Docker commands v0.4.1290](https://github.com/Cypherock/x1_wallet_firmware/blob/v0.4.1290/.github/workflows/containerized-build.yml)
+
+# Update 2025-01-13 (Version 0.6.1539)
+
+We ran the CypherRockX1 script by issuing `$ ./scripts/test/hardware/cypherockX1.sh 0.6.1539`
+
+Here are the results:
+
+```
+Calculating SHA256 checksums for built binary...
+Downloading released firmware binary from GitHub...
+Connecting to github.com (140.82.121.3:443)
+Connecting to objects.githubusercontent.com (185.199.110.133:443)
+saving to 'Cypherock-Main-released.bin'
+Cypherock-Main-relea 100% |********************************|  601k  0:00:00 ETA
+'Cypherock-Main-released.bin' saved
+Calculating SHA256 checksums...
+Compare built and released binaries...
+cacd04d1c6a5e2bd4f9c0adc56ab46e431fbb2347f29130290f02383ac8a7562  Cypherock-Main.bin
+cacd04d1c6a5e2bd4f9c0adc56ab46e431fbb2347f29130290f02383ac8a7562  Cypherock-Main-released.bin
+COMMIT cypherock-x1-verifier
+--> 0ce9a0fed2f
+Successfully tagged localhost/cypherock-x1-verifier:latest
+0ce9a0fed2f80e66819f65dd4f4176e7ed976817f7cc5493e3271bae682279ac
+Running the container to verify firmware...
+```
+
+We can see that the checksums of the built binary and the released binary match, and thus version 0.6.1539 is **reproducible**.
+This can be verified in their repository [here.](https://github.com/Cypherock/x1_wallet_firmware/releases/tag/v0.6.1539)
 
 # Update 2024-12-10 (Version 0.6.1282)
 ## Please see previous reproducible attempts in the archives below

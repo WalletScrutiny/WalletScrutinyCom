@@ -10,9 +10,9 @@ appCountry:
 released: 2022-05-06
 updated: 2025-01-06
 version: v1.45.0
-stars: 2.8
+stars: 2.7
 ratings: 
-reviews: 17
+reviews: 18
 size: 
 website: https://lbfinanzas.com
 repository: 

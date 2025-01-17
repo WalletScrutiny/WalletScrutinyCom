@@ -13,7 +13,7 @@ updated: 2025-01-03
 version: 2.03.0
 stars: 4.5
 ratings: 13620
-reviews: 3194
+reviews: 3207
 size: 
 website: https://www.crypto.com
 repository: 

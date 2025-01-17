@@ -4,7 +4,7 @@ title: CoinCatch-Buy Bitcoin & Crypto
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.coincatch.exchange
 appCountry: 
 released: 2023-04-07

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.xchangecapital.xchange.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2024-12-15
+date: 2025-01-15
 signer: 
 reviewArchive: 
 twitter: XchangeO

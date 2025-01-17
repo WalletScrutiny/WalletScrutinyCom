@@ -12,7 +12,7 @@ updated: 2024-12-30
 version: 3.7.1
 stars: 4.7
 ratings: 
-reviews: 55
+reviews: 56
 size: 
 website: https://blofin.com
 repository: 

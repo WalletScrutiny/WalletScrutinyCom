@@ -8,11 +8,11 @@ appId: com.moonpay.app
 appCountry: us
 idd: '1635031432'
 released: 2023-04-17
-updated: 2024-12-19
-version: 1.14.84
+updated: 2025-01-14
+version: 1.14.86
 stars: 4.4
-reviews: 2716
-size: '103446528'
+reviews: 2737
+size: '103927808'
 website: https://www.moonpay.com
 repository: 
 issue: 

@@ -10,8 +10,8 @@ idd: '6479732222'
 released: 2024-03-26
 updated: 2024-12-17
 version: 1.2.2
-stars: 5
-reviews: 1
+stars: 0
+reviews: 0
 size: '109072384'
 website: https://www.coinlink.tech
 repository: 

@@ -21,9 +21,14 @@ icon: com.bullbitcoin.mobile.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2024-09-24
+date: 2025-01-13
 signer: 
-reviewArchive: 
+reviewArchive:
+- date: 2023-07-05
+  version: 0.3.2
+  appHash: 
+  gitRevision: 3fadfe82d841cefe9dabe322d1422f8404c98484
+  verdict: nonverifiable
 twitter: bullbitcoin_
 social:
 - https://www.facebook.com/bullbitcoindotcom
@@ -35,56 +40,84 @@ features:
 
 ---
 
-# Verification 2024-09-24
+# Verification 2025-01-12 for version 0.4.0
 
-1. We begin by looking for the build instructions. At the time of writing, the Bull Bitcoin team has indicated that they [would be providing](https://github.com/SatoshiPortal/bullbitcoin-mobile/issues/326#issuecomment-2363816854) a BUILD.md file in later releases.
+We have successfully integrated the bullbitcoin dockerfile with the testAAB.sh script, which now passes on the location of the device-spec.json file. 
 
-2. [Dockerfile version 0.3.2](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/c1ec6e8920ce5af8d4cacb9d1eb40001fc84e49d/scripts/test/android/com.bullbitcoin.android.dockerfile) was crafted that would enable building the split apks. 
+`$ ./testAAB.sh -d /var/shared/apk/com.bullbitcoin.mobile/0.4.0/ -s /var/shared/device-spec/a11/device-spec.json` 
 
-3. We use the [apkextractor_sync.sh](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/apkextractor_sync.sh?ref_type=heads) file to extract the split apks from our USB-connected phone.
-
-4. After several tries, we successfully built and copied the split apks to our host machine.
+========================================
 
 ## Diff results 
 
+*Excludes AndroidManifest.xml and other signing related diffs.
+
+**armeabi_v7a.apk** - nonverifiable
+
+6a6747180656be691839738a8c5c40528afc7820cb7355e1f7fde7515c99997f - Official
+8329375919aa765b863b5be3655b6b193c85487bb67f752de67f49f4eedacd34 - Built 
+
 ```
-danny@lw10:~/work/compare/com.bullbitcoin.mobile/0.3.2$ diff -r -q fromOfficial/ fromBuild/
-Files fromOfficial/armeabi_v7a/AndroidManifest.xml and fromBuild/armeabi_v7a/AndroidManifest.xml differ
-Files fromOfficial/armeabi_v7a/lib/armeabi-v7a/libapp.so and fromBuild/armeabi_v7a/lib/armeabi-v7a/libapp.so differ
-Files fromOfficial/armeabi_v7a/lib/armeabi-v7a/libboltz_dart.so and fromBuild/armeabi_v7a/lib/armeabi-v7a/libboltz_dart.so differ
-Files fromOfficial/armeabi_v7a/lib/armeabi-v7a/libflutter.so and fromBuild/armeabi_v7a/lib/armeabi-v7a/libflutter.so differ
-Files fromOfficial/armeabi_v7a/lib/armeabi-v7a/liblwk_dart.so and fromBuild/armeabi_v7a/lib/armeabi-v7a/liblwk_dart.so differ
-Only in fromOfficial/armeabi_v7a: META-INF
-Only in fromOfficial/armeabi_v7a: stamp-cert-sha256
-Files fromOfficial/armeabi_v7a.apk and fromBuild/armeabi_v7a.apk differ
-Files fromOfficial/base/AndroidManifest.xml and fromBuild/base/AndroidManifest.xml differ
-Files fromOfficial/base/assets/flutter_assets/NOTICES.Z and fromBuild/base/assets/flutter_assets/NOTICES.Z differ
-Only in fromOfficial/base/META-INF: BNDLTOOL.RSA
-Only in fromOfficial/base/META-INF: BNDLTOOL.SF
-Only in fromOfficial/base/META-INF: MANIFEST.MF
-Files fromOfficial/base/res/xml/splits0.xml and fromBuild/base/res/xml/splits0.xml differ
-Files fromOfficial/base/resources.arsc and fromBuild/base/resources.arsc differ
-Only in fromOfficial/base: stamp-cert-sha256
-Files fromOfficial/base.apk and fromBuild/base.apk differ
-Files fromOfficial/en/AndroidManifest.xml and fromBuild/en/AndroidManifest.xml differ
-Only in fromOfficial/en: META-INF
-Files fromOfficial/en/resources.arsc and fromBuild/en/resources.arsc differ
-Only in fromOfficial/en: stamp-cert-sha256
-Files fromOfficial/en.apk and fromBuild/en.apk differ
-Files fromOfficial/xhdpi/AndroidManifest.xml and fromBuild/xhdpi/AndroidManifest.xml differ
-Only in fromOfficial/xhdpi: META-INF
-Files fromOfficial/xhdpi/resources.arsc and fromBuild/xhdpi/resources.arsc differ
-Only in fromOfficial/xhdpi: stamp-cert-sha256
-Files fromOfficial/xhdpi.apk and fromBuild/xhdpi.apk differ
+  - libapp.so
+  - libboltz_dart.so
+  - libllwk_dart.so
+  - libpayjoin_flutter.so
 ```
+
+The **.so** files listed are shared object libraries commonly used in Android applications. 
+
+- **libapp.so:** This is likely a core library for the application, containing essential native code used by the app.
+- **libboltz_dart.so:** This library is probably related to the Boltz service, which is used for atomic swaps and other cryptocurrency-related operations. The dart suffix indicates it is used with Dart, the programming language behind Flutter.
+- **libllwk_dart.so:** This library might be related to a specific functionality or service within the app, with llwk being an acronym or shorthand for that service. The dart suffix again indicates usage with Dart.
+- **libpayjoin_flutter.so:** This library is likely related to the PayJoin protocol, a privacy-enhancing Bitcoin transaction method. The flutter suffix indicates it is used within a Flutter application.
+
+**base.apk** - **nonverifiable**
+
+eda2f8e832d5d07b2269ef444618f9d1b784e523d145243822680a8947d153b7 - Official
+2adc1b2499a0a23816787328b002da200f4cccefc9749a2aeadc18bdce72a8e8 - Built
+
+```
+  - splits0.xml
+```
+
+**en.apk** - **reproducible**
+
+ddaf3734e4510459ae5f0fbbf862532536bcac912e70945cd55e03be6019de93 - Official
+a2a0341f6aff908007c27d733532d238f90016b81748b08d866d07e82864f4b9 - Built 
+
+```
+  - Only signing-related diffs
+```
+
+**xhdpi.apk** - **reproducible**
+
+e1f06b911d85898bf1d9ca55064d2b586c55ea2ef4dafc71876fe4323e28198d - Official
+65040fb889b99303f5fa7fe91ad5d58f996a19bbd16bdee711618b8c7e5b631a - Built
+
+```
+  - Only signing-related diffs
+```
+
+## Diffoscope results
+
+**armeabi_v7a**
+
+  {% include diffoscope-modal.html label='libapp.so' url='/assets/diffoscope-results/android/com.bullbitcoin.mobile/0.4.0/armeabi_v7a/diffo-com.bullbitcoin.mobile_v0.4.0-armeabi_v7a-libapp.so.html' %}
+  {% include diffoscope-modal.html label='libboltz_dart.so' url='/assets/diffoscope-results/android/com.bullbitcoin.mobile/0.4.0/armeabi_v7a/diffo-com.bullbitcoin.mobile_v0.4.0-armeabi_v7a-libboltz_dart.so.html' %}
+  {% include diffoscope-modal.html label='liblwk_dart.so' url='/assets/diffoscope-results/android/com.bullbitcoin.mobile/0.4.0/armeabi_v7a/diffo-com.bullbitcoin.mobile_v0.4.0-armeabi_v7a-liblwk_dart.so.html' %}
+  {% include diffoscope-modal.html label='libpayjoin_flutter.so' url='/assets/diffoscope-results/android/com.bullbitcoin.mobile/0.4.0/armeabi_v7a/diffo-com.bullbitcoin.mobile_v0.4.0-armeabi_v7a-libpayjoin_flutter.so.html' %}
+
+**base** 
+
+  {% include diffoscope-modal.html label='splits0.xml' url='/assets/diffoscope-results/android/com.bullbitcoin.mobile/0.4.0/base/diffo-com.bullbitcoin.mobile_v0.4.0-base-splits0.xml.html' %}
 
 ## Asciicast 
 
 {% include asciicast %}
 
-## Diffoscope results
+## Conclusion
 
-We ran diffoscope on the apks, but the diffs reached more than 200,000 lines and more than 300 MB. This caused nosbin.com to error. Suffice to say, the diffs are large enough to merit this beta version 0.3.2, a verdict of **non-verifiable**
+Even if we exclude the signing related diffs, the above results lead us to conclude that version 0.4.0 of the app is **nonverifiable**
 
 # Previous Review 2024-08-30
 

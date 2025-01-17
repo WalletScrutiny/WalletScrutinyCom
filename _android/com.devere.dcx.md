@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.devere.dcx.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosendreceive
-date: 2024-04-17
+date: 2025-01-15
 signer: 
 reviewArchive: 
 twitter: deveregroup

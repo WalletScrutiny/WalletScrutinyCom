@@ -12,7 +12,7 @@ updated: 2024-11-20
 version: 4.16.0
 stars: 3.9
 ratings: 
-reviews: 11
+reviews: 12
 size: 
 website: https://coinhubatm.com/
 repository: 

@@ -17,7 +17,7 @@ size:
 website: http://www.uptrend.bg
 repository: 
 issue: 
-icon: com.uptrend.ainvesting.jpg
+icon: com.uptrend.ainvesting.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive

@@ -11,7 +11,7 @@ released: 2016-11-18
 updated: 2025-01-08
 version: 7.41.0
 stars: 4.3
-reviews: 125178
+reviews: 125319
 size: '59793408'
 website: https://bitflyer.com/
 repository: 

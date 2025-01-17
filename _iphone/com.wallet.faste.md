@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.wallet.faste.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2024-01-19
+date: 2025-01-15
 signer: 
 reviewArchive: 
 twitter: blocktechbrew
