@@ -19,13 +19,10 @@ issue: https://github.com/breadwallet/brd-mobile/issues/13
 icon: org.voisine.breadwallet.jpg
 bugbounty: 
 meta: removed
+verdict: nosource
+appHashes: []
 date: 2024-11-19
 signer:
-reviewCurrent:
-  date: 2024-11-19
-  version: 4.18.0
-  appHashes: []
-  verdict: nosource 
 reviewArchive:
 - date: 2021-06-27
   version: 4.10.0

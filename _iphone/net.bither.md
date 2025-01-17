@@ -21,14 +21,16 @@ issue:
 icon: net.bither.jpg
 bugbounty: 
 meta: ok
+verdict: obfuscated
+appHashes: []
 date: 2024-10-09
 signer:
-reviewCurrent:
+reviewArchive:
   date: 2024-10-09
   version: 2.1.4
   appHashes: []
-  verdict: obfuscated
-reviewArchive: 
+  gitRevision: c6c91a04460f39a7c97dd54aa997ad3ff88ec3e1
+  verdict: obfuscated 
 twitter: 
 social: 
 features: 

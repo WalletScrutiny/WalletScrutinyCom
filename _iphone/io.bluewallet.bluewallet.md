@@ -19,13 +19,10 @@ issue: https://github.com/BlueWallet/BlueWallet/issues/758
 icon: io.bluewallet.bluewallet.jpg
 bugbounty: 
 meta: ok
+verdict: nonverifiable
+appHashes: []
 date: 2023-12-30
 signer:
-reviewCurrent:
-  date: 2023-12-30
-  version: 7.0.6
-  appHashes: []
-  verdict: nonverifiable
 reviewArchive:
 - date: 2020-07-14
   version: 6.3.2

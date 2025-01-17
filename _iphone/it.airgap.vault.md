@@ -19,13 +19,10 @@ issue:
 icon: it.airgap.vault.jpg
 bugbounty: 
 meta: ok
+verdict: nonverifiable
+appHashes: []
 date: 2023-12-30
 signer:
-reviewCurrent:
-  date: 2023-12-30
-  version: 3.32.5
-  appHashes: [] 
-  verdict: nonverifiable 
 reviewArchive: 
 twitter: AirGap_it
 social:

@@ -19,14 +19,10 @@ issue:
 icon: pro.fxcoin.jpg
 bugbounty: 
 meta: removed
+verdict: nowallet
+appHashes: []
 date: 2021-10-20
 signer: 
-reviewCurrent:
-  date: 2021-09-03
-  version: 1.11.2
-  appHashes: []
-  gitRevision: a15670db8ff6231c583fdbc3d8f508dea44c6503
-  verdict: nowallet
 twitter: 
 social: 
 features: 

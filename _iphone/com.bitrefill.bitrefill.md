@@ -19,14 +19,16 @@ issue:
 icon: com.bitrefill.bitrefill.jpg
 bugbounty: 
 meta: ok
+verdict: wip
+appHashes: []
 date: 2021-09-12
-signer:
-reviewCurrent:
-  date: 2021-09-12
+signer: 
+reviewArchive:
+- date: 2021-09-12
   version: 2.5.0    
   appHashes: []
+  gitRevision: 4458285efc54bd9bc76d74f88e696201a4af4a93
   verdict: custodial  
-reviewArchive:
 - date: 2021-05-25
   version: 1.13
   appHashes: []

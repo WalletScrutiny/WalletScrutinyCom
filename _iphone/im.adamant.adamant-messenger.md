@@ -19,13 +19,10 @@ issue:
 icon: im.adamant.adamant-messenger.jpg
 bugbounty: 
 meta: ok
+verdict: nonverifiable
+appHashes: []
 date: 2024-09-19
 signer:
-reviewCurrent:
-  date: 2024-09-19
-  version: 3.9.0
-  appHashes: []
-  verdict: nonverifiable
 reviewArchive: 
 twitter: adamant_im
 social:

@@ -19,14 +19,16 @@ issue:
 icon: world.bitkey.app.jpg
 bugbounty: 
 meta: ok
+verdict: nonverifiable
+appHashes: []
 date: 2024-03-14
 signer:
-reviewCurrent:
+reviewArchive:
   date: 2024-03-14
   version: 2024.74.1
   appHashes: []
-  verdict: nonverifiable
-reviewArchive: 
+  gitRevision: 1c24468eb363380524219e74a72b68eed75509f4
+  verdict: nonverifiable 
 twitter: Bitkeyofficial
 social:
 - https://www.linkedin.com/company/bitkey-official

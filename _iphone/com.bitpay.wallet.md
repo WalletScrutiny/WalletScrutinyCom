@@ -20,14 +20,16 @@ issue: https://github.com/bitpay/bitpay-app/issues/686
 icon: com.bitpay.wallet.jpg
 bugbounty: 
 meta: ok
+verdict: wip
+appHashes: []
 date: 2023-03-13
 signer:
-reviewCurrent:
-  date: 2023-03-13
+reviewArchive:
+- date: 2023-03-13
   version: 14.27.1
   appHashes: []
+  gitRevision: 4458285efc54bd9bc76d74f88e696201a4af4a93
   verdict: ftbfs 
-reviewArchive:
 - date: 2022-11-02
   version: 12.6.4
   appHashes: [] 

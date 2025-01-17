@@ -20,6 +20,7 @@ icon: com.mojitowallet.jpg
 bugbounty: 
 meta: ok
 verdict: nonverifiable
+appHashes: []
 date: 2023-09-06
 signer: 
 reviewArchive: 

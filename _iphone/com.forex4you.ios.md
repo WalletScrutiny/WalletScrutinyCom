@@ -19,14 +19,16 @@ issue:
 icon: com.forex4you.ios.jpg
 bugbounty: 
 meta: ok
+verdict: nosendreceive
+appHashes: []
 date: 2021-12-24
 signer:
-reviewCurrent:
-  date: 2021-12-24
+reviewArchive:
+- date: 2021-12-24
   version: 6.5.4
   appHashes: []
+  gitRevision: c5fd94bf4c89189529bbb9a0265239acf4f53f35
   verdict: nosendreceive 
-reviewArchive:
 - date: 2021-11-01
   version: 4.2
   appHashes: []

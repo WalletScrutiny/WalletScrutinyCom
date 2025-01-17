@@ -19,14 +19,16 @@ issue:
 icon: com.nayuta.core2.jpg
 bugbounty: 
 meta: ok
+verdict: wip
+appHashes: []
 date: 2024-10-07
 signer:
-reviewCurrent:
+reviewArchive:
   date: 2024-10-07
   version: 1.5.0
   appHashes: []
-  verdict: nonverifiable  
-reviewArchive: 
+  gitRevision: c5fd94bf4c89189529bbb9a0265239acf4f53f35
+  verdict: nonverifiable   
 twitter: 
 social: 
 features:
