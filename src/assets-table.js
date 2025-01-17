@@ -39,7 +39,8 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
             ['x', oldTest.appHash]
           ],
           content: `Legacy verdict (WS)`,
-          isLegacy: true
+          isLegacy: true,
+          gitRevision: oldTest.gitRevision
         });
       }
     });
@@ -88,6 +89,29 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
       const version = binary.tags.find(tag => tag[0] === 'version')?.[1] || '';
       const oldInfoStatus = binary.tags.find(tag => tag[0] === 'status')?.[1] || '';
       const identifier = binary.tags.find(tag => tag[0] === 'i')?.[1] || "";
+      let longStatus = null;
+
+      if (binary.isLegacy) {
+        let openLinkTag = null;
+
+        if (binary.gitRevision) {
+          const firstPathToken = window.location.pathname.split('/').filter(Boolean)[0];
+          openLinkTag = '<a target="_blank" rel="noopener noreferrer" href="https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/' + binary.gitRevision + '/_' + firstPathToken + '/' + appId + '.md">';
+          longStatus = '';
+        }
+
+        switch (oldInfoStatus) {
+          case 'reproducible':
+            longStatus += '✅ ' + openLinkTag + 'Reproducible when tested' + (openLinkTag ? '</a>' : '');
+            break;
+          case 'nonverifiable':
+            longStatus += '❌ ' + openLinkTag + 'Failed to build from source provided' + (openLinkTag ? '</a>' : '');
+            break;
+          case 'ftbfs':
+            longStatus += '❌ ' + openLinkTag + 'Not reproducible from source provided' + (openLinkTag ? '</a>' : '');
+            break;
+        }
+      }
 
       const attestations = response.attestations.get(binary.tags.find(tag => tag[0] === 'x')?.[1]) || [];
 
@@ -115,15 +139,25 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
 
           const status = attestation.tags.find(tag => tag[0] === 'status')?.[1] || '';
 
-          const statusIcon = status === 'reproducible' 
-            ? '<span title="Reproducible" style="margin-left: 6px;">✅</span>' 
-            : '<span title="Not Reproducible" style="margin-left: 6px;">❌</span>';
+          let statusText = null;
+          console.log('status', status);
+          switch (status) {
+            case 'reproducible':
+              statusText = '✅ <span style="text-decoration: underline; color: var(--accent-text);">Reproducible when tested</span>';
+              break;
+            case 'not_reproducible':
+              statusText = '❌ <span style="text-decoration: underline; color: var(--accent-text);">Failed to build from source provided</span>';
+              break;
+            case 'ftbfs':
+              statusText = '❌ <span style="text-decoration: underline; color: var(--accent-text);">Not reproducible from source provided</span>';
+              break;
+          }
 
-          listItems += `<li onclick='showAttestationModal("${sha256Hash}", "${attestation.id}")' style="cursor: pointer;">
-            ${attestationDate} ${statusIcon}
-          </li>`;
+          listItems += `<p onclick='showAttestationModal("${sha256Hash}", "${attestation.id}")' style="cursor: pointer; margin-bottom: 0; margin-top: 0;">
+            ${statusText}<br><small>(${attestationDate})</small>
+          </p>`;
         }
-        attestationList = `<ul style="padding: 0; margin: 0; list-style-position: inside;">${listItems}</ul>
+        attestationList = `${listItems}
         ${hideConfig?.buttons ? '' :
         `<div style="margin-top: 4px;"><a href="/new_attestation/?sha256=${sha256Hash}&assetEventId=${eventId}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">Create another attestation</a></div>`}`;
       } else {
@@ -154,7 +188,7 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
         <td>
           ${downloadUrl ? `<a href="${downloadUrl}" target="_blank" rel="noopener noreferrer">Download</a>` : '-'}
         </td>
-        <td>${binary.isLegacy ? oldInfoStatus : attestationList}</td>
+        <td>${binary.isLegacy ? (longStatus ? longStatus : oldInfoStatus) : attestationList}</td>
         <td>${date}</td>
         ${getAssetsForMyAttestations ? `
           <td>
@@ -220,8 +254,8 @@ window.showAttestationModal = async function(sha256Hash, attestationId) {
       const status = otherAttestation.tags.find(tag => tag[0] === 'status')?.[1] || '';
 
       const statusIcon = status === 'reproducible' 
-        ? '<span title="Reproducible" style="margin-left: 6px;">✅</span>' 
-        : '<span title="Not Reproducible" style="margin-left: 6px;">❌</span>';
+        ? '<span title="Reproducible" style="margin-left: 4px;">✅</span>' 
+        : '<span title="Not Reproducible" style="margin-left: 4px;">❌</span>';
 
       otherAttestationsHTML += `<li>
         ${attestationDate} ${statusIcon}
