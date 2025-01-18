@@ -14,7 +14,7 @@ stars: 3.2
 ratings: 624
 reviews: 433
 size: 11M
-website: http://web.archive.org/web/20240511204342/https://buycoins.africa/ (archived)
+website: http://web.archive.org/web/20240511204342/https://buycoins.africa/
 repository: 
 issue: 
 icon: africa.bitkoin.buycoins.png

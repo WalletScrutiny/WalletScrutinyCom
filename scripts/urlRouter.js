@@ -8,6 +8,7 @@ const twitterChecker = require("./socialchecker/twitterChecker");
 const githubChecker = require("./socialchecker/githubChecker");
 const linkedinChecker = require("./socialchecker/linkediinChecker");
 const youtubeChecker = require("./socialchecker/youtubeChecker");
+const archiveChecker = require("./socialchecker/archiveChecker");
 
 const DIRECTORIES = [
     "./_android", "./_iphone", "./_hardware",
@@ -81,12 +82,19 @@ async function getAllUrls(directories) {
                             });
                         }
                         if (frontMatter.social) {
+                            // Filter social URLs to only include ones we can check
                             frontMatter.social.forEach(url => {
-                                allUrls.push({
-                                    file: filePath,
-                                    url: url,
-                                    type: "social"
-                                });
+                                // Check if we have a checker for this URL before adding it
+                                const checker = getSocialChecker(url);
+                                if (checker) {
+                                    allUrls.push({
+                                        file: filePath,
+                                        url: url,
+                                        type: "social"
+                                    });
+                                } else {
+                                    console.log(`Skipping unsupported social URL: ${url}`);
+                                }
                             });
                         }
                     } catch (yamlError) {
@@ -100,6 +108,7 @@ async function getAllUrls(directories) {
     }
     return allUrls;
 }
+
 
 function getUrlType(url) {
     try {
@@ -135,32 +144,90 @@ function getSocialChecker(url) {
 
 async function checkSocialUrl(site) {
     try {
-        const url = site.url.replace(/^>-\s*/, "").trim();
+        let url = site.url.replace(/^>-\s*/, "").trim();
+        const originalUrl = url;
+
         console.log(`\nChecking social URL: ${url}`);
         console.log(`File: ${site.file}`);
 
-        const checker = getSocialChecker(url);
-        if (!checker) return null;
+        // Extract original URL regardless of current state
+        let cleanUrl = url;
+        if (url.startsWith("https://walletscrutiny.com/brokenlink/")) {
+            cleanUrl = url.replace("https://walletscrutiny.com/brokenlink/", "")
+                         .replace(/^https?:\/\//, "");
+            console.log(`Extracted from broken link: ${cleanUrl}`);
+        } else if (url.includes("web.archive.org/web/")) {
+            cleanUrl = archiveChecker.extractOriginalUrl(url);
+            console.log(`Extracted from archive: ${cleanUrl}`);
+        }
 
-        const result = await checker.checkUrl(url);
-        console.log(`${url} ${result.statusCode}`);
+        // Normalize the clean URL
+        cleanUrl = cleanUrl.replace(/^https?:\/\//, "");
+        const testUrl = `https://${cleanUrl}`;
+        console.log(`Testing social URL: ${testUrl}`);
 
-        if (!result.isAvailable) {
-            console.log(`❌ Dead social link (${result.statusCode})`);
-            const brokenUrl = `https://walletscrutiny.com/brokenlink/https://${url.replace(
-                /^https?:\/\/walletscrutiny.com\/brokenlink\//,
-                ""
-            )}`;
-            const updated = await updateFile(site.file, url, brokenUrl, "social");
+        // Step 1: Check if original social media URL is available
+        const checker = getSocialChecker(testUrl);
+        if (!checker) {
+            console.log("No appropriate social media checker found");
+            return null;
+        }
+
+        const result = await checker.checkUrl(testUrl);
+        console.log(`${testUrl} ${result.statusCode}`);
+
+        // If original is available, use it
+        if (result.isAvailable) {
+            console.log(`✅ Social link available (${result.statusCode})`);
+            if (url !== testUrl) {
+                const updated = await updateFile(site.file, originalUrl, testUrl, "social");
+                return updated ? {
+                    file: site.file,
+                    oldUrl: originalUrl,
+                    newUrl: testUrl,
+                    status: "restored_social"
+                } : null;
+            }
+            return null;
+        }
+
+        // Step 2: If original not available, check Archive.org
+        console.log("Social link unavailable, checking Archive.org...");
+        const archiveResponse = await archiveChecker.checkArchive(testUrl, { returnFullResponse: true });
+
+        if (archiveResponse?.available) {
+            const newArchiveUrl = archiveResponse.url;
+            console.log(`Found in Archive.org with ${archiveResponse.snapshotCount} snapshots`);
+            
+            // Only update if it's a different URL
+            if (url !== newArchiveUrl) {
+                const updated = await updateFile(site.file, originalUrl, newArchiveUrl, "social");
+                return updated ? {
+                    file: site.file,
+                    oldUrl: originalUrl,
+                    newUrl: newArchiveUrl,
+                    status: "archived_social",
+                    snapshotCount: archiveResponse.snapshotCount
+                } : null;
+            }
+            return null;
+        }
+
+        // Step 3: If both original and archive fail, mark as broken
+        console.log(`❌ Dead social link (${result.statusCode})`);
+        const brokenUrl = `https://walletscrutiny.com/brokenlink/https://${cleanUrl}`;
+        
+        // Only update if it's not already marked as broken
+        if (url !== brokenUrl) {
+            const updated = await updateFile(site.file, originalUrl, brokenUrl, "social");
             return updated ? {
                 file: site.file,
-                oldUrl: url,
+                oldUrl: originalUrl,
                 newUrl: brokenUrl,
-                status: "social"
+                status: "broken_social"
             } : null;
         }
 
-        console.log(`✅ Social link available (${result.statusCode})`);
         return null;
     } catch (error) {
         console.error(`Error checking social URL ${site.url}:`, error);
@@ -168,16 +235,23 @@ async function checkSocialUrl(site) {
     }
 }
 
+// Update the processUrls function to use improved social checking
 async function processUrls(urls, startIndex, batchSize) {
     const websiteUrls = [];
     const socialUrls = [];
     const results = [];
 
+  
+
     // Separate URLs by type
     for (const url of urls) {
         const urlType = getUrlType(url.url);
         if (urlType === "social") {
-            socialUrls.push(url);
+            // Double check we have a checker for this social URL
+            const checker = getSocialChecker(url.url);
+            if (checker) {
+                socialUrls.push(url);
+            }
         } else if (urlType !== "mailto") {
             websiteUrls.push(url);
         }
@@ -187,7 +261,6 @@ async function processUrls(urls, startIndex, batchSize) {
     if (websiteUrls.length > 0) {
         console.log(`\nProcessing ${websiteUrls.length} website URLs...`);
         try {
-            // Process websites in smaller sub-batches
             const subBatchSize = 5;
             for (let i = 0; i < websiteUrls.length; i += subBatchSize) {
                 const subBatch = websiteUrls.slice(i, i + subBatchSize);
@@ -201,7 +274,6 @@ async function processUrls(urls, startIndex, batchSize) {
                         results.push(...websiteResults);
                     }
                     
-                    // Add delay between sub-batches
                     if (i + subBatchSize < websiteUrls.length) {
                         await new Promise(resolve => setTimeout(resolve, 1000));
                     }
@@ -210,7 +282,6 @@ async function processUrls(urls, startIndex, batchSize) {
                 }
             }
 
-            // Add delay before processing social URLs
             if (socialUrls.length > 0) {
                 await new Promise(resolve => setTimeout(resolve, 3000));
             }
@@ -219,14 +290,13 @@ async function processUrls(urls, startIndex, batchSize) {
         }
     }
 
-    // Then process social URLs
+    // Process social URLs with improved checking
     if (socialUrls.length > 0) {
         console.log(`\nProcessing ${socialUrls.length} social media URLs...`);
         for (const site of socialUrls) {
             try {
                 const result = await checkSocialUrl(site);
                 if (result) results.push(result);
-                // Add delay between social checks
                 await new Promise(resolve => setTimeout(resolve, 500));
             } catch (error) {
                 console.error(`Error processing social URL ${site.url}:`, error);
@@ -237,13 +307,6 @@ async function processUrls(urls, startIndex, batchSize) {
     return results;
 }
 
-async function saveProgress(updates, filename = 'updates_progress.json') {
-    await fs.writeFile(
-        filename,
-        JSON.stringify(updates, null, 2),
-        'utf8'
-    );
-}
 
 async function main() {
     try {
@@ -278,16 +341,6 @@ async function main() {
                 processedCount += batch.length;
                 failedBatches = 0;
 
-                // Save progress periodically
-                if (batchIndex % 5 === 0 && allUpdates.length > 0) {
-                    try {
-                        await saveProgress(allUpdates);
-                        console.log(`Saved progress after batch ${batchIndex + 1}`);
-                    } catch (error) {
-                        console.error('Error saving progress:', error);
-                    }
-                }
-
                 // Add delay between batches
                 if (batchIndex < totalBatches - 1) {
                     const delay = 3000;
@@ -300,9 +353,6 @@ async function main() {
                 
                 if (failedBatches >= maxFailedBatches) {
                     console.error(`Stopping after ${maxFailedBatches} consecutive failed batches`);
-                    if (allUpdates.length > 0) {
-                        await saveProgress(allUpdates, 'updates_emergency_backup.json');
-                    }
                     break;
                 }
                 
@@ -311,23 +361,16 @@ async function main() {
             }
         }
 
-        // Final processing
+        // Final updates
         if (allUpdates.length > 0) {
             console.log(`\nWriting ${allUpdates.length} updates to files...`);
-            try {
-                // Write updates and save final backup
-                for (const update of allUpdates) {
-                    await updateFile(
-                        update.file,
-                        update.oldUrl,
-                        update.newUrl,
-                        update.status === "social" ? "social" : "website"
-                    );
-                }
-                await saveProgress(allUpdates, 'updates_final.json');
-            } catch (error) {
-                console.error('Error writing updates:', error);
-                await saveProgress(allUpdates, 'updates_error_backup.json');
+            for (const update of allUpdates) {
+                await updateFile(
+                    update.file,
+                    update.oldUrl,
+                    update.newUrl,
+                    update.status === "social" ? "social" : "website"
+                );
             }
         }
 

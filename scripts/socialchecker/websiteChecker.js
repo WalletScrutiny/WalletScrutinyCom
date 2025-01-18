@@ -3,170 +3,409 @@ const http = require("http");
 const path = require("path");
 const ArchiveChecker = require("./archiveChecker");
 
-const REQUEST_TIMEOUT = 45000;  // 45 seconds
-const GLOBAL_TIMEOUT = 90000;   // 90 seconds
-const MAX_REDIRECTS = 15;
-const MAX_CONNECTIONS_PER_HOST = 5;  // Reduced from 10 to 5 for stability
-const MAX_RETRIES = 2;
-const REQUEST_DELAY = 1000;  // 1 second delay between requests
+// Configuration
+const CONFIG = {
+    timeouts: {
+        DNS: 5000,           // 5 seconds for DNS lookup
+        CONNECT: 10000,      // 10 seconds to establish connection
+        REQUEST: 30000,      // 30 seconds for request to complete
+        GLOBAL: 45000,       // 45 seconds total
+        BATCH: 60000         // 1 minute per batch
+    },
+    limits: {
+        MAX_CONCURRENT_REQUESTS: 15,
+        MAX_PER_HOST: 5,
+        BATCH_SIZE: 10,
+        REQUEST_DELAY: 500,  // 500ms between requests to same host
+        MAX_REDIRECTS: 10,
+        MAX_RETRIES: 2,
+        MAX_CONTENT_LENGTH: 100 * 1024  // 100KB
+    }
+};
 
-const httpsAgent = new https.Agent({ 
-    keepAlive: true,
-    rejectUnauthorized: false,
-    maxSockets: MAX_CONNECTIONS_PER_HOST,
-    timeout: REQUEST_TIMEOUT
-});
+// Error patterns to detect dead or parked pages
+const ERROR_PATTERNS = [
+    'page not found',
+    '404',
+    'site unavailable',
+    'domain not found',
+    'website is no longer available',
+    'this page does not exist',
+    'domain expired',
+    'account suspended',
+    'parked domain',
+    'error page',
+    'site closed',
+    'coming soon',
+    'maintenance mode',
+    'domain parking',
+    'buy this domain',
+    'website expired',
+    'page deprecated',
+    'account terminated',
+    'service discontinued',
+    'page not working',
+    'website closed',
+    'no longer in service',
+    'this domain is for sale'
+];
 
-const httpAgent = new http.Agent({ 
-    keepAlive: true,
-    maxSockets: MAX_CONNECTIONS_PER_HOST,
-    timeout: REQUEST_TIMEOUT
-});
-
+// User agents for request rotation
 const userAgents = [
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15",
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/109.0"
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/109.0",
+    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1"
 ];
 
-// Function to make an HTTP/HTTPS request with retries
-async function makeRequest(url, method = 'HEAD', retryCount = 0) {
-    return new Promise((resolve) => {
-        let isDone = false;
-        let request;
+// Connection Pool Manager
+class ConnectionPool {
+    constructor() {
+        this.activeConnections = new Map();
+        this.lastRequestTime = new Map();
+    }
 
-        const cleanup = () => {
-            if (request) request.destroy();
-            clearTimeout(timeoutId);
-        };
+    async acquire(hostname) {
+        while (this.getActiveCount(hostname) >= CONFIG.limits.MAX_PER_HOST) {
+            await new Promise(resolve => setTimeout(resolve, 100));
+        }
 
-        const timeoutId = setTimeout(() => {
-            if (!isDone) {
-                cleanup();
-                isDone = true;
-                resolve({ isAvailable: false, statusCode: -1, error: 'Global Timeout' });
-            }
-        }, GLOBAL_TIMEOUT);
+        const lastRequest = this.lastRequestTime.get(hostname) || 0;
+        const timeSinceLastRequest = Date.now() - lastRequest;
+        if (timeSinceLastRequest < CONFIG.limits.REQUEST_DELAY) {
+            await new Promise(resolve => 
+                setTimeout(resolve, CONFIG.limits.REQUEST_DELAY - timeSinceLastRequest)
+            );
+        }
 
+        this.increment(hostname);
+        this.lastRequestTime.set(hostname, Date.now());
+    }
+
+    release(hostname) {
+        this.decrement(hostname);
+    }
+
+    getActiveCount(hostname) {
+        return this.activeConnections.get(hostname) || 0;
+    }
+
+    increment(hostname) {
+        this.activeConnections.set(hostname, this.getActiveCount(hostname) + 1);
+    }
+
+    decrement(hostname) {
+        const count = this.getActiveCount(hostname) - 1;
+        if (count <= 0) {
+            this.activeConnections.delete(hostname);
+        } else {
+            this.activeConnections.set(hostname, count);
+        }
+    }
+}
+
+// Request Queue Manager
+class RequestQueue {
+    constructor(concurrency = CONFIG.limits.MAX_CONCURRENT_REQUESTS) {
+        this.concurrency = concurrency;
+        this.running = 0;
+        this.queue = [];
+        this.connectionPool = new ConnectionPool();
+    }
+
+    async add(hostname, fn) {
+        if (this.running >= this.concurrency) {
+            await new Promise(resolve => this.queue.push(resolve));
+        }
+
+        await this.connectionPool.acquire(hostname);
+        
+        this.running++;
         try {
-            const options = {
-                method,
-                timeout: REQUEST_TIMEOUT,
-                headers: {
-                    "User-Agent": userAgents[Math.floor(Math.random() * userAgents.length)],
-                    "Accept": method === 'HEAD' ? '*/*' : "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-                    "Accept-Language": "en-US,en;q=0.9",
-                    "Cache-Control": "no-cache"
-                },
-                agent: url.protocol === 'https:' ? httpsAgent : httpAgent
+            return await fn();
+        } finally {
+            this.running--;
+            this.connectionPool.release(hostname);
+            if (this.queue.length > 0) {
+                const next = this.queue.shift();
+                next();
+            }
+        }
+    }
+}
+
+// Enhanced HTTP agents
+const createAgent = (protocol) => {
+    const Agent = protocol === 'https' ? https.Agent : http.Agent;
+    return new Agent({
+        keepAlive: true,
+        keepAliveMsecs: 1000,
+        maxSockets: CONFIG.limits.MAX_PER_HOST,
+        maxFreeSockets: 10,
+        timeout: CONFIG.timeouts.CONNECT,
+        scheduling: 'lifo'
+    });
+};
+
+const httpAgent = createAgent('http');
+const httpsAgent = createAgent('https');
+
+// Content validation function
+function validateContent(data, headers) {
+    if (!data || data.length < 50) {
+        console.log('Content too small');
+        return false;
+    }
+
+    const contentType = headers['content-type'] || '';
+    const lowerData = data.toLowerCase();
+    
+    // Check for error patterns
+    if (ERROR_PATTERNS.some(pattern => lowerData.includes(pattern))) {
+        console.log('Found error pattern in content');
+        return false;
+    }
+
+    // For HTML content
+    if (contentType.includes('text/html')) {
+        if (!lowerData.includes('<html') || !lowerData.includes('<body')) {
+            console.log('Invalid HTML structure');
+            return false;
+        }
+
+        if (lowerData.includes('domain parking') ||
+            lowerData.includes('buy this domain') ||
+            lowerData.includes('hosting provider')) {
+            console.log('Found parking/hosting page indicators');
+            return false;
+        }
+    }
+    
+    // For JSON content
+    if (contentType.includes('application/json')) {
+        try {
+            JSON.parse(data);
+        } catch {
+            console.log('Invalid JSON content');
+            return false;
+        }
+    }
+
+    return true;
+}
+
+// Request handling functions
+function isSuccessStatus(statusCode) {
+    return (statusCode >= 200 && statusCode < 400) || 
+           statusCode === 403 || 
+           statusCode === 401;
+}
+
+function containsErrorIndicators(url) {
+    const errorPaths = ['404', 'error', 'not-found', 'notfound', 'expired', 'suspended'];
+    return errorPaths.some(path => url.toLowerCase().includes(path));
+}
+
+function shouldRetry(error, retryCount) {
+    return retryCount < CONFIG.limits.MAX_RETRIES && 
+           ['ECONNRESET', 'EPROTO', 'ETIMEDOUT'].includes(error.code);
+}
+
+// Main request function
+async function makeRequest(url, method = 'HEAD', retryCount = 0, queue) {
+    const hostname = url.hostname;
+    
+    return queue.add(hostname, async () => {
+        return new Promise((resolve) => {
+            let isDone = false;
+            let request;
+
+            const cleanup = () => {
+                if (request) request.destroy();
+                clearTimeout(timeoutId);
             };
 
-            request = (url.protocol === 'https:' ? https : http).request(url, options, (response) => {
-                let data = '';
-                response.on('data', chunk => {
-                    data += chunk;
-                    if (data.length > 50 * 1024) request.destroy(); // Limit response size
-                });
-
-                response.on('end', () => {
-                    if (!isDone) {
-                        cleanup();
-                        isDone = true;
-                        resolve({
-                            isAvailable: (response.statusCode >= 200 && response.statusCode < 400) || 
-                                       response.statusCode === 403 || 
-                                       response.statusCode === 401,
-                            statusCode: response.statusCode,
-                            headers: response.headers,
-                            data
-                        });
-                    }
-                });
-            });
-
-            request.on('error', async (error) => {
+            const timeoutId = setTimeout(() => {
                 if (!isDone) {
                     cleanup();
                     isDone = true;
-
-                    // Retry with alternate protocol if appropriate
-                    if (retryCount < MAX_RETRIES && 
-                        ['ECONNRESET', 'EPROTO', 'ETIMEDOUT'].includes(error.code)) {
-                        const altUrl = new URL(url);
-                        altUrl.protocol = altUrl.protocol === 'https:' ? 'http:' : 'https:';
-                        console.log(`Trying alternate protocol: ${altUrl.protocol}`);
-                        
-                        await new Promise(resolve => setTimeout(resolve, REQUEST_DELAY));
-                        const result = await makeRequest(altUrl, method, retryCount + 1);
-                        resolve(result);
-                    } else {
-                        resolve({ isAvailable: false, statusCode: 0, error: error.message });
-                    }
+                    resolve({ isAvailable: false, statusCode: -1, error: 'Global Timeout' });
                 }
-            });
+            }, CONFIG.timeouts.GLOBAL);
 
-            request.end();
+            try {
+                const options = {
+                    method,
+                    timeout: CONFIG.timeouts.REQUEST,
+                    headers: {
+                        "User-Agent": userAgents[Math.floor(Math.random() * userAgents.length)],
+                        "Accept": method === 'HEAD' ? '*/*' : "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                        "Accept-Language": "en-US,en;q=0.9",
+                        "Cache-Control": "no-cache"
+                    },
+                    agent: url.protocol === 'https:' ? httpsAgent : httpAgent
+                };
 
-        } catch (error) {
-            cleanup();
-            resolve({ isAvailable: false, statusCode: 0, error: error.message });
-        }
+                request = (url.protocol === 'https:' ? https : http).request(url, options, (response) => {
+                    let data = '';
+                    
+                    response.on('data', chunk => {
+                        data += chunk;
+                        if (data.length > CONFIG.limits.MAX_CONTENT_LENGTH) {
+                            request.destroy();
+                        }
+                    });
+
+                    response.on('end', () => {
+                        if (!isDone) {
+                            cleanup();
+                            isDone = true;
+
+                            // Handle redirects
+                            if ([301, 302, 303, 307, 308].includes(response.statusCode)) {
+                                const location = response.headers.location;
+                                if (location && containsErrorIndicators(location)) {
+                                    resolve({
+                                        isAvailable: false,
+                                        statusCode: response.statusCode,
+                                        error: 'Error redirect'
+                                    });
+                                    return;
+                                }
+                            }
+
+                            let isAvailable = isSuccessStatus(response.statusCode);
+                            if (isAvailable && method === 'GET') {
+                                isAvailable = validateContent(data, response.headers);
+                            }
+
+                            resolve({
+                                isAvailable,
+                                statusCode: response.statusCode,
+                                headers: response.headers,
+                                data,
+                                url: url.toString()
+                            });
+                        }
+                    });
+                });
+
+                request.on('error', async (error) => {
+                    if (!isDone) {
+                        cleanup();
+                        isDone = true;
+
+                        if (shouldRetry(error, retryCount)) {
+                            const altUrl = new URL(url);
+                            altUrl.protocol = altUrl.protocol === 'https:' ? 'http:' : 'https:';
+                            console.log(`Trying alternate protocol: ${altUrl.protocol}`);
+                            
+                            const result = await makeRequest(altUrl, method, retryCount + 1, queue);
+                            resolve(result);
+                        } else {
+                            resolve({ 
+                                isAvailable: false, 
+                                statusCode: 0, 
+                                error: error.message,
+                                url: url.toString()
+                            });
+                        }
+                    }
+                });
+
+                request.end();
+
+            } catch (error) {
+                cleanup();
+                resolve({ 
+                    isAvailable: false, 
+                    statusCode: 0, 
+                    error: error.message,
+                    url: url.toString()
+                });
+            }
+        });
     });
 }
 
-async function processWebsite(site, currentIndex, total, updateFile) {
+// Process individual website
+async function processWebsite(site, currentIndex, total, updateFile, queue) {
     const filename = path.basename(site.file);
     let url = site.url.replace(/^>-\s*/, "").trim();
     let originalUrl = url;
 
     console.log(`\n[${currentIndex + 1}/${total}] ${filename}`);
-    console.log(`Checking: ${url}`);
+    console.log(`Original URL: ${url}`);
 
-    // Handle already broken/archived links
+    // Extract original URL regardless of current state
+    let cleanUrl = url;
     if (url.startsWith("https://walletscrutiny.com/brokenlink/")) {
-        url = url.replace("https://walletscrutiny.com/brokenlink/", "");
-        console.log(`Extracted original URL: ${url}`);
+        cleanUrl = url.replace("https://walletscrutiny.com/brokenlink/", "")
+                     .replace(/^https?:\/\//, "");
+        console.log(`Extracted from broken link: ${cleanUrl}`);
+    } else if (url.includes("web.archive.org/web/")) {
+        cleanUrl = ArchiveChecker.extractOriginalUrl(url);
+        console.log(`Extracted from archive: ${cleanUrl}`);
     }
 
+    // Normalize the clean URL
+    cleanUrl = cleanUrl.replace(/^https?:\/\//, "");
+    const testUrl = `https://${cleanUrl}`;
+    console.log(`Testing URL: ${testUrl}`);
+
     try {
-        // Try HEAD request first
-        const urlObj = new URL(url.startsWith('http') ? url : `https://${url}`);
-        let check = await makeRequest(urlObj, 'HEAD');
+        // Step 1: Always check if original website is available
+        const urlObj = new URL(testUrl);
+        let check = await makeRequest(urlObj, 'HEAD', 0, queue);
         
-        // If HEAD fails, try GET
         if (!check.isAvailable && check.statusCode !== 404) {
             console.log('HEAD request failed, trying GET...');
-            await new Promise(resolve => setTimeout(resolve, REQUEST_DELAY));
-            check = await makeRequest(urlObj, 'GET');
+            await new Promise(resolve => setTimeout(resolve, CONFIG.limits.REQUEST_DELAY));
+            check = await makeRequest(urlObj, 'GET', 0, queue);
         }
 
-        // Handle success cases
+        // If original site is available, use it
         if (check.isAvailable) {
-            console.log("✅ URL is available");
+            console.log("✅ Original URL is available");
+            if (url !== testUrl) {
+                const updated = await updateFile(site.file, originalUrl, testUrl, site.type);
+                return updated ? {
+                    file: site.file,
+                    oldUrl: originalUrl,
+                    newUrl: testUrl,
+                    status: "restored"
+                } : null;
+            }
             return null;
         }
 
-        // If not available, check archive
-        console.log("Not available, checking Archive.org...");
-        const archiveUrl = await ArchiveChecker.checkArchive(url);
+        // Step 2: Check Archive.org for best snapshot
+        console.log("Original not available, checking Archive.org for best snapshot...");
+        const archiveResponse = await ArchiveChecker.checkArchive(testUrl, { returnFullResponse: true });
 
-        if (archiveUrl) {
-            console.log("Found in Archive.org");
-            const updated = await updateFile(site.file, originalUrl, archiveUrl, site.type);
-            return updated ? {
-                file: site.file,
-                oldUrl: originalUrl,
-                newUrl: archiveUrl,
-                status: "archived"
-            } : null;
-        } else {
-            // Mark as broken
-            const cleanUrl = url
-                .replace(/^https?:\/\/(walletscrutiny\.com\/brokenlink\/|web\.archive\.org\/web\/\d+\/)/, "")
-                .replace(/^https?:\/\//, "");
-            const brokenUrl = `https://walletscrutiny.com/brokenlink/https://${cleanUrl}`;
+        if (archiveResponse?.available) {
+            const newArchiveUrl = archiveResponse.url;
+            console.log(`Found in Archive.org with ${archiveResponse.snapshotCount} snapshots`);
             
-            console.log("Not found in Archive.org");
+            if (url !== newArchiveUrl) {
+                const updated = await updateFile(site.file, originalUrl, newArchiveUrl, site.type);
+                return updated ? {
+                    file: site.file,
+                    oldUrl: originalUrl,
+                    newUrl: newArchiveUrl,
+                    status: "archived",
+                    snapshotCount: archiveResponse.snapshotCount
+                } : null;
+            }
+            return null;
+        }
+
+        // Step 3: Mark as broken if both checks fail
+        console.log("Not available and not found in Archive.org");
+        const brokenUrl = `https://walletscrutiny.com/brokenlink/https://${cleanUrl}`;
+        
+        if (url !== brokenUrl) {
             const updated = await updateFile(site.file, originalUrl, brokenUrl, site.type);
             return updated ? {
                 file: site.file,
@@ -175,41 +414,57 @@ async function processWebsite(site, currentIndex, total, updateFile) {
                 status: "broken"
             } : null;
         }
+        return null;
+
     } catch (error) {
-        console.error(`Error processing website ${url}:`, error);
+        console.error(`Error processing website ${testUrl}:`, error);
         return null;
     }
 }
 
-async function processWebsitesInParallel(sites, updateFile, batchSize = 5) {
+// Process websites in parallel
+async function processWebsitesInParallel(sites, updateFile) {
+    const queue = new RequestQueue();
     const results = [];
     const totalSites = sites.length;
     
-    for (let i = 0; i < totalSites; i += batchSize) {
-        const batch = sites.slice(i, i + batchSize);
-        console.log(`\nProcessing batch ${Math.floor(i/batchSize) + 1} of ${Math.ceil(totalSites/batchSize)}`);
+    // Process in batches to control memory usage
+    for (let i = 0; i < totalSites; i += CONFIG.limits.BATCH_SIZE) {
+        const batch = sites.slice(i, Math.min(i + CONFIG.limits.BATCH_SIZE, totalSites));
+        console.log(`\nProcessing batch ${Math.floor(i/CONFIG.limits.BATCH_SIZE) + 1} of ${Math.ceil(totalSites/CONFIG.limits.BATCH_SIZE)}`);
         
         try {
-            const promises = batch.map((site, index) => 
-                processWebsite(site, i + index, totalSites, updateFile)
+            const batchPromises = batch.map((site, index) => 
+                processWebsite(site, i + index, totalSites, updateFile, queue)
+                    .catch(error => {
+                        console.error(`Error processing site ${site.url}:`, error);
+                        return null;
+                    })
             );
             
-            const batchResults = await Promise.all(promises);
+            const batchResults = await Promise.all(batchPromises);
             results.push(...batchResults.filter(r => r !== null));
             
             // Add delay between batches
-            if (i + batchSize < totalSites) {
-                await new Promise(resolve => setTimeout(resolve, REQUEST_DELAY * 2));
+            if (i + CONFIG.limits.BATCH_SIZE < totalSites) {
+                console.log(`Waiting ${CONFIG.limits.REQUEST_DELAY * 2}ms before next batch...`);
+                await new Promise(resolve => setTimeout(resolve, CONFIG.limits.REQUEST_DELAY * 2));
             }
         } catch (error) {
             console.error(`Error processing batch starting at index ${i}:`, error);
+            // Continue with next batch despite errors
         }
     }
 
     return results;
 }
 
+// Export the module
 module.exports = {
     processWebsite,
-    processWebsitesInParallel
+    processWebsitesInParallel,
+    makeRequest,
+    CONFIG,  // Export config for potential runtime adjustments
+    RequestQueue,  // Export queue for external use if needed
+    validateContent  // Export for testing purposes
 };

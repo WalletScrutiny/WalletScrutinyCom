@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 102
 reviews: 3
 size: 
-website: http://web.archive.org/web/20240416110312/https://pro.buycoins.africa/ (archived)
+website: http://web.archive.org/web/20240416110312/https://pro.buycoins.africa/
 repository: 
 issue: 
 icon: africa.buycoins.buycoinsx.pro.png
