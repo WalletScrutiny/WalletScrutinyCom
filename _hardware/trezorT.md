@@ -5,10 +5,11 @@ authors:
 - leo
 - Mohammad
 - danny
+- keraliss
 released: 2018-03-01
 discontinued: 
 updated: 2024-08-04
-version: 2.8.1
+version: 2.8.7
 binaries: https://github.com/trezor/webwallet-data/tree/master/firmware/2
 dimensions:
 - 64
@@ -33,6 +34,11 @@ appHashes:
 date: 2024-10-10
 signer: 
 reviewArchive:
+- date: 2024-10-10
+  version: 2.7.0
+  appHash: 5289e1d5476c5097918c1d145d5a2e0a708da11d4cae13771012b8f792941b46
+  gitRevision: 4458285efc54bd9bc76d74f88e696201a4af4a93
+  verdict: reproducible
 - date: 2024-04-10
   version: 2.7.0
   appHashes:
@@ -89,47 +95,49 @@ With our
 this is the result:
 
 ```
-$ ./scripts/test/hardware/trezorT.sh 2.8.1
+$ ./scripts/test/hardware/trezorT.sh 2.8.7
 ...
+Built from commit 9843afc74a563df546ea78530f642d6969d8f5b7
+
 Fingerprints:
-394a814e7ad10ae77bd73df485e9eb4234084973031ca25d864dd811f431bf0b build/core-R/bootloader/bootloader.bin
-cc4ec6f5904ec0246e83efb6e93aad4365d4269708c6699a8d49e29fdc281104 build/core-R/firmware/firmware.bin
-394a814e7ad10ae77bd73df485e9eb4234084973031ca25d864dd811f431bf0b build/core-R-bitcoinonly/bootloader/bootloader.bin
-9431a545a8ee2f6b222a23f7ccb910ca69b3e86a253d71719cadd8afb0b8ae2b build/core-R-bitcoinonly/firmware/firmware.bin
-2e4ad54edac5e0a13514c84603e053167142babf5f4d9ed4ec0e72ca748e0051 build/core-T/bootloader/bootloader.bin
-d3af84a212d32785449ca6575e3cf2a641920b353a82dec9f059083ea5d4b149 build/core-T/firmware/firmware.bin
-2e4ad54edac5e0a13514c84603e053167142babf5f4d9ed4ec0e72ca748e0051 build/core-T-bitcoinonly/bootloader/bootloader.bin
-38ab127fcf4263a18a3b07593301fdd2c6a1a96360b62c131adb849b5d18fae3 build/core-T-bitcoinonly/firmware/firmware.bin
-6ac53b9c78ff620508441714ae8ab07e18129f64c3c001ccd1239ad130bfd46f build/core-T3T1/bootloader/bootloader.bin
-6a064df4a928e1264d682a34cc014fc9272f312e0f8a8270ff88d6f1408fe68b build/core-T3T1/firmware/firmware.bin
-6ac53b9c78ff620508441714ae8ab07e18129f64c3c001ccd1239ad130bfd46f build/core-T3T1-bitcoinonly/bootloader/bootloader.bin
-6b17de0c89c9a7876687d6b9c44673f4aca7f8819237a755090848a3829bc36b build/core-T3T1-bitcoinonly/firmware/firmware.bin
+4f6369f2932f017d8960580aec0907b73ebb4feff43fc5c6f697ddebb3a23628 build/core-R/bootloader/bootloader.bin
+554c6586df79e1281dd377bfb99d7b2594dbac66d749837c6a78b9c5e0751098 build/core-R/firmware/firmware.bin
+4f6369f2932f017d8960580aec0907b73ebb4feff43fc5c6f697ddebb3a23628 build/core-R-bitcoinonly/bootloader/bootloader.bin
+6381f8a373f9f91a3cf4000a762b8dbf553d11a4a6d433c8863b2fa9eecfd9f1 build/core-R-bitcoinonly/firmware/firmware.bin
+14b457d32f979b51482c350d0e33a3c372511010c84810b01031d752135838de build/core-T/bootloader/bootloader.bin
+7f7bae53913c3a339f22adddb16db70b11bcf908af1c7a5986bae09af9d4ab62 build/core-T/firmware/firmware.bin
+14b457d32f979b51482c350d0e33a3c372511010c84810b01031d752135838de build/core-T-bitcoinonly/bootloader/bootloader.bin
+7bdf5de0c00c5d15c06d526a5b0d22cfd8343eb3e7aa01ee3c4ed60dd063bbf1 build/core-T-bitcoinonly/firmware/firmware.bin
+01fdef4c3cfbe78d203953c65604d8d406373a0d3b26bbb8f7d3cf2250397777 build/core-T3T1/bootloader/bootloader.bin
+be15ee1f4b7891dc965512455f8d17067ff54a7047e28ed06cec8d56529ab2ef build/core-T3T1/firmware/firmware.bin
+01fdef4c3cfbe78d203953c65604d8d406373a0d3b26bbb8f7d3cf2250397777 build/core-T3T1-bitcoinonly/bootloader/bootloader.bin
+2f58de2b7c2c29b6a2f14909ad0941e4aa9dd6d3e1416ab66c512a743b5385a9 build/core-T3T1-bitcoinonly/firmware/firmware.bin
 
 Hash of non-signature parts downloaded/compiled standard:
 65+0 records in
 65+0 records out
-65 bytes copied, 0.000144499 s, 450 kB/s
-8f7df375c5c9cf8b923c37378cc1a94992e03836e3ec0df0ab0271340d431903  trezor-core-2.8.1.bin.zeroed
-8f7df375c5c9cf8b923c37378cc1a94992e03836e3ec0df0ab0271340d431903  build/core-T/firmware/firmware.bin
+65 bytes copied, 0.000166059 s, 391 kB/s
+6ad8f49748de258197e0a4ee73cb71bf6e78ac209bda892907dbef763bb5cb1c  trezor-core-2.8.7.bin.zeroed
+6ad8f49748de258197e0a4ee73cb71bf6e78ac209bda892907dbef763bb5cb1c  build/core-T/firmware/firmware.bin
 
 Hash of non-signature parts downloaded/compiled bitcoinonly:
 65+0 records in
 65+0 records out
-65 bytes copied, 0.000260148 s, 250 kB/s
-e8666de29b3eb0a75fd1673875f5fbc6388147c23d1828f09fd4033b16fb1dfa  trezor-core-2.8.1-bitcoinonly.bin.zeroed
-e8666de29b3eb0a75fd1673875f5fbc6388147c23d1828f09fd4033b16fb1dfa  build/core-T-bitcoinonly/firmware/firmware.bin
+65 bytes copied, 0.000157514 s, 413 kB/s
+e051fea146bc13fdc7590a9b15152e6202eaf5287fc8405c99b3a2e4d3d347ce  trezor-core-2.8.7-bitcoinonly.bin.zeroed
+e051fea146bc13fdc7590a9b15152e6202eaf5287fc8405c99b3a2e4d3d347ce  build/core-T-bitcoinonly/firmware/firmware.bin
 
 Hash of the signed firmware:
-5289e1d5476c5097918c1d145d5a2e0a708da11d4cae13771012b8f792941b46  trezor-core-2.8.1.bin
-95d4e96c77525998e4d0c9a234e2c808e275ef26505e45cbe503465e69c606c4  trezor-core-2.8.1-bitcoinonly.bin
+29b0cb1877188e0875b8bcf8f36818b63cd7c590c56b140daddb4134e2a82242  trezor-core-2.8.7.bin
+d887ce2f9a92c9605ff78fe7440d7b92b51d4989a291b00f3f5c4ca40ca1ceda  trezor-core-2.8.7-bitcoinonly.bin
 ```
 
 With the correct modifications to the [TrezorT.sh script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/1d8681a3f2a03ef61c79fd08112425e3fcb2e8a9/scripts/test/hardware/trezorT.sh), we were able to determine that the hash `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855` is of an empty file. This meant that the binaries weren't being downloaded. We verified the download url manually and found the correct url. 
 
 This resulted in the script properly building and outputting the desired results. 
 
-1. The hashes of the non-signature parts for standard, **match**. (8f7df375c5c9cf8b923c37378cc1a94992e03836e3ec0df0ab0271340d431903)
-2. The hashes of the non-signature parts for the downloaded and compiled binary, also **match**. (8f7df375c5c9cf8b923c37378cc1a94992e03836e3ec0df0ab0271340d431903)
+1. The hashes of the non-signature parts for standard, **match**. (6ad8f49748de258197e0a4ee73cb71bf6e78ac209bda892907dbef763bb5cb1c)
+2. The hashes of the non-signature parts for the downloaded and compiled binary, also **match**. (6ad8f49748de258197e0a4ee73cb71bf6e78ac209bda892907dbef763bb5cb1c)
 3. As expected, the signed firmware for the downloaded (standard) binary do not match with its bitcoin-only counterpart. This is ideal.
 
-We have reached the conclusion that version **2.8.1** is **reproducible.**
+We have reached the conclusion that version **2.8.7** is **reproducible.**
