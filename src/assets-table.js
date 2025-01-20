@@ -38,7 +38,7 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
             ['status', oldTest.verdict],
             ['x', oldTest.appHash]
           ],
-          content: `Legacy verdict (WS)`,
+          content: `Legacy verdict by WS`,
           isLegacy: true,
           gitRevision: oldTest.gitRevision
         });
