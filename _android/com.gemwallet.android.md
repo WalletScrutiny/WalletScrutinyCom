@@ -25,7 +25,7 @@ appHashes: []
 date: 2024-08-05
 signer:
 reviewArchive: 
-  date: 2024-08-05
+- date: 2024-08-05
   version: 1.2.144
   appHashes: []
   gitRevision: 4d35b58691a7b46c61502395f1864e0cc5f4c268
