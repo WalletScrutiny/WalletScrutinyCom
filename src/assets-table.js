@@ -14,6 +14,7 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
   });
 
   const hasBinaries = response.assets.size > 0;
+  let hasLegacyBinaries = false;
   let hasAttestations = false;
 
   // Convert to array and sort by most recent asset in each group
@@ -31,6 +32,7 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
   if (typeof oldTestsInfo !== 'undefined' && Array.isArray(oldTestsInfo)) {
     oldTestsInfo.forEach(oldTest => {
       if (oldTest.date && oldTest.version && oldTest.verdict) {
+        hasLegacyBinaries = true;
         sortedBinaries.push({
           created_at: Math.floor(new Date(oldTest.date).getTime() / 1000),
           tags: [
@@ -235,6 +237,7 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
   return {
     hasAttestations,
     hasBinaries,
+    hasLegacyBinaries,
     info: response
   };
 };
