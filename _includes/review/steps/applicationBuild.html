@@ -13,11 +13,47 @@
        <br><a href="{{page.issue}}">See the last Issue we created</a>.
       {% endif %}
     </p>
-    <a class="" href="#result">See test result</a>
+    <a class="legacyInfo" href="#result">*** See test result ***</a>
 
+    <!-- Nostr Attestations -->
     {% if page.repository %}
-      {% include getOldInfo.md %} 
-      {% include /review/nostrAttestations.html %}
+      {% include getOldInfo.md %}
+
+      <div id="appsTable"></div>
+
+      {% if page.verdict == 'reproducible' %}
+        <p>No legacy binaries</p>
+      {% elsif page.verdict == 'wip' %}
+        <p>Nobody tried to build this applition to check if it's reproducible. Do you like to be the first? Drop the binary file there to create the asset automatically (preferred), or click the button below to create the asset manually.</p>
+      {% elsif page.verdict == 'nonverifiable' %}
+        <p>Nobody could reproduce this applition successfully. Do you like to try? Drop the binary file there to create the asset automatically (preferred), or click the button below to create the asset manually.</p>
+      {% endif %}
+      <div style="margin-top: 4px; display: none;" id="createAttestationButton">
+        <a href="/new_asset/?appId={{page.appId}}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">Try to reproduce</a>
+      </div>
+
+      <div id="attestationModal">
+        <span id="closeModal">&times;</span>
+        <div id="attestationContent"></div>
+      </div>
+
+      <script>
+        window.onload = async () => {
+          await nostrConnect();
+          const attestationsInfo = await renderAssetsTable({
+            htmlElementId: 'appsTable',
+            appId: '{{ page.appId }}',
+            hideConfig: { wallet: true },
+            showOnlyRows: 5,
+          });
+
+          if (!attestationsInfo.hasBinaries && !attestationsInfo.hasLegacyBinaries) {
+            document.getElementById('appsTable').style.display = 'none';
+            document.getElementById('createAttestationButton').style.display = 'block';
+            
+          }
+        };
+      </script>
     {% endif %}
   </div>
 </div>
