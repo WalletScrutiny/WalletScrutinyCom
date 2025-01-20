@@ -1,4 +1,3 @@
-<h3>Binaries found on Nostr:</h3>
 <div id="appsTable"></div>
 
 <div id="attestationModal">
@@ -9,6 +8,10 @@
 <script>
   window.onload = async () => {
     await nostrConnect();
-    await renderAssetsTable({htmlElementId: 'appsTable', appId: '{{ page.appId }}', hideConfig: {wallet: true}});
+    await renderAssetsTable({
+      htmlElementId: 'appsTable',
+      appId: '{{ page.appId }}',
+      hideConfig: { wallet: true },
+    });
   };
 </script>
