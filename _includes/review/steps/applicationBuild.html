@@ -1,77 +1,68 @@
 <div class="step application-build">
-  {% if page.verdict == 'reproducible' %}
-  <i class="i-reproducible circle"></i>
-  {% else %}
-  <i class="i-reproducible circle disabled"></i>
-  {% endif %}
-  <div class="title">
-    <h3>Application build</h3>
-
-    {% if page.repository %}
-      {% if page.issue %}
-        <p>
-          <br><a href="{{page.issue}}">See the last Issue we created</a>.
-        </p>
-      {% endif %}
-      <a class="legacyInfo" href="#result">See test result</a>
-      <script>const pageVerdict = '{{page.verdict}}'</script>
-
-      <div id="appsTable" style="margin-top: 1em;"></div>
-
-      {% include getOldInfo.md %}
-
-      <p>If there is a binary for <b>a version that is not tested yet</b>, you can drop the file here to register it so somebody can verify it:</p>
-      <div style="margin-top: 1em; margin-bottom: 1em; margin-left: 0;">
-        {% include /attestations/dragAndDropArea.html buttonMessage="Drop binary file to verify" %}
-      </div>
-
-      <p id="attestationMessage"></p>
-
-      <div style="margin-top: 4px; display: none;" id="createAttestationButton">
-        <a href="/new_asset/?appId={{page.appId}}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">Try to reproduce</a>
-      </div>
-
-      <div id="attestationModal">
-        <span id="closeModal">&times;</span>
-        <div id="attestationContent"></div>
-      </div>
-
-      <script>
-        window.onload = async () => {
-          await nostrConnect();
-          const attestationsInfo = await renderAssetsTable({
-            htmlElementId: 'appsTable',
-            appId: '{{ page.appId }}',
-            hideConfig: { wallet: true },
-            showOnlyRows: 5,
-          });
-
-          if (!attestationsInfo.hasBinaries && !attestationsInfo.hasLegacyBinaries) {
-            document.getElementById('appsTable').style.display = 'none';
-            document.getElementById('createAttestationButton').style.display = 'block';
-          }
-
-          if (!attestationsInfo.hasBinaries && attestationsInfo.hasLegacyBinaries) {
-            if (pageVerdict === 'reproducible') {
-              document.getElementById('attestationMessage').innerHTML = "This application is reproducible. You can create an asset for a newer version so somebody can verify it.";
-            } else if (pageVerdict === 'nonverifiable') {
-              document.getElementById('attestationMessage').innerHTML = "Nobody could reproduce this application successfully. Do you like to try? Drop the binary file there to register the asset automatically (preferred), or click the button below to register the asset manually.";
-            } else if (pageVerdict === 'wip') {
-              document.getElementById('attestationMessage').innerHTML = "Nobody tried to build this application to check if it's reproducible. Do you like to be the first? Drop the binary file there to register the asset automatically (preferred), or click the button below to register the asset manually.";
-            } else if (pageVerdict === 'fewusers') {
-              document.getElementById('attestationMessage').innerHTML = "Nobody could reproduce this application successfully. Do you like to try? Drop the binary file there to register the asset automatically (preferred), or click the button below to register the asset manually.";
-            }
-          }
-
-          if (!attestationsInfo.hasBinaries) {
-            document.querySelector('.legacyInfo').style.display = 'block';
-          } else {
-            document.querySelector('.legacyInfo').style.display = 'none';
-          }
-        };
-      </script>
+    {% if page.verdict == 'reproducible' %}
+    <i class="i-reproducible circle"></i>
     {% else %}
-      <small>Build cannot be done because there is no public repository with the source code.</small>
+    <i class="i-reproducible circle disabled"></i>
     {% endif %}
-  </div>
+    <div class="title">
+        <h3>Application build</h3>
+
+        {% if page.repository %}
+        {% if page.issue %}
+        <p>
+            <br><a href="{{page.issue}}">See the last Issue we created</a>.
+        </p>
+        {% endif %}
+
+        <script>const pageVerdict = '{{page.verdict}}'</script>
+
+        <div id="appsTable" style="margin-top: 1em;"></div>
+
+        <p>If you have a binary for <b>a version that doesn't appear on the list</b>, you can drop the file here to register it so somebody can verify its reproducibility:</p>
+        <div style="margin-top: 1em; margin-bottom: 1em; margin-left: 0;">
+            {% include /verifications/dragAndDropArea.html buttonMessage="Drop binary file to verify" %}
+        </div>
+
+        <p id="verificationMessage"></p>
+
+        <div style="margin-top: 4px; display: none;" id="createVerificationButton"></div>
+
+        <div id="verificationModal">
+            <span id="closeModal">&times;</span>
+            <div id="verificationContent"></div>
+        </div>
+
+        <script>
+          window.onload = async () => {
+            await nostrConnect();
+
+            const attestationsInfo = await renderAssetsTable({
+              htmlElementId: 'appsTable',
+              appId: '{{ page.appId }}',
+              hideConfig: { wallet: true },
+              showOnlyRows: 5,
+              sortByVersion: true
+            });
+
+            if (!attestationsInfo.hasVerifications) {
+              if (!attestationsInfo.hasAssets) {
+                document.getElementById('appsTable').style.display = 'none';
+              }
+
+              if (pageVerdict === 'reproducible') {
+                document.getElementById('verificationMessage').innerHTML = "This application is reproducible. You can register an asset for a newer version so somebody can verify it by dropping the binary file there.";
+              } else if (pageVerdict === 'nonverifiable') {
+                document.getElementById('verificationMessage').innerHTML = "Nobody could reproduce this application successfully. Do you like to try? Drop the binary file there to register the asset automatically (preferred), or click the button below to create a verification directly.";
+              } else if (['wip', 'fewusers'].includes(pageVerdict)) {
+                document.getElementById('verificationMessage').innerHTML = "Nobody tried to build this application to check if it's reproducible. Do you like to be the first? Drop the binary file there to register the asset automatically (preferred), or click the button below to create a verification directly.";
+              }
+            }
+
+            document.getElementById('verificationMessage').innerHTML += '<br><a href="/new_verification/?appId={{page.appId}}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">' + (attestationsInfo.hasVerifications ? 'Create a new verification' : 'Create verification') + '</a>';
+          };
+        </script>
+        {% else %}
+        <small>Build cannot be done because the source code is not publicly available.</small>
+        {% endif %}
+    </div>
 </div>
