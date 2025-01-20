@@ -23,12 +23,13 @@ icon: com.komodoplatform.atomicdex.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2024-11-22
+appHashes: []
+date: 2025-01-14
 signer: cb9c6d9f6b0d981e24b771cbe946ae32af09e71de174a2d39756161b481d94b3
 reviewArchive:
 - date: 2024-08-03
   version: 0.9.1
-  appHash: 
+  appHashes: [e1a99f4bb5a80153a68e184d5bebdabd044c325478a182dcd938494ac3bac3ff]
   gitRevision: 6ae7c72d480ca51b583f6b18d05516226e30f5a4
   verdict: nonverifiable
 twitter: KomodoPlatform

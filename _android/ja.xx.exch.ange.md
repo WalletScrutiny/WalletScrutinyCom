@@ -21,14 +21,10 @@ icon: ja.xx.exch.ange.png
 bugbounty: 
 meta: removed
 verdict: fake
+appHashes: []
 date: 2022-01-15
-signer: 
+signer:
 reviewArchive:
-- date: 2021-10-05
-  version: '1'
-  appHash: 
-  gitRevision: 56fb701c15d8bd888ec328bc938ceea06621175f
-  verdict: fake
 twitter: 
 social: 
 redirect_from: 
