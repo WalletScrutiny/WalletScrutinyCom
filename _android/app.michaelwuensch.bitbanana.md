@@ -24,7 +24,7 @@ meta: ok
 verdict: wip
 appHashes: []
 date: 2024-01-02
-signer:
+signer: 98d818b12efa005735dc3d6b6ed78a05d8f75629e0afaf001655ed6aacfd2884,
 reviewArchive:
 - date: 2024-01-02
   version: 0.8.8
