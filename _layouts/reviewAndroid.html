@@ -2,8 +2,6 @@
 layout: default
 ---
 
-{% include getOldInfo.md %}
-
 <div id="main" class="app-review" role="main">
   {% if page.wsId %} 
     <script>window.wsId="{{ page.wsId }}"</script> 
@@ -48,8 +46,6 @@ layout: default
           {% endif %}
         </div>
       </div>
-
-      {% include /review/nostrAttestations.html %}
 
       {% include /review/securityOverview.html wsId=page.wsId verdict=page.verdict meta=page.meta platform='android' filterPlatform='true' %}
 
