@@ -20,8 +20,9 @@ icon: com.muun.falcon.jpg
 bugbounty: 
 meta: ok
 verdict: nonverifiable
+appHashes: []
 date: 2021-07-30
-signer: 
+signer:
 reviewArchive: 
 twitter: muunwallet
 social: 

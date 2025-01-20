@@ -20,17 +20,18 @@ icon: io.bluewallet.bluewallet.jpg
 bugbounty: 
 meta: ok
 verdict: nonverifiable
+appHashes: []
 date: 2023-12-30
-signer: 
+signer:
 reviewArchive:
 - date: 2020-07-14
   version: 6.3.2
-  appHash: 
+  appHashes: []
   gitRevision: 0f9bcb13a75554cb34a522e07aa2cfeb4048480c
   verdict: custodial
 - date: 2020-01-08
   version: 4.9.1
-  appHash: 
+  appHashes: []
   gitRevision: 21cb412a4e74b14bd6124c3e3be855d6b96ef589
   verdict: nonverifiable
 twitter: bluewalletio

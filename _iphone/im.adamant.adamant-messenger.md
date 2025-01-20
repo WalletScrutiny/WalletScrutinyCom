@@ -20,8 +20,9 @@ icon: im.adamant.adamant-messenger.jpg
 bugbounty: 
 meta: ok
 verdict: nonverifiable
+appHashes: []
 date: 2024-09-19
-signer: 
+signer:
 reviewArchive: 
 twitter: adamant_im
 social:

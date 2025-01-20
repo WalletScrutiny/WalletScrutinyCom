@@ -21,6 +21,7 @@ icon: zapsolutions.zap.png
 bugbounty: 
 meta: removed
 verdict: reproducible
+appHashes: []
 date: 2023-12-19
 signer: 
 reviewArchive:

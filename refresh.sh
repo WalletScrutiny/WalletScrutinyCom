@@ -55,6 +55,9 @@ echo " * Calling refreshResults.sh..."
 echo " * Generate allOpinions.json from Nostr..."
 node ./scripts/compileAllOpinions.js
 
+echo " * Updating attestations.json..."
+node refreshAttestationsDB.mjs _android
+
 echo
 echo
 echo "Done! I'm just a stupid bot! Please carefully review my changes before committing or publishing!"
