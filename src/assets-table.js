@@ -3,7 +3,7 @@ import DOMPurify from 'dompurify';
 
 let response = null;
 
-window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestationsPubkey, appId, sha256, hideConfig, getAssetsForMyAttestations}) {
+window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestationsPubkey, appId, sha256, hideConfig, getAssetsForMyAttestations, showOnlyRows = 100}) {
   response = await getAllAssetInformation({
     months: 6,
     assetsPubkey,
@@ -65,7 +65,7 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
   `;
 
   if (sortedBinaries.length > 0) {
-    sortedBinaries.forEach((item) => {
+    sortedBinaries.forEach((item, index) => {
       // Handle both legacy and new format
       const binary = item.assets ? item.assets[0] : item;
       const date = new Date(binary.created_at * 1000).toLocaleDateString(navigator.language, 
@@ -170,6 +170,7 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
       const walletTitle = wallet ? wallet.title : identifier;
 
       const row = document.createElement('tr');
+      row.className = index >= showOnlyRows ? 'hidden-row' : '';
       row.innerHTML = `
         ${hideConfig?.wallet ? '' : `<td>
           ${wallet ? `<a href="${wallet.url}" target="_blank" rel="noopener noreferrer">${walletTitle}</a><br>${version}` : walletTitle}
@@ -200,6 +201,25 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
       `;
       table.appendChild(row);
     });
+
+    if (sortedBinaries.length > showOnlyRows) {
+      const showMoreRow = document.createElement('tr');
+      showMoreRow.className = 'show-more-row';
+      showMoreRow.innerHTML = `
+        <td colspan="8" style="text-align: center;">
+          <a href="#" class="show-more-link">Show ${sortedBinaries.length - showOnlyRows} more</a>
+        </td>
+      `;
+      table.appendChild(showMoreRow);
+
+      const showMoreLink = showMoreRow.querySelector('.show-more-link');
+      showMoreLink.addEventListener('click', (e) => {
+        e.preventDefault();
+        const hiddenRows = table.querySelectorAll('.hidden-row');
+        hiddenRows.forEach(row => row.classList.remove('hidden-row'));
+        showMoreRow.remove();
+      });
+    }
   } else {
     const row = document.createElement('tr');
     if (assetsPubkey || attestationsPubkey) {
