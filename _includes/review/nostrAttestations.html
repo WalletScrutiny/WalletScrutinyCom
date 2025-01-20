@@ -8,11 +8,16 @@
 <script>
   window.onload = async () => {
     await nostrConnect();
-    await renderAssetsTable({
+    const attestationsInfo = await renderAssetsTable({
       htmlElementId: 'appsTable',
       appId: '{{ page.appId }}',
       hideConfig: { wallet: true },
       showOnlyRows: 5,
     });
+
+    if (!attestationsInfo.hasBinaries && !attestationsInfo.hasLegacyBinaries) {
+      console.log('no binaries');
+      document.getElementById('appsTable').style.display = 'none';
+    }
   };
 </script>
