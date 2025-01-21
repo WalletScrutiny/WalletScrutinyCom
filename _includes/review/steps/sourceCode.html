@@ -1,5 +1,10 @@
 <div class="step source-code">
+  {% if page.repository %}
   <i class="i-code circle"></i>
+  {% else %}
+  <i class="i-code circle disabled"></i>
+  {% endif %}
+  
   <div class="title">
     <h3>Source code</h3>
     <p>
