@@ -51,26 +51,6 @@ layout: default
         </div>
       </div>
 
-      <!-- Drag-and-Drop-Area Start -->
-      <div id="drop-area">
-        <form class="my-form">
-          <span class="drop-text">Drop file to verify</span>
-          <input type="file" id="fileElem" style="display: none;" />
-          <div id="select" class="hover-mode">
-            <br />
-            <span>or</span>
-            <br />
-            <label class="button" for="fileElem">Select a file</label>
-          </div>  
-        </form>
-        <div id="file-list">
-          <div id="app-data" class="textbox"></div>
-          <div id="file-info" class="textbox"></div>          
-          <div id="redirect-button" class="info-section"></div>
-        </div>
-      </div>
-      <!-- Drag-and-Drop-Area End -->
-       
       {% include /review/securityOverview.html wsId=page.wsId verdict=page.verdict meta=page.meta platform='android' filterPlatform='true' %}
 
       {% include /review/nostrOpinion.html %}
@@ -105,5 +85,3 @@ layout: default
     </div>
   </article>
 </div>
-
-<script src="{{ '/dist/dragAndDrop.bundle.min.js' | relative_url }}"></script>
