@@ -5,25 +5,12 @@ permalink: /attestations/
 ---
 
 <style>
-.drop-zone {
+#drop-area {
     border: 2px dashed #ccc;
     border-radius: 8px;
     padding: 10px;
     margin: 0 auto;
     max-width: 300px;
-}
-
-.drop-placeholder {
-    background-color: #f5f5f5;
-    padding: 20px;
-    text-align: center;
-    border-radius: 4px;
-}
-
-.drop-placeholder p {
-    margin: 0;
-    color: #666;
-    font-size: 1.1em;
 }
 
 .p-pre-code {
@@ -61,11 +48,9 @@ pre {
         <li>Use the Wallet Search - Find attestations for a specific Bitcoin wallet using our search feature in the navigation bar at the top</li>
         <li>Verify a specific binary - Drop your binary file in our verification tool to check existing attestations or create new ones:</li>
     </ul>
-    <div class="drop-zone">
-        <div class="drop-placeholder">
-            <p>Drop it here</p>
-        </div>
-    </div>
+    
+    {% include /attestations/dragAndDropArea.html %}
+
     <p>If the <b>binary is new to the network</b>, you'll be prompted to provide some additional information to register it.</p>
     <p>If the <b>binary is already known</b>, you'll be able to view existing attestations, access build instructions, and create your own attestation.</p>
     <p class="note">Note: Not all Bitcoin wallets may have attestations available, as this is a community-driven effort and relatively new verification system.</p>
@@ -83,11 +68,8 @@ pre {
 
     <h3>Option 1: Using Our Tool</h3>
     <p>Simply drag and drop your file into the drop zone above, and we'll calculate the SHA256 hash for you automatically.</p>
-    <div class="drop-zone">
-        <div class="drop-placeholder">
-            <p>Drop it here</p>
-        </div>
-    </div>
+
+    {% include /attestations/dragAndDropArea.html %}
 
     <h3>Option 2: Using sha256sum (Command Line)</h3>
     <p class="p-pre-code">On Linux or macOS, open a terminal and run:</p>
@@ -95,4 +77,3 @@ pre {
     <p class="p-pre-code">On Windows, use:</p>
     <pre><code>certutil -hashfile path/to/your/file SHA256</code></pre>
 </div>
-
