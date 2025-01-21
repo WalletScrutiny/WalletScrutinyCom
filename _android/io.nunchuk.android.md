@@ -34,17 +34,17 @@ reviewArchive:
   verdict: nonverifiable
 - date: 2023-07-05
   version: 1.9.32
-  appHash: 
+  appHashes: []
   gitRevision: 5e67b0f51e6c67a3e1140ba66a1b4222e8cfe2a4
   verdict: nonverifiable
 - date: 2023-01-06
   version: 1.9.23
-  appHash: 
+  appHashes: []
   gitRevision: 49d61c1c5807f24ea01ba185a2de6793f8df0d38
   verdict: nonverifiable
 - date: 2021-12-15
   version: 1.9.21
-  appHash: 
+  appHashes: []
   gitRevision: f9bb0384d334f1ab3cd67824f43ff0053e7e51e7
   verdict: nosource
 twitter: nunchuk_io

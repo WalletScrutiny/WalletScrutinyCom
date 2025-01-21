@@ -20,9 +20,15 @@ icon: io.horizontalsystems.bank-wallet.jpg
 bugbounty: 
 meta: ok
 verdict: nonverifiable
+appHashes: []
 date: 2020-12-19
-signer: 
-reviewArchive: 
+signer:
+reviewArchive:
+- date: 2020-12-19
+  version: 0.41.1
+  appHashes: []
+  gitRevision: fe3cfeb1b5229e6f850188ec34137d1b700d9663
+  verdict: nonverifiable 
 twitter: unstoppablebyhs
 social:
 - https://www.reddit.com/r/UNSTOPPABLEWallet

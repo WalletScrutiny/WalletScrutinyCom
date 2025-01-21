@@ -49,6 +49,13 @@
     "brotlifyOthers": "npx brotli-cli compress -q 10 --glob \"_site/*.html\" --glob \"_site/**/*.{js,css,json,ttf,svg,eot,cast}\""
   },
   "dependencies": {
-    "jquery": "^3.7.1"
+    "app-info-parser": "^1.1.6",
+    "assert": "^2.1.0",
+    "browserify-zlib": "^0.2.0",
+    "jquery": "^3.7.1",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.5"
   }
 }

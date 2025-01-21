@@ -21,10 +21,16 @@ issue:
 icon: com.legendwd.hyperpayW.png
 bugbounty: 
 meta: ok
-verdict: obfuscated
+verdict: wip
+appHashes: []
 date: 2024-07-15
-signer: 
-reviewArchive: 
+signer:
+reviewArchive:
+- date: 2024-07-15
+  version: 5.4.1040
+  appHashes: []
+  gitRevision: 4458285efc54bd9bc76d74f88e696201a4af4a93
+  verdict: obfuscated 
 twitter: HyperPay_tech
 social:
 - https://www.facebook.com/hyperpayofficial

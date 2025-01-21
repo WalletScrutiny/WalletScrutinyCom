@@ -25,6 +25,7 @@ icon: tangemnote.png
 bugbounty: 
 meta: obsolete
 verdict: noita
+appHashes: []
 date: 2024-11-15
 signer: 
 reviewArchive: 

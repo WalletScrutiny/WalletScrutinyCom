@@ -5,7 +5,7 @@
 ### Attestations
 An attestation is a signed statement about a binary with a specific hash, declaring whether it could be reproduced from source code or not. The attestation includes:
 - The binary's hash
-- Reproducibility status (reproducible/not-reproducible)
+- Reproducibility status (reproducible/not_reproducible)
 - Detailed explanation of the reproduction attempt
 - Build instructions or documentation used
 - The reproducer can update their replaceable attestations
