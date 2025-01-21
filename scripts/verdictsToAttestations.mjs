@@ -42,13 +42,6 @@ async function parseFile(filePath, folderName) {
             console.debug('   No reviewArchive hash found.');
         }
 
-        // Process reviewCurrent if available
-        if (data.reviewCurrent && data.reviewCurrent != null) {
-            console.log(`Processing reviewCurrent (${appId})...`);
-            version = data.reviewCurrent.version;
-            appHash = data.reviewCurrent.appHashes[0];
-        }
-        
         // Process current test results in the body of the file, if available
         const resultsMatch = content.match(/===== Begin Results =====([\s\S]+?)===== End Results =====/);
         if (resultsMatch) {
