@@ -3,12 +3,12 @@
 {% assign platform = include.platform %}
 <div class="steps linked">
   {% include /review/steps/developer.html %}
+  {% include /review/steps/releases.html %}
   {% if verdict && meta %}
     {% include /review/steps/custody.html platform=platform %}
   {% endif %}
   {% include /review/steps/sourceCode.html %}
-  {% include /review/steps/releases.html %}
-  <!-- {% include /review/steps/privacy.html %} -->
+    <!-- {% include /review/steps/privacy.html %} -->
   {% include /review/steps/applicationBuild.html %}
   {% if include.filterPlatform=='true' %}
     <!-- HTML FOR ANY FUTURE DEVICE-SPECIFIC SECTIONS -->
