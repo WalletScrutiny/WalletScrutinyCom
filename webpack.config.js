@@ -3,12 +3,15 @@ const TerserPlugin = require('terser-webpack-plugin');
 const WebpackShellPluginNext = require('webpack-shell-plugin-next');
 
 module.exports = {
+  devtool: 'source-map',
   entry: {
     jquery: [
       './assets/js/_main.js',
       './assets/js/plugins/jquery.fitvids.js',
       './assets/js/plugins/jquery.greedy-navigation.js'
     ],
+    dragAndDrop: './src/drag-and-drop.js',
+    blossom: './src/blossom.js',
     attestation: [
       './src/attestation_utils.mjs',
       './src/assets-table.js'
@@ -16,6 +19,17 @@ module.exports = {
   },
   output: {
     filename: '[name].bundle.min.js',
+  },
+  resolve: {
+    fallback: {
+      path: require.resolve('path-browserify'),
+      fs: false, // 'fs' is not supported in browsers, disable it
+      zlib: require.resolve('browserify-zlib'),
+      util: require.resolve('util/'),
+      stream: require.resolve('stream-browserify'),
+      assert: require.resolve('assert'),
+      process: require.resolve('process/browser'),
+    },
   },
   module: {
     rules: [
@@ -42,7 +56,8 @@ module.exports = {
       $: 'jquery',
       jQuery: 'jquery',
       'window.jQuery': 'jquery',
-      'window.$': 'jquery'
+      'window.$': 'jquery',
+      process: 'process/browser',
     }),
     new WebpackShellPluginNext({
       onBuildStart: {

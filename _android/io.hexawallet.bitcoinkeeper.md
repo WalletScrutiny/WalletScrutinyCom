@@ -3,12 +3,12 @@ wsId:
 title: Bitcoin Keeper
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: io.hexawallet.bitcoinkeeper
 appCountry: 
 released: 2022-12-12
-updated: 2024-11-22
-version: 1.2.20
+updated: 2025-01-12
+version: 1.3.3
 stars: 4.8
 ratings: 
 reviews: 3
@@ -19,7 +19,7 @@ issue:
 icon: io.hexawallet.bitcoinkeeper.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

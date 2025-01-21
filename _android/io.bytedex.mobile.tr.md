@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.bytedex.mobile.tr.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2024-04-04
+date: 2024-12-08
 signer: 
 reviewArchive: 
 twitter: byteexchange

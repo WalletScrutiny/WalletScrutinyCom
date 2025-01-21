@@ -8,11 +8,11 @@ appId: com.weareblox.app
 appCountry: nl
 idd: '1444159776'
 released: '2019-01-16'
-updated: 2024-11-13
-version: '6.2'
+updated: 2024-12-12
+version: '6.3'
 stars: 4.6
-reviews: 4141
-size: '111003648'
+reviews: 4760
+size: '111684608'
 website: https://weareblox.com
 repository: 
 issue: 

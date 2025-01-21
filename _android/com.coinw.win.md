@@ -1,6 +1,6 @@
 ---
 wsId: coinWBuyCrypto
-title: CoinW- Buy Crypto BTC ETH DOGE
+title: CoinW:Crypto Trading Made Easy
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: com.coinw.win
 appCountry: 
 released: 2022-12-07
-updated: 2024-11-20
-version: 9.10.46
+updated: 2025-01-09
+version: 10.0.11
 stars: 3.6
 ratings: 
-reviews: 37
+reviews: 40
 size: 
 website: https://www.coinw.com
 repository: 

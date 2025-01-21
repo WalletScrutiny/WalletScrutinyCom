@@ -20,9 +20,9 @@ repository:
 issue: 
 icon: io.lisk.mobile.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-10-22
+date: 2024-12-08
 signer: 
 reviewArchive: 
 twitter: LiskHQ
@@ -33,7 +33,7 @@ social:
 - https://t.me/Lisk_HQ
 - https://www.instagram.com/lisk_blockchain
 redirect_from: 
-developerName: Lightcurve GmbH
+developerName: Lisk Limited
 features: 
 
 ---

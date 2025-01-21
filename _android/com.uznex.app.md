@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.uznex.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2024-02-20
+date: 2024-12-15
 signer: 
 reviewArchive: 
 twitter: 

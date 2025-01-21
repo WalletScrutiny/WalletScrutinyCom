@@ -4,15 +4,15 @@ title: 'EMCD: Crypto Wallet Mining BTC'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: io.emcd.emcd_flutter.prod
 appCountry: 
 released: 2022-01-03
-updated: 2024-11-25
-version: 2.8.0
-stars: 4.3
+updated: 2024-12-16
+version: 2.9.0
+stars: 4.4
 ratings: 
-reviews: 23
+reviews: 25
 size: 
 website: https://emcd.io/ru
 repository: 

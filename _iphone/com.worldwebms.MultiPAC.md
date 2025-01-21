@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.worldwebms.MultiPAC.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-06-10
+date: 2024-12-15
 signer: 
 reviewArchive: 
 twitter: UnidoEP

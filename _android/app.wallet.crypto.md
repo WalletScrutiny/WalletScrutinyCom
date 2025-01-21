@@ -3,7 +3,7 @@ wsId:
 title: wallet.app
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: app.wallet.crypto
 appCountry: 
 released: 2021-10-30
@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: app.wallet.crypto.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-10-06
+date: 2025-01-06
 signer: 
 reviewArchive: 
 twitter: 

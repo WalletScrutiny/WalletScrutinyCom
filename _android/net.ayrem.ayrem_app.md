@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: net.ayrem.ayrem_app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2024-03-02
+date: 2025-01-09
 signer: 
 reviewArchive: 
 twitter: AYREM_INT

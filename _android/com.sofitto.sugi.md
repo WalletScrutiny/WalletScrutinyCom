@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.sofitto.sugi.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2022-10-21
+date: 2024-12-31
 signer: 
 reviewArchive: 
 twitter: 

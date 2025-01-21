@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.ex.rbul.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2024-02-07
+date: 2024-12-08
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.tmdstudios.cryptoledgerkotlin.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2023-12-28
+date: 2024-12-16
 signer: 
 reviewArchive: 
 twitter: 

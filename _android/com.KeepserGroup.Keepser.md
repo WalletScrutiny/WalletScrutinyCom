@@ -8,8 +8,8 @@ users: 50
 appId: com.KeepserGroup.Keepser
 appCountry: 
 released: 2021-07-22
-updated: 2023-08-30
-version: 1.6.7
+updated: 2024-12-17
+version: 2.0.0
 stars: 
 ratings: 
 reviews: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.KeepserGroup.Keepser.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: fewusers
-date: 2024-08-25
+date: 2024-12-18
 signer: 
 reviewArchive: 
 twitter: keepser

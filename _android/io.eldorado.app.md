@@ -4,15 +4,15 @@ title: El Dorado P2P
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: io.eldorado.app
 appCountry: 
 released: 2022-04-19
-updated: 2024-11-15
-version: 1.3.1190
-stars: 4.7
+updated: 2025-01-08
+version: 1.3.1287
+stars: 4.6
 ratings: 
-reviews: 286
+reviews: 337
 size: 
 website: https://eldorado.io
 repository: 

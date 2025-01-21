@@ -2,6 +2,10 @@
 layout: default
 ---
 
+<script>
+  window.pageAppId = "{{ page.appId }}";  // This makes page.appId accessible in the JavaScript
+</script>
+
 <div id="main" class="app-review" role="main">
   {% if page.wsId %} 
     <script>window.wsId="{{ page.wsId }}"</script> 
@@ -47,6 +51,26 @@ layout: default
         </div>
       </div>
 
+      <!-- Drag-and-Drop-Area Start -->
+      <div id="drop-area">
+        <form class="my-form">
+          <span class="drop-text">Drop file to verify</span>
+          <input type="file" id="fileElem" style="display: none;" />
+          <div id="select" class="hover-mode">
+            <br />
+            <span>or</span>
+            <br />
+            <label class="button" for="fileElem">Select a file</label>
+          </div>  
+        </form>
+        <div id="file-list">
+          <div id="app-data" class="textbox"></div>
+          <div id="file-info" class="textbox"></div>          
+          <div id="redirect-button" class="info-section"></div>
+        </div>
+      </div>
+      <!-- Drag-and-Drop-Area End -->
+       
       {% include /review/securityOverview.html wsId=page.wsId verdict=page.verdict meta=page.meta platform='android' filterPlatform='true' %}
 
       {% include /review/nostrOpinion.html %}
@@ -64,6 +88,7 @@ layout: default
             <div class="label active" data-for="social-share" data-text="Share" data-suffix="on social media"></div>
             <div class="label" data-for="embed-widget" data-text="Embed" data-suffix="a widget on your website"></div>
             <div class="label" data-for="embed-image" data-text="Embed" data-suffix="an image on your website"></div>
+            {% include_cached embed_pill_title.html verdict=page.verdict meta=page.meta %}
           </div>
           <div class="payloads">
             {% assign defaultMessage = page.title | append: ' on WalletScrutiny:' %}
@@ -72,6 +97,7 @@ layout: default
             </div>
             <div class="embed-widget">{% include embed_widget.html %}</div>
             <div class="embed-image">{% include embed_image.html %}</div>
+            {% include embed_pill_content.html verdict=page.verdict %}
           </div>
         </div>
       {% endif %}
@@ -79,3 +105,5 @@ layout: default
     </div>
   </article>
 </div>
+
+<script src="{{ '/dist/dragAndDrop.bundle.min.js' | relative_url }}"></script>

@@ -8,8 +8,8 @@ users: 50000
 appId: africa.obiex.app
 appCountry: 
 released: 2021-06-09
-updated: 2024-10-16
-version: 3.7.4
+updated: 2024-12-08
+version: 3.7.7
 stars: 4.3
 ratings: 
 reviews: 31
@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/obiexfinance
 - https://www.instagram.com/obiexfinance/
 redirect_from: 
-developerName: Obiex Inc.
+developerName: Obiex Africa Ltd.
 features: 
 
 ---

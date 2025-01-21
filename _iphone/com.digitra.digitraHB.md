@@ -8,11 +8,11 @@ appId: com.digitra.digitraHB
 appCountry: br
 idd: '1577787451'
 released: 2022-03-12
-updated: 2024-11-23
-version: 1.0.130
+updated: 2025-01-13
+version: 1.0.136
 stars: 4.8
 reviews: 33
-size: '125948928'
+size: '126053376'
 website: https://www.digitra.com
 repository: 
 issue: 

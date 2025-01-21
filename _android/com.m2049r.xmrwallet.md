@@ -12,7 +12,7 @@ updated: 2024-11-09
 version: 4.1.5 'Exolix'
 stars: 3.2
 ratings: 821
-reviews: 177
+reviews: 179
 size: 
 website: https://monerujo.io/
 repository: 

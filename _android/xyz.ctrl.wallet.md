@@ -3,12 +3,12 @@ wsId:
 title: Ctrl Wallet
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: xyz.ctrl.wallet
 appCountry: 
-released: 
-updated: 2024-11-29
-version: VARY
+released: 2024-11-29
+updated: 2024-12-17
+version: 1.0.4
 stars: 
 ratings: 
 reviews: 
@@ -19,14 +19,14 @@ issue:
 icon: xyz.ctrl.wallet.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2024-09-24
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: XDEFI WALLET
+developerName: Ctrl Wallet
 features: 
 
 ---

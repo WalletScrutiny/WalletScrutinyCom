@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.bixter.twa.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
-date: 2022-12-17
+date: 2025-01-09
 signer: 
 reviewArchive: 
 twitter: 

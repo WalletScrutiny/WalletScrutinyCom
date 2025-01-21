@@ -11,7 +11,7 @@ released: 2022-09-24
 updated: 2024-11-12
 version: 2.0.31
 stars: 5
-reviews: 6
+reviews: 7
 size: '153671680'
 website: https://www.xbo.com/
 repository: 

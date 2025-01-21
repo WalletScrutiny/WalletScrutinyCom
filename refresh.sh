@@ -45,11 +45,18 @@ node scripts/twitterCardGen.mjs
 
 wait
 
+echo " * Generating verdict pills..."
+./scripts/pillGen.sh
+wait
+
 echo " * Calling refreshResults.sh..."
 ./refreshResults.sh
 
 echo " * Generate allOpinions.json from Nostr..."
 node ./scripts/compileAllOpinions.js
+
+echo " * Updating attestations.json..."
+node refreshAttestationsDB.mjs _android
 
 echo
 echo

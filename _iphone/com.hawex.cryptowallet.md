@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.hawex.cryptowallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2023-11-02
+date: 2025-01-15
 signer: 
 reviewArchive: 
 twitter: hawexdao

@@ -39,7 +39,8 @@
     "webpack-shell-plugin-next": "^2.3.2"
   },
   "scripts": {
-    "dev": "webpack --mode development --watch & bundle exec jekyll serve --profile --trace --host=localhost --config _config.yml,_config.dev.yml --incremental --livereload",
+    "dev": "webpack --mode development --watch & bundle exec jekyll serve --profile --trace --host=localhost --config _config.yml,_config.dev.yml --incremental",
+    "dev-live": "webpack --mode development --watch & bundle exec jekyll serve --profile --trace --host=localhost --config _config.yml,_config.dev.yml --incremental --livereload",
     "build": "webpack --mode production --no-watch && bundle exec jekyll build && npm run compress",
     "compress": "npm run minifyJs && npm run minifyCss && npm run brotlifyHtml && npm run brotlifyOthers",
     "minifyJs": "npx foreach-cli -g \"_site/**/*.js\" -i \"_site/**/*.min.js\" -x \"terser #{path} -o #{path}\"",
@@ -48,9 +49,16 @@
     "brotlifyOthers": "npx brotli-cli compress -q 10 --glob \"_site/*.html\" --glob \"_site/**/*.{js,css,json,ttf,svg,eot,cast}\""
   },
   "dependencies": {
+    "app-info-parser": "^1.1.6",
+    "assert": "^2.1.0",
+    "browserify-zlib": "^0.2.0",
+    "jquery": "^3.7.1",
+    "path-browserify": "^1.0.1",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.5"
     "@nostr-dev-kit/ndk": "^2.10.7",
     "dompurify": "^3.2.3",
-    "jquery": "^3.7.1",
     "marked": "^15.0.6",
     "ws": "^8.18.0"
   }

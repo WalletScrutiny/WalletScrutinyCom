@@ -20,9 +20,9 @@ repository:
 issue: 
 icon: ecomisecurewallet.png
 bugbounty: 
-meta: ok
+meta: obsolete
 verdict: plainkey
-date: 2022-02-17
+date: 2024-11-15
 signer: 
 reviewArchive: 
 twitter: ecomi_

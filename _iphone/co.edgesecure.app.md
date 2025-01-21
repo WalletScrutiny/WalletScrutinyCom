@@ -9,11 +9,11 @@ appId: co.edgesecure.app
 appCountry: 
 idd: 1344400091
 released: 2018-02-09
-updated: 2024-11-23
-version: 4.17.2
+updated: 2025-01-08
+version: 4.19.2
 stars: 4.5
-reviews: 1557
-size: '95797248'
+reviews: 1594
+size: '96478208'
 website: https://edge.app
 repository: https://github.com/EdgeApp/edge-react-gui
 issue: 
@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 - date: 2019-11-10
   version: 1.10.1
-  appHash: 
+  appHashes: []
   gitRevision: 1707808e9efc2ab4ea3a03510ebd408811586d47
   verdict: ftbfs
 twitter: edgewallet

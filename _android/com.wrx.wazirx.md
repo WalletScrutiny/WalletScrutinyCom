@@ -9,11 +9,11 @@ users: 10000000
 appId: com.wrx.wazirx
 appCountry: in
 released: 2018-07-16
-updated: 2024-11-13
+updated: 2025-01-03
 version: 3.2.2
 stars: 3.8
 ratings: 543310
-reviews: 123050
+reviews: 123546
 size: 
 website: https://wazirx.com
 repository: 
@@ -22,12 +22,13 @@ icon: com.wrx.wazirx.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: []
 date: 2021-08-09
-signer: 
+signer:
 reviewArchive:
 - date: 2021-04-16
   version: 2.13.4
-  appHash: 
+  appHashes: []
   gitRevision: ef345dd316ca2a0ef9a19f23680a94e1a42fd171
   verdict: nowallet
 twitter: WazirxIndia

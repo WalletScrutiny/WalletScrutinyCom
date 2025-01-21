@@ -21,8 +21,9 @@ icon: co.acinq.phoenix.jpg
 bugbounty: 
 meta: ok
 verdict: nonverifiable
+appHashes: []
 date: 2024-07-05
-signer: 
+signer:
 reviewArchive: 
 twitter: PhoenixWallet
 social: 

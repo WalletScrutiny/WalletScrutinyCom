@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.aem.aemplus.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2022-07-31
+date: 2024-12-04
 signer: 
 reviewArchive: 
 twitter: 

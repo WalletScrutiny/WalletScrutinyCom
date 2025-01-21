@@ -8,11 +8,11 @@ users: 10000
 appId: com.indoex.finance
 appCountry: 
 released: 2022-08-04
-updated: 2024-11-21
-version: 1.0.37
-stars: 2.8
+updated: 2024-11-30
+version: 1.0.40
+stars: 3.1
 ratings: 
-reviews: 4
+reviews: 5
 size: 
 website: https://international.indoex.io
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: vault12
-title: Vault12 Guard Inheritance
+title: Vault12 Guard - Inherit Crypto
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.vault12.vault12
 appCountry: us
 idd: '1451596986'
 released: 2019-08-28
-updated: 2024-11-22
-version: 2.5.1
-stars: 4.6
-reviews: 24
-size: '86050816'
+updated: 2024-12-19
+version: 2.5.3
+stars: 4.5
+reviews: 28
+size: '86545408'
 website: https://vault12.com/guard
 repository: https://github.com/vault12
 issue: 

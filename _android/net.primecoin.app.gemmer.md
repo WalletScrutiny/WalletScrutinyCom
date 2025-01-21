@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: net.primecoin.app.gemmer.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-06-22
+date: 2024-12-15
 signer: 
 reviewArchive: 
 twitter: 

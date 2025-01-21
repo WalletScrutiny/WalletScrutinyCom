@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.fulldive.fulldivemobile.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nobtc
-date: 2024-01-16
+date: 2025-01-06
 signer: 
 reviewArchive: 
 twitter: 

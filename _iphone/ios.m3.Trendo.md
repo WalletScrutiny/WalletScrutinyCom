@@ -1,6 +1,6 @@
 ---
 wsId: trendofx
-title: 'Trendo: Forex Trading & Broker'
+title: 'ترندو: بروکر فارکس سریع و امن'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: ios.m3.Trendo
 appCountry: in
 idd: 1530580389
 released: 2020-09-29
-updated: 2024-11-26
-version: 2.8.25
+updated: 2025-01-14
+version: 3.9.25
 stars: 5
-reviews: 41
-size: '57841664'
+reviews: 46
+size: '57053184'
 website: https://fxtrendo.com/
 repository: 
 issue: 

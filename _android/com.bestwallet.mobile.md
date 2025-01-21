@@ -8,11 +8,11 @@ users: 100000
 appId: com.bestwallet.mobile
 appCountry: 
 released: 2023-07-24
-updated: 2024-10-15
-version: 2.3.1
+updated: 2024-12-20
+version: 2.4.3
 stars: 4.6
 ratings: 
-reviews: 131
+reviews: 277
 size: 
 website: https://www.bestwallet.com
 repository: 
@@ -32,7 +32,7 @@ social:
 - https://www.tiktok.com/@bestwalletofficial
 - https://www.instagram.com/bestwallethq
 redirect_from: 
-developerName: BEST WALLET
+developerName: BEST WALLET EOOD
 features: 
 
 ---

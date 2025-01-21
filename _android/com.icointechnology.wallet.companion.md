@@ -3,7 +3,7 @@ wsId:
 title: iCoin Mobile
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.icointechnology.wallet.companion
 appCountry: 
 released: 2022-02-15
@@ -19,7 +19,7 @@ issue:
 icon: com.icointechnology.wallet.companion.jpg
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 date: 2023-06-03
 signer: 
 reviewArchive: 

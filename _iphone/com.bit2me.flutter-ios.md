@@ -5,14 +5,14 @@ altTitle:
 authors:
 - leo
 appId: com.bit2me.flutter-ios
-appCountry: jp
+appCountry: es
 idd: 1459809738
 released: 2019-06-04
-updated: 2024-11-22
-version: 3.28.1
-stars: 5
-reviews: 1
-size: '185272320'
+updated: 2025-01-14
+version: 3.32.1
+stars: 4.5
+reviews: 3486
+size: '190983168'
 website: https://bit2me.com
 repository: 
 issue: 
@@ -20,7 +20,7 @@ icon: com.bit2me.flutter-ios.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
-date: 2024-10-07
+date: 2024-12-31
 signer: 
 reviewArchive: 
 twitter: bit2me

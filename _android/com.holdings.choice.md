@@ -8,11 +8,11 @@ users: 1000
 appId: com.holdings.choice
 appCountry: 
 released: 2022-04-04
-updated: 2024-04-12
-version: 2.22.3
-stars: 3.2
+updated: 2025-01-02
+version: 2.24.0
+stars: 3.1
 ratings: 
-reviews: 29
+reviews: 30
 size: 
 website: https://www.choiceapp.io/
 repository: 

@@ -1,6 +1,6 @@
 ---
 wsId: dCent
-title: D’CENT Wallet
+title: D'CENT - Crypto Wallet
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ appId: kr.iotrust.dcent
 appCountry: kr
 idd: 1447206611
 released: 2019-01-26
-updated: 2024-11-25
-version: 7.0.0
-stars: 3.9
-reviews: 70
-size: '62844928'
-website: https://dcentwallet.com/
+updated: 2025-01-10
+version: 7.3.0
+stars: 3.8
+reviews: 72
+size: '62898176'
+website: https://store.dcentwallet.com/pages/dcent-wallet-app
 repository: 
 issue: 
 icon: kr.iotrust.dcent.jpg

@@ -8,19 +8,19 @@ appId: io.changenow
 appCountry: 
 idd: 1518003605
 released: 2020-06-29
-updated: 2023-01-12
-version: 2.7.1
+updated: 2024-12-19
+version: 2.8.2
 stars: 4.8
-reviews: 1915
-size: '70804480'
+reviews: 1989
+size: '71949312'
 website: https://changenow.io
 repository: 
 issue: 
 icon: io.changenow.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nosource
-date: 2024-01-16
+date: 2024-12-23
 signer: 
 reviewArchive: 
 twitter: ChangeNOW_io

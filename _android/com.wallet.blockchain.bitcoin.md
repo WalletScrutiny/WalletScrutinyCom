@@ -3,7 +3,7 @@ wsId:
 title: Bitcoin Wallet & Crypto Market
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.wallet.blockchain.bitcoin
 appCountry: 
 released: 2023-12-21

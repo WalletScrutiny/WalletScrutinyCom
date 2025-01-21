@@ -8,11 +8,11 @@ users: 100000
 appId: com.metallicus.metalapp.production
 appCountry: us
 released: 2020-01-14
-updated: 2024-11-15
-version: 3.1.161
+updated: 2025-01-09
+version: 3.1.168
 stars: 4.1
 ratings: 564
-reviews: 349
+reviews: 352
 size: 
 website: https://metalpay.com
 repository: 

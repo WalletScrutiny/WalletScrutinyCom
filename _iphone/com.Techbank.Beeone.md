@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.Techbank.Beeone.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2021-05-30
+date: 2025-01-06
 signer: 
 reviewArchive: 
 twitter: 

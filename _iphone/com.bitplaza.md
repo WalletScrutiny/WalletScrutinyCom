@@ -17,9 +17,9 @@ repository:
 issue: 
 icon: com.bitplaza.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
-date: 2021-08-17
+date: 2025-01-15
 signer: 
 reviewArchive: 
 twitter: 

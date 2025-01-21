@@ -8,11 +8,11 @@ users: 10000
 appId: net.bitkap.frontEnd
 appCountry: 
 released: 2021-11-21
-updated: 2024-10-08
+updated: 2024-12-18
 version: 2.0.4
-stars: 3.6
+stars: 3.7
 ratings: 
-reviews: 16
+reviews: 17
 size: 
 website: https://bitkap.africa
 repository: 
@@ -30,7 +30,7 @@ social:
 - https://www.facebook.com/BitkapAfrica
 - https://t.me/joinchat/UKx9cqSCN9LBbH34
 redirect_from: 
-developerName: kaprox
+developerName: bitkap group
 features: 
 
 ---

@@ -26,7 +26,7 @@ icon: coolwalletpro.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2021-08-28
+date: 2024-12-08
 signer: 
 reviewArchive: 
 twitter: coolwallet
@@ -35,6 +35,8 @@ social:
 features: 
 
 ---
+
+**Update 2024-12-08:** This product remains available and not verifiable.
 
 This device, running weeks on a single charge connects to its companion app on
 
@@ -51,7 +53,7 @@ Searching for the firmware, latest updates thereof and the source code, we find
   card operating system with cryptocurrencies capability and enhanced security
   features.
 
-which sounds like the firmware probably is closed source.d
+which sounds like the firmware probably is closed source.
 
 The device
 [uses open standards](https://help.coolwallet.io/article/58-can-i-recover-my-coolwallet-seed-to-another-wallet)

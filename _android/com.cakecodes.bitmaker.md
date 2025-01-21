@@ -12,16 +12,16 @@ updated: 2024-01-09
 version: 8.18.9
 stars: 4.2
 ratings: 84499
-reviews: 3296
+reviews: 3298
 size: 
 website: https://stormx.io/
 repository: 
 issue: 
 icon: com.cakecodes.bitmaker.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
-date: 2021-11-01
+date: 2024-12-31
 signer: 
 reviewArchive: 
 twitter: stormxio

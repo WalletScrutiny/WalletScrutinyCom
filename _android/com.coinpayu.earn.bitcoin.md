@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Coinpayu
+title: 'Coinpayu: Earn Rewards'
 altTitle: 
 authors:
 - danny
@@ -8,16 +8,16 @@ users: 500000
 appId: com.coinpayu.earn.bitcoin
 appCountry: 
 released: 2021-07-06
-updated: 2024-07-17
-version: 1.4.1
-stars: 3.5
+updated: 2025-01-01
+version: 2.0.1
+stars: 3.4
 ratings: 
-reviews: 174
+reviews: 179
 size: 
 website: https://www.coinpayu.com
 repository: 
 issue: 
-icon: com.coinpayu.earn.bitcoin.png
+icon: com.coinpayu.earn.bitcoin.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet

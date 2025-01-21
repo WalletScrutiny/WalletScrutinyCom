@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.pqi.wallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2024-01-16
+date: 2025-01-06
 signer: 
 reviewArchive: 
 twitter: 

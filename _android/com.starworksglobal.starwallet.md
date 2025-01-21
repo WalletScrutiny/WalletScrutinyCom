@@ -8,8 +8,8 @@ users: 1000
 appId: com.starworksglobal.starwallet
 appCountry: 
 released: 2021-02-01
-updated: 2024-11-14
-version: 3.001.176
+updated: 2025-01-02
+version: 3.001.184
 stars: 4.7
 ratings: 
 reviews: 
@@ -32,7 +32,7 @@ social:
 - https://www.instagram.com/starworksglobal
 - https://www.youtube.com/channel/UCty8czQ20jNHRB-cTeQrUDg
 redirect_from: 
-developerName: Starworks Global Pte.Ltd.
+developerName: Starworks Global
 features: 
 
 ---

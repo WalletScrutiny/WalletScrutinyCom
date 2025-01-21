@@ -8,8 +8,8 @@ users: 10000
 appId: com.credits.Wallet
 appCountry: 
 released: 2020-10-26
-updated: 2024-11-21
-version: 7.0.0.7
+updated: 2024-12-10
+version: 7.0.1.1
 stars: 4.2
 ratings: 
 reviews: 3
@@ -32,7 +32,7 @@ social:
 - https://www.linkedin.com/company/creditscom
 - https://www.facebook.com/creditscom
 redirect_from: 
-developerName: CS Solutions Technology Ltd
+developerName: SOFTWARE C SP Z.O.O
 features: 
 
 ---

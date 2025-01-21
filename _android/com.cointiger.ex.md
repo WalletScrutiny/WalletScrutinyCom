@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.cointiger.ex.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2024-06-29
+date: 2024-12-04
 signer: 
 reviewArchive: 
 twitter: CoinTigerEX

@@ -8,11 +8,11 @@ users: 1000000
 appId: com.riflexo.tradeinterceptormobile
 appCountry: us
 released: 2010-08-02
-updated: 2024-11-22
-version: 6.17.5.1
+updated: 2025-01-10
+version: 6.17.5.9
 stars: 3.9
 ratings: 5176
-reviews: 342
+reviews: 346
 size: 
 website: http://www.thinkmarkets.com
 repository: 

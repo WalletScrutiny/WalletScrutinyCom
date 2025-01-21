@@ -30,7 +30,7 @@ social:
 - https://www.youtube.com/channel/UC261DPjgdgZcP9PgoKrGc7A
 - https://www.linkedin.com/company/stablex-net
 redirect_from: 
-developerName: Stablex Bilişim
+developerName: Stablex Kripto Varlık Alım Satım Platformu A.Ş.
 features: 
 
 ---

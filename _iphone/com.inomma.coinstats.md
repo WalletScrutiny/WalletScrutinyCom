@@ -8,11 +8,11 @@ appId: com.inomma.coinstats
 appCountry: us
 idd: '1247849330'
 released: 2017-06-22
-updated: 2024-11-27
-version: 5.18.0
+updated: 2024-12-31
+version: 5.18.2
 stars: 4.8
-reviews: 72018
-size: '227017728'
+reviews: 73138
+size: '220131328'
 website: https://coinstats.app
 repository: 
 issue: 

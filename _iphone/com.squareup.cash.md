@@ -1,6 +1,6 @@
 ---
 wsId: CashApp
-title: Cash App
+title: 'Cash App: Pay, Invest & Save'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ appId: com.squareup.cash
 appCountry: 
 idd: 711923939
 released: 2013-10-16
-updated: 2024-11-25
-version: '4.75'
+updated: 2025-01-13
+version: '4.82'
 stars: 4.8
-reviews: 6987639
-size: '307744768'
+reviews: 7136726
+size: '317737984'
 website: https://cash.app
 repository: 
 issue: 

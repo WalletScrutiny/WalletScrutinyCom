@@ -24,9 +24,9 @@ repository:
 issue: 
 icon: lockbox.png
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: nosource
-date: 2021-09-01
+date: 2024-12-08
 signer: 
 reviewArchive: 
 twitter: blockchain
@@ -36,6 +36,8 @@ social:
 features: 
 
 ---
+
+**Update 2024-12-08:** The support page link mentioned below is now defunct and there is no hint at this product still existing but if it's a Ledger, it probably will still work as such ...
 
 This hardware wallet is a rebrand of a {% include walletLink.html wallet='hardware/ledgerNanoS' verdict=true %}.
 

@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.gluwa.android.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2024-07-24
+date: 2024-12-31
 signer: 
 reviewArchive: 
 twitter: gluwa

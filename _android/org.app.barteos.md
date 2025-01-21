@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: org.app.barteos.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2022-07-31
+date: 2024-12-23
 signer: 
 reviewArchive: 
 twitter: 

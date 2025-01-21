@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.xccg.xchange.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-11-03
+date: 2024-12-23
 signer: 
 reviewArchive: 
 twitter: XchangeO

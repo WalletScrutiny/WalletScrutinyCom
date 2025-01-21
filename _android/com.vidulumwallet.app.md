@@ -20,9 +20,9 @@ repository: https://github.com/vidulum/vidulum.app
 issue: 
 icon: com.vidulumwallet.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2024-07-17
+date: 2024-12-15
 signer: 
 reviewArchive: 
 twitter: VidulumApp

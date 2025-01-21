@@ -10,18 +10,18 @@ appCountry:
 released: 2021-12-17
 updated: 2023-12-19
 version: '3.9'
-stars: 
+stars: 5
 ratings: 
-reviews: 
+reviews: 1
 size: 
 website: https://monabit.io
 repository: 
 issue: 
 icon: io.monabit.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2024-07-24
+date: 2024-12-15
 signer: 
 reviewArchive: 
 twitter: 

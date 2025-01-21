@@ -23,9 +23,9 @@ repository: https://github.com/Toporin/Seedkeeper-Applet
 issue: 
 icon: satochip.seedkeeper.png
 bugbounty: 
-meta: ok
+meta: obsolete
 verdict: plainkey
-date: 2023-02-07
+date: 2024-11-15
 signer: 
 reviewArchive: 
 twitter: satochipwallet

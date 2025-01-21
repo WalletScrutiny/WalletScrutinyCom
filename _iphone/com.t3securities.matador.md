@@ -1,6 +1,6 @@
 ---
 wsId: publicStocksCrypto
-title: 'Public: Stocks, Options, Bonds'
+title: 'Public: Invest & Trade'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.t3securities.matador
 appCountry: us
 idd: '1204112719'
 released: 2017-03-13
-updated: 2024-11-27
-version: 4.12.2
+updated: 2025-01-14
+version: 4.12.8
 stars: 4.7
-reviews: 72699
-size: '271955968'
+reviews: 73834
+size: '275523584'
 website: https://public.com
 repository: 
 issue: 

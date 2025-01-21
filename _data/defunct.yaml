@@ -1,61 +1,40 @@
-2024-11-19:
-- _android/com.aem.aemplus
-- _android/com.app.fameex
-- _android/com.cointiger.ex
-- _android/com.crypt8.crypt8
-- _android/com.geodb.wallace
-- _android/com.sanctuaryex.wallet
-- _android/com.web.instafx
-- _android/org.cordova.verto.app
-- _iphone/net.bitkap.frondend
-2024-11-21:
-- _android/com.cloud.blockfinex
-- _android/com.cloud.xmeta
-- _android/com.crypto.croytowallet
-- _android/mudra.exchange
-- _android/us.atayen.ihave
-- _iphone/cash.usdx.wallet
-- _iphone/com.c2c.B.V.Crypto2Cash
-- _iphone/com.coininn.yykik
-- _iphone/net.stasis.mobile
-2024-11-22:
-- _android/com.ex.rbul
-- _android/com.ixwallet.app
-- _android/io.android.titanwallet
-- _android/io.bytedex.mobile.tr
-- _android/io.rubix.exchange
-- _iphone/com.brave-corporation.brave-pay
-- _iphone/com.pandats.axia
-2024-11-23:
-- _android/ch.swissbitcoinpay.checkout
-- _iphone/com.paxful.wallet
-2024-11-25:
-- _android/com.vidulumwallet.app
-- _iphone/com.app.orbitnetwork
-- _iphone/com.vsmart.UnitedExchange
-2024-11-29:
-- _android/com.abcc.exchange
-- _android/com.digilab24.apps
-- _android/com.exchangedm
-- _android/com.fincrypt.paybolt
-- _android/com.fincrypt.payboltmerchant
-- _android/com.globiance.android
-- _android/com.kochure.kochureApp
-- _android/com.monnos.android
-- _android/com.ptpwallet
-- _android/com.swappy.autocrypto
-- _android/com.ufund.app
-- _android/com.uscreen.videotrading
-- _android/com.uznex.app
-- _android/holaacapital.trader
-- _android/net.plisio.app
-- _android/net.primecoin.app.gemmer
-- _android/network.privapp.wallet
-- _iphone/com.globiance.iosapp
-- _iphone/com.quarkchain.qpocket
-- _iphone/io.emcd.app
-- _iphone/io.lisk.mobile
-- _iphone/network.cri.criwallet
-- _iphone/org.pionex
-2024-11-30:
-- _android/com.swapuz.mobile
+2025-01-06:
+- _android/com.gloath.portalsapp
+- _android/com.komodoplatform.atomicdex
+- _android/com.mutinywallet.mutinywallet
+- _iphone/app.simple.com
+- _iphone/com.bytrade.io
+- _iphone/com.kochure.kochure-app
+- _iphone/com.koopwallet.app
+- _iphone/com.mutinywallet.mutiny
+- _iphone/com.tratao.xpocket
+- _android/com.risingcoin.android
+2025-01-09:
+- _android/capital.spatium.wallet
+- _android/com.blockcurators.coinkit
+- _android/com.cryppter.app.release
+- _android/com.gateio.lite
+2025-01-15:
+- _android/com.actoz.actpass
+- _android/com.add_mobile
+- _android/com.afripayx.app
+- _android/com.bitfyapp
+- _android/com.capitual
+- _android/com.club.sbgame
+- _android/com.coinb9.app
+- _android/com.coinzix.android
+- _android/com.exchangernet
+- _android/com.harungoker.bitcrypto
+- _android/com.hashkey.me.google
+- _android/com.isunoneapp
+- _android/com.kodexpaywallet
+- _android/com.platinx.exchange.flutter_platinx_exchange
+- _android/com.prostocash.android_prostocash
+- _android/io.changex.app
+- _android/singular.defi.app
+- _android/www.satoshibot.org
+- _iphone/com.defiato
+- _iphone/com.tomyaapp.ios
+- _iphone/in.cryptoforce.cfx
+- _iphone/io.sylo.dapp
+- _iphone/net.vite.wallet

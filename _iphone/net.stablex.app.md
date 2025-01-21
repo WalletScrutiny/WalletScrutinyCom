@@ -11,7 +11,7 @@ released: 2021-10-26
 updated: 2024-11-06
 version: 2.5.30
 stars: 3.5
-reviews: 50
+reviews: 52
 size: '52058112'
 website: https://stablex.com.tr
 repository: 
@@ -29,7 +29,7 @@ social:
 - https://www.youtube.com/channel/UC261DPjgdgZcP9PgoKrGc7A
 - https://www.linkedin.com/company/stablex-net
 features: 
-developerName: STABLEX BILISIM TEKNOLOJI ANONIM SIRKETI
+developerName: STABLEX KRIPTO VARLIK ALIM SATIM PLATFORMU ANONIM SIRKETI
 
 ---
 

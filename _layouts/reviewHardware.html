@@ -37,12 +37,14 @@ layout: default
           </h1>
 
           {% if page.version %}
-          <div title="Latest Release: {{ page.version }} - {{ page.updated | date_to_long_string: 'ordinal' }}" class="secondary-text">
+          <div title="Latest Release: {{ page.version }}{% if page.updated %} - {{ page.updated | date_to_long_string: 'ordinal' }}{% endif %}" class="secondary-text">
               Latest Release: 
               {{ page.version }}
+              {% if page.updated %}
                 <span class="calculate-time-elapsed label-lower brackets" data="{{ page.updated | date: '%s' }}">
-              {{ page.updated | date_to_long_string: "ordinal" }}
-            </span>
+                {{ page.updated | date_to_long_string: "ordinal" }}
+                </span>
+              {% endif %}
           </div>
           {% endif %}
         </div>
@@ -66,11 +68,13 @@ layout: default
           <div class="label active" data-for="social-share" data-text="Share" data-suffix="on social media"></div>
           <div class="label" data-for="embed-widget" data-text="Embed" data-suffix="a widget on your website"></div>
           <div class="label" data-for="embed-image" data-text="Embed" data-suffix="an image on your website"></div>
+          {% include_cached embed_pill_title.html verdict=page.verdict meta=page.meta %}
         </div>
         <div class="payloads">
           <div class="social-share active" style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">{% include shareButton.html defaultMessage=defaultMessage showRawButtons=true %}</div>
           <div class="embed-widget">{% include embed_widget.html %}</div>
           <div class="embed-image">{% include embed_image.html %}</div>
+          {% include embed_pill_content.html verdict=page.verdict %}
         </div>
       </div>
       {% endif %}

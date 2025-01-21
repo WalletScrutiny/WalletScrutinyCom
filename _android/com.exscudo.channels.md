@@ -8,8 +8,8 @@ users: 100000
 appId: com.exscudo.channels
 appCountry: ru
 released: 2018-05-17
-updated: 2024-10-04
-version: 3.19.2509
+updated: 2024-12-19
+version: 3.20.2579
 stars: 4.1
 ratings: 659
 reviews: 50

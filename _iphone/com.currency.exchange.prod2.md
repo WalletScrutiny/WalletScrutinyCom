@@ -1,6 +1,6 @@
 ---
 wsId: dzengi
-title: Crypto Exchange - Dzengi.com
+title: Dzengi.com - Crypto Exchange
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.currency.exchange.prod2
 appCountry: by
 idd: 1458917114
 released: 2019-04-23
-updated: 2024-11-12
-version: 1.42.10
+updated: 2024-12-24
+version: 1.42.11
 stars: 4.8
-reviews: 3887
-size: '89204736'
+reviews: 3963
+size: '89083904'
 website: https://currency.com/
 repository: 
 issue: 

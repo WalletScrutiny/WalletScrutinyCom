@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: io.rubix.exchange.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2024-10-05
+date: 2024-12-08
 signer: 
 reviewArchive: 
 twitter: 

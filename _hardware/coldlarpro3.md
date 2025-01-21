@@ -18,15 +18,15 @@ provider: ColdLar Information Technology Co.
 providerWebsite: https://www.coldlar.com/
 website: 
 shop: https://www.coldlar.com/productDetails/10062
-country: CH
+country: CN
 price: 620USD
 repository: 
 issue: 
 icon: coldlarpro3.png
 bugbounty: 
-meta: ok
+meta: discontinued
 verdict: nosource
-date: 2021-11-26
+date: 2024-12-08
 signer: 
 reviewArchive: 
 twitter: Coldlar
@@ -34,6 +34,8 @@ social:
 features: 
 
 ---
+
+**Update 2024-12-08:** The shop link now is redirecting to the website where a new version of the product is advertised. We do not know if users can still get updates for this product but it is clearly discontinued.
 
 ## Updated Review 2022-11-26
 

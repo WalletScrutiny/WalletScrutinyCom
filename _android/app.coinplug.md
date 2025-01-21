@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: CoinPlug NG
+developerName: CoinPlug Digitals LTD
 features: 
 
 ---

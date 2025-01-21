@@ -12,16 +12,16 @@ updated: 2023-12-06
 version: V3.54
 stars: 4.1
 ratings: 
-reviews: 6380
+reviews: 6379
 size: 
 website: https://safemoon.com
 repository: 
 issue: 
 icon: net.safemoon.androidwallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2023-02-13
+date: 2024-12-04
 signer: 
 reviewArchive: 
 twitter: safemoon

@@ -11,7 +11,7 @@ released: 2023-01-03
 updated: 2024-11-27
 version: 6.0.0
 stars: 4.9
-reviews: 82
+reviews: 75
 size: '55626752'
 website: https://saakuru.com/app
 repository: 

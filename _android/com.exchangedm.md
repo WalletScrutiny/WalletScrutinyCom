@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.exchangedm.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2024-08-13
+date: 2024-12-15
 signer: 
 reviewArchive: 
 twitter: dmdigitalmoney

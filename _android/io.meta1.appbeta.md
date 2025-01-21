@@ -19,9 +19,9 @@ repository: https://github.com/META-1-Official/litewallet-native
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/500
 icon: io.meta1.appbeta.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2024-06-26
+date: 2025-01-09
 signer: 
 reviewArchive: 
 twitter: META1Coin

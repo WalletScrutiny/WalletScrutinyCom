@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: mudra.exchange.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2024-09-03
+date: 2024-12-08
 signer: 
 reviewArchive: 
 twitter: mudraex

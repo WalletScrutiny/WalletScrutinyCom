@@ -1,18 +1,18 @@
 ---
 wsId: 
-title: Buy & Trade Crypto - Trendo X
+title: 'Trendox: Crypto Trading App'
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.trendox.android
 appCountry: 
 released: 2022-01-02
-updated: 2024-11-25
-version: 3.8.25_googleplay
+updated: 2025-01-14
+version: 3.9.25_googleplay
 stars: 4.8
 ratings: 
-reviews: 62
+reviews: 70
 size: 
 website: https://fxtrendo.com
 repository: 

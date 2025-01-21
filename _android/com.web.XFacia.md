@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.web.XFacia.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-12-16
+date: 2024-12-15
 signer: 
 reviewArchive: 
 twitter: XfaciaXchange

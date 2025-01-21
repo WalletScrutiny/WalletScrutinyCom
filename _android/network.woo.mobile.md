@@ -8,8 +8,8 @@ users: 50000
 appId: network.woo.mobile
 appCountry: 
 released: 2021-12-17
-updated: 2024-11-22
-version: 3.42.0
+updated: 2025-01-10
+version: 3.46.1
 stars: 3.8
 ratings: 
 reviews: 11
@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/WOOnetwork.official
 - https://www.linkedin.com/company/woonetwork/
 redirect_from: 
-developerName: Wootech Limited
+developerName: WOOTECH Limited
 features: 
 
 ---

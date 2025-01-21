@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.tatspaceapp.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-04-12
+date: 2025-01-06
 signer: 
 reviewArchive: 
 twitter: tatspaceapp

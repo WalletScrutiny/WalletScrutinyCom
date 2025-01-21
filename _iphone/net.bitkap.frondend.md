@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: net.bitkap.frondend.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2024-10-08
+date: 2024-12-04
 signer: 
 reviewArchive: 
 twitter: BitkapO

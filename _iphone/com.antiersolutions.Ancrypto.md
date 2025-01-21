@@ -1,6 +1,6 @@
 ---
 wsId: ancryptoWallet
-title: Ancrypto
+title: Gems Pocket
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,12 @@ appId: com.antiersolutions.Ancrypto
 appCountry: in
 idd: '1660898349'
 released: 2023-03-24
-updated: 2024-04-26
-version: '32'
+updated: 2025-01-09
+version: '39'
 stars: 4.5
 reviews: 19
-size: '147074048'
-website: https://www.ancrypto.io/
+size: '93241344'
+website: https://gemspocket.com
 repository: 
 issue: 
 icon: com.antiersolutions.Ancrypto.jpg

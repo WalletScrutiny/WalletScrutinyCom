@@ -8,8 +8,8 @@ users: 10000
 appId: com.everdreamsoft.casatookan
 appCountry: 
 released: 2018-09-19
-updated: 2023-11-13
-version: 1.2.1
+updated: 2024-12-10
+version: 1.2.2
 stars: 3.4
 ratings: 
 reviews: 6
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.everdreamsoft.casatookan.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nosource
-date: 2024-11-07
+date: 2024-12-15
 signer: 
 reviewArchive: 
 twitter: everdreamsoft

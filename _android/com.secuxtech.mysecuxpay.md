@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.secuxtech.mysecuxpay.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
-date: 2023-09-22
+date: 2024-12-15
 signer: 
 reviewArchive: 
 twitter: 

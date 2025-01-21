@@ -12,8 +12,8 @@ idd: 899478936
 released: 2014-07-25
 updated: 2024-06-13
 version: 2.1.4
-stars: 3.2
-reviews: 59
+stars: 3.1
+reviews: 60
 size: '14578688'
 website: https://bither.net
 repository: https://github.com/bither/bither-ios
@@ -22,9 +22,15 @@ icon: net.bither.jpg
 bugbounty: 
 meta: ok
 verdict: obfuscated
+appHashes: []
 date: 2024-10-09
-signer: 
-reviewArchive: 
+signer:
+reviewArchive:
+- date: 2024-10-09
+  version: 2.1.4
+  appHashes: []
+  gitRevision: c6c91a04460f39a7c97dd54aa997ad3ff88ec3e1
+  verdict: obfuscated 
 twitter: 
 social: 
 features: 

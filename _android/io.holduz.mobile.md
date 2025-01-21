@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: io.holduz.mobile.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
-date: 2023-08-17
+date: 2024-12-23
 signer: 
 reviewArchive: 
 twitter: holduz_io

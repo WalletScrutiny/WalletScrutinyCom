@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.privateum.wallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nobtc
-date: 2024-02-24
+date: 2024-12-23
 signer: 
 reviewArchive: 
 twitter: privateumglobal

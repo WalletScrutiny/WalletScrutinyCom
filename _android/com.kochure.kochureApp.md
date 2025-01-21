@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/KochureGlobal
 - https://www.instagram.com/kochureglobal
 redirect_from: 
-developerName: Kochure Technologies
+developerName: Kochure Technologies Limited
 features: 
 
 ---

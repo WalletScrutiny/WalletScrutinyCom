@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.satpile.app.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
-date: 2023-12-16
+date: 2024-12-15
 signer: 
 reviewArchive: 
 twitter: satpile

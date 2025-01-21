@@ -8,11 +8,11 @@ users: 500000
 appId: com.wallet.crypto.btc.eth
 appCountry: 
 released: 2023-09-06
-updated: 2024-11-15
-version: 1.3.6
+updated: 2024-12-28
+version: 1.4.5
 stars: 4.5
 ratings: 
-reviews: 23
+reviews: 30
 size: 
 website: https://ironwallet.io/
 repository: https://github.com/Ironwallet/IronWallet

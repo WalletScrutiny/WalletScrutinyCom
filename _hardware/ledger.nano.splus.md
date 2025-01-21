@@ -25,7 +25,7 @@ icon: ledger.nano.splus.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2022-05-17
+date: 2024-12-08
 signer: 
 reviewArchive: 
 twitter: Ledger
@@ -40,7 +40,9 @@ features:
 
 ---
 
-## Background 
+**Update 2024-12-08:** Ledger has not changed their take on source availability.
+
+## Background
 
 The Ledger Nano S Plus is a new iteration of the {% include walletLink.html wallet='hardware/ledgerNanoS' verdict='true' %}
 

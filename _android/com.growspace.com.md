@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.growspace.com.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nowallet
-date: 2023-12-16
+date: 2025-01-09
 signer: 
 reviewArchive: 
 twitter: 

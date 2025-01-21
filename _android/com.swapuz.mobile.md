@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.swapuz.mobile.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2024-08-26
+date: 2024-12-15
 signer: 
 reviewArchive: 
 twitter: 

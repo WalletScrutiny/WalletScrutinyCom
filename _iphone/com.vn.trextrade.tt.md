@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.vn.trextrade.tt.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosendreceive
-date: 2024-09-07
+date: 2024-12-31
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.swappy.autocrypto.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2024-05-24
+date: 2024-12-15
 signer: 
 reviewArchive: 
 twitter: 

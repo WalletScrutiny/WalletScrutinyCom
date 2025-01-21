@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: org.tronspace.android.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-12-31
+date: 2024-12-27
 signer: 
 reviewArchive: 
 twitter: Kointrack_tech

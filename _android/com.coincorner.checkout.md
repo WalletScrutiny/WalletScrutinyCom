@@ -4,7 +4,7 @@ title: CoinCorner - Checkout
 altTitle: 
 authors:
 - danny
-users: 100
+users: 500
 appId: com.coincorner.checkout
 appCountry: 
 released: 2022-09-29

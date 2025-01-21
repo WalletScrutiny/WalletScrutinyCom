@@ -21,13 +21,14 @@ icon: zapsolutions.zap.png
 bugbounty: 
 meta: removed
 verdict: reproducible
+appHashes: []
 date: 2023-12-19
 signer: 
 reviewArchive:
 - date: 2022-03-24
   version: 0.5.6-beta
   appHash: cdb21de8cc9fd0268a13ddacbc4bc5e453396808e0c764cacaccc8087af29d39
-  gitRevision: acffc0ec81320d08c2bd4686991f0d2fa1a26a45
+  gitRevision: 278f7d3c8c17060bf833c7329738f44cd4af4d5d
   verdict: reproducible
 - date: 2022-02-17
   version: 0.5.5-beta

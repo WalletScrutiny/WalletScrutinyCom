@@ -20,9 +20,9 @@ repository:
 issue: 
 icon: com.ptpwallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2024-07-15
+date: 2024-12-15
 signer: 
 reviewArchive:
 - date: 2020-12-06

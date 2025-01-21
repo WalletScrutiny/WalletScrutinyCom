@@ -12,7 +12,7 @@ updated: 2023-07-11
 version: 4.1.6
 stars: 3.8
 ratings: 6388
-reviews: 252
+reviews: 255
 size: 
 website: https://lumiwallet.com
 repository: 
@@ -30,7 +30,7 @@ social:
 redirect_from:
 - /com.lumiwallet.android/
 - /posts/com.lumiwallet.android/
-developerName: NO ONE FZCO
+developerName: Raias Llc
 features: 
 
 ---

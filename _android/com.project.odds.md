@@ -18,9 +18,9 @@ repository:
 issue: 
 icon: com.project.odds.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-05-21
+date: 2025-01-15
 signer: 
 reviewArchive: 
 twitter: 

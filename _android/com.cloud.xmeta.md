@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.cloud.xmeta.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2023-12-16
+date: 2024-12-08
 signer: 
 reviewArchive: 
 twitter: XMetaOfficial

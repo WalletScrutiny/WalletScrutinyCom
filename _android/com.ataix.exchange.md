@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.ataix.exchange.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2024-05-30
+date: 2024-12-23
 signer: 
 reviewArchive: 
 twitter: ATAIXcom

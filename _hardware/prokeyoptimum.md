@@ -27,8 +27,9 @@ icon: prokeyoptimum.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
+appHashes: []
 date: 2024-10-18
-signer: 
+signer:
 reviewArchive: 
 twitter: tryProkey
 social:

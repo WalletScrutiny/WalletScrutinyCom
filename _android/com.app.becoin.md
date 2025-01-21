@@ -3,7 +3,7 @@ wsId:
 title: Becoin
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: com.app.becoin
 appCountry: 
 released: 2022-10-01

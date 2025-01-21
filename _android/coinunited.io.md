@@ -8,11 +8,11 @@ users: 10000
 appId: coinunited.io
 appCountry: cn
 released: 2021-04-30
-updated: 2024-11-28
-version: 5.0.3
-stars: 3.5
+updated: 2025-01-12
+version: 5.0.8
+stars: 3.4
 ratings: 151
-reviews: 207
+reviews: 225
 size: 
 website: https://coinunited.io/
 repository: 

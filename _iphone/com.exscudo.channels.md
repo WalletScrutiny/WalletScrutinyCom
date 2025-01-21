@@ -12,7 +12,7 @@ released: 2018-05-16
 updated: 2024-11-19
 version: 3.17.0
 stars: 4.6
-reviews: 56
+reviews: 55
 size: '173056000'
 website: https://fintap.app/
 repository: 

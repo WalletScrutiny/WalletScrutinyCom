@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.uscreen.videotrading.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
-date: 2024-09-02
+date: 2024-12-15
 signer: 
 reviewArchive: 
 twitter: 

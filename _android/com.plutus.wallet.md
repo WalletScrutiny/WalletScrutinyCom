@@ -10,7 +10,7 @@ appCountry:
 released: 2015-03-04
 updated: 2024-01-12
 version: '146.0'
-stars: 3.5
+stars: 3.4
 ratings: 44411
 reviews: 2899
 size: 
@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.plutus.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2020-10-12
+date: 2025-01-06
 signer: 
 reviewArchive: 
 twitter: AbraGlobal

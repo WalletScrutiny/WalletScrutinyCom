@@ -10,9 +10,9 @@ appCountry:
 released: 2022-06-30
 updated: 2024-03-08
 version: 1.0.6
-stars: 2.3
+stars: 2.2
 ratings: 
-reviews: 6
+reviews: 7
 size: 
 website: https://tidex.com
 repository: 

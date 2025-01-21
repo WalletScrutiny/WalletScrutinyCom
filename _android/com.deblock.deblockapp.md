@@ -1,6 +1,6 @@
 ---
 wsId: deblock
-title: Deblock - Application bancaire
+title: Deblock - Banking app
 altTitle: 
 authors:
 - danny
@@ -8,9 +8,9 @@ users: 100000
 appId: com.deblock.deblockapp
 appCountry: 
 released: 
-updated: 2024-11-28
-version: 1.2.31
-stars: 5
+updated: 2025-01-08
+version: 2.0.10
+stars: 4.7
 ratings: 
 reviews: 7
 size: 

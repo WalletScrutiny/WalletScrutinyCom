@@ -19,9 +19,9 @@ repository:
 issue: 
 icon: com.bitpreco.bitprecoAppAndroid.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2023-12-21
+date: 2024-12-16
 signer: 
 reviewArchive: 
 twitter: BitPreco

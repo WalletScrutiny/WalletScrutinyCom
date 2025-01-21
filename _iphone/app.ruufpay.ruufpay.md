@@ -10,7 +10,7 @@ idd: '1557726087'
 released: 2022-06-07
 updated: 2023-07-01
 version: 2.1.0
-stars: 4.6
+stars: 4.8
 reviews: 21
 size: '70030336'
 website: 

@@ -7,11 +7,11 @@ users: 100000
 appId: com.bitcoin.merchant.app
 appCountry: 
 released: 2019-04-13
-updated: 2024-05-20
-version: 5.4.1
+updated: 2024-12-28
+version: 5.4.2
 stars: 4.2
 ratings: 504
-reviews: 33
+reviews: 35
 size: 
 website: https://www.bitcoin.com/bitcoin-cash-register
 repository: 
