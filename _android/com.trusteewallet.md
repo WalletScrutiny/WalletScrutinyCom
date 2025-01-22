@@ -22,9 +22,9 @@ issue: https://github.com/trustee-wallet/trusteeWallet/issues/180
 icon: com.trusteewallet.png
 bugbounty: 
 meta: ok
-verdict: nosource
+verdict: wip
 appHashes: []
-date: 2024-08-01
+date: 2025-01-22
 signer:
 reviewArchive:
 - date: 2023-10-03
@@ -52,6 +52,10 @@ developerName: BlockSoft Lab
 features: 
 
 ---
+
+## Update 2025-01-22
+
+Version 1.51.10 is now available on Google Play as well as in their release section. This should be re-tested and is **for verification**.
 
 ### Update 2024-08-01:
 
