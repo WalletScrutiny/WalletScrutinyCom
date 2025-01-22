@@ -6,28 +6,27 @@
   {% endif %}
   <div class="title">
     <h3>Application build</h3>
-    <p>
-      {% assign v=site.data.verdicts[page.verdict] %}
-      {{ v.message }}
-      {% if page.issue %}
-       <br><a href="{{page.issue}}">See the last Issue we created</a>.
-      {% endif %}
-    </p>
-    <a class="legacyInfo" href="#result">*** See test result ***</a>
 
-    <!-- Nostr Attestations -->
     {% if page.repository %}
-      {% include getOldInfo.md %}
+      <p>
+        {% if page.issue %}
+          <br><a href="{{page.issue}}">See the last Issue we created</a>.
+        {% endif %}
+      </p>
+      <a class="legacyInfo" href="#result">See test result</a>
+      <script>const pageVerdict = '{{page.verdict}}'</script>
 
       <div id="appsTable"></div>
 
-      {% if page.verdict == 'reproducible' %}
-        <p>No legacy binaries</p>
-      {% elsif page.verdict == 'wip' %}
-        <p>Nobody tried to build this applition to check if it's reproducible. Do you like to be the first? Drop the binary file there to create the asset automatically (preferred), or click the button below to create the asset manually.</p>
-      {% elsif page.verdict == 'nonverifiable' %}
-        <p>Nobody could reproduce this applition successfully. Do you like to try? Drop the binary file there to create the asset automatically (preferred), or click the button below to create the asset manually.</p>
-      {% endif %}
+      {% include getOldInfo.md %}
+
+      <p>If there is a binary for <b>a version that is not tested yet</b>, you can drop the file here to register it so somebody can verify it:</p>
+      <div style="margin-top: 1em; margin-bottom: 1em; margin-left: 0;">
+        {% include /attestations/dragAndDropArea.html buttonMessage="Drop binary file to verify" %}
+      </div>
+
+      <p id="attestationMessage"></p>
+
       <div style="margin-top: 4px; display: none;" id="createAttestationButton">
         <a href="/new_asset/?appId={{page.appId}}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">Try to reproduce</a>
       </div>
@@ -50,10 +49,29 @@
           if (!attestationsInfo.hasBinaries && !attestationsInfo.hasLegacyBinaries) {
             document.getElementById('appsTable').style.display = 'none';
             document.getElementById('createAttestationButton').style.display = 'block';
-            
+          }
+
+          if (!attestationsInfo.hasBinaries && attestationsInfo.hasLegacyBinaries) {
+            if (pageVerdict === 'reproducible') {
+              document.getElementById('attestationMessage').innerHTML = "This application is reproducible. You can create an asset for a newer version so somebody can verify it.";
+            } else if (pageVerdict === 'nonverifiable') {
+              document.getElementById('attestationMessage').innerHTML = "Nobody could reproduce this applition successfully. Do you like to try? Drop the binary file there to create the asset automatically (preferred), or click the button below to create the asset manually.";
+            } else if (pageVerdict === 'wip') {
+              document.getElementById('attestationMessage').innerHTML = "Nobody tried to build this applition to check if it's reproducible. Do you like to be the first? Drop the binary file there to create the asset automatically (preferred), or click the button below to create the asset manually.";
+            } else if (pageVerdict === 'fewusers') {
+              document.getElementById('attestationMessage').innerHTML = "Nobody could reproduce this applition successfully. Do you like to try? Drop the binary file there to create the asset automatically (preferred), or click the button below to create the asset manually.";
+            }
+          }
+
+          if (!attestationsInfo.hasBinaries) {
+            document.querySelector('.legacyInfo').style.display = 'block';
+          } else {
+            document.querySelector('.legacyInfo').style.display = 'none';
           }
         };
       </script>
+    {% else %}
+      <small>Build cannot be done because there is no public repository with the source code.</small>
     {% endif %}
   </div>
 </div>
