@@ -116,6 +116,14 @@ table {
   text-decoration: underline;
 }
 
+.attestation-status {
+  color: var(--accent-text);
+  
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 /* Attestation Modal */
 #attestationModal {
   display: none;
