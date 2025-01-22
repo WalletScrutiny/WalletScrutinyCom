@@ -1,7 +1,7 @@
 <!-- Drag-and-Drop-Area Start -->
 <div id="drop-area">
     <form class="my-form">
-        <span class="drop-text">Drop file to verify</span>
+        <span class="drop-text">{{ include.buttonMessage | default: 'Drop file to verify' }}</span>
         <input type="file" id="fileElem" style="display: none;" />
         <div id="select" class="hover-mode">
         <br />
