@@ -14,7 +14,7 @@ stars: 4.4
 ratings: 2353
 reviews: 129
 size: 18M
-website: http://btccryptonetwork.com/
+website: https://web.archive.org/web/20211128085902/http://btccryptonetwork.com/
 repository: 
 issue: 
 icon: com.cryptominer.btc.miner.crypto.clouds.mining.png

@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: BCmint Trophy and Medal
 providerWebsite: https://bcmint.com/
-website: https://bcmint.com/products/2020-a
+website: https://walletscrutiny.com/brokenlink/https://bcmint.com/products/2020-a
 shop: 
 country: PH
 price: 24USD

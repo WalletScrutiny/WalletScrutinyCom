@@ -14,7 +14,7 @@ stars: 3.2
 ratings: 777
 reviews: 17
 size: 25M
-website: https://www.biki.com
+website: https://walletscrutiny.com/brokenlink/https://biki.com:80/
 repository: 
 issue: 
 icon: com.biki.bikicoin.png
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: BiKiEnglish
 social:
-- https://www.facebook.com/bikiexchange
+- https://web.archive.org/web/20230306182317/https://www.facebook.com/bikiexchange
 - https://www.reddit.com/r/BiKi
 redirect_from: 
 developerName: 

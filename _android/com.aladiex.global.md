@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://aladiex.com
+website: https://web.archive.org/web/20210617233836/https://aladiex.com/
 repository: 
 issue: 
 icon: com.aladiex.global.png

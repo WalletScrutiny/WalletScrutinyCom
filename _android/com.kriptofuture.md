@@ -14,7 +14,7 @@ stars: 2.5
 ratings: 183
 reviews: 9
 size: 
-website: https://kriptofuture.com
+website: https://web.archive.org/web/20210730044116/https://kriptofuture.com/
 repository: 
 issue: 
 icon: com.kriptofuture.png
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/Kriptofuture
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/Kriptofuture
 redirect_from: 
 developerName: KriptoFuture Mobile
 features: 

@@ -13,7 +13,7 @@ stars: 2.9
 ratings: 366
 reviews: 9
 size: 
-website: http://bbctoken.app
+website: https://walletscrutiny.com/brokenlink/https://bbctoken.app:80/
 repository: 
 issue: 
 icon: com.bbctoken.png

@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: trustwalletapp
 social:
-- https://www.facebook.com/trustwalletapp
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/trustwalletapp
 - https://www.reddit.com/r/trustapp
 redirect_from:
 - /trust/

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://worldshare.network
+website: https://walletscrutiny.com/brokenlink/https://worldshare.network
 repository: 
 issue: 
 icon: network.worldshare.safewallet.png

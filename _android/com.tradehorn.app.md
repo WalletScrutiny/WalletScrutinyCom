@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://tradehorn.com/
+website: https://walletscrutiny.com/brokenlink/https://www.tradehorn.com/
 repository: 
 issue: 
 icon: com.tradehorn.app.png

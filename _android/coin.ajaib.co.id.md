@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 
 reviews: 23
 size: 
-website: https://kripto.ajaib.co.id/
+website: https://web.archive.org/web/20240921090203/https://kripto.ajaib.co.id/
 repository: 
 issue: 
 icon: coin.ajaib.co.id.png

@@ -14,7 +14,7 @@ stars: 4.4
 ratings: 
 reviews: 5
 size: 
-website: https://coinkit.de
+website: https://web.archive.org/web/20200501224140/https://coinkit.de/
 repository: 
 issue: 
 icon: com.blockcurators.coinkit.png

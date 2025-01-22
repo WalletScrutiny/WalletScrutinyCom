@@ -14,7 +14,7 @@ stars: 4.2
 ratings: 
 reviews: 
 size: 
-website: https://www.bitmake.com
+website: https://walletscrutiny.com/brokenlink/https://www.bitmake.com/
 repository: 
 issue: 
 icon: com.bitmake.app.png
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: BitMakeOfficial
 social:
 - https://www.linkedin.com/company/bitmakeofficial
-- https://www.youtube.com/@BitMakeOfficial
+- https://walletscrutiny.com/brokenlink/https://www.youtube.com/@BitMakeOfficial
 - https://discord.com/invite/7Bh7wpyGMk
 - https://www.instagram.com/bitmakeexchange
 - https://www.facebook.com/BitMakeExchange

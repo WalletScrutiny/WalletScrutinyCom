@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 
 reviews: 30
 size: 
-website: https://www.chain-bridge.io
+website: https://web.archive.org/web/20220411021936/https://www.chain-bridge.io/
 repository: 
 issue: 
 icon: io.chainbridge.wallet.png

@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: tradewithpilot
 social:
-- https://www.facebook.com/tradewithpilot
+- https://web.archive.org/web/20220326093721/https://www.facebook.com/tradewithpilot
 redirect_from: 
 developerName: QuantGate Systems Inc.
 features: 

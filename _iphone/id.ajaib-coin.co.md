@@ -13,7 +13,7 @@ version: 2.64.0
 stars: 4.2
 reviews: 2001
 size: '155584512'
-website: https://alpha.ajaib.co.id/
+website: https://walletscrutiny.com/brokenlink/https://alpha.ajaib.co.id/
 repository: 
 issue: 
 icon: id.ajaib-coin.co.jpg

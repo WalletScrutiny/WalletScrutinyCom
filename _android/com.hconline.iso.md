@@ -14,7 +14,7 @@ stars: 4.1
 ratings: 19
 reviews: 4
 size: 
-website: https://www.starteos.io
+website: https://web.archive.org/web/20201101044852/https://starteos.io/
 repository: 
 issue: 
 icon: com.hconline.iso.png

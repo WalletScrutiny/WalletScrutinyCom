@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.coinviva.com
+website: https://web.archive.org/web/20180808162252/http://coinviva.com/
 repository: 
 issue: 
 icon: io.fchain.coinviva.png

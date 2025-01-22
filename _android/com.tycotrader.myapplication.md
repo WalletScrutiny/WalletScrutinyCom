@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://tycotrader.com
+website: https://web.archive.org/web/20180807232337/http://tycotrader.com/
 repository: 
 issue: 
 icon: com.tycotrader.myapplication.png

@@ -14,7 +14,7 @@ stars: 4.7
 ratings: 
 reviews: 7
 size: 
-website: https://deblock.com/
+website: https://web.archive.org/web/20050205002801/http://www.deblock.com:80/
 repository: 
 issue: 
 icon: com.deblock.deblockapp.png

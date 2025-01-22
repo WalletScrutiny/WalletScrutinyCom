@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.bitlifi.com
+website: https://bitlifi.com/
 repository: 
 issue: 
 icon: com.bitlifi.app.png

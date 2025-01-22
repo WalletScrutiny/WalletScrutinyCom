@@ -14,7 +14,7 @@ stars: 2.6
 ratings: 
 reviews: 4
 size: 
-website: https://kitefinancial.io
+website: https://web.archive.org/web/20210617232251/https://kitefinancial.io/
 repository: 
 issue: 
 icon: io.kitefinancial.wallet.png

@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bitneuro.io
+website: https://walletscrutiny.com/brokenlink/https://bitneuro.io/
 repository: 
 issue: 
 icon: com.app.bitneuro.png

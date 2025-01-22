@@ -27,11 +27,11 @@ signer:
 reviewArchive: 
 twitter: LiskHQ
 social:
-- https://www.linkedin.com/company/lisk
-- https://www.facebook.com/LiskHQ
-- https://www.youtube.com/channel/UCuqpGfg_bOQ8Ja4pj811PWg
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/lisk
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/LiskHQ
+- https://walletscrutiny.com/brokenlink/https://www.youtube.com/channel/UCuqpGfg_bOQ8Ja4pj811PWg
 - https://t.me/Lisk_HQ
-- https://www.instagram.com/lisk_blockchain
+- https://walletscrutiny.com/brokenlink/https://www.instagram.com/lisk_blockchain
 redirect_from: 
 developerName: Lisk Limited
 features: 

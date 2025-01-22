@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.dalongpay.com
+website: https://walletscrutiny.com/brokenlink/https://www.dalongpay.com
 repository: 
 issue: 
 icon: com.dalongpay.dalongpay.png

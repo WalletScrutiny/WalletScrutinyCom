@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: ZT_exchange
 social:
-- https://www.facebook.com/ZT.exchange
+- https://web.archive.org/web/20220326123551/https://www.facebook.com/ZT.exchange
 - https://www.reddit.com/r/ZTExchange
 - https://discord.com/invite/nwuJKCPqtw
 - https://www.youtube.com/channel/UCLj7xDvMhPS-VxZiof3PzOw

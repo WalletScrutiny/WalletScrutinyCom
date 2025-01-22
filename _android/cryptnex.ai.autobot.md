@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.cryptnex.ai
+website: https://walletscrutiny.com/brokenlink/https://www.cryptnex.ai
 repository: 
 issue: 
 icon: cryptnex.ai.autobot.png

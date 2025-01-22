@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.orbitex.space
+website: https://web.archive.org/web/20241126061832/https://orbitex.space/
 repository: 
 issue: 
 icon: com.exchange.orbitex.png

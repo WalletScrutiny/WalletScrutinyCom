@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.libertas-fund.com/
+website: https://web.archive.org/web/20241205023506/http://libertas-fund.com/
 repository: 
 issue: 
 icon: com.libertasfund.exchange.png

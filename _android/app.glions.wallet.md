@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://glions.io/
+website: https://walletscrutiny.com/brokenlink/https://glions.io/
 repository: 
 issue: 
 icon: app.glions.wallet.png

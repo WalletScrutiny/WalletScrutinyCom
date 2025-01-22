@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.coinx.pro/index
+website: https://walletscrutiny.com/brokenlink/https://www.coinx.pro/index
 repository: 
 issue: 
 icon: pro.coinx.app.png

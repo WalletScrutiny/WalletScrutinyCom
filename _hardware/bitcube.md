@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: BitCube
 providerWebsite: 
-website: https://www.bitcubewallet.com/
+website: https://walletscrutiny.com/brokenlink/https://www.bitcubewallet.com/
 shop: >-
   https://www.indiegogo.com/projects/bitcube-the-most-secure-convenient-bitcoin-wallet/coming_soon
 country: CN
@@ -28,7 +28,7 @@ signer:
 reviewArchive: 
 twitter: BitCubeWallet
 social:
-- https://www.facebook.com/bitcubewallet
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/bitcubewallet
 - https://www.youtube.com/channel/UCLF5Z0YlRoYq_9NdNe9J8Yw
 features: 
 

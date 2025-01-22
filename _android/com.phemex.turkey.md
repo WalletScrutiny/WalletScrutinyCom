@@ -14,7 +14,7 @@ stars: 3.6
 ratings: 
 reviews: 1
 size: 
-website: https://phemex.com.tr/
+website: https://walletscrutiny.com/brokenlink/https://phemex.com.tr/
 repository: 
 issue: 
 icon: com.phemex.turkey.png

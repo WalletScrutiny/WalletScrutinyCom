@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.viv.com/
+website: https://viv.com:80/
 repository: 
 issue: 
 icon: com.uecent.viv.png

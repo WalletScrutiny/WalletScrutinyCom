@@ -13,7 +13,7 @@ version: 1.9.6
 stars: 4
 reviews: 162
 size: 80605184
-website: https://www.coin.cloud/app
+website: https://web.archive.org/web/20220525010931/https://www.coin.cloud/app
 repository: 
 issue: 
 icon: com.bitpay.coincloud.jpg
@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: CoinCloudATM
 social:
-- https://www.facebook.com/coincloudATM
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/coincloudATM
 features: 
 developerName: 
 

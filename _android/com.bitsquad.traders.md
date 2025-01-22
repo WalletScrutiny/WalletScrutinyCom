@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.bitsquadtraders.com
+website: https://web.archive.org/web/20220504233447/https://www.bitsquadtraders.com/
 repository: 
 issue: 
 icon: com.bitsquad.traders.png

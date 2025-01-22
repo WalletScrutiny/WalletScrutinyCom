@@ -13,7 +13,7 @@ stars: 4.3
 ratings: 91
 reviews: 8
 size: 27M
-website: https://www.fcoin.com/
+website: https://walletscrutiny.com/brokenlink/https://www.fcoin.com:80/
 repository: 
 issue: 
 icon: com.fcoin.exchange.png

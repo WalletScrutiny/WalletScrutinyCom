@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://unitedbit.com/
+website: https://www.unitedbit.com:80/
 repository: 
 issue: 
 icon: com.unitedbit.app.png

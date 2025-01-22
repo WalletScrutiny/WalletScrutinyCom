@@ -13,7 +13,7 @@ stars: 4.4
 ratings: 
 reviews: 41
 size: 
-website: https://coins.app/
+website: https://web.archive.org/web/20250104090734/http://www.coins.app/
 repository: 
 issue: 
 icon: com.coinsapp.mobile.jpg

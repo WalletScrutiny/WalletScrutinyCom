@@ -13,7 +13,7 @@ stars: 2.9
 ratings: 
 reviews: 
 size: 
-website: https://rockwallet.co.za
+website: https://walletscrutiny.com/brokenlink/https://rockwallet.co.za/
 repository: 
 issue: 
 icon: za.co.rockwallet.png

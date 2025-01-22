@@ -14,7 +14,7 @@ stars: 3.5
 ratings: 
 reviews: 
 size: 
-website: https://arumtrade.com
+website: https://web.archive.org/web/20210603232535/https://www.arumtrade.com/
 repository: 
 issue: 
 icon: com.arumtrade.app.android.png

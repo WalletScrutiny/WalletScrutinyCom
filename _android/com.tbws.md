@@ -14,7 +14,7 @@ stars: 3.5
 ratings: 
 reviews: 59
 size: 
-website: https://theblackwallstreet.com
+website: https://walletscrutiny.com/brokenlink/https://theblackwallstreet.com
 repository: 
 issue: 
 icon: com.tbws.jpg

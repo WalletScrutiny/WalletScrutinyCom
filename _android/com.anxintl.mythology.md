@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.mydicewallet.com
+website: https://walletscrutiny.com/brokenlink/https://mydicewallet.com/
 repository: 
 issue: 
 icon: com.anxintl.mythology.png

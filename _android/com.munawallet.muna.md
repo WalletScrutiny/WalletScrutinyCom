@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: munawallet
 social:
-- https://www.facebook.com/munawallet
+- https://web.archive.org/web/20220914133927/https://www.facebook.com/munawallet/
 - https://www.instagram.com/munawallet/
 redirect_from: 
 developerName: Quru Lab

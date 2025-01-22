@@ -14,7 +14,7 @@ stars: 3.7
 ratings: 233
 reviews: 43
 size: 
-website: https://flarewallet.io
+website: https://web.archive.org/web/20200421031714/https://flarewallet.io/
 repository: 
 issue: 
 icon: com.flare.png

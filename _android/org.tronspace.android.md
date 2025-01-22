@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://kointrack.com
+website: https://web.archive.org/web/20220703182700/https://kointrack.com/
 repository: 
 issue: 
 icon: org.tronspace.android.png
@@ -27,8 +27,8 @@ reviewArchive:
 twitter: Kointrack_tech
 social:
 - https://www.instagram.com/kointrack
-- https://www.facebook.com/kointrack
-- https://www.youtube.com/channel/UClKPs-DFxObnqJbC1-8Fc4Q/videos
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/kointrack
+- https://walletscrutiny.com/brokenlink/https://www.youtube.com/channel/UClKPs-DFxObnqJbC1-8Fc4Q/videos
 redirect_from: 
 developerName: Kointrack Techsystems Private Limited
 features: 

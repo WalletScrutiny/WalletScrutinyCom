@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://mond.finance
+website: https://walletscrutiny.com/brokenlink/https://www.mond.finance/
 repository: 
 issue: 
 icon: mond.finance.png

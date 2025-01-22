@@ -13,7 +13,7 @@ stars: 2.7
 ratings: 
 reviews: 
 size: 
-website: https://sprint-bank.com/
+website: https://walletscrutiny.com/brokenlink/https://sprint-bank.com/
 repository: 
 issue: 
 icon: quasar.sprint.bank.app.jpg

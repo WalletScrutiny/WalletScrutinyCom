@@ -14,7 +14,7 @@ stars: 4.6
 ratings: 
 reviews: 4
 size: 
-website: http://www.lmax.com/mobile
+website: https://www.lmax.com/mobile
 repository: 
 issue: 
 icon: com.mobiletradingpartners.lmax.png

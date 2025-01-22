@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://starlabstudiosapps.xyz/
+website: https://walletscrutiny.com/brokenlink/https://starlabstudiosapps.xyz/
 repository: 
 issue: 
 icon: starlab.studios.cryptowallet.png

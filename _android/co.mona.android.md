@@ -15,7 +15,7 @@ stars: 4.5
 ratings: 281384
 reviews: 52591
 size: 
-website: https://crypto.com/
+website: https://web.archive.org/web/20220917000000/https://crypto.com/
 repository: 
 issue: 
 icon: co.mona.android.jpg

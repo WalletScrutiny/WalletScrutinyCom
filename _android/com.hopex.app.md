@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.hopex.com
+website: https://web.archive.org/web/20180324005414/http://hopex.com/
 repository: 
 issue: 
 icon: com.hopex.app.png

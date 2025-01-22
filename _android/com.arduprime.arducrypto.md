@@ -13,7 +13,7 @@ stars: 4.6
 ratings: 
 reviews: 
 size: 
-website: https://arducrypto.com
+website: https://arducrypto.com/
 repository: 
 issue: 
 icon: com.arduprime.arducrypto.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.koyn.io
+website: https://walletscrutiny.com/brokenlink/https://www.koyn.io/
 repository: 
 issue: 
 icon: io.koyn.com.jpg

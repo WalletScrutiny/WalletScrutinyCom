@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://metisbay.com
+website: https://walletscrutiny.com/brokenlink/https://metisbay.com
 repository: 
 issue: 
 icon: com.techbros.metisbay.jpg

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.shreelox.com/
+website: https://web.archive.org/web/20240502171548/https://shreelox.com/
 repository: 
 issue: 
 icon: com.arhamtechnolabs.shreelox.png

@@ -27,7 +27,7 @@ reviewArchive:
 twitter: balancenetwork_
 social:
 - https://www.linkedin.com/company/balancenetwork
-- https://www.facebook.com/BalanceNetworkOfficial
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/BalanceNetworkOfficial
 - https://balancenetwork.medium.com
 - https://www.tiktok.com/@balancenetwork_
 - https://www.reddit.com/r/BalanceNetwork

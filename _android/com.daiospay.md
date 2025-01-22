@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://daios.io/
+website: https://walletscrutiny.com/brokenlink/https://www.daios.io/
 repository: 
 issue: 
 icon: com.daiospay.png

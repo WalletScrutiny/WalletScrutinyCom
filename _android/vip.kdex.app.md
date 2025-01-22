@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://demo.kdex.vip/#/
+website: https://walletscrutiny.com/brokenlink/https://demo.kdex.vip/#/
 repository: 
 issue: 
 icon: vip.kdex.app.png

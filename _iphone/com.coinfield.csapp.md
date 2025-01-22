@@ -13,7 +13,7 @@ version: 3.1.5
 stars: 4.2
 reviews: 555
 size: '65037312'
-website: https://www.coinfield.com/company/pr
+website: https://walletscrutiny.com/brokenlink/https://www.coinfield.com/company/pr
 repository: 
 issue: 
 icon: com.coinfield.csapp.jpg

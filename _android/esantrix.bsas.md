@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://santiagocelentano.wixsite.com/esantrix
+website: https://walletscrutiny.com/brokenlink/https://santiagocelentano.wixsite.com/esantrix
 repository: 
 issue: 
 icon: esantrix.bsas.png

@@ -14,7 +14,7 @@ stars: 3.2
 ratings: 31840
 reviews: 455
 size: 
-website: http://www.hbg.com
+website: https://www.hbg.com
 repository: 
 issue: 
 icon: pro.huobi.png
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: HuobiGlobal
 social:
-- https://www.facebook.com/huobiglobalofficial
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/huobiglobalofficial
 redirect_from:
 - /pro.huobi/
 - /posts/pro.huobi/

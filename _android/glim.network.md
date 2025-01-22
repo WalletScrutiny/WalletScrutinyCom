@@ -14,7 +14,7 @@ stars: 3.8
 ratings: 
 reviews: 60
 size: 
-website: https://glimnetwork.com
+website: https://web.archive.org/web/20230410173159/https://glimnetwork.com/
 repository: 
 issue: 
 icon: glim.network.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://myeazywallet.com/
+website: https://walletscrutiny.com/brokenlink/https://myeazywallet.com/
 repository: 
 issue: 
 icon: com.application.myeazywallet.jpg

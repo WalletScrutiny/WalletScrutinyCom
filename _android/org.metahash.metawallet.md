@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://metahash.org
+website: https://metahash.org
 repository: 
 issue: 
 icon: org.metahash.metawallet.png

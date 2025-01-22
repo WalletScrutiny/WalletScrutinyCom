@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bizblocks.io
+website: https://walletscrutiny.com/brokenlink/https://bizblocks.io/
 repository: 
 issue: 
 icon: io.bizblocks.kaiserbank.png

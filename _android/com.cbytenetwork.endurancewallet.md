@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://cbyte.network
+website: https://web.archive.org/web/20230315090250/https://cbyte.network/
 repository: 
 issue: 
 icon: com.cbytenetwork.endurancewallet.png

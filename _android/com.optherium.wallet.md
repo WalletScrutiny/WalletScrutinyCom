@@ -14,7 +14,7 @@ stars: 5
 ratings: 
 reviews: 11
 size: 
-website: https://vivuspay.io
+website: https://walletscrutiny.com/brokenlink/https://vivuspay.io/
 repository: 
 issue: 
 icon: com.optherium.wallet.png

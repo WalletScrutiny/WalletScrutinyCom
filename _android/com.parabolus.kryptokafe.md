@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://kryptokafe.com/
+website: https://web.archive.org/web/20220625014442/https://kryptokafe.com/
 repository: 
 issue: 
 icon: com.parabolus.kryptokafe.jpg

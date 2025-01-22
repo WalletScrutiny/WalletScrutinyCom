@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://treasurewallet.co
+website: https://walletscrutiny.com/brokenlink/https://treasurewallet.co
 repository: 
 issue: 
 icon: com.crypto.treasure.png

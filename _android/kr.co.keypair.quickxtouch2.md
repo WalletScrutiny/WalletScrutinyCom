@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 11M
-website: http://keywalletpro.io
+website: https://walletscrutiny.com/brokenlink/https://keywalletpro.io
 repository: 
 issue: 
 icon: kr.co.keypair.quickxtouch2.png

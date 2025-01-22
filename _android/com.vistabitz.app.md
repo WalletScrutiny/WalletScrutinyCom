@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.vistabitz.com
+website: https://web.archive.org/web/20211227192340/http://vistabitz.com/
 repository: 
 issue: 
 icon: com.vistabitz.app.png

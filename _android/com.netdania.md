@@ -14,7 +14,7 @@ stars: 4.5
 ratings: 24480
 reviews: 1196
 size: 
-website: http://www.netdania.com
+website: https://www.netdania.com
 repository: 
 issue: 
 icon: com.netdania.png

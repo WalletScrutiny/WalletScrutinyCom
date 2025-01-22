@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://coinshut.africa
+website: https://walletscrutiny.com/brokenlink/https://www.coinshut.africa/
 repository: 
 issue: 
 icon: com.coinshut.coinshut.jpg

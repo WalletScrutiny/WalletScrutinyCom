@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.algowave.io
+website: https://web.archive.org/web/20210622180624/https://algowave.io/
 repository: 
 issue: 
 icon: io.algowave.algowaveapp.png

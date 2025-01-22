@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://btcintratrade.com/
+website: https://web.archive.org/web/20211128041218/http://btcintratrade.com/
 repository: 
 issue: 
 icon: com.btcintra.app.jpg

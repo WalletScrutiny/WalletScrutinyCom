@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://wallet.fmetoken.io
+website: https://web.archive.org/web/20200505085603/https://wallet.fmetoken.io/
 repository: 
 issue: 
 icon: com.fme.wallet.jpg

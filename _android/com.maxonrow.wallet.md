@@ -27,7 +27,7 @@ reviewArchive:
 twitter: maxonrow
 social:
 - https://www.linkedin.com/company/maxonrow
-- https://www.facebook.com/maxonrowblockchain
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/maxonrowblockchain
 redirect_from: 
 developerName: Maxonrow
 features: 

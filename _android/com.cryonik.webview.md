@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://cryonik.io
+website: https://walletscrutiny.com/brokenlink/https://www.cryonik.io/
 repository: 
 issue: 
 icon: com.cryonik.webview.png

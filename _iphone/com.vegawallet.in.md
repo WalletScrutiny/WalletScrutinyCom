@@ -13,7 +13,7 @@ version: '3.3'
 stars: 3.7
 reviews: 9
 size: '69789696'
-website: https://vegawallet.com
+website: https://walletscrutiny.com/brokenlink/https://vegawallet.com
 repository: 
 issue: 
 icon: com.vegawallet.in.jpg
@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: vegawallet
 social:
-- https://www.facebook.com/VegaWallet
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/VegaWallet
 features: 
 developerName: VegaWallet
 

@@ -14,7 +14,7 @@ stars: 3.1
 ratings: 
 reviews: 4
 size: 
-website: https://www.bwex.vip/
+website: https://web.archive.org/web/20221010114439/https://www.bwex.vip/
 repository: 
 issue: 
 icon: com.bw.google.jpg

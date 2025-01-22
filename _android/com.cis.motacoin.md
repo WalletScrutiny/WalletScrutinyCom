@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://mota.money/
+website: https://web.archive.org/web/20211124185436/https://mota.money/
 repository: 
 issue: 
 icon: com.cis.motacoin.png

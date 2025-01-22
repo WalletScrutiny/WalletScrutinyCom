@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.btearn.com
+website: https://walletscrutiny.com/brokenlink/https://btearn.com/
 repository: 
 issue: 
 icon: com.bitearn.png

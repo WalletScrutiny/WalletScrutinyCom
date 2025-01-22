@@ -13,7 +13,7 @@ stars: 3.3
 ratings: 
 reviews: 
 size: 
-website: https://www.gbpay.cc/et/
+website: https://web.archive.org/web/20200517084322/https://www.gbpay.cc/et/
 repository: 
 issue: 
 icon: com.gbsystems.gbpayappsafe.png

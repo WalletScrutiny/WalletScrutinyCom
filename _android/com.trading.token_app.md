@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://exchange.tradingtoken.io/
+website: https://walletscrutiny.com/brokenlink/https://exchange.tradingtoken.io/
 repository: 
 issue: 
 icon: com.trading.token_app.png

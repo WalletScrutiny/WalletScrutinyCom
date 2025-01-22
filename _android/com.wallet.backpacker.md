@@ -13,7 +13,7 @@ stars: 3.9
 ratings: 
 reviews: 
 size: 
-website: https://wallet.backpackercoin.com/
+website: https://walletscrutiny.com/brokenlink/https://wallet.backpackercoin.com/
 repository: 
 issue: 
 icon: com.wallet.backpacker.png

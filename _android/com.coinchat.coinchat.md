@@ -14,7 +14,7 @@ stars: 3.7
 ratings: 1190
 reviews: 29
 size: 
-website: http://www.coinchat.im
+website: https://web.archive.org/web/20240508222743/http://www.coinchat.im/
 repository: 
 issue: 
 icon: com.coinchat.coinchat.png

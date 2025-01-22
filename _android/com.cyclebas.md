@@ -13,7 +13,7 @@ stars: 4.8
 ratings: 
 reviews: 93
 size: 
-website: https://www.cyclebas.com/
+website: https://web.archive.org/web/20210927135945/https://cyclebas.com/
 repository: 
 issue: 
 icon: com.cyclebas.png

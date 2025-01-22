@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://juspay.app
+website: https://walletscrutiny.com/brokenlink/https://juspay.app/
 repository: 
 issue: 
 icon: com.pkg.JusPay.png

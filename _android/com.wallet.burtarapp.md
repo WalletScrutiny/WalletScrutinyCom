@@ -13,7 +13,7 @@ stars: 4.1
 ratings: 
 reviews: 7
 size: 
-website: https://burtar.com
+website: https://walletscrutiny.com/brokenlink/https://burtar.com/
 repository: 
 issue: 
 icon: com.wallet.burtarapp.png

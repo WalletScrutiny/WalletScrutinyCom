@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://crebit.io/
+website: https://web.archive.org/web/20210615024415/http://crebit.io/
 repository: 
 issue: 
 icon: com.crebit.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://dbxbang.com/
+website: https://web.archive.org/web/20220408220706/https://dbxbang.com/
 repository: 
 issue: 
 icon: com.dbx_mobile_app.png

@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://justbit.in/
+website: https://walletscrutiny.com/brokenlink/https://www.justbit.in/
 repository: 
 issue: 
 icon: com.app.justbit.jpg

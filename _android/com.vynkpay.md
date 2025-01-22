@@ -14,7 +14,7 @@ stars: 4.5
 ratings: 
 reviews: 
 size: 
-website: https://vynkpay.app
+website: https://web.archive.org/web/20210228151052/https://vynkpay.app/
 repository: 
 issue: 
 icon: com.vynkpay.png

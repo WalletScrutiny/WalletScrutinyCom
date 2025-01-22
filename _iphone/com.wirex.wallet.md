@@ -13,7 +13,7 @@ version: 0.6.10
 stars: 3.7
 reviews: 10
 size: '95362048'
-website: https://www.coca.xyz/
+website: https://walletscrutiny.com/brokenlink/https://www.coca.xyz/
 repository: 
 issue: 
 icon: com.wirex.wallet.jpg

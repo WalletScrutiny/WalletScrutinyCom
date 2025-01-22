@@ -14,7 +14,7 @@ stars: 2.6
 ratings: 
 reviews: 
 size: 
-website: https://alterdice.com
+website: https://web.archive.org/web/20220921163045/https://alterdice.com/
 repository: 
 issue: 
 icon: com.alterdice.android.png

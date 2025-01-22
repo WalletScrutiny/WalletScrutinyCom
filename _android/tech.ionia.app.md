@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.ionia.one
+website: https://walletscrutiny.com/brokenlink/https://ionia.one/
 repository: 
 issue: 
 icon: tech.ionia.app.png

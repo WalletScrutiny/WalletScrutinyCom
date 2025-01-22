@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://coinbuddy.online
+website: https://walletscrutiny.com/brokenlink/https://coinbuddy.online
 repository: 
 issue: 
 icon: online.coinbuddy.wallet.png

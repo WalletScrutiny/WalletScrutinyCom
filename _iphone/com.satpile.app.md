@@ -13,7 +13,7 @@ version: 1.7.3
 stars: 4.3
 reviews: 6
 size: '19050496'
-website: http://satpile.com
+website: https://satpile.com
 repository: 
 issue: 
 icon: com.satpile.app.jpg

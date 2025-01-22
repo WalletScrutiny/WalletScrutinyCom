@@ -14,7 +14,7 @@ stars: 4.8
 ratings: 
 reviews: 60
 size: 
-website: https://burtar.com
+website: https://web.archive.org/web/20240325092408/https://burtar.com/
 repository: 
 issue: 
 icon: com.jestaapp.wallet.png

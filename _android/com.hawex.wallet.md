@@ -14,7 +14,7 @@ stars: 4.9
 ratings: 
 reviews: 
 size: 
-website: http://hawexdao.com
+website: https://hawexdao.com
 repository: 
 issue: 
 icon: com.hawex.wallet.png

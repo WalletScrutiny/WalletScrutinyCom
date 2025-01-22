@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://nominex.mygreat.app/
+website: https://walletscrutiny.com/brokenlink/https://nominex.mygreat.app/
 repository: 
 issue: 
 icon: com.nominex.finance.referralprogram.png

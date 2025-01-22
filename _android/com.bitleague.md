@@ -14,7 +14,7 @@ stars: 4.5
 ratings: 246
 reviews: 132
 size: 
-website: https://www.bitleague.com
+website: https://walletscrutiny.com/brokenlink/https://www.bitleague.com/
 repository: 
 issue: 
 icon: com.bitleague.png
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: BitLeague_Group
 social:
 - https://www.linkedin.com/company/bitleaguegroup
-- https://www.facebook.com/bitleaguegroup
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/bitleaguegroup
 redirect_from: 
 developerName: BITLEAGUE LLC
 features: 

@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://expo.biz/
+website: https://web.archive.org/web/20240327013539/https://expo.biz/
 repository: 
 issue: 
 icon: com.expo.wallet.png

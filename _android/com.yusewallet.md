@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://yusetoken.io/
+website: https://web.archive.org/web/20230411004413/https://yusetoken.io/
 repository: 
 issue: 
 icon: com.yusewallet.png

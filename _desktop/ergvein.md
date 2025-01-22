@@ -10,7 +10,7 @@ version: 31
 binaries: 
 provider: 
 providerWebsite: 
-website: https://web.archive.org/web/20220423113429/https://cypra.io/
+website: https://cypra.io/
 repository: https://github.com/hexresearch/ergvein
 issue: 
 icon: ergvein.png

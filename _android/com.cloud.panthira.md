@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://exchange.panthira.com/
+website: https://web.archive.org/web/20220908202906/https://exchange.panthira.com/
 repository: 
 issue: 
 icon: com.cloud.panthira.png

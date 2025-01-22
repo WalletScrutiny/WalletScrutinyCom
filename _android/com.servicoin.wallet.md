@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.mysrvcoin.com/index.php
+website: https://web.archive.org/web/20220405112046/https://www.mysrvcoin.com/index.php
 repository: 
 issue: 
 icon: com.servicoin.wallet.png

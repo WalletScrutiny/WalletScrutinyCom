@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.mamoru.com/
+website: https://walletscrutiny.com/brokenlink/https://www.mamoru.com/
 repository: 
 issue: 
 icon: io.mamorucrypto.app.png

@@ -14,7 +14,7 @@ stars: 3.4
 ratings: 
 reviews: 
 size: 
-website: http://www.kointra.com
+website: https://www.kointra.com
 repository: 
 issue: 
 icon: com.kointra.kointra.png

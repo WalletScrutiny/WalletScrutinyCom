@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://whatashot.io/
+website: https://walletscrutiny.com/brokenlink/https://www.whatashot.io/
 repository: 
 issue: 
 icon: com.web.whatashot.png

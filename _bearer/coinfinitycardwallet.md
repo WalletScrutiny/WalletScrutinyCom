@@ -42,7 +42,7 @@ reviewArchive:
 twitter: CardwalletCom
 social:
 - https://www.linkedin.com/company/coinfinity
-- https://www.facebook.com/cardwalletcoinfinity
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/cardwalletcoinfinity
 features: 
 
 ---

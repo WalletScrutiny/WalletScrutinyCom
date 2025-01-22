@@ -13,7 +13,7 @@ version: '1.3'
 stars: 4.7
 reviews: 3
 size: '19799040'
-website: https://iqwallet.io/
+website: https://web.archive.org/web/20220625100315/https://iqwallet.io/
 repository: 
 issue: 
 icon: com.xtmcapital.iqwallet.jpg

@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: SealBlock
 providerWebsite: 
-website: https://sealblock.io/
+website: https://walletscrutiny.com/brokenlink/https://sealblock.io/
 shop: 
 country: US
 price: 

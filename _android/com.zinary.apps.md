@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://zinary.com
+website: https://walletscrutiny.com/brokenlink/https://zinary.com
 repository: 
 issue: 
 icon: com.zinary.apps.png

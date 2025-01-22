@@ -13,7 +13,7 @@ stars: 2.6
 ratings: 367
 reviews: 7
 size: 
-website: https://dtrax.io
+website: https://web.archive.org/web/20190609144159/https://dtrax.io/
 repository: 
 issue: 
 icon: com.sculptech.dtrax.png

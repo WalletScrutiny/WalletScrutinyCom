@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://milleniumone.com/
+website: https://web.archive.org/web/20230320084227/https://www.milleniumone.com/
 repository: 
 issue: 
 icon: com.pandats.milleniumone.png

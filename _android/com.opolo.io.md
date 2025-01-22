@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.OPOLO.io
+website: https://www.opolo.io/
 repository: 
 issue: 
 icon: com.opolo.io.png

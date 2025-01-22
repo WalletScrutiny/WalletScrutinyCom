@@ -14,7 +14,7 @@ stars: 4.2
 ratings: 
 reviews: 1
 size: 
-website: https://bitcoinjungle.app
+website: https://web.archive.org/web/20220204102846/https://bitcoinjungle.app/
 repository: https://github.com/Bitcoin-Jungle/bitcoin-jungle-mobile
 issue: 
 icon: app.bitcoinjungle.mobile.png

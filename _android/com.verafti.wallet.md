@@ -14,7 +14,7 @@ stars: 2.6
 ratings: 127
 reviews: 4
 size: 
-website: https://verafti.uk
+website: https://walletscrutiny.com/brokenlink/https://verafti.uk/
 repository: 
 issue: 
 icon: com.verafti.wallet.jpg

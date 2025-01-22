@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 18M
-website: https://bitcoin-trading.global/
+website: https://walletscrutiny.com/brokenlink/https://bitcoin-trading.global/
 repository: 
 issue: 
 icon: com.kevinpetters.bitcointrading.png

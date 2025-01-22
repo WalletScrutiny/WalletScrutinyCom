@@ -27,7 +27,7 @@ reviewArchive:
 twitter: VantageFX
 social:
 - https://www.linkedin.com/company/vantage-fx
-- https://www.facebook.com/VantageFXBroker
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/VantageFXBroker
 redirect_from: 
 developerName: Vantage Global Prime PTY LTD
 features: 

@@ -26,7 +26,7 @@ reviewArchive:
 twitter: HashkeyHub
 social:
 - https://www.hashkey.com
-- https://www.facebook.com/hashkeygroup
+- https://web.archive.org/web/20220517191313/https://www.facebook.com/hashkeygroup
 - https://www.linkedin.com/company/hashkey-digital-asset-group/
 - https://medium.com/hashkey-group
 - https://www.youtube.com/channel/UCxxfJaihsGmn88CM_3qO2xw

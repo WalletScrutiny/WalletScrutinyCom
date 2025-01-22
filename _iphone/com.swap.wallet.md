@@ -12,7 +12,7 @@ version: 2.9.0
 stars: 4.7
 reviews: 30
 size: 26844160
-website: https://swapwallet.com
+website: https://web.archive.org/web/20171227173432/http://swapwallet.com/
 repository: 
 issue: 
 icon: com.swap.wallet.jpg

@@ -13,7 +13,7 @@ version: 5.3.2
 stars: 0
 reviews: 0
 size: '160956416'
-website: http://dsdaq.io
+website: https://walletscrutiny.com/brokenlink/https://www.dsdaq.io/
 repository: 
 issue: 
 icon: com.new.dsdaq.global.jpg

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.matinex.com
+website: https://walletscrutiny.com/brokenlink/https://matinex.com:80/
 repository: 
 issue: 
 icon: com.matinex.matinex.png

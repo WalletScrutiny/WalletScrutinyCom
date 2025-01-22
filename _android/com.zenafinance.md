@@ -14,7 +14,7 @@ stars: 3.5
 ratings: 60
 reviews: 49
 size: 32M
-website: https://rapidpay.africa/
+website: https://web.archive.org/web/20210622012120/https://rapidpay.africa/
 repository: 
 issue: 
 icon: com.zenafinance.png

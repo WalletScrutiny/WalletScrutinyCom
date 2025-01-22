@@ -16,7 +16,7 @@ dimensions:
 weight: 
 provider: BEPAL
 providerWebsite: https://bepal.pro/
-website: https://bepal.pro/bepal-q?type=Bepal%20Q
+website: https://walletscrutiny.com/brokenlink/https://bepal.pro/bepal-q?type=Bepal%20Q
 shop: https://bepal.pro/bepal-q?type=Bepal%20Q
 country: CH
 price: 598CNY

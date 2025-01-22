@@ -13,7 +13,7 @@ stars: 4.8
 ratings: 
 reviews: 
 size: 
-website: http://moonposapp.com
+website: https://moonposapp.com
 repository: 
 issue: 
 icon: com.moonpos.png

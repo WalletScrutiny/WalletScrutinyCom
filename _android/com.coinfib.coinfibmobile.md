@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.coinfib.com
+website: https://web.archive.org/web/20180804214335/http://coinfib.com/
 repository: 
 issue: 
 icon: com.coinfib.coinfibmobile.png

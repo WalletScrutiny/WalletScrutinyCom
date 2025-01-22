@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social:
 - https://t.me/AirWallet
-- https://www.facebook.com/airwalletofficial
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/airwalletofficial
 redirect_from: 
 developerName: AWTech Blockchain Solutions
 features: 

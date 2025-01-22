@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://ex.bcp24.io
+website: https://ex.bcp24.io
 repository: 
 issue: 
 icon: webApp.exchange.bcp24.png

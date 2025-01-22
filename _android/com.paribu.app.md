@@ -29,7 +29,7 @@ social:
 - https://www.youtube.com/c/Paribu
 - https://www.linkedin.com/company/paribucom/
 - https://www.instagram.com/paribucom/
-- https://www.facebook.com/paribucom
+- https://web.archive.org/web/20210522022059/https://www.facebook.com/paribucom
 redirect_from: 
 developerName: PARİBU
 features: 

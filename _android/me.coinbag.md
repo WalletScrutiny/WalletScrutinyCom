@@ -13,7 +13,7 @@ stars: 4.5
 ratings: 
 reviews: 
 size: 
-website: https://coinbag.me/
+website: https://walletscrutiny.com/brokenlink/https://www.coinbag.me/
 repository: 
 issue: 
 icon: me.coinbag.png

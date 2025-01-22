@@ -14,7 +14,7 @@ stars: 4.8
 ratings: 
 reviews: 61
 size: 
-website: https://fibitpro.com
+website: https://web.archive.org/web/20220331035800/https://fibitpro.com/
 repository: 
 issue: 
 icon: com.fibitpro.fibitapp.png

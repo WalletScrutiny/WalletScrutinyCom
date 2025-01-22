@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://bullbitcoin.com
+website: https://bullbitcoin.com
 repository: https://github.com/SatoshiPortal/bullbitcoin-mobile
 issue: https://github.com/SatoshiPortal/bullbitcoin-mobile/issues/326
 icon: com.bullbitcoin.mobile.png
@@ -33,7 +33,7 @@ twitter: bullbitcoin_
 social:
 - https://www.facebook.com/bullbitcoindotcom
 - https://t.me/bullbitcoinofficial
-- https://www.linkedin.com/company/bull-bitcoin
+- https://web.archive.org/web/20240214130230/https://www.linkedin.com/company/bull-bitcoin/
 redirect_from: 
 developerName: Bull Bitcoin
 features: 

@@ -14,7 +14,7 @@ stars: 3.8
 ratings: 5466
 reviews: 41
 size: 
-website: http://www.satoshitango.com
+website: https://www.satoshitango.com
 repository: 
 issue: 
 icon: com.SatoshiTango.SatoshiTango.png

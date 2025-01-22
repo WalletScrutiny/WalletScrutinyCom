@@ -30,7 +30,7 @@ reviewArchive:
   verdict: custodial
 twitter: bitrefill
 social:
-- https://www.facebook.com/bitrefill
+- https://web.archive.org/web/20220127185537/https://www.facebook.com/bitrefill
 - https://www.reddit.com/r/Bitrefill
 features: 
 developerName: Bitrefill

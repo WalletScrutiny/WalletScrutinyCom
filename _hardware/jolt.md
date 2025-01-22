@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: 
 providerWebsite: 
-website: http://joltwallet.com/
+website: https://walletscrutiny.com/brokenlink/https://joltwallet.com/
 shop: 
 country: US
 price: 

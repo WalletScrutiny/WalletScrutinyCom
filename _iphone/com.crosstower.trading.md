@@ -13,7 +13,7 @@ version: '3.26'
 stars: 4.7
 reviews: 3
 size: '40751104'
-website: https://www.crosstower.in/
+website: https://web.archive.org/web/20211016053934/https://www.crosstower.in/
 repository: 
 issue: 
 icon: com.crosstower.trading.jpg
@@ -26,10 +26,10 @@ reviewArchive:
 twitter: CrossTowerIndia
 social:
 - https://www.linkedin.com/company/crosstower-india/
-- https://www.facebook.com/CrossTowerIndia/
-- https://www.youtube.com/channel/UCRaFpvWGxdMJTMDvYadc7hA
-- https://www.instagram.com/crosstowerindia/
-- https://www.youtube.com/channel/UCRaFpvWGxdMJTMDvYadc7hA
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/CrossTowerIndia/
+- https://walletscrutiny.com/brokenlink/https://www.youtube.com/channel/UCRaFpvWGxdMJTMDvYadc7hA
+- https://walletscrutiny.com/brokenlink/https://www.instagram.com/crosstowerindia/
+- https://walletscrutiny.com/brokenlink/https://www.youtube.com/channel/UCRaFpvWGxdMJTMDvYadc7hA
 features: 
 developerName: Crosstower India
 

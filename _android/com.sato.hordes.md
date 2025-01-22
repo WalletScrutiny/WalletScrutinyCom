@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.hordeswallet.com
+website: https://walletscrutiny.com/brokenlink/https://hordeswallet.com/
 repository: 
 issue: 
 icon: com.sato.hordes.png

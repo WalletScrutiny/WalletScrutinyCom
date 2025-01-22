@@ -13,7 +13,7 @@ version: 101.1.5
 stars: 5
 reviews: 65
 size: '70474752'
-website: https://www.hashcashconsultants.com
+website: https://web.archive.org/web/20220331032231/https://www.hashcashconsultants.com/
 repository: 
 issue: 
 icon: com.hashcashconsultants.payBitoTrade.jpg
@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: paybito
 social:
-- https://www.facebook.com/paybito
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/paybito
 features: 
 developerName: HashCash Consultants LLC
 

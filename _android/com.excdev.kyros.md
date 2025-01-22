@@ -14,7 +14,7 @@ stars: 4.2
 ratings: 
 reviews: 
 size: 
-website: https://kyros.team/
+website: https://web.archive.org/web/20240927091035/http://kyros.team/
 repository: 
 issue: 
 icon: com.excdev.kyros.png

@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: viawallet
 social:
-- https://www.facebook.com/ViaWallet
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/ViaWallet
 features: 
 developerName: Coinex Global Limited
 

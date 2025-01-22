@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://minichange.me/
+website: https://web.archive.org/web/20220212065130/https://minichange.me/
 repository: 
 issue: 
 icon: me.minichange.app.png

@@ -28,7 +28,7 @@ twitter: ChangeXapp
 social:
 - https://t.me/changex_official
 - https://discord.com/invite/MerANmWQkV
-- https://www.youtube.com/@Changex-app
+- https://web.archive.org/web/20230923183108/https://www.youtube.com/@Changex-app/
 - https://www.instagram.com/changex_app
 - https://www.facebook.com/ChangeXapp
 - https://www.linkedin.com/company/changexapp

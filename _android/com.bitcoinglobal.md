@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: BitcoinGlobalEx
 social:
-- https://www.facebook.com/BitcoinGlobalEx
+- https://web.archive.org/web/20201124161548/https://www.facebook.com/BitcoinGlobalEx
 - https://www.reddit.com/r/BITCOIN_GLOBAL
 redirect_from: 
 developerName: Bitcoin Global Ex

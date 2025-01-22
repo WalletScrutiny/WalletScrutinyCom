@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.bitafrox.com
+website: https://walletscrutiny.com/brokenlink/https://www.bitafrox.com
 repository: 
 issue: 
 icon: com.bitafrox.bitafrox.png

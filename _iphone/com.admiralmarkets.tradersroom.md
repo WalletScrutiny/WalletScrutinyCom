@@ -26,7 +26,7 @@ reviewArchive:
 twitter: AdmiralsGlobal
 social:
 - https://www.linkedin.com/company/-admiral-markets-group
-- https://www.facebook.com/AdmiralsGlobal
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/AdmiralsGlobal
 features: 
 developerName: Admiral Markets AS
 

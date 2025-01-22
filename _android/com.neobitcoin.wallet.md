@@ -13,7 +13,7 @@ stars: 1
 ratings: 131
 reviews: 7
 size: 
-website: https://neobitcoin.org/
+website: https://web.archive.org/web/20240515081249/https://neobitcoin.org/
 repository: 
 issue: 
 icon: com.neobitcoin.wallet.png

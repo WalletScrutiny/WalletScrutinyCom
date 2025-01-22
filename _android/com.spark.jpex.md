@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://jp-ex.io
+website: https://jp-ex.io
 repository: 
 issue: 
 icon: com.spark.jpex.jpg
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: ExchangeJpex
 social:
-- https://www.facebook.com/JPEX-Japan-Exchange-100535999063470
+- https://web.archive.org/web/20220709000825/https://www.facebook.com/JPEX-Japan-Exchange-100535999063470
 redirect_from: 
 developerName: JP-EX CRYPTO ASSET PLATFORM PTY LTD
 features: 

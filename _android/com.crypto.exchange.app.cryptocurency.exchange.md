@@ -14,7 +14,7 @@ stars: 3.7
 ratings: 220
 reviews: 22
 size: 
-website: http://crypto-exchange.club
+website: https://walletscrutiny.com/brokenlink/https://www.crypto-exchange.club/
 repository: 
 issue: 
 icon: com.crypto.exchange.app.cryptocurency.exchange.png

@@ -13,7 +13,7 @@ stars: 3.6
 ratings: 
 reviews: 
 size: 
-website: https://blockchain24.pro
+website: https://walletscrutiny.com/brokenlink/https://blockchain24.pro
 repository: 
 issue: 
 icon: ru.devroom.blockchain24.png

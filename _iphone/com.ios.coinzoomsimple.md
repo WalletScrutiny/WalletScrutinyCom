@@ -13,7 +13,7 @@ version: 3.2.5
 stars: 4.7
 reviews: 252
 size: '44088320'
-website: http://www.coinzoom.com
+website: https://www.coinzoom.com
 repository: 
 issue: 
 icon: com.ios.coinzoomsimple.jpg

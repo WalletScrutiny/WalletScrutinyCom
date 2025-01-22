@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://solidus-vc.io
+website: https://walletscrutiny.com/brokenlink/https://solidus-vc.io
 repository: 
 issue: 
 icon: com.sold.wallet.png

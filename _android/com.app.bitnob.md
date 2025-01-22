@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 275
 reviews: 31
 size: 
-website: https://bitnob.com
+website: https://bitnob.com/
 repository: 
 issue: 
 icon: com.app.bitnob.png

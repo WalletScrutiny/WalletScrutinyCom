@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.isupex.com
+website: https://web.archive.org/web/20220202224134/https://www.isupex.com/
 repository: 
 issue: 
 icon: com.superx.isupex.png

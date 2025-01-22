@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://lohitgroup.com/
+website: https://walletscrutiny.com/brokenlink/https://lohitgroup.com/
 repository: 
 issue: 
 icon: com.lohitgroup.start.png

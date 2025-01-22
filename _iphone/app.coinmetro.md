@@ -13,7 +13,7 @@ version: 5.50.819
 stars: 4.4
 reviews: 307
 size: '64890880'
-website: https://coinmetro.com/
+website: https://walletscrutiny.com/brokenlink/https://coinmetro.com/
 repository: 
 issue: 
 icon: app.coinmetro.jpg

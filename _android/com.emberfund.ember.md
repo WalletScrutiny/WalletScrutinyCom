@@ -14,7 +14,7 @@ stars: 3.8
 ratings: 1026
 reviews: 1748
 size: 
-website: https://www.emberfund.io/
+website: https://web.archive.org/web/20230618235813/https://emberfund.io/
 repository: 
 issue: 
 icon: com.emberfund.ember.jpg

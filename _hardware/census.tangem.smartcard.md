@@ -15,7 +15,7 @@ dimensions:
 weight: 20
 provider: Census Open Finance
 providerWebsite: 
-website: https://web.archive.org/web/20200605015542/https://www.census.cx/
+website: https://www.census.cx/
 shop: 
 country: 
 price: 39USD

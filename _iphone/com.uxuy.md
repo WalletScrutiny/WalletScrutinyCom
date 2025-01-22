@@ -27,7 +27,7 @@ twitter: uxuycom
 social:
 - https://t.me/uxuycom
 - https://discord.com/invite/BZwZA27Zkv
-- https://www.linkedin.com/company/uxuy
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/uxuy
 features: 
 developerName: UXUY Limited
 

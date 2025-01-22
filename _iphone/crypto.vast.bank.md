@@ -26,7 +26,7 @@ reviewArchive:
 twitter: vastbank
 social:
 - https://www.linkedin.com/company/vastbank
-- https://www.facebook.com/vastbankNA
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/vastbankNA
 features: 
 developerName: Vast Bank N.A.
 

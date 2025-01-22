@@ -28,7 +28,7 @@ twitter: CoinRivet
 social:
 - https://coinrivet.com
 - https://www.instagram.com/CoinRivet
-- https://www.facebook.com/CoinRivet
+- https://web.archive.org/web/20210409063005/https://www.facebook.com/CoinRivet/
 redirect_from: 
 developerName: Galias Services
 features: 

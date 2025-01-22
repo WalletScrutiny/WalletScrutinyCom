@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://xazur.digital
+website: https://web.archive.org/web/20220331041804/https://xazur.digital/
 repository: 
 issue: 
 icon: com.xazur.tradeapp.png

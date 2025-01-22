@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://conglex.com
+website: https://conglex.com
 repository: 
 issue: 
 icon: com.conglex.conglex.png

@@ -14,7 +14,7 @@ stars: 3.2
 ratings: 
 reviews: 4
 size: 
-website: https://coinlib.io
+website: https://walletscrutiny.com/brokenlink/https://coinlib.io/
 repository: 
 issue: 
 icon: com.coinlib.coinlib.png

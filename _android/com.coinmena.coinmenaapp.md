@@ -14,7 +14,7 @@ stars: 3.5
 ratings: 914
 reviews: 50
 size: 
-website: http://coinmena.com
+website: https://coinmena.com
 repository: 
 issue: 
 icon: com.coinmena.coinmenaapp.png

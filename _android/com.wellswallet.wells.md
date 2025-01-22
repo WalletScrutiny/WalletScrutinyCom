@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://wellswallet.com
+website: https://web.archive.org/web/20210802101538/https://www.wellswallet.com/
 repository: 
 issue: 
 icon: com.wellswallet.wells.jpg

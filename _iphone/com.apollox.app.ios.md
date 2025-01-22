@@ -26,7 +26,7 @@ reviewArchive:
 twitter: ApolloX_Finance
 social:
 - https://apollox.com
-- https://www.facebook.com/ApolloXfinance
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/ApolloXfinance
 - https://discord.com/invite/q5eH3zktcm
 - https://t.me/apolloxchange
 - https://www.reddit.com/r/ApolloX_com

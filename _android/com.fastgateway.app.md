@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://fast-gateway.com/
+website: https://www.fast-gateway.com/
 repository: 
 issue: 
 icon: com.fastgateway.app.jpg

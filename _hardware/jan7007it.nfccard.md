@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: JAN7007IT
 providerWebsite: 
-website: https://www.ebay.com/itm/173960390859
+website: https://walletscrutiny.com/brokenlink/https://www.ebay.com/itm/173960390859
 shop: https://www.ebay.com/itm/173960390859
 country: IT
 price: 35EUR

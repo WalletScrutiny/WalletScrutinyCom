@@ -14,7 +14,7 @@ stars: 4.2
 ratings: 368
 reviews: 61
 size: 
-website: http://lightning-wallet.com
+website: https://lightning-wallet.com
 repository: https://github.com/btcontract/lnwallet
 issue: https://github.com/btcontract/lnwallet/issues/20
 icon: com.lightning.walletapp.png

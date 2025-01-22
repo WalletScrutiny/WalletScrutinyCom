@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://hyperbot.solutions/
+website: https://walletscrutiny.com/brokenlink/https://hyperbot.solutions/
 repository: 
 issue: 
 icon: com.hyperbot.qwcodes.png

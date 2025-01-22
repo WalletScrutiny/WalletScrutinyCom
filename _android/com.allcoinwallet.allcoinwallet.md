@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 105
 reviews: 1
 size: 
-website: http://www.allcoinwallet.com
+website: https://walletscrutiny.com/brokenlink/https://allcoinwallet.com/
 repository: 
 issue: 
 icon: com.allcoinwallet.allcoinwallet.png

@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social:
 - https://vk.com/vexel_is
-- https://www.instagram.com/vexel_com/
+- https://walletscrutiny.com/brokenlink/https://www.instagram.com/vexel_com/
 features: 
 developerName: Vexel
 

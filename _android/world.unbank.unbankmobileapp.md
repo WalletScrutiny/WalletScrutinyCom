@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 
 reviews: 26
 size: 
-website: https://www.unbank.world/
+website: https://walletscrutiny.com/brokenlink/https://unbank.world:80/
 repository: 
 issue: 
 icon: world.unbank.unbankmobileapp.png

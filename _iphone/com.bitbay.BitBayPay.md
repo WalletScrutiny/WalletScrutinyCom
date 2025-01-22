@@ -27,7 +27,7 @@ twitter: zondaglobal
 social:
 - https://www.linkedin.com/company/zondaglobal/
 - https://www.facebook.com/ZondaGlobal/
-- https://www.instagram.com/zondaglobal/
+- https://walletscrutiny.com/brokenlink/https://www.instagram.com/zondaglobal/
 features: 
 developerName: BitBay Sp. z o.o.
 

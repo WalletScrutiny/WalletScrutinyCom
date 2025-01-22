@@ -13,7 +13,7 @@ version: 1.5.0
 stars: 3.4
 reviews: 7
 size: '51440640'
-website: https://bitgo.com
+website: https://www.bitgo.com/
 repository: 
 issue: 
 icon: com.bitgo.mobile.jpg

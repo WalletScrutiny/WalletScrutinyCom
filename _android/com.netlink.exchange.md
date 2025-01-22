@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://netlink.exchange
+website: https://web.archive.org/web/20190625041004/http://www.netlink.exchange:80/
 repository: 
 issue: 
 icon: com.netlink.exchange.png

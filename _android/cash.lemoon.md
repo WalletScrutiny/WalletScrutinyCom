@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.lemoon.cash/
+website: https://web.archive.org/web/20230325152735/https://www.lemoon.cash/
 repository: 
 issue: 
 icon: cash.lemoon.png

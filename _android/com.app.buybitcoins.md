@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://mobapibbc.buybitcoins.app/
+website: https://walletscrutiny.com/brokenlink/https://mobapibbc.buybitcoins.app/
 repository: 
 issue: 
 icon: com.app.buybitcoins.png

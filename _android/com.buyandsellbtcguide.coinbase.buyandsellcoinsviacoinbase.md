@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 286
 reviews: 24
 size: 
-website: https://rolltuk.blogspot.com/
+website: https://walletscrutiny.com/brokenlink/https://rolltuk.blogspot.com/
 repository: 
 issue: 
 icon: com.buyandsellbtcguide.coinbase.buyandsellcoinsviacoinbase.png

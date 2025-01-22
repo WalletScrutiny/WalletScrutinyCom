@@ -13,7 +13,7 @@ version: 5.7.3
 stars: 4.2
 reviews: 1018
 size: '54933504'
-website: https://www.modeapp.com
+website: https://web.archive.org/web/20210129081436/https://modeapp.com/
 repository: 
 issue: 
 icon: com.fibermode.Mode-Wallet.jpg
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: modeapp_
 social:
 - https://www.linkedin.com/company/modeapp-com
-- https://www.facebook.com/themodeapp
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/themodeapp
 features: 
 developerName: Fibermode Limited
 

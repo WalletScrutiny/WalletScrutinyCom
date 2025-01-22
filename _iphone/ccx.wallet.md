@@ -14,7 +14,7 @@ version: '1.1'
 stars: 4.4
 reviews: 17
 size: 28720128
-website: https://ccwalletapp.com/
+website: https://walletscrutiny.com/brokenlink/https://ccwalletapp.com/
 repository: https://github.com/coincasso/ccwallet
 issue: https://github.com/coincasso/ccwallet/issues/1
 icon: ccx.wallet.jpg

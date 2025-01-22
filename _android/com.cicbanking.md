@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://cicbanking.com
+website: https://web.archive.org/web/20200614173812/http://cicbanking.com/
 repository: 
 issue: 
 icon: com.cicbanking.png

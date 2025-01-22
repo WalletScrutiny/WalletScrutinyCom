@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: AfinCoin
 social:
-- https://www.facebook.com/asianfintech
+- https://web.archive.org/web/20230415201731/https://www.facebook.com/asianfintech/
 redirect_from: 
 developerName: Keypair Co., Ltd.
 features: 

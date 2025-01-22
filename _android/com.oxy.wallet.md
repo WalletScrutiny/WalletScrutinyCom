@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://oxystarter.io
+website: https://web.archive.org/web/20220430080900/https://oxystarter.io/
 repository: 
 issue: 
 icon: com.oxy.wallet.png

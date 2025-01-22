@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/Telexa.mn/
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/Telexa.mn/
 features: 
 developerName: Save Inc.
 

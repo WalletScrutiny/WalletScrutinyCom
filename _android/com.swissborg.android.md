@@ -27,7 +27,7 @@ reviewArchive:
 twitter: swissborg
 social:
 - https://www.linkedin.com/company/swissborg
-- https://www.facebook.com/swissborg
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/swissborg
 redirect_from: 
 developerName: SwissBorg
 features: 

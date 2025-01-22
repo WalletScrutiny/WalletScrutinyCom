@@ -28,7 +28,7 @@ twitter: LetsBit_ok
 social:
 - https://www.youtube.com/channel/UCTxHaohwsq9x9mhqW7XBnzw
 - https://www.linkedin.com/company/letsbit/
-- https://www.facebook.com/LetsBit
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/LetsBit
 - https://www.instagram.com/letsbit/
 redirect_from: 
 developerName: LB Finanzas

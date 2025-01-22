@@ -13,7 +13,7 @@ stars: 4.5
 ratings: 
 reviews: 45
 size: 
-website: https://zla.io
+website: https://web.archive.org/web/20171105092658/https://zla.io/
 repository: 
 issue: 
 icon: io.zla.app.png

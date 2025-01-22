@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://optimaxcrypto.com/
+website: https://web.archive.org/web/20220412064034/https://optimaxcrypto.com/
 repository: 
 issue: 
 icon: app.exchange.optimax.png

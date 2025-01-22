@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: KardiaChain
 social:
-- https://www.facebook.com/KardiaChainFoundation
+- https://web.archive.org/web/20201221171034/https://www.facebook.com/KardiaChainFoundation
 redirect_from: 
 developerName: HAVENIUM PTE. LTD.
 features: 

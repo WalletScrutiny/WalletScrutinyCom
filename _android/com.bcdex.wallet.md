@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://bcdxchange.com/
+website: https://walletscrutiny.com/brokenlink/https://bcdxchange.com/
 repository: 
 issue: 
 icon: com.bcdex.wallet.png

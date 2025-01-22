@@ -14,7 +14,7 @@ stars: 4.7
 ratings: 
 reviews: 
 size: 
-website: https://www.dhanu.org/
+website: https://web.archive.org/web/20220221101108/https://www.dhanu.org/
 repository: 
 issue: 
 icon: com.cryptoex.dhanux.png

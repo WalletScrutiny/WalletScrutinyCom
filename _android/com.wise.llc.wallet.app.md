@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 43
 reviews: 28
 size: 
-website: https://wise.win
+website: https://walletscrutiny.com/brokenlink/https://wise.win
 repository: 
 issue: 
 icon: com.wise.llc.wallet.app.png

@@ -13,7 +13,7 @@ version: 3.0.0
 stars: 3.4
 reviews: 297
 size: '58226688'
-website: https://chiji14xchange.com
+website: https://web.archive.org/web/20221010140526/https://chiji14xchange.com/
 repository: 
 issue: 
 icon: com.chiji14xchange-.jpg

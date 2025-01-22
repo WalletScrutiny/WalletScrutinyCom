@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://tezelt.com/
+website: https://walletscrutiny.com/brokenlink/https://tezelt.com/
 repository: 
 issue: 
 icon: com.tezelt.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://morebit.io
+website: https://morebit.io
 repository: 
 issue: 
 icon: com.application.morebit.png

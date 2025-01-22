@@ -13,7 +13,7 @@ version: 2.2.18
 stars: 4.3
 reviews: 96
 size: '59044864'
-website: http://www.biconomy.com/
+website: https://www.biconomy.com/
 repository: 
 issue: 
 icon: com.biconomy.Innovation.jpg

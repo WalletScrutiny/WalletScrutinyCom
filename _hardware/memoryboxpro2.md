@@ -13,7 +13,7 @@ dimensions:
 weight: 
 provider: Starteos
 providerWebsite: https://www.starteos.io
-website: https://www.starteos.io/en/product
+website: https://web.archive.org/web/20210621215259/https://starteos.io/en/product
 shop: 
 country: CH
 price: 

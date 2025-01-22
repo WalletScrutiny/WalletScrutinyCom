@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.any1pro.com/
+website: https://web.archive.org/web/20200910153139/https://www.any1pro.com/
 repository: 
 issue: 
 icon: com.pandats.any1profit.png

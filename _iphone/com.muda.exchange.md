@@ -13,7 +13,7 @@ version: '2.1'
 stars: 0
 reviews: 0
 size: '61788160'
-website: https://www.muda.exchange
+website: https://walletscrutiny.com/brokenlink/https://www.muda.exchange
 repository: 
 issue: 
 icon: com.muda.exchange.jpg

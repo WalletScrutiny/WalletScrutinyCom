@@ -13,7 +13,7 @@ stars: 3
 ratings: 
 reviews: 
 size: 
-website: https://omptrading.capital
+website: https://web.archive.org/web/20201204065923/https://omptrading.capital/
 repository: 
 issue: 
 icon: com.omptradingcapital.app.png

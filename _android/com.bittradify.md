@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.bittradify.com
+website: https://walletscrutiny.com/brokenlink/https://www.bittradify.com/
 repository: 
 issue: 
 icon: com.bittradify.png

@@ -13,7 +13,7 @@ version: 1.1.39
 stars: 4.6
 reviews: 20
 size: '53563392'
-website: https://agoradesk.com
+website: https://walletscrutiny.com/brokenlink/https://agoradesk.com/
 repository: 
 issue: 
 icon: com.agoradesk.app.jpg

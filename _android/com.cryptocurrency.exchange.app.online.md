@@ -14,7 +14,7 @@ stars: 4
 ratings: 151
 reviews: 20
 size: 
-website: http://cryptocurrency-exchange.site
+website: https://cryptocurrency-exchange.site
 repository: 
 issue: 
 icon: com.cryptocurrency.exchange.app.online.png

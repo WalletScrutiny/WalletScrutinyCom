@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://fuza.site/
+website: https://web.archive.org/web/20230723045701/https://fuza.site/
 repository: 
 issue: 
 icon: com.digitalstorm.HIVE.png

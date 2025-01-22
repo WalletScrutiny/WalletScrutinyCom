@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://cryptoswapp.com
+website: https://web.archive.org/web/20220127042250/https://cryptoswapp.com/
 repository: 
 issue: 
 icon: com.cryptoswapp.png

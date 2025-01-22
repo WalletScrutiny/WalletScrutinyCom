@@ -14,7 +14,7 @@ stars: 4.5
 ratings: 255
 reviews: 213
 size: 9.3M
-website: https://www.hashcashconsultants.com
+website: https://web.archive.org/web/20220331032231/https://www.hashcashconsultants.com/
 repository: 
 issue: 
 icon: com.hashcash.paybito.png
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: paybito
 social:
-- https://www.facebook.com/paybito
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/paybito
 redirect_from: 
 developerName: 
 features: 

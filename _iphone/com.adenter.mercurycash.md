@@ -13,7 +13,7 @@ version: 4.5.0
 stars: 4.5
 reviews: 68
 size: '66501632'
-website: https://www.mercury.cash/
+website: https://walletscrutiny.com/brokenlink/https://www.mercury.cash/
 repository: 
 issue: 
 icon: com.adenter.mercurycash.jpg
@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: mercurycash
 social:
-- https://www.facebook.com/mercurycash
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/mercurycash
 features: 
 developerName: 
 

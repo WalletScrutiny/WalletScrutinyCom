@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ibtc.com.hk
+website: https://web.archive.org/web/20230601045921/https://ibtc.com.hk/
 repository: 
 issue: 
 icon: com.quanli.ibtc.png

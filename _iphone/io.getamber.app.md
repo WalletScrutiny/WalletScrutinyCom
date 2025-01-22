@@ -13,7 +13,7 @@ version: 5.5.0
 stars: 4.5
 reviews: 269
 size: '100076544'
-website: http://amber.app/
+website: https://amber.app/
 repository: 
 issue: 
 icon: io.getamber.app.jpg

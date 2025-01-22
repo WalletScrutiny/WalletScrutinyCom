@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://wowoonet.com
+website: https://web.archive.org/web/20220907020540/https://wowoonet.com/
 repository: 
 issue: 
 icon: com.beta.obc.WOWOO.jpg

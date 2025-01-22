@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://app.fixttoken.com/
+website: https://walletscrutiny.com/brokenlink/https://app.fixttoken.com/
 repository: 
 issue: 
 icon: com.fixttoken.wallet.jpg

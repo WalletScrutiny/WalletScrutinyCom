@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://pebbit.app
+website: https://walletscrutiny.com/brokenlink/https://pebbit.app
 repository: 
 issue: 
 icon: com.magna_numeris.pebbit.jpg

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.botcoinloan.blissinfosys.com/
+website: https://walletscrutiny.com/brokenlink/https://www.botcoinloan.blissinfosys.com/
 repository: 
 issue: 
 icon: com.info.bccl.png

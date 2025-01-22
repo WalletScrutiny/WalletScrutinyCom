@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://egiby.com
+website: https://walletscrutiny.com/brokenlink/https://egiby.com
 repository: 
 issue: 
 icon: ir.egiby.bank.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.qume.io
+website: https://web.archive.org/web/20240727071336/https://www.qume.io/
 repository: 
 issue: 
 icon: com.qume.app.png

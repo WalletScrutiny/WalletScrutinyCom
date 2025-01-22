@@ -14,7 +14,7 @@ stars: 4.5
 ratings: 534
 reviews: 117
 size: 24M
-website: https://www.okminer.io/
+website: https://web.archive.org/web/20210911143912/https://www.okminer.io/
 repository: 
 issue: 
 icon: io.okminer.app.png

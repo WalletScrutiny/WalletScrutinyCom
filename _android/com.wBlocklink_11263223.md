@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.blocklink.live/
+website: https://web.archive.org/web/20201101031929/https://www.blocklink.live/
 repository: 
 issue: 
 icon: com.wBlocklink_11263223.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://xnano.com.br
+website: https://walletscrutiny.com/brokenlink/https://www.xnano.com.br/
 repository: 
 issue: 
 icon: com.inf.os.xnanoandroid.png

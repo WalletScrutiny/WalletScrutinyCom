@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://paypack.company/
+website: https://web.archive.org/web/20211220151114/http://paypack.company/
 repository: 
 issue: 
 icon: com.paypack.company.png

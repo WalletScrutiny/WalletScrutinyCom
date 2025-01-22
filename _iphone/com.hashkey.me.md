@@ -13,7 +13,7 @@ version: 4.1.0
 stars: 4.6
 reviews: 9
 size: '68368384'
-website: https://me.hashkey.com/
+website: https://web.archive.org/web/20201101015102/https://me.hashkey.com/
 repository: 
 issue: 
 icon: com.hashkey.me.jpg

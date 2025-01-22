@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: decryptmedia
 social:
-- https://www.facebook.com/decryptmedia
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/decryptmedia
 redirect_from:
 - /co.decrypt.app/
 developerName: Decrypt Media

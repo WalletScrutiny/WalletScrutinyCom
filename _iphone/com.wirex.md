@@ -13,7 +13,7 @@ version: 4.1.35
 stars: 3.7
 reviews: 744
 size: '209783808'
-website: https://wirexapp.com/
+website: https://walletscrutiny.com/brokenlink/https://wirexapp.com/
 repository: 
 issue: 
 icon: com.wirex.jpg
@@ -25,8 +25,8 @@ signer:
 reviewArchive: 
 twitter: wirexapp
 social:
-- https://www.linkedin.com/company/wirex-limited
-- https://www.facebook.com/wirexapp
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/wirex-limited
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/wirexapp
 features: 
 developerName: Wirex Limited
 

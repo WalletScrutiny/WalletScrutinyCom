@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://cryptoterminal.eu
+website: https://walletscrutiny.com/brokenlink/https://cryptoterminal.eu/
 repository: https://github.com/samotari/crypto-terminal
 issue: 
 icon: com.github.samotari.cryptoterminal.png

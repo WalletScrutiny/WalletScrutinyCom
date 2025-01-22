@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bitcoinblink.com/
+website: https://web.archive.org/web/20200603105123/https://www.bitcoinblink.com/
 repository: 
 issue: 
 icon: com.bitcoinblink.wallet.png

@@ -13,7 +13,7 @@ stars: 1.8
 ratings: 
 reviews: 
 size: 
-website: https://www.trade99.com
+website: https://web.archive.org/web/20230609035127/https://trade99.com/
 repository: 
 issue: 
 icon: com.pandats.trade99.png

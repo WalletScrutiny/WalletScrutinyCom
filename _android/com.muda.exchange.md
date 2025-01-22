@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.muda.exchange
+website: https://walletscrutiny.com/brokenlink/https://www.muda.exchange/
 repository: 
 issue: 
 icon: com.muda.exchange.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://cryptocash-360.com
+website: https://web.archive.org/web/20230219184953/https://cryptocash-360.com/
 repository: 
 issue: 
 icon: com.crypto.bank_360.jpg

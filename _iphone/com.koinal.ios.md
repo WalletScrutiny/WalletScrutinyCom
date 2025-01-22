@@ -14,7 +14,7 @@ version: 1.4.7
 stars: 4.9
 reviews: 513
 size: '86676480'
-website: https://www.koinal.io
+website: https://web.archive.org/web/20201101022059/https://www.koinal.io/
 repository: 
 issue: 
 icon: com.koinal.ios.jpg
@@ -26,8 +26,8 @@ signer:
 reviewArchive: 
 twitter: koinal_io
 social:
-- https://www.linkedin.com/company/koinal-io
-- https://www.facebook.com/Koinal.io
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/koinal-io
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/Koinal.io
 features: 
 developerName: Koinal
 

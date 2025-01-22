@@ -14,7 +14,7 @@ stars: 4.7
 ratings: 491
 reviews: 13
 size: 
-website: https://www.bizzcoin.com/
+website: https://walletscrutiny.com/brokenlink/https://bizzcoin.com:80/
 repository: 
 issue: 
 icon: com.BizzCoin.png
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: bizz_coin
 social:
-- https://www.facebook.com/BizzCoinOfficial
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/BizzCoinOfficial
 redirect_from: 
 developerName: BizzCoin
 features: 

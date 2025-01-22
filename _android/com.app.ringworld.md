@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ringworld.live/
+website: https://walletscrutiny.com/brokenlink/https://ringworld.live/
 repository: 
 issue: 
 icon: com.app.ringworld.png

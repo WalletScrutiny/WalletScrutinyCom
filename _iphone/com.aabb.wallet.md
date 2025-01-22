@@ -13,7 +13,7 @@ version: 1.0.265
 stars: 4.9
 reviews: 99
 size: '61643776'
-website: https://aabbgmine2token.com/
+website: https://walletscrutiny.com/brokenlink/https://aabbgmine2token.com/
 repository: 
 issue: 
 icon: com.aabb.wallet.jpg

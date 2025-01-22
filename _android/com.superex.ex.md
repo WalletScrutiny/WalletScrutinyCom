@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: SuperExet
 social:
-- https://www.facebook.com/superexdex
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/superexdex
 - https://www.youtube.com/@superexdex
 redirect_from: 
 developerName: SUPEREX

@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.rixx.tech
+website: https://walletscrutiny.com/brokenlink/https://www.rixx.tech/
 repository: 
 issue: 
 icon: technology.def.rixx.png

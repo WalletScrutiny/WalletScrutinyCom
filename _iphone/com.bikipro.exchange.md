@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: BiKiEnglish
 social:
-- https://www.facebook.com/bikiexchange
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/bikiexchange
 - https://www.reddit.com/r/BiKi
 features: 
 developerName: 

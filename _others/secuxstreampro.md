@@ -5,7 +5,7 @@ authors:
 - danny
 icon: secuxstreampro.png
 date: 2022-05-17
-website: https://secuxtech.com/secux-payment-terminal
+website: https://walletscrutiny.com/brokenlink/https://secuxtech.com/secux-payment-terminal
 twitter: SecuXwallet
 social:
 - https://www.linkedin.com/company/secuxtech

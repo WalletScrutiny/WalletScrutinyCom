@@ -15,7 +15,7 @@ dimensions:
 weight: 65
 provider: Asic Vault
 providerWebsite: 
-website: https://asicvault.io/
+website: https://walletscrutiny.com/brokenlink/https://asicvault.io/
 shop: https://asicvault.io/preorder/reserve-mark-ii.html
 country: EE
 price: 

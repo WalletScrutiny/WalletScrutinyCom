@@ -13,7 +13,7 @@ version: '2.15'
 stars: 3.5
 reviews: 22
 size: '49214464'
-website: https://www.bitleague.com
+website: https://web.archive.org/web/20191201041929/https://www.bitleague.com/
 repository: 
 issue: 
 icon: com.bit.leagues.jpg
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: BitLeague_Group
 social:
 - https://www.linkedin.com/company/bitleaguegroup
-- https://www.facebook.com/bitleaguegroup
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/bitleaguegroup
 features: 
 developerName: BITLEAGUE LLC
 

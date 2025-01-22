@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://unix.finance
+website: https://web.archive.org/web/20210304174250/https://unix.finance/
 repository: 
 issue: 
 icon: com.unix.unix_finance.png

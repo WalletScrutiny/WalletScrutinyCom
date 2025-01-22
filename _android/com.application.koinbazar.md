@@ -27,7 +27,7 @@ reviewArchive:
 twitter: koinbazar
 social:
 - https://www.linkedin.com/company/koinbazar
-- https://www.facebook.com/koinbazar
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/koinbazar
 redirect_from: 
 developerName: KoinBX
 features: 

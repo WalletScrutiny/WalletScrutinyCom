@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.bexfor.com
+website: https://web.archive.org/web/20221015133559/https://bexfor.com/
 repository: 
 issue: 
 icon: com.bexfor.broker.android.png

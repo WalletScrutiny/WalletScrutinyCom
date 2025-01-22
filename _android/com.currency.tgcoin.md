@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://tgcoin4.com
+website: https://web.archive.org/web/20211225205255/http://tgcoin4.com/
 repository: 
 issue: 
 icon: com.currency.tgcoin.png

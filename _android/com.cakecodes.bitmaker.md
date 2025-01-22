@@ -14,7 +14,7 @@ stars: 4.2
 ratings: 84499
 reviews: 3298
 size: 
-website: https://stormx.io/
+website: https://web.archive.org/web/20220301173749/https://stormx.io/
 repository: 
 issue: 
 icon: com.cakecodes.bitmaker.png

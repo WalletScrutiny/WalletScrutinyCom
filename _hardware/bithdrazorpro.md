@@ -15,7 +15,7 @@ dimensions:
 weight: 45.2
 provider: BitHD
 providerWebsite: https://bithd.com
-website: https://bithd.com/BITHD-Razor-Pro.html
+website: https://walletscrutiny.com/brokenlink/https://bithd.com/BITHD-Razor-Pro.html
 shop: https://shop91729164.m.youzan.com/wscgoods/detail/36d2b34v2wj3o6t
 country: CN
 price: 69.99 USD

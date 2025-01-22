@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.bxen.io/tickets
+website: https://walletscrutiny.com/brokenlink/https://www.bxen.io/tickets
 repository: 
 issue: 
 icon: com.IcmTech_Bxen.myapp.png

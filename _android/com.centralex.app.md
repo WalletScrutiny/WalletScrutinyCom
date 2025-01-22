@@ -13,7 +13,7 @@ stars: 4.6
 ratings: 
 reviews: 
 size: 
-website: https://centralex.com
+website: https://web.archive.org/web/20221221145424/https://centralex.com/
 repository: 
 issue: 
 icon: com.centralex.app.png

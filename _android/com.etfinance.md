@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.etfinance.eu
+website: https://walletscrutiny.com/brokenlink/https://www.etfinance.eu
 repository: 
 issue: 
 icon: com.etfinance.png

@@ -13,7 +13,7 @@ stars: 3.8
 ratings: 
 reviews: 
 size: 
-website: https://teamsmartearners.com
+website: https://walletscrutiny.com/brokenlink/https://teamsmartearners.com
 repository: 
 issue: 
 icon: smartearners.apk.jpg

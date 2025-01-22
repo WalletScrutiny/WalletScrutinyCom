@@ -15,7 +15,7 @@ dimensions:
 weight: 105
 provider: Keyxentic Inc.
 providerWebsite: 
-website: https://www.keyxentic.com/kx906
+website: https://walletscrutiny.com/brokenlink/https://www.keyxentic.com/kx906
 shop: 
 country: TW
 price: 299USD

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://cyclebit.io
+website: https://cyclebit.io
 repository: 
 issue: 
 icon: io.cyclebit.wallet.png

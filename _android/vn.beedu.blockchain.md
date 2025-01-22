@@ -28,7 +28,7 @@ twitter: LynKey_
 social:
 - https://www.facebook.com/Lynkeytoken
 - https://www.linkedin.com/company/lynkey
-- https://www.youtube.com/channel/UCH1a6zb0lnkt69rMLFdN4zg
+- https://web.archive.org/web/20220424141710/https://www.youtube.com/channel/UCH1a6zb0lnkt69rMLFdN4zg
 - https://www.instagram.com/lynkey__
 - https://t.me/LynKeychat
 redirect_from: 

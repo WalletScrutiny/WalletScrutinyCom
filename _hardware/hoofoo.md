@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: HooFoo Inc
 providerWebsite: https://hoofoo.io
-website: https://hoofoo.io/products/hoofoo-hardware-wallet?variant=13765070225526
+website: https://web.archive.org/web/20210625091120/https://hoofoo.io/products/hoofoo-hardware-wallet?variant=13765070225526
 shop: https://hoofoo.io/products/hoofoo-hardware-wallet?variant=13765070225526
 country: US
 price: 289USD

@@ -14,7 +14,7 @@ stars: 3
 ratings: 31
 reviews: 17
 size: 151M
-website: https://plasmapay.com/
+website: https://web.archive.org/web/20191003211220/https://plasmapay.com/
 repository: 
 issue: 
 icon: com.plasmapay.androidapp.png
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 0xPlasma
 social:
 - https://www.linkedin.com/company/0xplasma
-- https://www.facebook.com/Plasmapay
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/Plasmapay
 - https://www.reddit.com/r/PlasmaPay
 redirect_from: 
 developerName: 

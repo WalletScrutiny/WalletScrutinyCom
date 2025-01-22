@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://xpesa.io/
+website: https://walletscrutiny.com/brokenlink/https://xpesa.io/
 repository: 
 issue: 
 icon: com.xpesa.trade.jpg

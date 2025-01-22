@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://picomediacoin.com
+website: https://walletscrutiny.com/brokenlink/https://www.picomediacoin.com:80/
 repository: 
 issue: 
 icon: com.zeligz.picomedia.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.vitarabrit.com
+website: https://web.archive.org/web/20180808064638/http://vitarabrit.com/
 repository: 
 issue: 
 icon: com.mcways.hb.netcoin.png

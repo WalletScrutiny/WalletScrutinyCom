@@ -17,7 +17,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://breez.technology
+website: https://breez.technology
 repository: https://github.com/breez/breezmobile
 issue: https://github.com/breez/breezmobile/issues/247
 icon: com.breez.client.png

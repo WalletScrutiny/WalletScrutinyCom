@@ -29,7 +29,7 @@ social:
 - https://www.instagram.com/bynex.io
 - https://vk.com/bynexio
 - https://t.me/bynex_info
-- https://www.youtube.com/@bynex4637
+- https://web.archive.org/web/20230331023231/https://www.youtube.com/@bynex4637
 features: 
 developerName: LLC ERPBEL
 

@@ -26,7 +26,7 @@ reviewArchive:
 twitter: yappi_br
 social:
 - https://www.facebook.com/yappi.br
-- https://www.instagram.com/yappi.br/
+- https://walletscrutiny.com/brokenlink/https://www.instagram.com/yappi.br/
 - https://www.linkedin.com/company/yappi-br/
 features: 
 developerName: Yappi Software e Serviços LTDA

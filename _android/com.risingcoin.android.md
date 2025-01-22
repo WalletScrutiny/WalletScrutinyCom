@@ -14,7 +14,7 @@ stars: 3.3
 ratings: 
 reviews: 10
 size: 
-website: https://risingcoin.io
+website: https://web.archive.org/web/20230705075805/https://risingcoin.io/
 repository: 
 issue: 
 icon: com.risingcoin.android.png

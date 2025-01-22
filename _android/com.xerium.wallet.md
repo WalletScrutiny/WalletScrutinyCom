@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: Xerium3
 social:
-- https://www.facebook.com/Xerium
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/Xerium
 redirect_from: 
 developerName: Xeriumtech
 features: 

@@ -13,7 +13,7 @@ version: 3.28.0
 stars: 4.2
 reviews: 584
 size: '156038144'
-website: https://www.swissquote.com/en-ch/private/trade/platforms/forex-cfds/cfxd
+website: https://walletscrutiny.com/brokenlink/https://www.swissquote.com/en-ch/private/trade/platforms/forex-cfds/cfxd
 repository: 
 issue: 
 icon: com.acm.Mobile-Trader.jpg

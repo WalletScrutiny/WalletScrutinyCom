@@ -28,7 +28,7 @@ twitter: Cryptonex_CNX
 social:
 - https://www.linkedin.com/company/cryptonex
 - https://t.me/cryptonexCNX
-- https://www.facebook.com/Cryptonex.org
+- https://web.archive.org/web/20200426210103/https://www.facebook.com/Cryptonex.org
 redirect_from: 
 developerName: Cryptonex LP
 features: 

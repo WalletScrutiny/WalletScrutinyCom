@@ -14,7 +14,7 @@ stars: 1.7
 ratings: 1121
 reviews: 948
 size: 
-website: https://chiji14xchange.com
+website: https://walletscrutiny.com/brokenlink/https://chiji14xchange.com/
 repository: 
 issue: 
 icon: com.chiji14xchange.png

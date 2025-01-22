@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://facoin.info
+website: https://web.archive.org/web/20180809015425/http://facoin.info/
 repository: 
 issue: 
 icon: com.bit.teo.png

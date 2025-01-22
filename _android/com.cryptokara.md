@@ -14,7 +14,7 @@ stars: 4.2
 ratings: 
 reviews: 140
 size: 
-website: https://www.cryptokara.com/
+website: https://walletscrutiny.com/brokenlink/https://www.cryptokara.com/
 repository: 
 issue: 
 icon: com.cryptokara.jpg

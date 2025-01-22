@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: Inigma Co., Ltd. (Inigma Blockchain Services)
 providerWebsite: 
-website: https://web.archive.org/web/20200803150735/https://www.inigmasys.com/
+website: https://walletscrutiny.com/brokenlink/https://www.inigmasys.com/
 shop: https://www.kickstarter.com/projects/inigmacard/inigma-card/description
 country: TW
 price: 

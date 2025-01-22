@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.vcb.com/
+website: https://walletscrutiny.com/brokenlink/https://www.vcb.com/
 repository: 
 issue: 
 icon: com.coldlar.vcb.png

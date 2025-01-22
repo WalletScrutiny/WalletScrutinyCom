@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/jeangillescapital
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/jeangillescapital
 redirect_from: 
 developerName: J G Capital
 features: 

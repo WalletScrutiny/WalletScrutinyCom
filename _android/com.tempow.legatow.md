@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.legatow.com
+website: https://web.archive.org/web/20180825131439/https://legatow.com/
 repository: 
 issue: 
 icon: com.tempow.legatow.png

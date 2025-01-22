@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://relampago.bigsun.xyz
+website: https://walletscrutiny.com/brokenlink/https://relampago.bigsun.xyz
 repository: 
 issue: 
 icon: xyz.bigsun.relampago.png

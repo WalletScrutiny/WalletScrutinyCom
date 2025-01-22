@@ -15,7 +15,7 @@ stars: 2.6
 ratings: 
 reviews: 1
 size: 
-website: http://dzengi.com
+website: https://dzengi.com
 repository: 
 issue: 
 icon: com.currency.exchange.prod2.jpg

@@ -13,7 +13,7 @@ stars: 4.2
 ratings: 
 reviews: 
 size: 
-website: http://topcoinfx.com
+website: https://topcoinfx.com
 repository: 
 issue: 
 icon: com.topcoinfx.png

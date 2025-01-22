@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.bookingpoint.vip
+website: https://walletscrutiny.com/brokenlink/https://www.bookingpoint.vip
 repository: 
 issue: 
 icon: com.bookingpoint.png

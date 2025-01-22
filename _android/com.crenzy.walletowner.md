@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.crenzy.com
+website: https://walletscrutiny.com/brokenlink/https://www.crenzy.com
 repository: 
 issue: 
 icon: com.crenzy.walletowner.png

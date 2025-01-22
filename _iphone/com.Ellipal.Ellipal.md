@@ -13,7 +13,7 @@ version: 4.4.0
 stars: 4.7
 reviews: 2906
 size: '78388224'
-website: http://www.ellipal.com/
+website: https://www.ellipal.com/
 repository: 
 issue: 
 icon: com.Ellipal.Ellipal.jpg

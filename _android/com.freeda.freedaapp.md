@@ -14,7 +14,7 @@ stars: 4.7
 ratings: 80
 reviews: 51
 size: 
-website: https://www.freeda.io
+website: https://walletscrutiny.com/brokenlink/https://www.freeda.io/
 repository: 
 issue: 
 icon: com.freeda.freedaapp.png

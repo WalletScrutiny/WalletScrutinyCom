@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.pccryptomarket.com
+website: https://web.archive.org/web/20220812151341/https://pccryptomarket.com/
 repository: 
 issue: 
 icon: com.pccryptomarket.png

@@ -15,7 +15,7 @@ dimensions:
 weight: 53
 provider: Keypair
 providerWebsite: https://keypair.co.kr/
-website: https://keywallet.co.kr/
+website: https://web.archive.org/web/20200528143058/http://www.keywallet.co.kr/
 shop: 
 country: KR
 price: 

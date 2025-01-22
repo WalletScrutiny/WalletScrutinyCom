@@ -13,7 +13,7 @@ version: 7.41.0
 stars: 4.3
 reviews: 125319
 size: '59793408'
-website: https://bitflyer.com/
+website: https://walletscrutiny.com/brokenlink/https://bitflyer.com:80/
 repository: 
 issue: 
 icon: jp.bitflyer.wallet.jpg

@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: tapswapkenya
 social:
-- https://www.instagram.com/tapswap_kenya/
+- https://walletscrutiny.com/brokenlink/https://www.instagram.com/tapswap_kenya/
 - https://www.linkedin.com/company/tapswap/
 redirect_from: 
 developerName: TapSwap

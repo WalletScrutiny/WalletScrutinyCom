@@ -13,7 +13,7 @@ stars: 5
 ratings: 
 reviews: 
 size: 
-website: https://www.tmebit.co.kr
+website: https://web.archive.org/web/20211225214655/http://tmebit.co.kr/
 repository: 
 issue: 
 icon: com.tmebit.exchange.png

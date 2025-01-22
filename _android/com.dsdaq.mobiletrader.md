@@ -14,7 +14,7 @@ stars: 4.8
 ratings: 510
 reviews: 11
 size: 
-website: https://dsdaq.com
+website: https://walletscrutiny.com/brokenlink/https://www.dsdaq.com:80/
 repository: 
 issue: 
 icon: com.dsdaq.mobiletrader.png
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: dsdaqcom
 social:
-- https://www.facebook.com/dsdaqcom
+- https://web.archive.org/web/20210616121140/https://www.facebook.com/DsdaqCom/
 redirect_from: 
 developerName: Dsdaq Market Ltd.
 features: 

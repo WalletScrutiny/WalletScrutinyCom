@@ -13,7 +13,7 @@ version: 1.2.4
 stars: 4.8
 reviews: 6
 size: '177918976'
-website: https://duo.stackwallet.com/
+website: https://walletscrutiny.com/brokenlink/https://duo.stackwallet.com/
 repository: https://github.com/cypherstack/stack_duo
 issue: 
 icon: com.cypherstack.stackduo.jpg

@@ -13,7 +13,7 @@ version: v2.1.3
 stars: 5
 reviews: 1
 size: 43669504
-website: https://plasmapay.com
+website: https://web.archive.org/web/20191003211220/https://plasmapay.com/
 repository: 
 issue: 
 icon: com.plasmaalliance.PlasmaPay.jpg
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 0xPlasma
 social:
 - https://www.linkedin.com/company/0xplasma
-- https://www.facebook.com/Plasmapay
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/Plasmapay
 - https://www.reddit.com/r/PlasmaPay
 features: 
 developerName: 

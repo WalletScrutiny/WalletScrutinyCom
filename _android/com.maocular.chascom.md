@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://chascom.tech
+website: https://web.archive.org/web/20220310154832/https://www.chascom.tech/
 repository: 
 issue: 
 icon: com.maocular.chascom.jpg

@@ -30,7 +30,7 @@ signer:
 reviewArchive: 
 twitter: ORESystemNFT
 social:
-- https://www.facebook.com/oresystem/
+- https://web.archive.org/web/20211104075411/https://www.facebook.com/Oresystem
 features: 
 
 ---

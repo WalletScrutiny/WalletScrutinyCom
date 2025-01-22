@@ -13,7 +13,7 @@ stars: 4
 ratings: 
 reviews: 
 size: 
-website: https://tent.app
+website: https://web.archive.org/web/20211018190901/https://tent.app
 repository: 
 issue: 
 icon: com.tent.app.png

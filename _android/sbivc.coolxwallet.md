@@ -13,7 +13,7 @@ stars: 3.5
 ratings: 
 reviews: 
 size: 
-website: https://www.sbicxw.com/
+website: https://walletscrutiny.com/brokenlink/https://sbicxw.com/
 repository: 
 issue: 
 icon: sbivc.coolxwallet.png

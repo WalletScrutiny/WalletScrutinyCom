@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.zedxe.com
+website: https://web.archive.org/web/20230429212015/https://www.zedxe.com/
 repository: 
 issue: 
 icon: com.zedXeWallet.png

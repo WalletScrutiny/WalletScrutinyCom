@@ -13,7 +13,7 @@ version: 2.0.2
 stars: 5
 reviews: 2
 size: '11329536'
-website: https://www.salletone.com
+website: https://walletscrutiny.com/brokenlink/https://salletone.com/
 repository: 
 issue: 
 icon: com.sallet.walletBit.jpg

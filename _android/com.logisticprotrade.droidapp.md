@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://logisticprotrade.com/
+website: https://walletscrutiny.com/brokenlink/https://www.logisticprotrade.com/
 repository: 
 issue: 
 icon: com.logisticprotrade.droidapp.jpg

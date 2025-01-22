@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://swapcrypto.ca/
+website: https://walletscrutiny.com/brokenlink/https://swapcrypto.ca/
 repository: 
 issue: 
 icon: com.crypto.exchange.trading.jpg

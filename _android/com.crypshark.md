@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://crypshark.com/
+website: https://web.archive.org/web/20220420055704/https://crypshark.com/
 repository: 
 issue: 
 icon: com.crypshark.png

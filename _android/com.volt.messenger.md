@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.voltmessenger.com
+website: https://web.archive.org/web/20221005024131/https://voltmessenger.com/
 repository: 
 issue: 
 icon: com.volt.messenger.png

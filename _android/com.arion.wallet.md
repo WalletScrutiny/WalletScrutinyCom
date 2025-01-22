@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.arioncoin.com
+website: https://walletscrutiny.com/brokenlink/https://arioncoin.com/
 repository: 
 issue: 
 icon: com.arion.wallet.png

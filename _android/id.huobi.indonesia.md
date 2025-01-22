@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.huobi.com.co
+website: https://www.huobi.com.co
 repository: 
 issue: 
 icon: id.huobi.indonesia.png

@@ -13,7 +13,7 @@ version: 3.6.4
 stars: 2.9
 reviews: 26
 size: '49477632'
-website: http://www.bitvo.com
+website: https://www.bitvo.com
 repository: 
 issue: 
 icon: com.bitvoapp.bitvo.jpg
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: BitvoExchange
 social:
 - https://www.linkedin.com/company/bitvoexchange
-- https://www.facebook.com/BitvoExchange
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/BitvoExchange
 features: 
 developerName: Bitvo
 

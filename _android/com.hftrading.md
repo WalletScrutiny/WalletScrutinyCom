@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.hftrading.com
+website: https://web.archive.org/web/20240624074619/https://hftrading.com/
 repository: 
 issue: 
 icon: com.hftrading.png

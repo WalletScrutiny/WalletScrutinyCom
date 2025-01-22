@@ -13,7 +13,7 @@ stars: 5
 ratings: 
 reviews: 
 size: 
-website: https://www.nineuniverse.com
+website: https://web.archive.org/web/20220625094745/https://www.nineuniverse.com/
 repository: 
 issue: 
 icon: com.sz99.wallet.png

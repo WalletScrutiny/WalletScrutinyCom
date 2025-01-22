@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ix.com
+website: https://walletscrutiny.com/brokenlink/https://ix.com:80/
 repository: 
 issue: 
 icon: com.doloresex_android.png

@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.safcoin.co.za
+website: https://www.safcoin.co.za
 repository: 
 issue: 
 icon: com.fhm.safcoin.png

@@ -15,7 +15,7 @@ dimensions:
 weight: 12
 provider: Senselock Software Technology, Seculab-Europe and Delerex Pte. Ltd.
 providerWebsite: 
-website: https://bitlock.io
+website: https://walletscrutiny.com/brokenlink/https://bitlock.io
 shop: 
 country: SG
 price: 79USD

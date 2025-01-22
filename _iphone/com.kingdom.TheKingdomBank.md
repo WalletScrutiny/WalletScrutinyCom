@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: kingdombankcom
 social:
-- https://www.linkedin.com/company/thekingdombank
+- https://web.archive.org/web/20231109164606/https://www.linkedin.com/company/thekingdombank/
 - https://www.facebook.com/thekingdombank
 - https://www.instagram.com/thekingdombankcom
 - https://www.youtube.com/channel/UCqMayzyXGkITAQsbfiKPowA

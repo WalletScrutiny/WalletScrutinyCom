@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://sendam.app/
+website: https://web.archive.org/web/20240518070022/https://sendam.app/
 repository: 
 issue: 
 icon: com.app.vptplus.png

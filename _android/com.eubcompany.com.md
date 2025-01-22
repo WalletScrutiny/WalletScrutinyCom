@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://eubcompany.com/
+website: https://walletscrutiny.com/brokenlink/https://eubcompany.com/
 repository: 
 issue: 
 icon: com.eubcompany.com.jpg

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://astrollax.com
+website: https://walletscrutiny.com/brokenlink/https://astrollax.com/
 repository: 
 issue: 
 icon: com.astrolltd.astrollax.png

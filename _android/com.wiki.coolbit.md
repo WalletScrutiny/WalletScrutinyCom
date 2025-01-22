@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.coolbit.com
+website: https://web.archive.org/web/20240922220126/https://coolbit.com/
 repository: 
 issue: 
 icon: com.wiki.coolbit.png

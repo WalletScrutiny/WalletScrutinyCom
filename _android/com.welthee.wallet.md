@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://welthee.com/
+website: https://walletscrutiny.com/brokenlink/https://welthee.com/
 repository: 
 issue: 
 icon: com.welthee.wallet.png

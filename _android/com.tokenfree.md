@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://tokenfree.net
+website: https://web.archive.org/web/20111006233146/http://tokenfree.net/
 repository: 
 issue: 
 icon: com.tokenfree.png

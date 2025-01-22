@@ -27,7 +27,7 @@ reviewArchive:
 twitter: studentcoinorg
 social:
 - https://www.linkedin.com/company/student-coin-worldwide
-- https://www.facebook.com/studentcoin.org
+- https://web.archive.org/web/20220316065225/https://www.facebook.com/studentcoin.org
 - https://www.reddit.com/r/Studentcoin
 redirect_from: 
 developerName: Student Coin

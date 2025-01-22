@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://shahofcrypto.com/
+website: https://walletscrutiny.com/brokenlink/https://shahofcrypto.com/
 repository: 
 issue: 
 icon: com.wa.shah.jpg

@@ -14,7 +14,7 @@ stars: 3.6
 ratings: 
 reviews: 69
 size: 
-website: http://pewall.org
+website: https://pewall.org
 repository: 
 issue: 
 icon: com.Pepelabs.Pepewallet.png

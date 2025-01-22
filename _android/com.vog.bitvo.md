@@ -14,7 +14,7 @@ stars: 2.9
 ratings: 24
 reviews: 19
 size: 
-website: https://bitvo.com
+website: https://www.bitvo.com:80/
 repository: 
 issue: 
 icon: com.vog.bitvo.png
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: BitvoExchange
 social:
 - https://www.linkedin.com/company/bitvoexchange
-- https://www.facebook.com/BitvoExchange
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/BitvoExchange
 redirect_from: 
 developerName: Bitvo Inc
 features: 

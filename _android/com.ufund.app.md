@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://web.ufund.online
+website: https://web.archive.org/web/20230110040629/https://web.ufund.online/
 repository: 
 issue: 
 icon: com.ufund.app.png

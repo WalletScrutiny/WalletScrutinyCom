@@ -27,7 +27,7 @@ reviewArchive:
 twitter: cakedefi
 social:
 - https://www.linkedin.com/company/cakedefi
-- https://www.facebook.com/cakedefi
+- https://web.archive.org/web/20210527124713/https://www.facebook.com/cakedefi
 - https://www.reddit.com/r/cakedefi
 redirect_from: 
 developerName: Cake Group

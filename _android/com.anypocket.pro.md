@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://anypocket.io
+website: https://walletscrutiny.com/brokenlink/https://anypocket.io/
 repository: 
 issue: 
 icon: com.anypocket.pro.png

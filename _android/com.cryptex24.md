@@ -14,7 +14,7 @@ stars: 3.3
 ratings: 
 reviews: 
 size: 
-website: https://www.cryptex24.io
+website: https://web.archive.org/web/20210618043620/https://www.cryptex24.io/
 repository: 
 issue: 
 icon: com.cryptex24.png

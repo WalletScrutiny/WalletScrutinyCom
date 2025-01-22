@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.kimpper.com
+website: https://web.archive.org/web/20220617081711/https://www.kimpper.com/
 repository: 
 issue: 
 icon: com.kimpper.png

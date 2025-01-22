@@ -30,7 +30,7 @@ social:
 - https://t.me/PrimeXBT_English
 - https://www.reddit.com/r/PrimeXBT
 - https://discord.com/invite/yEr8p72pxu
-- https://www.youtube.com/channel/UCzH0C03Gy8uHyKr-Y59cwJg
+- https://web.archive.org/web/20201127041722/https://www.youtube.com/channel/UCzH0C03Gy8uHyKr-Y59cwJg
 redirect_from: 
 developerName: Prime Technology LTD
 features: 

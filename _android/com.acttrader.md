@@ -27,7 +27,7 @@ reviewArchive:
 twitter: ActTraderTech
 social:
 - https://www.facebook.com/ActTrader
-- https://www.youtube.com/@ActTrader
+- https://walletscrutiny.com/brokenlink/https://www.youtube.com/@ActTrader
 - https://www.linkedin.com/company/acttrader
 - https://www.instagram.com/acttrader
 redirect_from: 

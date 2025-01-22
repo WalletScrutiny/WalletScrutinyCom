@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.gowowx.com
+website: https://walletscrutiny.com/brokenlink/https://gowowx.com/
 repository: 
 issue: 
 icon: com.app.gowowx.png

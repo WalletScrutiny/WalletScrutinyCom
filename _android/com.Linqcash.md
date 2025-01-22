@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.linqcash.com/
+website: https://walletscrutiny.com/brokenlink/https://www.linqcash.com/
 repository: 
 issue: 
 icon: com.Linqcash.png

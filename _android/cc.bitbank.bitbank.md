@@ -27,7 +27,7 @@ reviewArchive:
 twitter: bitbank_inc
 social:
 - https://www.instagram.com/bitbank_official
-- https://www.facebook.com/bitbank.inc
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/bitbank.inc
 redirect_from: 
 developerName: bitbank inc.
 features: 

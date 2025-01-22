@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.proof.la/
+website: https://web.archive.org/web/20141218031913/http://proof.la/
 repository: 
 issue: 
 icon: com.idcg.idcw.dz.png

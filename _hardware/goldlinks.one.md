@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: GoldlinksGlobal
 providerWebsite: 
-website: https://www.goldlinks.one/
+website: https://walletscrutiny.com/brokenlink/https://www.goldlinks.one/
 shop: https://www.goldlinks.one/list.php?pid=3&ty=28
 country: SG
 price: 

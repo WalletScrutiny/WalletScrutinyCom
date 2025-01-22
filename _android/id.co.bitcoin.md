@@ -14,7 +14,7 @@ stars: 4.4
 ratings: 97568
 reviews: 429
 size: 
-website: http://indodax.com
+website: https://indodax.com
 repository: 
 issue: 
 icon: id.co.bitcoin.png

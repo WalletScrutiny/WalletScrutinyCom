@@ -16,7 +16,7 @@ dimensions:
 weight: 
 provider: BEPAL
 providerWebsite: https://bepal.pro/
-website: https://bepal.pro/bepal-pro-s?type=Bepal%20Pro%20S
+website: https://walletscrutiny.com/brokenlink/https://bepal.pro/bepal-pro-s?type=Bepal%20Pro%20S
 shop: https://bepal.pro/bepal-pro-s?type=Bepal%20Pro%20S
 country: CH
 price: 3280CNY

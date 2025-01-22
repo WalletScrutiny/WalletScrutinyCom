@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.liquigate.com
+website: https://walletscrutiny.com/brokenlink/https://www.liquigate.com
 repository: 
 issue: 
 icon: com.liquigate.png

@@ -27,7 +27,7 @@ reviewArchive:
 twitter: Infinito_Ltd
 social:
 - https://www.linkedin.com/company/infinitoservices
-- https://www.facebook.com/InfinitoWallet
+- https://web.archive.org/web/20190705202102/https://www.facebook.com/InfinitoWallet/
 redirect_from:
 - /io.infinito.wallet/
 - /posts/io.infinito.wallet/

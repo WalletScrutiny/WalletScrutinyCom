@@ -15,7 +15,7 @@ version: '2.480'
 stars: 3.4
 reviews: 172
 size: '63362048'
-website: http://wallets.africa
+website: https://wallets.africa
 repository: 
 issue: 
 icon: ng.wallet.prod.jpg

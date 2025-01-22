@@ -14,7 +14,7 @@ stars: 3.8
 ratings: 346
 reviews: 8
 size: 
-website: https://ducatus.net/
+website: https://www.ducatus.net:80/
 repository: 
 issue: 
 icon: io.ducatus.walnew.png

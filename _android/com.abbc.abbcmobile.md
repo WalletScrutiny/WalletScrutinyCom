@@ -14,7 +14,7 @@ stars: 4.2
 ratings: 629
 reviews: 7
 size: 
-website: http://abbcpayment.com
+website: https://abbcpayment.com
 repository: 
 issue: 
 icon: com.abbc.abbcmobile.png

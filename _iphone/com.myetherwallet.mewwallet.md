@@ -13,7 +13,7 @@ version: 2.5.5
 stars: 4.6
 reviews: 5222
 size: '334377984'
-website: http://mewwallet.com
+website: https://mewwallet.com
 repository: 
 issue: 
 icon: com.myetherwallet.mewwallet.jpg

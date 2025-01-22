@@ -14,7 +14,7 @@ stars: 4.6
 ratings: 
 reviews: 8
 size: 
-website: https://fnk.com
+website: https://walletscrutiny.com/brokenlink/https://www.fnk.com:80/
 repository: 
 issue: 
 icon: com.fnkcom.jpg

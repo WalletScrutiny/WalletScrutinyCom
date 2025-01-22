@@ -13,7 +13,7 @@ version: 4.54.0
 stars: 4.2
 reviews: 53
 size: '127868928'
-website: http://www.bitbill.com
+website: https://walletscrutiny.com/brokenlink/https://www.bitbill.com:80/
 repository: 
 issue: 
 icon: com.bitbill.wallet.jpg

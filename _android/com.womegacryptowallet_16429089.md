@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://findhereall.com
+website: https://web.archive.org/web/20240918230006/https://findhereall.com/
 repository: 
 issue: 
 icon: com.womegacryptowallet_16429089.png

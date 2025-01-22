@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.swappy.ws
+website: https://web.archive.org/web/20220317162026/https://www.swappy.ws/
 repository: 
 issue: 
 icon: com.swappy.forint.png

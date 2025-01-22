@@ -28,7 +28,7 @@ social:
 - https://www.youtube.com/c/mayaiseverything
 - https://www.tiktok.com/@mayaiseverything
 - https://www.facebook.com/mayaiseverything
-- https://www.linkedin.com/company/mayaph
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/mayaph
 - https://www.instagram.com/mayaiseverything
 features: 
 developerName: Maya Philippines, Inc.

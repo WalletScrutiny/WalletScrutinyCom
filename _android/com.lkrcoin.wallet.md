@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://lkrcoin.io/
+website: https://walletscrutiny.com/brokenlink/https://www.lkrcoin.io:80/
 repository: 
 issue: 
 icon: com.lkrcoin.wallet.png

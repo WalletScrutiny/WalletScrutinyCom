@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://bithappy.co.uk
+website: https://walletscrutiny.com/brokenlink/https://bithappy.co.uk:80/
 repository: 
 issue: 
 icon: com.bithappy.browser.v1.png

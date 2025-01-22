@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.gonechain.io
+website: https://web.archive.org/web/20211205235654/http://gonechain.io/
 repository: 
 issue: 
 icon: com.bonsystem.gone.appwallet.png

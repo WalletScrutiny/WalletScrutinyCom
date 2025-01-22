@@ -14,7 +14,7 @@ stars: 4.8
 ratings: 
 reviews: 20
 size: 
-website: https://add.xyz/
+website: https://web.archive.org/web/20201101000500/https://add.xyz/
 repository: 
 issue: 
 icon: com.add_mobile.png

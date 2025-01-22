@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://dentrocoin.com
+website: https://walletscrutiny.com/brokenlink/https://www.dentrocoin.com/
 repository: 
 issue: 
 icon: xyz.appmaker.mevpis.png

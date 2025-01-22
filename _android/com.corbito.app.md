@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.cobirtolite.com
+website: https://walletscrutiny.com/brokenlink/https://www.cobirtolite.com
 repository: 
 issue: 
 icon: com.corbito.app.png

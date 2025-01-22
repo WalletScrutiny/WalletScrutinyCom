@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://dashboard.criptohub.com.br/
+website: https://walletscrutiny.com/brokenlink/https://dashboard.criptohub.com.br/
 repository: 
 issue: 
 icon: com.criptohub.png

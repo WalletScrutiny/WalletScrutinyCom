@@ -13,7 +13,7 @@ version: 3.53.1
 stars: 4.9
 reviews: 62
 size: '100377600'
-website: https://www.vantagemarkets.com/
+website: https://walletscrutiny.com/brokenlink/https://www.vantagemarkets.com/
 repository: 
 issue: 
 icon: com.vttech.VantageFX.jpg
@@ -25,8 +25,8 @@ signer:
 reviewArchive: 
 twitter: VantageFX
 social:
-- https://www.linkedin.com/company/vantage-fx
-- https://www.facebook.com/VantageFXBroker
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/vantage-fx
+- https://web.archive.org/web/20200501224446/https://www.facebook.com/VantageFXBroker
 features: 
 developerName: Vantage Global Prime PTY LTD
 

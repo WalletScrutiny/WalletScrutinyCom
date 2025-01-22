@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: ex_scudo
 social:
-- https://www.facebook.com/exscudo
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/exscudo
 - https://www.reddit.com/r/EXSCUDO
 features: 
 developerName: Exscudo OU

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://larewallet.cc
+website: https://walletscrutiny.com/brokenlink/https://larewallet.cc
 repository: 
 issue: 
 icon: io.laresystems.bankwallet.png

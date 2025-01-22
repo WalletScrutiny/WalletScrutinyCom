@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: cExchange2
 social:
-- https://www.facebook.com/cexchange1
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/cexchange1
 - https://www.youtube.com/channel/UCrNgVFl6hE2gtBoNpjS0DVg
 - https://t.me/+SH-VNP--ecY15_fl
 redirect_from: 

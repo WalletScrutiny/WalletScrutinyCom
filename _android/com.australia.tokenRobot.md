@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.tokenrobot.net/
+website: https://web.archive.org/web/20220705193556/https://www.tokenrobot.net/
 repository: 
 issue: 
 icon: com.australia.tokenRobot.png

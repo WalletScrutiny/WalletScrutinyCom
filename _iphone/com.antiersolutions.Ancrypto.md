@@ -26,11 +26,11 @@ reviewArchive:
 twitter: AnCryptoWallet
 social:
 - https://www.linkedin.com/company/ancrypto
-- https://www.facebook.com/ancrypto.io
+- https://web.archive.org/web/20230609021543/https://www.facebook.com/ancrypto.io/
 - https://t.me/+rLAv56hhJN1hZTM1
 - https://www.instagram.com/ancrypto.io
 - https://discord.com/invite/pN3NXfpJgF
-- https://www.youtube.com/@ancryptowallet
+- https://web.archive.org/web/20230518065936/https://www.youtube.com/@ancryptowallet
 features: 
 developerName: Ancrypto
 

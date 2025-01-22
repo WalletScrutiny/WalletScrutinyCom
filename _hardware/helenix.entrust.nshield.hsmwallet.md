@@ -28,7 +28,7 @@ reviewArchive:
 twitter: 
 social:
 - https://www.linkedin.com/company/helenix/
-- https://www.facebook.com/helenixdev
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/helenixdev
 features: 
 
 ---

@@ -15,7 +15,7 @@ stars: 4
 ratings: 25
 reviews: 15
 size: 14M
-website: http://InSense.tech
+website: https://walletscrutiny.com/brokenlink/https://InSense.tech
 repository: 
 issue: 
 icon: tech.insense.sensewalet.png

@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://mchange.net
+website: https://web.archive.org/web/20210618021941/https://mchange.net/
 repository: 
 issue: 
 icon: com.mchangeapps.mchange.png

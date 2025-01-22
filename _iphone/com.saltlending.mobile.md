@@ -13,7 +13,7 @@ version: 2.15.52
 stars: 4.6
 reviews: 25
 size: '68503552'
-website: https://saltlending.com/
+website: https://walletscrutiny.com/brokenlink/https://saltlending.com/
 repository: 
 issue: 
 icon: com.saltlending.mobile.jpg

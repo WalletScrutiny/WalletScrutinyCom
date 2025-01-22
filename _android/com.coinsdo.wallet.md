@@ -26,8 +26,8 @@ signer:
 reviewArchive: 
 twitter: coinsdogroup
 social:
-- https://www.facebook.com/CoinsDogroup
-- https://www.linkedin.com/company/coinsdo
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/CoinsDogroup
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/coinsdo
 redirect_from: 
 developerName: COINSDO
 features: 

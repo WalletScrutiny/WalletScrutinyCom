@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bankinmind.com/
+website: https://web.archive.org/web/20240917183313/http://bankinmind.com/
 repository: 
 issue: 
 icon: com.bankinmind.png

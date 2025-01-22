@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://hurbito.com
+website: https://walletscrutiny.com/brokenlink/https://hurbito.com
 repository: 
 issue: 
 icon: com.hurbito.app.jpg

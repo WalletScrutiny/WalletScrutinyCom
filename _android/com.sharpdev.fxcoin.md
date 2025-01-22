@@ -14,7 +14,7 @@ stars: 3.3
 ratings: 2801
 reviews: 1642
 size: 
-website: http://fxcoin.pro
+website: https://walletscrutiny.com/brokenlink/https://fxcoin.pro/
 repository: 
 issue: 
 icon: com.sharpdev.fxcoin.png

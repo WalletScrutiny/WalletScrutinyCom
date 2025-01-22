@@ -55,7 +55,7 @@ reviewArchive:
   verdict: ftbfs
 twitter: BitPay
 social:
-- https://www.linkedin.com/company/bitpay-inc-
+- https://web.archive.org/web/20241117023622/https://www.linkedin.com/company/bitpay-inc-
 - https://www.facebook.com/BitPayOfficial
 redirect_from:
 - /bitpay/

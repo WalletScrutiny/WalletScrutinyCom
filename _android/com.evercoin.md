@@ -14,7 +14,7 @@ stars: 3.7
 ratings: 203
 reviews: 59
 size: 
-website: https://evercoin.com
+website: https://walletscrutiny.com/brokenlink/https://evercoin.com/
 repository: 
 issue: 
 icon: com.evercoin.png
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: everc0in
 social:
-- https://www.facebook.com/evercoin
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/evercoin
 redirect_from: 
 developerName: 
 features: 

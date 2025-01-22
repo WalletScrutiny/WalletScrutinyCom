@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.vervetsystems.com
+website: https://walletscrutiny.com/brokenlink/https://www.vervetsystems.com/
 repository: 
 issue: 
 icon: com.danny709.vervet.png

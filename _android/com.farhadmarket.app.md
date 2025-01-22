@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 1035
 reviews: 14
 size: 
-website: https://farhadmarket.com/
+website: https://web.archive.org/web/20210623002310/https://farhadmarket.com/
 repository: 
 issue: 
 icon: com.farhadmarket.app.png

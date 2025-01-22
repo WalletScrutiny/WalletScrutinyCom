@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.bmining.com/
+website: https://web.archive.org/web/20210122062710/https://www.bmining.com/
 repository: 
 issue: 
 icon: com.bminingapp.png

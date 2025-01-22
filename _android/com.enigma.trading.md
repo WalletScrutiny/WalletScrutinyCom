@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bfxstandard.com/
+website: https://web.archive.org/web/20220930154703/https://bfxstandard.com/
 repository: 
 issue: 
 icon: com.enigma.trading.jpg

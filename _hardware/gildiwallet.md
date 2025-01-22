@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: Ragnar Labs, Inc. (Matthew Lebedev)
 providerWebsite: 
-website: https://web.archive.org/web/20180816111100/https://gildiwallet.com/
+website: https://walletscrutiny.com/brokenlink/https://gildiwallet.com/
 shop: 
 country: US
 price: 

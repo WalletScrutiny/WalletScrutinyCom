@@ -14,7 +14,7 @@ stars: 2.7
 ratings: 
 reviews: 5
 size: 
-website: http://www.finq.com
+website: https://www.finq.com
 repository: 
 issue: 
 icon: com.finq.android.png

@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: BitrueOfficial
 social:
-- https://www.facebook.com/BitrueOfficial
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/BitrueOfficial
 redirect_from:
 - /com.bitrue.currency.exchange/
 developerName: Bitrue Support

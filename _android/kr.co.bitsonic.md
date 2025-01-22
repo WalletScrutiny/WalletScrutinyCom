@@ -14,7 +14,7 @@ stars: 2.2
 ratings: 1533
 reviews: 3
 size: 
-website: http://bitsonic.co.kr
+website: https://walletscrutiny.com/brokenlink/https://bitsonic.co.kr/
 repository: 
 issue: 
 icon: kr.co.bitsonic.png

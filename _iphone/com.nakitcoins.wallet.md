@@ -13,7 +13,7 @@ version: 2.2.0
 stars: 5
 reviews: 2
 size: '9753600'
-website: https://nakitcoins.com
+website: https://walletscrutiny.com/brokenlink/https://nakitcoins.com
 repository: 
 issue: 
 icon: com.nakitcoins.wallet.jpg

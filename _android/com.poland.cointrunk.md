@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://cointrunk.net
+website: https://web.archive.org/web/20220504195216/http://www.cointrunk.net/
 repository: 
 issue: 
 icon: com.poland.cointrunk.jpg

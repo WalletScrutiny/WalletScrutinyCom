@@ -28,7 +28,7 @@ twitter: Nexo
 social:
 - https://www.reddit.com/r/Nexo
 - https://t.me/nexofinance
-- https://www.facebook.com/nexofinance
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/nexofinance
 redirect_from: 
 developerName: Nexo Capital Incorporated
 features: 

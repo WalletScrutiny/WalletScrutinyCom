@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://smallet.co
+website: https://web.archive.org/web/20240326174319/https://www.smallet.co/
 repository: 
 issue: 
 icon: co.smallet.keystorage.png

@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: dovewallet_en
 social:
-- https://www.facebook.com/dovewalleten
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/dovewalleten
 - https://www.reddit.com/r/DoveWallet
 redirect_from: 
 developerName: 

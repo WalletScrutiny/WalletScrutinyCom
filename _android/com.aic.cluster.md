@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://clusterwallet.com
+website: https://web.archive.org/web/20180804163035/http://clusterwallet.com/
 repository: 
 issue: 
 icon: com.aic.cluster.png

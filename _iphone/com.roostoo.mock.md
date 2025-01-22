@@ -13,7 +13,7 @@ version: 2.0.0
 stars: 4.3
 reviews: 24
 size: '77777920'
-website: http://www.roostoo.com
+website: https://www.roostoo.com
 repository: 
 issue: 
 icon: com.roostoo.mock.jpg

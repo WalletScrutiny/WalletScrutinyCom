@@ -14,7 +14,7 @@ stars: 3.8
 ratings: 
 reviews: 14
 size: 
-website: http://www.ig.com
+website: https://www.ig.com
 repository: 
 issue: 
 icon: com.iggroup.android.cfd.png

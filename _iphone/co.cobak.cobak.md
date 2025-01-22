@@ -26,7 +26,7 @@ reviewArchive:
 twitter: CobakOfficial
 social:
 - https://www.linkedin.com/company/cobak
-- https://www.facebook.com/coindaebak
+- https://web.archive.org/web/20220624085140/https://www.facebook.com/coindaebak
 features: 
 developerName: COBAK CO., LTD.
 

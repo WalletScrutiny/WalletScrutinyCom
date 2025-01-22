@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://portaltest.gesgame.io/
+website: https://walletscrutiny.com/brokenlink/https://portaltest.gesgame.io/
 repository: 
 issue: 
 icon: com.geswallet.start.png

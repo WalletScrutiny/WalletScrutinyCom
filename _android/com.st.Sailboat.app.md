@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://apper.cc/privacy
+website: https://walletscrutiny.com/brokenlink/https://apper.cc/privacy
 repository: 
 issue: 
 icon: com.st.Sailboat.app.png

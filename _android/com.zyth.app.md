@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 
 reviews: 
 size: 
-website: https://www.uzyth.com/
+website: https://web.archive.org/web/20220809014503/https://www.uzyth.com/
 repository: 
 issue: 
 icon: com.zyth.app.png

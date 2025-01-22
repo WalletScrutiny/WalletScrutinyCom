@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 5176
 reviews: 346
 size: 
-website: http://www.thinkmarkets.com
+website: https://www.thinkmarkets.com
 repository: 
 issue: 
 icon: com.riflexo.tradeinterceptormobile.png

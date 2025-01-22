@@ -13,7 +13,7 @@ version: '3.4'
 stars: 3.1
 reviews: 118
 size: '41366528'
-website: https://coincred.org/
+website: https://walletscrutiny.com/brokenlink/https://coincred.org/
 repository: 
 issue: 
 icon: com.coincred.jpg
@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: CoinCRED_
 social:
-- https://www.facebook.com/CoinCRED.Official/
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/CoinCRED.Official/
 - https://www.linkedin.com/company/coin-cred/
 features: 
 developerName: CoinCRED

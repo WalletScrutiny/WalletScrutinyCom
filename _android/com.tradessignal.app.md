@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://tradessignal.com
+website: https://walletscrutiny.com/brokenlink/https://www.tradessignal.com/
 repository: 
 issue: 
 icon: com.tradessignal.app.png

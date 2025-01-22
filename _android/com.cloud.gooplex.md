@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://info.gooplex.com.br/
+website: https://walletscrutiny.com/brokenlink/https://info.gooplex.com.br/
 repository: 
 issue: 
 icon: com.cloud.gooplex.png

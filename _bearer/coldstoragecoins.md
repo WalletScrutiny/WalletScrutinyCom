@@ -32,7 +32,7 @@ twitter: coldstoragecoin
 social:
 - https://www.linkedin.com/company/rearden-metals/
 - https://www.instagram.com/coldstoragecoins
-- https://www.facebook.com/coldstoragecoins
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/coldstoragecoins
 - https://github.com/ReardenMetals
 features: 
 

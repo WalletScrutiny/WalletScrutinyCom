@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.bitalgopayment.com
+website: https://web.archive.org/web/20210623204011/https://bitalgopayment.com/
 repository: 
 issue: 
 icon: com.bitalgopayment.android.png

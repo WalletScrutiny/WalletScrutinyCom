@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: Vault0x
 providerWebsite: 
-website: https://web.archive.org/web/20180921024302/http://vault0x.io/
+website: https://walletscrutiny.com/brokenlink/https://vault0x.io/
 shop: 
 country: IN
 price: 

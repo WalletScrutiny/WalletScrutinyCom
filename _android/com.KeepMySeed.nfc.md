@@ -13,7 +13,7 @@ stars: 4.9
 ratings: 
 reviews: 
 size: 
-website: https://KeepMySeed.com
+website: https://web.archive.org/web/20200812060902/https://keepmyseed.com/
 repository: 
 issue: 
 icon: com.KeepMySeed.nfc.png

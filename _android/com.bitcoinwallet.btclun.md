@@ -14,7 +14,7 @@ stars: 2.6
 ratings: 
 reviews: 33
 size: 
-website: https://bitefinance.net
+website: https://walletscrutiny.com/brokenlink/https://bitefinance.net
 repository: 
 issue: 
 icon: com.bitcoinwallet.btclun.png

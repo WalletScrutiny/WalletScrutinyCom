@@ -14,7 +14,7 @@ stars:
 ratings: 48
 reviews: 
 size: 
-website: https://antareswallet.com/
+website: https://web.archive.org/web/20210620115300/https://antareswallet.com/
 repository: 
 issue: 
 icon: com.antareswallet.app.jpg

@@ -26,7 +26,7 @@ reviewArchive:
 twitter: quadency
 social:
 - https://www.linkedin.com/company/quadency/
-- https://www.facebook.com/quadency
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/quadency
 features: 
 developerName: Quadency Inc
 

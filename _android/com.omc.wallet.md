@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://omc-group.co/
+website: https://web.archive.org/web/20200717091337/https://omc-group.co/
 repository: 
 issue: 
 icon: com.omc.wallet.png

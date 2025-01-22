@@ -13,7 +13,7 @@ stars: 5
 ratings: 
 reviews: 
 size: 
-website: https://heru.finance/
+website: https://web.archive.org/web/20220628065152/https://heru.finance/
 repository: 
 issue: 
 icon: com.herufinance.png

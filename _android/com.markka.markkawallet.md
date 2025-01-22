@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://markka.com
+website: https://walletscrutiny.com/brokenlink/https://www.markka.com:80/
 repository: 
 issue: 
 icon: com.markka.markkawallet.png

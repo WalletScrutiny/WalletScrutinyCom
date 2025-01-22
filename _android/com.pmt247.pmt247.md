@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.pmt247.com
+website: https://walletscrutiny.com/brokenlink/https://www.pmt247.com
 repository: 
 issue: 
 icon: com.pmt247.pmt247.png

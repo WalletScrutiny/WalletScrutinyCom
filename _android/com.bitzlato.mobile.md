@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bitzlato.com/
+website: https://walletscrutiny.com/brokenlink/https://bitzlato.com/
 repository: 
 issue: 
 icon: com.bitzlato.mobile.png

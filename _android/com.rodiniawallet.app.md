@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://rodiniawallet.com
+website: https://walletscrutiny.com/brokenlink/https://rodiniawallet.com
 repository: 
 issue: 
 icon: com.rodiniawallet.app.jpg

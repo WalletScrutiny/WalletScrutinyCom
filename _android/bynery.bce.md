@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.bynery.com
+website: https://walletscrutiny.com/brokenlink/https://www.bynery.com
 repository: 
 issue: 
 icon: bynery.bce.png

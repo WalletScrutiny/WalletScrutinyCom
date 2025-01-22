@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: mandalaex
 social:
-- https://www.facebook.com/mandalaexchange
+- https://web.archive.org/web/20220911082433/https://www.facebook.com/mandalaexchange
 - https://www.reddit.com/r/MandalaExchange
 redirect_from: 
 developerName: MandalaEx

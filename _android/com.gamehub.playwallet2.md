@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.playwallet.io/
+website: https://web.archive.org/web/20240621233223/https://www.playwallet.io/
 repository: 
 issue: 
 icon: com.gamehub.playwallet2.png

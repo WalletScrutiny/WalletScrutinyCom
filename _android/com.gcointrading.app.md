@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.gtradingapp.com/
+website: https://web.archive.org/web/20200909083515/http://gtradingapp.com/
 repository: 
 issue: 
 icon: com.gcointrading.app.png

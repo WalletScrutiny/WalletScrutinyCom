@@ -13,7 +13,7 @@ version: '6.3'
 stars: 4.6
 reviews: 4760
 size: '111684608'
-website: https://weareblox.com
+website: https://walletscrutiny.com/brokenlink/https://weareblox.com
 repository: 
 issue: 
 icon: com.weareblox.app.jpg
@@ -25,9 +25,9 @@ signer:
 reviewArchive: 
 twitter: weareblox
 social:
-- https://www.linkedin.com/company/weareblox
-- https://www.youtube.com/c/weareblox
-- https://www.instagram.com/weareblox
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/weareblox
+- https://walletscrutiny.com/brokenlink/https://www.youtube.com/c/weareblox
+- https://walletscrutiny.com/brokenlink/https://www.instagram.com/weareblox
 - https://www.tiktok.com/@weareblox
 - https://bloxcrypto.medium.com
 features: 

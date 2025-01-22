@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ettawallet.app
+website: https://web.archive.org/web/20230520153942/https://ettawallet.app/
 repository: https://github.com/EttaWallet/EttaWallet
 issue: 
 icon: com.ettaln.png

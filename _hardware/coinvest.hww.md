@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: Coinvest
 providerWebsite: 
-website: https://vault.coinve.st/
+website: https://walletscrutiny.com/brokenlink/https://vault.coinve.st/
 shop: 
 country: US
 price: 

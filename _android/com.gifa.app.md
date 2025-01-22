@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.gifatoken.com
+website: https://web.archive.org/web/20210122161853/https://gifatoken.com/
 repository: 
 issue: 
 icon: com.gifa.app.png

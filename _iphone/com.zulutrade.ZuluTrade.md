@@ -13,7 +13,7 @@ version: 4.24.0
 stars: 4.2
 reviews: 10
 size: 65590272
-website: https://www.zulutrade.com/
+website: https://web.archive.org/web/20230203232812/https://www.zulutrade.com/
 repository: 
 issue: 
 icon: com.zulutrade.ZuluTrade.jpg

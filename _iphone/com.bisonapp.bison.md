@@ -13,7 +13,7 @@ version: 4.4.0
 stars: 5
 reviews: 2
 size: '177843200'
-website: https://bisonapp.com/
+website: https://web.archive.org/web/20240619211228/https://bisonapp.com/
 repository: 
 issue: 
 icon: com.bisonapp.bison.jpg

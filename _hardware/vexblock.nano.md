@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: Vex Capital and Technology LTD
 providerWebsite: 
-website: https://vexblock.co
+website: https://walletscrutiny.com/brokenlink/https://vexblock.co
 shop: 
 country: 
 price: 29.9USD

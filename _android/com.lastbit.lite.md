@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: lastbitpay
 social:
-- https://www.facebook.com/lastbitpay
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/lastbitpay
 - https://github.com/lastbit-io
 redirect_from: 
 developerName: 

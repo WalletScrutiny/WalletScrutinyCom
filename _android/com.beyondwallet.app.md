@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.mybeyondwallet.com
+website: https://walletscrutiny.com/brokenlink/https://www.mybeyondwallet.com
 repository: 
 issue: 
 icon: com.beyondwallet.app.png

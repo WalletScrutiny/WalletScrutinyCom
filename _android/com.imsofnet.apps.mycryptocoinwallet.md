@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.imsofnet.com
+website: https://web.archive.org/web/20180806025046/http://imsofnet.com/
 repository: 
 issue: 
 icon: com.imsofnet.apps.mycryptocoinwallet.png

@@ -13,7 +13,7 @@ version: '1.51'
 stars: 2.9
 reviews: 7
 size: '155293696'
-website: http://www.capex.com/
+website: https://www.capex.com/
 repository: 
 issue: 
 icon: com.trader.brands.cfdglobal.jpg
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: capex_en
 social:
 - https://www.linkedin.com/company/capexglobal
-- https://www.facebook.com/CAPEXSeychelles
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/CAPEXSeychelles
 features: 
 developerName: Key Way Investment Ltd
 

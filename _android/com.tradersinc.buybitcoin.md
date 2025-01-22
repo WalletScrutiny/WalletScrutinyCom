@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.tradersinc.mobi
+website: https://walletscrutiny.com/brokenlink/https://www.tradersinc.mobi/
 repository: 
 issue: 
 icon: com.tradersinc.buybitcoin.png

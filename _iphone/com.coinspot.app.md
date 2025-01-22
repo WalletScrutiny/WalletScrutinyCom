@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: coinspotau
 social:
-- https://www.facebook.com/coinspotau
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/coinspotau
 features: 
 developerName: CoinSpot
 

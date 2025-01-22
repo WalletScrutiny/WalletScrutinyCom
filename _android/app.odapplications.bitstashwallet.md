@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://payments.bitstash.co/
+website: https://web.archive.org/web/20200803112829/https://payments.bitstash.co/
 repository: 
 issue: 
 icon: app.odapplications.bitstashwallet.png

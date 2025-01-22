@@ -14,7 +14,7 @@ stars: 3.7
 ratings: 
 reviews: 
 size: 
-website: https://volentix.io/verto
+website: https://web.archive.org/web/20201111215330/https://volentix.io/verto
 repository: 
 issue: 
 icon: org.cordova.verto.app.png

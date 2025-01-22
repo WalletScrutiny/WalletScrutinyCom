@@ -29,7 +29,7 @@ social:
 - https://www.linkedin.com/company/kangaexchange/
 - https://t.me/KangaExchange
 - https://www.youtube.com/channel/UCgB3tPtXgu4f3cIxqZlrB8Q
-- https://www.facebook.com/kanga.exchange/
+- https://web.archive.org/web/20220303194857/https://www.facebook.com/kanga.exchange/
 redirect_from: 
 developerName: Kanga Technologies
 features: 

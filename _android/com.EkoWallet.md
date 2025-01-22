@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ekowallet.com
+website: https://web.archive.org/web/20180806172515/http://ekowallet.com/
 repository: 
 issue: 
 icon: com.EkoWallet.png

@@ -14,7 +14,7 @@ stars: 4.5
 ratings: 
 reviews: 366
 size: 
-website: http://bitcoinfaucet.promo-miner.com/
+website: https://bitcoinfaucet.promo-miner.com/
 repository: 
 issue: 
 icon: ps.bitcoinfaucet.app.png

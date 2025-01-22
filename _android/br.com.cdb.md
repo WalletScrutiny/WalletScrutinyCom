@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.coindigitalbank.com/
+website: https://web.archive.org/web/20180808234411/http://coindigitalbank.com/
 repository: 
 issue: 
 icon: br.com.cdb.png

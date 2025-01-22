@@ -13,7 +13,7 @@ version: 3.4.4
 stars: 4.7
 reviews: 2420
 size: '240638976'
-website: https://thecrypto.app
+website: https://walletscrutiny.com/brokenlink/https://thecrypto.app
 repository: 
 issue: 
 icon: com.CryptoCurrency.dev.jpg

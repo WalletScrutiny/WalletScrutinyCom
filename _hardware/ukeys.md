@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: 
 providerWebsite: 
-website: http://www.unikeys.io/
+website: https://www.unikeys.io/
 shop: 
 country: 
 price: 

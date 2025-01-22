@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.xinbipro.com/
+website: https://walletscrutiny.com/brokenlink/https://www.xinbipro.com/
 repository: 
 issue: 
 icon: com.exchange.XinBi.png

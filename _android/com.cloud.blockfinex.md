@@ -13,7 +13,7 @@ stars: 4.6
 ratings: 
 reviews: 
 size: 
-website: https://www.blockfinex.com
+website: https://web.archive.org/web/20240924015019/http://www.blockfinex.com/
 repository: 
 issue: 
 icon: com.cloud.blockfinex.png

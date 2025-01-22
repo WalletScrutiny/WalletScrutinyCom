@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bottrex.net
+website: https://walletscrutiny.com/brokenlink/https://bottrex.net
 repository: 
 issue: 
 icon: io.bottrex.starter.png
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: bottrexoficial
 social:
-- https://www.facebook.com/bottrex
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/bottrex
 redirect_from: 
 developerName: 
 features: 

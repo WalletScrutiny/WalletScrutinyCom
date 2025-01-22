@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.rentcoin.me
+website: https://walletscrutiny.com/brokenlink/https://www.rentcoin.me
 repository: 
 issue: 
 icon: me.rentcoin.app.png

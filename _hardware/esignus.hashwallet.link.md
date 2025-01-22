@@ -15,7 +15,7 @@ dimensions:
 weight: 
 provider: eSignus Security Solutions, S.L.
 providerWebsite: https://www.esignus.com/
-website: https://www.esignus.com/hashwallet
+website: https://web.archive.org/web/20220820032354/https://www.esignus.com/hashwallet
 shop: https://shop.esignus.com/products/hashwallet-link-cobalt
 country: ES
 price: 95 USD

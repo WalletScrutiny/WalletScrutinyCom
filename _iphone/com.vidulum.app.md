@@ -13,7 +13,7 @@ version: 1.6.1
 stars: 4.3
 reviews: 16
 size: '71109632'
-website: https://vidulum.app
+website: https://walletscrutiny.com/brokenlink/https://vidulum.app
 repository: 
 issue: 
 icon: com.vidulum.app.jpg
@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: VidulumApp
 social:
-- https://www.facebook.com/VidulumTeam
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/VidulumTeam
 - https://www.reddit.com/r/VidulumOfficial
 features: 
 developerName: Vidulum LLC

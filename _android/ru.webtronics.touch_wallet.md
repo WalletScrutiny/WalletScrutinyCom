@@ -14,7 +14,7 @@ stars: 2.5
 ratings: 
 reviews: 
 size: 
-website: https://touchwallet.com/
+website: https://web.archive.org/web/20230210091746/https://touchwallet.com/
 repository: 
 issue: 
 icon: ru.webtronics.touch_wallet.png

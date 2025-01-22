@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.raistone.kr
+website: https://walletscrutiny.com/brokenlink/https://www.raistone.kr
 repository: 
 issue: 
 icon: kr.raistone.stonewallet.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://wallet.tkeycoin.com/
+website: https://walletscrutiny.com/brokenlink/https://wallet.tkeycoin.com/
 repository: 
 issue: 
 icon: io.space.tkey.jpg

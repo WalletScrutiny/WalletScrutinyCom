@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: leadwallet
 social:
-- https://www.linkedin.com/company/leadwallet
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/leadwallet
 - https://www.reddit.com/r/LeadWallet
 features: 
 developerName: 

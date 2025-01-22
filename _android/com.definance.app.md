@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://definance.app/
+website: https://web.archive.org/web/20240917153056/https://definance.app/
 repository: 
 issue: 
 icon: com.definance.app.png

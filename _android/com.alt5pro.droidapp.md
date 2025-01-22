@@ -14,7 +14,7 @@ stars: 4.8
 ratings: 
 reviews: 
 size: 
-website: http://alt5pro.com
+website: https://alt5pro.com
 repository: 
 issue: 
 icon: com.alt5pro.droidapp.png
@@ -28,7 +28,7 @@ twitter: alt_sigma
 social:
 - https://www.facebook.com/alt5sigma
 - https://www.instagram.com/alt5sigma_
-- https://www.youtube.com/channel/UCPdmUTb6uYD8Bbsh2rbveKw
+- https://web.archive.org/web/20220314065309/https://www.youtube.com/channel/UCPdmUTb6uYD8Bbsh2rbveKw
 - https://www.linkedin.com/company/alt-5-sigma
 redirect_from: 
 developerName: Alt 5 Pro

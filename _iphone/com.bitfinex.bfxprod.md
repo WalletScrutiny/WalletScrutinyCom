@@ -26,7 +26,7 @@ reviewArchive:
 twitter: bitfinex
 social:
 - https://www.linkedin.com/company/bitfinex
-- https://www.facebook.com/bitfinex
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/bitfinex
 - https://www.reddit.com/r/bitfinex
 features:
 - ln

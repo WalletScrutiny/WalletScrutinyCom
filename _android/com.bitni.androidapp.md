@@ -13,7 +13,7 @@ stars: 4.9
 ratings: 
 reviews: 111
 size: 
-website: http://bitni.com
+website: https://walletscrutiny.com/brokenlink/https://bitni.com/
 repository: 
 issue: 
 icon: com.bitni.androidapp.png

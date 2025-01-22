@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bitpolis.io/
+website: https://walletscrutiny.com/brokenlink/https://bitpolis.io/
 repository: 
 issue: 
 icon: com.a01people.bitpolis.png

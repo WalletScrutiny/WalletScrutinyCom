@@ -13,7 +13,7 @@ version: 1.1.1075
 stars: 4
 reviews: 5
 size: '62076928'
-website: https://cexchangenex.com/
+website: https://walletscrutiny.com/brokenlink/https://cexchangenex.com/
 repository: 
 issue: 
 icon: com.cexchangenex.cexchangenex.jpg

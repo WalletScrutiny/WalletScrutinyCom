@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: RoseonFinance
 social:
-- https://www.facebook.com/Roseon.Finance
+- https://web.archive.org/web/20210531115021/https://www.facebook.com/Roseon.Finance/
 features: 
 developerName: MYBITOK OU
 

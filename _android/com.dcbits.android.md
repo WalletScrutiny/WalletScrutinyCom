@@ -13,7 +13,7 @@ stars: 4.6
 ratings: 
 reviews: 
 size: 
-website: http://dcbits.io
+website: https://walletscrutiny.com/brokenlink/https://dcbits.io/
 repository: 
 issue: 
 icon: com.dcbits.android.png

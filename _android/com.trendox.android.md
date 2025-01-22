@@ -14,7 +14,7 @@ stars: 4.8
 ratings: 
 reviews: 70
 size: 
-website: https://fxtrendo.com
+website: https://walletscrutiny.com/brokenlink/https://fxtrendo.com/
 repository: 
 issue: 
 icon: com.trendox.android.png

@@ -13,7 +13,7 @@ stars: 5
 ratings: 
 reviews: 
 size: 
-website: https://bitstone.org
+website: https://web.archive.org/web/20180919123809/http://www.bitstone.org/
 repository: 
 issue: 
 icon: info.androidhive.btn.png

@@ -13,7 +13,7 @@ version: 1.11.2
 stars: 3.5
 reviews: 203
 size: 124170240
-website: https://fxcoin.pro/
+website: https://walletscrutiny.com/brokenlink/https://fxcoin.pro/
 repository: 
 issue: 
 icon: pro.fxcoin.jpg

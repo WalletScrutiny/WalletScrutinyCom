@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://paygety.com
+website: https://walletscrutiny.com/brokenlink/https://www.paygety.com:80/
 repository: 
 issue: 
 icon: com.paygety.paygety.png

@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 
 reviews: 5
 size: 
-website: https://www.vibra.one/
+website: https://walletscrutiny.com/brokenlink/https://www.vibra.one/
 repository: 
 issue: 
 icon: com.abl.vibra.png

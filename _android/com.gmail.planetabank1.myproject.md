@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://planetabank.com.br/
+website: https://web.archive.org/web/20210622185836/https://planetabank.com.br/
 repository: 
 issue: 
 icon: com.gmail.planetabank1.myproject.jpg

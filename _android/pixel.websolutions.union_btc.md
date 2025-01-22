@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://unionbtc.io/
+website: https://web.archive.org/web/20230528074203/https://unionbtc.io/
 repository: 
 issue: 
 icon: pixel.websolutions.union_btc.png

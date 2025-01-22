@@ -15,7 +15,7 @@ dimensions:
 weight: 
 provider: KONA I Co., Ltd.
 providerWebsite: 
-website: https://www.konai.com/business/cards/card
+website: https://web.archive.org/web/20210623112027/https://konai.com/business/cards/card
 shop: 
 country: KR
 price: 

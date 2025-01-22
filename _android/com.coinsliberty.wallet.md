@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://coinsliberty.com
+website: https://walletscrutiny.com/brokenlink/https://coinsliberty.com/
 repository: 
 issue: 
 icon: com.coinsliberty.wallet.png

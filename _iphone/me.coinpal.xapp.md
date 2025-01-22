@@ -13,7 +13,7 @@ version: '1.0'
 stars: 4
 reviews: 11
 size: 77613056
-website: https://coinpal.me
+website: https://web.archive.org/web/20220331091115/https://coinpal.me/
 repository: 
 issue: 
 icon: me.coinpal.xapp.jpg
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: coinpalapp
 social:
 - https://www.linkedin.com/company/coinpal
-- https://www.facebook.com/coinpal.me
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/coinpal.me
 features: 
 developerName: 
 

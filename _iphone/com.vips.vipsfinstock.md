@@ -13,7 +13,7 @@ version: 1.9.4
 stars: 0
 reviews: 0
 size: '89016320'
-website: https://vipsfinstock.com/
+website: https://walletscrutiny.com/brokenlink/https://vipsfinstock.com/
 repository: 
 issue: 
 icon: com.vips.vipsfinstock.jpg
@@ -25,10 +25,10 @@ signer:
 reviewArchive: 
 twitter: VIPS_Finstock
 social:
-- https://www.linkedin.com/company/vipsfinstock
-- https://www.facebook.com/vipsfinstockofficial
-- https://www.instagram.com/vipsfinstock
-- https://www.youtube.com/c/VIPSFINSTOCKOFFICIAL
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/vipsfinstock
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/vipsfinstockofficial
+- https://walletscrutiny.com/brokenlink/https://www.instagram.com/vipsfinstock
+- https://walletscrutiny.com/brokenlink/https://www.youtube.com/c/VIPSFINSTOCKOFFICIAL
 - https://t.me/vipsfinstockofficial
 features: 
 developerName: VIPS Trade Finance Pvt. Ltd.

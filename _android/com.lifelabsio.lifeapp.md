@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 
 reviews: 11
 size: 
-website: http://www.lifelabs.io
+website: https://www.lifelabs.io
 repository: 
 issue: 
 icon: com.lifelabsio.lifeapp.png

@@ -27,7 +27,7 @@ twitter: ixfiexchange
 social:
 - https://www.linkedin.com/company/ixfiexchange
 - https://www.facebook.com/ixfiexchange
-- https://www.youtube.com/@ixfiexchange
+- https://walletscrutiny.com/brokenlink/https://www.youtube.com/@ixfiexchange
 - https://www.reddit.com/r/IXFIofficial
 - https://ixfiexchange.medium.com
 - https://t.me/ixfiexchange

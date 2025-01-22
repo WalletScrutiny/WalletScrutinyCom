@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: financefreedomsuccess
 social:
-- https://www.facebook.com/financefreedomsuccess
+- https://web.archive.org/web/20201126005627/https://www.facebook.com/financefreedomsuccess
 redirect_from: 
 developerName: FBS.com
 features: 

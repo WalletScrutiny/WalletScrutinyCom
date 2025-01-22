@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://724borsa.com/
+website: https://walletscrutiny.com/brokenlink/https://724borsa.com/
 repository: 
 issue: 
 icon: com.yyborsa.png

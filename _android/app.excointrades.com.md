@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://web.excoin.cloud/
+website: https://walletscrutiny.com/brokenlink/https://web.excoin.cloud/
 repository: 
 issue: 
 icon: app.excointrades.com.jpg

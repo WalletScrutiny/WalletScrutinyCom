@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://twetaexchange.com/
+website: https://walletscrutiny.com/brokenlink/https://www.twetaexchange.com/
 repository: 
 issue: 
 icon: com.twetaexchange.app.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.cybex.io
+website: https://walletscrutiny.com/brokenlink/https://cybex.io:80/
 repository: 
 issue: 
 icon: com.cybexmobile.google.png

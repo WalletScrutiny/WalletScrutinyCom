@@ -14,7 +14,7 @@ stars: 2.4
 ratings: 218
 reviews: 182
 size: 
-website: http://exante.eu
+website: https://exante.eu
 repository: 
 issue: 
 icon: eu.exante.client.png

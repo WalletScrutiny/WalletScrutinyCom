@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://marketbtc.net
+website: https://walletscrutiny.com/brokenlink/https://www.marketbtc.net:80/
 repository: 
 issue: 
 icon: com.cluzstudio.marketbtc.png

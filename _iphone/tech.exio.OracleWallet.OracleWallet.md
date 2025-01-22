@@ -13,7 +13,7 @@ version: 1.4.3
 stars: 5
 reviews: 1
 size: '37996544'
-website: https://oracle8.org/
+website: https://walletscrutiny.com/brokenlink/https://oracle8.org/
 repository: 
 issue: 
 icon: tech.exio.OracleWallet.OracleWallet.jpg
@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: Oracle_Wallet
 social:
-- https://www.facebook.com/oracle8.org
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/oracle8.org
 features: 
 developerName: 
 

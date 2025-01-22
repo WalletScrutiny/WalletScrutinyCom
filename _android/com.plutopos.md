@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.spartanhill.com/pluto-crypto-pos/
+website: https://walletscrutiny.com/brokenlink/https://www.spartanhill.com/pluto-crypto-pos/
 repository: 
 issue: 
 icon: com.plutopos.png

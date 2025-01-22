@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://peer2btc.com/
+website: https://peer2btc.com/
 repository: 
 issue: 
 icon: com.mlm.application.png

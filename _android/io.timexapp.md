@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://timex.io
+website: https://web.archive.org/web/20220127102330/https://timex.io/
 repository: 
 issue: 
 icon: io.timexapp.png

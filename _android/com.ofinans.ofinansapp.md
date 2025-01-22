@@ -14,7 +14,7 @@ stars: 5
 ratings: 
 reviews: 3
 size: 
-website: http://ofinans.com
+website: https://ofinans.com
 repository: 
 issue: 
 icon: com.ofinans.ofinansapp.png

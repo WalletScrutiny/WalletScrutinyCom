@@ -27,7 +27,7 @@ reviewArchive:
 twitter: CoinCola_Global
 social:
 - https://www.linkedin.com/company/coincola
-- https://www.facebook.com/CoinCola
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/CoinCola
 - https://www.reddit.com/r/coincolaofficial
 redirect_from:
 - /com.newgo.coincola/

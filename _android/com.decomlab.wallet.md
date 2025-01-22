@@ -14,7 +14,7 @@ stars: 3.5
 ratings: 121
 reviews: 8
 size: 
-website: https://moonwallet.net/
+website: https://web.archive.org/web/20210725071505/https://moonwallet.net/
 repository: 
 issue: 
 icon: com.decomlab.wallet.png

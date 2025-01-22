@@ -13,7 +13,7 @@ version: 1.1.2
 stars: 0
 reviews: 0
 size: '48979968'
-website: http://www.infipay.io/
+website: https://web.archive.org/web/20210621194932/https://www.infipay.io/
 repository: 
 issue: 
 icon: com.antier.infipay.jpg

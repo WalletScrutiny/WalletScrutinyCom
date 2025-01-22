@@ -28,7 +28,7 @@ twitter:
 social:
 - https://www.youtube.com/channel/UC9hIY0-u6Lt1f1NHIt7VF_w
 - https://www.instagram.com/Bmkoin
-- https://www.linkedin.com/company/bmkoin
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/bmkoin
 redirect_from: 
 developerName: Bmkoin Digital Technology LLP
 features: 

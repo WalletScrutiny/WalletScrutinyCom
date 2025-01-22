@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.goldex.jp/
+website: https://walletscrutiny.com/brokenlink/https://www.goldex.jp/
 repository: 
 issue: 
 icon: jp.goldex.towerwallet.png

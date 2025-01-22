@@ -31,7 +31,7 @@ signer:
 reviewArchive: 
 twitter: satochipwallet
 social:
-- https://www.linkedin.com/company/satochip
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/satochip
 features: 
 
 ---

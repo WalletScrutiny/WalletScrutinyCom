@@ -14,7 +14,7 @@ stars: 3
 ratings: 1231
 reviews: 118
 size: 
-website: http://www.coinfield.com
+website: https://web.archive.org/web/20230705021148/https://www.coinfield.com/
 repository: 
 issue: 
 icon: com.coinfield.csapp.png

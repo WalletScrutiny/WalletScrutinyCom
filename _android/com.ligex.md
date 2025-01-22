@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ligex.exchange
+website: https://web.archive.org/web/20220201062245/https://ligex.exchange/
 repository: 
 issue: 
 icon: com.ligex.png

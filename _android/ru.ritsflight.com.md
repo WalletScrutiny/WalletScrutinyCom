@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://ritstoken.com
+website: https://walletscrutiny.com/brokenlink/https://ritstoken.com
 repository: 
 issue: 
 icon: ru.ritsflight.com.png

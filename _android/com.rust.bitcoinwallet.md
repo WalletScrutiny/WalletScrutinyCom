@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://altrafinance.io/
+website: https://walletscrutiny.com/brokenlink/https://altrafinance.io/
 repository: 
 issue: 
 icon: com.rust.bitcoinwallet.png

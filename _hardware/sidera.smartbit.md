@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: 
 providerWebsite: 
-website: https://sidera.io/
+website: https://walletscrutiny.com/brokenlink/https://sidera.io/
 shop: 
 country: 
 price: 

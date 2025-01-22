@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ennlo.com
+website: https://web.archive.org/web/20190613164003/https://ennlo.com/
 repository: 
 issue: 
 icon: com.ennlo.app.png

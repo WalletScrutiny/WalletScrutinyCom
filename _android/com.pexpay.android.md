@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 
 reviews: 8
 size: 
-website: https://www.pexpay.com/
+website: https://walletscrutiny.com/brokenlink/https://www.pexpay.com/
 repository: 
 issue: 
 icon: com.pexpay.android.png

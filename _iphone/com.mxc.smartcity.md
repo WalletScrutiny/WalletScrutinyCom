@@ -13,7 +13,7 @@ version: 6.5.0
 stars: 3.6
 reviews: 121
 size: '108826624'
-website: http://mxc.org
+website: https://mxc.org
 repository: 
 issue: 
 icon: com.mxc.smartcity.jpg

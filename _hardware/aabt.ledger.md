@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: Automatic Asset Building Company
 providerWebsite: https://www.abeamclub.com/
-website: https://www.abeamclub.com/services/hardware-wallet/
+website: https://walletscrutiny.com/brokenlink/https://www.abeamclub.com/services/hardware-wallet/
 shop: 
 country: 
 price: 

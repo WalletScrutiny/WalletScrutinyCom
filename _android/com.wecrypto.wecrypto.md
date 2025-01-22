@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://wecrypto.net
+website: https://wecrypto.net:80/
 repository: 
 issue: 
 icon: com.wecrypto.wecrypto.png

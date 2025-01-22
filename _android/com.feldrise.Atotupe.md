@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.feldrise.com
+website: https://feldrise.com/
 repository: 
 issue: 
 icon: com.feldrise.Atotupe.png

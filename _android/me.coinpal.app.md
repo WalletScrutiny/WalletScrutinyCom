@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 116
 reviews: 53
 size: 20M
-website: https://coinpal.me/
+website: https://walletscrutiny.com/brokenlink/https://coinpal.me/
 repository: 
 issue: 
 icon: me.coinpal.app.png
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: coinpalapp
 social:
 - https://www.linkedin.com/company/coinpal
-- https://www.facebook.com/coinpal.me
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/coinpal.me
 redirect_from: 
 developerName: 
 features: 

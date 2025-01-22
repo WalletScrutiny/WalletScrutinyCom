@@ -14,7 +14,7 @@ stars: 2.2
 ratings: 183
 reviews: 26
 size: 59M
-website: https://wallet.atarichain.com/
+website: https://web.archive.org/web/20210625134428/https://wallet.atarichain.com/
 repository: 
 issue: 
 icon: com.atari.png

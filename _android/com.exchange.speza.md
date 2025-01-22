@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.speza.exchange
+website: https://web.archive.org/web/20200812233515/http://speza.exchange/
 repository: 
 issue: 
 icon: com.exchange.speza.png

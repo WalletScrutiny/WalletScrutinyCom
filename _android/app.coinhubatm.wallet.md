@@ -29,7 +29,7 @@ social:
 - https://www.linkedin.com/company/coinhubatm
 - https://www.instagram.com/coinhubusa
 - https://www.facebook.com/coinhubusa
-- https://www.youtube.com/channel/UCPxfH3hg9CSd7BtCGcalyRg
+- https://web.archive.org/web/20220303084948/https://www.youtube.com/channel/UCPxfH3hg9CSd7BtCGcalyRg
 redirect_from: 
 developerName: Coinhub Bitcoin Wallet
 features: 

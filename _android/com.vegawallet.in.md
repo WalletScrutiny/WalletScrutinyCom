@@ -14,7 +14,7 @@ stars: 3.8
 ratings: 23
 reviews: 5
 size: 
-website: http://www.VegaWallet.com
+website: https://web.archive.org/web/20200720020919/https://www.vegawallet.com/
 repository: 
 issue: 
 icon: com.vegawallet.in.png

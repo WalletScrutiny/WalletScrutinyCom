@@ -25,8 +25,8 @@ signer:
 reviewArchive: 
 twitter: BitKeepOS
 social:
-- https://www.facebook.com/bitkeep
-- https://github.com/bitkeepcom
+- https://web.archive.org/web/20220517123935/https://www.facebook.com/BitKeep
+- https://web.archive.org/web/20210815013617/https://github.com/bitkeepcom
 features: 
 developerName: BitKeep Global Inc.
 

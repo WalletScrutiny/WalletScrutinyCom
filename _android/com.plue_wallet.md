@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.plue.io
+website: https://web.archive.org/web/20220624211440/https://www.plue.io/
 repository: 
 issue: 
 icon: com.plue_wallet.png

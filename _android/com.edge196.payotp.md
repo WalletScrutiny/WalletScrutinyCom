@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://payotp.com
+website: https://walletscrutiny.com/brokenlink/https://payotp.com
 repository: 
 issue: 
 icon: com.edge196.payotp.png

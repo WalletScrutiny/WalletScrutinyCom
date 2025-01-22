@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://sellmybitcoin4cash.com/
+website: https://walletscrutiny.com/brokenlink/https://sellmybitcoin4cash.com/
 repository: 
 issue: 
 icon: mobi.androapp.asellmybitcoin4cash.c8927.jpg

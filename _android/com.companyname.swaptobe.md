@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 
 reviews: 15
 size: 
-website: https://swaptobe.com
+website: https://web.archive.org/web/20240522193709/https://swaptobe.com/
 repository: 
 issue: 
 icon: com.companyname.swaptobe.png
@@ -28,7 +28,7 @@ twitter: swap_tobe
 social:
 - https://t.me/swaptobeglobal
 - https://www.youtube.com/channel/UC9jBj0BDr7vQq6WzsJGBBSw
-- https://www.facebook.com/swaptobe
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/swaptobe
 redirect_from: 
 developerName: EG Tech Group LLC
 features: 

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://touchsocial.xyz
+website: https://walletscrutiny.com/brokenlink/https://touchsocial.xyz/
 repository: 
 issue: 
 icon: xyz.touchsocial.app.jpg

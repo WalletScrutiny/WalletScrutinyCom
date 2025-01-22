@@ -27,7 +27,7 @@ reviewArchive:
 twitter: VertexFXTrader
 social:
 - https://www.linkedin.com/company/hybrid-solutions-hs-
-- https://www.facebook.com/VertexFXTrader
+- https://web.archive.org/web/20160129215453/https://www.facebook.com/VertexFXTrader
 redirect_from: 
 developerName: Hybrid Solutions - VertexFX Trader
 features: 

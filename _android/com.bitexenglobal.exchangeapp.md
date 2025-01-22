@@ -27,7 +27,7 @@ reviewArchive:
 twitter: bitexenglobal
 social:
 - https://www.facebook.com/profile.php?id=100086241075019
-- https://www.linkedin.com/company/bitexen
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/bitexen
 - https://t.me/bitexenglobal
 redirect_from: 
 developerName: Bitexen Teknoloji A.Ş.

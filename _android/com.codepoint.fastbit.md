@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://fastbitng.com
+website: https://web.archive.org/web/20220102123102/https://fastbitng.com/
 repository: 
 issue: 
 icon: com.codepoint.fastbit.png

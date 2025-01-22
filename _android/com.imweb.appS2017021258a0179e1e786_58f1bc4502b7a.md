@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.ag-system.com
+website: https://walletscrutiny.com/brokenlink/https://ag-system.com:80/
 repository: 
 issue: 
 icon: com.imweb.appS2017021258a0179e1e786_58f1bc4502b7a.png

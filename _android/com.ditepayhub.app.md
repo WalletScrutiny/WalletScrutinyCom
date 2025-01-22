@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ditepayhub.com.ng
+website: https://web.archive.org/web/20201104015858/http://www.ditepayhub.com.ng/
 repository: 
 issue: 
 icon: com.ditepayhub.app.png

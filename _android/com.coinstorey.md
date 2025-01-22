@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.coinstorey.com/
+website: https://web.archive.org/web/20220210081756/https://www.coinstorey.com/
 repository: 
 issue: 
 icon: com.coinstorey.jpg

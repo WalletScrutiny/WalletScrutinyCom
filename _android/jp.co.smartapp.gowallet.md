@@ -14,7 +14,7 @@ stars: 4
 ratings: 813
 reviews: 22
 size: 
-website: https://www.go-wallet.app/
+website: https://web.archive.org/web/20210614081244/https://go-wallet.app/
 repository: 
 issue: 
 icon: jp.co.smartapp.gowallet.png
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: gowallet_app_
 social:
-- https://www.facebook.com/gowalletappli
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/gowalletappli
 redirect_from: 
 developerName: 
 features: 

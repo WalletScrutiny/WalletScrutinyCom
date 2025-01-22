@@ -13,7 +13,7 @@ version: 4.12.8
 stars: 4.7
 reviews: 73834
 size: '275523584'
-website: https://public.com
+website: https://walletscrutiny.com/brokenlink/https://public.com
 repository: 
 issue: 
 icon: com.t3securities.matador.jpg

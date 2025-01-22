@@ -13,7 +13,7 @@ version: '1.6'
 stars: 1
 reviews: 1
 size: '16461824'
-website: https://www.cryptex24.io
+website: https://walletscrutiny.com/brokenlink/https://www.cryptex24.io/
 repository: 
 issue: 
 icon: io.cryptex24.mobile.jpg

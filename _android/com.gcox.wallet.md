@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://gcox.com
+website: https://walletscrutiny.com/brokenlink/https://gcox.com/
 repository: 
 issue: 
 icon: com.gcox.wallet.png

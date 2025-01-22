@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://dtswallet.io
+website: https://walletscrutiny.com/brokenlink/https://dtswallet.io
 repository: 
 issue: 
 icon: com.wallex.dts.png

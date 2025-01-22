@@ -28,7 +28,7 @@ social:
 - https://www.youtube.com/c/Paribu
 - https://www.linkedin.com/company/paribucom/
 - https://www.instagram.com/paribucom/
-- https://www.facebook.com/paribucom
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/paribucom
 features: 
 developerName: Paribu Teknoloji A.Ş.
 

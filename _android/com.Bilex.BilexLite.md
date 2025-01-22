@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://bilex.org
+website: https://walletscrutiny.com/brokenlink/https://bilex.org:80/
 repository: 
 issue: 
 icon: com.Bilex.BilexLite.png

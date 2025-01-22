@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://openturnkey.com/
+website: https://web.archive.org/web/20220625125733/https://www.openturnkey.com/
 repository: 
 issue: 
 icon: com.cyphereco.openturnkey.png

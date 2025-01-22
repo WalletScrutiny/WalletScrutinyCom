@@ -15,7 +15,7 @@ stars: 4.1
 ratings: 2310
 reviews: 241
 size: 
-website: https://altcoinfantasy.com
+website: https://web.archive.org/web/20201205014546/https://altcoinfantasy.com/
 repository: 
 issue: 
 icon: com.altcoinfantasy.altcoinfantasy.png

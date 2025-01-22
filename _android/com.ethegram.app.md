@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.ethegram.net
+website: https://walletscrutiny.com/brokenlink/https://ethegram.net:80/
 repository: 
 issue: 
 icon: com.ethegram.app.png

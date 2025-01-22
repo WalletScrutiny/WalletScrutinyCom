@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.fondex.com
+website: https://web.archive.org/web/20220217121512/https://fondex.com/
 repository: 
 issue: 
 icon: com.fondexmobile.ct.png
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social:
 - https://www.linkedin.com/company/fondex-trading
-- https://www.facebook.com/fondexglobal
+- https://web.archive.org/web/20220112110615/https://www.facebook.com/fondexglobal/
 redirect_from: 
 developerName: Fondex
 features: 

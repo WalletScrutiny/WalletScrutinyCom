@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: TWEX Ltd (UK), TAG Funds Management Oü (Estonia)
 providerWebsite: https://www.twex.exchange/
-website: https://twal.ch/specification/
+website: https://walletscrutiny.com/brokenlink/https://twal.ch/specification/
 shop: 
 country: UK
 price: 

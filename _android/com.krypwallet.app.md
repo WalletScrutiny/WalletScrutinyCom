@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://159.65.248.120/
+website: https://walletscrutiny.com/brokenlink/https://159.65.248.120/
 repository: 
 issue: 
 icon: com.krypwallet.app.png

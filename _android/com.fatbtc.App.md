@@ -14,7 +14,7 @@ stars: 3
 ratings: 160
 reviews: 10
 size: 
-website: https://www.fatbtc.com
+website: https://web.archive.org/web/20200421145011/https://www.fatbtc.com/
 repository: 
 issue: 
 icon: com.fatbtc.App.png

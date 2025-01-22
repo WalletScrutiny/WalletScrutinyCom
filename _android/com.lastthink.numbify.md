@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://inout.fm/
+website: https://walletscrutiny.com/brokenlink/https://inout.fm:80/
 repository: 
 issue: 
 icon: com.lastthink.numbify.png

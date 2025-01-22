@@ -14,7 +14,7 @@ stars: 4.1
 ratings: 
 reviews: 
 size: 
-website: http://www.jgz555.com
+website: https://www.jgz555.com
 repository: 
 issue: 
 icon: com.modu.jgzsj.jpg

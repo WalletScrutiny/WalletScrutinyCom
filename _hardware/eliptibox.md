@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: 
 providerWebsite: 
-website: http://www.eliptibox.com/
+website: https://web.archive.org/web/20150516133600/http://www.eliptibox.com/
 shop: 
 country: 
 price: 

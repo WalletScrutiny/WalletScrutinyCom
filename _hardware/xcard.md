@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: Mobilum
 providerWebsite: https://mobilum.com/
-website: https://web.archive.org/web/20190110001829/http://xcard.io/
+website: https://web.archive.org/web/20200501075422/https://xcard.io/
 shop: 
 country: GI
 price: 

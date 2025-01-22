@@ -31,7 +31,7 @@ signer:
 reviewArchive: 
 twitter: hito_xyz
 social:
-- https://www.facebook.com/wallethito
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/wallethito
 - https://www.linkedin.com/company/hito-ai/
 features: 
 

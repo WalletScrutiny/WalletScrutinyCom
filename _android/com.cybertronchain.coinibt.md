@@ -14,7 +14,7 @@ stars: 5
 ratings: 610
 reviews: 4
 size: 
-website: http://www.coinibt.io
+website: https://web.archive.org/web/20220625005846/https://www.coinibt.io/
 repository: 
 issue: 
 icon: com.cybertronchain.coinibt.png

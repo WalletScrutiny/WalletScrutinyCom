@@ -13,7 +13,7 @@ stars: 1.6
 ratings: 
 reviews: 
 size: 
-website: https://www.bcnex.net/
+website: https://web.archive.org/web/20220819181337/https://www.bcnex.net/
 repository: 
 issue: 
 icon: com.bcnex.png

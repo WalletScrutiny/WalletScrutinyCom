@@ -13,7 +13,7 @@ version: 4.10.10
 stars: 4.7
 reviews: 13347
 size: '74502144'
-website: http://www.netdania.com
+website: https://www.netdania.com
 repository: 
 issue: 
 icon: 4KSDE4UX92.com.netdania.quotelist.jpg

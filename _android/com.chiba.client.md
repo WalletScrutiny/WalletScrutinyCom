@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://chiba.exchange
+website: https://web.archive.org/web/20180824043644/https://chiba.exchange/
 repository: 
 issue: 
 icon: com.chiba.client.png

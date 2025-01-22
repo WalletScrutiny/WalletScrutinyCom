@@ -14,7 +14,7 @@ stars: 3.1
 ratings: 
 reviews: 19
 size: 
-website: https://www.oobit.com/
+website: https://walletscrutiny.com/brokenlink/https://www.oobit.com/
 repository: 
 issue: 
 icon: com.oobit.png

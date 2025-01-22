@@ -14,7 +14,7 @@ stars: 3.7
 ratings: 159
 reviews: 62
 size: 
-website: https://lvl.co
+website: https://walletscrutiny.com/brokenlink/https://lvl.co
 repository: 
 issue: 
 icon: co.lvl.firstapp.png

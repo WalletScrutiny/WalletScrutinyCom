@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://diamondbtc.net/
+website: https://walletscrutiny.com/brokenlink/https://diamondbtc.net/
 repository: 
 issue: 
 icon: com.diamondbtc.ytapp.png

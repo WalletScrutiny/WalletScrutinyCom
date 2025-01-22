@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://coinstradecenter.com/
+website: https://walletscrutiny.com/brokenlink/https://coinstradecenter.com/
 repository: 
 issue: 
 icon: com.coinstradecenter.android.jpg

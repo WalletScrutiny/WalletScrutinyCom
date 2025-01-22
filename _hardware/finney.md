@@ -13,7 +13,7 @@ dimensions:
 weight: 
 provider: Sirin Labs
 providerWebsite: https://sirinlabs.com/
-website: https://sirinlabs.com/
+website: https://walletscrutiny.com/brokenlink/https://sirinlabs.com/
 shop: https://shop.sirinlabs.com/products/finney
 country: UK
 price: 999USD

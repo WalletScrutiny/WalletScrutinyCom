@@ -13,7 +13,7 @@ version: 1.6.1
 stars: 0
 reviews: 0
 size: '40913920'
-website: https://www.dhanux.com/
+website: https://web.archive.org/web/20220402094119/https://www.dhanux.com/
 repository: 
 issue: 
 icon: com.dhanuX.jpg

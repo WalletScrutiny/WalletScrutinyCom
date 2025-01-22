@@ -13,7 +13,7 @@ stars: 4.1
 ratings: 
 reviews: 33
 size: 
-website: https://thunderboltwallet.us
+website: https://web.archive.org/web/20240502110031/https://thunderboltwallet.us/
 repository: 
 issue: 
 icon: com.thunderbolt.wallet.png

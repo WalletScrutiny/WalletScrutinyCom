@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.africrypt.io
+website: https://walletscrutiny.com/brokenlink/https://africrypt.io/
 repository: 
 issue: 
 icon: app.africoin.pellar.png

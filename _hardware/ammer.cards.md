@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: Ammer Technologies AG
 providerWebsite: 
-website: https://ammer.cards/
+website: https://walletscrutiny.com/brokenlink/https://ammer.cards/
 shop: 
 country: CH
 price: 50 CHF

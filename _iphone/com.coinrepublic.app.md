@@ -13,7 +13,7 @@ version: 2.6.8
 stars: 5
 reviews: 4
 size: '44284928'
-website: https://www.coinrepublic.com.au/
+website: https://walletscrutiny.com/brokenlink/https://www.coinrepublic.com.au/
 repository: 
 issue: 
 icon: com.coinrepublic.app.jpg

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://centerprime.tech/
+website: https://web.archive.org/web/20210621081407/https://centerprime.tech/
 repository: 
 issue: 
 icon: com.centerprime.madi.png

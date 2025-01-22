@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.tosblock.com
+website: https://walletscrutiny.com/brokenlink/https://tosblock.com/
 repository: 
 issue: 
 icon: com.keepercustomerapp.png

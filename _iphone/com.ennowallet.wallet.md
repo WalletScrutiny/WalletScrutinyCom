@@ -13,7 +13,7 @@ version: 1.9.7
 stars: 5
 reviews: 3
 size: '89588736'
-website: https://www.ennowallet.com
+website: https://web.archive.org/web/20240905010624/https://ennowallet.com/
 repository: 
 issue: 
 icon: com.ennowallet.wallet.jpg

@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.cforcoins.com
+website: https://web.archive.org/web/20181102004041/https://www.cforcoins.com/
 repository: 
 issue: 
 icon: com.vdcloud.cforcoins.png

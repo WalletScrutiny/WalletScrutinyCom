@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: Unocoin
 social:
-- https://www.linkedin.com/company/unocoin
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/unocoin
 - https://www.facebook.com/unocoin
 redirect_from:
 - /com.unocoin.unocoinwallet/

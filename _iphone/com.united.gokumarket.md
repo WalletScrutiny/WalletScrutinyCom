@@ -13,7 +13,7 @@ version: '1.28'
 stars: 4.5
 reviews: 8
 size: '115517440'
-website: https://www.gokumarket.com
+website: https://walletscrutiny.com/brokenlink/https://www.gokumarket.com
 repository: 
 issue: 
 icon: com.united.gokumarket.jpg
@@ -26,9 +26,9 @@ reviewArchive:
 twitter: GokuMarket
 social:
 - https://www.linkedin.com/company/gokumarket
-- https://www.facebook.com/gokumarket
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/gokumarket
 - https://www.youtube.com/channel/UCuPj-EJfPshor3dSfRm4QrA
-- https://www.facebook.com/gokumarket
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/gokumarket
 features: 
 developerName: 
 

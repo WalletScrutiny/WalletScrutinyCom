@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: GuardaWallet
 social:
-- https://www.facebook.com/guarda.co
+- https://web.archive.org/web/20190403002654/https://www.facebook.com/guarda.co
 - https://www.reddit.com/r/GuardaWallet
 redirect_from:
 - /guardawallet/

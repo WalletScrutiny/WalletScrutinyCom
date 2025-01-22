@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: thezabira
 social:
-- https://www.facebook.com/thezabira
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/thezabira
 - https://www.instagram.com/thezabira
 - https://www.linkedin.com/company/zabira/about
 redirect_from: 

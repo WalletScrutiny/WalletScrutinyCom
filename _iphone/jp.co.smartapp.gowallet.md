@@ -13,7 +13,7 @@ version: 1.4.8
 stars: 4.6
 reviews: 710
 size: '86727680'
-website: https://www.go-wallet.app/
+website: https://walletscrutiny.com/brokenlink/https://www.go-wallet.app/
 repository: 
 issue: 
 icon: jp.co.smartapp.gowallet.jpg
@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: gowallet_app_
 social:
-- https://www.facebook.com/gowalletappli
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/gowalletappli
 features: 
 developerName: 
 

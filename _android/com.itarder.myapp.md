@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://itrader.cc/
+website: https://web.archive.org/web/20220426020917/https://itrader.cc/
 repository: 
 issue: 
 icon: com.itarder.myapp.png

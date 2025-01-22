@@ -14,7 +14,7 @@ stars:
 ratings: 39
 reviews: 
 size: 
-website: https://tradn.io/
+website: https://web.archive.org/web/20210623052055/https://tradn.io/
 repository: 
 issue: 
 icon: com.verico.tradn.png

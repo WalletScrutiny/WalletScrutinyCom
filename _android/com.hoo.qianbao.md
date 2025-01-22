@@ -14,7 +14,7 @@ stars: 3.5
 ratings: 749
 reviews: 84
 size: 
-website: https://hoo.com
+website: https://web.archive.org/web/20220123010824/https://hoo.com/
 repository: 
 issue: 
 icon: com.hoo.qianbao.png

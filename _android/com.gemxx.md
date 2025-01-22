@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ammolitetoken.com
+website: https://walletscrutiny.com/brokenlink/https://ammolitetoken.com/
 repository: 
 issue: 
 icon: com.gemxx.png

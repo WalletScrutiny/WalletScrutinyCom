@@ -13,7 +13,7 @@ version: 2.0.115
 stars: 2.6
 reviews: 5
 size: '97793024'
-website: https://quppy.com
+website: https://walletscrutiny.com/brokenlink/https://quppy.com
 repository: 
 issue: 
 icon: com.quppy.wallet.jpg

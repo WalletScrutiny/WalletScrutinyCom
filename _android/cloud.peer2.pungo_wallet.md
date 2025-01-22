@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 11
 reviews: 10
 size: 8.4M
-website: https://pungowallet.com
+website: https://walletscrutiny.com/brokenlink/https://pungowallet.com
 repository: 
 issue: 
 icon: cloud.peer2.pungo_wallet.png

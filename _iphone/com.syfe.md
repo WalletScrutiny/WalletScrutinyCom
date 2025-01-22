@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: SyfeSG
 social:
-- https://www.linkedin.com/company/syfe
+- https://web.archive.org/web/20240703203145/https://www.linkedin.com/company/syfe/
 - https://www.facebook.com/SyfeSG
 - https://www.instagram.com/SyfeSG
 - https://www.youtube.com/c/SyfeSG

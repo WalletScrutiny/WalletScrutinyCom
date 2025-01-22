@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.botcoinpro.com/app/#/home
+website: https://walletscrutiny.com/brokenlink/https://www.botcoinpro.com/app/
 repository: 
 issue: 
 icon: com.botcoinpro.quant.jpg

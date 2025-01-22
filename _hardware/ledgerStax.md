@@ -15,7 +15,7 @@ dimensions:
 weight: 45.2
 provider: Ledger
 providerWebsite: https://www.ledger.com/
-website: https://shop.ledger.com/pages/ledger-stax
+website: https://web.archive.org/web/20221206144407/https://shop.ledger.com/pages/ledger-stax
 shop: https://shop.ledger.com/products/ledger-stax
 country: FR
 price: 360USD

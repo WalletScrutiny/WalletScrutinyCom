@@ -14,7 +14,7 @@ stars: 3.8
 ratings: 3299
 reviews: 89
 size: 
-website: https://www.aax.com/
+website: https://walletscrutiny.com/brokenlink/https://www.aax.com/
 repository: 
 issue: 
 icon: com.aax.exchange.png
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: AAXExchange
 social:
 - https://www.linkedin.com/company/aax-atom-asset-exchange
-- https://www.facebook.com/AAXExchange
+- https://web.archive.org/web/20220328005120/https://www.facebook.com/AAXExchange
 - https://www.reddit.com/r/AAXExchange
 redirect_from: 
 developerName: AAX

@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://iqtrader.io
+website: https://walletscrutiny.com/brokenlink/https://iqtrader.io/
 repository: 
 issue: 
 icon: io.iqtrader.png

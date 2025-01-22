@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://worldofwallet.io
+website: https://web.archive.org/web/20230120104637/http://worldofwallet.io/
 repository: 
 issue: 
 icon: io.worldofwallet.png

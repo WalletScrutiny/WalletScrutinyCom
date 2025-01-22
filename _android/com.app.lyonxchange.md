@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://lyonxchange.com
+website: https://walletscrutiny.com/brokenlink/https://lyonxchange.com/
 repository: 
 issue: 
 icon: com.app.lyonxchange.jpg

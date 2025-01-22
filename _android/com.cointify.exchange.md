@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ex.cointify.com/
+website: https://walletscrutiny.com/brokenlink/https://ex.cointify.com/
 repository: 
 issue: 
 icon: com.cointify.exchange.png

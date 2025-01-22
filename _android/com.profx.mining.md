@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://profxmining.com
+website: https://web.archive.org/web/20220115174418/https://profxmining.com/
 repository: 
 issue: 
 icon: com.profx.mining.png

@@ -14,7 +14,7 @@ stars: 3.4
 ratings: 
 reviews: 
 size: 
-website: https://imm.app/
+website: https://web.archive.org/web/20211217203941/https://imm.app/
 repository: 
 issue: 
 icon: im.immune.app.png

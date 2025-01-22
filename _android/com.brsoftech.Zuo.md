@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://zuobox.com
+website: https://web.archive.org/web/20191010053254/http://www.zuobox.com/
 repository: 
 issue: 
 icon: com.brsoftech.Zuo.jpg

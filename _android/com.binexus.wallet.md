@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.binexus.co
+website: https://web.archive.org/web/20230320212820/http://binexus.co/
 repository: 
 issue: 
 icon: com.binexus.wallet.png

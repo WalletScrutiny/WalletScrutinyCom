@@ -14,7 +14,7 @@ stars: 3.5
 ratings: 375
 reviews: 8
 size: 
-website: https://www.probit.kr
+website: https://web.archive.org/web/20210618054614/https://www.probit.kr/
 repository: 
 issue: 
 icon: com.probit.app.android2.release.korea.png

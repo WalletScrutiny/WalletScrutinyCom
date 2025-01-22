@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.the-masterkey.com
+website: https://web.archive.org/web/20221128095224/https://www.the-masterkey.com/
 repository: 
 issue: 
 icon: io.trustverse.masterkey.png

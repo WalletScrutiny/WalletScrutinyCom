@@ -12,7 +12,7 @@ version: 3.46.0
 stars: 4.6
 reviews: 16
 size: '405199872'
-website: https://vivid.money/en-de
+website: https://walletscrutiny.com/brokenlink/https://vivid.money/en-de
 repository: 
 issue: 
 icon: com.vivid.money.jpg

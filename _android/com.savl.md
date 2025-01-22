@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/savl.official
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/savl.official
 redirect_from: 
 developerName: Savl GmbH
 features: 

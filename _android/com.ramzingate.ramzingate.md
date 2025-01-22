@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ramzingate.com
+website: https://walletscrutiny.com/brokenlink/https://ramzingate.com/
 repository: 
 issue: 
 icon: com.ramzingate.ramzingate.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://chronobank.io
+website: https://chronobank.io
 repository: 
 issue: 
 icon: io.chronobank.chronomint.webview.png

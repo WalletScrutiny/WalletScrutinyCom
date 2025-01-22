@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: BLOCKBANKapp
 social:
-- https://www.facebook.com/blockbank
+- https://web.archive.org/web/20240319002521/https://www.facebook.com/blockbank
 redirect_from: 
 developerName: 
 features: 

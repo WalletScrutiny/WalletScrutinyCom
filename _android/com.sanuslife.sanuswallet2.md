@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.sanuslife.com
+website: https://www.sanuslife.com
 repository: 
 issue: 
 icon: com.sanuslife.sanuswallet2.png

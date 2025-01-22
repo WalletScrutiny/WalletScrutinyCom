@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.zb.com
+website: https://web.archive.org/web/20230307092604/https://www.zb.com/
 repository: 
 issue: 
 icon: com.zb.global.png

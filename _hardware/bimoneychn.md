@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: BiMoneyCHN
 providerWebsite: 
-website: https://bimoney.io
+website: https://walletscrutiny.com/brokenlink/https://bimoney.io
 shop: 
 country: CN
 price: 

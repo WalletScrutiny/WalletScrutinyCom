@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://xignalex.com
+website: https://walletscrutiny.com/brokenlink/https://xignalex.com
 repository: 
 issue: 
 icon: com.xignal.android.exchange.png

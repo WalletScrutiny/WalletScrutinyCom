@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.anwonder.com
+website: https://walletscrutiny.com/brokenlink/https://anwonder.com/
 repository: 
 issue: 
 icon: com.anwonder.wallet.png

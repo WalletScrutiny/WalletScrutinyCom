@@ -14,7 +14,7 @@ stars: 4.2
 ratings: 186
 reviews: 13
 size: 
-website: https://www.chimpion.io/
+website: https://web.archive.org/web/20210613170722/https://chimpion.io/
 repository: 
 issue: 
 icon: com.chimpion.bcdpay.png
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: chimpionio
 social:
-- https://www.facebook.com/Chimpionio/
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/Chimpionio/
 - https://www.linkedin.com/company/chimpion/about/
 - https://www.instagram.com/chimpion.io/
 redirect_from: 

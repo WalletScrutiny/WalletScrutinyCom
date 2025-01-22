@@ -13,7 +13,7 @@ stars: 3.9
 ratings: 
 reviews: 
 size: 
-website: https://omenda.com
+website: https://web.archive.org/web/20191008013548/http://omenda.com/
 repository: 
 issue: 
 icon: com.omenda.binary.png

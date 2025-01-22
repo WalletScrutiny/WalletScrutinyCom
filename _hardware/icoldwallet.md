@@ -15,7 +15,7 @@ dimensions:
 weight: 26
 provider: Shenzhen Feitianxia Technology Co, Ltd.
 providerWebsite: http://idiskk.com/idiskk_new/about/?53.html
-website: https://www.icoldwallet.com/
+website: https://web.archive.org/web/20220625053518/https://www.icoldwallet.com/
 shop: >-
   https://www.amazon.com/Plug-Play-Cryptocurrency-Hardware-Ethereum-bluetooth/dp/B09MQ8CWJ9/
 country: CN

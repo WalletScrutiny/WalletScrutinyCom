@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 
 reviews: 501
 size: 
-website: http://www.bituniverse.org/
+website: https://www.bituniverse.org/
 repository: 
 issue: 
 icon: com.bituniverse.portfolio.png

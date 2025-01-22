@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.vi-tien.net/
+website: https://vi-tien.net/
 repository: 
 issue: 
 icon: app.vitien.vitien.png

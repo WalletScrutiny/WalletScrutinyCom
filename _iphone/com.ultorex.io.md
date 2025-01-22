@@ -13,7 +13,7 @@ version: 1.1.14
 stars: 0
 reviews: 0
 size: '57788416'
-website: https://ultorex.io/about-us
+website: https://web.archive.org/web/20220722065235/https://ultorex.io/about-us
 repository: 
 issue: 
 icon: com.ultorex.io.jpg

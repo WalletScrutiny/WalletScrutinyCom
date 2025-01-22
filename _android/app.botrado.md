@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://botrado.net
+website: https://web.archive.org/web/20220629032456/https://botrado.net/
 repository: 
 issue: 
 icon: app.botrado.png

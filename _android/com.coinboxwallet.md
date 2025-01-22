@@ -14,7 +14,7 @@ stars: 4.8
 ratings: 
 reviews: 
 size: 
-website: https://coinboxfinance.com/
+website: https://walletscrutiny.com/brokenlink/https://coinboxfinance.com/
 repository: 
 issue: 
 icon: com.coinboxwallet.png

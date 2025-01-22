@@ -14,7 +14,7 @@ stars: 3.3
 ratings: 
 reviews: 
 size: 
-website: https://talkapp.org
+website: https://web.archive.org/web/20210621064359/https://www.talkapp.org/
 repository: 
 issue: 
 icon: org.talkapp.png

@@ -15,7 +15,7 @@ dimensions:
 weight: 
 provider: KingMax
 providerWebsite: 
-website: http://www.kingmax.com.tw/
+website: https://walletscrutiny.com/brokenlink/https://www.kingmax.com.tw/
 shop: https://shopee.tw/product/170046947/12184393166
 country: TW
 price: 2550 NTD
@@ -32,7 +32,7 @@ twitter: KINGMAX_tweet
 social:
 - https://www.facebook.com/kingmax.global/
 - https://www.instagram.com/kingmax.global/
-- https://www.youtube.com/channel/UCSt179072OoLbwJtv-qvxWw
+- https://walletscrutiny.com/brokenlink/https://www.youtube.com/channel/UCSt179072OoLbwJtv-qvxWw
 features: 
 
 ---

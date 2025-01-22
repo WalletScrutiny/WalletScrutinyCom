@@ -26,8 +26,8 @@ signer:
 reviewArchive: 
 twitter: valrdotcom
 social:
-- https://www.linkedin.com/company/valr
-- https://www.facebook.com/VALRdotcom
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/valr
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/VALRdotcom
 features: 
 developerName: VALR Pty Ltd
 

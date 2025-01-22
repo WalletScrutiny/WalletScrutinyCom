@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://onetapexc.com
+website: https://walletscrutiny.com/brokenlink/https://onetapexc.com
 repository: 
 issue: 
 icon: com.dcctrading.co.onetapexc.jpg

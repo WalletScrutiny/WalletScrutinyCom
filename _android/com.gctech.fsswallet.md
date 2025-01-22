@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://fourssh.org/
+website: https://web.archive.org/web/20230312024342/http://www.fourssh.org/
 repository: 
 issue: 
 icon: com.gctech.fsswallet.png

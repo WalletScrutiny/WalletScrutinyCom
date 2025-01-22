@@ -14,7 +14,7 @@ stars:
 ratings: 283
 reviews: 
 size: 
-website: https://trade.francexchange.com/
+website: https://web.archive.org/web/20210920060716/https://trade.francexchange.com/
 repository: 
 issue: 
 icon: com.FrancExchange.png

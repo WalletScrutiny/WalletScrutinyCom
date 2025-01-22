@@ -14,7 +14,7 @@ stars: 3.6
 ratings: 1476
 reviews: 713
 size: 7.2M
-website: https://www.jex.com
+website: https://web.archive.org/web/20190902144148/https://www.jex.com/
 repository: 
 issue: 
 icon: com.jex.trade.png

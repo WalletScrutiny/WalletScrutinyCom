@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bankcomat.org/
+website: https://walletscrutiny.com/brokenlink/https://bankcomat.org/
 repository: 
 issue: 
 icon: com.bankcomat.android_bankcomat.png

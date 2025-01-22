@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 10M
-website: https://www.quickx.io
+website: https://walletscrutiny.com/brokenlink/https://quickx.io/
 repository: 
 issue: 
 icon: kr.co.keypair.quickxtouch.jpg
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: quickxprotocol
 social:
 - https://www.linkedin.com/company/quickx
-- https://www.facebook.com/quickxprotocol
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/quickxprotocol
 - https://www.reddit.com/r/QuickX
 redirect_from: 
 developerName: 

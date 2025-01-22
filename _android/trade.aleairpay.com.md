@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://trade.aleairpay.com/
+website: https://walletscrutiny.com/brokenlink/https://trade.aleairpay.com/
 repository: 
 issue: 
 icon: trade.aleairpay.com.png

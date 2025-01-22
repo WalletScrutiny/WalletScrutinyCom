@@ -13,7 +13,7 @@ version: '1.10'
 stars: 5
 reviews: 4
 size: '77766656'
-website: http://bizzmartdirect.com
+website: https://walletscrutiny.com/brokenlink/https://bizzmartdirect.com
 repository: 
 issue: 
 icon: com.bizz.bizzcoinWallet.jpg
@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: bizz_coin
 social:
-- https://www.facebook.com/BizzCoinOfficial
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/BizzCoinOfficial
 features: 
 developerName: 
 

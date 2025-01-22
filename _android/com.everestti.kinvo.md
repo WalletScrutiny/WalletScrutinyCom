@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 
 reviews: 7414
 size: 
-website: http://www.kinvo.com.br
+website: https://www.kinvo.com.br
 repository: 
 issue: 
 icon: com.everestti.kinvo.png

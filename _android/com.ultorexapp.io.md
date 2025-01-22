@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ultorex.io/
+website: https://web.archive.org/web/20220124104136/https://ultorex.io/
 repository: 
 issue: 
 icon: com.ultorexapp.io.png

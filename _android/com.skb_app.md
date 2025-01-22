@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://skb-coin.jp/en/
+website: https://walletscrutiny.com/brokenlink/https://www.skb-coin.jp:80/en/
 repository: 
 issue: 
 icon: com.skb_app.png

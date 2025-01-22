@@ -26,7 +26,7 @@ reviewArchive:
 twitter: investvoyager
 social:
 - https://www.linkedin.com/company/investvoyager
-- https://www.facebook.com/InvestVoyager
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/InvestVoyager
 - https://www.reddit.com/r/Invest_Voyager
 features: 
 developerName: Voyager Digital, LLC

@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: Nymi Inc.
 providerWebsite: https://nymi.com
-website: https://web.archive.org/web/20200512054026/https://getnymi.com/our_story
+website: https://getnymi.com/our_story
 shop: 
 country: CA
 price: 

@@ -13,7 +13,7 @@ version: 1.34.2
 stars: 4.7
 reviews: 142
 size: '55813120'
-website: https://usdx.cash/airdrop
+website: https://walletscrutiny.com/brokenlink/https://usdx.cash/airdrop
 repository: 
 issue: 
 icon: cash.usdx.wallet.jpg

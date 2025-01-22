@@ -28,7 +28,7 @@ twitter: inflowchange
 social:
 - https://www.tiktok.com/@inflowchange
 - https://www.instagram.com/inflowchange
-- https://www.facebook.com/Inflowchange/
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/Inflowchange/
 - https://t.me/inflowchange
 - https://www.youtube.com/@inflowchange
 - https://www.linkedin.com/company/inflowchange/

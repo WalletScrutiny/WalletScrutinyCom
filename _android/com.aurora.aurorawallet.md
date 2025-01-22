@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://aurorawallet.app
+website: https://walletscrutiny.com/brokenlink/https://aurorawallet.app
 repository: 
 issue: 
 icon: com.aurora.aurorawallet.png

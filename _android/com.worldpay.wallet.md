@@ -13,7 +13,7 @@ stars: 2.1
 ratings: 
 reviews: 5
 size: 
-website: https://wc-s.com/wallet
+website: https://walletscrutiny.com/brokenlink/https://wc-s.com/wallet
 repository: 
 issue: 
 icon: com.worldpay.wallet.png

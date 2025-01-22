@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://cryptere.com
+website: https://web.archive.org/web/20220627013631/https://cryptere.com/
 repository: 
 issue: 
 icon: com.cryptere.wallet.png

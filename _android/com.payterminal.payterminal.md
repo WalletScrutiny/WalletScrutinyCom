@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://payterminal.ng/
+website: https://walletscrutiny.com/brokenlink/https://payterminal.ng/
 repository: 
 issue: 
 icon: com.payterminal.payterminal.jpg

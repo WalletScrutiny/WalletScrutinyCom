@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://kleponswap.com
+website: https://walletscrutiny.com/brokenlink/https://kleponswap.com
 repository: 
 issue: 
 icon: com.klepon.wallet.png

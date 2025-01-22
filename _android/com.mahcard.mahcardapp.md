@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://mahcard.co
+website: https://web.archive.org/web/20211216230141/http://mahcard.co/
 repository: 
 issue: 
 icon: com.mahcard.mahcardapp.png

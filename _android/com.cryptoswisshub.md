@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.cryptoswisshub.com/
+website: https://web.archive.org/web/20220725070406/https://www.cryptoswisshub.com/
 repository: 
 issue: 
 icon: com.cryptoswisshub.png

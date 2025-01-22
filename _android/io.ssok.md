@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://ssok.info/
+website: https://web.archive.org/web/20130329182746/http://ssok.info
 repository: 
 issue: 
 icon: io.ssok.png

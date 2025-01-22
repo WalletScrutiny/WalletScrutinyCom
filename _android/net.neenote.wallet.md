@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://neenote.net/
+website: https://walletscrutiny.com/brokenlink/https://neenote.net/
 repository: 
 issue: 
 icon: net.neenote.wallet.png

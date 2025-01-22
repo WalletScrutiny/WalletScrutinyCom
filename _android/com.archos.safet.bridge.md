@@ -14,7 +14,7 @@ stars: 3.1
 ratings: 
 reviews: 
 size: 
-website: http://www.archos.com
+website: https://www.archos.com
 repository: 
 issue: 
 icon: com.archos.safet.bridge.png

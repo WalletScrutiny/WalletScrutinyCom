@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://alibit.tech/
+website: https://web.archive.org/web/20220507185954/https://alibit.tech/
 repository: 
 issue: 
 icon: com.alibitmobile.alibit.jpg

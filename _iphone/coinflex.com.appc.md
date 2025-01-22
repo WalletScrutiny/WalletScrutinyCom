@@ -13,7 +13,7 @@ version: 2.7.0
 stars: 4
 reviews: 8
 size: 34301952
-website: https://coinflex.com/home
+website: https://walletscrutiny.com/brokenlink/https://coinflex.com/home
 repository: 
 issue: 
 icon: coinflex.com.appc.jpg

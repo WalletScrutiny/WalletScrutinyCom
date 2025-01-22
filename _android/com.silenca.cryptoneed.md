@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.cryptoneed.pro/
+website: https://walletscrutiny.com/brokenlink/https://www.cryptoneed.pro/
 repository: 
 issue: 
 icon: com.silenca.cryptoneed.png
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/cryptoneedwallet
+- https://web.archive.org/web/20230306125202/https://www.facebook.com/cryptoneedwallet/
 redirect_from: 
 developerName: 
 features: 

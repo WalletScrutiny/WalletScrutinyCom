@@ -14,7 +14,7 @@ stars: 2.7
 ratings: 
 reviews: 17
 size: 
-website: https://www.fairdesk.com/
+website: https://walletscrutiny.com/brokenlink/https://www.fairdesk.com/
 repository: 
 issue: 
 icon: com.biboots.flutter_app.png
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: FairdeskGlobal
 social:
 - https://www.reddit.com/user/Fairdesk_Official
-- https://www.youtube.com/channel/UCYcwULjw4ci90htneCrMu1w
+- https://web.archive.org/web/20230929042824/https://www.youtube.com/channel/UCYcwULjw4ci90htneCrMu1w
 redirect_from: 
 developerName: Fairdesk Technology Limited
 features: 

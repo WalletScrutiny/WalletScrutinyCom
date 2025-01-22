@@ -14,7 +14,7 @@ stars: 1.8
 ratings: 
 reviews: 11
 size: 
-website: https://safecryptwallet.com
+website: https://web.archive.org/web/20230322222440/https://safecryptwallet.com/
 repository: 
 issue: 
 icon: com.app.Safecrypto.png

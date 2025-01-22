@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.bluekeymarket.com
+website: https://web.archive.org/web/20190826222619/http://bluekeymarket.com:80/
 repository: 
 issue: 
 icon: com.application.galaxywallet.png

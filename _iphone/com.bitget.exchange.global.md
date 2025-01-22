@@ -26,7 +26,7 @@ reviewArchive:
 twitter: bitgetglobal
 social:
 - https://www.linkedin.com/company/bitget
-- https://www.facebook.com/BitgetGlobal
+- https://web.archive.org/web/20220128011031/https://www.facebook.com/BitgetGlobal
 features: 
 developerName: BG LIMITED
 

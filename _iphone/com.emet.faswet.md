@@ -13,7 +13,7 @@ version: 2.9.7
 stars: 5
 reviews: 2
 size: '41078784'
-website: https://emetenjoy.com/
+website: https://web.archive.org/web/20200612013438/https://emetenjoy.com/
 repository: 
 issue: 
 icon: com.emet.faswet.jpg

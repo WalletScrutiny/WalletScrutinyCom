@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: Polymerbit Ltd.
 providerWebsite: 
-website: https://polymerbit.ch/
+website: https://walletscrutiny.com/brokenlink/https://polymerbit.ch/
 shop: https://www.polymerbit.com/shop
 country: UK
 price: 20USD

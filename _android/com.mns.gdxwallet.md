@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://gdxwallet.com/
+website: https://gdxwallet.com/
 repository: 
 issue: 
 icon: com.mns.gdxwallet.png

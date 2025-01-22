@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://easyflip.io
+website: https://walletscrutiny.com/brokenlink/https://easyflip.io
 repository: 
 issue: 
 icon: com.easyflip.io.png

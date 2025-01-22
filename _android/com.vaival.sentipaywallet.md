@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.sentipaywallet.com
+website: https://web.archive.org/web/20240907200019/https://www.sentipaywallet.com/
 repository: 
 issue: 
 icon: com.vaival.sentipaywallet.png

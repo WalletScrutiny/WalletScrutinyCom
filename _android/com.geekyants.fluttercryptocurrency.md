@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://fluttermarket.com/view/flutter-crypto-app-theme
+website: https://web.archive.org/web/20210613113825/https://fluttermarket.com/view/flutter-crypto-app-theme
 repository: 
 issue: 
 icon: com.geekyants.fluttercryptocurrency.png

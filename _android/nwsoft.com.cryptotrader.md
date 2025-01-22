@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.nwsoft.co.kr
+website: https://www.nwsoft.co.kr
 repository: 
 issue: 
 icon: nwsoft.com.cryptotrader.png

@@ -26,7 +26,7 @@ reviewArchive:
 twitter: swissborg
 social:
 - https://www.linkedin.com/company/swissborg
-- https://www.facebook.com/swissborg
+- https://web.archive.org/web/20171105085131/https://www.facebook.com/swissborg
 features: 
 developerName: SBorg SA
 

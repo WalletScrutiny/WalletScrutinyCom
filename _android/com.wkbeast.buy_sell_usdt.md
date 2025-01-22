@@ -14,7 +14,7 @@ stars: 4.9
 ratings: 
 reviews: 12
 size: 
-website: http://www.ahmadkassabieh.com
+website: https://web.archive.org/web/20211125095758/http://ahmadkassabieh.com/
 repository: 
 issue: 
 icon: com.wkbeast.buy_sell_usdt.png

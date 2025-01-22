@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://giltwallet.com
+website: https://web.archive.org/web/20210527175746/https://giltwallet.com/
 repository: 
 issue: 
 icon: gilt.wallet.png

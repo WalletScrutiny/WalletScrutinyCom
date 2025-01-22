@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.inigmasys.com/
+website: https://web.archive.org/web/20200803150735/https://www.inigmasys.com/
 repository: 
 issue: 
 icon: com.inigma.wallet.jpg

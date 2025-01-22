@@ -17,7 +17,7 @@ dimensions:
 weight: 
 provider: BitHD
 providerWebsite: https://bithd.com
-website: https://bithd.com/BITHD-watch-1.html
+website: https://walletscrutiny.com/brokenlink/https://bithd.com/BITHD-watch-1.html
 shop: https://bithd.com/BITHD-watch-1.html
 country: CN
 price: 

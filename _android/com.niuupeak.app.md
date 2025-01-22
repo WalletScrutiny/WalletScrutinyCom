@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://niuupeak.com/
+website: https://web.archive.org/web/20210624055130/https://niuupeak.com/
 repository: 
 issue: 
 icon: com.niuupeak.app.png

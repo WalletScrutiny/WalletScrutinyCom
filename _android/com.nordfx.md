@@ -14,7 +14,7 @@ stars: 4.1
 ratings: 154
 reviews: 43
 size: 
-website: http://nordfx.com
+website: https://nordfx.com
 repository: 
 issue: 
 icon: com.nordfx.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://eybinary.xtrading.co/
+website: https://walletscrutiny.com/brokenlink/https://eybinary.xtrading.co/
 repository: 
 issue: 
 icon: xtrading.eybinary.co.png

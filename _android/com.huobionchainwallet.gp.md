@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: HuobiWallet
 social:
-- https://www.facebook.com/HuobiWallet
+- https://web.archive.org/web/20220202005047/https://www.facebook.com/HuobiWallet
 redirect_from: 
 developerName: BlazekTech Internet Technology Service Limited
 features: 

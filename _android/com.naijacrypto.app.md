@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://naijacrypto.com/
+website: https://walletscrutiny.com/brokenlink/https://naijacrypto.com/
 repository: 
 issue: 
 icon: com.naijacrypto.app.png

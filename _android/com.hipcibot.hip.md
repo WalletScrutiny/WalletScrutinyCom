@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.hipcibot.com
+website: https://web.archive.org/web/20210918161508/https://www.hipcibot.com/
 repository: 
 issue: 
 icon: com.hipcibot.hip.png

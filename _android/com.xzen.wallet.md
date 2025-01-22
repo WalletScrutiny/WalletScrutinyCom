@@ -14,7 +14,7 @@ stars: 3.7
 ratings: 42
 reviews: 31
 size: 26M
-website: http://www.xzen.io/app
+website: https://web.archive.org/web/20200813073839/https://www.xzen.io/app
 repository: 
 issue: 
 icon: com.xzen.wallet.png

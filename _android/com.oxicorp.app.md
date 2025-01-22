@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://oxi-corp.com/
+website: https://walletscrutiny.com/brokenlink/https://oxi-corp.com/
 repository: 
 issue: 
 icon: com.oxicorp.app.png

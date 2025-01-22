@@ -14,7 +14,7 @@ stars: 3.4
 ratings: 19
 reviews: 11
 size: 11M
-website: https://coinflex.com/home
+website: https://web.archive.org/web/20221221235537/https://coinflex.com/home
 repository: 
 issue: 
 icon: com.lxd.java_websocketclient.png

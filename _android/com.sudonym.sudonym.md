@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://sudonym.app
+website: https://web.archive.org/web/20221129132722/https://sudonym.app/
 repository: 
 issue: 
 icon: com.sudonym.sudonym.png

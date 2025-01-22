@@ -14,7 +14,7 @@ stars: 4.5
 ratings: 77
 reviews: 3
 size: 
-website: https://www.bitfortip.com/
+website: https://web.archive.org/web/20211023012008/https://bitfortip.com/
 repository: 
 issue: 
 icon: com.rishabh.bitfortip.jpg

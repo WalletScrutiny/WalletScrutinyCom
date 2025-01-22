@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: Alitin Mint
 providerWebsite: 
-website: https://web.archive.org/web/20160220174536/https://www.alitinmint.com/
+website: https://walletscrutiny.com/brokenlink/https://www.alitinmint.com/
 shop: 
 country: 
 price: 

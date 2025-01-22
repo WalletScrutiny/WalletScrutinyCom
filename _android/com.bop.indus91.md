@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://indus91.com/
+website: https://web.archive.org/web/20220824001237/http://indus91.com/
 repository: 
 issue: 
 icon: com.bop.indus91.jpg

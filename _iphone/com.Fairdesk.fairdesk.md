@@ -13,7 +13,7 @@ version: 1.7.0
 stars: 3.3
 reviews: 14
 size: '24462336'
-website: https://www.fairdesk.com
+website: https://walletscrutiny.com/brokenlink/https://www.fairdesk.com/
 repository: 
 issue: 
 icon: com.Fairdesk.fairdesk.jpg
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: FairdeskGlobal
 social:
 - https://www.reddit.com/user/Fairdesk_Official
-- https://www.youtube.com/channel/UCYcwULjw4ci90htneCrMu1w
+- https://web.archive.org/web/20230929042824/https://www.youtube.com/channel/UCYcwULjw4ci90htneCrMu1w
 features: 
 developerName: FAIRDESK TECHNOLOGY LIMITED
 

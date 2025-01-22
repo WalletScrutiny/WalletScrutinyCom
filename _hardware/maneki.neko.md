@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: 
 providerWebsite: 
-website: https://theneko.io/
+website: https://web.archive.org/web/20220123190543/https://theneko.io/
 shop: 
 country: 
 price: 
@@ -28,7 +28,7 @@ reviewArchive:
 twitter: TheNeko_io
 social:
 - https://medium.com/@thenekoofficial
-- https://www.instagram.com/theneko_io/
+- https://walletscrutiny.com/brokenlink/https://www.instagram.com/theneko_io/
 - https://t.me/TheNekoOfficial
 features: 
 

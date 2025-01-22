@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://trade4fastpay.com/
+website: https://walletscrutiny.com/brokenlink/https://trade4fastpay.com/
 repository: 
 issue: 
 icon: com.trade4fastpay.trade4fastpay.png

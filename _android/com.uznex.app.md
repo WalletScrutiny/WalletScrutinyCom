@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://uznex.com
+website: https://walletscrutiny.com/brokenlink/https://www.uznex.com/
 repository: 
 issue: 
 icon: com.uznex.app.png

@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: WOOnetwork
 social:
-- https://www.facebook.com/WOOnetwork.official
+- https://web.archive.org/web/20220120202833/https://www.facebook.com/WOOnetwork.official
 - https://www.linkedin.com/company/woonetwork/
 redirect_from: 
 developerName: WOOTECH Limited

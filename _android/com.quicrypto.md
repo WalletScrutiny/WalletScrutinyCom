@@ -14,7 +14,7 @@ stars: 4.6
 ratings: 4934
 reviews: 910
 size: 
-website: http://www.quicrypto.com
+website: https://web.archive.org/web/20201111202022/http://www.quicrypto.com/
 repository: 
 issue: 
 icon: com.quicrypto.png

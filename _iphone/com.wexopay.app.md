@@ -13,7 +13,7 @@ version: 3.0.9
 stars: 4.8
 reviews: 468
 size: '117467136'
-website: https://wexopay.com
+website: https://walletscrutiny.com/brokenlink/https://wexopay.com
 repository: 
 issue: 
 icon: com.wexopay.app.jpg
@@ -25,9 +25,9 @@ signer:
 reviewArchive: 
 twitter: WexoOfficial
 social:
-- https://www.facebook.com/wexopay
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/wexopay
 - https://t.me/WexoToken
-- https://www.youtube.com/channel/UCZhC-OF4j0I5ls51EjKT1UA
+- https://walletscrutiny.com/brokenlink/https://www.youtube.com/channel/UCZhC-OF4j0I5ls51EjKT1UA
 - https://discord.com/invite/jhqwr7KFCn
 features: 
 developerName: Wexo Europe s.r.o.

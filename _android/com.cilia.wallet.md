@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://getcilia.com
+website: https://web.archive.org/web/20240511083041/https://getcilia.com/
 repository: 
 issue: 
 icon: com.cilia.wallet.png

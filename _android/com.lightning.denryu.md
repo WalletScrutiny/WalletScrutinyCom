@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://denryu.hashhub.tokyo/
+website: https://web.archive.org/web/20200918075120/https://denryu.hashhub.tokyo/
 repository: 
 issue: 
 icon: com.lightning.denryu.png

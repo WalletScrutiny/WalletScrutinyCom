@@ -13,7 +13,7 @@ version: 2.1.9
 stars: 2.7
 reviews: 9
 size: '8921088'
-website: https://dex-trade.com/
+website: https://walletscrutiny.com/brokenlink/https://dex-trade.com/
 repository: 
 issue: 
 icon: com.dex-trade.ios.jpg

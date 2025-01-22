@@ -27,7 +27,7 @@ reviewArchive:
 twitter: iqtradegroup
 social:
 - https://www.youtube.com/@IQTradeGlobal
-- https://www.facebook.com/IQTradeGlobal
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/IQTradeGlobal
 - https://www.instagram.com/iqtradeglobal
 redirect_from: 
 developerName: I&Q Financial LLC

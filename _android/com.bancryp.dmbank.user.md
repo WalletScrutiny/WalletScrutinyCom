@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.dmbank.com.br
+website: https://web.archive.org/web/20210614092846/https://dmbank.com.br/
 repository: 
 issue: 
 icon: com.bancryp.dmbank.user.png

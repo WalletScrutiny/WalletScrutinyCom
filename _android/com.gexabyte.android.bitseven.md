@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bit7wallet.com/
+website: https://walletscrutiny.com/brokenlink/https://bit7wallet.com/
 repository: 
 issue: 
 icon: com.gexabyte.android.bitseven.png

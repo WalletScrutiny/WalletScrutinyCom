@@ -13,7 +13,7 @@ version: 3.49.0
 stars: 4.6
 reviews: 18230
 size: '54294528'
-website: http://www.kinvo.com.br
+website: https://www.kinvo.com.br
 repository: 
 issue: 
 icon: com.everest.kinvo.jpg

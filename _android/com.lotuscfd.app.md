@@ -13,7 +13,7 @@ stars: 4.1
 ratings: 
 reviews: 
 size: 
-website: https://www.lotuscfd.com
+website: https://web.archive.org/web/20180825115610/https://www.lotuscfd.com/
 repository: 
 issue: 
 icon: com.lotuscfd.app.png

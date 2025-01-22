@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.orillia.be
+website: https://www.orillia.be/
 repository: 
 issue: 
 icon: orillia.com.orilliamerchantapp.png

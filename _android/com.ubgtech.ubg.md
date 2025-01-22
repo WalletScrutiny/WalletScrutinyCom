@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ubgtech.my/
+website: https://web.archive.org/web/20220417003932/https://ubgtech.my/
 repository: 
 issue: 
 icon: com.ubgtech.ubg.png

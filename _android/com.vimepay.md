@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://vimepay.com
+website: https://web.archive.org/web/20201104073116/https://vimepay.com/
 repository: 
 issue: 
 icon: com.vimepay.png

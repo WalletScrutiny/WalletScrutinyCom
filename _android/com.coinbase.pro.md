@@ -14,7 +14,7 @@ stars: 4
 ratings: 22040
 reviews: 4595
 size: 
-website: http://pro.coinbase.com/
+website: https://pro.coinbase.com/
 repository: 
 issue: 
 icon: com.coinbase.pro.jpg

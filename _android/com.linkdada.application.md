@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.linkdada.com/
+website: https://web.archive.org/web/20200809082421/https://www.linkdada.com/
 repository: 
 issue: 
 icon: com.linkdada.application.png

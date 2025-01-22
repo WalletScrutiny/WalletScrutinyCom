@@ -14,7 +14,7 @@ stars: 3.3
 ratings: 4636
 reviews: 627
 size: 
-website: http://www.okcoin.com
+website: https://www.okcoin.com
 repository: 
 issue: 
 icon: com.okinc.okcoin.intl.png

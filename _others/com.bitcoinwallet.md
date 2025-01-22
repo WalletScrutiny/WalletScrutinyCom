@@ -5,7 +5,7 @@ authors:
 - danny
 icon: com.bitcoinwallet.png
 date: 2024-05-10
-website: http://bitcoinwallet.com
+website: https://bitcoinwallet.com
 twitter: bitcoinwaIIet
 provider: 404 Financial LLC
 meta: ok

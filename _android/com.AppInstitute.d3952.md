@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://dispurseapp.com/
+website: https://walletscrutiny.com/brokenlink/https://dispurseapp.com/
 repository: 
 issue: 
 icon: com.AppInstitute.d3952.png

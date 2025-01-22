@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://mathayofunds.com/
+website: https://walletscrutiny.com/brokenlink/https://mathayofunds.com:80/
 repository: 
 issue: 
 icon: com.mathayo.mathayofunds.png

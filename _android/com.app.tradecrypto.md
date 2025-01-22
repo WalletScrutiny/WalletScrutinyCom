@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.tradecrypto.asia
+website: https://walletscrutiny.com/brokenlink/https://www.tradecrypto.asia/
 repository: 
 issue: 
 icon: com.app.tradecrypto.png

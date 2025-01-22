@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 9.5M
-website: https://www.xchange-coins.com
+website: https://walletscrutiny.com/brokenlink/https://xchange-coins.com/
 repository: 
 issue: 
 icon: xchange_coins.com.png

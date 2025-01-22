@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: RevixInvest
 social:
-- https://www.facebook.com/RevixInvest
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/RevixInvest
 - https://www.linkedin.com/company/revixinvest
 - https://www.instagram.com/revixinvest
 - https://medium.com/revixinvestment

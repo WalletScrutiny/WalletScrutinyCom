@@ -13,7 +13,7 @@ stars: 2.6
 ratings: 
 reviews: 
 size: 
-website: http://www.sesacash.com
+website: https://walletscrutiny.com/brokenlink/https://sesacash.com/
 repository: 
 issue: 
 icon: com.sesacash.app.png

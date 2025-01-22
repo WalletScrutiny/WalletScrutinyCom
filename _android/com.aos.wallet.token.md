@@ -14,7 +14,7 @@ stars: 4.9
 ratings: 337
 reviews: 154
 size: 34M
-website: https://atswallet.io/
+website: https://web.archive.org/web/20241212035143/https://atswallet.io/
 repository: 
 issue: 
 icon: com.aos.wallet.token.png

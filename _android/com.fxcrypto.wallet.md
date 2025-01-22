@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://forexrobottraders.com/
+website: https://walletscrutiny.com/brokenlink/https://forexrobottraders.com:80/
 repository: 
 issue: 
 icon: com.fxcrypto.wallet.png

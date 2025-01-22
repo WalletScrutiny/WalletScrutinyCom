@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://cryptotradeengine.com
+website: https://walletscrutiny.com/brokenlink/https://cryptotradeengine.com
 repository: 
 issue: 
 icon: tech.qoden.mythology.png

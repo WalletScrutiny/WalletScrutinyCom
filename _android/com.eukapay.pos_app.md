@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://eukapay.com
+website: https://web.archive.org/web/20210619145931/https://www.eukapay.com/
 repository: 
 issue: 
 icon: com.eukapay.pos_app.png

@@ -13,7 +13,7 @@ version: 9.16.3
 stars: 4.5
 reviews: 9686
 size: '49424384'
-website: http://www.interactivebrokers.com
+website: https://www.interactivebrokers.com
 repository: 
 issue: 
 icon: com.interactivebrokers.mobiletws4iphone.jpg

@@ -14,7 +14,7 @@ stars: 3.3
 ratings: 
 reviews: 3
 size: 
-website: https://www.doshi.app
+website: https://www.doshi.app/
 repository: 
 issue: 
 icon: doshi.app.png

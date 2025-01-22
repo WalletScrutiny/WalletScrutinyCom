@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://torex.one/ru/
+website: https://web.archive.org/web/20221225174111/https://torex.one/ru/
 repository: 
 issue: 
 icon: com.torexapp.png

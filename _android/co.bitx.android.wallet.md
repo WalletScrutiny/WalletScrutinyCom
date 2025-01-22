@@ -32,7 +32,7 @@ reviewArchive:
 twitter: LunoGlobal
 social:
 - https://www.linkedin.com/company/lunoglobal
-- https://www.facebook.com/luno
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/luno
 redirect_from:
 - /luno/
 - /co.bitx.android.wallet/
