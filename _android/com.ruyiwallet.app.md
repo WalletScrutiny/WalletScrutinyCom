@@ -13,7 +13,7 @@ stars: 4.8
 ratings: 
 reviews: 4
 size: 
-website: https://www.ruyiwallet.com
+website: https://web.archive.org/web/20221206011217/https://www.ruyiwallet.com
 repository: 
 issue: 
 icon: com.ruyiwallet.app.png

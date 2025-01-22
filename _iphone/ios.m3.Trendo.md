@@ -13,7 +13,7 @@ version: 3.9.25
 stars: 5
 reviews: 46
 size: '57053184'
-website: https://fxtrendo.com/
+website: https://walletscrutiny.com/brokenlink/https://fxtrendo.com/
 repository: 
 issue: 
 icon: ios.m3.Trendo.jpg

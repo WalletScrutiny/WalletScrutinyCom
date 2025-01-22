@@ -13,7 +13,7 @@ stars: 4.3
 ratings: 
 reviews: 
 size: 
-website: https://zznex.in/
+website: https://walletscrutiny.com/brokenlink/https://zznex.in/
 repository: 
 issue: 
 icon: com.zznex.app.png

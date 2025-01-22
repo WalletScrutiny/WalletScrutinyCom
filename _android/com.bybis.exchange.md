@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: ByBIS_Official
 social:
-- https://www.facebook.com/bybisofficial
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/bybisofficial
 - https://www.linkedin.com/company/bybis
 - https://www.youtube.com/@ByBISyoutube
 - https://t.me/bybis_announcements

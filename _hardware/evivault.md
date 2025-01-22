@@ -15,7 +15,7 @@ dimensions:
 weight: 3.9
 provider: FreeMindTronic
 providerWebsite: https://freemindtronic.com
-website: https://freemindtronic.com/evivault-technology-by-freemindtronic/
+website: https://web.archive.org/web/20211019220208/https://freemindtronic.com/evivault-technology-by-freemindtronic/
 shop: 
 country: AD
 price: 80 EUR

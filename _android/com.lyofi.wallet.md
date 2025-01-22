@@ -14,7 +14,7 @@ stars: 4.6
 ratings: 
 reviews: 
 size: 
-website: https://wallet.lyofi.com/
+website: https://web.archive.org/web/20220713145506/https://www.wallet.lyofi.com/
 repository: 
 issue: 
 icon: com.lyofi.wallet.png

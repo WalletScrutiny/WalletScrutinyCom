@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 2775
 reviews: 90
 size: 
-website: http://www.hagglex.com
+website: https://walletscrutiny.com/brokenlink/https://www.hagglex.com/
 repository: 
 issue: 
 icon: com.hagglex.hagglex.png

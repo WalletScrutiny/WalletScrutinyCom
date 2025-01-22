@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bitdd.co
+website: https://walletscrutiny.com/brokenlink/https://bitdd.co
 repository: 
 issue: 
 icon: xyz.snazy.snazazizventures.bitdd.png

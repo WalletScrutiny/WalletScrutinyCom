@@ -15,7 +15,7 @@ stars: 4.1
 ratings: 821
 reviews: 132
 size: 
-website: http://splashfactory.com
+website: https://web.archive.org/web/20240807003344/https://splashfactory.com/
 repository: 
 issue: 
 icon: com.sf.monarch.png

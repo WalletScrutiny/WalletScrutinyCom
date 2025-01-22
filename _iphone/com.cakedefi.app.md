@@ -26,7 +26,7 @@ reviewArchive:
 twitter: cakedefi
 social:
 - https://www.linkedin.com/company/cakedefi
-- https://www.facebook.com/cakedefi
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/cakedefi
 - https://www.reddit.com/r/cakedefi
 features: 
 developerName: Cake DeFi

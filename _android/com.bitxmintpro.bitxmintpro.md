@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bitxmintpro.com
+website: https://walletscrutiny.com/brokenlink/https://bitxmintpro.com/
 repository: 
 issue: 
 icon: com.bitxmintpro.bitxmintpro.png

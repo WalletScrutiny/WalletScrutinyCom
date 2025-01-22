@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 42M
-website: https://app.wirewallet.org/
+website: https://web.archive.org/web/20210418125544/https://app.wirewallet.org/
 repository: 
 issue: 
 icon: com.fiber.fiberwallet.png

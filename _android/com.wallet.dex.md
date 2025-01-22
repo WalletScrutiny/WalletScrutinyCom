@@ -14,7 +14,7 @@ stars: 4.6
 ratings: 
 reviews: 12
 size: 
-website: https://dexwallet.info
+website: https://walletscrutiny.com/brokenlink/https://dexwallet.info
 repository: 
 issue: 
 icon: com.wallet.dex.png

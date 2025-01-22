@@ -27,7 +27,7 @@ reviewArchive:
 twitter: QmallExchange
 social:
 - https://www.linkedin.com/company/qmallexchange/about/
-- https://www.facebook.com/qmall.io
+- https://web.archive.org/web/20220610165237/https://www.facebook.com/qmall.io
 - https://www.youtube.com/channel/UCRfKNWczZ84ASCSEIsaLCag
 redirect_from: 
 developerName: Prof-IT Blockchain Limited

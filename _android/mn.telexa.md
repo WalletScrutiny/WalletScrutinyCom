@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/Telexa.mn/
+- https://web.archive.org/web/20230629063856/https://www.facebook.com/Telexa.mn/
 redirect_from: 
 developerName: Save, Inc
 features: 

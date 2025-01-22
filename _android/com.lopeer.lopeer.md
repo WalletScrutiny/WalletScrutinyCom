@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.lopeer.com
+website: https://walletscrutiny.com/brokenlink/https://www.lopeer.com/
 repository: 
 issue: 
 icon: com.lopeer.lopeer.png

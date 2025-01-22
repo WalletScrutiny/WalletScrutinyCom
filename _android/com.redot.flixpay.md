@@ -13,7 +13,7 @@ stars: 5
 ratings: 
 reviews: 140
 size: 
-website: https://flixpay.io
+website: https://web.archive.org/web/20220409071651/https://www.flixpay.io/
 repository: 
 issue: 
 icon: com.redot.flixpay.png

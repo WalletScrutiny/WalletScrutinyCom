@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: Monero Project
 providerWebsite: 
-website: https://kastelo.org/
+website: https://walletscrutiny.com/brokenlink/https://kastelo.org/
 shop: 
 country: 
 price: 

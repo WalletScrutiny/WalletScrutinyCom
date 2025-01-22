@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: Meek
 providerWebsite: 
-website: https://web.archive.org/web/20131215023901/http://meek.io/
+website: https://walletscrutiny.com/brokenlink/https://meek.io/
 shop: 
 country: UK
 price: 

@@ -14,7 +14,7 @@ stars: 1.9
 ratings: 
 reviews: 24
 size: 
-website: https://www.5roi.com/
+website: https://web.archive.org/web/20210802061855/https://www.5roi.com/
 repository: 
 issue: 
 icon: com.fiveroi.png

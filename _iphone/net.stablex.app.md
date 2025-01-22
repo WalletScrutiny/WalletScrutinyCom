@@ -26,7 +26,7 @@ reviewArchive:
 twitter: Stablex_Turkey
 social:
 - https://www.instagram.com/stablexofficial
-- https://www.youtube.com/channel/UC261DPjgdgZcP9PgoKrGc7A
+- https://walletscrutiny.com/brokenlink/https://www.youtube.com/channel/UC261DPjgdgZcP9PgoKrGc7A
 - https://www.linkedin.com/company/stablex-net
 features: 
 developerName: STABLEX KRIPTO VARLIK ALIM SATIM PLATFORMU ANONIM SIRKETI

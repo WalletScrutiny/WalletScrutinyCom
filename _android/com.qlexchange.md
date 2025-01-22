@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://qilinlab.com
+website: https://qilinlab.com
 repository: 
 issue: 
 icon: com.qlexchange.png

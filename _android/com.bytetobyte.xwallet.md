@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ehanoc.github.io/xwallet/
+website: https://web.archive.org/web/20200915063127/https://ehanoc.github.io/xwallet/
 repository: 
 issue: 
 icon: com.bytetobyte.xwallet.png

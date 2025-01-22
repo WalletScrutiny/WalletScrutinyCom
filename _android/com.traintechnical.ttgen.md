@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://support.train-technical.com
+website: https://web.archive.org/web/20190617040247/https://support.train-technical.com/
 repository: 
 issue: 
 icon: com.traintechnical.ttgen.png

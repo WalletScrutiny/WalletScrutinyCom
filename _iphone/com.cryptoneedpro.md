@@ -13,7 +13,7 @@ version: 1.0.31
 stars: 0
 reviews: 0
 size: '113953792'
-website: https://www.cryptoneed.pro/
+website: https://web.archive.org/web/20210613142307/https://www.cryptoneed.pro/
 repository: 
 issue: 
 icon: com.cryptoneedpro.jpg
@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/cryptoneedwallet
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/cryptoneedwallet
 features: 
 developerName: 
 

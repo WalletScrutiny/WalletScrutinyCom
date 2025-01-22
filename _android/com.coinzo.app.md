@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.coinzo.com
+website: https://www.coinzo.com/
 repository: 
 issue: 
 icon: com.coinzo.app.png

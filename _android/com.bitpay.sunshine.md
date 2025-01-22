@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.sunshine-wallet.com
+website: https://web.archive.org/web/20180822014717/https://sunshine-wallet.com/
 repository: 
 issue: 
 icon: com.bitpay.sunshine.png

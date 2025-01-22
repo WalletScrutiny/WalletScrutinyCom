@@ -13,7 +13,7 @@ version: '2.1'
 stars: 
 reviews: 
 size: 14971904
-website: https://figcoin.online
+website: https://walletscrutiny.com/brokenlink/https://figcoin.online
 repository: 
 issue: 
 icon: online.figcoin.figvault.jpg

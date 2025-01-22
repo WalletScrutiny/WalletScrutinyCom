@@ -14,7 +14,7 @@ stars: 4.4
 ratings: 
 reviews: 7
 size: 
-website: https://cex-trade.io
+website: https://web.archive.org/web/20220707125802/https://cex-trade.io/
 repository: 
 issue: 
 icon: app.cex_trade.io.png

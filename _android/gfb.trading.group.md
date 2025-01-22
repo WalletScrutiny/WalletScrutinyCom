@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://gfbtrading-group.com/
+website: https://walletscrutiny.com/brokenlink/https://gfbtrading-group.com/
 repository: 
 issue: 
 icon: gfb.trading.group.jpg

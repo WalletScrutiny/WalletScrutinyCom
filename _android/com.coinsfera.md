@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.bitfera.com
+website: https://web.archive.org/web/20201031233110/https://bitfera.com/
 repository: 
 issue: 
 icon: com.coinsfera.png

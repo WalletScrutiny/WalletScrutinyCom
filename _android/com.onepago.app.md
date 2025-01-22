@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.onepago.com/
+website: https://walletscrutiny.com/brokenlink/https://www.onepago.com/
 repository: 
 issue: 
 icon: com.onepago.app.png

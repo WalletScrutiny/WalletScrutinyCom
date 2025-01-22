@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/capex.mn
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/capex.mn
 - https://www.instagram.com/capex.mn
 - https://t.me/capexcoin
 features: 

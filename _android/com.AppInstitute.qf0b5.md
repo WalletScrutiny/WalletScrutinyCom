@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://blockscart.eu
+website: https://walletscrutiny.com/brokenlink/https://blockscart.eu/
 repository: 
 issue: 
 icon: com.AppInstitute.qf0b5.png

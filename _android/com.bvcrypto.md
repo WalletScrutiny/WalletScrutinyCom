@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.bvcrypto.com
+website: https://walletscrutiny.com/brokenlink/https://bvcrypto.com/
 repository: 
 issue: 
 icon: com.bvcrypto.png

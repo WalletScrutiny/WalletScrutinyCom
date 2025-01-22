@@ -27,7 +27,7 @@ reviewArchive:
 twitter: counoscoin
 social:
 - https://www.linkedin.com/company/counosplatform
-- https://www.facebook.com/CounosPlatform
+- https://web.archive.org/web/20200904150717/https://www.facebook.com/CounosPlatform
 redirect_from: 
 developerName: ZeroCash
 features: 

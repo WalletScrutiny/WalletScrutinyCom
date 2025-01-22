@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bitvirya.com/
+website: https://walletscrutiny.com/brokenlink/https://bitvirya.com/
 repository: 
 issue: 
 icon: com.bitvirya.app.png

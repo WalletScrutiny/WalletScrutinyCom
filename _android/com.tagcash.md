@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://tagcash.com
+website: https://tagcash.com
 repository: 
 issue: 
 icon: com.tagcash.png
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social:
 - https://www.linkedin.com/company/tagcash-ltd/
-- https://www.facebook.com/tagcashrewards
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/tagcashrewards
 redirect_from: 
 developerName: Tagcash Ltd
 features: 

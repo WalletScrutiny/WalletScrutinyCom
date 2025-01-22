@@ -15,7 +15,7 @@ stars: 4.6
 ratings: 39345
 reviews: 3137
 size: 
-website: https://www.bitcoin.com
+website: https://www.bitcoin.com:443/
 repository: https://github.com/Bitcoin-com/Wallet
 issue: https://github.com/Bitcoin-com/Wallet/issues/39
 icon: com.bitcoin.mwallet.png
@@ -32,7 +32,7 @@ reviewArchive:
   verdict: nonverifiable
 twitter: bitcoincom
 social:
-- https://www.facebook.com/buy.bitcoin.news
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/buy.bitcoin.news
 - https://www.reddit.com/r/btc
 redirect_from:
 - /com.bitcoin.mwallet/

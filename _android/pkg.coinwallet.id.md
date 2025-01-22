@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 6.7M
-website: https://coinwallet.id
+website: https://walletscrutiny.com/brokenlink/https://coinwallet.id
 repository: 
 issue: 
 icon: pkg.coinwallet.id.png

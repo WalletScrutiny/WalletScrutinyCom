@@ -26,7 +26,7 @@ reviewArchive:
 twitter: spot_bitcoin
 social:
 - https://www.linkedin.com/company/spot-bitcoin
-- https://www.facebook.com/spot.bitcoin
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/spot.bitcoin
 features: 
 developerName: Spot
 

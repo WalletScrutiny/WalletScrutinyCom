@@ -14,7 +14,7 @@ stars: 3.5
 ratings: 
 reviews: 
 size: 
-website: https://tradefada.com
+website: https://walletscrutiny.com/brokenlink/https://www.tradefada.com/
 repository: 
 issue: 
 icon: tradefada.com.exchange.app.png

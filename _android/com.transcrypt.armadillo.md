@@ -14,7 +14,7 @@ stars: 4.8
 ratings: 172
 reviews: 20
 size: 
-website: https://tizer.io
+website: https://web.archive.org/web/20230626174833/https://tizer.io/
 repository: 
 issue: 
 icon: com.transcrypt.armadillo.png

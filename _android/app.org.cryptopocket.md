@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.cryptopocket.info/
+website: https://walletscrutiny.com/brokenlink/https://www.cryptopocket.info/
 repository: 
 issue: 
 icon: app.org.cryptopocket.jpg

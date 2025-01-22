@@ -26,8 +26,8 @@ signer:
 reviewArchive: 
 twitter: streakkofficial
 social:
-- https://www.facebook.com/profile.php?id=100082035586084
-- https://www.youtube.com/channel/UCoUO11LtezWh-HmuNUe0WbA
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/profile.php?id=100082035586084
+- https://web.archive.org/web/20230316074811/https://www.youtube.com/channel/UCoUO11LtezWh-HmuNUe0WbA
 - https://t.me/streakkofficial
 - https://medium.com/@streakkofficial
 redirect_from: 

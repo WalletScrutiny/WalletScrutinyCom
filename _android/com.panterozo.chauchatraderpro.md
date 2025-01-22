@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://chauchatraderpro.cl
+website: https://web.archive.org/web/20210624180825/https://chauchatraderpro.cl/
 repository: 
 issue: 
 icon: com.panterozo.chauchatraderpro.png

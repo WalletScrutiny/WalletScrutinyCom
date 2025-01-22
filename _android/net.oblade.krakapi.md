@@ -14,7 +14,7 @@ stars: 4.1
 ratings: 533
 reviews: 16
 size: 
-website: http://www.oblade.net
+website: https://walletscrutiny.com/brokenlink/https://oblade.net/
 repository: 
 issue: 
 icon: net.oblade.krakapi.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://mypaytril.com
+website: https://web.archive.org/web/20220314170748/https://mypaytril.com/
 repository: 
 issue: 
 icon: com.mypaytrilversion2.mypaytrilversion2.jpg

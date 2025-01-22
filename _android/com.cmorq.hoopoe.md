@@ -26,8 +26,8 @@ signer:
 reviewArchive: 
 twitter: cmorq_
 social:
-- https://www.instagram.com/cmorq_/
-- https://www.youtube.com/channel/UCzgf-7dC4hNbIb0TGtOuX6g
+- https://walletscrutiny.com/brokenlink/https://www.instagram.com/cmorq_/
+- https://web.archive.org/web/20210818025547/https://www.youtube.com/channel/UCzgf-7dC4hNbIb0TGtOuX6g
 - https://www.tiktok.com/@_cmorq?
 - https://www.facebook.com/DeFiBanking/
 redirect_from: 

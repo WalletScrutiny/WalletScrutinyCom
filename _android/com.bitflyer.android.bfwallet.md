@@ -14,7 +14,7 @@ stars: 4.1
 ratings: 4430
 reviews: 1617
 size: 
-website: https://bitflyer.com
+website: https://walletscrutiny.com/brokenlink/https://bitflyer.com:80/
 repository: 
 issue: 
 icon: com.bitflyer.android.bfwallet.png

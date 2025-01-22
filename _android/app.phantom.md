@@ -27,7 +27,7 @@ reviewArchive:
 twitter: phantom
 social:
 - https://www.reddit.com/r/phantom/
-- https://www.linkedin.com/company/phantomwallet/
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/phantomwallet/
 - https://www.youtube.com/@phantom-wallet
 - https://github.com/phantom-labs
 redirect_from: 

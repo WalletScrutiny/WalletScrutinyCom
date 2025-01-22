@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.fortuvest.io
+website: https://web.archive.org/web/20200924211724/https://www.fortuvest.io/
 repository: 
 issue: 
 icon: io.fortuvest.fortuvest.png

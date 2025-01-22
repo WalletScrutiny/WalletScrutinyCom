@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.dgcusa.com/
+website: https://walletscrutiny.com/brokenlink/https://dgcusa.com/
 repository: 
 issue: 
 icon: com.dgc.wallet.png

@@ -13,7 +13,7 @@ version: '5.1'
 stars: 5
 reviews: 1
 size: '42070016'
-website: http://www.devere-crypto.com
+website: https://www.devere-crypto.com
 repository: 
 issue: 
 icon: com.devere.cryptoapp.jpg
@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: deveregroup
 social:
-- https://www.facebook.com/deVere-Crypto-196359191107070/
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/deVere-Crypto-196359191107070/
 features: 
 developerName: DEVERE GROUP LIMITED
 

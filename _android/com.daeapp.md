@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://dae.africa
+website: https://web.archive.org/web/20210620070017/https://dae.africa/
 repository: 
 issue: 
 icon: com.daeapp.jpg

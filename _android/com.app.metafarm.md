@@ -13,7 +13,7 @@ stars: 5
 ratings: 
 reviews: 
 size: 
-website: https://metafarmcrypto.com
+website: https://walletscrutiny.com/brokenlink/https://metafarmcrypto.com
 repository: 
 issue: 
 icon: com.app.metafarm.png

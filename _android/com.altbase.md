@@ -14,7 +14,7 @@ stars: 4.5
 ratings: 
 reviews: 26
 size: 
-website: https://altbase.com/
+website: https://web.archive.org/web/20220416061622/https://altbase.com/
 repository: 
 issue: 
 icon: com.altbase.png

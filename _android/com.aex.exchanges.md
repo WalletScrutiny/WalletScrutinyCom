@@ -14,7 +14,7 @@ stars: 3.4
 ratings: 
 reviews: 3
 size: 
-website: https://www.openex.xyz
+website: https://web.archive.org/web/20230126091525/http://openex.xyz/
 repository: 
 issue: 
 icon: com.aex.exchanges.png
@@ -28,7 +28,7 @@ twitter: openex_hq
 social:
 - http://discord.gg/openex
 - https://t.me/OpenExGroup_EN
-- https://www.youtube.com/@OpenEx_EN
+- https://walletscrutiny.com/brokenlink/https://www.youtube.com/@OpenEx_EN
 - https://medium.com/@OpenEx_HQ
 - https://www.linkedin.com/company/openex-hq
 redirect_from: 

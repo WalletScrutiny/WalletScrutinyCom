@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.bhex.sg
+website: https://walletscrutiny.com/brokenlink/https://www.bhex.sg/
 repository: 
 issue: 
 icon: sg.bhex.app.png

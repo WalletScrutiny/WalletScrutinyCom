@@ -14,7 +14,7 @@ version: 3.3.6
 stars: 3.4
 reviews: 136
 size: '120071168'
-website: https://www.itoken.com/en/
+website: https://walletscrutiny.com/brokenlink/https://www.itoken.com/en/
 repository: 
 issue: 
 icon: com.walletdev.onchainwallet.jpg
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: HuobiWallet
 social:
-- https://www.facebook.com/HuobiWallet
+- https://web.archive.org/web/20220202005047/https://www.facebook.com/HuobiWallet
 features: 
 developerName: BlazekTech Internet Technology Service Limited
 

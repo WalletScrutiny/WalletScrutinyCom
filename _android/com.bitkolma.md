@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bitkolma.com/
+website: https://walletscrutiny.com/brokenlink/https://bitkolma.com/
 repository: 
 issue: 
 icon: com.bitkolma.png

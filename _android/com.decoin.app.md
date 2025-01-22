@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.decoin.io
+website: https://walletscrutiny.com/brokenlink/https://www.decoin.io:80/
 repository: 
 issue: 
 icon: com.decoin.app.png
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: decoin_io
 social:
-- https://www.facebook.com/DECOIN.io
+- https://web.archive.org/web/20200506024742/https://www.facebook.com/DECOIN.io
 - https://www.linkedin.com/company/decoin-xde
 redirect_from: 
 developerName: decoin.io

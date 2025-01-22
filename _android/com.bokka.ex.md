@@ -13,7 +13,7 @@ stars:
 ratings: 11
 reviews: 
 size: 
-website: https://www.bokka.com
+website: https://web.archive.org/web/20140517004701/http://bokka.com/
 repository: 
 issue: 
 icon: com.bokka.ex.png

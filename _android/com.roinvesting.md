@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.roinvesting.com/
+website: https://web.archive.org/web/20210124014004/https://www.roinvesting.com/
 repository: 
 issue: 
 icon: com.roinvesting.png

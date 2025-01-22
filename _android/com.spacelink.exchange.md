@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://spacelink.exchange
+website: https://walletscrutiny.com/brokenlink/https://spacelink.exchange
 repository: 
 issue: 
 icon: com.spacelink.exchange.png

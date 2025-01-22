@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 15M
-website: https://www.strayacoin.org/index.php/strayapos/
+website: https://walletscrutiny.com/brokenlink/https://www.strayacoin.org/index.php/strayapos/
 repository: 
 issue: 
 icon: org.strayacoin.bsvpos.png

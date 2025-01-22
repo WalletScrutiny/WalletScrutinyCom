@@ -13,7 +13,7 @@ version: 2.4.40
 stars: 1
 reviews: 1
 size: '82923520'
-website: http://uollar.io/policy
+website: https://walletscrutiny.com/brokenlink/https://uollar.io/policy
 repository: 
 issue: 
 icon: com.lh2424.uollar.jpg

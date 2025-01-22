@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://betepal.com/
+website: https://web.archive.org/web/20220625174400/https://www.betepal.com/
 repository: 
 issue: 
 icon: com.betepal.wallet.png

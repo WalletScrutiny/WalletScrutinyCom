@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.bizonbit.com
+website: https://web.archive.org/web/20210616160534/https://bizonbit.com/
 repository: 
 issue: 
 icon: com.bizonbit.png

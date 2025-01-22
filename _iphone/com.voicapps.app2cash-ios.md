@@ -13,7 +13,7 @@ version: 2.0.2
 stars: 5
 reviews: 1
 size: '84334592'
-website: https://www.2cash.io
+website: https://walletscrutiny.com/brokenlink/https://www.2cash.io
 repository: 
 issue: 
 icon: com.voicapps.app2cash-ios.jpg
@@ -25,8 +25,8 @@ signer:
 reviewArchive: 
 twitter: 2cashnetwork
 social:
-- https://www.linkedin.com/company/2cash
-- https://www.facebook.com/2cashnetwork
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/2cash
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/2cashnetwork
 features: 
 developerName: 
 

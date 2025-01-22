@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://snarkwallet.app/
+website: https://walletscrutiny.com/brokenlink/https://www.snarkwallet.app/
 repository: 
 issue: 
 icon: com.snark.wallet.jpg

@@ -14,7 +14,7 @@ stars: 4.1
 ratings: 
 reviews: 
 size: 
-website: http://www.financex.io
+website: https://web.archive.org/web/20250114143000/http://www.financex.io/
 repository: 
 issue: 
 icon: com.financex.png

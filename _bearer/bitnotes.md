@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: BitNotes.org (Petr Sobotka) / SOLI.CZ s.r.o.
 providerWebsite: http://www.petrsobotka.cz/
-website: https://web.archive.org/web/20210301132933/http://www.bitnotes.org/
+website: https://web.archive.org/web/20170709073303/http://www.bitnotes.org/
 shop: 
 country: CZ
 price: 

@@ -15,7 +15,7 @@ stars: 3.8
 ratings: 1690
 reviews: 64
 size: 
-website: https://bitcoin.black
+website: https://web.archive.org/web/20201101000036/https://bitcoin.black/
 repository: 
 issue: 
 icon: com.bitcoinblack.wallet.png
@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: BCB_Official1
 social:
-- https://www.facebook.com/bitcoinblackofficial
+- https://web.archive.org/web/20210529022536/https://www.facebook.com/bitcoinblackofficial/
 - https://www.reddit.com/r/AllAboardBitcoinBlack
 redirect_from: 
 developerName: Bitcoin Black

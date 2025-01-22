@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://adara.io/
+website: https://web.archive.org/web/20200413123626/https://adara.io/
 repository: 
 issue: 
 icon: io.adara.client.png

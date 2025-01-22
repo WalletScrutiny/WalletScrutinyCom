@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://secfutures.com/
+website: https://walletscrutiny.com/brokenlink/https://secfutures.com/
 repository: 
 issue: 
 icon: secfutures.aab.jpg

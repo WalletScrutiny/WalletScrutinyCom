@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.kwikcoin.info/
+website: https://web.archive.org/web/20180903081201/http://www.kwikcoin.info/
 repository: 
 issue: 
 icon: com.theawesomeapps.android.kwik.png

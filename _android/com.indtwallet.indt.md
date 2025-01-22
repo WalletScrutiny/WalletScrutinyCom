@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://indtcoin.com
+website: https://web.archive.org/web/20230125054920/https://indtcoin.com/
 repository: 
 issue: 
 icon: com.indtwallet.indt.png

@@ -14,7 +14,7 @@ stars: 3.7
 ratings: 263
 reviews: 209
 size: 20M
-website: https://www.101investing.com/
+website: https://walletscrutiny.com/brokenlink/https://www.101investing.com:80/
 repository: 
 issue: 
 icon: com.brand101investing.png

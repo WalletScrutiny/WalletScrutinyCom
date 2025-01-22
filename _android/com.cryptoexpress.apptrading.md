@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.cryptoxpress.io/
+website: https://walletscrutiny.com/brokenlink/https://cryptoxpress.io/
 repository: 
 issue: 
 icon: com.cryptoexpress.apptrading.png

@@ -15,7 +15,7 @@ dimensions:
 weight: 232
 provider: ITBiometrics™
 providerWebsite: https://itbiometrics.com/
-website: https://itbiometrics.com/itbx-cold-wallet/
+website: https://web.archive.org/web/20210421035715/http://www.itbiometrics.com/itbx-cold-wallet/
 shop: 
 country: US
 price: 

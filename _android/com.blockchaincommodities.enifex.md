@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://enifex.com/
+website: https://walletscrutiny.com/brokenlink/https://enifex.com/
 repository: 
 issue: 
 icon: com.blockchaincommodities.enifex.png

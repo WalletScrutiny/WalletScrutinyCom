@@ -14,7 +14,7 @@ stars: 2.7
 ratings: 47
 reviews: 29
 size: 33M
-website: https://bitasset.com
+website: https://web.archive.org/web/20200515045728/https://www.bitasset.com/
 repository: 
 issue: 
 icon: com.bitasset.www.png

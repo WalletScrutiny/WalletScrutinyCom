@@ -13,7 +13,7 @@ version: 2.8.0
 stars: 3.7
 reviews: 3
 size: '51017728'
-website: https://bit.plus
+website: https://walletscrutiny.com/brokenlink/https://bit.plus
 repository: 
 issue: 
 icon: com.wbtcb.bitstock.jpg

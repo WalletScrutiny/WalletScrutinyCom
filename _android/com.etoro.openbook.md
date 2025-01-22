@@ -27,7 +27,7 @@ reviewArchive:
 twitter: etoro
 social:
 - https://www.linkedin.com/company/etoro
-- https://www.facebook.com/eToro
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/eToro
 redirect_from: 
 developerName: eToro
 features: 

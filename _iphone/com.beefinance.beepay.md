@@ -13,7 +13,7 @@ version: 2.2.1
 stars: 0
 reviews: 0
 size: '93025280'
-website: https://www.befiwallet.io
+website: https://walletscrutiny.com/brokenlink/https://www.befiwallet.io
 repository: 
 issue: 
 icon: com.beefinance.beepay.jpg

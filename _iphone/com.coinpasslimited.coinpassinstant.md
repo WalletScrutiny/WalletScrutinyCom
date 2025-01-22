@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: coinpassglobal
 social:
-- https://www.facebook.com/coinpassglobal
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/coinpassglobal
 - https://www.youtube.com/channel/UCfs5WkT1mecmB0YWJipJLdw
 - https://www.linkedin.com/company/coinpass/
 features: 

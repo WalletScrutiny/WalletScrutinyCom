@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.salletone.com
+website: https://walletscrutiny.com/brokenlink/https://salletone.com/
 repository: 
 issue: 
 icon: com.yaolian.qoline.png

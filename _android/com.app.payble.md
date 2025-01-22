@@ -14,7 +14,7 @@ stars: 4.7
 ratings: 
 reviews: 
 size: 
-website: http://payble.io
+website: https://payble.io
 repository: 
 issue: 
 icon: com.app.payble.png

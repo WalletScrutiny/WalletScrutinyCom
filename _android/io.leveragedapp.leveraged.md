@@ -13,7 +13,7 @@ stars: 4.3
 ratings: 
 reviews: 8
 size: 
-website: http://leveragedapp.io
+website: https://web.archive.org/web/20201102133242/https://leveragedapp.io/
 repository: 
 issue: 
 icon: io.leveragedapp.leveraged.png

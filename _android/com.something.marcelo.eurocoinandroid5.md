@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 
 reviews: 
 size: 
-website: http://www.eurocoinpay.io
+website: https://www.eurocoinpay.io
 repository: 
 issue: 
 icon: com.something.marcelo.eurocoinandroid5.png

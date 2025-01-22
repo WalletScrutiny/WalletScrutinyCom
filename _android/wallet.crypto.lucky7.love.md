@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.lucky7.love
+website: https://walletscrutiny.com/brokenlink/https://lucky7.love/
 repository: 
 issue: 
 icon: wallet.crypto.lucky7.love.png

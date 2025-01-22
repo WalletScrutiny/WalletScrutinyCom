@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/forex4you
+- https://web.archive.org/web/20220221132125/https://www.facebook.com/forex4you/
 redirect_from: 
 developerName: E-Global Trade & Finance Group Inc.
 features: 

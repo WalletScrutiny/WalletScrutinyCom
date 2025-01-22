@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://lunatrading.io/
+website: https://walletscrutiny.com/brokenlink/https://www.lunatrading.io/
 repository: 
 issue: 
 icon: com.cmgroup.luna.png

@@ -15,7 +15,7 @@ stars: 3.9
 ratings: 847
 reviews: 125
 size: 
-website: http://bitpie.com
+website: https://bitpie.com
 repository: 
 issue: 
 icon: com.bitpie.png

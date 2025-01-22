@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://binanceautotrade.myreport-live.be
+website: https://walletscrutiny.com/brokenlink/https://binanceautotrade.myreport-live.be
 repository: 
 issue: 
 icon: be.myreportlive.binanceautotrade.png

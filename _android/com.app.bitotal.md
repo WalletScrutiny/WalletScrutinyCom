@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bitotal.com
+website: https://walletscrutiny.com/brokenlink/https://bitotal.com/
 repository: 
 issue: 
 icon: com.app.bitotal.png

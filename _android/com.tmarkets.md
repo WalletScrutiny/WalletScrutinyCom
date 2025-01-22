@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.t1markets.com
+website: https://web.archive.org/web/20240728151422/https://www.t1markets.com/
 repository: 
 issue: 
 icon: com.tmarkets.png

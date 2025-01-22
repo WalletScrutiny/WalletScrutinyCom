@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://kompasswallet.io
+website: https://web.archive.org/web/20210621202243/https://kompasswallet.io/
 repository: 
 issue: 
 icon: io.kompasswallet.png

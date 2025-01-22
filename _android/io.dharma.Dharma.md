@@ -13,7 +13,7 @@ stars: 3.3
 ratings: 386
 reviews: 127
 size: 74M
-website: https://www.dharma.io
+website: https://walletscrutiny.com/brokenlink/https://www.dharma.io/
 repository: 
 issue: 
 icon: io.dharma.Dharma.png

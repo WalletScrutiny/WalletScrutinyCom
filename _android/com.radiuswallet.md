@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://radiuswallet.com/
+website: https://walletscrutiny.com/brokenlink/https://radiuswallet.com/
 repository: 
 issue: 
 icon: com.radiuswallet.png

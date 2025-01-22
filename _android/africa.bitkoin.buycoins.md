@@ -14,7 +14,7 @@ stars: 3.2
 ratings: 624
 reviews: 433
 size: 11M
-website: https://buycoins.africa
+website: https://walletscrutiny.com/brokenlink/https://buycoins.africa/
 repository: 
 issue: 
 icon: africa.bitkoin.buycoins.png

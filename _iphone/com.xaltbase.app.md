@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 100XCoin_
 social:
 - https://www.linkedin.com/company/100xCoin
-- https://www.facebook.com/100xcoinFB
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/100xcoinFB
 features: 
 developerName: 
 

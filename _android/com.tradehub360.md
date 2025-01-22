@@ -13,7 +13,7 @@ stars: 4.3
 ratings: 
 reviews: 
 size: 
-website: https://360tradehub.com/
+website: https://web.archive.org/web/20220924221530/https://360tradehub.com
 repository: 
 issue: 
 icon: com.tradehub360.png

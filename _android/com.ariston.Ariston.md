@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.ariston-timepieces.com
+website: https://web.archive.org/web/20240519145751/http://ariston-timepieces.com/
 repository: 
 issue: 
 icon: com.ariston.Ariston.png

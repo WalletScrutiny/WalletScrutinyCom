@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://msc.exchange
+website: https://walletscrutiny.com/brokenlink/https://msc.exchange
 repository: 
 issue: 
 icon: io.metex.exchange.png

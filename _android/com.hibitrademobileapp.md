@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://hibitrade.com/
+website: https://walletscrutiny.com/brokenlink/https://www.hibitrade.com/
 repository: 
 issue: 
 icon: com.hibitrademobileapp.png

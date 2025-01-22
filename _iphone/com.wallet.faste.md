@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: blocktechbrew
 social:
-- https://www.instagram.com/blocktechbrew
+- https://walletscrutiny.com/brokenlink/https://www.instagram.com/blocktechbrew
 features: 
 developerName: Code Brew Labs
 

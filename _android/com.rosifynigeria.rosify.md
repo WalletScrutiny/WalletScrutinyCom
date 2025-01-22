@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.rosify.ng/
+website: https://web.archive.org/web/20201101010059/https://www.rosify.ng/
 repository: 
 issue: 
 icon: com.rosifynigeria.rosify.png

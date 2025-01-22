@@ -26,7 +26,7 @@ reviewArchive:
 twitter: XTrade
 social:
 - https://www.linkedin.com/company/xtrade
-- https://www.facebook.com/XTrade
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/XTrade
 features: 
 developerName: XTRADE EUROPE LTD
 

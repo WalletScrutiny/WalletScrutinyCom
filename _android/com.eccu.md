@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.eccu.xyz
+website: https://web.archive.org/web/20220930082244/https://eccu.xyz/
 repository: 
 issue: 
 icon: com.eccu.png

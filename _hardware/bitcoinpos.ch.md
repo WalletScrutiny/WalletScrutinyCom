@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: BitcoinPOS.ch
 providerWebsite: 
-website: https://www.bitcoinpos.ch/
+website: https://walletscrutiny.com/brokenlink/https://www.bitcoinpos.ch/
 shop: 
 country: CH
 price: 699CHF
@@ -28,7 +28,7 @@ reviewArchive:
 twitter: bitcoin_pos
 social:
 - https://www.instagram.com/bitcoinpos/
-- https://www.facebook.com/bitcoinpointofsale
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/bitcoinpointofsale
 - https://www.youtube.com/channel/UCYh7bNdeitcxJlopy6faX_g/videos
 - https://t.me/bitcoinpos
 features: 

@@ -13,7 +13,7 @@ version: 3.0.6
 stars: 5
 reviews: 4
 size: '50429952'
-website: https://www.wethiox.io/landing
+website: https://walletscrutiny.com/brokenlink/https://www.wethiox.io/landing
 repository: 
 issue: 
 icon: com.wethio.io.wethioX.jpg
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: wethiox
 social:
 - https://www.wethiox.io
-- https://www.facebook.com/WethioX/about
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/WethioX/about
 - https://t.me/joinchat/VvLjmtVVAVJiMTQ0
 - https://wethio.medium.com/
 features: 

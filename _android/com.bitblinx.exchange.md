@@ -13,7 +13,7 @@ stars: 3.4
 ratings: 220
 reviews: 5
 size: 
-website: https://bitblinx.com
+website: https://web.archive.org/web/20210618153817/https://bitblinx.com/
 repository: 
 issue: 
 icon: com.bitblinx.exchange.png

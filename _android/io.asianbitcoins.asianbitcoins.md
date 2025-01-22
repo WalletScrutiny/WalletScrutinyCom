@@ -14,7 +14,7 @@ stars: 5
 ratings: 3899
 reviews: 113
 size: 
-website: https://asianbitcoins.org
+website: https://walletscrutiny.com/brokenlink/https://asianbitcoins.org/
 repository: 
 issue: 
 icon: io.asianbitcoins.asianbitcoins.png

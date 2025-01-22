@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://dsdaq.com
+website: https://walletscrutiny.com/brokenlink/https://www.dsdaq.com:80/
 repository: 
 issue: 
 icon: com.chainup.exchange.DsdaqGlobal.png

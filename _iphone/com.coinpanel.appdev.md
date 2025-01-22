@@ -30,7 +30,7 @@ social:
 - https://coin-panel.medium.com
 - https://www.facebook.com/coinpanel
 - https://www.tiktok.com/@coinpanel
-- https://www.youtube.com/c/CoinPanel
+- https://walletscrutiny.com/brokenlink/https://www.youtube.com/c/CoinPanel
 - https://t.me/coin_panel
 features: 
 developerName: CoinPanel AB

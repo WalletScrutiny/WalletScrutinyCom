@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://drypwallet.com/
+website: https://walletscrutiny.com/brokenlink/https://drypwallet.com/
 repository: 
 issue: 
 icon: com.dryp.wallet.png

@@ -13,7 +13,7 @@ version: 2.0.0
 stars: 5
 reviews: 3
 size: '40712192'
-website: https://getbull.app
+website: https://walletscrutiny.com/brokenlink/https://getbull.app/
 repository: 
 issue: 
 icon: crypto.wallet.chainapp.jpg

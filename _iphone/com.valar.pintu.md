@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: pintuid
 social:
-- https://www.facebook.com/pintucrypto
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/pintucrypto
 features: 
 developerName: 
 

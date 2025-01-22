@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://paperbgs.com/
+website: https://walletscrutiny.com/brokenlink/https://paperbgs.com/
 repository: 
 issue: 
 icon: com.paperbgs.app.jpg

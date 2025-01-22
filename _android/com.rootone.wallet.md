@@ -14,7 +14,7 @@ stars: 3.4
 ratings: 617
 reviews: 9
 size: 
-website: https://rootone.com
+website: https://web.archive.org/web/20210624003554/https://rootone.com/
 repository: 
 issue: 
 icon: com.rootone.wallet.png

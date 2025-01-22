@@ -14,7 +14,7 @@ stars: 4.5
 ratings: 2004
 reviews: 146
 size: 
-website: http://www.swft.pro/
+website: https://web.archive.org/web/20221114004845/https://www.swft.pro/
 repository: 
 issue: 
 icon: com.swftcoin.client.android.png

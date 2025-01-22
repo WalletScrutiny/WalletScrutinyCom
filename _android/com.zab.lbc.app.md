@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.zabtechnologies.net/
+website: https://web.archive.org/web/20210622133520/https://www.zabtechnologies.net/
 repository: 
 issue: 
 icon: com.zab.lbc.app.png

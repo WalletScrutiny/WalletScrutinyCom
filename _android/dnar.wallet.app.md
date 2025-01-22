@@ -14,7 +14,7 @@ stars: 2.1
 ratings: 
 reviews: 11
 size: 
-website: https://dnar.io
+website: https://web.archive.org/web/20220625034823/https://www.dnar.io/
 repository: 
 issue: 
 icon: dnar.wallet.app.jpg

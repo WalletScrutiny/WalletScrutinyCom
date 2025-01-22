@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: 5C-Basic GmbH & Co.
 providerWebsite: 
-website: https://web.archive.org/web/20141219044928/http://www.bit-card.de/
+website: https://www.bit-card.de/
 shop: 
 country: DE
 price: 1USD

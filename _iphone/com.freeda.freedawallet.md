@@ -13,7 +13,7 @@ version: 2.3.2
 stars: 4.7
 reviews: 90
 size: '71789568'
-website: https://www.freeda.io/
+website: https://walletscrutiny.com/brokenlink/https://www.freeda.io/
 repository: 
 issue: 
 icon: com.freeda.freedawallet.jpg

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://tkeep.io
+website: https://walletscrutiny.com/brokenlink/https://tkeep.io/
 repository: 
 issue: 
 icon: com.oriovo.dolphin.tkeep.gp.png

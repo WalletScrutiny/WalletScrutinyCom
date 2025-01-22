@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 
 reviews: 5
 size: 
-website: https://3swallet.com
+website: https://web.archive.org/web/20241226012103/https://3swallet.com/
 repository: 
 issue: 
 icon: network.bho.wallet.png

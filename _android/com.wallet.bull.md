@@ -14,7 +14,7 @@ stars: 4.1
 ratings: 713
 reviews: 28
 size: 
-website: https://bullcoin.finance/
+website: https://web.archive.org/web/20210510173840/http://bullcoin.finance/
 repository: 
 issue: 
 icon: com.wallet.bull.png

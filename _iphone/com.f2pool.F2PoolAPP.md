@@ -13,7 +13,7 @@ version: 2.6.8
 stars: 4
 reviews: 180
 size: '98505728'
-website: https://www.f2pool.com/
+website: https://walletscrutiny.com/brokenlink/https://www.f2pool.com/
 repository: 
 issue: 
 icon: com.f2pool.F2PoolAPP.jpg

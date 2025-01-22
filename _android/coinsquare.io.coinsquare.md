@@ -14,7 +14,7 @@ stars: 2.7
 ratings: 790
 reviews: 15
 size: 7.4M
-website: http://coinsquare.com
+website: https://coinsquare.com
 repository: 
 issue: 
 icon: coinsquare.io.coinsquare.png

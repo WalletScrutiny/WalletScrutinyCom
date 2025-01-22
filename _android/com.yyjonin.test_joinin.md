@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://joinin.vip
+website: https://web.archive.org/web/20240822163311/https://www.joinin.vip/
 repository: 
 issue: 
 icon: com.yyjonin.test_joinin.png

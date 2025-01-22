@@ -13,7 +13,7 @@ version: 3.12.0
 stars: 5
 reviews: 4
 size: '53962752'
-website: http://www.deribit.com
+website: https://www.deribit.com
 repository: 
 issue: 
 icon: com.deribit.jpg

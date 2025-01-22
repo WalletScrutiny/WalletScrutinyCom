@@ -14,7 +14,7 @@ stars: 4.1
 ratings: 798
 reviews: 14
 size: 
-website: http://www.paytomat.com
+website: https://www.paytomat.com
 repository: 
 issue: 
 icon: com.paytomat.png
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: paytomat
 social:
 - https://www.linkedin.com/company/11433285
-- https://www.facebook.com/paytomat
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/paytomat
 redirect_from:
 - /com.paytomat/
 - /posts/com.paytomat/

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bincap.io
+website: https://walletscrutiny.com/brokenlink/https://bincap.io/
 repository: 
 issue: 
 icon: io.bincap.exchange.png

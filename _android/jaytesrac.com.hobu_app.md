@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://hobutrading.com
+website: https://walletscrutiny.com/brokenlink/https://hobutrading.com
 repository: 
 issue: 
 icon: jaytesrac.com.hobu_app.png

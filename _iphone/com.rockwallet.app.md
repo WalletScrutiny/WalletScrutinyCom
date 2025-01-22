@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: rockwallet
 social:
-- https://www.facebook.com/rockwalletofficial
+- https://web.archive.org/web/20240720223924/https://www.facebook.com/rockwalletofficial/
 - https://www.instagram.com/rockwallet
 - https://www.linkedin.com/company/rockwallet
 features: 

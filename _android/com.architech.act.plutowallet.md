@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.act-tech.io/
+website: https://web.archive.org/web/20200811135117/https://www.act-tech.io/
 repository: 
 issue: 
 icon: com.architech.act.plutowallet.png

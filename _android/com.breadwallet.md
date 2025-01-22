@@ -14,7 +14,7 @@ stars: 3.4
 ratings: 33632
 reviews: 1440
 size: 
-website: https://brd.com
+website: https://web.archive.org/web/20201109003514/https://brd.com/
 repository: https://github.com/breadwallet/brd-mobile
 issue: https://github.com/breadwallet/brd-mobile/issues/13
 icon: com.breadwallet.jpg

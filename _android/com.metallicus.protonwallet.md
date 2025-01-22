@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 613
 reviews: 82
 size: 
-website: https://www.protonchain.com/
+website: https://walletscrutiny.com/brokenlink/https://www.protonchain.com/
 repository: 
 issue: 
 icon: com.metallicus.protonwallet.png
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: protonxpr
 social:
-- https://www.facebook.com/protonxpr
+- https://web.archive.org/web/20220320023855/https://www.facebook.com/protonxpr/
 - https://www.reddit.com/r/ProtonChain
 - https://github.com/ProtonProtocol
 redirect_from: 

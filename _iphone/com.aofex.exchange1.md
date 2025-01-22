@@ -13,7 +13,7 @@ version: 3.0.9
 stars: 4.5
 reviews: 129
 size: '238702592'
-website: https://www.aofex.com/#/
+website: https://web.archive.org/web/20210613061526/https://aofex.com/
 repository: 
 issue: 
 icon: com.aofex.exchange1.jpg

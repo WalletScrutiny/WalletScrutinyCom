@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: StormGain_com
 social:
-- https://www.facebook.com/StormGain.official
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/StormGain.official
 features: 
 developerName: Stormgain Limited
 

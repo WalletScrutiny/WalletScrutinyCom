@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://cryptoboxcoin.com/
+website: https://walletscrutiny.com/brokenlink/https://cryptoboxcoin.com/
 repository: 
 issue: 
 icon: cbc.wallet.png

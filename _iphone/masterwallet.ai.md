@@ -13,7 +13,7 @@ version: 2.2.4
 stars: 0
 reviews: 0
 size: '54352896'
-website: https://masterwallet.ai/
+website: https://web.archive.org/web/20210617052950/http://masterwallet.ai/
 repository: 
 issue: 
 icon: masterwallet.ai.jpg

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://usfcx.com/
+website: https://web.archive.org/web/20220628201602/https://usfcx.com/
 repository: 
 issue: 
 icon: com.usfcx.wallet.jpg

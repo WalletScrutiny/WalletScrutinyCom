@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://distwallet.com
+website: https://web.archive.org/web/20240924214334/http://distwallet.com/
 repository: 
 issue: 
 icon: com.distwallet.app.png

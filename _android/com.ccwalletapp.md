@@ -15,7 +15,7 @@ stars: 4.2
 ratings: 555
 reviews: 70
 size: 
-website: https://ccwalletapp.com/
+website: https://web.archive.org/web/20191210191325/https://ccwalletapp.com/
 repository: https://github.com/coincasso/ccwallet
 issue: https://github.com/coincasso/ccwallet/issues/1
 icon: com.ccwalletapp.png
@@ -27,8 +27,8 @@ signer:
 reviewArchive: 
 twitter: CoinCasso
 social:
-- https://www.linkedin.com/company/coincasso
-- https://www.facebook.com/ccwallet.mobileapp
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/coincasso
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/ccwallet.mobileapp
 redirect_from: 
 developerName: CoinCasso OU
 features: 

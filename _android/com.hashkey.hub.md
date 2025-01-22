@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 
 reviews: 3
 size: 
-website: https://hub.hashkey.com
+website: https://web.archive.org/web/20201101035426/https://hub.hashkey.com/
 repository: 
 issue: 
 icon: com.hashkey.hub.png
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: HashkeyHub
 social:
 - https://www.hashkey.com
-- https://www.facebook.com/hashkeygroup
+- https://web.archive.org/web/20220517191313/https://www.facebook.com/hashkeygroup
 - https://www.linkedin.com/company/hashkey-digital-asset-group/
 - https://medium.com/hashkey-group
 - https://www.youtube.com/channel/UCxxfJaihsGmn88CM_3qO2xw

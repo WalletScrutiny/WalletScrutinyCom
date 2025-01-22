@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 
 reviews: 1
 size: 
-website: http://www.devere-crypto.com
+website: https://www.devere-crypto.com
 repository: 
 issue: 
 icon: com.devere.dcx.png
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: deveregroup
 social:
-- https://www.facebook.com/deVere-Crypto-196359191107070
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/deVere-Crypto-196359191107070
 redirect_from: 
 developerName: deVere Group
 features: 

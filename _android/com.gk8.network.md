@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.gk8.io/contact/
+website: https://web.archive.org/web/20200516111553/https://www.gk8.io/contact/
 repository: 
 issue: 
 icon: com.gk8.network.png

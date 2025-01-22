@@ -27,7 +27,7 @@ reviewArchive:
 twitter: ArthBitExchange
 social:
 - https://www.facebook.com/ArthBitExchange
-- https://www.youtube.com/@arthbitexchange569
+- https://walletscrutiny.com/brokenlink/https://www.youtube.com/@arthbitexchange569
 - https://www.instagram.com/arthbitexchange
 - https://www.linkedin.com/company/arthbitexchange
 - https://t.me/ArthBitExchange

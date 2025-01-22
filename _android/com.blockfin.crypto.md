@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.wallstbulls.ai
+website: https://web.archive.org/web/20220206103442/https://www.wallstbulls.ai/
 repository: 
 issue: 
 icon: com.blockfin.crypto.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://dabblex.com
+website: https://web.archive.org/web/20180805194746/http://dabblex.com/
 repository: 
 issue: 
 icon: com.dabblex.wallet.jpg

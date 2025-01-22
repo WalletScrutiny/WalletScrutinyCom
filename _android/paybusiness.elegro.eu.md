@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://business.elegro.eu/elegro-business-wallet
+website: https://walletscrutiny.com/brokenlink/https://business.elegro.eu/elegro-business-wallet
 repository: 
 issue: 
 icon: paybusiness.elegro.eu.jpg

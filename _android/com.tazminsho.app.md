@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://tazminsho.com
+website: https://web.archive.org/web/20201028181536/https://tazminsho.com/
 repository: 
 issue: 
 icon: com.tazminsho.app.png

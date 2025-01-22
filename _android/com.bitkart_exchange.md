@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://bitkart.io
+website: https://web.archive.org/web/20210618013224/https://www.bitkart.io/
 repository: 
 issue: 
 icon: com.bitkart_exchange.png

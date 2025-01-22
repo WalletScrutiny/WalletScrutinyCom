@@ -13,7 +13,7 @@ version: 1.0.0
 stars: 2.9
 reviews: 26
 size: '80238592'
-website: https://vida.io
+website: https://walletscrutiny.com/brokenlink/https://vida.io
 repository: 
 issue: 
 icon: com.vida.live.ios.jpg

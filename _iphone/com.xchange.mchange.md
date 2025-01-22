@@ -13,7 +13,7 @@ version: 1.0.3
 stars: 0
 reviews: 0
 size: '82907136'
-website: https://mchange.net
+website: https://walletscrutiny.com/brokenlink/https://mchange.net/
 repository: 
 issue: 
 icon: com.xchange.mchange.jpg

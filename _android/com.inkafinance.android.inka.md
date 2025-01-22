@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://inka.finance/
+website: https://web.archive.org/web/20240909071822/https://inka.finance/
 repository: 
 issue: 
 icon: com.inkafinance.android.inka.png

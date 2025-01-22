@@ -27,7 +27,7 @@ reviewArchive:
 twitter: bitcom_exchange
 social:
 - https://www.linkedin.com/company/bitcom-exchange
-- https://www.facebook.com/bitcom.exchange
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/bitcom.exchange
 redirect_from: 
 developerName: BIT Technologies Holding Company
 features: 

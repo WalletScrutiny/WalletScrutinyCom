@@ -29,7 +29,7 @@ twitter: ScallopDefiBank
 social:
 - https://www.linkedin.com/company/scallopx/
 - https://medium.com/scallopx
-- https://www.instagram.com/scallop_app/
+- https://web.archive.org/web/20220814084537/https://www.instagram.com/scallop_app/
 - https://t.me/Scallop_Official
 features: 
 

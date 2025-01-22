@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 3.8M
-website: https://factpocket.com/
+website: https://web.archive.org/web/20211201171810/http://factpocket.com/
 repository: 
 issue: 
 icon: com.factwallet.crypto.factwallet.png

@@ -27,7 +27,7 @@ reviewArchive:
 twitter: CobakOfficial
 social:
 - https://www.linkedin.com/company/cobak
-- https://www.facebook.com/coindaebak
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/coindaebak
 redirect_from: 
 developerName: 코박
 features: 

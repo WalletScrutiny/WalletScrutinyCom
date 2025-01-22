@@ -13,7 +13,7 @@ version: '4.0'
 stars: 5
 reviews: 1
 size: '38275072'
-website: https://www.uzyth.com/
+website: https://web.archive.org/web/20220809014503/https://www.uzyth.com/
 repository: 
 issue: 
 icon: com.zyth.app.jpg

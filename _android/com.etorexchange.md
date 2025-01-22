@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.etorexchange.in/
+website: https://web.archive.org/web/20210511061426/https://www.etorexchange.in/
 repository: 
 issue: 
 icon: com.etorexchange.png

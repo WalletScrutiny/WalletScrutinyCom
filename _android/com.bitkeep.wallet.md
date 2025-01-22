@@ -27,8 +27,8 @@ signer:
 reviewArchive: 
 twitter: BitKeepOS
 social:
-- https://www.facebook.com/bitkeep
-- https://github.com/bitkeepcom
+- https://web.archive.org/web/20220517123935/https://www.facebook.com/BitKeep
+- https://walletscrutiny.com/brokenlink/https://github.com/bitkeepcom
 redirect_from:
 - /com.bitkeep.wallet/
 developerName: Bitget Wallet

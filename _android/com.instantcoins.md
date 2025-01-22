@@ -14,7 +14,7 @@ stars: 2.1
 ratings: 214
 reviews: 161
 size: 
-website: https://instantcoins.ng
+website: https://web.archive.org/web/20201101005626/https://instantcoins.ng/
 repository: 
 issue: 
 icon: com.instantcoins.png
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: instantcoins_ng
 social:
-- https://www.facebook.com/instantcoins
+- https://web.archive.org/web/20201107062705/https://www.facebook.com/instantcoins
 redirect_from: 
 developerName: instantcoins technologies
 features: 

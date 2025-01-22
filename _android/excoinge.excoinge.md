@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.excoinge.com/
+website: https://web.archive.org/web/20170831140612/https://excoinge.com/
 repository: 
 issue: 
 icon: excoinge.excoinge.png

@@ -14,7 +14,7 @@ stars: 5
 ratings: 
 reviews: 3
 size: 
-website: http://www.zenapay.com
+website: https://www.zenapay.com
 repository: 
 issue: 
 icon: com.zenapay.png
@@ -28,7 +28,7 @@ twitter:
 social:
 - https://www.facebook.com/ZenaPay
 - https://www.linkedin.com/company/zenapay1/about/
-- https://www.youtube.com/channel/UCyehPdsSfe2MickTIsYuDFg
+- https://walletscrutiny.com/brokenlink/https://www.youtube.com/channel/UCyehPdsSfe2MickTIsYuDFg
 redirect_from: 
 developerName: Epazz
 features: 

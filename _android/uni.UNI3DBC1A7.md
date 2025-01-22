@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://3fwallet.com
+website: https://walletscrutiny.com/brokenlink/https://3fwallet.com
 repository: 
 issue: 
 icon: uni.UNI3DBC1A7.png

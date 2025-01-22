@@ -13,7 +13,7 @@ version: 1.68.10
 stars: 1
 reviews: 1
 size: 32552960
-website: https://www.roinvesting.com/
+website: https://web.archive.org/web/20210124014004/https://www.roinvesting.com/
 repository: 
 issue: 
 icon: com.roinvesting.jpg

@@ -14,7 +14,7 @@ stars: 4.1
 ratings: 3553
 reviews: 67
 size: 
-website: https://ecoinofficial.org/
+website: https://web.archive.org/web/20200315011422/https://ecoinofficial.org/
 repository: 
 issue: 
 icon: fio.ecoin.wallet.png

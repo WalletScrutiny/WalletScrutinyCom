@@ -13,7 +13,7 @@ version: 02.00.25
 stars: 3.8
 reviews: 9
 size: '115696640'
-website: http://starteos.io
+website: https://web.archive.org/web/20201101044852/https://starteos.io/
 repository: 
 issue: 
 icon: com.HCLT.Starteos.store.jpg

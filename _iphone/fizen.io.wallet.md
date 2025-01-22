@@ -26,7 +26,7 @@ reviewArchive:
 twitter: fizenwallet
 social:
 - https://www.linkedin.com/company/fizen-io/
-- https://www.facebook.com/web3fizen
+- https://web.archive.org/web/20230327085128/https://www.facebook.com/web3fizen
 - https://www.instagram.com/fizen.io/
 - https://t.me/fizen_io
 features: 

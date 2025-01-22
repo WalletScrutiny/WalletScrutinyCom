@@ -14,7 +14,7 @@ version: '2.35'
 stars: 4.4
 reviews: 46
 size: '52264960'
-website: http://InSense.tech
+website: https://web.archive.org/web/20171130102256/http://insense.tech:80/
 repository: 
 issue: 
 icon: com.iwallet.iwallet.jpg

@@ -13,7 +13,7 @@ stars: 3
 ratings: 738
 reviews: 14
 size: 
-website: http://www.hena.io
+website: https://web.archive.org/web/20210619174146/http://hena.io/
 repository: 
 issue: 
 icon: com.hena.henawallet.png

@@ -13,7 +13,7 @@ version: 1.9.8
 stars: 1.8
 reviews: 5
 size: '54935552'
-website: https://www.mayex.com/referral
+website: https://web.archive.org/web/20220625133904/https://www.mayex.com/referral
 repository: 
 issue: 
 icon: com.mayex.trading.jpg

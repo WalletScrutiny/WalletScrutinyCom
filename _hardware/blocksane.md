@@ -15,7 +15,7 @@ dimensions:
 weight: 
 provider: Blocksane Co., Ltd.
 providerWebsite: 
-website: https://web.archive.org/web/20180806064756/http://blocksane.com/
+website: https://blocksane.com/
 shop: 
 country: SG
 price: 150USD

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.nguwallet.com
+website: https://walletscrutiny.com/brokenlink/https://www.nguwallet.com
 repository: 
 issue: 
 icon: com.vp.nguwallet.png

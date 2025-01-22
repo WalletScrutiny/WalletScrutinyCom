@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: BeaxyExchange
 social:
-- https://www.facebook.com/beaxyexchange
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/beaxyexchange
 - https://www.reddit.com/r/BeaxyExchange
 redirect_from: 
 developerName: Beaxy

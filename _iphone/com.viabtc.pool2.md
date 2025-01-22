@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: ViaBTC
 social:
-- https://www.facebook.com/viabtc
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/viabtc
 - https://t.me/TheViaBTC
 features: 
 developerName: Viabtc Technology Limited

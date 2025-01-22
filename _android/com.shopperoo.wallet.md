@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://shopperoo.com
+website: https://walletscrutiny.com/brokenlink/https://shopperoo.com
 repository: 
 issue: 
 icon: com.shopperoo.wallet.png

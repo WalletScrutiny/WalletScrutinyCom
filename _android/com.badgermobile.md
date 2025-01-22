@@ -13,7 +13,7 @@ stars: 3.6
 ratings: 168
 reviews: 11
 size: 
-website: http://www.badger.cash
+website: https://www.badger.cash
 repository: 
 issue: 
 icon: com.badgermobile.png
@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: badgerwallet
 social:
-- https://www.facebook.com/buy.bitcoin.news
+- https://web.archive.org/web/20200902063840/https://www.facebook.com/buy.bitcoin.news
 redirect_from:
 - /com.badgermobile/
 - /posts/com.badgermobile/

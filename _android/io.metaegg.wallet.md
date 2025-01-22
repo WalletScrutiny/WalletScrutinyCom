@@ -14,7 +14,7 @@ stars: 4.8
 ratings: 
 reviews: 1
 size: 
-website: https://metaegg.io
+website: https://walletscrutiny.com/brokenlink/https://metaegg.io
 repository: 
 issue: 
 icon: io.metaegg.wallet.png
@@ -26,10 +26,10 @@ signer:
 reviewArchive: 
 twitter: Metaegg_io
 social:
-- https://www.facebook.com/metaeggio
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/metaeggio
 - https://www.linkedin.com/company/metaegg
 - https://www.instagram.com/metaegg_io
-- https://www.youtube.com/c/MetaeggMetaverse
+- https://walletscrutiny.com/brokenlink/https://www.youtube.com/c/MetaeggMetaverse
 - https://t.me/metaegg_io
 redirect_from: 
 developerName: Metaegg

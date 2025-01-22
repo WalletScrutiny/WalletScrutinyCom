@@ -14,7 +14,7 @@ stars: 3.1
 ratings: 
 reviews: 
 size: 
-website: http://www.kikitrade.com
+website: https://www.kikitrade.com
 repository: 
 issue: 
 icon: com.kikitrade.png

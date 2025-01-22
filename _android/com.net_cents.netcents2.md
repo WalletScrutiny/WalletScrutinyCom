@@ -14,7 +14,7 @@ stars: 3.5
 ratings: 150
 reviews: 3
 size: 
-website: http://www.net-cents.com
+website: https://www.net-cents.com
 repository: 
 issue: 
 icon: com.net_cents.netcents2.png

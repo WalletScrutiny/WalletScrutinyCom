@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.10fxpro.com/
+website: https://walletscrutiny.com/brokenlink/https://www.10fxpro.com/
 repository: 
 issue: 
 icon: com.cfdv2.demo.png

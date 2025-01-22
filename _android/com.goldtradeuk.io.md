@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://goldtradeuk.com/
+website: https://walletscrutiny.com/brokenlink/https://goldtradeuk.com/
 repository: 
 issue: 
 icon: com.goldtradeuk.io.jpg

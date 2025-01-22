@@ -26,7 +26,7 @@ reviewArchive:
 twitter: nagainvesting
 social:
 - https://www.linkedin.com/company/nagainvesting
-- https://www.facebook.com/nagainvesting
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/nagainvesting
 features: 
 developerName: NAGA Markets Ltd.
 

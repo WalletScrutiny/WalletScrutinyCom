@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.trincocoins.uk
+website: https://walletscrutiny.com/brokenlink/https://www.trincocoins.uk
 repository: 
 issue: 
 icon: com.trincocoins.app.png

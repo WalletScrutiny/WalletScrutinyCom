@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: ftx_us
 social:
-- https://www.facebook.com/FTXUS
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/FTXUS
 features: 
 developerName: 
 

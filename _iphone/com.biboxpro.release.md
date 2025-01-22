@@ -28,7 +28,7 @@ social:
 - https://www.linkedin.com/company/biboxexchange
 - https://www.facebook.com/Bibox2017
 - https://www.reddit.com/r/Bibox
-- https://www.youtube.com/channel/UCCvaLNJjZEoI4FugpYAErxw
+- https://web.archive.org/web/20240802155023/https://www.youtube.com/channel/UCCvaLNJjZEoI4FugpYAErxw
 features: 
 developerName: Bibox Group Holdings Limited
 

@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: BitoEX_Official
 social:
-- https://www.facebook.com/bitopro.bito
+- https://web.archive.org/web/20190730051539/https://www.facebook.com/bitopro.bito/
 features: 
 developerName: BitoEX
 

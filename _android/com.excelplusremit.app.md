@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://excelplusremit.com/
+website: https://web.archive.org/web/20220625044149/https://excelplusremit.com/
 repository: 
 issue: 
 icon: com.excelplusremit.app.png

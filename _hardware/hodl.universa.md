@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: Universa
 providerWebsite: https://universablockchain.com/
-website: https://hodl.universablockchain.com/
+website: https://walletscrutiny.com/brokenlink/https://hodl.universablockchain.com/
 shop: 
 country: 
 price: 

@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://jetfinex.com/
+website: https://web.archive.org/web/20180806051056/http://jetfinex.com/
 repository: 
 issue: 
 icon: com.btcckorea.png

@@ -13,7 +13,7 @@ stars: 4
 ratings: 
 reviews: 
 size: 
-website: https://profitshare.com.br
+website: https://web.archive.org/web/20220306074926/https://profitshare.com.br/
 repository: 
 issue: 
 icon: profitshare.com.br.png

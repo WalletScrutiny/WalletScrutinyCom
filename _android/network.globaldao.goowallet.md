@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://goorewards.com
+website: https://walletscrutiny.com/brokenlink/https://goorewards.com
 repository: 
 issue: 
 icon: network.globaldao.goowallet.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://icte.io
+website: https://web.archive.org/web/20200524011509/https://www.icte.io/
 repository: 
 issue: 
 icon: com.icte.io.jpg

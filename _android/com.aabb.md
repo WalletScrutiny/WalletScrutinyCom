@@ -14,7 +14,7 @@ stars: 4.7
 ratings: 614
 reviews: 32
 size: 
-website: https://aabbgoldtoken.com/
+website: https://walletscrutiny.com/brokenlink/https://aabbgoldtoken.com/
 repository: 
 issue: 
 icon: com.aabb.png

@@ -14,7 +14,7 @@ version: 4.51.1
 stars: 4.7
 reviews: 2233
 size: '222784512'
-website: https://bingbon.com
+website: https://walletscrutiny.com/brokenlink/https://bingbon.com
 repository: 
 issue: 
 icon: pro.bingbon.finance.jpg
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: BingbonOfficial
 social:
 - https://www.linkedin.com/company/bingbon
-- https://www.facebook.com/BingbonOfficial
+- https://web.archive.org/web/20221208204355/https://www.facebook.com/BingbonOfficial
 - https://www.reddit.com/r/Bingbon
 features: 
 developerName: BingX Limited

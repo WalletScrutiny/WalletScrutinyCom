@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://myovest.com
+website: https://web.archive.org/web/20211217025630/http://myovest.com/
 repository: 
 issue: 
 icon: com.osource.ovest.png

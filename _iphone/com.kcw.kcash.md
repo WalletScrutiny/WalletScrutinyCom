@@ -13,7 +13,7 @@ version: 2.9.3
 stars: 3.1
 reviews: 10
 size: '74209280'
-website: https://www.kcash.com/
+website: https://web.archive.org/web/20200426173418/https://www.kcash.com/
 repository: 
 issue: 
 icon: com.kcw.kcash.jpg

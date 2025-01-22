@@ -31,7 +31,7 @@ signer:
 reviewArchive: 
 twitter: FranckMullerBTC
 social:
-- https://www.instagram.com/franckmuller_encrypto/
+- https://walletscrutiny.com/brokenlink/https://www.instagram.com/franckmuller_encrypto/
 features: 
 
 ---

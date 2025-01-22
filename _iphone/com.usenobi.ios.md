@@ -25,10 +25,10 @@ signer:
 reviewArchive: 
 twitter: usenobi
 social:
-- https://www.facebook.com/usenobi
-- https://www.instagram.com/usenobi
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/usenobi
+- https://walletscrutiny.com/brokenlink/https://www.instagram.com/usenobi
 - https://t.me/usenobi
-- https://www.youtube.com/c/usenobi
+- https://walletscrutiny.com/brokenlink/https://www.youtube.com/c/usenobi
 - https://discord.com/invite/hNGkFeQHQD
 features: 
 developerName: Nobi

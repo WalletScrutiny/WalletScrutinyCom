@@ -16,7 +16,7 @@ dimensions:
 weight: 2.79
 provider: OPOLO Limited
 providerWebsite: https://www.opolo.io
-website: https://www.opolo.io/
+website: https://walletscrutiny.com/brokenlink/https://www.opolo.io/
 shop: https://shop.opolo.io/
 country: LU
 price: 198EUR

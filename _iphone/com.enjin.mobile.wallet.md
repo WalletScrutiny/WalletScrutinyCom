@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: enjin
 social:
-- https://www.linkedin.com/company/enjin
+- https://web.archive.org/web/20130207231332/http://www.linkedin.com:80/company/enjin?
 - https://www.facebook.com/enjinsocial
 - https://www.reddit.com/r/EnjinCoin
 features: 

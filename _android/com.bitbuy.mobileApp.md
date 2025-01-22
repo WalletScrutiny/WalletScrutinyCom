@@ -27,7 +27,7 @@ reviewArchive:
 twitter: bitbuy
 social:
 - https://www.linkedin.com/company/bitbuyca
-- https://www.facebook.com/bitbuyCA
+- https://web.archive.org/web/20230326180803/https://www.facebook.com/bitbuyCA/
 redirect_from: 
 developerName: Bitbuy
 features: 

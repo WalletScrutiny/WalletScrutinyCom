@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bitbinderglobal.com/
+website: https://walletscrutiny.com/brokenlink/https://bitbinderglobal.com/
 repository: 
 issue: 
 icon: www.bitbinderglobal.com.jpg

@@ -13,7 +13,7 @@ version: 2.1.1
 stars: 4.8
 reviews: 414
 size: '142444544'
-website: https://cryptochallenge.app
+website: https://walletscrutiny.com/brokenlink/https://cryptochallenge.app/
 repository: 
 issue: 
 icon: com.swissborg.ios.community.jpg

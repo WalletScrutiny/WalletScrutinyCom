@@ -14,7 +14,7 @@ stars: 4.4
 ratings: 437
 reviews: 2
 size: 
-website: http://www.fiboda.com
+website: https://web.archive.org/web/20201101021304/http://fiboda.com/
 repository: 
 issue: 
 icon: com.fiboda.app.png

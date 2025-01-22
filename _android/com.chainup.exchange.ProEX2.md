@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/b.c.proex
+- https://web.archive.org/web/20220807080220/https://www.facebook.com/b.c.proex/
 - https://t.me/ProExchange2
 - https://discord.com/invite/EG8rVx7qpU
 - https://www.instagram.com/proex.io

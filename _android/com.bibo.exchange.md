@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.bibo.gold
+website: https://walletscrutiny.com/brokenlink/https://bibo.gold/
 repository: 
 issue: 
 icon: com.bibo.exchange.jpg

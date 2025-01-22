@@ -13,7 +13,7 @@ stars: 4.8
 ratings: 
 reviews: 
 size: 
-website: https://brastoken.com/
+website: https://walletscrutiny.com/brokenlink/https://www.brastoken.com/
 repository: 
 issue: 
 icon: wallet.brastoken.com.png

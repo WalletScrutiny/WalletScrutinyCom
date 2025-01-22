@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://yuppex.com
+website: https://web.archive.org/web/20200702144008/https://yuppex.com/
 repository: 
 issue: 
 icon: com.yuppex.png

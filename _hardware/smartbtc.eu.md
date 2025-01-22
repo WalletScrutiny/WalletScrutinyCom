@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: CardContact Systems GmbH
 providerWebsite: http://www.cardcontact.de
-website: http://smartbtc.eu
+website: https://smartbtc.eu
 shop: >-
   https://www.cardomatic.de/epages/64510967.sf/en_GB/?ObjectPath=/Shops/64510967/Categories/SmartCardHSM
 country: DE

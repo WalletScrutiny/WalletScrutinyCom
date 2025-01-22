@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 35079
 reviews: 111
 size: 
-website: http://latoken.com
+website: https://latoken.com
 repository: 
 issue: 
 icon: com.latoken.wallet.png
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: latokens
 social:
-- https://www.linkedin.com/company/latoken
+- https://web.archive.org/web/20231221073942/https://www.linkedin.com/company/latoken/
 - https://www.facebook.com/LiquidAssetToken
 redirect_from: 
 developerName: LATOKEN

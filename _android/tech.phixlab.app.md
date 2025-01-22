@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://fargomine.com/
+website: https://web.archive.org/web/20220824132432/http://fargomine.com/
 repository: 
 issue: 
 icon: tech.phixlab.app.png

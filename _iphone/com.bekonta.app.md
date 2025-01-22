@@ -13,7 +13,7 @@ version: 1.0.0
 stars: 0
 reviews: 0
 size: '12212224'
-website: http://www.bekonta.com
+website: https://www.bekonta.com
 repository: 
 issue: 
 icon: com.bekonta.app.jpg

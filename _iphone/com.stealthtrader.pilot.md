@@ -13,7 +13,7 @@ version: 6.02.377
 stars: 3.9
 reviews: 20
 size: '32823296'
-website: http://www.pilottrading.co
+website: https://www.pilottrading.co
 repository: 
 issue: 
 icon: com.stealthtrader.pilot.jpg
@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: tradewithpilot
 social:
-- https://www.facebook.com/tradewithpilot
+- https://web.archive.org/web/20220326093721/https://www.facebook.com/tradewithpilot
 features: 
 developerName: 
 

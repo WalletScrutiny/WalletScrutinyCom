@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 8.2M
-website: https://coiny.io/
+website: https://web.archive.org/web/20171228233749/http://coiny.io/
 repository: 
 issue: 
 icon: io.coiny.android.png
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: Coiny_io
 social:
-- https://www.facebook.com/coiny.io
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/coiny.io
 redirect_from: 
 developerName: 
 features: 

@@ -30,7 +30,7 @@ social:
 - https://blog.aag.ventures
 - https://t.me/aagventures
 - https://www.linkedin.com/company/aag-ventures
-- https://www.facebook.com/aagventures
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/aagventures
 - https://discord.com/invite/aagventures
 redirect_from: 
 developerName: ACHIP & ACHAIR GUILD VENTURES PTE. LTD.

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://mybitcart.com
+website: https://web.archive.org/web/20180805232733/http://mybitcart.com/
 repository: 
 issue: 
 icon: com.mybitcart.app.png

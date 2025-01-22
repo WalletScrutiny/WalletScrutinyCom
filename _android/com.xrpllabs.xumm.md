@@ -14,7 +14,7 @@ stars: 4.8
 ratings: 
 reviews: 465
 size: 
-website: https://xumm.app/
+website: https://web.archive.org/web/20230411004036/https://xumm.app/
 repository: 
 issue: 
 icon: com.xrpllabs.xumm.png

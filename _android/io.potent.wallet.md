@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://potent.finance
+website: https://walletscrutiny.com/brokenlink/https://potent.finance/
 repository: 
 issue: 
 icon: io.potent.wallet.png

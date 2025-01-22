@@ -13,7 +13,7 @@ stars: 5
 ratings: 
 reviews: 29
 size: 
-website: http://definitex.org/
+website: https://web.archive.org/web/20201101070903/https://www.definitex.org/
 repository: 
 issue: 
 icon: io.definitex.walllet.png

@@ -14,7 +14,7 @@ stars: 3.1
 ratings: 92
 reviews: 29
 size: 
-website: http://www.bitkan.com
+website: https://www.bitkan.com
 repository: 
 issue: 
 icon: com.bitcan.app.png

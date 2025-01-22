@@ -14,7 +14,7 @@ stars: 2.6
 ratings: 523
 reviews: 17
 size: 31M
-website: https://fxwallet.info/
+website: https://web.archive.org/web/20220930105832/http://fxwallet.info/
 repository: 
 issue: 
 icon: com.fxwallet.png
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: fxwallet
 social:
-- https://www.facebook.com/Fxwallet.info
+- https://web.archive.org/web/20210517114515/https://www.facebook.com/Fxwallet.info
 redirect_from: 
 developerName: 
 features: 

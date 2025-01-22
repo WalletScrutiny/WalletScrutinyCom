@@ -12,7 +12,7 @@ version: 2.5.110
 stars: 4.4
 reviews: 110
 size: '173629440'
-website: http://www.bigone.com
+website: https://www.bigone.com
 repository: 
 issue: 
 icon: base.big.one.jpg

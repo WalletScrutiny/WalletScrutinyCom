@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.arowex.com
+website: https://web.archive.org/web/20210530102018/https://arowex.com/
 repository: 
 issue: 
 icon: arowex.com.png

@@ -13,7 +13,7 @@ stars: 4.4
 ratings: 
 reviews: 11
 size: 
-website: https://www.aex.com
+website: https://web.archive.org/web/20180626013715/https://www.aex.com/
 repository: 
 issue: 
 icon: com.aex.aexApp.png

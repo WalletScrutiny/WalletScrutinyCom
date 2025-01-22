@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.hashfinanciero.com
+website: https://web.archive.org/web/20180806035857/http://hashfinanciero.com/
 repository: 
 issue: 
 icon: com.hashfinanciero.prod.jpg

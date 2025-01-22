@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://xeggex.com
+website: https://web.archive.org/web/20230505073650/https://xeggex.com/
 repository: 
 issue: 
 icon: com.xeggex.wallet.jpg

@@ -13,7 +13,7 @@ version: 1.6.1
 stars: 0
 reviews: 0
 size: '37954560'
-website: https://www.therocktrading.com/
+website: https://walletscrutiny.com/brokenlink/https://therocktrading.com/
 repository: 
 issue: 
 icon: com.therocktrading.tradingapp.jpg

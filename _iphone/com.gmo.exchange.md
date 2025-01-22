@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: ZcomExchange
 social:
-- https://www.facebook.com/ZcomCrypto
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/ZcomCrypto
 features: 
 developerName: GMO-Z.Com Cryptonomics (Thailand) Co.,Ltd
 

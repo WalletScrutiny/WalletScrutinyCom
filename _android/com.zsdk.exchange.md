@@ -14,7 +14,7 @@ stars: 1.9
 ratings: 187
 reviews: 46
 size: 
-website: https://www.zbg.com
+website: https://web.archive.org/web/20201101021049/https://www.zbg.com/
 repository: 
 issue: 
 icon: com.zsdk.exchange.png

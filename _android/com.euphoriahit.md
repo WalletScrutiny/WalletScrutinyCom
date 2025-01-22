@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://euphoria.games/
+website: https://walletscrutiny.com/brokenlink/https://euphoria.games/
 repository: 
 issue: 
 icon: com.euphoriahit.png

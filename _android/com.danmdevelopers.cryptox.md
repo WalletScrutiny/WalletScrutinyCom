@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.danmdevelopers.com
+website: https://walletscrutiny.com/brokenlink/https://danmdevelopers.com/
 repository: 
 issue: 
 icon: com.danmdevelopers.cryptox.png

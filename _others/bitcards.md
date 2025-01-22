@@ -5,11 +5,11 @@ authors:
 - danny
 icon: bitcards.png
 date: 2022-05-17
-website: https://bitcards.com/
+website: https://walletscrutiny.com/brokenlink/https://bitcards.com/
 twitter: Bitcard_US
 social:
 - https://www.linkedin.com/company/bitcard/
-- https://www.facebook.com/BitCardUS/
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/BitCardUS/
 - https://www.instagram.com/bitcard_us/
 provider: Bitcoin Solutions, Inc
 shop: https://www.cardcash.com/buy-gift-cards/discount-bitcoin-cards

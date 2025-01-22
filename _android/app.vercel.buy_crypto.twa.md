@@ -13,7 +13,7 @@ stars: 5
 ratings: 
 reviews: 22
 size: 
-website: http://cryptogeek.info
+website: https://cryptogeek.info/
 repository: 
 issue: 
 icon: app.vercel.buy_crypto.twa.jpg

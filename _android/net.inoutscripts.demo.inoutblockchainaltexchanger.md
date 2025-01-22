@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://inout-blockchain-altexchanger.demo.inoutscripts.net/
+website: https://inout-blockchain-altexchanger.demo.inoutscripts.net/
 repository: 
 issue: 
 icon: net.inoutscripts.demo.inoutblockchainaltexchanger.png

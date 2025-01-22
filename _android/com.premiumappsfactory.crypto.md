@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://drone.onlinestore.digital
+website: https://walletscrutiny.com/brokenlink/https://drone.onlinestore.digital
 repository: 
 issue: 
 icon: com.premiumappsfactory.crypto.png

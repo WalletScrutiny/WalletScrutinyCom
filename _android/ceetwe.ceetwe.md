@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ceetwe.com
+website: https://web.archive.org/web/20221230114820/https://ceetwe.com/
 repository: 
 issue: 
 icon: ceetwe.ceetwe.png

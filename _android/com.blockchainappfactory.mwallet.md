@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://mwallet.step.holdings
+website: https://walletscrutiny.com/brokenlink/https://mwallet.step.holdings
 repository: 
 issue: 
 icon: com.blockchainappfactory.mwallet.png

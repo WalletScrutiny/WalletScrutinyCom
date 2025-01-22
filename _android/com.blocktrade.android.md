@@ -14,7 +14,7 @@ stars: 2.9
 ratings: 187
 reviews: 9
 size: 
-website: http://blocktrade.com
+website: https://blocktrade.com
 repository: 
 issue: 
 icon: com.blocktrade.android.png

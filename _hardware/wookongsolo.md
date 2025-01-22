@@ -16,7 +16,7 @@ dimensions:
 weight: 
 provider: WOOKONG
 providerWebsite: https://wooko.ng/en
-website: https://wooko.ng/en/solo
+website: https://walletscrutiny.com/brokenlink/https://wooko.ng/en/solo
 shop: https://wooko.ng/en/solo
 country: CH
 price: 

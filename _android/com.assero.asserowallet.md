@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.asserosapphiremoney.com/
+website: https://walletscrutiny.com/brokenlink/https://www.asserosapphiremoney.com:80/
 repository: 
 issue: 
 icon: com.assero.asserowallet.png

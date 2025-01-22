@@ -13,7 +13,7 @@ version: '3.0'
 stars: 4
 reviews: 8
 size: '36035584'
-website: https://www.eesty.ee
+website: https://walletscrutiny.com/brokenlink/https://www.eesty.ee/
 repository: 
 issue: 
 icon: ee.eesty.production.jpg

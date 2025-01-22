@@ -14,7 +14,7 @@ stars: 4.4
 ratings: 
 reviews: 
 size: 
-website: https://growspace.ai
+website: https://web.archive.org/web/20211026075928/https://www.growspace.ai/
 repository: 
 issue: 
 icon: com.growspace.com.png

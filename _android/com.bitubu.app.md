@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bitubu.com
+website: https://walletscrutiny.com/brokenlink/https://bitubu.com
 repository: 
 issue: 
 icon: com.bitubu.app.png

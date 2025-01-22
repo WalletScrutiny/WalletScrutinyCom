@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://finn.exchange
+website: https://web.archive.org/web/20211109174822/https://www.finn.exchange/
 repository: 
 issue: 
 icon: com.finnswap.app.png

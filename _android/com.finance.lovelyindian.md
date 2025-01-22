@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://indialovely.finance/
+website: https://web.archive.org/web/20220326233839/https://indialovely.finance/
 repository: 
 issue: 
 icon: com.finance.lovelyindian.png

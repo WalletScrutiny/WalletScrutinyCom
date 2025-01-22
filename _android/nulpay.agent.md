@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://nulpay.com
+website: https://walletscrutiny.com/brokenlink/https://www.nulpay.com/
 repository: 
 issue: 
 icon: nulpay.agent.jpg

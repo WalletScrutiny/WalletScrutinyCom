@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://amon.tech
+website: https://web.archive.org/web/20201101010448/https://amon.tech/
 repository: 
 issue: 
 icon: tech.amon.png
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: amonwallet
 social:
-- https://www.facebook.com/amonwallet
+- https://web.archive.org/web/20221005041816/https://www.facebook.com/amonwallet
 redirect_from: 
 developerName: Amon OÜ
 features: 

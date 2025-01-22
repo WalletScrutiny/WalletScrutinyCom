@@ -14,7 +14,7 @@ stars: 5
 ratings: 273
 reviews: 13
 size: 
-website: http://diviproject.org
+website: https://diviproject.org
 repository: 
 issue: https://github.com/DiviProject/Divi-Desktop-Public/issues/214
 icon: io.divipay.divi.png

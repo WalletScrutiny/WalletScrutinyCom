@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bitmate.io/
+website: https://walletscrutiny.com/brokenlink/https://bitmate.io:80/
 repository: 
 issue: 
 icon: com.bitmate.wallet.png

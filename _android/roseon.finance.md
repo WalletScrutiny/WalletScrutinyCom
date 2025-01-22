@@ -14,7 +14,7 @@ stars: 4.6
 ratings: 578
 reviews: 63
 size: 
-website: http://roseon.world
+website: https://roseon.world
 repository: 
 issue: 
 icon: roseon.finance.png
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: RoseonFinance
 social:
-- https://www.facebook.com/Roseon.Finance
+- https://web.archive.org/web/20210531115021/https://www.facebook.com/Roseon.Finance/
 redirect_from: 
 developerName: Roseon Finance
 features: 

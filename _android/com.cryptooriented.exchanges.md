@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://cryptooriented.com
+website: https://walletscrutiny.com/brokenlink/https://cryptooriented.com
 repository: 
 issue: 
 icon: com.cryptooriented.exchanges.png

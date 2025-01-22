@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 
 reviews: 1437
 size: 
-website: http://www.bananatok.com
+website: https://www.bananatok.com
 repository: 
 issue: 
 icon: org.telegram.bananatok.png

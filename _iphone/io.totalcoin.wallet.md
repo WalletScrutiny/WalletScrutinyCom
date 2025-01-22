@@ -13,7 +13,7 @@ version: 5.6.2
 stars: 4.3
 reviews: 4
 size: '59226112'
-website: http://totalcoin.io
+website: https://totalcoin.io
 repository: 
 issue: 
 icon: io.totalcoin.wallet.jpg
@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/totalcoin.io
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/totalcoin.io
 features: 
 developerName: TChain Trading doo
 

@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: coinsdogroup
 social:
-- https://www.facebook.com/CoinsDogroup
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/CoinsDogroup
 - https://www.linkedin.com/company/coinsdo
 features: 
 developerName: Tecstation Pte Ltd

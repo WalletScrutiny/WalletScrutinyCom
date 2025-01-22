@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: Alvexo_Trade
 social:
-- https://www.linkedin.com/company/alvexo
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/alvexo
 features: 
 developerName: Alvexo
 

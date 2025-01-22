@@ -14,7 +14,7 @@ stars: 3.4
 ratings: 322
 reviews: 137
 size: 
-website: http://www.tzero.com/crypto-app
+website: https://www.tzero.com/crypto-app
 repository: 
 issue: 
 icon: com.tzero.png

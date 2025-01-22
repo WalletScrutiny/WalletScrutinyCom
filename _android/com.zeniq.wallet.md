@@ -27,7 +27,7 @@ reviewArchive:
 twitter: Zeniq_tech
 social:
 - https://www.linkedin.com/company/zeniq-hub/
-- https://www.facebook.com/ZENIQTech
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/ZENIQTech
 - https://www.instagram.com/zeniq_tech/
 - https://www.youtube.com/ZENIQTech
 - https://t.me/zeniq_hub

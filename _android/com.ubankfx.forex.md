@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 38M
-website: http://www.ubfx.co.uk
+website: https://web.archive.org/web/20210620222622/https://www.ubfx.co.uk/
 repository: 
 issue: 
 icon: com.ubankfx.forex.png

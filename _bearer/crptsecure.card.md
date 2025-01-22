@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: CRPT Secure SA (Proprietary) Limited
 providerWebsite: 
-website: https://www.crptsecure.com/
+website: https://walletscrutiny.com/brokenlink/https://www.crptsecure.com/
 shop: https://www.crptsecure.com/pricing/
 country: ZA
 price: 6USD
@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: crptsecure
 social:
-- https://www.facebook.com/crptsecure/
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/crptsecure/
 features: 
 
 ---

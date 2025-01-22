@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.bitoption.app/client/
+website: https://walletscrutiny.com/brokenlink/https://www.bitoption.app/client/
 repository: 
 issue: 
 icon: com.app.bitoption.png

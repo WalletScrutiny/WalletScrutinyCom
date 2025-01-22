@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://acewallet.finance/
+website: https://web.archive.org/web/20220927141359/https://acewallet.finance/
 repository: 
 issue: 
 icon: com.doubleace.wallet.png
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: DAAFinance
 social:
-- https://www.facebook.com/aceewallet
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/aceewallet
 redirect_from: 
 developerName: Maxi Anchor SDN BHD
 features: 

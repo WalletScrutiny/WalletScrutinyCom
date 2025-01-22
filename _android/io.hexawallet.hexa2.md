@@ -28,7 +28,7 @@ signer:
 reviewArchive: 
 twitter: HexaWallet
 social:
-- https://www.linkedin.com/company/bithyve
+- https://web.archive.org/web/20240118024647/https://www.linkedin.com/company/bithyve/
 redirect_from: 
 developerName: BitHyve UK Ltd.
 features: 

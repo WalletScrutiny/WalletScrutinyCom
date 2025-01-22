@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://peachwallet.com
+website: https://walletscrutiny.com/brokenlink/https://peachwallet.com/
 repository: 
 issue: 
 icon: wallet.peach.com.png

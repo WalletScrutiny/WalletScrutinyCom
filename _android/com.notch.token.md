@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://notchtoken.com
+website: https://web.archive.org/web/20220820061814/https://notchtoken.com/
 repository: 
 issue: 
 icon: com.notch.token.png

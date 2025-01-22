@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://vancetoken.us/
+website: https://walletscrutiny.com/brokenlink/https://vancetoken.us/
 repository: 
 issue: 
 icon: com.vance.wallet.jpg

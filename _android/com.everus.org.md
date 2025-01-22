@@ -14,7 +14,7 @@ stars: 4.9
 ratings: 7592
 reviews: 229
 size: 
-website: https://www.everus.org
+website: https://everus.org/
 repository: 
 issue: 
 icon: com.everus.org.png

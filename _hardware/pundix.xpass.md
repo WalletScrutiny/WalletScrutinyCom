@@ -28,7 +28,7 @@ reviewArchive:
 twitter: PundiXLabs
 social:
 - https://www.linkedin.com/company/pundix/
-- https://www.youtube.com/channel/UCOIf6WeLEzZi3DQxzenTZeA
+- https://walletscrutiny.com/brokenlink/https://www.youtube.com/channel/UCOIf6WeLEzZi3DQxzenTZeA
 - https://www.facebook.com/pundixlabs
 features: 
 

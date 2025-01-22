@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.crossexchange.io/cross/home
+website: https://walletscrutiny.com/brokenlink/https://www.crossexchange.io/cross/home
 repository: 
 issue: 
 icon: com.cbasefintechlab.exchange.png

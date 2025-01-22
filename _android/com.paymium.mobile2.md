@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://paymium.com
+website: https://paymium.com
 repository: 
 issue: 
 icon: com.paymium.mobile2.png

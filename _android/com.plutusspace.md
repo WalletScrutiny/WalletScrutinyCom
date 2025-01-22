@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://plutus.space
+website: https://walletscrutiny.com/brokenlink/https://plutus.space/
 repository: 
 issue: 
 icon: com.plutusspace.jpg

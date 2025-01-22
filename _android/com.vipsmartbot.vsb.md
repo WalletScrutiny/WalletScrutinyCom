@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.vipsmartbot.com
+website: https://walletscrutiny.com/brokenlink/https://www.vipsmartbot.com//
 repository: 
 issue: 
 icon: com.vipsmartbot.vsb.png

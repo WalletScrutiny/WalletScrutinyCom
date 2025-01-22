@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://trupay.finance
+website: https://walletscrutiny.com/brokenlink/https://trupay.finance
 repository: 
 issue: 
 icon: wallet.trupay.finance.png

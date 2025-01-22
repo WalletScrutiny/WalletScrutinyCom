@@ -13,7 +13,7 @@ version: '4.1'
 stars: 0
 reviews: 0
 size: '82309120'
-website: https://xfacia.com/
+website: https://walletscrutiny.com/brokenlink/https://www.xfacia.com/
 repository: 
 issue: 
 icon: com.webcom.Xfacia.jpg
@@ -25,8 +25,8 @@ signer:
 reviewArchive: 
 twitter: XfaciaXchange
 social:
-- https://www.facebook.com/XFACIAXCHANGE
-- https://www.instagram.com/p/CTeDT7Ui0Ee
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/XFACIAXCHANGE
+- https://walletscrutiny.com/brokenlink/https://www.instagram.com/p/CTeDT7Ui0Ee
 - https://t.me/XfaciaXchange
 features: 
 developerName: Xfacia Labs Private Limited

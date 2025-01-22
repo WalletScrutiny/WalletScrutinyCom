@@ -14,7 +14,7 @@ stars: 4.4
 ratings: 12371
 reviews: 944
 size: 
-website: https://www.mexc.com
+website: https://web.archive.org/web/20220927053215/https://www.mexc.com/
 repository: 
 issue: 
 icon: com.mexcpro.client.jpg
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: MEXC_Global
 social:
 - https://www.linkedin.com/company/mexcglobal
-- https://www.facebook.com/mexcglobal
+- https://web.archive.org/web/20230308093345/https://www.facebook.com/mexcglobal
 - https://www.reddit.com/r/MXCexchange
 redirect_from: 
 developerName: MEXC

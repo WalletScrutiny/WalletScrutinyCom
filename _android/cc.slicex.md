@@ -13,7 +13,7 @@ stars: 5
 ratings: 33
 reviews: 8
 size: 10M
-website: https://slicex.cc/
+website: https://web.archive.org/web/20221116080258/https://slicex.cc/
 repository: 
 issue: 
 icon: cc.slicex.png

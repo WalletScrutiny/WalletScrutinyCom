@@ -13,7 +13,7 @@ version: 1.5.3
 stars: 4.4
 reviews: 43
 size: '101757952'
-website: https://ricewallet.io
+website: https://web.archive.org/web/20220821024820/https://ricewallet.io/
 repository: 
 issue: 
 icon: com.rice.wallet.jpg

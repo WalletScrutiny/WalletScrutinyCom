@@ -26,7 +26,7 @@ reviewArchive:
 twitter: KuCoinCom
 social:
 - https://www.linkedin.com/company/kucoin
-- https://www.facebook.com/KuCoinOfficial
+- https://web.archive.org/web/20200601002806/https://www.facebook.com/KuCoinOfficial
 - https://www.reddit.com/r/kucoin
 features: 
 developerName: Kucoin Technology Co.,Ltd.

@@ -15,7 +15,7 @@ dimensions:
 weight: 
 provider: 
 providerWebsite: 
-website: http://www.hardbit.cn/
+website: https://web.archive.org/web/20200921041753/http://hardbit.cn/
 shop: 
 country: 
 price: 

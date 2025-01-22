@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://mmex.cc
+website: https://walletscrutiny.com/brokenlink/https://www.mmex.cc/
 repository: 
 issue: 
 icon: com.app.irxauj.cn.png

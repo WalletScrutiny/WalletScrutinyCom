@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.newton.co/us/support
+website: https://web.archive.org/web/20220704112540/https://www.newton.co/us/support
 repository: 
 issue: 
 icon: co.newton.newtonus.png

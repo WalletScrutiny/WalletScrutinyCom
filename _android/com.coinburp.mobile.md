@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 43M
-website: https://www.coinburp.com
+website: https://web.archive.org/web/20201101020306/https://www.coinburp.com/
 repository: 
 issue: 
 icon: com.coinburp.mobile.png
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: coinburp
 social:
 - https://www.linkedin.com/company/coinburp
-- https://www.facebook.com/thecoinburp
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/thecoinburp
 redirect_from: 
 developerName: 
 features: 

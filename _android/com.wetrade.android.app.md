@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.wetrade.app/
+website: https://web.archive.org/web/20230701060502/https://www.wetrade.app/
 repository: 
 issue: 
 icon: com.wetrade.android.app.png

@@ -14,7 +14,7 @@ stars: 4.4
 ratings: 217
 reviews: 51
 size: 
-website: http://www.arrowsys.cz
+website: https://www.arrowsys.cz
 repository: 
 issue: 
 icon: com.arrowsys.lilkademo.png

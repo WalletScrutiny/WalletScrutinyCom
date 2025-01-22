@@ -28,7 +28,7 @@ social:
 - https://lynkey.com
 - https://www.facebook.com/Lynkeytoken
 - https://www.linkedin.com/company/lynkey
-- https://www.youtube.com/channel/UCH1a6zb0lnkt69rMLFdN4zg
+- https://walletscrutiny.com/brokenlink/https://www.youtube.com/channel/UCH1a6zb0lnkt69rMLFdN4zg
 - https://www.instagram.com/lynkey__
 - https://t.me/LynKeychat
 features: 

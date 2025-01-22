@@ -30,7 +30,7 @@ social:
 - https://www.instagram.com/bynex.io
 - https://vk.com/bynexio
 - https://t.me/bynex_info
-- https://www.youtube.com/@bynex4637
+- https://walletscrutiny.com/brokenlink/https://www.youtube.com/@bynex4637
 redirect_from: 
 developerName: BYNEX
 features: 

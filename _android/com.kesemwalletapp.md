@@ -13,7 +13,7 @@ stars: 4.2
 ratings: 
 reviews: 
 size: 
-website: https://www.kesem.io
+website: https://walletscrutiny.com/brokenlink/https://www.kesem.io/
 repository: 
 issue: 
 icon: com.kesemwalletapp.png

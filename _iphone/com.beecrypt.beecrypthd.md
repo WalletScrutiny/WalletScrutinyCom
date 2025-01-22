@@ -13,7 +13,7 @@ version: 3.9.1
 stars: 5
 reviews: 1
 size: '59139072'
-website: https://moneypipe.com/hd-wallet/
+website: https://web.archive.org/web/20220331232918/https://moneypipe.com/hd-wallet/
 repository: 
 issue: 
 icon: com.beecrypt.beecrypthd.jpg
@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: money_pipe
 social:
-- https://www.facebook.com/moneypipewallet
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/moneypipewallet
 features: 
 developerName: 
 

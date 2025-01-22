@@ -14,7 +14,7 @@ stars: 4.2
 ratings: 
 reviews: 
 size: 
-website: http://www.crypstone.com
+website: https://www.crypstone.com
 repository: 
 issue: 
 icon: com.crypstone.android.crypstone.png
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: CrypstoneGlobal
 social:
-- https://www.facebook.com/Crypstoneglobal
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/Crypstoneglobal
 - https://t.me/officialcrypstone
 - https://www.instagram.com/crypstoneglobal
 - https://www.youtube.com/channel/UC1ObIuFCtd6fmmiEsrFTBug

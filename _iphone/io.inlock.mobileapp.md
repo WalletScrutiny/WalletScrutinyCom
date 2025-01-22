@@ -26,7 +26,7 @@ reviewArchive:
 twitter: inlock_token
 social:
 - https://www.linkedin.com/company/income-locker
-- https://www.facebook.com/incomelocker
+- https://web.archive.org/web/20180821124753/https://www.facebook.com/incomelocker/
 features: 
 developerName: Variance HODLING Ltd
 

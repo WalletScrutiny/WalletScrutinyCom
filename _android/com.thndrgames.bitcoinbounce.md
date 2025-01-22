@@ -14,7 +14,7 @@ stars: 4.6
 ratings: 1913
 reviews: 395
 size: 
-website: http://thndr.games
+website: https://thndr.games
 repository: 
 issue: 
 icon: com.thndrgames.bitcoinbounce.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://volex.io
+website: https://web.archive.org/web/20220410201641/https://volex.io/
 repository: 
 issue: 
 icon: com.algovision.volex.png

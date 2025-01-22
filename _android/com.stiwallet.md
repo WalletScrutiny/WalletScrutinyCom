@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://stiwallet.com
+website: https://walletscrutiny.com/brokenlink/https://stiwallet.com
 repository: 
 issue: 
 icon: com.stiwallet.png

@@ -13,7 +13,7 @@ stars: 5
 ratings: 
 reviews: 
 size: 
-website: https://trade.coinsate.com/
+website: https://web.archive.org/web/20221004102228/https://trade.coinsate.com/
 repository: 
 issue: 
 icon: com.coinsate.droidapp.png

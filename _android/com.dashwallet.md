@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://stamining.com
+website: https://web.archive.org/web/20200731155515/https://stamining.com/
 repository: 
 issue: 
 icon: com.dashwallet.png

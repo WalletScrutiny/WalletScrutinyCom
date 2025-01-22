@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://a1in1.com
+website: https://www.a1in1.com:80/
 repository: 
 issue: 
 icon: com.a1in1.crypto_coin.jpg

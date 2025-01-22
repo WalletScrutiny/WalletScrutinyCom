@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.melona.app
+website: https://walletscrutiny.com/brokenlink/https://www.melona.app
 repository: 
 issue: 
 icon: artifyapp.com.coconut.png

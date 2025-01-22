@@ -13,7 +13,7 @@ version: 1.0.1
 stars: 4.6
 reviews: 25
 size: 74470400
-website: https://burency.com/
+website: https://walletscrutiny.com/brokenlink/https://burency.com/
 repository: 
 issue: 
 icon: com.burency.app.jpg

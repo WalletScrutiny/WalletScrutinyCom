@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://pay4y.com/
+website: https://web.archive.org/web/20200518042355/https://pay4y.com/
 repository: 
 issue: 
 icon: com.gefarapay.png

@@ -13,7 +13,7 @@ version: 2.14.2
 stars: 4.9
 reviews: 198
 size: 113667072
-website: https://www.fox.one/#/
+website: https://walletscrutiny.com/brokenlink/https://www.fox.one/#/
 repository: 
 issue: 
 icon: one.fox.foxapp.jpg

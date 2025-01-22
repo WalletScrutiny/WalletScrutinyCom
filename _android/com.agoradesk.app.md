@@ -14,7 +14,7 @@ stars: 4.4
 ratings: 
 reviews: 12
 size: 
-website: https://agoradesk.com
+website: https://web.archive.org/web/20240509200940/https://agoradesk.com/
 repository: https://github.com/AgoraDesk-LocalMonero/agoradesk-app-foss/releases
 issue: 
 icon: com.agoradesk.app.png

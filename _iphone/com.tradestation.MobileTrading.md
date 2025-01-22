@@ -13,7 +13,7 @@ version: 7.22.0
 stars: 4.5
 reviews: 18242
 size: '128844800'
-website: http://www.tradestation.com/trading-technology/tradestation-mobile
+website: https://www.tradestation.com/trading-technology/tradestation-mobile
 repository: 
 issue: 
 icon: com.tradestation.MobileTrading.jpg

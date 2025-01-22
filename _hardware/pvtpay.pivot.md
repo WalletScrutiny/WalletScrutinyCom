@@ -28,9 +28,9 @@ reviewArchive:
 twitter: pvt_pay
 social:
 - https://www.linkedin.com/company/pvt-pay/
-- https://www.facebook.com/PVTPAY/
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/PVTPAY/
 - https://www.instagram.com/pvt_pay
-- https://www.youtube.com/channel/UCPfYhIwqmOfFzQdoeb_QHDQ
+- https://walletscrutiny.com/brokenlink/https://www.youtube.com/channel/UCPfYhIwqmOfFzQdoeb_QHDQ
 features: 
 
 ---

@@ -13,7 +13,7 @@ version: 1.15.0
 stars: 4.8
 reviews: 42
 size: '257521664'
-website: http://www.echooo.xyz
+website: https://www.echooo.xyz
 repository: 
 issue: 
 icon: com.soundVelly.echoooLab.jpg

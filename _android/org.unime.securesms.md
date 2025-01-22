@@ -13,7 +13,7 @@ stars: 5
 ratings: 
 reviews: 19
 size: 
-website: https://about.unime.world/
+website: https://web.archive.org/web/20210619182200/https://about.unime.world/
 repository: 
 issue: 
 icon: org.unime.securesms.png

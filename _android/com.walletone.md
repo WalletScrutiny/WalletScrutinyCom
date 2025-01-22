@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://walletone.io
+website: https://walletscrutiny.com/brokenlink/https://walletone.io/
 repository: 
 issue: 
 icon: com.walletone.png

@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: BitoEX_Official
 social:
-- https://www.facebook.com/bitopro.bito
+- https://web.archive.org/web/20190730051539/https://www.facebook.com/bitopro.bito/
 redirect_from: 
 developerName: BITOEX TECHNOLOGY LIMITED TAIWAN BRANCH
 features: 

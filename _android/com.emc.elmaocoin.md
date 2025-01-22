@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://elmaocoin.com/
+website: https://walletscrutiny.com/brokenlink/https://elmaocoin.com/
 repository: 
 issue: 
 icon: com.emc.elmaocoin.png

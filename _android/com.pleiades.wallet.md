@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.pleiades.finance
+website: https://walletscrutiny.com/brokenlink/https://www.pleiades.finance
 repository: 
 issue: 
 icon: com.pleiades.wallet.png

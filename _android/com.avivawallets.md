@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://avivawallets.com
+website: https://walletscrutiny.com/brokenlink/https://avivawallets.com/
 repository: 
 issue: 
 icon: com.avivawallets.png

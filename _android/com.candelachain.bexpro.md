@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.bexpro.ph
+website: https://walletscrutiny.com/brokenlink/https://www.bexpro.ph/
 repository: 
 issue: 
 icon: com.candelachain.bexpro.png

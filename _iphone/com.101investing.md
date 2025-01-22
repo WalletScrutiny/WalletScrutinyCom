@@ -13,7 +13,7 @@ version: 1.68.10
 stars: 
 reviews: 
 size: 33699840
-website: https://www.101investing.com/
+website: https://walletscrutiny.com/brokenlink/https://www.101investing.com:80/
 repository: 
 issue: 
 icon: com.101investing.jpg

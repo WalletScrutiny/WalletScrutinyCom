@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.paxnaira.com
+website: https://walletscrutiny.com/brokenlink/https://paxnaira.com/
 repository: 
 issue: 
 icon: com.app.paxnairaapp.png

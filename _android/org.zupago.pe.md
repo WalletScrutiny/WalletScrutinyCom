@@ -14,7 +14,7 @@ stars: 5
 ratings: 5
 reviews: 2
 size: Varies with device
-website: https://zupago.pe/
+website: https://web.archive.org/web/20180831075719/https://zupago.pe/
 repository: 
 issue: 
 icon: org.zupago.pe.png

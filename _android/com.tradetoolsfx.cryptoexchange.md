@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.tradetoolsfx.com
+website: https://www.tradetoolsfx.com
 repository: 
 issue: 
 icon: com.tradetoolsfx.cryptoexchange.png

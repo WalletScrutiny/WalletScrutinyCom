@@ -13,7 +13,7 @@ stars: 3.1
 ratings: 
 reviews: 
 size: 
-website: https://dbx24.com
+website: https://walletscrutiny.com/brokenlink/https://dbx24.com
 repository: 
 issue: 
 icon: fcm.dbx24.com.png

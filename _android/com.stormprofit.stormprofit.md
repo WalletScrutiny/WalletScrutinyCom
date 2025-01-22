@@ -13,7 +13,7 @@ stars: 1.7
 ratings: 
 reviews: 4
 size: 
-website: https://stormprofit.trade/
+website: https://web.archive.org/web/20220316194957/https://stormprofit.trade/
 repository: 
 issue: 
 icon: com.stormprofit.stormprofit.png

@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://mtobit.com
+website: https://walletscrutiny.com/brokenlink/https://mtobit.com/
 repository: 
 issue: 
 icon: com.mtobit.aos.png

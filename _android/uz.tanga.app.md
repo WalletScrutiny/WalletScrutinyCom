@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://tanga.uz/
+website: https://walletscrutiny.com/brokenlink/https://tanga.uz/
 repository: 
 issue: 
 icon: uz.tanga.app.png

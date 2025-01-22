@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: ex_scudo
 social:
-- https://www.facebook.com/exscudo
+- https://web.archive.org/web/20170530103812/https://www.facebook.com/exscudo
 - https://www.reddit.com/r/EXSCUDO
 redirect_from: 
 developerName: NIMERA LTD

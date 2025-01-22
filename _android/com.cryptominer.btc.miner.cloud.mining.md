@@ -14,7 +14,7 @@ stars: 3.7
 ratings: 3598
 reviews: 2256
 size: 15M
-website: https://btcnetwork.in/
+website: https://walletscrutiny.com/brokenlink/https://btcnetwork.in/
 repository: 
 issue: 
 icon: com.cryptominer.btc.miner.cloud.mining.png

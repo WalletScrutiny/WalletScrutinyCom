@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://brick.global
+website: https://walletscrutiny.com/brokenlink/https://brick.global/
 repository: 
 issue: 
 icon: com.brick.wallet.png

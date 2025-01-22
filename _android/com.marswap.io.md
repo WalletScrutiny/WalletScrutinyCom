@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.marswap.io/
+website: https://web.archive.org/web/20211215041822/http://marswap.io/
 repository: 
 issue: 
 icon: com.marswap.io.png

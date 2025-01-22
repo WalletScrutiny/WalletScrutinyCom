@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: obiexfinance
 social:
-- https://www.facebook.com/obiexfinance
+- https://web.archive.org/web/20230407003427/https://www.facebook.com/obiexfinance
 - https://www.instagram.com/obiexfinance/
 features: 
 developerName: Paylot technologies Ltd

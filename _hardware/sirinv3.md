@@ -13,7 +13,7 @@ dimensions:
 weight: 
 provider: Sirin Labs
 providerWebsite: https://sirinlabs.com/
-website: https://sirinlabs.com/
+website: https://web.archive.org/web/20211224122040/https://sirinlabs.com/
 shop: https://shop.sirinlabs.com/products/sirin-v3%E2%84%A2
 country: UK
 price: 2650USD

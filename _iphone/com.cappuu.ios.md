@@ -13,7 +13,7 @@ version: '3.56'
 stars: 0
 reviews: 0
 size: '34280448'
-website: http://www.coinomo.com
+website: https://web.archive.org/web/20220926001728/http://www.coinomo.com
 repository: 
 issue: 
 icon: com.cappuu.ios.jpg

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://wallet.gex.exchange
+website: https://walletscrutiny.com/brokenlink/https://wallet.gex.exchange
 repository: 
 issue: 
 icon: site.globex.bankwallet.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://131t.kr/
+website: https://walletscrutiny.com/brokenlink/https://131t.kr/
 repository: 
 issue: 
 icon: kr.co.a131t.png

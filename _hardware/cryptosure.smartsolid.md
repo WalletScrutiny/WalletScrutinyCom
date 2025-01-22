@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: Offline Crypto
 providerWebsite: 
-website: https://www.offlinecrypto.us/
+website: https://web.archive.org/web/20201101025324/https://www.offlinecrypto.us/
 shop: https://www.offlinecrypto.us/store/p10/smart-solid.html
 country: US
 price: 121.66USD

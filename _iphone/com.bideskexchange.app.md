@@ -13,7 +13,7 @@ version: 3.1.2
 stars: 3.5
 reviews: 12
 size: 69810176
-website: https://www.bidesk.com/
+website: https://web.archive.org/web/20210624015840/https://www.bidesk.com/
 repository: 
 issue: 
 icon: com.bideskexchange.app.jpg

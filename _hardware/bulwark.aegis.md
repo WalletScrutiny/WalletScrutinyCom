@@ -28,7 +28,7 @@ reviewArchive:
 twitter: BulwarkCrypto
 social:
 - https://www.reddit.com/r/BulwarkCoin/
-- https://www.facebook.com/BulwarkCrypto/
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/BulwarkCrypto/
 - https://medium.com/@bulwarkcrypto
 features: 
 

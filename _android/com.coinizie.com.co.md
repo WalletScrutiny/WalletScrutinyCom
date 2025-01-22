@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.coinizie.com/
+website: https://web.archive.org/web/20201113073740/http://coinizie.com/
 repository: 
 issue: 
 icon: com.coinizie.com.co.png

@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://coindeal.com/
+website: https://web.archive.org/web/20201101001543/https://coindeal.com/
 repository: 
 issue: 
 icon: com.coindeal.png
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: coindealcom
 social:
 - https://www.linkedin.com/company/coindealcom
-- https://www.facebook.com/coindealcom
+- https://web.archive.org/web/20200725072417/https://www.facebook.com/CoinDealCom/
 redirect_from: 
 developerName: CoinDeal Limited
 features: 

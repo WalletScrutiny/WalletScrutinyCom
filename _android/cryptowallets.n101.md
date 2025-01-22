@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://thecryptoyo.com
+website: https://web.archive.org/web/20220410040124/https://thecryptoyo.com/
 repository: 
 issue: 
 icon: cryptowallets.n101.png

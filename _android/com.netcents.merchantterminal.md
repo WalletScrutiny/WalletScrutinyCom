@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.net-cents.com
+website: https://www.net-cents.com
 repository: 
 issue: 
 icon: com.netcents.merchantterminal.png

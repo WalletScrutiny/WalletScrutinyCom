@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.ddtotal.com.br
+website: https://walletscrutiny.com/brokenlink/https://www.ddtotal.com.br
 repository: 
 issue: 
 icon: com.payout.jpg

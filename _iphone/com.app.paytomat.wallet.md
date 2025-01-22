@@ -13,7 +13,7 @@ version: 1.37.2
 stars: 4.4
 reviews: 22
 size: '65810432'
-website: https://paytomat.com
+website: https://web.archive.org/web/20180905212136/https://paytomat.com/
 repository: 
 issue: 
 icon: com.app.paytomat.wallet.jpg
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: paytomat
 social:
 - https://www.linkedin.com/company/11433285
-- https://www.facebook.com/paytomat
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/paytomat
 features: 
 developerName: 
 

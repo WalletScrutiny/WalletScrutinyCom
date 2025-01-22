@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://fincryptglobal.com/
+website: https://walletscrutiny.com/brokenlink/https://fincryptglobal.com:80/
 repository: 
 issue: 
 icon: bitsafe.bitsafe_app.png

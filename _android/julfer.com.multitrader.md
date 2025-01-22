@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://julienfer.github.io/app
+website: https://walletscrutiny.com/brokenlink/https://julienfer.github.io/app
 repository: 
 issue: 
 icon: julfer.com.multitrader.png

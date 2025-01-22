@@ -14,7 +14,7 @@ stars: 4.9
 ratings: 
 reviews: 27
 size: 
-website: https://www.trofi.group/
+website: https://web.archive.org/web/20220623102317/https://trofi.group/
 repository: 
 issue: 
 icon: com.trofi.png

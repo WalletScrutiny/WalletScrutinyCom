@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.otomation.tech
+website: https://walletscrutiny.com/brokenlink/https://www.otomation.tech/
 repository: 
 issue: 
 icon: com.crypto_wallet_arnold.png

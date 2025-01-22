@@ -13,7 +13,7 @@ version: 1.0.5
 stars: 2.8
 reviews: 26
 size: 75852800
-website: https://instantcoins.ng/
+website: https://walletscrutiny.com/brokenlink/https://instantcoins.ng/
 repository: 
 issue: 
 icon: com.instantcoins.jpg
@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: instantcoins_ng
 social:
-- https://www.facebook.com/instantcoins
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/instantcoins
 features: 
 developerName: 
 

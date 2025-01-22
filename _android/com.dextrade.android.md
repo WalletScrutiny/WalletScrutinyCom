@@ -14,7 +14,7 @@ stars: 3.3
 ratings: 218
 reviews: 23
 size: 
-website: https://dex-trade.com
+website: https://web.archive.org/web/20240916180945/https://dex-trade.com/
 repository: 
 issue: 
 icon: com.dextrade.android.png

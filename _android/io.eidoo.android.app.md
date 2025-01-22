@@ -14,7 +14,7 @@ stars: 1.6
 ratings: 
 reviews: 5
 size: 
-website: https://eidoo.app/
+website: https://walletscrutiny.com/brokenlink/https://eidoo.app/
 repository: 
 issue: 
 icon: io.eidoo.android.app.jpg

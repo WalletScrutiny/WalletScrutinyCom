@@ -14,7 +14,7 @@ stars: 2.6
 ratings: 3900
 reviews: 37
 size: 
-website: https://quppy.com/
+website: https://quppy.com:80/
 repository: 
 issue: 
 icon: com.quppy.png

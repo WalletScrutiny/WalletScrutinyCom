@@ -13,7 +13,7 @@ stars: 2
 ratings: 
 reviews: 
 size: 
-website: http://cryptouniversep2p.com/
+website: https://walletscrutiny.com/brokenlink/https://cryptouniversep2p.com/
 repository: 
 issue: 
 icon: com.cryptouniverse.app.png

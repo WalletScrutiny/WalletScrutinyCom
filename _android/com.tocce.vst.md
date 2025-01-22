@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.vstmex.com/
+website: https://walletscrutiny.com/brokenlink/https://vstmex.com/
 repository: 
 issue: 
 icon: com.tocce.vst.png

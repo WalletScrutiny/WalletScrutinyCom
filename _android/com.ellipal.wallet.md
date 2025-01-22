@@ -15,7 +15,7 @@ stars: 4.1
 ratings: 933
 reviews: 506
 size: 
-website: http://www.ellipal.com
+website: https://www.ellipal.com
 repository: 
 issue: 
 icon: com.ellipal.wallet.png

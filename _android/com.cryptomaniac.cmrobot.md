@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.cmrobot.id/
+website: https://walletscrutiny.com/brokenlink/https://cmrobot.id:80/
 repository: 
 issue: 
 icon: com.cryptomaniac.cmrobot.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://gempay.io/
+website: https://web.archive.org/web/20220328210635/https://gempay.io/
 repository: 
 issue: 
 icon: com.gempay.png

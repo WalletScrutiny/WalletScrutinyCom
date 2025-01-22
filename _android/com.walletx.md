@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 
 reviews: 18
 size: 
-website: http://www.cnxnetwork.org
+website: https://www.cnxnetwork.org
 repository: 
 issue: 
 icon: com.walletx.png

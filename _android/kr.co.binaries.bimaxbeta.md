@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.bimax.io/
+website: https://web.archive.org/web/20241116024100/https://www.bimax.io/
 repository: 
 issue: 
 icon: kr.co.binaries.bimaxbeta.png

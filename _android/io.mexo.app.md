@@ -14,7 +14,7 @@ stars: 3.1
 ratings: 401
 reviews: 15
 size: 
-website: http://www.mexo.io
+website: https://www.mexo.io
 repository: 
 issue: 
 icon: io.mexo.app.png

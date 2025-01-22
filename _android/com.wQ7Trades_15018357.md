@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://q7trades.com
+website: https://web.archive.org/web/20220408024030/https://q7trades.com/
 repository: 
 issue: 
 icon: com.wQ7Trades_15018357.png

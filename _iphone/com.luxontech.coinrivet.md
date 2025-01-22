@@ -27,7 +27,7 @@ twitter: CoinRivet
 social:
 - https://coinrivet.com
 - https://www.instagram.com/CoinRivet
-- https://www.facebook.com/CoinRivet
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/CoinRivet
 features: 
 developerName: GALIAS SERVICES UAB
 

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.arq.link/
+website: https://walletscrutiny.com/brokenlink/https://www.arq.link/
 repository: 
 issue: 
 icon: plus.ARQ.D2020120901.png

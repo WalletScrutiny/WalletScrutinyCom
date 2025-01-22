@@ -15,7 +15,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://personal.elegro.eu/exchange
+website: https://walletscrutiny.com/brokenlink/https://personal.elegro.eu/exchange
 repository: 
 issue: 
 icon: cryptoex.elegro.io.png

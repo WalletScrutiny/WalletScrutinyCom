@@ -13,7 +13,7 @@ version: 2.83.848
 stars: 3.5
 reviews: 4
 size: '88448000'
-website: https://jp-ex.io/
+website: https://walletscrutiny.com/brokenlink/https://jp-ex.io/
 repository: 
 issue: 
 icon: io.jp-ex.iosapp2.jpg

@@ -13,7 +13,7 @@ stars: 3.8
 ratings: 
 reviews: 7
 size: 
-website: http://www.veroxai.io
+website: https://web.archive.org/web/20220114052410/https://www.veroxai.io/
 repository: 
 issue: 
 icon: com.veroxai.jpg

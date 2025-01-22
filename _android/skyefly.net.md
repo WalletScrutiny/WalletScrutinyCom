@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://skyefly.net
+website: https://walletscrutiny.com/brokenlink/https://skyefly.net
 repository: 
 issue: 
 icon: skyefly.net.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.salvadorjesus.com/
+website: https://www.salvadorjesus.com/
 repository: 
 issue: 
 icon: com.salvadorjesus.PagameConBitcoin.png

@@ -13,7 +13,7 @@ version: 2.3.3
 stars: 0
 reviews: 0
 size: '150552576'
-website: https://cwallet.com
+website: https://walletscrutiny.com/brokenlink/https://cwallet.com
 repository: 
 issue: 
 icon: com.wallet.cctip.jpg

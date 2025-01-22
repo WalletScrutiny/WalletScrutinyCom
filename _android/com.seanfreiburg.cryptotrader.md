@@ -14,7 +14,7 @@ stars: 4
 ratings: 
 reviews: 6
 size: 
-website: http://gcryptolab.com
+website: https://walletscrutiny.com/brokenlink/https://www.gcryptolab.com:80/
 repository: 
 issue: 
 icon: com.seanfreiburg.cryptotrader.png

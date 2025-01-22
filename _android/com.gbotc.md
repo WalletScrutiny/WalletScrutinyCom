@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://genesisblockhk.com/
+website: https://walletscrutiny.com/brokenlink/https://genesisblockhk.com/
 repository: 
 issue: 
 icon: com.gbotc.png

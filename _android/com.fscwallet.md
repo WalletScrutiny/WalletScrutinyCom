@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.fsdex.io/
+website: https://web.archive.org/web/20200923024219/https://fsdex.io/
 repository: 
 issue: 
 icon: com.fscwallet.png

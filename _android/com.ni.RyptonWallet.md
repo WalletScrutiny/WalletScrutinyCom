@@ -13,7 +13,7 @@ stars: 3.7
 ratings: 
 reviews: 
 size: 
-website: https://rhypton.io
+website: https://web.archive.org/web/20201026102759/https://rhypton.io/
 repository: 
 issue: 
 icon: com.ni.RyptonWallet.jpg

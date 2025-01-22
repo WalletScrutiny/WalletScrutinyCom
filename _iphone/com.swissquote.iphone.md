@@ -13,7 +13,7 @@ version: 11.1.1
 stars: 4.2
 reviews: 12
 size: '242152448'
-website: https://www.swissquote.com
+website: https://walletscrutiny.com/brokenlink/https://www.swissquote.com
 repository: 
 issue: 
 icon: com.swissquote.iphone.jpg

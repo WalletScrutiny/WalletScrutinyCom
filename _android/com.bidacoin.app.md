@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bidacoin.io/#/
+website: https://web.archive.org/web/20220725014422/https://bidacoin.io/
 repository: 
 issue: 
 icon: com.bidacoin.app.png

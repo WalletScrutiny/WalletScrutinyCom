@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://wallet.ntcrypto.net
+website: https://walletscrutiny.com/brokenlink/https://wallet.ntcrypto.net/
 repository: 
 issue: 
 icon: com.wallet.ntc.png

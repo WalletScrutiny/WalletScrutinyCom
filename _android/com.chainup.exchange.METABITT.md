@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.mt-bitt.com/en_US/
+website: https://web.archive.org/web/20230715111657/http://www.mt-bitt.com/en_US
 repository: 
 issue: 
 icon: com.chainup.exchange.METABITT.png

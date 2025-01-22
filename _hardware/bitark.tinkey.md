@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: Tin Key
 providerWebsite: 
-website: https://tinkey.io
+website: https://walletscrutiny.com/brokenlink/https://tinkey.io
 shop: http://tinkey.io/#/shop
 country: CN
 price: 

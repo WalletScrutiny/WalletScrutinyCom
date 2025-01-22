@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://albrex.io
+website: https://walletscrutiny.com/brokenlink/https://albrex.io/
 repository: 
 issue: 
 icon: pay.albrex.io.png

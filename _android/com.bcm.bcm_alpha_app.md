@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.bcmholdings.io
+website: https://web.archive.org/web/20201101073709/http://www.bcmholdings.io/
 repository: 
 issue: 
 icon: com.bcm.bcm_alpha_app.png

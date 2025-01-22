@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: kochureglobal
 social:
-- https://www.facebook.com/KochureGlobal
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/KochureGlobal
 - https://www.instagram.com/kochureglobal
 redirect_from: 
 developerName: Kochure Technologies Limited

@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: HuobiGlobal
 social:
-- https://www.facebook.com/huobiglobalofficial
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/huobiglobalofficial
 features: 
 developerName: SAFE GLORY UAB
 

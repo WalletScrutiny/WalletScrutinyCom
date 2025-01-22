@@ -13,7 +13,7 @@ stars: 2.3
 ratings: 
 reviews: 7
 size: 
-website: http://www.icncde.com/
+website: https://web.archive.org/web/20210614112042/https://icncde.com/
 repository: 
 issue: 
 icon: com.dssj.currencytradinggoogle.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://getcoinsafe.app
+website: https://web.archive.org/web/20181227143622/https://getcoinsafe.app/
 repository: 
 issue: 
 icon: app.getcoinsafe.android.png

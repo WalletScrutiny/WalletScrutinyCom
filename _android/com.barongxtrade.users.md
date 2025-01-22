@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://Barongxtrade.com
+website: https://Barongxtrade.com
 repository: 
 issue: 
 icon: com.barongxtrade.users.png

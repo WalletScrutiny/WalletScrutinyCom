@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://maxicoinexchange.com
+website: https://walletscrutiny.com/brokenlink/https://maxicoinexchange.com/
 repository: 
 issue: 
 icon: com.app.exchanger12.png

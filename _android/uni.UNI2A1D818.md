@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://muskbot.io
+website: https://walletscrutiny.com/brokenlink/https://muskbot.io/
 repository: 
 issue: 
 icon: uni.UNI2A1D818.jpg

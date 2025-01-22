@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: PaperSafe
 providerWebsite: 
-website: https://web.archive.org/web/20160111191704/http://papersafe.org/
+website: https://walletscrutiny.com/brokenlink/https://papersafe.org/
 shop: 
 country: US
 price: 20USD

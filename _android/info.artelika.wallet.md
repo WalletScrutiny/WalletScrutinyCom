@@ -13,7 +13,7 @@ stars: 4.2
 ratings: 
 reviews: 
 size: 
-website: http://artelika.com
+website: https://artelika.com
 repository: 
 issue: 
 icon: info.artelika.wallet.png

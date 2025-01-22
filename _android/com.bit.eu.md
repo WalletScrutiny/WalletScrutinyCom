@@ -14,7 +14,7 @@ stars: 4.6
 ratings: 
 reviews: 
 size: 
-website: http://www.biteeu.com
+website: https://www.biteeu.com
 repository: 
 issue: 
 icon: com.bit.eu.png

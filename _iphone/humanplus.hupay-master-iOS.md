@@ -13,7 +13,7 @@ version: 1.8.8
 stars: 4.4
 reviews: 12
 size: '74782720'
-website: https://www.hupayx.com/
+website: https://walletscrutiny.com/brokenlink/https://www.hupayx.com/
 repository: 
 issue: 
 icon: humanplus.hupay-master-iOS.jpg

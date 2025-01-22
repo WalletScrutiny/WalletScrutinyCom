@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://gimibits.com
+website: https://walletscrutiny.com/brokenlink/https://gimibits.com
 repository: 
 issue: 
 icon: com.blocknomic.gimibits.png

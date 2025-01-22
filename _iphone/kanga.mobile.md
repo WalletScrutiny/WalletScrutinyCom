@@ -13,7 +13,7 @@ version: 1.20.16
 stars: 2.5
 reviews: 6
 size: '32617472'
-website: http://kanga.exchange
+website: https://kanga.exchange
 repository: 
 issue: 
 icon: kanga.mobile.jpg
@@ -28,7 +28,7 @@ social:
 - https://www.linkedin.com/company/kangaexchange/
 - https://t.me/KangaExchange
 - https://www.youtube.com/channel/UCgB3tPtXgu4f3cIxqZlrB8Q
-- https://www.facebook.com/kanga.exchange/
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/kanga.exchange/
 features: 
 developerName: Grupa IT Sp. z o.o.
 

@@ -13,7 +13,7 @@ version: 1.3.12
 stars: 0
 reviews: 0
 size: '58900480'
-website: https://acewallet.finance/
+website: https://web.archive.org/web/20220927141359/https://acewallet.finance/
 repository: 
 issue: 
 icon: com.finance.acewallet.jpg
@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: DAAFinance
 social:
-- https://www.facebook.com/aceewallet
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/aceewallet
 features: 
 developerName: Maxi Anchor Capital Limited
 

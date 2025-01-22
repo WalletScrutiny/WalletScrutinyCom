@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.24cfd.com
+website: https://web.archive.org/web/20210622232836/https://www.24cfd.com/
 repository: 
 issue: 
 icon: com.twentyfourcfd.png

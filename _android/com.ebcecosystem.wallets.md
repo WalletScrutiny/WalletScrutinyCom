@@ -14,7 +14,7 @@ stars: 4.7
 ratings: 97
 reviews: 61
 size: 11M
-website: https://ebc.eco
+website: https://web.archive.org/web/20211202183208/http://ebc.eco/
 repository: 
 issue: 
 icon: com.ebcecosystem.wallets.png

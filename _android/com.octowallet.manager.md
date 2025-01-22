@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.octowallet.com
+website: https://web.archive.org/web/20210621044425/https://www.octowallet.com/
 repository: 
 issue: 
 icon: com.octowallet.manager.png

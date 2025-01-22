@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: munawallet
 social:
-- https://www.facebook.com/munawallet
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/munawallet
 - https://www.instagram.com/munawallet/
 features: 
 developerName: 

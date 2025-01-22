@@ -14,7 +14,7 @@ stars: 4.8
 ratings: 5947
 reviews: 333
 size: 72M
-website: http://www.aofex.co
+website: https://web.archive.org/web/20201125000302/https://www.aofex.co/
 repository: 
 issue: 
 icon: co.aofex.exchange.jpg

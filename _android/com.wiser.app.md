@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://destreet.co
+website: https://web.archive.org/web/20220327093006/https://destreet.co/
 repository: 
 issue: 
 icon: com.wiser.app.png

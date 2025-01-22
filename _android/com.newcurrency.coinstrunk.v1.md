@@ -14,7 +14,7 @@ stars: 4.1
 ratings: 635
 reviews: 50
 size: 
-website: http://firstdaotrust.com
+website: https://walletscrutiny.com/brokenlink/https://firstdaotrust.com:80/
 repository: 
 issue: 
 icon: com.newcurrency.coinstrunk.v1.png

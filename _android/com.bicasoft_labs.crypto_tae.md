@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://cryptotae.com/
+website: https://web.archive.org/web/20210927140021/https://cryptotae.com/
 repository: 
 issue: 
 icon: com.bicasoft_labs.crypto_tae.jpg

@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.gethashapp.com/
+website: https://web.archive.org/web/20230201054145/https://www.gethashapp.com
 repository: 
 issue: 
 icon: com.hashvest.hash.png

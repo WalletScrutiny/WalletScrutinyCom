@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ecointrust.com
+website: https://walletscrutiny.com/brokenlink/https://ecointrust.com/
 repository: 
 issue: 
 icon: com.kocomex.ecointrust.png

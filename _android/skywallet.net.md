@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 5.7M
-website: https://skywallet.net
+website: https://walletscrutiny.com/brokenlink/https://skywallet.net
 repository: 
 issue: 
 icon: skywallet.net.jpg

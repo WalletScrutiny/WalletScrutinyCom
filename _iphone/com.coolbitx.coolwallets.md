@@ -13,7 +13,7 @@ version: 3.48.0
 stars: 4.7
 reviews: 1094
 size: '136005632'
-website: http://coolwallet.io
+website: https://coolwallet.io
 repository: 
 issue: 
 icon: com.coolbitx.coolwallets.jpg

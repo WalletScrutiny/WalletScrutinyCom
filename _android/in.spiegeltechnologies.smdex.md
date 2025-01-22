@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://smdex.io/
+website: https://web.archive.org/web/20211026102356/https://smdex.io/
 repository: 
 issue: 
 icon: in.spiegeltechnologies.smdex.png

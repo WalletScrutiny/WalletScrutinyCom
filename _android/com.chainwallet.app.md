@@ -27,7 +27,7 @@ reviewArchive:
 twitter: chain
 social:
 - https://t.me/chain
-- https://www.youtube.com/@chain
+- https://web.archive.org/web/20231005052300/https://www.youtube.com/@chain
 - https://www.facebook.com/chain
 redirect_from: 
 developerName: Chain.com

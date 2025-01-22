@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://witcash.io/
+website: https://walletscrutiny.com/brokenlink/https://witcash.io:80/
 repository: 
 issue: 
 icon: com.waspbit.witcashpdn.jpg

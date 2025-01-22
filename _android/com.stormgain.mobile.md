@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: StormGain_com
 social:
-- https://www.facebook.com/StormGain.official
+- https://web.archive.org/web/20210518093157/https://www.facebook.com/StormGain.official
 redirect_from: 
 developerName: StormGain Limited
 features: 

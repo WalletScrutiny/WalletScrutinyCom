@@ -13,7 +13,7 @@ version: 4.2.18
 stars: 4
 reviews: 163
 size: '106428416'
-website: https://www.weex.com/en
+website: https://walletscrutiny.com/brokenlink/https://www.weex.com/en
 repository: 
 issue: 
 icon: com.wake.weexprd.jpg
@@ -25,9 +25,9 @@ signer:
 reviewArchive: 
 twitter: WEEX_Official
 social:
-- https://www.facebook.com/WEEXGlobal
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/WEEXGlobal
 - https://t.me/Weex_Global
-- https://www.linkedin.com/company/weex-global
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/weex-global
 features: 
 developerName: Wake Co., Ltd.
 

@@ -15,7 +15,7 @@ dimensions:
 weight: 
 provider: Blockchain Hackathon 2018
 providerWebsite: 
-website: https://web.archive.org/web/20180819110143/https://blockchain-hackathon.com/
+website: https://walletscrutiny.com/brokenlink/https://blockchain-hackathon.com/
 shop: 
 country: PT
 price: 

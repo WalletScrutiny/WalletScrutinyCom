@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://btcplannet.net/
+website: https://walletscrutiny.com/brokenlink/https://btcplannet.net/
 repository: 
 issue: 
 icon: com.BTC.BtcPlannet.png

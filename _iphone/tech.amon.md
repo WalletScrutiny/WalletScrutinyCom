@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: amonwallet
 social:
-- https://www.facebook.com/amonwallet
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/amonwallet
 features: 
 developerName: Amon OÜ
 

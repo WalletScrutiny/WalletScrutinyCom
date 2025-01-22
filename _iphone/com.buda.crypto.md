@@ -26,7 +26,7 @@ reviewArchive:
 twitter: BudaPuntoCom
 social:
 - https://www.linkedin.com/company/budapuntocom
-- https://www.facebook.com/BudaPuntoCom
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/BudaPuntoCom
 features:
 - ln
 developerName: Buda.com

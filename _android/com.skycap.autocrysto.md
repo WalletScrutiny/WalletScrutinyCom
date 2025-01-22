@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://autocrysto.trade/
+website: https://walletscrutiny.com/brokenlink/https://autocrysto.trade/
 repository: 
 issue: 
 icon: com.skycap.autocrysto.png

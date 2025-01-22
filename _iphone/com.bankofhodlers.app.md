@@ -26,7 +26,7 @@ reviewArchive:
 twitter: Vauld_
 social:
 - https://www.linkedin.com/company/vauld
-- https://www.facebook.com/VauldOfficial
+- https://web.archive.org/web/20220129143516/https://www.facebook.com/VauldOfficial
 - https://www.reddit.com/r/BankofHodlers
 features: 
 developerName: DEFI TECHNOLOGIES PTE. LTD.

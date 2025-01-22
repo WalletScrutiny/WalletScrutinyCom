@@ -26,7 +26,7 @@ reviewArchive:
 twitter: obsidiamlatam
 social:
 - https://www.facebook.com/obsidiamexchange
-- https://www.youtube.com/channel/UC67iQdeNtxzRSEZu76cybQQ
+- https://walletscrutiny.com/brokenlink/https://www.youtube.com/channel/UC67iQdeNtxzRSEZu76cybQQ
 - https://www.instagram.com/obsidiam
 - https://t.me/obsidiam
 features: 

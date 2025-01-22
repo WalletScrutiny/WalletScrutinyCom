@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://kryptonio.com
+website: https://web.archive.org/web/20210615140324/https://kryptonio.com/
 repository: 
 issue: 
 icon: com.kryptonio.png

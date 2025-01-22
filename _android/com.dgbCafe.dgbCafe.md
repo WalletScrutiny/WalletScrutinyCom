@@ -14,7 +14,7 @@ stars: 4.9
 ratings: 28
 reviews: 6
 size: 
-website: https://www.digibytecafe.com
+website: https://web.archive.org/web/20201101010519/https://www.digibytecafe.com/
 repository: 
 issue: 
 icon: com.dgbCafe.dgbCafe.png

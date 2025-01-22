@@ -14,7 +14,7 @@ stars:
 ratings: 55
 reviews: 
 size: 
-website: http://cointong.io/
+website: https://walletscrutiny.com/brokenlink/https://cointong.io/
 repository: 
 issue: 
 icon: semaphore.coinclient.png

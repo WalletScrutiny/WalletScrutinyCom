@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://xinvestor.com/
+website: https://walletscrutiny.com/brokenlink/https://xinvestor.com/
 repository: 
 issue: 
 icon: com.chainup.exchange.xinvestor.png

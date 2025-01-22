@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 265
 reviews: 11
 size: 
-website: https://digiexchange.net/
+website: https://walletscrutiny.com/brokenlink/https://digiexchange.net/
 repository: 
 issue: 
 icon: com.digi.exchange.jpg

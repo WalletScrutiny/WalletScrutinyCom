@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: CryptoWatch
 providerWebsite: 
-website: https://web.archive.org/web/20190626112618/https://thecryptowatch.org/en/
+website: https://walletscrutiny.com/brokenlink/https://thecryptowatch.org/en/
 shop: 
 country: RU
 price: 400XCW

@@ -13,7 +13,7 @@ stars: 4.5
 ratings: 99
 reviews: 6
 size: 
-website: http://bittapi.oblade.net
+website: https://web.archive.org/web/20210518161019/https://bittapi.oblade.net/
 repository: 
 issue: 
 icon: net.benoitbasset.bittapi.png

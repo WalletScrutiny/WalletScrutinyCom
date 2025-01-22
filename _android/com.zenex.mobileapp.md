@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://zenextoken.in/
+website: https://web.archive.org/web/20220510030628/https://zenextoken.in/
 repository: 
 issue: 
 icon: com.zenex.mobileapp.png

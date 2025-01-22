@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://terra-bit.io
+website: https://walletscrutiny.com/brokenlink/https://www.terra-bit.io/
 repository: 
 issue: 
 icon: com.terracredit.pro.png

@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: Riddle and Code with Daimler
 providerWebsite: 
-website: https://www.riddleandcode.com/news/car-wallet
+website: https://web.archive.org/web/20220525092427/https://www.riddleandcode.com/news/car-wallet
 shop: 
 country: AT
 price: 

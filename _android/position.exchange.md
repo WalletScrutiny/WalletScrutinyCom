@@ -28,7 +28,7 @@ twitter: PositionEx
 social:
 - https://www.reddit.com/r/PositionExchange
 - https://discord.com/invite/FyBUQhxyV2
-- https://www.youtube.com/@PositionExchange
+- https://web.archive.org/web/20230125190954/https://www.youtube.com/@PositionExchange
 - https://t.me/PositionExchange
 redirect_from: 
 developerName: Position Labs

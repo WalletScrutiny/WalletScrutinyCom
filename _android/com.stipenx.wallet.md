@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.stipend.com
+website: https://www.stipend.com
 repository: 
 issue: 
 icon: com.stipenx.wallet.png

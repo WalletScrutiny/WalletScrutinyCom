@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://payizadlt.com/
+website: https://web.archive.org/web/20210615215822/https://payizadlt.com/
 repository: 
 issue: 
 icon: com.payizadlt.pp.png

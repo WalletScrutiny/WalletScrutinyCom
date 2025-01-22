@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.sinance.net
+website: https://web.archive.org/web/20241208130412/https://sinance.net/
 repository: 
 issue: 
 icon: com.sinance.exchange.jpg

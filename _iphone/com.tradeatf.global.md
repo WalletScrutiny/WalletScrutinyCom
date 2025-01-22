@@ -26,7 +26,7 @@ reviewArchive:
 twitter: TradeATF
 social:
 - https://www.linkedin.com/company/globaltradeatf
-- https://www.facebook.com/TradeATF
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/TradeATF
 features: 
 developerName: 
 

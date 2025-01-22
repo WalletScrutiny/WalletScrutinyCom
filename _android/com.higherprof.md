@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://higherprof.pro/
+website: https://walletscrutiny.com/brokenlink/https://higherprof.pro/
 repository: 
 issue: 
 icon: com.higherprof.jpg

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://opermizer.zone
+website: https://walletscrutiny.com/brokenlink/https://opermizer.zone
 repository: 
 issue: 
 icon: com.opi.optimizer.png

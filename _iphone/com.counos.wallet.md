@@ -27,7 +27,7 @@ reviewArchive:
 twitter: counoscoin
 social:
 - https://www.linkedin.com/company/counosplatform
-- https://www.facebook.com/CounosPlatform
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/CounosPlatform
 features: 
 developerName: CSC Int GmbH
 

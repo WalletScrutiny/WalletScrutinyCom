@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://fmx.trade
+website: https://web.archive.org/web/20201215035336/https://fmx.trade/
 repository: 
 issue: 
 icon: fmx.trade.cryptocurrency.exchange.finance.png

@@ -14,7 +14,7 @@ stars: 3.8
 ratings: 
 reviews: 9
 size: 
-website: https://sessip.com
+website: https://walletscrutiny.com/brokenlink/https://www.sessip.com/
 repository: 
 issue: 
 icon: com.sessip.Sessipapp.png

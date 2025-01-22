@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: protonxpr
 social:
-- https://www.facebook.com/protonxpr
+- https://web.archive.org/web/20220320023855/https://www.facebook.com/protonxpr/
 - https://www.reddit.com/r/ProtonChain
 - https://t.me/protonxpr
 - https://discord.com/invite/B2QDmgf

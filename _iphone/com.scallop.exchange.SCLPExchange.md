@@ -13,7 +13,7 @@ version: 1.0.2
 stars: 4.7
 reviews: 10
 size: '174145536'
-website: http://www.scallop.exchange
+website: https://www.scallop.exchange
 repository: 
 issue: 
 icon: com.scallop.exchange.SCLPExchange.jpg

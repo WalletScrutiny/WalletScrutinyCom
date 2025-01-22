@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ntrade.com.my/
+website: https://web.archive.org/web/20220625090537/https://www.ntrade.com.my/
 repository: 
 issue: 
 icon: com.neurogine.taurus.png

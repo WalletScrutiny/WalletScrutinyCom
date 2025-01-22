@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 
 reviews: 
 size: 
-website: https://abstocks.com
+website: https://walletscrutiny.com/brokenlink/https://abstocks.com:80/
 repository: 
 issue: 
 icon: com.abstocks.png

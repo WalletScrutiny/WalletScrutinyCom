@@ -13,7 +13,7 @@ version: 1.2.2
 stars: 0
 reviews: 0
 size: '81250304'
-website: https://3swallet.com/
+website: https://walletscrutiny.com/brokenlink/https://3swallet.com/
 repository: 
 issue: 
 icon: com.bho.network.jpg

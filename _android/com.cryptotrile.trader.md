@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://cryptotrile.com/
+website: https://web.archive.org/web/20210609004603/https://www.cryptotrile.com/
 repository: 
 issue: 
 icon: com.cryptotrile.trader.png

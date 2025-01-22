@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/FollowMyMoneyOfficial
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/FollowMyMoneyOfficial
 - https://www.instagram.com/followmymoney_official
 - https://www.youtube.com/c/FollowMyMoneyYT
 - https://www.linkedin.com/company/fels-group/

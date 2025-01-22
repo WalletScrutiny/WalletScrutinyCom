@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.cbanx.com
+website: https://walletscrutiny.com/brokenlink/https://www.cbanx.com
 repository: 
 issue: 
 icon: com.cbanx.androidapp.png

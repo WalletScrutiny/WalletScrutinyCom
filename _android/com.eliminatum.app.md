@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: GoCrypto_
 social:
-- https://www.facebook.com/gocrypto.eligma
+- https://web.archive.org/web/20230207195531/https://www.facebook.com/gocrypto.eligma
 - https://t.me/eligma
 - https://medium.com/eligma-blog
 - https://www.youtube.com/channel/UCfshAN27bKPe4f3uBIr7jjA

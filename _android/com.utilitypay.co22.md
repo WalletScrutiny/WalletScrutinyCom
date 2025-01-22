@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://utilitypay.co/
+website: https://web.archive.org/web/20201031235243/https://utilitypay.co/
 repository: 
 issue: 
 icon: com.utilitypay.co22.png

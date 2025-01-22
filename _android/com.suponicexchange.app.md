@@ -14,7 +14,7 @@ stars: 3.5
 ratings: 
 reviews: 2
 size: 
-website: https://www.suponic.com
+website: https://walletscrutiny.com/brokenlink/https://www.suponic.com:80/
 repository: 
 issue: 
 icon: com.suponicexchange.app.png

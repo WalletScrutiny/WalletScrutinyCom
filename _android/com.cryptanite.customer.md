@@ -13,7 +13,7 @@ stars: 4.5
 ratings: 
 reviews: 8
 size: 
-website: http://cryptanite.com
+website: https://cryptanite.com
 repository: 
 issue: 
 icon: com.cryptanite.customer.png

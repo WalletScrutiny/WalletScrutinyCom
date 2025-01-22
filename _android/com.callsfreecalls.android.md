@@ -14,7 +14,7 @@ stars: 3.7
 ratings: 12322
 reviews: 3745
 size: 43M
-website: https://cfc.io
+website: https://web.archive.org/web/20170510060405/https://cfc.io/
 repository: 
 issue: 
 icon: com.callsfreecalls.android.png

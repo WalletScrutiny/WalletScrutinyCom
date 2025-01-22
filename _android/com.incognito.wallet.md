@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 344
 reviews: 64
 size: 
-website: https://incognito.org/
+website: https://web.archive.org/web/20170610061318/http://incognito.org/
 repository: https://github.com/incognitochain/incognito-wallet
 issue: https://github.com/incognitochain/incognito-wallet/issues/1422
 icon: com.incognito.wallet.png

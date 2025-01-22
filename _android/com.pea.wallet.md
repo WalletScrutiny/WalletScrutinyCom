@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://pealab.io/wallet
+website: https://web.archive.org/web/20220625090711/https://pealab.io/wallet/
 repository: 
 issue: 
 icon: com.pea.wallet.png

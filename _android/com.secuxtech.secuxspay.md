@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.secuxtech.com
+website: https://www.secuxtech.com
 repository: 
 issue: 
 icon: com.secuxtech.secuxspay.png

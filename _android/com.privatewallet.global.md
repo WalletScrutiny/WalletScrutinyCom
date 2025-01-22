@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://private-wallet.net
+website: https://walletscrutiny.com/brokenlink/https://www.private-wallet.net/
 repository: 
 issue: 
 icon: com.privatewallet.global.png

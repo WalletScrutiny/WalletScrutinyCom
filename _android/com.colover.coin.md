@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.colover.com/
+website: https://walletscrutiny.com/brokenlink/https://www.colover.com:80/
 repository: 
 issue: 
 icon: com.colover.coin.png

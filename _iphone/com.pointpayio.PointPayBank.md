@@ -14,7 +14,7 @@ version: 8.8.43
 stars: 4.6
 reviews: 693
 size: '43838464'
-website: https://wallet.pointpay.io
+website: https://walletscrutiny.com/brokenlink/https://wallet.pointpay.io
 repository: 
 issue: 
 icon: com.pointpayio.PointPayBank.jpg

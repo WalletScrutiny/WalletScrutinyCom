@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.turismobtc.com
+website: https://www.turismobtc.com
 repository: 
 issue: 
 icon: com.turismobtc.app.png

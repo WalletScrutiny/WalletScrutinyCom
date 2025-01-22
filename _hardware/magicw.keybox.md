@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: Magictime Technology Pte.Ltd.
 providerWebsite: 
-website: https://keybox.magicw.net
+website: https://web.archive.org/web/20210613164613/https://keybox.magicw.net/
 shop: https://keybox.magicw.net/buyen.html
 country: CN
 price: 999 CNY

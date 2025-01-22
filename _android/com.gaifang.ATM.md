@@ -14,7 +14,7 @@ stars: 4.7
 ratings: 35
 reviews: 26
 size: 3.5M
-website: https://atmoption.in/
+website: https://web.archive.org/web/20211126024948/http://atmoption.in/
 repository: 
 issue: 
 icon: com.gaifang.ATM.png

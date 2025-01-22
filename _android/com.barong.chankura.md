@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://chankura.com
+website: https://walletscrutiny.com/brokenlink/https://chankura.com/
 repository: 
 issue: 
 icon: com.barong.chankura.png

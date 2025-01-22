@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: FlitsNode
 social:
-- https://www.facebook.com/flitsnode
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/flitsnode
 features: 
 developerName: Klimatas B.V.
 

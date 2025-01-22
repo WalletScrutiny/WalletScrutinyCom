@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: protonxpr
 social:
-- https://www.facebook.com/protonxpr
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/protonxpr
 - https://www.reddit.com/r/ProtonChain
 - https://t.me/protonxpr
 - https://discord.com/invite/B2QDmgf

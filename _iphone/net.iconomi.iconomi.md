@@ -13,7 +13,7 @@ version: 3.2.1
 stars: 4.6
 reviews: 83
 size: '67907584'
-website: http://www.iconomi.com
+website: https://www.iconomi.com
 repository: 
 issue: 
 icon: net.iconomi.iconomi.jpg

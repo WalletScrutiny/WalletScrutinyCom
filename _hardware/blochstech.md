@@ -15,7 +15,7 @@ dimensions:
 weight: 
 provider: BlochsTech
 providerWebsite: http://www.blochstech.com
-website: http://www.blochstech.com/
+website: https://www.blochstech.com/
 shop: http://www.blochstech.com/
 country: DK
 price: 19.95EUR

@@ -28,7 +28,7 @@ twitter: worldcoin
 social:
 - https://www.linkedin.com/company/worldcoinproject
 - https://discord.com/invite/worldcoin
-- https://www.youtube.com/@worldcoinofficial
+- https://web.archive.org/web/20230416194651/https://www.youtube.com/@WorldcoinOfficial
 redirect_from: 
 developerName: worldcoin
 features: 

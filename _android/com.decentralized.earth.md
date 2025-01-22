@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://specterproduct.cc/assets/spectrum-privacy-policy.txt
+website: https://walletscrutiny.com/brokenlink/https://specterproduct.cc/assets/spectrum-privacy-policy.txt
 repository: 
 issue: 
 icon: com.decentralized.earth.png

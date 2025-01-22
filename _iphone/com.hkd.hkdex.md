@@ -13,7 +13,7 @@ version: 3.1.1
 stars: 2.7
 reviews: 45
 size: '103418880'
-website: http://hkd.com
+website: https://hkd.com
 repository: 
 issue: 
 icon: com.hkd.hkdex.jpg
@@ -25,9 +25,9 @@ signer:
 reviewArchive: 
 twitter: HKD_exchange
 social:
-- https://www.facebook.com/hkdexchange/
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/hkdexchange/
 - https://www.youtube.com/c/hkdexchange
-- https://www.instagram.com/hkdexchange/?hl=en
+- https://walletscrutiny.com/brokenlink/https://www.instagram.com/hkdexchange/?hl=en
 features: 
 developerName: HKD.COM LIMITED
 

@@ -14,7 +14,7 @@ stars: 4.8
 ratings: 658
 reviews: 344
 size: 
-website: http://www.99pay.kr/
+website: https://www.99pay.kr/
 repository: 
 issue: 
 icon: com.qqtrade.gugupay.png

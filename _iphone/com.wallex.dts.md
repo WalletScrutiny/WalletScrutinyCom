@@ -13,7 +13,7 @@ version: '1.1'
 stars: 5
 reviews: 11
 size: '66741248'
-website: https://dtswallet.io
+website: https://walletscrutiny.com/brokenlink/https://dtswallet.io
 repository: 
 issue: 
 icon: com.wallex.dts.jpg

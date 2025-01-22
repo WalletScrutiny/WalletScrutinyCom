@@ -14,7 +14,7 @@ stars: 4.8
 ratings: 
 reviews: 169
 size: 
-website: https://bitcoinasia.travel
+website: https://web.archive.org/web/20220831161527/https://bitcoinasia.travel/
 repository: 
 issue: 
 icon: com.ringelweb.bitcoinasiatravel.png
@@ -26,8 +26,8 @@ signer:
 reviewArchive: 
 twitter: bitcoin_asia
 social:
-- https://www.facebook.com/BitcoinAsia.Token/
-- https://www.instagram.com/bitcoin_asia_btca/
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/BitcoinAsia.Token/
+- https://walletscrutiny.com/brokenlink/https://www.instagram.com/bitcoin_asia_btca/
 - https://www.linkedin.com/company/bitcoinasia/
 redirect_from: 
 developerName: The Blockjet Technologies

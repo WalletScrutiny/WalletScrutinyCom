@@ -13,7 +13,7 @@ stars: 4.8
 ratings: 
 reviews: 
 size: 
-website: http://adappterwallet.io
+website: https://adappterwallet.io
 repository: 
 issue: 
 icon: com.sinest.adappterwallet.png

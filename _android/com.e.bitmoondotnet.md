@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bitmoon.net
+website: https://bitmoon.net/
 repository: 
 issue: 
 icon: com.e.bitmoondotnet.png

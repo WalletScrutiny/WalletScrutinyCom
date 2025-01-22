@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.paybank.com
+website: https://walletscrutiny.com/brokenlink/https://paybank.com:80/
 repository: 
 issue: 
 icon: com.ffk.paybank.png

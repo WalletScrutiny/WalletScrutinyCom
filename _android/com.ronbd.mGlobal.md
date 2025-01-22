@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.mineglobed.com
+website: https://walletscrutiny.com/brokenlink/https://mineglobed.com/
 repository: 
 issue: 
 icon: com.ronbd.mGlobal.png

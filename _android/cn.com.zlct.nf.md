@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://nf35.com/#/
+website: https://walletscrutiny.com/brokenlink/https://www.nf35.com:80/
 repository: 
 issue: 
 icon: cn.com.zlct.nf.jpg

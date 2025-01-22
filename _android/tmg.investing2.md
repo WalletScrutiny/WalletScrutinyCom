@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://tmginvesting.com
+website: https://walletscrutiny.com/brokenlink/https://tmginvesting.com
 repository: 
 issue: 
 icon: tmg.investing2.jpg

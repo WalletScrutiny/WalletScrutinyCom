@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://swappy.finance
+website: https://web.archive.org/web/20220415045958/https://www.swappy.finance/
 repository: 
 issue: 
 icon: finance.swappy.swappy.png

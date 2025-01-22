@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.koinzaar.com/
+website: https://web.archive.org/web/20210128060754/https://koinzaar.com/
 repository: 
 issue: 
 icon: com.koinzaar.app.png

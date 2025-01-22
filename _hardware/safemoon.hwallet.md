@@ -27,10 +27,10 @@ signer:
 reviewArchive: 
 twitter: safemoon
 social:
-- https://www.linkedin.com/company/safemoon/
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/safemoon/
 - https://www.instagram.com/safemoonhq/
 - https://www.reddit.com/r/SafeMoon/
-- https://www.youtube.com/safemoonhq
+- https://web.archive.org/web/20231215002108/https://www.youtube.com/safemoonhq
 features: 
 
 ---

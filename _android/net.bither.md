@@ -16,7 +16,7 @@ stars: 4.1
 ratings: 335
 reviews: 31
 size: 
-website: http://Bither.net
+website: https://Bither.net
 repository: https://github.com/bither/bither-android
 issue: https://github.com/bither/bither-android/issues/69
 icon: net.bither.png

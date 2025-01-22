@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://pro.coiny.io/
+website: https://web.archive.org/web/20210614124904/https://pro.coiny.io/
 repository: 
 issue: 
 icon: io.coiny.pro.png

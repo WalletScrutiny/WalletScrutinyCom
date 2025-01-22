@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.192trade.biz/
+website: https://web.archive.org/web/20210617054809/https://www.192trade.biz/
 repository: 
 issue: 
 icon: com.mify.trading.jpg

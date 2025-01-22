@@ -14,7 +14,7 @@ stars: 4.6
 ratings: 38
 reviews: 24
 size: 43M
-website: https://oracle8.org/
+website: https://web.archive.org/web/20210620163809/https://oracle8.org/
 repository: 
 issue: 
 icon: com.oracle.wallet.png
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: Oracle_Wallet
 social:
-- https://www.facebook.com/oracle8.org
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/oracle8.org
 redirect_from: 
 developerName: 
 features: 

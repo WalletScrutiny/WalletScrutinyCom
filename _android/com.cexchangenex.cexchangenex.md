@@ -14,7 +14,7 @@ stars: 3.8
 ratings: 73
 reviews: 38
 size: 
-website: https://cexchangenex.com/
+website: https://web.archive.org/web/20210319060806/https://www.cexchangenex.com/
 repository: 
 issue: 
 icon: com.cexchangenex.cexchangenex.png

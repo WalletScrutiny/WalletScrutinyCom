@@ -27,8 +27,8 @@ signer:
 reviewArchive: 
 twitter: inusaitama
 social:
-- https://www.facebook.com/groups/1275234186328559/
-- https://www.instagram.com/saitamainuofficial/
+- https://web.archive.org/web/20210605110900/https://www.facebook.com/groups/1275234186328559/
+- https://walletscrutiny.com/brokenlink/https://www.instagram.com/saitamainuofficial/
 - https://t.me/Saitama_Inu
 features: 
 

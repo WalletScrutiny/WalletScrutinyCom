@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://goodpayglobal.io/
+website: https://web.archive.org/web/20220709184941/https://goodpayglobal.io/
 repository: 
 issue: 
 icon: io.goodpayglobal.wallet.png
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: goodpayglobal
 social:
-- https://www.facebook.com/goodpayglobal
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/goodpayglobal
 - https://www.youtube.com/channel/UCkMwcEkn0F7jvcSeHngwrZw
 - https://www.linkedin.com/company/goodpayglobal
 - https://t.me/goodpayglobal

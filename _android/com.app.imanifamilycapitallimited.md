@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.ifclbusinesscryptoapp.com
+website: https://web.archive.org/web/20210516211459/https://www.ifclbusinesscryptoapp.com/
 repository: 
 issue: 
 icon: com.app.imanifamilycapitallimited.png

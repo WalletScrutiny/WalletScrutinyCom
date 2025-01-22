@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.pipxplosion.com
+website: https://walletscrutiny.com/brokenlink/https://pipxplosion.com/
 repository: 
 issue: 
 icon: org.nativescript.cryptotrader.jpg

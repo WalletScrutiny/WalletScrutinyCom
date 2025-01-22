@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.paratica.com
+website: https://web.archive.org/web/20190217185728/https://www.paratica.com/
 repository: 
 issue: 
 icon: com.paratica.dashboard.png

@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: FTX_Official
 social:
-- https://www.facebook.com/ftx.official
+- https://web.archive.org/web/20220120114436/https://www.facebook.com/ftx.official
 features: 
 developerName: 
 

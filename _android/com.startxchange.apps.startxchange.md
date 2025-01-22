@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://startxchange.com.gh/
+website: https://web.archive.org/web/20220605145256/https://startxchange.com.gh/
 repository: 
 issue: 
 icon: com.startxchange.apps.startxchange.jpg

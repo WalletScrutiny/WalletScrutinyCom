@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://exchange.e-dome.net/trading/ltcbtc
+website: https://walletscrutiny.com/brokenlink/https://exchange.e-dome.net/trading/ltcbtc
 repository: 
 issue: 
 icon: com.menttechhubex.png

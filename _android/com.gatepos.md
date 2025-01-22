@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.mercury.cash
+website: https://web.archive.org/web/20201101010439/https://www.mercury.cash/
 repository: 
 issue: 
 icon: com.gatepos.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://monabey.com
+website: https://walletscrutiny.com/brokenlink/https://monabey.com/
 repository: 
 issue: 
 icon: com.monabey.monachanger.png

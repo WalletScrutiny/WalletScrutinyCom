@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: ByteTradeIo
 social:
-- https://www.facebook.com/bytehubDAPP
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/bytehubDAPP
 features: 
 developerName: BYTETRADE(HK) LIMITED
 

@@ -14,7 +14,7 @@ stars: 4.2
 ratings: 76
 reviews: 66
 size: 23M
-website: https://finzomarkets.com/
+website: https://web.archive.org/web/20240616034511/https://www.finzomarkets.com/
 repository: 
 issue: 
 icon: com.finzo.png

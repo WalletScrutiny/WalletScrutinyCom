@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.fanbit.com
+website: https://walletscrutiny.com/brokenlink/https://fanbit.com:80/
 repository: 
 issue: 
 icon: com.chainup.exchange.FanBit.png

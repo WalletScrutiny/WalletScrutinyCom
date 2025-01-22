@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://p2p.hovii.app/
+website: https://walletscrutiny.com/brokenlink/https://p2p.hovii.app/
 repository: 
 issue: 
 icon: app.hovii.p2p.png

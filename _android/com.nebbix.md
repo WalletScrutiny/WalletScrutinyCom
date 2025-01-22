@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://nebbix.com
+website: https://walletscrutiny.com/brokenlink/https://nebbix.com
 repository: 
 issue: 
 icon: com.nebbix.jpg

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.dpexbank.com
+website: https://walletscrutiny.com/brokenlink/https://www.dpexbank.com
 repository: 
 issue: 
 icon: cme.dpexbank.app.png

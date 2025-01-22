@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://goforsage.com/app
+website: https://walletscrutiny.com/brokenlink/https://goforsage.com/app
 repository: 
 issue: 
 icon: com.cryptocrew.png

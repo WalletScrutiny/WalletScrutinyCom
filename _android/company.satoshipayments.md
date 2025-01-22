@@ -14,7 +14,7 @@ stars: 3.4
 ratings: 
 reviews: 4
 size: 
-website: https://satoshipayments.company
+website: https://web.archive.org/web/20220205033708/https://satoshipayments.company/
 repository: 
 issue: 
 icon: company.satoshipayments.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://sugi.io
+website: https://web.archive.org/web/20240901085030/http://sugi.io/
 repository: 
 issue: 
 icon: com.sofitto.sugi.png

@@ -13,7 +13,7 @@ stars: 2.2
 ratings: 
 reviews: 
 size: 
-website: https://walletprizm.com/
+website: https://web.archive.org/web/20200109182618/https://walletprizm.com/
 repository: 
 issue: 
 icon: com.walletprizm.walletpizm.jpg

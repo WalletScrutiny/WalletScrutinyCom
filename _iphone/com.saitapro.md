@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: WeAreSaitama
 social:
-- https://www.facebook.com/groups/1275234186328559
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/groups/1275234186328559
 - https://www.youtube.com/channel/UCcgXSwHloSMeXygKx8bTGBA
 - https://t.me/SaitamaWorldwide
 - https://discord.com/invite/saitama

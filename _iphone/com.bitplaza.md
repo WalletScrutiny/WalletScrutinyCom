@@ -12,7 +12,7 @@ version: '1.0'
 stars: 4.4
 reviews: 11
 size: '32704512'
-website: https://www.bitplazashopping.com/
+website: https://walletscrutiny.com/brokenlink/https://www.bitplazashopping.com/
 repository: 
 issue: 
 icon: com.bitplaza.jpg

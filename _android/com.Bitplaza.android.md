@@ -13,7 +13,7 @@ stars: 4.2
 ratings: 123
 reviews: 16
 size: 
-website: https://www.BitplazaShopping.com
+website: https://web.archive.org/web/20220310225420/https://www.bitplazashopping.com/
 repository: 
 issue: 
 icon: com.Bitplaza.android.png

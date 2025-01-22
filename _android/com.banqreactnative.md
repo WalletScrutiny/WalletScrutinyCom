@@ -14,7 +14,7 @@ stars: 2.7
 ratings: 
 reviews: 6
 size: 
-website: https://banq.com
+website: https://web.archive.org/web/20060813014307/http://banq.com:80/
 repository: 
 issue: 
 icon: com.banqreactnative.png

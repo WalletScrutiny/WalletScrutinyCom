@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: BitrueOfficial
 social:
-- https://www.facebook.com/BitrueOfficial
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/BitrueOfficial
 features: 
 developerName: BITRUE SINGAPORE PTE. LTD.
 

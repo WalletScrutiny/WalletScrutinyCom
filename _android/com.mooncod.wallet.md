@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://mooncod.com
+website: https://web.archive.org/web/20230927184123/http://www.mooncod.com/
 repository: 
 issue: 
 icon: com.mooncod.wallet.png

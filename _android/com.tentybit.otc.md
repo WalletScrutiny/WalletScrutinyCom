@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.tentybit.com/
+website: https://walletscrutiny.com/brokenlink/https://www.tentybit.com/
 repository: 
 issue: 
 icon: com.tentybit.otc.png

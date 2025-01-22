@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.tcws.io/
+website: https://web.archive.org/web/20210625061434/https://tcws.io/
 repository: 
 issue: 
 icon: com.tcws.wallet.png

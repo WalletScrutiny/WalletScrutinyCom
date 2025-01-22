@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 8.1M
-website: https://liquidity.network
+website: https://walletscrutiny.com/brokenlink/https://liquidity.network/
 repository: 
 issue: 
 icon: com.liquiditynetwork.wallet.png

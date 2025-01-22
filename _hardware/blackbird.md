@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: AmmbrTech, Inc.
 providerWebsite: 
-website: https://blackbirdwallet.io/
+website: https://web.archive.org/web/20190226095001/https://blackbirdwallet.io/
 shop: 
 country: LU
 price: 

@@ -13,7 +13,7 @@ version: 1.0.6
 stars: 1
 reviews: 1
 size: '24220672'
-website: https://coindeal.com/
+website: https://walletscrutiny.com/brokenlink/https://coindeal.com/
 repository: 
 issue: 
 icon: pl.icoindeal.CoinDeal.jpg
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: coindealcom
 social:
 - https://www.linkedin.com/company/coindealcom
-- https://www.facebook.com/coindealcom
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/coindealcom
 features: 
 developerName: CoinDeal Limited
 

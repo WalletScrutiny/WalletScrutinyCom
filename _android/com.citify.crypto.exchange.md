@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://exchange.citifymarketplace.com/
+website: https://web.archive.org/web/20200809054905/https://exchange.citifymarketplace.com/
 repository: 
 issue: 
 icon: com.citify.crypto.exchange.png

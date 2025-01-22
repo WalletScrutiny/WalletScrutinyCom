@@ -26,7 +26,7 @@ reviewArchive:
 twitter: thespacelens
 social:
 - https://t.me/spacelens
-- https://www.facebook.com/SpaceLens
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/SpaceLens
 features: 
 developerName: Madrid Ventures
 

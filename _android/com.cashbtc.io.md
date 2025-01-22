@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://cashbtc.io/
+website: https://walletscrutiny.com/brokenlink/https://cashbtc.io/
 repository: 
 issue: 
 icon: com.cashbtc.io.png

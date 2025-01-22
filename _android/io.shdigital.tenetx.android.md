@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://tenetx.io
+website: https://walletscrutiny.com/brokenlink/https://tenetx.io
 repository: 
 issue: 
 icon: io.shdigital.tenetx.android.png

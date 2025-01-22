@@ -27,7 +27,7 @@ reviewArchive:
 twitter: BudaPuntoCom
 social:
 - https://www.linkedin.com/company/budapuntocom
-- https://www.facebook.com/BudaPuntoCom
+- https://web.archive.org/web/20210812000039/https://www.facebook.com/BudaPuntoCom
 redirect_from:
 - /com.buda.crypto/
 - /posts/com.buda.crypto/

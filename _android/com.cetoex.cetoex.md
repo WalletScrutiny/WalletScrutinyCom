@@ -27,7 +27,7 @@ reviewArchive:
 twitter: Cetoex
 social:
 - https://t.me/CetoEXExchange
-- https://www.instagram.com/cetoex
+- https://walletscrutiny.com/brokenlink/https://www.instagram.com/cetoex
 redirect_from: 
 developerName: CetoEx Labs
 features: 

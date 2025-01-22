@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://app.tradepal.finance
+website: https://walletscrutiny.com/brokenlink/https://app.tradepal.finance
 repository: 
 issue: 
 icon: finance.tradepal.app.png

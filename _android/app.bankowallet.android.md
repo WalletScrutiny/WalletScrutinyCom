@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.bankowallet.com
+website: https://www.bankowallet.com
 repository: 
 issue: 
 icon: app.bankowallet.android.png

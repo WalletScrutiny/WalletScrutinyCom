@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://first-union.com
+website: https://first-union.com:80/
 repository: 
 issue: 
 icon: com.firstunion.uncwallet.png

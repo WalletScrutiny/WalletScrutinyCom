@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://upay.company
+website: https://walletscrutiny.com/brokenlink/https://upay.company
 repository: 
 issue: 
 icon: com.upaybusiness.png

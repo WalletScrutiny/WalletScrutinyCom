@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://dtsasset.io/
+website: https://walletscrutiny.com/brokenlink/https://dtsasset.io/
 repository: 
 issue: 
 icon: com.dts.io.png

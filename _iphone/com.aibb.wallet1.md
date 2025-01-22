@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: BLOCKBANKapp
 social:
-- https://www.facebook.com/blockbank
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/blockbank
 features: 
 developerName: 
 

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://cryptolocator.com
+website: https://web.archive.org/web/20171106130018/https://cryptolocator.com/
 repository: 
 issue: 
 icon: com.cryptolocator_1_1.png

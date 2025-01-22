@@ -13,7 +13,7 @@ stars: 4.9
 ratings: 
 reviews: 
 size: 
-website: https://hitpaywallet.com/
+website: https://walletscrutiny.com/brokenlink/https://hitpaywallet.com:80/
 repository: 
 issue: 
 icon: www.hitpaywallet.com.png

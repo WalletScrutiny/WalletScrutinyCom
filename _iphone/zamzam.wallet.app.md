@@ -13,7 +13,7 @@ version: 3.3.8
 stars: 4.2
 reviews: 73
 size: '50220032'
-website: http://zam.io
+website: https://zam.io
 repository: 
 issue: 
 icon: zamzam.wallet.app.jpg

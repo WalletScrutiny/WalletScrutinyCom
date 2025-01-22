@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://paykoricrypto.com
+website: https://web.archive.org/web/20220401032419/https://paykoricrypto.com/
 repository: 
 issue: 
 icon: com.paykoricrypto.app.png

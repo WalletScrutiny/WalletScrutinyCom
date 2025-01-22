@@ -27,7 +27,7 @@ reviewArchive:
 twitter: Rekeningkucom
 social:
 - https://www.linkedin.com/company/rekeningku-com
-- https://www.facebook.com/Rekeningkucom
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/Rekeningkucom
 redirect_from: 
 developerName: PT Rekeningku Dotcom Indonesia
 features: 

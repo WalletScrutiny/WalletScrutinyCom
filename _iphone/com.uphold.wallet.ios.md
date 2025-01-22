@@ -25,8 +25,8 @@ signer:
 reviewArchive: 
 twitter: UpholdInc
 social:
-- https://www.linkedin.com/company/upholdinc
-- https://www.facebook.com/UpholdInc
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/upholdinc
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/UpholdInc
 features: 
 developerName: Uphold
 

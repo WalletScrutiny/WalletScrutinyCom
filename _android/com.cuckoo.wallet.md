@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.tyco.link/#/
+website: https://www.tyco.link/#/
 repository: 
 issue: 
 icon: com.cuckoo.wallet.png

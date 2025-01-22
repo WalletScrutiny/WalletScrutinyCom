@@ -13,7 +13,7 @@ version: '2.4'
 stars: 5
 reviews: 2
 size: '52870144'
-website: https://www.rapixchange.com/
+website: https://web.archive.org/web/20220922075906/https://www.rapixchange.com/
 repository: 
 issue: 
 icon: com.rapixchangeapp.jpg

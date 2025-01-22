@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.rightbtc.com
+website: https://walletscrutiny.com/brokenlink/https://rightbtc.com/
 repository: 
 issue: 
 icon: rightbtc.app.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://24litecoin.co.ua
+website: https://web.archive.org/web/20220401034355/https://24litecoin.co.ua/
 repository: 
 issue: 
 icon: com.greepers.litecoin.jpg

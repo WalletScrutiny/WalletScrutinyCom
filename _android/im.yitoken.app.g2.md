@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://yitoken.im
+website: https://web.archive.org/web/20210713074531/https://yitoken.im/
 repository: 
 issue: 
 icon: im.yitoken.app.g2.png

@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: bitwalletinc
 social:
-- https://www.facebook.com/BitWalletInc
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/BitWalletInc
 features: 
 developerName: BitWallet, Inc.
 

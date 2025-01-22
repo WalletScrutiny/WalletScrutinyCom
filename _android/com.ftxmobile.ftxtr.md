@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ftxtr.com
+website: https://web.archive.org/web/20220628130821/https://ftxtr.com/
 repository: 
 issue: 
 icon: com.ftxmobile.ftxtr.png

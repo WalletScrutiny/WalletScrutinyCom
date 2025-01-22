@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: eCoinConcepts, LLC.
 providerWebsite: 
-website: https://web.archive.org/web/20150213010806/https://bitstash.com/
+website: https://walletscrutiny.com/brokenlink/https://bitstash.com/
 shop: 
 country: US
 price: 159USD

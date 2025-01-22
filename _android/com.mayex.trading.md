@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 
 reviews: 9
 size: 
-website: https://www.mayex.com
+website: https://walletscrutiny.com/brokenlink/https://www.mayex.com/
 repository: 
 issue: 
 icon: com.mayex.trading.jpg

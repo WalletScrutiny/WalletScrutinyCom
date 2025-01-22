@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://newchange.io
+website: https://walletscrutiny.com/brokenlink/https://newchange.io/
 repository: 
 issue: 
 icon: web2application.a651021638715596.com.myapplication.png

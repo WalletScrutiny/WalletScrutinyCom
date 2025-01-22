@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://app.forextoolsapp.com
+website: https://app.forextoolsapp.com:80/
 repository: 
 issue: 
 icon: com.forextech.forextools.png

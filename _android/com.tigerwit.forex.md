@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.tigerwit.com
+website: https://walletscrutiny.com/brokenlink/https://www.tigerwit.com:80/
 repository: 
 issue: 
 icon: com.tigerwit.forex.png

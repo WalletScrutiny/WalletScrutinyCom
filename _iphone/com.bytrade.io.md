@@ -13,7 +13,7 @@ version: 2.5.4
 stars: 2.8
 reviews: 24
 size: '63094784'
-website: https://www.bytrade.io
+website: https://web.archive.org/web/20221101074112/https://www.bytrade.io/
 repository: 
 issue: 
 icon: com.bytrade.io.jpg
@@ -27,7 +27,7 @@ twitter: bytradeio
 social:
 - https://www.facebook.com/bytrade.io
 - https://t.me/ByTradeOfficialGroup
-- https://www.youtube.com/channel/UCs1nhh5j-zES3wf3wQWNumQ
+- https://walletscrutiny.com/brokenlink/https://www.youtube.com/channel/UCs1nhh5j-zES3wf3wQWNumQ
 - https://www.tiktok.com/@bytrade.io
 - https://www.linkedin.com/company/bytrade
 - https://discord.com/invite/8wMZwMxDwR

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://quintex.io
+website: https://walletscrutiny.com/brokenlink/https://quintex.io/
 repository: 
 issue: 
 icon: com.app.quintex.png

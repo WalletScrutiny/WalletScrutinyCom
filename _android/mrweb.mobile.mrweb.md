@@ -14,7 +14,7 @@ stars: 4.7
 ratings: 
 reviews: 12
 size: 
-website: https://mrweb.app
+website: https://web.archive.org/web/20220210002015/http://mrweb.app/
 repository: 
 issue: 
 icon: mrweb.mobile.mrweb.png

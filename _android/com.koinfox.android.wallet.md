@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.koinfox.com
+website: https://walletscrutiny.com/brokenlink/https://www.koinfox.com/
 repository: 
 issue: 
 icon: com.koinfox.android.wallet.png

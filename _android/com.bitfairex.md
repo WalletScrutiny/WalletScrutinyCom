@@ -13,7 +13,7 @@ stars: 4.7
 ratings: 
 reviews: 
 size: 
-website: https://bitfairex.com
+website: https://web.archive.org/web/20201101022332/https://bitfairex.com/
 repository: 
 issue: 
 icon: com.bitfairex.png

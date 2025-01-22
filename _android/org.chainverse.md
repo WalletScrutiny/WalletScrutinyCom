@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://chainverse.org/
+website: https://web.archive.org/web/20210826131653/https://chainverse.org/
 repository: 
 issue: 
 icon: org.chainverse.png

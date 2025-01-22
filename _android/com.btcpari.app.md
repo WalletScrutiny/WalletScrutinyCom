@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://btcpari.com
+website: https://web.archive.org/web/20211217132324/https://btcpari.com/
 repository: 
 issue: 
 icon: com.btcpari.app.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://useongcoin.com
+website: https://walletscrutiny.com/brokenlink/https://useongcoin.com
 repository: 
 issue: 
 icon: com.usc.uscwallet.png

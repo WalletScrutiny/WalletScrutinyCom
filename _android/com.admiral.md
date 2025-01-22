@@ -14,7 +14,7 @@ stars: 2.7
 ratings: 
 reviews: 121
 size: 
-website: https://admiraloption.com/
+website: https://web.archive.org/web/20210220023100/http://admiraloption.com/
 repository: 
 issue: 
 icon: com.admiral.png

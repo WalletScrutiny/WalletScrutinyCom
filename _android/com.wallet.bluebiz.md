@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bluebiz.opensecu.com
+website: https://walletscrutiny.com/brokenlink/https://bluebiz.opensecu.com
 repository: 
 issue: 
 icon: com.wallet.bluebiz.png

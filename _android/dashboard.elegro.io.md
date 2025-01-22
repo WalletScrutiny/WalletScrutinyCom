@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://business.elegro.eu/acceptance
+website: https://web.archive.org/web/20201028050223/https://business.elegro.eu/acceptance
 repository: 
 issue: 
 icon: dashboard.elegro.io.png

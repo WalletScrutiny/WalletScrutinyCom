@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.bxb.io/
+website: https://web.archive.org/web/20211028075449/https://www.bxb.io/
 repository: 
 issue: 
 icon: com.bxb.io.png

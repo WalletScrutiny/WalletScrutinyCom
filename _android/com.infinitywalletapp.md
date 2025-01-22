@@ -13,7 +13,7 @@ stars: 4.8
 ratings: 
 reviews: 
 size: 
-website: https://ifwallet.com.br/
+website: https://web.archive.org/web/20220818041143/https://ifwallet.com.br/
 repository: 
 issue: 
 icon: com.infinitywalletapp.png

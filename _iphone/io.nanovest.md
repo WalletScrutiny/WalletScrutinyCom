@@ -27,7 +27,7 @@ twitter: nanovest_io
 social:
 - https://www.facebook.com/nanovest
 - https://www.tiktok.com/@nanovest.io
-- https://www.youtube.com/channel/UC5Y5fD2FApTWMc0c2mlxzIg
+- https://web.archive.org/web/20220502190945/https://www.youtube.com/channel/UC5Y5fD2FApTWMc0c2mlxzIg
 - https://www.instagram.com/nanovest.io
 - https://t.me/nanovest
 features: 

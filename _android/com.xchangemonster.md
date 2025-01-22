@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://prod.xchangemonster.com/
+website: https://web.archive.org/web/20220503181017/https://prod.xchangemonster.com/
 repository: 
 issue: 
 icon: com.xchangemonster.png

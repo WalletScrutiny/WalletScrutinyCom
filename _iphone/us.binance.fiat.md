@@ -13,7 +13,7 @@ version: '3.19'
 stars: 4.2
 reviews: 108951
 size: '354675712'
-website: https://www.binance.us/en/home
+website: https://web.archive.org/web/20210129002332/https://www.binance.us/en/home
 repository: 
 issue: 
 icon: us.binance.fiat.jpg

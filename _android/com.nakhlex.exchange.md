@@ -13,7 +13,7 @@ stars: 5
 ratings: 
 reviews: 
 size: 
-website: https://nakhlex.com
+website: https://walletscrutiny.com/brokenlink/https://nakhlex.com
 repository: 
 issue: 
 icon: com.nakhlex.exchange.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.gexpay.com
+website: https://www.gexpay.com
 repository: 
 issue: 
 icon: io.cryptobankwallet.jpg

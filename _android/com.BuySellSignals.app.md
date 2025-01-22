@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://buysellsignals.app/landing/
+website: https://walletscrutiny.com/brokenlink/https://buysellsignals.app/landing/
 repository: 
 issue: 
 icon: com.BuySellSignals.app.png

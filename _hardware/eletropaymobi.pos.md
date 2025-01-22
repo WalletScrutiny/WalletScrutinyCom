@@ -15,7 +15,7 @@ dimensions:
 weight: 
 provider: EletroPay
 providerWebsite: 
-website: https://eletropay.com/
+website: https://walletscrutiny.com/brokenlink/https://eletropay.com/
 shop: https://store-eletropay.ecwid.com/
 country: CN
 price: 220USD

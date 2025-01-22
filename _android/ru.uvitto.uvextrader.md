@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://exmo.uvitto.ru
+website: https://walletscrutiny.com/brokenlink/https://exmo.uvitto.ru
 repository: 
 issue: 
 icon: ru.uvitto.uvextrader.jpg

@@ -13,7 +13,7 @@ version: '14.0'
 stars: 5
 reviews: 1
 size: '23417856'
-website: https://unitedexchange.io
+website: https://walletscrutiny.com/brokenlink/https://unitedexchange.io
 repository: 
 issue: 
 icon: com.vsmart.UnitedExchange.jpg
@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: exchange_united
 social:
-- https://www.facebook.com/UnitedExchange.io
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/UnitedExchange.io
 features: 
 developerName: Avner Brokers
 

@@ -17,7 +17,7 @@ dimensions:
 weight: 18
 provider: BitHD
 providerWebsite: https://bithd.com
-website: https://bithd.com/BITHD-Razor.html
+website: https://web.archive.org/web/20210624083951/https://bithd.com/BITHD-Razor.html
 shop: https://bithd.com/BITHD-Razor.html
 country: CN
 price: 

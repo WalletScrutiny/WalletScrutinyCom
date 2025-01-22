@@ -13,7 +13,7 @@ stars: 4.6
 ratings: 
 reviews: 
 size: 
-website: https://www.gorillabit.io
+website: https://walletscrutiny.com/brokenlink/https://www.gorillabit.io
 repository: 
 issue: 
 icon: kr.co.rocketchart.gorillabit.v1.png

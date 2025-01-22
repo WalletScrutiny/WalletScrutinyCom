@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.waterhole.io
+website: https://walletscrutiny.com/brokenlink/https://www.waterhole.io
 repository: 
 issue: 
 icon: dev.waterhole.png

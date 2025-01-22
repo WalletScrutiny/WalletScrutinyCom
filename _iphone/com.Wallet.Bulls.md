@@ -13,7 +13,7 @@ version: '1.24'
 stars: 5
 reviews: 16
 size: '62233600'
-website: https://bullcoin.finance/
+website: https://web.archive.org/web/20210510173840/http://bullcoin.finance/
 repository: 
 issue: 
 icon: com.Wallet.Bulls.jpg

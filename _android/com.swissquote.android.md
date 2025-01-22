@@ -14,7 +14,7 @@ stars: 3.2
 ratings: 
 reviews: 40
 size: 
-website: https://www.swissquote.com/
+website: https://www.swissquote.com:80/
 repository: 
 issue: 
 icon: com.swissquote.android.png

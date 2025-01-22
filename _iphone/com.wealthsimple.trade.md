@@ -13,7 +13,7 @@ version: 2.163.0
 stars: 4.6
 reviews: 125322
 size: '172462080'
-website: https://www.wealthsimple.com/en-ca/
+website: https://walletscrutiny.com/brokenlink/https://www.wealthsimple.com/en-ca/
 repository: 
 issue: 
 icon: com.wealthsimple.trade.jpg
@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: Wealthsimple
 social:
-- https://www.facebook.com/wealthsimple
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/wealthsimple
 features: 
 developerName: Wealthsimple
 

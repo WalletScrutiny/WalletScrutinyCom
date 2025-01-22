@@ -28,7 +28,7 @@ twitter: AQXofficial
 social:
 - https://www.linkedin.com/company/aqx-official
 - https://www.instagram.com/aqx_official
-- https://www.facebook.com/AQXofcl
+- https://web.archive.org/web/20220714150345/https://www.facebook.com/AQXofcl
 - https://www.youtube.com/channel/UC_3J-wzFgDu2P8NF_CrjAYg/featured
 - https://t.me/aqxannouncement
 redirect_from: 

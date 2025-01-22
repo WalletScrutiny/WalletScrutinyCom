@@ -13,7 +13,7 @@ version: 3.15.3
 stars: 5
 reviews: 6
 size: '74752000'
-website: http://cryptology.com
+website: https://cryptology.com
 repository: 
 issue: 
 icon: com.cryptology.ios.jpg

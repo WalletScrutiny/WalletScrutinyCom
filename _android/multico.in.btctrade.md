@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://multipi.net/
+website: https://walletscrutiny.com/brokenlink/https://multipi.net:80/
 repository: 
 issue: 
 icon: multico.in.btctrade.png

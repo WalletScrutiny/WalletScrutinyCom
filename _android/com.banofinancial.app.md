@@ -14,7 +14,7 @@ stars: 2.5
 ratings: 
 reviews: 2
 size: 
-website: https://bano.app/index.html
+website: https://walletscrutiny.com/brokenlink/https://bano.app/index.html
 repository: 
 issue: 
 icon: com.banofinancial.app.png

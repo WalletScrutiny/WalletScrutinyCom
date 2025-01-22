@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: Maverick SGPS
 providerWebsite: 
-website: https://maverick.pt/wallet/
+website: https://walletscrutiny.com/brokenlink/https://maverick.pt/wallet/
 shop: 
 country: PT
 price: 

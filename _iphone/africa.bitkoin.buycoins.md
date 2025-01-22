@@ -13,7 +13,7 @@ version: 5.6.0
 stars: 3.7
 reviews: 46
 size: 42137600
-website: https://buycoins.africa
+website: https://walletscrutiny.com/brokenlink/https://buycoins.africa
 repository: 
 issue: 
 icon: africa.bitkoin.buycoins.jpg

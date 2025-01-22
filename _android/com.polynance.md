@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.polynance.com
+website: https://walletscrutiny.com/brokenlink/https://polynance.com/
 repository: 
 issue: 
 icon: com.polynance.jpg

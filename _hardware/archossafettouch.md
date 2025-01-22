@@ -13,7 +13,7 @@ dimensions:
 weight: 
 provider: Archos
 providerWebsite: https://www.archos.com/
-website: https://www.archos.com/nz/products/crypto/archos_safettouch/index.html
+website: https://walletscrutiny.com/brokenlink/https://www.archos.com/nz/products/crypto/archos_safettouch/index.html
 shop: >-
   https://shop.archos.com/gb/hardware-wallets/719-archos-safe-t-touch-0690590037359.html
 country: FR

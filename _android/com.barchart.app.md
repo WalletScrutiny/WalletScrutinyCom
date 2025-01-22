@@ -14,7 +14,7 @@ stars: 4.6
 ratings: 9788
 reviews: 2270
 size: 
-website: http://www.barchart.com/app
+website: https://www.barchart.com/app
 repository: 
 issue: 
 icon: com.barchart.app.png

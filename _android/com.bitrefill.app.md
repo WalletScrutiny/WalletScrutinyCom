@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 twitter: bitrefill
 social:
-- https://www.facebook.com/bitrefill
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/bitrefill
 - https://www.reddit.com/r/Bitrefill
 redirect_from:
 - /com.bitrefill.app/

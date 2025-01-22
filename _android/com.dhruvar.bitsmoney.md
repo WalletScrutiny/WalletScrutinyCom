@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://bitsmoney.co/
+website: https://walletscrutiny.com/brokenlink/https://bitsmoney.co/
 repository: 
 issue: 
 icon: com.dhruvar.bitsmoney.png

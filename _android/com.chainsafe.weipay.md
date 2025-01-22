@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://chainsafe.io
+website: https://chainsafe.io
 repository: https://github.com/ChainSafe/WeiPay
 issue: 
 icon: com.chainsafe.weipay.png

@@ -26,7 +26,7 @@ reviewArchive:
 twitter: LunoGlobal
 social:
 - https://www.linkedin.com/company/lunoglobal
-- https://www.facebook.com/luno
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/luno
 features: 
 developerName: Luno Pte Ltd
 

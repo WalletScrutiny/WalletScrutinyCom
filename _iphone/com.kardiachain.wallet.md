@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: KardiaChain
 social:
-- https://www.facebook.com/KardiaChainFoundation
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/KardiaChainFoundation
 features: 
 developerName: Kardiachain
 

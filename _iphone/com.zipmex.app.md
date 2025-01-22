@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: ZipmexTH
 social:
-- https://www.facebook.com/ZipmexThailand
+- https://web.archive.org/web/20220514114342/https://www.facebook.com/ZipmexThailand/
 features: 
 developerName: Zipmex
 

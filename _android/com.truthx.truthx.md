@@ -14,7 +14,7 @@ stars: 3.4
 ratings: 346
 reviews: 28
 size: 
-website: https://gifttokenweb.herokuapp.com/
+website: https://walletscrutiny.com/brokenlink/https://gifttokenweb.herokuapp.com/
 repository: 
 issue: 
 icon: com.truthx.truthx.png

@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: SimpleFXcom
 social:
-- https://www.facebook.com/simplefxltd
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/simplefxltd
 redirect_from: 
 developerName: SimpleFX Ltd.
 features: 

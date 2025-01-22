@@ -13,7 +13,7 @@ version: 4.6.54384
 stars: 5
 reviews: 2
 size: '234923008'
-website: https://fondex.com/en/
+website: https://walletscrutiny.com/brokenlink/https://fondex.com/en/
 repository: 
 issue: 
 icon: com.fondexmobile.ct.jpg
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social:
 - https://www.linkedin.com/company/fondex-trading
-- https://www.facebook.com/fondexglobal
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/fondexglobal
 features: 
 developerName: TopFX
 

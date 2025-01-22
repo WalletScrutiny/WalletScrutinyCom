@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://aelince.com
+website: https://web.archive.org/web/20220915162553/https://aelince.com/
 repository: 
 issue: 
 icon: com.aelince.app.png

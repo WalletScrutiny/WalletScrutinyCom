@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.thorbot.io/
+website: https://web.archive.org/web/20220209072436/https://www.thorbot.io/
 repository: 
 issue: 
 icon: com.thorapp.flutterthor.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://newealth.app
+website: https://web.archive.org/web/20220625171321/https://www.newealth.app/
 repository: 
 issue: 
 icon: app.newealth.png

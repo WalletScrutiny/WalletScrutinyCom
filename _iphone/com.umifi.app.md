@@ -13,7 +13,7 @@ version: 1.0.6
 stars: 5
 reviews: 1
 size: '259976192'
-website: https://www.umifi.com/en-ww/
+website: https://walletscrutiny.com/brokenlink/https://www.umifi.com/en-ww/
 repository: 
 issue: 
 icon: com.umifi.app.jpg

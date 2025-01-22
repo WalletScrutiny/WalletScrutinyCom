@@ -14,7 +14,7 @@ stars: 3.8
 ratings: 
 reviews: 47
 size: 
-website: https://getbabb.com/
+website: https://web.archive.org/web/20230705022332/https://getbabb.com/
 repository: 
 issue: 
 icon: com.babb.app.png

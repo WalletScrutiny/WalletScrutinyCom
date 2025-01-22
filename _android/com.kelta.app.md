@@ -14,7 +14,7 @@ stars: 2.9
 ratings: 1251
 reviews: 1102
 size: 
-website: https://kelta.com/
+website: https://walletscrutiny.com/brokenlink/https://kelta.com/
 repository: 
 issue: 
 icon: com.kelta.app.jpg

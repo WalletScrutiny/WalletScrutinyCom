@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://enkryptwallet.us
+website: https://walletscrutiny.com/brokenlink/https://enkryptwallet.us
 repository: 
 issue: 
 icon: com.enkrypt.blockchain.png

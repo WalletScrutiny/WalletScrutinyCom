@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.neblidex.xyz
+website: https://walletscrutiny.com/brokenlink/https://www.neblidex.xyz/
 repository: 
 issue: 
 icon: xyz.neblidex.android.png

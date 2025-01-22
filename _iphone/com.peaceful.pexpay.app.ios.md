@@ -13,7 +13,7 @@ version: 1.19.0
 stars: 3.6
 reviews: 16
 size: '347850752'
-website: https://www.pexpay.com
+website: https://web.archive.org/web/20121009032817/https://www.pexpay.com/
 repository: 
 issue: 
 icon: com.peaceful.pexpay.app.ios.jpg

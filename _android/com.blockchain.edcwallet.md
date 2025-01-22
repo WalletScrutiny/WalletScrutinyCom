@@ -14,7 +14,7 @@ stars: 3.6
 ratings: 
 reviews: 2
 size: 
-website: https://blockchain.mn
+website: https://web.archive.org/web/20210517222449/https://blockchain.mn/
 repository: 
 issue: 
 icon: com.blockchain.edcwallet.png
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: EDCBlockchain
 social:
 - https://www.linkedin.com/company/edcblockchain
-- https://www.facebook.com/EDCBlockchain
+- https://web.archive.org/web/20200604010754/https://www.facebook.com/EDCBlockchain/
 redirect_from: 
 developerName: 
 features: 

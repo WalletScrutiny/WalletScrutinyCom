@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.obtccoin.com
+website: https://web.archive.org/web/20220808092840/https://obtccoin.com/
 repository: 
 issue: 
 icon: com.obtccoin.int.jpg

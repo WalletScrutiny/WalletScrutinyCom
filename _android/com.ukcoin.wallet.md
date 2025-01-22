@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ukcoin.money/
+website: https://walletscrutiny.com/brokenlink/https://ukcoin.money/
 repository: 
 issue: 
 icon: com.ukcoin.wallet.png

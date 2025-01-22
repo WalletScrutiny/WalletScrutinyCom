@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://iminerator.com
+website: https://web.archive.org/web/20210621214545/https://iminerator.com/
 repository: 
 issue: 
 icon: com.iminerator.app.png

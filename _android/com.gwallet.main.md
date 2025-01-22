@@ -13,7 +13,7 @@ stars: 4.9
 ratings: 
 reviews: 
 size: 
-website: https://www.g-wallet.io
+website: https://web.archive.org/web/20211020084533/https://www.g-wallet.io/
 repository: 
 issue: 
 icon: com.gwallet.main.png

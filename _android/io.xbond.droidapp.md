@@ -13,7 +13,7 @@ stars: 5
 ratings: 
 reviews: 
 size: 
-website: https://xbond.io
+website: https://walletscrutiny.com/brokenlink/https://xbond.io
 repository: 
 issue: 
 icon: io.xbond.droidapp.png

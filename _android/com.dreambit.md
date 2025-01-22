@@ -14,7 +14,7 @@ stars: 3.8
 ratings: 21
 reviews: 9
 size: 
-website: http://www.dreambit.com
+website: https://www.dreambit.com
 repository: 
 issue: 
 icon: com.dreambit.png

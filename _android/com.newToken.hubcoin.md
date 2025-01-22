@@ -13,7 +13,7 @@ stars: 5
 ratings: 
 reviews: 
 size: 
-website: https://www.metahubcoin.com/
+website: https://walletscrutiny.com/brokenlink/https://www.metahubcoin.com/
 repository: 
 issue: 
 icon: com.newToken.hubcoin.png

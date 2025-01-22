@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.trubi.io
+website: https://web.archive.org/web/20240901163110/https://www.trubi.io/
 repository: 
 issue: 
 icon: io.trubi.android.png

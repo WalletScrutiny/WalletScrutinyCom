@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: getbusha
 social:
-- https://www.facebook.com/getbusha
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/getbusha
 features: 
 developerName: Busha Digital
 

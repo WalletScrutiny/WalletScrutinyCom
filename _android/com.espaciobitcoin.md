@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.espacioculturalbitcoin.com/
+website: https://web.archive.org/web/20220720204425/https://www.espacioculturalbitcoin.com/
 repository: 
 issue: 
 icon: com.espaciobitcoin.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.zakzak.me
+website: https://walletscrutiny.com/brokenlink/https://www.zakzak.me
 repository: 
 issue: 
 icon: me.zakzak.zakzakwallet.png

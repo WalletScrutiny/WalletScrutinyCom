@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://btex.com.au/en
+website: https://walletscrutiny.com/brokenlink/https://btex.com.au/en
 repository: 
 issue: 
 icon: au.com.btex.app.png

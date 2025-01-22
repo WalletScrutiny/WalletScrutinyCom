@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://mobilinktoken.com/
+website: https://web.archive.org/web/20240809091351/https://mobilinktoken.com/
 repository: 
 issue: 
 icon: com.mobilink.token.png

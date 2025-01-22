@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://cryptomindex.com
+website: https://walletscrutiny.com/brokenlink/https://cryptomindex.com/
 repository: 
 issue: 
 icon: com.cryptomindex.png

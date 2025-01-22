@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://naryex.com
+website: https://walletscrutiny.com/brokenlink/https://naryex.com
 repository: 
 issue: 
 icon: com.naryex.png

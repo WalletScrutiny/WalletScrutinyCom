@@ -27,7 +27,7 @@ reviewArchive:
 twitter: genesisblockhq
 social:
 - https://www.linkedin.com/company/genesisblockhq
-- https://www.facebook.com/genesisblockhq
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/genesisblockhq
 - https://www.reddit.com/r/genesisblockhq
 redirect_from: 
 developerName: 

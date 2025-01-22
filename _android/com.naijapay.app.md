@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://naijapay.io/
+website: https://web.archive.org/web/20200807152558/https://naijapay.io/
 repository: 
 issue: 
 icon: com.naijapay.app.png

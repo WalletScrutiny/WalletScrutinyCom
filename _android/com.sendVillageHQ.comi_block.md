@@ -13,7 +13,7 @@ stars: 4.2
 ratings: 
 reviews: 
 size: 
-website: https://comiblock.com/
+website: https://walletscrutiny.com/brokenlink/https://comiblock.com/
 repository: 
 issue: 
 icon: com.sendVillageHQ.comi_block.png

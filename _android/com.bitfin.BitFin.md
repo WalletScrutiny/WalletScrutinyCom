@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bitfin.io
+website: https://walletscrutiny.com/brokenlink/https://bitfin.io/
 repository: 
 issue: 
 icon: com.bitfin.BitFin.png

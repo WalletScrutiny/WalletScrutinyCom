@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bitswapltd.com/
+website: https://walletscrutiny.com/brokenlink/https://bitswapltd.com/
 repository: 
 issue: 
 icon: com.bitswapltd.android.png

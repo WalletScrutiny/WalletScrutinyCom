@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://binexhosting.com
+website: https://walletscrutiny.com/brokenlink/https://binexhosting.com
 repository: 
 issue: 
 icon: com.cryptex.www.binexhosting.png

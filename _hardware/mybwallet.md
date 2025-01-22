@@ -16,7 +16,7 @@ dimensions:
 weight: 
 provider: Foshan Bidingxing Tech. Co.,Ltd.
 providerWebsite: https://bidingxing.com/bwallet
-website: http://mybwallet.com/
+website: https://walletscrutiny.com/brokenlink/https://mybwallet.com/
 shop: 
 country: CN
 price: 168CNY

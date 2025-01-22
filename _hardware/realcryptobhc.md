@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: Real Crypto
 providerWebsite: 
-website: https://realcrypto.org/hologram-how-tos/bitcoin-how-to/
+website: https://walletscrutiny.com/brokenlink/https://realcrypto.org/hologram-how-tos/bitcoin-how-to/
 shop: 
 country: 
 price: 

@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: bitcoincom
 social:
-- https://www.facebook.com/buy.bitcoin.news
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/buy.bitcoin.news
 - https://www.reddit.com/r/btc
 redirect_from:
 - /com.bitcoin.merchant.app/

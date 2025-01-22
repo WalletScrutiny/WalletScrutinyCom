@@ -13,7 +13,7 @@ version: 3.36.0
 stars: 4.7
 reviews: 2210
 size: '103535616'
-website: https://whitebit.com
+website: https://walletscrutiny.com/brokenlink/https://whitebit.com
 repository: 
 issue: 
 icon: com.whitebit.whitebitapp.jpg
@@ -25,8 +25,8 @@ signer:
 reviewArchive: 
 twitter: whitebit
 social:
-- https://www.linkedin.com/company/whitebit-cryptocurrency-exchange
-- https://www.facebook.com/whitebit
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/whitebit-cryptocurrency-exchange
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/whitebit
 - https://www.reddit.com/r/WhiteBitExchange
 features: 
 developerName: UAB Clear White Technologies

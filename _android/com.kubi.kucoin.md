@@ -27,7 +27,7 @@ reviewArchive:
 twitter: KuCoinCom
 social:
 - https://www.linkedin.com/company/kucoin
-- https://www.facebook.com/KuCoinOfficial
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/KuCoinOfficial
 - https://www.reddit.com/r/kucoin
 redirect_from: 
 developerName: KuCoin

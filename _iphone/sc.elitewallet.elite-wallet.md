@@ -13,7 +13,7 @@ version: 1.1.7
 stars: 4
 reviews: 1
 size: '125862912'
-website: https://elitewallet.sc
+website: https://web.archive.org/web/20230108015231/https://elitewallet.sc/
 repository: 
 issue: 
 icon: sc.elitewallet.elite-wallet.jpg

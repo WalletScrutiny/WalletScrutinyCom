@@ -28,9 +28,9 @@ reviewArchive:
 twitter: coinplus_sa
 social:
 - https://www.linkedin.com/organization-guest/company/coinplus
-- https://www.facebook.com/coinplus.sa/
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/coinplus.sa/
 - https://www.youtube.com/channel/UCBWhjWyzJ8MhTaP9UnqO6eQ
-- https://www.instagram.com/coinplus_solo/
+- https://walletscrutiny.com/brokenlink/https://www.instagram.com/coinplus_solo/
 features: 
 
 ---

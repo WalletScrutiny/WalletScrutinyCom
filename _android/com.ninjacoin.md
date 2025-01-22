@@ -14,7 +14,7 @@ stars: 4.2
 ratings: 65
 reviews: 41
 size: 25M
-website: https://ninjacoin.org/
+website: https://www.ninjacoin.org/
 repository: 
 issue: 
 icon: com.ninjacoin.png
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: Ninjacoin_org
 social:
-- https://www.facebook.com/Ninjacoin
+- https://web.archive.org/web/20200522224328/https://www.facebook.com/ninjacoin
 - https://www.reddit.com/r/Ninjacoin_org
 redirect_from: 
 developerName: 

@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/capex.mn
+- https://web.archive.org/web/20230103024039/https://www.facebook.com/capex.mn
 - https://www.instagram.com/capex.mn
 - https://t.me/capexcoin
 redirect_from: 

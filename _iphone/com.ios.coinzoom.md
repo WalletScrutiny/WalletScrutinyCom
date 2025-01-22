@@ -14,7 +14,7 @@ version: 1.2.0
 stars: 3.6
 reviews: 163
 size: '128094208'
-website: http://www.coinzoom.com
+website: https://www.coinzoom.com
 repository: 
 issue: 
 icon: com.ios.coinzoom.jpg

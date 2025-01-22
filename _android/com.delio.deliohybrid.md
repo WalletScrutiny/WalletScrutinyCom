@@ -14,7 +14,7 @@ stars: 3
 ratings: 48
 reviews: 62
 size: 
-website: https://www.delio.foundation
+website: https://web.archive.org/web/20240920075321/https://delio.foundation/
 repository: 
 issue: 
 icon: com.delio.deliohybrid.png

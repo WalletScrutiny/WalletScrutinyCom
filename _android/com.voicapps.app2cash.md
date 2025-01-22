@@ -14,7 +14,7 @@ stars: 4.4
 ratings: 
 reviews: 2
 size: 
-website: http://www.2cash.io
+website: https://www.2cash.io
 repository: 
 issue: 
 icon: com.voicapps.app2cash.png
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 2cashnetwork
 social:
 - https://www.linkedin.com/company/2cash
-- https://www.facebook.com/2cashnetwork
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/2cashnetwork
 redirect_from: 
 developerName: VOIC
 features: 

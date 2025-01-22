@@ -14,7 +14,7 @@ stars: 4
 ratings: 
 reviews: 8
 size: 
-website: https://wallet.berrychain.io
+website: https://web.archive.org/web/20221220204322/https://wallet.berrychain.io/
 repository: 
 issue: 
 icon: com.berrywallet.wallet.png
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: BerryChain
 social:
-- https://www.facebook.com/berrychain.official
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/berrychain.official
 redirect_from: 
 developerName: Ahmad soft
 features: 

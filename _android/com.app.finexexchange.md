@@ -13,7 +13,7 @@ stars: 4
 ratings: 
 reviews: 
 size: 
-website: https://finexchanges.com
+website: https://web.archive.org/web/20220216094759/https://finexchanges.com/
 repository: 
 issue: 
 icon: com.app.finexexchange.png

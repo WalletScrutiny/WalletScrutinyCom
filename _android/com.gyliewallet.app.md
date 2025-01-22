@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.saveure.com
+website: https://www.saveure.com
 repository: 
 issue: 
 icon: com.gyliewallet.app.png

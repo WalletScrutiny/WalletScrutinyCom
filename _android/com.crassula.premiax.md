@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.premiax.com/
+website: https://walletscrutiny.com/brokenlink/https://www.premiax.com/
 repository: 
 issue: 
 icon: com.crassula.premiax.png

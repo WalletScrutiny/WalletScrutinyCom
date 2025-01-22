@@ -28,7 +28,7 @@ social:
 - https://centurioninvest.com
 - https://t.me/centurioninvestgroup
 - https://www.youtube.com/channel/UCkjUQQCjZ5ed366GAUyRuog
-- https://www.facebook.com/CenturionInvest
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/CenturionInvest
 - https://www.linkedin.com/company/centurioninvest
 - https://www.instagram.com/centurioninvest
 features: 

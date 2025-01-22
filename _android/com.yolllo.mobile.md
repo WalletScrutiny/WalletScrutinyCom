@@ -13,7 +13,7 @@ stars: 4.9
 ratings: 
 reviews: 
 size: 
-website: https://avapayltd.com
+website: https://walletscrutiny.com/brokenlink/https://www.avapayltd.com/
 repository: 
 issue: 
 icon: com.yolllo.mobile.png

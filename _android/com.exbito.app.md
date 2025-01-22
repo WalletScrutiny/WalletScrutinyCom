@@ -14,7 +14,7 @@ stars: 4.7
 ratings: 
 reviews: 30
 size: 
-website: https://exbito.com
+website: https://exbito.com/
 repository: 
 issue: 
 icon: com.exbito.app.png

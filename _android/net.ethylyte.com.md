@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 193
 reviews: 6
 size: 
-website: https://ethlyte.tech/
+website: https://web.archive.org/web/20201103081254/https://ethlyte.tech/
 repository: 
 issue: 
 icon: net.ethylyte.com.png

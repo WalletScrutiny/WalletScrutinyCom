@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: EIB Exchange
 providerWebsite: 
-website: https://web.archive.org/web/20180618151048/https://eib.ai/
+website: https://walletscrutiny.com/brokenlink/https://eib.ai/
 shop: 
 country: UK
 price: 

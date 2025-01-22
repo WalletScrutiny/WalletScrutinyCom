@@ -13,7 +13,7 @@ stars: 3.9
 ratings: 81
 reviews: 3
 size: 
-website: https://www.beeex.com
+website: https://walletscrutiny.com/brokenlink/https://www.beeex.com/
 repository: 
 issue: 
 icon: com.beeex.broker.android.png

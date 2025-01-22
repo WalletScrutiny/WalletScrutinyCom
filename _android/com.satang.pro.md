@@ -26,9 +26,9 @@ signer:
 reviewArchive: 
 twitter: SatangOfficial_
 social:
-- https://www.facebook.com/satangcorp
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/satangcorp
 - https://www.youtube.com/channel/UC4U0T8JSB82E5JW6ATKKqiw
-- https://www.instagram.com/satang.official/
+- https://walletscrutiny.com/brokenlink/https://www.instagram.com/satang.official/
 redirect_from: 
 developerName: Orbix Trade Co., Ltd.
 features: 

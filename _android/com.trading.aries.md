@@ -27,7 +27,7 @@ reviewArchive:
 twitter: TradeAries
 social:
 - https://www.linkedin.com/company/tradearies
-- https://www.facebook.com/TradeAries
+- https://web.archive.org/web/20220113052114/https://www.facebook.com/TradeAries/
 redirect_from: 
 developerName: Aries Financial, Inc.
 features: 

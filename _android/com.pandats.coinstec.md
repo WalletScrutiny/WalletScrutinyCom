@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.coinstec.com
+website: https://web.archive.org/web/20181113182046/https://www.coinstec.com/
 repository: 
 issue: 
 icon: com.pandats.coinstec.png

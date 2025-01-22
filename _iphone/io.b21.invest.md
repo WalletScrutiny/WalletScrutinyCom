@@ -25,8 +25,8 @@ signer:
 reviewArchive: 
 twitter: B21Official
 social:
-- https://www.linkedin.com/company/b21-limited
-- https://www.facebook.com/B21Official
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/b21-limited
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/B21Official
 - https://www.reddit.com/r/B21Invest
 features: 
 developerName: 

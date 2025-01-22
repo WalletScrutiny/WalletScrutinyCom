@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.trustverse.io
+website: https://walletscrutiny.com/brokenlink/https://trustverse.io/
 repository: 
 issue: 
 icon: io.trustverse.mars.jpg
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: TrustVerse
 social:
-- https://www.facebook.com/trustverseofficial
+- https://web.archive.org/web/20190620222137/https://www.facebook.com/trustverseofficial/
 - https://t.me/trustverse_officialchannel
 - https://www.instagram.com/trustverse_official
 - https://trustverse-official.medium.com

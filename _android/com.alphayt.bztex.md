@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.bztex.co/
+website: https://web.archive.org/web/20220308141445/http://www.bztex.co/
 repository: 
 issue: 
 icon: com.alphayt.bztex.png

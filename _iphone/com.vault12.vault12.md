@@ -25,10 +25,10 @@ signer:
 reviewArchive: 
 twitter: _vault12_
 social:
-- https://www.facebook.com/GetVault12/
-- https://www.linkedin.com/company/vault12/
-- https://www.instagram.com/vault12/
-- https://www.youtube.com/channel/UCoH4zPOpJhq6RbTZqUqzFwA
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/GetVault12/
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/vault12/
+- https://walletscrutiny.com/brokenlink/https://www.instagram.com/vault12/
+- https://walletscrutiny.com/brokenlink/https://www.youtube.com/channel/UCoH4zPOpJhq6RbTZqUqzFwA
 features: 
 developerName: Vault12, Inc.
 

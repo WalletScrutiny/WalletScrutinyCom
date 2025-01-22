@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.halostar.org/
+website: https://walletscrutiny.com/brokenlink/https://halostar.org/
 repository: 
 issue: 
 icon: com.logmethod.hsr.png

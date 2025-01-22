@@ -13,7 +13,7 @@ stars: 5
 ratings: 
 reviews: 4
 size: 
-website: http://goliquid.app
+website: https://web.archive.org/web/20200214014844/https://goliquid.app/
 repository: 
 issue: 
 icon: com.bitmex_trading.png

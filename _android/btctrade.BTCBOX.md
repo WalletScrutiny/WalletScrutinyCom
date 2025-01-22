@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.btcbox.co.jp
+website: https://www.btcbox.co.jp
 repository: 
 issue: 
 icon: btctrade.BTCBOX.png

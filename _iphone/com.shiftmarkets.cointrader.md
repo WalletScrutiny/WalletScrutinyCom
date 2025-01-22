@@ -13,7 +13,7 @@ version: 4.1.0
 stars: 0
 reviews: 0
 size: '37229568'
-website: https://exchange.shiftmarkets.com/
+website: https://walletscrutiny.com/brokenlink/https://exchange.shiftmarkets.com/
 repository: 
 issue: 
 icon: com.shiftmarkets.cointrader.jpg

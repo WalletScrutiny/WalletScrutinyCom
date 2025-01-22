@@ -14,7 +14,7 @@ version: 10.6.6
 stars: 4.7
 reviews: 310315
 size: '369359872'
-website: https://www.webull.com
+website: https://walletscrutiny.com/brokenlink/https://www.webull.com
 repository: 
 issue: 
 icon: com.webull.trade.jpg
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: WebullGlobal
 social:
-- https://www.linkedin.com/company/webullfinancialllc
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/webullfinancialllc
 features: 
 developerName: Webull Technologies Pte. Ltd.
 

@@ -13,7 +13,7 @@ stars: 5
 ratings: 
 reviews: 
 size: 
-website: https://plark.io
+website: https://walletscrutiny.com/brokenlink/https://www.plark.io/
 repository: 
 issue: 
 icon: com.plarkapp.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.definnpay.com
+website: https://web.archive.org/web/20220625125531/https://www.definnpay.com/
 repository: 
 issue: 
 icon: com.definnpay.business.png

@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: 
 providerWebsite: 
-website: https://hodler.tech/
+website: https://web.archive.org/web/20210623202850/https://hodler.tech/
 shop: 
 country: 
 price: 
@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: HODLER_TECH
 social:
-- https://www.facebook.com/hodler.tech
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/hodler.tech
 features: 
 
 ---

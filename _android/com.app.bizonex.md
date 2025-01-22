@@ -13,7 +13,7 @@ stars: 2.7
 ratings: 
 reviews: 
 size: 
-website: https://bizonex.com/
+website: https://walletscrutiny.com/brokenlink/https://bizonex.com/
 repository: 
 issue: 
 icon: com.app.bizonex.png

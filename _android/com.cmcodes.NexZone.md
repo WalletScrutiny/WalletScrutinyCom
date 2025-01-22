@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://nexzonex.com/
+website: https://walletscrutiny.com/brokenlink/https://nexzonex.com/
 repository: 
 issue: 
 icon: com.cmcodes.NexZone.png

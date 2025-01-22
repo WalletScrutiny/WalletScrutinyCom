@@ -27,7 +27,7 @@ reviewArchive:
 twitter: aximetriagmbh
 social:
 - https://www.linkedin.com/company/aximetriagmbh
-- https://www.facebook.com/aximetriagmbh
+- https://web.archive.org/web/20200524013513/https://www.facebook.com/aximetriagmbh
 redirect_from: 
 developerName: 
 features: 

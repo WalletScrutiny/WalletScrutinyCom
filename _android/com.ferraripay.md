@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ferrari-pay.com
+website: https://walletscrutiny.com/brokenlink/https://www.ferrari-pay.com/
 repository: 
 issue: 
 icon: com.ferraripay.png

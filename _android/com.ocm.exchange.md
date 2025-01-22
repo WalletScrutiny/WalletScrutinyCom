@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ocm.exchange/
+website: https://web.archive.org/web/20220312110839/https://ocm.exchange/
 repository: 
 issue: 
 icon: com.ocm.exchange.png

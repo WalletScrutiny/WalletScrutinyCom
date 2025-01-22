@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.coinbetter.com
+website: https://walletscrutiny.com/brokenlink/https://www.coinbetter.com/
 repository: 
 issue: 
 icon: com.cbetter.change.png

@@ -27,7 +27,7 @@ reviewArchive:
 twitter: bitgetglobal
 social:
 - https://www.linkedin.com/company/bitget
-- https://www.facebook.com/BitgetGlobal
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/BitgetGlobal
 redirect_from: 
 developerName: BG LIMITED
 features: 

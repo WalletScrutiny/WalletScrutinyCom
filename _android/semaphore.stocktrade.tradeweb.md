@@ -14,7 +14,7 @@ stars: 3.8
 ratings: 
 reviews: 
 size: 
-website: http://stocktong.io
+website: https://walletscrutiny.com/brokenlink/https://stocktong.io
 repository: 
 issue: 
 icon: semaphore.stocktrade.tradeweb.png

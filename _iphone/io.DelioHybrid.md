@@ -13,7 +13,7 @@ version: 1.4.3
 stars: 3.8
 reviews: 37
 size: '63857664'
-website: https://www.delio.foundation/
+website: https://web.archive.org/web/20240920075321/https://delio.foundation/
 repository: 
 issue: 
 icon: io.DelioHybrid.jpg

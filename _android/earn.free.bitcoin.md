@@ -14,7 +14,7 @@ stars: 4.5
 ratings: 
 reviews: 4187
 size: 
-website: http://freebitcoinapp.net/
+website: https://freebitcoinapp.net:80/
 repository: 
 issue: 
 icon: earn.free.bitcoin.png

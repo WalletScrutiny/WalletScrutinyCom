@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.publet.io/
+website: https://walletscrutiny.com/brokenlink/https://www.publet.io/
 repository: 
 issue: 
 icon: com.publet.png

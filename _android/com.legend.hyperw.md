@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://hyperw.com
+website: https://walletscrutiny.com/brokenlink/https://hyperw.com/
 repository: 
 issue: 
 icon: com.legend.hyperw.png

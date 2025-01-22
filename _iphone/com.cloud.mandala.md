@@ -25,7 +25,7 @@ signer:
 reviewArchive: 
 twitter: mandalaex
 social:
-- https://www.facebook.com/mandalaexchange
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/mandalaexchange
 - https://www.reddit.com/r/MandalaExchange
 features: 
 developerName: Mandala Acquisition

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bitdotglobal.com/
+website: https://walletscrutiny.com/brokenlink/https://bitdotglobal.com/
 repository: 
 issue: 
 icon: com.bitdot_project_a6.bitdot.png

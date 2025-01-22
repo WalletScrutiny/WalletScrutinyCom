@@ -14,7 +14,7 @@ stars: 2.8
 ratings: 
 reviews: 34
 size: 
-website: https://softwareinfo.net
+website: https://web.archive.org/web/20210619054220/https://softwareinfo.net/
 repository: 
 issue: 
 icon: net.softwareinfo.jpg

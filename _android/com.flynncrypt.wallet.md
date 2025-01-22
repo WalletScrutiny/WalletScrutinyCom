@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://flynncrypt.com
+website: https://flynncrypt.com
 repository: 
 issue: 
 icon: com.flynncrypt.wallet.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.mciinvestments.com
+website: https://web.archive.org/web/20170314202029/http://mciinvestments.com
 repository: 
 issue: 
 icon: com.finantick.app.png

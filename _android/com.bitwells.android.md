@@ -14,7 +14,7 @@ stars: 4.6
 ratings: 1307
 reviews: 1261
 size: 
-website: https://www.bitwells.com
+website: https://walletscrutiny.com/brokenlink/https://www.bitwells.com/
 repository: 
 issue: 
 icon: com.bitwells.android.png
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: bitwells
 social:
-- https://www.facebook.com/Bitwells
+- https://web.archive.org/web/20220331140057/https://www.facebook.com/Bitwells
 redirect_from: 
 developerName: 
 features: 

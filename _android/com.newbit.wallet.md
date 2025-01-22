@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://newbitwallet.com
+website: https://web.archive.org/web/20220613141627/https://newbitwallet.com/
 repository: 
 issue: 
 icon: com.newbit.wallet.png

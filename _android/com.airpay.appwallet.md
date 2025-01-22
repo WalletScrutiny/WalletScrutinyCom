@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://airpayfinance.com/#
+website: https://walletscrutiny.com/brokenlink/https://airpayfinance.com/
 repository: 
 issue: 
 icon: com.airpay.appwallet.png

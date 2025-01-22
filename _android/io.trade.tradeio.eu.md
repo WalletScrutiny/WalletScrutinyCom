@@ -14,7 +14,7 @@ stars: 1.7
 ratings: 
 reviews: 6
 size: 
-website: http://trade.io
+website: https://trade.io
 repository: 
 issue: 
 icon: io.trade.tradeio.eu.png

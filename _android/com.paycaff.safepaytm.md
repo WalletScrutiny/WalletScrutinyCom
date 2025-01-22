@@ -14,7 +14,7 @@ stars: 4.2
 ratings: 143
 reviews: 1
 size: 
-website: https://safepaytm.com/
+website: https://web.archive.org/web/20210620134053/https://safepaytm.com/
 repository: 
 issue: 
 icon: com.paycaff.safepaytm.jpg

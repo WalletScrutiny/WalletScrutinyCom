@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.premicesoft.com
+website: https://www.premicesoft.com
 repository: 
 issue: 
 icon: com.premicesoft.tablet.png

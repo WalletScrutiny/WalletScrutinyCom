@@ -14,7 +14,7 @@ stars: 3.6
 ratings: 56
 reviews: 5
 size: 
-website: https://sevenb.io/
+website: https://walletscrutiny.com/brokenlink/https://sevenb.io/
 repository: 
 issue: 
 icon: io.sevenb.terminal.png

@@ -14,7 +14,7 @@ stars: 4.7
 ratings: 
 reviews: 
 size: 
-website: https://sonitixexchange.in/
+website: https://walletscrutiny.com/brokenlink/https://sonitixexchange.in/
 repository: 
 issue: 
 icon: com.sonitix_mobility.png

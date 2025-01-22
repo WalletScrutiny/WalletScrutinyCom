@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://oasisexc.com/
+website: https://web.archive.org/web/20210620183713/https://oasisexc.com/
 repository: 
 issue: 
 icon: com.oasisexc.app.png

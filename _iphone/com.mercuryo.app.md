@@ -13,7 +13,7 @@ version: 2.2.3
 stars: 4.7
 reviews: 985
 size: '119078912'
-website: https://mercuryo.io/
+website: https://web.archive.org/web/20230613134707/https://mercuryo.io/
 repository: 
 issue: 
 icon: com.mercuryo.app.jpg

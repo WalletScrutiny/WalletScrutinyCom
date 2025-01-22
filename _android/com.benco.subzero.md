@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://subzeropay.com/
+website: https://web.archive.org/web/20220301153435/http://subzeropay.com/
 repository: 
 issue: 
 icon: com.benco.subzero.png

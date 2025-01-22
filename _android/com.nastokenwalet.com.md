@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://nastokenwallet.com/
+website: https://walletscrutiny.com/brokenlink/https://nastokenwallet.com/
 repository: 
 issue: 
 icon: com.nastokenwalet.com.png

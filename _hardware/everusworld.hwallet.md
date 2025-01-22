@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: Everus Technologies
 providerWebsite: 
-website: https://web.archive.org/web/20210515161912/https://everusworld.com/
+website: https://walletscrutiny.com/brokenlink/https://everusworld.com/
 shop: 
 country: MY
 price: 

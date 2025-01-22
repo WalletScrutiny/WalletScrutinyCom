@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://logos-foundation.org/logos
+website: https://web.archive.org/web/20220812033117/https://logos-foundation.org/logos
 repository: 
 issue: 
 icon: com.wallet.logos.png

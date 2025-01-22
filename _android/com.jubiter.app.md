@@ -15,7 +15,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.jubiterwallet.com
+website: https://web.archive.org/web/20220722090858/https://www.jubiterwallet.com/
 repository: 
 issue: 
 icon: com.jubiter.app.png

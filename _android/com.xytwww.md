@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.xyt.com
+website: https://walletscrutiny.com/brokenlink/https://www.xyt.com:80/
 repository: 
 issue: 
 icon: com.xytwww.png

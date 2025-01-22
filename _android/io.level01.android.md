@@ -14,7 +14,7 @@ stars: 3.5
 ratings: 137
 reviews: 7
 size: 
-website: https://level01.io
+website: https://web.archive.org/web/20201101031935/https://level01.io/
 repository: 
 issue: 
 icon: io.level01.android.png
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: level01io
 social:
-- https://www.facebook.com/level01platform
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/level01platform
 redirect_from: 
 developerName: Level01 Technologies Limited
 features: 

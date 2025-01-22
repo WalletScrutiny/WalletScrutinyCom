@@ -14,7 +14,7 @@ version: 3.0.41
 stars: 0
 reviews: 0
 size: '102408192'
-website: http://keywallet.co.kr
+website: https://www.keywallet.co.kr/
 repository: 
 issue: 
 icon: kr.co.keypair.keywalletTouchiOS.jpg
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: quickxprotocol
 social:
 - https://www.linkedin.com/company/quickx
-- https://www.facebook.com/quickxprotocol
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/quickxprotocol
 - https://www.reddit.com/r/QuickX
 features: 
 developerName: Keypair

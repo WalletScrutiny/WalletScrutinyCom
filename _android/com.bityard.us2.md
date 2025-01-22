@@ -14,7 +14,7 @@ stars: 3.1
 ratings: 165
 reviews: 4
 size: 4.4M
-website: http://www.bityard.com
+website: https://www.bityard.com
 repository: 
 issue: 
 icon: com.bityard.us2.jpg
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: BitYard_Global
 social:
 - https://www.linkedin.com/company/bityard
-- https://www.facebook.com/BitYardofficial
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/BitYardofficial
 redirect_from: 
 developerName: 
 features: 

@@ -14,7 +14,7 @@ stars: 4.2
 ratings: 
 reviews: 12
 size: 
-website: http://hkd.com
+website: https://hkd.com
 repository: 
 issue: 
 icon: hkd.com.png
@@ -26,9 +26,9 @@ signer:
 reviewArchive: 
 twitter: HKD_exchange
 social:
-- https://www.facebook.com/hkdexchange/
+- https://web.archive.org/web/20220522210746/https://www.facebook.com/hkdexchange
 - https://www.youtube.com/c/hkdexchange
-- https://www.instagram.com/hkdexchange/?hl=en
+- https://walletscrutiny.com/brokenlink/https://www.instagram.com/hkdexchange/?hl=en
 redirect_from: 
 developerName: HKD.com Limited
 features: 

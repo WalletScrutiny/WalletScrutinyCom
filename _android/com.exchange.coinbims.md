@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://coinbims.com/
+website: https://walletscrutiny.com/brokenlink/https://coinbims.com/
 repository: 
 issue: 
 icon: com.exchange.coinbims.png

@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/Bitcoin-Pay-110590501255347
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/Bitcoin-Pay-110590501255347
 redirect_from: 
 developerName: Bitcoin Pay
 features: 

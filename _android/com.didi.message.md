@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 1141
 reviews: 14
 size: 
-website: https://didimessage.com
+website: https://web.archive.org/web/20210413064952/https://www.didimessage.com/
 repository: 
 issue: 
 icon: com.didi.message.png
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: DiDimessage
 social:
-- https://www.facebook.com/DiDi-Message-105506995020030
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/DiDi-Message-105506995020030
 redirect_from: 
 developerName: 
 features: 

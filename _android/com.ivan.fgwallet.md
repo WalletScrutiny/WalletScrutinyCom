@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.srsfc.com
+website: https://www.srsfc.com
 repository: 
 issue: 
 icon: com.ivan.fgwallet.png

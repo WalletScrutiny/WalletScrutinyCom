@@ -13,7 +13,7 @@ stars: 4.2
 ratings: 
 reviews: 8
 size: 
-website: https://tyslin.com/
+website: https://walletscrutiny.com/brokenlink/https://www.tyslin.com/
 repository: 
 issue: 
 icon: com.reactivespace.tyslinmulticoinwallet.png

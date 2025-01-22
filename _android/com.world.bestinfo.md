@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://neo-forex.com/
+website: https://web.archive.org/web/20240804205412/https://www.neo-forex.com/
 repository: 
 issue: 
 icon: com.world.bestinfo.png

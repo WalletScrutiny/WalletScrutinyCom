@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 28M
-website: https://betadeal.net
+website: https://web.archive.org/web/20140109061704/http://www.betadeal.net/
 repository: 
 issue: 
 icon: com.mobile.BetaDeal.png
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/mybetadealapp
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/mybetadealapp
 redirect_from: 
 developerName: 
 features: 

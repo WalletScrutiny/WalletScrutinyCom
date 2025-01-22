@@ -26,7 +26,7 @@ reviewArchive:
 twitter: SticPay
 social:
 - https://www.linkedin.com/company/sticpay
-- https://www.facebook.com/sticpay.global
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/sticpay.global
 features: 
 developerName: STIC FINANCIAL LTD.
 

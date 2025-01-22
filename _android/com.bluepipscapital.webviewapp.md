@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.bluepips.co/
+website: https://web.archive.org/web/20240620203938/http://bluepips.co/
 repository: 
 issue: 
 icon: com.bluepipscapital.webviewapp.png

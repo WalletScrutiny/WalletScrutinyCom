@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://infireum.com
+website: https://web.archive.org/web/20190518202825/https://infireum.com/
 repository: 
 issue: 
 icon: com.infinitepay.infireum.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://qive.io
+website: https://walletscrutiny.com/brokenlink/https://qive.io/
 repository: 
 issue: 
 icon: com.marathoncorporate.qive.png

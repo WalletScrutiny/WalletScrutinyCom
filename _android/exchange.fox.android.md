@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://fox.exchange
+website: https://walletscrutiny.com/brokenlink/https://fox.exchange/
 repository: 
 issue: 
 icon: exchange.fox.android.png

@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: Coinsuper_OFCL
 social:
-- https://www.facebook.com/CoinsuperOFCL
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/CoinsuperOFCL
 redirect_from: 
 developerName: 
 features: 

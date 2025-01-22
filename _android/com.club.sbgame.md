@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://sbgame.club
+website: https://web.archive.org/web/20220204063349/https://sbgame.club/
 repository: 
 issue: 
 icon: com.club.sbgame.jpg

@@ -27,7 +27,7 @@ reviewArchive:
 twitter: BingbonOfficial
 social:
 - https://www.linkedin.com/company/bingbon
-- https://www.facebook.com/BingbonOfficial
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/BingbonOfficial
 - https://www.reddit.com/r/Bingbon
 redirect_from: 
 developerName: BINGX GROUP LIMITED

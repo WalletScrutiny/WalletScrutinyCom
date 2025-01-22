@@ -13,7 +13,7 @@ stars: 4.8
 ratings: 
 reviews: 27
 size: 
-website: https://surecrypto.io
+website: https://web.archive.org/web/20220430100030/https://surecrypto.io/
 repository: 
 issue: 
 icon: io.surecrypto.wallet.png

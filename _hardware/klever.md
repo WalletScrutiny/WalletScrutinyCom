@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: Klever Exchange
 providerWebsite: https://klever.io/
-website: https://kleversafe.io/
+website: https://walletscrutiny.com/brokenlink/https://kleversafe.io/
 shop: https://kleversafe.io/cart/
 country: BR
 price: 199USD

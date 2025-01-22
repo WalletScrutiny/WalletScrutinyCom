@@ -14,7 +14,7 @@ stars: 4
 ratings: 51097
 reviews: 68
 size: 
-website: http://www.mercadobitcoin.com.br
+website: https://www.mercadobitcoin.com.br
 repository: 
 issue: 
 icon: br.com.mercadobitcoin.android.png
@@ -26,8 +26,8 @@ signer:
 reviewArchive: 
 twitter: MercadoBitcoin
 social:
-- https://www.linkedin.com/company/mercado-bitcoin
-- https://www.facebook.com/MercadoBitcoin
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/mercado-bitcoin
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/MercadoBitcoin
 redirect_from: 
 developerName: Mercado Bitcoin Serviços Digitais Ltda.
 features: 

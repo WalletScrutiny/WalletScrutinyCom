@@ -14,7 +14,7 @@ stars: 4.2
 ratings: 37358
 reviews: 72
 size: 
-website: http://www.xtrade.com
+website: https://www.xtrade.com
 repository: 
 issue: 
 icon: com.xfr.xtrade.png
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: XTrade
 social:
 - https://www.linkedin.com/company/xtrade
-- https://www.facebook.com/XTrade
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/XTrade
 redirect_from: 
 developerName: XTRADE.com
 features: 

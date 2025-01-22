@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: coinspotau
 social:
-- https://www.facebook.com/coinspotau
+- https://web.archive.org/web/20190710151653/https://www.facebook.com/coinspotau
 redirect_from: 
 developerName: CoinSpot
 features: 

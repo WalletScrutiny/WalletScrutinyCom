@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bitzlive.com
+website: https://walletscrutiny.com/brokenlink/https://www.bitzlive.com:80/
 repository: 
 issue: 
 icon: com.bitzlive.bitzlive.png

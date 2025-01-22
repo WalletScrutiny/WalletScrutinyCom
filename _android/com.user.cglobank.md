@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 26
 reviews: 15
 size: 3.8M
-website: https://cglobank.com/
+website: https://web.archive.org/web/20210413135834/https://cglobank.com/
 repository: 
 issue: 
 icon: com.user.cglobank.jpg

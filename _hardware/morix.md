@@ -15,7 +15,7 @@ dimensions:
 weight: 140
 provider: MoriX Co., Ltd.‬
 providerWebsite: https://morixjp.com/
-website: https://morixjp.com/eng/products/walletcard
+website: https://walletscrutiny.com/brokenlink/https://morixjp.com/eng/products/walletcard
 shop: https://www.amazon.co.jp/dp/B08DNN7LGK
 country: JP
 price: 27000JPY

@@ -13,7 +13,7 @@ stars: 3.9
 ratings: 
 reviews: 
 size: 
-website: https://bancobitcoin.net
+website: https://walletscrutiny.com/brokenlink/https://bancobitcoin.net
 repository: 
 issue: 
 icon: appinventor.ai_suporte.bancobitcoin.png

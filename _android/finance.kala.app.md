@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://kala.finance
+website: https://walletscrutiny.com/brokenlink/https://kala.finance
 repository: 
 issue: 
 icon: finance.kala.app.png

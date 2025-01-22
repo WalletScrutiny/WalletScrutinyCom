@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://investxe.com
+website: https://web.archive.org/web/20240616002033/https://investxe.com/
 repository: 
 issue: 
 icon: com.pandats.investxe.png

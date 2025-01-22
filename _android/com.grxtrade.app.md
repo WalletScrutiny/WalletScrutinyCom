@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.growdex.com/
+website: https://walletscrutiny.com/brokenlink/https://www.growdex.com/
 repository: 
 issue: 
 icon: com.grxtrade.app.png

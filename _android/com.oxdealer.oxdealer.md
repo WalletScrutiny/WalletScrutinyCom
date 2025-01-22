@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://0xdealer.com
+website: https://web.archive.org/web/20210614112816/https://www.0xdealer.com/
 repository: 
 issue: 
 icon: com.oxdealer.oxdealer.png

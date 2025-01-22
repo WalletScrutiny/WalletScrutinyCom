@@ -14,7 +14,7 @@ stars: 4.6
 ratings: 
 reviews: 22
 size: 
-website: https://exonyx.ir
+website: https://web.archive.org/web/20220406012352/https://exonyx.ir/
 repository: 
 issue: 
 icon: com.exonyxapp.trader.png

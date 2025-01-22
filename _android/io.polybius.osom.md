@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://osom.finance
+website: https://walletscrutiny.com/brokenlink/https://osom.finance/
 repository: 
 issue: 
 icon: io.polybius.osom.png

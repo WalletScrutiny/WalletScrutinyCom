@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://wallbtc.com
+website: https://wallbtc.com
 repository: 
 issue: 
 icon: com.bohdanuhryn.wallbtc.png

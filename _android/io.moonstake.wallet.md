@@ -26,8 +26,8 @@ signer:
 reviewArchive: 
 twitter: moonstake
 social:
-- https://www.linkedin.com/company/moonstake
-- https://www.facebook.com/moonstakekorea
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/moonstake
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/moonstakekorea
 redirect_from: 
 developerName: Moonstake Developer
 features: 

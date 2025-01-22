@@ -14,7 +14,7 @@ stars: 3.5
 ratings: 2731
 reviews: 16
 size: 
-website: http://binarium.support
+website: https://binarium.support
 repository: 
 issue: 
 icon: com.binarium.binariummobile.png
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/binariumcom
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/binariumcom
 redirect_from: 
 developerName: Binarium LTD
 features: 

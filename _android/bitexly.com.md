@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bitexly.com
+website: https://web.archive.org/web/20211127191939/http://bitexly.com/
 repository: 
 issue: 
 icon: bitexly.com.png

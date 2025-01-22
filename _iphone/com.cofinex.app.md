@@ -13,7 +13,7 @@ version: '1.0'
 stars: 
 reviews: 
 size: 52673536
-website: https://exchange.cofinex.io/
+website: https://web.archive.org/web/20200831093817/http://exchange.cofinex.io/
 repository: 
 issue: 
 icon: com.cofinex.app.jpg

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.okanuysal.com/
+website: https://walletscrutiny.com/brokenlink/https://www.okanuysal.com/
 repository: 
 issue: 
 icon: cointrade.uysal.development.cointradesimulation.png

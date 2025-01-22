@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://bitcoinwalletcoin.com
+website: https://walletscrutiny.com/brokenlink/https://bitcoinwalletcoin.com:80/
 repository: 
 issue: 
 icon: com.maxxwallet.png

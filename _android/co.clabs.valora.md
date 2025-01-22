@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 
 reviews: 303
 size: 
-website: https://valoraapp.com
+website: https://valoraapp.com/
 repository: 
 issue: 
 icon: co.clabs.valora.png

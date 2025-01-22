@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://quan-tic.com
+website: https://walletscrutiny.com/brokenlink/https://quan-tic.com/
 repository: 
 issue: 
 icon: com.quanticmobileapp.png

@@ -14,7 +14,7 @@ stars: 5
 ratings: 
 reviews: 32
 size: 
-website: https://www.easycoins.com/
+website: https://walletscrutiny.com/brokenlink/https://www.easycoins.com:80/
 repository: 
 issue: 
 icon: com.easycoin.exchange.png

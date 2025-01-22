@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: echangerbd
 social:
-- https://www.facebook.com/exchangernet
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/exchangernet
 redirect_from: 
 developerName: Exchangernet.com
 features: 

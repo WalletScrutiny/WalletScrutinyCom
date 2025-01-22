@@ -13,7 +13,7 @@ stars: 4
 ratings: 225
 reviews: 177
 size: 53M
-website: https://bitlish.com
+website: https://walletscrutiny.com/brokenlink/https://bitlish.com/
 repository: 
 issue: 
 icon: com.bitlish.bitlish.png
@@ -25,8 +25,8 @@ signer:
 reviewArchive: 
 twitter: bitlish_com
 social:
-- https://www.linkedin.com/company/bitlish
-- https://www.facebook.com/bitlish.english
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/bitlish
+- https://web.archive.org/web/20210309004731/https://www.facebook.com/bitlish.english
 redirect_from:
 - /com.bitlish.bitlish/
 - /posts/com.bitlish.bitlish/

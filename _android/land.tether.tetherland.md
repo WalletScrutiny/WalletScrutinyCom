@@ -14,7 +14,7 @@ stars: 4.1
 ratings: 1685
 reviews: 71
 size: 
-website: https://tetherland.com
+website: https://web.archive.org/web/20220406012222/https://tetherland.com/
 repository: 
 issue: 
 icon: land.tether.tetherland.png

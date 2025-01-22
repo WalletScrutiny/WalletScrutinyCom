@@ -33,7 +33,7 @@ reviewArchive:
   verdict: obfuscated 
 twitter: TokenPocket_TP
 social:
-- https://www.facebook.com/TokenPocket
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/TokenPocket
 redirect_from: 
 developerName: TP Global Ltd
 features: 

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.btcboxpro.com/
+website: https://walletscrutiny.com/brokenlink/https://www.btcboxpro.com/
 repository: 
 issue: 
 icon: com.btcboxpro.exchange.png

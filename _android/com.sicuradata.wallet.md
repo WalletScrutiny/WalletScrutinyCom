@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://sicuradata.com/
+website: https://web.archive.org/web/20210622022725/https://sicuradata.com/
 repository: 
 issue: 
 icon: com.sicuradata.wallet.png

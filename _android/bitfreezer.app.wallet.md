@@ -15,7 +15,7 @@ stars: 4.1
 ratings: 61
 reviews: 22
 size: 32M
-website: https://bitfreezer.app/
+website: https://walletscrutiny.com/brokenlink/https://bitfreezer.app/
 repository: 
 issue: 
 icon: bitfreezer.app.wallet.png

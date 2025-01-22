@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.ini.bitcaps.club
+website: https://web.archive.org/web/20220419004343/https://www.ini.bitcaps.club/
 repository: 
 issue: 
 icon: com.bitcaps.png

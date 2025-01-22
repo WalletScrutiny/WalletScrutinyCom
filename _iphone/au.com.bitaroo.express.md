@@ -13,7 +13,7 @@ version: 1.12.1
 stars: 4.8
 reviews: 9
 size: '45389824'
-website: https://www.bitaroo.com.au/
+website: https://walletscrutiny.com/brokenlink/https://www.bitaroo.com.au/
 repository: 
 issue: 
 icon: au.com.bitaroo.express.jpg

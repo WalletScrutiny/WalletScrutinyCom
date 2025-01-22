@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.knightgames.co
+website: https://web.archive.org/web/20190514132042/https://www.knightgames.co/
 repository: 
 issue: 
 icon: com.bucdev.bestforexbroker.png

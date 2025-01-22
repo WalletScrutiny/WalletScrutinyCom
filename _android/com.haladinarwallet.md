@@ -14,7 +14,7 @@ stars: 5
 ratings: 
 reviews: 4
 size: 
-website: https://haladinar.io
+website: https://walletscrutiny.com/brokenlink/https://haladinar.io:80/
 repository: 
 issue: 
 icon: com.haladinarwallet.png

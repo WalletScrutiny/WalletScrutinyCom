@@ -13,7 +13,7 @@ version: 2.6.3
 stars: 2
 reviews: 3380
 size: '306286592'
-website: https://en.bithumb.com
+website: https://web.archive.org/web/20200530082642/https://en.bithumb.com/
 repository: 
 issue: 
 icon: com.btckorea.bithumb.jpg

@@ -14,7 +14,7 @@ stars: 4.5
 ratings: 
 reviews: 20
 size: 
-website: https://privapp.network/
+website: https://walletscrutiny.com/brokenlink/https://privapp.network/
 repository: 
 issue: 
 icon: network.privapp.wallet.png
@@ -29,7 +29,7 @@ social:
 - https://t.me/PrivappNetwork
 - https://medium.com/@privappnetwork
 - https://www.linkedin.com/company/privapp-network
-- https://www.youtube.com/channel/UCvTrYGLsL2It6pLrxP0ip3Q
+- https://web.archive.org/web/20220827202148/https://www.youtube.com/channel/UCvTrYGLsL2It6pLrxP0ip3Q
 - https://discord.com/invite/fepCFhdWeD
 - https://www.instagram.com/privappnetwork
 redirect_from: 

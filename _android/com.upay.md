@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://upay.company
+website: https://web.archive.org/web/20220625061305/http://upay.company/
 repository: 
 issue: 
 icon: com.upay.png

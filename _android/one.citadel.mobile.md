@@ -31,7 +31,7 @@ social:
 - https://www.instagram.com/citadeldao/
 - https://www.youtube.com/channel/UCl6VvVIrAr7ztJ1Wf7xBxrA
 - https://www.linkedin.com/company/citadel-one/
-- https://www.facebook.com/Citadel.One
+- https://web.archive.org/web/20201101021552/https://www.facebook.com/Citadel.One
 redirect_from: 
 developerName: Citadel.one
 features: 

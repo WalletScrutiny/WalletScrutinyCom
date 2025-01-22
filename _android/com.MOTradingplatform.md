@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://1minuteoptions.com
+website: https://web.archive.org/web/20210423113041/https://www.1minuteoptions.com/
 repository: 
 issue: 
 icon: com.MOTradingplatform.png

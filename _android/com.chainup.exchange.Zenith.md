@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://fuzionx.io
+website: https://web.archive.org/web/20230410172635/https://fuzionx.io/
 repository: 
 issue: 
 icon: com.chainup.exchange.Zenith.jpg

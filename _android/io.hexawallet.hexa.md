@@ -14,7 +14,7 @@ stars: 3.7
 ratings: 23
 reviews: 14
 size: 85M
-website: https://hexawallet.io
+website: https://web.archive.org/web/20201119064859/https://hexawallet.io
 repository: https://github.com/bithyve/hexa
 issue: https://github.com/bithyve/hexa/issues/2544
 icon: io.hexawallet.hexa.png

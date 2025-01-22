@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://yopay.co
+website: https://walletscrutiny.com/brokenlink/https://yopay.co/
 repository: 
 issue: 
 icon: co.yopay.wallet.png

@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 380
 reviews: 10
 size: 
-website: http://sticpay.com
+website: https://sticpay.com
 repository: 
 issue: 
 icon: com.sticpay.app.sticpay.png
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: SticPay
 social:
 - https://www.linkedin.com/company/sticpay
-- https://www.facebook.com/sticpay.global
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/sticpay.global
 redirect_from: 
 developerName: STICPAY
 features: 

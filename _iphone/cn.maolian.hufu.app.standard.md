@@ -13,7 +13,7 @@ version: 4.6.96
 stars: 2.8
 reviews: 148
 size: '135105536'
-website: https://hoo.com
+website: https://walletscrutiny.com/brokenlink/https://hoo.com/
 repository: 
 issue: 
 icon: cn.maolian.hufu.app.standard.jpg
