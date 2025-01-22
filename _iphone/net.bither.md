@@ -26,11 +26,6 @@ appHashes: []
 date: 2024-10-09
 signer:
 reviewArchive:
-- date: 2024-10-09
-  version: 2.1.4
-  appHashes: []
-  gitRevision: c6c91a04460f39a7c97dd54aa997ad3ff88ec3e1
-  verdict: obfuscated 
 twitter: 
 social: 
 features: 

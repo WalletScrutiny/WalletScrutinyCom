@@ -24,16 +24,6 @@ appHashes: []
 date: 2021-12-24
 signer:
 reviewArchive:
-- date: 2021-12-24
-  version: 6.5.4
-  appHashes: []
-  gitRevision: c5fd94bf4c89189529bbb9a0265239acf4f53f35
-  verdict: nosendreceive 
-- date: 2021-11-01
-  version: 4.2
-  appHashes: []
-  gitRevision: a5f6ad88ff8926faf6f2ce111aff123860ea1e50
-  verdict: nosendreceive
 twitter: 
 social: 
 features: 

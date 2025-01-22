@@ -28,14 +28,14 @@ appHashes: [e6498f7327d6d152f114b851b8c01a5b7c7890414c192a00ea3846bf0f82229f]
 date: 2025-01-03
 signer: cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
 reviewArchive:
-- date: 2004-12-13
+- date: 2024-12-13
   version: 0.9.3
   appHashes: [3670e08e0720f8dbb021ff15fe02fb0f6c5df810a972ced5c0356a29e296563c]
   gitRevision: d7dc11abaa3b2e7aae9321e66de7eea53a03f064
   verdict: reproducible
 - date: 2024-11-14
   version: 0.9.2
-  appHashes: [deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe]
+  appHashes: [388d9e8b545aa657c1a147a0a24ee700af31cdecd2c9cdacaa6e208e1db9ea10]
   gitRevision: 5d7b9b51299533649649997ba132ef2bd73f49f5
   verdict: reproducible
 - date: 2024-08-28
