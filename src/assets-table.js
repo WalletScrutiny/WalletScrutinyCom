@@ -145,19 +145,19 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
           console.log('status', status);
           switch (status) {
             case 'reproducible':
-              statusText = '✅ <span style="text-decoration: underline; color: var(--accent-text);">Reproducible when tested</span>';
+              statusText = '✅ <span class="attestation-status">Reproducible when tested</span>';
               break;
             case 'not_reproducible':
-              statusText = '❌ <span style="text-decoration: underline; color: var(--accent-text);">Failed to build from source provided</span>';
+              statusText = '❌ <span class="attestation-status">Failed to build from source provided</span>';
               break;
             case 'ftbfs':
-              statusText = '❌ <span style="text-decoration: underline; color: var(--accent-text);">Not reproducible from source provided</span>';
+              statusText = '❌ <span class="attestation-status">Not reproducible from source provided</span>';
               break;
           }
 
-          listItems += `<p onclick='showAttestationModal("${sha256Hash}", "${attestation.id}")' style="cursor: pointer; margin-bottom: 0; margin-top: 0;">
+          listItems += `<span onclick='showAttestationModal("${sha256Hash}", "${attestation.id}")' class="attestation-link" style="cursor: pointer; margin-bottom: 0; margin-top: 0;">
             ${statusText}<br><small>(${attestationDate})</small>
-          </p>`;
+          </span>`;
         }
         attestationList = `${listItems}
         ${hideConfig?.buttons ? '' :
