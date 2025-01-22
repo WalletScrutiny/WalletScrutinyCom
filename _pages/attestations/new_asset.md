@@ -10,7 +10,13 @@ permalink: /new_asset/
 
 <div class="form-container">
   <div class="info-message">
-    <p>To add a new asset to Nostr so it can be verified by you or others, you will need to provide the following information:</p>
+    <p>To add a new asset to Nostr so it can be verified by you or others, you will need to provide the following information
+      <span class="drag-and-drop-area">, or drag and drop your binary file here so we calculate some fields for you</span>:
+    </p>
+  </div>
+
+  <div style="margin: 1.5em; margin-left: 0;" class="drag-and-drop-area">
+    {% include /attestations/dragAndDropArea.html buttonMessage="Drop file to calculate" %}
   </div>
 
   <form id="assetForm" onsubmit="handleSubmit(event)">
@@ -183,6 +189,14 @@ async function loadUrlParams() {
       document.getElementById(field).value = value;
     }
   });
+
+  // If sha256 is provided, hide all drag and drop areas
+  if (urlParams.get('sha256')) {
+    console.log('sha256 is provided');
+    document.querySelectorAll('.drag-and-drop-area').forEach(element => {
+      element.style.display = 'none';
+    });
+  }
 }
 
 async function handleSubmit(event) {
