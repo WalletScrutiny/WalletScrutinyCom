@@ -19,7 +19,7 @@ issue: https://github.com/cake-tech/cake_wallet/issues/337
 icon: com.fotolockr.cakewallet.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nonverifiable
 appHashes: []
 date: 2022-11-02
 signer:
@@ -42,6 +42,8 @@ features:
 developerName: Cake Technologies, LLC
 
 ---
+
+**Note:** iPhone products are **not verifiable**.
 
 **Update  2022-11-02**: Apparently this product fails to build from source. The
 relatively old

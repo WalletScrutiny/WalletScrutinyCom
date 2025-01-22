@@ -30,10 +30,15 @@ icon: cypherockx1.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-appHashes: [2d8ea19e1d257280eb21fbe98b1539389b456176284fe77012dd9be54423a93d]
-date: 2024-12-10
+appHashes: [cacd04d1c6a5e2bd4f9c0adc56ab46e431fbb2347f29130290f02383ac8a7562]
+date: 2025-01-13
 signer:
 reviewArchive:
+- date: 2024-12-10
+  version: 0.6.1282
+  appHashes: [2d8ea19e1d257280eb21fbe98b1539389b456176284fe77012dd9be54423a93d]
+  gitRevision: 3fadfe82d841cefe9dabe322d1422f8404c98484
+  verdict: reproducible
 - date: 2024-11-29
   version: 0.6.1280
   appHashes: [4407693c9d055870e2b5c7a390087bf4aa8274c9c272c8a1f7b825884a417de2]

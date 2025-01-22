@@ -21,7 +21,7 @@ issue: https://github.com/MixinNetwork/android-app/issues/2559
 icon: one.mixin.messenger.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nonverifiable
 appHashes: []
 date: 2021-11-17
 signer:
@@ -39,5 +39,7 @@ features:
 developerName: Mixin Ltd
 
 ---
+
+**Note:** iPhone products are not verifiable.
 
 {% include copyFromAndroid.html %}

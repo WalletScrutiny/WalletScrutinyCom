@@ -174,7 +174,7 @@ reviewArchive:
   verdict: reproducible
 - date: 2021-05-03
   version: 3.5.9
-  appHashes: [76cc3df154ff6d47b5366a328515cf14c1d550ca7d71063d851c1949324ef4fa, f62c0b4b4882ad15a561fbabcccc34739d66470e752a21a4eab4037736593476]
+  appHashes: [f62c0b4b4882ad15a561fbabcccc34739d66470e752a21a4eab4037736593476]
   gitRevision: 13d8e0095e0944d8d255811487d819fafc74c5e1
   verdict: nonverifiable
 - date: 2021-05-03
