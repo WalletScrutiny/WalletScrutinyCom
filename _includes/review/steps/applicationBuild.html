@@ -8,15 +8,15 @@
     <h3>Application build</h3>
 
     {% if page.repository %}
-      <p>
-        {% if page.issue %}
+      {% if page.issue %}
+        <p>
           <br><a href="{{page.issue}}">See the last Issue we created</a>.
-        {% endif %}
-      </p>
+        </p>
+      {% endif %}
       <a class="legacyInfo" href="#result">See test result</a>
       <script>const pageVerdict = '{{page.verdict}}'</script>
 
-      <div id="appsTable"></div>
+      <div id="appsTable" style="margin-top: 1em;"></div>
 
       {% include getOldInfo.md %}
 
@@ -55,11 +55,11 @@
             if (pageVerdict === 'reproducible') {
               document.getElementById('attestationMessage').innerHTML = "This application is reproducible. You can create an asset for a newer version so somebody can verify it.";
             } else if (pageVerdict === 'nonverifiable') {
-              document.getElementById('attestationMessage').innerHTML = "Nobody could reproduce this applition successfully. Do you like to try? Drop the binary file there to create the asset automatically (preferred), or click the button below to create the asset manually.";
+              document.getElementById('attestationMessage').innerHTML = "Nobody could reproduce this application successfully. Do you like to try? Drop the binary file there to register the asset automatically (preferred), or click the button below to register the asset manually.";
             } else if (pageVerdict === 'wip') {
-              document.getElementById('attestationMessage').innerHTML = "Nobody tried to build this applition to check if it's reproducible. Do you like to be the first? Drop the binary file there to create the asset automatically (preferred), or click the button below to create the asset manually.";
+              document.getElementById('attestationMessage').innerHTML = "Nobody tried to build this application to check if it's reproducible. Do you like to be the first? Drop the binary file there to register the asset automatically (preferred), or click the button below to register the asset manually.";
             } else if (pageVerdict === 'fewusers') {
-              document.getElementById('attestationMessage').innerHTML = "Nobody could reproduce this applition successfully. Do you like to try? Drop the binary file there to create the asset automatically (preferred), or click the button below to create the asset manually.";
+              document.getElementById('attestationMessage').innerHTML = "Nobody could reproduce this application successfully. Do you like to try? Drop the binary file there to register the asset automatically (preferred), or click the button below to register the asset manually.";
             }
           }
 
