@@ -203,6 +203,9 @@ collections:
   others:
     output: true
     permalink: /:collection/:path/
+  custodians:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -296,6 +299,17 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # custodians
+  - scope:
+      path: ""
+      type: custodians
+    values:
+      layout: reviewCustodian
+      author_profile: false
+      share: true
+      comments: true
+      sidebar:
+        nav: "docs"
 
 # Sass/SCSS
 sass:
