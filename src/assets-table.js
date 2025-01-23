@@ -142,7 +142,7 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
           const status = attestation.tags.find(tag => tag[0] === 'status')?.[1] || '';
 
           let statusText = null;
-          console.log('status', status);
+
           switch (status) {
             case 'reproducible':
               statusText = '✅ <span class="attestation-status">Reproducible when tested</span>';
