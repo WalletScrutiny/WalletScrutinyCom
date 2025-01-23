@@ -338,90 +338,170 @@ async function processWebsite(site, currentIndex, total, updateFile, queue) {
     console.log(`\n[${currentIndex + 1}/${total}] ${filename}`);
     console.log(`Original URL: ${url}`);
 
-    // Extract original URL regardless of current state
-    let cleanUrl = url;
+    // CASE 1: Handle already broken links
     if (url.startsWith("https://walletscrutiny.com/brokenlink/")) {
-        cleanUrl = url.replace("https://walletscrutiny.com/brokenlink/", "")
-                     .replace(/^https?:\/\//, "");
-        console.log(`Extracted from broken link: ${cleanUrl}`);
-    } else if (url.includes("web.archive.org/web/")) {
-        cleanUrl = ArchiveChecker.extractOriginalUrl(url);
-        console.log(`Extracted from archive: ${cleanUrl}`);
+        // Extract the original URL from the broken link
+        const cleanUrl = url.replace("https://walletscrutiny.com/brokenlink/", "")
+                           .replace(/^https?:\/\//, "");
+        console.log(`Checking if broken link is now available: ${cleanUrl}`);
+        
+        // Try the original URL to see if it's back
+        const testUrl = `https://${cleanUrl}`;
+        try {
+            const check = await makeRequest(new URL(testUrl), 'HEAD', 0, queue);
+            
+            if (check.isAvailable) {
+                console.log("✅ Previously broken URL is now available");
+                const updated = await updateFile(site.file, url, testUrl, site.type);
+                return updated ? {
+                    file: site.file,
+                    oldUrl: url,
+                    newUrl: testUrl,
+                    status: "restored"
+                } : null;
+            }
+
+            // If still broken, check archive
+            console.log("Still broken, checking Archive.org...");
+            const archiveResponse = await ArchiveChecker.checkArchive(testUrl, { returnFullResponse: true });
+            
+            if (archiveResponse?.available) {
+                console.log(`Found in Archive.org with ${archiveResponse.snapshotCount} snapshots`);
+                const updated = await updateFile(site.file, url, archiveResponse.url, site.type);
+                return updated ? {
+                    file: site.file,
+                    oldUrl: url,
+                    newUrl: archiveResponse.url,
+                    status: "archived",
+                    snapshotCount: archiveResponse.snapshotCount
+                } : null;
+            }
+        } catch (error) {
+            console.error(`Error checking broken link ${testUrl}:`, error);
+        }
+        return null;
     }
 
-    // Normalize the clean URL
-    cleanUrl = cleanUrl.replace(/^https?:\/\//, "");
-    const testUrl = `https://${cleanUrl}`;
-    console.log(`Testing URL: ${testUrl}`);
+    // CASE 2: Handle archive.org URLs
+    if (url.includes("web.archive.org/web/")) {
+        const existingTimestamp = ArchiveChecker.extractTimestamp(url);
+        const originalUrl = ArchiveChecker.extractOriginalUrl(url);
+        
+        if (!originalUrl) {
+            console.log("Could not extract original URL from archive link");
+            return null;
+        }
 
+        // Check if original site is back online
+        const testUrl = `https://${originalUrl.replace(/^https?:\/\//, "")}`;
+        console.log(`Checking if original URL is back: ${testUrl}`);
+        
+        try {
+            const check = await makeRequest(new URL(testUrl), 'HEAD', 0, queue);
+            
+            if (check.isAvailable) {
+                console.log("✅ Original URL is now available");
+                const updated = await updateFile(site.file, url, testUrl, site.type);
+                return updated ? {
+                    file: site.file,
+                    oldUrl: url,
+                    newUrl: testUrl,
+                    status: "restored"
+                } : null;
+            }
+
+            // Check for newer archive snapshot
+            console.log("Checking for newer archive snapshot...");
+            const archiveResponse = await ArchiveChecker.checkArchive(testUrl, { returnFullResponse: true });
+            
+            if (archiveResponse?.available && 
+                archiveResponse.timestamp && 
+                existingTimestamp && 
+                archiveResponse.timestamp > existingTimestamp) {
+                
+                console.log(`Found newer snapshot: ${archiveResponse.timestamp} (current: ${existingTimestamp})`);
+                const updated = await updateFile(site.file, url, archiveResponse.url, site.type);
+                return updated ? {
+                    file: site.file,
+                    oldUrl: url,
+                    newUrl: archiveResponse.url,
+                    status: "updated_archive",
+                    snapshotCount: archiveResponse.snapshotCount
+                } : null;
+            }
+
+            console.log("No newer snapshot available");
+        } catch (error) {
+            console.error(`Error checking archived URL ${testUrl}:`, error);
+        }
+        return null;
+    }
+
+    // CASE 3: Handle regular URLs
     try {
-        // Step 1: Always check if original website is available
+        // Clean and normalize the URL
+        let cleanUrl = url.replace(/^https?:\/\//, "");
+        const testUrl = `https://${cleanUrl}`;
+        console.log(`Testing URL: ${testUrl}`);
+
+        // First check if website is available
         const urlObj = new URL(testUrl);
         let check = await makeRequest(urlObj, 'HEAD', 0, queue);
         
+        // If HEAD request fails, try GET
         if (!check.isAvailable && check.statusCode !== 404) {
             console.log('HEAD request failed, trying GET...');
-            await new Promise(resolve => setTimeout(resolve, CONFIG.limits.REQUEST_DELAY));
+            await new Promise(resolve => setTimeout(resolve, 1000));
             check = await makeRequest(urlObj, 'GET', 0, queue);
         }
 
-        // If original site is available, use it
+        // If website is available, we're done
         if (check.isAvailable) {
-            console.log("✅ Original URL is available");
+            console.log("✅ URL is available");
             if (url !== testUrl) {
                 const updated = await updateFile(site.file, originalUrl, testUrl, site.type);
                 return updated ? {
                     file: site.file,
                     oldUrl: originalUrl,
                     newUrl: testUrl,
-                    status: "restored"
+                    status: "normalized"
                 } : null;
             }
             return null;
         }
 
-        // Step 2: Check Archive.org for best snapshot
-        console.log("Original not available, checking Archive.org for best snapshot...");
+        // If website is down, check Archive.org
+        console.log("URL not available, checking Archive.org...");
         const archiveResponse = await ArchiveChecker.checkArchive(testUrl, { returnFullResponse: true });
 
         if (archiveResponse?.available) {
-            const newArchiveUrl = archiveResponse.url;
             console.log(`Found in Archive.org with ${archiveResponse.snapshotCount} snapshots`);
-            
-            if (url !== newArchiveUrl) {
-                const updated = await updateFile(site.file, originalUrl, newArchiveUrl, site.type);
-                return updated ? {
-                    file: site.file,
-                    oldUrl: originalUrl,
-                    newUrl: newArchiveUrl,
-                    status: "archived",
-                    snapshotCount: archiveResponse.snapshotCount
-                } : null;
-            }
-            return null;
-        }
-
-        // Step 3: Mark as broken if both checks fail
-        console.log("Not available and not found in Archive.org");
-        const brokenUrl = `https://walletscrutiny.com/brokenlink/https://${cleanUrl}`;
-        
-        if (url !== brokenUrl) {
-            const updated = await updateFile(site.file, originalUrl, brokenUrl, site.type);
+            const updated = await updateFile(site.file, originalUrl, archiveResponse.url, site.type);
             return updated ? {
                 file: site.file,
                 oldUrl: originalUrl,
-                newUrl: brokenUrl,
-                status: "broken"
+                newUrl: archiveResponse.url,
+                status: "archived",
+                snapshotCount: archiveResponse.snapshotCount
             } : null;
         }
-        return null;
+
+        // If no archive found, mark as broken
+        console.log("Not found in Archive.org, marking as broken");
+        const brokenUrl = `https://walletscrutiny.com/brokenlink/https://${cleanUrl}`;
+        const updated = await updateFile(site.file, originalUrl, brokenUrl, site.type);
+        return updated ? {
+            file: site.file,
+            oldUrl: originalUrl,
+            newUrl: brokenUrl,
+            status: "broken"
+        } : null;
 
     } catch (error) {
-        console.error(`Error processing website ${testUrl}:`, error);
+        console.error(`Error processing website ${url}:`, error);
         return null;
     }
 }
-
 // Process websites in parallel
 async function processWebsitesInParallel(sites, updateFile) {
     const queue = new RequestQueue();
