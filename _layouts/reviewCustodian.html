@@ -3,18 +3,16 @@ layout: default
 ---
 
 <script>
-  window.pageAppId = "{{ page.appId }}";
+  window.pageAppId = "{{ page.platformReview.appId }}";
 </script>
 
 <div id="main" class="custodian-review" role="main">
-  {% if page.wsId %} 
-    <script>window.wsId="{{ page.wsId }}"</script> 
-  {% endif %}
+  {% assign platform_review = site[page.platformReview.type] | where: "appId", page.platformReview.appId | first %}
   
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     <meta itemprop="headline" content="{{ page.title | escape }}">
-    {% if page.excerpt %}
-      <meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">
+    {% if platform_review.excerpt %}
+      <meta itemprop="description" content="{{ platform_review.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">
     {% endif %}
     {% if page.date %}
       <meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">
@@ -22,8 +20,8 @@ layout: default
 
     <div class="page__inner-wrap">
       <div class="app-summary-grid">
-        {% if page.icon %}
-          <img src="/images/wIcons/custodians/{{ page.wsId }}.jpg" class="app_logo_big" alt="Custodian Logo">
+        {% if platform_review.icon %}
+          <img src="/images/wIcons/{{ page.platformReview.type }}/{{ platform_review.icon }}" class="app_logo_big" alt="Custodian Logo">
         {% endif %}
         
         <div class="app-sum-head">
@@ -31,24 +29,24 @@ layout: default
             {{ page.title | escape }}
           </h1>
 
-          {% if page.website %}
-            <a href="{{ page.website }}" class="link-web subtle">
+          {% if platform_review.website %}
+            <a href="{{ platform_review.website }}" class="link-web subtle">
               <i class="fas fa-globe"></i> Website
             </a>
+          {% endif %}
+
+          {% if platform_review.users %}
+            <div class="users">
+              <i class="fas fa-users"></i> {{ platform_review.users }} users
+            </div>
           {% endif %}
         </div>
       </div>
 
       <section class="page__content" itemprop="text">
-
         
-        {% include review/securityOverview.html %}
-        
-        <div class="custodian-details review-steps">
-          {% include review/steps/custodian_review.html custodian=page %}
-        </div>
-
-        {% if page.reviewArchive %}
+        {% include review/custodianOverview.html %}
+        {% if platform_review.reviewArchive %}
           {% include review/archive.html %}
         {% endif %}
 
