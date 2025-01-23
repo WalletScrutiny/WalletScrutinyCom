@@ -124,7 +124,19 @@ async function handleFile(file) {
         await handleUnknownFile(file, hash);
     }
 
+
+    // If we have a form with a sha256 input, set it to the hash
+    if (document.getElementById('sha256')) {
+        document.getElementById('sha256').value = hash;
+    }
+
+    // If we have a form with a appId input, set it to the appId
+    if (document.getElementById('appId') && appData.appId) {
+        document.getElementById('appId').value = appData.appId;
+    }
+
     // Get attestations information for this hash from Nostr
+    await nostrConnect();
     const allAssetsInformation = await getAllAssetInformation({
         months: 12,
         sha256: hash
@@ -147,7 +159,7 @@ async function handleFile(file) {
         addButtonToDropArea(buttonText, `/new_attestation/?sha256=${encodeURIComponent(hash)}&assetEventId="aaaaaa"`, "btn btn-primary");
         addMessageToDropArea(message);
     } else {
-        let url = `/new_asset/?sha256=${encodeURIComponent(hash)}&assetEventId="aaaaaa"`;
+        let url = `/new_asset/?sha256=${encodeURIComponent(hash)}`;
 
         if (appData) {
             url += `&appId=${encodeURIComponent(appData.appId)}`;
@@ -268,7 +280,6 @@ function showUnsupportedFileMessage(file) {
 }
 
 function displayFileInfo(file, hash, appId) {
-    console.log("Displaying file info");
     updateDomElement('file-info', `
         <h3>File Information</h3>
         <strong>File:</strong> ${file ? file.name : 'N/A'}<br>
@@ -281,7 +292,6 @@ function displayFileInfo(file, hash, appId) {
 function displayAppData(appData) {
     const app = window.wallets.find(it => it.appId === appData.appId);
 
-    console.log("Displaying app data");
     updateDomElement('app-data', `
         <h3>${app.title}</h3>
         <strong>Verdict:</strong><span class="verdict ${appData.verdict}">${appData.verdict}</span><br>
@@ -314,7 +324,7 @@ function showUnknownVersionMessage(apkInfo, hash) {
 /*
         addButtonToDropArea(
             `Register new asset_222`,
-            `/new_asset/?sha256=${encodeURIComponent(hash)}&assetEventId="aaaaaa"&appId=${encodeURIComponent(app.appId)}`,
+            `/new_asset/?sha256=${encodeURIComponent(hash)}&appId=${encodeURIComponent(app.appId)}`,
             "btn btn-primary"
         );
 */
@@ -329,7 +339,7 @@ function showUnknownVersionMessage(apkInfo, hash) {
             </ul>
             <p>Sorry, but we don't have any information about this application in our database yet.</p>`;
 
-        //let url = `/new_asset/?sha256=${encodeURIComponent(hash)}&assetEventId="aaaaaa"&appId=${encodeURIComponent(app.appId)}`;
+        //let url = `/new_asset/?sha256=${encodeURIComponent(hash)}&appId=${encodeURIComponent(app.appId)}`;
         //addButtonToDropArea(`Register new asset_333`, url, "btn btn-primary");
     }
 
