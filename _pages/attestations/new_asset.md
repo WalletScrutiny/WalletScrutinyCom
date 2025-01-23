@@ -21,6 +21,12 @@ permalink: /new_asset/
 
   <form id="assetForm" onsubmit="handleSubmit(event)">
     <div class="form-group">
+      <label for="sha256">Hash (sha256)*:</label>
+      <input type="text" id="sha256" name="sha256" class="form-control" required>
+      <small class="form-text">Example: deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe</small>
+    </div>
+
+    <div class="form-group">
       <label for="appId">App ID:</label>
       <input type="text" id="appId" name="appId" class="form-control" autocomplete="off">
       <div id="appIdSuggestions" class="suggestions-container"></div>
@@ -37,12 +43,6 @@ permalink: /new_asset/
       <label for="name">Asset Name*:</label>
       <input type="text" id="name" name="name" class="form-control" required>
       <small class="form-text">Example: Universal APK from Github / Debian package amd64 / MacOS App Store</small>
-    </div>
-
-    <div class="form-group">
-      <label for="sha256">Hash (sha256)*:</label>
-      <input type="text" id="sha256" name="sha256" class="form-control" required>
-      <small class="form-text">Example: deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe</small>
     </div>
 
     <div class="form-group">
