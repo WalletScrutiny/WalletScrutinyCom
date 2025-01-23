@@ -79,43 +79,6 @@ function setupHighlightEvents(element) {
     });
 }
 
-function processFiles(files) {
-    if (files.length > 1) {
-        alert('Please select or drop only one file at a time.');
-        return;
-    }
-
-    clearFileList();  // Clear the list before displaying new information
-    handleFile(files[0]);
-}
-
-async function handleFile(file) {
-    console.time("Total handleFile time");
-
-    const hash = await calculateFileHash(file);
-
-    disableHoverMode();
-
-    // Display initial file information
-    displayFileInfo(file, hash);
-
-    // Start fetching app data
-    const appData = await fetchAppData(hash);
-
-    if (appData) { // Hash is in attestations.json        
-        displayFileInfo(file, hash, appData.appId);
-        displayAppData(appData);
-        if (isAppIdCorrect(appData.appId, hash)) {
-            scrollToVersion(appData.version);
-        }
-    } else { // Hash is NOT in attestations.json
-        await handleUnknownFile(file, hash);
-    }
-
-    console.timeEnd("Total handleFile time");
-    console.log(`for file: ${file.name}, ${formatFileSize(file.size)}`);
-}
-
 function disableHoverMode() {
     const select = document.getElementById('select');
     select.classList.remove('hover-mode');
@@ -129,9 +92,75 @@ function disableHoverMode() {
     selectLabel.textContent = "Select a new file";
 }
 
+function processFiles(files) {
+    if (files.length > 1) {
+        alert('Please select or drop only one file at a time.');
+        return;
+    }
+
+    // Clear the drop-area before displaying new information
+    ['file-info', 'app-data', 'drop-area-buttons', 'drop-area-messages'].forEach(id => updateDomElement(id, ''));
+
+    handleFile(files[0]);
+}
+
+async function handleFile(file) {
+    const hash = await calculateFileHash(file);
+
+    disableHoverMode();
+
+    // Display initial file information
+    displayFileInfo(file, hash);
+
+    // Start fetching app data from legacy attestation.json
+    const appData = await fetchAppData(hash);
+    if (appData) { // Hash is in attestations.json
+        displayFileInfo(file, hash, appData.appId);
+        displayAppData(appData);
+        if (isAppIdCorrect(appData.appId, hash)) {
+            scrollToVersion(appData.version);
+        }
+    } else { // Hash is NOT in attestations.json
+        await handleUnknownFile(file, hash);
+    }
+
+    // Get attestations information for this hash from Nostr
+    const allAssetsInformation = await getAllAssetInformation({
+        months: 12,
+        sha256: hash
+    });
+    console.log("allAssetsInformation", allAssetsInformation);
+
+    const hasAssets = allAssetsInformation.assets && allAssetsInformation.assets.size > 0;
+    const hasAttestations = allAssetsInformation.attestations && allAssetsInformation.attestations.size > 0;
+    if (hasAssets) {
+        let message = `<li>This asset has already been registered in Nostr,`;
+        let buttonText;
+
+        if (hasAttestations) {
+            message += ` and it has attestations.</li>`;
+            buttonText = "Create a new attestation";
+        } else {
+            message += ` but it doesn't have attestations yet. You can create one by clicking the button.</li>`;
+            buttonText = "Create attestation";
+        }
+        addButtonToDropArea(buttonText, `/new_attestation/?sha256=${encodeURIComponent(hash)}&assetEventId="aaaaaa"`, "btn btn-primary");
+        addMessageToDropArea(message);
+    } else {
+        let url = `/new_asset/?sha256=${encodeURIComponent(hash)}&assetEventId="aaaaaa"`;
+
+        if (appData) {
+            url += `&appId=${encodeURIComponent(appData.appId)}`;
+        }
+
+        addButtonToDropArea(`Register new asset`, url, "btn btn-primary");
+        addMessageToDropArea(`<li>Register this new asset so you or others can try to reproduce it.</li>`);
+    }
+}
+
 async function handleUnknownFile(file, hash) {
     if (!uploadsActivated) {
-        await processUnknownApk(file, hash);
+        await processUnknownFile(file, hash);
         return;
     }
 
@@ -141,31 +170,25 @@ async function handleUnknownFile(file, hash) {
     if (existsInBlossom) {
         displayBlossomFileInfo(file.name, hash);
     } else {
-        await processUnknownApk(file, hash);
+        await processUnknownFile(file, hash);
         await uploadToBlossom(file, hash);
     }
 }
 
-async function processUnknownApk(file, hash) {
-    // Parse APK file only if it's an APK
-    if (file.name.toLowerCase().endsWith('.apk')) {
-        try {
-            const apkInfo = await parseAPK(file);
-            if (apkInfo) {
-                displayFileInfo(file, hash, apkInfo.package);
-                showUnknownVersionMessage(apkInfo);
-                isAppIdCorrect(apkInfo.package, hash);
-            }
-            else {
-                showNoApkMessage();
-            }
-        } catch (error) {
-            showNoApkMessage();
-            console.warn('Error processing APK:', error);
+async function processUnknownFile(file, hash) {
+    try {
+        const parser = new AppInfoParser(file);
+        const apkInfo = await parser.parse();
+        
+        if (apkInfo) {
+            console.log("Processing unknown file");
+            displayFileInfo(file, hash, apkInfo.package);
+            showUnknownVersionMessage(apkInfo, hash);
+            isAppIdCorrect(apkInfo.package, hash);
         }
-    }
-    else {
-        showNoApkMessage();
+    } catch (error) {
+        console.debug("It's not an APK file:", error);
+        return null;
     }
 }
 
@@ -206,6 +229,7 @@ function updateUploadProgress(progress) {
 }
 
 function updateDomElement(elementId, htmlContent) {
+    console.log("Updating DOM element", elementId, htmlContent);
     const element = document.getElementById(elementId);
     if (element) {
         element.innerHTML = htmlContent;
@@ -244,6 +268,7 @@ function showUnsupportedFileMessage(file) {
 }
 
 function displayFileInfo(file, hash, appId) {
+    console.log("Displaying file info");
     updateDomElement('file-info', `
         <h3>File Information</h3>
         <strong>File:</strong> ${file ? file.name : 'N/A'}<br>
@@ -265,13 +290,16 @@ function displayAppData(appData) {
         <strong>Version:</strong> ${appData.version}<br>
         <strong>Date:</strong> ${appData.date || 'undefined'}<br>
     `);
+
+    return appData;
 }
 
-function showUnknownVersionMessage(apkInfo) {
+function showUnknownVersionMessage(apkInfo, hash) {
     const app = window.wallets.find(it => it.appId === apkInfo.package);
 
     let message;
 
+    console.log("Showing unknown version message", app);
     if (app) {
         // Case 1: We know this wallet/app
         message = `
@@ -283,6 +311,13 @@ function showUnknownVersionMessage(apkInfo) {
                 <li>An older version that we haven't tested</li>
                 <li>A modified version of the app</li>
             </ul>`;
+/*
+        addButtonToDropArea(
+            `Register new asset_222`,
+            `/new_asset/?sha256=${encodeURIComponent(hash)}&assetEventId="aaaaaa"&appId=${encodeURIComponent(app.appId)}`,
+            "btn btn-primary"
+        );
+*/
     } else {
         // Case 2: Unknown app
         message = `
@@ -293,55 +328,26 @@ function showUnknownVersionMessage(apkInfo) {
                 <li>Version: ${apkInfo.versionName}</li>
             </ul>
             <p>Sorry, but we don't have any information about this application in our database yet.</p>`;
+
+        //let url = `/new_asset/?sha256=${encodeURIComponent(hash)}&assetEventId="aaaaaa"&appId=${encodeURIComponent(app.appId)}`;
+        //addButtonToDropArea(`Register new asset_333`, url, "btn btn-primary");
     }
 
     updateDomElement('app-data', message);
 }
 
-
-function showNoApkMessage() {
-    updateDomElement('app-data', `
-        <h3>Invalid APK File</h3>
-        <p>The file could not be processed as a valid APK. Please ensure you're uploading a properly formatted Android application package.</p>
-    `);
-}
-
 async function calculateFileHash(file) {
-    console.time("calculateFileHash");
-    console.log("Calculating file hash");
-    const arrayBuffer = await file.arrayBuffer();
-    const hash = await sha256(arrayBuffer);
-    console.timeEnd("calculateFileHash");
-    return hash;
-}
-
-async function sha256(data) {
     console.time("sha256");
     console.log("Calculating SHA-256 hash");
-    const hash = await window.crypto.subtle.digest("SHA-256", data);
+    const arrayBuffer = await file.arrayBuffer();
+    const hash = await window.crypto.subtle.digest("SHA-256", arrayBuffer);
     const hashArray = Array.from(new Uint8Array(hash));
     const hex = hashArray.map(b => b.toString(16).padStart(2, "0")).join("");
     console.timeEnd("sha256");
     return hex;
 }
 
-async function parseAPK(file) {
-    console.time("parseAPK");
-    console.log("Parsing APK file");
-    try {
-        const parser = new AppInfoParser(file);
-        const result = await parser.parse();
-        console.timeEnd("parseAPK");
-        return result;
-    } catch (error) {
-        console.error('Error parsing APK:', error);
-        console.timeEnd("parseAPK");
-        return null;
-    }
-}
-
 async function fetchAppData(hash) {
-    console.time("fetchAppData");
     console.log("Fetching app data");
     try {
         const response = await fetch('/assets/attestations.json');
@@ -349,18 +355,11 @@ async function fetchAppData(hash) {
 
         const appData = await response.json();
         const results = appData.filter(app => app.appHashes && app.appHashes.includes(hash));
-        console.timeEnd("fetchAppData");
         return results.length > 0 ? results[0] : null;
     } catch (error) {
         console.error('Error loading app data:', error);
-        console.timeEnd("fetchAppData");
         return null;
     }
-}
-
-function clearFileList() {
-    console.log("Clearing file list");
-    ['file-info', 'app-data', 'redirect-button'].forEach(id => updateDomElement(id, ''));
 }
 
 function formatFileSize(bytes) {
@@ -379,31 +378,32 @@ function displayBlossomFileInfo(fileName, hash) {
 }
 
 function isAppIdCorrect(appId, hash) {
-    console.log("Checking if app ID is correct");
-    console.time("isAppIdCorrect");
     const appIdFromPage = window.pageAppId;
 
     if (appIdFromPage !== appId) {
         let app = window.wallets.find(it => it.appId === appId);
 
         if (app) {
-            showRedirectButton(app, hash);
+            addButtonToDropArea(`Go to "${app.title}" page`, `/${app.folder}/${app.appId}/?hash=${encodeURIComponent(hash)}`, "btn btn-primary");
+            addMessageToDropArea(`<li>You can go to the "${app.title}" application page to check for other attestations.</li>`);
         }
-        console.timeEnd("isAppIdCorrect");
+
         return false;
     }
-    console.timeEnd("isAppIdCorrect");
+
     return true;
 }
 
-function showRedirectButton(app, hash) {
-    console.log("Showing redirect button");
-    const redirectButtonDiv = document.getElementById('redirect-button');
-    redirectButtonDiv.innerHTML = ''; // Clear any existing content
-    const button = document.createElement('button');
-    button.innerHTML = `Go to correct page for "${app.title}"`;
-    button.onclick = () => {
-        window.location.href = `/${app.folder}/${app.appId}/?hash=${encodeURIComponent(hash)}`;
-    };
-    redirectButtonDiv.appendChild(button);
+function addButtonToDropArea(text, href, className = "btn btn-primary") {
+    const dropAreaButtonDiv = document.getElementById('drop-area-buttons');
+    const button = document.createElement('a');
+    button.innerHTML = text;
+    button.className = className;
+    button.href = href;
+    dropAreaButtonDiv.appendChild(button);
+}
+
+function addMessageToDropArea(message) {
+    const dropAreaMessageDiv = document.getElementById('drop-area-messages');
+    dropAreaMessageDiv.innerHTML += message;
 }
