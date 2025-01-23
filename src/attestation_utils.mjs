@@ -201,19 +201,6 @@ const createEndorsement = async function ({sha256, content, status, attestationE
   }
 }
 
-const getAssetsWithSHA256 = async function (sha256) {
-  console.debug("Getting assets for: ", sha256);
-
-  const assets = await ndk.fetchEvents({
-    kinds: [assetRegistrationKind],
-    "#x": [sha256]
-  });
-
-  for (const asset of assets) {
-    console.debug(asset.rawEvent());
-  }
-}
-
 function getFirstTag(event, tagName) {
   const tags = event.getMatchingTags(tagName);
   return tags.length === 0 ? "" : tags[0][1];
@@ -401,7 +388,6 @@ if (typeof window !== 'undefined') {
   window.createEndorsement = createEndorsement;
   window.createNostrNote = createNostrNote;
   window.getNostrProfile = getNostrProfile;
-  window.getAssetsWithSHA256 = getAssetsWithSHA256;
   window.getAllAssetInformation = getAllAssetInformation;
   window.getFirstTag = getFirstTag;
   window.getUserPubkey = getUserPubkey;
@@ -417,7 +403,6 @@ export {
   createEndorsement,
   createNostrNote,
   getNostrProfile,
-  getAssetsWithSHA256,
   getAllAssetInformation,
   getFirstTag,
   getUserPubkey,
