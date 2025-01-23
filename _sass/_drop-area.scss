@@ -29,8 +29,12 @@
     #file-list {
       text-align: left;
   
-      #redirect-button {
+      #drop-area-buttons {
         text-align: center;
+
+        a {
+          margin-right: 1rem;
+        }
       }
     }
   
