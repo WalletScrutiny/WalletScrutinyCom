@@ -1,11 +1,12 @@
 {% assign custodian = include.custodian %}
 
-<div class="custodian-review">
-  <!-- Hot/Cold Storage Design -->
-  <div class="review-section step methodology">
+<div class="security-overview">
+  <div class="review-section">
     <div class="step-header">
-      <div class="circle-number">1</div>
-      <i class="fas fa-server circle"></i>
+      <div class="icon-wrapper">
+        <div class="circle-bg storage"></div>
+        <i class="fas fa-server icon"></i>
+      </div>
       <div class="title">
         <h3>Do they publish their hot wallet and cold storage design and processes?</h3>
       </div>
@@ -29,10 +30,12 @@
   </div>
 
   <!-- Bitcoin Focus -->
-  <div class="review-section step methodology">
+  <div class="review-section">
     <div class="step-header">
-      <div class="circle-number">2</div>
-      <i class="fab fa-bitcoin circle"></i>
+      <div class="icon-wrapper">
+        <div class="circle-bg bitcoin"></div>
+        <i class="fab fa-bitcoin icon"></i>
+      </div>
       <div class="title">
         <h3>Is it bitcoin-only/bitcoin-optimized?</h3>
       </div>
@@ -66,10 +69,12 @@
   </div>
 
   <!-- Proof of Reserves -->
-  <div class="review-section step methodology">
+  <div class="review-section">
     <div class="step-header">
-      <div class="circle-number">3</div>
-      <i class="fas fa-file-alt circle"></i>
+      <div class="icon-wrapper">
+        <div class="circle-bg reserves"></div>
+        <i class="fas fa-file-alt icon"></i>
+      </div>
       <div class="title">
         <h3>Do they provide proof of reserves?</h3>
       </div>
@@ -94,10 +99,12 @@
   </div>
 
   <!-- Leadership & Jurisdiction -->
-  <div class="review-section step methodology">
+  <div class="review-section">
     <div class="step-header">
-      <div class="circle-number">4</div>
-      <i class="fas fa-globe circle"></i>
+      <div class="icon-wrapper">
+        <div class="circle-bg leadership"></div>
+        <i class="fas fa-globe icon"></i>
+      </div>
       <div class="title">
         <h3>Where is the company located and who are the key team members?</h3>
       </div>
@@ -121,10 +128,12 @@
   </div>
 
   <!-- Operations -->
-  <div class="review-section step methodology">
+  <div class="review-section">
     <div class="step-header">
-      <div class="circle-number">5</div>
-      <i class="fas fa-cogs circle"></i>
+      <div class="icon-wrapper">
+        <div class="circle-bg operations"></div>
+        <i class="fas fa-cogs icon"></i>
+      </div>
       <div class="title">
         <h3>What is the operational history and incident track record?</h3>
       </div>
@@ -142,10 +151,12 @@
   </div>
 
   <!-- Business Model -->
-  <div class="review-section step methodology">
+  <div class="review-section">
     <div class="step-header">
-      <div class="circle-number">6</div>
-      <i class="fas fa-briefcase circle"></i>
+      <div class="icon-wrapper">
+        <div class="circle-bg business"></div>
+        <i class="fas fa-briefcase icon"></i>
+      </div>
       <div class="title">
         <h3>What is the business model and revenue stream?</h3>
       </div>
@@ -171,10 +182,12 @@
   </div>
 
   <!-- Bitcoin Ecosystem -->
-  <div class="review-section step methodology">
+  <div class="review-section">
     <div class="step-header">
-      <div class="circle-number">7</div>
-      <i class="fab fa-bitcoin circle"></i>
+      <div class="icon-wrapper">
+        <div class="circle-bg ecosystem"></div>
+        <i class="fab fa-bitcoin icon"></i>
+      </div>
       <div class="title">
         <h3>What is the contribution to the Bitcoin ecosystem?</h3>
       </div>
@@ -198,10 +211,12 @@
   </div>
 
   <!-- User Access -->
-  <div class="review-section step methodology">
+  <div class="review-section">
     <div class="step-header">
-      <div class="circle-number">8</div>
-      <i class="fas fa-user-circle circle"></i>
+      <div class="icon-wrapper">
+        <div class="circle-bg access"></div>
+        <i class="fas fa-user-circle icon"></i>
+      </div>
       <div class="title">
         <h3>What are the user access requirements and restrictions?</h3>
       </div>
@@ -224,10 +239,12 @@
   </div>
 
   <!-- Security -->
-  <div class="review-section step methodology">
+  <div class="review-section">
     <div class="step-header">
-      <div class="circle-number">9</div>
-      <i class="fas fa-lock circle"></i>
+      <div class="icon-wrapper">
+        <div class="circle-bg security"></div>
+        <i class="fas fa-lock icon"></i>
+      </div>
       <div class="title">
         <h3>What are the security features and measures in place?</h3>
       </div>
@@ -254,6 +271,81 @@
 </div>
 
 <style>
+.security-overview .icon-wrapper {
+  position: relative;
+  width: 3rem;
+  height: 3rem;
+  margin: 0 1rem;
+}
+
+.security-overview .icon {
+  position: absolute;
+  font-size: 1.5rem;
+  color: white;
+  z-index: 2;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.security-overview .circle-bg {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.security-overview .circle-bg.storage {
+  background: #198754;  /* Green for storage */
+}
+
+.security-overview .circle-bg.bitcoin {
+  background: #f7931a;  /* Bitcoin orange */
+}
+
+.security-overview .circle-bg.reserves {
+  background: #0d6efd;  /* Blue for reserves */
+}
+
+.security-overview .circle-bg.leadership {
+  background: #6f42c1;  /* Purple for leadership */
+}
+
+.security-overview .circle-bg.operations {
+  background: #fd7e14;  /* Orange for operations */
+}
+
+.security-overview .circle-bg.business {
+  background: #20c997;  /* Teal for business */
+}
+
+.security-overview .circle-bg.ecosystem {
+  background: #0dcaf0;  /* Cyan for ecosystem */
+}
+
+.security-overview .circle-bg.access {
+  background: #6c757d;  /* Gray for access */
+}
+
+.security-overview .circle-bg.security {
+  background: #dc3545;  /* Red for security */
+}
+
+.security-overview .step-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.security-overview .title {
+  flex: 1;
+}
+
+.security-overview .title h3 {
+  margin: 0;
+}
+
 .custodian-review .step {
   position: relative;
   padding-left: 4rem;
@@ -405,5 +497,62 @@ li {
 .contributions li.active {
   background: #198754;
   color: white;
+}
+
+.security-overview .icon-wrapper {
+  position: relative;
+  margin: 0 1rem;
+}
+
+.security-overview .semi-circle {
+  position: absolute;
+  right: -1.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.security-overview .circle {
+  position: relative;
+  z-index: 1;
+}
+
+.security-overview .semi-circle.storage {
+  background: #198754;  /* Green for storage */
+}
+
+.security-overview .semi-circle.bitcoin {
+  background: #f7931a;  /* Bitcoin orange */
+}
+
+.security-overview .semi-circle.reserves {
+  background: #0d6efd;  /* Blue for reserves */
+}
+
+.security-overview .semi-circle.leadership {
+  background: #6f42c1;  /* Purple for leadership */
+}
+
+.security-overview .semi-circle.operations {
+  background: #fd7e14;  /* Orange for operations */
+}
+
+.security-overview .semi-circle.business {
+  background: #20c997;  /* Teal for business */
+}
+
+.security-overview .semi-circle.ecosystem {
+  background: #0dcaf0;  /* Cyan for ecosystem */
+}
+
+.security-overview .semi-circle.access {
+  background: #6c757d;  /* Gray for access */
+}
+
+.security-overview .semi-circle.security {
+  background: #dc3545;  /* Red for security */
 }
 </style>
