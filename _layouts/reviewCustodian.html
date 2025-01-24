@@ -6,7 +6,7 @@ layout: default
   window.pageAppId = "{{ page.platformReview.appId }}";
 </script>
 
-<div id="main" class="custodian-review" role="main">
+<div id="main" class="app-review" role="main">
   {% assign platform_review = site[page.platformReview.type] | where: "appId", page.platformReview.appId | first %}
   ABOVE CLASS PAGE
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
@@ -44,8 +44,12 @@ layout: default
       </div>
 
       <section class="page__content" itemprop="text">
-        
-        {% include review/custodianOverview.html %}
+        {% include review/custodianOverview.html 
+          meta=page.meta 
+          verdict=page.verdict 
+          custodian=page.custodian 
+          platformReview=page.platformReview 
+          platform=page.platformReview.type %}
         {% if platform_review.reviewArchive %}
           {% include review/archive.html %}
         {% endif %}

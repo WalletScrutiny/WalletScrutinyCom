@@ -19,51 +19,50 @@ custodian:
     name: "Coinbase Wallet Extension for Chrome"
     url: "/others/ext.coinbase"
 
-# Core custodial security aspects
-hotColdDesign:
-  published: true
-  lastUpdated: 2024-01-15
-  details: "98% of funds in cold storage. Multi-signature architecture. Geographic distribution of private keys."
-  documentation_url: "https://docs.pro.coinbase.com/security"
+  hotColdDesign:
+    published: true
+    lastUpdated: 2024-01-15
+    details: "98% of funds in cold storage. Multi-signature architecture. Geographic distribution of private keys."
+    documentation_url: "https://docs.pro.coinbase.com/security"
 
-bitcoinFocus:
-  bitcoinOptimized: true
+  bitcoinFocus:
+    bitcoinOptimized: true
 
-proofOfReserves:
-  supported: true
-  lastVerified: 2024-01-15
-  verificationUrl: "https://pro.coinbase.com/transparency"
-  details: "Monthly proof of reserves with public verification."
+  proofOfReserves:
+    supported: true
+    lastVerified: 2024-01-15
+    verificationUrl: "https://pro.coinbase.com/transparency"
+    details: "Monthly proof of reserves with public verification."
 
-leadership:
-  jurisdiction: "United States"
-  keyMembers:
-    - name: "Brian Armstrong"
-      role: "CEO"
+  leadership:
+    jurisdiction: "United States"
+    keyMembers:
+      - name: "Brian Armstrong"
+        role: "CEO"
 
-operations:
-  btcCustodied: "2.5M BTC"
-  incidentHistory: "No major security incidents since inception"
-  insuranceCoverage: "$255M for hot wallet funds"
+  operations:
+    btcCustodied: "2.5M BTC"
+    incidentHistory: "No major security incidents since inception"
+    insuranceCoverage: "$255M for hot wallet funds"
 
-businessModel:
-  type: "Exchange & Custody"
+  businessModel:
+    type: "Exchange & Custody"
 
-bitcoinContribution:
-  fossDevelopment: true
+  bitcoinContribution:
+    fossDevelopment: true
 
-userAccess:
-  kycRequired: true
-  kycLevel: "advanced"
-  withdrawalLimits:
-    daily: "100 BTC"
+  userAccess:
+    kycRequired: true
+    kycLevel: "advanced"
+    withdrawalLimits:
+      daily: "100 BTC"
 
-security:
-  features:
-    - "2FA"
-    - "FIDO2"
-    - "vaults"
-    - "address whitelisting"
+  security:
+    features:
+      - "2FA"
+      - "FIDO2"
+      - "vaults"
+      - "address whitelisting"
 
 appCountry: 
 website: http://pro.coinbase.com/
