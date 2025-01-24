@@ -31,43 +31,53 @@
 <h2>Apps</h2>
 <div class="see-also">
   {% if custodian.androidApp %}
-    <div class="app-link">
-      <i class="fab fa-android"></i>
-      <a href="{{ custodian.androidApp.url }}">{{ custodian.androidApp.name }}</a>
-      <span class="app-store">Google Play</span>
-    </div>
+    <a href="{{ custodian.androidApp.url }}" class="app-link">
+      <div class="app-content">
+        <i class="fab fa-android"></i>
+        <span class="app-name">{{ custodian.androidApp.name }}</span>
+      </div>
+      <div class="app-store">Google Play</div>
+    </a>
   {% endif %}
   
   {% if custodian.iphoneApp %}
-    <div class="app-link">
-      <i class="fab fa-apple"></i>
-      <a href="{{ custodian.iphoneApp.url }}">{{ custodian.iphoneApp.name }}</a>
-      <span class="app-store">App Store</span>
-    </div>
+    <a href="{{ custodian.iphoneApp.url }}" class="app-link">
+      <div class="app-content">
+        <i class="fab fa-apple"></i>
+        <span class="app-name">{{ custodian.iphoneApp.name }}</span>
+      </div>
+      <div class="app-store">App Store</div>
+    </a>
   {% endif %}
   
   {% if custodian.webApp %}
-    <div class="app-link">
-      <i class="fas fa-globe"></i>
-      <a href="{{ custodian.webApp.url }}">{{ custodian.webApp.name }}</a>
-      <span class="app-store">Web</span>
-    </div>
+    <a href="{{ custodian.webApp.url }}" class="app-link">
+      <div class="app-content">
+        <i class="fas fa-globe"></i>
+        <span class="app-name">{{ custodian.webApp.name }}</span>
+      </div>
+      <div class="app-store">Web</div>
+    </a>
   {% endif %}
 
   {% if custodian.browserExtension %}
-    <div class="app-link">
-      <i class="fab fa-chrome"></i>
-      <a href="{{ custodian.browserExtension.url }}">{{ custodian.browserExtension.name }}</a>
-      <span class="app-store">Chrome Extension</span>
-    </div>
+    <a href="{{ custodian.browserExtension.url }}" class="app-link">
+      <div class="app-content">
+        <i class="fab fa-chrome"></i>
+        <span class="app-name">{{ custodian.browserExtension.name }}</span>
+      </div>
+      <div class="app-store">Chrome Extension</div>
+    </a>
   {% endif %}
   
   {% if custodian.desktopApp %}
-    <div class="app-link">
-      <i class="fas fa-desktop"></i>
-      <a href="{{ custodian.desktopApp.url }}">{{ custodian.desktopApp.name }}</a>
-      <span class="app-store">Desktop App</span>
-    </div>
+    <a href="{{ custodian.desktopApp.url }}" class="app-link">
+      <div class="app-content">
+        <i class="fas fa-desktop"></i>
+        <span class="app-name">{{ custodian.desktopApp.name }}</span>
+      </div>
+      <div class="app-store">Desktop App</div>
+    </a>
   {% endif %}
 </div>
 
@@ -408,37 +418,74 @@
   top: 0;
   transform: translateX(0);
   font-size: 1.2rem;
-  border: 2px solid #ccc;
+  border: 2px solid transparent;
   z-index: 1;
+  color: white;
 }
 
-/* Icon classes */
+/* Icon colors */
 .circle.storage {
-  /* E.g. greenish or whatever color you prefer */
+  background: #2ecc71;  /* Green for storage/security */
+  border-color: #27ae60;
 }
+
 .circle.bitcoin {
-  /* Bitcoin orange, etc. */
+  background: #f7931a;  /* Bitcoin orange */
+  border-color: #e07d16;
 }
+
 .circle.reserves {
-  /* Some color */
+  background: #3498db;  /* Blue for financial/reserves */
+  border-color: #2980b9;
 }
+
 .circle.leadership {
-  /* Some color */
+  background: #9b59b6;  /* Purple for leadership */
+  border-color: #8e44ad;
 }
+
 .circle.operations {
-  /* Some color */
+  background: #e74c3c;  /* Red for operations */
+  border-color: #c0392b;
 }
+
 .circle.business {
-  /* Some color */
+  background: #34495e;  /* Dark blue for business */
+  border-color: #2c3e50;
 }
+
 .circle.ecosystem {
-  /* Some color */
+  background: #1abc9c;  /* Turquoise for ecosystem */
+  border-color: #16a085;
 }
+
 .circle.access {
-  /* Some color */
+  background: #f1c40f;  /* Yellow for access */
+  border-color: #f39c12;
 }
+
 .circle.security {
-  /* Some color */
+  background: #7f8c8d;  /* Gray for security */
+  border-color: #95a5a6;
+}
+
+/* Add a subtle shadow and glow effect */
+.circle i {
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.circle::after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border-radius: 50%;
+  background: inherit;
+  filter: blur(8px);
+  opacity: 0.15;
+  z-index: -1;
 }
 
 /* Title area for each step */
@@ -499,28 +546,50 @@
 .see-also {
   margin-top: 1.5rem;
 }
+
 .app-link {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin-bottom: 0.5rem;
   background-color: #b5c1db;
-  padding: 0.5rem 1rem;
+  padding: 0.75rem 1rem;
   border-radius: 8px;
   text-decoration: none;
   color: #212529;
+  transition: all 0.2s ease-in-out;
 }
-.app-link i {
+
+.app-link:hover {
+  background-color: #a3b0cf;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.app-content {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.app-content i {
   font-size: 1.2rem;
-  margin-right: 0.75rem;
 }
+
 .app-store {
   font-size: 0.8rem;
-  color: #6c757d;
-  padding: 0.25rem 0.5rem;
-  background-color: #f3f4f7;
+  color: #212529;
+  padding: 0.35rem 0.75rem;
+  background-color: white;
   border-radius: 4px;
-  margin-left: auto;
+  font-weight: 500;
+  transition: background-color 0.2s ease-in-out;
 }
+
+.app-link:hover .app-store {
+  background-color: #f8f9fa;
+}
+
 .bitcoin-status {
   margin-bottom: 1rem;
 }
