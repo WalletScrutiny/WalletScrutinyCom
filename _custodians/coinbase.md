@@ -1,12 +1,39 @@
 ---
 layout: reviewCustodian
-title: "Coinbase"
+title: "Coinbase, Inc."
 platformReview:
   type: custodians
   appId: coinbase
 icon: coinbase.jpg
 
 custodian:
+  leadership:
+    jurisdiction: 🇺🇸 "United States"
+    yearsInBusiness: "11"
+    ceo:
+      name: "Brian Armstrong"
+      position: "CEO, Co-founder and Chairman of the Board"
+      tenure: "2012-present"
+      nationality: "American"
+      photo: "/images/wIcons/custodians/leadership/coinbase-brian-armstrong.jpeg"
+      social:
+        twitter: "https://twitter.com/brian_armstrong"
+        linkedin: "https://www.linkedin.com/in/barmstrong"
+        github: "https://github.com/barmstrong"
+    team:
+      - name: "Brian Armstrong"
+        role: "CEO, Co-founder and Chairman of the Board"
+      - name: "Emile Choi"
+        role: "President & Chief Operating Officer"
+      - name: "Alesia Haas"
+        role: "Chief Financial Officer"
+      - name: "L.J. Brock"
+        role: "Chief People Officer"
+      - name: "Paul Grewal"
+        role: "Chief Legal Officer"
+      - name: "Gregory Tusar"
+        role: "VP, Institutional Product"
+
   androidApp:
     name: "Coinbase: Buy Bitcoin & Crypto"
     url: "/android/com.coinbase.android"
@@ -41,13 +68,6 @@ custodian:
     supported: true
     details: "Publishes monthly proof of reserves..."
     verificationUrl: "https://pro.coinbase.com/transparency"
-
-  leadership:
-    jurisdiction: "United States"
-    yearsInBusiness: "11"
-    team:
-      - name: "Brian Armstrong"
-        role: "CEO"
 
   operations:
     btcCustodied: "2.5M BTC"
