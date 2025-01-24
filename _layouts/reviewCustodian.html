@@ -13,13 +13,58 @@ layout: default
     <meta itemprop="headline" content="{{ page.title | escape }}">
 
     <div class="page__inner-wrap">
-      <div class="app-summary-grid">
-        {% if page.icon %}
-          <img src="/images/wIcons/{{ page.platformReview.type }}/{{ page.icon }}" class="app_logo_big" alt="Custodian Logo">
-        {% endif %}
-        <div class="app-sum-head">
+      <div class="top-panel">
+        <div class="top-left">
+          {% if page.icon %}
+            <img src="/images/wIcons/{{ page.platformReview.type }}/{{ page.icon }}" class="app_logo_big" alt="Custodian Logo">
+          {% endif %}
           <h1 class="page__title" itemprop="headline">{{ page.title | escape }}</h1>
         </div>
+
+        {% if page.custodian.leadership and page.custodian.leadership.ceo %}
+          {% assign ceo = page.custodian.leadership.ceo %}
+          <div class="top-right">
+            <div class="ceo-card">
+              <div class="ceo-photo">
+                {% if ceo.photo %}
+                  <img src="{{ ceo.photo | absolute_url }}" alt="CEO Photo">
+                {% else %}
+                  <i class="fas fa-user"></i>
+                {% endif %}
+              </div>
+              <div class="ceo-info">
+                <h3>{{ ceo.name }}</h3>
+                <p class="position">{{ ceo.position }}</p>
+                {% if ceo.tenure %}
+                  <p class="tenure">Tenure: {{ ceo.tenure }}</p>
+                {% endif %}
+                {% if ceo.nationality %}
+                  <p class="nationality">Nationality: {{ ceo.nationality }}</p>
+                {% endif %}
+
+                {% if ceo.social %}
+                  <div class="social-links">
+                    {% if ceo.social.twitter %}
+                      <a href="{{ ceo.social.twitter }}" class="twitter" target="_blank" rel="noopener">
+                        <i class="fab fa-twitter"></i>
+                      </a>
+                    {% endif %}
+                    {% if ceo.social.linkedin %}
+                      <a href="{{ ceo.social.linkedin }}" class="linkedin" target="_blank" rel="noopener">
+                        <i class="fab fa-linkedin"></i>
+                      </a>
+                    {% endif %}
+                    {% if ceo.social.github %}
+                      <a href="{{ ceo.social.github }}" class="github" target="_blank" rel="noopener">
+                        <i class="fab fa-github"></i>
+                      </a>
+                    {% endif %}
+                  </div>
+                {% endif %}
+              </div>
+            </div>
+          </div>
+        {% endif %}
       </div>
 
       <section class="page__content" itemprop="text">
@@ -30,3 +75,128 @@ layout: default
     </div>
   </article>
 </div>
+
+<style>
+/* Top Panel Layout */
+.top-panel {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1.5rem;
+  align-items: start;
+  margin-bottom: 1rem;
+}
+
+.top-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.top-right {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0;
+}
+
+/* CEO Card Styles */
+.ceo-card {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 0.75rem;
+  width: 320px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  border: 1px solid #dee2e6;
+  flex-direction: row;
+}
+
+.ceo-photo {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #dee2e6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ceo-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ceo-photo i {
+  font-size: 2rem;
+  color: #888;
+}
+
+.ceo-info {
+  text-align: left;
+  flex-grow: 1;
+  min-width: 0;
+}
+
+.ceo-info h3 {
+  margin: 0 0 0.25rem 0;
+  font-size: 1.1rem;
+  color: #24292e;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ceo-info p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #586069;
+  line-height: 1.3;
+}
+
+.ceo-info .position {
+  color: #0366d6;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.social-links {
+  margin-top: 0.5rem;
+  display: flex;
+  gap: 0.75rem;
+}
+
+.social-links a {
+  color: #586069;
+  font-size: 1.1rem;
+  transition: color 0.2s ease;
+}
+
+.social-links a:hover {
+  color: #0366d6;
+}
+
+.social-links .twitter:hover { color: #1da1f2; }
+.social-links .linkedin:hover { color: #0077b5; }
+.social-links .github:hover { color: #24292e; }
+
+/* Logo styling */
+.app_logo_big {
+  width: 128px;
+  height: 128px;
+  border-radius: 12px;
+  margin: 0;
+}
+
+/* Title styling */
+.page__title {
+  font-size: 2rem;
+  margin: 0;
+  font-weight: 700;
+  line-height: 1.2;
+}
+</style>
