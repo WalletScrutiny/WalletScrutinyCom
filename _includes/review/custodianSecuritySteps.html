@@ -1,8 +1,0 @@
-{% assign meta = include.meta %}
-{% assign verdict = include.verdict %}
-{% assign platform = include.platformReview.type %}
-{% assign custodian = include.custodian %}
-<div class="steps linked">
-  {% include /review/steps/developer.html %}
-  {% include /review/steps/custodian_audit.html custodian=custodian %}
-</div>
