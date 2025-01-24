@@ -1,0 +1,84 @@
+<div class="step developer">
+  <i class="fa fa-server circle storage"></i>
+ 
+  <div class="title">
+    <h3>Do they publish their hot wallet and cold storage design and processes?</h3>
+    <div class="textbox">
+      <div class="status {% if custodian.hotColdDesign.published %}published{% else %}not-published{% endif %}">
+        {% if custodian.hotColdDesign.published %}
+          <i class="fas fa-check"></i> Design Published
+        {% else %}
+          <i class="fas fa-times"></i> Design Not Published
+        {% endif %}
+      </div>
+
+      <div class="last-updated">Last Updated: {{ custodian.hotColdDesign.lastUpdated }}</div>
+
+      <div class="details">{{ custodian.hotColdDesign.details }}</div>
+      {% if custodian.hotColdDesign.documentation_url %}
+        <a href="{{ custodian.hotColdDesign.documentation_url }}" class="docs-link">
+          <i class="fas fa-external-link-alt"></i> View Documentation
+        </a>
+      {% endif %}
+    </div> 
+  </div>
+</div>
+
+<div class="step developer">
+  <i class="fa fa-briefcase circle"></i>
+ 
+  <div class="title">
+    <h3>Do they publish their hot wallet and cold storage design and processes?</h3>
+    <div class="textbox">
+      <div class="status {% if custodian.hotColdDesign.published %}published{% else %}not-published{% endif %}">
+        {% if custodian.hotColdDesign.published %}
+          <i class="fas fa-check"></i> Design Published
+        {% else %}
+          <i class="fas fa-times"></i> Design Not Published
+        {% endif %}
+      </div>
+
+      <div class="last-updated">Last Updated: {{ custodian.hotColdDesign.lastUpdated }}</div>
+
+      <div class="details">{{ custodian.hotColdDesign.details }}</div>
+      {% if custodian.hotColdDesign.documentation_url %}
+        <a href="{{ custodian.hotColdDesign.documentation_url }}" class="docs-link">
+          <i class="fas fa-external-link-alt"></i> View Documentation
+        </a>
+      {% endif %}
+    </div> 
+  </div>
+</div>
+
+<div class="step developer">
+  <i class="fab fa-bitcoin circle bitcoin"></i>
+  <div class="title">
+    <h3>Is it bitcoin-only/bitcoin-optimized?</h3>
+    <div class="textbox">
+      <div class="bitcoin-status">
+        {% if custodian.bitcoinFocus.bitcoinOnly %}
+          <span class="badge bitcoin-only">Bitcoin Only</span>
+        {% elsif custodian.bitcoinFocus.bitcoinOptimized %}
+          <span class="badge bitcoin-optimized">Bitcoin Optimized</span>
+        {% endif %}
+      </div>
+      <div class="supported-assets">
+        <h4>Supported Assets</h4>
+        <ul>
+          {% for asset in custodian.bitcoinFocus.supportedAssets %}
+            <li>{{ asset }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="bitcoin-features">
+        <h4>Bitcoin Features</h4>
+        <ul>
+          {% for feature in custodian.bitcoinFocus.bitcoinFeatures %}
+            <li>{{ feature }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="details">{{ custodian.bitcoinFocus.details }}</div>
+    </div>
+  </div>
+</div>
