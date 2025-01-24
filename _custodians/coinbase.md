@@ -9,11 +9,19 @@ icon: coinbase.jpg
 custodian:
   androidApp:
     name: "Coinbase: Buy Bitcoin & Crypto"
-    url: "https://play.google.com/store/apps/details?id=com.coinbase.android"
+    url: "./android/com.coinbase.android"
 
   iphoneApp:
     name: "Coinbase: Buy Bitcoin & Crypto"
-    url: "https://apps.apple.com/app/..."
+    url: "./iphone/com.vilcsak.bitcoin2"
+  
+  webApp:
+    name: "Coinbase: Web Wallet"
+    url: "./others/com.coinbase.web"
+
+  browserExtension:
+    name: "Coinbase: Buy Bitcoin & Crypto"
+    url: "./others/ext.coinbase"
 
   hotColdDesign:
     published: true
