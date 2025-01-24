@@ -21,8 +21,9 @@ icon: me.proton.wallet.android.png
 bugbounty: 
 meta: ok
 verdict: ftbfs
+appHashes: []
 date: 2024-08-12
-signer: 
+signer:
 reviewArchive: 
 twitter: ProtonPrivacy
 social:

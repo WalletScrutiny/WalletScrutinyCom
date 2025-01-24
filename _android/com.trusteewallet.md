@@ -22,28 +22,24 @@ issue: https://github.com/trustee-wallet/trusteeWallet/issues/180
 icon: com.trusteewallet.png
 bugbounty: 
 meta: ok
-verdict: nosource
-date: 2024-08-01
-signer: 
+verdict: wip
+appHashes: []
+date: 2025-01-22
+signer:
 reviewArchive:
-- date: 2024-07-25
-  version: 1.51.5
-  appHash: 
-  gitRevision: e97a3391fb3493e5f52e2235d5d73b957bdf46ac
-  verdict: nosource
 - date: 2023-10-03
   version: 1.51.5
-  appHash: 
+  appHashes: []
   gitRevision: 84b2b2e4897e57ca4a3cd4d8a89f516d5102a8fc
   verdict: ftbfs
 - date: 2020-01-24
   version: 1.29.347
-  appHash: 
+  appHashes: []
   gitRevision: 02efce0be192c630f747855adbd5b5f81661bf0a
   verdict: nonverifiable
 - date: 2019-12-28
-  version: '1.0'
-  appHash: 
+  version: 1.0
+  appHashes: []
   gitRevision: 1237739e1756c97af5da425627da4b910c9aa00b
   verdict: nonverifiable
 twitter: Trustee_Wallet
@@ -56,6 +52,10 @@ developerName: BlockSoft Lab
 features: 
 
 ---
+
+## Update 2025-01-22
+
+Version 1.51.10 is now available on Google Play as well as in their release section. This should be re-tested and is **for verification**.
 
 ### Update 2024-08-01:
 

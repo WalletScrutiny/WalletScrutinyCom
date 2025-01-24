@@ -20,8 +20,9 @@ icon: com.rockwallet.app.jpg
 bugbounty: 
 meta: ok
 verdict: nonverifiable
+appHashes: []
 date: 2023-08-28
-signer: 
+signer:
 reviewArchive: 
 twitter: rockwallet
 social:

@@ -23,12 +23,13 @@ icon: one.mixin.messenger.png
 bugbounty: 
 meta: ok
 verdict: ftbfs
+appHashes: []
 date: 2024-09-19
 signer: 
 reviewArchive:
 - date: 2021-10-18
   version: 0.32.6
-  appHash: 
+  appHashes: []
   gitRevision: 7145041114617ce3cbf596302a4fa7deb1a5df74
   verdict: ftbfs
 twitter: MixinMessenger

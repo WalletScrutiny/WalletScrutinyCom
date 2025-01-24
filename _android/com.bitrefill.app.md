@@ -24,11 +24,6 @@ verdict: custodial
 date: 2021-09-14
 signer: 
 reviewArchive:
-- date: 2019-12-25
-  version: 1.28.9
-  appHash: 
-  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
-  verdict: custodial
 twitter: bitrefill
 social:
 - https://www.facebook.com/bitrefill

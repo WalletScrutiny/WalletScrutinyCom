@@ -20,8 +20,9 @@ icon: technology.breez.client.jpg
 bugbounty: 
 meta: ok
 verdict: nonverifiable
+appHashes: []
 date: 2023-12-15
-signer: 
+signer:
 reviewArchive: 
 twitter: breez_tech
 social:

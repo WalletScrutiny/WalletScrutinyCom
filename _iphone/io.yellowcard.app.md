@@ -21,14 +21,10 @@ icon: io.yellowcard.app.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: []
 date: 2021-07-28
-signer: 
+signer:
 reviewArchive:
-- date: 2021-04-25
-  version: 1.3.0
-  appHash: 
-  gitRevision: d2e048f371ab14d6d8a699156755ca302bf2e74c
-  verdict: custodial
 twitter: yellowcard_app
 social:
 - https://www.linkedin.com/company/yellowcardapp

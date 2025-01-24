@@ -22,8 +22,9 @@ icon: io.aquawallet.android.png
 bugbounty: 
 meta: ok
 verdict: ftbfs
+appHashes: []
 date: 2024-09-06
-signer: 
+signer:
 reviewArchive: 
 twitter: AquaBitcoin
 social:
