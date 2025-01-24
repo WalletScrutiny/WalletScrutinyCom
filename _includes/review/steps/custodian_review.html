@@ -17,6 +17,20 @@
     </div>
   {% endif %}
   
+  {% if custodian.webApp %}
+    <div class="app-link">
+      <i class="fas fa-globe"></i> <a href="{{ custodian.webApp.url }}">{{ custodian.webApp.name }}</a>
+      <span class="app-store">Web</span>
+    </div>
+  {% endif %}
+
+  {% if custodian.browserExtension %}
+    <div class="app-link">
+      <i class="fab fa-chrome"></i> <a href="{{ custodian.browserExtension.url }}">{{ custodian.browserExtension.name }}</a>
+      <span class="app-store">Chrome Extension</span>
+    </div>
+  {% endif %}
+  
   {% if custodian.desktopApp %}
     <div class="app-link">
       <i class="fas fa-desktop"></i> <a href="{{ custodian.desktopApp.url }}">{{ custodian.desktopApp.name }}</a>

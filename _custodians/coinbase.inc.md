@@ -12,6 +12,12 @@ custodian:
   iphoneApp:
     name: "Coinbase: Buy Bitcoin & Crypto"
     url: "/iphone/com.vilcsak.bitcoin2"
+  webApp:
+    name: "Coinbase Web Wallet"
+    url: "/others/com.coinbase.web"
+  browserExtension:
+    name: "Coinbase Wallet Extension for Chrome"
+    url: "/others/ext.coinbase"
 
 # Core custodial security aspects
 hotColdDesign:
