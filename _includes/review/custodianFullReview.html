@@ -379,31 +379,37 @@
 /* The timeline/step containers */
 .step.developer {
   position: relative;
-  margin-left: 2rem;
-  padding-left: 2rem;
-  border-left: 2px dashed #ccc;
+  padding-left: 3rem;
   margin-bottom: 2rem;
 }
-.step.developer:last-child {
-  margin-bottom: 0;
+
+.step.developer::before {
+  content: '';
+  position: absolute;
+  left: 1.25rem;  
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background-color: #dee2e6;
+  z-index: 0;
 }
 
 /* The circle icons on the timeline */
-.step.developer .circle {
-  width: 2.5rem;
-  height: 2.5rem;
-  background: #f8f9fa;
-  border-radius: 50%;
-  color: #6c757d;
-  display: inline-flex;
+.circle {
+  display: flex;
   align-items: center;
   justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  background: white;
+  border-radius: 50%;
   position: absolute;
-  left: -1.35rem;
+  left: 0;
   top: 0;
-  transform: translate(-50%, 0);
+  transform: translateX(0);
   font-size: 1.2rem;
   border: 2px solid #ccc;
+  z-index: 1;
 }
 
 /* Icon classes */
