@@ -8,7 +8,7 @@ layout: default
 
 <div id="main" class="custodian-review" role="main">
   {% assign platform_review = site[page.platformReview.type] | where: "appId", page.platformReview.appId | first %}
-  
+  ABOVE CLASS PAGE
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     <meta itemprop="headline" content="{{ page.title | escape }}">
     {% if platform_review.excerpt %}

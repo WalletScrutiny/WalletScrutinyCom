@@ -5,6 +5,14 @@ platformReview:
   type: android
   appId: coinbase.inc
 
+custodian:
+  androidApp:
+    name: "Coinbase: Buy Bitcoin & Crypto"
+    url: "/android/com.coinbase.android"
+  iphoneApp:
+    name: "Coinbase: Buy Bitcoin & Crypto"
+    url: "/iphone/com.vilcsak.bitcoin2"
+
 # Core custodial security aspects
 hotColdDesign:
   published: true
