@@ -2,184 +2,31 @@
 layout: default
 ---
 
-<script>
-  window.pageAppId = "{{ page.platformReview.appId }}";
-</script>
-
 <div id="main" class="app-review" role="main">
-  {% assign platform_review = site[page.platformReview.type] | where: "appId", page.platformReview.appId | first %}
-  ABOVE CLASS PAGE
+
+  <!-- Optional: Expose appId to JavaScript -->
+  <script>
+    window.pageAppId = "{{ page.platformReview.appId }}";
+  </script>
+
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
     <meta itemprop="headline" content="{{ page.title | escape }}">
-    {% if platform_review.excerpt %}
-      <meta itemprop="description" content="{{ platform_review.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">
-    {% endif %}
-    {% if page.date %}
-      <meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">
-    {% endif %}
 
     <div class="page__inner-wrap">
       <div class="app-summary-grid">
-        {% if platform_review.icon %}
-          <img src="/images/wIcons/{{ page.platformReview.type }}/{{ platform_review.icon }}" class="app_logo_big" alt="Custodian Logo">
+        {% if page.icon %}
+          <img src="/images/wIcons/{{ page.platformReview.type }}/{{ page.icon }}" class="app_logo_big" alt="Custodian Logo">
         {% endif %}
-        
         <div class="app-sum-head">
-          <h1 class="page__title" itemprop="headline">
-            {{ page.title | escape }}
-          </h1>
-
-          {% if platform_review.website %}
-            <a href="{{ platform_review.website }}" class="link-web subtle">
-              <i class="fas fa-globe"></i> Website
-            </a>
-          {% endif %}
-
-          {% if platform_review.users %}
-            <div class="users">
-              <i class="fas fa-users"></i> {{ platform_review.users }} users
-            </div>
-          {% endif %}
+          <h1 class="page__title" itemprop="headline">{{ page.title | escape }}</h1>
         </div>
       </div>
 
       <section class="page__content" itemprop="text">
-        {% include review/custodianOverview.html 
-          meta=page.meta 
-          verdict=page.verdict 
-          custodian=page.custodian 
-          platformReview=page.platformReview 
-          platform=page.platformReview.type %}
-        {% if platform_review.reviewArchive %}
-          {% include review/archive.html %}
-        {% endif %}
-
-        {% include review/seeAlso.html %}
+        {% include review/custodianFullReview.html
+             custodian=page.custodian
+             platformReview=page.platformReview %}
       </section>
     </div>
   </article>
 </div>
-
-<style>
-.custodian-review .review-steps {
-  margin-top: 2rem;
-}
-
-.custodian-review .review-section {
-  background: #fff;
-  border: 1px solid #e8e8e8;
-  border-radius: 4px;
-  margin-bottom: 1.5rem;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-}
-
-.custodian-review .review-section h3 {
-  margin: 0;
-  padding: 1rem;
-  background: #f8f9fa;
-  border-bottom: 1px solid #e8e8e8;
-  font-size: 1.1em;
-  color: #333;
-}
-
-.custodian-review .details-card {
-  padding: 1rem;
-}
-
-.custodian-review .badge {
-  display: inline-block;
-  padding: 0.25rem 0.75rem;
-  border-radius: 3px;
-  font-size: 0.9em;
-  font-weight: 500;
-  margin-right: 0.5rem;
-}
-
-.custodian-review .bitcoin-only {
-  background: #f7931a;
-  color: white;
-}
-
-.custodian-review .bitcoin-optimized {
-  background: #0d6efd;
-  color: white;
-}
-
-.custodian-review .status {
-  display: flex;
-  align-items: center;
-  margin-bottom: 1rem;
-  font-weight: 500;
-}
-
-.custodian-review .status i {
-  margin-right: 0.5rem;
-}
-
-.custodian-review .status.published,
-.custodian-review .status.supported {
-  color: #198754;
-}
-
-.custodian-review .status.not-published,
-.custodian-review .status.not-supported {
-  color: #dc3545;
-}
-
-.custodian-review ul {
-  list-style: none;
-  padding-left: 0;
-  margin: 0.5rem 0;
-}
-
-.custodian-review ul li {
-  margin-bottom: 0.5rem;
-  padding-left: 1.5rem;
-  position: relative;
-}
-
-.custodian-review ul li:before {
-  content: "•";
-  position: absolute;
-  left: 0.5rem;
-  color: #666;
-}
-
-.custodian-review .details {
-  margin-top: 1rem;
-  color: #666;
-  line-height: 1.5;
-}
-
-.custodian-review .app-summary-grid {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  gap: 2rem;
-  align-items: start;
-  margin-bottom: 2rem;
-}
-
-.custodian-review .app_logo_big {
-  width: 96px;
-  height: 96px;
-  border-radius: 12px;
-}
-
-.custodian-review .link-web {
-  display: inline-flex;
-  align-items: center;
-  text-decoration: none;
-  color: #666;
-  margin-top: 0.5rem;
-}
-
-.custodian-review .link-web i {
-  margin-right: 0.5rem;
-}
-
-.custodian-review h4 {
-  margin: 1rem 0 0.5rem;
-  font-size: 1em;
-  color: #333;
-}
-</style>
