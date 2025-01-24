@@ -9,19 +9,19 @@ icon: coinbase.jpg
 custodian:
   androidApp:
     name: "Coinbase: Buy Bitcoin & Crypto"
-    url: "./android/com.coinbase.android"
+    url: "/android/com.coinbase.android"
 
   iphoneApp:
     name: "Coinbase: Buy Bitcoin & Crypto"
-    url: "./iphone/com.vilcsak.bitcoin2"
+    url: "/iphone/com.vilcsak.bitcoin2"
   
   webApp:
     name: "Coinbase: Web Wallet"
-    url: "./others/com.coinbase.web"
+    url: "/others/com.coinbase.web"
 
   browserExtension:
     name: "Coinbase: Buy Bitcoin & Crypto"
-    url: "./others/ext.coinbase"
+    url: "/others/ext.coinbase"
 
   hotColdDesign:
     published: true
@@ -88,4 +88,3 @@ custodian:
 ---
 
 *(Markdown content for your page can go here. This text appears below the partial output, or you can leave it blank if you just want the partial’s content.)*
-
