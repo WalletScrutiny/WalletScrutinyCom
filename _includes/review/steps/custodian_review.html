@@ -1,6 +1,32 @@
 {% assign custodian = include.custodian %}
 
+<!-- See Also Now Apps -->
+<h2>Apps</h2>
+<div class="see-also">
+  {% if custodian.androidApp %}
+    <div class="app-link">
+      <i class="fab fa-android"></i> <a href="{{ custodian.androidApp.url }}">{{ custodian.androidApp.name }}</a>
+      <span class="app-store">Google Play</span>
+    </div>
+  {% endif %}
+  
+  {% if custodian.iphoneApp %}
+    <div class="app-link">
+      <i class="fab fa-apple"></i> <a href="{{ custodian.iphoneApp.url }}">{{ custodian.iphoneApp.name }}</a>
+      <span class="app-store">App Store</span>
+    </div>
+  {% endif %}
+  
+  {% if custodian.desktopApp %}
+    <div class="app-link">
+      <i class="fas fa-desktop"></i> <a href="{{ custodian.desktopApp.url }}">{{ custodian.desktopApp.name }}</a>
+      <span class="app-store">Desktop App</span>
+    </div>
+  {% endif %}
+</div>
+<!-- End of see also section -->
 <div class="security-overview">
+  custodian_review.html Below security-overview below review-section
   <div class="review-section">
     <div class="step-header">
       <div class="icon-wrapper">
@@ -268,6 +294,8 @@
       <div class="details">{{ custodian.security.details }}</div>
     </div>
   </div>
+
+  
 </div>
 
 <style>
@@ -554,5 +582,43 @@ li {
 
 .security-overview .semi-circle.security {
   background: #dc3545;  /* Red for security */
+}
+
+.see-also {
+  margin-top: 2rem;
+}
+
+.app-link {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  background-color: #b5c1db;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  height: 36px;
+}
+
+.app-link i {
+  font-size: 1.2rem;
+  margin-right: 0.75rem;
+  color: #212529;
+}
+
+.app-link a {
+  text-decoration: none;
+  color: #212529;
+  flex-grow: 1;
+  line-height: 1;
+}
+
+.app-link .app-store {
+  font-size: 0.875rem;
+  color: #6c757d;
+  padding: 0.25rem 0.5rem;
+  background-color: #f3f4f7;
+  border-radius: 4px;
+  margin-left: auto;
+  line-height: 1;
 }
 </style>
