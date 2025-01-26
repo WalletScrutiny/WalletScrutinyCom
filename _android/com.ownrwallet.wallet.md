@@ -27,7 +27,7 @@ signer:
 reviewArchive:
 - date: 2020-12-01
   version: 1.10.1
-  appHash: 
+  appHashes: []
   gitRevision: 8af53e3cbda241989d723aaebf71781579e70c3b
   verdict: custodial
 twitter: ownrwallet
