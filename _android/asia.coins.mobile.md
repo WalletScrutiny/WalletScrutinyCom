@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 - date: 2019-11-17
   version: 3.3.92
-  appHash: 
+  appHashes: []
   gitRevision: 372c9c03c6422faed457f1a9975d7cab8f13d01f
   verdict: nosource
 twitter: coinsph
