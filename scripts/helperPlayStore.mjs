@@ -3,8 +3,8 @@ import fs from 'fs/promises';
 import path from 'path';
 import helper from './helper.mjs';
 import { Semaphore } from 'async-mutex';
-process.env.TZ = 'UTC'; // fix timezone issues
 
+process.env.TZ = 'UTC'; // fix timezone issues
 const sem = new Semaphore(50);
 const stats = {
   removed: 0,
@@ -16,8 +16,8 @@ const category = 'android';
 const folder = `_${category}/`;
 const headers = ('wsId title altTitle authors users appId appCountry released ' +
                 'updated version stars ratings reviews size website repository ' +
-                'issue icon bugbounty meta verdict date signer reviewArchive ' +
-                'twitter social redirect_from ' + 'developerName features').split(' ');
+                'issue icon bugbounty meta verdict appHashes date signer reviewArchive ' +
+                'twitter social redirect_from developerName features').split(' ');
 
 async function refreshAll (ids, markDefunct) {
   var files;
