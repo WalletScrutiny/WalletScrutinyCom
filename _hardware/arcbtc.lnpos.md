@@ -22,6 +22,7 @@ icon: arcbtc.lnpos.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2022-04-04
 signer: 
 reviewArchive: 

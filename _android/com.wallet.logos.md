@@ -21,6 +21,7 @@ icon: com.wallet.logos.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-10-24
 signer: 
 reviewArchive: 

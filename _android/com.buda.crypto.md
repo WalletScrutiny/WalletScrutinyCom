@@ -21,6 +21,7 @@ icon: com.buda.crypto.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2022-01-07
 signer: 
 reviewArchive: 

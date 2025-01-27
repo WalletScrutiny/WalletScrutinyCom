@@ -20,6 +20,7 @@ icon: com.litefinance.cabinet.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-02-10
 signer: 
 reviewArchive: 

@@ -12,7 +12,7 @@ updated: 2024-12-12
 version: 1.6.14
 stars: 4.6
 ratings: 173
-reviews: 234
+reviews: 236
 size: 
 website: https://paybis.com/contacts/
 repository: 
@@ -21,6 +21,7 @@ icon: com.paybis.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2022-11-02
 signer: 
 reviewArchive: 

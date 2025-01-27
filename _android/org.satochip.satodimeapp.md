@@ -20,6 +20,7 @@ icon: org.satochip.satodimeapp.png
 bugbounty: 
 meta: ok
 verdict: fewusers
+appHashes: 
 date: 2023-06-08
 signer: 
 reviewArchive: 

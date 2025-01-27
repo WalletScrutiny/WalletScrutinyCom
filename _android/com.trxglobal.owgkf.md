@@ -21,6 +21,7 @@ icon: com.trxglobal.owgkf.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2023-04-12
 signer: 
 reviewArchive: 

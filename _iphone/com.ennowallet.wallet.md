@@ -20,6 +20,7 @@ icon: com.ennowallet.wallet.jpg
 bugbounty: 
 meta: defunct
 verdict: nobtc
+appHashes: 
 date: 2023-09-04
 signer: 
 reviewArchive: 

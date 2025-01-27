@@ -20,6 +20,7 @@ icon: com.sfc.fgwallet.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2022-06-30
 signer: 
 reviewArchive: 

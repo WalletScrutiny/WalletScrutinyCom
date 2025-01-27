@@ -20,6 +20,7 @@ icon: com.sofitto.sugi.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2024-12-31
 signer: 
 reviewArchive: 

@@ -10,9 +10,9 @@ appCountry:
 released: 2021-12-23
 updated: 2024-12-19
 version: 3.0.0
-stars: 4
+stars: 3.9
 ratings: 
-reviews: 31
+reviews: 32
 size: 
 website: http://thorwallet.org
 repository: 
@@ -21,6 +21,7 @@ icon: defisuisse.thorwallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2024-07-24
 signer: 
 reviewArchive: 

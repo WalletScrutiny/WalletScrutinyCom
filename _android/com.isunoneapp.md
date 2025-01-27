@@ -21,6 +21,7 @@ icon: com.isunoneapp.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2024-09-04
 signer: 
 reviewArchive: 

@@ -12,7 +12,7 @@ updated: 2022-10-18
 version: VARY
 stars: 4.5
 ratings: 36999
-reviews: 195
+reviews: 196
 size: 
 website: https://payeer.com
 repository: 
@@ -21,6 +21,7 @@ icon: com.payeer.png
 bugbounty: 
 meta: obsolete
 verdict: custodial
+appHashes: 
 date: 2024-10-07
 signer: 
 reviewArchive: 

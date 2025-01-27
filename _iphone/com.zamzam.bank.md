@@ -20,6 +20,7 @@ icon: com.zamzam.bank.jpg
 bugbounty: 
 meta: stale
 verdict: nowallet
+appHashes: 
 date: 2024-05-04
 signer: 
 reviewArchive: 

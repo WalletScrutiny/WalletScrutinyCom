@@ -21,6 +21,7 @@ icon: ee.swapp.idapp.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2023-07-31
 signer: 
 reviewArchive: 

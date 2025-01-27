@@ -20,6 +20,7 @@ icon: org.app.barteos.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-12-23
 signer: 
 reviewArchive: 

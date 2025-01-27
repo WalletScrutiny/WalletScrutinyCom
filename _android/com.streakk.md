@@ -21,6 +21,7 @@ icon: com.streakk.png
 bugbounty: 
 meta: stale
 verdict: nosource
+appHashes: 
 date: 2024-09-21
 signer: 
 reviewArchive: 

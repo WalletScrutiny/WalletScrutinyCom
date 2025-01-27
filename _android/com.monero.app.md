@@ -12,7 +12,7 @@ updated: 2025-01-05
 version: 1.19.1
 stars: 4.7
 ratings: 
-reviews: 37
+reviews: 39
 size: 
 website: https://cakewallet.com
 repository: 
@@ -21,6 +21,7 @@ icon: com.monero.app.jpg
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2023-04-28
 signer: 
 reviewArchive: 

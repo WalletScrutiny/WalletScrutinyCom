@@ -20,6 +20,7 @@ icon: com.swapcrypto.wallet.jpg
 bugbounty: 
 meta: obsolete
 verdict: fewusers
+appHashes: 
 date: 2023-12-01
 signer: 
 reviewArchive: 

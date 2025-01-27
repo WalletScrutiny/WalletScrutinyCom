@@ -22,6 +22,7 @@ icon: agrimint.png
 bugbounty: 
 meta: ok
 verdict: vapor
+appHashes: 
 date: 2024-10-18
 signer: 
 reviewArchive: 

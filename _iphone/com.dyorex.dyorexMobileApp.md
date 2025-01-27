@@ -8,11 +8,11 @@ appId: com.dyorex.dyorexMobileApp
 appCountry: tr
 idd: '1602952926'
 released: 2022-02-25
-updated: 2024-11-29
-version: 1.4.69
+updated: 2025-01-19
+version: 1.4.76
 stars: 4.8
 reviews: 22
-size: '87619584'
+size: '87558144'
 website: https://dyorex.com/
 repository: 
 issue: 
@@ -20,6 +20,7 @@ icon: com.dyorex.dyorexMobileApp.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-05-23
 signer: 
 reviewArchive: 

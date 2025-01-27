@@ -20,6 +20,7 @@ icon: com.swissborg.ios.community.jpg
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2022-07-01
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.krypto.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-07-14
 signer: 
 reviewArchive: 

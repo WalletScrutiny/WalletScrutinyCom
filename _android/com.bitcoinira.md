@@ -12,7 +12,7 @@ updated: 2025-01-03
 version: 1.5.69
 stars: 4.3
 ratings: 508
-reviews: 523
+reviews: 524
 size: 
 website: https://bitcoinira.com/
 repository: 
@@ -21,6 +21,7 @@ icon: com.bitcoinira.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-10-18
 signer: 
 reviewArchive: 

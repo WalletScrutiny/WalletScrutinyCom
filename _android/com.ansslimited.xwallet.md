@@ -20,6 +20,7 @@ icon: com.ansslimited.xwallet.png
 bugbounty: 
 meta: stale
 verdict: fewusers
+appHashes: 
 date: 2024-04-13
 signer: 
 reviewArchive: 

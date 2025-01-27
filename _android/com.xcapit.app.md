@@ -19,9 +19,10 @@ repository: https://gitlab.com/xcapit-foss/app
 issue: 
 icon: com.xcapit.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2022-06-22
+appHashes: 
+date: 2025-01-27
 signer: 
 reviewArchive: 
 twitter: 

@@ -22,6 +22,7 @@ icon: com.exchangily.wallet.png
 bugbounty: 
 meta: stale
 verdict: wip
+appHashes: 
 date: 2024-07-17
 signer: 
 reviewArchive: 

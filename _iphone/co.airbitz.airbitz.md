@@ -20,6 +20,7 @@ icon: co.airbitz.airbitz.jpg
 bugbounty: 
 meta: obsolete
 verdict: ftbfs
+appHashes: 
 date: 2021-10-19
 signer: 
 reviewArchive: 

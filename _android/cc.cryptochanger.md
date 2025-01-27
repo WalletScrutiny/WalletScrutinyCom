@@ -20,6 +20,7 @@ icon: cc.cryptochanger.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2021-10-22
 signer: 
 reviewArchive: 

@@ -12,7 +12,7 @@ updated: 2024-12-20
 version: 4.4.2
 stars: 4.6
 ratings: 11088
-reviews: 635
+reviews: 637
 size: 
 website: https://www.bitstamp.net
 repository: 
@@ -21,6 +21,7 @@ icon: net.bitstamp.app.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2020-05-29
 signer: 
 reviewArchive: 

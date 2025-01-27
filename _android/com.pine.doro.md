@@ -20,6 +20,7 @@ icon: com.pine.doro.jpg
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2021-09-16
 signer: 
 reviewArchive: 

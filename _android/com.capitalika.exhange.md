@@ -21,6 +21,7 @@ icon: com.capitalika.exhange.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2022-07-14
 signer: 
 reviewArchive: 

@@ -12,7 +12,7 @@ updated: 2024-11-25
 version: 3.7.07
 stars: 4
 ratings: 2855
-reviews: 5459
+reviews: 5486
 size: 
 website: https://brasilbitcoin.com.br
 repository: 
@@ -21,6 +21,7 @@ icon: br.com.brasilbitcoin.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-09-10
 signer: 
 reviewArchive: 

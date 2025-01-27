@@ -20,6 +20,7 @@ icon: kr.co.gopax.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-10-01
 signer: 
 reviewArchive: 

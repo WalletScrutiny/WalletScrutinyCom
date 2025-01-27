@@ -20,6 +20,7 @@ icon: com.tigerandpartners.Leo.jpg
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-06-17
 signer: 
 reviewArchive: 

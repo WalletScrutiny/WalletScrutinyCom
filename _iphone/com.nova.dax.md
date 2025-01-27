@@ -10,7 +10,7 @@ released: 2019-10-02
 updated: 2024-12-11
 version: 3.4.9
 stars: 4.6
-reviews: 2393
+reviews: 2448
 size: '83566592'
 website: 
 repository: 
@@ -19,6 +19,7 @@ icon: com.nova.dax.jpg
 bugbounty: 
 meta: ok
 verdict: wip
+appHashes: 
 date: 2024-10-07
 signer: 
 reviewArchive: 

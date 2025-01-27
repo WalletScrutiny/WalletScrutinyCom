@@ -20,6 +20,7 @@ icon: com.gleec.gleecdex.png
 bugbounty: 
 meta: ok
 verdict: fewusers
+appHashes: 
 date: 2024-07-05
 signer: 
 reviewArchive: 

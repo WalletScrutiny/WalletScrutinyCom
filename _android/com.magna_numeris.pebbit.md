@@ -20,6 +20,7 @@ icon: com.magna_numeris.pebbit.jpg
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-02-05
 signer: 
 reviewArchive: 

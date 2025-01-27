@@ -21,6 +21,7 @@ icon: org.p2p.wallet.png
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2023-09-28
 signer: 
 reviewArchive: 

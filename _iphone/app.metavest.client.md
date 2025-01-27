@@ -20,6 +20,7 @@ icon: app.metavest.client.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-08-08
 signer: 
 reviewArchive: 

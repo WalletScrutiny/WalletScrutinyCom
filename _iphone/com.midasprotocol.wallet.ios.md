@@ -20,6 +20,7 @@ icon: com.midasprotocol.wallet.ios.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-04-26
 signer: 
 reviewArchive: 

@@ -13,7 +13,7 @@ released: 2016-09-02
 updated: 2024-12-03
 version: 5.2.4
 stars: 4.7
-reviews: 4270
+reviews: 4275
 size: '67259392'
 website: https://tabtrader.com
 repository: 
@@ -22,6 +22,7 @@ icon: com.tabtrader.apps.TabTrader.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2021-04-17
 signer: 
 reviewArchive: 

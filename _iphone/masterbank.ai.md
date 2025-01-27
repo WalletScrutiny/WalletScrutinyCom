@@ -20,6 +20,7 @@ icon: masterbank.ai.jpg
 bugbounty: 
 meta: stale
 verdict: nobtc
+appHashes: 
 date: 2024-08-19
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.thecirclewalletapp.jpg
 bugbounty: 
 meta: obsolete
 verdict: nosource
+appHashes: 
 date: 2023-12-13
 signer: 
 reviewArchive: 

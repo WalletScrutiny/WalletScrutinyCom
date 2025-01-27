@@ -12,7 +12,7 @@ updated: 2025-01-05
 version: 2.1.4
 stars: 2.1
 ratings: 377
-reviews: 186
+reviews: 188
 size: 
 website: https://ecos.am
 repository: 
@@ -21,6 +21,7 @@ icon: am.ecos.android.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-10-07
 signer: 
 reviewArchive: 

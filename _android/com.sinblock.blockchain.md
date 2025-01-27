@@ -7,8 +7,8 @@ users: 10000
 appId: com.sinblock.blockchain
 appCountry: 
 released: 2022-09-22
-updated: 2024-12-19
-version: 4.7.1
+updated: 2025-01-24
+version: 4.7.6
 stars: 4.2
 ratings: 
 reviews: 2
@@ -20,6 +20,7 @@ icon: com.sinblock.blockchain.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-08-25
 signer: 
 reviewArchive: 

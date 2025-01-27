@@ -21,6 +21,7 @@ icon: cryptnex.ai.autobot.png
 bugbounty: 
 meta: defunct
 verdict: nowallet
+appHashes: 
 date: 2023-06-12
 signer: 
 reviewArchive: 

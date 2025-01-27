@@ -22,6 +22,7 @@ icon: diegolacomba.btchww.diy.png
 bugbounty: 
 meta: ok
 verdict: diy
+appHashes: 
 date: 2022-05-23
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.neobitcoin.wallet.png
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2023-08-25
 signer: 
 reviewArchive: 

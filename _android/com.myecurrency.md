@@ -21,6 +21,7 @@ icon: com.myecurrency.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-09-07
 signer: 
 reviewArchive: 

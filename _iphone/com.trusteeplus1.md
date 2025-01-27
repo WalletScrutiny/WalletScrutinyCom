@@ -11,7 +11,7 @@ released: 2022-07-18
 updated: 2024-12-18
 version: 1.32.2
 stars: 4.6
-reviews: 51
+reviews: 58
 size: '152105984'
 website: 
 repository: 
@@ -20,6 +20,7 @@ icon: com.trusteeplus1.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-10-07
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: org.zupago.pe.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2021-04-15
 signer: 
 reviewArchive: 

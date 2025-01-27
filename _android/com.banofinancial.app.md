@@ -21,6 +21,7 @@ icon: com.banofinancial.app.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-03-09
 signer: 
 reviewArchive: 

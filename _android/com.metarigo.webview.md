@@ -21,6 +21,7 @@ icon: com.metarigo.webview.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2023-09-05
 signer: 
 reviewArchive: 

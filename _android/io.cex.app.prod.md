@@ -12,7 +12,7 @@ updated: 2025-01-10
 version: 11.1.2
 stars: 4.3
 ratings: 16669
-reviews: 10833
+reviews: 10847
 size: 
 website: https://cex.io
 repository: 
@@ -21,6 +21,7 @@ icon: io.cex.app.prod.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-04-16
 signer: 
 reviewArchive: 

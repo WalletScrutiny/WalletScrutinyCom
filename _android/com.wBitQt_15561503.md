@@ -20,6 +20,7 @@ icon: com.wBitQt_15561503.jpg
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-01-02
 signer: 
 reviewArchive: 

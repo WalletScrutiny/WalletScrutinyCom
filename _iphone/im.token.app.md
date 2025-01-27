@@ -11,7 +11,7 @@ released: 2018-06-07
 updated: 2024-12-25
 version: 2.16.2
 stars: 4.2
-reviews: 962
+reviews: 970
 size: '132434944'
 website: https://token.im
 repository: 
@@ -20,6 +20,7 @@ icon: im.token.app.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2021-05-02
 signer: 
 reviewArchive: 

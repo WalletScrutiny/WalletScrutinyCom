@@ -11,7 +11,7 @@ released: 2016-01-25
 updated: 2021-10-13
 version: 3.1.33
 stars: 4.7
-reviews: 41420
+reviews: 41421
 size: '69145600'
 website: http://coincap.io
 repository: 
@@ -20,6 +20,7 @@ icon: io.coinCap.coinCap.jpg
 bugbounty: 
 meta: obsolete
 verdict: nowallet
+appHashes: 
 date: 2023-10-06
 signer: 
 reviewArchive: 

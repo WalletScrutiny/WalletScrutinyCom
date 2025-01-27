@@ -21,6 +21,7 @@ icon: io.wallet.png
 bugbounty: 
 meta: removed
 verdict: nosource
+appHashes: 
 date: 2022-02-25
 signer: 
 reviewArchive: 

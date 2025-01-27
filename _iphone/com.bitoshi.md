@@ -11,7 +11,7 @@ released: 2022-10-17
 updated: 2024-12-03
 version: 1.4.1
 stars: 4.8
-reviews: 979
+reviews: 1007
 size: '60686336'
 website: 
 repository: 
@@ -20,6 +20,7 @@ icon: com.bitoshi.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-11-01
 signer: 
 reviewArchive: 

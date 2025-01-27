@@ -21,6 +21,7 @@ icon: com.buyucoinApp.buyucoin.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-12-23
 signer: 
 reviewArchive: 

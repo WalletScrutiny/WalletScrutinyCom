@@ -11,7 +11,7 @@ released: 2019-06-04
 updated: 2025-01-14
 version: 3.32.1
 stars: 4.5
-reviews: 3486
+reviews: 3548
 size: '190983168'
 website: https://bit2me.com
 repository: 
@@ -20,6 +20,7 @@ icon: com.bit2me.flutter-ios.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-12-31
 signer: 
 reviewArchive: 

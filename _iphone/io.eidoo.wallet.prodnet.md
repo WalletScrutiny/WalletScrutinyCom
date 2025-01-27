@@ -20,6 +20,7 @@ icon: io.eidoo.wallet.prodnet.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
+appHashes: 
 date: 2023-01-11
 signer: 
 reviewArchive: 

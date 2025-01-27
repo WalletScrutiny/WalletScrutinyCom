@@ -20,6 +20,7 @@ icon: com.sp.spexchange.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-04-03
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.tradeatf.global.jpg
 bugbounty: 
 meta: removed
 verdict: nosendreceive
+appHashes: 
 date: 2022-03-07
 signer: 
 reviewArchive: 

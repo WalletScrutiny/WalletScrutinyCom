@@ -19,6 +19,7 @@ icon: me.cryptopay.app.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-03-10
 signer: 
 reviewArchive: 

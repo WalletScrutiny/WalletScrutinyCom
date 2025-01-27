@@ -12,7 +12,7 @@ updated: 2024-12-27
 version: 8.45.0
 stars: 4.1
 ratings: 4430
-reviews: 1617
+reviews: 1624
 size: 
 website: https://bitflyer.com
 repository: 
@@ -21,6 +21,7 @@ icon: com.bitflyer.android.bfwallet.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-08-27
 signer: 
 reviewArchive: 

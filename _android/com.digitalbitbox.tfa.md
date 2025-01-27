@@ -21,6 +21,7 @@ icon: com.digitalbitbox.tfa.png
 bugbounty: 
 meta: obsolete
 verdict: nowallet
+appHashes: 
 date: 2023-05-23
 signer: 
 reviewArchive: 

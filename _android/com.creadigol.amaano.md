@@ -20,6 +20,7 @@ icon: com.creadigol.amaano.png
 bugbounty: 
 meta: defunct
 verdict: fewusers
+appHashes: 
 date: 2023-03-21
 signer: 
 reviewArchive: 

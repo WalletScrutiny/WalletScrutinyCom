@@ -21,6 +21,7 @@ icon: com.revix.app.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-07-09
 signer: 
 reviewArchive: 

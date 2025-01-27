@@ -20,6 +20,7 @@ icon: com.trustdx.binance.png
 bugbounty: 
 meta: removed
 verdict: fake
+appHashes: 
 date: 2021-09-02
 signer: 
 reviewArchive: 

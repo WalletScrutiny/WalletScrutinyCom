@@ -21,6 +21,7 @@ icon: pro.cointr.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-10-23
 signer: 
 reviewArchive: 

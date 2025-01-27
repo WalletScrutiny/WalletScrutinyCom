@@ -21,6 +21,7 @@ icon: com.coinsuper.app.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2022-01-31
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.UFUND.app.jpg
 bugbounty: 
 meta: obsolete
 verdict: nowallet
+appHashes: 
 date: 2024-09-07
 signer: 
 reviewArchive: 

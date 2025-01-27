@@ -20,6 +20,7 @@ icon: com.paradise.finance.png
 bugbounty: 
 meta: ok
 verdict: fewusers
+appHashes: 
 date: 2023-03-03
 signer: 
 reviewArchive: 

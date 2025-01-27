@@ -1,6 +1,6 @@
 ---
 wsId: primeXBTCryptoTrading
-title: PrimeXBT Trading & Investing
+title: PrimeXBT — Trading Platform
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: com.primexbt.trade
 appCountry: 
 released: 2022-02-10
-updated: 2025-01-13
-version: 4.10.2
-stars: 3.7
+updated: 2025-01-24
+version: 4.11.4
+stars: 3.8
 ratings: 
-reviews: 43
+reviews: 44
 size: 
 website: https://primexbt.com/
 repository: 
@@ -21,6 +21,7 @@ icon: com.primexbt.trade.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-06-02
 signer: 
 reviewArchive: 

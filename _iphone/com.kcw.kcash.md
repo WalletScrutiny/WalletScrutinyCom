@@ -20,6 +20,7 @@ icon: com.kcw.kcash.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
+appHashes: 
 date: 2022-04-07
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.chainup.exchange.BKX.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-11-21
 signer: 
 reviewArchive: 

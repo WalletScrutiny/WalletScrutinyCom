@@ -20,6 +20,7 @@ icon: com.wBlocklink_11263223.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-08-16
 signer: 
 reviewArchive: 

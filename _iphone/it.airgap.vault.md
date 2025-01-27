@@ -22,7 +22,7 @@ meta: ok
 verdict: nonverifiable
 appHashes: []
 date: 2023-12-30
-signer:
+signer: 
 reviewArchive: 
 twitter: AirGap_it
 social:

@@ -21,6 +21,7 @@ icon: com.fatbtc.App.png
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-02-12
 signer: 
 reviewArchive: 

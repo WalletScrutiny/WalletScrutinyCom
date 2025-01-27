@@ -8,11 +8,11 @@ appId: com.foldapp
 appCountry: us
 idd: 1480424785
 released: 2019-11-18
-updated: 2024-12-10
-version: 140.4.6
+updated: 2025-01-24
+version: 141.0.1
 stars: 4.3
-reviews: 2012
-size: '116878336'
+reviews: 2017
+size: '106599424'
 website: http://foldapp.com
 repository: 
 issue: 
@@ -20,6 +20,7 @@ icon: com.foldapp.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2021-09-15
 signer: 
 reviewArchive: 

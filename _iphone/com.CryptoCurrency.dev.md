@@ -11,7 +11,7 @@ released: 2018-02-21
 updated: 2024-12-06
 version: 3.4.4
 stars: 4.7
-reviews: 2420
+reviews: 2428
 size: '240638976'
 website: https://thecrypto.app
 repository: 
@@ -20,6 +20,7 @@ icon: com.CryptoCurrency.dev.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2021-11-01
 signer: 
 reviewArchive: 

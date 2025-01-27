@@ -21,6 +21,7 @@ icon: kr.co.keypair.keywalletTouchiOS.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2024-11-07
 signer: 
 reviewArchive: 

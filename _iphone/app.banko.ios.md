@@ -20,6 +20,7 @@ icon: app.banko.ios.jpg
 bugbounty: 
 meta: obsolete
 verdict: wip
+appHashes: 
 date: 2023-09-19
 signer: 
 reviewArchive: 

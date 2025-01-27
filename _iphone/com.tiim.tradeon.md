@@ -20,6 +20,7 @@ icon: com.tiim.tradeon.jpg
 bugbounty: 
 meta: obsolete
 verdict: nowallet
+appHashes: 
 date: 2023-09-22
 signer: 
 reviewArchive: 

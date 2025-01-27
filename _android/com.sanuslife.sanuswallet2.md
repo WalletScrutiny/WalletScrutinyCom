@@ -21,6 +21,7 @@ icon: com.sanuslife.sanuswallet2.png
 bugbounty: 
 meta: stale
 verdict: nosource
+appHashes: 
 date: 2024-11-04
 signer: 
 reviewArchive: 

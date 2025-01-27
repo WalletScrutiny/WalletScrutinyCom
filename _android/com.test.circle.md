@@ -21,6 +21,7 @@ icon: com.test.circle.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2023-07-01
 signer: 
 reviewArchive: 

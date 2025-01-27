@@ -21,6 +21,7 @@ icon: io.stxr.structure.app.android.png
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2023-11-02
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.coinchat.coinchat.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2023-06-01
 signer: 
 reviewArchive: 

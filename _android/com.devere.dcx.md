@@ -21,6 +21,7 @@ icon: com.devere.dcx.png
 bugbounty: 
 meta: removed
 verdict: nosendreceive
+appHashes: 
 date: 2025-01-15
 signer: 
 reviewArchive: 

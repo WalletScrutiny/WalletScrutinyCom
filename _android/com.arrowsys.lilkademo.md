@@ -21,6 +21,7 @@ icon: com.arrowsys.lilkademo.png
 bugbounty: 
 meta: obsolete
 verdict: nowallet
+appHashes: 
 date: 2024-01-16
 signer: 
 reviewArchive: 

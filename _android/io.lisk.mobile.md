@@ -22,6 +22,7 @@ icon: io.lisk.mobile.png
 bugbounty: 
 meta: stale
 verdict: nobtc
+appHashes: 
 date: 2024-12-08
 signer: 
 reviewArchive: 

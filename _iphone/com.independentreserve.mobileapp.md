@@ -11,7 +11,7 @@ released: 2021-10-18
 updated: 2025-01-08
 version: 9.0.4
 stars: 4.7
-reviews: 1023
+reviews: 1136
 size: '83338240'
 website: https://www.independentreserve.com/
 repository: 
@@ -20,6 +20,7 @@ icon: com.independentreserve.mobileapp.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-07-01
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: app.codecellar.embitwallet.png
 bugbounty: 
 meta: ok
 verdict: fewusers
+appHashes: 
 date: 2021-08-02
 signer: 
 reviewArchive: 

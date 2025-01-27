@@ -21,6 +21,7 @@ icon: io.ambergroup.amber.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-09-11
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.dowallet.dowallet.jpg
 bugbounty: 
 meta: defunct
 verdict: nosource
+appHashes: 
 date: 2022-03-24
 signer: 
 reviewArchive: 

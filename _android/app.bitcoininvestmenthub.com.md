@@ -21,6 +21,7 @@ icon: app.bitcoininvestmenthub.com.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2023-04-19
 signer: 
 reviewArchive: 

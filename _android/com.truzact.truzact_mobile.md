@@ -21,6 +21,7 @@ icon: com.truzact.truzact_mobile.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-11-30
 signer: 
 reviewArchive: 

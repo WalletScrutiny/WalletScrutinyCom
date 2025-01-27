@@ -11,7 +11,7 @@ updated: 2024-11-06
 version: 2.19.1
 stars: 2
 ratings: 
-reviews: 10712
+reviews: 10713
 size: 
 website: https://hi.com/
 repository: 
@@ -20,6 +20,7 @@ icon: com.hi.dollars.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2022-12-06
 signer: 
 reviewArchive: 

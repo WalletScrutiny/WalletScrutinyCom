@@ -21,6 +21,7 @@ icon: com.club.sbgame.jpg
 bugbounty: 
 meta: stale
 verdict: nobtc
+appHashes: 
 date: 2024-03-30
 signer: 
 reviewArchive: 

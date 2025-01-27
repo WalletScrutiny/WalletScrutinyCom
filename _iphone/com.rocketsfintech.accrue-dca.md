@@ -11,7 +11,7 @@ released: 2022-01-18
 updated: 2024-12-01
 version: 3.6.0
 stars: 4.4
-reviews: 2473
+reviews: 2504
 size: '97813504'
 website: https://useaccrue.com
 repository: 
@@ -20,6 +20,7 @@ icon: com.rocketsfintech.accrue-dca.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-04-29
 signer: 
 reviewArchive: 

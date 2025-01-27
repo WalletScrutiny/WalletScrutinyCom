@@ -21,6 +21,7 @@ icon: de.gratisbroker.android.mobileapp.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
+appHashes: 
 date: 2023-03-02
 signer: 
 reviewArchive: 

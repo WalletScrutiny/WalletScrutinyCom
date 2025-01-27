@@ -20,6 +20,7 @@ icon: defisuisseag.thorwallet.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2023-06-30
 signer: 
 reviewArchive: 

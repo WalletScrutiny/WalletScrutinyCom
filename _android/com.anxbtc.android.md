@@ -21,6 +21,7 @@ icon: com.anxbtc.android.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2021-05-08
 signer: 
 reviewArchive: 

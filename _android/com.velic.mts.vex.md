@@ -21,6 +21,7 @@ icon: com.velic.mts.vex.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2023-05-03
 signer: 
 reviewArchive: 

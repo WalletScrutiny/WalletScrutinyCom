@@ -21,6 +21,7 @@ icon: com.arzif.android.jpg
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-09-03
 signer: 
 reviewArchive: 

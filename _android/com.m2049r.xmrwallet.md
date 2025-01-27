@@ -21,6 +21,7 @@ icon: com.m2049r.xmrwallet.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2021-02-27
 signer: 
 reviewArchive: 

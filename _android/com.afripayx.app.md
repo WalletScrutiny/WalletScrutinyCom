@@ -20,6 +20,7 @@ icon: com.afripayx.app.png
 bugbounty: 
 meta: obsolete
 verdict: fewusers
+appHashes: 
 date: 2024-04-10
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.clovrlabs.wallet.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-09-15
 signer: 
 reviewArchive: 

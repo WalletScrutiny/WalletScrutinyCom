@@ -20,6 +20,7 @@ icon: skywallet.net.jpg
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2022-05-31
 signer: 
 reviewArchive: 

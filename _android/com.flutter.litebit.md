@@ -21,6 +21,7 @@ icon: com.flutter.litebit.png
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-05-11
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.ibizsoftware.berith.png
 bugbounty: 
 meta: defunct
 verdict: nobtc
+appHashes: 
 date: 2023-06-21
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.servotech.coinzix.jpg
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-03-22
 signer: 
 reviewArchive: 

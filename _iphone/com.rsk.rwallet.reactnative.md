@@ -20,6 +20,7 @@ icon: com.rsk.rwallet.reactnative.jpg
 bugbounty: 
 meta: removed
 verdict: ftbfs
+appHashes: 
 date: 2023-05-17
 signer: 
 reviewArchive: 

@@ -12,7 +12,7 @@ updated: 2024-10-14
 version: 4.14.3
 stars: 4.1
 ratings: 
-reviews: 55
+reviews: 56
 size: 
 website: https://www.tronlink.org
 repository: 
@@ -21,6 +21,7 @@ icon: com.tronlink.global.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2023-06-13
 signer: 
 reviewArchive: 

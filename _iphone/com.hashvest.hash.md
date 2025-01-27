@@ -20,6 +20,7 @@ icon: com.hashvest.hash.jpg
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2024-10-31
 signer: 
 reviewArchive: 

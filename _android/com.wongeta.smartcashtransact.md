@@ -8,8 +8,8 @@ users: 5000
 appId: com.wongeta.smartcashtransact
 appCountry: 
 released: 2018-12-31
-updated: 2025-01-14
-version: '192'
+updated: 2025-01-26
+version: '194'
 stars: 
 ratings: 
 reviews: 
@@ -21,6 +21,7 @@ icon: com.wongeta.smartcashtransact.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-06-10
 signer: 
 reviewArchive: 

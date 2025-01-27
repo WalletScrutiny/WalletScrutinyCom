@@ -10,9 +10,9 @@ appCountry:
 released: 2022-05-17
 updated: 2024-09-04
 version: 2.2.2
-stars: 3.6
+stars: 3.7
 ratings: 
-reviews: 17
+reviews: 16
 size: 
 website: 
 repository: 
@@ -21,6 +21,7 @@ icon: io.github.keyhunter.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-09-04
 signer: 
 reviewArchive: 

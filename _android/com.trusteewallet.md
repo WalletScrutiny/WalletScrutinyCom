@@ -25,7 +25,7 @@ meta: ok
 verdict: wip
 appHashes: []
 date: 2025-01-22
-signer:
+signer: 
 reviewArchive:
 - date: 2023-10-03
   version: 1.51.5

@@ -20,6 +20,7 @@ icon: com.pentasecurity.pallet.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2022-03-24
 signer: 
 reviewArchive: 

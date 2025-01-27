@@ -21,6 +21,7 @@ icon: com.blockchain.bitcoin.wallet.png
 bugbounty: 
 meta: removed
 verdict: fake
+appHashes: 
 date: 2023-12-19
 signer: 
 reviewArchive:

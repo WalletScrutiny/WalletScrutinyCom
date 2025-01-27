@@ -21,6 +21,7 @@ icon: com.plutus.wallet.png
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2025-01-06
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.bitpay.copay.jpg
 bugbounty: 
 meta: obsolete
 verdict: wip
+appHashes: 
 date: 2023-12-14
 signer: 
 reviewArchive: 

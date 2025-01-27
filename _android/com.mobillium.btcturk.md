@@ -12,7 +12,7 @@ updated: 2024-08-09
 version: 1.30.0
 stars: 4.3
 ratings: 14766
-reviews: 5078
+reviews: 5081
 size: 
 website: https://www.btcturk.com
 repository: 
@@ -21,6 +21,7 @@ icon: com.mobillium.btcturk.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-10-10
 signer: 
 reviewArchive: 

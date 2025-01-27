@@ -9,7 +9,7 @@ appId: bipa.app.bipa
 appCountry: 
 released: 2021-01-18
 updated: 2025-01-14
-version: 4.0.0
+version: 4.0.2
 stars: 4.4
 ratings: 
 reviews: 11
@@ -21,6 +21,7 @@ icon: bipa.app.bipa.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-06-14
 signer: 
 reviewArchive: 

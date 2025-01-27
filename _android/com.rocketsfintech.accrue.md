@@ -10,9 +10,9 @@ appCountry:
 released: 2021-10-09
 updated: 2024-11-28
 version: 3.6.0
-stars: 4.1
+stars: 4.2
 ratings: 
-reviews: 37
+reviews: 38
 size: 
 website: https://useaccrue.com
 repository: 
@@ -21,6 +21,7 @@ icon: com.rocketsfintech.accrue.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-05-04
 signer: 
 reviewArchive: 

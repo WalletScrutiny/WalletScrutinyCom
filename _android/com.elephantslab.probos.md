@@ -21,6 +21,7 @@ icon: com.elephantslab.probos.png
 bugbounty: 
 meta: obsolete
 verdict: nosource
+appHashes: 
 date: 2024-09-20
 signer: 
 reviewArchive: 

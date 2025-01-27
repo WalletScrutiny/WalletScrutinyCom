@@ -12,9 +12,9 @@ appCountry:
 released: 2014-08-14
 updated: 2024-11-27
 version: 7.3.0
-stars: 3.9
+stars: 4
 ratings: 57218
-reviews: 1157
+reviews: 1158
 size: 
 website: http://www.tab-trader.com
 repository: 
@@ -23,6 +23,7 @@ icon: com.tabtrader.android.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2021-08-10
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.movocash.movo.jpg
 bugbounty: 
 meta: removed
 verdict: nosendreceive
+appHashes: 
 date: 2023-08-16
 signer: 
 reviewArchive: 

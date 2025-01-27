@@ -21,6 +21,7 @@ icon: com.uscreen.videotrading.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2024-12-15
 signer: 
 reviewArchive: 

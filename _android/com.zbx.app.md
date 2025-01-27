@@ -4,7 +4,7 @@ title: ZBX - Bitcoin & Cryptocurrency
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.zbx.app
 appCountry: us
 released: 2019-10-18
@@ -21,6 +21,7 @@ icon: com.zbx.app.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-11-15
 signer: 
 reviewArchive: 

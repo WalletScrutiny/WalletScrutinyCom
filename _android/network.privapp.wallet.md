@@ -21,6 +21,7 @@ icon: network.privapp.wallet.png
 bugbounty: 
 meta: removed
 verdict: nosource
+appHashes: 
 date: 2024-12-15
 signer: 
 reviewArchive: 

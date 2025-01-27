@@ -21,6 +21,7 @@ icon: com.argotrade.android.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
+appHashes: 
 date: 2022-07-14
 signer: 
 reviewArchive: 

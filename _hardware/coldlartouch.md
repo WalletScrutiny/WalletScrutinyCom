@@ -27,6 +27,7 @@ icon: coldlartouch.png
 bugbounty: 
 meta: ok
 verdict: noita
+appHashes: 
 date: 2024-12-09
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.patricia.build.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2023-08-29
 signer: 
 reviewArchive: 

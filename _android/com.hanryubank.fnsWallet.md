@@ -21,6 +21,7 @@ icon: com.hanryubank.fnsWallet.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2023-04-07
 signer: 
 reviewArchive: 

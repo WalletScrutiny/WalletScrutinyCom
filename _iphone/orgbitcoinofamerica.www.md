@@ -20,6 +20,7 @@ icon: orgbitcoinofamerica.www.jpg
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2023-08-04
 signer: 
 reviewArchive: 

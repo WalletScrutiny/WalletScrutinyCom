@@ -21,6 +21,7 @@ icon: com.walker.jtech.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-04-19
 signer: 
 reviewArchive: 

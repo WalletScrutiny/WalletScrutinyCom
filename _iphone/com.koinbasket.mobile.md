@@ -20,6 +20,7 @@ icon: com.koinbasket.mobile.jpg
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2024-11-19
 signer: 
 reviewArchive: 

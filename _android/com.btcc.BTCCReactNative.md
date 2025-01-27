@@ -10,7 +10,7 @@ appCountry:
 released: 2022-11-17
 updated: 2024-09-27
 version: 3.1.0
-stars: 4.5
+stars: 4.4
 ratings: 
 reviews: 79
 size: 
@@ -21,6 +21,7 @@ icon: com.btcc.BTCCReactNative.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-08-23
 signer: 
 reviewArchive: 

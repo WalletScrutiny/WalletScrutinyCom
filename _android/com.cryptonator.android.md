@@ -21,6 +21,7 @@ icon: com.cryptonator.android.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2022-04-25
 signer: 
 reviewArchive:

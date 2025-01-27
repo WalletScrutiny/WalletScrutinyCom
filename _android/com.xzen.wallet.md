@@ -21,6 +21,7 @@ icon: com.xzen.wallet.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2021-05-15
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.criptan.app.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-12-14
 signer: 
 reviewArchive: 

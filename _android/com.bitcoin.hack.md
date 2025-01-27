@@ -21,6 +21,7 @@ icon: com.bitcoin.hack.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2023-11-02
 signer: 
 reviewArchive: 

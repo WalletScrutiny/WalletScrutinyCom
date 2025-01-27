@@ -20,6 +20,7 @@ icon: co.busha.apple.jpg
 bugbounty: 
 meta: defunct
 verdict: custodial
+appHashes: 
 date: 2023-09-04
 signer: 
 reviewArchive: 

@@ -12,7 +12,7 @@ updated: 2024-12-27
 version: 6.9.4
 stars: 4.4
 ratings: 413931
-reviews: 143486
+reviews: 143765
 size: 
 website: https://coinswitch.co
 repository: 
@@ -21,6 +21,7 @@ icon: com.coinswitch.kuber.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
+appHashes: 
 date: 2021-10-21
 signer: 
 reviewArchive: 

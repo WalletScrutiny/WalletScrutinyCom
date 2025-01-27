@@ -20,6 +20,7 @@ icon: io.trustody.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2023-07-20
 signer: 
 reviewArchive: 

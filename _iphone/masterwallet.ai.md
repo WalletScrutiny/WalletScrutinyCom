@@ -20,6 +20,7 @@ icon: masterwallet.ai.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2023-12-19
 signer: 
 reviewArchive: 

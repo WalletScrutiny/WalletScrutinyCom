@@ -20,6 +20,7 @@ icon: btc.profits.calculator.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2021-10-03
 signer: 
 reviewArchive: 

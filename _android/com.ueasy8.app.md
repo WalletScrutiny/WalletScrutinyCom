@@ -12,7 +12,7 @@ updated: 2024-10-03
 version: 4.1.8
 stars: 2.7
 ratings: 
-reviews: 22
+reviews: 24
 size: 
 website: 
 repository: 
@@ -21,6 +21,7 @@ icon: com.ueasy8.app.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2023-08-17
 signer: 
 reviewArchive: 

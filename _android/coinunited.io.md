@@ -10,9 +10,9 @@ appCountry: cn
 released: 2021-04-30
 updated: 2025-01-12
 version: 5.0.8
-stars: 3.4
+stars: 3.3
 ratings: 151
-reviews: 225
+reviews: 220
 size: 
 website: https://coinunited.io/
 repository: 
@@ -21,6 +21,7 @@ icon: coinunited.io.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-11-15
 signer: 
 reviewArchive: 

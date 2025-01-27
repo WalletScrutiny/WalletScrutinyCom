@@ -20,6 +20,7 @@ icon: com.wallet.burtarapp.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-09-28
 signer: 
 reviewArchive: 

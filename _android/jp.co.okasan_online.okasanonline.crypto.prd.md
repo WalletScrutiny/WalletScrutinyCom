@@ -21,6 +21,7 @@ icon: jp.co.okasan_online.okasanonline.crypto.prd.png
 bugbounty: 
 meta: removed
 verdict: nosendreceive
+appHashes: 
 date: 2024-10-06
 signer: 
 reviewArchive: 

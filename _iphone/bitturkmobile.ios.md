@@ -20,6 +20,7 @@ icon: bitturkmobile.ios.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
+appHashes: 
 date: 2024-01-22
 signer: 
 reviewArchive: 

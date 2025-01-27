@@ -20,6 +20,7 @@ icon: com.currency.exchange.investsmart.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
+appHashes: 
 date: 2024-11-07
 signer: 
 reviewArchive: 

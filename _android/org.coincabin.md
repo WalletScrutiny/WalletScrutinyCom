@@ -21,6 +21,7 @@ icon: org.coincabin.jpg
 bugbounty: 
 meta: stale
 verdict: nobtc
+appHashes: 
 date: 2024-11-12
 signer: 
 reviewArchive: 

@@ -8,19 +8,20 @@ appId: com.fmine.zkeApp
 appCountry: us
 idd: '6443931838'
 released: 2022-11-09
-updated: 2023-07-22
-version: 5.8.1
+updated: 2025-01-17
+version: 6.1.9
 stars: 4.8
 reviews: 275
-size: '174337024'
+size: '433472512'
 website: https://www.zke.com/
 repository: 
 issue: 
 icon: com.fmine.zkeApp.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2024-07-17
+appHashes: 
+date: 2025-01-27
 signer: 
 reviewArchive: 
 twitter: ZKE_com

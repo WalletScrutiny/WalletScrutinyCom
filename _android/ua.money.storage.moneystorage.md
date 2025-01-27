@@ -19,9 +19,10 @@ repository:
 issue: 
 icon: ua.money.storage.moneystorage.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-11-03
+appHashes: 
+date: 2025-01-27
 signer: 
 reviewArchive: 
 twitter: 

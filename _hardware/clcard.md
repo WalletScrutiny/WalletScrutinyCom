@@ -23,6 +23,7 @@ icon: clcard.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-01-20
 signer: 
 reviewArchive: 

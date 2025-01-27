@@ -20,6 +20,7 @@ icon: com.kucoin.KuCoin.iOS.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-11-15
 signer: 
 reviewArchive: 

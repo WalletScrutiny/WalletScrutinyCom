@@ -8,11 +8,11 @@ appId: com.pro.apex
 appCountry: us
 idd: '1645456064'
 released: 2022-09-27
-updated: 2025-01-13
-version: 3.5.0
+updated: 2025-01-25
+version: 3.6.0
 stars: 4
-reviews: 58
-size: '100706304'
+reviews: 59
+size: '102010880'
 website: 
 repository: 
 issue: 
@@ -20,6 +20,7 @@ icon: com.pro.apex.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-07-02
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.coingrig.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2024-10-03
 signer: 
 reviewArchive: 

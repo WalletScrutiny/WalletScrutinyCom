@@ -21,6 +21,7 @@ icon: com.oracle.wallet.png
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2022-01-31
 signer: 
 reviewArchive: 

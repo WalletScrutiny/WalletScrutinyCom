@@ -11,7 +11,7 @@ released: 2018-12-10
 updated: 2024-09-28
 version: 1.4.6
 stars: 4.4
-reviews: 14190
+reviews: 14249
 size: '83835904'
 website: https://cheeese.monex.co.jp/
 repository: 
@@ -20,6 +20,7 @@ icon: jp.yourbank.mnx.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2022-07-06
 signer: 
 reviewArchive: 

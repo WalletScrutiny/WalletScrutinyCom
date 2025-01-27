@@ -4,7 +4,7 @@ title: 'Nebeus: IBANs for Crypto'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.nebeus.android
 appCountry: gt
 released: 2021-05-24
@@ -21,6 +21,7 @@ icon: com.nebeus.android.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-02-25
 signer: 
 reviewArchive: 

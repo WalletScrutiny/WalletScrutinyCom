@@ -20,6 +20,7 @@ icon: com.cryptowallet.defi.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2022-03-24
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.yes.yeswallet.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2021-06-18
 signer: 
 reviewArchive: 

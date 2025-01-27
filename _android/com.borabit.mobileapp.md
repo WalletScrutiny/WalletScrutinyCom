@@ -20,6 +20,7 @@ icon: com.borabit.mobileapp.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2023-08-16
 signer: 
 reviewArchive: 

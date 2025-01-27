@@ -20,6 +20,7 @@ icon: ch.shiftcrypto.bitboxapp.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2021-01-23
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: de.smarthouse.finanzen.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive
+appHashes: 
 date: 2022-06-23
 signer: 
 reviewArchive: 

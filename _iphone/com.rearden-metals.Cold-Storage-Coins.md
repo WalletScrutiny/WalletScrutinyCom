@@ -20,6 +20,7 @@ icon: com.rearden-metals.Cold-Storage-Coins.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-09-06
 signer: 
 reviewArchive: 

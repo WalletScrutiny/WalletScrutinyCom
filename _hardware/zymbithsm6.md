@@ -22,6 +22,7 @@ icon: zymbithsm6.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2022-03-08
 signer: 
 reviewArchive: 

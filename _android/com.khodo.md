@@ -21,6 +21,7 @@ icon: com.khodo.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2022-02-10
 signer: 
 reviewArchive: 

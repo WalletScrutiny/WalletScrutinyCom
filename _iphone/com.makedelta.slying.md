@@ -8,11 +8,11 @@ appId: com.makedelta.slying
 appCountry: kr
 idd: '1581110050'
 released: 2021-08-15
-updated: 2024-12-18
-version: 8.0.5
+updated: 2025-01-21
+version: 8.0.6
 stars: 4.7
-reviews: 121
-size: '70164480'
+reviews: 122
+size: '71274496'
 website: https://traderkat.io/
 repository: 
 issue: 
@@ -20,6 +20,7 @@ icon: com.makedelta.slying.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-06-14
 signer: 
 reviewArchive: 

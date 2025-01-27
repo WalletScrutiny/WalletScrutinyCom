@@ -11,7 +11,7 @@ released: 2022-06-25
 updated: 2024-12-23
 version: 2.8.7101
 stars: 4.7
-reviews: 1564
+reviews: 1603
 size: '163966976'
 website: https://worldcoin.org
 repository: 
@@ -20,6 +20,7 @@ icon: org.worldcoin.insight.jpg
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2024-08-30
 signer: 
 reviewArchive: 

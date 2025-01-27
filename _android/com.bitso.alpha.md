@@ -12,7 +12,7 @@ updated: 2024-12-04
 version: 1.32.0
 stars: 3.9
 ratings: 
-reviews: 536
+reviews: 538
 size: 
 website: https://bitso.com/alpha/landing
 repository: 
@@ -21,6 +21,7 @@ icon: com.bitso.alpha.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-02-08
 signer: 
 reviewArchive: 

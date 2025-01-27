@@ -11,7 +11,7 @@ released: 2022-01-13
 updated: 2025-01-14
 version: 1.19.13
 stars: 4.4
-reviews: 1666
+reviews: 1672
 size: '73694208'
 website: 
 repository: 
@@ -20,6 +20,7 @@ icon: com.quidax.lite.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-07-21
 signer: 
 reviewArchive: 

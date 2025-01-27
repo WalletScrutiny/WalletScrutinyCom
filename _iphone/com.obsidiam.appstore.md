@@ -20,6 +20,7 @@ icon: com.obsidiam.appstore.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-05-31
 signer: 
 reviewArchive: 

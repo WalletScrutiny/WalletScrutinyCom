@@ -20,6 +20,7 @@ icon: com.asyasoftware.metropuli.png
 bugbounty: 
 meta: stale
 verdict: fewusers
+appHashes: 
 date: 2024-08-17
 signer: 
 reviewArchive: 

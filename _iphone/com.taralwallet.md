@@ -20,6 +20,7 @@ icon: com.taralwallet.jpg
 bugbounty: 
 meta: stale
 verdict: nosource
+appHashes: 
 date: 2024-10-08
 signer: 
 reviewArchive: 

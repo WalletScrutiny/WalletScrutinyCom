@@ -12,7 +12,7 @@ updated: 2024-10-23
 version: '33'
 stars: 3.3
 ratings: 
-reviews: 412
+reviews: 414
 size: 
 website: https://gomining.com
 repository: 
@@ -21,6 +21,7 @@ icon: io.gmt.app.twa.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2023-06-29
 signer: 
 reviewArchive: 

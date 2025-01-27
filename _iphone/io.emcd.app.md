@@ -20,6 +20,7 @@ icon: io.emcd.app.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-12-15
 signer: 
 reviewArchive: 

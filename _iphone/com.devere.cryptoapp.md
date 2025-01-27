@@ -20,6 +20,7 @@ icon: com.devere.cryptoapp.jpg
 bugbounty: 
 meta: removed
 verdict: nosendreceive
+appHashes: 
 date: 2024-11-29
 signer: 
 reviewArchive: 

@@ -25,6 +25,7 @@ icon: keepstick.32.png
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2022-05-03
 signer: 
 reviewArchive: 

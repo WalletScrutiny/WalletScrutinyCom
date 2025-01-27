@@ -20,6 +20,7 @@ icon: com.bitexenglobal.exchangeapp.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-09-06
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.hitbtc.wallet.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-10-08
 signer: 
 reviewArchive: 

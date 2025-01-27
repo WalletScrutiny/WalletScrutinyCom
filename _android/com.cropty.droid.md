@@ -12,7 +12,7 @@ updated: 2024-12-30
 version: 2.4.2
 stars: 4.2
 ratings: 
-reviews: 38
+reviews: 39
 size: 
 website: https://www.cropty.io/
 repository: 
@@ -21,6 +21,7 @@ icon: com.cropty.droid.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-07-30
 signer: 
 reviewArchive: 

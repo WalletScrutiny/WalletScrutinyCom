@@ -20,6 +20,7 @@ icon: app.mybitstore.com.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-10-19
 signer: 
 reviewArchive: 

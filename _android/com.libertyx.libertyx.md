@@ -12,7 +12,7 @@ updated: 2024-12-04
 version: 4.2.1
 stars: 3
 ratings: 427
-reviews: 337
+reviews: 338
 size: 
 website: https://libertyx.com
 repository: 
@@ -21,6 +21,7 @@ icon: com.libertyx.libertyx.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-07-04
 signer: 
 reviewArchive: 

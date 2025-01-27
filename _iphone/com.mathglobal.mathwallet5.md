@@ -20,6 +20,7 @@ icon: com.mathglobal.mathwallet5.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2024-01-05
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: io.yusewallet.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2024-09-04
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.app.fffex.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2023-05-11
 signer: 
 reviewArchive: 

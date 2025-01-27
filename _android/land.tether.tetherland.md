@@ -21,6 +21,7 @@ icon: land.tether.tetherland.png
 bugbounty: 
 meta: defunct
 verdict: nobtc
+appHashes: 
 date: 2022-02-25
 signer: 
 reviewArchive: 

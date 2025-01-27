@@ -21,6 +21,7 @@ icon: jp.co.rakuten.wallet.leverage.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-02-05
 signer: 
 reviewArchive: 

@@ -22,6 +22,7 @@ icon: com.cypherstack.stackwallet.png
 bugbounty: 
 meta: ok
 verdict: ftbfs
+appHashes: 
 date: 2023-09-11
 signer: 
 reviewArchive: 

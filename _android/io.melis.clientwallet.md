@@ -21,6 +21,7 @@ icon: io.melis.clientwallet.png
 bugbounty: 
 meta: removed
 verdict: ftbfs
+appHashes: 
 date: 2023-12-19
 signer: 
 reviewArchive: 

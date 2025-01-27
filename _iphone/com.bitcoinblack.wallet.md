@@ -22,6 +22,7 @@ icon: com.bitcoinblack.wallet.jpg
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2021-08-08
 signer: 
 reviewArchive: 

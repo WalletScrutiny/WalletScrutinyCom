@@ -20,6 +20,7 @@ icon: com.coinbaazarDistribution.jpg
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-12-15
 signer: 
 reviewArchive: 

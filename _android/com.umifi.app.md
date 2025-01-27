@@ -21,6 +21,7 @@ icon: com.umifi.app.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2022-02-25
 signer: 
 reviewArchive: 

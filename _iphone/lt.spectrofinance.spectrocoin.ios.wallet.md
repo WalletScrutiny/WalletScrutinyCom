@@ -20,6 +20,7 @@ icon: lt.spectrofinance.spectrocoin.ios.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-10-07
 signer: 
 reviewArchive: 

@@ -12,7 +12,7 @@ updated: 2024-04-19
 version: 4.5.2
 stars: 4.8
 ratings: 43980
-reviews: 1196
+reviews: 1199
 size: 
 website: https://www.coingraam.com/
 repository: 
@@ -21,6 +21,7 @@ icon: app.coingram.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2021-08-27
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.authentrend.atwallet.png
 bugbounty: 
 meta: stale
 verdict: fewusers
+appHashes: 
 date: 2024-09-22
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.walletx.png
 bugbounty: 
 meta: obsolete
 verdict: nobtc
+appHashes: 
 date: 2024-11-13
 signer: 
 reviewArchive: 

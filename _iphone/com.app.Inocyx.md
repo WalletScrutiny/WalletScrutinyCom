@@ -20,6 +20,7 @@ icon: com.app.Inocyx.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-11-01
 signer: 
 reviewArchive: 

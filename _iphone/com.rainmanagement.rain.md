@@ -11,7 +11,7 @@ released: 2018-09-02
 updated: 2024-12-20
 version: 3.5.7
 stars: 4.7
-reviews: 2585
+reviews: 2640
 size: '75219968'
 website: https://www.rain.bh/
 repository: 
@@ -20,6 +20,7 @@ icon: com.rainmanagement.rain.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-10-01
 signer: 
 reviewArchive: 

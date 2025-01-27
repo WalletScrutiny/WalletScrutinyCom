@@ -19,6 +19,7 @@ icon: com.blocktrail.mywallet.jpg
 bugbounty: 
 meta: removed
 verdict: ftbfs
+appHashes: 
 date: 2022-03-07
 signer: 
 reviewArchive: 

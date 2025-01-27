@@ -21,6 +21,7 @@ icon: com.txtba.app.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2023-06-07
 signer: 
 reviewArchive: 

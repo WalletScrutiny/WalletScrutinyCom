@@ -21,6 +21,7 @@ icon: com.bfast.bfree.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2024-09-06
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.yield.demosp.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-09-28
 signer: 
 reviewArchive: 

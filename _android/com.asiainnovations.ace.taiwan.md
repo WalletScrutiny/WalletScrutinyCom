@@ -21,6 +21,7 @@ icon: com.asiainnovations.ace.taiwan.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-10-16
 signer: 
 reviewArchive: 

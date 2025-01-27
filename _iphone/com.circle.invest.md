@@ -11,7 +11,7 @@ released: 2018-03-13
 updated: 2022-04-28
 version: 1.7.3
 stars: 4.7
-reviews: 1875
+reviews: 1874
 size: '80556032'
 website: https://circle.com/en/invest
 repository: 
@@ -20,6 +20,7 @@ icon: com.circle.invest.jpg
 bugbounty: 
 meta: obsolete
 verdict: nosendreceive
+appHashes: 
 date: 2024-04-17
 signer: 
 reviewArchive: 

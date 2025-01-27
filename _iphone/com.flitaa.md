@@ -20,6 +20,7 @@ icon: com.flitaa.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-07-25
 signer: 
 reviewArchive: 

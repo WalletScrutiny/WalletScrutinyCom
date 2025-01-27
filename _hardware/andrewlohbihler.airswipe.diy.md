@@ -22,6 +22,7 @@ icon: andrewlohbihler.airswipe.diy.png
 bugbounty: 
 meta: stale
 verdict: nobtc
+appHashes: 
 date: 2022-05-21
 signer: 
 reviewArchive: 

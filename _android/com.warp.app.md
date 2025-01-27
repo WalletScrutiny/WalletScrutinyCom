@@ -21,6 +21,7 @@ icon: com.warp.app.png
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2024-05-07
 signer: 
 reviewArchive: 

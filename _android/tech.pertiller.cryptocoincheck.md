@@ -21,6 +21,7 @@ icon: tech.pertiller.cryptocoincheck.png
 bugbounty: 
 meta: obsolete
 verdict: nowallet
+appHashes: 
 date: 2024-10-16
 signer: 
 reviewArchive: 

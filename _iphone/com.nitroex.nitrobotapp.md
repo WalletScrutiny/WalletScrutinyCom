@@ -20,6 +20,7 @@ icon: com.nitroex.nitrobotapp.jpg
 bugbounty: 
 meta: obsolete
 verdict: nowallet
+appHashes: 
 date: 2024-06-29
 signer: 
 reviewArchive: 

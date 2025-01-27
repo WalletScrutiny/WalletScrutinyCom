@@ -20,6 +20,7 @@ icon: com.redot.flixpay.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2023-04-29
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.zulutrade.ZuluTrade.jpg
 bugbounty: 
 meta: defunct
 verdict: nowallet
+appHashes: 
 date: 2021-12-22
 signer: 
 reviewArchive: 

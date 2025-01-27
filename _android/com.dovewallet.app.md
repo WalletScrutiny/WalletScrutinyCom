@@ -21,6 +21,7 @@ icon: com.dovewallet.app.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2022-05-31
 signer: 
 reviewArchive: 

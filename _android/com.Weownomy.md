@@ -21,6 +21,7 @@ icon: com.Weownomy.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2023-07-28
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.ahd985.wedge.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2023-09-15
 signer: 
 reviewArchive: 

@@ -9,8 +9,8 @@ appId: io.yellowcard.app
 appCountry: za
 idd: 1543252298
 released: 2021-03-04
-updated: 2025-01-09
-version: 6.2.2
+updated: 2025-01-24
+version: 6.2.3
 stars: 3.9
 reviews: 54
 size: '139399168'
@@ -23,8 +23,8 @@ meta: ok
 verdict: custodial
 appHashes: []
 date: 2021-07-28
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: yellowcard_app
 social:
 - https://www.linkedin.com/company/yellowcardapp

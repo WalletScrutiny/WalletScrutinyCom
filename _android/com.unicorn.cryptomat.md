@@ -21,6 +21,7 @@ icon: com.unicorn.cryptomat.png
 bugbounty: 
 meta: defunct
 verdict: nowallet
+appHashes: 
 date: 2023-06-07
 signer: 
 reviewArchive: 

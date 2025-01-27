@@ -20,6 +20,7 @@ icon: org.cryptosignals.free.wallet.bitcoinand.crypto.jpg
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2021-09-19
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.cloudmining.mineresp.jpg
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2021-08-13
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: games.xwg.wallet.png
 bugbounty: 
 meta: stale
 verdict: nobtc
+appHashes: 
 date: 2024-09-20
 signer: 
 reviewArchive: 

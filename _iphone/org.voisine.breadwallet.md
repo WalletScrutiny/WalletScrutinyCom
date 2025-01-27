@@ -22,7 +22,7 @@ meta: removed
 verdict: nosource
 appHashes: []
 date: 2024-11-19
-signer:
+signer: 
 reviewArchive:
 - date: 2021-06-27
   version: 4.10.0

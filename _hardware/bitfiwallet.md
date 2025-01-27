@@ -26,6 +26,7 @@ icon: bitfiwallet.png
 bugbounty: 
 meta: obsolete
 verdict: wip
+appHashes: 
 date: 2024-08-12
 signer: 
 reviewArchive: 

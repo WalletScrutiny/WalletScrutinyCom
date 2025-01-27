@@ -21,6 +21,7 @@ icon: io.doex.app.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-09-26
 signer: 
 reviewArchive: 

@@ -18,7 +18,7 @@
     "appHashes": [
       "3670e08e0720f8dbb021ff15fe02fb0f6c5df810a972ced5c0356a29e296563c"
     ],
-    "date": "2004-12-13",
+    "date": "2024-12-13",
     "platform": "android"
   },
   {
@@ -27,7 +27,7 @@
     "version": "0.9.2",
     "verdict": "reproducible",
     "appHashes": [
-      "deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe"
+      "388d9e8b545aa657c1a147a0a24ee700af31cdecd2c9cdacaa6e208e1db9ea10"
     ],
     "date": "2024-11-14",
     "platform": "android"
@@ -151,17 +151,6 @@
       "62df7d225d6178688f451604552fb5d79525a257ac59e281f0c02f4c96e4d343"
     ],
     "date": "2024-08-23",
-    "platform": "android"
-  },
-  {
-    "appId": "ch.swissbitcoinpay.checkout",
-    "signer": "17d9c0bf025008da16d5a146e1beaca6ddcfe3cb0cf063da23c847d3007eb621",
-    "version": "2.1.4",
-    "verdict": "",
-    "appHashes": [
-      "69a7e528ca403489349a482af6a35b94646b428dd27b09336793ad5817cdd9af"
-    ],
-    "date": "2024-09-18",
     "platform": "android"
   },
   {
@@ -316,17 +305,6 @@
       "dd3204688e6a23831f0daa51904112643acf859550b6a6f1d6210e91f5da14f5"
     ],
     "date": "2021-10-26",
-    "platform": "android"
-  },
-  {
-    "appId": "com.btcontract.wallet",
-    "signer": "dca2c3527ec7f7c0e38c0353278e7a5674cfa6e4b7556510ff05f60073ca338a",
-    "version": "2.5.8",
-    "verdict": "reproducible",
-    "appHashes": [
-      "255a6fc14d8c900d92f9a707c73b50e2f1668ed020f2f23da3af50ca6fa7dd05"
-    ],
-    "date": "2024-11-22",
     "platform": "android"
   },
   {
@@ -668,7 +646,6 @@
     "version": "3.5.9",
     "verdict": "nonverifiable",
     "appHashes": [
-      "76cc3df154ff6d47b5366a328515cf14c1d550ca7d71063d851c1949324ef4fa",
       "f62c0b4b4882ad15a561fbabcccc34739d66470e752a21a4eab4037736593476"
     ],
     "date": "2021-05-03",
@@ -1388,17 +1365,6 @@
       "0a5711195d96f13f41a71107f1b1035505b33afd3a299828e43e9d1b5101e9c0"
     ],
     "date": "2022-11-02",
-    "platform": "android"
-  },
-  {
-    "appId": "com.samourai.wallet",
-    "signer": "6ab9471c21d2cddd628172975cff8ba23584da41c6962df074eb56e4ef08d990",
-    "version": "0.99.98ii",
-    "verdict": "",
-    "appHashes": [
-      "c158c4d2a55d6066722fd6fc5b95d9368da4e746ddd806ffd175f6b6a9c9e307"
-    ],
-    "date": "2024-04-26",
     "platform": "android"
   },
   {
@@ -2789,6 +2755,424 @@
       "292776e270739d37b9307465cbddfc11068813078d9633035d74ae67f322a3b2"
     ],
     "date": "2021-04-06",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.32.4",
+    "verdict": "reproducible",
+    "appHashes": [
+      "47d3c17c6119db2915b6a701c0d8edd55de05e3a012b525770e4e87c4e12d8e3"
+    ],
+    "date": "2024-09-30",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.32.3",
+    "verdict": "reproducible",
+    "appHashes": [
+      "11c8dbf7056df1d700d947891cda94929c4ce4ea16c418c8dc0cac453577d0f3"
+    ],
+    "date": "2024-08-29",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.32.2",
+    "verdict": "nonverifiable",
+    "appHashes": [
+      "634bf593f331d318b4d0cbe089adc5bbb72eac35549b7a8a76e82261c19d798a"
+    ],
+    "date": "2024-08-07",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.32.1",
+    "verdict": "nonverifiable",
+    "appHashes": [
+      "551f4226e1fb4622365b5327fe2f4329b74ede71e7d9bb3c205be6806885bd0f"
+    ],
+    "date": "2024-07-30",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.31.0",
+    "verdict": "nonverifiable",
+    "appHashes": [
+      "557ac77257fbe7b67834adee8c8fd955b87e8eed66c4db4a1b8b8f1781a4e060"
+    ],
+    "date": "2024-06-05",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.31.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "b30f6adddb6bb5e5a583f29b97686980ea5872ec3f2899037afcd90286368efe"
+    ],
+    "date": "2023-12-30",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.29.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "db4e569c90719c564fc2c2d1108f3e5281c3357f73c7221aea09ca994a3c055a"
+    ],
+    "date": "2023-10-06",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.26.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "594a0c9fd380aeca626dd3c0b8e282589028404b6a1eee1e3b9f191ac0ace754"
+    ],
+    "date": "2023-06-21",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.25.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "5d61189f93a120d87d03433236d222b3bdd44e6678f970728706e48d5eb9a514"
+    ],
+    "date": "",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.18.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "c7c35602fd09fa04c3435dc1a5382bd872f02b7cb03f005f263e7701e5342998"
+    ],
+    "date": "",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.17.2",
+    "verdict": "reproducible",
+    "appHashes": [
+      "8ed73272138890fe375719f744acc5bef09b9db6787eb750004d0a1211028ba0"
+    ],
+    "date": "2022-08-07",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.17.0",
+    "verdict": "nonverifiable",
+    "appHashes": [
+      "08a3d0282cbb5a40fe0c6bbbdbb9cd936a4486af0e8322d69b63a14ca9396cdf"
+    ],
+    "date": "2022-05-25",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.16.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "5e7123e132e63542f0bea522b5ff237d09545585dbccda39b8e7eaac324f8b9d"
+    ],
+    "date": "2022-04-15",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.15.1",
+    "verdict": "obfuscated",
+    "appHashes": [
+      "ce55bb42ea14cc6e11dc4a802c9e045029cc15152458a41d9a8fd76b7f6064c4"
+    ],
+    "date": "2022-03-21",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.15.0",
+    "verdict": "obfuscated",
+    "appHashes": [
+      "44cb42f927386d9eb20481978c0cb19d2d11703ca94c0cc66c223aa6f8606453"
+    ],
+    "date": "2022-03-01",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.14.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "43050fca861ef7dcf835a0bfb269e01177ba01aa292f134b38da26bb569c1f2b"
+    ],
+    "date": "2022-02-17",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.13.1",
+    "verdict": "reproducible",
+    "appHashes": [
+      "e380196238627787f20152eb6a4808f8f201a285465715cd98b96780cbcb2c52"
+    ],
+    "date": "2022-01-31",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.13.0",
+    "verdict": "obfuscated",
+    "appHashes": [
+      "c90f883ab5dbf3595455792d1f16cbd52131c9b184a11c086021ee99206480b4"
+    ],
+    "date": "2022-01-24",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.12.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "2b5775c3d7d569d88b0c023d9f45dad1eca7902271dbba5b0c93bee0710851b2"
+    ],
+    "date": "2021-11-25",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.11.2",
+    "verdict": "obfuscated",
+    "appHashes": [
+      "49ccb43b4d13ecaaea5f27881a231edc5124d70eb8a2867740771e97035da737"
+    ],
+    "date": "2021-11-09",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.11.1",
+    "verdict": "obfuscated",
+    "appHashes": [
+      "c6e0bdb3b7538bbd99655f25513865bd1cb0baf1c92cf21f51e5446de2656cd7"
+    ],
+    "date": "2021-11-09",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.11.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "ac0479371cc786399fd8cb60713812931091d9cc665d228ce21432c983e93092"
+    ],
+    "date": "2021-10-19",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.10.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "19391ace82f01aa19fb31b3e72949fa8d77b1857c4781e73f2cf2cd828b1df60"
+    ],
+    "date": "2021-09-21",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.9.0",
+    "verdict": "obfuscated",
+    "appHashes": [
+      "62d2c09cb1cbceeab1b90cf19e94e7e1c2385cf1bf852629200dea0999ea1c62"
+    ],
+    "date": "2021-08-28",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.8.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "f886635f7014856631e4d325fca4ba49b20fdb1b57116b1b416af0bfb8f5ba09"
+    ],
+    "date": "2021-08-03",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.7.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "57c362a3508f1420007fe5d0867f889a9683f0b51d746ab20067fb9e90abbc2f"
+    ],
+    "date": "2021-04-24",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.6.2",
+    "verdict": "reproducible",
+    "appHashes": [
+      "2394251a22f5658ed60187854f1a8d1dd97af367c779c698f3e4a75516c5d025"
+    ],
+    "date": "2021-03-03",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.6.2",
+    "verdict": "reproducible",
+    "appHashes": [
+      "f3ff145265859f45da2c7a310ac6c94183c61910fe2bf2fba0da7dbf8e56e626"
+    ],
+    "date": "2021-02-27",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.6.1",
+    "verdict": "obfuscated",
+    "appHashes": [
+      "6068c88b2dbbc0033531f0237c77ea08b1d73d9fae5ea699ea7f551ae51a1920"
+    ],
+    "date": "2021-02-18",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.5.1",
+    "verdict": "reproducible",
+    "appHashes": [
+      "f46de03b62975b57350b9c30975d7fb85e4c9a88e46ca15bc2125fea24a56823"
+    ],
+    "date": "2020-12-15",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.5.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "ec1ffc9b88898084eb66852b46c9460922401bd16b80ce20532c6a5548467aaa"
+    ],
+    "date": "2020-09-02",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.4.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "de51c80653019c3d31814daeb0aabdbe09ce4e4a5e340372c502d26dde57d045"
+    ],
+    "date": "2020-08-21",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.3.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "caa4da6ca8fa905e4b25594bebbbcb4bfe030a70178ca65a9b0a60f2651bb316"
+    ],
+    "date": "2020-07-22",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.3.0",
+    "verdict": "nonverifiable",
+    "appHashes": [
+      "caa4da6ca8fa905e4b25594bebbbcb4bfe030a70178ca65a9b0a60f2651bb316"
+    ],
+    "date": "2020-07-17",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.2.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "951ee71325f9cee9237cc43235cd653363bf0d7f268e574e4b50856207c170e4"
+    ],
+    "date": "2020-04-28",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.1.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "f6f2f37ef164a585ae5de0ff28d5beaf729c8e41495ce1525af7b7642e1f963a"
+    ],
+    "date": "2020-04-09",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.0.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "d3bb8f0c7c30119405ef9b6c00ca5574e89da76d8ca5208aecc3530bf24e1987"
+    ],
+    "date": "2020-01-06",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.0.0",
+    "verdict": "nonverifiable",
+    "appHashes": [
+      "d3bb8f0c7c30119405ef9b6c00ca5574e89da76d8ca5208aecc3530bf24e1987"
+    ],
+    "date": "2019-12-29",
     "platform": "android"
   },
   {

@@ -21,6 +21,7 @@ icon: com.eliminatum.app.png
 bugbounty: 
 meta: obsolete
 verdict: custodial
+appHashes: 
 date: 2024-01-19
 signer: 
 reviewArchive: 

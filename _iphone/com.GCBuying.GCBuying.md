@@ -11,7 +11,7 @@ released: 2021-06-30
 updated: 2024-09-22
 version: 1.1.0
 stars: 4
-reviews: 105
+reviews: 106
 size: '42362880'
 website: https://gcbuying.com/
 repository: 
@@ -20,6 +20,7 @@ icon: com.GCBuying.GCBuying.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-06-10
 signer: 
 reviewArchive: 

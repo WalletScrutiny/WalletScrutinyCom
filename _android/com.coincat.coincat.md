@@ -21,6 +21,7 @@ icon: com.coincat.coincat.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2024-11-12
 signer: 
 reviewArchive: 

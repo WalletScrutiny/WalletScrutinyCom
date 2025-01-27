@@ -20,6 +20,7 @@ icon: com.xchangecapital.exmoney.jpg
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2025-01-15
 signer: 
 reviewArchive: 

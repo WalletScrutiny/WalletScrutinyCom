@@ -21,6 +21,7 @@ icon: global.finx.FINX.jpg
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2024-11-29
 signer: 
 reviewArchive: 

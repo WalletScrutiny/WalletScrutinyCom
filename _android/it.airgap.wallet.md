@@ -20,6 +20,7 @@ icon: it.airgap.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2019-12-29
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.app.orbitnetwork.jpg
 bugbounty: 
 meta: removed
 verdict: nosendreceive
+appHashes: 
 date: 2024-12-15
 signer: 
 reviewArchive: 

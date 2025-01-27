@@ -20,6 +20,7 @@ icon: com.cmlatte.bitpre.jpg
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2021-10-22
 signer: 
 reviewArchive: 

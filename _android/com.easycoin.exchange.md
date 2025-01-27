@@ -21,6 +21,7 @@ icon: com.easycoin.exchange.png
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-07-01
 signer: 
 reviewArchive: 

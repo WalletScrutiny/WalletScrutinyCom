@@ -8,11 +8,11 @@ appId: com.interactivebrokers.mobiletws4iphone
 appCountry: us
 idd: 454558592
 released: 2011-08-12
-updated: 2025-01-13
-version: 9.16.3
+updated: 2025-01-21
+version: '9.17'
 stars: 4.5
-reviews: 9686
-size: '49424384'
+reviews: 9690
+size: '49448960'
 website: http://www.interactivebrokers.com
 repository: 
 issue: 
@@ -20,6 +20,7 @@ icon: com.interactivebrokers.mobiletws4iphone.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2021-10-10
 signer: 
 reviewArchive: 

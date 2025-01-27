@@ -21,6 +21,7 @@ icon: com.redot.app.png
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-10-16
 signer: 
 reviewArchive: 

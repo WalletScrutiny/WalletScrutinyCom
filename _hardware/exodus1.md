@@ -24,6 +24,7 @@ icon: exodus1.png
 bugbounty: https://www.htcexodus.com/mea-en/bounty-program/
 meta: defunct
 verdict: nosource
+appHashes: 
 date: 2021-11-26
 signer: 
 reviewArchive: 

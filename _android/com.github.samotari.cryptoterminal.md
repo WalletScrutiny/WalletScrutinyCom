@@ -21,6 +21,7 @@ icon: com.github.samotari.cryptoterminal.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2024-04-03
 signer: 
 reviewArchive: 

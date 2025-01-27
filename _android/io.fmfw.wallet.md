@@ -20,6 +20,7 @@ icon: io.fmfw.wallet.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2024-03-02
 signer: 
 reviewArchive: 

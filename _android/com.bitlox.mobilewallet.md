@@ -20,6 +20,7 @@ icon: com.bitlox.mobilewallet.png
 bugbounty: 
 meta: obsolete
 verdict: fewusers
+appHashes: 
 date: 2021-09-07
 signer: 
 reviewArchive: 

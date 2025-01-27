@@ -20,6 +20,7 @@ icon: io.sevenlabs.app.jpg
 bugbounty: 
 meta: stale
 verdict: wip
+appHashes: 
 date: 2024-09-06
 signer: 
 reviewArchive: 

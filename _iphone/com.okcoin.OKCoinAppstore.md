@@ -20,6 +20,7 @@ icon: com.okcoin.OKCoinAppstore.jpg
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-06-17
 signer: 
 reviewArchive: 

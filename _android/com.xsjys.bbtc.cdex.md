@@ -21,6 +21,7 @@ icon: com.xsjys.bbtc.cdex.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2024-07-19
 signer: 
 reviewArchive: 

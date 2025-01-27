@@ -1,6 +1,6 @@
 ---
 wsId: mona
-title: Crypto.com - Buy Bitcoin, CRO
+title: Crypto.com - Buy BTC & TRUMP
 altTitle: 
 authors:
 - leo
@@ -9,11 +9,11 @@ users: 10000000
 appId: co.mona.android
 appCountry: 
 released: 2017-08-30
-updated: 2025-01-10
-version: 3.202.21
+updated: 2025-01-22
+version: 3.203.0
 stars: 4.5
 ratings: 281384
-reviews: 52591
+reviews: 52982
 size: 
 website: https://crypto.com/
 repository: 
@@ -22,6 +22,7 @@ icon: co.mona.android.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-10-24
 signer: 
 reviewArchive: 

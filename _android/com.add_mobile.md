@@ -21,6 +21,7 @@ icon: com.add_mobile.png
 bugbounty: 
 meta: obsolete
 verdict: nobtc
+appHashes: 
 date: 2024-04-17
 signer: 
 reviewArchive: 

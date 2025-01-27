@@ -20,6 +20,7 @@ icon: jp.co.moneypartners.CryptoTrade.png
 bugbounty: 
 meta: ok
 verdict: wip
+appHashes: 
 date: 2024-08-31
 signer: 
 reviewArchive: 

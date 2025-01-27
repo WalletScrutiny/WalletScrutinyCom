@@ -20,6 +20,7 @@ icon: io.talken.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2021-06-04
 signer: 
 reviewArchive: 

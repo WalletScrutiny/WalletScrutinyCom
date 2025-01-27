@@ -21,6 +21,7 @@ icon: com.nouroeddinne.miner.bitcoin.free.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2024-07-10
 signer: 
 reviewArchive: 

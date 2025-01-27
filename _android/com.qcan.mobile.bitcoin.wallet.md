@@ -22,6 +22,7 @@ icon: com.qcan.mobile.bitcoin.wallet.png
 bugbounty: 
 meta: stale
 verdict: nosource
+appHashes: 
 date: 2024-09-01
 signer: 
 reviewArchive: 

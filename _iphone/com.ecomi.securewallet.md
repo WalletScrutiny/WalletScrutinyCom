@@ -20,6 +20,7 @@ icon: com.ecomi.securewallet.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-10-03
 signer: 
 reviewArchive: 

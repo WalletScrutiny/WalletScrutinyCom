@@ -19,9 +19,10 @@ repository:
 issue: 
 icon: com.gloath.portalsapp.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
-date: 2022-12-17
+appHashes: 
+date: 2025-01-27
 signer: 
 reviewArchive: 
 twitter: 

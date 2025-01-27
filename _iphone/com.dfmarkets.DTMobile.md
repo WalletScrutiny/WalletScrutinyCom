@@ -20,6 +20,7 @@ icon: com.dfmarkets.DTMobile.jpg
 bugbounty: 
 meta: obsolete
 verdict: nosendreceive
+appHashes: 
 date: 2023-07-25
 signer: 
 reviewArchive: 

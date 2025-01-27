@@ -20,6 +20,7 @@ icon: com.app.Stocks-exchanges.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2023-06-21
 signer: 
 reviewArchive: 

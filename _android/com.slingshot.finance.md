@@ -1,6 +1,6 @@
 ---
 wsId: slighshotDeFi
-title: Slingshot – DeFi Wallet
+title: Slingshot - Buy crypto & memes
 altTitle: 
 authors:
 - danny
@@ -8,9 +8,9 @@ users: 10000
 appId: com.slingshot.finance
 appCountry: us
 released: 2023-02-16
-updated: 2024-11-28
-version: 2.2.2
-stars: 2.9
+updated: 2025-01-20
+version: 2.2.3
+stars: 2.7
 ratings: 
 reviews: 5
 size: 
@@ -21,6 +21,7 @@ icon: com.slingshot.finance.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2023-06-28
 signer: 
 reviewArchive: 

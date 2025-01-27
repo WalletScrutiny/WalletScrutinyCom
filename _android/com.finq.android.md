@@ -21,6 +21,7 @@ icon: com.finq.android.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
+appHashes: 
 date: 2022-07-11
 signer: 
 reviewArchive: 

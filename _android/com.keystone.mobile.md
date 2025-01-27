@@ -21,6 +21,7 @@ icon: com.keystone.mobile.png
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2024-07-23
 signer: 
 reviewArchive: 

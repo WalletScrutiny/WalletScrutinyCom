@@ -7,11 +7,11 @@ users: 1000000
 appId: com.ledger.live
 appCountry: 
 released: 2019-01-27
-updated: 2024-12-16
-version: 3.58.0
+updated: 2025-01-16
+version: 3.59.0
 stars: 4.5
 ratings: 6090
-reviews: 2734
+reviews: 2767
 size: 
 website: https://www.ledger.com
 repository: 
@@ -20,6 +20,7 @@ icon: com.ledger.live.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2020-11-17
 signer: 
 reviewArchive: 

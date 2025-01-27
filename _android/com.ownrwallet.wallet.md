@@ -22,6 +22,7 @@ icon: com.ownrwallet.wallet.png
 bugbounty: 
 meta: stale
 verdict: nosource
+appHashes: 
 date: 2024-09-14
 signer: 
 reviewArchive:

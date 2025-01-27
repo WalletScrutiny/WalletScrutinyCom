@@ -20,6 +20,7 @@ icon: com.kmoh.mexo.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-10-26
 signer: 
 reviewArchive: 

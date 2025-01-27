@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Intebix: Buy bitcoin & crypto'
+title: Intebix
 altTitle: 
 authors: 
 users: 100
@@ -16,10 +16,11 @@ size:
 website: https://www.intebix.kz
 repository: 
 issue: 
-icon: kz.intebix.jpg
+icon: kz.intebix.png
 bugbounty: 
 meta: ok
 verdict: fewusers
+appHashes: 
 date: 2023-06-03
 signer: 
 reviewArchive: 

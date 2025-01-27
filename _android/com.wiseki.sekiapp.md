@@ -12,7 +12,7 @@ updated: 2024-09-30
 version: 2.2.8
 stars: 4
 ratings: 
-reviews: 16
+reviews: 17
 size: 
 website: https://sekiapp.com
 repository: 
@@ -21,6 +21,7 @@ icon: com.wiseki.sekiapp.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-08-14
 signer: 
 reviewArchive: 

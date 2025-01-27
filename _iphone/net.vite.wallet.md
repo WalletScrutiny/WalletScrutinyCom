@@ -20,6 +20,7 @@ icon: net.vite.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2023-12-15
 signer: 
 reviewArchive: 

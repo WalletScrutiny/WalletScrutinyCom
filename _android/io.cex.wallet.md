@@ -21,6 +21,7 @@ icon: io.cex.wallet.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-04-19
 signer: 
 reviewArchive: 

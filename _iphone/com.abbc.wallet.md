@@ -20,6 +20,7 @@ icon: com.abbc.wallet.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
+appHashes: 
 date: 2024-09-10
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.futur.png
 bugbounty: 
 meta: obsolete
 verdict: fewusers
+appHashes: 
 date: 2024-05-30
 signer: 
 reviewArchive: 

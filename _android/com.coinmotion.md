@@ -21,6 +21,7 @@ icon: com.coinmotion.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-10-19
 signer: 
 reviewArchive: 

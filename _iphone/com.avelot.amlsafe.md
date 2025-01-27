@@ -11,7 +11,7 @@ released: 2020-07-28
 updated: 2024-12-19
 version: 2.23.746
 stars: 4.8
-reviews: 59
+reviews: 57
 size: '90129408'
 website: https://Safe3.app
 repository: 
@@ -20,6 +20,7 @@ icon: com.avelot.amlsafe.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-04-12
 signer: 
 reviewArchive: 

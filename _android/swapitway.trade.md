@@ -21,6 +21,7 @@ icon: swapitway.trade.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-09-10
 signer: 
 reviewArchive: 

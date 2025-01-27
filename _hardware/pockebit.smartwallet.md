@@ -23,6 +23,7 @@ icon: pockebit.smartwallet.png
 bugbounty: 
 meta: ok
 verdict: vapor
+appHashes: 
 date: 2023-09-29
 signer: 
 reviewArchive: 

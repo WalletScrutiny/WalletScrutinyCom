@@ -11,7 +11,7 @@ released: 2022-12-07
 updated: 2025-01-07
 version: 1.45.0
 stars: 4.4
-reviews: 351
+reviews: 352
 size: '74508288'
 website: https://www.lbfinanzas.com
 repository: 
@@ -20,6 +20,7 @@ icon: com.letsbit.app.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-04-07
 signer: 
 reviewArchive: 

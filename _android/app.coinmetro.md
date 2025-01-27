@@ -10,9 +10,9 @@ appCountry: us
 released: 2017-12-10
 updated: 2024-12-18
 version: 5.50.798
-stars: 4.5
+stars: 4.4
 ratings: 419
-reviews: 85
+reviews: 87
 size: 
 website: https://coinmetro.com/
 repository: 
@@ -21,6 +21,7 @@ icon: app.coinmetro.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-10-04
 signer: 
 reviewArchive: 

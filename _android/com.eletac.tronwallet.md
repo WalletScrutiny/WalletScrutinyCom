@@ -21,6 +21,7 @@ icon: com.eletac.tronwallet.png
 bugbounty: 
 meta: removed
 verdict: nosource
+appHashes: 
 date: 2024-11-25
 signer: 
 reviewArchive: 

@@ -11,7 +11,7 @@ released: 2021-06-02
 updated: 2024-10-30
 version: 4.1.8
 stars: 3
-reviews: 119
+reviews: 120
 size: '81212416'
 website: https://www.koinbx.com/
 repository: 
@@ -20,6 +20,7 @@ icon: com.app.koinbazar.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-10-26
 signer: 
 reviewArchive: 

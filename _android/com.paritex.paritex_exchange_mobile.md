@@ -21,6 +21,7 @@ icon: com.paritex.paritex_exchange_mobile.png
 bugbounty: 
 meta: obsolete
 verdict: custodial
+appHashes: 
 date: 2024-08-19
 signer: 
 reviewArchive: 
