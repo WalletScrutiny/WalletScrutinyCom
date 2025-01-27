@@ -22,17 +22,18 @@ icon: ch.swissbitcoinpay.checkout.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
+appHashes: []
 date: 2024-09-18
 signer: 17d9c0bf025008da16d5a146e1beaca6ddcfe3cb0cf063da23c847d3007eb621
 reviewArchive:
 - date: 2024-08-23
   version: 2.1.1
-  appHash: 62df7d225d6178688f451604552fb5d79525a257ac59e281f0c02f4c96e4d343
+  appHashes: [62df7d225d6178688f451604552fb5d79525a257ac59e281f0c02f4c96e4d343]
   gitRevision: 3703a5d0543f672252f7b37e5636a9e40c3b6e5e
   verdict: nonverifiable
 - date: 2024-06-04
   version: 2.1.0
-  appHash: 
+  appHashes: []
   gitRevision: 49d9b9282cfd495e90fb6d839423ce6ad7b5d721
   verdict: ftbfs
 twitter: SwissBitcoinPay

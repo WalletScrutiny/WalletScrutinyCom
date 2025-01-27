@@ -26,7 +26,7 @@ signer:
 reviewArchive:
 - date: 2019-11-12
   version: 3.0.1
-  appHash: 
+  appHashes: []
   gitRevision: acb5634ce0405f12d9924759b045407fde297306
   verdict: nosource
 twitter: cryptonatorcom
