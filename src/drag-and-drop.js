@@ -1,8 +1,8 @@
 import AppInfoParser from 'app-info-parser';
-import { hasBlob, uploadBlobWithProgress, listUserBlobs, sha256FromBlob } from './blossom.js';
+import { hasBlob, uploadBlobWithProgress, listUserBlobs } from './blossom.js';
 
 const uploadsActivated = false;
-const blossomServerUrl = 'https://cdn.satellite.earth'; 
+const blossomServerUrl = 'https://cdn.satellite.earth';
 
 document.addEventListener("DOMContentLoaded", async function () {
     initializeDragAndDrop();
@@ -10,12 +10,13 @@ document.addEventListener("DOMContentLoaded", async function () {
     // If appHash passed to url show AppData and scroll to row in archive.
     const urlParams = new URLSearchParams(window.location.search);
     const hash = urlParams.get('hash');
+
     if (hash) {
-        const appData = await fetchAppData(hash); 
+        const appData = await fetchAppData(hash);
         if (appData) {
             displayAppData(appData);
             disableHoverMode();
-        
+
             if (appData.version) {
                 scrollToVersion(appData.version);
             } else {
@@ -29,27 +30,41 @@ document.addEventListener("DOMContentLoaded", async function () {
 
 function scrollToVersion(version) {
     const versionId = `version-${version.replace(/\./g, '-')}`; // Generate row ID
-    const targetElement = document.getElementById(versionId);
 
-    // Check if the row is visible
-    if (targetElement && !targetElement.offsetParent) {
-        const showMoreButton = document.querySelector('a[href="#resultsArchive"]');
-        if (showMoreButton) {
-            showMoreButton.click(); // Expand the table
+    const observer = new MutationObserver((mutations, obs) => {
+
+        const showMoreButton = document.querySelector('a.show-more-link');
+        const targetElement = document.getElementById(versionId);
+
+        // Row is visible, we can directly scroll to it
+        if (targetElement && targetElement.offsetParent) {
+            obs.disconnect();
+            targetElement.scrollIntoView({ block: 'center' });
+            targetElement.classList.add('highlightRow');
+        } else if (showMoreButton != null) {
+            obs.disconnect();
+
+            if (targetElement && !targetElement.offsetParent)
+                // Row is hidden, we need to expand the table
+                if (showMoreButton) {
+                    showMoreButton.click(); // Expand the table
+                }
+
+            // Wait for the table to expand, then scroll to and highlight the target row
+            setTimeout(() => {
+                const updatedTarget = document.getElementById(versionId);
+                if (updatedTarget) {
+                    updatedTarget.scrollIntoView({ block: 'center' });
+                    updatedTarget.classList.add('highlightRow');
+
+                } else {
+                    console.warn(`No table row found for version: ${version}`);
+                }
+            }, 500);
         }
-    }
+    });
 
-    // Wait for the table to expand, then scroll to and highlight the target row
-    setTimeout(() => {
-        const updatedTarget = document.getElementById(versionId);
-        if (updatedTarget) {
-            updatedTarget.scrollIntoView({ block: 'center' });
-            updatedTarget.classList.add('highlightRow');
-
-        } else {
-            console.warn(`No table row found for version: ${version}`);
-        }
-    }, 500);
+    observer.observe(document.body, { childList: true, subtree: true });
 }
 
 function initializeDragAndDrop() {
@@ -124,7 +139,6 @@ async function handleFile(file) {
         await handleUnknownFile(file, hash);
     }
 
-
     // If we have a form with a sha256 input, set it to the hash
     if (document.getElementById('sha256')) {
         document.getElementById('sha256').value = hash;
@@ -191,7 +205,7 @@ async function processUnknownFile(file, hash) {
     try {
         const parser = new AppInfoParser(file);
         const apkInfo = await parser.parse();
-        
+
         if (apkInfo) {
             console.log("Processing unknown file");
             displayFileInfo(file, hash, apkInfo.package);
@@ -272,13 +286,6 @@ function displayBlossomUploadError(errorMessage) {
     `);
 }
 
-function showUnsupportedFileMessage(file) {
-    updateDomElement('file-info', `
-        <h3>Unsupported File</h3>
-        <p>The file "${file.name}" is not supported. Please upload an APK file.</p>
-    `);
-}
-
 function displayFileInfo(file, hash, appId) {
     updateDomElement('file-info', `
         <h3>File Information</h3>
@@ -321,13 +328,13 @@ function showUnknownVersionMessage(apkInfo, hash) {
                 <li>An older version that we haven't tested</li>
                 <li>A modified version of the app</li>
             </ul>`;
-/*
-        addButtonToDropArea(
-            `Register new asset_222`,
-            `/new_asset/?sha256=${encodeURIComponent(hash)}&appId=${encodeURIComponent(app.appId)}`,
-            "btn btn-primary"
-        );
-*/
+        /*
+                addButtonToDropArea(
+                    `Register new asset_222`,
+                    `/new_asset/?sha256=${encodeURIComponent(hash)}&appId=${encodeURIComponent(app.appId)}`,
+                    "btn btn-primary"
+                );
+        */
     } else {
         // Case 2: Unknown app
         message = `

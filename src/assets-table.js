@@ -173,6 +173,8 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
 
       const row = document.createElement('tr');
       row.className = index >= showOnlyRows ? 'hidden-row' : '';
+      const sanitizedVersion = version.replace(/\./g, '-');
+      row.setAttribute('id', `version-${sanitizedVersion}`);
       row.innerHTML = `
         ${hideConfig?.wallet ? '' : `<td>
           ${wallet ? `<a href="${wallet.url}" target="_blank" rel="noopener noreferrer">${walletTitle}</a><br>${version}` : walletTitle}
