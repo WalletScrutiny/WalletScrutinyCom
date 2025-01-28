@@ -51,23 +51,37 @@ custodian:
     url: "/others/ext.coinbase"
 
   hotColdDesign:
-    published: true
-    lastUpdated: 2024-01-15
+    status: "outdated"
+    lastUpdated: 2018-12-19
     details: "98% of funds in cold storage. Multi-signature architecture..."
-    documentation_url: "https://docs.pro.coinbase.com/security"
+    documentation_url: "https://www.coinbase.com/blog/a-behind-the-scenes-look-at-the-biggest-and-quietest-crypto-transfer-on"
+    analysis: "Coinbase’s cold storage has gone through a number of evolutions through the years as the cryptocurrency space has evolved and matured. Coinbase’s standard for truly cold storage is that multiple geographically separated humans in the real world should be forced to perform physical actions to enable a transaction after reviewing transaction details. If that isn’t true, we don’t think it’s actually cold storage."
+    supporting_urls:
+      - "https://www.coinbase.com/blog/production-threshold-signing-service"
+      - "https://help.coinbase.com/en/prime/trading-and-funding/cold-storage-transaction-faqs"
 
   bitcoinFocus:
-    bitcoinOptimized: true
-    supportedAssets:
-      - "BTC"
-      - "ETH"
-      - "USDC"
-    details: "Mostly focuses on large-cap coins..."
+    status: "multi-currency"
+    tradableAssets: "Over 240"
+    tradingPairs: "More than 300"
+    custodyAssets: "Over 425"
+    CompleteList: "https://coinbase.bynder.com/m/337c9f06d83b903a/original/Coinbase-Assets-Supported-Pairs.pdf"
 
   proofOfReserves:
-    supported: true
-    details: "Publishes monthly proof of reserves..."
-    verificationUrl: "https://pro.coinbase.com/transparency"
+    status: "traditional-audit"
+    details: "Coinbase relies on traditional financial audits by Deloitte rather than cryptographic proof of reserves. They have granted funding to Veridise to develop a native proof of reserves system, but this is not yet implemented."
+    auditFrequency: "Annual"
+    lastAudit: "2023"
+    auditUrl: "https://www.coinbase.com/blog/coinbase-releases-2022-transparency-report"
+    developmentStatus: "In development via Veridise grant"
+    developmentUrl: "https://www.coinbase.com/blog/announcing-the-first-coinbase-grant-recipients"
+
+  bitcoinFocus:
+    status: "multi-currency"
+    tradableAssets: "Over 240"
+    tradingPairs: "More than 300"
+    custodyAssets: "Over 425"
+    CompleteList: "https://coinbase.bynder.com/m/337c9f06d83b903a/original/Coinbase-Assets-Supported-Pairs.pdf"
 
   operations:
     btcCustodied: "2.5M BTC"
