@@ -79,11 +79,18 @@ custodian:
   operations:
     btcCustodied: "887,346 BTC"
     SourceBTC: "https://intel.arkm.com/explorer/entity/coinbase"
-    AssetsUnderCustody(AUC): "$273B"
+    AssetsUnderCustody: "$273B"
     SourceAUC: "https://investor.coinbase.com/home/default.aspx"
-    trackRecord: "No major security incidents"
-    incidentHistory: ""
-    lastIncident: ""
+
+  trackRecord:
+    history: "No major security incidents"
+    incidentHistory:
+      - description: "March 2023: System outage during high market volatility"
+        url: "https://status.coinbase.com/incidents/vf7h1rq4yw8h"
+      - description: "October 2022: Delayed ETH withdrawals after merge"
+        url: "https://status.coinbase.com/incidents/sb4wp0f64sfd"
+    sourceIncidents: "https://blog.coinbase.com/security-at-coinbase-5d54456581f4"
+    lastIncident: "March 2023"
     insuranceCoverage: "$255M coverage"
 
   businessModel:

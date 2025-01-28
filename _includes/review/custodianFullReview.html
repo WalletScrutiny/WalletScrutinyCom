@@ -273,9 +273,9 @@
 
 <!-- OPERATIONS -->
 <div class="step developer">
-  <i class="fas fa-cogs circle operations"></i>
+  <i class="fas fa-coins circle operations"></i>
   <div class="title">
-    <h3>What is the operational history and incident track record?</h3>
+    <h3>How much bitcoin do they custody?</h3>
     <div class="textbox">
       {% if custodian.operations.btcCustodied %}
         <div class="btc-custodied">
@@ -287,9 +287,9 @@
           {% endif %}
         </div>
       {% endif %}
-      {% if custodian.operations.AUC %}
+      {% if custodian.operations.AssetsUnderCustody %}
         <div class="auc">
-          <strong>Assets Under Custody:</strong> {{ custodian.operations.AUC }}
+          <strong>Assets Under Custody:</strong> {{ custodian.operations.AssetsUnderCustody }}
           {% if custodian.operations.SourceAUC %}
             <a href="{{ custodian.operations.SourceAUC }}" class="docs-link">
               <i class="fas fa-external-link-alt"></i> Source
@@ -297,21 +297,51 @@
           {% endif %}
         </div>
       {% endif %}
-      <div class="track-record">
-        <h4>Incident History</h4>
-        {% if custodian.operations.trackRecord %}
-          <div class="history">{{ custodian.operations.trackRecord }}</div>
-        {% endif %}
-        {% if custodian.operations.incidentHistory %}
-          <div class="history">{{ custodian.operations.incidentHistory }}</div>
-        {% endif %}
-        {% if custodian.operations.lastIncident %}
-          <div class="last-incident">Last Incident: {{ custodian.operations.lastIncident }}</div>
-        {% endif %}
-      </div>
-      {% if custodian.operations.insuranceCoverage %}
-        <div class="insurance-coverage">
-          <strong>Insurance Coverage:</strong> {{ custodian.operations.insuranceCoverage }}
+    </div>
+  </div>
+</div>
+
+<!-- TRACK RECORD -->
+<div class="step developer">
+  <i class="fas fa-history circle track-record"></i>
+  <div class="title">
+    <h3>What is their track record for customer complaints, down time, vulnerabilities, loss of coins?</h3>
+    <div class="textbox">
+      {% if custodian.trackRecord.history %}
+        <div class="history">{{ custodian.trackRecord.history }}</div>
+      {% endif %}
+      {% if custodian.trackRecord.incidentHistory %}
+        <div class="incidents">
+          <h4>Incident History</h4>
+          <ul class="incident-list">
+            {% for incident in custodian.trackRecord.incidentHistory %}
+              <li>
+                {{ incident.description }}
+                {% if incident.url %}
+                  <a href="{{ incident.url }}" class="docs-link">
+                    <i class="fas fa-external-link-alt"></i> Details
+                  </a>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+          {% if custodian.trackRecord.sourceIncidents %}
+            <div class="source-link">
+              <a href="{{ custodian.trackRecord.sourceIncidents }}" class="docs-link">
+                <i class="fas fa-external-link-alt"></i> Source Overview
+              </a>
+            </div>
+          {% endif %}
+        </div>
+      {% endif %}
+      {% if custodian.trackRecord.lastIncident %}
+        <div class="last-incident">
+          <strong>Last Incident:</strong> {{ custodian.trackRecord.lastIncident }}
+        </div>
+      {% endif %}
+      {% if custodian.trackRecord.insuranceCoverage %}
+        <div class="insurance">
+          <strong>Insurance Coverage:</strong> {{ custodian.trackRecord.insuranceCoverage }}
         </div>
       {% endif %}
     </div>
@@ -517,8 +547,13 @@
 }
 
 .circle.operations {
-  background: #e74c3c;  /* Red for operations */
-  border-color: #c0392b;
+  background: #e67e22;  /* Orange for operations/custody */
+  border-color: #d35400;
+}
+
+.circle.track-record {
+  background: #16a085;  /* Teal for track record */
+  border-color: #1abc9c;
 }
 
 .circle.business {
@@ -610,6 +645,39 @@
 }
 .status i {
   margin-right: 0.5rem;
+}
+
+/* Incident list styling */
+.incident-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 1rem 0;
+}
+
+.incident-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.dark .incident-list li {
+  border-bottom-color: rgba(255,255,255,0.1);
+}
+
+.incident-list li:last-child {
+  border-bottom: none;
+}
+
+.source-link {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.dark .source-link {
+  border-top-color: rgba(255,255,255,0.1);
 }
 
 /* Additional styling for sub-blocks */
