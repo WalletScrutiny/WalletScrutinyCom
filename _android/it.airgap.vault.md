@@ -24,9 +24,15 @@ bugbounty:
 meta: ok
 verdict: reproducible
 appHashes: []
-date: 2024-10-29
+date: 2025-01-28
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
 reviewArchive:
+- date: 2024-10-29
+  version: 3.32.4
+  appHashes:
+  - 075edcd1b99999d3229c38114d17a488e2d8e6d03d072654d99dc69171b711cc
+  gitRevision: 95098ee24830950f71f170996d6fa2a9d9298f07
+  verdict: reproducible
 - date: 2024-09-30
   version: 3.32.4
   appHashes:
@@ -266,7 +272,7 @@ features:
 
 ---
 
-**Update 2024-08-29** 
+**Update 2025-01-28** 
 
 We ran our {% include testScript.html %} which delivered these results:
 
@@ -274,16 +280,16 @@ We ran our {% include testScript.html %} which delivered these results:
 ===== Begin Results =====
 appId:          it.airgap.vault
 signer:         486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
-apkVersionName: 3.32.5
-apkVersionCode: 64368
+apkVersionName: 3.32.6
+apkVersionCode: 65919
 verdict:        reproducible
-appHash:        075edcd1b99999d3229c38114d17a488e2d8e6d03d072654d99dc69171b711cc
-commit:         091fff8707ea5cac8670c143daade542c899bf6f
+appHash:        aed91fdf47bad77ab0907a32c3441709ce57a4b6cea9d7b973f4ce858ca8ff88
+commit:         2cee865791fbf6b6895137852b16d3367d898026
 
 Diff:
-Only in /tmp/fromPlay_it.airgap.vault_64368/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_it.airgap.vault_64368/META-INF: PAPERS.RSA
-Only in /tmp/fromPlay_it.airgap.vault_64368/META-INF: PAPERS.SF
+Only in /tmp/fromPlay_it.airgap.vault_65919/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_it.airgap.vault_65919/META-INF: PAPERS.RSA
+Only in /tmp/fromPlay_it.airgap.vault_65919/META-INF: PAPERS.SF
 
 Revision, tag (and its signature):
 
@@ -291,5 +297,5 @@ Revision, tag (and its signature):
 
 ```
 
-Version 3.32.5 is **reproducible** again
+Version 3.32.6 is **reproducible** again
 
