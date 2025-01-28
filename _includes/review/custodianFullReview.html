@@ -90,11 +90,15 @@
   <div class="title">
     <h3>Do they publish their hot wallet and cold storage design and processes?</h3>
     <div class="textbox">
-      <div class="status {% if custodian.hotColdDesign.published %}success{% else %}error{% endif %}">
-        {% if custodian.hotColdDesign.published %}
-          <i class="fas fa-check"></i> Design Published
+      <div class="design-status">
+        {% if custodian.hotColdDesign.status == "published" %}
+          <span class="badge design-published"><i class="fas fa-check"></i> Design Published</span>
+        {% elsif custodian.hotColdDesign.status == "outdated" %}
+          <span class="badge design-outdated"><i class="fas fa-exclamation-triangle"></i> Documentation Outdated</span>
+        {% elsif custodian.hotColdDesign.status == "partial" %}
+          <span class="badge design-partial"><i class="fas fa-info-circle"></i> Partially Documented</span>
         {% else %}
-          <i class="fas fa-times"></i> Design Not Published
+          <span class="badge design-unpublished"><i class="fas fa-times"></i> Not Published</span>
         {% endif %}
       </div>
       <div class="last-updated">
@@ -103,10 +107,22 @@
       <div class="details">
         {{ custodian.hotColdDesign.details }}
       </div>
+      {% if custodian.hotColdDesign.analysis %}
+        <div class="analysis">
+          {{ custodian.hotColdDesign.analysis }}
+        </div>
+      {% endif %}
       {% if custodian.hotColdDesign.documentation_url %}
         <a href="{{ custodian.hotColdDesign.documentation_url }}" class="docs-link">
           <i class="fas fa-external-link-alt"></i> View Documentation
         </a>
+      {% endif %}
+      {% if custodian.hotColdDesign.supporting_urls %}
+        {% for url in custodian.hotColdDesign.supporting_urls %}
+          <a href="{{ url }}" class="docs-link">
+            <i class="fas fa-external-link-alt"></i> Supporting Document {{ forloop.index }}
+          </a>
+        {% endfor %}
       {% endif %}
     </div>
   </div>
@@ -119,13 +135,14 @@
     <h3>Is it bitcoin-only/bitcoin-optimized?</h3>
     <div class="textbox">
       <div class="bitcoin-status">
-        {% if custodian.bitcoinFocus.bitcoinOnly %}
+        {% if custodian.bitcoinFocus.status == "bitcoin-only" %}
           <span class="badge bitcoin-only">Bitcoin Only</span>
-        {% elsif custodian.bitcoinFocus.bitcoinOptimized %}
+        {% elsif custodian.bitcoinFocus.status == "bitcoin-optimized" %}
           <span class="badge bitcoin-optimized">Bitcoin Optimized</span>
+        {% elsif custodian.bitcoinFocus.status == "multi-currency" %}
+          <span class="badge multi-currency">Multi-Currency Platform</span>
         {% endif %}
       </div>
-      {% comment %} Example: supportedAssets, bitcoinFeatures, details {% endcomment %}
       {% if custodian.bitcoinFocus.supportedAssets %}
         <div class="supported-assets">
           <h4>Supported Assets</h4>
@@ -147,7 +164,31 @@
         </div>
       {% endif %}
       <div class="details">
-        {{ custodian.bitcoinFocus.details }}
+        {% if custodian.bitcoinFocus.tradableAssets %}
+          <div class="asset-info">
+            <span class="asset-label">Tradable Assets:</span>
+            <span class="asset-value">{{ custodian.bitcoinFocus.tradableAssets }}</span>
+          </div>
+        {% endif %}
+        {% if custodian.bitcoinFocus.tradingPairs %}
+          <div class="asset-info">
+            <span class="asset-label">Trading Pairs:</span>
+            <span class="asset-value">{{ custodian.bitcoinFocus.tradingPairs }}</span>
+          </div>
+        {% endif %}
+        {% if custodian.bitcoinFocus.custodyAssets %}
+          <div class="asset-info">
+            <span class="asset-label">Custody-Only Assets:</span>
+            <span class="asset-value">{{ custodian.bitcoinFocus.custodyAssets }}</span>
+          </div>
+        {% endif %}
+        {% if custodian.bitcoinFocus.CompleteList %}
+          <div class="asset-info" style="margin-top: 1rem;">
+            <a href="{{ custodian.bitcoinFocus.CompleteList }}" class="docs-link">
+              <i class="fas fa-external-link-alt"></i> View Complete List
+            </a>
+          </div>
+        {% endif %}
       </div>
     </div>
   </div>
@@ -635,9 +676,34 @@
   background-color: #1a9af7;
 }
 
+.multi-currency {
+  color: #ffffff;
+  background-color: #3498db;
+}
+
 .security-feature {
   color: #ffffff;
   background-color: #28a745;
+}
+
+.design-published {
+  color: #ffffff;
+  background-color: #198754;
+}
+
+.design-outdated {
+  color: #ffffff;
+  background-color: #dc3545;
+}
+
+.design-partial {
+  color: #ffffff;
+  background-color: #17a2b8;
+}
+
+.design-unpublished {
+  color: #ffffff;
+  background-color: #6c757d;
 }
 
 /* Contributions “active” tags */
@@ -651,7 +717,7 @@
   padding: 0.15rem 0.35rem;
   border-radius: 4px;
   background: #f8f9fa;
-  color: var(--permanent-black);
+  color: var(--text);
 }
 .contributions li.active {
   background: #198754;
@@ -698,7 +764,7 @@
   padding: 0.5rem;
   width: 300px;
   margin: 0;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   display: flex;
   gap: 0.75rem;
   align-items: flex-start;
@@ -779,6 +845,21 @@
 
 .social-links .github:hover {
   color: #24292e;
+}
+
+/* Asset info styling */
+.asset-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+.asset-label {
+  font-weight: bold;
+  min-width: 150px;
+}
+.asset-value {
+  color: #666;
 }
 </style>
 
