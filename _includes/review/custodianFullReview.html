@@ -200,27 +200,45 @@
   <div class="title">
     <h3>Do they provide proof of reserves?</h3>
     <div class="textbox">
-      <div class="status {% if custodian.proofOfReserves.supported %}success{% else %}error{% endif %}">
-        {% if custodian.proofOfReserves.supported %}
-          <i class="fas fa-check"></i> Supported
-          {% if custodian.proofOfReserves.frequency %}
-            <div class="frequency">Updated {{ custodian.proofOfReserves.frequency }}</div>
-          {% endif %}
-          {% if custodian.proofOfReserves.lastProof %}
-            <div class="last-proof">Last Proof: {{ custodian.proofOfReserves.lastProof }}</div>
-          {% endif %}
+      <div class="reserves-status">
+        {% if custodian.proofOfReserves.status == "cryptographic" %}
+          <span class="badge reserves-cryptographic"><i class="fas fa-check"></i> Cryptographic Proof</span>
+        {% elsif custodian.proofOfReserves.status == "traditional-audit" %}
+          <span class="badge reserves-traditional"><i class="fas fa-file-alt"></i> Traditional Audit</span>
+        {% elsif custodian.proofOfReserves.status == "in-development" %}
+          <span class="badge reserves-development"><i class="fas fa-code"></i> In Development</span>
         {% else %}
-          <i class="fas fa-times"></i> Not Supported
+          <span class="badge reserves-none"><i class="fas fa-times"></i> Not Available</span>
         {% endif %}
       </div>
-      {% if custodian.proofOfReserves.verificationUrl %}
-        <a href="{{ custodian.proofOfReserves.verificationUrl }}" class="verify-link">
-          <i class="fas fa-external-link-alt"></i> Verify Reserves
-        </a>
+
+      {% if custodian.proofOfReserves.auditFrequency %}
+        <div class="frequency">Updated {{ custodian.proofOfReserves.auditFrequency }}</div>
       {% endif %}
+      {% if custodian.proofOfReserves.lastAudit %}
+        <div class="last-proof">Last Audit: {{ custodian.proofOfReserves.lastAudit }}</div>
+      {% endif %}
+
       <div class="details">
         {{ custodian.proofOfReserves.details }}
       </div>
+
+      {% if custodian.proofOfReserves.auditUrl %}
+        <a href="{{ custodian.proofOfReserves.auditUrl }}" class="verify-link">
+          <i class="fas fa-external-link-alt"></i> View Audit Report
+        </a>
+      {% endif %}
+
+      {% if custodian.proofOfReserves.developmentStatus %}
+        <div class="development-status">
+          <i class="fas fa-code"></i> {{ custodian.proofOfReserves.developmentStatus }}
+          {% if custodian.proofOfReserves.developmentUrl %}
+            <a href="{{ custodian.proofOfReserves.developmentUrl }}" class="docs-link">
+              <i class="fas fa-external-link-alt"></i> Learn More
+            </a>
+          {% endif %}
+        </div>
+      {% endif %}
     </div>
   </div>
 </div>
@@ -702,6 +720,26 @@
 }
 
 .design-unpublished {
+  color: #ffffff;
+  background-color: #6c757d;
+}
+
+.reserves-cryptographic {
+  color: #ffffff;
+  background-color: #3498db;
+}
+
+.reserves-traditional {
+  color: #ffffff;
+  background-color: #1a9af7;
+}
+
+.reserves-development {
+  color: #ffffff;
+  background-color: #28a745;
+}
+
+.reserves-none {
   color: #ffffff;
   background-color: #6c757d;
 }
