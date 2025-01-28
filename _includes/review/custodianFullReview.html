@@ -90,7 +90,7 @@
   <div class="title">
     <h3>Do they publish their hot wallet and cold storage design and processes?</h3>
     <div class="textbox">
-      <div class="status {% if custodian.hotColdDesign.published %}published{% else %}not-published{% endif %}">
+      <div class="status {% if custodian.hotColdDesign.published %}success{% else %}error{% endif %}">
         {% if custodian.hotColdDesign.published %}
           <i class="fas fa-check"></i> Design Published
         {% else %}
@@ -159,7 +159,7 @@
   <div class="title">
     <h3>Do they provide proof of reserves?</h3>
     <div class="textbox">
-      <div class="status {% if custodian.proofOfReserves.supported %}supported{% else %}not-supported{% endif %}">
+      <div class="status {% if custodian.proofOfReserves.supported %}success{% else %}error{% endif %}">
         {% if custodian.proofOfReserves.supported %}
           <i class="fas fa-check"></i> Supported
           {% if custodian.proofOfReserves.frequency %}
@@ -307,12 +307,14 @@
   <div class="title">
     <h3>What are the user access requirements and restrictions?</h3>
     <div class="textbox">
-      <div class="kyc">
-        <strong>KYC Required:</strong> {{ custodian.userAccess.kycRequired }}
+      <div class="status {% if custodian.userAccess.kycRequired %}success{% else %}error{% endif %}">
         {% if custodian.userAccess.kycRequired %}
-          <div class="kyc-level">Level: {{ custodian.userAccess.kycLevel }}</div>
+        <i class="fas fa-check"></i> KYC Required  
+        {% else %}
+        <i class="fas fa-times"></i> KYC Not Required
         {% endif %}
       </div>
+      <div class="kyc-level"> Level: {{ custodian.userAccess.kycLevel }}</div>
       {% if custodian.userAccess.withdrawalLimits %}
         <div class="limits">
           <h4>Withdrawal Limits</h4>
@@ -338,11 +340,9 @@
     <div class="textbox">
       {% if custodian.security.features %}
         <div class="features">
-          <ul>
-            {% for feature in custodian.security.features %}
-              <li>{{ feature }}</li>
-            {% endfor %}
-          </ul>
+          {% for feature in custodian.security.features %}
+            <span class="badge security-feature">{{ feature }}</span>
+          {% endfor %}
         </div>
       {% endif %}
       {% if custodian.security.customInfrastructure %}
@@ -495,8 +495,32 @@
 .textbox {
   background: #e9edf7;
   border-radius: 8px;
-  padding: 1rem;
-  margin-top: 0.5rem;
+  padding: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+  .textbox {
+    background: #2f374c;
+  }
+  .app-link {
+    background-color: #49597d;
+  }
+  .docs-link, .verify-link {
+    border-color: #5570ac;
+  }
+}
+
+/* For class-based dark mode */
+.dark .textbox {
+  background: #2f374c;
+}
+.dark .app-link {
+  background-color: #5570ac;
+}
+.dark .docs-link, .dark .verify-link {
+  border-color: #304168;
 }
 
 /* The status badges (published / not published) etc. */
@@ -506,12 +530,10 @@
   margin-bottom: 1rem;
   font-weight: 500;
 }
-.status.published,
-.status.supported {
+.status.success {
   color: #198754;
 }
-.status.not-published,
-.status.not-supported {
+.status.error {
   color: #dc3545;
 }
 .status i {
@@ -526,7 +548,7 @@
 .details {
   margin-top: 0.5rem;
   line-height: 1.4;
-  color: #333;
+  color: var(--text);
 }
 .docs-link, .verify-link {
   margin-top: 1rem;
@@ -551,9 +573,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.25rem;
   background-color: #b5c1db;
-  padding: 0.75rem 1rem;
+  padding: 0.5rem 0.75rem;
   border-radius: 8px;
   text-decoration: none;
   color: #212529;
@@ -579,7 +601,7 @@
 .app-store {
   font-size: 0.8rem;
   color: #212529;
-  padding: 0.35rem 0.75rem;
+  padding: 0.25rem 0.5rem;
   background-color: white;
   border-radius: 4px;
   font-weight: 500;
@@ -590,21 +612,32 @@
   background-color: #f8f9fa;
 }
 
-.bitcoin-status {
-  margin-bottom: 1rem;
-}
 .badge {
   display: inline-block;
-  padding: 0.25rem 0.5rem;
-  border-radius: 4px;
-  color: #fff;
-  font-size: 0.85rem;
+  padding: 0.25em 0.5em;
+  font-size: 0.9em;
+  font-weight: 500;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  margin: 0.1rem;
 }
+
 .bitcoin-only {
+  color: #ffffff;
   background-color: #f7931a;
 }
+
 .bitcoin-optimized {
-  background-color: #0d6efd;
+  color: #ffffff;
+  background-color: #1a9af7;
+}
+
+.security-feature {
+  color: #ffffff;
+  background-color: #28a745;
 }
 
 /* Contributions “active” tags */
@@ -615,13 +648,25 @@
   list-style: none;
 }
 .contributions li {
-  padding: 0.25rem 0.5rem;
+  padding: 0.15rem 0.35rem;
   border-radius: 4px;
   background: #f8f9fa;
+  color: var(--permanent-black);
 }
 .contributions li.active {
   background: #198754;
-  color: white;
+  color: var(--permanent-white);
+}
+
+/* Step headings */
+.step h4 {
+  font-size: 0.95em;
+  background-color: rgba(163, 176, 207, 0.25);
+  border-radius: 6px;
+  display: inline-block;
+  font-weight: 500;
+  padding: 0.15rem 0.5rem;
+  margin: 0.5rem 0;
 }
 
 /* Top Panel Layout */
@@ -650,12 +695,12 @@
 .ceo-card {
   background: #e9edf7;  /* Same as the app bars for consistency */
   border-radius: 12px;
-  padding: 0.75rem;
+  padding: 0.5rem;
   width: 300px;
   margin: 0;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   display: flex;
-  gap: 1rem;
+  gap: 0.75rem;
   align-items: flex-start;
   border: 1px solid #d1d9e6;
   flex-direction: row;
