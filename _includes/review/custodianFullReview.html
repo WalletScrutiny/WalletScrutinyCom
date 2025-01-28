@@ -280,6 +280,21 @@
       {% if custodian.operations.btcCustodied %}
         <div class="btc-custodied">
           <strong>BTC in Custody:</strong> {{ custodian.operations.btcCustodied }}
+          {% if custodian.operations.SourceBTC %}
+            <a href="{{ custodian.operations.SourceBTC }}" class="docs-link">
+              <i class="fas fa-external-link-alt"></i> Source
+            </a>
+          {% endif %}
+        </div>
+      {% endif %}
+      {% if custodian.operations.AUC %}
+        <div class="auc">
+          <strong>Assets Under Custody:</strong> {{ custodian.operations.AUC }}
+          {% if custodian.operations.SourceAUC %}
+            <a href="{{ custodian.operations.SourceAUC }}" class="docs-link">
+              <i class="fas fa-external-link-alt"></i> Source
+            </a>
+          {% endif %}
         </div>
       {% endif %}
       <div class="track-record">
