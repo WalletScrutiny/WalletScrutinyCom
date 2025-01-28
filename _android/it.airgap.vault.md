@@ -28,7 +28,7 @@ date: 2025-01-28
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
 reviewArchive:
 - date: 2024-10-29
-  version: 3.32.4
+  version: 3.32.5
   appHashes:
   - 075edcd1b99999d3229c38114d17a488e2d8e6d03d072654d99dc69171b711cc
   gitRevision: 95098ee24830950f71f170996d6fa2a9d9298f07
