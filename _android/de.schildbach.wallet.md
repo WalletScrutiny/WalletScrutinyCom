@@ -25,9 +25,15 @@ meta: ok
 verdict: reproducible
 appHashes:
 - 82de71bf0db5aba9364b19b663f69e7c3588c98fcadb02afcc1f1438b35d16cb
-date: 2024-12-26
+date: 2025-01-28
 signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
 reviewArchive:
+- date: 2024-12-26
+  version: 10.21
+  appHashes:
+  - 82de71bf0db5aba9364b19b663f69e7c3588c98fcadb02afcc1f1438b35d16cb
+  gitRevision: 95098ee24830950f71f170996d6fa2a9d9298f07
+  verdict: reproducible
 - date: 2024-11-06
   version: 10.20
   appHashes:
@@ -273,24 +279,24 @@ For the latest version the {% include testScript.html %} came to these results:
 ===== Begin Results =====
 appId:          de.schildbach.wallet
 signer:         58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
-apkVersionName: 10.21
-apkVersionCode: 102100
+apkVersionName: 10.22
+apkVersionCode: 102200
 verdict:        reproducible
-appHash:        82de71bf0db5aba9364b19b663f69e7c3588c98fcadb02afcc1f1438b35d16cb
-commit:         3e894e41ef9dab61628d7ece94bbe9ec9d61a287
+appHash:        0ebee116661bbc844c679841411c4d3b09575b367d187ad1e28739053c2409e3
+commit:         0cfa544e67ca1f38e816efff9cb4349199794f43
 
 Diff:
-Only in /tmp/fromPlay_de.schildbach.wallet_102100/META-INF: BITCOIN-.RSA
-Only in /tmp/fromPlay_de.schildbach.wallet_102100/META-INF: BITCOIN-.SF
-Files /tmp/fromPlay_de.schildbach.wallet_102100/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_102100/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_de.schildbach.wallet_102200/META-INF: BITCOIN-.RSA
+Only in /tmp/fromPlay_de.schildbach.wallet_102200/META-INF: BITCOIN-.SF
+Files /tmp/fromPlay_de.schildbach.wallet_102200/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_102200/META-INF/MANIFEST.MF differ
 
 Revision, tag (and its signature):
-object 3e894e41ef9dab61628d7ece94bbe9ec9d61a287
+object 0cfa544e67ca1f38e816efff9cb4349199794f43
 type commit
-tag v10.21
-tagger Andreas Schildbach <andreas@schildbach.de> 1734198797 +0100
+tag v10.22
+tagger Andreas Schildbach <andreas@schildbach.de> 1737387864 +0100
 
-10.21 release
+10.22 release
 ===== End Results =====
 ```
 {% include asciicast %}
