@@ -69,19 +69,12 @@ custodian:
 
   proofOfReserves:
     status: "traditional-audit"
-    details: "Coinbase relies on traditional financial audits by Deloitte rather than cryptographic proof of reserves. They have granted funding to Veridise to develop a native proof of reserves system, but this is not yet implemented."
+    details: "Coinbase relies on traditional financial audits by Deloitte rather than cryptographic proof of reserves. They have granted funding to Silver Sixpence to develop a native proof of reserves system, but this is not yet implemented."
     auditFrequency: "Annual"
     lastAudit: "2023"
-    auditUrl: "https://www.coinbase.com/blog/coinbase-releases-2022-transparency-report"
-    developmentStatus: "In development via Veridise grant"
-    developmentUrl: "https://www.coinbase.com/blog/announcing-the-first-coinbase-grant-recipients"
-
-  bitcoinFocus:
-    status: "multi-currency"
-    tradableAssets: "Over 240"
-    tradingPairs: "More than 300"
-    custodyAssets: "Over 425"
-    CompleteList: "https://coinbase.bynder.com/m/337c9f06d83b903a/original/Coinbase-Assets-Supported-Pairs.pdf"
+    auditUrl: "https://www.sec.gov/ix?doc=/Archives/edgar/data/1679788/000167978824000022/coin-20231231.htm"
+    developmentStatus: "Proof-of-Reserves in development via Silver Sixpence grant"
+    developmentUrl: "https://www.coinbase.com/blog/proof-of-reserves-grant"
 
   operations:
     btcCustodied: "2.5M BTC"
