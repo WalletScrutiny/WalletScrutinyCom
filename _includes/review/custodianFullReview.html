@@ -343,17 +343,15 @@
     <h3>What is the contribution to the Bitcoin ecosystem?</h3>
     <div class="textbox">
       <div class="contributions">
-        <ul>
-          <li class="{% if custodian.bitcoinContribution.fossDevelopment %}active{% endif %}">
-            FOSS Development
-          </li>
-          <li class="{% if custodian.bitcoinContribution.protocolSupport %}active{% endif %}">
-            Protocol Support
-          </li>
-          <li class="{% if custodian.bitcoinContribution.research %}active{% endif %}">
-            Research
-          </li>
-        </ul>
+        {% if custodian.bitcoinContribution.fossDevelopment %}
+          <span class="badge security-feature">FOSS Development</span>
+        {% endif %}
+        {% if custodian.bitcoinContribution.protocolSupport %}
+          <span class="badge security-feature">Protocol Support</span>
+        {% endif %}
+        {% if custodian.bitcoinContribution.research %}
+          <span class="badge security-feature">Research</span>
+        {% endif %}
       </div>
       <div class="details">{{ custodian.bitcoinContribution.details }}</div>
     </div>
