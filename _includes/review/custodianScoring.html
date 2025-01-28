@@ -1,0 +1,183 @@
+<!-- Custodian Security Score Card -->
+<div class="score-card textbox">
+  <h3>Security Score: <span class="total-score">0</span>/100</h3>
+  
+  <!-- Key Management & Security -->
+  <div class="score-category" data-category="keyManagement">
+    <div class="category-header">
+      <h4>Key Management & Security</h4>
+      <span class="category-score">0/30</span>
+    </div>
+    <div class="score-details">
+      <div class="score-item" data-item="coldStorage">
+        <span class="item-name">Cold Storage</span>
+        <span class="item-score">0/10</span>
+      </div>
+      <div class="score-item" data-item="multiSig">
+        <span class="item-name">Multi-signature/MPC</span>
+        <span class="item-score">0/10</span>
+      </div>
+      <div class="score-item" data-item="hardware">
+        <span class="item-name">Hardware Security</span>
+        <span class="item-score">0/10</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Infrastructure & Operations -->
+  <div class="score-category" data-category="infrastructure">
+    <div class="category-header">
+      <h4>Infrastructure & Operations</h4>
+      <span class="category-score">0/25</span>
+    </div>
+    <div class="score-details">
+      <div class="score-item" data-item="certifications">
+        <span class="item-name">Security Certifications</span>
+        <span class="item-score">0/10</span>
+      </div>
+      <div class="score-item" data-item="audits">
+        <span class="item-name">Security Audits</span>
+        <span class="item-score">0/10</span>
+      </div>
+      <div class="score-item" data-item="incidentResponse">
+        <span class="item-name">Incident Response</span>
+        <span class="item-score">0/5</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Transparency -->
+  <div class="score-category" data-category="transparency">
+    <div class="category-header">
+      <h4>Transparency</h4>
+      <span class="category-score">0/20</span>
+    </div>
+    <div class="score-details">
+      <div class="score-item" data-item="proofOfReserves">
+        <span class="item-name">Proof of Reserves</span>
+        <span class="item-score">0/10</span>
+      </div>
+      <div class="score-item" data-item="documentation">
+        <span class="item-name">Documentation</span>
+        <span class="item-score">0/5</span>
+      </div>
+      <div class="score-item" data-item="openSource">
+        <span class="item-name">Open Source</span>
+        <span class="item-score">0/5</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Regulatory Compliance -->
+  <div class="score-category" data-category="compliance">
+    <div class="category-header">
+      <h4>Regulatory Compliance</h4>
+      <span class="category-score">0/15</span>
+    </div>
+    <div class="score-details">
+      <div class="score-item" data-item="licensing">
+        <span class="item-name">Licensing</span>
+        <span class="item-score">0/10</span>
+      </div>
+      <div class="score-item" data-item="compliancePrograms">
+        <span class="item-name">Compliance Programs</span>
+        <span class="item-score">0/5</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- User Security Features -->
+  <div class="score-category" data-category="userSecurity">
+    <div class="category-header">
+      <h4>User Security Features</h4>
+      <span class="category-score">0/10</span>
+    </div>
+    <div class="score-details">
+      <div class="score-item" data-item="authentication">
+        <span class="item-name">Authentication</span>
+        <span class="item-score">0/5</span>
+      </div>
+      <div class="score-item" data-item="transactionSecurity">
+        <span class="item-name">Transaction Security</span>
+        <span class="item-score">0/5</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.score-card {
+  margin-bottom: 1rem;
+}
+
+.score-card h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.total-score {
+  font-weight: bold;
+  color: #198754;
+}
+
+.score-category {
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.score-category:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.category-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.category-header h4 {
+  margin: 0;
+  font-size: 1rem;
+  background: none !important;
+  padding: 0 !important;
+}
+
+.category-score {
+  font-weight: 500;
+}
+
+.score-details {
+  font-size: 0.9rem;
+}
+
+.score-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.25rem 0;
+}
+
+.item-name {
+  color: var(--text);
+}
+
+.item-score {
+  font-weight: 500;
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+  .score-category {
+    border-bottom-color: rgba(255,255,255,0.1);
+  }
+}
+
+.dark .score-category {
+  border-bottom-color: rgba(255,255,255,0.1);
+}
+</style>

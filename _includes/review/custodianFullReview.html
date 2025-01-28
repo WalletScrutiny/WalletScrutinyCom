@@ -781,3 +781,292 @@
   color: #24292e;
 }
 </style>
+
+<script>
+class CustodianScore {
+  constructor(custodian) {
+    this.custodian = custodian;
+    this.data = this.calculateAllScores();
+  }
+
+  calculateAllScores() {
+    return {
+      keyManagement: {
+        maxScore: 30,
+        items: {
+          coldStorage: this.calculateColdStorageScore(),
+          multiSig: this.calculateMultiSigScore(),
+          hardware: this.calculateHardwareScore()
+        }
+      },
+      infrastructure: {
+        maxScore: 25,
+        items: {
+          certifications: this.calculateCertificationsScore(),
+          audits: this.calculateAuditsScore(),
+          incidentResponse: this.calculateIncidentResponseScore()
+        }
+      },
+      transparency: {
+        maxScore: 20,
+        items: {
+          proofOfReserves: this.calculateProofOfReservesScore(),
+          documentation: this.calculateDocumentationScore(),
+          openSource: this.calculateOpenSourceScore()
+        }
+      },
+      compliance: {
+        maxScore: 15,
+        items: {
+          licensing: this.calculateLicensingScore(),
+          compliancePrograms: this.calculateComplianceProgramsScore()
+        }
+      },
+      userSecurity: {
+        maxScore: 10,
+        items: {
+          authentication: this.calculateAuthenticationScore(),
+          transactionSecurity: this.calculateTransactionSecurityScore()
+        }
+      }
+    };
+  }
+
+  calculateColdStorageScore() {
+    let score = 0;
+    const maxScore = 10;
+    const hotCold = this.custodian.hotColdDesign || {};
+    
+    if (hotCold.published) score += 5;
+    if (hotCold.documentation_url) score += 2;
+    if (hotCold.details && hotCold.details.length > 0) score += 3;
+    
+    return { score, maxScore };
+  }
+
+  calculateProofOfReservesScore() {
+    let score = 0;
+    const maxScore = 10;
+    const por = this.custodian.proofOfReserves || {};
+    
+    if (por.supported) score += 5;
+    if (por.verificationUrl) score += 2;
+    if (por.frequency) score += 2;
+    if (por.lastProof) score += 1;
+    
+    return { score, maxScore };
+  }
+
+  calculateMultiSigScore() {
+    let score = 0;
+    const maxScore = 10;
+    // Add scoring logic based on available data
+    return { score, maxScore };
+  }
+
+  calculateHardwareScore() {
+    let score = 0;
+    const maxScore = 10;
+    // Add scoring logic based on available data
+    return { score, maxScore };
+  }
+
+  calculateCertificationsScore() {
+    let score = 0;
+    const maxScore = 10;
+    // Add scoring logic based on available data
+    return { score, maxScore };
+  }
+
+  calculateAuditsScore() {
+    let score = 0;
+    const maxScore = 10;
+    const ops = this.custodian.operations || {};
+    
+    if (ops.trackRecord) score += 5;
+    if (ops.incidentHistory) score += 3;
+    if (ops.insuranceCoverage) score += 2;
+    
+    return { score, maxScore };
+  }
+
+  calculateIncidentResponseScore() {
+    let score = 0;
+    const maxScore = 5;
+    const ops = this.custodian.operations || {};
+    
+    if (ops.lastIncident) score += 2;
+    if (ops.incidentHistory) score += 3;
+    
+    return { score, maxScore };
+  }
+
+  calculateDocumentationScore() {
+    let score = 0;
+    const maxScore = 5;
+    const model = this.custodian.businessModel || {};
+    
+    if (model.type) score += 2;
+    if (model.services && model.services.length > 0) score += 3;
+    
+    return { score, maxScore };
+  }
+
+  calculateOpenSourceScore() {
+    let score = 0;
+    const maxScore = 5;
+    const contrib = this.custodian.bitcoinContribution || {};
+    
+    if (contrib.fossDevelopment) score += 2;
+    if (contrib.protocolSupport) score += 2;
+    if (contrib.research) score += 1;
+    
+    return { score, maxScore };
+  }
+
+  calculateLicensingScore() {
+    let score = 0;
+    const maxScore = 10;
+    const leadership = this.custodian.leadership || {};
+    
+    if (leadership.jurisdiction) score += 5;
+    if (leadership.yearsInBusiness) score += 3;
+    if (leadership.team && leadership.team.length > 0) score += 2;
+    
+    return { score, maxScore };
+  }
+
+  calculateComplianceProgramsScore() {
+    let score = 0;
+    const maxScore = 5;
+    const model = this.custodian.businessModel || {};
+    
+    if (model.type) score += 2;
+    if (model.restrictedCountries) score += 3;
+    
+    return { score, maxScore };
+  }
+
+  calculateAuthenticationScore() {
+    let score = 0;
+    const maxScore = 5;
+    // Add scoring logic based on available data
+    return { score, maxScore };
+  }
+
+  calculateTransactionSecurityScore() {
+    let score = 0;
+    const maxScore = 5;
+    // Add scoring logic based on available data
+    return { score, maxScore };
+  }
+
+  calculateCategoryScore(category) {
+    return Object.values(category.items).reduce((sum, item) => sum + item.score, 0);
+  }
+
+  calculateTotalScore() {
+    return Object.values(this.data).reduce((sum, category) => sum + this.calculateCategoryScore(category), 0);
+  }
+
+  updateUI() {
+    // Update total score
+    const totalScoreEl = document.querySelector('.total-score');
+    if (totalScoreEl) {
+      totalScoreEl.textContent = this.calculateTotalScore();
+    }
+
+    // Update category scores
+    Object.entries(this.data).forEach(([categoryId, category]) => {
+      const categoryEl = document.querySelector(`[data-category="${categoryId}"]`);
+      if (categoryEl) {
+        const categoryScoreEl = categoryEl.querySelector('.category-score');
+        if (categoryScoreEl) {
+          categoryScoreEl.textContent = `${category.score}/${category.maxScore}`;
+        }
+
+        // Update item scores
+        Object.entries(category.items).forEach(([itemId, item]) => {
+          const itemEl = categoryEl.querySelector(`[data-item="${itemId}"]`);
+          if (itemEl) {
+            const itemScoreEl = itemEl.querySelector('.item-score');
+            if (itemScoreEl) {
+              itemScoreEl.textContent = `${item.score}/${item.maxScore}`;
+            }
+          }
+        });
+      }
+    });
+
+    // Update question indicators based on scores
+    const updateQuestionStatus = (selector, score, maxScore) => {
+      const el = document.querySelector(selector);
+      if (el) {
+        const status = el.querySelector('.status');
+        if (status) {
+          status.classList.remove('success', 'warning', 'error');
+          if (score >= maxScore * 0.8) status.classList.add('success');
+          else if (score >= maxScore * 0.4) status.classList.add('warning');
+          else status.classList.add('error');
+        }
+      }
+    };
+
+    // Map questions to scores
+    if (this.data.keyManagement?.items?.coldStorage) {
+      updateQuestionStatus('.step:nth-child(1)', 
+        this.data.keyManagement.items.coldStorage.score,
+        this.data.keyManagement.items.coldStorage.maxScore);
+    }
+
+    if (this.data.transparency?.items?.documentation) {
+      updateQuestionStatus('.step:nth-child(2)', 
+        this.data.transparency.items.documentation.score,
+        this.data.transparency.items.documentation.maxScore);
+    }
+
+    if (this.data.transparency?.items?.proofOfReserves) {
+      updateQuestionStatus('.step:nth-child(3)', 
+        this.data.transparency.items.proofOfReserves.score,
+        this.data.transparency.items.proofOfReserves.maxScore);
+    }
+
+    if (this.data.compliance?.items?.licensing) {
+      updateQuestionStatus('.step:nth-child(4)', 
+        this.data.compliance.items.licensing.score,
+        this.data.compliance.items.licensing.maxScore);
+    }
+
+    if (this.data.infrastructure?.items?.audits) {
+      updateQuestionStatus('.step:nth-child(5)', 
+        this.data.infrastructure.items.audits.score,
+        this.data.infrastructure.items.audits.maxScore);
+    }
+
+    if (this.data.compliance?.items?.compliancePrograms) {
+      updateQuestionStatus('.step:nth-child(6)', 
+        this.data.compliance.items.compliancePrograms.score,
+        this.data.compliance.items.compliancePrograms.maxScore);
+    }
+
+    if (this.data.transparency?.items?.openSource) {
+      updateQuestionStatus('.step:nth-child(7)', 
+        this.data.transparency.items.openSource.score,
+        this.data.transparency.items.openSource.maxScore);
+    }
+  }
+}
+
+// Get custodian data from frontmatter
+const custodianData = {{ custodian | jsonify }};
+
+// Initialize scoring when DOM is loaded
+document.addEventListener('DOMContentLoaded', () => {
+  if (custodianData) {
+    const scorer = new CustodianScore(custodianData);
+    scorer.updateUI();
+  }
+});
+</script>
+
+{% include review/custodianScoring.html %}
