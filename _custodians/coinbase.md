@@ -77,7 +77,10 @@ custodian:
     developmentUrl: "https://www.coinbase.com/blog/proof-of-reserves-grant"
 
   operations:
-    btcCustodied: "2.5M BTC"
+    btcCustodied: "887,346 BTC"
+    SourceBTC: "https://intel.arkm.com/explorer/entity/coinbase"
+    AssetsUnderCustody(AUC): "$273B"
+    SourceAUC: "https://investor.coinbase.com/home/default.aspx"
     trackRecord: "No major security incidents"
     incidentHistory: ""
     lastIncident: ""
