@@ -20,6 +20,7 @@ icon: com.antier.infipay.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
+appHashes: 
 date: 2023-03-30
 signer: 
 reviewArchive: 

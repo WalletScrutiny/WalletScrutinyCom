@@ -21,6 +21,7 @@ icon: com.gaifang.ATMOptionTest.jpg
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2022-03-24
 signer: 
 reviewArchive: 

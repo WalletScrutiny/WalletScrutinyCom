@@ -21,6 +21,7 @@ icon: org.freewallet.lite.android.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2021-05-25
 signer: 
 reviewArchive: 

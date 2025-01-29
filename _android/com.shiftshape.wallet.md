@@ -21,6 +21,7 @@ icon: com.shiftshape.wallet.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2021-08-31
 signer: 
 reviewArchive: 

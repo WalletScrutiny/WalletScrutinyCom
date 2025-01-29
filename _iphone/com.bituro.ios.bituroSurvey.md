@@ -20,6 +20,7 @@ icon: com.bituro.ios.bituroSurvey.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2024-02-05
 signer: 
 reviewArchive: 

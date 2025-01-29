@@ -20,6 +20,7 @@ icon: com.coinpanel.appdev.jpg
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2024-10-23
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.wadz.wadzapp.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
+appHashes: 
 date: 2023-09-06
 signer: 
 reviewArchive: 

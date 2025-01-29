@@ -20,6 +20,7 @@ icon: com.uecent.viv.png
 bugbounty: 
 meta: obsolete
 verdict: fewusers
+appHashes: 
 date: 2024-11-13
 signer: 
 reviewArchive: 

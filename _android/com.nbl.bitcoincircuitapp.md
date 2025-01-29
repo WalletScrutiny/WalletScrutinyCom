@@ -20,6 +20,7 @@ icon: com.nbl.bitcoincircuitapp.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2021-08-20
 signer: 
 reviewArchive: 

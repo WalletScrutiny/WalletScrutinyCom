@@ -21,6 +21,7 @@ icon: app.aitrade.ai.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2024-09-28
 signer: 
 reviewArchive: 

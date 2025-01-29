@@ -21,6 +21,7 @@ icon: com.app.awqsome.ennowallet.png
 bugbounty: 
 meta: stale
 verdict: nobtc
+appHashes: 
 date: 2024-04-09
 signer: 
 reviewArchive: 

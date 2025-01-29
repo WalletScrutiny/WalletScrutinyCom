@@ -20,6 +20,7 @@ icon: com.reacnative.js.balancenetwork.wallet.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
+appHashes: 
 date: 2024-10-31
 signer: 
 reviewArchive: 

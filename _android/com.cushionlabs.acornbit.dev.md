@@ -21,6 +21,7 @@ icon: com.cushionlabs.acornbit.dev.png
 bugbounty: 
 meta: obsolete
 verdict: nosendreceive
+appHashes: 
 date: 2024-12-08
 signer: 
 reviewArchive: 

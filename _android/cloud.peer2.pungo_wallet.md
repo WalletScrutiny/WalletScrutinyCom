@@ -21,6 +21,7 @@ icon: cloud.peer2.pungo_wallet.png
 bugbounty: 
 meta: removed
 verdict: nosource
+appHashes: 
 date: 2021-06-02
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.moneybrain.moneybrain.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-11-22
 signer: 
 reviewArchive: 

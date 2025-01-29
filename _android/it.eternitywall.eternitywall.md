@@ -20,6 +20,7 @@ icon: it.eternitywall.eternitywall.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-04-19
 signer: 
 reviewArchive: 

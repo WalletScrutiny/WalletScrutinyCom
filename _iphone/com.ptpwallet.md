@@ -20,6 +20,7 @@ icon: com.ptpwallet.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
+appHashes: 
 date: 2024-10-05
 signer: 
 reviewArchive: 

@@ -11,7 +11,7 @@ released: 2020-11-17
 updated: 2023-02-13
 version: '1.33'
 stars: 3.9
-reviews: 926
+reviews: 927
 size: '45891584'
 website: https://www.buyucoin.com
 repository: 
@@ -20,6 +20,7 @@ icon: com.buyucoin.jpg
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-10-07
 signer: 
 reviewArchive: 

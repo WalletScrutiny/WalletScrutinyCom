@@ -12,7 +12,7 @@ updated: 2024-08-25
 version: 1.2.65
 stars: 2.5
 ratings: 3530
-reviews: 2130
+reviews: 2135
 size: 
 website: https://blackcatcard.com
 repository: 
@@ -21,6 +21,7 @@ icon: com.papaya.blackcatcard.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-11-01
 signer: 
 reviewArchive: 

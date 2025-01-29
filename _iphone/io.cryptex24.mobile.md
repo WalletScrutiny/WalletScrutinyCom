@@ -20,6 +20,7 @@ icon: io.cryptex24.mobile.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
+appHashes: 
 date: 2024-11-25
 signer: 
 reviewArchive: 

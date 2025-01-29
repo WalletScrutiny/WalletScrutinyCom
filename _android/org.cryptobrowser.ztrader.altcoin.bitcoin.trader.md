@@ -20,6 +20,7 @@ icon: org.cryptobrowser.ztrader.altcoin.bitcoin.trader.jpg
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2021-10-01
 signer: 
 reviewArchive: 

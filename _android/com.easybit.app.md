@@ -21,6 +21,7 @@ icon: com.easybit.app.png
 bugbounty: 
 meta: obsolete
 verdict: nowallet
+appHashes: 
 date: 2023-12-13
 signer: 
 reviewArchive: 

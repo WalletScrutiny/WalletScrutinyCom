@@ -21,6 +21,7 @@ icon: uni.UNI2A1D818.jpg
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2023-08-05
 signer: 
 reviewArchive: 

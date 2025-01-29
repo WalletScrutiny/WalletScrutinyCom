@@ -20,6 +20,7 @@ icon: com.rinnas.ajGlobal.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-10-19
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: finance.orderbook.trade.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-08-25
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: org.chainverse.png
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2024-09-21
 signer: 
 reviewArchive: 

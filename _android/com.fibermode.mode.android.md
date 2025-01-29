@@ -21,6 +21,7 @@ icon: com.fibermode.mode.android.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2023-04-16
 signer: 
 reviewArchive: 

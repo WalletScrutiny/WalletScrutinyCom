@@ -20,6 +20,7 @@ icon: ivendpay.com.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-04-04
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: swapitway.sw.jpg
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2021-09-06
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.xchangemonster.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2023-08-19
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.mao.guiderun.png
 bugbounty: 
 meta: defunct
 verdict: nosource
+appHashes: 
 date: 2023-08-07
 signer: 
 reviewArchive: 

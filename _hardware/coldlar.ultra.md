@@ -25,6 +25,7 @@ icon: coldlar.ultra.png
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2024-12-16
 signer: 
 reviewArchive: 

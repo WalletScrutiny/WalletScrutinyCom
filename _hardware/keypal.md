@@ -25,6 +25,7 @@ icon: keypal.png
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2023-02-01
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.eqifi.eqifi.png
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-04-17
 signer: 
 reviewArchive: 

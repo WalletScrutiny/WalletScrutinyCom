@@ -20,6 +20,7 @@ icon: finance.ottr.app.jpg
 bugbounty: 
 meta: stale
 verdict: nobtc
+appHashes: 
 date: 2024-12-15
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.coinhub.pro.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2022-02-21
 signer: 
 reviewArchive: 

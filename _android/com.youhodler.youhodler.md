@@ -21,6 +21,7 @@ icon: com.youhodler.youhodler.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2020-06-20
 signer: 
 reviewArchive: 

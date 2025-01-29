@@ -20,6 +20,7 @@ icon: cash.usdx.wallet.jpg
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2024-12-08
 signer: 
 reviewArchive: 

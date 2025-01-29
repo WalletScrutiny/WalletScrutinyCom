@@ -20,6 +20,7 @@ icon: com.cryptex.www.binexhosting.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-05-18
 signer: 
 reviewArchive: 

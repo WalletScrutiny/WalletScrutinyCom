@@ -20,6 +20,7 @@ icon: net.panteam.pt.BTC.png
 bugbounty: 
 meta: stale
 verdict: fewusers
+appHashes: 
 date: 2024-02-20
 signer: 
 reviewArchive: 

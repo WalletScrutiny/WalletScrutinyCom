@@ -21,6 +21,7 @@ icon: io.cordova.myappf57082.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2024-02-05
 signer: 
 reviewArchive: 

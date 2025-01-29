@@ -21,6 +21,7 @@ icon: cm.viaziza.smalldeals.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2024-05-04
 signer: 
 reviewArchive: 

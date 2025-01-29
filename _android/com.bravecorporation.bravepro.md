@@ -20,6 +20,7 @@ icon: com.bravecorporation.bravepro.png
 bugbounty: 
 meta: stale
 verdict: fewusers
+appHashes: 
 date: 2024-10-16
 signer: 
 reviewArchive: 

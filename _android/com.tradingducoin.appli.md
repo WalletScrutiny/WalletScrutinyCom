@@ -21,6 +21,7 @@ icon: com.tradingducoin.appli.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2021-12-22
 signer: 
 reviewArchive: 

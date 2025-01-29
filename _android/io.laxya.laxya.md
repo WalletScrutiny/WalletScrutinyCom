@@ -21,6 +21,7 @@ icon: io.laxya.laxya.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2024-09-25
 signer: 
 reviewArchive: 

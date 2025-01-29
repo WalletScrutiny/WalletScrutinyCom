@@ -20,6 +20,7 @@ icon: metau.eu.png
 bugbounty: 
 meta: stale
 verdict: fewusers
+appHashes: 
 date: 2024-05-16
 signer: 
 reviewArchive: 

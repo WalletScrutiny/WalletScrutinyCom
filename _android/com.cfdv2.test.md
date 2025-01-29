@@ -20,6 +20,7 @@ icon: com.cfdv2.test.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-03-02
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.tmdstudios.cryptoledgerkotlin.png
 bugbounty: 
 meta: obsolete
 verdict: fewusers
+appHashes: 
 date: 2024-12-16
 signer: 
 reviewArchive: 

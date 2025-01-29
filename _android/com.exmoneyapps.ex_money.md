@@ -21,6 +21,7 @@ icon: com.exmoneyapps.ex_money.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-12-28
 signer: 
 reviewArchive: 

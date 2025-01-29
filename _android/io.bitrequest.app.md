@@ -20,6 +20,7 @@ icon: io.bitrequest.app.png
 bugbounty: 
 meta: ok
 verdict: fewusers
+appHashes: 
 date: 2023-12-01
 signer: 
 reviewArchive: 

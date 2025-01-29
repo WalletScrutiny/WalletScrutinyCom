@@ -20,6 +20,7 @@ icon: one.citadel.mobile.jpg
 bugbounty: 
 meta: stale
 verdict: nosource
+appHashes: 
 date: 2024-05-15
 signer: 
 reviewArchive: 

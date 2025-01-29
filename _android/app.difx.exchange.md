@@ -21,6 +21,7 @@ icon: app.difx.exchange.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-06-29
 signer: 
 reviewArchive: 

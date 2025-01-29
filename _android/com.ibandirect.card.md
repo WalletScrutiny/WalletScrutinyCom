@@ -21,6 +21,7 @@ icon: com.ibandirect.card.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-08-31
 signer: 
 reviewArchive: 

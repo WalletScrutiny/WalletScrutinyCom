@@ -21,6 +21,7 @@ icon: com.waspbit.witcashpdn.jpg
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2023-06-10
 signer: 
 reviewArchive: 

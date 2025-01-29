@@ -20,6 +20,7 @@ icon: com.saitapro.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
+appHashes: 
 date: 2024-10-28
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: co.sarwa.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
+appHashes: 
 date: 2023-07-28
 signer: 
 reviewArchive: 

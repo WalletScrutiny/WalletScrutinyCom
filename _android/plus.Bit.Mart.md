@@ -20,6 +20,7 @@ icon: plus.Bit.Mart.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-08-04
 signer: 
 reviewArchive: 

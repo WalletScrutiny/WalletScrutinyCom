@@ -12,7 +12,7 @@ updated: 2024-12-03
 version: VARY
 stars: 3.2
 ratings: 
-reviews: 47
+reviews: 48
 size: 
 website: https://www.bytefederal.com
 repository: 
@@ -21,6 +21,7 @@ icon: io.bytewallet.bytewallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2024-07-22
 signer: 
 reviewArchive: 

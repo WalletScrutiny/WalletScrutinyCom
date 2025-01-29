@@ -21,6 +21,7 @@ icon: com.cryptominer.btc.miner.cloud.mining.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2021-11-16
 signer: 
 reviewArchive: 

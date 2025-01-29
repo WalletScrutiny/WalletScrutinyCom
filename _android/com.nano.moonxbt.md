@@ -21,6 +21,7 @@ icon: com.nano.moonxbt.png
 bugbounty: 
 meta: obsolete
 verdict: custodial
+appHashes: 
 date: 2025-01-06
 signer: 
 reviewArchive: 

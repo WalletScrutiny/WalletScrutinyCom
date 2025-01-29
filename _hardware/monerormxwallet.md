@@ -22,6 +22,7 @@ icon: monerormxwallet.png
 bugbounty: 
 meta: stale
 verdict: nobtc
+appHashes: 
 date: 2022-04-04
 signer: 
 reviewArchive: 

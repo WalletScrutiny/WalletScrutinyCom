@@ -20,6 +20,7 @@ icon: com.bideskexchange.app.jpg
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2021-10-21
 signer: 
 reviewArchive: 

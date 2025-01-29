@@ -22,6 +22,7 @@ icon: finance.get10101.app.png
 bugbounty: 
 meta: ok
 verdict: fewusers
+appHashes: 
 date: 2024-08-07
 signer: 
 reviewArchive: 

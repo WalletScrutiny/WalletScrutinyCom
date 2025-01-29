@@ -20,6 +20,7 @@ icon: com.trade4fastpay.trade4fastpay.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-04-19
 signer: 
 reviewArchive: 

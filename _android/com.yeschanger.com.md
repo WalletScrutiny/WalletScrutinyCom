@@ -21,6 +21,7 @@ icon: com.yeschanger.com.png
 bugbounty: 
 meta: stale
 verdict: nowallet
+appHashes: 
 date: 2024-03-22
 signer: 
 reviewArchive: 

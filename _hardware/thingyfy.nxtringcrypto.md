@@ -22,6 +22,7 @@ icon: thingyfy.nxtringcrypto.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2022-05-10
 signer: 
 reviewArchive: 

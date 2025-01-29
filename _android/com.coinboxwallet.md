@@ -21,6 +21,7 @@ icon: com.coinboxwallet.png
 bugbounty: 
 meta: removed
 verdict: nosource
+appHashes: 
 date: 2024-12-23
 signer: 
 reviewArchive: 

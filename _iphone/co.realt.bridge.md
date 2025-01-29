@@ -20,6 +20,7 @@ icon: co.realt.bridge.jpg
 bugbounty: 
 meta: defunct
 verdict: nobtc
+appHashes: 
 date: 2022-01-15
 signer: 
 reviewArchive: 

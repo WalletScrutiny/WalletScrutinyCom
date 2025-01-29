@@ -8,11 +8,11 @@ appId: com.ledger.live
 appCountry: us
 idd: '1361671700'
 released: 2019-01-28
-updated: 2024-12-17
-version: '3.59'
+updated: 2025-01-20
+version: '3.60'
 stars: 4.9
-reviews: 11163
-size: '164677632'
+reviews: 11456
+size: '158748672'
 website: https://www.ledger.com/ledger-live
 repository: 
 issue: 
@@ -20,6 +20,7 @@ icon: com.ledger.live.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-12-15
 signer: 
 reviewArchive: 

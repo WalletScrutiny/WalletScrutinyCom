@@ -11,7 +11,7 @@ released: 2019-01-27
 updated: 2025-01-14
 version: 2.15.5
 stars: 4.8
-reviews: 4156
+reviews: 4230
 size: '58041344'
 website: https://coinext.com.br/
 repository: 
@@ -20,6 +20,7 @@ icon: br.com.coinext.Coinext.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-09-07
 signer: 
 reviewArchive: 

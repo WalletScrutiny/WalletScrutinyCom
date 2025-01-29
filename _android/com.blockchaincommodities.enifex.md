@@ -20,6 +20,7 @@ icon: com.blockchaincommodities.enifex.png
 bugbounty: 
 meta: obsolete
 verdict: fewusers
+appHashes: 
 date: 2024-12-04
 signer: 
 reviewArchive: 

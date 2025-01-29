@@ -20,6 +20,7 @@ icon: micat.example.bergamo.png
 bugbounty: 
 meta: ok
 verdict: fewusers
+appHashes: 
 date: 2024-08-15
 signer: 
 reviewArchive: 

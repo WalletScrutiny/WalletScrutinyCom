@@ -20,6 +20,7 @@ icon: webtrader.crystalballmarkets.com.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-08-21
 signer: 
 reviewArchive: 

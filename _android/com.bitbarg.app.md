@@ -12,7 +12,7 @@ updated: 2024-12-18
 version: 3.2.5
 stars: 4.3
 ratings: 
-reviews: 40
+reviews: 41
 size: 
 website: https://bitbarg.com
 repository: 
@@ -21,6 +21,7 @@ icon: com.bitbarg.app.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
+appHashes: 
 date: 2023-07-07
 signer: 
 reviewArchive: 

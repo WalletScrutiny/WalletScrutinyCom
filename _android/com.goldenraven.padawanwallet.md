@@ -20,6 +20,7 @@ icon: com.goldenraven.padawanwallet.png
 bugbounty: 
 meta: ok
 verdict: fewusers
+appHashes: 
 date: 2023-06-02
 signer: 
 reviewArchive: 

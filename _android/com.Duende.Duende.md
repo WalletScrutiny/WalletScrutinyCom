@@ -20,6 +20,7 @@ icon: com.Duende.Duende.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-07-19
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.koinstrap.koinstrap.jpg
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-11-22
 signer: 
 reviewArchive: 

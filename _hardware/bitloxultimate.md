@@ -27,6 +27,7 @@ icon: bitloxultimate.png
 bugbounty: 
 meta: obsolete
 verdict: wip
+appHashes: 
 date: 2024-04-03
 signer: 
 reviewArchive: 

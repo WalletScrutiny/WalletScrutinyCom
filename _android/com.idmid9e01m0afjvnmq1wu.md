@@ -20,6 +20,7 @@ icon: com.idmid9e01m0afjvnmq1wu.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-04-03
 signer: 
 reviewArchive: 

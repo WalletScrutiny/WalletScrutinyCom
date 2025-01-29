@@ -11,7 +11,7 @@ released: 2020-12-01
 updated: 2025-01-10
 version: 6.9.5
 stars: 4.5
-reviews: 55934
+reviews: 56445
 size: '102745088'
 website: https://coinswitch.co
 repository: 
@@ -20,6 +20,7 @@ icon: com.coinswitch.kuber.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive
+appHashes: 
 date: 2021-10-21
 signer: 
 reviewArchive: 

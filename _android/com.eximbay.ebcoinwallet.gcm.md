@@ -20,6 +20,7 @@ icon: com.eximbay.ebcoinwallet.gcm.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2021-10-18
 signer: 
 reviewArchive: 

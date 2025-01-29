@@ -21,6 +21,7 @@ icon: cryptopia.mobile.png
 bugbounty: 
 meta: removed
 verdict: nosource
+appHashes: 
 date: 2023-08-04
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.bitmex.mobile.android.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2022-02-10
 signer: 
 reviewArchive: 

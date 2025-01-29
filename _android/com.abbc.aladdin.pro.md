@@ -21,6 +21,7 @@ icon: com.abbc.aladdin.pro.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-10-05
 signer: 
 reviewArchive: 

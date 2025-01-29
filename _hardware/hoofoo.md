@@ -22,6 +22,7 @@ icon: hoofoo.png
 bugbounty: 
 meta: ok
 verdict: vapor
+appHashes: 
 date: 2024-10-21
 signer: 
 reviewArchive: 

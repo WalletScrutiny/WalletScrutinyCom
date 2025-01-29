@@ -21,6 +21,7 @@ icon: com.lumiwallet.android.png
 bugbounty: 
 meta: stale
 verdict: nosource
+appHashes: 
 date: 2024-07-05
 signer: 
 reviewArchive: 

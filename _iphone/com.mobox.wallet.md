@@ -20,6 +20,7 @@ icon: com.mobox.wallet.jpg
 bugbounty: 
 meta: defunct
 verdict: nobtc
+appHashes: 
 date: 2022-01-15
 signer: 
 reviewArchive: 

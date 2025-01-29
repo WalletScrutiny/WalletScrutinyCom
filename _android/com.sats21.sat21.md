@@ -20,6 +20,7 @@ icon: com.sats21.sat21.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-04-03
 signer: 
 reviewArchive: 

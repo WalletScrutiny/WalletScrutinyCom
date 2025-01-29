@@ -22,6 +22,7 @@ icon: com.sf.monarch.png
 bugbounty: 
 meta: defunct
 verdict: nosource
+appHashes: 
 date: 2024-07-13
 signer: 
 reviewArchive: 

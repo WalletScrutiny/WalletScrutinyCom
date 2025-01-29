@@ -20,6 +20,7 @@ icon: com.app.eizzybtc.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2022-04-07
 signer: 
 reviewArchive: 

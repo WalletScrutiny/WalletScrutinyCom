@@ -20,6 +20,7 @@ icon: kr.co.rocketchart.gorillabit.v1.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2024-08-31
 signer: 
 reviewArchive: 

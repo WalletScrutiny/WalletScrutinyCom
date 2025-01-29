@@ -20,6 +20,7 @@ icon: com.mykey.id.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2021-04-13
 signer: 
 reviewArchive: 

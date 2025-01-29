@@ -20,6 +20,7 @@ icon: co.bitfrost.png
 bugbounty: 
 meta: obsolete
 verdict: fewusers
+appHashes: 
 date: 2024-05-24
 signer: 
 reviewArchive: 

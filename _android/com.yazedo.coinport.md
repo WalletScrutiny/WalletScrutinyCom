@@ -21,6 +21,7 @@ icon: com.yazedo.coinport.png
 bugbounty: 
 meta: defunct
 verdict: nowallet
+appHashes: 
 date: 2023-06-11
 signer: 
 reviewArchive: 

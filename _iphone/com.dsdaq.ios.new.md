@@ -20,6 +20,7 @@ icon: com.dsdaq.ios.new.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2023-08-25
 signer: 
 reviewArchive: 

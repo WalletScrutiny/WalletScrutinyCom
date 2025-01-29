@@ -20,6 +20,7 @@ icon: com.nebeus.appmobile.jpg
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-06-09
 signer: 
 reviewArchive: 

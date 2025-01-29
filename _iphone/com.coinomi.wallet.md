@@ -11,7 +11,7 @@ released: 2018-03-22
 updated: 2025-01-08
 version: 1.40.5
 stars: 4.5
-reviews: 1922
+reviews: 1925
 size: '158853120'
 website: https://www.coinomi.com
 repository: 
@@ -20,6 +20,7 @@ icon: com.coinomi.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2024-10-05
 signer: 
 reviewArchive: 

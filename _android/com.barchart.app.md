@@ -12,7 +12,7 @@ updated: 2024-08-19
 version: 3.0.10
 stars: 4.6
 ratings: 9788
-reviews: 2270
+reviews: 2273
 size: 
 website: http://www.barchart.com/app
 repository: 
@@ -21,6 +21,7 @@ icon: com.barchart.app.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-11-25
 signer: 
 reviewArchive: 

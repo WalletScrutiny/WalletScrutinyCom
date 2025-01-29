@@ -20,6 +20,7 @@ icon: com.app.becoin.png
 bugbounty: 
 meta: obsolete
 verdict: fewusers
+appHashes: 
 date: 2024-09-21
 signer: 
 reviewArchive: 

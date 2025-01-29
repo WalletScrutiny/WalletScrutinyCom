@@ -19,6 +19,7 @@ icon: com.blockfi.mobile.jpg
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2023-12-19
 signer: 
 reviewArchive: 

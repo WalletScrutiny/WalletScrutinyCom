@@ -8,8 +8,8 @@ users: 50000
 appId: com.joachimneumann.bisq
 appCountry: 
 released: 2018-09-06
-updated: 2022-12-13
-version: 1.2.8
+updated: 2025-01-15
+version: 1.3.2
 stars: 2.8
 ratings: 69
 reviews: 16
@@ -19,9 +19,10 @@ repository: https://github.com/bisq-network/bisqremote_Android
 issue: 
 icon: com.joachimneumann.bisq.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: nowallet
-date: 2024-12-04
+appHashes: 
+date: 2025-01-27
 signer: 
 reviewArchive: 
 twitter: devinbileck

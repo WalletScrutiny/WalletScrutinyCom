@@ -21,6 +21,7 @@ icon: com.moonlet.png
 bugbounty: 
 meta: obsolete
 verdict: nobtc
+appHashes: 
 date: 2024-06-07
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.tatspace.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-04-12
 signer: 
 reviewArchive: 

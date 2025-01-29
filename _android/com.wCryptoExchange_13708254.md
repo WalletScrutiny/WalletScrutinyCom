@@ -20,6 +20,7 @@ icon: com.wCryptoExchange_13708254.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2022-02-25
 signer: 
 reviewArchive: 

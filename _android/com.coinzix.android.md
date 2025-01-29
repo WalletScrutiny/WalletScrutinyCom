@@ -21,6 +21,7 @@ icon: com.coinzix.android.png
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-05-30
 signer: 
 reviewArchive: 

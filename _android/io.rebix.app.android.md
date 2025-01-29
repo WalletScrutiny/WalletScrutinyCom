@@ -20,6 +20,7 @@ icon: io.rebix.app.android.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-06-21
 signer: 
 reviewArchive: 

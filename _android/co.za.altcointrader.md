@@ -21,6 +21,7 @@ icon: co.za.altcointrader.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-07-22
 signer: 
 reviewArchive: 

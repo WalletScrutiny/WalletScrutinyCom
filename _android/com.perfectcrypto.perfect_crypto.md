@@ -21,6 +21,7 @@ icon: com.perfectcrypto.perfect_crypto.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2023-08-16
 signer: 
 reviewArchive: 

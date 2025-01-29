@@ -20,6 +20,7 @@ icon: com.wallet.blockchain.bitcoin.png
 bugbounty: 
 meta: ok
 verdict: fewusers
+appHashes: 
 date: 2024-08-17
 signer: 
 reviewArchive: 

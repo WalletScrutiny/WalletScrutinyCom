@@ -21,6 +21,7 @@ icon: com.hrai.android.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2023-04-22
 signer: 
 reviewArchive: 

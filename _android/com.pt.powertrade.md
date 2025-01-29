@@ -21,6 +21,7 @@ icon: com.pt.powertrade.png
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-04-18
 signer: 
 reviewArchive: 

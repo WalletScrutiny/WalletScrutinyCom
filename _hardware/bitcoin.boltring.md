@@ -25,7 +25,7 @@ meta: ok
 verdict: nowallet
 appHashes: []
 date: 2023-12-11
-signer:
+signer: 
 reviewArchive:
 - date: 2023-02-07
   version: 

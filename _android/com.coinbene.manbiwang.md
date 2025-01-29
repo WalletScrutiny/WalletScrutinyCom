@@ -22,6 +22,7 @@ icon: com.coinbene.manbiwang.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2021-10-01
 signer: 
 reviewArchive: 

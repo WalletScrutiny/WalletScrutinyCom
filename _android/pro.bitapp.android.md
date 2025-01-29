@@ -20,6 +20,7 @@ icon: pro.bitapp.android.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2020-05-07
 signer: 
 reviewArchive: 

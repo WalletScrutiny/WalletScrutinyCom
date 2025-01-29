@@ -22,6 +22,7 @@ icon: com.sparkpoint.png
 bugbounty: 
 meta: stale
 verdict: nosource
+appHashes: 
 date: 2024-08-19
 signer: 
 reviewArchive: 

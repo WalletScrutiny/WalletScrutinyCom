@@ -22,6 +22,7 @@ icon: com.xmzys.binance73.png
 bugbounty: 
 meta: removed
 verdict: fake
+appHashes: 
 date: 2021-10-22
 signer: 
 reviewArchive: 

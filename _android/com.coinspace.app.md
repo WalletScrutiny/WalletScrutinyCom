@@ -12,7 +12,7 @@ updated: 2025-01-09
 version: 6.6.4
 stars: 4.2
 ratings: 1234
-reviews: 83
+reviews: 84
 size: 
 website: https://coin.space
 repository: https://github.com/CoinSpace/CoinSpace
@@ -21,12 +21,13 @@ icon: com.coinspace.app.png
 bugbounty: https://openbugbounty.org/bugbounty/CoinAppWallet/
 meta: ok
 verdict: nonverifiable
+appHashes: []
 date: 2023-04-22
 signer: 
 reviewArchive:
 - date: 2019-12-16
   version: v2.16.3
-  appHash: 
+  appHashes: []
   gitRevision: 05400fa6155c33892a2955e12311ede0d86da12a
   verdict: ftbfs
 twitter: coinappwallet

@@ -12,7 +12,7 @@ updated: 2025-01-14
 version: 0.1.15
 stars: 4.6
 ratings: 
-reviews: 28
+reviews: 29
 size: 
 website: https://wallacy.io/
 repository: 
@@ -21,6 +21,7 @@ icon: io.wallacy.cryptowallet.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2023-08-30
 signer: 
 reviewArchive: 

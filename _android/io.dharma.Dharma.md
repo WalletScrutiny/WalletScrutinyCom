@@ -20,6 +20,7 @@ icon: io.dharma.Dharma.png
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2022-03-07
 signer: 
 reviewArchive: 

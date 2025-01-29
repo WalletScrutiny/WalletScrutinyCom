@@ -20,6 +20,7 @@ icon: com.bit.leagues.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
+appHashes: 
 date: 2023-05-04
 signer: 
 reviewArchive: 

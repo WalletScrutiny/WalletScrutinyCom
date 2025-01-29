@@ -20,6 +20,7 @@ icon: io.kodular.yogeshmaurya72.PletoBNB.png
 bugbounty: 
 meta: obsolete
 verdict: wip
+appHashes: 
 date: 2024-04-02
 signer: 
 reviewArchive: 

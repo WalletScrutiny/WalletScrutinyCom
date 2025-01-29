@@ -22,6 +22,7 @@ icon: specter.shield.png
 bugbounty: 
 meta: ok
 verdict: diy
+appHashes: 
 date: 2023-02-07
 signer: 
 reviewArchive: 

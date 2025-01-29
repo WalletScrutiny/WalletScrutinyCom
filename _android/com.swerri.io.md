@@ -8,7 +8,7 @@ users: 10000
 appId: com.swerri.io
 appCountry: 
 released: 
-updated: 2022-10-24
+updated: 2025-01-20
 version: VARY
 stars: 
 ratings: 
@@ -19,9 +19,10 @@ repository:
 issue: 
 icon: com.swerri.io.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: nobtc
-date: 2024-10-16
+appHashes: 
+date: 2025-01-27
 signer: 
 reviewArchive: 
 twitter: Swerriapp

@@ -21,6 +21,7 @@ icon: jp.co.monex.ms.mt_crypto.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
+appHashes: 
 date: 2023-05-05
 signer: 
 reviewArchive: 

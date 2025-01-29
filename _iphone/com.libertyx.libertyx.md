@@ -20,6 +20,7 @@ icon: com.libertyx.libertyx.jpg
 bugbounty: 
 meta: stale
 verdict: nowallet
+appHashes: 
 date: 2024-06-23
 signer: 
 reviewArchive: 

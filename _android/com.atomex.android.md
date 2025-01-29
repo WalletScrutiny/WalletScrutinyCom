@@ -21,6 +21,7 @@ icon: com.atomex.android.png
 bugbounty: 
 meta: defunct
 verdict: nonverifiable
+appHashes: 
 date: 2022-02-25
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.royalqpro.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2024-03-01
 signer: 
 reviewArchive: 

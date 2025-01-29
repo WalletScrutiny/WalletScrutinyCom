@@ -24,7 +24,7 @@ meta: ok
 verdict: ftbfs
 appHashes: []
 date: 2024-08-23
-signer:
+signer: 
 reviewArchive: 
 twitter: HexaWallet
 social:

@@ -21,6 +21,7 @@ icon: com.fluxpayment.png
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-04-09
 signer: 
 reviewArchive: 

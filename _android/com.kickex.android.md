@@ -21,6 +21,7 @@ icon: com.kickex.android.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-02-16
 signer: 
 reviewArchive: 

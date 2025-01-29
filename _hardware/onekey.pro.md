@@ -25,6 +25,7 @@ icon: onekey.pro.png
 bugbounty: https://github.com/OneKeyHQ/app-monorepo/blob/onekey/docs/BUG_RULES.md
 meta: ok
 verdict: wip
+appHashes: 
 date: 2025-01-07
 signer: 
 reviewArchive: 

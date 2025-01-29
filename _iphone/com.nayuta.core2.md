@@ -19,16 +19,16 @@ issue:
 icon: com.nayuta.core2.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nonverifiable
 appHashes: []
 date: 2024-10-07
-signer:
+signer: 
 reviewArchive:
 - date: 2024-10-07
   version: 1.5.0
   appHashes: []
   gitRevision: c5fd94bf4c89189529bbb9a0265239acf4f53f35
-  verdict: nonverifiable   
+  verdict: nonverifiable
 twitter: 
 social: 
 features:
@@ -36,5 +36,7 @@ features:
 developerName: Nayuta
 
 ---
+
+**Note:** iPhone products are not verifiable.
 
 {% include copyFromAndroid.html %}

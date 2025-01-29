@@ -21,6 +21,7 @@ icon: br.com.yappi.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2024-09-18
 signer: 
 reviewArchive: 

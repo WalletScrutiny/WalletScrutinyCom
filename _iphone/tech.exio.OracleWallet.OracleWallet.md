@@ -20,6 +20,7 @@ icon: tech.exio.OracleWallet.OracleWallet.jpg
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2023-01-11
 signer: 
 reviewArchive: 

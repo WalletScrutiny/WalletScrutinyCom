@@ -20,6 +20,7 @@ icon: com.bluepipscapital.webviewapp.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-11-02
 signer: 
 reviewArchive: 

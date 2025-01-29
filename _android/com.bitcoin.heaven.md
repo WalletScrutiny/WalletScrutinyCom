@@ -20,6 +20,7 @@ icon: com.bitcoin.heaven.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2021-12-22
 signer: 
 reviewArchive: 

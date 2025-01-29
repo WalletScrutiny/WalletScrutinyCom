@@ -20,9 +20,10 @@ repository:
 issue: 
 icon: capital.spatium.wallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
-date: 2024-07-17
+appHashes: 
+date: 2025-01-27
 signer: 
 reviewArchive: 
 twitter: spatium_news

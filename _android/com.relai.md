@@ -8,8 +8,8 @@ users: 100000
 appId: com.relai
 appCountry: 
 released: 
-updated: 2024-12-17
-version: 2.10.5
+updated: 2025-01-23
+version: 2.10.6
 stars: 
 ratings: 
 reviews: 
@@ -21,6 +21,7 @@ icon: com.relai.png
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2024-07-24
 signer: 
 reviewArchive: 

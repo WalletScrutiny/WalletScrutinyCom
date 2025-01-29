@@ -21,6 +21,7 @@ icon: com.e.bitmoondotnet.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2023-04-22
 signer: 
 reviewArchive: 

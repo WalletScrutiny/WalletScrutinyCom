@@ -20,6 +20,7 @@ icon: org.coinid.jpg
 bugbounty: 
 meta: stale
 verdict: ftbfs
+appHashes: 
 date: 2024-02-20
 signer: 
 reviewArchive: 

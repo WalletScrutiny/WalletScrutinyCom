@@ -20,6 +20,7 @@ icon: com.fenixcoin.wallet.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2021-07-18
 signer: 
 reviewArchive: 

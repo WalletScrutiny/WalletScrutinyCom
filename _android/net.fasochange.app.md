@@ -21,6 +21,7 @@ icon: net.fasochange.app.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2025-01-15
 signer: 
 reviewArchive: 

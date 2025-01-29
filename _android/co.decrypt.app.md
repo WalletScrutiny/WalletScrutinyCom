@@ -22,6 +22,7 @@ icon: co.decrypt.app.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-12-13
 signer: 
 reviewArchive: 

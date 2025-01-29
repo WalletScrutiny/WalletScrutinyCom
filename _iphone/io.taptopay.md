@@ -20,6 +20,7 @@ icon: io.taptopay.jpg
 bugbounty: 
 meta: defunct
 verdict: nowallet
+appHashes: 
 date: 2023-09-04
 signer: 
 reviewArchive: 

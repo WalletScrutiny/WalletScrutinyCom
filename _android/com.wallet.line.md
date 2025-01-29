@@ -21,6 +21,7 @@ icon: com.wallet.line.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2023-08-25
 signer: 
 reviewArchive: 

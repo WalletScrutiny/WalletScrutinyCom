@@ -22,6 +22,7 @@ icon: pxcard.png
 bugbounty: 
 meta: ok
 verdict: noita
+appHashes: 
 date: 2024-10-22
 signer: 
 reviewArchive: 

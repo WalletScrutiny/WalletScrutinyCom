@@ -20,6 +20,7 @@ icon: me.mobi.app.jpg
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-04-28
 signer: 
 reviewArchive: 

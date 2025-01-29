@@ -20,6 +20,7 @@ icon: com.secuxtech.mysecuxpay.png
 bugbounty: 
 meta: stale
 verdict: fewusers
+appHashes: 
 date: 2024-12-15
 signer: 
 reviewArchive: 

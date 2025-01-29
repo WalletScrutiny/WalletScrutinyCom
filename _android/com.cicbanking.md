@@ -20,6 +20,7 @@ icon: com.cicbanking.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-06-21
 signer: 
 reviewArchive: 

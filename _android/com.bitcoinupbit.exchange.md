@@ -20,6 +20,7 @@ icon: com.bitcoinupbit.exchange.png
 bugbounty: 
 meta: stale
 verdict: fewusers
+appHashes: 
 date: 2024-03-30
 signer: 
 reviewArchive: 

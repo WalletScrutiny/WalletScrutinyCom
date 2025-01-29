@@ -25,6 +25,7 @@ icon: safepalx1.png
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2024-12-08
 signer: 
 reviewArchive: 

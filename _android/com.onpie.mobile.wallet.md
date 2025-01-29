@@ -20,6 +20,7 @@ icon: com.onpie.mobile.wallet.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-04-03
 signer: 
 reviewArchive: 

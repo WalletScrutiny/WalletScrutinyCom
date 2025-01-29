@@ -20,6 +20,7 @@ icon: com.BiyaGlobal.Biya.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-07-01
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.bitcoli.bitcoli.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-02-28
 signer: 
 reviewArchive: 

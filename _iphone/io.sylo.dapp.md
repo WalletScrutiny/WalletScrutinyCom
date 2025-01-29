@@ -20,6 +20,7 @@ icon: io.sylo.dapp.jpg
 bugbounty: 
 meta: obsolete
 verdict: nosource
+appHashes: 
 date: 2024-10-31
 signer: 
 reviewArchive: 

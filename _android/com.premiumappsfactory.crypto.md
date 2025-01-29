@@ -20,6 +20,7 @@ icon: com.premiumappsfactory.crypto.png
 bugbounty: 
 meta: stale
 verdict: fewusers
+appHashes: 
 date: 2024-12-27
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.app.vptplus.png
 bugbounty: 
 meta: stale
 verdict: nowallet
+appHashes: 
 date: 2024-07-14
 signer: 
 reviewArchive: 

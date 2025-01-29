@@ -20,6 +20,7 @@ icon: com.sologenicwallet.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2020-06-20
 signer: 
 reviewArchive: 

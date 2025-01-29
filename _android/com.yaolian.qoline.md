@@ -21,6 +21,7 @@ icon: com.yaolian.qoline.png
 bugbounty: 
 meta: ok
 verdict: fewusers
+appHashes: 
 date: 2022-02-17
 signer: 
 reviewArchive: 

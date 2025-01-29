@@ -20,6 +20,7 @@ icon: com.swaps.only.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-08-09
 signer: 
 reviewArchive: 

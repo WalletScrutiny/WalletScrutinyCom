@@ -20,6 +20,7 @@ icon: com.sendVillageHQ.comi_block.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-08-21
 signer: 
 reviewArchive: 

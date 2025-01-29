@@ -20,6 +20,7 @@ icon: com.globiance.iosapp.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-07-20
 signer: 
 reviewArchive: 

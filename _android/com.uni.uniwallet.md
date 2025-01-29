@@ -20,6 +20,7 @@ icon: com.uni.uniwallet.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2021-12-29
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.pmt247.pmt247.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-02-05
 signer: 
 reviewArchive: 

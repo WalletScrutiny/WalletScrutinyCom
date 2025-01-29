@@ -20,6 +20,7 @@ icon: com.liquiditynetwork.wallet.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2022-03-09
 signer: 
 reviewArchive: 

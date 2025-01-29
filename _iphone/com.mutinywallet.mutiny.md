@@ -18,9 +18,10 @@ repository: https://github.com/MutinyWallet/mutiny-web
 issue: 
 icon: com.mutinywallet.mutiny.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: wip
-date: 2024-09-10
+appHashes: 
+date: 2025-01-27
 signer: 
 reviewArchive: 
 twitter: MutinyWallet

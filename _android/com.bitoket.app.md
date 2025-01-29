@@ -20,6 +20,7 @@ icon: com.bitoket.app.png
 bugbounty: 
 meta: obsolete
 verdict: fewusers
+appHashes: 
 date: 2024-08-05
 signer: 
 reviewArchive: 

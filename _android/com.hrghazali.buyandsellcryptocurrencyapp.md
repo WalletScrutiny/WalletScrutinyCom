@@ -20,6 +20,7 @@ icon: com.hrghazali.buyandsellcryptocurrencyapp.png
 bugbounty: 
 meta: stale
 verdict: fewusers
+appHashes: 
 date: 2024-02-24
 signer: 
 reviewArchive: 

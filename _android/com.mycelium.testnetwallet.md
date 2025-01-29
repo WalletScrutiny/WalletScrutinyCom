@@ -21,6 +21,7 @@ icon: com.mycelium.testnetwallet.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2021-08-02
 signer: 
 reviewArchive: 

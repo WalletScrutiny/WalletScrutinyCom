@@ -21,6 +21,7 @@ icon: com.maicoin.maicoin.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-10-01
 signer: 
 reviewArchive: 

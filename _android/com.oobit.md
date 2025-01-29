@@ -8,8 +8,8 @@ users: 100000
 appId: com.oobit
 appCountry: 
 released: 2022-02-07
-updated: 2025-01-10
-version: 1.8.9
+updated: 2025-01-24
+version: 1.9.0
 stars: 3.1
 ratings: 
 reviews: 19
@@ -21,6 +21,7 @@ icon: com.oobit.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-06-14
 signer: 
 reviewArchive: 

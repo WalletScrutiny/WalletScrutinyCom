@@ -20,6 +20,7 @@ icon: com.agile.walletapp.png
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2024-07-05
 signer: 
 reviewArchive: 

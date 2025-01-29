@@ -12,7 +12,7 @@ updated: 2024-12-17
 version: 3.4.21
 stars: 3.3
 ratings: 3007
-reviews: 584
+reviews: 586
 size: 
 website: https://bitoasis.net/
 repository: 
@@ -21,6 +21,7 @@ icon: com.bitoasis.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-11-15
 signer: 
 reviewArchive: 

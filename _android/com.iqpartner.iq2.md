@@ -20,6 +20,7 @@ icon: com.iqpartner.iq2.jpg
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-12-19
 signer: 
 reviewArchive: 

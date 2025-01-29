@@ -20,6 +20,7 @@ icon: com.SmartItApp.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2024-03-12
 signer: 
 reviewArchive: 

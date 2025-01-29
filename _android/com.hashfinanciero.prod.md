@@ -20,6 +20,7 @@ icon: com.hashfinanciero.prod.jpg
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-12-19
 signer: 
 reviewArchive: 

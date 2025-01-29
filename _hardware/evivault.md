@@ -25,6 +25,7 @@ icon: evivault.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-02-02
 signer: 
 reviewArchive: 

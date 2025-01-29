@@ -21,6 +21,7 @@ icon: com.mal.exchange.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-07-11
 signer: 
 reviewArchive: 

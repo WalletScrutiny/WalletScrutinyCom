@@ -12,7 +12,7 @@ updated: 2024-11-28
 version: 3.19.0
 stars: 3.2
 ratings: 7187
-reviews: 6457
+reviews: 6477
 size: 
 website: https://www.binance.us
 repository: 
@@ -21,6 +21,7 @@ icon: com.binance.us.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2020-11-17
 signer: 
 reviewArchive: 

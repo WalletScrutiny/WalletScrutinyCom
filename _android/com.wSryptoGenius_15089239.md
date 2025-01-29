@@ -20,6 +20,7 @@ icon: com.wSryptoGenius_15089239.jpg
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-01-02
 signer: 
 reviewArchive: 

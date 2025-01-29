@@ -19,9 +19,10 @@ repository:
 issue: 
 icon: com.rice.wallet.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nobtc
-date: 2024-01-22
+appHashes: 
+date: 2025-01-27
 signer: 
 reviewArchive: 
 twitter: RiceDeFiWallet

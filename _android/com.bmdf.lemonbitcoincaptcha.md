@@ -21,6 +21,7 @@ icon: com.bmdf.lemonbitcoincaptcha.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-06-13
 signer: 
 reviewArchive: 

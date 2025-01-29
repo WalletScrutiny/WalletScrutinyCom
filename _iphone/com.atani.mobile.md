@@ -8,11 +8,11 @@ appId: com.atani.mobile
 appCountry: us
 idd: '1547110479'
 released: 2021-03-12
-updated: 2024-07-04
-version: 4.25.8
+updated: 2025-01-22
+version: 4.25.14
 stars: 4.6
 reviews: 35
-size: '203850752'
+size: '205099008'
 website: 
 repository: 
 issue: 
@@ -20,6 +20,7 @@ icon: com.atani.mobile.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-07-28
 signer: 
 reviewArchive: 

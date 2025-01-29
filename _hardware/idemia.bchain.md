@@ -22,6 +22,7 @@ icon: idemia.bchain.png
 bugbounty: 
 meta: ok
 verdict: plainkey
+appHashes: 
 date: 2023-02-09
 signer: 
 reviewArchive: 

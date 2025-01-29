@@ -21,6 +21,7 @@ icon: com.quasarwallet.android.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-02-05
 signer: 
 reviewArchive: 

@@ -12,7 +12,7 @@ updated: 2025-01-03
 version: 4.1.7
 stars: 4.7
 ratings: 5028
-reviews: 2277
+reviews: 2280
 size: 
 website: http://bitazza.com/
 repository: 
@@ -21,6 +21,7 @@ icon: com.bitazza.android.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-09-03
 signer: 
 reviewArchive: 

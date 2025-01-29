@@ -11,7 +11,7 @@ released: 2022-03-17
 updated: 2024-09-01
 version: '1.34'
 stars: 4.1
-reviews: 28
+reviews: 29
 size: '61325312'
 website: https://thebitcoincompany.com
 repository: 
@@ -20,6 +20,7 @@ icon: com.thebitcoincompany.app.ios.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive
+appHashes: 
 date: 2023-06-03
 signer: 
 reviewArchive: 

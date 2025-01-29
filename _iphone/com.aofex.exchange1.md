@@ -20,6 +20,7 @@ icon: com.aofex.exchange1.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2022-10-21
 signer: 
 reviewArchive: 

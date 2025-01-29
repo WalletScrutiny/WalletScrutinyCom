@@ -21,6 +21,7 @@ icon: com.app.defi.png
 bugbounty: 
 meta: removed
 verdict: nosource
+appHashes: 
 date: 2024-09-16
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: jb.tech.blockchainpro.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2021-04-30
 signer: 
 reviewArchive: 

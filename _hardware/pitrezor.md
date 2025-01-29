@@ -23,6 +23,7 @@ icon: pitrezor.png
 bugbounty: 
 meta: ok
 verdict: diy
+appHashes: 
 date: 2022-04-11
 signer: 
 reviewArchive: 

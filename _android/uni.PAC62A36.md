@@ -20,6 +20,7 @@ icon: uni.PAC62A36.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2023-08-04
 signer: 
 reviewArchive: 

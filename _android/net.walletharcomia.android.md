@@ -20,6 +20,7 @@ icon: net.walletharcomia.android.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2022-04-07
 signer: 
 reviewArchive: 

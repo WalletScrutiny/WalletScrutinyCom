@@ -20,6 +20,7 @@ icon: org.cryptobubbles.invest.on.bitcoin.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2021-10-01
 signer: 
 reviewArchive: 

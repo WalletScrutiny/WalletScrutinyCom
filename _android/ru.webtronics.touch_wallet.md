@@ -8,8 +8,8 @@ users: 10000
 appId: ru.webtronics.touch_wallet
 appCountry: 
 released: 2022-10-29
-updated: 2024-12-06
-version: 2.1.8
+updated: 2025-01-15
+version: 2.1.9
 stars: 2.5
 ratings: 
 reviews: 
@@ -21,6 +21,7 @@ icon: ru.webtronics.touch_wallet.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-07-02
 signer: 
 reviewArchive: 

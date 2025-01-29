@@ -20,6 +20,7 @@ icon: com.markka.markkawallet.png
 bugbounty: 
 meta: ok
 verdict: fewusers
+appHashes: 
 date: 2024-10-16
 signer: 
 reviewArchive: 

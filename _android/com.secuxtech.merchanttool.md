@@ -20,6 +20,7 @@ icon: com.secuxtech.merchanttool.png
 bugbounty: 
 meta: stale
 verdict: fewusers
+appHashes: 
 date: 2024-12-15
 signer: 
 reviewArchive: 

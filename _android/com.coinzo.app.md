@@ -21,6 +21,7 @@ icon: com.coinzo.app.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2023-03-30
 signer: 
 reviewArchive: 

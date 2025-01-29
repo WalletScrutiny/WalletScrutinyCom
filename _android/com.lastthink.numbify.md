@@ -20,6 +20,7 @@ icon: com.lastthink.numbify.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2023-06-21
 signer: 
 reviewArchive: 

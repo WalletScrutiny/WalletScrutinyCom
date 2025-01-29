@@ -21,6 +21,7 @@ icon: jb.tech.bitpiewallet.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2021-04-30
 signer: 
 reviewArchive: 

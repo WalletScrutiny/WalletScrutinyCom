@@ -21,6 +21,7 @@ icon: com.ex.exchange808.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2023-01-11
 signer: 
 reviewArchive: 

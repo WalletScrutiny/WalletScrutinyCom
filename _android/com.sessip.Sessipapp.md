@@ -21,6 +21,7 @@ icon: com.sessip.Sessipapp.png
 bugbounty: 
 meta: obsolete
 verdict: custodial
+appHashes: 
 date: 2024-11-30
 signer: 
 reviewArchive: 

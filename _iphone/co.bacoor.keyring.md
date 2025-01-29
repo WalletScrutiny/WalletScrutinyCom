@@ -20,6 +20,7 @@ icon: co.bacoor.keyring.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2021-11-17
 signer: 
 reviewArchive: 

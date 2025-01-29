@@ -21,6 +21,7 @@ icon: cash.futures.app.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2024-09-03
 signer: 
 reviewArchive: 

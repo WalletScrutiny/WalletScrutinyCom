@@ -21,6 +21,7 @@ icon: com.getzion.zion.png
 bugbounty: 
 meta: stale
 verdict: nosource
+appHashes: 
 date: 2024-05-08
 signer: 
 reviewArchive: 

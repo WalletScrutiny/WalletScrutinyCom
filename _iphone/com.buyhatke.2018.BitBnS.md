@@ -20,6 +20,7 @@ icon: com.buyhatke.2018.BitBnS.jpg
 bugbounty: 
 meta: defunct
 verdict: custodial
+appHashes: 
 date: 2023-08-25
 signer: 
 reviewArchive: 

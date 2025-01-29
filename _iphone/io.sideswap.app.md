@@ -20,6 +20,7 @@ icon: io.sideswap.app.jpg
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2023-08-19
 signer: 
 reviewArchive: 

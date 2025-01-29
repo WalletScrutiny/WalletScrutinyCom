@@ -21,6 +21,7 @@ icon: ru.zamzamwallet.png
 bugbounty: 
 meta: stale
 verdict: nowallet
+appHashes: 
 date: 2024-05-24
 signer: 
 reviewArchive: 

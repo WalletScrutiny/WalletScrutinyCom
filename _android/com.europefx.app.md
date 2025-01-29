@@ -21,6 +21,7 @@ icon: com.europefx.app.png
 bugbounty: 
 meta: defunct
 verdict: nosendreceive
+appHashes: 
 date: 2023-08-02
 signer: 
 reviewArchive: 

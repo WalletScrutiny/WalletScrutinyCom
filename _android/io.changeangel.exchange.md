@@ -20,6 +20,7 @@ icon: io.changeangel.exchange.png
 bugbounty: 
 meta: ok
 verdict: fewusers
+appHashes: 
 date: 2024-03-07
 signer: 
 reviewArchive: 

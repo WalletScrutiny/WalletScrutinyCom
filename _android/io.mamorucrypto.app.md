@@ -20,6 +20,7 @@ icon: io.mamorucrypto.app.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-04-16
 signer: 
 reviewArchive: 

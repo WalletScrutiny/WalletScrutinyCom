@@ -20,6 +20,7 @@ icon: com.ghbglobal.ghbwalletios.jpg
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2024-07-17
 signer: 
 reviewArchive: 

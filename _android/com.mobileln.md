@@ -21,6 +21,7 @@ icon: com.mobileln.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2021-04-30
 signer: 
 reviewArchive: 

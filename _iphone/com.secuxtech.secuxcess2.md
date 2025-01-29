@@ -20,6 +20,7 @@ icon: com.secuxtech.secuxcess2.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-08-24
 signer: 
 reviewArchive: 

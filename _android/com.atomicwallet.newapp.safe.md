@@ -22,6 +22,7 @@ icon: com.atomicwallet.newapp.safe.png
 bugbounty: 
 meta: removed
 verdict: fake
+appHashes: 
 date: 2021-07-30
 signer: 
 reviewArchive: 

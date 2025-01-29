@@ -21,6 +21,7 @@ icon: com.cryptorefills.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-12-01
 signer: 
 reviewArchive: 

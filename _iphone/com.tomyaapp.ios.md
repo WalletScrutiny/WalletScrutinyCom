@@ -20,6 +20,7 @@ icon: com.tomyaapp.ios.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
+appHashes: 
 date: 2024-07-19
 signer: 
 reviewArchive: 

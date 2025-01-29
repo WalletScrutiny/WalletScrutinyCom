@@ -20,6 +20,7 @@ icon: com.bitcoinera.crypto.wallet.free.coins.jpg
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2021-10-01
 signer: 
 reviewArchive: 

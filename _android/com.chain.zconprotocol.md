@@ -10,9 +10,9 @@ appCountry:
 released: 2022-01-05
 updated: 2022-01-26
 version: 1.0.2
-stars: 3
+stars: 2.7
 ratings: 
-reviews: 4
+reviews: 5
 size: 
 website: https://biskit.global/
 repository: 
@@ -21,6 +21,7 @@ icon: com.chain.zconprotocol.png
 bugbounty: 
 meta: obsolete
 verdict: custodial
+appHashes: 
 date: 2024-01-19
 signer: 
 reviewArchive: 

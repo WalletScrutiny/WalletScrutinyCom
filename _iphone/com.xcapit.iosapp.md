@@ -18,9 +18,10 @@ repository:
 issue: 
 icon: com.xcapit.iosapp.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
-date: 2022-07-13
+appHashes: 
+date: 2025-01-27
 signer: 
 reviewArchive: 
 twitter: 

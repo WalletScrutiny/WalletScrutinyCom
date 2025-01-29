@@ -20,6 +20,7 @@ icon: com.tidex.exchange.app.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-09-10
 signer: 
 reviewArchive: 

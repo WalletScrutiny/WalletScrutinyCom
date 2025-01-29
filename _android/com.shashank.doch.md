@@ -21,6 +21,7 @@ icon: com.shashank.doch.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2023-06-02
 signer: 
 reviewArchive: 

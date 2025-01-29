@@ -20,6 +20,7 @@ icon: com.btmex.exchange.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-03-21
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: plus.ARQ.D2020120901.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-01-02
 signer: 
 reviewArchive: 

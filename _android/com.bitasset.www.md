@@ -21,6 +21,7 @@ icon: com.bitasset.www.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2021-11-10
 signer: 
 reviewArchive: 

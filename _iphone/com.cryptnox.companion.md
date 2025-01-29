@@ -20,6 +20,7 @@ icon: com.cryptnox.companion.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-11-15
 signer: 
 reviewArchive: 

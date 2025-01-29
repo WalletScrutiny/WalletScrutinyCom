@@ -21,6 +21,7 @@ icon: com.cube.beepay.png
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2024-10-23
 signer: 
 reviewArchive: 

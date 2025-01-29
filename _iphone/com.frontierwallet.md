@@ -20,6 +20,7 @@ icon: com.frontierwallet.jpg
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2024-11-04
 signer: 
 reviewArchive: 

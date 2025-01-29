@@ -20,6 +20,7 @@ icon: com.Tradesanta.jpg
 bugbounty: 
 meta: defunct
 verdict: nowallet
+appHashes: 
 date: 2023-05-10
 signer: 
 reviewArchive: 

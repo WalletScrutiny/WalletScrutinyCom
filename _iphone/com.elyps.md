@@ -8,11 +8,11 @@ appId: com.elyps
 appCountry: tn
 idd: '1493791290'
 released: 2020-05-13
-updated: 2024-09-18
-version: 11.0.0
+updated: 2025-01-22
+version: 11.1.0
 stars: 5
 reviews: 1
-size: '61128704'
+size: '60755968'
 website: https://elyps.com
 repository: 
 issue: 
@@ -20,6 +20,7 @@ icon: com.elyps.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-08-17
 signer: 
 reviewArchive: 

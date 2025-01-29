@@ -21,6 +21,7 @@ icon: com.arz8x.app.arz8x.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-10-23
 signer: 
 reviewArchive: 

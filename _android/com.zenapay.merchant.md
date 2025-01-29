@@ -20,6 +20,7 @@ icon: com.zenapay.merchant.png
 bugbounty: 
 meta: ok
 verdict: fewusers
+appHashes: 
 date: 2022-12-17
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: ng.crytopay.pwa.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2024-05-07
 signer: 
 reviewArchive: 

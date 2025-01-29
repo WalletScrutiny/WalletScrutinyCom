@@ -20,6 +20,7 @@ icon: com.kyberswap.android.png
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2021-08-26
 signer: 
 reviewArchive: 

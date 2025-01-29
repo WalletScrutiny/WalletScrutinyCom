@@ -21,6 +21,7 @@ icon: com.cryptinix.app.png
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-10-06
 signer: 
 reviewArchive: 

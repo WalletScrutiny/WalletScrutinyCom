@@ -20,6 +20,7 @@ icon: io.kisco.app.android.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-11-04
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.saltlending.mobile.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-10-07
 signer: 
 reviewArchive: 

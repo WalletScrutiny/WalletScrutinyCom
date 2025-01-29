@@ -11,7 +11,7 @@ released: 2021-02-09
 updated: 2024-12-22
 version: 3.0.9
 stars: 4.8
-reviews: 468
+reviews: 481
 size: '117467136'
 website: https://wexopay.com
 repository: 
@@ -20,6 +20,7 @@ icon: com.wexopay.app.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-06-30
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.bankofhodlers.mobile.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2025-01-09
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: org.coinid.vault.png
 bugbounty: 
 meta: removed
 verdict: ftbfs
+appHashes: 
 date: 2024-04-19
 signer: 
 reviewArchive: 

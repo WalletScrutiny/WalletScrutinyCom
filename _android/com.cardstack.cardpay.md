@@ -4,7 +4,7 @@ title: Card Pay Wallet
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.cardstack.cardpay
 appCountry: 
 released: 2022-04-06
@@ -21,6 +21,7 @@ icon: com.cardstack.cardpay.png
 bugbounty: 
 meta: stale
 verdict: nobtc
+appHashes: 
 date: 2024-02-12
 signer: 
 reviewArchive: 

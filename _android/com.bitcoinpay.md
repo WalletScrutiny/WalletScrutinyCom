@@ -20,6 +20,7 @@ icon: com.bitcoinpay.png
 bugbounty: 
 meta: ok
 verdict: fewusers
+appHashes: 
 date: 2024-03-12
 signer: 
 reviewArchive: 

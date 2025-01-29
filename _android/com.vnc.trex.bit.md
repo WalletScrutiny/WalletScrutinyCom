@@ -21,6 +21,7 @@ icon: com.vnc.trex.bit.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
+appHashes: 
 date: 2023-09-07
 signer: 
 reviewArchive: 

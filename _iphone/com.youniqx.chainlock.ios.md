@@ -20,6 +20,7 @@ icon: com.youniqx.chainlock.ios.jpg
 bugbounty: 
 meta: stale
 verdict: nowallet
+appHashes: 
 date: 2024-08-02
 signer: 
 reviewArchive: 

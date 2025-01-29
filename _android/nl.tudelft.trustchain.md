@@ -20,6 +20,7 @@ icon: nl.tudelft.trustchain.png
 bugbounty: 
 meta: ok
 verdict: fewusers
+appHashes: 
 date: 2022-06-22
 signer: 
 reviewArchive: 

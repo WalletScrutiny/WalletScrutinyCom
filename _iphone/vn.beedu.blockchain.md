@@ -20,6 +20,7 @@ icon: vn.beedu.blockchain.jpg
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-10-08
 signer: 
 reviewArchive: 

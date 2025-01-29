@@ -22,6 +22,7 @@ icon: eliptibox.png
 bugbounty: 
 meta: obsolete
 verdict: vapor
+appHashes: 
 date: 2024-05-29
 signer: 
 reviewArchive: 
