@@ -46,6 +46,24 @@ features:
 
 ---
 
+Hash of the binaries downloaded:
+0511851ddb71dac16a12934b74835a57e499b81aa322772ff208cb2add2bc1fa  trezor-t2b1-2.8.7.bin
+93e617a5a15448dbdc28b57ae68f4a175e673072e93067bec9e63dc6b69a483c  trezor-t2b1-2.8.7-bitcoinonly.bin
+
+Built from commit 8a254aa8eae82f99630df63f40e4d290066a3efc
+
+Fingerprints:
+38ebb96d4f0cfd36e28b82480a021d62832c3e72c6577d52f9bc92d12c0466cf  build/core-R/bootloader/bootloader.bin
+e19a2be8b201d46e8099f092c9c9dc898b6931f02ea6a27babe4296ee5650765  build/core-R/firmware/firmware.bin
+38ebb96d4f0cfd36e28b82480a021d62832c3e72c6577d52f9bc92d12c0466cf  build/core-R-bitcoinonly/bootloader/bootloader.bin
+9b2365d76045a02d77714827d311bd8f9c6a47f346224f313d258d7ec4881c46  build/core-R-bitcoinonly/firmware/firmware.bin
+
+Comparing hashes of zeroed binaries with built firmware:
+9b2365d76045a02d77714827d311bd8f9c6a47f346224f313d258d7ec4881c46  build/core-R-bitcoinonly/firmware/firmware.bin
+9b2365d76045a02d77714827d311bd8f9c6a47f346224f313d258d7ec4881c46  trezor-t2b1-2.8.7-bitcoinonly.bin.zeroed
+e19a2be8b201d46e8099f092c9c9dc898b6931f02ea6a27babe4296ee5650765  build/core-R/firmware/firmware.bin
+e19a2be8b201d46e8099f092c9c9dc898b6931f02ea6a27babe4296ee5650765  trezor-t2b1-2.8.7.bin.zeroed
+
 ## Updated Review 2024-10-11
 
 Following the instructions enumerated below, we were able to successfully build version 2.8.0 of the {{ page.title }} firmware. 
