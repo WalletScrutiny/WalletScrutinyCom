@@ -95,7 +95,7 @@ custodian:
       - description: "SMS-based two-factor authentication vulnerability exploited, affecting over 6,000 accounts"
         date: "March-May 2021"
         url: "https://therecord.media/hackers-bypass-coinbase-2fa-to-steal-customer-funds"
-    sourceIncidents: "https://thecyberexpress.com/coinbase-cyber-attack-customer-data-sale"
+    sourceIncidents: "https://status.coinbase.com/"
     lastIncident: "July 2024"
     insuranceCoverage: "See Coinbase's Insurance Terms"
     insuranceTermsUrl: "https://www.coinbase.com/legal/insurance"
