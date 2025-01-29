@@ -123,37 +123,12 @@ custodian:
       - type: "Transaction Fees"
         details: "Variable percentage based on trade volume and payment method"
       - type: "Custody Fees"
-        details: "Annual fee based on assets under custody"
-      - type: "Staking Revenue"
-        details: "Commission on staking rewards"
-      - type: "Subscription Services"
-        details: "Coinbase One membership program"
-    institutionalServices:
-      - "Dedicated Account Representatives"
-      - "Advanced Trading APIs"
-      - "Insurance Coverage"
-      - "Regulatory Compliance Support"
-    licenses:
-      - jurisdiction: "USA"
-        type: "Money Transmitter License"
-        coverage: "49 states"
-      - jurisdiction: "EU"
-        type: "E-Money License"
-        issuer: "Central Bank of Ireland"
-    restrictedCountries:
-      - "U.S. Sanctioned Jurisdictions"
-    restrictedCountriesSource: "https://help.coinbase.com/en/coinbase/managing-my-account/other/prohibited-regions"
-    marketSegments:
-      - segment: "Retail"
-        description: "Individual investors and traders"
-      - segment: "Institutional"
-        description: "Banks, hedge funds, and corporate treasuries"
-      - segment: "Ecosystem"
-        description: "Developers and crypto businesses"
-    financialMetrics:
-      tradingVolume: "$145B quarterly (Q4 2023)"
-      monthlyTransactingUsers: "8.8M"
-      verifiedUsers: "Over 110M"
+        details: "Based on assets under custody"
+
+  riskAssessment:
+    derivatives: true
+    memecoins: true
+    gambling: false
 
   bitcoinContribution:
     fossDevelopment: true
@@ -172,8 +147,8 @@ custodian:
     kycRequired: true
     kycLevel: "Advanced"
     withdrawalLimits:
-      daily: "100 BTC"
-      monthly: "300 BTC"
+      status: "tiered"
+      documentation_url: "https://help.coinbase.com/en/exchange/funding/deposit-and-withdrawal-limits"
 
   security:
     features:
