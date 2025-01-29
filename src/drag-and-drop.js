@@ -419,12 +419,15 @@ function isAppIdCorrect(appId, hash) {
     return true;
 }
 
-function addButtonToDropArea(text, href, className = "btn btn-primary") {
+function addButtonToDropArea(text, href, className = "btn btn-primary", openInNewTab = false) {
     const dropAreaButtonDiv = document.getElementById('drop-area-buttons');
     const button = document.createElement('a');
     button.innerHTML = text;
     button.className = className;
     button.href = href;
+    if (openInNewTab) {
+        button.target = '_blank';
+    }
     dropAreaButtonDiv.appendChild(button);
 }
 
