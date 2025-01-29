@@ -10,7 +10,7 @@ appCountry: us
 released: 2018-10-30
 updated: 2024-12-18
 version: 4.36.1.10179
-stars: 4.4
+stars: 4.3
 ratings: 3252
 reviews: 399
 size: 
@@ -21,6 +21,7 @@ icon: im.argent.contractwalletclient.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2022-01-10
 signer: 
 reviewArchive: 

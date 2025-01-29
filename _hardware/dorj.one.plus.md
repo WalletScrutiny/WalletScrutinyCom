@@ -22,6 +22,7 @@ icon: dorj.one.plus.png
 bugbounty: 
 meta: ok
 verdict: wip
+appHashes: 
 date: 2023-04-06
 signer: 
 reviewArchive: 

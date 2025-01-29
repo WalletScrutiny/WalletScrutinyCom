@@ -21,6 +21,7 @@ icon: com.btcpool.app.android.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2024-09-25
 signer: 
 reviewArchive: 

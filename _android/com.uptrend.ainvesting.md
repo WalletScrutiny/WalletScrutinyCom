@@ -21,6 +21,7 @@ icon: com.uptrend.ainvesting.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
+appHashes: 
 date: 2023-06-07
 signer: 
 reviewArchive: 

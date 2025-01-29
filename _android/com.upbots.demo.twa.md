@@ -20,6 +20,7 @@ icon: com.upbots.demo.twa.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2022-01-15
 signer: 
 reviewArchive: 

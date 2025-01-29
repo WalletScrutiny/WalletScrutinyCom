@@ -21,6 +21,7 @@ icon: com.tidex.app.exchange.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-03-12
 signer: 
 reviewArchive: 

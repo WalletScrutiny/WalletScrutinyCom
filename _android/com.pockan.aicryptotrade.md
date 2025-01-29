@@ -20,6 +20,7 @@ icon: com.pockan.aicryptotrade.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-11-15
 signer: 
 reviewArchive: 

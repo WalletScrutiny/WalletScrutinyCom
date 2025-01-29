@@ -20,6 +20,7 @@ icon: com.nordfx.mobiletrading.jpg
 bugbounty: 
 meta: removed
 verdict: nosendreceive
+appHashes: 
 date: 2022-10-21
 signer: 
 reviewArchive: 

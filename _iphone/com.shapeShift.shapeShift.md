@@ -20,6 +20,7 @@ icon: com.shapeShift.shapeShift.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2021-05-23
 signer: 
 reviewArchive: 

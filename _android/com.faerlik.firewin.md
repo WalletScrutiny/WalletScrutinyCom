@@ -21,6 +21,7 @@ icon: com.faerlik.firewin.jpg
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2024-03-02
 signer: 
 reviewArchive: 

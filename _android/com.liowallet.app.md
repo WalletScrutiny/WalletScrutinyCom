@@ -21,6 +21,7 @@ icon: com.liowallet.app.png
 bugbounty: 
 meta: removed
 verdict: nosource
+appHashes: 
 date: 2024-04-26
 signer: 
 reviewArchive: 

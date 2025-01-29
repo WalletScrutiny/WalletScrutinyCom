@@ -21,6 +21,7 @@ icon: com.finance.tradekiya.jpg
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2024-03-02
 signer: 
 reviewArchive: 

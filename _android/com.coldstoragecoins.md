@@ -12,7 +12,7 @@ updated: 2024-10-01
 version: 3.11.2
 stars: 2.8
 ratings: 
-reviews: 38
+reviews: 40
 size: 
 website: https://coldstoragecoins.com
 repository: 
@@ -21,6 +21,7 @@ icon: com.coldstoragecoins.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-09-06
 signer: 
 reviewArchive: 

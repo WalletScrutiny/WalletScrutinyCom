@@ -20,6 +20,7 @@ icon: com.fontaine.DiceKeys.jpg
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2024-07-05
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.brilliantts.fuzeW.jpg
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2024-07-17
 signer: 
 reviewArchive: 

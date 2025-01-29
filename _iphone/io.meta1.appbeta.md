@@ -20,6 +20,7 @@ icon: io.meta1.appbeta.jpg
 bugbounty: 
 meta: stale
 verdict: wip
+appHashes: 
 date: 2024-10-23
 signer: 
 reviewArchive: 

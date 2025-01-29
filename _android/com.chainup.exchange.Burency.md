@@ -21,6 +21,7 @@ icon: com.chainup.exchange.Burency.png
 bugbounty: 
 meta: defunct
 verdict: custodial
+appHashes: 
 date: 2023-06-29
 signer: 
 reviewArchive: 

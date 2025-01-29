@@ -20,6 +20,7 @@ icon: com.project.odds.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2025-01-15
 signer: 
 reviewArchive: 

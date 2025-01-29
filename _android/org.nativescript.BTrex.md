@@ -21,6 +21,7 @@ icon: org.nativescript.BTrex.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2021-10-30
 signer: 
 reviewArchive: 

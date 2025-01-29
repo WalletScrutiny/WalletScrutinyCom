@@ -21,6 +21,7 @@ icon: com.rust.bitcoinwallet.png
 bugbounty: 
 meta: removed
 verdict: obfuscated
+appHashes: 
 date: 2023-06-21
 signer: 
 reviewArchive: 

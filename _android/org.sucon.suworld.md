@@ -20,6 +20,7 @@ icon: org.sucon.suworld.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2022-05-31
 signer: 
 reviewArchive: 

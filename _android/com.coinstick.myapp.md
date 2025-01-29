@@ -21,6 +21,7 @@ icon: com.coinstick.myapp.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
+appHashes: 
 date: 2023-12-02
 signer: 
 reviewArchive: 

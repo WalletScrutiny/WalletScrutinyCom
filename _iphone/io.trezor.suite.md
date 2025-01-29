@@ -11,7 +11,7 @@ released: 2023-05-14
 updated: 2024-12-16
 version: 24.12.1
 stars: 3.1
-reviews: 88
+reviews: 97
 size: '57107456'
 website: https://trezor.io/
 repository: 
@@ -20,6 +20,7 @@ icon: io.trezor.suite.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-07-18
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.coinigy.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-11-02
 signer: 
 reviewArchive: 

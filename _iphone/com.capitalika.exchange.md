@@ -19,6 +19,7 @@ icon: com.capitalika.exchange.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-11-25
 signer: 
 reviewArchive: 

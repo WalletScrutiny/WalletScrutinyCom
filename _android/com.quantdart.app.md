@@ -21,6 +21,7 @@ icon: com.quantdart.app.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2023-01-02
 signer: 
 reviewArchive: 

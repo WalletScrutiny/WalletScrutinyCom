@@ -21,6 +21,7 @@ icon: app.vinet.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2022-05-31
 signer: 
 reviewArchive: 

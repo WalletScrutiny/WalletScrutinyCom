@@ -21,6 +21,7 @@ icon: com.tforp.cryptogdx.png
 bugbounty: 
 meta: defunct
 verdict: nowallet
+appHashes: 
 date: 2023-09-15
 signer: 
 reviewArchive: 

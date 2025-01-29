@@ -21,6 +21,7 @@ icon: io.trustverse.masterkey.png
 bugbounty: 
 meta: obsolete
 verdict: nowallet
+appHashes: 
 date: 2024-11-13
 signer: 
 reviewArchive: 

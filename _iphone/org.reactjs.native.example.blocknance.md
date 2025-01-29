@@ -20,6 +20,7 @@ icon: org.reactjs.native.example.blocknance.jpg
 bugbounty: 
 meta: stale
 verdict: nosource
+appHashes: 
 date: 2024-02-24
 signer: 
 reviewArchive: 

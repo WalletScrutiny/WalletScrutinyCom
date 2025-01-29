@@ -20,6 +20,7 @@ icon: com.ubankfx.forex.jpg
 bugbounty: 
 meta: removed
 verdict: nosendreceive
+appHashes: 
 date: 2021-11-10
 signer: 
 reviewArchive: 

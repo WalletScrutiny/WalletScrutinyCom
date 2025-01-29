@@ -20,6 +20,7 @@ icon: com.swappy.autocrypto.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-12-15
 signer: 
 reviewArchive: 

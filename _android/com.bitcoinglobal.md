@@ -21,6 +21,7 @@ icon: com.bitcoinglobal.png
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-04-13
 signer: 
 reviewArchive: 

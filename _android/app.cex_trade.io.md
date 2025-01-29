@@ -21,6 +21,7 @@ icon: app.cex_trade.io.png
 bugbounty: 
 meta: defunct
 verdict: fake
+appHashes: 
 date: 2023-07-02
 signer: 
 reviewArchive: 

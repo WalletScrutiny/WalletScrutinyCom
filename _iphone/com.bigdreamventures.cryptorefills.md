@@ -10,8 +10,8 @@ idd: '1534284069'
 released: 2020-10-28
 updated: 2023-10-06
 version: '1.12'
-stars: 4.5
-reviews: 2
+stars: 4.7
+reviews: 3
 size: '8100864'
 website: https://www.cryptorefills.com/en/how-it-works
 repository: 
@@ -20,6 +20,7 @@ icon: com.bigdreamventures.cryptorefills.jpg
 bugbounty: 
 meta: stale
 verdict: nowallet
+appHashes: 
 date: 2024-10-02
 signer: 
 reviewArchive: 

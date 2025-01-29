@@ -21,6 +21,7 @@ icon: com.app.bitay.png
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-11-19
 signer: 
 reviewArchive: 

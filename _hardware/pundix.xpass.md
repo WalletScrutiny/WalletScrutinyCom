@@ -22,6 +22,7 @@ icon: pundix.xpass.png
 bugbounty: 
 meta: discontinued
 verdict: nowallet
+appHashes: 
 date: 2023-02-06
 signer: 
 reviewArchive: 

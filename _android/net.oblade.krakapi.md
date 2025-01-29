@@ -21,6 +21,7 @@ icon: net.oblade.krakapi.png
 bugbounty: 
 meta: obsolete
 verdict: nowallet
+appHashes: 
 date: 2024-12-31
 signer: 
 reviewArchive: 

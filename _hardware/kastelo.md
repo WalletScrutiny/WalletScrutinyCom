@@ -22,6 +22,7 @@ icon: kastelo.png
 bugbounty: 
 meta: defunct
 verdict: nobtc
+appHashes: 
 date: 2022-03-23
 signer: 
 reviewArchive: 

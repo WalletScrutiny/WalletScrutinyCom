@@ -26,6 +26,7 @@ icon: keevo.png
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2023-04-04
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.cryptoearningapps.bitcoin.investment.app.india.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2021-10-01
 signer: 
 reviewArchive: 

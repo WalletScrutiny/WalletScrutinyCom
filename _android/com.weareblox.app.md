@@ -21,6 +21,7 @@ icon: com.weareblox.app.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
+appHashes: 
 date: 2023-07-20
 signer: 
 reviewArchive: 

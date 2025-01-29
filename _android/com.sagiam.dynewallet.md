@@ -20,6 +20,7 @@ icon: com.sagiam.dynewallet.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-09-15
 signer: 
 reviewArchive: 

@@ -22,6 +22,7 @@ icon: blockstream.jade.diy.png
 bugbounty: 
 meta: ok
 verdict: diy
+appHashes: 
 date: 2023-12-06
 signer: 
 reviewArchive: 

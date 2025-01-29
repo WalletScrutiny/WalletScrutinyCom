@@ -21,6 +21,7 @@ icon: com.glamster.png
 bugbounty: 
 meta: stale
 verdict: nosource
+appHashes: 
 date: 2024-06-23
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: io.blns.png
 bugbounty: 
 meta: ok
 verdict: fewusers
+appHashes: 
 date: 2024-08-31
 signer: 
 reviewArchive: 

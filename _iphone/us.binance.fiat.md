@@ -11,7 +11,7 @@ released: 2020-01-05
 updated: 2024-11-29
 version: '3.19'
 stars: 4.2
-reviews: 108951
+reviews: 109031
 size: '354675712'
 website: https://www.binance.us/en/home
 repository: 
@@ -20,6 +20,7 @@ icon: us.binance.fiat.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-01-10
 signer: 
 reviewArchive: 

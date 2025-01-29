@@ -20,6 +20,7 @@ icon: com.bokka.ex.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2021-09-28
 signer: 
 reviewArchive: 

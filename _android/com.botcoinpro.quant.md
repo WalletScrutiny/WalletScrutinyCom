@@ -21,6 +21,7 @@ icon: com.botcoinpro.quant.jpg
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2023-05-17
 signer: 
 reviewArchive: 

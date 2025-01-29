@@ -8,8 +8,8 @@ users: 500000
 appId: io.totalcoin.wallet
 appCountry: 
 released: 2018-04-01
-updated: 2024-12-17
-version: 5.7.1.2020
+updated: 2025-01-15
+version: 5.7.2.2053
 stars: 3.7
 ratings: 7981
 reviews: 66
@@ -21,6 +21,7 @@ icon: io.totalcoin.wallet.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-05-24
 signer: 
 reviewArchive: 

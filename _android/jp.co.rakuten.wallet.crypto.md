@@ -21,6 +21,7 @@ icon: jp.co.rakuten.wallet.crypto.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-07-29
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.babb.app.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-07-10
 signer: 
 reviewArchive: 

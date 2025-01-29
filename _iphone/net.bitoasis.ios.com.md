@@ -11,7 +11,7 @@ released: 2020-07-06
 updated: 2024-12-13
 version: 2.0.38
 stars: 4.5
-reviews: 4386
+reviews: 4389
 size: '100294656'
 website: https://bitoasis.net/en/home
 repository: 
@@ -20,6 +20,7 @@ icon: net.bitoasis.ios.com.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-09-15
 signer: 
 reviewArchive: 

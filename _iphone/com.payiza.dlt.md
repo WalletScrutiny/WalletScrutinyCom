@@ -20,6 +20,7 @@ icon: com.payiza.dlt.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2022-06-02
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: io.xbts.app.png
 bugbounty: 
 meta: obsolete
 verdict: wip
+appHashes: 
 date: 2024-08-07
 signer: 
 reviewArchive: 

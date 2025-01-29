@@ -21,6 +21,7 @@ icon: com.bankcomat.android_bankcomat.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2024-09-03
 signer: 
 reviewArchive: 

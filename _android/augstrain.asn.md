@@ -21,6 +21,7 @@ icon: augstrain.asn.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2021-08-31
 signer: 
 reviewArchive: 

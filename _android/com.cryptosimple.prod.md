@@ -20,6 +20,7 @@ icon: com.cryptosimple.prod.png
 bugbounty: 
 meta: obsolete
 verdict: wip
+appHashes: 
 date: 2024-11-29
 signer: 
 reviewArchive: 

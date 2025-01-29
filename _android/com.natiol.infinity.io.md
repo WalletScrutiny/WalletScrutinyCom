@@ -21,6 +21,7 @@ icon: com.natiol.infinity.io.png
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2024-08-07
 signer: 
 reviewArchive: 

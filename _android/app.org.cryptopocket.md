@@ -21,6 +21,7 @@ icon: app.org.cryptopocket.jpg
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2023-05-06
 signer: 
 reviewArchive: 

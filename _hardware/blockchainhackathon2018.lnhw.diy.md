@@ -25,6 +25,7 @@ icon: blockchainhackathon2018.lnhw.diy.png
 bugbounty: 
 meta: defunct
 verdict: diy
+appHashes: 
 date: 2022-05-20
 signer: 
 reviewArchive: 

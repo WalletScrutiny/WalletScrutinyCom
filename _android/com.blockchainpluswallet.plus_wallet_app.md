@@ -20,6 +20,7 @@ icon: com.blockchainpluswallet.plus_wallet_app.jpg
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2021-06-11
 signer: 
 reviewArchive: 

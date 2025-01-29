@@ -21,6 +21,7 @@ icon: com.biswap.mobile.png
 bugbounty: 
 meta: stale
 verdict: nosource
+appHashes: 
 date: 2024-07-14
 signer: 
 reviewArchive: 

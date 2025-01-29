@@ -20,6 +20,7 @@ icon: io.uun.clet.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2022-01-15
 signer: 
 reviewArchive: 

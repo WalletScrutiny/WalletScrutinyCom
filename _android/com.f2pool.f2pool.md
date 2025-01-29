@@ -12,7 +12,7 @@ updated: 2024-12-02
 version: VARY
 stars: 4.3
 ratings: 
-reviews: 78
+reviews: 79
 size: 
 website: https://www.f2pool.com
 repository: 
@@ -21,6 +21,7 @@ icon: com.f2pool.f2pool.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-02-10
 signer: 
 reviewArchive: 

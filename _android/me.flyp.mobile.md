@@ -20,6 +20,7 @@ icon: me.flyp.mobile.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2024-09-08
 signer: 
 reviewArchive: 

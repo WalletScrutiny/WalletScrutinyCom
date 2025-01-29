@@ -21,6 +21,7 @@ icon: com.coingate.pos.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2024-04-19
 signer: 
 reviewArchive: 

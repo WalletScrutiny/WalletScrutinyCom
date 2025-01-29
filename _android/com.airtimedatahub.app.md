@@ -21,6 +21,7 @@ icon: com.airtimedatahub.app.png
 bugbounty: 
 meta: stale
 verdict: nowallet
+appHashes: 
 date: 2024-06-18
 signer: 
 reviewArchive: 

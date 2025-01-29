@@ -25,6 +25,7 @@ icon: arcbtc.m5stacksats.pos.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2022-05-20
 signer: 
 reviewArchive: 

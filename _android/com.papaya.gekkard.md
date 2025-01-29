@@ -21,6 +21,7 @@ icon: com.papaya.gekkard.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-11-17
 signer: 
 reviewArchive: 

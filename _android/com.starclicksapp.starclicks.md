@@ -21,6 +21,7 @@ icon: com.starclicksapp.starclicks.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2021-11-10
 signer: 
 reviewArchive: 

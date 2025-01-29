@@ -20,6 +20,7 @@ icon: io.kryll.app.jpg
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2024-08-07
 signer: 
 reviewArchive: 

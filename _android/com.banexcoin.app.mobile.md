@@ -21,6 +21,7 @@ icon: com.banexcoin.app.mobile.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-05-11
 signer: 
 reviewArchive: 

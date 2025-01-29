@@ -22,6 +22,7 @@ icon: com.multiminingapp.btcminingcloud.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2021-10-30
 signer: 
 reviewArchive: 

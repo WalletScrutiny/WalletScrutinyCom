@@ -21,6 +21,7 @@ icon: com.mchangeapps.mchange.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-02-28
 signer: 
 reviewArchive: 

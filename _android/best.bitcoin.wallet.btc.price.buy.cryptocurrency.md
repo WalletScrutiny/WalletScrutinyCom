@@ -21,6 +21,7 @@ icon: best.bitcoin.wallet.btc.price.buy.cryptocurrency.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2021-05-11
 signer: 
 reviewArchive: 

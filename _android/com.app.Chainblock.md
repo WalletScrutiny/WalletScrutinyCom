@@ -20,6 +20,7 @@ icon: com.app.Chainblock.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-08-31
 signer: 
 reviewArchive: 

@@ -23,6 +23,7 @@ icon: bitcoinpaperwallet.png
 bugbounty: 
 meta: ok
 verdict: plainkey
+appHashes: 
 date: 2022-05-04
 signer: 
 reviewArchive: 

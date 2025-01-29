@@ -21,6 +21,7 @@ icon: com.edss.pones.png
 bugbounty: 
 meta: removed
 verdict: fake
+appHashes: 
 date: 2021-12-22
 signer: 
 reviewArchive: 

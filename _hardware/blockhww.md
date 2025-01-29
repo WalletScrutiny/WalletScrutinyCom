@@ -26,6 +26,7 @@ bugbounty: >-
   https://support.bitkey.world/hc/en-us/articles/19812055576852-How-do-I-report-potential-security-issues
 meta: ok
 verdict: noita
+appHashes: 
 date: 2024-03-14
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.m3.Trendo.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2021-10-15
 signer: 
 reviewArchive: 

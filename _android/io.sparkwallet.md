@@ -21,6 +21,7 @@ icon: io.sparkwallet.png
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-12-04
 signer: 
 reviewArchive: 

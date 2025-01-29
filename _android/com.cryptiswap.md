@@ -21,6 +21,7 @@ icon: com.cryptiswap.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2023-09-28
 signer: 
 reviewArchive: 

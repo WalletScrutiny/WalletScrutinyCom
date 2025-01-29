@@ -20,6 +20,7 @@ icon: com.zyth.app.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
+appHashes: 
 date: 2023-12-13
 signer: 
 reviewArchive: 

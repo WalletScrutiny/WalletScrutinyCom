@@ -22,6 +22,7 @@ icon: mcudev.trezor.diy.devkit.png
 bugbounty: 
 meta: obsolete
 verdict: diy
+appHashes: 
 date: 2022-11-11
 signer: 
 reviewArchive: 

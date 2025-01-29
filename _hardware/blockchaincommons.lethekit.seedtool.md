@@ -22,6 +22,7 @@ icon: blockchaincommons.lethekit.seedtool.png
 bugbounty: 
 meta: ok
 verdict: diy
+appHashes: 
 date: 2022-04-29
 signer: 
 reviewArchive: 

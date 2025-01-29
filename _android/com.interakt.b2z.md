@@ -21,6 +21,7 @@ icon: com.interakt.b2z.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-01-18
 signer: 
 reviewArchive: 

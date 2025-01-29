@@ -20,6 +20,7 @@ icon: com.pixels.vynksafe.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-05-07
 signer: 
 reviewArchive: 

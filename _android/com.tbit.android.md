@@ -21,6 +21,7 @@ icon: com.tbit.android.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-09-10
 signer: 
 reviewArchive: 

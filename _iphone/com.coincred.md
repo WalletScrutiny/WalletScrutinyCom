@@ -20,6 +20,7 @@ icon: com.coincred.jpg
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-12-08
 signer: 
 reviewArchive: 

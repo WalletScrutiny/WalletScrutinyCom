@@ -22,6 +22,7 @@ icon:
 bugbounty: 
 meta: defunct
 verdict: fake
+appHashes: 
 date: 2022-04-29
 signer: 
 reviewArchive: 

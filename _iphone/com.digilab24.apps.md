@@ -20,6 +20,7 @@ icon: com.digilab24.apps.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2023-09-28
 signer: 
 reviewArchive: 

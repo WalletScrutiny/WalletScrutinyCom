@@ -20,6 +20,7 @@ icon: app.kryptiva.jpg
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-08-17
 signer: 
 reviewArchive: 

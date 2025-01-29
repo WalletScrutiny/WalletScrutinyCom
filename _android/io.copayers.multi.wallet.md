@@ -20,6 +20,7 @@ icon: io.copayers.multi.wallet.png
 bugbounty: 
 meta: removed
 verdict: fake
+appHashes: 
 date: 2022-01-31
 signer: 
 reviewArchive: 

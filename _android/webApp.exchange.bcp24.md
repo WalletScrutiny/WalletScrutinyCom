@@ -20,6 +20,7 @@ icon: webApp.exchange.bcp24.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-05-07
 signer: 
 reviewArchive: 

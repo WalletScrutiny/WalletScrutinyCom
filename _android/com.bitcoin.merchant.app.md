@@ -20,6 +20,7 @@ icon: com.bitcoin.merchant.app.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2024-05-24
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.binarium.binariummobile.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-09-03
 signer: 
 reviewArchive: 

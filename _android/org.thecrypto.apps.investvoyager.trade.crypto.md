@@ -20,6 +20,7 @@ icon: org.thecrypto.apps.investvoyager.trade.crypto.jpg
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2021-10-01
 signer: 
 reviewArchive: 

@@ -22,6 +22,7 @@ icon:
 bugbounty: 
 meta: ok
 verdict: diy
+appHashes: 
 date: 2022-11-23
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.wenplus.jpg
 bugbounty: 
 meta: obsolete
 verdict: fewusers
+appHashes: 
 date: 2024-12-27
 signer: 
 reviewArchive: 

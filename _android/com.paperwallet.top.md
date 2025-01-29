@@ -21,6 +21,7 @@ icon: com.paperwallet.top.png
 bugbounty: 
 meta: obsolete
 verdict: wip
+appHashes: 
 date: 2023-04-08
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.metatech.moonfarm.png
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2024-08-04
 signer: 
 reviewArchive: 

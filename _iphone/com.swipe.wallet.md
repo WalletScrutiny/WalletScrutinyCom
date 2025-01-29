@@ -20,6 +20,7 @@ icon: com.swipe.wallet.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2021-07-06
 signer: 
 reviewArchive: 

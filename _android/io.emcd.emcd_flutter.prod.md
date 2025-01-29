@@ -10,7 +10,7 @@ appCountry:
 released: 2022-01-03
 updated: 2024-12-16
 version: 2.9.0
-stars: 4.4
+stars: 4.5
 ratings: 
 reviews: 25
 size: 
@@ -21,6 +21,7 @@ icon: io.emcd.emcd_flutter.prod.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-07-07
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.smartitapp.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2024-03-12
 signer: 
 reviewArchive: 

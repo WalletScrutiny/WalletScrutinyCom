@@ -18,7 +18,7 @@
     "appHashes": [
       "3670e08e0720f8dbb021ff15fe02fb0f6c5df810a972ced5c0356a29e296563c"
     ],
-    "date": "2004-12-13",
+    "date": "2024-12-13",
     "platform": "android"
   },
   {
@@ -27,7 +27,7 @@
     "version": "0.9.2",
     "verdict": "reproducible",
     "appHashes": [
-      "deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe"
+      "388d9e8b545aa657c1a147a0a24ee700af31cdecd2c9cdacaa6e208e1db9ea10"
     ],
     "date": "2024-11-14",
     "platform": "android"
@@ -151,17 +151,6 @@
       "62df7d225d6178688f451604552fb5d79525a257ac59e281f0c02f4c96e4d343"
     ],
     "date": "2024-08-23",
-    "platform": "android"
-  },
-  {
-    "appId": "ch.swissbitcoinpay.checkout",
-    "signer": "17d9c0bf025008da16d5a146e1beaca6ddcfe3cb0cf063da23c847d3007eb621",
-    "version": "2.1.4",
-    "verdict": "",
-    "appHashes": [
-      "69a7e528ca403489349a482af6a35b94646b428dd27b09336793ad5817cdd9af"
-    ],
-    "date": "2024-09-18",
     "platform": "android"
   },
   {
@@ -316,17 +305,6 @@
       "dd3204688e6a23831f0daa51904112643acf859550b6a6f1d6210e91f5da14f5"
     ],
     "date": "2021-10-26",
-    "platform": "android"
-  },
-  {
-    "appId": "com.btcontract.wallet",
-    "signer": "dca2c3527ec7f7c0e38c0353278e7a5674cfa6e4b7556510ff05f60073ca338a",
-    "version": "2.5.8",
-    "verdict": "reproducible",
-    "appHashes": [
-      "255a6fc14d8c900d92f9a707c73b50e2f1668ed020f2f23da3af50ca6fa7dd05"
-    ],
-    "date": "2024-11-22",
     "platform": "android"
   },
   {
@@ -668,7 +646,6 @@
     "version": "3.5.9",
     "verdict": "nonverifiable",
     "appHashes": [
-      "76cc3df154ff6d47b5366a328515cf14c1d550ca7d71063d851c1949324ef4fa",
       "f62c0b4b4882ad15a561fbabcccc34739d66470e752a21a4eab4037736593476"
     ],
     "date": "2021-05-03",
@@ -1388,17 +1365,6 @@
       "0a5711195d96f13f41a71107f1b1035505b33afd3a299828e43e9d1b5101e9c0"
     ],
     "date": "2022-11-02",
-    "platform": "android"
-  },
-  {
-    "appId": "com.samourai.wallet",
-    "signer": "6ab9471c21d2cddd628172975cff8ba23584da41c6962df074eb56e4ef08d990",
-    "version": "0.99.98ii",
-    "verdict": "",
-    "appHashes": [
-      "c158c4d2a55d6066722fd6fc5b95d9368da4e746ddd806ffd175f6b6a9c9e307"
-    ],
-    "date": "2024-04-26",
     "platform": "android"
   },
   {
@@ -2792,6 +2758,424 @@
     "platform": "android"
   },
   {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.32.4",
+    "verdict": "reproducible",
+    "appHashes": [
+      "47d3c17c6119db2915b6a701c0d8edd55de05e3a012b525770e4e87c4e12d8e3"
+    ],
+    "date": "2024-09-30",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.32.3",
+    "verdict": "reproducible",
+    "appHashes": [
+      "11c8dbf7056df1d700d947891cda94929c4ce4ea16c418c8dc0cac453577d0f3"
+    ],
+    "date": "2024-08-29",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.32.2",
+    "verdict": "nonverifiable",
+    "appHashes": [
+      "634bf593f331d318b4d0cbe089adc5bbb72eac35549b7a8a76e82261c19d798a"
+    ],
+    "date": "2024-08-07",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.32.1",
+    "verdict": "nonverifiable",
+    "appHashes": [
+      "551f4226e1fb4622365b5327fe2f4329b74ede71e7d9bb3c205be6806885bd0f"
+    ],
+    "date": "2024-07-30",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.31.0",
+    "verdict": "nonverifiable",
+    "appHashes": [
+      "557ac77257fbe7b67834adee8c8fd955b87e8eed66c4db4a1b8b8f1781a4e060"
+    ],
+    "date": "2024-06-05",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.31.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "b30f6adddb6bb5e5a583f29b97686980ea5872ec3f2899037afcd90286368efe"
+    ],
+    "date": "2023-12-30",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.29.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "db4e569c90719c564fc2c2d1108f3e5281c3357f73c7221aea09ca994a3c055a"
+    ],
+    "date": "2023-10-06",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.26.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "594a0c9fd380aeca626dd3c0b8e282589028404b6a1eee1e3b9f191ac0ace754"
+    ],
+    "date": "2023-06-21",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.25.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "5d61189f93a120d87d03433236d222b3bdd44e6678f970728706e48d5eb9a514"
+    ],
+    "date": "",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.18.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "c7c35602fd09fa04c3435dc1a5382bd872f02b7cb03f005f263e7701e5342998"
+    ],
+    "date": "",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.17.2",
+    "verdict": "reproducible",
+    "appHashes": [
+      "8ed73272138890fe375719f744acc5bef09b9db6787eb750004d0a1211028ba0"
+    ],
+    "date": "2022-08-07",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.17.0",
+    "verdict": "nonverifiable",
+    "appHashes": [
+      "08a3d0282cbb5a40fe0c6bbbdbb9cd936a4486af0e8322d69b63a14ca9396cdf"
+    ],
+    "date": "2022-05-25",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.16.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "5e7123e132e63542f0bea522b5ff237d09545585dbccda39b8e7eaac324f8b9d"
+    ],
+    "date": "2022-04-15",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.15.1",
+    "verdict": "obfuscated",
+    "appHashes": [
+      "ce55bb42ea14cc6e11dc4a802c9e045029cc15152458a41d9a8fd76b7f6064c4"
+    ],
+    "date": "2022-03-21",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.15.0",
+    "verdict": "obfuscated",
+    "appHashes": [
+      "44cb42f927386d9eb20481978c0cb19d2d11703ca94c0cc66c223aa6f8606453"
+    ],
+    "date": "2022-03-01",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.14.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "43050fca861ef7dcf835a0bfb269e01177ba01aa292f134b38da26bb569c1f2b"
+    ],
+    "date": "2022-02-17",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.13.1",
+    "verdict": "reproducible",
+    "appHashes": [
+      "e380196238627787f20152eb6a4808f8f201a285465715cd98b96780cbcb2c52"
+    ],
+    "date": "2022-01-31",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.13.0",
+    "verdict": "obfuscated",
+    "appHashes": [
+      "c90f883ab5dbf3595455792d1f16cbd52131c9b184a11c086021ee99206480b4"
+    ],
+    "date": "2022-01-24",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.12.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "2b5775c3d7d569d88b0c023d9f45dad1eca7902271dbba5b0c93bee0710851b2"
+    ],
+    "date": "2021-11-25",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.11.2",
+    "verdict": "obfuscated",
+    "appHashes": [
+      "49ccb43b4d13ecaaea5f27881a231edc5124d70eb8a2867740771e97035da737"
+    ],
+    "date": "2021-11-09",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.11.1",
+    "verdict": "obfuscated",
+    "appHashes": [
+      "c6e0bdb3b7538bbd99655f25513865bd1cb0baf1c92cf21f51e5446de2656cd7"
+    ],
+    "date": "2021-11-09",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.11.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "ac0479371cc786399fd8cb60713812931091d9cc665d228ce21432c983e93092"
+    ],
+    "date": "2021-10-19",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.10.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "19391ace82f01aa19fb31b3e72949fa8d77b1857c4781e73f2cf2cd828b1df60"
+    ],
+    "date": "2021-09-21",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.9.0",
+    "verdict": "obfuscated",
+    "appHashes": [
+      "62d2c09cb1cbceeab1b90cf19e94e7e1c2385cf1bf852629200dea0999ea1c62"
+    ],
+    "date": "2021-08-28",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.8.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "f886635f7014856631e4d325fca4ba49b20fdb1b57116b1b416af0bfb8f5ba09"
+    ],
+    "date": "2021-08-03",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.7.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "57c362a3508f1420007fe5d0867f889a9683f0b51d746ab20067fb9e90abbc2f"
+    ],
+    "date": "2021-04-24",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.6.2",
+    "verdict": "reproducible",
+    "appHashes": [
+      "2394251a22f5658ed60187854f1a8d1dd97af367c779c698f3e4a75516c5d025"
+    ],
+    "date": "2021-03-03",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.6.2",
+    "verdict": "reproducible",
+    "appHashes": [
+      "f3ff145265859f45da2c7a310ac6c94183c61910fe2bf2fba0da7dbf8e56e626"
+    ],
+    "date": "2021-02-27",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.6.1",
+    "verdict": "obfuscated",
+    "appHashes": [
+      "6068c88b2dbbc0033531f0237c77ea08b1d73d9fae5ea699ea7f551ae51a1920"
+    ],
+    "date": "2021-02-18",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.5.1",
+    "verdict": "reproducible",
+    "appHashes": [
+      "f46de03b62975b57350b9c30975d7fb85e4c9a88e46ca15bc2125fea24a56823"
+    ],
+    "date": "2020-12-15",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.5.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "ec1ffc9b88898084eb66852b46c9460922401bd16b80ce20532c6a5548467aaa"
+    ],
+    "date": "2020-09-02",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.4.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "de51c80653019c3d31814daeb0aabdbe09ce4e4a5e340372c502d26dde57d045"
+    ],
+    "date": "2020-08-21",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.3.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "caa4da6ca8fa905e4b25594bebbbcb4bfe030a70178ca65a9b0a60f2651bb316"
+    ],
+    "date": "2020-07-22",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.3.0",
+    "verdict": "nonverifiable",
+    "appHashes": [
+      "caa4da6ca8fa905e4b25594bebbbcb4bfe030a70178ca65a9b0a60f2651bb316"
+    ],
+    "date": "2020-07-17",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.2.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "951ee71325f9cee9237cc43235cd653363bf0d7f268e574e4b50856207c170e4"
+    ],
+    "date": "2020-04-28",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.1.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "f6f2f37ef164a585ae5de0ff28d5beaf729c8e41495ce1525af7b7642e1f963a"
+    ],
+    "date": "2020-04-09",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.0.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "d3bb8f0c7c30119405ef9b6c00ca5574e89da76d8ca5208aecc3530bf24e1987"
+    ],
+    "date": "2020-01-06",
+    "platform": "android"
+  },
+  {
+    "appId": "it.airgap.vault",
+    "signer": "486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342",
+    "version": "3.0.0",
+    "verdict": "nonverifiable",
+    "appHashes": [
+      "d3bb8f0c7c30119405ef9b6c00ca5574e89da76d8ca5208aecc3530bf24e1987"
+    ],
+    "date": "2019-12-29",
+    "platform": "android"
+  },
+  {
     "appId": "org.electrum.electrum",
     "signer": "",
     "version": "4.5.5.0",
@@ -3103,5 +3487,834 @@
     ],
     "date": "2020-12-22",
     "platform": "android"
+  },
+  {
+    "appId": "bitBox2",
+    "signer": "",
+    "version": "9.19.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "ecbf8024f59f490110a9cb07c4787da22a6df3733b2d81c8ffd307f4bb0d786e"
+    ],
+    "date": "2024-08-09",
+    "platform": "hardware"
+  },
+  {
+    "appId": "bitBox2",
+    "signer": "",
+    "version": "9.18.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "13414426ac7f848d1f264059b82f4bb15e6dba03e178cbd46a8bda49ac9123db"
+    ],
+    "date": "2023-05-03",
+    "platform": "hardware"
+  },
+  {
+    "appId": "bitBox2",
+    "signer": "",
+    "version": "9.15.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "b2dfdc5413678f663639a34a5082f93ec253fd405313baca93291cab0a91233c"
+    ],
+    "date": "2023-10-10",
+    "platform": "hardware"
+  },
+  {
+    "appId": "bitBox2",
+    "signer": "",
+    "version": "9.14.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "06d61dffe90f79887567f7cbe34f19dc4c667c2919dab83ae9311a7c5bcbbeea"
+    ],
+    "date": "2023-05-22",
+    "platform": "hardware"
+  },
+  {
+    "appId": "bitBox2",
+    "signer": "",
+    "version": "9.13.1",
+    "verdict": "reproducible",
+    "appHashes": [
+      "0f64c9ba01bb25500bfd3c96c133daa7da4a688234facbdd42a4f5e54d58e995"
+    ],
+    "date": "2022-11-18",
+    "platform": "hardware"
+  },
+  {
+    "appId": "bitBox2",
+    "signer": "",
+    "version": "9.12.0",
+    "verdict": "nonverifiable",
+    "appHashes": [
+      "e3cf692d4ef288f27f22af2413acd9a43aa0ee445f83729f7b6c1fce55443293"
+    ],
+    "date": "2022-08-07",
+    "platform": "hardware"
+  },
+  {
+    "appId": "bitBox2",
+    "signer": "",
+    "version": "9.9.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "93d8e89f6edc7813a34901395a13291a3435bbc21c146e177f77c85095fc1311"
+    ],
+    "date": "2022-02-17",
+    "platform": "hardware"
+  },
+  {
+    "appId": "bitBox2",
+    "signer": "",
+    "version": "9.8.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "51e584b61eaff83fe9e538c0fd47c617c686cd6da1a501acc33f12dab37f627a"
+    ],
+    "date": "2021-12-01",
+    "platform": "hardware"
+  },
+  {
+    "appId": "bitBox2",
+    "signer": "",
+    "version": "9.7.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "997fa9ab985d61473cb191d1c3bba2a291fb91861e215c005b133aec1e87d493"
+    ],
+    "date": "2021-10-05",
+    "platform": "hardware"
+  },
+  {
+    "appId": "bitBox2",
+    "signer": "",
+    "version": "9.6.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "e41917450ef6fb80af9fbe8f85478973763fe593c23cdeaec481e5d5395dd3b9"
+    ],
+    "date": "2021-07-10",
+    "platform": "hardware"
+  },
+  {
+    "appId": "bithdrazor",
+    "signer": "",
+    "version": "4.1.7",
+    "verdict": "reproducible",
+    "appHashes": [
+      "a4a9a5584f1db23d745434c296aedd3c123fe506c49624076d4726417e900137"
+    ],
+    "date": "2021-12-11",
+    "platform": "hardware"
+  },
+  {
+    "appId": "bithdwatch1",
+    "signer": "",
+    "version": "4.1.7",
+    "verdict": "reproducible",
+    "appHashes": [
+      "0a89405429ea6aa5abe8533f538f45bbaff36044b62aefcaaa63ef52bffebde0"
+    ],
+    "date": "2021-12-11",
+    "platform": "hardware"
+  },
+  {
+    "appId": "bithdwatch2",
+    "signer": "",
+    "version": "4.1.7",
+    "verdict": "reproducible",
+    "appHashes": [
+      "0a89405429ea6aa5abe8533f538f45bbaff36044b62aefcaaa63ef52bffebde0"
+    ],
+    "date": "2021-12-11",
+    "platform": "hardware"
+  },
+  {
+    "appId": "blockstreamjade",
+    "signer": "",
+    "version": "1.0.32",
+    "verdict": "reproducible",
+    "appHashes": [
+      "2f5bb1939061ff13e5f8a5ca52aa51641558a2b5356219d7a5c4138245f71f11"
+    ],
+    "date": "2024-11-01",
+    "platform": "hardware"
+  },
+  {
+    "appId": "blockstreamjade",
+    "signer": "",
+    "version": "1.0.31",
+    "verdict": "reproducible",
+    "appHashes": [
+      "26c918f0e7281b9cc8fdfc10baae2e5a8ac6edf0cd08e699a913daea3b97d04e"
+    ],
+    "date": "2024-08-26",
+    "platform": "hardware"
+  },
+  {
+    "appId": "blockstreamjade",
+    "signer": "",
+    "version": "1.0.30",
+    "verdict": "reproducible",
+    "appHashes": [
+      "d62518df363ceb7002c171baf8149c644dd8dbb57b4f122db0c4b1dc5707328d"
+    ],
+    "date": "2024-05-15",
+    "platform": "hardware"
+  },
+  {
+    "appId": "blockstreamjade",
+    "signer": "",
+    "version": "1.0.29",
+    "verdict": "reproducible",
+    "appHashes": [
+      "ed9e949c2fea08ed56d9c842ffc94c5a9698dca78502137376bd0e421afbabf5"
+    ],
+    "date": "2024-05-06",
+    "platform": "hardware"
+  },
+  {
+    "appId": "blockstreamjade",
+    "signer": "",
+    "version": "1.0.27",
+    "verdict": "reproducible",
+    "appHashes": [
+      "db3ea043b891c862401d110923be04b0c2ef9b100c57cad22ca345b032efc448"
+    ],
+    "date": "2024-03-11",
+    "platform": "hardware"
+  },
+  {
+    "appId": "blockstreamjade",
+    "signer": "",
+    "version": "1.0.26",
+    "verdict": "reproducible",
+    "appHashes": [
+      "3ca3e6758bbf8a971b16c09f51871426fcee4a1681b45f1a892f2a94b725508e"
+    ],
+    "date": "2023-11-08",
+    "platform": "hardware"
+  },
+  {
+    "appId": "blockstreamjade",
+    "signer": "",
+    "version": "1.0.23",
+    "verdict": "reproducible",
+    "appHashes": [
+      "c6124408b51ffe0711ea7dbe02c3cca7a3f317c4d7d137212a2e6a78660f7daa"
+    ],
+    "date": "2023-10-11",
+    "platform": "hardware"
+  },
+  {
+    "appId": "blockstreamjade",
+    "signer": "",
+    "version": "0.1.48",
+    "verdict": "nonverifiable",
+    "appHashes": [
+      "d329dbf4fea13c6cde7df9682febae15e162947dc5a747aae98540f69e1a25d3"
+    ],
+    "date": "2023-06-29",
+    "platform": "hardware"
+  },
+  {
+    "appId": "coldcardMk3",
+    "signer": "",
+    "version": "v4.1.8",
+    "verdict": "reproducible",
+    "appHashes": [
+      "233398cc8f6b9e894072448eb8b8a82a4f546219ce461dd821f0ed0a38b61900"
+    ],
+    "date": "2023-06-22",
+    "platform": "hardware"
+  },
+  {
+    "appId": "coldcardMk3",
+    "signer": "",
+    "version": "v4.1.7",
+    "verdict": "nonverifiable",
+    "appHashes": [
+      "cc946bcb63211e15d85db577e25ab2432d4a74d5dad77d710539e505dce7914a"
+    ],
+    "date": "2022-11-25",
+    "platform": "hardware"
+  },
+  {
+    "appId": "coldcardMk3",
+    "signer": "",
+    "version": "v4.1.3",
+    "verdict": "nonverifiable",
+    "appHashes": [
+      "d01d81305b209dadcf960b9e9d20affb8d4f11e9f9f916c5a06be29298c80dc2"
+    ],
+    "date": "2022-08-07",
+    "platform": "hardware"
+  },
+  {
+    "appId": "coldcardMk3",
+    "signer": "",
+    "version": "v4.1.2",
+    "verdict": "nonverifiable",
+    "appHashes": [
+      "d01d81305b209dadcf960b9e9d20affb8d4f11e9f9f916c5a06be29298c80dc2"
+    ],
+    "date": "2021-08-14",
+    "platform": "hardware"
+  },
+  {
+    "appId": "coldcardMk4",
+    "signer": "",
+    "version": "v5.4.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "04114bc10eaebf4a7296823561e966bdf871bb8cbbc77617f2f0714c89ff95d5"
+    ],
+    "date": "2024-10-01",
+    "platform": "hardware"
+  },
+  {
+    "appId": "coldcardMk4",
+    "signer": "",
+    "version": "v5.3.3",
+    "verdict": "reproducible",
+    "appHashes": [
+      "a694b91d546b23584a31d3f4b7b7e9795f788c4b62f4699ef48ff96d0b64eb28"
+    ],
+    "date": "2024-08-15",
+    "platform": "hardware"
+  },
+  {
+    "appId": "coldcardMk4",
+    "signer": "",
+    "version": "v5.1.4",
+    "verdict": "reproducible",
+    "appHashes": [
+      "4d83715772b31643abde3b9a0bb328003f4a31d14e2fe9c1e038077a518acaea"
+    ],
+    "date": "2023-10-08",
+    "platform": "hardware"
+  },
+  {
+    "appId": "coldcardMk4",
+    "signer": "",
+    "version": "v5.1.2",
+    "verdict": "reproducible",
+    "appHashes": [
+      "7aefd5bcce533f15337e83618ebbd42925d336792c82a5ca19a430b209b30b8a"
+    ],
+    "date": "2023-06-22",
+    "platform": "hardware"
+  },
+  {
+    "appId": "coldcardQ1",
+    "signer": "d840fa4e83ebc7b0f961f30f68d795bed61271e2314dda4ab0eb0b8bfe7192f4",
+    "version": "1.2.3Q",
+    "verdict": "reproducible",
+    "appHashes": [
+      "54da941c8df84fcb84adcc62fdd3ee97d1fc12e2a9a648551ca614fcbacade3f"
+    ],
+    "date": "2024-08-12",
+    "platform": "hardware"
+  },
+  {
+    "appId": "coldcardQ1",
+    "signer": "d840fa4e83ebc7b0f961f30f68d795bed61271e2314dda4ab0eb0b8bfe7192f4",
+    "version": "1.2.1Q",
+    "verdict": "reproducible",
+    "appHashes": [
+      "90b1edfbe194b093258f9cda8f4add4aa3317e9ea205ff35914da7d91410fdae"
+    ],
+    "date": "2024-05-31",
+    "platform": "hardware"
+  },
+  {
+    "appId": "cypherockx1",
+    "signer": "",
+    "version": "0.6.1282",
+    "verdict": "reproducible",
+    "appHashes": [
+      "2d8ea19e1d257280eb21fbe98b1539389b456176284fe77012dd9be54423a93d"
+    ],
+    "date": "2024-12-10",
+    "platform": "hardware"
+  },
+  {
+    "appId": "cypherockx1",
+    "signer": "",
+    "version": "0.6.1280",
+    "verdict": "reproducible",
+    "appHashes": [
+      "4407693c9d055870e2b5c7a390087bf4aa8274c9c272c8a1f7b825884a417de2"
+    ],
+    "date": "2024-11-29",
+    "platform": "hardware"
+  },
+  {
+    "appId": "cypherockx1",
+    "signer": "",
+    "version": "0.6.768",
+    "verdict": "reproducible",
+    "appHashes": [
+      "be1594eb974efa7b2eac3e251c7c851e91c814fbd6378e6e8fd6e778156e8674"
+    ],
+    "date": "2024-11-05",
+    "platform": "hardware"
+  },
+  {
+    "appId": "cypherockx1",
+    "signer": "",
+    "version": "0.4.3075",
+    "verdict": "reproducible",
+    "appHashes": [
+      "656945ae37510bb1b7452c97d27cd5b638ddb0119e44e9af5aa32e02302f458e"
+    ],
+    "date": "2023-05-25",
+    "platform": "hardware"
+  },
+  {
+    "appId": "cypherockx1",
+    "signer": "",
+    "version": "0.4.2307",
+    "verdict": "reproducible",
+    "appHashes": [
+      "09ed533290cdff4ca5f8148597a4d0a924ab5f10010a30ec2866abd39558a62d"
+    ],
+    "date": "2023-04-06",
+    "platform": "hardware"
+  },
+  {
+    "appId": "keepKey",
+    "signer": "",
+    "version": "7.8.0",
+    "verdict": "nonverifiable",
+    "appHashes": [
+      "31c1cdd945a7331e01b3cced866cb28add5b49eef87c2bbc08370e5aa7daf9bf"
+    ],
+    "date": "2023-05-25",
+    "platform": "hardware"
+  },
+  {
+    "appId": "keepKey",
+    "signer": "",
+    "version": "7.2.1",
+    "verdict": "reproducible",
+    "appHashes": [
+      "c6cf79e7c2cc1b9cf7eca57aacaab5310b4dd0eff1559cda307295d753251eff"
+    ],
+    "date": "2022-08-07",
+    "platform": "hardware"
+  },
+  {
+    "appId": "keepKey",
+    "signer": "",
+    "version": "7.1.7",
+    "verdict": "reproducible",
+    "appHashes": [
+      "2b7edd319536076e0a00058d0cfd1b1863c8d616ba5851668796d04966df8594"
+    ],
+    "date": "2021-07-31",
+    "platform": "hardware"
+  },
+  {
+    "appId": "keystone3.pro",
+    "signer": "6853ffd1706faed1468e677621b2ef1ccf053dff4f9b22e7ba5b12a978e1eb37",
+    "version": "1.8.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "a6a252c3b82435ba989a30429edfb86453e992b5566bca7ee36e6c0480ea753d"
+    ],
+    "date": "2024-12-23",
+    "platform": "hardware"
+  },
+  {
+    "appId": "keystone3.pro",
+    "signer": "6853ffd1706faed1468e677621b2ef1ccf053dff4f9b22e7ba5b12a978e1eb37",
+    "version": "1.7.16",
+    "verdict": "reproducible",
+    "appHashes": [
+      "c24cc4b1cf388672416b6e820382bc5048759f62357aff30546cbd5ec52d116d"
+    ],
+    "date": "2024-12-17",
+    "platform": "hardware"
+  },
+  {
+    "appId": "keystone3.pro",
+    "signer": "6853ffd1706faed1468e677621b2ef1ccf053dff4f9b22e7ba5b12a978e1eb37",
+    "version": "1.7.12",
+    "verdict": "reproducible",
+    "appHashes": [
+      "30150196c0ea1e6dd258a96a395054fb17a844554f140a2cab3ced124c8b84a7"
+    ],
+    "date": "2024-12-10",
+    "platform": "hardware"
+  },
+  {
+    "appId": "keystone3.pro",
+    "signer": "6853ffd1706faed1468e677621b2ef1ccf053dff4f9b22e7ba5b12a978e1eb37",
+    "version": "1.7.10",
+    "verdict": "reproducible",
+    "appHashes": [
+      "93f3b45eee2403be6f5a1aaeccbaa863dc7df24b666f250b5147b5c54ef27546"
+    ],
+    "date": "2024-11-20",
+    "platform": "hardware"
+  },
+  {
+    "appId": "keystone3.pro",
+    "signer": "6853ffd1706faed1468e677621b2ef1ccf053dff4f9b22e7ba5b12a978e1eb37",
+    "version": "1.7.8",
+    "verdict": "reproducible",
+    "appHashes": [
+      "d969529b94c562432df896b6eefcc8605f736081b38646cbeca237304033b674"
+    ],
+    "date": "2024-10-31",
+    "platform": "hardware"
+  },
+  {
+    "appId": "keystone3.pro",
+    "signer": "6853ffd1706faed1468e677621b2ef1ccf053dff4f9b22e7ba5b12a978e1eb37",
+    "version": "1.7.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "8f6e9ed77bf1fa65b6ee7abe2f2791232ee197f3bf4d1c82c535c42f84c4a392"
+    ],
+    "date": "2024-10-01",
+    "platform": "hardware"
+  },
+  {
+    "appId": "keystone3.pro",
+    "signer": "6853ffd1706faed1468e677621b2ef1ccf053dff4f9b22e7ba5b12a978e1eb37",
+    "version": "1.6.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "66c336583365ac855823a86ae1069f60ff567acab8d4df6cfc825eeacf7a66d1"
+    ],
+    "date": "2024-08-19",
+    "platform": "hardware"
+  },
+  {
+    "appId": "keystone3.pro",
+    "signer": "6853ffd1706faed1468e677621b2ef1ccf053dff4f9b22e7ba5b12a978e1eb37",
+    "version": "1.5.8",
+    "verdict": "reproducible",
+    "appHashes": [
+      "d2d73488930e4e91787d3d7010f6dfc22268ce406e1848fd96e02eaf4737bfe9"
+    ],
+    "date": "2024-08-14",
+    "platform": "hardware"
+  },
+  {
+    "appId": "keystone3.pro",
+    "signer": "6853ffd1706faed1468e677621b2ef1ccf053dff4f9b22e7ba5b12a978e1eb37",
+    "version": "1.4.8",
+    "verdict": "reproducible",
+    "appHashes": [
+      "fbf1cf15c5ba13a91a6b27f73a21ae69d8b60b5ff34f6d32dbd55e8ff5f27025"
+    ],
+    "date": "2024-06-03",
+    "platform": "hardware"
+  },
+  {
+    "appId": "keystone3.pro",
+    "signer": "6853ffd1706faed1468e677621b2ef1ccf053dff4f9b22e7ba5b12a978e1eb37",
+    "version": "1.3.6",
+    "verdict": "reproducible",
+    "appHashes": [
+      "b85edf5bd058028e708437c125ad3d67ab6da520b402d9aec59b47705f3a5509"
+    ],
+    "date": "2024-05-08",
+    "platform": "hardware"
+  },
+  {
+    "appId": "onekey",
+    "signer": "",
+    "version": "3.0.0",
+    "verdict": "nonverifiable",
+    "appHashes": [
+      "a5d4ac8b98c1249f839fba018850df7deb66a3720f13a01c5d94250e426a0a71"
+    ],
+    "date": "2023-07-12",
+    "platform": "hardware"
+  },
+  {
+    "appId": "passport",
+    "signer": "",
+    "version": "v2.1.2",
+    "verdict": "reproducible",
+    "appHashes": [
+      "197bdfb863cca434395f6535d848622a9c47002a01e27867b7218e3678d6e8ac"
+    ],
+    "date": "2023-06-20",
+    "platform": "hardware"
+  },
+  {
+    "appId": "passport",
+    "signer": "",
+    "version": "1.0.8",
+    "verdict": "reproducible",
+    "appHashes": [
+      "6c6d1531685ac91eeea202d1fb818c4930a208a7590ab36e118bf5eb91e29e83"
+    ],
+    "date": "2022-08-07",
+    "platform": "hardware"
+  },
+  {
+    "appId": "passport",
+    "signer": "",
+    "version": "1.0.8-beta",
+    "verdict": "reproducible",
+    "appHashes": [
+      "703feb6c387db47ea862ab55acfa984afa456c75dff22b21977459f68e7e1795"
+    ],
+    "date": "2021-12-01",
+    "platform": "hardware"
+  },
+  {
+    "appId": "passport",
+    "signer": "",
+    "version": "v1.0.7",
+    "verdict": "reproducible",
+    "appHashes": [
+      "265716676ca91bd724ad48b28a6877841b216003b7b03bbfd6e5eee85a5c057a"
+    ],
+    "date": "2021-10-04",
+    "platform": "hardware"
+  },
+  {
+    "appId": "passport",
+    "signer": "",
+    "version": "v1.0.6",
+    "verdict": "reproducible",
+    "appHashes": [
+      "606ca7ce1ba136988a36b445b2dae97508fbed062a8fdfa02f13ada69b6e92cd"
+    ],
+    "date": "2021-08-17",
+    "platform": "hardware"
+  },
+  {
+    "appId": "passportb2",
+    "signer": "",
+    "version": "v2.3.4",
+    "verdict": "reproducible",
+    "appHashes": [
+      "7e13d43e9c848dd3e31c16abb93e6e47999d6e7cf1d38458e54e1980ed4c23d6"
+    ],
+    "date": "2024-10-16",
+    "platform": "hardware"
+  },
+  {
+    "appId": "passportb2",
+    "signer": "",
+    "version": "v2.3.2",
+    "verdict": "reproducible",
+    "appHashes": [
+      "ff64ad2fcc0d72c626e1a9885a3de224d0d3f2e78f4de19fc166f1f4e91e1464"
+    ],
+    "date": "2024-09-11",
+    "platform": "hardware"
+  },
+  {
+    "appId": "passportb2",
+    "signer": "",
+    "version": "v2.3.1",
+    "verdict": "reproducible",
+    "appHashes": [
+      "ff64ad2fcc0d72c626e1a9885a3de224d0d3f2e78f4de19fc166f1f4e91e1464"
+    ],
+    "date": "2024-05-31",
+    "platform": "hardware"
+  },
+  {
+    "appId": "passportb2",
+    "signer": "",
+    "version": "v2.1.2",
+    "verdict": "reproducible",
+    "appHashes": [
+      "9de833a38931b7e4660e8d0e3ea4a2bfe74924caa1328834e9be9c3d1750cd7e"
+    ],
+    "date": "2023-06-20",
+    "platform": "hardware"
+  },
+  {
+    "appId": "seedsigner",
+    "signer": "",
+    "version": "",
+    "verdict": "reproducible",
+    "appHashes": [
+      "1d0f1c412f64b40e6aba21b5bacdb41d9323653c170ce06d0a3f1dd71fddb28e",
+      "11c5553d75b3ebca4988ae3c4573b60b33a12bc4779282454ae34404ba797670",
+      "c8d5352ed4a86c19eb9ef54f2920934f8ce460742b464ea94dc9114f9f4e039a",
+      "917201e335bfc7ee4189f17827f954f89588dc0fdefdad80d26f2a65c5c8e6d0"
+    ],
+    "date": "2024-12-18",
+    "platform": "hardware"
+  },
+  {
+    "appId": "trezorOne",
+    "signer": "",
+    "version": "1.11.2",
+    "verdict": "reproducible",
+    "appHashes": [
+      "948098e56cf02f1d7b0660d44f02451dfd81b3114af87c962e7c6012f58853bb"
+    ],
+    "date": "2022-12-05",
+    "platform": "hardware"
+  },
+  {
+    "appId": "trezorOne",
+    "signer": "",
+    "version": "1.10.5",
+    "verdict": "reproducible",
+    "appHashes": [
+      "dfac7b21f88d3077ebba0928adb8c75040498379a77d5969136a15d1aa7978a9"
+    ],
+    "date": "2022-08-07",
+    "platform": "hardware"
+  },
+  {
+    "appId": "trezorOne",
+    "signer": "",
+    "version": "1.10.4",
+    "verdict": "reproducible",
+    "appHashes": [
+      "8ead447cab0ee12af244edc7a18125e71df133730d9c67d627557804bafc57ee"
+    ],
+    "date": "2022-01-10",
+    "platform": "hardware"
+  },
+  {
+    "appId": "trezorOne",
+    "signer": "",
+    "version": "1.10.3",
+    "verdict": "reproducible",
+    "appHashes": [
+      "50715ae29939575b5577725ae4062ab12514f85ac1bb761e881cc6876ff32055"
+    ],
+    "date": "2021-10-05",
+    "platform": "hardware"
+  },
+  {
+    "appId": "trezorOne",
+    "signer": "",
+    "version": "1.10.2",
+    "verdict": "reproducible",
+    "appHashes": [
+      "7ed716b2813f8b81983700e6d286f6ff17a17e830cb85954fe31e9a7ec9388b8"
+    ],
+    "date": "2021-08-23",
+    "platform": "hardware"
+  },
+  {
+    "appId": "trezorOne",
+    "signer": "",
+    "version": "1.9.4",
+    "verdict": "reproducible",
+    "appHashes": [
+      "c406a36aa83932f656caa5246e8a4383f426e4f970b11d86cad76ab95778a6ff"
+    ],
+    "date": "2021-07-17",
+    "platform": "hardware"
+  },
+  {
+    "appId": "trezorSafe3",
+    "signer": "",
+    "version": "2.6.4",
+    "verdict": "reproducible",
+    "appHashes": [
+      "3940dc0615c651104baf0e10147550d4ad2e44e2ef317a94ed36245e3e016bf2"
+    ],
+    "date": "2024-04-01",
+    "platform": "hardware"
+  },
+  {
+    "appId": "trezorSafe5",
+    "signer": "",
+    "version": "2.8.3",
+    "verdict": "reproducible",
+    "appHashes": [
+      "dfabe8b10368f268cedaa505e284192329f489519dd71feb5fba7d610ef748fc",
+      "83677f634f29e0f066153b599c25a8047729608d555f4c289b91df726472fd5d"
+    ],
+    "date": "2024-10-14",
+    "platform": "hardware"
+  },
+  {
+    "appId": "trezorT",
+    "signer": "",
+    "version": "2.7.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "cc4ca65bd7ce6e3af6ddab58346b08fc3331458cd93abc34e8cc1c76532e1f2c"
+    ],
+    "date": "2024-04-10",
+    "platform": "hardware"
+  },
+  {
+    "appId": "trezorT",
+    "signer": "",
+    "version": "2.6.4",
+    "verdict": "reproducible",
+    "appHashes": [
+      "05db9550eb91093822fad11254be889f6f300c4ab3c4c7394112bca195cb4383"
+    ],
+    "date": "2024-04-01",
+    "platform": "hardware"
+  },
+  {
+    "appId": "trezorT",
+    "signer": "",
+    "version": "2.6.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "e5560b40a9fc470fc9f9552baed65241cb0496c5896c6336e2422b50ddf7cada"
+    ],
+    "date": "2023-05-25",
+    "platform": "hardware"
+  },
+  {
+    "appId": "trezorT",
+    "signer": "",
+    "version": "2.5.3",
+    "verdict": "reproducible",
+    "appHashes": [
+      "8d742ff5498e3f903125aa6fca44bffeea27e42cc37297aa03f6c1fca51b6004"
+    ],
+    "date": "2022-12-05",
+    "platform": "hardware"
+  },
+  {
+    "appId": "trezorT",
+    "signer": "",
+    "version": "2.4.3",
+    "verdict": "reproducible",
+    "appHashes": [
+      "4279e8fbf0bf85b6412c1ab1e1fe16844b42d83d2d8a45aaf6cf68dfb7afabbc"
+    ],
+    "date": "2022-08-07",
+    "platform": "hardware"
+  },
+  {
+    "appId": "trezorT",
+    "signer": "",
+    "version": "2.4.2",
+    "verdict": "reproducible",
+    "appHashes": [
+      "1fa3d062251685dc8bebd0b15ed622441ca3778281a652d601548ed29287e29d"
+    ],
+    "date": "2021-10-16",
+    "platform": "hardware"
+  },
+  {
+    "appId": "trezorT",
+    "signer": "",
+    "version": "2.3.6",
+    "verdict": "reproducible",
+    "appHashes": [
+      "0efa3ba6135caea7693d145d60441eeb46283fe0b8b1fd59a04af33a638ad237"
+    ],
+    "date": "2021-07-18",
+    "platform": "hardware"
   }
 ]

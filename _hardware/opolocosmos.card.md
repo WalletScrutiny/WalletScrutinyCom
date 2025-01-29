@@ -22,6 +22,7 @@ icon: opolocosmos.card.png
 bugbounty: 
 meta: ok
 verdict: plainkey
+appHashes: 
 date: 2023-02-28
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: mrweb.mobile.mrweb.png
 bugbounty: 
 meta: stale
 verdict: nobtc
+appHashes: 
 date: 2024-04-24
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.excelon.excelon.go.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
+appHashes: 
 date: 2024-06-23
 signer: 
 reviewArchive: 

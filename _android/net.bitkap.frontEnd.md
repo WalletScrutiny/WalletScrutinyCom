@@ -21,6 +21,7 @@ icon: net.bitkap.frontEnd.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-07-03
 signer: 
 reviewArchive: 

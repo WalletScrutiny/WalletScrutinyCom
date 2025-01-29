@@ -21,6 +21,7 @@ icon: com.coincorner.checkout.png
 bugbounty: 
 meta: ok
 verdict: fewusers
+appHashes: 
 date: 2023-12-14
 signer: 
 reviewArchive: 

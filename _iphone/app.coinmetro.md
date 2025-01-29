@@ -11,7 +11,7 @@ released: 2018-07-25
 updated: 2024-12-19
 version: 5.50.819
 stars: 4.4
-reviews: 307
+reviews: 308
 size: '64890880'
 website: https://coinmetro.com/
 repository: 
@@ -20,6 +20,7 @@ icon: app.coinmetro.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-10-26
 signer: 
 reviewArchive: 

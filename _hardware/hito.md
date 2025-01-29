@@ -26,6 +26,7 @@ icon: hito.png
 bugbounty: 
 meta: ok
 verdict: unreleased
+appHashes: 
 date: 2024-10-21
 signer: 
 reviewArchive: 

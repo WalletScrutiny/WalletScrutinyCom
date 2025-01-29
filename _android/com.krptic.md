@@ -20,6 +20,7 @@ icon: com.krptic.png
 bugbounty: 
 meta: defunct
 verdict: fewusers
+appHashes: 
 date: 2023-08-04
 signer: 
 reviewArchive: 

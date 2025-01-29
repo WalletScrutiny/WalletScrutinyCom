@@ -20,6 +20,7 @@ icon: io.horizontalsystems.indexwallet.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-04-03
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.cointiger.ex.jpg
 bugbounty: 
 meta: defunct
 verdict: custodial
+appHashes: 
 date: 2022-01-15
 signer: 
 reviewArchive: 

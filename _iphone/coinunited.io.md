@@ -20,6 +20,7 @@ icon: coinunited.io.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-11-19
 signer: 
 reviewArchive: 

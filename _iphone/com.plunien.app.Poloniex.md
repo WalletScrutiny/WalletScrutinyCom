@@ -20,6 +20,7 @@ icon: com.plunien.app.Poloniex.jpg
 bugbounty: 
 meta: defunct
 verdict: custodial
+appHashes: 
 date: 2023-06-21
 signer: 
 reviewArchive:

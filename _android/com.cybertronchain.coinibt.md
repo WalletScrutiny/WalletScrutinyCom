@@ -21,6 +21,7 @@ icon: com.cybertronchain.coinibt.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2021-11-10
 signer: 
 reviewArchive: 

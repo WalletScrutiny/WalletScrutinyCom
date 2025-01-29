@@ -20,6 +20,7 @@ icon: com.app.imanifamilycapitallimited.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-08-13
 signer: 
 reviewArchive: 

@@ -24,8 +24,8 @@ meta: ok
 verdict: ftbfs
 appHashes: []
 date: 2024-12-21
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: mintlayer
 social:
 - https://t.me/mintlayer

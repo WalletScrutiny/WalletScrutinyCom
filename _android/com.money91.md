@@ -21,6 +21,7 @@ icon: com.money91.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2024-09-05
 signer: 
 reviewArchive: 

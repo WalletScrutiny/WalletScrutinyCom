@@ -20,6 +20,7 @@ icon: trade.iqforex.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2021-12-22
 signer: 
 reviewArchive: 

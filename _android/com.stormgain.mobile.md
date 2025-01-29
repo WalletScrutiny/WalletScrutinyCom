@@ -12,7 +12,7 @@ updated: 2024-08-07
 version: 1.52.1
 stars: 3.7
 ratings: 114954
-reviews: 992
+reviews: 991
 size: 
 website: https://stormgain.com/
 repository: 
@@ -21,6 +21,7 @@ icon: com.stormgain.mobile.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-03-10
 signer: 
 reviewArchive: 

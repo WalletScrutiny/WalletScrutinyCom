@@ -24,6 +24,7 @@ icon: cobovaultessential.png
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2022-02-18
 signer: 
 reviewArchive: 

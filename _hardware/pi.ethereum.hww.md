@@ -22,6 +22,7 @@ icon: pi.ethereum.hww.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2023-02-09
 signer: 
 reviewArchive: 

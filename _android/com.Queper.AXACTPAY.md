@@ -20,6 +20,7 @@ icon: com.Queper.AXACTPAY.jpg
 bugbounty: 
 meta: obsolete
 verdict: fewusers
+appHashes: 
 date: 2024-12-31
 signer: 
 reviewArchive: 

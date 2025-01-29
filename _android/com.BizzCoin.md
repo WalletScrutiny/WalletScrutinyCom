@@ -21,6 +21,7 @@ icon: com.BizzCoin.png
 bugbounty: 
 meta: removed
 verdict: nosource
+appHashes: 
 date: 2024-05-07
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: br.com.coinext.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-09-07
 signer: 
 reviewArchive: 

@@ -23,6 +23,7 @@ icon: finney.png
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2021-12-04
 signer: 
 reviewArchive: 

@@ -22,6 +22,7 @@ icon: sealblock.png
 bugbounty: 
 meta: ok
 verdict: vapor
+appHashes: 
 date: 2022-05-03
 signer: 
 reviewArchive: 

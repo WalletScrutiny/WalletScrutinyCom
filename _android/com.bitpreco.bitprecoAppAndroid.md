@@ -21,6 +21,7 @@ icon: com.bitpreco.bitprecoAppAndroid.png
 bugbounty: 
 meta: obsolete
 verdict: custodial
+appHashes: 
 date: 2024-12-16
 signer: 
 reviewArchive: 

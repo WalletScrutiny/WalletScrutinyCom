@@ -21,6 +21,7 @@ icon: com.chainup.exchange.VAEX.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-07-05
 signer: 
 reviewArchive: 

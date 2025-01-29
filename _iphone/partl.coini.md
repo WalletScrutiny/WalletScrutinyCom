@@ -20,6 +20,7 @@ icon: partl.coini.jpg
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2023-05-10
 signer: 
 reviewArchive: 

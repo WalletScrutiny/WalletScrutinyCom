@@ -22,6 +22,7 @@ icon: cryptnox.bg1card.png
 bugbounty: 
 meta: ok
 verdict: noita
+appHashes: 
 date: 2023-11-15
 signer: 
 reviewArchive: 

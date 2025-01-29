@@ -20,6 +20,7 @@ icon: com.iminerator.app.jpg
 bugbounty: 
 meta: obsolete
 verdict: nowallet
+appHashes: 
 date: 2024-04-21
 signer: 
 reviewArchive: 

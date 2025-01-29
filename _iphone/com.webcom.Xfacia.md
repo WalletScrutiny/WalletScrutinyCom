@@ -20,6 +20,7 @@ icon: com.webcom.Xfacia.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
+appHashes: 
 date: 2024-12-15
 signer: 
 reviewArchive: 

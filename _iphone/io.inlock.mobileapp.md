@@ -20,6 +20,7 @@ icon: io.inlock.mobileapp.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2023-05-10
 signer: 
 reviewArchive: 

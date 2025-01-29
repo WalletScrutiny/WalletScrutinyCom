@@ -21,6 +21,7 @@ icon: com.investlite.png
 bugbounty: 
 meta: removed
 verdict: nosendreceive
+appHashes: 
 date: 2022-01-31
 signer: 
 reviewArchive: 

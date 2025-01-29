@@ -21,6 +21,7 @@ icon: ps.bitcoinfaucet.app.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2023-04-18
 signer: 
 reviewArchive: 

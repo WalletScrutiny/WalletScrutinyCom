@@ -21,6 +21,7 @@ icon: com.cryptomaniac.cmrobot.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2023-05-22
 signer: 
 reviewArchive: 

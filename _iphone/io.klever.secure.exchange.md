@@ -20,6 +20,7 @@ icon: io.klever.secure.exchange.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-07-10
 signer: 
 reviewArchive: 

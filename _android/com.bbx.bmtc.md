@@ -21,6 +21,7 @@ icon: com.bbx.bmtc.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2021-11-10
 signer: 
 reviewArchive: 

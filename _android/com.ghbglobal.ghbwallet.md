@@ -21,6 +21,7 @@ icon: com.ghbglobal.ghbwallet.png
 bugbounty: 
 meta: obsolete
 verdict: nobtc
+appHashes: 
 date: 2025-01-06
 signer: 
 reviewArchive: 

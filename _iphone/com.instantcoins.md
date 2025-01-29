@@ -20,6 +20,7 @@ icon: com.instantcoins.jpg
 bugbounty: 
 meta: removed
 verdict: nosendreceive
+appHashes: 
 date: 2022-02-16
 signer: 
 reviewArchive: 

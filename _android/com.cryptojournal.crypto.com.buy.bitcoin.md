@@ -21,6 +21,7 @@ icon: com.cryptojournal.crypto.com.buy.bitcoin.jpg
 bugbounty: 
 meta: removed
 verdict: fake
+appHashes: 
 date: 2021-10-01
 signer: 
 reviewArchive: 

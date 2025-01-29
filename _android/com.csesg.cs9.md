@@ -21,6 +21,7 @@ icon: com.csesg.cs9.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2023-12-19
 signer: 
 reviewArchive: 

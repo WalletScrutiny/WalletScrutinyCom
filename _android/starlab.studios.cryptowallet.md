@@ -21,6 +21,7 @@ icon: starlab.studios.cryptowallet.png
 bugbounty: 
 meta: removed
 verdict: fake
+appHashes: 
 date: 2024-04-26
 signer: 
 reviewArchive: 

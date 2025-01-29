@@ -20,6 +20,7 @@ icon: com.boulpik.token.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-10-28
 signer: 
 reviewArchive: 

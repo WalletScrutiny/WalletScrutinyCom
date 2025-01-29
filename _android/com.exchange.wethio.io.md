@@ -21,6 +21,7 @@ icon: com.exchange.wethio.io.png
 bugbounty: 
 meta: obsolete
 verdict: custodial
+appHashes: 
 date: 2024-11-13
 signer: 
 reviewArchive: 

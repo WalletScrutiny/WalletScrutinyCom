@@ -8,11 +8,11 @@ users: 1000000
 appId: com.netdania
 appCountry: us
 released: 2011-11-04
-updated: 2024-12-11
-version: 4.6.9
+updated: 2025-01-15
+version: 4.6.10
 stars: 4.5
 ratings: 24480
-reviews: 1196
+reviews: 1197
 size: 
 website: http://www.netdania.com
 repository: 
@@ -21,6 +21,7 @@ icon: com.netdania.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2021-10-10
 signer: 
 reviewArchive: 

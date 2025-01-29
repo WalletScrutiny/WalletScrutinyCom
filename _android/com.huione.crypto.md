@@ -21,6 +21,7 @@ icon: com.huione.crypto.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-08-13
 signer: 
 reviewArchive: 

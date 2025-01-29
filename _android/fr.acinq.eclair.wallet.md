@@ -21,6 +21,7 @@ icon: fr.acinq.eclair.wallet.jpg
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2023-09-15
 signer: 
 reviewArchive: 

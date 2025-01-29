@@ -20,6 +20,7 @@ icon: com.Kassio.jpg
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-10-23
 signer: 
 reviewArchive: 

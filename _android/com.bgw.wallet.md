@@ -21,6 +21,7 @@ icon: com.bgw.wallet.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-09-16
 signer: 
 reviewArchive: 

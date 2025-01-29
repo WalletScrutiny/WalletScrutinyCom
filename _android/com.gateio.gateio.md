@@ -1,6 +1,6 @@
 ---
 wsId: gate.io
-title: 'Gate.io:  Trade BTC & ETH'
+title: Gate.io:Beli Bitcoin & Kripto
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 5000000
 appId: com.gateio.gateio
 appCountry: id
 released: 2017-11-03
-updated: 2025-01-09
-version: 6.46.1
+updated: 2025-01-26
+version: 6.49.5
 stars: 4.9
 ratings: 17546
-reviews: 4942
+reviews: 5385
 size: 
 website: https://gate.io/
 repository: 
@@ -21,6 +21,7 @@ icon: com.gateio.gateio.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-08-21
 signer: 
 reviewArchive: 

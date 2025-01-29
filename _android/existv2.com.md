@@ -21,6 +21,7 @@ icon: existv2.com.png
 bugbounty: 
 meta: defunct
 verdict: nosource
+appHashes: 
 date: 2022-06-23
 signer: 
 reviewArchive: 

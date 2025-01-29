@@ -20,6 +20,7 @@ icon: org.electrum.electrum99.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2021-04-29
 signer: 
 reviewArchive: 

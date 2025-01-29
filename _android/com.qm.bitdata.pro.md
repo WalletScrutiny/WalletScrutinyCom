@@ -20,6 +20,7 @@ icon: com.qm.bitdata.pro.png
 bugbounty: 
 meta: ok
 verdict: fewusers
+appHashes: 
 date: 2021-08-08
 signer: 
 reviewArchive: 

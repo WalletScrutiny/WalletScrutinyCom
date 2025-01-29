@@ -19,6 +19,7 @@ icon: io.ethos.universalwallet.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
+appHashes: 
 date: 2022-10-21
 signer: 
 reviewArchive: 

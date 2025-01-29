@@ -21,6 +21,7 @@ icon: com.books.x7exchange.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-12-31
 signer: 
 reviewArchive: 

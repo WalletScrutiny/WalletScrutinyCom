@@ -20,6 +20,7 @@ icon: xfolio.android.app.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2022-01-31
 signer: 
 reviewArchive: 

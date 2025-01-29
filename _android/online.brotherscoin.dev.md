@@ -20,6 +20,7 @@ icon: online.brotherscoin.dev.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2021-09-08
 signer: 
 reviewArchive: 

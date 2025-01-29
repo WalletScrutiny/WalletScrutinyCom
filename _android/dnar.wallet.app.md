@@ -21,6 +21,7 @@ icon: dnar.wallet.app.jpg
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2023-07-02
 signer: 
 reviewArchive: 

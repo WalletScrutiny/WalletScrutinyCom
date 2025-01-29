@@ -20,6 +20,7 @@ icon: com.gcmasia.pro.jpg
 bugbounty: 
 meta: obsolete
 verdict: nowallet
+appHashes: 
 date: 2024-10-08
 signer: 
 reviewArchive: 

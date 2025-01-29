@@ -20,6 +20,7 @@ icon: org.electroncash.wallet.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2024-09-13
 signer: 
 reviewArchive: 

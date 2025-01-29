@@ -8,11 +8,11 @@ appId: eu.exante.client
 appCountry: am
 idd: 892856882
 released: 2014-07-06
-updated: 2024-12-23
-version: '4.69'
+updated: 2025-01-21
+version: '4.70'
 stars: 0
 reviews: 0
-size: '72817664'
+size: '71730176'
 website: https://exante.eu/
 repository: 
 issue: 
@@ -20,6 +20,7 @@ icon: eu.exante.client.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2021-10-16
 signer: 
 reviewArchive: 

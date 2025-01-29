@@ -20,6 +20,7 @@ icon: com.bonsystem.chain.showgo.png
 bugbounty: 
 meta: obsolete
 verdict: fewusers
+appHashes: 
 date: 2024-03-15
 signer: 
 reviewArchive: 

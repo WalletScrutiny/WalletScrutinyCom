@@ -20,6 +20,7 @@ icon: com.womegacryptowallet_16429089.png
 bugbounty: 
 meta: stale
 verdict: fewusers
+appHashes: 
 date: 2024-06-03
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: cobo.wallet.png
 bugbounty: 
 meta: defunct
 verdict: nosource
+appHashes: 
 date: 2022-05-31
 signer: 
 reviewArchive: 

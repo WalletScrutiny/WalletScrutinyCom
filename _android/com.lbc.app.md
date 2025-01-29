@@ -20,6 +20,7 @@ icon: com.lbc.app.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-04-26
 signer: 
 reviewArchive: 

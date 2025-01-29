@@ -20,6 +20,7 @@ icon: com.syndicatesoftwareofficial.trxcryptobank.jpg
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2024-02-05
 signer: 
 reviewArchive: 

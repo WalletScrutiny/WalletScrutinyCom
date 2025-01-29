@@ -20,6 +20,7 @@ icon: com.credits.CryptoWallet.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-07-02
 signer: 
 reviewArchive: 

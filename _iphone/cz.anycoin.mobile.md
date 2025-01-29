@@ -11,7 +11,7 @@ released: 2022-04-25
 updated: 2024-11-19
 version: 1.27.8
 stars: 4
-reviews: 65
+reviews: 66
 size: '26076160'
 website: https://www.anycoin.cz
 repository: 
@@ -20,6 +20,7 @@ icon: cz.anycoin.mobile.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-05-03
 signer: 
 reviewArchive: 

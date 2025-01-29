@@ -4,7 +4,7 @@ title: StarEx - Buy Bitcoin & Crypto
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: vip.sing.exchange
 appCountry: 
 released: 2021-05-11
@@ -21,6 +21,7 @@ icon: vip.sing.exchange.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-11-14
 signer: 
 reviewArchive: 

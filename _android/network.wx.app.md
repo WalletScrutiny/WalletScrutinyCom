@@ -9,9 +9,9 @@ appCountry:
 released: 2022-09-30
 updated: 2024-01-12
 version: 1.11.8
-stars: 3.9
+stars: 3.7
 ratings: 
-reviews: 7
+reviews: 8
 size: 
 website: 
 repository: 
@@ -20,6 +20,7 @@ icon: network.wx.app.jpg
 bugbounty: 
 meta: stale
 verdict: nobtc
+appHashes: 
 date: 2025-01-06
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.cofinex.app.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2023-08-04
 signer: 
 reviewArchive: 

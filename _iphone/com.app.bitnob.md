@@ -11,7 +11,7 @@ released: 2020-05-29
 updated: 2024-08-26
 version: '1.187'
 stars: 4.4
-reviews: 73
+reviews: 74
 size: '101830656'
 website: https://bitnob.com
 repository: 
@@ -20,6 +20,7 @@ icon: com.app.bitnob.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-10-07
 signer: 
 reviewArchive: 

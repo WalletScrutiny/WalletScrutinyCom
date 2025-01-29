@@ -21,6 +21,7 @@ icon: com.zedXeWallet.png
 bugbounty: 
 meta: defunct
 verdict: nosource
+appHashes: 
 date: 2023-06-12
 signer: 
 reviewArchive: 

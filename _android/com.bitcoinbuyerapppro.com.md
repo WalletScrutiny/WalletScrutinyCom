@@ -20,6 +20,7 @@ icon: com.bitcoinbuyerapppro.com.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-10-16
 signer: 
 reviewArchive: 

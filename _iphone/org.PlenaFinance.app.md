@@ -20,6 +20,7 @@ icon: org.PlenaFinance.app.jpg
 bugbounty: 
 meta: defunct
 verdict: nobtc
+appHashes: 
 date: 2023-08-16
 signer: 
 reviewArchive: 

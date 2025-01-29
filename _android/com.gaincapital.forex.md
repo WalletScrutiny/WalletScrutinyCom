@@ -1,6 +1,6 @@
 ---
 wsId: Forexcom
-title: FOREX.com FX & CFD Trading App
+title: FX & CFD Trading App FOREX.com
 altTitle: 
 authors:
 - danny
@@ -12,7 +12,7 @@ updated: 2025-01-03
 version: '1.210'
 stars: 3.7
 ratings: 392
-reviews: 27
+reviews: 26
 size: 
 website: https://www.forex.com
 repository: 
@@ -21,6 +21,7 @@ icon: com.gaincapital.forex.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
+appHashes: 
 date: 2021-10-16
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.lumiwallet.HD.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
+appHashes: 
 date: 2021-06-16
 signer: 
 reviewArchive: 

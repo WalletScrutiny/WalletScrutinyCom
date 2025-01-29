@@ -21,6 +21,7 @@ icon: net.chiliz.broker.android.png
 bugbounty: 
 meta: defunct
 verdict: custodial
+appHashes: 
 date: 2022-04-25
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: net.novawallet.android.png
 bugbounty: 
 meta: obsolete
 verdict: nosource
+appHashes: 
 date: 2024-07-17
 signer: 
 reviewArchive: 

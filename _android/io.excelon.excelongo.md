@@ -21,6 +21,7 @@ icon: io.excelon.excelongo.png
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-05-24
 signer: 
 reviewArchive: 

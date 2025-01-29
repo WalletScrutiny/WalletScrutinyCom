@@ -22,6 +22,7 @@ icon: kruxdiyhw.png
 bugbounty: 
 meta: ok
 verdict: diy
+appHashes: 
 date: 2024-01-22
 signer: 
 reviewArchive: 

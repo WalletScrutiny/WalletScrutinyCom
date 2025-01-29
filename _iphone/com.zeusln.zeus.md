@@ -22,13 +22,13 @@ meta: ok
 verdict: nonverifiable
 appHashes: []
 date: 2023-12-30
-signer:
+signer: 
 reviewArchive:
 - date: 2023-12-30
   version: 0.9.3
   appHashes: []
   gitRevision: 6c17feb4d414efa40ea736b9d2e8d44216776893
-  verdict: nonverifiable  
+  verdict: nonverifiable
 twitter: ZeusLN
 social: 
 features:

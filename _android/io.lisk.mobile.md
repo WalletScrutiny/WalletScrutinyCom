@@ -9,8 +9,8 @@ users: 10000
 appId: io.lisk.mobile
 appCountry: 
 released: 2018-10-02
-updated: 2023-12-11
-version: 3.0.1
+updated: 2025-01-27
+version: 3.0.2
 stars: 4.1
 ratings: 189
 reviews: 30
@@ -20,9 +20,10 @@ repository:
 issue: 
 icon: io.lisk.mobile.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nobtc
-date: 2024-12-08
+appHashes: 
+date: 2025-01-29
 signer: 
 reviewArchive: 
 twitter: LiskHQ

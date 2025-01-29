@@ -20,6 +20,7 @@ icon: com.web.instafx.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2024-12-04
 signer: 
 reviewArchive: 

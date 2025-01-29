@@ -20,6 +20,7 @@ icon: www.satoshibot.org.png
 bugbounty: 
 meta: obsolete
 verdict: fewusers
+appHashes: 
 date: 2024-05-10
 signer: 
 reviewArchive: 

@@ -56,7 +56,7 @@ echo " * Generate allOpinions.json from Nostr..."
 node ./scripts/compileAllOpinions.js
 
 echo " * Updating attestations.json..."
-node refreshAttestationsDB.mjs _android
+node refreshAttestationsDB.mjs _android _desktop _hardware _iphone 
 
 echo
 echo

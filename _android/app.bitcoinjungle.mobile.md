@@ -21,6 +21,7 @@ icon: app.bitcoinjungle.mobile.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-10-20
 signer: 
 reviewArchive: 

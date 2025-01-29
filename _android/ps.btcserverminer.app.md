@@ -21,6 +21,7 @@ icon: ps.btcserverminer.app.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2023-01-02
 signer: 
 reviewArchive: 

@@ -25,6 +25,7 @@ icon: keyxentictoken.kx906.png
 bugbounty: 
 meta: ok
 verdict: vapor
+appHashes: 
 date: 2022-05-04
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.pons.dao.jpg
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2021-11-30
 signer: 
 reviewArchive: 

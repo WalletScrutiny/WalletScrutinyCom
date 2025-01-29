@@ -12,7 +12,7 @@ updated: 2024-11-07
 version: 5.5.3
 stars: 3
 ratings: 116
-reviews: 115
+reviews: 116
 size: 
 website: https://www.batonex.com
 repository: 
@@ -21,6 +21,7 @@ icon: com.wisebitcoin.broker.android.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-10-19
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.finance.acewallet.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-02-05
 signer: 
 reviewArchive: 

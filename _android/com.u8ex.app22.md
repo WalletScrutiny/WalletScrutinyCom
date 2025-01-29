@@ -21,6 +21,7 @@ icon: com.u8ex.app22.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2023-06-07
 signer: 
 reviewArchive: 

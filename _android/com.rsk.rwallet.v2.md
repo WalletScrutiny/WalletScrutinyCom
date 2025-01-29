@@ -23,6 +23,7 @@ icon: com.rsk.rwallet.v2.png
 bugbounty: 
 meta: removed
 verdict: ftbfs
+appHashes: 
 date: 2024-04-03
 signer: 
 reviewArchive: 

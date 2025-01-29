@@ -10,9 +10,9 @@ appCountry: us
 released: 2020-07-05
 updated: 2024-02-12
 version: 2.2.0
-stars: 3.1
+stars: 2.9
 ratings: 248
-reviews: 45
+reviews: 39
 size: 
 website: https://www.jeroid.ng/
 repository: 
@@ -21,6 +21,7 @@ icon: com.spantom.jeroid.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2021-11-04
 signer: 
 reviewArchive: 

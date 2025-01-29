@@ -21,6 +21,7 @@ icon: net.benoitbasset.ograpi.png
 bugbounty: 
 meta: stale
 verdict: nowallet
+appHashes: 
 date: 2024-06-03
 signer: 
 reviewArchive: 

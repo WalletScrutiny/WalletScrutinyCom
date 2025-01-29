@@ -20,6 +20,7 @@ icon: com.g360s.SafeX.jpg
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2024-12-23
 signer: 
 reviewArchive: 

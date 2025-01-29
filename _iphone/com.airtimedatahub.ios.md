@@ -18,9 +18,10 @@ repository:
 issue: 
 icon: com.airtimedatahub.ios.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
-date: 2024-10-07
+appHashes: 
+date: 2025-01-27
 signer: 
 reviewArchive: 
 twitter: airtimedatahub

@@ -8,8 +8,8 @@ users: 1000
 appId: com.galias.coinrivet
 appCountry: 
 released: 
-updated: 2024-12-20
-version: 1.2.10.1000
+updated: 2025-01-17
+version: 1.2.11.1150
 stars: 4.2
 ratings: 
 reviews: 
@@ -21,6 +21,7 @@ icon: com.galias.coinrivet.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-04-02
 signer: 
 reviewArchive: 

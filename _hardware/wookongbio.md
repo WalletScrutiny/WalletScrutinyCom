@@ -26,6 +26,7 @@ icon: wookongbio.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2021-12-04
 signer: 
 reviewArchive: 

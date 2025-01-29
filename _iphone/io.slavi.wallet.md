@@ -22,8 +22,8 @@ meta: ok
 verdict: nonverifiable
 appHashes: []
 date: 2023-07-06
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: slavi_io
 social:
 - https://t.me/SlaviDappGroup

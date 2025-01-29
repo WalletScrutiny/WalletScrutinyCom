@@ -9,10 +9,10 @@ appId: com.osmo.smt
 appCountry: 
 released: 2022-07-01
 updated: 2025-01-10
-version: 4.0.10
+version: 4.0.14
 stars: 4
 ratings: 
-reviews: 27
+reviews: 29
 size: 
 website: https://www.osmowallet.com/
 repository: 
@@ -21,6 +21,7 @@ icon: com.osmo.smt.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-08-24
 signer: 
 reviewArchive: 

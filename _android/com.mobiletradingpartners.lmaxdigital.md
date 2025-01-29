@@ -21,6 +21,7 @@ icon: com.mobiletradingpartners.lmaxdigital.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-04-04
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: latoken.kucoin.trustapp.zebpay.coinmarketcap.coindcx.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2021-09-02
 signer: 
 reviewArchive: 

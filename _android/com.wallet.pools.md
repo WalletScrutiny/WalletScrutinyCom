@@ -12,7 +12,7 @@ updated: 2024-05-13
 version: 1.1.5
 stars: 4.7
 ratings: 
-reviews: 29
+reviews: 30
 size: 
 website: 
 repository: 
@@ -21,6 +21,7 @@ icon: com.wallet.pools.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2023-07-03
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.finwhalex.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2023-05-25
 signer: 
 reviewArchive: 

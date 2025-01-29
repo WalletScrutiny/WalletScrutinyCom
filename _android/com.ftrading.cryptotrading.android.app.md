@@ -21,6 +21,7 @@ icon: com.ftrading.cryptotrading.android.app.png
 bugbounty: 
 meta: obsolete
 verdict: nowallet
+appHashes: 
 date: 2024-09-10
 signer: 
 reviewArchive: 

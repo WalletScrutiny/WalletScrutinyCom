@@ -20,6 +20,7 @@ icon: com.a1in1.crypto_coin.jpg
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-07-05
 signer: 
 reviewArchive: 

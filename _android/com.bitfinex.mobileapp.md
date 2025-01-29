@@ -21,6 +21,7 @@ icon: com.bitfinex.mobileapp.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-05-31
 signer: 
 reviewArchive: 

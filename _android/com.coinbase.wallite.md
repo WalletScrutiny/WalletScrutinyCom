@@ -20,6 +20,7 @@ icon: com.coinbase.wallite.png
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2023-01-02
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: app.mudraexchange.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-09-03
 signer: 
 reviewArchive: 

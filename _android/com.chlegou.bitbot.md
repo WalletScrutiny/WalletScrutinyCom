@@ -21,6 +21,7 @@ icon: com.chlegou.bitbot.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2024-04-24
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.btse.BTSE.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-11-25
 signer: 
 reviewArchive: 

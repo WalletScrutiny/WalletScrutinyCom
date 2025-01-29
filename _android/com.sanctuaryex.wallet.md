@@ -20,6 +20,7 @@ icon: com.sanctuaryex.wallet.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-12-04
 signer: 
 reviewArchive: 

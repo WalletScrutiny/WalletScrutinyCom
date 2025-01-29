@@ -20,6 +20,7 @@ icon: com.rapiexchange.merchant.png
 bugbounty: 
 meta: obsolete
 verdict: fewusers
+appHashes: 
 date: 2024-08-15
 signer: 
 reviewArchive: 

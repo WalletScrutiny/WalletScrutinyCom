@@ -20,6 +20,7 @@ icon: com.plus.bumpt.app.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-08-25
 signer: 
 reviewArchive: 

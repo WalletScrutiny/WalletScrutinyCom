@@ -21,6 +21,7 @@ icon: com.conglex.conglex.png
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-03-12
 signer: 
 reviewArchive: 

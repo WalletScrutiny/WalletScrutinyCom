@@ -20,6 +20,7 @@ icon: org.bituniverse.portfolio.trade.jpg
 bugbounty: 
 meta: obsolete
 verdict: nowallet
+appHashes: 
 date: 2024-03-07
 signer: 
 reviewArchive: 

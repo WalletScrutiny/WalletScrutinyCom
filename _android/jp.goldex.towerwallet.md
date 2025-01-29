@@ -21,6 +21,7 @@ icon: jp.goldex.towerwallet.png
 bugbounty: 
 meta: removed
 verdict: nosource
+appHashes: 
 date: 2023-09-04
 signer: 
 reviewArchive: 

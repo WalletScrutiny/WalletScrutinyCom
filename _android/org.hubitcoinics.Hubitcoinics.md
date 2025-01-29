@@ -20,6 +20,7 @@ icon: org.hubitcoinics.Hubitcoinics.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-05-07
 signer: 
 reviewArchive: 

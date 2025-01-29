@@ -21,6 +21,7 @@ icon: com.exchanger24pb.myapplication24.png
 bugbounty: 
 meta: stale
 verdict: nowallet
+appHashes: 
 date: 2024-11-21
 signer: 
 reviewArchive: 

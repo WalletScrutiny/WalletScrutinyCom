@@ -20,6 +20,7 @@ icon: com.lykkex.Lykke-Wallet.jpg
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-08-23
 signer: 
 reviewArchive: 
