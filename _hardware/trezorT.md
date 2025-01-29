@@ -8,7 +8,7 @@ authors:
 - keraliss
 released: 2018-03-01
 discontinued: 
-updated: 2024-08-04
+updated: 2025-01-08
 version: 2.8.7
 binaries: https://github.com/trezor/webwallet-data/tree/master/firmware/2
 dimensions:
