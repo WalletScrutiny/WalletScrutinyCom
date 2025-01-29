@@ -415,10 +415,28 @@
         <div class="risk-factors">
           <ul>
             {% if custodian.riskAssessment.derivatives %}
-              <li><i class="fas fa-chart-line"></i> Offers derivatives trading</li>
+              <li>
+                <i class="fas fa-chart-line"></i> Offers derivatives trading
+                {% if custodian.riskAssessment.derivativesList %}
+                  <ul class="derivatives-list">
+                    {% for product in custodian.riskAssessment.derivativesList %}
+                      <li><a href="{{ product.url }}">{{ product.name }}</a></li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+              </li>
             {% endif %}
             {% if custodian.riskAssessment.memecoins %}
-              <li><i class="fas fa-coins"></i> Lists memecoins</li>
+              <li>
+                <i class="fas fa-coins"></i> Lists memecoins
+                {% if custodian.riskAssessment.memecoinList %}
+                  <ul class="memecoin-list">
+                    {% for coin in custodian.riskAssessment.memecoinList %}
+                      <li><a href="{{ coin.url }}">{{ coin.name }}</a></li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+              </li>
             {% endif %}
             {% if custodian.riskAssessment.gambling %}
               <li><i class="fas fa-dice"></i> Provides gambling services</li>
@@ -640,6 +658,44 @@
 .circle.risk {
   background: #ff9800;  
   border-color: #ff9800;
+}
+
+.risk-factors ul.memecoin-list {
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+  font-size: 0.9em;
+}
+
+.risk-factors ul.memecoin-list li {
+  margin-bottom: 0.25rem;
+}
+
+.risk-factors ul.memecoin-list a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.risk-factors ul.memecoin-list a:hover {
+  text-decoration: underline;
+}
+
+.risk-factors ul.derivatives-list {
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+  font-size: 0.9em;
+}
+
+.risk-factors ul.derivatives-list li {
+  margin-bottom: 0.25rem;
+}
+
+.risk-factors ul.derivatives-list a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.risk-factors ul.derivatives-list a:hover {
+  text-decoration: underline;
 }
 
 /* Add a subtle shadow and glow effect */

@@ -127,7 +127,25 @@ custodian:
 
   riskAssessment:
     derivatives: true
+    derivativesList:
+      - name: "Coinbase Derivatives"
+        url: "https://www.coinbase.com/en-gb/derivatives"
+      - name: "Coinbase Futures"
+        url: "https://www.coinbase.com/en-gb/international-exchange"
     memecoins: true
+    memecoinList:
+      - name: "DOGE"
+        url: "https://exchange.coinbase.com/trade/DOGE-USD"
+      - name: "SHIB"
+        url: "https://exchange.coinbase.com/trade/SHIB-USD"
+      - name: "FLOKI"
+        url: "https://exchange.coinbase.com/trade/FLOKI-USD"
+      - name: "PEPE"
+        url: "https://exchange.coinbase.com/trade/PEPE-USD"
+      - name: "GIGA"
+        url: "https://exchange.coinbase.com/trade/GIGA-USD"
+      - name: "TRUMP"
+        url: "https://exchange.coinbase.com/trade/TRUMP-USD"
     gambling: false
 
   bitcoinContribution:
