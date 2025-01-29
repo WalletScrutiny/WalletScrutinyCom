@@ -13,7 +13,7 @@ updated: 2025-01-15
 version: 5.19.5
 stars: 4.8
 ratings: 89
-reviews: 742
+reviews: 748
 size: 
 website: https://tangem.com
 repository: https://github.com/tangem/tangem-app-android

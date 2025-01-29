@@ -12,7 +12,7 @@ updated: 2025-01-16
 version: 7.2.326
 stars: 4.4
 ratings: 1291
-reviews: 661
+reviews: 662
 size: 
 website: https://staging.prestmit.com
 repository: 

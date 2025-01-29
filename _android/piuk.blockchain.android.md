@@ -13,7 +13,7 @@ updated: 2025-01-23
 version: 202501.1.5
 stars: 3.8
 ratings: 115830
-reviews: 6196
+reviews: 6194
 size: 
 website: https://www.blockchain.com
 repository: 

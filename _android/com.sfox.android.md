@@ -9,9 +9,9 @@ appCountry:
 released: 2021-12-24
 updated: 2024-11-15
 version: 1.3.0
-stars: 
+stars: 3.6
 ratings: 
-reviews: 
+reviews: 3
 size: 
 website: https://www.sfox.com/
 repository: 

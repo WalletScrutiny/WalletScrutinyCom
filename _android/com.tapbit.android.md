@@ -9,7 +9,7 @@ appId: com.tapbit.android
 appCountry: 
 released: 2022-09-20
 updated: 2025-01-16
-version: 3.8.7
+version: 3.8.8
 stars: 4.4
 ratings: 
 reviews: 26

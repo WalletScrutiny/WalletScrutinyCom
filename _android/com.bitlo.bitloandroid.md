@@ -8,8 +8,8 @@ users: 100000
 appId: com.bitlo.bitloandroid
 appCountry: TR
 released: 2020-12-18
-updated: 2024-12-19
-version: 2.1.24
+updated: 2025-01-27
+version: 2.1.25
 stars: 4.6
 ratings: 
 reviews: 2395

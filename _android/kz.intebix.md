@@ -3,7 +3,7 @@ wsId:
 title: Intebix
 altTitle: 
 authors: 
-users: 100
+users: 500
 appId: kz.intebix
 appCountry: 
 released: 2023-01-09

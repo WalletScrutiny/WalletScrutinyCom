@@ -11,7 +11,7 @@ released: 2018-09-26
 updated: 2025-01-24
 version: 8.28.2
 stars: 4.7
-reviews: 4412
+reviews: 4421
 size: '194081792'
 website: https://web3.bitget.com
 repository: 

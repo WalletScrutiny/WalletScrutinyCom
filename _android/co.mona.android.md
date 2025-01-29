@@ -1,6 +1,6 @@
 ---
 wsId: mona
-title: Crypto.com - Buy BTC & TRUMP
+title: Crypto.com - Buy Bitcoin, SOL
 altTitle: 
 authors:
 - leo
@@ -13,7 +13,7 @@ updated: 2025-01-22
 version: 3.203.0
 stars: 4.5
 ratings: 281384
-reviews: 52982
+reviews: 53006
 size: 
 website: https://crypto.com/
 repository: 

@@ -12,8 +12,8 @@ users: 500000
 appId: io.bluewallet.bluewallet
 appCountry: 
 released: 2018-11-01
-updated: 2025-01-16
-version: 7.0.7
+updated: 2025-01-25
+version: 7.0.8
 stars: 3.9
 ratings: 1810
 reviews: 332
