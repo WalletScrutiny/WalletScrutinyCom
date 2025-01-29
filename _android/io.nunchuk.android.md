@@ -29,7 +29,8 @@ signer:
 reviewArchive:
 - date: 2024-11-19
   version: 1.9.53
-  appHashes: [aaec6e500babbd1931db8485b99205468e426f6157df131f607aa69b6e821708]
+  appHashes: 
+  - aaec6e500babbd1931db8485b99205468e426f6157df131f607aa69b6e821708
   gitRevision: b720beb1ee4f9de53638ab013f759690c8e787a4
   verdict: nonverifiable
 - date: 2023-07-05
@@ -66,7 +67,6 @@ features:
 
 ```
 8f53fa42fc072381ea228314fa421b52a77b33e9fe6029095fc1d13c68fd9b41 - Official
-24e13fbf44b47b8dc46c6043fc0383ed59075f97da22489d34f38f02a36616a2 - Built
 ```
 
 {% include diffoscope-modal.html label='Diffoscope between built and play armeabi_v7a apks' url='/assets/diffoscope-results/android/io.nunchuk.android/1.9.58/diffo-io.nunchuk.android_1.9.58-built-armeabi-vs-play-armeabi.html' %}
@@ -107,7 +107,6 @@ The Play APK includes 4 additional files:
 
 ```
 9027651c5ed7dd4a31d6cd073023bb77f38b799d8a0aa0ff0f81a184b1795dd3 - Official
-b85a00b1c6ac7b6b2ed068beb3fd134d5386e2f30885e9ab5202c0d5e0d90086 - Built
 ```
 
 {% include diffoscope-modal.html label='Diffoscope between built and play base apks' url='/assets/diffoscope-results/android/io.nunchuk.android/1.9.58/diffo-io.nunchuk.android_1.9.58-built-base-vs-play-base.html' %}
@@ -172,7 +171,6 @@ The Play APK includes three new `<meta-data>` elements:
 
 ```
 02c32758930cf0d4d87a44a5985f7bf97550280e1539074276a277866489f022 - Official
-0daeee1e46edda5bc66c6878af256c43da2cb5378cdfc944addd8ff0498ac2f8 - Built
 ```
 
 {% include diffoscope-modal.html label='Diffoscope between xhdpi built and play xhdpi apks' url='/assets/diffoscope-results/android/io.nunchuk.android/1.9.58/diffo-io.nunchuk.android_1.9.58-built-xhdpi-vs-play-xhdpi.html' %}
