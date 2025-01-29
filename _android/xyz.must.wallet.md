@@ -20,6 +20,7 @@ icon: xyz.must.wallet.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2021-12-05
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.thinkdevs.cryptomarket.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2021-10-06
 signer: 
 reviewArchive: 

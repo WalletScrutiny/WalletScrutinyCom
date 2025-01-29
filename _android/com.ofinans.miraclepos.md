@@ -20,6 +20,7 @@ icon: com.ofinans.miraclepos.jpg
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-09-08
 signer: 
 reviewArchive: 

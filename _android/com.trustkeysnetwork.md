@@ -21,6 +21,7 @@ icon: com.trustkeysnetwork.png
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2024-07-16
 signer: 
 reviewArchive: 

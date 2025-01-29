@@ -10,7 +10,7 @@ appCountry:
 released: 2018-09-19
 updated: 2024-12-10
 version: 1.2.2
-stars: 3.4
+stars: 3.8
 ratings: 
 reviews: 6
 size: 
@@ -21,6 +21,7 @@ icon: com.everdreamsoft.casatookan.png
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2024-12-15
 signer: 
 reviewArchive: 

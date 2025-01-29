@@ -21,6 +21,7 @@ icon: com.exchangernet.png
 bugbounty: 
 meta: obsolete
 verdict: nowallet
+appHashes: 
 date: 2023-02-20
 signer: 
 reviewArchive: 

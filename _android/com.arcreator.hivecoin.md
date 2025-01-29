@@ -21,6 +21,7 @@ icon: com.arcreator.hivecoin.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2021-12-05
 signer: 
 reviewArchive: 

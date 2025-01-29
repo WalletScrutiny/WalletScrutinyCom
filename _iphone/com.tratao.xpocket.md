@@ -18,9 +18,10 @@ repository:
 issue: 
 icon: com.tratao.xpocket.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-06-13
+appHashes: 
+date: 2025-01-27
 signer: 
 reviewArchive: 
 twitter: xBank_Official

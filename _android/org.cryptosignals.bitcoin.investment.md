@@ -20,6 +20,7 @@ icon: org.cryptosignals.bitcoin.investment.jpg
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2021-10-01
 signer: 
 reviewArchive: 

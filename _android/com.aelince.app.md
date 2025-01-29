@@ -21,6 +21,7 @@ icon: com.aelince.app.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2023-08-28
 signer: 
 reviewArchive: 

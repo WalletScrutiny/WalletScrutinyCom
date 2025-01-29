@@ -21,6 +21,7 @@ icon: com.a60sek.a60cekorg.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2024-11-22
 signer: 
 reviewArchive: 

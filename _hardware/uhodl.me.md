@@ -22,6 +22,7 @@ icon: uhodl.me.png
 bugbounty: 
 meta: ok
 verdict: vapor
+appHashes: 
 date: 2023-03-08
 signer: 
 reviewArchive: 

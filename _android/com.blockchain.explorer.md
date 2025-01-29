@@ -22,6 +22,7 @@ icon: com.blockchain.explorer.png
 bugbounty: 
 meta: obsolete
 verdict: nowallet
+appHashes: 
 date: 2024-11-21
 signer: 
 reviewArchive: 

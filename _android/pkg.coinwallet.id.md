@@ -20,6 +20,7 @@ icon: pkg.coinwallet.id.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2022-03-09
 signer: 
 reviewArchive: 

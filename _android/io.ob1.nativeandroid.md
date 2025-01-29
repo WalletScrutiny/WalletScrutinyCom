@@ -20,12 +20,13 @@ icon: io.ob1.nativeandroid.png
 bugbounty: 
 meta: removed
 verdict: nonverifiable
+appHashes: []
 date: 2021-01-23
 signer: 
 reviewArchive:
 - date: 2020-08-04
   version: ''
-  appHash: 
+  appHashes: 
   gitRevision: d35be5007a773253ccdf2e6c4234b33f12b25fec
   verdict: nosource
 twitter: HavenPrivacy

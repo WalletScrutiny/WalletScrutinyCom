@@ -9,11 +9,11 @@ users: 10000000
 appId: piuk.blockchain.android
 appCountry: 
 released: 2013-02-01
-updated: 2025-01-14
-version: 202411.2.10
+updated: 2025-01-23
+version: 202501.1.5
 stars: 3.8
 ratings: 115830
-reviews: 6178
+reviews: 6194
 size: 
 website: https://www.blockchain.com
 repository: 
@@ -22,12 +22,14 @@ icon: piuk.blockchain.android.png
 bugbounty: https://hackerone.com/blockchain
 meta: ok
 verdict: nosource
+appHashes: []
 date: 2024-09-12
 signer: 87a6e89e2e45848c1ddc43021e95812aae70b0b54c6c320c71db4dff83f7b6a0
 reviewArchive:
 - date: 2020-07-11
   version: 6.35.0
-  appHash: 07bec5eaaffbbe9b490c2662f950e4696620cb5ef4201827011c312dc72b7f0c
+  appHashes:
+  - 07bec5eaaffbbe9b490c2662f950e4696620cb5ef4201827011c312dc72b7f0c
   gitRevision: 477c4edc4f632895993602574ba383a08df9041f
   verdict: nonverifiable
 twitter: blockchain

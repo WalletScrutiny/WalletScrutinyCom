@@ -22,6 +22,7 @@ icon: com.currency.exchange.prod2.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-01-23
 signer: 
 reviewArchive: 

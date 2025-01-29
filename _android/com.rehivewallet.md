@@ -20,6 +20,7 @@ icon: com.rehivewallet.png
 bugbounty: 
 meta: ok
 verdict: fewusers
+appHashes: 
 date: 2021-08-21
 signer: 
 reviewArchive: 

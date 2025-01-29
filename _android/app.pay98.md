@@ -21,6 +21,7 @@ icon: app.pay98.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2023-04-16
 signer: 
 reviewArchive: 

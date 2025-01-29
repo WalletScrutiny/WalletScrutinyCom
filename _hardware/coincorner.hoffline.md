@@ -22,6 +22,7 @@ icon: coincorner.hoffline.png
 bugbounty: 
 meta: ok
 verdict: vapor
+appHashes: 
 date: 2023-01-20
 signer: 
 reviewArchive: 

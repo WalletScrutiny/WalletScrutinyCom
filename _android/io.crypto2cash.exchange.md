@@ -21,6 +21,7 @@ icon: io.crypto2cash.exchange.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive
+appHashes: 
 date: 2023-06-13
 signer: 
 reviewArchive: 

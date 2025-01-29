@@ -20,6 +20,7 @@ icon: com.idea-soft.biteeu.jpg
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-09-28
 signer: 
 reviewArchive: 

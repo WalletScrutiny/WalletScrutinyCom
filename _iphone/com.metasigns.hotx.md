@@ -20,6 +20,7 @@ icon: com.metasigns.hotx.jpg
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-11-07
 signer: 
 reviewArchive: 

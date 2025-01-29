@@ -20,6 +20,7 @@ icon: com.starlyware.bitreal.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2021-10-11
 signer: 
 reviewArchive: 

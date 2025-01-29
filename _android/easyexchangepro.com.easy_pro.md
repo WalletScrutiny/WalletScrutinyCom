@@ -20,6 +20,7 @@ icon: easyexchangepro.com.easy_pro.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2025-01-09
 signer: 
 reviewArchive: 

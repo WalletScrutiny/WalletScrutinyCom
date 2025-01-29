@@ -20,6 +20,7 @@ icon: com.edc.crocobit.wallets.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-09-15
 signer: 
 reviewArchive: 

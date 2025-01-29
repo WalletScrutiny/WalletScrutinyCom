@@ -21,6 +21,7 @@ icon: eu.crystalwallet.app.png
 bugbounty: 
 meta: removed
 verdict: nosource
+appHashes: 
 date: 2022-03-09
 signer: 
 reviewArchive: 

@@ -10,7 +10,7 @@ appCountry:
 released: 2022-12-11
 updated: 2024-11-20
 version: 4.16.0
-stars: 3.9
+stars: 4
 ratings: 
 reviews: 12
 size: 
@@ -21,6 +21,7 @@ icon: app.coinhubatm.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2024-07-24
 signer: 
 reviewArchive: 

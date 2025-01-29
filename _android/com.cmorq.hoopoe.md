@@ -21,6 +21,7 @@ icon: com.cmorq.hoopoe.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2022-06-22
 signer: 
 reviewArchive: 

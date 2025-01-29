@@ -8,8 +8,8 @@ users: 10000
 appId: com.yykj.bitfree.en
 appCountry: 
 released: 2019-01-26
-updated: 2025-01-14
-version: 5.1.1
+updated: 2025-01-25
+version: 5.1.5
 stars: 3.9
 ratings: 
 reviews: 25
@@ -21,6 +21,7 @@ icon: com.yykj.bitfree.en.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2025-01-15
 signer: 
 reviewArchive: 

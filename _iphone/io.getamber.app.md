@@ -11,7 +11,7 @@ released: 2021-06-21
 updated: 2024-11-05
 version: 5.5.0
 stars: 4.5
-reviews: 269
+reviews: 271
 size: '100076544'
 website: http://amber.app/
 repository: 
@@ -20,6 +20,7 @@ icon: io.getamber.app.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-10-07
 signer: 
 reviewArchive: 

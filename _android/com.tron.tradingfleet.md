@@ -20,6 +20,7 @@ icon: com.tron.tradingfleet.jpg
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-09-01
 signer: 
 reviewArchive: 

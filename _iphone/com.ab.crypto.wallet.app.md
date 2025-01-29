@@ -10,8 +10,8 @@ idd: '6467197622'
 released: 2023-12-05
 updated: 2024-10-21
 version: 1.9.0
-stars: 4.4
-reviews: 83
+stars: 4.3
+reviews: 88
 size: '65944576'
 website: https://alicebob.com/
 repository: 
@@ -20,6 +20,7 @@ icon: com.ab.crypto.wallet.app.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2024-09-04
 signer: 
 reviewArchive: 

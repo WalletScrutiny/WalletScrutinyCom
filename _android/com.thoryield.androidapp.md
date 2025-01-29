@@ -21,6 +21,7 @@ icon: com.thoryield.androidapp.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-06-03
 signer: 
 reviewArchive: 

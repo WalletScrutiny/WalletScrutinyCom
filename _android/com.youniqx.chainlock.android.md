@@ -21,6 +21,7 @@ icon: com.youniqx.chainlock.android.png
 bugbounty: 
 meta: stale
 verdict: nowallet
+appHashes: 
 date: 2024-07-30
 signer: 
 reviewArchive: 

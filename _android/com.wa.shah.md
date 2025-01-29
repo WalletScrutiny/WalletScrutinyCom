@@ -21,6 +21,7 @@ icon: com.wa.shah.jpg
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2024-12-31
 signer: 
 reviewArchive: 

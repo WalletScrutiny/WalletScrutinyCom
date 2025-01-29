@@ -21,6 +21,7 @@ icon: com.trade360.png
 bugbounty: 
 meta: obsolete
 verdict: nosendreceive
+appHashes: 
 date: 2024-09-18
 signer: 
 reviewArchive: 

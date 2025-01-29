@@ -21,6 +21,7 @@ icon: com.launchzone.lzwallet.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2023-05-30
 signer: 
 reviewArchive: 

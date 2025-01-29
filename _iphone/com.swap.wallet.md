@@ -19,6 +19,7 @@ icon: com.swap.wallet.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2020-12-28
 signer: 
 reviewArchive: 

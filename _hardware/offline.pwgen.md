@@ -22,6 +22,7 @@ icon: offline.pwgen.png
 bugbounty: 
 meta: ok
 verdict: diy
+appHashes: 
 date: 2022-05-27
 signer: 
 reviewArchive: 

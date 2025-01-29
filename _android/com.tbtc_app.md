@@ -21,6 +21,7 @@ icon: com.tbtc_app.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-07-17
 signer: 
 reviewArchive: 

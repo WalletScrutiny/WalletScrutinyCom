@@ -20,6 +20,7 @@ icon: com.cryptiswap.jpg
 bugbounty: 
 meta: stale
 verdict: nowallet
+appHashes: 
 date: 2024-03-07
 signer: 
 reviewArchive: 

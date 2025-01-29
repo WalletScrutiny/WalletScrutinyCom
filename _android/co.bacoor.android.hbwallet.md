@@ -1,6 +1,6 @@
 ---
 wsId: bacoorhbwallet
-title: HB Wallet | ETH Wallet, DeFi
+title: 'HB Wallet: BTC, ETH, SOL, BASE'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 100000
 appId: co.bacoor.android.hbwallet
 appCountry: us
 released: 2017-07-17
-updated: 2022-06-13
-version: 3.6.0
+updated: 2025-01-17
+version: 4.4.0
 stars: 4.5
 ratings: 2137
 reviews: 48
@@ -19,9 +19,10 @@ repository:
 issue: 
 icon: co.bacoor.android.hbwallet.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: nobtc
-date: 2024-06-03
+appHashes: 
+date: 2025-01-27
 signer: 
 reviewArchive: 
 twitter: HBWallet_Ether

@@ -20,6 +20,7 @@ icon: org.cryptobubbles.bitcoin.invest.india.jpg
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2021-10-01
 signer: 
 reviewArchive: 

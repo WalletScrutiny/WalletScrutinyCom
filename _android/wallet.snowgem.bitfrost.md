@@ -20,6 +20,7 @@ icon: wallet.snowgem.bitfrost.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2021-11-01
 signer: 
 reviewArchive: 

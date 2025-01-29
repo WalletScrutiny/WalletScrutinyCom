@@ -21,6 +21,7 @@ icon: com.kapitalrs.pro.jpg
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2023-05-21
 signer: 
 reviewArchive: 

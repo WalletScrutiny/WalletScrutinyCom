@@ -20,6 +20,7 @@ icon: com.bitwyre.bitwyreapp.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-09-04
 signer: 
 reviewArchive: 

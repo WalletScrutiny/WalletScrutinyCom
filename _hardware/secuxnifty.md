@@ -25,6 +25,7 @@ icon: secuxnifty.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2023-02-02
 signer: 
 reviewArchive: 

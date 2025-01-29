@@ -21,6 +21,7 @@ icon: com.cindicator.png
 bugbounty: 
 meta: obsolete
 verdict: nowallet
+appHashes: 
 date: 2023-02-08
 signer: 
 reviewArchive: 

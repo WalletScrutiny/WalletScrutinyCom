@@ -20,6 +20,7 @@ icon: net.novawallet.ios.jpg
 bugbounty: 
 meta: obsolete
 verdict: nosource
+appHashes: 
 date: 2024-07-19
 signer: 
 reviewArchive: 

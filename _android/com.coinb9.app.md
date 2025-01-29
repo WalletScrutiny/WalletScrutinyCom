@@ -21,6 +21,7 @@ icon: com.coinb9.app.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2023-07-08
 signer: 
 reviewArchive: 

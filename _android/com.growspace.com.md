@@ -21,6 +21,7 @@ icon: com.growspace.com.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2025-01-09
 signer: 
 reviewArchive: 

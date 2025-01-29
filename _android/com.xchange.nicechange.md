@@ -21,6 +21,7 @@ icon: com.xchange.nicechange.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-10-10
 signer: 
 reviewArchive: 

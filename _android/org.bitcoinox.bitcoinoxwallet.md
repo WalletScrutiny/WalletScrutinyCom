@@ -21,6 +21,7 @@ icon: org.bitcoinox.bitcoinoxwallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2024-12-23
 signer: 
 reviewArchive: 

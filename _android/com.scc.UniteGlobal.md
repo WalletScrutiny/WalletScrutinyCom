@@ -20,6 +20,7 @@ icon: com.scc.UniteGlobal.png
 bugbounty: 
 meta: obsolete
 verdict: fewusers
+appHashes: 
 date: 2023-06-02
 signer: 
 reviewArchive: 

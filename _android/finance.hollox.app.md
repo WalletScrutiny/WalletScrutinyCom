@@ -21,6 +21,7 @@ icon: finance.hollox.app.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-09-28
 signer: 
 reviewArchive: 

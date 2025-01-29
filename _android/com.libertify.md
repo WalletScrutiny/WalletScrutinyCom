@@ -21,6 +21,7 @@ icon: com.libertify.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2024-11-29
 signer: 
 reviewArchive: 

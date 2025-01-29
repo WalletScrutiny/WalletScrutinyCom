@@ -21,6 +21,7 @@ icon: com.app.treenwallet.png
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2024-04-03
 signer: 
 reviewArchive: 

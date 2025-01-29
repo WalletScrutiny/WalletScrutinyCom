@@ -23,6 +23,7 @@ icon: corazon.png
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2022-11-26
 signer: 
 reviewArchive: 

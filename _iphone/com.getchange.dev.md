@@ -20,6 +20,7 @@ icon: com.getchange.dev.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2022-01-04
 signer: 
 reviewArchive: 

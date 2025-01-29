@@ -20,6 +20,7 @@ icon: com.lyo.trade.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2023-10-16
 signer: 
 reviewArchive: 

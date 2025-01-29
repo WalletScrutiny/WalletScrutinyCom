@@ -10,8 +10,8 @@ idd: '1609711640'
 released: 2022-03-04
 updated: 2024-06-20
 version: 6.2.5
-stars: 4.3
-reviews: 876
+stars: 4.4
+reviews: 890
 size: '97037312'
 website: https://breet.app
 repository: 
@@ -20,6 +20,7 @@ icon: com.app.breet.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive
+appHashes: 
 date: 2023-07-19
 signer: 
 reviewArchive: 

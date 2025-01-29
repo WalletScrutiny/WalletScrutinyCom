@@ -21,6 +21,7 @@ icon: perfect.currency.exchange.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2023-06-21
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.roostoo.roostoo.png
 bugbounty: 
 meta: stale
 verdict: nowallet
+appHashes: 
 date: 2024-04-09
 signer: 
 reviewArchive: 

@@ -22,6 +22,7 @@ icon: com.defiwalletmobile.png
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2024-09-12
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.CapiteraAG.Welthee.jpg
 bugbounty: 
 meta: stale
 verdict: nobtc
+appHashes: 
 date: 2024-10-06
 signer: 
 reviewArchive: 

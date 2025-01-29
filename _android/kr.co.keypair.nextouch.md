@@ -20,6 +20,7 @@ icon: kr.co.keypair.nextouch.png
 bugbounty: 
 meta: removed
 verdict: nosource
+appHashes: 
 date: 2024-10-19
 signer: 
 reviewArchive: 

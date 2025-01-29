@@ -11,9 +11,9 @@ appCountry:
 released: 2018-08-28
 updated: 2025-01-10
 version: 3.33.0
-stars: 4.5
+stars: 4.6
 ratings: 5008
-reviews: 946
+reviews: 992
 size: 
 website: https://changelly.com/
 repository: 
@@ -22,6 +22,7 @@ icon: com.changelly.app.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2021-11-01
 signer: 
 reviewArchive: 

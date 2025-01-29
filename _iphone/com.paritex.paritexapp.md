@@ -20,6 +20,7 @@ icon: com.paritex.paritexapp.jpg
 bugbounty: 
 meta: defunct
 verdict: custodial
+appHashes: 
 date: 2023-04-16
 signer: 
 reviewArchive: 

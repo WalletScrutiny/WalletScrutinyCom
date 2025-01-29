@@ -21,6 +21,7 @@ icon: com.bitqik.png
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-09-01
 signer: 
 reviewArchive: 

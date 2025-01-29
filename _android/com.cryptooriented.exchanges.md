@@ -20,6 +20,7 @@ icon: com.cryptooriented.exchanges.png
 bugbounty: 
 meta: obsolete
 verdict: fewusers
+appHashes: 
 date: 2023-12-31
 signer: 
 reviewArchive: 

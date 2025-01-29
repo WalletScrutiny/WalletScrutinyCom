@@ -21,6 +21,7 @@ icon: com.tradesanta.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2024-08-15
 signer: 
 reviewArchive: 

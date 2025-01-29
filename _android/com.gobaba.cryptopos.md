@@ -20,6 +20,7 @@ icon: com.gobaba.cryptopos.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2021-12-05
 signer: 
 reviewArchive: 

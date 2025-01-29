@@ -20,6 +20,7 @@ icon: io.coinCap.coinCap.jpg
 bugbounty: 
 meta: obsolete
 verdict: nowallet
+appHashes: 
 date: 2023-10-06
 signer: 
 reviewArchive: 

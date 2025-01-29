@@ -21,6 +21,7 @@ icon: position.exchange.png
 bugbounty: 
 meta: stale
 verdict: nobtc
+appHashes: 
 date: 2024-03-15
 signer: 
 reviewArchive: 

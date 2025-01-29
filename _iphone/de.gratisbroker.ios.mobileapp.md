@@ -11,7 +11,7 @@ released: 2021-06-07
 updated: 2024-09-25
 version: 4.27.2
 stars: 4.7
-reviews: 16067
+reviews: 16522
 size: '128691200'
 website: https://www.finanzen.net/zero/
 repository: 
@@ -20,6 +20,7 @@ icon: de.gratisbroker.ios.mobileapp.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive
+appHashes: 
 date: 2023-03-02
 signer: 
 reviewArchive: 

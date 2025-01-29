@@ -21,6 +21,7 @@ icon: com.flashratings.hodl.png
 bugbounty: 
 meta: stale
 verdict: nowallet
+appHashes: 
 date: 2024-09-11
 signer: 
 reviewArchive: 

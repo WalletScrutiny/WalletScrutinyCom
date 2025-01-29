@@ -21,6 +21,7 @@ icon: com.token.lpnt.png
 bugbounty: 
 meta: stale
 verdict: nosource
+appHashes: 
 date: 2024-06-09
 signer: 
 reviewArchive: 

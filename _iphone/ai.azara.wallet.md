@@ -20,6 +20,7 @@ icon: ai.azara.wallet.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2023-01-11
 signer: 
 reviewArchive: 

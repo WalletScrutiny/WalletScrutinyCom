@@ -21,6 +21,7 @@ icon: com.litewallet.app.png
 bugbounty: 
 meta: removed
 verdict: nosource
+appHashes: 
 date: 2024-07-19
 signer: 
 reviewArchive: 

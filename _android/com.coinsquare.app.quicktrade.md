@@ -8,8 +8,8 @@ users: 100000
 appId: com.coinsquare.app.quicktrade
 appCountry: 
 released: 2022-11-02
-updated: 2024-12-11
-version: 5.0.7
+updated: 2025-01-20
+version: 5.0.8
 stars: 4.2
 ratings: 
 reviews: 4
@@ -21,6 +21,7 @@ icon: com.coinsquare.app.quicktrade.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-09-07
 signer: 
 reviewArchive: 

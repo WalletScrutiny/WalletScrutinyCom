@@ -20,6 +20,7 @@ icon: org.bitcoincrypto.bitcoin.revolution.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2021-09-23
 signer: 
 reviewArchive: 

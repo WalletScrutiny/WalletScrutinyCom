@@ -21,6 +21,7 @@ icon: com.arzjoo.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-11-04
 signer: 
 reviewArchive: 

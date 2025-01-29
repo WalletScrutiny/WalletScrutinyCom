@@ -21,6 +21,7 @@ icon: com.burency.app.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2021-12-05
 signer: 
 reviewArchive: 

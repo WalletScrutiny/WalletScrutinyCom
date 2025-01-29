@@ -21,6 +21,7 @@ icon: com.allcoinwallet.allcoinwallet.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2021-08-09
 signer: 
 reviewArchive: 

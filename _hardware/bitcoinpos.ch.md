@@ -22,6 +22,7 @@ icon:
 bugbounty: 
 meta: defunct
 verdict: nowallet
+appHashes: 
 date: 2022-04-04
 signer: 
 reviewArchive: 

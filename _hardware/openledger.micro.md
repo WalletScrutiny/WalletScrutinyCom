@@ -23,6 +23,7 @@ icon: openledger.micro.png
 bugbounty: 
 meta: ok
 verdict: diy
+appHashes: 
 date: 2022-05-19
 signer: 
 reviewArchive: 

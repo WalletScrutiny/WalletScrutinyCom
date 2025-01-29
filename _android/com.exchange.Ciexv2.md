@@ -21,6 +21,7 @@ icon: com.exchange.Ciexv2.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-05-30
 signer: 
 reviewArchive: 

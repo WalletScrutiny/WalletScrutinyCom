@@ -22,6 +22,7 @@ icon: seedhammer.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-04-04
 signer: 
 reviewArchive: 

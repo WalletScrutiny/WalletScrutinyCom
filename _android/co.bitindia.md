@@ -20,6 +20,7 @@ icon: co.bitindia.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2021-10-18
 signer: 
 reviewArchive: 

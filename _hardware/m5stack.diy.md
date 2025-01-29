@@ -22,6 +22,7 @@ icon:
 bugbounty: 
 meta: obsolete
 verdict: diy
+appHashes: 
 date: 2022-05-17
 signer: 
 reviewArchive: 

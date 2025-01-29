@@ -22,6 +22,7 @@ icon: lightning.tipcards.png
 bugbounty: 
 meta: ok
 verdict: diy
+appHashes: 
 date: 2023-03-03
 signer: 
 reviewArchive: 

@@ -10,8 +10,8 @@ idd: '1410685948'
 released: 2018-08-22
 updated: 2025-01-05
 version: 4.9.2
-stars: 1.8
-reviews: 9
+stars: 2.9
+reviews: 20
 size: '89939968'
 website: https://plutus.it
 repository: 
@@ -20,6 +20,7 @@ icon: com.blockcode.plutus.tappay.jpg
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2023-12-14
 signer: 
 reviewArchive: 

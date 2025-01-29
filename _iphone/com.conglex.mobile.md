@@ -20,6 +20,7 @@ icon: com.conglex.mobile.jpg
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-03-02
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: io.hexn.mobile.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-07-17
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: chukstem.xcoinance.jpg
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-12-31
 signer: 
 reviewArchive: 

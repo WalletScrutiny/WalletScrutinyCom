@@ -20,6 +20,7 @@ icon: pt.ipleiria.estg.dei.yabw.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2021-10-18
 signer: 
 reviewArchive: 

@@ -19,9 +19,10 @@ repository:
 issue: 
 icon: com.bitrah.pos.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2024-02-05
+appHashes: 
+date: 2025-01-27
 signer: 
 reviewArchive: 
 twitter: 

@@ -20,6 +20,7 @@ icon: com.oduwatrustwallet.ios.jpg
 bugbounty: 
 meta: obsolete
 verdict: nosource
+appHashes: 
 date: 2024-08-26
 signer: 
 reviewArchive: 

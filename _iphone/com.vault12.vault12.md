@@ -11,7 +11,7 @@ released: 2019-08-28
 updated: 2024-12-19
 version: 2.5.3
 stars: 4.5
-reviews: 28
+reviews: 29
 size: '86545408'
 website: https://vault12.com/guard
 repository: https://github.com/vault12
@@ -20,6 +20,7 @@ icon: com.vault12.vault12.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-03-23
 signer: 
 reviewArchive: 

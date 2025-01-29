@@ -21,6 +21,7 @@ icon: com.fibitpro.fibitapp.png
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-10-19
 signer: 
 reviewArchive: 

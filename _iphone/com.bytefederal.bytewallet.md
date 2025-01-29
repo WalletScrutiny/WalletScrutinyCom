@@ -11,7 +11,7 @@ released: 2021-07-27
 updated: 2024-11-27
 version: 1.6.0.4
 stars: 3.5
-reviews: 41
+reviews: 43
 size: '101822464'
 website: https://www.bytefederal.com/
 repository: 
@@ -20,6 +20,7 @@ icon: com.bytefederal.bytewallet.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2023-05-05
 signer: 
 reviewArchive: 

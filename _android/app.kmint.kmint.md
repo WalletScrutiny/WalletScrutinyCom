@@ -21,6 +21,7 @@ icon: app.kmint.kmint.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2023-03-07
 signer: 
 reviewArchive: 

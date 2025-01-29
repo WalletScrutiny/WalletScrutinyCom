@@ -20,6 +20,7 @@ icon: com.cointral.exchange.jpg
 bugbounty: 
 meta: defunct
 verdict: custodial
+appHashes: 
 date: 2023-01-11
 signer: 
 reviewArchive: 

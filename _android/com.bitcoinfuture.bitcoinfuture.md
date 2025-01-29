@@ -21,6 +21,7 @@ icon: com.bitcoinfuture.bitcoinfuture.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-11-01
 signer: 
 reviewArchive: 

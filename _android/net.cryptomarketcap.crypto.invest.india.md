@@ -20,6 +20,7 @@ icon: net.cryptomarketcap.crypto.invest.india.jpg
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2021-08-13
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.im.tech.imcard.jpg
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-08-31
 signer: 
 reviewArchive: 

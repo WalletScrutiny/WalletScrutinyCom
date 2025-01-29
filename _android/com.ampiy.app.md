@@ -20,6 +20,7 @@ icon: com.ampiy.app.png
 bugbounty: 
 meta: ok
 verdict: fewusers
+appHashes: 
 date: 2022-07-31
 signer: 
 reviewArchive: 

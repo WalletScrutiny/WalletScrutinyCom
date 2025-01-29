@@ -21,6 +21,7 @@ icon: com.prodoge.prodoge.png
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2024-07-25
 signer: 
 reviewArchive: 

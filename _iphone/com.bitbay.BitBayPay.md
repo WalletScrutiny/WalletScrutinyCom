@@ -20,6 +20,7 @@ icon: com.bitbay.BitBayPay.jpg
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2025-01-06
 signer: 
 reviewArchive: 

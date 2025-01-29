@@ -21,6 +21,7 @@ icon: io.smcc.sccwallet.png
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2021-10-30
 signer: 
 reviewArchive: 

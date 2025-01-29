@@ -25,6 +25,7 @@ icon: pixel3a.samourai.png
 bugbounty: 
 meta: ok
 verdict: diy
+appHashes: 
 date: 2022-05-03
 signer: 
 reviewArchive: 

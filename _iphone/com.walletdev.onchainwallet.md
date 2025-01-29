@@ -21,6 +21,7 @@ icon: com.walletdev.onchainwallet.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
+appHashes: 
 date: 2023-09-28
 signer: 
 reviewArchive: 

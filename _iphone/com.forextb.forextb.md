@@ -20,6 +20,7 @@ icon: com.forextb.forextb.jpg
 bugbounty: 
 meta: removed
 verdict: nosendreceive
+appHashes: 
 date: 2024-02-05
 signer: 
 reviewArchive: 

@@ -26,6 +26,7 @@ icon: coldlarpro3.png
 bugbounty: 
 meta: discontinued
 verdict: nosource
+appHashes: 
 date: 2024-12-08
 signer: 
 reviewArchive: 

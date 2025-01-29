@@ -22,6 +22,7 @@ icon: kensedgwic.lightningpaystation.png
 bugbounty: 
 meta: obsolete
 verdict: nowallet
+appHashes: 
 date: 2022-05-21
 signer: 
 reviewArchive: 

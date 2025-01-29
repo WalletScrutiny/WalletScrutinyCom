@@ -22,6 +22,7 @@ icon: bitorigo.origokey.png
 bugbounty: 
 meta: ok
 verdict: vapor
+appHashes: 
 date: 2022-04-29
 signer: 
 reviewArchive: 

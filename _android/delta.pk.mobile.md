@@ -21,6 +21,7 @@ icon: delta.pk.mobile.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
+appHashes: 
 date: 2023-08-30
 signer: 
 reviewArchive: 

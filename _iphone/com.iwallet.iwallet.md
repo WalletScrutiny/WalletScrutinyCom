@@ -21,6 +21,7 @@ icon: com.iwallet.iwallet.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
+appHashes: 
 date: 2022-05-26
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.zsdk.exchange.png
 bugbounty: 
 meta: obsolete
 verdict: custodial
+appHashes: 
 date: 2024-09-26
 signer: 
 reviewArchive: 

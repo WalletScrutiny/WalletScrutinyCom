@@ -21,6 +21,7 @@ icon: com.ruby.coin.png
 bugbounty: 
 meta: defunct
 verdict: custodial
+appHashes: 
 date: 2023-11-02
 signer: 
 reviewArchive: 

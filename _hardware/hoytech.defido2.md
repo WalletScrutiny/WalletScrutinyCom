@@ -22,6 +22,7 @@ icon: hoytech.defido2.png
 bugbounty: 
 meta: stale
 verdict: nobtc
+appHashes: 
 date: 2022-05-26
 signer: 
 reviewArchive: 

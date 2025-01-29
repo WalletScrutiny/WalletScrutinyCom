@@ -20,6 +20,7 @@ icon: net.treeum.multi.invest.jpg
 bugbounty: 
 meta: ok
 verdict: wip
+appHashes: 
 date: 2024-06-09
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.ninja.ninjapay.me.png
 bugbounty: 
 meta: stale
 verdict: fewusers
+appHashes: 
 date: 2024-11-19
 signer: 
 reviewArchive: 

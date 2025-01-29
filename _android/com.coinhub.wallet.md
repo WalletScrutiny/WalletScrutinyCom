@@ -21,6 +21,7 @@ icon: com.coinhub.wallet.png
 bugbounty: 
 meta: stale
 verdict: nosource
+appHashes: 
 date: 2024-05-15
 signer: 
 reviewArchive: 

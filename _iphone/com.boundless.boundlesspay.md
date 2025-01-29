@@ -11,7 +11,7 @@ released: 2021-12-28
 updated: 2024-06-10
 version: 2.2.9
 stars: 4.3
-reviews: 67
+reviews: 68
 size: '36643840'
 website: https://www.boundlesspay.com
 repository: 
@@ -20,6 +20,7 @@ icon: com.boundless.boundlesspay.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-04-14
 signer: 
 reviewArchive: 

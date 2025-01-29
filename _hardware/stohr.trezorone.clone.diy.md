@@ -22,6 +22,7 @@ icon: stohr.trezorone.clone.diy.png
 bugbounty: 
 meta: ok
 verdict: diy
+appHashes: 
 date: 2022-11-10
 signer: 
 reviewArchive: 

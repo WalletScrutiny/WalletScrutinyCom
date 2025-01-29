@@ -20,6 +20,7 @@ icon: com.masterbitexpress.wallet.png
 bugbounty: 
 meta: ok
 verdict: fewusers
+appHashes: 
 date: 2024-08-19
 signer: 
 reviewArchive: 

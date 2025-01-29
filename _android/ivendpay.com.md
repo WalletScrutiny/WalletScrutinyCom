@@ -21,6 +21,7 @@ icon: ivendpay.com.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-08-31
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.signalfinancialfcu.signalfinancialfcu.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-08-28
 signer: 
 reviewArchive: 

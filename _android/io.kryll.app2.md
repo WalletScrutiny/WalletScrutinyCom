@@ -21,6 +21,7 @@ icon: io.kryll.app2.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-09-05
 signer: 
 reviewArchive: 

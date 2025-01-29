@@ -1,6 +1,6 @@
 ---
 wsId: metaOneNFT
-title: 'Saakuru: All-in-one Crypto App'
+title: Saakuru  App
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 100000
 appId: ventures.aag.metaone
 appCountry: 
 released: 2022-12-22
-updated: 2024-11-19
-version: 6.0.0
+updated: 2025-01-21
+version: 6.1.0
 stars: 4.2
 ratings: 
 reviews: 15
@@ -21,6 +21,7 @@ icon: ventures.aag.metaone.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-07-02
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: btctrade.BTCBOX.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-04-19
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: xyz.mara.wallet.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-07-05
 signer: 
 reviewArchive: 

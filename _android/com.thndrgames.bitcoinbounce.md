@@ -12,7 +12,7 @@ updated: 2024-07-10
 version: 1.22.0
 stars: 4.6
 ratings: 1913
-reviews: 395
+reviews: 397
 size: 
 website: http://thndr.games
 repository: 
@@ -21,6 +21,7 @@ icon: com.thndrgames.bitcoinbounce.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2021-11-01
 signer: 
 reviewArchive: 

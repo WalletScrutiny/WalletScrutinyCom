@@ -20,6 +20,7 @@ icon: com.digifinex.app.jpg
 bugbounty: 
 meta: defunct
 verdict: custodial
+appHashes: 
 date: 2022-10-21
 signer: 
 reviewArchive: 

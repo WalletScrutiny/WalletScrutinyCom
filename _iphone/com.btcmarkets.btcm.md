@@ -20,6 +20,7 @@ icon: com.btcmarkets.btcm.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-04-20
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.vipsfinstock.vipsapp.png
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-09-26
 signer: 
 reviewArchive: 

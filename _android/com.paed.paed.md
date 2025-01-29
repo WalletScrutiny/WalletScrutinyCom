@@ -20,6 +20,7 @@ icon: com.paed.paed.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-07-22
 signer: 
 reviewArchive: 

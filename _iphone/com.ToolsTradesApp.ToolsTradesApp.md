@@ -20,6 +20,7 @@ icon: com.ToolsTradesApp.ToolsTradesApp.jpg
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2023-09-28
 signer: 
 reviewArchive: 

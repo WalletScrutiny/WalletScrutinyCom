@@ -20,6 +20,7 @@ icon: online.figcoin.figvault.jpg
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2022-01-31
 signer: 
 reviewArchive: 

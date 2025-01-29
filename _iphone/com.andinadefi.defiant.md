@@ -20,6 +20,7 @@ icon: com.andinadefi.defiant.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2021-11-15
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.unodax.exchange.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2022-04-07
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.pallapay.application.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
+appHashes: 
 date: 2024-04-28
 signer: 
 reviewArchive: 

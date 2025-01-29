@@ -11,7 +11,7 @@ released: 2021-10-06
 updated: 2024-10-28
 version: 2.19.0
 stars: 3.8
-reviews: 280
+reviews: 279
 size: '253579264'
 website: https://hi.com/
 repository: 
@@ -20,6 +20,7 @@ icon: com.hidollars.app.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-10-07
 signer: 
 reviewArchive: 

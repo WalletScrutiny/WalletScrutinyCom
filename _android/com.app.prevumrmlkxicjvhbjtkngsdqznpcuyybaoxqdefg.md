@@ -21,6 +21,7 @@ icon: com.app.prevumrmlkxicjvhbjtkngsdqznpcuyybaoxqdefg.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2023-09-15
 signer: 
 reviewArchive: 

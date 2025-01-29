@@ -4,15 +4,15 @@ title: 'iMe: AI Messenger for Telegram'
 altTitle: 
 authors:
 - danny
-users: 1000000
+users: 5000000
 appId: com.iMe.android
 appCountry: 
 released: 2019-07-22
-updated: 2024-12-28
-version: 11.5.5
+updated: 2025-01-24
+version: 11.5.6
 stars: 4.6
 ratings: 
-reviews: 629
+reviews: 638
 size: 
 website: https://www.imem.app
 repository: https://github.com/imemessenger/iMe-Android
@@ -21,6 +21,7 @@ icon: com.iMe.android.png
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2024-09-07
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.101investing.jpg
 bugbounty: 
 meta: removed
 verdict: nosendreceive
+appHashes: 
 date: 2022-04-07
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.cexchange.app.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-11-15
 signer: 
 reviewArchive: 

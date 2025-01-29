@@ -20,6 +20,7 @@ icon: com.defichain.app.dfx.jpg
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2023-08-04
 signer: 
 reviewArchive: 

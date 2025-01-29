@@ -21,6 +21,7 @@ icon: com.pocketbits.png
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-08-26
 signer: 
 reviewArchive: 

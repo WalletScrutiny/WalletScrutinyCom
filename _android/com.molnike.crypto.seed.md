@@ -20,6 +20,7 @@ icon: com.molnike.crypto.seed.png
 bugbounty: 
 meta: stale
 verdict: wip
+appHashes: 
 date: 2024-02-24
 signer: 
 reviewArchive: 

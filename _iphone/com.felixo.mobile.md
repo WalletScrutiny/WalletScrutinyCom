@@ -20,6 +20,7 @@ icon: com.felixo.mobile.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-10-08
 signer: 
 reviewArchive: 

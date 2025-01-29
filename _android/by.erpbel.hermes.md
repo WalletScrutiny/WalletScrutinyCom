@@ -21,6 +21,7 @@ icon: by.erpbel.hermes.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-08-09
 signer: 
 reviewArchive: 

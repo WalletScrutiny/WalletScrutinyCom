@@ -11,7 +11,7 @@ released: 2021-04-02
 updated: 2022-01-21
 version: 1.1.1
 stars: 4.6
-reviews: 634
+reviews: 633
 size: '119739392'
 website: https://coincircle.com
 repository: 
@@ -20,6 +20,7 @@ icon: com.coincircle.app.jpg
 bugbounty: 
 meta: obsolete
 verdict: nosource
+appHashes: 
 date: 2024-01-16
 signer: 
 reviewArchive: 

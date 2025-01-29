@@ -21,6 +21,7 @@ icon: co.asachs.bitbuddy.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2023-05-10
 signer: 
 reviewArchive: 

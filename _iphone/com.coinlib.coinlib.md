@@ -20,6 +20,7 @@ icon: com.coinlib.coinlib.jpg
 bugbounty: 
 meta: obsolete
 verdict: nowallet
+appHashes: 
 date: 2023-03-30
 signer: 
 reviewArchive: 

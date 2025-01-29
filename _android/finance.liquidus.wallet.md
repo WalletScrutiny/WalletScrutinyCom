@@ -21,6 +21,7 @@ icon: finance.liquidus.wallet.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2023-08-18
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: io.ledn.app.png
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-08-19
 signer: 
 reviewArchive: 

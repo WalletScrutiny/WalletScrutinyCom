@@ -20,6 +20,7 @@ icon: io.timexapp.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-11-29
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.bitcoin.bankwallet.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2024-11-04
 signer: 
 reviewArchive: 

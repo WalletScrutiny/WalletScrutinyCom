@@ -20,6 +20,7 @@ icon: com.ittoken.appos.jpg
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-07-05
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.lyo.merchant.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-09-28
 signer: 
 reviewArchive: 

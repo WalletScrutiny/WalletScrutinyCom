@@ -20,6 +20,7 @@ icon: com.app.alcoin4naira.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-05-30
 signer: 
 reviewArchive: 

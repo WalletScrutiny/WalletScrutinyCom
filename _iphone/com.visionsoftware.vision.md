@@ -21,6 +21,7 @@ icon: com.visionsoftware.vision.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
+appHashes: 
 date: 2024-07-17
 signer: 
 reviewArchive: 

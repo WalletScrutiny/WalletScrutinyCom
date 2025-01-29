@@ -20,6 +20,7 @@ icon: com.coins.black.exchanger.png
 bugbounty: 
 meta: ok
 verdict: fewusers
+appHashes: 
 date: 2023-12-13
 signer: 
 reviewArchive: 

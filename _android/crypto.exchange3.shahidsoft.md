@@ -20,6 +20,7 @@ icon: crypto.exchange3.shahidsoft.jpg
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-02-05
 signer: 
 reviewArchive: 

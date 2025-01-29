@@ -20,6 +20,7 @@ icon: com.gopop.png
 bugbounty: 
 meta: stale
 verdict: fewusers
+appHashes: 
 date: 2024-10-02
 signer: 
 reviewArchive: 

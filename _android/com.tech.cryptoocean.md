@@ -20,6 +20,7 @@ icon: com.tech.cryptoocean.png
 bugbounty: 
 meta: obsolete
 verdict: fewusers
+appHashes: 
 date: 2024-08-08
 signer: 
 reviewArchive: 

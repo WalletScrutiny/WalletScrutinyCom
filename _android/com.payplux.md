@@ -21,6 +21,7 @@ icon: com.payplux.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2024-11-04
 signer: 
 reviewArchive: 

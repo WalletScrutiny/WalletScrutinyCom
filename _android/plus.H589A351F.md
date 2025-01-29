@@ -20,6 +20,7 @@ icon: plus.H589A351F.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-08-25
 signer: 
 reviewArchive: 

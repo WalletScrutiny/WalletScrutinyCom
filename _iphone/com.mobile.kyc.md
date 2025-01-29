@@ -20,6 +20,7 @@ icon: com.mobile.kyc.jpg
 bugbounty: 
 meta: obsolete
 verdict: nosource
+appHashes: 
 date: 2024-10-23
 signer: 
 reviewArchive: 

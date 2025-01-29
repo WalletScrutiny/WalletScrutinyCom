@@ -20,6 +20,7 @@ icon: app.bitcoin_pro928837.mobile.jpg
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-12-19
 signer: 
 reviewArchive: 

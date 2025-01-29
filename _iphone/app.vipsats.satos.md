@@ -20,6 +20,7 @@ icon: app.vipsats.satos.jpg
 bugbounty: 
 meta: ok
 verdict: wip
+appHashes: 
 date: 2023-09-06
 signer: 
 reviewArchive: 

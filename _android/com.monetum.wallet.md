@@ -20,6 +20,7 @@ icon: com.monetum.wallet.png
 bugbounty: 
 meta: obsolete
 verdict: fewusers
+appHashes: 
 date: 2024-08-31
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.trader.finq.jpg
 bugbounty: 
 meta: obsolete
 verdict: nosendreceive
+appHashes: 
 date: 2022-07-11
 signer: 
 reviewArchive: 

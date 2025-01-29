@@ -21,6 +21,7 @@ icon: com.orbitnetwork.png
 bugbounty: 
 meta: obsolete
 verdict: nosendreceive
+appHashes: 
 date: 2023-08-15
 signer: 
 reviewArchive: 

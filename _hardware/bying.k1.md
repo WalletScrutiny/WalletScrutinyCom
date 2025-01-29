@@ -25,6 +25,7 @@ icon: bying.k1.png
 bugbounty: 
 meta: defunct
 verdict: vapor
+appHashes: 
 date: 2024-10-18
 signer: 
 reviewArchive: 

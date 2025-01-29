@@ -21,6 +21,7 @@ icon: com.frontierwallet.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2022-01-12
 signer: 
 reviewArchive: 

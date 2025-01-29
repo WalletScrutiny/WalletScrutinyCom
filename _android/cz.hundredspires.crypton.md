@@ -21,6 +21,7 @@ icon: cz.hundredspires.crypton.png
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2023-08-04
 signer: 
 reviewArchive: 

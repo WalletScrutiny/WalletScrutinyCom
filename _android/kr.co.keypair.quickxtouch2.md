@@ -20,6 +20,7 @@ icon: kr.co.keypair.quickxtouch2.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2022-03-07
 signer: 
 reviewArchive: 

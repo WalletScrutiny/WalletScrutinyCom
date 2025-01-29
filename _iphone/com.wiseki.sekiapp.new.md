@@ -10,8 +10,8 @@ idd: '1622624126'
 released: 2022-06-22
 updated: 2024-10-01
 version: 2.2.8
-stars: 4.3
-reviews: 55
+stars: 4.4
+reviews: 57
 size: '122419200'
 website: 
 repository: 
@@ -20,6 +20,7 @@ icon: com.wiseki.sekiapp.new.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-08-14
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: vip.trcoin.global.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-09-16
 signer: 
 reviewArchive: 

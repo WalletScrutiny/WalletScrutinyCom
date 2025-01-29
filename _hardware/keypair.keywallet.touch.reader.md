@@ -25,6 +25,7 @@ icon: keypair.keywallet.touch.reader.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2022-05-19
 signer: 
 reviewArchive: 

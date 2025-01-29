@@ -21,6 +21,7 @@ icon: sc.elitewallet.elitewallet.png
 bugbounty: 
 meta: removed
 verdict: ftbfs
+appHashes: 
 date: 2024-07-10
 signer: 
 reviewArchive: 

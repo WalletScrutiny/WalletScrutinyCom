@@ -21,6 +21,7 @@ icon: com.hashkey.me.google.png
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-07-03
 signer: 
 reviewArchive: 

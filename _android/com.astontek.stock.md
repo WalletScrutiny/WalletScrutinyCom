@@ -8,11 +8,11 @@ users: 100000
 appId: com.astontek.stock
 appCountry: us
 released: 2020-03-16
-updated: 2024-12-08
-version: '7.41'
+updated: 2025-01-26
+version: '7.43'
 stars: 4.7
 ratings: 2711
-reviews: 1010
+reviews: 1015
 size: 
 website: https://finabase.io
 repository: 
@@ -21,6 +21,7 @@ icon: com.astontek.stock.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2021-10-10
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.monetum.quicktrade.png
 bugbounty: 
 meta: stale
 verdict: fewusers
+appHashes: 
 date: 2024-03-19
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.clubswan.app2.clubswan.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
+appHashes: 
 date: 2023-11-02
 signer: 
 reviewArchive: 

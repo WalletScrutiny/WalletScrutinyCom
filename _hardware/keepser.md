@@ -25,6 +25,7 @@ icon: keepser.png
 bugbounty: 
 meta: ok
 verdict: plainkey
+appHashes: 
 date: 2023-12-14
 signer: 
 reviewArchive: 

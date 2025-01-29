@@ -21,6 +21,7 @@ icon: ch.smd.icynote.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-07-14
 signer: 
 reviewArchive: 

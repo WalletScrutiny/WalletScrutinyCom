@@ -20,6 +20,7 @@ icon: com.boquanhash.dotwallet.jpg
 bugbounty: 
 meta: stale
 verdict: nosource
+appHashes: 
 date: 2024-05-18
 signer: 
 reviewArchive: 

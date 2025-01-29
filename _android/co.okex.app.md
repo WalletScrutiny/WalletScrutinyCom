@@ -12,7 +12,7 @@ updated: 2025-01-12
 version: 7.2.9
 stars: 4.5
 ratings: 7353
-reviews: 378
+reviews: 375
 size: 
 website: https://ok-ex.co
 repository: 
@@ -23,8 +23,8 @@ meta: ok
 verdict: custodial
 appHashes: []
 date: 2021-10-01
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: 
 social: 
 redirect_from:

@@ -20,6 +20,7 @@ icon: io.stormx.ios.jpg
 bugbounty: 
 meta: stale
 verdict: nowallet
+appHashes: 
 date: 2024-09-22
 signer: 
 reviewArchive: 

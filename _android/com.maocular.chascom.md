@@ -20,6 +20,7 @@ icon: com.maocular.chascom.jpg
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-02-05
 signer: 
 reviewArchive: 

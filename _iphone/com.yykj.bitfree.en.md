@@ -20,6 +20,7 @@ icon: com.yykj.bitfree.en.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
+appHashes: 
 date: 2024-12-08
 signer: 
 reviewArchive: 

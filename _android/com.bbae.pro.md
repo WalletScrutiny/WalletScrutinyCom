@@ -21,6 +21,7 @@ icon: com.bbae.pro.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-04-20
 signer: 
 reviewArchive: 

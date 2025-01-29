@@ -21,6 +21,7 @@ icon: com.Richhantek.Blockchain.png
 bugbounty: 
 meta: defunct
 verdict: nowallet
+appHashes: 
 date: 2023-05-22
 signer: 
 reviewArchive: 

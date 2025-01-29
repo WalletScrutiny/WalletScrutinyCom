@@ -21,6 +21,7 @@ icon: com.exolix.app.jpg
 bugbounty: 
 meta: stale
 verdict: nowallet
+appHashes: 
 date: 2024-08-16
 signer: 
 reviewArchive: 

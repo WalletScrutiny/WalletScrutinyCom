@@ -20,6 +20,7 @@ icon: com.harungoker.bitcrypto.png
 bugbounty: 
 meta: obsolete
 verdict: fewusers
+appHashes: 
 date: 2024-06-17
 signer: 
 reviewArchive: 

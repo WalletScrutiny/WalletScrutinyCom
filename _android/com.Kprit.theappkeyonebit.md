@@ -21,6 +21,7 @@ icon: com.Kprit.theappkeyonebit.png
 bugbounty: 
 meta: removed
 verdict: fake
+appHashes: 
 date: 2023-06-21
 signer: 
 reviewArchive: 

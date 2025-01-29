@@ -11,7 +11,7 @@ released: 2021-12-15
 updated: 2024-12-11
 version: 2.1.17
 stars: 4.8
-reviews: 176
+reviews: 177
 size: '43649024'
 website: https://xprnetwork.org/
 repository: 
@@ -20,6 +20,7 @@ icon: com.metallicus.webauth.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2023-07-06
 signer: 
 reviewArchive: 

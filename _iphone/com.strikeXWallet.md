@@ -11,7 +11,7 @@ released: 2022-10-21
 updated: 2024-10-09
 version: '20.02'
 stars: 4.8
-reviews: 228
+reviews: 229
 size: '87983104'
 website: 
 repository: 
@@ -20,6 +20,7 @@ icon: com.strikeXWallet.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2023-06-30
 signer: 
 reviewArchive: 

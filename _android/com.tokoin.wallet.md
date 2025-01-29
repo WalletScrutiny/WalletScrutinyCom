@@ -21,6 +21,7 @@ icon: com.tokoin.wallet.png
 bugbounty: 
 meta: stale
 verdict: nosource
+appHashes: 
 date: 2024-08-13
 signer: 
 reviewArchive: 

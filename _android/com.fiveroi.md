@@ -21,6 +21,7 @@ icon: com.fiveroi.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2023-02-22
 signer: 
 reviewArchive: 

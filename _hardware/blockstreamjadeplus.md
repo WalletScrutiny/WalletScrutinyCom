@@ -25,6 +25,7 @@ icon: blockstreamjadeplus.png
 bugbounty: 
 meta: ok
 verdict: wip
+appHashes: 
 date: 2025-01-04
 signer: 
 reviewArchive: 

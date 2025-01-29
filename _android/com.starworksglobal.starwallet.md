@@ -21,6 +21,7 @@ icon: com.starworksglobal.starwallet.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2023-08-14
 signer: 
 reviewArchive: 

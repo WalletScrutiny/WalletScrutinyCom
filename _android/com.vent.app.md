@@ -12,7 +12,7 @@ updated: 2025-01-13
 version: 1.10.6
 stars: 4.9
 ratings: 
-reviews: 4
+reviews: 5
 size: 
 website: https://vent.africa
 repository: 
@@ -21,6 +21,7 @@ icon: com.vent.app.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-06-10
 signer: 
 reviewArchive: 

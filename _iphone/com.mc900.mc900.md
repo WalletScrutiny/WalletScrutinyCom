@@ -20,6 +20,7 @@ icon: com.mc900.mc900.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-07-06
 signer: 
 reviewArchive: 

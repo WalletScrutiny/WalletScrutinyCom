@@ -21,6 +21,7 @@ icon: com.chainup.exchange.ProEX2.png
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-11-23
 signer: 
 reviewArchive: 

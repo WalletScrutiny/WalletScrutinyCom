@@ -20,6 +20,7 @@ icon: com.npbfx.app.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive
+appHashes: 
 date: 2024-10-28
 signer: 
 reviewArchive: 

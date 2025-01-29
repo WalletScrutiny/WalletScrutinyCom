@@ -25,6 +25,7 @@ icon: lubanso.png
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2023-03-03
 signer: 
 reviewArchive: 

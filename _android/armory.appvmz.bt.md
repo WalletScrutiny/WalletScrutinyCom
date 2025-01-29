@@ -20,6 +20,7 @@ icon: armory.appvmz.bt.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-01-11
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.bituro.android.bituro.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2021-11-01
 signer: 
 reviewArchive: 

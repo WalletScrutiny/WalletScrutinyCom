@@ -21,6 +21,7 @@ icon: com.application.inocyx.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-12-31
 signer: 
 reviewArchive: 

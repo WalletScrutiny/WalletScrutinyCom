@@ -21,6 +21,7 @@ icon: com.globiance.android.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-07-20
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: mobi.androapp.asellmybitcoin4cash.c8927.jpg
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-07-05
 signer: 
 reviewArchive: 

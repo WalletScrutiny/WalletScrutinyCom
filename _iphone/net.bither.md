@@ -24,8 +24,8 @@ meta: ok
 verdict: obfuscated
 appHashes: []
 date: 2024-10-09
-signer:
-reviewArchive:
+signer: 
+reviewArchive: 
 twitter: 
 social: 
 features: 

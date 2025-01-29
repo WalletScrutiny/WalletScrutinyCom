@@ -21,6 +21,7 @@ icon: com.safle.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2023-07-30
 signer: 
 reviewArchive: 

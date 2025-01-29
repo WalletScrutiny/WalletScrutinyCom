@@ -25,6 +25,7 @@ icon: chelpis.kelvinwallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2022-11-25
 signer: 
 reviewArchive: 

@@ -22,6 +22,7 @@ icon: cryptowatch.png
 bugbounty: 
 meta: ok
 verdict: vapor
+appHashes: 
 date: 2022-04-11
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.ldvtech.tokero.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-04-28
 signer: 
 reviewArchive: 

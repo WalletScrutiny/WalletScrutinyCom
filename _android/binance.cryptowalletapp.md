@@ -20,6 +20,7 @@ icon: binance.cryptowalletapp.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2021-05-05
 signer: 
 reviewArchive: 

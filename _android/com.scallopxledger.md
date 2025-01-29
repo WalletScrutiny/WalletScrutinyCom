@@ -1,6 +1,6 @@
 ---
 wsId: scallopApp
-title: Scallop
+title: E Money Network
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 5000
 appId: com.scallopxledger
 appCountry: 
 released: 2021-11-28
-updated: 2023-09-02
-version: 1.2.7
+updated: 2025-01-24
+version: 1.4.3
 stars: 3.1
 ratings: 
 reviews: 9
@@ -19,9 +19,10 @@ repository:
 issue: 
 icon: com.scallopxledger.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2024-08-31
+appHashes: 
+date: 2025-01-27
 signer: 
 reviewArchive: 
 twitter: ScallopOfficial

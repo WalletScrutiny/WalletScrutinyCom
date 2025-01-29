@@ -20,6 +20,7 @@ icon: com.etomato.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2023-04-12
 signer: 
 reviewArchive: 

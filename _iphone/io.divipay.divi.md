@@ -20,6 +20,7 @@ icon: io.divipay.divi.jpg
 bugbounty: 
 meta: stale
 verdict: nosource
+appHashes: 
 date: 2024-08-31
 signer: 
 reviewArchive: 

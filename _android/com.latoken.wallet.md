@@ -21,6 +21,7 @@ icon: com.latoken.wallet.png
 bugbounty: https://hackenproof.com/latoken/latoken-exchange
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-09-16
 signer: 
 reviewArchive: 

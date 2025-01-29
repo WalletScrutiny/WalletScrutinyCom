@@ -22,6 +22,7 @@ icon: sirishmk.blocule.png
 bugbounty: 
 meta: defunct
 verdict: nobtc
+appHashes: 
 date: 2022-05-23
 signer: 
 reviewArchive: 
