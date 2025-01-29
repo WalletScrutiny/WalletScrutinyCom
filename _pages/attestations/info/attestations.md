@@ -22,6 +22,8 @@ pre {
 }
 </style>
 
+<script type="text/javascript" src="{{'/dist/attestation.bundle.min.js' | relative_url }}"></script>
+
 <div class="attestations-intro">
     <h2>What are User Created Nostr Attestations?</h2>
     
@@ -49,7 +51,7 @@ pre {
         <li>Verify a specific binary - Drop your binary file in our verification tool to check existing attestations or create new ones:</li>
     </ul>
     
-    {% include /attestations/dragAndDropArea.html %}
+    {% include /attestations/dragAndDropArea.html skipScript=true %}
 
     <p>If the <b>binary is new to the network</b>, you'll be prompted to provide some additional information to register it.</p>
     <p>If the <b>binary is already known</b>, you'll be able to view existing attestations, access build instructions, and create your own attestation.</p>

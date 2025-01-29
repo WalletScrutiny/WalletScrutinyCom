@@ -19,4 +19,6 @@
 </div>
 <!-- Drag-and-Drop-Area End -->
 
+{% unless include.skipScript %}
 <script src="{{ '/dist/dragAndDrop.bundle.min.js' | relative_url }}"></script>
+{% endunless %}
