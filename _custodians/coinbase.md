@@ -33,6 +33,7 @@ custodian:
         role: "Chief Legal Officer"
       - name: "Gregory Tusar"
         role: "VP, Institutional Product"
+    teamSource: "https://investor.coinbase.com/governance/management/default.aspx"
 
   androidApp:
     name: "Coinbase: Buy Bitcoin & Crypto"
@@ -83,24 +84,65 @@ custodian:
     SourceAUC: "https://investor.coinbase.com/home/default.aspx"
 
   trackRecord:
-    history: "No major security incidents"
+    history: "Multiple security incidents affecting customer accounts"
     incidentHistory:
-      - description: "March 2023: System outage during high market volatility"
-        url: "https://status.coinbase.com/incidents/vf7h1rq4yw8h"
-      - description: "October 2022: Delayed ETH withdrawals after merge"
-        url: "https://status.coinbase.com/incidents/sb4wp0f64sfd"
-    sourceIncidents: "https://blog.coinbase.com/security-at-coinbase-5d54456581f4"
-    lastIncident: "March 2023"
+      - description: "Third-party bank data exposure affecting 154 customers' transaction data and personal information"
+        date: "July 2024"
+        url: "https://cybernews.com/news/coinbase-third-party-breach"
+      - description: "Account compromise affecting over 6,000 customers through phishing attacks"
+        date: "October 2021"
+        url: "https://thecyberexpress.com/coinbase-cyber-attack-customer-data-sale"
+      - description: "SMS-based two-factor authentication vulnerability exploited, affecting over 6,000 accounts"
+        date: "March-May 2021"
+        url: "https://therecord.media/hackers-bypass-coinbase-2fa-to-steal-customer-funds"
+    sourceIncidents: "https://thecyberexpress.com/coinbase-cyber-attack-customer-data-sale"
+    lastIncident: "July 2024"
     insuranceCoverage: "$255M coverage"
 
   businessModel:
     type: "Exchange & Custody"
     services:
-      - "Buy/Sell Crypto"
-      - "Staking"
+      - "Cryptocurrency Trading"
+      - "Institutional Custody"
+      - "Staking Services"
+      - "Prime Brokerage"
+      - "Commerce Solutions"
+      - "NFT Marketplace"
+    revenueStreams:
+      - type: "Transaction Fees"
+        details: "Variable percentage based on trade volume and payment method"
+      - type: "Custody Fees"
+        details: "Annual fee based on assets under custody"
+      - type: "Staking Revenue"
+        details: "Commission on staking rewards"
+      - type: "Subscription Services"
+        details: "Coinbase One membership program"
+    institutionalServices:
+      - "Dedicated Account Representatives"
+      - "Advanced Trading APIs"
+      - "Insurance Coverage"
+      - "Regulatory Compliance Support"
+    licenses:
+      - jurisdiction: "USA"
+        type: "Money Transmitter License"
+        coverage: "49 states"
+      - jurisdiction: "EU"
+        type: "E-Money License"
+        issuer: "Central Bank of Ireland"
     restrictedCountries:
-      - "Iran"
-      - "North Korea"
+      - "U.S. Sanctioned Jurisdictions"
+    restrictedCountriesSource: "https://help.coinbase.com/en/coinbase/managing-my-account/other/prohibited-regions"
+    marketSegments:
+      - segment: "Retail"
+        description: "Individual investors and traders"
+      - segment: "Institutional"
+        description: "Banks, hedge funds, and corporate treasuries"
+      - segment: "Ecosystem"
+        description: "Developers and crypto businesses"
+    financialMetrics:
+      tradingVolume: "$145B quarterly (Q4 2023)"
+      monthlyTransactingUsers: "8.8M"
+      verifiedUsers: "Over 110M"
 
   bitcoinContribution:
     fossDevelopment: true

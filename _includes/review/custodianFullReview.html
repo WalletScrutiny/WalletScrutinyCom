@@ -265,6 +265,11 @@
               <li>{{ member.name }} - {{ member.role }}{% if member.location %} ({{ member.location }}){% endif %}</li>
             {% endfor %}
           </ul>
+          {% if custodian.leadership.teamSource %}
+            <a href="{{ custodian.leadership.teamSource }}" class="verify-link" target="_blank">
+              <i class="fas fa-users"></i> Full Team
+            </a>
+          {% endif %}
         </div>
       {% endif %}
     </div>
@@ -312,8 +317,15 @@
       {% endif %}
       {% if custodian.trackRecord.incidentHistory %}
         <div class="incidents">
-          <h4>Incident History</h4>
-          <ul class="incident-list">
+          <div class="incident-title">
+            <h4>Incident History</h4>
+            <button class="toggle-incidents" aria-expanded="false" aria-controls="incident-list">
+              <i class="fas fa-chevron-down"></i>
+              <span class="show-text">Show More</span>
+              <span class="hide-text">Show Less</span>
+            </button>
+          </div>
+          <ul id="incident-list" class="incident-list collapsed">
             {% for incident in custodian.trackRecord.incidentHistory %}
               <li>
                 {{ incident.description }}
@@ -368,8 +380,15 @@
         </div>
       {% endif %}
       {% if custodian.businessModel.restrictedCountries %}
-        <div class="restrictions">
-          <h4>Restricted Countries</h4>
+        <div class="restricted-countries">
+          <div class="section-header">
+            <h4>Restricted Countries</h4>
+            {% if custodian.businessModel.restrictedCountriesSource %}
+              <a href="{{ custodian.businessModel.restrictedCountriesSource }}" class="subtle-source" target="_blank">
+                <i class="fas fa-info-circle"></i>
+              </a>
+            {% endif %}
+          </div>
           <ul>
             {% for country in custodian.businessModel.restrictedCountries %}
               <li>{{ country }}</li>
@@ -416,7 +435,7 @@
         <i class="fas fa-times"></i> KYC Not Required
         {% endif %}
       </div>
-      <div class="kyc-level"> Level: {{ custodian.userAccess.kycLevel }}</div>
+      <div class="kyc-level"><i class="fas fa-unlock"></i> <strong>Level:</strong> {{ custodian.userAccess.kycLevel }}</div>
       {% if custodian.userAccess.withdrawalLimits %}
         <div class="limits">
           <h4>Withdrawal Limits</h4>
@@ -522,57 +541,56 @@
   font-size: 1.2rem;
   border: 2px solid transparent;
   z-index: 1;
-  color: white;
 }
 
 /* Icon colors */
 .circle.storage {
-  background: #2ecc71;  /* Green for storage/security */
+  background: #2ecc71;  
   border-color: #27ae60;
 }
 
 .circle.bitcoin {
-  background: #f7931a;  /* Bitcoin orange */
+  background: #f7931a;  
   border-color: #e07d16;
 }
 
 .circle.reserves {
-  background: #3498db;  /* Blue for financial/reserves */
+  background: #3498db;  
   border-color: #2980b9;
 }
 
 .circle.leadership {
-  background: #9b59b6;  /* Purple for leadership */
+  background: #9b59b6;  
   border-color: #8e44ad;
 }
 
 .circle.operations {
-  background: #e67e22;  /* Orange for operations/custody */
+  background: #e67e22;  
   border-color: #d35400;
 }
 
 .circle.track-record {
-  background: #16a085;  /* Teal for track record */
+  background: #16a085;  
   border-color: #1abc9c;
 }
 
 .circle.business {
-  background: #34495e;  /* Dark blue for business */
+  background: #34495e;  
   border-color: #2c3e50;
 }
 
 .circle.ecosystem {
-  background: #1abc9c;  /* Turquoise for ecosystem */
+  background: #1abc9c;  
   border-color: #16a085;
 }
 
 .circle.access {
-  background: #f1c40f;  /* Yellow for access */
+  background: #f1c40f;  
   border-color: #f39c12;
 }
 
 .circle.security {
-  background: #7f8c8d;  /* Gray for security */
+  background: #7f8c8d;  
   border-color: #95a5a6;
 }
 
@@ -611,23 +629,11 @@
   .textbox {
     background: #2f374c;
   }
-  .app-link {
-    background-color: #49597d;
-  }
-  .docs-link, .verify-link {
-    border-color: #5570ac;
-  }
 }
 
 /* For class-based dark mode */
 .dark .textbox {
   background: #2f374c;
-}
-.dark .app-link {
-  background-color: #5570ac;
-}
-.dark .docs-link, .dark .verify-link {
-  border-color: #304168;
 }
 
 /* The status badges (published / not published) etc. */
@@ -648,60 +654,115 @@
 }
 
 /* Incident list styling */
+.incidents {
+  margin-top: 1rem;
+}
+
+.incident-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}
+
+.incident-title h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.toggle-incidents {
+  background: none;
+  color: var(--text);
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.85rem;
+  opacity: 0.7;
+  transition: all 0.2s ease;
+}
+
+.toggle-incidents:hover {
+  opacity: 1;
+}
+
+.toggle-incidents i {
+  font-size: 0.75rem;
+  transition: transform 0.2s ease;
+}
+
+.toggle-incidents[aria-expanded="true"] i {
+  transform: rotate(180deg);
+}
+
+.toggle-incidents .show-text {
+  display: inline;
+}
+
+.toggle-incidents .hide-text {
+  display: none;
+}
+
+.toggle-incidents[aria-expanded="true"] .show-text {
+  display: none;
+}
+
+.toggle-incidents[aria-expanded="true"] .hide-text {
+  display: inline;
+}
+
 .incident-list {
   list-style: none;
   padding-left: 0;
-  margin: 1rem 0;
+  margin: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.incident-list.collapsed {
+  max-height: 0;
+}
+
+.incident-list:not(.collapsed) {
+  max-height: 500px; 
 }
 
 .incident-list li {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   padding: 0.5rem 0;
-  border-bottom: 1px solid rgba(0,0,0,0.1);
-}
-
-.dark .incident-list li {
-  border-bottom-color: rgba(255,255,255,0.1);
+  border-bottom: 1px solid #dee2e6;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  gap: 1rem;
 }
 
 .incident-list li:last-child {
   border-bottom: none;
+  padding-bottom: 0;
+}
+
+.incident-list .docs-link {
+  white-space: nowrap;
+  font-size: 0.85rem;
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+
+.incident-list .docs-link:hover {
+  opacity: 1;
 }
 
 .source-link {
   margin-top: 1rem;
-  padding-top: 1rem;
-  border-top: 1px solid rgba(0,0,0,0.1);
-}
-
-.dark .source-link {
-  border-top-color: rgba(255,255,255,0.1);
-}
-
-/* Additional styling for sub-blocks */
-.last-updated {
-  font-size: 0.9rem;
-  margin-bottom: 0.5rem;
-}
-.details {
-  margin-top: 0.5rem;
-  line-height: 1.4;
-  color: var(--text);
-}
-.docs-link, .verify-link {
-  margin-top: 1rem;
-  display: inline-block;
-  font-size: 0.9rem;
-  text-decoration: none;
-  padding: 0.25rem 0.5rem;
-  border-radius: 4px;
-  border: 1px solid #ccc;
-  color: #0056b3;
-}
-.docs-link:hover, .verify-link:hover {
-  background: #dee2e6;
+  padding-top: 0.75rem;
+  border-top: 1px solid #dee2e6;
+  font-size: 0.85rem;
 }
 
 /* “Apps” listing */
@@ -836,11 +897,11 @@
   padding: 0.15rem 0.35rem;
   border-radius: 4px;
   background: #f8f9fa;
-  color: var(--text);
+  color: #212529;
 }
 .contributions li.active {
   background: #198754;
-  color: var(--permanent-white);
+  color: #ffffff;
 }
 
 /* Step headings */
@@ -858,7 +919,7 @@
 .top-panel {
   display: grid;
   grid-template-columns: 1fr auto;
-  gap: 1rem; /* Reduce the gap to remove extra space */
+  gap: 1rem; 
   align-items: start;
   margin-bottom: 1rem;
 }
@@ -878,7 +939,7 @@
 
 /* CEO Card Styles */
 .ceo-card {
-  background: #e9edf7;  /* Same as the app bars for consistency */
+  background: #e9edf7;  
   border-radius: 12px;
   padding: 0.5rem;
   width: 300px;
@@ -977,9 +1038,34 @@
   font-weight: bold;
   min-width: 150px;
 }
-.asset-value {
-  color: #666;
+
+/* Subtle source link */
+.subtle-source {
+  font-size: 0.8rem;
+  color: #212529;
+  opacity: 0.6;
+  transition: all 0.2s ease-in-out;
+  padding: 2px;
+  line-height: 1;
 }
+
+.subtle-source:hover {
+  opacity: 0.8;
+  text-decoration: none;
+  color: #212529;
+}
+
+.subtle-source i {
+  font-size: 0.85rem;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin-bottom: 0.75rem;
+}
+
 </style>
 
 <script>
@@ -1265,6 +1351,28 @@ document.addEventListener('DOMContentLoaded', () => {
   if (custodianData) {
     const scorer = new CustodianScore(custodianData);
     scorer.updateUI();
+  }
+});
+
+// Add event listener for incident list toggle
+document.addEventListener('DOMContentLoaded', () => {
+  const toggleIncidents = document.querySelector('.toggle-incidents');
+  const incidentList = document.querySelector('#incident-list');
+  
+  if (toggleIncidents && incidentList) {
+    // Ensure collapsed state on load
+    incidentList.classList.add('collapsed');
+    toggleIncidents.setAttribute('aria-expanded', 'false');
+    toggleIncidents.querySelector('.show-text').style.display = 'inline';
+    toggleIncidents.querySelector('.hide-text').style.display = 'none';
+    
+    toggleIncidents.addEventListener('click', () => {
+      incidentList.classList.toggle('collapsed');
+      const isExpanded = !incidentList.classList.contains('collapsed');
+      toggleIncidents.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
+      toggleIncidents.querySelector('.show-text').style.display = isExpanded ? 'none' : 'inline';
+      toggleIncidents.querySelector('.hide-text').style.display = isExpanded ? 'inline' : 'none';
+    });
   }
 });
 </script>
