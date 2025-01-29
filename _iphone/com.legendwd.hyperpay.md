@@ -20,6 +20,7 @@ icon: com.legendwd.hyperpay.jpg
 bugbounty: 
 meta: defunct
 verdict: obfuscated
+appHashes: 
 date: 2023-05-30
 signer: 
 reviewArchive: 

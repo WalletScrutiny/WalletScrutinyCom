@@ -11,7 +11,7 @@ released: 2016-01-18
 updated: 2024-12-30
 version: 8.11.2
 stars: 3.2
-reviews: 19
+reviews: 20
 size: '35456000'
 website: https://www.paymium.com/
 repository: 
@@ -20,6 +20,7 @@ icon: com.paymium.mobile.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-10-07
 signer: 
 reviewArchive: 

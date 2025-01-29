@@ -21,6 +21,7 @@ icon: chat.sphinx.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-09-04
 signer: 
 reviewArchive: 

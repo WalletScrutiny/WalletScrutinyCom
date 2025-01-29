@@ -21,6 +21,7 @@ icon: ccx.wallet.jpg
 bugbounty: 
 meta: removed
 verdict: ftbfs
+appHashes: 
 date: 2021-09-19
 signer: 
 reviewArchive: 

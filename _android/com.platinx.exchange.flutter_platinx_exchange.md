@@ -20,6 +20,7 @@ icon: com.platinx.exchange.flutter_platinx_exchange.png
 bugbounty: 
 meta: ok
 verdict: fewusers
+appHashes: 
 date: 2023-06-03
 signer: 
 reviewArchive: 

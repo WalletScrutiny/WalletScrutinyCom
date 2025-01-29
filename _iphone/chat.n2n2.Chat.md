@@ -20,6 +20,7 @@ icon: chat.n2n2.Chat.jpg
 bugbounty: 
 meta: stale
 verdict: nosource
+appHashes: 
 date: 2024-07-17
 signer: 
 reviewArchive: 

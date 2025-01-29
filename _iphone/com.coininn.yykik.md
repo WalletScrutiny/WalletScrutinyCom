@@ -20,6 +20,7 @@ icon: com.coininn.yykik.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2025-01-06
 signer: 
 reviewArchive: 

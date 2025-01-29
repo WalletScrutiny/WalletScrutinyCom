@@ -20,6 +20,7 @@ icon: com.lavamobile.png
 bugbounty: 
 meta: ok
 verdict: fewusers
+appHashes: 
 date: 2024-09-26
 signer: 
 reviewArchive: 

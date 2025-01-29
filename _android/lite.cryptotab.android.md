@@ -8,11 +8,11 @@ users: 5000000
 appId: lite.cryptotab.android
 appCountry: 
 released: 2021-06-16
-updated: 2024-12-17
-version: 6.2.28
-stars: 4.1
+updated: 2025-01-17
+version: 6.2.30
+stars: 4
 ratings: 22930
-reviews: 1600
+reviews: 1631
 size: 
 website: https://cryptocompany.site/
 repository: 
@@ -21,6 +21,7 @@ icon: lite.cryptotab.android.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2021-08-21
 signer: 
 reviewArchive: 

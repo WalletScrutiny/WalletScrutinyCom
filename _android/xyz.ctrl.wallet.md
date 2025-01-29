@@ -20,6 +20,7 @@ icon: xyz.ctrl.wallet.png
 bugbounty: 
 meta: ok
 verdict: wip
+appHashes: 
 date: 2024-09-24
 signer: 
 reviewArchive: 

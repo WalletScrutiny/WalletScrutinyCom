@@ -20,6 +20,7 @@ icon: com.heatwallet.heat_app.png
 bugbounty: 
 meta: ok
 verdict: fewusers
+appHashes: 
 date: 2024-03-01
 signer: 
 reviewArchive: 

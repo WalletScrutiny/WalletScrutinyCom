@@ -21,6 +21,7 @@ icon: ru.borik.cryptomarket.android.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2024-12-23
 signer: 
 reviewArchive: 

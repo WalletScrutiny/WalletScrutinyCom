@@ -21,6 +21,7 @@ icon: com.obtccoin.int.jpg
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2023-07-11
 signer: 
 reviewArchive: 

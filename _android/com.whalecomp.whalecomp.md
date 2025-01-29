@@ -20,6 +20,7 @@ icon: com.whalecomp.whalecomp.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-12-31
 signer: 
 reviewArchive: 

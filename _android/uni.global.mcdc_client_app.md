@@ -20,6 +20,7 @@ icon: uni.global.mcdc_client_app.png
 bugbounty: 
 meta: ok
 verdict: fewusers
+appHashes: 
 date: 2023-06-03
 signer: 
 reviewArchive: 

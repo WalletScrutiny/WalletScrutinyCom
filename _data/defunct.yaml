@@ -1,19 +1,3 @@
-2025-01-06:
-- _android/com.gloath.portalsapp
-- _android/com.komodoplatform.atomicdex
-- _android/com.mutinywallet.mutinywallet
-- _iphone/app.simple.com
-- _iphone/com.bytrade.io
-- _iphone/com.kochure.kochure-app
-- _iphone/com.koopwallet.app
-- _iphone/com.mutinywallet.mutiny
-- _iphone/com.tratao.xpocket
-- _android/com.risingcoin.android
-2025-01-09:
-- _android/capital.spatium.wallet
-- _android/com.blockcurators.coinkit
-- _android/com.cryppter.app.release
-- _android/com.gateio.lite
 2025-01-15:
 - _android/com.actoz.actpass
 - _android/com.add_mobile
@@ -38,3 +22,51 @@
 - _iphone/in.cryptoforce.cfx
 - _iphone/io.sylo.dapp
 - _iphone/net.vite.wallet
+2025-01-27:
+- _android/chat.sphinx
+- _android/com.app.becoin
+- _android/com.app.boastcoast12
+- _android/com.bankcomat.android_bankcomat
+- _android/com.colodax.colodax
+- _android/com.cryptosimple.prod
+- _android/com.exmoneyapps.ex_money
+- _android/com.getzion.zion
+- _android/com.jingyang.eceapp
+- _android/com.mchangeapps.mchange
+- _android/com.pallapay.application
+- _android/com.sato.hordes
+- _iphone/chat.n2n2.Chat
+- _android/com.sparkpoint
+- _android/com.streakk
+- _android/com.swapcrypto.wallet
+- _android/com.thekingdombank.app
+- _android/com.tmdstudios.cryptoledgerkotlin
+- _android/com.tnp.fortvax
+- _android/com.tradesanta
+- _android/com.uecent.viv
+- _android/com.xchange.baksman
+- _android/com.xchange.nicechange
+- _android/com.xchange.x4ange
+- _android/com.xchange.ychanger
+- _android/com.cryptoex.dhanux
+- _android/com.syarpa.app
+- _android/de.fuf.bitbucks
+- _android/io.kodular.yogeshmaurya72.PletoBNB
+- _android/net.inoutscripts.demo.inoutblockchainaltexchanger
+- _android/net.inoutscripts.demo.inoutblockchainfiatexchanger
+- _android/xyz.mara.wallet
+- _iphone/com.counos.wallet
+- _iphone/com.globiance.iosapp
+- _iphone/com.idiskk.wallet.usb
+- _iphone/com.rearden-metals.Cold-Storage-Coins
+- _iphone/com.wadz.wadzapp
+- _iphone/io.divipay.divi
+- _iphone/xyz.elliptica.enuts
+2025-01-29:
+- _android/app.flitsnode.flits
+- _android/com.bucdev.bestforexbroker
+- _android/com.getfexr.core
+- _android/com.munawallet.muna
+- _android/io.trustverse.mars
+- _android/io.trustverse.masterkey
+- _iphone/jetonwallet.JetonWallet

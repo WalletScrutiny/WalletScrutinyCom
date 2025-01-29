@@ -21,6 +21,7 @@ icon: com.libonomywallet.png
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2024-11-07
 signer: 
 reviewArchive: 

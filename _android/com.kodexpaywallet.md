@@ -20,6 +20,7 @@ icon: com.kodexpaywallet.png
 bugbounty: 
 meta: stale
 verdict: fewusers
+appHashes: 
 date: 2024-06-29
 signer: 
 reviewArchive: 

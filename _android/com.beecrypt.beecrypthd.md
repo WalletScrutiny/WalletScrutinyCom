@@ -21,6 +21,7 @@ icon: com.beecrypt.beecrypthd.png
 bugbounty: 
 meta: stale
 verdict: nosource
+appHashes: 
 date: 2024-05-04
 signer: 
 reviewArchive: 

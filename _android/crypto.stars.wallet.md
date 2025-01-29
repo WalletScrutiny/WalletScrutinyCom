@@ -21,6 +21,7 @@ icon: crypto.stars.wallet.png
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2023-06-12
 signer: 
 reviewArchive: 

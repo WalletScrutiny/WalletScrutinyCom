@@ -25,6 +25,7 @@ icon: ledgerFlex.png
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2024-10-22
 signer: 
 reviewArchive: 

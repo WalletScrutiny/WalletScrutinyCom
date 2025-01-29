@@ -21,6 +21,7 @@ icon: dtn.crypto1.dtech.png
 bugbounty: 
 meta: defunct
 verdict: nobtc
+appHashes: 
 date: 2023-06-12
 signer: 
 reviewArchive: 

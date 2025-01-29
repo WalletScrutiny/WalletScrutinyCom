@@ -20,6 +20,7 @@ icon: com.cobru.cobru.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-03-30
 signer: 
 reviewArchive: 

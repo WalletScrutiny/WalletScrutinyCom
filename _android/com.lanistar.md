@@ -21,6 +21,7 @@ icon: com.lanistar.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-11-17
 signer: 
 reviewArchive: 

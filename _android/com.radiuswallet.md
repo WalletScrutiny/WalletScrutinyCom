@@ -18,9 +18,10 @@ repository:
 issue: 
 icon: com.radiuswallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
-date: 2024-01-29
+appHashes: 
+date: 2025-01-27
 signer: 
 reviewArchive: 
 twitter: 

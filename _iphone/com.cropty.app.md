@@ -11,7 +11,7 @@ released: 2022-08-04
 updated: 2024-12-30
 version: 1.6.2
 stars: 4.8
-reviews: 127
+reviews: 129
 size: '19520512'
 website: https://cropty.io/
 repository: 
@@ -20,6 +20,7 @@ icon: com.cropty.app.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-07-30
 signer: 
 reviewArchive: 

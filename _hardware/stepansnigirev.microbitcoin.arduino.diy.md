@@ -22,6 +22,7 @@ icon: stepansnigirev.microbitcoin.arduino.diy.png
 bugbounty: 
 meta: ok
 verdict: diy
+appHashes: 
 date: 2022-05-20
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.wallet.faste.jpg
 bugbounty: 
 meta: stale
 verdict: nosource
+appHashes: 
 date: 2025-01-15
 signer: 
 reviewArchive: 

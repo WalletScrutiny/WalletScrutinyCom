@@ -21,6 +21,7 @@ icon: africa.bitkoin.buycoins.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2021-04-27
 signer: 
 reviewArchive: 

@@ -8,8 +8,8 @@ users: 10000
 appId: com.pro.changelly
 appCountry: 
 released: 2020-07-03
-updated: 2022-02-09
-version: 1.1.0
+updated: 2025-01-15
+version: 3.3.3
 stars: 
 ratings: 
 reviews: 
@@ -19,9 +19,10 @@ repository:
 issue: 
 icon: com.pro.changelly.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: custodial
-date: 2024-01-30
+appHashes: 
+date: 2025-01-27
 signer: 
 reviewArchive: 
 twitter: changelly_team

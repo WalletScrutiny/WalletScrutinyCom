@@ -20,6 +20,7 @@ icon: app.bitcoinjungle.ios.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-10-20
 signer: 
 reviewArchive: 

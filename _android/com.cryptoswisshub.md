@@ -20,6 +20,7 @@ icon: com.cryptoswisshub.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-08-07
 signer: 
 reviewArchive: 

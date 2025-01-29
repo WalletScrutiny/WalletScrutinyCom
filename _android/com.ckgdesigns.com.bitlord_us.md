@@ -20,6 +20,7 @@ icon: com.ckgdesigns.com.bitlord_us.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-08-04
 signer: 
 reviewArchive: 

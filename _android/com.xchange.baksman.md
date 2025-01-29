@@ -21,6 +21,7 @@ icon: com.xchange.baksman.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-09-17
 signer: 
 reviewArchive: 

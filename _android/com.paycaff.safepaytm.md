@@ -21,6 +21,7 @@ icon: com.paycaff.safepaytm.jpg
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2024-09-06
 signer: 
 reviewArchive: 

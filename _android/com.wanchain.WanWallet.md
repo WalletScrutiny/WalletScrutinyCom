@@ -21,6 +21,7 @@ icon: com.wanchain.WanWallet.png
 bugbounty: 
 meta: removed
 verdict: nosource
+appHashes: 
 date: 2022-04-07
 signer: 
 reviewArchive: 

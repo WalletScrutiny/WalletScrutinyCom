@@ -21,6 +21,7 @@ icon: com.bitsacard.BitsaApp.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
+appHashes: 
 date: 2021-11-02
 signer: 
 reviewArchive: 

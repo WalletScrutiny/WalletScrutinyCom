@@ -21,6 +21,7 @@ icon: com.chainup.exchange.Exchange.png
 bugbounty: 
 meta: obsolete
 verdict: custodial
+appHashes: 
 date: 2024-09-20
 signer: 
 reviewArchive: 

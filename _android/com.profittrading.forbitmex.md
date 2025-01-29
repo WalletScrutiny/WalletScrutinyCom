@@ -21,6 +21,7 @@ icon: com.profittrading.forbitmex.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-09-13
 signer: 
 reviewArchive: 

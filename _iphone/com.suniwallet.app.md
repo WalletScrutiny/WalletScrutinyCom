@@ -20,6 +20,7 @@ icon: com.suniwallet.app.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-12-02
 signer: 
 reviewArchive: 

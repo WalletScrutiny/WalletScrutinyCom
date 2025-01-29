@@ -21,6 +21,7 @@ icon: com.application.bitcoiva.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-07-29
 signer: 
 reviewArchive: 

@@ -12,7 +12,7 @@ updated: 2024-12-05
 version: 2.1.15
 stars: 4.4
 ratings: 
-reviews: 59
+reviews: 60
 size: 
 website: https://webauth.com/
 repository: 
@@ -21,6 +21,7 @@ icon: com.metallicus.webauth.png
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2024-07-24
 signer: 
 reviewArchive: 

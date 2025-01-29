@@ -20,6 +20,7 @@ icon: io.sevenlabs.app.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-08-23
 signer: 
 reviewArchive: 

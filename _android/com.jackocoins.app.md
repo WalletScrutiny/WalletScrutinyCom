@@ -21,6 +21,7 @@ icon: com.jackocoins.app.png
 bugbounty: 
 meta: removed
 verdict: nosendreceive
+appHashes: 
 date: 2024-10-23
 signer: 
 reviewArchive: 

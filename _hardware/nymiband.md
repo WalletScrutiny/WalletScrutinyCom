@@ -22,6 +22,7 @@ icon: nymiband.png
 bugbounty: 
 meta: defunct
 verdict: vapor
+appHashes: 
 date: 2024-10-22
 signer: 
 reviewArchive: 

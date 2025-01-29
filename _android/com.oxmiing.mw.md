@@ -21,6 +21,7 @@ icon: com.oxmiing.mw.jpg
 bugbounty: 
 meta: obsolete
 verdict: fake
+appHashes: 
 date: 2024-03-30
 signer: 
 reviewArchive: 

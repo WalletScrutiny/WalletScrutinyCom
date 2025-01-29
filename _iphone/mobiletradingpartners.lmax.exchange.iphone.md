@@ -20,6 +20,7 @@ icon: mobiletradingpartners.lmax.exchange.iphone.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive
+appHashes: 
 date: 2021-11-10
 signer: 
 reviewArchive: 

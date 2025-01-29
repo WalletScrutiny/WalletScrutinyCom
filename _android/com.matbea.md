@@ -8,8 +8,8 @@ users: 10000
 appId: com.matbea
 appCountry: 
 released: 
-updated: 2024-09-11
-version: 1.6.8
+updated: 2025-01-20
+version: 1.6.9
 stars: 3.6
 ratings: 
 reviews: 
@@ -21,6 +21,7 @@ icon: com.matbea.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-04-07
 signer: 
 reviewArchive: 

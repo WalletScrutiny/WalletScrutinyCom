@@ -21,6 +21,7 @@ icon: safewallet.io.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2023-12-19
 signer: 
 reviewArchive: 

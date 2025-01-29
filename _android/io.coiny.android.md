@@ -21,6 +21,7 @@ icon: io.coiny.android.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2022-01-13
 signer: 
 reviewArchive: 

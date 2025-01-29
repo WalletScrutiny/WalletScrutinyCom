@@ -21,6 +21,7 @@ icon: com.nexybit.nexybit.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2023-04-08
 signer: 
 reviewArchive: 

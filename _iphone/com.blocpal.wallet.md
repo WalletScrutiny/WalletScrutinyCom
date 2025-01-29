@@ -20,6 +20,7 @@ icon: com.blocpal.wallet.jpg
 bugbounty: 
 meta: defunct
 verdict: nosource
+appHashes: 
 date: 2023-01-02
 signer: 
 reviewArchive: 

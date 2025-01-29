@@ -25,6 +25,7 @@ icon: satochip.seedkeeper.png
 bugbounty: 
 meta: obsolete
 verdict: plainkey
+appHashes: 
 date: 2024-11-15
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: mn.ailab.corex.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-08-16
 signer: 
 reviewArchive: 

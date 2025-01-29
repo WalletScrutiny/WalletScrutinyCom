@@ -20,6 +20,7 @@ icon: com.therocktrading.tradingapp.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2023-07-21
 signer: 
 reviewArchive: 

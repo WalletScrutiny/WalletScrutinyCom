@@ -23,6 +23,7 @@ icon: com.bhex.wallet.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2022-03-16
 signer: 
 reviewArchive: 

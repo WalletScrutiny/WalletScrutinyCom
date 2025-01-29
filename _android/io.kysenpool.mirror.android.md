@@ -21,6 +21,7 @@ icon: io.kysenpool.mirror.android.png
 bugbounty: 
 meta: removed
 verdict: nosendreceive
+appHashes: 
 date: 2021-10-22
 signer: 
 reviewArchive: 

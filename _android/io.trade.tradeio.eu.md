@@ -21,6 +21,7 @@ icon: io.trade.tradeio.eu.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2023-05-05
 signer: 
 reviewArchive: 

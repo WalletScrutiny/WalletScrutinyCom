@@ -9,10 +9,10 @@ appId: com.coinstats.crypto.portfolio
 appCountry: 
 released: 2018-04-27
 updated: 2025-01-14
-version: 5.20.2
+version: 5.20.3
 stars: 4.5
 ratings: 
-reviews: 2482
+reviews: 2492
 size: 
 website: https://coinstats.app
 repository: 
@@ -21,6 +21,7 @@ icon: com.coinstats.crypto.portfolio.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2024-09-06
 signer: 
 reviewArchive: 

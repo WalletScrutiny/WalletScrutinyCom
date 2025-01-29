@@ -20,6 +20,7 @@ icon: com.cmcm.blockchain.bitcoin.ethereum.safewallet.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2020-03-20
 signer: 
 reviewArchive: 

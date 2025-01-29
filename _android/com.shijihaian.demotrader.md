@@ -21,6 +21,7 @@ icon: com.shijihaian.demotrader.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2023-08-16
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: io.horizontalsystems.erium.png
 bugbounty: 
 meta: obsolete
 verdict: nosource
+appHashes: 
 date: 2024-10-05
 signer: 
 reviewArchive: 

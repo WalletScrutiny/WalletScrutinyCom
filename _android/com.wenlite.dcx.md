@@ -20,6 +20,7 @@ icon: com.wenlite.dcx.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-08-17
 signer: 
 reviewArchive: 

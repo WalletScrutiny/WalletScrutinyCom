@@ -21,6 +21,7 @@ icon: com.yieldapp_mobile.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-07-22
 signer: 
 reviewArchive: 

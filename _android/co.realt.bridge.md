@@ -21,6 +21,7 @@ icon: co.realt.bridge.jpg
 bugbounty: 
 meta: stale
 verdict: nobtc
+appHashes: 
 date: 2024-07-10
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: hr.apps.n114615.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-07-05
 signer: 
 reviewArchive: 

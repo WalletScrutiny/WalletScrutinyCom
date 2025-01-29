@@ -22,6 +22,7 @@ icon: com.ankerpay.wallet.png
 bugbounty: 
 meta: removed
 verdict: nosource
+appHashes: 
 date: 2024-09-10
 signer: 
 reviewArchive: 

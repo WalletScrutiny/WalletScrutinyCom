@@ -21,6 +21,7 @@ icon: com.indoex.finance.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-11-25
 signer: 
 reviewArchive: 

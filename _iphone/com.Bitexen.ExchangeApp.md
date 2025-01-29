@@ -20,6 +20,7 @@ icon: com.Bitexen.ExchangeApp.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2023-04-16
 signer: 
 reviewArchive: 

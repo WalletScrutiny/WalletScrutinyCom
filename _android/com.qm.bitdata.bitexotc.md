@@ -21,6 +21,7 @@ icon: com.qm.bitdata.bitexotc.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-09-08
 signer: 
 reviewArchive: 

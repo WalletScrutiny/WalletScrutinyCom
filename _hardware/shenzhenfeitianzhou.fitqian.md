@@ -22,6 +22,7 @@ icon: shenzhenfeitianzhou.fitqian.png
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2022-05-17
 signer: 
 reviewArchive: 

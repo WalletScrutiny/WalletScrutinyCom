@@ -20,6 +20,7 @@ icon: com.pillarproject.wallet.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2020-02-20
 signer: 
 reviewArchive: 

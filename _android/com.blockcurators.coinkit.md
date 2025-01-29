@@ -19,9 +19,10 @@ repository:
 issue: 
 icon: com.blockcurators.coinkit.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
-date: 2024-01-16
+appHashes: 
+date: 2025-01-27
 signer: 
 reviewArchive: 
 twitter: coinkit_

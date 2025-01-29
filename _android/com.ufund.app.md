@@ -21,6 +21,7 @@ icon: com.ufund.app.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2024-12-15
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: jaytesrac.com.hobu_app.png
 bugbounty: 
 meta: obsolete
 verdict: fewusers
+appHashes: 
 date: 2023-12-28
 signer: 
 reviewArchive: 

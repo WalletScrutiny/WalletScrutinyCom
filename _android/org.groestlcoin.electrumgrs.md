@@ -20,6 +20,7 @@ icon: org.groestlcoin.electrumgrs.png
 bugbounty: 
 meta: ok
 verdict: fewusers
+appHashes: 
 date: 2021-04-27
 signer: 
 reviewArchive: 

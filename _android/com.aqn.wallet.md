@@ -21,6 +21,7 @@ icon: com.aqn.wallet.jpg
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2024-02-05
 signer: 
 reviewArchive: 

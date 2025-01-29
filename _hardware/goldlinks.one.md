@@ -22,6 +22,7 @@ icon: goldlinks.one.png
 bugbounty: 
 meta: defunct
 verdict: plainkey
+appHashes: 
 date: 2022-05-19
 signer: 
 reviewArchive: 

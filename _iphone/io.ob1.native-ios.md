@@ -19,6 +19,7 @@ icon: io.ob1.native-ios.jpg
 bugbounty: 
 meta: removed
 verdict: nonverifiable
+appHashes: 
 date: 2021-01-15
 signer: 
 reviewArchive: 

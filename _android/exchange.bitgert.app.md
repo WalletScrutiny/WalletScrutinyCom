@@ -21,6 +21,7 @@ icon: exchange.bitgert.app.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-07-11
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.defixwallet.jpg
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-01-11
 signer: 
 reviewArchive: 

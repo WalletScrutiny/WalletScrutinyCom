@@ -20,6 +20,7 @@ icon: com.exchangily.app.jpg
 bugbounty: 
 meta: defunct
 verdict: ftbfs
+appHashes: 
 date: 2023-08-16
 signer: 
 reviewArchive: 

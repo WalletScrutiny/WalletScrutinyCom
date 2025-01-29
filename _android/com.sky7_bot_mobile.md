@@ -20,6 +20,7 @@ icon: com.sky7_bot_mobile.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-12-19
 signer: 
 reviewArchive: 

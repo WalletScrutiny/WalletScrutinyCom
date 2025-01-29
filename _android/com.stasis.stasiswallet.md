@@ -21,6 +21,7 @@ icon: com.stasis.stasiswallet.png
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2025-01-15
 signer: 
 reviewArchive: 

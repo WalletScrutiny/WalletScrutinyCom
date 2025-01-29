@@ -20,6 +20,7 @@ icon: com.liquigate.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-12-19
 signer: 
 reviewArchive: 

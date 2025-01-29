@@ -21,6 +21,7 @@ icon: com.therocktrading.tradingapp.png
 bugbounty: 
 meta: defunct
 verdict: custodial
+appHashes: 
 date: 2023-07-21
 signer: 
 reviewArchive: 

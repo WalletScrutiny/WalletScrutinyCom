@@ -4,7 +4,7 @@ title: Bitcoin Suisse – Buy Crypto
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.bitcoinsuisse.online
 appCountry: pl
 released: 2021-09-21
@@ -21,6 +21,7 @@ icon: com.bitcoinsuisse.online.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-11-22
 signer: 
 reviewArchive: 

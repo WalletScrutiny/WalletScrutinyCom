@@ -20,6 +20,7 @@ icon: com.finovation.fxvc.jpg
 bugbounty: 
 meta: defunct
 verdict: fewusers
+appHashes: 
 date: 2021-11-01
 signer: 
 reviewArchive: 

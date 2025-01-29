@@ -20,6 +20,7 @@ icon: com.gcb.T1.jpg
 bugbounty: 
 meta: removed
 verdict: nosendreceive
+appHashes: 
 date: 2021-12-22
 signer: 
 reviewArchive: 

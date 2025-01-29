@@ -20,6 +20,7 @@ icon: com.t4p.cryptogdx.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2024-12-04
 signer: 
 reviewArchive: 

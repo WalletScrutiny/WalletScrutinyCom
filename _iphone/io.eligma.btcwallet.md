@@ -20,6 +20,7 @@ icon: io.eligma.btcwallet.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
+appHashes: 
 date: 2024-01-21
 signer: 
 reviewArchive: 

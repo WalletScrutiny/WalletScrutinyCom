@@ -20,6 +20,7 @@ icon: com.app.boastcoast12.png
 bugbounty: 
 meta: obsolete
 verdict: wip
+appHashes: 
 date: 2024-05-24
 signer: 
 reviewArchive: 

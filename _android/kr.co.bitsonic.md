@@ -21,6 +21,7 @@ icon: kr.co.bitsonic.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2021-10-13
 signer: 
 reviewArchive: 

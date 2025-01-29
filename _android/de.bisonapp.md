@@ -8,11 +8,11 @@ users: 100000
 appId: de.bisonapp
 appCountry: 
 released: 
-updated: 2024-12-31
-version: 4.4.0
+updated: 2025-01-17
+version: 4.5.0
 stars: 4.6
 ratings: 
-reviews: 2
+reviews: 3
 size: 
 website: https://bisonapp.com
 repository: 
@@ -21,6 +21,7 @@ icon: de.bisonapp.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-09-05
 signer: 
 reviewArchive: 

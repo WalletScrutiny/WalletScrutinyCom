@@ -21,6 +21,7 @@ icon: com.zb.zhongbi.jpg
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2021-11-11
 signer: 
 reviewArchive: 

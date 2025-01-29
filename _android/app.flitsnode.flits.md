@@ -21,6 +21,7 @@ icon: app.flitsnode.flits.png
 bugbounty: 
 meta: obsolete
 verdict: nosource
+appHashes: 
 date: 2023-01-30
 signer: 
 reviewArchive: 

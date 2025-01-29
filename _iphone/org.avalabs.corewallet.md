@@ -11,7 +11,7 @@ released: 2022-11-28
 updated: 2025-01-14
 version: 0.14.22
 stars: 4.5
-reviews: 70
+reviews: 71
 size: '63598592'
 website: https://www.core.app/
 repository: 
@@ -20,6 +20,7 @@ icon: org.avalabs.corewallet.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2023-07-02
 signer: 
 reviewArchive: 

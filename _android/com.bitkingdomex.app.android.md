@@ -21,6 +21,7 @@ icon: com.bitkingdomex.app.android.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2023-05-12
 signer: 
 reviewArchive: 

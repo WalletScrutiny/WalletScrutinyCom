@@ -21,6 +21,7 @@ icon: io.kaiser.kaiserwallet2.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2023-08-08
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.zybitech.juancash.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-07-17
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: bit7pay.com.bit7pay.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2023-05-04
 signer: 
 reviewArchive: 

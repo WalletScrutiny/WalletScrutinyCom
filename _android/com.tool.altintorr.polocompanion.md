@@ -21,6 +21,7 @@ icon: com.tool.altintorr.polocompanion.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2024-05-07
 signer: 
 reviewArchive: 

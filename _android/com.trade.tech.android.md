@@ -20,6 +20,7 @@ icon: com.trade.tech.android.png
 bugbounty: 
 meta: obsolete
 verdict: fewusers
+appHashes: 
 date: 2024-07-19
 signer: 
 reviewArchive: 

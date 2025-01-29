@@ -25,6 +25,7 @@ icon: secuxneox.png
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2024-09-03
 signer: 
 reviewArchive: 

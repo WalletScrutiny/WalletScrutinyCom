@@ -12,7 +12,7 @@ updated: 2024-12-18
 version: 3.0.56
 stars: 3.5
 ratings: 7090
-reviews: 2948
+reviews: 2979
 size: 
 website: https://koinbx.com/
 repository: 
@@ -21,6 +21,7 @@ icon: com.application.koinbazar.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-10-04
 signer: 
 reviewArchive: 

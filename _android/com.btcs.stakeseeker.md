@@ -20,6 +20,7 @@ icon: com.btcs.stakeseeker.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-05-07
 signer: 
 reviewArchive: 

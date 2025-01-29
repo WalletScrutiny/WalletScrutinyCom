@@ -12,7 +12,7 @@ updated: 2024-09-18
 version: 2.41.0
 stars: 4
 ratings: 77624
-reviews: 1227
+reviews: 1231
 size: 
 website: https://libertex.org
 repository: 
@@ -21,6 +21,7 @@ icon: org.fxclub.libertex.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
+appHashes: 
 date: 2021-08-09
 signer: 
 reviewArchive: 

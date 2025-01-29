@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: black.com - Encrypted Email.
+title: black.com - Encrypted Email
 altTitle: 
 authors:
 - danny
@@ -8,9 +8,9 @@ users: 10000
 appId: com.black.android
 appCountry: 
 released: 2021-07-09
-updated: 2024-11-08
-version: '55'
-stars: 2.1
+updated: 2025-01-16
+version: '58'
+stars: 2.4
 ratings: 
 reviews: 4
 size: 
@@ -21,6 +21,7 @@ icon: com.black.android.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-07-17
 signer: 
 reviewArchive: 

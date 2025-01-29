@@ -21,6 +21,7 @@ icon: doshi.app.png
 bugbounty: 
 meta: removed
 verdict: nosource
+appHashes: 
 date: 2024-10-23
 signer: 
 reviewArchive: 

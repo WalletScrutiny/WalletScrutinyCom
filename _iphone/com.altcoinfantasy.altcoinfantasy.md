@@ -20,6 +20,7 @@ icon: com.altcoinfantasy.altcoinfantasy.jpg
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2023-05-30
 signer: 
 reviewArchive: 

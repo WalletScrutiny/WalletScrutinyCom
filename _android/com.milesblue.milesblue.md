@@ -20,6 +20,7 @@ icon: com.milesblue.milesblue.jpg
 bugbounty: 
 meta: stale
 verdict: fewusers
+appHashes: 
 date: 2024-10-23
 signer: 
 reviewArchive: 

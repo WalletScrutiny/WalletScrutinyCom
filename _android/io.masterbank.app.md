@@ -21,6 +21,7 @@ icon: io.masterbank.app.png
 bugbounty: 
 meta: stale
 verdict: nobtc
+appHashes: 
 date: 2024-08-19
 signer: 
 reviewArchive: 

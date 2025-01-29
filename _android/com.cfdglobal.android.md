@@ -21,6 +21,7 @@ icon: com.cfdglobal.android.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
+appHashes: 
 date: 2021-10-01
 signer: 
 reviewArchive: 

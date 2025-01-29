@@ -20,6 +20,7 @@ icon: com.kocomex.ecointrust.png
 bugbounty: 
 meta: obsolete
 verdict: fewusers
+appHashes: 
 date: 2022-06-23
 signer: 
 reviewArchive: 

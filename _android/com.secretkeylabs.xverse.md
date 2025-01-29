@@ -12,7 +12,7 @@ updated: 2025-01-02
 version: 1.42.0
 stars: 4.6
 ratings: 34
-reviews: 960
+reviews: 961
 size: 
 website: https://www.xverse.app/
 repository: 
@@ -21,6 +21,7 @@ icon: com.secretkeylabs.xverse.png
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2024-07-17
 signer: 
 reviewArchive: 

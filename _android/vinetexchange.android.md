@@ -21,6 +21,7 @@ icon: vinetexchange.android.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2024-06-23
 signer: 
 reviewArchive: 

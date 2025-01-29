@@ -20,6 +20,7 @@ icon: ee.eesty.production.jpg
 bugbounty: 
 meta: removed
 verdict: nosource
+appHashes: 
 date: 2023-08-16
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.beehive.beehivemulti_coinwallet.png
 bugbounty: 
 meta: obsolete
 verdict: nobtc
+appHashes: 
 date: 2023-11-25
 signer: 
 reviewArchive: 

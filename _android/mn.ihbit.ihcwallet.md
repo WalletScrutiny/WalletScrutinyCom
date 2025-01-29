@@ -21,6 +21,7 @@ icon: mn.ihbit.ihcwallet.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2022-07-31
 signer: 
 reviewArchive: 

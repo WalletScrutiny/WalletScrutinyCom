@@ -21,6 +21,7 @@ icon: com.dex.digitalexchangeid.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-09-17
 signer: 
 reviewArchive: 

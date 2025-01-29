@@ -21,6 +21,7 @@ icon: com.floortracks.avacus.jpg
 bugbounty: 
 meta: stale
 verdict: nobtc
+appHashes: 
 date: 2024-08-23
 signer: 
 reviewArchive: 

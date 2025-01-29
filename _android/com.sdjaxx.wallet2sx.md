@@ -21,6 +21,7 @@ icon: com.sdjaxx.wallet2sx.png
 bugbounty: 
 meta: removed
 verdict: fake
+appHashes: 
 date: 2021-12-05
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: anny.trade.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-12-02
 signer: 
 reviewArchive: 

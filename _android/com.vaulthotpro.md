@@ -21,6 +21,7 @@ icon: com.vaulthotpro.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2021-11-26
 signer: 
 reviewArchive: 

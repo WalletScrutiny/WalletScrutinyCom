@@ -21,6 +21,7 @@ icon: com.xcnk.cryptoloupe.android.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2024-10-02
 signer: 
 reviewArchive: 

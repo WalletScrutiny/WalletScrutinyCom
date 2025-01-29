@@ -20,6 +20,7 @@ icon: com.goldex.pro.jpg
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-07-25
 signer: 
 reviewArchive: 

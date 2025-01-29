@@ -12,7 +12,7 @@ updated: 2024-05-20
 version: 1.0-prod2
 stars: 3.5
 ratings: 
-reviews: 59
+reviews: 60
 size: 
 website: https://theblackwallstreet.com
 repository: 
@@ -21,6 +21,7 @@ icon: com.tbws.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-07-05
 signer: 
 reviewArchive: 

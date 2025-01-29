@@ -20,6 +20,7 @@ icon: humanplus.hupay-master-iOS.jpg
 bugbounty: 
 meta: defunct
 verdict: custodial
+appHashes: 
 date: 2023-01-30
 signer: 
 reviewArchive: 

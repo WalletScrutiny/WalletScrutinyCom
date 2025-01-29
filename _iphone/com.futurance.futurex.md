@@ -20,6 +20,7 @@ icon: com.futurance.futurex.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-07-01
 signer: 
 reviewArchive: 

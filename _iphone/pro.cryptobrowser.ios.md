@@ -20,6 +20,7 @@ icon: pro.cryptobrowser.ios.jpg
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2024-08-31
 signer: 
 reviewArchive: 

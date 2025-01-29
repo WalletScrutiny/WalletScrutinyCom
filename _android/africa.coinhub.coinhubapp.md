@@ -21,6 +21,7 @@ icon: africa.coinhub.coinhubapp.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2023-09-08
 signer: 
 reviewArchive: 

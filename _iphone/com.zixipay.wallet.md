@@ -20,6 +20,7 @@ icon: com.zixipay.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-11-17
 signer: 
 reviewArchive: 

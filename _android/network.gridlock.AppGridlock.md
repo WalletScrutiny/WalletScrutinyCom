@@ -21,6 +21,7 @@ icon: network.gridlock.AppGridlock.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2022-12-08
 signer: 
 reviewArchive: 

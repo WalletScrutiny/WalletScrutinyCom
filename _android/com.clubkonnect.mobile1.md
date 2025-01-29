@@ -12,7 +12,7 @@ updated: 2024-08-16
 version: 2.0.36
 stars: 2.6
 ratings: 
-reviews: 96
+reviews: 97
 size: 
 website: http://www.clubkonnect.com
 repository: 
@@ -21,6 +21,7 @@ icon: com.clubkonnect.mobile1.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-02-08
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.exchange.digicoins.cc.jpg
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-10-16
 signer: 
 reviewArchive: 

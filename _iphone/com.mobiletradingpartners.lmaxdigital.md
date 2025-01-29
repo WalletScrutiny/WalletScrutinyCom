@@ -20,6 +20,7 @@ icon: com.mobiletradingpartners.lmaxdigital.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-04-04
 signer: 
 reviewArchive: 

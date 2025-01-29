@@ -22,6 +22,7 @@ icon: fr.acinq.eclair.wallet.mainnet2.jpg
 bugbounty: 
 meta: removed
 verdict: ftbfs
+appHashes: 
 date: 2024-03-02
 signer: 
 reviewArchive: 

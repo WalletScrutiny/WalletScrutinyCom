@@ -21,6 +21,7 @@ icon: life.cheeese.mnx.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2022-07-06
 signer: 
 reviewArchive: 

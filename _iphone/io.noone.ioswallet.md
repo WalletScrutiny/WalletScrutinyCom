@@ -11,7 +11,7 @@ released: 2023-03-29
 updated: 2024-12-22
 version: 1.18.0
 stars: 4.3
-reviews: 96
+reviews: 97
 size: '70500352'
 website: https://noone.io
 repository: 
@@ -20,6 +20,7 @@ icon: io.noone.ioswallet.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2023-07-24
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.arcticmobile.app.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2023-07-03
 signer: 
 reviewArchive: 

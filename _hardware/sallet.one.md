@@ -28,7 +28,7 @@ meta: ok
 verdict: ftbfs
 appHashes: []
 date: 2022-08-07
-signer:
+signer: 
 reviewArchive: 
 twitter: SalletOne
 social:

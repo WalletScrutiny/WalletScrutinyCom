@@ -12,7 +12,7 @@ updated: 2025-01-10
 version: 1.3.09
 stars: 4
 ratings: 
-reviews: 22
+reviews: 24
 size: 
 website: https://uxuy.com
 repository: 
@@ -21,6 +21,7 @@ icon: com.uxuy.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-09-05
 signer: 
 reviewArchive: 

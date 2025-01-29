@@ -20,6 +20,7 @@ icon: load.ng.loadng.jpg
 bugbounty: 
 meta: obsolete
 verdict: nowallet
+appHashes: 
 date: 2023-12-18
 signer: 
 reviewArchive: 

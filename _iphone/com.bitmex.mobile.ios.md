@@ -20,6 +20,7 @@ icon: com.bitmex.mobile.ios.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2022-02-10
 signer: 
 reviewArchive: 

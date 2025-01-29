@@ -21,6 +21,7 @@ icon: com.traderwagon.android.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2024-03-02
 signer: 
 reviewArchive: 

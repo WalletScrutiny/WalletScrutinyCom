@@ -26,9 +26,10 @@ icon: onekey.touch.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-appHashes: [a4cdce143d400c185f24885c6848fdad398e34206850a3ea8bcc7e219b30e06f]
+appHashes:
+- a4cdce143d400c185f24885c6848fdad398e34206850a3ea8bcc7e219b30e06f
 date: 2023-07-13
-signer:
+signer: 
 reviewArchive: 
 twitter: OneKeyHQ
 social:

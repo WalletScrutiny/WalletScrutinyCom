@@ -22,6 +22,7 @@ icon: tjwallet.w1.png
 bugbounty: 
 meta: ok
 verdict: plainkey
+appHashes: 
 date: 2022-05-03
 signer: 
 reviewArchive: 

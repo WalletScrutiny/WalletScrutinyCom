@@ -21,6 +21,7 @@ icon: com.merseyside.cripto.png
 bugbounty: 
 meta: obsolete
 verdict: fake
+appHashes: 
 date: 2023-04-08
 signer: 
 reviewArchive: 

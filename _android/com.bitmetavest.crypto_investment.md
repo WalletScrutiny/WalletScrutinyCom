@@ -20,6 +20,7 @@ icon: com.bitmetavest.crypto_investment.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-11-02
 signer: 
 reviewArchive: 

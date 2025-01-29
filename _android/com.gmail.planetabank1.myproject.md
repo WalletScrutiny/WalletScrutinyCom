@@ -20,6 +20,7 @@ icon: com.gmail.planetabank1.myproject.jpg
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-12-19
 signer: 
 reviewArchive: 

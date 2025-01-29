@@ -23,6 +23,7 @@ icon: ledgernano.png
 bugbounty: 
 meta: defunct
 verdict: noita
+appHashes: 
 date: 2022-01-22
 signer: 
 reviewArchive: 

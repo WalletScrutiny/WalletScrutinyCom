@@ -23,6 +23,7 @@ icon: liquideos.rpi.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2022-05-17
 signer: 
 reviewArchive: 

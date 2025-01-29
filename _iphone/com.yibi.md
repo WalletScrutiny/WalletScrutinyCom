@@ -20,6 +20,7 @@ icon: com.yibi.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-08-19
 signer: 
 reviewArchive: 

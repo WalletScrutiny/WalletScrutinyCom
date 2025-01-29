@@ -21,12 +21,13 @@ icon: fio.ecoin.wallet.png
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: []
 date: 2024-04-19
 signer: 
 reviewArchive:
 - date: 2021-09-03
   version: 6.0.8
-  appHash: 
+  appHashes: []
   gitRevision: 46a69d1c5e10345207ffc36e81dfa9c0da3a04e3
   verdict: nowallet
 twitter: ecoinofficial

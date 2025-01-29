@@ -21,6 +21,7 @@ icon: org.coinid.wallet.btc.jpg
 bugbounty: 
 meta: obsolete
 verdict: ftbfs
+appHashes: 
 date: 2024-11-09
 signer: 
 reviewArchive: 

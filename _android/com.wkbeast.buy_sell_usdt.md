@@ -21,6 +21,7 @@ icon: com.wkbeast.buy_sell_usdt.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2024-04-19
 signer: 
 reviewArchive: 

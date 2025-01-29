@@ -21,6 +21,7 @@ icon: com.pundix.functionx.png
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2024-08-20
 signer: 
 reviewArchive: 

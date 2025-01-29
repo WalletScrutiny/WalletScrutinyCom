@@ -11,7 +11,7 @@ released: 2015-09-29
 updated: 2024-12-16
 version: 2.97.0
 stars: 4.7
-reviews: 214227
+reviews: 214601
 size: '392571904'
 website: https://www.maya.ph/
 repository: 
@@ -20,6 +20,7 @@ icon: com.paymaya.ios.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-09-02
 signer: 
 reviewArchive: 

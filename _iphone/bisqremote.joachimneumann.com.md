@@ -20,6 +20,7 @@ icon: bisqremote.joachimneumann.com.jpg
 bugbounty: 
 meta: obsolete
 verdict: nowallet
+appHashes: 
 date: 2024-05-04
 signer: 
 reviewArchive: 

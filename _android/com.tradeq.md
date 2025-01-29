@@ -21,6 +21,7 @@ icon: com.tradeq.png
 bugbounty: 
 meta: defunct
 verdict: nowallet
+appHashes: 
 date: 2023-07-02
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.cm.coinmark.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-08-04
 signer: 
 reviewArchive: 

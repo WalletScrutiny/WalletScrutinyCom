@@ -21,6 +21,7 @@ icon: com.capitalika.exhange.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2022-07-14
 signer: 
 reviewArchive: 
@@ -30,7 +31,7 @@ social:
 - https://www.youtube.com/channel/UC6Rid10fMs-Rg0kHK8ni9MA
 - https://www.instagram.com/capitalika/
 redirect_from: 
-developerName: Capitalika
+developerName: CAPITALIKA®
 features: 
 
 ---

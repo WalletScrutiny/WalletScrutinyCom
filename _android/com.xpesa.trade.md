@@ -21,6 +21,7 @@ icon: com.xpesa.trade.jpg
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2023-06-11
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.econobit.app.png
 bugbounty: 
 meta: stale
 verdict: fewusers
+appHashes: 
 date: 2024-11-04
 signer: 
 reviewArchive: 

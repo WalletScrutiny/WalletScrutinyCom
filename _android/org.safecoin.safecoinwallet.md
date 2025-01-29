@@ -20,6 +20,7 @@ icon: org.safecoin.safecoinwallet.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2023-01-30
 signer: 
 reviewArchive: 

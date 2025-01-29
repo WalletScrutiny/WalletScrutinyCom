@@ -20,6 +20,7 @@ icon: com.zumopay.core.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2023-12-15
 signer: 
 reviewArchive: 

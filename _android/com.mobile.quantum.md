@@ -21,6 +21,7 @@ icon: com.mobile.quantum.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-05-30
 signer: 
 reviewArchive: 

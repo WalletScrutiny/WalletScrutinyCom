@@ -21,6 +21,7 @@ icon: crypto.wallet.chainapp.png
 bugbounty: 
 meta: removed
 verdict: nosource
+appHashes: 
 date: 2023-12-19
 signer: 
 reviewArchive: 

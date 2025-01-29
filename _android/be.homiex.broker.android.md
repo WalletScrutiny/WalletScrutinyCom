@@ -20,6 +20,7 @@ icon: be.homiex.broker.android.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2021-10-22
 signer: 
 reviewArchive: 

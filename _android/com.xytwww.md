@@ -21,6 +21,7 @@ icon: com.xytwww.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2023-06-11
 signer: 
 reviewArchive: 

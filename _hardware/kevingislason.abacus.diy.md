@@ -22,6 +22,7 @@ icon: kevingislason.abacus.diy.png
 bugbounty: 
 meta: stale
 verdict: diy
+appHashes: 
 date: 2022-05-24
 signer: 
 reviewArchive: 

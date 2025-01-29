@@ -21,6 +21,7 @@ icon: com.Coinals.Wallet.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2021-11-22
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.companyname.swaptobe.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-11-29
 signer: 
 reviewArchive: 

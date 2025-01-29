@@ -22,6 +22,7 @@ icon: com.getchange.wallet.cordova.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2020-05-29
 signer: 
 reviewArchive: 

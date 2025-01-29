@@ -20,6 +20,7 @@ icon: com.vn.trextrade.tt.jpg
 bugbounty: 
 meta: removed
 verdict: nosendreceive
+appHashes: 
 date: 2024-12-31
 signer: 
 reviewArchive: 

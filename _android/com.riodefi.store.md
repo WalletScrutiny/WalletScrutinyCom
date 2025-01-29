@@ -21,6 +21,7 @@ icon: com.riodefi.store.png
 bugbounty: 
 meta: removed
 verdict: nosource
+appHashes: 
 date: 2024-02-05
 signer: 
 reviewArchive: 

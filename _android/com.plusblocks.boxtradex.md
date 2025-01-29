@@ -21,6 +21,7 @@ icon: com.plusblocks.boxtradex.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-04-11
 signer: 
 reviewArchive: 

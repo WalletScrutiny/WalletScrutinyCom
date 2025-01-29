@@ -23,6 +23,7 @@ icon: sirinv3.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2021-12-03
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.vowcurrency.vow.png
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2023-07-24
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.cypherstack.stackduo.png
 bugbounty: 
 meta: ok
 verdict: fewusers
+appHashes: 
 date: 2024-05-31
 signer: 
 reviewArchive: 

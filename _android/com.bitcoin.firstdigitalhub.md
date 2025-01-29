@@ -20,6 +20,7 @@ icon: com.bitcoin.firstdigitalhub.jpg
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2021-09-04
 signer: 
 reviewArchive: 

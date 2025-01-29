@@ -20,6 +20,7 @@ icon: app.vercel.buy_btc_kohl.twa.jpg
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-08-04
 signer: 
 reviewArchive: 

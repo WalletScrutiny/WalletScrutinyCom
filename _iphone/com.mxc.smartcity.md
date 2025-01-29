@@ -20,6 +20,7 @@ icon: com.mxc.smartcity.jpg
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2023-10-16
 signer: 
 reviewArchive: 

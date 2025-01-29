@@ -21,6 +21,7 @@ icon: com.regelity.mobileex.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-07-17
 signer: 
 reviewArchive: 

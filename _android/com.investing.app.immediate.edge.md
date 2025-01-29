@@ -21,6 +21,7 @@ icon: com.investing.app.immediate.edge.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2023-07-21
 signer: 
 reviewArchive: 

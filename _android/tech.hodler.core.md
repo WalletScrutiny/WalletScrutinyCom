@@ -21,6 +21,7 @@ icon: tech.hodler.core.png
 bugbounty: 
 meta: removed
 verdict: ftbfs
+appHashes: 
 date: 2024-04-26
 signer: 
 reviewArchive: 

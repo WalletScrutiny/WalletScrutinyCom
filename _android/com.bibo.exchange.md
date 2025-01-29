@@ -20,6 +20,7 @@ icon: com.bibo.exchange.jpg
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-08-04
 signer: 
 reviewArchive: 

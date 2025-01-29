@@ -11,7 +11,7 @@ released: 2021-03-30
 updated: 2024-07-08
 version: 3.1.0
 stars: 4.4
-reviews: 850
+reviews: 863
 size: '135632896'
 website: https://bitcoindepot.com/
 repository: 
@@ -20,6 +20,7 @@ icon: com.cashtocrypto.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-11-08
 signer: 
 reviewArchive: 

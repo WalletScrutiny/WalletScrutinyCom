@@ -20,6 +20,7 @@ icon: com.babbltd.babb-ios.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-07-10
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: io.coinchange.png
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-11-25
 signer: 
 reviewArchive: 

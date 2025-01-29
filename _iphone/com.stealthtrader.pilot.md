@@ -20,6 +20,7 @@ icon: com.stealthtrader.pilot.jpg
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2023-01-11
 signer: 
 reviewArchive: 

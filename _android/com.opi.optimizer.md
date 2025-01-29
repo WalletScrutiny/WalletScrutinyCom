@@ -20,6 +20,7 @@ icon: com.opi.optimizer.png
 bugbounty: 
 meta: stale
 verdict: fewusers
+appHashes: 
 date: 2024-08-23
 signer: 
 reviewArchive: 

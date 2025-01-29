@@ -20,6 +20,7 @@ icon: nulpay.merchant.jpg
 bugbounty: 
 meta: ok
 verdict: fewusers
+appHashes: 
 date: 2024-03-25
 signer: 
 reviewArchive: 

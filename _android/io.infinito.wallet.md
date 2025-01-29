@@ -21,6 +21,7 @@ icon: io.infinito.wallet.png
 bugbounty: 
 meta: obsolete
 verdict: nosource
+appHashes: 
 date: 2024-08-26
 signer: 
 reviewArchive: 

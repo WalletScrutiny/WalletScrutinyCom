@@ -20,6 +20,7 @@ icon: com.hi.dollars.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2022-12-06
 signer: 
 reviewArchive: 

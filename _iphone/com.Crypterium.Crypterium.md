@@ -20,6 +20,7 @@ icon: com.Crypterium.Crypterium.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-05-20
 signer: 
 reviewArchive: 

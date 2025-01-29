@@ -20,6 +20,7 @@ icon: com.vcoin.wallet.png
 bugbounty: 
 meta: obsolete
 verdict: wip
+appHashes: 
 date: 2024-09-14
 signer: 
 reviewArchive: 

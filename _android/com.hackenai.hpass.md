@@ -20,6 +20,7 @@ icon: com.hackenai.hpass.png
 bugbounty: 
 meta: obsolete
 verdict: fewusers
+appHashes: 
 date: 2024-09-06
 signer: 
 reviewArchive: 

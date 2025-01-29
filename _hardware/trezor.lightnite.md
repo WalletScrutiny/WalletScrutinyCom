@@ -25,6 +25,7 @@ icon: trezor.lightnite.png
 bugbounty: 
 meta: discontinued
 verdict: wip
+appHashes: 
 date: 2022-05-19
 signer: 
 reviewArchive: 

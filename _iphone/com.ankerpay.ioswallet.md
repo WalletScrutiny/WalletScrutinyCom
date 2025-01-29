@@ -20,6 +20,7 @@ icon: com.ankerpay.ioswallet.jpg
 bugbounty: 
 meta: stale
 verdict: nosource
+appHashes: 
 date: 2024-11-21
 signer: 
 reviewArchive: 

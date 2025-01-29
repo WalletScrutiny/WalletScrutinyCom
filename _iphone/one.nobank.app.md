@@ -20,6 +20,7 @@ icon: one.nobank.app.jpg
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2023-08-09
 signer: 
 reviewArchive: 

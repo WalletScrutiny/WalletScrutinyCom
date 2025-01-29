@@ -21,6 +21,7 @@ icon: kr.co.newlinkcorp.cashierest.png
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-10-12
 signer: 
 reviewArchive: 

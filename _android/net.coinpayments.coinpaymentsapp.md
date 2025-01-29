@@ -10,7 +10,7 @@ appCountry:
 released: 2016-11-15
 updated: 2024-12-18
 version: VARY
-stars: 3.5
+stars: 3.4
 ratings: 2277
 reviews: 128
 size: 
@@ -21,6 +21,7 @@ icon: net.coinpayments.coinpaymentsapp.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-05-25
 signer: 
 reviewArchive: 

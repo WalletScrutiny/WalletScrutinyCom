@@ -20,6 +20,7 @@ icon: com.secuxtech.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2024-09-03
 signer: 
 reviewArchive: 

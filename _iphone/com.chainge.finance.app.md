@@ -20,6 +20,7 @@ icon: com.chainge.finance.app.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2021-10-21
 signer: 
 reviewArchive: 

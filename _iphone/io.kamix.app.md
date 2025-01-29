@@ -20,6 +20,7 @@ icon: io.kamix.app.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-11-17
 signer: 
 reviewArchive: 

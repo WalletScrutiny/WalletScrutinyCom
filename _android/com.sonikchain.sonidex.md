@@ -20,6 +20,7 @@ icon: com.sonikchain.sonidex.png
 bugbounty: 
 meta: obsolete
 verdict: fewusers
+appHashes: 
 date: 2024-01-19
 signer: 
 reviewArchive: 

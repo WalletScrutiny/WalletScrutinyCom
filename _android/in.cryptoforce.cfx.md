@@ -21,6 +21,7 @@ icon: in.cryptoforce.cfx.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-08-18
 signer: 
 reviewArchive: 

@@ -10,9 +10,9 @@ appCountry:
 released: 2019-05-19
 updated: 2024-12-09
 version: 2.6.5
-stars: 3.9
+stars: 4
 ratings: 758
-reviews: 212
+reviews: 211
 size: 
 website: http://www.walletofsatoshi.com
 repository: 
@@ -21,6 +21,7 @@ icon: com.livingroomofsatoshi.wallet.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-05-25
 signer: 
 reviewArchive: 

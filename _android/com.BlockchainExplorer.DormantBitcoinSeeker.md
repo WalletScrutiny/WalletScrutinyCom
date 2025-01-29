@@ -21,6 +21,7 @@ icon: com.BlockchainExplorer.DormantBitcoinSeeker.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2023-05-09
 signer: 
 reviewArchive: 

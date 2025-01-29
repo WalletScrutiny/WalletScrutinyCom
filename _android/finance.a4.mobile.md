@@ -21,6 +21,7 @@ icon: finance.a4.mobile.jpg
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2024-08-04
 signer: 
 reviewArchive: 

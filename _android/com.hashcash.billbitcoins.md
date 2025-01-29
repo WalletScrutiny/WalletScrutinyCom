@@ -21,6 +21,7 @@ icon: com.hashcash.billbitcoins.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2024-11-28
 signer: 
 reviewArchive: 

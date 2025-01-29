@@ -21,6 +21,7 @@ icon: com.cloudwallet.android.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2023-03-29
 signer: 
 reviewArchive: 

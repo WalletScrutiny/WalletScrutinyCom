@@ -20,6 +20,7 @@ icon: com.jingyang.eceapp.png
 bugbounty: 
 meta: obsolete
 verdict: wip
+appHashes: 
 date: 2023-07-17
 signer: 
 reviewArchive: 

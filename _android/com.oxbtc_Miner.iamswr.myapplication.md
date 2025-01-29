@@ -21,6 +21,7 @@ icon: com.oxbtc_Miner.iamswr.myapplication.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2022-01-02
 signer: 
 reviewArchive: 

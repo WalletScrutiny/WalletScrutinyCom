@@ -20,6 +20,7 @@ icon: com.cryptoplanetgreencg.bitcoin.investment.app2021.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2021-09-25
 signer: 
 reviewArchive: 

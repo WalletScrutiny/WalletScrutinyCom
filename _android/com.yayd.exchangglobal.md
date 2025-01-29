@@ -21,6 +21,7 @@ icon: com.yayd.exchangglobal.png
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-05-18
 signer: 
 reviewArchive: 

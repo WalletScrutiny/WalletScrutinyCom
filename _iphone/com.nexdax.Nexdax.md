@@ -20,6 +20,7 @@ icon: com.nexdax.Nexdax.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-11-30
 signer: 
 reviewArchive: 

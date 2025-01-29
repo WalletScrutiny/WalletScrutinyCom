@@ -20,6 +20,7 @@ icon: com.virtuabroker.ui.png
 bugbounty: 
 meta: obsolete
 verdict: wip
+appHashes: 
 date: 2024-02-14
 signer: 
 reviewArchive: 

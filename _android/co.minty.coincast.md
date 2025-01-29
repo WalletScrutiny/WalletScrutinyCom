@@ -21,6 +21,7 @@ icon: co.minty.coincast.png
 bugbounty: 
 meta: obsolete
 verdict: nosource
+appHashes: 
 date: 2024-05-04
 signer: 
 reviewArchive: 

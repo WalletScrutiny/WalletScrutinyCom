@@ -21,6 +21,7 @@ icon: com.wEthereumCode_15093934.jpg
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2023-08-16
 signer: 
 reviewArchive: 

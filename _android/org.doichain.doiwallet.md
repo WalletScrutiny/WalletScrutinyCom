@@ -20,6 +20,7 @@ icon: org.doichain.doiwallet.png
 bugbounty: 
 meta: ok
 verdict: fewusers
+appHashes: 
 date: 2024-07-10
 signer: 
 reviewArchive: 

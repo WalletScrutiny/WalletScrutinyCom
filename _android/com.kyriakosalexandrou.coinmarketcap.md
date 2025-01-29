@@ -12,7 +12,7 @@ updated: 2024-12-02
 version: 15.17.1
 stars: 3.8
 ratings: 26669
-reviews: 1390
+reviews: 1389
 size: 
 website: https://www.dopamineapp.com
 repository: 
@@ -21,6 +21,7 @@ icon: com.kyriakosalexandrou.coinmarketcap.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2024-07-16
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.zodeak.exchange.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-08-04
 signer: 
 reviewArchive: 

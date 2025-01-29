@@ -21,6 +21,7 @@ icon: io.freewallet.mobile.jpg
 bugbounty: 
 meta: obsolete
 verdict: ftbfs
+appHashes: 
 date: 2021-10-22
 signer: 
 reviewArchive: 

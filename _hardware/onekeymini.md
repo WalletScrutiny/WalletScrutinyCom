@@ -24,9 +24,10 @@ icon: onekeymini.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-appHashes: [88b76f05d95e6718d0bf3d4dabb12cf2403cfed91c351008441fe2a33b1cd9ae]
+appHashes:
+- 88b76f05d95e6718d0bf3d4dabb12cf2403cfed91c351008441fe2a33b1cd9ae
 date: 2023-07-12
-signer:
+signer: 
 reviewArchive:
 - date: 2022-12-28
   version: 

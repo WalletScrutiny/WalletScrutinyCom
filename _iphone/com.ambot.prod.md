@@ -20,6 +20,7 @@ icon: com.ambot.prod.jpg
 bugbounty: 
 meta: obsolete
 verdict: nobtc
+appHashes: 
 date: 2024-01-16
 signer: 
 reviewArchive: 

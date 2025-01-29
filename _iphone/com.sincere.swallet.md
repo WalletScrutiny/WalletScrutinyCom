@@ -20,6 +20,7 @@ icon: com.sincere.swallet.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-06-29
 signer: 
 reviewArchive: 

@@ -22,6 +22,7 @@ icon: appliedem.bitboard.diy.png
 bugbounty: 
 meta: obsolete
 verdict: diy
+appHashes: 
 date: 2022-05-23
 signer: 
 reviewArchive: 

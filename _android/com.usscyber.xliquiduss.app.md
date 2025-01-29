@@ -20,6 +20,7 @@ icon: com.usscyber.xliquiduss.app.png
 bugbounty: 
 meta: stale
 verdict: fewusers
+appHashes: 
 date: 2025-01-15
 signer: 
 reviewArchive: 

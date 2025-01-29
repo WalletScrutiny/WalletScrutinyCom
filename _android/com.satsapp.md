@@ -20,6 +20,7 @@ icon: com.satsapp.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2020-07-31
 signer: 
 reviewArchive: 

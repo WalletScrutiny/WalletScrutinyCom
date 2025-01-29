@@ -21,6 +21,7 @@ icon: org.orinocodev.orinoco.io.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-04-15
 signer: 
 reviewArchive: 

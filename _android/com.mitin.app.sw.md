@@ -21,6 +21,7 @@ icon: com.mitin.app.sw.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2022-02-16
 signer: 
 reviewArchive: 

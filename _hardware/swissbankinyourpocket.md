@@ -22,6 +22,7 @@ icon: swissbankinyourpocket.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2021-08-15
 signer: 
 reviewArchive: 

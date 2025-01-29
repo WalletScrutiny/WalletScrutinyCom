@@ -21,6 +21,7 @@ icon: com.mayex.trading.jpg
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-03-23
 signer: 
 reviewArchive: 

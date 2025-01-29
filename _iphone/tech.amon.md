@@ -20,6 +20,7 @@ icon: tech.amon.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-08-17
 signer: 
 reviewArchive: 

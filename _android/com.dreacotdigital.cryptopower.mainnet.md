@@ -21,6 +21,7 @@ icon: com.dreacotdigital.cryptopower.mainnet.png
 bugbounty: 
 meta: ok
 verdict: fewusers
+appHashes: 
 date: 2024-02-05
 signer: 
 reviewArchive: 

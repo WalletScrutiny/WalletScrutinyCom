@@ -22,6 +22,7 @@ icon: com.citowise.wallet.png
 bugbounty: 
 meta: removed
 verdict: nosource
+appHashes: 
 date: 2021-06-02
 signer: 
 reviewArchive: 

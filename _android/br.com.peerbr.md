@@ -21,6 +21,7 @@ icon: br.com.peerbr.png
 bugbounty: 
 meta: ok
 verdict: wip
+appHashes: 
 date: 2024-11-29
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.dextrade.android.png
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-05-06
 signer: 
 reviewArchive: 

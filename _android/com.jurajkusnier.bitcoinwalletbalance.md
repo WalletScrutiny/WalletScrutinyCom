@@ -21,6 +21,7 @@ icon: com.jurajkusnier.bitcoinwalletbalance.png
 bugbounty: 
 meta: obsolete
 verdict: nowallet
+appHashes: 
 date: 2022-05-22
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.techbank.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2023-12-16
 signer: 
 reviewArchive: 

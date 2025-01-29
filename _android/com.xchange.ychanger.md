@@ -21,6 +21,7 @@ icon: com.xchange.ychanger.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-10-06
 signer: 
 reviewArchive: 

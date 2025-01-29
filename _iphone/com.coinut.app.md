@@ -20,6 +20,7 @@ icon: com.coinut.app.jpg
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-05-30
 signer: 
 reviewArchive: 

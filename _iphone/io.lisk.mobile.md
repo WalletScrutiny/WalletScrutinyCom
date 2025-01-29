@@ -20,6 +20,7 @@ icon: io.lisk.mobile.jpg
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2024-12-15
 signer: 
 reviewArchive: 
