@@ -24,13 +24,19 @@ icon: io.nunchuk.android.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-appHashes: []
+appHashes:
+- c0cc213b0e5f309d4bf83d8ff576f7e7c324c2273e202170a10704b0b5d9d535
+- 03a0faf7feae6ced736a0894049163dbfc81d8b616c0c549d1b9dc7c781bd0cc
+- 3f704527776c7696c85728790f8639ced4d38eaa1a43229d33c4c8b8aa0a1e0a
 date: 2025-01-27
 signer:
 reviewArchive:
 - date: 2025-01-15
   version: 1.9.58
-  appHashes: [8f53fa42fc072381ea228314fa421b52a77b33e9fe6029095fc1d13c68fd9b41, 24e13fbf44b47b8dc46c6043fc0383ed59075f97da22489d34f38f02a36616a2, 9027651c5ed7dd4a31d6cd073023bb77f38b799d8a0aa0ff0f81a184b1795dd3, b85a00b1c6ac7b6b2ed068beb3fd134d5386e2f30885e9ab5202c0d5e0d90086, 02c32758930cf0d4d87a44a5985f7bf97550280e1539074276a277866489f022, 0daeee1e46edda5bc66c6878af256c43da2cb5378cdfc944addd8ff0498ac2f8]
+  appHashes:
+  - 8f53fa42fc072381ea228314fa421b52a77b33e9fe6029095fc1d13c68fd9b41
+  - 9027651c5ed7dd4a31d6cd073023bb77f38b799d8a0aa0ff0f81a184b1795dd3 
+  - 02c32758930cf0d4d87a44a5985f7bf97550280e1539074276a277866489f022 
   gitRevision: 8080d3a7f2c5ea5e5acf56295040b814accb6b11
   verdict: nonverifiable 
 - date: 2024-11-19
@@ -85,22 +91,6 @@ The provider has their own **[script](https://github.com/nunchuk-io/nunchuk-andr
 
 ```
 ===== Begin Results =====
-*** Comparing Official and Built APKs Hashes ***
-Official APKs:
-========================================
-**Official APKs Hashes**
-c0cc213b0e5f309d4bf83d8ff576f7e7c324c2273e202170a10704b0b5d9d535 base.apk
-03a0faf7feae6ced736a0894049163dbfc81d8b616c0c549d1b9dc7c781bd0cc split_config.armeabi_v7a.apk
-3f704527776c7696c85728790f8639ced4d38eaa1a43229d33c4c8b8aa0a1e0a split_config.xhdpi.apk
-========================================
-Built APKs:
-========================================
-**Built APKs Hashes**
-8b0cbc91db4f5764bd1cc2341564a9b219ef94b2f7bbecf360f177076fd46ebd base.apk
-a92ea3ad793f34babd7db28bdc5365f8e5f9838e7dd41e739822121e36b629cc split_config.armeabi_v7a.apk
-aca0de02986bb2860e30dfebf4dd04ef4f57bb4c285400fb94b643635e617d10 split_config.xhdpi.apk
-========================================
-Running diffs between official and built unzipped APKs...
 
 Comparing armeabi_v7a...
 Differences found between /tmp/test_io.nunchuk.android_1.9.59/fromPlay-unzipped/armeabi_v7a and /tmp/test_io.nunchuk.android_1.9.59/fromBuild-unzipped/armeabi_v7a
@@ -126,11 +116,10 @@ Only in /tmp/test_io.nunchuk.android_1.9.59/fromPlay-unzipped/xhdpi: stamp-cert-
 
 # Summary
 
-## base.apk
+## base.apk 
 
-c0cc213b0e5f309d4bf83d8ff576f7e7c324c2273e202170a10704b0b5d9d535 - Official
-8b0cbc91db4f5764bd1cc2341564a9b219ef94b2f7bbecf360f177076fd46ebd - Built
-
+`c0cc213b0e5f309d4bf83d8ff576f7e7c324c2273e202170a10704b0b5d9d535`
+ 
 {% include diffoscope-modal.html label='Diffoscope between the two apks on an upgraded Androguard Python venv' url='/assets/diffoscope-results/android/io.nunchuk.android/1.9.59/diffo-io.nunchuk.android_1.9.59-androguardvenv-base.html' %}
 
 ### Diffs:
@@ -161,10 +150,9 @@ $ stat --format="%s" /tmp/test_io.nunchuk.android_1.9.59/fromPlay-unzipped/base/
 ```
 <hr>
 
-## armeabi_v7a.apk
+## armeabi_v7a.apk 
 
-03a0faf7feae6ced736a0894049163dbfc81d8b616c0c549d1b9dc7c781bd0cc - Official
-a92ea3ad793f34babd7db28bdc5365f8e5f9838e7dd41e739822121e36b629cc - Built
+`03a0faf7feae6ced736a0894049163dbfc81d8b616c0c549d1b9dc7c781bd0cc`
 
 {% include diffoscope-modal.html label='Diffoscope between the two matching armeabi_v7a apks' url='/assets/diffoscope-results/android/io.nunchuk.android/1.9.59/diffo-io.nunchuk.android_1.9.59-built-armeabi-vs-play-armeabi.html' %}
 
@@ -181,10 +169,9 @@ $ stat --format="%s" /tmp/test_io.nunchuk.android_1.9.59/fromPlay-unzipped/armea
 ```
 <hr>
 
-## xhdpi.apk
+## xhdpi.apk 
 
-3f704527776c7696c85728790f8639ced4d38eaa1a43229d33c4c8b8aa0a1e0a - Official
-aca0de02986bb2860e30dfebf4dd04ef4f57bb4c285400fb94b643635e617d10 - Built
+`3f704527776c7696c85728790f8639ced4d38eaa1a43229d33c4c8b8aa0a1e0a`
 
 {% include diffoscope-modal.html label='Diffoscope between the two matching xhdpi apks' url='/assets/diffoscope-results/android/io.nunchuk.android/1.9.59/diffo-io.nunchuk.android_1.9.59-built-xhdpi-vs-play-xhdpi.html' %}
 
@@ -192,13 +179,11 @@ aca0de02986bb2860e30dfebf4dd04ef4f57bb4c285400fb94b643635e617d10 - Built
 
 **AndroidManifest.xml**
 
-We run: 
+We repeated the process due to an [error](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/merge_requests/965?resolved_conflicts=true#note_2319840707) where we may have extracted the same apk using apktool on two different directories.
 
-```
-diffoscope --html diffoscope-decoded-xhdpi-AndroidManifest.xml.html fromBuild-decoded-xhdpi/AndroidManifest.xml fromPlay-decoded-xhdpi/AndroidManifest.xml 
-danny@lw10:/tmp/test_io.nunchuk.android_1.9.59$ ls diffoscope-*
-ls: cannot access 'diffoscope-*': No such file or directory
-```
+`$ diffoscope --html diffo-xhdpi-decoded-AndroidManifest.xml.html new/built-xhdpi-decoded/AndroidManifest.xml new/play-xhdpi-decoded/AndroidManifest.xml`
+
+{% include diffoscope-modal.html label='Diffoscope between the built-decoded AndroidManifest.xml and the play-decoded AndroidManifest.xml ' url='/assets/diffoscope-results/android/io.nunchuk.android/1.9.59/diffo-xhdpi-decoded-AndroidManifest.xml.html' %}
 
 **META-INF**
 
@@ -215,7 +200,3 @@ $ stat --format="%s" /tmp/test_io.nunchuk.android_1.9.59/fromPlay-unzipped/armea
 ## Conclusion
 
 While the app is **nonverifiable** due to the differences observed, these differences are largely explained by the signing process and metadata injection by the Play Store. The diffs in resources.arsc are likely due to variations in the build toolchain or resource optimization applied by the Play Store. It is highly probable that this [crashlytics diff on resources.arsc](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/merge_requests/965#note_2314802828) came from a bug that has yet to be addressed. 
-
-
-
-
