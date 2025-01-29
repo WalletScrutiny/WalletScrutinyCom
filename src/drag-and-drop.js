@@ -178,6 +178,8 @@ async function handleFile(file) {
         }
         addButtonToDropArea(buttonText, `/new_attestation/?sha256=${encodeURIComponent(hash)}&assetEventId="aaaaaa"`, "btn btn-primary");
         addMessageToDropArea(message);
+
+        addButtonToDropArea("How Attestations work", `/attestations/`, "btn btn-primary", true);
     } else {
         let url = `/new_asset/?sha256=${encodeURIComponent(hash)}`;
 
