@@ -405,6 +405,31 @@
   </div>
 </div>
 
+<!-- RISK ASSESSMENT -->
+<div class="step developer">
+  <i class="fas fa-exclamation-triangle circle risk"></i>
+  <div class="title">
+    <h3>How risky of a business do they run?</h3>
+    <div class="textbox">
+      {% if custodian.riskAssessment %}
+        <div class="risk-factors">
+          <ul>
+            {% if custodian.riskAssessment.derivatives %}
+              <li><i class="fas fa-chart-line"></i> Offers derivatives trading</li>
+            {% endif %}
+            {% if custodian.riskAssessment.memecoins %}
+              <li><i class="fas fa-coins"></i> Lists memecoins</li>
+            {% endif %}
+            {% if custodian.riskAssessment.gambling %}
+              <li><i class="fas fa-dice"></i> Provides gambling services</li>
+            {% endif %}
+          </ul>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
 <!-- BITCOIN CONTRIBUTION -->
 <div class="step developer">
   <i class="fab fa-bitcoin circle ecosystem"></i>
@@ -457,14 +482,14 @@
       {% if custodian.userAccess.withdrawalLimits %}
         <div class="limits">
           <h4>Withdrawal Limits</h4>
-          <ul>
-            {% if custodian.userAccess.withdrawalLimits.daily %}
-              <li>Daily: {{ custodian.userAccess.withdrawalLimits.daily }}</li>
+          {% if custodian.userAccess.withdrawalLimits.status == "tiered" %}
+            <span>Tiered limits by payment method</span>
+            {% if custodian.userAccess.withdrawalLimits.documentation_url %}
+              <a href="{{ custodian.userAccess.withdrawalLimits.documentation_url }}" class="subtle-source" target="_blank">
+                <i class="fas fa-info-circle"></i>
+              </a>
             {% endif %}
-            {% if custodian.userAccess.withdrawalLimits.monthly %}
-              <li>Monthly: {{ custodian.userAccess.withdrawalLimits.monthly }}</li>
-            {% endif %}
-          </ul>
+          {% endif %}
         </div>
       {% endif %}
     </div>
@@ -610,6 +635,11 @@
 .circle.security {
   background: #7f8c8d;  
   border-color: #95a5a6;
+}
+
+.circle.risk {
+  background: #ff9800;  
+  border-color: #ff9800;
 }
 
 /* Add a subtle shadow and glow effect */
