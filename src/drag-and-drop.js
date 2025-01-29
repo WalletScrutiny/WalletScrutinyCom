@@ -125,6 +125,48 @@ function processFiles(files) {
     handleFile(files[0]);
 }
 
+function getVersionFromFilename(filename) {
+    // Common version patterns in filenames
+    const patterns = [
+        /[._-]v?(\d+\.\d+\.?\d*)/i,           // matches: app-1.2.3.*, app_v1.2.3.*
+        /[._-]version[._-]?(\d+\.\d+\.?\d*)/i, // matches: app-version-1.2.3.*
+        /[._-](\d+_\d+(?:_\d+)?)/,            // matches: app-1_2_3.*
+        /_(\d+\.\d+\.?\d*)_(?:amd64|x86_64|arm64)/i,   // matches: resurrection_wallet_0.3.0_amd64.*
+        /[._-](\d+\.\d+\.?\d*)[._-]/i         // matches: app.1.2.3.anything
+    ];
+
+    for (const pattern of patterns) {
+        const match = filename.match(pattern);
+        if (match) {
+            // Replace underscores with dots if present
+            return match[1].replace(/_/g, '.');
+        }
+    }
+    return null;
+}
+
+async function setFormFields(hash, appData, file) {
+    // If we have a form with a sha256 input, set it to the hash
+    if (document.getElementById('sha256')) {
+        document.getElementById('sha256').value = hash;
+    }
+
+    // If we have a form with a appId or version input, set them
+    if (document.getElementById('appId') || document.getElementById('version')) {
+        const apkInfo = await getApkInfo(file);
+
+        if (apkInfo) {
+            document.getElementById('appId').value = apkInfo.package;
+            document.getElementById('version').value = apkInfo.versionName;
+        } else {
+            document.getElementById('appId').value = appData?.appId ? appData.appId : '';
+
+            const versionFromFilename = getVersionFromFilename(file.name);
+            document.getElementById('version').value = versionFromFilename ? versionFromFilename : '';
+        }
+    }
+}
+
 async function handleFile(file) {
     const hash = await calculateFileHash(file);
 
@@ -145,15 +187,7 @@ async function handleFile(file) {
         await handleUnknownFile(file, hash);
     }
 
-    // If we have a form with a sha256 input, set it to the hash
-    if (document.getElementById('sha256')) {
-        document.getElementById('sha256').value = hash;
-    }
-
-    // If we have a form with a appId input, set it to the appId
-    if (document.getElementById('appId') && appData.appId) {
-        document.getElementById('appId').value = appData.appId;
-    }
+    setFormFields(hash, appData, file);
 
     // Get attestations information for this hash from Nostr
     await nostrConnect();
@@ -211,8 +245,7 @@ async function handleUnknownFile(file, hash) {
 
 async function processUnknownFile(file, hash) {
     try {
-        const parser = new AppInfoParser(file);
-        const apkInfo = await parser.parse();
+        const apkInfo = await getApkInfo(file);
 
         if (apkInfo) {
             console.log("Processing unknown file");
@@ -222,6 +255,15 @@ async function processUnknownFile(file, hash) {
         }
     } catch (error) {
         console.debug("It's not an APK file:", error);
+        return null;
+    }
+}
+
+async function getApkInfo(file) {
+    try {
+        const parser = new AppInfoParser(file);
+        return await parser.parse();
+    } catch (error) {
         return null;
     }
 }
