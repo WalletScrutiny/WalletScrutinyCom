@@ -24,12 +24,13 @@ icon: io.nunchuk.android.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
+appHashes: 
 date: 2025-01-15
 signer: 
 reviewArchive:
 - date: 2024-11-19
   version: 1.9.53
-  appHashes: 
+  appHashes:
   - aaec6e500babbd1931db8485b99205468e426f6157df131f607aa69b6e821708
   gitRevision: b720beb1ee4f9de53638ab013f759690c8e787a4
   verdict: nonverifiable

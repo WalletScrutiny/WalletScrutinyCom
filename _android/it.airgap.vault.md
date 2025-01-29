@@ -23,7 +23,8 @@ icon: it.airgap.vault.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-appHashes: [aed91fdf47bad77ab0907a32c3441709ce57a4b6cea9d7b973f4ce858ca8ff88]
+appHashes:
+- aed91fdf47bad77ab0907a32c3441709ce57a4b6cea9d7b973f4ce858ca8ff88
 date: 2025-01-28
 signer: 486381324d8669c80ca9b8c79d383dc972ec284227d65ebfe9e31cad5fd3f342
 reviewArchive:

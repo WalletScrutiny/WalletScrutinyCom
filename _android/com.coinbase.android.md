@@ -9,10 +9,10 @@ appId: com.coinbase.android
 appCountry: 
 released: 2013-03-01
 updated: 2025-01-24
-version: 13.1.6
+version: 13.2.6
 stars: 4.6
 ratings: 666901
-reviews: 107210
+reviews: 107264
 size: 
 website: https://coinbase.com/
 repository: 

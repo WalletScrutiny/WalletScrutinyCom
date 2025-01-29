@@ -23,13 +23,15 @@ icon: com.greenaddress.greenbits_android_wallet.png
 bugbounty: 
 meta: ok
 verdict: reproducible
-appHashes: [7ec19b1845738321a779ffd0894e410250f97fe69bce27066f71b8c1205e7416]
+appHashes:
+- 7ec19b1845738321a779ffd0894e410250f97fe69bce27066f71b8c1205e7416
 date: 2025-01-08
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 reviewArchive:
 - date: 2025-01-08
   version: 4.1.2
-  appHash: [558f86da8d9d8e8bd0416ecb1df9a77b3146b85cd1fe0d674a06a898a2f9ba1d]
+  appHash:
+  - 558f86da8d9d8e8bd0416ecb1df9a77b3146b85cd1fe0d674a06a898a2f9ba1d
   gitRevision: 4458285efc54bd9bc76d74f88e696201a4af4a93
   verdict: reproducible
 - date: 2025-01-04

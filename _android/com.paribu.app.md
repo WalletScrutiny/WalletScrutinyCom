@@ -9,7 +9,7 @@ appId: com.paribu.app
 appCountry: 
 released: 2019-06-14
 updated: 2025-01-28
-version: 5.0.14
+version: 5.0.15
 stars: 4
 ratings: 73042
 reviews: 107

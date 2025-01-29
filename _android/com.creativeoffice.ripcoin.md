@@ -12,7 +12,7 @@ updated: 2025-01-27
 version: '32500'
 stars: 3.4
 ratings: 
-reviews: 227
+reviews: 228
 size: 
 website: https://antcoin.antf.online/
 repository: 

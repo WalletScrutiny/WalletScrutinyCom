@@ -9,7 +9,7 @@ appId: com.wallet.crypto.btc.eth
 appCountry: 
 released: 2023-09-06
 updated: 2025-01-24
-version: 1.4.5
+version: 1.5.0
 stars: 4.5
 ratings: 
 reviews: 32
