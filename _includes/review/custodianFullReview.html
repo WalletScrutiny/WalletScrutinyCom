@@ -353,7 +353,12 @@
       {% endif %}
       {% if custodian.trackRecord.insuranceCoverage %}
         <div class="insurance">
-          <strong>Insurance Coverage:</strong> {{ custodian.trackRecord.insuranceCoverage }}
+          <strong>Insurance Coverage:</strong> 
+          {% if custodian.trackRecord.insuranceTermsUrl %}
+            <a href="{{ custodian.trackRecord.insuranceTermsUrl }}">{{ custodian.trackRecord.insuranceCoverage }}</a>
+          {% else %}
+            {{ custodian.trackRecord.insuranceCoverage }}
+          {% endif %}
         </div>
       {% endif %}
     </div>

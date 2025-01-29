@@ -97,7 +97,8 @@ custodian:
         url: "https://therecord.media/hackers-bypass-coinbase-2fa-to-steal-customer-funds"
     sourceIncidents: "https://thecyberexpress.com/coinbase-cyber-attack-customer-data-sale"
     lastIncident: "July 2024"
-    insuranceCoverage: "$255M coverage"
+    insuranceCoverage: "See Coinbase's Insurance Terms"
+    insuranceTermsUrl: "https://www.coinbase.com/legal/insurance"
 
   businessModel:
     type: "Exchange & Custody"
