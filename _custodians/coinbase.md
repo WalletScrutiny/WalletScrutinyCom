@@ -157,9 +157,16 @@ custodian:
 
   bitcoinContribution:
     fossDevelopment: true
-    research: false
-    protocolSupport: false
-    details: "Occasionally sponsors open-source Bitcoin dev."
+    research: true
+    protocolSupport: true
+    research_url: "https://www.coinbase.com/en-gb/public-policy/advocacy/institute"
+    contributions:
+      - name: "Crypto Community Fund (2020)"
+        url: "https://www.coinbase.com/blog/coinbase-will-sponsor-two-bitcoin-core-developers-with-first-crypto"
+      - name: "Donation to Brink ($3.6M, 2024)"
+        url: "https://bitcoinmagazine.com/business/coinbases-givecrypto-donates-3-6-million-to-brink-to-fund-bitcoin-developers"
+      - name: "Gitcoin Partnership ($1M commitment)"
+        url: "https://www.coinbase.com/blog/coinbase-commits-1-million-for-public-goods-in-partnership-with-gitcoin"
 
   userAccess:
     kycRequired: true

@@ -420,9 +420,22 @@
         {% endif %}
         {% if custodian.bitcoinContribution.research %}
           <span class="badge security-feature">Research</span>
+          {% if custodian.bitcoinContribution.research_url %}
+            <a href="{{ custodian.bitcoinContribution.research_url }}" class="subtle-source" target="_blank">
+              <i class="fas fa-info-circle"></i>
+            </a>
+          {% endif %}
         {% endif %}
       </div>
-      <div class="details">{{ custodian.bitcoinContribution.details }}</div>
+      {% if custodian.bitcoinContribution.contributions %}
+        <div class="contribution-details">
+          <ul>
+          {% for contribution in custodian.bitcoinContribution.contributions %}
+            <li><a href="{{ contribution.url }}">{{ contribution.name }}</a></li>
+          {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
     </div>
   </div>
 </div>
