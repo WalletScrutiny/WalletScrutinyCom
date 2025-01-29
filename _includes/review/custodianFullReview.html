@@ -379,7 +379,7 @@
           <h4>Services Offered</h4>
           <ul>
             {% for service in custodian.businessModel.services %}
-              <li>{{ service }}</li>
+              <li><a href="{{ service.url }}">{{ service.name }}</a></li>
             {% endfor %}
           </ul>
         </div>
