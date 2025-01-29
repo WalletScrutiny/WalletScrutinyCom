@@ -68,12 +68,18 @@ function scrollToVersion(version) {
 }
 
 function initializeDragAndDrop() {
-    const dropArea = document.getElementById('drop-area');
-    const fileElem = document.getElementById('fileElem');
-    preventDefaultDragBehaviors(dropArea);
-    setupHighlightEvents(dropArea);
-    dropArea.addEventListener('drop', e => processFiles(e.dataTransfer.files));
-    fileElem.addEventListener('change', e => processFiles(e.target.files));
+    const dropAreas = document.getElementsByClassName('drop-areas');
+    const fileElems = document.getElementsByClassName('fileElems');
+
+    Array.from(dropAreas).forEach(dropArea => {
+        preventDefaultDragBehaviors(dropArea);
+        setupHighlightEvents(dropArea);
+        dropArea.addEventListener('drop', e => processFiles(e.dataTransfer.files));
+    });
+
+    Array.from(fileElems).forEach(fileElem => {
+        fileElem.addEventListener('change', e => processFiles(e.target.files));
+    });
 }
 
 function preventDefaultDragBehaviors(element) {
