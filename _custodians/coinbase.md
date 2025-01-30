@@ -7,6 +7,7 @@ platformReview:
 icon: coinbase.jpg
 
 custodian:
+  crunchbaseUrl: "https://www.crunchbase.com/organization/coinbase"
   leadership:
     jurisdiction: 🇺🇸 "United States"
     yearsInBusiness: "11"
