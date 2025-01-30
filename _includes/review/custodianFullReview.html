@@ -282,6 +282,7 @@
   <div class="title">
     <h3>How much bitcoin do they custody?</h3>
     <div class="textbox">
+      {% if custodian.operations.cryptographicProof.valid %}
       <div class="custody-section">
         <h4>Cryptographic Proof of Reserves</h4>
         <div class="custody-info">
@@ -290,15 +291,13 @@
           <p>Last Updated: {{ custodian.operations.cryptographicProof.lastUpdated }}</p>
           <p>Source: <a href="{{ custodian.operations.cryptographicProof.sourceUrl }}">Clickable Link</a></p>
           <div class="validation-status">
-            {% if custodian.operations.cryptographicProof.valid %}
             <span class="validation-icon valid"><i class="fas fa-check"></i></span>
-            {% else %}
-            <span class="validation-icon invalid"><i class="fas fa-times"></i></span>
-            {% endif %}
           </div>
         </div>
       </div>
+      {% endif %}
 
+      {% if custodian.operations.thirdPartyAudit.valid %}
       <div class="custody-section">
         <h4>Third Party/Independent</h4>
         <div class="custody-info">
@@ -307,15 +306,13 @@
           <p>Last Updated: {{ custodian.operations.thirdPartyAudit.lastUpdated }}</p>
           <p>Source: <a href="{{ custodian.operations.thirdPartyAudit.sourceUrl }}">Clickable Link</a></p>
           <div class="validation-status">
-            {% if custodian.operations.thirdPartyAudit.valid %}
             <span class="validation-icon valid"><i class="fas fa-check"></i></span>
-            {% else %}
-            <span class="validation-icon invalid"><i class="fas fa-times"></i></span>
-            {% endif %}
           </div>
         </div>
       </div>
+      {% endif %}
 
+      {% if custodian.operations.selfReported.valid %}
       <div class="custody-section">
         <h4>Self-Reported / Filings</h4>
         <div class="custody-info">
@@ -324,14 +321,11 @@
           <p>Last Updated: {{ custodian.operations.selfReported.lastUpdated }}</p>
           <p>Source: <a href="{{ custodian.operations.selfReported.sourceUrl }}">Clickable Link</a></p>
           <div class="validation-status">
-            {% if custodian.operations.selfReported.valid %}
             <span class="validation-icon valid"><i class="fas fa-check"></i></span>
-            {% else %}
-            <span class="validation-icon invalid"><i class="fas fa-times"></i></span>
-            {% endif %}
           </div>
         </div>
       </div>
+      {% endif %}
     </div>
   </div>
 </div>
