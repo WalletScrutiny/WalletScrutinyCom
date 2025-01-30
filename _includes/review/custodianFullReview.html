@@ -278,30 +278,60 @@
 
 <!-- OPERATIONS -->
 <div class="step developer">
-  <i class="fas fa-coins circle operations"></i>
+  <i class="fas fa-shield-alt circle security"></i>
   <div class="title">
     <h3>How much bitcoin do they custody?</h3>
     <div class="textbox">
-      {% if custodian.operations.btcCustodied %}
-        <div class="btc-custodied">
-          <strong>BTC in Custody:</strong> {{ custodian.operations.btcCustodied }}
-          {% if custodian.operations.SourceBTC %}
-            <a href="{{ custodian.operations.SourceBTC }}" class="docs-link">
-              <i class="fas fa-external-link-alt"></i> Source
-            </a>
-          {% endif %}
+      <div class="custody-section">
+        <h4>Cryptographic Proof of Reserves</h4>
+        <div class="custody-info">
+          <p>Amount of BTC: {{ custodian.operations.cryptographicProof.btcAmount }}</p>
+          <p>Total Assets under Custody: {{ custodian.operations.cryptographicProof.totalAssets }}</p>
+          <p>Last Updated: {{ custodian.operations.cryptographicProof.lastUpdated }}</p>
+          <p>Source: <a href="{{ custodian.operations.cryptographicProof.sourceUrl }}">Clickable Link</a></p>
+          <div class="validation-status">
+            {% if custodian.operations.cryptographicProof.valid %}
+            <span class="validation-icon valid"><i class="fas fa-check"></i></span>
+            {% else %}
+            <span class="validation-icon invalid"><i class="fas fa-times"></i></span>
+            {% endif %}
+          </div>
         </div>
-      {% endif %}
-      {% if custodian.operations.AssetsUnderCustody %}
-        <div class="auc">
-          <strong>Assets Under Custody:</strong> {{ custodian.operations.AssetsUnderCustody }}
-          {% if custodian.operations.SourceAUC %}
-            <a href="{{ custodian.operations.SourceAUC }}" class="docs-link">
-              <i class="fas fa-external-link-alt"></i> Source
-            </a>
-          {% endif %}
+      </div>
+
+      <div class="custody-section">
+        <h4>Third Party/Independent</h4>
+        <div class="custody-info">
+          <p>Amount of BTC: {{ custodian.operations.thirdPartyAudit.btcAmount }}</p>
+          <p>Total Assets under Custody: {{ custodian.operations.thirdPartyAudit.totalAssets }}</p>
+          <p>Last Updated: {{ custodian.operations.thirdPartyAudit.lastUpdated }}</p>
+          <p>Source: <a href="{{ custodian.operations.thirdPartyAudit.sourceUrl }}">Clickable Link</a></p>
+          <div class="validation-status">
+            {% if custodian.operations.thirdPartyAudit.valid %}
+            <span class="validation-icon valid"><i class="fas fa-check"></i></span>
+            {% else %}
+            <span class="validation-icon invalid"><i class="fas fa-times"></i></span>
+            {% endif %}
+          </div>
         </div>
-      {% endif %}
+      </div>
+
+      <div class="custody-section">
+        <h4>Self-Reported / Filings</h4>
+        <div class="custody-info">
+          <p>Amount of BTC: {{ custodian.operations.selfReported.btcAmount }}</p>
+          <p>Total Assets under Custody: {{ custodian.operations.selfReported.totalAssets }}</p>
+          <p>Last Updated: {{ custodian.operations.selfReported.lastUpdated }}</p>
+          <p>Source: <a href="{{ custodian.operations.selfReported.sourceUrl }}">Clickable Link</a></p>
+          <div class="validation-status">
+            {% if custodian.operations.selfReported.valid %}
+            <span class="validation-icon valid"><i class="fas fa-check"></i></span>
+            {% else %}
+            <span class="validation-icon invalid"><i class="fas fa-times"></i></span>
+            {% endif %}
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -1192,6 +1222,75 @@
 
 .docs-link i {
   margin-right: 0.5em;
+}
+
+.custody-section {
+  margin-bottom: 20px;
+  background: #f5f7fa;
+  padding: 15px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.custody-section h4 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.custody-info {
+  position: relative;
+}
+
+.custody-info p {
+  margin: 5px 0;
+}
+
+.validation-status {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.validation-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  font-size: 14px;
+}
+
+.validation-icon.valid {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.validation-icon.invalid {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.validation-icon i {
+  line-height: 1;
+}
+
+.valid {
+  color: #2ecc71;
+}
+
+.invalid {
+  color: #e74c3c;
+}
+
+.custody-info a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.custody-info a:hover {
+  text-decoration: underline;
 }
 </style>
 

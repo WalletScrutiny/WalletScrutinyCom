@@ -79,13 +79,26 @@ custodian:
     developmentUrl: "https://www.binance.com/en/proof-of-reserves"
 
   operations:
-    btcCustodied: "592,588.948"
-    SourceBTC: "https://www.binance.com/en/proof-of-reserves"
-    AssetsUnderCustody: "$181,067,979,424.00"
-    SourceAUC: "https://www.binance.com/en/proof-of-reserves"
-    MonthlyTransactingUsers: "128M+"
-    SourceMTU: "https://www.binance.com/en/blog/ecosystem/binance-2023-annual-report-highlights-3810473165033754797"
-    LastUpdatedMTU: "2023"
+    cryptographicProof:
+      btcAmount: "622,192.442 BTC"
+      totalAssets: 
+      lastUpdated: "2024-01-30"
+      sourceUrl: "https://www.binance.com/en/proof-of-reserves"
+      valid: true
+
+    thirdPartyAudit:
+      btcAmount: "620,962 BTC"
+      totalAssets: "$181,924,033,635.10"
+      lastUpdated: "2024-01-30"
+      sourceUrl: "https://intel.arkm.com/explorer/entity/binance"
+      valid: true
+
+    selfReported:
+      btcAmount: 
+      totalAssets: 
+      lastUpdated: 
+      sourceUrl: 
+      valid: false
 
   trackRecord:
     history: "Multiple regulatory challenges and leadership changes, including CZ's departure in 2023"

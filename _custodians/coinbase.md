@@ -80,13 +80,26 @@ custodian:
     developmentUrl: "https://www.coinbase.com/blog/proof-of-reserves-grant"
 
   operations:
-    btcCustodied: "887,346 BTC"
-    SourceBTC: "https://intel.arkm.com/explorer/entity/coinbase"
-    AssetsUnderCustody: "$273B"
-    SourceAUC: "https://investor.coinbase.com/home/default.aspx"
-    MonthlyTransactingUsers: "7.4M"
-    SourceMTU: "https://investor.coinbase.com/financials/sec-filings/sec-filings-details/default.aspx?FilingId=17280851"
-    LastUpdatedMTU: "2023"
+    cryptographicProof:
+      btcAmount: ""
+      totalAssets: ""
+      lastUpdated: ""
+      sourceUrl: ""
+      valid: false
+    
+    thirdPartyAudit:
+      btcAmount: "887,417 BTC"
+      totalAssets: "$124,259,457,664.10"
+      lastUpdated: "2025-01-30"
+      sourceUrl: "https://intel.arkm.com/explorer/entity/coinbase"
+      valid: true
+
+    selfReported:
+      btcAmount: ""
+      totalAssets: "$137B"
+      lastUpdated: "2024-10-30"
+      sourceUrl: "https://investor.coinbase.com/files/doc_financials/2024/q3/Q3-24-Shareholder-Letter.pdf"
+      valid: true
 
   trackRecord:
     history: "Multiple security incidents affecting customer accounts"
