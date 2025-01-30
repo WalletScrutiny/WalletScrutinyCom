@@ -52,14 +52,15 @@ custodian:
     url: "/others/ext.coinbase"
 
   hotColdDesign:
-    status: "outdated"
-    lastUpdated: 2018-12-19
-    details: "98% of funds in cold storage. Multi-signature architecture..."
-    documentation_url: "https://www.coinbase.com/blog/a-behind-the-scenes-look-at-the-biggest-and-quietest-crypto-transfer-on"
-    analysis: "Coinbase’s cold storage has gone through a number of evolutions through the years as the cryptocurrency space has evolved and matured. Coinbase’s standard for truly cold storage is that multiple geographically separated humans in the real world should be forced to perform physical actions to enable a transaction after reviewing transaction details. If that isn’t true, we don’t think it’s actually cold storage."
+    status: "published"
+    lastUpdated: 2021-05-04
+    details: "Coinbase employs a Threshold Signing Service (TSS) with multi-party cryptographic signing, HSM-enforced security, and comprehensive key protection measures. 98% of funds are in cold storage with air-gapped key management and geographic distribution."
+    documentation_url: "https://www.coinbase.com/blog/production-threshold-signing-service"
+    analysis: "Coinbase's security infrastructure combines TSS, HSMs, and multi-party controls to protect billions in customer assets. Their approach eliminates single points of failure through consensus-based deployments, anomaly detection, and immutable logging."
     supporting_urls:
       - "https://www.coinbase.com/blog/production-threshold-signing-service"
       - "https://help.coinbase.com/en/prime/trading-and-funding/cold-storage-transaction-faqs"
+      - "https://www.coinbase.com/blog/a-behind-the-scenes-look-at-the-biggest-and-quietest-crypto-transfer-on"
 
   bitcoinFocus:
     status: "multi-currency"
@@ -82,6 +83,9 @@ custodian:
     SourceBTC: "https://intel.arkm.com/explorer/entity/coinbase"
     AssetsUnderCustody: "$273B"
     SourceAUC: "https://investor.coinbase.com/home/default.aspx"
+    MonthlyTransactingUsers: "7.4M"
+    SourceMTU: "https://investor.coinbase.com/financials/sec-filings/sec-filings-details/default.aspx?FilingId=17280851"
+    LastUpdatedMTU: "2023"
 
   trackRecord:
     history: "Multiple security incidents affecting customer accounts"
@@ -177,4 +181,26 @@ custodian:
     details: "They run their own servers with dedicated HSMs."
 ---
 
-*(Markdown content for your page can go here. This text appears below the partial output, or you can leave it blank if you just want the partial’s content.)*
+Additional Information: 
+
+Coinbase's Threshold Signing Service (TSS) is a core part of its custody solution, ensuring:
+
+- Private keys are never fully exposed at any stage.
+- Multiparty cryptographic signing replaces traditional key reconstruction.
+- Nonce protection and validation processes prevent private key leaks.
+- Hardware Security Modules (HSMs) enforce physical security.
+- Encryption, access control, and hybrid participation reduce risks.
+- These methods enhance the security of Coinbase’s custodial wallets, protecting billions in customer assets from hacks, insider threats, and cryptographic attacks.
+
+Source: https://www.coinbase.com/blog/production-threshold-signing-service
+
+### 2016 - How Coinbase Builds Secure Infrastructure To Store Bitcoin In The Cloud
+
+- Eliminates single points of failure by requiring multi-party control for sensitive operations.
+- Restricts production access to vetted employees, with strict monitoring & immutable logging.
+- Cold storage security via air-gapped key management, Shamir’s Secret Sharing, and geographic key distribution.
+- Anomaly detection & kill switches for immediate threat response.
+- Consensus-based deployments prevent unauthorized or malicious changes.
+- Full Dockerization for consistent, repeatable, and secure deployments.
+
+Conclusion: 
