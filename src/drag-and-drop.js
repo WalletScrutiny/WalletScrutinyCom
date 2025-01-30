@@ -1,8 +1,16 @@
-import AppInfoParser from 'app-info-parser';
-import { hasBlob, uploadBlobWithProgress, listUserBlobs } from './blossom.js';
+import { uploadToBlossom, checkBlossomFile, displayBlossomFileInfo } from './blossom-utils.js';
+import { 
+    formatFileSize, 
+    updateDomElement, 
+    addButtonToDropArea, 
+    addMessageToDropArea,
+    getVersionFromFilename,
+    calculateFileHash,
+    isPageForAppId,
+    getApkInfo
+} from './drag-and-drop-utils.js';
 
 const uploadsActivated = false;
-const blossomServerUrl = 'https://cdn.satellite.earth';
 
 document.addEventListener("DOMContentLoaded", async function () {
     initializeDragAndDrop();
@@ -14,7 +22,6 @@ document.addEventListener("DOMContentLoaded", async function () {
     if (hash) {
         const appData = await fetchAppData(hash);
         if (appData) {
-            displayAppData(appData);
             disableHoverMode();
 
             if (appData.version) {
@@ -32,12 +39,11 @@ function scrollToVersion(version) {
     const versionId = `version-${version.replace(/\./g, '-')}`; // Generate row ID
 
     const observer = new MutationObserver((mutations, obs) => {
-
         const showMoreButton = document.querySelector('a.show-more-link');
         const targetElement = document.getElementById(versionId);
 
         // Row is visible, we can directly scroll to it
-        if (targetElement && targetElement.offsetParent) {
+        if (targetElement?.offsetParent) {
             obs.disconnect();
             targetElement.scrollIntoView({ block: 'center' });
             targetElement.classList.add('highlightRow');
@@ -113,39 +119,7 @@ function disableHoverMode() {
     selectLabel.textContent = "Select a new file";
 }
 
-function processFiles(files) {
-    if (files.length > 1) {
-        alert('Please select or drop only one file at a time.');
-        return;
-    }
-
-    // Clear the drop-area before displaying new information
-    ['file-info', 'app-data', 'drop-area-buttons', 'drop-area-messages'].forEach(id => updateDomElement(id, ''));
-
-    handleFile(files[0]);
-}
-
-function getVersionFromFilename(filename) {
-    // Common version patterns in filenames
-    const patterns = [
-        /[._-]v?(\d+\.\d+\.?\d*)/i,           // matches: app-1.2.3.*, app_v1.2.3.*
-        /[._-]version[._-]?(\d+\.\d+\.?\d*)/i, // matches: app-version-1.2.3.*
-        /[._-](\d+_\d+(?:_\d+)?)/,            // matches: app-1_2_3.*
-        /_(\d+\.\d+\.?\d*)_(?:amd64|x86_64|arm64)/i,   // matches: resurrection_wallet_0.3.0_amd64.*
-        /[._-](\d+\.\d+\.?\d*)[._-]/i         // matches: app.1.2.3.anything
-    ];
-
-    for (const pattern of patterns) {
-        const match = filename.match(pattern);
-        if (match) {
-            // Replace underscores with dots if present
-            return match[1].replace(/_/g, '.');
-        }
-    }
-    return null;
-}
-
-async function setFormFields(hash, appData, file) {
+async function setFormFields(hash, appData, fileName, apkInfo) {
     // If we have a form with a sha256 input, set it to the hash
     if (document.getElementById('sha256')) {
         document.getElementById('sha256').value = hash;
@@ -153,52 +127,117 @@ async function setFormFields(hash, appData, file) {
 
     // If we have a form with a appId or version input, set them
     if (document.getElementById('appId') || document.getElementById('version')) {
-        const apkInfo = await getApkInfo(file);
-
         if (apkInfo) {
             document.getElementById('appId').value = apkInfo.package;
             document.getElementById('version').value = apkInfo.versionName;
         } else {
             document.getElementById('appId').value = appData?.appId ? appData.appId : '';
 
-            const versionFromFilename = getVersionFromFilename(file.name);
+            const versionFromFilename = getVersionFromFilename(fileName);
             document.getElementById('version').value = versionFromFilename ? versionFromFilename : '';
         }
     }
 }
 
-async function handleFile(file) {
-    const hash = await calculateFileHash(file);
+async function processFiles(files) {
+    if (files.length > 1) {
+        alert('Please select or drop only one file at a time.');
+        return;
+    }
+
+    const file = files[0];
+
+    // Clear the drop-area before displaying new information
+    ['file-info', 'drop-area-buttons'].forEach(id => updateDomElement(id, ''));
 
     disableHoverMode();
 
-    // Display initial file information
-    displayFileInfo(file, hash);
+    /////////////////////////////////////////////////////////////////////
+    // Get all the information about the file / hash / apk
+    /////////////////////////////////////////////////////////////////////
+    const [apkInfo, hash] = await Promise.all([
+        getApkInfo(file),
+        calculateFileHash(file)
+    ]);
 
-    // Start fetching app data from legacy attestation.json
-    const appData = await fetchAppData(hash);
-    if (appData) { // Hash is in attestations.json
-        displayFileInfo(file, hash, appData.appId);
-        displayAppData(appData);
-        if (isAppIdCorrect(appData.appId, hash)) {
+    const [appData, allAssetsInformation] = await Promise.all([
+        fetchAppData(hash),     // Get app data from legacy attestation.json
+        (async () => {
+            await nostrConnect();
+            return getAllAssetInformation({
+                months: 12,
+                sha256: hash
+            });
+        })()
+    ]);
+    /////////////////////////////////////////////////////////////////////
+
+    setFormFields(hash, appData, file.name, apkInfo);
+
+    displayAllInfo(file, apkInfo, hash, appData, allAssetsInformation);
+
+    if (appData) {  // We have legacy appData from attestation.json
+        if (isPageForAppId(appData.appId)) {
             scrollToVersion(appData.version);
         }
-    } else { // Hash is NOT in attestations.json
-        await handleUnknownFile(file, hash);
+    } else {    // We don't have legacy appData from attestation.json
+        if (uploadsActivated) {
+            const existsInBlossom = await checkBlossomFile(hash);
+            if (existsInBlossom) {
+                displayBlossomFileInfo(file.name, hash);
+            } else {
+                await uploadToBlossom(file, hash);
+            }
+        }
+    }
+}
+
+async function displayAllInfo(file, apkInfo, hash, appData, allAssetsInformation) {
+    const appId = appData?.appId ?? apkInfo?.package ?? null;
+    const version = appData?.version ?? apkInfo?.versionName ?? null;
+
+    const app = window.wallets.find(it => it.appId === appId) ?? null;
+
+    let fileInfoHtml = '';
+    if (app) {
+        fileInfoHtml = `<h3>${app.title}</h3>`;
+    }
+    fileInfoHtml += `<strong>App ID:</strong> ${appId ?? 'N/A'}<br>`;
+    fileInfoHtml += `<strong>Version:</strong> ${version ?? 'N/A'}<br>`;
+
+    if (appData) {
+        fileInfoHtml += `
+            <strong>Verdict:</strong><span class="verdict ${appData.verdict}">${appData.verdict}</span><br>
+            <strong>Signer:</strong> ${appData.signer}<br>
+            <strong>Date:</strong> ${appData.date || 'undefined'}<br><br>`;
     }
 
-    setFormFields(hash, appData, file);
+    fileInfoHtml += `<strong>File:</strong> ${file ? file.name : 'N/A'}<br>`;
+    fileInfoHtml += `<strong>Size:</strong> ${file ? formatFileSize(file.size) : 'N/A'}<br>`;
+    fileInfoHtml += `<strong>SHA-256:</strong> ${hash || 'N/A'}<br>`;
 
-    // Get attestations information for this hash from Nostr
-    await nostrConnect();
-    const allAssetsInformation = await getAllAssetInformation({
-        months: 12,
-        sha256: hash
-    });
-    console.log("allAssetsInformation", allAssetsInformation);
+    if (!appData && apkInfo) {
+        fileInfoHtml += '<br><br>' + (
+            app ?
+            `<p>This appears to be version <b>${version}</b> of <b>${app.title}</b>, but nobody has verified this specific version yet.</p>` :
+            `<p>This is an APK for an unknown application. You can register it on Nostr so you or others can try to reproduce it.</p>`);
+    }
+
+    fileInfoHtml += '<br><br>';
+
+    updateDomElement('file-info', fileInfoHtml);
+
+
+    // Adding buttons and related information
+
+    if (!isPageForAppId(appId) && app) {
+        addButtonToDropArea(`Go to "${app.title}" page`, `/${app.folder}/${appId}/?hash=${encodeURIComponent(hash)}`, "btn btn-primary");
+        addMessageToDropArea(`<li>You can go to the "${app.title}" application page to check the attestations.</li>`);
+    }
 
     const hasAssets = allAssetsInformation.assets && allAssetsInformation.assets.size > 0;
     const hasAttestations = allAssetsInformation.attestations && allAssetsInformation.attestations.size > 0;
+
     if (hasAssets) {
         let message = `<li>This asset has already been registered in Nostr,`;
         let buttonText;
@@ -217,201 +256,19 @@ async function handleFile(file) {
     } else {
         let url = `/new_asset/?sha256=${encodeURIComponent(hash)}`;
 
-        if (appData) {
-            url += `&appId=${encodeURIComponent(appData.appId)}`;
+        if (appId) {
+            url += `&appId=${encodeURIComponent(appId)}`;
+        }
+        if (appData?.version || apkInfo?.versionName) {
+            url += `&version=${encodeURIComponent(appData?.version ?? apkInfo?.versionName)}`;
         }
 
-        addButtonToDropArea(`Register new asset`, url, "btn btn-primary");
-        addMessageToDropArea(`<li>Register this new asset so you or others can try to reproduce it.</li>`);
-    }
-}
-
-async function handleUnknownFile(file, hash) {
-    if (!uploadsActivated) {
-        await processUnknownFile(file, hash);
-        return;
-    }
-
-    // Check if file exists in Blossom
-    const existsInBlossom = await hasBlob(hash, '', blossomServerUrl);
-
-    if (existsInBlossom) {
-        displayBlossomFileInfo(file.name, hash);
-    } else {
-        await processUnknownFile(file, hash);
-        await uploadToBlossom(file, hash);
-    }
-}
-
-async function processUnknownFile(file, hash) {
-    try {
-        const apkInfo = await getApkInfo(file);
-
-        if (apkInfo) {
-            console.log("Processing unknown file");
-            displayFileInfo(file, hash, apkInfo.package);
-            showUnknownVersionMessage(apkInfo, hash);
-            isAppIdCorrect(apkInfo.package, hash);
+        // If not in /new_asset/ url, show new_asset button
+        if (window.location.pathname !== '/new_asset/') {
+            addButtonToDropArea(`Register new asset`, url, "btn btn-primary");
+            addMessageToDropArea(`<li>Register this new asset on Nostr so you or others can try to reproduce it.</li>`);
         }
-    } catch (error) {
-        console.debug("It's not an APK file:", error);
-        return null;
     }
-}
-
-async function getApkInfo(file) {
-    try {
-        const parser = new AppInfoParser(file);
-        return await parser.parse();
-    } catch (error) {
-        return null;
-    }
-}
-
-async function uploadToBlossom(file, hash) {
-    try {
-        // Clear previous messages
-        updateDomElement('app-data', '');
-
-        const exists = await hasBlob(hash, '', blossomServerUrl);
-
-        if (exists) {
-            console.log(`Blob ${hash} already exists in Blossom`);
-            displayBlossomUploadStatus('File already exists in Blossom', 100);
-        } else {
-            console.log(`Uploading blob ${hash} to Blossom`);
-            displayBlossomUploadStatus('Preparing to upload...', 0);
-
-            const onProgress = (progress) => {
-                updateUploadProgress(progress);
-            };
-
-            const descriptor = await uploadBlobWithProgress(file, blossomServerUrl, onProgress);
-
-            console.log('Uploaded blob descriptor:', descriptor);
-
-            displayBlossomUploadStatus('Upload complete!', 100);
-            await listUserBlobs(blossomServerUrl);
-            displayBlossomUploadSuccess(file.name, hash);
-        }
-    } catch (error) {
-        console.error('Error uploading to Blossom:', error.message);
-        displayBlossomUploadError(error.message);
-    }
-}
-
-function updateUploadProgress(progress) {
-    displayBlossomUploadStatus(`Uploading... ${Math.round(progress)}%`, progress);
-}
-
-function updateDomElement(elementId, htmlContent) {
-    console.log("Updating DOM element", elementId, htmlContent);
-    const element = document.getElementById(elementId);
-    if (element) {
-        element.innerHTML = htmlContent;
-    } else {
-        console.warn(`Element with id "${elementId}" not found.`);
-    }
-}
-
-function displayBlossomUploadStatus(message, progress) {
-    updateDomElement('app-data', `
-        <h3>Blossom Upload Status</h3>
-        <p>${message}</p>
-        <progress value="${progress}" max="100"></progress>
-    `);
-}
-
-function displayBlossomUploadSuccess(fileName, hash) {
-    updateDomElement('app-data', `
-        <h3>Blossom Upload</h3>
-        <p>File "${fileName}" (${hash}) has been successfully uploaded to Blossom.</p>
-    `);
-}
-
-function displayBlossomUploadError(errorMessage) {
-    updateDomElement('app-data', `
-        <h3>Blossom Upload Error</h3>
-        <p>An error occurred while uploading to Blossom: ${errorMessage}</p>
-    `);
-}
-
-function displayFileInfo(file, hash, appId) {
-    updateDomElement('file-info', `
-        <h3>File Information</h3>
-        <strong>File:</strong> ${file ? file.name : 'N/A'}<br>
-        ${appId ? `<strong>App ID:</strong> ${appId}<br>` : ''}
-        <strong>Size:</strong> ${file ? formatFileSize(file.size) : 'N/A'}<br>
-        <strong>SHA-256:</strong> ${hash || 'N/A'}<br>        
-    `);
-}
-
-function displayAppData(appData) {
-    const app = window.wallets.find(it => it.appId === appData.appId);
-
-    updateDomElement('app-data', `
-        <h3>${app.title}</h3>
-        <strong>Verdict:</strong><span class="verdict ${appData.verdict}">${appData.verdict}</span><br>
-        <strong>App ID:</strong> ${appData.appId}<br>
-        <strong>Signer:</strong> ${appData.signer}<br>
-        <strong>Version:</strong> ${appData.version}<br>
-        <strong>Date:</strong> ${appData.date || 'undefined'}<br>
-    `);
-
-    return appData;
-}
-
-function showUnknownVersionMessage(apkInfo, hash) {
-    const app = window.wallets.find(it => it.appId === apkInfo.package);
-
-    let message;
-
-    console.log("Showing unknown version message", app);
-    if (app) {
-        // Case 1: We know this wallet/app
-        message = `
-            <h3>${app.title}</h3>
-            <p>This appears to be version <b>${apkInfo.versionName}</b> of <b>${app.title}</b>, but we haven't verified this specific version yet.</p>
-            <p>This could be:</p>
-            <ul>
-                <li>A newer version we haven't tested yet</li>
-                <li>An older version that we haven't tested</li>
-                <li>A modified version of the app</li>
-            </ul>`;
-        /*
-                addButtonToDropArea(
-                    `Register new asset_222`,
-                    `/new_asset/?sha256=${encodeURIComponent(hash)}&appId=${encodeURIComponent(app.appId)}`,
-                    "btn btn-primary"
-                );
-        */
-    } else {
-        // Case 2: Unknown app
-        message = `
-            <h3>Unknown Application</h3>
-            <p>This is an APK with:</p>
-            <ul>
-                <li>Application ID: ${apkInfo.package}</li>
-                <li>Version: ${apkInfo.versionName}</li>
-            </ul>
-            <p>Sorry, but we don't have any information about this application in our database yet.</p>`;
-
-        //let url = `/new_asset/?sha256=${encodeURIComponent(hash)}&appId=${encodeURIComponent(app.appId)}`;
-        //addButtonToDropArea(`Register new asset_333`, url, "btn btn-primary");
-    }
-
-    updateDomElement('app-data', message);
-}
-
-async function calculateFileHash(file) {
-    console.time("sha256");
-    console.log("Calculating SHA-256 hash");
-    const arrayBuffer = await file.arrayBuffer();
-    const hash = await window.crypto.subtle.digest("SHA-256", arrayBuffer);
-    const hashArray = Array.from(new Uint8Array(hash));
-    const hex = hashArray.map(b => b.toString(16).padStart(2, "0")).join("");
-    console.timeEnd("sha256");
-    return hex;
 }
 
 async function fetchAppData(hash) {
@@ -427,53 +284,4 @@ async function fetchAppData(hash) {
         console.error('Error loading app data:', error);
         return null;
     }
-}
-
-function formatFileSize(bytes) {
-    if (bytes === 0) return '0 Bytes';
-    const k = 1024;
-    const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
-    const i = Math.floor(Math.log(bytes) / Math.log(k));
-    return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
-}
-
-function displayBlossomFileInfo(fileName, hash) {
-    updateDomElement('app-data', `
-        <h3>File Found in Blossom</h3>
-        <p>The file "${fileName}" (${hash}) exists in Blossom.</p>
-    `);
-}
-
-function isAppIdCorrect(appId, hash) {
-    const appIdFromPage = window.pageAppId;
-
-    if (appIdFromPage !== appId) {
-        let app = window.wallets.find(it => it.appId === appId);
-
-        if (app) {
-            addButtonToDropArea(`Go to "${app.title}" page`, `/${app.folder}/${app.appId}/?hash=${encodeURIComponent(hash)}`, "btn btn-primary");
-            addMessageToDropArea(`<li>You can go to the "${app.title}" application page to check for other attestations.</li>`);
-        }
-
-        return false;
-    }
-
-    return true;
-}
-
-function addButtonToDropArea(text, href, className = "btn btn-primary", openInNewTab = false) {
-    const dropAreaButtonDiv = document.getElementById('drop-area-buttons');
-    const button = document.createElement('a');
-    button.innerHTML = text;
-    button.className = className;
-    button.href = href;
-    if (openInNewTab) {
-        button.target = '_blank';
-    }
-    dropAreaButtonDiv.appendChild(button);
-}
-
-function addMessageToDropArea(message) {
-    const dropAreaMessageDiv = document.getElementById('drop-area-messages');
-    dropAreaMessageDiv.innerHTML += message;
 }
