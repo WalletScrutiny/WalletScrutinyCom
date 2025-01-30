@@ -111,20 +111,26 @@ custodian:
 
   # Operational Metrics
   operations:
-    # Format: "X BTC" (exact number if known)
-    btcCustodied: ""
-    # Source URL for BTC custody data
-    SourceBTC: ""
-    # Format: "$X" or "$XB" for billions
-    AssetsUnderCustody: ""
-    # Source URL for AUC data
-    SourceAUC: ""
-    # Monthly active users
-    MonthlyTransactingUsers: ""
-    # Source URL for user metrics
-    SourceMTU: ""
-    # Year of last MTU update
-    LastUpdatedMTU: ""
+    cryptographicProof:
+      btcAmount: ""
+      totalAssets: ""
+      lastUpdated: ""
+      sourceUrl: ""
+      valid: false
+
+    thirdPartyAudit:
+      btcAmount: ""
+      totalAssets: ""
+      lastUpdated: ""
+      sourceUrl: ""
+      valid: false
+      
+    selfReported:
+      btcAmount: ""
+      totalAssets: ""
+      lastUpdated: ""
+      sourceUrl: ""
+      valid: false
 
   # Security Track Record
   trackRecord:
