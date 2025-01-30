@@ -80,10 +80,12 @@ custodian:
     developmentUrl: "https://www.coinbase.com/blog/proof-of-reserves-grant"
 
   operations:
+    users: "110M"
     cryptographicProof:
       btcAmount: ""
       totalAssets: ""
       lastUpdated: ""
+      source: ""
       sourceUrl: ""
       valid: false
     
@@ -91,6 +93,7 @@ custodian:
       btcAmount: "887,417 BTC"
       totalAssets: "$124,259,457,664.10"
       lastUpdated: "2025-01-30"
+      source: "Arkham Intelligence"
       sourceUrl: "https://intel.arkm.com/explorer/entity/coinbase"
       valid: true
 
@@ -98,6 +101,7 @@ custodian:
       btcAmount: ""
       totalAssets: "$137B"
       lastUpdated: "2024-10-30"
+      source: "Q3 2024 Coinbase Shareholder Letter"
       sourceUrl: "https://investor.coinbase.com/files/doc_financials/2024/q3/Q3-24-Shareholder-Letter.pdf"
       valid: true
 
