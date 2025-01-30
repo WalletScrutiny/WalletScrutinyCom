@@ -19,6 +19,26 @@ layout: default
             <img src="/images/wIcons/{{ page.platformReview.type }}/{{ page.icon }}" class="app_logo_big" alt="Custodian Logo">
           {% endif %}
           <h1 class="page__title" itemprop="headline">{{ page.title | escape }}</h1>
+          <div style="margin-top: 1rem; display: flex; gap: 1.5rem;">
+            {% if page.custodian.operations.MonthlyTransactingUsers %}
+            <div style="display: flex; flex-direction: column; background: white; border-radius: 8px; padding: 1rem; box-shadow: 0 1px 3px rgba(0,0,0,0.12); min-width: 120px;">
+              <span style="font-size: 1.4rem; font-weight: bold; color: #0052CC;">{{ page.custodian.operations.MonthlyTransactingUsers }}</span>
+              <span style="font-size: 0.9rem; color: #666;">MTU ({{ page.custodian.operations.LastUpdatedMTU }})</span>
+            </div>
+            {% endif %}
+            {% if page.custodian.operations.btcCustodied %}
+            <div style="display: flex; flex-direction: column; background: white; border-radius: 8px; padding: 1rem; box-shadow: 0 1px 3px rgba(0,0,0,0.12); min-width: 120px;">
+              <span style="font-size: 1.4rem; font-weight: bold; color: #0052CC;">{{ page.custodian.operations.btcCustodied }}</span>
+              <span style="font-size: 0.9rem; color: #666;">BTC Custodied</span>
+            </div>
+            {% endif %}
+            {% if page.custodian.operations.AssetsUnderCustody %}
+            <div style="display: flex; flex-direction: column; background: white; border-radius: 8px; padding: 1rem; box-shadow: 0 1px 3px rgba(0,0,0,0.12); min-width: 120px;">
+              <span style="font-size: 1.4rem; font-weight: bold; color: #0052CC;">{{ page.custodian.operations.AssetsUnderCustody }}</span>
+              <span style="font-size: 0.9rem; color: #666;">AUC</span>
+            </div>
+            {% endif %}
+          </div>
         </div>
 
         {% if page.custodian.leadership and page.custodian.leadership.ceo %}
