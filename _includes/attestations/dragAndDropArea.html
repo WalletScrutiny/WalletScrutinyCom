@@ -4,11 +4,12 @@
         <span class="drop-text">{{ include.buttonMessage | default: 'Drop file to verify' }}</span>
         <input type="file" id="fileElem" style="display: none;" class="fileElems" />
         <div id="select" class="hover-mode">
-        <br />
-        <span>or</span>
-        <br />
-        <label class="button" for="fileElem">Select a file</label>
-        </div>  
+            <br />
+            <span>or</span>
+            <br />
+            <label class="button" for="fileElem">Select a file</label>
+            <span style="font-size: 16px;"><a href="/attestations/" target="_blank">Learn more</a></span>
+        </div>
     </form>
     <div id="file-list">
         <div id="file-info" class="textbox"></div>
