@@ -2,8 +2,6 @@ import { uploadToBlossom, checkBlossomFile, displayBlossomFileInfo } from './blo
 import { 
     formatFileSize, 
     updateDomElement, 
-    addButtonToDropArea, 
-    addMessageToDropArea,
     getVersionFromFilename,
     calculateFileHash,
     isPageForAppId,
@@ -225,34 +223,24 @@ async function displayAllInfo(file, apkInfo, hash, appData, allAssetsInformation
 
     fileInfoHtml += '<br><br>';
 
-    updateDomElement('file-info', fileInfoHtml);
-
 
     // Adding buttons and related information
 
     if (!isPageForAppId(appId) && app) {
-        addButtonToDropArea(`Go to "${app.title}" page`, `/${app.folder}/${appId}/?hash=${encodeURIComponent(hash)}`, "btn btn-primary");
-        addMessageToDropArea(`<li>You can go to the "${app.title}" application page to check the attestations.</li>`);
+        fileInfoHtml += `<li>You can go to the <a href="/${app.folder}/${appId}/?hash=${encodeURIComponent(hash)}" class="btn btn-primary">${app.title} page</a> to check the attestations.</li>`;
     }
 
     const hasAssets = allAssetsInformation.assets && allAssetsInformation.assets.size > 0;
     const hasAttestations = allAssetsInformation.attestations && allAssetsInformation.attestations.size > 0;
 
     if (hasAssets) {
-        let message = `<li>This asset has already been registered in Nostr,`;
-        let buttonText;
+        fileInfoHtml += `<li>This asset is registered in Nostr,`;
 
         if (hasAttestations) {
-            message += ` and it has attestations.</li>`;
-            buttonText = "Create a new attestation";
+            fileInfoHtml += ` and it has attestations. <a href="/asset/?sha256=${encodeURIComponent(hash)}" class="btn btn-primary">View them</a>.</li>`;
         } else {
-            message += ` but it doesn't have attestations yet. You can create one by clicking the button.</li>`;
-            buttonText = "Create attestation";
+            fileInfoHtml += ` but it doesn't have attestations yet. You can <a href="/new_attestation/?sha256=${encodeURIComponent(hash)}&assetEventId="aaaaaa" class="btn btn-primary">Create one</a>.</li>`;
         }
-        addButtonToDropArea(buttonText, `/new_attestation/?sha256=${encodeURIComponent(hash)}&assetEventId="aaaaaa"`, "btn btn-primary");
-        addMessageToDropArea(message);
-
-        addButtonToDropArea("How Attestations work", `/attestations/`, "btn btn-primary", true);
     } else {
         let url = `/new_asset/?sha256=${encodeURIComponent(hash)}`;
 
@@ -265,10 +253,13 @@ async function displayAllInfo(file, apkInfo, hash, appData, allAssetsInformation
 
         // If not in /new_asset/ url, show new_asset button
         if (window.location.pathname !== '/new_asset/') {
-            addButtonToDropArea(`Register new asset`, url, "btn btn-primary");
-            addMessageToDropArea(`<li>Register this new asset on Nostr so you or others can try to reproduce it.</li>`);
+            fileInfoHtml += `<li><a href="${url}" class="btn btn-primary">Register this new asset</a> on Nostr so you or others can try to reproduce it.</li>`;
         }
     }
+
+    fileInfoHtml += `<li>Check out <a href="/attestations/" class="btn btn-primary" target="_blank">How Attestations work</a>.</li>`;
+
+    updateDomElement('file-info', fileInfoHtml);
 }
 
 async function fetchAppData(hash) {
