@@ -37,13 +37,8 @@
         }
       }
     }
-
-    #drop-area-messages {
-      margin: 1em;
-    }
   
-    #file-info,
-    #app-data {
+    #file-info {
       font-size: 15px;
   
       h3 {
@@ -60,7 +55,7 @@
       border-color: purple;
     }
   
-    #app-data .verdict {
+    #file-info .verdict {
       font-weight: bold;
       text-decoration: underline;
       padding: 2px 5px;
