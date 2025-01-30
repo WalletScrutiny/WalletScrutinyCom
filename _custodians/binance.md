@@ -79,10 +79,12 @@ custodian:
     developmentUrl: "https://www.binance.com/en/proof-of-reserves"
 
   operations:
+    users: "128M"
     cryptographicProof:
       btcAmount: "622,192.442 BTC"
       totalAssets: 
       lastUpdated: "2024-01-30"
+      source: "Binance Proof of Reserves"
       sourceUrl: "https://www.binance.com/en/proof-of-reserves"
       valid: true
 
@@ -90,6 +92,7 @@ custodian:
       btcAmount: "620,962 BTC"
       totalAssets: "$181,924,033,635.10"
       lastUpdated: "2024-01-30"
+      source: "Arkham Intelligence"
       sourceUrl: "https://intel.arkm.com/explorer/entity/binance"
       valid: true
 
@@ -97,6 +100,7 @@ custodian:
       btcAmount: 
       totalAssets: 
       lastUpdated: 
+      source: ""
       sourceUrl: 
       valid: false
 

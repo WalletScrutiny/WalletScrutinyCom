@@ -25,10 +25,10 @@ layout: default
           </a>
           {% endif %}
           <div style="margin-top: 0.3rem; display: flex; gap: 0.5rem;">
-            {% if page.custodian.operations.MonthlyTransactingUsers %}
+            {% if page.custodian.operations.users %}
             <div style="display: flex; flex-direction: column; background: white; border-radius: 8px; padding: 0.35rem 0.75rem; box-shadow: 0 1px 3px rgba(0,0,0,0.12); min-width: 120px;">
-              <span style="font-size: 1.4rem; font-weight: bold; color: #0052CC; line-height: 1.2;">{{ page.custodian.operations.MonthlyTransactingUsers }}</span>
-              <span style="font-size: 0.9rem; color: #666; line-height: 1.2;">MTU ({{ page.custodian.operations.LastUpdatedMTU }})</span>
+              <span style="font-size: 1.4rem; font-weight: bold; color: #0052CC; line-height: 1.2;">{{ page.custodian.operations.users }}</span>
+              <span style="font-size: 0.9rem; color: #666; line-height: 1.2;">Users</span>
             </div>
             {% endif %}
             {% if page.custodian.operations.btcCustodied %}

@@ -111,10 +111,12 @@ custodian:
 
   # Operational Metrics
   operations:
+    users: ""
     cryptographicProof:
       btcAmount: ""
       totalAssets: ""
       lastUpdated: ""
+      source: ""
       sourceUrl: ""
       valid: false
 
@@ -122,6 +124,7 @@ custodian:
       btcAmount: ""
       totalAssets: ""
       lastUpdated: ""
+      source: ""
       sourceUrl: ""
       valid: false
       
@@ -129,6 +132,7 @@ custodian:
       btcAmount: ""
       totalAssets: ""
       lastUpdated: ""
+      source: ""
       sourceUrl: ""
       valid: false
 

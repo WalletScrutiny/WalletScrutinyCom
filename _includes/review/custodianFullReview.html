@@ -289,7 +289,7 @@
           <p>Amount of BTC: {{ custodian.operations.cryptographicProof.btcAmount }}</p>
           <p>Total Assets under Custody: {{ custodian.operations.cryptographicProof.totalAssets }}</p>
           <p>Last Updated: {{ custodian.operations.cryptographicProof.lastUpdated }}</p>
-          <p>Source: <a href="{{ custodian.operations.cryptographicProof.sourceUrl }}">Clickable Link</a></p>
+          <p>Source: <a href="{{ custodian.operations.cryptographicProof.sourceUrl }}">{{ custodian.operations.cryptographicProof.source }}</a></p>
           <div class="validation-status">
             <span class="validation-icon valid"><i class="fas fa-check"></i></span>
           </div>
@@ -304,7 +304,7 @@
           <p>Amount of BTC: {{ custodian.operations.thirdPartyAudit.btcAmount }}</p>
           <p>Total Assets under Custody: {{ custodian.operations.thirdPartyAudit.totalAssets }}</p>
           <p>Last Updated: {{ custodian.operations.thirdPartyAudit.lastUpdated }}</p>
-          <p>Source: <a href="{{ custodian.operations.thirdPartyAudit.sourceUrl }}">Clickable Link</a></p>
+          <p>Source: <a href="{{ custodian.operations.thirdPartyAudit.sourceUrl }}">{{ custodian.operations.thirdPartyAudit.source }}</a></p>
           <div class="validation-status">
             <span class="validation-icon valid"><i class="fas fa-check"></i></span>
           </div>
@@ -319,7 +319,7 @@
           <p>Amount of BTC: {{ custodian.operations.selfReported.btcAmount }}</p>
           <p>Total Assets under Custody: {{ custodian.operations.selfReported.totalAssets }}</p>
           <p>Last Updated: {{ custodian.operations.selfReported.lastUpdated }}</p>
-          <p>Source: <a href="{{ custodian.operations.selfReported.sourceUrl }}">Clickable Link</a></p>
+          <p>Source: <a href="{{ custodian.operations.selfReported.sourceUrl }}">{{ custodian.operations.selfReported.source }}</a></p>
           <div class="validation-status">
             <span class="validation-icon valid"><i class="fas fa-check"></i></span>
           </div>
