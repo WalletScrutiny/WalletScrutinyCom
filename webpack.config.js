@@ -10,8 +10,12 @@ module.exports = {
       './assets/js/plugins/jquery.fitvids.js',
       './assets/js/plugins/jquery.greedy-navigation.js'
     ],
-    dragAndDrop: './src/drag-and-drop.js',
-    blossom: './src/blossom.js',
+    dragAndDrop: [
+      './src/drag-and-drop-utils.js',
+      './src/blossom.js',
+      './src/blossom-utils.js',
+      './src/drag-and-drop.js'
+    ],
     attestation: [
       './src/attestation_utils.mjs',
       './src/assets-table.js'
