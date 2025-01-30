@@ -19,23 +19,28 @@ layout: default
             <img src="/images/wIcons/{{ page.platformReview.type }}/{{ page.icon }}" class="app_logo_big" alt="Custodian Logo">
           {% endif %}
           <h1 class="page__title" itemprop="headline">{{ page.title | escape }}</h1>
-          <div style="margin-top: 1rem; display: flex; gap: 1.5rem;">
+          {% if page.custodian.crunchbaseUrl %}
+          <a href="{{ page.custodian.crunchbaseUrl }}" target="_blank" rel="noopener" style="display: inline-block; text-decoration: none; font-size: 0.8rem; color: #666; background: #f5f5f5; padding: 0.3rem 0.6rem; border-radius: 4px; margin: 0.5rem 0;">
+            <i class="fas fa-chart-line"></i> Crunchbase
+          </a>
+          {% endif %}
+          <div style="margin-top: 0.3rem; display: flex; gap: 0.5rem;">
             {% if page.custodian.operations.MonthlyTransactingUsers %}
-            <div style="display: flex; flex-direction: column; background: white; border-radius: 8px; padding: 1rem; box-shadow: 0 1px 3px rgba(0,0,0,0.12); min-width: 120px;">
-              <span style="font-size: 1.4rem; font-weight: bold; color: #0052CC;">{{ page.custodian.operations.MonthlyTransactingUsers }}</span>
-              <span style="font-size: 0.9rem; color: #666;">MTU ({{ page.custodian.operations.LastUpdatedMTU }})</span>
+            <div style="display: flex; flex-direction: column; background: white; border-radius: 8px; padding: 0.35rem 0.75rem; box-shadow: 0 1px 3px rgba(0,0,0,0.12); min-width: 120px;">
+              <span style="font-size: 1.4rem; font-weight: bold; color: #0052CC; line-height: 1.2;">{{ page.custodian.operations.MonthlyTransactingUsers }}</span>
+              <span style="font-size: 0.9rem; color: #666; line-height: 1.2;">MTU ({{ page.custodian.operations.LastUpdatedMTU }})</span>
             </div>
             {% endif %}
             {% if page.custodian.operations.btcCustodied %}
-            <div style="display: flex; flex-direction: column; background: white; border-radius: 8px; padding: 1rem; box-shadow: 0 1px 3px rgba(0,0,0,0.12); min-width: 120px;">
-              <span style="font-size: 1.4rem; font-weight: bold; color: #0052CC;">{{ page.custodian.operations.btcCustodied }}</span>
-              <span style="font-size: 0.9rem; color: #666;">BTC Custodied</span>
+            <div style="display: flex; flex-direction: column; background: white; border-radius: 8px; padding: 0.35rem 0.75rem; box-shadow: 0 1px 3px rgba(0,0,0,0.12); min-width: 120px;">
+              <span style="font-size: 1.4rem; font-weight: bold; color: #0052CC; line-height: 1.2;">{{ page.custodian.operations.btcCustodied }}</span>
+              <span style="font-size: 0.9rem; color: #666; line-height: 1.2;">BTC in Custody</span>
             </div>
             {% endif %}
             {% if page.custodian.operations.AssetsUnderCustody %}
-            <div style="display: flex; flex-direction: column; background: white; border-radius: 8px; padding: 1rem; box-shadow: 0 1px 3px rgba(0,0,0,0.12); min-width: 120px;">
-              <span style="font-size: 1.4rem; font-weight: bold; color: #0052CC;">{{ page.custodian.operations.AssetsUnderCustody }}</span>
-              <span style="font-size: 0.9rem; color: #666;">AUC</span>
+            <div style="display: flex; flex-direction: column; background: white; border-radius: 8px; padding: 0.35rem 0.75rem; box-shadow: 0 1px 3px rgba(0,0,0,0.12); min-width: 120px;">
+              <span style="font-size: 1.4rem; font-weight: bold; color: #0052CC; line-height: 1.2;">{{ page.custodian.operations.AssetsUnderCustody }}</span>
+              <span style="font-size: 0.9rem; color: #666; line-height: 1.2;">AUC</span>
             </div>
             {% endif %}
           </div>
