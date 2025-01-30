@@ -251,7 +251,6 @@ async function displayAllInfo(file, apkInfo, hash, appData, allAssetsInformation
             url += `&version=${encodeURIComponent(appData?.version ?? apkInfo?.versionName)}`;
         }
 
-        // If not in /new_asset/ url, show new_asset button
         if (window.location.pathname !== '/new_asset/') {
             fileInfoHtml += `<li><a href="${url}" class="btn btn-primary">Register this new asset</a> on Nostr so you or others can try to reproduce it.</li>`;
         }
