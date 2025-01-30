@@ -53,8 +53,8 @@ pre {
     
     {% include /attestations/dragAndDropArea.html skipScript=true %}
 
-    <p>If the <b>binary is new to the network</b>, you'll be prompted to provide some additional information to register it.</p>
-    <p>If the <b>binary is already known</b>, you'll be able to view existing attestations, access build instructions, and create your own attestation.</p>
+    <p>If the <b>binary is new to the network</b>, you'll be prompted to provide register it providing some additional information.</p>
+    <p>If the <b>binary is already known</b>, you'll be able to view existing attestations, access build instructions, or create your own attestation.</p>
     <p class="note">Note: Not all Bitcoin wallets may have attestations available, as this is a community-driven effort and relatively new verification system.</p>
 </div>
 
