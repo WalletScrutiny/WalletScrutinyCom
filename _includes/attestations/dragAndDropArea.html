@@ -18,6 +18,10 @@
 </div>
 <!-- Drag-and-Drop-Area End -->
 
+<div id="loadingSpinner" style="display: none;">
+    <div class="spinner"></div>
+</div>
+
 {% unless include.skipScript %}
 <script src="{{ '/dist/dragAndDrop.bundle.min.js' | relative_url }}"></script>
 {% endunless %}
