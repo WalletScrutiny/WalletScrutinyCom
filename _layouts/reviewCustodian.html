@@ -63,6 +63,33 @@ layout: default
               <span style="font-size: 0.9rem; color: #666; line-height: 1.2;">BTC in Custody</span>
             </div>
             {% endif %}
+
+            {% assign assets_display = false %}
+            {% if page.custodian.operations.cryptographicProof.valid and page.custodian.operations.cryptographicProof.totalAssets != "" %}
+              {% assign total_assets = page.custodian.operations.cryptographicProof.totalAssets %}
+              {% assign assets_source = page.custodian.operations.cryptographicProof.source %}
+              {% assign assets_display = true %}
+            {% elsif page.custodian.operations.thirdPartyAudit.valid and page.custodian.operations.thirdPartyAudit.totalAssets != "" %}
+              {% assign total_assets = page.custodian.operations.thirdPartyAudit.totalAssets %}
+              {% assign assets_source = page.custodian.operations.thirdPartyAudit.source %}
+              {% assign assets_display = true %}
+            {% elsif page.custodian.operations.selfReported.valid and page.custodian.operations.selfReported.totalAssets != "" %}
+              {% assign total_assets = page.custodian.operations.selfReported.totalAssets %}
+              {% assign assets_source = page.custodian.operations.selfReported.source %}
+              {% assign assets_display = true %}
+            {% endif %}
+            
+            {% if assets_display %}
+            <div style="display: flex; flex-direction: column; background: white; border-radius: 8px; padding: 0.35rem 0.75rem; box-shadow: 0 1px 3px rgba(0,0,0,0.12); min-width: 120px;">
+              <div style="display: flex; align-items: center; gap: 0.5rem;">
+                <span style="font-size: 1.4rem; font-weight: bold; color: #0052CC; line-height: 1.2;">{{ total_assets }}</span>
+                <div class="info-bubble" title="{{ assets_source }}" style="cursor: help; display: inline-flex; align-items: center; justify-content: center; width: 16px; height: 16px; border-radius: 50%; background: #E8E8E8; font-size: 0.7rem; color: #666;">
+                  <i class="fas fa-info"></i>
+                </div>
+              </div>
+              <span style="font-size: 0.9rem; color: #666; line-height: 1.2;">Assets Under Custody</span>
+            </div>
+            {% endif %}
             {% if page.custodian.operations.AssetsUnderCustody %}
             <div style="display: flex; flex-direction: column; background: white; border-radius: 8px; padding: 0.35rem 0.75rem; box-shadow: 0 1px 3px rgba(0,0,0,0.12); min-width: 120px;">
               <span style="font-size: 1.4rem; font-weight: bold; color: #0052CC; line-height: 1.2;">{{ page.custodian.operations.AssetsUnderCustody }}</span>
