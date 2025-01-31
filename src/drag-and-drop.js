@@ -234,8 +234,8 @@ async function displayAllInfo(file, apkInfo, hash, appData, allAssetsInformation
         fileInfoHtml += `<li>You can go to the <a href="/${app.folder}/${appId}/?hash=${encodeURIComponent(hash)}" class="btn btn-small">${app.title} page</a> to check the attestations.</li>`;
     }
 
-    const hasAssets = allAssetsInformation.assets && allAssetsInformation.assets.size > 0;
-    const hasAttestations = allAssetsInformation.attestations && allAssetsInformation.attestations.size > 0;
+    const hasAssets = allAssetsInformation.assets?.size > 0;
+    const hasAttestations = allAssetsInformation.attestations?.size > 0;
 
     if (hasAssets) {
         fileInfoHtml += `<li>This asset is registered in Nostr,`;
@@ -243,19 +243,19 @@ async function displayAllInfo(file, apkInfo, hash, appData, allAssetsInformation
         if (hasAttestations) {
             fileInfoHtml += ` and it has attestations. <a href="/asset/?sha256=${encodeURIComponent(hash)}" class="btn btn-small">View them</a>.</li>`;
         } else {
-            fileInfoHtml += ` but it doesn't have attestations yet. You can <a href="/new_attestation/?sha256=${encodeURIComponent(hash)}&assetEventId="aaaaaa" class="btn btn-small">Create one</a>.</li>`;
+            fileInfoHtml += ` but it doesn't have attestations yet. You can <a href="/new_attestation/?sha256=${encodeURIComponent(hash)}" class="btn btn-small">Create one</a>.</li>`;
         }
     } else {
-        let url = `/new_asset/?sha256=${encodeURIComponent(hash)}`;
-
-        if (appId) {
-            url += `&appId=${encodeURIComponent(appId)}`;
-        }
-        if (appData?.version || apkInfo?.versionName) {
-            url += `&version=${encodeURIComponent(appData?.version ?? apkInfo?.versionName)}`;
-        }
-
         if (window.location.pathname !== '/new_asset/') {
+            let url = `/new_asset/?sha256=${encodeURIComponent(hash)}`;
+
+            if (appId) {
+                url += `&appId=${encodeURIComponent(appId)}`;
+            }
+            if (version) {
+                url += `&version=${encodeURIComponent(version)}`;
+            }
+        
             fileInfoHtml += `<li><a href="${url}" class="btn btn-small">Register this new asset</a> on Nostr so you or others can try to reproduce it.</li>`;
         }
     }
