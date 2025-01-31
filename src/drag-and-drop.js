@@ -143,6 +143,8 @@ async function processFiles(files) {
         return;
     }
 
+    document.getElementById('loadingSpinner').style.display = 'block';
+
     const file = files[0];
 
     // Clear the drop-area before displaying new information
@@ -188,6 +190,8 @@ async function processFiles(files) {
             }
         }
     }
+
+    document.getElementById('loadingSpinner').style.display = 'none';
 }
 
 async function displayAllInfo(file, apkInfo, hash, appData, allAssetsInformation) {

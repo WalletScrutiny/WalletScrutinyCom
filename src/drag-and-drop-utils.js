@@ -32,7 +32,6 @@ export function getVersionFromFilename(filename) {
 
 export async function calculateFileHash(file) {
     console.time("sha256");
-    console.log("Calculating SHA-256 hash");
     const arrayBuffer = await file.arrayBuffer();
     const hash = await window.crypto.subtle.digest("SHA-256", arrayBuffer);
     const hashArray = Array.from(new Uint8Array(hash));

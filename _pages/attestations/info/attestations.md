@@ -5,14 +5,6 @@ permalink: /attestations/
 ---
 
 <style>
-#drop-area {
-    border: 2px dashed #ccc;
-    border-radius: 8px;
-    padding: 10px;
-    margin: 0 auto;
-    max-width: 300px;
-}
-
 .p-pre-code {
     margin-bottom: 0;
 }
