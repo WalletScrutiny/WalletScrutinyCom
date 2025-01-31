@@ -4,6 +4,7 @@ appId: trezorSafe3
 authors:
 - danny
 - leo
+- keraliss
 released: 2023-10-12
 discontinued: 
 updated: 2024-07-10
@@ -29,9 +30,16 @@ verdict: reproducible
 appHashes:
 - 877aed88c703a89344ae9b098f84849a2e1db29c1740e71af5cc85042eeb8ec1
 - c1edd08f02b75430fbeedd77c4d155aadd81b030752fec4465698ab9a0b3d0e3
-date: 2024-10-11
+- 38ebb96d4f0cfd36e28b82480a021d62832c3e72c6577d52f9bc92d12c0466cf
+date: 2025-01-31
 signer: 
 reviewArchive:
+- date: 2024-10-11
+  version: 2.8.0
+  appHashes:
+  - 5673e8cfc0f6cbae7a5e6c5b26473acdbda36a81d0fb074a680f4fba734690e1
+  gitRevision: c481c44ae4f0a71ebdb7a4fa45f53e9ad3822c01
+  verdict: reproducible
 - date: 2024-04-01
   version: 2.6.4
   appHashes:
@@ -46,6 +54,13 @@ features:
 
 ---
 
+## Updated Review 2025-01-31
+
+We were able to create a script for the Trezor Safe 3 with the build instruction, that would automate the process.
+
+`./scripts/test/hardware/trezorSafe3.sh 2.8.7`
+
+```
 Hash of the binaries downloaded:
 0511851ddb71dac16a12934b74835a57e499b81aa322772ff208cb2add2bc1fa  trezor-t2b1-2.8.7.bin
 93e617a5a15448dbdc28b57ae68f4a175e673072e93067bec9e63dc6b69a483c  trezor-t2b1-2.8.7-bitcoinonly.bin
@@ -63,6 +78,10 @@ Comparing hashes of zeroed binaries with built firmware:
 9b2365d76045a02d77714827d311bd8f9c6a47f346224f313d258d7ec4881c46  trezor-t2b1-2.8.7-bitcoinonly.bin.zeroed
 e19a2be8b201d46e8099f092c9c9dc898b6931f02ea6a27babe4296ee5650765  build/core-R/firmware/firmware.bin
 e19a2be8b201d46e8099f092c9c9dc898b6931f02ea6a27babe4296ee5650765  trezor-t2b1-2.8.7.bin.zeroed
+```
+
+**Version 2.8.7 of the {{ page.title }} is reproducible**.
+
 
 ## Updated Review 2024-10-11
 
