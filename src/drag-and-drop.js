@@ -231,7 +231,7 @@ async function displayAllInfo(file, apkInfo, hash, appData, allAssetsInformation
     // Adding buttons and related information
 
     if (!isPageForAppId(appId) && app) {
-        fileInfoHtml += `<li>You can go to the <a href="/${app.folder}/${appId}/?hash=${encodeURIComponent(hash)}" class="btn btn-primary">${app.title} page</a> to check the attestations.</li>`;
+        fileInfoHtml += `<li>You can go to the <a href="/${app.folder}/${appId}/?hash=${encodeURIComponent(hash)}" class="btn btn-small">${app.title} page</a> to check the attestations.</li>`;
     }
 
     const hasAssets = allAssetsInformation.assets && allAssetsInformation.assets.size > 0;
@@ -241,9 +241,9 @@ async function displayAllInfo(file, apkInfo, hash, appData, allAssetsInformation
         fileInfoHtml += `<li>This asset is registered in Nostr,`;
 
         if (hasAttestations) {
-            fileInfoHtml += ` and it has attestations. <a href="/asset/?sha256=${encodeURIComponent(hash)}" class="btn btn-primary">View them</a>.</li>`;
+            fileInfoHtml += ` and it has attestations. <a href="/asset/?sha256=${encodeURIComponent(hash)}" class="btn btn-small">View them</a>.</li>`;
         } else {
-            fileInfoHtml += ` but it doesn't have attestations yet. You can <a href="/new_attestation/?sha256=${encodeURIComponent(hash)}&assetEventId="aaaaaa" class="btn btn-primary">Create one</a>.</li>`;
+            fileInfoHtml += ` but it doesn't have attestations yet. You can <a href="/new_attestation/?sha256=${encodeURIComponent(hash)}&assetEventId="aaaaaa" class="btn btn-small">Create one</a>.</li>`;
         }
     } else {
         let url = `/new_asset/?sha256=${encodeURIComponent(hash)}`;
@@ -256,11 +256,11 @@ async function displayAllInfo(file, apkInfo, hash, appData, allAssetsInformation
         }
 
         if (window.location.pathname !== '/new_asset/') {
-            fileInfoHtml += `<li><a href="${url}" class="btn btn-primary">Register this new asset</a> on Nostr so you or others can try to reproduce it.</li>`;
+            fileInfoHtml += `<li><a href="${url}" class="btn btn-small">Register this new asset</a> on Nostr so you or others can try to reproduce it.</li>`;
         }
     }
 
-    fileInfoHtml += `<li>Check out <a href="/attestations/" class="btn btn-primary" target="_blank">How Attestations work</a>.</li>`;
+    fileInfoHtml += `<li>Check out <a href="/attestations/" class="btn btn-small" target="_blank">How Attestations work</a>.</li>`;
 
     updateDomElement('file-info', fileInfoHtml);
 }

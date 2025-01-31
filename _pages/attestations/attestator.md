@@ -44,7 +44,7 @@ permalink: /attestator/
 
 <div style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
   {% include shareButton.html defaultMessage="Look at my attestator profile on WalletScrutiny!" %}
-  <a href="" target="_blank" id="njumpLink" class="btn btn-primary" style="background-color: #007bff;">
+  <a href="" target="_blank" id="njumpLink" class="btn" style="background-color: #007bff;">
     <i class="fas fa-external-link-alt" style="margin-right: 7px;"></i> njump.me
   </a>
 </div>
