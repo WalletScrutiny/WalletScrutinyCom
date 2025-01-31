@@ -46,8 +46,9 @@ reviewArchive:
   verdict: nonverifiable 
 - date: 2024-11-19
   version: 1.9.53
-  appHashes: []
-  gitRevision: 4458285efc54bd9bc76d74f88e696201a4af4a93
+  appHashes:
+  - aaec6e500babbd1931db8485b99205468e426f6157df131f607aa69b6e821708
+  gitRevision: b720beb1ee4f9de53638ab013f759690c8e787a4
   verdict: nonverifiable
 - date: 2023-07-05
   version: 1.9.32

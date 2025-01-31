@@ -24,10 +24,16 @@ bugbounty:
 meta: ok
 verdict: reproducible
 appHashes:
-- 558f86da8d9d8e8bd0416ecb1df9a77b3146b85cd1fe0d674a06a898a2f9ba1d
+- 7ec19b1845738321a779ffd0894e410250f97fe69bce27066f71b8c1205e7416
 date: 2025-01-08
 signer: 32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
 reviewArchive:
+- date: 2025-01-08
+  version: 4.1.2
+  appHash:
+  - 558f86da8d9d8e8bd0416ecb1df9a77b3146b85cd1fe0d674a06a898a2f9ba1d
+  gitRevision: 4458285efc54bd9bc76d74f88e696201a4af4a93
+  verdict: reproducible
 - date: 2025-01-04
   version: 4.1.1
   appHashes:
@@ -336,24 +342,24 @@ For that latest version, our {% include testScript.html %} returned this:
 ===== Begin Results =====
 appId:          com.greenaddress.greenbits_android_wallet
 signer:         32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e
-apkVersionName: 4.1.2
-apkVersionCode: 22000441
-verdict:        reproducible
-appHash:        558f86da8d9d8e8bd0416ecb1df9a77b3146b85cd1fe0d674a06a898a2f9ba1d
-commit:         51f7f943fe30756012f58af5cbb8326b7f16cb1a
+apkVersionName: 4.1.3
+apkVersionCode: 22000442
+verdict:        
+appHash:        7ec19b1845738321a779ffd0894e410250f97fe69bce27066f71b8c1205e7416
+commit:         503ec0a01e363f92223d3e9c4a724d8a0c748920
 
 Diff:
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000441/META-INF: GREENADD.RSA
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000441/META-INF: GREENADD.SF
-Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000441/META-INF: MANIFEST.MF
+Files /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000442/assets/dexopt/baseline.prof and /tmp/fromBuild_com.greenaddress.greenbits_android_wallet_22000442/assets/dexopt/baseline.prof differ
+Files /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000442/classes3.dex and /tmp/fromBuild_com.greenaddress.greenbits_android_wallet_22000442/classes3.dex differ
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000442/META-INF: GREENADD.RSA
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000442/META-INF: GREENADD.SF
+Only in /tmp/fromPlay_com.greenaddress.greenbits_android_wallet_22000442/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
-object 51f7f943fe30756012f58af5cbb8326b7f16cb1a
+object 503ec0a01e363f92223d3e9c4a724d8a0c748920
 type commit
-tag release_4.1.2
-tagger Luca Vaccaro <me@lvaccaro.com> 1735936388 +0100
-
-Release 4.1.2
+tag release_4.1.3
+tagger Angelos Veglektsis <angelos@blockstream.com> 1736442841 +0200
 ===== End Results =====
 
 Run a full
@@ -365,7 +371,7 @@ for more details.
 + '[' false = true ']'
 ```
 
-Version 4.1.2 of {{ page.title }} is **reproducible**. 
+Version 4.1.3 of {{ page.title }} is **reproducible**. 
 
 
 {% include asciicast %}
