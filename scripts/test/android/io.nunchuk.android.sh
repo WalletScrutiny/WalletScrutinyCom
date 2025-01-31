@@ -1,94 +1,79 @@
 #!/bin/bash
-# io.nunchuk.android.sh v0.1.0-alpha.3
-# App-specific script for building the Nunchuk app
+# io.nunchuk.android.sh v0.1.0-alpha.6
+# App-specific script for building the Nunchuk app. Works with 1.9.59
 # Expects variables from testAAB.sh: appId, versionName, workDir
 
-# Build the Docker image for the Nunchuk app
-echo "Building Docker image for Nunchuk app..."
-podman build -t nunchuk-android -f "$TEST_ANDROID_DIR/io.nunchuk.android.dockerfile" .
+# set -e  # Exit on error
 
-# Create a temporary container name to facilitate file copying
-container_name="nunchuk_android_builder_$(date +%s)"
+# Prepare the build context
+echo "Creating build directory..."
+mkdir -p "$workDir"
+mkdir -p "$workDir/built-split_apks/"
 
-# Run the container, execute all necessary commands, and keep it for copying files
-echo "Running the Docker container and executing build commands..."
-podman run --name $container_name -it --rm=false nunchuk-android /bin/bash -c "
-    # Clone the Nunchuk repository
-    git clone https://github.com/nunchuk-io/nunchuk-android && cd nunchuk-android
-    git checkout 'android.$versionName' || exit 1
+# Clone the repository
+echo "Cloning the Nunchuk repository..."
+git clone https://github.com/nunchuk-io/nunchuk-android "$workDir/nunchuk-android"
+cd "$workDir/nunchuk-android"
 
-    # Modify gradle.properties for memory settings
-    echo 'Modifying gradle.properties for memory settings...'
+# Checkout the correct branch
+echo "Checking out the correct branch..."
+git checkout "android.$versionName" || exit 1
+
+# Change directory to reproducible-builds
+echo "Changing to reproducible-builds directory..."
+cd reproducible-builds || exit 1
+
+# Build the docker image
+echo "Building docker image..."
+podman build --platform linux/amd64 -t nunchuk-android . || exit 1
+
+# Move back to root
+cd ..
+
+# Modify gradle.properties for memory settings
+echo 'Modifying gradle.properties for memory settings...'
+if [ -f "gradle.properties" ]; then
     sed -i 's/-Xmx8192m/-Xmx4096m/' gradle.properties
     sed -i 's/-XX:MetaspaceSize=8192m/-XX:MetaspaceSize=4096m/' gradle.properties
+else
+    echo "Warning: gradle.properties not found"
+fi
 
-    # Build the AAB file
-    echo 'Building the production release bundle...'
-    ./gradlew bundleProductionRelease
+# Run the container, execute all necessary commands, and keep it for copying files
+echo "Running container for build..."
+podman run --rm --privileged \
+    -v "$(pwd)":/app-src \
+    --device /dev/fuse \
+    --cap-add SYS_ADMIN \
+    nunchuk-android \
+    bash -c "mkdir -p /app && disorderfs --sort-dirents=yes --reverse-dirents=no /app-src/ /app/ && cd /app && ./gradlew clean bundleProductionRelease"
 
-    # Generate device-spec.json file
-    # Modify this to suit your device's actual values
-echo 'Generating device-spec.json...'
-cat <<EOL > device-spec.json
-    {
-      "supportedAbis": ["armeabi-v7a", "armeabi"],
-      "supportedLocales": ["en"],
-      "screenDensity": 280,
-      "sdkVersion": 31
-    }
-EOL
+# Creating directory for bundletool
+mkdir -p "$workDir/bundletool"
 
-    # Download and prepare bundletool
-    echo 'Downloading bundletool...'
-    curl -L -o bundletool.jar https://github.com/google/bundletool/releases/download/1.17.2/bundletool-all-1.17.2.jar
-    chmod +x bundletool.jar
+# Download bundletool
+echo "Downloading bundletool..."
+curl -L https://github.com/google/bundletool/releases/download/1.18.0/bundletool-all-1.18.0.jar -o "$workDir/bundletool/bundletool-all-1.18.0.jar"
 
-    # Generate split APKs using bundletool
-    echo 'Generating split APKs...'
-    java -jar bundletool.jar build-apks \
-      --bundle=./nunchuk-app/build/outputs/bundle/productionRelease/nunchuk-app-production-release.aab \
-      --output=nunchuk-split.apks \
-      --device-spec=device-spec.json \
-      --overwrite
+# Run bundletool
+echo "Running bundletool..."
+java -jar "$workDir/bundletool/bundletool-all-1.18.0.jar" build-apks \
+    --bundle="$workDir/nunchuk-android/nunchuk-app/build/outputs/bundle/productionRelease/nunchuk-app-production-release.aab" \
+    --output-format=DIRECTORY \
+    --output="$workDir/built-split_apks" \
+    --device-spec="$deviceSpec"
 
-    # Extract the generated split APKs
-    echo 'Extracting split APKs...'
-    mkdir -p split_apks && unzip -d split_apks nunchuk-split.apks
-
-    # Confirm outputs
-    echo 'Contents of split APKs directory:'
-    ls -al split_apks/splits/
-    pwd
-
-    # Display the absolute path
-    echo 'Absolute path to split APKS:'
-    realpath split_apks/splits/
-"
-
-# Verify container status
-echo "Checking if container $container_name exists..."
-podman ps -a --filter "name=$container_name"
-
-# Copy the split APKs to the host machine
-echo "Copying split APKs to the host machine..."
-mkdir -p "$workDir/built-split_apks"
-podman cp "$container_name":/home/appuser/app/nunchuk/nunchuk-android/split_apks/splits/. "$workDir/built-split_apks/"
-
-# After copying files, add:
+# Corrected File Normalization
 echo "Verifying copy and renaming files..."
-ls -la "$workDir/built-split_apks"  # Debug: check if directory exists and contents
-cd "$workDir/built-split_apks"
-mv base-master.apk base.apk
+cd "$workDir/built-split_apks/splits"
+mv base-master.apk ../base.apk
 for f in base-*.apk; do
     [ -f "$f" ] || continue  # Skip if no matches found
-    [ "$f" = "base.apk" ] && continue
     config_name=$(echo "$f" | sed 's/base-/split_config./')
-    mv "$f" "$config_name"
+    mv "$f" "../$config_name"
 done
-ls -la  # Debug: verify final contents
+cd ..
+ls -la "$workDir/built-split_apks"  # Debug: check the corrected structure
 
-# Clean up the container
-echo "Cleaning up the container..."
-podman rm $container_name
 
-echo "App-specific build process completed."
+echo "APK build and organization completed successfully"

@@ -1,7 +1,10 @@
 <link rel="stylesheet" href="/assets/css/diffoscope-modal.css">
 <div id="diffoscopeModal" class="diffoscope-modal">
     <div class="diffoscope-modal-content">
-        <span class="diffoscope-close">✖</span>
+        <div class="diffoscope-controls">
+            <span class="diffoscope-maximize" title="Maximize">⛶</span>
+            <span class="diffoscope-close" title="Close">✖</span>
+        </div>
         <iframe id="diffoscopeFrame"></iframe>
     </div>
 </div>
@@ -9,8 +12,11 @@
 <script>
 document.addEventListener('DOMContentLoaded', function () {
     var modal = document.getElementById('diffoscopeModal');
+    var modalContent = modal.querySelector('.diffoscope-modal-content');
     var closeButton = document.querySelector('.diffoscope-close');
+    var maximizeButton = document.querySelector('.diffoscope-maximize');
     var iframe = document.getElementById('diffoscopeFrame');
+    var isMaximized = false;
 
     // Open modal
     document.querySelectorAll('a[data-modal-link]').forEach(function (link) {
@@ -21,10 +27,25 @@ document.addEventListener('DOMContentLoaded', function () {
       });
     });
 
+    // Toggle maximize
+    maximizeButton.onclick = function() {
+        isMaximized = !isMaximized;
+        modalContent.classList.toggle('maximized');
+        maximizeButton.innerHTML = isMaximized ? '⧉' : '⛶';
+        maximizeButton.title = isMaximized ? 'Restore' : 'Maximize';
+    };
+
     // Close modal
     closeButton.onclick = function () {
         modal.style.display = 'none';
         iframe.src = '';
+        // Reset maximize state when closing
+        if (isMaximized) {
+            isMaximized = false;
+            modalContent.classList.remove('maximized');
+            maximizeButton.innerHTML = '⛶';
+            maximizeButton.title = 'Maximize';
+        }
     };
 
     // Close modal on outside click
@@ -32,6 +53,13 @@ document.addEventListener('DOMContentLoaded', function () {
         if (event.target == modal) {
             modal.style.display = 'none';
             iframe.src = '';
+            // Reset maximize state when closing
+            if (isMaximized) {
+                isMaximized = false;
+                modalContent.classList.remove('maximized');
+                maximizeButton.innerHTML = '⛶';
+                maximizeButton.title = 'Maximize';
+            }
         }
     };
 });
