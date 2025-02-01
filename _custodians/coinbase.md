@@ -90,8 +90,8 @@ custodian:
       valid: false
     
     thirdPartyAudit:
-      btcAmount: "887,417 BTC"
-      totalAssets: "$124,259,457,664.10"
+      btcAmount: "887K BTC"
+      totalAssets: "$124B"
       lastUpdated: "2025-01-30"
       source: "Arkham Intelligence"
       sourceUrl: "https://intel.arkm.com/explorer/entity/coinbase"
