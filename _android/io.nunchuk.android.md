@@ -24,10 +24,26 @@ icon: io.nunchuk.android.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-appHashes: 
-date: 2025-01-15
-signer: 
+appHashes:
+- c0cc213b0e5f309d4bf83d8ff576f7e7c324c2273e202170a10704b0b5d9d535
+- 03a0faf7feae6ced736a0894049163dbfc81d8b616c0c549d1b9dc7c781bd0cc
+- 3f704527776c7696c85728790f8639ced4d38eaa1a43229d33c4c8b8aa0a1e0a
+date: 2025-01-27
+signer:
 reviewArchive:
+- date: 2025-01-15
+  version: 1.9.58
+  appHashes:
+  - 8f53fa42fc072381ea228314fa421b52a77b33e9fe6029095fc1d13c68fd9b41
+  - 9027651c5ed7dd4a31d6cd073023bb77f38b799d8a0aa0ff0f81a184b1795dd3 
+  - 02c32758930cf0d4d87a44a5985f7bf97550280e1539074276a277866489f022 
+  gitRevision: 8080d3a7f2c5ea5e5acf56295040b814accb6b11
+  verdict: nonverifiable 
+- date: 2024-11-19
+  version: 1.9.53
+  appHashes: []
+  gitRevision: 4458285efc54bd9bc76d74f88e696201a4af4a93
+  verdict: nonverifiable 
 - date: 2024-11-19
   version: 1.9.53
   appHashes:
@@ -60,161 +76,128 @@ features:
 
 ---
 
-## Update 2025-01-27 for version **1.9.58**
+## App Description
 
-# Diffs: 
+Nunchuk is a Bitcoin wallet offering advanced multisignature (multisig) functionality, inheritance planning, and robust privacy features. It eliminates single points of failure with multisig setups and provides key recovery options through encrypted cloud backups. The wallet ensures non-custodial control, allowing users to retain full ownership of their Bitcoin. Privacy is emphasized with features like end-to-end encrypted communication and inheritance planning without identity verification.
+
+Additional capabilities include advanced coin control for managing transaction inputs, tagging, and filtering coins, as well as a multi-user multisig wallet for shared Bitcoin management. Nunchuk supports secure collaboration for families or businesses, ensuring that assets can be managed collectively with ease.
+
+### Provider's Own Process
+
+The provider has their own **[script](https://github.com/nunchuk-io/nunchuk-android/blob/master/reproducible-builds/apkdiff.py)** and **[instructions](https://github.com/nunchuk-io/nunchuk-android/tree/master/reproducible-builds)** for testing the reproducibility of the app. 
+
+## Reproducibility Test for {{ page.title }} version 1.9.59
+
+### Raw Results
+
+```
+===== Begin Results =====
+
+Comparing armeabi_v7a...
+Differences found between /tmp/test_io.nunchuk.android_1.9.59/fromPlay-unzipped/armeabi_v7a and /tmp/test_io.nunchuk.android_1.9.59/fromBuild-unzipped/armeabi_v7a
+Binary files /tmp/test_io.nunchuk.android_1.9.59/fromPlay-unzipped/armeabi_v7a/AndroidManifest.xml and /tmp/test_io.nunchuk.android_1.9.59/fromBuild-unzipped/armeabi_v7a/AndroidManifest.xml differ
+Only in /tmp/test_io.nunchuk.android_1.9.59/fromPlay-unzipped/armeabi_v7a: META-INF
+Only in /tmp/test_io.nunchuk.android_1.9.59/fromPlay-unzipped/armeabi_v7a: stamp-cert-sha256
+
+Comparing base...
+Differences found between /tmp/test_io.nunchuk.android_1.9.59/fromPlay-unzipped/base and /tmp/test_io.nunchuk.android_1.9.59/fromBuild-unzipped/base
+Binary files /tmp/test_io.nunchuk.android_1.9.59/fromPlay-unzipped/base/AndroidManifest.xml and /tmp/test_io.nunchuk.android_1.9.59/fromBuild-unzipped/base/AndroidManifest.xml differ
+Binary files /tmp/test_io.nunchuk.android_1.9.59/fromPlay-unzipped/base/resources.arsc and /tmp/test_io.nunchuk.android_1.9.59/fromBuild-unzipped/base/resources.arsc differ
+Only in /tmp/test_io.nunchuk.android_1.9.59/fromPlay-unzipped/base: stamp-cert-sha256
+
+Comparing xhdpi...
+Differences found between /tmp/test_io.nunchuk.android_1.9.59/fromPlay-unzipped/xhdpi and /tmp/test_io.nunchuk.android_1.9.59/fromBuild-unzipped/xhdpi
+Binary files /tmp/test_io.nunchuk.android_1.9.59/fromPlay-unzipped/xhdpi/AndroidManifest.xml and /tmp/test_io.nunchuk.android_1.9.59/fromBuild-unzipped/xhdpi/AndroidManifest.xml differ
+Only in /tmp/test_io.nunchuk.android_1.9.59/fromPlay-unzipped/xhdpi: META-INF
+Binary files /tmp/test_io.nunchuk.android_1.9.59/fromPlay-unzipped/xhdpi/resources.arsc and /tmp/test_io.nunchuk.android_1.9.59/fromBuild-unzipped/xhdpi/resources.arsc differ
+Only in /tmp/test_io.nunchuk.android_1.9.59/fromPlay-unzipped/xhdpi: stamp-cert-sha256
+===== End Results =====
+```
+{% include asciicast %}
+
+# Summary
+
+## base.apk 
+
+`c0cc213b0e5f309d4bf83d8ff576f7e7c324c2273e202170a10704b0b5d9d535`
+ 
+{% include diffoscope-modal.html label='Diffoscope between the two apks on an upgraded Androguard Python venv' url='/assets/diffoscope-results/android/io.nunchuk.android/1.9.59/diffo-io.nunchuk.android_1.9.59-androguardvenv-base.html' %}
+
+### Diffs:
+
+{% include diffoscope-modal.html label='AndroidManifest.xml' url='/assets/diffoscope-results/android/io.nunchuk.android/1.9.59/diffoscope-base-AndroidManifest.xml.html' %}
+
+**resources.arsc** 
+
+**When running a diff on the decompiled version of resources.arsc:**
+
+We execute: `$ diff -r fromBuild-decoded-manual/res fromPlay-decoded-new/res`
+
+```
+diff -r fromBuild-decoded-manual/res/values/strings.xml fromPlay-decoded-new/res/values/strings.xml
+56c56
+<     <string name="com.google.firebase.crashlytics.mapping_file_id">9889cfdd0ee44e379f1255aa74a2fb79</string>
+---
+>     <string name="com.google.firebase.crashlytics.mapping_file_id">4066e4c56e2b4a88acb5b0d8e721a9dd</string>
+```
+
+**stamp-cert-sha256**
+
+**Size of stamp-cert-sha256 in bytes**
+
+```
+$ stat --format="%s" /tmp/test_io.nunchuk.android_1.9.59/fromPlay-unzipped/base/stamp-cert-sha256
+32
+```
+<hr>
 
 ## armeabi_v7a.apk 
 
+`03a0faf7feae6ced736a0894049163dbfc81d8b616c0c549d1b9dc7c781bd0cc`
+
+{% include diffoscope-modal.html label='Diffoscope between the two matching armeabi_v7a apks' url='/assets/diffoscope-results/android/io.nunchuk.android/1.9.59/diffo-io.nunchuk.android_1.9.59-built-armeabi-vs-play-armeabi.html' %}
+
+### Diffs:
+
+{% include diffoscope-modal.html label='AndroidManifest.xml' url='/assets/diffoscope-results/android/io.nunchuk.android/1.9.59/diffo-decoded-armeabi-AndroidManifest.xml.html' %}
+
+**stamp-cert-sha256**
+
+**Size of stamp-cert-sha256 in bytes**
 ```
-8f53fa42fc072381ea228314fa421b52a77b33e9fe6029095fc1d13c68fd9b41 - Official
+$ stat --format="%s" /tmp/test_io.nunchuk.android_1.9.59/fromPlay-unzipped/armeabi_v7a/stamp-cert-sha256
+32
 ```
-
-{% include diffoscope-modal.html label='Diffoscope between built and play armeabi_v7a apks' url='/assets/diffoscope-results/android/io.nunchuk.android/1.9.58/diffo-io.nunchuk.android_1.9.58-built-armeabi-vs-play-armeabi.html' %}
-
-### **Added Metadata** in AndroidManifest.xml
-
-The Play APK includes a new `<meta-data>` element inside the `<application>` tag:
-
-```
-<meta-data android:name\="com.android.vending.derived.apk.id" android:value\="3"/>
-```
-
--   **Purpose**:
-    -   This metadata is added by the Play Store during the app signing and distribution process.
-    -   The `com.android.vending.derived.apk.id` key is used to identify the APK as part of a split configuration. The `value="3"` indicates a specific identifier for this split APK (likely related to the `armeabi_v7a`
-
-
-### Additional Files in the Play APK
-
-The Play APK includes 4 additional files:
-
-1.  **`stamp-cert-sha256`** (32 bytes):
-    -   This file is likely related to Play Store's app signing or integrity verification.
-2.  **`META-INF/BNDLTOOL.SF`** (1,140 bytes):
-    -   A signature file generated during the signing process.
-3.  **`META-INF/BNDLTOOL.RSA`** (2,174 bytes):
-    -   The RSA signature file containing the digital signature of the APK.
-4.  **`META-INF/MANIFEST.MF`** (1,032 bytes):
-    -   The manifest file containing hashes of all files in the APK, used for verification during installation.
-
-### The apk meta data diffs
-
--   The addition of `stamp-cert-sha256: '8'` indicates that the Play APK includes a new file `stamp-cert-sha256`
-
 <hr>
 
-## base.apk
+## xhdpi.apk 
 
+`3f704527776c7696c85728790f8639ced4d38eaa1a43229d33c4c8b8aa0a1e0a`
+
+{% include diffoscope-modal.html label='Diffoscope between the two matching xhdpi apks' url='/assets/diffoscope-results/android/io.nunchuk.android/1.9.59/diffo-io.nunchuk.android_1.9.59-built-xhdpi-vs-play-xhdpi.html' %}
+
+### Diffs:
+
+**AndroidManifest.xml**
+
+We repeated the process due to an [error](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/merge_requests/965?resolved_conflicts=true#note_2319840707) where we may have extracted the same apk using apktool on two different directories.
+
+`$ diffoscope --html diffo-xhdpi-decoded-AndroidManifest.xml.html new/built-xhdpi-decoded/AndroidManifest.xml new/play-xhdpi-decoded/AndroidManifest.xml`
+
+{% include diffoscope-modal.html label='Diffoscope between the built-decoded AndroidManifest.xml and the play-decoded AndroidManifest.xml ' url='/assets/diffoscope-results/android/io.nunchuk.android/1.9.59/diffo-xhdpi-decoded-AndroidManifest.xml.html' %}
+
+**META-INF**
+
+**resources.arsc**
+
+**stamp-cert-sha256**
+
+**Size of stamp-cert-sha256 in bytes**
 ```
-9027651c5ed7dd4a31d6cd073023bb77f38b799d8a0aa0ff0f81a184b1795dd3 - Official
-```
-
-{% include diffoscope-modal.html label='Diffoscope between built and play base apks' url='/assets/diffoscope-results/android/io.nunchuk.android/1.9.58/diffo-io.nunchuk.android_1.9.58-built-base-vs-play-base.html' %}
-
-- baseline.profm
-- classes2.dex
-- classes3.dex
-- classes4.dex
-- classes5.dex
-- classes6.dex
-- classes.dex
-
-### **Added Metadata**
-
-The Play APK includes three new `<meta-data>` elements:
-
-1.  **`com.android.stamp.source`**:
-
-    ```
-    <meta-data android:name\="com.android.stamp.source" android:value\="https://play.google.com/store"/>
-    ```
-    
-    -   Indicates that the APK was distributed via the Play Store.
-    -   The `value` points to the Play Store URL, confirming the source of the APK.
-
-2.  **`com.android.stamp.type`**:
-
-    ```
-    <meta-data android:name\="com.android.stamp.type" android:value\="STAMP\_TYPE\_DISTRIBUTION\_APK"/>
-    ```
-    
-    -   Specifies the type of APK. In this case, it is a **distribution APK**, meaning it is intended for distribution through the Play Store.
-
-3.  **`com.android.vending.derived.apk.id`**:
-
-    ```
-    <meta-data android:name\="com.android.vending.derived.apk.id" android:value\="3"/>
-    ```
-
-    -   Identifies the specific split APK. The `value="3"` corresponds to the `armeabi_v7a` split configuration.
-
-### **Summary of Differences in resources.arsc**
-
-| **Resource** | **Built APK** | **Play APK** |
-| --- | --- | --- |
-| `array/com.google.firebase.crashlytics.build_ids_arch` | Mix of `arm`, `aarch64`, `mips`, `x86`, and `x86_64` (original order) | Reordered with `aarch64` at the beginning, fewer `mips` entries |
-| `array/com.google.firebase.crashlytics.build_ids_build_id` | Build IDs in original order | Build IDs reordered to match the updated `build_ids_arch` array |
-
-### **Changes in `array/com.google.firebase.crashlytics.build_ids_arch`**
-
--   **Built APK**:
-    -   The array contains a mix of architectures: `arm`, `aarch64`, `mips`, `x86`, and `x86_64`.
-    -   The order and count of architectures are specific to the build process.
--   **Play APK**:
-    -   The array has been reordered and modified.
-    -   The `aarch64` entries are moved to the beginning of the array.
-    -   The `mips` entries are reduced, and some `arm` entries are repeated.
-
-<hr>
-
-### xhdpi.apk
-
-```
-02c32758930cf0d4d87a44a5985f7bf97550280e1539074276a277866489f022 - Official
+$ stat --format="%s" /tmp/test_io.nunchuk.android_1.9.59/fromPlay-unzipped/armeabi_v7a/stamp-cert-sha256
+32
 ```
 
-{% include diffoscope-modal.html label='Diffoscope between xhdpi built and play xhdpi apks' url='/assets/diffoscope-results/android/io.nunchuk.android/1.9.58/diffo-io.nunchuk.android_1.9.58-built-xhdpi-vs-play-xhdpi.html' %}
+## Conclusion
 
-### **File Size and Number of Entries**
-
--   **Built APK**:
-    -   Zip file size: 84,023 bytes
-    -   Number of entries: 90
--   **Play APK**:
-    -   Zip file size: 111,545 bytes (larger by ~27 KB)
-    -   Number of entries: 94 (4 additional files)
-
-The Play APK is larger and includes 4 additional files, which are related to signing and metadata.
-
-### **Additional Files in the Play APK**
-
-The Play APK includes 4 additional files:
-
-1.  **`stamp-cert-sha256`** (32 bytes):
-    -   This file is likely related to Play Store's app signing or integrity verification.
-2.  **`META-INF/BNDLTOOL.SF`** (9,721 bytes):
-    -   A signature file generated during the signing process.
-3.  **`META-INF/BNDLTOOL.RSA`** (2,174 bytes):
-    -   The RSA signature file containing the digital signature of the APK.
-4.  **`META-INF/MANIFEST.MF`** (9,613 bytes):
-    -   The manifest file containing hashes of all files in the APK, used for verification during installation.
-
-### **Added Metadata in AndroidManifest.xml**
-
-The Play APK includes a new `<meta-data>` element inside the `<application>` tag:
-
-    ```
-    <meta-data android:name\="com.android.vending.derived.apk.id" android:value\="3"/>
-    ```
-
--   **Purpose**:
-    -   This metadata is added by the Play Store during the app signing and distribution process.
-    -   The `com.android.vending.derived.apk.id` key is used to identify the APK as part of a split configuration. The `value="3"` indicates a specific identifier for this split APK (likely related to the `xhdpi` density split).
-
-We have updated the issue with this [note.](https://github.com/nunchuk-io/nunchuk-android/issues/23#issuecomment-2462243428)
-
-
-# Conclusion
-
-The differences are quite substantial, and we would have to conclude that {{ page.title }} version **1.9.58** is **nonverifiable**.
+While the app is **nonverifiable** due to the differences observed, these differences are largely explained by the signing process and metadata injection by the Play Store. The diffs in resources.arsc are likely due to variations in the build toolchain or resource optimization applied by the Play Store. It is highly probable that this [crashlytics diff on resources.arsc](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/merge_requests/965#note_2314802828) came from a bug that has yet to be addressed. 
