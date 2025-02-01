@@ -81,7 +81,7 @@ custodian:
   operations:
     users: "128M"
     cryptographicProof:
-      btcAmount: "622,192.442 BTC"
+      btcAmount: "622K BTC"
       totalAssets: 
       lastUpdated: "2024-01-30"
       source: "Binance Proof of Reserves"
@@ -89,7 +89,7 @@ custodian:
       valid: true
 
     thirdPartyAudit:
-      btcAmount: "620,962 BTC"
+      btcAmount: "620KBTC"
       totalAssets: "$181,924,033,635.10"
       lastUpdated: "2024-01-30"
       source: "Arkham Intelligence"
