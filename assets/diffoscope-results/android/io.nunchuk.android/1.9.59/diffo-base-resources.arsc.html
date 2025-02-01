@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="IE=edge">
+  <meta name="referrer" content="no-referrer" />
+  <meta name="generator" content="diffoscope" />
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAADdgAAA3YBfdWCzAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAM8SURBVFiF7dZdaJZlGAfw3/O+e9XNjy3XllZzWImBxIpifqTgsmUHBSIeBNFBdRh0UHQ0xGdb66CFBIERZEFRQRRUw0HkQkLMYQSBdpCFWdgSP6jpNn2393k68Nn2bj3vXtb6UOh/cl/39b/u67mem/913zf/4z9GUDw5xNI8n5WIzW9m/QF2YluJmI8203mALzEvLWAerRs4Pz6vSIkZSlsYk0/GkaB0zEgyDgWMlijyWsJuS2fkQwu8pqpMTA0ypeiShG71Bp0rU8Q+A47MWEDgvHZbZl/Av4SpIgxVYB3IqwZDmoUuYkzosDaNchpAoFqkSmgjGPWzLieF1k3JHVsjvCJQHBYaSy9g1E3m+QImQiK9SbNGqJDzuiDZ0lggQJCsyelDq8BB47sbCWTsnvhG3kqcLL833eqF4hk1EOoTOjZjnnaRdq2l6KtMAyl4/g23bKJrun+Mt9uOq7nvqOVbebWYy9Adc1fM/R/3CO780dONbIeFPHsPw+ULeM5ZHTbXHfUtXpxOZzgT5z02UGsZThRzF/ilht9G+fr4zfbfccIxXIa7uVTup69i7LJXaEEqF3on1d9ludBLpVLOVoT1lky9QYtwQ6p3WAVqSyUslWwSbRrkPJrMtgn0iBVk7BPJ4sGE24EPQKW3jLgdzWKLBTbg0yTuZeGkDsp2gcUGDesHGQ/gK5G8nLMigWiCe3jCrnTRiJ9EYjm1ImsUEq5l8hScPXbpsVtlKhfan+pv0yD0ZqmU5XegGBmnDIo/pylj8oYLOP3Eab/v5Zmi6EtZ3vv1FU/2r7LioYSL2dNybbdiMdptFU57++20Vqh+iq/Tap1WpaWY611wmyWyUzxZDbIWTvEV1Ildn5agfBumoUMTtoisFvhebAAHZWxX0ChwTuScvHdVeVykToysMyJ7ittwbmj31J+6IrRDp5XTfBt1WJ+WYnZdMB0F3xlUgD5uDVj2Sa+a4SrzH+FeyHHmw17V112waBOZgP4WczkLZsILar1fpIliMU4XZoK/poE0XHl+N8v6QcGAUbVymnDIZVnzrTXqGzmnhKLxZX/niyiDjIJgwg4Se1GR/Y8idGPysh6fr0i1i/AHMWHgrwUJgNAAAAAASUVORK5CYII=" />
+  <title>/usr/bin/diffoscope --html diffo-base-resources.arsc.html fromBuild-unzipped/base/resources.arsc fromPlay-unzipped/base/resources.arsc</title>
+<style>
+body.diffoscope {
+  background: white;
+  color: black;
+}
+.diffoscope .footer {
+  font-size: small;
+}
+.diffoscope .difference {
+  border: outset #888 1px;
+  background: #E8E8E8;
+  background: rgba(0,0,0,.1);
+  padding: 0.5em;
+  margin: 0.5em 0;
+}
+.diffoscope .difference table {
+  table-layout: fixed;
+  width: 100%;
+  border: 0;
+}
+.diffoscope .difference th,
+.diffoscope .difference td {
+  border: 0;
+}
+.diffoscope table.diff {
+  border: 0;
+  border-collapse:collapse;
+  font-size:0.75em;
+  font-family: 'Lucida Console', monospace;
+  word-break: break-word;
+}
+.diffoscope table.diff tr:hover td {
+  background: #FFFF00;
+}
+.diffoscope .line {
+  color:#8080a0
+}
+.diffoscope th {
+  background: black;
+  color: white
+}
+.diffoscope .diffunmodified td {
+  background: #D0D0E0
+}
+.diffoscope .diffhunk td {
+  background: #A0A0A0
+}
+.diffoscope .diffadded td {
+  background: #CCFFCC
+}
+.diffoscope .diffdeleted td {
+  background: #FFCCCC
+}
+.diffoscope .diffchanged td {
+  background: #FFFFA0
+}
+.diffoscope ins, del {
+  background: #E0C880;
+  text-decoration: none
+}
+.diffoscope .dp {
+  color: #B08080
+}
+.diffoscope .comment {
+  font-style: italic;
+}
+.diffoscope .comment.multiline {
+  font-style: normal;
+  font-family: monospace;
+  white-space: pre;
+}
+.diffoscope .source {
+  font-weight: bold;
+}
+.diffoscope .error {
+  border: solid black 1px;
+  background: red;
+  color: white;
+  padding: 0.2em;
+}
+.diffoscope .anchor {
+  margin-left: 0.5em;
+  font-size: 80%;
+  color: #333;
+  text-decoration: none;
+  display: none;
+}
+.diffoscope .diffheader:hover .anchor {
+  display: inline;
+}
+.diffoscope .diffcontrol, .diffoscope .diffcontrol-nochildren {
+  float: left;
+  margin-right: 0.3em;
+  cursor: pointer;
+  display: none; /* currently, only available in html-dir output where jquery is enabled */
+}
+.diffoscope .colines {
+  width: 3em;
+}
+.diffoscope .coldiff {
+  width: 99%;
+}
+.diffoscope .diffsize {
+  float: right;
+}
+.diffoscope table.diff tr.ondemand td, .diffoscope div.ondemand-details {
+  background: #f99;
+  text-align: center;
+  padding: 0.5em 0;
+}
+.diffoscope table.diff tr.ondemand:hover td, .diffoscope div.ondemand-details:hover {
+  background: #faa;
+  cursor: pointer;
+}
+</style>
+</head>
+<body class="diffoscope">
+<div class="difference">
+  <div class="diffheader">
+  <div class="diffcontrol diffcontrol-double">⊟</div>
+  <div><span class="diffsize">980 B</span></div>
+  <div><span class="source">fromBuild-unzipped/base/resources.arsc</span> vs.</div>
+  <div id="top"><span class="source">fromPlay-unzipped/base/resources.arsc</span>
+    <a class="anchor" href="#top">¶</a>
+  </div>
+  </div>
+  <div class="difference">
+    <div class="diffheader">
+    <div class="diffcontrol">⊟</div>
+    <div><span class="diffsize">905 B</span></div>
+    <div id="aapt--dump-resources---"><span class="source">aapt2 dump resources {}</span>
+      <a class="anchor" href="#aapt--dump-resources---">¶</a>
+    </div>
+    </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 12750, 15 lines modified</td><td colspan="2">Offset 12750, 15 lines modified</td></tr>
+<tr class="diffunmodified"><td class="diffline">12750 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>resource<span class="dp">·</span>0x7f140032<span class="dp">·</span>string/clear_text_end_icon_content_description</td><td class="diffline">12750 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>resource<span class="dp">·</span>0x7f140032<span class="dp">·</span>string/clear_text_end_icon_content_description</td></tr>
+<tr class="diffunmodified"><td class="diffline">12751 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>()<span class="dp">·</span>&quot;Clear<span class="dp">·</span>text&quot;</td><td class="diffline">12751 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>()<span class="dp">·</span>&quot;Clear<span class="dp">·</span>text&quot;</td></tr>
+<tr class="diffunmodified"><td class="diffline">12752 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>resource<span class="dp">·</span>0x7f140033<span class="dp">·</span>string/close_drawer</td><td class="diffline">12752 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>resource<span class="dp">·</span>0x7f140033<span class="dp">·</span>string/close_drawer</td></tr>
+<tr class="diffunmodified"><td class="diffline">12753 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>()<span class="dp">·</span>&quot;Close<span class="dp">·</span>navigation<span class="dp">·</span>menu&quot;</td><td class="diffline">12753 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>()<span class="dp">·</span>&quot;Close<span class="dp">·</span>navigation<span class="dp">·</span>menu&quot;</td></tr>
+<tr class="diffunmodified"><td class="diffline">12754 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>resource<span class="dp">·</span>0x7f140034<span class="dp">·</span>string/close_sheet</td><td class="diffline">12754 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>resource<span class="dp">·</span>0x7f140034<span class="dp">·</span>string/close_sheet</td></tr>
+<tr class="diffunmodified"><td class="diffline">12755 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>()<span class="dp">·</span>&quot;Close<span class="dp">·</span>sheet&quot;</td><td class="diffline">12755 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>()<span class="dp">·</span>&quot;Close<span class="dp">·</span>sheet&quot;</td></tr>
+<tr class="diffunmodified"><td class="diffline">12756 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>resource<span class="dp">·</span>0x7f140035<span class="dp">·</span>string/com.google.firebase.crashlytics.mapping_file_id</td><td class="diffline">12756 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>resource<span class="dp">·</span>0x7f140035<span class="dp">·</span>string/com.google.firebase.crashlytics.mapping_file_id</td></tr>
+<tr class="diffchanged"><td class="diffline">12757 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>()<span class="dp">·</span>&quot;<del>9889cfdd0</del>e<del>e4</del>4<del>e</del><del>379f12</del>5<del>5aa74a</del>2<del>fb79</del>&quot;</td><td class="diffline">12757 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>()<span class="dp">·</span>&quot;<ins>4066e4c56</ins>e<ins>2b</ins>4<ins>a88acb</ins>5<ins>b0d8e7</ins>2<ins>1</ins><ins>a9dd</ins>&quot;</td></tr>
+<tr class="diffunmodified"><td class="diffline">12758 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>resource<span class="dp">·</span>0x7f140036<span class="dp">·</span>string/common_google_play_services_enable_button</td><td class="diffline">12758 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>resource<span class="dp">·</span>0x7f140036<span class="dp">·</span>string/common_google_play_services_enable_button</td></tr>
+<tr class="diffunmodified"><td class="diffline">12759 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>()<span class="dp">·</span>&quot;Enable&quot;</td><td class="diffline">12759 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>()<span class="dp">·</span>&quot;Enable&quot;</td></tr>
+<tr class="diffunmodified"><td class="diffline">12760 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>resource<span class="dp">·</span>0x7f140037<span class="dp">·</span>string/common_google_play_services_enable_text</td><td class="diffline">12760 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>resource<span class="dp">·</span>0x7f140037<span class="dp">·</span>string/common_google_play_services_enable_text</td></tr>
+<tr class="diffunmodified"><td class="diffline">12761 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>()<span class="dp">·</span>&quot;%1$s<span class="dp">·</span>won&#x27;t<span class="dp">·</span>work<span class="dp">·</span>unless<span class="dp">·</span>you<span class="dp">·</span>enable<span class="dp">·</span>Google<span class="dp">·</span>Play<span class="dp">·</span>services.&quot;</td><td class="diffline">12761 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>()<span class="dp">·</span>&quot;%1$s<span class="dp">·</span>won&#x27;t<span class="dp">·</span>work<span class="dp">·</span>unless<span class="dp">·</span>you<span class="dp">·</span>enable<span class="dp">·</span>Google<span class="dp">·</span>Play<span class="dp">·</span>services.&quot;</td></tr>
+<tr class="diffunmodified"><td class="diffline">12762 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>resource<span class="dp">·</span>0x7f140038<span class="dp">·</span>string/common_google_play_services_enable_title</td><td class="diffline">12762 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>resource<span class="dp">·</span>0x7f140038<span class="dp">·</span>string/common_google_play_services_enable_title</td></tr>
+<tr class="diffunmodified"><td class="diffline">12763 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>()<span class="dp">·</span>&quot;Enable<span class="dp">·</span>Google<span class="dp">·</span>Play<span class="dp">·</span>services&quot;</td><td class="diffline">12763 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>()<span class="dp">·</span>&quot;Enable<span class="dp">·</span>Google<span class="dp">·</span>Play<span class="dp">·</span>services&quot;</td></tr>
+<tr class="diffunmodified"><td class="diffline">12764 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>resource<span class="dp">·</span>0x7f140039<span class="dp">·</span>string/common_google_play_services_install_button</td><td class="diffline">12764 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>resource<span class="dp">·</span>0x7f140039<span class="dp">·</span>string/common_google_play_services_install_button</td></tr>
+</table>  </div>
+</div>
+<div class="footer">
+Generated by
+<a href="https://diffoscope.org" rel="noopener noreferrer" target="_blank">
+diffoscope</a> 240
+</div>
+</body>
+</html>
+
