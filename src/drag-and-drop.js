@@ -1,7 +1,7 @@
 import { uploadToBlossom, checkBlossomFile, displayBlossomFileInfo } from './blossom-utils.js';
 import { 
     formatFileSize, 
-    updateDomElement, 
+    updateDomElementInClass,
     getVersionFromFilename,
     calculateFileHash,
     isPageForAppId,
@@ -78,11 +78,11 @@ function initializeDragAndDrop() {
     Array.from(dropAreas).forEach(dropArea => {
         preventDefaultDragBehaviors(dropArea);
         setupHighlightEvents(dropArea);
-        dropArea.addEventListener('drop', e => processFiles(e.dataTransfer.files));
+        dropArea.addEventListener('drop', e => processFiles(e.dataTransfer.files, dropArea));
     });
 
     Array.from(fileElems).forEach(fileElem => {
-        fileElem.addEventListener('change', e => processFiles(e.target.files));
+        fileElem.addEventListener('change', e => processFiles(e.target.files, e.target.parentElement.parentElement));
     });
 }
 
@@ -104,13 +104,13 @@ function setupHighlightEvents(element) {
     });
 }
 
-function disableHoverMode() {
-    const select = document.getElementById('select');
+function disableHoverMode(dropAreaElement) {
+    const select = dropAreaElement.querySelector('#select');
     select.classList.remove('hover-mode');
     select.classList.add('always-visible');
 
-    const dropText = document.querySelector(".drop-text");
-    const selectLabel = document.querySelector("#select label");
+    const dropText = dropAreaElement.querySelector(".drop-text");
+    const selectLabel = dropAreaElement.querySelector("#select label");
 
     // Change the text after a file is selected or dropped
     dropText.textContent = "Drop another file to verify";
@@ -137,7 +137,7 @@ async function setFormFields(hash, appData, fileName, apkInfo) {
     }
 }
 
-async function processFiles(files) {
+async function processFiles(files, dropAreaElement) {
     if (files.length > 1) {
         alert('Please select or drop only one file at a time.');
         return;
@@ -147,10 +147,9 @@ async function processFiles(files) {
 
     const file = files[0];
 
-    // Clear the drop-area before displaying new information
-    ['file-info', 'drop-area-buttons'].forEach(id => updateDomElement(id, ''));
+    updateDomElementInClass('textbox', '', dropAreaElement);    // Clear the drop-area before displaying new information
 
-    disableHoverMode();
+    disableHoverMode(dropAreaElement);
 
     /////////////////////////////////////////////////////////////////////
     // Get all the information about the file / hash / apk
@@ -174,7 +173,7 @@ async function processFiles(files) {
 
     setFormFields(hash, appData, file.name, apkInfo);
 
-    displayAllInfo(file, apkInfo, hash, appData, allAssetsInformation);
+    displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, allAssetsInformation);
 
     if (appData) {  // We have legacy appData from attestation.json
         if (isPageForAppId(appData.appId)) {
@@ -194,7 +193,7 @@ async function processFiles(files) {
     document.getElementById('loadingSpinner').style.display = 'none';
 }
 
-async function displayAllInfo(file, apkInfo, hash, appData, allAssetsInformation) {
+async function displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, allAssetsInformation) {
     const appId = appData?.appId ?? apkInfo?.package ?? null;
     const version = appData?.version ?? apkInfo?.versionName ?? null;
 
@@ -262,11 +261,10 @@ async function displayAllInfo(file, apkInfo, hash, appData, allAssetsInformation
 
     fileInfoHtml += `<li>Check out <a href="/attestations/" class="btn btn-small" target="_blank">How Attestations work</a>.</li>`;
 
-    updateDomElement('file-info', fileInfoHtml);
+    updateDomElementInClass('textbox', fileInfoHtml, dropAreaElement);
 }
 
 async function fetchAppData(hash) {
-    console.log("Fetching app data");
     try {
         const response = await fetch('/assets/attestations.json');
         if (!response.ok) throw new Error('Network response was not ok');
