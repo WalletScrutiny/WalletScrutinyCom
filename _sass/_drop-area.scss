@@ -1,4 +1,4 @@
-#drop-area {
+.drop-areas {
     font-size: 17px;
     border: 2px dashed #ccc;
     border-radius: 20px;
@@ -28,14 +28,6 @@
   
     #file-list {
       text-align: left;
-  
-      #drop-area-buttons {
-        text-align: center;
-
-        a {
-          margin-right: 1rem;
-        }
-      }
     }
   
     #file-info {

@@ -8,8 +8,16 @@ export function formatFileSize(bytes) {
     return `${parseFloat((bytes / Math.pow(k, i)).toFixed(2))} ${sizes[i]}`;
 }
 
-export const updateDomElement = (elementId, htmlContent) => {
-    const element = document.getElementById(elementId);
+export const updateDomElement = (elementId, htmlContent, searchFromElement = document) => {
+    const element = searchFromElement.querySelector(`#${elementId}`);
+    console.log('element', element);
+    if (element) {
+        element.innerHTML = htmlContent;
+    }
+}
+
+export const updateDomElementInClass = (className, htmlContent, searchFromElement = document) => {
+    const element = searchFromElement.querySelector(`.${className}`);
     if (element) {
         element.innerHTML = htmlContent;
     }
