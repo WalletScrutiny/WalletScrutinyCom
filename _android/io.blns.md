@@ -7,8 +7,8 @@ users: 10
 appId: io.blns
 appCountry: 
 released: 2021-05-29
-updated: 2024-11-12
-version: 1.45.1
+updated: 2025-01-31
+version: 2.0.0
 stars: 
 ratings: 
 reviews: 

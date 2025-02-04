@@ -11,7 +11,7 @@ released: 2011-01-24
 updated: 2025-01-27
 version: 10.2381.0
 stars: 4.6
-reviews: 2721
+reviews: 2723
 size: '224565248'
 website: https://www.ig.com/uk/trading-platforms/trading-apps
 repository: 

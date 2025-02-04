@@ -4,7 +4,7 @@ title: Bull Bitcoin (Beta)
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.bullbitcoin.mobile
 appCountry: 
 released: 2023-10-31

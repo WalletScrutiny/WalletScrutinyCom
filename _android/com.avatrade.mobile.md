@@ -8,8 +8,8 @@ users: 1000000
 appId: com.avatrade.mobile
 appCountry: 
 released: 2017-05-23
-updated: 2025-01-29
-version: '146.9'
+updated: 2025-02-03
+version: '149.11'
 stars: 4.3
 ratings: 9327
 reviews: 11
@@ -30,7 +30,7 @@ social:
 - https://www.linkedin.com/company/AvaTrade
 - https://www.facebook.com/AvaTrade
 redirect_from: 
-developerName: AvaTrade ltd.
+developerName: Ava Financial Ltd
 features: 
 
 ---

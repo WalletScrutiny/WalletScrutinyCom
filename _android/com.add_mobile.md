@@ -19,10 +19,10 @@ repository:
 issue: 
 icon: com.add_mobile.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nobtc
 appHashes: 
-date: 2024-04-17
+date: 2025-02-04
 signer: 
 reviewArchive: 
 twitter: 

@@ -8,11 +8,11 @@ users: 100000
 appId: com.creativeoffice.ripcoin
 appCountry: 
 released: 2021-02-25
-updated: 2025-01-27
-version: '32500'
+updated: 2025-02-01
+version: '33000'
 stars: 3.4
 ratings: 
-reviews: 228
+reviews: 227
 size: 
 website: https://antcoin.antf.online/
 repository: 

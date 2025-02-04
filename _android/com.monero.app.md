@@ -4,12 +4,12 @@ title: Monero.com by Cake Wallet
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.monero.app
 appCountry: 
 released: 2022-01-07
-updated: 2025-01-05
-version: 1.19.1
+updated: 2025-02-01
+version: 1.20.0
 stars: 4.7
 ratings: 
 reviews: 40

@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: net.vite.wallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
 appHashes: 
-date: 2023-12-15
+date: 2025-02-04
 signer: 
 reviewArchive: 
 twitter: vitelabs

@@ -19,10 +19,10 @@ repository:
 issue: 
 icon: com.isunoneapp.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
 appHashes: 
-date: 2024-09-04
+date: 2025-02-04
 signer: 
 reviewArchive: 
 twitter: isunone1

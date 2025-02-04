@@ -11,17 +11,17 @@ released: 2019-05-26
 updated: 2024-02-08
 version: 2.86.14
 stars: 4.4
-reviews: 63
+reviews: 64
 size: '52105216'
 website: http://xcelpay.io
 repository: 
 issue: 
 icon: com.xcelpay.wallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2021-05-25
+date: 2025-02-04
 signer: 
 reviewArchive: 
 twitter: XcelPayWallet

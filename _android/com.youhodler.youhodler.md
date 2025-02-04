@@ -10,9 +10,9 @@ appCountry:
 released: 2019-07-11
 updated: 2025-01-28
 version: 7.6.2
-stars: 3.6
+stars: 3.5
 ratings: 5083
-reviews: 97
+reviews: 98
 size: 
 website: https://youhodler.com
 repository: 

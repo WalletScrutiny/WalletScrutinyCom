@@ -1,6 +1,6 @@
 ---
 wsId: Forexcom
-title: FX & CFD Trading App FOREX.com
+title: CFD & Forex Trading FOREX.com
 altTitle: 
 authors:
 - danny

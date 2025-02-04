@@ -3,14 +3,14 @@ wsId: krakenSuperWallet
 title: 'Kraken Wallet: Crypto & DeFi'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.kraken.superwallet.app
 appCountry: us
 idd: '1626327149'
 released: '2024-04-17'
 updated: 2025-01-28
 version: 1.16.1
-stars: 4.70568
+stars: 4.7
 reviews: 299
 size: '99396608'
 website: https://www.kraken.com/wallet

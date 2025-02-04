@@ -4,7 +4,7 @@ title: Bitlifi
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.bitlifi.app
 appCountry: 
 released: 2023-05-04

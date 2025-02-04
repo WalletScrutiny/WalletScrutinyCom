@@ -11,7 +11,7 @@ users: 10000
 appId: io.nunchuk.android
 appCountry: 
 released: 2021-11-11
-updated: 2025-01-16
+updated: 2025-02-03
 version: 1.9.59
 stars: 4.6
 ratings: 26
@@ -29,21 +29,21 @@ appHashes:
 - 03a0faf7feae6ced736a0894049163dbfc81d8b616c0c549d1b9dc7c781bd0cc
 - 3f704527776c7696c85728790f8639ced4d38eaa1a43229d33c4c8b8aa0a1e0a
 date: 2025-01-27
-signer:
+signer: 
 reviewArchive:
 - date: 2025-01-15
   version: 1.9.58
   appHashes:
   - 8f53fa42fc072381ea228314fa421b52a77b33e9fe6029095fc1d13c68fd9b41
-  - 9027651c5ed7dd4a31d6cd073023bb77f38b799d8a0aa0ff0f81a184b1795dd3 
-  - 02c32758930cf0d4d87a44a5985f7bf97550280e1539074276a277866489f022 
+  - 9027651c5ed7dd4a31d6cd073023bb77f38b799d8a0aa0ff0f81a184b1795dd3
+  - 02c32758930cf0d4d87a44a5985f7bf97550280e1539074276a277866489f022
   gitRevision: 8080d3a7f2c5ea5e5acf56295040b814accb6b11
-  verdict: nonverifiable 
+  verdict: nonverifiable
 - date: 2024-11-19
   version: 1.9.53
   appHashes: []
   gitRevision: 4458285efc54bd9bc76d74f88e696201a4af4a93
-  verdict: nonverifiable 
+  verdict: nonverifiable
 - date: 2024-11-19
   version: 1.9.53
   appHashes:

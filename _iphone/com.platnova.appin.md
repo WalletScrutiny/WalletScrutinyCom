@@ -10,8 +10,8 @@ idd: '1619003446'
 released: 2022-04-26
 updated: 2025-01-22
 version: 1.0.6
-stars: 3.4
-reviews: 45
+stars: 3.5
+reviews: 44
 size: '152963072'
 website: https://platnova.com
 repository: 

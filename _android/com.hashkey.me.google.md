@@ -19,10 +19,10 @@ repository:
 issue: 
 icon: com.hashkey.me.google.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-07-03
+date: 2025-02-04
 signer: 
 reviewArchive: 
 twitter: hashkey_me

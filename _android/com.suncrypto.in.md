@@ -7,7 +7,7 @@ users: 1000000
 appId: com.suncrypto.in
 appCountry: 
 released: 2021-06-28
-updated: 2025-01-24
+updated: 2025-02-03
 version: '4.9'
 stars: 4.7
 ratings: 10629

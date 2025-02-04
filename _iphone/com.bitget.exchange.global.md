@@ -10,8 +10,8 @@ idd: 1442778704
 released: 2018-11-29
 updated: 2025-01-27
 version: 2.50.1
-stars: 4.4
-reviews: 1634
+stars: 4.5
+reviews: 1647
 size: '417937408'
 website: https://www.bitget.com/en
 repository: 

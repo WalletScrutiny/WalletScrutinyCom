@@ -12,7 +12,7 @@ updated: 2024-05-22
 version: 2.3.1
 stars: 4
 ratings: 
-reviews: 1068
+reviews: 1070
 size: 
 website: https://cryptorize.edercmf.com/
 repository: 

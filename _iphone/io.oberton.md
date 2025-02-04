@@ -8,11 +8,11 @@ appId: io.oberton
 appCountry: ua
 idd: '1585434994'
 released: 2021-09-15
-updated: 2024-03-27
-version: 2.9.5
+updated: 2025-01-29
+version: 2.9.6
 stars: 5
 reviews: 8
-size: '103516160'
+size: '114231296'
 website: 
 repository: 
 issue: 

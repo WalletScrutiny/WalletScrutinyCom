@@ -11,7 +11,7 @@ released: 2020-05-28
 updated: 2025-01-27
 version: 2.59.0
 stars: 4.7
-reviews: 8122
+reviews: 8123
 size: '121555968'
 website: https://bitvavo.com
 repository: 

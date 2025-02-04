@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.harungoker.bitcrypto.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2024-06-17
+date: 2025-02-04
 signer: 
 reviewArchive: 
 twitter: 

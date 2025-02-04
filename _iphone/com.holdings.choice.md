@@ -11,7 +11,7 @@ released: 2021-08-05
 updated: 2025-01-06
 version: 2.23.0
 stars: 4.7
-reviews: 1489
+reviews: 1492
 size: '80394240'
 website: https://www.choiceapp.io
 repository: 

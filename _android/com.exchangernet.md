@@ -29,7 +29,7 @@ twitter: echangerbd
 social:
 - https://www.facebook.com/exchangernet
 redirect_from: 
-developerName: Exchangernet.com
+developerName: Exchange Digital Currency
 features: 
 
 ---

@@ -8,7 +8,7 @@ users: 5000
 appId: app.futura.cash
 appCountry: 
 released: 2021-06-28
-updated: 2023-05-05
+updated: 2025-01-30
 version: 1.0.0
 stars: 4.1
 ratings: 
@@ -19,10 +19,10 @@ repository:
 issue: 
 icon: app.futura.cash.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nowallet
 appHashes: 
-date: 2024-05-04
+date: 2025-02-01
 signer: 
 reviewArchive: 
 twitter: 

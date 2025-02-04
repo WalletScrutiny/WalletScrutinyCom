@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Flipster - Trade BTC & TRUMP
+title: Flipster - Trade BTC & SOL
 altTitle: 
 authors:
 - danny

@@ -3,16 +3,17 @@ wsId: krakenSuperWallet
 title: 'Kraken Wallet: Crypto & NFT'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 50000
 appId: com.kraken.superwallet
 appCountry: 
-released: Apr 11, 2024
+released: 2024-04-11
 updated: 2025-01-28
 version: 1.16.1 (1)
-stars: 4.59
+stars: 4.6
 ratings: 
 reviews: 51
+size: 
 website: https://kraken.com/wallet
 repository: https://github.com/krakenfx/wallet
 issue: 

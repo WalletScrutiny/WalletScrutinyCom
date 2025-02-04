@@ -2784,12 +2784,38 @@
   {
     "appId": "io.nunchuk.android",
     "signer": "",
+    "version": "1.9.58",
+    "verdict": "nonverifiable",
+    "appHashes": [
+      "8f53fa42fc072381ea228314fa421b52a77b33e9fe6029095fc1d13c68fd9b41",
+      "9027651c5ed7dd4a31d6cd073023bb77f38b799d8a0aa0ff0f81a184b1795dd3",
+      "02c32758930cf0d4d87a44a5985f7bf97550280e1539074276a277866489f022"
+    ],
+    "date": "2025-01-15",
+    "platform": "android"
+  },
+  {
+    "appId": "io.nunchuk.android",
+    "signer": "",
     "version": "1.9.53",
     "verdict": "nonverifiable",
     "appHashes": [
       "aaec6e500babbd1931db8485b99205468e426f6157df131f607aa69b6e821708"
     ],
     "date": "2024-11-19",
+    "platform": "android"
+  },
+  {
+    "appId": "",
+    "signer": "",
+    "version": "",
+    "verdict": "",
+    "appHashes": [
+      "c0cc213b0e5f309d4bf83d8ff576f7e7c324c2273e202170a10704b0b5d9d535",
+      "03a0faf7feae6ced736a0894049163dbfc81d8b616c0c549d1b9dc7c781bd0cc",
+      "3f704527776c7696c85728790f8639ced4d38eaa1a43229d33c4c8b8aa0a1e0a"
+    ],
+    "date": "2025-01-27",
     "platform": "android"
   },
   {

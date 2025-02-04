@@ -8,8 +8,8 @@ users: 50000
 appId: hippotech.bank.droid
 appCountry: 
 released: 
-updated: 2025-01-22
-version: '3.63'
+updated: 2025-01-30
+version: '3.64'
 stars: 3.9
 ratings: 
 reviews: 

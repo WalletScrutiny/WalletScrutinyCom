@@ -12,7 +12,7 @@ updated: 2025-01-16
 version: 1.3.31
 stars: 4.1
 ratings: 
-reviews: 16
+reviews: 15
 size: 
 website: 
 repository: 
