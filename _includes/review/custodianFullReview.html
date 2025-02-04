@@ -349,18 +349,33 @@
               <span class="hide-text">Show Less</span>
             </button>
           </div>
-          <ul id="incident-list" class="incident-list collapsed">
-            {% for incident in custodian.trackRecord.incidentHistory %}
-              <li>
-                {{ incident.description }}
-                {% if incident.url %}
-                  <a href="{{ incident.url }}" class="docs-link">
+          {% assign incidents = custodian.trackRecord.incidentHistory %}
+          {% if incidents.size > 0 %}
+            <div style="margin-bottom: 1rem; padding: 0.5rem 0;">
+              <li style="list-style: none; margin-bottom: 0;">
+                {{ incidents.first.description }}
+                {% if incidents.first.url %}
+                  <a href="{{ incidents.first.url }}" class="docs-link">
                     <i class="fas fa-external-link-alt"></i> Details
                   </a>
                 {% endif %}
               </li>
-            {% endfor %}
-          </ul>
+            </div>
+            {% if incidents.size > 1 %}
+              <ul id="incident-list" class="incident-list collapsed">
+                {% for incident in incidents offset:1 %}
+                  <li>
+                    {{ incident.description }}
+                    {% if incident.url %}
+                      <a href="{{ incident.url }}" class="docs-link">
+                        <i class="fas fa-external-link-alt"></i> Details
+                      </a>
+                    {% endif %}
+                  </li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          {% endif %}
           {% if custodian.trackRecord.sourceIncidents %}
             <div class="source-link">
               <a href="{{ custodian.trackRecord.sourceIncidents }}" class="docs-link">
@@ -572,6 +587,12 @@
 
 <!-- STYLES: merged from your old partials to preserve the vertical timeline -->
 <style>
+
+.fa-info-circle {
+  color: var(--neutral-2);
+}
+
+
 .custodian-full-review {
   max-width: 900px;
   margin: 2rem auto;
@@ -757,11 +778,19 @@
   .textbox {
     background: #2f374c;
   }
+
+  .custody-section {
+    background: #3b5376;
+  }
 }
 
 /* For class-based dark mode */
 .dark .textbox {
   background: #2f374c;
+}
+
+.dark .custody-section {
+  background: #3b5376;
 }
 
 /* The status badges (published / not published) etc. */
