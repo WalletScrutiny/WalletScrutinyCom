@@ -30,24 +30,50 @@
 <!-- Apps Section -->
 <h2>Apps</h2>
 <div class="see-also">
-  {% if custodian.androidApp %}
-    <a href="{{ custodian.androidApp.url }}" class="app-link">
-      <div class="app-content">
-        <i class="fab fa-android"></i>
-        <span class="app-name">{{ custodian.androidApp.name }}</span>
-      </div>
-      <div class="app-store">Google Play</div>
-    </a>
+  {% assign android_apps = custodian.androidApps | default: custodian.androidApp | default: empty_array %}
+  {% if android_apps.size > 0 %}
+    {% if android_apps.first.url %}
+      {% for app in android_apps %}
+        <a href="{{ app.url }}" class="app-link">
+          <div class="app-content">
+            <i class="fab fa-android"></i>
+            <span class="app-name">{{ app.name }}</span>
+          </div>
+          <div class="app-store">Google Play</div>
+        </a>
+      {% endfor %}
+    {% else %}
+      <a href="{{ android_apps.url }}" class="app-link">
+        <div class="app-content">
+          <i class="fab fa-android"></i>
+          <span class="app-name">{{ android_apps.name }}</span>
+        </div>
+        <div class="app-store">Google Play</div>
+      </a>
+    {% endif %}
   {% endif %}
   
-  {% if custodian.iphoneApp %}
-    <a href="{{ custodian.iphoneApp.url }}" class="app-link">
-      <div class="app-content">
-        <i class="fab fa-apple"></i>
-        <span class="app-name">{{ custodian.iphoneApp.name }}</span>
-      </div>
-      <div class="app-store">App Store</div>
-    </a>
+  {% assign iphone_apps = custodian.iphoneApps | default: custodian.iphoneApp | default: empty_array %}
+  {% if iphone_apps.size > 0 %}
+    {% if iphone_apps.first.url %}
+      {% for app in iphone_apps %}
+        <a href="{{ app.url }}" class="app-link">
+          <div class="app-content">
+            <i class="fab fa-apple"></i>
+            <span class="app-name">{{ app.name }}</span>
+          </div>
+          <div class="app-store">App Store</div>
+        </a>
+      {% endfor %}
+    {% else %}
+      <a href="{{ iphone_apps.url }}" class="app-link">
+        <div class="app-content">
+          <i class="fab fa-apple"></i>
+          <span class="app-name">{{ iphone_apps.name }}</span>
+        </div>
+        <div class="app-store">App Store</div>
+      </a>
+    {% endif %}
   {% endif %}
   
   {% if custodian.webApp %}
