@@ -310,6 +310,35 @@ window.showAttestationModal = async function(sha256Hash, attestationId) {
     </p>
   `;
 
+  // Play asciicast
+  if (attestation.content.includes('ascii_cast_player')) {
+    // Inyect the asciinema player .js and .css
+    const asciinemaPlayerJS = document.createElement('script');
+    asciinemaPlayerJS.src = '/assets/js/asciinema-player.min.js';
+    document.head.appendChild(asciinemaPlayerJS);
+
+    const asciinemaPlayerCSS = document.createElement('link');
+    asciinemaPlayerCSS.rel = 'stylesheet';
+    asciinemaPlayerCSS.href = '/assets/css/asciinema-player.min.css';
+    document.head.appendChild(asciinemaPlayerCSS);
+
+    // Wait until asciinemaPlayerJS is loaded
+    asciinemaPlayerJS.onload = () => {
+      const urlPath = window.location.pathname;
+      const pathParts = urlPath.split('/').filter(Boolean);
+      const folderName = pathParts[0];
+      const appId = pathParts[1];
+
+      AsciinemaPlayer.create(
+        '/assets/casts/'+folderName+'/'+appId+`.cast`,
+        document.getElementById('ascii_cast_player'),{
+        idleTimeLimit: 1,
+        autoPlay: true,
+        rows: 25
+      });
+    };
+  }
+
   modal.style.display = 'block';
 
   const profile = await getNostrProfile(attestation.pubkey);
