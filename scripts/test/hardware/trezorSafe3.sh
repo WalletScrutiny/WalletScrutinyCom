@@ -9,13 +9,15 @@ mkdir -p /var/shared/firmware/trezorSafe3/${version}
 # Download firmware files
 wget https://data.trezor.io/firmware/t2b1/trezor-t2b1-${version}.bin
 wget https://data.trezor.io/firmware/t2b1/trezor-t2b1-${version}-bitcoinonly.bin
+wget -O trezor-t2b1-bootloader-2.1.4.bin "https://github.com/trezor/data/raw/refs/heads/master/bootloader/t2b1/bootloader-t2b1-2.1.4.bin?download="
 
 # Store initial hashes
-INITIAL_HASHES=$(sha256sum *.bin)
+INITIAL_HASHES=$(sha256sum trezor-t2b1-${version}.bin trezor-t2b1-${version}-bitcoinonly.bin trezor-t2b1-bootloader-2.1.4.bin)
 
 # Copy to archive
 cp trezor-t2b1-${version}.bin /var/shared/firmware/trezorSafe3/${version}/
 cp trezor-t2b1-${version}-bitcoinonly.bin /var/shared/firmware/trezorSafe3/${version}/
+cp trezor-t2b1-bootloader-2.1.4.bin /var/shared/firmware/trezorSafe3/${version}/
 
 # Clone and prepare repository
 git clone https://github.com/trezor/trezor-firmware.git
@@ -28,13 +30,16 @@ git checkout core/v${version}
 COMMIT_HASH=$(git rev-parse HEAD)
 
 # Build firmware
-bash -c "./build-docker.sh --models R core/v${version}"
+bash -c "./build-docker.sh --models R core/v${version}" >/dev/null
 
 # Store fingerprints
 FINGERPRINTS=$(sha256sum build/core-R/bootloader/bootloader.bin
 sha256sum build/core-R/firmware/firmware.bin
 sha256sum build/core-R-bitcoinonly/bootloader/bootloader.bin
 sha256sum build/core-R-bitcoinonly/firmware/firmware.bin)
+
+# Store bootloader comparison
+BOOTLOADER_COMPARISON=$(sha256sum ../trezor-t2b1-bootloader-2.1.4.bin build/core-R/bootloader/bootloader.bin build/core-R-bitcoinonly/bootloader/bootloader.bin | sort)
 
 # Zero out signatures
 vendorHeaderSize=4608
@@ -53,9 +58,10 @@ ZEROED_COMPARISON=$(sha256sum *.zeroed build/core-R{,-bitcoinonly}/firmware/firm
 cd ..
 rm -f trezor-t2b1-${version}.bin trezor-t2b1-${version}-bitcoinonly.bin
 rm -f trezor-t2b1-${version}.bin.zeroed trezor-t2b1-${version}-bitcoinonly.bin.zeroed
+rm -f trezor-t2b1-bootloader-2.1.4.bin
 rm -rf trezor-firmware
 
-# Output all results at the end in the correct order
+# Output all results in the correct order
 echo "Hash of the binaries downloaded:"
 echo "$INITIAL_HASHES"
 echo
@@ -63,6 +69,9 @@ echo "Built from commit $COMMIT_HASH"
 echo
 echo "Fingerprints:"
 echo "$FINGERPRINTS"
+echo
+echo "Bootloader verification:"
+echo "$BOOTLOADER_COMPARISON"
 echo
 echo "Comparing hashes of zeroed binaries with built firmware:"
 echo "$ZEROED_COMPARISON"
