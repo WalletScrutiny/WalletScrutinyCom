@@ -51,14 +51,6 @@ features:
 ## Update 2024-09-10:
 We tested the project using our <strong>test script <a href="/testScript">(?)</a></strong>, and here is the result:
 ```
-===== End Results =====
-
-Run a full
-diff --recursive /tmp/fromPlay_ch.swissbitcoinpay.checkout_386 /tmp/fromBuild_ch.swissbitcoinpay.checkout_386
-meld /tmp/fromPlay_ch.swissbitcoinpay.checkout_386 /tmp/fromBuild_ch.swissbitcoinpay.checkout_386
-or
-diffoscope "/home/keraliss/projects/apks/Swiss Bitcoin Pay.apk" /tmp/test_ch.swissbitcoinpay.checkout/base-master.apk
-for more details.'
 ===== Begin Results =====
 appId:          ch.swissbitcoinpay.checkout
 signer:         17d9c0bf025008da16d5a146e1beaca6ddcfe3cb0cf063da23c847d3007eb621
