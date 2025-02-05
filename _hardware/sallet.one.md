@@ -27,7 +27,7 @@ bugbounty:
 meta: defunct
 verdict: ftbfs
 appHashes: []
-date: 2022-08-07
+date: 2025-02-05
 signer: 
 reviewArchive: 
 twitter: SalletOne
