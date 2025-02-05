@@ -2,99 +2,111 @@
 layout: default
 ---
 
-<div id="main" class="app-review" role="main">
-
+<div
+  id="main"
+  class="app-review"
+  role="main">
   <!-- Optional: Expose appId to JavaScript -->
   <script>
     window.pageAppId = "{{ page.platformReview.appId }}";
   </script>
 
-  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+  <article
+    class="page"
+    itemscope
+    itemtype="http://schema.org/CreativeWork">
     <meta itemprop="headline" content="{{ page.title | escape }}">
 
     <div class="page__inner-wrap">
       <div class="top-panel">
         <div class="top-left">
           {% if page.icon %}
-            <img src="/images/wIcons/{{ page.platformReview.type }}/{{ page.icon }}" class="app_logo_big" alt="Custodian Logo">
+            <img
+              src="/images/wIcons/{{ page.platformReview.type }}/{{ page.icon }}"
+              class="app_logo_big"
+              alt="Custodian Logo">
           {% endif %}
           <h1 class="page__title" itemprop="headline">{{ page.title | escape }}</h1>
           {% if page.custodian.crunchbaseUrl %}
-          <a href="{{ page.custodian.crunchbaseUrl }}" target="_blank" rel="noopener" style="display: inline-block; text-decoration: none; font-size: 0.8rem; color: #666; background: #f5f5f5; padding: 0.3rem 0.6rem; border-radius: 4px; margin: 0.5rem 0;">
-            <i class="fas fa-chart-line"></i> Crunchbase
-          </a>
+            <a
+              href="{{ page.custodian.crunchbaseUrl }}"
+              target="_blank"
+              rel="noopener"
+              style="display: inline-block; text-decoration: none; font-size: 0.8rem; color: #666; background: #f5f5f5; padding: 0.3rem 0.6rem; border-radius: 4px; margin: 0.5rem 0;">
+              <i class="fas fa-chart-line"></i>
+              Crunchbase
+            </a>
           {% endif %}
           <div style="margin-top: 0.3rem; display: flex; gap: 0.5rem;">
             {% if page.custodian.operations.users %}
-            <div style="display: flex; flex-direction: column; background: white; border-radius: 8px; padding: 0.35rem 0.75rem; box-shadow: 0 1px 3px rgba(0,0,0,0.12); min-width: 120px;">
-              <span style="font-size: 1.4rem; font-weight: bold; color: #0052CC; line-height: 1.2;">{{ page.custodian.operations.users }}</span>
-              <span style="font-size: 0.9rem; color: #666; line-height: 1.2;">Users</span>
-            </div>
+              <div style="display: flex; flex-direction: column; background: white; border-radius: 8px; padding: 0.35rem 0.75rem; box-shadow: 0 1px 3px rgba(0,0,0,0.12); min-width: 120px;">
+                <span style="font-size: 1.4rem; font-weight: bold; color: #0052CC; line-height: 1.2;">{{ page.custodian.operations.users }}</span>
+                <span style="font-size: 0.9rem; color: #666; line-height: 1.2;">Users</span>
+              </div>
             {% endif %}
             {% if page.custodian.operations.btcCustodied %}
-            <div style="display: flex; flex-direction: column; background: white; border-radius: 8px; padding: 0.35rem 0.75rem; box-shadow: 0 1px 3px rgba(0,0,0,0.12); min-width: 120px;">
-              <span style="font-size: 1.4rem; font-weight: bold; color: #0052CC; line-height: 1.2;">{{ page.custodian.operations.btcCustodied }}</span>
-              <span style="font-size: 0.9rem; color: #666; line-height: 1.2;">BTC in Custody</span>
-            </div>
+              <div style="display: flex; flex-direction: column; background: white; border-radius: 8px; padding: 0.35rem 0.75rem; box-shadow: 0 1px 3px rgba(0,0,0,0.12); min-width: 120px;">
+                <span style="font-size: 1.4rem; font-weight: bold; color: #0052CC; line-height: 1.2;">{{ page.custodian.operations.btcCustodied }}</span>
+                <span style="font-size: 0.9rem; color: #666; line-height: 1.2;">BTC in Custody</span>
+              </div>
             {% endif %}
+
             {% assign btc_display = false %}
-            {% if page.custodian.operations.cryptographicProof.valid and page.custodian.operations.cryptographicProof.btcAmount != "" %}
+            {% if page.custodian.operations.cryptographicProof.valid and page.custodian.operations.cryptographicProof.btcAmount %}
               {% assign btc_amount = page.custodian.operations.cryptographicProof.btcAmount %}
               {% assign btc_source = page.custodian.operations.cryptographicProof.source %}
               {% assign btc_display = true %}
-            {% elsif page.custodian.operations.thirdPartyAudit.valid and page.custodian.operations.thirdPartyAudit.btcAmount != "" %}
+            {% elsif page.custodian.operations.thirdPartyAudit.valid and page.custodian.operations.thirdPartyAudit.btcAmount %}
               {% assign btc_amount = page.custodian.operations.thirdPartyAudit.btcAmount %}
               {% assign btc_source = page.custodian.operations.thirdPartyAudit.source %}
               {% assign btc_display = true %}
-            {% elsif page.custodian.operations.selfReported.valid and page.custodian.operations.selfReported.btcAmount != "" %}
+            {% elsif page.custodian.operations.selfReported.valid and page.custodian.operations.selfReported.btcAmount %}
               {% assign btc_amount = page.custodian.operations.selfReported.btcAmount %}
               {% assign btc_source = page.custodian.operations.selfReported.source %}
               {% assign btc_display = true %}
             {% endif %}
-            
+
             {% if btc_display %}
-            <div style="display: flex; flex-direction: column; background: white; border-radius: 8px; padding: 0.35rem 0.75rem; box-shadow: 0 1px 3px rgba(0,0,0,0.12); min-width: 120px;">
-              <div style="display: flex; align-items: center; gap: 0.5rem;">
+              <div style="display: flex; flex-direction: column; background: white; border-radius: 8px; padding: 0.35rem 0.75rem; box-shadow: 0 1px 3px rgba(0,0,0,0.12); min-width: 120px;">
                 <span style="font-size: 1.4rem; font-weight: bold; color: #0052CC; line-height: 1.2;">{{ btc_amount }}</span>
-                <div class="info-bubble" title="{{ btc_source }}" style="cursor: help; display: inline-flex; align-items: center; justify-content: center; width: 16px; height: 16px; border-radius: 50%; background: #E8E8E8; font-size: 0.7rem; color: #666;">
-                  <i class="fas fa-info"></i>
-                </div>
+                <span style="font-size: 0.9rem; color: #666; line-height: 1.2;">BTC Amount</span>
               </div>
-              <span style="font-size: 0.9rem; color: #666; line-height: 1.2;">BTC in Custody</span>
-            </div>
             {% endif %}
 
             {% assign assets_display = false %}
-            {% if page.custodian.operations.cryptographicProof.valid and page.custodian.operations.cryptographicProof.totalAssets != "" %}
+            {% if page.custodian.operations.cryptographicProof.valid and page.custodian.operations.cryptographicProof.totalAssets %}
               {% assign total_assets = page.custodian.operations.cryptographicProof.totalAssets %}
               {% assign assets_source = page.custodian.operations.cryptographicProof.source %}
               {% assign assets_display = true %}
-            {% elsif page.custodian.operations.thirdPartyAudit.valid and page.custodian.operations.thirdPartyAudit.totalAssets != "" %}
+            {% elsif page.custodian.operations.thirdPartyAudit.valid and page.custodian.operations.thirdPartyAudit.totalAssets %}
               {% assign total_assets = page.custodian.operations.thirdPartyAudit.totalAssets %}
               {% assign assets_source = page.custodian.operations.thirdPartyAudit.source %}
               {% assign assets_display = true %}
-            {% elsif page.custodian.operations.selfReported.valid and page.custodian.operations.selfReported.totalAssets != "" %}
+            {% elsif page.custodian.operations.selfReported.valid and page.custodian.operations.selfReported.totalAssets %}
               {% assign total_assets = page.custodian.operations.selfReported.totalAssets %}
               {% assign assets_source = page.custodian.operations.selfReported.source %}
               {% assign assets_display = true %}
             {% endif %}
-            
+
             {% if assets_display %}
-            <div style="display: flex; flex-direction: column; background: white; border-radius: 8px; padding: 0.35rem 0.75rem; box-shadow: 0 1px 3px rgba(0,0,0,0.12); min-width: 120px;">
-              <div style="display: flex; align-items: center; gap: 0.5rem;">
-                <span style="font-size: 1.4rem; font-weight: bold; color: #0052CC; line-height: 1.2;">{{ total_assets }}</span>
-                <div class="info-bubble" title="{{ assets_source }}" style="cursor: help; display: inline-flex; align-items: center; justify-content: center; width: 16px; height: 16px; border-radius: 50%; background: #E8E8E8; font-size: 0.7rem; color: #666;">
-                  <i class="fas fa-info"></i>
+              <div style="display: flex; flex-direction: column; background: white; border-radius: 8px; padding: 0.35rem 0.75rem; box-shadow: 0 1px 3px rgba(0,0,0,0.12); min-width: 120px;">
+                <div style="display: flex; align-items: center; gap: 0.5rem;">
+                  <span style="font-size: 1.4rem; font-weight: bold; color: #0052CC; line-height: 1.2;">{{ total_assets }}</span>
+                  <div
+                    class="info-bubble"
+                    title="{{ assets_source }}"
+                    style="cursor: help; display: inline-flex; align-items: center; justify-content: center; width: 16px; height: 16px; border-radius: 50%; background: #E8E8E8; font-size: 0.7rem; color: #666;">
+                    <i class="fas fa-info"></i>
+                  </div>
                 </div>
+                <span style="font-size: 0.9rem; color: #666; line-height: 1.2;">Assets Under Custody</span>
               </div>
-              <span style="font-size: 0.9rem; color: #666; line-height: 1.2;">Assets Under Custody</span>
-            </div>
             {% endif %}
             {% if page.custodian.operations.AssetsUnderCustody %}
-            <div style="display: flex; flex-direction: column; background: white; border-radius: 8px; padding: 0.35rem 0.75rem; box-shadow: 0 1px 3px rgba(0,0,0,0.12); min-width: 120px;">
-              <span style="font-size: 1.4rem; font-weight: bold; color: #0052CC; line-height: 1.2;">{{ page.custodian.operations.AssetsUnderCustody }}</span>
-              <span style="font-size: 0.9rem; color: #666; line-height: 1.2;">AUC</span>
-            </div>
+              <div style="display: flex; flex-direction: column; background: white; border-radius: 8px; padding: 0.35rem 0.75rem; box-shadow: 0 1px 3px rgba(0,0,0,0.12); min-width: 120px;">
+                <span style="font-size: 1.4rem; font-weight: bold; color: #0052CC; line-height: 1.2;">{{ page.custodian.operations.AssetsUnderCustody }}</span>
+                <span style="font-size: 0.9rem; color: #666; line-height: 1.2;">AUC</span>
+              </div>
             {% endif %}
           </div>
         </div>
@@ -123,17 +135,29 @@ layout: default
                 {% if ceo.social %}
                   <div class="social-links">
                     {% if ceo.social.twitter %}
-                      <a href="{{ ceo.social.twitter }}" class="twitter" target="_blank" rel="noopener">
+                      <a
+                        href="{{ ceo.social.twitter }}"
+                        class="twitter"
+                        target="_blank"
+                        rel="noopener">
                         <i class="fab fa-twitter"></i>
                       </a>
                     {% endif %}
                     {% if ceo.social.linkedin %}
-                      <a href="{{ ceo.social.linkedin }}" class="linkedin" target="_blank" rel="noopener">
+                      <a
+                        href="{{ ceo.social.linkedin }}"
+                        class="linkedin"
+                        target="_blank"
+                        rel="noopener">
                         <i class="fab fa-linkedin"></i>
                       </a>
                     {% endif %}
                     {% if ceo.social.github %}
-                      <a href="{{ ceo.social.github }}" class="github" target="_blank" rel="noopener">
+                      <a
+                        href="{{ ceo.social.github }}"
+                        class="github"
+                        target="_blank"
+                        rel="noopener">
                         <i class="fab fa-github"></i>
                       </a>
                     {% endif %}
@@ -146,9 +170,7 @@ layout: default
       </div>
 
       <section class="page__content" itemprop="text">
-        {% include review/custodianFullReview.html
-             custodian=page.custodian
-             platformReview=page.platformReview %}
+        {% include review/custodianFullReview.html custodian=page.custodian platformReview=page.platformReview %}
       </section>
 
       {% include /review/nostrOpinion.html %}
@@ -157,132 +179,140 @@ layout: default
         {% include /review/disclaimer.html %}
         {% include /review/ownResearch.html %}
       </div>
-      
+
     </div>
   </article>
 </div>
 
 <style>
-/* Top Panel Layout */
-.top-panel {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 1.5rem;
-  align-items: start;
-  margin-bottom: 1rem;
-}
+  /* Top Panel Layout */
+  .top-panel {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 1.5rem;
+    align-items: start;
+    margin-bottom: 1rem;
+  }
 
-.top-left {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 0.5rem;
-}
+  .top-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
 
-.top-right {
-  display: flex;
-  justify-content: flex-end;
-  margin-top: 0;
-}
+  .top-right {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0;
+  }
 
-/* CEO Card Styles */
-.ceo-card {
-  background: #f8f9fa;
-  border-radius: 12px;
-  padding: 0.75rem;
-  width: 320px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  display: flex;
-  gap: 1rem;
-  align-items: flex-start;
-  border: 1px solid #dee2e6;
-  flex-direction: row;
-}
+  /* CEO Card Styles */
+  .ceo-card {
+    background: #f8f9fa;
+    border-radius: 12px;
+    padding: 0.75rem;
+    width: 320px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    border: 1px solid #dee2e6;
+    flex-direction: row;
+  }
 
-.ceo-photo {
-  width: 64px;
-  height: 64px;
-  flex-shrink: 0;
-  border-radius: 50%;
-  overflow: hidden;
-  background: #dee2e6;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+  .ceo-photo {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #dee2e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-.ceo-photo img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
+  .ceo-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 
-.ceo-photo i {
-  font-size: 2rem;
-  color: #888;
-}
+  .ceo-photo i {
+    font-size: 2rem;
+    color: #888;
+  }
 
-.ceo-info {
-  text-align: left;
-  flex-grow: 1;
-  min-width: 0;
-}
+  .ceo-info {
+    text-align: left;
+    flex-grow: 1;
+    min-width: 0;
+  }
 
-.ceo-info h3 {
-  margin: 0 0 0.25rem 0;
-  font-size: 1.1rem;
-  color: #24292e;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
+  .ceo-info h3 {
+    margin: 0 0 0.25rem;
+    font-size: 1.1rem;
+    color: #24292e;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 
-.ceo-info p {
-  margin: 0;
-  font-size: 0.9rem;
-  color: #586069;
-  line-height: 1.3;
-}
+  .ceo-info p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #586069;
+    line-height: 1.3;
+  }
 
-.ceo-info .position {
-  color: #0366d6;
-  font-weight: 500;
-  margin-bottom: 0.25rem;
-}
+  .ceo-info .position {
+    color: #0366d6;
+    font-weight: 500;
+    margin-bottom: 0.25rem;
+  }
 
-.social-links {
-  margin-top: 0.5rem;
-  display: flex;
-  gap: 0.75rem;
-}
+  .social-links {
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 0.75rem;
+  }
 
-.social-links a {
-  color: #586069;
-  font-size: 1.1rem;
-  transition: color 0.2s ease;
-}
+  .social-links a {
+    color: #586069;
+    font-size: 1.1rem;
+    transition: color 0.2s ease;
+  }
 
-.social-links a:hover {
-  color: #0366d6;
-}
+  .social-links a:hover {
+    color: #0366d6;
+  }
 
-.social-links .twitter:hover { color: #1da1f2; }
-.social-links .linkedin:hover { color: #0077b5; }
-.social-links .github:hover { color: #24292e; }
+  .social-links .twitter:hover {
+    color: #1da1f2;
+  }
 
-/* Logo styling */
-.app_logo_big {
-  width: 128px;
-  height: 128px;
-  border-radius: 12px;
-  margin: 0;
-}
+  .social-links .linkedin:hover {
+    color: #0077b5;
+  }
 
-/* Title styling */
-.page__title {
-  font-size: 2rem;
-  margin: 0;
-  font-weight: 700;
-  line-height: 1.2;
-}
+  .social-links .github:hover {
+    color: #24292e;
+  }
+
+  /* Logo styling */
+  .app_logo_big {
+    width: 128px;
+    height: 128px;
+    border-radius: 12px;
+    margin: 0;
+  }
+
+  /* Title styling */
+  .page__title {
+    font-size: 2rem;
+    margin: 0;
+    font-weight: 700;
+    line-height: 1.2;
+  }
 </style>
