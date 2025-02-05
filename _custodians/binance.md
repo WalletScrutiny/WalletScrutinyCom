@@ -89,8 +89,8 @@ custodian:
       valid: true
 
     thirdPartyAudit:
-      btcAmount: "620KBTC"
-      totalAssets: "$181,924,033,635.10"
+      btcAmount: "620K BTC"
+      totalAssets: "$181B USD"
       lastUpdated: "2024-01-30"
       source: "Arkham Intelligence"
       sourceUrl: "https://intel.arkm.com/explorer/entity/binance"
