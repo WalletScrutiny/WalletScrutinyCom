@@ -25,10 +25,16 @@ bugbounty:
 meta: ok
 verdict: reproducible
 appHashes:
-- e6498f7327d6d152f114b851b8c01a5b7c7890414c192a00ea3846bf0f82229f
-date: 2025-01-03
+- 19dcd62476f17e68a03b47a66cced8288689f4e162ef1b9f91300a27d2ce3957
+date: 2025-02-05
 signer: cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
 reviewArchive:
+- date: 2025-01-03
+  version: 0.9.4
+  appHashes:
+  - e6498f7327d6d152f114b851b8c01a5b7c7890414c192a00ea3846bf0f82229f
+  gitRevision: 5c1b28c89358d7f8248a1e608114ed1cf981e7ed
+  verdict: reproducible
 - date: 2024-12-13
   version: 0.9.3
   appHashes:
@@ -124,18 +130,18 @@ We ran our updated {% include testScript.html %} and got this:
 ===== Begin Results =====
 appId:          app.zeusln.zeus
 signer:         cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
-apkVersionName: 0.9.4
-apkVersionCode: 97003
+apkVersionName: 0.9.5
+apkVersionCode: 98001
 verdict:        
-appHash:        e6498f7327d6d152f114b851b8c01a5b7c7890414c192a00ea3846bf0f82229f
-commit:         912b6cbc1dddc2ca2f859ccf7798a9cf5fad2628
+appHash:        19dcd62476f17e68a03b47a66cced8288689f4e162ef1b9f91300a27d2ce3957
+commit:         68f7e6c04470486a060551294c234961c7f261c3
 
 Diff:
-Files /tmp/fromPlay_app.zeusln.zeus_97003/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_97003/AndroidManifest.xml differ
-Only in /tmp/fromPlay_app.zeusln.zeus_97003/META-INF: GOOGPLAY.RSA
-Only in /tmp/fromPlay_app.zeusln.zeus_97003/META-INF: GOOGPLAY.SF
-Only in /tmp/fromPlay_app.zeusln.zeus_97003/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_app.zeusln.zeus_97003: stamp-cert-sha256
+Files /tmp/fromPlay_app.zeusln.zeus_98001/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_98001/AndroidManifest.xml differ
+Only in /tmp/fromPlay_app.zeusln.zeus_98001/META-INF: GOOGPLAY.RSA
+Only in /tmp/fromPlay_app.zeusln.zeus_98001/META-INF: GOOGPLAY.SF
+Only in /tmp/fromPlay_app.zeusln.zeus_98001/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_app.zeusln.zeus_98001: stamp-cert-sha256
 
 Revision, tag (and its signature):
 
@@ -143,10 +149,12 @@ Revision, tag (and its signature):
 
 ```
 
+{% include asciicast %}
+
 Size of stamp-cert-sha256
 
 ```
-$ wc -c stamp-cert-sha256 
+danny@lw10:/tmp/fromPlay_app.zeusln.zeus_98001$ wc -c stamp-cert-sha256
 32 stamp-cert-sha256
 ```
 
@@ -154,10 +162,21 @@ $ wc -c stamp-cert-sha256
 
 **diffoscope on AndroidManifest.xml**
 
+We run: 
+
+`danny@lw10:/tmp/test_app.zeusln.zeus$ diffoscope --html diffo-decoded-app.zeusln.zeus_v98001-AndroidManifest.xml.html armeabi_v7a/AndroidManifest.xml playAPK/AndroidManifest.xml`
+
+{% include diffoscope-modal.html label='AndroidManifest.xml' url='/assets/diffoscope-results/android/app.zeusln.zeus/0.9.5/diffo-decoded-app.zeusln.zeus_v98001-AndroidManifest.xml.html' %}
+
 There is only a one-line difference:
 
-`236 	····<meta-data·android:name="com.android.vending.derived.apk.id"·android:value="1"/>`
+`<meta-data·android:name="com.android.vending.derived.apk.id"·android:value="1"/>`
 
-This, minus the signing differences, make version 0.9.3 of this app **reproducible**.
+This meta-data tag is added by Google Play when the app is processed and distributed through the Play Store. It does not exist in an APK built from source before being uploaded to Google Play.
 
-[Issue 2470](https://github.com/ZeusLN/zeus/issues/2470) is now closed.
+### Purpose of com.android.vending.derived.apk.id
+
+This tag is injected by the Google Play Store’s app signing and distribution process.
+
+This, minus the signing differences, make version 0.9.5 of this app **reproducible**.
+
