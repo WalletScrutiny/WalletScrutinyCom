@@ -28,7 +28,13 @@ async function parseFile(filePath, folderName) {
         let version = null;
         let status = null;
 
-        // Process reviewArchive if available
+        // We try to get the information from 3 sources:
+        // 1. reviewArchive
+        // 2. current test results in the body of the file between ==== Begin Results ==== and ==== End Results ====
+        // 3. information on the root of the file
+        // We give priority to the information in the root of the file, as it's the most current.
+
+        // Get info from reviewArchive[0] if available
         if (data.reviewArchive && data.reviewArchive.length > 0) {
             console.log(`Processing reviewArchive (${appId})...`);
             version = data.reviewArchive[0].version;
@@ -42,7 +48,7 @@ async function parseFile(filePath, folderName) {
             console.debug('   No reviewArchive hash found.');
         }
 
-        // Process current test results in the body of the file, if available
+        // Get info from current test results in the body of the file, if available
         const resultsMatch = content.match(/===== Begin Results =====([\s\S]+?)===== End Results =====/);
         if (resultsMatch) {
             const currentTestResults = parseResults(resultsMatch[1]);
@@ -55,22 +61,22 @@ async function parseFile(filePath, folderName) {
             }
         }
 
+        // Get info from the root of the file
+        if (data.version || data.appHashes) {
+            version = data.version;
+            if (data.appHashes && data.appHashes.length > 0) {
+                appHash = data.appHashes[0];
+            }
+        }
+
         // Process Results (text after the YAML front matter)
-        const contentAfterYaml = (content.split(/---\n[\s\S]+?\n---/)[1]
-            .replace('{% include testScript.html %}', 'script at https://walletscrutiny.com/testScript/') || '')
-            .replace('{{ page.title }}', data.title)
-            .replace('{% include asciicast %}', `<link rel="stylesheet" type="text/css" href="/assets/css/asciinema-player.min.css" />
-                        <div id="ascii_cast_player"></div>
-                        <script src="/assets/js/asciinema-player.min.js"></script>
-                        <script>
-                        AsciinemaPlayer.create(
-                            '/assets/casts/`+folderName+'/'+appId+`.cast',
-                            document.getElementById('ascii_cast_player'),{
-                            idleTimeLimit: 1,
-                            autoPlay: true
-                            });
-                        </script>`)
-            .slice(0, 50000);
+        const contentAfterYaml = 
+            content.split(/---\n[\s\S]+?\n---/)[1]
+                .replace('{% include testScript.html %}', '<a href="https://walletscrutiny.com/testScript/" target="_blank">test script</a>')
+                .replace(/{% include walletLink\.html\s+wallet='([^']+)'\s+verdict='true'\s+%}/g, '$1')
+                .replace('{{ page.title }}', data.title)
+                .replace('{% include asciicast %}', `<div id="ascii_cast_player"></div>`)
+                .slice(0, 50000);
 
 
         if (['fewusers', 'custodial', 'nosource', 'nowallet', 'fake', 'nobtc', 'nosendreceive', 'obfuscated', 'wip'].includes(data.verdict)) {
