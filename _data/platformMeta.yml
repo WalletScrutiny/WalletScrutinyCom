@@ -24,6 +24,7 @@ android:
     - outdated
     - removed
     - deprecated
+    - discontinued
 iphone:
   description: >
     On the Apple App Store, there are many apps that have Bitcoin in their
@@ -192,6 +193,7 @@ desktop:
     - outdated
     - removed
     - deprecated
+    - discontinued
 others:
   description: >
     These products do not fit into any of the other categories. We list them as

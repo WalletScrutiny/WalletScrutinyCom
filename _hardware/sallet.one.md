@@ -24,7 +24,7 @@ repository: https://github.com/SalletOne/sallet-one-cold
 issue: https://github.com/SalletOne/sallet-one-cold/issues/6
 icon: sallet.one.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: ftbfs
 appHashes: []
 date: 2022-08-07
@@ -38,6 +38,12 @@ social:
 features: 
 
 ---
+
+## Update 2025-02-05
+
+The website has been offline since 2023. The repositories last update was also made in 2023.
+
+## Previous Review 2022-08-07
 
 This hardware wallet requires a companion app: {% include walletLink.html wallet='android/com.yaolian.qoline' verdict='true' %} downloadable via Google Play or the Apple store.
 
