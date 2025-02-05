@@ -16,7 +16,7 @@ custodian:
       position: "CEO"
       tenure: "2023-present"
       nationality: "Singaporean"
-      photo: "/images/wIcons/custodians/leadership/binance-richard-teng.png"
+      photo: "images/wIcons/custodians/leadership/binance-richard-teng.png"
       social:
         twitter: "https://x.com/_richardteng"
         linkedin: "https://www.linkedin.com/in/richard-teng-3497b527"
