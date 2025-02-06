@@ -188,7 +188,7 @@ layout: default
   /* Top Panel Layout */
   .top-panel {
     display: grid;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 1fr;
     gap: 1.5rem;
     align-items: start;
     margin-bottom: 1rem;
@@ -203,8 +203,37 @@ layout: default
 
   .top-right {
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
     margin-top: 0;
+  }
+
+  .ceo-card {
+    background: #f8f9fa;
+    border-radius: 12px;
+    padding: 0.75rem;
+    width: 100%;
+    max-width: 320px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    border: 1px solid #dee2e6;
+    flex-direction: row;
+  }
+
+  /* Desktop styles */
+  @media (min-width: 768px) {
+    .top-panel {
+      grid-template-columns: 1fr auto;
+    }
+    
+    .top-right {
+      justify-content: flex-end;
+    }
+    
+    .ceo-card {
+      width: 320px;
+    }
   }
 
   /* CEO Card Styles */
