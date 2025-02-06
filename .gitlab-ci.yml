@@ -16,3 +16,22 @@
     - if: $CI_PIPELINE_SOURCE == "schedule"
       when: always
   allow_failure: true
+
+  stages:
+  - sync
+
+sync_with_main:
+  stage: sync
+  image: alpine:latest
+  before_script:
+    - apk add --no-cache git openssh
+    - git config --global user.name "Daniel Andrei R. Garcia"
+    - git config --global user.email "dannybuntu@proton.me"
+  script:
+    - git clone --mirror https://gitlab.com/walletscrutiny/walletScrutinyCom.git .
+    - git remote add fork https://oauth2:$glpat-AQDxW5TF3vUHPYZvawQf@gitlab.com/dannygarcia/walletScrutinyCom.git
+    - git fetch origin
+    - git push fork --mirror
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "schedule"
+  allow_failure: true
