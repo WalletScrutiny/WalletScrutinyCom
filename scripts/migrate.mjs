@@ -18,11 +18,7 @@ const migration = function (header, body, fileName, categoryHelper) {
 
   // Check for missing 'updated' field when 'version' is defined
   // Skip check for discontinued/obsolete/vapor/defunct products
-  if (header.version && !header.updated && 
-      !header.discontinued && 
-      header.meta !== 'obsolete' && 
-      header.meta !== 'defunct' && 
-      header.verdict !== 'vapor') {
+  if (header.version && !header.updated) {
     console.error(
         `\x1b[36mWarning: 'updated' field is missing for ${folder}${header.appId}.md with version ${header.version}\x1b[0m`
     );
