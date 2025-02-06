@@ -155,8 +155,11 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
               break;
           }
 
-          listItems += `<span onclick='showAttestationModal("${sha256Hash}", "${attestation.id}")' class="attestation-link" style="cursor: pointer; margin-bottom: 0; margin-top: 0;">
-            ${statusText}<br><small>(${attestationDate})</small>
+          listItems += `<span onclick='showAttestationModal("${sha256Hash}", "${attestation.id}")' class="attestation-link" style="cursor: pointer; margin-bottom: 0; margin-top: 0; display: block;">
+            <div style="line-height: 1.2; margin-bottom: 0.7em;">
+              ${statusText}
+              <small style="display: block;">(${attestationDate})</small>
+            </div>
           </span>`;
         }
         attestationList = `${listItems}
