@@ -22,7 +22,7 @@ shop: https://trezor.io/trezor-safe-3
 country: CZ
 price: 79USD
 repository: https://github.com/trezor/trezor-firmware
-issue: https://github.com/trezor/trezor-firmware/issues/3663
+issue: https://github.com/trezor/trezor-firmware/issues/4586
 icon: trezorSafe3.png
 bugbounty: https://trezor.io/learn/a/how-to-report-an-issue
 meta: ok
