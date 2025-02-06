@@ -1,4 +1,9 @@
- refresh-apps:
+stages:
+  - refresh
+  - sync
+
+refresh-apps:
+  stage: refresh
   image: node:20
   variables:
     LN_KEY: ${BTCPAYSERVER_RO_TOKEN}
@@ -16,9 +21,6 @@
     - if: $CI_PIPELINE_SOURCE == "schedule"
       when: always
   allow_failure: true
-
-  stages:
-  - sync
 
 sync_with_main:
   stage: sync
