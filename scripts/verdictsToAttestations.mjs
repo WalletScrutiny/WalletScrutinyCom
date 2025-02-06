@@ -102,6 +102,7 @@ async function parseFile(filePath, folderName) {
 
         if (!appHash || !version || !data.title || !data.verdict || !folderName || !contentAfterYaml) {
             console.error(`     Not enough information to create nostr event for ${appId}:`);
+            /*
             console.error({
                 appId,
                 appHash,
@@ -111,6 +112,7 @@ async function parseFile(filePath, folderName) {
                 folderName,
                 contentAfterYaml
             });
+            */
             //console.error(data);
             //process.exit(1);
         } else {
