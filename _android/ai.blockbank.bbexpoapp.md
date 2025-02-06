@@ -14,7 +14,7 @@ stars: 4.2
 ratings: 
 reviews: 12
 size: 
-website: https://blockbank.ai/
+website: https://pairs.xyz
 repository: 
 issue: 
 icon: ai.blockbank.bbexpoapp.png

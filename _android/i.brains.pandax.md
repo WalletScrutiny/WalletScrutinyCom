@@ -8,7 +8,7 @@ users: 100000
 appId: i.brains.pandax
 appCountry: 
 released: 2020-06-14
-updated: 2024-12-30
+updated: 2025-02-03
 version: 3.0.8
 stars: 4.4
 ratings: 

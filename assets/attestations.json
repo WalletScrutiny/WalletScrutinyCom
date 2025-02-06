@@ -13,6 +13,17 @@
   {
     "appId": "app.zeusln.zeus",
     "signer": "cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359",
+    "version": "0.9.4",
+    "verdict": "reproducible",
+    "appHashes": [
+      "e6498f7327d6d152f114b851b8c01a5b7c7890414c192a00ea3846bf0f82229f"
+    ],
+    "date": "2025-01-03",
+    "platform": "android"
+  },
+  {
+    "appId": "app.zeusln.zeus",
+    "signer": "cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359",
     "version": "0.9.3",
     "verdict": "reproducible",
     "appHashes": [
@@ -134,12 +145,12 @@
   {
     "appId": "app.zeusln.zeus",
     "signer": "cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359",
-    "version": "0.9.4",
+    "version": "0.9.5",
     "verdict": "",
     "appHashes": [
-      "e6498f7327d6d152f114b851b8c01a5b7c7890414c192a00ea3846bf0f82229f"
+      "19dcd62476f17e68a03b47a66cced8288689f4e162ef1b9f91300a27d2ce3957"
     ],
-    "date": "2025-01-03",
+    "date": "2025-02-05",
     "platform": "android"
   },
   {
@@ -1383,6 +1394,17 @@
   {
     "appId": "de.schildbach.wallet",
     "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
+    "version": "10.22",
+    "verdict": "reproducible",
+    "appHashes": [
+      "0ebee116661bbc844c679841411c4d3b09575b367d187ad1e28739053c2409e3"
+    ],
+    "date": "2025-01-28",
+    "platform": "android"
+  },
+  {
+    "appId": "de.schildbach.wallet",
+    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
     "version": "10.21",
     "verdict": "reproducible",
     "appHashes": [
@@ -1791,12 +1813,12 @@
   {
     "appId": "de.schildbach.wallet",
     "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
-    "version": "10.22",
+    "version": "10.23",
     "verdict": "reproducible",
     "appHashes": [
-      "0ebee116661bbc844c679841411c4d3b09575b367d187ad1e28739053c2409e3"
+      "d9ea9a82ec65b8b3d137218ca77e1e0b271e396e2b19b6ea53af5c9422ab49ba"
     ],
-    "date": "2025-01-28",
+    "date": "2025-02-05",
     "platform": "android"
   },
   {

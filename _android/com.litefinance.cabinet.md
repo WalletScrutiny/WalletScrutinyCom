@@ -3,7 +3,7 @@ wsId: litefinance
 title: LiteFinance mobile trading
 altTitle: 
 authors: 
-users: 100000
+users: 500000
 appId: com.litefinance.cabinet
 appCountry: 
 released: 2022-02-09

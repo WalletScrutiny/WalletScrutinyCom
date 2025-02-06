@@ -11,9 +11,9 @@ appCountry:
 released: 2013-02-01
 updated: 2025-01-31
 version: 202501.2.3
-stars: 3.8
+stars: 3.9
 ratings: 115830
-reviews: 6196
+reviews: 6197
 size: 
 website: https://www.blockchain.com
 repository: 

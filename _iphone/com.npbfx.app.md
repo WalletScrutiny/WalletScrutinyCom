@@ -8,11 +8,11 @@ appId: com.npbfx.app
 appCountry: ph
 idd: '1541838401'
 released: 2022-04-21
-updated: 2024-10-23
-version: 1.3.11
+updated: 2025-02-05
+version: 1.14.0
 stars: 0
 reviews: 0
-size: '25656320'
+size: '22081536'
 website: https://www.npbfx.com/
 repository: 
 issue: 

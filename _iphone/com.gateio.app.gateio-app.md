@@ -10,8 +10,8 @@ idd: 1294998195
 released: 2017-11-03
 updated: 2025-02-03
 version: 6.49.6
-stars: 4.4
-reviews: 1125
+stars: 4.5
+reviews: 1137
 size: '746802176'
 website: https://gate.io
 repository: 

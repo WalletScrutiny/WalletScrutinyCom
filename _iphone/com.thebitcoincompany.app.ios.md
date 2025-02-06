@@ -8,11 +8,11 @@ appId: com.thebitcoincompany.app.ios
 appCountry: us
 idd: '1600995023'
 released: 2022-03-17
-updated: 2024-09-01
-version: '1.34'
+updated: 2025-02-04
+version: '1.36'
 stars: 4.1
 reviews: 29
-size: '61325312'
+size: '61616128'
 website: https://thebitcoincompany.com
 repository: 
 issue: 

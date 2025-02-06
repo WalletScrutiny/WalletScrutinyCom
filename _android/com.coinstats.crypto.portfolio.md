@@ -12,7 +12,7 @@ updated: 2025-01-31
 version: 5.20.4
 stars: 4.5
 ratings: 
-reviews: 2493
+reviews: 2492
 size: 
 website: https://coinstats.app
 repository: 
