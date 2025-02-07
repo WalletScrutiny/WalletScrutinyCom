@@ -42,16 +42,12 @@ custodian:
       url: "/android/com.kraken.trade"
     - name: "Kraken - Buy TRUMP & Bitcoin"
       url: "/android/com.kraken.invest.app"
-    - name: "Kraken Wallet: Crypto & NFT"
-      url: "/android/com.kraken.superwallet"
 
   iphoneApps:
     - name: "Kraken - Buy Bitcoin & Crypto"
       url: "/iphone/com.kraken.trade.app"
     - name: "Kraken: Buy Crypto & Bitcoin"
       url: "/iphone/com.kraken.invest.app"
-    - name: "Kraken: Buy Crypto & Bitcoin"
-      url: "/iphone/com.kraken.superwallet"
   
   desktopApp:
     name: "Kraken: Desktop Wallet"
