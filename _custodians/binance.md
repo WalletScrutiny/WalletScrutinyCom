@@ -41,15 +41,12 @@ custodian:
 
   iphoneApp:
     name: "Binance: Buy & Sell Bitcoin Crypto"
-    url: "/iphone/binance.ios"
+    url: "/iphone/com.czzhao.binance"
   
   webApp:
     name: "Binance: Web Wallet"
-    url: "/others/binance.com"
-
-  browserExtension:
-    name: "Binance Chain Wallet"
-    url: "/others/ext.binancechain"
+    url: "https://www.binance.com/en"
+    icon: "fas fa-globe"
 
   hotColdDesign:
     status: "published"

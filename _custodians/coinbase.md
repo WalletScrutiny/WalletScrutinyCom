@@ -47,6 +47,7 @@ custodian:
   webApp:
     name: "Coinbase: Web Wallet"
     url: "/others/com.coinbase.web"
+    icon: "fas fa-globe"
 
   browserExtension:
     name: "Coinbase: Buy Bitcoin & Crypto"
