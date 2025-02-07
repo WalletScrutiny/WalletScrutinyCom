@@ -89,7 +89,8 @@ const createAssetRegistration = async function ({
   url,
   version,
   platform,
-  name
+  name,
+  createdAt = null
 }) {
   validateSHA256(sha256);
   if (url) {
@@ -103,6 +104,7 @@ const createAssetRegistration = async function ({
   const ndkEvent = new NDKEvent(ndk);
   ndkEvent.kind = assetRegistrationKind;
   ndkEvent.content = name;
+  ndkEvent.created_at = getCreatedAt(createdAt);
   ndkEvent.tags = [
     ["x", sha256],
     ["ox", sha256],
@@ -129,7 +131,7 @@ const createAssetRegistration = async function ({
   }
 }
 
-const createAttestation = async function ({sha256, content, status, assetEventId}) {
+const createAttestation = async function ({sha256, content, status, assetEventId, createdAt = null}) {
   console.debug("Creating attestation for asset: ", assetEventId);
 
   validateSHA256(sha256);
@@ -145,6 +147,7 @@ const createAttestation = async function ({sha256, content, status, assetEventId
   const ndkEvent = new NDKEvent(ndk);
   ndkEvent.kind = attestationKind;
   ndkEvent.content = content;
+  ndkEvent.created_at = getCreatedAt(createdAt);
 
   ndkEvent.tags = [
     ["x", sha256],
@@ -167,7 +170,7 @@ const createAttestation = async function ({sha256, content, status, assetEventId
   }
 }
 
-const createEndorsement = async function ({sha256, content, status, attestationEventId}) {
+const createEndorsement = async function ({sha256, content, status, attestationEventId, createdAt = null}) {
   console.debug("Creating endorsement for attestation: ", attestationEventId);
 
   validateSHA256(sha256);
@@ -179,7 +182,7 @@ const createEndorsement = async function ({sha256, content, status, attestationE
   const ndkEvent = new NDKEvent(ndk);
   ndkEvent.kind = endorsementKind;
   ndkEvent.content = content;
-
+  ndkEvent.created_at = getCreatedAt(createdAt);
   ndkEvent.tags = [
     ["x", sha256],
     ["d", attestationEventId],
@@ -199,6 +202,10 @@ const createEndorsement = async function ({sha256, content, status, attestationE
 
     throw error;
   }
+}
+
+function getCreatedAt(createdAt) {
+  return createdAt ? Math.floor(new Date(createdAt).getTime() / 1000) : Math.floor(new Date().getTime() / 1000);
 }
 
 function getFirstTag(event, tagName) {

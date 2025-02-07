@@ -5,7 +5,7 @@ let response = null;
 
 window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestationsPubkey, appId, sha256, hideConfig, getAssetsForMyAttestations, showOnlyRows = 100}) {
   response = await getAllAssetInformation({
-    months: 6,
+    months: 60,  // 5 years
     assetsPubkey,
     attestationsPubkey,
     appId,

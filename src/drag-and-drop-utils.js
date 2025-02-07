@@ -10,7 +10,6 @@ export function formatFileSize(bytes) {
 
 export const updateDomElement = (elementId, htmlContent, searchFromElement = document) => {
     const element = searchFromElement.querySelector(`#${elementId}`);
-    console.log('element', element);
     if (element) {
         element.innerHTML = htmlContent;
     }

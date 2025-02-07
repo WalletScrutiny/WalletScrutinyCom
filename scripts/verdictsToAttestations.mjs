@@ -123,7 +123,8 @@ async function parseFile(filePath, folderName) {
                 platform: folderName,
                 name: "Google Play extracted apk",
                 content: contentAfterYaml,
-                status: status
+                status: status,
+                attestationCreatedAt: data.date
             });
         }
 
@@ -139,7 +140,8 @@ async function createNostrEvents({
     platform,
     name,
     content,
-    status
+    status,
+    attestationCreatedAt = null
 }) {
     console.log('   ----------------------------------------------------------------\n    Nostr events will be created with this data:\n   ----------------------------------------------------------------', {
         sha256,
@@ -148,7 +150,8 @@ async function createNostrEvents({
         platform,
         name,
         content,
-        status
+        status,
+        attestationCreatedAt
     });
 
     console.log('   ----------------------------------------------------------------\n    Creating asset registration...\n   ----------------------------------------------------------------');
@@ -157,7 +160,8 @@ async function createNostrEvents({
         appId,
         version,
         platform,
-        name
+        name,
+        createdAt: attestationCreatedAt
     });
     await new Promise(resolve => setTimeout(resolve, 300));
 
@@ -168,7 +172,8 @@ async function createNostrEvents({
         sha256,
         content,
         status,
-        assetEventId
+        assetEventId,
+        createdAt: attestationCreatedAt
     });
     await new Promise(resolve => setTimeout(resolve, 300));
 }
