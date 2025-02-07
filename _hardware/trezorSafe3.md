@@ -26,12 +26,16 @@ icon: trezorSafe3.png
 bugbounty: https://trezor.io/learn/a/how-to-report-an-issue
 meta: ok
 verdict: reproducible
+appHashes:
+- 877aed88c703a89344ae9b098f84849a2e1db29c1740e71af5cc85042eeb8ec1
+- c1edd08f02b75430fbeedd77c4d155aadd81b030752fec4465698ab9a0b3d0e3
 date: 2024-10-11
 signer: 
 reviewArchive:
 - date: 2024-04-01
   version: 2.6.4
-  appHash: 3940dc0615c651104baf0e10147550d4ad2e44e2ef317a94ed36245e3e016bf2
+  appHashes:
+  - 3940dc0615c651104baf0e10147550d4ad2e44e2ef317a94ed36245e3e016bf2
   gitRevision: 94f7ab3986d010659c65faab60e2de3737a31adf
   verdict: reproducible
 twitter: trezor

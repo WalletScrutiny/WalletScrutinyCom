@@ -8,8 +8,8 @@ users: 100000
 appId: com.plena
 appCountry: 
 released: 2022-07-06
-updated: 2024-12-03
-version: 4.2.1
+updated: 2025-02-01
+version: 4.3.3
 stars: 4.7
 ratings: 
 reviews: 674
@@ -21,6 +21,7 @@ icon: com.plena.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2023-02-25
 signer: 
 reviewArchive: 

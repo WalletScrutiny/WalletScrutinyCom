@@ -3,7 +3,7 @@ wsId:
 title: thisAppBudget
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: io.thisapp
 appCountry: 
 released: 2018-09-27
@@ -19,7 +19,8 @@ issue:
 icon: io.thisapp.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
+appHashes: 
 date: 2022-06-22
 signer: 
 reviewArchive: 

@@ -12,7 +12,7 @@ updated: 2023-12-06
 version: V3.54
 stars: 4.1
 ratings: 
-reviews: 6379
+reviews: 6380
 size: 
 website: https://safemoon.com
 repository: 
@@ -21,13 +21,14 @@ icon: net.safemoon.androidwallet.jpg
 bugbounty: 
 meta: stale
 verdict: nobtc
+appHashes: 
 date: 2024-12-04
 signer: 
 reviewArchive: 
 twitter: safemoon
 social: 
 redirect_from: 
-developerName: SafeMoon
+developerName: VGX Foundation
 features: 
 
 ---

@@ -20,6 +20,7 @@ icon: com.catecoin.crypto.wallet.jpg
 bugbounty: 
 meta: stale
 verdict: nosource
+appHashes: 
 date: 2024-11-29
 signer: 
 reviewArchive: 

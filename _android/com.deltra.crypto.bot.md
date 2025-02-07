@@ -20,6 +20,7 @@ icon: com.deltra.crypto.bot.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-08-15
 signer: 
 reviewArchive: 

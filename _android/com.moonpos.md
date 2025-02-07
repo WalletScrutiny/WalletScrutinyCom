@@ -20,6 +20,7 @@ icon: com.moonpos.png
 bugbounty: 
 meta: ok
 verdict: fewusers
+appHashes: 
 date: 2024-07-01
 signer: 
 reviewArchive: 

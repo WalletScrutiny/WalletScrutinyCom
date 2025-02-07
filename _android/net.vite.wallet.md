@@ -12,7 +12,7 @@ updated: 2024-05-13
 version: v5.0.1
 stars: 3.7
 ratings: 
-reviews: 77
+reviews: 78
 size: 
 website: https://vite.org/
 repository: 
@@ -21,6 +21,7 @@ icon: net.vite.wallet.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2024-05-08
 signer: 
 reviewArchive: 

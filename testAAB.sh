@@ -251,6 +251,9 @@ for dir in "$workDir/fromBuild-unzipped"/*; do
   echo "- $dir"
 done
 
+# Begin Results
+echo "===== Begin Results ====="
+
 # Compare hashes of official and built APKs
 echo -e "${YELLOW}*** Comparing Official and Built APKs Hashes ***${NC}"
 echo -e "${CYAN}Official APKs:${NC}"
@@ -282,6 +285,9 @@ for dir in "$workDir/fromPlay-unzipped"/*; do
     echo -e "${YELLOW}Built directory for $dir_name not found${NC}"
   fi
 done
+
+# Display End Results 
+echo "===== End Results ====="
 
 # Create the parent directory before decoding
 mkdir -p "$workDir/fromBuild-decoded"

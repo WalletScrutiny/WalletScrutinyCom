@@ -21,6 +21,7 @@ icon: io.npaswallet.viichainteam.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2023-08-24
 signer: 
 reviewArchive: 

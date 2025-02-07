@@ -12,7 +12,7 @@ updated: 2025-01-12
 version: 7.2.9
 stars: 4.5
 ratings: 7353
-reviews: 378
+reviews: 372
 size: 
 website: https://ok-ex.co
 repository: 
@@ -21,14 +21,10 @@ icon: co.okex.app.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: []
 date: 2021-10-01
 signer: 
-reviewArchive:
-- date: 2020-11-16
-  version: ''
-  appHash: 
-  gitRevision: 7040a9add3e44cbaac48e7d412c898cff071ffb5
-  verdict: custodial
+reviewArchive: 
 twitter: 
 social: 
 redirect_from:

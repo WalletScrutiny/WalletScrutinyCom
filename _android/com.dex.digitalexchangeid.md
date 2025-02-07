@@ -8,8 +8,8 @@ users: 100000
 appId: com.dex.digitalexchangeid
 appCountry: us
 released: 2024-09-04
-updated: 2025-01-13
-version: 1.3.5
+updated: 2025-01-30
+version: 1.3.6
 stars: 
 ratings: 
 reviews: 
@@ -21,6 +21,7 @@ icon: com.dex.digitalexchangeid.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-09-17
 signer: 
 reviewArchive: 

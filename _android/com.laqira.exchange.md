@@ -21,6 +21,7 @@ icon: com.laqira.exchange.png
 bugbounty: 
 meta: stale
 verdict: wip
+appHashes: 
 date: 2024-03-01
 signer: 
 reviewArchive: 

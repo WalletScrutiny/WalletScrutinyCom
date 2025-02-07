@@ -19,9 +19,10 @@ repository:
 issue: 
 icon: com.coinb9.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
-date: 2023-07-08
+appHashes: 
+date: 2025-02-04
 signer: 
 reviewArchive: 
 twitter: 

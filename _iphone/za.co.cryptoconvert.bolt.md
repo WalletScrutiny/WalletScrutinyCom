@@ -20,6 +20,7 @@ icon: za.co.cryptoconvert.bolt.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2024-04-02
 signer: 
 reviewArchive: 

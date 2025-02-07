@@ -20,6 +20,7 @@ icon: sg.bcoin.app.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2021-11-16
 signer: 
 reviewArchive: 

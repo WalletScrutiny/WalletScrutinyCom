@@ -20,6 +20,7 @@ icon: com.entelligentlife.cardstack.jpg
 bugbounty: 
 meta: obsolete
 verdict: nobtc
+appHashes: 
 date: 2023-05-13
 signer: 
 reviewArchive: 

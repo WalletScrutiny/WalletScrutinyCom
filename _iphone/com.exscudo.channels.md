@@ -12,7 +12,7 @@ released: 2018-05-16
 updated: 2024-11-19
 version: 3.17.0
 stars: 4.6
-reviews: 55
+reviews: 54
 size: '173056000'
 website: https://fintap.app/
 repository: 
@@ -21,6 +21,7 @@ icon: com.exscudo.channels.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2021-04-24
 signer: 
 reviewArchive: 

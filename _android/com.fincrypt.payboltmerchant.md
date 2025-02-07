@@ -21,6 +21,7 @@ icon: com.fincrypt.payboltmerchant.png
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2024-12-15
 signer: 
 reviewArchive: 

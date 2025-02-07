@@ -20,6 +20,7 @@ icon: com.coin4sales.coin4sales.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-05-18
 signer: 
 reviewArchive: 

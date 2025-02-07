@@ -21,6 +21,7 @@ icon: watt.wallet.png
 bugbounty: 
 meta: obsolete
 verdict: nosource
+appHashes: 
 date: 2024-06-03
 signer: 
 reviewArchive: 

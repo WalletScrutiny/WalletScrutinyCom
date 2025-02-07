@@ -20,6 +20,7 @@ icon: com.necen.coinpara.react.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-07-10
 signer: 
 reviewArchive: 

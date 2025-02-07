@@ -12,7 +12,7 @@ updated: 2024-07-24
 version: 1.2.3
 stars: 4.2
 ratings: 
-reviews: 19
+reviews: 18
 size: 
 website: https://www.8v.com
 repository: 
@@ -21,6 +21,7 @@ icon: com.royallyborn.v8.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-07-28
 signer: 
 reviewArchive: 

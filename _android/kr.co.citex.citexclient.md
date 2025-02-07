@@ -21,6 +21,7 @@ icon: kr.co.citex.citexclient.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2022-05-31
 signer: 
 reviewArchive: 

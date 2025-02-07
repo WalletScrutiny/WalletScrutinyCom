@@ -20,6 +20,7 @@ icon: com.premicesoft.tablet.png
 bugbounty: 
 meta: obsolete
 verdict: fewusers
+appHashes: 
 date: 2024-12-27
 signer: 
 reviewArchive: 

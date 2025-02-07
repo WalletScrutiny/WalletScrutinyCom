@@ -1,6 +1,6 @@
 ---
 wsId: coincola
-title: CoinCola - Bitcoin Trading
+title: CoinCol - P2P Buy & Sell BTC
 altTitle: 
 authors:
 - leo
@@ -8,9 +8,9 @@ users: 100000
 appId: com.newgo.coincola
 appCountry: 
 released: 2017-07-07
-updated: 2024-12-26
-version: 5.10.3
-stars: 4.6
+updated: 2025-01-21
+version: 5.11.0
+stars: 4.7
 ratings: 1597
 reviews: 156
 size: 
@@ -21,6 +21,7 @@ icon: com.newgo.coincola.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2020-12-03
 signer: 
 reviewArchive: 

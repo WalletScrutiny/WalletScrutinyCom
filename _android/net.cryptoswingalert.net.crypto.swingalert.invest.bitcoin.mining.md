@@ -20,6 +20,7 @@ icon: net.cryptoswingalert.net.crypto.swingalert.invest.bitcoin.mining.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2021-10-01
 signer: 
 reviewArchive: 

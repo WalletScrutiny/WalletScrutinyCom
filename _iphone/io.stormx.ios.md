@@ -11,7 +11,7 @@ released: 2018-12-12
 updated: 2023-09-28
 version: 4.18.7
 stars: 4.6
-reviews: 1263
+reviews: 1262
 size: '59563008'
 website: https://stormx.io/
 repository: 
@@ -20,6 +20,7 @@ icon: io.stormx.ios.jpg
 bugbounty: 
 meta: stale
 verdict: nowallet
+appHashes: 
 date: 2024-09-22
 signer: 
 reviewArchive: 

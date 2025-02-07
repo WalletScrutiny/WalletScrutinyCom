@@ -8,11 +8,11 @@ appId: com.afriex.afriex
 appCountry: us
 idd: 1492022568
 released: 2020-03-06
-updated: 2024-12-29
-version: 11.108.6
+updated: 2025-02-04
+version: 11.109.1
 stars: 4.8
-reviews: 8404
-size: '130528256'
+reviews: 8402
+size: '130610176'
 website: https://afriexapp.com
 repository: 
 issue: 
@@ -20,6 +20,7 @@ icon: com.afriex.afriex.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2021-11-30
 signer: 
 reviewArchive: 

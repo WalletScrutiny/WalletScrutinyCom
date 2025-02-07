@@ -21,6 +21,7 @@ icon: com.tigerwit.forex.png
 bugbounty: 
 meta: removed
 verdict: nosendreceive
+appHashes: 
 date: 2023-12-19
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: deex.exchange.android.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2023-06-12
 signer: 
 reviewArchive: 

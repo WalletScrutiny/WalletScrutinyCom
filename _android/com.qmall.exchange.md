@@ -21,6 +21,7 @@ icon: com.qmall.exchange.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-02-25
 signer: 
 reviewArchive: 

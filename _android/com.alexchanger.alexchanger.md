@@ -20,6 +20,7 @@ icon: com.alexchanger.alexchanger.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2024-07-05
 signer: 
 reviewArchive: 

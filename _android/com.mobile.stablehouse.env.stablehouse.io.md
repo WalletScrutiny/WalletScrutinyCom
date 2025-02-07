@@ -20,6 +20,7 @@ icon: com.mobile.stablehouse.env.stablehouse.io.png
 bugbounty: 
 meta: stale
 verdict: fewusers
+appHashes: 
 date: 2024-09-21
 signer: 
 reviewArchive: 

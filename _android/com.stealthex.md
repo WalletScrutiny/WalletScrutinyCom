@@ -10,9 +10,9 @@ appCountry:
 released: 2022-11-01
 updated: 2025-01-13
 version: 1.1.18
-stars: 4.5
+stars: 4.4
 ratings: 
-reviews: 11
+reviews: 8
 size: 
 website: https://stealthex.io/
 repository: 
@@ -21,6 +21,7 @@ icon: com.stealthex.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-07-28
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.EkoWallet.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-08-02
 signer: 
 reviewArchive: 

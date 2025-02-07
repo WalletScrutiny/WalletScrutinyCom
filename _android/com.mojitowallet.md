@@ -22,6 +22,7 @@ icon: com.mojitowallet.png
 bugbounty: 
 meta: ok
 verdict: ftbfs
+appHashes: []
 date: 2024-12-21
 signer: 
 reviewArchive: 

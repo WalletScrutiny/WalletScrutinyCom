@@ -21,6 +21,7 @@ icon: org.vrontonode.wallet.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2023-05-06
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.pilotmobiletrading.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2023-08-25
 signer: 
 reviewArchive: 

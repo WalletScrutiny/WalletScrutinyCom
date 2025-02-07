@@ -20,6 +20,7 @@ icon: prizmbit.com.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2022-01-02
 signer: 
 reviewArchive: 

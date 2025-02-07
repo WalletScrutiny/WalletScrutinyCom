@@ -9,11 +9,11 @@ users: 100000
 appId: com.legendwd.hyperpayW
 appCountry: us
 released: 2018-10-25
-updated: 2025-01-13
-version: 5.5.100701
+updated: 2025-01-23
+version: 5.6.010600
 stars: 4
 ratings: 2781
-reviews: 196
+reviews: 189
 size: 
 website: https://hyperpay.tech
 repository: 
@@ -21,10 +21,16 @@ issue:
 icon: com.legendwd.hyperpayW.png
 bugbounty: 
 meta: ok
-verdict: obfuscated
-date: 2024-07-15
+verdict: nosource
+appHashes: []
+date: 2025-01-22
 signer: 
-reviewArchive: 
+reviewArchive:
+- date: 2024-07-15
+  version: 5.4.1040
+  appHashes: []
+  gitRevision: 4458285efc54bd9bc76d74f88e696201a4af4a93
+  verdict: obfuscated
 twitter: HyperPay_tech
 social:
 - https://www.facebook.com/hyperpayofficial
@@ -34,6 +40,8 @@ developerName: LEGEND INTERNET SERVICES PTY LTD
 features: 
 
 ---
+
+**Update 2025-01-22**: The organization's GitHub page is located [here.](https://github.com/hyperpayorg). None of the repositories within that indicate a source code release for their Android app. 
 
 **Update 2024-07-15**: There are no overt claims that this project is source-available. A search on GitHub for the appID "com.legend.hyperpayW" does turn up a hit on a [repository](https://github.com/huolongluo/byw105/blob/3ddf253c9195088851539e5dc7e8bfa0ed91d53f/coinw-android-v8.3.0/app/src/main/java/huolongluo/byw/byw/net/UrlConstants.java#L14) which appears to be an Android app. However, the repository has not been updated for 2 years and does not have sufficient description to link this to the app. 
 

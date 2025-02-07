@@ -21,6 +21,7 @@ icon: io.polybius.osom.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2023-04-15
 signer: 
 reviewArchive: 

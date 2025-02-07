@@ -20,6 +20,7 @@ icon: im.immune.app.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2023-04-15
 signer: 
 reviewArchive: 

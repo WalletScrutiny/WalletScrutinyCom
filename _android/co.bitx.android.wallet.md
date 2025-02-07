@@ -8,8 +8,8 @@ users: 10000000
 appId: co.bitx.android.wallet
 appCountry: 
 released: 2014-11-01
-updated: 2025-01-09
-version: 8.74.3
+updated: 2025-02-03
+version: 8.75.1
 stars: 3.6
 ratings: 96811
 reviews: 1387
@@ -21,12 +21,13 @@ icon: co.bitx.android.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: []
 date: 2020-10-12
 signer: 
 reviewArchive:
 - date: 2019-11-14
   version: 6.8.0
-  appHash: 
+  appHashes: []
   gitRevision: 372c9c03c6422faed457f1a9975d7cab8f13d01f
   verdict: nosource
 twitter: LunoGlobal

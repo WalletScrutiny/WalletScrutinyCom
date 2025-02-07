@@ -22,6 +22,7 @@ icon: moriyasu.apollo.arduinonano.diy.png
 bugbounty: 
 meta: defunct
 verdict: diy
+appHashes: 
 date: 2022-05-25
 signer: 
 reviewArchive: 

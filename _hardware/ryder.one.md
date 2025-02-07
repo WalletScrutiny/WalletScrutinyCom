@@ -26,6 +26,7 @@ icon: ryder.one.png
 bugbounty: 
 meta: ok
 verdict: unreleased
+appHashes: 
 date: 2024-10-31
 signer: 
 reviewArchive: 

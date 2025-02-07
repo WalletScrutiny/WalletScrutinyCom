@@ -11,7 +11,7 @@ released: '2021-06-07'
 updated: 2024-10-18
 version: 2.4.2
 stars: 4.5
-reviews: 38
+reviews: 39
 size: '77803520'
 website: https://gridlock.network
 repository: 
@@ -20,6 +20,7 @@ icon: network.gridlock.AppUS.jpg
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2022-12-08
 signer: 
 reviewArchive: 

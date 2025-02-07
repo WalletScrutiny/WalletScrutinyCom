@@ -22,6 +22,7 @@ icon: com.coinpay.png
 bugbounty: 
 meta: removed
 verdict: nosource
+appHashes: 
 date: 2024-07-05
 signer: 
 reviewArchive: 

@@ -9,8 +9,8 @@ users: 1000000
 appId: com.kapital.trade.crypto
 appCountry: cz
 released: 2021-01-20
-updated: 2024-12-23
-version: 1.93.1
+updated: 2025-01-29
+version: 1.95.0
 stars: 4.4
 ratings: 1225
 reviews: 31
@@ -22,6 +22,7 @@ icon: com.kapital.trade.crypto.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
+appHashes: 
 date: 2024-02-22
 signer: 
 reviewArchive: 

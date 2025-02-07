@@ -21,6 +21,7 @@ icon: com.colodax.colodax.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
+appHashes: 
 date: 2023-09-08
 signer: 
 reviewArchive: 

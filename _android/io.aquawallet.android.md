@@ -13,7 +13,7 @@ updated: 2024-12-01
 version: 0.2.6
 stars: 4.4
 ratings: 
-reviews: 13
+reviews: 14
 size: 
 website: https://aquawallet.io
 repository: https://github.com/AquaWallet/aqua-wallet
@@ -22,6 +22,7 @@ icon: io.aquawallet.android.png
 bugbounty: 
 meta: ok
 verdict: ftbfs
+appHashes: []
 date: 2024-09-06
 signer: 
 reviewArchive: 

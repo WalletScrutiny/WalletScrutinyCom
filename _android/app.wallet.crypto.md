@@ -20,6 +20,7 @@ icon: app.wallet.crypto.png
 bugbounty: 
 meta: stale
 verdict: fewusers
+appHashes: 
 date: 2025-01-06
 signer: 
 reviewArchive: 

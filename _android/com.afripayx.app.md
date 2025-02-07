@@ -18,9 +18,10 @@ repository:
 issue: 
 icon: com.afripayx.app.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2024-04-10
+appHashes: 
+date: 2025-02-04
 signer: 
 reviewArchive: 
 twitter: 

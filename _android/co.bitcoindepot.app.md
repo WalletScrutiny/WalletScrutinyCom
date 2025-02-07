@@ -12,7 +12,7 @@ updated: 2024-08-14
 version: 3.1.3
 stars: 4.3
 ratings: 105
-reviews: 211
+reviews: 215
 size: 
 website: https://www.bitcoindepot.com/
 repository: 
@@ -21,6 +21,7 @@ icon: co.bitcoindepot.app.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-11-08
 signer: 
 reviewArchive: 

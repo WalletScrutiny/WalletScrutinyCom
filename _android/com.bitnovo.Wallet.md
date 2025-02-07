@@ -12,7 +12,7 @@ updated: 2025-01-13
 version: 3.0.42
 stars: 3.6
 ratings: 
-reviews: 9
+reviews: 10
 size: 
 website: https://www.bitnovo.com
 repository: 
@@ -21,6 +21,7 @@ icon: com.bitnovo.Wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2024-07-17
 signer: 
 reviewArchive: 

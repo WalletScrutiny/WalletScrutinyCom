@@ -10,8 +10,8 @@ idd: '1566000240'
 released: 2021-05-12
 updated: 2022-05-14
 version: 2.0.4
-stars: 4.6
-reviews: 27
+stars: 4.5
+reviews: 26
 size: '71064576'
 website: https://www.beastminers.com
 repository: 
@@ -20,6 +20,7 @@ icon: com.wkbeast.usdt.jpg
 bugbounty: 
 meta: obsolete
 verdict: nowallet
+appHashes: 
 date: 2024-05-04
 signer: 
 reviewArchive: 

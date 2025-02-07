@@ -21,6 +21,7 @@ icon: de.fuf.bitbucks.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2022-10-21
 signer: 
 reviewArchive: 

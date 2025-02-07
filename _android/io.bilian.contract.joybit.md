@@ -20,6 +20,7 @@ icon: io.bilian.contract.joybit.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-10-16
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.defexa.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2023-11-02
 signer: 
 reviewArchive: 

@@ -25,6 +25,7 @@ icon: fpga.crypto.wallet.diy.png
 bugbounty: 
 meta: obsolete
 verdict: diy
+appHashes: 
 date: 2022-05-25
 signer: 
 reviewArchive: 

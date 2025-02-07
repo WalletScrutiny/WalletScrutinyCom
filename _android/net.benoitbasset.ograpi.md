@@ -12,7 +12,7 @@ updated: 2023-06-07
 version: 1.4.6
 stars: 3.7
 ratings: 225
-reviews: 47
+reviews: 48
 size: 
 website: http://ograpi.oblade.net
 repository: 
@@ -21,6 +21,7 @@ icon: net.benoitbasset.ograpi.png
 bugbounty: 
 meta: stale
 verdict: nowallet
+appHashes: 
 date: 2024-06-03
 signer: 
 reviewArchive: 

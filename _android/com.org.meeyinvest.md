@@ -21,6 +21,7 @@ icon: com.org.meeyinvest.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2024-05-07
 signer: 
 reviewArchive: 

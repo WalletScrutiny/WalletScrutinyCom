@@ -20,6 +20,7 @@ icon: kr.co.keypair.nixtouch.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-09-16
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.world.bestinfo.png
 bugbounty: 
 meta: defunct
 verdict: nosendreceive
+appHashes: 
 date: 2023-06-10
 signer: 
 reviewArchive: 

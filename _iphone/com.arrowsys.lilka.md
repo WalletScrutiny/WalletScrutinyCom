@@ -20,6 +20,7 @@ icon: com.arrowsys.lilka.jpg
 bugbounty: 
 meta: obsolete
 verdict: nowallet
+appHashes: 
 date: 2021-10-26
 signer: 
 reviewArchive: 

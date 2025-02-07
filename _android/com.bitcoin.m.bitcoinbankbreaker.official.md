@@ -20,6 +20,7 @@ icon: com.bitcoin.m.bitcoinbankbreaker.official.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-09-28
 signer: 
 reviewArchive: 

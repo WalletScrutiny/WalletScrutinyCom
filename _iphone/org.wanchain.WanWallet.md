@@ -10,8 +10,8 @@ idd: 1477039507
 released: 2019-08-22
 updated: 2022-07-27
 version: '6.0'
-stars: 4
-reviews: 22
+stars: 3.8
+reviews: 23
 size: '22142976'
 website: https://www.wanchain.org
 repository: 
@@ -20,6 +20,7 @@ icon: org.wanchain.WanWallet.jpg
 bugbounty: 
 meta: obsolete
 verdict: nosource
+appHashes: 
 date: 2024-07-17
 signer: 
 reviewArchive: 

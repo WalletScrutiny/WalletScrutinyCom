@@ -21,6 +21,7 @@ icon: com.simpleswapapp.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2024-10-12
 signer: 
 reviewArchive: 

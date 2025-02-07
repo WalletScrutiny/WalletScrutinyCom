@@ -20,6 +20,7 @@ icon: io.goldwallet.wallet.png
 bugbounty: 
 meta: stale
 verdict: nobtc
+appHashes: 
 date: 2024-05-11
 signer: 
 reviewArchive: 

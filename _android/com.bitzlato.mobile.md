@@ -21,6 +21,7 @@ icon: com.bitzlato.mobile.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2023-07-20
 signer: 
 reviewArchive: 

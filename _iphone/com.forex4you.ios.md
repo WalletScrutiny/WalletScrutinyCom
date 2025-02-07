@@ -11,7 +11,7 @@ released: 2015-10-11
 updated: 2024-12-20
 version: 6.6.1
 stars: 4.7
-reviews: 459
+reviews: 464
 size: '287943680'
 website: https://www.markets4you.com/en/contact-us/
 repository: 
@@ -20,14 +20,10 @@ icon: com.forex4you.ios.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive
+appHashes: []
 date: 2021-12-24
 signer: 
-reviewArchive:
-- date: 2021-11-01
-  version: '4.2'
-  appHash: 
-  gitRevision: a5f6ad88ff8926faf6f2ce111aff123860ea1e50
-  verdict: nosendreceive
+reviewArchive: 
 twitter: 
 social: 
 features: 

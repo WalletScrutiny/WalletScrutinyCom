@@ -21,6 +21,7 @@ icon: com.aniket.my_paper_wallet.png
 bugbounty: 
 meta: removed
 verdict: ftbfs
+appHashes: 
 date: 2024-04-03
 signer: 
 reviewArchive: 

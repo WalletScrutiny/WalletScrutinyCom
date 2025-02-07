@@ -20,6 +20,7 @@ icon: com.sapien.sapienwallet.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2021-11-10
 signer: 
 reviewArchive: 

@@ -11,7 +11,7 @@ released: 2021-10-02
 updated: 2024-12-12
 version: 7.2.38
 stars: 4
-reviews: 1784
+reviews: 1789
 size: '180904960'
 website: 
 repository: 
@@ -20,6 +20,7 @@ icon: com.pay99.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive
+appHashes: 
 date: 2021-12-26
 signer: 
 reviewArchive: 

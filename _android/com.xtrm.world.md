@@ -20,6 +20,7 @@ icon: com.xtrm.world.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2024-04-03
 signer: 
 reviewArchive: 

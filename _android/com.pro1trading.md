@@ -21,6 +21,7 @@ icon: com.pro1trading.png
 bugbounty: 
 meta: stale
 verdict: nowallet
+appHashes: 
 date: 2024-06-17
 signer: 
 reviewArchive: 

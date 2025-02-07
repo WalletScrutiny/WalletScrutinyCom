@@ -22,6 +22,7 @@ icon: noID.cards.png
 bugbounty: 
 meta: ok
 verdict: noita
+appHashes: 
 date: 2024-01-05
 signer: 
 reviewArchive: 

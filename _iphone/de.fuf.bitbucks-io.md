@@ -20,6 +20,7 @@ icon: de.fuf.bitbucks-io.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-12-13
 signer: 
 reviewArchive: 

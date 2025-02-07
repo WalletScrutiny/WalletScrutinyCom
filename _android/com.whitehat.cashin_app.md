@@ -12,7 +12,7 @@ updated: 2024-09-23
 version: 1.0.0
 stars: 4.7
 ratings: 
-reviews: 69
+reviews: 73
 size: 
 website: https://cash-in.app
 repository: 
@@ -21,6 +21,7 @@ icon: com.whitehat.cashin_app.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
+appHashes: 
 date: 2023-07-19
 signer: 
 reviewArchive: 

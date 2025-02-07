@@ -21,6 +21,7 @@ icon: com.exchangernet.png
 bugbounty: 
 meta: obsolete
 verdict: nowallet
+appHashes: 
 date: 2023-02-20
 signer: 
 reviewArchive: 
@@ -28,7 +29,7 @@ twitter: echangerbd
 social:
 - https://www.facebook.com/exchangernet
 redirect_from: 
-developerName: Exchangernet.com
+developerName: Exchange Digital Currency
 features: 
 
 ---

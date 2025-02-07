@@ -4,12 +4,12 @@ title: Bitcoin Libre
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: xyz.bitcoinlibre.app
 appCountry: us
 released: 2021-09-20
-updated: 2025-01-10
-version: 4.0.12
+updated: 2025-01-31
+version: 4.1.1
 stars: 4.2
 ratings: 2887
 reviews: 129
@@ -21,6 +21,7 @@ icon: xyz.bitcoinlibre.app.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2021-11-11
 signer: 
 reviewArchive: 

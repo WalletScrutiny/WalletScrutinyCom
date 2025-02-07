@@ -20,6 +20,7 @@ icon: io.slavi.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: nonverifiable
+appHashes: []
 date: 2023-07-06
 signer: 
 reviewArchive: 

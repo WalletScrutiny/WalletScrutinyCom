@@ -21,6 +21,7 @@ icon: com.app.vuollet.png
 bugbounty: 
 meta: obsolete
 verdict: custodial
+appHashes: 
 date: 2024-04-18
 signer: 
 reviewArchive: 

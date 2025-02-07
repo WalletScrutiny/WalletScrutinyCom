@@ -8,7 +8,7 @@ users: 100000
 appId: com.weareblox.app
 appCountry: 
 released: 
-updated: 2024-12-10
+updated: 2025-01-31
 version: 6.3.0
 stars: 3.4
 ratings: 
@@ -21,6 +21,7 @@ icon: com.weareblox.app.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
+appHashes: 
 date: 2023-07-20
 signer: 
 reviewArchive: 

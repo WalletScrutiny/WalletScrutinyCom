@@ -21,6 +21,7 @@ icon: com.pro.bitcointoyou.png
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-09-21
 signer: 
 reviewArchive: 

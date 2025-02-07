@@ -21,6 +21,7 @@ icon: com.nbdu.fluency_bank.png
 bugbounty: 
 meta: defunct
 verdict: custodial
+appHashes: 
 date: 2023-05-31
 signer: 
 reviewArchive: 

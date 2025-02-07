@@ -20,6 +20,7 @@ icon: com.wBitcoinRevolution_15605870.jpg
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-08-16
 signer: 
 reviewArchive: 

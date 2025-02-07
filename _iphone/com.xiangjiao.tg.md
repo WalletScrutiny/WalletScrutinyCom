@@ -20,6 +20,7 @@ icon: com.xiangjiao.tg.jpg
 bugbounty: 
 meta: defunct
 verdict: custodial
+appHashes: 
 date: 2023-03-21
 signer: 
 reviewArchive: 

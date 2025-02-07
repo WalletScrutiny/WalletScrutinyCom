@@ -18,9 +18,10 @@ repository:
 issue: 
 icon: io.sylo.dapp.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
-date: 2024-10-31
+appHashes: 
+date: 2025-02-04
 signer: 
 reviewArchive: 
 twitter: sylo

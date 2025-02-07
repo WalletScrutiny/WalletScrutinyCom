@@ -12,7 +12,7 @@ updated: 2024-11-15
 version: 2.3.3 (36)
 stars: 3.5
 ratings: 
-reviews: 60
+reviews: 61
 size: 
 website: https://snappyexchange.com
 repository: 
@@ -21,6 +21,7 @@ icon: esw.snappyexchange.snappyexchange.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-06-14
 signer: 
 reviewArchive: 

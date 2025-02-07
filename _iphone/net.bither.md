@@ -22,6 +22,7 @@ icon: net.bither.jpg
 bugbounty: 
 meta: ok
 verdict: obfuscated
+appHashes: []
 date: 2024-10-09
 signer: 
 reviewArchive: 

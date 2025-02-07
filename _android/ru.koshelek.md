@@ -12,7 +12,7 @@ updated: 2024-07-19
 version: 1.16.2
 stars: 3.8
 ratings: 122
-reviews: 126
+reviews: 127
 size: 
 website: https://koshelek.ru/
 repository: 
@@ -21,6 +21,7 @@ icon: ru.koshelek.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-10-14
 signer: 
 reviewArchive: 

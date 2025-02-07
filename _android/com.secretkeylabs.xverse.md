@@ -1,6 +1,6 @@
 ---
 wsId: xverse
-title: Xverse - Bitcoin Wallet
+title: 'Xverse Wallet: Buy Bitcoin'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ users: 100000
 appId: com.secretkeylabs.xverse
 appCountry: cn
 released: 2021-10-12
-updated: 2025-01-02
-version: 1.42.0
+updated: 2025-01-31
+version: 1.43.0
 stars: 4.6
 ratings: 34
-reviews: 960
+reviews: 965
 size: 
 website: https://www.xverse.app/
 repository: 
@@ -21,6 +21,7 @@ icon: com.secretkeylabs.xverse.png
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2024-07-17
 signer: 
 reviewArchive: 

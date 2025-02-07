@@ -11,7 +11,7 @@ released: 2019-09-18
 updated: 2024-11-28
 version: 3.7.1
 stars: 3.2
-reviews: 139
+reviews: 142
 size: '89971712'
 website: https://rockitcoin.com
 repository: 
@@ -20,6 +20,7 @@ icon: rockitcoinexchange.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2023-07-07
 signer: 
 reviewArchive: 

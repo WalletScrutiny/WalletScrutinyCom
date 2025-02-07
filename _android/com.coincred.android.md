@@ -21,6 +21,7 @@ icon: com.coincred.android.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2022-06-27
 signer: 
 reviewArchive: 

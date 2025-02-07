@@ -21,6 +21,7 @@ icon: com.jeangilles.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-07-18
 signer: 
 reviewArchive: 

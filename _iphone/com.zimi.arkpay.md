@@ -20,6 +20,7 @@ icon: com.zimi.arkpay.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-12-31
 signer: 
 reviewArchive: 

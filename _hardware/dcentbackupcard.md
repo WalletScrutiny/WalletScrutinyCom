@@ -25,6 +25,7 @@ icon: dcentbackupcard.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2022-05-18
 signer: 
 reviewArchive: 

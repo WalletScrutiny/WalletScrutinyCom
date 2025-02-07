@@ -20,6 +20,7 @@ icon: com.ttmbank.wallet.app.jpg
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2023-06-07
 signer: 
 reviewArchive: 

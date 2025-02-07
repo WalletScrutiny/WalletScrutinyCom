@@ -20,6 +20,7 @@ icon: com.uho.thodex.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2023-09-10
 signer: 
 reviewArchive: 

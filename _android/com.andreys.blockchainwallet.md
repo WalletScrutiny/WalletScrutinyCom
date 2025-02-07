@@ -20,6 +20,7 @@ icon: com.andreys.blockchainwallet.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2021-02-17
 signer: 
 reviewArchive: 

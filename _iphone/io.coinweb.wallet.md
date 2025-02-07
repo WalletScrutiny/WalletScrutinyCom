@@ -20,6 +20,7 @@ icon: io.coinweb.wallet.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2024-04-10
 signer: 
 reviewArchive: 

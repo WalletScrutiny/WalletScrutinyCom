@@ -20,6 +20,7 @@ icon: com.app.fxschool_ai.jpg
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-07-30
 signer: 
 reviewArchive: 

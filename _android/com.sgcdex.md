@@ -21,6 +21,7 @@ icon: com.sgcdex.png
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2023-08-30
 signer: 
 reviewArchive: 

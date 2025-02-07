@@ -20,6 +20,7 @@ icon: com.zybitechinc.juanworld.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-07-17
 signer: 
 reviewArchive: 

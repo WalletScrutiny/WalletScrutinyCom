@@ -20,6 +20,7 @@ icon: io.sparkbase.app.ios.jpg
 bugbounty: 
 meta: stale
 verdict: nowallet
+appHashes: 
 date: 2024-03-30
 signer: 
 reviewArchive: 

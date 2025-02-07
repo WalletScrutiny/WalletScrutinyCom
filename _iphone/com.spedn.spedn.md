@@ -20,6 +20,7 @@ icon: com.spedn.spedn.jpg
 bugbounty: 
 meta: stale
 verdict: nosendreceive
+appHashes: 
 date: 2024-11-19
 signer: 
 reviewArchive: 

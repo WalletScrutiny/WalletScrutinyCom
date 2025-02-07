@@ -18,9 +18,10 @@ repository:
 issue: 
 icon: com.platinx.exchange.flutter_platinx_exchange.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
-date: 2023-06-03
+appHashes: 
+date: 2025-02-04
 signer: 
 reviewArchive: 
 twitter: 

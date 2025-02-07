@@ -21,6 +21,7 @@ icon: com.swissquote.mobiletrader.android.wl.acm.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-11-02
 signer: 
 reviewArchive: 

@@ -28,17 +28,20 @@ icon: onekey.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-date: 2024-09-17
+appHashes:
+- a8d7051ea8b4a85038d032e4b86d5e8ee8f34870e3f861e59bf1a5578c36d176
+date: 2024-09-24
 signer: 
 reviewArchive:
 - date: 2023-07-12
   version: 3.0.0
-  appHash: a5d4ac8b98c1249f839fba018850df7deb66a3720f13a01c5d94250e426a0a71
+  appHashes:
+  - a5d4ac8b98c1249f839fba018850df7deb66a3720f13a01c5d94250e426a0a71
   gitRevision: f5c6f845966914e0bea7c7d2952029ab76388b3b
   verdict: nonverifiable
 - date: 2022-12-28
   version: 
-  appHash: 
+  appHashes: []
   gitRevision: eb1b55711cd4bbb78072e47c1f6cc9fa67074b5e
   verdict: nosource
 twitter: OneKeyHQ

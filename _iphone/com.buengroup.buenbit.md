@@ -8,11 +8,11 @@ appId: com.buengroup.buenbit
 appCountry: co
 idd: '1552402029'
 released: 2021-11-23
-updated: 2024-12-19
-version: 3.25.0
-stars: 4.8
-reviews: 13
-size: '113130496'
+updated: 2025-01-24
+version: 3.26.0
+stars: 4.9
+reviews: 14
+size: '113757184'
 website: https://www.buenbit.com/
 repository: 
 issue: 
@@ -20,6 +20,7 @@ icon: com.buengroup.buenbit.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-12-14
 signer: 
 reviewArchive: 

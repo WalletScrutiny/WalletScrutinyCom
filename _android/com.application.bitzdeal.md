@@ -20,6 +20,7 @@ icon: com.application.bitzdeal.jpg
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-02-05
 signer: 
 reviewArchive: 

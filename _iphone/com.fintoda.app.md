@@ -20,6 +20,7 @@ icon: com.fintoda.app.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2024-12-18
 signer: 
 reviewArchive: 

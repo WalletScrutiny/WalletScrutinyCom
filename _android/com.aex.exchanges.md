@@ -21,6 +21,7 @@ icon: com.aex.exchanges.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-07-22
 signer: 
 reviewArchive: 

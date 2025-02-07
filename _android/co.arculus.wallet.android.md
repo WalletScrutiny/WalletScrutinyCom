@@ -10,9 +10,9 @@ appCountry:
 released: 2021-10-06
 updated: 2024-12-24
 version: 3.8.1
-stars: 4.6
+stars: 4.7
 ratings: 
-reviews: 87
+reviews: 95
 size: 
 website: https://getarculus.com
 repository: 
@@ -21,6 +21,7 @@ icon: co.arculus.wallet.android.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-04-20
 signer: 
 reviewArchive: 

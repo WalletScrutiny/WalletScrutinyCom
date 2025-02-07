@@ -21,6 +21,7 @@ icon: com.xensorbox.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2023-06-10
 signer: 
 reviewArchive: 

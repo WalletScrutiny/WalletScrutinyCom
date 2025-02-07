@@ -8,11 +8,11 @@ appId: com.CryptoCurrency.dev
 appCountry: us
 idd: 1339112917
 released: 2018-02-21
-updated: 2024-12-06
-version: 3.4.4
+updated: 2025-02-04
+version: 3.4.5
 stars: 4.7
-reviews: 2420
-size: '240638976'
+reviews: 2432
+size: '240671744'
 website: https://thecrypto.app
 repository: 
 issue: 
@@ -20,6 +20,7 @@ icon: com.CryptoCurrency.dev.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2021-11-01
 signer: 
 reviewArchive: 

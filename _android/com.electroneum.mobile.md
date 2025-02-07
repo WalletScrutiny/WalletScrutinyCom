@@ -20,6 +20,7 @@ icon: com.electroneum.mobile.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2020-06-08
 signer: 
 reviewArchive: 

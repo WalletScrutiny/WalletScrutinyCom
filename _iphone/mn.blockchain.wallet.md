@@ -20,6 +20,7 @@ icon: mn.blockchain.wallet.jpg
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2022-10-21
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.welthee.wallet.png
 bugbounty: 
 meta: stale
 verdict: nobtc
+appHashes: 
 date: 2024-07-17
 signer: 
 reviewArchive: 

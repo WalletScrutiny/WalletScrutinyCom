@@ -21,6 +21,7 @@ icon: org.cordova.verto.app.png
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2024-12-04
 signer: 
 reviewArchive: 

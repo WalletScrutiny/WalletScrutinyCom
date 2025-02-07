@@ -20,6 +20,7 @@ icon: co.tradehall.app.tradehall.jpg
 bugbounty: 
 meta: defunct
 verdict: nosendreceive
+appHashes: 
 date: 2023-11-02
 signer: 
 reviewArchive: 

@@ -8,11 +8,11 @@ users: 1000
 appId: com.coldstoragecoins
 appCountry: 
 released: 2018-08-14
-updated: 2024-10-01
-version: 3.11.2
-stars: 2.8
+updated: 2025-01-30
+version: 4.0.0
+stars: 2.7
 ratings: 
-reviews: 38
+reviews: 41
 size: 
 website: https://coldstoragecoins.com
 repository: 
@@ -21,6 +21,7 @@ icon: com.coldstoragecoins.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-09-06
 signer: 
 reviewArchive: 

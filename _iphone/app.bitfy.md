@@ -11,7 +11,7 @@ released: 2019-11-26
 updated: 2024-02-27
 version: 3.12.45
 stars: 3.9
-reviews: 116
+reviews: 117
 size: '56832000'
 website: https://bitfy.app
 repository: 
@@ -20,6 +20,7 @@ icon: app.bitfy.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2024-10-07
 signer: 
 reviewArchive: 

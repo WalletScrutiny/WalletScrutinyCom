@@ -20,6 +20,7 @@ icon: com.fintoda.wallet.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2021-09-04
 signer: 
 reviewArchive: 

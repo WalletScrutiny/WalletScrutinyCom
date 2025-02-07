@@ -20,6 +20,7 @@ icon: com.pqi.wallet.png
 bugbounty: 
 meta: obsolete
 verdict: fewusers
+appHashes: 
 date: 2025-01-06
 signer: 
 reviewArchive: 

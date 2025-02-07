@@ -20,6 +20,7 @@ icon: com.excdev.bitcoinox.jpg
 bugbounty: 
 meta: ok
 verdict: wip
+appHashes: 
 date: 2024-06-29
 signer: 
 reviewArchive: 

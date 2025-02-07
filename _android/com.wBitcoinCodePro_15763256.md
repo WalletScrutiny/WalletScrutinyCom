@@ -20,6 +20,7 @@ icon: com.wBitcoinCodePro_15763256.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-08-04
 signer: 
 reviewArchive: 

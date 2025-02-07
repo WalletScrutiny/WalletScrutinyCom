@@ -20,6 +20,7 @@ icon: money.snowball.app.jpg
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2023-04-15
 signer: 
 reviewArchive: 

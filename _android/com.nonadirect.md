@@ -20,6 +20,7 @@ icon: com.nonadirect.png
 bugbounty: 
 meta: obsolete
 verdict: fewusers
+appHashes: 
 date: 2024-05-10
 signer: 
 reviewArchive: 

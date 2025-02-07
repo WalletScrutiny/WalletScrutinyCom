@@ -20,6 +20,7 @@ icon: com.tomato.coinworld.png
 bugbounty: 
 meta: obsolete
 verdict: fewusers
+appHashes: 
 date: 2024-04-24
 signer: 
 reviewArchive: 

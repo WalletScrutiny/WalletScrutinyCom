@@ -21,6 +21,7 @@ icon: com.anxintl.mythology.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2023-08-07
 signer: 
 reviewArchive: 

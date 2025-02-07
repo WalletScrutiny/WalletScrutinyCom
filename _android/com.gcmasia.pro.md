@@ -21,6 +21,7 @@ icon: com.gcmasia.pro.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
+appHashes: 
 date: 2023-03-29
 signer: 
 reviewArchive: 

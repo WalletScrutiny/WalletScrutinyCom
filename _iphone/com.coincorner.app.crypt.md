@@ -11,7 +11,7 @@ released: 2014-09-22
 updated: 2024-12-11
 version: 5.0.5
 stars: 4.2
-reviews: 308
+reviews: 306
 size: '34009088'
 website: https://www.coincorner.com
 repository: 
@@ -20,6 +20,7 @@ icon: com.coincorner.app.crypt.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-10-07
 signer: 
 reviewArchive: 

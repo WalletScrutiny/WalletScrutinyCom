@@ -12,7 +12,7 @@ updated: 2024-02-29
 version: 1.3.3.10300
 stars: 4.3
 ratings: 438
-reviews: 247
+reviews: 246
 size: 
 website: https://coincircle.com
 repository: 
@@ -21,6 +21,7 @@ icon: com.coincircle.png
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2024-07-24
 signer: 
 reviewArchive: 

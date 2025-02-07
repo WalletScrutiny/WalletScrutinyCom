@@ -20,6 +20,7 @@ icon: com.g3shanappz.claimerbox.jpg
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2023-01-30
 signer: 
 reviewArchive: 

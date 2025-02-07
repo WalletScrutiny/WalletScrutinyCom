@@ -25,6 +25,7 @@ icon: stepansnigirev.stm32f769disco.diy.png
 bugbounty: 
 meta: obsolete
 verdict: diy
+appHashes: 
 date: 2022-05-20
 signer: 
 reviewArchive: 

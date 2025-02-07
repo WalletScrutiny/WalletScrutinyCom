@@ -22,6 +22,7 @@ icon: com.ccwalletapp.png
 bugbounty: 
 meta: removed
 verdict: ftbfs
+appHashes: 
 date: 2024-05-07
 signer: 
 reviewArchive: 

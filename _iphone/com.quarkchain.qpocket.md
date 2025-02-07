@@ -20,6 +20,7 @@ icon: com.quarkchain.qpocket.jpg
 bugbounty: 
 meta: obsolete
 verdict: nosource
+appHashes: 
 date: 2022-12-26
 signer: 
 reviewArchive: 

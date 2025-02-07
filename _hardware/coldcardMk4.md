@@ -28,27 +28,34 @@ icon: coldcardMk4.png
 bugbounty: 
 meta: ok
 verdict: reproducible
+appHashes:
+- 681874256bcfca71a3908f1dd6c623804517fdba99a51ed04c73b96119650c13
+- 70e375200649ee77723fd816d581fe58e47472e72e7862773658a738685d4336
 date: 2025-01-02
 signer: 
 reviewArchive:
 - date: 2024-10-01
   version: v5.4.0
-  appHash: 04114bc10eaebf4a7296823561e966bdf871bb8cbbc77617f2f0714c89ff95d5
+  appHashes:
+  - 04114bc10eaebf4a7296823561e966bdf871bb8cbbc77617f2f0714c89ff95d5
   gitRevision: d7dc11abaa3b2e7aae9321e66de7eea53a03f064
   verdict: reproducible
 - date: 2024-08-15
   version: v5.3.3
-  appHash: a694b91d546b23584a31d3f4b7b7e9795f788c4b62f4699ef48ff96d0b64eb28
+  appHashes:
+  - a694b91d546b23584a31d3f4b7b7e9795f788c4b62f4699ef48ff96d0b64eb28
   gitRevision: 8644d08aa08a2187b92322fcd6fa5184ebeba288
   verdict: reproducible
 - date: 2023-10-08
   version: v5.1.4
-  appHash: 4d83715772b31643abde3b9a0bb328003f4a31d14e2fe9c1e038077a518acaea
+  appHashes:
+  - 4d83715772b31643abde3b9a0bb328003f4a31d14e2fe9c1e038077a518acaea
   gitRevision: f7e12618fa33223fde14fce8c27c4a98833bb15c
   verdict: reproducible
 - date: 2023-06-22
   version: v5.1.2
-  appHash: 7aefd5bcce533f15337e83618ebbd42925d336792c82a5ca19a430b209b30b8a
+  appHashes:
+  - 7aefd5bcce533f15337e83618ebbd42925d336792c82a5ca19a430b209b30b8a
   gitRevision: 8c8a96cc2119fd85e4a8ffdc88ff2921c0085ed6
   verdict: reproducible
 twitter: COLDCARDwallet
@@ -121,8 +128,6 @@ Hash of the signed firmware:
 681874256bcfca71a3908f1dd6c623804517fdba99a51ed04c73b96119650c13  /tmp/firmware/releases/2024-12-18T1413-v6.3.4X-mk4-coldcard.dfu
 70e375200649ee77723fd816d581fe58e47472e72e7862773658a738685d4336  /tmp/firmware/stm32/built/firmware-signed.dfu
 ```
-
-
 
 ColdCard advertises its products as verifiable, we can confirm that firmware version: 2024-12-18T1413-v6.3.4X is **reproducible**.
 
@@ -200,3 +205,4 @@ Hash of the signed firmware:
 
 which shows this firmware is **reproducible**.
 
+>>>>>>> c5fd94bf4c89189529bbb9a0265239acf4f53f35

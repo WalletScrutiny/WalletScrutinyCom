@@ -21,6 +21,7 @@ icon: com.zenapay.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2024-07-17
 signer: 
 reviewArchive: 

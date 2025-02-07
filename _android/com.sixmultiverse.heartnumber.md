@@ -21,6 +21,7 @@ icon: com.sixmultiverse.heartnumber.png
 bugbounty: 
 meta: stale
 verdict: nobtc
+appHashes: 
 date: 2024-03-01
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.bitbarg.app.png
 bugbounty: 
 meta: ok
 verdict: nosendreceive
+appHashes: 
 date: 2023-07-07
 signer: 
 reviewArchive: 

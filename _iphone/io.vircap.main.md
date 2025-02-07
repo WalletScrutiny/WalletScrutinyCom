@@ -20,6 +20,7 @@ icon: io.vircap.main.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-08-28
 signer: 
 reviewArchive: 

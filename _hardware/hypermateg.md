@@ -27,6 +27,7 @@ icon: hypermateg.png
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2021-12-12
 signer: 
 reviewArchive: 

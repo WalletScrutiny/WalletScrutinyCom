@@ -7,8 +7,8 @@ users: 1000
 appId: me.tando.tandoapp
 appCountry: 
 released: 2024-08-21
-updated: 2025-01-03
-version: 1.1.9
+updated: 2025-01-18
+version: 1.2.0
 stars: 
 ratings: 
 reviews: 
@@ -20,6 +20,7 @@ icon: me.tando.tandoapp.png
 bugbounty: 
 meta: ok
 verdict: wip
+appHashes: 
 date: 2024-12-02
 signer: 
 reviewArchive: 

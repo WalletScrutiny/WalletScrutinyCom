@@ -22,6 +22,7 @@ icon: com.shapeshift.droid_shapeshift.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
+appHashes: []
 date: 2024-08-09
 signer: 
 reviewArchive: 

@@ -8,11 +8,11 @@ appId: vip.sing.exchange
 appCountry: us
 idd: '1551746664'
 released: 2021-03-31
-updated: 2024-12-20
-version: 4.3.15
+updated: 2025-01-17
+version: 4.3.16
 stars: 3.9
 reviews: 11
-size: '263985152'
+size: '285334528'
 website: 
 repository: 
 issue: 
@@ -20,6 +20,7 @@ icon: vip.sing.exchange.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-11-14
 signer: 
 reviewArchive: 

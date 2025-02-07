@@ -21,6 +21,7 @@ icon: com.ukcoin.wallet.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2023-06-07
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.agoradesk.app.png
 bugbounty: https://agoradesk.com/security-bounty-whitehat
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-08-17
 signer: 
 reviewArchive: 

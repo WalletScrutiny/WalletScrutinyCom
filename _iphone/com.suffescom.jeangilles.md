@@ -10,8 +10,8 @@ idd: '1642934824'
 released: 2022-09-16
 updated: 2024-11-26
 version: 1.6.0
-stars: 4.1
-reviews: 13
+stars: 3.7
+reviews: 15
 size: '16731136'
 website: 
 repository: 
@@ -20,6 +20,7 @@ icon: com.suffescom.jeangilles.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-07-18
 signer: 
 reviewArchive: 

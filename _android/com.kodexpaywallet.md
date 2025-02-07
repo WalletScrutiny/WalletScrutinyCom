@@ -18,9 +18,10 @@ repository:
 issue: 
 icon: com.kodexpaywallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
-date: 2024-06-29
+appHashes: 
+date: 2025-02-04
 signer: 
 reviewArchive: 
 twitter: 

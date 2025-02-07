@@ -21,6 +21,7 @@ icon: com.ftxmobile.ftxtr.png
 bugbounty: 
 meta: defunct
 verdict: custodial
+appHashes: 
 date: 2023-06-14
 signer: 
 reviewArchive: 

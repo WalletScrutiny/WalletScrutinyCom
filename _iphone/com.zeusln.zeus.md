@@ -8,11 +8,11 @@ appId: com.zeusln.zeus
 appCountry: 
 idd: 1456038895
 released: 2021-04-22
-updated: 2025-01-02
-version: v0.9.4
+updated: 2025-02-03
+version: v0.9.5
 stars: 4.6
-reviews: 59
-size: '113758208'
+reviews: 60
+size: '114231296'
 website: https://zeusln.com
 repository: https://github.com/ZeusLN/zeus
 issue: https://github.com/ZeusLN/zeus/issues/416
@@ -20,9 +20,15 @@ icon: com.zeusln.zeus.jpg
 bugbounty: 
 meta: ok
 verdict: nonverifiable
+appHashes: []
 date: 2023-12-30
 signer: 
-reviewArchive: 
+reviewArchive:
+- date: 2023-12-30
+  version: 0.9.3
+  appHashes: []
+  gitRevision: 6c17feb4d414efa40ea736b9d2e8d44216776893
+  verdict: nonverifiable
 twitter: ZeusLN
 social: 
 features:

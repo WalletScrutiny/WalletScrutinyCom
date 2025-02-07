@@ -8,11 +8,11 @@ appId: com.fi6441.godough
 appCountry: us
 idd: '997893151'
 released: 2015-06-02
-updated: 2024-11-05
-version: 4015.0.1
+updated: 2025-02-04
+version: 4016.0.1
 stars: 4.8
-reviews: 1501
-size: '236578816'
+reviews: 1524
+size: '232140800'
 website: https://www.signalfinancialfcu.org/
 repository: 
 issue: 
@@ -20,6 +20,7 @@ icon: com.fi6441.godough.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-08-28
 signer: 
 reviewArchive: 

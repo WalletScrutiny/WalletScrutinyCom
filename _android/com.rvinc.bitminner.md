@@ -20,6 +20,7 @@ icon: com.rvinc.bitminner.jpg
 bugbounty: 
 meta: removed
 verdict: fake
+appHashes: 
 date: 2021-11-10
 signer: 
 reviewArchive: 

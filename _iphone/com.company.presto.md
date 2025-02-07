@@ -11,7 +11,7 @@ released: 2022-11-22
 updated: 2024-09-19
 version: 2.5.5
 stars: 4.6
-reviews: 211
+reviews: 223
 size: '38290432'
 website: https://prestohq.io/
 repository: 
@@ -20,6 +20,7 @@ icon: com.company.presto.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-07-31
 signer: 
 reviewArchive: 

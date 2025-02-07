@@ -20,6 +20,7 @@ icon: com.badgermobile.png
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2023-12-19
 signer: 
 reviewArchive: 

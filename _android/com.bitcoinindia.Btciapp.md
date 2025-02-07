@@ -21,6 +21,7 @@ icon: com.bitcoinindia.Btciapp.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2021-09-25
 signer: 
 reviewArchive: 

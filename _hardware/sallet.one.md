@@ -7,7 +7,7 @@ authors:
 released: 
 discontinued: 
 updated: 
-version: 
+version: 2.0.4
 binaries: 
 dimensions:
 - 120
@@ -26,6 +26,7 @@ icon: sallet.one.png
 bugbounty: 
 meta: ok
 verdict: ftbfs
+appHashes: []
 date: 2022-08-07
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.scallop.exchange.SCLPExchange.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
+appHashes: 
 date: 2024-08-05
 signer: 
 reviewArchive: 

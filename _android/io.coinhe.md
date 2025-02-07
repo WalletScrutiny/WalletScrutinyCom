@@ -21,6 +21,7 @@ icon: io.coinhe.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2023-05-05
 signer: 
 reviewArchive: 

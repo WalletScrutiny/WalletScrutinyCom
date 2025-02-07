@@ -20,6 +20,7 @@ icon: com.hustay.swing.dce36c1f980f949668545640346500826.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-07-05
 signer: 
 reviewArchive: 

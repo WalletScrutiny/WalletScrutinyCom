@@ -1,6 +1,10 @@
 /* GENERAL STYLES */
 
-
+.highlightRow {
+  background-color: rgba(30, 170, 137, 0.2); 
+  transition: background-color 0.5s ease-in-out; 
+  border-left: 4px solid rgba(30, 170, 137, 1); 
+}
 
 body, input {
   color: var(--text)

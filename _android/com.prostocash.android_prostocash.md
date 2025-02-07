@@ -19,9 +19,10 @@ repository:
 issue: 
 icon: com.prostocash.android_prostocash.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
-date: 2023-12-01
+appHashes: 
+date: 2025-02-04
 signer: 
 reviewArchive: 
 twitter: 

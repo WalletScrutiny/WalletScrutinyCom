@@ -20,6 +20,7 @@ icon: com.qredo.ios.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-04-11
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: net.ayrem.ayrem_app.png
 bugbounty: 
 meta: stale
 verdict: nowallet
+appHashes: 
 date: 2025-01-09
 signer: 
 reviewArchive: 

@@ -8,8 +8,8 @@ users: 10000
 appId: com.ivan.fgwallet
 appCountry: 
 released: 2017-12-28
-updated: 2024-12-30
-version: 3.9.4
+updated: 2025-01-27
+version: 3.9.5
 stars: 
 ratings: 
 reviews: 
@@ -21,6 +21,7 @@ icon: com.ivan.fgwallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2024-07-17
 signer: 
 reviewArchive: 

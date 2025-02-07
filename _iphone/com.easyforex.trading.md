@@ -10,8 +10,8 @@ idd: 348823316
 released: 2010-01-05
 updated: 2024-12-06
 version: 5.2.4
-stars: 4.3
-reviews: 209
+stars: 4.4
+reviews: 210
 size: '128423936'
 website: https://www.easymarkets.com/eu/en-gb/platforms/easymarkets-mobile-app/
 repository: 
@@ -20,6 +20,7 @@ icon: com.easyforex.trading.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-10-07
 signer: 
 reviewArchive: 

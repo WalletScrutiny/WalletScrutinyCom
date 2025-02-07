@@ -20,6 +20,7 @@ icon: io.bumoon.boo.jpg
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2023-12-19
 signer: 
 reviewArchive: 

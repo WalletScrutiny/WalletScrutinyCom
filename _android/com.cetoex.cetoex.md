@@ -10,9 +10,9 @@ appCountry:
 released: 2022-08-13
 updated: 2024-09-26
 version: 1.0.0
-stars: 3.9
+stars: 4
 ratings: 
-reviews: 3
+reviews: 4
 size: 
 website: https://cetoex.com
 repository: 
@@ -21,6 +21,7 @@ icon: com.cetoex.cetoex.jpg
 bugbounty: 
 meta: ok
 verdict: nosendreceive
+appHashes: 
 date: 2024-09-08
 signer: 
 reviewArchive: 

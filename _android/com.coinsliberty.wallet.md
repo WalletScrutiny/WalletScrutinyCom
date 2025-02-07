@@ -20,6 +20,7 @@ icon: com.coinsliberty.wallet.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-04-26
 signer: 
 reviewArchive: 

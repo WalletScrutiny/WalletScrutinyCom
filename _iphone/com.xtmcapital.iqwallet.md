@@ -20,6 +20,7 @@ icon: com.xtmcapital.iqwallet.jpg
 bugbounty: 
 meta: removed
 verdict: obfuscated
+appHashes: 
 date: 2024-09-10
 signer: 
 reviewArchive: 

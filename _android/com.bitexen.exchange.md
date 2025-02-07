@@ -8,7 +8,7 @@ users: 1000000
 appId: com.bitexen.exchange
 appCountry: 
 released: 2018-05-27
-updated: 2025-01-02
+updated: 2025-01-30
 version: '1.20'
 stars: 3.7
 ratings: 8237
@@ -21,6 +21,7 @@ icon: com.bitexen.exchange.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-02-01
 signer: 
 reviewArchive: 

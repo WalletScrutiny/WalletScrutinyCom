@@ -21,6 +21,7 @@ icon: com.elyps.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2024-01-23
 signer: 
 reviewArchive: 

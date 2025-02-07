@@ -21,6 +21,7 @@ icon: com.oberton.app.png
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2024-09-06
 signer: 
 reviewArchive: 

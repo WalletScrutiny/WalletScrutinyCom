@@ -21,6 +21,7 @@ icon: com.digicox.mobile.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2023-04-22
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.defiato.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
+appHashes: 
 date: 2024-12-23
 signer: 
 reviewArchive: 

@@ -12,7 +12,7 @@ updated: 2024-12-11
 version: 1.4.65
 stars: 3.3
 ratings: 3029
-reviews: 1865
+reviews: 1871
 size: 
 website: https://www.paddle-inc.jp/
 repository: 
@@ -21,6 +21,7 @@ icon: jp.paddle_inc.bitstock.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2021-11-01
 signer: 
 reviewArchive: 

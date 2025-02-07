@@ -21,6 +21,7 @@ icon: com.cryptowallet.cryptowalletmobile.prod.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2021-11-22
 signer: 
 reviewArchive: 

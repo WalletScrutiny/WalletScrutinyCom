@@ -20,6 +20,7 @@ icon: ru.devroom.blockchain24.png
 bugbounty: 
 meta: stale
 verdict: fewusers
+appHashes: 
 date: 2024-06-23
 signer: 
 reviewArchive: 

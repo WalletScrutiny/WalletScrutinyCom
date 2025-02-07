@@ -11,7 +11,7 @@ released: 2020-11-11
 updated: 2024-10-31
 version: 2.2.286
 stars: 4.4
-reviews: 34
+reviews: 37
 size: '61305856'
 website: https://blink.sv
 repository: https://github.com/GaloyMoney/galoy-mobile
@@ -20,6 +20,7 @@ icon: io.galoy.bitcoinbeach.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-10-20
 signer: 
 reviewArchive: 

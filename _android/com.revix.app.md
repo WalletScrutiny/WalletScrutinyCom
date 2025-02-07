@@ -8,8 +8,8 @@ users: 10000
 appId: com.revix.app
 appCountry: 
 released: 2022-08-08
-updated: 2024-12-18
-version: 2.3.0
+updated: 2025-01-27
+version: 2.3.1
 stars: 
 ratings: 
 reviews: 
@@ -21,6 +21,7 @@ icon: com.revix.app.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-07-09
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.scdigital.nkabexchange.jpg
 bugbounty: 
 meta: obsolete
 verdict: nowallet
+appHashes: 
 date: 2024-10-02
 signer: 
 reviewArchive: 

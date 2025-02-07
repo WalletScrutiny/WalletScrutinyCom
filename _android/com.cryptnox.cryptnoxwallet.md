@@ -1,6 +1,6 @@
 ---
 wsId: cryptnoxCompanion
-title: Cryptnox Wallet
+title: 'Cryptnox: Your Web3 Wallet'
 altTitle: 
 authors:
 - danny
@@ -21,6 +21,7 @@ icon: com.cryptnox.cryptnoxwallet.png
 bugbounty: 
 meta: ok
 verdict: fewusers
+appHashes: 
 date: 2023-11-15
 signer: 
 reviewArchive: 

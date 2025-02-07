@@ -19,6 +19,7 @@ icon: nl.knaken.ios.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-08-24
 signer: 
 reviewArchive: 

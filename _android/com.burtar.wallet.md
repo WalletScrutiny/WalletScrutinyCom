@@ -21,6 +21,7 @@ icon: com.burtar.wallet.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2022-02-25
 signer: 
 reviewArchive: 

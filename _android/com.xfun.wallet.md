@@ -10,9 +10,9 @@ appCountry:
 released: 2022-02-08
 updated: 2024-04-24
 version: 2.0.4
-stars: 4
+stars: 3.9
 ratings: 
-reviews: 11
+reviews: 12
 size: 
 website: https://xfun.io
 repository: 
@@ -21,6 +21,7 @@ icon: com.xfun.wallet.png
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2024-07-22
 signer: 
 reviewArchive: 

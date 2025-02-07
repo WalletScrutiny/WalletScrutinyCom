@@ -21,6 +21,7 @@ icon: com.blocktrade.android.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2024-11-19
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.vouchermoney.mobilewallet.jpg
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2022-10-21
 signer: 
 reviewArchive: 

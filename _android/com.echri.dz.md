@@ -21,6 +21,7 @@ icon: com.echri.dz.png
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2023-05-23
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.evercash.mobile.client.jpg
 bugbounty: 
 meta: stale
 verdict: fewusers
+appHashes: 
 date: 2024-11-29
 signer: 
 reviewArchive: 

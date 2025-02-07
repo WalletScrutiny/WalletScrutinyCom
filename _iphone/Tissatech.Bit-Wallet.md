@@ -11,7 +11,7 @@ released: 2019-02-09
 updated: 2024-11-30
 version: 4.5.0
 stars: 4.7
-reviews: 593
+reviews: 578
 size: '2878464'
 website: 
 repository: 
@@ -20,6 +20,7 @@ icon: Tissatech.Bit-Wallet.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-08-15
 signer: 
 reviewArchive: 

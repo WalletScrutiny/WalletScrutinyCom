@@ -20,6 +20,7 @@ icon: com.conduit.app_9c7d50f83acd4d32b3338fc545c4a0e0.app.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-04-19
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: digiiblip.com.nobelhold.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2023-01-02
 signer: 
 reviewArchive: 

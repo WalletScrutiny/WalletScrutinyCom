@@ -21,6 +21,7 @@ icon: com.coinmama.android.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2023-01-30
 signer: 
 reviewArchive: 

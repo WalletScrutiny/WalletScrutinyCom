@@ -21,6 +21,7 @@ icon: com.bytetrade.bytehub.png
 bugbounty: 
 meta: removed
 verdict: nosource
+appHashes: 
 date: 2023-09-15
 signer: 
 reviewArchive: 

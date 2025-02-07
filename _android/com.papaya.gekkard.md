@@ -12,7 +12,7 @@ updated: 2024-10-14
 version: 1.1.1
 stars: 2.3
 ratings: 43
-reviews: 68
+reviews: 69
 size: 
 website: https://gekkoin.com/index.html
 repository: 
@@ -21,6 +21,7 @@ icon: com.papaya.gekkard.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-11-17
 signer: 
 reviewArchive: 

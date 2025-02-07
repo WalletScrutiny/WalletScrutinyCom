@@ -21,6 +21,7 @@ icon: africa.obiex.app.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2022-12-09
 signer: 
 reviewArchive: 

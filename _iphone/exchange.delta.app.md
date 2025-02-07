@@ -20,6 +20,7 @@ icon: exchange.delta.app.jpg
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-07-14
 signer: 
 reviewArchive: 

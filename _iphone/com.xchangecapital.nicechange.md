@@ -19,6 +19,7 @@ icon: com.xchangecapital.nicechange.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2025-01-15
 signer: 
 reviewArchive: 

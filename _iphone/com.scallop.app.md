@@ -1,6 +1,6 @@
 ---
 wsId: scallopApp
-title: Scallop
+title: E Money Network
 altTitle: 
 authors:
 - danny
@@ -8,19 +8,20 @@ appId: com.scallop.app
 appCountry: bg
 idd: '1599717690'
 released: 2021-12-10
-updated: 2023-09-04
-version: 1.2.7
+updated: 2025-02-05
+version: 1.5.3
 stars: 0
 reviews: 0
-size: '123216896'
-website: https://scallopx.com/
+size: '215512064'
+website: https://emoney.io/
 repository: 
 issue: 
 icon: com.scallop.app.jpg
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
-date: 2024-08-31
+appHashes: 
+date: 2025-01-27
 signer: 
 reviewArchive: 
 twitter: ScallopOfficial

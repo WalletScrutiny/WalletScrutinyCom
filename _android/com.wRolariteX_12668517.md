@@ -21,6 +21,7 @@ icon: com.wRolariteX_12668517.jpg
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2024-11-12
 signer: 
 reviewArchive: 

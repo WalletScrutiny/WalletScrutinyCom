@@ -21,6 +21,7 @@ icon: capital.novum.cryptohero.png
 bugbounty: 
 meta: stale
 verdict: nowallet
+appHashes: 
 date: 2024-11-12
 signer: 
 reviewArchive: 

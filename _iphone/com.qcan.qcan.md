@@ -20,6 +20,7 @@ icon: com.qcan.qcan.jpg
 bugbounty: 
 meta: stale
 verdict: nosource
+appHashes: 
 date: 2024-09-03
 signer: 
 reviewArchive: 

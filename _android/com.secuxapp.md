@@ -4,7 +4,7 @@ title: SecuX Mobile
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.secuxapp
 appCountry: 
 released: 2021-11-24
@@ -21,6 +21,7 @@ icon: com.secuxapp.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-08-24
 signer: 
 reviewArchive: 

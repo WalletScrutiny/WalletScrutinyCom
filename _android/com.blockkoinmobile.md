@@ -20,6 +20,7 @@ icon: com.blockkoinmobile.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-11-30
 signer: 
 reviewArchive: 

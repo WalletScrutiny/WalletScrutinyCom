@@ -12,7 +12,7 @@ updated: 2024-12-16
 version: 3.4.4
 stars: 4.8
 ratings: 3068
-reviews: 1942
+reviews: 1989
 size: 
 website: https://www.coinspot.com.au
 repository: 
@@ -21,6 +21,7 @@ icon: com.coinspot.app.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-09-10
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: com.mymetapay.MyMetaPay.jpg
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2023-08-15
 signer: 
 reviewArchive: 

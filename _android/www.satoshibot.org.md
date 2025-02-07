@@ -18,9 +18,10 @@ repository:
 issue: 
 icon: www.satoshibot.org.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
-date: 2024-05-10
+appHashes: 
+date: 2025-02-04
 signer: 
 reviewArchive: 
 twitter: 

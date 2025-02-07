@@ -4,7 +4,7 @@ title: Bitlifi
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.bitlifi.app
 appCountry: 
 released: 2023-05-04
@@ -21,6 +21,7 @@ icon: com.bitlifi.app.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-11-01
 signer: 
 reviewArchive: 

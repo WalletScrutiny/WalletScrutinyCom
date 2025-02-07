@@ -25,6 +25,7 @@ icon: justinmoon.bitboy.diy.png
 bugbounty: 
 meta: defunct
 verdict: nobtc
+appHashes: 
 date: 2022-05-26
 signer: 
 reviewArchive: 

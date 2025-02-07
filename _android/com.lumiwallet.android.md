@@ -12,7 +12,7 @@ updated: 2023-07-11
 version: 4.1.6
 stars: 3.8
 ratings: 6388
-reviews: 255
+reviews: 254
 size: 
 website: https://lumiwallet.com
 repository: 
@@ -21,6 +21,7 @@ icon: com.lumiwallet.android.png
 bugbounty: 
 meta: stale
 verdict: nosource
+appHashes: 
 date: 2024-07-05
 signer: 
 reviewArchive: 

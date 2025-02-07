@@ -12,7 +12,7 @@ updated: 2023-11-20
 version: '1.2'
 stars: 2
 ratings: 
-reviews: 22
+reviews: 23
 size: 
 website: https://mypatricia.co
 repository: 
@@ -21,6 +21,7 @@ icon: com.patriciauniverse.png
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-11-15
 signer: 
 reviewArchive: 

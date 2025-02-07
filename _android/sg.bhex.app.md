@@ -20,6 +20,7 @@ icon: sg.bhex.app.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-07-05
 signer: 
 reviewArchive: 

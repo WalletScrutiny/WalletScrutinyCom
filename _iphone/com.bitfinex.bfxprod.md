@@ -11,7 +11,7 @@ released: 2019-01-25
 updated: 2024-10-03
 version: 7.2.0
 stars: 4
-reviews: 158
+reviews: 159
 size: '72863744'
 website: https://www.bitfinex.com/mobile-trading/
 repository: 
@@ -20,6 +20,7 @@ icon: com.bitfinex.bfxprod.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-05-31
 signer: 
 reviewArchive: 

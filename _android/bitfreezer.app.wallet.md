@@ -22,6 +22,7 @@ icon: bitfreezer.app.wallet.png
 bugbounty: 
 meta: removed
 verdict: nosource
+appHashes: 
 date: 2021-08-11
 signer: 
 reviewArchive: 

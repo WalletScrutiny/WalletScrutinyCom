@@ -8,11 +8,11 @@ appId: com.bitunix.ios-
 appCountry: us
 idd: '6446243957'
 released: 2023-04-11
-updated: 2024-12-22
-version: 2.7.0
+updated: 2025-01-15
+version: 2.8.0
 stars: 4.5
-reviews: 209
-size: '178405376'
+reviews: 205
+size: '180081664'
 website: 
 repository: 
 issue: 
@@ -20,6 +20,7 @@ icon: com.bitunix.ios-.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-09-06
 signer: 
 reviewArchive: 

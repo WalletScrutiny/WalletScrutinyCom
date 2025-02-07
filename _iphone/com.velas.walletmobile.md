@@ -22,6 +22,7 @@ icon: com.velas.walletmobile.jpg
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2024-04-18
 signer: 
 reviewArchive: 

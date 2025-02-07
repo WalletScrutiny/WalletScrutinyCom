@@ -20,6 +20,7 @@ icon: ai.blockbank.blockbankv2.jpg
 bugbounty: 
 meta: defunct
 verdict: nosource
+appHashes: 
 date: 2023-06-21
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.antareswallet.app.jpg
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2021-11-08
 signer: 
 reviewArchive: 

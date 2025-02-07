@@ -20,6 +20,7 @@ icon: io.monabit.app.jpg
 bugbounty: 
 meta: stale
 verdict: nosource
+appHashes: 
 date: 2024-11-19
 signer: 
 reviewArchive: 

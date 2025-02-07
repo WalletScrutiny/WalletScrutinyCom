@@ -1,6 +1,6 @@
 ---
 wsId: bacoorhbwallet
-title: Ethereum Wallet - HB Wallet
+title: 'HB Wallet: BTC, ETH, SOL, BASE'
 altTitle: 
 authors:
 - danny
@@ -8,19 +8,20 @@ appId: co.bacoor.ios.hbwallet
 appCountry: us
 idd: 1273639572
 released: 2017-08-23
-updated: 2022-04-08
-version: 3.6.0
+updated: 2025-01-18
+version: 4.4.0
 stars: 4.6
-reviews: 355
-size: '81591296'
-website: https://www.bacoor.io
+reviews: 359
+size: '38063104'
+website: https://hbwallet.app
 repository: 
 issue: 
 icon: co.bacoor.ios.hbwallet.jpg
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: nobtc
-date: 2024-03-30
+appHashes: 
+date: 2025-01-27
 signer: 
 reviewArchive: 
 twitter: HBWallet_Ether

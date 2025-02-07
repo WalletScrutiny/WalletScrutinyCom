@@ -19,9 +19,10 @@ repository:
 issue: 
 icon: com.fatbtc.App.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
-date: 2024-02-12
+appHashes: 
+date: 2025-02-05
 signer: 
 reviewArchive: 
 twitter: fatbtc

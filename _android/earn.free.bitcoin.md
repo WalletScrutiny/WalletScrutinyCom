@@ -12,7 +12,7 @@ updated: 2024-02-26
 version: '1.9'
 stars: 4.5
 ratings: 
-reviews: 4187
+reviews: 4204
 size: 
 website: http://freebitcoinapp.net/
 repository: 
@@ -21,6 +21,7 @@ icon: earn.free.bitcoin.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2024-09-06
 signer: 
 reviewArchive: 

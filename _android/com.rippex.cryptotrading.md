@@ -21,6 +21,7 @@ icon: com.rippex.cryptotrading.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2022-02-25
 signer: 
 reviewArchive: 

@@ -20,6 +20,7 @@ icon: kr.co.a131t.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-02-05
 signer: 
 reviewArchive: 

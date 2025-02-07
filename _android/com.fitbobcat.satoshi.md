@@ -20,6 +20,7 @@ icon: com.fitbobcat.satoshi.png
 bugbounty: 
 meta: removed
 verdict: nobtc
+appHashes: 
 date: 2021-06-08
 signer: 
 reviewArchive: 

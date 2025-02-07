@@ -21,6 +21,7 @@ icon: com.abl.vibra.png
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-06-23
 signer: 
 reviewArchive: 

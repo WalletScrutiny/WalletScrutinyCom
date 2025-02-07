@@ -20,6 +20,7 @@ icon: com.bitmove.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-04-19
 signer: 
 reviewArchive: 

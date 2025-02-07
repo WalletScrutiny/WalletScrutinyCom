@@ -22,6 +22,7 @@ icon: arcbtc.baby.bowser.png
 bugbounty: 
 meta: ok
 verdict: diy
+appHashes: 
 date: 2023-02-14
 signer: 
 reviewArchive: 

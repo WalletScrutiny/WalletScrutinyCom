@@ -20,6 +20,7 @@ icon: com.tent.app.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-11-07
 signer: 
 reviewArchive: 

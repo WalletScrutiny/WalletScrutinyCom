@@ -20,6 +20,7 @@ icon: com.hashwalletmanager.jpg
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2024-01-09
 signer: 
 reviewArchive: 

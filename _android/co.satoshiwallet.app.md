@@ -20,6 +20,7 @@ icon: co.satoshiwallet.app.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2022-03-07
 signer: 
 reviewArchive: 

@@ -10,8 +10,8 @@ users: 50000
 appId: one.mixin.messenger
 appCountry: us
 released: 2018-05-24
-updated: 2025-01-11
-version: 2.1.4
+updated: 2025-01-26
+version: 2.2.0
 stars: 4.4
 ratings: 1252
 reviews: 149
@@ -23,12 +23,13 @@ icon: one.mixin.messenger.png
 bugbounty: 
 meta: ok
 verdict: ftbfs
+appHashes: []
 date: 2024-09-19
 signer: 
 reviewArchive:
 - date: 2021-10-18
   version: 0.32.6
-  appHash: 
+  appHashes: []
   gitRevision: 7145041114617ce3cbf596302a4fa7deb1a5df74
   verdict: ftbfs
 twitter: MixinMessenger

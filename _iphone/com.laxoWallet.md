@@ -20,6 +20,7 @@ icon: com.laxoWallet.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2023-09-28
 signer: 
 reviewArchive: 

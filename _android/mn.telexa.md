@@ -21,6 +21,7 @@ icon: mn.telexa.png
 bugbounty: 
 meta: stale
 verdict: nowallet
+appHashes: 
 date: 2024-09-02
 signer: 
 reviewArchive: 

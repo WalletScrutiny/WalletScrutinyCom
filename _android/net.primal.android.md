@@ -10,9 +10,9 @@ appCountry:
 released: 2024-07-09
 updated: 2025-01-07
 version: 2.0.36
-stars: 4.1
+stars: 4
 ratings: 
-reviews: 9
+reviews: 11
 size: 
 website: https://www.primal.net
 repository: 
@@ -21,6 +21,7 @@ icon: net.primal.android.png
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-03-02
 signer: 
 reviewArchive: 

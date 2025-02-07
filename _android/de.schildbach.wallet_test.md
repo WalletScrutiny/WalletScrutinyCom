@@ -8,8 +8,8 @@ users: 50000
 appId: de.schildbach.wallet_test
 appCountry: 
 released: 2011-07-10
-updated: 2024-12-14
-version: '10.21'
+updated: 2025-01-28
+version: '10.24'
 stars: 4.4
 ratings: 390
 reviews: 30
@@ -21,6 +21,7 @@ icon: de.schildbach.wallet_test.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2021-10-16
 signer: 
 reviewArchive: 

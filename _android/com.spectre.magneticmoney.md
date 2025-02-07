@@ -21,6 +21,7 @@ icon: com.spectre.magneticmoney.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2024-08-31
 signer: 
 reviewArchive: 

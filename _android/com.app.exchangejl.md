@@ -21,6 +21,7 @@ icon: com.app.exchangejl.jpg
 bugbounty: 
 meta: defunct
 verdict: wip
+appHashes: 
 date: 2023-08-30
 signer: 
 reviewArchive: 

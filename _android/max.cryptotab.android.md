@@ -8,11 +8,11 @@ users: 1000000
 appId: max.cryptotab.android
 appCountry: 
 released: 2021-11-09
-updated: 2024-12-17
-version: 7.2.21
-stars: 4
+updated: 2025-01-17
+version: 7.2.23
+stars: 4.1
 ratings: 
-reviews: 1217
+reviews: 1258
 size: 
 website: https://cryptocompany.site/
 repository: 
@@ -21,6 +21,7 @@ icon: max.cryptotab.android.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-01-31
 signer: 
 reviewArchive: 

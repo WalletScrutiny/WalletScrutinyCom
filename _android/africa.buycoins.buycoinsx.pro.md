@@ -21,6 +21,7 @@ icon: africa.buycoins.buycoinsx.pro.png
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-09-14
 signer: 
 reviewArchive: 

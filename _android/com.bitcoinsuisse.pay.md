@@ -20,6 +20,7 @@ icon: com.bitcoinsuisse.pay.png
 bugbounty: 
 meta: stale
 verdict: wip
+appHashes: 
 date: 2024-05-30
 signer: 
 reviewArchive: 

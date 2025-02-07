@@ -20,6 +20,7 @@ icon: xeliuqa.com.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-10-23
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: network.bho.wallet.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2023-07-19
 signer: 
 reviewArchive: 

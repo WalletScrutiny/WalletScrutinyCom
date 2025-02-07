@@ -8,24 +8,30 @@ appId: com.fotolockr.cakewallet
 appCountry: 
 idd: 1334702542
 released: 2018-01-19
-updated: 2025-01-08
-version: 4.22.1
+updated: 2025-02-01
+version: 4.23.0
 stars: 4.7
-reviews: 2456
-size: '158730240'
+reviews: 2545
+size: '176223232'
 website: https://cakewallet.com
 repository: https://github.com/cake-tech/cake_wallet
 issue: https://github.com/cake-tech/cake_wallet/issues/337
 icon: com.fotolockr.cakewallet.jpg
 bugbounty: 
 meta: ok
-verdict: ftbfs
+verdict: nonverifiable
+appHashes: []
 date: 2022-11-02
 signer: 
 reviewArchive:
+- date: 2022-11-02
+  version: 4.21.2
+  appHashes: []
+  gitRevision: c5fd94bf4c89189529bbb9a0265239acf4f53f35
+  verdict: ftbfs
 - date: 2021-04-14
   version: 4.1.4
-  appHash: 
+  appHashes: []
   gitRevision: 3f57101209712caf0bf7dae6466ce81d29359fca
   verdict: nonverifiable
 twitter: cakewallet
@@ -36,6 +42,8 @@ features:
 developerName: Cake Technologies, LLC
 
 ---
+
+**Note:** iPhone products are **not verifiable**.
 
 **Update  2022-11-02**: Apparently this product fails to build from source. The
 relatively old

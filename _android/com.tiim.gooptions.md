@@ -21,6 +21,7 @@ icon: com.tiim.gooptions.png
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2024-10-08
 signer: 
 reviewArchive: 

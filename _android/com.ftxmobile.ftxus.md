@@ -21,6 +21,7 @@ icon: com.ftxmobile.ftxus.png
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2023-03-21
 signer: 
 reviewArchive: 

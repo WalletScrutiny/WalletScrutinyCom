@@ -21,6 +21,7 @@ icon: com.bmdf.lemonbitcoinfaucet.png
 bugbounty: 
 meta: ok
 verdict: nowallet
+appHashes: 
 date: 2023-07-21
 signer: 
 reviewArchive: 

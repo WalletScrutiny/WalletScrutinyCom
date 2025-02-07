@@ -20,6 +20,7 @@ icon: com.b4uwallet.ioswallet.jpg
 bugbounty: 
 meta: removed
 verdict: custodial
+appHashes: 
 date: 2022-04-25
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.vdcloud.cforcoins.png
 bugbounty: 
 meta: defunct
 verdict: custodial
+appHashes: 
 date: 2023-04-12
 signer: 
 reviewArchive: 

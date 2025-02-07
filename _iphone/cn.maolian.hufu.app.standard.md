@@ -20,6 +20,7 @@ icon: cn.maolian.hufu.app.standard.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
+appHashes: 
 date: 2024-10-08
 signer: 
 reviewArchive: 

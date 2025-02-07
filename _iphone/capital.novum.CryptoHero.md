@@ -11,7 +11,7 @@ released: 2019-12-18
 updated: 2023-11-06
 version: 2.2.1
 stars: 3.8
-reviews: 24
+reviews: 26
 size: '92114944'
 website: https://www.cryptohero.ai
 repository: 
@@ -20,6 +20,7 @@ icon: capital.novum.CryptoHero.jpg
 bugbounty: 
 meta: stale
 verdict: nowallet
+appHashes: 
 date: 2024-11-04
 signer: 
 reviewArchive: 

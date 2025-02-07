@@ -20,6 +20,7 @@ icon: com.blcGb.mobile.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2024-11-21
 signer: 
 reviewArchive: 

@@ -12,7 +12,7 @@ updated: 2024-11-09
 version: 4.1.5 'Exolix'
 stars: 3.2
 ratings: 821
-reviews: 179
+reviews: 180
 size: 
 website: https://monerujo.io/
 repository: 
@@ -21,6 +21,7 @@ icon: com.m2049r.xmrwallet.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2021-02-27
 signer: 
 reviewArchive: 

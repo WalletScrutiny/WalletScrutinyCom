@@ -20,6 +20,7 @@ icon: com.arbismart.hotwallets.jpg
 bugbounty: 
 meta: stale
 verdict: custodial
+appHashes: 
 date: 2024-05-08
 signer: 
 reviewArchive: 

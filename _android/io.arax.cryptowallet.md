@@ -20,6 +20,7 @@ icon: io.arax.cryptowallet.jpg
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2023-04-15
 signer: 
 reviewArchive: 

@@ -19,9 +19,10 @@ repository:
 issue: 
 icon: com.coinzix.android.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
-date: 2024-05-30
+appHashes: 
+date: 2025-02-04
 signer: 
 reviewArchive: 
 twitter: coinzixcom

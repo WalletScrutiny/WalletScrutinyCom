@@ -19,9 +19,10 @@ repository:
 issue: 
 icon: com.vynksafe.app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
-date: 2023-08-15
+appHashes: 
+date: 2025-02-01
 signer: 
 reviewArchive: 
 twitter: vynkgroup

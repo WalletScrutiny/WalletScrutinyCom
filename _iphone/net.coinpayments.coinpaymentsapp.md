@@ -20,6 +20,7 @@ icon: net.coinpayments.coinpaymentsapp.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2021-05-25
 signer: 
 reviewArchive: 

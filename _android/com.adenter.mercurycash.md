@@ -21,6 +21,7 @@ icon: com.adenter.mercurycash.png
 bugbounty: 
 meta: obsolete
 verdict: custodial
+appHashes: 
 date: 2024-08-26
 signer: 
 reviewArchive: 

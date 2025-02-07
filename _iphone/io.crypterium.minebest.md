@@ -20,6 +20,7 @@ icon: io.crypterium.minebest.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2024-04-28
 signer: 
 reviewArchive: 

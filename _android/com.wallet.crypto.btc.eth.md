@@ -4,15 +4,15 @@ title: 'IronWallet: Cold Crypto Wallet'
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.wallet.crypto.btc.eth
 appCountry: 
 released: 2023-09-06
-updated: 2024-12-28
-version: 1.4.5
-stars: 4.5
+updated: 2025-01-24
+version: 1.5.0
+stars: 4.4
 ratings: 
-reviews: 30
+reviews: 34
 size: 
 website: https://ironwallet.io/
 repository: https://github.com/Ironwallet/IronWallet
@@ -21,6 +21,7 @@ icon: com.wallet.crypto.btc.eth.png
 bugbounty: 
 meta: ok
 verdict: nosource
+appHashes: 
 date: 2024-09-02
 signer: 
 reviewArchive: 

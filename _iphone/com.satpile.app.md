@@ -20,6 +20,7 @@ icon: com.satpile.app.jpg
 bugbounty: 
 meta: obsolete
 verdict: nowallet
+appHashes: 
 date: 2024-12-15
 signer: 
 reviewArchive: 

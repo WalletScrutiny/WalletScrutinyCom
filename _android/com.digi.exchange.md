@@ -21,6 +21,7 @@ icon: com.digi.exchange.jpg
 bugbounty: 
 meta: removed
 verdict: nowallet
+appHashes: 
 date: 2024-09-08
 signer: 
 reviewArchive: 

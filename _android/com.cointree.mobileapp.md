@@ -21,6 +21,7 @@ icon: com.cointree.mobileapp.png
 bugbounty: https://www.cointree.com/company/bug-bounty
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-09-06
 signer: 
 reviewArchive: 

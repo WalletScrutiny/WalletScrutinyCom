@@ -12,7 +12,7 @@ updated: 2024-10-23
 version: '4'
 stars: 2.8
 ratings: 
-reviews: 48
+reviews: 
 size: 
 website: https://swapitway.com
 repository: 
@@ -21,6 +21,7 @@ icon: swapitway.trade.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-09-10
 signer: 
 reviewArchive: 

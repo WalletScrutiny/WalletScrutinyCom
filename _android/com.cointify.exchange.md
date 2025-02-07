@@ -20,6 +20,7 @@ icon: com.cointify.exchange.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2023-05-30
 signer: 
 reviewArchive: 

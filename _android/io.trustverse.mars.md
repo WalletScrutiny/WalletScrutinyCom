@@ -21,6 +21,7 @@ icon: io.trustverse.mars.jpg
 bugbounty: 
 meta: obsolete
 verdict: nosource
+appHashes: 
 date: 2024-11-12
 signer: 
 reviewArchive: 

@@ -21,6 +21,7 @@ icon: com.circle.invest.png
 bugbounty: 
 meta: removed
 verdict: nosendreceive
+appHashes: 
 date: 2024-09-16
 signer: 
 reviewArchive: 

@@ -4,7 +4,7 @@ title: Bull Bitcoin (Beta)
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.bullbitcoin.mobile
 appCountry: 
 released: 2023-10-31
@@ -21,12 +21,13 @@ icon: com.bullbitcoin.mobile.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
+appHashes: []
 date: 2025-01-13
 signer: 
 reviewArchive:
 - date: 2023-07-05
   version: 0.3.2
-  appHash: 
+  appHashes: []
   gitRevision: 3fadfe82d841cefe9dabe322d1422f8404c98484
   verdict: nonverifiable
 twitter: bullbitcoin_

@@ -21,14 +21,15 @@ repository:
 issue: 
 icon: com.velas.mobile_wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
-date: 2023-10-31
+appHashes: []
+date: 2025-01-27
 signer: 
 reviewArchive:
 - date: 2022-03-11
   version: 2.2.7
-  appHash: 
+  appHashes: []
   gitRevision: 
   verdict: nonverifiable
 twitter: velasblockchain

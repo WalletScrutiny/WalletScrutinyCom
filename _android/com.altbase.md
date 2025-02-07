@@ -21,6 +21,7 @@ icon: com.altbase.png
 bugbounty: 
 meta: defunct
 verdict: nobtc
+appHashes: 
 date: 2023-08-24
 signer: 
 reviewArchive: 

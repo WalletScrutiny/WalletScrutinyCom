@@ -20,6 +20,7 @@ icon: com.molnike.crypto.simplesign.png
 bugbounty: 
 meta: stale
 verdict: fewusers
+appHashes: 
 date: 2024-03-07
 signer: 
 reviewArchive: 

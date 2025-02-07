@@ -21,6 +21,7 @@ icon: com.evraon.trading.png
 bugbounty: 
 meta: obsolete
 verdict: nowallet
+appHashes: 
 date: 2024-11-29
 signer: 
 reviewArchive: 

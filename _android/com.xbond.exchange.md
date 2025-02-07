@@ -20,6 +20,7 @@ icon: com.xbond.exchange.png
 bugbounty: 
 meta: removed
 verdict: fewusers
+appHashes: 
 date: 2021-08-26
 signer: 
 reviewArchive: 

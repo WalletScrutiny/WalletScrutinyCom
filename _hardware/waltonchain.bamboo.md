@@ -25,6 +25,7 @@ icon: waltonchain.bamboo.png
 bugbounty: 
 meta: obsolete
 verdict: vapor
+appHashes: 
 date: 2022-12-07
 signer: 
 reviewArchive: 

@@ -8,8 +8,8 @@ users: 10000
 appId: com.npbfx.app
 appCountry: 
 released: 2022-05-04
-updated: 2022-12-05
-version: 1.3.9
+updated: 2024-10-23
+version: 1.3.11
 stars: 
 ratings: 
 reviews: 
@@ -19,9 +19,10 @@ repository:
 issue: 
 icon: com.npbfx.app.jpg
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: nosendreceive
-date: 2024-11-25
+appHashes: 
+date: 2025-02-05
 signer: 
 reviewArchive: 
 twitter: 

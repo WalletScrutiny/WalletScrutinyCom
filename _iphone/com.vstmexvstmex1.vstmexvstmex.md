@@ -20,6 +20,7 @@ icon: com.vstmexvstmex1.vstmexvstmex.jpg
 bugbounty: 
 meta: defunct
 verdict: custodial
+appHashes: 
 date: 2023-04-12
 signer: 
 reviewArchive: 

@@ -19,9 +19,10 @@ repository:
 issue: 
 icon: com.club.sbgame.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nobtc
-date: 2024-03-30
+appHashes: 
+date: 2025-02-04
 signer: 
 reviewArchive: 
 twitter: sbg_global

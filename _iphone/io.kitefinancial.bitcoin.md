@@ -20,6 +20,7 @@ icon: io.kitefinancial.bitcoin.jpg
 bugbounty: 
 meta: obsolete
 verdict: custodial
+appHashes: 
 date: 2024-09-24
 signer: 
 reviewArchive: 

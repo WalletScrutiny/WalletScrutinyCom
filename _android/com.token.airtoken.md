@@ -21,6 +21,7 @@ icon: com.token.airtoken.png
 bugbounty: 
 meta: removed
 verdict: wip
+appHashes: 
 date: 2023-06-03
 signer: 
 reviewArchive: 

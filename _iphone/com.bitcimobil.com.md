@@ -10,8 +10,8 @@ idd: '1459044769'
 released: 2019-04-17
 updated: 2024-07-22
 version: 5.0.6
-stars: 4
-reviews: 1466
+stars: 3.9
+reviews: 1407
 size: '150322176'
 website: https://www.bitci.com.tr/
 repository: 
@@ -20,6 +20,7 @@ icon: com.bitcimobil.com.jpg
 bugbounty: 
 meta: ok
 verdict: custodial
+appHashes: 
 date: 2023-01-21
 signer: 
 reviewArchive: 

@@ -25,6 +25,7 @@ icon: zeokku.teensy2.diy.png
 bugbounty: 
 meta: ok
 verdict: diy
+appHashes: 
 date: 2022-05-21
 signer: 
 reviewArchive: 

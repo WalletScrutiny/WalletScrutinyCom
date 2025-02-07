@@ -20,6 +20,7 @@ icon: org.p2p.cyber.jpg
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2023-05-06
 signer: 
 reviewArchive: 

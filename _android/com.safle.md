@@ -8,8 +8,8 @@ users: 100000
 appId: com.safle
 appCountry: 
 released: 2022-08-07
-updated: 2025-01-07
-version: 1.6.5
+updated: 2025-01-30
+version: 1.6.6
 stars: 4.8
 ratings: 
 reviews: 14
@@ -21,6 +21,7 @@ icon: com.safle.png
 bugbounty: 
 meta: ok
 verdict: nobtc
+appHashes: 
 date: 2023-07-30
 signer: 
 reviewArchive: 
