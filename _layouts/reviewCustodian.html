@@ -117,7 +117,7 @@ layout: default
             <div class="ceo-card">
               <div class="ceo-photo">
                 {% if ceo.photo %}
-                  <img src="{{ ceo.photo | absolute_url }}" alt="CEO Photo">
+                  <img src="{{ ceo.photo | relative_url }}" alt="CEO Photo">
                 {% else %}
                   <i class="fas fa-user"></i>
                 {% endif %}

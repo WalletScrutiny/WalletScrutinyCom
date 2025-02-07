@@ -16,7 +16,7 @@ custodian:
       position: "Co-CEO"
       tenure: "2022-present"
       nationality: "American"
-      photo: "images/wIcons/custodians/leadership/kraken-david-ripley.png"
+      photo: "/images/wIcons/custodians/leadership/kraken-david-ripley.png"
       social:
         twitter: "https://x.com/DavidLRipley"
         linkedin: "https://www.linkedin.com/in/davidripley/"
