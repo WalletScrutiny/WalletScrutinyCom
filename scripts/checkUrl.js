@@ -6,7 +6,7 @@ const facebookChecker = require("./socialchecker/facebookChecker");
 const instagramChecker = require("./socialchecker/instagramChecker");
 const twitterChecker = require("./socialchecker/twitterChecker");
 const githubChecker = require("./socialchecker/githubChecker");
-const linkedinChecker = require("./socialchecker/linkediinChecker");
+const linkedinChecker = require("./socialchecker/linkedinChecker");
 const youtubeChecker = require("./socialchecker/youtubeChecker");
 const archiveChecker = require("./socialchecker/archiveChecker");
 
@@ -63,35 +63,82 @@ async function updateFile(file, oldUrl, newUrl, type = "website") {
 
 async function getAllUrls(directories) {
     const allUrls = [];
+    const skippedFiles = [];
+
+    console.log(`Starting to process ${directories.length} directories...`);
+
     for (const dir of directories) {
         try {
+            console.log(`\nProcessing directory: ${dir}`);
             const files = await fs.readdir(dir);
+            console.log(`Found ${files.length} files in ${dir}`);
+
             for (const file of files.filter(f => f.endsWith(".md"))) {
+                console.log(`\nReading file: ${file}`);
                 const content = await fs.readFile(path.join(dir, file), "utf8");
                 const match = content.match(/---\n(.*?\n)---/s);
+                
                 if (match) {
                     try {
                         const frontMatter = yaml.load(match[1]);
                         const filePath = path.join(dir, file);
                         
+                        console.log(`YAML loaded for ${file}`);
+                        const meta = frontMatter.meta || '';
+                        const hasSkipMeta = ['defunct', 'removed', 'obsolete'].some(tag => 
+                            meta.toLowerCase().includes(tag)
+                        );
+
+                        // Process website URL
                         if (frontMatter.website) {
-                            allUrls.push({
-                                file: filePath,
-                                url: frontMatter.website,
-                                type: "website"
-                            });
+                            const url = frontMatter.website;
+                            console.log(`Found website URL: ${url}`);
+                            
+                            // Only skip if both conditions are met:
+                            // 1. Has skip meta tag
+                            // 2. URL is already archived or broken
+                            const isArchived = url.includes('web.archive.org/web/');
+                            const isBroken = url.includes('walletscrutiny.com/brokenlink/');
+                            
+                            if (hasSkipMeta && (isArchived || isBroken)) {
+                                console.log(`Skipping ${file} - meta: ${meta}, URL is ${isArchived ? 'archived' : 'broken'}`);
+                                skippedFiles.push({
+                                    file: filePath,
+                                    meta: meta,
+                                    url: url
+                                });
+                            } else {
+                                allUrls.push({
+                                    file: filePath,
+                                    url: url,
+                                    type: "website"
+                                });
+                            }
                         }
-                        if (frontMatter.social) {
-                            // Filter social URLs to only include ones we can check
+
+                        // Process social URLs with same logic
+                        if (frontMatter.social && Array.isArray(frontMatter.social)) {
+                            console.log(`Found ${frontMatter.social.length} social URLs`);
                             frontMatter.social.forEach(url => {
-                                // Check if we have a checker for this URL before adding it
                                 const checker = getSocialChecker(url);
                                 if (checker) {
-                                    allUrls.push({
-                                        file: filePath,
-                                        url: url,
-                                        type: "social"
-                                    });
+                                    const isArchived = url.includes('web.archive.org/web/');
+                                    const isBroken = url.includes('walletscrutiny.com/brokenlink/');
+                                    
+                                    if (hasSkipMeta && (isArchived || isBroken)) {
+                                        console.log(`Skipping social URL ${url} - meta: ${meta}`);
+                                        skippedFiles.push({
+                                            file: filePath,
+                                            meta: meta,
+                                            url: url
+                                        });
+                                    } else {
+                                        allUrls.push({
+                                            file: filePath,
+                                            url: url,
+                                            type: "social"
+                                        });
+                                    }
                                 } else {
                                     console.log(`Skipping unsupported social URL: ${url}`);
                                 }
@@ -99,6 +146,7 @@ async function getAllUrls(directories) {
                         }
                     } catch (yamlError) {
                         console.error(`YAML parsing error in ${file}:`, yamlError);
+                        console.error('YAML content:', match[1]);
                     }
                 }
             }
@@ -106,9 +154,24 @@ async function getAllUrls(directories) {
             console.error(`Error processing directory ${dir}:`, error);
         }
     }
+
+    // Summary logging
+    console.log('\n=== Processing Summary ===');
+    console.log(`Total URLs found: ${allUrls.length}`);
+    console.log(`  - Website URLs: ${allUrls.filter(u => u.type === 'website').length}`);
+    console.log(`  - Social URLs: ${allUrls.filter(u => u.type === 'social').length}`);
+    console.log(`URLs skipped (archived/broken + meta tags): ${skippedFiles.length}`);
+
+    if (skippedFiles.length > 0) {
+        console.log('\n=== Skipped URLs ===');
+        skippedFiles.forEach(({file, meta, url}) => {
+            console.log(`${file} (meta: ${meta})`);
+            console.log(`  URL: ${url}`);
+        });
+    }
+
     return allUrls;
 }
-
 
 function getUrlType(url) {
     try {

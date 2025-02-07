@@ -1,9 +1,5 @@
 const https = require('https');
-
-const REQUEST_TIMEOUT = 10000;
-const GLOBAL_TIMEOUT = 15000;
-const MAX_RETRIES = 2;
-const RETRY_DELAY = 1000;
+const config = require('./config');
 
 const ERROR_PATTERNS = [
     '<title>Not Found',
@@ -34,18 +30,13 @@ class GitHubChecker {
             const timeoutId = setTimeout(() => {
                 if (req) req.destroy();
                 resolve({ isAvailable: true, statusCode: -1 });
-            }, GLOBAL_TIMEOUT);
+            }, config.TIMEOUTS.GLOBAL);
 
             try {
                 req = https.request(url, {
                     method: 'GET',
-                    timeout: REQUEST_TIMEOUT,
-                    headers: { 
-                        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0',
-                        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9',
-                        'Accept-Language': 'en-US,en;q=0.9',
-                        'Cache-Control': 'no-cache'
-                    },
+                    timeout: config.TIMEOUTS.REQUEST,
+                    headers: config.getHeaders(),
                     followRedirect: true
                 }, (res) => {
                     let body = '';
@@ -56,12 +47,6 @@ class GitHubChecker {
                         const isErrorRedirect = location.includes('/404') || 
                                               location.includes('/500');
                         resolve({ isAvailable: !isErrorRedirect, statusCode: res.statusCode });
-                        return;
-                    }
-
-                    if (res.statusCode === 429) {
-                        clearTimeout(timeoutId);
-                        resolve({ isAvailable: true, statusCode: res.statusCode });
                         return;
                     }
 
@@ -77,16 +62,8 @@ class GitHubChecker {
                             return;
                         }
 
-                        if (res.statusCode === 200) {
-                            resolve({ 
-                                isAvailable: !hasErrorPattern,
-                                statusCode: res.statusCode 
-                            });
-                            return;
-                        }
-
                         resolve({ 
-                            isAvailable: true,
+                            isAvailable: !hasErrorPattern,
                             statusCode: res.statusCode 
                         });
                     });
@@ -95,8 +72,8 @@ class GitHubChecker {
                 req.on('error', async (error) => {
                     clearTimeout(timeoutId);
                     console.error(`Error checking ${url}: ${error.message}`);
-                    if (retries < MAX_RETRIES) {
-                        await new Promise(resolve => setTimeout(resolve, RETRY_DELAY));
+                    if (retries < config.LIMITS.MAX_RETRIES) {
+                        await new Promise(resolve => setTimeout(resolve, config.TIMEOUTS.RETRY_DELAY));
                         const result = await this.makeRequest(url, retries + 1);
                         resolve(result);
                     } else {

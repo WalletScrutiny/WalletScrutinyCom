@@ -1,9 +1,5 @@
 const https = require('https');
-
-const REQUEST_TIMEOUT = 10000;
-const GLOBAL_TIMEOUT = 15000;
-const MAX_RETRIES = 2;
-const RETRY_DELAY = 1000;
+const config = require('./config');
 
 class InstagramChecker {
     static ERROR_PATTERNS = [
@@ -31,12 +27,8 @@ class InstagramChecker {
         return new Promise((resolve) => {
             const req = https.request(url, {
                 method: 'GET',
-                timeout: REQUEST_TIMEOUT,
-                headers: {
-                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0',
-                    'Accept-Language': 'en-US,en;q=0.9',
-                    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
-                },
+                timeout: config.TIMEOUTS.REQUEST,
+                headers: config.getHeaders(),
                 followRedirect: true
             }, (res) => {
                 let body = '';
@@ -46,7 +38,6 @@ class InstagramChecker {
                 });
 
                 res.on('end', () => {
-                    // Check for error patterns in the response body
                     const hasErrorPattern = this.ERROR_PATTERNS.some(pattern => 
                         body.includes(pattern)
                     );
@@ -56,21 +47,19 @@ class InstagramChecker {
                         return;
                     }
 
-                    // If we got a successful response and no error patterns
                     if (res.statusCode === 200 || [301, 302, 307, 308].includes(res.statusCode)) {
                         resolve({ isAvailable: true, statusCode: res.statusCode });
                         return;
                     }
 
-                    // Handle error status codes
                     resolve({ isAvailable: false, statusCode: res.statusCode });
                 });
             });
 
             req.on('error', async (error) => {
                 console.error(`Error checking ${url}: ${error.message}`);
-                if (retries < MAX_RETRIES) {
-                    await new Promise(resolve => setTimeout(resolve, RETRY_DELAY));
+                if (retries < config.LIMITS.MAX_RETRIES) {
+                    await new Promise(resolve => setTimeout(resolve, config.TIMEOUTS.RETRY_DELAY));
                     const result = await this.makeRequest(url, retries + 1);
                     resolve(result);
                 } else {

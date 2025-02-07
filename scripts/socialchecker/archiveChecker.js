@@ -1,9 +1,5 @@
 const https = require('https');
-
-const REQUEST_TIMEOUT = 10000;
-const GLOBAL_TIMEOUT = 15000;
-const MAX_RETRIES = 2;
-const RETRY_DELAY = 1000;
+const config = require('./config');
 
 class ArchiveChecker {
     static extractOriginalUrl(archiveUrl) {
@@ -20,12 +16,12 @@ class ArchiveChecker {
 
     static getTimestampRange() {
         const now = new Date();
-        const twoYearsAgo = new Date(now.setFullYear(now.getFullYear() - 2));
-        const oneYearAgo = new Date(now.setFullYear(now.getFullYear() + 1));
+        const tenYearsAgo = new Date(now.setFullYear(now.getFullYear() - 10));
+        const oneYearAhead = new Date(now.setFullYear(now.getFullYear() + 11)); // +11 to offset the -10 above
         
         return {
-            from: twoYearsAgo.toISOString().slice(0,10).replace(/-/g, ''),
-            to: oneYearAgo.toISOString().slice(0,10).replace(/-/g, '')
+            from: tenYearsAgo.toISOString().slice(0,10).replace(/-/g, ''),
+            to: oneYearAhead.toISOString().slice(0,10).replace(/-/g, '')
         };
     }
 
@@ -46,17 +42,12 @@ class ArchiveChecker {
                     isDone = true;
                     resolve({ error: 'timeout' });
                 }
-            }, GLOBAL_TIMEOUT);
+            }, config.TIMEOUTS.GLOBAL);
 
             try {
                 request = https.get(url, {
-                    timeout: REQUEST_TIMEOUT,
-                    headers: { 
-                        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/120.0.0.0 Safari/537.36',
-                        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-                        'Accept-Language': 'en-US,en;q=0.9',
-                        ...options.headers 
-                    },
+                    timeout: config.TIMEOUTS.REQUEST,
+                    headers: config.getHeaders(options.headers),
                     ...options
                 }, (res) => {
                     let data = '';
@@ -78,9 +69,9 @@ class ArchiveChecker {
                         isDone = true;
 
                         // Retry logic
-                        if (retryCount < MAX_RETRIES) {
-                            console.log(`Request failed, retrying (${retryCount + 1}/${MAX_RETRIES})...`);
-                            await new Promise(resolve => setTimeout(resolve, RETRY_DELAY));
+                        if (retryCount < config.LIMITS.MAX_RETRIES) {
+                            console.log(`Request failed, retrying (${retryCount + 1}/${config.LIMITS.MAX_RETRIES})...`);
+                            await new Promise(resolve => setTimeout(resolve, config.TIMEOUTS.RETRY_DELAY));
                             const retryResult = await this.makeRequest(url, options, retryCount + 1);
                             resolve(retryResult);
                         } else {
@@ -89,7 +80,7 @@ class ArchiveChecker {
                     }
                 });
 
-                request.setTimeout(REQUEST_TIMEOUT, () => {
+                request.setTimeout(config.TIMEOUTS.REQUEST, () => {
                     if (!isDone) {
                         clearTimeout(globalTimeout);
                         request.destroy();
@@ -247,29 +238,6 @@ class ArchiveChecker {
 
         console.log('Current snapshot is the latest');
         return { needsUpdate: false };
-    }
-
-    // Helper method to validate and normalize URLs
-    static normalizeUrl(url) {
-        try {
-            // Add protocol if missing
-            if (!url.startsWith('http://') && !url.startsWith('https://')) {
-                url = 'https://' + url;
-            }
-            
-            // Remove trailing slashes and normalize protocol to https
-            const normalizedUrl = new URL(url);
-            normalizedUrl.protocol = 'https:';
-            let finalUrl = normalizedUrl.toString();
-            if (finalUrl.endsWith('/')) {
-                finalUrl = finalUrl.slice(0, -1);
-            }
-            
-            return finalUrl;
-        } catch (error) {
-            console.error(`Error normalizing URL ${url}:`, error);
-            return url; // Return original if normalization fails
-        }
     }
 }
 
