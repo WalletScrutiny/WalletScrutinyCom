@@ -147,8 +147,6 @@ Hash of the signed firmware:
 d887ce2f9a92c9605ff78fe7440d7b92b51d4989a291b00f3f5c4ca40ca1ceda  trezor-core-2.8.7-bitcoinonly.bin
 ```
 
-With the correct modifications to the [TrezorT.sh script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/1d8681a3f2a03ef61c79fd08112425e3fcb2e8a9/scripts/test/hardware/trezorT.sh), we were able to determine that the hash `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855` is of an empty file. This meant that the binaries weren't being downloaded. We verified the download url manually and found the correct url. 
-
 This resulted in the script properly building and outputting the desired results. 
 
 1. The hashes of the non-signature parts for standard, **match**. (6ad8f49748de258197e0a4ee73cb71bf6e78ac209bda892907dbef763bb5cb1c)
