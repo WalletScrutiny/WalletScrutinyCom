@@ -1,3 +1,8 @@
+# Generates a release APK by running:
+#
+# docker build -t sbp-builder . -o sbp-output
+#
+
 ARG SBP_CHECKOUT_UPLOAD_STORE_FILE=sbp.keystore
 ARG SBP_CHECKOUT_UPLOAD_KEY_ALIAS=sbp
 ARG SBP_CHECKOUT_UPLOAD_STORE_PASSWORD=unsecure_storepass
@@ -79,9 +84,8 @@ RUN apk update \
     jq \
     shellcheck \
     build-base \
-    openjdk17
-
-RUN curl -sS https://dl.google.com/android/repository/$SDK_VERSION -o /tmp/sdk.zip \
+    openjdk17 \
+    && curl -sS https://dl.google.com/android/repository/$SDK_VERSION -o /tmp/sdk.zip \
     && mkdir -p ${ANDROID_HOME}/cmdline-tools \
     && unzip -q -d ${ANDROID_HOME}/cmdline-tools /tmp/sdk.zip \
     && mv ${ANDROID_HOME}/cmdline-tools/cmdline-tools ${ANDROID_HOME}/cmdline-tools/latest \
@@ -91,17 +95,14 @@ RUN curl -sS https://dl.google.com/android/repository/$SDK_VERSION -o /tmp/sdk.z
         "platforms;android-$ANDROID_BUILD_VERSION" \
         "build-tools;$ANDROID_TOOLS_VERSION" \
         "ndk;$NDK_VERSION" \
-    && chmod 777 -R /opt/android 
-
-RUN npm install \
+    && chmod 777 -R /opt/android \
+    && npm install \
     && npm remove react-native-vision-camera \
     && npm run bundle:android \
-    && cd android \
-    && wget -O bundletool.jar https://github.com/google/bundletool/releases/download/1.17.0/bundletool-all-1.17.0.jar \
-    && ./gradlew -q app:bundleRelease 
-
-
-RUN npm cache clear --force \
+    && cd android && ./gradlew -q app:assembleRelease \
+    && npm cache clear --force \
     && rm -rf ${ANDROID_HOME}
 
-CMD ["ash"]
+FROM scratch
+
+COPY --from=builder /app/android/app/build/outputs/apk/release/app-release.apk .
