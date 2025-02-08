@@ -15,7 +15,7 @@ dimensions:
 weight: 
 provider: SafePal
 providerWebsite: https://www.safepal.io
-website: https://shop.safepal.io/products/safepal-hardware-wallet-s1-bitcoin-wallet
+website: https://web.archive.org/web/20201020063649/https://shop.safepal.io/products/safepal-hardware-wallet-s1-bitcoin-wallet
 shop: https://shop.safepal.io/products/safepal-hardware-wallet-s1-bitcoin-wallet
 country: CH
 price: 69.99USD

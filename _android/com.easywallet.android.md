@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://easywallet.me
+website: https://web.archive.org/web/20211228054703/https://easywallet.me/
 repository: 
 issue: 
 icon: com.easywallet.android.png

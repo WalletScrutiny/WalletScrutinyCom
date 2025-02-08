@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://exchange.panthira.com/
+website: https://walletscrutiny.com/brokenlink/https://exchange.panthira.com/
 repository: 
 issue: 
 icon: com.cloud.panthira.png

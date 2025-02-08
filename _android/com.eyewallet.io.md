@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://eyewallet.com
+website: https://web.archive.org/web/20110202085956/http://eyewallet.com/
 repository: 
 issue: 
 icon: com.eyewallet.io.jpg

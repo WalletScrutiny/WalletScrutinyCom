@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://mooncod.com
+website: https://walletscrutiny.com/brokenlink/https://mooncod.com
 repository: 
 issue: 
 icon: com.mooncod.wallet.png

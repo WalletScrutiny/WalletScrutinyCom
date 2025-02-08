@@ -14,7 +14,7 @@ stars: 5
 ratings: 6810
 reviews: 1590
 size: 
-website: http://www.bexplus.com
+website: https://web.archive.org/web/20220117080314/https://www.bexplus.com/
 repository: 
 issue: 
 icon: com.lingxi.bexplus.png

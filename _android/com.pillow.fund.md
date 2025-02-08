@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 
 reviews: 68
 size: 
-website: https://www.pillow.fund/
+website: https://walletscrutiny.com/brokenlink/https://www.pillow.fund/
 repository: 
 issue: 
 icon: com.pillow.fund.png

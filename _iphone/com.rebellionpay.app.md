@@ -13,7 +13,7 @@ version: 1.11.21
 stars: 4.6
 reviews: 5869
 size: '89645056'
-website: https://rebellionpay.com
+website: https://web.archive.org/web/20200722034714/https://rebellionpay.com/
 repository: 
 issue: 
 icon: com.rebellionpay.app.jpg

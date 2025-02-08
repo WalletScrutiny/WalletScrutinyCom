@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://inout-blockchain-fiatexchanger.demo.inoutscripts.net
+website: https://inout-blockchain-fiatexchanger.demo.inoutscripts.net
 repository: 
 issue: 
 icon: net.inoutscripts.demo.inoutblockchainfiatexchanger.png

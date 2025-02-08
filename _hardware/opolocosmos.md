@@ -16,7 +16,7 @@ dimensions:
 weight: 2.79
 provider: OPOLO Limited
 providerWebsite: https://www.opolo.io
-website: https://www.opolo.io/
+website: https://web.archive.org/web/20240929065607/https://www.opolo.io/
 shop: https://shop.opolo.io/
 country: LU
 price: 198EUR

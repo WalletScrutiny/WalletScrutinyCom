@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://globalctb.com/
+website: https://globalctb.com/
 repository: 
 issue: 
 icon: com.globalctb.png

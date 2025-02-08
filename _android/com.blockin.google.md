@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: officialpoolin
 social:
-- https://www.linkedin.com/company/poolin
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/poolin
 - https://www.facebook.com/poolinpool
 redirect_from: 
 developerName: Beijing Satoshi Smart Co.,Ltd.

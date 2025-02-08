@@ -14,7 +14,7 @@ stars: 4.2
 ratings: 37358
 reviews: 72
 size: 
-website: http://www.xtrade.com
+website: https://www.xtrade.com
 repository: 
 issue: 
 icon: com.xfr.xtrade.png

@@ -13,7 +13,7 @@ version: 3.9.0
 stars: 0
 reviews: 0
 size: '63318016'
-website: https://www.wisebitcoin.com/
+website: https://web.archive.org/web/20221006111833/https://www.wisebitcoin.com/
 repository: 
 issue: 
 icon: com.wisebitcoin.broker.iostest.jpg

@@ -14,7 +14,7 @@ stars: 4.8
 ratings: 
 reviews: 71
 size: 
-website: https://fxtrendo.com
+website: https://web.archive.org/web/20240815063832/https://fxtrendo.com/
 repository: 
 issue: 
 icon: com.trendox.android.png

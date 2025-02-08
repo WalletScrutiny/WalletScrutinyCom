@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://dsdaq.com
+website: https://web.archive.org/web/20001019002557/http://www.dsdaq.com:80/
 repository: 
 issue: 
 icon: com.chainup.exchange.DsdaqGlobal.png

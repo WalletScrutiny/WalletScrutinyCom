@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.youbit.co.kr
+website: https://web.archive.org/web/20171222233419/https://youbit.co.kr/
 repository: 
 issue: 
 icon: com.ddengle.bts.png

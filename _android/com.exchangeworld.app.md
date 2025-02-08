@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.worldexchange.life
+website: https://web.archive.org/web/20240924070236/http://worldexchange.life/
 repository: 
 issue: 
 icon: com.exchangeworld.app.png

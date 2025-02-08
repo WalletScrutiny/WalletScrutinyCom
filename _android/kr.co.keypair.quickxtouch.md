@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 10M
-website: https://www.quickx.io
+website: https://web.archive.org/web/20210620222807/https://quickx.io/
 repository: 
 issue: 
 icon: kr.co.keypair.quickxtouch.jpg

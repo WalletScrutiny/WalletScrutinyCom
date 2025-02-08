@@ -13,7 +13,7 @@ version: 1.3.4
 stars: 5
 reviews: 6
 size: '65130496'
-website: https://vowcurrency.com/knowledge-base/
+website: https://web.archive.org/web/20210415065756/https://vowcurrency.com/knowledge-base/
 repository: 
 issue: 
 icon: com.vowcurrency.vow.jpg

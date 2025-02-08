@@ -14,7 +14,7 @@ stars: 3.4
 ratings: 
 reviews: 43
 size: 
-website: https://switchere.com/
+website: https://web.archive.org/web/20210623210536/https://switchere.com/
 repository: 
 issue: 
 icon: com.switchere.switchere.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://ar.debay.io
+website: https://ar.debay.io
 repository: 
 issue: 
 icon: com.debayarab.platform.jpg

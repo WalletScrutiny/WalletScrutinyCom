@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.PalmPay.io
+website: https://www.PalmPay.io
 repository: 
 issue: 
 icon: cy.agorise.palmpay.png

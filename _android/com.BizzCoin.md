@@ -14,7 +14,7 @@ stars: 4.7
 ratings: 491
 reviews: 13
 size: 
-website: https://www.bizzcoin.com/
+website: https://web.archive.org/web/20190511204955/http://bizzcoin.com:80/
 repository: 
 issue: 
 icon: com.BizzCoin.png

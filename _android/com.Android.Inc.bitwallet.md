@@ -14,7 +14,7 @@ stars: 4.8
 ratings: 1214
 reviews: 262
 size: 
-website: https://www.bitwallet.org
+website: https://web.archive.org/web/20110621003715/http://bitwallet.org/
 repository: 
 issue: 
 icon: com.Android.Inc.bitwallet.png

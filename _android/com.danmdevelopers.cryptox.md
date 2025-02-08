@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.danmdevelopers.com
+website: https://web.archive.org/web/20211229052417/https://danmdevelopers.com/
 repository: 
 issue: 
 icon: com.danmdevelopers.cryptox.png

@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: balancenetwork_
 social:
-- https://www.linkedin.com/company/balancenetwork
+- https://web.archive.org/web/20240717182626/https://www.linkedin.com/company/balancenetwork
 - https://www.facebook.com/BalanceNetworkOfficial
 - https://balancenetwork.medium.com
 - https://www.tiktok.com/@balancenetwork_

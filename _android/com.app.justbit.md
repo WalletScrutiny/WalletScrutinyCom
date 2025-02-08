@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://justbit.in/
+website: https://web.archive.org/web/20220303071628/https://www.justbit.in/
 repository: 
 issue: 
 icon: com.app.justbit.jpg

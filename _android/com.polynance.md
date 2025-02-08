@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.polynance.com
+website: https://web.archive.org/web/20220126234455/https://polynance.com/
 repository: 
 issue: 
 icon: com.polynance.jpg

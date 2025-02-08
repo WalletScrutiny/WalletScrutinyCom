@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://cryptomovil.app/
+website: https://walletscrutiny.com/brokenlink/https://cryptomovil.app/
 repository: 
 issue: 
 icon: cryptomovil.app.png

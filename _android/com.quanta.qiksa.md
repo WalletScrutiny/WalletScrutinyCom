@@ -13,7 +13,7 @@ stars: 4.5
 ratings: 
 reviews: 
 size: 
-website: https://www.quantapay.com
+website: https://web.archive.org/web/20220830073534/https://www.quantapay.com/
 repository: 
 issue: 
 icon: com.quanta.qiksa.png

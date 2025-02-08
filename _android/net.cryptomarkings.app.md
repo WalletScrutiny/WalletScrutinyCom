@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://cryptomarkings.net
+website: https://web.archive.org/web/20221019180226/https://cryptomarkings.net/
 repository: 
 issue: 
 icon: net.cryptomarkings.app.png
@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: crypto_markings
 social:
-- https://www.facebook.com/people/Cryptomarkings/100086460615673
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/people/Cryptomarkings/100086460615673
 redirect_from: 
 developerName: Cryptomarkings
 features: 

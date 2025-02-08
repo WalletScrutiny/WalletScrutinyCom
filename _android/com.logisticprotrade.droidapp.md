@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://logisticprotrade.com/
+website: https://web.archive.org/web/20210506055411/https://www.logisticprotrade.com/
 repository: 
 issue: 
 icon: com.logisticprotrade.droidapp.jpg

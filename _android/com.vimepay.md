@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://vimepay.com
+website: https://walletscrutiny.com/brokenlink/https://vimepay.com
 repository: 
 issue: 
 icon: com.vimepay.png

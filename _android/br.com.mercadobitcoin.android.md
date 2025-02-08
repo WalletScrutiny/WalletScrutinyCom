@@ -14,7 +14,7 @@ stars: 4
 ratings: 51097
 reviews: 69
 size: 
-website: http://www.mercadobitcoin.com.br
+website: https://www.mercadobitcoin.com.br
 repository: 
 issue: 
 icon: br.com.mercadobitcoin.android.png

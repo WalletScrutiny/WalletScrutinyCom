@@ -14,7 +14,7 @@ stars: 4.6
 ratings: 
 reviews: 
 size: 
-website: http://www.biteeu.com
+website: https://www.biteeu.com
 repository: 
 issue: 
 icon: com.bit.eu.png
@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: BiteeuExchange
 social:
-- https://www.linkedin.com/company/biteeu
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/biteeu
 - https://www.instagram.com/biteeu_exchange
 - https://t.me/biteeu_chat
 redirect_from: 

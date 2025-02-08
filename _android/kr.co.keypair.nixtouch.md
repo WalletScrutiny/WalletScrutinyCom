@@ -13,7 +13,7 @@ stars: 5
 ratings: 
 reviews: 
 size: 
-website: https://www.nixblock.com/
+website: https://web.archive.org/web/20220929132202/https://www.nixblock.com/
 repository: 
 issue: 
 icon: kr.co.keypair.nixtouch.png

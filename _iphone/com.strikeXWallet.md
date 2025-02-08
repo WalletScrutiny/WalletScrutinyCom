@@ -27,7 +27,7 @@ reviewArchive:
 twitter: TradeStrikeBVI
 social:
 - https://tradestrike.io/strikex-wallet
-- https://www.linkedin.com/companystrikex
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/companystrikex
 - https://www.facebook.com/TradeStrikeBVI
 - https://www.youtube.com/channel/UCZ_gCf9-Tnr7JeoFiSkl7SQ
 - https://www.instagram.com/tradestrike.bvi

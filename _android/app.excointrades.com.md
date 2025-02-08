@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://web.excoin.cloud/
+website: https://web.archive.org/web/20230227060623/http://web.excoin.cloud/
 repository: 
 issue: 
 icon: app.excointrades.com.jpg

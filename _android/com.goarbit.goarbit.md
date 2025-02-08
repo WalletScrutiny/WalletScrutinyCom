@@ -14,7 +14,7 @@ stars: 4.1
 ratings: 
 reviews: 3080
 size: 
-website: https://goarbit.com/
+website: https://walletscrutiny.com/brokenlink/https://goarbit.com/
 repository: 
 issue: 
 icon: com.goarbit.goarbit.png

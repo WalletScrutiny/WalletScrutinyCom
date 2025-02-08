@@ -14,7 +14,7 @@ stars: 4.7
 ratings: 
 reviews: 3
 size: 
-website: https://befiwallet.io/
+website: https://web.archive.org/web/20220815140628/https://befiwallet.io/
 repository: 
 issue: 
 icon: com.cube.beepay.png

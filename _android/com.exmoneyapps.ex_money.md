@@ -14,7 +14,7 @@ stars: 4.4
 ratings: 
 reviews: 
 size: 
-website: https://ex-money.cc
+website: https://web.archive.org/web/20200921001341/https://ex-money.cc/
 repository: 
 issue: 
 icon: com.exmoneyapps.ex_money.png

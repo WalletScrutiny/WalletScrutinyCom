@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ceetwe.com
+website: https://walletscrutiny.com/brokenlink/https://ceetwe.com
 repository: 
 issue: 
 icon: ceetwe.ceetwe.png

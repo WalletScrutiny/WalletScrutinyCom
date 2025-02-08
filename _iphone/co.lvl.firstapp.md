@@ -13,7 +13,7 @@ version: 1.0.5
 stars: 4.2
 reviews: 369
 size: '116187136'
-website: https://www.lvl.co
+website: https://walletscrutiny.com/brokenlink/https://www.lvl.co
 repository: 
 issue: 
 icon: co.lvl.firstapp.jpg

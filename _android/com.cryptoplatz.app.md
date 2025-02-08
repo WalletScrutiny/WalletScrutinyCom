@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.cryptoplatz.ch
+website: https://web.archive.org/web/20211129034803/http://cryptoplatz.ch/
 repository: 
 issue: 
 icon: com.cryptoplatz.app.png

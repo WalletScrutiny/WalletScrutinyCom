@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://zinary.com
+website: https://web.archive.org/web/20220926164540/https://www.zinary.com/
 repository: 
 issue: 
 icon: com.zinary.apps.png

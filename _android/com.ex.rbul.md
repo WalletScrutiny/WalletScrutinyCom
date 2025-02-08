@@ -13,7 +13,7 @@ stars: 4.7
 ratings: 
 reviews: 
 size: 
-website: https://www.rbul.io/
+website: https://web.archive.org/web/20211225153226/https://www.rbul.io/
 repository: 
 issue: 
 icon: com.ex.rbul.png

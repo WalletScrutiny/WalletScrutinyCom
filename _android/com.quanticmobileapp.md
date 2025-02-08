@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://quan-tic.com
+website: https://web.archive.org/web/20210621060346/https://quan-tic.com/
 repository: 
 issue: 
 icon: com.quanticmobileapp.png

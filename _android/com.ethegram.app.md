@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.ethegram.net
+website: https://web.archive.org/web/20191226173050/http://ethegram.net:80/
 repository: 
 issue: 
 icon: com.ethegram.app.png

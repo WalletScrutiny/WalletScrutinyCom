@@ -13,7 +13,7 @@ version: 1.6.9
 stars: 3
 reviews: 2
 size: 39227392
-website: https://prizmbit.com/
+website: https://web.archive.org/web/20200501081416/https://prizmbit.com/
 repository: 
 issue: 
 icon: prizmbit.com.jpg

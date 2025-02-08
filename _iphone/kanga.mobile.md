@@ -13,7 +13,7 @@ version: 1.20.21
 stars: 2.5
 reviews: 6
 size: '32771072'
-website: http://kanga.exchange
+website: https://kanga.exchange
 repository: 
 issue: 
 icon: kanga.mobile.jpg

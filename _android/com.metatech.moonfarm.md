@@ -14,7 +14,7 @@ stars: 3.2
 ratings: 
 reviews: 6
 size: 
-website: https://moonfarm.finance
+website: https://walletscrutiny.com/brokenlink/https://moonfarm.finance
 repository: 
 issue: 
 icon: com.metatech.moonfarm.png

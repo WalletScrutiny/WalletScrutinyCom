@@ -14,7 +14,7 @@ stars: 3.8
 ratings: 3299
 reviews: 89
 size: 
-website: https://www.aax.com/
+website: https://walletscrutiny.com/brokenlink/https://www.aax.com/
 repository: 
 issue: 
 icon: com.aax.exchange.png

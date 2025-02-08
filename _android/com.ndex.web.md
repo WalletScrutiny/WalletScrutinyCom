@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://nd-exk.com
+website: https://web.archive.org/web/20210620215001/http://nd-exk.com/
 repository: 
 issue: 
 icon: com.ndex.web.png

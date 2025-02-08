@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://cc-communications.net/
+website: https://web.archive.org/web/20200313200336/http://cc-communications.net/
 repository: 
 issue: 
 icon: com.ezbitcoin.wallet.png

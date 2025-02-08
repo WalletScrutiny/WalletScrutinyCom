@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.africrypt.io
+website: https://web.archive.org/web/20200921145240/https://africrypt.io/
 repository: 
 issue: 
 icon: app.africoin.pellar.png

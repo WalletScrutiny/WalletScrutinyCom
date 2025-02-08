@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://dobuy.site/
+website: https://web.archive.org/web/20220419042538/https://dobuy.site/
 repository: 
 issue: 
 icon: com.dobuyapplication.png

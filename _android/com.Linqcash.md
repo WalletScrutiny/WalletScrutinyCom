@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.linqcash.com/
+website: https://web.archive.org/web/20210612231559/https://www.linqcash.com/
 repository: 
 issue: 
 icon: com.Linqcash.png

@@ -27,7 +27,7 @@ reviewArchive:
 twitter: Cri_Vivranium
 social:
 - https://www.facebook.com/cosmeta.us
-- https://www.linkedin.com/company/cosmeta-inc
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/cosmeta-inc
 - https://t.me/cri_notice
 features: 
 developerName: COSMETA Inc.

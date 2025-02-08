@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://lunie.io
+website: https://web.archive.org/web/20240321014333/https://lunie.io/
 repository: 
 issue: 
 icon: org.lunie.lunie.png

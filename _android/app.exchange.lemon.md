@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://lemonexchange.africa/
+website: https://web.archive.org/web/20220306160225/https://lemonexchange.africa/
 repository: 
 issue: 
 icon: app.exchange.lemon.png

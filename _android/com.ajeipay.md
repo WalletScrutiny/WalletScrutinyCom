@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ajeipay.com/
+website: https://web.archive.org/web/20201101131408/https://www.ajeipay.com/
 repository: 
 issue: 
 icon: com.ajeipay.png

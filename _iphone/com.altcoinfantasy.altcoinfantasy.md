@@ -13,7 +13,7 @@ version: 2.1.3
 stars: 3.3
 reviews: 3
 size: '87098368'
-website: https://altcoinfantasy.com
+website: https://walletscrutiny.com/brokenlink/https://altcoinfantasy.com
 repository: 
 issue: 
 icon: com.altcoinfantasy.altcoinfantasy.jpg

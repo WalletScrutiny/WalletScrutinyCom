@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://tgcoin4.com
+website: https://walletscrutiny.com/brokenlink/https://tgcoin4.com
 repository: 
 issue: 
 icon: com.currency.tgcoin.png

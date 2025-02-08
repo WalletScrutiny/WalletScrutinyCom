@@ -14,7 +14,7 @@ stars: 3.4
 ratings: 242
 reviews: 31
 size: 
-website: https://wallet.indiesquare.me
+website: https://web.archive.org/web/20210619002013/https://wallet.indiesquare.me/
 repository: https://github.com/IndieSquare/indiesquare-wallet
 issue: 
 icon: inc.lireneosoft.counterparty.png

@@ -14,7 +14,7 @@ stars: 3.3
 ratings: 
 reviews: 6
 size: 
-website: https://www.teamanyjson.com
+website: https://web.archive.org/web/20220630184132/http://teamanyjson.com/
 repository: 
 issue: 
 icon: com.anyjson.earn.freecryptofacute.png

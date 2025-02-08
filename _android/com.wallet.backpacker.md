@@ -13,7 +13,7 @@ stars: 3.9
 ratings: 
 reviews: 
 size: 
-website: https://wallet.backpackercoin.com/
+website: https://web.archive.org/web/20210615041117/https://wallet.backpackercoin.com/
 repository: 
 issue: 
 icon: com.wallet.backpacker.png

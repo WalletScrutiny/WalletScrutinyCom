@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.ainvestments.com/
+website: https://web.archive.org/web/20200512001531/https://www.ainvestments.com/
 repository: 
 issue: 
 icon: com.esos.ainvestments.png

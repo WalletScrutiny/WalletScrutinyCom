@@ -13,7 +13,7 @@ stars: 4.3
 ratings: 
 reviews: 3
 size: 
-website: https://meliora.finance/
+website: https://walletscrutiny.com/brokenlink/https://meliora.finance/
 repository: 
 issue: 
 icon: com.meliWallet.png

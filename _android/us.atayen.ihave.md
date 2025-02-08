@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://dapp.satt.io/
+website: https://web.archive.org/web/20220228211610/https://dapp.satt.io/
 repository: 
 issue: 
 icon: us.atayen.ihave.png

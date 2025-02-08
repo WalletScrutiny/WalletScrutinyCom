@@ -14,7 +14,7 @@ stars: 2.7
 ratings: 
 reviews: 17
 size: 
-website: https://www.fairdesk.com/
+website: https://web.archive.org/web/20220428064814/https://www.fairdesk.com/
 repository: 
 issue: 
 icon: com.biboots.flutter_app.png

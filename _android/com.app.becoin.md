@@ -13,7 +13,7 @@ stars: 4.6
 ratings: 
 reviews: 
 size: 
-website: https://becoin.exchange/
+website: https://web.archive.org/web/20240722081457/https://www.becoin.exchange/
 repository: 
 issue: 
 icon: com.app.becoin.png

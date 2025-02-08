@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 4.9M
-website: https://suworld.net
+website: https://web.archive.org/web/20210620040656/https://suworld.net/
 repository: 
 issue: 
 icon: org.sucon.suworld.png

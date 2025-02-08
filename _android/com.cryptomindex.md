@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://cryptomindex.com
+website: https://web.archive.org/web/20210623115646/https://cryptomindex.com/
 repository: 
 issue: 
 icon: com.cryptomindex.png

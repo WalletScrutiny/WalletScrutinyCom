@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 
 reviews: 32
 size: 
-website: http://thorwallet.org
+website: https://thorwallet.org
 repository: 
 issue: 
 icon: defisuisse.thorwallet.png

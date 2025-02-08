@@ -13,7 +13,7 @@ version: 13.3.6
 stars: 4.7
 reviews: 1756760
 size: '225530880'
-website: http://www.coinbase.com
+website: https://www.coinbase.com
 repository: 
 issue: 
 icon: com.vilcsak.bitcoin2.jpg

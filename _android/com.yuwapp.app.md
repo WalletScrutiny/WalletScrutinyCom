@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://yuwapp.com/
+website: https://walletscrutiny.com/brokenlink/https://yuwapp.com/
 repository: 
 issue: 
 icon: com.yuwapp.app.jpg

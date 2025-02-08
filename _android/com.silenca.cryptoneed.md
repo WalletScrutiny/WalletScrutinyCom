@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.cryptoneed.pro/
+website: https://web.archive.org/web/20210613142307/https://www.cryptoneed.pro/
 repository: 
 issue: 
 icon: com.silenca.cryptoneed.png

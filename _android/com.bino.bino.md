@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://adastimes.com/
+website: https://web.archive.org/web/20211124234423/http://adastimes.com/
 repository: 
 issue: 
 icon: com.bino.bino.png

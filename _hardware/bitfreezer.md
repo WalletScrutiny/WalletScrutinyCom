@@ -15,7 +15,7 @@ dimensions:
 weight: 65
 provider: BitFreezer
 providerWebsite: 
-website: https://bitfreezer.app/
+website: https://web.archive.org/web/20241004034850/https://bitfreezer.app/
 shop: 
 country: US
 price: 10 USD to 20 USD / month (subscription)

@@ -15,7 +15,7 @@ stars: 4
 ratings: 25
 reviews: 15
 size: 14M
-website: http://InSense.tech
+website: https://web.archive.org/web/20171130102256/http://insense.tech:80/
 repository: 
 issue: 
 icon: tech.insense.sensewalet.png

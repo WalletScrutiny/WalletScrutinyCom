@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 581
 reviews: 18
 size: 
-website: https://lykke.com
+website: https://web.archive.org/web/20201109003026/https://www.lykke.com/
 repository: 
 issue: 
 icon: com.lykkex.LykkeWallet.png

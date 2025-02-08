@@ -14,7 +14,7 @@ stars: 4.1
 ratings: 3553
 reviews: 67
 size: 
-website: https://ecoinofficial.org/
+website: https://walletscrutiny.com/brokenlink/https://ecoinofficial.org/
 repository: 
 issue: 
 icon: fio.ecoin.wallet.png

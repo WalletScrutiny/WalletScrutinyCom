@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: 
 providerWebsite: 
-website: https://www.kashtech.io/
+website: https://walletscrutiny.com/brokenlink/https://www.kashtech.io/
 shop: 
 country: 
 price: 

@@ -13,7 +13,7 @@ stars: 3.6
 ratings: 25
 reviews: 15
 size: 3.0M
-website: https://www.satoshiera.com
+website: https://web.archive.org/web/20240825190007/https://satoshiera.com/
 repository: 
 issue: 
 icon: com.fitbobcat.satoshi.png

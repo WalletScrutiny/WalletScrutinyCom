@@ -13,7 +13,7 @@ stars: 3.3
 ratings: 386
 reviews: 127
 size: 74M
-website: https://www.dharma.io
+website: https://web.archive.org/web/20201031101013/https://www.dharma.io/
 repository: 
 issue: 
 icon: io.dharma.Dharma.png

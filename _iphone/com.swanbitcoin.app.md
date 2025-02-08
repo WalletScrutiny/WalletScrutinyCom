@@ -13,7 +13,7 @@ version: 1.9.33
 stars: 4.8
 reviews: 2795
 size: '136729600'
-website: http://www.swanbitcoin.com
+website: https://www.swanbitcoin.com
 repository: 
 issue: 
 icon: com.swanbitcoin.app.jpg

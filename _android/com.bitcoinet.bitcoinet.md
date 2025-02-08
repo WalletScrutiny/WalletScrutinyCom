@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bitcoinet.net/
+website: https://web.archive.org/web/20200501221945/https://bitcoinet.net/
 repository: 
 issue: 
 icon: com.bitcoinet.bitcoinet.png

@@ -14,7 +14,7 @@ stars: 2.6
 ratings: 
 reviews: 7
 size: 
-website: http://ayrem.net
+website: https://ayrem.net
 repository: 
 issue: 
 icon: net.ayrem.ayrem_app.png

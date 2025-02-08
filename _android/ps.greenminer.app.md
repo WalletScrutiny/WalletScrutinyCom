@@ -14,7 +14,7 @@ stars:
 ratings: 5347
 reviews: 
 size: 
-website: http://crypto.promo-miner.com/
+website: https://crypto.promo-miner.com/
 repository: 
 issue: 
 icon: ps.greenminer.app.png

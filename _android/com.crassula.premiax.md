@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.premiax.com/
+website: https://web.archive.org/web/20220717100810/https://www.premiax.com/
 repository: 
 issue: 
 icon: com.crassula.premiax.png

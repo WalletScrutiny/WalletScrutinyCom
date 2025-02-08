@@ -14,7 +14,7 @@ stars: 2.8
 ratings: 1438
 reviews: 60
 size: 
-website: http://www.trade360.com
+website: https://walletscrutiny.com/brokenlink/https://www.trade360.com
 repository: 
 issue: 
 icon: com.trade360.png
@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: Trade360_LTD
 social:
-- https://www.linkedin.com/company/trade360ltd
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/trade360ltd
 - https://www.facebook.com/Trade360LTD
 redirect_from: 
 developerName: Trade360 Ltd.

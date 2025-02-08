@@ -13,7 +13,7 @@ version: 1.1.24
 stars: 3.3
 reviews: 73
 size: '40745984'
-website: https://switchere.com/
+website: https://web.archive.org/web/20210623210536/https://switchere.com/
 repository: 
 issue: 
 icon: com.switchere.switchere.jpg

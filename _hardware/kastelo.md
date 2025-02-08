@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: Monero Project
 providerWebsite: 
-website: https://kastelo.org/
+website: https://web.archive.org/web/20201111225938/http://kastelo.org/
 shop: 
 country: 
 price: 

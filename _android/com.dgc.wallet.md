@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.dgcusa.com/
+website: https://web.archive.org/web/20221006205538/https://dgcusa.com/
 repository: 
 issue: 
 icon: com.dgc.wallet.png

@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bitbuddy.app
+website: https://walletscrutiny.com/brokenlink/https://bitbuddy.app
 repository: 
 issue: 
 icon: co.asachs.bitbuddy.png

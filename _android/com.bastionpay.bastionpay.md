@@ -13,7 +13,7 @@ stars: 5
 ratings: 
 reviews: 101
 size: 
-website: http://www.bastionpay.com
+website: https://web.archive.org/web/20190819105142/https://www.bastionpay.com/
 repository: 
 issue: 
 icon: com.bastionpay.bastionpay.png

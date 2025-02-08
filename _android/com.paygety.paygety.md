@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://paygety.com
+website: https://web.archive.org/web/20180311085818/http://www.paygety.com:80/
 repository: 
 issue: 
 icon: com.paygety.paygety.png

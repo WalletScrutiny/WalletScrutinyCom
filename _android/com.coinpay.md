@@ -15,7 +15,7 @@ stars: 3.2
 ratings: 29
 reviews: 15
 size: 
-website: https://www.coinpayapp.com
+website: https://web.archive.org/web/20180823232240/https://www.coinpayapp.com/
 repository: 
 issue: 
 icon: com.coinpay.png

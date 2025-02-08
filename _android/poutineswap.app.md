@@ -13,7 +13,7 @@ stars: 4.5
 ratings: 
 reviews: 
 size: 
-website: https://poutineswap.com
+website: https://web.archive.org/web/20240515053419/https://poutineswap.com/
 repository: 
 issue: 
 icon: poutineswap.app.png

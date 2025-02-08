@@ -13,7 +13,7 @@ version: 1.1.0
 stars: 4.2
 reviews: 5
 size: 89354240
-website: http://fiboda.com
+website: https://web.archive.org/web/20201101021304/http://fiboda.com/
 repository: 
 issue: 
 icon: com.fiboda.Fiboda.jpg

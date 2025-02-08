@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.tigerwit.com
+website: https://web.archive.org/web/20140917095906/http://www.tigerwit.com:80/
 repository: 
 issue: 
 icon: com.tigerwit.forex.png
@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: TigerWitGlobal
 social:
-- https://www.linkedin.com/company/tigerwit-group-
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/tigerwit-group-
 redirect_from: 
 developerName: TigerWit Limited
 features: 

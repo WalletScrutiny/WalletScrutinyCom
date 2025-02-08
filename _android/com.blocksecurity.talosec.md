@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://talosec.io
+website: https://web.archive.org/web/20200806210941/https://talosec.io/
 repository: 
 issue: 
 icon: com.blocksecurity.talosec.png

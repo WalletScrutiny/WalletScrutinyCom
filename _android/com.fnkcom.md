@@ -14,7 +14,7 @@ stars: 4.6
 ratings: 
 reviews: 8
 size: 
-website: https://fnk.com
+website: https://web.archive.org/web/19970710123141/http://www.fnk.com:80/
 repository: 
 issue: 
 icon: com.fnkcom.jpg

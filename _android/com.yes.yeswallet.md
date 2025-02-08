@@ -14,7 +14,7 @@ stars: 2.8
 ratings: 45
 reviews: 31
 size: 1.5M
-website: http://www.yeswallet.io
+website: https://web.archive.org/web/20240521125547/https://yeswallet.io/
 repository: 
 issue: 
 icon: com.yes.yeswallet.png

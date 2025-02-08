@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.albos.io/
+website: https://www.albos.io/
 repository: 
 issue: 
 icon: io.albos.wallet.png

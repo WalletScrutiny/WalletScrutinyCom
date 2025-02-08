@@ -13,7 +13,7 @@ version: 3.0.11
 stars: 4.8
 reviews: 37
 size: '152024064'
-website: http://thorwallet.org
+website: https://thorwallet.org
 repository: 
 issue: 
 icon: defisuisseag.thorwallet.jpg

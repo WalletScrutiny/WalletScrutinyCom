@@ -14,7 +14,7 @@ stars: 3.1
 ratings: 165
 reviews: 4
 size: 4.4M
-website: http://www.bityard.com
+website: https://www.bityard.com
 repository: 
 issue: 
 icon: com.bityard.us2.jpg

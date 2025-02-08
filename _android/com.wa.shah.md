@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://shahofcrypto.com/
+website: https://web.archive.org/web/20241106112553/https://shahofcrypto.com/
 repository: 
 issue: 
 icon: com.wa.shah.jpg

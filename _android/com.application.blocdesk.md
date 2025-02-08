@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.velcomex.com
+website: https://walletscrutiny.com/brokenlink/https://www.velcomex.com
 repository: 
 issue: 
 icon: com.application.blocdesk.png

@@ -14,7 +14,7 @@ stars: 4
 ratings: 
 reviews: 
 size: 
-website: https://www.hupayx.com/
+website: https://web.archive.org/web/20190924092938/https://www.hupayx.com/
 repository: 
 issue: 
 icon: com.thehumanplus.shuffle.png

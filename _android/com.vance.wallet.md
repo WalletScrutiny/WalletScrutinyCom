@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://vancetoken.us/
+website: https://web.archive.org/web/20220615160751/https://vancetoken.us/
 repository: 
 issue: 
 icon: com.vance.wallet.jpg

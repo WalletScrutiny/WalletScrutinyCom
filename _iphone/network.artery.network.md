@@ -13,7 +13,7 @@ version: '1.7'
 stars: 4.6
 reviews: 1165
 size: 82137088
-website: https://artery.network/
+website: https://walletscrutiny.com/brokenlink/https://artery.network/
 repository: https://github.com/arterynetwork/artr
 issue: 
 icon: network.artery.network.jpg

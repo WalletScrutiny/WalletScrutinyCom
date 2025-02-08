@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.hordeswallet.com
+website: https://web.archive.org/web/20230723074220/https://hordeswallet.com/
 repository: 
 issue: 
 icon: com.sato.hordes.png

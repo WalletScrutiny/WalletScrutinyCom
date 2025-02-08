@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.btcboxpro.com/
+website: https://web.archive.org/web/20200807113720/https://www.btcboxpro.com/
 repository: 
 issue: 
 icon: com.btcboxpro.exchange.png

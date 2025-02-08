@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://kryptokafe.com/
+website: https://walletscrutiny.com/brokenlink/https://kryptokafe.com/
 repository: 
 issue: 
 icon: com.parabolus.kryptokafe.jpg

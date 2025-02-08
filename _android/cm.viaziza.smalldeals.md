@@ -14,7 +14,7 @@ stars: 4.2
 ratings: 
 reviews: 
 size: 
-website: http://viaziza.com
+website: https://viaziza.com
 repository: 
 issue: 
 icon: cm.viaziza.smalldeals.png

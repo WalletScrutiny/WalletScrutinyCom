@@ -14,7 +14,7 @@ stars: 3.2
 ratings: 31840
 reviews: 460
 size: 
-website: http://www.hbg.com
+website: https://www.hbg.com
 repository: 
 issue: 
 icon: pro.huobi.png

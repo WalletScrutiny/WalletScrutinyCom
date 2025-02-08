@@ -13,7 +13,7 @@ version: '1.0'
 stars: 1
 reviews: 1
 size: 16610304
-website: https://trade.francexchange.com/
+website: https://web.archive.org/web/20210920060716/https://trade.francexchange.com/
 repository: 
 issue: 
 icon: com.FrancExchange.jpg

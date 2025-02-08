@@ -14,7 +14,7 @@ stars: 4.2
 ratings: 
 reviews: 141
 size: 
-website: https://www.cryptokara.com/
+website: https://web.archive.org/web/20240910003636/https://www.cryptokara.com/
 repository: 
 issue: 
 icon: com.cryptokara.jpg

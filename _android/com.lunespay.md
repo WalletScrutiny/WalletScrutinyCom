@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://lunespay.com.br
+website: https://web.archive.org/web/20210614172636/http://lunespay.com.br/
 repository: https://github.com/orgs/lunes-platform/repositories
 issue: 
 icon: com.lunespay.png

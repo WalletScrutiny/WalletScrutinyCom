@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://titan-xchange.com
+website: https://web.archive.org/web/20221113060202/https://titan-xchange.com/
 repository: 
 issue: 
 icon: com.titanx_change.www.png

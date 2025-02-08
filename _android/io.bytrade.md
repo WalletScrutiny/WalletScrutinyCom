@@ -14,7 +14,7 @@ stars: 3.7
 ratings: 
 reviews: 39
 size: 
-website: https://www.bytrade.io/
+website: https://web.archive.org/web/20221101074112/https://www.bytrade.io/
 repository: 
 issue: 
 icon: io.bytrade.png

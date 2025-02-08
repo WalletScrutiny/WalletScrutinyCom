@@ -13,7 +13,7 @@ version: 1.4.3
 stars: 5
 reviews: 1
 size: '37996544'
-website: https://oracle8.org/
+website: https://web.archive.org/web/20210620163809/https://oracle8.org/
 repository: 
 issue: 
 icon: tech.exio.OracleWallet.OracleWallet.jpg

@@ -13,7 +13,7 @@ version: 1.1.2
 stars: 0
 reviews: 0
 size: '48979968'
-website: http://www.infipay.io/
+website: https://walletscrutiny.com/brokenlink/https://www.infipay.io/
 repository: 
 issue: 
 icon: com.antier.infipay.jpg

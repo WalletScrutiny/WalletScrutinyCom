@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.vstmex.com/
+website: https://web.archive.org/web/20220408142503/https://vstmex.com/
 repository: 
 issue: 
 icon: com.tocce.vst.png

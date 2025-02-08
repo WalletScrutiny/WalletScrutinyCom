@@ -13,7 +13,7 @@ stars: 4.1
 ratings: 
 reviews: 7
 size: 
-website: https://burtar.com
+website: https://web.archive.org/web/20240325092408/https://burtar.com/
 repository: 
 issue: 
 icon: com.wallet.burtarapp.png

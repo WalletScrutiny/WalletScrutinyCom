@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.cmbcwallet.uk
+website: https://walletscrutiny.com/brokenlink/https://www.cmbcwallet.uk
 repository: 
 issue: 
 icon: com.cmbcwallet.uk.png

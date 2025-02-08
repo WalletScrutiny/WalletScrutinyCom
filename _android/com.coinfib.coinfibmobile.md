@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.coinfib.com
+website: https://walletscrutiny.com/brokenlink/https://www.coinfib.com
 repository: 
 issue: 
 icon: com.coinfib.coinfibmobile.png

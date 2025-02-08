@@ -13,7 +13,7 @@ version: 1.0.7
 stars: 3
 reviews: 2
 size: '3976192'
-website: https://nthkey.com
+website: https://web.archive.org/web/20200104055351/https://nthkey.com/
 repository: 
 issue: 
 icon: com.nthkey.app.jpg

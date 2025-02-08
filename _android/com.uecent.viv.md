@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.viv.com/
+website: https://walletscrutiny.com/brokenlink/https://www.viv.com/
 repository: 
 issue: 
 icon: com.uecent.viv.png

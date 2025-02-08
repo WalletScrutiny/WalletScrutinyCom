@@ -13,7 +13,7 @@ stars: 3.4
 ratings: 
 reviews: 
 size: 
-website: http://www.eunex.co
+website: https://www.eunex.co
 repository: 
 issue: 
 icon: kr.co.keypair.nextouch.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://nebpay.io
+website: https://walletscrutiny.com/brokenlink/https://nebpay.io
 repository: 
 issue: 
 icon: com.neb.showmelove.jpg

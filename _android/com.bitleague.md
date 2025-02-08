@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: BitLeague_Group
 social:
-- https://www.linkedin.com/company/bitleaguegroup
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/bitleaguegroup
 - https://www.facebook.com/bitleaguegroup
 redirect_from: 
 developerName: BITLEAGUE LLC

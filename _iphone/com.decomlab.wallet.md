@@ -13,7 +13,7 @@ version: 1.2.1
 stars: 3.6
 reviews: 8
 size: '77462528'
-website: https://moonwallet.net/
+website: https://web.archive.org/web/20210725071505/https://moonwallet.net/
 repository: 
 issue: 
 icon: com.decomlab.wallet.jpg

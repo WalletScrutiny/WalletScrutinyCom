@@ -14,7 +14,7 @@ stars: 4.6
 ratings: 
 reviews: 
 size: 
-website: https://www.aaatrade.com
+website: https://web.archive.org/web/20230327230930/https://www.aaatrade.com/
 repository: 
 issue: 
 icon: com.aaatrade.aaatrader.png

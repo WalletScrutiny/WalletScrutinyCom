@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.coinstorey.com/
+website: https://walletscrutiny.com/brokenlink/https://www.coinstorey.com/
 repository: 
 issue: 
 icon: com.coinstorey.jpg

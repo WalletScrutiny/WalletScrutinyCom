@@ -13,7 +13,7 @@ version: 1.4.69
 stars: 4.1
 reviews: 47162
 size: '124633088'
-website: http://www.paddle-inc.jp/
+website: https://www.paddle-inc.jp/
 repository: 
 issue: 
 icon: jp.paddleinc.bitstock.jpg

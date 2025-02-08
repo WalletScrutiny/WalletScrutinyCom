@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://mond.vision
+website: https://web.archive.org/web/20220302184400/https://mond.vision/
 repository: 
 issue: 
 icon: mond.vision.png

@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: zumopay
 social:
-- https://www.linkedin.com/company/zumomoney
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/zumomoney
 - https://www.facebook.com/zumo.money
 features: 
 developerName: Zumo Financial Services Limited

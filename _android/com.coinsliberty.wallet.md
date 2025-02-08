@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://coinsliberty.com
+website: https://web.archive.org/web/20220624230050/https://coinsliberty.com/
 repository: 
 issue: 
 icon: com.coinsliberty.wallet.png

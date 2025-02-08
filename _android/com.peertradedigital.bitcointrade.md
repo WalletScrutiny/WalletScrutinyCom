@@ -14,7 +14,7 @@ stars: 3.3
 ratings: 8304
 reviews: 4822
 size: 
-website: http://www.bitcointrade.com.br
+website: https://www.bitcointrade.com.br
 repository: 
 issue: 
 icon: com.peertradedigital.bitcointrade.png
@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://www.linkedin.com/company/bitcointrade
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/bitcointrade
 - https://www.facebook.com/BitcointradeBR
 redirect_from: 
 developerName: PeerTrade Digital Ltda

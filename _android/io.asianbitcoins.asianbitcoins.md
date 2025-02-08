@@ -14,7 +14,7 @@ stars: 5
 ratings: 3899
 reviews: 113
 size: 
-website: https://asianbitcoins.org
+website: https://web.archive.org/web/20211126042210/http://asianbitcoins.org/
 repository: 
 issue: 
 icon: io.asianbitcoins.asianbitcoins.png

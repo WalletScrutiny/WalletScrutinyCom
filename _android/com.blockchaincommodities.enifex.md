@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://enifex.com/
+website: https://web.archive.org/web/20240215001556/https://enifex.com/
 repository: 
 issue: 
 icon: com.blockchaincommodities.enifex.png

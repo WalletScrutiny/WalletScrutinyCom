@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://natiol.io
+website: https://walletscrutiny.com/brokenlink/https://natiol.io
 repository: 
 issue: 
 icon: io.natiol.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.uzuras.net/
+website: https://web.archive.org/web/20210616174512/https://www.uzuras.net/
 repository: 
 issue: 
 icon: net.uzuras.uzuras.png

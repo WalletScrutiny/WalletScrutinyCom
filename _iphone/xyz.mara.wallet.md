@@ -13,7 +13,7 @@ version: 1.5.2
 stars: 4.7
 reviews: 798
 size: '90232832'
-website: https://mara.xyz
+website: https://walletscrutiny.com/brokenlink/https://mara.xyz
 repository: 
 issue: 
 icon: xyz.mara.wallet.jpg

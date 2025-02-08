@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.ublex.com/
+website: https://walletscrutiny.com/brokenlink/https://www.ublex.com/
 repository: 
 issue: 
 icon: com.ublex.png

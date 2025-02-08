@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/lyopayofficial
 - https://www.instagram.com/lyopayofficial/
 - https://t.me/lyopay
-- https://www.linkedin.com/company/lyopay/
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/lyopay/
 features: 
 developerName: DIGILYO APP LTD
 

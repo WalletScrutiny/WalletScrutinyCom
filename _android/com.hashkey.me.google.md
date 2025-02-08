@@ -14,7 +14,7 @@ stars: 4.8
 ratings: 
 reviews: 1
 size: 
-website: https://me.hashkey.com/
+website: https://web.archive.org/web/20201101015102/https://me.hashkey.com/
 repository: 
 issue: 
 icon: com.hashkey.me.google.png

@@ -13,7 +13,7 @@ version: 5.4.3
 stars: 3.3
 reviews: 19
 size: '68724736'
-website: https://www.moonxbt.com
+website: https://web.archive.org/web/20221102084357/https://www.moonxbt.com/
 repository: 
 issue: 
 icon: com.nano.moonxbt.jpg

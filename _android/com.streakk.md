@@ -14,7 +14,7 @@ stars: 4
 ratings: 
 reviews: 2
 size: 
-website: https://odbdrwodqyzixyxti.earn.world/
+website: https://web.archive.org/web/20240525052305/https://odbdrwodqyzixyxti.earn.world/
 repository: 
 issue: 
 icon: com.streakk.png
@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: streakkofficial
 social:
-- https://www.facebook.com/profile.php?id=100082035586084
+- https://walletscrutiny.com/brokenlink/https://www.facebook.com/profile.php?id=100082035586084
 - https://www.youtube.com/channel/UCoUO11LtezWh-HmuNUe0WbA
 - https://t.me/streakkofficial
 - https://medium.com/@streakkofficial

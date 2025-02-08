@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://dashboard.criptohub.com.br/
+website: https://web.archive.org/web/20190131054346/https://dashboard.criptohub.com.br/
 repository: 
 issue: 
 icon: com.criptohub.png

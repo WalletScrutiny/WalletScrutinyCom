@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://fdao.vn/
+website: https://web.archive.org/web/20231030173740/https://fdao.vn/
 repository: 
 issue: 
 icon: com.fdao.dawallet.png

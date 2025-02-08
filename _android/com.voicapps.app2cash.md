@@ -14,7 +14,7 @@ stars: 4.4
 ratings: 
 reviews: 2
 size: 
-website: http://www.2cash.io
+website: https://www.2cash.io
 repository: 
 issue: 
 icon: com.voicapps.app2cash.png

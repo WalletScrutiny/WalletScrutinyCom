@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.f-x5.com
+website: https://walletscrutiny.com/brokenlink/https://www.f-x5.com
 repository: 
 issue: 
 icon: com.hustay.swing.d04aa7a2eb60648aaab1ff92aa1d4e72f.png

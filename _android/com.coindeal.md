@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://coindeal.com/
+website: https://walletscrutiny.com/brokenlink/https://coindeal.com/
 repository: 
 issue: 
 icon: com.coindeal.png
@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: coindealcom
 social:
-- https://www.linkedin.com/company/coindealcom
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/coindealcom
 - https://www.facebook.com/coindealcom
 redirect_from: 
 developerName: CoinDeal Limited

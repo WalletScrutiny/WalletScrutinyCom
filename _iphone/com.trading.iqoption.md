@@ -13,7 +13,7 @@ version: '4.73'
 stars: 3.8
 reviews: 1251
 size: '160111616'
-website: http://eu.iqoption.com
+website: https://eu.iqoption.com
 repository: 
 issue: 
 icon: com.trading.iqoption.jpg

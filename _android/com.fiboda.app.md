@@ -14,7 +14,7 @@ stars: 4.4
 ratings: 437
 reviews: 2
 size: 
-website: http://www.fiboda.com
+website: https://walletscrutiny.com/brokenlink/https://www.fiboda.com
 repository: 
 issue: 
 icon: com.fiboda.app.png

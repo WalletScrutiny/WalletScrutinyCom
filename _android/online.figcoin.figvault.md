@@ -14,7 +14,7 @@ stars: 4.4
 ratings: 42
 reviews: 27
 size: 
-website: https://figcoin.online
+website: https://walletscrutiny.com/brokenlink/https://figcoin.online
 repository: 
 issue: 
 icon: online.figcoin.figvault.png

@@ -14,7 +14,7 @@ stars: 4
 ratings: 
 reviews: 97
 size: 
-website: http://core.app
+website: https://core.app
 repository: 
 issue: 
 icon: com.avaxwallet.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.bitlink.pro
+website: https://web.archive.org/web/20210119040608/http://www.bitlink.pro/
 repository: 
 issue: 
 icon: com.bitlink.smarttrade.png

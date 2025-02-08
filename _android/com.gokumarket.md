@@ -14,7 +14,7 @@ stars: 4.8
 ratings: 
 reviews: 1228
 size: 
-website: https://www.gokumarket.com
+website: https://web.archive.org/web/20201101024530/https://gokumarket.com/
 repository: 
 issue: 
 icon: com.gokumarket.png
@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: GokuMarket
 social:
-- https://www.linkedin.com/company/gokumarket
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/gokumarket
 - https://www.facebook.com/gokumarket
 - https://www.youtube.com/channel/UCuPj-EJfPshor3dSfRm4QrA
 - https://www.facebook.com/gokumarket/

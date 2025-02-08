@@ -13,7 +13,7 @@ version: 1.7.7
 stars: 4.8
 reviews: 5
 size: 52336640
-website: https://hexawallet.io/
+website: https://web.archive.org/web/20201119064859/https://hexawallet.io
 repository: 
 issue: 
 icon: io.hexawallet.hexa.jpg

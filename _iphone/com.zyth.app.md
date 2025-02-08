@@ -13,7 +13,7 @@ version: '4.0'
 stars: 5
 reviews: 1
 size: '38275072'
-website: https://www.uzyth.com/
+website: https://walletscrutiny.com/brokenlink/https://www.uzyth.com/
 repository: 
 issue: 
 icon: com.zyth.app.jpg

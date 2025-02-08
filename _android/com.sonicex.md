@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.sonicex.com/welcome
+website: https://walletscrutiny.com/brokenlink/https://www.sonicex.com/welcome
 repository: 
 issue: 
 icon: com.sonicex.png

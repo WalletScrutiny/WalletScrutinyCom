@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: CoinPlace and Just5
 providerWebsite: 
-website: https://web.archive.org/web/20181115054705/http://www.coinphone.io/
+website: https://web.archive.org/web/20240918155027/https://www.coinphone.io/
 shop: 
 country: RU
 price: 99EUR

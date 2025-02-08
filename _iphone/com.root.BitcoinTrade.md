@@ -13,7 +13,7 @@ version: 4.7.10
 stars: 3.8
 reviews: 978
 size: '47139840'
-website: http://ripio.com/br/ripiotrade/
+website: https://ripio.com/br/ripiotrade/
 repository: 
 issue: 
 icon: com.root.BitcoinTrade.jpg
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://www.linkedin.com/company/bitcointrade
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/bitcointrade
 - https://www.facebook.com/BitcointradeBR
 features: 
 developerName: PeerTrade Digital

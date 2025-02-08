@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.coinx.pro/index
+website: https://web.archive.org/web/20190327085442/https://www.coinx.pro/index
 repository: 
 issue: 
 icon: pro.coinx.app.png

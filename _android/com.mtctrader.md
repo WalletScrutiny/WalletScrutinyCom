@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://mtctraders.com
+website: https://web.archive.org/web/20230331021743/https://mtctraders.com/
 repository: 
 issue: 
 icon: com.mtctrader.png

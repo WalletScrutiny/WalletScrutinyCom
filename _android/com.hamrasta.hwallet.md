@@ -14,7 +14,7 @@ stars: 4.1
 ratings: 135
 reviews: 7
 size: 
-website: https://hamrasta.com/hamrastamarket/
+website: https://web.archive.org/web/20220522111953/https://hamrasta.com/hamrastamarket/
 repository: 
 issue: 
 icon: com.hamrasta.hwallet.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://thebetc.com
+website: https://web.archive.org/web/20211018001723/https://thebetc.com/
 repository: 
 issue: 
 icon: com.application.betchips.png

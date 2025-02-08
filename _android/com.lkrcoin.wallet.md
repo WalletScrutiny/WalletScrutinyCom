@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://lkrcoin.io/
+website: https://web.archive.org/web/20180901022910/http://www.lkrcoin.io:80/
 repository: 
 issue: 
 icon: com.lkrcoin.wallet.png

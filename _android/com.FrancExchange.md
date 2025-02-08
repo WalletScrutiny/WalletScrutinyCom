@@ -14,7 +14,7 @@ stars:
 ratings: 283
 reviews: 
 size: 
-website: https://trade.francexchange.com/
+website: https://walletscrutiny.com/brokenlink/https://trade.francexchange.com/
 repository: 
 issue: 
 icon: com.FrancExchange.png

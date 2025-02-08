@@ -14,7 +14,7 @@ stars: 3
 ratings: 3505
 reviews: 752
 size: 
-website: https://www.huobi.co.kr
+website: https://web.archive.org/web/20200426055113/https://www.huobi.co.kr/
 repository: 
 issue: 
 icon: co.huobi.kr.jpg

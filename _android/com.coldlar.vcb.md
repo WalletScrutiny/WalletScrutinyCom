@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.vcb.com/
+website: https://web.archive.org/web/20051230173748/http://www.vcb.com:80/
 repository: 
 issue: 
 icon: com.coldlar.vcb.png

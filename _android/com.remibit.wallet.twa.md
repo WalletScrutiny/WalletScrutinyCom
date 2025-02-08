@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.remibit.com
+website: https://web.archive.org/web/20210512110806/https://www.remibit.com/
 repository: 
 issue: 
 icon: com.remibit.wallet.twa.png

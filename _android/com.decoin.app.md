@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.decoin.io
+website: https://walletscrutiny.com/brokenlink/https://www.decoin.io
 repository: 
 issue: 
 icon: com.decoin.app.png

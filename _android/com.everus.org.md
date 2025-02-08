@@ -14,7 +14,7 @@ stars: 4.9
 ratings: 7592
 reviews: 229
 size: 
-website: https://www.everus.org
+website: https://web.archive.org/web/20201101012618/https://everus.org/
 repository: 
 issue: 
 icon: com.everus.org.png
@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: everusworld
 social:
-- https://www.linkedin.com/company/everusworld
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/everusworld
 - https://www.facebook.com/EverusWorld
 redirect_from: 
 developerName: 

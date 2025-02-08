@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.bluekeymarket.com
+website: https://walletscrutiny.com/brokenlink/https://www.bluekeymarket.com
 repository: 
 issue: 
 icon: com.application.galaxywallet.png

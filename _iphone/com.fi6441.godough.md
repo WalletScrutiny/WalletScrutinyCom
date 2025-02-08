@@ -13,7 +13,7 @@ version: 4016.0.1
 stars: 4.8
 reviews: 1524
 size: '232140800'
-website: https://www.signalfinancialfcu.org/
+website: https://web.archive.org/web/20170706134036/https://www.signalfinancialfcu.org/
 repository: 
 issue: 
 icon: com.fi6441.godough.jpg

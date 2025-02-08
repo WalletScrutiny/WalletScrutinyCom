@@ -13,7 +13,7 @@ stars: 4.6
 ratings: 
 reviews: 
 size: 
-website: https://centralex.com
+website: https://walletscrutiny.com/brokenlink/https://centralex.com
 repository: 
 issue: 
 icon: com.centralex.app.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://bitcoin-hubs.com
+website: https://walletscrutiny.com/brokenlink/https://bitcoin-hubs.com
 repository: 
 issue: 
 icon: com.youngphubs.app.png

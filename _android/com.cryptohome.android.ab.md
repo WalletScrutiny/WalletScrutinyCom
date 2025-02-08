@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://cryptohome.ng
+website: https://walletscrutiny.com/brokenlink/https://cryptohome.ng
 repository: 
 issue: 
 icon: com.cryptohome.android.ab.jpg

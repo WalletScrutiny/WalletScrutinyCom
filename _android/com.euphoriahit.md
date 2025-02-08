@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://euphoria.games/
+website: https://web.archive.org/web/20241209123922/http://euphoria.games/
 repository: 
 issue: 
 icon: com.euphoriahit.png

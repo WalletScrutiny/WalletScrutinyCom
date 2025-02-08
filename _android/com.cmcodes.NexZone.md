@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://nexzonex.com/
+website: https://web.archive.org/web/20211201154233/https://nexzonex.com/
 repository: 
 issue: 
 icon: com.cmcodes.NexZone.png

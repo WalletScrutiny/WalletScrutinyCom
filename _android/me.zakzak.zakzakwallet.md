@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.zakzak.me
+website: https://web.archive.org/web/20210619211033/http://zakzak.me/
 repository: 
 issue: 
 icon: me.zakzak.zakzakwallet.png

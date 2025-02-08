@@ -15,7 +15,7 @@ stars: 4.2
 ratings: 555
 reviews: 70
 size: 
-website: https://ccwalletapp.com/
+website: https://walletscrutiny.com/brokenlink/https://ccwalletapp.com/
 repository: https://github.com/coincasso/ccwallet
 issue: https://github.com/coincasso/ccwallet/issues/1
 icon: com.ccwalletapp.png

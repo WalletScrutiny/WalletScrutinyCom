@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.koinzaar.com/
+website: https://walletscrutiny.com/brokenlink/https://www.koinzaar.com/
 repository: 
 issue: 
 icon: com.koinzaar.app.png

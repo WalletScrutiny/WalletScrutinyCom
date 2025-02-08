@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://gxt.global
+website: https://walletscrutiny.com/brokenlink/https://gxt.global
 repository: 
 issue: 
 icon: com.xgt.png

@@ -13,7 +13,7 @@ stars: 3.4
 ratings: 
 reviews: 4
 size: 
-website: http://menapay.io
+website: https://menapay.io
 repository: 
 issue: 
 icon: io.menapay.png

@@ -14,7 +14,7 @@ stars: 3.5
 ratings: 
 reviews: 8
 size: 
-website: https://kryl.io
+website: https://web.archive.org/web/20240920063823/http://www.kryl.io/
 repository: 
 issue: 
 icon: io.kryll.app2.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://q8ecoin.com
+website: https://web.archive.org/web/20240522140436/https://q8ecoin.com/
 repository: 
 issue: 
 icon: io.q8ecoin.bankwallet.png

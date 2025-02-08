@@ -13,7 +13,7 @@ version: 2.7.0
 stars: 0
 reviews: 0
 size: '62406656'
-website: http://www.jubiterwallet.com
+website: https://walletscrutiny.com/brokenlink/https://www.jubiterwallet.com
 repository: 
 issue: 
 icon: com.feitian.jubiterwallet.jpg

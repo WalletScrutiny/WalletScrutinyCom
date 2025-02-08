@@ -14,7 +14,7 @@ stars: 4.6
 ratings: 
 reviews: 
 size: 
-website: https://wallet.lyofi.com/
+website: https://web.archive.org/web/20220713145506/https://www.wallet.lyofi.com/
 repository: 
 issue: 
 icon: com.lyofi.wallet.png
@@ -30,7 +30,7 @@ social:
 - https://www.facebook.com/lyopayofficial
 - https://www.instagram.com/lyopayofficial/
 - https://t.me/lyopay
-- https://www.linkedin.com/company/lyopay/
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/lyopay/
 redirect_from: 
 developerName: DIGILYO APP LTD
 features: 

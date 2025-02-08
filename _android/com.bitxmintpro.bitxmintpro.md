@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bitxmintpro.com
+website: https://web.archive.org/web/20201127230035/https://bitxmintpro.com/
 repository: 
 issue: 
 icon: com.bitxmintpro.bitxmintpro.png

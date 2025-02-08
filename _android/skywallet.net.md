@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 5.7M
-website: https://skywallet.net
+website: https://web.archive.org/web/20200803172427/http://skywallet.net/
 repository: 
 issue: 
 icon: skywallet.net.jpg

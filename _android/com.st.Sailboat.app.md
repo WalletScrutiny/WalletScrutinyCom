@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://apper.cc/privacy
+website: https://web.archive.org/web/20220625021904/https://apper.cc/privacy
 repository: 
 issue: 
 icon: com.st.Sailboat.app.png

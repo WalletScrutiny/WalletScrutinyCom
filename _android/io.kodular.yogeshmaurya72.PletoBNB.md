@@ -13,7 +13,7 @@ stars: 4.1
 ratings: 
 reviews: 
 size: 
-website: https://www.pletobnb.io/
+website: https://web.archive.org/web/20220306095641/https://www.pletobnb.io/
 repository: 
 issue: 
 icon: io.kodular.yogeshmaurya72.PletoBNB.png

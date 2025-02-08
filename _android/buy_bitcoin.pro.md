@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://buy-bitcoin.pro
+website: https://web.archive.org/web/20190710152051/https://buy-bitcoin.pro/
 repository: 
 issue: 
 icon: buy_bitcoin.pro.png

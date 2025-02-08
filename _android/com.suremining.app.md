@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://sureminingtradeoptions.com/
+website: https://walletscrutiny.com/brokenlink/https://sureminingtradeoptions.com/
 repository: 
 issue: 
 icon: com.suremining.app.png

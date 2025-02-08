@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.cursdaq.com/
+website: https://web.archive.org/web/20211130204258/http://cursdaq.com/
 repository: 
 issue: 
 icon: fcm.cursdaq.com.jpg

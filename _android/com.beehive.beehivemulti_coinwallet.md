@@ -14,7 +14,7 @@ stars: 2.7
 ratings: 
 reviews: 9
 size: 
-website: https://beehivewallet.link
+website: https://walletscrutiny.com/brokenlink/https://beehivewallet.link
 repository: 
 issue: 
 icon: com.beehive.beehivemulti_coinwallet.png

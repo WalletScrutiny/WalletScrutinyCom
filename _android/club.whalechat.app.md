@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.whalechat.app
+website: https://walletscrutiny.com/brokenlink/https://www.whalechat.app
 repository: 
 issue: 
 icon: club.whalechat.app.png

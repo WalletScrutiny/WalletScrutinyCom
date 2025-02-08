@@ -14,7 +14,7 @@ stars: 4.2
 ratings: 65
 reviews: 41
 size: 25M
-website: https://ninjacoin.org/
+website: https://walletscrutiny.com/brokenlink/https://ninjacoin.org/
 repository: 
 issue: 
 icon: com.ninjacoin.png

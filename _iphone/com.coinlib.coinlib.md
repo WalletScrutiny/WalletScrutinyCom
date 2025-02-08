@@ -13,7 +13,7 @@ version: '1.0'
 stars: 3.7
 reviews: 11
 size: '70871040'
-website: https://coinlib.io
+website: https://web.archive.org/web/20210623144127/http://coinlib.io/
 repository: 
 issue: 
 icon: com.coinlib.coinlib.jpg

@@ -14,7 +14,7 @@ stars: 4.8
 ratings: 3484084
 reviews: 965514
 size: 
-website: http://www.mercadopago.com
+website: https://www.mercadopago.com
 repository: 
 issue: 
 icon: com.mercadopago.wallet.png

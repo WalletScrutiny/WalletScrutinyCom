@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://xnano.com.br
+website: https://web.archive.org/web/20230402113823/https://www.xnano.com.br/
 repository: 
 issue: 
 icon: com.inf.os.xnanoandroid.png

@@ -13,7 +13,7 @@ version: 5.14.0
 stars: 3.8
 reviews: 115
 size: '56109056'
-website: https://incognito.org
+website: https://web.archive.org/web/20170610061318/http://incognito.org/
 repository: https://github.com/incognitochain/incognito-wallet
 issue: 
 icon: com.incognito.wallet.jpg

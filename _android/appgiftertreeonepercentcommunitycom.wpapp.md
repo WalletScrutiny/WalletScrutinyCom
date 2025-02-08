@@ -13,7 +13,7 @@ stars: 5
 ratings: 
 reviews: 7
 size: 
-website: http://www.theonepercentcommunity.com
+website: https://www.theonepercentcommunity.com
 repository: 
 issue: 
 icon: appgiftertreeonepercentcommunitycom.wpapp.png

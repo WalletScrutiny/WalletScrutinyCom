@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.cent.finance
+website: https://www.cent.finance
 repository: 
 issue: 
 icon: com.atlas.mobile.wallet.png

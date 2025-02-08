@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.qume.io
+website: https://walletscrutiny.com/brokenlink/https://www.qume.io
 repository: 
 issue: 
 icon: com.qume.app.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.proof.la/
+website: https://walletscrutiny.com/brokenlink/https://www.proof.la/
 repository: 
 issue: 
 icon: com.idcg.idcw.dz.png

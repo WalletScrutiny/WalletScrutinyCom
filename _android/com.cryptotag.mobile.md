@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.cryptotag.financial
+website: https://web.archive.org/web/20171123071056/https://cryptotag.financial//
 repository: 
 issue: 
 icon: com.cryptotag.mobile.png

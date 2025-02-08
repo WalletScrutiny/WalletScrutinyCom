@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.tradebtccoin.com
+website: https://walletscrutiny.com/brokenlink/https://www.tradebtccoin.com
 repository: 
 issue: 
 icon: com.tradebtccoin.png

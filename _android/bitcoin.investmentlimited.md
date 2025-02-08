@@ -14,7 +14,7 @@ stars: 4.1
 ratings: 75
 reviews: 46
 size: 10M
-website: http://www.forexsignals99.com/
+website: https://web.archive.org/web/20240905054950/https://forexsignals99.com/
 repository: 
 issue: 
 icon: bitcoin.investmentlimited.png

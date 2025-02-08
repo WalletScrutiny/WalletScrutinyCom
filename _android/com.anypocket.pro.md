@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://anypocket.io
+website: https://web.archive.org/web/20211126080657/http://anypocket.io/
 repository: 
 issue: 
 icon: com.anypocket.pro.png

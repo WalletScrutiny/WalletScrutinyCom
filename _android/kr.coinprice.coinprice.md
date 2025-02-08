@@ -13,7 +13,7 @@ stars: 4.4
 ratings: 
 reviews: 
 size: 
-website: http://coinprice.kr
+website: https://walletscrutiny.com/brokenlink/https://coinprice.kr
 repository: 
 issue: 
 icon: kr.coinprice.coinprice.png

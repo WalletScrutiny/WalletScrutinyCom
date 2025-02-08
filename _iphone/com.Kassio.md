@@ -13,7 +13,7 @@ version: 1.1.2
 stars: 5
 reviews: 12
 size: '140860416'
-website: https://kassio.com/contact
+website: https://web.archive.org/web/20220619145855/https://www.kassio.com/contact
 repository: 
 issue: 
 icon: com.Kassio.jpg

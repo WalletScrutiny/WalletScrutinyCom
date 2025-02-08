@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.wisekey.com
+website: https://www.wisekey.com
 repository: 
 issue: 
 icon: com.wisekey.wisewallet.png

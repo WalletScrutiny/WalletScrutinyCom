@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://724borsa.com/
+website: https://web.archive.org/web/20210622012937/https://724borsa.com/
 repository: 
 issue: 
 icon: com.yyborsa.png

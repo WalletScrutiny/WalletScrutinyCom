@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: coin_inn
 social:
-- https://www.linkedin.com/company/coininnwealthuab
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/coininnwealthuab
 - https://www.facebook.com/groups/140841034691073
 - https://discord.com/invite/kk9yYxUB
 features: 

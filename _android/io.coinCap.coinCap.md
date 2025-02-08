@@ -14,7 +14,7 @@ stars: 3.8
 ratings: 
 reviews: 355
 size: 
-website: http://coincap.io/
+website: https://coincap.io/
 repository: 
 issue: 
 icon: io.coinCap.coinCap.png

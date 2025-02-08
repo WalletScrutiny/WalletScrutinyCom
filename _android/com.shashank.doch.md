@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://dochcoin.com/
+website: https://web.archive.org/web/20200804054430/https://www.dochcoin.com/
 repository: 
 issue: 
 icon: com.shashank.doch.png

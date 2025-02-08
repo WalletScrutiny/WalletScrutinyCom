@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.creativecodez.com
+website: https://web.archive.org/web/20220905122910/https://www.creativecodez.com/
 repository: 
 issue: 
 icon: com.joydc.app.png

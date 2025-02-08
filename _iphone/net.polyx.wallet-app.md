@@ -13,7 +13,7 @@ version: 1.3.0
 stars: 0
 reviews: 0
 size: '24367104'
-website: https://wallet.polyx.net
+website: https://walletscrutiny.com/brokenlink/https://wallet.polyx.net
 repository: 
 issue: 
 icon: net.polyx.wallet-app.jpg

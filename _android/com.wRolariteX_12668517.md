@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 
 reviews: 
 size: 
-website: https://www.bitcoin.rolarite.com
+website: https://web.archive.org/web/20201123093609/https://www.bitcoin.rolarite.com/
 repository: 
 issue: 
 icon: com.wRolariteX_12668517.jpg

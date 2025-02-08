@@ -13,7 +13,7 @@ version: 1.1.2
 stars: 5
 reviews: 10
 size: '36616192'
-website: https://wallet-balancenetwork.io/
+website: https://web.archive.org/web/20230410151927/https://www.wallet-balancenetwork.io/
 repository: 
 issue: 
 icon: com.reacnative.js.balancenetwork.wallet.jpg
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: balancenetwork_
 social:
-- https://www.linkedin.com/company/balancenetwork
+- https://web.archive.org/web/20240717182626/https://www.linkedin.com/company/balancenetwork
 - https://www.facebook.com/BalanceNetworkOfficial
 - https://balancenetwork.medium.com
 - https://www.tiktok.com/@balancenetwork_

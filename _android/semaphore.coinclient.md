@@ -14,7 +14,7 @@ stars:
 ratings: 55
 reviews: 
 size: 
-website: http://cointong.io/
+website: https://web.archive.org/web/20220625151407/https://cointong.io/
 repository: 
 issue: 
 icon: semaphore.coinclient.png

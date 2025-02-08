@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.colover.com/
+website: https://web.archive.org/web/20180728211815/http://www.colover.com:80/
 repository: 
 issue: 
 icon: com.colover.coin.png

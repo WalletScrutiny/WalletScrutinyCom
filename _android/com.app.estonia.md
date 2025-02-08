@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.bitayglobal.com/
+website: https://web.archive.org/web/20220314025622/https://www.bitayglobal.com/
 repository: 
 issue: 
 icon: com.app.estonia.png

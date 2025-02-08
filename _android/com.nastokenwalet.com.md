@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://nastokenwallet.com/
+website: https://web.archive.org/web/20211218024741/http://nastokenwallet.com/
 repository: 
 issue: 
 icon: com.nastokenwalet.com.png

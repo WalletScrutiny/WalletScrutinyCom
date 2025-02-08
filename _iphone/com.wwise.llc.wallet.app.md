@@ -13,7 +13,7 @@ version: 2.6.4
 stars: 0
 reviews: 0
 size: '91015168'
-website: https://wise.win
+website: https://web.archive.org/web/20210621015914/https://wise.win/
 repository: 
 issue: 
 icon: com.wwise.llc.wallet.app.jpg

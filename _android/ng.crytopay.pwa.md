@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://cryptopay.ng/
+website: https://web.archive.org/web/20201230141403/https://cryptopay.ng/
 repository: 
 issue: 
 icon: ng.crytopay.pwa.png

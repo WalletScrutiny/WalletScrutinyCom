@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: Jing Yan
 providerWebsite: 
-website: https://justsafe.io
+website: https://web.archive.org/web/20210608152556/https://justsafe.io/
 shop: 
 country: 
 price: 

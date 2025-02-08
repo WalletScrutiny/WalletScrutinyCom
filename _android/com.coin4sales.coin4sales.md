@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.coin4sales.com/tos
+website: https://walletscrutiny.com/brokenlink/https://www.coin4sales.com/tos
 repository: 
 issue: 
 icon: com.coin4sales.coin4sales.png

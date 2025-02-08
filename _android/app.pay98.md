@@ -14,7 +14,7 @@ stars: 4.6
 ratings: 15329
 reviews: 531
 size: 
-website: https://pay98.app/
+website: https://web.archive.org/web/20221122025014/https://pay98.app/
 repository: 
 issue: 
 icon: app.pay98.png

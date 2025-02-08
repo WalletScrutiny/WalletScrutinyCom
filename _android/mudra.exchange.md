@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://mudra.exchange/
+website: https://mudra.exchange/
 repository: 
 issue: 
 icon: mudra.exchange.png

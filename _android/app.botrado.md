@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://botrado.net
+website: https://walletscrutiny.com/brokenlink/https://botrado.net
 repository: 
 issue: 
 icon: app.botrado.png

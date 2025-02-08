@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.bitcoinpeople.it
+website: https://www.bitcoinpeople.it
 repository: 
 issue: 
 icon: it.baloo.bitcoinpeople.png

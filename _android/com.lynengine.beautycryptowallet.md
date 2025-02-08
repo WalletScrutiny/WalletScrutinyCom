@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.lynengine.com/
+website: https://web.archive.org/web/20180823080450/http://www.lynengine.com/
 repository: 
 issue: 
 icon: com.lynengine.beautycryptowallet.png

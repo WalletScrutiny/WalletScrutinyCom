@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://tehran.exchange
+website: https://walletscrutiny.com/brokenlink/https://tehran.exchange
 repository: 
 issue: 
 icon: com.tehranExchangeGroup.tehran_exchange.png

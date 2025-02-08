@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.suncapital.lk
+website: https://web.archive.org/web/20210319124722/https://www.suncapital.lk/
 repository: 
 issue: 
 icon: lk.suncapital.chp.png

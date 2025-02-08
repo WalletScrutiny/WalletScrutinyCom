@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 8.4M
-website: http://www.pentasecurity.com
+website: https://www.pentasecurity.com
 repository: 
 issue: 
 icon: com.pentasecurity.pallet.png

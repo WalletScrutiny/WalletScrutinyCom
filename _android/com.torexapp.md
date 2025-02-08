@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://torex.one/ru/
+website: https://walletscrutiny.com/brokenlink/https://torex.one/ru/
 repository: 
 issue: 
 icon: com.torexapp.png

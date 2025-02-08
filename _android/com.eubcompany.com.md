@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://eubcompany.com/
+website: https://web.archive.org/web/20210725112610/https://eubcompany.com/
 repository: 
 issue: 
 icon: com.eubcompany.com.jpg

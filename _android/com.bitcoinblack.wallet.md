@@ -15,7 +15,7 @@ stars: 3.8
 ratings: 1690
 reviews: 64
 size: 
-website: https://bitcoin.black
+website: https://web.archive.org/web/20201101000036/https://bitcoin.black/
 repository: 
 issue: 
 icon: com.bitcoinblack.wallet.png

@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: WOOKONG
 providerWebsite: https://wooko.ng/en
-website: https://wooko.ng/en/blue
+website: https://walletscrutiny.com/brokenlink/https://wooko.ng/en/blue
 shop: https://wooko.ng/en/blue
 country: CH
 price: 

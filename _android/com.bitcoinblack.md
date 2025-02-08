@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.bitcoinblackcreditcard.com
+website: https://walletscrutiny.com/brokenlink/https://www.bitcoinblackcreditcard.com
 repository: 
 issue: 
 icon: com.bitcoinblack.jpg

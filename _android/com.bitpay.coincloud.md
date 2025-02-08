@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 235
 reviews: 101
 size: 
-website: https://www.coin.cloud
+website: https://web.archive.org/web/20210616115922/https://www.coin.cloud/
 repository: 
 issue: 
 icon: com.bitpay.coincloud.png

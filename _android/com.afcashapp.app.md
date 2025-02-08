@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://afcash.app
+website: https://web.archive.org/web/20211125053619/http://afcash.app/
 repository: 
 issue: 
 icon: com.afcashapp.app.png

@@ -13,7 +13,7 @@ version: 1.6.82
 stars: 4.5
 reviews: 31
 size: '65753088'
-website: https://www.vibra.one/
+website: https://web.archive.org/web/20220308163639/https://www.vibra.one/
 repository: 
 issue: 
 icon: com.abl.vibra.jpg

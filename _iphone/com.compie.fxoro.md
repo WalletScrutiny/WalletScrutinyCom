@@ -13,7 +13,7 @@ version: 1.5.3
 stars: 0
 reviews: 0
 size: '66716672'
-website: http://fxoro.com
+website: https://fxoro.com
 repository: 
 issue: 
 icon: com.compie.fxoro.jpg

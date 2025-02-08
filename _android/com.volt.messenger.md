@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.voltmessenger.com
+website: https://walletscrutiny.com/brokenlink/https://www.voltmessenger.com
 repository: 
 issue: 
 icon: com.volt.messenger.png

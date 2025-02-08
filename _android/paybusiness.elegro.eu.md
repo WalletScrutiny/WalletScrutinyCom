@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://business.elegro.eu/elegro-business-wallet
+website: https://web.archive.org/web/20200809091346/https://business.elegro.eu/elegro-business-wallet
 repository: 
 issue: 
 icon: paybusiness.elegro.eu.jpg

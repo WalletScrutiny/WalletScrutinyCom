@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.isupex.com
+website: https://walletscrutiny.com/brokenlink/https://www.isupex.com
 repository: 
 issue: 
 icon: com.superx.isupex.png

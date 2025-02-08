@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.okanuysal.com/
+website: https://web.archive.org/web/20240827221317/https://www.okanuysal.com/
 repository: 
 issue: 
 icon: cointrade.uysal.development.cointradesimulation.png

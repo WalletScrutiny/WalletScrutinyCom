@@ -14,7 +14,7 @@ stars: 2.7
 ratings: 20
 reviews: 14
 size: 23M
-website: https://folgory.com/
+website: https://walletscrutiny.com/brokenlink/https://folgory.com/
 repository: 
 issue: 
 icon: folgory.folgory.png

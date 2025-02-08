@@ -13,7 +13,7 @@ stars: 2.8
 ratings: 58803
 reviews: 2066
 size: 
-website: http://electroneum.com
+website: https://electroneum.com
 repository: 
 issue: 
 icon: com.electroneum.mobile.png

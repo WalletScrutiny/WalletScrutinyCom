@@ -13,7 +13,7 @@ stars: 4.4
 ratings: 
 reviews: 
 size: 
-website: https://exchange.bitcoindefi.eu
+website: https://web.archive.org/web/20210824134845/https://exchange.bitcoindefi.eu/
 repository: 
 issue: 
 icon: com.exchange.bitcoindefi.png

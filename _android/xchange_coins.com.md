@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 9.5M
-website: https://www.xchange-coins.com
+website: https://web.archive.org/web/20180806034406/http://xchange-coins.com/
 repository: 
 issue: 
 icon: xchange_coins.com.png

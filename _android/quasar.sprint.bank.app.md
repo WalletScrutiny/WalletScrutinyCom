@@ -13,7 +13,7 @@ stars: 2.7
 ratings: 
 reviews: 
 size: 
-website: https://sprint-bank.com/
+website: https://web.archive.org/web/20230205075247/http://sprint-bank.com/
 repository: 
 issue: 
 icon: quasar.sprint.bank.app.jpg

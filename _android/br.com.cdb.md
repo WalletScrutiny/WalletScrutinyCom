@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.coindigitalbank.com/
+website: https://walletscrutiny.com/brokenlink/https://www.coindigitalbank.com/
 repository: 
 issue: 
 icon: br.com.cdb.png

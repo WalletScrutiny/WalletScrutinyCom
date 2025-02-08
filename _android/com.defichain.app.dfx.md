@@ -14,7 +14,7 @@ stars: 3.5
 ratings: 
 reviews: 2
 size: 
-website: https://dfx.swiss/defichain/
+website: https://web.archive.org/web/20221129213841/https://dfx.swiss/defichain/
 repository: 
 issue: 
 icon: com.defichain.app.dfx.png

@@ -14,7 +14,7 @@ stars: 5
 ratings: 
 reviews: 3
 size: 
-website: http://myecurrencyng.com
+website: https://myecurrencyng.com
 repository: 
 issue: 
 icon: com.myecurrency.jpg

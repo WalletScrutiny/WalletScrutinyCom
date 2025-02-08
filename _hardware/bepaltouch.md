@@ -15,7 +15,7 @@ dimensions:
 weight: 
 provider: BEPAL
 providerWebsite: https://bepal.pro/
-website: https://bepal.pro/bepal-touch
+website: https://web.archive.org/web/20200516111459/https://bepal.pro/bepal-touch
 shop: https://bepal.pro/bepal-touch
 country: CH
 price: 159CNY

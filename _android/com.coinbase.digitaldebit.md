@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://digitaldebit.com
+website: https://web.archive.org/web/20210616063922/https://www.digitaldebit.com/
 repository: 
 issue: 
 icon: com.coinbase.digitaldebit.png

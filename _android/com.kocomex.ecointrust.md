@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ecointrust.com
+website: https://web.archive.org/web/20210620095055/https://ecointrust.com/
 repository: 
 issue: 
 icon: com.kocomex.ecointrust.png

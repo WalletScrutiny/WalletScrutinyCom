@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://volex.io
+website: https://walletscrutiny.com/brokenlink/https://volex.io
 repository: 
 issue: 
 icon: com.algovision.volex.png

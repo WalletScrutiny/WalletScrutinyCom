@@ -14,7 +14,7 @@ stars: 4.5
 ratings: 454
 reviews: 13
 size: 
-website: http://stib.co
+website: https://web.archive.org/web/20201118084954/https://stib.co/
 repository: 
 issue: 
 icon: com.StiBLabs.StiBp2p.png

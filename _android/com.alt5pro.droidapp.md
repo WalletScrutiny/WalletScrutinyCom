@@ -14,7 +14,7 @@ stars: 4.8
 ratings: 
 reviews: 
 size: 
-website: http://alt5pro.com
+website: https://alt5pro.com
 repository: 
 issue: 
 icon: com.alt5pro.droidapp.png

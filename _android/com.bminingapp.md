@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.bmining.com/
+website: https://walletscrutiny.com/brokenlink/https://www.bmining.com/
 repository: 
 issue: 
 icon: com.bminingapp.png

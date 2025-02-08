@@ -13,7 +13,7 @@ stars: 4.3
 ratings: 
 reviews: 
 size: 
-website: https://zznex.in/
+website: https://web.archive.org/web/20230422115451/http://zznex.in/
 repository: 
 issue: 
 icon: com.zznex.app.png

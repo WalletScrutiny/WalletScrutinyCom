@@ -13,7 +13,7 @@ version: 3.1.1
 stars: 3.9
 reviews: 182
 size: '19846144'
-website: https://kelta.com
+website: https://web.archive.org/web/20220426234940/https://www.kelta.com/
 repository: 
 issue: 
 icon: com.kelta.jpg

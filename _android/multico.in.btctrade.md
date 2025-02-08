@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://multipi.net/
+website: https://web.archive.org/web/20090828171643/http://multipi.net:80/
 repository: 
 issue: 
 icon: multico.in.btctrade.png

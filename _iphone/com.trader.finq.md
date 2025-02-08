@@ -13,7 +13,7 @@ version: '2.8'
 stars: 2.7
 reviews: 39
 size: '103240704'
-website: http://www.finq.com
+website: https://www.finq.com
 repository: 
 issue: 
 icon: com.trader.finq.jpg

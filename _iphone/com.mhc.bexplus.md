@@ -14,7 +14,7 @@ version: 2.2.1
 stars: 4.7
 reviews: 225
 size: '76802048'
-website: https://www.bexplus.com/activity/cash_back
+website: https://walletscrutiny.com/brokenlink/https://www.bexplus.com/activity/cash_back
 repository: 
 issue: 
 icon: com.mhc.bexplus.jpg

@@ -14,7 +14,7 @@ stars: 2.7
 ratings: 
 reviews: 
 size: 
-website: http://www.monex.co.jp/
+website: https://web.archive.org/web/20060703160524/http://www.monex.co.jp:80/
 repository: 
 issue: 
 icon: jp.co.monex.ms.mt_crypto.png

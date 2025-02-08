@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bitchant.co/
+website: https://web.archive.org/web/20211219073712/https://bitchant.co/
 repository: 
 issue: 
 icon: com.bitchant.app.png

@@ -14,7 +14,7 @@ stars: 4.5
 ratings: 
 reviews: 20
 size: 
-website: https://privapp.network/
+website: https://web.archive.org/web/20211227190331/https://privapp.network/
 repository: 
 issue: 
 icon: network.privapp.wallet.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.coinizie.com/
+website: https://walletscrutiny.com/brokenlink/https://www.coinizie.com/
 repository: 
 issue: 
 icon: com.coinizie.com.co.png

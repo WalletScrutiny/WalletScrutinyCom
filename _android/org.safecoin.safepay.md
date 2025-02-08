@@ -14,7 +14,7 @@ stars: 4.2
 ratings: 
 reviews: 5
 size: 
-website: https://safepay.safecoin.org
+website: https://web.archive.org/web/20210618060546/https://safepay.safecoin.org/
 repository: 
 issue: 
 icon: org.safecoin.safepay.png

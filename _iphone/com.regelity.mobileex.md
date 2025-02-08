@@ -13,7 +13,7 @@ version: 2.0.46
 stars: 4.1
 reviews: 29
 size: '59282432'
-website: https://exnode.by
+website: https://web.archive.org/web/20220706084227/https://exnode.by/
 repository: 
 issue: 
 icon: com.regelity.mobileex.jpg

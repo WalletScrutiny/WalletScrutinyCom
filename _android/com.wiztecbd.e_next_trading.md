@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ginexttradingcorp.com/
+website: https://walletscrutiny.com/brokenlink/https://ginexttradingcorp.com/
 repository: 
 issue: 
 icon: com.wiztecbd.e_next_trading.png

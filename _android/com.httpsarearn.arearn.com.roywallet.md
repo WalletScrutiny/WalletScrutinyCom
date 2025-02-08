@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.roywallet.app
+website: https://walletscrutiny.com/brokenlink/https://www.roywallet.app
 repository: 
 issue: 
 icon: com.httpsarearn.arearn.com.roywallet.jpg

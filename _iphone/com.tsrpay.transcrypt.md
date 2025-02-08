@@ -13,7 +13,7 @@ version: 2.09.3
 stars: 4.4
 reviews: 23
 size: '92731392'
-website: https://tizer.io
+website: https://walletscrutiny.com/brokenlink/https://tizer.io
 repository: 
 issue: 
 icon: com.tsrpay.transcrypt.jpg

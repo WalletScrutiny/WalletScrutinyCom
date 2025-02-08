@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://bitcoinwalletcoin.com
+website: https://web.archive.org/web/20180721000859/http://bitcoinwalletcoin.com:80/
 repository: 
 issue: 
 icon: com.maxxwallet.png

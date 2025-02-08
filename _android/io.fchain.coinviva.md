@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.coinviva.com
+website: https://walletscrutiny.com/brokenlink/https://www.coinviva.com
 repository: 
 issue: 
 icon: io.fchain.coinviva.png

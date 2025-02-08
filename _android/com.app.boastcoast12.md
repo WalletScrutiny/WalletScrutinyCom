@@ -13,7 +13,7 @@ stars: 3.8
 ratings: 
 reviews: 2
 size: 
-website: https://boastcoast.com
+website: https://web.archive.org/web/20070206033052/http://www.boastcoast.com:80/
 repository: 
 issue: 
 icon: com.app.boastcoast12.png

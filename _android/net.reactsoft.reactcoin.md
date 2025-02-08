@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://reactsoft.net
+website: https://web.archive.org/web/20210624161930/http://reactsoft.net/
 repository: 
 issue: 
 icon: net.reactsoft.reactcoin.png

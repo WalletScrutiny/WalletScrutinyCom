@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://trupay.finance
+website: https://web.archive.org/web/20210622141423/http://trupay.finance/
 repository: 
 issue: 
 icon: wallet.trupay.finance.png

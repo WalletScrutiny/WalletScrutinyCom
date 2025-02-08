@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://lunatrading.io/
+website: https://web.archive.org/web/20220625064547/https://www.lunatrading.io/
 repository: 
 issue: 
 icon: com.cmgroup.luna.png

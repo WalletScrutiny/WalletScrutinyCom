@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.vrontonode.org
+website: https://web.archive.org/web/20210805053949/http://www.vrontonode.org/
 repository: 
 issue: 
 icon: org.vrontonode.wallet.png

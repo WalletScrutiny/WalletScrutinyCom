@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.publet.io/
+website: https://web.archive.org/web/20210619144227/https://www.publet.io/
 repository: 
 issue: 
 icon: com.publet.png

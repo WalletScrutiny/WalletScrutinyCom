@@ -13,7 +13,7 @@ stars: 4.4
 ratings: 119
 reviews: 14
 size: 
-website: http://Bitcoin.org
+website: https://Bitcoin.org
 repository: 
 issue: 
 icon: com.bitcoininc.bitcoinpay.png

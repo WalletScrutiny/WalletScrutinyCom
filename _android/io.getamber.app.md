@@ -14,7 +14,7 @@ stars: 4.4
 ratings: 
 reviews: 26
 size: 
-website: http://amber.app
+website: https://amber.app
 repository: 
 issue: 
 icon: io.getamber.app.png

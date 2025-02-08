@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://centerprime.tech/
+website: https://walletscrutiny.com/brokenlink/https://centerprime.tech/
 repository: 
 issue: 
 icon: com.centerprime.madi.png

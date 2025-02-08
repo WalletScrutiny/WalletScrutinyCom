@@ -14,7 +14,7 @@ stars: 3.3
 ratings: 2801
 reviews: 1642
 size: 
-website: http://fxcoin.pro
+website: https://web.archive.org/web/20220502025037/https://fxcoin.pro/
 repository: 
 issue: 
 icon: com.sharpdev.fxcoin.png

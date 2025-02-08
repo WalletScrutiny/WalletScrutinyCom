@@ -14,7 +14,7 @@ stars: 5
 ratings: 
 reviews: 32
 size: 
-website: https://www.easycoins.com/
+website: https://web.archive.org/web/20050824195406/http://www.easycoins.com:80/
 repository: 
 issue: 
 icon: com.easycoin.exchange.png

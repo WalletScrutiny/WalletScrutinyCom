@@ -13,7 +13,7 @@ stars: 4.6
 ratings: 
 reviews: 
 size: 
-website: https://coinwaypay.com/
+website: https://web.archive.org/web/20201022055629/https://coinwaypay.com/
 repository: 
 issue: 
 icon: at.coinway.coinwaypay.png

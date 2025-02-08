@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://unitedbit.com/
+website: https://web.archive.org/web/20080607093846/http://www.unitedbit.com:80/
 repository: 
 issue: 
 icon: com.unitedbit.app.png

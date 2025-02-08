@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.dalongpay.com
+website: https://web.archive.org/web/20180701112132/https://dalongpay.com/
 repository: 
 issue: 
 icon: com.dalongpay.dalongpay.png

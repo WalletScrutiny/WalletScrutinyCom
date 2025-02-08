@@ -13,7 +13,7 @@ dimensions:
 weight: 
 provider: CryptoLabs
 providerWebsite: https://choosecase.com
-website: https://choosecase.com
+website: https://walletscrutiny.com/brokenlink/https://choosecase.com
 shop: https://choosecase.com
 country: US
 price: 

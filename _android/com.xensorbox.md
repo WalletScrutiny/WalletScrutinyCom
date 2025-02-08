@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://xensor.cc
+website: https://web.archive.org/web/20210620185847/https://xensor.cc/
 repository: 
 issue: 
 icon: com.xensorbox.png

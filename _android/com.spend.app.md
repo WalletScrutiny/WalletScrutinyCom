@@ -14,7 +14,7 @@ stars: 3.5
 ratings: 479
 reviews: 129
 size: 
-website: https://www.spend.com
+website: https://web.archive.org/web/20220921124539/https://www.spend.com/
 repository: 
 issue: 
 icon: com.spend.app.png

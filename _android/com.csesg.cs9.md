@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://cs9.io
+website: https://walletscrutiny.com/brokenlink/https://cs9.io
 repository: 
 issue: 
 icon: com.csesg.cs9.png

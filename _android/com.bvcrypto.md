@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.bvcrypto.com
+website: https://web.archive.org/web/20180809003901/http://bvcrypto.com/
 repository: 
 issue: 
 icon: com.bvcrypto.png

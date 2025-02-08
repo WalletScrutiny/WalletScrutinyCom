@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.obtccoin.com
+website: https://walletscrutiny.com/brokenlink/https://www.obtccoin.com
 repository: 
 issue: 
 icon: com.obtccoin.int.jpg

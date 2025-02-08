@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.coinomo.com
+website: https://web.archive.org/web/20220926001728/http://www.coinomo.com
 repository: 
 issue: 
 icon: com.cappuu.png

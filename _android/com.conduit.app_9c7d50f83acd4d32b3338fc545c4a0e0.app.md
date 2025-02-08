@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://moolabit.com
+website: https://walletscrutiny.com/brokenlink/https://moolabit.com
 repository: 
 issue: 
 icon: com.conduit.app_9c7d50f83acd4d32b3338fc545c4a0e0.app.png

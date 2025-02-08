@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.cryptopocket.info/
+website: https://web.archive.org/web/20190423074639/http://www.cryptopocket.info:80/
 repository: 
 issue: 
 icon: app.org.cryptopocket.jpg

@@ -13,7 +13,7 @@ version: 7.4.0
 stars: 0
 reviews: 0
 size: '94376960'
-website: https://www.trade360.com
+website: https://web.archive.org/web/20220201000601/https://www.trade360.com/
 repository: 
 issue: 
 icon: com.toyga.trade360.jpg
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: Trade360_LTD
 social:
-- https://www.linkedin.com/company/trade360ltd
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/trade360ltd
 - https://www.facebook.com/Trade360LTD
 features: 
 developerName: Trade360 LTD

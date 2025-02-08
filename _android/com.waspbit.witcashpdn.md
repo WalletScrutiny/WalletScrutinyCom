@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://witcash.io/
+website: https://web.archive.org/web/20181216182909/http://witcash.io:80/
 repository: 
 issue: 
 icon: com.waspbit.witcashpdn.jpg

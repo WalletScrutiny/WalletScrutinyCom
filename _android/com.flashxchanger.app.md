@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://flashxchanger.com/
+website: https://web.archive.org/web/20180901103819/http://www.flashxchanger.com/
 repository: 
 issue: 
 icon: com.flashxchanger.app.png

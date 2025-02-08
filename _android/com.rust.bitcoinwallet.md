@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://altrafinance.io/
+website: https://web.archive.org/web/20230516195743/https://altrafinance.io/
 repository: 
 issue: 
 icon: com.rust.bitcoinwallet.png

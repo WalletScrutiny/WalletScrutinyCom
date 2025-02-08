@@ -14,7 +14,7 @@ stars: 4.2
 ratings: 
 reviews: 
 size: 
-website: https://faswet.com
+website: https://web.archive.org/web/20181123222511/http://www.faswet.com:80/
 repository: 
 issue: 
 icon: com.emet.faswet.png

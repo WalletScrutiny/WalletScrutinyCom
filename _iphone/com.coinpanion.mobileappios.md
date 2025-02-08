@@ -13,7 +13,7 @@ version: 4.4.7
 stars: 5
 reviews: 1
 size: '50393088'
-website: https://coinpanion.com/en
+website: https://web.archive.org/web/20210614111910/http://coinpanion.com/en/
 repository: 
 issue: 
 icon: com.coinpanion.mobileappios.jpg

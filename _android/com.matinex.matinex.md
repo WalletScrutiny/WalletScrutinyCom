@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.matinex.com
+website: https://web.archive.org/web/20040406080118/http://matinex.com:80/
 repository: 
 issue: 
 icon: com.matinex.matinex.png

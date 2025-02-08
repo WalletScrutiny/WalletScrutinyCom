@@ -13,7 +13,7 @@ stars: 1.9
 ratings: 
 reviews: 12
 size: 
-website: https://asin.vip/
+website: https://web.archive.org/web/20220215172545/https://asin.vip/
 repository: 
 issue: 
 icon: com.asin.app.png

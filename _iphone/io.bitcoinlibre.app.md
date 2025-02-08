@@ -13,7 +13,7 @@ version: 4.1.1
 stars: 4.4
 reviews: 431
 size: '114691072'
-website: http://bitcoinlibre.io/
+website: https://bitcoinlibre.io/
 repository: 
 issue: 
 icon: io.bitcoinlibre.app.jpg

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.aieve.io/
+website: https://web.archive.org/web/20220822200732/https://aieve.io/
 repository: 
 issue: 
 icon: com.aievemobile.png

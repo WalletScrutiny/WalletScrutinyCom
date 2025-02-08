@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.indocodex.com
+website: https://web.archive.org/web/20211027135343/https://indocodex.com/
 repository: 
 issue: 
 icon: app.indocodex.com.png

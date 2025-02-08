@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: Varies with device
-website: https://nayuta.co/core/
+website: https://web.archive.org/web/20200920194619/https://nayuta.co/core/
 repository: https://github.com/nayutaco/NayutaCore
 issue: 
 icon: com.nayuta.core.png

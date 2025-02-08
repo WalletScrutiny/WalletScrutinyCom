@@ -14,7 +14,7 @@ stars: 3.7
 ratings: 
 reviews: 144
 size: 
-website: http://www.rockwallet.com
+website: https://www.rockwallet.com
 repository: 
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/498
 icon: com.rockwallet.app.png

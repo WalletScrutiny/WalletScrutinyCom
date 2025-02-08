@@ -13,7 +13,7 @@ dimensions:
 weight: 
 provider: Skycoin
 providerWebsite: https://www.skycoin.com/
-website: https://www.skycoin.com/skywallet/
+website: https://web.archive.org/web/20220123155049/https://www.skycoin.com/skywallet/
 shop: https://store.skycoin.com/products/skywallet
 country: 
 price: 39USD

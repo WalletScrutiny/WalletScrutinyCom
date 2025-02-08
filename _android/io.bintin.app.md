@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bintin.io
+website: https://web.archive.org/web/20210907134248/https://bintin.io/
 repository: 
 issue: 
 icon: io.bintin.app.jpg

@@ -13,7 +13,7 @@ version: 3.2.0
 stars: 5
 reviews: 2
 size: '64409600'
-website: http://dsdaq.com
+website: https://web.archive.org/web/20001019002557/http://www.dsdaq.com:80/
 repository: 
 issue: 
 icon: com.dsdaq.ios.new.jpg

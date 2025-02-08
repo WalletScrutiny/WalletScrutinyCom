@@ -13,7 +13,7 @@ version: 10.6.3
 stars: 2.5
 reviews: 611
 size: '81594368'
-website: http://www.korbit.co.kr
+website: https://www.korbit.co.kr
 repository: 
 issue: 
 icon: com.korbit.exchange.jpg

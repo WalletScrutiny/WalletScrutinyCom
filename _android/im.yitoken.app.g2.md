@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://yitoken.im
+website: https://walletscrutiny.com/brokenlink/https://yitoken.im
 repository: 
 issue: 
 icon: im.yitoken.app.g2.png

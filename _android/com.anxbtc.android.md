@@ -14,7 +14,7 @@ stars: 4.1
 ratings: 135
 reviews: 10
 size: 
-website: https://anxintl.com
+website: https://web.archive.org/web/20150315001710/http://www.anxintl.com/
 repository: 
 issue: 
 icon: com.anxbtc.android.png

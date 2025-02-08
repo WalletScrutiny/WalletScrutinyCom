@@ -13,7 +13,7 @@ stars: 5
 ratings: 
 reviews: 
 size: 
-website: https://nakhlex.com
+website: https://web.archive.org/web/20221106210251/https://nakhlex.com/
 repository: 
 issue: 
 icon: com.nakhlex.exchange.png

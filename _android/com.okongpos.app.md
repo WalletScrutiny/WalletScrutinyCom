@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.okongpos.com
+website: https://www.okongpos.com
 repository: 
 issue: 
 icon: com.okongpos.app.png

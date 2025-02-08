@@ -13,7 +13,7 @@ stars: 5
 ratings: 
 reviews: 
 size: 
-website: https://hubitcoinics.org
+website: https://walletscrutiny.com/brokenlink/https://hubitcoinics.org
 repository: 
 issue: 
 icon: org.hubitcoinics.Hubitcoinics.png

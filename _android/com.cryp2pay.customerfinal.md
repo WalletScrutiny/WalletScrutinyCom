@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://cryp2.in
+website: https://web.archive.org/web/20210812160014/https://www.cryp2.in/
 repository: 
 issue: 
 icon: com.cryp2pay.customerfinal.png

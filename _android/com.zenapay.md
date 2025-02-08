@@ -14,7 +14,7 @@ stars: 5
 ratings: 
 reviews: 3
 size: 
-website: http://www.zenapay.com
+website: https://www.zenapay.com
 repository: 
 issue: 
 icon: com.zenapay.png

@@ -13,7 +13,7 @@ stars: 5
 ratings: 
 reviews: 
 size: 
-website: https://plark.io
+website: https://web.archive.org/web/20240928022547/https://www.plark.io/
 repository: 
 issue: 
 icon: com.plarkapp.png

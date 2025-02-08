@@ -14,7 +14,7 @@ stars: 3.5
 ratings: 137
 reviews: 7
 size: 
-website: https://level01.io
+website: https://walletscrutiny.com/brokenlink/https://level01.io
 repository: 
 issue: 
 icon: io.level01.android.png

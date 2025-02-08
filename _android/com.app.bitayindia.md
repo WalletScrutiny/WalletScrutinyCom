@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.bitay.co.in/
+website: https://walletscrutiny.com/brokenlink/https://www.bitay.co.in/
 repository: 
 issue: 
 icon: com.app.bitayindia.png

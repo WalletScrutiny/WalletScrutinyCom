@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: Cobo_Wallet
 social:
-- https://www.linkedin.com/company/coboofficial
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/coboofficial
 - https://www.facebook.com/coboOfficial
 features: 
 developerName: Cobo Global Limited

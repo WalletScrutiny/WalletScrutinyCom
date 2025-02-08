@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://quintex.io
+website: https://web.archive.org/web/20220528000353/https://quintex.io/
 repository: 
 issue: 
 icon: com.quintex.wallet.jpg

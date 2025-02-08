@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://coinfloww.com
+website: https://walletscrutiny.com/brokenlink/https://coinfloww.com
 repository: 
 issue: 
 icon: com.chainup.exchange.coinfloww.jpg

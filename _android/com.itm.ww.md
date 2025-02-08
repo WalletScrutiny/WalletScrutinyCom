@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.wampum1st.com
+website: https://www.wampum1st.com
 repository: 
 issue: 
 icon: com.itm.ww.png

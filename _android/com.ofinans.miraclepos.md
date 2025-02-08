@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://miraclecash.com
+website: https://web.archive.org/web/20220709014951/https://miraclecash.com/
 repository: 
 issue: 
 icon: com.ofinans.miraclepos.jpg

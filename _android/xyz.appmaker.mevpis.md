@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://dentrocoin.com
+website: https://web.archive.org/web/20220214064741/https://www.dentrocoin.com/
 repository: 
 issue: 
 icon: xyz.appmaker.mevpis.png

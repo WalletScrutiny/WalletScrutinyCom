@@ -13,7 +13,7 @@ version: 2.1.9
 stars: 4.5
 reviews: 4
 size: '25075712'
-website: https://meta-exchange.vision/home/
+website: https://web.archive.org/web/20230308120047/https://meta-exchange.vision/home/
 repository: 
 issue: 
 icon: io.meta1.appbeta.jpg

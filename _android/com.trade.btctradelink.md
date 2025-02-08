@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.btctradeonline.com
+website: https://web.archive.org/web/20180807174827/http://btctradeonline.com/
 repository: 
 issue: 
 icon: com.trade.btctradelink.png

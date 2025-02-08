@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://paperbgs.com/
+website: https://web.archive.org/web/20201112224455/https://paperbgs.com/
 repository: 
 issue: 
 icon: com.paperbgs.app.jpg

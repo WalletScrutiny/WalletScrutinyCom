@@ -13,7 +13,7 @@ version: '2.8'
 stars: 2.3
 reviews: 15
 size: '102197248'
-website: https://bitex.com
+website: https://web.archive.org/web/20201101013246/https://bitex.com/
 repository: 
 issue: 
 icon: org.bitex.exchange.jpg

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.fx24gold.com
+website: https://walletscrutiny.com/brokenlink/https://www.fx24gold.com
 repository: 
 issue: 
 icon: com.pandats.fx24gold.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://shopperoo.com
+website: https://web.archive.org/web/20220128034354/https://shopperoo.com/
 repository: 
 issue: 
 icon: com.shopperoo.wallet.png

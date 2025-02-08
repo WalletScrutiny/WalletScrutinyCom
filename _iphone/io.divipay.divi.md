@@ -13,7 +13,7 @@ version: 2.2.01215
 stars: 4.5
 reviews: 28
 size: '61079552'
-website: http://wallet.diviproject.org
+website: https://web.archive.org/web/20201101000208/https://wallet.diviproject.org/
 repository: 
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/366
 icon: io.divipay.divi.jpg

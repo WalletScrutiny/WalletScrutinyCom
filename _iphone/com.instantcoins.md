@@ -13,7 +13,7 @@ version: 1.0.5
 stars: 2.8
 reviews: 26
 size: 75852800
-website: https://instantcoins.ng/
+website: https://web.archive.org/web/20201101005626/https://instantcoins.ng/
 repository: 
 issue: 
 icon: com.instantcoins.jpg

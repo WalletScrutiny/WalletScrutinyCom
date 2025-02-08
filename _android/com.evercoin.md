@@ -14,7 +14,7 @@ stars: 3.7
 ratings: 203
 reviews: 59
 size: 
-website: https://evercoin.com
+website: https://web.archive.org/web/20180104185943/https://evercoin.com/
 repository: 
 issue: 
 icon: com.evercoin.png

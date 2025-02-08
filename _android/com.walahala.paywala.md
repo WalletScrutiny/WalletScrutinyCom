@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 52M
-website: https://walahala.com/payWala
+website: https://web.archive.org/web/20200615173550/https://walahala.com/payWala
 repository: 
 issue: 
 icon: com.walahala.paywala.png

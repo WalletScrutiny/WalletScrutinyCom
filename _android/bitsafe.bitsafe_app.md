@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://fincryptglobal.com/
+website: https://web.archive.org/web/20170702210750/http://fincryptglobal.com:80/
 repository: 
 issue: 
 icon: bitsafe.bitsafe_app.png

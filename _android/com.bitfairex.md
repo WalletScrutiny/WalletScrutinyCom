@@ -13,7 +13,7 @@ stars: 4.7
 ratings: 
 reviews: 
 size: 
-website: https://bitfairex.com
+website: https://walletscrutiny.com/brokenlink/https://bitfairex.com
 repository: 
 issue: 
 icon: com.bitfairex.png

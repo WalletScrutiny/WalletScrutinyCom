@@ -14,7 +14,7 @@ stars: 2.6
 ratings: 127
 reviews: 4
 size: 
-website: https://verafti.uk
+website: https://walletscrutiny.com/brokenlink/https://verafti.uk
 repository: 
 issue: 
 icon: com.verafti.wallet.jpg
@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: token_vera
 social:
-- https://www.linkedin.com/company/vera-token-74a925218
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/vera-token-74a925218
 redirect_from: 
 developerName: VeraFTI
 features: 

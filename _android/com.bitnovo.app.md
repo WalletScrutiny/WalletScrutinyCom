@@ -14,7 +14,7 @@ stars: 3.1
 ratings: 369
 reviews: 245
 size: 34M
-website: http://www.bitnovo.com
+website: https://www.bitnovo.com
 repository: 
 issue: 
 icon: com.bitnovo.app.png

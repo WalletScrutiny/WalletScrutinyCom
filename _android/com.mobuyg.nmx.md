@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://absurdapps.netlify.app
+website: https://web.archive.org/web/20230325043613/https://absurdapps.netlify.app/
 repository: 
 issue: 
 icon: com.mobuyg.nmx.png

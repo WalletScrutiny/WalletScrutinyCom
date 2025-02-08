@@ -14,7 +14,7 @@ stars: 4.2
 ratings: 
 reviews: 2
 size: 
-website: http://bitanex.com
+website: https://web.archive.org/web/20161222074519/http://bitanex.com:80/
 repository: 
 issue: 
 icon: org.bitanex.bitanexpro.jpg

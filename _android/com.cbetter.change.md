@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.coinbetter.com
+website: https://web.archive.org/web/20190505130313/https://www.coinbetter.com/
 repository: 
 issue: 
 icon: com.cbetter.change.png

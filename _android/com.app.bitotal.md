@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bitotal.com
+website: https://web.archive.org/web/20200501074318/https://bitotal.com/
 repository: 
 issue: 
 icon: com.app.bitotal.png

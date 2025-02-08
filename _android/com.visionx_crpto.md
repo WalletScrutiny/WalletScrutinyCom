@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://test2.visionxcrypto.com
+website: https://walletscrutiny.com/brokenlink/https://test2.visionxcrypto.com
 repository: 
 issue: 
 icon: com.visionx_crpto.png

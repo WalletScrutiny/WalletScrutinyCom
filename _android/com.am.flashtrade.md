@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.flashtrade.club/
+website: https://walletscrutiny.com/brokenlink/https://www.flashtrade.club/
 repository: 
 issue: 
 icon: com.am.flashtrade.png

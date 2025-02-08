@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://eagleoxchange.com/
+website: https://web.archive.org/web/20241109142135/http://eagleoxchange.com/
 repository: 
 issue: 
 icon: com.eagleo.exchange.png

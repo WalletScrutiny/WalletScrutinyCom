@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://neenote.net/
+website: https://web.archive.org/web/20210322023814/https://neenote.net/
 repository: 
 issue: 
 icon: net.neenote.wallet.png

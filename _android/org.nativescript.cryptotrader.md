@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.pipxplosion.com
+website: https://web.archive.org/web/20210619025014/https://pipxplosion.com/
 repository: 
 issue: 
 icon: org.nativescript.cryptotrader.jpg

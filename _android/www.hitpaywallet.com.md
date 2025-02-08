@@ -13,7 +13,7 @@ stars: 4.9
 ratings: 
 reviews: 
 size: 
-website: https://hitpaywallet.com/
+website: https://web.archive.org/web/20190828052247/http://hitpaywallet.com:80/
 repository: 
 issue: 
 icon: www.hitpaywallet.com.png

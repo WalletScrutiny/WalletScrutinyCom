@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 
 reviews: 9
 size: 
-website: https://www.btcex.com/
+website: https://web.archive.org/web/20211225092933/https://www.btcex.com/
 repository: 
 issue: 
 icon: com.btcex.exchange.png

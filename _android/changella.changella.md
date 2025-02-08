@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://changella.com
+website: https://web.archive.org/web/20211225165130/https://changella.com/
 repository: 
 issue: 
 icon: changella.changella.png

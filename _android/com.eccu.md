@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.eccu.xyz
+website: https://walletscrutiny.com/brokenlink/https://www.eccu.xyz
 repository: 
 issue: 
 icon: com.eccu.png

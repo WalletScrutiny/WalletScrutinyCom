@@ -14,7 +14,7 @@ version: 4.52.0
 stars: 4.7
 reviews: 2257
 size: '223896576'
-website: https://bingbon.com
+website: https://web.archive.org/web/20201101023753/https://bingbon.com/
 repository: 
 issue: 
 icon: pro.bingbon.finance.jpg

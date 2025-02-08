@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://airpayfinance.com/#
+website: https://web.archive.org/web/20220219093123/https://airpayfinance.com/
 repository: 
 issue: 
 icon: com.airpay.appwallet.png

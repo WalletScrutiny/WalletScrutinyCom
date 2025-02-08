@@ -13,7 +13,7 @@ stars: 4
 ratings: 1007
 reviews: 89
 size: 
-website: http://pillar.fi
+website: https://pillar.fi
 repository: https://github.com/pillarwallet/pillarwallet
 issue: 
 icon: com.pillarproject.wallet.png

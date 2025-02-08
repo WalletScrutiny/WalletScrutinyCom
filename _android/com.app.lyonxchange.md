@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://lyonxchange.com
+website: https://web.archive.org/web/20220329070453/https://lyonxchange.com/
 repository: 
 issue: 
 icon: com.app.lyonxchange.jpg

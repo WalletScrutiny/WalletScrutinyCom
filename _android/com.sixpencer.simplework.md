@@ -14,7 +14,7 @@ stars: 4.2
 ratings: 194
 reviews: 14
 size: 
-website: https://dfox.cc/
+website: https://web.archive.org/web/20201204064924/https://dfox.cc/
 repository: 
 issue: 
 icon: com.sixpencer.simplework.jpg

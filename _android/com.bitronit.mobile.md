@@ -13,7 +13,7 @@ stars: 4.7
 ratings: 
 reviews: 
 size: 
-website: https://www.bitronit.com
+website: https://walletscrutiny.com/brokenlink/https://www.bitronit.com
 repository: 
 issue: 
 icon: com.bitronit.mobile.png

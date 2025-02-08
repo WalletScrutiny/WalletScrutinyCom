@@ -13,7 +13,7 @@ version: 0.0.19
 stars: 4.1
 reviews: 28
 size: '93395968'
-website: https://unifyre.io
+website: https://web.archive.org/web/20200502131723/https://unifyre.io/
 repository: 
 issue: 
 icon: com.ferrum.unifyre.jpg

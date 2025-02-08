@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://goldenstanley.com/
+website: https://web.archive.org/web/20210620201008/https://goldenstanley.com/
 repository: 
 issue: 
 icon: com.pandats.goldenstanley.png

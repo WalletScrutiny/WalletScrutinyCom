@@ -14,7 +14,7 @@ stars: 4.2
 ratings: 186
 reviews: 13
 size: 
-website: https://www.chimpion.io/
+website: https://walletscrutiny.com/brokenlink/https://www.chimpion.io/
 repository: 
 issue: 
 icon: com.chimpion.bcdpay.png

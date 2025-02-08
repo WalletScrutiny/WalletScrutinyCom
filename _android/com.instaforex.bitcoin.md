@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.instaforex.com
+website: https://www.instaforex.com
 repository: 
 issue: 
 icon: com.instaforex.bitcoin.png

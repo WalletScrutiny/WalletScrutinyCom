@@ -13,7 +13,7 @@ stars: 4
 ratings: 
 reviews: 3
 size: 
-website: http://foxmedia.ag
+website: https://walletscrutiny.com/brokenlink/https://foxmedia.ag
 repository: 
 issue: 
 icon: mobile.cryptoscanner.com.cryptoscanner.png

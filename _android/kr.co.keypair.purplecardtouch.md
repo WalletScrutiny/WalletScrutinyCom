@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.banco.id
+website: https://web.archive.org/web/20240528192727/http://banco.id/
 repository: 
 issue: 
 icon: kr.co.keypair.purplecardtouch.png

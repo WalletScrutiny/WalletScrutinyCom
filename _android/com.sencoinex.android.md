@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://sencoinex.com
+website: https://web.archive.org/web/20210618091514/https://sencoinex.com/
 repository: 
 issue: 
 icon: com.sencoinex.android.png

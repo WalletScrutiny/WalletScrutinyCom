@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://firstwallet.pro
+website: https://walletscrutiny.com/brokenlink/https://firstwallet.pro
 repository: 
 issue: 
 icon: com.firstWallet.png

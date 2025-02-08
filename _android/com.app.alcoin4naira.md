@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://albit.live
+website: https://web.archive.org/web/20220207184735/http://albit.live/
 repository: 
 issue: 
 icon: com.app.alcoin4naira.png

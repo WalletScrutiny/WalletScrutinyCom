@@ -14,7 +14,7 @@ stars: 3.7
 ratings: 7981
 reviews: 66
 size: 
-website: http://totalcoin.io
+website: https://totalcoin.io
 repository: 
 issue: 
 icon: io.totalcoin.wallet.png

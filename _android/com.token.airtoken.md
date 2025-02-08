@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://airtokenwallet.com
+website: https://web.archive.org/web/20191004164910/https://airtokenwallet.com/
 repository: 
 issue: 
 icon: com.token.airtoken.png

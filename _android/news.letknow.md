@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://letknow.com
+website: https://letknow.com
 repository: 
 issue: 
 icon: news.letknow.png

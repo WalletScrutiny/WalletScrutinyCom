@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://wohlstandcex.com
+website: https://web.archive.org/web/20220219103146/https://wohlstandcex.com/
 repository: 
 issue: 
 icon: com.chainup.exchange.Wohlstand.jpg

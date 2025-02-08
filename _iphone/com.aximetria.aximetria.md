@@ -13,7 +13,7 @@ version: 2.1.3
 stars: 3.3
 reviews: 13
 size: 78513152
-website: http://aximetria.com
+website: https://aximetria.com
 repository: 
 issue: 
 icon: com.aximetria.aximetria.jpg
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: aximetriagmbh
 social:
-- https://www.linkedin.com/company/aximetriagmbh
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/aximetriagmbh
 - https://www.facebook.com/aximetriagmbh
 features: 
 developerName: 

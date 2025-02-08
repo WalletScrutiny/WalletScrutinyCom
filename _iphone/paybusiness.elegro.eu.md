@@ -13,7 +13,7 @@ version: '3.9'
 stars: 0
 reviews: 0
 size: '49556480'
-website: https://business.elegro.eu/elegro-business-wallet
+website: https://web.archive.org/web/20200809091346/https://business.elegro.eu/elegro-business-wallet
 repository: 
 issue: 
 icon: paybusiness.elegro.eu.jpg

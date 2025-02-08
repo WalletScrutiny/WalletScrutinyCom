@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://jp-ex.io
+website: https://jp-ex.io
 repository: 
 issue: 
 icon: com.spark.jpex.jpg

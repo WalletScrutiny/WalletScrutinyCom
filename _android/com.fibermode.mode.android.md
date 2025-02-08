@@ -14,7 +14,7 @@ stars: 3.4
 ratings: 372
 reviews: 187
 size: 
-website: https://www.modeapp.com
+website: https://web.archive.org/web/20210129081436/https://modeapp.com/
 repository: 
 issue: 
 icon: com.fibermode.mode.android.png
@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: modeapp_
 social:
-- https://www.linkedin.com/company/modeapp-com
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/modeapp-com
 - https://www.facebook.com/themodeapp
 redirect_from: 
 developerName: Fibermode Limited

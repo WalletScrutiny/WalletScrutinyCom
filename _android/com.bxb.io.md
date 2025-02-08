@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.bxb.io/
+website: https://walletscrutiny.com/brokenlink/https://www.bxb.io/
 repository: 
 issue: 
 icon: com.bxb.io.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://final-security.com
+website: https://walletscrutiny.com/brokenlink/https://final-security.com
 repository: 
 issue: 
 icon: com.finalSecurity.png

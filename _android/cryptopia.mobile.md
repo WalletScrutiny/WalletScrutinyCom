@@ -14,7 +14,7 @@ stars: 1.9
 ratings: 30
 reviews: 3
 size: 
-website: http://smilestory.io
+website: https://walletscrutiny.com/brokenlink/https://smilestory.io
 repository: 
 issue: 
 icon: cryptopia.mobile.png

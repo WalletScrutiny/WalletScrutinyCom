@@ -13,7 +13,7 @@ version: 1.1.2
 stars: 4.1
 reviews: 107
 size: '109565952'
-website: https://www.hagglex.com/
+website: https://walletscrutiny.com/brokenlink/https://www.hagglex.com/
 repository: 
 issue: 
 icon: com.hagglex.jpg
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: hagglexintl
 social:
-- https://www.linkedin.com/company/hagglex
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/hagglex
 - https://www.facebook.com/hagglex
 features: 
 developerName: 

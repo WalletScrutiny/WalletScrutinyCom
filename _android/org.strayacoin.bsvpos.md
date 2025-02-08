@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 15M
-website: https://www.strayacoin.org/index.php/strayapos/
+website: https://web.archive.org/web/20190406092440/https://www.strayacoin.org/index.php/strayapos/
 repository: 
 issue: 
 icon: org.strayacoin.bsvpos.png

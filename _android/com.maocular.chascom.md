@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://chascom.tech
+website: https://walletscrutiny.com/brokenlink/https://chascom.tech
 repository: 
 issue: 
 icon: com.maocular.chascom.jpg

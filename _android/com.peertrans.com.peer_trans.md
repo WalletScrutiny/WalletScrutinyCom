@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://peertrans.com/
+website: https://web.archive.org/web/20230324004526/https://peertrans.com/
 repository: 
 issue: 
 icon: com.peertrans.com.peer_trans.png

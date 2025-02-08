@@ -13,7 +13,7 @@ stars: 3.7
 ratings: 
 reviews: 
 size: 
-website: https://rhypton.io
+website: https://walletscrutiny.com/brokenlink/https://rhypton.io
 repository: 
 issue: 
 icon: com.ni.RyptonWallet.jpg

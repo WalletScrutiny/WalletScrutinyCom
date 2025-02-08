@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://botcrypto.mygreat.app/
+website: https://walletscrutiny.com/brokenlink/https://botcrypto.mygreat.app/
 repository: 
 issue: 
 icon: com.botcrypto.finance.mygreatapp.png

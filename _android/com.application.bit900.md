@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.trackonbtcguide.com/
+website: https://walletscrutiny.com/brokenlink/https://www.trackonbtcguide.com/
 repository: 
 issue: 
 icon: com.application.bit900.png

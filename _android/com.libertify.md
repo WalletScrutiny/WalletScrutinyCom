@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.cryptoseatbelt.com
+website: https://walletscrutiny.com/brokenlink/https://www.cryptoseatbelt.com
 repository: 
 issue: 
 icon: com.libertify.png

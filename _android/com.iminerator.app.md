@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://iminerator.com
+website: https://walletscrutiny.com/brokenlink/https://iminerator.com
 repository: 
 issue: 
 icon: com.iminerator.app.png

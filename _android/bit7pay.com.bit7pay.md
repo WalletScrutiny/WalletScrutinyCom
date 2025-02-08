@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://bit7pay.com
+website: https://web.archive.org/web/20171015121926/http://bit7pay.com:80/
 repository: 
 issue: 
 icon: bit7pay.com.bit7pay.png

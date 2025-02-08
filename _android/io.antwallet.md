@@ -13,7 +13,7 @@ stars: 4.2
 ratings: 
 reviews: 
 size: 
-website: https://antwallet.io
+website: https://walletscrutiny.com/brokenlink/https://antwallet.io
 repository: 
 issue: 
 icon: io.antwallet.png

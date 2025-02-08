@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://dmexchange.com
+website: https://web.archive.org/web/20220620072824/https://www.dmexchange.com/
 repository: 
 issue: 
 icon: com.exchangedm.png

@@ -14,7 +14,7 @@ stars: 3.5
 ratings: 
 reviews: 
 size: 
-website: https://tradefada.com
+website: https://web.archive.org/web/20200512111039/https://www.tradefada.com/
 repository: 
 issue: 
 icon: tradefada.com.exchange.app.png

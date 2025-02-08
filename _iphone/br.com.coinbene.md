@@ -13,7 +13,7 @@ version: 4.8.6
 stars: 3.3
 reviews: 46
 size: '115953664'
-website: https://www.coinbene.com/
+website: https://web.archive.org/web/20180202062336/http://www.coinbene.com/
 repository: 
 issue: 
 icon: br.com.coinbene.jpg

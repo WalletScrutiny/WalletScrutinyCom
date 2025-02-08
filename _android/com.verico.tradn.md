@@ -14,7 +14,7 @@ stars:
 ratings: 39
 reviews: 
 size: 
-website: https://tradn.io/
+website: https://walletscrutiny.com/brokenlink/https://tradn.io/
 repository: 
 issue: 
 icon: com.verico.tradn.png

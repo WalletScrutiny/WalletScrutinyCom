@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://jetbot.live/
+website: https://walletscrutiny.com/brokenlink/https://jetbot.live/
 repository: 
 issue: 
 icon: com.jetbot.png

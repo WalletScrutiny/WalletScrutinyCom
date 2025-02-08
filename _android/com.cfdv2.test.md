@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.10fxpro.com/
+website: https://web.archive.org/web/20200614034708/https://10fxpro.com/
 repository: 
 issue: 
 icon: com.cfdv2.test.png

@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 3.5M
-website: https://www.atmwarrant.com/
+website: https://web.archive.org/web/20201025110206/https://atmwarrant.com/
 repository: 
 issue: 
 icon: com.gaifang.ATMOptionTest.jpg

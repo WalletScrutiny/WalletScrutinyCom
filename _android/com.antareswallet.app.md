@@ -14,7 +14,7 @@ stars:
 ratings: 48
 reviews: 
 size: 
-website: https://antareswallet.com/
+website: https://walletscrutiny.com/brokenlink/https://antareswallet.com/
 repository: 
 issue: 
 icon: com.antareswallet.app.jpg

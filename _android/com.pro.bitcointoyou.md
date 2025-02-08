@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: bitcointoyou
 social:
-- https://www.linkedin.com/company/bitcointoyou
+- https://web.archive.org/web/20240117235618/https://www.linkedin.com/company/bitcointoyou
 - https://www.facebook.com/Bitcointoyou
 redirect_from: 
 developerName: B2U Limited

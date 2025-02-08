@@ -14,7 +14,7 @@ stars: 3.4
 ratings: 
 reviews: 5
 size: 
-website: https://usdcdollar.cc/review/privacy
+website: https://walletscrutiny.com/brokenlink/https://usdcdollar.cc/review/privacy
 repository: 
 issue: 
 icon: com.test.circle.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bitbinderglobal.com/
+website: https://web.archive.org/web/20221103112510/https://bitbinderglobal.com/
 repository: 
 issue: 
 icon: www.bitbinderglobal.com.jpg

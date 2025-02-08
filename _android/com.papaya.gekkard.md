@@ -14,7 +14,7 @@ stars: 2.3
 ratings: 43
 reviews: 69
 size: 
-website: https://gekkoin.com/index.html
+website: https://web.archive.org/web/20240530104657/https://gekkoin.com/index.html
 repository: 
 issue: 
 icon: com.papaya.gekkard.png

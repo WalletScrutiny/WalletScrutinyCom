@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 58
 reviews: 21
 size: 36M
-website: https://bhex.co
+website: https://web.archive.org/web/20210426075604/https://www.bhex.co/
 repository: 
 issue: 
 icon: com.bh.android.png

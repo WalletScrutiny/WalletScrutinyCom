@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://tetrazus.com/
+website: https://web.archive.org/web/20230401114417/http://tetrazus.com/
 repository: 
 issue: 
 icon: com.tetrazus.png

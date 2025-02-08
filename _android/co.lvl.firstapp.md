@@ -14,7 +14,7 @@ stars: 3.7
 ratings: 159
 reviews: 62
 size: 
-website: https://lvl.co
+website: https://web.archive.org/web/20201031235640/https://lvl.co/
 repository: 
 issue: 
 icon: co.lvl.firstapp.png

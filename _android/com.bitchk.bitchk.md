@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.bitchk.com
+website: https://www.bitchk.com
 repository: 
 issue: 
 icon: com.bitchk.bitchk.png

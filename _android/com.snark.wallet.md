@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://snarkwallet.app/
+website: https://web.archive.org/web/20220915205510/https://www.snarkwallet.app/
 repository: 
 issue: 
 icon: com.snark.wallet.jpg

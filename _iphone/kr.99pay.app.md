@@ -13,7 +13,7 @@ version: 5.9.7(591)
 stars: 4.7
 reviews: 1485
 size: '104614912'
-website: http://www.99pay.kr
+website: https://www.99pay.kr
 repository: 
 issue: 
 icon: kr.99pay.app.jpg

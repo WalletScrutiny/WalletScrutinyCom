@@ -14,7 +14,7 @@ version: 2.4.46
 stars: 4.6
 reviews: 39
 size: '122827776'
-website: https://www.vision-crypto.com
+website: https://web.archive.org/web/20201031234954/https://vision-crypto.com/
 repository: 
 issue: 
 icon: com.visionsoftware.vision.jpg

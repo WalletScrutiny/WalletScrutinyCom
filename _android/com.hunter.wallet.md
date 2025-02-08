@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.hunter-wallet.com
+website: https://www.hunter-wallet.com
 repository: 
 issue: 
 icon: com.hunter.wallet.png

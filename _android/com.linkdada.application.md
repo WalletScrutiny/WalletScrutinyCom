@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.linkdada.com/
+website: https://walletscrutiny.com/brokenlink/https://www.linkdada.com/
 repository: 
 issue: 
 icon: com.linkdada.application.png

@@ -13,7 +13,7 @@ version: 1.4.3
 stars: 3.8
 reviews: 37
 size: '63857664'
-website: https://www.delio.foundation/
+website: https://walletscrutiny.com/brokenlink/https://www.delio.foundation/
 repository: 
 issue: 
 icon: io.DelioHybrid.jpg

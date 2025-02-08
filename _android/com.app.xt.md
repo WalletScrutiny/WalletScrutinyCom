@@ -14,7 +14,7 @@ stars: 3.3
 ratings: 
 reviews: 194
 size: 
-website: http://www.xt.com
+website: https://www.xt.com
 repository: 
 issue: 
 icon: com.app.xt.png

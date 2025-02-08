@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://netlink.exchange
+website: https://walletscrutiny.com/brokenlink/https://netlink.exchange
 repository: 
 issue: 
 icon: com.netlink.exchange.png

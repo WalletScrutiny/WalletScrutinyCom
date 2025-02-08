@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.mysrvcoin.com/index.php
+website: https://walletscrutiny.com/brokenlink/https://www.mysrvcoin.com/index.php
 repository: 
 issue: 
 icon: com.servicoin.wallet.png

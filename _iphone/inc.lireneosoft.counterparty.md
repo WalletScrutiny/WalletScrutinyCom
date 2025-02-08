@@ -13,7 +13,7 @@ version: '1.255'
 stars: 1
 reviews: 1
 size: '41849856'
-website: https://wallet.indiesquare.me
+website: https://web.archive.org/web/20210619002013/https://wallet.indiesquare.me/
 repository: https://github.com/IndieSquare/indiesquare-wallet
 issue: 
 icon: inc.lireneosoft.counterparty.jpg

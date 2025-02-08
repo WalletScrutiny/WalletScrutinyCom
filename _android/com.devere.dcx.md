@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 
 reviews: 1
 size: 
-website: http://www.devere-crypto.com
+website: https://www.devere-crypto.com
 repository: 
 issue: 
 icon: com.devere.dcx.png

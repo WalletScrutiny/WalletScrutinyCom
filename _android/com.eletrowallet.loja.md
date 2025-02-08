@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://eletrowallet.com
+website: https://walletscrutiny.com/brokenlink/https://eletrowallet.com
 repository: 
 issue: 
 icon: com.eletrowallet.loja.png

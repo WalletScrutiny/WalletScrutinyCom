@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.fybsg.com
+website: https://web.archive.org/web/20180524035256/https://www.fybsg.com/
 repository: 
 issue: 
 icon: com.fybsg.fybmobile.png

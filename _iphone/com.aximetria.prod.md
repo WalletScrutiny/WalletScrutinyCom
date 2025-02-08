@@ -13,7 +13,7 @@ version: 3.23.0
 stars: 0
 reviews: 0
 size: '82524160'
-website: https://www.aximetria.com/help
+website: https://web.archive.org/web/20220711123358/https://www.aximetria.com/help
 repository: 
 issue: 
 icon: com.aximetria.prod.jpg
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: aximetriagmbh
 social:
-- https://www.linkedin.com/company/aximetriagmbh
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/aximetriagmbh
 - https://www.instagram.com/aximetria.gmbh
 - https://www.facebook.com/aximetriagmbh
 features: 

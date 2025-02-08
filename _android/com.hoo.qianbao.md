@@ -14,7 +14,7 @@ stars: 3.5
 ratings: 749
 reviews: 84
 size: 
-website: https://hoo.com
+website: https://walletscrutiny.com/brokenlink/https://hoo.com
 repository: 
 issue: 
 icon: com.hoo.qianbao.png

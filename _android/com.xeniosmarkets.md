@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.xeniosmarkets.com/
+website: https://web.archive.org/web/20240926230710/https://xeniosmarkets.com/
 repository: 
 issue: 
 icon: com.xeniosmarkets.png

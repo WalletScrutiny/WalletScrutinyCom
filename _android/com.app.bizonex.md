@@ -13,7 +13,7 @@ stars: 2.7
 ratings: 
 reviews: 
 size: 
-website: https://bizonex.com/
+website: https://web.archive.org/web/20201101064022/https://bizonex.com/
 repository: 
 issue: 
 icon: com.app.bizonex.png

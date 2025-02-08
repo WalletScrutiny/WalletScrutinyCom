@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.defixwallet.io
+website: https://walletscrutiny.com/brokenlink/https://www.defixwallet.io
 repository: 
 issue: 
 icon: com.defixwallet.jpg

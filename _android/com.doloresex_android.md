@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ix.com
+website: https://web.archive.org/web/19990125090353/http://ix.com:80/
 repository: 
 issue: 
 icon: com.doloresex_android.png

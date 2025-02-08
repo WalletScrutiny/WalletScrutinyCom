@@ -13,7 +13,7 @@ version: '3.4'
 stars: 3.1
 reviews: 118
 size: '41366528'
-website: https://coincred.org/
+website: https://web.archive.org/web/20220126092933/https://www.coincred.org/
 repository: 
 issue: 
 icon: com.coincred.jpg

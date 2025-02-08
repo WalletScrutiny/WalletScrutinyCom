@@ -14,7 +14,7 @@ stars: 4.8
 ratings: 510
 reviews: 11
 size: 
-website: https://dsdaq.com
+website: https://web.archive.org/web/20001019002557/http://www.dsdaq.com:80/
 repository: 
 issue: 
 icon: com.dsdaq.mobiletrader.png

@@ -14,7 +14,7 @@ stars: 2.9
 ratings: 24
 reviews: 19
 size: 
-website: https://bitvo.com
+website: https://walletscrutiny.com/brokenlink/https://bitvo.com
 repository: 
 issue: 
 icon: com.vog.bitvo.png

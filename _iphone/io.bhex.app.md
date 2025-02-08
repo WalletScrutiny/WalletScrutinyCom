@@ -13,7 +13,7 @@ version: 4.1.2
 stars: 3.2
 reviews: 35
 size: 93606912
-website: https://www.hbtc.com/
+website: https://web.archive.org/web/20200731065337/https://www.hbtc.com/
 repository: 
 issue: 
 icon: io.bhex.app.jpg

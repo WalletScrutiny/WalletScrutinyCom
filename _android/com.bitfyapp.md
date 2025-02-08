@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://blockchainwebservices.com.br
+website: https://walletscrutiny.com/brokenlink/https://blockchainwebservices.com.br
 repository: 
 issue: 
 icon: com.bitfyapp.png

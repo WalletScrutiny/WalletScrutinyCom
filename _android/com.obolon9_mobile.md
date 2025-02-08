@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://obolon9.com
+website: https://web.archive.org/web/20180814043147/https://obolon9.com/
 repository: 
 issue: 
 icon: com.obolon9_mobile.jpg

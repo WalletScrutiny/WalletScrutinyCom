@@ -14,7 +14,7 @@ stars: 1.7
 ratings: 128
 reviews: 13
 size: 170M
-website: https://www.bitex.com
+website: https://walletscrutiny.com/brokenlink/https://www.bitex.com
 repository: 
 issue: 
 icon: com.bitexuae.jpg

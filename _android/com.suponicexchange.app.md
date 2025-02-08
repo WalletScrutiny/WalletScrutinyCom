@@ -14,7 +14,7 @@ stars: 3.5
 ratings: 
 reviews: 2
 size: 
-website: https://www.suponic.com
+website: https://web.archive.org/web/20180407030704/http://www.suponic.com:80/
 repository: 
 issue: 
 icon: com.suponicexchange.app.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://flavioflima.com
+website: https://web.archive.org/web/20200806065526/https://flavioflima.com/
 repository: 
 issue: 
 icon: com.bitcointrainee.br.png

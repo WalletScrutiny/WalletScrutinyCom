@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ferrari-pay.com
+website: https://web.archive.org/web/20210616125415/https://www.ferrari-pay.com/
 repository: 
 issue: 
 icon: com.ferraripay.png

@@ -13,7 +13,7 @@ stars: 4.9
 ratings: 2282
 reviews: 2065
 size: Varies with device
-website: http://swapwallet.com
+website: https://web.archive.org/web/20171227173432/http://swapwallet.com/
 repository: 
 issue: 
 icon: com.swapwalletltd.swap.png

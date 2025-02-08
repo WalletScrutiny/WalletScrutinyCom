@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.cmrobot.id/
+website: https://web.archive.org/web/20190825004944/http://cmrobot.id:80/
 repository: 
 issue: 
 icon: com.cryptomaniac.cmrobot.png

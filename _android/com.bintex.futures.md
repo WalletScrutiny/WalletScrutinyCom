@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bintexfutures.com
+website: https://web.archive.org/web/20201101010133/https://www.bintexfutures.com/
 repository: 
 issue: 
 icon: com.bintex.futures.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://btclife.cash/
+website: https://walletscrutiny.com/brokenlink/https://btclife.cash/
 repository: 
 issue: 
 icon: btc.life.png

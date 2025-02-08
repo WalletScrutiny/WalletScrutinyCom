@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://okotc.io/
+website: https://web.archive.org/web/20220313002030/https://okotc.io/
 repository: 
 issue: 
 icon: com.anmav.okotcandroid.jpg

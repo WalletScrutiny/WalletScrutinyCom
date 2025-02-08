@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.aaatrade.com
+website: https://web.archive.org/web/20230327230930/https://www.aaatrade.com/
 repository: 
 issue: 
 icon: com.aaatrade.CryptoExchange.png

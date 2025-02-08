@@ -13,7 +13,7 @@ stars: 3.1
 ratings: 
 reviews: 2
 size: 
-website: https://justescrow.io
+website: https://walletscrutiny.com/brokenlink/https://justescrow.io
 repository: 
 issue: 
 icon: m.justescrow.io.png

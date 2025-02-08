@@ -13,7 +13,7 @@ version: 4.54.4
 stars: 4.2
 reviews: 53
 size: '127965184'
-website: http://www.bitbill.com
+website: https://web.archive.org/web/20161001010205/http://www.bitbill.com:80/
 repository: 
 issue: 
 icon: com.bitbill.wallet.jpg

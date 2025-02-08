@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://yopay.co
+website: https://web.archive.org/web/20141218150214/http://yopay.co/
 repository: 
 issue: 
 icon: co.yopay.wallet.png

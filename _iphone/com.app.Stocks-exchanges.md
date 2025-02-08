@@ -13,7 +13,7 @@ version: '1.34'
 stars: 2.4
 reviews: 29
 size: '71872512'
-website: https://stex.com
+website: https://walletscrutiny.com/brokenlink/https://stex.com
 repository: 
 issue: 
 icon: com.app.Stocks-exchanges.jpg

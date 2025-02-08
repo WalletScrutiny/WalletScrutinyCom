@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 
 reviews: 
 size: 
-website: https://abstocks.com
+website: https://web.archive.org/web/20011202155129/http://abstocks.com:80/
 repository: 
 issue: 
 icon: com.abstocks.png

@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bankcomat.org/
+website: https://web.archive.org/web/20200927060633/https://bankcomat.org/
 repository: 
 issue: 
 icon: com.bankcomat.android_bankcomat.png

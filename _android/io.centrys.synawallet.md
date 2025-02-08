@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.theoproject.io
+website: https://web.archive.org/web/20201112025607/http://theoproject.io/
 repository: 
 issue: 
 icon: io.centrys.synawallet.png

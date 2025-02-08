@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://obictrade.com
+website: https://web.archive.org/web/20210410080124/https://www.obictrade.com/
 repository: 
 issue: 
 icon: com.obic.wallet.png

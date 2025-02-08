@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.bhex.sg
+website: https://web.archive.org/web/20220122014155/https://www.bhex.sg/
 repository: 
 issue: 
 icon: sg.bhex.app.png

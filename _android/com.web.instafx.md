@@ -13,7 +13,7 @@ stars: 4.3
 ratings: 
 reviews: 
 size: 
-website: https://instfx.com/
+website: https://web.archive.org/web/20210903174429/https://www.instfx.com/
 repository: 
 issue: 
 icon: com.web.instafx.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://albrex.io
+website: https://web.archive.org/web/20211206092528/https://albrex.io/
 repository: 
 issue: 
 icon: pay.albrex.io.png

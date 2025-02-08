@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://gb.pqigroup.com/driver.aspx?mnuid=1415&modid=166
+website: https://walletscrutiny.com/brokenlink/https://gb.pqigroup.com/driver.aspx?mnuid=1415&modid=166
 repository: 
 issue: 
 icon: com.pqi.wallet.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.pdfae.ph
+website: https://web.archive.org/web/20220625184840/https://www.pdfae.ph/
 repository: 
 issue: 
 icon: com.gungen.chainup.png

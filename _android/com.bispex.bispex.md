@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 
 reviews: 
 size: 
-website: https://www.bispex.com/
+website: https://web.archive.org/web/20220124061723/https://www.bispex.com
 repository: 
 issue: 
 icon: com.bispex.bispex.png

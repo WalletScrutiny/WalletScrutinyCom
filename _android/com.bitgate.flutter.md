@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.bitgate.io
+website: https://www.bitgate.io
 repository: 
 issue: 
 icon: com.bitgate.flutter.png

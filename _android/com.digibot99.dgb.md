@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.digibot99.com
+website: https://walletscrutiny.com/brokenlink/https://www.digibot99.com
 repository: 
 issue: 
 icon: com.digibot99.dgb.png

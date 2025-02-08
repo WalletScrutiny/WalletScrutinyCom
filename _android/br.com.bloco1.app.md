@@ -13,7 +13,7 @@ stars: 2.6
 ratings: 
 reviews: 
 size: 
-website: https://www.bloco1.com.br
+website: https://web.archive.org/web/20210613121048/https://www.bloco1.com.br/
 repository: 
 issue: 
 icon: br.com.bloco1.app.png

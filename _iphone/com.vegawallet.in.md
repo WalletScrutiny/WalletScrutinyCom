@@ -13,7 +13,7 @@ version: '3.3'
 stars: 3.7
 reviews: 9
 size: '69789696'
-website: https://vegawallet.com
+website: https://web.archive.org/web/20200720020919/https://www.vegawallet.com/
 repository: 
 issue: 
 icon: com.vegawallet.in.jpg

@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://vspark.co
+website: https://vspark.co
 repository: 
 issue: 
 icon: com.vspark.vhwallet.png

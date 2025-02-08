@@ -14,7 +14,7 @@ stars: 3.3
 ratings: 
 reviews: 7
 size: 
-website: https://swapp.ee
+website: https://web.archive.org/web/20220307061504/https://swapp.ee/
 repository: 
 issue: 
 icon: ee.swapp.idapp.png

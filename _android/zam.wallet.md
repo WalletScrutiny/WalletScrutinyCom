@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 288
 reviews: 51
 size: 
-website: http://zam.io
+website: https://zam.io
 repository: 
 issue: 
 icon: zam.wallet.jpg

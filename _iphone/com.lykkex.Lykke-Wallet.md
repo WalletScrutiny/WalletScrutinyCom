@@ -13,7 +13,7 @@ version: 7.45.0
 stars: 4.3
 reviews: 32
 size: '81127424'
-website: https://lykke.com/wallet
+website: https://web.archive.org/web/20210625054847/https://lykke.com/wallet/
 repository: 
 issue: 
 icon: com.lykkex.Lykke-Wallet.jpg

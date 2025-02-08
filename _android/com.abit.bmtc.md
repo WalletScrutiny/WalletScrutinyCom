@@ -14,7 +14,7 @@ stars:
 ratings: 75
 reviews: 
 size: 
-website: http://www.abit.com
+website: https://walletscrutiny.com/brokenlink/https://www.abit.com
 repository: 
 issue: 
 icon: com.abit.bmtc.png

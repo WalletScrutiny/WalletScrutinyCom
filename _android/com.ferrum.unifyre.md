@@ -14,7 +14,7 @@ stars: 4.7
 ratings: 103
 reviews: 10
 size: 
-website: https://unifyre.io
+website: https://web.archive.org/web/20200502131723/https://unifyre.io/
 repository: 
 issue: 
 icon: com.ferrum.unifyre.png

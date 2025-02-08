@@ -14,7 +14,7 @@ stars: 4.1
 ratings: 4430
 reviews: 1626
 size: 
-website: https://bitflyer.com
+website: https://web.archive.org/web/20031108130655/http://bitflyer.com:80/
 repository: 
 issue: 
 icon: com.bitflyer.android.bfwallet.png

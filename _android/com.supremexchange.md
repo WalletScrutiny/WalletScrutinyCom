@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.supremecrypx.com
+website: https://web.archive.org/web/20210511232418/https://www.supremecrypx.com/
 repository: 
 issue: 
 icon: com.supremexchange.png

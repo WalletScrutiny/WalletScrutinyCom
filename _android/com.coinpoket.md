@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.coinpoket.com/
+website: https://web.archive.org/web/20180823060407/https://coinpoket.com/
 repository: 
 issue: 
 icon: com.coinpoket.png

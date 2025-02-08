@@ -15,7 +15,7 @@ stars: 4.1
 ratings: 633
 reviews: 13
 size: 
-website: https://ezdefi.com/
+website: https://web.archive.org/web/20210620000126/https://ezdefi.com/
 repository: 
 issue: 
 icon: com.ezdefi.png

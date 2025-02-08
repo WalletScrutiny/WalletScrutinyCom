@@ -14,7 +14,7 @@ stars: 3.8
 ratings: 23
 reviews: 5
 size: 
-website: http://www.VegaWallet.com
+website: https://walletscrutiny.com/brokenlink/https://www.VegaWallet.com
 repository: 
 issue: 
 icon: com.vegawallet.in.png

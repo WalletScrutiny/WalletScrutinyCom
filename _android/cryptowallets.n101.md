@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://thecryptoyo.com
+website: https://walletscrutiny.com/brokenlink/https://thecryptoyo.com
 repository: 
 issue: 
 icon: cryptowallets.n101.png

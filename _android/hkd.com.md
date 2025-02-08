@@ -14,7 +14,7 @@ stars: 4.2
 ratings: 
 reviews: 12
 size: 
-website: http://hkd.com
+website: https://hkd.com
 repository: 
 issue: 
 icon: hkd.com.png

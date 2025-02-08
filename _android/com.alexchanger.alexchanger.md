@@ -13,7 +13,7 @@ stars: 4.4
 ratings: 271
 reviews: 26
 size: 
-website: https://alexchanger.com/
+website: https://web.archive.org/web/20200530224619/https://alexchanger.com/
 repository: 
 issue: 
 icon: com.alexchanger.alexchanger.png

@@ -16,7 +16,7 @@ dimensions:
 weight: 12
 provider: Cerber Money Security
 providerWebsite: https://cerberwallet.ru
-website: https://cerberwallet.ru
+website: https://web.archive.org/web/20211126035522/https://cerberwallet.ru/
 shop: https://cerberwallet.ru
 country: RU
 price: 3500RUB

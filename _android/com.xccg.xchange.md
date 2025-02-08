@@ -14,7 +14,7 @@ stars: 4.2
 ratings: 
 reviews: 
 size: 
-website: https://xchange.ltd
+website: https://web.archive.org/web/20190516205238/https://xchange.ltd/
 repository: 
 issue: 
 icon: com.xccg.xchange.jpg

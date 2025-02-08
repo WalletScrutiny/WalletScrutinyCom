@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.botcoinloan.blissinfosys.com/
+website: https://web.archive.org/web/20240107144700/http://www.botcoinloan.blissinfosys.com/
 repository: 
 issue: 
 icon: com.info.bccl.png

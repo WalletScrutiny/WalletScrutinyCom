@@ -13,7 +13,7 @@ stars: 2
 ratings: 955
 reviews: 23
 size: 32M
-website: http://einstein.exchange
+website: https://einstein.exchange
 repository: 
 issue: 
 icon: exchange.einstein.mobile.release.png

@@ -10,7 +10,7 @@ version: 0.15.0
 binaries: 
 provider: 
 providerWebsite: 
-website: https://bitmarket.network/
+website: https://web.archive.org/web/20210110142131/https://bitmarket.network/
 repository: https://github.com/BitMarketNetwork/client-desktop
 issue: 
 icon: bitmarket.png

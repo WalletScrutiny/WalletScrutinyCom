@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://tmginvesting.com
+website: https://web.archive.org/web/20190601204447/http://tmginvesting.com:80/
 repository: 
 issue: 
 icon: tmg.investing2.jpg

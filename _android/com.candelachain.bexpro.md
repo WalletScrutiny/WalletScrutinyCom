@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.bexpro.ph
+website: https://web.archive.org/web/20190417104213/https://www.bexpro.ph/
 repository: 
 issue: 
 icon: com.candelachain.bexpro.png

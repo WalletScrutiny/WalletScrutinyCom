@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.cforcoins.com
+website: https://walletscrutiny.com/brokenlink/https://www.cforcoins.com
 repository: 
 issue: 
 icon: com.vdcloud.cforcoins.png

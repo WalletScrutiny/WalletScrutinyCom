@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://bullbitcoin.com
+website: https://bullbitcoin.com
 repository: https://github.com/SatoshiPortal/bullbitcoin-mobile
 issue: https://github.com/SatoshiPortal/bullbitcoin-mobile/issues/326
 icon: com.bullbitcoin.mobile.png

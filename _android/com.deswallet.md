@@ -13,7 +13,7 @@ stars: 4.3
 ratings: 
 reviews: 
 size: 
-website: https://dtechno.tech/
+website: https://web.archive.org/web/20210615053801/https://dtechno.tech/
 repository: 
 issue: 
 icon: com.deswallet.png

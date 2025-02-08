@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://harungoker.com
+website: https://walletscrutiny.com/brokenlink/https://harungoker.com
 repository: 
 issue: 
 icon: com.harungoker.bitcrypto.png

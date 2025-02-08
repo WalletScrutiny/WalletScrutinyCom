@@ -14,7 +14,7 @@ stars: 4.4
 ratings: 161
 reviews: 30
 size: 
-website: http://www.volt.id
+website: https://web.archive.org/web/20201101024746/https://volt.id/
 repository: 
 issue: 
 icon: bitmesh.volt.wallet.png

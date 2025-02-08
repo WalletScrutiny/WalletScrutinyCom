@@ -14,7 +14,7 @@ stars: 3.3
 ratings: 5636
 reviews: 198
 size: 
-website: http://www.naga.com
+website: https://www.naga.com
 repository: 
 issue: 
 icon: swipestox.mobile.png

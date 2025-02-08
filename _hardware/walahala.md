@@ -15,7 +15,7 @@ dimensions:
 weight: 13g
 provider: Walahala OÜ
 providerWebsite: 
-website: https://walahala.com/walahala-wallet
+website: https://web.archive.org/web/20200528212442/https://walahala.com/walahala-wallet
 shop: https://walahala.com/Products
 country: EE
 price: 149USDT

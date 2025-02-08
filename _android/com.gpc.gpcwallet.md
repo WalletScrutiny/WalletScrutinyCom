@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://gpcio.org/index_m.html
+website: https://walletscrutiny.com/brokenlink/https://gpcio.org/index_m.html
 repository: 
 issue: 
 icon: com.gpc.gpcwallet.png

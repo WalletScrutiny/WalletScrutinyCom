@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://crypterum.com
+website: https://walletscrutiny.com/brokenlink/https://crypterum.com
 repository: 
 issue: 
 icon: com.crypterum.crypterum.png

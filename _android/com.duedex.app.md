@@ -14,7 +14,7 @@ stars: 3.4
 ratings: 58
 reviews: 38
 size: 29M
-website: http://www.duedex.com/
+website: https://walletscrutiny.com/brokenlink/https://www.duedex.com/
 repository: 
 issue: 
 icon: com.duedex.app.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://gmnc.net
+website: https://web.archive.org/web/20180513033921/http://www.gmnc.net:80/
 repository: 
 issue: 
 icon: com.project.coinad.jpg

@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 
 reviews: 2
 size: 
-website: https://www.crosstower.com
+website: https://walletscrutiny.com/brokenlink/https://www.crosstower.com
 repository: 
 issue: 
 icon: com.crosstower.india.png
@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: CrossTowerIndia
 social:
-- https://www.linkedin.com/company/crosstower-india/
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/crosstower-india/
 - https://www.facebook.com/CrossTowerIndia/
 - https://www.youtube.com/channel/UCRaFpvWGxdMJTMDvYadc7hA
 - https://www.instagram.com/crosstowerindia/

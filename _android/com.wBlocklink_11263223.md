@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.blocklink.live/
+website: https://walletscrutiny.com/brokenlink/https://www.blocklink.live/
 repository: 
 issue: 
 icon: com.wBlocklink_11263223.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.tcws.io/
+website: https://walletscrutiny.com/brokenlink/https://www.tcws.io/
 repository: 
 issue: 
 icon: com.tcws.wallet.png

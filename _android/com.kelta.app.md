@@ -14,7 +14,7 @@ stars: 2.9
 ratings: 1251
 reviews: 1102
 size: 
-website: https://kelta.com/
+website: https://web.archive.org/web/20220426234940/https://www.kelta.com/
 repository: 
 issue: 
 icon: com.kelta.app.jpg

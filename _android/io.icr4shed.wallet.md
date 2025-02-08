@@ -14,7 +14,7 @@ stars: 4.1
 ratings: 87
 reviews: 4
 size: 
-website: https://multiwallet.tech/
+website: https://web.archive.org/web/20220125095917/https://multiwallet.tech/
 repository: 
 issue: 
 icon: io.icr4shed.wallet.png

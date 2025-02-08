@@ -5,10 +5,10 @@ authors:
 - danny
 icon: bitcards.png
 date: 2022-05-17
-website: https://bitcards.com/
+website: https://web.archive.org/web/20010220180930/http://www.bitcards.com:80/
 twitter: Bitcard_US
 social:
-- https://www.linkedin.com/company/bitcard/
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/bitcard/
 - https://www.facebook.com/BitCardUS/
 - https://www.instagram.com/bitcard_us/
 provider: Bitcoin Solutions, Inc

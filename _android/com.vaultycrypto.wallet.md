@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.vaulty.pro
+website: https://www.vaulty.pro
 repository: 
 issue: 
 icon: com.vaultycrypto.wallet.png

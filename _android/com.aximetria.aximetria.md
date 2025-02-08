@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: aximetriagmbh
 social:
-- https://www.linkedin.com/company/aximetriagmbh
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/aximetriagmbh
 - https://www.facebook.com/aximetriagmbh
 redirect_from: 
 developerName: 

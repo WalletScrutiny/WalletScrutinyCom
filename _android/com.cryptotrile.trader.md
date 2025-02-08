@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://cryptotrile.com/
+website: https://walletscrutiny.com/brokenlink/https://cryptotrile.com/
 repository: 
 issue: 
 icon: com.cryptotrile.trader.png

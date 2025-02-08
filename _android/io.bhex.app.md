@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 250
 reviews: 130
 size: 36M
-website: https://www.hbtc.com/
+website: https://web.archive.org/web/20200731065337/https://www.hbtc.com/
 repository: 
 issue: 
 icon: io.bhex.app.png

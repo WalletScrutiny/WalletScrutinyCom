@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://coinways.io
+website: https://web.archive.org/web/20240913042637/https://www.coinways.io/
 repository: 
 issue: 
 icon: com.mysurvey.png

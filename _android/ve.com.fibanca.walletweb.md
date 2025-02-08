@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://fibanca.com
+website: https://walletscrutiny.com/brokenlink/https://fibanca.com
 repository: 
 issue: 
 icon: ve.com.fibanca.walletweb.png

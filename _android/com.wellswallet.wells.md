@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://wellswallet.com
+website: https://walletscrutiny.com/brokenlink/https://wellswallet.com
 repository: 
 issue: 
 icon: com.wellswallet.wells.jpg

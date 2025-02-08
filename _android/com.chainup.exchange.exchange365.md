@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.365excoin.com
+website: https://walletscrutiny.com/brokenlink/https://www.365excoin.com
 repository: 
 issue: 
 icon: com.chainup.exchange.exchange365.png

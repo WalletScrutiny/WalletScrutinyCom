@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 2775
 reviews: 90
 size: 
-website: http://www.hagglex.com
+website: https://web.archive.org/web/20220821044708/https://www.hagglex.com/
 repository: 
 issue: 
 icon: com.hagglex.hagglex.png
@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: hagglexintl
 social:
-- https://www.linkedin.com/company/hagglex
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/hagglex
 - https://www.facebook.com/hagglex
 redirect_from: 
 developerName: Hagglex Limited

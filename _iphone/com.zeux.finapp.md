@@ -13,7 +13,7 @@ version: 2.20.2
 stars: 4.5
 reviews: 324
 size: '55801856'
-website: https://www.zeux.com
+website: https://web.archive.org/web/20020930150417/http://www.zeux.com:80/
 repository: 
 issue: 
 icon: com.zeux.finapp.jpg

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://purchasa.com/
+website: https://web.archive.org/web/20240917013845/https://purchasa.com/
 repository: 
 issue: 
 icon: com.herowallet.png

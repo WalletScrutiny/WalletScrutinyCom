@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ajaxcash.com
+website: https://web.archive.org/web/20071017045248/http://www.ajaxcash.com:80/
 repository: 
 issue: 
 icon: com.ajaxcash.ajc.png

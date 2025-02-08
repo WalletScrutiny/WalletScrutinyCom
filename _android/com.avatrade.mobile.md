@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 9327
 reviews: 11
 size: 
-website: http://www.avatrade.com
+website: https://www.avatrade.com
 repository: 
 issue: 
 icon: com.avatrade.mobile.png

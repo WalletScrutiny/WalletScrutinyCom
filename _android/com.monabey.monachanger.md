@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://monabey.com
+website: https://web.archive.org/web/20200928034411/https://monabey.com/
 repository: 
 issue: 
 icon: com.monabey.monachanger.png

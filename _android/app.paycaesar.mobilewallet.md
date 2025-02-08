@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://aurilia.io/
+website: https://walletscrutiny.com/brokenlink/https://aurilia.io/
 repository: 
 issue: 
 icon: app.paycaesar.mobilewallet.png

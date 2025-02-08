@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://mond.finance
+website: https://web.archive.org/web/20240813042042/https://www.mond.finance/
 repository: 
 issue: 
 icon: mond.finance.png

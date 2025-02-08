@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://swap.flamer.life
+website: https://web.archive.org/web/20230314032016/https://swap.flamer.life/
 repository: 
 issue: 
 icon: com.flamer.swap.png

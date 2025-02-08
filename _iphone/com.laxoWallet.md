@@ -13,7 +13,7 @@ version: 2.3.9
 stars: 4.9
 reviews: 55
 size: '90454016'
-website: https://volt.id/
+website: https://web.archive.org/web/20201101024746/https://volt.id/
 repository: 
 issue: 
 icon: com.laxoWallet.jpg

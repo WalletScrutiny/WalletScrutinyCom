@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://oxystarter.io
+website: https://walletscrutiny.com/brokenlink/https://oxystarter.io
 repository: 
 issue: 
 icon: com.oxy.wallet.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://usfcx.com/
+website: https://walletscrutiny.com/brokenlink/https://usfcx.com/
 repository: 
 issue: 
 icon: com.usfcx.wallet.jpg

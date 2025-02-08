@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://lz.finance/#
+website: https://web.archive.org/web/20211206022755/https://lz.finance/
 repository: 
 issue: 
 icon: com.launchzone.lzwallet.png

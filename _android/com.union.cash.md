@@ -14,7 +14,7 @@ stars: 4.8
 ratings: 
 reviews: 3
 size: 
-website: http://www.union.cash/
+website: https://www.union.cash/
 repository: 
 issue: 
 icon: com.union.cash.png

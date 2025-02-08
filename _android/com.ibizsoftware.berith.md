@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://berith.co
+website: https://berith.co
 repository: 
 issue: 
 icon: com.ibizsoftware.berith.png

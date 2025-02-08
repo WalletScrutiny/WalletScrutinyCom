@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://egiby.com
+website: https://web.archive.org/web/20220127210449/https://egiby.com/
 repository: 
 issue: 
 icon: ir.egiby.bank.png

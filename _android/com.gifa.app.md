@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.gifatoken.com
+website: https://walletscrutiny.com/brokenlink/https://www.gifatoken.com
 repository: 
 issue: 
 icon: com.gifa.app.png

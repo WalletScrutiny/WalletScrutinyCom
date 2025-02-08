@@ -13,7 +13,7 @@ stars: 4.8
 ratings: 
 reviews: 
 size: 
-website: https://theluxurybank.com
+website: https://web.archive.org/web/20210902135200/https://theluxurybank.com/
 repository: 
 issue: 
 icon: com.theluxurybank.bankwallet.png

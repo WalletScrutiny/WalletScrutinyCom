@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: EOS.CYBEX
 providerWebsite: 
-website: https://web.archive.org/web/20191224223110/https://cybex.io/zh-cn/index.html
+website: https://web.archive.org/web/20210615034359/https://cybex.io/zh-cn/index.html
 shop: 
 country: CN
 price: 

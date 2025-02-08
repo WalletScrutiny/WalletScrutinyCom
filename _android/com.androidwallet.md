@@ -14,7 +14,7 @@ stars: 4.6
 ratings: 433
 reviews: 12
 size: 
-website: https://www.dcipher.io
+website: https://web.archive.org/web/20240930173254/http://dcipher.io/
 repository: 
 issue: 
 icon: com.androidwallet.png

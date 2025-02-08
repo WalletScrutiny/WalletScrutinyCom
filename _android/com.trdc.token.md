@@ -13,7 +13,7 @@ stars: 4.6
 ratings: 
 reviews: 7
 size: 
-website: https://trdctoken.com
+website: https://web.archive.org/web/20220802082332/https://trdctoken.com/
 repository: 
 issue: 
 icon: com.trdc.token.png

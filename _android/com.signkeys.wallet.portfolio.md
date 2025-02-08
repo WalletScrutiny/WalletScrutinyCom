@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.signkeys.com
+website: https://www.signkeys.com
 repository: 
 issue: 
 icon: com.signkeys.wallet.portfolio.png

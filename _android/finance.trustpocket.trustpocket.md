@@ -13,7 +13,7 @@ stars: 5
 ratings: 
 reviews: 
 size: 
-website: https://trustpocket.finance
+website: https://web.archive.org/web/20211219105104/http://trustpocket.finance/
 repository: 
 issue: 
 icon: finance.trustpocket.trustpocket.png

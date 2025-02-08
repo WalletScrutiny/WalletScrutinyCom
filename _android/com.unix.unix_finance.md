@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://unix.finance
+website: https://walletscrutiny.com/brokenlink/https://unix.finance
 repository: 
 issue: 
 icon: com.unix.unix_finance.png

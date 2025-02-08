@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://redratel.com
+website: https://web.archive.org/web/20220414191654/https://redratel.com/
 repository: 
 issue: 
 icon: com.redratel.bitratel.png

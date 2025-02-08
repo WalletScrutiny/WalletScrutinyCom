@@ -14,7 +14,7 @@ stars: 4.4
 ratings: 
 reviews: 478
 size: 
-website: http://www.hodlfinance.com
+website: https://www.hodlfinance.com
 repository: 
 issue: 
 icon: com.flashratings.hodl.png

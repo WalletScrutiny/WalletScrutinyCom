@@ -16,7 +16,7 @@ dimensions:
 weight: 
 provider: Sugi
 providerWebsite: https://sugi.io
-website: https://sugi.io
+website: https://web.archive.org/web/20240901085030/http://sugi.io/
 shop: https://sugi.io/#pricing
 country: BE
 price: 59.9EUR

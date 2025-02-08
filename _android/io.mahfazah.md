@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.cryptocurrencysolutions.io
+website: https://walletscrutiny.com/brokenlink/https://www.cryptocurrencysolutions.io
 repository: 
 issue: 
 icon: io.mahfazah.png

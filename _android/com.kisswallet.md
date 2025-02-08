@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.moonshinewallet.com
+website: https://web.archive.org/web/20210209033328/https://moonshinewallet.com/
 repository: https://github.com/coreyphillips/moonshine
 issue: 
 icon: com.kisswallet.png

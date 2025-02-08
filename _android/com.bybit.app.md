@@ -14,7 +14,7 @@ stars: 4.6
 ratings: 107859
 reviews: 6250
 size: 
-website: https://www.bybit.com
+website: https://web.archive.org/web/20240617001413/https://www.bybit.com/
 repository: 
 issue: 
 icon: com.bybit.app.png

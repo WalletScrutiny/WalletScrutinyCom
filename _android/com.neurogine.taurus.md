@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ntrade.com.my/
+website: https://walletscrutiny.com/brokenlink/https://ntrade.com.my/
 repository: 
 issue: 
 icon: com.neurogine.taurus.png

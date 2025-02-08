@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://e-leven.io/
+website: https://walletscrutiny.com/brokenlink/https://e-leven.io/
 repository: 
 issue: 
 icon: com.co.eost.elvwallet.png

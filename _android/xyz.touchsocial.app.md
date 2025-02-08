@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://touchsocial.xyz
+website: https://web.archive.org/web/20201101012410/https://touchsocial.xyz/
 repository: 
 issue: 
 icon: xyz.touchsocial.app.jpg

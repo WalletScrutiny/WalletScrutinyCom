@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.tbitex.com/
+website: https://web.archive.org/web/20220316131813/https://www.tbitex.com/
 repository: 
 issue: 
 icon: com.tbit.android.png

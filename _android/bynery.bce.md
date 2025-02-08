@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.bynery.com
+website: https://web.archive.org/web/20220416050820/https://bynery.com/
 repository: 
 issue: 
 icon: bynery.bce.png

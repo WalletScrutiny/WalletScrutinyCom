@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://blockscart.eu
+website: https://web.archive.org/web/20181113014202/https://blockscart.eu/
 repository: 
 issue: 
 icon: com.AppInstitute.qf0b5.png

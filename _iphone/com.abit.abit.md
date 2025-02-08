@@ -13,7 +13,7 @@ version: 2.3.2
 stars: 
 reviews: 
 size: 49035264
-website: https://www.abit.com
+website: https://web.archive.org/web/20051001034030/http://www.abit.com:80/
 repository: 
 issue: 
 icon: com.abit.abit.jpg

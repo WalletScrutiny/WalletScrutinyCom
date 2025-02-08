@@ -14,7 +14,7 @@ stars: 2.6
 ratings: 
 reviews: 4
 size: 
-website: https://kitefinancial.io
+website: https://walletscrutiny.com/brokenlink/https://kitefinancial.io
 repository: 
 issue: 
 icon: io.kitefinancial.wallet.png

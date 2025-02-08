@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.isun1.com
+website: https://www.isun1.com
 repository: 
 issue: 
 icon: com.isunoneapp.png
