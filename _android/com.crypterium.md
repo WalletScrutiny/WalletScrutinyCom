@@ -30,7 +30,7 @@ social:
 - https://www.facebook.com/crypterium.org
 redirect_from:
 - /com.crypterium/
-developerName: Crypterium AS
+developerName: UAB Choise Servises
 features: 
 
 ---

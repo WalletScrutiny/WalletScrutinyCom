@@ -8,11 +8,11 @@ appId: com.wbtcb.bitstock
 appCountry: us
 idd: '1508577020'
 released: 2020-06-22
-updated: 2024-11-26
-version: 2.8.0
+updated: 2025-02-06
+version: 2.9.0
 stars: 3.7
 reviews: 3
-size: '51017728'
+size: '55158784'
 website: https://bit.plus
 repository: 
 issue: 

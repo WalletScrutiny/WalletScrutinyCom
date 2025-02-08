@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.bitcoinblackcreditcard.com
+website: https://www.bblack.io
 repository: 
 issue: 
 icon: com.bitcoinblack.jpg

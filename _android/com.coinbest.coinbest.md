@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: 暗号資産取引ならコインベストービットコイン ウォレット
+title: 暗号資産取引ならOSL Japan
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.coinbest.coinbest
 appCountry: 
 released: 2021-05-17
-updated: 2024-12-11
-version: 2.0.4
+updated: 2025-02-06
+version: 4.0.2
 stars: 
 ratings: 
 reviews: 
@@ -19,7 +19,7 @@ issue:
 icon: com.coinbest.coinbest.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2022-06-22
 signer: 

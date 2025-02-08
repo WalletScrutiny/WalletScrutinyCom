@@ -9,10 +9,10 @@ appId: com.lobstr.client
 appCountry: us
 released: 2015-04-27
 updated: 2025-02-05
-version: 12.4.5
-stars: 4.5
+version: 12.4.6
+stars: 4.6
 ratings: 11618
-reviews: 2182
+reviews: 2183
 size: 
 website: https://lobstr.co/
 repository: 

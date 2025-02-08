@@ -8,8 +8,8 @@ users: 50000
 appId: com.kraken.superwallet
 appCountry: 
 released: 2024-04-11
-updated: 2025-01-28
-version: 1.16.1 (1)
+updated: 2025-02-06
+version: 1.17.0 (30)
 stars: 4.6
 ratings: 
 reviews: 50

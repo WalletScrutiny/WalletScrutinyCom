@@ -9,7 +9,7 @@ appId: br.com.foxbit.foxbitandroid
 appCountry: br
 released: 2019-01-28
 updated: 2025-01-31
-version: 3.15.3
+version: 3.15.5
 stars: 4.3
 ratings: 6740
 reviews: 6184

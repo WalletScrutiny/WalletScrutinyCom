@@ -12,7 +12,7 @@ updated: 2025-01-22
 version: 2.0.3
 stars: 3.4
 ratings: 
-reviews: 180
+reviews: 181
 size: 
 website: https://www.coinpayu.com
 repository: 

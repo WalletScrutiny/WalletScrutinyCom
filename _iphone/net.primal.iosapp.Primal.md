@@ -8,11 +8,11 @@ appId: net.primal.iosapp.Primal
 appCountry: us
 idd: '1673134518'
 released: 2023-12-01
-updated: 2024-12-09
-version: 2.0.134
+updated: 2025-02-07
+version: '2.1'
 stars: 4.9
-reviews: 594
-size: '36974592'
+reviews: 596
+size: '38482944'
 website: https://primal.net
 repository: 
 issue: 

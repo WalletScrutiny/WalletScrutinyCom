@@ -37,7 +37,7 @@ signer:
 reviewArchive:
 - date: 2024-12-13
   version: 2.8.6
-  appHashes: 
+  appHashes:
   - 197197aba0f412a74be96a2a6ad1537437cee67e517bd94d1cb776c263a37ffe
   - 78a69afb22d7c0704bd40479bde3ee2d15c390a1819129cf5954643d8d65e0fc
   - 73c8e70fc6785616574cb7d1ac274f3cea596870dff2316d3599adde1b4f2eb2

@@ -156,6 +156,17 @@
   {
     "appId": "ch.swissbitcoinpay.checkout",
     "signer": "17d9c0bf025008da16d5a146e1beaca6ddcfe3cb0cf063da23c847d3007eb621",
+    "version": "2.1.4",
+    "verdict": "nonverifiable",
+    "appHashes": [
+      "69a7e528ca403489349a482af6a35b94646b428dd27b09336793ad5817cdd9af"
+    ],
+    "date": "2024-09-18",
+    "platform": "android"
+  },
+  {
+    "appId": "ch.swissbitcoinpay.checkout",
+    "signer": "17d9c0bf025008da16d5a146e1beaca6ddcfe3cb0cf063da23c847d3007eb621",
     "version": "2.1.1",
     "verdict": "nonverifiable",
     "appHashes": [
@@ -4331,6 +4342,20 @@
       "3940dc0615c651104baf0e10147550d4ad2e44e2ef317a94ed36245e3e016bf2"
     ],
     "date": "2024-04-01",
+    "platform": "hardware"
+  },
+  {
+    "appId": "trezorSafe5",
+    "signer": "",
+    "version": "2.8.6",
+    "verdict": "reproducible",
+    "appHashes": [
+      "197197aba0f412a74be96a2a6ad1537437cee67e517bd94d1cb776c263a37ffe",
+      "78a69afb22d7c0704bd40479bde3ee2d15c390a1819129cf5954643d8d65e0fc",
+      "73c8e70fc6785616574cb7d1ac274f3cea596870dff2316d3599adde1b4f2eb2",
+      "538515eb83558832356340ef198559ca14fa5a70220b14e2fb06dc3c8fef5d03"
+    ],
+    "date": "2024-12-13",
     "platform": "hardware"
   },
   {

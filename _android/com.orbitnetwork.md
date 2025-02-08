@@ -12,7 +12,7 @@ updated: 2021-08-20
 version: '2.2'
 stars: 4
 ratings: 
-reviews: 17
+reviews: 18
 size: 
 website: https://orbitnetwork.com/
 repository: 

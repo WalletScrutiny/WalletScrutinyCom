@@ -4,7 +4,7 @@ title: 'Buycoins Pro: Trade BTC & USDT'
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: africa.buycoins.buycoinsx.pro
 appCountry: us
 released: 2021-04-16

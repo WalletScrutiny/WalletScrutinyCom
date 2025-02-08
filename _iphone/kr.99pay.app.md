@@ -11,7 +11,7 @@ released: 2017-05-05
 updated: 2025-01-03
 version: 5.9.7(591)
 stars: 4.7
-reviews: 1485
+reviews: 1489
 size: '104614912'
 website: http://www.99pay.kr
 repository: 

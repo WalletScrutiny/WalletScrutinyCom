@@ -11,11 +11,11 @@ users: 10000
 appId: io.nunchuk.android
 appCountry: 
 released: 2021-11-11
-updated: 2025-02-03
-version: 1.9.59
+updated: 2025-02-07
+version: 1.9.62
 stars: 4.6
 ratings: 26
-reviews: 23
+reviews: 24
 size: 
 website: https://nunchuk.io
 repository: https://github.com/nunchuk-io/nunchuk-android

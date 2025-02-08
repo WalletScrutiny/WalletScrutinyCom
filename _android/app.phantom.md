@@ -9,10 +9,10 @@ appId: app.phantom
 appCountry: 
 released: 2022-04-12
 updated: 2025-02-05
-version: 25.3.1
-stars: 4.1
+version: 25.4.0
+stars: 4
 ratings: 
-reviews: 927
+reviews: 936
 size: 
 website: https://phantom.app/
 repository: 

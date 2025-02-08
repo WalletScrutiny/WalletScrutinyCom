@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Bitcoin OX — Crypto Wallet
+title: Bitcoin OX Crypto Wallet
 altTitle: 
 authors:
 - leo
@@ -31,7 +31,7 @@ social:
 redirect_from:
 - /org.bitcoinox.bitcoinoxwallet/
 - /posts/org.bitcoinox.bitcoinoxwallet/
-developerName: Excdev
+developerName: GNUAPP UNIPESSOAL LDA
 features: 
 
 ---
