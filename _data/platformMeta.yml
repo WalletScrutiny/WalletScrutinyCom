@@ -192,7 +192,6 @@ desktop:
     - outdated
     - removed
     - deprecated
-    - discontinued
 others:
   description: >
     These products do not fit into any of the other categories. We list them as
