@@ -6,7 +6,7 @@ authors:
 released: 2021-02-23
 discontinued: 
 updated: 
-version: 1.0.4
+version: 
 binaries: 
 dimensions:
 - 100
@@ -23,10 +23,10 @@ repository:
 issue: 
 icon: huskyhdw20.png
 bugbounty: 
-meta: obsolete
+meta: defunct
 verdict: nosource
 appHashes: 
-date: 2024-11-15
+date: 2025-02-06
 signer: 
 reviewArchive: 
 twitter: 
@@ -35,6 +35,16 @@ social:
 features: 
 
 ---
+
+## Update 2025-02-06
+
+- The android app {% include walletLink.html wallet='android/com.husky.hdw20' verdict='true' %} is no longer available in Google Play.
+- The website hasn't been updated since we last reviewed this product. 
+- The facebook page hasn't been updated since 2022
+
+There are many indications that this product is no longer available. Marking this device as **defunct**.
+
+## Previous Review 2024-11-15
 
 The device can connect to the Internet via Wi-Fi. It also comes with a companion app:
 
