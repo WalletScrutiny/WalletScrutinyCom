@@ -5,9 +5,9 @@ authors:
 - danny
 released: 2022-03-28
 discontinued: 
-updated: 
-version: 0.1
-binaries: https://github.com/Toporin/Seedkeeper-Applet/releases/tag/v0.1
+updated: 2025-01-21
+version: 0.2-0.1
+binaries: https://github.com/Toporin/Seedkeeper-Applet/releases
 dimensions:
 - 86
 - 54
@@ -16,17 +16,17 @@ weight:
 provider: Satochip
 providerWebsite: https://satochip.io
 website: https://seedkeeper.io
-shop: https://satochip.io/product-category/seedkeeper-seed-storage/
+shop: https://satochip.io/product/seedkeeper/
 country: BE
 price: 25 EUR
 repository: https://github.com/Toporin/Seedkeeper-Applet
 issue: 
 icon: satochip.seedkeeper.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: plainkey
 appHashes: 
-date: 2024-11-15
+date: 2025-02-06
 signer: 
 reviewArchive: 
 twitter: satochipwallet
