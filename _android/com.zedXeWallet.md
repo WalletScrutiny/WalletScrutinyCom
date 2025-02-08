@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.zedxe.com
+website: https://walletscrutiny.com/brokenlink/https://www.zedxe.com
 repository: 
 issue: 
 icon: com.zedXeWallet.png

@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bottrex.net
+website: https://web.archive.org/web/20180806224229/http://bottrex.net:80/
 repository: 
 issue: 
 icon: io.bottrex.starter.png

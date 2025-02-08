@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 57
 reviews: 34
 size: 33M
-website: https://kvadrowallet.com/
+website: https://walletscrutiny.com/brokenlink/https://kvadrowallet.com/
 repository: 
 issue: 
 icon: com.kvadrowallet.png

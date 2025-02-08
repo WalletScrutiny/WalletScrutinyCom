@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bitenium.com/
+website: https://web.archive.org/web/20210613195902/https://www.bitenium.com/
 repository: 
 issue: 
 icon: com.bitenium.apptrading.png

@@ -14,7 +14,7 @@ stars: 4.1
 ratings: 
 reviews: 
 size: 
-website: http://xfacia.com/
+website: https://xfacia.com/
 repository: 
 issue: 
 icon: com.web.XFacia.png

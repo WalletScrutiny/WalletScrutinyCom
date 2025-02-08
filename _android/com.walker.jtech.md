@@ -14,7 +14,7 @@ stars: 3.2
 ratings: 
 reviews: 19
 size: 
-website: http://www.jtechtrade.com
+website: https://web.archive.org/web/20210304125752/https://jtechtrade.com/
 repository: 
 issue: 
 icon: com.walker.jtech.png

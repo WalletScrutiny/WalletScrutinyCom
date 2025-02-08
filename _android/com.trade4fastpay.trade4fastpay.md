@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://trade4fastpay.com/
+website: https://web.archive.org/web/20220416143340/https://trade4fastpay.com/
 repository: 
 issue: 
 icon: com.trade4fastpay.trade4fastpay.png

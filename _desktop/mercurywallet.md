@@ -10,7 +10,7 @@ version: 0.1
 binaries: 
 provider: 
 providerWebsite: 
-website: https://mercurywallet.com/
+website: https://web.archive.org/web/20210607203437/https://mercurywallet.com/
 repository: https://github.com/layer2tech/mercury-wallet
 issue: 
 icon: mercurywallet.png

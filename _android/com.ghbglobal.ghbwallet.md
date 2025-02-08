@@ -14,7 +14,7 @@ stars: 4.5
 ratings: 
 reviews: 
 size: 
-website: http://ghbwallet.com/home/page/index.html
+website: https://walletscrutiny.com/brokenlink/https://ghbwallet.com/home/page/index.html
 repository: 
 issue: 
 icon: com.ghbglobal.ghbwallet.png

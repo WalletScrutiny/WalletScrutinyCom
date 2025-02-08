@@ -13,7 +13,7 @@ version: 6.24.3790
 stars: 
 reviews: 
 size: 81107968
-website: https://www.ubfx.co.uk/
+website: https://web.archive.org/web/20210620222622/https://www.ubfx.co.uk/
 repository: 
 issue: 
 icon: com.ubankfx.forex.jpg

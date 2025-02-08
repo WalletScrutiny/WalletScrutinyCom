@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://support.train-technical.com
+website: https://walletscrutiny.com/brokenlink/https://support.train-technical.com
 repository: 
 issue: 
 icon: com.traintechnical.ttgen.png

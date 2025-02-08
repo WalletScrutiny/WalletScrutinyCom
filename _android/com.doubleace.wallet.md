@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://acewallet.finance/
+website: https://web.archive.org/web/20220927141359/https://acewallet.finance/
 repository: 
 issue: 
 icon: com.doubleace.wallet.png

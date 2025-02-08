@@ -13,7 +13,7 @@ version: 7.30.1
 stars: 3.7
 reviews: 286
 size: '449551360'
-website: http://www.bkex.vip
+website: https://web.archive.org/web/20190512073212/https://www.bkex.vip/
 repository: 
 issue: 
 icon: com.bkex.exchange.jpg

@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://nnn.am
+website: https://walletscrutiny.com/brokenlink/https://nnn.am
 repository: 
 issue: 
 icon: com.currency.nnn.png

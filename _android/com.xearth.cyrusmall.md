@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://cyrus-mall.com
+website: https://walletscrutiny.com/brokenlink/https://cyrus-mall.com
 repository: 
 issue: 
 icon: com.xearth.cyrusmall.png

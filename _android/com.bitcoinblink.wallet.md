@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bitcoinblink.com/
+website: https://walletscrutiny.com/brokenlink/https://bitcoinblink.com/
 repository: 
 issue: 
 icon: com.bitcoinblink.wallet.png

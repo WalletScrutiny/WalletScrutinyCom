@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://first-union.com
+website: https://walletscrutiny.com/brokenlink/https://first-union.com
 repository: 
 issue: 
 icon: com.firstunion.uncwallet.png

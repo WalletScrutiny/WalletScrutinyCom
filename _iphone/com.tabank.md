@@ -13,7 +13,7 @@ version: 1.3.5
 stars: 4.3
 reviews: 24
 size: '54308864'
-website: https://web.tabus.co/ecommerce
+website: https://walletscrutiny.com/brokenlink/https://web.tabus.co/ecommerce
 repository: 
 issue: 
 icon: com.tabank.jpg

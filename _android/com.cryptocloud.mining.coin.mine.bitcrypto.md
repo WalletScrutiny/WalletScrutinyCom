@@ -14,7 +14,7 @@ stars: 3.2
 ratings: 4398
 reviews: 2958
 size: 12M
-website: https://bitcryptos.in/
+website: https://web.archive.org/web/20220428142120/http://bitcryptos.in/
 repository: 
 issue: 
 icon: com.cryptocloud.mining.coin.mine.bitcrypto.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 8.2M
-website: https://shamirswallet.com/
+website: https://walletscrutiny.com/brokenlink/https://shamirswallet.com/
 repository: 
 issue: 
 icon: ms.shamirswallet.app.png

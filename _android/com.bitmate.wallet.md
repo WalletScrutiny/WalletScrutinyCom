@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bitmate.io/
+website: https://web.archive.org/web/20161217152001/http://bitmate.io:80/
 repository: 
 issue: 
 icon: com.bitmate.wallet.png

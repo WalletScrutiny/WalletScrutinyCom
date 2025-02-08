@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.nakitcoins.com
+website: https://web.archive.org/web/20230327034940/https://nakitcoins.com/
 repository: 
 issue: 
 icon: com.nakitcoins.wallet.png

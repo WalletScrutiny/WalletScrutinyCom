@@ -13,7 +13,7 @@ version: 1.2.1
 stars: 2.3
 reviews: 3
 size: '5704704'
-website: https://coinkit.de
+website: https://walletscrutiny.com/brokenlink/https://coinkit.de
 repository: 
 issue: 
 icon: com.blockcurators.coinkit.jpg

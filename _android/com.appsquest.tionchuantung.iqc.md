@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.Mob1Apps.com
+website: https://walletscrutiny.com/brokenlink/https://www.Mob1Apps.com
 repository: 
 issue: 
 icon: com.appsquest.tionchuantung.iqc.png

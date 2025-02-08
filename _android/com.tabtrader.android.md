@@ -16,7 +16,7 @@ stars: 4
 ratings: 57218
 reviews: 1157
 size: 
-website: http://www.tab-trader.com
+website: https://www.tab-trader.com
 repository: 
 issue: 
 icon: com.tabtrader.android.png

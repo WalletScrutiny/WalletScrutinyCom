@@ -14,7 +14,7 @@ stars: 3.6
 ratings: 27
 reviews: 19
 size: 14M
-website: https://www.mobi.me/
+website: https://web.archive.org/web/20170928013700/https://www.mobi.me/
 repository: 
 issue: 
 icon: com.btcc.mobiwallet.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.halostar.org/
+website: https://web.archive.org/web/20220625020342/https://halostar.org/
 repository: 
 issue: 
 icon: com.logmethod.hsr.png

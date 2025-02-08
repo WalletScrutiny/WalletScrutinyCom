@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.tradersinc.mobi
+website: https://web.archive.org/web/20180902214238/http://www.tradersinc.mobi/
 repository: 
 issue: 
 icon: com.tradersinc.buybitcoin.png

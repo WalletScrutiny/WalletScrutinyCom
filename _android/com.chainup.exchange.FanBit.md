@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.fanbit.com
+website: https://web.archive.org/web/20110208211019/http://fanbit.com:80/
 repository: 
 issue: 
 icon: com.chainup.exchange.FanBit.png

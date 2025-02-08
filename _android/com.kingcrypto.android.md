@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://kingcrypto.exchange/
+website: https://web.archive.org/web/20220129104211/https://kingcrypto.exchange/
 repository: 
 issue: 
 icon: com.kingcrypto.android.png

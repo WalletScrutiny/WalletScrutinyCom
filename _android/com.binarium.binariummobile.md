@@ -14,7 +14,7 @@ stars: 3.5
 ratings: 2731
 reviews: 16
 size: 
-website: http://binarium.support
+website: https://binarium.support
 repository: 
 issue: 
 icon: com.binarium.binariummobile.png

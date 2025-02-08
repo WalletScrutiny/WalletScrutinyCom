@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://zezo.in
+website: https://zezo.in
 repository: 
 issue: 
 icon: com.coinsvalue.png

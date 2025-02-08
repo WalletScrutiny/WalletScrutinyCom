@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 380
 reviews: 10
 size: 
-website: http://sticpay.com
+website: https://sticpay.com
 repository: 
 issue: 
 icon: com.sticpay.app.sticpay.png

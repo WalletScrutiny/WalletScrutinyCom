@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://swappy.finance
+website: https://walletscrutiny.com/brokenlink/https://swappy.finance
 repository: 
 issue: 
 icon: finance.swappy.swappy.png

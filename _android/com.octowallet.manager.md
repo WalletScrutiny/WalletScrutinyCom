@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.octowallet.com
+website: https://walletscrutiny.com/brokenlink/https://www.octowallet.com
 repository: 
 issue: 
 icon: com.octowallet.manager.png

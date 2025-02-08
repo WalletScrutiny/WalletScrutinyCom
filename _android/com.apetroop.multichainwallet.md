@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://globaltoken.vip
+website: https://walletscrutiny.com/brokenlink/https://globaltoken.vip
 repository: 
 issue: 
 icon: com.apetroop.multichainwallet.png

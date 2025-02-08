@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://coinpanion.com
+website: https://web.archive.org/web/20210831071035/https://coinpanion.com/
 repository: 
 issue: 
 icon: com.coinpanion.mobileapp.jpg

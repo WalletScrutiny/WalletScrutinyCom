@@ -13,7 +13,7 @@ stars: 5
 ratings: 
 reviews: 
 size: 
-website: https://heru.finance/
+website: https://walletscrutiny.com/brokenlink/https://heru.finance/
 repository: 
 issue: 
 icon: com.herufinance.png

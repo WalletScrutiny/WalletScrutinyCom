@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: stratumhk
 social:
-- https://www.linkedin.com/company/stratumbr
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/stratumbr
 - https://www.facebook.com/stratum.hk
 features: 
 developerName: 

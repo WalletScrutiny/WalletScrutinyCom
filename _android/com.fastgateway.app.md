@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://fast-gateway.com/
+website: https://walletscrutiny.com/brokenlink/https://fast-gateway.com/
 repository: 
 issue: 
 icon: com.fastgateway.app.jpg

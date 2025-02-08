@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.paybank.com
+website: https://web.archive.org/web/20010220185604/http://paybank.com:80/
 repository: 
 issue: 
 icon: com.ffk.paybank.png

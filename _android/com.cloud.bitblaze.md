@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://bitblaze.co
+website: https://web.archive.org/web/20210401163042/https://www.bitblaze.co/
 repository: 
 issue: 
 icon: com.cloud.bitblaze.png

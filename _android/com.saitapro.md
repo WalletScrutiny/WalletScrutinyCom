@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 
 reviews: 331
 size: 
-website: http://Saitamatoken.com
+website: https://Saitamatoken.com
 repository: 
 issue: 
 icon: com.saitapro.png

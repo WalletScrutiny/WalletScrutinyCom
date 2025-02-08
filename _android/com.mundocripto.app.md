@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://abonocripto.com.ar
+website: https://walletscrutiny.com/brokenlink/https://abonocripto.com.ar
 repository: 
 issue: 
 icon: com.mundocripto.app.png

@@ -14,7 +14,7 @@ stars: 4.4
 ratings: 7001
 reviews: 183
 size: 
-website: https://cryptochallenge.app/
+website: https://walletscrutiny.com/brokenlink/https://cryptochallenge.app/
 repository: 
 issue: 
 icon: com.swissborg.android.community.png

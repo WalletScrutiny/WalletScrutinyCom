@@ -13,7 +13,7 @@ version: 1.7.2
 stars: 5
 reviews: 2
 size: '80020480'
-website: https://colodax.com
+website: https://web.archive.org/web/20201031235538/https://colodax.com/
 repository: 
 issue: 
 icon: com.colodax.colodax.jpg

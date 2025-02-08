@@ -13,7 +13,7 @@ version: 1.4.7
 stars: 4.7
 reviews: 15
 size: '70266880'
-website: https://dfox.cc
+website: https://web.archive.org/web/20201204064924/https://dfox.cc/
 repository: 
 issue: 
 icon: com.sixpencer.simplework.jpg

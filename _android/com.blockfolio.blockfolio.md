@@ -14,7 +14,7 @@ stars: 4
 ratings: 164833
 reviews: 11863
 size: 
-website: https://www.blockfolio.com
+website: https://walletscrutiny.com/brokenlink/https://www.blockfolio.com
 repository: 
 issue: 
 icon: com.blockfolio.blockfolio.png

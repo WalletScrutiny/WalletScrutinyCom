@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bitfin.io
+website: https://web.archive.org/web/20210617054135/https://bitfin.io/
 repository: 
 issue: 
 icon: com.bitfin.BitFin.png

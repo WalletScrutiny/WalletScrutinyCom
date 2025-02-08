@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://solidusx.com/
+website: https://web.archive.org/web/20230322221030/https://solidusx.com
 repository: 
 issue: 
 icon: com.solidus.x.png

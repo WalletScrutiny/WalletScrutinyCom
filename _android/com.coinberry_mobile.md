@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: CoinberryHQ
 social:
-- https://www.linkedin.com/company/coinberry
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/coinberry
 - https://www.facebook.com/CoinberryOfficial
 redirect_from: 
 developerName: Coinberry

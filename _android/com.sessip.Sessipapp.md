@@ -14,7 +14,7 @@ stars: 3.8
 ratings: 
 reviews: 9
 size: 
-website: https://sessip.com
+website: https://web.archive.org/web/20220822133237/https://www.sessip.com/
 repository: 
 issue: 
 icon: com.sessip.Sessipapp.png

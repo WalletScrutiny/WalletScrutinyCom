@@ -13,7 +13,7 @@ stars: 3.1
 ratings: 
 reviews: 8
 size: 
-website: http://www.hubrisone.com
+website: https://www.hubrisone.com
 repository: 
 issue: 
 icon: com.nettechnocrats.hubrisone.hubrisone.png

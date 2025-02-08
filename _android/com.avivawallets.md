@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://avivawallets.com
+website: https://web.archive.org/web/20211209110102/https://avivawallets.com/
 repository: 
 issue: 
 icon: com.avivawallets.png

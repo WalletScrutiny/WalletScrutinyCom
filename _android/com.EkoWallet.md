@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ekowallet.com
+website: https://walletscrutiny.com/brokenlink/https://ekowallet.com
 repository: 
 issue: 
 icon: com.EkoWallet.png

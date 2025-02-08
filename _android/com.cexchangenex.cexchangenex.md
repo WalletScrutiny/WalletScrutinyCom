@@ -14,7 +14,7 @@ stars: 3.8
 ratings: 73
 reviews: 38
 size: 
-website: https://cexchangenex.com/
+website: https://walletscrutiny.com/brokenlink/https://cexchangenex.com/
 repository: 
 issue: 
 icon: com.cexchangenex.cexchangenex.png

@@ -14,7 +14,7 @@ stars: 4.6
 ratings: 76
 reviews: 4
 size: 65M
-website: http://www.umifi.com
+website: https://web.archive.org/web/20210824184841/https://www.umifi.com/
 repository: 
 issue: 
 icon: com.umifi.app.png

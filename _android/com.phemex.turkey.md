@@ -14,7 +14,7 @@ stars: 3.6
 ratings: 
 reviews: 1
 size: 
-website: https://phemex.com.tr/
+website: https://web.archive.org/web/20211006061442/https://phemex.com.tr/
 repository: 
 issue: 
 icon: com.phemex.turkey.png

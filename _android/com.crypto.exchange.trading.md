@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://swapcrypto.ca/
+website: https://web.archive.org/web/20220228184737/https://swapcrypto.ca/
 repository: 
 issue: 
 icon: com.crypto.exchange.trading.jpg

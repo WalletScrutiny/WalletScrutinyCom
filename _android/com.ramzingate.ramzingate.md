@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ramzingate.com
+website: https://web.archive.org/web/20201212134438/https://ramzingate.com/
 repository: 
 issue: 
 icon: com.ramzingate.ramzingate.png

@@ -14,7 +14,7 @@ stars: 2.8
 ratings: 434
 reviews: 5
 size: 
-website: https://asbazar.com/en/home
+website: https://web.archive.org/web/20220821011128/https://asbazar.com/en/home
 repository: 
 issue: 
 icon: com.app.asbazar59.png

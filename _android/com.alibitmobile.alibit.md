@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://alibit.tech/
+website: https://walletscrutiny.com/brokenlink/https://alibit.tech/
 repository: 
 issue: 
 icon: com.alibitmobile.alibit.jpg

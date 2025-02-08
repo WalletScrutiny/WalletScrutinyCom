@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://btc-bank.co/
+website: https://web.archive.org/web/20211221094608/https://btc-bank.co/
 repository: 
 issue: 
 icon: com.application.btctr.png

@@ -14,7 +14,7 @@ version: 0.4.1
 stars: 4.2
 reviews: 19
 size: '44169216'
-website: https://ezdefi.com/
+website: https://web.archive.org/web/20210620000126/https://ezdefi.com/
 repository: 
 issue: 
 icon: com.ezdefi.nexty.jpg

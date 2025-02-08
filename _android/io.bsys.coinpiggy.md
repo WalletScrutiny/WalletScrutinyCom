@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://coinpiggy.io
+website: https://web.archive.org/web/20230328070632/https://coinpiggy.io/
 repository: 
 issue: 
 icon: io.bsys.coinpiggy.png

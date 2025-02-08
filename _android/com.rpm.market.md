@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://rpm.market
+website: https://walletscrutiny.com/brokenlink/https://rpm.market
 repository: 
 issue: 
 icon: com.rpm.market.png

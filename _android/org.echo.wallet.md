@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://echo-dev.io/
+website: https://walletscrutiny.com/brokenlink/https://echo-dev.io/
 repository: 
 issue: 
 icon: org.echo.wallet.png

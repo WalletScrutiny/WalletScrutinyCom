@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://peacewallet.io/
+website: https://web.archive.org/web/20210725060259/https://peacewallet.io/
 repository: 
 issue: 
 icon: com.jax.peaceWallet.png

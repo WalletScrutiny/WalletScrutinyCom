@@ -14,7 +14,7 @@ stars:
 ratings: 61
 reviews: 
 size: 
-website: https://s3wallet.io
+website: https://web.archive.org/web/20200525062111/https://www.s3wallet.io/
 repository: 
 issue: 
 icon: io.s3.wallet.png

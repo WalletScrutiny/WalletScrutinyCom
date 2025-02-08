@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bitdd.co
+website: https://web.archive.org/web/20220901023939/https://bitdd.co/
 repository: 
 issue: 
 icon: xyz.snazy.snazazizventures.bitdd.png

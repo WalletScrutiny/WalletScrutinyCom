@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://folgory.com/
+website: https://web.archive.org/web/20200528103424/https://folgory.com/
 repository: 
 issue: 
 icon: com.app.folgory.png

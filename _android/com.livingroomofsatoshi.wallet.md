@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 758
 reviews: 211
 size: 
-website: http://www.walletofsatoshi.com
+website: https://www.walletofsatoshi.com
 repository: 
 issue: 
 icon: com.livingroomofsatoshi.wallet.png

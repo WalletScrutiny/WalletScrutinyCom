@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://xexxchange.com/
+website: https://walletscrutiny.com/brokenlink/https://xexxchange.com/
 repository: 
 issue: 
 icon: com.webapp.KryptoExchange.png

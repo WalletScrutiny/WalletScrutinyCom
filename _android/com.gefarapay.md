@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://pay4y.com/
+website: https://walletscrutiny.com/brokenlink/https://pay4y.com/
 repository: 
 issue: 
 icon: com.gefarapay.png

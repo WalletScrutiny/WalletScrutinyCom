@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.hftrading.com
+website: https://walletscrutiny.com/brokenlink/https://www.hftrading.com
 repository: 
 issue: 
 icon: com.hftrading.png

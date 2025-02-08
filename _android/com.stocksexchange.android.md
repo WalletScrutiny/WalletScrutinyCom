@@ -14,7 +14,7 @@ stars: 4.4
 ratings: 2148
 reviews: 41
 size: 
-website: https://stex.com
+website: https://web.archive.org/web/20201109002822/https://www.stex.com/
 repository: 
 issue: 
 icon: com.stocksexchange.android.png

@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 1690
 reviews: 134
 size: 
-website: http://cindicator.com
+website: https://cindicator.com
 repository: 
 issue: 
 icon: com.cindicator.png

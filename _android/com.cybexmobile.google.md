@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.cybex.io
+website: https://web.archive.org/web/20180121003348/http://cybex.io:80/
 repository: 
 issue: 
 icon: com.cybexmobile.google.png

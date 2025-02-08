@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://drone.onlinestore.digital
+website: https://web.archive.org/web/20211207153542/https://drone.onlinestore.digital/
 repository: 
 issue: 
 icon: com.premiumappsfactory.crypto.png

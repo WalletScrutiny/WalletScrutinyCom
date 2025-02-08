@@ -14,7 +14,7 @@ stars: 3.6
 ratings: 24
 reviews: 5
 size: 
-website: https://sirinlabs.com/
+website: https://web.archive.org/web/20211224122040/https://sirinlabs.com/
 repository: 
 issue: 
 icon: com.sirinlabs.os.wallet.png

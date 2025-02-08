@@ -14,7 +14,7 @@ stars: 3
 ratings: 
 reviews: 10
 size: 
-website: https://www.burency.com
+website: https://web.archive.org/web/20210623222019/https://www.burency.com/
 repository: 
 issue: 
 icon: com.chainup.exchange.Burency.png

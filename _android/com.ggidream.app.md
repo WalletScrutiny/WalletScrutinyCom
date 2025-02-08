@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.ggidream.com
+website: https://walletscrutiny.com/brokenlink/https://www.ggidream.com
 repository: 
 issue: 
 icon: com.ggidream.app.png

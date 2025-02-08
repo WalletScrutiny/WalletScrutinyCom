@@ -13,7 +13,7 @@ stars: 5
 ratings: 55
 reviews: 4
 size: 
-website: http://www.hiluxcoin.com
+website: https://walletscrutiny.com/brokenlink/https://www.hiluxcoin.com
 repository: 
 issue: 
 icon: com.hilux.wallet.png

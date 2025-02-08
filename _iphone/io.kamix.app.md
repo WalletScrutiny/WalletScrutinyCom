@@ -13,7 +13,7 @@ version: '2.4'
 stars: 2.9
 reviews: 10
 size: '65405952'
-website: http://kamix.fr
+website: https://kamix.fr
 repository: 
 issue: 
 icon: io.kamix.app.jpg

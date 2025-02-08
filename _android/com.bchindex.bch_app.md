@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bchindex.com/
+website: https://web.archive.org/web/20180823114318/http://www.bchindex.com/
 repository: 
 issue: 
 icon: com.bchindex.bch_app.png

@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://hodler.tech
+website: https://web.archive.org/web/20210623202850/https://hodler.tech/
 repository: https://github.com/HODLERTECH/HODLER-Open-Source-Multi-Asset-Wallet
 issue: https://github.com/HODLERTECH/HODLER-Open-Source-Multi-Asset-Wallet/issues/165
 icon: tech.hodler.core.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ubgtech.my/
+website: https://walletscrutiny.com/brokenlink/https://ubgtech.my/
 repository: 
 issue: 
 icon: com.ubgtech.ubg.png

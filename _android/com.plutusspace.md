@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://plutus.space
+website: https://web.archive.org/web/20220520041119/https://plutus.space/
 repository: 
 issue: 
 icon: com.plutusspace.jpg

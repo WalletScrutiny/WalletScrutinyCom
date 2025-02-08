@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://noblecoin.io
+website: https://noblecoin.io
 repository: 
 issue: 
 icon: digiiblip.com.nobelhold.png

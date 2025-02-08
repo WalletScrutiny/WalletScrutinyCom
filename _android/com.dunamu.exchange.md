@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: upbitglobal
 social:
-- https://www.linkedin.com/company/upbit-official
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/upbit-official
 - https://www.facebook.com/upbit.exchange
 redirect_from: 
 developerName: Dunamu

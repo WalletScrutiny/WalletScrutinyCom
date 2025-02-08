@@ -13,7 +13,7 @@ version: 1.4.4
 stars: 0
 reviews: 0
 size: '100006912'
-website: https://www.btcex.com/
+website: https://web.archive.org/web/20211225092933/https://www.btcex.com/
 repository: 
 issue: 
 icon: com.btcex.appstore.jpg

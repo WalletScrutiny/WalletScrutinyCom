@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 
 reviews: 15
 size: 
-website: https://swaptobe.com
+website: https://web.archive.org/web/20240522193709/https://swaptobe.com/
 repository: 
 issue: 
 icon: com.companyname.swaptobe.png

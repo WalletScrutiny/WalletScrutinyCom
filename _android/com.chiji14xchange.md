@@ -14,7 +14,7 @@ stars: 1.7
 ratings: 1121
 reviews: 948
 size: 
-website: https://chiji14xchange.com
+website: https://web.archive.org/web/20221010140526/https://chiji14xchange.com/
 repository: 
 issue: 
 icon: com.chiji14xchange.png

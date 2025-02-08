@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://lndroid.org
+website: https://web.archive.org/web/20210624094221/http://lndroid.org/
 repository: 
 issue: 
 icon: org.lndroid.messenger.testnet.png

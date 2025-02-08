@@ -14,7 +14,7 @@ stars: 5
 ratings: 
 reviews: 6
 size: 
-website: https://bitsmoney.co.com
+website: https://web.archive.org/web/20210611065405/https://bitsmoney.co.com/
 repository: 
 issue: 
 icon: com.bitsmoney.mobile.png

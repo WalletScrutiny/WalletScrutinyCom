@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 35079
 reviews: 111
 size: 
-website: http://latoken.com
+website: https://latoken.com
 repository: 
 issue: 
 icon: com.latoken.wallet.png

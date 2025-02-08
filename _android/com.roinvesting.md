@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: Roinvesting
 social:
-- https://www.linkedin.com/company/roinvesting
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/roinvesting
 - https://www.facebook.com/ROInvesting
 redirect_from: 
 developerName: Royal Forex Limited

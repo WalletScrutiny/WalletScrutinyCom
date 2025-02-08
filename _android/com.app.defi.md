@@ -14,7 +14,7 @@ stars: 4.2
 ratings: 
 reviews: 29
 size: 
-website: https://lachain.io
+website: https://web.archive.org/web/20220216170821/https://lachain.io/
 repository: 
 issue: 
 icon: com.app.defi.png

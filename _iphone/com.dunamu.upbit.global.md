@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: 
 social:
-- https://www.linkedin.com/company/upbit-official
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/upbit-official
 - https://www.facebook.com/upbit.exchange
 features: 
 developerName: 

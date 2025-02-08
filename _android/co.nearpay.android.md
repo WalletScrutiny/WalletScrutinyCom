@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://nearpay.co/
+website: https://web.archive.org/web/20220826015801/https://nearpay.co/
 repository: 
 issue: 
 icon: co.nearpay.android.png

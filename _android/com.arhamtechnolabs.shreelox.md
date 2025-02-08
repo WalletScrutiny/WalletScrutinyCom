@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.shreelox.com/
+website: https://walletscrutiny.com/brokenlink/https://www.shreelox.com/
 repository: 
 issue: 
 icon: com.arhamtechnolabs.shreelox.png

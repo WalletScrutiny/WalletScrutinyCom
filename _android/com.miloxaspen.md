@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://milox.exchange
+website: https://web.archive.org/web/20210709052923/https://milox.exchange/
 repository: 
 issue: 
 icon: com.miloxaspen.jpg

@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 265
 reviews: 11
 size: 
-website: https://digiexchange.net/
+website: https://web.archive.org/web/20180222005801/https://digiexchange.net/
 repository: 
 issue: 
 icon: com.digi.exchange.jpg

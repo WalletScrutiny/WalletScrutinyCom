@@ -13,7 +13,7 @@ stars: 5
 ratings: 
 reviews: 
 size: 
-website: https://www.tmebit.co.kr
+website: https://walletscrutiny.com/brokenlink/https://www.tmebit.co.kr
 repository: 
 issue: 
 icon: com.tmebit.exchange.png

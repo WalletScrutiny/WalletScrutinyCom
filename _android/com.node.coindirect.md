@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: coindirectcom
 social:
-- https://www.linkedin.com/company/coindirect
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/coindirect
 - https://www.facebook.com/coindirectcom
 redirect_from: 
 developerName: Coin  Limited

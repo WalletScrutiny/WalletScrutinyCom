@@ -13,7 +13,7 @@ stars: 5
 ratings: 
 reviews: 
 size: 
-website: https://xbond.io
+website: https://web.archive.org/web/20191216044354/https://xbond.io/
 repository: 
 issue: 
 icon: io.xbond.droidapp.png

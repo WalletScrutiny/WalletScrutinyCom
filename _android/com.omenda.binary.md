@@ -13,7 +13,7 @@ stars: 3.9
 ratings: 
 reviews: 
 size: 
-website: https://omenda.com
+website: https://walletscrutiny.com/brokenlink/https://omenda.com
 repository: 
 issue: 
 icon: com.omenda.binary.png

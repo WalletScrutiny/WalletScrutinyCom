@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ftxtr.com
+website: https://walletscrutiny.com/brokenlink/https://ftxtr.com
 repository: 
 issue: 
 icon: com.ftxmobile.ftxtr.png

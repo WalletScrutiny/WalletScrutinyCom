@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bizblocks.io
+website: https://web.archive.org/web/20210618173743/https://bizblocks.io/
 repository: 
 issue: 
 icon: io.kaiser.kaiserwallet2.ble_reader.png

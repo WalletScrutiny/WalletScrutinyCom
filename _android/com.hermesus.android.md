@@ -14,7 +14,7 @@ stars: 2.9
 ratings: 
 reviews: 
 size: 
-website: https://hermesus.com
+website: https://web.archive.org/web/20220123034257/https://hermesus.com/
 repository: 
 issue: 
 icon: com.hermesus.android.png

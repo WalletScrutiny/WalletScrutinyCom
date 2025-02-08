@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://safesenda.com
+website: https://web.archive.org/web/20220419012810/https://www.safesenda.com/
 repository: 
 issue: 
 icon: com.safesenda.png

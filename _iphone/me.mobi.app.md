@@ -13,7 +13,7 @@ version: 2.36.3
 stars: 0
 reviews: 0
 size: '46117888'
-website: http://www.mobi.me
+website: https://web.archive.org/web/20170928013700/https://www.mobi.me/
 repository: 
 issue: 
 icon: me.mobi.app.jpg

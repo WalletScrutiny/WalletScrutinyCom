@@ -13,7 +13,7 @@ stars: 4.5
 ratings: 3131
 reviews: 1214
 size: 13M
-website: https://safewallet.cmcmbc.com
+website: https://web.archive.org/web/20210625024322/http://safewallet.cmcmbc.com/
 repository: 
 issue: 
 icon: com.cmcm.blockchain.bitcoin.ethereum.safewallet.png

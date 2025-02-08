@@ -13,7 +13,7 @@ stars: 2.9
 ratings: 366
 reviews: 9
 size: 
-website: http://bbctoken.app
+website: https://web.archive.org/web/20200210085838/http://bbctoken.app:80/
 repository: 
 issue: 
 icon: com.bbctoken.png

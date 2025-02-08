@@ -14,7 +14,7 @@ stars: 3.6
 ratings: 
 reviews: 2
 size: 
-website: https://blockchain.mn
+website: https://walletscrutiny.com/brokenlink/https://blockchain.mn
 repository: 
 issue: 
 icon: com.blockchain.edcwallet.png
@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: EDCBlockchain
 social:
-- https://www.linkedin.com/company/edcblockchain
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/edcblockchain
 - https://www.facebook.com/EDCBlockchain
 redirect_from: 
 developerName: 

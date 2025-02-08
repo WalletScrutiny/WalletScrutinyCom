@@ -13,7 +13,7 @@ version: 1.1.20
 stars: 4.6
 reviews: 251
 size: '32574464'
-website: https://protonchain.com
+website: https://web.archive.org/web/20200922113703/https://www.protonchain.com/
 repository: 
 issue: 
 icon: com.metallicus.proton.jpg

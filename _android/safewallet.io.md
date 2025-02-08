@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://amgenwallet.com/
+website: https://walletscrutiny.com/brokenlink/https://amgenwallet.com/
 repository: 
 issue: 
 icon: safewallet.io.png

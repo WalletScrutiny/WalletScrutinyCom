@@ -14,7 +14,7 @@ stars: 4.8
 ratings: 
 reviews: 471
 size: 
-website: https://xumm.app/
+website: https://walletscrutiny.com/brokenlink/https://xumm.app/
 repository: 
 issue: 
 icon: com.xrpllabs.xumm.png

@@ -13,7 +13,7 @@ version: 1.0.78
 stars: 5
 reviews: 1
 size: '107962368'
-website: https://www.easycoins.com/
+website: https://walletscrutiny.com/brokenlink/https://www.easycoins.com/
 repository: 
 issue: 
 icon: com.easycoin.exchange.jpg

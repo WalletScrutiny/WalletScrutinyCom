@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bisnis188.tech
+website: https://walletscrutiny.com/brokenlink/https://bisnis188.tech
 repository: 
 issue: 
 icon: dtn.crypto1.dtech.png

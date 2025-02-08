@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://line2coin.com
+website: https://web.archive.org/web/20220721100054/https://www.line2coin.com/
 repository: 
 issue: 
 icon: apps.produccion.line2coinswap.jpg

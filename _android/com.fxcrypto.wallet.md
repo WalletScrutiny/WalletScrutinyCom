@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://forexrobottraders.com/
+website: https://web.archive.org/web/20100114013600/http://forexrobottraders.com:80/
 repository: 
 issue: 
 icon: com.fxcrypto.wallet.png

@@ -13,7 +13,7 @@ version: 4.5.0
 stars: 4.5
 reviews: 68
 size: '66501632'
-website: https://www.mercury.cash/
+website: https://web.archive.org/web/20201101010439/https://www.mercury.cash/
 repository: 
 issue: 
 icon: com.adenter.mercurycash.jpg

@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://wallet.fmetoken.io
+website: https://walletscrutiny.com/brokenlink/https://wallet.fmetoken.io
 repository: 
 issue: 
 icon: com.fme.wallet.jpg

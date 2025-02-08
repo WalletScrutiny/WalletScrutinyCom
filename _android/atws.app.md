@@ -14,7 +14,7 @@ stars: 4.6
 ratings: 7723
 reviews: 1291
 size: 
-website: http://ibkr.com
+website: https://ibkr.com
 repository: 
 issue: 
 icon: atws.app.png

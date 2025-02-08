@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://confirmo.net
+website: https://confirmo.net
 repository: 
 issue: 
 icon: cz.confirmo.app.confirmo_flutter.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://healthchainus.com/
+website: https://web.archive.org/web/20200812114835/https://healthchainus.com/
 repository: 
 issue: 
 icon: com.bbko.hcu_wallet.png

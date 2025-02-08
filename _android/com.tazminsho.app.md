@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://tazminsho.com
+website: https://walletscrutiny.com/brokenlink/https://tazminsho.com
 repository: 
 issue: 
 icon: com.tazminsho.app.png

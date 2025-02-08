@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://sonidex.sonikchain.com
+website: https://web.archive.org/web/20230329134021/https://sonidex.sonikchain.com/
 repository: 
 issue: 
 icon: com.sonikchain.sonidex.png

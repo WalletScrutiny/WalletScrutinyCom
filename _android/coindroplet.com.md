@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.coindroplet.com
+website: https://web.archive.org/web/20180203081227/http://coindroplet.com/
 repository: 
 issue: 
 icon: coindroplet.com.png

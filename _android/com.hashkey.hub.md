@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 
 reviews: 3
 size: 
-website: https://hub.hashkey.com
+website: https://walletscrutiny.com/brokenlink/https://hub.hashkey.com
 repository: 
 issue: 
 icon: com.hashkey.hub.png

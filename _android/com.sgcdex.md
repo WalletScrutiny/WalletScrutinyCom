@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.sgcdex.com/
+website: https://walletscrutiny.com/brokenlink/https://www.sgcdex.com/
 repository: 
 issue: 
 icon: com.sgcdex.png

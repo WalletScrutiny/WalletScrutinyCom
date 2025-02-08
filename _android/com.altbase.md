@@ -14,7 +14,7 @@ stars: 4.5
 ratings: 
 reviews: 26
 size: 
-website: https://altbase.com/
+website: https://walletscrutiny.com/brokenlink/https://altbase.com/
 repository: 
 issue: 
 icon: com.altbase.png

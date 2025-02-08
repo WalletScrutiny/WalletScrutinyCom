@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://jeritex.com
+website: https://walletscrutiny.com/brokenlink/https://jeritex.com
 repository: 
 issue: 
 icon: com.jeritex.exchange.png

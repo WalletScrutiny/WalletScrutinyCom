@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.wenlite.io
+website: https://www.wenlite.io
 repository: 
 issue: 
 icon: com.wenlite.dcx.png

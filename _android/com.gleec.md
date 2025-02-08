@@ -14,7 +14,7 @@ stars: 3.1
 ratings: 
 reviews: 7
 size: 
-website: http://gleec.com/
+website: https://gleec.com/
 repository: 
 issue: 
 icon: com.gleec.png

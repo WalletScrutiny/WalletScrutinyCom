@@ -12,7 +12,7 @@ version: 1.4.0
 stars: 3.9
 reviews: 36
 size: '24013824'
-website: https://flarewallet.io
+website: https://web.archive.org/web/20200421031714/https://flarewallet.io/
 repository: 
 issue: 
 icon: org.flarewallet.flare.jpg

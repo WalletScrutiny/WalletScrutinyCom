@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://myeazywallet.com/
+website: https://web.archive.org/web/20220326145750/https://myeazywallet.com/
 repository: 
 issue: 
 icon: com.application.myeazywallet.jpg

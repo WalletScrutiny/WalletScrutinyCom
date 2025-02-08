@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://kolicoin.com
+website: https://web.archive.org/web/20210621224324/https://kolicoin.com/
 repository: 
 issue: 
 icon: com.ubakasi.kolicoin.png

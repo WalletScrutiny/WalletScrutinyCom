@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://mmex.cc
+website: https://web.archive.org/web/20220828175853/https://www.mmex.cc/
 repository: 
 issue: 
 icon: com.app.irxauj.cn.png

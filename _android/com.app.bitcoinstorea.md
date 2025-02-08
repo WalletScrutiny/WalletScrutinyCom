@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://t91a3kzq.app-adstxt.dev/app-ads.txt
+website: https://web.archive.org/web/20220706140318/https://t91a3kzq.app-adstxt.dev/app-ads.txt
 repository: 
 issue: 
 icon: com.app.bitcoinstorea.jpg

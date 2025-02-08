@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://orbitgt-m.com/
+website: https://orbitgt-m.com/
 repository: 
 issue: 
 icon: com.orbitgtm.png

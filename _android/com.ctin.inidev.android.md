@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://inindiatech.com
+website: https://web.archive.org/web/20220623104810/https://inindiatech.com/
 repository: 
 issue: 
 icon: com.ctin.inidev.android.png

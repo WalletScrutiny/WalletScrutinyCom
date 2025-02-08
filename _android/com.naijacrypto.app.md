@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://naijacrypto.com/
+website: https://web.archive.org/web/20200502162542/https://www.naijacrypto.com/
 repository: 
 issue: 
 icon: com.naijacrypto.app.png

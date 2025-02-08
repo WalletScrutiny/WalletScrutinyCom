@@ -14,7 +14,7 @@ stars: 3.8
 ratings: 555
 reviews: 270
 size: 16M
-website: https://prizmbit.com/
+website: https://web.archive.org/web/20200501081416/https://prizmbit.com/
 repository: 
 issue: 
 icon: com.prizmbit.png

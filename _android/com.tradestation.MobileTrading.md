@@ -14,7 +14,7 @@ stars: 4.6
 ratings: 4823
 reviews: 2028
 size: 
-website: http://tradestation.com/contact-us/
+website: https://tradestation.com/contact-us/
 repository: 
 issue: 
 icon: com.tradestation.MobileTrading.png

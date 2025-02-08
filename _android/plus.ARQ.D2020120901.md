@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.arq.link/
+website: https://web.archive.org/web/20211125224759/http://arq.link/
 repository: 
 issue: 
 icon: plus.ARQ.D2020120901.png

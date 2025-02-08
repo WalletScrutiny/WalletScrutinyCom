@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://goodbit.co.kr
+website: https://walletscrutiny.com/brokenlink/https://goodbit.co.kr
 repository: 
 issue: 
 icon: intowin.co.kr.p2coin.png

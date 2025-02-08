@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://inout.fm/
+website: https://web.archive.org/web/20171008200232/http://inout.fm:80/
 repository: 
 issue: 
 icon: com.lastthink.numbify.png

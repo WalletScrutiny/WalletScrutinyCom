@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://payus.io/
+website: https://web.archive.org/web/20201203003859/https://www.payus.io/
 repository: 
 issue: 
 icon: com.worldex.payus.png

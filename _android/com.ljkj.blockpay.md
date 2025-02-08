@@ -14,7 +14,7 @@ stars: 4.5
 ratings: 
 reviews: 1
 size: 
-website: http://www.cpay.finance/
+website: https://web.archive.org/web/20220826084106/https://www.cpay.finance/
 repository: 
 issue: 
 icon: com.ljkj.blockpay.png

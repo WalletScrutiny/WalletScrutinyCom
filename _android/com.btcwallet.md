@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://lunablockchain.com/
+website: https://walletscrutiny.com/brokenlink/https://lunablockchain.com/
 repository: 
 issue: 
 icon: com.btcwallet.jpg

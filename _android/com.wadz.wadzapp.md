@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.wadzpay.com
+website: https://www.wadzpay.com
 repository: 
 issue: 
 icon: com.wadz.wadzapp.png

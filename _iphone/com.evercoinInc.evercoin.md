@@ -13,7 +13,7 @@ version: 1.9.5
 stars: 4.6
 reviews: 2742
 size: '63333376'
-website: https://evercoin.com
+website: https://web.archive.org/web/20180104185943/https://evercoin.com/
 repository: 
 issue: 
 icon: com.evercoinInc.evercoin.jpg

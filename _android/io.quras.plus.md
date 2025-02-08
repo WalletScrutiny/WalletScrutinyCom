@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://quraswallet.org
+website: https://web.archive.org/web/20210624094153/https://quraswallet.org/
 repository: 
 issue: 
 icon: io.quras.plus.png

@@ -14,7 +14,7 @@ stars: 5
 ratings: 
 reviews: 1
 size: 
-website: https://lunawallet.ae
+website: https://walletscrutiny.com/brokenlink/https://lunawallet.ae
 repository: 
 issue: 
 icon: com.luna.wallet.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://finfreeotc.com
+website: https://web.archive.org/web/20201101000847/https://finfreeotc.com/
 repository: 
 issue: 
 icon: com.pulsedigital.finfreeotc.jpg

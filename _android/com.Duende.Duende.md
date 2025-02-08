@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://duende.me
+website: https://web.archive.org/web/20210104003340/https://duende.me/
 repository: 
 issue: 
 icon: com.Duende.Duende.png

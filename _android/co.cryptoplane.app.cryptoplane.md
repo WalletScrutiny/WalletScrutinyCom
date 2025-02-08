@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://crypto-plane.com
+website: https://walletscrutiny.com/brokenlink/https://crypto-plane.com
 repository: 
 issue: 
 icon: co.cryptoplane.app.cryptoplane.jpg

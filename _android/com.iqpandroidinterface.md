@@ -15,7 +15,7 @@ stars: 4.3
 ratings: 613
 reviews: 186
 size: 
-website: https://iqwallet.io/
+website: https://web.archive.org/web/20220625100315/https://iqwallet.io/
 repository: 
 issue: 
 icon: com.iqpandroidinterface.png

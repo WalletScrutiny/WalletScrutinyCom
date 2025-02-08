@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://tenetx.io
+website: https://web.archive.org/web/20220701052039/https://tenetx.io/
 repository: 
 issue: 
 icon: io.shdigital.tenetx.android.png

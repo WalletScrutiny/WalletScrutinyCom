@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.btcboxtw.com/
+website: https://web.archive.org/web/20240611054127/https://btcboxtw.com/
 repository: 
 issue: 
 icon: com.bicheng.newtw.exchange.png

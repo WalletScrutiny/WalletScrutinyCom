@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.t-rex.exchange/usdt
+website: https://web.archive.org/web/20200901085701/https://www.t-rex.exchange/usdt
 repository: 
 issue: 
 icon: com.trex.exchange.png

@@ -13,7 +13,7 @@ stars: 3.3
 ratings: 
 reviews: 14
 size: 
-website: https://www.usdtoption.com
+website: https://web.archive.org/web/20210719065947/http://usdtoption.com/
 repository: 
 issue: 
 icon: com.usdtoption.www.png

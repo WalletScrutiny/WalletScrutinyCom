@@ -14,7 +14,7 @@ stars: 3.7
 ratings: 5009
 reviews: 10072
 size: 
-website: http://eversend.co
+website: https://eversend.co
 repository: 
 issue: 
 icon: com.eversendapp.png

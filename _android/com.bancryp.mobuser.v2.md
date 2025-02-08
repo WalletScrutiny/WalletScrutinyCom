@@ -14,7 +14,7 @@ stars: 3.7
 ratings: 
 reviews: 
 size: 
-website: http://bancryp.com
+website: https://bancryp.com
 repository: 
 issue: 
 icon: com.bancryp.mobuser.v2.png

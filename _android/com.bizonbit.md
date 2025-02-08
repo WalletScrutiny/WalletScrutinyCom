@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.bizonbit.com
+website: https://walletscrutiny.com/brokenlink/https://www.bizonbit.com
 repository: 
 issue: 
 icon: com.bizonbit.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://mota.money/
+website: https://walletscrutiny.com/brokenlink/https://mota.money/
 repository: 
 issue: 
 icon: com.cis.motacoin.png

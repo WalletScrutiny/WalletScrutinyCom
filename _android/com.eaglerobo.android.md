@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://eaglerobo.com
+website: https://web.archive.org/web/20211129185143/http://eaglerobo.com/
 repository: 
 issue: 
 icon: com.eaglerobo.android.png

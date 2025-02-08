@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://themembersclub.vip
+website: https://walletscrutiny.com/brokenlink/https://themembersclub.vip
 repository: 
 issue: 
 icon: com.tmc.wallet.png

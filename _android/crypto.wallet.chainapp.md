@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://getbull.app
+website: https://walletscrutiny.com/brokenlink/https://getbull.app
 repository: 
 issue: 
 icon: crypto.wallet.chainapp.png

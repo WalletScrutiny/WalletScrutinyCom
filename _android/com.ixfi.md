@@ -14,7 +14,7 @@ stars: 4.7
 ratings: 
 reviews: 64
 size: 
-website: https://ixfi.com
+website: https://www.ixfi.com/
 repository: 
 issue: 
 icon: com.ixfi.png

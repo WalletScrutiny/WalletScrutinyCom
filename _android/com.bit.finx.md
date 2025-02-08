@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://bitfinix.tech/
+website: https://walletscrutiny.com/brokenlink/https://bitfinix.tech/
 repository: 
 issue: 
 icon: com.bit.finx.jpg

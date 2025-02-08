@@ -13,7 +13,7 @@ version: 1.0.19
 stars: 3
 reviews: 2
 size: '83215360'
-website: https://themetasigns.com/
+website: https://walletscrutiny.com/brokenlink/https://themetasigns.com/
 repository: 
 issue: 
 icon: com.metasigns.hotx.jpg

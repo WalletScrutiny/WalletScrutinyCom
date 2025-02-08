@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.xyt.com
+website: https://web.archive.org/web/19970214212433/http://www.xyt.com:80/
 repository: 
 issue: 
 icon: com.xytwww.png

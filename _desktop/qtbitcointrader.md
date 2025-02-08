@@ -10,7 +10,7 @@ version: 1.42.21
 binaries: 
 provider: Centrabit
 providerWebsite: 
-website: https://qttrader.com
+website: https://web.archive.org/web/20250101052631/https://qttrader.com/
 repository: https://github.com/JulyIghor/QtBitcoinTrader
 issue: 
 icon: qtbitcointrader.jpg

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://exchangevalet.com
+website: https://web.archive.org/web/20200516053259/https://exchangevalet.com/
 repository: 
 issue: 
 icon: com.dopamineapps.exchangevalet.png

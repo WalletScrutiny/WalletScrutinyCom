@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://dtswallet.io
+website: https://web.archive.org/web/20230116070359/https://dtswallet.io/
 repository: 
 issue: 
 icon: com.wallex.dts.png

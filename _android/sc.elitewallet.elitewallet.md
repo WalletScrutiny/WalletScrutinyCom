@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 
 reviews: 3
 size: 
-website: https://elitewallet.sc
+website: https://web.archive.org/web/20230108015231/https://elitewallet.sc/
 repository: https://github.com/Elite-Labs/EliteWallet
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/497
 icon: sc.elitewallet.elitewallet.png

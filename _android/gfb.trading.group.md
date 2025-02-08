@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://gfbtrading-group.com/
+website: https://web.archive.org/web/20201101080853/https://gfbtrading-group.com/
 repository: 
 issue: 
 icon: gfb.trading.group.jpg

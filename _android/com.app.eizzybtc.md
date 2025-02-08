@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 50M
-website: https://eizzybtc.com
+website: https://web.archive.org/web/20211202174040/http://eizzybtc.com/
 repository: 
 issue: 
 icon: com.app.eizzybtc.png

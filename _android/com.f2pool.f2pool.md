@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 
 reviews: 79
 size: 
-website: https://www.f2pool.com
+website: https://web.archive.org/web/20190531232006/https://www.f2pool.com/
 repository: 
 issue: 
 icon: com.f2pool.f2pool.png

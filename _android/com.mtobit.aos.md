@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://mtobit.com
+website: https://web.archive.org/web/20230528072042/https://mtobit.com/
 repository: 
 issue: 
 icon: com.mtobit.aos.png

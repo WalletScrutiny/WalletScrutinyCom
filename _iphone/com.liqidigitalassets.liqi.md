@@ -13,7 +13,7 @@ version: 1.2.6
 stars: 5
 reviews: 5
 size: '42834944'
-website: http://www.liqi.com.br
+website: https://www.liqi.com.br
 repository: 
 issue: 
 icon: com.liqidigitalassets.liqi.jpg

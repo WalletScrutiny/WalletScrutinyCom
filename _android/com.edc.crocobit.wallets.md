@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://crocobit.net
+website: https://crocobit.net
 repository: 
 issue: 
 icon: com.edc.crocobit.wallets.png

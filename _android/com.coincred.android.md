@@ -14,7 +14,7 @@ stars: 4.5
 ratings: 
 reviews: 27
 size: 
-website: https://coincred.org/
+website: https://web.archive.org/web/20220126092933/https://www.coincred.org/
 repository: 
 issue: 
 icon: com.coincred.android.png

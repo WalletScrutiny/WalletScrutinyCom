@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://kala.finance
+website: https://web.archive.org/web/20240730164615/https://www.kala.finance/
 repository: 
 issue: 
 icon: finance.kala.app.png

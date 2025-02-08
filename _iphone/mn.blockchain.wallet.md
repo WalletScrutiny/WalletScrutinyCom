@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: EDCBlockchain
 social:
-- https://www.linkedin.com/company/edcblockchain
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/edcblockchain
 - https://www.facebook.com/EDCBlockchain
 features: 
 developerName: 

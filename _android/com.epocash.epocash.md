@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.epocash.com
+website: https://web.archive.org/web/20160610032454/http://epocash.com/
 repository: 
 issue: 
 icon: com.epocash.epocash.jpg

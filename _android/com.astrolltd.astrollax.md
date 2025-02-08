@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://astrollax.com
+website: https://web.archive.org/web/20180805065045/http://astrollax.com/
 repository: 
 issue: 
 icon: com.astrolltd.astrollax.png

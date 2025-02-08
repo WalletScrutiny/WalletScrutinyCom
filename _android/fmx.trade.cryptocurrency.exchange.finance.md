@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://fmx.trade
+website: https://walletscrutiny.com/brokenlink/https://fmx.trade
 repository: 
 issue: 
 icon: fmx.trade.cryptocurrency.exchange.finance.png

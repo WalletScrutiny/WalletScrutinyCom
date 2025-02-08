@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://appswedo.com
+website: https://appswedo.com
 repository: 
 issue: 
 icon: com.appswedo.cryptomakemoney.png

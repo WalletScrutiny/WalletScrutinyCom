@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://drypwallet.com/
+website: https://web.archive.org/web/20211202073745/http://drypwallet.com/
 repository: 
 issue: 
 icon: com.dryp.wallet.png

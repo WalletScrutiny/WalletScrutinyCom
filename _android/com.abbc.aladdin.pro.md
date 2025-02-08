@@ -14,7 +14,7 @@ stars: 4.8
 ratings: 5401
 reviews: 162
 size: 
-website: http://abbcpayment.com
+website: https://abbcpayment.com
 repository: 
 issue: 
 icon: com.abbc.aladdin.pro.png

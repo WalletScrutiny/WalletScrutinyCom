@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://markka.com
+website: https://web.archive.org/web/19970405052627/http://www.markka.com:80/
 repository: 
 issue: 
 icon: com.markka.markkawallet.png

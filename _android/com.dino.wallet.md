@@ -14,7 +14,7 @@ stars: 4.9
 ratings: 1593
 reviews: 47
 size: 
-website: https://dinowallet.com
+website: https://web.archive.org/web/20240920220005/https://dinowallet.com/
 repository: 
 issue: 
 icon: com.dino.wallet.png

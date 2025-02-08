@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://flitz.be
+website: https://web.archive.org/web/20070524030137/http://www.flitz.be:80/
 repository: 
 issue: 
 icon: be.flitz.flitz_mobile_production.png

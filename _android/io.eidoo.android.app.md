@@ -14,7 +14,7 @@ stars: 1.6
 ratings: 
 reviews: 5
 size: 
-website: https://eidoo.app/
+website: https://web.archive.org/web/20220925013254/https://eidoo.app/
 repository: 
 issue: 
 icon: io.eidoo.android.app.jpg

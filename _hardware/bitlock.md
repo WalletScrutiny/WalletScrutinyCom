@@ -15,7 +15,7 @@ dimensions:
 weight: 12
 provider: Senselock Software Technology, Seculab-Europe and Delerex Pte. Ltd.
 providerWebsite: 
-website: https://bitlock.io
+website: https://web.archive.org/web/20241116063706/https://bitlock.io/
 shop: 
 country: SG
 price: 79USD

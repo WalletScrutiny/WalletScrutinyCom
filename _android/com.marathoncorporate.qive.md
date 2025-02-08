@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://qive.io
+website: https://web.archive.org/web/20211219224117/http://qive.io/
 repository: 
 issue: 
 icon: com.marathoncorporate.qive.png

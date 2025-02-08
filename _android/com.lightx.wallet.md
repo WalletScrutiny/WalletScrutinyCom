@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://lightxwallet.io
+website: https://web.archive.org/web/20230128173732/https://www.lightxwallet.io/
 repository: 
 issue: 
 icon: com.lightx.wallet.png

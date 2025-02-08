@@ -13,7 +13,7 @@ version: 3.12.45
 stars: 3.9
 reviews: 117
 size: '56832000'
-website: https://bitfy.app
+website: https://web.archive.org/web/20230213103933/https://bitfy.app/
 repository: 
 issue: 
 icon: app.bitfy.jpg

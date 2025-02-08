@@ -13,7 +13,7 @@ stars: 5
 ratings: 
 reviews: 
 size: 
-website: https://metafarmcrypto.com
+website: https://web.archive.org/web/20250125152459/https://metafarmcrypto.com/
 repository: 
 issue: 
 icon: com.app.metafarm.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.emx.com
+website: https://walletscrutiny.com/brokenlink/https://www.emx.com
 repository: 
 issue: 
 icon: com.evermarkets.emx.png

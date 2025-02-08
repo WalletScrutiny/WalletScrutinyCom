@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://dfx.swiss/bitcoin/
+website: https://web.archive.org/web/20221112174732/https://dfx.swiss/bitcoin/
 repository: 
 issue: 
 icon: com.defichain.app.dfx.bitcoin.png

@@ -15,7 +15,7 @@ dimensions:
 weight: 21
 provider: 
 providerWebsite: 
-website: https://www.trustblock.io
+website: https://walletscrutiny.com/brokenlink/https://www.trustblock.io
 shop: https://www.trustblock.io/product/buy
 country: 
 price: 599USD

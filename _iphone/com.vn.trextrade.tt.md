@@ -13,7 +13,7 @@ version: 2.0.0
 stars: 5
 reviews: 1
 size: '59051008'
-website: http://m.trexfx.com
+website: https://walletscrutiny.com/brokenlink/https://m.trexfx.com
 repository: 
 issue: 
 icon: com.vn.trextrade.tt.jpg

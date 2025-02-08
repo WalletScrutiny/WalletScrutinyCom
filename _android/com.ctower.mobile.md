@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 9.4M
-website: https://crosstower.com/
+website: https://web.archive.org/web/20230519155130/https://crosstower.com/
 repository: 
 issue: 
 icon: com.ctower.mobile.png

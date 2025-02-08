@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bincap.io
+website: https://web.archive.org/web/20191127182148/https://bincap.io/
 repository: 
 issue: 
 icon: io.bincap.exchange.png

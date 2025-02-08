@@ -13,7 +13,7 @@ stars: 4.8
 ratings: 
 reviews: 
 size: 
-website: https://www.centralcoin.io
+website: https://web.archive.org/web/20240323185131/https://www.centralcoin.io/
 repository: 
 issue: 
 icon: com.zendwallet.png

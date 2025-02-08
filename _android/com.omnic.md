@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://omnic.website/innovation
+website: https://walletscrutiny.com/brokenlink/https://omnic.website/innovation
 repository: 
 issue: 
 icon: com.omnic.png

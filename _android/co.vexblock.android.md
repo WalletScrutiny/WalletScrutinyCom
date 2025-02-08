@@ -14,7 +14,7 @@ stars: 4.8
 ratings: 192
 reviews: 18
 size: 
-website: https://vexblock.co/
+website: https://web.archive.org/web/20200805051007/http://vexblock.co/
 repository: 
 issue: 
 icon: co.vexblock.android.png

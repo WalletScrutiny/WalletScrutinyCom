@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://skg-world.com
+website: https://walletscrutiny.com/brokenlink/https://skg-world.com
 repository: 
 issue: 
 icon: com.wallet.crypto.skgapp.png

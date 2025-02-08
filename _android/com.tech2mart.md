@@ -13,7 +13,7 @@ stars: 3.7
 ratings: 
 reviews: 
 size: 
-website: http://tech2mart.com
+website: https://web.archive.org/web/20241001225553/http://tech2mart.com/
 repository: 
 issue: 
 icon: com.tech2mart.png

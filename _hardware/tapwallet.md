@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: TAP Labs, LLC
 providerWebsite: 
-website: http://tapwallet.com/
+website: https://walletscrutiny.com/brokenlink/https://tapwallet.com/
 shop: http://tapwallet.com/store.html
 country: US
 price: 249USD

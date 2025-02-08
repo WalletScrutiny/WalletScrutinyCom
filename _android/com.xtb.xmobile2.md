@@ -14,7 +14,7 @@ stars: 4.5
 ratings: 22753
 reviews: 160
 size: 
-website: http://www.xtb.com
+website: https://www.xtb.com
 repository: 
 issue: 
 icon: com.xtb.xmobile2.png
@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: xtbuk
 social:
-- https://www.linkedin.com/company/xtb-international
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/xtb-international
 - https://www.facebook.com/xtb
 redirect_from: 
 developerName: XTB S.A.

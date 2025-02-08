@@ -14,7 +14,7 @@ stars: 3.2
 ratings: 
 reviews: 8
 size: 
-website: https://help.sellix.io
+website: https://walletscrutiny.com/brokenlink/https://help.sellix.io
 repository: 
 issue: 
 icon: com.sellix.png

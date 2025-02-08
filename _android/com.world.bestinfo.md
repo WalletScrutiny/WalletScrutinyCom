@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://neo-forex.com/
+website: https://walletscrutiny.com/brokenlink/https://neo-forex.com/
 repository: 
 issue: 
 icon: com.world.bestinfo.png

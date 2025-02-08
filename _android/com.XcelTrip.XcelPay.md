@@ -14,7 +14,7 @@ stars: 4.4
 ratings: 3713
 reviews: 83
 size: 
-website: http://www.xcelpay.io
+website: https://www.xcelpay.io
 repository: 
 issue: 
 icon: com.XcelTrip.XcelPay.png

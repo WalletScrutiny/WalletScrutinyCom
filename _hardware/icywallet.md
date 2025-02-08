@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: NeatNik LLC (Adam Newbold)
 providerWebsite: 
-website: https://web.archive.org/web/20180107060156/https://icywallet.com/
+website: https://web.archive.org/web/20200514232913/https://icywallet.com/
 shop: 
 country: US
 price: 

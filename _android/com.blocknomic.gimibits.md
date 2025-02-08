@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://gimibits.com
+website: https://web.archive.org/web/20191209195943/https://gimibits.com/
 repository: 
 issue: 
 icon: com.blocknomic.gimibits.png

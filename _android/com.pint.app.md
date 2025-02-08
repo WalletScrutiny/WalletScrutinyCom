@@ -14,7 +14,7 @@ stars: 3.6
 ratings: 221
 reviews: 10
 size: 
-website: https://www.bitfia.io
+website: https://web.archive.org/web/20221219041910/https://www.bitfia.io/
 repository: 
 issue: 
 icon: com.pint.app.png

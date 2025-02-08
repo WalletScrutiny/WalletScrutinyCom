@@ -14,7 +14,7 @@ stars: 4.1
 ratings: 228
 reviews: 17
 size: 
-website: http://mercurycash.us
+website: https://mercurycash.us
 repository: 
 issue: 
 icon: com.adenter.mercurycash.png

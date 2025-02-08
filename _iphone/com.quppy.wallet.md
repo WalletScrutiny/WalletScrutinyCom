@@ -13,7 +13,7 @@ version: 2.0.117
 stars: 2
 reviews: 4
 size: '96802816'
-website: https://quppy.com
+website: https://web.archive.org/web/20060826095235/http://quppy.com:80/
 repository: 
 issue: 
 icon: com.quppy.wallet.jpg
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: QuppyPay
 social:
-- https://www.linkedin.com/company/quppy
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/quppy
 - https://www.facebook.com/quppyPay
 features: 
 developerName: Quppy Europe OU

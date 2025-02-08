@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.asserosapphiremoney.com/
+website: https://web.archive.org/web/20200713192234/http://www.asserosapphiremoney.com:80/
 repository: 
 issue: 
 icon: com.assero.asserowallet.png

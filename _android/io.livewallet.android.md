@@ -13,7 +13,7 @@ stars: 4.9
 ratings: 
 reviews: 
 size: 
-website: https://livewallet.io
+website: https://web.archive.org/web/20220527215108/https://livewallet.io/
 repository: 
 issue: 
 icon: io.livewallet.android.png

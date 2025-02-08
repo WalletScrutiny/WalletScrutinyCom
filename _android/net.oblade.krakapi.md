@@ -14,7 +14,7 @@ stars: 4.1
 ratings: 533
 reviews: 16
 size: 
-website: http://www.oblade.net
+website: https://web.archive.org/web/20210616105736/http://oblade.net/
 repository: 
 issue: 
 icon: net.oblade.krakapi.png

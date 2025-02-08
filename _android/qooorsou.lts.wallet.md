@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://wp.k8s.df.org.ua
+website: https://walletscrutiny.com/brokenlink/https://wp.k8s.df.org.ua
 repository: 
 issue: 
 icon: qooorsou.lts.wallet.png

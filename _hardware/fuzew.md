@@ -16,7 +16,7 @@ dimensions:
 weight: 8.5
 provider: BrilliantTS
 providerWebsite: https://brilliantts.com/
-website: https://fuzeway.com/collections/fuzew-products
+website: https://web.archive.org/web/20200809223342/https://fuzeway.com/collections/fuzew-products
 shop: https://fuzeway.com/products/fuzew-hardware-wallet
 country: KP
 price: 99USD

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://client.onechange.com.br
+website: https://walletscrutiny.com/brokenlink/https://client.onechange.com.br
 repository: 
 issue: 
 icon: com.onealliance.app.png

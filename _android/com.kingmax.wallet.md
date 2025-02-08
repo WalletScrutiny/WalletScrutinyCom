@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.kingmax.com
+website: https://web.archive.org/web/20050826103006/http://www.kingmax.com:80/
 repository: 
 issue: 
 icon: com.kingmax.wallet.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://wmprotrade.com
+website: https://web.archive.org/web/20210616225945/https://wmprotrade.com/
 repository: 
 issue: 
 icon: com.wmprotrade.droidapp.jpg

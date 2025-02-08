@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://kryptonio.com
+website: https://walletscrutiny.com/brokenlink/https://kryptonio.com
 repository: 
 issue: 
 icon: com.kryptonio.png

@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 613
 reviews: 82
 size: 
-website: https://www.protonchain.com/
+website: https://web.archive.org/web/20200922113703/https://www.protonchain.com/
 repository: 
 issue: 
 icon: com.metallicus.protonwallet.png

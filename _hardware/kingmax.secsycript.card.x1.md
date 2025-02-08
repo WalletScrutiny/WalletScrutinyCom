@@ -15,7 +15,7 @@ dimensions:
 weight: 
 provider: KingMax
 providerWebsite: 
-website: http://www.kingmax.com.tw/
+website: https://web.archive.org/web/20001018115313/http://www.kingmax.com.tw:80/
 shop: https://shopee.tw/product/170046947/12184393166
 country: TW
 price: 2550 NTD

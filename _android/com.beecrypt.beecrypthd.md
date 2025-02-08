@@ -14,7 +14,7 @@ stars: 4
 ratings: 
 reviews: 
 size: 
-website: https://moneypipe.com/
+website: https://web.archive.org/web/20210622041737/https://moneypipe.com/
 repository: 
 issue: 
 icon: com.beecrypt.beecrypthd.png

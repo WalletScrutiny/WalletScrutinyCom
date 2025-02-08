@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://skyefly.net
+website: https://web.archive.org/web/20210616191450/https://skyefly.net/
 repository: 
 issue: 
 icon: skyefly.net.png

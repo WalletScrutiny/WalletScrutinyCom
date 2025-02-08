@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.fiahub.com
+website: https://www.fiahub.com
 repository: 
 issue: 
 icon: vn.fiahub.app.png

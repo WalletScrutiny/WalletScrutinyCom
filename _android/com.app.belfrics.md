@@ -14,7 +14,7 @@ stars: 4.8
 ratings: 110
 reviews: 8
 size: 
-website: http://www.belfrics.io
+website: https://www.belfrics.io
 repository: 
 issue: 
 icon: com.app.belfrics.png

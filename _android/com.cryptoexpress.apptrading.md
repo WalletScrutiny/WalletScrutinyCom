@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.cryptoxpress.io/
+website: https://web.archive.org/web/20211128060155/https://cryptoxpress.io/
 repository: 
 issue: 
 icon: com.cryptoexpress.apptrading.png

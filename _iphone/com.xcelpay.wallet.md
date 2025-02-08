@@ -13,7 +13,7 @@ version: 2.86.14
 stars: 4.4
 reviews: 64
 size: '52105216'
-website: http://xcelpay.io
+website: https://xcelpay.io
 repository: 
 issue: 
 icon: com.xcelpay.wallet.jpg

@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.therocktrading.com
+website: https://walletscrutiny.com/brokenlink/https://www.therocktrading.com
 repository: 
 issue: 
 icon: com.therocktrading.tradingapp.png

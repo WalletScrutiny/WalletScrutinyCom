@@ -13,7 +13,7 @@ stars: 4.8
 ratings: 
 reviews: 51
 size: 
-website: https://web.payfrequent.com/
+website: https://web.archive.org/web/20201028044837/https://web.payfrequent.com/
 repository: 
 issue: 
 icon: com.payfrequent.png

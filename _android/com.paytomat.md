@@ -14,7 +14,7 @@ stars: 4.1
 ratings: 798
 reviews: 14
 size: 
-website: http://www.paytomat.com
+website: https://www.paytomat.com
 repository: 
 issue: 
 icon: com.paytomat.png

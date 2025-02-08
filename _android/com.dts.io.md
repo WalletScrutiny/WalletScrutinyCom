@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://dtsasset.io/
+website: https://web.archive.org/web/20211202082457/http://dtsasset.io/
 repository: 
 issue: 
 icon: com.dts.io.png

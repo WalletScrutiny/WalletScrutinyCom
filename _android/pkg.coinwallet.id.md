@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 6.7M
-website: https://coinwallet.id
+website: https://web.archive.org/web/20170614045421/http://coinwallet.id/
 repository: 
 issue: 
 icon: pkg.coinwallet.id.png

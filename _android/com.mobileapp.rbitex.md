@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://rbitex.com
+website: https://walletscrutiny.com/brokenlink/https://rbitex.com
 repository: 
 issue: 
 icon: com.mobileapp.rbitex.png

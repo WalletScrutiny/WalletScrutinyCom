@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://h3plex.com/
+website: https://walletscrutiny.com/brokenlink/https://h3plex.com/
 repository: 
 issue: 
 icon: com.h3blockchain.h3blockchain.png

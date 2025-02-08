@@ -13,7 +13,7 @@ version: 101.1.7
 stars: 5
 reviews: 65
 size: '53184512'
-website: https://www.hashcashconsultants.com
+website: https://walletscrutiny.com/brokenlink/https://www.hashcashconsultants.com
 repository: 
 issue: 
 icon: com.hashcashconsultants.payBitoTrade.jpg

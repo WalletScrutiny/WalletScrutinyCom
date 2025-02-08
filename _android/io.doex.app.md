@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.doex.com
+website: https://www.doex.com
 repository: 
 issue: 
 icon: io.doex.app.png

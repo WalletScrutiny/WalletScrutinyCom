@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: Varies with device
-website: http://www.shangoapp.com
+website: https://web.archive.org/web/20180621174517/http://www.shangoapp.com:80/
 repository: 
 issue: https://github.com/neogeno/shango-lightning-wallet/issues/84
 icon: com.shango.png

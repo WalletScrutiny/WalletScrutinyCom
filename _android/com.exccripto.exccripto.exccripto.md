@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://exccripto.com
+website: https://web.archive.org/web/20201101031532/https://exccripto.com/
 repository: 
 issue: 
 icon: com.exccripto.exccripto.exccripto.png

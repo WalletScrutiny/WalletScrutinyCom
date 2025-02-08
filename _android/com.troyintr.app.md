@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.troyin.com/
+website: https://walletscrutiny.com/brokenlink/https://www.troyin.com/
 repository: 
 issue: 
 icon: com.troyintr.app.jpg

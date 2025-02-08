@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bykep.com/
+website: https://walletscrutiny.com/brokenlink/https://bykep.com/
 repository: 
 issue: 
 icon: com.keplerk.blockchain.jpg
@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: BykepFR
 social:
-- https://www.linkedin.com/company/bykepfr
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/bykepfr
 - https://www.facebook.com/BykepFR
 redirect_from: 
 developerName: BYKEP

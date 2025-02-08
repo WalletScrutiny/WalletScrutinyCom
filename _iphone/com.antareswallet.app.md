@@ -13,7 +13,7 @@ version: '1.2'
 stars: 
 reviews: 
 size: 58951680
-website: https://antareswallet.com/
+website: https://walletscrutiny.com/brokenlink/https://antareswallet.com/
 repository: 
 issue: 
 icon: com.antareswallet.app.jpg

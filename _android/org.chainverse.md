@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://chainverse.org/
+website: https://walletscrutiny.com/brokenlink/https://chainverse.org/
 repository: 
 issue: 
 icon: org.chainverse.png

@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 481
 reviews: 23
 size: 
-website: https://www.moonxbt.com
+website: https://web.archive.org/web/20221102084357/https://www.moonxbt.com/
 repository: 
 issue: 
 icon: com.nano.moonxbt.png

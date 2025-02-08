@@ -13,7 +13,7 @@ stars: 3.5
 ratings: 
 reviews: 7
 size: 
-website: https://hashx.online
+website: https://web.archive.org/web/20220821000131/https://hashx.online/
 repository: 
 issue: 
 icon: app.hashx.online.png

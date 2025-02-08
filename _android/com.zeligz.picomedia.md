@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://picomediacoin.com
+website: https://web.archive.org/web/20190502191853/http://www.picomediacoin.com:80/
 repository: 
 issue: 
 icon: com.zeligz.picomedia.png

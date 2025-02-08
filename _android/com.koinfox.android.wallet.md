@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.koinfox.com
+website: https://web.archive.org/web/20201101010231/https://www.koinfox.com/
 repository: 
 issue: 
 icon: com.koinfox.android.wallet.png

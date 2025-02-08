@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://lpenwallet.com/
+website: https://web.archive.org/web/20220626044242/https://lpenwallet.com/
 repository: 
 issue: 
 icon: com.lpen.png

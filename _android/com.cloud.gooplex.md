@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://info.gooplex.com.br/
+website: https://web.archive.org/web/20210619220106/https://info.gooplex.com.br/
 repository: 
 issue: 
 icon: com.cloud.gooplex.png

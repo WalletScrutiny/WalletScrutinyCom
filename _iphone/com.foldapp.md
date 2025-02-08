@@ -13,7 +13,7 @@ version: 141.0.2
 stars: 4.2
 reviews: 2030
 size: '106476544'
-website: http://foldapp.com
+website: https://foldapp.com
 repository: 
 issue: 
 icon: com.foldapp.jpg

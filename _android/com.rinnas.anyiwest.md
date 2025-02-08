@@ -13,7 +13,7 @@ stars: 4.6
 ratings: 
 reviews: 
 size: 
-website: https://anyiwest.com/
+website: https://walletscrutiny.com/brokenlink/https://anyiwest.com/
 repository: 
 issue: 
 icon: com.rinnas.anyiwest.png

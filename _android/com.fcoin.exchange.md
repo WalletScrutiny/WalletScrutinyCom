@@ -13,7 +13,7 @@ stars: 4.3
 ratings: 91
 reviews: 8
 size: 27M
-website: https://www.fcoin.com/
+website: https://web.archive.org/web/20060719025836/http://www.fcoin.com:80/
 repository: 
 issue: 
 icon: com.fcoin.exchange.png

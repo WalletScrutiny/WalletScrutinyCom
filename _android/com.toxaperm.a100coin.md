@@ -13,7 +13,7 @@ stars: 3.8
 ratings: 
 reviews: 
 size: 
-website: https://100coin.ru
+website: https://web.archive.org/web/20220314162057/http://100coin.ru/
 repository: 
 issue: 
 icon: com.toxaperm.a100coin.jpg

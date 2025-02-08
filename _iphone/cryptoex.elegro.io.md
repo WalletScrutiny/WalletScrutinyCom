@@ -13,7 +13,7 @@ version: '1.4'
 stars: 5
 reviews: 2
 size: '64551936'
-website: https://personal.elegro.eu/certified-coins
+website: https://web.archive.org/web/20210616103956/https://personal.elegro.eu/certified-coins
 repository: 
 issue: 
 icon: cryptoex.elegro.io.jpg

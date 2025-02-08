@@ -13,7 +13,7 @@ version: 2.0.4
 stars: 0
 reviews: 0
 size: '84640768'
-website: https://iminerator.com/index-apple.html
+website: https://web.archive.org/web/20210809133217/https://iminerator.com/index-apple.html
 repository: 
 issue: 
 icon: com.iminerator.app.jpg

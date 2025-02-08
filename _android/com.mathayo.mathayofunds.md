@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://mathayofunds.com/
+website: https://web.archive.org/web/20191129135249/http://mathayofunds.com:80/
 repository: 
 issue: 
 icon: com.mathayo.mathayofunds.png

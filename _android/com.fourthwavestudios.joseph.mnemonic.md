@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://fourthwavestudios.com
+website: https://fourthwavestudios.com
 repository: 
 issue: 
 icon: com.fourthwavestudios.joseph.mnemonic.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.runixcoin.com/
+website: https://web.archive.org/web/20240325082346/https://runixcoin.com/
 repository: 
 issue: 
 icon: com.runixcoin.com.runixcoin.png

@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://aladiex.com
+website: https://walletscrutiny.com/brokenlink/https://aladiex.com
 repository: 
 issue: 
 icon: com.aladiex.global.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bitfirst.app
+website: https://web.archive.org/web/20230402035729/http://bitfirst.app/
 repository: 
 issue: 
 icon: com.cloud.bitfirst.png

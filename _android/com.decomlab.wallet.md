@@ -14,7 +14,7 @@ stars: 3.5
 ratings: 121
 reviews: 8
 size: 
-website: https://moonwallet.net/
+website: https://walletscrutiny.com/brokenlink/https://moonwallet.net/
 repository: 
 issue: 
 icon: com.decomlab.wallet.png

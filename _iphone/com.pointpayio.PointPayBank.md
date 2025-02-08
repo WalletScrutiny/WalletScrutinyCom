@@ -14,7 +14,7 @@ version: 8.8.46
 stars: 4.6
 reviews: 692
 size: '44305408'
-website: https://wallet.pointpay.io
+website: https://web.archive.org/web/20200523155135/https://wallet.pointpay.io/
 repository: 
 issue: 
 icon: com.pointpayio.PointPayBank.jpg

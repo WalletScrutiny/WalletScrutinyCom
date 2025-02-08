@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://blockchaindev.my/
+website: https://web.archive.org/web/20171112082056/http://blockchaindev.my:80/
 repository: 
 issue: 
 icon: com.mypw.app.png

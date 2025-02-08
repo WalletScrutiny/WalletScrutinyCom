@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://brick.global
+website: https://web.archive.org/web/20211207090855/http://brick.global/
 repository: 
 issue: 
 icon: com.brick.wallet.png

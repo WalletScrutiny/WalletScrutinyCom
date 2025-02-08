@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://genesisblockhk.com/
+website: https://web.archive.org/web/20190413082619/https://genesisblockhk.com/
 repository: 
 issue: 
 icon: com.gbotc.png

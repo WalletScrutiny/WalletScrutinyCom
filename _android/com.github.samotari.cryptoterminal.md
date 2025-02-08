@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://cryptoterminal.eu
+website: https://web.archive.org/web/20221004153108/https://cryptoterminal.eu/
 repository: https://github.com/samotari/crypto-terminal
 issue: 
 icon: com.github.samotari.cryptoterminal.png

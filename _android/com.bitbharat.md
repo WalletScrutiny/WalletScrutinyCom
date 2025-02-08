@@ -13,7 +13,7 @@ stars: 3.9
 ratings: 
 reviews: 
 size: 
-website: https://bitbharat.world
+website: https://web.archive.org/web/20221017164908/http://www.bitbharat.world/
 repository: 
 issue: 
 icon: com.bitbharat.png

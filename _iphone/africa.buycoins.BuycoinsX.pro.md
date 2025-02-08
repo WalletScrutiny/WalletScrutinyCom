@@ -13,7 +13,7 @@ version: 1.1.85
 stars: 4.1
 reviews: 23
 size: '22723584'
-website: http://buycoins.africa
+website: https://web.archive.org/web/20211001033208/https://buycoins.africa/
 repository: 
 issue: 
 icon: africa.buycoins.BuycoinsX.pro.jpg

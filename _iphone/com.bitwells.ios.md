@@ -13,7 +13,7 @@ version: 1.0.6
 stars: 3.7
 reviews: 9
 size: '37502976'
-website: https://www.bitwells.com/
+website: https://web.archive.org/web/20220225193608/https://www.bitwells.com/
 repository: 
 issue: 
 icon: com.bitwells.ios.jpg

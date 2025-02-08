@@ -13,7 +13,7 @@ stars: 4.5
 ratings: 
 reviews: 
 size: 
-website: https://coinbag.me/
+website: https://web.archive.org/web/20250112124959/http://www.coinbag.me/
 repository: 
 issue: 
 icon: me.coinbag.png

@@ -14,7 +14,7 @@ stars: 4.8
 ratings: 
 reviews: 
 size: 
-website: https://coinboxfinance.com/
+website: https://web.archive.org/web/20220525013128/http://coinboxfinance.com/
 repository: 
 issue: 
 icon: com.coinboxwallet.png

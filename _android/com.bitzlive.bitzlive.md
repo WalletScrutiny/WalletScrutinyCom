@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bitzlive.com
+website: https://web.archive.org/web/20190405081346/http://www.bitzlive.com:80/
 repository: 
 issue: 
 icon: com.bitzlive.bitzlive.png

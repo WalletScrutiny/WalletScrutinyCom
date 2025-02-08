@@ -13,7 +13,7 @@ version: 6.1.70
 stars: 4
 reviews: 23
 size: '108309504'
-website: http://www.swft.pro
+website: https://www.swft.pro
 repository: 
 issue: 
 icon: com.SwftBlockChain.client.jpg

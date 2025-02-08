@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://btcintratrade.com/
+website: https://walletscrutiny.com/brokenlink/https://btcintratrade.com/
 repository: 
 issue: 
 icon: com.btcintra.app.jpg

@@ -14,7 +14,7 @@ stars: 2.8
 ratings: 
 reviews: 34
 size: 
-website: https://softwareinfo.net
+website: https://walletscrutiny.com/brokenlink/https://softwareinfo.net
 repository: 
 issue: 
 icon: net.softwareinfo.jpg

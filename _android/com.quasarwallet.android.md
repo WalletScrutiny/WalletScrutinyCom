@@ -14,7 +14,7 @@ stars: 3.1
 ratings: 
 reviews: 6
 size: 
-website: https://quasarwallet.com
+website: https://web.archive.org/web/20220831021422/https://quasarwallet.com/
 repository: 
 issue: 
 icon: com.quasarwallet.android.png

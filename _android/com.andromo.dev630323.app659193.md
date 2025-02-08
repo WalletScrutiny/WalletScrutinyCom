@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://chukwukaobeleagu.com
+website: https://walletscrutiny.com/brokenlink/https://chukwukaobeleagu.com
 repository: 
 issue: 
 icon: com.andromo.dev630323.app659193.jpg

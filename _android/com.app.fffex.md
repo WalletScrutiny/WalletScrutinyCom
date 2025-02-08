@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://main.fffex.co
+website: https://walletscrutiny.com/brokenlink/https://main.fffex.co
 repository: 
 issue: 
 icon: com.app.fffex.png

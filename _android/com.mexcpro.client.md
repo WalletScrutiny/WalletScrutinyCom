@@ -14,7 +14,7 @@ stars: 4.5
 ratings: 12371
 reviews: 956
 size: 
-website: https://www.mexc.com
+website: https://web.archive.org/web/20220927053215/https://www.mexc.com/
 repository: 
 issue: 
 icon: com.mexcpro.client.jpg

@@ -28,7 +28,7 @@ reviewArchive:
 twitter: coinlord_trade
 social:
 - https://www.facebook.com/coinlordtradee
-- https://www.linkedin.com/company/coinlord.trading
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/coinlord.trading
 - https://t.me/coinlord_official
 - https://www.instagram.com/coinlordtrade
 - https://www.facebook.com/coinlordtradee

@@ -14,7 +14,7 @@ stars: 4.2
 ratings: 
 reviews: 
 size: 
-website: http://www.crypstone.com
+website: https://www.crypstone.com
 repository: 
 issue: 
 icon: com.crypstone.android.crypstone.png

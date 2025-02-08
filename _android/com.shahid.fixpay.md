@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ringme.us/Privacy-Policy.html
+website: https://walletscrutiny.com/brokenlink/https://ringme.us/Privacy-Policy.html
 repository: 
 issue: 
 icon: com.shahid.fixpay.png

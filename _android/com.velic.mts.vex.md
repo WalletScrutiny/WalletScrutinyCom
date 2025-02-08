@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.velic.io
+website: https://www.velic.io
 repository: 
 issue: 
 icon: com.velic.mts.vex.png

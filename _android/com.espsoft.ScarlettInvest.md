@@ -13,7 +13,7 @@ stars: 5
 ratings: 
 reviews: 
 size: 
-website: https://scarlettglobal.io
+website: https://walletscrutiny.com/brokenlink/https://scarlettglobal.io
 repository: 
 issue: 
 icon: com.espsoft.ScarlettInvest.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://indexchain.org
+website: https://web.archive.org/web/20210621101302/https://indexchain.org/
 repository: 
 issue: 
 icon: io.horizontalsystems.indexwallet.png

@@ -13,7 +13,7 @@ version: 3.1.33
 stars: 4.7
 reviews: 41419
 size: '69145600'
-website: http://coincap.io
+website: https://coincap.io
 repository: 
 issue: 
 icon: io.coinCap.coinCap.jpg

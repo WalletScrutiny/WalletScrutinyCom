@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://emblex.io
+website: https://web.archive.org/web/20210624130832/https://emblex.io/
 repository: 
 issue: 
 icon: io.emblex.wallet.png

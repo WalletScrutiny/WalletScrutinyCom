@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://whatashot.io/
+website: https://web.archive.org/web/20210729090125/https://www.whatashot.io/
 repository: 
 issue: 
 icon: com.web.whatashot.png

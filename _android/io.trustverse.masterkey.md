@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.the-masterkey.com
+website: https://walletscrutiny.com/brokenlink/https://www.the-masterkey.com
 repository: 
 issue: 
 icon: io.trustverse.masterkey.png

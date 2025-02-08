@@ -14,7 +14,7 @@ stars: 4.6
 ratings: 
 reviews: 
 size: 
-website: http://bitpocket.at
+website: https://web.archive.org/web/20210621221229/http://bitpocket.at/
 repository: https://github.com/getbitpocket/bitpocket-mobile-app
 issue: 
 icon: at.bitpocket.pos.png

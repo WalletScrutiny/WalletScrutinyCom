@@ -15,7 +15,7 @@ version: 1.0.5
 stars: 4.2
 reviews: 34
 size: 80958464
-website: https://bitcoin.black
+website: https://walletscrutiny.com/brokenlink/https://bitcoin.black
 repository: 
 issue: 
 icon: com.bitcoinblack.wallet.jpg

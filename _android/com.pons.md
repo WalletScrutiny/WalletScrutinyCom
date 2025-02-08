@@ -14,7 +14,7 @@ stars: 4.2
 ratings: 20
 reviews: 11
 size: 38M
-website: http://pons.group/
+website: https://walletscrutiny.com/brokenlink/https://pons.group/
 repository: 
 issue: 
 icon: com.pons.jpg

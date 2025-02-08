@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: Varies with device
-website: https://getvega.app
+website: https://web.archive.org/web/20230810114332/https://getvega.app/
 repository: 
 issue: 
 icon: app.getvega.png

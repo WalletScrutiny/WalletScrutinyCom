@@ -13,7 +13,7 @@ version: 5.0.6
 stars: 2.7
 reviews: 96
 size: 152541184
-website: http://www.cointiger.com
+website: https://web.archive.org/web/20160309184101/http://cointiger.com/
 repository: 
 issue: 
 icon: com.cointiger.ex.jpg

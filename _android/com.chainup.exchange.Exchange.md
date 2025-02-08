@@ -14,7 +14,7 @@ stars: 4.1
 ratings: 
 reviews: 9
 size: 
-website: http://www.scallop.exchange
+website: https://www.scallop.exchange
 repository: 
 issue: 
 icon: com.chainup.exchange.Exchange.png

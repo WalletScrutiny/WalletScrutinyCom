@@ -14,7 +14,7 @@ stars: 5
 ratings: 
 reviews: 4
 size: 
-website: https://haladinar.io
+website: https://web.archive.org/web/20241209165425/http://haladinar.io/
 repository: 
 issue: 
 icon: com.haladinarwallet.png

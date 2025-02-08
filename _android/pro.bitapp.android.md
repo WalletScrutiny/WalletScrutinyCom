@@ -13,7 +13,7 @@ stars: 2.8
 ratings: 34
 reviews: 24
 size: 31M
-website: https://www.purewallet.org
+website: https://web.archive.org/web/20190401110208/http://purewallet.org/
 repository: 
 issue: 
 icon: pro.bitapp.android.png

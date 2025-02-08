@@ -13,7 +13,7 @@ version: 3.1.1
 stars: 2.7
 reviews: 45
 size: '103418880'
-website: http://hkd.com
+website: https://hkd.com
 repository: 
 issue: 
 icon: com.hkd.hkdex.jpg

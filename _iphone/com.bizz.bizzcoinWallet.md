@@ -13,7 +13,7 @@ version: '1.10'
 stars: 5
 reviews: 4
 size: '77766656'
-website: http://bizzmartdirect.com
+website: https://web.archive.org/web/20210617234457/http://bizzmartdirect.com/
 repository: 
 issue: 
 icon: com.bizz.bizzcoinWallet.jpg

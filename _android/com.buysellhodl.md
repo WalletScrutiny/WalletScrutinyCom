@@ -13,7 +13,7 @@ stars: 4.3
 ratings: 157
 reviews: 71
 size: 12M
-website: http://www.buysellhodlapp.com
+website: https://web.archive.org/web/20240522125730/http://buysellhodlapp.com/
 repository: 
 issue: 
 icon: com.buysellhodl.png

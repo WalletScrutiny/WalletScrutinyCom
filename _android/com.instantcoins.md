@@ -14,7 +14,7 @@ stars: 2.1
 ratings: 214
 reviews: 161
 size: 
-website: https://instantcoins.ng
+website: https://walletscrutiny.com/brokenlink/https://instantcoins.ng
 repository: 
 issue: 
 icon: com.instantcoins.png

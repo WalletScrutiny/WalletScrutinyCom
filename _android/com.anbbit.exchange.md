@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://anbbit.com
+website: https://web.archive.org/web/20240522100258/https://anbbit.com/
 repository: 
 issue: 
 icon: com.anbbit.exchange.png

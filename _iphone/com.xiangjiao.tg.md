@@ -13,7 +13,7 @@ version: 4.3.0
 stars: 4.1
 reviews: 264
 size: '53908480'
-website: http://bananatok.com
+website: https://bananatok.com
 repository: 
 issue: 
 icon: com.xiangjiao.tg.jpg

@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.echangerbd.com/
+website: https://walletscrutiny.com/brokenlink/https://www.echangerbd.com/
 repository: 
 issue: 
 icon: www.echangerbd.com.png

@@ -14,7 +14,7 @@ stars: 4.8
 ratings: 114
 reviews: 90
 size: 33M
-website: https://www.fox.one/#/
+website: https://web.archive.org/web/20210612203450/https://fox.one/
 repository: 
 issue: 
 icon: com.fox.one.png

@@ -15,7 +15,7 @@ stars: 4.3
 ratings: 109
 reviews: 16
 size: 
-website: http://keywallet.co.kr/en/
+website: https://keywallet.co.kr/en/
 repository: 
 issue: 
 icon: kr.co.keypair.keywalletTouch.png

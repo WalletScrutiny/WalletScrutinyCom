@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.ddtotal.com.br
+website: https://web.archive.org/web/20240320175926/https://www.ddtotal.com.br/
 repository: 
 issue: 
 icon: com.payout.jpg

@@ -14,7 +14,7 @@ stars: 4.4
 ratings: 
 reviews: 4
 size: 
-website: https://digicox.com
+website: https://web.archive.org/web/20220625184655/https://digicox.com/
 repository: 
 issue: 
 icon: com.digicox.mobile.png

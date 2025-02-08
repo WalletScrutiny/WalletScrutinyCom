@@ -13,7 +13,7 @@ version: 1.4.8
 stars: 4.6
 reviews: 710
 size: '86727680'
-website: https://www.go-wallet.app/
+website: https://web.archive.org/web/20210614081244/https://go-wallet.app/
 repository: 
 issue: 
 icon: jp.co.smartapp.gowallet.jpg

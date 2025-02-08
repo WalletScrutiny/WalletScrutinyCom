@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 8.2M
-website: https://coiny.io/
+website: https://walletscrutiny.com/brokenlink/https://coiny.io/
 repository: 
 issue: 
 icon: io.coiny.android.png

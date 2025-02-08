@@ -14,7 +14,7 @@ stars: 2.2
 ratings: 
 reviews: 
 size: 
-website: https://www.aiinvest.ai/
+website: https://walletscrutiny.com/brokenlink/https://www.aiinvest.ai/
 repository: 
 issue: 
 icon: app.aitrade.ai.png

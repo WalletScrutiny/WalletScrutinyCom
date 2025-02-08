@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: BTCZen Inc.
 providerWebsite: 
-website: http://btczen.net/
+website: https://btczen.net/
 shop: 
 country: CN
 price: 

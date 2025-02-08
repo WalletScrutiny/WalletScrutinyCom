@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bit-flex.com/
+website: https://web.archive.org/web/20241204150342/http://bit-flex.com/
 repository: 
 issue: 
 icon: com.bitflex.png

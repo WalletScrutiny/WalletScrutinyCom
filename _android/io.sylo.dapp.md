@@ -14,7 +14,7 @@ stars: 4
 ratings: 758
 reviews: 46
 size: 
-website: http://www.sylo.io
+website: https://www.sylo.io
 repository: 
 issue: 
 icon: io.sylo.dapp.png

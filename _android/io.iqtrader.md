@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://iqtrader.io
+website: https://web.archive.org/web/20221101134550/https://iqtrader.io/
 repository: 
 issue: 
 icon: io.iqtrader.png

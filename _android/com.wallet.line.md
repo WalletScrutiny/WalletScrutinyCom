@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://linechain.io/
+website: https://web.archive.org/web/20220325112510/https://linechain.io/
 repository: 
 issue: 
 icon: com.wallet.line.png

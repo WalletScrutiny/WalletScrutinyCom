@@ -15,7 +15,7 @@ stars: 4.1
 ratings: 1938
 reviews: 6
 size: 
-website: https://www.koinal.io
+website: https://walletscrutiny.com/brokenlink/https://www.koinal.io
 repository: 
 issue: 
 icon: com.koinal.android.png
@@ -28,7 +28,7 @@ signer:
 reviewArchive: 
 twitter: koinal_io
 social:
-- https://www.linkedin.com/company/koinal-io
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/koinal-io
 - https://www.facebook.com/Koinal.io
 redirect_from:
 - /com.koinal.android/

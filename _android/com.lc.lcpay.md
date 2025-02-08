@@ -13,7 +13,7 @@ stars: 4.7
 ratings: 
 reviews: 
 size: 
-website: https://www.lcpay.io/
+website: https://walletscrutiny.com/brokenlink/https://www.lcpay.io/
 repository: 
 issue: 
 icon: com.lc.lcpay.png

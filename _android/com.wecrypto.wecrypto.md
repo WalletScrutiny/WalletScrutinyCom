@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://wecrypto.net
+website: https://walletscrutiny.com/brokenlink/https://wecrypto.net
 repository: 
 issue: 
 icon: com.wecrypto.wecrypto.png

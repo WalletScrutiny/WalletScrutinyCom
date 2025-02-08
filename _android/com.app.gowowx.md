@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.gowowx.com
+website: https://web.archive.org/web/20200928014338/https://gowowx.com/
 repository: 
 issue: 
 icon: com.app.gowowx.png

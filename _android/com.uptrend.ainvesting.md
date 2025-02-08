@@ -14,7 +14,7 @@ stars: 3.1
 ratings: 
 reviews: 
 size: 
-website: http://www.uptrend.bg
+website: https://www.uptrend.bg
 repository: 
 issue: 
 icon: com.uptrend.ainvesting.png

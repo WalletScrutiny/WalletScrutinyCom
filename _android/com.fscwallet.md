@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.fsdex.io/
+website: https://walletscrutiny.com/brokenlink/https://www.fsdex.io/
 repository: 
 issue: 
 icon: com.fscwallet.png

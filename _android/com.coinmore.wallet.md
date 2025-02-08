@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.coinmore.io/
+website: https://web.archive.org/web/20240916121739/https://coinmore.io/
 repository: 
 issue: 
 icon: com.coinmore.wallet.png

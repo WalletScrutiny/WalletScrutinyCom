@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://goodesq.com/
+website: https://web.archive.org/web/20130717064324/http://goodesq.com/
 repository: 
 issue: 
 icon: crypto.base.goodesq.png

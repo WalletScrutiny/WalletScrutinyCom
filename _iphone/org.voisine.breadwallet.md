@@ -13,7 +13,7 @@ version: 4.18.0
 stars: 4.6
 reviews: 12274
 size: '83665920'
-website: https://brd.com/
+website: https://web.archive.org/web/20201109003514/https://brd.com/
 repository: https://github.com/breadwallet/brd-mobile
 issue: https://github.com/breadwallet/brd-mobile/issues/13
 icon: org.voisine.breadwallet.jpg

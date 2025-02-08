@@ -14,7 +14,7 @@ stars: 4.8
 ratings: 98
 reviews: 5
 size: 
-website: https://www.billbitcoins.com/index.html
+website: https://billbitcoins.com:80/index.html
 repository: 
 issue: 
 icon: com.hashcash.billbitcoins.png

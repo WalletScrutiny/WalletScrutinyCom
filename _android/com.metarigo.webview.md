@@ -14,7 +14,7 @@ stars: 4.8
 ratings: 
 reviews: 
 size: 
-website: https://dapping.io/
+website: https://walletscrutiny.com/brokenlink/https://dapping.io/
 repository: 
 issue: 
 icon: com.metarigo.webview.png

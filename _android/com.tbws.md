@@ -14,7 +14,7 @@ stars: 3.5
 ratings: 
 reviews: 60
 size: 
-website: https://theblackwallstreet.com
+website: https://web.archive.org/web/20050829005604/http://www.theblackwallstreet.com:80/
 repository: 
 issue: 
 icon: com.tbws.jpg

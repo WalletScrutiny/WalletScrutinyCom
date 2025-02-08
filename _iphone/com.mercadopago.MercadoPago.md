@@ -13,7 +13,7 @@ version: 2.368.2
 stars: 4.8
 reviews: 1834362
 size: '311367680'
-website: http://www.mercadopago.com
+website: https://www.mercadopago.com
 repository: 
 issue: 
 icon: com.mercadopago.MercadoPago.jpg

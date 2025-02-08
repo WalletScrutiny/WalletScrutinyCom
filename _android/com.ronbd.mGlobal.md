@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.mineglobed.com
+website: https://web.archive.org/web/20211209224410/http://mineglobed.com/
 repository: 
 issue: 
 icon: com.ronbd.mGlobal.png

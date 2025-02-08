@@ -14,7 +14,7 @@ stars: 2.5
 ratings: 
 reviews: 
 size: 
-website: https://www.coinrepublic.com.au/
+website: https://walletscrutiny.com/brokenlink/https://www.coinrepublic.com.au/
 repository: 
 issue: 
 icon: com.coinrepublic.app.png

@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.cabital.com
+website: https://web.archive.org/web/20220815110623/https://www.cabital.com/
 repository: 
 issue: 
 icon: com.cabital.cabital.png
@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: cabitalglobal
 social:
-- https://www.linkedin.com/company/cabital
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/cabital
 - https://www.facebook.com/CabitalGlobal
 redirect_from: 
 developerName: 

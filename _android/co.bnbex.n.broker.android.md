@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.bnbex.co/
+website: https://walletscrutiny.com/brokenlink/https://www.bnbex.co/
 repository: 
 issue: 
 icon: co.bnbex.n.broker.android.png

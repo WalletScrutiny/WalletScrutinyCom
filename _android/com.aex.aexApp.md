@@ -13,7 +13,7 @@ stars: 4.4
 ratings: 
 reviews: 11
 size: 
-website: https://www.aex.com
+website: https://walletscrutiny.com/brokenlink/https://www.aex.com
 repository: 
 issue: 
 icon: com.aex.aexApp.png

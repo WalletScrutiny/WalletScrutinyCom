@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 
 reviews: 9
 size: 
-website: https://www.mayex.com
+website: https://web.archive.org/web/20220329024837/https://www.mayex.com/
 repository: 
 issue: 
 icon: com.mayex.trading.jpg

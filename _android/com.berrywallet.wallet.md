@@ -14,7 +14,7 @@ stars: 4
 ratings: 
 reviews: 8
 size: 
-website: https://wallet.berrychain.io
+website: https://web.archive.org/web/20221220204322/https://wallet.berrychain.io/
 repository: 
 issue: 
 icon: com.berrywallet.wallet.png

@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.trustverse.io
+website: https://web.archive.org/web/20190122114210/https://trustverse.io/
 repository: 
 issue: 
 icon: io.trustverse.mars.jpg

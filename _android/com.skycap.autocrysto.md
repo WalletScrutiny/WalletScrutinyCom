@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://autocrysto.trade/
+website: https://web.archive.org/web/20200314140129/https://autocrysto.trade/
 repository: 
 issue: 
 icon: com.skycap.autocrysto.png

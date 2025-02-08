@@ -14,7 +14,7 @@ stars: 3.2
 ratings: 777
 reviews: 17
 size: 25M
-website: https://www.biki.com
+website: https://web.archive.org/web/19981212012845/http://biki.com:80/
 repository: 
 issue: 
 icon: com.biki.bikicoin.png

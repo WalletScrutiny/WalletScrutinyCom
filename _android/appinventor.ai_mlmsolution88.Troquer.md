@@ -13,7 +13,7 @@ stars: 4.6
 ratings: 
 reviews: 
 size: 
-website: https://www.etroquer.com/
+website: https://walletscrutiny.com/brokenlink/https://www.etroquer.com/
 repository: 
 issue: 
 icon: appinventor.ai_mlmsolution88.Troquer.png

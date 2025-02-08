@@ -13,7 +13,7 @@ stars: 3.4
 ratings: 
 reviews: 3
 size: 
-website: http://www.bitwellex.com
+website: https://web.archive.org/web/20210304055001/https://www.bitwellex.com/
 repository: 
 issue: 
 icon: com.bitwell.android.png

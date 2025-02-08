@@ -14,7 +14,7 @@ stars: 2.6
 ratings: 3900
 reviews: 37
 size: 
-website: https://quppy.com/
+website: https://quppy.com:80/
 repository: 
 issue: 
 icon: com.quppy.png
@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: QuppyPay
 social:
-- https://www.linkedin.com/company/quppy
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/quppy
 - https://www.facebook.com/quppyPay
 redirect_from:
 - /com.quppy/

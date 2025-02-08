@@ -13,7 +13,7 @@ version: 2.3.2
 stars: 4.3
 reviews: 4
 size: '57952256'
-website: https://www.zbx.one/
+website: https://web.archive.org/web/20210201050802/https://www.zbx.one/
 repository: 
 issue: 
 icon: com.zbx.www.jpg

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://twetaexchange.com/
+website: https://web.archive.org/web/20220822035441/http://www.twetaexchange.com/
 repository: 
 issue: 
 icon: com.twetaexchange.app.png

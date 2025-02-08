@@ -13,7 +13,7 @@ version: 2.2.1
 stars: 0
 reviews: 0
 size: '93025280'
-website: https://www.befiwallet.io
+website: https://web.archive.org/web/20220815140628/https://befiwallet.io/
 repository: 
 issue: 
 icon: com.beefinance.beepay.jpg

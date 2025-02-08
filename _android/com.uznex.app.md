@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://uznex.com
+website: https://web.archive.org/web/20210625003313/https://www.uznex.com/
 repository: 
 issue: 
 icon: com.uznex.app.png

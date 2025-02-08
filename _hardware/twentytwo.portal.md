@@ -15,7 +15,7 @@ dimensions:
 weight: 30
 provider: TwentyTwo Devices
 providerWebsite: 
-website: https://twenty-two.xyz/
+website: https://web.archive.org/web/20241123002231/https://www.twenty-two.xyz/
 shop: https://store.twenty-two.xyz/
 country: IT
 price: 89 EUR

@@ -13,7 +13,7 @@ version: 1.6.0
 stars: 0
 reviews: 0
 size: '28845056'
-website: https://ibtc.com.hk/
+website: https://web.archive.org/web/20230601045921/https://ibtc.com.hk/
 repository: 
 issue: 
 icon: com.iBTC.trade.hk.jpg

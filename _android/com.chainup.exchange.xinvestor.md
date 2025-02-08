@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://xinvestor.com/
+website: https://web.archive.org/web/20240414161736/https://xinvestor.com/
 repository: 
 issue: 
 icon: com.chainup.exchange.xinvestor.png

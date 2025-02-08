@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://apluswallet.com
+website: https://walletscrutiny.com/brokenlink/https://apluswallet.com
 repository: 
 issue: 
 icon: com.sarnado.apluswallet.png

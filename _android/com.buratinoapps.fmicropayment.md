@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://xmonitoring.ru/
+website: https://web.archive.org/web/20220402004456/http://xmonitoring.ru/
 repository: 
 issue: 
 icon: com.buratinoapps.fmicropayment.png

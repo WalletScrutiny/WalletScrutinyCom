@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://crypto.fastewallet.com/
+website: https://walletscrutiny.com/brokenlink/https://crypto.fastewallet.com/
 repository: 
 issue: 
 icon: io.fastewallet.bankwallet.png

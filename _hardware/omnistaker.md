@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: OmniSolutions
 providerWebsite: https://omnistaker.com
-website: https://omnistaker.com
+website: https://web.archive.org/web/20190828081159/https://omnistaker.com/
 shop: https://omnistaker.com/shop/
 country: 
 price: 

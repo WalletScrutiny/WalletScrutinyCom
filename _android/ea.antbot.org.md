@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 
 reviews: 21
 size: 
-website: https://www.antrade.io
+website: https://walletscrutiny.com/brokenlink/https://www.antrade.io
 repository: 
 issue: 
 icon: ea.antbot.org.png

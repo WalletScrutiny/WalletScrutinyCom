@@ -14,7 +14,7 @@ stars: 4.2
 ratings: 251
 reviews: 43
 size: 
-website: http://jurajkusnier.com/
+website: https://jurajkusnier.com/
 repository: 
 issue: 
 icon: com.jurajkusnier.bitcoinwalletbalance.png

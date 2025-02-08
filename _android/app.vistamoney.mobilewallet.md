@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://wallet.vistamoney.cc
+website: https://walletscrutiny.com/brokenlink/https://wallet.vistamoney.cc
 repository: 
 issue: 
 icon: app.vistamoney.mobilewallet.png

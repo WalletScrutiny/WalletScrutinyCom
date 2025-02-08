@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 1655
 reviews: 1233
 size: 
-website: https://www.zeux.com
+website: https://walletscrutiny.com/brokenlink/https://www.zeux.com
 repository: 
 issue: 
 icon: com.zeux.finapp.png

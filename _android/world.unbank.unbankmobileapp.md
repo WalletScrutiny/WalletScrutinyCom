@@ -14,7 +14,7 @@ stars: 4.4
 ratings: 
 reviews: 29
 size: 
-website: https://www.unbank.world/
+website: https://web.archive.org/web/20150422012412/http://unbank.world:80/
 repository: 
 issue: 
 icon: world.unbank.unbankmobileapp.png

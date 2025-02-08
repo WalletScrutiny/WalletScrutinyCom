@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://secfutures.com/
+website: https://web.archive.org/web/20220417080616/https://secfutures.com/
 repository: 
 issue: 
 icon: secfutures.aab.jpg

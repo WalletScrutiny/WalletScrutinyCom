@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 11M
-website: http://keywalletpro.io
+website: https://web.archive.org/web/20210625124633/http://keywalletpro.io/
 repository: 
 issue: 
 icon: kr.co.keypair.quickxtouch2.png

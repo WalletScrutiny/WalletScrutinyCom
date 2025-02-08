@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 52M
-website: https://walahala.com/
+website: https://walletscrutiny.com/brokenlink/https://walahala.com/
 repository: 
 issue: 
 icon: com.walahala.paywalamerchant.png

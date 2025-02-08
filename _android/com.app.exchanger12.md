@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://maxicoinexchange.com
+website: https://web.archive.org/web/20210108000821/https://maxicoinexchange.com/
 repository: 
 issue: 
 icon: com.app.exchanger12.png

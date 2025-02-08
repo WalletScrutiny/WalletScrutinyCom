@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.swiftxchange.com.ng
+website: https://walletscrutiny.com/brokenlink/https://www.swiftxchange.com.ng
 repository: 
 issue: 
 icon: com.tradedigitals.swiftxchange.png

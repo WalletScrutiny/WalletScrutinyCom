@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://connectgoi.com
+website: https://web.archive.org/web/20220103071359/https://connectgoi.com/
 repository: 
 issue: 
 icon: mx.goi.goimwallet.png

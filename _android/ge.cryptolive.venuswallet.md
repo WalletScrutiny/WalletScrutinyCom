@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.cryptolive.ge
+website: https://walletscrutiny.com/brokenlink/https://www.cryptolive.ge
 repository: 
 issue: 
 icon: ge.cryptolive.venuswallet.png

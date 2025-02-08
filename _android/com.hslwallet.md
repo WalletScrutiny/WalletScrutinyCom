@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.hamilton-systems.io
+website: https://www.hamilton-systems.io
 repository: 
 issue: 
 icon: com.hslwallet.png

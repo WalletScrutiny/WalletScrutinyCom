@@ -13,7 +13,7 @@ version: '1.0'
 stars: 0
 reviews: 0
 size: '56907776'
-website: https://payizadlt.com/
+website: https://walletscrutiny.com/brokenlink/https://payizadlt.com/
 repository: 
 issue: 
 icon: com.payiza.dlt.jpg

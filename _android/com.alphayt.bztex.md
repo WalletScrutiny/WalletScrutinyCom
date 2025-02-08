@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.bztex.co/
+website: https://walletscrutiny.com/brokenlink/https://www.bztex.co/
 repository: 
 issue: 
 icon: com.alphayt.bztex.png

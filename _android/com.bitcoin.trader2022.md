@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bitcointrader.icu/
+website: https://web.archive.org/web/20200402070542/https://bitcointrader.icu/
 repository: 
 issue: 
 icon: com.bitcoin.trader2022.png

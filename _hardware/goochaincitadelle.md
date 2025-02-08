@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: 
 providerWebsite: 
-website: https://goochain.net/citadelle/
+website: https://walletscrutiny.com/brokenlink/https://goochain.net/citadelle/
 shop: 
 country: FR
 price: 12€

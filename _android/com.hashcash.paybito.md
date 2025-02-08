@@ -14,7 +14,7 @@ stars: 4.5
 ratings: 255
 reviews: 213
 size: 9.3M
-website: https://www.hashcashconsultants.com
+website: https://walletscrutiny.com/brokenlink/https://www.hashcashconsultants.com
 repository: 
 issue: 
 icon: com.hashcash.paybito.png

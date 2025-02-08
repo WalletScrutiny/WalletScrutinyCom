@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.metauco.com
+website: https://web.archive.org/web/20220519180328/https://www.metauco.com/
 repository: 
 issue: 
 icon: com.metau.droidapp.png

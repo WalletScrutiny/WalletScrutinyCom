@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://seadex.io
+website: https://web.archive.org/web/20240902182052/http://www.seadex.io/
 repository: 
 issue: 
 icon: com.seadex.seadex.png

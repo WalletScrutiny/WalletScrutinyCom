@@ -12,7 +12,7 @@ dimensions:
 weight: 
 provider: BiMoneyCHN
 providerWebsite: 
-website: https://bimoney.io
+website: https://web.archive.org/web/20190704141535/http://bimoney.io:80/
 shop: 
 country: CN
 price: 

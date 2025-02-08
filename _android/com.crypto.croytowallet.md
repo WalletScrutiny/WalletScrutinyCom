@@ -14,7 +14,7 @@ stars: 4.6
 ratings: 
 reviews: 
 size: 
-website: https://www.imx.global
+website: https://walletscrutiny.com/brokenlink/https://www.imx.global
 repository: 
 issue: 
 icon: com.crypto.croytowallet.png

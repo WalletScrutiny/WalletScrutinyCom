@@ -14,7 +14,7 @@ stars: 4.9
 ratings: 474
 reviews: 18
 size: 
-website: http://exchange.cryptex.net/
+website: https://web.archive.org/web/20200514231935/https://exchange.cryptex.net/
 repository: 
 issue: 
 icon: net.cryptex.exchange.twa.png

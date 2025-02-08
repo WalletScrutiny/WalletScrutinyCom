@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.otomation.tech
+website: https://web.archive.org/web/20230223005945/http://www.otomation.tech/
 repository: 
 issue: 
 icon: com.crypto_wallet_arnold.png

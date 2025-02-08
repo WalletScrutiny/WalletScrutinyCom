@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://criptex.com/
+website: https://web.archive.org/web/20160729094813/http://criptex.com:80/?
 repository: 
 issue: 
 icon: com.criptex.jpg

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.dexoo.io/
+website: https://web.archive.org/web/20220216064418/https://dexoo.io/
 repository: 
 issue: 
 icon: com.bit7.defiwallet.png

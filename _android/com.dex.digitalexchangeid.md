@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://digitalexchange.id
+website: https://digitalexchange.id
 repository: 
 issue: 
 icon: com.dex.digitalexchangeid.png

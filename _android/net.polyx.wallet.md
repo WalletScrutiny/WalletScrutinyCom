@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://wallet.polyx.net
+website: https://walletscrutiny.com/brokenlink/https://wallet.polyx.net
 repository: 
 issue: 
 icon: net.polyx.wallet.png

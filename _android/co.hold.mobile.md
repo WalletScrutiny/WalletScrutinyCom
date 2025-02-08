@@ -14,7 +14,7 @@ stars: 4.1
 ratings: 202
 reviews: 9
 size: 
-website: https://hold.io
+website: https://web.archive.org/web/20201101023609/https://hold.io/
 repository: 
 issue: 
 icon: co.hold.mobile.png
@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: HoldHQ
 social:
-- https://www.linkedin.com/company/holdhq
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/holdhq
 - https://www.facebook.com/HoldHQ
 redirect_from: 
 developerName: HOLD Platform Limited

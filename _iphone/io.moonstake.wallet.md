@@ -13,7 +13,7 @@ version: 2.33.1
 stars: 3
 reviews: 18
 size: '135536640'
-website: http://moonstake.io
+website: https://moonstake.io
 repository: 
 issue: 
 icon: io.moonstake.wallet.jpg

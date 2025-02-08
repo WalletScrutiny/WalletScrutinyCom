@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.onepago.com/
+website: https://web.archive.org/web/20160817044207/https://www.onepago.com/
 repository: 
 issue: 
 icon: com.onepago.app.png

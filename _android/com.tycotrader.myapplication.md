@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://tycotrader.com
+website: https://walletscrutiny.com/brokenlink/https://tycotrader.com
 repository: 
 issue: 
 icon: com.tycotrader.myapplication.png

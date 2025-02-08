@@ -14,7 +14,7 @@ stars: 3.7
 ratings: 225
 reviews: 48
 size: 
-website: http://ograpi.oblade.net
+website: https://web.archive.org/web/20210612114203/http://ograpi.oblade.net/
 repository: 
 issue: 
 icon: net.benoitbasset.ograpi.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://minerglobal.org/
+website: https://walletscrutiny.com/brokenlink/https://minerglobal.org/
 repository: 
 issue: 
 icon: com.efc.wallet.png

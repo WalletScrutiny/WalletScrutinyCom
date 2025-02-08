@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ais-ex.com
+website: https://web.archive.org/web/20201027123119/https://ais-ex.com/
 repository: 
 issue: 
 icon: com.aisx.png

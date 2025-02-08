@@ -13,7 +13,7 @@ stars: 4.8
 ratings: 
 reviews: 9
 size: 
-website: https://private-wallet.net/
+website: https://web.archive.org/web/20240817085002/https://www.private-wallet.net/
 repository: 
 issue: 
 icon: com.privated.wallet.png

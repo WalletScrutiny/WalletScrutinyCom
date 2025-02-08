@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://nexybit.com/
+website: https://web.archive.org/web/20200506110147/http://www.nexybit.com/
 repository: 
 issue: 
 icon: com.nexybit.nexybit.png

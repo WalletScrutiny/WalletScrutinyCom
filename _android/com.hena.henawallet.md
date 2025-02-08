@@ -13,7 +13,7 @@ stars: 3
 ratings: 738
 reviews: 14
 size: 
-website: http://www.hena.io
+website: https://walletscrutiny.com/brokenlink/https://www.hena.io
 repository: 
 issue: 
 icon: com.hena.henawallet.png

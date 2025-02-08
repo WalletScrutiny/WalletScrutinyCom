@@ -14,7 +14,7 @@ stars: 2.5
 ratings: 183
 reviews: 9
 size: 
-website: https://kriptofuture.com
+website: https://web.archive.org/web/20210730044116/https://kriptofuture.com/
 repository: 
 issue: 
 icon: com.kriptofuture.png

@@ -13,7 +13,7 @@ stars: 5
 ratings: 
 reviews: 125
 size: 
-website: https://bicool.in/
+website: https://walletscrutiny.com/brokenlink/https://bicool.in/
 repository: 
 issue: 
 icon: com.bicool.app.png

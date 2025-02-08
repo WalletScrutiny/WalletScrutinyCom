@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://starmera.com
+website: https://web.archive.org/web/20210729150359/http://starmera.com/
 repository: 
 issue: 
 icon: com.starmera.app.png

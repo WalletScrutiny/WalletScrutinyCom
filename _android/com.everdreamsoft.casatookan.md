@@ -14,7 +14,7 @@ stars: 3.8
 ratings: 
 reviews: 6
 size: 
-website: http://everdreamsoft.com
+website: https://everdreamsoft.com
 repository: 
 issue: 
 icon: com.everdreamsoft.casatookan.png

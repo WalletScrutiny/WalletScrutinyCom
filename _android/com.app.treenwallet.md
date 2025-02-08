@@ -14,7 +14,7 @@ stars: 3.3
 ratings: 
 reviews: 2
 size: 
-website: https://treenwallet.com
+website: https://walletscrutiny.com/brokenlink/https://treenwallet.com
 repository: 
 issue: 
 icon: com.app.treenwallet.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://kswappay.com/
+website: https://web.archive.org/web/20220221151002/https://kswappay.com/
 repository: 
 issue: 
 icon: com.archgroup.kswappay.jpg

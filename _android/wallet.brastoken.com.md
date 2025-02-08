@@ -13,7 +13,7 @@ stars: 4.8
 ratings: 
 reviews: 
 size: 
-website: https://brastoken.com/
+website: https://web.archive.org/web/20220703050456/https://www.brastoken.com/
 repository: 
 issue: 
 icon: wallet.brastoken.com.png

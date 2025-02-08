@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bitpolis.io/
+website: https://web.archive.org/web/20201129070337/https://bitpolis.io/
 repository: 
 issue: 
 icon: com.a01people.bitpolis.png

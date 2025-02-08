@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: lyopayofficial
 social:
-- https://www.linkedin.com/company/lyopay
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/lyopay
 - https://www.facebook.com/lyopayofficial
 - https://www.reddit.com/r/LYOPAY
 features: 

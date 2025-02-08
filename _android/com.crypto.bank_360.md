@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://cryptocash-360.com
+website: https://walletscrutiny.com/brokenlink/https://cryptocash-360.com
 repository: 
 issue: 
 icon: com.crypto.bank_360.jpg

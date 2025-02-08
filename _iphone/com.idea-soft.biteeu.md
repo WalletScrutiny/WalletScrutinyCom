@@ -13,7 +13,7 @@ version: 1.6.0
 stars: 0
 reviews: 0
 size: '35821568'
-website: http://www.biteeu.com
+website: https://www.biteeu.com
 repository: 
 issue: 
 icon: com.idea-soft.biteeu.jpg

@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://terra-bit.io
+website: https://web.archive.org/web/20200723061420/https://www.terra-bit.io/
 repository: 
 issue: 
 icon: com.terracredit.pro.png

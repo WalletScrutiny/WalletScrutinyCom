@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://muskbot.io
+website: https://web.archive.org/web/20210928010242/http://muskbot.io/
 repository: 
 issue: 
 icon: uni.UNI2A1D818.jpg

@@ -13,7 +13,7 @@ version: 2.8.17
 stars: 4.8
 reviews: 975
 size: '42205184'
-website: http://coins.coinpaprika.com
+website: https://coins.coinpaprika.com
 repository: 
 issue: 
 icon: com.coinpaprika.Coins.jpg

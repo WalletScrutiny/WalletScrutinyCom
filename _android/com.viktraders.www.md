@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.viktraders.com
+website: https://www.viktraders.com
 repository: 
 issue: 
 icon: com.viktraders.www.png

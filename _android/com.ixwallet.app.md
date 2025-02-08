@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://daemtech.com/
+website: https://daemtech.com/
 repository: 
 issue: 
 icon: com.ixwallet.app.png

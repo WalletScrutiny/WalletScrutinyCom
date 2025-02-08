@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://rubix.io
+website: https://web.archive.org/web/20241002134121/http://www.rubix.io/
 repository: 
 issue: 
 icon: io.rubix.exchange.jpg

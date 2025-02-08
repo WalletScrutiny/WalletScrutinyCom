@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://radiuswallet.com/
+website: https://web.archive.org/web/20220625044011/https://radiuswallet.com/
 repository: 
 issue: 
 icon: com.radiuswallet.png

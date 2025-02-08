@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://freyawallet.com/
+website: https://web.archive.org/web/20221001150300/https://freyawallet.com/
 repository: 
 issue: 
 icon: com.secure.freyawallet.png

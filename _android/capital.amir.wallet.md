@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://amir.capital/
+website: https://web.archive.org/web/20200707194321/https://amir.capital/
 repository: 
 issue: 
 icon: capital.amir.wallet.jpg

@@ -13,7 +13,7 @@ stars: 2.3
 ratings: 
 reviews: 
 size: 
-website: https://www.intebix.kz
+website: https://web.archive.org/web/20241208004042/https://intebix.kz/
 repository: 
 issue: 
 icon: kz.intebix.png

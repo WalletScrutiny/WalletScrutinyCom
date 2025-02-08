@@ -13,7 +13,7 @@ version: 1.1.0
 stars: 0
 reviews: 0
 size: '78331904'
-website: https://exchange.lordtoken.com/
+website: https://web.archive.org/web/20220307111236/https://exchange.lordtoken.com/
 repository: 
 issue: 
 icon: com.cloud.lordtoken.jpg

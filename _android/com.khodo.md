@@ -14,7 +14,7 @@ stars: 3.5
 ratings: 54
 reviews: 41
 size: 60M
-website: https://www.khodo.africa/
+website: https://web.archive.org/web/20210308154035/https://khodo.africa/
 repository: 
 issue: 
 icon: com.khodo.png

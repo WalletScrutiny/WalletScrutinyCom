@@ -13,7 +13,7 @@ version: '2.1'
 stars: 
 reviews: 
 size: 14971904
-website: https://figcoin.online
+website: https://web.archive.org/web/20210109151556/https://figcoin.online/
 repository: 
 issue: 
 icon: online.figcoin.figvault.jpg

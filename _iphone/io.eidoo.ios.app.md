@@ -13,7 +13,7 @@ version: 1.14.3
 stars: 3.5
 reviews: 22
 size: '58850304'
-website: https://eidoo.app
+website: https://web.archive.org/web/20220925013254/https://eidoo.app/
 repository: 
 issue: 
 icon: io.eidoo.ios.app.jpg

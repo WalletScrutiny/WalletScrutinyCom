@@ -14,7 +14,7 @@ stars: 5
 ratings: 60
 reviews: 
 size: 
-website: http://www.blocpal.com
+website: https://www.blocpal.com
 repository: 
 issue: 
 icon: com.blocpal.wallet.png

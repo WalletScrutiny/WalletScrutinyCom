@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://pebbit.app
+website: https://web.archive.org/web/20211230105335/https://www.pebbit.app/
 repository: 
 issue: 
 icon: com.magna_numeris.pebbit.jpg

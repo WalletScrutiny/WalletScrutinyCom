@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.cryptoasx.com/
+website: https://web.archive.org/web/20180809020416/http://cryptoasx.com/
 repository: 
 issue: 
 icon: com.cryptoasx.app.png

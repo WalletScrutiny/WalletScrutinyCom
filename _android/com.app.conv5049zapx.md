@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://zap.exchange
+website: https://web.archive.org/web/20240715054933/https://zap.exchange/
 repository: 
 issue: 
 icon: com.app.conv5049zapx.jpg

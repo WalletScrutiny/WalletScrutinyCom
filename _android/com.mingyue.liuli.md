@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.coinbene.com
+website: https://web.archive.org/web/20180202062336/http://www.coinbene.com/
 repository: 
 issue: 
 icon: com.mingyue.liuli.png

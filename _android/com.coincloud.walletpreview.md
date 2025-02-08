@@ -14,7 +14,7 @@ stars: 3.4
 ratings: 
 reviews: 44
 size: 
-website: http://coin.cloud/app
+website: https://web.archive.org/web/20220525010931/https://www.coin.cloud/app
 repository: 
 issue: 
 icon: com.coincloud.walletpreview.png

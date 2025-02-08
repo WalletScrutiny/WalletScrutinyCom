@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.digitide.us/foxtide
+website: https://walletscrutiny.com/brokenlink/https://www.digitide.us/foxtide
 repository: 
 issue: 
 icon: com.foxtide.jpg

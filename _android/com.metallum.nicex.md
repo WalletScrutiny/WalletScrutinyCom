@@ -14,7 +14,7 @@ stars: 4.6
 ratings: 
 reviews: 
 size: 
-website: http://www.nicex.com
+website: https://www.nicex.com
 repository: 
 issue: 
 icon: com.metallum.nicex.png

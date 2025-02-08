@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://xpesa.io/
+website: https://web.archive.org/web/20190906084433/http://xpesa.io/
 repository: 
 issue: 
 icon: com.xpesa.trade.jpg

@@ -13,7 +13,7 @@ version: 2.0.9
 stars: 5
 reviews: 1
 size: '64462848'
-website: https://ecoinofficial.org
+website: https://web.archive.org/web/20200315011422/https://ecoinofficial.org/
 repository: 
 issue: 
 icon: com.g360s.SafeX.jpg

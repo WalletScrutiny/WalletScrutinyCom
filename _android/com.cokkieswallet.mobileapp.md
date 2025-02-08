@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://cokkieswallet.com
+website: https://walletscrutiny.com/brokenlink/https://cokkieswallet.com
 repository: 
 issue: 
 icon: com.cokkieswallet.mobileapp.png

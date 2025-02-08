@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://ugainindia.com
+website: https://web.archive.org/web/20221206031201/http://ugainindia.com/
 repository: 
 issue: 
 icon: com.primebot.app.png

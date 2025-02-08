@@ -14,7 +14,7 @@ stars: 3.8
 ratings: 
 reviews: 
 size: 
-website: http://stocktong.io
+website: https://web.archive.org/web/20191217075845/http://stocktong.io/
 repository: 
 issue: 
 icon: semaphore.stocktrade.tradeweb.png

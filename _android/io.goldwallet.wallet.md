@@ -13,7 +13,7 @@ stars: 4.2
 ratings: 504
 reviews: 13
 size: 
-website: https://bitcoinvault.global
+website: https://web.archive.org/web/20201031232822/https://bitcoinvault.global/
 repository: 
 issue: 
 icon: io.goldwallet.wallet.png

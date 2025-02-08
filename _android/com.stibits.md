@@ -14,7 +14,7 @@ stars: 3.5
 ratings: 
 reviews: 3
 size: 
-website: https://stibits.com
+website: https://walletscrutiny.com/brokenlink/https://stibits.com
 repository: 
 issue: 
 icon: com.stibits.png

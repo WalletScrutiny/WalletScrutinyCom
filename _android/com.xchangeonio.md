@@ -14,7 +14,7 @@ stars: 2.4
 ratings: 
 reviews: 7
 size: 
-website: https://www.xchangeon.io/
+website: https://web.archive.org/web/20220903102049/https://www.xchangeon.io/
 repository: 
 issue: 
 icon: com.xchangeonio.png

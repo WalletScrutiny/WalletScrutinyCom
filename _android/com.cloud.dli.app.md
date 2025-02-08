@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bolsadx.lat
+website: https://web.archive.org/web/20221205201902/http://bolsadx.lat/
 repository: 
 issue: 
 icon: com.cloud.dli.app.png

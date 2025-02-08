@@ -13,7 +13,7 @@ stars: 3.9
 ratings: 
 reviews: 
 size: 
-website: https://kumo.africa
+website: https://web.archive.org/web/20220517172537/https://kumo.africa/
 repository: 
 issue: 
 icon: kumo.africa.jpg

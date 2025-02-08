@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://easycryptos.io/
+website: https://walletscrutiny.com/brokenlink/https://easycryptos.io/
 repository: 
 issue: 
 icon: pixel.websolutions.ecrytpos.easy_cryptos.png

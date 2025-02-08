@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 
 reviews: 64
 size: 
-website: http://www.finanzen.net/apps
+website: https://www.finanzen.net/apps
 repository: 
 issue: 
 icon: de.finanzen.net.png

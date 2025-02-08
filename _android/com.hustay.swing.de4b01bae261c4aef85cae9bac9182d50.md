@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.earnfinex.com/
+website: https://web.archive.org/web/20220211133602/https://www.earnfinex.com/
 repository: 
 issue: 
 icon: com.hustay.swing.de4b01bae261c4aef85cae9bac9182d50.png

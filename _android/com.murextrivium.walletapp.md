@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 6.0M
-website: http://murexbitcoinsolutions.com/
+website: https://web.archive.org/web/20210619223019/https://murexbitcoinsolutions.com/
 repository: 
 issue: 
 icon: com.murextrivium.walletapp.png

@@ -13,7 +13,7 @@ version: 1.22.0
 stars: 4.6
 reviews: 4357
 size: '94430208'
-website: https://bittrex.com/mobile
+website: https://web.archive.org/web/20230404034054/https://bittrex.com/mobile
 repository: 
 issue: 
 icon: com.bittrex.trade.jpg

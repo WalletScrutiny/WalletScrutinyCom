@@ -14,7 +14,7 @@ stars: 3.8
 ratings: 15
 reviews: 1
 size: 
-website: http://richtekcenter.blogspot.tw
+website: https://richtekcenter.blogspot.tw
 repository: 
 issue: 
 icon: com.Richhantek.Blockchain.png

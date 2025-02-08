@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://cbyte.network
+website: https://walletscrutiny.com/brokenlink/https://cbyte.network
 repository: 
 issue: 
 icon: com.cbytenetwork.endurancewallet.png

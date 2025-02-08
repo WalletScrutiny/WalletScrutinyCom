@@ -14,7 +14,7 @@ stars: 4.7
 ratings: 1147
 reviews: 706
 size: 
-website: http://coolwallet.io
+website: https://coolwallet.io
 repository: 
 issue: 
 icon: com.coolbitx.cwsapp.png

@@ -13,7 +13,7 @@ version: 8.0.1
 stars: 4.7
 reviews: 272
 size: '224310272'
-website: http://www.finanzen.net/apps
+website: https://www.finanzen.net/apps
 repository: 
 issue: 
 icon: de.smarthouse.finanzen.jpg

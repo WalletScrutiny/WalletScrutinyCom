@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://mobapibbc.buybitcoins.app/
+website: https://web.archive.org/web/20211017030439/https://mobapibbc.buybitcoins.app/
 repository: 
 issue: 
 icon: com.app.buybitcoins.png

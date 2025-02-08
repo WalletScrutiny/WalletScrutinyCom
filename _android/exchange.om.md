@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://om.exchange/
+website: https://web.archive.org/web/20240919163325/https://www.om.exchange/
 repository: 
 issue: 
 icon: exchange.om.png

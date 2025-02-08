@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://multi.ua
+website: https://multi.ua
 repository: 
 issue: 
 icon: net.treeum.multi.invest.png

@@ -13,7 +13,7 @@ stars: 4.1
 ratings: 
 reviews: 
 size: 
-website: https://ex.tcapex.com/
+website: https://web.archive.org/web/20210616012958/https://ex.tcapex.com/
 repository: 
 issue: 
 icon: com.tcapital.exchange.png

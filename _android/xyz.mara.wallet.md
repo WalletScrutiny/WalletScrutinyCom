@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 
 reviews: 146
 size: 
-website: https://mara.xyz
+website: https://web.archive.org/web/20220511053023/https://mara.xyz/
 repository: 
 issue: 
 icon: xyz.mara.wallet.png

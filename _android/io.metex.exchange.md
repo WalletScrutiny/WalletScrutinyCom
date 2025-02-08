@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://msc.exchange
+website: https://web.archive.org/web/20180930015952/http://msc.exchange:80/
 repository: 
 issue: 
 icon: io.metex.exchange.png

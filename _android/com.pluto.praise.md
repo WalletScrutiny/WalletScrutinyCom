@@ -13,7 +13,7 @@ stars: 4.7
 ratings: 
 reviews: 
 size: 
-website: http://praise.pe.kr
+website: https://web.archive.org/web/20010202025500/http://www.praise.pe.kr:80/
 repository: 
 issue: 
 icon: com.pluto.praise.png

@@ -13,7 +13,7 @@ stars: 4.5
 ratings: 145
 reviews: 6
 size: 
-website: http://hitapi.oblade.net
+website: https://web.archive.org/web/20210612181747/http://hitapi.oblade.net/
 repository: 
 issue: 
 icon: net.benoitbasset.hitapi.png

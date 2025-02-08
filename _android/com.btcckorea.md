@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://jetfinex.com/
+website: https://walletscrutiny.com/brokenlink/https://jetfinex.com/
 repository: 
 issue: 
 icon: com.btcckorea.png

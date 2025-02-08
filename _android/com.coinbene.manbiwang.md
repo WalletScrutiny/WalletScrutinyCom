@@ -15,7 +15,7 @@ stars: 3.6
 ratings: 777
 reviews: 461
 size: 52M
-website: https://www.coinbene.com/
+website: https://web.archive.org/web/20180202062336/http://www.coinbene.com/
 repository: 
 issue: 
 icon: com.coinbene.manbiwang.png

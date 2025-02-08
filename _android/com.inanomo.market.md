@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://inanomo.com/
+website: https://web.archive.org/web/20161101000850/http://inanomo.com:80/
 repository: 
 issue: 
 icon: com.inanomo.market.png

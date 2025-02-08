@@ -14,7 +14,7 @@ stars: 3.9
 ratings: 
 reviews: 5
 size: 
-website: https://www.vibra.one/
+website: https://web.archive.org/web/20220308163639/https://www.vibra.one/
 repository: 
 issue: 
 icon: com.abl.vibra.png

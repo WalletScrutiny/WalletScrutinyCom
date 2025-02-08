@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.livetraderfx.com/
+website: https://walletscrutiny.com/brokenlink/https://www.livetraderfx.com/
 repository: 
 issue: 
 icon: com.livetrader.app.png

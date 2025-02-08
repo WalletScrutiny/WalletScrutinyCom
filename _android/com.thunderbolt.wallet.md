@@ -13,7 +13,7 @@ stars: 4.1
 ratings: 
 reviews: 33
 size: 
-website: https://thunderboltwallet.us
+website: https://walletscrutiny.com/brokenlink/https://thunderboltwallet.us
 repository: 
 issue: 
 icon: com.thunderbolt.wallet.png

@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://morixjp.com/contact
+website: https://web.archive.org/web/20210624095047/https://morixjp.com/contact
 repository: 
 issue: 
 icon: com.morix.wallet.png

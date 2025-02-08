@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://quarashi.network
+website: https://walletscrutiny.com/brokenlink/https://quarashi.network
 repository: 
 issue: 
 icon: com.ibt.quarashi.png
@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: QuarashiN
 social:
-- https://www.linkedin.com/company/quarashi-network
+- https://web.archive.org/web/20211212163437/https://www.linkedin.com/company/quarashi-network
 - https://www.facebook.com/QuarashiNetwork
 - https://www.reddit.com/r/Quarashinetwork
 redirect_from: 

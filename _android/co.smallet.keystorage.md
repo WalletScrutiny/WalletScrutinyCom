@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://smallet.co
+website: https://walletscrutiny.com/brokenlink/https://smallet.co
 repository: 
 issue: 
 icon: co.smallet.keystorage.png

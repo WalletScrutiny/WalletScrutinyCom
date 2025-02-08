@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://potent.finance
+website: https://web.archive.org/web/20220927093638/https://potent.finance/
 repository: 
 issue: 
 icon: io.potent.wallet.png

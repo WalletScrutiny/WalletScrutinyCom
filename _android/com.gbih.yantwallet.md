@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.gbih.org
+website: https://walletscrutiny.com/brokenlink/https://www.gbih.org
 repository: 
 issue: 
 icon: com.gbih.yantwallet.png

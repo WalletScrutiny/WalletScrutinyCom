@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://tagcash.com
+website: https://tagcash.com
 repository: 
 issue: 
 icon: com.tagcash.png

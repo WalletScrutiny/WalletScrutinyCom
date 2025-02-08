@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://mobterest.com
+website: https://walletscrutiny.com/brokenlink/https://mobterest.com
 repository: 
 issue: 
 icon: com.cryptotrade_flutter.app.png

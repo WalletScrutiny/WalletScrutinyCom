@@ -14,7 +14,7 @@ stars: 3.4
 ratings: 106
 reviews: 4
 size: 
-website: https://wyretrade.com/
+website: https://web.archive.org/web/20210703092250/https://wyretrade.com/
 repository: 
 issue: 
 icon: com.wyre.trade.png

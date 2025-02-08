@@ -13,7 +13,7 @@ version: '1.51'
 stars: 2.9
 reviews: 7
 size: '155293696'
-website: http://www.capex.com/
+website: https://www.capex.com/
 repository: 
 issue: 
 icon: com.trader.brands.cfdglobal.jpg

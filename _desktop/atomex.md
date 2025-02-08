@@ -10,7 +10,7 @@ version: 1.3.8
 binaries: 
 provider: Atomex OÜ
 providerWebsite: https://atomex.me
-website: https://atomex.me/wallet
+website: https://web.archive.org/web/20220721141005/https://atomex.me/wallet
 repository: https://github.com/atomex-me/atomex.client.desktop
 issue: 
 icon: atomex.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://higherprof.pro/
+website: https://web.archive.org/web/20211203125627/http://higherprof.pro/
 repository: 
 issue: 
 icon: com.higherprof.jpg

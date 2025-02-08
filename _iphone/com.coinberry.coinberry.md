@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: CoinberryHQ
 social:
-- https://www.linkedin.com/company/coinberry
+- https://web.archive.org/web/20231216131056/https://www.linkedin.com/company/coinberry/
 - https://www.facebook.com/CoinberryOfficial
 features: 
 developerName: Coinberry

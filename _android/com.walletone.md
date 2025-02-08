@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://walletone.io
+website: https://web.archive.org/web/20220518182922/https://walletone.io/
 repository: 
 issue: 
 icon: com.walletone.png

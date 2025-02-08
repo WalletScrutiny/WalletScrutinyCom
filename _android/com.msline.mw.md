@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://x-widget.org/
+website: https://x-widget.org/
 repository: 
 issue: 
 icon: com.msline.mw.png

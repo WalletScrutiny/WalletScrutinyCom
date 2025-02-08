@@ -14,7 +14,7 @@ stars: 4.5
 ratings: 
 reviews: 8
 size: 3.0M
-website: https://burtar.com
+website: https://web.archive.org/web/20240325092408/https://burtar.com/
 repository: 
 issue: 
 icon: com.mobile.burtar.png

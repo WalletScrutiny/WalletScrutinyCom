@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://omc-group.co/
+website: https://walletscrutiny.com/brokenlink/https://omc-group.co/
 repository: 
 issue: 
 icon: com.omc.wallet.png

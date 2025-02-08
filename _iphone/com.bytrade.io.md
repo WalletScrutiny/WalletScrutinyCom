@@ -13,7 +13,7 @@ version: 2.5.4
 stars: 2.8
 reviews: 24
 size: '63094784'
-website: https://www.bytrade.io
+website: https://web.archive.org/web/20221101074112/https://www.bytrade.io/
 repository: 
 issue: 
 icon: com.bytrade.io.jpg

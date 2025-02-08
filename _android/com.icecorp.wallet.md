@@ -14,7 +14,7 @@ stars: 3.6
 ratings: 
 reviews: 
 size: 
-website: https://www.icewal.com/
+website: https://icewal.com/
 repository: 
 issue: 
 icon: com.icecorp.wallet.png

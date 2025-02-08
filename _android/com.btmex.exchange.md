@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.bitanmt.com
+website: https://web.archive.org/web/20200809145053/https://www.bitanmt.com/
 repository: 
 issue: 
 icon: com.btmex.exchange.png

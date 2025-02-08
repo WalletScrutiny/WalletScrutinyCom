@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bokucoin.com
+website: https://web.archive.org/web/20201101023443/https://bokucoin.com/
 repository: 
 issue: 
 icon: com.bokucoin.app.png

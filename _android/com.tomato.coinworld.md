@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://swmakekr.com/html/index.html
+website: https://walletscrutiny.com/brokenlink/https://swmakekr.com/html/index.html
 repository: 
 issue: 
 icon: com.tomato.coinworld.png

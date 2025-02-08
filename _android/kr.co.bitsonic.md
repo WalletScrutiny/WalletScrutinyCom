@@ -14,7 +14,7 @@ stars: 2.2
 ratings: 1533
 reviews: 3
 size: 
-website: http://bitsonic.co.kr
+website: https://web.archive.org/web/20181021000249/https://bitsonic.co.kr/
 repository: 
 issue: 
 icon: kr.co.bitsonic.png

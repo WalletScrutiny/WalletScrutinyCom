@@ -13,7 +13,7 @@ stars: 4.6
 ratings: 
 reviews: 
 size: 
-website: http://eternitywall.it
+website: https://eternitywall.it
 repository: 
 issue: 
 icon: it.eternitywall.eternitywall.png

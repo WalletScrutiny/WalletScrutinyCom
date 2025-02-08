@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.currencylifecard.com/
+website: https://web.archive.org/web/20210621141831/https://www.currencylifecard.com/
 repository: 
 issue: 
 icon: com.baanx.currencylife.png

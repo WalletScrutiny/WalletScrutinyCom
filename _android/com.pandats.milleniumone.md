@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://milleniumone.com/
+website: https://walletscrutiny.com/brokenlink/https://milleniumone.com/
 repository: 
 issue: 
 icon: com.pandats.milleniumone.png

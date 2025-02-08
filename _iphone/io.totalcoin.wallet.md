@@ -13,7 +13,7 @@ version: 5.6.2
 stars: 4.3
 reviews: 4
 size: '59226112'
-website: http://totalcoin.io
+website: https://totalcoin.io
 repository: 
 issue: 
 icon: io.totalcoin.wallet.jpg

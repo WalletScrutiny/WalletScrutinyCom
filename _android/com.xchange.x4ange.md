@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://4ange.me/
+website: https://web.archive.org/web/20210123101517/https://4ange.me/
 repository: 
 issue: 
 icon: com.xchange.x4ange.png

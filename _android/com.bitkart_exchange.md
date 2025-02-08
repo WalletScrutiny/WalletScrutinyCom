@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://bitkart.io
+website: https://walletscrutiny.com/brokenlink/https://bitkart.io
 repository: 
 issue: 
 icon: com.bitkart_exchange.png

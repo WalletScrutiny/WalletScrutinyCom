@@ -14,7 +14,7 @@ stars: 3.2
 ratings: 73
 reviews: 47
 size: 19M
-website: https://www.bidesk.com/
+website: https://web.archive.org/web/20210624015840/https://www.bidesk.com/
 repository: 
 issue: 
 icon: com.bideskcom.app.png

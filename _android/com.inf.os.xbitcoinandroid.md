@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://xbitcoin.com.br
+website: https://web.archive.org/web/20190101062127/https://xbitcoin.com.br/
 repository: 
 issue: 
 icon: com.inf.os.xbitcoinandroid.png

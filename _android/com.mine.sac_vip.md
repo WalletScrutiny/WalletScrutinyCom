@@ -13,7 +13,7 @@ stars: 4.1
 ratings: 
 reviews: 
 size: 
-website: https://www.sac-mine.vip
+website: https://web.archive.org/web/20211216153334/http://sac-mine.vip/
 repository: 
 issue: 
 icon: com.mine.sac_vip.png

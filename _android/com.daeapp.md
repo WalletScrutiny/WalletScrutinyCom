@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://dae.africa
+website: https://walletscrutiny.com/brokenlink/https://dae.africa
 repository: 
 issue: 
 icon: com.daeapp.jpg

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://matrix2020.com
+website: https://walletscrutiny.com/brokenlink/https://matrix2020.com
 repository: 
 issue: 
 icon: com.matrix2020.app.jpg

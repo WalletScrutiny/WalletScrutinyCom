@@ -14,7 +14,7 @@ stars: 3.4
 ratings: 33632
 reviews: 1439
 size: 
-website: https://brd.com
+website: https://walletscrutiny.com/brokenlink/https://brd.com
 repository: https://github.com/breadwallet/brd-mobile
 issue: https://github.com/breadwallet/brd-mobile/issues/13
 icon: com.breadwallet.jpg

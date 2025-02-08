@@ -14,7 +14,7 @@ stars: 3
 ratings: 25850
 reviews: 69
 size: 
-website: http://www.bithumb.com/
+website: https://www.bithumb.com/
 repository: 
 issue: 
 icon: com.btckorea.bithumb.png

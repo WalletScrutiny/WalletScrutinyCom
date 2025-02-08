@@ -13,7 +13,7 @@ version: '2.0'
 stars: 0
 reviews: 0
 size: '71185408'
-website: https://www.the-masterkey.com
+website: https://web.archive.org/web/20221128095224/https://www.the-masterkey.com/
 repository: 
 issue: 
 icon: io.trustverse.masterkey.jpg

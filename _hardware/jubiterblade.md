@@ -16,7 +16,7 @@ dimensions:
 weight: 
 provider: Feitian Technologies Co.,Ltd.
 providerWebsite: https://www.ftsafe.com/
-website: https://www.jubiterwallet.com/index.html
+website: https://web.archive.org/web/20180619093352/http://www.jubiterwallet.com:80/index.html
 shop: https://www.amazon.com/gp/product/B07K446Y57
 country: CN
 price: 79USD

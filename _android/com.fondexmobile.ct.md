@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.fondex.com
+website: https://walletscrutiny.com/brokenlink/https://www.fondex.com
 repository: 
 issue: 
 icon: com.fondexmobile.ct.png

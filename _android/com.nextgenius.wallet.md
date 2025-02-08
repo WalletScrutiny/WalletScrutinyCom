@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://nextgenius.com.au
+website: https://nextgenius.com.au
 repository: 
 issue: 
 icon: com.nextgenius.wallet.png

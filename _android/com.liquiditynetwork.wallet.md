@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 8.1M
-website: https://liquidity.network
+website: https://web.archive.org/web/20210615060540/http://liquidity.network/
 repository: 
 issue: 
 icon: com.liquiditynetwork.wallet.png

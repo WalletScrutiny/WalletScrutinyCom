@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.goldex.jp/
+website: https://web.archive.org/web/20190412220351/https://www.goldex.jp/
 repository: 
 issue: 
 icon: jp.goldex.towerwallet.png

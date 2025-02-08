@@ -13,7 +13,7 @@ stars: 4.3
 ratings: 
 reviews: 
 size: 
-website: http://eazyblaze.com/
+website: https://walletscrutiny.com/brokenlink/https://eazyblaze.com/
 repository: 
 issue: 
 icon: com.earlybazewallet.earlybazewallet.png

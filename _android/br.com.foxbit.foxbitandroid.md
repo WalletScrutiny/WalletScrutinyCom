@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 6740
 reviews: 6184
 size: 
-website: http://www.foxbit.com.br
+website: https://www.foxbit.com.br
 repository: 
 issue: 
 icon: br.com.foxbit.foxbitandroid.png

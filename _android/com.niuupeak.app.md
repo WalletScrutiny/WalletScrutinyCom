@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://niuupeak.com/
+website: https://walletscrutiny.com/brokenlink/https://niuupeak.com/
 repository: 
 issue: 
 icon: com.niuupeak.app.png

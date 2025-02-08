@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://bitazza.com/
+website: https://bitazza.com/
 repository: 
 issue: 
 icon: com.bitazza.android.gl.png

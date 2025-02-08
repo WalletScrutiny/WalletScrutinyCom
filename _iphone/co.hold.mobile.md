@@ -13,7 +13,7 @@ version: 3.15.1
 stars: 3.9
 reviews: 21
 size: '33512448'
-website: https://hold.io
+website: https://web.archive.org/web/20201101023609/https://hold.io/
 repository: 
 issue: 
 icon: co.hold.mobile.jpg
@@ -26,7 +26,7 @@ signer:
 reviewArchive: 
 twitter: HoldHQ
 social:
-- https://www.linkedin.com/company/holdhq
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/holdhq
 - https://www.facebook.com/HoldHQ
 features: 
 developerName: Hold

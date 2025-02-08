@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://bt360pro.com
+website: https://web.archive.org/web/20180904110414/https://bt360pro.com/
 repository: 
 issue: 
 icon: com.bt360.app.png

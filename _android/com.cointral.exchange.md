@@ -14,7 +14,7 @@ stars: 3.8
 ratings: 118
 reviews: 77
 size: 
-website: https://cointral.com
+website: https://web.archive.org/web/20200519182843/https://cointral.com/
 repository: 
 issue: 
 icon: com.cointral.exchange.png

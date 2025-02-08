@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.millycrypto.com
+website: https://walletscrutiny.com/brokenlink/https://www.millycrypto.com
 repository: 
 issue: 
 icon: com.ideal.studio.milly_crypto.png

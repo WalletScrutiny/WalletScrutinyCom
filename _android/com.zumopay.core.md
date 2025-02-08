@@ -28,7 +28,7 @@ signer:
 reviewArchive: 
 twitter: zumopay
 social:
-- https://www.linkedin.com/company/zumomoney
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/zumomoney
 - https://www.facebook.com/zumo.money
 redirect_from:
 - /com.zumopay.core/

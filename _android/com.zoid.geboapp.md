@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://gebo.io/
+website: https://web.archive.org/web/20210625123216/https://gebo.io/
 repository: 
 issue: 
 icon: com.zoid.geboapp.jpg

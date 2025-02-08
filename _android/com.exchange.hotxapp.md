@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://hotx.pro/en/home
+website: https://walletscrutiny.com/brokenlink/https://hotx.pro/en/home
 repository: 
 issue: 
 icon: com.exchange.hotxapp.png

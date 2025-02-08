@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://monifiex.com/
+website: https://walletscrutiny.com/brokenlink/https://monifiex.com/
 repository: 
 issue: 
 icon: com.monifiex.png

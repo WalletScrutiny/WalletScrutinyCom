@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://pro.coiny.io/
+website: https://walletscrutiny.com/brokenlink/https://pro.coiny.io/
 repository: 
 issue: 
 icon: io.coiny.pro.png

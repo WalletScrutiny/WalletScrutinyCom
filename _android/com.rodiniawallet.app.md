@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://rodiniawallet.com
+website: https://web.archive.org/web/20220624205436/https://rodiniawallet.com/
 repository: 
 issue: 
 icon: com.rodiniawallet.app.jpg

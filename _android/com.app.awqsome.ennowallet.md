@@ -14,7 +14,7 @@ stars: 4.2
 ratings: 
 reviews: 15
 size: 
-website: https://www.ennowallet.com
+website: https://web.archive.org/web/20240905010624/https://ennowallet.com/
 repository: https://github.com/Enno-Wallet-Enno-Cash
 issue: 
 icon: com.app.awqsome.ennowallet.png

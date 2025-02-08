@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://spowide.com
+website: https://spowide.com
 repository: 
 issue: 
 icon: com.spowide.www.png

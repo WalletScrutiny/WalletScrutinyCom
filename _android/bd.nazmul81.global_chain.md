@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://globalchain.trade
+website: https://web.archive.org/web/20211201144748/http://globalchain.trade/
 repository: 
 issue: 
 icon: bd.nazmul81.global_chain.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.alamotrading.io/
+website: https://web.archive.org/web/20220826080033/https://www.alamotrading.io/
 repository: 
 issue: 
 icon: io.alamo.ex.jpg

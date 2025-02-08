@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://cryptere.com
+website: https://walletscrutiny.com/brokenlink/https://cryptere.com
 repository: 
 issue: 
 icon: com.cryptere.wallet.png

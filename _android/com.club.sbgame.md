@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://sbgame.club
+website: https://walletscrutiny.com/brokenlink/https://sbgame.club
 repository: 
 issue: 
 icon: com.club.sbgame.jpg

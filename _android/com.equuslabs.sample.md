@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://exxbank.com/
+website: https://walletscrutiny.com/brokenlink/https://exxbank.com/
 repository: 
 issue: 
 icon: com.equuslabs.sample.png

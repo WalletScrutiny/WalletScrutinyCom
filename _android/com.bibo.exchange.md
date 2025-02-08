@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.bibo.gold
+website: https://web.archive.org/web/20210623045621/https://bibo.gold/
 repository: 
 issue: 
 icon: com.bibo.exchange.jpg

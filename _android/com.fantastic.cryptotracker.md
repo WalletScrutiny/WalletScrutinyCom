@@ -14,7 +14,7 @@ stars: 5
 ratings: 
 reviews: 
 size: 
-website: https://ax-tech.xyz
+website: https://web.archive.org/web/20230213230203/http://www.ax-tech.xyz/
 repository: 
 issue: 
 icon: com.fantastic.cryptotracker.jpg

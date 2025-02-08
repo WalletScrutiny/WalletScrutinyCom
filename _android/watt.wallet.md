@@ -14,7 +14,7 @@ stars: 3.2
 ratings: 
 reviews: 
 size: 
-website: https://watt.me
+website: https://web.archive.org/web/20220123133438/https://watt.me/
 repository: 
 issue: 
 icon: watt.wallet.png

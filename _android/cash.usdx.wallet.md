@@ -14,7 +14,7 @@ stars: 4.4
 ratings: 5482
 reviews: 232
 size: 
-website: https://usdx.cash
+website: https://web.archive.org/web/20220819220329/https://usdx.cash/
 repository: 
 issue: 
 icon: cash.usdx.wallet.jpg

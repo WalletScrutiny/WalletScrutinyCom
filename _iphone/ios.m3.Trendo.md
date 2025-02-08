@@ -13,7 +13,7 @@ version: 3.9.32
 stars: 5
 reviews: 48
 size: '57073664'
-website: https://fxtrendo.com/
+website: https://web.archive.org/web/20240815063832/https://fxtrendo.com/
 repository: 
 issue: 
 icon: ios.m3.Trendo.jpg

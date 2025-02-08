@@ -13,7 +13,7 @@ stars: 5
 ratings: 
 reviews: 
 size: 
-website: https://bitstone.org
+website: https://walletscrutiny.com/brokenlink/https://bitstone.org
 repository: 
 issue: 
 icon: info.androidhive.btn.png

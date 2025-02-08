@@ -27,7 +27,7 @@ signer:
 reviewArchive: 
 twitter: 100XCoin_
 social:
-- https://www.linkedin.com/company/100xCoin
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/100xCoin
 - https://www.facebook.com/100xcoinFB
 redirect_from: 
 developerName: 

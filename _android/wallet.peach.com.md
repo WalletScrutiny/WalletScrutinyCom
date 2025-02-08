@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://peachwallet.com
+website: https://web.archive.org/web/20220624213401/https://peachwallet.com/
 repository: 
 issue: 
 icon: wallet.peach.com.png

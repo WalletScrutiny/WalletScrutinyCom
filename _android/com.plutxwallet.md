@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://plutx.io
+website: https://web.archive.org/web/20200813204702/https://plutx.io/
 repository: 
 issue: 
 icon: com.plutxwallet.png

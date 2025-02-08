@@ -14,7 +14,7 @@ stars: 4.5
 ratings: 
 reviews: 
 size: 
-website: https://cpass.exchange/
+website: https://walletscrutiny.com/brokenlink/https://cpass.exchange/
 repository: 
 issue: 
 icon: com.digilab24.apps.png

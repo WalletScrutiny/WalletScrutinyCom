@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.krypterz.com
+website: https://web.archive.org/web/20230206123335/https://www.krypterz.com/
 repository: 
 issue: 
 icon: com.app.exchangejl.jpg
@@ -28,7 +28,7 @@ reviewArchive:
 twitter: Krypterzxchange
 social:
 - https://www.facebook.com/Krypterz-101716118890363
-- https://www.linkedin.com/company/krypterz
+- https://walletscrutiny.com/brokenlink/https://www.linkedin.com/company/krypterz
 - mailto:info@krypterz.com
 redirect_from: 
 developerName: Krypterz Exchange

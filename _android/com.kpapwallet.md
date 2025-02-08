@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://k-pap.com/
+website: https://web.archive.org/web/20141217230429/http://k-pap.com/
 repository: 
 issue: 
 icon: com.kpapwallet.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://wowoonet.com
+website: https://walletscrutiny.com/brokenlink/https://wowoonet.com
 repository: 
 issue: 
 icon: com.beta.obc.WOWOO.jpg

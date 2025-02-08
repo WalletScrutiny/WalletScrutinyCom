@@ -13,7 +13,7 @@ stars: 3.4
 ratings: 
 reviews: 1
 size: 
-website: https://btcbcheth.net/
+website: https://web.archive.org/web/20240419054913/https://www.btcbcheth.net/
 repository: 
 issue: 
 icon: com.BTC.BTC_BCH.png

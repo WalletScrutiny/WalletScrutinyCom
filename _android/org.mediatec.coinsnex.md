@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.mediatec.org
+website: https://www.mediatec.org
 repository: 
 issue: 
 icon: org.mediatec.coinsnex.png

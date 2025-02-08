@@ -14,7 +14,7 @@ stars: 4.3
 ratings: 241
 reviews: 139
 size: 22M
-website: https://www.burency.com/
+website: https://web.archive.org/web/20210623222019/https://www.burency.com/
 repository: 
 issue: 
 icon: com.burency.app.png

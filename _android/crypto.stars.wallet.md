@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://myappshaven.com/Privacy-Policy/
+website: https://walletscrutiny.com/brokenlink/https://myappshaven.com/Privacy-Policy/
 repository: 
 issue: 
 icon: crypto.stars.wallet.png

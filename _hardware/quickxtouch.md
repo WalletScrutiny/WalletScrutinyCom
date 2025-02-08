@@ -15,7 +15,7 @@ dimensions:
 weight: 5.4
 provider: QuickX Touch
 providerWebsite: https://www.quickxtouch.com/
-website: https://www.quickx.io/
+website: https://web.archive.org/web/20210620222807/https://quickx.io/
 shop: https://www.quickxtouch.com/product/quickx-touch-card
 country: MT
 price: 149USD

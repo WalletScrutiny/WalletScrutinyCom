@@ -13,7 +13,7 @@ stars: 5
 ratings: 
 reviews: 
 size: 
-website: https://pasaraset.com
+website: https://web.archive.org/web/20211220161226/http://pasaraset.com/
 repository: 
 issue: 
 icon: com.pasaraset.dex.png

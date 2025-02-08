@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://daios.io/
+website: https://web.archive.org/web/20240522155953/https://www.daios.io/
 repository: 
 issue: 
 icon: com.daiospay.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://satochip.io
+website: https://satochip.io
 repository: 
 issue: 
 icon: org.satochip.satochip2fa.satochip2fa.png

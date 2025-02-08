@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://cryptolocator.com
+website: https://walletscrutiny.com/brokenlink/https://cryptolocator.com
 repository: 
 issue: 
 icon: com.cryptolocator_1_1.png

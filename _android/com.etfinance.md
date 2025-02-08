@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.etfinance.eu
+website: https://web.archive.org/web/20201229094312/https://www.etfinance.eu/
 repository: 
 issue: 
 icon: com.etfinance.png

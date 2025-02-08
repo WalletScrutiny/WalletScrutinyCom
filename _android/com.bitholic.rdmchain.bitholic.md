@@ -14,7 +14,7 @@ stars: 4.2
 ratings: 
 reviews: 
 size: 
-website: https://www.bitholic.com
+website: https://web.archive.org/web/20210729024157/https://www.bitholic.com/
 repository: 
 issue: 
 icon: com.bitholic.rdmchain.bitholic.png

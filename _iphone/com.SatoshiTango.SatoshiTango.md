@@ -14,7 +14,7 @@ version: 5.3.0
 stars: 4.5
 reviews: 2
 size: '84685824'
-website: http://www.satoshitango.com
+website: https://www.satoshitango.com
 repository: 
 issue: 
 icon: com.SatoshiTango.SatoshiTango.jpg

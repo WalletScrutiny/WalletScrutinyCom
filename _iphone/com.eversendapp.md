@@ -13,7 +13,7 @@ version: 0.6.09
 stars: 0
 reviews: 0
 size: '94653440'
-website: http://www.eversend.co
+website: https://www.eversend.co
 repository: 
 issue: 
 icon: com.eversendapp.jpg

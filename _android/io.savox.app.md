@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://savox.io
+website: https://web.archive.org/web/20220603155425/https://savox.io/
 repository: 
 issue: 
 icon: io.savox.app.png

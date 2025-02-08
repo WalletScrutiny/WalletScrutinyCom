@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://tudirich.com
+website: https://walletscrutiny.com/brokenlink/https://tudirich.com
 repository: 
 issue: 
 icon: com.tudirich.jpg

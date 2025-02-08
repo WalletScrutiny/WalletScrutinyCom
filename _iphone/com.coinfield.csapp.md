@@ -13,7 +13,7 @@ version: 3.1.5
 stars: 4.2
 reviews: 555
 size: '65037312'
-website: https://www.coinfield.com/company/pr
+website: https://web.archive.org/web/20180330085614/http://www.coinfield.com:80/company/pr
 repository: 
 issue: 
 icon: com.coinfield.csapp.jpg

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.bittradify.com
+website: https://web.archive.org/web/20211223121259/https://www.bittradify.com/
 repository: 
 issue: 
 icon: com.bittradify.png

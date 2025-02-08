@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.liyeplimalcryptoinvestments.com
+website: https://walletscrutiny.com/brokenlink/https://www.liyeplimalcryptoinvestments.com
 repository: 
 issue: 
 icon: com.uticit.git.png

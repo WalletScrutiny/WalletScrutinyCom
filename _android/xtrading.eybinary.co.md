@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://eybinary.xtrading.co/
+website: https://web.archive.org/web/20230330042830/https://eybinary.xtrading.co/
 repository: 
 issue: 
 icon: xtrading.eybinary.co.png

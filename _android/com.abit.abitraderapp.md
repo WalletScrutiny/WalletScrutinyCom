@@ -13,7 +13,7 @@ stars: 3.8
 ratings: 
 reviews: 15
 size: 
-website: https://abitnetwork.com
+website: https://web.archive.org/web/20201031235327/https://abitnetwork.com/
 repository: 
 issue: 
 icon: com.abit.abitraderapp.png

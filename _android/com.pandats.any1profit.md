@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.any1pro.com/
+website: https://walletscrutiny.com/brokenlink/https://www.any1pro.com/
 repository: 
 issue: 
 icon: com.pandats.any1profit.png

@@ -14,7 +14,7 @@ stars: 3.1
 ratings: 
 reviews: 143
 size: 
-website: http://movo.cash
+website: https://movo.cash
 repository: 
 issue: 
 icon: com.movocash.movo.jpg

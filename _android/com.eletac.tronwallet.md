@@ -14,7 +14,7 @@ stars: 4.1
 ratings: 1199
 reviews: 112
 size: 
-website: https://vision-crypto.com/
+website: https://web.archive.org/web/20201031234954/https://vision-crypto.com/
 repository: 
 issue: 
 icon: com.eletac.tronwallet.png

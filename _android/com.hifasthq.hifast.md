@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://hifast.io
+website: https://web.archive.org/web/20220405141759/https://hifast.io/
 repository: 
 issue: 
 icon: com.hifasthq.hifast.png

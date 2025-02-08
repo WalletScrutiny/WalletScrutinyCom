@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.bankbeg.com
+website: https://web.archive.org/web/20211215004411/https://bankbeg.com/
 repository: 
 issue: 
 icon: com.bankbeg.png

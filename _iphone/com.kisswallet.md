@@ -12,7 +12,7 @@ version: 0.3.6
 stars: 5
 reviews: 4
 size: '73128960'
-website: https://moonshinewallet.com/
+website: https://web.archive.org/web/20210209033328/https://moonshinewallet.com/
 repository: 
 issue: 
 icon: com.kisswallet.jpg

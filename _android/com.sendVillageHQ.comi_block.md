@@ -13,7 +13,7 @@ stars: 4.2
 ratings: 
 reviews: 
 size: 
-website: https://comiblock.com/
+website: https://web.archive.org/web/20240925150704/https://comiblock.com/
 repository: 
 issue: 
 icon: com.sendVillageHQ.comi_block.png

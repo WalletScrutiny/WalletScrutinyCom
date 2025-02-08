@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://adara.io/
+website: https://walletscrutiny.com/brokenlink/https://adara.io/
 repository: 
 issue: 
 icon: io.adara.client.png

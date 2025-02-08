@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://www.cryptoswisshub.com/
+website: https://walletscrutiny.com/brokenlink/https://www.cryptoswisshub.com/
 repository: 
 issue: 
 icon: com.cryptoswisshub.png

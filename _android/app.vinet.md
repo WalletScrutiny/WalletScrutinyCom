@@ -14,7 +14,7 @@ stars:
 ratings: 
 reviews: 
 size: 9.2M
-website: http://Vinetexchange.com
+website: https://Vinetexchange.com
 repository: 
 issue: 
 icon: app.vinet.png

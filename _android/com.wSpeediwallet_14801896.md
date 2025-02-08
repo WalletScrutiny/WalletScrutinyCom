@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://speediwallet.com
+website: https://walletscrutiny.com/brokenlink/https://speediwallet.com
 repository: 
 issue: 
 icon: com.wSpeediwallet_14801896.png

@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://coindenex.com
+website: https://web.archive.org/web/20210630052022/https://coindenex.com/
 repository: 
 issue: 
 icon: com.coindenex.png

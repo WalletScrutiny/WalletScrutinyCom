@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: https://paapaasi.com
+website: https://walletscrutiny.com/brokenlink/https://paapaasi.com
 repository: 
 issue: 
 icon: com.paapaasi.png

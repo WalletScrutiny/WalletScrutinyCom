@@ -14,7 +14,7 @@ stars: 2.6
 ratings: 
 reviews: 98
 size: 
-website: http://www.clubkonnect.com
+website: https://www.clubkonnect.com
 repository: 
 issue: 
 icon: com.clubkonnect.mobile1.png

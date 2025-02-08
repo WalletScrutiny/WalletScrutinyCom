@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.anfeli.com
+website: https://walletscrutiny.com/brokenlink/https://www.anfeli.com
 repository: 
 issue: 
 icon: com.anfeli.bewallet.jpg

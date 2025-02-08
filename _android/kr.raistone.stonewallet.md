@@ -13,7 +13,7 @@ stars:
 ratings: 
 reviews: 
 size: 
-website: http://www.raistone.kr
+website: https://web.archive.org/web/20200810113041/https://www.raistone.kr/
 repository: 
 issue: 
 icon: kr.raistone.stonewallet.png

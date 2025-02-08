@@ -14,7 +14,7 @@ stars: 3.6
 ratings: 56
 reviews: 5
 size: 
-website: https://sevenb.io/
+website: https://web.archive.org/web/20240920162854/https://sevenb.io/
 repository: 
 issue: 
 icon: io.sevenb.terminal.png
