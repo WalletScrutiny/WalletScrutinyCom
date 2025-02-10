@@ -38,16 +38,16 @@ pre {
     <p>There are four main ways to explore attestations in our system:</p>
     <ul style="margin-bottom: 0;">
         <li><a href="/assets/">Browse Latest Assets</a> - View all the wallet binaries that have been added to our system</li>
-        <li><a href="/attestators/">Top Attestators</a> - See the most active community members who verify wallet binaries</li>
+        <li><a href="/verifiers/">Top Verifiers</a> - See the most active community members who verify wallet binaries</li>
         <li>Use the Wallet Search - Find attestations for a specific Bitcoin wallet using our search feature in the navigation bar at the top</li>
         <li>Verify a specific binary - Drop your binary file in our verification tool to check existing attestations or create new ones:</li>
     </ul>
     
     {% include /attestations/dragAndDropArea.html skipScript=true %}
 
-    <p>If the <b>binary is new to the network</b>, you'll be prompted to provide register it providing some additional information.</p>
+    <p>If the <b>binary is new to the network</b>, you'll be prompted to register it providing some additional information so testers know where it came from and for which product it is.</p>
     <p>If the <b>binary is already known</b>, you'll be able to view existing attestations, access build instructions, or create your own attestation.</p>
-    <p class="note">Note: Not all Bitcoin wallets may have attestations available, as this is a community-driven effort and relatively new verification system.</p>
+    <p class="note">Note that not all Bitcoin wallets have attestations available, as this is a community-driven effort.</p>
 </div>
 
 <div class="prerequisites">

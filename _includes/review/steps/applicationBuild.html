@@ -20,7 +20,7 @@
 
       {% include getOldInfo.md %}
 
-      <p>If there is a binary for <b>a version that is not tested yet</b>, you can drop the file here to register it so somebody can verify it:</p>
+      <p>If you have a binary for <b>a version that is not tested yet</b>, you can drop the file here to register it so somebody can verify its reproducibility:</p>
       <div style="margin-top: 1em; margin-bottom: 1em; margin-left: 0;">
         {% include /attestations/dragAndDropArea.html buttonMessage="Drop binary file to verify" %}
       </div>
@@ -71,7 +71,7 @@
         };
       </script>
     {% else %}
-      <small>Build cannot be done because there is no public repository with the source code.</small>
+      <small>Build cannot be done because the source code is not publicly available.</small>
     {% endif %}
   </div>
 </div>

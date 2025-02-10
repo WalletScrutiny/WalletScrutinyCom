@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Attestator Page"
-permalink: /attestator/
+title: "Verificator Page"
+permalink: /verifier/
 ---
 
 <link rel="stylesheet" href="{{ base_path }}/assets/css/attestations.css">
@@ -43,7 +43,7 @@ permalink: /attestator/
 <div id="attestator"></div>
 
 <div style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
-  {% include shareButton.html defaultMessage="Look at my attestator profile on WalletScrutiny!" %}
+  {% include shareButton.html defaultMessage="Look at my verifier profile on WalletScrutiny!" %}
   <a href="" target="_blank" id="njumpLink" class="btn" style="background-color: #007bff;">
     <i class="fas fa-external-link-alt" style="margin-right: 7px;"></i> njump.me
   </a>

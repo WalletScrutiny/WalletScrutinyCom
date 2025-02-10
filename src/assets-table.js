@@ -348,8 +348,8 @@ window.showAttestationModal = async function(sha256Hash, attestationId) {
   
   document.getElementById('attempt-by').innerHTML = profile ? `
     <div class="profile-card">
-      ${profile.image ? `<img src="${profile.image}" class="profile-image" onclick="window.location.href='/attestator/?pubkey=${attestation.pubkey}'" onerror="this.style.display='none'"/>` : ''}
-      <div class="profile-info" onclick="window.location.href='/attestator/?pubkey=${attestation.pubkey}'">
+      ${profile.image ? `<img src="${profile.image}" class="profile-image" onclick="window.location.href='/verifier/?pubkey=${attestation.pubkey}'" onerror="this.style.display='none'"/>` : ''}
+      <div class="profile-info" onclick="window.location.href='/verifier/?pubkey=${attestation.pubkey}'">
         <div>${profile.name || attestation.pubkey}</div>
         ${profile.nip05 ? `<div class="profile-nip05">${profile.nip05}</div>` : ''}
       </div>

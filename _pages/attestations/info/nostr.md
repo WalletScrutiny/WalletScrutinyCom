@@ -4,7 +4,7 @@ title: "Information about Nostr"
 permalink: /nostr/
 ---
 
-Nostr is a protocol that allows users to communicate and share information without relying on centralized platforms. It uses public-key cryptography to ensure secure and private communication. Nostr is designed to be censorship-resistant and while best known for its use as a Twitter clone, also used in many other applications.
+Nostr is a protocol that allows users to communicate and share information without relying on centralized platforms. It uses public-key cryptography to ensure secure communication. Nostr is designed to be censorship-resistant and while best known for its use as a clone of <img src="/images/x_logo.svg" style="width: 20px; height: 20px;" alt="X Logo">, it is also used in many other applications.
 
 ## Getting Started with Nostr
 

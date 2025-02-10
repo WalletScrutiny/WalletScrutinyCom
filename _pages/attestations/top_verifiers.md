@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Top Attestators"
-permalink: /attestators/
+title: "Top Verifiers"
+permalink: /verifiers/
 ---
 
 <link rel="stylesheet" href="{{ base_path }}/assets/css/attestations.css">
@@ -42,7 +42,7 @@ permalink: /attestators/
 </div>
 
 <div style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
-  {% include shareButton.html defaultMessage="Look at the Top Attestators ranking on WalletScrutiny!" %}
+  {% include shareButton.html defaultMessage="Look at the Top Verifiers ranking on WalletScrutiny!" %}
 </div>
 
 <div id="attestatorsTable"></div>
@@ -89,14 +89,14 @@ permalink: /attestators/
       <table>
         <thead>
           <tr>
-            <th>Attestator</th>
+            <th>Verifier</th>
             <th># Attestations</th> <!-- , Endorsements -->
           </tr>
         </thead>
         <tbody>
           ${sortedAttestators.map(([pubkey, stats]) => `
             <tr>
-              <td class="attestator-card-column" id="profile-${pubkey}"><a href="/attestator/?pubkey=${pubkey}">${getNpubFromPubkey(pubkey)}</a></td>
+              <td class="attestator-card-column" id="profile-${pubkey}"><a href="/verifier/?pubkey=${pubkey}">${getNpubFromPubkey(pubkey)}</a></td>
               <td class="attestation-count-column">${stats.attestations}</td> <!-- , ${stats.endorsements} -->
             </tr>
           `).join('')}
@@ -117,7 +117,7 @@ permalink: /attestators/
         const profileElement = document.getElementById(`profile-${pubkey}`);
         if (profileElement) {
           profileElement.innerHTML = `
-            <div class="profile-card" onclick="window.location.href='/attestator/?pubkey=${pubkey}'">
+            <div class="profile-card" onclick="window.location.href='/verifier/?pubkey=${pubkey}'">
               ${profile.image ? `<img src="${profile.image}" class="profile-image" onerror="this.style.display='none'"/>` : ''}
               <div class="profile-info">
                 <div>${profile.name || pubkey}</div>

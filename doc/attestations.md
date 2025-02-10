@@ -24,7 +24,7 @@ Trust in attestations is built through:
 - Binary storage implemented via Blossom protocol
 - Multiple Blossom servers can participate
 - Each binary submission must be referenced by nostr events
-- Binary providers and attestators can be different entities
+- Binary providers and verifiers can be different entities
 - Binaries not referenced by relevant nostr events may get deleted after a certain period
 - Binaries might be referenced by more than one [nip-94](https://github.com/nostr-protocol/nips/blob/master/94.md) Asset Registration event. The client has to consolidate these
 
@@ -32,7 +32,7 @@ Trust in attestations is built through:
 - Multiple attestations for the same binary are allowed and expected
 - Conflicting results (reproducible vs non-reproducible) are not hidden
 - For the perspective of an anchor account, a consolidated score is presented
-- Users can evaluate attestator credibility and documentation quality
+- Users can evaluate verifiers credibility and documentation quality
 - UI should display all attestations with their verification status
 
 ### Event Types
@@ -91,7 +91,7 @@ will also have a way to upload binaries and create "Asset Registration" events.
 2. Current wallet pages in WS: show binaries with their attestation result (if any), and buttons that go to pages
 with instructions describing how to do a proper attestation.
 3. Current wallet pages in WS: ability to upload a binary and send the "Asset Registration" event to Nostr.
-4. Leaderboard - Top Attestators
+4. Leaderboard - Top Verifiers
 5. Leaderboard - Top Binary providers.
 
 ## Other functionality
