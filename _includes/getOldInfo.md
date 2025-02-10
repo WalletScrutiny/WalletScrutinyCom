@@ -8,7 +8,7 @@
         gitRevision: "{{ review.gitRevision }}",
         date: "{{ review.date }}",
         verdict: "{{ review.verdict }}"
-      }
+      },
     {% endfor %}
   ];
 </script>
