@@ -1,6 +1,6 @@
 # main links
 main:
-  - title: "<div>User Attestations</div>"
+  - title: "<div>Attestations</div>"
     url: /attestations/
   - title: "<div>Methodology</div>"
     url: /methodology/
