@@ -12,12 +12,14 @@ Nostr is a protocol that allows users to communicate and share information witho
 
 To interact with Nostr, you'll need to install a browser extension that manages your Nostr identity. Here are some popular options:
 
-* **nos2x** - Simple and lightweight extension for Chrome/Brave
-  * [Download for Chrome/Brave](https://chrome.google.com/webstore/detail/nos2x/kpgefcfmnafjgpblomihpgmejjdanjjp)
-  * [Download for Firefox](https://addons.mozilla.org/en-US/firefox/addon/nos2x-fox/)
-* **Alby** - Full-featured extension with Lightning Network integration
-  * [Download for Chrome/Brave](https://chrome.google.com/webstore/detail/alby-bitcoin-lightning-wal/iokeahhehimjnekafflcihljlcjccdbe)
-  * [Download for Firefox](https://addons.mozilla.org/en-US/firefox/addon/alby/)
+* **nos2x**: Simple and lightweight extension for Windows/Mac/Linux
+  * [Download for Chrome/Brave/Edge](https://chrome.google.com/webstore/detail/nos2x/kpgefcfmnafjgpblomihpgmejjdanjjp){:target="_blank"}
+  * [Download for Firefox](https://addons.mozilla.org/en-US/firefox/addon/nos2x-fox/){:target="_blank"}
+* **Alby**: Full-featured extension with Lightning Network integration for Windows/Mac/Linux
+  * [Download for Chrome/Brave/Edge](https://chrome.google.com/webstore/detail/alby-bitcoin-lightning-wal/iokeahhehimjnekafflcihljlcjccdbe){:target="_blank"}
+  * [Download for Firefox](https://addons.mozilla.org/en-US/firefox/addon/alby/){:target="_blank"}
+* **Nostore**: Browser extension for iPhone/iPad/Mac
+  * [Download for Safari](https://apps.apple.com/us/app/nostore/id1666553677){:target="_blank"}
 
 ### 2. Create Your Nostr Identity
 
