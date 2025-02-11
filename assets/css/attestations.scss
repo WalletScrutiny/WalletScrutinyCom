@@ -7,6 +7,23 @@
   width: 100%;
 }
 
+@media screen and (max-width: 480px) {
+  .hide-on-mobile {
+    display: none !important;
+  }
+  .show-on-mobile {
+    display: initial !important;
+  }
+}
+@media screen and (min-width: 481px) {
+  .hide-on-mobile {
+    display: table-cell;
+  }
+  .show-on-mobile {
+    display: none !important;
+  }
+}
+
 /* Spinner */
 .spinner {
   border: 8px solid rgba(0, 0, 0, 0.1);
@@ -139,7 +156,7 @@ table {
   border: 1px solid var(--border-color);
   z-index: 1000;
   border-radius: 12px;
-  height: 60vh;
+  height: 80vh;
   background: var(--background-color);
   width: auto;
 
@@ -147,7 +164,7 @@ table {
     max-width: 97vw;
   }
   @media screen and (min-width: 481px) {
-    max-width: 90vw;
+    max-width: 95vw;
   }
   @media screen and (min-width: 1200px) {
     max-width: 85vw;

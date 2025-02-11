@@ -56,9 +56,9 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
       <tr>
         ${hideConfig?.wallet ? '' : '<th>Wallet</th>'}
         ${hideConfig?.wallet ? '<th>Version</th>' : ''}
-        <th>Asset Description</th>
-        ${hideConfig?.sha256 ? '' : '<th>SHA256</th>'}
-        <th>URL</th>
+        <th class="hide-on-mobile">Asset Description</th>
+        ${hideConfig?.sha256 ? '' : '<th class="hide-on-mobile">SHA256</th>'}
+        <th class="hide-on-mobile">URL</th>
         <th>Attestations</th>
         <th>Observed At</th>
         ${getAssetsForMyAttestations ? '<th>Worked On</th>' : ''}
@@ -180,20 +180,24 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
       row.setAttribute('id', `version-${sanitizedVersion}`);
       row.innerHTML = `
         ${hideConfig?.wallet ? '' : `<td>
-          ${wallet ? `<a href="${wallet.url}" target="_blank" rel="noopener noreferrer">${walletTitle}</a><br>${version}` : walletTitle}
-        </td>`}
+          ${wallet ? `<a href="${wallet.url}" target="_blank" rel="noopener noreferrer">${walletTitle}</a><br>${version}<span class="show-on-mobile"><br>${item.assets ? [...new Set(item.assets.map(asset => asset.content))].join('<br>') : binary.content}<br>${sha256Hash ? `
+          <button onclick="navigator.clipboard.writeText('${sha256Hash}').then(() => showToast('SHA256 copied to clipboard'))" class="copy-button">📋</button>` : '-'}</span>` : walletTitle}
+          sha256
+          </td>`}
         ${hideConfig?.wallet ? `<td>
-          ${version}
-        </td>` : ''}
-        <td class="asset-description">${item.assets ? [...new Set(item.assets.map(asset => asset.content))].join('<br>') : binary.content}</td>
-        ${hideConfig?.sha256 ? '' : `<td>
+          ${version}<span class="show-on-mobile"><br>${item.assets ? [...new Set(item.assets.map(asset => asset.content))].join('<br>') : binary.content}<br>${sha256Hash ? `
+          <button onclick="navigator.clipboard.writeText('${sha256Hash}').then(() => showToast('SHA256 copied to clipboard'))" class="copy-button">📋</button>` : '-'}</span>
+          sha256
+          </td>` : ''}
+        <td class="asset-description hide-on-mobile">${item.assets ? [...new Set(item.assets.map(asset => asset.content))].join('<br>') : binary.content}</td>
+        ${hideConfig?.sha256 ? '' : `<td class="hide-on-mobile">
           ${sha256Hash ? `
           <span>${truncatedHash}</span>
           <button onclick="navigator.clipboard.writeText('${sha256Hash}').then(() => showToast('SHA256 copied to clipboard'))" class="copy-button">
             📋
           </button>` : '-'}
         </td>`}
-        <td>
+        <td class="hide-on-mobile">
           ${downloadUrl ? `<a href="${downloadUrl}" target="_blank" rel="noopener noreferrer">Download</a>` : '-'}
         </td>
         <td>${binary.isLegacy ? (longStatus ? longStatus : oldInfoStatus) : attestationList}</td>
