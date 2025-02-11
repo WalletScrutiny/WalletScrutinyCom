@@ -8,6 +8,6 @@ export const explicitRelayUrls = [
 ];
 
 // Attestations
-export const assetRegistrationKind = 106300; // 1063
-export const attestationKind = 303010; // 30301
-export const endorsementKind = 303020; // 30302
+export const assetRegistrationKind = 1163; // 1063
+export const attestationKind = 31301; // 30301
+export const endorsementKind = 31302; // 30302
