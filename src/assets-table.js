@@ -344,6 +344,11 @@ window.showAttestationModal = async function(sha256Hash, attestationId) {
 
   modal.style.display = 'block';
 
+  // Add blur to all divs except attestationModal
+  document.querySelectorAll('.archive > div:not(#attestationModal), .archive > h1').forEach(div => {
+    div.style.filter = 'blur(5px)';
+  });
+
   const profile = await getNostrProfile(attestation.pubkey);
   
   document.getElementById('attempt-by').innerHTML = profile ? `
@@ -361,6 +366,10 @@ window.showAttestationModal = async function(sha256Hash, attestationId) {
     window.removeEventListener('click', handleClick);
     window.removeEventListener('keydown', handleKeyDown);
     document.body.classList.remove("modal-open");
+    // Remove blur from all divs
+    document.querySelectorAll('.archive > div:not(#attestationModal), .archive > h1').forEach(div => {
+      div.style.filter = '';
+    });
   };
 
   const handleClick = function(event) {
@@ -369,6 +378,10 @@ window.showAttestationModal = async function(sha256Hash, attestationId) {
       window.removeEventListener('click', handleClick);
       window.removeEventListener('keydown', handleKeyDown);
       document.body.classList.remove("modal-open");
+      // Remove blur from all divs
+      document.querySelectorAll('.archive > div:not(#attestationModal), .archive > h1').forEach(div => {
+        div.style.filter = '';
+      });
     }
   };
 
@@ -378,6 +391,10 @@ window.showAttestationModal = async function(sha256Hash, attestationId) {
       window.removeEventListener('click', handleClick);
       window.removeEventListener('keydown', handleKeyDown);
       document.body.classList.remove("modal-open");
+      // Remove blur from all divs
+      document.querySelectorAll('.archive > div:not(#attestationModal), .archive > h1').forEach(div => {
+        div.style.filter = '';
+      });
     }
   };
 
