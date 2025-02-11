@@ -25,10 +25,16 @@ bugbounty:
 meta: ok
 verdict: reproducible
 appHashes:
-- 19dcd62476f17e68a03b47a66cced8288689f4e162ef1b9f91300a27d2ce3957
-date: 2025-02-05
+- db84dd4c1db67c2bfca707d648b159db6480ad1d5f1652b4db3b1d33bf2f3114
+date: 2025-02-11
 signer: cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
 reviewArchive:
+- date: 2025-02-05
+  version: 0.9.5
+  appHashes:
+  - 19dcd62476f17e68a03b47a66cced8288689f4e162ef1b9f91300a27d2ce3957
+  gitRevision: 5c1b28c89358d7f8248a1e608114ed1cf981e7ed
+  verdict: reproducible
 - date: 2025-01-03
   version: 0.9.4
   appHashes:
@@ -130,18 +136,18 @@ We ran our updated {% include testScript.html %} and got this:
 ===== Begin Results =====
 appId:          app.zeusln.zeus
 signer:         cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
-apkVersionName: 0.9.5
-apkVersionCode: 98001
+apkVersionName: 0.9.6
+apkVersionCode: 99003
 verdict:        
-appHash:        19dcd62476f17e68a03b47a66cced8288689f4e162ef1b9f91300a27d2ce3957
-commit:         68f7e6c04470486a060551294c234961c7f261c3
+appHash:        db84dd4c1db67c2bfca707d648b159db6480ad1d5f1652b4db3b1d33bf2f3114
+commit:         cbd5fcef49af1de52df9a1eeec8a689e801bd079
 
 Diff:
-Files /tmp/fromPlay_app.zeusln.zeus_98001/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_98001/AndroidManifest.xml differ
-Only in /tmp/fromPlay_app.zeusln.zeus_98001/META-INF: GOOGPLAY.RSA
-Only in /tmp/fromPlay_app.zeusln.zeus_98001/META-INF: GOOGPLAY.SF
-Only in /tmp/fromPlay_app.zeusln.zeus_98001/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_app.zeusln.zeus_98001: stamp-cert-sha256
+Files /tmp/fromPlay_app.zeusln.zeus_99003/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_99003/AndroidManifest.xml differ
+Only in /tmp/fromPlay_app.zeusln.zeus_99003/META-INF: GOOGPLAY.RSA
+Only in /tmp/fromPlay_app.zeusln.zeus_99003/META-INF: GOOGPLAY.SF
+Only in /tmp/fromPlay_app.zeusln.zeus_99003/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_app.zeusln.zeus_99003: stamp-cert-sha256
 
 Revision, tag (and its signature):
 
