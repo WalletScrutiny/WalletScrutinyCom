@@ -8,6 +8,7 @@ node_modules/
 .project
 .bundle/
 .vscode/
+.github/workflows/sync-from-gitlab.yml
 vendor/
 images/social/
 _data/git.yml
