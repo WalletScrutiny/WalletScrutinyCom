@@ -60,7 +60,7 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
         ${hideConfig?.sha256 ? '' : '<th class="hide-on-mobile">SHA256</th>'}
         <th class="hide-on-mobile">URL</th>
         <th>Attestations</th>
-        <th>Observed At</th>
+        <th>Seen</th>
         ${getAssetsForMyAttestations ? '<th>Worked On</th>' : ''}
       </tr>
     </thead>
