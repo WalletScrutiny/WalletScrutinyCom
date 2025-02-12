@@ -55,9 +55,7 @@ permalink: /verifiers/
 
     await nostrConnect();
 
-    const response = await getAllAssetInformation({
-      months: 6
-    });
+    const response = await getAllAssetInformation();
 
     const attestatorStats = new Map();
 

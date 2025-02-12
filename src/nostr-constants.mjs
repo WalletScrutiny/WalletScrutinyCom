@@ -8,6 +8,8 @@ export const explicitRelayUrls = [
 ];
 
 // Attestations
-export const assetRegistrationKind = 1163; // 1063
-export const attestationKind = 31301; // 30301
-export const endorsementKind = 31302; // 30302
+export const assetRegistrationKind = 1263; // 1063
+export const attestationKind = 32301; // 30301
+export const endorsementKind = 32302; // 30302
+
+export const verificationsFeatureSinceTS = 1739359140; // 2025-02-12 12:19 UTC

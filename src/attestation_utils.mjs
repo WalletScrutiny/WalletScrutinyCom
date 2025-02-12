@@ -1,5 +1,5 @@
 import NDK, {NDKEvent, NDKNip07Signer, NDKPrivateKeySigner, NDKPublishError} from "@nostr-dev-kit/ndk";
-import { assetRegistrationKind, attestationKind, endorsementKind, explicitRelayUrls } from "./nostr-constants.mjs";
+import { assetRegistrationKind, attestationKind, endorsementKind, explicitRelayUrls, verificationsFeatureSinceTS } from "./nostr-constants.mjs";
 import WebSocket from "ws";
 if (typeof global !== 'undefined') {
   global.WebSocket = WebSocket; // Make WebSocket available globally as NDK expects it
@@ -227,6 +227,9 @@ const getAllAssetInformation = async function({ months, assetsPubkey, attestatio
   if (months) {
     console.debug(`Getting events from last ${months} months`);
     filter_assets.since = getTimestampMonthsAgo(months);
+  } else {
+    console.debug(`Getting events from ${verificationsFeatureSinceTS} onwards`);
+    filter_assets.since = verificationsFeatureSinceTS;
   }
   if (assetsPubkey) {
     filter_assets.authors = [assetsPubkey];

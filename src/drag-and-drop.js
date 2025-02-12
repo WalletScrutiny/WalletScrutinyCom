@@ -164,7 +164,6 @@ async function processFiles(files, dropAreaElement) {
         (async () => {
             await nostrConnect();
             return getAllAssetInformation({
-                months: 12,
                 sha256: hash
             });
         })()
