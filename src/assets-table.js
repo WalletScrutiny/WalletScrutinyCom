@@ -3,7 +3,7 @@ import DOMPurify from 'dompurify';
 
 let response = null;
 
-window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestationsPubkey, appId, sha256, hideConfig, getAssetsForMyAttestations, showOnlyRows = 100}) {
+window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestationsPubkey, appId, sha256, hideConfig, getAssetsForMyAttestations, showOnlyRows = 100, sortByVersion = false}) {
   response = await getAllAssetInformation({
     assetsPubkey,
     attestationsPubkey,
@@ -36,8 +36,7 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
           created_at: Math.floor(new Date(oldTest.date).getTime() / 1000),
           tags: [
             ['version', oldTest.version],
-            ['status', oldTest.verdict],
-            ['x', oldTest.appHash]
+            ['status', oldTest.verdict]
           ],
           content: `Legacy verdict by WS`,
           isLegacy: true,
@@ -47,7 +46,28 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
     });
   }
 
-  sortedBinaries.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+  // Sort either by version or date depending on sortByVersion parameter
+  if (sortByVersion) {
+    sortedBinaries.sort((a, b) => {
+      const versionA = a.assets ? a.assets[0].tags.find(tag => tag[0] === 'version')?.[1] : a.tags.find(tag => tag[0] === 'version')?.[1] || '';
+      const versionB = b.assets ? b.assets[0].tags.find(tag => tag[0] === 'version')?.[1] : b.tags.find(tag => tag[0] === 'version')?.[1] || '';
+
+      // Split versions into components and compare numerically
+      const partsA = versionA.split('.').map(part => parseInt(part) || 0);
+      const partsB = versionB.split('.').map(part => parseInt(part) || 0);
+      
+      for (let i = 0; i < Math.max(partsA.length, partsB.length); i++) {
+        const numA = partsA[i] || 0;
+        const numB = partsB[i] || 0;
+        if (numA !== numB) {
+          return numB - numA; // Sort in descending order
+        }
+      }
+      return 0;
+    });
+  } else {
+    sortedBinaries.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+  }
 
   const table = document.createElement('table');
   table.innerHTML = `
@@ -184,8 +204,7 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
           </td>`}
         ${hideConfig?.wallet ? `<td>
           ${version}<span class="show-on-mobile"><br>${item.assets ? [...new Set(item.assets.map(asset => asset.content))].join('<br>') : binary.content}<br>${sha256Hash ? `
-          <button onclick="navigator.clipboard.writeText('${sha256Hash}').then(() => showToast('SHA256 copied to clipboard'))" class="copy-button">📋</button>` : '-'}</span>
-          sha256
+          <button onclick="navigator.clipboard.writeText('${sha256Hash}').then(() => showToast('SHA256 copied to clipboard'))" class="copy-button">📋</button>sha256` : '-'}</span>
           </td>` : ''}
         <td class="asset-description hide-on-mobile">${item.assets ? [...new Set(item.assets.map(asset => asset.content))].join('<br>') : binary.content}</td>
         ${hideConfig?.sha256 ? '' : `<td class="hide-on-mobile">
