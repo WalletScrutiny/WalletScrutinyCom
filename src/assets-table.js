@@ -180,8 +180,7 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
       row.innerHTML = `
         ${hideConfig?.wallet ? '' : `<td>
           ${wallet ? `<a href="${wallet.url}" target="_blank" rel="noopener noreferrer">${walletTitle}</a><br>${version}<span class="show-on-mobile"><br>${item.assets ? [...new Set(item.assets.map(asset => asset.content))].join('<br>') : binary.content}<br>${sha256Hash ? `
-          <button onclick="navigator.clipboard.writeText('${sha256Hash}').then(() => showToast('SHA256 copied to clipboard'))" class="copy-button">📋</button>` : '-'}</span>` : walletTitle}
-          sha256
+          <button onclick="navigator.clipboard.writeText('${sha256Hash}').then(() => showToast('SHA256 copied to clipboard'))" class="copy-button">📋</button>sha256` : '-'}</span>` : walletTitle}
           </td>`}
         ${hideConfig?.wallet ? `<td>
           ${version}<span class="show-on-mobile"><br>${item.assets ? [...new Set(item.assets.map(asset => asset.content))].join('<br>') : binary.content}<br>${sha256Hash ? `
