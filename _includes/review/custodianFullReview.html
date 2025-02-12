@@ -1,0 +1,2165 @@
+{% comment %}
+  custodianFullReview.html
+
+  Consolidates:
+    - The "overview" text
+    - The "Apps" block
+    - The "audit" steps (hot/cold design, proofOfReserves, etc.)
+    - The timeline style for circles on the left
+    - The .step / .developer structure
+  Expects:
+    - include.custodian (all data under custodian.* in front matter)
+    - include.platformReview (optional if you want app store links, etc.)
+{% endcomment %}
+
+{% assign custodian = include.custodian %}
+{% assign platformReview = include.platformReview %}
+
+<!-- Introduction / Overview -->
+<h2>Custodian Scrutiny</h2>
+<p>
+  We conduct a comprehensive analysis of bitcoin custodians across multiple critical dimensions.
+  Our evaluation examines their security infrastructure (hot/cold storage design, proof of reserves),
+  operational focus (bitcoin-only vs multi-coin), business practices (leadership, jurisdiction,
+  track record), ecosystem contributions (FOSS development, protocol adoption), and user protection
+  measures (KYC requirements, security features, custody model). This thorough assessment helps
+  users make informed decisions about which custodians best align with their security needs
+  and bitcoin values.
+</p>
+
+<!-- Apps Section -->
+<div class="apps-header">
+  <h2>Apps</h2>
+  <button id="viewToggle" class="view-toggle" onclick="toggleAppsView()">
+    <i class="fas fa-th-large"></i>
+    <span>Toggle View</span>
+  </button>
+</div>
+<div class="see-also list-view">
+  {% assign android_apps = custodian.androidApps | default: custodian.androidApp | default: empty_array %}
+  {% if android_apps.size > 0 %}
+    {% if android_apps.first.url %}
+      {% for app in android_apps %}
+        <a href="{{ app.url }}" class="app-link">
+          <div class="list-content">
+            <div class="app-content">
+              {% assign app_id = app.url | split: '/' | last %}
+              <img src="/images/wIcons/android/tiny/{{ app_id }}.png" onerror="this.src='/images/wIcons/android/tiny/{{ app_id }}.jpg'" alt="{{ app.name }}" class="app-icon">
+              <span class="app-name">{{ app.name }}</span>
+            </div>
+            <div class="app-store">Google Play</div>
+          </div>
+          <div class="grid-content">
+            {% if app.icon contains 'fa-' %}
+              <i class="{{ app.icon }}"></i>
+            {% else %}
+              {% assign app_id = app.url | split: '/' | last %}
+              <img src="/images/wIcons/android/small/{{ app_id }}.png" onerror="this.src='/images/wIcons/android/small/{{ app_id }}.jpg'" alt="{{ app.name }}" class="app-icon">
+            {% endif %}
+          </div>
+        </a>
+      {% endfor %}
+    {% else %}
+      <a href="{{ android_apps.url }}" class="app-link">
+        <div class="list-content">
+          <div class="app-content">
+            {% assign app_id = android_apps.url | split: '/' | last %}
+            <img src="/images/wIcons/android/tiny/{{ app_id }}.png" onerror="this.src='/images/wIcons/android/tiny/{{ app_id }}.jpg'" alt="{{ android_apps.name }}" class="app-icon">
+            <span class="app-name">{{ android_apps.name }}</span>
+          </div>
+          <div class="app-store">Google Play</div>
+        </div>
+        <div class="grid-content">
+          {% assign app_id = android_apps.url | split: '/' | last %}
+            <img src="/images/wIcons/android/small/{{ app_id }}.png" onerror="this.src='/images/wIcons/android/small/{{ app_id }}.jpg'" alt="{{ android_apps.name }}" class="app-icon">
+        </div>
+      </a>
+    {% endif %}
+  {% endif %}
+  
+  {% assign iphone_apps = custodian.iphoneApps | default: custodian.iphoneApp | default: empty_array %}
+  {% if iphone_apps.size > 0 %}
+    {% if iphone_apps.first.url %}
+      {% for app in iphone_apps %}
+        <a href="{{ app.url }}" class="app-link">
+          <div class="list-content">
+            <div class="app-content">
+              {% assign app_id = app.url | split: '/' | last %}
+              <img src="/images/wIcons/iphone/tiny/{{ app_id }}.jpg" alt="{{ app.name }}" class="app-icon">
+              <span class="app-name">{{ app.name }}</span>
+            </div>
+            <div class="app-store">App Store</div>
+          </div>
+          <div class="grid-content">
+            {% if app.icon contains 'fa-' %}
+              <i class="{{ app.icon }}"></i>
+            {% else %}
+              {% assign app_id = app.url | split: '/' | last %}
+              <img src="/images/wIcons/iphone/small/{{ app_id }}.jpg" alt="{{ app.name }}" class="app-icon">
+            {% endif %}
+          </div>
+        </a>
+      {% endfor %}
+    {% else %}
+      <a href="{{ iphone_apps.url }}" class="app-link">
+        <div class="list-content">
+          <div class="app-content">
+            {% assign app_id = iphone_apps.url | split: '/' | last %}
+            <img src="/images/wIcons/iphone/tiny/{{ app_id }}.jpg" alt="{{ iphone_apps.name }}" class="app-icon">
+            <span class="app-name">{{ iphone_apps.name }}</span>
+          </div>
+          <div class="app-store">App Store</div>
+        </div>
+        <div class="grid-content">
+          {% assign app_id = iphone_apps.url | split: '/' | last %}
+            <img src="/images/wIcons/iphone/small/{{ app_id }}.jpg" alt="{{ iphone_apps.name }}" class="app-icon">
+        </div>
+      </a>
+    {% endif %}
+  {% endif %}
+  
+  {% if custodian.webApp %}
+    <a href="{{ custodian.webApp.url }}" class="app-link">
+      <div class="list-content">
+        <div class="app-content">
+          <i class="fas fa-globe"></i>
+          <span class="app-name">{{ custodian.webApp.name }}</span>
+        </div>
+        <div class="app-store">Web</div>
+      </div>
+      <div class="grid-content">
+        {% if custodian.webApp.icon contains 'fa-' %}
+          <i class="{{ custodian.webApp.icon }} fa-2x"></i>
+        {% else %}
+          <img src="{{ custodian.webApp.icon }}" alt="{{ custodian.webApp.name }}" class="app-icon">
+        {% endif %}
+      </div>
+    </a>
+  {% endif %}
+
+  {% if custodian.browserExtension %}
+    <a href="{{ custodian.browserExtension.url }}" class="app-link">
+      <div class="list-content">
+        <div class="app-content">
+          <i class="fab fa-chrome"></i>
+          <span class="app-name">{{ custodian.browserExtension.name }}</span>
+        </div>
+        <div class="app-store">Chrome Extension</div>
+      </div>
+      <div class="grid-content">
+        <i class="fab fa-chrome fa-2x"></i>
+      </div>
+    </a>
+  {% endif %}
+  
+  {% if custodian.desktopApp %}
+    <a href="{{ custodian.desktopApp.url }}" class="app-link">
+      <div class="list-content">
+        <div class="app-content">
+          <i class="fas fa-desktop"></i>
+          <span class="app-name">{{ custodian.desktopApp.name }}</span>
+        </div>
+        <div class="app-store">Desktop App</div>
+      </div>
+      <div class="grid-content">
+          <i class="fas fa-desktop fa-2x"></i>
+      </div>
+    </a>
+  {% endif %}
+</div>
+
+<hr />
+
+<!-- Timeline / Audit Steps -->
+<!-- HOT/COLD Design -->
+<div class="step developer">
+  <i class="fa fa-server circle storage"></i>
+  <div class="title">
+    <h3>Do they publish their hot wallet and cold storage design and processes?</h3>
+    <div class="textbox">
+      <div class="design-status">
+        {% if custodian.hotColdDesign.status == "published" %}
+          <span class="badge design-published"><i class="fas fa-check"></i> Design Published</span>
+        {% elsif custodian.hotColdDesign.status == "outdated" %}
+          <span class="badge design-outdated"><i class="fas fa-exclamation-triangle"></i> Documentation Outdated</span>
+        {% elsif custodian.hotColdDesign.status == "partial" %}
+          <span class="badge design-partial"><i class="fas fa-info-circle"></i> Partially Documented</span>
+        {% else %}
+          <span class="badge design-unpublished"><i class="fas fa-times"></i> Not Published</span>
+        {% endif %}
+      </div>
+      <div class="last-updated">
+        Last Updated: {{ custodian.hotColdDesign.lastUpdated }}
+      </div>
+      <div class="details">
+        {{ custodian.hotColdDesign.details }}
+      </div>
+      {% if custodian.hotColdDesign.analysis %}
+        <div class="analysis">
+          {{ custodian.hotColdDesign.analysis }}
+        </div>
+      {% endif %}
+      {% if custodian.hotColdDesign.documentation_url %}
+        <a href="{{ custodian.hotColdDesign.documentation_url }}" class="docs-link">
+          <i class="fas fa-external-link-alt"></i> View Documentation
+        </a>
+      {% endif %}
+      {% if custodian.hotColdDesign.supporting_urls %}
+        {% for url in custodian.hotColdDesign.supporting_urls %}
+          <a href="{{ url }}" class="docs-link">
+            <i class="fas fa-external-link-alt"></i> Supporting Document {{ forloop.index }}
+          </a>
+        {% endfor %}
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<!-- BITCOIN FOCUS -->
+<div class="step developer">
+  <i class="fab fa-bitcoin circle bitcoin"></i>
+  <div class="title">
+    <h3>Is it bitcoin-only/bitcoin-optimized?</h3>
+    <div class="textbox">
+      <div class="bitcoin-status">
+        {% if custodian.bitcoinFocus.status == "bitcoin-only" %}
+          <span class="badge bitcoin-only">Bitcoin Only</span>
+        {% elsif custodian.bitcoinFocus.status == "bitcoin-optimized" %}
+          <span class="badge bitcoin-optimized">Bitcoin Optimized</span>
+        {% elsif custodian.bitcoinFocus.status == "multi-currency" %}
+          <span class="badge multi-currency">Multi-Currency Platform</span>
+        {% endif %}
+      </div>
+      {% if custodian.bitcoinFocus.supportedAssets %}
+        <div class="supported-assets">
+          <h4>Supported Assets</h4>
+          <ul>
+            {% for asset in custodian.bitcoinFocus.supportedAssets %}
+              <li>{{ asset }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+      {% if custodian.bitcoinFocus.bitcoinFeatures %}
+        <div class="bitcoin-features">
+          <h4>Bitcoin Features</h4>
+          <ul>
+            {% for feature in custodian.bitcoinFocus.bitcoinFeatures %}
+              <li>{{ feature }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+      <div class="details">
+        {% if custodian.bitcoinFocus.tradableAssets %}
+          <div class="asset-info">
+            <span class="asset-label">Tradable Assets:</span>
+            <span class="asset-value">{{ custodian.bitcoinFocus.tradableAssets }}</span>
+          </div>
+        {% endif %}
+        {% if custodian.bitcoinFocus.tradingPairs %}
+          <div class="asset-info">
+            <span class="asset-label">Trading Pairs:</span>
+            <span class="asset-value">{{ custodian.bitcoinFocus.tradingPairs }}</span>
+          </div>
+        {% endif %}
+        {% if custodian.bitcoinFocus.custodyAssets %}
+          <div class="asset-info">
+            <span class="asset-label">Custody-Only Assets:</span>
+            <span class="asset-value">{{ custodian.bitcoinFocus.custodyAssets }}</span>
+          </div>
+        {% endif %}
+        {% if custodian.bitcoinFocus.CompleteList %}
+          <div class="asset-info" style="margin-top: 1rem;">
+            <a href="{{ custodian.bitcoinFocus.CompleteList }}" class="docs-link">
+              <i class="fas fa-external-link-alt"></i> View Complete List
+            </a>
+          </div>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- PROOF OF RESERVES -->
+<div class="step developer">
+  <i class="fas fa-file-alt circle reserves"></i>
+  <div class="title">
+    <h3>Do they provide proof of reserves?</h3>
+    <div class="textbox">
+      <div class="reserves-status">
+        {% if custodian.proofOfReserves.status == "cryptographic" %}
+          <span class="badge reserves-cryptographic"><i class="fas fa-check"></i> Cryptographic Proof</span>
+        {% elsif custodian.proofOfReserves.status == "traditional-audit" %}
+          <span class="badge reserves-traditional"><i class="fas fa-file-alt"></i> Traditional Audit</span>
+        {% elsif custodian.proofOfReserves.status == "in-development" %}
+          <span class="badge reserves-development"><i class="fas fa-code"></i> In Development</span>
+        {% else %}
+          <span class="badge reserves-none"><i class="fas fa-times"></i> Not Available</span>
+        {% endif %}
+      </div>
+
+      {% if custodian.proofOfReserves.auditFrequency %}
+        <div class="frequency">Updated {{ custodian.proofOfReserves.auditFrequency }}</div>
+      {% endif %}
+      {% if custodian.proofOfReserves.lastAudit %}
+        <div class="last-proof">Last Audit: {{ custodian.proofOfReserves.lastAudit }}</div>
+      {% endif %}
+
+      <div class="details">
+        {{ custodian.proofOfReserves.details }}
+      </div>
+
+      {% if custodian.proofOfReserves.auditUrl %}
+        <a href="{{ custodian.proofOfReserves.auditUrl }}" class="verify-link">
+          <i class="fas fa-external-link-alt"></i> View Audit Report
+        </a>
+      {% endif %}
+
+      {% if custodian.proofOfReserves.developmentStatus %}
+        <div class="development-status">
+          <i class="fas fa-code"></i> {{ custodian.proofOfReserves.developmentStatus }}
+          {% if custodian.proofOfReserves.developmentUrl %}
+            <a href="{{ custodian.proofOfReserves.developmentUrl }}" class="docs-link">
+              <i class="fas fa-external-link-alt"></i> Learn More
+            </a>
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<!-- LEADERSHIP -->
+<div class="step developer">
+  <i class="fas fa-globe circle leadership"></i>
+  <div class="title">
+    <h3>Where is the company located and who are the key team members?</h3>
+    <div class="textbox">
+      <div class="jurisdiction">
+        <strong>Jurisdiction:</strong> {{ custodian.leadership.jurisdiction }}
+      </div>
+      {% if custodian.leadership.yearsInBusiness %}
+        <div class="years">
+          <strong>Years in Business:</strong> {{ custodian.leadership.yearsInBusiness }}
+        </div>
+      {% endif %}
+      {% if custodian.leadership.team %}
+        <div class="team">
+          <h4>Leadership Team</h4>
+          <ul>
+            {% for member in custodian.leadership.team %}
+              <li>{{ member.name }} - {{ member.role }}{% if member.location %} ({{ member.location }}){% endif %}</li>
+            {% endfor %}
+          </ul>
+          {% if custodian.leadership.teamSource %}
+            <a href="{{ custodian.leadership.teamSource }}" class="verify-link" target="_blank">
+              <i class="fas fa-users"></i> Full Team
+            </a>
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<!-- OPERATIONS -->
+<div class="step developer">
+  <i class="fas fa-shield-alt circle security"></i>
+  <div class="title">
+    <h3>How much bitcoin do they custody?</h3>
+    <div class="textbox">
+      {% if custodian.operations.cryptographicProof.valid %}
+      <div class="custody-section">
+        <h4>Cryptographic Proof of Reserves</h4>
+        <div class="custody-info">
+          <p>Amount of BTC: {{ custodian.operations.cryptographicProof.btcAmount }}</p>
+          <p>Total Assets under Custody: {{ custodian.operations.cryptographicProof.totalAssets }}</p>
+          <p>Last Updated: {{ custodian.operations.cryptographicProof.lastUpdated }}</p>
+          <p>Source: <a href="{{ custodian.operations.cryptographicProof.sourceUrl }}">{{ custodian.operations.cryptographicProof.source }}</a></p>
+          <div class="validation-status">
+            <span class="validation-icon valid"><i class="fas fa-check"></i></span>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+
+      {% if custodian.operations.thirdPartyAudit.valid %}
+      <div class="custody-section">
+        <h4>Third Party/Independent</h4>
+        <div class="custody-info">
+          <p>Amount of BTC: {{ custodian.operations.thirdPartyAudit.btcAmount }}</p>
+          <p>Total Assets under Custody: {{ custodian.operations.thirdPartyAudit.totalAssets }}</p>
+          <p>Last Updated: {{ custodian.operations.thirdPartyAudit.lastUpdated }}</p>
+          <p>Source: <a href="{{ custodian.operations.thirdPartyAudit.sourceUrl }}">{{ custodian.operations.thirdPartyAudit.source }}</a></p>
+          <div class="validation-status">
+            <span class="validation-icon valid"><i class="fas fa-check"></i></span>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+
+      {% if custodian.operations.selfReported.valid %}
+      <div class="custody-section">
+        <h4>Self-Reported / Filings</h4>
+        <div class="custody-info">
+          <p>Amount of BTC: {{ custodian.operations.selfReported.btcAmount }}</p>
+          <p>Total Assets under Custody: {{ custodian.operations.selfReported.totalAssets }}</p>
+          <p>Last Updated: {{ custodian.operations.selfReported.lastUpdated }}</p>
+          <p>Source: <a href="{{ custodian.operations.selfReported.sourceUrl }}">{{ custodian.operations.selfReported.source }}</a></p>
+          <div class="validation-status">
+            <span class="validation-icon valid"><i class="fas fa-check"></i></span>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<!-- TRACK RECORD -->
+<div class="step developer">
+  <i class="fas fa-history circle track-record"></i>
+  <div class="title">
+    <h3>What is their track record for customer complaints, down time, vulnerabilities, loss of coins?</h3>
+    <div class="textbox">
+      {% if custodian.trackRecord.history %}
+        <div class="history">{{ custodian.trackRecord.history }}</div>
+      {% endif %}
+      {% if custodian.trackRecord.incidentHistory %}
+        <div class="incidents">
+          <div class="incident-title">
+            <h4>Incident History</h4>
+            <button class="toggle-incidents" aria-expanded="false" aria-controls="incident-list">
+              <i class="fas fa-chevron-down"></i>
+              <span class="show-text">Show More</span>
+              <span class="hide-text">Show Less</span>
+            </button>
+          </div>
+          {% assign incidents = custodian.trackRecord.incidentHistory %}
+          {% if incidents.size > 0 %}
+            <div style="margin-bottom: 1rem; padding: 0.5rem 0;">
+              <li style="list-style: none; margin-bottom: 0;">
+                {{ incidents.first.description }}
+                {% if incidents.first.url %}
+                  <a href="{{ incidents.first.url }}" class="docs-link">
+                    <i class="fas fa-external-link-alt"></i> Details
+                  </a>
+                {% endif %}
+              </li>
+            </div>
+            {% if incidents.size > 1 %}
+              <ul id="incident-list" class="incident-list collapsed">
+                {% for incident in incidents offset:1 %}
+                  <li>
+                    {{ incident.description }}
+                    {% if incident.url %}
+                      <a href="{{ incident.url }}" class="docs-link">
+                        <i class="fas fa-external-link-alt"></i> Details
+                      </a>
+                    {% endif %}
+                  </li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          {% endif %}
+          {% if custodian.trackRecord.sourceIncidents %}
+            <div class="source-link">
+              <a href="{{ custodian.trackRecord.sourceIncidents }}" class="docs-link">
+                <i class="fas fa-external-link-alt"></i> Coinbase Status
+              </a>
+            </div>
+          {% endif %}
+        </div>
+      {% endif %}
+      {% if custodian.trackRecord.lastIncident %}
+        <div class="last-incident">
+          <strong>Last Incident:</strong> {{ custodian.trackRecord.lastIncident }}
+        </div>
+      {% endif %}
+      {% if custodian.trackRecord.insuranceCoverage %}
+        <div class="insurance">
+          <strong>Insurance Coverage:</strong> 
+          {% if custodian.trackRecord.insuranceTermsUrl %}
+            <a href="{{ custodian.trackRecord.insuranceTermsUrl }}">{{ custodian.trackRecord.insuranceCoverage }}</a>
+          {% else %}
+            {{ custodian.trackRecord.insuranceCoverage }}
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<!-- BUSINESS MODEL -->
+<div class="step developer">
+  <i class="fas fa-briefcase circle business"></i>
+  <div class="title">
+    <h3>What is the business model and revenue stream?</h3>
+    <div class="textbox">
+      {% if custodian.businessModel.type %}
+        <p><strong>Type:</strong> {{ custodian.businessModel.type }}</p>
+      {% endif %}
+      {% if custodian.businessModel.services %}
+        <div class="services">
+          <h4>Services Offered</h4>
+          <ul>
+            {% for service in custodian.businessModel.services %}
+              <li><a href="{{ service.url }}">{{ service.name }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+      {% if custodian.businessModel.restrictedCountries %}
+        <div class="restricted-countries">
+          <div class="section-header">
+            <h4>Restricted Countries</h4>
+            {% if custodian.businessModel.restrictedCountriesSource %}
+              <a href="{{ custodian.businessModel.restrictedCountriesSource }}" class="subtle-source" target="_blank">
+                <i class="fas fa-info-circle"></i>
+              </a>
+            {% endif %}
+          </div>
+          <ul>
+            {% for country in custodian.businessModel.restrictedCountries %}
+              <li>{{ country }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<!-- RISK ASSESSMENT -->
+<div class="step developer">
+  <i class="fas fa-exclamation-triangle circle risk"></i>
+  <div class="title">
+    <h3>How risky of a business do they run?</h3>
+    <div class="textbox">
+      {% if custodian.riskAssessment %}
+        <div class="risk-factors">
+          <ul>
+            {% if custodian.riskAssessment.derivatives %}
+              <li>
+                <i class="fas fa-chart-line"></i> Offers derivatives trading
+                {% if custodian.riskAssessment.derivativesList %}
+                  <ul class="derivatives-list">
+                    {% for product in custodian.riskAssessment.derivativesList %}
+                      <li><a href="{{ product.url }}">{{ product.name }}</a></li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+              </li>
+            {% endif %}
+            {% if custodian.riskAssessment.memecoins %}
+              <li>
+                <i class="fas fa-coins"></i> Lists memecoins
+                {% if custodian.riskAssessment.memecoinList %}
+                  <ul class="memecoin-list">
+                    {% for coin in custodian.riskAssessment.memecoinList %}
+                      <li><a href="{{ coin.url }}">{{ coin.name }}</a></li>
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+              </li>
+            {% endif %}
+            {% if custodian.riskAssessment.gambling %}
+              <li><i class="fas fa-dice"></i> Provides gambling services</li>
+            {% endif %}
+          </ul>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<!-- BITCOIN CONTRIBUTION -->
+<div class="step developer">
+  <i class="fab fa-bitcoin circle ecosystem"></i>
+  <div class="title">
+    <h3>What is the contribution to the Bitcoin ecosystem?</h3>
+    <div class="textbox">
+      <div class="contributions">
+        {% if custodian.bitcoinContribution.fossDevelopment %}
+          <span class="badge security-feature">FOSS Development</span>
+        {% endif %}
+        {% if custodian.bitcoinContribution.protocolSupport %}
+          <span class="badge security-feature">Protocol Support</span>
+        {% endif %}
+        {% if custodian.bitcoinContribution.research %}
+          <span class="badge security-feature">Research</span>
+          {% if custodian.bitcoinContribution.research_url %}
+            <a href="{{ custodian.bitcoinContribution.research_url }}" class="subtle-source" target="_blank">
+              <i class="fas fa-info-circle"></i>
+            </a>
+          {% endif %}
+        {% endif %}
+      </div>
+      {% if custodian.bitcoinContribution.contributions %}
+        <div class="contribution-details">
+          <ul>
+          {% for contribution in custodian.bitcoinContribution.contributions %}
+            <li><a href="{{ contribution.url }}">{{ contribution.name }}</a></li>
+          {% endfor %}
+          </ul>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<!-- USER ACCESS -->
+<div class="step developer">
+  <i class="fas fa-user-circle circle access"></i>
+  <div class="title">
+    <h3>What are the user access requirements and restrictions?</h3>
+    <div class="textbox">
+      <div class="status {% if custodian.userAccess.kycRequired %}success{% else %}error{% endif %}">
+        {% if custodian.userAccess.kycRequired %}
+        <i class="fas fa-check"></i> KYC Required  
+        {% else %}
+        <i class="fas fa-times"></i> KYC Not Required
+        {% endif %}
+      </div>
+      <div class="kyc-level"><i class="fas fa-unlock"></i> <strong>Level:</strong> {{ custodian.userAccess.kycLevel }}</div>
+      {% if custodian.userAccess.withdrawalLimits %}
+        <div class="limits">
+          <h4>Withdrawal Limits</h4>
+          {% if custodian.userAccess.withdrawalLimits.status == "tiered" %}
+            <span>Tiered limits by payment method</span>
+            {% if custodian.userAccess.withdrawalLimits.documentation_url %}
+              <a href="{{ custodian.userAccess.withdrawalLimits.documentation_url }}" class="subtle-source" target="_blank">
+                <i class="fas fa-info-circle"></i>
+              </a>
+            {% endif %}
+          {% endif %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<!-- SECURITY FEATURES -->
+<div class="step developer">
+  <i class="fas fa-lock circle security"></i>
+  <div class="title">
+    <h3>What are the security features and measures in place?</h3>
+    <div class="textbox">
+      {% if custodian.security.features %}
+        <div class="features">
+          {% for feature in custodian.security.features %}
+            <span class="badge security-feature">{{ feature }}</span>
+          {% endfor %}
+        </div>
+      {% endif %}
+      {% if custodian.security.customInfrastructure %}
+        <div class="infrastructure">
+          <strong>Custom Infrastructure:</strong> 
+          {% if custodian.security.customInfrastructure == true %}
+            Yes
+          {% else %}
+            No (Outsourced)
+          {% endif %}
+        </div>
+      {% endif %}
+      {% if custodian.security.details %}
+        <div class="details">{{ custodian.security.details }}</div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<!-- OSINT Information -->
+<div class="step developer">
+  <i class="fas fa-search circle osint"></i>
+  <div class="title">
+    <h3>OSINT - What are the news, social media rumors, circulating on social media that may affect the operations of the custodian?</h3>
+    <div class="textbox">
+      {% if custodian.osint and custodian.osint.entries %}
+        <div class="osint-summary">{{ custodian.osint.summary }}</div>
+        
+        <div class="osint-entries">
+          {% for entry in custodian.osint.entries %}
+          <div class="entry">
+            <div class="information">{{ entry.information }}</div>
+            {% if entry.date %}
+              <div class="date"><i class="fas fa-calendar"></i> {{ entry.date }}</div>
+            {% endif %}
+            {% if entry.source or entry.source_url %}
+              <div class="source-group">
+                <span class="source-label">Source:</span>
+                <span class="source-content">
+                  {% if entry.source and entry.source_url %}
+                    <a href="{{ entry.source_url }}" target="_blank" rel="noopener noreferrer">{{ entry.source }}</a>
+                  {% elsif entry.source %}
+                    {{ entry.source }}
+                  {% endif %}
+                </span>
+              </div>
+            {% endif %}
+            {% if entry.corroborating_source or entry.corroborating_source_url %}
+              <div class="corroborating-source-group">
+                <span class="corroborating-label">Corroborating Source:</span>
+                <span class="corroborating-content">
+                  {% if entry.corroborating_source and entry.corroborating_source_url %}
+                    <a href="{{ entry.corroborating_source_url }}" target="_blank" rel="noopener noreferrer">{{ entry.corroborating_source }}</a>
+                  {% elsif entry.corroborating_source %}
+                    {{ entry.corroborating_source }}
+                  {% endif %}
+                </span>
+              </div>
+            {% endif %}
+            {% if entry.refuting or entry.refuting_source_url %}
+              <div class="refuting-group">
+                <span class="refuting-content">
+                  {% if entry.refuting %}
+                    <span class="refuting-label">Refutation: </span>{{ entry.refuting }}
+                    {% if entry.refuting_source_url %}
+                      <a href="{{ entry.refuting_source_url }}" target="_blank" rel="noopener noreferrer" class="refuting-link"><i class="fas fa-external-link-alt"></i></a>
+                    {% endif %}
+                  {% endif %}
+                </span>
+              </div>
+            {% endif %}
+            {% if entry.comment %}
+              <div class="comment"><em>{{ entry.comment }}</em></div>
+            {% endif %}
+          </div>
+          {% endfor %}
+        </div>
+
+        {% if custodian.osint.entries.size > 1 %}
+          <button class="toggle-osint" aria-expanded="false">
+            <i class="fas fa-chevron-down"></i>
+            <span class="show-text">Show More</span>
+            <span class="hide-text">Show Less</span>
+          </button>
+          
+          <div class="osint-list collapsed">
+            {% for entry in custodian.osint.entries offset:1 %}
+              <div class="entry">
+                <div class="information">{{ entry.information }}</div>
+                {% if entry.source_url %}
+                  <div class="source"><strong>Source:</strong> <a href="{{ entry.source_url }}" target="_blank" rel="noopener noreferrer">{{ entry.source_url }}</a></div>
+                {% endif %}
+                {% if entry.corroborating_source_url %}
+                  <div class="corroborating-source"><strong>Corroborating Source:</strong> <a href="{{ entry.corroborating_source_url }}" target="_blank" rel="noopener noreferrer">{{ entry.corroborating_source_url }}</a></div>
+                {% endif %}
+                {% if entry.refutation %}
+                  <div class="refutation"><strong>Refutation:</strong> {{ entry.refutation }}</div>
+                  {% if entry.refutation_source_url %}
+                    <div class="refutation-source"><strong>Refutation Source:</strong> <a href="{{ entry.refutation_source_url }}" target="_blank" rel="noopener noreferrer">{{ entry.refutation_source_url }}</a></div>
+                  {% endif %}
+                {% endif %}
+                {% if entry.comment %}
+                  <div class="comment"><strong>Comment:</strong> {{ entry.comment }}</div>
+                {% endif %}
+              </div>
+            {% endfor %}
+          </div>
+        {% endif %}
+      {% else %}
+        <p>No OSINT information available.</p>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<!-- Add any final or “seeAlso” blocks if needed -->
+
+<!-- STYLES: merged from your old partials to preserve the vertical timeline -->
+<style>
+
+.fa-info-circle {
+  color: var(--neutral-2);
+}
+
+.circle.osint {
+  background: #1a365d;
+}
+
+.osint-summary {
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.osint-entries .entry {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+.osint-entries .entry:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.osint-entries .information {
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.osint-entries .date {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-bottom: 0.75rem;
+}
+
+.osint-entries .date i {
+  margin-right: 0.25rem;
+}
+
+.osint-entries .source-group,
+.osint-entries .corroborating-source-group,
+.osint-entries .refuting-group {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.osint-entries .source-label,
+.osint-entries .corroborating-label {
+  color: var(--text-muted);
+  min-width: 80px;
+  flex-shrink: 0;
+  font-weight: bold;
+}
+
+.osint-entries .refuting-label {
+  color: #212529;
+  font-weight: bold;
+  min-width: 80px;
+  flex-shrink: 0;
+}
+
+.osint-entries .source-content,
+.osint-entries .corroborating-content {
+  color: #212529;
+  word-break: break-word;
+}
+
+.osint-entries .refuting-content {
+  color: #198754;
+  word-break: break-word;
+}
+
+.osint-entries .source-content a,
+.osint-entries .corroborating-content a {
+  display: inline-block;
+  color: #198754;
+  text-decoration: underline;
+}
+
+.osint-entries .source-content a:hover,
+.osint-entries .corroborating-content a:hover {
+  text-decoration: underline;
+  color: #198754;
+}
+
+.osint-entries .refuting-content {
+  margin-top: 0.5rem;
+  color: #198754;
+}
+
+.osint-entries .refuting-link {
+  display: inline-block;
+  color: #198754;
+  margin-left: 0.5rem;
+  text-decoration: none;
+}
+
+.osint-entries .refuting-link:hover {
+  color: #157347;
+}
+
+.osint-entries .comment {
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  color: var(--text-muted);
+  font-style: italic;
+  line-height: 1.4;
+}
+
+.osint-list {
+  margin-top: 1rem;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.osint-list.collapsed {
+  max-height: 0;
+}
+
+.osint-list:not(.collapsed) {
+  max-height: 1000px;
+}
+
+.toggle-osint {
+  background: none;
+  border: none;
+  color: var(--text);
+  padding: 0.5rem 0;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.toggle-osint i {
+  transition: transform 0.2s ease;
+}
+
+.toggle-osint[aria-expanded="true"] i {
+  transform: rotate(180deg);
+}
+
+.toggle-osint .show-text {
+  display: inline;
+}
+
+.toggle-osint .hide-text {
+  display: none;
+}
+
+.toggle-osint[aria-expanded="true"] .show-text {
+  display: none;
+}
+
+.toggle-osint[aria-expanded="true"] .hide-text {
+  display: inline;
+}
+
+
+.custodian-full-review {
+  max-width: 900px;
+  margin: 2rem auto;
+}
+
+/* The grid for the big icon + heading */
+.app-summary-grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 2rem;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.app_logo_big {
+  width: 128px;
+  height: 128px;
+  border-radius: 12px;
+}
+
+/* The timeline/step containers */
+.step.developer {
+  position: relative;
+  padding-left: 3rem;
+  margin-bottom: 2rem;
+}
+
+.step.developer::before {
+  content: '';
+  position: absolute;
+  left: 1.25rem;  
+  top: 0;
+  height: 100%;
+  width: 2px;
+  background-color: #dee2e6;
+  z-index: 0;
+}
+
+/* The circle icons on the timeline */
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translateX(0);
+  font-size: 1.2rem;
+  border: 2px solid transparent;
+  z-index: 1;
+}
+
+/* Icon colors */
+.circle.storage {
+  background: #2ecc71;  
+  border-color: #27ae60;
+}
+
+.circle.bitcoin {
+  background: #f7931a;  
+  border-color: #e07d16;
+}
+
+.circle.reserves {
+  background: #3498db;  
+  border-color: #2980b9;
+}
+
+.circle.leadership {
+  background: #9b59b6;  
+  border-color: #8e44ad;
+}
+
+.circle.operations {
+  background: #e67e22;  
+  border-color: #d35400;
+}
+
+.circle.track-record {
+  background: #16a085;  
+  border-color: #1abc9c;
+}
+
+.circle.business {
+  background: #34495e;  
+  border-color: #2c3e50;
+}
+
+.circle.ecosystem {
+  background: #1abc9c;  
+  border-color: #16a085;
+}
+
+.circle.access {
+  background: #f1c40f;  
+  border-color: #f39c12;
+}
+
+.circle.security {
+  background: #7f8c8d;  
+  border-color: #95a5a6;
+}
+
+.circle.risk {
+  background: #ff9800;  
+  border-color: #ff9800;
+}
+
+.risk-factors ul.memecoin-list {
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+  font-size: 0.9em;
+}
+
+.risk-factors ul.memecoin-list li {
+  margin-bottom: 0.25rem;
+}
+
+.risk-factors ul.memecoin-list a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.risk-factors ul.memecoin-list a:hover {
+  text-decoration: underline;
+}
+
+.risk-factors ul.derivatives-list {
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+  font-size: 0.9em;
+}
+
+.risk-factors ul.derivatives-list li {
+  margin-bottom: 0.25rem;
+}
+
+.risk-factors ul.derivatives-list a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.risk-factors ul.derivatives-list a:hover {
+  text-decoration: underline;
+}
+
+/* Add a subtle shadow and glow effect */
+.circle i {
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.circle::after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border-radius: 50%;
+  background: inherit;
+  filter: blur(8px);
+  opacity: 0.15;
+  z-index: -1;
+}
+
+/* Title area for each step */
+.step.developer .title h3 {
+  margin-top: 0;
+}
+.textbox {
+  background: #e9edf7;
+  border-radius: 8px;
+  padding: 0.75rem;
+  margin-top: 0.25rem;
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+  .textbox {
+    background: #2f374c;
+  }
+
+  .custody-section {
+    background: #3b5376;
+  }
+}
+
+/* For class-based dark mode */
+.dark .textbox {
+  background: #2f374c;
+}
+
+.dark .custody-section {
+  background: #3b5376;
+}
+
+/* The status badges (published / not published) etc. */
+.status {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+.status.success {
+  color: #198754;
+}
+.status.error {
+  color: #dc3545;
+}
+.status i {
+  margin-right: 0.5rem;
+}
+
+/* Incident list styling */
+.incidents {
+  margin-top: 1rem;
+}
+
+.incident-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}
+
+.incident-title h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.toggle-incidents {
+  background: none;
+  color: var(--text);
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  font-size: 0.85rem;
+  opacity: 0.7;
+  transition: all 0.2s ease;
+}
+
+.toggle-incidents:hover {
+  opacity: 1;
+}
+
+.toggle-incidents i {
+  font-size: 0.75rem;
+  transition: transform 0.2s ease;
+}
+
+.toggle-incidents[aria-expanded="true"] i {
+  transform: rotate(180deg);
+}
+
+.toggle-incidents .show-text {
+  display: inline;
+}
+
+.toggle-incidents .hide-text {
+  display: none;
+}
+
+.toggle-incidents[aria-expanded="true"] .show-text {
+  display: none;
+}
+
+.toggle-incidents[aria-expanded="true"] .hide-text {
+  display: inline;
+}
+
+.incident-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.incident-list.collapsed {
+  max-height: 0;
+}
+
+.incident-list:not(.collapsed) {
+  max-height: 500px; 
+}
+
+.incident-list li {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #dee2e6;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  gap: 1rem;
+}
+
+.incident-list li:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.incident-list .docs-link {
+  white-space: nowrap;
+  font-size: 0.85rem;
+  opacity: 0.8;
+  transition: opacity 0.2s ease;
+  flex-shrink: 0;
+  margin-top: 0.1rem;
+}
+
+.incident-list .docs-link:hover {
+  opacity: 1;
+}
+
+.source-link {
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid #dee2e6;
+  font-size: 0.85rem;
+}
+
+/* “Apps” listing */
+.see-also {
+  margin-top: 1.5rem;
+}
+
+.app-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.25rem;
+  background-color: #a6bdf5a8;
+  padding: 0.5rem 0.75rem;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #212529;
+  transition: all 0.2s ease-in-out;
+}
+
+.app-link:hover {
+  background-color: #a3b0cf;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.app-content {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.app-content i {
+  font-size: 1.2rem;
+}
+
+.app-store {
+  font-size: 0.8rem;
+  color: #212529;
+  padding: 0.25rem 0.5rem;
+  background-color: white;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.app-link:hover .app-store {
+  background-color: #f8f9fa;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.25em 0.5em;
+  font-size: 0.9em;
+  font-weight: 500;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+  margin: 0.1rem;
+}
+
+.bitcoin-only {
+  color: #ffffff;
+  background-color: #f7931a;
+}
+
+.bitcoin-optimized {
+  color: #ffffff;
+  background-color: #1a9af7;
+}
+
+.multi-currency {
+  color: #ffffff;
+  background-color: #3498db;
+}
+
+.security-feature {
+  color: #ffffff;
+  background-color: #28a745;
+}
+
+.design-published {
+  color: #ffffff;
+  background-color: #198754;
+}
+
+.design-outdated {
+  color: #ffffff;
+  background-color: #dc3545;
+}
+
+.design-partial {
+  color: #ffffff;
+  background-color: #17a2b8;
+}
+
+.design-unpublished {
+  color: #ffffff;
+  background-color: #6c757d;
+}
+
+.reserves-cryptographic {
+  color: #ffffff;
+  background-color: #3498db;
+}
+
+.reserves-traditional {
+  color: #ffffff;
+  background-color: #1a9af7;
+}
+
+.reserves-development {
+  color: #ffffff;
+  background-color: #28a745;
+}
+
+.reserves-none {
+  color: #ffffff;
+  background-color: #6c757d;
+}
+
+/* Contributions “active” tags */
+.contributions ul {
+  display: flex;
+  gap: 1rem;
+  padding-left: 0;
+  list-style: none;
+}
+.contributions li {
+  padding: 0.15rem 0.35rem;
+  border-radius: 4px;
+  background: #f8f9fa;
+  color: #212529;
+}
+.contributions li.active {
+  background: #198754;
+  color: #ffffff;
+}
+
+/* Step headings */
+.step h4 {
+  font-size: 0.95em;
+  background-color: rgba(163, 176, 207, 0.25);
+  border-radius: 6px;
+  display: inline-block;
+  font-weight: 500;
+  padding: 0.15rem 0.5rem;
+  margin: 0.5rem 0;
+}
+
+/* Top Panel Layout */
+.top-panel {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 1rem; 
+  align-items: start;
+  margin-bottom: 1rem;
+}
+
+.top-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.top-right {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0;
+}
+
+/* CEO Card Styles */
+.ceo-card {
+  background: #e9edf7;  
+  border-radius: 12px;
+  padding: 0.5rem;
+  width: 300px;
+  margin: 0;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+  border: 1px solid #d1d9e6;
+  flex-direction: row;
+  max-width: 400px;
+}
+
+.ceo-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ceo-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Apps section styles */
+.apps-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.view-toggle {
+  background: none;
+  border: 1px solid var(--text);
+  color: var(--text);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.view-toggle:hover {
+  background: rgba(var(--text-rgb), 0.1);
+}
+
+.see-also {
+  transition: all 0.3s ease;
+}
+
+.see-also.list-view {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  padding: 0.25rem;
+}
+
+.app-link {
+  text-decoration: none;
+  color: #212529;
+  transition: all 0.2s ease;
+}
+
+.app-link:hover {
+  background: rgba(var(--text-rgb), 0.05);
+  color: var(--text);
+}
+
+.app-link:hover .app-name,
+.app-link:hover .app-store {
+  color: var(--text);
+}
+
+.app-name,
+.app-store {
+  color: #212529;
+}
+
+.see-also.list-view .app-link {
+  display: block;
+  margin: 0;
+  margin-bottom: 0.25rem;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid transparent;
+}
+
+.see-also.grid-view .app-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid rgba(var(--text-rgb), 0.1);
+  height: 64px;
+  width: 64px;
+}
+
+.see-also.grid-view {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(64px, 1fr));
+  gap: 1rem;
+  justify-items: center;
+}
+
+.list-content, .grid-content {
+  display: none;
+}
+
+.see-also.list-view .list-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.see-also.grid-view .grid-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 48px;
+  height: 48px;
+}
+
+.app-content {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.see-also.list-view .app-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.see-also.grid-view .app-icon {
+  max-width: 32px;
+  max-height: 32px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 4px;
+}
+
+.see-also.list-view .app-link i {
+  font-size: 1.25rem;
+  color: rgba(var(--text-rgb), 0.8);
+}
+
+.see-also.grid-view .app-link i {
+  font-size: 2rem;
+  color: rgba(var(--text-rgb), 0.7);
+}
+
+
+
+.see-also.grid-view .app-link:hover {
+  transform: translateY(-2px);
+  border-color: rgba(var(--text-rgb), 0.2);
+}
+
+.see-also.grid-view .app-content {
+  flex-direction: column;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.see-also.grid-view .app-content i {
+  font-size: 1.5rem;
+}
+
+.see-also.grid-view .app-store {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.ceo-photo i {
+  font-size: 2.5rem;
+  color: #c4c9ce;
+}
+
+.ceo-info {
+  flex: 1;
+}
+
+.ceo-info h3 {
+  margin: 0 0 0.25rem 0;
+  font-size: 1.25rem;
+  color: #24292e;
+}
+
+.ceo-info p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #586069;
+  line-height: 1.4;
+}
+
+.ceo-info .position {
+  color: #0366d6;
+  font-weight: 500;
+}
+
+.social-links {
+  margin-top: 0.75rem;
+  display: flex;
+  gap: 0.75rem;
+}
+
+.social-links a {
+  color: #586069;
+  font-size: 1.1rem;
+  transition: color 0.2s ease;
+}
+
+.social-links a:hover {
+  color: #0366d6;
+}
+
+.social-links .twitter:hover {
+  color: #1da1f2;
+}
+
+.social-links .linkedin:hover {
+  color: #0077b5;
+}
+
+.social-links .github:hover {
+  color: #24292e;
+}
+
+/* Asset info styling */
+.asset-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+.asset-label {
+  font-weight: bold;
+  min-width: 150px;
+}
+
+/* Subtle source link */
+.subtle-source {
+  font-size: 0.8rem;
+  color: #212529;
+  opacity: 0.6;
+  transition: all 0.2s ease-in-out;
+  padding: 2px;
+  line-height: 1;
+}
+
+.subtle-source:hover {
+  opacity: 0.8;
+  text-decoration: none;
+  color: #212529;
+}
+
+.subtle-source i {
+  font-size: 0.85rem;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Documentation links styling */
+.docs-link {
+  display: inline-block;
+  padding: 0.5em 1em;
+  margin: 0.5em 0.5em 0.5em 0;
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  color: #212529;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.docs-link:hover {
+  background-color: #e9ecef;
+  border-color: #ced4da;
+  color: #000;
+  text-decoration: none;
+}
+
+.docs-link i {
+  margin-right: 0.5em;
+}
+
+.custody-section {
+  margin-bottom: 20px;
+  background: #f5f7fa;
+  padding: 15px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.custody-section h4 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.custody-info {
+  position: relative;
+}
+
+.custody-info p {
+  margin: 5px 0;
+}
+
+.validation-status {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.validation-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  font-size: 14px;
+}
+
+.validation-icon.valid {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.validation-icon.invalid {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.validation-icon i {
+  line-height: 1;
+}
+
+.valid {
+  color: #2ecc71;
+}
+
+.invalid {
+  color: #e74c3c;
+}
+
+.custody-info a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.custody-info a:hover {
+  text-decoration: underline;
+}
+</style>
+
+<script>
+class CustodianScore {
+  constructor(custodian) {
+    this.custodian = custodian;
+    this.data = this.calculateAllScores();
+  }
+
+  calculateAllScores() {
+    return {
+      keyManagement: {
+        maxScore: 30,
+        items: {
+          coldStorage: this.calculateColdStorageScore(),
+          multiSig: this.calculateMultiSigScore(),
+          hardware: this.calculateHardwareScore()
+        }
+      },
+      infrastructure: {
+        maxScore: 25,
+        items: {
+          certifications: this.calculateCertificationsScore(),
+          audits: this.calculateAuditsScore(),
+          incidentResponse: this.calculateIncidentResponseScore()
+        }
+      },
+      transparency: {
+        maxScore: 20,
+        items: {
+          proofOfReserves: this.calculateProofOfReservesScore(),
+          documentation: this.calculateDocumentationScore(),
+          openSource: this.calculateOpenSourceScore()
+        }
+      },
+      compliance: {
+        maxScore: 15,
+        items: {
+          licensing: this.calculateLicensingScore(),
+          compliancePrograms: this.calculateComplianceProgramsScore()
+        }
+      },
+      userSecurity: {
+        maxScore: 10,
+        items: {
+          authentication: this.calculateAuthenticationScore(),
+          transactionSecurity: this.calculateTransactionSecurityScore()
+        }
+      }
+    };
+  }
+
+  calculateColdStorageScore() {
+    let score = 0;
+    const maxScore = 10;
+    const hotCold = this.custodian.hotColdDesign || {};
+    
+    if (hotCold.published) score += 5;
+    if (hotCold.documentation_url) score += 2;
+    if (hotCold.details && hotCold.details.length > 0) score += 3;
+    
+    return { score, maxScore };
+  }
+
+  calculateProofOfReservesScore() {
+    let score = 0;
+    const maxScore = 10;
+    const por = this.custodian.proofOfReserves || {};
+    
+    if (por.supported) score += 5;
+    if (por.verificationUrl) score += 2;
+    if (por.frequency) score += 2;
+    if (por.lastProof) score += 1;
+    
+    return { score, maxScore };
+  }
+
+  calculateMultiSigScore() {
+    let score = 0;
+    const maxScore = 10;
+    // Add scoring logic based on available data
+    return { score, maxScore };
+  }
+
+  calculateHardwareScore() {
+    let score = 0;
+    const maxScore = 10;
+    // Add scoring logic based on available data
+    return { score, maxScore };
+  }
+
+  calculateCertificationsScore() {
+    let score = 0;
+    const maxScore = 10;
+    // Add scoring logic based on available data
+    return { score, maxScore };
+  }
+
+  calculateAuditsScore() {
+    let score = 0;
+    const maxScore = 10;
+    const ops = this.custodian.operations || {};
+    
+    if (ops.trackRecord) score += 5;
+    if (ops.incidentHistory) score += 3;
+    if (ops.insuranceCoverage) score += 2;
+    
+    return { score, maxScore };
+  }
+
+  calculateIncidentResponseScore() {
+    let score = 0;
+    const maxScore = 5;
+    const ops = this.custodian.operations || {};
+    
+    if (ops.lastIncident) score += 2;
+    if (ops.incidentHistory) score += 3;
+    
+    return { score, maxScore };
+  }
+
+  calculateDocumentationScore() {
+    let score = 0;
+    const maxScore = 5;
+    const model = this.custodian.businessModel || {};
+    
+    if (model.type) score += 2;
+    if (model.services && model.services.length > 0) score += 3;
+    
+    return { score, maxScore };
+  }
+
+  calculateOpenSourceScore() {
+    let score = 0;
+    const maxScore = 5;
+    const contrib = this.custodian.bitcoinContribution || {};
+    
+    if (contrib.fossDevelopment) score += 2;
+    if (contrib.protocolSupport) score += 2;
+    if (contrib.research) score += 1;
+    
+    return { score, maxScore };
+  }
+
+  calculateLicensingScore() {
+    let score = 0;
+    const maxScore = 10;
+    const leadership = this.custodian.leadership || {};
+    
+    if (leadership.jurisdiction) score += 5;
+    if (leadership.yearsInBusiness) score += 3;
+    if (leadership.team && leadership.team.length > 0) score += 2;
+    
+    return { score, maxScore };
+  }
+
+  calculateComplianceProgramsScore() {
+    let score = 0;
+    const maxScore = 5;
+    const model = this.custodian.businessModel || {};
+    
+    if (model.type) score += 2;
+    if (model.restrictedCountries) score += 3;
+    
+    return { score, maxScore };
+  }
+
+  calculateAuthenticationScore() {
+    let score = 0;
+    const maxScore = 5;
+    // Add scoring logic based on available data
+    return { score, maxScore };
+  }
+
+  calculateTransactionSecurityScore() {
+    let score = 0;
+    const maxScore = 5;
+    // Add scoring logic based on available data
+    return { score, maxScore };
+  }
+
+  calculateCategoryScore(category) {
+    return Object.values(category.items).reduce((sum, item) => sum + item.score, 0);
+  }
+
+  calculateTotalScore() {
+    return Object.values(this.data).reduce((sum, category) => sum + this.calculateCategoryScore(category), 0);
+  }
+
+  updateUI() {
+    // Update total score
+    const totalScoreEl = document.querySelector('.total-score');
+    if (totalScoreEl) {
+      totalScoreEl.textContent = this.calculateTotalScore();
+    }
+
+    // Update category scores
+    Object.entries(this.data).forEach(([categoryId, category]) => {
+      const categoryEl = document.querySelector(`[data-category="${categoryId}"]`);
+      if (categoryEl) {
+        const categoryScoreEl = categoryEl.querySelector('.category-score');
+        if (categoryScoreEl) {
+          categoryScoreEl.textContent = `${category.score}/${category.maxScore}`;
+        }
+
+        // Update item scores
+        Object.entries(category.items).forEach(([itemId, item]) => {
+          const itemEl = categoryEl.querySelector(`[data-item="${itemId}"]`);
+          if (itemEl) {
+            const itemScoreEl = itemEl.querySelector('.item-score');
+            if (itemScoreEl) {
+              itemScoreEl.textContent = `${item.score}/${item.maxScore}`;
+            }
+          }
+        });
+      }
+    });
+
+    // Update question indicators based on scores
+    const updateQuestionStatus = (selector, score, maxScore) => {
+      const el = document.querySelector(selector);
+      if (el) {
+        const status = el.querySelector('.status');
+        if (status) {
+          status.classList.remove('success', 'warning', 'error');
+          if (score >= maxScore * 0.8) status.classList.add('success');
+          else if (score >= maxScore * 0.4) status.classList.add('warning');
+          else status.classList.add('error');
+        }
+      }
+    };
+
+    // Map questions to scores
+    if (this.data.keyManagement?.items?.coldStorage) {
+      updateQuestionStatus('.step:nth-child(1)', 
+        this.data.keyManagement.items.coldStorage.score,
+        this.data.keyManagement.items.coldStorage.maxScore);
+    }
+
+    if (this.data.transparency?.items?.documentation) {
+      updateQuestionStatus('.step:nth-child(2)', 
+        this.data.transparency.items.documentation.score,
+        this.data.transparency.items.documentation.maxScore);
+    }
+
+    if (this.data.transparency?.items?.proofOfReserves) {
+      updateQuestionStatus('.step:nth-child(3)', 
+        this.data.transparency.items.proofOfReserves.score,
+        this.data.transparency.items.proofOfReserves.maxScore);
+    }
+
+    if (this.data.compliance?.items?.licensing) {
+      updateQuestionStatus('.step:nth-child(4)', 
+        this.data.compliance.items.licensing.score,
+        this.data.compliance.items.licensing.maxScore);
+    }
+
+    if (this.data.infrastructure?.items?.audits) {
+      updateQuestionStatus('.step:nth-child(5)', 
+        this.data.infrastructure.items.audits.score,
+        this.data.infrastructure.items.audits.maxScore);
+    }
+
+    if (this.data.compliance?.items?.compliancePrograms) {
+      updateQuestionStatus('.step:nth-child(6)', 
+        this.data.compliance.items.compliancePrograms.score,
+        this.data.compliance.items.compliancePrograms.maxScore);
+    }
+
+    if (this.data.transparency?.items?.openSource) {
+      updateQuestionStatus('.step:nth-child(7)', 
+        this.data.transparency.items.openSource.score,
+        this.data.transparency.items.openSource.maxScore);
+    }
+  }
+}
+
+// Get custodian data from frontmatter
+const custodianData = {{ custodian | jsonify }};
+
+// Toggle between list and grid view for apps
+function toggleAppsView() {
+  const appsContainer = document.querySelector('.see-also');
+  const toggleButton = document.getElementById('viewToggle');
+  const toggleIcon = toggleButton.querySelector('i');
+  
+  if (appsContainer.classList.contains('list-view')) {
+    appsContainer.classList.remove('list-view');
+    appsContainer.classList.add('grid-view');
+    toggleIcon.classList.remove('fa-th-large');
+    toggleIcon.classList.add('fa-list');
+  } else {
+    appsContainer.classList.remove('grid-view');
+    appsContainer.classList.add('list-view');
+    toggleIcon.classList.remove('fa-list');
+    toggleIcon.classList.add('fa-th-large');
+  }
+}
+
+// Initialize scoring when DOM is loaded
+document.addEventListener('DOMContentLoaded', () => {
+  // Initialize OSINT toggle functionality
+  const osintToggle = document.querySelector('.toggle-osint');
+  if (osintToggle) {
+    osintToggle.addEventListener('click', () => {
+      const expanded = osintToggle.getAttribute('aria-expanded') === 'true';
+      osintToggle.setAttribute('aria-expanded', !expanded);
+      const list = document.querySelector('.osint-list');
+      if (list) {
+        list.classList.toggle('collapsed');
+      }
+    });
+  }
+
+  if (custodianData) {
+    const scorer = new CustodianScore(custodianData);
+    scorer.updateUI();
+  }
+});
+
+// Add event listener for incident list toggle
+document.addEventListener('DOMContentLoaded', () => {
+  const toggleIncidents = document.querySelector('.toggle-incidents');
+  const incidentList = document.querySelector('#incident-list');
+  
+  if (toggleIncidents && incidentList) {
+    // Ensure collapsed state on load
+    incidentList.classList.add('collapsed');
+    toggleIncidents.setAttribute('aria-expanded', 'false');
+    toggleIncidents.querySelector('.show-text').style.display = 'inline';
+    toggleIncidents.querySelector('.hide-text').style.display = 'none';
+    
+    toggleIncidents.addEventListener('click', () => {
+      incidentList.classList.toggle('collapsed');
+      const isExpanded = !incidentList.classList.contains('collapsed');
+      toggleIncidents.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
+      toggleIncidents.querySelector('.show-text').style.display = isExpanded ? 'none' : 'inline';
+      toggleIncidents.querySelector('.hide-text').style.display = isExpanded ? 'inline' : 'none';
+    });
+  }
+});
+</script>
+
+<!-- {% include review/custodianScoring.html %} -->
