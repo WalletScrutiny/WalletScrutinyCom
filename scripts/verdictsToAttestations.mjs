@@ -57,7 +57,7 @@ async function parseFile(filePath, folderName) {
                 version = currentTestResults.apkVersionName;
                 appHash = currentTestResults.appHash;
             } else {
-                console.error('********************  Skipping current test result due to missing appHash and appHashes:', currentTestResults);
+                console.debug('********************  Skipping current test result due to missing appHash and appHashes:', currentTestResults);
             }
         }
 
@@ -99,6 +99,34 @@ async function parseFile(filePath, folderName) {
             }
         }
 
+        // Create events for each review in reviewArchive
+        if (data.reviewArchive && data.reviewArchive.length > 0) {
+            for (const [index, review] of [...data.reviewArchive].reverse().entries()) {
+                console.log(`\nAppId: ${appId} - Review #${data.reviewArchive.length - index}:`);
+                console.log('  Date:', review.date);
+                console.log('  Version:', review.version);
+                console.log('  Verdict:', review.verdict);
+
+                if (!review.appHashes || review.appHashes.length === 0) {
+                    console.log('  --------------------------------------------------------------  No appHashes found');
+                    continue;
+                }
+                if (review.appHashes) {
+                    console.log('  AppHashes:');
+                    review.appHashes.forEach(hash => console.log('    -', hash));
+                }
+
+                await createNostrEvents({
+                    sha256: review.appHashes[0],     // TODO: ¿más de uno como en nunchuk?
+                    appId,
+                    version: review.version,
+                    platform: folderName,
+                    name: folderName === 'android' ? "Google Play extracted apk" : "Binary obtained from the manufacturer's website",
+                    content: review.gitRevision ? `Legacy verification by WalletScrutiny (${review.date}). See details <a target="_blank" href="https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/${review.gitRevision}/_${folderName}/${appId}.md">here</a>.` : '',
+                    status: review.verdict
+                });
+            }
+        }
 
         if (!appHash || !version || !data.title || !data.verdict || !folderName || !contentAfterYaml) {
             console.error(`     Not enough information to create nostr event for ${appId}:`);
@@ -121,15 +149,14 @@ async function parseFile(filePath, folderName) {
                 appId,
                 version,
                 platform: folderName,
-                name: "Google Play extracted apk",
+                name: folderName === 'android' ? "Google Play extracted apk" : "Binary obtained from the manufacturer's website",
                 content: contentAfterYaml,
-                status: status,
-                attestationCreatedAt: data.date
+                status: status
             });
         }
 
     } catch (error) {
-        console.error(`Error parsing file ${filePath}: ${error.message}`);
+        console.error(`**************************************************\n Error parsing file ${filePath}: ${error.message}\n**************************************************`);
     }
 }
 
@@ -140,8 +167,7 @@ async function createNostrEvents({
     platform,
     name,
     content,
-    status,
-    attestationCreatedAt = null
+    status
 }) {
     console.log('   ----------------------------------------------------------------\n    Nostr events will be created with this data:\n   ----------------------------------------------------------------', {
         sha256,
@@ -150,8 +176,7 @@ async function createNostrEvents({
         platform,
         name,
         content,
-        status,
-        attestationCreatedAt
+        status
     });
 
     console.log('   ----------------------------------------------------------------\n    Creating asset registration...\n   ----------------------------------------------------------------');
@@ -160,8 +185,7 @@ async function createNostrEvents({
         appId,
         version,
         platform,
-        name,
-        createdAt: attestationCreatedAt
+        name
     });
     await new Promise(resolve => setTimeout(resolve, 300));
 
@@ -172,8 +196,7 @@ async function createNostrEvents({
         sha256,
         content,
         status,
-        assetEventId,
-        createdAt: attestationCreatedAt
+        assetEventId
     });
     await new Promise(resolve => setTimeout(resolve, 300));
 }
