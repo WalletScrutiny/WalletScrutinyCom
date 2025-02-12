@@ -670,6 +670,102 @@
   </div>
 </div>
 
+<!-- OSINT Information -->
+<div class="step developer">
+  <i class="fas fa-search circle osint"></i>
+  <div class="title">
+    <h3>OSINT - What are the news, social media rumors, circulating on social media that may affect the operations of the custodian?</h3>
+    <div class="textbox">
+      {% if custodian.osint and custodian.osint.entries %}
+        <div class="osint-summary">{{ custodian.osint.summary }}</div>
+        
+        <div class="osint-entries">
+          {% for entry in custodian.osint.entries %}
+          <div class="entry">
+            <div class="information">{{ entry.information }}</div>
+            {% if entry.date %}
+              <div class="date"><i class="fas fa-calendar"></i> {{ entry.date }}</div>
+            {% endif %}
+            {% if entry.source or entry.source_url %}
+              <div class="source-group">
+                <span class="source-label">Source:</span>
+                <span class="source-content">
+                  {% if entry.source and entry.source_url %}
+                    <a href="{{ entry.source_url }}" target="_blank" rel="noopener noreferrer">{{ entry.source }}</a>
+                  {% elsif entry.source %}
+                    {{ entry.source }}
+                  {% endif %}
+                </span>
+              </div>
+            {% endif %}
+            {% if entry.corroborating_source or entry.corroborating_source_url %}
+              <div class="corroborating-source-group">
+                <span class="corroborating-label">Corroborating Source:</span>
+                <span class="corroborating-content">
+                  {% if entry.corroborating_source and entry.corroborating_source_url %}
+                    <a href="{{ entry.corroborating_source_url }}" target="_blank" rel="noopener noreferrer">{{ entry.corroborating_source }}</a>
+                  {% elsif entry.corroborating_source %}
+                    {{ entry.corroborating_source }}
+                  {% endif %}
+                </span>
+              </div>
+            {% endif %}
+            {% if entry.refuting or entry.refuting_source_url %}
+              <div class="refuting-group">
+                <span class="refuting-content">
+                  {% if entry.refuting %}
+                    <span class="refuting-label">Refuting: </span>{{ entry.refuting }}
+                    {% if entry.refuting_source_url %}
+                      <a href="{{ entry.refuting_source_url }}" target="_blank" rel="noopener noreferrer" class="refuting-link"><i class="fas fa-external-link-alt"></i></a>
+                    {% endif %}
+                  {% endif %}
+                </span>
+              </div>
+            {% endif %}
+            {% if entry.comment %}
+              <div class="comment"><em>{{ entry.comment }}</em></div>
+            {% endif %}
+          </div>
+          {% endfor %}
+        </div>
+
+        {% if custodian.osint.entries.size > 1 %}
+          <button class="toggle-osint" aria-expanded="false">
+            <i class="fas fa-chevron-down"></i>
+            <span class="show-text">Show More</span>
+            <span class="hide-text">Show Less</span>
+          </button>
+          
+          <div class="osint-list collapsed">
+            {% for entry in custodian.osint.entries offset:1 %}
+              <div class="entry">
+                <div class="information">{{ entry.information }}</div>
+                {% if entry.source_url %}
+                  <div class="source"><strong>Source:</strong> <a href="{{ entry.source_url }}" target="_blank" rel="noopener noreferrer">{{ entry.source_url }}</a></div>
+                {% endif %}
+                {% if entry.corroborating_source_url %}
+                  <div class="corroborating-source"><strong>Corroborating Source:</strong> <a href="{{ entry.corroborating_source_url }}" target="_blank" rel="noopener noreferrer">{{ entry.corroborating_source_url }}</a></div>
+                {% endif %}
+                {% if entry.refutation %}
+                  <div class="refutation"><strong>Refutation:</strong> {{ entry.refutation }}</div>
+                  {% if entry.refutation_source_url %}
+                    <div class="refutation-source"><strong>Refutation Source:</strong> <a href="{{ entry.refutation_source_url }}" target="_blank" rel="noopener noreferrer">{{ entry.refutation_source_url }}</a></div>
+                  {% endif %}
+                {% endif %}
+                {% if entry.comment %}
+                  <div class="comment"><strong>Comment:</strong> {{ entry.comment }}</div>
+                {% endif %}
+              </div>
+            {% endfor %}
+          </div>
+        {% endif %}
+      {% else %}
+        <p>No OSINT information available.</p>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
 <!-- Add any final or “seeAlso” blocks if needed -->
 
 <!-- STYLES: merged from your old partials to preserve the vertical timeline -->
@@ -677,6 +773,169 @@
 
 .fa-info-circle {
   color: var(--neutral-2);
+}
+
+.circle.osint {
+  background: #1a365d;
+}
+
+.osint-summary {
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.osint-entries .entry {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+.osint-entries .entry:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.osint-entries .information {
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.osint-entries .date {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  margin-bottom: 0.75rem;
+}
+
+.osint-entries .date i {
+  margin-right: 0.25rem;
+}
+
+.osint-entries .source-group,
+.osint-entries .corroborating-source-group,
+.osint-entries .refuting-group {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.osint-entries .source-label,
+.osint-entries .corroborating-label {
+  color: var(--text-muted);
+  min-width: 80px;
+  flex-shrink: 0;
+  font-weight: bold;
+}
+
+.osint-entries .refuting-label {
+  color: #212529;
+  font-weight: bold;
+  min-width: 80px;
+  flex-shrink: 0;
+}
+
+.osint-entries .source-content,
+.osint-entries .corroborating-content {
+  color: #212529;
+  word-break: break-word;
+}
+
+.osint-entries .refuting-content {
+  color: #198754;
+  word-break: break-word;
+}
+
+.osint-entries .source-content a,
+.osint-entries .corroborating-content a {
+  display: inline-block;
+  color: #198754;
+  text-decoration: underline;
+}
+
+.osint-entries .source-content a:hover,
+.osint-entries .corroborating-content a:hover {
+  text-decoration: underline;
+  color: #198754;
+}
+
+.osint-entries .refuting-content {
+  margin-top: 0.5rem;
+  color: #198754;
+}
+
+.osint-entries .refuting-link {
+  display: inline-block;
+  color: #198754;
+  margin-left: 0.5rem;
+  text-decoration: none;
+}
+
+.osint-entries .refuting-link:hover {
+  color: #157347;
+}
+
+.osint-entries .comment {
+  font-size: 0.9rem;
+  margin-top: 1rem;
+  color: var(--text-muted);
+  font-style: italic;
+  line-height: 1.4;
+}
+
+.osint-list {
+  margin-top: 1rem;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.osint-list.collapsed {
+  max-height: 0;
+}
+
+.osint-list:not(.collapsed) {
+  max-height: 1000px;
+}
+
+.toggle-osint {
+  background: none;
+  border: none;
+  color: var(--text);
+  padding: 0.5rem 0;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.toggle-osint i {
+  transition: transform 0.2s ease;
+}
+
+.toggle-osint[aria-expanded="true"] i {
+  transform: rotate(180deg);
+}
+
+.toggle-osint .show-text {
+  display: inline;
+}
+
+.toggle-osint .hide-text {
+  display: none;
+}
+
+.toggle-osint[aria-expanded="true"] .show-text {
+  display: none;
+}
+
+.toggle-osint[aria-expanded="true"] .hide-text {
+  display: inline;
 }
 
 
@@ -1861,6 +2120,19 @@ function toggleAppsView() {
 
 // Initialize scoring when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
+  // Initialize OSINT toggle functionality
+  const osintToggle = document.querySelector('.toggle-osint');
+  if (osintToggle) {
+    osintToggle.addEventListener('click', () => {
+      const expanded = osintToggle.getAttribute('aria-expanded') === 'true';
+      osintToggle.setAttribute('aria-expanded', !expanded);
+      const list = document.querySelector('.osint-list');
+      if (list) {
+        list.classList.toggle('collapsed');
+      }
+    });
+  }
+
   if (custodianData) {
     const scorer = new CustodianScore(custodianData);
     scorer.updateUI();
