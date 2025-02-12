@@ -198,6 +198,21 @@ custodian:
       - "Withdrawal Whitelisting"
     customInfrastructure: true
     details: "They run their own servers with dedicated HSMs."
+
+  osint:
+    summary: 
+    entries:
+      - information: 
+        date: 
+        source: 
+        source_url: 
+        corroborating_source: 
+        corroborating_source_url: 
+        refuting: 
+        refuting_source_url: 
+        comment: 
+    source:
+    comment:
 ---
 
 Additional Information: 

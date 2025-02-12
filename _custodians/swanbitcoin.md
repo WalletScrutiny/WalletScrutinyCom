@@ -162,7 +162,7 @@ custodian:
         source: Udi Wertheimer on X
         source_url: https://x.com/udiWertheimer/status/1889427267765543377
         corroborating_source: In re Prime Core Technologies., et al. Case No. 23-11161
-        corroborating_source_url: https://cases.stretto.com/public/X274/12452/PLEADINGS/1245202052580000000223.pdf
+        corroborating_source_url: https://archive.is/w7ePl
         refuting: This is a misreading of the filing. Swan is fighting a potentially bad precedent being set in courts for trust company bankruptcy. Swan had a small amount of funds held back relating to a reserve account that did not affect clients. All clients are whole and have custody with Bakkt, BitGo, or Equity Trust. Swan does not hold and has not ever held client funds. Most Bitcoin purchased using Swan has been withdrawn to self custody.
         refuting_source_url: https://x.com/SwanBitcoin/status/1889445388437840148
         comment: This development raises concerns about customer funds and Swan's custody arrangements
