@@ -676,21 +676,22 @@
   <div class="title">
     <h3>OSINT - What are the news, social media rumors, circulating on social media that may affect the operations of the custodian?</h3>
     <div class="textbox">
-      {% if custodian.osint and custodian.osint.entries %}
-        {% assign has_info = false %}
+      {% assign has_info = false %}
+      {% if custodian.osint and custodian.osint.entries and custodian.osint.entries.size > 0 %}
         {% for entry in custodian.osint.entries %}
-          {% if entry.information != blank %}
+          {% assign info = entry.information | strip %}
+          {% if info != "" and info != nil %}
             {% assign has_info = true %}
             {% break %}
           {% endif %}
         {% endfor %}
+      {% endif %}
 
-        {% if has_info %}
+      {% if has_info %}
+        <div class="osint-entries">
           <div class="osint-summary">{{ custodian.osint.summary }}</div>
-          
-          <div class="osint-entries">
-            {% for entry in custodian.osint.entries %}
-              {% if entry.information != blank %}
+          {% for entry in custodian.osint.entries %}
+            {% if entry.information != blank %}
                 <div class="entry">
                   <div class="information">{{ entry.information }}</div>
                   {% if entry.date %}
@@ -742,62 +743,61 @@
                 </div>
               {% endif %}
             {% endfor %}
-          </div>
+        </div>
           
-          {% if custodian.osint.entries.size > 1 %}
-            <button class="toggle-osint" aria-expanded="false">
-              <i class="fas fa-chevron-down"></i>
-              <span class="show-text">Show More</span>
-              <span class="hide-text">Show Less</span>
-            </button>
+        {% if custodian.osint.entries.size > 1 %}
+          <button class="toggle-osint" aria-expanded="false">
+            <i class="fas fa-chevron-down"></i>
+            <span class="show-text">Show More</span>
+            <span class="hide-text">Show Less</span>
+          </button>
 
-            <div class="osint-list collapsed">
-              {% for entry in custodian.osint.entries offset:1 %}
-                {% if entry.information != blank %}
-                  <div class="entry">
-                    <div class="information">{{ entry.information }}</div>
-                    
-                    {% if entry.source_url %}
-                      <div class="source"><strong>Source:</strong> 
-                        <a href="{{ entry.source_url }}" target="_blank" rel="noopener noreferrer">
-                          {{ entry.source_url }}
+          <div class="osint-list collapsed">
+            {% for entry in custodian.osint.entries offset:1 %}
+              {% if entry.information != blank %}
+                <div class="entry">
+                  <div class="information">{{ entry.information }}</div>
+                  
+                  {% if entry.source_url %}
+                    <div class="source"><strong>Source:</strong> 
+                      <a href="{{ entry.source_url }}" target="_blank" rel="noopener noreferrer">
+                        {{ entry.source_url }}
+                      </a>
+                    </div>
+                  {% endif %}
+                  
+                  {% if entry.corroborating_source_url %}
+                    <div class="corroborating-source"><strong>Corroborating Source:</strong> 
+                      <a href="{{ entry.corroborating_source_url }}" target="_blank" rel="noopener noreferrer">
+                        {{ entry.corroborating_source_url }}
+                      </a>
+                    </div>
+                  {% endif %}
+                  
+                  {% if entry.refutation %}
+                    <div class="refutation">
+                      <strong>Refutation:</strong> {{ entry.refutation }}
+                    </div>
+                    {% if entry.refutation_source_url %}
+                      <div class="refutation-source">
+                        <strong>Refutation Source:</strong> 
+                        <a href="{{ entry.refutation_source_url }}" target="_blank" rel="noopener noreferrer">
+                          {{ entry.refutation_source_url }}
                         </a>
                       </div>
                     {% endif %}
-                    
-                    {% if entry.corroborating_source_url %}
-                      <div class="corroborating-source"><strong>Corroborating Source:</strong> 
-                        <a href="{{ entry.corroborating_source_url }}" target="_blank" rel="noopener noreferrer">
-                          {{ entry.corroborating_source_url }}
-                        </a>
-                      </div>
-                    {% endif %}
-                    
-                    {% if entry.refuting %}
-                      <div class="refutation">
-                        <strong>Refutation:</strong> {{ entry.refuting }}
-                      </div>
-                      {% if entry.refuting_source_url %}
-                        <div class="refutation-source">
-                          <strong>Refutation Source:</strong> 
-                          <a href="{{ entry.refuting_source_url }}" target="_blank" rel="noopener noreferrer">
-                            {{ entry.refuting_source_url }}
-                          </a>
-                        </div>
-                      {% endif %}
-                    {% endif %}
-                    
-                    {% if entry.comment %}
-                      <div class="comment"><strong>Comment:</strong> {{ entry.comment }}</div>
-                    {% endif %}
-                  </div>
-                {% endif %}
-              {% endfor %}
-            </div>
-          {% endif %}
+                  {% endif %}
+                  
+                  {% if entry.comment %}
+                    <div class="comment"><strong>Comment:</strong> {{ entry.comment }}</div>
+                  {% endif %}
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
         {% endif %}
       {% else %}
-        <p>No OSINT information available.</p>
+        <div style="text-align: center; padding: 20px; background-color: #f0f2f5; border-radius: 4px;">No OSINT Information Available</div>
       {% endif %}
     </div>
   </div>
@@ -918,6 +918,13 @@
 }
 
 .osint-entries .comment {
+  font-size: 0.9rem;
+}
+
+.textbox .no-info {
+  color: var(--text-muted);
+  font-style: italic;
+  margin: 1rem 0;
   font-size: 0.9rem;
   margin-top: 1rem;
   color: var(--text-muted);
