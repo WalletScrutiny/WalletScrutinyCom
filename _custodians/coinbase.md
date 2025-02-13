@@ -208,8 +208,8 @@ custodian:
         source_url: 
         corroborating_source: 
         corroborating_source_url: 
-        refuting: 
-        refuting_source_url: 
+        refutation: 
+        refutation_source_url: 
         comment: 
     source:
     comment:

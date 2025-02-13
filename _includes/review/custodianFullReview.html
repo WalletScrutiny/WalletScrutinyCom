@@ -723,13 +723,13 @@
                     </div>
                   {% endif %}
                   
-                  {% if entry.refuting or entry.refuting_source_url %}
-                    <div class="refuting-group">
-                      <span class="refuting-content">
-                        {% if entry.refuting %}
-                          <span class="refuting-label">Refutation: </span>{{ entry.refuting }}
-                          {% if entry.refuting_source_url %}
-                            <a href="{{ entry.refuting_source_url }}" target="_blank" rel="noopener noreferrer" class="refuting-link"><i class="fas fa-external-link-alt"></i></a>
+                  {% if entry.refutation or entry.refutation_source_url %}
+                    <div class="refutation-group">
+                      <span class="refutation-content">
+                        {% if entry.refutation %}
+                          <span class="refutation-label">Refutation: </span>{{ entry.refutation }}
+                          {% if entry.refutation_source_url %}
+                            <a href="{{ entry.refutation_source_url }}" target="_blank" rel="noopener noreferrer" class="refutation-link"><i class="fas fa-external-link-alt"></i></a>
                           {% endif %}
                         {% endif %}
                       </span>
@@ -853,7 +853,7 @@
 
 .osint-entries .source-group,
 .osint-entries .corroborating-source-group,
-.osint-entries .refuting-group {
+.osint-entries .refutation-group {
   display: flex;
   align-items: baseline;
   gap: 0.75rem;
@@ -870,7 +870,7 @@
   font-weight: bold;
 }
 
-.osint-entries .refuting-label {
+.osint-entries .refutation-label {
   color: #212529;
   font-weight: bold;
   min-width: 80px;
@@ -883,7 +883,7 @@
   word-break: break-word;
 }
 
-.osint-entries .refuting-content {
+.osint-entries .refutation-content {
   color: #198754;
   word-break: break-word;
 }
@@ -901,19 +901,19 @@
   color: #198754;
 }
 
-.osint-entries .refuting-content {
+.osint-entries .refutation-content {
   margin-top: 0.5rem;
   color: #198754;
 }
 
-.osint-entries .refuting-link {
+.osint-entries .refutation-link {
   display: inline-block;
   color: #198754;
   margin-left: 0.5rem;
   text-decoration: none;
 }
 
-.osint-entries .refuting-link:hover {
+.osint-entries .refutation-link:hover {
   color: #157347;
 }
 

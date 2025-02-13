@@ -206,7 +206,7 @@ custodian:
         source_url: https://www.reuters.com/technology/french-investigators-open-money-laundering-probe-against-crypto-platform-binance-2025-01-28/
         corroborating_source: 
         corroborating_source_url: 
-        refuting: Binance denies the allegations and states it will fight the charges.
-        refuting_source_url: https://www.binance.com/en/square/post/19694704559514
+        refutation: Binance denies the allegations and states it will fight the charges.
+        refutation_source_url: https://www.binance.com/en/square/post/19694704559514
         comment: This development raises concerns about the extent of Binance's legal woes.
 ---
