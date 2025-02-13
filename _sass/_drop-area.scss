@@ -1,4 +1,4 @@
-#drop-area {
+.drop-areas {
     font-size: 17px;
     border: 2px dashed #ccc;
     border-radius: 20px;
@@ -28,14 +28,9 @@
   
     #file-list {
       text-align: left;
-  
-      #redirect-button {
-        text-align: center;
-      }
     }
   
-    #file-info,
-    #app-data {
+    #file-info {
       font-size: 15px;
   
       h3 {
@@ -52,7 +47,7 @@
       border-color: purple;
     }
   
-    #app-data .verdict {
+    #file-info .verdict {
       font-weight: bold;
       text-decoration: underline;
       padding: 2px 5px;

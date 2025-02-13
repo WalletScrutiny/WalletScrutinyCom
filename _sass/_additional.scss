@@ -182,7 +182,7 @@
 
 .page__inner-wrap {
   &:not(.home) {
-    max-width: 860px;
+    max-width: 100%;
   }
   margin: auto !important;
   float: unset !important;

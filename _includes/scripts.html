@@ -3,8 +3,10 @@
 <script type="text/javascript" src="{{ base_path }}/assets/js/color-thief.umd.js"></script>
 {% if page.layout contains "review" %}
 <script type="text/javascript" src="{{ base_path }}/assets/js/review.js"></script>
+<script type="text/javascript" src="{{'/dist/attestation.bundle.min.js' | relative_url }}"></script>
 {% endif %}
 {% if page.url == "/" %}
+<script type="text/javascript" src="{{'/dist/attestation.bundle.min.js' | relative_url }}"></script>
 <script type="text/javascript" src="{{ base_path }}/assets/js/ui-components.js"></script>
 <script type="text/javascript" src="{{ base_path }}/assets/js/landingPageWalletGrid.js"></script>
 {% endif %}

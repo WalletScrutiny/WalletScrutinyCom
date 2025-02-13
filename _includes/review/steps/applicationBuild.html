@@ -6,37 +6,73 @@
   {% endif %}
   <div class="title">
     <h3>Application build</h3>
-    <p>
-      {% assign v=site.data.verdicts[page.verdict] %}
-      {{ v.message }}
+
+    {% if page.repository %}
       {% if page.issue %}
-       <br><a href="{{page.issue}}">See the last Issue we created</a>.
+        <p>
+          <br><a href="{{page.issue}}">See the last Issue we created</a>.
+        </p>
       {% endif %}
-    </p>
-    <a class="" href="#result">See test result</a>
-  </div>
-  <div class="data">
-    {% if page.date %}
-    <span>
-      {{'Tested '}}
-      <span class="calculate-time-elapsed" data="{{ page.date | date: '%s' }}">
-        {{ page.date | date_to_long_string: "ordinal" }}
-      </span>
-    </span>
+      <a class="legacyInfo" href="#result">See test result</a>
+      <script>const pageVerdict = '{{page.verdict}}'</script>
+
+      <div id="appsTable" style="margin-top: 1em;"></div>
+
+      {% include getOldInfo.md %}
+
+      <p>If you have a binary for <b>a version that is not tested yet</b>, you can drop the file here to register it so somebody can verify its reproducibility:</p>
+      <div style="margin-top: 1em; margin-bottom: 1em; margin-left: 0;">
+        {% include /attestations/dragAndDropArea.html buttonMessage="Drop binary file to verify" %}
+      </div>
+
+      <p id="attestationMessage"></p>
+
+      <div style="margin-top: 4px; display: none;" id="createAttestationButton">
+        <a href="/new_asset/?appId={{page.appId}}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">Try to reproduce</a>
+      </div>
+
+      <div id="attestationModal">
+        <span id="closeModal">&times;</span>
+        <div id="attestationContent"></div>
+      </div>
+
+      <script>
+        window.onload = async () => {
+          await nostrConnect();
+          const attestationsInfo = await renderAssetsTable({
+            htmlElementId: 'appsTable',
+            appId: '{{ page.appId }}',
+            hideConfig: { wallet: true },
+            showOnlyRows: 5,
+            sortByVersion: true
+          });
+
+          if (!attestationsInfo.hasBinaries && !attestationsInfo.hasLegacyBinaries) {
+            document.getElementById('appsTable').style.display = 'none';
+            document.getElementById('createAttestationButton').style.display = 'block';
+          }
+
+          if (!attestationsInfo.hasBinaries && attestationsInfo.hasLegacyBinaries) {
+            if (pageVerdict === 'reproducible') {
+              document.getElementById('attestationMessage').innerHTML = "This application is reproducible. You can create an asset for a newer version so somebody can verify it.";
+            } else if (pageVerdict === 'nonverifiable') {
+              document.getElementById('attestationMessage').innerHTML = "Nobody could reproduce this application successfully. Do you like to try? Drop the binary file there to register the asset automatically (preferred), or click the button below to register the asset manually.";
+            } else if (pageVerdict === 'wip') {
+              document.getElementById('attestationMessage').innerHTML = "Nobody tried to build this application to check if it's reproducible. Do you like to be the first? Drop the binary file there to register the asset automatically (preferred), or click the button below to register the asset manually.";
+            } else if (pageVerdict === 'fewusers') {
+              document.getElementById('attestationMessage').innerHTML = "Nobody could reproduce this application successfully. Do you like to try? Drop the binary file there to register the asset automatically (preferred), or click the button below to register the asset manually.";
+            }
+          }
+
+          if (!attestationsInfo.hasBinaries) {
+            document.querySelector('.legacyInfo').style.display = 'block';
+          } else {
+            document.querySelector('.legacyInfo').style.display = 'none';
+          }
+        };
+      </script>
+    {% else %}
+      <small>Build cannot be done because the source code is not publicly available.</small>
     {% endif %}
-  </div>
-  {% if page.tooltip.verdict %}
-    {% assign exists = 'exists' %}
-  {% endif %}
-  <div class="tooltip-element {{exists}}">
-    <i class="info-circle">
-      <span class="i-info-circle-green"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
-    </i>
-  {% if page.tooltip.verdict %}
-    <div class="tooltip-payload">
-      <h3></h3>
-      {{ page.tooltip.verdict | markdownify }}
-    </div>
-  {% endif %}
   </div>
 </div>
