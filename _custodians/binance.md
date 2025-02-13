@@ -198,17 +198,15 @@ custodian:
     details: "Binance operates its own servers and implements real-time risk monitoring. Private keys for the majority of funds are secured via cold storage with multi-signature setups."
 
   osint:
-    summary: 
+    summary: Recent developments and community discussions about Binance's operations and services.
     entries:
-      - information: 
-        date: 
-        source: 
-        source_url: 
+      - information: French investigators launch money laundering probe against Binance
+        date: 2025-01-28
+        source: Reuters
+        source_url: https://www.reuters.com/technology/french-investigators-open-money-laundering-probe-against-crypto-platform-binance-2025-01-28/
         corroborating_source: 
         corroborating_source_url: 
-        refuting: 
-        refuting_source_url: 
-        comment: 
-    source:
-    comment:
+        refuting: Binance denies the allegations and states it will fight the charges.
+        refuting_source_url: https://www.binance.com/en/square/post/19694704559514
+        comment: This development raises concerns about the extent of Binance's legal woes.
 ---
