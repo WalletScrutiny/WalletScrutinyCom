@@ -19,10 +19,10 @@ repository:
 issue: 
 icon: xyz.mara.wallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-10-16
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: TheMARAverse

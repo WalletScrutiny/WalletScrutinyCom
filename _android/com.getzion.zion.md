@@ -19,10 +19,10 @@ repository:
 issue: 
 icon: com.getzion.zion.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-05-08
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: get_zion

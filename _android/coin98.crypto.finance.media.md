@@ -1,6 +1,6 @@
 ---
 wsId: coin98
-title: 'Coin98: Crypto & AI Wallet'
+title: Coin98 Super Wallet
 altTitle: 
 authors:
 - kiwilamb

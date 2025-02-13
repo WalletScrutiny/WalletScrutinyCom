@@ -19,10 +19,10 @@ repository:
 issue: 
 icon: com.cryptoex.dhanux.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-01-06
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: 

@@ -38,7 +38,7 @@ reviewArchive:
   gitRevision: 02efce0be192c630f747855adbd5b5f81661bf0a
   verdict: nonverifiable
 - date: 2019-12-28
-  version: 1.0
+  version: '1.0'
   appHashes: []
   gitRevision: 1237739e1756c97af5da425627da4b910c9aa00b
   verdict: nonverifiable

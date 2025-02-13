@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.globiance.iosapp.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-07-20
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: globiance

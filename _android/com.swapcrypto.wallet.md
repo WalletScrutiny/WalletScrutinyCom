@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.swapcrypto.wallet.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2023-12-01
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: 

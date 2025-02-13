@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: net.inoutscripts.demo.inoutblockchainfiatexchanger.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2024-03-07
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: 

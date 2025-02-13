@@ -19,10 +19,10 @@ repository:
 issue: 
 icon: io.trustverse.mars.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-11-12
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: TrustVerse

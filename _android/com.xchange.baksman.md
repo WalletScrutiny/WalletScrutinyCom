@@ -19,10 +19,10 @@ repository:
 issue: 
 icon: com.xchange.baksman.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2023-09-17
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: 

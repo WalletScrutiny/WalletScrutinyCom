@@ -3,14 +3,14 @@ wsId: bitcoinkeeper
 title: Bitcoin Keeper
 altTitle: 
 authors:
-- danny 
+- danny
 appId: io.hexawallet.keeper
 appCountry: us
 idd: '1545535925'
 released: '2022-10-19'
 updated: 2025-02-05
 version: 2.0.1
-stars: 4.73684
+stars: 4.7
 reviews: 19
 size: '54807552'
 website: https://www.bitcoinkeeper.app/
@@ -28,7 +28,7 @@ twitter: bitcoinKeeper_
 social:
 - https://www.youtube.com/channel/UCMqDNxbz16w8pxpmsa6s8GQ
 - https://www.linkedin.com/company/bithyve
-- https://t.me/bitcoinkeeper 
+- https://t.me/bitcoinkeeper
 features: 
 developerName: Bithyve
 

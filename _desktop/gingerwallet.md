@@ -24,5 +24,6 @@ social:
 - https://t.me/gingerwallet
 features:
 - coinjoin
+
 ---
 

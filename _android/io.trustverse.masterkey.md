@@ -19,10 +19,10 @@ repository:
 issue: 
 icon: io.trustverse.masterkey.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2024-11-13
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: SafestMasterKey

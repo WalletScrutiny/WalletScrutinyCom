@@ -19,10 +19,10 @@ repository:
 issue: 
 icon: com.munawallet.muna.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-10-28
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: munawallet

@@ -19,10 +19,10 @@ repository:
 issue: 
 icon: com.mchangeapps.mchange.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-02-28
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: 

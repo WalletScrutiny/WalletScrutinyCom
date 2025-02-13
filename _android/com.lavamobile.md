@@ -7,8 +7,8 @@ users: 500
 appId: com.lavamobile
 appCountry: 
 released: 2024-05-25
-updated: 2025-02-04
-version: 1.7.20
+updated: 2025-02-06
+version: 1.7.21
 stars: 
 ratings: 
 reviews: 

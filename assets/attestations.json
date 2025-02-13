@@ -13,6 +13,17 @@
   {
     "appId": "app.zeusln.zeus",
     "signer": "cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359",
+    "version": "0.9.5",
+    "verdict": "reproducible",
+    "appHashes": [
+      "19dcd62476f17e68a03b47a66cced8288689f4e162ef1b9f91300a27d2ce3957"
+    ],
+    "date": "2025-02-05",
+    "platform": "android"
+  },
+  {
+    "appId": "app.zeusln.zeus",
+    "signer": "cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359",
     "version": "0.9.4",
     "verdict": "reproducible",
     "appHashes": [
@@ -145,12 +156,12 @@
   {
     "appId": "app.zeusln.zeus",
     "signer": "cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359",
-    "version": "0.9.5",
+    "version": "0.9.6",
     "verdict": "",
     "appHashes": [
-      "19dcd62476f17e68a03b47a66cced8288689f4e162ef1b9f91300a27d2ce3957"
+      "db84dd4c1db67c2bfca707d648b159db6480ad1d5f1652b4db3b1d33bf2f3114"
     ],
-    "date": "2025-02-05",
+    "date": "2025-02-11",
     "platform": "android"
   },
   {

@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: io.kodular.yogeshmaurya72.PletoBNB.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
 appHashes: 
-date: 2024-04-02
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: 

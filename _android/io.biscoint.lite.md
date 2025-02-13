@@ -9,7 +9,7 @@ appId: io.biscoint.lite
 appCountry: 
 released: 2022-04-05
 updated: 2025-02-04
-version: 2.7.10
+version: 2.7.11
 stars: 4.8
 ratings: 
 reviews: 4

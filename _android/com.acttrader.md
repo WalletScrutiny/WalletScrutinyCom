@@ -8,8 +8,8 @@ users: 1000
 appId: com.acttrader
 appCountry: 
 released: 2021-12-29
-updated: 2025-01-15
-version: 2.2.31
+updated: 2025-02-10
+version: 2.2.34
 stars: 1.8
 ratings: 
 reviews: 8

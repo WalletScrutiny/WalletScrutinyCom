@@ -19,10 +19,10 @@ repository:
 issue: 
 icon: com.bankcomat.android_bankcomat.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2024-09-03
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: 

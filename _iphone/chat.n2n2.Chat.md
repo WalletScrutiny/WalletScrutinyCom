@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: chat.n2n2.Chat.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-07-17
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: get_zion

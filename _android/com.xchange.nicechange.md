@@ -19,10 +19,10 @@ repository:
 issue: 
 icon: com.xchange.nicechange.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-10-10
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: 

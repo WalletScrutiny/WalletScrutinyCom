@@ -12,7 +12,7 @@ updated: 2025-01-29
 version: 8.58.0
 stars: 4.4
 ratings: 
-reviews: 493
+reviews: 494
 size: 
 website: https://km.iqoption.com/en
 repository: 

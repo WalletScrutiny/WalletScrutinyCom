@@ -10,9 +10,9 @@ appCountry:
 released: 2023-05-04
 updated: 2025-01-24
 version: 1.9.0
-stars: 3.5
+stars: 3.7
 ratings: 
-reviews: 79
+reviews: 96
 size: 
 website: https://noones.com/
 repository: 

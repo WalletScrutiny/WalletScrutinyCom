@@ -3,7 +3,7 @@ wsId: bitcoinKeeper
 title: Bitcoin Keeper
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: io.hexawallet.bitcoinkeeper
 appCountry: UK
@@ -12,7 +12,7 @@ updated: 2025-02-05
 version: 2.0.0
 stars: 4.8
 ratings: 
-reviews: 3
+reviews: 
 size: 
 website: https://www.bitcoinkeeper.app/
 repository: https://github.com/bithyve/bitcoin-keeper

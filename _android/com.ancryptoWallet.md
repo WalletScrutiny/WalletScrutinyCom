@@ -34,7 +34,7 @@ social:
 - https://discord.com/invite/pN3NXfpJgF
 - https://www.youtube.com/@ancryptowallet
 redirect_from: 
-developerName: AnCrypto
+developerName: AWT Ltd
 features: 
 
 ---

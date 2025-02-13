@@ -19,10 +19,10 @@ repository:
 issue: 
 icon: com.streakk.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-09-21
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: streakkofficial

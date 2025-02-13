@@ -19,10 +19,10 @@ repository:
 issue: 
 icon: com.bucdev.bestforexbroker.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
 appHashes: 
-date: 2023-03-30
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: 

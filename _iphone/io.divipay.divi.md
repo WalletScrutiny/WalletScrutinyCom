@@ -18,10 +18,10 @@ repository:
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/366
 icon: io.divipay.divi.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-08-31
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: diviproject

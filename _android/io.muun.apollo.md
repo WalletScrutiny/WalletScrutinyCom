@@ -58,7 +58,7 @@ reviewArchive:
   gitRevision: eea48a17393717f715185a6874d3e9dc7ec7c0ed
   verdict: nonverifiable
 - date: 2021-10-09
-  version: 46.10
+  version: '46.10'
   appHashes:
   - e7504467c314b576f5f0c45eeb135396f4d771f976e886bc9b0e1111f1172ff8
   gitRevision: 0ad5c7d69a32e48712b94cb7d7572b122ad0e49c

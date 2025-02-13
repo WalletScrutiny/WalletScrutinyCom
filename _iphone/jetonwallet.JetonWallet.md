@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: jetonwallet.JetonWallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2021-09-03
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: jetonwallet

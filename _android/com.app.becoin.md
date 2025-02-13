@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.app.becoin.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2024-09-21
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: 

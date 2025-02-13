@@ -1,6 +1,6 @@
 ---
 wsId: bitpie
-title: Bitpie-Universal Crypto Wallet
+title: Bitpie Universal Crypto Wallet
 altTitle: 
 authors:
 - leo
@@ -8,8 +8,8 @@ appId: com.bitpie.wallet
 appCountry: 
 idd: 1481314229
 released: 2019-10-01
-updated: 2025-02-07
-version: 5.0.185
+updated: 2025-02-10
+version: 5.0.186
 stars: 3.3
 reviews: 276
 size: '175363072'

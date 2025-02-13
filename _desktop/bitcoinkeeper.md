@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Keeper Desktop
-appId: 
+appId: bitcoinkeeper
 authors:
 - danny
 released: 2024-02-17

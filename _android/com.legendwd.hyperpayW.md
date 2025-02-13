@@ -36,7 +36,7 @@ social:
 - https://www.facebook.com/hyperpayofficial
 redirect_from:
 - /com.legendwd.hyperpayW/
-developerName: LEGEND INTERNET SERVICES PTY LTD
+developerName: CIPHER BC PTE. LTD.
 features: 
 
 ---

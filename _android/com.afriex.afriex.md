@@ -1,6 +1,6 @@
 ---
 wsId: Afriex
-title: 'Afriex: Send & Receive Money'
+title: Afriex - Send Money Globally
 altTitle: 
 authors:
 - danny

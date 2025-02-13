@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.wadz.wadzapp.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-09-06
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: wadzpay

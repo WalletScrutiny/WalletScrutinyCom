@@ -8,11 +8,11 @@ appId: com.suffescom.jeangilles
 appCountry: us
 idd: '1642934824'
 released: 2022-09-16
-updated: 2024-11-26
-version: 1.6.0
+updated: 2025-02-12
+version: '1.7'
 stars: 3.7
 reviews: 15
-size: '16731136'
+size: '16763904'
 website: 
 repository: 
 issue: 

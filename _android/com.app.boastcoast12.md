@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.app.boastcoast12.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
 appHashes: 
-date: 2024-05-24
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: 

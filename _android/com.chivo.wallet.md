@@ -13,7 +13,7 @@ updated: 2024-11-25
 version: 3.0.0
 stars: 2.7
 ratings: 27085
-reviews: 14075
+reviews: 14079
 size: 
 website: https://www.chivowallet.com
 repository: 
