@@ -211,8 +211,6 @@ custodian:
         refutation: 
         refutation_source_url: 
         comment: 
-    source:
-    comment:
 ---
 
 Additional Information: 
