@@ -1,0 +1,27 @@
+name: Sync GitLab to GitHub
+
+on:
+  schedule:
+    - cron: '0 */12 * * *'  # Runs every 12 hours
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout GitHub repository
+        uses: actions/checkout@v4
+
+      - name: Set up Git
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "github-actions@github.com"
+      - name: Clone GitLab repository
+        run: |
+          git clone --mirror https://oauth2:${{ secrets.GITLAB_PAT }}@gitlab.com/walletscrutiny/walletScrutinyCom.git repo
+          cd repo
+          git remote set-url --push origin https://x-access-token:${{ secrets.GH_PAT }}@github.com/WalletScrutiny/WalletScrutinyCom.git
+          git fetch origin
+          git push --force --mirror
+      - name: Confirm Sync Completion
+        run: echo "Sync completed successfully!"
