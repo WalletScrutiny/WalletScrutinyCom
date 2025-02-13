@@ -163,8 +163,8 @@ custodian:
         source_url: https://x.com/udiWertheimer/status/1889427267765543377
         corroborating_source: In re Prime Core Technologies., et al. Case No. 23-11161
         corroborating_source_url: https://archive.is/w7ePl
-        refuting: This is a misreading of the filing. Swan is fighting a potentially bad precedent being set in courts for trust company bankruptcy. Swan had a small amount of funds held back relating to a reserve account that did not affect clients. All clients are whole and have custody with Bakkt, BitGo, or Equity Trust. Swan does not hold and has not ever held client funds. Most Bitcoin purchased using Swan has been withdrawn to self custody.
-        refuting_source_url: https://x.com/SwanBitcoin/status/1889445388437840148
+        refutation: This is a misreading of the filing. Swan is fighting a potentially bad precedent being set in courts for trust company bankruptcy. Swan had a small amount of funds held back relating to a reserve account that did not affect clients. All clients are whole and have custody with Bakkt, BitGo, or Equity Trust. Swan does not hold and has not ever held client funds. Most Bitcoin purchased using Swan has been withdrawn to self custody.
+        refutation_source_url: https://x.com/SwanBitcoin/status/1889445388437840148
         comment: This development raises concerns about customer funds and Swan's custody arrangements
       - information: Swan Bitcoin acquires Specter Solutions, expanding their self-custody hardware and software offerings
         date: 2023-06-20
@@ -172,7 +172,7 @@ custodian:
         source_url: https://bitcoinmagazine.com/business/swan-bitcoin-acquires-specter-solutions
         corroborating_source: Swan Bitcoin Official Announcement
         corroborating_source_url: https://twitter.com/SwanBitcoin/status/1671234567890
-        refuting: 
-        refuting_source_url: 
+        refutation: 
+        refutation_source_url: 
         comment: This acquisition strengthens Swan's position in the self-custody solutions market
 ---
