@@ -677,87 +677,124 @@
     <h3>OSINT - What are the news, social media rumors, circulating on social media that may affect the operations of the custodian?</h3>
     <div class="textbox">
       {% if custodian.osint and custodian.osint.entries %}
-        <div class="osint-summary">{{ custodian.osint.summary }}</div>
-        
-        <div class="osint-entries">
-          {% for entry in custodian.osint.entries %}
-          <div class="entry">
-            <div class="information">{{ entry.information }}</div>
-            {% if entry.date %}
-              <div class="date"><i class="fas fa-calendar"></i> {{ entry.date }}</div>
-            {% endif %}
-            {% if entry.source or entry.source_url %}
-              <div class="source-group">
-                <span class="source-label">Source:</span>
-                <span class="source-content">
-                  {% if entry.source and entry.source_url %}
-                    <a href="{{ entry.source_url }}" target="_blank" rel="noopener noreferrer">{{ entry.source }}</a>
-                  {% elsif entry.source %}
-                    {{ entry.source }}
-                  {% endif %}
-                </span>
-              </div>
-            {% endif %}
-            {% if entry.corroborating_source or entry.corroborating_source_url %}
-              <div class="corroborating-source-group">
-                <span class="corroborating-label">Corroborating Source:</span>
-                <span class="corroborating-content">
-                  {% if entry.corroborating_source and entry.corroborating_source_url %}
-                    <a href="{{ entry.corroborating_source_url }}" target="_blank" rel="noopener noreferrer">{{ entry.corroborating_source }}</a>
-                  {% elsif entry.corroborating_source %}
-                    {{ entry.corroborating_source }}
-                  {% endif %}
-                </span>
-              </div>
-            {% endif %}
-            {% if entry.refuting or entry.refuting_source_url %}
-              <div class="refuting-group">
-                <span class="refuting-content">
-                  {% if entry.refuting %}
-                    <span class="refuting-label">Refutation: </span>{{ entry.refuting }}
-                    {% if entry.refuting_source_url %}
-                      <a href="{{ entry.refuting_source_url }}" target="_blank" rel="noopener noreferrer" class="refuting-link"><i class="fas fa-external-link-alt"></i></a>
-                    {% endif %}
-                  {% endif %}
-                </span>
-              </div>
-            {% endif %}
-            {% if entry.comment %}
-              <div class="comment"><em>{{ entry.comment }}</em></div>
-            {% endif %}
-          </div>
-          {% endfor %}
-        </div>
+        {% assign has_info = false %}
+        {% for entry in custodian.osint.entries %}
+          {% if entry.information != blank %}
+            {% assign has_info = true %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
 
-        {% if custodian.osint.entries.size > 1 %}
-          <button class="toggle-osint" aria-expanded="false">
-            <i class="fas fa-chevron-down"></i>
-            <span class="show-text">Show More</span>
-            <span class="hide-text">Show Less</span>
-          </button>
+        {% if has_info %}
+          <div class="osint-summary">{{ custodian.osint.summary }}</div>
           
-          <div class="osint-list collapsed">
-            {% for entry in custodian.osint.entries offset:1 %}
-              <div class="entry">
-                <div class="information">{{ entry.information }}</div>
-                {% if entry.source_url %}
-                  <div class="source"><strong>Source:</strong> <a href="{{ entry.source_url }}" target="_blank" rel="noopener noreferrer">{{ entry.source_url }}</a></div>
-                {% endif %}
-                {% if entry.corroborating_source_url %}
-                  <div class="corroborating-source"><strong>Corroborating Source:</strong> <a href="{{ entry.corroborating_source_url }}" target="_blank" rel="noopener noreferrer">{{ entry.corroborating_source_url }}</a></div>
-                {% endif %}
-                {% if entry.refutation %}
-                  <div class="refutation"><strong>Refutation:</strong> {{ entry.refutation }}</div>
-                  {% if entry.refutation_source_url %}
-                    <div class="refutation-source"><strong>Refutation Source:</strong> <a href="{{ entry.refutation_source_url }}" target="_blank" rel="noopener noreferrer">{{ entry.refutation_source_url }}</a></div>
+          <div class="osint-entries">
+            {% for entry in custodian.osint.entries %}
+              {% if entry.information != blank %}
+                <div class="entry">
+                  <div class="information">{{ entry.information }}</div>
+                  {% if entry.date %}
+                    <div class="date"><i class="fas fa-calendar"></i> {{ entry.date }}</div>
                   {% endif %}
-                {% endif %}
-                {% if entry.comment %}
-                  <div class="comment"><strong>Comment:</strong> {{ entry.comment }}</div>
-                {% endif %}
-              </div>
+                  
+                  {% if entry.source or entry.source_url %}
+                    <div class="source-group">
+                      <span class="source-label">Source:</span>
+                      <span class="source-content">
+                        {% if entry.source and entry.source_url %}
+                          <a href="{{ entry.source_url }}" target="_blank" rel="noopener noreferrer">{{ entry.source }}</a>
+                        {% elsif entry.source %}
+                          {{ entry.source }}
+                        {% endif %}
+                      </span>
+                    </div>
+                  {% endif %}
+                  
+                  {% if entry.corroborating_source or entry.corroborating_source_url %}
+                    <div class="corroborating-source-group">
+                      <span class="corroborating-label">Corroborating Source:</span>
+                      <span class="corroborating-content">
+                        {% if entry.corroborating_source and entry.corroborating_source_url %}
+                          <a href="{{ entry.corroborating_source_url }}" target="_blank" rel="noopener noreferrer">{{ entry.corroborating_source }}</a>
+                        {% elsif entry.corroborating_source %}
+                          {{ entry.corroborating_source }}
+                        {% endif %}
+                      </span>
+                    </div>
+                  {% endif %}
+                  
+                  {% if entry.refuting or entry.refuting_source_url %}
+                    <div class="refuting-group">
+                      <span class="refuting-content">
+                        {% if entry.refuting %}
+                          <span class="refuting-label">Refutation: </span>{{ entry.refuting }}
+                          {% if entry.refuting_source_url %}
+                            <a href="{{ entry.refuting_source_url }}" target="_blank" rel="noopener noreferrer" class="refuting-link"><i class="fas fa-external-link-alt"></i></a>
+                          {% endif %}
+                        {% endif %}
+                      </span>
+                    </div>
+                  {% endif %}
+                  
+                  {% if entry.comment %}
+                    <div class="comment"><em>{{ entry.comment }}</em></div>
+                  {% endif %}
+                </div>
+              {% endif %}
             {% endfor %}
           </div>
+          
+          {% if custodian.osint.entries.size > 1 %}
+            <button class="toggle-osint" aria-expanded="false">
+              <i class="fas fa-chevron-down"></i>
+              <span class="show-text">Show More</span>
+              <span class="hide-text">Show Less</span>
+            </button>
+
+            <div class="osint-list collapsed">
+              {% for entry in custodian.osint.entries offset:1 %}
+                {% if entry.information != blank %}
+                  <div class="entry">
+                    <div class="information">{{ entry.information }}</div>
+                    
+                    {% if entry.source_url %}
+                      <div class="source"><strong>Source:</strong> 
+                        <a href="{{ entry.source_url }}" target="_blank" rel="noopener noreferrer">
+                          {{ entry.source_url }}
+                        </a>
+                      </div>
+                    {% endif %}
+                    
+                    {% if entry.corroborating_source_url %}
+                      <div class="corroborating-source"><strong>Corroborating Source:</strong> 
+                        <a href="{{ entry.corroborating_source_url }}" target="_blank" rel="noopener noreferrer">
+                          {{ entry.corroborating_source_url }}
+                        </a>
+                      </div>
+                    {% endif %}
+                    
+                    {% if entry.refuting %}
+                      <div class="refutation">
+                        <strong>Refutation:</strong> {{ entry.refuting }}
+                      </div>
+                      {% if entry.refuting_source_url %}
+                        <div class="refutation-source">
+                          <strong>Refutation Source:</strong> 
+                          <a href="{{ entry.refuting_source_url }}" target="_blank" rel="noopener noreferrer">
+                            {{ entry.refuting_source_url }}
+                          </a>
+                        </div>
+                      {% endif %}
+                    {% endif %}
+                    
+                    {% if entry.comment %}
+                      <div class="comment"><strong>Comment:</strong> {{ entry.comment }}</div>
+                    {% endif %}
+                  </div>
+                {% endif %}
+              {% endfor %}
+            </div>
+          {% endif %}
         {% endif %}
       {% else %}
         <p>No OSINT information available.</p>
@@ -765,6 +802,7 @@
     </div>
   </div>
 </div>
+
 
 <!-- Add any final or “seeAlso” blocks if needed -->
 
