@@ -10,7 +10,7 @@ custodian:
   crunchbaseUrl: "https://www.crunchbase.com/organization/coinbase"
   leadership:
     jurisdiction: 🇺🇸 "United States"
-    yearsInBusiness: "11"
+    yearsInBusiness: "13"
     ceo:
       name: "Brian Armstrong"
       position: "CEO, Co-founder and Chairman of the Board"
