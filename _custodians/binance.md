@@ -10,7 +10,7 @@ custodian:
   crunchbaseUrl: "https://www.crunchbase.com/organization/binance"
   leadership:
     jurisdiction: 🇰🇾 "Cayman Islands"
-    yearsInBusiness: "6"
+    yearsInBusiness: "8"
     ceo:
       name: "Richard Teng"
       position: "CEO"
