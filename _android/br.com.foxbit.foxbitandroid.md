@@ -1,36 +1,35 @@
 ---
-wsId: foxbitexchange
-title: Foxbit Exchange
+wsId: 'foxbitexchange'
+title: 'Foxbit Exchange'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 500000
-appId: br.com.foxbit.foxbitandroid
-appCountry: br
-released: 2019-01-28
+appId: 'br.com.foxbit.foxbitandroid'
+appCountry: 'br'
+released: '2019-01-28'
 updated: 2025-01-31
-version: 3.15.5
+version: '3.15.5'
 stars: 4.3
 ratings: 6740
 reviews: 6185
-size: 
-website: http://www.foxbit.com.br
+website: 'http://www.foxbit.com.br'
 repository: 
 issue: 
-icon: br.com.foxbit.foxbitandroid.png
+icon: 'br.com.foxbit.foxbitandroid.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-08-27
+date: '2021-08-27'
 signer: 
 reviewArchive: 
-twitter: foxbit
+twitter: 'foxbit'
 social:
-- https://www.linkedin.com/company/foxbit
-- https://www.facebook.com/foxbitcoin
+- 'https://www.linkedin.com/company/foxbit'
+- 'https://www.facebook.com/foxbitcoin'
 redirect_from: 
-developerName: Foxbit
+developerName: 'Foxbit'
 features: 
 
 ---

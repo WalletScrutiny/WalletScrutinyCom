@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: Dart Africa
+title: 'Dart Africa'
 altTitle: 
 authors: 
 users: 100
-appId: com.dartafrica
+appId: 'com.dartafrica'
 appCountry: 
-released: 2021-11-05
-updated: 2022-04-01
-version: 1.1.1
+released: '2021-11-05'
+updated: '2022-04-01'
+version: '1.1.1'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://dartafrica.io
+website: 'https://dartafrica.io'
 repository: 
 issue: 
-icon: com.dartafrica.png
+icon: 'com.dartafrica.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-06-21
+date: '2023-06-21'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: FLIP DIGITAL TECHNOLOGIES
+developerName: 'FLIP DIGITAL TECHNOLOGIES'
 features: 
 
 ---

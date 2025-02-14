@@ -3,9 +3,9 @@ title: Kevin Gislason Abacus DIY Hardware Wallet
 appId: kevingislason.abacus.diy
 authors:
 - danny
-released: 2019-10-23
+released: '2019-10-23'
 discontinued: 
-updated: 2021-03-15
+updated: '2021-03-15'
 version: 
 binaries: 
 dimensions: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: stale
 verdict: diy
 appHashes: 
-date: 2022-05-24
+date: '2022-05-24'
 signer: 
 reviewArchive: 
 twitter: 

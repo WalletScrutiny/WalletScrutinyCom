@@ -3,35 +3,35 @@ wsId:
 title: 'Monedero: Wallet Bitcoin, Ethe'
 altTitle: 
 authors:
-- leo
-- danny
+- 'leo'
+- 'danny'
 users: 5000
-appId: com.monederoapp
+appId: 'com.monederoapp'
 appCountry: 
-released: 2020-03-13
-updated: 2021-06-25
-version: 4.1.0
+released: '2020-03-13'
+updated: '2021-06-25'
+version: '4.1.0'
 stars: 3.7
 ratings: 
 reviews: 
 size: 
-website: https://www.monedero.com/
+website: 'https://www.monedero.com/'
 repository: 
 issue: 
-icon: com.monederoapp.png
+icon: 'com.monederoapp.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
-twitter: monederodotcom
+twitter: 'monederodotcom'
 social: 
 redirect_from:
-- /com.monederoapp/
-- /posts/com.monederoapp/
-developerName: Digital Assets Corporation
+- '/com.monederoapp/'
+- '/posts/com.monederoapp/'
+developerName: 'Digital Assets Corporation'
 features: 
 
 ---

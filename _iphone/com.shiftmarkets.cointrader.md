@@ -7,9 +7,9 @@ authors:
 appId: com.shiftmarkets.cointrader
 appCountry: gb
 idd: '1448372085'
-released: 2021-07-02
-updated: 2023-02-13
-version: 4.1.0
+released: '2021-07-02'
+updated: '2023-02-13'
+version: '4.1.0'
 stars: 0
 reviews: 0
 size: '37229568'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-12-19
+date: '2023-12-19'
 signer: 
 reviewArchive: 
 twitter: shiftmarkets

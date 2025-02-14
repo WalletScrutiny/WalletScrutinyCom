@@ -1,39 +1,38 @@
 ---
-wsId: buyucoin
+wsId: 'buyucoin'
 title: 'BuyUcoin: Bitcoin & Crypto App'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 100000
-appId: com.buyucoinApp.buyucoin
+appId: 'com.buyucoinApp.buyucoin'
 appCountry: 
-released: 2019-02-15
+released: '2019-02-15'
 updated: 2024-12-20
 version: '3.42'
 stars: 2.4
 ratings: 3529
 reviews: 12
-size: 
-website: https://www.buyucoin.com
+website: 'https://www.buyucoin.com'
 repository: 
 issue: 
-icon: com.buyucoinApp.buyucoin.png
+icon: 'com.buyucoinApp.buyucoin.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2024-12-23
+date: '2024-12-23'
 signer: 
 reviewArchive: 
-twitter: buyucoin
+twitter: 'buyucoin'
 social:
-- https://www.linkedin.com/company/buyucoin
-- https://www.facebook.com/BuyUcoin
-- https://www.reddit.com/r/BuyUcoin
+- 'https://www.linkedin.com/company/buyucoin'
+- 'https://www.facebook.com/BuyUcoin'
+- 'https://www.reddit.com/r/BuyUcoin'
 redirect_from:
-- /com.buyucoinApp.buyucoin/
-- /posts/com.buyucoinApp.buyucoin/
-developerName: Iblock Technologies Private Limited
+- '/com.buyucoinApp.buyucoin/'
+- '/posts/com.buyucoinApp.buyucoin/'
+developerName: 'Iblock Technologies Private Limited'
 features: 
 
 ---

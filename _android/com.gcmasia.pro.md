@@ -1,35 +1,34 @@
 ---
-wsId: gcmasiapro
-title: GCMAsia Pro
+wsId: 'gcmasiapro'
+title: 'GCMAsia Pro'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.gcmasia.pro
-appCountry: HK
-released: 2017-04-24
+appId: 'com.gcmasia.pro'
+appCountry: 'HK'
+released: '2017-04-24'
 updated: 2024-08-18
-version: 90.4.010
+version: '90.4.010'
 stars: 4
 ratings: 
 reviews: 
-size: 
-website: https://www.gcmasia.com
+website: 'https://www.gcmasia.com'
 repository: 
 issue: 
-icon: com.gcmasia.pro.png
+icon: 'com.gcmasia.pro.png'
 bugbounty: 
-meta: ok
-verdict: nosendreceive
+meta: 'ok'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2023-03-29
+date: '2023-03-29'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/GCMASIA.Forex.Trading.Platform
+- 'https://www.facebook.com/GCMASIA.Forex.Trading.Platform'
 redirect_from: 
-developerName: GCM Europe Ltd
+developerName: 'GCM Europe Ltd'
 features: 
 
 ---

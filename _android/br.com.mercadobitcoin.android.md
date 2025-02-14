@@ -3,34 +3,33 @@ wsId:
 title: 'MB | Mercado Bitcoin: criptos'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000000
-appId: br.com.mercadobitcoin.android
+appId: 'br.com.mercadobitcoin.android'
 appCountry: 
-released: 2019-07-25
+released: '2019-07-25'
 updated: 2025-02-08
-version: 2.50.0
+version: '2.51.0'
 stars: 4
 ratings: 51097
 reviews: 69
-size: 
-website: http://www.mercadobitcoin.com.br
+website: 'http://www.mercadobitcoin.com.br'
 repository: 
 issue: 
-icon: br.com.mercadobitcoin.android.png
+icon: 'br.com.mercadobitcoin.android.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-08-21
+date: '2021-08-21'
 signer: 
 reviewArchive: 
-twitter: MercadoBitcoin
+twitter: 'MercadoBitcoin'
 social:
-- https://www.linkedin.com/company/mercado-bitcoin
-- https://www.facebook.com/MercadoBitcoin
+- 'https://www.linkedin.com/company/mercado-bitcoin'
+- 'https://www.facebook.com/MercadoBitcoin'
 redirect_from: 
-developerName: MERCADO BITCOIN SERVICOS DIGITAIS LTDA
+developerName: 'MERCADO BITCOIN SERVICOS DIGITAIS LTDA'
 features: 
 
 ---

@@ -1438,7 +1438,7 @@
   {
     "appId": "de.schildbach.wallet",
     "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
-    "version": "10.2",
+    "version": "10.20",
     "verdict": "reproducible",
     "appHashes": [
       "9e859167b259383324d44b049e9310a0715bae2837db2582519f4012b4e27fcb"
@@ -1758,7 +1758,7 @@
   {
     "appId": "de.schildbach.wallet",
     "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
-    "version": "8",
+    "version": "8.0",
     "verdict": "reproducible",
     "appHashes": [
       "d4bf786409e0cef85a2179a721c5f9b63542d422d6297c76c000194b6c540566"
@@ -2806,7 +2806,7 @@
   {
     "appId": "io.muun.apollo",
     "signer": "",
-    "version": "46.1",
+    "version": "46.10",
     "verdict": "nonverifiable",
     "appHashes": [
       "e7504467c314b576f5f0c45eeb135396f4d771f976e886bc9b0e1111f1172ff8"

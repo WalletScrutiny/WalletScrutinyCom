@@ -1,38 +1,37 @@
 ---
-wsId: positionExchange
+wsId: 'positionExchange'
 title: 'Position Exchange: DEX & DeFi'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: position.exchange
+appId: 'position.exchange'
 appCountry: 
-released: 2022-07-27
+released: '2022-07-27'
 updated: 2023-03-20
-version: 3.0.1
+version: '3.0.1'
 stars: 4.7
 ratings: 
 reviews: 9
-size: 
-website: https://app.position.exchange
+website: 'https://app.position.exchange'
 repository: 
 issue: 
-icon: position.exchange.png
+icon: 'position.exchange.png'
 bugbounty: 
-meta: stale
-verdict: nobtc
+meta: 'stale'
+verdict: 'nobtc'
 appHashes: 
-date: 2024-03-15
+date: '2024-03-15'
 signer: 
 reviewArchive: 
-twitter: PositionEx
+twitter: 'PositionEx'
 social:
-- https://www.reddit.com/r/PositionExchange
-- https://discord.com/invite/FyBUQhxyV2
-- https://www.youtube.com/@PositionExchange
-- https://t.me/PositionExchange
+- 'https://www.reddit.com/r/PositionExchange'
+- 'https://discord.com/invite/FyBUQhxyV2'
+- 'https://www.youtube.com/@PositionExchange'
+- 'https://t.me/PositionExchange'
 redirect_from: 
-developerName: Position Labs
+developerName: 'Position Labs'
 features: 
 
 ---

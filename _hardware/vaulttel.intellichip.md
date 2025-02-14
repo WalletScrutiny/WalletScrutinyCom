@@ -3,7 +3,7 @@ title: Vaulttel Intellichip
 appId: vaulttel.intellichip
 authors:
 - danny
-released: 2019-03-05
+released: '2019-03-05'
 discontinued: 
 updated: 
 version: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: vapor
 appHashes: 
-date: 2022-05-19
+date: '2022-05-19'
 signer: 
 reviewArchive: 
 twitter: vaulttel

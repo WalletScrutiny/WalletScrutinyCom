@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: World Exchange
+title: 'World Exchange'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.exchangeworld.app
+appId: 'com.exchangeworld.app'
 appCountry: 
-released: 2022-08-02
-updated: 2022-12-01
-version: 1.1.24
+released: '2022-08-02'
+updated: '2022-12-01'
+version: '1.1.24'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: http://www.worldexchange.life
+website: 'http://www.worldexchange.life'
 repository: 
 issue: 
-icon: com.exchangeworld.app.png
+icon: 'com.exchangeworld.app.png'
 bugbounty: 
-meta: defunct
-verdict: custodial
+meta: 'defunct'
+verdict: 'custodial'
 appHashes: 
-date: 2023-08-30
+date: '2023-08-30'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: World exchange
+developerName: 'World exchange'
 features: 
 
 ---

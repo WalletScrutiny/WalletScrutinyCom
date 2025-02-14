@@ -1,15 +1,15 @@
 ---
 wsId: 
-title: Dormant Bitcoin Explorer
+title: 'Dormant Bitcoin Explorer'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.BlockchainExplorer.DormantBitcoinExplorer
+appId: 'com.BlockchainExplorer.DormantBitcoinExplorer'
 appCountry: 
-released: 2023-01-03
-updated: 2024-08-25
-version: 1.2.4
+released: '2023-01-03'
+updated: '2024-08-25'
+version: '1.2.4'
 stars: 3.5
 ratings: 
 reviews: 14
@@ -17,18 +17,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.BlockchainExplorer.DormantBitcoinExplorer.png
+icon: 'com.BlockchainExplorer.DormantBitcoinExplorer.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-09-16
+date: '2024-09-16'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Blockchain Explorer
+developerName: 'Blockchain Explorer'
 features: 
 
 ---

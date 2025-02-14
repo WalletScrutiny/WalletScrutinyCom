@@ -1,35 +1,35 @@
 ---
-wsId: Zipmex
+wsId: 'Zipmex'
 title: 'Zipmex: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000000
-appId: com.zipmex
-appCountry: cn
-released: 2020-03-30
-updated: 2022-07-20
-version: 22.7.3.644
+appId: 'com.zipmex'
+appCountry: 'cn'
+released: '2020-03-30'
+updated: '2022-07-20'
+version: '22.7.3.644'
 stars: 3.6
 ratings: 17923
 reviews: 11575
 size: 
-website: https://zipmex.co.th/
+website: 'https://zipmex.co.th/'
 repository: 
 issue: 
-icon: com.zipmex.png
+icon: 'com.zipmex.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-03-02
+date: '2024-03-02'
 signer: 
 reviewArchive: 
-twitter: ZipmexTH
+twitter: 'ZipmexTH'
 social:
-- https://www.facebook.com/ZipmexThailand
+- 'https://www.facebook.com/ZipmexThailand'
 redirect_from: 
-developerName: Zipmex
+developerName: 'Zipmex'
 features: 
 
 ---

@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: BTC Bank
+title: 'BTC Bank'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.application.btctr
+appId: 'com.application.btctr'
 appCountry: 
-released: 2022-03-18
-updated: 2022-04-30
-version: 1.0.3
+released: '2022-03-18'
+updated: '2022-04-30'
+version: '1.0.3'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://btc-bank.co/
+website: 'https://btc-bank.co/'
 repository: 
 issue: 
-icon: com.application.btctr.png
+icon: 'com.application.btctr.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2023-08-04
+date: '2023-08-04'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Btchange Journal
+developerName: 'Btchange Journal'
 features: 
 
 ---

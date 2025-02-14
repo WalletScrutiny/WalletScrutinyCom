@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: PaperBGS
+title: 'PaperBGS'
 altTitle: 
 authors: 
 users: 10
-appId: com.paperbgs.app
+appId: 'com.paperbgs.app'
 appCountry: 
-released: 2021-02-04
-updated: 2021-02-04
+released: '2021-02-04'
+updated: '2021-02-04'
 version: '1.9'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://paperbgs.com/
+website: 'https://paperbgs.com/'
 repository: 
 issue: 
-icon: com.paperbgs.app.jpg
+icon: 'com.paperbgs.app.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-04-03
+date: '2024-04-03'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: PaperBGS
+developerName: 'PaperBGS'
 features: 
 
 ---

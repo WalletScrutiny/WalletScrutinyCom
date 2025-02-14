@@ -3,7 +3,7 @@ title: PaperSafe Satoshinote
 appId: papersafe.satoshinote
 authors:
 - danny
-released: 2015-05-15
+released: '2015-05-15'
 discontinued: 
 updated: 
 version: 
@@ -22,7 +22,7 @@ icon: papersafe.satoshinote.png
 bugbounty: 
 meta: defunct
 verdict: prefilled
-date: 2022-05-19
+date: '2022-05-19'
 signer: 
 reviewArchive: 
 twitter: 

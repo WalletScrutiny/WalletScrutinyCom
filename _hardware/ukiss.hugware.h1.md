@@ -3,7 +3,7 @@ title: UKISS Hugware® H1
 appId: ukiss.hugware.h1
 authors:
 - danny
-released: 2022-06-20
+released: '2022-06-20'
 discontinued: 
 updated: 
 version: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: noita
 appHashes: 
-date: 2023-02-10
+date: '2023-02-10'
 signer: 
 reviewArchive: 
 twitter: UKISSTech

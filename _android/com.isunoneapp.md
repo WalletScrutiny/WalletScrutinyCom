@@ -3,32 +3,32 @@ wsId:
 title: 'iSunOne: USDC Card'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.isunoneapp
+appId: 'com.isunoneapp'
 appCountry: 
-released: 2022-03-10
-updated: 2024-09-04
-version: 4.0.55
+released: '2022-03-10'
+updated: '2024-09-04'
+version: '4.0.55'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: http://www.isun1.com
+website: 'http://www.isun1.com'
 repository: 
 issue: 
-icon: com.isunoneapp.png
+icon: 'com.isunoneapp.png'
 bugbounty: 
-meta: removed
-verdict: nobtc
+meta: 'removed'
+verdict: 'nobtc'
 appHashes: 
-date: 2025-02-04
+date: '2025-02-04'
 signer: 
 reviewArchive: 
-twitter: isunone1
+twitter: 'isunone1'
 social: 
 redirect_from: 
-developerName: TIDENET LIMITED
+developerName: 'TIDENET LIMITED'
 features: 
 
 ---

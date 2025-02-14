@@ -1,36 +1,35 @@
 ---
-wsId: ledgerLive
+wsId: 'ledgerLive'
 title: 'Ledger Live: Crypto & NFT App'
 altTitle: 
 authors: 
 users: 1000000
-appId: com.ledger.live
+appId: 'com.ledger.live'
 appCountry: 
-released: 2019-01-27
+released: '2019-01-27'
 updated: 2025-02-10
-version: 3.59.0
+version: '3.59.0'
 stars: 4.6
 ratings: 6090
-reviews: 2786
-size: 
-website: https://www.ledger.com
+reviews: 2789
+website: 'https://www.ledger.com'
 repository: 
 issue: 
-icon: com.ledger.live.png
+icon: 'com.ledger.live.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2020-11-17
+date: '2020-11-17'
 signer: 
 reviewArchive: 
-twitter: Ledger
+twitter: 'Ledger'
 social:
-- https://www.linkedin.com/company/ledgerhq
-- https://www.facebook.com/Ledger
+- 'https://www.linkedin.com/company/ledgerhq'
+- 'https://www.facebook.com/Ledger'
 redirect_from:
-- /com.ledger.live/
-developerName: Ledger
+- '/com.ledger.live/'
+developerName: 'Ledger'
 features: 
 
 ---

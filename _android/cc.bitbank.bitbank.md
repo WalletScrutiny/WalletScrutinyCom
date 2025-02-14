@@ -1,36 +1,34 @@
 ---
 wsId: 
-title: bitbank - Bitcoin Wallet
+title: 'bitbank - Bitcoin Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 500000
-appId: cc.bitbank.bitbank
+appId: 'cc.bitbank.bitbank'
 appCountry: 
-released: 
 updated: 2025-01-20
-version: 3.4.0
+version: '3.4.0'
 stars: 3.8
 ratings: 
 reviews: 2
-size: 
-website: https://bitbank.cc
+website: 'https://bitbank.cc'
 repository: 
 issue: 
-icon: cc.bitbank.bitbank.png
+icon: 'cc.bitbank.bitbank.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2024-09-06
+date: '2024-09-06'
 signer: 
 reviewArchive: 
-twitter: bitbank_inc
+twitter: 'bitbank_inc'
 social:
-- https://www.instagram.com/bitbank_official
-- https://www.facebook.com/bitbank.inc
+- 'https://www.instagram.com/bitbank_official'
+- 'https://www.facebook.com/bitbank.inc'
 redirect_from: 
-developerName: bitbank inc.
+developerName: 'bitbank inc.'
 features: 
 
 ---

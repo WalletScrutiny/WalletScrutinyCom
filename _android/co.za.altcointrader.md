@@ -1,34 +1,33 @@
 ---
-wsId: altcoinTrader
+wsId: 'altcoinTrader'
 title: 'AltCoinTrader: Bitcoin, Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: co.za.altcointrader
+appId: 'co.za.altcointrader'
 appCountry: 
-released: 2020-05-06
+released: '2020-05-06'
 updated: 2024-07-19
-version: 1.1.0
+version: '1.1.0'
 stars: 3.1
 ratings: 835
 reviews: 8
-size: 
-website: https://www.altcointrader.co.za/
+website: 'https://www.altcointrader.co.za/'
 repository: 
 issue: 
-icon: co.za.altcointrader.png
+icon: 'co.za.altcointrader.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2024-07-22
+date: '2024-07-22'
 signer: 
 reviewArchive: 
-twitter: AltCoinTraderSA
+twitter: 'AltCoinTraderSA'
 social: 
 redirect_from: 
-developerName: AltCoinTrader
+developerName: 'AltCoinTrader'
 features: 
 
 ---

@@ -1,35 +1,34 @@
 ---
-wsId: kleverK5FinanceCrypto
+wsId: 'kleverK5FinanceCrypto'
 title: 'Klever Wallet: Bitcoin, Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: finance.klever.bitcoin.wallet
+appId: 'finance.klever.bitcoin.wallet'
 appCountry: 
-released: 2023-01-16
-updated: 2025-02-02
-version: 5.35.7
+released: '2023-01-16'
+updated: 2025-02-13
+version: '5.35.8'
 stars: 4.6
 ratings: 
 reviews: 169
-size: 
-website: https://klever.io
+website: 'https://klever.io'
 repository: 
 issue: 
-icon: finance.klever.bitcoin.wallet.png
+icon: 'finance.klever.bitcoin.wallet.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-24
+date: '2024-07-24'
 signer: 
 reviewArchive: 
-twitter: klever_io
+twitter: 'klever_io'
 social:
-- https://discord.gg/klever-io
-- https://www.instagram.com/klever.io
-- https://www.facebook.com/klever.io
+- 'https://discord.gg/klever-io'
+- 'https://www.instagram.com/klever.io'
+- 'https://www.facebook.com/klever.io'
 redirect_from: 
 developerName: 'Klever Wallet: Bitcoin, Ethereum, TRX & Crypto'
 features: 

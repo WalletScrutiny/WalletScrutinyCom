@@ -1,15 +1,15 @@
 ---
 wsId: 
-title: ArgoTrade
+title: 'ArgoTrade'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.argotrade.android
+appId: 'com.argotrade.android'
 appCountry: 
-released: 2020-10-16
-updated: 2024-09-05
-version: 1.16.1
+released: '2020-10-16'
+updated: '2024-09-05'
+version: '1.16.1'
 stars: 
 ratings: 
 reviews: 
@@ -17,18 +17,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.argotrade.android.png
+icon: 'com.argotrade.android.png'
 bugbounty: 
-meta: ok
-verdict: nosendreceive
+meta: 'ok'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2022-07-14
+date: '2022-07-14'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Leadcapital Corp LTD
+developerName: 'Leadcapital Corp LTD'
 features: 
 
 ---

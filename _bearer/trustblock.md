@@ -25,7 +25,7 @@ icon: trustblock.png
 bugbounty: 
 meta: ok
 verdict: prefilled
-date: 2024-01-15
+date: '2024-01-15'
 signer: 
 reviewArchive: 
 twitter: TrustBlock_Ltd

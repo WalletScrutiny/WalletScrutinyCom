@@ -1,40 +1,40 @@
 ---
-wsId: changeXCrypto
+wsId: 'changeXCrypto'
 title: 'ChangeX: Buy & Earn Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: io.changex.app
+appId: 'io.changex.app'
 appCountry: 
-released: 2022-05-31
-updated: 2024-01-23
-version: 2.9.8
+released: '2022-05-31'
+updated: '2024-01-23'
+version: '2.9.8'
 stars: 3.6
 ratings: 
 reviews: 7
 size: 
-website: https://changex.io/
+website: 'https://changex.io/'
 repository: 
 issue: 
-icon: io.changex.app.png
+icon: 'io.changex.app.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2025-02-04
+date: '2025-02-04'
 signer: 
 reviewArchive: 
-twitter: ChangeXapp
+twitter: 'ChangeXapp'
 social:
-- https://t.me/changex_official
-- https://discord.com/invite/MerANmWQkV
-- https://www.youtube.com/@Changex-app
-- https://www.instagram.com/changex_app
-- https://www.facebook.com/ChangeXapp
-- https://www.linkedin.com/company/changexapp
+- 'https://t.me/changex_official'
+- 'https://discord.com/invite/MerANmWQkV'
+- 'https://www.youtube.com/@Changex-app'
+- 'https://www.instagram.com/changex_app'
+- 'https://www.facebook.com/ChangeXapp'
+- 'https://www.linkedin.com/company/changexapp'
 redirect_from: 
-developerName: ChangeX
+developerName: 'ChangeX'
 features: 
 
 ---

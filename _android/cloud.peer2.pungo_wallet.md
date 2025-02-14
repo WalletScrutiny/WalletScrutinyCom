@@ -1,28 +1,28 @@
 ---
 wsId: 
-title: Pungo App
+title: 'Pungo App'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 1000
-appId: cloud.peer2.pungo_wallet
+appId: 'cloud.peer2.pungo_wallet'
 appCountry: 
 released: 
-updated: 2021-04-08
+updated: '2021-04-08'
 version: '1.33'
 stars: 3.9
 ratings: 11
 reviews: 10
-size: 8.4M
-website: https://pungowallet.com
+size: '8.4M'
+website: 'https://pungowallet.com'
 repository: 
 issue: 
-icon: cloud.peer2.pungo_wallet.png
+icon: 'cloud.peer2.pungo_wallet.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2021-06-02
+date: '2021-06-02'
 signer: 
 reviewArchive: 
 twitter: 

@@ -7,8 +7,8 @@ authors:
 appId: com.coinlib.coinlib
 appCountry: us
 idd: '1413265839'
-released: 2018-07-30
-updated: 2018-07-30
+released: '2018-07-30'
+updated: '2018-07-30'
 version: '1.0'
 stars: 3.7
 reviews: 11
@@ -21,7 +21,7 @@ bugbounty:
 meta: obsolete
 verdict: nowallet
 appHashes: 
-date: 2023-03-30
+date: '2023-03-30'
 signer: 
 reviewArchive: 
 twitter: coinlibio

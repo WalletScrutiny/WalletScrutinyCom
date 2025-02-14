@@ -3,10 +3,10 @@ title: Spark Wallet
 appId: spark
 authors:
 - danny
-released: 2018-12-11
+released: '2018-12-11'
 discontinued: 
-updated: 2021-11-08
-version: 0.3.1
+updated: '2021-11-08'
+version: '0.3.1'
 binaries: 
 provider: 
 providerWebsite: 
@@ -17,7 +17,7 @@ icon:
 bugbounty: 
 meta: obsolete
 verdict: wip
-date: 2024-04-25
+date: '2024-04-25'
 reviewArchive: 
 twitter: 
 social: 

@@ -1,34 +1,33 @@
 ---
-wsId: plenaDefi
+wsId: 'plenaDefi'
 title: 'Plena: Crypto Super App'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.plena
+appId: 'com.plena'
 appCountry: 
-released: 2022-07-06
+released: '2022-07-06'
 updated: 2025-02-01
-version: 4.3.3
+version: '4.3.3'
 stars: 4.7
 ratings: 
 reviews: 674
-size: 
-website: https://www.plena.finance/
+website: 'https://www.plena.finance/'
 repository: 
 issue: 
-icon: com.plena.png
+icon: 'com.plena.png'
 bugbounty: 
-meta: ok
-verdict: nobtc
+meta: 'ok'
+verdict: 'nobtc'
 appHashes: 
-date: 2023-02-25
+date: '2023-02-25'
 signer: 
 reviewArchive: 
-twitter: PlenaFinance
+twitter: 'PlenaFinance'
 social: 
 redirect_from: 
-developerName: Plena Finance
+developerName: 'Plena Finance'
 features: 
 
 ---

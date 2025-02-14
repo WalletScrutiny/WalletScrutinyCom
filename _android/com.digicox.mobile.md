@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: DigiCOX
+title: 'DigiCOX'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.digicox.mobile
+appId: 'com.digicox.mobile'
 appCountry: 
-released: 2021-07-13
-updated: 2021-07-13
+released: '2021-07-13'
+updated: '2021-07-13'
 version: '1.0'
 stars: 4.4
 ratings: 
 reviews: 4
 size: 
-website: https://digicox.com
+website: 'https://digicox.com'
 repository: 
 issue: 
-icon: com.digicox.mobile.png
+icon: 'com.digicox.mobile.png'
 bugbounty: 
-meta: defunct
-verdict: wip
+meta: 'defunct'
+verdict: 'wip'
 appHashes: 
-date: 2023-04-22
+date: '2023-04-22'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: DigiCOX Limited
+developerName: 'DigiCOX Limited'
 features: 
 
 ---

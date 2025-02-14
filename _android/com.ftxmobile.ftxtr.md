@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: FTX TR
+title: 'FTX TR'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.ftxmobile.ftxtr
+appId: 'com.ftxmobile.ftxtr'
 appCountry: 
-released: 2022-02-21
-updated: 2022-11-01
-version: 2.0.9
+released: '2022-02-21'
+updated: '2022-11-01'
+version: '2.0.9'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://ftxtr.com
+website: 'https://ftxtr.com'
 repository: 
 issue: 
-icon: com.ftxmobile.ftxtr.png
+icon: 'com.ftxmobile.ftxtr.png'
 bugbounty: 
-meta: defunct
-verdict: custodial
+meta: 'defunct'
+verdict: 'custodial'
 appHashes: 
-date: 2023-06-14
+date: '2023-06-14'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: FTX TURKEY TEKNOLOJI VE TICARET ANONIM SIRKETI
+developerName: 'FTX TURKEY TEKNOLOJI VE TICARET ANONIM SIRKETI'
 features: 
 
 ---

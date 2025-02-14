@@ -5,8 +5,8 @@ authors:
 - danny
 released: 
 discontinued: 
-updated: 2024-04-15
-version: 0.0.6
+updated: '2024-04-15'
+version: '0.0.6'
 binaries: 
 dimensions: 
 weight: 
@@ -22,7 +22,7 @@ icon: lnbits.boltcard.png
 bugbounty: 
 meta: ok
 verdict: nowallet
-date: 2024-04-26
+date: '2024-04-26'
 signer: 
 reviewArchive: 
 twitter: lnbits

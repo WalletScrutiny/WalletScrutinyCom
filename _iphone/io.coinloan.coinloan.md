@@ -7,9 +7,9 @@ authors:
 appId: io.coinloan.coinloan
 appCountry: us
 idd: 1506572788
-released: 2020-04-24
-updated: 2023-06-03
-version: 1.7.7
+released: '2020-04-24'
+updated: '2023-06-03'
+version: '1.7.7'
 stars: 4.7
 reviews: 394
 size: '61206528'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-04-03
+date: '2024-04-03'
 signer: 
 reviewArchive: 
 twitter: coin_loan

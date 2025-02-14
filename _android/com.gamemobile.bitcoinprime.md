@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Bitcoin Prime - Robotics Cryptocurrency (2021)
+title: 'Bitcoin Prime - Robotics Cryptocurrency (2021)'
 altTitle: 
 authors: 
 users: 1000
-appId: com.gamemobile.bitcoinprime
+appId: 'com.gamemobile.bitcoinprime'
 appCountry: 
-released: 2021-06-25
-updated: 2021-06-25
-version: 1.0.0
+released: '2021-06-25'
+updated: '2021-06-25'
+version: '1.0.0'
 stars: 
 ratings: 
 reviews: 
-size: 5.5M
+size: '5.5M'
 website: 
 repository: 
 issue: 
-icon: com.gamemobile.bitcoinprime.png
+icon: 'com.gamemobile.bitcoinprime.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2021-09-23
+date: '2021-09-23'
 signer: 
 reviewArchive: 
 twitter: 

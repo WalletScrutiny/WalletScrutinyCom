@@ -1,36 +1,35 @@
 ---
-wsId: valr
-title: VALR Crypto Exchange
+wsId: 'valr'
+title: 'VALR Crypto Exchange'
 altTitle: 
 authors:
-- kiwilamb
+- 'kiwilamb'
 users: 500000
-appId: com.valr.app
+appId: 'com.valr.app'
 appCountry: 
-released: 2019-09-13
+released: '2019-09-13'
 updated: 2025-02-05
-version: 1.1.9
+version: '1.1.9'
 stars: 4.2
 ratings: 1725
 reviews: 24
-size: 
-website: https://www.valr.com
+website: 'https://www.valr.com'
 repository: 
 issue: 
-icon: com.valr.app.png
+icon: 'com.valr.app.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-04-13
+date: '2021-04-13'
 signer: 
 reviewArchive: 
-twitter: valrdotcom
+twitter: 'valrdotcom'
 social:
-- https://www.linkedin.com/company/valr
-- https://www.facebook.com/VALRdotcom
+- 'https://www.linkedin.com/company/valr'
+- 'https://www.facebook.com/VALRdotcom'
 redirect_from: 
-developerName: VALR
+developerName: 'VALR'
 features: 
 
 ---

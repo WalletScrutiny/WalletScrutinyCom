@@ -1,38 +1,37 @@
 ---
-wsId: arcticCryptoWallet
+wsId: 'arcticCryptoWallet'
 title: 'Arctic: Crypto Bitcoin Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.arcticmobile.app
+appId: 'com.arcticmobile.app'
 appCountry: 
-released: 2022-12-15
+released: '2022-12-15'
 updated: 2024-07-17
 version: '1.35'
 stars: 4.2
 ratings: 
 reviews: 1
-size: 
-website: https://arcticwallet.io
+website: 'https://arcticwallet.io'
 repository: 
 issue: 
-icon: com.arcticmobile.app.png
+icon: 'com.arcticmobile.app.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-24
+date: '2024-07-24'
 signer: 
 reviewArchive: 
-twitter: arctic_wallet
+twitter: 'arctic_wallet'
 social:
-- https://t.me/arctic_official_chat
-- https://www.linkedin.com/company/arctic-wallet
-- https://www.facebook.com/arcticwallet
-- https://medium.com/@marketing_43986
+- 'https://t.me/arctic_official_chat'
+- 'https://www.linkedin.com/company/arctic-wallet'
+- 'https://www.facebook.com/arcticwallet'
+- 'https://medium.com/@marketing_43986'
 redirect_from: 
-developerName: ARCTIC SOFTWARE OÜ
+developerName: 'ARCTIC SOFTWARE OÜ'
 features: 
 
 ---

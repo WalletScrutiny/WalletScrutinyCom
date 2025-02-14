@@ -1,36 +1,35 @@
 ---
-wsId: crypterApp
+wsId: 'crypterApp'
 title: 'The Crypto App: News & Alerts'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000000
-appId: com.crypter.cryptocyrrency
-appCountry: us
-released: 2017-09-09
+appId: 'com.crypter.cryptocyrrency'
+appCountry: 'us'
+released: '2017-09-09'
 updated: 2025-02-07
-version: 3.5.10
+version: '3.5.10'
 stars: 4.3
 ratings: 78687
 reviews: 2701
-size: 
-website: https://thecrypto.app
+website: 'https://thecrypto.app'
 repository: 
 issue: 
-icon: com.crypter.cryptocyrrency.png
+icon: 'com.crypter.cryptocyrrency.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2021-11-01
+date: '2021-11-01'
 signer: 
 reviewArchive: 
-twitter: TrustSwap
+twitter: 'TrustSwap'
 social:
-- https://www.linkedin.com/company/TrustSwap
-- https://www.facebook.com/TrustSwap
+- 'https://www.linkedin.com/company/TrustSwap'
+- 'https://www.facebook.com/TrustSwap'
 redirect_from: 
-developerName: The Crypto App - TrustSwap
+developerName: 'The Crypto App - TrustSwap'
 features: 
 
 ---

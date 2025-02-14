@@ -1,34 +1,33 @@
 ---
-wsId: jeton
-title: Jeton Wallet
+wsId: 'jeton'
+title: 'Jeton Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 500000
-appId: com.jeton.wallet
-appCountry: us
-released: 2018-12-27
+appId: 'com.jeton.wallet'
+appCountry: 'us'
+released: '2018-12-27'
 updated: 2024-09-04
-version: 3.7.3
+version: '3.7.3'
 stars: 3.1
 ratings: 3260
 reviews: 20
-size: 
-website: https://jeton.com/
+website: 'https://jeton.com/'
 repository: 
 issue: 
-icon: com.jeton.wallet.png
+icon: 'com.jeton.wallet.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-09-03
+date: '2021-09-03'
 signer: 
 reviewArchive: 
-twitter: jetonwallet
+twitter: 'jetonwallet'
 social: 
 redirect_from: 
-developerName: Jeton Wallet
+developerName: 'Jeton Wallet'
 features: 
 
 ---

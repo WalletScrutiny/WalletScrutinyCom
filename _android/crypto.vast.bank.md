@@ -1,36 +1,36 @@
 ---
-wsId: vastCryptoBank
-title: Vast Bank Mobile
+wsId: 'vastCryptoBank'
+title: 'Vast Bank Mobile'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: crypto.vast.bank
+appId: 'crypto.vast.bank'
 appCountry: 
-released: 2021-08-22
-updated: 2023-12-18
-version: 1.7.15
+released: '2021-08-22'
+updated: '2023-12-18'
+version: '1.7.15'
 stars: 4.2
 ratings: 
 reviews: 69
 size: 
-website: https://www.vast.bank
+website: 'https://www.vast.bank'
 repository: 
 issue: 
-icon: crypto.vast.bank.jpg
+icon: 'crypto.vast.bank.jpg'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-03-02
+date: '2024-03-02'
 signer: 
 reviewArchive: 
-twitter: vastbank
+twitter: 'vastbank'
 social:
-- https://www.linkedin.com/company/vastbank
-- https://www.facebook.com/vastbankNA
+- 'https://www.linkedin.com/company/vastbank'
+- 'https://www.facebook.com/vastbankNA'
 redirect_from: 
-developerName: Vast Bank
+developerName: 'Vast Bank'
 features: 
 
 ---

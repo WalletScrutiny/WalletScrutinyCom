@@ -7,8 +7,8 @@ authors:
 appId: com.sessipapp.Sessip
 appCountry: us
 idd: '1582234240'
-released: 2021-09-08
-updated: 2024-03-26
+released: '2021-09-08'
+updated: '2024-03-26'
 version: '2.2'
 stars: 3.5
 reviews: 2
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
 twitter: sessipapp

@@ -6,9 +6,9 @@ authors:
 appId: cool.pay.paycool
 appCountry: us
 idd: '1636549193'
-released: 2022-09-07
-updated: 2024-03-05
-version: 2.5.163
+released: '2022-09-07'
+updated: '2024-03-05'
+version: '2.5.163'
 stars: 5
 reviews: 16
 size: '76968960'
@@ -20,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
 twitter: Pay_dot_Cool

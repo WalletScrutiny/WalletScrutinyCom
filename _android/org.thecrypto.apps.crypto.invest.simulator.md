@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Crypto Invest Simulator
+title: 'Crypto Invest Simulator'
 altTitle: 
 authors: 
 users: 1
-appId: org.thecrypto.apps.crypto.invest.simulator
+appId: 'org.thecrypto.apps.crypto.invest.simulator'
 appCountry: 
-released: 2021-06-22
-updated: 2021-06-22
+released: '2021-06-22'
+updated: '2021-06-22'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 2.4M
+size: '2.4M'
 website: 
 repository: 
 issue: 
-icon: org.thecrypto.apps.crypto.invest.simulator.jpg
+icon: 'org.thecrypto.apps.crypto.invest.simulator.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-10-01
+date: '2021-10-01'
 signer: 
 reviewArchive: 
 twitter: 

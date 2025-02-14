@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: Bit7Pay Bitcoin and Other Cryp
+title: 'Bit7Pay Bitcoin and Other Cryp'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: bit7pay.com.bit7pay
+appId: 'bit7pay.com.bit7pay'
 appCountry: 
-released: 2019-05-18
-updated: 2020-04-08
+released: '2019-05-18'
+updated: '2020-04-08'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: http://bit7pay.com
+website: 'http://bit7pay.com'
 repository: 
 issue: 
-icon: bit7pay.com.bit7pay.png
+icon: 'bit7pay.com.bit7pay.png'
 bugbounty: 
-meta: defunct
-verdict: wip
+meta: 'defunct'
+verdict: 'wip'
 appHashes: 
-date: 2023-05-04
+date: '2023-05-04'
 signer: 
 reviewArchive: 
-twitter: bit7pay
+twitter: 'bit7pay'
 social: 
 redirect_from: 
-developerName: Saizala Services Private Limited.
+developerName: 'Saizala Services Private Limited.'
 features: 
 
 ---

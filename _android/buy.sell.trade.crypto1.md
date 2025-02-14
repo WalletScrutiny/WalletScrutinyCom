@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Buy Sell Trade Crypto
+title: 'Buy Sell Trade Crypto'
 altTitle: 
 authors: 
 users: 10
-appId: buy.sell.trade.crypto1
+appId: 'buy.sell.trade.crypto1'
 appCountry: 
-released: 2021-06-16
-updated: 2021-06-17
+released: '2021-06-16'
+updated: '2021-06-17'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 3.4M
+size: '3.4M'
 website: 
 repository: 
 issue: 
-icon: buy.sell.trade.crypto1.jpg
+icon: 'buy.sell.trade.crypto1.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-10-01
+date: '2021-10-01'
 signer: 
 reviewArchive: 
 twitter: 

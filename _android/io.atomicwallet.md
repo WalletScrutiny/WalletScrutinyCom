@@ -1,41 +1,40 @@
 ---
-wsId: atomic
-title: Bitcoin Wallet Crypto Ethereum
+wsId: 'atomic'
+title: 'Bitcoin Wallet Crypto Ethereum'
 altTitle: 
 authors:
-- leo
-- danny
+- 'leo'
+- 'danny'
 users: 1000000
-appId: io.atomicwallet
+appId: 'io.atomicwallet'
 appCountry: 
-released: 2019-01-30
+released: '2019-01-30'
 updated: 2024-12-11
-version: 1.34.4
+version: '1.34.4'
 stars: 4.4
 ratings: 62655
 reviews: 5746
-size: 
-website: https://atomicwallet.io
+website: 'https://atomicwallet.io'
 repository: 
 issue: 
-icon: io.atomicwallet.png
+icon: 'io.atomicwallet.png'
 bugbounty: 
-meta: ok
-verdict: obfuscated
+meta: 'ok'
+verdict: 'obfuscated'
 appHashes: []
-date: 2024-07-13
+date: '2024-07-13'
 signer: 
 reviewArchive:
-- date: 2020-10-12
-  version: 0.72.1
+- date: '2020-10-12'
+  version: '0.72.1'
   appHashes: []
-  gitRevision: d83253e829502835962be71b96dd37287dc87f5c
-  verdict: nosource
-twitter: atomicwallet
+  gitRevision: 'd83253e829502835962be71b96dd37287dc87f5c'
+  verdict: 'nosource'
+twitter: 'atomicwallet'
 social:
-- https://www.facebook.com/atomicwallet
+- 'https://www.facebook.com/atomicwallet'
 redirect_from: 
-developerName: Atomic Wallet
+developerName: 'Atomic Wallet'
 features: 
 
 ---

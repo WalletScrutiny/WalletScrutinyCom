@@ -22,7 +22,7 @@ icon: alluk-798.bitcoin.BTC.coldwallet.notes.png
 bugbounty: 
 meta: ok
 verdict: prefilled
-date: 2023-12-06
+date: '2023-12-06'
 signer: 
 reviewArchive: 
 twitter: 

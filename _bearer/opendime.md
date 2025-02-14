@@ -6,7 +6,7 @@ authors:
 - felipe
 - leo
 - danny
-released: 2016-04-01
+released: '2016-04-01'
 discontinued: 
 updated: 
 version: 
@@ -25,10 +25,10 @@ icon: opendime.png
 bugbounty: 
 meta: ok
 verdict: sealed-plainkey
-date: 2022-10-31
+date: '2022-10-31'
 signer: 
 reviewArchive:
-- date: 2021-07-11
+- date: '2021-07-11'
   version: ''
   appHash: 
   gitRevision: 

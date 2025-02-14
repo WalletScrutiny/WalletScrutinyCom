@@ -1,34 +1,33 @@
 ---
-wsId: iMinerator
-title: iMinerator - Invest & Bitcoin
+wsId: 'iMinerator'
+title: 'iMinerator - Invest & Bitcoin'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.iminerator.app
-appCountry: us
-released: 2021-04-20
+appId: 'com.iminerator.app'
+appCountry: 'us'
+released: '2021-04-20'
 updated: 2022-08-30
-version: 2.1.0
+version: '2.1.0'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://iminerator.com
+website: 'https://iminerator.com'
 repository: 
 issue: 
-icon: com.iminerator.app.png
+icon: 'com.iminerator.app.png'
 bugbounty: 
-meta: obsolete
-verdict: nowallet
+meta: 'obsolete'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-08-19
+date: '2024-08-19'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Paulo Coutinho
+developerName: 'Paulo Coutinho'
 features: 
 
 ---

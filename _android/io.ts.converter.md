@@ -1,36 +1,35 @@
 ---
 wsId: 
-title: TapSwap
+title: 'TapSwap'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 500000
-appId: io.ts.converter
+appId: 'io.ts.converter'
 appCountry: 
-released: 2023-02-26
+released: '2023-02-26'
 updated: 2024-06-19
-version: 3.0.0
+version: '3.0.0'
 stars: 3.2
 ratings: 
 reviews: 6
-size: 
-website: https://tapswap.io
+website: 'https://tapswap.io'
 repository: 
 issue: 
-icon: io.ts.converter.png
+icon: 'io.ts.converter.png'
 bugbounty: 
-meta: ok
-verdict: nosendreceive
+meta: 'ok'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2024-01-19
+date: '2024-01-19'
 signer: 
 reviewArchive: 
-twitter: tapswapkenya
+twitter: 'tapswapkenya'
 social:
-- https://www.instagram.com/tapswap_kenya/
-- https://www.linkedin.com/company/tapswap/
+- 'https://www.instagram.com/tapswap_kenya/'
+- 'https://www.linkedin.com/company/tapswap/'
 redirect_from: 
-developerName: TapSwap
+developerName: 'TapSwap'
 features: 
 
 ---

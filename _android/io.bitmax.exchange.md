@@ -1,35 +1,35 @@
 ---
 wsId: 
-title: AscendEX(BitMax)
+title: 'AscendEX(BitMax)'
 altTitle: 
 authors:
-- kiwilamb
-- leo
+- 'kiwilamb'
+- 'leo'
 users: 100000
-appId: io.bitmax.exchange
+appId: 'io.bitmax.exchange'
 appCountry: 
 released: 
-updated: 2021-04-25
-version: 2.4.7
+updated: '2021-04-25'
+version: '2.4.7'
 stars: 4.2
 ratings: 2788
 reviews: 947
-size: 22M
-website: https://ascendex.com
+size: '22M'
+website: 'https://ascendex.com'
 repository: 
 issue: 
-icon: io.bitmax.exchange.png
+icon: 'io.bitmax.exchange.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2021-05-11
+date: '2021-05-11'
 signer: 
 reviewArchive: 
-twitter: AscendEX_Global
+twitter: 'AscendEX_Global'
 social:
-- https://www.facebook.com/AscendEXOfficial
-- https://www.reddit.com/r/AscendEX_Official
+- 'https://www.facebook.com/AscendEXOfficial'
+- 'https://www.reddit.com/r/AscendEX_Official'
 redirect_from: 
 developerName: 
 features: 

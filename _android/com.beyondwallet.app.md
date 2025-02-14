@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: beyond wallet
+title: 'beyond wallet'
 altTitle: 
 authors: 
 users: 100
-appId: com.beyondwallet.app
+appId: 'com.beyondwallet.app'
 appCountry: 
-released: 2021-01-11
-updated: 2023-10-19
-version: VARY
+released: '2021-01-11'
+updated: '2023-10-19'
+version: 'VARY'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.mybeyondwallet.com
+website: 'https://www.mybeyondwallet.com'
 repository: 
 issue: 
-icon: com.beyondwallet.app.png
+icon: 'com.beyondwallet.app.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Frictionless Money LLC
+developerName: 'Frictionless Money LLC'
 features: 
 
 ---

@@ -1,37 +1,36 @@
 ---
-wsId: nexo
+wsId: 'nexo'
 title: 'Nexo: Crypto Wealth Platform'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 5000000
-appId: com.nexowallet
+appId: 'com.nexowallet'
 appCountry: 
-released: 2019-06-28
+released: '2019-06-28'
 updated: 2025-02-05
-version: 5.8.2
+version: '5.8.2'
 stars: 4.1
 ratings: 21149
-reviews: 1835
-size: 
-website: https://nexo.com
+reviews: 1836
+website: 'https://nexo.com'
 repository: 
 issue: 
-icon: com.nexowallet.png
+icon: 'com.nexowallet.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2020-11-17
+date: '2020-11-17'
 signer: 
 reviewArchive: 
-twitter: NexoFinance
+twitter: 'NexoFinance'
 social:
-- https://www.facebook.com/nexofinance
-- https://www.reddit.com/r/Nexo
+- 'https://www.facebook.com/nexofinance'
+- 'https://www.reddit.com/r/Nexo'
 redirect_from:
-- /com.nexowallet/
-developerName: Nexo Capital Inc
+- '/com.nexowallet/'
+developerName: 'Nexo Capital Inc'
 features: 
 
 ---

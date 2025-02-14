@@ -1,38 +1,38 @@
 ---
-wsId: sparkPoint
-title: SparkPoint Crypto Wallet
+wsId: 'sparkPoint'
+title: 'SparkPoint Crypto Wallet'
 altTitle: 
 authors:
-- leo
-- emanuel
+- 'leo'
+- 'emanuel'
 users: 10000
-appId: com.sparkpoint
-appCountry: us
-released: 2019-07-20
-updated: 2023-08-24
-version: 12.1.1
+appId: 'com.sparkpoint'
+appCountry: 'us'
+released: '2019-07-20'
+updated: '2023-08-24'
+version: '12.1.1'
 stars: 3.7
 ratings: 608
 reviews: 67
 size: 
-website: https://sparkpoint.io/
+website: 'https://sparkpoint.io/'
 repository: 
 issue: 
-icon: com.sparkpoint.png
+icon: 'com.sparkpoint.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2025-02-13
+date: '2025-02-13'
 signer: 
 reviewArchive: 
-twitter: sparkpointio
+twitter: 'sparkpointio'
 social:
-- https://www.linkedin.com/company/sparkpointio
-- https://www.facebook.com/sparkpointio
-- https://www.reddit.com/r/SparkPoint
+- 'https://www.linkedin.com/company/sparkpointio'
+- 'https://www.facebook.com/sparkpointio'
+- 'https://www.reddit.com/r/SparkPoint'
 redirect_from: 
-developerName: SparkPoint Technologies Inc.
+developerName: 'SparkPoint Technologies Inc.'
 features: 
 
 ---

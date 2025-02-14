@@ -3,10 +3,10 @@ title: CoinKite SATSCARD
 appId: coinkite.satscard
 authors:
 - danny
-released: 2022-01-24
+released: '2022-01-24'
 discontinued: 
-updated: 2022-07-06
-version: 1.0.5
+updated: '2022-07-06'
+version: '1.0.5'
 binaries: 
 dimensions:
 - 86
@@ -25,7 +25,7 @@ icon: coinkite.satscard.png
 bugbounty: 
 meta: ok
 verdict: sealed-plainkey
-date: 2023-08-03
+date: '2023-08-03'
 signer: 
 reviewArchive: 
 twitter: SATSCARD

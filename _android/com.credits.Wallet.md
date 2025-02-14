@@ -1,39 +1,38 @@
 ---
-wsId: creditsCrypto
-title: Credits.com. Buy and Sell BTC.
+wsId: 'creditsCrypto'
+title: 'Credits.com. Buy and Sell BTC.'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.credits.Wallet
+appId: 'com.credits.Wallet'
 appCountry: 
-released: 2020-10-26
+released: '2020-10-26'
 updated: 2024-12-10
-version: 7.0.1.1
+version: '7.0.1.1'
 stars: 4.2
 ratings: 
 reviews: 3
-size: 
-website: https://credits.com/contacts.html
+website: 'https://credits.com/contacts.html'
 repository: 
 issue: 
-icon: com.credits.Wallet.png
+icon: 'com.credits.Wallet.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-07-02
+date: '2023-07-02'
 signer: 
 reviewArchive: 
-twitter: creditscom
+twitter: 'creditscom'
 social:
-- https://t.me/creditscom
-- https://www.youtube.com/channel/UC7kjX_jgauCqmf_a4fqLGOQ
-- https://www.reddit.com/r/CreditsOfficial
-- https://www.linkedin.com/company/creditscom
-- https://www.facebook.com/creditscom
+- 'https://t.me/creditscom'
+- 'https://www.youtube.com/channel/UC7kjX_jgauCqmf_a4fqLGOQ'
+- 'https://www.reddit.com/r/CreditsOfficial'
+- 'https://www.linkedin.com/company/creditscom'
+- 'https://www.facebook.com/creditscom'
 redirect_from: 
-developerName: SOFTWARE C SP Z.O.O
+developerName: 'SOFTWARE C SP Z.O.O'
 features: 
 
 ---

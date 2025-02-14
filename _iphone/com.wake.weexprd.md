@@ -7,9 +7,9 @@ authors:
 appId: com.wake.weexprd
 appCountry: us
 idd: '1609350789'
-released: 2022-03-04
-updated: 2025-02-06
-version: 4.3.4
+released: '2022-03-04'
+updated: '2025-02-06'
+version: '4.3.4'
 stars: 4.7
 reviews: 647
 size: '108654592'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2023-08-17
+date: '2023-08-17'
 signer: 
 reviewArchive: 
 twitter: WEEX_Official

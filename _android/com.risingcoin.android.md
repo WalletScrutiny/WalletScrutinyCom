@@ -1,39 +1,39 @@
 ---
 wsId: 
-title: Rising Coin
+title: 'Rising Coin'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.risingcoin.android
+appId: 'com.risingcoin.android'
 appCountry: 
-released: 2022-11-13
-updated: 2023-04-22
-version: 1.5.0
+released: '2022-11-13'
+updated: '2023-04-22'
+version: '1.5.0'
 stars: 3.3
 ratings: 
 reviews: 10
 size: 
-website: https://risingcoin.io
+website: 'https://risingcoin.io'
 repository: 
 issue: 
-icon: com.risingcoin.android.png
+icon: 'com.risingcoin.android.png'
 bugbounty: 
-meta: removed
-verdict: nobtc
+meta: 'removed'
+verdict: 'nobtc'
 appHashes: 
-date: 2025-01-27
+date: '2025-01-27'
 signer: 
 reviewArchive: 
-twitter: Risingcoin_rsc
+twitter: 'Risingcoin_rsc'
 social:
-- https://www.facebook.com/profile.php?id=100086988191584
-- https://www.instagram.com/risingcoin_
-- https://www.youtube.com/@risingcoin_
-- https://discord.com/invite/8jQfa7JNeM
-- https://t.me/risingcoin_rsc
+- 'https://www.facebook.com/profile.php?id=100086988191584'
+- 'https://www.instagram.com/risingcoin_'
+- 'https://www.youtube.com/@risingcoin_'
+- 'https://discord.com/invite/8jQfa7JNeM'
+- 'https://t.me/risingcoin_rsc'
 redirect_from: 
-developerName: Rising Coin
+developerName: 'Rising Coin'
 features: 
 
 ---

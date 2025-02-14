@@ -3,10 +3,10 @@ title: Byteduino Hardware Cosigner DIY
 appId: byteduino.hardwarecosigner.diy
 authors:
 - danny
-released: 2018-09-21
+released: '2018-09-21'
 discontinued: 
-updated: 2020-05-20
-version: 0.1.0
+updated: '2020-05-20'
+version: '0.1.0'
 binaries: https://github.com/Papabyte/Hardware-cosigner/releases/tag/v0.1.0
 dimensions: 
 weight: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: obsolete
 verdict: nobtc
 appHashes: 
-date: 2022-12-07
+date: '2022-12-07'
 signer: 
 reviewArchive: 
 twitter: 

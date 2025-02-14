@@ -1,35 +1,35 @@
 ---
 wsId: 
-title: Exonyx | اکس اونیکس
+title: 'Exonyx | اکس اونیکس'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.exonyxapp.trader
+appId: 'com.exonyxapp.trader'
 appCountry: 
-released: 2020-08-25
-updated: 2022-06-18
-version: 2.0.6
+released: '2020-08-25'
+updated: '2022-06-18'
+version: '2.0.6'
 stars: 4.6
 ratings: 
 reviews: 22
 size: 
-website: https://exonyx.ir
+website: 'https://exonyx.ir'
 repository: 
 issue: 
-icon: com.exonyxapp.trader.png
+icon: 'com.exonyxapp.trader.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-06-21
+date: '2023-06-21'
 signer: 
 reviewArchive: 
-twitter: Exonyxir
+twitter: 'Exonyxir'
 social:
-- https://www.facebook.com/exonyxir
+- 'https://www.facebook.com/exonyxir'
 redirect_from: 
-developerName: Exonyx
+developerName: 'Exonyx'
 features: 
 
 ---

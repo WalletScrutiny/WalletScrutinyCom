@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: PAYEER
+title: 'PAYEER'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000000
-appId: com.payeer
+appId: 'com.payeer'
 appCountry: 
-released: 2018-01-03
+released: '2018-01-03'
 updated: 2022-10-18
-version: VARY
+version: 'VARY'
 stars: 4.5
 ratings: 36999
 reviews: 197
-size: 
-website: https://payeer.com
+website: 'https://payeer.com'
 repository: 
 issue: 
-icon: com.payeer.png
+icon: 'com.payeer.png'
 bugbounty: 
-meta: obsolete
-verdict: custodial
+meta: 'obsolete'
+verdict: 'custodial'
 appHashes: 
-date: 2024-10-07
+date: '2024-10-07'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/payeercoins
+- 'https://www.facebook.com/payeercoins'
 redirect_from: 
-developerName: Payeer Official
+developerName: 'Payeer Official'
 features: 
 
 ---

@@ -1,34 +1,34 @@
 ---
-wsId: SovereignWallet
-title: SovereignWallet, Sovereign Wallet, MUI, MUI Token
+wsId: 'SovereignWallet'
+title: 'SovereignWallet, Sovereign Wallet, MUI, MUI Token'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: exchange.sovereignwallet.mui
-appCountry: kr
-released: 2018-06-25
-updated: 2021-03-10
-version: 1.18.0
+appId: 'exchange.sovereignwallet.mui'
+appCountry: 'kr'
+released: '2018-06-25'
+updated: '2021-03-10'
+version: '1.18.0'
 stars: 4.2
 ratings: 74
 reviews: 33
-size: 43M
-website: https://sovereignwallet.network/
+size: '43M'
+website: 'https://sovereignwallet.network/'
 repository: 
 issue: 
-icon: exchange.sovereignwallet.mui.png
+icon: 'exchange.sovereignwallet.mui.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2021-11-15
+date: '2021-11-15'
 signer: 
 reviewArchive: 
-twitter: MUIcommunity
+twitter: 'MUIcommunity'
 social:
-- https://www.linkedin.com/company/metamui
-- https://www.facebook.com/SovereignWallet
+- 'https://www.linkedin.com/company/metamui'
+- 'https://www.facebook.com/SovereignWallet'
 redirect_from: 
 developerName: 
 features: 

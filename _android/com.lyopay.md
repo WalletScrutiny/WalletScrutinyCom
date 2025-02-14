@@ -1,37 +1,37 @@
 ---
-wsId: lyopay
-title: LYOPAY
+wsId: 'lyopay'
+title: 'LYOPAY'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.lyopay
-appCountry: eg
-released: 2020-10-02
-updated: 2023-08-10
+appId: 'com.lyopay'
+appCountry: 'eg'
+released: '2020-10-02'
+updated: '2023-08-10'
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://lyopay.com
+website: 'https://lyopay.com'
 repository: 
 issue: 
-icon: com.lyopay.png
+icon: 'com.lyopay.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-11-02
+date: '2023-11-02'
 signer: 
 reviewArchive: 
-twitter: lyopayofficial
+twitter: 'lyopayofficial'
 social:
-- https://www.linkedin.com/company/lyopay
-- https://www.facebook.com/lyopayofficial
-- https://www.reddit.com/r/LYOPAY
+- 'https://www.linkedin.com/company/lyopay'
+- 'https://www.facebook.com/lyopayofficial'
+- 'https://www.reddit.com/r/LYOPAY'
 redirect_from: 
-developerName: DIGILYO APP LTD
+developerName: 'DIGILYO APP LTD'
 features: 
 
 ---

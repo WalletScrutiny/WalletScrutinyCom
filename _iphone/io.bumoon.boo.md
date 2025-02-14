@@ -7,9 +7,9 @@ authors:
 appId: io.bumoon.boo
 appCountry: us
 idd: '1593710564'
-released: 2021-12-21
-updated: 2022-10-15
-version: 3.0.3
+released: '2021-12-21'
+updated: '2022-10-15'
+version: '3.0.3'
 stars: 0
 reviews: 0
 size: '104261632'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: nobtc
 appHashes: 
-date: 2023-12-19
+date: '2023-12-19'
 signer: 
 reviewArchive: 
 twitter: bobablocks

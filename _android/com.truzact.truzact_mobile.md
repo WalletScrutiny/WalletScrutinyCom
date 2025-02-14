@@ -1,37 +1,37 @@
 ---
-wsId: truzactCrypto
+wsId: 'truzactCrypto'
 title: 'Truzact: Save & Invest Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.truzact.truzact_mobile
+appId: 'com.truzact.truzact_mobile'
 appCountry: 
-released: 2022-02-13
-updated: 2023-07-12
-version: 4.6.7
+released: '2022-02-13'
+updated: '2023-07-12'
+version: '4.6.7'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://truzact.com
+website: 'https://truzact.com'
 repository: 
 issue: 
-icon: com.truzact.truzact_mobile.png
+icon: 'com.truzact.truzact_mobile.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-11-30
+date: '2024-11-30'
 signer: 
 reviewArchive: 
-twitter: truzact
+twitter: 'truzact'
 social:
-- https://www.instagram.com/truzact1
-- https://www.facebook.com/truzact
-- https://t.me/truzact
+- 'https://www.instagram.com/truzact1'
+- 'https://www.facebook.com/truzact'
+- 'https://t.me/truzact'
 redirect_from: 
-developerName: Truzact
+developerName: 'Truzact'
 features: 
 
 ---

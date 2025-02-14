@@ -3,9 +3,9 @@ title: BitExchange HardID Hardware Wallet
 appId: bitexchange.hardid
 authors:
 - danny
-released: 2017-11-15
+released: '2017-11-15'
 discontinued: 
-updated: 2018-04-18
+updated: '2018-04-18'
 version: 
 binaries: 
 dimensions: 
@@ -25,7 +25,7 @@ bugbounty:
 meta: defunct
 verdict: plainkey
 appHashes: 
-date: 2022-04-29
+date: '2022-04-29'
 signer: 
 reviewArchive: 
 twitter: 

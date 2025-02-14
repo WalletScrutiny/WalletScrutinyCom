@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: Pleiades Crypto Wallet
+title: 'Pleiades Crypto Wallet'
 altTitle: 
 authors: 
 users: 1000
-appId: com.pleiades.wallet
+appId: 'com.pleiades.wallet'
 appCountry: 
-released: 2021-11-28
-updated: 2022-02-28
-version: 1.3.2
+released: '2021-11-28'
+updated: '2022-02-28'
+version: '1.3.2'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.pleiades.finance
+website: 'https://www.pleiades.finance'
 repository: 
 issue: 
-icon: com.pleiades.wallet.png
+icon: 'com.pleiades.wallet.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2023-08-25
+date: '2023-08-25'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Pleiades Technologies
+developerName: 'Pleiades Technologies'
 features: 
 
 ---

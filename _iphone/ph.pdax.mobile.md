@@ -7,9 +7,9 @@ authors:
 appId: ph.pdax.mobile
 appCountry: ph
 idd: 1531246346
-released: 2020-12-18
-updated: 2025-02-11
-version: 12.3.0
+released: '2020-12-18'
+updated: '2025-02-11'
+version: '12.3.0'
 stars: 3.6
 reviews: 563
 size: '122614784'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2021-09-03
+date: '2021-09-03'
 signer: 
 reviewArchive: 
 twitter: pdaxph

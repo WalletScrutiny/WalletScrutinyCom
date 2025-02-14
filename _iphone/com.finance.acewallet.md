@@ -7,9 +7,9 @@ authors:
 appId: com.finance.acewallet
 appCountry: us
 idd: '1567143706'
-released: 2021-07-26
-updated: 2023-06-07
-version: 1.3.12
+released: '2021-07-26'
+updated: '2023-06-07'
+version: '1.3.12'
 stars: 0
 reviews: 0
 size: '58900480'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-02-05
+date: '2024-02-05'
 signer: 
 reviewArchive: 
 twitter: DAAFinance

@@ -1,36 +1,35 @@
 ---
-wsId: pouchPh
-title: Pouch.ph - Lightning Wallet
+wsId: 'pouchPh'
+title: 'Pouch.ph - Lightning Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: pouch.ph
+appId: 'pouch.ph'
 appCountry: 
-released: 2021-09-08
-updated: 2025-02-06
-version: 1.2.16
+released: '2021-09-08'
+updated: 2025-02-13
+version: '1.2.17'
 stars: 3.4
 ratings: 
 reviews: 3
-size: 
-website: https://pouch.ph
+website: 'https://pouch.ph'
 repository: 
 issue: 
-icon: pouch.ph.png
+icon: 'pouch.ph.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2022-06-22
+date: '2022-06-22'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Pouch PH Inc
+developerName: 'Pouch PH Inc'
 features:
-- ln
+- 'ln'
 
 ---
 

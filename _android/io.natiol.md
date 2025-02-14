@@ -1,36 +1,36 @@
 ---
 wsId: 
-title: Natiol Infinity (Test Version)
+title: 'Natiol Infinity (Test Version)'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: io.natiol
+appId: 'io.natiol'
 appCountry: 
-released: 2022-10-12
-updated: 2022-11-04
-version: 1.1.0
+released: '2022-10-12'
+updated: '2022-11-04'
+version: '1.1.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://natiol.io
+website: 'https://natiol.io'
 repository: 
 issue: 
-icon: io.natiol.png
+icon: 'io.natiol.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-12-19
+date: '2023-12-19'
 signer: 
 reviewArchive: 
-twitter: natiolinfinity
+twitter: 'natiolinfinity'
 social:
-- https://www.facebook.com/natiol.io
-- https://t.me/natiol_infinity
+- 'https://www.facebook.com/natiol.io'
+- 'https://t.me/natiol_infinity'
 redirect_from: 
-developerName: NATIOL INFINITY PTE LTD
+developerName: 'NATIOL INFINITY PTE LTD'
 features: 
 
 ---

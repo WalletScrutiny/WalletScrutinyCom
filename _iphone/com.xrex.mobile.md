@@ -7,9 +7,9 @@ authors:
 appId: com.xrex.mobile
 appCountry: in
 idd: 1482096895
-released: 2020-02-19
-updated: 2025-01-08
-version: 2.1.462
+released: '2020-02-19'
+updated: '2025-01-08'
+version: '2.1.462'
 stars: 5
 reviews: 9
 size: '150428672'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2024-10-07
+date: '2024-10-07'
 signer: 
 reviewArchive: 
 twitter: xrexinc

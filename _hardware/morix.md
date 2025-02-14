@@ -3,7 +3,7 @@ title: Morix Wallet Card
 appId: morix
 authors:
 - danny
-released: 2020-07-15
+released: '2020-07-15'
 discontinued: 
 updated: 
 version: 
@@ -26,7 +26,7 @@ bugbounty:
 meta: ok
 verdict: plainkey
 appHashes: 
-date: 2022-02-18
+date: '2022-02-18'
 signer: 
 reviewArchive: 
 twitter: MoriXjp

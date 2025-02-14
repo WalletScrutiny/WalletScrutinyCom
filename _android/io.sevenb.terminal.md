@@ -3,34 +3,34 @@ wsId:
 title: '7b: BTC Wallet. Buy Dogecoin'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: io.sevenb.terminal
+appId: 'io.sevenb.terminal'
 appCountry: 
-released: 2021-05-04
-updated: 2022-12-15
-version: 0.3.2
+released: '2021-05-04'
+updated: '2022-12-15'
+version: '0.3.2'
 stars: 3.6
 ratings: 56
 reviews: 5
 size: 
-website: https://sevenb.io/
+website: 'https://sevenb.io/'
 repository: 
 issue: 
-icon: io.sevenb.terminal.png
+icon: 'io.sevenb.terminal.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-07-30
+date: '2024-07-30'
 signer: 
 reviewArchive: 
-twitter: sevenb_roker
+twitter: 'sevenb_roker'
 social:
-- https://www.facebook.com/SevenBbroker
-- https://www.reddit.com/r/SevenB_roker
+- 'https://www.facebook.com/SevenBbroker'
+- 'https://www.reddit.com/r/SevenB_roker'
 redirect_from: 
-developerName: Stash Tech Solutions Limited
+developerName: 'Stash Tech Solutions Limited'
 features: 
 
 ---

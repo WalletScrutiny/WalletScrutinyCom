@@ -1,38 +1,38 @@
 ---
 wsId: 
-title: Emercoin Secure Wallet
+title: 'Emercoin Secure Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.aspanta.emcsec
+appId: 'com.aspanta.emcsec'
 appCountry: 
-released: 2017-11-28
-updated: 2018-12-25
-version: 1.2.1
+released: '2017-11-28'
+updated: '2018-12-25'
+version: '1.2.1'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://emercoin.com
+website: 'https://emercoin.com'
 repository: 
 issue: 
-icon: com.aspanta.emcsec.png
+icon: 'com.aspanta.emcsec.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
-twitter: emercoin_press
+twitter: 'emercoin_press'
 social:
-- https://t.me/emercoin_official
-- https://www.facebook.com/EmercoinOfficial
-- https://www.youtube.com/channel/UCeHlonUkITqe4PtpW8p4wmg
-- https://www.reddit.com/r/EmerCoin
+- 'https://t.me/emercoin_official'
+- 'https://www.facebook.com/EmercoinOfficial'
+- 'https://www.youtube.com/channel/UCeHlonUkITqe4PtpW8p4wmg'
+- 'https://www.reddit.com/r/EmerCoin'
 redirect_from: 
-developerName: olegarch
+developerName: 'olegarch'
 features: 
 
 ---

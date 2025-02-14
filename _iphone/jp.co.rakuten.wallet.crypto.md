@@ -7,9 +7,9 @@ authors:
 appId: jp.co.rakuten.wallet.crypto
 appCountry: jp
 idd: '1472320399'
-released: 2019-08-31
-updated: 2025-01-28
-version: 1.5.4
+released: '2019-08-31'
+updated: '2025-01-28'
+version: '1.5.4'
 stars: 4.3
 reviews: 8390
 size: '33466368'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2023-07-29
+date: '2023-07-29'
 signer: 
 reviewArchive: 
 twitter: Rakuten_Wallet

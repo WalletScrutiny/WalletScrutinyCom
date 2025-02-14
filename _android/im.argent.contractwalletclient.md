@@ -1,34 +1,33 @@
 ---
-wsId: argent
-title: Argent — Starknet Wallet
+wsId: 'argent'
+title: 'Argent — Starknet Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: im.argent.contractwalletclient
-appCountry: us
-released: 2018-10-30
+appId: 'im.argent.contractwalletclient'
+appCountry: 'us'
+released: '2018-10-30'
 updated: 2024-12-18
-version: 4.36.1.10179
+version: '4.36.1.10179'
 stars: 4.3
 ratings: 3252
 reviews: 399
-size: 
-website: https://www.argent.xyz
+website: 'https://www.argent.xyz'
 repository: 
 issue: 
-icon: im.argent.contractwalletclient.png
+icon: 'im.argent.contractwalletclient.png'
 bugbounty: 
-meta: ok
-verdict: nobtc
+meta: 'ok'
+verdict: 'nobtc'
 appHashes: 
-date: 2022-01-10
+date: '2022-01-10'
 signer: 
 reviewArchive: 
-twitter: argentHQ
+twitter: 'argentHQ'
 social: 
 redirect_from: 
-developerName: Argent Labs
+developerName: 'Argent Labs'
 features: 
 
 ---

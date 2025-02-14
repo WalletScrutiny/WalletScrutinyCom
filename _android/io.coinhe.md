@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: CoinHe
+title: 'CoinHe'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: io.coinhe
+appId: 'io.coinhe'
 appCountry: 
-released: 2019-03-19
-updated: 2020-06-05
-version: 1.0.6.7
+released: '2019-03-19'
+updated: '2020-06-05'
+version: '1.0.6.7'
 stars: 4.5
 ratings: 
 reviews: 5
 size: 
-website: https://coinhe.io/
+website: 'https://coinhe.io/'
 repository: 
 issue: 
-icon: io.coinhe.png
+icon: 'io.coinhe.png'
 bugbounty: 
-meta: defunct
-verdict: wip
+meta: 'defunct'
+verdict: 'wip'
 appHashes: 
-date: 2023-05-05
+date: '2023-05-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: CHT Innovative Technology PTE.  LTD
+developerName: 'CHT Innovative Technology PTE.  LTD'
 features: 
 
 ---

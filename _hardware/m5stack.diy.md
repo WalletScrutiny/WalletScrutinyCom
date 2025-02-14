@@ -3,9 +3,9 @@ title: M5Stack hardware wallet
 appId: m5stack.diy
 authors:
 - danny
-released: 2019-06-25
+released: '2019-06-25'
 discontinued: 
-updated: 2019-06-25
+updated: '2019-06-25'
 version: 
 binaries: 
 dimensions: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: obsolete
 verdict: diy
 appHashes: 
-date: 2022-05-17
+date: '2022-05-17'
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,36 +1,35 @@
 ---
-wsId: nash
+wsId: 'nash'
 title: 'Nash: Trade & Invest in Crypto'
 altTitle: 
 authors:
-- kiwilamb
-- danny
+- 'kiwilamb'
+- 'danny'
 users: 10000
-appId: io.nash.app
+appId: 'io.nash.app'
 appCountry: 
-released: 2019-08-31
+released: '2019-08-31'
 updated: 2025-01-29
-version: 17.0.11
+version: '17.0.11'
 stars: 4.6
 ratings: 646
 reviews: 25
-size: 
-website: https://nash.io
+website: 'https://nash.io'
 repository: 
 issue: 
-icon: io.nash.app.png
+icon: 'io.nash.app.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-15
+date: '2024-07-15'
 signer: 
 reviewArchive: 
-twitter: nashsocial
+twitter: 'nashsocial'
 social:
-- https://www.linkedin.com/company/nashsocial
+- 'https://www.linkedin.com/company/nashsocial'
 redirect_from: 
-developerName: nash.io
+developerName: 'nash.io'
 features: 
 
 ---

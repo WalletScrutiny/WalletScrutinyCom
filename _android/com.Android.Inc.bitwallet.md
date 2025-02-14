@@ -1,37 +1,36 @@
 ---
-wsId: BitWallet
-title: BitWallet - Buy & Sell Bitcoin
+wsId: 'BitWallet'
+title: 'BitWallet - Buy & Sell Bitcoin'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 100000
-appId: com.Android.Inc.bitwallet
+appId: 'com.Android.Inc.bitwallet'
 appCountry: 
-released: 2019-07-22
+released: '2019-07-22'
 updated: 2024-11-26
-version: 2.0.1
+version: '2.0.1'
 stars: 4.8
 ratings: 1214
 reviews: 262
-size: 
-website: https://www.bitwallet.org
+website: 'https://www.bitwallet.org'
 repository: 
 issue: 
-icon: com.Android.Inc.bitwallet.png
+icon: 'com.Android.Inc.bitwallet.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2020-05-29
+date: '2020-05-29'
 signer: 
 reviewArchive: 
-twitter: bitwalletinc
+twitter: 'bitwalletinc'
 social:
-- https://www.facebook.com/BitWalletInc
+- 'https://www.facebook.com/BitWalletInc'
 redirect_from:
-- /com.Android.Inc.bitwallet/
-- /posts/com.Android.Inc.bitwallet/
-developerName: BitWallet, Incorporated
+- '/com.Android.Inc.bitwallet/'
+- '/posts/com.Android.Inc.bitwallet/'
+developerName: 'BitWallet, Incorporated'
 features: 
 
 ---

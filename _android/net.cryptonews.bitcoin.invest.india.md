@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Bitcoin Invest India
+title: 'Bitcoin Invest India'
 altTitle: 
 authors: 
 users: 0
-appId: net.cryptonews.bitcoin.invest.india
+appId: 'net.cryptonews.bitcoin.invest.india'
 appCountry: 
-released: 2021-06-23
-updated: 2021-06-23
+released: '2021-06-23'
+updated: '2021-06-23'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 2.3M
+size: '2.3M'
 website: 
 repository: 
 issue: 
-icon: net.cryptonews.bitcoin.invest.india.jpg
+icon: 'net.cryptonews.bitcoin.invest.india.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-10-01
+date: '2021-10-01'
 signer: 
 reviewArchive: 
 twitter: 

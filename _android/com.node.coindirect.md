@@ -1,36 +1,36 @@
 ---
-wsId: coindirect
-title: Coindirect - Buy & Sell Bitcoi
+wsId: 'coindirect'
+title: 'Coindirect - Buy & Sell Bitcoi'
 altTitle: 
 authors:
-- kiwilamb
+- 'kiwilamb'
 users: 50000
-appId: com.node.coindirect
+appId: 'com.node.coindirect'
 appCountry: 
-released: 2018-10-10
-updated: 2021-07-07
-version: 1.3.0
+released: '2018-10-10'
+updated: '2021-07-07'
+version: '1.3.0'
 stars: 1.7
 ratings: 543
 reviews: 31
 size: 
-website: https://www.coindirect.com
+website: 'https://www.coindirect.com'
 repository: 
 issue: 
-icon: com.node.coindirect.png
+icon: 'com.node.coindirect.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
-twitter: coindirectcom
+twitter: 'coindirectcom'
 social:
-- https://www.linkedin.com/company/coindirect
-- https://www.facebook.com/coindirectcom
+- 'https://www.linkedin.com/company/coindirect'
+- 'https://www.facebook.com/coindirectcom'
 redirect_from: 
-developerName: Coin  Limited
+developerName: 'Coin  Limited'
 features: 
 
 ---

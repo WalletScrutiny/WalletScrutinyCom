@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Coinbase Wallet Lite
+title: 'Coinbase Wallet Lite'
 altTitle: 
 authors: 
 users: 100000
-appId: com.coinbase.wallite
+appId: 'com.coinbase.wallite'
 appCountry: 
-released: 2019-04-16
-updated: 2020-07-17
-version: 0.5-alpha
+released: '2019-04-16'
+updated: '2020-07-17'
+version: '0.5-alpha'
 stars: 3.8
 ratings: 378
 reviews: 16
 size: 
-website: https://wallet.coinbase.com
+website: 'https://wallet.coinbase.com'
 repository: 
 issue: 
-icon: com.coinbase.wallite.png
+icon: 'com.coinbase.wallite.png'
 bugbounty: 
-meta: removed
-verdict: nobtc
+meta: 'removed'
+verdict: 'nobtc'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
 twitter: 

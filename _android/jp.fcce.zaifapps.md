@@ -1,35 +1,35 @@
 ---
-wsId: ZaifExchange
-title: Zaif‐ビットコイン取引・購入なら暗号資産交換所Zaif
+wsId: 'ZaifExchange'
+title: 'Zaif‐ビットコイン取引・購入なら暗号資産交換所Zaif'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: jp.fcce.zaifapps
-appCountry: in
-released: 2020-05-07
-updated: 2023-10-05
-version: 1.1.23
+appId: 'jp.fcce.zaifapps'
+appCountry: 'in'
+released: '2020-05-07'
+updated: '2023-10-05'
+version: '1.1.23'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://zaif.jp
+website: 'https://zaif.jp'
 repository: 
 issue: 
-icon: jp.fcce.zaifapps.png
+icon: 'jp.fcce.zaifapps.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-12-19
+date: '2023-12-19'
 signer: 
 reviewArchive: 
-twitter: zaifdotjp
+twitter: 'zaifdotjp'
 social:
-- https://www.facebook.com/zaifdotjp
+- 'https://www.facebook.com/zaifdotjp'
 redirect_from: 
-developerName: 株式会社Ｚａｉｆ
+developerName: '株式会社Ｚａｉｆ'
 features: 
 
 ---

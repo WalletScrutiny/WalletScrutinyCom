@@ -1,35 +1,34 @@
 ---
-wsId: dcoin
-title: Dcoin - Bitcoin Exchange
+wsId: 'dcoin'
+title: 'Dcoin - Bitcoin Exchange'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.dcoin.exchange
-appCountry: us
-released: 2018-11-25
+appId: 'com.dcoin.exchange'
+appCountry: 'us'
+released: '2018-11-25'
 updated: 2023-05-30
-version: 5.7.8-play
+version: '5.7.8-play'
 stars: 4.1
 ratings: 1346
 reviews: 44
-size: 
-website: https://www.dcoin.com
+website: 'https://www.dcoin.com'
 repository: 
 issue: 
-icon: com.dcoin.exchange.png
+icon: 'com.dcoin.exchange.png'
 bugbounty: 
-meta: stale
-verdict: custodial
+meta: 'stale'
+verdict: 'custodial'
 appHashes: 
-date: 2024-05-24
+date: '2024-05-24'
 signer: 
 reviewArchive: 
-twitter: dcoinexchange
+twitter: 'dcoinexchange'
 social:
-- https://www.linkedin.com/company/dcoin-exchange
+- 'https://www.linkedin.com/company/dcoin-exchange'
 redirect_from: 
-developerName: Dcoin
+developerName: 'Dcoin'
 features: 
 
 ---

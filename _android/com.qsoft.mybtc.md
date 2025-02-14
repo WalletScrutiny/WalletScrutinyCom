@@ -3,31 +3,31 @@ wsId:
 title: 'MyBTCNigeria : Sell and Buy Bitcoin in Nigeria'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.qsoft.mybtc
+appId: 'com.qsoft.mybtc'
 appCountry: 
-released: 2021-06-05
-updated: 2021-06-05
-version: 1.0.0
+released: '2021-06-05'
+updated: '2021-06-05'
+version: '1.0.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://mybtc.ng
+website: 'https://mybtc.ng'
 repository: 
 issue: 
-icon: com.qsoft.mybtc.png
+icon: 'com.qsoft.mybtc.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
-twitter: btc_nigeria
+twitter: 'btc_nigeria'
 social:
-- https://www.facebook.com/mybtcnigeria
+- 'https://www.facebook.com/mybtcnigeria'
 redirect_from: 
 developerName: 
 features: 

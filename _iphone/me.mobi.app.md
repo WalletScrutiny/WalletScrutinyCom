@@ -7,9 +7,9 @@ authors:
 appId: me.mobi.app
 appCountry: au
 idd: 1180017272
-released: 2016-12-31
-updated: 2023-05-02
-version: 2.36.3
+released: '2016-12-31'
+updated: '2023-05-02'
+version: '2.36.3'
 stars: 0
 reviews: 0
 size: '46117888'
@@ -21,7 +21,7 @@ bugbounty:
 meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-04-28
+date: '2024-04-28'
 signer: 
 reviewArchive: 
 twitter: mobimeglobal

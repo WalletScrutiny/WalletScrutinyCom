@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: Fox Network Exchange
+title: 'Fox Network Exchange'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.app.foxexchangeapp
+appId: 'com.app.foxexchangeapp'
 appCountry: 
-released: 2022-03-06
-updated: 2023-08-20
+released: '2022-03-06'
+updated: '2023-08-20'
 version: '2.0'
 stars: 4
 ratings: 
 reviews: 96
 size: 
-website: https://foxnetwork.app/
+website: 'https://foxnetwork.app/'
 repository: 
 issue: 
-icon: com.app.foxexchangeapp.png
+icon: 'com.app.foxexchangeapp.png'
 bugbounty: 
-meta: removed
-verdict: nobtc
+meta: 'removed'
+verdict: 'nobtc'
 appHashes: 
-date: 2024-07-14
+date: '2024-07-14'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: FOX TECHONOLOGY
+developerName: 'FOX TECHONOLOGY'
 features: 
 
 ---

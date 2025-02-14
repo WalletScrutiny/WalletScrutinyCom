@@ -1,37 +1,36 @@
 ---
-wsId: whitebit
-title: WhiteBIT – buy & sell bitcoin
+wsId: 'whitebit'
+title: 'WhiteBIT – buy & sell bitcoin'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000000
-appId: com.whitebit.android
-appCountry: ua
-released: 2019-06-07
-updated: 2025-02-06
-version: 3.38.0
+appId: 'com.whitebit.android'
+appCountry: 'ua'
+released: '2019-06-07'
+updated: 2025-02-14
+version: '3.39.0'
 stars: 4.4
 ratings: 1962
-reviews: 1196
-size: 
-website: https://whitebit.com/
+reviews: 1199
+website: 'https://whitebit.com/'
 repository: 
 issue: 
-icon: com.whitebit.android.png
+icon: 'com.whitebit.android.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-09-10
+date: '2021-09-10'
 signer: 
 reviewArchive: 
-twitter: whitebit
+twitter: 'whitebit'
 social:
-- https://www.linkedin.com/company/whitebit-cryptocurrency-exchange
-- https://www.facebook.com/whitebit
-- https://www.reddit.com/r/WhiteBitExchange
+- 'https://www.linkedin.com/company/whitebit-cryptocurrency-exchange'
+- 'https://www.facebook.com/whitebit'
+- 'https://www.reddit.com/r/WhiteBitExchange'
 redirect_from: 
-developerName: WhiteBit
+developerName: 'WhiteBit'
 features: 
 
 ---

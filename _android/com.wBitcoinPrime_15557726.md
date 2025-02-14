@@ -1,13 +1,13 @@
 ---
 wsId: 
-title: Bitcoin Prime
+title: 'Bitcoin Prime'
 altTitle: 
 authors: 
 users: 1000
-appId: com.wBitcoinPrime_15557726
+appId: 'com.wBitcoinPrime_15557726'
 appCountry: 
-released: 2022-05-26
-updated: 2022-05-26
+released: '2022-05-26'
+updated: '2022-05-26'
 version: '1.0'
 stars: 
 ratings: 
@@ -16,18 +16,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.wBitcoinPrime_15557726.jpg
+icon: 'com.wBitcoinPrime_15557726.jpg'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2023-04-16
+date: '2023-04-16'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: BTC Prime
+developerName: 'BTC Prime'
 features: 
 
 ---

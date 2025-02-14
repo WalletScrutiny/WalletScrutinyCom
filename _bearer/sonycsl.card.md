@@ -3,7 +3,7 @@ title: Sony CSL IC Card
 appId: sonycsl.card
 authors:
 - danny
-released: 2018-10-23
+released: '2018-10-23'
 discontinued: 
 updated: 
 version: 
@@ -22,7 +22,7 @@ icon:
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-04-29
+date: '2022-04-29'
 signer: 
 reviewArchive: 
 twitter: 

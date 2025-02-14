@@ -1,36 +1,35 @@
 ---
-wsId: wooXTrading
+wsId: 'wooXTrading'
 title: 'WOO X: Trade Bitcoin & ETH'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: network.woo.mobile
+appId: 'network.woo.mobile'
 appCountry: 
-released: 2021-12-17
+released: '2021-12-17'
 updated: 2025-02-07
-version: 3.48.0
+version: '3.48.0'
 stars: 3.8
 ratings: 
 reviews: 11
-size: 
-website: https://woox.io/
+website: 'https://woox.io/'
 repository: 
 issue: 
-icon: network.woo.mobile.png
+icon: 'network.woo.mobile.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-04-15
+date: '2023-04-15'
 signer: 
 reviewArchive: 
-twitter: WOOnetwork
+twitter: 'WOOnetwork'
 social:
-- https://www.facebook.com/WOOnetwork.official
-- https://www.linkedin.com/company/woonetwork/
+- 'https://www.facebook.com/WOOnetwork.official'
+- 'https://www.linkedin.com/company/woonetwork/'
 redirect_from: 
-developerName: WOOTECH Limited
+developerName: 'WOOTECH Limited'
 features: 
 
 ---

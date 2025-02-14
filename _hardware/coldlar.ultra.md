@@ -26,7 +26,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: 2024-12-16
+date: '2024-12-16'
 signer: 
 reviewArchive: 
 twitter: Coldlar

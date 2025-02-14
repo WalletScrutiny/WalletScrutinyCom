@@ -7,9 +7,9 @@ authors:
 appId: com.vault12.vault12
 appCountry: us
 idd: '1451596986'
-released: 2019-08-28
-updated: 2024-12-19
-version: 2.5.3
+released: '2019-08-28'
+updated: '2024-12-19'
+version: '2.5.3'
 stars: 4.5
 reviews: 31
 size: '86545408'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nowallet
 appHashes: 
-date: 2023-03-23
+date: '2023-03-23'
 signer: 
 reviewArchive: 
 twitter: _vault12_

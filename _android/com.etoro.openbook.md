@@ -1,36 +1,35 @@
 ---
-wsId: etoro
+wsId: 'etoro'
 title: 'eToro: Trade. Invest. Connect.'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 10000000
-appId: com.etoro.openbook
+appId: 'com.etoro.openbook'
 appCountry: 
-released: 2013-11-05
+released: '2013-11-05'
 updated: 2025-02-09
-version: 651.565.3
+version: '651.565.3'
 stars: 3.8
 ratings: 111823
-reviews: 3542
-size: 
-website: https://www.etoro.com/
+reviews: 3544
+website: 'https://www.etoro.com/'
 repository: 
 issue: 
-icon: com.etoro.openbook.jpg
+icon: 'com.etoro.openbook.jpg'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-04-02
+date: '2021-04-02'
 signer: 
 reviewArchive: 
-twitter: etoro
+twitter: 'etoro'
 social:
-- https://www.linkedin.com/company/etoro
-- https://www.facebook.com/eToro
+- 'https://www.linkedin.com/company/etoro'
+- 'https://www.facebook.com/eToro'
 redirect_from: 
-developerName: eToro
+developerName: 'eToro'
 features: 
 
 ---

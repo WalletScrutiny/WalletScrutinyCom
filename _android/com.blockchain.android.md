@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Blockchain
+title: 'Blockchain'
 altTitle: 
 authors: 
 users: 50000
-appId: com.blockchain.android
+appId: 'com.blockchain.android'
 appCountry: 
-released: 2020-06-15
-updated: 2021-01-04
-version: 1.0.7.5
+released: '2020-06-15'
+updated: '2021-01-04'
+version: '1.0.7.5'
 stars: 4.4
 ratings: 2737
 reviews: 532
-size: 21M
+size: '21M'
 website: 
-repository: https://github.com/hoanghiephui/Bitcoin-Wallet
+repository: 'https://github.com/hoanghiephui/Bitcoin-Wallet'
 issue: 
-icon: com.blockchain.android.png
+icon: 'com.blockchain.android.png'
 bugbounty: 
-meta: removed
-verdict: obfuscated
+meta: 'removed'
+verdict: 'obfuscated'
 appHashes: 
-date: 2021-01-15
+date: '2021-01-15'
 signer: 
 reviewArchive: 
 twitter: 

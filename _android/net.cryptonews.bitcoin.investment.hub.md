@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Bitcoin Investment Hub
+title: 'Bitcoin Investment Hub'
 altTitle: 
 authors: 
 users: 0
-appId: net.cryptonews.bitcoin.investment.hub
+appId: 'net.cryptonews.bitcoin.investment.hub'
 appCountry: 
-released: 2021-07-19
-updated: 2021-07-19
+released: '2021-07-19'
+updated: '2021-07-19'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 2.3M
+size: '2.3M'
 website: 
 repository: 
 issue: 
-icon: net.cryptonews.bitcoin.investment.hub.jpg
+icon: 'net.cryptonews.bitcoin.investment.hub.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-10-01
+date: '2021-10-01'
 signer: 
 reviewArchive: 
 twitter: 

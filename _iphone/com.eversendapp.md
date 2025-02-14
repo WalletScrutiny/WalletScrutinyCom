@@ -7,9 +7,9 @@ authors:
 appId: com.eversendapp
 appCountry: lv
 idd: 1438341192
-released: 2020-05-28
-updated: 2025-02-11
-version: 0.6.19
+released: '2020-05-28'
+updated: '2025-02-11'
+version: '0.6.19'
 stars: 0
 reviews: 0
 size: '94653440'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nobtc
 appHashes: 
-date: 2021-11-01
+date: '2021-11-01'
 signer: 
 reviewArchive: 
 twitter: eversendapp

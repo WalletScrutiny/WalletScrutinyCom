@@ -3,7 +3,7 @@ title: Xeeda
 appId: xeeda
 authors:
 - danny
-released: 2018-06-06
+released: '2018-06-06'
 discontinued: 
 updated: 
 version: 
@@ -26,7 +26,7 @@ bugbounty:
 meta: ok
 verdict: vapor
 appHashes: 
-date: 2022-04-11
+date: '2022-04-11'
 signer: 
 reviewArchive: 
 twitter: xeedaofficial

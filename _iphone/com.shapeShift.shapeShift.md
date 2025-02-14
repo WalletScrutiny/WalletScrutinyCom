@@ -7,9 +7,9 @@ authors:
 appId: com.shapeShift.shapeShift
 appCountry: 
 idd: 996569075
-released: 2015-06-09
-updated: 2024-06-27
-version: 3.1.0
+released: '2015-06-09'
+updated: '2024-06-27'
+version: '3.1.0'
 stars: 4.2
 reviews: 60
 size: '15678464'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: 2021-05-23
+date: '2021-05-23'
 signer: 
 reviewArchive: 
 twitter: ShapeShift_io

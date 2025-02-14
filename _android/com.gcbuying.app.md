@@ -1,34 +1,34 @@
 ---
-wsId: GCBuying
-title: GCBuying - Sell & exchange Gif
+wsId: 'GCBuying'
+title: 'GCBuying - Sell & exchange Gif'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.gcbuying.app
-appCountry: ng
-released: 2021-01-26
-updated: 2021-09-17
-version: 1.0.10
+appId: 'com.gcbuying.app'
+appCountry: 'ng'
+released: '2021-01-26'
+updated: '2021-09-17'
+version: '1.0.10'
 stars: 3.6
 ratings: 405
 reviews: 84
 size: 
-website: http://www.gcbuying.com
+website: 'http://www.gcbuying.com'
 repository: 
 issue: 
-icon: com.gcbuying.app.jpg
+icon: 'com.gcbuying.app.jpg'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-06-21
+date: '2023-06-21'
 signer: 
 reviewArchive: 
-twitter: gcbuying
+twitter: 'gcbuying'
 social: 
 redirect_from: 
-developerName: GCBUYING
+developerName: 'GCBUYING'
 features: 
 
 ---

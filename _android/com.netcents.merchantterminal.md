@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: NetCents Merchant Gateway
+title: 'NetCents Merchant Gateway'
 altTitle: 
 authors: 
 users: 500
-appId: com.netcents.merchantterminal
+appId: 'com.netcents.merchantterminal'
 appCountry: 
-released: 2018-02-11
+released: '2018-02-11'
 updated: 2024-07-10
-version: 3.1.20
+version: '3.1.20'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: http://www.net-cents.com
+website: 'http://www.net-cents.com'
 repository: 
 issue: 
-icon: com.netcents.merchantterminal.png
+icon: 'com.netcents.merchantterminal.png'
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: 'ok'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-06-02
+date: '2023-06-02'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: NetCents Technology
+developerName: 'NetCents Technology'
 features: 
 
 ---

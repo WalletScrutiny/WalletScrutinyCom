@@ -1,36 +1,35 @@
 ---
-wsId: rockitCoin
+wsId: 'rockitCoin'
 title: 'RockItCoin: Buy Bitcoin & More'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: co.rockitcoinx.app
+appId: 'co.rockitcoinx.app'
 appCountry: 
-released: 2019-09-20
+released: '2019-09-20'
 updated: 2024-11-27
-version: 3.7.1
+version: '3.7.1'
 stars: 4.1
 ratings: 
 reviews: 178
-size: 
-website: https://rockitcoin.com
+website: 'https://rockitcoin.com'
 repository: 
 issue: 
-icon: co.rockitcoinx.app.png
+icon: 'co.rockitcoinx.app.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-24
+date: '2024-07-24'
 signer: 
 reviewArchive: 
-twitter: rockitcoin
+twitter: 'rockitcoin'
 social:
-- https://www.facebook.com/RockItCoin
-- https://www.instagram.com/rockitcoin
+- 'https://www.facebook.com/RockItCoin'
+- 'https://www.instagram.com/rockitcoin'
 redirect_from: 
-developerName: RockItCoin
+developerName: 'RockItCoin'
 features: 
 
 ---

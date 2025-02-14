@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: AfrBTC:Sell Gift Cards& Redeem
+title: 'AfrBTC:Sell Gift Cards& Redeem'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.afrbtcapp
+appId: 'com.afrbtcapp'
 appCountry: 
-released: 2019-05-05
+released: '2019-05-05'
 updated: 2024-07-12
-version: 4.2.2
+version: '4.2.2'
 stars: 3.8
 ratings: 
-reviews: 123
-size: 
-website: https://www.afrbtc.com
+reviews: 124
+website: 'https://www.afrbtc.com'
 repository: 
 issue: 
-icon: com.afrbtcapp.png
+icon: 'com.afrbtcapp.png'
 bugbounty: 
-meta: ok
-verdict: nosendreceive
+meta: 'ok'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2023-07-25
+date: '2023-07-25'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: GiftCards Team
+developerName: 'GiftCards Team'
 features: 
 
 ---

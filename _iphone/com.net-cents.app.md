@@ -7,9 +7,9 @@ authors:
 appId: com.net-cents.app
 appCountry: us
 idd: 1105188361
-released: 2016-04-23
-updated: 2023-02-03
-version: 2.11.17
+released: '2016-04-23'
+updated: '2023-02-03'
+version: '2.11.17'
 stars: 3
 reviews: 8
 size: '65513472'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-05-10
+date: '2023-05-10'
 signer: 
 reviewArchive: 
 twitter: netcentshq

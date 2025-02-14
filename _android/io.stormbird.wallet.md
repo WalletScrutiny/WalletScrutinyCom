@@ -7,8 +7,8 @@ authors:
 users: 100000
 appId: io.stormbird.wallet
 appCountry: us
-released: 2018-05-19
-updated: 2024-12-01
+released: '2018-05-19'
+updated: '2024-12-01'
 version: '3.87'
 stars: 4.5
 ratings: 247
@@ -22,7 +22,7 @@ bugbounty:
 meta: ok
 verdict: nobtc
 appHashes: 
-date: 2021-10-10
+date: '2021-10-10'
 signer: 
 reviewArchive: 
 twitter: Alpha_wallet

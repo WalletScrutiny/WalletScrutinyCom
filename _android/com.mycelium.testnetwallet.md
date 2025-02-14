@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: Mycelium Testnet Wallet
+title: 'Mycelium Testnet Wallet'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 10000
-appId: com.mycelium.testnetwallet
+appId: 'com.mycelium.testnetwallet'
 appCountry: 
-released: 2013-10-04
+released: '2013-10-04'
 updated: 2025-02-12
-version: 3.18.1.0-TESTNET
+version: '3.18.1.0-TESTNET'
 stars: 3.8
 ratings: 146
 reviews: 10
-size: 
-website: https://mycelium.com
+website: 'https://mycelium.com'
 repository: 
 issue: 
-icon: com.mycelium.testnetwallet.png
+icon: 'com.mycelium.testnetwallet.png'
 bugbounty: 
-meta: ok
-verdict: nobtc
+meta: 'ok'
+verdict: 'nobtc'
 appHashes: 
-date: 2021-08-02
+date: '2021-08-02'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Mycelium Developers
+developerName: 'Mycelium Developers'
 features: 
 
 ---

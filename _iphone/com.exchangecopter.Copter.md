@@ -7,9 +7,9 @@ authors:
 appId: com.exchangecopter.Copter
 appCountry: us
 idd: '1598187938'
-released: 2021-12-07
-updated: 2022-09-19
-version: 1.5.7
+released: '2021-12-07'
+updated: '2022-09-19'
+version: '1.5.7'
 stars: 5
 reviews: 1
 size: '14749696'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-03-02
+date: '2024-03-02'
 signer: 
 reviewArchive: 
 twitter: 

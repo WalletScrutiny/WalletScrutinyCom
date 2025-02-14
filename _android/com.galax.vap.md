@@ -1,13 +1,13 @@
 ---
 wsId: 
-title: Galaxy ventures - Trade Crypto
+title: 'Galaxy ventures - Trade Crypto'
 altTitle: 
 authors: 
 users: 100
-appId: com.galax.vap
+appId: 'com.galax.vap'
 appCountry: 
-released: 2021-10-03
-updated: 2021-10-03
+released: '2021-10-03'
+updated: '2021-10-03'
 version: '1.0'
 stars: 
 ratings: 
@@ -16,18 +16,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.galax.vap.png
+icon: 'com.galax.vap.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-04-03
+date: '2024-04-03'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: daniel oliver
+developerName: 'daniel oliver'
 features: 
 
 ---

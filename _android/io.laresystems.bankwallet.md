@@ -4,30 +4,30 @@ title: 'Lare: Crypto Wallet'
 altTitle: 
 authors: 
 users: 1000
-appId: io.laresystems.bankwallet
+appId: 'io.laresystems.bankwallet'
 appCountry: 
-released: 2022-03-07
-updated: 2022-03-20
-version: 1.0.3
+released: '2022-03-07'
+updated: '2022-03-20'
+version: '1.0.3'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://larewallet.cc
+website: 'https://larewallet.cc'
 repository: 
 issue: 
-icon: io.laresystems.bankwallet.png
+icon: 'io.laresystems.bankwallet.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2024-02-05
+date: '2024-02-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Lare Wallet
+developerName: 'Lare Wallet'
 features: 
 
 ---

@@ -1,37 +1,37 @@
 ---
 wsId: 
-title: WeToken
+title: 'WeToken'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: io.wetoken2.app
+appId: 'io.wetoken2.app'
 appCountry: 
-released: 2021-11-15
-updated: 2023-02-21
-version: 1.8.4
+released: '2021-11-15'
+updated: '2023-02-21'
+version: '1.8.4'
 stars: 3
 ratings: 
 reviews: 3
 size: 
-website: https://wetoken.io/
+website: 'https://wetoken.io/'
 repository: 
 issue: 
-icon: io.wetoken2.app.png
+icon: 'io.wetoken2.app.png'
 bugbounty: 
-meta: removed
-verdict: nobtc
+meta: 'removed'
+verdict: 'nobtc'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
-twitter: wetokenpro
+twitter: 'wetokenpro'
 social:
-- https://www.facebook.com/WetokenPro
-- https://www.reddit.com/user/WeTokenPay
-- https://t.me/WeToken_English
+- 'https://www.facebook.com/WetokenPro'
+- 'https://www.reddit.com/user/WeTokenPay'
+- 'https://t.me/WeToken_English'
 redirect_from: 
-developerName: Wetoken Technology Limited
+developerName: 'Wetoken Technology Limited'
 features: 
 
 ---

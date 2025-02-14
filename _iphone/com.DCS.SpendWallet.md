@@ -1,35 +1,35 @@
 ---
-wsId: spend
-title: Spend App
+wsId: 'spend'
+title: 'Spend App'
 altTitle: 
 authors:
-- kiwilamb
-appId: com.DCS.SpendWallet
+- 'kiwilamb'
+appId: 'com.DCS.SpendWallet'
 appCountry: 
-idd: 1357740381
-released: 2018-03-30
-updated: 2020-09-05
-version: 3.2.6
+idd: '1357740381'
+released: '2018-03-30'
+updated: '2020-09-05'
+version: '3.2.6'
 stars: 4
 reviews: 326
 size: '124011520'
-website: https://spend.com
+website: 'https://spend.com'
 repository: 
 issue: 
-icon: com.DCS.SpendWallet.jpg
+icon: 'com.DCS.SpendWallet.jpg'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-08-16
+date: '2023-08-16'
 signer: 
 reviewArchive: 
-twitter: Spendcom
+twitter: 'Spendcom'
 social:
-- https://www.facebook.com/spend
-- https://www.reddit.com/r/Spend
+- 'https://www.facebook.com/spend'
+- 'https://www.reddit.com/r/Spend'
 features: 
-developerName: Spend Inc
+developerName: 'Spend Inc'
 
 ---
 

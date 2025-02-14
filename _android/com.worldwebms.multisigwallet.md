@@ -1,41 +1,41 @@
 ---
-wsId: unidoMultisigWallet
-title: Unido
+wsId: 'unidoMultisigWallet'
+title: 'Unido'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.worldwebms.multisigwallet
+appId: 'com.worldwebms.multisigwallet'
 appCountry: 
-released: 2019-02-15
-updated: 2023-12-14
-version: 4.5.0
+released: '2019-02-15'
+updated: '2023-12-14'
+version: '4.5.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://unido.us/
+website: 'https://unido.us/'
 repository: 
 issue: 
-icon: com.worldwebms.multisigwallet.png
+icon: 'com.worldwebms.multisigwallet.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2024-11-21
+date: '2024-11-21'
 signer: 
 reviewArchive: 
-twitter: UnidoEP
+twitter: 'UnidoEP'
 social:
-- https://t.me/unidogroup
-- https://www.linkedin.com/company/unidocore
-- https://www.youtube.com/channel/UCdEGWp4RbkIjHfZfDFuBXsg/featured
-- https://www.reddit.com/user/Unidocore
-- https://discord.com/invite/cs5HeDDmDY
-- https://unidocore.medium.com
-- https://github.com/unidocore
+- 'https://t.me/unidogroup'
+- 'https://www.linkedin.com/company/unidocore'
+- 'https://www.youtube.com/channel/UCdEGWp4RbkIjHfZfDFuBXsg/featured'
+- 'https://www.reddit.com/user/Unidocore'
+- 'https://discord.com/invite/cs5HeDDmDY'
+- 'https://unidocore.medium.com'
+- 'https://github.com/unidocore'
 redirect_from: 
-developerName: WorldWeb Group Pty Ltd
+developerName: 'WorldWeb Group Pty Ltd'
 features: 
 
 ---

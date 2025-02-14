@@ -1,37 +1,37 @@
 ---
-wsId: ibtcex
-title: iBTCex
+wsId: 'ibtcex'
+title: 'iBTCex'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.quanli.ibtc
+appId: 'com.quanli.ibtc'
 appCountry: 
-released: 2019-12-09
-updated: 2023-09-07
-version: 1.6.0
+released: '2019-12-09'
+updated: '2023-09-07'
+version: '1.6.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://ibtc.com.hk
+website: 'https://ibtc.com.hk'
 repository: 
 issue: 
-icon: com.quanli.ibtc.png
+icon: 'com.quanli.ibtc.png'
 bugbounty: 
-meta: defunct
-verdict: custodial
+meta: 'defunct'
+verdict: 'custodial'
 appHashes: 
-date: 2023-08-16
+date: '2023-08-16'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://www.instagram.com/ibtcex
-- http://t.me/ibtc_official
-- https://www.facebook.com/ibtcex
+- 'https://www.instagram.com/ibtcex'
+- 'http://t.me/ibtc_official'
+- 'https://www.facebook.com/ibtcex'
 redirect_from: 
-developerName: iBTC Technology
+developerName: 'iBTC Technology'
 features: 
 
 ---

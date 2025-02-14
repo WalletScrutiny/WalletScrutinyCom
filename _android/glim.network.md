@@ -1,36 +1,36 @@
 ---
 wsId: 
-title: Glim Network
+title: 'Glim Network'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: glim.network
+appId: 'glim.network'
 appCountry: 
-released: 2022-06-26
-updated: 2023-11-12
-version: 1.1.0
+released: '2022-06-26'
+updated: '2023-11-12'
+version: '1.1.0'
 stars: 3.8
 ratings: 
 reviews: 60
 size: 
-website: https://glimnetwork.com
+website: 'https://glimnetwork.com'
 repository: 
 issue: 
-icon: glim.network.png
+icon: 'glim.network.png'
 bugbounty: 
-meta: removed
-verdict: nobtc
+meta: 'removed'
+verdict: 'nobtc'
 appHashes: 
-date: 2024-07-14
+date: '2024-07-14'
 signer: 
 reviewArchive: 
-twitter: GlimNetwork
+twitter: 'GlimNetwork'
 social:
-- https://t.me/GlimNetwork
-- https://www.facebook.com/GlimNetwork
+- 'https://t.me/GlimNetwork'
+- 'https://www.facebook.com/GlimNetwork'
 redirect_from: 
-developerName: TechieDev
+developerName: 'TechieDev'
 features: 
 
 ---

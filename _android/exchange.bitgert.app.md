@@ -1,36 +1,35 @@
 ---
 wsId: 
-title: Bitgert Exchange
+title: 'Bitgert Exchange'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: exchange.bitgert.app
+appId: 'exchange.bitgert.app'
 appCountry: 
-released: 2023-01-13
+released: '2023-01-13'
 updated: 2025-02-06
 version: '1.0'
 stars: 4.1
 ratings: 
 reviews: 31
-size: 
-website: https://bitgert.exchange
+website: 'https://bitgert.exchange'
 repository: 
 issue: 
-icon: exchange.bitgert.app.png
+icon: 'exchange.bitgert.app.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-07-11
+date: '2023-07-11'
 signer: 
 reviewArchive: 
-twitter: exchangebitgert
+twitter: 'exchangebitgert'
 social:
-- https://www.reddit.com/r/Bitgert
-- https://t.me/exchangebitgert
+- 'https://www.reddit.com/r/Bitgert'
+- 'https://t.me/exchangebitgert'
 redirect_from: 
-developerName: Bitgert Technologies Ltd
+developerName: 'Bitgert Technologies Ltd'
 features: 
 
 ---

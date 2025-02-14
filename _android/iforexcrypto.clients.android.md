@@ -1,36 +1,36 @@
 ---
-wsId: iForexCrypto
-title: iFOREX Crypto online trading
+wsId: 'iForexCrypto'
+title: 'iFOREX Crypto online trading'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: iforexcrypto.clients.android
+appId: 'iforexcrypto.clients.android'
 appCountry: 
 released: 
-updated: 2024-06-18
-version: 2.1.50
+updated: '2024-06-18'
+version: '2.1.50'
 stars: 3.8
 ratings: 
 reviews: 
 size: 
-website: https://www.iforexcrypto.com
+website: 'https://www.iforexcrypto.com'
 repository: 
 issue: 
-icon: iforexcrypto.clients.android.png
+icon: 'iforexcrypto.clients.android.png'
 bugbounty: 
-meta: removed
-verdict: nosendreceive
+meta: 'removed'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2024-11-12
+date: '2024-11-12'
 signer: 
 reviewArchive: 
-twitter: iforexcrypto_o
+twitter: 'iforexcrypto_o'
 social:
-- https://www.facebook.com/iFOREXCrypto
-- https://www.instagram.com/iforexcrypto
+- 'https://www.facebook.com/iFOREXCrypto'
+- 'https://www.instagram.com/iforexcrypto'
 redirect_from: 
-developerName: Formula Investments House LTD
+developerName: 'Formula Investments House LTD'
 features: 
 
 ---

@@ -7,9 +7,9 @@ authors:
 appId: com.scallop.app
 appCountry: bg
 idd: '1599717690'
-released: 2021-12-10
-updated: 2025-02-12
-version: 1.5.9
+released: '2021-12-10'
+updated: '2025-02-12'
+version: '1.5.9'
 stars: 0
 reviews: 0
 size: '215184384'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2025-01-27
+date: '2025-01-27'
 signer: 
 reviewArchive: 
 twitter: ScallopOfficial

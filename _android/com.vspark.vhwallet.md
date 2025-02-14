@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: VHWallet
+title: 'VHWallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.vspark.vhwallet
+appId: 'com.vspark.vhwallet'
 appCountry: 
-released: 2018-06-07
-updated: 2019-10-04
-version: 6.4.13
+released: '2018-06-07'
+updated: '2019-10-04'
+version: '6.4.13'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: http://vspark.co
+website: 'http://vspark.co'
 repository: 
 issue: 
-icon: com.vspark.vhwallet.png
+icon: 'com.vspark.vhwallet.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2023-05-03
+date: '2023-05-03'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Vspark Group
+developerName: 'Vspark Group'
 features: 
 
 ---

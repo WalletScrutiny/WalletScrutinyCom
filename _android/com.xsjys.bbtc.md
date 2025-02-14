@@ -1,36 +1,36 @@
 ---
 wsId: 
-title: CDEX - Crypto & Forex & CFDs
+title: 'CDEX - Crypto & Forex & CFDs'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.xsjys.bbtc
+appId: 'com.xsjys.bbtc'
 appCountry: 
-released: 2022-03-01
-updated: 2023-11-07
-version: 1.5.6
+released: '2022-03-01'
+updated: '2023-11-07'
+version: '1.5.6'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.cd-ex.com/index
+website: 'https://www.cd-ex.com/index'
 repository: 
 issue: 
-icon: com.xsjys.bbtc.png
+icon: 'com.xsjys.bbtc.png'
 bugbounty: 
-meta: removed
-verdict: nosendreceive
+meta: 'removed'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2024-07-19
+date: '2024-07-19'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://www.instagram.com/cd_exglobal
-- https://www.facebook.com/CDEX-109585638344013
+- 'https://www.instagram.com/cd_exglobal'
+- 'https://www.facebook.com/CDEX-109585638344013'
 redirect_from: 
-developerName: CDEX
+developerName: 'CDEX'
 features: 
 
 ---

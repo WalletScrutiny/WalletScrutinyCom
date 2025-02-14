@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: Orillia Merchant
+title: 'Orillia Merchant'
 altTitle: 
 authors: 
 users: 50
-appId: orillia.com.orilliamerchantapp
+appId: 'orillia.com.orilliamerchantapp'
 appCountry: 
-released: 2015-06-03
-updated: 2015-06-03
+released: '2015-06-03'
+updated: '2015-06-03'
 version: '0.18'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: http://www.orillia.be
+website: 'http://www.orillia.be'
 repository: 
 issue: 
-icon: orillia.com.orilliamerchantapp.png
+icon: 'orillia.com.orilliamerchantapp.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-04-19
+date: '2024-04-19'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Orillia BVBA
+developerName: 'Orillia BVBA'
 features: 
 
 ---

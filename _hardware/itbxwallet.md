@@ -3,7 +3,7 @@ title: ITBx Fingerprint Wallet
 appId: itbxwallet
 authors:
 - danny
-released: 2018-10-11
+released: '2018-10-11'
 discontinued: 
 updated: 
 version: 
@@ -26,7 +26,7 @@ bugbounty:
 meta: ok
 verdict: vapor
 appHashes: 
-date: 2022-04-11
+date: '2022-04-11'
 signer: 
 reviewArchive: 
 twitter: ITBiometrics

@@ -3,9 +3,9 @@ title: MCUDEV Trezor DIY DevKit
 appId: mcudev.trezor.diy.devkit
 authors:
 - danny
-released: 2017-07-31
+released: '2017-07-31'
 discontinued: 
-updated: 2019-10-09
+updated: '2019-10-09'
 version: 
 binaries: 
 dimensions: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: obsolete
 verdict: diy
 appHashes: 
-date: 2022-11-11
+date: '2022-11-11'
 signer: 
 reviewArchive: 
 twitter: 

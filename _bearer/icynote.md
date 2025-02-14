@@ -3,9 +3,9 @@ title: Icy Note
 appId: icynote
 authors:
 - danny
-released: 2021-04-27
+released: '2021-04-27'
 discontinued: 
-updated: 2021-07-11
+updated: '2021-07-11'
 version: '0.7'
 binaries: 
 dimensions: 
@@ -22,7 +22,7 @@ icon: icynote.png
 bugbounty: 
 meta: ok
 verdict: prefilled
-date: 2022-03-23
+date: '2022-03-23'
 signer: 
 reviewArchive: 
 twitter: icynoteofficial

@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: Lightning (Remove Funds by Dec 31st)
+title: 'Lightning (Remove Funds by Dec 31st)'
 altTitle: 
 authors: 
 users: 1000
-appId: engineering.lightning.LightningMainnet
+appId: 'engineering.lightning.LightningMainnet'
 appCountry: 
 released: 
-updated: 2020-10-02
-version: Varies with device
+updated: '2020-10-02'
+version: 'Varies with device'
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
-website: https://lightning.engineering
-repository: https://github.com/lightninglabs/lightning-app
-issue: https://github.com/lightninglabs/lightning-app/issues/67
-icon: engineering.lightning.LightningMainnet.png
+size: 'Varies with device'
+website: 'https://lightning.engineering'
+repository: 'https://github.com/lightninglabs/lightning-app'
+issue: 'https://github.com/lightninglabs/lightning-app/issues/67'
+icon: 'engineering.lightning.LightningMainnet.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2021-02-04
+date: '2021-02-04'
 signer: 
 reviewArchive: 
-twitter: lightning
+twitter: 'lightning'
 social: 
 redirect_from:
-- /engineering.lightning.LightningMainnet/
-- /posts/engineering.lightning.LightningMainnet/
+- '/engineering.lightning.LightningMainnet/'
+- '/posts/engineering.lightning.LightningMainnet/'
 developerName: 
 features: 
 

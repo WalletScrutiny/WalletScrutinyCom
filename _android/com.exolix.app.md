@@ -1,39 +1,38 @@
 ---
 wsId: 
-title: Exolix Exchange
+title: 'Exolix Exchange'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.exolix.app
+appId: 'com.exolix.app'
 appCountry: 
-released: 2022-07-11
+released: '2022-07-11'
 updated: 2023-08-21
-version: 1.0.5
+version: '1.0.5'
 stars: 4.4
 ratings: 
 reviews: 
-size: 
-website: https://exolix.com/
+website: 'https://exolix.com/'
 repository: 
 issue: 
-icon: com.exolix.app.jpg
+icon: 'com.exolix.app.jpg'
 bugbounty: 
-meta: stale
-verdict: nowallet
+meta: 'stale'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-08-16
+date: '2024-08-16'
 signer: 
 reviewArchive: 
-twitter: Exolix_com
+twitter: 'Exolix_com'
 social:
-- https://www.facebook.com/www.exolix
-- https://exolix.medium.com
-- https://www.reddit.com/r/Exolixcom
-- https://www.instagram.com/exolix.exchange
-- https://t.me/exolixcom
+- 'https://www.facebook.com/www.exolix'
+- 'https://exolix.medium.com'
+- 'https://www.reddit.com/r/Exolixcom'
+- 'https://www.instagram.com/exolix.exchange'
+- 'https://t.me/exolixcom'
 redirect_from: 
-developerName: Exolix Dev
+developerName: 'Exolix Dev'
 features: 
 
 ---

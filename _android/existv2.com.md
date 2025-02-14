@@ -1,36 +1,36 @@
 ---
-wsId: nyeCoin
-title: NYE Coin
+wsId: 'nyeCoin'
+title: 'NYE Coin'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: existv2.com
+appId: 'existv2.com'
 appCountry: 
-released: 2019-06-29
-updated: 2019-06-30
+released: '2019-06-29'
+updated: '2019-06-30'
 version: '3.0'
 stars: 4
 ratings: 
 reviews: 4
 size: 
-website: https://nyecoin.io/
+website: 'https://nyecoin.io/'
 repository: 
 issue: 
-icon: existv2.com.png
+icon: 'existv2.com.png'
 bugbounty: 
-meta: defunct
-verdict: nosource
+meta: 'defunct'
+verdict: 'nosource'
 appHashes: 
-date: 2022-06-23
+date: '2022-06-23'
 signer: 
 reviewArchive: 
-twitter: nyecoin1
+twitter: 'nyecoin1'
 social:
-- https://www.linkedin.com/in/nye-coin-58b031181
-- https://www.instagram.com/nyecoin
+- 'https://www.linkedin.com/in/nye-coin-58b031181'
+- 'https://www.instagram.com/nyecoin'
 redirect_from: 
-developerName: New York Exchange Coin
+developerName: 'New York Exchange Coin'
 features: 
 
 ---

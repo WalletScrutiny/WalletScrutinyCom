@@ -1,37 +1,36 @@
 ---
-wsId: apexProTrade
+wsId: 'apexProTrade'
 title: 'ApeX Protocol: Trade Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.apex.plus
+appId: 'com.apex.plus'
 appCountry: 
-released: 2022-08-24
-updated: 2025-02-08
-version: 3.7.0
+released: '2022-08-24'
+updated: 2025-02-13
+version: '3.8.0'
 stars: 4.3
 ratings: 
 reviews: 27
-size: 
-website: https://apex.exchange
+website: 'https://apex.exchange'
 repository: 
 issue: 
-icon: com.apex.plus.png
+icon: 'com.apex.plus.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-07-02
+date: '2023-07-02'
 signer: 
 reviewArchive: 
-twitter: OfficialApeXdex
+twitter: 'OfficialApeXdex'
 social:
-- https://apexdex.medium.com
-- https://discord.com/invite/366Puqavwx
-- https://t.me/ApeXdex
+- 'https://apexdex.medium.com'
+- 'https://discord.com/invite/366Puqavwx'
+- 'https://t.me/ApeXdex'
 redirect_from: 
-developerName: ApeX Protocol
+developerName: 'ApeX Protocol'
 features: 
 
 ---

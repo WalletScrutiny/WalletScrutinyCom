@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: EXPO Mobile Wallet
+title: 'EXPO Mobile Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.expo.wallet
+appId: 'com.expo.wallet'
 appCountry: 
 released: 
-updated: 2021-02-18
-version: 1.0.15
+updated: '2021-02-18'
+version: '1.0.15'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://expo.biz/
+website: 'https://expo.biz/'
 repository: 
 issue: 
-icon: com.expo.wallet.png
+icon: 'com.expo.wallet.png'
 bugbounty: 
-meta: defunct
-verdict: wip
+meta: 'defunct'
+verdict: 'wip'
 appHashes: 
-date: 2023-05-24
+date: '2023-05-24'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: EXPO R&M
+developerName: 'EXPO R&M'
 features: 
 
 ---

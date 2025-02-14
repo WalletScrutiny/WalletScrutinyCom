@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: Cokkies Wallet
+title: 'Cokkies Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.cokkieswallet.mobileapp
+appId: 'com.cokkieswallet.mobileapp'
 appCountry: 
-released: 2021-12-21
-updated: 2022-02-26
+released: '2021-12-21'
+updated: '2022-02-26'
 version: '1.5'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://cokkieswallet.com
+website: 'https://cokkieswallet.com'
 repository: 
 issue: 
-icon: com.cokkieswallet.mobileapp.png
+icon: 'com.cokkieswallet.mobileapp.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2023-05-17
+date: '2023-05-17'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Cokkies Wallet
+developerName: 'Cokkies Wallet'
 features: 
 
 ---

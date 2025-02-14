@@ -3,7 +3,7 @@ title: Meek
 appId: meek
 authors:
 - danny
-released: 2013-09-20
+released: '2013-09-20'
 discontinued: 
 updated: 
 version: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: vapor
 appHashes: 
-date: 2023-03-10
+date: '2023-03-10'
 signer: 
 reviewArchive: 
 twitter: cjdcosta

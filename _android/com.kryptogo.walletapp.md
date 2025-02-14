@@ -1,39 +1,38 @@
 ---
-wsId: kryptogo
-title: KryptoGO - Web3 Social Payment
+wsId: 'kryptogo'
+title: 'KryptoGO - Web3 Social Payment'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.kryptogo.walletapp
+appId: 'com.kryptogo.walletapp'
 appCountry: 
-released: 2021-12-28
-updated: 2025-02-04
-version: 3.53.3
+released: '2021-12-28'
+updated: 2025-02-13
+version: '3.54.0'
 stars: 4.4
 ratings: 
 reviews: 2
-size: 
-website: https://kryptogo.com
+website: 'https://kryptogo.com'
 repository: 
 issue: 
-icon: com.kryptogo.walletapp.png
+icon: 'com.kryptogo.walletapp.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-20
+date: '2024-07-20'
 signer: 
 reviewArchive: 
-twitter: kryptogo_
+twitter: 'kryptogo_'
 social:
-- https://www.facebook.com/kryptogo
-- https://www.linkedin.com/company/kryptogo/
-- https://www.instagram.com/kryptogo_/
-- https://t.me/kryptogocom
-- https://www.youtube.com/channel/UCrj-kZUkRde6tvin7DKhfQQ
+- 'https://www.facebook.com/kryptogo'
+- 'https://www.linkedin.com/company/kryptogo/'
+- 'https://www.instagram.com/kryptogo_/'
+- 'https://t.me/kryptogocom'
+- 'https://www.youtube.com/channel/UCrj-kZUkRde6tvin7DKhfQQ'
 redirect_from: 
-developerName: KryptoGO
+developerName: 'KryptoGO'
 features: 
 
 ---

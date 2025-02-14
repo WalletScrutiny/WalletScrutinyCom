@@ -3,10 +3,10 @@ title: Electrum
 appId: electrum
 authors:
 - danny
-released: 2011-11-05
+released: '2011-11-05'
 discontinued: 
-updated: 2024-03-14
-version: 4.5.4
+updated: '2024-03-14'
+version: '4.5.4'
 binaries: 
 provider: Thomas Voegtlin
 providerWebsite: 
@@ -17,7 +17,7 @@ icon: electrum.png
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2024-04-25
+date: '2024-04-25'
 reviewArchive: 
 twitter: ElectrumWallet
 social: 

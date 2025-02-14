@@ -1,37 +1,37 @@
 ---
-wsId: studentcoin
-title: Student Coin
+wsId: 'studentcoin'
+title: 'Student Coin'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.studentcoin
-appCountry: pl
-released: 2021-04-01
-updated: 2023-05-12
-version: 1.15.1
+appId: 'com.studentcoin'
+appCountry: 'pl'
+released: '2021-04-01'
+updated: '2023-05-12'
+version: '1.15.1'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.studentcoin.org
+website: 'https://www.studentcoin.org'
 repository: 
 issue: 
-icon: com.studentcoin.png
+icon: 'com.studentcoin.png'
 bugbounty: 
-meta: removed
-verdict: nobtc
+meta: 'removed'
+verdict: 'nobtc'
 appHashes: 
-date: 2024-10-23
+date: '2024-10-23'
 signer: 
 reviewArchive: 
-twitter: studentcoinorg
+twitter: 'studentcoinorg'
 social:
-- https://www.linkedin.com/company/student-coin-worldwide
-- https://www.facebook.com/studentcoin.org
-- https://www.reddit.com/r/Studentcoin
+- 'https://www.linkedin.com/company/student-coin-worldwide'
+- 'https://www.facebook.com/studentcoin.org'
+- 'https://www.reddit.com/r/Studentcoin'
 redirect_from: 
-developerName: Student Coin
+developerName: 'Student Coin'
 features: 
 
 ---

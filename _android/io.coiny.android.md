@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: Coiny
+title: 'Coiny'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: io.coiny.android
+appId: 'io.coiny.android'
 appCountry: 
-released: 2018-04-11
-updated: 2019-01-17
-version: 1.6.1
+released: '2018-04-11'
+updated: '2019-01-17'
+version: '1.6.1'
 stars: 
 ratings: 
 reviews: 
-size: 8.2M
-website: https://coiny.io/
+size: '8.2M'
+website: 'https://coiny.io/'
 repository: 
 issue: 
-icon: io.coiny.android.png
+icon: 'io.coiny.android.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2022-01-13
+date: '2022-01-13'
 signer: 
 reviewArchive: 
-twitter: Coiny_io
+twitter: 'Coiny_io'
 social:
-- https://www.facebook.com/coiny.io
+- 'https://www.facebook.com/coiny.io'
 redirect_from: 
 developerName: 
 features: 

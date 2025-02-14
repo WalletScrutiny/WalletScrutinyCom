@@ -7,9 +7,9 @@ authors:
 appId: com.kointra.Kointra.V1.0
 appCountry: tr
 idd: '1486286836'
-released: 2019-11-15
-updated: 2024-09-23
-version: 3.3.1
+released: '2019-11-15'
+updated: '2024-09-23'
+version: '3.3.1'
 stars: 4.7
 reviews: 30
 size: '28244992'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2024-01-22
+date: '2024-01-22'
 signer: 
 reviewArchive: 
 twitter: KointraTR

@@ -1,34 +1,33 @@
 ---
-wsId: cryptoQR
-title: CryptoQR
+wsId: 'cryptoQR'
+title: 'CryptoQR'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: za.co.cryptoconvert.bolt
+appId: 'za.co.cryptoconvert.bolt'
 appCountry: 
-released: 2022-05-16
+released: '2022-05-16'
 updated: 2024-03-27
-version: 1.1.86
+version: '1.1.86'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://www.cryptoconvert.co.za/
+website: 'https://www.cryptoconvert.co.za/'
 repository: 
 issue: 
-icon: za.co.cryptoconvert.bolt.png
+icon: 'za.co.cryptoconvert.bolt.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-04-02
+date: '2024-04-02'
 signer: 
 reviewArchive: 
-twitter: CryptoConverted
+twitter: 'CryptoConverted'
 social: 
 redirect_from: 
-developerName: CryptoConvert
+developerName: 'CryptoConvert'
 features: 
 
 ---

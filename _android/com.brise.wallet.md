@@ -1,28 +1,28 @@
 ---
 wsId: 
-title: Brise - Crypto Wallet
+title: 'Brise - Crypto Wallet'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 50000
-appId: com.brise.wallet
+appId: 'com.brise.wallet'
 appCountry: 
-released: 2021-12-08
-updated: 2021-12-08
-version: 1.0.0
+released: '2021-12-08'
+updated: '2021-12-08'
+version: '1.0.0'
 stars: 2.5
 ratings: 536
 reviews: 118
-size: 29M
-website: https://bitgert.com/
+size: '29M'
+website: 'https://bitgert.com/'
 repository: 
 issue: 
-icon: com.brise.wallet.png
+icon: 'com.brise.wallet.png'
 bugbounty: 
-meta: removed
-verdict: nobtc
+meta: 'removed'
+verdict: 'nobtc'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
 twitter: 

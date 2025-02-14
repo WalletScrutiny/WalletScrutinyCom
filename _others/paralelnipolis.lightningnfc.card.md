@@ -4,7 +4,7 @@ appId: paralelnipolis.lightningnfc.card
 authors:
 - danny
 icon: paralelnipolis.lightningnfc.card.png
-date: 2023-04-28
+date: '2023-04-28'
 website: https://www.paralelnipolis.cz/en/wallet/
 social:
 - https://www.facebook.com/vejdiven/

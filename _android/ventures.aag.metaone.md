@@ -1,40 +1,39 @@
 ---
-wsId: metaOneNFT
-title: Saakuru  App
+wsId: 'metaOneNFT'
+title: 'Saakuru  App'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: ventures.aag.metaone
+appId: 'ventures.aag.metaone'
 appCountry: 
-released: 2022-12-22
+released: '2022-12-22'
 updated: 2025-01-21
-version: 6.1.0
+version: '6.1.0'
 stars: 4.2
 ratings: 
 reviews: 15
-size: 
-website: https://getmeta.one/
+website: 'https://getmeta.one/'
 repository: 
 issue: 
-icon: ventures.aag.metaone.png
+icon: 'ventures.aag.metaone.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-07-02
+date: '2023-07-02'
 signer: 
 reviewArchive: 
-twitter: aag_ventures
+twitter: 'aag_ventures'
 social:
-- https://www.linkedin.com/company/aag-ventures
-- https://blog.aag.ventures
-- https://t.me/aagventures
-- https://www.linkedin.com/company/aag-ventures
-- https://www.facebook.com/aagventures
-- https://discord.com/invite/aagventures
+- 'https://www.linkedin.com/company/aag-ventures'
+- 'https://blog.aag.ventures'
+- 'https://t.me/aagventures'
+- 'https://www.linkedin.com/company/aag-ventures'
+- 'https://www.facebook.com/aagventures'
+- 'https://discord.com/invite/aagventures'
 redirect_from: 
-developerName: ACHIP & ACHAIR GUILD VENTURES PTE. LTD.
+developerName: 'ACHIP & ACHAIR GUILD VENTURES PTE. LTD.'
 features: 
 
 ---

@@ -1,35 +1,34 @@
 ---
-wsId: accrue
+wsId: 'accrue'
 title: 'Accrue: Send Spend Sell Save'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.rocketsfintech.accrue
+appId: 'com.rocketsfintech.accrue'
 appCountry: 
-released: 2021-10-09
+released: '2021-10-09'
 updated: 2025-02-07
-version: 3.6.20
+version: '3.6.20'
 stars: 4.2
 ratings: 
 reviews: 38
-size: 
-website: https://useaccrue.com
+website: 'https://useaccrue.com'
 repository: 
 issue: 
-icon: com.rocketsfintech.accrue.png
+icon: 'com.rocketsfintech.accrue.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-05-04
+date: '2023-05-04'
 signer: 
 reviewArchive: 
-twitter: useaccrue
+twitter: 'useaccrue'
 social:
-- https://www.instagram.com/useaccrue/
+- 'https://www.instagram.com/useaccrue/'
 redirect_from: 
-developerName: Accrue Wealth Inc
+developerName: 'Accrue Wealth Inc'
 features: 
 
 ---

@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Free Wallet Bitcoin And Crypto
+title: 'Free Wallet Bitcoin And Crypto'
 altTitle: 
 authors: 
 users: 5
-appId: org.cryptosignals.free.wallet.bitcoinand.crypto
+appId: 'org.cryptosignals.free.wallet.bitcoinand.crypto'
 appCountry: 
-released: 2021-06-19
-updated: 2021-06-19
+released: '2021-06-19'
+updated: '2021-06-19'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 2.4M
+size: '2.4M'
 website: 
 repository: 
 issue: 
-icon: org.cryptosignals.free.wallet.bitcoinand.crypto.jpg
+icon: 'org.cryptosignals.free.wallet.bitcoinand.crypto.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-09-19
+date: '2021-09-19'
 signer: 
 reviewArchive: 
 twitter: 

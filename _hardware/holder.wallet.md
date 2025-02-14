@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: vapor
 appHashes: 
-date: 2023-03-03
+date: '2023-03-03'
 signer: 
 reviewArchive: 
 twitter: 

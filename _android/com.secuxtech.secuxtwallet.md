@@ -1,34 +1,33 @@
 ---
-wsId: secuXWalletForN
-title: SecuX Wallet
+wsId: 'secuXWalletForN'
+title: 'SecuX Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.secuxtech.secuxtwallet
-appCountry: TW
-released: 2022-05-20
+appId: 'com.secuxtech.secuxtwallet'
+appCountry: 'TW'
+released: '2022-05-20'
 updated: 2024-10-18
-version: 2.1.02
+version: '2.1.02'
 stars: 4.4
 ratings: 
 reviews: 2
-size: 
-website: https://secuxtech.com/
+website: 'https://secuxtech.com/'
 repository: 
 issue: 
-icon: com.secuxtech.secuxtwallet.png
+icon: 'com.secuxtech.secuxtwallet.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-09-03
+date: '2024-09-03'
 signer: 
 reviewArchive: 
-twitter: SecuXwallet
+twitter: 'SecuXwallet'
 social: 
 redirect_from: 
-developerName: SecuX
+developerName: 'SecuX'
 features: 
 
 ---

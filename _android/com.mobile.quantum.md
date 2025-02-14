@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: Quan2um
+title: 'Quan2um'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.mobile.quantum
+appId: 'com.mobile.quantum'
 appCountry: 
-released: 2022-04-18
-updated: 2024-09-06
-version: 1.0.22
+released: '2022-04-18'
+updated: '2024-09-06'
+version: '1.0.22'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://quan2um.com
+website: 'https://quan2um.com'
 repository: 
 issue: 
-icon: com.mobile.quantum.png
+icon: 'com.mobile.quantum.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-05-30
+date: '2023-05-30'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Quan2um
+developerName: 'Quan2um'
 features: 
 
 ---

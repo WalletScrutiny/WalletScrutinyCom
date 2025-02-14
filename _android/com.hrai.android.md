@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: HRAI
+title: 'HRAI'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.hrai.android
+appId: 'com.hrai.android'
 appCountry: 
-released: 2022-04-26
-updated: 2022-05-26
+released: '2022-04-26'
+updated: '2022-05-26'
 version: '1.2'
 stars: 
 ratings: 
@@ -17,12 +17,12 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.hrai.android.png
+icon: 'com.hrai.android.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2023-04-22
+date: '2023-04-22'
 signer: 
 reviewArchive: 
 twitter: 

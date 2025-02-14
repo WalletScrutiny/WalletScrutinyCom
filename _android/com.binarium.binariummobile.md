@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: Binarium
+title: 'Binarium'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 500000
-appId: com.binarium.binariummobile
+appId: 'com.binarium.binariummobile'
 appCountry: 
-released: 2019-09-16
+released: '2019-09-16'
 updated: 2024-07-10
-version: 1.1.0.2
+version: '1.1.0.2'
 stars: 3.5
 ratings: 2731
 reviews: 16
-size: 
-website: http://binarium.support
+website: 'http://binarium.support'
 repository: 
 issue: 
-icon: com.binarium.binariummobile.png
+icon: 'com.binarium.binariummobile.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-09-03
+date: '2021-09-03'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/binariumcom
+- 'https://www.facebook.com/binariumcom'
 redirect_from: 
-developerName: Binarium LTD
+developerName: 'Binarium LTD'
 features: 
 
 ---

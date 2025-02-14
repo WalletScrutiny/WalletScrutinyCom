@@ -1,36 +1,35 @@
 ---
-wsId: dCent
-title: D'CENT Crypto Wallet
+wsId: 'dCent'
+title: 'D''CENT Crypto Wallet'
 altTitle: 
 authors:
-- kiwilamb
+- 'kiwilamb'
 users: 100000
-appId: com.kr.iotrust.dcent.wallet
-appCountry: cn
-released: 2018-10-16
+appId: 'com.kr.iotrust.dcent.wallet'
+appCountry: 'cn'
+released: '2018-10-16'
 updated: 2025-02-05
-version: 7.4.1
+version: '7.4.1'
 stars: 4
 ratings: 756
-reviews: 877
-size: 
-website: https://dcentwallet.com/
+reviews: 878
+website: 'https://dcentwallet.com/'
 repository: 
 issue: 
-icon: com.kr.iotrust.dcent.wallet.png
+icon: 'com.kr.iotrust.dcent.wallet.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-15
+date: '2024-07-15'
 signer: 
 reviewArchive: 
-twitter: DCENTwallets
+twitter: 'DCENTwallets'
 social:
-- https://www.facebook.com/DcentWalletGlobal
-- https://github.com/DcentWallet
+- 'https://www.facebook.com/DcentWalletGlobal'
+- 'https://github.com/DcentWallet'
 redirect_from: 
-developerName: IoTrust Co., Ltd
+developerName: 'IoTrust Co., Ltd'
 features: 
 
 ---

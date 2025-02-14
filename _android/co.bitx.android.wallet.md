@@ -1,45 +1,44 @@
 ---
-wsId: Luno
+wsId: 'Luno'
 title: 'Luno: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 10000000
-appId: co.bitx.android.wallet
+appId: 'co.bitx.android.wallet'
 appCountry: 
-released: 2014-11-01
+released: '2014-11-01'
 updated: 2025-02-10
-version: 8.76.1
+version: '8.76.1'
 stars: 3.6
 ratings: 96811
 reviews: 1387
-size: 
-website: https://www.luno.com
+website: 'https://www.luno.com'
 repository: 
 issue: 
-icon: co.bitx.android.wallet.jpg
+icon: 'co.bitx.android.wallet.jpg'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: []
-date: 2020-10-12
+date: '2020-10-12'
 signer: 
 reviewArchive:
-- date: 2019-11-14
-  version: 6.8.0
+- date: '2019-11-14'
+  version: '6.8.0'
   appHashes: []
-  gitRevision: 372c9c03c6422faed457f1a9975d7cab8f13d01f
-  verdict: nosource
-twitter: LunoGlobal
+  gitRevision: '372c9c03c6422faed457f1a9975d7cab8f13d01f'
+  verdict: 'nosource'
+twitter: 'LunoGlobal'
 social:
-- https://www.linkedin.com/company/lunoglobal
-- https://www.facebook.com/luno
+- 'https://www.linkedin.com/company/lunoglobal'
+- 'https://www.facebook.com/luno'
 redirect_from:
-- /luno/
-- /co.bitx.android.wallet/
-- /posts/2019/11/luno/
-- /posts/co.bitx.android.wallet/
-developerName: Luno
+- '/luno/'
+- '/co.bitx.android.wallet/'
+- '/posts/2019/11/luno/'
+- '/posts/co.bitx.android.wallet/'
+developerName: 'Luno'
 features: 
 
 ---

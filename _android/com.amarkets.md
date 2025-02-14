@@ -1,36 +1,35 @@
 ---
-wsId: AMarkets
+wsId: 'AMarkets'
 title: 'AMarkets: Trade & Invest'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000000
-appId: com.amarkets
-appCountry: us
-released: 2019-05-31
+appId: 'com.amarkets'
+appCountry: 'us'
+released: '2019-05-31'
 updated: 2025-02-05
-version: 2.1.73
+version: '2.1.73'
 stars: 4.4
 ratings: 2509
 reviews: 204
-size: 
-website: https://www.amarkets.com
+website: 'https://www.amarkets.com'
 repository: 
 issue: 
-icon: com.amarkets.png
+icon: 'com.amarkets.png'
 bugbounty: 
-meta: ok
-verdict: nosendreceive
+meta: 'ok'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2021-10-13
+date: '2021-10-13'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://www.linkedin.com/company/amarkets
-- https://www.facebook.com/AMarketsFirm
+- 'https://www.linkedin.com/company/amarkets'
+- 'https://www.facebook.com/AMarketsFirm'
 redirect_from: 
-developerName: AMarkets LLC
+developerName: 'AMarkets LLC'
 features: 
 
 ---

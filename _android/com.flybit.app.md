@@ -1,35 +1,34 @@
 ---
-wsId: flybit
-title: 플라이빗 Flybit -신뢰할 수 있는 가상자산 거래소
+wsId: 'flybit'
+title: '플라이빗 Flybit -신뢰할 수 있는 가상자산 거래소'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.flybit.app
-appCountry: us
-released: 2021-02-04
+appId: 'com.flybit.app'
+appCountry: 'us'
+released: '2021-02-04'
 updated: 2025-02-11
-version: 1.29.02
+version: '1.29.02'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://flybit.com
+website: 'https://flybit.com'
 repository: 
 issue: 
-icon: com.flybit.app.png
+icon: 'com.flybit.app.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-09-30
+date: '2021-09-30'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/flybit.exchange
+- 'https://www.facebook.com/flybit.exchange'
 redirect_from: 
-developerName: 한국디지털거래소
+developerName: '한국디지털거래소'
 features: 
 
 ---

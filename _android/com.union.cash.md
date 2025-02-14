@@ -1,34 +1,33 @@
 ---
-wsId: unionCash
-title: Union.cash
+wsId: 'unionCash'
+title: 'Union.cash'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.union.cash
+appId: 'com.union.cash'
 appCountry: 
-released: 2021-06-25
+released: '2021-06-25'
 updated: 2024-08-19
-version: 1.3.7
+version: '1.3.7'
 stars: 4.8
 ratings: 
 reviews: 3
-size: 
-website: http://www.union.cash/
+website: 'http://www.union.cash/'
 repository: 
 issue: 
-icon: com.union.cash.png
+icon: 'com.union.cash.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-11-17
+date: '2023-11-17'
 signer: 
 reviewArchive: 
-twitter: unioncash_eu
+twitter: 'unioncash_eu'
 social: 
 redirect_from: 
-developerName: Union Cash
+developerName: 'Union Cash'
 features: 
 
 ---

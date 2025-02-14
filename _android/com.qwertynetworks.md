@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: My Сrypto Wallet USDT/BTC/ETH
+title: 'My Сrypto Wallet USDT/BTC/ETH'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.qwertynetworks
+appId: 'com.qwertynetworks'
 appCountry: 
-released: 2022-08-10
-updated: 2022-09-02
+released: '2022-08-10'
+updated: '2022-09-02'
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://qwertynetworks.com
+website: 'https://qwertynetworks.com'
 repository: 
 issue: 
-icon: com.qwertynetworks.png
+icon: 'com.qwertynetworks.png'
 bugbounty: 
-meta: defunct
-verdict: wip
+meta: 'defunct'
+verdict: 'wip'
 appHashes: 
-date: 2023-07-10
+date: '2023-07-10'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Qwerty Networks
+developerName: 'Qwerty Networks'
 features: 
 
 ---

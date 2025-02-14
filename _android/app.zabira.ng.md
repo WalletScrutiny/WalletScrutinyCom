@@ -1,37 +1,37 @@
 ---
-wsId: zabiraBuyBTC
+wsId: 'zabiraBuyBTC'
 title: 'Zabira: Buy BTC, ETH & Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: app.zabira.ng
+appId: 'app.zabira.ng'
 appCountry: 
-released: 2022-02-23
-updated: 2024-05-07
-version: 1.0.28
+released: '2022-02-23'
+updated: '2024-05-07'
+version: '1.0.28'
 stars: 3.3
 ratings: 
 reviews: 15
 size: 
-website: https://www.zabira.ng
+website: 'https://www.zabira.ng'
 repository: 
 issue: 
-icon: app.zabira.ng.png
+icon: 'app.zabira.ng.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-08-17
+date: '2024-08-17'
 signer: 
 reviewArchive: 
-twitter: thezabira
+twitter: 'thezabira'
 social:
-- https://www.facebook.com/thezabira
-- https://www.instagram.com/thezabira
-- https://www.linkedin.com/company/zabira/about
+- 'https://www.facebook.com/thezabira'
+- 'https://www.instagram.com/thezabira'
+- 'https://www.linkedin.com/company/zabira/about'
 redirect_from: 
-developerName: Zabira
+developerName: 'Zabira'
 features: 
 
 ---

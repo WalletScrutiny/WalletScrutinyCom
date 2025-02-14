@@ -7,9 +7,9 @@ authors:
 appId: id.qoin.crypto
 appCountry: us
 idd: '1629785857'
-released: 2022-07-11
-updated: 2024-12-06
-version: 1.4.29
+released: '2022-07-11'
+updated: '2024-12-06'
+version: '1.4.29'
 stars: 3
 reviews: 2
 size: '230345728'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: 2023-07-08
+date: '2023-07-08'
 signer: 
 reviewArchive: 
 twitter: 

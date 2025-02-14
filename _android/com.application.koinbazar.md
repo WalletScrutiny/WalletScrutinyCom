@@ -1,36 +1,35 @@
 ---
-wsId: koinbazar
+wsId: 'koinbazar'
 title: 'KoinBX: Indian Crypto Exchange'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 500000
-appId: com.application.koinbazar
-appCountry: in
-released: 2021-05-17
+appId: 'com.application.koinbazar'
+appCountry: 'in'
+released: '2021-05-17'
 updated: 2024-12-18
-version: 3.0.56
+version: '3.0.56'
 stars: 3.6
 ratings: 7090
 reviews: 2988
-size: 
-website: https://koinbx.com/
+website: 'https://koinbx.com/'
 repository: 
 issue: 
-icon: com.application.koinbazar.png
+icon: 'com.application.koinbazar.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-10-04
+date: '2021-10-04'
 signer: 
 reviewArchive: 
-twitter: koinbazar
+twitter: 'koinbazar'
 social:
-- https://www.linkedin.com/company/koinbazar
-- https://www.facebook.com/koinbazar
+- 'https://www.linkedin.com/company/koinbazar'
+- 'https://www.facebook.com/koinbazar'
 redirect_from: 
-developerName: KoinBX
+developerName: 'KoinBX'
 features: 
 
 ---

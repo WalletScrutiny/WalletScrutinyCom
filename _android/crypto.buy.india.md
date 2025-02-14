@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Crypto Buy India
+title: 'Crypto Buy India'
 altTitle: 
 authors: 
 users: 0
-appId: crypto.buy.india
+appId: 'crypto.buy.india'
 appCountry: 
-released: 2021-06-16
-updated: 2021-06-16
+released: '2021-06-16'
+updated: '2021-06-16'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 3.4M
+size: '3.4M'
 website: 
 repository: 
 issue: 
-icon: crypto.buy.india.jpg
+icon: 'crypto.buy.india.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-10-01
+date: '2021-10-01'
 signer: 
 reviewArchive: 
 twitter: 

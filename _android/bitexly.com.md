@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: Bitexly
+title: 'Bitexly'
 altTitle: 
 authors: 
 users: 10
-appId: bitexly.com
+appId: 'bitexly.com'
 appCountry: 
-released: 2020-05-09
-updated: 2020-05-09
-version: 5.129.20
+released: '2020-05-09'
+updated: '2020-05-09'
+version: '5.129.20'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://bitexly.com
+website: 'https://bitexly.com'
 repository: 
 issue: 
-icon: bitexly.com.png
+icon: 'bitexly.com.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-04-19
+date: '2024-04-19'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: UCOM Technologies
+developerName: 'UCOM Technologies'
 features: 
 
 ---

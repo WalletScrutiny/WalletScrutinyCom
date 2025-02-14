@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Crypto Money Bank
+title: 'Crypto Money Bank'
 altTitle: 
 authors: 
 users: 100
-appId: com.igen.cryptomoneybank
+appId: 'com.igen.cryptomoneybank'
 appCountry: 
-released: 2021-07-07
-updated: 2021-07-07
-version: 1.0.0
+released: '2021-07-07'
+updated: '2021-07-07'
+version: '1.0.0'
 stars: 
 ratings: 
 reviews: 
@@ -16,18 +16,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.igen.cryptomoneybank.png
+icon: 'com.igen.cryptomoneybank.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-04-19
+date: '2024-04-19'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: CMB BLOCKCHAIN
+developerName: 'CMB BLOCKCHAIN'
 features: 
 
 ---

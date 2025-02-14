@@ -1,40 +1,40 @@
 ---
-wsId: AladdinWallet
-title: Aladdin Wallet
+wsId: 'AladdinWallet'
+title: 'Aladdin Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.abbc.abbcmobile
+appId: 'com.abbc.abbcmobile'
 appCountry: 
-released: 2019-08-08
-updated: 2023-07-02
-version: 1.3.4
+released: '2019-08-08'
+updated: '2023-07-02'
+version: '1.3.4'
 stars: 4.2
 ratings: 629
 reviews: 7
 size: 
-website: http://abbcpayment.com
+website: 'http://abbcpayment.com'
 repository: 
 issue: 
-icon: com.abbc.abbcmobile.png
+icon: 'com.abbc.abbcmobile.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2024-10-05
+date: '2024-10-05'
 signer: 
 reviewArchive: 
-twitter: abbcfoundation
+twitter: 'abbcfoundation'
 social:
-- https://www.facebook.com/abbcfoundation/
-- https://t.me/abbcfoundationofficial/
-- https://t.me/abbcfoundation/
-- https://www.instagram.com/abbccoin/
-- https://www.linkedin.com/company/abbcfoundation/
-- https://www.reddit.com/user/abbc_foundation/
+- 'https://www.facebook.com/abbcfoundation/'
+- 'https://t.me/abbcfoundationofficial/'
+- 'https://t.me/abbcfoundation/'
+- 'https://www.instagram.com/abbccoin/'
+- 'https://www.linkedin.com/company/abbcfoundation/'
+- 'https://www.reddit.com/user/abbc_foundation/'
 redirect_from: 
-developerName: ABBC PAYMENT SERVICES PROVIDER
+developerName: 'ABBC PAYMENT SERVICES PROVIDER'
 features: 
 
 ---

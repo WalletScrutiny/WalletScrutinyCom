@@ -1,36 +1,36 @@
 ---
 wsId: 
-title: Coinsquare
+title: 'Coinsquare'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 100000
-appId: coinsquare.io.coinsquare
+appId: 'coinsquare.io.coinsquare'
 appCountry: 
-released: 2017-08-30
-updated: 2022-03-18
-version: 2.13.15
+released: '2017-08-30'
+updated: '2022-03-18'
+version: '2.13.15'
 stars: 2.7
 ratings: 790
 reviews: 15
-size: 7.4M
-website: http://coinsquare.com
+size: '7.4M'
+website: 'http://coinsquare.com'
 repository: 
 issue: 
-icon: coinsquare.io.coinsquare.png
+icon: 'coinsquare.io.coinsquare.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
-twitter: coinsquare
+twitter: 'coinsquare'
 social:
-- https://www.facebook.com/coinsquare.io
+- 'https://www.facebook.com/coinsquare.io'
 redirect_from:
-- /coinsquare.io.coinsquare/
-- /posts/coinsquare.io.coinsquare/
+- '/coinsquare.io.coinsquare/'
+- '/posts/coinsquare.io.coinsquare/'
 developerName: 
 features: 
 

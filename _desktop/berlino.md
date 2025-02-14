@@ -3,9 +3,9 @@ title: Berlino
 appId: berlino
 authors:
 - danny
-released: 2020-06-21
+released: '2020-06-21'
 discontinued: 
-updated: 2024-03-10
+updated: '2024-03-10'
 version: 
 binaries: 
 provider: Lucas Ontivero
@@ -17,7 +17,7 @@ icon:
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2024-04-24
+date: '2024-04-24'
 reviewArchive: 
 twitter: lontivero
 social: 

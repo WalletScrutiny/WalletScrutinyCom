@@ -7,9 +7,9 @@ authors:
 appId: com.pro.apex
 appCountry: us
 idd: '1645456064'
-released: 2022-09-27
-updated: 2025-02-08
-version: 3.7.0
+released: '2022-09-27'
+updated: '2025-02-08'
+version: '3.7.0'
 stars: 4
 reviews: 59
 size: '102166528'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nowallet
 appHashes: 
-date: 2023-07-02
+date: '2023-07-02'
 signer: 
 reviewArchive: 
 twitter: OfficialApeXdex

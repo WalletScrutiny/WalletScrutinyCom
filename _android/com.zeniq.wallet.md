@@ -1,39 +1,39 @@
 ---
 wsId: 
-title: ZENIQ App
+title: 'ZENIQ App'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.zeniq.wallet
+appId: 'com.zeniq.wallet'
 appCountry: 
 released: 
-updated: 2022-10-31
-version: VARY
+updated: '2022-10-31'
+version: 'VARY'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://zeniq.com/
+website: 'https://zeniq.com/'
 repository: 
 issue: 
-icon: com.zeniq.wallet.png
+icon: 'com.zeniq.wallet.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2023-08-04
+date: '2023-08-04'
 signer: 
 reviewArchive: 
-twitter: Zeniq_tech
+twitter: 'Zeniq_tech'
 social:
-- https://www.linkedin.com/company/zeniq-hub/
-- https://www.facebook.com/ZENIQTech
-- https://www.instagram.com/zeniq_tech/
-- https://www.youtube.com/ZENIQTech
-- https://t.me/zeniq_hub
+- 'https://www.linkedin.com/company/zeniq-hub/'
+- 'https://www.facebook.com/ZENIQTech'
+- 'https://www.instagram.com/zeniq_tech/'
+- 'https://www.youtube.com/ZENIQTech'
+- 'https://t.me/zeniq_hub'
 redirect_from: 
-developerName: ZENIQ Technologies FZ LLC
+developerName: 'ZENIQ Technologies FZ LLC'
 features: 
 
 ---

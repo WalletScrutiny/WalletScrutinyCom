@@ -1,37 +1,36 @@
 ---
-wsId: indoEx
-title: IndoEx
+wsId: 'indoEx'
+title: 'IndoEx'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.indoex.finance
+appId: 'com.indoex.finance'
 appCountry: 
-released: 2022-08-04
+released: '2022-08-04'
 updated: 2024-11-30
-version: 1.0.40
+version: '1.0.40'
 stars: 3.1
 ratings: 
 reviews: 5
-size: 
-website: https://international.indoex.io
+website: 'https://international.indoex.io'
 repository: 
 issue: 
-icon: com.indoex.finance.png
+icon: 'com.indoex.finance.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2024-11-25
+date: '2024-11-25'
 signer: 
 reviewArchive: 
-twitter: Indoex_LTD
+twitter: 'Indoex_LTD'
 social:
-- https://www.linkedin.com/company/indoex-exchange
-- https://t.me/Indoex
-- https://www.facebook.com/Indoex.official
+- 'https://www.linkedin.com/company/indoex-exchange'
+- 'https://t.me/Indoex'
+- 'https://www.facebook.com/Indoex.official'
 redirect_from: 
-developerName: IndoEx
+developerName: 'IndoEx'
 features: 
 
 ---

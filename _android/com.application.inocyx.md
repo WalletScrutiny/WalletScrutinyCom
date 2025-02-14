@@ -1,39 +1,39 @@
 ---
-wsId: inocyx
-title: INOCYX
+wsId: 'inocyx'
+title: 'INOCYX'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.application.inocyx
+appId: 'com.application.inocyx'
 appCountry: 
-released: 2022-11-16
-updated: 2024-08-02
+released: '2022-11-16'
+updated: '2024-08-02'
 version: '1.42'
 stars: 4.7
 ratings: 
 reviews: 
 size: 
-website: https://inocyx.com/
+website: 'https://inocyx.com/'
 repository: 
 issue: 
-icon: com.application.inocyx.png
+icon: 'com.application.inocyx.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-12-31
+date: '2024-12-31'
 signer: 
 reviewArchive: 
-twitter: INOCYX
+twitter: 'INOCYX'
 social:
-- https://www.linkedin.com/company/inocyx
-- https://www.facebook.com/profile.php?id=100083436154588
-- https://www.instagram.com/inocyx
-- https://www.youtube.com/channel/UCv9OPOSaJqQAe7ljg2d5lBg
-- https://t.me/inocyxiyx
+- 'https://www.linkedin.com/company/inocyx'
+- 'https://www.facebook.com/profile.php?id=100083436154588'
+- 'https://www.instagram.com/inocyx'
+- 'https://www.youtube.com/channel/UCv9OPOSaJqQAe7ljg2d5lBg'
+- 'https://t.me/inocyxiyx'
 redirect_from: 
-developerName: INOCYX
+developerName: 'INOCYX'
 features: 
 
 ---

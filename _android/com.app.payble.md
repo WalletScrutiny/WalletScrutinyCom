@@ -1,36 +1,36 @@
 ---
 wsId: 
-title: 페이블(Payble)
+title: '페이블(Payble)'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.app.payble
+appId: 'com.app.payble'
 appCountry: 
-released: 2018-01-07
-updated: 2021-03-01
-version: 2.1.5
+released: '2018-01-07'
+updated: '2021-03-01'
+version: '2.1.5'
 stars: 4.7
 ratings: 
 reviews: 
 size: 
-website: http://payble.io
+website: 'http://payble.io'
 repository: 
 issue: 
-icon: com.app.payble.png
+icon: 'com.app.payble.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2024-04-26
+date: '2024-04-26'
 signer: 
 reviewArchive: 
-twitter: mypayble
+twitter: 'mypayble'
 social:
-- https://www.instagram.com/mypayble
-- https://mypayble.com
+- 'https://www.instagram.com/mypayble'
+- 'https://mypayble.com'
 redirect_from: 
-developerName: Payble
+developerName: 'Payble'
 features: 
 
 ---

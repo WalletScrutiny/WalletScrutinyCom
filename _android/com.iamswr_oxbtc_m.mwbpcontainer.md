@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: OXBTC PRO
+title: 'OXBTC PRO'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.iamswr_oxbtc_m.mwbpcontainer
+appId: 'com.iamswr_oxbtc_m.mwbpcontainer'
 appCountry: 
-released: 2021-08-23
-updated: 2021-08-24
-version: 1.3.8
+released: '2021-08-23'
+updated: '2021-08-24'
+version: '1.3.8'
 stars: 2.5
 ratings: 
 reviews: 9
 size: 
-website: https://www.oxbtc.com
+website: 'https://www.oxbtc.com'
 repository: 
 issue: 
-icon: com.iamswr_oxbtc_m.mwbpcontainer.png
+icon: 'com.iamswr_oxbtc_m.mwbpcontainer.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-04-19
+date: '2024-04-19'
 signer: 
 reviewArchive: 
-twitter: oxbitcoin
+twitter: 'oxbitcoin'
 social: 
 redirect_from: 
-developerName: HALLEY TECHNOLOGIES PTE. ltd.
+developerName: 'HALLEY TECHNOLOGIES PTE. ltd.'
 features: 
 
 ---

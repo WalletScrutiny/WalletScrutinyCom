@@ -3,52 +3,50 @@ wsId:
 title: 'BitBanana: Bitcoin & Lightning'
 altTitle: 
 authors:
-- danny
-- keraliss
+- 'danny'
+- 'keraliss'
 users: 1000
-appId: app.michaelwuensch.bitbanana
+appId: 'app.michaelwuensch.bitbanana'
 appCountry: 
-released: 2023-03-26
+released: '2023-03-26'
 updated: 2025-01-06
-version: 0.8.9
+version: '0.8.9'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://bitbanana.app/
-repository: https://github.com/michaelWuensch/BitBanana
-issue: https://github.com/michaelWuensch/BitBanana/issues/95
-icon: app.michaelwuensch.bitbanana.png
+website: 'https://bitbanana.app/'
+repository: 'https://github.com/michaelWuensch/BitBanana'
+issue: 'https://github.com/michaelWuensch/BitBanana/issues/95'
+icon: 'app.michaelwuensch.bitbanana.png'
 bugbounty: 
-meta: ok
-verdict: wip
+meta: 'ok'
+verdict: 'wip'
 appHashes: []
-date: 2024-01-02
-signer: 98d818b12efa005735dc3d6b6ed78a05d8f75629e0afaf001655ed6aacfd2884
+date: '2024-01-02'
+signer: '98d818b12efa005735dc3d6b6ed78a05d8f75629e0afaf001655ed6aacfd2884'
 reviewArchive:
-- date: 2024-01-02
-  version: 0.8.8
+- date: '2024-01-02'
+  version: '0.8.8'
   appHashes:
-  - 23f5f22e06e56604b75bfea649f3e0b0d0c2a1ebc8c487dc84224acd48a8993a
-  gitRevision: 16370f5e0f023ab1aee882013b60db42bddd55eb
-  verdict: nonverifiable
-- date: 2024-10-21
-  version: 0.8.7
+  - '23f5f22e06e56604b75bfea649f3e0b0d0c2a1ebc8c487dc84224acd48a8993a'
+  gitRevision: '16370f5e0f023ab1aee882013b60db42bddd55eb'
+  verdict: 'nonverifiable'
+- date: '2024-10-21'
+  version: '0.8.7'
   appHashes: []
-  gitRevision: 8e88c9ff17f8903e91d21c64e95f6031b1f7dab2
-  verdict: nonverifiable
-- date: 2024-10-21
-  version: 0.8.7
+  gitRevision: '8e88c9ff17f8903e91d21c64e95f6031b1f7dab2'
+  verdict: 'nonverifiable'
+- date: '2024-10-21'
+  version: '0.8.7'
   appHashes: []
-  gitRevision: 8e88c9ff17f8903e91d21c64e95f6031b1f7dab2
-  verdict: ftbfs
-twitter: BitBananaApp
+  gitRevision: '8e88c9ff17f8903e91d21c64e95f6031b1f7dab2'
+  verdict: 'ftbfs'
+twitter: 'BitBananaApp'
 social:
-- https://discord.gg/Xg85BuTc9A
-- >-
-  https://snort.social/p/npub1dwn7wphjhrlej6ks4sktgn77w82ayq6hn6lj37ll75tav55nd3vq07xzaj
+- 'https://discord.gg/Xg85BuTc9A'
+- 'https://snort.social/p/npub1dwn7wphjhrlej6ks4sktgn77w82ayq6hn6lj37ll75tav55nd3vq07xzaj'
 redirect_from: 
-developerName: Michael Wünsch
+developerName: 'Michael Wünsch'
 features: 
 
 ---

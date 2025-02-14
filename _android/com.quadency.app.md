@@ -1,37 +1,37 @@
 ---
-wsId: quadency
-title: Quadency - Crypto Platform
+wsId: 'quadency'
+title: 'Quadency - Crypto Platform'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.quadency.app
+appId: 'com.quadency.app'
 appCountry: 
-released: 2021-10-24
-updated: 2023-03-06
-version: 1.6.0
+released: '2021-10-24'
+updated: '2023-03-06'
+version: '1.6.0'
 stars: 2.5
 ratings: 
 reviews: 5
 size: 
-website: https://quadency.com
+website: 'https://quadency.com'
 repository: 
 issue: 
-icon: com.quadency.app.png
+icon: 'com.quadency.app.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-11-04
+date: '2024-11-04'
 signer: 
 reviewArchive: 
-twitter: quadency
+twitter: 'quadency'
 social:
-- https://www.linkedin.com/company/quadency/
-- https://www.facebook.com/quadency
-- https://t.me/quadency
+- 'https://www.linkedin.com/company/quadency/'
+- 'https://www.facebook.com/quadency'
+- 'https://t.me/quadency'
 redirect_from: 
-developerName: Quadency
+developerName: 'Quadency'
 features: 
 
 ---

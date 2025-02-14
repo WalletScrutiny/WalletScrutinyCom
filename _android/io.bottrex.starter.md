@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: Bottrex - Crypto Trading Bot
+title: 'Bottrex - Crypto Trading Bot'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: io.bottrex.starter
+appId: 'io.bottrex.starter'
 appCountry: 
-released: 2019-05-20
-updated: 2022-05-03
-version: 0.5.9
+released: '2019-05-20'
+updated: '2022-05-03'
+version: '0.5.9'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://bottrex.net
+website: 'https://bottrex.net'
 repository: 
 issue: 
-icon: io.bottrex.starter.png
+icon: 'io.bottrex.starter.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
-twitter: bottrexoficial
+twitter: 'bottrexoficial'
 social:
-- https://www.facebook.com/bottrex
+- 'https://www.facebook.com/bottrex'
 redirect_from: 
 developerName: 
 features: 

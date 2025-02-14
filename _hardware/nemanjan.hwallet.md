@@ -3,7 +3,7 @@ title: HWallet
 appId: nemanjan.hwallet
 authors:
 - danny
-released: 2018-11-12
+released: '2018-11-12'
 discontinued: 
 updated: 
 version: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: obsolete
 verdict: diy
 appHashes: 
-date: 2022-04-11
+date: '2022-04-11'
 signer: 
 reviewArchive: 
 twitter: 

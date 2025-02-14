@@ -1,36 +1,35 @@
 ---
-wsId: roqqu
+wsId: 'roqqu'
 title: 'Roqqu: Buy & Sell Crypto'
 altTitle: 
 authors:
-- kiwilamb
-- leo
+- 'kiwilamb'
+- 'leo'
 users: 1000000
-appId: com.roqqu.app
+appId: 'com.roqqu.app'
 appCountry: 
-released: 2019-09-30
+released: '2019-09-30'
 updated: 2025-01-31
-version: 2.5.46
+version: '2.5.46'
 stars: 4.2
 ratings: 24688
-reviews: 851
-size: 
-website: https://roqqu.com
+reviews: 852
+website: 'https://roqqu.com'
 repository: 
 issue: 
-icon: com.roqqu.app.png
+icon: 'com.roqqu.app.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-04-16
+date: '2021-04-16'
 signer: 
 reviewArchive: 
-twitter: roqqupay
+twitter: 'roqqupay'
 social:
-- https://www.facebook.com/roqqupay
+- 'https://www.facebook.com/roqqupay'
 redirect_from: 
-developerName: Roqqu
+developerName: 'Roqqu'
 features: 
 
 ---

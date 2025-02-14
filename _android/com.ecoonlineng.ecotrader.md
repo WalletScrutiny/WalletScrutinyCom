@@ -1,35 +1,34 @@
 ---
-wsId: ecoTrader
-title: Eco Trader
+wsId: 'ecoTrader'
+title: 'Eco Trader'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.ecoonlineng.ecotrader
+appId: 'com.ecoonlineng.ecotrader'
 appCountry: 
-released: 2020-11-13
+released: '2020-11-13'
 updated: 2024-05-12
-version: 4.9.1
+version: '4.9.1'
 stars: 3.9
 ratings: 
 reviews: 16
-size: 
-website: https://programmerscourt.com
+website: 'https://programmerscourt.com'
 repository: 
 issue: 
-icon: com.ecoonlineng.ecotrader.jpg
+icon: 'com.ecoonlineng.ecotrader.jpg'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-03-30
+date: '2024-03-30'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://ecoonlineng.com/
+- 'https://ecoonlineng.com/'
 redirect_from: 
-developerName: Eco Online Services
+developerName: 'Eco Online Services'
 features: 
 
 ---

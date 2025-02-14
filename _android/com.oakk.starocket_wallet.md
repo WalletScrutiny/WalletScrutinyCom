@@ -1,38 +1,37 @@
 ---
-wsId: trubit
+wsId: 'trubit'
 title: 'TruBit: Crypto Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.oakk.starocket_wallet
+appId: 'com.oakk.starocket_wallet'
 appCountry: 
-released: 2022-05-29
+released: '2022-05-29'
 updated: 2025-02-07
-version: 3.0.6
+version: '3.0.6'
 stars: 3.6
 ratings: 
 reviews: 9
-size: 
-website: https://trubit.com/
+website: 'https://trubit.com/'
 repository: 
 issue: 
-icon: com.oakk.starocket_wallet.png
+icon: 'com.oakk.starocket_wallet.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-04-29
+date: '2023-04-29'
 signer: 
 reviewArchive: 
-twitter: TruBit_Latam
+twitter: 'TruBit_Latam'
 social:
-- https://www.linkedin.com/company/trubit-oficial/
-- https://www.facebook.com/TruBit.Latam
-- https://www.youtube.com/@TruBit_Latam
-- https://www.instagram.com/trubit_latam/
+- 'https://www.linkedin.com/company/trubit-oficial/'
+- 'https://www.facebook.com/TruBit.Latam'
+- 'https://www.youtube.com/@TruBit_Latam'
+- 'https://www.instagram.com/trubit_latam/'
 redirect_from: 
-developerName: TruBit Ltd.
+developerName: 'TruBit Ltd.'
 features: 
 
 ---

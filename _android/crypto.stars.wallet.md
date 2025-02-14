@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: Crypto Blockchain Wallet to Bu
+title: 'Crypto Blockchain Wallet to Bu'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: crypto.stars.wallet
+appId: 'crypto.stars.wallet'
 appCountry: 
-released: 2018-10-11
-updated: 2018-10-11
-version: 0.42.6
+released: '2018-10-11'
+updated: '2018-10-11'
+version: '0.42.6'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: http://myappshaven.com/Privacy-Policy/
+website: 'http://myappshaven.com/Privacy-Policy/'
 repository: 
 issue: 
-icon: crypto.stars.wallet.png
+icon: 'crypto.stars.wallet.png'
 bugbounty: 
-meta: removed
-verdict: nobtc
+meta: 'removed'
+verdict: 'nobtc'
 appHashes: 
-date: 2023-06-12
+date: '2023-06-12'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Mjobs Co
+developerName: 'Mjobs Co'
 features: 
 
 ---

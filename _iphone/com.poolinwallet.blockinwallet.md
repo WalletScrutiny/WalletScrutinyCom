@@ -7,9 +7,9 @@ authors:
 appId: com.poolinwallet.blockinwallet
 appCountry: us
 idd: 1495275337
-released: 2020-01-23
-updated: 2023-03-01
-version: 2.5.6
+released: '2020-01-23'
+updated: '2023-03-01'
+version: '2.5.6'
 stars: 3.3
 reviews: 41
 size: '98153472'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-08-25
+date: '2023-08-25'
 signer: 
 reviewArchive: 
 twitter: PoolinWallet

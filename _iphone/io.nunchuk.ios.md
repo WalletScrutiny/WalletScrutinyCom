@@ -8,9 +8,9 @@ authors:
 appId: io.nunchuk.ios
 appCountry: us
 idd: 1563190073
-released: 2021-12-16
-updated: 2025-01-16
-version: 1.9.69
+released: '2021-12-16'
+updated: '2025-01-16'
+version: '1.9.69'
 stars: 4.8
 reviews: 197
 size: '127027200'
@@ -22,7 +22,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: 2023-01-06
+date: '2023-01-06'
 signer: 
 reviewArchive: 
 twitter: nunchuk_io

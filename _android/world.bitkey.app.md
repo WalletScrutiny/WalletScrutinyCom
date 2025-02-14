@@ -1,84 +1,83 @@
 ---
-wsId: bitkeyBlock
-title: Bitkey - Bitcoin Wallet
+wsId: 'bitkeyBlock'
+title: 'Bitkey - Bitcoin Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: world.bitkey.app
-appCountry: US
-released: 2024-02-28
+appId: 'world.bitkey.app'
+appCountry: 'US'
+released: '2024-02-28'
 updated: 2025-01-10
-version: 2024.75.3 (1)
+version: '2024.75.3 (1)'
 stars: 4.1
 ratings: 
 reviews: 17
-size: 
-website: https://bitkey.world
-repository: https://github.com/proto-at-block/bitkey
+website: 'https://bitkey.world'
+repository: 'https://github.com/proto-at-block/bitkey'
 issue: 
-icon: world.bitkey.app.png
+icon: 'world.bitkey.app.png'
 bugbounty: 
-meta: ok
-verdict: wip
+meta: 'ok'
+verdict: 'wip'
 appHashes: []
-date: 2024-12-16
-signer: c0d0f9da7158cde788d0281e9ebd07034178165584d635f7ce17f77c037d961a
+date: '2024-12-16'
+signer: 'c0d0f9da7158cde788d0281e9ebd07034178165584d635f7ce17f77c037d961a'
 reviewArchive:
-- date: 2024-12-16
-  version: 2024.74.1 (1)
+- date: '2024-12-16'
+  version: '2024.74.1 (1)'
   appHashes:
-  - b7d9b4829f6296a7c01ee789e10cf4fad4b1bf514f8f2fafd2844ca129d57c91
-  - e81e73a66e18e53eb8be2eadfee9fb901c5554ed1ba5cc92466e04aeeed41d19
-  - 221ddbe7796a123c565a002e2bf0356a4d2d4098a8a58f415d25e852d6300d1e
-  - a6a40e592bafb2c58c92491a9fd27107a018cc1add4013754e54f7187a9eb404
-  gitRevision: a06617f9acadfcfedb75effc3aafc544d5051eb2
-  verdict: nonverifiable
-- date: 2024-12-07
-  version: 2024.73.1 (2)
+  - 'b7d9b4829f6296a7c01ee789e10cf4fad4b1bf514f8f2fafd2844ca129d57c91'
+  - 'e81e73a66e18e53eb8be2eadfee9fb901c5554ed1ba5cc92466e04aeeed41d19'
+  - '221ddbe7796a123c565a002e2bf0356a4d2d4098a8a58f415d25e852d6300d1e'
+  - 'a6a40e592bafb2c58c92491a9fd27107a018cc1add4013754e54f7187a9eb404'
+  gitRevision: 'a06617f9acadfcfedb75effc3aafc544d5051eb2'
+  verdict: 'nonverifiable'
+- date: '2024-12-07'
+  version: '2024.73.1 (2)'
   appHashes:
-  - c450bc84fe154daa4cec5af3a87bf1646fd0fa2d340a99a608d25f737173ca52
-  gitRevision: 5d7b9b51299533649649997ba132ef2bd73f49f5
-  verdict: nonverifiable
-- date: 2024-09-23
-  version: 2024.69.0 (4)
+  - 'c450bc84fe154daa4cec5af3a87bf1646fd0fa2d340a99a608d25f737173ca52'
+  gitRevision: '5d7b9b51299533649649997ba132ef2bd73f49f5'
+  verdict: 'nonverifiable'
+- date: '2024-09-23'
+  version: '2024.69.0 (4)'
   appHashes:
-  - 67c4d8ec5beec9b6424a39700e0fc9673f713a98d965a6cdd3ef4a968fd000af
-  gitRevision: 3cb9e16e08babae6e2f6ce682158ba2aa6c603c5
-  verdict: reproducible
-- date: 2024-08-30
-  version: 2024.68.0 (1)
+  - '67c4d8ec5beec9b6424a39700e0fc9673f713a98d965a6cdd3ef4a968fd000af'
+  gitRevision: '3cb9e16e08babae6e2f6ce682158ba2aa6c603c5'
+  verdict: 'reproducible'
+- date: '2024-08-30'
+  version: '2024.68.0 (1)'
   appHashes:
-  - 0979d68dc323e95dbb5ddb4be259d7d0fcd83eccab4d5af5dd18a4632d216fa1
-  gitRevision: 65f0d9d3018e6f4e8a32f53de5263b6c2e132964
-  verdict: reproducible
-- date: 2024-08-30
-  version: 2024.67.0 (1)
+  - '0979d68dc323e95dbb5ddb4be259d7d0fcd83eccab4d5af5dd18a4632d216fa1'
+  gitRevision: '65f0d9d3018e6f4e8a32f53de5263b6c2e132964'
+  verdict: 'reproducible'
+- date: '2024-08-30'
+  version: '2024.67.0 (1)'
   appHashes:
-  - a3699344ebea4262a7d5652a6ea0a9bf45ab1b3a73423fae3e289c05f3c9ee72
-  gitRevision: 3e0dace0287b9ad1ad11631f05bb5f067db5db6d
-  verdict: reproducible
-- date: 2024-07-26
-  version: 2024.63.0 (4)
+  - 'a3699344ebea4262a7d5652a6ea0a9bf45ab1b3a73423fae3e289c05f3c9ee72'
+  gitRevision: '3e0dace0287b9ad1ad11631f05bb5f067db5db6d'
+  verdict: 'reproducible'
+- date: '2024-07-26'
+  version: '2024.63.0 (4)'
   appHashes:
-  - d1adb1725e83e115c169f3676cee3b67fb97e044f6e8ba5be4c7dd88fe746de9
-  gitRevision: 6ae7c72d480ca51b583f6b18d05516226e30f5a4
-  verdict: reproducible
-- date: 2024-03-23
-  version: 2024.63.0 (2)
+  - 'd1adb1725e83e115c169f3676cee3b67fb97e044f6e8ba5be4c7dd88fe746de9'
+  gitRevision: '6ae7c72d480ca51b583f6b18d05516226e30f5a4'
+  verdict: 'reproducible'
+- date: '2024-03-23'
+  version: '2024.63.0 (2)'
   appHashes:
-  - 110568d39beb8b0ccb6fc0f4ed710c2d129392137acc9e97202d5ac1ee192125
-  gitRevision: 93c2de0de2ff3717c59dffa274b444490b4a45d6
-  verdict: reproducible
-twitter: Bitkeyofficial
+  - '110568d39beb8b0ccb6fc0f4ed710c2d129392137acc9e97202d5ac1ee192125'
+  gitRevision: '93c2de0de2ff3717c59dffa274b444490b4a45d6'
+  verdict: 'reproducible'
+twitter: 'Bitkeyofficial'
 social:
-- https://www.linkedin.com/company/bitkey-official
-- https://www.facebook.com/profile.php?id=100088526238789
-- https://www.instagram.com/ownbitkey
+- 'https://www.linkedin.com/company/bitkey-official'
+- 'https://www.facebook.com/profile.php?id=100088526238789'
+- 'https://www.instagram.com/ownbitkey'
 redirect_from: 
-developerName: Block, Inc.
+developerName: 'Block, Inc.'
 features:
-- multiSignature
+- 'multiSignature'
 
 ---
 

@@ -1,36 +1,35 @@
 ---
-wsId: Robinhood
+wsId: 'Robinhood'
 title: 'Robinhood: Investing for All'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000000
-appId: com.robinhood.android
-appCountry: us
-released: 2015-08-12
+appId: 'com.robinhood.android'
+appCountry: 'us'
+released: '2015-08-12'
 updated: 2025-02-10
-version: 2025.6.2
+version: '2025.6.2'
 stars: 4.2
 ratings: 445358
-reviews: 258644
-size: 
-website: https://robinhood.com/
+reviews: 258722
+website: 'https://robinhood.com/'
 repository: 
 issue: 
-icon: com.robinhood.android.png
+icon: 'com.robinhood.android.png'
 bugbounty: 
-meta: ok
-verdict: nosendreceive
+meta: 'ok'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2021-09-15
+date: '2021-09-15'
 signer: 
 reviewArchive: 
-twitter: RobinhoodApp
+twitter: 'RobinhoodApp'
 social:
-- https://www.linkedin.com/company/robinhood
-- https://www.facebook.com/robinhoodapp
+- 'https://www.linkedin.com/company/robinhood'
+- 'https://www.facebook.com/robinhoodapp'
 redirect_from: 
-developerName: Robinhood
+developerName: 'Robinhood'
 features: 
 
 ---

@@ -22,7 +22,7 @@ icon: bcmint.physicalbitcoins.png
 bugbounty: 
 meta: ok
 verdict: prefilled
-date: 2022-05-19
+date: '2022-05-19'
 signer: 
 reviewArchive: 
 twitter: 

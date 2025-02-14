@@ -1,39 +1,38 @@
 ---
-wsId: ataniTrade
+wsId: 'ataniTrade'
 title: 'ATANI: Trade Crypto & Altcoins'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.atani
+appId: 'com.atani'
 appCountry: 
-released: 2021-03-09
+released: '2021-03-09'
 updated: 2025-01-22
-version: 4.25.15
+version: '4.25.15'
 stars: 4.2
 ratings: 
-reviews: 61
-size: 
-website: https://atani.com/
+reviews: 62
+website: 'https://atani.com/'
 repository: 
 issue: 
-icon: com.atani.png
+icon: 'com.atani.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-07-28
+date: '2023-07-28'
 signer: 
 reviewArchive: 
-twitter: Atani_Official
+twitter: 'Atani_Official'
 social:
-- https://www.linkedin.com/company/atani
-- https://www.youtube.com/c/ATANI
-- https://t.me/atani_official
-- https://www.instagram.com/atani.official
-- https://www.facebook.com/Atani.Official
+- 'https://www.linkedin.com/company/atani'
+- 'https://www.youtube.com/c/ATANI'
+- 'https://t.me/atani_official'
+- 'https://www.instagram.com/atani.official'
+- 'https://www.facebook.com/Atani.Official'
 redirect_from: 
-developerName: Etoshi Technologies SL
+developerName: 'Etoshi Technologies SL'
 features: 
 
 ---

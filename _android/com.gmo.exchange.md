@@ -1,35 +1,34 @@
 ---
-wsId: ZcomEx
-title: Z.com EX - Buy/Sell Bitcoin
+wsId: 'ZcomEx'
+title: 'Z.com EX - Buy/Sell Bitcoin'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.gmo.exchange
-appCountry: th
-released: 2020-08-07
+appId: 'com.gmo.exchange'
+appCountry: 'th'
+released: '2020-08-07'
 updated: 2025-01-16
-version: 3.1.7
+version: '3.1.7'
 stars: 4
 ratings: 82
 reviews: 35
-size: 
-website: https://ex.z.com/
+website: 'https://ex.z.com/'
 repository: 
 issue: 
-icon: com.gmo.exchange.jpg
+icon: 'com.gmo.exchange.jpg'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-11-08
+date: '2021-11-08'
 signer: 
 reviewArchive: 
-twitter: ZcomExchange
+twitter: 'ZcomExchange'
 social:
-- https://www.facebook.com/ZcomCrypto
+- 'https://www.facebook.com/ZcomCrypto'
 redirect_from: 
-developerName: GMO-Z.com Cryptonomics Ltd. Thailand
+developerName: 'GMO-Z.com Cryptonomics Ltd. Thailand'
 features: 
 
 ---

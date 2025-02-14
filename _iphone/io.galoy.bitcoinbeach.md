@@ -7,9 +7,9 @@ authors:
 appId: io.galoy.bitcoinbeach
 appCountry: ng
 idd: '1531383905'
-released: 2020-11-11
-updated: 2024-10-31
-version: 2.2.286
+released: '2020-11-11'
+updated: '2024-10-31'
+version: '2.2.286'
 stars: 4.4
 reviews: 37
 size: '61305856'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2023-10-20
+date: '2023-10-20'
 signer: 
 reviewArchive: 
 twitter: blinkbtc

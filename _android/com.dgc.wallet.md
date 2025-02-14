@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: DGC WALLET
+title: 'DGC WALLET'
 altTitle: 
 authors: 
 users: 100
-appId: com.dgc.wallet
+appId: 'com.dgc.wallet'
 appCountry: 
-released: 2021-07-25
-updated: 2021-07-25
-version: 0.21.3
+released: '2021-07-25'
+updated: '2021-07-25'
+version: '0.21.3'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.dgcusa.com/
+website: 'https://www.dgcusa.com/'
 repository: 
 issue: 
-icon: com.dgc.wallet.png
+icon: 'com.dgc.wallet.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-04-19
+date: '2024-04-19'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Digital Gold Coin
+developerName: 'Digital Gold Coin'
 features: 
 
 ---

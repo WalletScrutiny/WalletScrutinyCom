@@ -3,9 +3,9 @@ title: Kastelo
 appId: kastelo
 authors:
 - danny
-released: 2018-04-01
+released: '2018-04-01'
 discontinued: 
-updated: 2018-12-09
+updated: '2018-12-09'
 version: 
 binaries: 
 dimensions: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: defunct
 verdict: nobtc
 appHashes: 
-date: 2022-03-23
+date: '2022-03-23'
 signer: 
 reviewArchive: 
 twitter: 

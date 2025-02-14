@@ -1,28 +1,28 @@
 ---
 wsId: 
-title: OK Miner
+title: 'OK Miner'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: io.okminer.app
+appId: 'io.okminer.app'
 appCountry: 
-released: 2021-06-27
-updated: 2021-10-13
-version: 1.2.8
+released: '2021-06-27'
+updated: '2021-10-13'
+version: '1.2.8'
 stars: 4.5
 ratings: 534
 reviews: 117
-size: 24M
-website: https://www.okminer.io/
+size: '24M'
+website: 'https://www.okminer.io/'
 repository: 
 issue: 
-icon: io.okminer.app.png
+icon: 'io.okminer.app.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2021-11-02
+date: '2021-11-02'
 signer: 
 reviewArchive: 
 twitter: 

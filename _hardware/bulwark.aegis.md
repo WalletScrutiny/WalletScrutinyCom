@@ -3,9 +3,9 @@ title: Bulwark Aegis
 appId: bulwark.aegis
 authors:
 - danny
-released: 2018-06-12
+released: '2018-06-12'
 discontinued: 
-updated: 2019-01-10
+updated: '2019-01-10'
 version: 
 binaries: 
 dimensions: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: vapor
 appHashes: 
-date: 2022-05-17
+date: '2022-05-17'
 signer: 
 reviewArchive: 
 twitter: BulwarkCrypto

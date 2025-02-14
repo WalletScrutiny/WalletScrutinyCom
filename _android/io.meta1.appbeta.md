@@ -1,37 +1,37 @@
 ---
-wsId: meta1Wallet
-title: META 1 Wallet
+wsId: 'meta1Wallet'
+title: 'META 1 Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: io.meta1.appbeta
+appId: 'io.meta1.appbeta'
 appCountry: 
-released: 2022-03-31
-updated: 2024-05-20
-version: 2.0.3
+released: '2022-03-31'
+updated: '2024-05-20'
+version: '2.0.3'
 stars: 4.6
 ratings: 
 reviews: 2
 size: 
-website: https://meta-exchange.vision/home/
-repository: https://github.com/META-1-Official/litewallet-native
-issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/500
-icon: io.meta1.appbeta.png
+website: 'https://meta-exchange.vision/home/'
+repository: 'https://github.com/META-1-Official/litewallet-native'
+issue: 'https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/500'
+icon: 'io.meta1.appbeta.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2025-01-09
+date: '2025-01-09'
 signer: 
 reviewArchive: 
-twitter: META1Coin
+twitter: 'META1Coin'
 social:
-- https://www.facebook.com/meta1coin
-- https://www.instagram.com/meta1coin
-- https://www.linkedin.com/company/meta-1-coin
+- 'https://www.facebook.com/meta1coin'
+- 'https://www.instagram.com/meta1coin'
+- 'https://www.linkedin.com/company/meta-1-coin'
 redirect_from: 
-developerName: META 1 Coin
+developerName: 'META 1 Coin'
 features: 
 
 ---

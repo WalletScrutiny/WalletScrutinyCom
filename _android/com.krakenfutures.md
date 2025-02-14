@@ -3,35 +3,35 @@ wsId:
 title: 'Kraken Futures: Bitcoin & Cryp'
 altTitle: 
 authors:
-- leo
-- danny
+- 'leo'
+- 'danny'
 users: 10000
-appId: com.krakenfutures
+appId: 'com.krakenfutures'
 appCountry: 
-released: 2019-10-07
-updated: 2021-03-24
-version: 5.24.0
+released: '2019-10-07'
+updated: '2021-03-24'
+version: '5.24.0'
 stars: 3.5
 ratings: 451
 reviews: 5
 size: 
-website: https://futures.kraken.com
+website: 'https://futures.kraken.com'
 repository: 
 issue: 
-icon: com.krakenfutures.png
+icon: 'com.krakenfutures.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-03-02
+date: '2024-03-02'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from:
-- /com.krakenfutures/
-- /posts/com.krakenfutures/
-developerName: Payward, Inc.
+- '/com.krakenfutures/'
+- '/posts/com.krakenfutures/'
+developerName: 'Payward, Inc.'
 features: 
 
 ---

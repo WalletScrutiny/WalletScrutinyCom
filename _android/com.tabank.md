@@ -1,36 +1,36 @@
 ---
-wsId: tabank
+wsId: 'tabank'
 title: 'Tabank: Tabus Crypto Ecosystem'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.tabank
+appId: 'com.tabank'
 appCountry: 
-released: 2021-08-20
-updated: 2022-02-14
-version: 1.3.7
+released: '2021-08-20'
+updated: '2022-02-14'
+version: '1.3.7'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://web.tabus.co/
+website: 'https://web.tabus.co/'
 repository: 
 issue: 
-icon: com.tabank.png
+icon: 'com.tabank.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
-twitter: OrgTabank
+twitter: 'OrgTabank'
 social:
-- https://www.facebook.com/tabank.org
-- https://t.me/tabankorg
+- 'https://www.facebook.com/tabank.org'
+- 'https://t.me/tabankorg'
 redirect_from: 
-developerName: Tabank Holding Pte. Ltd.
+developerName: 'Tabank Holding Pte. Ltd.'
 features: 
 
 ---

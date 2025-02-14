@@ -23,7 +23,7 @@ bugbounty:
 meta: defunct
 verdict: noita
 appHashes: 
-date: 2021-08-01
+date: '2021-08-01'
 signer: 
 reviewArchive: 
 twitter: Ledger

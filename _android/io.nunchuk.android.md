@@ -1,77 +1,75 @@
 ---
-wsId: nunchuk
-title: Nunchuk Bitcoin Wallet
+wsId: 'nunchuk'
+title: 'Nunchuk Bitcoin Wallet'
 altTitle: 
 authors:
-- leo
-- emanuel
-- mohammad
-- danny
+- 'leo'
+- 'emanuel'
+- 'mohammad'
+- 'danny'
 users: 10000
-appId: io.nunchuk.android
+appId: 'io.nunchuk.android'
 appCountry: 
-released: 2021-11-11
+released: '2021-11-11'
 updated: 2025-02-07
-version: 1.9.62
+version: '1.9.62'
 stars: 4.6
 ratings: 26
-reviews: 24
-size: 
-website: https://nunchuk.io
-repository: https://github.com/nunchuk-io/nunchuk-android
-issue: https://github.com/nunchuk-io/nunchuk-android/issues/23
-icon: io.nunchuk.android.png
+reviews: 25
+website: 'https://nunchuk.io'
+repository: 'https://github.com/nunchuk-io/nunchuk-android'
+issue: 'https://github.com/nunchuk-io/nunchuk-android/issues/23'
+icon: 'io.nunchuk.android.png'
 bugbounty: 
-meta: ok
-verdict: nonverifiable
+meta: 'ok'
+verdict: 'nonverifiable'
 appHashes:
-- c0cc213b0e5f309d4bf83d8ff576f7e7c324c2273e202170a10704b0b5d9d535
-- 03a0faf7feae6ced736a0894049163dbfc81d8b616c0c549d1b9dc7c781bd0cc
-- 3f704527776c7696c85728790f8639ced4d38eaa1a43229d33c4c8b8aa0a1e0a
-date: 2025-01-27
+- 'c0cc213b0e5f309d4bf83d8ff576f7e7c324c2273e202170a10704b0b5d9d535'
+- '03a0faf7feae6ced736a0894049163dbfc81d8b616c0c549d1b9dc7c781bd0cc'
+- '3f704527776c7696c85728790f8639ced4d38eaa1a43229d33c4c8b8aa0a1e0a'
+date: '2025-01-27'
 signer: 
 reviewArchive:
-- date: 2025-01-15
-  version: 1.9.58
+- date: '2025-01-15'
+  version: '1.9.58'
   appHashes:
-  - 8f53fa42fc072381ea228314fa421b52a77b33e9fe6029095fc1d13c68fd9b41
-  - 9027651c5ed7dd4a31d6cd073023bb77f38b799d8a0aa0ff0f81a184b1795dd3
-  - 02c32758930cf0d4d87a44a5985f7bf97550280e1539074276a277866489f022
-  gitRevision: 8080d3a7f2c5ea5e5acf56295040b814accb6b11
-  verdict: nonverifiable
-- date: 2024-11-19
-  version: 1.9.53
+  - '8f53fa42fc072381ea228314fa421b52a77b33e9fe6029095fc1d13c68fd9b41'
+  - '9027651c5ed7dd4a31d6cd073023bb77f38b799d8a0aa0ff0f81a184b1795dd3'
+  - '02c32758930cf0d4d87a44a5985f7bf97550280e1539074276a277866489f022'
+  gitRevision: '8080d3a7f2c5ea5e5acf56295040b814accb6b11'
+  verdict: 'nonverifiable'
+- date: '2024-11-19'
+  version: '1.9.53'
   appHashes: []
-  gitRevision: 4458285efc54bd9bc76d74f88e696201a4af4a93
-  verdict: nonverifiable
-- date: 2024-11-19
-  version: 1.9.53
+  gitRevision: '4458285efc54bd9bc76d74f88e696201a4af4a93'
+  verdict: 'nonverifiable'
+- date: '2024-11-19'
+  version: '1.9.53'
   appHashes:
-  - aaec6e500babbd1931db8485b99205468e426f6157df131f607aa69b6e821708
-  gitRevision: b720beb1ee4f9de53638ab013f759690c8e787a4
-  verdict: nonverifiable
-- date: 2023-07-05
-  version: 1.9.32
+  - 'aaec6e500babbd1931db8485b99205468e426f6157df131f607aa69b6e821708'
+  gitRevision: 'b720beb1ee4f9de53638ab013f759690c8e787a4'
+  verdict: 'nonverifiable'
+- date: '2023-07-05'
+  version: '1.9.32'
   appHashes: []
-  gitRevision: 5e67b0f51e6c67a3e1140ba66a1b4222e8cfe2a4
-  verdict: nonverifiable
-- date: 2023-01-06
-  version: 1.9.23
+  gitRevision: '5e67b0f51e6c67a3e1140ba66a1b4222e8cfe2a4'
+  verdict: 'nonverifiable'
+- date: '2023-01-06'
+  version: '1.9.23'
   appHashes: []
-  gitRevision: 49d61c1c5807f24ea01ba185a2de6793f8df0d38
-  verdict: nonverifiable
-- date: 2021-12-15
-  version: 1.9.21
+  gitRevision: '49d61c1c5807f24ea01ba185a2de6793f8df0d38'
+  verdict: 'nonverifiable'
+- date: '2021-12-15'
+  version: '1.9.21'
   appHashes: []
-  gitRevision: f9bb0384d334f1ab3cd67824f43ff0053e7e51e7
-  verdict: nosource
-twitter: nunchuk_io
+  gitRevision: 'f9bb0384d334f1ab3cd67824f43ff0053e7e51e7'
+  verdict: 'nosource'
+twitter: 'nunchuk_io'
 social:
-- https://nunchuk.medium.com/
-- >-
-  https://join.slack.com/t/nunchukio/shared_invite/zt-xqdlvl5g-xKKohQu_R7IUo7_np8rVaw
+- 'https://nunchuk.medium.com/'
+- 'https://join.slack.com/t/nunchukio/shared_invite/zt-xqdlvl5g-xKKohQu_R7IUo7_np8rVaw'
 redirect_from: 
-developerName: Nunchuk Inc
+developerName: 'Nunchuk Inc'
 features: 
 
 ---

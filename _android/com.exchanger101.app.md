@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: Exchanger101
+title: 'Exchanger101'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.exchanger101.app
+appId: 'com.exchanger101.app'
 appCountry: 
-released: 2021-09-30
+released: '2021-09-30'
 updated: 2025-01-17
-version: 1.22.7
+version: '1.22.7'
 stars: 4.2
 ratings: 
 reviews: 8
-size: 
-website: https://exchanger101.com
+website: 'https://exchanger101.com'
 repository: 
 issue: 
-icon: com.exchanger101.app.png
+icon: 'com.exchanger101.app.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-05-24
+date: '2023-05-24'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: exchanger company
+developerName: 'exchanger company'
 features: 
 
 ---

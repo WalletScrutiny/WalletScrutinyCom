@@ -1,38 +1,38 @@
 ---
-wsId: gluwaWallet
-title: Gluwa
+wsId: 'gluwaWallet'
+title: 'Gluwa'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.gluwa.android
+appId: 'com.gluwa.android'
 appCountry: 
-released: 2015-09-20
-updated: 2024-03-27
-version: 8.7.0
+released: '2015-09-20'
+updated: '2024-03-27'
+version: '8.7.0'
 stars: 3.4
 ratings: 
 reviews: 3
 size: 
-website: https://www.gluwa.com
+website: 'https://www.gluwa.com'
 repository: 
 issue: 
-icon: com.gluwa.android.png
+icon: 'com.gluwa.android.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2024-12-31
+date: '2024-12-31'
 signer: 
 reviewArchive: 
-twitter: gluwa
+twitter: 'gluwa'
 social:
-- https://medium.com/@gluwa
-- https://www.linkedin.com/company/gluwa
-- https://www.youtube.com/channel/UCqJfH4lOL7keXBBDtxsz0TA
-- https://www.instagram.com/gluwa.inc
+- 'https://medium.com/@gluwa'
+- 'https://www.linkedin.com/company/gluwa'
+- 'https://www.youtube.com/channel/UCqJfH4lOL7keXBBDtxsz0TA'
+- 'https://www.instagram.com/gluwa.inc'
 redirect_from: 
-developerName: Gluwa
+developerName: 'Gluwa'
 features: 
 
 ---

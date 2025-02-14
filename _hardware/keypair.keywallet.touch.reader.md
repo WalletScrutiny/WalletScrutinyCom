@@ -26,7 +26,7 @@ bugbounty:
 meta: ok
 verdict: nowallet
 appHashes: 
-date: 2022-05-19
+date: '2022-05-19'
 signer: 
 reviewArchive: 
 twitter: keywallet

@@ -1,34 +1,32 @@
 ---
-wsId: xcritical
-title: XCritical
+wsId: 'xcritical'
+title: 'XCritical'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.xcritical.trading
+appId: 'com.xcritical.trading'
 appCountry: 
-released: 
 updated: 2023-02-02
-version: 2.23.7
+version: '2.23.7'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://xcritical.com/
+website: 'https://xcritical.com/'
 repository: 
 issue: 
-icon: com.xcritical.trading.png
+icon: 'com.xcritical.trading.png'
 bugbounty: 
-meta: obsolete
-verdict: custodial
+meta: 'obsolete'
+verdict: 'custodial'
 appHashes: 
-date: 2025-01-27
+date: '2025-01-27'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Xcritical Soft LTD
+developerName: 'Xcritical Soft LTD'
 features: 
 
 ---

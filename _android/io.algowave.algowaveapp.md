@@ -1,35 +1,35 @@
 ---
 wsId: 
-title: Algowave
+title: 'Algowave'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: io.algowave.algowaveapp
+appId: 'io.algowave.algowaveapp'
 appCountry: 
-released: 2018-07-09
-updated: 2021-04-29
+released: '2018-07-09'
+updated: '2021-04-29'
 version: '3.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.algowave.io
+website: 'https://www.algowave.io'
 repository: 
 issue: 
-icon: io.algowave.algowaveapp.png
+icon: 'io.algowave.algowaveapp.png'
 bugbounty: 
-meta: defunct
-verdict: wip
+meta: 'defunct'
+verdict: 'wip'
 appHashes: 
-date: 2023-05-05
+date: '2023-05-05'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://web.archive.org/web/20211208164813/https://www.algowave.io/
+- 'https://web.archive.org/web/20211208164813/https://www.algowave.io/'
 redirect_from: 
-developerName: Algowave LTD
+developerName: 'Algowave LTD'
 features: 
 
 ---

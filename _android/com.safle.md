@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: Safle - Web3 Wallet
+title: 'Safle - Web3 Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.safle
+appId: 'com.safle'
 appCountry: 
-released: 2022-08-07
+released: '2022-08-07'
 updated: 2025-01-30
-version: 1.6.6
+version: '1.6.6'
 stars: 4.8
 ratings: 
 reviews: 14
-size: 
-website: https://safle.com/
+website: 'https://safle.com/'
 repository: 
 issue: 
-icon: com.safle.png
+icon: 'com.safle.png'
 bugbounty: 
-meta: ok
-verdict: nobtc
+meta: 'ok'
+verdict: 'nobtc'
 appHashes: 
-date: 2023-07-30
+date: '2023-07-30'
 signer: 
 reviewArchive: 
-twitter: getsafle
+twitter: 'getsafle'
 social: 
 redirect_from: 
-developerName: Safle
+developerName: 'Safle'
 features: 
 
 ---

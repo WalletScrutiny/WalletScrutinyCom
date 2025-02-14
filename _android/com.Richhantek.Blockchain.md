@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: Crypto Exchange Explorer
+title: 'Crypto Exchange Explorer'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.Richhantek.Blockchain
+appId: 'com.Richhantek.Blockchain'
 appCountry: 
-released: 2018-02-26
-updated: 2019-07-09
-version: 12.1.0
+released: '2018-02-26'
+updated: '2019-07-09'
+version: '12.1.0'
 stars: 3.8
 ratings: 15
 reviews: 1
 size: 
-website: http://richtekcenter.blogspot.tw
+website: 'http://richtekcenter.blogspot.tw'
 repository: 
 issue: 
-icon: com.Richhantek.Blockchain.png
+icon: 'com.Richhantek.Blockchain.png'
 bugbounty: 
-meta: defunct
-verdict: nowallet
+meta: 'defunct'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-05-22
+date: '2023-05-22'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Han Chang Lin
+developerName: 'Han Chang Lin'
 features: 
 
 ---

@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: GoArbit
+title: 'GoArbit'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 500000
-appId: com.goarbit.goarbit
+appId: 'com.goarbit.goarbit'
 appCountry: 
-released: 2020-11-17
-updated: 2021-08-13
-version: 3.0.1
+released: '2020-11-17'
+updated: '2021-08-13'
+version: '3.0.1'
 stars: 4.1
 ratings: 
 reviews: 3080
 size: 
-website: https://goarbit.com/
+website: 'https://goarbit.com/'
 repository: 
 issue: 
-icon: com.goarbit.goarbit.png
+icon: 'com.goarbit.goarbit.png'
 bugbounty: 
-meta: defunct
-verdict: wip
+meta: 'defunct'
+verdict: 'wip'
 appHashes: 
-date: 2023-02-01
+date: '2023-02-01'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: GoArbit Inc
+developerName: 'GoArbit Inc'
 features: 
 
 ---

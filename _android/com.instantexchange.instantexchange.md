@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: InstantExchangers - Bitcoin
+title: 'InstantExchangers - Bitcoin'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.instantexchange.instantexchange
+appId: 'com.instantexchange.instantexchange'
 appCountry: 
-released: 2022-03-25
-updated: 2022-03-25
-version: 2.0.0
+released: '2022-03-25'
+updated: '2022-03-25'
+version: '2.0.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.instantexchangers.net
+website: 'https://www.instantexchangers.net'
 repository: 
 issue: 
-icon: com.instantexchange.instantexchange.png
+icon: 'com.instantexchange.instantexchange.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: JOSTPAY LIMITED
+developerName: 'JOSTPAY LIMITED'
 features: 
 
 ---

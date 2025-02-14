@@ -1,40 +1,39 @@
 ---
-wsId: CitadelOne
-title: Citadel.one Super App
+wsId: 'CitadelOne'
+title: 'Citadel.one Super App'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: one.citadel.mobile
+appId: 'one.citadel.mobile'
 appCountry: 
-released: 2020-12-29
+released: '2020-12-29'
 updated: 2024-05-08
-version: 2.12.2
+version: '2.12.2'
 stars: 4.5
 ratings: 
 reviews: 15
-size: 
-website: https://citadel.one/
+website: 'https://citadel.one/'
 repository: 
 issue: 
-icon: one.citadel.mobile.png
+icon: 'one.citadel.mobile.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-17
+date: '2024-07-17'
 signer: 
 reviewArchive: 
-twitter: CitadelDAO
+twitter: 'CitadelDAO'
 social:
-- https://www.reddit.com/r/citadeldao/
-- https://medium.com/citadel-one
-- https://www.instagram.com/citadeldao/
-- https://www.youtube.com/channel/UCl6VvVIrAr7ztJ1Wf7xBxrA
-- https://www.linkedin.com/company/citadel-one/
-- https://www.facebook.com/Citadel.One
+- 'https://www.reddit.com/r/citadeldao/'
+- 'https://medium.com/citadel-one'
+- 'https://www.instagram.com/citadeldao/'
+- 'https://www.youtube.com/channel/UCl6VvVIrAr7ztJ1Wf7xBxrA'
+- 'https://www.linkedin.com/company/citadel-one/'
+- 'https://www.facebook.com/Citadel.One'
 redirect_from: 
-developerName: Citadel.one
+developerName: 'Citadel.one'
 features: 
 
 ---

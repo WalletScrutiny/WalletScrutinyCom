@@ -1,35 +1,34 @@
 ---
-wsId: jgCapital
-title: J G Capital
+wsId: 'jgCapital'
+title: 'J G Capital'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.jeangilles
+appId: 'com.jeangilles'
 appCountry: 
-released: 2022-09-01
+released: '2022-09-01'
 updated: 2025-02-11
-version: 1.4.6
+version: '1.4.6'
 stars: 5
 ratings: 
 reviews: 2
-size: 
-website: https://jgcapitalbitcoin.com/
+website: 'https://jgcapitalbitcoin.com/'
 repository: 
 issue: 
-icon: com.jeangilles.png
+icon: 'com.jeangilles.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-07-18
+date: '2023-07-18'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/jeangillescapital
+- 'https://www.facebook.com/jeangillescapital'
 redirect_from: 
-developerName: J G Capital
+developerName: 'J G Capital'
 features: 
 
 ---

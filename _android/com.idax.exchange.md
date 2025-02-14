@@ -1,35 +1,35 @@
 ---
-wsId: idax
-title: iDAX Exchange
+wsId: 'idax'
+title: 'iDAX Exchange'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.idax.exchange
+appId: 'com.idax.exchange'
 appCountry: 
-released: 2022-04-24
-updated: 2022-09-27
-version: 5.5.0_push_v2
+released: '2022-04-24'
+updated: '2022-09-27'
+version: '5.5.0_push_v2'
 stars: 3.1
 ratings: 
 reviews: 6
 size: 
-website: https://www.idax.exchange
+website: 'https://www.idax.exchange'
 repository: 
 issue: 
-icon: com.idax.exchange.png
+icon: 'com.idax.exchange.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-05-10
+date: '2023-05-10'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/daxmnofficial
+- 'https://www.facebook.com/daxmnofficial'
 redirect_from: 
-developerName: Ard Financial Group
+developerName: 'Ard Financial Group'
 features: 
 
 ---

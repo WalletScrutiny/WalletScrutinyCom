@@ -1,34 +1,33 @@
 ---
-wsId: bousechanj
-title: Bous Echanj
+wsId: 'bousechanj'
+title: 'Bous Echanj'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.bouspam.eritajpam
+appId: 'com.bouspam.eritajpam'
 appCountry: 
-released: 2022-03-28
+released: '2022-03-28'
 updated: 2024-11-28
-version: 2.4.3
+version: '2.4.3'
 stars: 2.7
 ratings: 
-reviews: 19
-size: 
-website: https://bousechanj.com/
+reviews: 20
+website: 'https://bousechanj.com/'
 repository: 
 issue: 
-icon: com.bouspam.eritajpam.png
+icon: 'com.bouspam.eritajpam.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-04-20
+date: '2023-04-20'
 signer: 
 reviewArchive: 
-twitter: eritajpam
+twitter: 'eritajpam'
 social: 
 redirect_from: 
-developerName: Ezechias Caillot
+developerName: 'Ezechias Caillot'
 features: 
 
 ---

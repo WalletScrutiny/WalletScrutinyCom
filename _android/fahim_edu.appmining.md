@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: Mining Monitor
+title: 'Mining Monitor'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: fahim_edu.appmining
+appId: 'fahim_edu.appmining'
 appCountry: 
-released: 2021-03-27
+released: '2021-03-27'
 updated: 2025-01-15
-version: 5.01.15
+version: '5.01.15'
 stars: 4.6
 ratings: 
 reviews: 73
-size: 
-website: https://toto-share.com
+website: 'https://toto-share.com'
 repository: 
 issue: 
-icon: fahim_edu.appmining.png
+icon: 'fahim_edu.appmining.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-06-14
+date: '2023-06-14'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Toto Sugito
+developerName: 'Toto Sugito'
 features: 
 
 ---

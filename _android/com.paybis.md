@@ -3,32 +3,31 @@ wsId:
 title: 'Paybis Crypto Wallet: Buy BTC'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.paybis
+appId: 'com.paybis'
 appCountry: 
-released: 2021-09-06
+released: '2021-09-06'
 updated: 2025-02-03
-version: 1.6.15
+version: '1.6.15'
 stars: 4.5
 ratings: 173
 reviews: 249
-size: 
-website: https://paybis.com/contacts/
+website: 'https://paybis.com/contacts/'
 repository: 
 issue: 
-icon: com.paybis.png
+icon: 'com.paybis.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2022-11-02
+date: '2022-11-02'
 signer: 
 reviewArchive: 
-twitter: paybis
+twitter: 'paybis'
 social: 
 redirect_from: 
-developerName: PAYBIS
+developerName: 'PAYBIS'
 features: 
 
 ---

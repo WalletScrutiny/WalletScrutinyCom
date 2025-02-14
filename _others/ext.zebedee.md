@@ -4,9 +4,9 @@ appId: ext.zebedee
 authors:
 - danny
 icon: ext.zebedee.png
-date: 2024-05-09
-updated: 2024-04-13
-version: 1.0.4
+date: '2024-05-09'
+updated: '2024-04-13'
+version: '1.0.4'
 website: >-
   https://chromewebstore.google.com/detail/zbd-browser-extension/kpjdchaapjheajadlaakiiigcbhoppda
 twitter: zbdapp

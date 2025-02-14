@@ -7,9 +7,9 @@ authors:
 appId: net.kortina.labs.Venmo
 appCountry: us
 idd: '351727428'
-released: 2010-04-03
-updated: 2025-01-29
-version: 10.58.0
+released: '2010-04-03'
+updated: '2025-01-29'
+version: '10.58.0'
 stars: 4.9
 reviews: 15444216
 size: '404609024'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nosendreceive
 appHashes: 
-date: 2022-04-12
+date: '2022-04-12'
 signer: 
 reviewArchive: 
 twitter: venmo

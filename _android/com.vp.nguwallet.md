@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: NguWallet
+title: 'NguWallet'
 altTitle: 
 authors: 
 users: 10
-appId: com.vp.nguwallet
+appId: 'com.vp.nguwallet'
 appCountry: 
-released: 2022-05-04
-updated: 2022-05-09
-version: 1.0.2
+released: '2022-05-04'
+updated: '2022-05-09'
+version: '1.0.2'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.nguwallet.com
+website: 'https://www.nguwallet.com'
 repository: 
 issue: 
-icon: com.vp.nguwallet.png
+icon: 'com.vp.nguwallet.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-08-31
+date: '2024-08-31'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: UnchainedCoders
+developerName: 'UnchainedCoders'
 features: 
 
 ---

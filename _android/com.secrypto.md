@@ -1,28 +1,28 @@
 ---
 wsId: 
-title: Secrypto-Bitcoin, ETH, EOS
+title: 'Secrypto-Bitcoin, ETH, EOS'
 altTitle: 
 authors:
-- kiwilamb
+- 'kiwilamb'
 users: 100000
-appId: com.secrypto
+appId: 'com.secrypto'
 appCountry: 
-released: 2018-06-18
-updated: 2019-02-26
+released: '2018-06-18'
+updated: '2019-02-26'
 version: '1.28'
 stars: 4.4
 ratings: 956
 reviews: 21
 size: 
-website: https://www.secrypto.io/
+website: 'https://www.secrypto.io/'
 repository: 
 issue: 
-icon: com.secrypto.png
+icon: 'com.secrypto.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
 twitter: 

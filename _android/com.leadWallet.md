@@ -1,34 +1,34 @@
 ---
-wsId: LeadWallet
+wsId: 'LeadWallet'
 title: 'Lead Wallet – Swap, Multisend '
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.leadWallet
-appCountry: ng
-released: 2021-07-29
-updated: 2022-07-30
-version: 1.0.39
+appId: 'com.leadWallet'
+appCountry: 'ng'
+released: '2021-07-29'
+updated: '2022-07-30'
+version: '1.0.39'
 stars: 4.4
 ratings: 1683
 reviews: 54
 size: 
-website: https://leadwallet.io
+website: 'https://leadwallet.io'
 repository: 
 issue: 
-icon: com.leadWallet.png
+icon: 'com.leadWallet.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
-twitter: leadwallet
+twitter: 'leadwallet'
 social:
-- https://www.linkedin.com/company/leadwallet
-- https://www.reddit.com/r/LeadWallet
+- 'https://www.linkedin.com/company/leadwallet'
+- 'https://www.reddit.com/r/LeadWallet'
 redirect_from: 
 developerName: 
 features: 

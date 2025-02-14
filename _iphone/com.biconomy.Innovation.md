@@ -1,37 +1,37 @@
 ---
-wsId: biconomy
-title: Biconomy
+wsId: 'biconomy'
+title: 'Biconomy'
 altTitle: 
 authors:
-- danny
-appId: com.biconomy.Innovation
-appCountry: us
+- 'danny'
+appId: 'com.biconomy.Innovation'
+appCountry: 'us'
 idd: '1486151349'
-released: 2019-11-06
+released: '2019-11-06'
 updated: 2025-02-10
-version: 2.2.20
-stars: 4.3
+version: '2.2.20'
+stars: 4.31633
 reviews: 98
 size: '90692608'
-website: http://www.biconomy.com/
+website: 'http://www.biconomy.com/'
 repository: 
 issue: 
-icon: com.biconomy.Innovation.jpg
+icon: 'com.biconomy.Innovation.jpg'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-03-29
+date: '2023-03-29'
 signer: 
 reviewArchive: 
-twitter: BiconomyCom
+twitter: 'BiconomyCom'
 social:
-- https://www.facebook.com/BiconomyCom
-- https://www.linkedin.com/company/biconomycom/
-- https://biconomycom.medium.com/
-- https://www.youtube.com/c/BiconomyGlobal
+- 'https://www.facebook.com/BiconomyCom'
+- 'https://www.linkedin.com/company/biconomycom/'
+- 'https://biconomycom.medium.com/'
+- 'https://www.youtube.com/c/BiconomyGlobal'
 features: 
-developerName: Biconomy Ltd.
+developerName: 'Biconomy Ltd.'
 
 ---
 

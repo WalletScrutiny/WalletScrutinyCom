@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Crypto Start
+title: 'Crypto Start'
 altTitle: 
 authors: 
 users: 100
-appId: com.startfinish.crypto
+appId: 'com.startfinish.crypto'
 appCountry: 
-released: 2021-09-01
-updated: 2021-09-01
-version: 5.3.10
+released: '2021-09-01'
+updated: '2021-09-01'
+version: '5.3.10'
 stars: 
 ratings: 
 reviews: 
-size: 9.3M
+size: '9.3M'
 website: 
 repository: 
 issue: 
-icon: com.startfinish.crypto.png
+icon: 'com.startfinish.crypto.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-11-16
+date: '2021-11-16'
 signer: 
 reviewArchive: 
 twitter: 

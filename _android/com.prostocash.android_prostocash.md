@@ -1,34 +1,34 @@
 ---
-wsId: prostocash
-title: Prostocash – обменять Биткоин
+wsId: 'prostocash'
+title: 'Prostocash – обменять Биткоин'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.prostocash.android_prostocash
+appId: 'com.prostocash.android_prostocash'
 appCountry: 
-released: 2021-06-27
-updated: 2024-08-05
-version: 4.1.1
+released: '2021-06-27'
+updated: '2024-08-05'
+version: '4.1.1'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://prostocash.com
+website: 'https://prostocash.com'
 repository: 
 issue: 
-icon: com.prostocash.android_prostocash.png
+icon: 'com.prostocash.android_prostocash.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2025-02-04
+date: '2025-02-04'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: DVSOFT PTE LTD
+developerName: 'DVSOFT PTE LTD'
 features: 
 
 ---

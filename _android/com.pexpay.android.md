@@ -1,38 +1,38 @@
 ---
-wsId: pexpaypeaceful
+wsId: 'pexpaypeaceful'
 title: 'Pexpay: 0 Fee Buy and Sell BTC'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.pexpay.android
+appId: 'com.pexpay.android'
 appCountry: 
-released: 2022-03-24
-updated: 2023-06-15
-version: 1.19.0
+released: '2022-03-24'
+updated: '2023-06-15'
+version: '1.19.0'
 stars: 4.3
 ratings: 
 reviews: 8
 size: 
-website: https://www.pexpay.com/
+website: 'https://www.pexpay.com/'
 repository: 
 issue: 
-icon: com.pexpay.android.png
+icon: 'com.pexpay.android.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-09-15
+date: '2023-09-15'
 signer: 
 reviewArchive: 
-twitter: Pexpay_official
+twitter: 'Pexpay_official'
 social:
-- https://www.facebook.com/pexpay.official/
-- https://www.linkedin.com/company/pexpay/
-- https://www.youtube.com/@pexpay
-- https://vk.com/pexpayofficial
+- 'https://www.facebook.com/pexpay.official/'
+- 'https://www.linkedin.com/company/pexpay/'
+- 'https://www.youtube.com/@pexpay'
+- 'https://vk.com/pexpayofficial'
 redirect_from: 
-developerName: Pexpay
+developerName: 'Pexpay'
 features: 
 
 ---

@@ -1,38 +1,38 @@
 ---
-wsId: bgWallet
-title: WalletGo - Licensed Crypto App
+wsId: 'bgWallet'
+title: 'WalletGo - Licensed Crypto App'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.bgw.wallet
+appId: 'com.bgw.wallet'
 appCountry: 
-released: 2022-07-14
-updated: 2024-06-07
-version: 0.3.7
+released: '2022-07-14'
+updated: '2024-06-07'
+version: '0.3.7'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://walletgo.ai/
+website: 'https://walletgo.ai/'
 repository: 
 issue: 
-icon: com.bgw.wallet.png
+icon: 'com.bgw.wallet.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-09-16
+date: '2024-09-16'
 signer: 
 reviewArchive: 
-twitter: BG_Wallet
+twitter: 'BG_Wallet'
 social:
-- https://www.facebook.com/bgwallet
-- https://discord.com/channels/1008584420619456584
-- https://www.linkedin.com/company/bg-wallet
-- https://www.instagram.com/bg.wallet
+- 'https://www.facebook.com/bgwallet'
+- 'https://discord.com/channels/1008584420619456584'
+- 'https://www.linkedin.com/company/bg-wallet'
+- 'https://www.instagram.com/bg.wallet'
 redirect_from: 
-developerName: BG Technologies Limited
+developerName: 'BG Technologies Limited'
 features: 
 
 ---

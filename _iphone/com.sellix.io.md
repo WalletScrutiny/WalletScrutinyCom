@@ -7,8 +7,8 @@ authors:
 appId: com.sellix.io
 appCountry: us
 idd: '1620779249'
-released: 2022-06-21
-updated: 2023-06-21
+released: '2022-06-21'
+updated: '2023-06-21'
 version: '2.07'
 stars: 3.9
 reviews: 7
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: nowallet
 appHashes: 
-date: 2024-08-17
+date: '2024-08-17'
 signer: 
 reviewArchive: 
 twitter: 

@@ -7,8 +7,8 @@ authors:
 appId: com.vexel
 appCountry: us
 idd: '1562981050'
-released: 2021-04-24
-updated: 2022-10-19
+released: '2021-04-24'
+updated: '2022-10-19'
 version: '1.20'
 stars: 5
 reviews: 2
@@ -21,7 +21,7 @@ bugbounty:
 meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-10-08
+date: '2024-10-08'
 signer: 
 reviewArchive: 
 twitter: 

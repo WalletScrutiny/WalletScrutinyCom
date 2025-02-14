@@ -1,33 +1,33 @@
 ---
-wsId: AOFEX
-title: AOFEX
+wsId: 'AOFEX'
+title: 'AOFEX'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: co.aofex.exchange
-appCountry: us
-released: 2021-09-01
-updated: 2021-12-03
-version: 3.0.3
+appId: 'co.aofex.exchange'
+appCountry: 'us'
+released: '2021-09-01'
+updated: '2021-12-03'
+version: '3.0.3'
 stars: 4.8
 ratings: 5947
 reviews: 333
-size: 72M
-website: http://www.aofex.co
+size: '72M'
+website: 'http://www.aofex.co'
 repository: 
 issue: 
-icon: co.aofex.exchange.jpg
+icon: 'co.aofex.exchange.jpg'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2022-03-24
+date: '2022-03-24'
 signer: 
 reviewArchive: 
-twitter: Aofex2
+twitter: 'Aofex2'
 social:
-- https://www.facebook.com/AofexDigitalCurrencyExchange
+- 'https://www.facebook.com/AofexDigitalCurrencyExchange'
 redirect_from: 
 developerName: 
 features: 

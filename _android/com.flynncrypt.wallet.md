@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: FlynnCrypt wallet
+title: 'FlynnCrypt wallet'
 altTitle: 
 authors: 
 users: 1
-appId: com.flynncrypt.wallet
+appId: 'com.flynncrypt.wallet'
 appCountry: 
-released: 2022-06-16
-updated: 2022-06-16
-version: 1.0.9
+released: '2022-06-16'
+updated: '2022-06-16'
+version: '1.0.9'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: http://flynncrypt.com
+website: 'http://flynncrypt.com'
 repository: 
 issue: 
-icon: com.flynncrypt.wallet.png
+icon: 'com.flynncrypt.wallet.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-04-03
+date: '2024-04-03'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: FlynnCrypt Ltd
+developerName: 'FlynnCrypt Ltd'
 features: 
 
 ---

@@ -4,7 +4,7 @@ appId: trezor.tropic01
 authors:
 - danny
 icon: trezor.tropic01.png
-date: 2023-12-06
+date: '2023-12-06'
 website: https://tropicsquare.com/
 twitter: tropicsquare
 provider: TropicSquare

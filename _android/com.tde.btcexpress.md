@@ -1,13 +1,13 @@
 ---
 wsId: 
-title: BTC Express
+title: 'BTC Express'
 altTitle: 
 authors: 
 users: 100
-appId: com.tde.btcexpress
+appId: 'com.tde.btcexpress'
 appCountry: 
-released: 2020-06-10
-updated: 2020-06-17
+released: '2020-06-10'
+updated: '2020-06-17'
 version: '1.1'
 stars: 
 ratings: 
@@ -16,18 +16,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.tde.btcexpress.png
+icon: 'com.tde.btcexpress.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Tde srl
+developerName: 'Tde srl'
 features: 
 
 ---

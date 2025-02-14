@@ -1,35 +1,34 @@
 ---
-wsId: everspace
-title: Everspace
+wsId: 'everspace'
+title: 'Everspace'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.oberton.app
+appId: 'com.oberton.app'
 appCountry: 
-released: 2021-09-15
+released: '2021-09-15'
 updated: 2024-07-19
-version: 2.15.9
+version: '2.15.9'
 stars: 4.9
 ratings: 
 reviews: 27
-size: 
-website: https://bytehub.io
+website: 'https://bytehub.io'
 repository: 
 issue: 
-icon: com.oberton.app.png
+icon: 'com.oberton.app.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-09-06
+date: '2024-09-06'
 signer: 
 reviewArchive: 
-twitter: EverspaceWallet
+twitter: 'EverspaceWallet'
 social:
-- https://everspace.app
+- 'https://everspace.app'
 redirect_from: 
-developerName: Bytehub, LLC
+developerName: 'Bytehub, LLC'
 features: 
 
 ---

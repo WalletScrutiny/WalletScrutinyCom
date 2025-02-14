@@ -1,32 +1,32 @@
 ---
-wsId: realTWallet
-title: RealT Wallet
+wsId: 'realTWallet'
+title: 'RealT Wallet'
 altTitle: 
 authors:
-- danny
-appId: co.realt.bridge
-appCountry: be
-idd: 1545585469
-released: 2021-05-06
-updated: 2021-12-14
+- 'danny'
+appId: 'co.realt.bridge'
+appCountry: 'be'
+idd: '1545585469'
+released: '2021-05-06'
+updated: '2021-12-14'
 version: '1.20'
 stars: 
 reviews: 
-size: 123673600
-website: https://realt.co
+size: '123673600'
+website: 'https://realt.co'
 repository: 
 issue: 
-icon: co.realt.bridge.jpg
+icon: 'co.realt.bridge.jpg'
 bugbounty: 
-meta: defunct
-verdict: nobtc
+meta: 'defunct'
+verdict: 'nobtc'
 appHashes: 
-date: 2022-01-15
+date: '2022-01-15'
 signer: 
 reviewArchive: 
-twitter: RealTPlatform
+twitter: 'RealTPlatform'
 social:
-- https://www.linkedin.com/company/realtplatform
+- 'https://www.linkedin.com/company/realtplatform'
 features: 
 developerName: 
 

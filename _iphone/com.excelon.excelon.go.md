@@ -7,9 +7,9 @@ authors:
 appId: com.excelon.excelon.go
 appCountry: sa
 idd: '1553611472'
-released: 2021-07-30
-updated: 2022-07-04
-version: 1.7.0
+released: '2021-07-30'
+updated: '2022-07-04'
+version: '1.7.0'
 stars: 0
 reviews: 0
 size: '27952128'
@@ -21,7 +21,7 @@ bugbounty:
 meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-06-23
+date: '2024-06-23'
 signer: 
 reviewArchive: 
 twitter: 

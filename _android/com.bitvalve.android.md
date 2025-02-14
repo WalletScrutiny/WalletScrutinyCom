@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: BitValve - P2P Crypto Exchange
+title: 'BitValve - P2P Crypto Exchange'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.bitvalve.android
+appId: 'com.bitvalve.android'
 appCountry: 
-released: 2019-10-29
+released: '2019-10-29'
 updated: 2025-01-31
-version: 1.32.2
+version: '1.32.2'
 stars: 4.6
 ratings: 300
 reviews: 46
-size: 
-website: https://www.bitvalve.com
+website: 'https://www.bitvalve.com'
 repository: 
 issue: 
-icon: com.bitvalve.android.png
+icon: 'com.bitvalve.android.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-11-03
+date: '2021-11-03'
 signer: 
 reviewArchive: 
-twitter: bitvalve
+twitter: 'bitvalve'
 social: 
 redirect_from: 
-developerName: BitValve Developer
+developerName: 'BitValve Developer'
 features: 
 
 ---

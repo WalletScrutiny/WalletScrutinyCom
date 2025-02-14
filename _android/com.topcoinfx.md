@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: TCFX Wallet
+title: 'TCFX Wallet'
 altTitle: 
 authors: 
 users: 500
-appId: com.topcoinfx
+appId: 'com.topcoinfx'
 appCountry: 
-released: 2019-08-12
-updated: 2020-02-11
+released: '2019-08-12'
+updated: '2020-02-11'
 version: '2.5'
 stars: 4.2
 ratings: 
 reviews: 
 size: 
-website: http://topcoinfx.com
+website: 'http://topcoinfx.com'
 repository: 
 issue: 
-icon: com.topcoinfx.png
+icon: 'com.topcoinfx.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-04-03
+date: '2024-04-03'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: TopcoinGlobal
+developerName: 'TopcoinGlobal'
 features: 
 
 ---

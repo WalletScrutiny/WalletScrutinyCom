@@ -1,36 +1,35 @@
 ---
 wsId: 
-title: noID.cards
+title: 'noID.cards'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1
-appId: com.noid.cards
+appId: 'com.noid.cards'
 appCountry: 
 released: 
-updated: 2023-03-26
-version: VARY
+updated: '2023-03-26'
+version: 'VARY'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://noid.cards/
+website: 'https://noid.cards/'
 repository: 
 issue: 
-icon: com.noid.cards.png
+icon: 'com.noid.cards.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-04-19
+date: '2024-04-19'
 signer: 
 reviewArchive: 
-twitter: noidcards
+twitter: 'noidcards'
 social:
-- >-
-  https://iris.to/#/profile/npub1udze58uyrxx9l4cjhl3ane0dg753vddtzgu6sd742wkyzc4hjqesc4secl
+- 'https://iris.to/#/profile/npub1udze58uyrxx9l4cjhl3ane0dg753vddtzgu6sd742wkyzc4hjqesc4secl'
 redirect_from: 
-developerName: noID.cards
+developerName: 'noID.cards'
 features: 
 
 ---

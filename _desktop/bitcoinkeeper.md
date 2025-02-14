@@ -3,10 +3,10 @@ title: Bitcoin Keeper Desktop
 appId: bitcoinkeeper
 authors:
 - danny
-released: 2024-02-17
+released: '2024-02-17'
 discontinued: 
-updated: 2025-02-06
-version: 0.2.0
+updated: '2025-02-06'
+version: '0.2.0'
 binaries: https://github.com/bithyve/keeper-desktop/releases/
 provider: BitHyve Limited
 providerWebsite: https://bithyve.com/
@@ -17,7 +17,7 @@ icon: bitcoinkeeper.jpg
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2025-02-12
+date: '2025-02-12'
 reviewArchive: 
 twitter: bitcoinKeeper_
 social:

@@ -1,44 +1,43 @@
 ---
-wsId: mwallet
+wsId: 'mwallet'
 title: 'Bitcoin.com Wallet: Buy, Sell'
-altTitle: Bitcoin Wallet by Bitcoin.com
+altTitle: 'Bitcoin Wallet by Bitcoin.com'
 authors:
-- leo
-- danny
+- 'leo'
+- 'danny'
 users: 10000000
-appId: com.bitcoin.mwallet
+appId: 'com.bitcoin.mwallet'
 appCountry: 
-released: 2017-06-19
+released: '2017-06-19'
 updated: 2025-02-11
-version: 8.61.1
+version: '8.61.1'
 stars: 4.6
 ratings: 39345
 reviews: 3177
-size: 
-website: https://www.bitcoin.com
-repository: https://github.com/Bitcoin-com/Wallet
-issue: https://github.com/Bitcoin-com/Wallet/issues/39
-icon: com.bitcoin.mwallet.png
+website: 'https://www.bitcoin.com'
+repository: 'https://github.com/Bitcoin-com/Wallet'
+issue: 'https://github.com/Bitcoin-com/Wallet/issues/39'
+icon: 'com.bitcoin.mwallet.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: []
-date: 2024-07-15
+date: '2024-07-15'
 signer: 
 reviewArchive:
-- date: 2019-12-20
-  version: 5.13.3
+- date: '2019-12-20'
+  version: '5.13.3'
   appHashes: []
-  gitRevision: fc6cffcbb02fa7d441528eec517e5d61050cf26c
-  verdict: nonverifiable
-twitter: bitcoincom
+  gitRevision: 'fc6cffcbb02fa7d441528eec517e5d61050cf26c'
+  verdict: 'nonverifiable'
+twitter: 'bitcoincom'
 social:
-- https://www.facebook.com/buy.bitcoin.news
-- https://www.reddit.com/r/btc
+- 'https://www.facebook.com/buy.bitcoin.news'
+- 'https://www.reddit.com/r/btc'
 redirect_from:
-- /com.bitcoin.mwallet/
-- /posts/com.bitcoin.mwallet/
-developerName: Bitcoin.com Developer
+- '/com.bitcoin.mwallet/'
+- '/posts/com.bitcoin.mwallet/'
+developerName: 'Bitcoin.com Developer'
 features: 
 
 ---

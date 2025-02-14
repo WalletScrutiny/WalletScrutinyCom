@@ -3,10 +3,10 @@ title: Specter Shield
 appId: specter.shield
 authors:
 - danny
-released: 2020-11-27
+released: '2020-11-27'
 discontinued: 
-updated: 2021-05-28
-version: 1.8.3
+updated: '2021-05-28'
+version: '1.8.3'
 binaries: 
 dimensions: 
 weight: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: diy
 appHashes: 
-date: 2023-02-07
+date: '2023-02-07'
 signer: 
 reviewArchive: 
 twitter: specterwallet

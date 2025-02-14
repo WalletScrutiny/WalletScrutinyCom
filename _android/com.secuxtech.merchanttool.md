@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: StreamMerchant
+title: 'StreamMerchant'
 altTitle: 
 authors: 
 users: 50
-appId: com.secuxtech.merchanttool
+appId: 'com.secuxtech.merchanttool'
 appCountry: 
-released: 2020-05-22
+released: '2020-05-22'
 updated: 2023-12-19
-version: 2.2.1
+version: '2.2.1'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://www.secuxtech.com
+website: 'https://www.secuxtech.com'
 repository: 
 issue: 
-icon: com.secuxtech.merchanttool.png
+icon: 'com.secuxtech.merchanttool.png'
 bugbounty: 
-meta: stale
-verdict: fewusers
+meta: 'stale'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-12-15
+date: '2024-12-15'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: SecuX
+developerName: 'SecuX'
 features: 
 
 ---

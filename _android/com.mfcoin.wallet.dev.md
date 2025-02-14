@@ -1,35 +1,35 @@
 ---
 wsId: 
-title: MFCoin wallet
+title: 'MFCoin wallet'
 altTitle: 
 authors: 
 users: 1000
-appId: com.mfcoin.wallet.dev
+appId: 'com.mfcoin.wallet.dev'
 appCountry: 
-released: 2018-03-22
-updated: 2020-10-04
-version: v4.0.0
+released: '2018-03-22'
+updated: '2020-10-04'
+version: 'v4.0.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: http://mfcoin.net
+website: 'http://mfcoin.net'
 repository: 
 issue: 
-icon: com.mfcoin.wallet.dev.png
+icon: 'com.mfcoin.wallet.dev.png'
 bugbounty: 
-meta: removed
-verdict: obfuscated
+meta: 'removed'
+verdict: 'obfuscated'
 appHashes: 
-date: 2024-04-26
+date: '2024-04-26'
 signer: 
 reviewArchive: 
-twitter: MFC_tech
+twitter: 'MFC_tech'
 social:
-- https://www.linkedin.com/company/groups/13539593
-- https://www.facebook.com/groups/mfcoin
+- 'https://www.linkedin.com/company/groups/13539593'
+- 'https://www.facebook.com/groups/mfcoin'
 redirect_from: 
-developerName: FREELAND AGREEMENT LTD.
+developerName: 'FREELAND AGREEMENT LTD.'
 features: 
 
 ---

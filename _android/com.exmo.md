@@ -1,35 +1,34 @@
 ---
-wsId: exmo
+wsId: 'exmo'
 title: 'EXMO.com: Trade & Hold Crypto'
 altTitle: 
 authors:
-- kiwilamb
+- 'kiwilamb'
 users: 100000
-appId: com.exmo
+appId: 'com.exmo'
 appCountry: 
-released: 2019-11-12
+released: '2019-11-12'
 updated: 2025-02-10
-version: 3.55.2
+version: '3.56.0'
 stars: 3.9
 ratings: 2774
 reviews: 97
-size: 
-website: https://exmo.com/
+website: 'https://exmo.com/'
 repository: 
 issue: 
-icon: com.exmo.png
+icon: 'com.exmo.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-04-21
+date: '2021-04-21'
 signer: 
 reviewArchive: 
-twitter: Exmo_com
+twitter: 'Exmo_com'
 social:
-- https://www.facebook.com/exmo.market
+- 'https://www.facebook.com/exmo.market'
 redirect_from: 
-developerName: EXMO EXCHANGE LTD
+developerName: 'EXMO EXCHANGE LTD'
 features: 
 
 ---

@@ -1,36 +1,36 @@
 ---
-wsId: ROInvesting
+wsId: 'ROInvesting'
 title: 'ROInvesting: Trading Forex, St'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.roinvesting
-appCountry: us
+appId: 'com.roinvesting'
+appCountry: 'us'
 released: 
-updated: 2021-08-25
-version: 1.5.69-roinvesting
+updated: '2021-08-25'
+version: '1.5.69-roinvesting'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.roinvesting.com/
+website: 'https://www.roinvesting.com/'
 repository: 
 issue: 
-icon: com.roinvesting.png
+icon: 'com.roinvesting.png'
 bugbounty: 
-meta: removed
-verdict: nosendreceive
+meta: 'removed'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2024-03-02
+date: '2024-03-02'
 signer: 
 reviewArchive: 
-twitter: Roinvesting
+twitter: 'Roinvesting'
 social:
-- https://www.linkedin.com/company/roinvesting
-- https://www.facebook.com/ROInvesting
+- 'https://www.linkedin.com/company/roinvesting'
+- 'https://www.facebook.com/ROInvesting'
 redirect_from: 
-developerName: Royal Forex Limited
+developerName: 'Royal Forex Limited'
 features: 
 
 ---

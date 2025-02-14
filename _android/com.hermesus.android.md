@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: Hermesus Exchange
+title: 'Hermesus Exchange'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.hermesus.android
+appId: 'com.hermesus.android'
 appCountry: 
-released: 2022-04-17
-updated: 2022-04-17
+released: '2022-04-17'
+updated: '2022-04-17'
 version: '1.1'
 stars: 2.9
 ratings: 
 reviews: 
 size: 
-website: https://hermesus.com
+website: 'https://hermesus.com'
 repository: 
 issue: 
-icon: com.hermesus.android.png
+icon: 'com.hermesus.android.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-11-07
+date: '2024-11-07'
 signer: 
 reviewArchive: 
-twitter: hermesus_us
+twitter: 'hermesus_us'
 social: 
 redirect_from: 
-developerName: Hermesus Development
+developerName: 'Hermesus Development'
 features: 
 
 ---

@@ -1,36 +1,36 @@
 ---
 wsId: 
-title: Decoin
+title: 'Decoin'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.decoin.app
+appId: 'com.decoin.app'
 appCountry: 
-released: 2022-02-11
-updated: 2022-07-26
+released: '2022-02-11'
+updated: '2022-07-26'
 version: '1.127'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.decoin.io
+website: 'https://www.decoin.io'
 repository: 
 issue: 
-icon: com.decoin.app.png
+icon: 'com.decoin.app.png'
 bugbounty: 
-meta: defunct
-verdict: wip
+meta: 'defunct'
+verdict: 'wip'
 appHashes: 
-date: 2023-05-23
+date: '2023-05-23'
 signer: 
 reviewArchive: 
-twitter: decoin_io
+twitter: 'decoin_io'
 social:
-- https://www.facebook.com/DECOIN.io
-- https://www.linkedin.com/company/decoin-xde
+- 'https://www.facebook.com/DECOIN.io'
+- 'https://www.linkedin.com/company/decoin-xde'
 redirect_from: 
-developerName: decoin.io
+developerName: 'decoin.io'
 features: 
 
 ---

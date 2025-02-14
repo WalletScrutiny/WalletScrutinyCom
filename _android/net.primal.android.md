@@ -1,36 +1,35 @@
 ---
-wsId: primalNostr
-title: Primal
+wsId: 'primalNostr'
+title: 'Primal'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: net.primal.android
+appId: 'net.primal.android'
 appCountry: 
-released: 2024-07-09
+released: '2024-07-09'
 updated: 2025-02-06
-version: 2.1.4
+version: '2.1.4'
 stars: 4
 ratings: 
-reviews: 11
-size: 
-website: https://www.primal.net
+reviews: 13
+website: 'https://www.primal.net'
 repository: 
 issue: 
-icon: net.primal.android.png
+icon: 'net.primal.android.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2024-03-02
+date: '2024-03-02'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: PRIMAL SYSTEMS INC.
+developerName: 'PRIMAL SYSTEMS INC.'
 features:
-- ln
+- 'ln'
 
 ---
 

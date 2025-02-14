@@ -1,36 +1,36 @@
 ---
-wsId: gleecCard
-title: Gleec Card Crypto-powered card
+wsId: 'gleecCard'
+title: 'Gleec Card Crypto-powered card'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.gleec
+appId: 'com.gleec'
 appCountry: 
-released: 2021-02-26
-updated: 2023-12-11
+released: '2021-02-26'
+updated: '2023-12-11'
 version: '1.2'
 stars: 3.1
 ratings: 
 reviews: 7
 size: 
-website: http://gleec.com/
+website: 'http://gleec.com/'
 repository: 
 issue: 
-icon: com.gleec.png
+icon: 'com.gleec.png'
 bugbounty: 
-meta: defunct
-verdict: custodial
+meta: 'defunct'
+verdict: 'custodial'
 appHashes: 
-date: 2023-08-04
+date: '2023-08-04'
 signer: 
 reviewArchive: 
-twitter: GleecOfficial
+twitter: 'GleecOfficial'
 social:
-- https://www.facebook.com/gleecofficial
-- https://t.me/officialgleecoin
+- 'https://www.facebook.com/gleecofficial'
+- 'https://t.me/officialgleecoin'
 redirect_from: 
-developerName: Gleec BTC OU
+developerName: 'Gleec BTC OU'
 features: 
 
 ---

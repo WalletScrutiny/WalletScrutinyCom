@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: Dantown
+title: 'Dantown'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.dantown.Dantownapp
+appId: 'com.dantown.Dantownapp'
 appCountry: 
-released: 2021-03-27
-updated: 2024-10-24
-version: 2.0.63
+released: '2021-03-27'
+updated: 2025-02-13
+version: '2.0.63'
 stars: 4.2
 ratings: 
 reviews: 37
-size: 
-website: https://www.dantownms.com
+website: 'https://www.dantownms.com'
 repository: 
 issue: 
-icon: com.dantown.Dantownapp.jpg
+icon: 'com.dantown.Dantownapp.jpg'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-04-21
+date: '2023-04-21'
 signer: 
 reviewArchive: 
-twitter: godantown
+twitter: 'godantown'
 social: 
 redirect_from: 
-developerName: Dantown
+developerName: 'Dantown'
 features: 
 
 ---

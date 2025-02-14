@@ -7,8 +7,8 @@ authors:
 appId: us.binance.fiat
 appCountry: 
 idd: 1492670702
-released: 2020-01-05
-updated: 2024-11-29
+released: '2020-01-05'
+updated: '2024-11-29'
 version: '3.19'
 stars: 4.2
 reviews: 109080
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2021-01-10
+date: '2021-01-10'
 signer: 
 reviewArchive: 
 twitter: binanceus

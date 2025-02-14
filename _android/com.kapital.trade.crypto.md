@@ -1,35 +1,34 @@
 ---
-wsId: bitcointradingcapital
-title: Bitcoin trading - Capital.com
+wsId: 'bitcointradingcapital'
+title: 'Bitcoin trading - Capital.com'
 altTitle: 
 authors:
-- danny
-- leo
+- 'danny'
+- 'leo'
 users: 1000000
-appId: com.kapital.trade.crypto
-appCountry: cz
-released: 2021-01-20
+appId: 'com.kapital.trade.crypto'
+appCountry: 'cz'
+released: '2021-01-20'
 updated: 2025-02-07
-version: 1.95.1
+version: '1.95.1'
 stars: 4.4
 ratings: 1225
 reviews: 31
-size: 
-website: https://capital.com/
+website: 'https://capital.com/'
 repository: 
 issue: 
-icon: com.kapital.trade.crypto.png
+icon: 'com.kapital.trade.crypto.png'
 bugbounty: 
-meta: ok
-verdict: nosendreceive
+meta: 'ok'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2024-02-22
+date: '2024-02-22'
 signer: 
 reviewArchive: 
-twitter: capitalcom
+twitter: 'capitalcom'
 social: 
 redirect_from: 
-developerName: Capital.com BG
+developerName: 'Capital.com BG'
 features: 
 
 ---

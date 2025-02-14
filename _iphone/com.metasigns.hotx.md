@@ -7,9 +7,9 @@ authors:
 appId: com.metasigns.hotx
 appCountry: ca
 idd: '1611301863'
-released: 2022-03-02
-updated: 2023-11-12
-version: 1.0.19
+released: '2022-03-02'
+updated: '2023-11-12'
+version: '1.0.19'
 stars: 3
 reviews: 2
 size: '83215360'
@@ -21,7 +21,7 @@ bugbounty:
 meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-11-07
+date: '2024-11-07'
 signer: 
 reviewArchive: 
 twitter: 

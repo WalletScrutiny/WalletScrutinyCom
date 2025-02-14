@@ -7,9 +7,9 @@ authors:
 appId: com.umifi.app
 appCountry: us
 idd: 1580892400
-released: 2021-09-02
-updated: 2021-12-24
-version: 1.0.6
+released: '2021-09-02'
+updated: '2021-12-24'
+version: '1.0.6'
 stars: 5
 reviews: 1
 size: '259976192'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2022-10-21
+date: '2022-10-21'
 signer: 
 reviewArchive: 
 twitter: officialumifi

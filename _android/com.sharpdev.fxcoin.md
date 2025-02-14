@@ -1,34 +1,34 @@
 ---
-wsId: fxcoinpro
-title: FX Coin
+wsId: 'fxcoinpro'
+title: 'FX Coin'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.sharpdev.fxcoin
-appCountry: ru
-released: 2019-03-07
-updated: 2020-10-30
-version: 1.11.1
+appId: 'com.sharpdev.fxcoin'
+appCountry: 'ru'
+released: '2019-03-07'
+updated: '2020-10-30'
+version: '1.11.1'
 stars: 3.3
 ratings: 2801
 reviews: 1642
 size: 
-website: http://fxcoin.pro
+website: 'http://fxcoin.pro'
 repository: 
 issue: 
-icon: com.sharpdev.fxcoin.png
+icon: 'com.sharpdev.fxcoin.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: DIBF LIMITED
+developerName: 'DIBF LIMITED'
 features: 
 
 ---

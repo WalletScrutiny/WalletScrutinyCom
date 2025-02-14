@@ -7,9 +7,9 @@ authors:
 appId: com.stormgain.mobile
 appCountry: de
 idd: 1471506070
-released: 2019-07-21
-updated: 2023-06-13
-version: 1.33.0
+released: '2019-07-21'
+updated: '2023-06-13'
+version: '1.33.0'
 stars: 4.1
 reviews: 1173
 size: '67758080'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-09-28
+date: '2023-09-28'
 signer: 
 reviewArchive: 
 twitter: StormGain_com

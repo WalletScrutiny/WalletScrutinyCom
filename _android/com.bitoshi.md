@@ -1,37 +1,36 @@
 ---
-wsId: bitoshiAfrica
+wsId: 'bitoshiAfrica'
 title: 'Bitoshi: Buy & Sell Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.bitoshi
+appId: 'com.bitoshi'
 appCountry: 
-released: 2022-10-13
+released: '2022-10-13'
 updated: 2024-11-28
-version: 1.4.1
+version: '1.4.1'
 stars: 4.4
 ratings: 
 reviews: 19
-size: 
-website: https://bitoshi.africa
+website: 'https://bitoshi.africa'
 repository: 
 issue: 
-icon: com.bitoshi.png
+icon: 'com.bitoshi.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-11-01
+date: '2023-11-01'
 signer: 
 reviewArchive: 
-twitter: Bitoshiafrica
+twitter: 'Bitoshiafrica'
 social:
-- https://www.linkedin.com/company/bitoshiafrica
-- https://www.instagram.com/bitoshi.africa
-- https://t.me/+c4ek89XILkc2OTk8
+- 'https://www.linkedin.com/company/bitoshiafrica'
+- 'https://www.instagram.com/bitoshi.africa'
+- 'https://t.me/+c4ek89XILkc2OTk8'
 redirect_from: 
-developerName: Bitoshi Africa
+developerName: 'Bitoshi Africa'
 features: 
 
 ---

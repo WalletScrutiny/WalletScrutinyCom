@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: FinanceX - Crypto Trading with
+title: 'FinanceX - Crypto Trading with'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.financex
+appId: 'com.financex'
 appCountry: 
-released: 2019-01-15
-updated: 2020-01-13
-version: 1.3.12
+released: '2019-01-15'
+updated: '2020-01-13'
+version: '1.3.12'
 stars: 4.1
 ratings: 
 reviews: 
 size: 
-website: http://www.financex.io
+website: 'http://www.financex.io'
 repository: 
 issue: 
-icon: com.financex.png
+icon: 'com.financex.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-04-03
+date: '2024-04-03'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: FinanceX
+developerName: 'FinanceX'
 features: 
 
 ---

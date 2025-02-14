@@ -1,37 +1,37 @@
 ---
-wsId: stormX
+wsId: 'stormX'
 title: 'StormX: Shop and Earn Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000000
-appId: com.cakecodes.bitmaker
-appCountry: us
-released: 2014-09-07
-updated: 2024-01-09
-version: 8.18.9
+appId: 'com.cakecodes.bitmaker'
+appCountry: 'us'
+released: '2014-09-07'
+updated: '2024-01-09'
+version: '8.18.9'
 stars: 4.2
 ratings: 84499
 reviews: 3298
 size: 
-website: https://stormx.io/
+website: 'https://stormx.io/'
 repository: 
 issue: 
-icon: com.cakecodes.bitmaker.png
+icon: 'com.cakecodes.bitmaker.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-12-31
+date: '2024-12-31'
 signer: 
 reviewArchive: 
-twitter: stormxio
+twitter: 'stormxio'
 social:
-- https://www.linkedin.com/company/StormX
-- https://www.facebook.com/stormxio
-- https://www.reddit.com/r/stormxio
+- 'https://www.linkedin.com/company/StormX'
+- 'https://www.facebook.com/stormxio'
+- 'https://www.reddit.com/r/stormxio'
 redirect_from: 
-developerName: StormX Singapore PTE LTD.
+developerName: 'StormX Singapore PTE LTD.'
 features: 
 
 ---

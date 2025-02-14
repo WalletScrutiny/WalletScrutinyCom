@@ -1,36 +1,36 @@
 ---
 wsId: 
-title: BYKEP - Bitcoin for everyone
+title: 'BYKEP - Bitcoin for everyone'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.keplerk.blockchain
+appId: 'com.keplerk.blockchain'
 appCountry: 
-released: 2020-02-14
-updated: 2022-06-21
-version: 3.5.4
+released: '2020-02-14'
+updated: '2022-06-21'
+version: '3.5.4'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://bykep.com/
+website: 'https://bykep.com/'
 repository: 
 issue: 
-icon: com.keplerk.blockchain.jpg
+icon: 'com.keplerk.blockchain.jpg'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-04-16
+date: '2023-04-16'
 signer: 
 reviewArchive: 
-twitter: BykepFR
+twitter: 'BykepFR'
 social:
-- https://www.linkedin.com/company/bykepfr
-- https://www.facebook.com/BykepFR
+- 'https://www.linkedin.com/company/bykepfr'
+- 'https://www.facebook.com/BykepFR'
 redirect_from: 
-developerName: BYKEP
+developerName: 'BYKEP'
 features: 
 
 ---

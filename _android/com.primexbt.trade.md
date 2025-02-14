@@ -1,39 +1,38 @@
 ---
-wsId: primeXBTCryptoTrading
-title: PrimeXBT — Trading Platform
+wsId: 'primeXBTCryptoTrading'
+title: 'PrimeXBT — Trading Platform'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.primexbt.trade
+appId: 'com.primexbt.trade'
 appCountry: 
-released: 2022-02-10
+released: '2022-02-10'
 updated: 2025-02-03
-version: 4.12.2
+version: '4.12.2'
 stars: 3.8
 ratings: 
 reviews: 44
-size: 
-website: https://primexbt.com/
+website: 'https://primexbt.com/'
 repository: 
 issue: 
-icon: com.primexbt.trade.png
+icon: 'com.primexbt.trade.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-06-02
+date: '2023-06-02'
 signer: 
 reviewArchive: 
-twitter: primexbt
+twitter: 'primexbt'
 social:
-- https://www.facebook.com/primexbt
-- https://t.me/PrimeXBT_English
-- https://www.reddit.com/r/PrimeXBT
-- https://discord.com/invite/yEr8p72pxu
-- https://www.youtube.com/channel/UCzH0C03Gy8uHyKr-Y59cwJg
+- 'https://www.facebook.com/primexbt'
+- 'https://t.me/PrimeXBT_English'
+- 'https://www.reddit.com/r/PrimeXBT'
+- 'https://discord.com/invite/yEr8p72pxu'
+- 'https://www.youtube.com/channel/UCzH0C03Gy8uHyKr-Y59cwJg'
 redirect_from: 
-developerName: Prime Technology LTD
+developerName: 'Prime Technology LTD'
 features: 
 
 ---

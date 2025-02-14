@@ -1,35 +1,34 @@
 ---
-wsId: Forexcom
-title: CFD & Forex Trading FOREX.com
+wsId: 'Forexcom'
+title: 'CFD & Forex Trading FOREX.com'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.gaincapital.forex
-appCountry: gb
-released: 2021-01-11
+appId: 'com.gaincapital.forex'
+appCountry: 'gb'
+released: '2021-01-11'
 updated: 2025-01-03
 version: '1.210'
 stars: 3.7
 ratings: 392
 reviews: 26
-size: 
-website: https://www.forex.com
+website: 'https://www.forex.com'
 repository: 
 issue: 
-icon: com.gaincapital.forex.png
+icon: 'com.gaincapital.forex.png'
 bugbounty: 
-meta: ok
-verdict: nosendreceive
+meta: 'ok'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2021-10-16
+date: '2021-10-16'
 signer: 
 reviewArchive: 
-twitter: forexcom
+twitter: 'forexcom'
 social:
-- https://www.facebook.com/FOREXcom
+- 'https://www.facebook.com/FOREXcom'
 redirect_from: 
-developerName: GAIN Capital Group, LLC
+developerName: 'GAIN Capital Group, LLC'
 features: 
 
 ---

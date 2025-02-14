@@ -3,9 +3,9 @@ title: Bitboard by AppliedEM DIY Hardware Wallet
 appId: appliedem.bitboard.diy
 authors:
 - danny
-released: 2018-03-03
+released: '2018-03-03'
 discontinued: 
-updated: 2018-03-28
+updated: '2018-03-28'
 version: 
 binaries: 
 dimensions: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: obsolete
 verdict: diy
 appHashes: 
-date: 2022-05-23
+date: '2022-05-23'
 signer: 
 reviewArchive: 
 twitter: 

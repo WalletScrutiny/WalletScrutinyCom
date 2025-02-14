@@ -1,41 +1,40 @@
 ---
-wsId: koinParkCrypto
+wsId: 'koinParkCrypto'
 title: 'Koinpark: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.application.koinpark
+appId: 'com.application.koinpark'
 appCountry: 
-released: 2023-02-04
+released: '2023-02-04'
 updated: 2025-02-05
 version: '1.58'
 stars: 3.9
 ratings: 
 reviews: 14
-size: 
-website: https://koinpark.com/
+website: 'https://koinpark.com/'
 repository: 
 issue: 
-icon: com.application.koinpark.png
+icon: 'com.application.koinpark.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-07-29
+date: '2023-07-29'
 signer: 
 reviewArchive: 
-twitter: KoinparkInfo
+twitter: 'KoinparkInfo'
 social:
-- https://www.linkedin.com/company/koinpark
-- https://www.facebook.com/koinpark
-- https://www.instagram.com/koinparkinfo
-- https://medium.com/@koinpark
-- https://t.me/samcrypto9
-- https://www.youtube.com/@koinparkInfo
-- https://www.reddit.com/user/Koinpark
+- 'https://www.linkedin.com/company/koinpark'
+- 'https://www.facebook.com/koinpark'
+- 'https://www.instagram.com/koinparkinfo'
+- 'https://medium.com/@koinpark'
+- 'https://t.me/samcrypto9'
+- 'https://www.youtube.com/@koinparkInfo'
+- 'https://www.reddit.com/user/Koinpark'
 redirect_from: 
-developerName: koinpark
+developerName: 'koinpark'
 features: 
 
 ---

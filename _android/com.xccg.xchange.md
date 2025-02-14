@@ -1,36 +1,36 @@
 ---
-wsId: xchangeCash
-title: Xchange - купить Биткоин
+wsId: 'xchangeCash'
+title: 'Xchange - купить Биткоин'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.xccg.xchange
+appId: 'com.xccg.xchange'
 appCountry: 
-released: 2020-05-12
-updated: 2024-08-15
-version: 4.1.1
+released: '2020-05-12'
+updated: '2024-08-15'
+version: '4.1.1'
 stars: 4.2
 ratings: 
 reviews: 
 size: 
-website: https://xchange.ltd
+website: 'https://xchange.ltd'
 repository: 
 issue: 
-icon: com.xccg.xchange.jpg
+icon: 'com.xccg.xchange.jpg'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-12-23
+date: '2024-12-23'
 signer: 
 reviewArchive: 
-twitter: XchangeO
+twitter: 'XchangeO'
 social:
-- https://vk.com/xchange_cc
-- https://t.me/Xchange_official
+- 'https://vk.com/xchange_cc'
+- 'https://t.me/Xchange_official'
 redirect_from: 
-developerName: natamityaeva80
+developerName: 'natamityaeva80'
 features: 
 
 ---

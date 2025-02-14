@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: Ionia, Blockchain Financial Pl
+title: 'Ionia, Blockchain Financial Pl'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: tech.ionia.app
+appId: 'tech.ionia.app'
 appCountry: 
-released: 2018-05-11
-updated: 2019-02-27
-version: 1.1.3
+released: '2018-05-11'
+updated: '2019-02-27'
+version: '1.1.3'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: http://www.ionia.one
+website: 'http://www.ionia.one'
 repository: 
 issue: 
-icon: tech.ionia.app.png
+icon: 'tech.ionia.app.png'
 bugbounty: 
-meta: removed
-verdict: nobtc
+meta: 'removed'
+verdict: 'nobtc'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
-twitter: ionia_io
+twitter: 'ionia_io'
 social: 
 redirect_from: 
-developerName: FINDEXCHAIN
+developerName: 'FINDEXCHAIN'
 features: 
 
 ---

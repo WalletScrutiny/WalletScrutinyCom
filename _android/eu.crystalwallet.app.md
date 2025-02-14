@@ -1,31 +1,31 @@
 ---
-wsId: CrystalWallet
-title: Crystal Wallet
+wsId: 'CrystalWallet'
+title: 'Crystal Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: eu.crystalwallet.app
-appCountry: us
-released: 2020-03-15
-updated: 2021-10-21
+appId: 'eu.crystalwallet.app'
+appCountry: 'us'
+released: '2020-03-15'
+updated: '2021-10-21'
 version: '1.77'
 stars: 4.4
 ratings: 629
 reviews: 9
-size: 63M
-website: https://crystalwallet.eu/
+size: '63M'
+website: 'https://crystalwallet.eu/'
 repository: 
 issue: 
-icon: eu.crystalwallet.app.png
+icon: 'eu.crystalwallet.app.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2022-03-09
+date: '2022-03-09'
 signer: 
 reviewArchive: 
-twitter: CrystalWalletEU
+twitter: 'CrystalWalletEU'
 social: 
 redirect_from: 
 developerName: 

@@ -1,35 +1,35 @@
 ---
 wsId: 
-title: Обмен Биткоин с Bankcomat
+title: 'Обмен Биткоин с Bankcomat'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.bankcomat.android_bankcomat
+appId: 'com.bankcomat.android_bankcomat'
 appCountry: 
-released: 2021-08-19
-updated: 2024-08-03
-version: 4.1.1
+released: '2021-08-19'
+updated: '2024-08-03'
+version: '4.1.1'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://bankcomat.org/
+website: 'https://bankcomat.org/'
 repository: 
 issue: 
-icon: com.bankcomat.android_bankcomat.png
+icon: 'com.bankcomat.android_bankcomat.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2025-02-13
+date: '2025-02-13'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://vk.com/official_bankcomat
+- 'https://vk.com/official_bankcomat'
 redirect_from: 
-developerName: XchangeCapitalGroup OU
+developerName: 'XchangeCapitalGroup OU'
 features: 
 
 ---

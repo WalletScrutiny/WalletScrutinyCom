@@ -3,10 +3,10 @@ title: Atomic Desktop Wallet
 appId: atomic
 authors:
 - danny
-released: 2018-07-14
+released: '2018-07-14'
 discontinued: 
-updated: 2024-04-03
-version: 2.76.14
+updated: '2024-04-03'
+version: '2.76.14'
 binaries: 
 provider: 
 providerWebsite: 
@@ -17,7 +17,7 @@ icon: atomic.png
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2024-04-24
+date: '2024-04-24'
 reviewArchive: 
 twitter: atomicwallet
 social:

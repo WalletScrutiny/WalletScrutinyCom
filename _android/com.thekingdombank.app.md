@@ -1,39 +1,38 @@
 ---
-wsId: theKingdomBank
-title: The Kingdom Bank | Crypto Fiat
+wsId: 'theKingdomBank'
+title: 'The Kingdom Bank | Crypto Fiat'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.thekingdombank.app
+appId: 'com.thekingdombank.app'
 appCountry: 
-released: 2021-12-17
+released: '2021-12-17'
 updated: 2024-11-05
-version: 8.6.6
+version: '8.6.6'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://thekingdombank.com
+website: 'https://thekingdombank.com'
 repository: 
 issue: 
-icon: com.thekingdombank.app.png
+icon: 'com.thekingdombank.app.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-08-08
+date: '2023-08-08'
 signer: 
 reviewArchive: 
-twitter: kingdombankcom
+twitter: 'kingdombankcom'
 social:
-- https://www.linkedin.com/company/thekingdombank
-- https://www.facebook.com/thekingdombank
-- https://www.instagram.com/thekingdombankcom
-- https://www.youtube.com/channel/UCqMayzyXGkITAQsbfiKPowA
-- https://t.me/TheKingdomBank_bot
+- 'https://www.linkedin.com/company/thekingdombank'
+- 'https://www.facebook.com/thekingdombank'
+- 'https://www.instagram.com/thekingdombankcom'
+- 'https://www.youtube.com/channel/UCqMayzyXGkITAQsbfiKPowA'
+- 'https://t.me/TheKingdomBank_bot'
 redirect_from: 
-developerName: TheKingdomBank
+developerName: 'TheKingdomBank'
 features: 
 
 ---

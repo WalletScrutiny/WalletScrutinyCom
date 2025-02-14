@@ -3,35 +3,34 @@ wsId:
 title: 'c-Exchange: Buy & Sell Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.cexchange.app
+appId: 'com.cexchange.app'
 appCountry: 
-released: 2021-02-21
+released: '2021-02-21'
 updated: 2024-11-19
-version: 13.0.2
+version: '13.0.2'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://c-exchange.com/
+website: 'https://c-exchange.com/'
 repository: 
 issue: 
-icon: com.cexchange.app.png
+icon: 'com.cexchange.app.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2024-11-15
+date: '2024-11-15'
 signer: 
 reviewArchive: 
-twitter: cExchange2
+twitter: 'cExchange2'
 social:
-- https://www.facebook.com/cexchange1
-- https://www.youtube.com/channel/UCrNgVFl6hE2gtBoNpjS0DVg
-- https://t.me/+SH-VNP--ecY15_fl
+- 'https://www.facebook.com/cexchange1'
+- 'https://www.youtube.com/channel/UCrNgVFl6hE2gtBoNpjS0DVg'
+- 'https://t.me/+SH-VNP--ecY15_fl'
 redirect_from: 
-developerName: NetMart Inc
+developerName: 'NetMart Inc'
 features: 
 
 ---

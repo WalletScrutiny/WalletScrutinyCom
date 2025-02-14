@@ -1,36 +1,35 @@
 ---
 wsId: 
-title: B2Z Wallet
+title: 'B2Z Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.interakt.b2z
+appId: 'com.interakt.b2z'
 appCountry: 
-released: 2022-04-12
+released: '2022-04-12'
 updated: 2024-07-29
-version: 1.8.0
+version: '1.8.0'
 stars: 4.3
 ratings: 
 reviews: 
-size: 
-website: https://www.b2z.exchange/en/home
+website: 'https://www.b2z.exchange/en/home'
 repository: 
 issue: 
-icon: com.interakt.b2z.png
+icon: 'com.interakt.b2z.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2024-01-18
+date: '2024-01-18'
 signer: 
 reviewArchive: 
-twitter: B2zExchange
+twitter: 'B2zExchange'
 social:
-- https://www.linkedin.com/company/b2z-exchange/about/
-- https://www.facebook.com/b2zexchange
+- 'https://www.linkedin.com/company/b2z-exchange/about/'
+- 'https://www.facebook.com/b2zexchange'
 redirect_from: 
-developerName: Interakt India
+developerName: 'Interakt India'
 features: 
 
 ---

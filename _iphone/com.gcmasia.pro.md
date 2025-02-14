@@ -7,8 +7,8 @@ authors:
 appId: com.gcmasia.pro
 appCountry: in
 idd: '1223411781'
-released: 2017-05-01
-updated: 2022-04-13
+released: '2017-05-01'
+updated: '2022-04-13'
 version: '3.50'
 stars: 0
 reviews: 0
@@ -21,7 +21,7 @@ bugbounty:
 meta: obsolete
 verdict: nowallet
 appHashes: 
-date: 2024-10-08
+date: '2024-10-08'
 signer: 
 reviewArchive: 
 twitter: 

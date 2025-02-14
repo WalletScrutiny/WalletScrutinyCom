@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: Orb
+title: 'Orb'
 altTitle: 
 authors: 
 users: 10
-appId: com.lnorb.orb
+appId: 'com.lnorb.orb'
 appCountry: 
-released: 2022-07-14
-updated: 2022-09-26
-version: 0.21.11.0
+released: '2022-07-14'
+updated: '2022-09-26'
+version: '0.21.11.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://lnorb.com
+website: 'https://lnorb.com'
 repository: 
 issue: 
-icon: com.lnorb.orb.jpg
+icon: 'com.lnorb.orb.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-08-16
+date: '2023-08-16'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Orb Lightning
+developerName: 'Orb Lightning'
 features: 
 
 ---

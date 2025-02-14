@@ -1,40 +1,38 @@
 ---
-wsId: bitcoinjungle
-title: Bitcoin Jungle
+wsId: 'bitcoinjungle'
+title: 'Bitcoin Jungle'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: app.bitcoinjungle.mobile
+appId: 'app.bitcoinjungle.mobile'
 appCountry: 
-released: 2021-12-05
+released: '2021-12-05'
 updated: 2025-02-06
-version: 1.3.5
+version: '1.3.5'
 stars: 4.2
 ratings: 
 reviews: 1
-size: 
-website: https://bitcoinjungle.app
-repository: https://github.com/Bitcoin-Jungle/bitcoin-jungle-mobile
+website: 'https://bitcoinjungle.app'
+repository: 'https://github.com/Bitcoin-Jungle/bitcoin-jungle-mobile'
 issue: 
-icon: app.bitcoinjungle.mobile.png
+icon: 'app.bitcoinjungle.mobile.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-10-20
+date: '2023-10-20'
 signer: 
 reviewArchive: 
-twitter: bitcoinjunglecr
+twitter: 'bitcoinjunglecr'
 social:
-- >-
-  https://snort.social/p/npub14f26g7dddy6dpltc70da3pg4e5w2p4apzzqjuugnsr2ema6e3y6s2xv7lu
-- https://t.me/bitcoinfreedomfestival
-- https://github.com/Bitcoin-Jungle
+- 'https://snort.social/p/npub14f26g7dddy6dpltc70da3pg4e5w2p4apzzqjuugnsr2ema6e3y6s2xv7lu'
+- 'https://t.me/bitcoinfreedomfestival'
+- 'https://github.com/Bitcoin-Jungle'
 redirect_from: 
-developerName: Bitcoin Jungle
+developerName: 'Bitcoin Jungle'
 features:
-- ln
+- 'ln'
 
 ---
 

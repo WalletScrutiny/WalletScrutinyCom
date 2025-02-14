@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: rBitex
+title: 'rBitex'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.mobileapp.rbitex
+appId: 'com.mobileapp.rbitex'
 appCountry: 
-released: 2021-10-29
-updated: 2022-06-12
-version: 3.0.2
+released: '2021-10-29'
+updated: '2022-06-12'
+version: '3.0.2'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://rbitex.com
+website: 'https://rbitex.com'
 repository: 
 issue: 
-icon: com.mobileapp.rbitex.png
+icon: 'com.mobileapp.rbitex.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-02-05
+date: '2024-02-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Rbitex Ventures Private Limited
+developerName: 'Rbitex Ventures Private Limited'
 features: 
 
 ---

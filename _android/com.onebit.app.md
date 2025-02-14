@@ -1,36 +1,36 @@
 ---
 wsId: 
-title: TenX - Buy Bitcoin & Crypto Card
+title: 'TenX - Buy Bitcoin & Crypto Card'
 altTitle: 
 authors:
-- leo
-- danny
+- 'leo'
+- 'danny'
 users: 100000
-appId: com.onebit.app
+appId: 'com.onebit.app'
 appCountry: 
-released: 2017-11-23
-updated: 2020-11-11
-version: 3.25.1
+released: '2017-11-23'
+updated: '2020-11-11'
+version: '3.25.1'
 stars: 3.1
 ratings: 1076
 reviews: 575
-size: 82M
-website: https://www.tenx.tech
+size: '82M'
+website: 'https://www.tenx.tech'
 repository: 
 issue: 
-icon: com.onebit.app.png
+icon: 'com.onebit.app.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2021-09-03
+date: '2021-09-03'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from:
-- /com.onebit.app/
-- /posts/com.onebit.app/
+- '/com.onebit.app/'
+- '/posts/com.onebit.app/'
 developerName: 
 features: 
 

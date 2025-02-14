@@ -7,9 +7,9 @@ authors:
 appId: im.adamant.adamant-messenger
 appCountry: us
 idd: '1341473829'
-released: 2018-08-04
-updated: 2025-01-20
-version: 3.10.0
+released: '2018-08-04'
+updated: '2025-01-20'
+version: '3.10.0'
 stars: 4.9
 reviews: 18
 size: '82213888'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nonverifiable
 appHashes: []
-date: 2024-09-19
+date: '2024-09-19'
 signer: 
 reviewArchive: 
 twitter: adamant_im

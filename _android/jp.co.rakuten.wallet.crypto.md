@@ -1,34 +1,32 @@
 ---
-wsId: rakutenCrypto
-title: 楽天ウォレットの暗号資産取引アプリ
+wsId: 'rakutenCrypto'
+title: '楽天ウォレットの暗号資産取引アプリ'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: jp.co.rakuten.wallet.crypto
+appId: 'jp.co.rakuten.wallet.crypto'
 appCountry: 
-released: 
 updated: 2025-02-03
-version: 1.5.4
+version: '1.5.4'
 stars: 3.5
 ratings: 
 reviews: 
-size: 
-website: https://www.rakuten-wallet.co.jp/
+website: 'https://www.rakuten-wallet.co.jp/'
 repository: 
 issue: 
-icon: jp.co.rakuten.wallet.crypto.png
+icon: 'jp.co.rakuten.wallet.crypto.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-07-29
+date: '2023-07-29'
 signer: 
 reviewArchive: 
-twitter: Rakuten_Wallet
+twitter: 'Rakuten_Wallet'
 social: 
 redirect_from: 
-developerName: Rakuten Wallet
+developerName: 'Rakuten Wallet'
 features: 
 
 ---

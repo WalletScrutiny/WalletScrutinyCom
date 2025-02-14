@@ -3,34 +3,33 @@ wsId:
 title: 'PocketBits: Buy BTC & Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.pocketbits
+appId: 'com.pocketbits'
 appCountry: 
-released: 2021-08-03
+released: '2021-08-03'
 updated: 2023-08-31
-version: 1.3.7
+version: '1.3.7'
 stars: 4.2
 ratings: 
 reviews: 6
-size: 
-website: https://pocketbits.in/
+website: 'https://pocketbits.in/'
 repository: 
 issue: 
-icon: com.pocketbits.png
+icon: 'com.pocketbits.png'
 bugbounty: 
-meta: stale
-verdict: custodial
+meta: 'stale'
+verdict: 'custodial'
 appHashes: 
-date: 2024-08-26
+date: '2024-08-26'
 signer: 
 reviewArchive: 
-twitter: PocketBitsIndia
+twitter: 'PocketBitsIndia'
 social:
-- https://www.linkedin.com/company/pocketbits.in
-- https://www.facebook.com/Pocketbits.in
+- 'https://www.linkedin.com/company/pocketbits.in'
+- 'https://www.facebook.com/Pocketbits.in'
 redirect_from: 
-developerName: Defacto Technologies Pvt Ltd
+developerName: 'Defacto Technologies Pvt Ltd'
 features: 
 
 ---

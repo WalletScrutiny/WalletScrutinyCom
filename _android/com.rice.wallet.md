@@ -1,36 +1,36 @@
 ---
-wsId: riceCryptoWallet
+wsId: 'riceCryptoWallet'
 title: 'RICE: Your Crypto Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.rice.wallet
+appId: 'com.rice.wallet'
 appCountry: 
-released: 2022-01-18
-updated: 2023-01-27
-version: 1.5.1
+released: '2022-01-18'
+updated: '2023-01-27'
+version: '1.5.1'
 stars: 4.8
 ratings: 
 reviews: 219
 size: 
-website: https://ricewallet.io/
+website: 'https://ricewallet.io/'
 repository: 
 issue: 
-icon: com.rice.wallet.jpg
+icon: 'com.rice.wallet.jpg'
 bugbounty: 
-meta: obsolete
-verdict: nobtc
+meta: 'obsolete'
+verdict: 'nobtc'
 appHashes: 
-date: 2025-01-27
+date: '2025-01-27'
 signer: 
 reviewArchive: 
-twitter: RiceDeFiWallet
+twitter: 'RiceDeFiWallet'
 social:
-- https://www.facebook.com/ricewallet.io
-- https://t.me/ricewallet
+- 'https://www.facebook.com/ricewallet.io'
+- 'https://t.me/ricewallet'
 redirect_from: 
-developerName: RICE TECHNOLOGIES PTE. LTD.
+developerName: 'RICE TECHNOLOGIES PTE. LTD.'
 features: 
 
 ---

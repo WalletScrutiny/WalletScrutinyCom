@@ -1,36 +1,35 @@
 ---
-wsId: coinCRED
-title: CoinCRED IN
+wsId: 'coinCRED'
+title: 'CoinCRED IN'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.coincred.android
+appId: 'com.coincred.android'
 appCountry: 
-released: 2021-09-01
+released: '2021-09-01'
 updated: 2025-01-02
-version: 2.5.3
+version: '2.5.3'
 stars: 4.5
 ratings: 
 reviews: 27
-size: 
-website: https://coincred.org/
+website: 'https://coincred.org/'
 repository: 
 issue: 
-icon: com.coincred.android.png
+icon: 'com.coincred.android.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2022-06-27
+date: '2022-06-27'
 signer: 
 reviewArchive: 
-twitter: CoinCRED_
+twitter: 'CoinCRED_'
 social:
-- https://www.facebook.com/CoinCRED.Official/
-- https://www.linkedin.com/company/coin-cred/
+- 'https://www.facebook.com/CoinCRED.Official/'
+- 'https://www.linkedin.com/company/coin-cred/'
 redirect_from: 
-developerName: CoinCRED
+developerName: 'CoinCRED'
 features: 
 
 ---

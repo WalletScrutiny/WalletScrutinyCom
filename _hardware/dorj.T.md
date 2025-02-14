@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: wip
 appHashes: 
-date: 2023-04-06
+date: '2023-04-06'
 signer: 
 reviewArchive: 
 twitter: dorjwa

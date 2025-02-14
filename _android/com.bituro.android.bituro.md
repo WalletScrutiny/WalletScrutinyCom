@@ -1,35 +1,34 @@
 ---
-wsId: bituro
-title: bituro - Rewards & Bitcoins
+wsId: 'bituro'
+title: 'bituro - Rewards & Bitcoins'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000000
-appId: com.bituro.android.bituro
-appCountry: us
-released: 2015-08-18
+appId: 'com.bituro.android.bituro'
+appCountry: 'us'
+released: '2015-08-18'
 updated: 2024-11-28
-version: 1.30.0
+version: '1.30.0'
 stars: 4.3
 ratings: 9148
 reviews: 479
-size: 
-website: https://bituro.com
+website: 'https://bituro.com'
 repository: 
 issue: 
-icon: com.bituro.android.bituro.png
+icon: 'com.bituro.android.bituro.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2021-11-01
+date: '2021-11-01'
 signer: 
 reviewArchive: 
-twitter: bituroapp
+twitter: 'bituroapp'
 social:
-- https://www.facebook.com/BituroApp
+- 'https://www.facebook.com/BituroApp'
 redirect_from: 
-developerName: Bituro LLC
+developerName: 'Bituro LLC'
 features: 
 
 ---

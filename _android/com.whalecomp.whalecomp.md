@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Whalecomp 鑽石鯨
+title: 'Whalecomp 鑽石鯨'
 altTitle: 
 authors: 
 users: 5
-appId: com.whalecomp.whalecomp
+appId: 'com.whalecomp.whalecomp'
 appCountry: 
-released: 2021-12-08
-updated: 2022-02-25
-version: 1.0.0.2
+released: '2021-12-08'
+updated: '2022-02-25'
+version: '1.0.0.2'
 stars: 
 ratings: 
 reviews: 
@@ -16,18 +16,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.whalecomp.whalecomp.png
+icon: 'com.whalecomp.whalecomp.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-12-31
+date: '2024-12-31'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: MetaEarth
+developerName: 'MetaEarth'
 features: 
 
 ---

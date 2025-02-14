@@ -1,35 +1,35 @@
 ---
 wsId: 
-title: AntBot-Binance OKX Bybit Bot
+title: 'AntBot-Binance OKX Bybit Bot'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: ea.antbot.org
+appId: 'ea.antbot.org'
 appCountry: 
-released: 2021-09-29
-updated: 2024-03-08
-version: 2.5.6
+released: '2021-09-29'
+updated: '2024-03-08'
+version: '2.5.6'
 stars: 4.3
 ratings: 
 reviews: 21
 size: 
-website: https://www.antrade.io
+website: 'https://www.antrade.io'
 repository: 
 issue: 
-icon: ea.antbot.org.png
+icon: 'ea.antbot.org.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-04-19
+date: '2024-04-19'
 signer: 
 reviewArchive: 
-twitter: antrade_io
+twitter: 'antrade_io'
 social:
-- https://t.me/AntBotQuantify
+- 'https://t.me/AntBotQuantify'
 redirect_from: 
-developerName: Crypto Signal Trading Bot
+developerName: 'Crypto Signal Trading Bot'
 features: 
 
 ---

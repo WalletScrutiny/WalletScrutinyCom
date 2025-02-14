@@ -1,39 +1,38 @@
 ---
-wsId: ciexExchange
-title: CIEx
+wsId: 'ciexExchange'
+title: 'CIEx'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.exchange.Ciexv2
+appId: 'com.exchange.Ciexv2'
 appCountry: 
-released: 2022-07-20
+released: '2022-07-20'
 updated: 2024-05-27
-version: 5.9.8_push_v2_home_enturion
+version: '5.9.8_push_v2_home_enturion'
 stars: 3.7
 ratings: 
 reviews: 
-size: 
-website: https://centurioninvest.com/
+website: 'https://centurioninvest.com/'
 repository: 
 issue: 
-icon: com.exchange.Ciexv2.png
+icon: 'com.exchange.Ciexv2.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2024-05-30
+date: '2024-05-30'
 signer: 
 reviewArchive: 
-twitter: CENTURION_INVST
+twitter: 'CENTURION_INVST'
 social:
-- https://t.me/centurioninvestgroup
-- https://www.youtube.com/channel/UCkjUQQCjZ5ed366GAUyRuog
-- https://www.facebook.com/CenturionInvest
-- https://www.linkedin.com/company/centurioninvest
-- https://www.instagram.com/centurioninvest
+- 'https://t.me/centurioninvestgroup'
+- 'https://www.youtube.com/channel/UCkjUQQCjZ5ed366GAUyRuog'
+- 'https://www.facebook.com/CenturionInvest'
+- 'https://www.linkedin.com/company/centurioninvest'
+- 'https://www.instagram.com/centurioninvest'
 redirect_from: 
-developerName: Centurion Exchange
+developerName: 'Centurion Exchange'
 features: 
 
 ---

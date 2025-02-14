@@ -1,38 +1,38 @@
 ---
-wsId: bitunix
+wsId: 'bitunix'
 title: 'Bitunix: Crypto & BTC Trading'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: io.bitunix.android
+appId: 'io.bitunix.android'
 appCountry: 
-released: 2023-07-26
-updated: 2024-09-05
-version: 2024.0905.9712 (d802d97a)
+released: '2023-07-26'
+updated: '2024-09-05'
+version: '2024.0905.9712 (d802d97a)'
 stars: 4.2
 ratings: 
 reviews: 34
 size: 
-website: https://www.bitunix.com
+website: 'https://www.bitunix.com'
 repository: 
 issue: 
-icon: io.bitunix.android.png
+icon: 'io.bitunix.android.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-09-28
+date: '2024-09-28'
 signer: 
 reviewArchive: 
-twitter: BitunixOfficial
+twitter: 'BitunixOfficial'
 social:
-- https://t.me/bitunixglobal
-- https://www.linkedin.com/company/bitunix
-- https://www.facebook.com/bitunix
-- https://www.instagram.com/bitunix.official
+- 'https://t.me/bitunixglobal'
+- 'https://www.linkedin.com/company/bitunix'
+- 'https://www.facebook.com/bitunix'
+- 'https://www.instagram.com/bitunix.official'
 redirect_from: 
-developerName: Bitunix
+developerName: 'Bitunix'
 features: 
 
 ---

@@ -1,29 +1,29 @@
 ---
 wsId: 
-title: SafePal - Crypto Wallet BTC
-altTitle: leo
+title: 'SafePal - Crypto Wallet BTC'
+altTitle: 'leo'
 authors: 
-appId: com.anbi.safepal
+appId: 'com.anbi.safepal'
 appCountry: 
-idd: 1449232593
-released: 2019-03-01
-updated: 2020-12-30
-version: 2.5.1
+idd: '1449232593'
+released: '2019-03-01'
+updated: '2020-12-30'
+version: '2.5.1'
 stars: 3.8
 reviews: 19
-size: 111534080
-website: https://www.safepal.io/
+size: '111534080'
+website: 'https://www.safepal.io/'
 repository: 
 issue: 
-icon: com.anbi.safepal.jpg
+icon: 'com.anbi.safepal.jpg'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2021-01-15
+date: '2021-01-15'
 signer: 
 reviewArchive: 
-twitter: iSafePal
+twitter: 'iSafePal'
 social: 
 features: 
 developerName: 

@@ -3,10 +3,10 @@ title: Mycelium Entropy
 appId: mycelium.entropy
 authors:
 - danny
-released: 2015-03-03
+released: '2015-03-03'
 discontinued: 
-updated: 2015-11-24
-version: 1.1
+updated: '2015-11-24'
+version: '1.1'
 binaries: https://mycelium.com/download/entropy/me-1.1.bin
 dimensions:
 - 51
@@ -26,7 +26,7 @@ bugbounty:
 meta: defunct
 verdict: plainkey
 appHashes: 
-date: 2024-11-15
+date: '2024-11-15'
 signer: 
 reviewArchive: 
 twitter: MyceliumCom

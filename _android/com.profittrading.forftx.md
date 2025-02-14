@@ -1,35 +1,35 @@
 ---
 wsId: 
-title: ProfitTradingApp for FTX
+title: 'ProfitTradingApp for FTX'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.profittrading.forftx
+appId: 'com.profittrading.forftx'
 appCountry: 
-released: 2021-08-25
-updated: 2022-09-13
-version: 1.2.1
+released: '2021-08-25'
+updated: '2022-09-13'
+version: '1.2.1'
 stars: 4.9
 ratings: 30
 reviews: 3
 size: 
-website: https://profittradingapp.com/
+website: 'https://profittradingapp.com/'
 repository: 
 issue: 
-icon: com.profittrading.forftx.png
+icon: 'com.profittrading.forftx.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-04-19
+date: '2024-04-19'
 signer: 
 reviewArchive: 
-twitter: ProfitTrading_
+twitter: 'ProfitTrading_'
 social:
-- https://www.facebook.com/profittradingapp
+- 'https://www.facebook.com/profittradingapp'
 redirect_from: 
-developerName: ProfitTradingApp
+developerName: 'ProfitTradingApp'
 features: 
 
 ---

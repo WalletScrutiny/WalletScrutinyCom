@@ -1,35 +1,34 @@
 ---
-wsId: mnCoinHub
-title: Coinhub
+wsId: 'mnCoinHub'
+title: 'Coinhub'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.coinhub.pro
+appId: 'com.coinhub.pro'
 appCountry: 
-released: 2021-08-20
+released: '2021-08-20'
 updated: 2025-02-06
-version: 2.2.5
+version: '2.2.5'
 stars: 4.1
 ratings: 
 reviews: 9
-size: 
-website: https://coinhub.mn/
+website: 'https://coinhub.mn/'
 repository: 
 issue: 
-icon: com.coinhub.pro.png
+icon: 'com.coinhub.pro.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2022-02-21
+date: '2022-02-21'
 signer: 
 reviewArchive: 
-twitter: CoinhubMongolia
+twitter: 'CoinhubMongolia'
 social:
-- https://www.linkedin.com/company/coinhub-mongolia/
+- 'https://www.linkedin.com/company/coinhub-mongolia/'
 redirect_from: 
-developerName: CoinHUB
+developerName: 'CoinHUB'
 features: 
 
 ---

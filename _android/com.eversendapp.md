@@ -1,36 +1,35 @@
 ---
-wsId: eversend
+wsId: 'eversend'
 title: 'Eversend: Send money abroad'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000000
-appId: com.eversendapp
-appCountry: lv
-released: 2019-02-01
-updated: 2025-02-07
-version: 0.6.17
+appId: 'com.eversendapp'
+appCountry: 'lv'
+released: '2019-02-01'
+updated: 2025-02-12
+version: '0.6.19'
 stars: 3.7
 ratings: 5009
-reviews: 10106
-size: 
-website: http://eversend.co
+reviews: 10114
+website: 'http://eversend.co'
 repository: 
 issue: 
-icon: com.eversendapp.png
+icon: 'com.eversendapp.png'
 bugbounty: 
-meta: ok
-verdict: nobtc
+meta: 'ok'
+verdict: 'nobtc'
 appHashes: 
-date: 2021-11-01
+date: '2021-11-01'
 signer: 
 reviewArchive: 
-twitter: eversendapp
+twitter: 'eversendapp'
 social:
-- https://www.linkedin.com/company/eversend
-- https://www.facebook.com/eversendapp
+- 'https://www.linkedin.com/company/eversend'
+- 'https://www.facebook.com/eversendapp'
 redirect_from: 
-developerName: Eversend
+developerName: 'Eversend'
 features: 
 
 ---

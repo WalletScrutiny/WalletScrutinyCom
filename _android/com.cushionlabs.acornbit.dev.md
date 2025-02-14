@@ -1,36 +1,35 @@
 ---
 wsId: 
-title: Acorn BIT
+title: 'Acorn BIT'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.cushionlabs.acornbit.dev
+appId: 'com.cushionlabs.acornbit.dev'
 appCountry: 
-released: 2021-12-09
+released: '2021-12-09'
 updated: 2022-12-17
-version: 1.2.10
+version: '1.2.10'
 stars: 4.6
 ratings: 
 reviews: 
-size: 
-website: https://acornbit.com
+website: 'https://acornbit.com'
 repository: 
 issue: 
-icon: com.cushionlabs.acornbit.dev.png
+icon: 'com.cushionlabs.acornbit.dev.png'
 bugbounty: 
-meta: obsolete
-verdict: nosendreceive
+meta: 'obsolete'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2024-12-08
+date: '2024-12-08'
 signer: 
 reviewArchive: 
-twitter: acornbitsupport
+twitter: 'acornbitsupport'
 social:
-- https://t.me/acornbitofficial
-- https://www.youtube.com/channel/UCm5SSnSICxpGHHBPVHBSigA
+- 'https://t.me/acornbitofficial'
+- 'https://www.youtube.com/channel/UCm5SSnSICxpGHHBPVHBSigA'
 redirect_from: 
-developerName: Cushion Labs
+developerName: 'Cushion Labs'
 features: 
 
 ---

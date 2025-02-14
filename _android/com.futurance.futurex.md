@@ -1,39 +1,38 @@
 ---
-wsId: fexobitCrypto
+wsId: 'fexobitCrypto'
 title: 'Fexobit: Kripto Para|BTC|ETH'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.futurance.futurex
+appId: 'com.futurance.futurex'
 appCountry: 
-released: 2022-07-07
+released: '2022-07-07'
 updated: 2024-12-27
-version: 2.3.3
+version: '2.3.3'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://www.fexobit.com/
+website: 'https://www.fexobit.com/'
 repository: 
 issue: 
-icon: com.futurance.futurex.png
+icon: 'com.futurance.futurex.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-07-01
+date: '2023-07-01'
 signer: 
 reviewArchive: 
-twitter: Fexobit
+twitter: 'Fexobit'
 social:
-- https://www.linkedin.com/company/fexobit
-- https://www.facebook.com/Fexobit
-- https://www.instagram.com/fexobit
-- https://t.me/fexobit
-- https://www.youtube.com/channel/UCwh5OepkJnVX1flXoyyPn2Q
+- 'https://www.linkedin.com/company/fexobit'
+- 'https://www.facebook.com/Fexobit'
+- 'https://www.instagram.com/fexobit'
+- 'https://t.me/fexobit'
+- 'https://www.youtube.com/channel/UCwh5OepkJnVX1flXoyyPn2Q'
 redirect_from: 
-developerName: Futurance Finans Teknolojileri
+developerName: 'Futurance Finans Teknolojileri'
 features: 
 
 ---

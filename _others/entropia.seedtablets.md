@@ -4,8 +4,8 @@ appId: entropia.seedtablets
 authors:
 - danny
 icon: entropia.seedtablets.png
-date: 2023-09-30
-released: 2022-10-01
+date: '2023-09-30'
+released: '2022-10-01'
 website: https://seedsigner.com
 twitter: seedsigner
 provider: Seedsigner

@@ -1,28 +1,28 @@
 ---
-wsId: Fiboda
-title: Fiboda - Copy trading Platform
+wsId: 'Fiboda'
+title: 'Fiboda - Copy trading Platform'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.fiboda.app
-appCountry: us
-released: 2021-01-14
-updated: 2021-07-08
-version: 1.0.5
+appId: 'com.fiboda.app'
+appCountry: 'us'
+released: '2021-01-14'
+updated: '2021-07-08'
+version: '1.0.5'
 stars: 4.4
 ratings: 437
 reviews: 2
 size: 
-website: http://www.fiboda.com
+website: 'http://www.fiboda.com'
 repository: 
 issue: 
-icon: com.fiboda.app.png
+icon: 'com.fiboda.app.png'
 bugbounty: 
-meta: removed
-verdict: nosendreceive
+meta: 'removed'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
 twitter: 

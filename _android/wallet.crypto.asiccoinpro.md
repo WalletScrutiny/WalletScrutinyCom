@@ -1,13 +1,13 @@
 ---
 wsId: 
-title: ASIC Wallet
+title: 'ASIC Wallet'
 altTitle: 
 authors: 
 users: 100
-appId: wallet.crypto.asiccoinpro
+appId: 'wallet.crypto.asiccoinpro'
 appCountry: 
-released: 2021-11-01
-updated: 2021-11-01
+released: '2021-11-01'
+updated: '2021-11-01'
 version: '1.0'
 stars: 
 ratings: 
@@ -16,18 +16,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: wallet.crypto.asiccoinpro.png
+icon: 'wallet.crypto.asiccoinpro.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-02-05
+date: '2024-02-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: ASIC wallet
+developerName: 'ASIC wallet'
 features: 
 
 ---

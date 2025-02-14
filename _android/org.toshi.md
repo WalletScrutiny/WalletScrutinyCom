@@ -1,39 +1,38 @@
 ---
-wsId: CoinbaseWallet
+wsId: 'CoinbaseWallet'
 title: 'Coinbase Wallet: NFTs & Crypto'
 altTitle: 
 authors:
-- leo
-- danny
+- 'leo'
+- 'danny'
 users: 10000000
-appId: org.toshi
+appId: 'org.toshi'
 appCountry: 
-released: 2017-09-20
+released: '2017-09-20'
 updated: 2025-02-07
-version: 29.28.0
+version: '29.28.0'
 stars: 4.2
 ratings: 38828
-reviews: 13166
-size: 
-website: https://wallet.coinbase.com/
+reviews: 13172
+website: 'https://wallet.coinbase.com/'
 repository: 
 issue: 
-icon: org.toshi.png
+icon: 'org.toshi.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-15
+date: '2024-07-15'
 signer: 
 reviewArchive: 
-twitter: CoinbaseWallet
+twitter: 'CoinbaseWallet'
 social: 
 redirect_from:
-- /coinbasewallet/
-- /org.toshi/
-- /posts/2019/11/coinbasewallet/
-- /posts/org.toshi/
-developerName: Coinbase Wallet
+- '/coinbasewallet/'
+- '/org.toshi/'
+- '/posts/2019/11/coinbasewallet/'
+- '/posts/org.toshi/'
+developerName: 'Coinbase Wallet'
 features: 
 
 ---

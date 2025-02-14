@@ -7,9 +7,9 @@ authors:
 appId: com.prominentwiselimited.lifpay
 appCountry: hk
 idd: '1645840182'
-released: 2022-10-17
-updated: 2025-02-10
-version: 2.4.1
+released: '2022-10-17'
+updated: '2025-02-10'
+version: '2.4.1'
 stars: 0
 reviews: 0
 size: '70306816'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2024-09-07
+date: '2024-09-07'
 signer: 
 reviewArchive: 
 twitter: lifpay

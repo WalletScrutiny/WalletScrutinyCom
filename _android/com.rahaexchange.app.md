@@ -1,36 +1,36 @@
 ---
 wsId: 
-title: RahaExchange Trader
+title: 'RahaExchange Trader'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.rahaexchange.app
+appId: 'com.rahaexchange.app'
 appCountry: 
-released: 2021-03-14
-updated: 2022-09-01
+released: '2021-03-14'
+updated: '2022-09-01'
 version: '1.007'
 stars: 4.2
 ratings: 
 reviews: 5
 size: 
-website: https://rahaexchange.com
+website: 'https://rahaexchange.com'
 repository: 
 issue: 
-icon: com.rahaexchange.app.png
+icon: 'com.rahaexchange.app.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-05-17
+date: '2023-05-17'
 signer: 
 reviewArchive: 
-twitter: rahaexchange
+twitter: 'rahaexchange'
 social:
-- https://www.aparat.com/rahaexchange
-- https://www.instagram.com/rahaexchange/
+- 'https://www.aparat.com/rahaexchange'
+- 'https://www.instagram.com/rahaexchange/'
 redirect_from: 
-developerName: RahaPay
+developerName: 'RahaPay'
 features: 
 
 ---

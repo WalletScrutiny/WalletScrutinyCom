@@ -7,9 +7,9 @@ authors:
 appId: com.mobox.wallet
 appCountry: us
 idd: 1545109501
-released: 2021-04-29
-updated: 2021-12-20
-version: 1.9.2
+released: '2021-04-29'
+updated: '2021-12-20'
+version: '1.9.2'
 stars: 3.9
 reviews: 23
 size: 60278784
@@ -21,7 +21,7 @@ bugbounty:
 meta: defunct
 verdict: nobtc
 appHashes: 
-date: 2022-01-15
+date: '2022-01-15'
 signer: 
 reviewArchive: 
 twitter: MOBOX_Official

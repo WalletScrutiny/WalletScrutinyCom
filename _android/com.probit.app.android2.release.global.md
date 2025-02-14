@@ -3,35 +3,34 @@ wsId:
 title: 'ProBit Global: Buy BTC, Crypto'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 1000000
-appId: com.probit.app.android2.release.global
+appId: 'com.probit.app.android2.release.global'
 appCountry: 
-released: 2019-06-19
+released: '2019-06-19'
 updated: 2025-02-06
 version: '1.72'
 stars: 4.2
 ratings: 6161
 reviews: 361
-size: 
-website: https://www.probit.com
+website: 'https://www.probit.com'
 repository: 
 issue: 
-icon: com.probit.app.android2.release.global.png
+icon: 'com.probit.app.android2.release.global.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2020-11-28
+date: '2020-11-28'
 signer: 
 reviewArchive: 
-twitter: ProBit_Exchange
+twitter: 'ProBit_Exchange'
 social:
-- https://www.linkedin.com/company/probit-exchange
-- https://www.facebook.com/probitexchange
+- 'https://www.linkedin.com/company/probit-exchange'
+- 'https://www.facebook.com/probitexchange'
 redirect_from:
-- /com.probit.app.android2.release.global/
-developerName: Probit Global Services Limited
+- '/com.probit.app.android2.release.global/'
+developerName: 'Probit Global Services Limited'
 features: 
 
 ---

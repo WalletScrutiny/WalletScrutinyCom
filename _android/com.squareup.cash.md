@@ -1,35 +1,34 @@
 ---
-wsId: CashApp
-title: Cash App
+wsId: 'CashApp'
+title: 'Cash App'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 100000000
-appId: com.squareup.cash
+appId: 'com.squareup.cash'
 appCountry: 
-released: 2013-10-15
+released: '2013-10-15'
 updated: 2025-02-09
-version: 4.86.0
+version: '4.86.0'
 stars: 4.6
 ratings: 1066810
-reviews: 412589
-size: 
-website: https://cash.app
+reviews: 412753
+website: 'https://cash.app'
 repository: 
 issue: 
-icon: com.squareup.cash.png
+icon: 'com.squareup.cash.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2020-08-06
+date: '2020-08-06'
 signer: 
 reviewArchive: 
-twitter: cashapp
+twitter: 'cashapp'
 social: 
 redirect_from:
-- /com.squareup.cash/
-developerName: Block, Inc.
+- '/com.squareup.cash/'
+developerName: 'Block, Inc.'
 features: 
 
 ---

@@ -1,38 +1,37 @@
 ---
-wsId: independentReserveExchange
-title: Independent Reserve Buy Crypto
+wsId: 'independentReserveExchange'
+title: 'Independent Reserve Buy Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.independentreserve.mobileapp
+appId: 'com.independentreserve.mobileapp'
 appCountry: 
-released: 2021-10-18
+released: '2021-10-18'
 updated: 2025-01-07
-version: 9.0.4
+version: '9.0.4'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://www.independentreserve.com
+website: 'https://www.independentreserve.com'
 repository: 
 issue: 
-icon: com.independentreserve.mobileapp.png
+icon: 'com.independentreserve.mobileapp.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-07-01
+date: '2023-07-01'
 signer: 
 reviewArchive: 
-twitter: indepreserve
+twitter: 'indepreserve'
 social:
-- https://www.linkedin.com/company/independent-reserve
-- https://www.facebook.com/independentreserve
-- https://www.reddit.com/r/independentreserve
-- https://www.youtube.com/independentreserve
+- 'https://www.linkedin.com/company/independent-reserve'
+- 'https://www.facebook.com/independentreserve'
+- 'https://www.reddit.com/r/independentreserve'
+- 'https://www.youtube.com/independentreserve'
 redirect_from: 
-developerName: Independent Reserve
+developerName: 'Independent Reserve'
 features: 
 
 ---

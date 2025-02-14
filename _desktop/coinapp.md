@@ -3,10 +3,10 @@ title: Coin App
 appId: coinapp
 authors:
 - danny
-released: 2018-05-02
+released: '2018-05-02'
 discontinued: 
-updated: 2018-08-02
-version: 0.0.34
+updated: '2018-08-02'
+version: '0.0.34'
 binaries: 
 provider: 
 providerWebsite: 
@@ -17,7 +17,7 @@ icon: coinapp.png
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2024-04-25
+date: '2024-04-25'
 reviewArchive: 
 twitter: coin_with_us
 social: 

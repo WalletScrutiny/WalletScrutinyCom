@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: ISUPEX- Buy and sell bitcoin
+title: 'ISUPEX- Buy and sell bitcoin'
 altTitle: 
 authors: 
 users: 10
-appId: com.superx.isupex
+appId: 'com.superx.isupex'
 appCountry: 
-released: 2020-05-02
-updated: 2020-05-02
-version: 1.0.0
+released: '2020-05-02'
+updated: '2020-05-02'
+version: '1.0.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.isupex.com
+website: 'https://www.isupex.com'
 repository: 
 issue: 
-icon: com.superx.isupex.png
+icon: 'com.superx.isupex.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
 twitter: 

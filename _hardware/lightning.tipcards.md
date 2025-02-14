@@ -3,10 +3,10 @@ title: Lightning Tip Cards by Satoshi Engineering
 appId: lightning.tipcards
 authors:
 - danny
-released: 2022-07-12
+released: '2022-07-12'
 discontinued: 
-updated: 2023-01-27
-version: 0.2.3
+updated: '2023-01-27'
+version: '0.2.3'
 binaries: 
 dimensions: 
 weight: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: diy
 appHashes: 
-date: 2023-03-03
+date: '2023-03-03'
 signer: 
 reviewArchive: 
 twitter: SatoshiEngTech

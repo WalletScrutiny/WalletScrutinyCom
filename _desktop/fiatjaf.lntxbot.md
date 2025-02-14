@@ -3,9 +3,9 @@ title: fiatjaf LNTXbot
 appId: fiatjaf.lntxbot
 authors:
 - danny
-released: 2019-01-27
+released: '2019-01-27'
 discontinued: 
-updated: 2024-01-09
+updated: '2024-01-09'
 version: 
 binaries: 
 provider: fiatjaf
@@ -17,7 +17,7 @@ icon:
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2024-05-09
+date: '2024-05-09'
 reviewArchive: 
 twitter: fiatjaf
 social: 

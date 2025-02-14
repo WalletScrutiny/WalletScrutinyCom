@@ -1,36 +1,35 @@
 ---
 wsId: 
-title: Crypto Exchange — StealthEX
+title: 'Crypto Exchange — StealthEX'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.stealthex
+appId: 'com.stealthex'
 appCountry: 
-released: 2022-11-01
+released: '2022-11-01'
 updated: 2025-01-13
-version: 1.1.18
+version: '1.1.18'
 stars: 4.4
 ratings: 
 reviews: 8
-size: 
-website: https://stealthex.io/
+website: 'https://stealthex.io/'
 repository: 
 issue: 
-icon: com.stealthex.png
+icon: 'com.stealthex.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-07-28
+date: '2023-07-28'
 signer: 
 reviewArchive: 
-twitter: StealthEX_io
+twitter: 'StealthEX_io'
 social:
-- https://www.youtube.com/channel/UCeES_XBesX76ge7xf1meuSw
-- https://stealthex-io.medium.com/
+- 'https://www.youtube.com/channel/UCeES_XBesX76ge7xf1meuSw'
+- 'https://stealthex-io.medium.com/'
 redirect_from: 
-developerName: StealthEX
+developerName: 'StealthEX'
 features: 
 
 ---

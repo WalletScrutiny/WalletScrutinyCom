@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: BFast BFree - Earn BTC
+title: 'BFast BFree - Earn BTC'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000000
-appId: com.bfast.bfree
+appId: 'com.bfast.bfree'
 appCountry: 
-released: 2019-04-18
+released: '2019-04-18'
 updated: 2024-05-22
-version: 2.7.6
+version: '2.7.6'
 stars: 4.3
 ratings: 
 reviews: 1173
-size: 
-website: https://bfastbfree.edercmf.com/
+website: 'https://bfastbfree.edercmf.com/'
 repository: 
 issue: 
-icon: com.bfast.bfree.png
+icon: 'com.bfast.bfree.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-09-06
+date: '2024-09-06'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/BProgrammers
+- 'https://www.facebook.com/BProgrammers'
 redirect_from: 
-developerName: B Programmers
+developerName: 'B Programmers'
 features: 
 
 ---

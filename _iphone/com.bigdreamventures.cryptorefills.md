@@ -1,35 +1,35 @@
 ---
-wsId: cryptorefills
-title: Cryptorefills
+wsId: 'cryptorefills'
+title: 'Cryptorefills'
 altTitle: 
 authors:
-- danny
-appId: com.bigdreamventures.cryptorefills
-appCountry: us
+- 'danny'
+appId: 'com.bigdreamventures.cryptorefills'
+appCountry: 'us'
 idd: '1534284069'
-released: 2020-10-28
+released: '2020-10-28'
 updated: 2023-10-06
 version: '1.12'
-stars: 4.7
+stars: 4.66667
 reviews: 3
 size: '8100864'
-website: https://www.cryptorefills.com/en/how-it-works
+website: 'https://www.cryptorefills.com/en/how-it-works'
 repository: 
 issue: 
-icon: com.bigdreamventures.cryptorefills.jpg
+icon: 'com.bigdreamventures.cryptorefills.jpg'
 bugbounty: 
-meta: stale
-verdict: nowallet
+meta: 'stale'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-10-02
+date: '2024-10-02'
 signer: 
 reviewArchive: 
-twitter: cryptorefills
+twitter: 'cryptorefills'
 social:
-- https://www.instagram.com/cryptorefillsofficial/
-- https://www.facebook.com/cryptorefills
+- 'https://www.instagram.com/cryptorefillsofficial/'
+- 'https://www.facebook.com/cryptorefills'
 features: 
-developerName: CryptoRefills
+developerName: 'CryptoRefills'
 
 ---
 

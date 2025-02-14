@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: Blockchain Dashboard
+title: 'Blockchain Dashboard'
 altTitle: 
 authors:
-- leo
-- danny
+- 'leo'
+- 'danny'
 users: 50000
-appId: com.blockchain.explorer
+appId: 'com.blockchain.explorer'
 appCountry: 
-released: 2019-12-30
+released: '2019-12-30'
 updated: 2022-12-01
-version: 1.2.0.7
+version: '1.2.0.7'
 stars: 4.4
 ratings: 409
 reviews: 33
-size: 
-website: https://coinhub8899.web.app
+website: 'https://coinhub8899.web.app'
 repository: 
 issue: 
-icon: com.blockchain.explorer.png
+icon: 'com.blockchain.explorer.png'
 bugbounty: 
-meta: obsolete
-verdict: nowallet
+meta: 'obsolete'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-11-21
+date: '2024-11-21'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: InvoVN Solutions
+developerName: 'InvoVN Solutions'
 features: 
 
 ---

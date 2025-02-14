@@ -1,15 +1,15 @@
 ---
 wsId: 
-title: Coinals:Wallet
+title: 'Coinals:Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.Coinals.Wallet
+appId: 'com.Coinals.Wallet'
 appCountry: 
-released: 2021-04-23
-updated: 2021-04-23
-version: 1.0.0
+released: '2021-04-23'
+updated: '2021-04-23'
+version: '1.0.0'
 stars: 
 ratings: 
 reviews: 
@@ -17,18 +17,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.Coinals.Wallet.png
+icon: 'com.Coinals.Wallet.png'
 bugbounty: 
-meta: defunct
-verdict: wip
+meta: 'defunct'
+verdict: 'wip'
 appHashes: 
-date: 2021-11-22
+date: '2021-11-22'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: COINALS_INC
+developerName: 'COINALS_INC'
 features: 
 
 ---

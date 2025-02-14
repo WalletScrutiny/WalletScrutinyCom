@@ -1,37 +1,36 @@
 ---
-wsId: NamiExchange
+wsId: 'NamiExchange'
 title: 'Nami Exchange: Buy BTC, Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.namicorp.exchange
+appId: 'com.namicorp.exchange'
 appCountry: 
-released: 2019-11-06
+released: '2019-11-06'
 updated: 2024-11-18
-version: 2.2.6
+version: '2.2.6'
 stars: 4.1
 ratings: 
 reviews: 11
-size: 
-website: https://nami.exchange
+website: 'https://nami.exchange'
 repository: 
 issue: 
-icon: com.namicorp.exchange.png
+icon: 'com.namicorp.exchange.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2022-07-20
+date: '2022-07-20'
 signer: 
 reviewArchive: 
-twitter: NamiTrade
+twitter: 'NamiTrade'
 social:
-- https://www.reddit.com/r/NAMIcoin/
-- https://www.facebook.com/groups/800880653641607/
-- https://medium.com/nami-io
+- 'https://www.reddit.com/r/NAMIcoin/'
+- 'https://www.facebook.com/groups/800880653641607/'
+- 'https://medium.com/nami-io'
 redirect_from: 
-developerName: Nami Exchange UAB
+developerName: 'Nami Exchange UAB'
 features: 
 
 ---

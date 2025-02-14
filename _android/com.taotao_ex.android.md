@@ -1,35 +1,34 @@
 ---
-wsId: sbivctrade
-title: SBI VCTRADE mobile 暗号資産(仮想通貨)
+wsId: 'sbivctrade'
+title: 'SBI VCTRADE mobile 暗号資産(仮想通貨)'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.taotao_ex.android
+appId: 'com.taotao_ex.android'
 appCountry: 
-released: 2019-05-29
+released: '2019-05-29'
 updated: 2025-01-16
-version: 3.25.2
+version: '3.25.2'
 stars: 2.3
 ratings: 
 reviews: 
-size: 
-website: https://www.sbivc.co.jp/
+website: 'https://www.sbivc.co.jp/'
 repository: 
 issue: 
-icon: com.taotao_ex.android.png
+icon: 'com.taotao_ex.android.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-02-26
+date: '2023-02-26'
 signer: 
 reviewArchive: 
-twitter: sbivc_official
+twitter: 'sbivc_official'
 social:
-- https://www.youtube.com/channel/UCvZUMOeEVQWp4ov77mHuDtg
+- 'https://www.youtube.com/channel/UCvZUMOeEVQWp4ov77mHuDtg'
 redirect_from: 
-developerName: SBI VC Trade Co., Ltd.
+developerName: 'SBI VC Trade Co., Ltd.'
 features: 
 
 ---

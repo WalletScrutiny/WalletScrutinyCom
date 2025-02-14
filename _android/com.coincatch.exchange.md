@@ -1,37 +1,36 @@
 ---
-wsId: coinCatchExchange
-title: CoinCatch-Buy Bitcoin & Crypto
+wsId: 'coinCatchExchange'
+title: 'CoinCatch-Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.coincatch.exchange
+appId: 'com.coincatch.exchange'
 appCountry: 
-released: 2023-04-07
+released: '2023-04-07'
 updated: 2025-02-06
-version: 1.13.5
+version: '1.13.5'
 stars: 4.2
 ratings: 
 reviews: 34
-size: 
 website: 
 repository: 
 issue: 
-icon: com.coincatch.exchange.jpg
+icon: 'com.coincatch.exchange.jpg'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-11-01
+date: '2023-11-01'
 signer: 
 reviewArchive: 
-twitter: coincatchcom
+twitter: 'coincatchcom'
 social:
-- https://www.coincatch.com
-- https://t.me/coincatch_chat_en
-- https://www.instagram.com/coincatch_official
+- 'https://www.coincatch.com'
+- 'https://t.me/coincatch_chat_en'
+- 'https://www.instagram.com/coincatch_official'
 redirect_from: 
-developerName: Linkbase Technology Limited
+developerName: 'Linkbase Technology Limited'
 features: 
 
 ---

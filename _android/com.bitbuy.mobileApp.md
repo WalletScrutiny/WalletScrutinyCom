@@ -1,36 +1,35 @@
 ---
-wsId: bitbuy
+wsId: 'bitbuy'
 title: 'Bitbuy: Buy Bitcoin Canada'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.bitbuy.mobileApp
-appCountry: ca
-released: 2019-10-15
+appId: 'com.bitbuy.mobileApp'
+appCountry: 'ca'
+released: '2019-10-15'
 updated: 2025-01-21
-version: 5.0.8
+version: '5.0.8'
 stars: 4.3
 ratings: 1381
 reviews: 1342
-size: 
-website: https://bitbuy.ca/
+website: 'https://bitbuy.ca/'
 repository: 
 issue: 
-icon: com.bitbuy.mobileApp.jpg
+icon: 'com.bitbuy.mobileApp.jpg'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-09-11
+date: '2021-09-11'
 signer: 
 reviewArchive: 
-twitter: bitbuy
+twitter: 'bitbuy'
 social:
-- https://www.linkedin.com/company/bitbuyca
-- https://www.facebook.com/bitbuyCA
+- 'https://www.linkedin.com/company/bitbuyca'
+- 'https://www.facebook.com/bitbuyCA'
 redirect_from: 
-developerName: Bitbuy
+developerName: 'Bitbuy'
 features: 
 
 ---

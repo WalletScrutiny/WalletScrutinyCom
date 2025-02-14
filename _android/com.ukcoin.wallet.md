@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: UKCOIN
+title: 'UKCOIN'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.ukcoin.wallet
+appId: 'com.ukcoin.wallet'
 appCountry: 
-released: 2020-07-16
-updated: 2020-07-16
-version: 1.0.0
+released: '2020-07-16'
+updated: '2020-07-16'
+version: '1.0.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://ukcoin.money/
+website: 'https://ukcoin.money/'
 repository: 
 issue: 
-icon: com.ukcoin.wallet.png
+icon: 'com.ukcoin.wallet.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2023-06-07
+date: '2023-06-07'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: UKCOIN
+developerName: 'UKCOIN'
 features: 
 
 ---

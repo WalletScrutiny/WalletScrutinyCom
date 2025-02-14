@@ -8,9 +8,9 @@ authors:
 appId: com.visionsoftware.vision
 appCountry: 
 idd: 1500186931
-released: 2020-04-01
-updated: 2023-01-22
-version: 2.4.46
+released: '2020-04-01'
+updated: '2023-01-22'
+version: '2.4.46'
 stars: 4.6
 reviews: 39
 size: '122827776'
@@ -22,7 +22,7 @@ bugbounty:
 meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-07-17
+date: '2024-07-17'
 signer: 
 reviewArchive: 
 twitter: VisionCryptoApp

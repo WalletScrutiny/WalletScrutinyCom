@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: IQFinex Exchange
+title: 'IQFinex Exchange'
 altTitle: 
 authors: 
 users: 100
-appId: com.iqfinex_exchange
+appId: 'com.iqfinex_exchange'
 appCountry: 
-released: 2019-05-16
-updated: 2019-10-30
-version: 1.0.4
+released: '2019-05-16'
+updated: '2019-10-30'
+version: '1.0.4'
 stars: 1.7
 ratings: 6
 reviews: 3
-size: 6.0M
+size: '6.0M'
 website: 
 repository: 
 issue: 
-icon: com.iqfinex_exchange.png
+icon: 'com.iqfinex_exchange.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-10-22
+date: '2021-10-22'
 signer: 
 reviewArchive: 
 twitter: 

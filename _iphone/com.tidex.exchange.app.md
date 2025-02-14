@@ -7,9 +7,9 @@ authors:
 appId: com.tidex.exchange.app
 appCountry: us
 idd: '1632072370'
-released: 2022-07-01
-updated: 2022-08-15
-version: 1.0.5
+released: '2022-07-01'
+updated: '2022-08-15'
+version: '1.0.5'
 stars: 3.6
 reviews: 15
 size: '18824192'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-09-10
+date: '2024-09-10'
 signer: 
 reviewArchive: 
 twitter: Tidex_Exchange

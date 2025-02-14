@@ -3,33 +3,33 @@ wsId:
 title: 'Byte Exchange: BTC ETH Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: io.bytedex.mobile.tr
+appId: 'io.bytedex.mobile.tr'
 appCountry: 
-released: 2022-12-16
-updated: 2024-03-15
-version: 2.0.16
+released: '2022-12-16'
+updated: '2024-03-15'
+version: '2.0.16'
 stars: 4.9
 ratings: 
 reviews: 
 size: 
-website: https://bexc.io
+website: 'https://bexc.io'
 repository: 
 issue: 
-icon: io.bytedex.mobile.tr.png
+icon: 'io.bytedex.mobile.tr.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-12-08
+date: '2024-12-08'
 signer: 
 reviewArchive: 
-twitter: byteexchange
+twitter: 'byteexchange'
 social:
-- https://facebook.com/ByteExchangeOfficial
+- 'https://facebook.com/ByteExchangeOfficial'
 redirect_from: 
-developerName: Bytedex Teknoloji A.ş.
+developerName: 'Bytedex Teknoloji A.ş.'
 features: 
 
 ---

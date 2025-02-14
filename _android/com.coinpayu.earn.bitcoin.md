@@ -3,33 +3,32 @@ wsId:
 title: 'Coinpayu: Earn Rewards'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 500000
-appId: com.coinpayu.earn.bitcoin
+appId: 'com.coinpayu.earn.bitcoin'
 appCountry: 
-released: 2021-07-06
+released: '2021-07-06'
 updated: 2025-01-22
-version: 2.0.3
+version: '2.0.3'
 stars: 3.4
 ratings: 
 reviews: 181
-size: 
-website: https://www.coinpayu.com
+website: 'https://www.coinpayu.com'
 repository: 
 issue: 
-icon: com.coinpayu.earn.bitcoin.jpg
+icon: 'com.coinpayu.earn.bitcoin.jpg'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-10-09
+date: '2023-10-09'
 signer: 
 reviewArchive: 
-twitter: CoinPayU
+twitter: 'CoinPayU'
 social:
-- https://www.facebook.com/coinpayu
+- 'https://www.facebook.com/coinpayu'
 redirect_from: 
-developerName: Coinpayu
+developerName: 'Coinpayu'
 features: 
 
 ---

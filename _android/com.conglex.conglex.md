@@ -1,35 +1,34 @@
 ---
-wsId: conglex
-title: Conglex
+wsId: 'conglex'
+title: 'Conglex'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.conglex.conglex
+appId: 'com.conglex.conglex'
 appCountry: 
-released: 2022-05-12
+released: '2022-05-12'
 updated: 2023-03-16
-version: 1.4.0
+version: '1.4.0'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: http://conglex.com
+website: 'http://conglex.com'
 repository: 
 issue: 
-icon: com.conglex.conglex.png
+icon: 'com.conglex.conglex.png'
 bugbounty: 
-meta: stale
-verdict: custodial
+meta: 'stale'
+verdict: 'custodial'
 appHashes: 
-date: 2024-03-12
+date: '2024-03-12'
 signer: 
 reviewArchive: 
-twitter: conglexglobal
+twitter: 'conglexglobal'
 social:
-- https://www.linkedin.com/company/conglex-nigeria/
+- 'https://www.linkedin.com/company/conglex-nigeria/'
 redirect_from: 
-developerName: Conglex Developers
+developerName: 'Conglex Developers'
 features: 
 
 ---

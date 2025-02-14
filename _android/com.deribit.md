@@ -1,38 +1,37 @@
 ---
-wsId: deribitOptions
+wsId: 'deribitOptions'
 title: 'Deribit: BTC Options & Futures'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.deribit
+appId: 'com.deribit'
 appCountry: 
-released: 2018-01-10
+released: '2018-01-10'
 updated: 2025-01-31
-version: 3.13.0
+version: '3.13.0'
 stars: 4.1
 ratings: 
 reviews: 5
-size: 
-website: https://www.deribit.com
+website: 'https://www.deribit.com'
 repository: 
 issue: 
-icon: com.deribit.png
+icon: 'com.deribit.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-03-31
+date: '2023-03-31'
 signer: 
 reviewArchive: 
-twitter: deribitexchange
+twitter: 'deribitexchange'
 social:
-- https://www.linkedin.com/company/deribit/
-- https://www.reddit.com/r/DeribitExchange/
-- https://t.me/deribit
-- https://www.youtube.com/channel/UCbHKjlFogkOD0lUVeb5CsGA
+- 'https://www.linkedin.com/company/deribit/'
+- 'https://www.reddit.com/r/DeribitExchange/'
+- 'https://t.me/deribit'
+- 'https://www.youtube.com/channel/UCbHKjlFogkOD0lUVeb5CsGA'
 redirect_from: 
-developerName: Deribit
+developerName: 'Deribit'
 features: 
 
 ---

@@ -7,9 +7,9 @@ authors:
 appId: com.sincere.swallet
 appCountry: ua
 idd: '1594397830'
-released: 2022-04-06
-updated: 2024-06-24
-version: 2.8.0
+released: '2022-04-06'
+updated: '2024-06-24'
+version: '2.8.0'
 stars: 4.6
 reviews: 178
 size: '52275200'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2024-06-29
+date: '2024-06-29'
 signer: 
 reviewArchive: 
 twitter: SWallet_ai

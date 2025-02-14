@@ -1,36 +1,35 @@
 ---
-wsId: BitcoinIRA
+wsId: 'BitcoinIRA'
 title: 'Bitcoin IRA: Crypto Retirement'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.bitcoinira
-appCountry: us
-released: 2021-06-15
+appId: 'com.bitcoinira'
+appCountry: 'us'
+released: '2021-06-15'
 updated: 2025-02-07
-version: 1.5.71
+version: '1.5.71'
 stars: 4.3
 ratings: 508
-reviews: 524
-size: 
-website: https://bitcoinira.com/
+reviews: 525
+website: 'https://bitcoinira.com/'
 repository: 
 issue: 
-icon: com.bitcoinira.png
+icon: 'com.bitcoinira.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-10-18
+date: '2021-10-18'
 signer: 
 reviewArchive: 
-twitter: bitcoin_ira
+twitter: 'bitcoin_ira'
 social:
-- https://www.linkedin.com/company/bitcoinira
-- https://www.facebook.com/BitcoinIRA
+- 'https://www.linkedin.com/company/bitcoinira'
+- 'https://www.facebook.com/BitcoinIRA'
 redirect_from: 
-developerName: Bitcoin IRA
+developerName: 'Bitcoin IRA'
 features: 
 
 ---

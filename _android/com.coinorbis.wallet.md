@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Coinorbis Wallet - Multi Cryptocurrency Wallet
+title: 'Coinorbis Wallet - Multi Cryptocurrency Wallet'
 altTitle: 
 authors: 
 users: 500
-appId: com.coinorbis.wallet
+appId: 'com.coinorbis.wallet'
 appCountry: 
-released: 2018-11-27
-updated: 2019-01-25
-version: 1.2.1
+released: '2018-11-27'
+updated: '2019-01-25'
+version: '1.2.1'
 stars: 4.5
 ratings: 8
 reviews: 3
-size: 9.0M
+size: '9.0M'
 website: 
 repository: 
 issue: 
-icon: com.coinorbis.wallet.png
+icon: 'com.coinorbis.wallet.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-12-22
+date: '2021-12-22'
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,37 +1,37 @@
 ---
-wsId: niceX
-title: NiceX
+wsId: 'niceX'
+title: 'NiceX'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.metallum.nicex
+appId: 'com.metallum.nicex'
 appCountry: 
 released: 
-updated: 2024-08-27
-version: 2.3.5
+updated: '2024-08-27'
+version: '2.3.5'
 stars: 4.6
 ratings: 
 reviews: 
 size: 
-website: http://www.nicex.com
+website: 'http://www.nicex.com'
 repository: 
 issue: 
-icon: com.metallum.nicex.png
+icon: 'com.metallum.nicex.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-11-07
+date: '2024-11-07'
 signer: 
 reviewArchive: 
-twitter: NiceXExchange
+twitter: 'NiceXExchange'
 social:
-- https://www.facebook.com/NiceXExchange
-- https://www.youtube.com/c/NiceHash_Official
-- https://discord.com/invite/nicehash
+- 'https://www.facebook.com/NiceXExchange'
+- 'https://www.youtube.com/c/NiceHash_Official'
+- 'https://discord.com/invite/nicehash'
 redirect_from: 
-developerName: H-BIT d.o.o.
+developerName: 'H-BIT d.o.o.'
 features: 
 
 ---

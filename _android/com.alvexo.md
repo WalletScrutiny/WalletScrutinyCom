@@ -1,35 +1,34 @@
 ---
-wsId: alvexo
-title: Alvexo Online Trading Platform
+wsId: 'alvexo'
+title: 'Alvexo Online Trading Platform'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.alvexo
-appCountry: gb
-released: 2018-07-13
+appId: 'com.alvexo'
+appCountry: 'gb'
+released: '2018-07-13'
 updated: 2023-11-07
-version: 3.0.188
+version: '3.0.188'
 stars: 4.1
 ratings: 826
 reviews: 21
-size: 
-website: https://www.alvexo.com
+website: 'https://www.alvexo.com'
 repository: 
 issue: 
-icon: com.alvexo.png
+icon: 'com.alvexo.png'
 bugbounty: 
-meta: stale
-verdict: nosendreceive
+meta: 'stale'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2024-11-04
+date: '2024-11-04'
 signer: 
 reviewArchive: 
-twitter: Alvexo_Trade
+twitter: 'Alvexo_Trade'
 social:
-- https://www.linkedin.com/company/alvexo
+- 'https://www.linkedin.com/company/alvexo'
 redirect_from: 
-developerName: Alvexo
+developerName: 'Alvexo'
 features: 
 
 ---

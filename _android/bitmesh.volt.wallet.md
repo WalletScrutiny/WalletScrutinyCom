@@ -1,34 +1,34 @@
 ---
-wsId: VoltWallet
+wsId: 'VoltWallet'
 title: 'Volt: Bitcoin & DeFi Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: bitmesh.volt.wallet
-appCountry: us
-released: 2020-05-15
-updated: 2022-10-21
-version: 2.4.0
+appId: 'bitmesh.volt.wallet'
+appCountry: 'us'
+released: '2020-05-15'
+updated: '2022-10-21'
+version: '2.4.0'
 stars: 4.4
 ratings: 161
 reviews: 30
 size: 
-website: http://www.volt.id
+website: 'http://www.volt.id'
 repository: 
 issue: 
-icon: bitmesh.volt.wallet.png
+icon: 'bitmesh.volt.wallet.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-06-21
+date: '2023-06-21'
 signer: 
 reviewArchive: 
-twitter: Voltfinance
+twitter: 'Voltfinance'
 social: 
 redirect_from: 
-developerName: Volt Wallet
+developerName: 'Volt Wallet'
 features: 
 
 ---

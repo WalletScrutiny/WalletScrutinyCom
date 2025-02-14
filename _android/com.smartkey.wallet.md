@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Smart Key
+title: 'Smart Key'
 altTitle: 
 authors: 
 users: 500
-appId: com.smartkey.wallet
+appId: 'com.smartkey.wallet'
 appCountry: 
-released: 2021-12-09
-updated: 2021-12-12
-version: 0.21.0
+released: '2021-12-09'
+updated: '2021-12-12'
+version: '0.21.0'
 stars: 
 ratings: 
 reviews: 
@@ -16,18 +16,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.smartkey.wallet.png
+icon: 'com.smartkey.wallet.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-02-05
+date: '2024-02-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Febitak
+developerName: 'Febitak'
 features: 
 
 ---

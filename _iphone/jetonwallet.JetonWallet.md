@@ -7,9 +7,9 @@ authors:
 appId: jetonwallet.JetonWallet
 appCountry: us
 idd: 1190240579
-released: 2017-01-04
-updated: 2024-04-22
-version: 3.9.2
+released: '2017-01-04'
+updated: '2024-04-22'
+version: '3.9.2'
 stars: 3.5
 reviews: 44
 size: '118770688'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-02-13
+date: '2025-02-13'
 signer: 
 reviewArchive: 
 twitter: jetonwallet

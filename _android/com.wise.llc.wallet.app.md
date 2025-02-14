@@ -1,34 +1,34 @@
 ---
-wsId: WiseWinWallet
-title: Win Wallet
+wsId: 'WiseWinWallet'
+title: 'Win Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.wise.llc.wallet.app
-appCountry: fi
-released: 2020-09-03
-updated: 2021-07-02
-version: 2.6.4
+appId: 'com.wise.llc.wallet.app'
+appCountry: 'fi'
+released: '2020-09-03'
+updated: '2021-07-02'
+version: '2.6.4'
 stars: 4.3
 ratings: 43
 reviews: 28
 size: 
-website: https://wise.win
+website: 'https://wise.win'
 repository: 
 issue: 
-icon: com.wise.llc.wallet.app.png
+icon: 'com.wise.llc.wallet.app.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: wise.win
+developerName: 'wise.win'
 features: 
 
 ---

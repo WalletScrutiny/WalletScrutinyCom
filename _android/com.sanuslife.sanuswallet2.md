@@ -1,38 +1,37 @@
 ---
 wsId: 
-title: SANUSWALLET 2.0
+title: 'SANUSWALLET 2.0'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.sanuslife.sanuswallet2
+appId: 'com.sanuslife.sanuswallet2'
 appCountry: 
-released: 2020-09-04
+released: '2020-09-04'
 updated: 2023-11-07
-version: 2.1.17
+version: '2.1.17'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: http://www.sanuslife.com
+website: 'http://www.sanuslife.com'
 repository: 
 issue: 
-icon: com.sanuslife.sanuswallet2.png
+icon: 'com.sanuslife.sanuswallet2.png'
 bugbounty: 
-meta: stale
-verdict: nosource
+meta: 'stale'
+verdict: 'nosource'
 appHashes: 
-date: 2024-11-04
+date: '2024-11-04'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://www.youtube.com/@SANUSLIFE
-- https://www.facebook.com/SANUSLIFE.AG
-- https://www.instagram.com/sanuslife_
-- https://www.linkedin.com/company/sanuslife/
+- 'https://www.youtube.com/@SANUSLIFE'
+- 'https://www.facebook.com/SANUSLIFE.AG'
+- 'https://www.instagram.com/sanuslife_'
+- 'https://www.linkedin.com/company/sanuslife/'
 redirect_from: 
-developerName: SANUSLIFE INTERNATIONAL
+developerName: 'SANUSLIFE INTERNATIONAL'
 features: 
 
 ---

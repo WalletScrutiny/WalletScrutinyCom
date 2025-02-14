@@ -3,37 +3,37 @@ wsId:
 title: 'OpenEx : Buy Btc & Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.aex.exchanges
+appId: 'com.aex.exchanges'
 appCountry: 
-released: 2023-02-24
-updated: 2023-08-18
-version: 1.1.5
+released: '2023-02-24'
+updated: '2023-08-18'
+version: '1.1.5'
 stars: 3.4
 ratings: 
 reviews: 3
 size: 
-website: https://www.openex.xyz
+website: 'https://www.openex.xyz'
 repository: 
 issue: 
-icon: com.aex.exchanges.png
+icon: 'com.aex.exchanges.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-07-22
+date: '2024-07-22'
 signer: 
 reviewArchive: 
-twitter: openex_hq
+twitter: 'openex_hq'
 social:
-- http://discord.gg/openex
-- https://t.me/OpenExGroup_EN
-- https://www.youtube.com/@OpenEx_EN
-- https://medium.com/@OpenEx_HQ
-- https://www.linkedin.com/company/openex-hq
+- 'http://discord.gg/openex'
+- 'https://t.me/OpenExGroup_EN'
+- 'https://www.youtube.com/@OpenEx_EN'
+- 'https://medium.com/@OpenEx_HQ'
+- 'https://www.linkedin.com/company/openex-hq'
 redirect_from: 
-developerName: OPENEX TECHNOLOGY PTE.LTD.
+developerName: 'OPENEX TECHNOLOGY PTE.LTD.'
 features: 
 
 ---

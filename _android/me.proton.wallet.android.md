@@ -1,39 +1,38 @@
 ---
 wsId: 
-title: Proton Wallet - Secure BTC
+title: 'Proton Wallet - Secure BTC'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: me.proton.wallet.android
+appId: 'me.proton.wallet.android'
 appCountry: 
-released: 2025-02-04
-updated: 2025-02-04
-version: 1.0.6
+released: '2025-02-04'
+updated: 2025-02-12
+version: '1.0.6'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://proton.me
-repository: https://github.com/ProtonWallet/flutter-app
-issue: https://github.com/ProtonWallet/flutter-app/issues/4
-icon: me.proton.wallet.android.png
+website: 'https://proton.me'
+repository: 'https://github.com/ProtonWallet/flutter-app'
+issue: 'https://github.com/ProtonWallet/flutter-app/issues/4'
+icon: 'me.proton.wallet.android.png'
 bugbounty: 
-meta: ok
-verdict: ftbfs
+meta: 'ok'
+verdict: 'ftbfs'
 appHashes: []
-date: 2024-08-12
+date: '2024-08-12'
 signer: 
 reviewArchive: 
-twitter: ProtonPrivacy
+twitter: 'ProtonPrivacy'
 social:
-- https://www.reddit.com/r/ProtonMail
-- https://www.instagram.com/protonprivacy
-- https://www.facebook.com/Proton
-- https://www.linkedin.com/company/protonprivacy
-- https://mastodon.social/@protonprivacy
+- 'https://www.reddit.com/r/ProtonMail'
+- 'https://www.instagram.com/protonprivacy'
+- 'https://www.facebook.com/Proton'
+- 'https://www.linkedin.com/company/protonprivacy'
+- 'https://mastodon.social/@protonprivacy'
 redirect_from: 
-developerName: Proton AG
+developerName: 'Proton AG'
 features: 
 
 ---

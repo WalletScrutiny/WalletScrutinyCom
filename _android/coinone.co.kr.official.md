@@ -1,35 +1,34 @@
 ---
-wsId: coinOneKr
-title: 코인원 - Coinone
+wsId: 'coinOneKr'
+title: '코인원 - Coinone'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000000
-appId: coinone.co.kr.official
+appId: 'coinone.co.kr.official'
 appCountry: 
-released: 2018-01-28
+released: '2018-01-28'
 updated: 2025-02-11
-version: 5.1.2
+version: '5.1.2'
 stars: 3.2
 ratings: 9232
 reviews: 15
-size: 
-website: https://coinone.co.kr
+website: 'https://coinone.co.kr'
 repository: 
 issue: 
-icon: coinone.co.kr.official.png
+icon: 'coinone.co.kr.official.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-08-21
+date: '2021-08-21'
 signer: 
 reviewArchive: 
-twitter: CoinoneOfficial
+twitter: 'CoinoneOfficial'
 social:
-- https://www.facebook.com/coinone
+- 'https://www.facebook.com/coinone'
 redirect_from: 
-developerName: Coinone
+developerName: 'Coinone'
 features: 
 
 ---

@@ -1,34 +1,32 @@
 ---
-wsId: cryptex24
-title: Cryptex24
+wsId: 'cryptex24'
+title: 'Cryptex24'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.cryptex24
+appId: 'com.cryptex24'
 appCountry: 
-released: 
 updated: 2023-01-05
-version: 2.16.0
+version: '2.16.0'
 stars: 3.3
 ratings: 
 reviews: 
-size: 
-website: https://www.cryptex24.io
+website: 'https://www.cryptex24.io'
 repository: 
 issue: 
-icon: com.cryptex24.png
+icon: 'com.cryptex24.png'
 bugbounty: 
-meta: obsolete
-verdict: custodial
+meta: 'obsolete'
+verdict: 'custodial'
 appHashes: 
-date: 2024-12-27
+date: '2024-12-27'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: C24 WORLD  LTD
+developerName: 'C24 WORLD  LTD'
 features: 
 
 ---

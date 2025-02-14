@@ -1,37 +1,37 @@
 ---
 wsId: 
-title: ABStocks
+title: 'ABStocks'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.abstocks
+appId: 'com.abstocks'
 appCountry: 
-released: 2021-08-30
-updated: 2022-02-07
-version: 1.6.106
+released: '2021-08-30'
+updated: '2022-02-07'
+version: '1.6.106'
 stars: 3.9
 ratings: 
 reviews: 
 size: 
-website: https://abstocks.com
+website: 'https://abstocks.com'
 repository: 
 issue: 
-icon: com.abstocks.png
+icon: 'com.abstocks.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/ABStocksTR
-- https://www.youtube.com/channel/UC3cfWOAJWygI7MKKTqhfDIQ
-- https://www.linkedin.com/company/abcexchange/
+- 'https://www.facebook.com/ABStocksTR'
+- 'https://www.youtube.com/channel/UC3cfWOAJWygI7MKKTqhfDIQ'
+- 'https://www.linkedin.com/company/abcexchange/'
 redirect_from: 
-developerName: ABStocks.com
+developerName: 'ABStocks.com'
 features: 
 
 ---

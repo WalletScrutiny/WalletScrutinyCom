@@ -1,15 +1,15 @@
 ---
 wsId: 
-title: Bitcoin Wallet - Crypto Wallet
+title: 'Bitcoin Wallet - Crypto Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: io.cryptosigma.finance
+appId: 'io.cryptosigma.finance'
 appCountry: 
-released: 2021-07-26
-updated: 2022-06-30
-version: 1.0.5
+released: '2021-07-26'
+updated: '2022-06-30'
+version: '1.0.5'
 stars: 
 ratings: 
 reviews: 
@@ -17,18 +17,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: io.cryptosigma.finance.png
+icon: 'io.cryptosigma.finance.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2024-02-05
+date: '2024-02-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: MeeMob
+developerName: 'MeeMob'
 features: 
 
 ---

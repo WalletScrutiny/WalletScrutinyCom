@@ -3,35 +3,35 @@ wsId:
 title: 'DeviantX Wallet : Bitcoin Ethe'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.cryptowallet.deviantx
+appId: 'com.cryptowallet.deviantx'
 appCountry: 
-released: 2018-11-12
-updated: 2019-08-01
+released: '2018-11-12'
+updated: '2019-08-01'
 version: '2.6'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://deviantcoin.io
+website: 'https://deviantcoin.io'
 repository: 
 issue: 
-icon: com.cryptowallet.deviantx.jpg
+icon: 'com.cryptowallet.deviantx.jpg'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
-twitter: DeviantCoin
+twitter: 'DeviantCoin'
 social:
-- https://www.facebook.com/DeviantCoin
-- https://www.reddit.com/r/DeviantCoin
-- https://t.me/DeviantDEV
+- 'https://www.facebook.com/DeviantCoin'
+- 'https://www.reddit.com/r/DeviantCoin'
+- 'https://t.me/DeviantDEV'
 redirect_from: 
-developerName: Deviant Coin
+developerName: 'Deviant Coin'
 features: 
 
 ---

@@ -1,38 +1,37 @@
 ---
-wsId: tabtrader
-title: TabTrader Buy & Trade Bitcoin
+wsId: 'tabtrader'
+title: 'TabTrader Buy & Trade Bitcoin'
 altTitle: 
 authors:
-- leo
-- kiwilamb
-- danny
+- 'leo'
+- 'kiwilamb'
+- 'danny'
 users: 1000000
-appId: com.tabtrader.android
+appId: 'com.tabtrader.android'
 appCountry: 
-released: 2014-08-14
+released: '2014-08-14'
 updated: 2024-11-27
-version: 7.3.0
+version: '7.3.0'
 stars: 4
 ratings: 57218
 reviews: 1157
-size: 
-website: http://www.tab-trader.com
+website: 'http://www.tab-trader.com'
 repository: 
 issue: 
-icon: com.tabtrader.android.png
+icon: 'com.tabtrader.android.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2021-08-10
+date: '2021-08-10'
 signer: 
 reviewArchive: 
-twitter: tabtraderpro
+twitter: 'tabtraderpro'
 social:
-- https://www.linkedin.com/company/tabtrader
-- https://www.facebook.com/tabtrader
+- 'https://www.linkedin.com/company/tabtrader'
+- 'https://www.facebook.com/tabtrader'
 redirect_from: 
-developerName: Tabtrader BV
+developerName: 'Tabtrader BV'
 features: 
 
 ---

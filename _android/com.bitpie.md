@@ -1,41 +1,40 @@
 ---
-wsId: bitpie
-title: Bitpie Wallet
+wsId: 'bitpie'
+title: 'Bitpie Wallet'
 altTitle: 
 authors:
-- leo
-- danny
+- 'leo'
+- 'danny'
 users: 100000
-appId: com.bitpie
+appId: 'com.bitpie'
 appCountry: 
-released: 2016-10-23
+released: '2016-10-23'
 updated: 2025-02-10
-version: 5.0.185.g
+version: '5.0.185.g'
 stars: 3.9
 ratings: 847
 reviews: 126
-size: 
-website: http://bitpie.com
+website: 'http://bitpie.com'
 repository: 
 issue: 
-icon: com.bitpie.png
+icon: 'com.bitpie.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-17
+date: '2024-07-17'
 signer: 
 reviewArchive: 
-twitter: BitpieWallet
+twitter: 'BitpieWallet'
 social:
-- https://www.facebook.com/BitpieOfficial
-- https://www.reddit.com/r/BitpieWallet
+- 'https://www.facebook.com/BitpieOfficial'
+- 'https://www.reddit.com/r/BitpieWallet'
 redirect_from:
-- /com.bitpie/
-- /posts/com.bitpie/
-developerName: getcai
+- '/com.bitpie/'
+- '/posts/com.bitpie/'
+developerName: 'getcai'
 features:
-- ln
+- 'ln'
 
 ---
 

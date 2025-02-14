@@ -1,36 +1,35 @@
 ---
-wsId: CoinJar
+wsId: 'CoinJar'
 title: 'CoinJar: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.coinjar.riemann
-appCountry: au
-released: 2019-11-21
-updated: 2025-02-04
-version: 3.12.0
+appId: 'com.coinjar.riemann'
+appCountry: 'au'
+released: '2019-11-21'
+updated: 2025-02-13
+version: '3.12.0'
 stars: 4.6
 ratings: 1248
 reviews: 1078
-size: 
-website: https://www.coinjar.com
+website: 'https://www.coinjar.com'
 repository: 
 issue: 
-icon: com.coinjar.riemann.png
+icon: 'com.coinjar.riemann.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-09-15
+date: '2021-09-15'
 signer: 
 reviewArchive: 
-twitter: getcoinjar
+twitter: 'getcoinjar'
 social:
-- https://www.linkedin.com/company/coinjar
-- https://www.facebook.com/CoinJar
+- 'https://www.linkedin.com/company/coinjar'
+- 'https://www.facebook.com/CoinJar'
 redirect_from: 
-developerName: CoinJar
+developerName: 'CoinJar'
 features: 
 
 ---

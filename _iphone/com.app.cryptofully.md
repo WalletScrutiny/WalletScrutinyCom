@@ -1,31 +1,31 @@
 ---
-wsId: cryptofully
-title: Cryptofully
+wsId: 'cryptofully'
+title: 'Cryptofully'
 altTitle: 
 authors:
-- kiwilamb
-- leo
-appId: com.app.cryptofully
+- 'kiwilamb'
+- 'leo'
+appId: 'com.app.cryptofully'
 appCountry: 
-idd: 1533929589
-released: 2020-11-15
-updated: 2021-09-15
-version: 1.3.2
+idd: '1533929589'
+released: '2020-11-15'
+updated: '2021-09-15'
+version: '1.3.2'
 stars: 4.6
 reviews: 53
-size: 50038784
-website: https://www.cryptofully.com
+size: '50038784'
+website: 'https://www.cryptofully.com'
 repository: 
 issue: 
-icon: com.app.cryptofully.jpg
+icon: 'com.app.cryptofully.jpg'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2022-01-31
+date: '2022-01-31'
 signer: 
 reviewArchive: 
-twitter: cryptofully
+twitter: 'cryptofully'
 social: 
 features: 
 developerName: 

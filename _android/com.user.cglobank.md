@@ -1,28 +1,28 @@
 ---
 wsId: 
-title: Crypto Global Bank (CGB)
+title: 'Crypto Global Bank (CGB)'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.user.cglobank
+appId: 'com.user.cglobank'
 appCountry: 
-released: 2021-04-14
-updated: 2021-06-28
+released: '2021-04-14'
+updated: '2021-06-28'
 version: '16'
 stars: 4.3
 ratings: 26
 reviews: 15
-size: 3.8M
-website: https://cglobank.com/
+size: '3.8M'
+website: 'https://cglobank.com/'
 repository: 
 issue: 
-icon: com.user.cglobank.jpg
+icon: 'com.user.cglobank.jpg'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2021-11-22
+date: '2021-11-22'
 signer: 
 reviewArchive: 
 twitter: 

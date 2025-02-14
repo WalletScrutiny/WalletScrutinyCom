@@ -7,9 +7,9 @@ authors:
 appId: com.taotao-ex.TaotaoTrade
 appCountry: jp
 idd: '1461654946'
-released: 2019-06-02
-updated: 2025-01-22
-version: 3.25.2
+released: '2019-06-02'
+updated: '2025-01-22'
+version: '3.25.2'
 stars: 1.8
 reviews: 466
 size: '96398336'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2023-02-26
+date: '2023-02-26'
 signer: 
 reviewArchive: 
 twitter: sbivc_official

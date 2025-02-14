@@ -1,36 +1,36 @@
 ---
-wsId: wedgePayWithCrypto
+wsId: 'wedgePayWithCrypto'
 title: 'Wedge: Pay with Stock & Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.ahd985.wedge
+appId: 'com.ahd985.wedge'
 appCountry: 
-released: 2021-09-29
-updated: 2023-04-04
-version: 1.4.3
+released: '2021-09-29'
+updated: '2023-04-04'
+version: '1.4.3'
 stars: 4.3
 ratings: 
 reviews: 19
 size: 
-website: https://wedge.us
+website: 'https://wedge.us'
 repository: 
 issue: 
-icon: com.ahd985.wedge.png
+icon: 'com.ahd985.wedge.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-09-15
+date: '2023-09-15'
 signer: 
 reviewArchive: 
-twitter: wedgefinancial
+twitter: 'wedgefinancial'
 social:
-- https://www.linkedin.com/company/wedgefinancial
-- https://www.facebook.com/wedgefinancial
+- 'https://www.linkedin.com/company/wedgefinancial'
+- 'https://www.facebook.com/wedgefinancial'
 redirect_from: 
-developerName: Wedge Financial, Inc.
+developerName: 'Wedge Financial, Inc.'
 features: 
 
 ---

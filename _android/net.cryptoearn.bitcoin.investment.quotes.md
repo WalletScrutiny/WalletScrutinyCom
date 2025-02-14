@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Bitcoin Investment Quotes
+title: 'Bitcoin Investment Quotes'
 altTitle: 
 authors: 
 users: 10
-appId: net.cryptoearn.bitcoin.investment.quotes
+appId: 'net.cryptoearn.bitcoin.investment.quotes'
 appCountry: 
-released: 2021-06-29
-updated: 2021-06-29
+released: '2021-06-29'
+updated: '2021-06-29'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 2.2M
+size: '2.2M'
 website: 
 repository: 
 issue: 
-icon: net.cryptoearn.bitcoin.investment.quotes.png
+icon: 'net.cryptoearn.bitcoin.investment.quotes.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-10-01
+date: '2021-10-01'
 signer: 
 reviewArchive: 
 twitter: 

@@ -7,8 +7,8 @@ authors:
 appId: com.zipwallet.ios
 appCountry: us
 idd: 1463275408
-released: 2019-05-14
-updated: 2021-09-05
+released: '2019-05-14'
+updated: '2021-09-05'
 version: '69'
 stars: 1
 reviews: 1
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2021-10-06
+date: '2021-10-06'
 signer: 
 reviewArchive: 
 twitter: 

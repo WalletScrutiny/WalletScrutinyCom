@@ -4,8 +4,8 @@ appId: beginnersguide.usb
 authors:
 - danny
 icon: beginnersguide.usb.png
-date: 2023-12-15
-released: 2019-06-04
+date: '2023-12-15'
+released: '2019-06-04'
 weight: 11.3
 provider: BetterWorldATL
 shop: >-

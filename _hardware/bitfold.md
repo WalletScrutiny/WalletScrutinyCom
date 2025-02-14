@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: unreleased
 appHashes: 
-date: 2024-10-18
+date: '2024-10-18'
 signer: 
 reviewArchive: 
 twitter: Bitfold

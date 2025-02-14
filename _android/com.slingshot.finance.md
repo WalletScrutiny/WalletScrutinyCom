@@ -1,35 +1,34 @@
 ---
-wsId: slighshotDeFi
-title: Slingshot - Buy crypto & memes
+wsId: 'slighshotDeFi'
+title: 'Slingshot - Buy crypto & memes'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.slingshot.finance
-appCountry: us
-released: 2023-02-16
+appId: 'com.slingshot.finance'
+appCountry: 'us'
+released: '2023-02-16'
 updated: 2025-01-20
-version: 2.2.3
+version: '2.2.3'
 stars: 2.7
 ratings: 
 reviews: 5
-size: 
-website: https://slingshot.finance
+website: 'https://slingshot.finance'
 repository: 
 issue: 
-icon: com.slingshot.finance.png
+icon: 'com.slingshot.finance.png'
 bugbounty: 
-meta: ok
-verdict: nobtc
+meta: 'ok'
+verdict: 'nobtc'
 appHashes: 
-date: 2023-06-28
+date: '2023-06-28'
 signer: 
 reviewArchive: 
-twitter: SlingshotCrypto
+twitter: 'SlingshotCrypto'
 social:
-- https://discord.com/invite/H3UcvgtASR
+- 'https://discord.com/invite/H3UcvgtASR'
 redirect_from: 
-developerName: Slingshot Finance
+developerName: 'Slingshot Finance'
 features: 
 
 ---

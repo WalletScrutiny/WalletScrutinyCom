@@ -1,35 +1,34 @@
 ---
-wsId: BinanceTR
+wsId: 'BinanceTR'
 title: 'Binance TR: Bitcoin and Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000000
-appId: com.cloud.tr
-appCountry: tr
-released: 2021-07-16
+appId: 'com.cloud.tr'
+appCountry: 'tr'
+released: '2021-07-16'
 updated: 2025-01-24
-version: 2.13.0
+version: '2.13.0'
 stars: 4.8
 ratings: 42784
-reviews: 18259
-size: 
-website: https://www.trbinance.com/
+reviews: 18272
+website: 'https://www.trbinance.com/'
 repository: 
 issue: 
-icon: com.cloud.tr.png
+icon: 'com.cloud.tr.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-10-21
+date: '2021-10-21'
 signer: 
 reviewArchive: 
-twitter: BinanceTR
+twitter: 'BinanceTR'
 social:
-- https://www.facebook.com/TRBinanceTR
+- 'https://www.facebook.com/TRBinanceTR'
 redirect_from: 
-developerName: Binance TR
+developerName: 'Binance TR'
 features: 
 
 ---

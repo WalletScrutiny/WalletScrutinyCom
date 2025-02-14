@@ -3,9 +3,9 @@ title: ArcBTC M5StackSats Point of Sale Device
 appId: arcbtc.m5stacksats.pos
 authors:
 - danny
-released: 2019-07-28
+released: '2019-07-28'
 discontinued: 
-updated: 2021-03-14
+updated: '2021-03-14'
 version: 
 binaries: 
 dimensions:
@@ -26,7 +26,7 @@ bugbounty:
 meta: ok
 verdict: nowallet
 appHashes: 
-date: 2022-05-20
+date: '2022-05-20'
 signer: 
 reviewArchive: 
 twitter: 

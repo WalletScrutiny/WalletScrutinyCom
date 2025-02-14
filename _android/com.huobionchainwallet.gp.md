@@ -3,34 +3,34 @@ wsId:
 title: 'iToken: Secure Crypto Wallet'
 altTitle: 
 authors:
-- kiwilamb
-- danny
+- 'kiwilamb'
+- 'danny'
 users: 1000000
-appId: com.huobionchainwallet.gp
+appId: 'com.huobionchainwallet.gp'
 appCountry: 
-released: 2019-10-17
-updated: 2023-06-05
-version: 3.03.06.003
+released: '2019-10-17'
+updated: '2023-06-05'
+version: '3.03.06.003'
 stars: 4
 ratings: 33247
 reviews: 185
 size: 
-website: https://www.itoken.com/
+website: 'https://www.itoken.com/'
 repository: 
 issue: 
-icon: com.huobionchainwallet.gp.png
+icon: 'com.huobionchainwallet.gp.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2021-04-20
+date: '2021-04-20'
 signer: 
 reviewArchive: 
-twitter: HuobiWallet
+twitter: 'HuobiWallet'
 social:
-- https://www.facebook.com/HuobiWallet
+- 'https://www.facebook.com/HuobiWallet'
 redirect_from: 
-developerName: BlazekTech Internet Technology Service Limited
+developerName: 'BlazekTech Internet Technology Service Limited'
 features: 
 
 ---

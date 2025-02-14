@@ -1,34 +1,33 @@
 ---
-wsId: lilka
-title: Point of Sale LILKA
+wsId: 'lilka'
+title: 'Point of Sale LILKA'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.arrowsys.lilkademo
-appCountry: mn
-released: 2015-10-08
+appId: 'com.arrowsys.lilkademo'
+appCountry: 'mn'
+released: '2015-10-08'
 updated: 2022-01-15
-version: 3.1.4
+version: '3.1.4'
 stars: 4.4
 ratings: 217
 reviews: 51
-size: 
-website: http://www.arrowsys.cz
+website: 'http://www.arrowsys.cz'
 repository: 
 issue: 
-icon: com.arrowsys.lilkademo.png
+icon: 'com.arrowsys.lilkademo.png'
 bugbounty: 
-meta: obsolete
-verdict: nowallet
+meta: 'obsolete'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-01-16
+date: '2024-01-16'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: ArrowSys s.r.o.
+developerName: 'ArrowSys s.r.o.'
 features: 
 
 ---

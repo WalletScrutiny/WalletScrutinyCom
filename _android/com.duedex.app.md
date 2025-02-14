@@ -1,28 +1,28 @@
 ---
 wsId: 
-title: DueDEX
+title: 'DueDEX'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.duedex.app
+appId: 'com.duedex.app'
 appCountry: 
-released: 2020-05-13
-updated: 2021-05-17
-version: 1.2.18
+released: '2020-05-13'
+updated: '2021-05-17'
+version: '1.2.18'
 stars: 3.4
 ratings: 58
 reviews: 38
-size: 29M
-website: http://www.duedex.com/
+size: '29M'
+website: 'http://www.duedex.com/'
 repository: 
 issue: 
-icon: com.duedex.app.png
+icon: 'com.duedex.app.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2021-11-08
+date: '2021-11-08'
 signer: 
 reviewArchive: 
 twitter: 

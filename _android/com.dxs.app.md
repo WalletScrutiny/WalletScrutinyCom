@@ -3,32 +3,32 @@ wsId:
 title: 'DXS: Trade Stocks and Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.dxs.app
+appId: 'com.dxs.app'
 appCountry: 
-released: 2022-04-25
-updated: 2024-10-04
-version: 1.0.6
+released: '2022-04-25'
+updated: '2024-10-04'
+version: '1.0.6'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://dxs.app
+website: 'https://dxs.app'
 repository: 
 issue: 
-icon: com.dxs.app.png
+icon: 'com.dxs.app.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-11-12
+date: '2024-11-12'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: DXS Brokerage LLC
+developerName: 'DXS Brokerage LLC'
 features: 
 
 ---

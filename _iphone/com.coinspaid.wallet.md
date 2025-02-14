@@ -7,9 +7,9 @@ authors:
 appId: com.coinspaid.wallet
 appCountry: gb
 idd: '1506985729'
-released: 2021-12-28
-updated: 2023-06-06
-version: 0.9.6
+released: '2021-12-28'
+updated: '2023-06-06'
+version: '0.9.6'
 stars: 0
 reviews: 0
 size: '34590720'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-03-02
+date: '2024-03-02'
 signer: 
 reviewArchive: 
 twitter: coinspaid

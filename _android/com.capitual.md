@@ -1,38 +1,38 @@
 ---
-wsId: capitual
-title: Capitual - Multiple Currencies
+wsId: 'capitual'
+title: 'Capitual - Multiple Currencies'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.capitual
+appId: 'com.capitual'
 appCountry: 
-released: 2019-03-28
-updated: 2023-10-05
-version: 3.44.6
+released: '2019-03-28'
+updated: '2023-10-05'
+version: '3.44.6'
 stars: 3.5
 ratings: 
 reviews: 6
 size: 
-website: https://capitual.com
+website: 'https://capitual.com'
 repository: 
 issue: 
-icon: com.capitual.png
+icon: 'com.capitual.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2025-02-04
+date: '2025-02-04'
 signer: 
 reviewArchive: 
-twitter: capitual
+twitter: 'capitual'
 social:
-- https://www.instagram.com/capitual/
-- https://www.facebook.com/Capitual/
-- https://www.youtube.com/c/Capitual
-- https://www.linkedin.com/company/capitual/
+- 'https://www.instagram.com/capitual/'
+- 'https://www.facebook.com/Capitual/'
+- 'https://www.youtube.com/c/Capitual'
+- 'https://www.linkedin.com/company/capitual/'
 redirect_from: 
-developerName: Capitual
+developerName: 'Capitual'
 features: 
 
 ---

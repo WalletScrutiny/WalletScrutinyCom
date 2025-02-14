@@ -1,35 +1,35 @@
 ---
 wsId: 
-title: Panthira
+title: 'Panthira'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.cloud.panthira
+appId: 'com.cloud.panthira'
 appCountry: 
 released: 
-updated: 2022-12-21
-version: 1.1.0
+updated: '2022-12-21'
+version: '1.1.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://exchange.panthira.com/
+website: 'https://exchange.panthira.com/'
 repository: 
 issue: 
-icon: com.cloud.panthira.png
+icon: 'com.cloud.panthira.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-08-04
+date: '2023-08-04'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://t.me/panthira_official
+- 'https://t.me/panthira_official'
 redirect_from: 
-developerName: Panthira Exchange
+developerName: 'Panthira Exchange'
 features: 
 
 ---

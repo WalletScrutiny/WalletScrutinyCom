@@ -1,38 +1,37 @@
 ---
 wsId: 
-title: ILC / BTC Wallet
+title: 'ILC / BTC Wallet'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 10000
-appId: ilcbtc.wallet
+appId: 'ilcbtc.wallet'
 appCountry: 
-released: 2018-02-27
+released: '2018-02-27'
 updated: 2024-07-11
 version: '4.34'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://www.ilcoincrypto.com/
+website: 'https://www.ilcoincrypto.com/'
 repository: 
 issue: 
-icon: ilcbtc.wallet.png
+icon: 'ilcbtc.wallet.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-10-10
+date: '2023-10-10'
 signer: 
 reviewArchive: 
-twitter: ILC_B_Project
+twitter: 'ILC_B_Project'
 social:
-- https://www.facebook.com/ILCoinBlockchainProject
-- https://www.reddit.com/r/ILCoin
+- 'https://www.facebook.com/ILCoinBlockchainProject'
+- 'https://www.reddit.com/r/ILCoin'
 redirect_from:
-- /ilcbtc.wallet/
-- /posts/ilcbtc.wallet/
-developerName: ILCOIN Dev Team
+- '/ilcbtc.wallet/'
+- '/posts/ilcbtc.wallet/'
+developerName: 'ILCOIN Dev Team'
 features: 
 
 ---

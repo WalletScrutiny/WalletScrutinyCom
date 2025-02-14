@@ -1,37 +1,36 @@
 ---
-wsId: monabitWallet
-title: MonaBit Wallet
+wsId: 'monabitWallet'
+title: 'MonaBit Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: io.monabit.wallet
+appId: 'io.monabit.wallet'
 appCountry: 
-released: 2021-12-17
+released: '2021-12-17'
 updated: 2023-12-19
 version: '3.9'
 stars: 5
 ratings: 
 reviews: 1
-size: 
-website: https://monabit.io
+website: 'https://monabit.io'
 repository: 
 issue: 
-icon: io.monabit.wallet.png
+icon: 'io.monabit.wallet.png'
 bugbounty: 
-meta: stale
-verdict: nosource
+meta: 'stale'
+verdict: 'nosource'
 appHashes: 
-date: 2024-12-15
+date: '2024-12-15'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://www.instagram.com/monabit.io
-- https://www.facebook.com/monabitapp
-- https://www.youtube.com/channel/UC2oFxYscQFtbVp-nvczEddQ
+- 'https://www.instagram.com/monabit.io'
+- 'https://www.facebook.com/monabitapp'
+- 'https://www.youtube.com/channel/UC2oFxYscQFtbVp-nvczEddQ'
 redirect_from: 
-developerName: Monabit
+developerName: 'Monabit'
 features: 
 
 ---

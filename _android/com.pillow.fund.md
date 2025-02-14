@@ -1,35 +1,35 @@
 ---
-wsId: pillowFund
+wsId: 'pillowFund'
 title: 'Pillow: Save. Invest. Earn.'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.pillow.fund
+appId: 'com.pillow.fund'
 appCountry: 
-released: 2022-02-03
-updated: 2023-07-31
+released: '2022-02-03'
+updated: '2023-07-31'
 version: '4.0'
 stars: 4.3
 ratings: 
 reviews: 68
 size: 
-website: https://www.pillow.fund/
+website: 'https://www.pillow.fund/'
 repository: 
 issue: 
-icon: com.pillow.fund.png
+icon: 'com.pillow.fund.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-12-19
+date: '2023-12-19'
 signer: 
 reviewArchive: 
-twitter: PillowFund
+twitter: 'PillowFund'
 social:
-- https://www.linkedin.com/company/pillowfund
+- 'https://www.linkedin.com/company/pillowfund'
 redirect_from: 
-developerName: Pillow Fund
+developerName: 'Pillow Fund'
 features: 
 
 ---

@@ -1,35 +1,34 @@
 ---
-wsId: TradeStation
+wsId: 'TradeStation'
 title: 'TradeStation: Trade & Invest'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 500000
-appId: com.tradestation.MobileTrading
-appCountry: us
-released: 2013-09-09
+appId: 'com.tradestation.MobileTrading'
+appCountry: 'us'
+released: '2013-09-09'
 updated: 2025-02-11
-version: 8.1.1
+version: '8.1.1'
 stars: 4.6
 ratings: 4823
 reviews: 2028
-size: 
-website: http://tradestation.com/contact-us/
+website: 'http://tradestation.com/contact-us/'
 repository: 
 issue: 
-icon: com.tradestation.MobileTrading.png
+icon: 'com.tradestation.MobileTrading.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-10-10
+date: '2021-10-10'
 signer: 
 reviewArchive: 
-twitter: tradestation
+twitter: 'tradestation'
 social:
-- https://www.facebook.com/TradeStation
+- 'https://www.facebook.com/TradeStation'
 redirect_from: 
-developerName: TradeStation Technologies
+developerName: 'TradeStation Technologies'
 features: 
 
 ---

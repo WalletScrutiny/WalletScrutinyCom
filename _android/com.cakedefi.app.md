@@ -1,37 +1,36 @@
 ---
-wsId: CakeDeFi
-title: Bake
+wsId: 'CakeDeFi'
+title: 'Bake'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 500000
-appId: com.cakedefi.app
-appCountry: us
-released: 2021-06-16
+appId: 'com.cakedefi.app'
+appCountry: 'us'
+released: '2021-06-16'
 updated: 2025-01-03
-version: 7.2.0
+version: '7.2.0'
 stars: 2.8
 ratings: 1135
 reviews: 197
-size: 
-website: https://bake.io
+website: 'https://bake.io'
 repository: 
 issue: 
-icon: com.cakedefi.app.png
+icon: 'com.cakedefi.app.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-10-04
+date: '2021-10-04'
 signer: 
 reviewArchive: 
-twitter: cakedefi
+twitter: 'cakedefi'
 social:
-- https://www.linkedin.com/company/cakedefi
-- https://www.facebook.com/cakedefi
-- https://www.reddit.com/r/cakedefi
+- 'https://www.linkedin.com/company/cakedefi'
+- 'https://www.facebook.com/cakedefi'
+- 'https://www.reddit.com/r/cakedefi'
 redirect_from: 
-developerName: Cake Group
+developerName: 'Cake Group'
 features: 
 
 ---

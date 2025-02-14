@@ -1,34 +1,33 @@
 ---
-wsId: CoinCome
-title: COINCOME-Cryptowallet&Rebate
+wsId: 'CoinCome'
+title: 'COINCOME-Cryptowallet&Rebate'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: io.cimcome.app
-appCountry: bm
-released: 2020-12-09
+appId: 'io.cimcome.app'
+appCountry: 'bm'
+released: '2020-12-09'
 updated: 2024-12-10
-version: 2.2.16
+version: '2.2.16'
 stars: 4
 ratings: 10
 reviews: 72
-size: 
-website: https://cimcome.io/
+website: 'https://cimcome.io/'
 repository: 
 issue: 
-icon: io.cimcome.app.png
+icon: 'io.cimcome.app.png'
 bugbounty: 
-meta: ok
-verdict: nobtc
+meta: 'ok'
+verdict: 'nobtc'
 appHashes: 
-date: 2021-11-22
+date: '2021-11-22'
 signer: 
 reviewArchive: 
-twitter: cimcome
+twitter: 'cimcome'
 social: 
 redirect_from: 
-developerName: Makers Farm Pte. Ltd.
+developerName: 'Makers Farm Pte. Ltd.'
 features: 
 
 ---

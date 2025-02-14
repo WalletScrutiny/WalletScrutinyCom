@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Bitcoin invest
+title: 'Bitcoin invest'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: bitcoin.invest.crypto.app
+appId: 'bitcoin.invest.crypto.app'
 appCountry: 
-released: 2021-03-18
-updated: 2021-03-18
+released: '2021-03-18'
+updated: '2021-03-18'
 version: '1.0'
 stars: 
 ratings: 
@@ -17,12 +17,12 @@ size:
 website: 
 repository: 
 issue: 
-icon: bitcoin.invest.crypto.app.png
+icon: 'bitcoin.invest.crypto.app.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
 twitter: 

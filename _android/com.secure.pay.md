@@ -1,13 +1,13 @@
 ---
 wsId: 
-title: Secure Paymentz
+title: 'Secure Paymentz'
 altTitle: 
 authors: 
 users: 500
-appId: com.secure.pay
+appId: 'com.secure.pay'
 appCountry: 
-released: 2016-09-21
-updated: 2020-06-21
+released: '2016-09-21'
+updated: '2020-06-21'
 version: '2.6'
 stars: 4.2
 ratings: 
@@ -16,18 +16,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.secure.pay.png
+icon: 'com.secure.pay.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-05-07
+date: '2024-05-07'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Secure Paymentz
+developerName: 'Secure Paymentz'
 features: 
 
 ---

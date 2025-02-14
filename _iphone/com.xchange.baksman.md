@@ -7,9 +7,9 @@ authors:
 appId: com.xchange.baksman
 appCountry: in
 idd: 1436169013
-released: 2018-09-21
-updated: 2023-08-28
-version: 2.2.9
+released: '2018-09-21'
+updated: '2023-08-28'
+version: '2.2.9'
 stars: 0
 reviews: 0
 size: '14303232'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: nowallet
 appHashes: 
-date: 2025-01-15
+date: '2025-01-15'
 signer: 
 reviewArchive: 
 twitter: 

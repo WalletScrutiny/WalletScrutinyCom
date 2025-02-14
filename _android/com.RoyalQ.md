@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: Royal App - Auto Trading bot Q
+title: 'Royal App - Auto Trading bot Q'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.RoyalQ
+appId: 'com.RoyalQ'
 appCountry: 
-released: 2021-10-08
-updated: 2024-11-14
+released: '2021-10-08'
+updated: '2024-11-14'
 version: '5.1'
 stars: 4.7
 ratings: 
 reviews: 15
 size: 
-website: https://royalq.cloud
+website: 'https://royalq.cloud'
 repository: 
 issue: 
-icon: com.RoyalQ.png
+icon: 'com.RoyalQ.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-12-31
+date: '2024-12-31'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: DG App Solutions
+developerName: 'DG App Solutions'
 features: 
 
 ---

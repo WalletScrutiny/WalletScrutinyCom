@@ -1,38 +1,37 @@
 ---
-wsId: sonicWallet
-title: Sonic Wallet
+wsId: 'sonicWallet'
+title: 'Sonic Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.sonicwallet
+appId: 'com.sonicwallet'
 appCountry: 
-released: 2022-02-17
+released: '2022-02-17'
 updated: 2024-11-16
-version: 1.1.41
+version: '1.1.41'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://www.sonicwallet.com
+website: 'https://www.sonicwallet.com'
 repository: 
 issue: 
-icon: com.sonicwallet.png
+icon: 'com.sonicwallet.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-24
+date: '2024-07-24'
 signer: 
 reviewArchive: 
-twitter: SonicWalletHQ
+twitter: 'SonicWalletHQ'
 social:
-- https://www.facebook.com/sonicwallet
-- https://www.linkedin.com/company/sonicwallet
-- https://www.instagram.com/sonicwallet
-- https://www.youtube.com/channel/UCilya9JzFKcTxk1wOPIyH2A
+- 'https://www.facebook.com/sonicwallet'
+- 'https://www.linkedin.com/company/sonicwallet'
+- 'https://www.instagram.com/sonicwallet'
+- 'https://www.youtube.com/channel/UCilya9JzFKcTxk1wOPIyH2A'
 redirect_from: 
-developerName: Sonic Inc
+developerName: 'Sonic Inc'
 features: 
 
 ---

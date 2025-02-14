@@ -1,36 +1,36 @@
 ---
 wsId: 
-title: Altbase - Buy Crypto Altcoins
+title: 'Altbase - Buy Crypto Altcoins'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.altbase
+appId: 'com.altbase'
 appCountry: 
-released: 2022-01-06
-updated: 2022-06-15
-version: 1.1.3
+released: '2022-01-06'
+updated: '2022-06-15'
+version: '1.1.3'
 stars: 4.5
 ratings: 
 reviews: 26
 size: 
-website: https://altbase.com/
+website: 'https://altbase.com/'
 repository: 
 issue: 
-icon: com.altbase.png
+icon: 'com.altbase.png'
 bugbounty: 
-meta: defunct
-verdict: nobtc
+meta: 'defunct'
+verdict: 'nobtc'
 appHashes: 
-date: 2023-08-24
+date: '2023-08-24'
 signer: 
 reviewArchive: 
-twitter: AltbaseApp
+twitter: 'AltbaseApp'
 social:
-- https://www.youtube.com/channel/UCFHlUl2j_mSoFQATODb7MyQ
-- https://www.instagram.com/AltbaseApp/
+- 'https://www.youtube.com/channel/UCFHlUl2j_mSoFQATODb7MyQ'
+- 'https://www.instagram.com/AltbaseApp/'
 redirect_from: 
-developerName: Altbase
+developerName: 'Altbase'
 features: 
 
 ---

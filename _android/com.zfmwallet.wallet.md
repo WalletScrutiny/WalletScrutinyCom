@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: ZFM WALLET
+title: 'ZFM WALLET'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.zfmwallet.wallet
+appId: 'com.zfmwallet.wallet'
 appCountry: 
-released: 2022-10-24
-updated: 2022-10-25
+released: '2022-10-24'
+updated: '2022-10-25'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.zfmcoin.com/
+website: 'https://www.zfmcoin.com/'
 repository: 
 issue: 
-icon: com.zfmwallet.wallet.png
+icon: 'com.zfmwallet.wallet.png'
 bugbounty: 
-meta: removed
-verdict: nobtc
+meta: 'removed'
+verdict: 'nobtc'
 appHashes: 
-date: 2024-02-05
+date: '2024-02-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: YSN Private ltd
+developerName: 'YSN Private ltd'
 features: 
 
 ---

@@ -7,8 +7,8 @@ authors:
 appId: com.icrypex.mobile
 appCountry: us
 idd: '1571270449'
-released: 2021-07-07
-updated: 2024-09-25
+released: '2021-07-07'
+updated: '2024-09-25'
 version: '4.1'
 stars: 5
 reviews: 1
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-10-31
+date: '2024-10-31'
 signer: 
 reviewArchive: 
 twitter: icrypex

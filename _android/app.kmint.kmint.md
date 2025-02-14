@@ -1,36 +1,35 @@
 ---
 wsId: 
-title: KMINT:All-in-One Crypto Wallet
+title: 'KMINT:All-in-One Crypto Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: app.kmint.kmint
+appId: 'app.kmint.kmint'
 appCountry: 
-released: 2022-03-03
+released: '2022-03-03'
 updated: 2024-04-08
-version: 2.1.4
+version: '2.1.4'
 stars: 3.6
 ratings: 
 reviews: 5
-size: 
-website: https://www.kmintprotocol.io/
+website: 'https://www.kmintprotocol.io/'
 repository: 
 issue: 
-icon: app.kmint.kmint.png
+icon: 'app.kmint.kmint.png'
 bugbounty: 
-meta: ok
-verdict: nobtc
+meta: 'ok'
+verdict: 'nobtc'
 appHashes: 
-date: 2023-03-07
+date: '2023-03-07'
 signer: 
 reviewArchive: 
-twitter: KMINT_protocol
+twitter: 'KMINT_protocol'
 social:
-- https://t.me/KMINT_protocol
-- https://kmint-protocol.medium.com/
+- 'https://t.me/KMINT_protocol'
+- 'https://kmint-protocol.medium.com/'
 redirect_from: 
-developerName: BPMG Inc
+developerName: 'BPMG Inc'
 features: 
 
 ---

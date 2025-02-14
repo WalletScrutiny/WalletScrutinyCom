@@ -1,38 +1,37 @@
 ---
-wsId: Bitnob
-title: Bitnob
+wsId: 'Bitnob'
+title: 'Bitnob'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.app.bitnob
-appCountry: us
-released: 2020-05-25
+appId: 'com.app.bitnob'
+appCountry: 'us'
+released: '2020-05-25'
 updated: 2024-12-20
-version: 1.0.192
+version: '1.0.192'
 stars: 3.9
 ratings: 275
 reviews: 31
-size: 
-website: https://bitnob.com
+website: 'https://bitnob.com'
 repository: 
 issue: 
-icon: com.app.bitnob.png
+icon: 'com.app.bitnob.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-10-07
+date: '2021-10-07'
 signer: 
 reviewArchive: 
-twitter: Bitnob_official
+twitter: 'Bitnob_official'
 social:
-- https://www.linkedin.com/company/bitnob
-- https://www.facebook.com/bitnob
+- 'https://www.linkedin.com/company/bitnob'
+- 'https://www.facebook.com/bitnob'
 redirect_from: 
-developerName: Bitnob Technologies
+developerName: 'Bitnob Technologies'
 features:
-- ln
+- 'ln'
 
 ---
 

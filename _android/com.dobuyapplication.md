@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: dobuy
+title: 'dobuy'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.dobuyapplication
+appId: 'com.dobuyapplication'
 appCountry: 
-released: 2021-06-21
-updated: 2021-11-30
-version: 1.0.1
+released: '2021-06-21'
+updated: '2021-11-30'
+version: '1.0.1'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://dobuy.site/
+website: 'https://dobuy.site/'
 repository: 
 issue: 
-icon: com.dobuyapplication.png
+icon: 'com.dobuyapplication.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-05-07
+date: '2024-05-07'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Dobuy
+developerName: 'Dobuy'
 features: 
 
 ---

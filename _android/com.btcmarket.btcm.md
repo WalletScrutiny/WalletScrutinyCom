@@ -1,38 +1,37 @@
 ---
-wsId: btcmarkets
-title: BTC Markets
+wsId: 'btcmarkets'
+title: 'BTC Markets'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.btcmarket.btcm
+appId: 'com.btcmarket.btcm'
 appCountry: 
-released: 2022-03-17
+released: '2022-03-17'
 updated: 2025-02-12
-version: 1.9.4
+version: '1.9.4'
 stars: 4.3
 ratings: 
 reviews: 2
-size: 
-website: https://btcmarkets.net
+website: 'https://btcmarkets.net'
 repository: 
 issue: 
-icon: com.btcmarket.btcm.png
+icon: 'com.btcmarket.btcm.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-04-20
+date: '2023-04-20'
 signer: 
 reviewArchive: 
-twitter: BTCMarkets
+twitter: 'BTCMarkets'
 social:
-- https://www.facebook.com/btcmarkets
-- https://www.linkedin.com/company/btc-markets
-- https://t.me/BTCMkts
-- https://www.instagram.com/btcmarkets_
+- 'https://www.facebook.com/btcmarkets'
+- 'https://www.linkedin.com/company/btc-markets'
+- 'https://t.me/BTCMkts'
+- 'https://www.instagram.com/btcmarkets_'
 redirect_from: 
-developerName: BTC Markets Pty Ltd
+developerName: 'BTC Markets Pty Ltd'
 features: 
 
 ---

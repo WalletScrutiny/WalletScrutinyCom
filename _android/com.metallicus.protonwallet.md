@@ -1,37 +1,37 @@
 ---
-wsId: ProtonWallet
-title: Proton Wallet
+wsId: 'ProtonWallet'
+title: 'Proton Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.metallicus.protonwallet
-appCountry: us
-released: 2021-02-22
-updated: 2021-10-21
-version: 1.5.20
+appId: 'com.metallicus.protonwallet'
+appCountry: 'us'
+released: '2021-02-22'
+updated: '2021-10-21'
+version: '1.5.20'
 stars: 4.3
 ratings: 613
 reviews: 82
 size: 
-website: https://www.protonchain.com/
+website: 'https://www.protonchain.com/'
 repository: 
 issue: 
-icon: com.metallicus.protonwallet.png
+icon: 'com.metallicus.protonwallet.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2023-09-28
+date: '2023-09-28'
 signer: 
 reviewArchive: 
-twitter: protonxpr
+twitter: 'protonxpr'
 social:
-- https://www.facebook.com/protonxpr
-- https://www.reddit.com/r/ProtonChain
-- https://github.com/ProtonProtocol
+- 'https://www.facebook.com/protonxpr'
+- 'https://www.reddit.com/r/ProtonChain'
+- 'https://github.com/ProtonProtocol'
 redirect_from: 
-developerName: Metallicus Inc.
+developerName: 'Metallicus Inc.'
 features: 
 
 ---

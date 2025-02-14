@@ -1,35 +1,35 @@
 ---
-wsId: bitnovo
-title: Bitnovo - Crypto Wallet
+wsId: 'bitnovo'
+title: 'Bitnovo - Crypto Wallet'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 50000
-appId: com.bitnovo.app
+appId: 'com.bitnovo.app'
 appCountry: 
-released: 2017-05-18
-updated: 2021-10-29
-version: 2.8.7
+released: '2017-05-18'
+updated: '2021-10-29'
+version: '2.8.7'
 stars: 3.1
 ratings: 369
 reviews: 245
-size: 34M
-website: http://www.bitnovo.com
+size: '34M'
+website: 'http://www.bitnovo.com'
 repository: 
 issue: 
-icon: com.bitnovo.app.png
+icon: 'com.bitnovo.app.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2022-02-10
+date: '2022-02-10'
 signer: 
 reviewArchive: 
-twitter: bitnovo
+twitter: 'bitnovo'
 social:
-- https://www.facebook.com/BitcoinBitnovo
+- 'https://www.facebook.com/BitcoinBitnovo'
 redirect_from:
-- /com.bitnovo.app/
+- '/com.bitnovo.app/'
 developerName: 
 features: 
 

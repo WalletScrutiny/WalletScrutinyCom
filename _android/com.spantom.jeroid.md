@@ -1,34 +1,33 @@
 ---
-wsId: Jeroid
-title: Jeroid
+wsId: 'Jeroid'
+title: 'Jeroid'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.spantom.jeroid
-appCountry: us
-released: 2020-07-05
+appId: 'com.spantom.jeroid'
+appCountry: 'us'
+released: '2020-07-05'
 updated: 2025-02-11
-version: 2.2.3
+version: '2.2.3'
 stars: 2.9
 ratings: 248
 reviews: 39
-size: 
-website: https://www.jeroid.ng/
+website: 'https://www.jeroid.ng/'
 repository: 
 issue: 
-icon: com.spantom.jeroid.png
+icon: 'com.spantom.jeroid.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2025-02-13
+date: '2025-02-13'
 signer: 
 reviewArchive: 
-twitter: jeroidng
+twitter: 'jeroidng'
 social: 
 redirect_from: 
-developerName: JeroidNG LTD
+developerName: 'JeroidNG LTD'
 features: 
 
 ---

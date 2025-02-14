@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: Cryptotrile
+title: 'Cryptotrile'
 altTitle: 
 authors: 
 users: 50
-appId: com.cryptotrile.trader
+appId: 'com.cryptotrile.trader'
 appCountry: 
-released: 2022-08-09
-updated: 2023-09-02
-version: 1.0.2
+released: '2022-08-09'
+updated: '2023-09-02'
+version: '1.0.2'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://cryptotrile.com/
+website: 'https://cryptotrile.com/'
 repository: 
 issue: 
-icon: com.cryptotrile.trader.png
+icon: 'com.cryptotrile.trader.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Kryptsam
+developerName: 'Kryptsam'
 features: 
 
 ---

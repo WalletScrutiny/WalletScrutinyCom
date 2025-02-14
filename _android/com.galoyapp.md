@@ -1,41 +1,39 @@
 ---
-wsId: bitcoinbeach
-title: Blink (Bitcoin Wallet)
+wsId: 'bitcoinbeach'
+title: 'Blink (Bitcoin Wallet)'
 altTitle: 
 authors:
-- leo
-- danny
+- 'leo'
+- 'danny'
 users: 100000
-appId: com.galoyapp
+appId: 'com.galoyapp'
 appCountry: 
-released: 2020-11-24
+released: '2020-11-24'
 updated: 2024-10-31
-version: 2.2.286
+version: '2.2.286'
 stars: 4.5
 ratings: 
 reviews: 39
-size: 
-website: https://blink.sv/
-repository: https://github.com/GaloyMoney/galoy-mobile
+website: 'https://blink.sv/'
+repository: 'https://github.com/GaloyMoney/galoy-mobile'
 issue: 
-icon: com.galoyapp.png
+icon: 'com.galoyapp.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-10-20
+date: '2023-10-20'
 signer: 
 reviewArchive: 
-twitter: blinkbtc
+twitter: 'blinkbtc'
 social:
-- >-
-  https://api.whatsapp.com/send/?phone=50369835117&text&type=phone_number&app_absent=0
-- https://t.me/blinkbtc
-- https://snort.social/p/community@blink.sv
+- 'https://api.whatsapp.com/send/?phone=50369835117&text&type=phone_number&app_absent=0'
+- 'https://t.me/blinkbtc'
+- 'https://snort.social/p/community@blink.sv'
 redirect_from: 
-developerName: Galoy Inc
+developerName: 'Galoy Inc'
 features:
-- ln
+- 'ln'
 
 ---
 

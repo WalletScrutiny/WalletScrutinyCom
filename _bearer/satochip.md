@@ -26,7 +26,7 @@ icon: satochip.png
 bugbounty: 
 meta: ok
 verdict: sealed-noita
-date: 2022-11-03
+date: '2022-11-03'
 signer: 
 reviewArchive: 
 twitter: satochipwallet

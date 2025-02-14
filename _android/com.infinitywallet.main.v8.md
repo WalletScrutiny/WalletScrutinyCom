@@ -1,28 +1,28 @@
 ---
 wsId: 
-title: Infinity Wallet - Mobile
-altTitle: (Fake) Infinity Wallet - Mobile
+title: 'Infinity Wallet - Mobile'
+altTitle: '(Fake) Infinity Wallet - Mobile'
 authors:
-- leo
+- 'leo'
 users: 100
-appId: com.infinitywallet.main.v8
+appId: 'com.infinitywallet.main.v8'
 appCountry: 
-released: 2021-10-16
-updated: 2021-10-17
+released: '2021-10-16'
+updated: '2021-10-17'
 version: '2.0'
 stars: 
 ratings: 
 reviews: 
-size: 20M
+size: '20M'
 website: 
 repository: 
 issue: 
-icon: com.infinitywallet.main.v8.png
+icon: 'com.infinitywallet.main.v8.png'
 bugbounty: 
-meta: removed
-verdict: fake
+meta: 'removed'
+verdict: 'fake'
 appHashes: 
-date: 2021-11-10
+date: '2021-11-10'
 signer: 
 reviewArchive: 
 twitter: 

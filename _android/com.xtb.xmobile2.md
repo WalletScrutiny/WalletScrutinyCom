@@ -1,36 +1,35 @@
 ---
 wsId: 
-title: XTB Online Investing
+title: 'XTB Online Investing'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000000
-appId: com.xtb.xmobile2
+appId: 'com.xtb.xmobile2'
 appCountry: 
-released: 2014-12-17
+released: '2014-12-17'
 updated: 2025-02-11
-version: 2.107.0
+version: '2.107.0'
 stars: 4.5
 ratings: 22753
 reviews: 160
-size: 
-website: http://www.xtb.com
+website: 'http://www.xtb.com'
 repository: 
 issue: 
-icon: com.xtb.xmobile2.png
+icon: 'com.xtb.xmobile2.png'
 bugbounty: 
-meta: ok
-verdict: nosendreceive
+meta: 'ok'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2021-08-21
+date: '2021-08-21'
 signer: 
 reviewArchive: 
-twitter: xtbuk
+twitter: 'xtbuk'
 social:
-- https://www.linkedin.com/company/xtb-international
-- https://www.facebook.com/xtb
+- 'https://www.linkedin.com/company/xtb-international'
+- 'https://www.facebook.com/xtb'
 redirect_from: 
-developerName: XTB S.A.
+developerName: 'XTB S.A.'
 features: 
 
 ---

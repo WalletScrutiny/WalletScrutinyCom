@@ -3,7 +3,7 @@ title: Arcbtc Baby Bowser
 appId: arcbtc.baby.bowser
 authors:
 - danny
-released: 2022-07-12
+released: '2022-07-12'
 discontinued: 
 updated: 
 version: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: diy
 appHashes: 
-date: 2023-02-14
+date: '2023-02-14'
 signer: 
 reviewArchive: 
 twitter: arcbtc

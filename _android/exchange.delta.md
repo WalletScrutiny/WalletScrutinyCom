@@ -1,36 +1,35 @@
 ---
-wsId: DeltaExchange
+wsId: 'DeltaExchange'
 title: 'Delta Exchange: Crypto Trading'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 500000
-appId: exchange.delta
-appCountry: nz
-released: 2021-05-07
+appId: 'exchange.delta'
+appCountry: 'nz'
+released: '2021-05-07'
 updated: 2024-11-13
-version: 1.12.2
+version: '1.12.2'
 stars: 4
 ratings: 
 reviews: 
-size: 
-website: https://delta.exchange
+website: 'https://delta.exchange'
 repository: 
 issue: 
-icon: exchange.delta.png
+icon: 'exchange.delta.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-10-08
+date: '2021-10-08'
 signer: 
 reviewArchive: 
-twitter: Delta_Exchange
+twitter: 'Delta_Exchange'
 social:
-- https://www.facebook.com/deltaexchg
-- https://www.reddit.com/r/Delta_Exchange
+- 'https://www.facebook.com/deltaexchg'
+- 'https://www.reddit.com/r/Delta_Exchange'
 redirect_from: 
-developerName: Delta Exchange
+developerName: 'Delta Exchange'
 features: 
 
 ---

@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: SubZero
+title: 'SubZero'
 altTitle: 
 authors: 
 users: 100
-appId: com.benco.subzero
+appId: 'com.benco.subzero'
 appCountry: 
-released: 2022-01-28
-updated: 2022-06-22
-version: 1.5.5
+released: '2022-01-28'
+updated: '2022-06-22'
+version: '1.5.5'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://subzeropay.com/
+website: 'https://subzeropay.com/'
 repository: 
 issue: 
-icon: com.benco.subzero.png
+icon: 'com.benco.subzero.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-04-19
+date: '2024-04-19'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: SubZero Pay
+developerName: 'SubZero Pay'
 features: 
 
 ---

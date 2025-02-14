@@ -1,36 +1,35 @@
 ---
-wsId: Bitmama
-title: Bitmama-Buy, Sell, Earn Crypto
+wsId: 'Bitmama'
+title: 'Bitmama-Buy, Sell, Earn Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.bitmama.bitmama
-appCountry: us
-released: 2020-07-11
+appId: 'com.bitmama.bitmama'
+appCountry: 'us'
+released: '2020-07-11'
 updated: 2025-02-03
-version: 1.1.115
+version: '1.1.115'
 stars: 3.9
 ratings: 65
 reviews: 12
-size: 
-website: https://www.bitmama.io
+website: 'https://www.bitmama.io'
 repository: 
 issue: 
-icon: com.bitmama.bitmama.png
+icon: 'com.bitmama.bitmama.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-11-10
+date: '2021-11-10'
 signer: 
 reviewArchive: 
-twitter: bitmama
+twitter: 'bitmama'
 social:
-- https://www.facebook.com/bitmama
-- https://www.instagram.com/bitmamaexchange/
+- 'https://www.facebook.com/bitmama'
+- 'https://www.instagram.com/bitmamaexchange/'
 redirect_from: 
-developerName: Bitmama Inc
+developerName: 'Bitmama Inc'
 features: 
 
 ---

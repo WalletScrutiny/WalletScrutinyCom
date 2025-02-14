@@ -1,15 +1,15 @@
 ---
-wsId: byteXTrade
-title: ByteX - Trade, Borrow & Earn
+wsId: 'byteXTrade'
+title: 'ByteX - Trade, Borrow & Earn'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.tusker.bytexio
+appId: 'com.tusker.bytexio'
 appCountry: 
-released: 2022-04-28
-updated: 2022-11-25
-version: 1.0.9
+released: '2022-04-28'
+updated: '2022-11-25'
+version: '1.0.9'
 stars: 
 ratings: 
 reviews: 
@@ -17,24 +17,24 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.tusker.bytexio.png
+icon: 'com.tusker.bytexio.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-03-02
+date: '2024-03-02'
 signer: 
 reviewArchive: 
-twitter: bytex_io
+twitter: 'bytex_io'
 social:
-- https://bytex.io
-- https://t.me/ByteX_Announcements
-- https://www.facebook.com/ByteX.official
-- https://www.youtube.com/channel/UCx4i62Sd6HNzEIqfZvRqVgg
-- https://www.instagram.com/bytex.io
-- https://www.linkedin.com/company/bytex-canada
+- 'https://bytex.io'
+- 'https://t.me/ByteX_Announcements'
+- 'https://www.facebook.com/ByteX.official'
+- 'https://www.youtube.com/channel/UCx4i62Sd6HNzEIqfZvRqVgg'
+- 'https://www.instagram.com/bytex.io'
+- 'https://www.linkedin.com/company/bytex-canada'
 redirect_from: 
-developerName: ByteX Financial LTD.
+developerName: 'ByteX Financial LTD.'
 features: 
 
 ---

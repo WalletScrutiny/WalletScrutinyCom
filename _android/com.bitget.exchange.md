@@ -1,36 +1,35 @@
 ---
-wsId: Bitget
-title: Bitget - Buy & Sell Crypto
+wsId: 'Bitget'
+title: 'Bitget - Buy & Sell Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000000
-appId: com.bitget.exchange
-appCountry: us
-released: 2020-04-03
+appId: 'com.bitget.exchange'
+appCountry: 'us'
+released: '2020-04-03'
 updated: 2025-02-07
-version: 2.50.6
+version: '2.50.8'
 stars: 3.7
 ratings: 5691
-reviews: 1264
-size: 
-website: https://www.bitget.com/
+reviews: 1265
+website: 'https://www.bitget.com/'
 repository: 
 issue: 
-icon: com.bitget.exchange.png
+icon: 'com.bitget.exchange.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-09-17
+date: '2021-09-17'
 signer: 
 reviewArchive: 
-twitter: bitgetglobal
+twitter: 'bitgetglobal'
 social:
-- https://www.linkedin.com/company/bitget
-- https://www.facebook.com/BitgetGlobal
+- 'https://www.linkedin.com/company/bitget'
+- 'https://www.facebook.com/BitgetGlobal'
 redirect_from: 
-developerName: BG LIMITED
+developerName: 'BG LIMITED'
 features: 
 
 ---

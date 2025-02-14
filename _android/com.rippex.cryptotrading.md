@@ -3,26 +3,26 @@ wsId:
 title: 'Bitcoin Trading: No Commissions'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.rippex.cryptotrading
+appId: 'com.rippex.cryptotrading'
 appCountry: 
-released: 2021-03-13
-updated: 2020-11-23
+released: '2021-03-13'
+updated: '2020-11-23'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
+size: 'Varies with device'
 website: 
 repository: 
 issue: 
-icon: com.rippex.cryptotrading.png
+icon: 'com.rippex.cryptotrading.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2022-02-25
+date: '2022-02-25'
 signer: 
 reviewArchive: 
 twitter: 

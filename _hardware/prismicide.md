@@ -3,7 +3,7 @@ title: Prismicide
 appId: prismicide
 authors:
 - danny
-released: 2014-03-24
+released: '2014-03-24'
 discontinued: 2015-11-01
 updated: 
 version: 
@@ -27,7 +27,7 @@ bugbounty:
 meta: defunct
 verdict: nosource
 appHashes: 
-date: 2022-04-04
+date: '2022-04-04'
 signer: 
 reviewArchive: 
 twitter: Prismicide

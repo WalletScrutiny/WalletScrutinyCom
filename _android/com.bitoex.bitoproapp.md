@@ -1,35 +1,35 @@
 ---
-wsId: bitopro
-title: BitoPro Crypto Exchange
+wsId: 'bitopro'
+title: 'BitoPro Crypto Exchange'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.bitoex.bitoproapp
-appCountry: us
-released: 2018-07-30
-updated: 2023-08-08
-version: 4.4.7
+appId: 'com.bitoex.bitoproapp'
+appCountry: 'us'
+released: '2018-07-30'
+updated: '2023-08-08'
+version: '4.4.7'
 stars: 3.4
 ratings: 
 reviews: 2
 size: 
-website: https://www.bitopro.com
+website: 'https://www.bitopro.com'
 repository: 
 issue: 
-icon: com.bitoex.bitoproapp.png
+icon: 'com.bitoex.bitoproapp.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-03-02
+date: '2024-03-02'
 signer: 
 reviewArchive: 
-twitter: BitoEX_Official
+twitter: 'BitoEX_Official'
 social:
-- https://www.facebook.com/bitopro.bito
+- 'https://www.facebook.com/bitopro.bito'
 redirect_from: 
-developerName: BITOEX TECHNOLOGY LIMITED TAIWAN BRANCH
+developerName: 'BITOEX TECHNOLOGY LIMITED TAIWAN BRANCH'
 features: 
 
 ---

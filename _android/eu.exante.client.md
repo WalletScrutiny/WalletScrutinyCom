@@ -1,36 +1,35 @@
 ---
-wsId: ExanteTrading
-title: EXANTE Trading
+wsId: 'ExanteTrading'
+title: 'EXANTE Trading'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: eu.exante.client
-appCountry: am
-released: 2014-04-25
+appId: 'eu.exante.client'
+appCountry: 'am'
+released: '2014-04-25'
 updated: 2025-01-21
-version: 4.80.6.0
+version: '4.80.6.0'
 stars: 2.4
 ratings: 218
 reviews: 182
-size: 
-website: http://exante.eu
+website: 'http://exante.eu'
 repository: 
 issue: 
-icon: eu.exante.client.png
+icon: 'eu.exante.client.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2021-10-16
+date: '2021-10-16'
 signer: 
 reviewArchive: 
-twitter: EXANTE_EU
+twitter: 'EXANTE_EU'
 social:
-- https://www.linkedin.com/company/exante-ltd
-- https://www.facebook.com/exante.global
+- 'https://www.linkedin.com/company/exante-ltd'
+- 'https://www.facebook.com/exante.global'
 redirect_from: 
-developerName: XNT Ltd
+developerName: 'XNT Ltd'
 features: 
 
 ---

@@ -1,28 +1,28 @@
 ---
 wsId: 
-title: Bitcoin Investment
+title: 'Bitcoin Investment'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: bitcoin.investmentlimited
+appId: 'bitcoin.investmentlimited'
 appCountry: 
-released: 2019-01-02
-updated: 2021-08-04
+released: '2019-01-02'
+updated: '2021-08-04'
 version: '9.0'
 stars: 4.1
 ratings: 75
 reviews: 46
-size: 10M
-website: http://www.forexsignals99.com/
+size: '10M'
+website: 'http://www.forexsignals99.com/'
 repository: 
 issue: 
-icon: bitcoin.investmentlimited.png
+icon: 'bitcoin.investmentlimited.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2021-11-30
+date: '2021-11-30'
 signer: 
 reviewArchive: 
 twitter: 

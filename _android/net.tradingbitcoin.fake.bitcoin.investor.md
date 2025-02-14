@@ -1,28 +1,28 @@
 ---
 wsId: 
-title: Fake Bitcoin Investor
+title: 'Fake Bitcoin Investor'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 100
-appId: net.tradingbitcoin.fake.bitcoin.investor
+appId: 'net.tradingbitcoin.fake.bitcoin.investor'
 appCountry: 
-released: 2021-06-21
-updated: 2021-06-21
+released: '2021-06-21'
+updated: '2021-06-21'
 version: '1.0'
 stars: 1.7
 ratings: 6
 reviews: 3
-size: 2.3M
+size: '2.3M'
 website: 
 repository: 
 issue: 
-icon: net.tradingbitcoin.fake.bitcoin.investor.jpg
+icon: 'net.tradingbitcoin.fake.bitcoin.investor.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-09-16
+date: '2021-09-16'
 signer: 
 reviewArchive: 
 twitter: 

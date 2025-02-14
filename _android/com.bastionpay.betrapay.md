@@ -1,15 +1,15 @@
 ---
 wsId: 
-title: BetraPay
+title: 'BetraPay'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.bastionpay.betrapay
+appId: 'com.bastionpay.betrapay'
 appCountry: 
-released: 2019-10-30
-updated: 2019-11-20
-version: v1.0.1
+released: '2019-10-30'
+updated: '2019-11-20'
+version: 'v1.0.1'
 stars: 
 ratings: 
 reviews: 
@@ -17,18 +17,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.bastionpay.betrapay.png
+icon: 'com.bastionpay.betrapay.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2023-08-04
+date: '2023-08-04'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: BETRA Blockchain Trading Academy
+developerName: 'BETRA Blockchain Trading Academy'
 features: 
 
 ---

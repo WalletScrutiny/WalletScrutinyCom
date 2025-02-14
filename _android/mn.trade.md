@@ -1,35 +1,35 @@
 ---
-wsId: TradeMN
-title: Trade.mn
+wsId: 'TradeMN'
+title: 'Trade.mn'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: mn.trade
-appCountry: us
-released: 2018-04-13
-updated: 2023-05-30
-version: 3.0.9
+appId: 'mn.trade'
+appCountry: 'us'
+released: '2018-04-13'
+updated: '2023-05-30'
+version: '3.0.9'
 stars: 2.2
 ratings: 429
 reviews: 12
 size: 
-website: https://trade.mn
+website: 'https://trade.mn'
 repository: 
 issue: 
-icon: mn.trade.png
+icon: 'mn.trade.png'
 bugbounty: 
-meta: defunct
-verdict: custodial
+meta: 'defunct'
+verdict: 'custodial'
 appHashes: 
-date: 2022-05-31
+date: '2022-05-31'
 signer: 
 reviewArchive: 
-twitter: TradeMnOfficial
+twitter: 'TradeMnOfficial'
 social:
-- https://www.facebook.com/digitalexchangemongolia
+- 'https://www.facebook.com/digitalexchangemongolia'
 redirect_from: 
-developerName: Digital Exchange Mongolia LLC
+developerName: 'Digital Exchange Mongolia LLC'
 features: 
 
 ---

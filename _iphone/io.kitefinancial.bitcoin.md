@@ -7,9 +7,9 @@ authors:
 appId: io.kitefinancial.bitcoin
 appCountry: us
 idd: '1524242232'
-released: 2020-07-21
-updated: 2022-10-04
-version: 2.2.7
+released: '2020-07-21'
+updated: '2022-10-04'
+version: '2.2.7'
 stars: 2.9
 reviews: 38
 size: '61706240'
@@ -21,7 +21,7 @@ bugbounty:
 meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-09-24
+date: '2024-09-24'
 signer: 
 reviewArchive: 
 twitter: kite_financial

@@ -1,37 +1,36 @@
 ---
-wsId: LumiWallet
-title: Lumi Crypto Bitcoin Wallet
+wsId: 'LumiWallet'
+title: 'Lumi Crypto Bitcoin Wallet'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 100000
-appId: com.lumiwallet.android
+appId: 'com.lumiwallet.android'
 appCountry: 
-released: 2018-01-15
+released: '2018-01-15'
 updated: 2023-07-11
-version: 4.1.6
+version: '4.1.6'
 stars: 3.8
 ratings: 6388
 reviews: 254
-size: 
-website: https://lumiwallet.com
+website: 'https://lumiwallet.com'
 repository: 
 issue: 
-icon: com.lumiwallet.android.png
+icon: 'com.lumiwallet.android.png'
 bugbounty: 
-meta: stale
-verdict: nosource
+meta: 'stale'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
-twitter: Lumi_wallet
+twitter: 'Lumi_wallet'
 social:
-- https://www.facebook.com/lumiwallet
+- 'https://www.facebook.com/lumiwallet'
 redirect_from:
-- /com.lumiwallet.android/
-- /posts/com.lumiwallet.android/
-developerName: Raias Llc
+- '/com.lumiwallet.android/'
+- '/posts/com.lumiwallet.android/'
+developerName: 'Raias Llc'
 features: 
 
 ---

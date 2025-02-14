@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: UPAY - Personal
+title: 'UPAY - Personal'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.upay
+appId: 'com.upay'
 appCountry: 
-released: 2020-07-13
-updated: 2021-01-07
+released: '2020-07-13'
+updated: '2021-01-07'
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: http://upay.company
+website: 'http://upay.company'
 repository: 
 issue: 
-icon: com.upay.png
+icon: 'com.upay.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2023-05-03
+date: '2023-05-03'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: The Value Group Inc.
+developerName: 'The Value Group Inc.'
 features: 
 
 ---

@@ -1,33 +1,31 @@
 ---
 wsId: 
-title: STB Classic
+title: 'STB Classic'
 altTitle: 
 authors: 
 users: 100
-appId: com.bitcon
+appId: 'com.bitcon'
 appCountry: 
-released: 
 updated: 2024-12-12
-version: 1.9.9
+version: '1.9.9'
 stars: 4.7
 ratings: 
 reviews: 
-size: 
-website: https://spendthebits.com/
+website: 'https://spendthebits.com/'
 repository: 
 issue: 
-icon: com.bitcon.png
+icon: 'com.bitcon.png'
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: 'ok'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-08-02
+date: '2021-08-02'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Spend The Bits Inc.
+developerName: 'Spend The Bits Inc.'
 features: 
 
 ---

@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: SecuX Firmware Update
+title: 'SecuX Firmware Update'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.secux.firmwareupdate
+appId: 'com.secux.firmwareupdate'
 appCountry: 
-released: 2021-09-28
+released: '2021-09-28'
 updated: 2023-08-22
-version: 1.0.9
+version: '1.0.9'
 stars: 2.5
 ratings: 
 reviews: 11
-size: 
-website: https://www.secuxtech.com
+website: 'https://www.secuxtech.com'
 repository: 
 issue: 
-icon: com.secux.firmwareupdate.png
+icon: 'com.secux.firmwareupdate.png'
 bugbounty: 
-meta: stale
-verdict: nowallet
+meta: 'stale'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-08-16
+date: '2024-08-16'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: SecuX
+developerName: 'SecuX'
 features: 
 
 ---

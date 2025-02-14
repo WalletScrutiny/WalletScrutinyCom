@@ -1,36 +1,35 @@
 ---
-wsId: giottus
+wsId: 'giottus'
 title: 'Giottus: Crypto Investing App'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 500000
-appId: com.giottus.giottus_mobile
-appCountry: us
-released: 2021-02-01
-updated: 2025-01-21
-version: 3.0.29
+appId: 'com.giottus.giottus_mobile'
+appCountry: 'us'
+released: '2021-02-01'
+updated: 2025-02-12
+version: '3.0.31'
 stars: 4.7
 ratings: 15803
 reviews: 25
-size: 
-website: https://www.giottus.com
+website: 'https://www.giottus.com'
 repository: 
 issue: 
-icon: com.giottus.giottus_mobile.png
+icon: 'com.giottus.giottus_mobile.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2024-07-15
+date: '2024-07-15'
 signer: 
 reviewArchive: 
-twitter: giottus
+twitter: 'giottus'
 social:
-- https://www.linkedin.com/company/giottus
-- https://www.facebook.com/Giottus
+- 'https://www.linkedin.com/company/giottus'
+- 'https://www.facebook.com/Giottus'
 redirect_from: 
-developerName: Giottus Technologies Private Limited
+developerName: 'Giottus Technologies Private Limited'
 features: 
 
 ---

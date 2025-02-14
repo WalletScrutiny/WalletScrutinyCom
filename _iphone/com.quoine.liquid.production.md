@@ -7,9 +7,9 @@ authors:
 appId: com.quoine.liquid.production
 appCountry: us
 idd: 1443975079
-released: 2019-05-03
-updated: 2022-08-30
-version: 1.18.4
+released: '2019-05-03'
+updated: '2022-08-30'
+version: '1.18.4'
 stars: 3.8
 reviews: 29
 size: '182856704'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
 twitter: Liquid_Global

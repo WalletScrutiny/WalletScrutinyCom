@@ -7,8 +7,8 @@ authors:
 appId: com.trader.finq
 appCountry: in
 idd: '1280873475'
-released: 2017-09-23
-updated: 2019-12-19
+released: '2017-09-23'
+updated: '2019-12-19'
 version: '2.8'
 stars: 2.7
 reviews: 39
@@ -21,7 +21,7 @@ bugbounty:
 meta: obsolete
 verdict: nosendreceive
 appHashes: 
-date: 2022-07-11
+date: '2022-07-11'
 signer: 
 reviewArchive: 
 twitter: finqcom

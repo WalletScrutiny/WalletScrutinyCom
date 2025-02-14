@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: Kryp Wallet
+title: 'Kryp Wallet'
 altTitle: 
 authors: 
 users: 50
-appId: com.krypwallet.app
+appId: 'com.krypwallet.app'
 appCountry: 
-released: 2021-05-06
-updated: 2021-08-31
-version: 1.0.0
+released: '2021-05-06'
+updated: '2021-08-31'
+version: '1.0.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: http://159.65.248.120/
+website: 'http://159.65.248.120/'
 repository: 
 issue: 
-icon: com.krypwallet.app.png
+icon: 'com.krypwallet.app.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-04-19
+date: '2024-04-19'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: SHmining Tech
+developerName: 'SHmining Tech'
 features: 
 
 ---

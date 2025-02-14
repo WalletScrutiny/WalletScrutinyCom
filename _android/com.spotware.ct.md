@@ -1,37 +1,36 @@
 ---
-wsId: cTrader
+wsId: 'cTrader'
 title: 'cTrader: Trading Forex, Stocks'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 500000
-appId: com.spotware.ct
+appId: 'com.spotware.ct'
 appCountry: 
-released: 2014-02-10
+released: '2014-02-10'
 updated: 2025-02-12
-version: 5.1.150
-stars: 4.6
+version: '5.1.150'
+stars: 4.7
 ratings: 
-reviews: 261
-size: 
-website: https://ctrader.com/forum
+reviews: 262
+website: 'https://ctrader.com/forum'
 repository: 
 issue: 
-icon: com.spotware.ct.png
+icon: 'com.spotware.ct.png'
 bugbounty: 
-meta: ok
-verdict: nosendreceive
+meta: 'ok'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2023-07-01
+date: '2023-07-01'
 signer: 
 reviewArchive: 
-twitter: cTrader
+twitter: 'cTrader'
 social:
-- https://www.linkedin.com/company/ctrader
-- https://www.youtube.com/spotware
-- https://t.me/cTrader_Official
+- 'https://www.linkedin.com/company/ctrader'
+- 'https://www.youtube.com/spotware'
+- 'https://t.me/cTrader_Official'
 redirect_from: 
-developerName: Spotware
+developerName: 'Spotware'
 features: 
 
 ---

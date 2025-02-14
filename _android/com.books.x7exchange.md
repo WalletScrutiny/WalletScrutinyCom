@@ -1,37 +1,37 @@
 ---
 wsId: 
-title: X7 Exchange
+title: 'X7 Exchange'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.books.x7exchange
+appId: 'com.books.x7exchange'
 appCountry: 
-released: 2022-01-02
-updated: 2023-01-12
+released: '2022-01-02'
+updated: '2023-01-12'
 version: '2.3'
 stars: 4.1
 ratings: 
 reviews: 
 size: 
-website: https://x7exchange.com/
+website: 'https://x7exchange.com/'
 repository: 
 issue: 
-icon: com.books.x7exchange.png
+icon: 'com.books.x7exchange.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-12-31
+date: '2024-12-31'
 signer: 
 reviewArchive: 
-twitter: x7exchange
+twitter: 'x7exchange'
 social:
-- https://t.me/x7exchange
-- https://www.youtube.com/c/XigluteCoinXGC
-- https://www.instagram.com/x7exchange
+- 'https://t.me/x7exchange'
+- 'https://www.youtube.com/c/XigluteCoinXGC'
+- 'https://www.instagram.com/x7exchange'
 redirect_from: 
-developerName: X7 Exchange
+developerName: 'X7 Exchange'
 features: 
 
 ---

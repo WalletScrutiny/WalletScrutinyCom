@@ -7,8 +7,8 @@ authors:
 appId: com.tomiapps.production
 appCountry: us
 idd: '1643501440'
-released: 2022-10-25
-updated: 2025-02-10
+released: '2022-10-25'
+updated: '2025-02-10'
 version: '127'
 stars: 4.7
 reviews: 12
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: 2023-07-19
+date: '2023-07-19'
 signer: 
 reviewArchive: 
 twitter: tomipioneers

@@ -7,10 +7,10 @@ authors:
 - '@sethforprivacy'
 - danny
 - keraliss
-released: 2022-03-10
+released: '2022-03-10'
 discontinued: 
-updated: 2024-08-10
-version: v2.3.5
+updated: '2024-08-10'
+version: 'v2.3.5'
 binaries: https://github.com/Foundation-Devices/passport2/releases
 dimensions:
 - 39
@@ -31,29 +31,29 @@ meta: ok
 verdict: reproducible
 appHashes:
 - 714e6fc84664c206984d995e1630e360cba18d96ea4d17ffa577f95e89659ed2
-date: 2024-10-30
+date: '2024-10-30'
 signer: 
 reviewArchive:
-- date: 2024-10-16
-  version: v2.3.4
+- date: '2024-10-16'
+  version: 'v2.3.4'
   appHashes:
   - 7e13d43e9c848dd3e31c16abb93e6e47999d6e7cf1d38458e54e1980ed4c23d6
   gitRevision: d808a307a778663b0d3a866255c16233f4e8d8fa
   verdict: reproducible
-- date: 2024-09-11
-  version: v2.3.2
+- date: '2024-09-11'
+  version: 'v2.3.2'
   appHashes:
   - ff64ad2fcc0d72c626e1a9885a3de224d0d3f2e78f4de19fc166f1f4e91e1464
   gitRevision: 592fc9503ff708d2a9179890946ddce6c8aea83e
   verdict: reproducible
-- date: 2024-05-31
-  version: v2.3.1
+- date: '2024-05-31'
+  version: 'v2.3.1'
   appHashes:
   - ff64ad2fcc0d72c626e1a9885a3de224d0d3f2e78f4de19fc166f1f4e91e1464
   gitRevision: 592fc9503ff708d2a9179890946ddce6c8aea83e
   verdict: reproducible
-- date: 2023-06-20
-  version: v2.1.2
+- date: '2023-06-20'
+  version: 'v2.1.2'
   appHashes:
   - 9de833a38931b7e4660e8d0e3ea4a2bfe74924caa1328834e9be9c3d1750cd7e
   gitRevision: 1b1de26f9dcadf889a665f5650ee2656cb0a4206

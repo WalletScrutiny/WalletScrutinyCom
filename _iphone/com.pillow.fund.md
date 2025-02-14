@@ -7,8 +7,8 @@ authors:
 appId: com.pillow.fund
 appCountry: in
 idd: '1593227237'
-released: 2022-03-02
-updated: 2023-08-01
+released: '2022-03-02'
+updated: '2023-08-01'
 version: '5.0'
 stars: 3.8
 reviews: 61
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-02-05
+date: '2024-02-05'
 signer: 
 reviewArchive: 
 twitter: PillowFund

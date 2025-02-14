@@ -1,34 +1,34 @@
 ---
-wsId: techbankBeeone
-title: TechBank
+wsId: 'techbankBeeone'
+title: 'TechBank'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 10000
-appId: com.beeone.techbank
+appId: 'com.beeone.techbank'
 appCountry: 
-released: 2019-07-14
-updated: 2022-02-15
-version: 4.9.11
+released: '2019-07-14'
+updated: '2022-02-15'
+version: '4.9.11'
 stars: 4.1
 ratings: 700
 reviews: 43
-size: 86M
-website: https://techbank.finance/
+size: '86M'
+website: 'https://techbank.finance/'
 repository: 
 issue: 
-icon: com.beeone.techbank.png
+icon: 'com.beeone.techbank.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2022-04-07
+date: '2022-04-07'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from:
-- /com.beeone.techbank/
+- '/com.beeone.techbank/'
 developerName: 
 features: 
 

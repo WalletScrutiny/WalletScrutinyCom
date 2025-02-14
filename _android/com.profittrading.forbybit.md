@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: ProfitTradingApp For Bybit
+title: 'ProfitTradingApp For Bybit'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.profittrading.forbybit
+appId: 'com.profittrading.forbybit'
 appCountry: 
-released: 2020-03-22
+released: '2020-03-22'
 updated: 2025-02-10
-version: 4.0.18
+version: '4.0.18'
 stars: 3.9
 ratings: 41
 reviews: 3
-size: 
-website: https://profittradingapp.com/
+website: 'https://profittradingapp.com/'
 repository: 
 issue: 
-icon: com.profittrading.forbybit.png
+icon: 'com.profittrading.forbybit.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-04-29
+date: '2023-04-29'
 signer: 
 reviewArchive: 
-twitter: ProfitTrading_
+twitter: 'ProfitTrading_'
 social:
-- https://www.facebook.com/profittradingapp
+- 'https://www.facebook.com/profittradingapp'
 redirect_from: 
-developerName: ProfitTradingApp
+developerName: 'ProfitTradingApp'
 features: 
 
 ---

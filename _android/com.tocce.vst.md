@@ -1,35 +1,35 @@
 ---
-wsId: vstmex
-title: VSTMEX - Buy Bitcoin & Crypto
+wsId: 'vstmex'
+title: 'VSTMEX - Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.tocce.vst
+appId: 'com.tocce.vst'
 appCountry: 
 released: 
-updated: 2023-01-04
-version: 1.3.1
+updated: '2023-01-04'
+version: '1.3.1'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.vstmex.com/
+website: 'https://www.vstmex.com/'
 repository: 
 issue: 
-icon: com.tocce.vst.png
+icon: 'com.tocce.vst.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-04-12
+date: '2023-04-12'
 signer: 
 reviewArchive: 
-twitter: VSTMEX
+twitter: 'VSTMEX'
 social:
-- https://t.me/VSTMEX001
+- 'https://t.me/VSTMEX001'
 redirect_from: 
-developerName: VSTMEX Technology PTE.LTD.
+developerName: 'VSTMEX Technology PTE.LTD.'
 features: 
 
 ---

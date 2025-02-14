@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: Xaman Wallet (formerly Xumm)
+title: 'Xaman Wallet (formerly Xumm)'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 500000
-appId: com.xrpllabs.xumm
+appId: 'com.xrpllabs.xumm'
 appCountry: 
-released: 2020-12-29
+released: '2020-12-29'
 updated: 2025-01-31
-version: 3.3.2
+version: '3.3.2'
 stars: 4.8
 ratings: 
-reviews: 471
-size: 
-website: https://xumm.app/
+reviews: 472
+website: 'https://xumm.app/'
 repository: 
 issue: 
-icon: com.xrpllabs.xumm.png
+icon: 'com.xrpllabs.xumm.png'
 bugbounty: 
-meta: ok
-verdict: nobtc
+meta: 'ok'
+verdict: 'nobtc'
 appHashes: 
-date: 2024-09-03
+date: '2024-09-03'
 signer: 
 reviewArchive: 
-twitter: XummWallet
+twitter: 'XummWallet'
 social: 
 redirect_from: 
-developerName: XRPL Labs (The Integrators BV)
+developerName: 'XRPL Labs (The Integrators BV)'
 features: 
 
 ---

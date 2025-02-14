@@ -1,13 +1,13 @@
 ---
 wsId: 
-title: mF Crypto
+title: 'mF Crypto'
 altTitle: 
 authors: 
 users: 10
-appId: com.mfinance.android.mfcrypto
+appId: 'com.mfinance.android.mfcrypto'
 appCountry: 
-released: 2021-10-07
-updated: 2021-10-08
+released: '2021-10-07'
+updated: '2021-10-08'
 version: '1.0'
 stars: 
 ratings: 
@@ -16,18 +16,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.mfinance.android.mfcrypto.png
+icon: 'com.mfinance.android.mfcrypto.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-04-19
+date: '2024-04-19'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: m-FINANCE Limited
+developerName: 'm-FINANCE Limited'
 features: 
 
 ---

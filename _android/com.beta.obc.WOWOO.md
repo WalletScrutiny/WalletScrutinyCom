@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: Wowoo Portal
+title: 'Wowoo Portal'
 altTitle: 
 authors: 
 users: 500
-appId: com.beta.obc.WOWOO
+appId: 'com.beta.obc.WOWOO'
 appCountry: 
-released: 2020-01-02
-updated: 2021-10-13
-version: 2.1.0
+released: '2020-01-02'
+updated: '2021-10-13'
+version: '2.1.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: http://wowoonet.com
+website: 'http://wowoonet.com'
 repository: 
 issue: 
-icon: com.beta.obc.WOWOO.jpg
+icon: 'com.beta.obc.WOWOO.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-12-19
+date: '2023-12-19'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: WOWOO PTE. LTD.
+developerName: 'WOWOO PTE. LTD.'
 features: 
 
 ---

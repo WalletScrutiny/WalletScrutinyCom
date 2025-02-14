@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: BitBot
+title: 'BitBot'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.chlegou.bitbot
+appId: 'com.chlegou.bitbot'
 appCountry: 
-released: 2019-01-02
-updated: 2024-09-14
-version: 2.1.0
+released: '2019-01-02'
+updated: 2025-02-12
+version: '2.2.1'
 stars: 3.9
 ratings: 7718
 reviews: 434
-size: 
-website: https://bitbot.plus
+website: 'https://bitbot.plus'
 repository: 
 issue: 
-icon: com.chlegou.bitbot.png
+icon: 'com.chlegou.bitbot.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-04-24
+date: '2024-04-24'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Chlegou
+developerName: 'Chlegou'
 features: 
 
 ---

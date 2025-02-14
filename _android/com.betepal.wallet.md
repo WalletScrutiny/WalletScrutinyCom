@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: Betepal Wallet - 币宝 钱包 安全加密 US
+title: 'Betepal Wallet - 币宝 钱包 安全加密 US'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.betepal.wallet
+appId: 'com.betepal.wallet'
 appCountry: 
-released: 2021-01-26
-updated: 2022-05-27
-version: 4.3.0
+released: '2021-01-26'
+updated: '2022-05-27'
+version: '4.3.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: http://betepal.com/
+website: 'http://betepal.com/'
 repository: 
 issue: 
-icon: com.betepal.wallet.png
+icon: 'com.betepal.wallet.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2023-08-04
+date: '2023-08-04'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Betepal
+developerName: 'Betepal'
 features: 
 
 ---

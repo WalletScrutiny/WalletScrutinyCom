@@ -1,34 +1,34 @@
 ---
-wsId: NetCentsCryptoWallet
-title: NetCents Cryptocurrency Wallet
+wsId: 'NetCentsCryptoWallet'
+title: 'NetCents Cryptocurrency Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.net_cents.netcents2
-appCountry: us
-released: 2017-10-12
-updated: 2022-11-19
-version: 2.11.15
+appId: 'com.net_cents.netcents2'
+appCountry: 'us'
+released: '2017-10-12'
+updated: '2022-11-19'
+version: '2.11.15'
 stars: 3.5
 ratings: 150
 reviews: 3
 size: 
-website: http://www.net-cents.com
+website: 'http://www.net-cents.com'
 repository: 
 issue: 
-icon: com.net_cents.netcents2.png
+icon: 'com.net_cents.netcents2.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-01-11
+date: '2023-01-11'
 signer: 
 reviewArchive: 
-twitter: netcentshq
+twitter: 'netcentshq'
 social:
-- https://www.linkedin.com/company/net-cents
-- https://www.facebook.com/NetCentsHQ
+- 'https://www.linkedin.com/company/net-cents'
+- 'https://www.facebook.com/NetCentsHQ'
 redirect_from: 
 developerName: 
 features: 

@@ -1,34 +1,33 @@
 ---
-wsId: arkpayBTCETHWallet
-title: ArkPay - BTC ETH Wallet
+wsId: 'arkpayBTCETHWallet'
+title: 'ArkPay - BTC ETH Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.zimi.arkpay.PROD
+appId: 'com.zimi.arkpay.PROD'
 appCountry: 
-released: 2020-06-03
+released: '2020-06-03'
 updated: 2024-12-16
-version: 2.15.0
+version: '2.15.0'
 stars: 3.9
 ratings: 
 reviews: 
-size: 
-website: https://www.arkpay.site/
+website: 'https://www.arkpay.site/'
 repository: 
 issue: 
-icon: com.zimi.arkpay.PROD.png
+icon: 'com.zimi.arkpay.PROD.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2024-12-16
+date: '2024-12-16'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: ZIMI
+developerName: 'ZIMI'
 features: 
 
 ---

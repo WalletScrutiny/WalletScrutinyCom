@@ -8,9 +8,9 @@ authors:
 appId: com.koinal.ios
 appCountry: gb
 idd: 1442764361
-released: 2020-06-08
-updated: 2023-02-09
-version: 1.4.7
+released: '2020-06-08'
+updated: '2023-02-09'
+version: '1.4.7'
 stars: 4.9
 reviews: 513
 size: '86676480'
@@ -22,7 +22,7 @@ bugbounty:
 meta: removed
 verdict: nobtc
 appHashes: 
-date: 2023-04-16
+date: '2023-04-16'
 signer: 
 reviewArchive: 
 twitter: koinal_io

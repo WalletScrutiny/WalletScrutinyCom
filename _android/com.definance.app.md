@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: Definance Wallet
+title: 'Definance Wallet'
 altTitle: 
 authors: 
 users: 100
-appId: com.definance.app
+appId: 'com.definance.app'
 appCountry: 
-released: 2021-10-20
-updated: 2021-10-25
-version: 1.1.1
+released: '2021-10-20'
+updated: '2021-10-25'
+version: '1.1.1'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://definance.app/
+website: 'https://definance.app/'
 repository: 
 issue: 
-icon: com.definance.app.png
+icon: 'com.definance.app.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-08-04
+date: '2023-08-04'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Blockchain Software House
+developerName: 'Blockchain Software House'
 features: 
 
 ---

@@ -1,28 +1,28 @@
 ---
 wsId: 
-title: BTC Server Miner
+title: 'BTC Server Miner'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: ps.btcserverminer.app
+appId: 'ps.btcserverminer.app'
 appCountry: 
-released: 2021-07-16
-updated: 2021-08-29
+released: '2021-07-16'
+updated: '2021-08-29'
 version: '1.0'
 stars: 4.1
 ratings: 7227
 reviews: 463
 size: 
-website: https://btcserverminer.promo-miner.com/
+website: 'https://btcserverminer.promo-miner.com/'
 repository: 
 issue: 
-icon: ps.btcserverminer.app.png
+icon: 'ps.btcserverminer.app.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
 twitter: 

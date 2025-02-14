@@ -1,38 +1,38 @@
 ---
-wsId: biboxPro
-title: Bibox Pro：Crypto，BTC，ETH
+wsId: 'biboxPro'
+title: 'Bibox Pro：Crypto，BTC，ETH'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.box.pro
+appId: 'com.box.pro'
 appCountry: 
-released: 2022-01-06
-updated: 2024-05-21
-version: 5.3.2
+released: '2022-01-06'
+updated: '2024-05-21'
+version: '5.3.2'
 stars: 2
 ratings: 
 reviews: 39
 size: 
-website: https://www.bibox.com
+website: 'https://www.bibox.com'
 repository: 
 issue: 
-icon: com.box.pro.png
+icon: 'com.box.pro.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-10-23
+date: '2024-10-23'
 signer: 
 reviewArchive: 
-twitter: Bibox365
+twitter: 'Bibox365'
 social:
-- https://www.linkedin.com/company/biboxexchange
-- https://www.facebook.com/Bibox2017
-- https://www.reddit.com/r/Bibox
-- https://www.youtube.com/channel/UCCvaLNJjZEoI4FugpYAErxw
+- 'https://www.linkedin.com/company/biboxexchange'
+- 'https://www.facebook.com/Bibox2017'
+- 'https://www.reddit.com/r/Bibox'
+- 'https://www.youtube.com/channel/UCCvaLNJjZEoI4FugpYAErxw'
 redirect_from: 
-developerName: Bibox
+developerName: 'Bibox'
 features: 
 
 ---

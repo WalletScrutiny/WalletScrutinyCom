@@ -3,9 +3,9 @@ title: Blockchain Hackathon 2018 Lightning Network DIY Hardware Wallet
 appId: blockchainhackathon2018.lnhw.diy
 authors:
 - danny
-released: 2018-06-30
+released: '2018-06-30'
 discontinued: 
-updated: 2018-08-28
+updated: '2018-08-28'
 version: 
 binaries: 
 dimensions:
@@ -26,7 +26,7 @@ bugbounty:
 meta: defunct
 verdict: diy
 appHashes: 
-date: 2022-05-20
+date: '2022-05-20'
 signer: 
 reviewArchive: 
 twitter: chainsmiths

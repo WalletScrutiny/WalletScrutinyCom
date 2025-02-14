@@ -1,35 +1,34 @@
 ---
-wsId: Keystone
-title: Keystone Hardware Wallet
+wsId: 'Keystone'
+title: 'Keystone Hardware Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.keystone.mobile
+appId: 'com.keystone.mobile'
 appCountry: 
-released: 2021-06-01
+released: '2021-06-01'
 updated: 2024-07-19
-version: 1.4.0
+version: '1.4.0'
 stars: 3.2
 ratings: 
 reviews: 11
-size: 
-website: https://keyst.one/
+website: 'https://keyst.one/'
 repository: 
 issue: 
-icon: com.keystone.mobile.png
+icon: 'com.keystone.mobile.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-23
+date: '2024-07-23'
 signer: 
 reviewArchive: 
-twitter: KeystoneWallet
+twitter: 'KeystoneWallet'
 social:
-- https://github.com/KeystoneHQ
+- 'https://github.com/KeystoneHQ'
 redirect_from: 
-developerName: Yanssie HK Limited
+developerName: 'Yanssie HK Limited'
 features: 
 
 ---

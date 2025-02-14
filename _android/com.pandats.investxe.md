@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: InvestXE.com  - Live Bitcoin A
+title: 'InvestXE.com  - Live Bitcoin A'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.pandats.investxe
+appId: 'com.pandats.investxe'
 appCountry: 
-released: 2020-12-09
-updated: 2021-06-10
-version: 1.0.3
+released: '2020-12-09'
+updated: '2021-06-10'
+version: '1.0.3'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://investxe.com
+website: 'https://investxe.com'
 repository: 
 issue: 
-icon: com.pandats.investxe.png
+icon: 'com.pandats.investxe.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-12-19
+date: '2023-12-19'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: InvestXE
+developerName: 'InvestXE'
 features: 
 
 ---

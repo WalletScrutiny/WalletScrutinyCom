@@ -1,37 +1,36 @@
 ---
-wsId: malFinance
+wsId: 'malFinance'
 title: 'Mal.io: Bitcoin,Trade Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.mal.exchange
+appId: 'com.mal.exchange'
 appCountry: 
-released: 2021-11-11
+released: '2021-11-11'
 updated: 2025-01-12
-version: 1.0.50
+version: '1.0.50'
 stars: 4.2
 ratings: 
 reviews: 34
-size: 
-website: https://mal.io/
+website: 'https://mal.io/'
 repository: 
 issue: 
-icon: com.mal.exchange.jpg
+icon: 'com.mal.exchange.jpg'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-07-11
+date: '2023-07-11'
 signer: 
 reviewArchive: 
-twitter: MalFinance
+twitter: 'MalFinance'
 social:
-- https://t.me/mal_io
-- https://youtube.com/channel/UCChWLjFpifD4L1oymW0NBZQ
-- http://tiktok.com/@mal.io1
+- 'https://t.me/mal_io'
+- 'https://youtube.com/channel/UCChWLjFpifD4L1oymW0NBZQ'
+- 'http://tiktok.com/@mal.io1'
 redirect_from: 
-developerName: MAL finance مال
+developerName: 'MAL finance مال'
 features: 
 
 ---

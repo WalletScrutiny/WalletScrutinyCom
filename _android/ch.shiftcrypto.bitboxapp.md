@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: BitBoxApp
+title: 'BitBoxApp'
 altTitle: 
 authors: 
 users: 10000
-appId: ch.shiftcrypto.bitboxapp
+appId: 'ch.shiftcrypto.bitboxapp'
 appCountry: 
-released: 2020-07-13
+released: '2020-07-13'
 updated: 2024-11-21
-version: android-4.46.1
+version: 'android-4.46.1'
 stars: 4.6
 ratings: 83
 reviews: 8
-size: 
-website: https://shiftcrypto.ch/app/
-repository: https://github.com/BitBoxSwiss/bitbox-wallet-app
+website: 'https://shiftcrypto.ch/app/'
+repository: 'https://github.com/BitBoxSwiss/bitbox-wallet-app'
 issue: 
-icon: ch.shiftcrypto.bitboxapp.png
+icon: 'ch.shiftcrypto.bitboxapp.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2021-01-23
+date: '2021-01-23'
 signer: 
 reviewArchive: 
-twitter: ShiftCryptoHQ
+twitter: 'ShiftCryptoHQ'
 social:
-- https://www.linkedin.com/company/shift-crypto
-- https://www.facebook.com/Shiftcrypto
+- 'https://www.linkedin.com/company/shift-crypto'
+- 'https://www.facebook.com/Shiftcrypto'
 redirect_from: 
-developerName: BitBox Swiss
+developerName: 'BitBox Swiss'
 features: 
 
 ---

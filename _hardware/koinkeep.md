@@ -3,7 +3,7 @@ title: KoinKeep
 appId: koinkeep
 authors:
 - danny
-released: 2019-12-07
+released: '2019-12-07'
 discontinued: 
 updated: 
 version: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: noita
 appHashes: 
-date: 2022-05-19
+date: '2022-05-19'
 signer: 
 reviewArchive: 
 twitter: KoinKeep

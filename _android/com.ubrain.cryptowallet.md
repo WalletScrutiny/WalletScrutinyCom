@@ -1,13 +1,13 @@
 ---
 wsId: 
-title: Crypto Wallet
+title: 'Crypto Wallet'
 altTitle: 
 authors: 
 users: 50
-appId: com.ubrain.cryptowallet
+appId: 'com.ubrain.cryptowallet'
 appCountry: 
-released: 2022-04-22
-updated: 2023-04-18
+released: '2022-04-22'
+updated: '2023-04-18'
 version: '1.1'
 stars: 
 ratings: 
@@ -16,18 +16,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.ubrain.cryptowallet.png
+icon: 'com.ubrain.cryptowallet.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-11-12
+date: '2024-11-12'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Skyclones
+developerName: 'Skyclones'
 features: 
 
 ---

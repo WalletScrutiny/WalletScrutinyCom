@@ -1,13 +1,13 @@
 ---
 wsId: 
-title: NEO Wallet
+title: 'NEO Wallet'
 altTitle: 
 authors: 
 users: 100
-appId: com.myneogroup.neotrade
+appId: 'com.myneogroup.neotrade'
 appCountry: 
-released: 2022-04-08
-updated: 2022-05-12
+released: '2022-04-08'
+updated: '2022-05-12'
 version: '1.23'
 stars: 
 ratings: 
@@ -16,12 +16,12 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.myneogroup.neotrade.png
+icon: 'com.myneogroup.neotrade.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
 twitter: 

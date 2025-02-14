@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: CryptoWallet App Lite 2021
+title: 'CryptoWallet App Lite 2021'
 altTitle: 
 authors: 
 users: 50
-appId: com.mikodes.cryptowallerlite
+appId: 'com.mikodes.cryptowallerlite'
 appCountry: 
-released: 2021-12-08
-updated: 2021-12-08
-version: 1.0.1
+released: '2021-12-08'
+updated: '2021-12-08'
+version: '1.0.1'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://mikodes.com
+website: 'https://mikodes.com'
 repository: 
 issue: 
-icon: com.mikodes.cryptowallerlite.png
+icon: 'com.mikodes.cryptowallerlite.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-08-04
+date: '2023-08-04'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Mikodes Team
+developerName: 'Mikodes Team'
 features: 
 
 ---

@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: SprintBank
+title: 'SprintBank'
 altTitle: 
 authors: 
 users: 100
-appId: quasar.sprint.bank.app
+appId: 'quasar.sprint.bank.app'
 appCountry: 
-released: 2021-12-12
-updated: 2021-12-23
-version: 1.0.4
+released: '2021-12-12'
+updated: '2021-12-23'
+version: '1.0.4'
 stars: 2.7
 ratings: 
 reviews: 
 size: 
-website: https://sprint-bank.com/
+website: 'https://sprint-bank.com/'
 repository: 
 issue: 
-icon: quasar.sprint.bank.app.jpg
+icon: 'quasar.sprint.bank.app.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-04-19
+date: '2024-04-19'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Джон Альварес
+developerName: 'Джон Альварес'
 features: 
 
 ---

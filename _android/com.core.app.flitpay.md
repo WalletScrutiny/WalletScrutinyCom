@@ -1,35 +1,34 @@
 ---
-wsId: flitpay
+wsId: 'flitpay'
 title: 'Flitpay: Crypto Trading App'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 500000
-appId: com.core.app.flitpay
-appCountry: dk
-released: 2017-05-17
+appId: 'com.core.app.flitpay'
+appCountry: 'dk'
+released: '2017-05-17'
 updated: 2024-11-28
-version: 1.0.63
+version: '1.0.63'
 stars: 3.8
 ratings: 2217
-reviews: 1807
-size: 
-website: https://www.flitpay.com/
+reviews: 1811
+website: 'https://www.flitpay.com/'
 repository: 
 issue: 
-icon: com.core.app.flitpay.png
+icon: 'com.core.app.flitpay.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-09-30
+date: '2021-09-30'
 signer: 
 reviewArchive: 
-twitter: flitpayofficial
+twitter: 'flitpayofficial'
 social:
-- https://www.facebook.com/flitpay
+- 'https://www.facebook.com/flitpay'
 redirect_from: 
-developerName: FLITPAY PVT LTD
+developerName: 'FLITPAY PVT LTD'
 features: 
 
 ---

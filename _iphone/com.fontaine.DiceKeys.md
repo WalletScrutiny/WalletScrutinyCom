@@ -7,8 +7,8 @@ authors:
 appId: com.fontaine.DiceKeys
 appCountry: us
 idd: '1452167723'
-released: 2019-02-12
-updated: 2019-05-23
+released: '2019-02-12'
+updated: '2019-05-23'
 version: '1.7'
 stars: 4
 reviews: 2
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: nowallet
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
 twitter: 

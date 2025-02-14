@@ -1,36 +1,35 @@
 ---
-wsId: DexTrade
-title: Dex-Trade
+wsId: 'DexTrade'
+title: 'Dex-Trade'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.dextrade.android
-appCountry: us
-released: 2019-07-03
+appId: 'com.dextrade.android'
+appCountry: 'us'
+released: '2019-07-03'
 updated: 2023-05-10
-version: 1.3.0
+version: '1.3.0'
 stars: 3.3
 ratings: 218
 reviews: 23
-size: 
-website: https://dex-trade.com
+website: 'https://dex-trade.com'
 repository: 
 issue: 
-icon: com.dextrade.android.png
+icon: 'com.dextrade.android.png'
 bugbounty: 
-meta: stale
-verdict: custodial
+meta: 'stale'
+verdict: 'custodial'
 appHashes: 
-date: 2024-05-06
+date: '2024-05-06'
 signer: 
 reviewArchive: 
-twitter: dextrade_
+twitter: 'dextrade_'
 social:
-- https://www.linkedin.com/company/dex-trade-exchange
-- https://www.facebook.com/DexTradeExchange
+- 'https://www.linkedin.com/company/dex-trade-exchange'
+- 'https://www.facebook.com/DexTradeExchange'
 redirect_from: 
-developerName: Dex-Trade
+developerName: 'Dex-Trade'
 features: 
 
 ---

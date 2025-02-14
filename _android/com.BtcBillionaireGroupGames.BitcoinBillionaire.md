@@ -1,13 +1,13 @@
 ---
 wsId: 
-title: Bitcoin Billionaire
+title: 'Bitcoin Billionaire'
 altTitle: 
 authors: 
 users: 100
-appId: com.BtcBillionaireGroupGames.BitcoinBillionaire
+appId: 'com.BtcBillionaireGroupGames.BitcoinBillionaire'
 appCountry: 
-released: 2022-03-21
-updated: 2022-03-21
+released: '2022-03-21'
+updated: '2022-03-21'
 version: '0.1'
 stars: 
 ratings: 
@@ -16,12 +16,12 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.BtcBillionaireGroupGames.BitcoinBillionaire.jpg
+icon: 'com.BtcBillionaireGroupGames.BitcoinBillionaire.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
 twitter: 

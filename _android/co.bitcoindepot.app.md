@@ -1,35 +1,34 @@
 ---
-wsId: bitcoindepot
-title: Bitcoin Depot
+wsId: 'bitcoindepot'
+title: 'Bitcoin Depot'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: co.bitcoindepot.app
-appCountry: us
-released: 2020-11-04
+appId: 'co.bitcoindepot.app'
+appCountry: 'us'
+released: '2020-11-04'
 updated: 2024-08-14
-version: 3.1.3
+version: '3.1.3'
 stars: 4.3
 ratings: 105
 reviews: 216
-size: 
-website: https://www.bitcoindepot.com/
+website: 'https://www.bitcoindepot.com/'
 repository: 
 issue: 
-icon: co.bitcoindepot.app.png
+icon: 'co.bitcoindepot.app.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-11-08
+date: '2021-11-08'
 signer: 
 reviewArchive: 
-twitter: bitcoin_depot
+twitter: 'bitcoin_depot'
 social:
-- https://www.facebook.com/BitcoinDepot
+- 'https://www.facebook.com/BitcoinDepot'
 redirect_from: 
-developerName: Bitcoin Depot
+developerName: 'Bitcoin Depot'
 features: 
 
 ---

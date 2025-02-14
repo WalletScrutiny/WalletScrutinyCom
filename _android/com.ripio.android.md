@@ -1,40 +1,39 @@
 ---
 wsId: 
-title: Ripio App | Crypto Wallet
+title: 'Ripio App | Crypto Wallet'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 1000000
-appId: com.ripio.android
+appId: 'com.ripio.android'
 appCountry: 
-released: 2015-06-01
+released: '2015-06-01'
 updated: 2025-02-11
-version: 6.1.21
+version: '6.1.21'
 stars: 3.7
 ratings: 34376
 reviews: 174
-size: 
-website: https://ripio.com
+website: 'https://ripio.com'
 repository: 
 issue: 
-icon: com.ripio.android.png
+icon: 'com.ripio.android.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2020-03-28
+date: '2020-03-28'
 signer: 
 reviewArchive: 
-twitter: ripioapp
+twitter: 'ripioapp'
 social:
-- https://www.linkedin.com/company/ripio
-- https://www.facebook.com/RipioApp
+- 'https://www.linkedin.com/company/ripio'
+- 'https://www.facebook.com/RipioApp'
 redirect_from:
-- /ripio/
-- /com.ripio.android/
-- /posts/2019/11/ripio/
-- /posts/com.ripio.android/
-developerName: Ripio Holding
+- '/ripio/'
+- '/com.ripio.android/'
+- '/posts/2019/11/ripio/'
+- '/posts/com.ripio.android/'
+developerName: 'Ripio Holding'
 features: 
 
 ---

@@ -1,35 +1,34 @@
 ---
-wsId: digitalexchangeid
-title: digitalexchange.id Crypto Aset
+wsId: 'digitalexchangeid'
+title: 'digitalexchange.id Crypto Aset'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.dex.digitalexchangeid
-appCountry: us
-released: 2024-09-04
-updated: 2025-02-10
-version: 1.3.8
+appId: 'com.dex.digitalexchangeid'
+appCountry: 'us'
+released: '2024-09-04'
+updated: 2025-02-13
+version: '1.3.9'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: http://digitalexchange.id
+website: 'http://digitalexchange.id'
 repository: 
 issue: 
-icon: com.dex.digitalexchangeid.png
+icon: 'com.dex.digitalexchangeid.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-09-17
+date: '2021-09-17'
 signer: 
 reviewArchive: 
-twitter: Digiexchangeid
+twitter: 'Digiexchangeid'
 social:
-- https://www.facebook.com/digitalexchangeid
+- 'https://www.facebook.com/digitalexchangeid'
 redirect_from: 
-developerName: PT Indonesia Digital Exchange
+developerName: 'PT Indonesia Digital Exchange'
 features: 
 
 ---

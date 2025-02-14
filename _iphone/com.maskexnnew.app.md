@@ -7,9 +7,9 @@ authors:
 appId: com.maskexnnew.app
 appCountry: us
 idd: '1600880394'
-released: 2021-12-22
-updated: 2024-06-03
-version: 2.0.8
+released: '2021-12-22'
+updated: '2024-06-03'
+version: '2.0.8'
 stars: 3.7
 reviews: 6
 size: '77850624'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2023-04-07
+date: '2023-04-07'
 signer: 
 reviewArchive: 
 twitter: MaskexGlobal

@@ -1,34 +1,34 @@
 ---
-wsId: Fiahub
-title: Fiahub - Mua bán Bitcoin, USDT
+wsId: 'Fiahub'
+title: 'Fiahub - Mua bán Bitcoin, USDT'
 altTitle: 
 authors:
-- danny
-appId: bit.coin.Coindess
-appCountry: us
+- 'danny'
+appId: 'bit.coin.Coindess'
+appCountry: 'us'
 idd: '1316631103'
-released: 2017-11-29
-updated: 2022-12-12
-version: 2.17.7
+released: '2017-11-29'
+updated: '2022-12-12'
+version: '2.17.7'
 stars: 5
 reviews: 2
 size: '224644096'
-website: https://www.fiahub.com
+website: 'https://www.fiahub.com'
 repository: 
 issue: 
-icon: bit.coin.Coindess.jpg
+icon: 'bit.coin.Coindess.jpg'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-03-21
+date: '2023-03-21'
 signer: 
 reviewArchive: 
-twitter: FIAHUBVN
+twitter: 'FIAHUBVN'
 social:
-- https://www.facebook.com/FiahubVN
-- https://www.fiahub.com/blog/
-- https://www.linkedin.com/company/fiahub/
+- 'https://www.facebook.com/FiahubVN'
+- 'https://www.fiahub.com/blog/'
+- 'https://www.linkedin.com/company/fiahub/'
 features: 
 developerName: 
 

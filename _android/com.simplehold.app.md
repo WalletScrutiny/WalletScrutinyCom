@@ -1,36 +1,36 @@
 ---
-wsId: simpleholdCrypto
-title: SimpleHold - Crypto Wallet
+wsId: 'simpleholdCrypto'
+title: 'SimpleHold - Crypto Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.simplehold.app
+appId: 'com.simplehold.app'
 appCountry: 
 released: 
-updated: 2023-07-24
+updated: '2023-07-24'
 version: '1.23'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://simplehold.io/
+website: 'https://simplehold.io/'
 repository: 
 issue: 
-icon: com.simplehold.app.jpg
+icon: 'com.simplehold.app.jpg'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2023-09-28
+date: '2023-09-28'
 signer: 
 reviewArchive: 
-twitter: SimpleHold
+twitter: 'SimpleHold'
 social:
-- https://t.me/simplehold_io
-- https://www.reddit.com/r/SH_Cryptowallet/
+- 'https://t.me/simplehold_io'
+- 'https://www.reddit.com/r/SH_Cryptowallet/'
 redirect_from: 
-developerName: Simple Swap LTD
+developerName: 'Simple Swap LTD'
 features: 
 
 ---

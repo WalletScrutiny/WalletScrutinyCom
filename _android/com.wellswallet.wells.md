@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Wells Wallet
+title: 'Wells Wallet'
 altTitle: 
 authors: 
 users: 100
-appId: com.wellswallet.wells
+appId: 'com.wellswallet.wells'
 appCountry: 
-released: 2021-07-10
-updated: 2021-07-10
-version: 1.0.0
+released: '2021-07-10'
+updated: '2021-07-10'
+version: '1.0.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: http://wellswallet.com
+website: 'http://wellswallet.com'
 repository: 
 issue: 
-icon: com.wellswallet.wells.jpg
+icon: 'com.wellswallet.wells.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
 twitter: 

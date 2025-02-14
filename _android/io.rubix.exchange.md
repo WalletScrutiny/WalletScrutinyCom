@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Rubix Wallet
+title: 'Rubix Wallet'
 altTitle: 
 authors: 
 users: 500
-appId: io.rubix.exchange
+appId: 'io.rubix.exchange'
 appCountry: 
-released: 2021-12-22
-updated: 2023-10-10
-version: 1.0.8
+released: '2021-12-22'
+updated: '2023-10-10'
+version: '1.0.8'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://rubix.io
+website: 'https://rubix.io'
 repository: 
 issue: 
-icon: io.rubix.exchange.jpg
+icon: 'io.rubix.exchange.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-12-08
+date: '2024-12-08'
 signer: 
 reviewArchive: 
 twitter: 

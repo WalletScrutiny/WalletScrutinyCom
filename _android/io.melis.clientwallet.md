@@ -1,36 +1,36 @@
 ---
-wsId: melisclientwallet
-title: Melis Bitcoin, Bitcoin Cash, L
+wsId: 'melisclientwallet'
+title: 'Melis Bitcoin, Bitcoin Cash, L'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 1000
-appId: io.melis.clientwallet
+appId: 'io.melis.clientwallet'
 appCountry: 
-released: 2017-01-30
-updated: 2021-09-30
-version: 1.6.24
+released: '2017-01-30'
+updated: '2021-09-30'
+version: '1.6.24'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.melis.io
-repository: https://github.com/melis-wallet/melis-cm-client
-issue: https://github.com/melis-wallet/melis-cm-client/issues/1
-icon: io.melis.clientwallet.png
+website: 'https://www.melis.io'
+repository: 'https://github.com/melis-wallet/melis-cm-client'
+issue: 'https://github.com/melis-wallet/melis-cm-client/issues/1'
+icon: 'io.melis.clientwallet.png'
 bugbounty: 
-meta: removed
-verdict: ftbfs
+meta: 'removed'
+verdict: 'ftbfs'
 appHashes: 
-date: 2023-12-19
+date: '2023-12-19'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from:
-- /io.melis.clientwallet/
-- /posts/io.melis.clientwallet/
-developerName: Melis
+- '/io.melis.clientwallet/'
+- '/posts/io.melis.clientwallet/'
+developerName: 'Melis'
 features: 
 
 ---

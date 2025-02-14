@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: noita
 appHashes: 
-date: 2024-01-05
+date: '2024-01-05'
 signer: 
 reviewArchive: 
 twitter: noidcards

@@ -1,15 +1,15 @@
 ---
 wsId: 
-title: CDEX
+title: 'CDEX'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.xsjys.bbtc.cdex
+appId: 'com.xsjys.bbtc.cdex'
 appCountry: 
-released: 2022-05-24
-updated: 2023-06-07
-version: 1.5.0
+released: '2022-05-24'
+updated: '2023-06-07'
+version: '1.5.0'
 stars: 4.3
 ratings: 
 reviews: 
@@ -17,18 +17,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.xsjys.bbtc.cdex.png
+icon: 'com.xsjys.bbtc.cdex.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2024-07-19
+date: '2024-07-19'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: CD-Exgroup
+developerName: 'CD-Exgroup'
 features: 
 
 ---

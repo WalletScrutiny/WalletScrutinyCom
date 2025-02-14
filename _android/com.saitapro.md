@@ -1,39 +1,39 @@
 ---
-wsId: saitaPro
-title: SaitaPro
+wsId: 'saitaPro'
+title: 'SaitaPro'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.saitapro
+appId: 'com.saitapro'
 appCountry: 
-released: 2022-07-29
-updated: 2024-09-27
+released: '2022-07-29'
+updated: '2024-09-27'
 version: '1.54'
 stars: 3.9
 ratings: 
 reviews: 331
 size: 
-website: http://Saitamatoken.com
+website: 'http://Saitamatoken.com'
 repository: 
 issue: 
-icon: com.saitapro.png
+icon: 'com.saitapro.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2024-11-04
+date: '2024-11-04'
 signer: 
 reviewArchive: 
-twitter: WeAreSaitama
+twitter: 'WeAreSaitama'
 social:
-- https://www.facebook.com/groups/1275234186328559
-- https://www.youtube.com/channel/UCcgXSwHloSMeXygKx8bTGBA
-- https://t.me/SaitamaWorldwide
-- https://discord.com/invite/saitama
-- https://www.reddit.com/r/WeAreSaitama
+- 'https://www.facebook.com/groups/1275234186328559'
+- 'https://www.youtube.com/channel/UCcgXSwHloSMeXygKx8bTGBA'
+- 'https://t.me/SaitamaWorldwide'
+- 'https://discord.com/invite/saitama'
+- 'https://www.reddit.com/r/WeAreSaitama'
 redirect_from: 
-developerName: Saitama Technology LLC
+developerName: 'Saitama Technology LLC'
 features: 
 
 ---

@@ -1,34 +1,33 @@
 ---
-wsId: rapixchange
-title: RapiXchangE
+wsId: 'rapixchange'
+title: 'RapiXchangE'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.rapiexchange
+appId: 'com.rapiexchange'
 appCountry: 
-released: 2022-04-19
+released: '2022-04-19'
 updated: 2025-02-05
 version: '2.70'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://www.rapixchange.com/
+website: 'https://www.rapixchange.com/'
 repository: 
 issue: 
-icon: com.rapiexchange.png
+icon: 'com.rapiexchange.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-04-29
+date: '2023-04-29'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Rapixchange
+developerName: 'Rapixchange'
 features: 
 
 ---

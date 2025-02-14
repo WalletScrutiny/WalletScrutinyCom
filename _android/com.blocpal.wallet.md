@@ -1,34 +1,34 @@
 ---
-wsId: BlocPal
-title: BlocPal Wallet
+wsId: 'BlocPal'
+title: 'BlocPal Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.blocpal.wallet
-appCountry: us
-released: 2018-10-30
-updated: 2022-01-19
-version: 2.0.38
+appId: 'com.blocpal.wallet'
+appCountry: 'us'
+released: '2018-10-30'
+updated: '2022-01-19'
+version: '2.0.38'
 stars: 5
 ratings: 60
 reviews: 
 size: 
-website: http://www.blocpal.com
+website: 'http://www.blocpal.com'
 repository: 
 issue: 
-icon: com.blocpal.wallet.png
+icon: 'com.blocpal.wallet.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2023-08-04
+date: '2023-08-04'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: BlocPal International Inc.
+developerName: 'BlocPal International Inc.'
 features: 
 
 ---

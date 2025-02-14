@@ -8,8 +8,8 @@ appId: com.kraken.superwallet.app
 appCountry: us
 idd: '1626327149'
 released: '2024-04-17'
-updated: 2025-02-07
-version: 1.17.0
+updated: '2025-02-07'
+version: '1.17.0'
 stars: 4.7
 reviews: 310
 size: '90196992'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nonverifiable
 appHashes: 
-date: 2025-02-04
+date: '2025-02-04'
 signer: 
 reviewArchive: 
 twitter: krakenfx

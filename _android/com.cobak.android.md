@@ -1,36 +1,35 @@
 ---
-wsId: cobak
-title: Cobak - Crypto Community App
+wsId: 'cobak'
+title: 'Cobak - Crypto Community App'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.cobak.android
-appCountry: us
-released: 2018-03-08
+appId: 'com.cobak.android'
+appCountry: 'us'
+released: '2018-03-08'
 updated: 2024-08-28
-version: 1.43.48
+version: '1.43.48'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://cobak.co.kr/
+website: 'https://cobak.co.kr/'
 repository: 
 issue: 
-icon: com.cobak.android.png
+icon: 'com.cobak.android.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-09-03
+date: '2021-09-03'
 signer: 
 reviewArchive: 
-twitter: CobakOfficial
+twitter: 'CobakOfficial'
 social:
-- https://www.linkedin.com/company/cobak
-- https://www.facebook.com/coindaebak
+- 'https://www.linkedin.com/company/cobak'
+- 'https://www.facebook.com/coindaebak'
 redirect_from: 
-developerName: 코박
+developerName: '코박'
 features: 
 
 ---

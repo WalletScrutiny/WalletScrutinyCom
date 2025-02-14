@@ -1,35 +1,35 @@
 ---
-wsId: SwipeWallet
-title: Swipe Wallet
+wsId: 'SwipeWallet'
+title: 'Swipe Wallet'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 100000
-appId: com.swipe.wallet
+appId: 'com.swipe.wallet'
 appCountry: 
-released: 2019-09-13
-updated: 2021-05-13
+released: '2019-09-13'
+updated: '2021-05-13'
 version: '1.901'
 stars: 2.6
 ratings: 1599
 reviews: 1110
-size: 57M
-website: https://swipe.io
+size: '57M'
+website: 'https://swipe.io'
 repository: 
 issue: 
-icon: com.swipe.wallet.png
+icon: 'com.swipe.wallet.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2021-07-06
+date: '2021-07-06'
 signer: 
 reviewArchive: 
-twitter: SwipeWallet
+twitter: 'SwipeWallet'
 social:
-- https://www.facebook.com/Swipe
+- 'https://www.facebook.com/Swipe'
 redirect_from:
-- /com.swipe.wallet/
+- '/com.swipe.wallet/'
 developerName: 
 features: 
 

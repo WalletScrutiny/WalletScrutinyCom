@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: ProfitTradingApp For KuCoin
+title: 'ProfitTradingApp For KuCoin'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.profittrading.forkucoin
+appId: 'com.profittrading.forkucoin'
 appCountry: 
-released: 2020-12-27
+released: '2020-12-27'
 updated: 2024-09-24
-version: 4.1.5
+version: '4.1.5'
 stars: 3.9
 ratings: 102
 reviews: 17
-size: 
-website: https://profittradingapp.com/
+website: 'https://profittradingapp.com/'
 repository: 
 issue: 
-icon: com.profittrading.forkucoin.png
+icon: 'com.profittrading.forkucoin.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-09-20
+date: '2021-09-20'
 signer: 
 reviewArchive: 
-twitter: ProfitTrading_
+twitter: 'ProfitTrading_'
 social:
-- https://www.facebook.com/profittradingapp
+- 'https://www.facebook.com/profittradingapp'
 redirect_from: 
-developerName: ProfitTradingApp
+developerName: 'ProfitTradingApp'
 features: 
 
 ---

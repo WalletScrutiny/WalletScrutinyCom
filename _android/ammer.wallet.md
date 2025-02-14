@@ -1,34 +1,33 @@
 ---
-wsId: ammerWallet
-title: Ammer Wallet
+wsId: 'ammerWallet'
+title: 'Ammer Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: ammer.wallet
+appId: 'ammer.wallet'
 appCountry: 
-released: 2022-12-05
+released: '2022-12-05'
 updated: 2024-11-27
-version: VARY
+version: 'VARY'
 stars: 4.4
 ratings: 
 reviews: 1
-size: 
-website: https://ammer.cards/
+website: 'https://ammer.cards/'
 repository: 
 issue: 
-icon: ammer.wallet.png
+icon: 'ammer.wallet.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-24
+date: '2024-07-24'
 signer: 
 reviewArchive: 
-twitter: AmmerCards
+twitter: 'AmmerCards'
 social: 
 redirect_from: 
-developerName: Ammer Technologies AG
+developerName: 'Ammer Technologies AG'
 features: 
 
 ---

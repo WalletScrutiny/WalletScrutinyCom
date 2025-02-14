@@ -1,38 +1,37 @@
 ---
-wsId: cmorqFinance
-title: OpenFi, Web3 Finance for all.
+wsId: 'cmorqFinance'
+title: 'OpenFi, Web3 Finance for all.'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.cmorq.hoopoe
+appId: 'com.cmorq.hoopoe'
 appCountry: 
-released: 2021-08-15
+released: '2021-08-15'
 updated: 2024-07-26
-version: 8.3.6
+version: '8.3.6'
 stars: 4.2
 ratings: 
 reviews: 33
-size: 
-website: https://www.cmorq.com
+website: 'https://www.cmorq.com'
 repository: 
 issue: 
-icon: com.cmorq.hoopoe.png
+icon: 'com.cmorq.hoopoe.png'
 bugbounty: 
-meta: ok
-verdict: nobtc
+meta: 'ok'
+verdict: 'nobtc'
 appHashes: 
-date: 2022-06-22
+date: '2022-06-22'
 signer: 
 reviewArchive: 
-twitter: cmorq_
+twitter: 'cmorq_'
 social:
-- https://www.instagram.com/cmorq_/
-- https://www.youtube.com/channel/UCzgf-7dC4hNbIb0TGtOuX6g
-- https://www.tiktok.com/@_cmorq?
-- https://www.facebook.com/DeFiBanking/
+- 'https://www.instagram.com/cmorq_/'
+- 'https://www.youtube.com/channel/UCzgf-7dC4hNbIb0TGtOuX6g'
+- 'https://www.tiktok.com/@_cmorq?'
+- 'https://www.facebook.com/DeFiBanking/'
 redirect_from: 
-developerName: cmorq inc.
+developerName: 'cmorq inc.'
 features: 
 
 ---

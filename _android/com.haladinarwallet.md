@@ -1,39 +1,39 @@
 ---
 wsId: 
-title: Haladinar HDN wallet
+title: 'Haladinar HDN wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.haladinarwallet
+appId: 'com.haladinarwallet'
 appCountry: 
-released: 2018-11-04
-updated: 2019-09-23
-version: 1.0.13
+released: '2018-11-04'
+updated: '2019-09-23'
+version: '1.0.13'
 stars: 5
 ratings: 
 reviews: 4
 size: 
-website: https://haladinar.io
+website: 'https://haladinar.io'
 repository: 
 issue: 
-icon: com.haladinarwallet.png
+icon: 'com.haladinarwallet.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2024-04-19
+date: '2024-04-19'
 signer: 
 reviewArchive: 
-twitter: haladinar
+twitter: 'haladinar'
 social:
-- https://web.archive.org/web/20190409054231/http://haladinar.io/hdn/index.html
-- https://facebook.com/haladinar.io
-- https://github.com/haladinar
-- https://t.me/haladinar
-- https://www.linkedin.com/in/haladinar-marketplace-999935171/
+- 'https://web.archive.org/web/20190409054231/http://haladinar.io/hdn/index.html'
+- 'https://facebook.com/haladinar.io'
+- 'https://github.com/haladinar'
+- 'https://t.me/haladinar'
+- 'https://www.linkedin.com/in/haladinar-marketplace-999935171/'
 redirect_from: 
-developerName: Haladinar
+developerName: 'Haladinar'
 features: 
 
 ---

@@ -3,9 +3,9 @@ title: Cold Storage Coins
 appId: coldstoragecoins
 authors:
 - danny
-released: 2017-12-28
+released: '2017-12-28'
 discontinued: 
-updated: 2022-01-31
+updated: '2022-01-31'
 version: 
 binaries: 
 dimensions:
@@ -25,7 +25,7 @@ icon: coldstoragecoins.png
 bugbounty: 
 meta: ok
 verdict: prefilled
-date: 2022-03-23
+date: '2022-03-23'
 signer: 
 reviewArchive: 
 twitter: coldstoragecoin

@@ -1,37 +1,37 @@
 ---
-wsId: ccwallet
+wsId: 'ccwallet'
 title: 'CCWallet: Your Bitcoin Wallet.'
 altTitle: 
 authors:
-- leo
-- emanuel
+- 'leo'
+- 'emanuel'
 users: 10000
-appId: com.ccwalletapp
+appId: 'com.ccwalletapp'
 appCountry: 
-released: 2019-06-26
-updated: 2020-07-29
-version: 1.3.1
+released: '2019-06-26'
+updated: '2020-07-29'
+version: '1.3.1'
 stars: 4.2
 ratings: 555
 reviews: 70
 size: 
-website: https://ccwalletapp.com/
-repository: https://github.com/coincasso/ccwallet
-issue: https://github.com/coincasso/ccwallet/issues/1
-icon: com.ccwalletapp.png
+website: 'https://ccwalletapp.com/'
+repository: 'https://github.com/coincasso/ccwallet'
+issue: 'https://github.com/coincasso/ccwallet/issues/1'
+icon: 'com.ccwalletapp.png'
 bugbounty: 
-meta: removed
-verdict: ftbfs
+meta: 'removed'
+verdict: 'ftbfs'
 appHashes: 
-date: 2024-05-07
+date: '2024-05-07'
 signer: 
 reviewArchive: 
-twitter: CoinCasso
+twitter: 'CoinCasso'
 social:
-- https://www.linkedin.com/company/coincasso
-- https://www.facebook.com/ccwallet.mobileapp
+- 'https://www.linkedin.com/company/coincasso'
+- 'https://www.facebook.com/ccwallet.mobileapp'
 redirect_from: 
-developerName: CoinCasso OU
+developerName: 'CoinCasso OU'
 features: 
 
 ---

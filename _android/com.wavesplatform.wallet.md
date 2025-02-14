@@ -1,34 +1,34 @@
 ---
-wsId: wavesExchange
-title: Waves.Exchange
+wsId: 'wavesExchange'
+title: 'Waves.Exchange'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 500000
-appId: com.wavesplatform.wallet
+appId: 'com.wavesplatform.wallet'
 appCountry: 
-released: 2017-03-09
-updated: 2022-12-15
-version: 2.28.3
+released: '2017-03-09'
+updated: '2022-12-15'
+version: '2.28.3'
 stars: 4
 ratings: 6992
 reviews: 173
 size: 
-website: https://support.waves.exchange/
+website: 'https://support.waves.exchange/'
 repository: 
 issue: 
-icon: com.wavesplatform.wallet.png
+icon: 'com.wavesplatform.wallet.png'
 bugbounty: 
-meta: removed
-verdict: nobtc
+meta: 'removed'
+verdict: 'nobtc'
 appHashes: 
-date: 2023-12-19
+date: '2023-12-19'
 signer: 
 reviewArchive: 
-twitter: waves_exchange
+twitter: 'waves_exchange'
 social: 
 redirect_from: 
-developerName: waves.exchange
+developerName: 'waves.exchange'
 features: 
 
 ---

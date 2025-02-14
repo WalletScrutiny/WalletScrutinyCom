@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: Assero Wallet
+title: 'Assero Wallet'
 altTitle: 
 authors: 
 users: 100
-appId: com.assero.asserowallet
+appId: 'com.assero.asserowallet'
 appCountry: 
-released: 2020-06-01
-updated: 2020-07-13
+released: '2020-06-01'
+updated: '2020-07-13'
 version: '1.9'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.asserosapphiremoney.com/
+website: 'https://www.asserosapphiremoney.com/'
 repository: 
 issue: 
-icon: com.assero.asserowallet.png
+icon: 'com.assero.asserowallet.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-02-05
+date: '2024-02-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Assero Group
+developerName: 'Assero Group'
 features: 
 
 ---

@@ -1,37 +1,37 @@
 ---
-wsId: koinkoin
-title: KoinKoin Exchange
+wsId: 'koinkoin'
+title: 'KoinKoin Exchange'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.koinkoin
+appId: 'com.koinkoin'
 appCountry: 
-released: 2021-02-22
-updated: 2024-07-17
-version: 2.3.5
+released: '2021-02-22'
+updated: '2024-07-17'
+version: '2.3.5'
 stars: 3.3
 ratings: 
 reviews: 
 size: 
-website: https://koinkoin.io/
+website: 'https://koinkoin.io/'
 repository: 
 issue: 
-icon: com.koinkoin.png
+icon: 'com.koinkoin.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-11-04
+date: '2024-11-04'
 signer: 
 reviewArchive: 
-twitter: koinkoin13
+twitter: 'koinkoin13'
 social:
-- https://www.reddit.com/r/KoinKoin_io/
-- https://www.facebook.com/Koinkoinn/
-- https://www.linkedin.com/company/koinkoin-ltd/
+- 'https://www.reddit.com/r/KoinKoin_io/'
+- 'https://www.facebook.com/Koinkoinn/'
+- 'https://www.linkedin.com/company/koinkoin-ltd/'
 redirect_from: 
-developerName: KoinKoin Development Enterprise
+developerName: 'KoinKoin Development Enterprise'
 features: 
 
 ---

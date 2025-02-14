@@ -7,9 +7,9 @@ authors:
 appId: io.infinito.wallet
 appCountry: 
 idd: 1315572736
-released: 2018-01-17
-updated: 2022-09-06
-version: 2.36.15
+released: '2018-01-17'
+updated: '2022-09-06'
+version: '2.36.15'
 stars: 4.2
 reviews: 179
 size: '107215872'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: nosource
 appHashes: 
-date: 2023-08-25
+date: '2023-08-25'
 signer: 
 reviewArchive: 
 twitter: Infinito_Ltd

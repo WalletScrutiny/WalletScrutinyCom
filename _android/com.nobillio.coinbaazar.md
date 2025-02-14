@@ -1,35 +1,34 @@
 ---
-wsId: CoinBaazar
-title: Coinbaazar- Crypto Marketplace
+wsId: 'CoinBaazar'
+title: 'Coinbaazar- Crypto Marketplace'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.nobillio.coinbaazar
-appCountry: us
-released: 2020-08-31
+appId: 'com.nobillio.coinbaazar'
+appCountry: 'us'
+released: '2020-08-31'
 updated: 2023-12-06
-version: 1.3.24
+version: '1.3.24'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://coinbaazar.com
+website: 'https://coinbaazar.com'
 repository: 
 issue: 
-icon: com.nobillio.coinbaazar.jpg
+icon: 'com.nobillio.coinbaazar.jpg'
 bugbounty: 
-meta: stale
-verdict: custodial
+meta: 'stale'
+verdict: 'custodial'
 appHashes: 
-date: 2024-12-04
+date: '2024-12-04'
 signer: 
 reviewArchive: 
-twitter: coin_baazar
+twitter: 'coin_baazar'
 social:
-- https://www.facebook.com/officialcoinbaazar
+- 'https://www.facebook.com/officialcoinbaazar'
 redirect_from: 
-developerName: Coinbaazar Exchange Team
+developerName: 'Coinbaazar Exchange Team'
 features: 
 
 ---

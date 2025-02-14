@@ -1,28 +1,28 @@
 ---
 wsId: 
-title: Murex Trivium (Bitcoin Lightning wallet)
+title: 'Murex Trivium (Bitcoin Lightning wallet)'
 altTitle: 
 authors:
-- kiwilamb
+- 'kiwilamb'
 users: 50
-appId: com.murextrivium.walletapp
+appId: 'com.murextrivium.walletapp'
 appCountry: 
-released: 2018-09-22
-updated: 2018-09-23
+released: '2018-09-22'
+updated: '2018-09-23'
 version: '1.2'
 stars: 
 ratings: 
 reviews: 
-size: 6.0M
-website: http://murexbitcoinsolutions.com/
+size: '6.0M'
+website: 'http://murexbitcoinsolutions.com/'
 repository: 
 issue: 
-icon: com.murextrivium.walletapp.png
+icon: 'com.murextrivium.walletapp.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-08-09
+date: '2021-08-09'
 signer: 
 reviewArchive: 
 twitter: 

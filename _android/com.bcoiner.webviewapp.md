@@ -1,35 +1,35 @@
 ---
 wsId: 
-title: Bcoiner - Free Bitcoin Wallet
+title: 'Bcoiner - Free Bitcoin Wallet'
 altTitle: 
 authors: 
 users: 100000
-appId: com.bcoiner.webviewapp
+appId: 'com.bcoiner.webviewapp'
 appCountry: 
-released: 2014-12-01
-updated: 2018-01-05
-version: 1.3.2
+released: '2014-12-01'
+updated: '2018-01-05'
+version: '1.3.2'
 stars: 4.3
 ratings: 2468
 reviews: 1251
-size: 2.2M
-website: https://bcoiner.com
+size: '2.2M'
+website: 'https://bcoiner.com'
 repository: 
 issue: 
-icon: com.bcoiner.webviewapp.png
+icon: 'com.bcoiner.webviewapp.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2021-06-23
+date: '2021-06-23'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from:
-- /bcoiner/
-- /com.bcoiner.webviewapp/
-- /posts/com.bcoiner.webviewapp/
+- '/bcoiner/'
+- '/com.bcoiner.webviewapp/'
+- '/posts/com.bcoiner.webviewapp/'
 developerName: 
 features: 
 

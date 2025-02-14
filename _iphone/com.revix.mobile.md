@@ -7,9 +7,9 @@ authors:
 appId: com.revix.mobile
 appCountry: za
 idd: '1590491829'
-released: 2022-08-01
-updated: 2024-12-20
-version: 2.3.0
+released: '2022-08-01'
+updated: '2024-12-20'
+version: '2.3.0'
 stars: 3.9
 reviews: 28
 size: '93686784'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2023-07-09
+date: '2023-07-09'
 signer: 
 reviewArchive: 
 twitter: RevixInvest

@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: FX5
+title: 'FX5'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.hustay.swing.d04aa7a2eb60648aaab1ff92aa1d4e72f
+appId: 'com.hustay.swing.d04aa7a2eb60648aaab1ff92aa1d4e72f'
 appCountry: 
-released: 2020-09-10
-updated: 2021-01-26
+released: '2020-09-10'
+updated: '2021-01-26'
 version: '0.3'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.f-x5.com
+website: 'https://www.f-x5.com'
 repository: 
 issue: 
-icon: com.hustay.swing.d04aa7a2eb60648aaab1ff92aa1d4e72f.png
+icon: 'com.hustay.swing.d04aa7a2eb60648aaab1ff92aa1d4e72f.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-08-04
+date: '2023-08-04'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: GO-WOON
+developerName: 'GO-WOON'
 features: 
 
 ---

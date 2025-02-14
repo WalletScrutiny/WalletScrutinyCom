@@ -1,35 +1,35 @@
 ---
 wsId: 
-title: QuickX Touch
+title: 'QuickX Touch'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 500
-appId: kr.co.keypair.quickxtouch
+appId: 'kr.co.keypair.quickxtouch'
 appCountry: 
-released: 2018-10-09
-updated: 2019-07-17
-version: 1.0.0.57
+released: '2018-10-09'
+updated: '2019-07-17'
+version: '1.0.0.57'
 stars: 
 ratings: 
 reviews: 
-size: 10M
-website: https://www.quickx.io
+size: '10M'
+website: 'https://www.quickx.io'
 repository: 
 issue: 
-icon: kr.co.keypair.quickxtouch.jpg
+icon: 'kr.co.keypair.quickxtouch.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2022-03-07
+date: '2022-03-07'
 signer: 
 reviewArchive: 
-twitter: quickxprotocol
+twitter: 'quickxprotocol'
 social:
-- https://www.linkedin.com/company/quickx
-- https://www.facebook.com/quickxprotocol
-- https://www.reddit.com/r/QuickX
+- 'https://www.linkedin.com/company/quickx'
+- 'https://www.facebook.com/quickxprotocol'
+- 'https://www.reddit.com/r/QuickX'
 redirect_from: 
 developerName: 
 features: 

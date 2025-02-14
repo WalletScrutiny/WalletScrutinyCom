@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: PawnHub
+title: 'PawnHub'
 altTitle: 
 authors: 
 users: 100
-appId: io.pawnhub.droid
+appId: 'io.pawnhub.droid'
 appCountry: 
-released: 2020-01-16
-updated: 2020-03-25
+released: '2020-01-16'
+updated: '2020-03-25'
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://pawnhub.io
+website: 'https://pawnhub.io'
 repository: 
 issue: 
-icon: io.pawnhub.droid.png
+icon: 'io.pawnhub.droid.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
 twitter: 

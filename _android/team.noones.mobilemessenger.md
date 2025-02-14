@@ -1,37 +1,36 @@
 ---
-wsId: noonesMarketplace
+wsId: 'noonesMarketplace'
 title: 'NoOnes: P2P BTC Marketplace'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: team.noones.mobilemessenger
+appId: 'team.noones.mobilemessenger'
 appCountry: 
-released: 2023-05-04
+released: '2023-05-04'
 updated: 2025-01-24
-version: 1.9.0
-stars: 3.7
+version: '1.9.0'
+stars: 3.8
 ratings: 
-reviews: 96
-size: 
-website: https://noones.com/
+reviews: 107
+website: 'https://noones.com/'
 repository: 
 issue: 
-icon: team.noones.mobilemessenger.png
+icon: 'team.noones.mobilemessenger.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-07-30
+date: '2023-07-30'
 signer: 
 reviewArchive: 
-twitter: noonesapp
+twitter: 'noonesapp'
 social:
-- https://www.tiktok.com/@noonesapp
-- https://www.facebook.com/noonesapp
-- https://www.instagram.com/noones.app
+- 'https://www.tiktok.com/@noonesapp'
+- 'https://www.facebook.com/noonesapp'
+- 'https://www.instagram.com/noones.app'
 redirect_from: 
-developerName: Eaton Consulting
+developerName: 'Eaton Consulting'
 features: 
 
 ---

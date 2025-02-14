@@ -1,33 +1,33 @@
 ---
-wsId: vccExchange
-title: VCC Exchange
+wsId: 'vccExchange'
+title: 'VCC Exchange'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.vccexchange
+appId: 'com.vccexchange'
 appCountry: 
-released: 2019-12-12
-updated: 2021-10-06
-version: 3.18.0
+released: '2019-12-12'
+updated: '2021-10-06'
+version: '3.18.0'
 stars: 4.9
 ratings: 
 reviews: 37
 size: 
-website: https://vcc.exchange/
+website: 'https://vcc.exchange/'
 repository: 
 issue: 
-icon: com.vccexchange.png
+icon: 'com.vccexchange.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
-twitter: VCCExchange
+twitter: 'VCCExchange'
 social:
-- https://www.facebook.com/vccexchange
+- 'https://www.facebook.com/vccexchange'
 redirect_from: 
 developerName: 
 features: 

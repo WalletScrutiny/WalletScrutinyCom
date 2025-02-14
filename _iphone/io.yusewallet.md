@@ -7,9 +7,9 @@ authors:
 appId: io.yusewallet
 appCountry: in
 idd: '6449364813'
-released: 2023-06-21
-updated: 2024-12-11
-version: 4.0.8
+released: '2023-06-21'
+updated: '2024-12-11'
+version: '4.0.8'
 stars: 5
 reviews: 6
 size: '74510336'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: 2024-09-04
+date: '2024-09-04'
 signer: 
 reviewArchive: 
 twitter: YuseToken

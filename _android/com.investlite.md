@@ -3,29 +3,29 @@ wsId:
 title: 'InvestLite: Forex & Stocks for Online Trading'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.investlite
+appId: 'com.investlite'
 appCountry: 
-released: 2020-12-18
-updated: 2021-11-29
-version: 1.5.78-investlite
+released: '2020-12-18'
+updated: '2021-11-29'
+version: '1.5.78-investlite'
 stars: 3.1
 ratings: 182
 reviews: 100
-size: 20M
-website: https://www.investlite.com/
+size: '20M'
+website: 'https://www.investlite.com/'
 repository: 
 issue: 
-icon: com.investlite.png
+icon: 'com.investlite.png'
 bugbounty: 
-meta: removed
-verdict: nosendreceive
+meta: 'removed'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2022-01-31
+date: '2022-01-31'
 signer: 
 reviewArchive: 
-twitter: invest_lite
+twitter: 'invest_lite'
 social: 
 redirect_from: 
 developerName: 

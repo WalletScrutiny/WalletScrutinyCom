@@ -7,9 +7,9 @@ authors:
 appId: io.stxr.structure.app.ios
 appCountry: us
 idd: '1563238917'
-released: 2021-05-18
-updated: 2023-01-31
-version: 1.5.0
+released: '2021-05-18'
+updated: '2023-01-31'
+version: '1.5.0'
 stars: 4.3
 reviews: 9
 size: '49890304'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: nobtc
 appHashes: 
-date: 2023-10-16
+date: '2023-10-16'
 signer: 
 reviewArchive: 
 twitter: structure_fi

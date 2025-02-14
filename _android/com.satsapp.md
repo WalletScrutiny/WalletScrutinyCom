@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: Sats App by Casa
+title: 'Sats App by Casa'
 altTitle: 
 authors: 
 users: 1000
-appId: com.satsapp
+appId: 'com.satsapp'
 appCountry: 
 released: 
-updated: 2020-04-13
-version: 1.3.1
+updated: '2020-04-13'
+version: '1.3.1'
 stars: 3.1
 ratings: 14
 reviews: 8
-size: 29M
-website: https://keys.casa
+size: '29M'
+website: 'https://keys.casa'
 repository: 
 issue: 
-icon: com.satsapp.png
+icon: 'com.satsapp.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2020-07-31
+date: '2020-07-31'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from:
-- /com.satsapp/
-- /posts/com.satsapp/
+- '/com.satsapp/'
+- '/posts/com.satsapp/'
 developerName: 
 features: 
 

@@ -7,9 +7,9 @@ authors:
 appId: com.coingrig.app
 appCountry: us
 idd: '1583464451'
-released: 2021-11-05
-updated: 2022-06-22
-version: 1.3.11
+released: '2021-11-05'
+updated: '2022-06-22'
+version: '1.3.11'
 stars: 0
 reviews: 0
 size: '42355712'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: wip
 appHashes: 
-date: 2023-08-04
+date: '2023-08-04'
 signer: 
 reviewArchive: 
 twitter: coingrig

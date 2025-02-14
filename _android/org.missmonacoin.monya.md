@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: Monya - Monacoin & Altcoins Wa
+title: 'Monya - Monacoin & Altcoins Wa'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: org.missmonacoin.monya
+appId: 'org.missmonacoin.monya'
 appCountry: 
-released: 2018-01-02
-updated: 2021-12-14
-version: 3.10.5
+released: '2018-01-02'
+updated: '2021-12-14'
+version: '3.10.5'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://monya-wallet.github.io
-repository: https://github.com/monya-wallet/monya
-issue: https://github.com/monya-wallet/monya/issues/130
-icon: org.missmonacoin.monya.png
+website: 'https://monya-wallet.github.io'
+repository: 'https://github.com/monya-wallet/monya'
+issue: 'https://github.com/monya-wallet/monya/issues/130'
+icon: 'org.missmonacoin.monya.png'
 bugbounty: 
-meta: removed
-verdict: nonverifiable
+meta: 'removed'
+verdict: 'nonverifiable'
 appHashes: 
-date: 2024-05-07
+date: '2024-05-07'
 signer: 
 reviewArchive: 
-twitter: monya_wallet
+twitter: 'monya_wallet'
 social: 
 redirect_from: 
-developerName: 藤原出帆
+developerName: '藤原出帆'
 features: 
 
 ---

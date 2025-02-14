@@ -1,35 +1,35 @@
 ---
 wsId: 
-title: Euphoria Wallet
+title: 'Euphoria Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.euphoriahit
+appId: 'com.euphoriahit'
 appCountry: 
 released: 
-updated: 2021-12-03
-version: VARY
+updated: '2021-12-03'
+version: 'VARY'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://euphoria.games/
+website: 'https://euphoria.games/'
 repository: 
 issue: 
-icon: com.euphoriahit.png
+icon: 'com.euphoriahit.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
-twitter: Euphoria_Hit
+twitter: 'Euphoria_Hit'
 social:
-- https://t.me/euphoriahitchat
+- 'https://t.me/euphoriahitchat'
 redirect_from: 
-developerName: Euphoria-Wallet
+developerName: 'Euphoria-Wallet'
 features: 
 
 ---

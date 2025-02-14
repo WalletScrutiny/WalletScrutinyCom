@@ -1,40 +1,39 @@
 ---
-wsId: yusetokenio
+wsId: 'yusetokenio'
 title: 'Yuse: Bitcoin & Crypto Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.yuse.wallet
+appId: 'com.yuse.wallet'
 appCountry: 
-released: 2023-05-19
+released: '2023-05-19'
 updated: 2024-12-10
-version: 79.0.0
+version: '79.0.0'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://yusetoken.io/
+website: 'https://yusetoken.io/'
 repository: 
 issue: 
-icon: com.yuse.wallet.jpg
+icon: 'com.yuse.wallet.jpg'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-09-04
+date: '2024-09-04'
 signer: 
 reviewArchive: 
-twitter: YuseToken
+twitter: 'YuseToken'
 social:
-- https://www.facebook.com/yusetoken
-- https://www.linkedin.com/company/yuse-technologies
-- https://www.youtube.com/watch?v=pJe3UDpb73M
-- https://www.instagram.com/yusetoken
-- https://t.me/joinchat/2h2s6lfji-83Zjdl
-- https://discord.com/invite/y3qt7zRnk9
+- 'https://www.facebook.com/yusetoken'
+- 'https://www.linkedin.com/company/yuse-technologies'
+- 'https://www.youtube.com/watch?v=pJe3UDpb73M'
+- 'https://www.instagram.com/yusetoken'
+- 'https://t.me/joinchat/2h2s6lfji-83Zjdl'
+- 'https://discord.com/invite/y3qt7zRnk9'
 redirect_from: 
-developerName: Web3 Innovations
+developerName: 'Web3 Innovations'
 features: 
 
 ---

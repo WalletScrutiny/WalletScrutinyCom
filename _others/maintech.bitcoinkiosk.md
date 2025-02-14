@@ -4,7 +4,7 @@ appId: maintech.bitcoinkiosk
 authors:
 - danny
 icon: maintech.bitcoinkiosk.png
-date: 2024-01-15
+date: '2024-01-15'
 website: https://maintechindustries.com/bitcoin-kiosk/#
 twitter: MainTECHIND
 social:

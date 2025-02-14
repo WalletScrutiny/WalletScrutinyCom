@@ -1,29 +1,29 @@
 ---
 wsId: 
-title: Blockchain India
-altTitle: (Fake) Blockchain India
+title: 'Blockchain India'
+altTitle: '(Fake) Blockchain India'
 authors:
-- emanuel
-- leo
+- 'emanuel'
+- 'leo'
 users: 5000
-appId: com.crypto.blockchain
+appId: 'com.crypto.blockchain'
 appCountry: 
-released: 2021-06-22
-updated: 2021-08-17
-version: 1.1.0
+released: '2021-06-22'
+updated: '2021-08-17'
+version: '1.1.0'
 stars: 3.6
 ratings: 29
 reviews: 13
-size: 8.0M
+size: '8.0M'
 website: 
 repository: 
 issue: 
-icon: com.crypto.blockchain.jpg
+icon: 'com.crypto.blockchain.jpg'
 bugbounty: 
-meta: removed
-verdict: fake
+meta: 'removed'
+verdict: 'fake'
 appHashes: 
-date: 2021-10-15
+date: '2021-10-15'
 signer: 
 reviewArchive: 
 twitter: 

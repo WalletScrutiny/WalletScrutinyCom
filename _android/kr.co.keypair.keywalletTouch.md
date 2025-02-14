@@ -1,35 +1,34 @@
 ---
-wsId: KeyWalletTouch
-title: KeyWallet Touch - CryptoWallet
+wsId: 'KeyWalletTouch'
+title: 'KeyWallet Touch - CryptoWallet'
 altTitle: 
 authors:
-- leo
-- danny
+- 'leo'
+- 'danny'
 users: 10000
-appId: kr.co.keypair.keywalletTouch
+appId: 'kr.co.keypair.keywalletTouch'
 appCountry: 
-released: 2018-05-13
+released: '2018-05-13'
 updated: 2024-12-31
-version: 3.0.47
+version: '3.0.47'
 stars: 4.3
 ratings: 109
 reviews: 16
-size: 
-website: http://keywallet.co.kr/en/
+website: 'http://keywallet.co.kr/en/'
 repository: 
 issue: 
-icon: kr.co.keypair.keywalletTouch.png
+icon: 'kr.co.keypair.keywalletTouch.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: []
-date: 2024-07-17
+date: '2024-07-17'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Keypair Co., Ltd.
+developerName: 'Keypair Co., Ltd.'
 features: 
 
 ---

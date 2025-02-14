@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: Private wallet
+title: 'Private wallet'
 altTitle: 
 authors: 
 users: 50
-appId: com.privatewallet.global
+appId: 'com.privatewallet.global'
 appCountry: 
-released: 2023-07-13
-updated: 2023-07-13
+released: '2023-07-13'
+updated: '2023-07-13'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://private-wallet.net
+website: 'https://private-wallet.net'
 repository: 
 issue: 
-icon: com.privatewallet.global.png
+icon: 'com.privatewallet.global.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-09-28
+date: '2023-09-28'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Digital needs
+developerName: 'Digital needs'
 features: 
 
 ---

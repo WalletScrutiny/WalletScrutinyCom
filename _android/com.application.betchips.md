@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: BETC Crypto Wallet App
+title: 'BETC Crypto Wallet App'
 altTitle: 
 authors: 
 users: 100
-appId: com.application.betchips
+appId: 'com.application.betchips'
 appCountry: 
-released: 2020-03-20
-updated: 2020-04-24
+released: '2020-03-20'
+updated: '2020-04-24'
 version: '1.4'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: http://thebetc.com
+website: 'http://thebetc.com'
 repository: 
 issue: 
-icon: com.application.betchips.png
+icon: 'com.application.betchips.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-04-03
+date: '2024-04-03'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Shri Rudra
+developerName: 'Shri Rudra'
 features: 
 
 ---

@@ -1,38 +1,37 @@
 ---
-wsId: swissQuoteTrading
-title: Swissquote
+wsId: 'swissQuoteTrading'
+title: 'Swissquote'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.swissquote.android
+appId: 'com.swissquote.android'
 appCountry: 
-released: 2010-06-17
-updated: 2025-02-07
-version: 8.2.1
+released: '2010-06-17'
+updated: 2025-02-14
+version: '8.3.1'
 stars: 3.2
 ratings: 
 reviews: 40
-size: 
-website: https://www.swissquote.com/
+website: 'https://www.swissquote.com/'
 repository: 
 issue: 
-icon: com.swissquote.android.png
+icon: 'com.swissquote.android.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-07-20
+date: '2023-07-20'
 signer: 
 reviewArchive: 
-twitter: Swissquote
+twitter: 'Swissquote'
 social:
-- https://www.linkedin.com/company/swissquote
-- https://www.facebook.com/Swissquote.en
-- https://www.youtube.com/user/SwissquoteBank
-- https://www.tiktok.com/@swissquote_official
+- 'https://www.linkedin.com/company/swissquote'
+- 'https://www.facebook.com/Swissquote.en'
+- 'https://www.youtube.com/user/SwissquoteBank'
+- 'https://www.tiktok.com/@swissquote_official'
 redirect_from: 
-developerName: Swissquote Mobile
+developerName: 'Swissquote Mobile'
 features: 
 
 ---

@@ -7,9 +7,9 @@ authors:
 appId: com.nicehash.mobile
 appCountry: us
 idd: '1372054956'
-released: 2020-04-29
-updated: 2025-02-04
-version: 6.1.1
+released: '2020-04-29'
+updated: '2025-02-04'
+version: '6.1.1'
 stars: 4.6
 reviews: 4009
 size: '107525120'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2022-06-24
+date: '2022-06-24'
 signer: 
 reviewArchive: 
 twitter: NiceHashMining

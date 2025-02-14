@@ -1,29 +1,29 @@
 ---
 wsId: 
-title: EXODUS CRYPTO BTC ETH WALLET TRX USDT
-altTitle: (Fake) EXODUS CRYPTO BTC ETH WALLET TRX USDT
+title: 'EXODUS CRYPTO BTC ETH WALLET TRX USDT'
+altTitle: '(Fake) EXODUS CRYPTO BTC ETH WALLET TRX USDT'
 authors:
-- emanuel
-- leo
+- 'emanuel'
+- 'leo'
 users: 100
-appId: wall.exodus.btcandcrypto
+appId: 'wall.exodus.btcandcrypto'
 appCountry: 
-released: 2021-07-16
-updated: 2021-07-16
+released: '2021-07-16'
+updated: '2021-07-16'
 version: '6.045'
 stars: 
 ratings: 
 reviews: 
-size: 10M
+size: '10M'
 website: 
 repository: 
 issue: 
-icon: wall.exodus.btcandcrypto.png
+icon: 'wall.exodus.btcandcrypto.png'
 bugbounty: 
-meta: removed
-verdict: fake
+meta: 'removed'
+verdict: 'fake'
 appHashes: 
-date: 2021-08-06
+date: '2021-08-06'
 signer: 
 reviewArchive: 
 twitter: 

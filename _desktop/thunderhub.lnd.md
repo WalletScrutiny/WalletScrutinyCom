@@ -3,10 +3,10 @@ title: Thunderhub LND
 appId: thunderhub.lnd
 authors:
 - danny
-released: 2020-04-09
+released: '2020-04-09'
 discontinued: 
-updated: 2024-01-02
-version: 0.13.30
+updated: '2024-01-02'
+version: '0.13.30'
 binaries: 
 provider: Thunderhub
 providerWebsite: 
@@ -17,7 +17,7 @@ icon: thunderhub.lnd.png
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2024-05-10
+date: '2024-05-10'
 reviewArchive: 
 twitter: thunderhubio
 social: 

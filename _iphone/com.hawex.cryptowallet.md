@@ -7,9 +7,9 @@ authors:
 appId: com.hawex.cryptowallet
 appCountry: cl
 idd: '1660970455'
-released: 2023-03-21
-updated: 2024-05-14
-version: 2.1 (18)
+released: '2023-03-21'
+updated: '2024-05-14'
+version: '2.1 (18)'
 stars: 0
 reviews: 0
 size: '102586368'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: nosource
 appHashes: 
-date: 2025-01-15
+date: '2025-01-15'
 signer: 
 reviewArchive: 
 twitter: hawexdao

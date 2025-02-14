@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: Coinchat 冷钱包
+title: 'Coinchat 冷钱包'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.coinchat.hdwallet
+appId: 'com.coinchat.hdwallet'
 appCountry: 
-released: 2018-10-14
-updated: 2018-10-15
+released: '2018-10-14'
+updated: '2018-10-15'
 version: '0.9'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: http://www.coinchat.im
+website: 'http://www.coinchat.im'
 repository: 
 issue: 
-icon: com.coinchat.hdwallet.png
+icon: 'com.coinchat.hdwallet.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2024-04-03
+date: '2024-04-03'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Biliao Foundation Ltd.
+developerName: 'Biliao Foundation Ltd.'
 features: 
 
 ---

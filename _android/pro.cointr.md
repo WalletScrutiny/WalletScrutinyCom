@@ -1,39 +1,39 @@
 ---
-wsId: coinTRPro
+wsId: 'coinTRPro'
 title: 'CoinTR Pro: Buy Bitcoin Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: pro.cointr
+appId: 'pro.cointr'
 appCountry: 
-released: 2022-10-30
-updated: 2024-07-27
-version: 2.4.13
+released: '2022-10-30'
+updated: '2024-07-27'
+version: '2.4.13'
 stars: 4.6
 ratings: 
 reviews: 56
 size: 
-website: https://www.cointr.pro
+website: 'https://www.cointr.pro'
 repository: 
 issue: 
-icon: pro.cointr.jpg
+icon: 'pro.cointr.jpg'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-10-23
+date: '2024-10-23'
 signer: 
 reviewArchive: 
-twitter: CoinTRpro
+twitter: 'CoinTRpro'
 social:
-- https://t.me/CoinTRPro
-- https://www.instagram.com/cointrturkiye
-- https://www.facebook.com/profile.php?id=100083113521452
-- https://www.youtube.com/channel/UCU2wOPdZ9mT2g3S2_wQcQQw
-- https://medium.com/@cointrbtc
+- 'https://t.me/CoinTRPro'
+- 'https://www.instagram.com/cointrturkiye'
+- 'https://www.facebook.com/profile.php?id=100083113521452'
+- 'https://www.youtube.com/channel/UCU2wOPdZ9mT2g3S2_wQcQQw'
+- 'https://medium.com/@cointrbtc'
 redirect_from: 
-developerName: CoinTR pro
+developerName: 'CoinTR pro'
 features: 
 
 ---

@@ -7,9 +7,9 @@ authors:
 appId: com.rocketsfintech.accrue-dca
 appCountry: gh
 idd: '1604973055'
-released: 2022-01-18
-updated: 2025-02-08
-version: 3.6.20
+released: '2022-01-18'
+updated: '2025-02-08'
+version: '3.6.20'
 stars: 4.4
 reviews: 2557
 size: '97827840'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2023-04-29
+date: '2023-04-29'
 signer: 
 reviewArchive: 
 twitter: useaccrue

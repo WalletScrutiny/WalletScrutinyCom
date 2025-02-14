@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Fake Crypto Investor
+title: 'Fake Crypto Investor'
 altTitle: 
 authors: 
 users: 50
-appId: net.xxxcoinnowfree.fake.crypto.investor
+appId: 'net.xxxcoinnowfree.fake.crypto.investor'
 appCountry: 
-released: 2021-07-22
-updated: 2021-07-22
+released: '2021-07-22'
+updated: '2021-07-22'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 2.3M
+size: '2.3M'
 website: 
 repository: 
 issue: 
-icon: net.xxxcoinnowfree.fake.crypto.investor.jpg
+icon: 'net.xxxcoinnowfree.fake.crypto.investor.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-10-01
+date: '2021-10-01'
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: Profit Share
+title: 'Profit Share'
 altTitle: 
 authors: 
 users: 500
-appId: profitshare.com.br
+appId: 'profitshare.com.br'
 appCountry: 
-released: 2021-09-29
-updated: 2022-04-23
-version: 1.0.8
+released: '2021-09-29'
+updated: '2022-04-23'
+version: '1.0.8'
 stars: 4
 ratings: 
 reviews: 
 size: 
-website: https://profitshare.com.br
+website: 'https://profitshare.com.br'
 repository: 
 issue: 
-icon: profitshare.com.br.png
+icon: 'profitshare.com.br.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-05-18
+date: '2024-05-18'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Fastcoin LTDA
+developerName: 'Fastcoin LTDA'
 features: 
 
 ---

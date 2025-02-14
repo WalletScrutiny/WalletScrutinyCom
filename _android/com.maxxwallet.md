@@ -1,35 +1,35 @@
 ---
 wsId: 
-title: Bitcoin Wallet - MaxWallet
+title: 'Bitcoin Wallet - MaxWallet'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 10000
-appId: com.maxxwallet
+appId: 'com.maxxwallet'
 appCountry: 
-released: 2019-03-25
-updated: 2019-06-12
-version: 3.7.3
+released: '2019-03-25'
+updated: '2019-06-12'
+version: '3.7.3'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: http://bitcoinwalletcoin.com
+website: 'http://bitcoinwalletcoin.com'
 repository: 
 issue: 
-icon: com.maxxwallet.png
+icon: 'com.maxxwallet.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2024-02-05
+date: '2024-02-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from:
-- /com.maxxwallet/
-developerName: MAX Wallet , Tov
+- '/com.maxxwallet/'
+developerName: 'MAX Wallet , Tov'
 features: 
 
 ---

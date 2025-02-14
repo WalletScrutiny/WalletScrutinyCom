@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: Bitcoin Testnet Wallet for COI
+title: 'Bitcoin Testnet Wallet for COI'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: org.coinid.wallet.tbtc
+appId: 'org.coinid.wallet.tbtc'
 appCountry: 
-released: 2019-02-06
-updated: 2021-02-20
-version: 1.8.0
+released: '2019-02-06'
+updated: '2021-02-20'
+version: '1.8.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://coinid.org
+website: 'https://coinid.org'
 repository: 
 issue: 
-icon: org.coinid.wallet.tbtc.png
+icon: 'org.coinid.wallet.tbtc.png'
 bugbounty: 
-meta: removed
-verdict: nobtc
+meta: 'removed'
+verdict: 'nobtc'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: COINiD Group
+developerName: 'COINiD Group'
 features: 
 
 ---

@@ -7,9 +7,9 @@ authors:
 appId: com.cypherstack.stackwallet
 appCountry: 
 idd: '1634811534'
-released: 2022-08-26
-updated: 2025-01-09
-version: 2.1.10
+released: '2022-08-26'
+updated: '2025-01-09'
+version: '2.1.10'
 stars: 4.2
 reviews: 17
 size: '178197504'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: wip
 appHashes: 
-date: 2023-09-08
+date: '2023-09-08'
 signer: 
 reviewArchive: 
 twitter: stack_wallet

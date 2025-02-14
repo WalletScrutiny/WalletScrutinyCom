@@ -1,36 +1,35 @@
 ---
-wsId: ZBX
-title: ZBX - Bitcoin & Cryptocurrency
+wsId: 'ZBX'
+title: 'ZBX - Bitcoin & Cryptocurrency'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.zbx.app
-appCountry: us
-released: 2019-10-18
+appId: 'com.zbx.app'
+appCountry: 'us'
+released: '2019-10-18'
 updated: 2024-12-30
-version: 2.5.2
+version: '2.5.2'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://www.zbx.com/
+website: 'https://www.zbx.com/'
 repository: 
 issue: 
-icon: com.zbx.app.png
+icon: 'com.zbx.app.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-11-15
+date: '2021-11-15'
 signer: 
 reviewArchive: 
-twitter: zbx_com
+twitter: 'zbx_com'
 social:
-- https://www.linkedin.com/company/zbx
-- https://www.facebook.com/ZBXExchange
+- 'https://www.linkedin.com/company/zbx'
+- 'https://www.facebook.com/ZBXExchange'
 redirect_from: 
-developerName: ZBX
+developerName: 'ZBX'
 features: 
 
 ---

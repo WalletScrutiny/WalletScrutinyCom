@@ -4,7 +4,7 @@ appId: memoryboxpro2
 authors:
 - kiwilamb
 - danny
-released: 2019-01-01
+released: '2019-01-01'
 discontinued: 
 updated: 
 version: 
@@ -24,7 +24,7 @@ bugbounty:
 meta: ok
 verdict: noita
 appHashes: 
-date: 2021-12-08
+date: '2021-12-08'
 signer: 
 reviewArchive: 
 twitter: Starteos

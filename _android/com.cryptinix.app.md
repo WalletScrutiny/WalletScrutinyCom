@@ -1,34 +1,34 @@
 ---
-wsId: Cryptinix
+wsId: 'Cryptinix'
 title: 'Cryptinix: Crypto Trading'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.cryptinix.app
-appCountry: us
-released: 2020-11-24
-updated: 2023-10-11
-version: 1.2.8
+appId: 'com.cryptinix.app'
+appCountry: 'us'
+released: '2020-11-24'
+updated: '2023-10-11'
+version: '1.2.8'
 stars: 
 ratings: 62
 reviews: 
 size: 
-website: https://cryptinix.com
+website: 'https://cryptinix.com'
 repository: 
 issue: 
-icon: com.cryptinix.app.png
+icon: 'com.cryptinix.app.png'
 bugbounty: 
-meta: stale
-verdict: custodial
+meta: 'stale'
+verdict: 'custodial'
 appHashes: 
-date: 2024-10-06
+date: '2024-10-06'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Cryptinix
+developerName: 'Cryptinix'
 features: 
 
 ---

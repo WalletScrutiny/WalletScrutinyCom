@@ -7,9 +7,9 @@ authors:
 appId: com.movocash.movo
 appCountry: us
 idd: '1538828856'
-released: 2021-04-01
-updated: 2022-12-09
-version: 4.3.2
+released: '2021-04-01'
+updated: '2022-12-09'
+version: '4.3.2'
 stars: 4.3
 reviews: 400
 size: '95207424'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: nosendreceive
 appHashes: 
-date: 2023-08-16
+date: '2023-08-16'
 signer: 
 reviewArchive: 
 twitter: MovoCash

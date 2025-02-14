@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: MoriX Wallet
+title: 'MoriX Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100
-appId: com.morix.wallet
+appId: 'com.morix.wallet'
 appCountry: 
-released: 2020-07-15
-updated: 2023-01-17
-version: v2.0.11
+released: '2020-07-15'
+updated: '2023-01-17'
+version: 'v2.0.11'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://morixjp.com/contact
+website: 'https://morixjp.com/contact'
 repository: 
 issue: 
-icon: com.morix.wallet.png
+icon: 'com.morix.wallet.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-10-10
+date: '2024-10-10'
 signer: 
 reviewArchive: 
-twitter: MoriXjp
+twitter: 'MoriXjp'
 social: 
 redirect_from: 
-developerName: MoriX Co., Ltd.
+developerName: 'MoriX Co., Ltd.'
 features: 
 
 ---

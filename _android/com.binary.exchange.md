@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Binary Exchange
+title: 'Binary Exchange'
 altTitle: 
 authors: 
 users: 100
-appId: com.binary.exchange
+appId: 'com.binary.exchange'
 appCountry: 
-released: 2020-08-19
-updated: 2020-09-27
-version: 4.0.0
+released: '2020-08-19'
+updated: '2020-09-27'
+version: '4.0.0'
 stars: 
 ratings: 
 reviews: 
-size: 14M
-website: https://www.binary-exchange.com
+size: '14M'
+website: 'https://www.binary-exchange.com'
 repository: 
 issue: 
-icon: com.binary.exchange.png
+icon: 'com.binary.exchange.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2022-02-16
+date: '2022-02-16'
 signer: 
 reviewArchive: 
 twitter: 

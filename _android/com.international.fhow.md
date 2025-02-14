@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Make Money
+title: 'Make Money'
 altTitle: 
 authors: 
 users: 10000
-appId: com.international.fhow
+appId: 'com.international.fhow'
 appCountry: 
-released: 2022-03-24
-updated: 2022-09-08
+released: '2022-03-24'
+updated: '2022-09-08'
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://combaijialesfvbwe.xyz
+website: 'https://combaijialesfvbwe.xyz'
 repository: 
 issue: 
-icon: com.international.fhow.png
+icon: 'com.international.fhow.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
 twitter: 

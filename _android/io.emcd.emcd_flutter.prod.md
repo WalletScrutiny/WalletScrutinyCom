@@ -1,38 +1,37 @@
 ---
-wsId: emcdPoolWallet
+wsId: 'emcdPoolWallet'
 title: 'EMCD: Crypto Wallet Mining BTC'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: io.emcd.emcd_flutter.prod
+appId: 'io.emcd.emcd_flutter.prod'
 appCountry: 
-released: 2022-01-03
+released: '2022-01-03'
 updated: 2025-02-04
-version: 2.9.1
+version: '2.9.1'
 stars: 4.4
 ratings: 
 reviews: 26
-size: 
-website: https://emcd.io/ru
+website: 'https://emcd.io/ru'
 repository: 
 issue: 
-icon: io.emcd.emcd_flutter.prod.png
+icon: 'io.emcd.emcd_flutter.prod.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-07-07
+date: '2023-07-07'
 signer: 
 reviewArchive: 
-twitter: emcd_io
+twitter: 'emcd_io'
 social:
-- https://t.me/emcd_community
-- https://vk.com/emcd_io
-- https://weixin.qq.com/g/Atjew2g9jgbSq6bq
-- https://discord.gg/yjk7RVr
+- 'https://t.me/emcd_community'
+- 'https://vk.com/emcd_io'
+- 'https://weixin.qq.com/g/Atjew2g9jgbSq6bq'
+- 'https://discord.gg/yjk7RVr'
 redirect_from: 
-developerName: Emcd Tech
+developerName: 'Emcd Tech'
 features: 
 
 ---

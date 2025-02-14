@@ -7,9 +7,9 @@ authors:
 appId: digital.fior.21app
 appCountry: lu
 idd: '1579302952'
-released: 2022-03-29
-updated: 2025-02-06
-version: 2.0.36
+released: '2022-03-29'
+updated: '2025-02-06'
+version: '2.0.36'
 stars: 0
 reviews: 0
 size: '76188672'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2023-09-06
+date: '2023-09-06'
 signer: 
 reviewArchive: 
 twitter: 21bitcoinApp

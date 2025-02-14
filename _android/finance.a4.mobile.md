@@ -1,40 +1,40 @@
 ---
-wsId: a4SpexyCryptoWallet
+wsId: 'a4SpexyCryptoWallet'
 title: 'A4/SPEXY: crypto wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: finance.a4.mobile
+appId: 'finance.a4.mobile'
 appCountry: 
-released: 2022-05-09
-updated: 2023-10-30
-version: 2.1.6
+released: '2022-05-09'
+updated: '2023-10-30'
+version: '2.1.6'
 stars: 4.6
 ratings: 
 reviews: 35
 size: 
-website: https://a4.finance/
+website: 'https://a4.finance/'
 repository: 
 issue: 
-icon: finance.a4.mobile.jpg
+icon: 'finance.a4.mobile.jpg'
 bugbounty: 
-meta: removed
-verdict: nobtc
+meta: 'removed'
+verdict: 'nobtc'
 appHashes: 
-date: 2024-08-04
+date: '2024-08-04'
 signer: 
 reviewArchive: 
-twitter: A4Finance
+twitter: 'A4Finance'
 social:
-- https://discord.com/invite/spexy
-- https://www.youtube.com/@a4.finance
-- https://www.instagram.com/a4_finance
-- https://t.me/a4_finance
-- https://www.linkedin.com/company/a4-fin
-- https://a4finance.medium.com
+- 'https://discord.com/invite/spexy'
+- 'https://www.youtube.com/@a4.finance'
+- 'https://www.instagram.com/a4_finance'
+- 'https://t.me/a4_finance'
+- 'https://www.linkedin.com/company/a4-fin'
+- 'https://a4finance.medium.com'
 redirect_from: 
-developerName: A4Finance LTD
+developerName: 'A4Finance LTD'
 features: 
 
 ---

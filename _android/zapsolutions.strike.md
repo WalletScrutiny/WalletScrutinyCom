@@ -1,36 +1,35 @@
 ---
-wsId: strike
+wsId: 'strike'
 title: 'STRIKE: BITCOIN'
 altTitle: 
 authors: 
 users: 1000000
-appId: zapsolutions.strike
+appId: 'zapsolutions.strike'
 appCountry: 
-released: 2020-08-06
+released: '2020-08-06'
 updated: 2025-02-11
-version: v2.99
+version: 'v2.99'
 stars: 4.6
 ratings: 6726
 reviews: 2535
-size: 
-website: https://strike.me/
+website: 'https://strike.me/'
 repository: 
 issue: 
-icon: zapsolutions.strike.png
+icon: 'zapsolutions.strike.png'
 bugbounty: 
-meta: ok
-verdict: nobtc
+meta: 'ok'
+verdict: 'nobtc'
 appHashes: 
-date: 2021-01-18
+date: '2021-01-18'
 signer: 
 reviewArchive: 
-twitter: ln_strike
+twitter: 'ln_strike'
 social: 
 redirect_from:
-- /zapsolutions.strike/
-developerName: Zap Solutions Holdings, Inc
+- '/zapsolutions.strike/'
+developerName: 'Zap Solutions Holdings, Inc'
 features:
-- ln
+- 'ln'
 
 ---
 

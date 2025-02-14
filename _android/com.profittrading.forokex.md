@@ -1,35 +1,35 @@
 ---
 wsId: 
-title: ProfitTradingApp for OKEx
+title: 'ProfitTradingApp for OKEx'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.profittrading.forokex
+appId: 'com.profittrading.forokex'
 appCountry: 
-released: 2020-06-11
-updated: 2020-07-23
-version: 1.2.0
+released: '2020-06-11'
+updated: '2020-07-23'
+version: '1.2.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://profittradingapp.com/
+website: 'https://profittradingapp.com/'
 repository: 
 issue: 
-icon: com.profittrading.forokex.png
+icon: 'com.profittrading.forokex.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2023-04-16
+date: '2023-04-16'
 signer: 
 reviewArchive: 
-twitter: ProfitTrading_
+twitter: 'ProfitTrading_'
 social:
-- https://www.facebook.com/profittradingapp
+- 'https://www.facebook.com/profittradingapp'
 redirect_from: 
-developerName: ProfitTradingApp
+developerName: 'ProfitTradingApp'
 features: 
 
 ---

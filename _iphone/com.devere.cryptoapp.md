@@ -7,8 +7,8 @@ authors:
 appId: com.devere.cryptoapp
 appCountry: jp
 idd: '1335720589'
-released: 2018-02-01
-updated: 2022-01-20
+released: '2018-02-01'
+updated: '2022-01-20'
 version: '5.1'
 stars: 5
 reviews: 1
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: nosendreceive
 appHashes: 
-date: 2024-11-29
+date: '2024-11-29'
 signer: 
 reviewArchive: 
 twitter: deveregroup

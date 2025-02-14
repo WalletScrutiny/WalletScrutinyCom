@@ -1,38 +1,37 @@
 ---
-wsId: breetBitcoin
+wsId: 'breetBitcoin'
 title: 'BREET: Sell Bitcoin, USDT, ETH'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.app.breet
+appId: 'com.app.breet'
 appCountry: 
-released: 2022-02-21
+released: '2022-02-21'
 updated: 2024-06-20
-version: 4.1.7
+version: '4.1.7'
 stars: 4.5
 ratings: 
 reviews: 159
-size: 
-website: https://breet.app
+website: 'https://breet.app'
 repository: 
 issue: 
-icon: com.app.breet.png
+icon: 'com.app.breet.png'
 bugbounty: 
-meta: ok
-verdict: nosendreceive
+meta: 'ok'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2023-07-19
+date: '2023-07-19'
 signer: 
 reviewArchive: 
-twitter: breetapp
+twitter: 'breetapp'
 social:
-- https://www.facebook.com/breetapp
-- https://www.instagram.com/breet_app
-- https://t.me/breetchannel
-- https://www.youtube.com/channel/UCyymPb01_pQF0JYj7l_YxxQ
+- 'https://www.facebook.com/breetapp'
+- 'https://www.instagram.com/breet_app'
+- 'https://t.me/breetchannel'
+- 'https://www.youtube.com/channel/UCyymPb01_pQF0JYj7l_YxxQ'
 redirect_from: 
-developerName: Breet Technologies Limited
+developerName: 'Breet Technologies Limited'
 features: 
 
 ---

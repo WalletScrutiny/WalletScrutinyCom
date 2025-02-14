@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: Waynance
+title: 'Waynance'
 altTitle: 
 authors: 
 users: 500
-appId: com.waynance.pay
+appId: 'com.waynance.pay'
 appCountry: 
-released: 2022-04-16
-updated: 2022-04-16
-version: 1.0.0
+released: '2022-04-16'
+updated: '2022-04-16'
+version: '1.0.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://waynance.com
+website: 'https://waynance.com'
 repository: 
 issue: 
-icon: com.waynance.pay.png
+icon: 'com.waynance.pay.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-02-05
+date: '2024-02-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Waynance One Click
+developerName: 'Waynance One Click'
 features: 
 
 ---

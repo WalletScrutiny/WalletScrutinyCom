@@ -1,35 +1,34 @@
 ---
-wsId: coinStats
-title: CoinStats - Crypto Tracker
+wsId: 'coinStats'
+title: 'CoinStats - Crypto Tracker'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000000
-appId: com.coinstats.crypto.portfolio
+appId: 'com.coinstats.crypto.portfolio'
 appCountry: 
-released: 2018-04-27
-updated: 2025-02-11
-version: 5.20.4
+released: '2018-04-27'
+updated: 2025-02-14
+version: '5.20.4'
 stars: 4.5
 ratings: 
-reviews: 2493
-size: 
-website: https://coinstats.app
+reviews: 2494
+website: 'https://coinstats.app'
 repository: 
 issue: 
-icon: com.coinstats.crypto.portfolio.png
+icon: 'com.coinstats.crypto.portfolio.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-09-06
+date: '2024-09-06'
 signer: 
 reviewArchive: 
-twitter: CoinStats
+twitter: 'CoinStats'
 social:
-- https://www.facebook.com/CoinStats
+- 'https://www.facebook.com/CoinStats'
 redirect_from: 
-developerName: Coin Stats, Inc . - Crypto Portfolio Tracker App
+developerName: 'Coin Stats, Inc . - Crypto Portfolio Tracker App'
 features: 
 
 ---

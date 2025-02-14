@@ -1,36 +1,35 @@
 ---
-wsId: exscudo
-title: Crypto & Bitcoin Wallet App
+wsId: 'exscudo'
+title: 'Crypto & Bitcoin Wallet App'
 altTitle: 
 authors:
-- kiwilamb
+- 'kiwilamb'
 users: 100000
-appId: com.exscudo.channels
-appCountry: ru
-released: 2018-05-17
+appId: 'com.exscudo.channels'
+appCountry: 'ru'
+released: '2018-05-17'
 updated: 2025-01-24
-version: 3.24.2604
+version: '3.24.2604'
 stars: 4.1
 ratings: 659
 reviews: 51
-size: 
-website: https://fintap.app
+website: 'https://fintap.app'
 repository: 
 issue: 
-icon: com.exscudo.channels.png
+icon: 'com.exscudo.channels.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-15
+date: '2024-07-15'
 signer: 
 reviewArchive: 
-twitter: ex_scudo
+twitter: 'ex_scudo'
 social:
-- https://www.facebook.com/exscudo
-- https://www.reddit.com/r/EXSCUDO
+- 'https://www.facebook.com/exscudo'
+- 'https://www.reddit.com/r/EXSCUDO'
 redirect_from: 
-developerName: NIMERA LTD
+developerName: 'NIMERA LTD'
 features: 
 
 ---

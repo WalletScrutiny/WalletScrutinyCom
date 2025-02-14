@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Murex | Universal
+title: 'Murex | Universal'
 altTitle: 
 authors: 
 users: 500
-appId: com.openwallet.wallet.dev
+appId: 'com.openwallet.wallet.dev'
 appCountry: 
 released: 
-updated: 2017-09-18
-version: v1.0.1
+updated: '2017-09-18'
+version: 'v1.0.1'
 stars: 4.5
 ratings: 13
 reviews: 11
-size: 5.7M
+size: '5.7M'
 website: 
 repository: 
 issue: 
-icon: com.openwallet.wallet.dev.png
+icon: 'com.openwallet.wallet.dev.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-11-10
+date: '2021-11-10'
 signer: 
 reviewArchive: 
 twitter: 

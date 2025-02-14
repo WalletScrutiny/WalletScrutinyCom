@@ -1,37 +1,36 @@
 ---
-wsId: ELLIPAL
+wsId: 'ELLIPAL'
 title: 'ELLIPAL: Crypto Bitcoin Wallet'
 altTitle: 
 authors:
-- leo
-- danny
+- 'leo'
+- 'danny'
 users: 50000
-appId: com.ellipal.wallet
-appCountry: us
-released: 2018-07-02
+appId: 'com.ellipal.wallet'
+appCountry: 'us'
+released: '2018-07-02'
 updated: 2025-01-24
-version: 4.5.1
-stars: 4
+version: '4.5.1'
+stars: 4.1
 ratings: 933
 reviews: 508
-size: 
-website: http://www.ellipal.com
+website: 'http://www.ellipal.com'
 repository: 
 issue: 
-icon: com.ellipal.wallet.png
+icon: 'com.ellipal.wallet.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-17
+date: '2024-07-17'
 signer: 
 reviewArchive: 
-twitter: ellipalwallet
+twitter: 'ellipalwallet'
 social:
-- https://www.facebook.com/ellipalclub
-- https://www.reddit.com/r/ELLIPAL_Official
+- 'https://www.facebook.com/ellipalclub'
+- 'https://www.reddit.com/r/ELLIPAL_Official'
 redirect_from: 
-developerName: ellipal
+developerName: 'ellipal'
 features: 
 
 ---

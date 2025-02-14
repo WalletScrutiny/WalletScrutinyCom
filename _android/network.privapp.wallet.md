@@ -1,40 +1,40 @@
 ---
 wsId: 
-title: Priva Wallet
+title: 'Priva Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: network.privapp.wallet
+appId: 'network.privapp.wallet'
 appCountry: 
-released: 2022-03-14
-updated: 2022-10-30
-version: 1.0.7
+released: '2022-03-14'
+updated: '2022-10-30'
+version: '1.0.7'
 stars: 4.5
 ratings: 
 reviews: 20
 size: 
-website: https://privapp.network/
+website: 'https://privapp.network/'
 repository: 
 issue: 
-icon: network.privapp.wallet.png
+icon: 'network.privapp.wallet.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2024-12-15
+date: '2024-12-15'
 signer: 
 reviewArchive: 
-twitter: PrivappNetwork
+twitter: 'PrivappNetwork'
 social:
-- https://t.me/PrivappNetwork
-- https://medium.com/@privappnetwork
-- https://www.linkedin.com/company/privapp-network
-- https://www.youtube.com/channel/UCvTrYGLsL2It6pLrxP0ip3Q
-- https://discord.com/invite/fepCFhdWeD
-- https://www.instagram.com/privappnetwork
+- 'https://t.me/PrivappNetwork'
+- 'https://medium.com/@privappnetwork'
+- 'https://www.linkedin.com/company/privapp-network'
+- 'https://www.youtube.com/channel/UCvTrYGLsL2It6pLrxP0ip3Q'
+- 'https://discord.com/invite/fepCFhdWeD'
+- 'https://www.instagram.com/privappnetwork'
 redirect_from: 
-developerName: Solvex Network
+developerName: 'Solvex Network'
 features: 
 
 ---

@@ -7,9 +7,9 @@ authors:
 appId: com.wbtcb.bitstock
 appCountry: us
 idd: '1508577020'
-released: 2020-06-22
-updated: 2025-02-06
-version: 2.9.0
+released: '2020-06-22'
+updated: '2025-02-06'
+version: '2.9.0'
 stars: 3.7
 reviews: 3
 size: '55158784'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nowallet
 appHashes: 
-date: 2023-11-17
+date: '2023-11-17'
 signer: 
 reviewArchive: 
 twitter: 

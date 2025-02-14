@@ -8,10 +8,10 @@ authors:
 - leo
 - Mohammad
 - keraliss
-released: 2022-04-07
+released: '2022-04-07'
 discontinued: 
-updated: 2025-01-11
-version: 0.6.1539
+updated: '2025-01-11'
+version: '0.6.1539'
 binaries: https://github.com/Cypherock/x1_wallet_firmware/releases/
 dimensions:
 - 30
@@ -32,35 +32,35 @@ meta: ok
 verdict: reproducible
 appHashes:
 - cacd04d1c6a5e2bd4f9c0adc56ab46e431fbb2347f29130290f02383ac8a7562
-date: 2025-01-13
+date: '2025-01-13'
 signer: 
 reviewArchive:
-- date: 2024-12-10
-  version: 0.6.1282
+- date: '2024-12-10'
+  version: '0.6.1282'
   appHashes:
   - 2d8ea19e1d257280eb21fbe98b1539389b456176284fe77012dd9be54423a93d
   gitRevision: 3fadfe82d841cefe9dabe322d1422f8404c98484
   verdict: reproducible
-- date: 2024-11-29
-  version: 0.6.1280
+- date: '2024-11-29'
+  version: '0.6.1280'
   appHashes:
   - 4407693c9d055870e2b5c7a390087bf4aa8274c9c272c8a1f7b825884a417de2
   gitRevision: 5d7b9b51299533649649997ba132ef2bd73f49f5
   verdict: reproducible
-- date: 2024-11-05
-  version: 0.6.768
+- date: '2024-11-05'
+  version: '0.6.768'
   appHashes:
   - be1594eb974efa7b2eac3e251c7c851e91c814fbd6378e6e8fd6e778156e8674
   gitRevision: c44d57846d87ed548dba1617429f7f227b6ec56e
   verdict: reproducible
-- date: 2023-05-25
-  version: 0.4.3075
+- date: '2023-05-25'
+  version: '0.4.3075'
   appHashes:
   - 656945ae37510bb1b7452c97d27cd5b638ddb0119e44e9af5aa32e02302f458e
   gitRevision: df67e48af949af6feceb8818552f44bb4245953a
   verdict: reproducible
-- date: 2023-04-06
-  version: 0.4.2307
+- date: '2023-04-06'
+  version: '0.4.2307'
   appHashes:
   - 09ed533290cdff4ca5f8148597a4d0a924ab5f10010a30ec2866abd39558a62d
   gitRevision: 6e003e6ad691140f3665fcf18953e97e301150ca

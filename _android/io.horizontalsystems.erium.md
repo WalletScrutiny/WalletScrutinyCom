@@ -1,37 +1,37 @@
 ---
-wsId: eriumWallet
-title: Erium - Crypto Exchange App
+wsId: 'eriumWallet'
+title: 'Erium - Crypto Exchange App'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: io.horizontalsystems.erium
+appId: 'io.horizontalsystems.erium'
 appCountry: 
-released: 2021-09-28
-updated: 2022-10-14
-version: 0.21.17
+released: '2021-09-28'
+updated: '2022-10-14'
+version: '0.21.17'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://erium.exchange/
+website: 'https://erium.exchange/'
 repository: 
 issue: 
-icon: io.horizontalsystems.erium.png
+icon: 'io.horizontalsystems.erium.png'
 bugbounty: 
-meta: obsolete
-verdict: nosource
+meta: 'obsolete'
+verdict: 'nosource'
 appHashes: 
-date: 2024-10-05
+date: '2024-10-05'
 signer: 
 reviewArchive: 
-twitter: EriumExchange
+twitter: 'EriumExchange'
 social:
-- https://t.me/Erium_exchange
-- https://discord.com/invite/9nUntZeCPP
-- https://medium.com/@eriumex
+- 'https://t.me/Erium_exchange'
+- 'https://discord.com/invite/9nUntZeCPP'
+- 'https://medium.com/@eriumex'
 redirect_from: 
-developerName: Devblockex
+developerName: 'Devblockex'
 features: 
 
 ---

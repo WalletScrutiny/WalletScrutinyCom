@@ -7,9 +7,9 @@ authors:
 appId: com.tronlink.hdwallet
 appCountry: us
 idd: '1453530188'
-released: 2019-03-02
-updated: 2024-10-15
-version: 4.14.3
+released: '2019-03-02'
+updated: '2024-10-15'
+version: '4.14.3'
 stars: 3.9
 reviews: 1106
 size: '185611264'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nobtc
 appHashes: 
-date: 2023-06-13
+date: '2023-06-13'
 signer: 
 reviewArchive: 
 twitter: 

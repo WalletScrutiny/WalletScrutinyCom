@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Hawala—Blockchain Wallet (BTC, ETH, LTC, BCH...)
+title: 'Hawala—Blockchain Wallet (BTC, ETH, LTC, BCH...)'
 altTitle: 
 authors: 
 users: 500
-appId: com.cyberblock.cyberblockmobile
+appId: 'com.cyberblock.cyberblockmobile'
 appCountry: 
-released: 2018-10-22
-updated: 2018-10-22
+released: '2018-10-22'
+updated: '2018-10-22'
 version: '2.0'
 stars: 1.8
 ratings: 5
 reviews: 2
-size: 17M
+size: '17M'
 website: 
 repository: 
 issue: 
-icon: com.cyberblock.cyberblockmobile.png
+icon: 'com.cyberblock.cyberblockmobile.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-10-15
+date: '2021-10-15'
 signer: 
 reviewArchive: 
 twitter: 

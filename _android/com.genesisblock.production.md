@@ -1,35 +1,35 @@
 ---
-wsId: GenesisBlock
-title: Hightop
+wsId: 'GenesisBlock'
+title: 'Hightop'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.genesisblock.production
-appCountry: us
-released: 2020-05-06
-updated: 2022-07-16
-version: 0.2.9
+appId: 'com.genesisblock.production'
+appCountry: 'us'
+released: '2020-05-06'
+updated: '2022-07-16'
+version: '0.2.9'
 stars: 3.9
 ratings: 57
 reviews: 17
 size: 
-website: https://hightop.com/
+website: 'https://hightop.com/'
 repository: 
 issue: 
-icon: com.genesisblock.production.png
+icon: 'com.genesisblock.production.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
-twitter: genesisblockhq
+twitter: 'genesisblockhq'
 social:
-- https://www.linkedin.com/company/genesisblockhq
-- https://www.facebook.com/genesisblockhq
-- https://www.reddit.com/r/genesisblockhq
+- 'https://www.linkedin.com/company/genesisblockhq'
+- 'https://www.facebook.com/genesisblockhq'
+- 'https://www.reddit.com/r/genesisblockhq'
 redirect_from: 
 developerName: 
 features: 

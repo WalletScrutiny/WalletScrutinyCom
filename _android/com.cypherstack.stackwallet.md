@@ -1,39 +1,38 @@
 ---
-wsId: stackWallet
-title: Stack Wallet
+wsId: 'stackWallet'
+title: 'Stack Wallet'
 altTitle: 
 authors:
-- danny
-- keraliss
+- 'danny'
+- 'keraliss'
 users: 10000
-appId: com.cypherstack.stackwallet
+appId: 'com.cypherstack.stackwallet'
 appCountry: 
-released: 2024-05-13
+released: '2024-05-13'
 updated: 2025-01-09
-version: 2.1.10
-stars: 4.8
+version: '2.1.10'
+stars: 4.9
 ratings: 
 reviews: 1
-size: 
 website: 
-repository: https://github.com/cypherstack/stack_wallet/tags
-issue: https://github.com/cypherstack/stack_wallet/issues/984
-icon: com.cypherstack.stackwallet.png
+repository: 'https://github.com/cypherstack/stack_wallet/tags'
+issue: 'https://github.com/cypherstack/stack_wallet/issues/984'
+icon: 'com.cypherstack.stackwallet.png'
 bugbounty: 
-meta: ok
-verdict: ftbfs
+meta: 'ok'
+verdict: 'ftbfs'
 appHashes: 
-date: 2023-09-11
+date: '2023-09-11'
 signer: 
 reviewArchive: 
-twitter: stack_wallet
+twitter: 'stack_wallet'
 social:
-- https://discord.com/invite/mRPZuXx3At
-- https://t.me/stackwallet
-- https://www.reddit.com/r/stackwallet
-- https://www.youtube.com/channel/UCqCtpXsLyNIle1uOO2DU7JA
+- 'https://discord.com/invite/mRPZuXx3At'
+- 'https://t.me/stackwallet'
+- 'https://www.reddit.com/r/stackwallet'
+- 'https://www.youtube.com/channel/UCqCtpXsLyNIle1uOO2DU7JA'
 redirect_from: 
-developerName: Cypher Stack Team
+developerName: 'Cypher Stack Team'
 features: 
 
 ---

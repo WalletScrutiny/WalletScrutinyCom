@@ -7,9 +7,9 @@ authors:
 appId: cz.anycoin.mobile
 appCountry: cz
 idd: '1616670336'
-released: 2022-04-25
-updated: 2024-11-19
-version: 1.27.8
+released: '2022-04-25'
+updated: '2024-11-19'
+version: '1.27.8'
 stars: 4
 reviews: 68
 size: '26076160'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2023-05-03
+date: '2023-05-03'
 signer: 
 reviewArchive: 
 twitter: anycoin_cz

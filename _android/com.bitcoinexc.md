@@ -1,35 +1,34 @@
 ---
-wsId: FMCPay
-title: FMCPAY
+wsId: 'FMCPay'
+title: 'FMCPAY'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000000
-appId: com.bitcoinexc
+appId: 'com.bitcoinexc'
 appCountry: 
-released: 2021-09-01
+released: '2021-09-01'
 updated: 2024-06-16
-version: '1.12'
+version: '1.18'
 stars: 3
 ratings: 
 reviews: 43
-size: 
-website: https://fmcpay.com/
-repository: https://github.com/fimark-coin/Smartcontract
+website: 'https://fmcpay.com/'
+repository: 'https://github.com/fimark-coin/Smartcontract'
 issue: 
-icon: com.bitcoinexc.png
+icon: 'com.bitcoinexc.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2022-07-06
+date: '2022-07-06'
 signer: 
 reviewArchive: 
-twitter: fmcpay
+twitter: 'fmcpay'
 social:
-- https://www.facebook.com/fmcpay/
+- 'https://www.facebook.com/fmcpay/'
 redirect_from: 
-developerName: FUINRE INC
+developerName: 'FUINRE INC'
 features: 
 
 ---

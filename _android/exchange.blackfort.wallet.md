@@ -1,36 +1,35 @@
 ---
-wsId: BlackFort
-title: BlackFort Wallet & Exchange
+wsId: 'BlackFort'
+title: 'BlackFort Wallet & Exchange'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: exchange.blackfort.wallet
-appCountry: ee
-released: 2020-08-31
+appId: 'exchange.blackfort.wallet'
+appCountry: 'ee'
+released: '2020-08-31'
 updated: 2021-10-27
-version: 1.3.18
+version: '1.3.18'
 stars: 4.2
 ratings: 64
 reviews: 53
-size: 
-website: https://blackfort.exchange
+website: 'https://blackfort.exchange'
 repository: 
 issue: 
-icon: exchange.blackfort.wallet.png
+icon: 'exchange.blackfort.wallet.png'
 bugbounty: 
-meta: obsolete
-verdict: nosource
+meta: 'obsolete'
+verdict: 'nosource'
 appHashes: 
-date: 2023-10-22
+date: '2023-10-22'
 signer: 
 reviewArchive: 
-twitter: BlackFort_Tech
+twitter: 'BlackFort_Tech'
 social:
-- https://www.linkedin.com/company/blackfort-wallet-exchange
-- https://www.facebook.com/BlackfortWalletExchange
+- 'https://www.linkedin.com/company/blackfort-wallet-exchange'
+- 'https://www.facebook.com/BlackfortWalletExchange'
 redirect_from: 
-developerName: Blackfort Technologies LLC
+developerName: 'Blackfort Technologies LLC'
 features: 
 
 ---

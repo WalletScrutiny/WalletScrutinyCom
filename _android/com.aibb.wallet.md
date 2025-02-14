@@ -1,33 +1,33 @@
 ---
-wsId: blockbank.v1
-title: BlockBank V1
+wsId: 'blockbank.v1'
+title: 'BlockBank V1'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.aibb.wallet
-appCountry: us
-released: 2019-04-04
-updated: 2021-10-04
-version: 2.3.15
+appId: 'com.aibb.wallet'
+appCountry: 'us'
+released: '2019-04-04'
+updated: '2021-10-04'
+version: '2.3.15'
 stars: 4.2
 ratings: 319
 reviews: 254
-size: 15M
-website: https://blockbank.ai/
+size: '15M'
+website: 'https://blockbank.ai/'
 repository: 
 issue: 
-icon: com.aibb.wallet.jpg
+icon: 'com.aibb.wallet.jpg'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-04-05
+date: '2023-04-05'
 signer: 
 reviewArchive: 
-twitter: BLOCKBANKapp
+twitter: 'BLOCKBANKapp'
 social:
-- https://www.facebook.com/blockbank
+- 'https://www.facebook.com/blockbank'
 redirect_from: 
 developerName: 
 features: 

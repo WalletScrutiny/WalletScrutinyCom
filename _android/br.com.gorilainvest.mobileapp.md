@@ -1,38 +1,37 @@
 ---
-wsId: gorilaInvest
+wsId: 'gorilaInvest'
 title: 'Gorila: gestão de investimento'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: br.com.gorilainvest.mobileapp
+appId: 'br.com.gorilainvest.mobileapp'
 appCountry: 
-released: 2019-05-13
+released: '2019-05-13'
 updated: 2025-01-16
-version: 6.7.1
+version: '6.7.1'
 stars: 4.4
 ratings: 
 reviews: 25
-size: 
-website: https://gorila.com.br
+website: 'https://gorila.com.br'
 repository: 
 issue: 
-icon: br.com.gorilainvest.mobileapp.jpg
+icon: 'br.com.gorilainvest.mobileapp.jpg'
 bugbounty: 
-meta: ok
-verdict: nosendreceive
+meta: 'ok'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2022-06-24
+date: '2022-06-24'
 signer: 
 reviewArchive: 
-twitter: gorilainvest
+twitter: 'gorilainvest'
 social:
-- https://www.facebook.com/GorilaInvest
-- https://www.instagram.com/gorilainvest
-- https://www.youtube.com/channel/UCYJiIU0DqDLiPcq8tWecjdw
-- https://www.linkedin.com/company/gorila
+- 'https://www.facebook.com/GorilaInvest'
+- 'https://www.instagram.com/gorilainvest'
+- 'https://www.youtube.com/channel/UCYJiIU0DqDLiPcq8tWecjdw'
+- 'https://www.linkedin.com/company/gorila'
 redirect_from: 
-developerName: Gorila - gestão de carteira de investimentos
+developerName: 'Gorila - gestão de carteira de investimentos'
 features: 
 
 ---

@@ -1,37 +1,36 @@
 ---
-wsId: adamanyMessenger
-title: ADAMANT Messenger
+wsId: 'adamanyMessenger'
+title: 'ADAMANT Messenger'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: im.adamant.adamantmessengerpwa
+appId: 'im.adamant.adamantmessengerpwa'
 appCountry: 
-released: 2020-06-13
+released: '2020-06-13'
 updated: 2024-09-05
-version: 4.8.1
+version: '4.8.1'
 stars: 4.2
 ratings: 
 reviews: 16
-size: 
-website: https://adamant.im
-repository: https://github.com/Adamant-im/adamant-im
-issue: https://github.com/Adamant-im/adamant-im/issues/666
-icon: im.adamant.adamantmessengerpwa.png
+website: 'https://adamant.im'
+repository: 'https://github.com/Adamant-im/adamant-im'
+issue: 'https://github.com/Adamant-im/adamant-im/issues/666'
+icon: 'im.adamant.adamantmessengerpwa.png'
 bugbounty: 
-meta: ok
-verdict: nonverifiable
+meta: 'ok'
+verdict: 'nonverifiable'
 appHashes: []
-date: 2024-09-18
+date: '2024-09-18'
 signer: 
 reviewArchive: 
-twitter: adamant_im
+twitter: 'adamant_im'
 social:
-- https://vk.com/adamant_im
-- https://t.me/adamant_eng
-- https://www.youtube.com/c/ADAMANTMessenger
+- 'https://vk.com/adamant_im'
+- 'https://t.me/adamant_eng'
+- 'https://www.youtube.com/c/ADAMANTMessenger'
 redirect_from: 
-developerName: ADAMANT Foundation
+developerName: 'ADAMANT Foundation'
 features: 
 
 ---

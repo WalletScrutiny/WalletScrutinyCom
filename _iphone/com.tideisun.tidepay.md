@@ -7,9 +7,9 @@ authors:
 appId: com.tideisun.tidepay
 appCountry: us
 idd: 1384802533
-released: 2018-06-09
-updated: 2024-10-08
-version: 4.0.5
+released: '2018-06-09'
+updated: '2024-10-08'
+version: '4.0.5'
 stars: 3
 reviews: 2
 size: '78177280'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2021-11-10
+date: '2021-11-10'
 signer: 
 reviewArchive: 
 twitter: isunone1

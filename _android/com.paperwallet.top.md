@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: Paper Crypto Wallet Generator
+title: 'Paper Crypto Wallet Generator'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.paperwallet.top
+appId: 'com.paperwallet.top'
 appCountry: 
-released: 2019-06-12
-updated: 2020-10-18
-version: 1.0.22
+released: '2019-06-12'
+updated: '2020-10-18'
+version: '1.0.22'
 stars: 4.4
 ratings: 55
 reviews: 4
 size: 
-website: https://github.com/technologiespro/paper-wallet-generator
-repository: https://github.com/technologiespro/paper-wallet-generator
+website: 'https://github.com/technologiespro/paper-wallet-generator'
+repository: 'https://github.com/technologiespro/paper-wallet-generator'
 issue: 
-icon: com.paperwallet.top.png
+icon: 'com.paperwallet.top.png'
 bugbounty: 
-meta: obsolete
-verdict: wip
+meta: 'obsolete'
+verdict: 'wip'
 appHashes: 
-date: 2023-04-08
+date: '2023-04-08'
 signer: 
 reviewArchive: 
-twitter: paperwallettop
+twitter: 'paperwallettop'
 social: 
 redirect_from: 
-developerName: TechnoL0g
+developerName: 'TechnoL0g'
 features: 
 
 ---

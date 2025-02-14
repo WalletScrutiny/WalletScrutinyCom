@@ -1,36 +1,35 @@
 ---
-wsId: xfrXTrade
-title: Xtrade - Online Trading
+wsId: 'xfrXTrade'
+title: 'Xtrade - Online Trading'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000000
-appId: com.xfr.xtrade
+appId: 'com.xfr.xtrade'
 appCountry: 
-released: 2014-10-02
+released: '2014-10-02'
 updated: 2025-02-12
-version: 7.0.4
+version: '7.0.4'
 stars: 4.2
 ratings: 37358
 reviews: 72
-size: 
-website: http://www.xtrade.com
+website: 'http://www.xtrade.com'
 repository: 
 issue: 
-icon: com.xfr.xtrade.png
+icon: 'com.xfr.xtrade.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-08-21
+date: '2021-08-21'
 signer: 
 reviewArchive: 
-twitter: XTrade
+twitter: 'XTrade'
 social:
-- https://www.linkedin.com/company/xtrade
-- https://www.facebook.com/XTrade
+- 'https://www.linkedin.com/company/xtrade'
+- 'https://www.facebook.com/XTrade'
 redirect_from: 
-developerName: XTRADE.com
+developerName: 'XTRADE.com'
 features: 
 
 ---

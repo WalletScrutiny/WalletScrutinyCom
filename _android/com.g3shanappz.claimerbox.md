@@ -1,13 +1,13 @@
 ---
 wsId: 
-title: Claimer Box Multi Coins in One
+title: 'Claimer Box Multi Coins in One'
 altTitle: 
 authors: 
 users: 1000
-appId: com.g3shanappz.claimerbox
+appId: 'com.g3shanappz.claimerbox'
 appCountry: 
-released: 2020-06-19
-updated: 2020-06-19
+released: '2020-06-19'
+updated: '2020-06-19'
 version: '1.1'
 stars: 
 ratings: 
@@ -16,12 +16,12 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.g3shanappz.claimerbox.jpg
+icon: 'com.g3shanappz.claimerbox.jpg'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2023-01-30
+date: '2023-01-30'
 signer: 
 reviewArchive: 
 twitter: 

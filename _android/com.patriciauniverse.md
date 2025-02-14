@@ -7,8 +7,8 @@ authors:
 users: 10000
 appId: com.patriciauniverse
 appCountry: 
-released: 2023-01-27
-updated: 2023-11-20
+released: '2023-01-27'
+updated: '2023-11-20'
 version: '1.2'
 stars: 2
 ratings: 
@@ -22,7 +22,7 @@ bugbounty:
 meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-11-15
+date: '2024-11-15'
 signer: 
 reviewArchive: 
 twitter: PatriciaSwitch

@@ -1,35 +1,35 @@
 ---
 wsId: 
-title: FBS Trader — Trading Platform
+title: 'FBS Trader — Trading Platform'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000000
-appId: com.fbs.tpand
+appId: 'com.fbs.tpand'
 appCountry: 
-released: 2019-03-25
-updated: 2023-12-22
-version: 1.58.6
+released: '2019-03-25'
+updated: '2023-12-22'
+version: '1.58.6'
 stars: 4.6
 ratings: 128577
 reviews: 78
 size: 
-website: https://fbs.com/
+website: 'https://fbs.com/'
 repository: 
 issue: 
-icon: com.fbs.tpand.png
+icon: 'com.fbs.tpand.png'
 bugbounty: 
-meta: removed
-verdict: nosendreceive
+meta: 'removed'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2024-05-18
+date: '2024-05-18'
 signer: 
 reviewArchive: 
-twitter: financefreedomsuccess
+twitter: 'financefreedomsuccess'
 social:
-- https://www.facebook.com/financefreedomsuccess
+- 'https://www.facebook.com/financefreedomsuccess'
 redirect_from: 
-developerName: FBS.com
+developerName: 'FBS.com'
 features: 
 
 ---

@@ -1,41 +1,41 @@
 ---
-wsId: coinpanelApp
-title: CoinPanel
+wsId: 'coinpanelApp'
+title: 'CoinPanel'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.coinpanel.appdev
+appId: 'com.coinpanel.appdev'
 appCountry: 
-released: 2022-05-15
-updated: 2023-01-10
-version: 2.0.0
+released: '2022-05-15'
+updated: '2023-01-10'
+version: '2.0.0'
 stars: 3.4
 ratings: 
 reviews: 
 size: 
-website: https://coinpanel.com/
+website: 'https://coinpanel.com/'
 repository: 
 issue: 
-icon: com.coinpanel.appdev.png
+icon: 'com.coinpanel.appdev.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-10-19
+date: '2024-10-19'
 signer: 
 reviewArchive: 
-twitter: coin_panel
+twitter: 'coin_panel'
 social:
-- https://www.linkedin.com/company/coinpanel
-- https://www.instagram.com/coin_panel
-- https://coin-panel.medium.com
-- https://www.facebook.com/coinpanel
-- https://www.tiktok.com/@coinpanel
-- https://www.youtube.com/c/CoinPanel
-- https://t.me/coin_panel
+- 'https://www.linkedin.com/company/coinpanel'
+- 'https://www.instagram.com/coin_panel'
+- 'https://coin-panel.medium.com'
+- 'https://www.facebook.com/coinpanel'
+- 'https://www.tiktok.com/@coinpanel'
+- 'https://www.youtube.com/c/CoinPanel'
+- 'https://t.me/coin_panel'
 redirect_from: 
-developerName: CoinPanel OÜ
+developerName: 'CoinPanel OÜ'
 features: 
 
 ---

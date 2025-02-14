@@ -1,38 +1,37 @@
 ---
-wsId: crypto2cash
-title: Crypto2Cash
+wsId: 'crypto2cash'
+title: 'Crypto2Cash'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: io.crypto2cash.exchange
+appId: 'io.crypto2cash.exchange'
 appCountry: 
-released: 2018-12-06
+released: '2018-12-06'
 updated: 2024-08-22
-version: 2.0.6
+version: '2.0.6'
 stars: 3.7
 ratings: 
 reviews: 4
-size: 
-website: https://www.crypto2cash.com/
+website: 'https://www.crypto2cash.com/'
 repository: 
 issue: 
-icon: io.crypto2cash.exchange.jpg
+icon: 'io.crypto2cash.exchange.jpg'
 bugbounty: 
-meta: ok
-verdict: nosendreceive
+meta: 'ok'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2023-06-13
+date: '2023-06-13'
 signer: 
 reviewArchive: 
-twitter: Crypto2CashHQ
+twitter: 'Crypto2CashHQ'
 social:
-- https://www.facebook.com/crypto2cashhq
-- https://crypto2cashhq.medium.com
-- https://www.instagram.com/crypto2cashhq
-- https://www.linkedin.com/company/crypto2cash
+- 'https://www.facebook.com/crypto2cashhq'
+- 'https://crypto2cashhq.medium.com'
+- 'https://www.instagram.com/crypto2cashhq'
+- 'https://www.linkedin.com/company/crypto2cash'
 redirect_from: 
-developerName: Crypto2Cash
+developerName: 'Crypto2Cash'
 features: 
 
 ---

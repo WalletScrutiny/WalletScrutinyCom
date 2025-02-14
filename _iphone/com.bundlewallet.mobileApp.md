@@ -7,9 +7,9 @@ authors:
 appId: com.bundlewallet.mobileApp
 appCountry: 
 idd: 1506502199
-released: 2020-06-03
-updated: 2021-07-17
-version: 3.0.0
+released: '2020-06-03'
+updated: '2021-07-17'
+version: '3.0.0'
 stars: 4.3
 reviews: 208
 size: 100101120
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2021-09-08
+date: '2021-09-08'
 signer: 
 reviewArchive: 
 twitter: 

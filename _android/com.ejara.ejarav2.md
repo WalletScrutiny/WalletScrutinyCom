@@ -1,35 +1,34 @@
 ---
-wsId: ejara
-title: Ejara
+wsId: 'ejara'
+title: 'Ejara'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.ejara.ejarav2
+appId: 'com.ejara.ejarav2'
 appCountry: 
-released: 2021-03-08
+released: '2021-03-08'
 updated: 2025-02-06
-version: 3.8.4
+version: '3.8.4'
 stars: 3.9
 ratings: 
 reviews: 21
-size: 
-website: https://www.ejara.io
+website: 'https://www.ejara.io'
 repository: 
 issue: 
-icon: com.ejara.ejarav2.jpg
+icon: 'com.ejara.ejarav2.jpg'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-17
+date: '2024-07-17'
 signer: 
 reviewArchive: 
-twitter: EjaraApp
+twitter: 'EjaraApp'
 social:
-- https://www.facebook.com/Ejaracapital
+- 'https://www.facebook.com/Ejaracapital'
 redirect_from: 
-developerName: Ejara
+developerName: 'Ejara'
 features: 
 
 ---

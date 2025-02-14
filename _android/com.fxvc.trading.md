@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: FXVC – CFDs Trading
+title: 'FXVC – CFDs Trading'
 altTitle: 
 authors: 
 users: 500
-appId: com.fxvc.trading
+appId: 'com.fxvc.trading'
 appCountry: 
 released: 
-updated: 2022-02-23
-version: 1.8.0
+updated: '2022-02-23'
+version: '1.8.0'
 stars: 2.5
 ratings: 
 reviews: 
 size: 
-website: https://fxvc.com
+website: 'https://fxvc.com'
 repository: 
 issue: 
-icon: com.fxvc.trading.png
+icon: 'com.fxvc.trading.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-04-26
+date: '2024-04-26'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: FXVC
+developerName: 'FXVC'
 features: 
 
 ---

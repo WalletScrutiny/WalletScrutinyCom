@@ -1,35 +1,34 @@
 ---
-wsId: covest
-title: 코베스트 - COVEST
+wsId: 'covest'
+title: '코베스트 - COVEST'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.covest.covestM
+appId: 'com.covest.covestM'
 appCountry: 
-released: 2022-11-03
+released: '2022-11-03'
 updated: 2024-10-15
 version: '1.5'
 stars: 4.2
 ratings: 
 reviews: 
-size: 
-website: https://covest.pro
+website: 'https://covest.pro'
 repository: 
 issue: 
-icon: com.covest.covestM.png
+icon: 'com.covest.covestM.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-05-17
+date: '2023-05-17'
 signer: 
 reviewArchive: 
-twitter: COVEST_Official
+twitter: 'COVEST_Official'
 social:
-- https://t.me/covestpro
+- 'https://t.me/covestpro'
 redirect_from: 
-developerName: COVEST PRO
+developerName: 'COVEST PRO'
 features: 
 
 ---

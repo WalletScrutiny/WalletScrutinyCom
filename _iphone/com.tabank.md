@@ -7,9 +7,9 @@ authors:
 appId: com.tabank
 appCountry: vn
 idd: '1566694611'
-released: 2021-08-27
-updated: 2022-02-28
-version: 1.3.5
+released: '2021-08-27'
+updated: '2022-02-28'
+version: '1.3.5'
 stars: 4.3
 reviews: 24
 size: '54308864'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: wip
 appHashes: 
-date: 2024-07-30
+date: '2024-07-30'
 signer: 
 reviewArchive: 
 twitter: OrgTabank

@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: BotTrade - Bitcoin AI Signal
+title: 'BotTrade - Bitcoin AI Signal'
 altTitle: 
 authors: 
 users: 500
-appId: trade.bot.app
+appId: 'trade.bot.app'
 appCountry: 
-released: 2022-10-12
+released: '2022-10-12'
 updated: 2025-02-12
-version: 2025.02.12.11
+version: '2025.02.12.11'
 stars: 4.9
 ratings: 
 reviews: 
-size: 
-website: https://bot.trade
+website: 'https://bot.trade'
 repository: 
 issue: 
-icon: trade.bot.app.png
+icon: 'trade.bot.app.png'
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: 'ok'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-06-03
+date: '2023-06-03'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: BotTrade
+developerName: 'BotTrade'
 features: 
 
 ---

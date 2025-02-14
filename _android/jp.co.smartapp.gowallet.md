@@ -1,33 +1,33 @@
 ---
-wsId: gowallet
-title: GO ! WALLET -  Ethereum Crypto Wallet & DApp
+wsId: 'gowallet'
+title: 'GO ! WALLET -  Ethereum Crypto Wallet & DApp'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: jp.co.smartapp.gowallet
-appCountry: us
-released: 2019-06-16
-updated: 2020-10-07
-version: 1.2.5
+appId: 'jp.co.smartapp.gowallet'
+appCountry: 'us'
+released: '2019-06-16'
+updated: '2020-10-07'
+version: '1.2.5'
 stars: 4
 ratings: 813
 reviews: 22
 size: 
-website: https://www.go-wallet.app/
+website: 'https://www.go-wallet.app/'
 repository: 
 issue: 
-icon: jp.co.smartapp.gowallet.png
+icon: 'jp.co.smartapp.gowallet.png'
 bugbounty: 
-meta: removed
-verdict: nobtc
+meta: 'removed'
+verdict: 'nobtc'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
-twitter: gowallet_app_
+twitter: 'gowallet_app_'
 social:
-- https://www.facebook.com/gowalletappli
+- 'https://www.facebook.com/gowalletappli'
 redirect_from: 
 developerName: 
 features: 

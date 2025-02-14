@@ -1,35 +1,35 @@
 ---
 wsId: 
-title: Dnar
+title: 'Dnar'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: dnar.wallet.app
+appId: 'dnar.wallet.app'
 appCountry: 
-released: 2019-11-24
-updated: 2022-06-23
+released: '2019-11-24'
+updated: '2022-06-23'
 version: '4.0'
 stars: 2.1
 ratings: 
 reviews: 11
 size: 
-website: https://dnar.io
+website: 'https://dnar.io'
 repository: 
 issue: 
-icon: dnar.wallet.app.jpg
+icon: 'dnar.wallet.app.jpg'
 bugbounty: 
-meta: defunct
-verdict: wip
+meta: 'defunct'
+verdict: 'wip'
 appHashes: 
-date: 2023-07-02
+date: '2023-07-02'
 signer: 
 reviewArchive: 
-twitter: dnarhq
+twitter: 'dnarhq'
 social:
-- https://www.facebook.com/dnar.inc
+- 'https://www.facebook.com/dnar.inc'
 redirect_from: 
-developerName: Dnar
+developerName: 'Dnar'
 features: 
 
 ---

@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Trinco Coins
+title: 'Trinco Coins'
 altTitle: 
 authors: 
 users: 10
-appId: com.trincocoins.app
+appId: 'com.trincocoins.app'
 appCountry: 
-released: 2022-02-21
-updated: 2022-02-21
+released: '2022-02-21'
+updated: '2022-02-21'
 version: '1.2'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: http://www.trincocoins.uk
+website: 'http://www.trincocoins.uk'
 repository: 
 issue: 
-icon: com.trincocoins.app.png
+icon: 'com.trincocoins.app.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
 twitter: 

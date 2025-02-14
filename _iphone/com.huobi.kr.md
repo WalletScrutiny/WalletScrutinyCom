@@ -7,9 +7,9 @@ authors:
 appId: com.huobi.kr
 appCountry: kr
 idd: 1375898166
-released: 2018-05-26
-updated: 2023-08-03
-version: 3.8.8
+released: '2018-05-26'
+updated: '2023-08-03'
+version: '3.8.8'
 stars: 2.8
 reviews: 273
 size: '158295040'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-02-05
+date: '2024-02-05'
 signer: 
 reviewArchive: 
 twitter: huobi_korea

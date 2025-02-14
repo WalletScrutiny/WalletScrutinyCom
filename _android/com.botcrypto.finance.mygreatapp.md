@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: All Crypto Trading Bot
+title: 'All Crypto Trading Bot'
 altTitle: 
 authors: 
 users: 500
-appId: com.botcrypto.finance.mygreatapp
+appId: 'com.botcrypto.finance.mygreatapp'
 appCountry: 
-released: 2022-03-22
-updated: 2022-03-23
+released: '2022-03-22'
+updated: '2022-03-23'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://botcrypto.mygreat.app/
+website: 'https://botcrypto.mygreat.app/'
 repository: 
 issue: 
-icon: com.botcrypto.finance.mygreatapp.png
+icon: 'com.botcrypto.finance.mygreatapp.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-03-21
+date: '2023-03-21'
 signer: 
 reviewArchive: 
 twitter: 

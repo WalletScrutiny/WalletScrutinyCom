@@ -1,38 +1,37 @@
 ---
-wsId: syfeInvest
+wsId: 'syfeInvest'
 title: 'Syfe: Invest, Trade and Save'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.syfe
+appId: 'com.syfe'
 appCountry: 
-released: 2020-02-13
+released: '2020-02-13'
 updated: 2025-01-31
-version: 12.7.0
+version: '12.7.0'
 stars: 3.6
 ratings: 
-reviews: 
-size: 
-website: https://www.syfe.com
+reviews: 4
+website: 'https://www.syfe.com'
 repository: 
 issue: 
-icon: com.syfe.jpg
+icon: 'com.syfe.jpg'
 bugbounty: 
-meta: ok
-verdict: nosendreceive
+meta: 'ok'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2023-07-10
+date: '2023-07-10'
 signer: 
 reviewArchive: 
-twitter: SyfeSG
+twitter: 'SyfeSG'
 social:
-- https://www.linkedin.com/company/syfe
-- https://www.facebook.com/SyfeSG
-- https://www.instagram.com/SyfeSG
-- https://www.youtube.com/c/SyfeSG
+- 'https://www.linkedin.com/company/syfe'
+- 'https://www.facebook.com/SyfeSG'
+- 'https://www.instagram.com/SyfeSG'
+- 'https://www.youtube.com/c/SyfeSG'
 redirect_from: 
-developerName: Syfe Pte. Ltd.
+developerName: 'Syfe Pte. Ltd.'
 features: 
 
 ---

@@ -3,10 +3,10 @@ title: Guarda
 appId: guarda
 authors:
 - danny
-released: 2021-05-01
+released: '2021-05-01'
 discontinued: 
-updated: 2021-08-13
-version: 1.0.20
+updated: '2021-08-13'
+version: '1.0.20'
 binaries: 
 provider: Guardaco LDA
 providerWebsite: 
@@ -17,7 +17,7 @@ icon: guarda.png
 bugbounty: 
 meta: obsolete
 verdict: wip
-date: 2024-04-25
+date: '2024-04-25'
 reviewArchive: 
 twitter: GuardaWallet
 social: 

@@ -1,37 +1,36 @@
 ---
 wsId: 
-title: Banexcoin
+title: 'Banexcoin'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.banexcoin.app.mobile
+appId: 'com.banexcoin.app.mobile'
 appCountry: 
-released: 2022-02-02
+released: '2022-02-02'
 updated: 2024-09-26
-version: 1.1.254
+version: '1.1.254'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://banexcoin.com
+website: 'https://banexcoin.com'
 repository: 
 issue: 
-icon: com.banexcoin.app.mobile.png
+icon: 'com.banexcoin.app.mobile.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-05-11
+date: '2023-05-11'
 signer: 
 reviewArchive: 
-twitter: banexcoin
+twitter: 'banexcoin'
 social:
-- https://www.linkedin.com/company/banexcoin/
-- https://www.instagram.com/banexcoin/
-- https://www.facebook.com/banexcoin
+- 'https://www.linkedin.com/company/banexcoin/'
+- 'https://www.instagram.com/banexcoin/'
+- 'https://www.facebook.com/banexcoin'
 redirect_from: 
-developerName: Banexcoin
+developerName: 'Banexcoin'
 features: 
 
 ---

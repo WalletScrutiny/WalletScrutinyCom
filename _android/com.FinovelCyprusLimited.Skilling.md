@@ -1,36 +1,35 @@
 ---
-wsId: Skilling
-title: Skilling - Forex Trading App
+wsId: 'Skilling'
+title: 'Skilling - Forex Trading App'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.FinovelCyprusLimited.Skilling
-appCountry: gb
-released: 2020-05-05
+appId: 'com.FinovelCyprusLimited.Skilling'
+appCountry: 'gb'
+released: '2020-05-05'
 updated: 2024-08-13
-version: 2.5.3
+version: '2.5.3'
 stars: 4.4
 ratings: 172
 reviews: 6
-size: 
-website: https://skilling.com/
+website: 'https://skilling.com/'
 repository: 
 issue: 
-icon: com.FinovelCyprusLimited.Skilling.png
+icon: 'com.FinovelCyprusLimited.Skilling.png'
 bugbounty: 
-meta: ok
-verdict: nosendreceive
+meta: 'ok'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2021-10-10
+date: '2021-10-10'
 signer: 
 reviewArchive: 
-twitter: SkillingTrading
+twitter: 'SkillingTrading'
 social:
-- https://www.linkedin.com/company/skilling
-- https://www.facebook.com/SkillingTrading
+- 'https://www.linkedin.com/company/skilling'
+- 'https://www.facebook.com/SkillingTrading'
 redirect_from: 
-developerName: Skilling
+developerName: 'Skilling'
 features: 
 
 ---

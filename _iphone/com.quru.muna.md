@@ -7,9 +7,9 @@ authors:
 appId: com.quru.muna
 appCountry: 
 idd: '1560415690'
-released: 2021-08-26
-updated: 2023-03-25
-version: 2.5.2
+released: '2021-08-26'
+updated: '2023-03-25'
+version: '2.5.2'
 stars: 3.3
 reviews: 3
 size: '55870464'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-05-17
+date: '2023-05-17'
 signer: 
 reviewArchive: 
 twitter: munawallet

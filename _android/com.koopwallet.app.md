@@ -1,15 +1,15 @@
 ---
-wsId: koopWallet
-title: KOOP Wallet
+wsId: 'koopWallet'
+title: 'KOOP Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.koopwallet.app
+appId: 'com.koopwallet.app'
 appCountry: 
-released: 2022-12-20
-updated: 2023-07-11
-version: 21.0.0
+released: '2022-12-20'
+updated: '2023-07-11'
+version: '21.0.0'
 stars: 3.5
 ratings: 
 reviews: 5
@@ -17,22 +17,22 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.koopwallet.app.png
+icon: 'com.koopwallet.app.png'
 bugbounty: 
-meta: stale
-verdict: nosource
+meta: 'stale'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
-twitter: KooP360
+twitter: 'KooP360'
 social:
-- https://www.facebook.com/KOOP360
-- https://t.me/KooP360
-- https://www.youtube.com/channel/UCjnEuhCgt4wKBAblnUAMOug
-- https://koop360.medium.com/
+- 'https://www.facebook.com/KOOP360'
+- 'https://t.me/KooP360'
+- 'https://www.youtube.com/channel/UCjnEuhCgt4wKBAblnUAMOug'
+- 'https://koop360.medium.com/'
 redirect_from: 
-developerName: KOOP LABS LLC
+developerName: 'KOOP LABS LLC'
 features: 
 
 ---

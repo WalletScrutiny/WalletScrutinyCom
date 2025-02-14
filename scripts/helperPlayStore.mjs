@@ -111,6 +111,7 @@ function updateFromApp (header, app) {
     : new Date(app.updated);
   header.users = app.minInstalls;
   header.stars = app.score || header.stars || null;
+  if (header.stars) header.stars = Number(header.stars.toPrecision(2));
   header.reviews = app.reviews || null;
   header.size = app.size;
   header.website = app.developerWebsite || header.website || null;

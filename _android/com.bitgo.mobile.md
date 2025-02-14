@@ -1,36 +1,36 @@
 ---
-wsId: bitGo
-title: BitGo
+wsId: 'bitGo'
+title: 'BitGo'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.bitgo.mobile
+appId: 'com.bitgo.mobile'
 appCountry: 
-released: 2022-04-15
-updated: 2023-01-19
-version: 1.7.0
+released: '2022-04-15'
+updated: '2023-01-19'
+version: '1.7.0'
 stars: 3.1
 ratings: 
 reviews: 6
 size: 
-website: https://bitgo.com
+website: 'https://bitgo.com'
 repository: 
 issue: 
-icon: com.bitgo.mobile.jpg
+icon: 'com.bitgo.mobile.jpg'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-10-03
+date: '2024-10-03'
 signer: 
 reviewArchive: 
-twitter: BitGo
+twitter: 'BitGo'
 social:
-- https://www.youtube.com/channel/UC7ILbUGTCM83sdilLB8Qlmg
-- https://www.linkedin.com/company/bitgo-inc
+- 'https://www.youtube.com/channel/UC7ILbUGTCM83sdilLB8Qlmg'
+- 'https://www.linkedin.com/company/bitgo-inc'
 redirect_from: 
-developerName: BitGo, Inc
+developerName: 'BitGo, Inc'
 features: 
 
 ---

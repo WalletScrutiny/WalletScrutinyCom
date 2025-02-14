@@ -1,34 +1,34 @@
 ---
-wsId: MathWallet
-title: MathWallet1
+wsId: 'MathWallet'
+title: 'MathWallet1'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.medishares.android
+appId: 'com.medishares.android'
 appCountry: 
-released: 2018-04-17
-updated: 2022-12-27
-version: 4.5.4
+released: '2018-04-17'
+updated: '2022-12-27'
+version: '4.5.4'
 stars: 3.9
 ratings: 2172
 reviews: 184
 size: 
-website: https://www.mathwallet.org/
+website: 'https://www.mathwallet.org/'
 repository: 
 issue: 
-icon: com.medishares.android.png
+icon: 'com.medishares.android.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2023-01-30
+date: '2023-01-30'
 signer: 
 reviewArchive: 
-twitter: Mathwallet
+twitter: 'Mathwallet'
 social: 
 redirect_from:
-- /com.medishares.android/
+- '/com.medishares.android/'
 developerName: 
 features: 
 

@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Bitcoin Heave
+title: 'Bitcoin Heave'
 altTitle: 
 authors: 
 users: 1
-appId: com.bitcoin.heaven
+appId: 'com.bitcoin.heaven'
 appCountry: 
-released: 2020-07-14
-updated: 2020-07-14
-version: 1.0.0
+released: '2020-07-14'
+updated: '2020-07-14'
+version: '1.0.0'
 stars: 
 ratings: 
 reviews: 
-size: 28M
+size: '28M'
 website: 
 repository: 
 issue: 
-icon: com.bitcoin.heaven.png
+icon: 'com.bitcoin.heaven.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-12-22
+date: '2021-12-22'
 signer: 
 reviewArchive: 
 twitter: 

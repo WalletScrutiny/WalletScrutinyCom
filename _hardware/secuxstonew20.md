@@ -29,7 +29,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: 2024-11-01
+date: '2024-11-01'
 signer: 
 reviewArchive: 
 twitter: SecuXwallet

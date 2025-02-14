@@ -7,9 +7,9 @@ authors:
 appId: com.zb.international
 appCountry: hk
 idd: '1569949633'
-released: 2021-07-19
-updated: 2022-10-31
-version: 1.4.0
+released: '2021-07-19'
+updated: '2022-10-31'
+version: '1.4.0'
 stars: 3.5
 reviews: 22
 size: '159645696'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-02-05
+date: '2024-02-05'
 signer: 
 reviewArchive: 
 twitter: ZBexchange

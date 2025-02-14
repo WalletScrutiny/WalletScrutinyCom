@@ -7,9 +7,9 @@ authors:
 appId: com.eurotoken.ataix
 appCountry: gb
 idd: 1467867553
-released: 2019-09-06
-updated: 2022-06-08
-version: 2.1.3
+released: '2019-09-06'
+updated: '2022-06-08'
+version: '2.1.3'
 stars: 0
 reviews: 0
 size: '51815424'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-04-16
+date: '2023-04-16'
 signer: 
 reviewArchive: 
 twitter: ATAIXcom

@@ -1,38 +1,37 @@
 ---
-wsId: Unocoin
+wsId: 'Unocoin'
 title: 'Unocoin: Bitcoin & 85+ Cryptos'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 1000000
-appId: com.unocoin.unocoinwallet
+appId: 'com.unocoin.unocoinwallet'
 appCountry: 
-released: 2016-11-30
+released: '2016-11-30'
 updated: 2025-01-06
-version: 5.3.24
+version: '5.3.24'
 stars: 3.5
 ratings: 20365
 reviews: 54
-size: 
-website: https://www.unocoin.com
+website: 'https://www.unocoin.com'
 repository: 
 issue: 
-icon: com.unocoin.unocoinwallet.png
+icon: 'com.unocoin.unocoinwallet.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2020-05-29
+date: '2020-05-29'
 signer: 
 reviewArchive: 
-twitter: Unocoin
+twitter: 'Unocoin'
 social:
-- https://www.linkedin.com/company/unocoin
-- https://www.facebook.com/unocoin
+- 'https://www.linkedin.com/company/unocoin'
+- 'https://www.facebook.com/unocoin'
 redirect_from:
-- /com.unocoin.unocoinwallet/
-- /posts/com.unocoin.unocoinwallet/
-developerName: Unocoin Technologies
+- '/com.unocoin.unocoinwallet/'
+- '/posts/com.unocoin.unocoinwallet/'
+developerName: 'Unocoin Technologies'
 features: 
 
 ---

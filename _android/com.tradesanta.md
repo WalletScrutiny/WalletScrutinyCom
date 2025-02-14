@@ -1,34 +1,34 @@
 ---
-wsId: TradeSanta
+wsId: 'TradeSanta'
 title: 'TradeSanta: Crypto Trading Bot'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.tradesanta
-appCountry: us
-released: 2019-05-20
-updated: 2024-09-16
-version: 3.2.2
+appId: 'com.tradesanta'
+appCountry: 'us'
+released: '2019-05-20'
+updated: '2024-09-16'
+version: '3.2.2'
 stars: 3.6
 ratings: 707
 reviews: 55
 size: 
-website: https://tradesanta.com
+website: 'https://tradesanta.com'
 repository: 
 issue: 
-icon: com.tradesanta.png
+icon: 'com.tradesanta.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2025-02-13
+date: '2025-02-13'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: TradeSanta - Crypto Trading Bot
+developerName: 'TradeSanta - Crypto Trading Bot'
 features: 
 
 ---

@@ -7,8 +7,8 @@ authors:
 appId: io.cryptex24.mobile
 appCountry: ua
 idd: '1580215134'
-released: 2022-07-06
-updated: 2022-12-05
+released: '2022-07-06'
+updated: '2022-12-05'
 version: '1.6'
 stars: 1
 reviews: 1
@@ -21,7 +21,7 @@ bugbounty:
 meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-11-25
+date: '2024-11-25'
 signer: 
 reviewArchive: 
 twitter: 

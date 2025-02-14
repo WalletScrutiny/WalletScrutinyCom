@@ -7,9 +7,9 @@ authors:
 appId: com.hashvest.hash
 appCountry: ng
 idd: '6443470887'
-released: 2022-11-11
-updated: 2024-04-17
-version: 1.0.8
+released: '2022-11-11'
+updated: '2024-04-17'
+version: '1.0.8'
 stars: 0
 reviews: 0
 size: '125763584'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: nowallet
 appHashes: 
-date: 2024-10-31
+date: '2024-10-31'
 signer: 
 reviewArchive: 
 twitter: gethashapp

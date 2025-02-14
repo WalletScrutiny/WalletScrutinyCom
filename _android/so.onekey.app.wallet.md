@@ -1,35 +1,34 @@
 ---
-wsId: onekeySo.new
+wsId: 'onekeySo.new'
 title: 'OneKey: Blockchain DeFi Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: so.onekey.app.wallet
+appId: 'so.onekey.app.wallet'
 appCountry: 
-released: 2022-04-27
+released: '2022-04-27'
 updated: 2025-01-24
-version: 5.6.0
+version: '5.6.0'
 stars: 4
 ratings: 
-reviews: 78
-size: 
-website: https://onekey.so
-repository: https://github.com/OneKeyHQ/app-monorepo
+reviews: 76
+website: 'https://onekey.so'
+repository: 'https://github.com/OneKeyHQ/app-monorepo'
 issue: 
-icon: so.onekey.app.wallet.png
+icon: 'so.onekey.app.wallet.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-04-18
+date: '2023-04-18'
 signer: 
 reviewArchive: 
-twitter: OneKeyHQ
+twitter: 'OneKeyHQ'
 social:
-- https://discord.com/invite/nwUJaTzjzv
+- 'https://discord.com/invite/nwUJaTzjzv'
 redirect_from: 
-developerName: ONEKEY LIMITED
+developerName: 'ONEKEY LIMITED'
 features: 
 
 ---

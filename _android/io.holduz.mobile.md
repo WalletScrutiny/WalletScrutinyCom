@@ -3,34 +3,34 @@ wsId:
 title: 'Holduz: Your DeFi Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: io.holduz.mobile
+appId: 'io.holduz.mobile'
 appCountry: 
-released: 2022-10-31
-updated: 2024-07-05
-version: 2024.07.01
+released: '2022-10-31'
+updated: '2024-07-05'
+version: '2024.07.01'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://holduz.io
+website: 'https://holduz.io'
 repository: 
 issue: 
-icon: io.holduz.mobile.png
+icon: 'io.holduz.mobile.png'
 bugbounty: 
-meta: removed
-verdict: nobtc
+meta: 'removed'
+verdict: 'nobtc'
 appHashes: 
-date: 2024-12-23
+date: '2024-12-23'
 signer: 
 reviewArchive: 
-twitter: holduz_io
+twitter: 'holduz_io'
 social:
-- https://t.me/holduz_io
-- https://discord.com/invite/3KVxWNvsJx
+- 'https://t.me/holduz_io'
+- 'https://discord.com/invite/3KVxWNvsJx'
 redirect_from: 
-developerName: GRAVT, s.r.o.
+developerName: 'GRAVT, s.r.o.'
 features: 
 
 ---

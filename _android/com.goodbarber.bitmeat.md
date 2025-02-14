@@ -1,28 +1,28 @@
 ---
 wsId: 
-title: BitMeet Peer to Peer Crypto Trading
+title: 'BitMeet Peer to Peer Crypto Trading'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 100
-appId: com.goodbarber.bitmeat
+appId: 'com.goodbarber.bitmeat'
 appCountry: 
-released: 2018-01-09
-updated: 2018-01-10
+released: '2018-01-09'
+updated: '2018-01-10'
 version: '1.0'
 stars: 2.2
 ratings: 6
 reviews: 4
-size: 13M
+size: '13M'
 website: 
 repository: 
 issue: 
-icon: com.goodbarber.bitmeat.png
+icon: 'com.goodbarber.bitmeat.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-10-30
+date: '2021-10-30'
 signer: 
 reviewArchive: 
 twitter: 

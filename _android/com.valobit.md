@@ -1,13 +1,13 @@
 ---
 wsId: 
-title: Valobit
+title: 'Valobit'
 altTitle: 
 authors: 
 users: 500
-appId: com.valobit
+appId: 'com.valobit'
 appCountry: 
-released: 2020-03-17
-updated: 2020-03-17
+released: '2020-03-17'
+updated: '2020-03-17'
 version: '1.0'
 stars: 4.4
 ratings: 
@@ -16,18 +16,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.valobit.png
+icon: 'com.valobit.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-04-19
+date: '2024-04-19'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Valobit Technology
+developerName: 'Valobit Technology'
 features: 
 
 ---

@@ -3,33 +3,32 @@ wsId:
 title: 'CryptoTab Farm: Digital Gold'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000000
-appId: com.cryptofarm
+appId: 'com.cryptofarm'
 appCountry: 
-released: 2021-06-10
+released: '2021-06-10'
 updated: 2025-02-10
-version: 1.0.1404
-stars: 4
+version: '1.0.1404'
+stars: 3.9
 ratings: 6172
-reviews: 683
-size: 
-website: https://cryptotab.farm/
+reviews: 684
+website: 'https://cryptotab.farm/'
 repository: 
 issue: 
-icon: com.cryptofarm.png
+icon: 'com.cryptofarm.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2021-11-01
+date: '2021-11-01'
 signer: 
 reviewArchive: 
-twitter: CryptoTabnet
+twitter: 'CryptoTabnet'
 social:
-- https://www.facebook.com/CryptoTabFarm
+- 'https://www.facebook.com/CryptoTabFarm'
 redirect_from: 
-developerName: CryptoCompany OU
+developerName: 'CryptoCompany OU'
 features: 
 
 ---

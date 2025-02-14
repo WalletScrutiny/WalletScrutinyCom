@@ -4,24 +4,24 @@ title: 'Coinovy: Bitcoin Crypto Wallet'
 altTitle: 
 authors: 
 users: 500
-appId: com.coinovy.coin
+appId: 'com.coinovy.coin'
 appCountry: 
-released: 2021-08-27
-updated: 2022-04-07
-version: 1.0.4
+released: '2021-08-27'
+updated: '2022-04-07'
+version: '1.0.4'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://coinovy.com/
+website: 'https://coinovy.com/'
 repository: 
 issue: 
-icon: com.coinovy.coin.png
+icon: 'com.coinovy.coin.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
 twitter: 

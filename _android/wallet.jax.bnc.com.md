@@ -1,29 +1,29 @@
 ---
 wsId: 
-title: Jaxx Liberty:New Wallet BTC ETH
-altTitle: (Fake) Jaxx Liberty:New Wallet BTC ETH
+title: 'Jaxx Liberty:New Wallet BTC ETH'
+altTitle: '(Fake) Jaxx Liberty:New Wallet BTC ETH'
 authors:
-- emanuel
-- leo
+- 'emanuel'
+- 'leo'
 users: 100
-appId: wallet.jax.bnc.com
+appId: 'wallet.jax.bnc.com'
 appCountry: 
-released: 2021-07-14
-updated: 2021-07-14
+released: '2021-07-14'
+updated: '2021-07-14'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 6.8M
+size: '6.8M'
 website: 
 repository: 
 issue: 
-icon: wallet.jax.bnc.com.png
+icon: 'wallet.jax.bnc.com.png'
 bugbounty: 
-meta: removed
-verdict: fake
+meta: 'removed'
+verdict: 'fake'
 appHashes: 
-date: 2021-08-23
+date: '2021-08-23'
 signer: 
 reviewArchive: 
 twitter: 

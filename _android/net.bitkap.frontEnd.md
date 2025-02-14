@@ -1,37 +1,36 @@
 ---
-wsId: bitkapAfrica
-title: Bitkap
+wsId: 'bitkapAfrica'
+title: 'Bitkap'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: net.bitkap.frontEnd
+appId: 'net.bitkap.frontEnd'
 appCountry: 
-released: 2021-11-21
+released: '2021-11-21'
 updated: 2025-01-28
-version: 2.0.4
+version: '2.0.4'
 stars: 3.7
 ratings: 
 reviews: 17
-size: 
-website: https://bitkap.africa
+website: 'https://bitkap.africa'
 repository: 
 issue: 
-icon: net.bitkap.frontEnd.jpg
+icon: 'net.bitkap.frontEnd.jpg'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-07-03
+date: '2023-07-03'
 signer: 
 reviewArchive: 
-twitter: BitkapO
+twitter: 'BitkapO'
 social:
-- https://www.linkedin.com/company/limitlesstech237
-- https://www.facebook.com/BitkapAfrica
-- https://t.me/joinchat/UKx9cqSCN9LBbH34
+- 'https://www.linkedin.com/company/limitlesstech237'
+- 'https://www.facebook.com/BitkapAfrica'
+- 'https://t.me/joinchat/UKx9cqSCN9LBbH34'
 redirect_from: 
-developerName: bitkap group
+developerName: 'bitkap group'
 features: 
 
 ---

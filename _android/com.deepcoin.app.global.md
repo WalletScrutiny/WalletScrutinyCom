@@ -1,35 +1,34 @@
 ---
-wsId: deepcoin
+wsId: 'deepcoin'
 title: 'Deepcoin: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.deepcoin.app.global
+appId: 'com.deepcoin.app.global'
 appCountry: 
-released: 2020-12-08
-updated: 2025-02-02
-version: 7.4.79
+released: '2020-12-08'
+updated: 2025-02-11
+version: '7.4.81'
 stars: 4.1
 ratings: 
 reviews: 26
-size: 
-website: https://www.deepcoin.com
+website: 'https://www.deepcoin.com'
 repository: 
 issue: 
-icon: com.deepcoin.app.global.png
+icon: 'com.deepcoin.app.global.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-02-10
+date: '2023-02-10'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://www.linkedin.com/company/deepcoinpro/
+- 'https://www.linkedin.com/company/deepcoinpro/'
 redirect_from: 
-developerName: DEEPCOIN PTE.LTD
+developerName: 'DEEPCOIN PTE.LTD'
 features: 
 
 ---

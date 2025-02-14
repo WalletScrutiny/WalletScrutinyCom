@@ -1,38 +1,37 @@
 ---
-wsId: obsidiam
-title: Obsidiam
+wsId: 'obsidiam'
+title: 'Obsidiam'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.obsidiam.android1
+appId: 'com.obsidiam.android1'
 appCountry: 
-released: 2020-08-24
+released: '2020-08-24'
 updated: 2024-03-22
-version: 1.6.6
+version: '1.6.6'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://obsidiam.com/
+website: 'https://obsidiam.com/'
 repository: 
 issue: 
-icon: com.obsidiam.android1.png
+icon: 'com.obsidiam.android1.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-05-31
+date: '2023-05-31'
 signer: 
 reviewArchive: 
-twitter: obsidiamlatam
+twitter: 'obsidiamlatam'
 social:
-- https://www.facebook.com/obsidiamexchange
-- https://www.youtube.com/channel/UC67iQdeNtxzRSEZu76cybQQ
-- https://www.instagram.com/obsidiam
-- https://t.me/obsidiam
+- 'https://www.facebook.com/obsidiamexchange'
+- 'https://www.youtube.com/channel/UC67iQdeNtxzRSEZu76cybQQ'
+- 'https://www.instagram.com/obsidiam'
+- 'https://t.me/obsidiam'
 redirect_from: 
-developerName: Obsidiam
+developerName: 'Obsidiam'
 features: 
 
 ---

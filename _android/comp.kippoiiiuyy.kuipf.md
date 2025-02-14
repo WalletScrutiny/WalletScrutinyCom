@@ -1,13 +1,13 @@
 ---
 wsId: 
-title: Upistic
+title: 'Upistic'
 altTitle: 
 authors: 
 users: 10
-appId: comp.kippoiiiuyy.kuipf
+appId: 'comp.kippoiiiuyy.kuipf'
 appCountry: 
-released: 2021-11-29
-updated: 2021-11-29
+released: '2021-11-29'
+updated: '2021-11-29'
 version: '1.0'
 stars: 
 ratings: 
@@ -16,18 +16,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: comp.kippoiiiuyy.kuipf.jpg
+icon: 'comp.kippoiiiuyy.kuipf.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-04-19
+date: '2024-04-19'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Botrel Apps
+developerName: 'Botrel Apps'
 features: 
 
 ---

@@ -1,38 +1,37 @@
 ---
-wsId: wexoCrypto
+wsId: 'wexoCrypto'
 title: 'WEXO: Bitcoin & Crypto Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: cz.hundredspires.wexo
+appId: 'cz.hundredspires.wexo'
 appCountry: 
-released: 2021-11-29
+released: '2021-11-29'
 updated: 2025-01-16
-version: 3.0.0.1
+version: '3.0.0.1'
 stars: 3.6
 ratings: 
 reviews: 13
-size: 
-website: https://wexopay.com
+website: 'https://wexopay.com'
 repository: 
 issue: 
-icon: cz.hundredspires.wexo.png
+icon: 'cz.hundredspires.wexo.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-06-30
+date: '2023-06-30'
 signer: 
 reviewArchive: 
-twitter: WexoOfficial
+twitter: 'WexoOfficial'
 social:
-- https://www.facebook.com/wexopay
-- https://t.me/WexoToken
-- https://www.youtube.com/channel/UCZhC-OF4j0I5ls51EjKT1UA
-- https://discord.com/invite/jhqwr7KFCn
+- 'https://www.facebook.com/wexopay'
+- 'https://t.me/WexoToken'
+- 'https://www.youtube.com/channel/UCZhC-OF4j0I5ls51EjKT1UA'
+- 'https://discord.com/invite/jhqwr7KFCn'
 redirect_from: 
-developerName: WEXO
+developerName: 'WEXO'
 features: 
 
 ---

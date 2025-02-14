@@ -1,34 +1,33 @@
 ---
-wsId: blockabcCCtip
-title: Cwallet - Secure Crypto Wallet
+wsId: 'blockabcCCtip'
+title: 'Cwallet - Secure Crypto Wallet'
 altTitle: 
 authors: 
 users: 500000
-appId: com.blockabc.cctip
+appId: 'com.blockabc.cctip'
 appCountry: 
-released: 2020-07-21
+released: '2020-07-21'
 updated: 2025-02-08
-version: 4.0.2
-stars: 4.1
+version: '4.0.2'
+stars: 4
 ratings: 
-reviews: 280
-size: 
-website: https://cwallet.com
+reviews: 281
+website: 'https://cwallet.com'
 repository: 
 issue: 
-icon: com.blockabc.cctip.png
+icon: 'com.blockabc.cctip.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2022-06-28
+date: '2022-06-28'
 signer: 
 reviewArchive: 
-twitter: cctip_com
+twitter: 'cctip_com'
 social:
-- https://www.reddit.com/r/CCTip/
+- 'https://www.reddit.com/r/CCTip/'
 redirect_from: 
-developerName: Cwallet
+developerName: 'Cwallet'
 features: 
 
 ---

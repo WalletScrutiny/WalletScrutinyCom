@@ -7,8 +7,8 @@ authors:
 appId: com.stormbird.alphawallet
 appCountry: us
 idd: 1358230430
-released: 2018-05-25
-updated: 2024-04-03
+released: '2018-05-25'
+updated: '2024-04-03'
 version: '3.72'
 stars: 4.7
 reviews: 304
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nobtc
 appHashes: 
-date: 2021-10-10
+date: '2021-10-10'
 signer: 
 reviewArchive: 
 twitter: Alpha_wallet

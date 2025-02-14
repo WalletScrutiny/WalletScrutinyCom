@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: POS by Crypto Cash Fast
+title: 'POS by Crypto Cash Fast'
 altTitle: 
 authors: 
 users: 5
-appId: com.crypto_business
+appId: 'com.crypto_business'
 appCountry: 
-released: 2021-10-08
-updated: 2021-10-14
+released: '2021-10-08'
+updated: '2021-10-14'
 version: '3.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.cryptocashfast.com
+website: 'https://www.cryptocashfast.com'
 repository: 
 issue: 
-icon: com.crypto_business.png
+icon: 'com.crypto_business.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-09-28
+date: '2023-09-28'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: The Cyber World
+developerName: 'The Cyber World'
 features: 
 
 ---

@@ -1,34 +1,34 @@
 ---
-wsId: tzerocrypto
-title: tZERO Crypto - Buy, Sell, Grow
+wsId: 'tzerocrypto'
+title: 'tZERO Crypto - Buy, Sell, Grow'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.tzero
-appCountry: us
-released: 2019-07-24
-updated: 2023-01-30
-version: 2.0.10733
+appId: 'com.tzero'
+appCountry: 'us'
+released: '2019-07-24'
+updated: '2023-01-30'
+version: '2.0.10733'
 stars: 3.4
 ratings: 322
 reviews: 137
 size: 
-website: http://www.tzero.com/crypto-app
+website: 'http://www.tzero.com/crypto-app'
 repository: 
 issue: 
-icon: com.tzero.png
+icon: 'com.tzero.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-04-16
+date: '2023-04-16'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: tZERO Crypto
+developerName: 'tZERO Crypto'
 features: 
 
 ---

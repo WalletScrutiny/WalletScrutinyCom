@@ -3,39 +3,38 @@ wsId:
 title: 'ZT: BTC Memes & Meta'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.zhengtong.zcoin
+appId: 'com.zhengtong.zcoin'
 appCountry: 
-released: 2021-12-01
+released: '2021-12-01'
 updated: 2022-11-23
-version: 2.0.8
+version: '2.0.8'
 stars: 2.9
 ratings: 
 reviews: 18
-size: 
-website: https://www.ztb.im/
+website: 'https://www.ztb.im/'
 repository: 
 issue: 
-icon: com.zhengtong.zcoin.png
+icon: 'com.zhengtong.zcoin.png'
 bugbounty: 
-meta: obsolete
-verdict: custodial
+meta: 'obsolete'
+verdict: 'custodial'
 appHashes: 
-date: 2024-11-13
+date: '2024-11-13'
 signer: 
 reviewArchive: 
-twitter: ZT_exchange
+twitter: 'ZT_exchange'
 social:
-- https://www.facebook.com/ZT.exchange
-- https://www.reddit.com/r/ZTExchange
-- https://discord.com/invite/nwuJKCPqtw
-- https://www.youtube.com/channel/UCLj7xDvMhPS-VxZiof3PzOw
-- https://zt-exchange.medium.com
-- https://www.instagram.com/zt.exchange
-- https://t.me/ZTGlobal_English
+- 'https://www.facebook.com/ZT.exchange'
+- 'https://www.reddit.com/r/ZTExchange'
+- 'https://discord.com/invite/nwuJKCPqtw'
+- 'https://www.youtube.com/channel/UCLj7xDvMhPS-VxZiof3PzOw'
+- 'https://zt-exchange.medium.com'
+- 'https://www.instagram.com/zt.exchange'
+- 'https://t.me/ZTGlobal_English'
 redirect_from: 
-developerName: Glory Global Technology Limited
+developerName: 'Glory Global Technology Limited'
 features: 
 
 ---

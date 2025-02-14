@@ -6,8 +6,8 @@ authors:
 appId: com.jackmallers.Strike
 appCountry: 
 idd: 1488724463
-released: 2020-08-10
-updated: 2025-02-12
+released: '2020-08-10'
+updated: '2025-02-12'
 version: '204.0'
 stars: 4.8
 reviews: 20711
@@ -20,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: nobtc
 appHashes: 
-date: 2021-01-18
+date: '2021-01-18'
 signer: 
 reviewArchive: 
 twitter: ln_strike

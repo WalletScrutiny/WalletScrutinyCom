@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Crypto Bot
+title: 'Crypto Bot'
 altTitle: 
 authors: 
 users: 10
-appId: net.bitcoinheroes.crypto.bot
+appId: 'net.bitcoinheroes.crypto.bot'
 appCountry: 
-released: 2021-06-15
-updated: 2021-06-15
+released: '2021-06-15'
+updated: '2021-06-15'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 3.4M
+size: '3.4M'
 website: 
 repository: 
 issue: 
-icon: net.bitcoinheroes.crypto.bot.jpg
+icon: 'net.bitcoinheroes.crypto.bot.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-10-01
+date: '2021-10-01'
 signer: 
 reviewArchive: 
 twitter: 

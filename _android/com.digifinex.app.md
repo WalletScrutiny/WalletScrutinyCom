@@ -1,38 +1,37 @@
 ---
-wsId: digifinex
-title: DigiFinex- Crypto Exchange
+wsId: 'digifinex'
+title: 'DigiFinex- Crypto Exchange'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 500000
-appId: com.digifinex.app
+appId: 'com.digifinex.app'
 appCountry: 
-released: 2018-06-26
+released: '2018-06-26'
 updated: 2025-01-16
-version: 2025.01.15
+version: '2025.01.15'
 stars: 3.5
 ratings: 4414
 reviews: 110
-size: 
-website: https://www.digifinex.com/
+website: 'https://www.digifinex.com/'
 repository: 
 issue: 
-icon: com.digifinex.app.png
+icon: 'com.digifinex.app.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2020-11-28
+date: '2020-11-28'
 signer: 
 reviewArchive: 
-twitter: DigiFinex
+twitter: 'DigiFinex'
 social:
-- https://www.linkedin.com/company/digifinex-global
-- https://www.facebook.com/digifinex.global
-- https://www.reddit.com/r/DigiFinex
+- 'https://www.linkedin.com/company/digifinex-global'
+- 'https://www.facebook.com/digifinex.global'
+- 'https://www.reddit.com/r/DigiFinex'
 redirect_from:
-- /com.digifinex.app/
-developerName: DigiFinex
+- '/com.digifinex.app/'
+developerName: 'DigiFinex'
 features: 
 
 ---

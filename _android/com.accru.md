@@ -1,36 +1,36 @@
 ---
-wsId: aqruApp
-title: AQRU
+wsId: 'aqruApp'
+title: 'AQRU'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.accru
+appId: 'com.accru'
 appCountry: 
-released: 2021-11-01
-updated: 2023-01-10
-version: 1.0.201
+released: '2021-11-01'
+updated: '2023-01-10'
+version: '1.0.201'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://aqru.io/
+website: 'https://aqru.io/'
 repository: 
 issue: 
-icon: com.accru.png
+icon: 'com.accru.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-11-07
+date: '2024-11-07'
 signer: 
 reviewArchive: 
-twitter: AQRU_Official
+twitter: 'AQRU_Official'
 social:
-- https://www.linkedin.com/company/get-aqru
-- https://t.me/AQRU_Official
+- 'https://www.linkedin.com/company/get-aqru'
+- 'https://t.me/AQRU_Official'
 redirect_from: 
-developerName: AQRU
+developerName: 'AQRU'
 features: 
 
 ---

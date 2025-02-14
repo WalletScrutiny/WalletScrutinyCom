@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: KuwaitiCoin
+title: 'KuwaitiCoin'
 altTitle: 
 authors: 
 users: 10
-appId: io.q8ecoin.bankwallet
+appId: 'io.q8ecoin.bankwallet'
 appCountry: 
-released: 2020-01-09
-updated: 2020-01-14
-version: 0.10.0
+released: '2020-01-09'
+updated: '2020-01-14'
+version: '0.10.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://q8ecoin.com
+website: 'https://q8ecoin.com'
 repository: 
 issue: 
-icon: io.q8ecoin.bankwallet.png
+icon: 'io.q8ecoin.bankwallet.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Coindroid
+developerName: 'Coindroid'
 features: 
 
 ---

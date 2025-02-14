@@ -1,40 +1,39 @@
 ---
-wsId: buda
-title: Buda.com
+wsId: 'buda'
+title: 'Buda.com'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 100000
-appId: com.buda.crypto
+appId: 'com.buda.crypto'
 appCountry: 
-released: 2018-01-04
+released: '2018-01-04'
 updated: 2024-08-21
-version: 2024.7.1
+version: '2024.7.1'
 stars: 3.7
 ratings: 648
 reviews: 18
-size: 
-website: https://buda.com
+website: 'https://buda.com'
 repository: 
 issue: 
-icon: com.buda.crypto.jpg
+icon: 'com.buda.crypto.jpg'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2022-01-07
+date: '2022-01-07'
 signer: 
 reviewArchive: 
-twitter: BudaPuntoCom
+twitter: 'BudaPuntoCom'
 social:
-- https://www.linkedin.com/company/budapuntocom
-- https://www.facebook.com/BudaPuntoCom
+- 'https://www.linkedin.com/company/budapuntocom'
+- 'https://www.facebook.com/BudaPuntoCom'
 redirect_from:
-- /com.buda.crypto/
-- /posts/com.buda.crypto/
-developerName: Buda.com
+- '/com.buda.crypto/'
+- '/posts/com.buda.crypto/'
+developerName: 'Buda.com'
 features:
-- ln
+- 'ln'
 
 ---
 

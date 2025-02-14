@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: Bittery
+title: 'Bittery'
 altTitle: 
 authors: 
 users: 10
-appId: com.github.bitteryapp
+appId: 'com.github.bitteryapp'
 appCountry: 
-released: 2021-06-26
-updated: 2021-07-02
-version: 1.0.3
+released: '2021-06-26'
+updated: '2021-07-02'
+version: '1.0.3'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://github.com/bitteryapp/bitteryapp-android
+website: 'https://github.com/bitteryapp/bitteryapp-android'
 repository: 
 issue: 
-icon: com.github.bitteryapp.png
+icon: 'com.github.bitteryapp.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-08-04
+date: '2023-08-04'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: BitteryApp
+developerName: 'BitteryApp'
 features: 
 
 ---

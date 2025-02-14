@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: Bitcoin Testnet Wallet
+title: 'Bitcoin Testnet Wallet'
 altTitle: 
 authors: 
 users: 10000
-appId: com.bitcoin.wallet.btc.testnet
+appId: 'com.bitcoin.wallet.btc.testnet'
 appCountry: 
-released: 2019-07-04
-updated: 2019-07-05
+released: '2019-07-04'
+updated: '2019-07-05'
 version: '1.0'
 stars: 4.5
 ratings: 37
 reviews: 1
 size: 
-website: https://bitcoin-wallet.flycricket.io/
+website: 'https://bitcoin-wallet.flycricket.io/'
 repository: 
 issue: 
-icon: com.bitcoin.wallet.btc.testnet.png
+icon: 'com.bitcoin.wallet.btc.testnet.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2023-09-28
+date: '2023-09-28'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: InvoVN Solutions
+developerName: 'InvoVN Solutions'
 features: 
 
 ---

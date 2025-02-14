@@ -1,13 +1,13 @@
 ---
 wsId: 
-title: Kudiro
+title: 'Kudiro'
 altTitle: 
 authors: 
 users: 50
-appId: app.Kudiro.io
+appId: 'app.Kudiro.io'
 appCountry: 
-released: 2022-07-11
-updated: 2022-07-12
+released: '2022-07-11'
+updated: '2022-07-12'
 version: '1.0'
 stars: 
 ratings: 
@@ -16,18 +16,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: app.Kudiro.io.png
+icon: 'app.Kudiro.io.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-12-19
+date: '2023-12-19'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Kudiro
+developerName: 'Kudiro'
 features: 
 
 ---

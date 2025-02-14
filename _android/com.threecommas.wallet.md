@@ -1,38 +1,38 @@
 ---
 wsId: 
-title: 3Commas Wallet
+title: '3Commas Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.threecommas.wallet
+appId: 'com.threecommas.wallet'
 appCountry: 
-released: 2022-03-19
-updated: 2022-10-05
+released: '2022-03-19'
+updated: '2022-10-05'
 version: '1.7'
 stars: 4.1
 ratings: 
 reviews: 3
 size: 
-website: https://3commas.io
+website: 'https://3commas.io'
 repository: 
 issue: 
-icon: com.threecommas.wallet.png
+icon: 'com.threecommas.wallet.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2023-12-19
+date: '2023-12-19'
 signer: 
 reviewArchive: 
-twitter: 3commas_io
+twitter: '3commas_io'
 social:
-- https://www.facebook.com/3Commas.io
-- https://t.me/commas
-- https://discord.com/invite/3commas
-- https://www.youtube.com/channel/UCig8XY-gsthRgM-zyv1nx6Q/videos
+- 'https://www.facebook.com/3Commas.io'
+- 'https://t.me/commas'
+- 'https://discord.com/invite/3commas'
+- 'https://www.youtube.com/channel/UCig8XY-gsthRgM-zyv1nx6Q/videos'
 redirect_from: 
-developerName: 3Сommas - Cryptocurrency trading terminal and bots
+developerName: '3Сommas - Cryptocurrency trading terminal and bots'
 features: 
 
 ---

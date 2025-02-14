@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: EPO Cash
+title: 'EPO Cash'
 altTitle: 
 authors: 
 users: 50
-appId: com.epocash.epocash
+appId: 'com.epocash.epocash'
 appCountry: 
-released: 2020-09-20
-updated: 2020-10-21
+released: '2020-09-20'
+updated: '2020-10-21'
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.epocash.com
+website: 'https://www.epocash.com'
 repository: 
 issue: 
-icon: com.epocash.epocash.jpg
+icon: 'com.epocash.epocash.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-02-05
+date: '2024-02-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: EPO Cash
+developerName: 'EPO Cash'
 features: 
 
 ---

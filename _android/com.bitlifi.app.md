@@ -1,37 +1,36 @@
 ---
-wsId: bitlifiApp
-title: Bitlifi
+wsId: 'bitlifiApp'
+title: 'Bitlifi'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.bitlifi.app
+appId: 'com.bitlifi.app'
 appCountry: 
-released: 2023-05-04
+released: '2023-05-04'
 updated: 2024-10-30
-version: 1.10.5
+version: '1.10.5'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://www.bitlifi.com
+website: 'https://www.bitlifi.com'
 repository: 
 issue: 
-icon: com.bitlifi.app.png
+icon: 'com.bitlifi.app.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-11-01
+date: '2023-11-01'
 signer: 
 reviewArchive: 
-twitter: bitlifi
+twitter: 'bitlifi'
 social:
-- https://www.facebook.com/bitlifi
+- 'https://www.facebook.com/bitlifi'
 redirect_from: 
-developerName: MP Developers s.r.o.
+developerName: 'MP Developers s.r.o.'
 features:
-- ln
+- 'ln'
 
 ---
 

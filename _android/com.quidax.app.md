@@ -1,34 +1,34 @@
 ---
-wsId: Quidax
-title: Quidax Classic
+wsId: 'Quidax'
+title: 'Quidax Classic'
 altTitle: 
 authors:
-- kiwilamb
+- 'kiwilamb'
 users: 100000
-appId: com.quidax.app
+appId: 'com.quidax.app'
 appCountry: 
-released: 2019-10-31
-updated: 2021-01-12
-version: 1.8.0
+released: '2019-10-31'
+updated: '2021-01-12'
+version: '1.8.0'
 stars: 3
 ratings: 2041
 reviews: 1584
-size: 53M
-website: https://www.quidax.com
+size: '53M'
+website: 'https://www.quidax.com'
 repository: 
 issue: 
-icon: com.quidax.app.png
+icon: 'com.quidax.app.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2022-02-10
+date: '2022-02-10'
 signer: 
 reviewArchive: 
-twitter: QuidaxAfrica
+twitter: 'QuidaxAfrica'
 social:
-- https://www.linkedin.com/company/quidax
-- https://www.facebook.com/quidaxafrica
+- 'https://www.linkedin.com/company/quidax'
+- 'https://www.facebook.com/quidaxafrica'
 redirect_from: 
 developerName: 
 features: 

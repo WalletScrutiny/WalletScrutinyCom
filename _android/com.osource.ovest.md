@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: OVest
+title: 'OVest'
 altTitle: 
 authors: 
 users: 1000
-appId: com.osource.ovest
+appId: 'com.osource.ovest'
 appCountry: 
-released: 2021-09-04
-updated: 2022-03-04
-version: 1.0.7
+released: '2021-09-04'
+updated: '2022-03-04'
+version: '1.0.7'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://myovest.com
+website: 'https://myovest.com'
 repository: 
 issue: 
-icon: com.osource.ovest.png
+icon: 'com.osource.ovest.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2024-09-10
+date: '2024-09-10'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: OVest
+developerName: 'OVest'
 features: 
 
 ---

@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Slicecoin wallet
+title: 'Slicecoin wallet'
 altTitle: 
 authors: 
 users: 1000
-appId: cc.slicex
+appId: 'cc.slicex'
 appCountry: 
-released: 2020-03-08
-updated: 2020-08-14
-version: v1.0.4
+released: '2020-03-08'
+updated: '2020-08-14'
+version: 'v1.0.4'
 stars: 5
 ratings: 33
 reviews: 8
-size: 10M
-website: https://slicex.cc/
+size: '10M'
+website: 'https://slicex.cc/'
 repository: 
 issue: 
-icon: cc.slicex.png
+icon: 'cc.slicex.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2022-04-25
+date: '2022-04-25'
 signer: 
 reviewArchive: 
 twitter: 

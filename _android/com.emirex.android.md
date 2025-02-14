@@ -1,38 +1,38 @@
 ---
 wsId: 
-title: Emirex - trading platform
+title: 'Emirex - trading platform'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.emirex.android
+appId: 'com.emirex.android'
 appCountry: 
-released: 2022-08-08
-updated: 2022-08-08
+released: '2022-08-08'
+updated: '2022-08-08'
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://emirex.com/
+website: 'https://emirex.com/'
 repository: 
 issue: 
-icon: com.emirex.android.png
+icon: 'com.emirex.android.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-12-19
+date: '2023-12-19'
 signer: 
 reviewArchive: 
-twitter: EMIREX_OFFICIAL
+twitter: 'EMIREX_OFFICIAL'
 social:
-- https://www.linkedin.com/company/emirexgroup
-- https://www.facebook.com/emirex.official
-- https://t.me/emirex_official
-- https://medium.com/@EMIREX_OFFICIAL
+- 'https://www.linkedin.com/company/emirexgroup'
+- 'https://www.facebook.com/emirex.official'
+- 'https://t.me/emirex_official'
+- 'https://medium.com/@EMIREX_OFFICIAL'
 redirect_from: 
-developerName: Emirex
+developerName: 'Emirex'
 features: 
 
 ---

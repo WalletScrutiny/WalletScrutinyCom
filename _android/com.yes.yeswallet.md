@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: Yes Wallet
+title: 'Yes Wallet'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 5000
-appId: com.yes.yeswallet
+appId: 'com.yes.yeswallet'
 appCountry: 
-released: 2019-04-24
-updated: 2019-04-24
+released: '2019-04-24'
+updated: '2019-04-24'
 version: '1.0'
 stars: 2.8
 ratings: 45
 reviews: 31
-size: 1.5M
-website: http://www.yeswallet.io
+size: '1.5M'
+website: 'http://www.yeswallet.io'
 repository: 
 issue: 
-icon: com.yes.yeswallet.png
+icon: 'com.yes.yeswallet.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2021-06-18
+date: '2021-06-18'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from:
-- /com.yes.yeswallet/
+- '/com.yes.yeswallet/'
 developerName: 
 features: 
 

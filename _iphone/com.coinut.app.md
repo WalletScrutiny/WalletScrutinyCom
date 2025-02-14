@@ -7,9 +7,9 @@ authors:
 appId: com.coinut.app
 appCountry: us
 idd: '1331328939'
-released: 2018-02-06
-updated: 2023-05-31
-version: 3.0.0
+released: '2018-02-06'
+updated: '2023-05-31'
+version: '3.0.0'
 stars: 4
 reviews: 5
 size: '26231808'
@@ -21,7 +21,7 @@ bugbounty:
 meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-05-30
+date: '2024-05-30'
 signer: 
 reviewArchive: 
 twitter: coinut_exchange

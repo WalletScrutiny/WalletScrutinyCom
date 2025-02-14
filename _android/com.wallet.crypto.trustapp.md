@@ -1,41 +1,40 @@
 ---
-wsId: sixdays
+wsId: 'sixdays'
 title: 'Trust: Crypto & Bitcoin Wallet'
 altTitle: 
 authors:
-- leo
-- danny
+- 'leo'
+- 'danny'
 users: 50000000
-appId: com.wallet.crypto.trustapp
+appId: 'com.wallet.crypto.trustapp'
 appCountry: 
-released: 2017-10-01
-updated: 2025-02-05
-version: 8.32.1
+released: '2017-10-01'
+updated: 2025-02-12
+version: '8.32.1'
 stars: 4.5
 ratings: 841930
-reviews: 19318
-size: 
-website: https://trustwallet.com/
+reviews: 19326
+website: 'https://trustwallet.com/'
 repository: 
 issue: 
-icon: com.wallet.crypto.trustapp.png
+icon: 'com.wallet.crypto.trustapp.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-13
+date: '2024-07-13'
 signer: 
 reviewArchive: 
-twitter: trustwalletapp
+twitter: 'trustwalletapp'
 social:
-- https://www.facebook.com/trustwalletapp
-- https://www.reddit.com/r/trustapp
+- 'https://www.facebook.com/trustwalletapp'
+- 'https://www.reddit.com/r/trustapp'
 redirect_from:
-- /trust/
-- /com.wallet.crypto.trustapp/
-- /posts/2019/11/trust/
-- /posts/com.wallet.crypto.trustapp/
-developerName: DApps Platform, Inc.
+- '/trust/'
+- '/com.wallet.crypto.trustapp/'
+- '/posts/2019/11/trust/'
+- '/posts/com.wallet.crypto.trustapp/'
+developerName: 'DApps Platform, Inc.'
 features: 
 
 ---

@@ -4,7 +4,7 @@ appId: satochip.usbreader
 authors:
 - danny
 icon: satochip.usbreader.png
-date: 2022-05-19
+date: '2022-05-19'
 twitter: satochipwallet
 social:
 - https://www.linkedin.com/company/satochip

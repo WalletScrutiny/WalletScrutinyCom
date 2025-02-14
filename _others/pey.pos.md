@@ -4,7 +4,7 @@ appId: pey.pos
 authors:
 - danny
 icon: pey.pos.png
-date: 2024-01-15
+date: '2024-01-15'
 twitter: PEY
 social:
 - https://www.facebook.com/PEYapp

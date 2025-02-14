@@ -1,37 +1,37 @@
 ---
-wsId: RioWallet
+wsId: 'RioWallet'
 title: 'RioWallet: Web3 Crypto Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.riodefi.store
-appCountry: us
-released: 2021-04-29
-updated: 2022-08-11
-version: 2.9.8
+appId: 'com.riodefi.store'
+appCountry: 'us'
+released: '2021-04-29'
+updated: '2022-08-11'
+version: '2.9.8'
 stars: 4.3
 ratings: 
 reviews: 3
 size: 
-website: https://riodefi.com/
+website: 'https://riodefi.com/'
 repository: 
 issue: 
-icon: com.riodefi.store.png
+icon: 'com.riodefi.store.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2024-02-05
+date: '2024-02-05'
 signer: 
 reviewArchive: 
-twitter: riodefiofficial
+twitter: 'riodefiofficial'
 social:
-- https://www.linkedin.com/company/riodefiofficial
-- https://www.facebook.com/riodefiofficial
-- https://github.com/riodefi
+- 'https://www.linkedin.com/company/riodefiofficial'
+- 'https://www.facebook.com/riodefiofficial'
+- 'https://github.com/riodefi'
 redirect_from: 
-developerName: RioDeFi
+developerName: 'RioDeFi'
 features: 
 
 ---

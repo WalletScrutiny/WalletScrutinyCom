@@ -7,8 +7,8 @@ authors:
 appId: com.sapien.sapienwallet
 appCountry: us
 idd: 1529912521
-released: 2021-06-21
-updated: 2024-03-15
+released: '2021-06-21'
+updated: '2024-03-15'
 version: '1.27'
 stars: 5
 reviews: 2
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: 2021-11-10
+date: '2021-11-10'
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,38 +1,38 @@
 ---
 wsId: 
-title: Alt 5 Pro
+title: 'Alt 5 Pro'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.alt5pro.droidapp
+appId: 'com.alt5pro.droidapp'
 appCountry: 
-released: 2020-03-23
-updated: 2022-02-16
+released: '2020-03-23'
+updated: '2022-02-16'
 version: '1.9'
 stars: 4.8
 ratings: 
 reviews: 
 size: 
-website: http://alt5pro.com
+website: 'http://alt5pro.com'
 repository: 
 issue: 
-icon: com.alt5pro.droidapp.png
+icon: 'com.alt5pro.droidapp.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-11-15
+date: '2024-11-15'
 signer: 
 reviewArchive: 
-twitter: alt_sigma
+twitter: 'alt_sigma'
 social:
-- https://www.facebook.com/alt5sigma
-- https://www.instagram.com/alt5sigma_
-- https://www.youtube.com/channel/UCPdmUTb6uYD8Bbsh2rbveKw
-- https://www.linkedin.com/company/alt-5-sigma
+- 'https://www.facebook.com/alt5sigma'
+- 'https://www.instagram.com/alt5sigma_'
+- 'https://www.youtube.com/channel/UCPdmUTb6uYD8Bbsh2rbveKw'
+- 'https://www.linkedin.com/company/alt-5-sigma'
 redirect_from: 
-developerName: Alt 5 Pro
+developerName: 'Alt 5 Pro'
 features: 
 
 ---

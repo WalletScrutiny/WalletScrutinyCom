@@ -1,37 +1,37 @@
 ---
 wsId: 
-title: ABCore
+title: 'ABCore'
 altTitle: 
 authors:
-- leo
-- emanuel
+- 'leo'
+- 'emanuel'
 users: 1000
-appId: com.greenaddress.abcore
+appId: 'com.greenaddress.abcore'
 appCountry: 
 released: 
-updated: 2019-10-16
-version: VARY
+updated: '2019-10-16'
+version: 'VARY'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: http://abco.re
-repository: https://github.com/greenaddress/abcore
+website: 'http://abco.re'
+repository: 'https://github.com/greenaddress/abcore'
 issue: 
-icon: com.greenaddress.abcore.png
+icon: 'com.greenaddress.abcore.png'
 bugbounty: 
-meta: removed
-verdict: reproducible
+meta: 'removed'
+verdict: 'reproducible'
 appHashes: 
-date: 2024-04-19
+date: '2024-04-19'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from:
-- /com.greenaddress.abcore/
-- /posts/com.greenaddress.abcore/
-developerName: GreenAddress IT Ltd
+- '/com.greenaddress.abcore/'
+- '/posts/com.greenaddress.abcore/'
+developerName: 'GreenAddress IT Ltd'
 features: 
 
 ---

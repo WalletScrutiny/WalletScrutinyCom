@@ -1,15 +1,15 @@
 ---
 wsId: 
-title: Plan B Wallet
+title: 'Plan B Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.planb.wallet
+appId: 'com.planb.wallet'
 appCountry: 
-released: 2021-07-08
-updated: 2021-09-14
-version: 1.1.4
+released: '2021-07-08'
+updated: '2021-09-14'
+version: '1.1.4'
 stars: 
 ratings: 
 reviews: 
@@ -17,18 +17,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.planb.wallet.png
+icon: 'com.planb.wallet.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: PlanB Wallet Developers
+developerName: 'PlanB Wallet Developers'
 features: 
 
 ---

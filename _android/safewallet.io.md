@@ -1,36 +1,36 @@
 ---
 wsId: 
-title: AmGen Wallet
+title: 'AmGen Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: safewallet.io
+appId: 'safewallet.io'
 appCountry: 
-released: 2022-03-29
-updated: 2023-10-19
-version: 1.0.15
+released: '2022-03-29'
+updated: '2023-10-19'
+version: '1.0.15'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://amgenwallet.com/
+website: 'https://amgenwallet.com/'
 repository: 
 issue: 
-icon: safewallet.io.png
+icon: 'safewallet.io.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2023-12-19
+date: '2023-12-19'
 signer: 
 reviewArchive: 
-twitter: theamgen
+twitter: 'theamgen'
 social:
-- https://www.facebook.com/theamgen
-- https://www.instagram.com/the.amgen
+- 'https://www.facebook.com/theamgen'
+- 'https://www.instagram.com/the.amgen'
 redirect_from: 
-developerName: AmgenWallet
+developerName: 'AmgenWallet'
 features: 
 
 ---

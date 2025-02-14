@@ -3,10 +3,10 @@ title: Bisq
 appId: bisq
 authors:
 - danny
-released: 2016-04-09
+released: '2016-04-09'
 discontinued: 
-updated: 2024-05-27
-version: 1.9.15
+updated: '2024-05-27'
+version: '1.9.15'
 binaries: 
 provider: 
 providerWebsite: 
@@ -17,7 +17,7 @@ icon: bisq.png
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2024-04-24
+date: '2024-04-24'
 reviewArchive: 
 twitter: bisq_network
 social: 

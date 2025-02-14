@@ -1,38 +1,38 @@
 ---
-wsId: coinomoCrypto
-title: Coinomo - Gateway to Crypto
+wsId: 'coinomoCrypto'
+title: 'Coinomo - Gateway to Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.cappuu
+appId: 'com.cappuu'
 appCountry: 
-released: 2020-12-04
-updated: 2023-08-24
+released: '2020-12-04'
+updated: '2023-08-24'
 version: '3.57'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.coinomo.com
+website: 'https://www.coinomo.com'
 repository: 
 issue: 
-icon: com.cappuu.png
+icon: 'com.cappuu.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-05-07
+date: '2024-05-07'
 signer: 
 reviewArchive: 
-twitter: Coinomo_EN
+twitter: 'Coinomo_EN'
 social:
-- https://www.instagram.com/coinomo_id
-- https://coinomo.medium.com
-- https://t.me/omofomo
-- https://discord.com/invite/84CumqxPWw
+- 'https://www.instagram.com/coinomo_id'
+- 'https://coinomo.medium.com'
+- 'https://t.me/omofomo'
+- 'https://discord.com/invite/84CumqxPWw'
 redirect_from: 
-developerName: PT Tujuhbelas Media Indonesia
+developerName: 'PT Tujuhbelas Media Indonesia'
 features: 
 
 ---

@@ -1,15 +1,15 @@
 ---
 wsId: 
-title: BitpitTR
+title: 'BitpitTR'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.mao.guiderun
+appId: 'com.mao.guiderun'
 appCountry: 
-released: 2022-05-08
-updated: 2022-05-20
-version: 1.0.4
+released: '2022-05-08'
+updated: '2022-05-20'
+version: '1.0.4'
 stars: 
 ratings: 
 reviews: 
@@ -17,18 +17,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.mao.guiderun.png
+icon: 'com.mao.guiderun.png'
 bugbounty: 
-meta: defunct
-verdict: nosource
+meta: 'defunct'
+verdict: 'nosource'
 appHashes: 
-date: 2023-08-07
+date: '2023-08-07'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Fabian Cooper
+developerName: 'Fabian Cooper'
 features: 
 
 ---

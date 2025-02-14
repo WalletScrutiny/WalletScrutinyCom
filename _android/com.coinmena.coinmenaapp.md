@@ -1,36 +1,35 @@
 ---
-wsId: CoinMENA
+wsId: 'CoinMENA'
 title: 'CoinMENA: Buy Bitcoin Now'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.coinmena.coinmenaapp
-appCountry: us
-released: 2021-08-07
+appId: 'com.coinmena.coinmenaapp'
+appCountry: 'us'
+released: '2021-08-07'
 updated: 2025-02-09
-version: 2.14.6
+version: '2.14.6'
 stars: 3.5
 ratings: 914
 reviews: 50
-size: 
-website: http://coinmena.com
+website: 'http://coinmena.com'
 repository: 
 issue: 
-icon: com.coinmena.coinmenaapp.png
+icon: 'com.coinmena.coinmenaapp.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-11-10
+date: '2021-11-10'
 signer: 
 reviewArchive: 
-twitter: Coinmena
+twitter: 'Coinmena'
 social:
-- https://www.linkedin.com/company/coinmena
-- https://www.facebook.com/CoinMENA.Bahrain
+- 'https://www.linkedin.com/company/coinmena'
+- 'https://www.facebook.com/CoinMENA.Bahrain'
 redirect_from: 
-developerName: CoinMENA
+developerName: 'CoinMENA'
 features: 
 
 ---

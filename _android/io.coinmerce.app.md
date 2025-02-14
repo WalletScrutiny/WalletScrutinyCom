@@ -1,36 +1,35 @@
 ---
-wsId: coinmerce
-title: Coinmerce - Buy Bitcoin
+wsId: 'coinmerce'
+title: 'Coinmerce - Buy Bitcoin'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: io.coinmerce.app
+appId: 'io.coinmerce.app'
 appCountry: 
-released: 2018-07-09
+released: '2018-07-09'
 updated: 2025-01-29
-version: 6.3.0
+version: '6.3.0'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://coinmerce.io/
+website: 'https://coinmerce.io/'
 repository: 
 issue: 
-icon: io.coinmerce.app.png
+icon: 'io.coinmerce.app.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-04-15
+date: '2023-04-15'
 signer: 
 reviewArchive: 
-twitter: coinmerce
+twitter: 'coinmerce'
 social:
-- https://www.facebook.com/CoinmerceNL
-- https://www.linkedin.com/company/coinmerce/
+- 'https://www.facebook.com/CoinmerceNL'
+- 'https://www.linkedin.com/company/coinmerce/'
 redirect_from: 
-developerName: Coinmerce B.V.
+developerName: 'Coinmerce B.V.'
 features: 
 
 ---

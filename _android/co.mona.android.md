@@ -1,41 +1,40 @@
 ---
-wsId: mona
-title: Crypto.com - Buy Bitcoin, SOL
+wsId: 'mona'
+title: 'Crypto.com - Buy Bitcoin, SOL'
 altTitle: 
 authors:
-- leo
-- danny
+- 'leo'
+- 'danny'
 users: 10000000
-appId: co.mona.android
+appId: 'co.mona.android'
 appCountry: 
-released: 2017-08-30
+released: '2017-08-30'
 updated: 2025-02-10
-version: 3.204.10
+version: '3.204.10'
 stars: 4.5
 ratings: 281384
-reviews: 53189
-size: 
-website: https://crypto.com/
+reviews: 53209
+website: 'https://crypto.com/'
 repository: 
 issue: 
-icon: co.mona.android.jpg
+icon: 'co.mona.android.jpg'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-10-24
+date: '2021-10-24'
 signer: 
 reviewArchive: 
-twitter: cryptocom
+twitter: 'cryptocom'
 social:
-- https://www.linkedin.com/company/cryptocom
-- https://www.facebook.com/CryptoComOfficial
-- https://www.reddit.com/r/Crypto_com
+- 'https://www.linkedin.com/company/cryptocom'
+- 'https://www.facebook.com/CryptoComOfficial'
+- 'https://www.reddit.com/r/Crypto_com'
 redirect_from:
-- /co.mona.android/
-- /crypto.com/
-- /posts/co.mona.android/
-developerName: Crypto Technology Holdings Limited
+- '/co.mona.android/'
+- '/crypto.com/'
+- '/posts/co.mona.android/'
+developerName: 'Crypto Technology Holdings Limited'
 features: 
 
 ---

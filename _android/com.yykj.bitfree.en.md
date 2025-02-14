@@ -1,37 +1,36 @@
 ---
-wsId: bitFree
-title: BitFree
+wsId: 'bitFree'
+title: 'BitFree'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.yykj.bitfree.en
+appId: 'com.yykj.bitfree.en'
 appCountry: 
-released: 2019-01-26
+released: '2019-01-26'
 updated: 2025-02-01
-version: 5.1.6
+version: '5.1.6'
 stars: 3.9
 ratings: 
 reviews: 25
-size: 
 website: 
 repository: 
 issue: 
-icon: com.yykj.bitfree.en.png
+icon: 'com.yykj.bitfree.en.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2025-01-15
+date: '2025-01-15'
 signer: 
 reviewArchive: 
-twitter: bitfree_us
+twitter: 'bitfree_us'
 social:
-- https://bitfree.us
-- https://www.facebook.com/bitfree.official
-- https://t.me/bitfreehelp
+- 'https://bitfree.us'
+- 'https://www.facebook.com/bitfree.official'
+- 'https://t.me/bitfreehelp'
 redirect_from: 
-developerName: ifreepanda
+developerName: 'ifreepanda'
 features: 
 
 ---

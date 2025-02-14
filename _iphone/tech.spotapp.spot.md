@@ -7,8 +7,8 @@ authors:
 appId: tech.spotapp.spot
 appCountry: 
 idd: 1390560448
-released: 2018-08-07
-updated: 2024-04-30
+released: '2018-08-07'
+updated: '2024-04-30'
 version: '5.25'
 stars: 4.6
 reviews: 6992
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: 2021-05-14
+date: '2021-05-14'
 signer: 
 reviewArchive: 
 twitter: spot_bitcoin

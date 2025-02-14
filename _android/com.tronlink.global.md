@@ -1,34 +1,33 @@
 ---
-wsId: tronLinkGlobal
-title: TronLink Global
+wsId: 'tronLinkGlobal'
+title: 'TronLink Global'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.tronlink.global
+appId: 'com.tronlink.global'
 appCountry: 
-released: 2022-11-09
+released: '2022-11-09'
 updated: 2024-10-14
-version: 4.14.3
+version: '4.14.3'
 stars: 4.1
 ratings: 
 reviews: 56
-size: 
-website: https://www.tronlink.org
+website: 'https://www.tronlink.org'
 repository: 
 issue: 
-icon: com.tronlink.global.png
+icon: 'com.tronlink.global.png'
 bugbounty: 
-meta: ok
-verdict: nobtc
+meta: 'ok'
+verdict: 'nobtc'
 appHashes: 
-date: 2023-06-13
+date: '2023-06-13'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: HELIX TECH COMPANY LIMITED
+developerName: 'HELIX TECH COMPANY LIMITED'
 features: 
 
 ---

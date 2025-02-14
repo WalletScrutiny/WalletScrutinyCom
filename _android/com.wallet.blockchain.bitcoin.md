@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: Bitcoin Wallet & Crypto Market
+title: 'Bitcoin Wallet & Crypto Market'
 altTitle: 
 authors: 
 users: 500
-appId: com.wallet.blockchain.bitcoin
+appId: 'com.wallet.blockchain.bitcoin'
 appCountry: 
-released: 2023-12-21
+released: '2023-12-21'
 updated: 2024-11-22
-version: 0.2.7
+version: '0.2.7'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://coinhub8899.web.app
+website: 'https://coinhub8899.web.app'
 repository: 
 issue: 
-icon: com.wallet.blockchain.bitcoin.png
+icon: 'com.wallet.blockchain.bitcoin.png'
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: 'ok'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-08-17
+date: '2024-08-17'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: InvoVN Solutions
+developerName: 'InvoVN Solutions'
 features: 
 
 ---

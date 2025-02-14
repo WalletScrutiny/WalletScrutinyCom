@@ -1,35 +1,34 @@
 ---
-wsId: ePocketExchange
-title: e-Pocket
+wsId: 'ePocketExchange'
+title: 'e-Pocket'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: w3axis.com.epocket
+appId: 'w3axis.com.epocket'
 appCountry: 
-released: 2018-06-23
+released: '2018-06-23'
 updated: 2025-02-09
 version: '2.63'
 stars: 5
 ratings: 
 reviews: 1
-size: 
-website: https://www.e-pocketexchange.com/
+website: 'https://www.e-pocketexchange.com/'
 repository: 
 issue: 
-icon: w3axis.com.epocket.png
+icon: 'w3axis.com.epocket.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-09-06
+date: '2023-09-06'
 signer: 
 reviewArchive: 
-twitter: e_Pocket
+twitter: 'e_Pocket'
 social:
-- https://www.instagram.com/epocketau
+- 'https://www.instagram.com/epocketau'
 redirect_from: 
-developerName: e-Pocket Pty Ltd
+developerName: 'e-Pocket Pty Ltd'
 features: 
 
 ---

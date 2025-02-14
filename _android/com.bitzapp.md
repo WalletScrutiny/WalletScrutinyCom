@@ -1,13 +1,13 @@
 ---
 wsId: 
-title: BITZAPP BITCOIN WALLET - BUY /
+title: 'BITZAPP BITCOIN WALLET - BUY /'
 altTitle: 
 authors: 
 users: 50
-appId: com.bitzapp
+appId: 'com.bitzapp'
 appCountry: 
-released: 2020-03-15
-updated: 2020-08-11
+released: '2020-03-15'
+updated: '2020-08-11'
 version: '1.5'
 stars: 
 ratings: 
@@ -16,18 +16,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.bitzapp.png
+icon: 'com.bitzapp.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-12-19
+date: '2023-12-19'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Bitzapp
+developerName: 'Bitzapp'
 features: 
 
 ---

@@ -7,9 +7,9 @@ authors:
 appId: com.zipmex.app
 appCountry: sg
 idd: 1485647781
-released: 2019-11-06
-updated: 2023-01-23
-version: 23.0.0
+released: '2019-11-06'
+updated: '2023-01-23'
+version: '23.0.0'
 stars: 4.2
 reviews: 127
 size: '84723712'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-03-02
+date: '2024-03-02'
 signer: 
 reviewArchive: 
 twitter: ZipmexTH

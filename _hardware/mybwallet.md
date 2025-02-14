@@ -4,10 +4,10 @@ appId: mybwallet
 authors:
 - danny
 - leo
-released: 2015-01-01
+released: '2015-01-01'
 discontinued: 
-updated: 2015-05-08
-version: 1.3.4
+updated: '2015-05-08'
+version: '1.3.4'
 binaries: 
 dimensions:
 - 45
@@ -27,7 +27,7 @@ bugbounty:
 meta: defunct
 verdict: wip
 appHashes: 
-date: 2022-02-18
+date: '2022-02-18'
 signer: 
 reviewArchive: 
 twitter: 

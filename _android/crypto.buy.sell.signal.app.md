@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Crypto Buy Sell Signal App
+title: 'Crypto Buy Sell Signal App'
 altTitle: 
 authors: 
 users: 10
-appId: crypto.buy.sell.signal.app
+appId: 'crypto.buy.sell.signal.app'
 appCountry: 
-released: 2021-06-16
-updated: 2021-06-17
+released: '2021-06-16'
+updated: '2021-06-17'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 3.4M
+size: '3.4M'
 website: 
 repository: 
 issue: 
-icon: crypto.buy.sell.signal.app.jpg
+icon: 'crypto.buy.sell.signal.app.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-10-01
+date: '2021-10-01'
 signer: 
 reviewArchive: 
 twitter: 

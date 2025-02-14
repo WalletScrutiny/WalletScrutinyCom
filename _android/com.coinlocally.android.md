@@ -1,34 +1,33 @@
 ---
-wsId: coinlocally
-title: Coinlocally
+wsId: 'coinlocally'
+title: 'Coinlocally'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.coinlocally.android
+appId: 'com.coinlocally.android'
 appCountry: 
-released: 2022-04-21
+released: '2022-04-21'
 updated: 2024-12-24
-version: 3.3.23
+version: '3.3.23'
 stars: 3.6
 ratings: 
 reviews: 75
-size: 
-website: https://coinlocally.com
+website: 'https://coinlocally.com'
 repository: 
 issue: 
-icon: com.coinlocally.android.png
+icon: 'com.coinlocally.android.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-02-21
+date: '2023-02-21'
 signer: 
 reviewArchive: 
-twitter: coinlocallyclyc
+twitter: 'coinlocallyclyc'
 social: 
 redirect_from: 
-developerName: Coinlocally Official
+developerName: 'Coinlocally Official'
 features: 
 
 ---

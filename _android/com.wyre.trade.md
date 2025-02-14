@@ -3,33 +3,33 @@ wsId:
 title: 'Wyretrade: Invest in Stocks, E'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.wyre.trade
+appId: 'com.wyre.trade'
 appCountry: 
-released: 2021-04-30
-updated: 2021-07-19
-version: 1.1.7
+released: '2021-04-30'
+updated: '2021-07-19'
+version: '1.1.7'
 stars: 3.4
 ratings: 106
 reviews: 4
 size: 
-website: https://wyretrade.com/
+website: 'https://wyretrade.com/'
 repository: 
 issue: 
-icon: com.wyre.trade.png
+icon: 'com.wyre.trade.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-03-02
+date: '2024-03-02'
 signer: 
 reviewArchive: 
-twitter: wyretrade
+twitter: 'wyretrade'
 social:
-- https://www.facebook.com/Wyretrade-105994018302814
+- 'https://www.facebook.com/Wyretrade-105994018302814'
 redirect_from: 
-developerName: REMITTY LLC
+developerName: 'REMITTY LLC'
 features: 
 
 ---

@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: Exnomy - Decentralized Finance
+title: 'Exnomy - Decentralized Finance'
 altTitle: 
 authors: 
 users: 100
-appId: com.exnomy
+appId: 'com.exnomy'
 appCountry: 
-released: 2020-11-24
-updated: 2021-09-21
-version: 1.0.18
+released: '2020-11-24'
+updated: '2021-09-21'
+version: '1.0.18'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.exnomy.com/
+website: 'https://www.exnomy.com/'
 repository: 
 issue: 
-icon: com.exnomy.jpg
+icon: 'com.exnomy.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-03-02
+date: '2024-03-02'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: jeonggonmun
+developerName: 'jeonggonmun'
 features: 
 
 ---

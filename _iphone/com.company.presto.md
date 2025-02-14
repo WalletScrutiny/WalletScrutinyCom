@@ -7,9 +7,9 @@ authors:
 appId: com.company.presto
 appCountry: ng
 idd: '1644015124'
-released: 2022-11-22
-updated: 2024-09-19
-version: 2.5.5
+released: '2022-11-22'
+updated: '2024-09-19'
+version: '2.5.5'
 stars: 4.6
 reviews: 231
 size: '38290432'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nowallet
 appHashes: 
-date: 2023-07-31
+date: '2023-07-31'
 signer: 
 reviewArchive: 
 twitter: 

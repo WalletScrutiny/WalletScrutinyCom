@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: WunderTrading
+title: 'WunderTrading'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: eu.wunderbit.trading_web
+appId: 'eu.wunderbit.trading_web'
 appCountry: 
-released: 2021-01-19
-updated: 2021-01-19
-version: 1.0.0
+released: '2021-01-19'
+updated: '2021-01-19'
+version: '1.0.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://wundertrading.com/en
+website: 'https://wundertrading.com/en'
 repository: 
 issue: 
-icon: eu.wunderbit.trading_web.png
+icon: 'eu.wunderbit.trading_web.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
-twitter: Wunder_bit
+twitter: 'Wunder_bit'
 social:
-- https://www.facebook.com/wunderbit.co
+- 'https://www.facebook.com/wunderbit.co'
 redirect_from: 
 developerName: 
 features: 

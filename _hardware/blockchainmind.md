@@ -3,7 +3,7 @@ title: Blockchain Mind
 appId: blockchainmind
 authors:
 - danny
-released: 2021-04-21
+released: '2021-04-21'
 discontinued: 
 updated: 
 version: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: vapor
 appHashes: 
-date: 2022-11-25
+date: '2022-11-25'
 signer: 
 reviewArchive: 
 twitter: blockchainmind_

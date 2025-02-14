@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: PlayWallet
+title: 'PlayWallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.gamehub.playwallet2
+appId: 'com.gamehub.playwallet2'
 appCountry: 
-released: 2020-02-19
-updated: 2020-04-08
-version: 2.0.6
+released: '2020-02-19'
+updated: '2020-04-08'
+version: '2.0.6'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: http://www.playwallet.io/
+website: 'http://www.playwallet.io/'
 repository: 
 issue: 
-icon: com.gamehub.playwallet2.png
+icon: 'com.gamehub.playwallet2.png'
 bugbounty: 
-meta: defunct
-verdict: wip
+meta: 'defunct'
+verdict: 'wip'
 appHashes: 
-date: 2023-05-25
+date: '2023-05-25'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: GAMEHUB
+developerName: 'GAMEHUB'
 features: 
 
 ---

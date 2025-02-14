@@ -1,35 +1,35 @@
 ---
 wsId: 
-title: Sentinel
+title: 'Sentinel'
 altTitle: 
 authors: 
 users: 10000
-appId: com.samourai.sentinel
+appId: 'com.samourai.sentinel'
 appCountry: 
-released: 2015-05-23
-updated: 2023-11-07
-version: 5.0.1
+released: '2015-05-23'
+updated: '2023-11-07'
+version: '5.0.1'
 stars: 4.1
 ratings: 313
 reviews: 47
 size: 
-website: https://www.samouraiwallet.com/sentinel
-repository: https://github.com/Samourai-Wallet/sentinel-android
+website: 'https://www.samouraiwallet.com/sentinel'
+repository: 'https://github.com/Samourai-Wallet/sentinel-android'
 issue: 
-icon: com.samourai.sentinel.png
+icon: 'com.samourai.sentinel.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
-twitter: samouraiwallet
+twitter: 'samouraiwallet'
 social: 
 redirect_from:
-- /com.samourai.sentinel/
-- /posts/com.samourai.sentinel/
-developerName: Samourai
+- '/com.samourai.sentinel/'
+- '/posts/com.samourai.sentinel/'
+developerName: 'Samourai'
 features: 
 
 ---

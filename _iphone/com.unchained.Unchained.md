@@ -7,8 +7,8 @@ authors:
 appId: com.unchained.Unchained
 appCountry: us
 idd: '6457364167'
-released: 2024-03-23
-updated: 2025-01-09
+released: '2024-03-23'
+updated: '2025-01-09'
 version: '2.4'
 stars: 4.9
 reviews: 69
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nowallet
 appHashes: 
-date: 2024-04-08
+date: '2024-04-08'
 signer: 
 reviewArchive: 
 twitter: unchainedcom

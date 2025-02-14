@@ -1,38 +1,37 @@
 ---
-wsId: ZenGo
+wsId: 'ZenGo'
 title: 'Zengo: Crypto & Bitcoin Wallet'
 altTitle: 
 authors:
-- leo
-- emanuel
-- danny
+- 'leo'
+- 'emanuel'
+- 'danny'
 users: 500000
-appId: com.zengo.wallet
+appId: 'com.zengo.wallet'
 appCountry: 
-released: 2020-01-19
+released: '2020-01-19'
 updated: 2025-02-11
-version: 8.7.5
+version: '8.7.5'
 stars: 4.5
 ratings: 3936
 reviews: 535
-size: 
-website: https://www.zengo.com
-repository: https://www.github.com/kzen-networks
+website: 'https://www.zengo.com'
+repository: 'https://www.github.com/kzen-networks'
 issue: 
-icon: com.zengo.wallet.png
+icon: 'com.zengo.wallet.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-13
+date: '2024-07-13'
 signer: 
 reviewArchive: 
-twitter: zengo
+twitter: 'zengo'
 social: 
 redirect_from:
-- /com.zengo.wallet/
-- /posts/com.zengo.wallet/
-developerName: ZenGo
+- '/com.zengo.wallet/'
+- '/posts/com.zengo.wallet/'
+developerName: 'ZenGo'
 features: 
 
 ---

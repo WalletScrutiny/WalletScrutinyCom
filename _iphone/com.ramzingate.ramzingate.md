@@ -7,8 +7,8 @@ authors:
 appId: com.ramzingate.ramzingate
 appCountry: us
 idd: '1589996478'
-released: 2021-10-15
-updated: 2022-03-05
+released: '2021-10-15'
+updated: '2022-03-05'
 version: '2'
 stars: 4.3
 reviews: 6
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: nowallet
 appHashes: 
-date: 2024-07-10
+date: '2024-07-10'
 signer: 
 reviewArchive: 
 twitter: 

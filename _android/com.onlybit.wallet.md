@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Trade Bit
+title: 'Trade Bit'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.onlybit.wallet
+appId: 'com.onlybit.wallet'
 appCountry: 
-released: 2020-11-13
-updated: 2021-02-08
+released: '2020-11-13'
+updated: '2021-02-08'
 version: '1.4'
 stars: 
 ratings: 
@@ -17,19 +17,19 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.onlybit.wallet.png
+icon: 'com.onlybit.wallet.png'
 bugbounty: 
-meta: defunct
-verdict: wip
+meta: 'defunct'
+verdict: 'wip'
 appHashes: 
-date: 2023-05-31
+date: '2023-05-31'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://tradebit.in
+- 'https://tradebit.in'
 redirect_from: 
-developerName: trade bit
+developerName: 'trade bit'
 features: 
 
 ---

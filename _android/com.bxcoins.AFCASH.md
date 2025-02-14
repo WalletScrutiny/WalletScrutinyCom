@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: AFCASH WALLET
+title: 'AFCASH WALLET'
 altTitle: 
 authors: 
 users: 10
-appId: com.bxcoins.AFCASH
+appId: 'com.bxcoins.AFCASH'
 appCountry: 
-released: 2021-02-19
-updated: 2021-02-20
-version: 1.0.0
+released: '2021-02-19'
+updated: '2021-02-20'
+version: '1.0.0'
 stars: 
 ratings: 
 reviews: 
-size: 11M
+size: '11M'
 website: 
 repository: 
 issue: 
-icon: com.bxcoins.AFCASH.png
+icon: 'com.bxcoins.AFCASH.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2022-01-31
+date: '2022-01-31'
 signer: 
 reviewArchive: 
 twitter: 

@@ -7,9 +7,9 @@ authors:
 appId: com.tokenize.exchange.trading
 appCountry: jp
 idd: 1495765876
-released: 2020-02-02
-updated: 2025-01-08
-version: 2.0.20
+released: '2020-02-02'
+updated: '2025-01-08'
+version: '2.0.20'
 stars: 2
 reviews: 2
 size: '77162496'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2024-10-07
+date: '2024-10-07'
 signer: 
 reviewArchive: 
 twitter: TokenizeXchange

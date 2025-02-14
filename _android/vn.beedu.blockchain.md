@@ -1,39 +1,39 @@
 ---
-wsId: LynKeyWallet
-title: LynKey
+wsId: 'LynKeyWallet'
+title: 'LynKey'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: vn.beedu.blockchain
+appId: 'vn.beedu.blockchain'
 appCountry: 
-released: 2021-11-09
-updated: 2023-07-13
-version: 1.4.20
+released: '2021-11-09'
+updated: '2023-07-13'
+version: '1.4.20'
 stars: 4
 ratings: 
 reviews: 31
 size: 
-website: https://lynkey.com/
+website: 'https://lynkey.com/'
 repository: 
 issue: 
-icon: vn.beedu.blockchain.png
+icon: 'vn.beedu.blockchain.png'
 bugbounty: 
-meta: stale
-verdict: custodial
+meta: 'stale'
+verdict: 'custodial'
 appHashes: 
-date: 2024-07-10
+date: '2024-07-10'
 signer: 
 reviewArchive: 
-twitter: LynKey_
+twitter: 'LynKey_'
 social:
-- https://www.facebook.com/Lynkeytoken
-- https://www.linkedin.com/company/lynkey
-- https://www.youtube.com/channel/UCH1a6zb0lnkt69rMLFdN4zg
-- https://www.instagram.com/lynkey__
-- https://t.me/LynKeychat
+- 'https://www.facebook.com/Lynkeytoken'
+- 'https://www.linkedin.com/company/lynkey'
+- 'https://www.youtube.com/channel/UCH1a6zb0lnkt69rMLFdN4zg'
+- 'https://www.instagram.com/lynkey__'
+- 'https://t.me/LynKeychat'
 redirect_from: 
-developerName: Lynkey International
+developerName: 'Lynkey International'
 features: 
 
 ---

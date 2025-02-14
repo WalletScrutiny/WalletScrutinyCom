@@ -7,9 +7,9 @@ authors:
 appId: com.bitnovo.Wallet
 appCountry: in
 idd: 1553430666
-released: 2021-10-27
-updated: 2025-02-07
-version: 3.0.43
+released: '2021-10-27'
+updated: '2025-02-07'
+version: '3.0.43'
 stars: 0
 reviews: 0
 size: '79770624'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: 2024-10-07
+date: '2024-10-07'
 signer: 
 reviewArchive: 
 twitter: bitnovo

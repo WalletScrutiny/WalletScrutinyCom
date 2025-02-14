@@ -7,9 +7,9 @@ authors:
 appId: io.mal.exchange
 appCountry: us
 idd: '6443828002'
-released: 2023-02-13
-updated: 2024-08-22
-version: 1.7.0
+released: '2023-02-13'
+updated: '2024-08-22'
+version: '1.7.0'
 stars: 5
 reviews: 4
 size: '60356608'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2023-07-11
+date: '2023-07-11'
 signer: 
 reviewArchive: 
 twitter: MalFinance

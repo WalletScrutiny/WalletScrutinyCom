@@ -7,9 +7,9 @@ authors:
 appId: io.vesto.app
 appCountry: us
 idd: '1529147510'
-released: 2022-04-14
-updated: 2022-04-26
-version: 1.0.1
+released: '2022-04-14'
+updated: '2022-04-26'
+version: '1.0.1'
 stars: 0
 reviews: 0
 size: '109371392'
@@ -21,7 +21,7 @@ bugbounty:
 meta: obsolete
 verdict: nosource
 appHashes: 
-date: 2024-04-17
+date: '2024-04-17'
 signer: 
 reviewArchive: 
 twitter: vestoprotocol

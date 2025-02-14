@@ -7,9 +7,9 @@ authors:
 appId: com.xchangecapital.prostocash
 appCountry: us
 idd: '1477838562'
-released: 2019-09-09
-updated: 2022-12-22
-version: 2.0.3
+released: '2019-09-09'
+updated: '2022-12-22'
+version: '2.0.3'
 stars: 1
 reviews: 1
 size: '70281216'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-01-15
+date: '2025-01-15'
 signer: 
 reviewArchive: 
 twitter: 

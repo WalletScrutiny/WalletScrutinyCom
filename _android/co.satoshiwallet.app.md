@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: SatoshiWallet for Bitcoin, Ethereum, Monero & more
+title: 'SatoshiWallet for Bitcoin, Ethereum, Monero & more'
 altTitle: 
 authors: 
 users: 1000
-appId: co.satoshiwallet.app
+appId: 'co.satoshiwallet.app'
 appCountry: 
-released: 2019-08-16
-updated: 2020-01-17
-version: 2.1.3
+released: '2019-08-16'
+updated: '2020-01-17'
+version: '2.1.3'
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
-website: https://satoshipoint.io
-repository: https://github.com/SatoshiWallet/ui
+size: 'Varies with device'
+website: 'https://satoshipoint.io'
+repository: 'https://github.com/SatoshiWallet/ui'
 issue: 
-icon: co.satoshiwallet.app.png
+icon: 'co.satoshiwallet.app.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2022-03-07
+date: '2022-03-07'
 signer: 
 reviewArchive: 
 twitter: 

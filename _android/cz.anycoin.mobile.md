@@ -1,35 +1,34 @@
 ---
-wsId: anycoinCZ
+wsId: 'anycoinCZ'
 title: 'Anycoin.cz: Crypto exchange'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: cz.anycoin.mobile
+appId: 'cz.anycoin.mobile'
 appCountry: 
-released: 2022-05-07
+released: '2022-05-07'
 updated: 2024-11-18
-version: 1.27.8
+version: '1.27.8'
 stars: 4.6
 ratings: 
 reviews: 
-size: 
-website: https://www.anycoin.cz
+website: 'https://www.anycoin.cz'
 repository: 
 issue: 
-icon: cz.anycoin.mobile.png
+icon: 'cz.anycoin.mobile.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-05-03
+date: '2023-05-03'
 signer: 
 reviewArchive: 
-twitter: anycoin_cz
+twitter: 'anycoin_cz'
 social:
-- https://www.facebook.com/anycoinCZ
+- 'https://www.facebook.com/anycoinCZ'
 redirect_from: 
-developerName: MP Developers s.r.o.
+developerName: 'MP Developers s.r.o.'
 features: 
 
 ---

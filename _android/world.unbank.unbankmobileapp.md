@@ -1,36 +1,35 @@
 ---
-wsId: unbankBitcoin
+wsId: 'unbankBitcoin'
 title: 'Unbank: Buy & Sell Bitcoin'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: world.unbank.unbankmobileapp
+appId: 'world.unbank.unbankmobileapp'
 appCountry: 
-released: 2022-04-15
+released: '2022-04-15'
 updated: 2025-02-02
-version: 2.9.4
+version: '2.9.4'
 stars: 4.4
 ratings: 
 reviews: 28
-size: 
-website: https://www.unbank.world/
+website: 'https://www.unbank.world/'
 repository: 
 issue: 
-icon: world.unbank.unbankmobileapp.png
+icon: 'world.unbank.unbankmobileapp.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-08-30
+date: '2023-08-30'
 signer: 
 reviewArchive: 
-twitter: unbankworld
+twitter: 'unbankworld'
 social:
-- https://www.facebook.com/unbankworld
-- https://www.instagram.com/unbankworld
+- 'https://www.facebook.com/unbankworld'
+- 'https://www.instagram.com/unbankworld'
 redirect_from: 
-developerName: Kalbas, Inc.
+developerName: 'Kalbas, Inc.'
 features: 
 
 ---

@@ -1,35 +1,34 @@
 ---
-wsId: bitkubNext
-title: Bitkub NEXT
+wsId: 'bitkubNext'
+title: 'Bitkub NEXT'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.bbt.bitkubnext
+appId: 'com.bbt.bitkubnext'
 appCountry: 
-released: 2021-09-21
+released: '2021-09-21'
 updated: 2024-12-29
-version: 2.11.0
+version: '2.11.0'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://www.bitkubchain.com
+website: 'https://www.bitkubchain.com'
 repository: 
 issue: 
-icon: com.bbt.bitkubnext.png
+icon: 'com.bbt.bitkubnext.png'
 bugbounty: 
-meta: ok
-verdict: nobtc
+meta: 'ok'
+verdict: 'nobtc'
 appHashes: 
-date: 2023-02-15
+date: '2023-02-15'
 signer: 
 reviewArchive: 
-twitter: bitkubchain
+twitter: 'bitkubchain'
 social:
-- https://www.facebook.com/bitkubchainofficial
+- 'https://www.facebook.com/bitkubchainofficial'
 redirect_from: 
-developerName: Bitkub Blockchain Technology
+developerName: 'Bitkub Blockchain Technology'
 features: 
 
 ---

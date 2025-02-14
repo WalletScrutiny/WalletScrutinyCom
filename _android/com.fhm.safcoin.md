@@ -1,37 +1,37 @@
 ---
 wsId: 
-title: Safcoin
+title: 'Safcoin'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.fhm.safcoin
+appId: 'com.fhm.safcoin'
 appCountry: 
-released: 2018-12-13
-updated: 2022-03-30
-version: 2.0.5
+released: '2018-12-13'
+updated: '2022-03-30'
+version: '2.0.5'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: http://www.safcoin.co.za
+website: 'http://www.safcoin.co.za'
 repository: 
 issue: 
-icon: com.fhm.safcoin.png
+icon: 'com.fhm.safcoin.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
-twitter: SAFCOIN1
+twitter: 'SAFCOIN1'
 social:
-- https://www.facebook.com/SAFcryptocoin
-- https://www.youtube.com/channel/UCgSsFoSOSZIkulBPGr31t1Q
-- https://t.me/SafcoinGroup
+- 'https://www.facebook.com/SAFcryptocoin'
+- 'https://www.youtube.com/channel/UCgSsFoSOSZIkulBPGr31t1Q'
+- 'https://t.me/SafcoinGroup'
 redirect_from: 
-developerName: SAFCOIN
+developerName: 'SAFCOIN'
 features: 
 
 ---

@@ -1,47 +1,46 @@
 ---
-wsId: blockchainWallet
+wsId: 'blockchainWallet'
 title: 'Blockchain.com: Crypto Wallet'
 altTitle: 
 authors:
-- leo
-- danny
+- 'leo'
+- 'danny'
 users: 10000000
-appId: piuk.blockchain.android
+appId: 'piuk.blockchain.android'
 appCountry: 
-released: 2013-02-01
-updated: 2025-02-12
-version: 202501.2.4
+released: '2013-02-01'
+updated: 2025-02-14
+version: '202501.2.4'
 stars: 3.9
 ratings: 115830
 reviews: 6202
-size: 
-website: https://www.blockchain.com
+website: 'https://www.blockchain.com'
 repository: 
-issue: https://github.com/blockchain/blockchain-wallet-v4-frontend/issues/6456
-icon: piuk.blockchain.android.png
-bugbounty: https://hackerone.com/blockchain
-meta: ok
-verdict: nosource
+issue: 'https://github.com/blockchain/blockchain-wallet-v4-frontend/issues/6456'
+icon: 'piuk.blockchain.android.png'
+bugbounty: 'https://hackerone.com/blockchain'
+meta: 'ok'
+verdict: 'nosource'
 appHashes: []
-date: 2024-09-12
-signer: 87a6e89e2e45848c1ddc43021e95812aae70b0b54c6c320c71db4dff83f7b6a0
+date: '2024-09-12'
+signer: '87a6e89e2e45848c1ddc43021e95812aae70b0b54c6c320c71db4dff83f7b6a0'
 reviewArchive:
-- date: 2020-07-11
-  version: 6.35.0
+- date: '2020-07-11'
+  version: '6.35.0'
   appHashes:
-  - 07bec5eaaffbbe9b490c2662f950e4696620cb5ef4201827011c312dc72b7f0c
-  gitRevision: 477c4edc4f632895993602574ba383a08df9041f
-  verdict: nonverifiable
-twitter: blockchain
+  - '07bec5eaaffbbe9b490c2662f950e4696620cb5ef4201827011c312dc72b7f0c'
+  gitRevision: '477c4edc4f632895993602574ba383a08df9041f'
+  verdict: 'nonverifiable'
+twitter: 'blockchain'
 social:
-- https://www.linkedin.com/company/blockchain
-- https://www.facebook.com/blockchain
+- 'https://www.linkedin.com/company/blockchain'
+- 'https://www.facebook.com/blockchain'
 redirect_from:
-- /blockchainwallet/
-- /piuk.blockchain.android/
-- /posts/2019/11/blockchainwallet/
-- /posts/piuk.blockchain.android/
-developerName: Blockchain.com
+- '/blockchainwallet/'
+- '/piuk.blockchain.android/'
+- '/posts/2019/11/blockchainwallet/'
+- '/posts/piuk.blockchain.android/'
+developerName: 'Blockchain.com'
 features: 
 
 ---

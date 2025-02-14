@@ -7,8 +7,8 @@ authors:
 appId: load.ng.loadng
 appCountry: ng
 idd: 1537865343
-released: 2020-11-02
-updated: 2021-12-28
+released: '2020-11-02'
+updated: '2021-12-28'
 version: '2.3'
 stars: 3.1
 reviews: 69
@@ -21,7 +21,7 @@ bugbounty:
 meta: obsolete
 verdict: nowallet
 appHashes: 
-date: 2023-12-18
+date: '2023-12-18'
 signer: 
 reviewArchive: 
 twitter: loadngautomated

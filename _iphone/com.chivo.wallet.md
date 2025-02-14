@@ -7,9 +7,9 @@ authors:
 appId: com.chivo.wallet
 appCountry: sv
 idd: 1581515981
-released: 2021-09-07
-updated: 2023-06-29
-version: 2.4.1
+released: '2021-09-07'
+updated: '2023-06-29'
+version: '2.4.1'
 stars: 2.5
 reviews: 4225
 size: '47296512'
@@ -21,7 +21,7 @@ bugbounty:
 meta: stale
 verdict: obfuscated
 appHashes: 
-date: 2024-06-23
+date: '2024-06-23'
 signer: 
 reviewArchive: 
 twitter: chivowallet

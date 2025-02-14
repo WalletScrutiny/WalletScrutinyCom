@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: Crypto Coin
+title: 'Crypto Coin'
 altTitle: 
 authors: 
 users: 50
-appId: com.a1in1.crypto_coin
+appId: 'com.a1in1.crypto_coin'
 appCountry: 
-released: 2021-06-14
-updated: 2021-06-19
-version: 1.0.2
+released: '2021-06-14'
+updated: '2021-06-19'
+version: '1.0.2'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://a1in1.com
+website: 'https://a1in1.com'
 repository: 
 issue: 
-icon: com.a1in1.crypto_coin.jpg
+icon: 'com.a1in1.crypto_coin.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Ceogrowser Ntem Kenyor
+developerName: 'Ceogrowser Ntem Kenyor'
 features: 
 
 ---

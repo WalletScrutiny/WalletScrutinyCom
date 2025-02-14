@@ -3,32 +3,32 @@ wsId:
 title: 'Bitcoin Crypto Wallet: Amir'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: capital.amir.wallet
+appId: 'capital.amir.wallet'
 appCountry: 
-released: 2021-08-03
-updated: 2024-03-21
-version: 3.23.3.01
+released: '2021-08-03'
+updated: '2024-03-21'
+version: '3.23.3.01'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://amir.capital/
+website: 'https://amir.capital/'
 repository: 
 issue: 
-icon: capital.amir.wallet.jpg
+icon: 'capital.amir.wallet.jpg'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-12-23
+date: '2024-12-23'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Amir Capital
+developerName: 'Amir Capital'
 features: 
 
 ---

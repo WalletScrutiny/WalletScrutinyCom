@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: How To Invest In Bitcoin
+title: 'How To Invest In Bitcoin'
 altTitle: 
 authors: 
 users: 5
-appId: com.cryptolabllc.how.to.invest.in.bitcoin
+appId: 'com.cryptolabllc.how.to.invest.in.bitcoin'
 appCountry: 
-released: 2021-06-18
-updated: 2021-06-18
+released: '2021-06-18'
+updated: '2021-06-18'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 3.4M
+size: '3.4M'
 website: 
 repository: 
 issue: 
-icon: com.cryptolabllc.how.to.invest.in.bitcoin.jpg
+icon: 'com.cryptolabllc.how.to.invest.in.bitcoin.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-10-01
+date: '2021-10-01'
 signer: 
 reviewArchive: 
 twitter: 

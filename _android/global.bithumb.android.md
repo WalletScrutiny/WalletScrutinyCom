@@ -1,37 +1,37 @@
 ---
-wsId: bitthumbglobal
-title: BitGlobal (formerly Bithumb Gl
+wsId: 'bitthumbglobal'
+title: 'BitGlobal (formerly Bithumb Gl'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: global.bithumb.android
-appCountry: us
-released: 2019-07-05
-updated: 2022-09-13
-version: 2.6.25
+appId: 'global.bithumb.android'
+appCountry: 'us'
+released: '2019-07-05'
+updated: '2022-09-13'
+version: '2.6.25'
 stars: 3.3
 ratings: 3090
 reviews: 78
 size: 
-website: https://www.bithumb.pro
+website: 'https://www.bithumb.pro'
 repository: 
 issue: 
-icon: global.bithumb.android.png
+icon: 'global.bithumb.android.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-04-16
+date: '2023-04-16'
 signer: 
 reviewArchive: 
-twitter: BithumbGlobal
+twitter: 'BithumbGlobal'
 social:
-- https://www.linkedin.com/company/bithumbglobal
-- https://www.facebook.com/bithumb.global
-- https://www.reddit.com/r/BithumbGlobal
+- 'https://www.linkedin.com/company/bithumbglobal'
+- 'https://www.facebook.com/bithumb.global'
+- 'https://www.reddit.com/r/BithumbGlobal'
 redirect_from: 
-developerName: Bithumb Global Holdings Limited
+developerName: 'Bithumb Global Holdings Limited'
 features: 
 
 ---

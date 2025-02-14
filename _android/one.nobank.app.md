@@ -1,37 +1,36 @@
 ---
-wsId: pierWallet
-title: pier wallet
+wsId: 'pierWallet'
+title: 'pier wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: one.nobank.app
+appId: 'one.nobank.app'
 appCountry: 
-released: 2022-05-12
+released: '2022-05-12'
 updated: 2025-01-09
-version: 0.83.4
+version: '0.83.4'
 stars: 3.8
 ratings: 
 reviews: 
-size: 
-website: https://www.nobank.one
+website: 'https://www.nobank.one'
 repository: 
 issue: 
-icon: one.nobank.app.png
+icon: 'one.nobank.app.png'
 bugbounty: 
-meta: ok
-verdict: nobtc
+meta: 'ok'
+verdict: 'nobtc'
 appHashes: 
-date: 2023-08-09
+date: '2023-08-09'
 signer: 
 reviewArchive: 
-twitter: pier_wallet
+twitter: 'pier_wallet'
 social:
-- https://www.linkedin.com/company/pierwallet
-- https://discord.com/invite/gHeHD4fAqK
-- https://www.instagram.com/pierwallet
+- 'https://www.linkedin.com/company/pierwallet'
+- 'https://discord.com/invite/gHeHD4fAqK'
+- 'https://www.instagram.com/pierwallet'
 redirect_from: 
-developerName: pier creative
+developerName: 'pier creative'
 features: 
 
 ---

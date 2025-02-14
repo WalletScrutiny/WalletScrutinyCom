@@ -1,39 +1,38 @@
 ---
-wsId: qoinPayID
-title: Qoinpay
+wsId: 'qoinPayID'
+title: 'Qoinpay'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: id.qoin.crypto
+appId: 'id.qoin.crypto'
 appCountry: 
-released: 2022-08-16
+released: '2022-08-16'
 updated: 2024-12-03
-version: 1.4.31
+version: '1.4.31'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: id.qoin.crypto.png
+icon: 'id.qoin.crypto.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-24
+date: '2024-07-24'
 signer: 
 reviewArchive: 
-twitter: qoinpay
+twitter: 'qoinpay'
 social:
-- https://qoinpay.id
-- https://www.facebook.com/qoinpay.id
-- https://www.tiktok.com/@qoinpay
-- https://www.youtube.com/channel/UC19VyK9DI4l2X5X7iCblvbg
-- https://t.me/Qoinpay
+- 'https://qoinpay.id'
+- 'https://www.facebook.com/qoinpay.id'
+- 'https://www.tiktok.com/@qoinpay'
+- 'https://www.youtube.com/channel/UC19VyK9DI4l2X5X7iCblvbg'
+- 'https://t.me/Qoinpay'
 redirect_from: 
-developerName: PT. Loyalty Program Indonesia
+developerName: 'PT. Loyalty Program Indonesia'
 features: 
 
 ---

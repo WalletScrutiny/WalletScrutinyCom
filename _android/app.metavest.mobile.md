@@ -1,39 +1,39 @@
 ---
-wsId: metavestCryptoBank
+wsId: 'metavestCryptoBank'
 title: 'Metavest: Crypto Bank & Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: app.metavest.mobile
+appId: 'app.metavest.mobile'
 appCountry: 
-released: 2022-07-06
-updated: 2024-08-20
-version: 3.0.0
+released: '2022-07-06'
+updated: '2024-08-20'
+version: '3.0.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://metavest.app/
+website: 'https://metavest.app/'
 repository: 
 issue: 
-icon: app.metavest.mobile.png
+icon: 'app.metavest.mobile.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-11-12
+date: '2024-11-12'
 signer: 
 reviewArchive: 
-twitter: MetavestApp
+twitter: 'MetavestApp'
 social:
-- https://www.facebook.com/Metavestapp
-- https://www.linkedin.com/company/metavestapp
-- https://discord.com/invite/8sex2Upn79
-- https://t.me/metavestofficial
-- https://www.instagram.com/metavestapp
+- 'https://www.facebook.com/Metavestapp'
+- 'https://www.linkedin.com/company/metavestapp'
+- 'https://discord.com/invite/8sex2Upn79'
+- 'https://t.me/metavestofficial'
+- 'https://www.instagram.com/metavestapp'
 redirect_from: 
-developerName: Metavest
+developerName: 'Metavest'
 features: 
 
 ---

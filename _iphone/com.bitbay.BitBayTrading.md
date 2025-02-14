@@ -1,36 +1,36 @@
 ---
-wsId: bitpaytrading
-title: zondacrypto - crypto exchange
+wsId: 'bitpaytrading'
+title: 'zondacrypto - crypto exchange'
 altTitle: 
 authors:
-- leo
-appId: com.bitbay.BitBayTrading
-appCountry: ca
-idd: 1409644952
-released: 2018-11-20
+- 'leo'
+appId: 'com.bitbay.BitBayTrading'
+appCountry: 'ca'
+idd: '1409644952'
+released: '2018-11-20'
 updated: 2025-02-05
-version: 1.4.14
+version: '1.4.14'
 stars: 5
 reviews: 3
 size: '68254720'
-website: https://zondacrypto.com
+website: 'https://zondacrypto.com'
 repository: 
 issue: 
-icon: com.bitbay.BitBayTrading.jpg
+icon: 'com.bitbay.BitBayTrading.jpg'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2024-10-07
+date: '2024-10-07'
 signer: 
 reviewArchive: 
-twitter: BitBay
+twitter: 'BitBay'
 social:
-- https://www.linkedin.com/company/bitbay
-- https://www.facebook.com/BitBay
-- https://www.reddit.com/r/BitBayExchange
+- 'https://www.linkedin.com/company/bitbay'
+- 'https://www.facebook.com/BitBay'
+- 'https://www.reddit.com/r/BitBayExchange'
 features: 
-developerName: BitBay Sp. z o.o.
+developerName: 'BitBay Sp. z o.o.'
 
 ---
 

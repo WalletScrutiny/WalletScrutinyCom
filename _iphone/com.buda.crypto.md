@@ -7,9 +7,9 @@ authors:
 appId: com.buda.crypto
 appCountry: ar
 idd: 1321460860
-released: 2018-01-04
-updated: 2024-08-27
-version: 2024.8.2
+released: '2018-01-04'
+updated: '2024-08-27'
+version: '2024.8.2'
 stars: 5
 reviews: 1
 size: '30024704'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2024-10-07
+date: '2024-10-07'
 signer: 
 reviewArchive: 
 twitter: BudaPuntoCom

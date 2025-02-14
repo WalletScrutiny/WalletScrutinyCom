@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Dormant Bitcoin Seeker
+title: 'Dormant Bitcoin Seeker'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.maarcodev.dormantbitcoin
+appId: 'com.maarcodev.dormantbitcoin'
 appCountry: 
-released: 2021-01-01
-updated: 2023-01-06
+released: '2021-01-01'
+updated: '2023-01-06'
 version: '1.3'
 stars: 3.7
 ratings: 
@@ -17,18 +17,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.maarcodev.dormantbitcoin.png
+icon: 'com.maarcodev.dormantbitcoin.png'
 bugbounty: 
-meta: defunct
-verdict: wip
+meta: 'defunct'
+verdict: 'wip'
 appHashes: 
-date: 2023-05-09
+date: '2023-05-09'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: MaarcoDev
+developerName: 'MaarcoDev'
 features: 
 
 ---

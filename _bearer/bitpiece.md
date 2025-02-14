@@ -3,7 +3,7 @@ title: Bitpiece
 appId: bitpiece
 authors:
 - danny
-released: 2016-07-03
+released: '2016-07-03'
 discontinued: 
 updated: 
 version: 
@@ -22,7 +22,7 @@ icon: bitpiece.png
 bugbounty: 
 meta: obsolete
 verdict: prefilled
-date: 2022-05-19
+date: '2022-05-19'
 signer: 
 reviewArchive: 
 twitter: 

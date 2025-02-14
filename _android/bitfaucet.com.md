@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: BitFaucet
+title: 'BitFaucet'
 altTitle: 
 authors: 
 users: 100
-appId: bitfaucet.com
+appId: 'bitfaucet.com'
 appCountry: 
-released: 2021-09-16
-updated: 2021-09-20
+released: '2021-09-16'
+updated: '2021-09-20'
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://websiapps.blogspot.com
+website: 'https://websiapps.blogspot.com'
 repository: 
 issue: 
-icon: bitfaucet.com.png
+icon: 'bitfaucet.com.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-02-05
+date: '2024-02-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Websidea
+developerName: 'Websidea'
 features: 
 
 ---

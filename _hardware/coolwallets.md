@@ -4,7 +4,7 @@ appId: coolwallets
 authors:
 - kiwilamb
 - leo
-released: 2018-01-01
+released: '2018-01-01'
 discontinued: 
 updated: 
 version: 
@@ -27,7 +27,7 @@ bugbounty:
 meta: ok
 verdict: plainkey
 appHashes: 
-date: 2021-12-08
+date: '2021-12-08'
 signer: 
 reviewArchive: 
 twitter: coolwallet

@@ -1,43 +1,43 @@
 ---
-wsId: blockfolio
-title: FTX - Buy Crypto, Stocks, ETFs
+wsId: 'blockfolio'
+title: 'FTX - Buy Crypto, Stocks, ETFs'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 5000000
-appId: com.blockfolio.blockfolio
-appCountry: us
-released: 2015-10-01
-updated: 2022-11-01
-version: 4.12.5
+appId: 'com.blockfolio.blockfolio'
+appCountry: 'us'
+released: '2015-10-01'
+updated: '2022-11-01'
+version: '4.12.5'
 stars: 4
 ratings: 164833
 reviews: 11863
 size: 
-website: https://www.blockfolio.com
+website: 'https://www.blockfolio.com'
 repository: 
 issue: 
-icon: com.blockfolio.blockfolio.png
+icon: 'com.blockfolio.blockfolio.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive:
-- date: 2019-11-10
-  version: 4.0.1
+- date: '2019-11-10'
+  version: '4.0.1'
   appHashes: []
-  gitRevision: a7a616c5d7474cbbd0fdaa0387b8ce4cc578e960
-  verdict: nowallet
-twitter: Blockfolio
+  gitRevision: 'a7a616c5d7474cbbd0fdaa0387b8ce4cc578e960'
+  verdict: 'nowallet'
+twitter: 'Blockfolio'
 social:
-- https://www.facebook.com/Blockfolio
+- 'https://www.facebook.com/Blockfolio'
 redirect_from:
-- /blockfolio/
-- /com.blockfolio.blockfolio/
-- /posts/2019/11/blockfolio/
-- /posts/com.blockfolio.blockfolio/
+- '/blockfolio/'
+- '/com.blockfolio.blockfolio/'
+- '/posts/2019/11/blockfolio/'
+- '/posts/com.blockfolio.blockfolio/'
 developerName: 
 features: 
 

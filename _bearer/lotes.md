@@ -22,7 +22,7 @@ icon:
 bugbounty: 
 meta: ok
 verdict: unreleased
-date: 2023-12-08
+date: '2023-12-08'
 signer: 
 reviewArchive: 
 twitter: 

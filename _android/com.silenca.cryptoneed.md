@@ -1,33 +1,33 @@
 ---
-wsId: Cryptoneed
+wsId: 'Cryptoneed'
 title: 'Cryptoneed: универсальный криптокошелек и обменник'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.silenca.cryptoneed
-appCountry: us
-released: 2020-04-15
-updated: 2021-04-27
-version: 1.0.31
+appId: 'com.silenca.cryptoneed'
+appCountry: 'us'
+released: '2020-04-15'
+updated: '2021-04-27'
+version: '1.0.31'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.cryptoneed.pro/
+website: 'https://www.cryptoneed.pro/'
 repository: 
 issue: 
-icon: com.silenca.cryptoneed.png
+icon: 'com.silenca.cryptoneed.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/cryptoneedwallet
+- 'https://www.facebook.com/cryptoneedwallet'
 redirect_from: 
 developerName: 
 features: 

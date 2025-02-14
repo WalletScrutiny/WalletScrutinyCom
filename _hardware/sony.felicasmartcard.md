@@ -26,7 +26,7 @@ bugbounty:
 meta: ok
 verdict: vapor
 appHashes: 
-date: 2023-09-30
+date: '2023-09-30'
 signer: 
 reviewArchive: 
 twitter: 

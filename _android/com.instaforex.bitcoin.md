@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: Bitcoin InstaForex
+title: 'Bitcoin InstaForex'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.instaforex.bitcoin
+appId: 'com.instaforex.bitcoin'
 appCountry: 
-released: 2016-12-15
-updated: 2020-08-26
-version: 0.12.3
+released: '2016-12-15'
+updated: '2020-08-26'
+version: '0.12.3'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: http://www.instaforex.com
+website: 'http://www.instaforex.com'
 repository: 
 issue: 
-icon: com.instaforex.bitcoin.png
+icon: 'com.instaforex.bitcoin.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2023-05-10
+date: '2023-05-10'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Instaforex
+developerName: 'Instaforex'
 features: 
 
 ---

@@ -1,31 +1,31 @@
 ---
-wsId: UmiFi
-title: UmiFi-Bitcoin, Crypto Trading
+wsId: 'UmiFi'
+title: 'UmiFi-Bitcoin, Crypto Trading'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.umifi.app
-appCountry: us
-released: 2021-08-18
-updated: 2021-12-23
-version: 1.0.6
+appId: 'com.umifi.app'
+appCountry: 'us'
+released: '2021-08-18'
+updated: '2021-12-23'
+version: '1.0.6'
 stars: 4.6
 ratings: 76
 reviews: 4
-size: 65M
-website: http://www.umifi.com
+size: '65M'
+website: 'http://www.umifi.com'
 repository: 
 issue: 
-icon: com.umifi.app.png
+icon: 'com.umifi.app.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2022-02-25
+date: '2022-02-25'
 signer: 
 reviewArchive: 
-twitter: officialumifi
+twitter: 'officialumifi'
 social: 
 redirect_from: 
 developerName: 

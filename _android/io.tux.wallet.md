@@ -1,35 +1,34 @@
 ---
-wsId: tuxWallet
-title: TUX Wallet
+wsId: 'tuxWallet'
+title: 'TUX Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: io.tux.wallet
+appId: 'io.tux.wallet'
 appCountry: 
-released: 2020-01-28
+released: '2020-01-28'
 updated: 2025-02-08
-version: 3.0.5
+version: '3.0.5'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://coinyex.com/
+website: 'https://coinyex.com/'
 repository: 
 issue: 
-icon: io.tux.wallet.png
+icon: 'io.tux.wallet.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-25
+date: '2024-07-25'
 signer: 
 reviewArchive: 
-twitter: Coinyexdotcom
+twitter: 'Coinyexdotcom'
 social:
-- https://t.me/coinyexchannel
+- 'https://t.me/coinyexchannel'
 redirect_from: 
-developerName: Coinyex Co., Ltd.
+developerName: 'Coinyex Co., Ltd.'
 features: 
 
 ---

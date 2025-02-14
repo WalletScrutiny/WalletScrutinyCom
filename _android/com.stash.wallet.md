@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Stash Wallet
+title: 'Stash Wallet'
 altTitle: 
 authors: 
 users: 5000
-appId: com.stash.wallet
+appId: 'com.stash.wallet'
 appCountry: 
 released: 
-updated: 2018-12-03
-version: Varies with device
+updated: '2018-12-03'
+version: 'Varies with device'
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
+size: 'Varies with device'
 website: 
 repository: 
 issue: 
-icon: com.stash.wallet.png
+icon: 'com.stash.wallet.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2021-11-26
+date: '2021-11-26'
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,34 +1,32 @@
 ---
 wsId: 
-title: Minibits Wallet
+title: 'Minibits Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.minibits_wallet
+appId: 'com.minibits_wallet'
 appCountry: 
-released: 
-updated: 2025-02-09
-version: VARY
+updated: 2025-02-13
+version: 'VARY'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://www.minibits.cash
+website: 'https://www.minibits.cash'
 repository: 
 issue: 
-icon: com.minibits_wallet.png
+icon: 'com.minibits_wallet.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2024-11-29
+date: '2024-11-29'
 signer: 
 reviewArchive: 
-twitter: MinibitsCash
+twitter: 'MinibitsCash'
 social: 
 redirect_from: 
-developerName: Bitango Technologies
+developerName: 'Bitango Technologies'
 features: 
 
 ---

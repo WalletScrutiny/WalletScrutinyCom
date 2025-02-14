@@ -1,35 +1,34 @@
 ---
-wsId: WealthsimpleTrade
-title: Wealthsimple - Grow your money
+wsId: 'WealthsimpleTrade'
+title: 'Wealthsimple - Grow your money'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000000
-appId: com.wealthsimple.trade
-appCountry: ca
-released: 2019-03-12
-updated: 2025-02-08
-version: 2.168.0
+appId: 'com.wealthsimple.trade'
+appCountry: 'ca'
+released: '2019-03-12'
+updated: 2025-02-14
+version: '2.169.0'
 stars: 4.4
 ratings: 54327
-reviews: 12105
-size: 
-website: https://www.wealthsimple.com/en-ca/
+reviews: 12117
+website: 'https://www.wealthsimple.com/en-ca/'
 repository: 
 issue: 
-icon: com.wealthsimple.trade.png
+icon: 'com.wealthsimple.trade.png'
 bugbounty: 
-meta: ok
-verdict: nosendreceive
+meta: 'ok'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2021-09-03
+date: '2021-09-03'
 signer: 
 reviewArchive: 
-twitter: Wealthsimple
+twitter: 'Wealthsimple'
 social:
-- https://www.facebook.com/wealthsimple
+- 'https://www.facebook.com/wealthsimple'
 redirect_from: 
-developerName: Wealthsimple
+developerName: 'Wealthsimple'
 features: 
 
 ---

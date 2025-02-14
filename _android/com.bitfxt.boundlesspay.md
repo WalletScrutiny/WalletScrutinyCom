@@ -1,36 +1,35 @@
 ---
-wsId: boundlessPay
+wsId: 'boundlessPay'
 title: 'BoundlessPay: Buy& Sell Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.bitfxt.boundlesspay
+appId: 'com.bitfxt.boundlesspay'
 appCountry: 
-released: 2021-09-19
+released: '2021-09-19'
 updated: 2024-11-27
-version: 2.3.6
+version: '2.3.6'
 stars: 4.4
 ratings: 
 reviews: 13
-size: 
-website: https://boundlesspay.com
+website: 'https://boundlesspay.com'
 repository: 
 issue: 
-icon: com.bitfxt.boundlesspay.png
+icon: 'com.bitfxt.boundlesspay.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-03-29
+date: '2023-03-29'
 signer: 
 reviewArchive: 
-twitter: boundlesspay
+twitter: 'boundlesspay'
 social:
-- https://www.facebook.com/boundlesspayofficial/
-- https://www.linkedin.com/company/boundlesspayofficial/
+- 'https://www.facebook.com/boundlesspayofficial/'
+- 'https://www.linkedin.com/company/boundlesspayofficial/'
 redirect_from: 
-developerName: Boundless Nexus
+developerName: 'Boundless Nexus'
 features: 
 
 ---

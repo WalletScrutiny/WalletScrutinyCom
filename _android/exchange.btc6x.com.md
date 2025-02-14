@@ -1,37 +1,37 @@
 ---
 wsId: 
-title: BTC6X Exchange
+title: 'BTC6X Exchange'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: exchange.btc6x.com
+appId: 'exchange.btc6x.com'
 appCountry: 
-released: 2022-03-04
-updated: 2022-03-04
+released: '2022-03-04'
+updated: '2022-03-04'
 version: '1.1'
 stars: 3.9
 ratings: 
 reviews: 6
 size: 
-website: https://btc6x.com
+website: 'https://btc6x.com'
 repository: 
 issue: 
-icon: exchange.btc6x.com.jpg
+icon: 'exchange.btc6x.com.jpg'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-09-26
+date: '2024-09-26'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/btc6x
-- https://t.me/btc6x
-- https://www.instagram.com/btc.6x/
+- 'https://www.facebook.com/btc6x'
+- 'https://t.me/btc6x'
+- 'https://www.instagram.com/btc.6x/'
 redirect_from: 
-developerName: ZeroCash
+developerName: 'ZeroCash'
 features: 
 
 ---

@@ -1,34 +1,33 @@
 ---
-wsId: npbfxCFD
-title: NPBFX
+wsId: 'npbfxCFD'
+title: 'NPBFX'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.npbfx.app
+appId: 'com.npbfx.app'
 appCountry: 
-released: 2022-05-04
+released: '2022-05-04'
 updated: 2025-02-05
-version: 1.14.0
+version: '1.14.0'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://www.npbfx.com/
+website: 'https://www.npbfx.com/'
 repository: 
 issue: 
-icon: com.npbfx.app.jpg
+icon: 'com.npbfx.app.jpg'
 bugbounty: 
-meta: ok
-verdict: nosendreceive
+meta: 'ok'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2025-02-05
+date: '2025-02-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: NMarkets Limited
+developerName: 'NMarkets Limited'
 features: 
 
 ---

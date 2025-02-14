@@ -3,10 +3,10 @@ title: Lolli
 appId: lolli
 authors:
 - danny
-released: 2020-04-19
+released: '2020-04-19'
 discontinued: 
-updated: 2022-11-11
-version: 1.8.3
+updated: '2022-11-11'
+version: '1.8.3'
 binaries: 
 provider: Lolli, Inc.
 providerWebsite: 
@@ -17,7 +17,7 @@ icon: lolli.png
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2024-05-09
+date: '2024-05-09'
 reviewArchive: 
 twitter: trylolli
 social:

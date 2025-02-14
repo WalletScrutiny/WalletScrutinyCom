@@ -3,32 +3,32 @@ wsId:
 title: 'Wiolet: Crypto Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: io.icr4shed.wallet
+appId: 'io.icr4shed.wallet'
 appCountry: 
-released: 2021-09-10
-updated: 2022-11-12
+released: '2021-09-10'
+updated: '2022-11-12'
 version: '6.03'
 stars: 4.1
 ratings: 87
 reviews: 4
 size: 
-website: https://multiwallet.tech/
+website: 'https://multiwallet.tech/'
 repository: 
 issue: 
-icon: io.icr4shed.wallet.png
+icon: 'io.icr4shed.wallet.png'
 bugbounty: 
-meta: removed
-verdict: nobtc
+meta: 'removed'
+verdict: 'nobtc'
 appHashes: 
-date: 2023-09-28
+date: '2023-09-28'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: MultiWallet
+developerName: 'MultiWallet'
 features: 
 
 ---

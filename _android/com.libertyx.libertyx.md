@@ -1,36 +1,36 @@
 ---
-wsId: libertyx
-title: Buy Bitcoin Instantly
+wsId: 'libertyx'
+title: 'Buy Bitcoin Instantly'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.libertyx.libertyx
-appCountry: us
-released: 2015-06-05
-updated: 2024-12-04
-version: 4.2.1
+appId: 'com.libertyx.libertyx'
+appCountry: 'us'
+released: '2015-06-05'
+updated: '2024-12-04'
+version: '4.2.1'
 stars: 3
 ratings: 427
 reviews: 340
 size: 
-website: https://libertyx.com
+website: 'https://libertyx.com'
 repository: 
 issue: 
-icon: com.libertyx.libertyx.png
+icon: 'com.libertyx.libertyx.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-07-04
+date: '2023-07-04'
 signer: 
 reviewArchive: 
-twitter: libertyx
+twitter: 'libertyx'
 social:
-- https://www.linkedin.com/company/libertyx
-- https://www.facebook.com/getlibertyx
+- 'https://www.linkedin.com/company/libertyx'
+- 'https://www.facebook.com/getlibertyx'
 redirect_from: 
-developerName: LibertyX
+developerName: 'LibertyX'
 features: 
 
 ---

@@ -1,36 +1,35 @@
 ---
-wsId: coinmetro
-title: Coinmetro
+wsId: 'coinmetro'
+title: 'Coinmetro'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: app.coinmetro
-appCountry: us
-released: 2017-12-10
+appId: 'app.coinmetro'
+appCountry: 'us'
+released: '2017-12-10'
 updated: 2024-12-18
-version: 5.50.798
+version: '5.50.798'
 stars: 4.4
 ratings: 419
 reviews: 87
-size: 
-website: https://coinmetro.com/
+website: 'https://coinmetro.com/'
 repository: 
 issue: 
-icon: app.coinmetro.png
+icon: 'app.coinmetro.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-10-04
+date: '2021-10-04'
 signer: 
 reviewArchive: 
-twitter: CoinMetro
+twitter: 'CoinMetro'
 social:
-- https://www.linkedin.com/company/coinmetro
-- https://www.facebook.com/CoinMetro
+- 'https://www.linkedin.com/company/coinmetro'
+- 'https://www.facebook.com/CoinMetro'
 redirect_from: 
-developerName: Coinmetro
+developerName: 'Coinmetro'
 features: 
 
 ---

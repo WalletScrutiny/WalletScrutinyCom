@@ -1,40 +1,40 @@
 ---
-wsId: maraWallet
-title: Mara Wallet
+wsId: 'maraWallet'
+title: 'Mara Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000000
-appId: xyz.mara.wallet
+appId: 'xyz.mara.wallet'
 appCountry: 
-released: 2022-05-24
-updated: 2023-10-19
-version: 2.0.1
+released: '2022-05-24'
+updated: '2023-10-19'
+version: '2.0.1'
 stars: 3.9
 ratings: 
 reviews: 146
 size: 
-website: https://mara.xyz
+website: 'https://mara.xyz'
 repository: 
 issue: 
-icon: xyz.mara.wallet.png
+icon: 'xyz.mara.wallet.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2025-02-13
+date: '2025-02-13'
 signer: 
 reviewArchive: 
-twitter: TheMARAverse
+twitter: 'TheMARAverse'
 social:
-- https://www.linkedin.com/company/themaraverse
-- https://www.facebook.com/themaraverse
-- https://www.tiktok.com/@themaraverse
-- https://www.instagram.com/themaraverse
-- https://t.me/TheMaraverse
-- https://www.youtube.com/channel/UCSzxEpB-NnWm-PxLEE7ihTQ
+- 'https://www.linkedin.com/company/themaraverse'
+- 'https://www.facebook.com/themaraverse'
+- 'https://www.tiktok.com/@themaraverse'
+- 'https://www.instagram.com/themaraverse'
+- 'https://t.me/TheMaraverse'
+- 'https://www.youtube.com/channel/UCSzxEpB-NnWm-PxLEE7ihTQ'
 redirect_from: 
-developerName: Jara Wallet
+developerName: 'Jara Wallet'
 features: 
 
 ---

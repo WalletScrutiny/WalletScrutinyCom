@@ -3,32 +3,32 @@ wsId:
 title: 'Hodlnaut: Earn Crypto Interest'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.hodlnaut.mobile
-appCountry: SG
-released: 2021-10-26
-updated: 2022-08-21
-version: 1.4.15
+appId: 'com.hodlnaut.mobile'
+appCountry: 'SG'
+released: '2021-10-26'
+updated: '2022-08-21'
+version: '1.4.15'
 stars: 4.3
 ratings: 
 reviews: 76
 size: 
-website: https://www.hodlnaut.com
+website: 'https://www.hodlnaut.com'
 repository: 
 issue: 
-icon: com.hodlnaut.mobile.jpg
+icon: 'com.hodlnaut.mobile.jpg'
 bugbounty: 
-meta: defunct
-verdict: custodial
+meta: 'defunct'
+verdict: 'custodial'
 appHashes: 
-date: 2023-04-07
+date: '2023-04-07'
 signer: 
 reviewArchive: 
-twitter: hodlnautdotcom
+twitter: 'hodlnautdotcom'
 social: 
 redirect_from: 
-developerName: Hodlnaut
+developerName: 'Hodlnaut'
 features: 
 
 ---

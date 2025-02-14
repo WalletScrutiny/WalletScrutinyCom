@@ -1,28 +1,28 @@
 ---
 wsId: 
-title: Chivo Wallet
-altTitle: (Fake) Chivo Wallet
+title: 'Chivo Wallet'
+altTitle: '(Fake) Chivo Wallet'
 authors:
-- leo
+- 'leo'
 users: 500
-appId: com.chivowalletapp.co
+appId: 'com.chivowalletapp.co'
 appCountry: 
-released: 2021-08-12
-updated: 2021-08-13
+released: '2021-08-12'
+updated: '2021-08-13'
 version: '1.0'
 stars: 1.6
 ratings: 64
 reviews: 46
-size: 3.9M
+size: '3.9M'
 website: 
 repository: 
 issue: 
-icon: com.chivowalletapp.co.png
+icon: 'com.chivowalletapp.co.png'
 bugbounty: 
-meta: removed
-verdict: fake
+meta: 'removed'
+verdict: 'fake'
 appHashes: 
-date: 2021-08-21
+date: '2021-08-21'
 signer: 
 reviewArchive: 
 twitter: 

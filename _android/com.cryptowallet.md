@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: CriptoActivo
+title: 'CriptoActivo'
 altTitle: 
 authors: 
 users: 50
-appId: com.cryptowallet
+appId: 'com.cryptowallet'
 appCountry: 
 released: 
-updated: 2019-07-28
-version: VARY
+updated: '2019-07-28'
+version: 'VARY'
 stars: 
 ratings: 
 reviews: 
@@ -16,18 +16,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.cryptowallet.png
+icon: 'com.cryptowallet.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-11-02
+date: '2023-11-02'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Crypto activos
+developerName: 'Crypto activos'
 features: 
 
 ---

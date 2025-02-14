@@ -7,9 +7,9 @@ authors:
 appId: com.bitrefill.bitrefill
 appCountry: 
 idd: 1378102623
-released: 2018-06-05
-updated: 2025-02-03
-version: 2.8.0
+released: '2018-06-05'
+updated: '2025-02-03'
+version: '2.8.0'
 stars: 4.7
 reviews: 295
 size: '60893184'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: []
-date: 2021-09-12
+date: '2021-09-12'
 signer: 
 reviewArchive: 
 twitter: bitrefill

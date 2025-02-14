@@ -1,35 +1,35 @@
 ---
-wsId: coinlibIO
+wsId: 'coinlibIO'
 title: 'Coinlib - Crypto Trading Made '
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.coinlib.coinlib
+appId: 'com.coinlib.coinlib'
 appCountry: 
-released: 2018-07-06
-updated: 2021-08-10
-version: 1.0.1
+released: '2018-07-06'
+updated: '2021-08-10'
+version: '1.0.1'
 stars: 3.2
 ratings: 
 reviews: 4
 size: 
-website: https://coinlib.io
+website: 'https://coinlib.io'
 repository: 
 issue: 
-icon: com.coinlib.coinlib.png
+icon: 'com.coinlib.coinlib.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-05-07
+date: '2024-05-07'
 signer: 
 reviewArchive: 
-twitter: coinlibio
+twitter: 'coinlibio'
 social:
-- https://www.facebook.com/coinlib/
+- 'https://www.facebook.com/coinlib/'
 redirect_from: 
-developerName: Coinlib
+developerName: 'Coinlib'
 features: 
 
 ---

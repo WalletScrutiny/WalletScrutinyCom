@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: ForgingBlock POS
+title: 'ForgingBlock POS'
 altTitle: 
 authors: 
 users: 10
-appId: io.app.forgingblock
+appId: 'io.app.forgingblock'
 appCountry: 
-released: 2020-10-20
-updated: 2020-10-20
+released: '2020-10-20'
+updated: '2020-10-20'
 version: '8.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://forgingblock.io
+website: 'https://forgingblock.io'
 repository: 
 issue: 
-icon: io.app.forgingblock.png
+icon: 'io.app.forgingblock.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: ForgingBlock Team
+developerName: 'ForgingBlock Team'
 features: 
 
 ---

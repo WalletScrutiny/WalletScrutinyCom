@@ -1,35 +1,34 @@
 ---
-wsId: airtimeDataHub
-title: AirtimeDataHub - Sell Airtime
+wsId: 'airtimeDataHub'
+title: 'AirtimeDataHub - Sell Airtime'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.airtimedatahub.app
+appId: 'com.airtimedatahub.app'
 appCountry: 
-released: 2019-02-19
+released: '2019-02-19'
 updated: 2023-06-23
-version: 3.5.1
+version: '3.5.1'
 stars: 4.3
 ratings: 
 reviews: 12
-size: 
-website: https://airtimedatahub.com/
+website: 'https://airtimedatahub.com/'
 repository: 
 issue: 
-icon: com.airtimedatahub.app.png
+icon: 'com.airtimedatahub.app.png'
 bugbounty: 
-meta: stale
-verdict: nowallet
+meta: 'stale'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-06-18
+date: '2024-06-18'
 signer: 
 reviewArchive: 
-twitter: airtimedatahub
+twitter: 'airtimedatahub'
 social:
-- https://www.facebook.com/Airtimedatahub
+- 'https://www.facebook.com/Airtimedatahub'
 redirect_from: 
-developerName: Codefixbug
+developerName: 'Codefixbug'
 features: 
 
 ---

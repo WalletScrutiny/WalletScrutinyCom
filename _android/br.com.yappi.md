@@ -1,37 +1,37 @@
 ---
-wsId: yappi
-title: Yappi
+wsId: 'yappi'
+title: 'Yappi'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: br.com.yappi
+appId: 'br.com.yappi'
 appCountry: 
-released: 2021-02-02
-updated: 2022-11-12
-version: 1.2.1
+released: '2021-02-02'
+updated: '2022-11-12'
+version: '1.2.1'
 stars: 3.4
 ratings: 
 reviews: 4
 size: 
-website: https://yappi.com.br/
+website: 'https://yappi.com.br/'
 repository: 
 issue: 
-icon: br.com.yappi.png
+icon: 'br.com.yappi.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-09-18
+date: '2024-09-18'
 signer: 
 reviewArchive: 
-twitter: yappi_br
+twitter: 'yappi_br'
 social:
-- https://www.facebook.com/yappi.br
-- https://www.instagram.com/yappi.br/
-- https://www.linkedin.com/company/yappi-br/
+- 'https://www.facebook.com/yappi.br'
+- 'https://www.instagram.com/yappi.br/'
+- 'https://www.linkedin.com/company/yappi-br/'
 redirect_from: 
-developerName: Yappi Software e Serviços LTDA
+developerName: 'Yappi Software e Serviços LTDA'
 features: 
 
 ---

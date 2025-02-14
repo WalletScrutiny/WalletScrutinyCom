@@ -8,9 +8,9 @@ authors:
 appId: io.bitmax.bitmax
 appCountry: 
 idd: 1463917147
-released: 2019-06-13
-updated: 2022-11-14
-version: 2.8.8
+released: '2019-06-13'
+updated: '2022-11-14'
+version: '2.8.8'
 stars: 4.7
 reviews: 318
 size: '120030208'
@@ -22,7 +22,7 @@ bugbounty:
 meta: defunct
 verdict: custodial
 appHashes: 
-date: 2023-03-21
+date: '2023-03-21'
 signer: 
 reviewArchive: 
 twitter: AscendEX_Global

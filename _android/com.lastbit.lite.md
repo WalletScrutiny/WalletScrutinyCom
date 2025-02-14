@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: Lastbit Lite
+title: 'Lastbit Lite'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.lastbit.lite
+appId: 'com.lastbit.lite'
 appCountry: 
 released: 
-updated: 2021-05-11
-version: Varies with device
+updated: '2021-05-11'
+version: 'Varies with device'
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
-website: https://lastbit.io/
+size: 'Varies with device'
+website: 'https://lastbit.io/'
 repository: 
 issue: 
-icon: com.lastbit.lite.png
+icon: 'com.lastbit.lite.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2022-04-25
+date: '2022-04-25'
 signer: 
 reviewArchive: 
-twitter: lastbitpay
+twitter: 'lastbitpay'
 social:
-- https://www.facebook.com/lastbitpay
-- https://github.com/lastbit-io
+- 'https://www.facebook.com/lastbitpay'
+- 'https://github.com/lastbit-io'
 redirect_from: 
 developerName: 
 features: 

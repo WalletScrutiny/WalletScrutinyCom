@@ -3,10 +3,10 @@ title: Trezor Suite
 appId: trezor.suite
 authors:
 - danny
-released: 2016-06-28
+released: '2016-06-28'
 discontinued: 
-updated: 2024-04-19
-version: 24.4.3
+updated: '2024-04-19'
+version: '24.4.3'
 binaries: 
 provider: Trezor
 providerWebsite: https://trezor.io
@@ -17,7 +17,7 @@ icon: trezor.suite.png
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2024-04-25
+date: '2024-04-25'
 reviewArchive: 
 twitter: trezor
 social: 

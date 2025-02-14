@@ -1,33 +1,33 @@
 ---
-wsId: atomex
-title: Atomex Crypto Wallet
+wsId: 'atomex'
+title: 'Atomex Crypto Wallet'
 altTitle: 
 authors:
-- leo
-appId: com.atomex.ios
+- 'leo'
+appId: 'com.atomex.ios'
 appCountry: 
-idd: 1534717828
-released: 2020-12-03
-updated: 2023-02-19
+idd: '1534717828'
+released: '2020-12-03'
+updated: '2023-02-19'
 version: '1.24'
 stars: 3.5
 reviews: 11
 size: '47049728'
-website: https://atomex.me
-repository: https://github.com/atomex-me/atomex.mobile
+website: 'https://atomex.me'
+repository: 'https://github.com/atomex-me/atomex.mobile'
 issue: 
-icon: com.atomex.ios.jpg
+icon: 'com.atomex.ios.jpg'
 bugbounty: 
-meta: removed
-verdict: nonverifiable
+meta: 'removed'
+verdict: 'nonverifiable'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
-twitter: atomex_official
+twitter: 'atomex_official'
 social: 
 features: 
-developerName: Atomex OÜ
+developerName: 'Atomex OÜ'
 
 ---
 

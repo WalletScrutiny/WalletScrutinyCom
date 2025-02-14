@@ -3,9 +3,9 @@ title: Andrew Lohbihler AirSwipe DIY Ethereum Wallet and Reader
 appId: andrewlohbihler.airswipe.diy
 authors:
 - danny
-released: 2020-10-09
+released: '2020-10-09'
 discontinued: 
-updated: 2020-10-26
+updated: '2020-10-26'
 version: 
 binaries: 
 dimensions: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: stale
 verdict: nobtc
 appHashes: 
-date: 2022-05-21
+date: '2022-05-21'
 signer: 
 reviewArchive: 
 twitter: andawna

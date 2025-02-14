@@ -1,39 +1,38 @@
 ---
-wsId: Sylo
-title: Sylo - Smart Wallet & Messenge
+wsId: 'Sylo'
+title: 'Sylo - Smart Wallet & Messenge'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 100000
-appId: io.sylo.dapp
+appId: 'io.sylo.dapp'
 appCountry: 
-released: 2019-09-10
+released: '2019-09-10'
 updated: 2022-10-27
-version: 4.0.14
+version: '4.0.14'
 stars: 4
 ratings: 758
 reviews: 46
-size: 
-website: http://www.sylo.io
+website: 'http://www.sylo.io'
 repository: 
 issue: 
-icon: io.sylo.dapp.png
+icon: 'io.sylo.dapp.png'
 bugbounty: 
-meta: obsolete
-verdict: nosource
+meta: 'obsolete'
+verdict: 'nosource'
 appHashes: 
-date: 2024-10-19
+date: '2024-10-19'
 signer: 
 reviewArchive: 
-twitter: sylo
+twitter: 'sylo'
 social:
-- https://www.linkedin.com/company/sylo.io
-- https://www.facebook.com/sylo.io
-- https://www.reddit.com/r/sylo_io
+- 'https://www.linkedin.com/company/sylo.io'
+- 'https://www.facebook.com/sylo.io'
+- 'https://www.reddit.com/r/sylo_io'
 redirect_from:
-- /io.sylo.dapp/
-- /posts/io.sylo.dapp/
-developerName: Sylo Licensing Limited
+- '/io.sylo.dapp/'
+- '/posts/io.sylo.dapp/'
+developerName: 'Sylo Licensing Limited'
 features: 
 
 ---

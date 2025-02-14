@@ -7,9 +7,9 @@ authors:
 appId: com.cypherstack.stackduo
 appCountry: us
 idd: '6446602017'
-released: 2023-03-29
-updated: 2024-12-05
-version: 1.2.4
+released: '2023-03-29'
+updated: '2024-12-05'
+version: '1.2.4'
 stars: 4.8
 reviews: 6
 size: '177918976'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: wip
 appHashes: 
-date: 2024-05-31
+date: '2024-05-31'
 signer: 
 reviewArchive: 
 twitter: stack_wallet

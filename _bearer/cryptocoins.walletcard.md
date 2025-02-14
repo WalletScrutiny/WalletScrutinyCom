@@ -26,7 +26,7 @@ icon: cryptocoins.walletcard.png
 bugbounty: 
 meta: defunct
 verdict: prefilled
-date: 2023-04-06
+date: '2023-04-06'
 signer: 
 reviewArchive: 
 twitter: 

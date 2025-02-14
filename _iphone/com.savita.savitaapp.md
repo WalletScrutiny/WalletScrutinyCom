@@ -7,9 +7,9 @@ authors:
 appId: com.savita.savitaapp
 appCountry: in
 idd: '1664110660'
-released: 2023-01-16
-updated: 2023-07-20
-version: 1.7.0
+released: '2023-01-16'
+updated: '2023-07-20'
+version: '1.7.0'
 stars: 0
 reviews: 0
 size: '51870720'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-08-02
+date: '2024-08-02'
 signer: 
 reviewArchive: 
 twitter: 

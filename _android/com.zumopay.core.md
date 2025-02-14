@@ -1,39 +1,38 @@
 ---
-wsId: zumoPay
+wsId: 'zumoPay'
 title: 'Zumo: Bitcoin & Crypto Wallet'
 altTitle: 
 authors:
-- leo
-- danny
+- 'leo'
+- 'danny'
 users: 10000
-appId: com.zumopay.core
+appId: 'com.zumopay.core'
 appCountry: 
-released: 2019-10-28
+released: '2019-10-28'
 updated: 2025-01-24
-version: 5.12.0
+version: '5.12.0'
 stars: 4.4
 ratings: 
 reviews: 
-size: 
-website: https://zumo.tech
+website: 'https://zumo.tech'
 repository: 
 issue: 
-icon: com.zumopay.core.png
+icon: 'com.zumopay.core.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-13
+date: '2024-07-13'
 signer: 
 reviewArchive: 
-twitter: zumopay
+twitter: 'zumopay'
 social:
-- https://www.linkedin.com/company/zumomoney
-- https://www.facebook.com/zumo.money
+- 'https://www.linkedin.com/company/zumomoney'
+- 'https://www.facebook.com/zumo.money'
 redirect_from:
-- /com.zumopay.core/
-- /posts/com.zumopay.core/
-developerName: Zumopay
+- '/com.zumopay.core/'
+- '/posts/com.zumopay.core/'
+developerName: 'Zumopay'
 features: 
 
 ---

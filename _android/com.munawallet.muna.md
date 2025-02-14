@@ -1,36 +1,36 @@
 ---
-wsId: munawallet
-title: Muna App
+wsId: 'munawallet'
+title: 'Muna App'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.munawallet.muna
+appId: 'com.munawallet.muna'
 appCountry: 
-released: 2021-03-28
-updated: 2023-11-03
-version: 3.0.0
+released: '2021-03-28'
+updated: '2023-11-03'
+version: '3.0.0'
 stars: 4.4
 ratings: 
 reviews: 14
 size: 
-website: https://muna.app
+website: 'https://muna.app'
 repository: 
 issue: 
-icon: com.munawallet.muna.png
+icon: 'com.munawallet.muna.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2025-02-13
+date: '2025-02-13'
 signer: 
 reviewArchive: 
-twitter: munawallet
+twitter: 'munawallet'
 social:
-- https://www.facebook.com/munawallet
-- https://www.instagram.com/munawallet/
+- 'https://www.facebook.com/munawallet'
+- 'https://www.instagram.com/munawallet/'
 redirect_from: 
-developerName: Quru Lab
+developerName: 'Quru Lab'
 features: 
 
 ---

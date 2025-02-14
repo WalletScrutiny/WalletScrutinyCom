@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: Bolt Card NFC Card Creator
+title: 'Bolt Card NFC Card Creator'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.lightningnfcapp
+appId: 'com.lightningnfcapp'
 appCountry: 
-released: 2022-08-19
+released: '2022-08-19'
 updated: 2024-09-03
-version: 0.3.2
+version: '0.3.2'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://onesandzeros.nz/
-repository: https://github.com/boltcard/bolt-nfc-android-app
+website: 'https://onesandzeros.nz/'
+repository: 'https://github.com/boltcard/bolt-nfc-android-app'
 issue: 
-icon: com.lightningnfcapp.png
+icon: 'com.lightningnfcapp.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-04-04
+date: '2024-04-04'
 signer: 
 reviewArchive: 
-twitter: ones_and_zeroz
+twitter: 'ones_and_zeroz'
 social:
-- https://www.linkedin.com/company/ones-and-zeros-technology-limited
+- 'https://www.linkedin.com/company/ones-and-zeros-technology-limited'
 redirect_from: 
-developerName: Ones and Zeros Technology
+developerName: 'Ones and Zeros Technology'
 features: 
 
 ---

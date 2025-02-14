@@ -1,37 +1,36 @@
 ---
-wsId: RoyalQ
-title: Royal Q - Crypto Trading Bot
+wsId: 'RoyalQ'
+title: 'Royal Q - Crypto Trading Bot'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000000
-appId: com.royalqs.royalq
+appId: 'com.royalqs.royalq'
 appCountry: 
-released: 2021-03-19
+released: '2021-03-19'
 updated: 2025-01-21
-version: 5.8.6
+version: '5.8.6'
 stars: 4
 ratings: 
 reviews: 157
-size: 
-website: https://www.royalqs.com/
+website: 'https://www.royalqs.com/'
 repository: 
 issue: 
-icon: com.royalqs.royalq.png
+icon: 'com.royalqs.royalq.png'
 bugbounty: 
-meta: ok
-verdict: nobtc
+meta: 'ok'
+verdict: 'nobtc'
 appHashes: 
-date: 2023-01-31
+date: '2023-01-31'
 signer: 
 reviewArchive: 
-twitter: RoyalQuantify
+twitter: 'RoyalQuantify'
 social:
-- https://www.facebook.com/profile.php?id=100088554828642
-- https://t.me/Royal_Q_Official
-- https://www.youtube.com/channel/UCG_24GCm1wdzJsBcSXRYD1Q
+- 'https://www.facebook.com/profile.php?id=100088554828642'
+- 'https://t.me/Royal_Q_Official'
+- 'https://www.youtube.com/channel/UCG_24GCm1wdzJsBcSXRYD1Q'
 redirect_from: 
-developerName: Royal Q
+developerName: 'Royal Q'
 features: 
 
 ---

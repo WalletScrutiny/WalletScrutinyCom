@@ -1,34 +1,33 @@
 ---
-wsId: gopax
-title: GOPAX (Crypto exchange)
+wsId: 'gopax'
+title: 'GOPAX (Crypto exchange)'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 500000
-appId: kr.co.gopax
-appCountry: cn
-released: 2018-11-05
+appId: 'kr.co.gopax'
+appCountry: 'cn'
+released: '2018-11-05'
 updated: 2025-01-21
-version: 1.8.25.4cf6
+version: '1.8.25.4cf6'
 stars: 3.3
 ratings: 1387
-reviews: 1533
-size: 
-website: https://www.gopax.co.kr
+reviews: 1534
+website: 'https://www.gopax.co.kr'
 repository: 
 issue: 
-icon: kr.co.gopax.png
+icon: 'kr.co.gopax.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-10-01
+date: '2021-10-01'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Streami Inc.
+developerName: 'Streami Inc.'
 features: 
 
 ---

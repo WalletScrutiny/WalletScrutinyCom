@@ -3,13 +3,13 @@ wsId:
 title: 'QKEx: Crypto Asset Service'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.qkex
+appId: 'com.qkex'
 appCountry: 
-released: 2022-11-10
-updated: 2023-12-21
-version: 3.0.34
+released: '2022-11-10'
+updated: '2023-12-21'
+version: '3.0.34'
 stars: 
 ratings: 
 reviews: 
@@ -17,19 +17,19 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.qkex.png
+icon: 'com.qkex.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
-twitter: qkexglobal
+twitter: 'qkexglobal'
 social:
-- https://t.me/qkexglobal1
+- 'https://t.me/qkexglobal1'
 redirect_from: 
-developerName: QKEx Android
+developerName: 'QKEx Android'
 features: 
 
 ---

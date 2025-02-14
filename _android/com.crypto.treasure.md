@@ -3,35 +3,34 @@ wsId:
 title: 'Treasure: Crypto & BTC Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.crypto.treasure
+appId: 'com.crypto.treasure'
 appCountry: 
-released: 2022-12-01
+released: '2022-12-01'
 updated: 2023-02-08
-version: 1.0.5
+version: '1.0.5'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://treasurewallet.co
+website: 'https://treasurewallet.co'
 repository: 
 issue: 
-icon: com.crypto.treasure.png
+icon: 'com.crypto.treasure.png'
 bugbounty: 
-meta: obsolete
-verdict: nosource
+meta: 'obsolete'
+verdict: 'nosource'
 appHashes: 
-date: 2025-01-29
+date: '2025-01-29'
 signer: 
 reviewArchive: 
-twitter: treasurewallett
+twitter: 'treasurewallett'
 social:
-- https://www.facebook.com/TreasuresWallet
-- https://www.instagram.com/treasurewallet
-- https://t.me/Treasurewallet
+- 'https://www.facebook.com/TreasuresWallet'
+- 'https://www.instagram.com/treasurewallet'
+- 'https://t.me/Treasurewallet'
 redirect_from: 
-developerName: IT Work
+developerName: 'IT Work'
 features: 
 
 ---

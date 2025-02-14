@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: Joy DC
+title: 'Joy DC'
 altTitle: 
 authors: 
 users: 10
-appId: com.joydc.app
+appId: 'com.joydc.app'
 appCountry: 
-released: 2020-01-24
-updated: 2020-02-02
-version: 1.0.7
+released: '2020-01-24'
+updated: '2020-02-02'
+version: '1.0.7'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.creativecodez.com
+website: 'https://www.creativecodez.com'
 repository: 
 issue: 
-icon: com.joydc.app.png
+icon: 'com.joydc.app.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Creativecodez
+developerName: 'Creativecodez'
 features: 
 
 ---

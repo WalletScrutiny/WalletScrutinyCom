@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 經濟一週 EDigest - 股票投資 財經新聞 理財資訊
+title: '經濟一週 EDigest - 股票投資 財經新聞 理財資訊'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: hk.edigest.edapp
+appId: 'hk.edigest.edapp'
 appCountry: 
-released: 2020-08-21
+released: '2020-08-21'
 updated: 2024-11-22
 version: '1.90'
 stars: 3.3
 ratings: 
 reviews: 
-size: 
-website: https://www.nmg.com.hk/contactus/
+website: 'https://www.nmg.com.hk/contactus/'
 repository: 
 issue: 
-icon: hk.edigest.edapp.png
+icon: 'hk.edigest.edapp.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-06-13
+date: '2023-06-13'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Media Publishing Limited
+developerName: 'Media Publishing Limited'
 features: 
 
 ---

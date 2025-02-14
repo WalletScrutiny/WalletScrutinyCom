@@ -6,8 +6,8 @@ authors:
 appId: com.wrx.wazirx
 appCountry: in
 idd: 1349082789
-released: 2018-03-07
-updated: 2025-01-06
+released: '2018-03-07'
+updated: '2025-01-06'
 version: '2.3'
 stars: 4.2
 reviews: 52986
@@ -20,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2021-08-09
+date: '2021-08-09'
 signer: 
 reviewArchive: 
 twitter: WazirxIndia

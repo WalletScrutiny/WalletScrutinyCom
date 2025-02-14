@@ -7,9 +7,9 @@ authors:
 appId: org.worldcoin.insight
 appCountry: us
 idd: '1560859847'
-released: 2022-06-25
-updated: 2025-02-11
-version: 2.8.7102
+released: '2022-06-25'
+updated: '2025-02-11'
+version: '2.8.7102'
 stars: 4.7
 reviews: 1630
 size: '164200448'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nobtc
 appHashes: 
-date: 2024-08-30
+date: '2024-08-30'
 signer: 
 reviewArchive: 
 twitter: worldcoin

@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: Aelince
+title: 'Aelince'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.aelince.app
+appId: 'com.aelince.app'
 appCountry: 
-released: 2022-10-25
-updated: 2022-11-21
+released: '2022-10-25'
+updated: '2022-11-21'
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://aelince.com
+website: 'https://aelince.com'
 repository: 
 issue: 
-icon: com.aelince.app.png
+icon: 'com.aelince.app.png'
 bugbounty: 
-meta: defunct
-verdict: wip
+meta: 'defunct'
+verdict: 'wip'
 appHashes: 
-date: 2023-08-28
+date: '2023-08-28'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Aelince Technologies
+developerName: 'Aelince Technologies'
 features: 
 
 ---

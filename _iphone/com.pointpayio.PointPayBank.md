@@ -8,9 +8,9 @@ authors:
 appId: com.pointpayio.PointPayBank
 appCountry: 
 idd: 1512836089
-released: 2020-07-30
-updated: 2025-02-10
-version: 8.8.48
+released: '2020-07-30'
+updated: '2025-02-10'
+version: '8.8.48'
 stars: 4.6
 reviews: 691
 size: '44346368'
@@ -22,7 +22,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2021-04-27
+date: '2021-04-27'
 signer: 
 reviewArchive: 
 twitter: PointPay1

@@ -7,9 +7,9 @@ authors:
 appId: mw.org.freewallet.app
 appCountry: 
 idd: 1274003898
-released: 2017-09-01
-updated: 2023-10-10
-version: 1.18.6
+released: '2017-09-01'
+updated: '2023-10-10'
+version: '1.18.6'
 stars: 3.7
 reviews: 1304
 size: '71025664'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-05-07
+date: '2024-05-07'
 signer: 
 reviewArchive: 
 twitter: freewalletorg

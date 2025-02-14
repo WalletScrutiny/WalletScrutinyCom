@@ -1,37 +1,36 @@
 ---
-wsId: senexPayBitcoin
+wsId: 'senexPayBitcoin'
 title: 'SenexPay: Buy & Store Bitcoin'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.senexpay.mobile
+appId: 'com.senexpay.mobile'
 appCountry: 
-released: 2022-08-16
+released: '2022-08-16'
 updated: 2024-12-01
-version: 1.7.3
+version: '1.7.3'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://senexpay.com
+website: 'https://senexpay.com'
 repository: 
 issue: 
-icon: com.senexpay.mobile.png
+icon: 'com.senexpay.mobile.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-09-07
+date: '2023-09-07'
 signer: 
 reviewArchive: 
-twitter: senexpay
+twitter: 'senexpay'
 social:
-- https://www.linkedin.com/company/senexpay
-- https://www.facebook.com/senexpay
-- https://www.instagram.com/senexpay
+- 'https://www.linkedin.com/company/senexpay'
+- 'https://www.facebook.com/senexpay'
+- 'https://www.instagram.com/senexpay'
 redirect_from: 
-developerName: Senex Payment Services Limited
+developerName: 'Senex Payment Services Limited'
 features: 
 
 ---

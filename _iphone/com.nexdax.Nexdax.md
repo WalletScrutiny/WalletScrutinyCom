@@ -7,8 +7,8 @@ authors:
 appId: com.nexdax.Nexdax
 appCountry: sg
 idd: '1617962449'
-released: 2022-06-23
-updated: 2022-08-16
+released: '2022-06-23'
+updated: '2022-08-16'
 version: '1.1'
 stars: 5
 reviews: 1
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-11-30
+date: '2024-11-30'
 signer: 
 reviewArchive: 
 twitter: nexdax_exchange

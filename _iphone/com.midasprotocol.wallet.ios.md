@@ -7,9 +7,9 @@ authors:
 appId: com.midasprotocol.wallet.ios
 appCountry: 
 idd: 1436698193
-released: 2018-09-24
-updated: 2021-11-12
-version: 2.0.8
+released: '2018-09-24'
+updated: '2021-11-12'
+version: '2.0.8'
 stars: 4.8
 reviews: 90
 size: '145725440'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-04-26
+date: '2024-04-26'
 signer: 
 reviewArchive: 
 twitter: MidasProtocol

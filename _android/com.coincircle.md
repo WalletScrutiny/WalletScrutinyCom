@@ -1,36 +1,35 @@
 ---
-wsId: CoinCircle
-title: CoinCircle
+wsId: 'CoinCircle'
+title: 'CoinCircle'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.coincircle
-appCountry: us
-released: 2021-04-26
+appId: 'com.coincircle'
+appCountry: 'us'
+released: '2021-04-26'
 updated: 2024-02-29
-version: 1.3.3.10300
+version: '1.3.3.10300'
 stars: 4.3
 ratings: 438
 reviews: 246
-size: 
-website: https://coincircle.com
+website: 'https://coincircle.com'
 repository: 
 issue: 
-icon: com.coincircle.png
+icon: 'com.coincircle.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-24
+date: '2024-07-24'
 signer: 
 reviewArchive: 
-twitter: coincircle
+twitter: 'coincircle'
 social:
-- https://www.linkedin.com/company/coincircle
-- https://www.facebook.com/CoinCircle
+- 'https://www.linkedin.com/company/coincircle'
+- 'https://www.facebook.com/CoinCircle'
 redirect_from: 
-developerName: CoinCircle, Inc.
+developerName: 'CoinCircle, Inc.'
 features: 
 
 ---

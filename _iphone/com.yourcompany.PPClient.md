@@ -7,9 +7,9 @@ authors:
 appId: com.yourcompany.PPClient
 appCountry: 
 idd: 283646709
-released: 2019-02-03
-updated: 2025-02-05
-version: 8.78.1
+released: '2019-02-03'
+updated: '2025-02-05'
+version: '8.78.1'
 stars: 4.8
 reviews: 6298160
 size: '374640640'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nosendreceive
 appHashes: 
-date: 2021-08-22
+date: '2021-08-22'
 signer: 
 reviewArchive: 
 twitter: PayPal

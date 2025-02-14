@@ -1,13 +1,13 @@
 ---
 wsId: 
-title: Bitcoin Trader Expert
+title: 'Bitcoin Trader Expert'
 altTitle: 
 authors: 
 users: 5
-appId: com.buybitcoin.traidercrypto
+appId: 'com.buybitcoin.traidercrypto'
 appCountry: 
-released: 2022-04-15
-updated: 2022-04-15
+released: '2022-04-15'
+updated: '2022-04-15'
 version: '1'
 stars: 
 ratings: 
@@ -16,12 +16,12 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.buybitcoin.traidercrypto.jpg
+icon: 'com.buybitcoin.traidercrypto.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
 twitter: 

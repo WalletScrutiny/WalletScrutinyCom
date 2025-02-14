@@ -7,9 +7,9 @@ authors:
 appId: com.pallapay.application
 appCountry: us
 idd: '1622391711'
-released: 2022-05-12
-updated: 2022-06-01
-version: 1.0.4
+released: '2022-05-12'
+updated: '2022-06-01'
+version: '1.0.4'
 stars: 1
 reviews: 2
 size: '7005184'
@@ -21,7 +21,7 @@ bugbounty:
 meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-05-24
+date: '2024-05-24'
 signer: 
 reviewArchive: 
 twitter: pallapay_com

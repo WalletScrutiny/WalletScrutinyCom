@@ -1,41 +1,40 @@
 ---
-wsId: ixfiExchange
-title: IXFI
+wsId: 'ixfiExchange'
+title: 'IXFI'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.ixfi
+appId: 'com.ixfi'
 appCountry: 
-released: 2022-01-19
+released: '2022-01-19'
 updated: 2025-01-22
-version: 1.9.93
+version: '1.9.93'
 stars: 4.7
 ratings: 
 reviews: 64
-size: 
-website: https://ixfi.com
+website: 'https://ixfi.com'
 repository: 
 issue: 
-icon: com.ixfi.png
+icon: 'com.ixfi.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-07-08
+date: '2023-07-08'
 signer: 
 reviewArchive: 
-twitter: ixfiexchange
+twitter: 'ixfiexchange'
 social:
-- https://www.linkedin.com/company/ixfiexchange
-- https://www.facebook.com/ixfiexchange
-- https://www.youtube.com/@ixfiexchange
-- https://www.reddit.com/r/IXFIofficial
-- https://ixfiexchange.medium.com
-- https://t.me/ixfiexchange
-- https://discord.com/invite/ixfiexchange
+- 'https://www.linkedin.com/company/ixfiexchange'
+- 'https://www.facebook.com/ixfiexchange'
+- 'https://www.youtube.com/@ixfiexchange'
+- 'https://www.reddit.com/r/IXFIofficial'
+- 'https://ixfiexchange.medium.com'
+- 'https://t.me/ixfiexchange'
+- 'https://discord.com/invite/ixfiexchange'
 redirect_from: 
-developerName: IXFI Crypto World
+developerName: 'IXFI Crypto World'
 features: 
 
 ---

@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: LATOKEN DeFi Crypto Wallet
+title: 'LATOKEN DeFi Crypto Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.app.defi
+appId: 'com.app.defi'
 appCountry: 
-released: 2022-01-23
-updated: 2022-11-25
-version: 1.11.25
+released: '2022-01-23'
+updated: '2022-11-25'
+version: '1.11.25'
 stars: 4.2
 ratings: 
 reviews: 29
 size: 
-website: https://lachain.io
+website: 'https://lachain.io'
 repository: 
 issue: 
-icon: com.app.defi.png
+icon: 'com.app.defi.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2024-09-16
+date: '2024-09-16'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: LATOKEN
+developerName: 'LATOKEN'
 features: 
 
 ---

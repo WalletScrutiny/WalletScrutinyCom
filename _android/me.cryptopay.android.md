@@ -1,35 +1,34 @@
 ---
-wsId: cryptopay
+wsId: 'cryptopay'
 title: 'Cryptopay: Spend Crypto Daily'
 altTitle: 
 authors: 
 users: 100000
-appId: me.cryptopay.android
-appCountry: de
-released: 2017-11-09
+appId: 'me.cryptopay.android'
+appCountry: 'de'
+released: '2017-11-09'
 updated: 2025-01-15
-version: 1.65.0
+version: '1.65.0'
 stars: 4.3
 ratings: 1142
 reviews: 54
-size: 
-website: https://cryptopay.me
+website: 'https://cryptopay.me'
 repository: 
 issue: 
-icon: me.cryptopay.android.png
+icon: 'me.cryptopay.android.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-03-10
+date: '2021-03-10'
 signer: 
 reviewArchive: 
-twitter: cryptopay
+twitter: 'cryptopay'
 social:
-- https://www.linkedin.com/company/cryptopay
-- https://www.facebook.com/cryptopayme
+- 'https://www.linkedin.com/company/cryptopay'
+- 'https://www.facebook.com/cryptopayme'
 redirect_from: 
-developerName: Cryptopay Ltd
+developerName: 'Cryptopay Ltd'
 features: 
 
 ---

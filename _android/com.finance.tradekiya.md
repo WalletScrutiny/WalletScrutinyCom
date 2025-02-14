@@ -3,37 +3,37 @@ wsId:
 title: 'TradeKia: Crypto Trading App'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.finance.tradekiya
+appId: 'com.finance.tradekiya'
 appCountry: 
-released: 2022-08-26
-updated: 2023-08-24
-version: 1.0.147
+released: '2022-08-26'
+updated: '2023-08-24'
+version: '1.0.147'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://tradekia.com/
+website: 'https://tradekia.com/'
 repository: 
 issue: 
-icon: com.finance.tradekiya.jpg
+icon: 'com.finance.tradekiya.jpg'
 bugbounty: 
-meta: removed
-verdict: nobtc
+meta: 'removed'
+verdict: 'nobtc'
 appHashes: 
-date: 2024-03-02
+date: '2024-03-02'
 signer: 
 reviewArchive: 
-twitter: trade_kia
+twitter: 'trade_kia'
 social:
-- https://www.linkedin.com/company/trade-kia
-- https://www.facebook.com/tradekia
-- https://t.me/invite_at_TradeKIA
-- https://www.instagram.com/tradekiaofficial
-- https://www.youtube.com/channel/UCX_OGHBVQu2-AJpSCh47KSA
+- 'https://www.linkedin.com/company/trade-kia'
+- 'https://www.facebook.com/tradekia'
+- 'https://t.me/invite_at_TradeKIA'
+- 'https://www.instagram.com/tradekiaofficial'
+- 'https://www.youtube.com/channel/UCX_OGHBVQu2-AJpSCh47KSA'
 redirect_from: 
-developerName: Nineteen Realtech Labs Pvt Ltd
+developerName: 'Nineteen Realtech Labs Pvt Ltd'
 features: 
 
 ---

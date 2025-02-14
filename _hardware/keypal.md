@@ -3,7 +3,7 @@ title: Keypal
 appId: keypal
 authors:
 - danny
-released: 2021-08-09
+released: '2021-08-09'
 discontinued: 
 updated: 
 version: 
@@ -26,7 +26,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: 2023-02-01
+date: '2023-02-01'
 signer: 
 reviewArchive: 
 twitter: KeyPalWallet

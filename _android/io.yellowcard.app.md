@@ -1,36 +1,35 @@
 ---
-wsId: yellowcard
+wsId: 'yellowcard'
 title: 'Yellow Card: Buy & Sell Crypto'
 altTitle: 
 authors:
-- kiwilamb
+- 'kiwilamb'
 users: 1000000
-appId: io.yellowcard.app
-appCountry: za
-released: 2019-05-14
+appId: 'io.yellowcard.app'
+appCountry: 'za'
+released: '2019-05-14'
 updated: 2025-02-07
-version: 6.3.0
-stars: 3.7
+version: '6.3.0'
+stars: 3.8
 ratings: 4440
 reviews: 439
-size: 
-website: https://www.yellowcard.io/
+website: 'https://www.yellowcard.io/'
 repository: 
 issue: 
-icon: io.yellowcard.app.jpg
+icon: 'io.yellowcard.app.jpg'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-04-13
+date: '2021-04-13'
 signer: 
 reviewArchive: 
-twitter: yellowcard_app
+twitter: 'yellowcard_app'
 social:
-- https://www.linkedin.com/company/yellowcardapp
-- https://www.facebook.com/yellowcardapp
+- 'https://www.linkedin.com/company/yellowcardapp'
+- 'https://www.facebook.com/yellowcardapp'
 redirect_from: 
-developerName: Yellow Card Financial
+developerName: 'Yellow Card Financial'
 features: 
 
 ---

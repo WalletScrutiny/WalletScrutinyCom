@@ -6,9 +6,9 @@ authors:
 appId: com.nova.dax
 appCountry: br
 idd: 1472203612
-released: 2019-10-02
-updated: 2024-12-11
-version: 3.4.9
+released: '2019-10-02'
+updated: '2024-12-11'
+version: '3.4.9'
 stars: 4.6
 reviews: 2477
 size: '83566592'
@@ -20,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: wip
 appHashes: 
-date: 2024-10-07
+date: '2024-10-07'
 signer: 
 reviewArchive: 
 twitter: 

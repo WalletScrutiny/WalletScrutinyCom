@@ -9,9 +9,9 @@ authors:
 appId: com.node.coindirect
 appCountry: 
 idd: 1438224938
-released: 2018-10-25
-updated: 2021-07-21
-version: 1.2.7
+released: '2018-10-25'
+updated: '2021-07-21'
+version: '1.2.7'
 stars: 3.3
 reviews: 14
 size: '34306048'
@@ -23,7 +23,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
 twitter: coindirectcom

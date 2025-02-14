@@ -7,9 +7,9 @@ authors:
 appId: com.liqidigitalassets.liqi
 appCountry: us
 idd: '1624117133'
-released: 2022-09-02
-updated: 2023-03-11
-version: 1.2.6
+released: '2022-09-02'
+updated: '2023-03-11'
+version: '1.2.6'
 stars: 5
 reviews: 5
 size: '42834944'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-02-05
+date: '2024-02-05'
 signer: 
 reviewArchive: 
 twitter: liqibr

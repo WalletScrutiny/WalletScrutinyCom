@@ -1,36 +1,35 @@
 ---
-wsId: LBank
-title: LBank - Buy Bitcoin & Crypto
+wsId: 'LBank'
+title: 'LBank - Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000000
-appId: com.superchain.lbankgoogle
-appCountry: us
-released: 2020-05-08
+appId: 'com.superchain.lbankgoogle'
+appCountry: 'us'
+released: '2020-05-08'
 updated: 2025-02-10
-version: 6.5.5
+version: '6.5.6'
 stars: 3.7
 ratings: 46317
 reviews: 565
-size: 
-website: https://www.lbank.com
+website: 'https://www.lbank.com'
 repository: 
 issue: 
-icon: com.superchain.lbankgoogle.png
+icon: 'com.superchain.lbankgoogle.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-10-21
+date: '2021-10-21'
 signer: 
 reviewArchive: 
-twitter: LBank_Exchange
+twitter: 'LBank_Exchange'
 social:
-- https://www.linkedin.com/company/lbank
-- https://www.facebook.com/LBank.info
+- 'https://www.linkedin.com/company/lbank'
+- 'https://www.facebook.com/LBank.info'
 redirect_from: 
-developerName: LBank
+developerName: 'LBank'
 features: 
 
 ---

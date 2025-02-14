@@ -1,36 +1,35 @@
 ---
-wsId: koinbasketCrypto
-title: KoinBasket:Crypto like Stocks!
+wsId: 'koinbasketCrypto'
+title: 'KoinBasket:Crypto like Stocks!'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.koinbasket.mobile
+appId: 'com.koinbasket.mobile'
 appCountry: 
-released: 2022-07-02
+released: '2022-07-02'
 updated: 2024-09-10
-version: 2.0.3
+version: '2.0.3'
 stars: 2.8
 ratings: 
 reviews: 11
-size: 
-website: https://koinbasket.com
+website: 'https://koinbasket.com'
 repository: 
 issue: 
-icon: com.koinbasket.mobile.png
+icon: 'com.koinbasket.mobile.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-07-03
+date: '2023-07-03'
 signer: 
 reviewArchive: 
-twitter: koinbasket
+twitter: 'koinbasket'
 social:
-- https://www.facebook.com/profile.php?id=100084588470406
-- https://www.linkedin.com/company/koinbasket
+- 'https://www.facebook.com/profile.php?id=100084588470406'
+- 'https://www.linkedin.com/company/koinbasket'
 redirect_from: 
-developerName: Gazillion Developer
+developerName: 'Gazillion Developer'
 features: 
 
 ---

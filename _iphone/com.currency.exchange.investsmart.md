@@ -7,9 +7,9 @@ authors:
 appId: com.currency.exchange.investsmart
 appCountry: in
 idd: 1499070397
-released: 2020-04-14
-updated: 2022-11-18
-version: 1.32.0
+released: '2020-04-14'
+updated: '2022-11-18'
+version: '1.32.0'
 stars: 3.9
 reviews: 23
 size: '85975040'
@@ -21,7 +21,7 @@ bugbounty:
 meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-11-07
+date: '2024-11-07'
 signer: 
 reviewArchive: 
 twitter: currencycom

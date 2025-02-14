@@ -1,36 +1,35 @@
 ---
-wsId: monnos
-title: Monnos | Buy Bitcoin & Crypto
+wsId: 'monnos'
+title: 'Monnos | Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.monnos.android
-appCountry: br
-released: 2019-09-17
+appId: 'com.monnos.android'
+appCountry: 'br'
+released: '2019-09-17'
 updated: 2024-11-29
-version: 6.3.14
+version: '6.3.14'
 stars: 3.7
 ratings: 931
 reviews: 479
-size: 
-website: https://monnos.com
+website: 'https://monnos.com'
 repository: 
 issue: 
-icon: com.monnos.android.png
+icon: 'com.monnos.android.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-09-23
+date: '2021-09-23'
 signer: 
 reviewArchive: 
-twitter: monnosGlobal
+twitter: 'monnosGlobal'
 social:
-- https://www.linkedin.com/company/monnosglobal
-- https://www.facebook.com/MonnosGlobal
+- 'https://www.linkedin.com/company/monnosglobal'
+- 'https://www.facebook.com/MonnosGlobal'
 redirect_from: 
-developerName: Monnos Global
+developerName: 'Monnos Global'
 features: 
 
 ---

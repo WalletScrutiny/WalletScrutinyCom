@@ -1,35 +1,35 @@
 ---
-wsId: tBitGlobal
-title: Tbit
+wsId: 'tBitGlobal'
+title: 'Tbit'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.tbit.android
+appId: 'com.tbit.android'
 appCountry: 
-released: 2022-02-08
-updated: 2023-05-09
-version: 2.2.9
+released: '2022-02-08'
+updated: '2023-05-09'
+version: '2.2.9'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.tbitex.com/
+website: 'https://www.tbitex.com/'
 repository: 
 issue: 
-icon: com.tbit.android.png
+icon: 'com.tbit.android.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-09-10
+date: '2024-09-10'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://www.linkedin.com/company/tbit-global
+- 'https://www.linkedin.com/company/tbit-global'
 redirect_from: 
-developerName: Tbit Global limited
+developerName: 'Tbit Global limited'
 features: 
 
 ---

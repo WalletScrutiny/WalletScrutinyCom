@@ -7,9 +7,9 @@ authors:
 appId: com.tokenomy.app
 appCountry: my
 idd: '1628767095'
-released: 2022-07-22
-updated: 2023-09-27
-version: 2.16.0
+released: '2022-07-22'
+updated: '2023-09-27'
+version: '2.16.0'
 stars: 0
 reviews: 0
 size: '136568832'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-07-30
+date: '2024-07-30'
 signer: 
 reviewArchive: 
 twitter: tokenomy

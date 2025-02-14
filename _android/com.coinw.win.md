@@ -1,38 +1,37 @@
 ---
-wsId: coinWBuyCrypto
-title: CoinW:Crypto Trading Made Easy
+wsId: 'coinWBuyCrypto'
+title: 'CoinW:Crypto Trading Made Easy'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.coinw.win
+appId: 'com.coinw.win'
 appCountry: 
-released: 2022-12-07
-updated: 2025-01-22
-version: 10.0.13
-stars: 3.6
+released: '2022-12-07'
+updated: 2025-02-13
+version: '10.0.14'
+stars: 3.5
 ratings: 
-reviews: 44
-size: 
-website: https://www.coinw.com
+reviews: 45
+website: 'https://www.coinw.com'
 repository: 
 issue: 
-icon: com.coinw.win.png
+icon: 'com.coinw.win.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-07-07
+date: '2023-07-07'
 signer: 
 reviewArchive: 
-twitter: CoinWOfficial
+twitter: 'CoinWOfficial'
 social:
-- https://t.me/CoinwExchangeEnglish
-- https://www.linkedin.com/company/coinw-exchange
-- https://medium.com/@coinwglobal23
-- https://www.instagram.com/coinw_exchange
+- 'https://t.me/CoinwExchangeEnglish'
+- 'https://www.linkedin.com/company/coinw-exchange'
+- 'https://medium.com/@coinwglobal23'
+- 'https://www.instagram.com/coinw_exchange'
 redirect_from: 
-developerName: CoinW.SGP
+developerName: 'CoinW.SGP'
 features: 
 
 ---

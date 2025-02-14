@@ -1,38 +1,38 @@
 ---
-wsId: cpass
-title: CPASS
+wsId: 'cpass'
+title: 'CPASS'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.digilab24.apps
+appId: 'com.digilab24.apps'
 appCountry: 
-released: 2022-04-06
-updated: 2023-05-18
-version: 1.9.18
+released: '2022-04-06'
+updated: '2023-05-18'
+version: '1.9.18'
 stars: 4.5
 ratings: 
 reviews: 
 size: 
-website: https://cpass.exchange/
+website: 'https://cpass.exchange/'
 repository: 
 issue: 
-icon: com.digilab24.apps.png
+icon: 'com.digilab24.apps.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-12-15
+date: '2024-12-15'
 signer: 
 reviewArchive: 
-twitter: CPass_Official
+twitter: 'CPass_Official'
 social:
-- https://www.instagram.com/cpass_official
-- https://www.facebook.com/cpass.exchange
-- https://www.tiktok.com/@cpass_official
-- https://www.youtube.com/@CPASS_Official
+- 'https://www.instagram.com/cpass_official'
+- 'https://www.facebook.com/cpass.exchange'
+- 'https://www.tiktok.com/@cpass_official'
+- 'https://www.youtube.com/@CPASS_Official'
 redirect_from: 
-developerName: C PASS
+developerName: 'C PASS'
 features: 
 
 ---

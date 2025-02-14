@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: VITIEN
+title: 'VITIEN'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: app.vitien.vitien
+appId: 'app.vitien.vitien'
 appCountry: 
-released: 2023-04-27
+released: '2023-04-27'
 updated: 2024-02-27
-version: V2.11.1.1142
+version: 'V2.11.1.1142'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://www.vi-tien.net/
+website: 'https://www.vi-tien.net/'
 repository: 
 issue: 
-icon: app.vitien.vitien.png
+icon: 'app.vitien.vitien.png'
 bugbounty: 
-meta: ok
-verdict: nobtc
+meta: 'ok'
+verdict: 'nobtc'
 appHashes: 
-date: 2024-09-06
+date: '2024-09-06'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: VITIEN LTD.
+developerName: 'VITIEN LTD.'
 features: 
 
 ---

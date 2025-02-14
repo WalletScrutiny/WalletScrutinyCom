@@ -1,40 +1,39 @@
 ---
-wsId: iNXCrypto
-title: INX Buy & Trade Crypto
+wsId: 'iNXCrypto'
+title: 'INX Buy & Trade Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.cryptotrading.inx
+appId: 'com.cryptotrading.inx'
 appCountry: 
-released: 2022-06-11
+released: '2022-06-11'
 updated: 2024-10-06
-version: 2.0.10
+version: '2.0.10'
 stars: 4.5
 ratings: 
 reviews: 17
-size: 
-website: https://www.inx.co
+website: 'https://www.inx.co'
 repository: 
 issue: 
-icon: com.cryptotrading.inx.png
+icon: 'com.cryptotrading.inx.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-06-30
+date: '2023-06-30'
 signer: 
 reviewArchive: 
-twitter: INX_Group
+twitter: 'INX_Group'
 social:
-- https://www.linkedin.com/company/theinxdigitalcompany
-- https://www.facebook.com/INXLtd
-- https://www.youtube.com/channel/UCgk9PJ_3NvCA-dIJ5PXNJeg
-- https://t.me/INXCommunity
-- https://www.reddit.com/r/INX_Ltd
-- https://discord.com/invite/A5KkK4EAV7
+- 'https://www.linkedin.com/company/theinxdigitalcompany'
+- 'https://www.facebook.com/INXLtd'
+- 'https://www.youtube.com/channel/UCgk9PJ_3NvCA-dIJ5PXNJeg'
+- 'https://t.me/INXCommunity'
+- 'https://www.reddit.com/r/INX_Ltd'
+- 'https://discord.com/invite/A5KkK4EAV7'
 redirect_from: 
-developerName: The INX Digital Company
+developerName: 'The INX Digital Company'
 features: 
 
 ---

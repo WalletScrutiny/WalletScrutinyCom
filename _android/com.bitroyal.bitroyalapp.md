@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: BitRoyal Exchange
+title: 'BitRoyal Exchange'
 altTitle: 
 authors: 
 users: 50
-appId: com.bitroyal.bitroyalapp
+appId: 'com.bitroyal.bitroyalapp'
 appCountry: 
-released: 2021-03-06
-updated: 2021-03-07
+released: '2021-03-06'
+updated: '2021-03-07'
 version: '2.1'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://bitroyalexchange.com
+website: 'https://bitroyalexchange.com'
 repository: 
 issue: 
-icon: com.bitroyal.bitroyalapp.png
+icon: 'com.bitroyal.bitroyalapp.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-04-03
+date: '2024-04-03'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: BitRoyal
+developerName: 'BitRoyal'
 features: 
 
 ---

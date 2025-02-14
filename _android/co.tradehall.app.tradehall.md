@@ -1,36 +1,36 @@
 ---
-wsId: tradehallCFD
-title: Tradehall
+wsId: 'tradehallCFD'
+title: 'Tradehall'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: co.tradehall.app.tradehall
+appId: 'co.tradehall.app.tradehall'
 appCountry: 
-released: 2022-08-02
-updated: 2023-03-02
-version: 1.0.14
+released: '2022-08-02'
+updated: '2023-03-02'
+version: '1.0.14'
 stars: 4.4
 ratings: 
 reviews: 
 size: 
-website: https://www.tradehall.co
+website: 'https://www.tradehall.co'
 repository: 
 issue: 
-icon: co.tradehall.app.tradehall.png
+icon: 'co.tradehall.app.tradehall.png'
 bugbounty: 
-meta: removed
-verdict: nosendreceive
+meta: 'removed'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2024-11-12
+date: '2024-11-12'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/Tradehall.co
-- https://www.instagram.com/tradehall_ltd
+- 'https://www.facebook.com/Tradehall.co'
+- 'https://www.instagram.com/tradehall_ltd'
 redirect_from: 
-developerName: Tradehall Pte Ltd
+developerName: 'Tradehall Pte Ltd'
 features: 
 
 ---

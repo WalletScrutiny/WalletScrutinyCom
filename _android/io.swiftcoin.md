@@ -1,39 +1,38 @@
 ---
-wsId: swiftcoin
-title: Swiftcoin
+wsId: 'swiftcoin'
+title: 'Swiftcoin'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: io.swiftcoin
+appId: 'io.swiftcoin'
 appCountry: 
-released: 2022-09-12
+released: '2022-09-12'
 updated: 2025-01-21
-version: 3.1.0
+version: '3.1.0'
 stars: 3.4
 ratings: 
 reviews: 1
-size: 
-website: https://swiftcoin.io/
+website: 'https://swiftcoin.io/'
 repository: 
 issue: 
-icon: io.swiftcoin.png
+icon: 'io.swiftcoin.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-08-30
+date: '2023-08-30'
 signer: 
 reviewArchive: 
-twitter: SwiftCoin380
+twitter: 'SwiftCoin380'
 social:
-- https://t.me/+bJywMqqVe940NjQ9
-- https://www.instagram.com/swiftcointradeio
-- https://www.tiktok.com/@swiftcoinio
-- https://www.youtube.com/@swiftcoin
-- https://www.facebook.com/SwiftCoin.io
+- 'https://t.me/+bJywMqqVe940NjQ9'
+- 'https://www.instagram.com/swiftcointradeio'
+- 'https://www.tiktok.com/@swiftcoinio'
+- 'https://www.youtube.com/@swiftcoin'
+- 'https://www.facebook.com/SwiftCoin.io'
 redirect_from: 
-developerName: Swift Coin
+developerName: 'Swift Coin'
 features: 
 
 ---

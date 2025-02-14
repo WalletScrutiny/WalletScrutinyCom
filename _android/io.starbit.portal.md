@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: STAR BIT - 結合加密貨幣錢包的區塊鏈app
+title: 'STAR BIT - 結合加密貨幣錢包的區塊鏈app'
 altTitle: 
 authors: 
 users: 500
-appId: io.starbit.portal
+appId: 'io.starbit.portal'
 appCountry: 
-released: 2019-09-10
-updated: 2020-03-15
-version: 1.1.6
+released: '2019-09-10'
+updated: '2020-03-15'
+version: '1.1.6'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://home.star-bit.io
+website: 'https://home.star-bit.io'
 repository: 
 issue: 
-icon: io.starbit.portal.png
+icon: 'io.starbit.portal.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: STAR_BIT_Innovation
+developerName: 'STAR_BIT_Innovation'
 features: 
 
 ---

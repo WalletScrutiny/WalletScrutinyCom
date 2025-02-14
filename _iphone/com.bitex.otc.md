@@ -1,35 +1,35 @@
 ---
-wsId: bitdataExchange
-title: BitDATA Exchange (BitEx)
+wsId: 'bitdataExchange'
+title: 'BitDATA Exchange (BitEx)'
 altTitle: 
 authors:
-- danny
-appId: com.bitex.otc
-appCountry: sg
+- 'danny'
+appId: 'com.bitex.otc'
+appCountry: 'sg'
 idd: '1574033398'
-released: 2021-09-02
+released: '2021-09-02'
 updated: 2024-10-17
-version: 1.8.8
+version: '1.8.8'
 stars: 5
 reviews: 8
 size: '57900032'
-website: https://www.bitex.sg/
+website: 'https://www.bitex.sg/'
 repository: 
 issue: 
-icon: com.bitex.otc.jpg
+icon: 'com.bitex.otc.jpg'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-09-08
+date: '2023-09-08'
 signer: 
 reviewArchive: 
-twitter: BitDATAExchange
+twitter: 'BitDATAExchange'
 social:
-- https://www.linkedin.com/company/bitdataexchange
-- https://www.facebook.com/BitDATAExchange/
+- 'https://www.linkedin.com/company/bitdataexchange'
+- 'https://www.facebook.com/BitDATAExchange/'
 features: 
-developerName: BITDATA DIGITAL TECH PTE. LTD.
+developerName: 'BITDATA DIGITAL TECH PTE. LTD.'
 
 ---
 

@@ -7,9 +7,9 @@ authors:
 appId: net.vite.wallet
 appCountry: us
 idd: '1437629486'
-released: 2018-11-09
-updated: 2024-03-22
-version: 5.0.0
+released: '2018-11-09'
+updated: '2024-03-22'
+version: '5.0.0'
 stars: 4.2
 reviews: 76
 size: '58832896'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: nobtc
 appHashes: 
-date: 2025-02-04
+date: '2025-02-04'
 signer: 
 reviewArchive: 
 twitter: vitelabs

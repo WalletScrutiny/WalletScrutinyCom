@@ -1,13 +1,13 @@
 ---
 wsId: 
-title: Cccoin - bitcoin ethereum
+title: 'Cccoin - bitcoin ethereum'
 altTitle: 
 authors: 
 users: 1000
-appId: ru.exap.cccoin
+appId: 'ru.exap.cccoin'
 appCountry: 
-released: 2017-11-22
-updated: 2018-05-03
+released: '2017-11-22'
+updated: '2018-05-03'
 version: '1.20'
 stars: 4
 ratings: 
@@ -16,18 +16,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: ru.exap.cccoin.png
+icon: 'ru.exap.cccoin.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Hubus & Co.
+developerName: 'Hubus & Co.'
 features: 
 
 ---

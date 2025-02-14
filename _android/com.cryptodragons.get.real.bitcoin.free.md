@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Get Real Bitcoin Free
+title: 'Get Real Bitcoin Free'
 altTitle: 
 authors: 
 users: 10
-appId: com.cryptodragons.get.real.bitcoin.free
+appId: 'com.cryptodragons.get.real.bitcoin.free'
 appCountry: 
-released: 2021-06-19
-updated: 2021-06-19
+released: '2021-06-19'
+updated: '2021-06-19'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 2.3M
+size: '2.3M'
 website: 
 repository: 
 issue: 
-icon: com.cryptodragons.get.real.bitcoin.free.jpg
+icon: 'com.cryptodragons.get.real.bitcoin.free.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-10-01
+date: '2021-10-01'
 signer: 
 reviewArchive: 
 twitter: 

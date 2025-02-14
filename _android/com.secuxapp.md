@@ -1,36 +1,35 @@
 ---
-wsId: secuXMobile
-title: SecuX Mobile
+wsId: 'secuXMobile'
+title: 'SecuX Mobile'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.secuxapp
+appId: 'com.secuxapp'
 appCountry: 
-released: 2021-11-24
+released: '2021-11-24'
 updated: 2024-08-16
-version: 1.30.0
+version: '1.30.0'
 stars: 2.8
 ratings: 
 reviews: 36
-size: 
-website: https://secuxtech.com/
+website: 'https://secuxtech.com/'
 repository: 
 issue: 
-icon: com.secuxapp.jpg
+icon: 'com.secuxapp.jpg'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-08-24
+date: '2023-08-24'
 signer: 
 reviewArchive: 
-twitter: SecuXwallet
+twitter: 'SecuXwallet'
 social:
-- https://www.linkedin.com/company/secuxtech
-- https://www.facebook.com/secuxtech
+- 'https://www.linkedin.com/company/secuxtech'
+- 'https://www.facebook.com/secuxtech'
 redirect_from: 
-developerName: SecuX
+developerName: 'SecuX'
 features: 
 
 ---

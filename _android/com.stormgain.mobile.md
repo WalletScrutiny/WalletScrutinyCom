@@ -1,35 +1,34 @@
 ---
-wsId: stormgain
+wsId: 'stormgain'
 title: 'StormGain: Bitcoin & Crypto'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 5000000
-appId: com.stormgain.mobile
-appCountry: de
-released: 2019-07-08
+appId: 'com.stormgain.mobile'
+appCountry: 'de'
+released: '2019-07-08'
 updated: 2024-08-07
-version: 1.52.1
+version: '1.52.1'
 stars: 3.7
 ratings: 114954
 reviews: 991
-size: 
-website: https://stormgain.com/
+website: 'https://stormgain.com/'
 repository: 
 issue: 
-icon: com.stormgain.mobile.png
+icon: 'com.stormgain.mobile.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-03-10
+date: '2021-03-10'
 signer: 
 reviewArchive: 
-twitter: StormGain_com
+twitter: 'StormGain_com'
 social:
-- https://www.facebook.com/StormGain.official
+- 'https://www.facebook.com/StormGain.official'
 redirect_from: 
-developerName: StormGain Limited
+developerName: 'StormGain Limited'
 features: 
 
 ---

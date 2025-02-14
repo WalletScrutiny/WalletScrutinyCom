@@ -1,40 +1,40 @@
 ---
-wsId: cobowallet
-title: Cobo Wallet
+wsId: 'cobowallet'
+title: 'Cobo Wallet'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 100000
-appId: cobo.wallet
+appId: 'cobo.wallet'
 appCountry: 
-released: 2018-07-01
-updated: 2023-11-06
-version: 5.19.9
+released: '2018-07-01'
+updated: '2023-11-06'
+version: '5.19.9'
 stars: 3.2
 ratings: 4018
 reviews: 60
 size: 
-website: https://cobo.com
+website: 'https://cobo.com'
 repository: 
 issue: 
-icon: cobo.wallet.png
+icon: 'cobo.wallet.png'
 bugbounty: 
-meta: defunct
-verdict: nosource
+meta: 'defunct'
+verdict: 'nosource'
 appHashes: 
-date: 2022-05-31
+date: '2022-05-31'
 signer: 
 reviewArchive: 
-twitter: Cobo_Wallet
+twitter: 'Cobo_Wallet'
 social:
-- https://www.linkedin.com/company/coboofficial
-- https://www.facebook.com/coboOfficial
+- 'https://www.linkedin.com/company/coboofficial'
+- 'https://www.facebook.com/coboOfficial'
 redirect_from:
-- /cobo/
-- /cobo.wallet/
-- /posts/2019/11/cobo/
-- /posts/cobo.wallet/
-developerName: Cobo Ltd - Crypto Wallet for BTC, ETH, EOS, VET.
+- '/cobo/'
+- '/cobo.wallet/'
+- '/posts/2019/11/cobo/'
+- '/posts/cobo.wallet/'
+developerName: 'Cobo Ltd - Crypto Wallet for BTC, ETH, EOS, VET.'
 features: 
 
 ---

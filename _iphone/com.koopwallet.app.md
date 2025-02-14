@@ -7,8 +7,8 @@ authors:
 appId: com.koopwallet.app
 appCountry: us
 idd: '1669411943'
-released: 2023-04-11
-updated: 2023-04-20
+released: '2023-04-11'
+updated: '2023-04-20'
 version: '20.0'
 stars: 0
 reviews: 0
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: nosource
 appHashes: 
-date: 2025-01-27
+date: '2025-01-27'
 signer: 
 reviewArchive: 
 twitter: KooP360

@@ -3,9 +3,9 @@ title: Blockstream Jade DIY
 appId: blockstream.jade.diy
 authors:
 - danny
-released: 2023-04-23
+released: '2023-04-23'
 discontinued: 
-updated: 2023-12-03
+updated: '2023-12-03'
 version: 
 binaries: 
 dimensions: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: diy
 appHashes: 
-date: 2023-12-06
+date: '2023-12-06'
 signer: 
 reviewArchive: 
 twitter: epic_curious

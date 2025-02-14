@@ -3,10 +3,10 @@ title: Waltonchain Bamboo Hardware Wallet
 appId: waltonchain.bamboo
 authors:
 - danny
-released: 2019-03-26
+released: '2019-03-26'
 discontinued: 
-updated: 2019-11-06
-version: v1.2
+updated: '2019-11-06'
+version: 'v1.2'
 binaries: https://github.com/WaltonChain/BambooWallet/blob/master/BambooWallet_v1.2.exe
 dimensions:
 - 47
@@ -26,7 +26,7 @@ bugbounty:
 meta: obsolete
 verdict: vapor
 appHashes: 
-date: 2022-12-07
+date: '2022-12-07'
 signer: 
 reviewArchive: 
 twitter: Waltonchain

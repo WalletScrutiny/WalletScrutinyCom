@@ -1,35 +1,34 @@
 ---
-wsId: kointra
-title: Kointra - Crypto Exchange
+wsId: 'kointra'
+title: 'Kointra - Crypto Exchange'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.kointra.kointra
+appId: 'com.kointra.kointra'
 appCountry: 
-released: 2019-01-25
+released: '2019-01-25'
 updated: 2024-09-23
-version: 3.3.1
+version: '3.3.1'
 stars: 3.4
 ratings: 
 reviews: 
-size: 
-website: http://www.kointra.com
+website: 'http://www.kointra.com'
 repository: 
 issue: 
-icon: com.kointra.kointra.png
+icon: 'com.kointra.kointra.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-10-06
+date: '2023-10-06'
 signer: 
 reviewArchive: 
-twitter: KointraTR
+twitter: 'KointraTR'
 social:
-- https://www.instagram.com/kointracom/
+- 'https://www.instagram.com/kointracom/'
 redirect_from: 
-developerName: Kointra Bilişim ve Teknoloji A.Ş.
+developerName: 'Kointra Bilişim ve Teknoloji A.Ş.'
 features: 
 
 ---

@@ -1,35 +1,34 @@
 ---
-wsId: f2pool
-title: F2Pool
+wsId: 'f2pool'
+title: 'F2Pool'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.f2pool.f2pool
+appId: 'com.f2pool.f2pool'
 appCountry: 
-released: 2018-09-04
+released: '2018-09-04'
 updated: 2025-02-11
-version: VARY
+version: 'VARY'
 stars: 4.3
 ratings: 
 reviews: 79
-size: 
-website: https://www.f2pool.com
+website: 'https://www.f2pool.com'
 repository: 
 issue: 
-icon: com.f2pool.f2pool.png
+icon: 'com.f2pool.f2pool.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-02-10
+date: '2023-02-10'
 signer: 
 reviewArchive: 
-twitter: F2Pool_Official
+twitter: 'F2Pool_Official'
 social:
-- https://www.youtube.com/channel/UCpOxf600N5n8HpyVejvEJMg
+- 'https://www.youtube.com/channel/UCpOxf600N5n8HpyVejvEJMg'
 redirect_from: 
-developerName: F2Pool Inc.
+developerName: 'F2Pool Inc.'
 features: 
 
 ---

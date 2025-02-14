@@ -4,10 +4,10 @@ appId: satodime
 authors:
 - danny
 - leo
-released: 2021-12-06
+released: '2021-12-06'
 discontinued: 
-updated: 2022-02-17
-version: 0.2.0
+updated: '2022-02-17'
+version: '0.2.0'
 binaries: 
 dimensions:
 - 86
@@ -26,7 +26,7 @@ icon: satodime.png
 bugbounty: 
 meta: ok
 verdict: sealed-plainkey
-date: 2022-03-23
+date: '2022-03-23'
 signer: 
 reviewArchive: 
 twitter: satochipwallet

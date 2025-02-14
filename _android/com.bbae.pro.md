@@ -1,34 +1,33 @@
 ---
-wsId: BBAEPro
+wsId: 'BBAEPro'
 title: 'BBAE Pro: Investing Reimagined'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.bbae.pro
+appId: 'com.bbae.pro'
 appCountry: 
-released: 2021-06-17
+released: '2021-06-17'
 updated: 2024-12-05
-version: 6.7.5
+version: '6.7.5'
 stars: 4.2
 ratings: 
 reviews: 25
-size: 
-website: https://www.bbae.com
+website: 'https://www.bbae.com'
 repository: 
 issue: 
-icon: com.bbae.pro.png
+icon: 'com.bbae.pro.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-04-20
+date: '2023-04-20'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: BBAE
+developerName: 'BBAE'
 features: 
 
 ---

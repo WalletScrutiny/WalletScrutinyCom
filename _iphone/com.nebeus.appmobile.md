@@ -7,9 +7,9 @@ authors:
 appId: com.nebeus.appmobile
 appCountry: gt
 idd: '1568251064'
-released: 2021-05-26
-updated: 2023-06-15
-version: 1.4.37
+released: '2021-05-26'
+updated: '2023-06-15'
+version: '1.4.37'
 stars: 0
 reviews: 0
 size: '107014144'
@@ -21,7 +21,7 @@ bugbounty:
 meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-06-09
+date: '2024-06-09'
 signer: 
 reviewArchive: 
 twitter: NebeusWorld

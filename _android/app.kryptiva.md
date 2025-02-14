@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Kryptiva
+title: 'Kryptiva'
 altTitle: 
 authors: 
 users: 50
-appId: app.kryptiva
+appId: 'app.kryptiva'
 appCountry: 
-released: 2022-07-06
-updated: 2023-02-18
-version: 1.0.4
+released: '2022-07-06'
+updated: '2023-02-18'
+version: '1.0.4'
 stars: 
 ratings: 
 reviews: 
@@ -16,18 +16,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: app.kryptiva.jpg
+icon: 'app.kryptiva.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-08-17
+date: '2024-08-17'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Kryptiva
+developerName: 'Kryptiva'
 features: 
 
 ---

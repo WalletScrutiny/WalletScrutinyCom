@@ -3,7 +3,7 @@ title: Zymbit HSM6
 appId: zymbithsm6
 authors:
 - danny
-released: 2021-09-17
+released: '2021-09-17'
 discontinued: 
 updated: 
 version: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: nowallet
 appHashes: 
-date: 2022-03-08
+date: '2022-03-08'
 signer: 
 reviewArchive: 
 twitter: zymbit

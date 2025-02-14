@@ -1,36 +1,36 @@
 ---
-wsId: datadash
-title: DataDash
+wsId: 'datadash'
+title: 'DataDash'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.mxc.smartcity
-appCountry: us
-released: 2020-05-18
-updated: 2023-07-19
-version: 6.5.0
+appId: 'com.mxc.smartcity'
+appCountry: 'us'
+released: '2020-05-18'
+updated: '2023-07-19'
+version: '6.5.0'
 stars: 3.3
 ratings: 1945
 reviews: 107
 size: 
-website: https://www.mxc.org
+website: 'https://www.mxc.org'
 repository: 
 issue: 
-icon: com.mxc.smartcity.png
+icon: 'com.mxc.smartcity.png'
 bugbounty: 
-meta: removed
-verdict: nobtc
+meta: 'removed'
+verdict: 'nobtc'
 appHashes: 
-date: 2023-10-16
+date: '2023-10-16'
 signer: 
 reviewArchive: 
-twitter: mxcfoundation
+twitter: 'mxcfoundation'
 social:
-- https://www.facebook.com/MXCfoundation
-- https://www.reddit.com/r/MXC_Foundation
+- 'https://www.facebook.com/MXCfoundation'
+- 'https://www.reddit.com/r/MXC_Foundation'
 redirect_from: 
-developerName: MXC Foundation LLC
+developerName: 'MXC Foundation LLC'
 features: 
 
 ---

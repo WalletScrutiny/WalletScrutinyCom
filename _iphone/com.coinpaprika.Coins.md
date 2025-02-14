@@ -7,9 +7,9 @@ authors:
 appId: com.coinpaprika.Coins
 appCountry: us
 idd: 1475233621
-released: 2019-12-03
-updated: 2025-01-13
-version: 2.8.17
+released: '2019-12-03'
+updated: '2025-01-13'
+version: '2.8.17'
 stars: 4.8
 reviews: 975
 size: '42205184'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: 2021-09-15
+date: '2021-09-15'
 signer: 
 reviewArchive: 
 twitter: CoinsOneApp

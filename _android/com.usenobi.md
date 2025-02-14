@@ -1,39 +1,38 @@
 ---
-wsId: usenobi
+wsId: 'usenobi'
 title: 'NOBI: Own Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.usenobi
+appId: 'com.usenobi'
 appCountry: 
-released: 2020-07-15
+released: '2020-07-15'
 updated: 2024-11-05
-version: 3.6.7
+version: '3.6.7'
 stars: 3.3
 ratings: 
 reviews: 5
-size: 
-website: https://usenobi.com
+website: 'https://usenobi.com'
 repository: 
 issue: 
-icon: com.usenobi.png
+icon: 'com.usenobi.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-04-12
+date: '2023-04-12'
 signer: 
 reviewArchive: 
-twitter: usenobi
+twitter: 'usenobi'
 social:
-- https://www.facebook.com/usenobi
-- https://www.instagram.com/usenobi
-- https://t.me/usenobi
-- https://www.youtube.com/c/usenobi
-- https://discord.com/invite/hNGkFeQHQD
+- 'https://www.facebook.com/usenobi'
+- 'https://www.instagram.com/usenobi'
+- 'https://t.me/usenobi'
+- 'https://www.youtube.com/c/usenobi'
+- 'https://discord.com/invite/hNGkFeQHQD'
 redirect_from: 
-developerName: usenobi
+developerName: 'usenobi'
 features: 
 
 ---

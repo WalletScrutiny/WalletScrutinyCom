@@ -4,10 +4,10 @@ title: 'Best Wallet :: Crypto Currency Wallet'
 altTitle: 
 authors: 
 users: 0
-appId: com.cryptocurrencys.bestwallet
+appId: 'com.cryptocurrencys.bestwallet'
 appCountry: 
 released: 
-updated: 2021-12-30
+updated: '2021-12-30'
 version: 
 stars: 
 ratings: 
@@ -16,12 +16,12 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.cryptocurrencys.bestwallet.png
+icon: 'com.cryptocurrencys.bestwallet.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2020-12-04
+date: '2020-12-04'
 signer: 
 reviewArchive: 
 twitter: 

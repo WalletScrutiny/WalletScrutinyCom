@@ -1,36 +1,36 @@
 ---
-wsId: cryptonator
-title: Cryptonator cryptocurrency wallet
+wsId: 'cryptonator'
+title: 'Cryptonator cryptocurrency wallet'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 100000
-appId: com.cryptonator.android
+appId: 'com.cryptonator.android'
 appCountry: 
-released: 2018-11-01
-updated: 2022-01-30
+released: '2018-11-01'
+updated: '2022-01-30'
 version: '4.2'
 stars: 3.2
 ratings: 5270
 reviews: 139
-size: 9.0M
-website: https://www.cryptonator.com
+size: '9.0M'
+website: 'https://www.cryptonator.com'
 repository: 
 issue: 
-icon: com.cryptonator.android.png
+icon: 'com.cryptonator.android.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2022-04-25
+date: '2022-04-25'
 signer: 
 reviewArchive:
-- date: 2019-11-12
-  version: 3.0.1
+- date: '2019-11-12'
+  version: '3.0.1'
   appHashes: []
-  gitRevision: acb5634ce0405f12d9924759b045407fde297306
-  verdict: nosource
-twitter: cryptonatorcom
+  gitRevision: 'acb5634ce0405f12d9924759b045407fde297306'
+  verdict: 'nosource'
+twitter: 'cryptonatorcom'
 social: 
 redirect_from: 
 developerName: 

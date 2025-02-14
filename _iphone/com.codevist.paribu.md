@@ -7,9 +7,9 @@ authors:
 appId: com.codevist.paribu
 appCountry: 
 idd: 1448200352
-released: 2019-05-29
-updated: 2025-02-11
-version: 5.0.16
+released: '2019-05-29'
+updated: '2025-02-11'
+version: '5.0.16'
 stars: 4.3
 reviews: 194
 size: '59499520'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2023-12-16
+date: '2023-12-16'
 signer: 
 reviewArchive: 
 twitter: paribucom

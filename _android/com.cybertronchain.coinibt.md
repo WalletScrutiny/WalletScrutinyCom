@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: 코인아이비티 (CoinIBT)
+title: '코인아이비티 (CoinIBT)'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.cybertronchain.coinibt
+appId: 'com.cybertronchain.coinibt'
 appCountry: 
-released: 2020-12-02
-updated: 2021-07-27
+released: '2020-12-02'
+updated: '2021-07-27'
 version: '1.13'
 stars: 5
 ratings: 610
 reviews: 4
 size: 
-website: http://www.coinibt.io
+website: 'http://www.coinibt.io'
 repository: 
 issue: 
-icon: com.cybertronchain.coinibt.png
+icon: 'com.cybertronchain.coinibt.png'
 bugbounty: 
-meta: defunct
-verdict: wip
+meta: 'defunct'
+verdict: 'wip'
 appHashes: 
-date: 2021-11-10
+date: '2021-11-10'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: CyberTronChain (CTC)
+developerName: 'CyberTronChain (CTC)'
 features: 
 
 ---

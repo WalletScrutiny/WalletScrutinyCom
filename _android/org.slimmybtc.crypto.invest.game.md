@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Crypto Invest Game
+title: 'Crypto Invest Game'
 altTitle: 
 authors: 
 users: 1
-appId: org.slimmybtc.crypto.invest.game
+appId: 'org.slimmybtc.crypto.invest.game'
 appCountry: 
-released: 2021-07-18
-updated: 2021-07-18
+released: '2021-07-18'
+updated: '2021-07-18'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 2.4M
+size: '2.4M'
 website: 
 repository: 
 issue: 
-icon: org.slimmybtc.crypto.invest.game.png
+icon: 'org.slimmybtc.crypto.invest.game.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-10-01
+date: '2021-10-01'
 signer: 
 reviewArchive: 
 twitter: 

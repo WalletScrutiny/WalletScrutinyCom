@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Seed Generator
+title: 'Seed Generator'
 altTitle: 
 authors: 
 users: 100
-appId: com.companyname.seedgenerator
+appId: 'com.companyname.seedgenerator'
 appCountry: 
-released: 2022-12-11
-updated: 2022-12-12
-version: 1.0.0
+released: '2022-12-11'
+updated: '2022-12-12'
+version: '1.0.0'
 stars: 
 ratings: 
 reviews: 
@@ -16,18 +16,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.companyname.seedgenerator.png
+icon: 'com.companyname.seedgenerator.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-08-31
+date: '2024-08-31'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: by Wabi Sabik
+developerName: 'by Wabi Sabik'
 features: 
 
 ---

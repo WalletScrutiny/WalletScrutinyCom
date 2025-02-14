@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: Valora - Crypto Wallet
+title: 'Valora - Crypto Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 500000
-appId: co.clabs.valora
+appId: 'co.clabs.valora'
 appCountry: 
-released: 2020-08-31
+released: '2020-08-31'
 updated: 2025-02-10
-version: 1.103.0
+version: '1.103.0'
 stars: 4.3
 ratings: 
 reviews: 303
-size: 
-website: https://valoraapp.com
+website: 'https://valoraapp.com'
 repository: 
 issue: 
-icon: co.clabs.valora.png
+icon: 'co.clabs.valora.png'
 bugbounty: 
-meta: ok
-verdict: nobtc
+meta: 'ok'
+verdict: 'nobtc'
 appHashes: 
-date: 2023-02-01
+date: '2023-02-01'
 signer: 
 reviewArchive: 
-twitter: valoraApp
+twitter: 'valoraApp'
 social:
-- https://www.facebook.com/ValoraApp
+- 'https://www.facebook.com/ValoraApp'
 redirect_from: 
-developerName: Valora Inc
+developerName: 'Valora Inc'
 features: 
 
 ---

@@ -1,35 +1,34 @@
 ---
-wsId: ACEexchange
-title: ACE Exchange - TWD, BTC&Crypto
+wsId: 'ACEexchange'
+title: 'ACE Exchange - TWD, BTC&Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.asiainnovations.ace.taiwan
-appCountry: us
-released: 2019-01-28
+appId: 'com.asiainnovations.ace.taiwan'
+appCountry: 'us'
+released: '2019-01-28'
 updated: 2024-12-04
-version: 5.2.0_5210
+version: '5.2.0_5210'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://www.ace.io
+website: 'https://www.ace.io'
 repository: 
 issue: 
-icon: com.asiainnovations.ace.taiwan.png
+icon: 'com.asiainnovations.ace.taiwan.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-10-16
+date: '2021-10-16'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/ace.exchange.tw
+- 'https://www.facebook.com/ace.exchange.tw'
 redirect_from: 
-developerName: ACE Exchange
+developerName: 'ACE Exchange'
 features: 
 
 ---

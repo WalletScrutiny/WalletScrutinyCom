@@ -7,9 +7,9 @@ authors:
 appId: io.taptopay
 appCountry: us
 idd: '1635415109'
-released: 2022-07-25
-updated: 2022-09-04
-version: 1.0.2
+released: '2022-07-25'
+updated: '2022-09-04'
+version: '1.0.2'
 stars: 5
 reviews: 3
 size: '30164992'
@@ -21,7 +21,7 @@ bugbounty:
 meta: defunct
 verdict: nowallet
 appHashes: 
-date: 2023-09-04
+date: '2023-09-04'
 signer: 
 reviewArchive: 
 twitter: taptopayapp

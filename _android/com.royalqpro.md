@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: Royal Q Automated trading
+title: 'Royal Q Automated trading'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.royalqpro
+appId: 'com.royalqpro'
 appCountry: 
-released: 2022-02-22
+released: '2022-02-22'
 updated: 2024-03-19
 version: '3.0'
 stars: 4.8
 ratings: 
 reviews: 3
-size: 
-website: https://royalqs.com
+website: 'https://royalqs.com'
 repository: 
 issue: 
-icon: com.royalqpro.png
+icon: 'com.royalqpro.png'
 bugbounty: 
-meta: ok
-verdict: nobtc
+meta: 'ok'
+verdict: 'nobtc'
 appHashes: 
-date: 2024-03-01
+date: '2024-03-01'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Tech App Solutions
+developerName: 'Tech App Solutions'
 features: 
 
 ---

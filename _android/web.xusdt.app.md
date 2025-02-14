@@ -1,15 +1,15 @@
 ---
 wsId: 
-title: XDTP
+title: 'XDTP'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: web.xusdt.app
+appId: 'web.xusdt.app'
 appCountry: 
-released: 2022-03-15
-updated: 2022-05-14
-version: 1.0.3
+released: '2022-03-15'
+updated: '2022-05-14'
+version: '1.0.3'
 stars: 
 ratings: 
 reviews: 
@@ -17,18 +17,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: web.xusdt.app.png
+icon: 'web.xusdt.app.png'
 bugbounty: 
-meta: defunct
-verdict: wip
+meta: 'defunct'
+verdict: 'wip'
 appHashes: 
-date: 2023-08-05
+date: '2023-08-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: XUSDT
+developerName: 'XUSDT'
 features: 
 
 ---

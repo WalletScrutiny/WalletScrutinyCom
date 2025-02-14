@@ -22,7 +22,7 @@ icon: vr.bitcoingo.card.png
 bugbounty: 
 meta: ok
 verdict: prefilled
-date: 2022-05-03
+date: '2022-05-03'
 signer: 
 reviewArchive: 
 twitter: 

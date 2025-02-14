@@ -1,37 +1,36 @@
 ---
-wsId: etorowallet
-title: eToro Money
+wsId: 'etorowallet'
+title: 'eToro Money'
 altTitle: 
 authors:
-- kiwilamb
-- leo
+- 'kiwilamb'
+- 'leo'
 users: 500000
-appId: com.etoro.wallet
+appId: 'com.etoro.wallet'
 appCountry: 
-released: 2018-11-27
+released: '2018-11-27'
 updated: 2025-01-23
-version: 84.0.0
+version: '84.0.0'
 stars: 3.8
 ratings: 1122
 reviews: 144
-size: 
-website: https://www.etoro.com/crypto/wallet
+website: 'https://www.etoro.com/crypto/wallet'
 repository: 
 issue: 
-icon: com.etoro.wallet.png
+icon: 'com.etoro.wallet.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-04-21
+date: '2021-04-21'
 signer: 
 reviewArchive: 
-twitter: etoro
+twitter: 'etoro'
 social:
-- https://www.linkedin.com/company/etoro
-- https://www.facebook.com/eToro
+- 'https://www.linkedin.com/company/etoro'
+- 'https://www.facebook.com/eToro'
 redirect_from: 
-developerName: eToroX
+developerName: 'eToroX'
 features: 
 
 ---

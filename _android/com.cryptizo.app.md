@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Unblock - Crypto Investing App
+title: 'Unblock - Crypto Investing App'
 altTitle: 
 authors: 
 users: 100
-appId: com.cryptizo.app
+appId: 'com.cryptizo.app'
 appCountry: 
-released: 2022-02-20
-updated: 2022-06-07
-version: 1.0.3
+released: '2022-02-20'
+updated: '2022-06-07'
+version: '1.0.3'
 stars: 5
 ratings: 
 reviews: 
@@ -16,18 +16,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.cryptizo.app.png
+icon: 'com.cryptizo.app.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-04-19
+date: '2024-04-19'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Unblock Money
+developerName: 'Unblock Money'
 features: 
 
 ---

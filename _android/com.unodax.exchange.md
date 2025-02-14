@@ -1,34 +1,34 @@
 ---
-wsId: UnodaxExchange
-title: Unodax Exchange
+wsId: 'UnodaxExchange'
+title: 'Unodax Exchange'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.unodax.exchange
-appCountry: us
-released: 2018-04-04
-updated: 2022-03-10
-version: 2.5.8
+appId: 'com.unodax.exchange'
+appCountry: 'us'
+released: '2018-04-04'
+updated: '2022-03-10'
+version: '2.5.8'
 stars: 
 ratings: 
 reviews: 
-size: 14M
-website: https://www.unodax.com
+size: '14M'
+website: 'https://www.unodax.com'
 repository: 
 issue: 
-icon: com.unodax.exchange.png
+icon: 'com.unodax.exchange.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2022-04-07
+date: '2022-04-07'
 signer: 
 reviewArchive: 
-twitter: Unocoin
+twitter: 'Unocoin'
 social:
-- https://www.linkedin.com/company/unocoin
-- https://www.facebook.com/unocoin
+- 'https://www.linkedin.com/company/unocoin'
+- 'https://www.facebook.com/unocoin'
 redirect_from: 
 developerName: 
 features: 

@@ -3,9 +3,9 @@ title: Krux DIY Hardware Wallet
 appId: kruxdiyhw
 authors:
 - danny
-released: 2021-07-18
+released: '2021-07-18'
 discontinued: 
-updated: 2023-11-18
+updated: '2023-11-18'
 version: 
 binaries: 
 dimensions: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: diy
 appHashes: 
-date: 2024-01-22
+date: '2024-01-22'
 signer: 
 reviewArchive: 
 twitter: selfcustodykrux

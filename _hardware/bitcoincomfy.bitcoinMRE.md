@@ -3,10 +3,10 @@ title: BitcoinComfy BitcoinMRE
 appId: bitcoincomfy.bitcoinMRE
 authors:
 - danny
-released: 2022-10-12
+released: '2022-10-12'
 discontinued: 
-updated: 2022-10-17
-version: 0.0.2-alpha
+updated: '2022-10-17'
+version: '0.0.2-alpha'
 binaries: https://github.com/BitcoinComfy/BitcoinMRE/tags
 dimensions: 
 weight: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: diy
 appHashes: 
-date: 2022-11-23
+date: '2022-11-23'
 signer: 
 reviewArchive: 
 twitter: BitcoinComfy

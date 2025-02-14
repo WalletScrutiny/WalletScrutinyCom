@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: LUNA - Blockchain Wallet
+title: 'LUNA - Blockchain Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.btcwallet
+appId: 'com.btcwallet'
 appCountry: 
-released: 2019-08-29
-updated: 2019-10-23
-version: 8.0.8
+released: '2019-08-29'
+updated: '2019-10-23'
+version: '8.0.8'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://lunablockchain.com/
+website: 'https://lunablockchain.com/'
 repository: 
 issue: 
-icon: com.btcwallet.jpg
+icon: 'com.btcwallet.jpg'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2023-04-21
+date: '2023-04-21'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Luna blockchain wallet
+developerName: 'Luna blockchain wallet'
 features: 
 
 ---

@@ -1,34 +1,33 @@
 ---
-wsId: coinRepublic
+wsId: 'coinRepublic'
 title: 'CoinRepublic: Buy BTC Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.coinrepublic.app
+appId: 'com.coinrepublic.app'
 appCountry: 
-released: 2020-12-02
+released: '2020-12-02'
 updated: 2025-01-28
-version: 2.7.3
+version: '2.7.3'
 stars: 2.5
 ratings: 
 reviews: 
-size: 
-website: https://www.coinrepublic.com.au/
+website: 'https://www.coinrepublic.com.au/'
 repository: 
 issue: 
-icon: com.coinrepublic.app.png
+icon: 'com.coinrepublic.app.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-05-17
+date: '2023-05-17'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Coin Republic
+developerName: 'Coin Republic'
 features: 
 
 ---

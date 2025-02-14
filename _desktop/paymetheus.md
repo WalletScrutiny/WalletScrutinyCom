@@ -3,9 +3,9 @@ title: Paymetheus
 appId: paymetheus
 authors:
 - danny
-released: 2016-01-08
+released: '2016-01-08'
 discontinued: 
-updated: 2016-08-12
+updated: '2016-08-12'
 version: 
 binaries: 
 provider: 
@@ -17,7 +17,7 @@ icon:
 bugbounty: 
 meta: obsolete
 verdict: wip
-date: 2024-04-25
+date: '2024-04-25'
 reviewArchive: 
 twitter: 
 social: 

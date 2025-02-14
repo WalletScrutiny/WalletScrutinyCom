@@ -1,37 +1,36 @@
 ---
-wsId: xboCrypto
-title: XBO.com - Buy Bitcoin & Crypto
+wsId: 'xboCrypto'
+title: 'XBO.com - Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: xbo.mobile.app
+appId: 'xbo.mobile.app'
 appCountry: 
-released: 2022-09-24
+released: '2022-09-24'
 updated: 2025-02-04
-version: 2.0.41
+version: '2.0.41'
 stars: 4.7
 ratings: 
 reviews: 15
-size: 
-website: https://www.xbo.com/
+website: 'https://www.xbo.com/'
 repository: 
 issue: 
-icon: xbo.mobile.app.png
+icon: 'xbo.mobile.app.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-08-25
+date: '2023-08-25'
 signer: 
 reviewArchive: 
-twitter: XboOfficial
+twitter: 'XboOfficial'
 social:
-- https://www.facebook.com/xbocom
-- https://www.instagram.com/xbo.com_official
-- https://www.linkedin.com/company/xbo-com
+- 'https://www.facebook.com/xbocom'
+- 'https://www.instagram.com/xbo.com_official'
+- 'https://www.linkedin.com/company/xbo-com'
 redirect_from: 
-developerName: Metafortune LTD
+developerName: 'Metafortune LTD'
 features: 
 
 ---

@@ -1,35 +1,35 @@
 ---
-wsId: sonitixExchange
-title: Sonitix Exchange
+wsId: 'sonitixExchange'
+title: 'Sonitix Exchange'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.sonitix_mobility
+appId: 'com.sonitix_mobility'
 appCountry: 
-released: 2022-03-05
-updated: 2024-04-03
-version: 2.0.46
+released: '2022-03-05'
+updated: '2024-04-03'
+version: '2.0.46'
 stars: 4.7
 ratings: 
 reviews: 
 size: 
-website: https://sonitixexchange.in/
+website: 'https://sonitixexchange.in/'
 repository: 
 issue: 
-icon: com.sonitix_mobility.png
+icon: 'com.sonitix_mobility.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-10-10
+date: '2024-10-10'
 signer: 
 reviewArchive: 
-twitter: SonitixO
+twitter: 'SonitixO'
 social:
-- https://www.facebook.com/Sonitix
+- 'https://www.facebook.com/Sonitix'
 redirect_from: 
-developerName: Sonitix
+developerName: 'Sonitix'
 features: 
 
 ---

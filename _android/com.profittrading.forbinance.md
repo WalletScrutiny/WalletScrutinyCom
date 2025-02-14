@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: ProfitTradingApp For Binance
+title: 'ProfitTradingApp For Binance'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 500000
-appId: com.profittrading.forbinance
+appId: 'com.profittrading.forbinance'
 appCountry: 
-released: 2018-01-09
+released: '2018-01-09'
 updated: 2025-02-10
-version: 15.3.8
+version: '15.3.8'
 stars: 4.3
 ratings: 1851
-reviews: 115
-size: 
-website: https://profittradingapp.com/
+reviews: 116
+website: 'https://profittradingapp.com/'
 repository: 
 issue: 
-icon: com.profittrading.forbinance.png
+icon: 'com.profittrading.forbinance.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-09-20
+date: '2021-09-20'
 signer: 
 reviewArchive: 
-twitter: ProfitTrading_
+twitter: 'ProfitTrading_'
 social:
-- https://www.facebook.com/profittradingapp
+- 'https://www.facebook.com/profittradingapp'
 redirect_from: 
-developerName: ProfitTradingApp
+developerName: 'ProfitTradingApp'
 features: 
 
 ---

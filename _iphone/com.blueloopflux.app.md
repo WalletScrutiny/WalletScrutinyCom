@@ -7,9 +7,9 @@ authors:
 appId: com.blueloopflux.app
 appCountry: us
 idd: 1534426282
-released: 2020-10-15
-updated: 2023-04-15
-version: 3.0.391
+released: '2020-10-15'
+updated: '2023-04-15'
+version: '3.0.391'
 stars: 2.8
 reviews: 93
 size: '59254784'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-12-19
+date: '2023-12-19'
 signer: 
 reviewArchive: 
 twitter: ifluxdotapp

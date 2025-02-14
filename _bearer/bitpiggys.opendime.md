@@ -3,7 +3,7 @@ title: Bitpiggys Opendime
 appId: bitpiggys.opendime
 authors:
 - danny
-released: 2019-07-16
+released: '2019-07-16'
 discontinued: 
 updated: 
 version: 
@@ -23,7 +23,7 @@ icon: bitpiggys.opendime.png
 bugbounty: 
 meta: defunct
 verdict: sealed-plainkey
-date: 2022-11-11
+date: '2022-11-11'
 signer: 
 reviewArchive: 
 twitter: bitpiggys

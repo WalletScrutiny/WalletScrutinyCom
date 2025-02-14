@@ -1,13 +1,13 @@
 ---
 wsId: 
-title: Invest in Cryptocurrency
+title: 'Invest in Cryptocurrency'
 altTitle: 
 authors: 
 users: 5
-appId: com.mke.investcrypto
+appId: 'com.mke.investcrypto'
 appCountry: 
-released: 2020-04-25
-updated: 2020-04-25
+released: '2020-04-25'
+updated: '2020-04-25'
 version: '1.0'
 stars: 
 ratings: 
@@ -16,18 +16,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.mke.investcrypto.jpg
+icon: 'com.mke.investcrypto.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-03-02
+date: '2024-03-02'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Elie Muhiya
+developerName: 'Elie Muhiya'
 features: 
 
 ---

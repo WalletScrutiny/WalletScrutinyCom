@@ -1,38 +1,37 @@
 ---
-wsId: CoinEx
+wsId: 'CoinEx'
 title: 'CoinEx: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 1000000
-appId: com.coinex.trade.play
+appId: 'com.coinex.trade.play'
 appCountry: 
-released: 2019-12-27
-updated: 2025-01-22
-version: 3.40.2
+released: '2019-12-27'
+updated: 2025-02-14
+version: '3.41.0'
 stars: 4.7
 ratings: 60269
-reviews: 1383
-size: 
-website: https://www.coinex.com/
+reviews: 1380
+website: 'https://www.coinex.com/'
 repository: 
 issue: 
-icon: com.coinex.trade.play.png
+icon: 'com.coinex.trade.play.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2020-04-15
+date: '2020-04-15'
 signer: 
 reviewArchive: 
-twitter: coinexcom
+twitter: 'coinexcom'
 social:
-- https://www.facebook.com/TheCoinEx
-- https://www.reddit.com/r/Coinex
+- 'https://www.facebook.com/TheCoinEx'
+- 'https://www.reddit.com/r/Coinex'
 redirect_from:
-- /com.coinex.trade.play/
-- /posts/com.coinex.trade.play/
-developerName: CoinEx
+- '/com.coinex.trade.play/'
+- '/posts/com.coinex.trade.play/'
+developerName: 'CoinEx'
 features: 
 
 ---

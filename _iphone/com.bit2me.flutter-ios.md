@@ -1,35 +1,35 @@
 ---
-wsId: bit2me
-title: Bit2Me - Buy Cryptocurrencies
+wsId: 'bit2me'
+title: 'Bit2Me - Buy Cryptocurrencies'
 altTitle: 
 authors:
-- leo
-appId: com.bit2me.flutter-ios
-appCountry: es
-idd: 1459809738
-released: 2019-06-04
+- 'leo'
+appId: 'com.bit2me.flutter-ios'
+appCountry: 'es'
+idd: '1459809738'
+released: '2019-06-04'
 updated: 2025-02-07
-version: 3.34.1
-stars: 4.5
-reviews: 3574
+version: '3.34.1'
+stars: 4.49608
+reviews: 3576
 size: '192019456'
-website: https://bit2me.com
+website: 'https://bit2me.com'
 repository: 
 issue: 
-icon: com.bit2me.flutter-ios.jpg
+icon: 'com.bit2me.flutter-ios.jpg'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2024-12-31
+date: '2024-12-31'
 signer: 
 reviewArchive: 
-twitter: bit2me
+twitter: 'bit2me'
 social:
-- https://www.linkedin.com/company/bit2me
-- https://www.facebook.com/bit2me
+- 'https://www.linkedin.com/company/bit2me'
+- 'https://www.facebook.com/bit2me'
 features: 
-developerName: Bit2Me
+developerName: 'Bit2Me'
 
 ---
 

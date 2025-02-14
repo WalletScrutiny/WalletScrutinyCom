@@ -1,37 +1,36 @@
 ---
-wsId: BTSE
+wsId: 'BTSE'
 title: 'BTSE: Buy & Sell Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.btse.finance
-appCountry: ng
-released: 2020-11-30
-updated: 2025-01-24
-version: 1.93.1
+appId: 'com.btse.finance'
+appCountry: 'ng'
+released: '2020-11-30'
+updated: 2025-02-07
+version: '1.94.0'
 stars: 4.2
 ratings: 62
-reviews: 53
-size: 
-website: https://btse.com
+reviews: 54
+website: 'https://btse.com'
 repository: 
 issue: 
-icon: com.btse.finance.png
+icon: 'com.btse.finance.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-11-15
+date: '2021-11-15'
 signer: 
 reviewArchive: 
-twitter: btsecom
+twitter: 'btsecom'
 social:
-- https://www.linkedin.com/company/btsecom
-- https://www.facebook.com/btsecom
-- https://www.reddit.com/r/btsecom
+- 'https://www.linkedin.com/company/btsecom'
+- 'https://www.facebook.com/btsecom'
+- 'https://www.reddit.com/r/btsecom'
 redirect_from: 
-developerName: BTSE Holdings Limited
+developerName: 'BTSE Holdings Limited'
 features: 
 
 ---

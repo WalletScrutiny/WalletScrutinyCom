@@ -1,36 +1,36 @@
 ---
-wsId: Colodax
-title: Colodax - Bitcoin Exchange
+wsId: 'Colodax'
+title: 'Colodax - Bitcoin Exchange'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.colodax.colodax
-appCountry: us
-released: 2020-01-31
-updated: 2021-09-17
-version: 1.7.2
+appId: 'com.colodax.colodax'
+appCountry: 'us'
+released: '2020-01-31'
+updated: '2021-09-17'
+version: '1.7.2'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://colodax.com
+website: 'https://colodax.com'
 repository: 
 issue: 
-icon: com.colodax.colodax.jpg
+icon: 'com.colodax.colodax.jpg'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2025-02-13
+date: '2025-02-13'
 signer: 
 reviewArchive: 
-twitter: colodax
+twitter: 'colodax'
 social:
-- https://www.linkedin.com/company/colodax
-- https://www.facebook.com/colodax
+- 'https://www.linkedin.com/company/colodax'
+- 'https://www.facebook.com/colodax'
 redirect_from: 
-developerName: Ganyt Solutions
+developerName: 'Ganyt Solutions'
 features: 
 
 ---

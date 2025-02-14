@@ -1,35 +1,35 @@
 ---
-wsId: PolisPay
-title: PolisPay - Cryptocurrency wallet
+wsId: 'PolisPay'
+title: 'PolisPay - Cryptocurrency wallet'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 5000
-appId: com.polispay.copay
+appId: 'com.polispay.copay'
 appCountry: 
-released: 2018-02-21
-updated: 2021-10-22
-version: 8.9.3
+released: '2018-02-21'
+updated: '2021-10-22'
+version: '8.9.3'
 stars: 4.1
 ratings: 131
 reviews: 78
-size: 10M
-website: https://www.polispay.com
+size: '10M'
+website: 'https://www.polispay.com'
 repository: 
 issue: 
-icon: com.polispay.copay.png
+icon: 'com.polispay.copay.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2022-02-10
+date: '2022-02-10'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from:
-- /com.polispay.copay/
-- /posts/com.polispay.copay/
+- '/com.polispay.copay/'
+- '/posts/com.polispay.copay/'
 developerName: 
 features: 
 

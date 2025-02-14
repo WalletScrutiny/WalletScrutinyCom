@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Bluebelt Instant Crypto Bank
+title: 'Bluebelt Instant Crypto Bank'
 altTitle: 
 authors: 
 users: 500
-appId: com.bbex
+appId: 'com.bbex'
 appCountry: 
-released: 2019-07-12
-updated: 2019-11-06
-version: 1.0.5
+released: '2019-07-12'
+updated: '2019-11-06'
+version: '1.0.5'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.bluebelt.asia/
+website: 'https://www.bluebelt.asia/'
 repository: 
 issue: 
-icon: com.bbex.png
+icon: 'com.bbex.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
 twitter: 

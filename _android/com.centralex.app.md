@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: Centralex Exchange
+title: 'Centralex Exchange'
 altTitle: 
 authors: 
 users: 50
-appId: com.centralex.app
+appId: 'com.centralex.app'
 appCountry: 
-released: 2022-03-16
-updated: 2022-04-07
+released: '2022-03-16'
+updated: '2022-04-07'
 version: '1.02'
 stars: 4.6
 ratings: 
 reviews: 
 size: 
-website: https://centralex.com
+website: 'https://centralex.com'
 repository: 
 issue: 
-icon: com.centralex.app.png
+icon: 'com.centralex.app.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-04-19
+date: '2024-04-19'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Centralex
+developerName: 'Centralex'
 features: 
 
 ---

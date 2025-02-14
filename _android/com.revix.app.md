@@ -1,40 +1,39 @@
 ---
-wsId: revixBuyBitcoin
-title: Altify - Invest in Alts
+wsId: 'revixBuyBitcoin'
+title: 'Altify - Invest in Alts'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.revix.app
+appId: 'com.revix.app'
 appCountry: 
-released: 2022-08-08
+released: '2022-08-08'
 updated: 2025-02-07
-version: 2.3.2
+version: '2.3.2'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://altify.app
+website: 'https://altify.app'
 repository: 
 issue: 
-icon: com.revix.app.png
+icon: 'com.revix.app.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-07-09
+date: '2023-07-09'
 signer: 
 reviewArchive: 
-twitter: RevixInvest
+twitter: 'RevixInvest'
 social:
-- https://www.facebook.com/RevixInvest
-- https://www.linkedin.com/company/revixinvest
-- https://www.instagram.com/revixinvest
-- https://medium.com/revixinvestment
-- https://t.me/revixinvest
-- https://www.tiktok.com/@revixinvest
+- 'https://www.facebook.com/RevixInvest'
+- 'https://www.linkedin.com/company/revixinvest'
+- 'https://www.instagram.com/revixinvest'
+- 'https://medium.com/revixinvestment'
+- 'https://t.me/revixinvest'
+- 'https://www.tiktok.com/@revixinvest'
 redirect_from: 
-developerName: Revix UK Ltd
+developerName: 'Revix UK Ltd'
 features: 
 
 ---

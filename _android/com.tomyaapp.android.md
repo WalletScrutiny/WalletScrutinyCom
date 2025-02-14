@@ -1,34 +1,33 @@
 ---
-wsId: tomyaApp
-title: Tomya  Güvenli Kripto Yatırımı
+wsId: 'tomyaApp'
+title: 'Tomya  Güvenli Kripto Yatırımı'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.tomyaapp.android
+appId: 'com.tomyaapp.android'
 appCountry: 
-released: 2020-11-06
+released: '2020-11-06'
 updated: 2023-08-23
-version: 1.1.2
+version: '1.1.2'
 stars: 4.4
 ratings: 
 reviews: 
-size: 
-website: https://www.tomya.com/
+website: 'https://www.tomya.com/'
 repository: 
 issue: 
-icon: com.tomyaapp.android.png
+icon: 'com.tomyaapp.android.png'
 bugbounty: 
-meta: stale
-verdict: custodial
+meta: 'stale'
+verdict: 'custodial'
 appHashes: 
-date: 2024-08-19
+date: '2024-08-19'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Tomya Teknoloji A.Ş.
+developerName: 'Tomya Teknoloji A.Ş.'
 features: 
 
 ---

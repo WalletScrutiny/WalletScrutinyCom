@@ -1,28 +1,28 @@
 ---
 wsId: 
-title: Finzo Markets
+title: 'Finzo Markets'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.finzo
+appId: 'com.finzo'
 appCountry: 
-released: 2020-11-08
-updated: 2021-01-25
+released: '2020-11-08'
+updated: '2021-01-25'
 version: '1.3'
 stars: 4.2
 ratings: 76
 reviews: 66
-size: 23M
-website: https://finzomarkets.com/
+size: '23M'
+website: 'https://finzomarkets.com/'
 repository: 
 issue: 
-icon: com.finzo.png
+icon: 'com.finzo.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2021-11-26
+date: '2021-11-26'
 signer: 
 reviewArchive: 
 twitter: 

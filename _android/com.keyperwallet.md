@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: 키퍼월렛 keyperWallet
+title: '키퍼월렛 keyperWallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.keyperwallet
+appId: 'com.keyperwallet'
 appCountry: 
-released: 2019-10-22
-updated: 2020-09-02
+released: '2019-10-22'
+updated: '2020-09-02'
 version: '1.7'
 stars: 4
 ratings: 
@@ -17,18 +17,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.keyperwallet.png
+icon: 'com.keyperwallet.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2024-11-12
+date: '2024-11-12'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: keyper Inc.
+developerName: 'keyper Inc.'
 features: 
 
 ---

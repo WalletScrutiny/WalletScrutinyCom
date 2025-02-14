@@ -1,38 +1,37 @@
 ---
-wsId: coincola
-title: CoinCol - P2P Buy & Sell BTC
+wsId: 'coincola'
+title: 'CoinCol - P2P Buy & Sell BTC'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 100000
-appId: com.newgo.coincola
+appId: 'com.newgo.coincola'
 appCountry: 
-released: 2017-07-07
+released: '2017-07-07'
 updated: 2025-01-21
-version: 5.11.0
+version: '5.11.0'
 stars: 4.6
 ratings: 1597
-reviews: 157
-size: 
-website: https://www.coincola.com
+reviews: 156
+website: 'https://www.coincola.com'
 repository: 
 issue: 
-icon: com.newgo.coincola.png
+icon: 'com.newgo.coincola.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2020-12-03
+date: '2020-12-03'
 signer: 
 reviewArchive: 
-twitter: CoinCola_Global
+twitter: 'CoinCola_Global'
 social:
-- https://www.linkedin.com/company/coincola
-- https://www.facebook.com/CoinCola
-- https://www.reddit.com/r/coincolaofficial
+- 'https://www.linkedin.com/company/coincola'
+- 'https://www.facebook.com/CoinCola'
+- 'https://www.reddit.com/r/coincolaofficial'
 redirect_from:
-- /com.newgo.coincola/
-developerName: CoinCola Limited
+- '/com.newgo.coincola/'
+developerName: 'CoinCola Limited'
 features: 
 
 ---

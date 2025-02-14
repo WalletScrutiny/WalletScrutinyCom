@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: Arzif
+title: 'Arzif'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.arzif.android
+appId: 'com.arzif.android'
 appCountry: 
-released: 2020-10-09
+released: '2020-10-09'
 updated: 2023-09-09
 version: '2'
 stars: 4
 ratings: 687
 reviews: 21
-size: 
-website: https://arzif.com/
+website: 'https://arzif.com/'
 repository: 
 issue: 
-icon: com.arzif.android.jpg
+icon: 'com.arzif.android.jpg'
 bugbounty: 
-meta: stale
-verdict: custodial
+meta: 'stale'
+verdict: 'custodial'
 appHashes: 
-date: 2024-09-03
+date: '2024-09-03'
 signer: 
 reviewArchive: 
-twitter: Arzifofficial
+twitter: 'Arzifofficial'
 social: 
 redirect_from: 
-developerName: Arzifdev
+developerName: 'Arzifdev'
 features: 
 
 ---

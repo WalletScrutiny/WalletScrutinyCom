@@ -1,37 +1,36 @@
 ---
-wsId: LiteBit
-title: LiteBit – Buy Bitcoin & crypto
+wsId: 'LiteBit'
+title: 'LiteBit – Buy Bitcoin & crypto'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 100000
-appId: com.flutter.litebit
+appId: 'com.flutter.litebit'
 appCountry: 
-released: 2019-12-12
+released: '2019-12-12'
 updated: 2023-05-16
-version: 3.3.19
+version: '3.3.19'
 stars: 3.6
 ratings: 
 reviews: 2
-size: 
-website: https://www.litebit.eu/
+website: 'https://www.litebit.eu/'
 repository: 
 issue: 
-icon: com.flutter.litebit.png
+icon: 'com.flutter.litebit.png'
 bugbounty: 
-meta: stale
-verdict: custodial
+meta: 'stale'
+verdict: 'custodial'
 appHashes: 
-date: 2024-05-11
+date: '2024-05-11'
 signer: 
 reviewArchive: 
-twitter: litebiteu
+twitter: 'litebiteu'
 social:
-- https://www.linkedin.com/company/litebit
-- https://www.facebook.com/litebiteu
+- 'https://www.linkedin.com/company/litebit'
+- 'https://www.facebook.com/litebiteu'
 redirect_from:
-- /com.flutter.litebit/
-developerName: 2525 Ventures BV
+- '/com.flutter.litebit/'
+developerName: '2525 Ventures BV'
 features: 
 
 ---

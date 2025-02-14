@@ -1,28 +1,28 @@
 ---
 wsId: 
-title: Обменник Биткоин кошелёк
+title: 'Обменник Биткоин кошелёк'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.AndroidCompany.OBMENik
+appId: 'com.AndroidCompany.OBMENik'
 appCountry: 
-released: 2020-11-18
-updated: 2020-11-18
+released: '2020-11-18'
+updated: '2020-11-18'
 version: '1.0'
 stars: 4.7
 ratings: 462
 reviews: 446
-size: 8.1M
+size: '8.1M'
 website: 
 repository: 
 issue: 
-icon: com.AndroidCompany.OBMENik.png
+icon: 'com.AndroidCompany.OBMENik.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2021-10-26
+date: '2021-10-26'
 signer: 
 reviewArchive: 
 twitter: 

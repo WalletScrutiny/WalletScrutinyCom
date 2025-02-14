@@ -7,9 +7,9 @@ authors:
 appId: io.timexapp
 appCountry: au
 idd: '6443878656'
-released: 2023-02-18
-updated: 2024-01-11
-version: 1.4.3
+released: '2023-02-18'
+updated: '2024-01-11'
+version: '1.4.3'
 stars: 0
 reviews: 0
 size: '34884608'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-11-29
+date: '2024-11-29'
 signer: 
 reviewArchive: 
 twitter: ExchangeTimex

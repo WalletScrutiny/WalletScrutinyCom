@@ -1,34 +1,34 @@
 ---
-wsId: atomex
-title: Atomex - Crypto Wallet & DEX
+wsId: 'atomex'
+title: 'Atomex - Crypto Wallet & DEX'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 10000
-appId: com.atomex.android
+appId: 'com.atomex.android'
 appCountry: 
-released: 2020-12-06
-updated: 2023-02-24
-version: 1.25.0
+released: '2020-12-06'
+updated: '2023-02-24'
+version: '1.25.0'
 stars: 3.7
 ratings: 64
 reviews: 5
 size: 
-website: https://atomex.me
-repository: https://github.com/atomex-me/atomex.mobile
-issue: https://github.com/atomex-me/atomex.mobile/issues/24
-icon: com.atomex.android.png
+website: 'https://atomex.me'
+repository: 'https://github.com/atomex-me/atomex.mobile'
+issue: 'https://github.com/atomex-me/atomex.mobile/issues/24'
+icon: 'com.atomex.android.png'
 bugbounty: 
-meta: defunct
-verdict: nonverifiable
+meta: 'defunct'
+verdict: 'nonverifiable'
 appHashes: 
-date: 2022-02-25
+date: '2022-02-25'
 signer: 
 reviewArchive: 
-twitter: atomex_official
+twitter: 'atomex_official'
 social: 
 redirect_from: 
-developerName: Atomex
+developerName: 'Atomex'
 features: 
 
 ---

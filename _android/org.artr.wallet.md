@@ -1,34 +1,34 @@
 ---
-wsId: ArteryNetwork
-title: Artery Wallet
+wsId: 'ArteryNetwork'
+title: 'Artery Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: org.artr.wallet
-appCountry: ru
-released: 2020-10-01
-updated: 2022-09-27
+appId: 'org.artr.wallet'
+appCountry: 'ru'
+released: '2020-10-01'
+updated: '2022-09-27'
 version: '1.8'
 stars: 3.6
 ratings: 2174
 reviews: 1008
 size: 
-website: https://artery.network/
-repository: https://github.com/arterynetwork/artr
+website: 'https://artery.network/'
+repository: 'https://github.com/arterynetwork/artr'
 issue: 
-icon: org.artr.wallet.jpg
+icon: 'org.artr.wallet.jpg'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Artery Network Corporation
+developerName: 'Artery Network Corporation'
 features: 
 
 ---

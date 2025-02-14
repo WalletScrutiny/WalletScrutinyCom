@@ -3,7 +3,7 @@ title: iColdWallet
 appId: icoldwallet
 authors:
 - danny
-released: 2021-12-06
+released: '2021-12-06'
 discontinued: 
 updated: 
 version: 
@@ -27,7 +27,7 @@ bugbounty:
 meta: ok
 verdict: noita
 appHashes: 
-date: 2022-03-11
+date: '2022-03-11'
 signer: 
 reviewArchive: 
 twitter: 

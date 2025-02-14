@@ -3,10 +3,10 @@ title: Ciphrex mSIGNA
 appId: ciphrex.msigna
 authors:
 - danny
-released: 2013-12-29
+released: '2013-12-29'
 discontinued: 
-updated: 2017-08-14
-version: v0.10.6
+updated: '2017-08-14'
+version: 'v0.10.6'
 binaries: 
 provider: Ciphrex
 providerWebsite: https://web.archive.org/web/20170905112722/https://ciphrex.com/
@@ -17,7 +17,7 @@ icon: ciphrex.msigna.png
 bugbounty: 
 meta: obsolete
 verdict: wip
-date: 2024-04-25
+date: '2024-04-25'
 reviewArchive: 
 twitter: ciphrex
 social:

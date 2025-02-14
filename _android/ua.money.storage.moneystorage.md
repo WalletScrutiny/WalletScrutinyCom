@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: Money Storage
+title: 'Money Storage'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: ua.money.storage.moneystorage
+appId: 'ua.money.storage.moneystorage'
 appCountry: 
-released: 2018-02-08
+released: '2018-02-08'
 updated: 2024-02-01
-version: 2.1.0
+version: '2.1.0'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: ua.money.storage.moneystorage.png
+icon: 'ua.money.storage.moneystorage.png'
 bugbounty: 
-meta: stale
-verdict: custodial
+meta: 'stale'
+verdict: 'custodial'
 appHashes: 
-date: 2025-01-27
+date: '2025-01-27'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Bitsofta
+developerName: 'Bitsofta'
 features: 
 
 ---

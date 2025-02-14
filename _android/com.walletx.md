@@ -3,32 +3,31 @@ wsId:
 title: 'WalletX: Crypto Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.walletx
+appId: 'com.walletx'
 appCountry: 
-released: 2022-04-28
+released: '2022-04-28'
 updated: 2022-11-23
 version: '2.0'
 stars: 3.9
 ratings: 
 reviews: 18
-size: 
-website: http://www.cnxnetwork.org
+website: 'http://www.cnxnetwork.org'
 repository: 
 issue: 
-icon: com.walletx.png
+icon: 'com.walletx.png'
 bugbounty: 
-meta: obsolete
-verdict: nobtc
+meta: 'obsolete'
+verdict: 'nobtc'
 appHashes: 
-date: 2024-11-13
+date: '2024-11-13'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Letsch Inc.
+developerName: 'Letsch Inc.'
 features: 
 
 ---

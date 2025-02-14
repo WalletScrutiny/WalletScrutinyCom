@@ -1,40 +1,40 @@
 ---
 wsId: 
-title: Privateum Wallet
+title: 'Privateum Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.privateum.wallet
+appId: 'com.privateum.wallet'
 appCountry: 
-released: 2021-12-14
-updated: 2023-02-28
-version: 2.0.22
+released: '2021-12-14'
+updated: '2023-02-28'
+version: '2.0.22'
 stars: 5
 ratings: 
 reviews: 2
 size: 
-website: https://privateum.com/
+website: 'https://privateum.com/'
 repository: 
 issue: 
-icon: com.privateum.wallet.png
+icon: 'com.privateum.wallet.png'
 bugbounty: 
-meta: removed
-verdict: nobtc
+meta: 'removed'
+verdict: 'nobtc'
 appHashes: 
-date: 2024-12-23
+date: '2024-12-23'
 signer: 
 reviewArchive: 
-twitter: privateumglobal
+twitter: 'privateumglobal'
 social:
-- https://www.facebook.com/privateumglobal
-- https://www.linkedin.com/company/privateumglobal
-- https://www.instagram.com/privateumglobal
-- https://www.reddit.com/r/Privateum
-- https://privateumglobal.medium.com
-- https://t.me/PRIVATEUMGLOBAL
+- 'https://www.facebook.com/privateumglobal'
+- 'https://www.linkedin.com/company/privateumglobal'
+- 'https://www.instagram.com/privateumglobal'
+- 'https://www.reddit.com/r/Privateum'
+- 'https://privateumglobal.medium.com'
+- 'https://t.me/PRIVATEUMGLOBAL'
 redirect_from: 
-developerName: Privateum
+developerName: 'Privateum'
 features: 
 
 ---

@@ -1,38 +1,37 @@
 ---
-wsId: btccLite
+wsId: 'btccLite'
 title: 'BTCC Lite: Trade Crypto & BTC'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 500000
-appId: com.btcc.BTCCReactNative
+appId: 'com.btcc.BTCCReactNative'
 appCountry: 
-released: 2022-11-17
+released: '2022-11-17'
 updated: 2024-09-27
-version: 3.1.0
+version: '3.1.0'
 stars: 4.4
 ratings: 
 reviews: 79
-size: 
 website: 
 repository: 
 issue: 
-icon: com.btcc.BTCCReactNative.jpg
+icon: 'com.btcc.BTCCReactNative.jpg'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-08-23
+date: '2023-08-23'
 signer: 
 reviewArchive: 
-twitter: YourBTCC
+twitter: 'YourBTCC'
 social:
-- https://www.linkedin.com/company/yourbtcc
-- https://www.facebook.com/yourbtcc
-- https://www.instagram.com/btccbitcoin
-- https://www.youtube.com/c/BTCCOfficial2011
+- 'https://www.linkedin.com/company/yourbtcc'
+- 'https://www.facebook.com/yourbtcc'
+- 'https://www.instagram.com/btccbitcoin'
+- 'https://www.youtube.com/c/BTCCOfficial2011'
 redirect_from: 
-developerName: BTCC international
+developerName: 'BTCC international'
 features: 
 
 ---

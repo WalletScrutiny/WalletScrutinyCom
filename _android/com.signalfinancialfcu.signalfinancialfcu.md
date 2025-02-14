@@ -1,38 +1,37 @@
 ---
-wsId: signalFinancial
-title: Signal Financial FCU
+wsId: 'signalFinancial'
+title: 'Signal Financial FCU'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.signalfinancialfcu.signalfinancialfcu
+appId: 'com.signalfinancialfcu.signalfinancialfcu'
 appCountry: 
-released: 2022-09-20
+released: '2022-09-20'
 updated: 2024-05-22
-version: 4013.0.2
+version: '4013.0.2'
 stars: 4.8
 ratings: 
 reviews: 21
-size: 
-website: https://www.signalfinancialfcu.org/locations/
+website: 'https://www.signalfinancialfcu.org/locations/'
 repository: 
 issue: 
-icon: com.signalfinancialfcu.signalfinancialfcu.png
+icon: 'com.signalfinancialfcu.signalfinancialfcu.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-08-28
+date: '2023-08-28'
 signer: 
 reviewArchive: 
-twitter: signalFCU
+twitter: 'signalFCU'
 social:
-- https://www.linkedin.com/company/signal-financial-federal-credit-union
-- https://www.instagram.com/signalfcu/
-- https://www.youtube.com/channel/UCJnL9Mcc6BPw4s_BMGoYafw
-- https://www.facebook.com/signalfinancialFCU
+- 'https://www.linkedin.com/company/signal-financial-federal-credit-union'
+- 'https://www.instagram.com/signalfcu/'
+- 'https://www.youtube.com/channel/UCJnL9Mcc6BPw4s_BMGoYafw'
+- 'https://www.facebook.com/signalfinancialFCU'
 redirect_from: 
-developerName: Signal Financial Federal Credit Union
+developerName: 'Signal Financial Federal Credit Union'
 features: 
 
 ---

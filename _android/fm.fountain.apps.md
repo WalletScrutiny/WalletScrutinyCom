@@ -1,34 +1,33 @@
 ---
-wsId: fountainPodcasts
+wsId: 'fountainPodcasts'
 title: 'Fountain: Podcasts & Music'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: fm.fountain.apps
+appId: 'fm.fountain.apps'
 appCountry: 
-released: 2021-08-02
+released: '2021-08-02'
 updated: 2025-02-07
-version: 1.1.16
+version: '1.1.16'
 stars: 3.6
 ratings: 
 reviews: 243
-size: 
-website: https://www.fountain.fm
+website: 'https://www.fountain.fm'
 repository: 
 issue: 
-icon: fm.fountain.apps.png
+icon: 'fm.fountain.apps.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-06-23
+date: '2023-06-23'
 signer: 
 reviewArchive: 
-twitter: fountain_app
+twitter: 'fountain_app'
 social: 
 redirect_from: 
-developerName: Fountain Labs Ltd
+developerName: 'Fountain Labs Ltd'
 features: 
 
 ---

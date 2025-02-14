@@ -7,9 +7,9 @@ authors:
 appId: com.vilcsak.bitcoin2
 appCountry: 
 idd: 886427730
-released: 2014-06-22
-updated: 2025-02-10
-version: 13.4.11
+released: '2014-06-22'
+updated: '2025-02-10'
+version: '13.4.11'
 stars: 4.7
 reviews: 1757113
 size: '225924096'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2021-10-12
+date: '2021-10-12'
 signer: 
 reviewArchive: 
 twitter: coinbase

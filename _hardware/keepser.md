@@ -26,7 +26,7 @@ bugbounty:
 meta: ok
 verdict: plainkey
 appHashes: 
-date: 2023-12-14
+date: '2023-12-14'
 signer: 
 reviewArchive: 
 twitter: keepser

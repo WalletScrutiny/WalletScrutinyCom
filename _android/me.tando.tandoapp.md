@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: Tando
+title: 'Tando'
 altTitle: 
 authors: 
 users: 1000
-appId: me.tando.tandoapp
+appId: 'me.tando.tandoapp'
 appCountry: 
-released: 2024-08-21
+released: '2024-08-21'
 updated: 2025-01-18
-version: 1.2.0
+version: '1.2.0'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://tando.me/
+website: 'https://tando.me/'
 repository: 
 issue: 
-icon: me.tando.tandoapp.png
+icon: 'me.tando.tandoapp.png'
 bugbounty: 
-meta: ok
-verdict: wip
+meta: 'ok'
+verdict: 'wip'
 appHashes: 
-date: 2024-12-02
+date: '2024-12-02'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Tando.me
+developerName: 'Tando.me'
 features: 
 
 ---

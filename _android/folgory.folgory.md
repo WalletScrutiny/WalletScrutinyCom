@@ -1,31 +1,31 @@
 ---
 wsId: 
-title: Folgory
+title: 'Folgory'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: folgory.folgory
+appId: 'folgory.folgory'
 appCountry: 
-released: 2021-04-09
-updated: 2021-04-09
-version: 1.0.1
+released: '2021-04-09'
+updated: '2021-04-09'
+version: '1.0.1'
 stars: 2.7
 ratings: 20
 reviews: 14
-size: 23M
-website: https://folgory.com/
+size: '23M'
+website: 'https://folgory.com/'
 repository: 
 issue: 
-icon: folgory.folgory.png
+icon: 'folgory.folgory.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2021-11-30
+date: '2021-11-30'
 signer: 
 reviewArchive: 
-twitter: folgory1
+twitter: 'folgory1'
 social: 
 redirect_from: 
 developerName: 

@@ -7,9 +7,9 @@ authors:
 appId: com.zamzam.bank
 appCountry: ru
 idd: 1521900439
-released: 2020-07-04
-updated: 2023-05-06
-version: 1.10.4
+released: '2020-07-04'
+updated: '2023-05-06'
+version: '1.10.4'
 stars: 3.5
 reviews: 84
 size: '54175744'
@@ -21,7 +21,7 @@ bugbounty:
 meta: stale
 verdict: nowallet
 appHashes: 
-date: 2024-05-04
+date: '2024-05-04'
 signer: 
 reviewArchive: 
 twitter: 

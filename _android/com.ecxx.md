@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: ecxx.com - World's Leading Digital Asset Exchange
+title: 'ecxx.com - World''s Leading Digital Asset Exchange'
 altTitle: 
 authors: 
 users: 10
-appId: com.ecxx
+appId: 'com.ecxx'
 appCountry: 
 released: 
-updated: 2020-02-28
-version: 4.3.1
+updated: '2020-02-28'
+version: '4.3.1'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.ecxx.com
+website: 'https://www.ecxx.com'
 repository: 
 issue: 
-icon: com.ecxx.png
+icon: 'com.ecxx.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Buy Crypto Uk
+title: 'Buy Crypto Uk'
 altTitle: 
 authors: 
 users: 0
-appId: buy.crypto.uk1
+appId: 'buy.crypto.uk1'
 appCountry: 
-released: 2021-06-17
-updated: 2021-06-17
+released: '2021-06-17'
+updated: '2021-06-17'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 3.4M
+size: '3.4M'
 website: 
 repository: 
 issue: 
-icon: buy.crypto.uk1.jpg
+icon: 'buy.crypto.uk1.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-10-01
+date: '2021-10-01'
 signer: 
 reviewArchive: 
 twitter: 

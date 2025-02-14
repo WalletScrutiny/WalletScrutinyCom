@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: FASOCHANGE OFFICIEL
+title: 'FASOCHANGE OFFICIEL'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: net.fasochange.app
+appId: 'net.fasochange.app'
 appCountry: 
-released: 2021-08-25
+released: '2021-08-25'
 updated: 2025-01-08
-version: 1.6.0
+version: '1.6.0'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://fasochange.net
+website: 'https://fasochange.net'
 repository: 
 issue: 
-icon: net.fasochange.app.png
+icon: 'net.fasochange.app.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2025-01-15
+date: '2025-01-15'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: FASOCHANGE
+developerName: 'FASOCHANGE'
 features: 
 
 ---

@@ -1,38 +1,37 @@
 ---
-wsId: Mercuryo
-title: Mercuryo Bitcoin Cryptowallet
+wsId: 'Mercuryo'
+title: 'Mercuryo Bitcoin Cryptowallet'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 100000
-appId: com.mercuryo.app
+appId: 'com.mercuryo.app'
 appCountry: 
-released: 2019-09-03
+released: '2019-09-03'
 updated: 2025-01-15
-version: 2.8.7
+version: '2.8.7'
 stars: 4.2
 ratings: 2732
 reviews: 100
-size: 
-website: https://mercuryo.io
+website: 'https://mercuryo.io'
 repository: 
 issue: 
-icon: com.mercuryo.app.png
+icon: 'com.mercuryo.app.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2020-11-17
+date: '2020-11-17'
 signer: 
 reviewArchive: 
-twitter: Mercuryo_io
+twitter: 'Mercuryo_io'
 social:
-- https://www.linkedin.com/company/mercuryo-io
-- https://www.facebook.com/mercuryo.io
-- https://www.reddit.com/r/mercuryo
+- 'https://www.linkedin.com/company/mercuryo-io'
+- 'https://www.facebook.com/mercuryo.io'
+- 'https://www.reddit.com/r/mercuryo'
 redirect_from:
-- /com.mercuryo.app/
-developerName: Mercuryo
+- '/com.mercuryo.app/'
+developerName: 'Mercuryo'
 features: 
 
 ---

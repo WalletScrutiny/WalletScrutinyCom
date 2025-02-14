@@ -1,34 +1,33 @@
 ---
-wsId: ironwallet
+wsId: 'ironwallet'
 title: 'IronWallet: Cold Crypto Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000000
-appId: com.wallet.crypto.btc.eth
+appId: 'com.wallet.crypto.btc.eth'
 appCountry: 
-released: 2023-09-06
+released: '2023-09-06'
 updated: 2025-01-24
-version: 1.5.0
+version: '1.5.0'
 stars: 4.4
 ratings: 
-reviews: 34
-size: 
-website: https://ironwallet.io/
-repository: https://github.com/Ironwallet/IronWallet
-issue: https://github.com/Ironwallet/IronWallet/issues/1
-icon: com.wallet.crypto.btc.eth.png
+reviews: 35
+website: 'https://ironwallet.io/'
+repository: 'https://github.com/Ironwallet/IronWallet'
+issue: 'https://github.com/Ironwallet/IronWallet/issues/1'
+icon: 'com.wallet.crypto.btc.eth.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-09-02
+date: '2024-09-02'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: INWAY AKTIENGESELLSCHAFT
+developerName: 'INWAY AKTIENGESELLSCHAFT'
 features: 
 
 ---

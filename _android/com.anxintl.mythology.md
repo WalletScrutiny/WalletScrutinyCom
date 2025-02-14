@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: DICE Wallet
+title: 'DICE Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.anxintl.mythology
+appId: 'com.anxintl.mythology'
 appCountry: 
-released: 2016-04-18
-updated: 2016-10-29
-version: 1.3.3
+released: '2016-04-18'
+updated: '2016-10-29'
+version: '1.3.3'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.mydicewallet.com
+website: 'https://www.mydicewallet.com'
 repository: 
 issue: 
-icon: com.anxintl.mythology.png
+icon: 'com.anxintl.mythology.png'
 bugbounty: 
-meta: defunct
-verdict: wip
+meta: 'defunct'
+verdict: 'wip'
 appHashes: 
-date: 2023-08-07
+date: '2023-08-07'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: HASHIYADA TAKUYA
+developerName: 'HASHIYADA TAKUYA'
 features: 
 
 ---

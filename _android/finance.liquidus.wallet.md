@@ -1,36 +1,35 @@
 ---
-wsId: liquidusDeFiCrypto
-title: Liquidus - DeFi Crypto Wallet
+wsId: 'liquidusDeFiCrypto'
+title: 'Liquidus - DeFi Crypto Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: finance.liquidus.wallet
+appId: 'finance.liquidus.wallet'
 appCountry: 
-released: 2023-01-24
+released: '2023-01-24'
 updated: 2024-12-16
-version: 1.0.19
+version: '1.0.19'
 stars: 4.3
 ratings: 
 reviews: 2
-size: 
-website: https://www.liquidus.finance
+website: 'https://www.liquidus.finance'
 repository: 
 issue: 
-icon: finance.liquidus.wallet.png
+icon: 'finance.liquidus.wallet.png'
 bugbounty: 
-meta: ok
-verdict: nobtc
+meta: 'ok'
+verdict: 'nobtc'
 appHashes: 
-date: 2023-08-18
+date: '2023-08-18'
 signer: 
 reviewArchive: 
-twitter: LiquidusFinance
+twitter: 'LiquidusFinance'
 social:
-- https://t.me/liquidusfinance
-- https://discord.com/invite/zfQUjejyRs
+- 'https://t.me/liquidusfinance'
+- 'https://discord.com/invite/zfQUjejyRs'
 redirect_from: 
-developerName: Liquidus Finance
+developerName: 'Liquidus Finance'
 features: 
 
 ---

@@ -7,9 +7,9 @@ authors:
 appId: com.flitaa
 appCountry: ng
 idd: 1566777501
-released: 2021-05-25
-updated: 2023-06-23
-version: 1.34.0
+released: '2021-05-25'
+updated: '2023-06-23'
+version: '1.34.0'
 stars: 3.5
 reviews: 65
 size: '83151872'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-07-25
+date: '2024-07-25'
 signer: 
 reviewArchive: 
 twitter: getflitaa

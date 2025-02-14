@@ -1,13 +1,13 @@
 ---
 wsId: 
-title: AlaOption
+title: 'AlaOption'
 altTitle: 
 authors: 
 users: 10
-appId: com.boala
+appId: 'com.boala'
 appCountry: 
-released: 2021-07-06
-updated: 2021-07-06
+released: '2021-07-06'
+updated: '2021-07-06'
 version: '1.0'
 stars: 
 ratings: 
@@ -16,18 +16,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.boala.png
+icon: 'com.boala.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: AladiEx Global Holdings Limited
+developerName: 'AladiEx Global Holdings Limited'
 features: 
 
 ---

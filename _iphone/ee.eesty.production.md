@@ -7,8 +7,8 @@ authors:
 appId: ee.eesty.production
 appCountry: jp
 idd: 1342115738
-released: 2018-02-15
-updated: 2019-07-03
+released: '2018-02-15'
+updated: '2019-07-03'
 version: '3.0'
 stars: 4
 reviews: 8
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: nosource
 appHashes: 
-date: 2023-08-16
+date: '2023-08-16'
 signer: 
 reviewArchive: 
 twitter: 

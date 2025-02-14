@@ -1,37 +1,36 @@
 ---
 wsId: 
-title: LAQIRA Exchange
+title: 'LAQIRA Exchange'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.laqira.exchange
+appId: 'com.laqira.exchange'
 appCountry: 
-released: 2023-02-09
+released: '2023-02-09'
 updated: 2023-03-03
-version: 3.2.2
+version: '3.2.2'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://laqira.com/
+website: 'https://laqira.com/'
 repository: 
 issue: 
-icon: com.laqira.exchange.png
+icon: 'com.laqira.exchange.png'
 bugbounty: 
-meta: stale
-verdict: wip
+meta: 'stale'
+verdict: 'wip'
 appHashes: 
-date: 2024-03-01
+date: '2024-03-01'
 signer: 
 reviewArchive: 
-twitter: LaqiraProtocol
+twitter: 'LaqiraProtocol'
 social:
-- https://www.reddit.com/user/laqiraprotocol
-- https://t.me/laqira_official
-- https://www.linkedin.com/in/laqira-protocol-295a6b222
+- 'https://www.reddit.com/user/laqiraprotocol'
+- 'https://t.me/laqira_official'
+- 'https://www.linkedin.com/in/laqira-protocol-295a6b222'
 redirect_from: 
-developerName: Laqira Protocol
+developerName: 'Laqira Protocol'
 features: 
 
 ---

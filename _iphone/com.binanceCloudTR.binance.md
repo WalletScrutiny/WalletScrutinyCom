@@ -1,34 +1,34 @@
 ---
-wsId: BinanceTR
+wsId: 'BinanceTR'
 title: 'Binance TR: Bitcoin and Crypto'
 altTitle: 
 authors:
-- danny
-appId: com.binanceCloudTR.binance
-appCountry: tr
-idd: 1548636153
-released: 2021-02-18
+- 'danny'
+appId: 'com.binanceCloudTR.binance'
+appCountry: 'tr'
+idd: '1548636153'
+released: '2021-02-18'
 updated: 2025-01-25
-version: 2.13.0
-stars: 4.7
-reviews: 136330
+version: '2.13.0'
+stars: 4.73235
+reviews: 136434
 size: '171004928'
-website: https://www.trbinance.com/
+website: 'https://www.trbinance.com/'
 repository: 
 issue: 
-icon: com.binanceCloudTR.binance.jpg
+icon: 'com.binanceCloudTR.binance.jpg'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-10-21
+date: '2021-10-21'
 signer: 
 reviewArchive: 
-twitter: BinanceTR
+twitter: 'BinanceTR'
 social:
-- https://www.facebook.com/TRBinanceTR
+- 'https://www.facebook.com/TRBinanceTR'
 features: 
-developerName: BN TEKNOLOJİ ANONİM ŞİRKETİ
+developerName: 'BN TEKNOLOJİ ANONİM ŞİRKETİ'
 
 ---
 

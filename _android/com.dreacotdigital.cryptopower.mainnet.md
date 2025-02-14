@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: Cryptopower Wallet
+title: 'Cryptopower Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100
-appId: com.dreacotdigital.cryptopower.mainnet
+appId: 'com.dreacotdigital.cryptopower.mainnet'
 appCountry: 
-released: 2024-01-20
+released: '2024-01-20'
 updated: 2025-01-31
-version: 2.1.0
+version: '2.1.0'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://cryptopower.dev/
-repository: https://github.com/crypto-power/cryptopower/releases
-issue: https://github.com/crypto-power/cryptopower/issues/448
-icon: com.dreacotdigital.cryptopower.mainnet.png
+website: 'https://cryptopower.dev/'
+repository: 'https://github.com/crypto-power/cryptopower/releases'
+issue: 'https://github.com/crypto-power/cryptopower/issues/448'
+icon: 'com.dreacotdigital.cryptopower.mainnet.png'
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: 'ok'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-02-05
+date: '2024-02-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Dreacot Digital Limited
+developerName: 'Dreacot Digital Limited'
 features: 
 
 ---

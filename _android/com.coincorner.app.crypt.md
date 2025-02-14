@@ -1,37 +1,36 @@
 ---
-wsId: coincorner
-title: CoinCorner
+wsId: 'coincorner'
+title: 'CoinCorner'
 altTitle: 
 authors:
-- kiwilamb
+- 'kiwilamb'
 users: 10000
-appId: com.coincorner.app.crypt
+appId: 'com.coincorner.app.crypt'
 appCountry: 
-released: 2014-09-10
-updated: 2025-01-16
-version: 5.0.6
+released: '2014-09-10'
+updated: 2025-02-12
+version: '5.1.0'
 stars: 2.3
 ratings: 
 reviews: 5
-size: 
-website: https://www.coincorner.com
+website: 'https://www.coincorner.com'
 repository: 
 issue: 
-icon: com.coincorner.app.crypt.png
+icon: 'com.coincorner.app.crypt.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-05-02
+date: '2021-05-02'
 signer: 
 reviewArchive: 
-twitter: CoinCorner
+twitter: 'CoinCorner'
 social:
-- https://www.facebook.com/CoinCorner
+- 'https://www.facebook.com/CoinCorner'
 redirect_from: 
-developerName: CoinCorner Ltd
+developerName: 'CoinCorner Ltd'
 features:
-- ln
+- 'ln'
 
 ---
 

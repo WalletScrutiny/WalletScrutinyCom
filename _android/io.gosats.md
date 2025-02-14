@@ -1,34 +1,33 @@
 ---
-wsId: gosats
+wsId: 'gosats'
 title: 'GoSats: Gold and BTC Rewards'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 500000
-appId: io.gosats
+appId: 'io.gosats'
 appCountry: 
-released: 2021-01-06
+released: '2021-01-06'
 updated: 2025-01-15
-version: 2.5.8
+version: '2.5.8'
 stars: 2.5
 ratings: 
 reviews: 3
-size: 
-website: https://gosats.io
+website: 'https://gosats.io'
 repository: 
 issue: 
-icon: io.gosats.png
+icon: 'io.gosats.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-02-13
+date: '2023-02-13'
 signer: 
 reviewArchive: 
-twitter: gosatsapp
+twitter: 'gosatsapp'
 social: 
 redirect_from: 
-developerName: Saffron Technologies Pte Ltd
+developerName: 'Saffron Technologies Pte Ltd'
 features: 
 
 ---

@@ -1,33 +1,33 @@
 ---
-wsId: BitMEXOld
-title: BitMEX
+wsId: 'BitMEXOld'
+title: 'BitMEX'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.bitmex.mobile.android
-appCountry: il
-released: 2020-07-20
-updated: 2022-01-05
-version: 1.1.13
+appId: 'com.bitmex.mobile.android'
+appCountry: 'il'
+released: '2020-07-20'
+updated: '2022-01-05'
+version: '1.1.13'
 stars: 2.3
 ratings: 222
 reviews: 1
-size: 47M
-website: https://www.bitmex.com/
+size: '47M'
+website: 'https://www.bitmex.com/'
 repository: 
 issue: 
-icon: com.bitmex.mobile.android.png
+icon: 'com.bitmex.mobile.android.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2022-02-10
+date: '2022-02-10'
 signer: 
 reviewArchive: 
-twitter: bitmex
+twitter: 'bitmex'
 social:
-- https://www.reddit.com/r/BitMEX
+- 'https://www.reddit.com/r/BitMEX'
 redirect_from: 
 developerName: 
 features: 

@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: trade.io - Smarter crypto trad
+title: 'trade.io - Smarter crypto trad'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: io.trade.tradeio.eu
+appId: 'io.trade.tradeio.eu'
 appCountry: 
-released: 2019-07-22
-updated: 2019-09-20
-version: 1.0.0
+released: '2019-07-22'
+updated: '2019-09-20'
+version: '1.0.0'
 stars: 1.7
 ratings: 
 reviews: 6
 size: 
-website: http://trade.io
+website: 'http://trade.io'
 repository: 
 issue: 
-icon: io.trade.tradeio.eu.png
+icon: 'io.trade.tradeio.eu.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2023-05-05
+date: '2023-05-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Trade.io
+developerName: 'Trade.io'
 features: 
 
 ---

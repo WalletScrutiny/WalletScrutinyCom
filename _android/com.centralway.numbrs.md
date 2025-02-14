@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: Numbrs - Bitcoin Account
+title: 'Numbrs - Bitcoin Account'
 altTitle: 
 authors: 
 users: 500000
-appId: com.centralway.numbrs
+appId: 'com.centralway.numbrs'
 appCountry: 
-released: 2019-02-12
-updated: 2022-04-14
-version: 7.4.0
+released: '2019-02-12'
+updated: '2022-04-14'
+version: '7.4.0'
 stars: 3.4
 ratings: 
 reviews: 6
 size: 
-website: https://www.numbrs.com
+website: 'https://www.numbrs.com'
 repository: 
 issue: 
-icon: com.centralway.numbrs.png
+icon: 'com.centralway.numbrs.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2024-03-02
+date: '2024-03-02'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Numbrs Personal Finance AG
+developerName: 'Numbrs Personal Finance AG'
 features: 
 
 ---

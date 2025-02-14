@@ -1,35 +1,35 @@
 ---
 wsId: 
-title: ProfitTradingApp for HitBTC
+title: 'ProfitTradingApp for HitBTC'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.profittrading.forhitbtc
+appId: 'com.profittrading.forhitbtc'
 appCountry: 
-released: 2018-07-23
-updated: 2021-08-07
-version: VARY
+released: '2018-07-23'
+updated: '2021-08-07'
+version: 'VARY'
 stars: 4.5
 ratings: 41
 reviews: 3
 size: 
-website: https://profittradingapp.com/
+website: 'https://profittradingapp.com/'
 repository: 
 issue: 
-icon: com.profittrading.forhitbtc.png
+icon: 'com.profittrading.forhitbtc.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-04-19
+date: '2024-04-19'
 signer: 
 reviewArchive: 
-twitter: ProfitTrading_
+twitter: 'ProfitTrading_'
 social:
-- https://www.facebook.com/profittradingapp
+- 'https://www.facebook.com/profittradingapp'
 redirect_from: 
-developerName: ProfitTradingApp
+developerName: 'ProfitTradingApp'
 features: 
 
 ---

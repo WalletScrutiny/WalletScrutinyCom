@@ -1,35 +1,34 @@
 ---
-wsId: ventAfrica
-title: Vent Africa - Crypto to Cash
+wsId: 'ventAfrica'
+title: 'Vent Africa - Crypto to Cash'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.vent.app
+appId: 'com.vent.app'
 appCountry: 
-released: 2022-01-26
+released: '2022-01-26'
 updated: 2025-02-11
-version: 1.10.10
+version: '1.10.10'
 stars: 4.9
 ratings: 
 reviews: 5
-size: 
-website: https://vent.africa
+website: 'https://vent.africa'
 repository: 
 issue: 
-icon: com.vent.app.png
+icon: 'com.vent.app.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-06-10
+date: '2023-06-10'
 signer: 
 reviewArchive: 
-twitter: ventafricaHQ
+twitter: 'ventafricaHQ'
 social:
-- https://t.me/ventafrica
+- 'https://t.me/ventafrica'
 redirect_from: 
-developerName: Vent Comm & Tech LTD
+developerName: 'Vent Comm & Tech LTD'
 features: 
 
 ---

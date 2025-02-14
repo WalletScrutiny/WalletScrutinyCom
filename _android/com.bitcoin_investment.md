@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Bitcoin Investment
+title: 'Bitcoin Investment'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.bitcoin_investment
+appId: 'com.bitcoin_investment'
 appCountry: 
-released: 2019-08-10
-updated: 2019-08-10
+released: '2019-08-10'
+updated: '2019-08-10'
 version: '1.0'
 stars: 
 ratings: 
@@ -17,18 +17,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.bitcoin_investment.png
+icon: 'com.bitcoin_investment.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-04-03
+date: '2024-04-03'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Better Business Promotion Solutions Group
+developerName: 'Better Business Promotion Solutions Group'
 features: 
 
 ---

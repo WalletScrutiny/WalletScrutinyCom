@@ -1,35 +1,35 @@
 ---
 wsId: 
-title: Coinsbit - Crypto Exchange
+title: 'Coinsbit - Crypto Exchange'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 500000
-appId: com.coinsbit.coinsbit
+appId: 'com.coinsbit.coinsbit'
 appCountry: 
-released: 2019-10-28
-updated: 2024-06-04
-version: 1.0.2
+released: '2019-10-28'
+updated: '2024-06-04'
+version: '1.0.2'
 stars: 2.6
 ratings: 1855
 reviews: 48
 size: 
-website: https://coinsbit.io/
+website: 'https://coinsbit.io/'
 repository: 
 issue: 
-icon: com.coinsbit.coinsbit.png
+icon: 'com.coinsbit.coinsbit.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2024-04-17
+date: '2024-04-17'
 signer: 
 reviewArchive: 
-twitter: c0insbit
+twitter: 'c0insbit'
 social:
-- https://t.me/coinsbit_chat
+- 'https://t.me/coinsbit_chat'
 redirect_from: 
-developerName: Coinsbit
+developerName: 'Coinsbit'
 features: 
 
 ---

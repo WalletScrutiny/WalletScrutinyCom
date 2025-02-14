@@ -1,35 +1,34 @@
 ---
-wsId: ZixiPay
+wsId: 'ZixiPay'
 title: 'ZixiPay: Tether Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.zixipay.wallet
-appCountry: us
-released: 2019-12-18
+appId: 'com.zixipay.wallet'
+appCountry: 'us'
+released: '2019-12-18'
 updated: 2025-02-05
 version: '1.90'
 stars: 4
 ratings: 
 reviews: 10
-size: 
-website: https://zixipay.com
+website: 'https://zixipay.com'
 repository: 
 issue: 
-icon: com.zixipay.wallet.png
+icon: 'com.zixipay.wallet.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-11-17
+date: '2021-11-17'
 signer: 
 reviewArchive: 
-twitter: zixipay
+twitter: 'zixipay'
 social:
-- https://www.facebook.com/ZixiPay
+- 'https://www.facebook.com/ZixiPay'
 redirect_from: 
-developerName: ZixiPay LLC
+developerName: 'ZixiPay LLC'
 features: 
 
 ---

@@ -1,39 +1,39 @@
 ---
 wsId: 
-title: Coinlend
+title: 'Coinlend'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: org.coinlend
+appId: 'org.coinlend'
 appCountry: 
-released: 2018-07-19
-updated: 2020-06-30
-version: 0.0.36
+released: '2018-07-19'
+updated: '2020-06-30'
+version: '0.0.36'
 stars: 4.4
 ratings: 83
 reviews: 3
 size: 
-website: https://coinlend.org
+website: 'https://coinlend.org'
 repository: 
 issue: 
-icon: org.coinlend.png
+icon: 'org.coinlend.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-11-02
+date: '2023-11-02'
 signer: 
 reviewArchive: 
-twitter: Coinlend2018
+twitter: 'Coinlend2018'
 social:
-- https://www.facebook.com/Coinlend
-- https://t.me/CoinlendOfficial
-- https://www.instagram.com/coinlend
-- https://www.reddit.com/r/Coinlend
-- https://www.youtube.com/channel/UCRxJGad2QnPFKnGuS8plqxg
+- 'https://www.facebook.com/Coinlend'
+- 'https://t.me/CoinlendOfficial'
+- 'https://www.instagram.com/coinlend'
+- 'https://www.reddit.com/r/Coinlend'
+- 'https://www.youtube.com/channel/UCRxJGad2QnPFKnGuS8plqxg'
 redirect_from: 
-developerName: Coinlend GmbH
+developerName: 'Coinlend GmbH'
 features: 
 
 ---

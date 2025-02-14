@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: Luna Trading
+title: 'Luna Trading'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.cmgroup.luna
+appId: 'com.cmgroup.luna'
 appCountry: 
-released: 2021-05-10
-updated: 2021-07-24
-version: 1.0.8
+released: '2021-05-10'
+updated: '2021-07-24'
+version: '1.0.8'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://lunatrading.io/
+website: 'https://lunatrading.io/'
 repository: 
 issue: 
-icon: com.cmgroup.luna.png
+icon: 'com.cmgroup.luna.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-02-05
+date: '2024-02-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Luna Trading
+developerName: 'Luna Trading'
 features: 
 
 ---

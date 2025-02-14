@@ -1,36 +1,35 @@
 ---
-wsId: BityPreco
-title: Bitypreço
+wsId: 'BityPreco'
+title: 'Bitypreço'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.bitpreco.bitprecoAppAndroid
-appCountry: br
-released: 2021-02-21
+appId: 'com.bitpreco.bitprecoAppAndroid'
+appCountry: 'br'
+released: '2021-02-21'
 updated: 2022-12-26
-version: 2.0.04
+version: '2.0.04'
 stars: 4.1
 ratings: 808
 reviews: 726
-size: 
-website: https://bitpreco.com/
+website: 'https://bitpreco.com/'
 repository: 
 issue: 
-icon: com.bitpreco.bitprecoAppAndroid.png
+icon: 'com.bitpreco.bitprecoAppAndroid.png'
 bugbounty: 
-meta: obsolete
-verdict: custodial
+meta: 'obsolete'
+verdict: 'custodial'
 appHashes: 
-date: 2024-12-16
+date: '2024-12-16'
 signer: 
 reviewArchive: 
-twitter: BitPreco
+twitter: 'BitPreco'
 social:
-- https://www.linkedin.com/company/bitpreco
-- https://www.facebook.com/BitPreco
+- 'https://www.linkedin.com/company/bitpreco'
+- 'https://www.facebook.com/BitPreco'
 redirect_from: 
-developerName: Bitpreço
+developerName: 'Bitpreço'
 features: 
 
 ---

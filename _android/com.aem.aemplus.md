@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: AEM+ | Multi Crypto Wallet
+title: 'AEM+ | Multi Crypto Wallet'
 altTitle: 
 authors: 
 users: 100
-appId: com.aem.aemplus
+appId: 'com.aem.aemplus'
 appCountry: 
-released: 2022-02-27
-updated: 2024-03-08
-version: 1.0.14
+released: '2022-02-27'
+updated: '2024-03-08'
+version: '1.0.14'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.aemalgorithm.io/aem-plus/main
+website: 'https://www.aemalgorithm.io/aem-plus/main'
 repository: 
 issue: 
-icon: com.aem.aemplus.png
+icon: 'com.aem.aemplus.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-12-04
+date: '2024-12-04'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: AEM Technologies
+developerName: 'AEM Technologies'
 features: 
 
 ---

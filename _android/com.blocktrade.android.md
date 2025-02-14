@@ -1,36 +1,36 @@
 ---
-wsId: BlockTrade
+wsId: 'BlockTrade'
 title: 'Blocktrade: Invest in Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.blocktrade.android
-appCountry: us
-released: 2018-10-28
-updated: 2024-04-22
-version: 4.1.4
+appId: 'com.blocktrade.android'
+appCountry: 'us'
+released: '2018-10-28'
+updated: '2024-04-22'
+version: '4.1.4'
 stars: 2.9
 ratings: 187
 reviews: 9
 size: 
-website: http://blocktrade.com
+website: 'http://blocktrade.com'
 repository: 
 issue: 
-icon: com.blocktrade.android.png
+icon: 'com.blocktrade.android.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-11-19
+date: '2024-11-19'
 signer: 
 reviewArchive: 
-twitter: Blocktradecom
+twitter: 'Blocktradecom'
 social:
-- https://www.linkedin.com/company/blocktradecom
-- https://www.facebook.com/Blocktradecom
+- 'https://www.linkedin.com/company/blocktradecom'
+- 'https://www.facebook.com/Blocktradecom'
 redirect_from: 
-developerName: Blocktrade
+developerName: 'Blocktrade'
 features: 
 
 ---

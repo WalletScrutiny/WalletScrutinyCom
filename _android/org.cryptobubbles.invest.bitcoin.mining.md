@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Invest Bitcoin Mining
+title: 'Invest Bitcoin Mining'
 altTitle: 
 authors: 
 users: 10
-appId: org.cryptobubbles.invest.bitcoin.mining
+appId: 'org.cryptobubbles.invest.bitcoin.mining'
 appCountry: 
-released: 2021-07-17
-updated: 2021-07-18
+released: '2021-07-17'
+updated: '2021-07-18'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 2.4M
+size: '2.4M'
 website: 
 repository: 
 issue: 
-icon: org.cryptobubbles.invest.bitcoin.mining.png
+icon: 'org.cryptobubbles.invest.bitcoin.mining.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-10-01
+date: '2021-10-01'
 signer: 
 reviewArchive: 
 twitter: 

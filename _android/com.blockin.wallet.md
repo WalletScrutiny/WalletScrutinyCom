@@ -1,35 +1,35 @@
 ---
-wsId: PoolinWallet
-title: PoolinWallet - Secure Custody
+wsId: 'PoolinWallet'
+title: 'PoolinWallet - Secure Custody'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.blockin.wallet
-appCountry: us
-released: 2020-03-23
-updated: 2024-08-21
-version: 2.5.13
+appId: 'com.blockin.wallet'
+appCountry: 'us'
+released: '2020-03-23'
+updated: '2024-08-21'
+version: '2.5.13'
 stars: 3.3
 ratings: 225
 reviews: 23
 size: 
-website: https://poolin.fi/
+website: 'https://poolin.fi/'
 repository: 
 issue: 
-icon: com.blockin.wallet.png
+icon: 'com.blockin.wallet.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-10-19
+date: '2024-10-19'
 signer: 
 reviewArchive: 
-twitter: PoolinWallet
+twitter: 'PoolinWallet'
 social:
-- https://www.linkedin.com/company/poolinwallet
+- 'https://www.linkedin.com/company/poolinwallet'
 redirect_from: 
-developerName: Poolin Singapore - Make the Most of Crypto Assets
+developerName: 'Poolin Singapore - Make the Most of Crypto Assets'
 features: 
 
 ---

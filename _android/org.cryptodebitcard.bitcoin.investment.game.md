@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Bitcoin Investment Game
+title: 'Bitcoin Investment Game'
 altTitle: 
 authors: 
 users: 1
-appId: org.cryptodebitcard.bitcoin.investment.game
+appId: 'org.cryptodebitcard.bitcoin.investment.game'
 appCountry: 
-released: 2021-06-29
-updated: 2021-06-29
+released: '2021-06-29'
+updated: '2021-06-29'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 2.4M
+size: '2.4M'
 website: 
 repository: 
 issue: 
-icon: org.cryptodebitcard.bitcoin.investment.game.jpg
+icon: 'org.cryptodebitcard.bitcoin.investment.game.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-10-01
+date: '2021-10-01'
 signer: 
 reviewArchive: 
 twitter: 

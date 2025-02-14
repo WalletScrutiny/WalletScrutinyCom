@@ -1,37 +1,36 @@
 ---
-wsId: capeCryptoExchange
-title: Cape Crypto Exchange
+wsId: 'capeCryptoExchange'
+title: 'Cape Crypto Exchange'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.capecrypto
+appId: 'com.capecrypto'
 appCountry: 
-released: 2022-04-25
+released: '2022-04-25'
 updated: 2024-12-19
-version: 3.0.3
+version: '3.0.3'
 stars: 3.3
 ratings: 
 reviews: 
-size: 
-website: https://capecrypto.com
+website: 'https://capecrypto.com'
 repository: 
 issue: 
-icon: com.capecrypto.png
+icon: 'com.capecrypto.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-09-06
+date: '2023-09-06'
 signer: 
 reviewArchive: 
-twitter: capecryptoSA
+twitter: 'capecryptoSA'
 social:
-- https://www.linkedin.com/company/capecrypto
-- https://www.youtube.com/channel/UCET8t88fPnOKD0sgM3KFIsA
-- https://www.facebook.com/capecrypto
+- 'https://www.linkedin.com/company/capecrypto'
+- 'https://www.youtube.com/channel/UCET8t88fPnOKD0sgM3KFIsA'
+- 'https://www.facebook.com/capecrypto'
 redirect_from: 
-developerName: Cape Crypto
+developerName: 'Cape Crypto'
 features: 
 
 ---

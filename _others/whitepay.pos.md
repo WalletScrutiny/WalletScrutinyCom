@@ -4,7 +4,7 @@ appId: whitepay.pos
 authors:
 - danny
 icon: whitepay.pos.png
-date: 2024-01-15
+date: '2024-01-15'
 website: https://whitepay.com/
 social:
 - https://www.facebook.com/Whitepay.official

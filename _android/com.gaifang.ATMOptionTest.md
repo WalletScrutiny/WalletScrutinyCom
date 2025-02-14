@@ -1,28 +1,28 @@
 ---
 wsId: 
-title: Atm Options:pintu tol trading
+title: 'Atm Options:pintu tol trading'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.gaifang.ATMOptionTest
+appId: 'com.gaifang.ATMOptionTest'
 appCountry: 
-released: 2020-06-18
-updated: 2021-08-29
-version: 1.1.19
+released: '2020-06-18'
+updated: '2021-08-29'
+version: '1.1.19'
 stars: 
 ratings: 
 reviews: 
-size: 3.5M
-website: https://www.atmwarrant.com/
+size: '3.5M'
+website: 'https://www.atmwarrant.com/'
 repository: 
 issue: 
-icon: com.gaifang.ATMOptionTest.jpg
+icon: 'com.gaifang.ATMOptionTest.jpg'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2022-03-24
+date: '2022-03-24'
 signer: 
 reviewArchive: 
 twitter: 

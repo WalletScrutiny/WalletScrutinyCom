@@ -1,36 +1,35 @@
 ---
 wsId: 
-title: SmartCash Transact
+title: 'SmartCash Transact'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.wongeta.smartcashtransact
+appId: 'com.wongeta.smartcashtransact'
 appCountry: 
-released: 2018-12-31
+released: '2018-12-31'
 updated: 2025-01-26
 version: '194'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://mysmartcash.tech
+website: 'https://mysmartcash.tech'
 repository: 
 issue: 
-icon: com.wongeta.smartcashtransact.png
+icon: 'com.wongeta.smartcashtransact.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-06-10
+date: '2023-06-10'
 signer: 
 reviewArchive: 
-twitter: mysmartcasht
+twitter: 'mysmartcasht'
 social:
-- https://www.instagram.com/smartcash_za
-- https://www.facebook.com/mysmartcash.tech
+- 'https://www.instagram.com/smartcash_za'
+- 'https://www.facebook.com/mysmartcash.tech'
 redirect_from: 
-developerName: Wongeta
+developerName: 'Wongeta'
 features: 
 
 ---

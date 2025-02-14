@@ -3,7 +3,7 @@ title: MyCryptoVault.net Cold Storage Coins
 appId: mycryptovaultnet.coins
 authors:
 - danny
-released: 2015-03-04
+released: '2015-03-04'
 discontinued: 2019-03-09
 updated: 
 version: 
@@ -22,7 +22,7 @@ icon: mycryptovaultnet.coins.png
 bugbounty: 
 meta: defunct
 verdict: sealed-plainkey
-date: 2022-04-29
+date: '2022-04-29'
 signer: 
 reviewArchive: 
 twitter: myCryptoVAULTne

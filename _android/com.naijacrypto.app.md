@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: Naijacrypto
+title: 'Naijacrypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.naijacrypto.app
+appId: 'com.naijacrypto.app'
 appCountry: 
-released: 2019-08-05
-updated: 2022-10-22
-version: 5.1.2
+released: '2019-08-05'
+updated: '2022-10-22'
+version: '5.1.2'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://naijacrypto.com/
+website: 'https://naijacrypto.com/'
 repository: 
 issue: 
-icon: com.naijacrypto.app.png
+icon: 'com.naijacrypto.app.png'
 bugbounty: 
-meta: defunct
-verdict: wip
+meta: 'defunct'
+verdict: 'wip'
 appHashes: 
-date: 2023-08-19
+date: '2023-08-19'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: CI Cryptosolutions
+developerName: 'CI Cryptosolutions'
 features: 
 
 ---

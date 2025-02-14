@@ -1,33 +1,33 @@
 ---
-wsId: FTXPro
+wsId: 'FTXPro'
 title: 'FTX Pro: Trade Crypto'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 1000000
-appId: com.ftxmobile.ftx
+appId: 'com.ftxmobile.ftx'
 appCountry: 
-released: 2020-05-08
-updated: 2022-10-14
-version: 2.0.8
+released: '2020-05-08'
+updated: '2022-10-14'
+version: '2.0.8'
 stars: 4.4
 ratings: 9850
 reviews: 525
 size: 
-website: https://ftx.com/
+website: 'https://ftx.com/'
 repository: 
 issue: 
-icon: com.ftxmobile.ftx.png
+icon: 'com.ftxmobile.ftx.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-03-21
+date: '2023-03-21'
 signer: 
 reviewArchive: 
-twitter: FTX_Official
+twitter: 'FTX_Official'
 social:
-- https://www.facebook.com/ftx.official
+- 'https://www.facebook.com/ftx.official'
 redirect_from: 
 developerName: 
 features: 

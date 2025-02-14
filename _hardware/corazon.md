@@ -24,7 +24,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: 2022-11-26
+date: '2022-11-26'
 signer: 
 reviewArchive: 
 twitter: graysingapore

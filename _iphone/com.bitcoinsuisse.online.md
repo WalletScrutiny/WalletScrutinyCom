@@ -1,35 +1,35 @@
 ---
-wsId: BitcoinSuisse
-title: Bitcoin Suisse
+wsId: 'BitcoinSuisse'
+title: 'Bitcoin Suisse'
 altTitle: 
 authors:
-- danny
-appId: com.bitcoinsuisse.online
-appCountry: pl
-idd: 1555493299
-released: 2021-09-21
+- 'danny'
+appId: 'com.bitcoinsuisse.online'
+appCountry: 'pl'
+idd: '1555493299'
+released: '2021-09-21'
 updated: 2025-01-30
-version: 2.15.0
+version: '2.15.0'
 stars: 0
 reviews: 0
 size: '25436160'
-website: https://www.bitcoinsuisse.com/mobile-app
+website: 'https://www.bitcoinsuisse.com/mobile-app'
 repository: 
 issue: 
-icon: com.bitcoinsuisse.online.jpg
+icon: 'com.bitcoinsuisse.online.jpg'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-11-22
+date: '2021-11-22'
 signer: 
 reviewArchive: 
-twitter: BitcoinSuisseAG
+twitter: 'BitcoinSuisseAG'
 social:
-- https://www.linkedin.com/company/bitcoin-suisse-ag
-- https://www.facebook.com/BitcoinSuisse
+- 'https://www.linkedin.com/company/bitcoin-suisse-ag'
+- 'https://www.facebook.com/BitcoinSuisse'
 features: 
-developerName: Bitcoin Suisse
+developerName: 'Bitcoin Suisse'
 
 ---
 

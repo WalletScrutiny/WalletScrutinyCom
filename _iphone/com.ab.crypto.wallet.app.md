@@ -1,33 +1,33 @@
 ---
-wsId: aliceBobWallet
+wsId: 'aliceBobWallet'
 title: 'AliceBob Wallet: Send Bitcoin'
 altTitle: 
 authors:
-- danny
-appId: com.ab.crypto.wallet.app
-appCountry: us
+- 'danny'
+appId: 'com.ab.crypto.wallet.app'
+appCountry: 'us'
 idd: '6467197622'
-released: 2023-12-05
+released: '2023-12-05'
 updated: 2024-10-21
-version: 1.9.0
-stars: 4.4
+version: '1.9.0'
+stars: 4.35165
 reviews: 91
 size: '65944576'
-website: https://alicebob.com/
+website: 'https://alicebob.com/'
 repository: 
 issue: 
-icon: com.ab.crypto.wallet.app.jpg
+icon: 'com.ab.crypto.wallet.app.jpg'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-09-04
+date: '2024-09-04'
 signer: 
 reviewArchive: 
-twitter: alicebob_wallet
+twitter: 'alicebob_wallet'
 social: 
 features: 
-developerName: Alicebob LLC
+developerName: 'Alicebob LLC'
 
 ---
 

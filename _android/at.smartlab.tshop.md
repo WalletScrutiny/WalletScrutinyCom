@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: TabShop POS - Cash register
+title: 'TabShop POS - Cash register'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 500000
-appId: at.smartlab.tshop
+appId: 'at.smartlab.tshop'
 appCountry: 
-released: 2012-12-22
+released: '2012-12-22'
 updated: 2025-02-09
 version: '228'
 stars: 4
 ratings: 3750
 reviews: 261
-size: 
-website: https://tabshop.smartlab.at/
+website: 'https://tabshop.smartlab.at/'
 repository: 
 issue: 
-icon: at.smartlab.tshop.png
+icon: 'at.smartlab.tshop.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2021-11-01
+date: '2021-11-01'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: SmartLab
+developerName: 'SmartLab'
 features: 
 
 ---

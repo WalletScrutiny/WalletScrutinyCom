@@ -1,34 +1,33 @@
 ---
-wsId: Ibandirect
-title: Coincardi
+wsId: 'Ibandirect'
+title: 'Coincardi'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.ibandirect.card
-appCountry: sg
-released: 2020-11-08
+appId: 'com.ibandirect.card'
+appCountry: 'sg'
+released: '2020-11-08'
 updated: 2024-10-06
-version: 1.9.2
+version: '1.9.2'
 stars: 3
 ratings: 
 reviews: 
-size: 
-website: https://coincardi.com
+website: 'https://coincardi.com'
 repository: 
 issue: 
-icon: com.ibandirect.card.png
+icon: 'com.ibandirect.card.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2024-08-31
+date: '2024-08-31'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Ibandirect
+developerName: 'Ibandirect'
 features: 
 
 ---

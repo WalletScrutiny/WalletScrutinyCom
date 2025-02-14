@@ -1,35 +1,34 @@
 ---
-wsId: river
-title: River – Buy Bitcoin
+wsId: 'river'
+title: 'River – Buy Bitcoin'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.river.riverapp
+appId: 'com.river.riverapp'
 appCountry: 
-released: 2023-10-20
-updated: 2025-02-06
-version: 4.56.0
-stars: 4.6
+released: '2023-10-20'
+updated: 2025-02-13
+version: '4.68.4'
+stars: 4.7
 ratings: 
-reviews: 187
-size: 
-website: https://river.com/
+reviews: 188
+website: 'https://river.com/'
 repository: 
 issue: 
-icon: com.river.riverapp.png
+icon: 'com.river.riverapp.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-12-15
+date: '2023-12-15'
 signer: 
 reviewArchive: 
-twitter: River
+twitter: 'River'
 social:
-- https://www.linkedin.com/company/riverfinancial
+- 'https://www.linkedin.com/company/riverfinancial'
 redirect_from: 
-developerName: River Financial
+developerName: 'River Financial'
 features: 
 
 ---

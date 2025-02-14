@@ -9,9 +9,9 @@ authors:
 appId: net.bither
 appCountry: 
 idd: 899478936
-released: 2014-07-25
-updated: 2024-06-13
-version: 2.1.4
+released: '2014-07-25'
+updated: '2024-06-13'
+version: '2.1.4'
 stars: 3.1
 reviews: 60
 size: '14578688'
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: obfuscated
 appHashes: []
-date: 2024-10-09
+date: '2024-10-09'
 signer: 
 reviewArchive: 
 twitter: 

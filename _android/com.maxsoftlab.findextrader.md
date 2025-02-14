@@ -1,35 +1,35 @@
 ---
 wsId: 
-title: Finderex Trader
+title: 'Finderex Trader'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.maxsoftlab.findextrader
+appId: 'com.maxsoftlab.findextrader'
 appCountry: 
-released: 2022-11-07
-updated: 2023-12-25
-version: 1.3.14GMS
+released: '2022-11-07'
+updated: '2023-12-25'
+version: '1.3.14GMS'
 stars: 3.6
 ratings: 
 reviews: 
 size: 
-website: https://www.maxsoftlab.com
+website: 'https://www.maxsoftlab.com'
 repository: 
 issue: 
-icon: com.maxsoftlab.findextrader.png
+icon: 'com.maxsoftlab.findextrader.png'
 bugbounty: 
-meta: removed
-verdict: nosendreceive
+meta: 'removed'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2024-04-03
+date: '2024-04-03'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://findex-fx.com
+- 'https://findex-fx.com'
 redirect_from: 
-developerName: MAXSOFTLAB
+developerName: 'MAXSOFTLAB'
 features: 
 
 ---

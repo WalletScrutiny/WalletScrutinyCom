@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Nominex - Referral Program
+title: 'Nominex - Referral Program'
 altTitle: 
 authors: 
 users: 50
-appId: com.nominex.finance.referralprogram
+appId: 'com.nominex.finance.referralprogram'
 appCountry: 
-released: 2022-05-19
-updated: 2022-05-19
+released: '2022-05-19'
+updated: '2022-05-19'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://nominex.mygreat.app/
+website: 'https://nominex.mygreat.app/'
 repository: 
 issue: 
-icon: com.nominex.finance.referralprogram.png
+icon: 'com.nominex.finance.referralprogram.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
 twitter: 

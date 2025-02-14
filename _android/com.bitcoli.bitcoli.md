@@ -1,34 +1,33 @@
 ---
-wsId: bitcoli
-title: BitcoLi Lightning wallet
+wsId: 'bitcoli'
+title: 'BitcoLi Lightning wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.bitcoli.bitcoli
+appId: 'com.bitcoli.bitcoli'
 appCountry: 
-released: 2023-01-13
+released: '2023-01-13'
 updated: 2024-10-09
-version: 1.2.1
+version: '1.2.1'
 stars: 4.6
 ratings: 
 reviews: 6
-size: 
-website: https://BitcoLi.com
+website: 'https://BitcoLi.com'
 repository: 
 issue: 
-icon: com.bitcoli.bitcoli.jpg
+icon: 'com.bitcoli.bitcoli.jpg'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2024-02-28
+date: '2024-02-28'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: BitcoLi
+developerName: 'BitcoLi'
 features: 
 
 ---

@@ -7,9 +7,9 @@ authors:
 appId: com.coinbaazarDistribution
 appCountry: us
 idd: 1548921926
-released: 2021-01-25
-updated: 2023-12-19
-version: 1.2.5.1
+released: '2021-01-25'
+updated: '2023-12-19'
+version: '1.2.5.1'
 stars: 3.4
 reviews: 10
 size: '71207936'
@@ -21,7 +21,7 @@ bugbounty:
 meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-12-15
+date: '2024-12-15'
 signer: 
 reviewArchive: 
 twitter: coin_baazar

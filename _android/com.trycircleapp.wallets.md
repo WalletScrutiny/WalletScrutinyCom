@@ -1,34 +1,34 @@
 ---
-wsId: TheCircleWalletApp
-title: The Circle App Wallets
+wsId: 'TheCircleWalletApp'
+title: 'The Circle App Wallets'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.trycircleapp.wallets
-appCountry: us
-released: 2020-12-29
-updated: 2021-12-10
+appId: 'com.trycircleapp.wallets'
+appCountry: 'us'
+released: '2020-12-29'
+updated: '2021-12-10'
 version: '7.0'
 stars: 4.6
 ratings: 
 reviews: 
 size: 
-website: https://trycircleapp.com
+website: 'https://trycircleapp.com'
 repository: 
 issue: 
-icon: com.trycircleapp.wallets.png
+icon: 'com.trycircleapp.wallets.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2024-05-07
+date: '2024-05-07'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Rioni Marketing Management LLC
+developerName: 'Rioni Marketing Management LLC'
 features: 
 
 ---

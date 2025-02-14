@@ -1,40 +1,40 @@
 ---
-wsId: coindhan
+wsId: 'coindhan'
 title: 'Coindhan: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: www.coindhan.com
+appId: 'www.coindhan.com'
 appCountry: 
-released: 2021-09-05
-updated: 2024-04-07
+released: '2021-09-05'
+updated: '2024-04-07'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.coindhan.com
+website: 'https://www.coindhan.com'
 repository: 
 issue: 
-icon: www.coindhan.com.png
+icon: 'www.coindhan.com.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-10-03
+date: '2024-10-03'
 signer: 
 reviewArchive: 
-twitter: coin_dhan
+twitter: 'coin_dhan'
 social:
-- https://www.facebook.com/CoinDhanOfficial/
-- https://www.linkedin.com/company/coindhan/
-- https://t.me/coindhan/
-- https://www.instagram.com/coindhan/
-- https://www.youtube.com/channel/UCAPICkLqsUx1qTPa1RPQVUw
-- https://www.reddit.com/user/Coin_Dhan/
+- 'https://www.facebook.com/CoinDhanOfficial/'
+- 'https://www.linkedin.com/company/coindhan/'
+- 'https://t.me/coindhan/'
+- 'https://www.instagram.com/coindhan/'
+- 'https://www.youtube.com/channel/UCAPICkLqsUx1qTPa1RPQVUw'
+- 'https://www.reddit.com/user/Coin_Dhan/'
 redirect_from: 
-developerName: Wollfish Labs Private Limited
+developerName: 'Wollfish Labs Private Limited'
 features: 
 
 ---

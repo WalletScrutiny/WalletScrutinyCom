@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: TradeQ
+title: 'TradeQ'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.tradeq
+appId: 'com.tradeq'
 appCountry: 
-released: 2021-08-18
-updated: 2022-07-08
+released: '2021-08-18'
+updated: '2022-07-08'
 version: '6.1'
 stars: 
 ratings: 
@@ -17,19 +17,19 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.tradeq.png
+icon: 'com.tradeq.png'
 bugbounty: 
-meta: defunct
-verdict: nowallet
+meta: 'defunct'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-07-02
+date: '2023-07-02'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://www.tradeqs.com
+- 'https://www.tradeqs.com'
 redirect_from: 
-developerName: TradeQ
+developerName: 'TradeQ'
 features: 
 
 ---

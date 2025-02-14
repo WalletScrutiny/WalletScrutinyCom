@@ -1,35 +1,34 @@
 ---
-wsId: cryptoXpress
+wsId: 'cryptoXpress'
 title: 'CryptoXpress: Crypto Made Easy'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.cryptoxpressmobile
+appId: 'com.cryptoxpressmobile'
 appCountry: 
-released: 2021-09-20
+released: '2021-09-20'
 updated: 2024-10-31
-version: 1.40.4
+version: '1.40.4'
 stars: 4.7
 ratings: 
 reviews: 
-size: 
-website: https://cryptoxpress.com
+website: 'https://cryptoxpress.com'
 repository: 
 issue: 
-icon: com.cryptoxpressmobile.png
+icon: 'com.cryptoxpressmobile.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-04-21
+date: '2023-04-21'
 signer: 
 reviewArchive: 
-twitter: crypto_xpress
+twitter: 'crypto_xpress'
 social:
-- https://www.facebook.com/iamCryptoxpress/
+- 'https://www.facebook.com/iamCryptoxpress/'
 redirect_from: 
-developerName: CryptoXpress
+developerName: 'CryptoXpress'
 features: 
 
 ---

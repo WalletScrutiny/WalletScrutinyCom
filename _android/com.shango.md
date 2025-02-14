@@ -1,36 +1,36 @@
 ---
 wsId: 
-title: Shango Lightning Wallet
+title: 'Shango Lightning Wallet'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 1000
-appId: com.shango
+appId: 'com.shango'
 appCountry: 
 released: 
-updated: 2019-06-01
-version: Varies with device
+updated: '2019-06-01'
+version: 'Varies with device'
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
-website: http://www.shangoapp.com
+size: 'Varies with device'
+website: 'http://www.shangoapp.com'
 repository: 
-issue: https://github.com/neogeno/shango-lightning-wallet/issues/84
-icon: com.shango.png
+issue: 'https://github.com/neogeno/shango-lightning-wallet/issues/84'
+icon: 'com.shango.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2021-07-16
+date: '2021-07-16'
 signer: 
 reviewArchive: 
-twitter: shangoapp
+twitter: 'shangoapp'
 social:
-- https://www.facebook.com/shangoapp
+- 'https://www.facebook.com/shangoapp'
 redirect_from:
-- /com.shango/
-- /posts/com.shango/
+- '/com.shango/'
+- '/posts/com.shango/'
 developerName: 
 features: 
 

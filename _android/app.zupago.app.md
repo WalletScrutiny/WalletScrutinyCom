@@ -1,34 +1,34 @@
 ---
-wsId: ZuPago
-title: ViZO
+wsId: 'ZuPago'
+title: 'ViZO'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: app.zupago.app
-appCountry: us
-released: 2021-04-30
-updated: 2024-05-16
-version: 2.0.2
+appId: 'app.zupago.app'
+appCountry: 'us'
+released: '2021-04-30'
+updated: '2024-05-16'
+version: '2.0.2'
 stars: 4.7
 ratings: 221
 reviews: 22
 size: 
-website: https://vizo.app
+website: 'https://vizo.app'
 repository: 
 issue: 
-icon: app.zupago.app.png
+icon: 'app.zupago.app.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: ViZO
+developerName: 'ViZO'
 features: 
 
 ---

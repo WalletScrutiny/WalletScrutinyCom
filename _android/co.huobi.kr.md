@@ -1,35 +1,35 @@
 ---
-wsId: huobi_kr
-title: 후오비 코리아 - 가상자산 거래소(비트코인, 이더리움)
+wsId: 'huobi_kr'
+title: '후오비 코리아 - 가상자산 거래소(비트코인, 이더리움)'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: co.huobi.kr
-appCountry: cn
-released: 2018-04-12
-updated: 2023-08-09
-version: 3.8.8
+appId: 'co.huobi.kr'
+appCountry: 'cn'
+released: '2018-04-12'
+updated: '2023-08-09'
+version: '3.8.8'
 stars: 3
 ratings: 3505
 reviews: 752
 size: 
-website: https://www.huobi.co.kr
+website: 'https://www.huobi.co.kr'
 repository: 
 issue: 
-icon: co.huobi.kr.jpg
+icon: 'co.huobi.kr.jpg'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-02-05
+date: '2024-02-05'
 signer: 
 reviewArchive: 
-twitter: huobi_korea
+twitter: 'huobi_korea'
 social:
-- https://www.facebook.com/huobikorea
+- 'https://www.facebook.com/huobikorea'
 redirect_from: 
-developerName: Hb-korea
+developerName: 'Hb-korea'
 features: 
 
 ---

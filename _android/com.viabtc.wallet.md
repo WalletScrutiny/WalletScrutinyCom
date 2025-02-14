@@ -1,38 +1,37 @@
 ---
-wsId: ViaWallet
-title: CoinEx Wallet - Crypto & DeFi
+wsId: 'ViaWallet'
+title: 'CoinEx Wallet - Crypto & DeFi'
 altTitle: 
 authors:
-- leo
-- danny
+- 'leo'
+- 'danny'
 users: 100000
-appId: com.viabtc.wallet
+appId: 'com.viabtc.wallet'
 appCountry: 
-released: 2019-05-15
+released: '2019-05-15'
 updated: 2025-01-21
-version: 4.12.0
+version: '4.12.0'
 stars: 4.2
 ratings: 621
 reviews: 56
-size: 
-website: https://viawallet.com
+website: 'https://viawallet.com'
 repository: 
 issue: 
-icon: com.viabtc.wallet.png
+icon: 'com.viabtc.wallet.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-13
+date: '2024-07-13'
 signer: 
 reviewArchive: 
-twitter: viawallet
+twitter: 'viawallet'
 social:
-- https://www.facebook.com/ViaWallet
+- 'https://www.facebook.com/ViaWallet'
 redirect_from:
-- /com.viabtc.wallet/
-- /posts/com.viabtc.wallet/
-developerName: CoinEx
+- '/com.viabtc.wallet/'
+- '/posts/com.viabtc.wallet/'
+developerName: 'CoinEx'
 features: 
 
 ---

@@ -1,28 +1,28 @@
 ---
 wsId: 
-title: Portis - Multi Blockchain Wallet
+title: 'Portis - Multi Blockchain Wallet'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 1000
-appId: com.shiftshape.wallet
+appId: 'com.shiftshape.wallet'
 appCountry: 
-released: 2021-07-16
-updated: 2021-07-16
-version: 1.0.0
+released: '2021-07-16'
+updated: '2021-07-16'
+version: '1.0.0'
 stars: 4.7
 ratings: 71
 reviews: 18
-size: 5.6M
+size: '5.6M'
 website: 
 repository: 
 issue: 
-icon: com.shiftshape.wallet.png
+icon: 'com.shiftshape.wallet.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2021-08-31
+date: '2021-08-31'
 signer: 
 reviewArchive: 
 twitter: 

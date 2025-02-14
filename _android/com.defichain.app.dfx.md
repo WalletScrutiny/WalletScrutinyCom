@@ -1,37 +1,37 @@
 ---
-wsId: dfxDefichainWallet
-title: DFX DeFiChain Wallet
+wsId: 'dfxDefichainWallet'
+title: 'DFX DeFiChain Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.defichain.app.dfx
+appId: 'com.defichain.app.dfx'
 appCountry: 
-released: 2021-08-24
-updated: 2023-03-22
-version: 1.20.1
+released: '2021-08-24'
+updated: '2023-03-22'
+version: '1.20.1'
 stars: 3.5
 ratings: 
 reviews: 2
 size: 
-website: https://dfx.swiss/defichain/
+website: 'https://dfx.swiss/defichain/'
 repository: 
 issue: 
-icon: com.defichain.app.dfx.png
+icon: 'com.defichain.app.dfx.png'
 bugbounty: 
-meta: defunct
-verdict: nobtc
+meta: 'defunct'
+verdict: 'nobtc'
 appHashes: 
-date: 2023-08-04
+date: '2023-08-04'
 signer: 
 reviewArchive: 
-twitter: DFX_Swiss
+twitter: 'DFX_Swiss'
 social:
-- https://www.instagram.com/dfx.swiss/
-- https://www.linkedin.com/company/dfxswiss/
-- https://t.me/DFXswiss_en
+- 'https://www.instagram.com/dfx.swiss/'
+- 'https://www.linkedin.com/company/dfxswiss/'
+- 'https://t.me/DFXswiss_en'
 redirect_from: 
-developerName: DFX AG
+developerName: 'DFX AG'
 features: 
 
 ---

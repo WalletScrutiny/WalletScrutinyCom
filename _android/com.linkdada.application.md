@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: LinkDaDa
+title: 'LinkDaDa'
 altTitle: 
 authors: 
 users: 10000
-appId: com.linkdada.application
+appId: 'com.linkdada.application'
 appCountry: 
-released: 2021-04-13
-updated: 2021-06-18
-version: 1.4.2
+released: '2021-04-13'
+updated: '2021-06-18'
+version: '1.4.2'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.linkdada.com/
+website: 'https://www.linkdada.com/'
 repository: 
 issue: 
-icon: com.linkdada.application.png
+icon: 'com.linkdada.application.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
 twitter: 

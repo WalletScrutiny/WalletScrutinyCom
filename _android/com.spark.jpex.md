@@ -1,35 +1,34 @@
 ---
-wsId: JPEX
-title: JPEX Exchange
+wsId: 'JPEX'
+title: 'JPEX Exchange'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.spark.jpex
-appCountry: jp
-released: 2020-07-30
+appId: 'com.spark.jpex'
+appCountry: 'jp'
+released: '2020-07-30'
 updated: 2023-08-02
-version: 2.83.848
+version: '2.83.848'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: http://jp-ex.io
+website: 'http://jp-ex.io'
 repository: 
 issue: 
-icon: com.spark.jpex.jpg
+icon: 'com.spark.jpex.jpg'
 bugbounty: 
-meta: stale
-verdict: custodial
+meta: 'stale'
+verdict: 'custodial'
 appHashes: 
-date: 2024-07-30
+date: '2024-07-30'
 signer: 
 reviewArchive: 
-twitter: ExchangeJpex
+twitter: 'ExchangeJpex'
 social:
-- https://www.facebook.com/JPEX-Japan-Exchange-100535999063470
+- 'https://www.facebook.com/JPEX-Japan-Exchange-100535999063470'
 redirect_from: 
-developerName: JP-EX CRYPTO ASSET PLATFORM PTY LTD
+developerName: 'JP-EX CRYPTO ASSET PLATFORM PTY LTD'
 features: 
 
 ---

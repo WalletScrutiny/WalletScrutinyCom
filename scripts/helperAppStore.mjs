@@ -100,6 +100,7 @@ function updateFromApp (header, app) {
     : new Date(app.updated);
   header.released = header.released || app.released;
   header.stars = app.score;
+  if (header.stars) header.stars = Number(header.stars.toPrecision(2));
   header.reviews = app.reviews;
   header.size = app.size;
   header.website = app.developerWebsite || header.website || '';

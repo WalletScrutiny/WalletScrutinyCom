@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: AFIN Touch
+title: 'AFIN Touch'
 altTitle: 
 authors: 
 users: 100
-appId: kr.co.keypair.afintouch
+appId: 'kr.co.keypair.afintouch'
 appCountry: 
-released: 2018-10-04
-updated: 2019-12-27
-version: 1.0.0.60
+released: '2018-10-04'
+updated: '2019-12-27'
+version: '1.0.0.60'
 stars: 3.6
 ratings: 
 reviews: 
 size: 
-website: https://www.afincoin.io/
+website: 'https://www.afincoin.io/'
 repository: 
 issue: 
-icon: kr.co.keypair.afintouch.png
+icon: 'kr.co.keypair.afintouch.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-09-08
+date: '2024-09-08'
 signer: 
 reviewArchive: 
-twitter: AfinCoin
+twitter: 'AfinCoin'
 social:
-- https://www.facebook.com/asianfintech
+- 'https://www.facebook.com/asianfintech'
 redirect_from: 
-developerName: Keypair Co., Ltd.
+developerName: 'Keypair Co., Ltd.'
 features: 
 
 ---

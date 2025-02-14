@@ -1,35 +1,34 @@
 ---
-wsId: DopamineBitcoin
-title: DOPAMINE - Bitcoin & Crypto
+wsId: 'DopamineBitcoin'
+title: 'DOPAMINE - Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000000
-appId: com.kyriakosalexandrou.coinmarketcap
-appCountry: us
-released: 2015-05-16
+appId: 'com.kyriakosalexandrou.coinmarketcap'
+appCountry: 'us'
+released: '2015-05-16'
 updated: 2024-12-02
-version: 15.17.1
+version: '15.17.1'
 stars: 3.8
 ratings: 26669
 reviews: 1389
-size: 
-website: https://www.dopamineapp.com
+website: 'https://www.dopamineapp.com'
 repository: 
 issue: 
-icon: com.kyriakosalexandrou.coinmarketcap.jpg
+icon: 'com.kyriakosalexandrou.coinmarketcap.jpg'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-16
+date: '2024-07-16'
 signer: 
 reviewArchive: 
-twitter: mydopamineapp
+twitter: 'mydopamineapp'
 social:
-- https://www.facebook.com/myDopamineApp
+- 'https://www.facebook.com/myDopamineApp'
 redirect_from: 
-developerName: Dopamine Crypto App - Bitcoin Ethereum Solana more
+developerName: 'Dopamine Crypto App - Bitcoin Ethereum Solana more'
 features: 
 
 ---

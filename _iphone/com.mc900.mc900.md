@@ -7,9 +7,9 @@ authors:
 appId: com.mc900.mc900
 appCountry: us
 idd: '1639509598'
-released: 2022-09-09
-updated: 2024-02-28
-version: 2.6.7
+released: '2022-09-09'
+updated: '2024-02-28'
+version: '2.6.7'
 stars: 5
 reviews: 1
 size: '73273344'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2023-07-06
+date: '2023-07-06'
 signer: 
 reviewArchive: 
 twitter: 

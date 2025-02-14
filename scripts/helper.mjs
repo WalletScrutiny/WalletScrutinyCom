@@ -107,10 +107,16 @@ function migrateFile (categoryHelper, file, migration, defaultHeader) {
 function loadFromFile (file, outHeaderAndBody = { header: {}, body: '' }) {
   try {
     var parts = fs.readFileSync(file, 'utf8').split('---\n');
-    const header = yaml.load(parts[1]);
+    const header = yaml.load(parts[1], { schema: yaml.FAILSAFE_SCHEMA });
     outHeaderAndBody.header = outHeaderAndBody.header || {};
     Object.keys(header).forEach(k => {
       outHeaderAndBody.header[k] = header[k];
+
+      // Convert numeric fields from string to number if possible
+      const numericFields = ['ratings', 'stars', 'users', 'reviews'];
+      if (numericFields.includes(k) && typeof header[k] === 'string' && !isNaN(header[k])) {
+        outHeaderAndBody.header[k] = Number(header[k]);
+      }
     });
     outHeaderAndBody.body = parts.slice(2).join('---\n').replace(/^\s*[\r\n]/g, '');
     return outHeaderAndBody;
@@ -176,7 +182,9 @@ function getResult (header, body) {
   return `---
 ${yaml.dump(header, {
   noArrayIndent: true,
-  schema: schema
+  schema: schema,
+  quotingType: "'",
+  forceQuotes: true
 })}
 ---
 

@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: Black Wallet
+title: 'Black Wallet'
 altTitle: 
 authors: 
 users: 1000
-appId: com.blackwallet
+appId: 'com.blackwallet'
 appCountry: 
-released: 2022-11-29
-updated: 2023-05-02
+released: '2022-11-29'
+updated: '2023-05-02'
 version: '1.1'
 stars: 3.7
 ratings: 
 reviews: 4
 size: 
-website: https://blackproject.tech/
+website: 'https://blackproject.tech/'
 repository: 
 issue: 
-icon: com.blackwallet.png
+icon: 'com.blackwallet.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2023-08-04
+date: '2023-08-04'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: WAPCENTR.COM
+developerName: 'WAPCENTR.COM'
 features: 
 
 ---

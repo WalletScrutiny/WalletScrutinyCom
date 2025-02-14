@@ -1,37 +1,37 @@
 ---
 wsId: 
-title: VAEX
+title: 'VAEX'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.chainup.exchange.VAEX
+appId: 'com.chainup.exchange.VAEX'
 appCountry: 
-released: 2022-02-09
-updated: 2023-02-02
-version: 5.6.5_push_v2
+released: '2022-02-09'
+updated: '2023-02-02'
+version: '5.6.5_push_v2'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://vaex.tech/
+website: 'https://vaex.tech/'
 repository: 
 issue: 
-icon: com.chainup.exchange.VAEX.png
+icon: 'com.chainup.exchange.VAEX.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
-twitter: VaexExchange
+twitter: 'VaexExchange'
 social:
-- https://www.instagram.com/vaex2022/
-- https://t.me/Vaex_Exchange
-- https://www.youtube.com/channel/UCMnSpZVuwQROa2KWjizqQdw
+- 'https://www.instagram.com/vaex2022/'
+- 'https://t.me/Vaex_Exchange'
+- 'https://www.youtube.com/channel/UCMnSpZVuwQROa2KWjizqQdw'
 redirect_from: 
-developerName: VAEX
+developerName: 'VAEX'
 features: 
 
 ---

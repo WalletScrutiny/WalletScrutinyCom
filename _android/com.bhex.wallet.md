@@ -1,33 +1,33 @@
 ---
-wsId: bhWallet
-title: Bluehelix Wallet
+wsId: 'bhWallet'
+title: 'Bluehelix Wallet'
 altTitle: 
 authors:
-- danny
-- emanuel
-- leo
+- 'danny'
+- 'emanuel'
+- 'leo'
 users: 100
-appId: com.bhex.wallet
-appCountry: us
-released: 2021-07-07
-updated: 2021-09-19
-version: 1.3.5
+appId: 'com.bhex.wallet'
+appCountry: 'us'
+released: '2021-07-07'
+updated: '2021-09-19'
+version: '1.3.5'
 stars: 3.7
 ratings: 6
 reviews: 4
-size: 22M
-website: https://www.bhexchain.com/
+size: '22M'
+website: 'https://www.bhexchain.com/'
 repository: 
-issue: https://github.com/bluehelix-chain/wallet-android/issues/4
-icon: com.bhex.wallet.png
+issue: 'https://github.com/bluehelix-chain/wallet-android/issues/4'
+icon: 'com.bhex.wallet.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2022-03-16
+date: '2022-03-16'
 signer: 
 reviewArchive: 
-twitter: BHEXOfficial
+twitter: 'BHEXOfficial'
 social: 
 redirect_from: 
 developerName: 

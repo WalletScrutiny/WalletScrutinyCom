@@ -1,34 +1,34 @@
 ---
-wsId: Bolsa
-title: Paper Trading School & Game
+wsId: 'Bolsa'
+title: 'Paper Trading School & Game'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.tiim.gooptions
-appCountry: us
-released: 2017-08-04
-updated: 2021-09-30
-version: 1.4.2
+appId: 'com.tiim.gooptions'
+appCountry: 'us'
+released: '2017-08-04'
+updated: '2021-09-30'
+version: '1.4.2'
 stars: 4.3
 ratings: 261
 reviews: 14
 size: 
-website: https://bolsa.app
+website: 'https://bolsa.app'
 repository: 
 issue: 
-icon: com.tiim.gooptions.png
+icon: 'com.tiim.gooptions.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-10-08
+date: '2024-10-08'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Go Forex
+developerName: 'Go Forex'
 features: 
 
 ---

@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: MegaO
+title: 'MegaO'
 altTitle: 
 authors: 
 users: 100
-appId: io.megao
+appId: 'io.megao'
 appCountry: 
-released: 2021-12-07
-updated: 2022-04-07
-version: 1.0.4
+released: '2021-12-07'
+updated: '2022-04-07'
+version: '1.0.4'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://megao.io/
+website: 'https://megao.io/'
 repository: 
 issue: 
-icon: io.megao.png
+icon: 'io.megao.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-04-19
+date: '2024-04-19'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: MEGAO LTD
+developerName: 'MEGAO LTD'
 features: 
 
 ---

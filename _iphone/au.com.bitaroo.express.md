@@ -1,36 +1,36 @@
 ---
-wsId: bitarooexpress
-title: Bitaroo Express - Buy Bitcoin
+wsId: 'bitarooexpress'
+title: 'Bitaroo Express - Buy Bitcoin'
 altTitle: 
 authors:
-- danny
-appId: au.com.bitaroo.express
-appCountry: au
+- 'danny'
+appId: 'au.com.bitaroo.express'
+appCountry: 'au'
 idd: '6444825898'
-released: 2022-12-20
+released: '2022-12-20'
 updated: 2025-02-12
-version: 2.1.5
-stars: 4.8
+version: '2.1.5'
+stars: 4.77778
 reviews: 9
 size: '45819904'
-website: https://www.bitaroo.com.au/
+website: 'https://www.bitaroo.com.au/'
 repository: 
 issue: 
-icon: au.com.bitaroo.express.jpg
+icon: 'au.com.bitaroo.express.jpg'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2024-09-05
+date: '2024-09-05'
 signer: 
 reviewArchive: 
-twitter: BitarooExchange
+twitter: 'BitarooExchange'
 social:
-- https://www.youtube.com/@bitarooexchange
-- https://www.linkedin.com/company/bitaroo/
-- https://www.reddit.com/r/Bitaroo/
+- 'https://www.youtube.com/@bitarooexchange'
+- 'https://www.linkedin.com/company/bitaroo/'
+- 'https://www.reddit.com/r/Bitaroo/'
 features: 
-developerName: Bitaroo
+developerName: 'Bitaroo'
 
 ---
 

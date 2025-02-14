@@ -4,30 +4,30 @@ title: 'Alfacash: Bitcoin DeFi Wallet'
 altTitle: 
 authors: 
 users: 500
-appId: com.alfacash.alfacashier.alfacash
+appId: 'com.alfacash.alfacashier.alfacash'
 appCountry: 
-released: 2022-12-23
-updated: 2023-11-22
-version: 1.11.8
+released: '2022-12-23'
+updated: '2023-11-22'
+version: '1.11.8'
 stars: 4.4
 ratings: 
 reviews: 
 size: 
-website: https://wallet.alfa.cash/
+website: 'https://wallet.alfa.cash/'
 repository: 
 issue: 
-icon: com.alfacash.alfacashier.alfacash.png
+icon: 'com.alfacash.alfacashier.alfacash.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-08-07
+date: '2024-08-07'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Alfa East Ltd.
+developerName: 'Alfa East Ltd.'
 features: 
 
 ---

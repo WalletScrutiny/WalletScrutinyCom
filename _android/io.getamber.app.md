@@ -1,37 +1,36 @@
 ---
-wsId: amberAppWallet
-title: AmberApp
+wsId: 'amberAppWallet'
+title: 'AmberApp'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: io.getamber.app
+appId: 'io.getamber.app'
 appCountry: 
-released: 2021-06-21
+released: '2021-06-21'
 updated: 2024-12-10
-version: 5.5.3
+version: '5.5.3'
 stars: 4.4
 ratings: 
 reviews: 26
-size: 
-website: http://amber.app
+website: 'http://amber.app'
 repository: 
 issue: 
-icon: io.getamber.app.png
+icon: 'io.getamber.app.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-07-17
+date: '2023-07-17'
 signer: 
 reviewArchive: 
-twitter: theamberapp
+twitter: 'theamberapp'
 social:
-- https://www.facebook.com/theamberapp
-- https://www.instagram.com/amber.app
-- https://t.me/theamberapp
+- 'https://www.facebook.com/theamberapp'
+- 'https://www.instagram.com/amber.app'
+- 'https://t.me/theamberapp'
 redirect_from: 
-developerName: AmberApp
+developerName: 'AmberApp'
 features: 
 
 ---

@@ -1,37 +1,37 @@
 ---
-wsId: Airbitz
-title: Bitcoin Wallet - Airbitz
+wsId: 'Airbitz'
+title: 'Bitcoin Wallet - Airbitz'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 100000
-appId: com.airbitz
+appId: 'com.airbitz'
 appCountry: 
-released: 2014-04-01
-updated: 2018-09-21
-version: 2.4.12
+released: '2014-04-01'
+updated: '2018-09-21'
+version: '2.4.12'
 stars: 3.4
 ratings: 1150
 reviews: 490
-size: 16M
-website: https://airbitz.co
-repository: https://github.com/EdgeApp/airbitz-android-gui
-issue: https://github.com/EdgeApp/airbitz-android-gui/issues/21
-icon: com.airbitz.png
+size: '16M'
+website: 'https://airbitz.co'
+repository: 'https://github.com/EdgeApp/airbitz-android-gui'
+issue: 'https://github.com/EdgeApp/airbitz-android-gui/issues/21'
+icon: 'com.airbitz.png'
 bugbounty: 
-meta: removed
-verdict: ftbfs
+meta: 'removed'
+verdict: 'ftbfs'
 appHashes: 
-date: 2021-12-29
+date: '2021-12-29'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from:
-- /airbitz/
-- /com.airbitz/
-- /posts/2019/11/airbitz/
-- /posts/com.airbitz/
+- '/airbitz/'
+- '/com.airbitz/'
+- '/posts/2019/11/airbitz/'
+- '/posts/com.airbitz/'
 developerName: 
 features: 
 

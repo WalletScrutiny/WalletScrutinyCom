@@ -7,9 +7,9 @@ authors:
 appId: com.blockfolio.blockfolio
 appCountry: us
 idd: 1095564685
-released: 2017-01-05
-updated: 2022-06-02
-version: 4.10.1
+released: '2017-01-05'
+updated: '2022-06-02'
+version: '4.10.1'
 stars: 4.8
 reviews: 54939
 size: '83919872'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-01-11
+date: '2023-01-11'
 signer: 
 reviewArchive: 
 twitter: Blockfolio

@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: KaiserWallet2 - Cold wallet, H
+title: 'KaiserWallet2 - Cold wallet, H'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: io.kaiser.kaiserwallet2
+appId: 'io.kaiser.kaiserwallet2'
 appCountry: 
-released: 2018-10-03
-updated: 2022-11-12
-version: 2.9.11
+released: '2018-10-03'
+updated: '2022-11-12'
+version: '2.9.11'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://bizblocks.io
+website: 'https://bizblocks.io'
 repository: 
 issue: 
-icon: io.kaiser.kaiserwallet2.png
+icon: 'io.kaiser.kaiserwallet2.png'
 bugbounty: 
-meta: defunct
-verdict: wip
+meta: 'defunct'
+verdict: 'wip'
 appHashes: 
-date: 2023-08-08
+date: '2023-08-08'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Bizblocks
+developerName: 'Bizblocks'
 features: 
 
 ---

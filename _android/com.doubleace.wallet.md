@@ -1,35 +1,35 @@
 ---
-wsId: aceEwallet
-title: ACE eWallet
+wsId: 'aceEwallet'
+title: 'ACE eWallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.doubleace.wallet
+appId: 'com.doubleace.wallet'
 appCountry: 
 released: 
-updated: 2023-06-05
-version: 1.3.12
+updated: '2023-06-05'
+version: '1.3.12'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://acewallet.finance/
+website: 'https://acewallet.finance/'
 repository: 
 issue: 
-icon: com.doubleace.wallet.png
+icon: 'com.doubleace.wallet.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-11-02
+date: '2023-11-02'
 signer: 
 reviewArchive: 
-twitter: DAAFinance
+twitter: 'DAAFinance'
 social:
-- https://www.facebook.com/aceewallet
+- 'https://www.facebook.com/aceewallet'
 redirect_from: 
-developerName: Maxi Anchor SDN BHD
+developerName: 'Maxi Anchor SDN BHD'
 features: 
 
 ---

@@ -7,9 +7,9 @@ authors:
 appId: com.deribit
 appCountry: in
 idd: '1293674041'
-released: 2017-11-17
-updated: 2025-02-04
-version: 3.13.0
+released: '2017-11-17'
+updated: '2025-02-04'
+version: '3.13.0'
 stars: 5
 reviews: 4
 size: '48648192'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2024-10-07
+date: '2024-10-07'
 signer: 
 reviewArchive: 
 twitter: deribitexchange

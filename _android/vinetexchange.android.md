@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: Vinetexchange:Sell btc, skrill
+title: 'Vinetexchange:Sell btc, skrill'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: vinetexchange.android
+appId: 'vinetexchange.android'
 appCountry: 
-released: 2022-08-26
+released: '2022-08-26'
 updated: 2024-06-19
-version: 1.0.6
+version: '1.0.6'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://vinetexchange.com
+website: 'https://vinetexchange.com'
 repository: 
 issue: 
-icon: vinetexchange.android.jpg
+icon: 'vinetexchange.android.jpg'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-06-23
+date: '2024-06-23'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Randoapps
+developerName: 'Randoapps'
 features: 
 
 ---

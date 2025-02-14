@@ -7,8 +7,8 @@ authors:
 appId: com.union.cash
 appCountry: de
 idd: '1576165600'
-released: 2021-07-14
-updated: 2024-04-07
+released: '2021-07-14'
+updated: '2024-04-07'
 version: '1.40'
 stars: 0
 reviews: 0
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2024-10-07
+date: '2024-10-07'
 signer: 
 reviewArchive: 
 twitter: 

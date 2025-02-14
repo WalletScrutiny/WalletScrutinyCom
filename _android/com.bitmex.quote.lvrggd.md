@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 실시간 가상화폐 비트맥스 시세 - 차트
+title: '실시간 가상화폐 비트맥스 시세 - 차트'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.bitmex.quote.lvrggd
+appId: 'com.bitmex.quote.lvrggd'
 appCountry: 
-released: 2018-09-14
+released: '2018-09-14'
 updated: 2024-07-12
 version: '1.8'
 stars: 4.3
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: com.bitmex.quote.lvrggd.png
+icon: 'com.bitmex.quote.lvrggd.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-09-04
+date: '2023-09-04'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: BITbit
+developerName: 'BITbit'
 features: 
 
 ---

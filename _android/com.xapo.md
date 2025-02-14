@@ -1,38 +1,38 @@
 ---
-wsId: xapo
-title: Xapo
+wsId: 'xapo'
+title: 'Xapo'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 1000000
-appId: com.xapo
+appId: 'com.xapo'
 appCountry: 
-released: 2014-04-01
-updated: 2021-07-20
+released: '2014-04-01'
+updated: '2021-07-20'
 version: '5.34'
 stars: 3.4
 ratings: 45937
 reviews: 21922
-size: 103M
-website: https://xapo.com
+size: '103M'
+website: 'https://xapo.com'
 repository: 
 issue: 
-icon: com.xapo.png
+icon: 'com.xapo.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2021-08-06
+date: '2021-08-06'
 signer: 
 reviewArchive: 
-twitter: xapo
+twitter: 'xapo'
 social:
-- https://www.facebook.com/xapoapp
+- 'https://www.facebook.com/xapoapp'
 redirect_from:
-- /xapo/
-- /com.xapo/
-- /posts/2019/11/xapo/
-- /posts/com.xapo/
+- '/xapo/'
+- '/com.xapo/'
+- '/posts/2019/11/xapo/'
+- '/posts/com.xapo/'
 developerName: 
 features: 
 

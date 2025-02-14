@@ -4,24 +4,24 @@ title: 'Safesmart: Crypto & Bitcoin Wallet (Early Access)'
 altTitle: 
 authors: 
 users: 100
-appId: com.e.tswallet
+appId: 'com.e.tswallet'
 appCountry: 
-released: 2021-07-20
-updated: 2021-07-20
+released: '2021-07-20'
+updated: '2021-07-20'
 version: '1.0'
 stars: 4.9
 ratings: 9
 reviews: 3
-size: 2.0M
+size: '2.0M'
 website: 
 repository: 
 issue: 
-icon: com.e.tswallet.png
+icon: 'com.e.tswallet.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-11-10
+date: '2021-11-10'
 signer: 
 reviewArchive: 
 twitter: 

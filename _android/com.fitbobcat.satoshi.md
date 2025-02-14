@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Satoshi Wallet App
+title: 'Satoshi Wallet App'
 altTitle: 
 authors: 
 users: 5000
-appId: com.fitbobcat.satoshi
+appId: 'com.fitbobcat.satoshi'
 appCountry: 
-released: 2018-01-16
-updated: 2018-01-16
+released: '2018-01-16'
+updated: '2018-01-16'
 version: '1.0'
 stars: 3.6
 ratings: 25
 reviews: 15
-size: 3.0M
-website: https://www.satoshiera.com
+size: '3.0M'
+website: 'https://www.satoshiera.com'
 repository: 
 issue: 
-icon: com.fitbobcat.satoshi.png
+icon: 'com.fitbobcat.satoshi.png'
 bugbounty: 
-meta: removed
-verdict: nobtc
+meta: 'removed'
+verdict: 'nobtc'
 appHashes: 
-date: 2021-06-08
+date: '2021-06-08'
 signer: 
 reviewArchive: 
 twitter: 

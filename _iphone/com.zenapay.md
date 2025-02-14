@@ -7,8 +7,8 @@ authors:
 appId: com.zenapay
 appCountry: jp
 idd: '1292806306'
-released: 2017-10-26
-updated: 2024-07-02
+released: '2017-10-26'
+updated: '2024-07-02'
 version: '5.2'
 stars: 0
 reviews: 0
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: 2024-10-07
+date: '2024-10-07'
 signer: 
 reviewArchive: 
 twitter: 

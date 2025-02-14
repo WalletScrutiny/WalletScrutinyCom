@@ -1,36 +1,35 @@
 ---
-wsId: balletcrypto
-title: Ballet Crypto
+wsId: 'balletcrypto'
+title: 'Ballet Crypto'
 altTitle: 
 authors: 
 users: 10000
-appId: com.balletcrypto
+appId: 'com.balletcrypto'
 appCountry: 
-released: 2019-08-08
+released: '2019-08-08'
 updated: 2025-01-03
-version: 2.18.6
+version: '2.18.6'
 stars: 4.8
 ratings: 658
 reviews: 145
-size: 
-website: https://www.balletcrypto.com/
+website: 'https://www.balletcrypto.com/'
 repository: 
 issue: 
-icon: com.balletcrypto.png
+icon: 'com.balletcrypto.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-15
+date: '2024-07-15'
 signer: 
 reviewArchive: 
-twitter: BalletCrypto
+twitter: 'BalletCrypto'
 social:
-- https://www.linkedin.com/company/balletcrypto
-- https://www.facebook.com/balletcrypto.global
-- https://www.reddit.com/r/BalletCrypto
+- 'https://www.linkedin.com/company/balletcrypto'
+- 'https://www.facebook.com/balletcrypto.global'
+- 'https://www.reddit.com/r/BalletCrypto'
 redirect_from: 
-developerName: Ballet Global Inc.
+developerName: 'Ballet Global Inc.'
 features: 
 
 ---

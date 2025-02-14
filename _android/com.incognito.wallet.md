@@ -1,35 +1,35 @@
 ---
-wsId: incognito
-title: Incognito Bitcoin Wallet
+wsId: 'incognito'
+title: 'Incognito Bitcoin Wallet'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 10000
-appId: com.incognito.wallet
+appId: 'com.incognito.wallet'
 appCountry: 
-released: 2019-08-12
-updated: 2023-09-07
-version: 5.14.0
+released: '2019-08-12'
+updated: '2023-09-07'
+version: '5.14.0'
 stars: 3.9
 ratings: 344
 reviews: 64
 size: 
-website: https://incognito.org/
-repository: https://github.com/incognitochain/incognito-wallet
-issue: https://github.com/incognitochain/incognito-wallet/issues/1422
-icon: com.incognito.wallet.png
+website: 'https://incognito.org/'
+repository: 'https://github.com/incognitochain/incognito-wallet'
+issue: 'https://github.com/incognitochain/incognito-wallet/issues/1422'
+icon: 'com.incognito.wallet.png'
 bugbounty: 
-meta: removed
-verdict: nonverifiable
+meta: 'removed'
+verdict: 'nonverifiable'
 appHashes: 
-date: 2024-05-18
+date: '2024-05-18'
 signer: 
 reviewArchive: 
-twitter: incognitochain
+twitter: 'incognitochain'
 social: 
 redirect_from:
-- /com.incognito.wallet/
-developerName: Incognito Core Development Team
+- '/com.incognito.wallet/'
+developerName: 'Incognito Core Development Team'
 features: 
 
 ---

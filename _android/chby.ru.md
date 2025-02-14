@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: chby.ru
+title: 'chby.ru'
 altTitle: 
 authors: 
 users: 100
-appId: chby.ru
+appId: 'chby.ru'
 appCountry: 
-released: 2018-12-19
-updated: 2020-01-13
-version: 1.0.5
+released: '2018-12-19'
+updated: '2020-01-13'
+version: '1.0.5'
 stars: 1.4
 ratings: 8
 reviews: 7
-size: 5.7M
+size: '5.7M'
 website: 
 repository: 
 issue: 
-icon: chby.ru.png
+icon: 'chby.ru.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-10-18
+date: '2021-10-18'
 signer: 
 reviewArchive: 
 twitter: 

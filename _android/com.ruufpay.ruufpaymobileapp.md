@@ -1,37 +1,37 @@
 ---
-wsId: ruufPayWallet
-title: RuufPay Crypto Pay Swap Wallet
+wsId: 'ruufPayWallet'
+title: 'RuufPay Crypto Pay Swap Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.ruufpay.ruufpaymobileapp
+appId: 'com.ruufpay.ruufpaymobileapp'
 appCountry: 
-released: 2022-05-31
-updated: 2023-09-29
-version: 1.7.7
+released: '2022-05-31'
+updated: '2023-09-29'
+version: '1.7.7'
 stars: 4.6
 ratings: 
 reviews: 11
 size: 
-website: https://ruufpay.app
+website: 'https://ruufpay.app'
 repository: 
 issue: 
-icon: com.ruufpay.ruufpaymobileapp.png
+icon: 'com.ruufpay.ruufpaymobileapp.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2024-10-23
+date: '2024-10-23'
 signer: 
 reviewArchive: 
-twitter: ruufpay
+twitter: 'ruufpay'
 social:
-- https://www.linkedin.com/company/ruufpay
-- https://www.facebook.com/ruufpay
-- https://www.instagram.com/ruufpay/
+- 'https://www.linkedin.com/company/ruufpay'
+- 'https://www.facebook.com/ruufpay'
+- 'https://www.instagram.com/ruufpay/'
 redirect_from: 
-developerName: RuufPay
+developerName: 'RuufPay'
 features: 
 
 ---

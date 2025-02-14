@@ -1,34 +1,33 @@
 ---
-wsId: snowballDeFi
+wsId: 'snowballDeFi'
 title: 'Snowball: Smart DeFi wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: money.snowball.defi
+appId: 'money.snowball.defi'
 appCountry: 
-released: 2020-09-30
+released: '2020-09-30'
 updated: 2024-09-17
-version: 3.5.1
+version: '3.5.1'
 stars: 4.2
 ratings: 
 reviews: 11
-size: 
-website: https://www.snowball.money/
+website: 'https://www.snowball.money/'
 repository: 
 issue: 
-icon: money.snowball.defi.jpg
+icon: 'money.snowball.defi.jpg'
 bugbounty: 
-meta: ok
-verdict: nobtc
+meta: 'ok'
+verdict: 'nobtc'
 appHashes: 
-date: 2023-04-15
+date: '2023-04-15'
 signer: 
 reviewArchive: 
-twitter: snowball_money
+twitter: 'snowball_money'
 social: 
 redirect_from: 
-developerName: Snowball Money
+developerName: 'Snowball Money'
 features: 
 
 ---

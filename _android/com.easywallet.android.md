@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Easy Bitcoin Wallet
+title: 'Easy Bitcoin Wallet'
 altTitle: 
 authors: 
 users: 100
-appId: com.easywallet.android
+appId: 'com.easywallet.android'
 appCountry: 
-released: 2021-11-08
-updated: 2021-11-08
-version: 1.0.0
+released: '2021-11-08'
+updated: '2021-11-08'
+version: '1.0.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://easywallet.me
+website: 'https://easywallet.me'
 repository: 
 issue: 
-icon: com.easywallet.android.png
+icon: 'com.easywallet.android.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
 twitter: 

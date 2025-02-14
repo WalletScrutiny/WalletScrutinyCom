@@ -1,37 +1,36 @@
 ---
-wsId: iconomi
+wsId: 'iconomi'
 title: 'ICONOMI: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: net.iconomi.android
-appCountry: si
-released: 2017-10-17
+appId: 'net.iconomi.android'
+appCountry: 'si'
+released: '2017-10-17'
 updated: 2025-01-25
-version: 3.8.10
+version: '3.8.10'
 stars: 3.8
 ratings: 291
 reviews: 168
-size: 
-website: https://www.iconomi.com
+website: 'https://www.iconomi.com'
 repository: 
 issue: 
-icon: net.iconomi.android.png
+icon: 'net.iconomi.android.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-10-04
+date: '2021-10-04'
 signer: 
 reviewArchive: 
-twitter: iconomicom
+twitter: 'iconomicom'
 social:
-- https://www.linkedin.com/company/iconominet
-- https://www.facebook.com/iconomicom
-- https://www.reddit.com/r/ICONOMI
+- 'https://www.linkedin.com/company/iconominet'
+- 'https://www.facebook.com/iconomicom'
+- 'https://www.reddit.com/r/ICONOMI'
 redirect_from: 
-developerName: ICONOMI
+developerName: 'ICONOMI'
 features: 
 
 ---

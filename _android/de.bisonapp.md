@@ -1,37 +1,35 @@
 ---
-wsId: bison
-title: BISON - Buy Bitcoin & Co
+wsId: 'bison'
+title: 'BISON - Buy Bitcoin & Co'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: de.bisonapp
+appId: 'de.bisonapp'
 appCountry: 
-released: 
 updated: 2025-02-05
-version: 4.6.0
+version: '4.6.0'
 stars: 4.6
 ratings: 
 reviews: 3
-size: 
-website: https://bisonapp.com
+website: 'https://bisonapp.com'
 repository: 
 issue: 
-icon: de.bisonapp.png
+icon: 'de.bisonapp.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2024-09-05
+date: '2024-09-05'
 signer: 
 reviewArchive: 
-twitter: bisonapp
+twitter: 'bisonapp'
 social:
-- https://www.linkedin.com/company/bison-app
-- https://www.facebook.com/bisonapp
-- https://www.instagram.com/bisonapp
+- 'https://www.linkedin.com/company/bison-app'
+- 'https://www.facebook.com/bisonapp'
+- 'https://www.instagram.com/bisonapp'
 redirect_from: 
-developerName: Boerse Stuttgart Digital Broker GmbH
+developerName: 'Boerse Stuttgart Digital Broker GmbH'
 features: 
 
 ---

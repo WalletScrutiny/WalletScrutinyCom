@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: nowallet
 appHashes: 
-date: 2022-05-18
+date: '2022-05-18'
 signer: 
 reviewArchive: 
 twitter: 

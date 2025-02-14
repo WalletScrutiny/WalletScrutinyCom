@@ -1,37 +1,36 @@
 ---
-wsId: weexTrade
+wsId: 'weexTrade'
 title: 'WEEX: Trade Bitcoin & Futures'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.wake.weexprd
+appId: 'com.wake.weexprd'
 appCountry: 
-released: 2022-02-23
+released: '2022-02-23'
 updated: 2025-02-06
-version: 4.3.4
+version: '4.3.4'
 stars: 3
 ratings: 
 reviews: 55
-size: 
-website: https://www.weex.com
+website: 'https://www.weex.com'
 repository: 
 issue: 
-icon: com.wake.weexprd.png
+icon: 'com.wake.weexprd.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-08-17
+date: '2023-08-17'
 signer: 
 reviewArchive: 
-twitter: WEEX_Official
+twitter: 'WEEX_Official'
 social:
-- https://www.facebook.com/WEEXGlobal
-- https://t.me/Weex_Global
-- https://www.linkedin.com/company/weex-global
+- 'https://www.facebook.com/WEEXGlobal'
+- 'https://t.me/Weex_Global'
+- 'https://www.linkedin.com/company/weex-global'
 redirect_from: 
-developerName: WEEX PRO
+developerName: 'WEEX PRO'
 features: 
 
 ---

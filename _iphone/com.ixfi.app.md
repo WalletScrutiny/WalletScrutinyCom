@@ -7,9 +7,9 @@ authors:
 appId: com.ixfi.app
 appCountry: ro
 idd: '1614823165'
-released: 2022-03-22
-updated: 2025-01-23
-version: 1.7.20
+released: '2022-03-22'
+updated: '2025-01-23'
+version: '1.7.20'
 stars: 4.9
 reviews: 98
 size: '258444288'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2023-07-08
+date: '2023-07-08'
 signer: 
 reviewArchive: 
 twitter: ixfiexchange

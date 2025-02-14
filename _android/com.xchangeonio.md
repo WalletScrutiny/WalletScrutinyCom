@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: XchangeOn
+title: 'XchangeOn'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.xchangeonio
+appId: 'com.xchangeonio'
 appCountry: 
-released: 2022-11-15
-updated: 2023-03-16
-version: 1.1.2
+released: '2022-11-15'
+updated: '2023-03-16'
+version: '1.1.2'
 stars: 2.4
 ratings: 
 reviews: 7
 size: 
-website: https://www.xchangeon.io/
+website: 'https://www.xchangeon.io/'
 repository: 
 issue: 
-icon: com.xchangeonio.png
+icon: 'com.xchangeonio.png'
 bugbounty: 
-meta: defunct
-verdict: wip
+meta: 'defunct'
+verdict: 'wip'
 appHashes: 
-date: 2023-07-29
+date: '2023-07-29'
 signer: 
 reviewArchive: 
-twitter: XChangeon
+twitter: 'XChangeon'
 social: 
 redirect_from: 
-developerName: Blockhub Ltd.
+developerName: 'Blockhub Ltd.'
 features: 
 
 ---

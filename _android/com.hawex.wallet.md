@@ -1,36 +1,36 @@
 ---
-wsId: hawexCrypto
+wsId: 'hawexCrypto'
 title: 'Hawex: Crypto Wallet & Cards'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.hawex.wallet
+appId: 'com.hawex.wallet'
 appCountry: 
-released: 2023-06-06
-updated: 2024-05-06
+released: '2023-06-06'
+updated: '2024-05-06'
 version: '2.1'
 stars: 4.9
 ratings: 
 reviews: 
 size: 
-website: http://hawexdao.com
+website: 'http://hawexdao.com'
 repository: 
 issue: 
-icon: com.hawex.wallet.png
+icon: 'com.hawex.wallet.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2024-10-23
+date: '2024-10-23'
 signer: 
 reviewArchive: 
-twitter: hawexdao
+twitter: 'hawexdao'
 social:
-- https://t.me/hawex
-- https://discord.gg/CeFH7YaMXe
+- 'https://t.me/hawex'
+- 'https://discord.gg/CeFH7YaMXe'
 redirect_from: 
-developerName: Hawex Investment LLC
+developerName: 'Hawex Investment LLC'
 features: 
 
 ---

@@ -1,37 +1,37 @@
 ---
 wsId: 
-title: Miracle Cash&More
+title: 'Miracle Cash&More'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.ofinans.ofinansapp
+appId: 'com.ofinans.ofinansapp'
 appCountry: 
-released: 2021-06-10
-updated: 2024-04-23
-version: 2.0.7
+released: '2021-06-10'
+updated: '2024-04-23'
+version: '2.0.7'
 stars: 5
 ratings: 
 reviews: 3
 size: 
-website: http://ofinans.com
+website: 'http://ofinans.com'
 repository: 
 issue: 
-icon: com.ofinans.ofinansapp.png
+icon: 'com.ofinans.ofinansapp.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-09-08
+date: '2024-09-08'
 signer: 
 reviewArchive: 
-twitter: MiracleCashMore
+twitter: 'MiracleCashMore'
 social:
-- https://www.instagram.com/miraclecashandmore/
-- https://www.facebook.com/miraclecashandmore
-- https://www.linkedin.com/company/miraclecashandmore/
+- 'https://www.instagram.com/miraclecashandmore/'
+- 'https://www.facebook.com/miraclecashandmore'
+- 'https://www.linkedin.com/company/miraclecashandmore/'
 redirect_from: 
-developerName: Ofinans App
+developerName: 'Ofinans App'
 features: 
 
 ---

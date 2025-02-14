@@ -7,9 +7,9 @@ authors:
 appId: com.holdings.choice
 appCountry: us
 idd: '1563472237'
-released: 2021-08-05
-updated: 2025-01-06
-version: 2.23.0
+released: '2021-08-05'
+updated: '2025-01-06'
+version: '2.23.0'
 stars: 4.7
 reviews: 1492
 size: '80394240'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2023-12-15
+date: '2023-12-15'
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,37 +1,36 @@
 ---
-wsId: corexAILab
-title: Corex
+wsId: 'corexAILab'
+title: 'Corex'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: mn.ailab.corex
+appId: 'mn.ailab.corex'
 appCountry: 
-released: 2021-11-24
+released: '2021-11-24'
 updated: 2025-01-13
-version: 2.0.59
+version: '2.0.59'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://www.corex.mn/
+website: 'https://www.corex.mn/'
 repository: 
 issue: 
-icon: mn.ailab.corex.png
+icon: 'mn.ailab.corex.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-08-16
+date: '2023-08-16'
 signer: 
 reviewArchive: 
-twitter: COREXmn
+twitter: 'COREXmn'
 social:
-- https://www.instagram.com/corex.mn
-- https://t.me/corexmngroup
-- https://discord.com/invite/smwtpuyWWH
+- 'https://www.instagram.com/corex.mn'
+- 'https://t.me/corexmngroup'
+- 'https://discord.com/invite/smwtpuyWWH'
 redirect_from: 
-developerName: Corex LLC
+developerName: 'Corex LLC'
 features: 
 
 ---

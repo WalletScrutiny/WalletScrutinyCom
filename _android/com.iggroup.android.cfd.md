@@ -1,37 +1,36 @@
 ---
-wsId: igTradingPlatform
-title: IG Trading Platform
+wsId: 'igTradingPlatform'
+title: 'IG Trading Platform'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000000
-appId: com.iggroup.android.cfd
-appCountry: br
-released: 2015-05-11
+appId: 'com.iggroup.android.cfd'
+appCountry: 'br'
+released: '2015-05-11'
 updated: 2025-02-07
-version: 25.2.6
+version: '25.2.6'
 stars: 3.9
 ratings: 
 reviews: 14
-size: 
-website: http://www.ig.com
+website: 'http://www.ig.com'
 repository: 
 issue: 
-icon: com.iggroup.android.cfd.png
+icon: 'com.iggroup.android.cfd.png'
 bugbounty: 
-meta: ok
-verdict: nosendreceive
+meta: 'ok'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2022-12-06
+date: '2022-12-06'
 signer: 
 reviewArchive: 
-twitter: IGInternationa1
+twitter: 'IGInternationa1'
 social:
-- https://www.linkedin.com/company/ig-international-
-- https://www.facebook.com/IGInternational2
-- https://www.youtube.com/channel/UCZj-ae-S_X-mocAH3xQnpUw
+- 'https://www.linkedin.com/company/ig-international-'
+- 'https://www.facebook.com/IGInternational2'
+- 'https://www.youtube.com/channel/UCZj-ae-S_X-mocAH3xQnpUw'
 redirect_from: 
-developerName: IG Group
+developerName: 'IG Group'
 features: 
 
 ---

@@ -1,35 +1,34 @@
 ---
-wsId: fintodaWallet
-title: Fintoda Wallet
+wsId: 'fintodaWallet'
+title: 'Fintoda Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.fintoda.app
+appId: 'com.fintoda.app'
 appCountry: 
-released: 2021-08-26
+released: '2021-08-26'
 updated: 2024-12-24
-version: 1.6.3
+version: '1.6.3'
 stars: 4.4
 ratings: 
 reviews: 
-size: 
-website: https://fintoda.com
+website: 'https://fintoda.com'
 repository: 
 issue: 
-icon: com.fintoda.app.png
+icon: 'com.fintoda.app.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-24
+date: '2024-07-24'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://t.me/joinchat/0XnTfyBrU-tiOTNi
+- 'https://t.me/joinchat/0XnTfyBrU-tiOTNi'
 redirect_from: 
-developerName: FINTODA LLC
+developerName: 'FINTODA LLC'
 features: 
 
 ---

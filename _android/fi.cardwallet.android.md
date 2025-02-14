@@ -1,34 +1,34 @@
 ---
-wsId: CardWalletCardano
-title: CWallet - ADA Crypto Wallet
+wsId: 'CardWalletCardano'
+title: 'CWallet - ADA Crypto Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: fi.cardwallet.android
-appCountry: pt
-released: 2021-08-31
-updated: 2023-07-11
+appId: 'fi.cardwallet.android'
+appCountry: 'pt'
+released: '2021-08-31'
+updated: '2023-07-11'
 version: '1.12'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://cwallet.finance/
+website: 'https://cwallet.finance/'
 repository: 
 issue: 
-icon: fi.cardwallet.android.png
+icon: 'fi.cardwallet.android.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2023-12-19
+date: '2023-12-19'
 signer: 
 reviewArchive: 
-twitter: CardWallet_fi
+twitter: 'CardWallet_fi'
 social: 
 redirect_from: 
-developerName: CWallet
+developerName: 'CWallet'
 features: 
 
 ---

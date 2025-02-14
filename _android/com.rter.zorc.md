@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Mobile Wallet Manager By SatoshiLabs.
+title: 'Mobile Wallet Manager By SatoshiLabs.'
 altTitle: 
 authors: 
 users: 1000
-appId: com.rter.zorc
+appId: 'com.rter.zorc'
 appCountry: 
-released: 2021-09-20
-updated: 2021-09-20
+released: '2021-09-20'
+updated: '2021-09-20'
 version: '1.0'
 stars: 4
 ratings: 31
 reviews: 14
-size: 859k
+size: '859k'
 website: 
 repository: 
 issue: 
-icon: com.rter.zorc.png
+icon: 'com.rter.zorc.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2021-10-15
+date: '2021-10-15'
 signer: 
 reviewArchive: 
 twitter: 

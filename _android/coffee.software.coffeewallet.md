@@ -1,38 +1,37 @@
 ---
 wsId: 
-title: Coffee Wallet
+title: 'Coffee Wallet'
 altTitle: 
 authors:
-- danny
-- emanuel
-- leo
+- 'danny'
+- 'emanuel'
+- 'leo'
 users: 5000
-appId: coffee.software.coffeewallet
+appId: 'coffee.software.coffeewallet'
 appCountry: 
-released: 2018-06-04
+released: '2018-06-04'
 updated: 2022-07-13
 version: '0.22'
 stars: 4.3
 ratings: 
 reviews: 7
-size: 
-website: https://wallet.coffee/
-repository: https://github.com/coffee-software/coffee.wallet
-issue: https://github.com/coffee-software/coffee.wallet/issues/89
-icon: coffee.software.coffeewallet.png
+website: 'https://wallet.coffee/'
+repository: 'https://github.com/coffee-software/coffee.wallet'
+issue: 'https://github.com/coffee-software/coffee.wallet/issues/89'
+icon: 'coffee.software.coffeewallet.png'
 bugbounty: 
-meta: obsolete
-verdict: nonverifiable
+meta: 'obsolete'
+verdict: 'nonverifiable'
 appHashes: 
-date: 2024-07-03
+date: '2024-07-03'
 signer: 
 reviewArchive: 
-twitter: CoffeeWallet
+twitter: 'CoffeeWallet'
 social:
-- https://www.reddit.com/r/CoffeeWallet/
-- https://t.me/CoffeeWallet
+- 'https://www.reddit.com/r/CoffeeWallet/'
+- 'https://t.me/CoffeeWallet'
 redirect_from: 
-developerName: Coffee  Software
+developerName: 'Coffee  Software'
 features: 
 
 ---

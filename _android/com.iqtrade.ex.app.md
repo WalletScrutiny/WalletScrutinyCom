@@ -1,37 +1,36 @@
 ---
 wsId: 
-title: IQTrade - Trade Bitcoin & Gold
+title: 'IQTrade - Trade Bitcoin & Gold'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 500000
-appId: com.iqtrade.ex.app
+appId: 'com.iqtrade.ex.app'
 appCountry: 
-released: 2022-10-18
+released: '2022-10-18'
 updated: 2025-01-24
-version: 3.2.1
+version: '3.2.1'
 stars: 4.4
 ratings: 
-reviews: 19
-size: 
-website: https://www.iq-trading.com
+reviews: 20
+website: 'https://www.iq-trading.com'
 repository: 
 issue: 
-icon: com.iqtrade.ex.app.png
+icon: 'com.iqtrade.ex.app.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2024-09-04
+date: '2024-09-04'
 signer: 
 reviewArchive: 
-twitter: iqtradegroup
+twitter: 'iqtradegroup'
 social:
-- https://www.youtube.com/@IQTradeGlobal
-- https://www.facebook.com/IQTradeGlobal
-- https://www.instagram.com/iqtradeglobal
+- 'https://www.youtube.com/@IQTradeGlobal'
+- 'https://www.facebook.com/IQTradeGlobal'
+- 'https://www.instagram.com/iqtradeglobal'
 redirect_from: 
-developerName: I&Q Financial LLC
+developerName: 'I&Q Financial LLC'
 features: 
 
 ---

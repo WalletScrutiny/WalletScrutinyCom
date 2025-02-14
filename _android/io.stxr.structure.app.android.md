@@ -1,37 +1,37 @@
 ---
-wsId: structureBuyCrypto
+wsId: 'structureBuyCrypto'
 title: 'Structure: Buy Crypto & Stocks'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: io.stxr.structure.app.android
+appId: 'io.stxr.structure.app.android'
 appCountry: 
-released: 2022-05-06
-updated: 2023-03-21
-version: 1.5.6
+released: '2022-05-06'
+updated: '2023-03-21'
+version: '1.5.6'
 stars: 3.7
 ratings: 
 reviews: 5
 size: 
-website: https://structure.fi
+website: 'https://structure.fi'
 repository: 
 issue: 
-icon: io.stxr.structure.app.android.png
+icon: 'io.stxr.structure.app.android.png'
 bugbounty: 
-meta: removed
-verdict: nobtc
+meta: 'removed'
+verdict: 'nobtc'
 appHashes: 
-date: 2023-11-02
+date: '2023-11-02'
 signer: 
 reviewArchive: 
-twitter: structure_fi
+twitter: 'structure_fi'
 social:
-- https://www.linkedin.com/company/structurefi
-- https://t.me/Structure_Official
-- https://discord.com/invite/5KGUYEsxBv
+- 'https://www.linkedin.com/company/structurefi'
+- 'https://t.me/Structure_Official'
+- 'https://discord.com/invite/5KGUYEsxBv'
 redirect_from: 
-developerName: Structure
+developerName: 'Structure'
 features: 
 
 ---

@@ -1,34 +1,33 @@
 ---
-wsId: quantfury
+wsId: 'quantfury'
 title: 'Quantfury: Your Global Broker'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 500000
-appId: com.quantfury
-appCountry: gb
-released: 2018-11-26
+appId: 'com.quantfury'
+appCountry: 'gb'
+released: '2018-11-26'
 updated: 2025-02-06
-version: v1.84.2.22907
+version: 'v1.84.2.22907'
 stars: 4.2
 ratings: 11645
 reviews: 23
-size: 
-website: https://www.quantfury.com/
+website: 'https://www.quantfury.com/'
 repository: 
 issue: 
-icon: com.quantfury.png
+icon: 'com.quantfury.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-11-01
+date: '2021-11-01'
 signer: 
 reviewArchive: 
-twitter: quantfury
+twitter: 'quantfury'
 social: 
 redirect_from: 
-developerName: Quantfury Trading Limited
+developerName: 'Quantfury Trading Limited'
 features: 
 
 ---

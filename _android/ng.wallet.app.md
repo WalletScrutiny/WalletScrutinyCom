@@ -1,36 +1,36 @@
 ---
-wsId: WalletsAfrica
-title: Spring
+wsId: 'WalletsAfrica'
+title: 'Spring'
 altTitle: 
 authors:
-- kiwilamb
-- danny
+- 'kiwilamb'
+- 'danny'
 users: 100000
-appId: ng.wallet.app
+appId: 'ng.wallet.app'
 appCountry: 
-released: 2017-06-22
-updated: 2021-09-04
+released: '2017-06-22'
+updated: '2021-09-04'
 version: '2.480'
 stars: 2.5
 ratings: 2049
 reviews: 118
 size: 
-website: https://wallets.africa
+website: 'https://wallets.africa'
 repository: 
 issue: 
-icon: ng.wallet.app.png
+icon: 'ng.wallet.app.png'
 bugbounty: 
-meta: removed
-verdict: nobtc
+meta: 'removed'
+verdict: 'nobtc'
 appHashes: 
-date: 2024-04-19
+date: '2024-04-19'
 signer: 
 reviewArchive: 
-twitter: walletsafrica
+twitter: 'walletsafrica'
 social:
-- https://www.facebook.com/walletsafrica
+- 'https://www.facebook.com/walletsafrica'
 redirect_from: 
-developerName: Wallets Africa Inc
+developerName: 'Wallets Africa Inc'
 features: 
 
 ---

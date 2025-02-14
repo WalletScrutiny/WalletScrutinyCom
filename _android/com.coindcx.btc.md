@@ -1,36 +1,35 @@
 ---
-wsId: CoinDCXPro
+wsId: 'CoinDCXPro'
 title: 'CoinDCX: Bitcoin Crypto App'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000000
-appId: com.coindcx.btc
+appId: 'com.coindcx.btc'
 appCountry: 
-released: 2020-12-09
+released: '2020-12-09'
 updated: 2025-02-11
-version: 6.66.0003
+version: '6.66.0003'
 stars: 4.2
 ratings: 231093
 reviews: 583
-size: 
-website: https://go.coindcx.com/
+website: 'https://go.coindcx.com/'
 repository: 
 issue: 
-icon: com.coindcx.btc.png
-bugbounty: https://coindcx.com/bug-bounty
-meta: ok
-verdict: custodial
+icon: 'com.coindcx.btc.png'
+bugbounty: 'https://coindcx.com/bug-bounty'
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-08-27
+date: '2021-08-27'
 signer: 
 reviewArchive: 
-twitter: coindcx
+twitter: 'coindcx'
 social:
-- https://www.linkedin.com/company/coindcx
-- https://www.facebook.com/CoinDCX
+- 'https://www.linkedin.com/company/coindcx'
+- 'https://www.facebook.com/CoinDCX'
 redirect_from: 
-developerName: CoinDCX Official
+developerName: 'CoinDCX Official'
 features: 
 
 ---

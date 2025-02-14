@@ -1,37 +1,37 @@
 ---
 wsId: 
-title: Cryptonex (CNX)
+title: 'Cryptonex (CNX)'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: org.cryptonex.android
+appId: 'org.cryptonex.android'
 appCountry: 
-released: 2019-06-15
-updated: 2020-03-18
-version: 2.4.9
+released: '2019-06-15'
+updated: '2020-03-18'
+version: '2.4.9'
 stars: 1
 ratings: 
 reviews: 5
 size: 
-website: https://cryptonex.org/
+website: 'https://cryptonex.org/'
 repository: 
 issue: 
-icon: org.cryptonex.android.png
+icon: 'org.cryptonex.android.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-04-26
+date: '2024-04-26'
 signer: 
 reviewArchive: 
-twitter: Cryptonex_CNX
+twitter: 'Cryptonex_CNX'
 social:
-- https://www.linkedin.com/company/cryptonex
-- https://t.me/cryptonexCNX
-- https://www.facebook.com/Cryptonex.org
+- 'https://www.linkedin.com/company/cryptonex'
+- 'https://t.me/cryptonexCNX'
+- 'https://www.facebook.com/Cryptonex.org'
 redirect_from: 
-developerName: Cryptonex LP
+developerName: 'Cryptonex LP'
 features: 
 
 ---

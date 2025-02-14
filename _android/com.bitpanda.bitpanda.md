@@ -1,40 +1,39 @@
 ---
-wsId: bitpandaBitcoin
+wsId: 'bitpandaBitcoin'
 title: 'Bitpanda: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000000
-appId: com.bitpanda.bitpanda
+appId: 'com.bitpanda.bitpanda'
 appCountry: 
-released: 2018-11-07
-updated: 2025-01-29
-version: 2.92.0
+released: '2018-11-07'
+updated: 2025-02-13
+version: '2.92.0'
 stars: 3.5
 ratings: 
 reviews: 16
-size: 
-website: https://www.bitpanda.com
+website: 'https://www.bitpanda.com'
 repository: 
 issue: 
-icon: com.bitpanda.bitpanda.png
+icon: 'com.bitpanda.bitpanda.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-07-29
+date: '2023-07-29'
 signer: 
 reviewArchive: 
-twitter: Bitpanda_global
+twitter: 'Bitpanda_global'
 social:
-- https://www.facebook.com/BITPANDA
-- https://www.reddit.com/r/bitpanda
-- https://www.linkedin.com/company/bitpanda
-- https://www.youtube.com/@Bitpanda_global
-- https://discord.com/invite/dmM9Dz7Kt8
-- https://www.instagram.com/bitpanda_global
+- 'https://www.facebook.com/BITPANDA'
+- 'https://www.reddit.com/r/bitpanda'
+- 'https://www.linkedin.com/company/bitpanda'
+- 'https://www.youtube.com/@Bitpanda_global'
+- 'https://discord.com/invite/dmM9Dz7Kt8'
+- 'https://www.instagram.com/bitpanda_global'
 redirect_from: 
-developerName: Bitpanda GmbH
+developerName: 'Bitpanda GmbH'
 features: 
 
 ---

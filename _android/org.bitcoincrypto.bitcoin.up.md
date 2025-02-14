@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Bitcoin Up
+title: 'Bitcoin Up'
 altTitle: 
 authors: 
 users: 10
-appId: org.bitcoincrypto.bitcoin.up
+appId: 'org.bitcoincrypto.bitcoin.up'
 appCountry: 
-released: 2021-06-24
-updated: 2021-06-24
+released: '2021-06-24'
+updated: '2021-06-24'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 2.4M
+size: '2.4M'
 website: 
 repository: 
 issue: 
-icon: org.bitcoincrypto.bitcoin.up.png
+icon: 'org.bitcoincrypto.bitcoin.up.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-10-01
+date: '2021-10-01'
 signer: 
 reviewArchive: 
 twitter: 

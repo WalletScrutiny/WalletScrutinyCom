@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: QBita - Mercado de Bitcoin
+title: 'QBita - Mercado de Bitcoin'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: org.qbita.bitcoin_wallet
+appId: 'org.qbita.bitcoin_wallet'
 appCountry: 
-released: 2019-08-28
+released: '2019-08-28'
 updated: 2019-08-28
 version: '1.0'
 stars: 4.5
 ratings: 93
 reviews: 11
-size: 
-website: https://qbita.org
+website: 'https://qbita.org'
 repository: 
 issue: 
-icon: org.qbita.bitcoin_wallet.png
+icon: 'org.qbita.bitcoin_wallet.png'
 bugbounty: 
-meta: obsolete
-verdict: nosource
+meta: 'obsolete'
+verdict: 'nosource'
 appHashes: 
-date: 2023-04-18
+date: '2023-04-18'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Valzu
+developerName: 'Valzu'
 features: 
 
 ---

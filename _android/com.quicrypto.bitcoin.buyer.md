@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Bitcoin Buyer
+title: 'Bitcoin Buyer'
 altTitle: 
 authors: 
 users: 100
-appId: com.quicrypto.bitcoin.buyer
+appId: 'com.quicrypto.bitcoin.buyer'
 appCountry: 
-released: 2021-06-24
-updated: 2021-06-24
+released: '2021-06-24'
+updated: '2021-06-24'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 2.3M
+size: '2.3M'
 website: 
 repository: 
 issue: 
-icon: com.quicrypto.bitcoin.buyer.jpg
+icon: 'com.quicrypto.bitcoin.buyer.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-10-01
+date: '2021-10-01'
 signer: 
 reviewArchive: 
 twitter: 

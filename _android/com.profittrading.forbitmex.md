@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: ProfitTradingApp for BitMEX
+title: 'ProfitTradingApp for BitMEX'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.profittrading.forbitmex
+appId: 'com.profittrading.forbitmex'
 appCountry: 
-released: 2019-06-11
+released: '2019-06-11'
 updated: 2025-02-02
-version: 7.0.4
+version: '7.0.4'
 stars: 4.4
 ratings: 348
 reviews: 9
-size: 
-website: https://profittradingapp.com/
+website: 'https://profittradingapp.com/'
 repository: 
 issue: 
-icon: com.profittrading.forbitmex.png
+icon: 'com.profittrading.forbitmex.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2024-09-13
+date: '2024-09-13'
 signer: 
 reviewArchive: 
-twitter: ProfitTrading_
+twitter: 'ProfitTrading_'
 social:
-- https://www.facebook.com/profittradingapp
+- 'https://www.facebook.com/profittradingapp'
 redirect_from: 
-developerName: ProfitTradingApp
+developerName: 'ProfitTradingApp'
 features: 
 
 ---

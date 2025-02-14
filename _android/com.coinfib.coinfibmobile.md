@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: Coinfib
+title: 'Coinfib'
 altTitle: 
 authors: 
 users: 10
-appId: com.coinfib.coinfibmobile
+appId: 'com.coinfib.coinfibmobile'
 appCountry: 
-released: 2022-03-16
-updated: 2022-04-01
-version: 1.0.4
+released: '2022-03-16'
+updated: '2022-04-01'
+version: '1.0.4'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.coinfib.com
+website: 'https://www.coinfib.com'
 repository: 
 issue: 
-icon: com.coinfib.coinfibmobile.png
+icon: 'com.coinfib.coinfibmobile.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-04-03
+date: '2024-04-03'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Coinfib
+developerName: 'Coinfib'
 features: 
 
 ---

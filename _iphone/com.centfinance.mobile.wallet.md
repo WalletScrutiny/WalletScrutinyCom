@@ -7,9 +7,9 @@ authors:
 appId: com.centfinance.mobile.wallet
 appCountry: us
 idd: 1577860552
-released: 2021-07-27
-updated: 2022-01-28
-version: 1.0.45
+released: '2021-07-27'
+updated: '2022-01-28'
+version: '1.0.45'
 stars: 5
 reviews: 1
 size: '52142080'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: nobtc
 appHashes: 
-date: 2024-04-19
+date: '2024-04-19'
 signer: 
 reviewArchive: 
 twitter: Cent_Finance

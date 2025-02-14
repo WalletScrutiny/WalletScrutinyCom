@@ -1,36 +1,35 @@
 ---
-wsId: Mexo
+wsId: 'Mexo'
 title: 'TruBit Pro: Crypto Exchange'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: io.mexo.app
-appCountry: us
-released: 2020-08-30
+appId: 'io.mexo.app'
+appCountry: 'us'
+released: '2020-08-30'
 updated: 2025-01-27
-version: 3.6.11
+version: '3.6.11'
 stars: 3.2
 ratings: 401
 reviews: 16
-size: 
-website: http://www.mexo.io
+website: 'http://www.mexo.io'
 repository: 
 issue: 
-icon: io.mexo.app.png
+icon: 'io.mexo.app.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-10-04
+date: '2021-10-04'
 signer: 
 reviewArchive: 
-twitter: mexo_io
+twitter: 'mexo_io'
 social:
-- https://www.linkedin.com/company/mexoio
-- https://www.facebook.com/mexo.io
+- 'https://www.linkedin.com/company/mexoio'
+- 'https://www.facebook.com/mexo.io'
 redirect_from: 
-developerName: TruBit Ltd
+developerName: 'TruBit Ltd'
 features: 
 
 ---

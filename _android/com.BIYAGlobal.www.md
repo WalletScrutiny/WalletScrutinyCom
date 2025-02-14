@@ -1,34 +1,33 @@
 ---
-wsId: biyaGlobal
-title: BIYA Global -资产兑换出入金全球汇款美港股交易
+wsId: 'biyaGlobal'
+title: 'BIYA Global -资产兑换出入金全球汇款美港股交易'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.BIYAGlobal.www
+appId: 'com.BIYAGlobal.www'
 appCountry: 
-released: 2021-04-13
+released: '2021-04-13'
 updated: 2025-01-24
-version: 2.8.610
+version: '2.8.610'
 stars: 3.7
 ratings: 
 reviews: 5
-size: 
-website: https://www.biyagl.com
+website: 'https://www.biyagl.com'
 repository: 
 issue: 
-icon: com.BIYAGlobal.www.png
+icon: 'com.BIYAGlobal.www.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-07-01
+date: '2023-07-01'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: BIAY GLOBAL LLC.
+developerName: 'BIAY GLOBAL LLC.'
 features: 
 
 ---

@@ -3,10 +3,10 @@ title: Satochip Seedkeeper
 appId: satochip.seedkeeper
 authors:
 - danny
-released: 2022-03-28
+released: '2022-03-28'
 discontinued: 
-updated: 2025-01-21
-version: 0.2-0.1
+updated: '2025-01-21'
+version: '0.2-0.1'
 binaries: https://github.com/Toporin/Seedkeeper-Applet/releases
 dimensions:
 - 86
@@ -26,7 +26,7 @@ bugbounty:
 meta: ok
 verdict: plainkey
 appHashes: 
-date: 2025-02-06
+date: '2025-02-06'
 signer: 
 reviewArchive: 
 twitter: satochipwallet

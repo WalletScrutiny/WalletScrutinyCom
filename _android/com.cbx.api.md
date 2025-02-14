@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: CBX.one
+title: 'CBX.one'
 altTitle: 
 authors: 
 users: 1000
-appId: com.cbx.api
+appId: 'com.cbx.api'
 appCountry: 
-released: 2018-12-05
-updated: 2021-01-25
-version: 2.2.5
+released: '2018-12-05'
+updated: '2021-01-25'
+version: '2.2.5'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.cbx.one
+website: 'https://www.cbx.one'
 repository: 
 issue: 
-icon: com.cbx.api.png
+icon: 'com.cbx.api.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: CBX
+developerName: 'CBX'
 features: 
 
 ---

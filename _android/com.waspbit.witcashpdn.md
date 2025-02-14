@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: Witcash
+title: 'Witcash'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.waspbit.witcashpdn
+appId: 'com.waspbit.witcashpdn'
 appCountry: 
-released: 2018-12-10
-updated: 2021-07-14
-version: 2.0.9
+released: '2018-12-10'
+updated: '2021-07-14'
+version: '2.0.9'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: http://witcash.io/
+website: 'http://witcash.io/'
 repository: 
 issue: 
-icon: com.waspbit.witcashpdn.jpg
+icon: 'com.waspbit.witcashpdn.jpg'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2023-06-10
+date: '2023-06-10'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Witcash
+developerName: 'Witcash'
 features: 
 
 ---

@@ -3,7 +3,7 @@ title: SCTECHONE Touch xWallet
 appId: sctechone.touchxwallet
 authors:
 - danny
-released: 2018-05-28
+released: '2018-05-28'
 discontinued: 2022-04-10
 updated: 
 version: 
@@ -26,7 +26,7 @@ bugbounty:
 meta: defunct
 verdict: plainkey
 appHashes: 
-date: 2022-05-19
+date: '2022-05-19'
 signer: 
 reviewArchive: 
 twitter: 

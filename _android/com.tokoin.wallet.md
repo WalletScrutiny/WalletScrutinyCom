@@ -1,36 +1,35 @@
 ---
-wsId: TokoinTWallet
-title: My-T Wallet
+wsId: 'TokoinTWallet'
+title: 'My-T Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.tokoin.wallet
-appCountry: us
-released: 2019-12-11
+appId: 'com.tokoin.wallet'
+appCountry: 'us'
+released: '2019-12-11'
 updated: 2023-08-15
-version: 3.6.1
+version: '3.6.1'
 stars: 4.1
 ratings: 576
 reviews: 6
-size: 
-website: https://tokoin.io
+website: 'https://tokoin.io'
 repository: 
 issue: 
-icon: com.tokoin.wallet.png
+icon: 'com.tokoin.wallet.png'
 bugbounty: 
-meta: stale
-verdict: nosource
+meta: 'stale'
+verdict: 'nosource'
 appHashes: 
-date: 2024-08-13
+date: '2024-08-13'
 signer: 
 reviewArchive: 
-twitter: tokoinindonesia
+twitter: 'tokoinindonesia'
 social:
-- https://www.facebook.com/tokoinindonesia
-- https://github.com/tokoinofficial
+- 'https://www.facebook.com/tokoinindonesia'
+- 'https://github.com/tokoinofficial'
 redirect_from: 
-developerName: Tokoin
+developerName: 'Tokoin'
 features: 
 
 ---

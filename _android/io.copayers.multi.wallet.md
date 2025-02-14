@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Copay Wallet
-altTitle: (Fake) Copay Wallet
+title: 'Copay Wallet'
+altTitle: '(Fake) Copay Wallet'
 authors: 
 users: 100
-appId: io.copayers.multi.wallet
+appId: 'io.copayers.multi.wallet'
 appCountry: 
-released: 2021-12-16
-updated: 2021-12-16
+released: '2021-12-16'
+updated: '2021-12-16'
 version: '0.21838'
 stars: 
 ratings: 
 reviews: 
-size: 11M
+size: '11M'
 website: 
 repository: 
 issue: 
-icon: io.copayers.multi.wallet.png
+icon: 'io.copayers.multi.wallet.png'
 bugbounty: 
-meta: removed
-verdict: fake
+meta: 'removed'
+verdict: 'fake'
 appHashes: 
-date: 2022-01-31
+date: '2022-01-31'
 signer: 
 reviewArchive: 
 twitter: 

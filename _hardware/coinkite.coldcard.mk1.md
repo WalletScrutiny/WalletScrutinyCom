@@ -3,10 +3,10 @@ title: CoinKite Coldcard Mk 1
 appId: coinkite.coldcard.mk1
 authors:
 - danny
-released: 2018-07-25
+released: '2018-07-25'
 discontinued: 
-updated: 2019-12-19
-version: v3.0.6
+updated: '2019-12-19'
+version: 'v3.0.6'
 binaries: 
 dimensions: 
 weight: 
@@ -23,7 +23,7 @@ bugbounty: https://coinkite.com/responsible-disclosure
 meta: discontinued
 verdict: wip
 appHashes: 
-date: 2022-11-24
+date: '2022-11-24'
 signer: 
 reviewArchive: 
 twitter: COLDCARDwallet

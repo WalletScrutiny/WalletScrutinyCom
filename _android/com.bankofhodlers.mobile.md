@@ -1,37 +1,36 @@
 ---
-wsId: Vauld
-title: Vauld - Earn, Lend with Crypto
+wsId: 'Vauld'
+title: 'Vauld - Earn, Lend with Crypto'
 altTitle: 
 authors:
-- kiwilamb
+- 'kiwilamb'
 users: 1000000
-appId: com.bankofhodlers.mobile
+appId: 'com.bankofhodlers.mobile'
 appCountry: 
-released: 2020-04-30
+released: '2020-04-30'
 updated: 2025-01-09
-version: 2.9.0
+version: '2.9.0'
 stars: 3.4
 ratings: 8047
 reviews: 89
-size: 
-website: https://vauld.com
+website: 'https://vauld.com'
 repository: 
 issue: 
-icon: com.bankofhodlers.mobile.jpg
+icon: 'com.bankofhodlers.mobile.jpg'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2025-01-09
+date: '2025-01-09'
 signer: 
 reviewArchive: 
-twitter: Vauld_
+twitter: 'Vauld_'
 social:
-- https://www.linkedin.com/company/vauld
-- https://www.facebook.com/VauldOfficial
-- https://www.reddit.com/r/BankofHodlers
+- 'https://www.linkedin.com/company/vauld'
+- 'https://www.facebook.com/VauldOfficial'
+- 'https://www.reddit.com/r/BankofHodlers'
 redirect_from: 
-developerName: VauldGoogleDeveloper
+developerName: 'VauldGoogleDeveloper'
 features: 
 
 ---

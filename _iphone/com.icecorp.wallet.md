@@ -7,9 +7,9 @@ authors:
 appId: com.icecorp.wallet
 appCountry: us
 idd: '1629607532'
-released: 2022-11-28
-updated: 2024-08-27
-version: 3.1.2
+released: '2022-11-28'
+updated: '2024-08-27'
+version: '3.1.2'
 stars: 5
 reviews: 1
 size: '52241408'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: 2024-10-07
+date: '2024-10-07'
 signer: 
 reviewArchive: 
 twitter: icewalofficial

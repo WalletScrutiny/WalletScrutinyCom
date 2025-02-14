@@ -1,13 +1,13 @@
 ---
 wsId: 
-title: Ikigai exchange
+title: 'Ikigai exchange'
 altTitle: 
 authors: 
 users: 50
-appId: com.ikigai.app
+appId: 'com.ikigai.app'
 appCountry: 
-released: 2022-02-08
-updated: 2022-02-08
+released: '2022-02-08'
+updated: '2022-02-08'
 version: '1.0'
 stars: 
 ratings: 
@@ -16,18 +16,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.ikigai.app.png
+icon: 'com.ikigai.app.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-04-19
+date: '2024-04-19'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Viktor Alfredson
+developerName: 'Viktor Alfredson'
 features: 
 
 ---

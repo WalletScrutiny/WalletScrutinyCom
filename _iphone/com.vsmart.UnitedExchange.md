@@ -7,8 +7,8 @@ authors:
 appId: com.vsmart.UnitedExchange
 appCountry: us
 idd: '1578830443'
-released: 2021-07-30
-updated: 2024-04-03
+released: '2021-07-30'
+updated: '2024-04-03'
 version: '14.0'
 stars: 5
 reviews: 1
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-12-15
+date: '2024-12-15'
 signer: 
 reviewArchive: 
 twitter: exchange_united

@@ -1,36 +1,35 @@
 ---
-wsId: zoomexCrypto
-title: Zoomex-BTC, ETH Crypto Trading
+wsId: 'zoomexCrypto'
+title: 'Zoomex-BTC, ETH Crypto Trading'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 500000
-appId: co.zoomex.app
+appId: 'co.zoomex.app'
 appCountry: 
-released: 2021-12-14
+released: '2021-12-14'
 updated: 2025-02-06
-version: 3.9.10
+version: '3.9.10'
 stars: 3.2
 ratings: 
 reviews: 18
-size: 
 website: 
 repository: 
 issue: 
-icon: co.zoomex.app.png
+icon: 'co.zoomex.app.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-07-01
+date: '2023-07-01'
 signer: 
 reviewArchive: 
-twitter: zoomexofficial
+twitter: 'zoomexofficial'
 social:
-- https://www.zoomex.com
-- https://t.me/zoomex_com
+- 'https://www.zoomex.com'
+- 'https://t.me/zoomex_com'
 redirect_from: 
-developerName: Zoomex
+developerName: 'Zoomex'
 features: 
 
 ---

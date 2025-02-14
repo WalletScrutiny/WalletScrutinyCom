@@ -1,36 +1,35 @@
 ---
-wsId: 99Pay
-title: 99Pay
+wsId: '99Pay'
+title: '99Pay'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 1000000
-appId: com.pay99.wallet
-appCountry: br
-released: 2021-09-23
-updated: 2025-01-16
-version: 7.2.44
+appId: 'com.pay99.wallet'
+appCountry: 'br'
+released: '2021-09-23'
+updated: 2025-02-13
+version: '7.2.44'
 stars: 2.2
 ratings: 4563
-reviews: 8570
-size: 
+reviews: 8578
 website: 
 repository: 
 issue: 
-icon: com.pay99.wallet.png
+icon: 'com.pay99.wallet.png'
 bugbounty: 
-meta: ok
-verdict: nosendreceive
+meta: 'ok'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2021-12-26
+date: '2021-12-26'
 signer: 
 reviewArchive: 
-twitter: voude99
+twitter: 'voude99'
 social:
-- https://www.linkedin.com/company/99app
-- https://www.facebook.com/voude99
+- 'https://www.linkedin.com/company/99app'
+- 'https://www.facebook.com/voude99'
 redirect_from: 
-developerName: 99 Tecnologia LTDA
+developerName: '99 Tecnologia LTDA'
 features: 
 
 ---

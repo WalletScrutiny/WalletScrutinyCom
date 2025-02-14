@@ -3,10 +3,10 @@ title: TwentyTwo Devices Portal Hardware Wallet
 appId: twentytwo.portal
 authors:
 - danny
-released: 2024-06-08
+released: '2024-06-08'
 discontinued: 
-updated: 2024-07-09
-version: 0.3.1
+updated: '2024-07-09'
+version: '0.3.1'
 binaries: 
 dimensions:
 - 140
@@ -26,7 +26,7 @@ bugbounty:
 meta: ok
 verdict: unreleased
 appHashes: 
-date: 2024-10-23
+date: '2024-10-23'
 signer: 
 reviewArchive: 
 twitter: TwentyTwoHW

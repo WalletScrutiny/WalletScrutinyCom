@@ -1,38 +1,37 @@
 ---
-wsId: voltaXRPayNet
-title: Volta Wallet
+wsId: 'voltaXRPayNet'
+title: 'Volta Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.xrpaynet.app
+appId: 'com.xrpaynet.app'
 appCountry: 
-released: 2022-07-05
+released: '2022-07-05'
 updated: 2025-02-10
-version: 2.0.4.prod
+version: '2.0.4.prod'
 stars: 4.3
 ratings: 
 reviews: 39
-size: 
 website: 
 repository: 
 issue: 
-icon: com.xrpaynet.app.png
+icon: 'com.xrpaynet.app.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2023-07-24
+date: '2023-07-24'
 signer: 
 reviewArchive: 
-twitter: XRPayNet
+twitter: 'XRPayNet'
 social:
-- https://xrpaynet.com
-- https://www.linkedin.com/company/xrpaynet
-- https://www.facebook.com/XRPayNet-107640621785961
-- https://t.me/XRPayNetChat
+- 'https://xrpaynet.com'
+- 'https://www.linkedin.com/company/xrpaynet'
+- 'https://www.facebook.com/XRPayNet-107640621785961'
+- 'https://t.me/XRPayNetChat'
 redirect_from: 
-developerName: XRPayNet
+developerName: 'XRPayNet'
 features: 
 
 ---

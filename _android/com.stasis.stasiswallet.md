@@ -1,39 +1,38 @@
 ---
-wsId: STASISStablecoinWallet
-title: STASIS Stablecoin Wallet
+wsId: 'STASISStablecoinWallet'
+title: 'STASIS Stablecoin Wallet'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 10000
-appId: com.stasis.stasiswallet
+appId: 'com.stasis.stasiswallet'
 appCountry: 
-released: 2018-06-13
+released: '2018-06-13'
 updated: 2024-01-19
-version: 1.15.0
+version: '1.15.0'
 stars: 3.3
 ratings: 169
 reviews: 5
-size: 
-website: https://stasis.net
+website: 'https://stasis.net'
 repository: 
 issue: 
-icon: com.stasis.stasiswallet.png
+icon: 'com.stasis.stasiswallet.png'
 bugbounty: 
-meta: stale
-verdict: custodial
+meta: 'stale'
+verdict: 'custodial'
 appHashes: 
-date: 2025-01-15
+date: '2025-01-15'
 signer: 
 reviewArchive: 
-twitter: stasisnet
+twitter: 'stasisnet'
 social:
-- https://www.linkedin.com/company/stasisnet
-- https://www.facebook.com/stasisnet
-- https://github.com/stasisnet
+- 'https://www.linkedin.com/company/stasisnet'
+- 'https://www.facebook.com/stasisnet'
+- 'https://github.com/stasisnet'
 redirect_from:
-- /com.stasis.stasiswallet/
-- /posts/com.stasis.stasiswallet/
-developerName: STSS Limited
+- '/com.stasis.stasiswallet/'
+- '/posts/com.stasis.stasiswallet/'
+developerName: 'STSS Limited'
 features: 
 
 ---

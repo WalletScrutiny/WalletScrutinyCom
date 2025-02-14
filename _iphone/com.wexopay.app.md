@@ -7,9 +7,9 @@ authors:
 appId: com.wexopay.app
 appCountry: sk
 idd: '1549983870'
-released: 2021-02-09
-updated: 2024-12-22
-version: 3.0.9
+released: '2021-02-09'
+updated: '2024-12-22'
+version: '3.0.9'
 stars: 4.8
 reviews: 487
 size: '117467136'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2023-06-30
+date: '2023-06-30'
 signer: 
 reviewArchive: 
 twitter: WexoOfficial

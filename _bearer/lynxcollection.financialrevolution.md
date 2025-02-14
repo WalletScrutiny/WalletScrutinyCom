@@ -23,7 +23,7 @@ icon: lynxcollection.financialrevolution.png
 bugbounty: 
 meta: ok
 verdict: sealed-plainkey
-date: 2022-04-29
+date: '2022-04-29'
 signer: 
 reviewArchive: 
 twitter: LynxCollection

@@ -3,7 +3,7 @@ title: Projjal Gupta Hashlock Ethereum Hardware Wallet
 appId: projjalgupta.hashlock
 authors:
 - danny
-released: 2019-04-28
+released: '2019-04-28'
 discontinued: 
 updated: 
 version: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: obsolete
 verdict: nobtc
 appHashes: 
-date: 2022-05-23
+date: '2022-05-23'
 signer: 
 reviewArchive: 
 twitter: https://twitter.com/Projjal_G

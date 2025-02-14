@@ -23,7 +23,7 @@ bugbounty:
 meta: defunct
 verdict: noita
 appHashes: 
-date: 2022-05-19
+date: '2022-05-19'
 signer: 
 reviewArchive: 
 twitter: Vexblock

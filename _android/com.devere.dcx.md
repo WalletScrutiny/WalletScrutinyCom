@@ -1,35 +1,35 @@
 ---
-wsId: devereCrypto
-title: deVere Crypto
+wsId: 'devereCrypto'
+title: 'deVere Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.devere.dcx
+appId: 'com.devere.dcx'
 appCountry: 
-released: 2018-01-29
-updated: 2023-04-20
-version: 4.4.0
+released: '2018-01-29'
+updated: '2023-04-20'
+version: '4.4.0'
 stars: 3.9
 ratings: 
 reviews: 1
 size: 
-website: http://www.devere-crypto.com
+website: 'http://www.devere-crypto.com'
 repository: 
 issue: 
-icon: com.devere.dcx.png
+icon: 'com.devere.dcx.png'
 bugbounty: 
-meta: removed
-verdict: nosendreceive
+meta: 'removed'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2025-01-15
+date: '2025-01-15'
 signer: 
 reviewArchive: 
-twitter: deveregroup
+twitter: 'deveregroup'
 social:
-- https://www.facebook.com/deVere-Crypto-196359191107070
+- 'https://www.facebook.com/deVere-Crypto-196359191107070'
 redirect_from: 
-developerName: deVere Group
+developerName: 'deVere Group'
 features: 
 
 ---

@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Nominex Crypto Exchange NMX
+title: 'Nominex Crypto Exchange NMX'
 altTitle: 
 authors: 
 users: 1000
-appId: com.mobuyg.nmx
+appId: 'com.mobuyg.nmx'
 appCountry: 
-released: 2021-08-16
-updated: 2022-05-19
-version: 1.0.4
+released: '2021-08-16'
+updated: '2022-05-19'
+version: '1.0.4'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://absurdapps.netlify.app
+website: 'https://absurdapps.netlify.app'
 repository: 
 issue: 
-icon: com.mobuyg.nmx.png
+icon: 'com.mobuyg.nmx.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
 twitter: 

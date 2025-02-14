@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Bitcoin Invest Uk
+title: 'Bitcoin Invest Uk'
 altTitle: 
 authors: 
 users: 0
-appId: com.balletcrypto.bitcoin.invest.uk
+appId: 'com.balletcrypto.bitcoin.invest.uk'
 appCountry: 
-released: 2021-06-20
-updated: 2021-06-20
+released: '2021-06-20'
+updated: '2021-06-20'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 2.3M
+size: '2.3M'
 website: 
 repository: 
 issue: 
-icon: com.balletcrypto.bitcoin.invest.uk.jpg
+icon: 'com.balletcrypto.bitcoin.invest.uk.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-09-23
+date: '2021-09-23'
 signer: 
 reviewArchive: 
 twitter: 

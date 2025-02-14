@@ -3,34 +3,34 @@ wsId:
 title: 'Richamster: Crypto Exchange'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.richamster.app
+appId: 'com.richamster.app'
 appCountry: 
-released: 2018-11-24
-updated: 2023-07-12
-version: 3.2.2
+released: '2018-11-24'
+updated: '2023-07-12'
+version: '3.2.2'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://richamster.com/
+website: 'https://richamster.com/'
 repository: 
 issue: 
-icon: com.richamster.app.png
+icon: 'com.richamster.app.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-07-14
+date: '2024-07-14'
 signer: 
 reviewArchive: 
-twitter: Richamster_com
+twitter: 'Richamster_com'
 social:
-- https://www.facebook.com/richamstercom
-- https://t.me/richamster_chat
+- 'https://www.facebook.com/richamstercom'
+- 'https://t.me/richamster_chat'
 redirect_from: 
-developerName: Richamster
+developerName: 'Richamster'
 features: 
 
 ---

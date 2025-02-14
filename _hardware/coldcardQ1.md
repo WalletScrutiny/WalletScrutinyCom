@@ -4,10 +4,10 @@ appId: coldcardQ1
 authors:
 - danny
 - keraliss
-released: 2024-02-08
+released: '2024-02-08'
 discontinued: 
-updated: 2024-09-12
-version: v1.3.0Q
+updated: '2024-09-12'
+version: 'v1.3.0Q'
 binaries: https://coldcard.com/downloads/
 dimensions:
 - 120
@@ -28,17 +28,17 @@ meta: ok
 verdict: reproducible
 appHashes:
 - cb23d9c1ace86724de450893239773e711f9c68486cd7d08fc6e4da5db1cc2b3
-date: 2024-11-05
+date: '2024-11-05'
 signer: d840fa4e83ebc7b0f961f30f68d795bed61271e2314dda4ab0eb0b8bfe7192f4
 reviewArchive:
-- date: 2024-08-12
-  version: 1.2.3Q
+- date: '2024-08-12'
+  version: '1.2.3Q'
   appHashes:
   - 54da941c8df84fcb84adcc62fdd3ee97d1fc12e2a9a648551ca614fcbacade3f
   gitRevision: 0eae1408092d9dc6c7c7d4ad328c4f32fa968325
   verdict: reproducible
-- date: 2024-05-31
-  version: 1.2.1Q
+- date: '2024-05-31'
+  version: '1.2.1Q'
   appHashes:
   - 90b1edfbe194b093258f9cda8f4add4aa3317e9ea205ff35914da7d91410fdae
   gitRevision: f75bca706d73b85a627828802bc757f705bd9921

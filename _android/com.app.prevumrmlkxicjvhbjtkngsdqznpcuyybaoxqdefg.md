@@ -1,34 +1,34 @@
 ---
-wsId: ToolsTrades
-title: Tools Trades
+wsId: 'ToolsTrades'
+title: 'Tools Trades'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.app.prevumrmlkxicjvhbjtkngsdqznpcuyybaoxqdefg
-appCountry: us
-released: 2018-02-27
-updated: 2021-05-22
+appId: 'com.app.prevumrmlkxicjvhbjtkngsdqznpcuyybaoxqdefg'
+appCountry: 'us'
+released: '2018-02-27'
+updated: '2021-05-22'
 version: '2.0'
 stars: 4.9
 ratings: 396
 reviews: 4
 size: 
-website: https://www.toolstrades.com
+website: 'https://www.toolstrades.com'
 repository: 
 issue: 
-icon: com.app.prevumrmlkxicjvhbjtkngsdqznpcuyybaoxqdefg.png
+icon: 'com.app.prevumrmlkxicjvhbjtkngsdqznpcuyybaoxqdefg.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-09-15
+date: '2023-09-15'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: ToolsTrades.com
+developerName: 'ToolsTrades.com'
 features: 
 
 ---

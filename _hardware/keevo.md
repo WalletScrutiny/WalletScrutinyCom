@@ -4,7 +4,7 @@ appId: keevo
 authors:
 - danny
 - kiwilamb
-released: 2020-10-01
+released: '2020-10-01'
 discontinued: 
 updated: 
 version: 
@@ -27,7 +27,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: 2023-04-04
+date: '2023-04-04'
 signer: 
 reviewArchive: 
 twitter: keevowallet

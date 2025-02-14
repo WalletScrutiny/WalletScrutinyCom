@@ -1,36 +1,35 @@
 ---
 wsId: 
-title: BITmarkets
+title: 'BITmarkets'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.bitmarkets.android.app
+appId: 'com.bitmarkets.android.app'
 appCountry: 
-released: 2022-10-04
-updated: 2025-02-06
-version: 3.3.7
+released: '2022-10-04'
+updated: 2025-02-13
+version: '3.3.8'
 stars: 4
 ratings: 
 reviews: 
-size: 
-website: https://www.bitmarkets.com/
+website: 'https://www.bitmarkets.com/'
 repository: 
 issue: 
-icon: com.bitmarkets.android.app.png
+icon: 'com.bitmarkets.android.app.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-08-09
+date: '2023-08-09'
 signer: 
 reviewArchive: 
-twitter: bitmarkets_com
+twitter: 'bitmarkets_com'
 social:
-- https://discord.com/invite/fNCXVKFtfB
-- https://www.facebook.com/bitmarketscom
+- 'https://discord.com/invite/fNCXVKFtfB'
+- 'https://www.facebook.com/bitmarketscom'
 redirect_from: 
-developerName: Unicorn Technologies Limited
+developerName: 'Unicorn Technologies Limited'
 features: 
 
 ---

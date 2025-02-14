@@ -7,9 +7,9 @@ authors:
 appId: io.coinCap.coinCap
 appCountry: us
 idd: '1074052280'
-released: 2016-01-25
-updated: 2021-10-13
-version: 3.1.33
+released: '2016-01-25'
+updated: '2021-10-13'
+version: '3.1.33'
 stars: 4.7
 reviews: 41417
 size: '69145600'
@@ -21,7 +21,7 @@ bugbounty:
 meta: obsolete
 verdict: nowallet
 appHashes: 
-date: 2023-10-06
+date: '2023-10-06'
 signer: 
 reviewArchive: 
 twitter: CoinCap_io

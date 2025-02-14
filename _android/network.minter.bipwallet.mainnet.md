@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: BIP Wallet
+title: 'BIP Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: network.minter.bipwallet.mainnet
+appId: 'network.minter.bipwallet.mainnet'
 appCountry: 
-released: 2019-05-13
-updated: 2022-06-12
-version: 2.4.1
+released: '2019-05-13'
+updated: '2022-06-12'
+version: '2.4.1'
 stars: 4.7
 ratings: 
 reviews: 23
 size: 
-website: https://minter.network
+website: 'https://minter.network'
 repository: 
 issue: 
-icon: network.minter.bipwallet.mainnet.png
+icon: 'network.minter.bipwallet.mainnet.png'
 bugbounty: 
-meta: removed
-verdict: nobtc
+meta: 'removed'
+verdict: 'nobtc'
 appHashes: 
-date: 2024-04-19
+date: '2024-04-19'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: DeCenter
+developerName: 'DeCenter'
 features: 
 
 ---

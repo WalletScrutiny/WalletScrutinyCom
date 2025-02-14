@@ -7,9 +7,9 @@ authors:
 appId: io.trustology.trustvault
 appCountry: ee
 idd: '1455959680'
-released: 2019-08-23
-updated: 2025-02-06
-version: 2.22.0
+released: '2019-08-23'
+updated: '2025-02-06'
+version: '2.22.0'
 stars: 0
 reviews: 0
 size: '66906112'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2023-12-15
+date: '2023-12-15'
 signer: 
 reviewArchive: 
 twitter: 

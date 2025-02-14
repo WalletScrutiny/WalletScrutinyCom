@@ -1,35 +1,35 @@
 ---
 wsId: 
-title: Folgory Merchant
+title: 'Folgory Merchant'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.app.folgory
+appId: 'com.app.folgory'
 appCountry: 
-released: 2019-08-14
-updated: 2019-08-14
+released: '2019-08-14'
+updated: '2019-08-14'
 version: '1.5'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://folgory.com/
+website: 'https://folgory.com/'
 repository: 
 issue: 
-icon: com.app.folgory.png
+icon: 'com.app.folgory.png'
 bugbounty: 
-meta: defunct
-verdict: wip
+meta: 'defunct'
+verdict: 'wip'
 appHashes: 
-date: 2023-05-11
+date: '2023-05-11'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://web.archive.org/web/20220821164624/https://folgory.com/
+- 'https://web.archive.org/web/20220821164624/https://folgory.com/'
 redirect_from: 
-developerName: Folgory
+developerName: 'Folgory'
 features: 
 
 ---

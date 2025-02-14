@@ -3,10 +3,10 @@ title: Bitkey
 appId: blockhww
 authors:
 - danny
-released: 2024-03-14
+released: '2024-03-14'
 discontinued: 
-updated: 2024-03-14
-version: 2024.50.0
+updated: '2024-03-14'
+version: '2024.50.0'
 binaries: https://github.com/proto-at-block/bitkey/
 dimensions:
 - 56
@@ -27,7 +27,7 @@ bugbounty: >-
 meta: ok
 verdict: noita
 appHashes: 
-date: 2024-03-14
+date: '2024-03-14'
 signer: 
 reviewArchive: 
 twitter: Bitkeyofficial

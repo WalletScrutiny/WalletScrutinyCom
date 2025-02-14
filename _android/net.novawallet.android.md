@@ -1,38 +1,37 @@
 ---
-wsId: vsolidusnova
-title: Nova Wallet
+wsId: 'vsolidusnova'
+title: 'Nova Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: net.novawallet.android
+appId: 'net.novawallet.android'
 appCountry: 
-released: 2021-10-25
+released: '2021-10-25'
 updated: 2022-07-26
-version: 2.2.5
+version: '2.2.5'
 stars: 4.9
 ratings: 
 reviews: 704
-size: 
-website: http://www.vsolidus.com/
+website: 'http://www.vsolidus.com/'
 repository: 
 issue: 
-icon: net.novawallet.android.png
+icon: 'net.novawallet.android.png'
 bugbounty: 
-meta: obsolete
-verdict: nosource
+meta: 'obsolete'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-17
+date: '2024-07-17'
 signer: 
 reviewArchive: 
-twitter: solidus_v
+twitter: 'solidus_v'
 social:
-- https://www.facebook.com/vsolidus
-- https://www.linkedin.com/company/vsolidus/
-- https://www.youtube.com/channel/UCEf9OP4qRMwmvJuLx1p6CCw
-- https://www.instagram.com/vsolidus/
+- 'https://www.facebook.com/vsolidus'
+- 'https://www.linkedin.com/company/vsolidus/'
+- 'https://www.youtube.com/channel/UCEf9OP4qRMwmvJuLx1p6CCw'
+- 'https://www.instagram.com/vsolidus/'
 redirect_from: 
-developerName: Nova Coin Ltd.
+developerName: 'Nova Coin Ltd.'
 features: 
 
 ---

@@ -7,9 +7,9 @@ authors:
 appId: com.iBTC.trade.hk
 appCountry: us
 idd: '1489679343'
-released: 2019-12-18
-updated: 2022-05-18
-version: 1.6.0
+released: '2019-12-18'
+updated: '2022-05-18'
+version: '1.6.0'
 stars: 0
 reviews: 0
 size: '28845056'
@@ -21,7 +21,7 @@ bugbounty:
 meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-10-07
+date: '2024-10-07'
 signer: 
 reviewArchive: 
 twitter: 

@@ -5,10 +5,10 @@ authors:
 - kiwilamb
 - danny
 - leo
-released: 2020-01-01
+released: '2020-01-01'
 discontinued: 
-updated: 2023-10-09
-version: 1.10.5
+updated: '2023-10-09'
+version: '1.10.5'
 binaries: 
 dimensions:
 - 41
@@ -28,7 +28,7 @@ bugbounty:
 meta: ok
 verdict: nonverifiable
 appHashes: []
-date: 2024-10-18
+date: '2024-10-18'
 signer: 
 reviewArchive: 
 twitter: tryProkey

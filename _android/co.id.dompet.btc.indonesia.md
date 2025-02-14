@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: Dompet Bitcoin Indonesia
+title: 'Dompet Bitcoin Indonesia'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 500000
-appId: co.id.dompet.btc.indonesia
+appId: 'co.id.dompet.btc.indonesia'
 appCountry: 
-released: 2017-01-15
-updated: 2021-10-26
-version: 2.4.9
+released: '2017-01-15'
+updated: '2021-10-26'
+version: '2.4.9'
 stars: 3.9
 ratings: 4803
 reviews: 31
 size: 
-website: https://www.indodax.com/
+website: 'https://www.indodax.com/'
 repository: 
 issue: 
-icon: co.id.dompet.btc.indonesia.png
+icon: 'co.id.dompet.btc.indonesia.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
-twitter: indodax
+twitter: 'indodax'
 social: 
 redirect_from:
-- /co.id.dompet.btc.indonesia/
+- '/co.id.dompet.btc.indonesia/'
 developerName: 
 features: 
 

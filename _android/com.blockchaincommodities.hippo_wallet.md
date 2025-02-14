@@ -1,43 +1,42 @@
 ---
-wsId: hippoCrypto
+wsId: 'hippoCrypto'
 title: 'Hippo: Crypto & Bitcoin Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.blockchaincommodities.hippo_wallet
+appId: 'com.blockchaincommodities.hippo_wallet'
 appCountry: 
-released: 2022-02-05
+released: '2022-02-05'
 updated: 2025-01-04
-version: 1.21.0
+version: '1.21.0'
 stars: 4.1
 ratings: 
 reviews: 16
-size: 
-website: https://hippowallet.io/
+website: 'https://hippowallet.io/'
 repository: 
 issue: 
-icon: com.blockchaincommodities.hippo_wallet.png
+icon: 'com.blockchaincommodities.hippo_wallet.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-24
+date: '2024-07-24'
 signer: 
 reviewArchive: 
-twitter: HippoWallet
+twitter: 'HippoWallet'
 social:
-- https://www.linkedin.com/company/hippo-wallet
-- https://www.facebook.com/hippowallet
-- https://www.youtube.com/@hippowallet
-- https://www.instagram.com/hippo_wallet
-- https://t.me/hippowallet
-- https://www.reddit.com/user/hippowallet
-- https://www.tumblr.com/hippowallet
-- https://discord.com/invite/5KW493NV8R
-- https://medium.com/@hippowallet
+- 'https://www.linkedin.com/company/hippo-wallet'
+- 'https://www.facebook.com/hippowallet'
+- 'https://www.youtube.com/@hippowallet'
+- 'https://www.instagram.com/hippo_wallet'
+- 'https://t.me/hippowallet'
+- 'https://www.reddit.com/user/hippowallet'
+- 'https://www.tumblr.com/hippowallet'
+- 'https://discord.com/invite/5KW493NV8R'
+- 'https://medium.com/@hippowallet'
 redirect_from: 
-developerName: Blockchain Commodities
+developerName: 'Blockchain Commodities'
 features: 
 
 ---

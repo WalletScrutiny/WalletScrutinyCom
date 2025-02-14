@@ -1,36 +1,35 @@
 ---
-wsId: swissborg
+wsId: 'swissborg'
 title: 'SwissBorg: Buy Bitcoin, crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 500000
-appId: com.swissborg.android
-appCountry: gb
-released: 2020-06-16
+appId: 'com.swissborg.android'
+appCountry: 'gb'
+released: '2020-06-16'
 updated: 2025-02-03
-version: 1.102.0
+version: '1.102.0'
 stars: 3.9
 ratings: 9203
 reviews: 952
-size: 
-website: https://swissborg.com
+website: 'https://swissborg.com'
 repository: 
 issue: 
-icon: com.swissborg.android.png
+icon: 'com.swissborg.android.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-08-27
+date: '2021-08-27'
 signer: 
 reviewArchive: 
-twitter: swissborg
+twitter: 'swissborg'
 social:
-- https://www.linkedin.com/company/swissborg
-- https://www.facebook.com/swissborg
+- 'https://www.linkedin.com/company/swissborg'
+- 'https://www.facebook.com/swissborg'
 redirect_from: 
-developerName: SwissBorg
+developerName: 'SwissBorg'
 features: 
 
 ---

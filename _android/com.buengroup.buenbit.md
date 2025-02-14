@@ -1,34 +1,33 @@
 ---
-wsId: buenbit
+wsId: 'buenbit'
 title: 'Buenbit: Invierte en el futuro'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 500000
-appId: com.buengroup.buenbit
+appId: 'com.buengroup.buenbit'
 appCountry: 
-released: 2021-12-30
+released: '2021-12-30'
 updated: 2025-02-06
-version: 3.27.0
+version: '3.27.0'
 stars: 3.7
 ratings: 
 reviews: 31
-size: 
-website: https://www.buenbit.com
+website: 'https://www.buenbit.com'
 repository: 
 issue: 
-icon: com.buengroup.buenbit.png
+icon: 'com.buengroup.buenbit.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-12-14
+date: '2023-12-14'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Fiat Flow Solutions
+developerName: 'Fiat Flow Solutions'
 features: 
 
 ---

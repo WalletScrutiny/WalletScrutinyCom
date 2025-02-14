@@ -4,9 +4,9 @@ appId: bitcoinpaperwallet
 authors:
 - danny
 - leo
-released: 2013-04-14
+released: '2013-04-14'
 discontinued: 
-updated: 2017-09-22
+updated: '2017-09-22'
 version: 
 binaries: 
 dimensions: 
@@ -24,7 +24,7 @@ bugbounty:
 meta: ok
 verdict: plainkey
 appHashes: 
-date: 2022-05-04
+date: '2022-05-04'
 signer: 
 reviewArchive: 
 twitter: 

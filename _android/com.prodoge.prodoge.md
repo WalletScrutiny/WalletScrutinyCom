@@ -1,34 +1,33 @@
 ---
-wsId: alxCryptoWallet
-title: ALX Wallet
+wsId: 'alxCryptoWallet'
+title: 'ALX Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.prodoge.prodoge
+appId: 'com.prodoge.prodoge'
 appCountry: 
-released: 2019-09-17
+released: '2019-09-17'
 updated: 2024-07-19
 version: '3.35'
 stars: 5
 ratings: 
 reviews: 5
-size: 
-website: https://alxwallet.com
+website: 'https://alxwallet.com'
 repository: 
 issue: 
-icon: com.prodoge.prodoge.png
+icon: 'com.prodoge.prodoge.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-25
+date: '2024-07-25'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: ALXWallet.com
+developerName: 'ALXWallet.com'
 features: 
 
 ---

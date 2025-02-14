@@ -3,9 +3,9 @@ title: JamesOB Cold Core
 appId: coldcore
 authors:
 - danny
-released: 2020-12-12
+released: '2020-12-12'
 discontinued: 
-updated: 2024-01-10
+updated: '2024-01-10'
 version: 
 binaries: 
 provider: JamesOB
@@ -17,7 +17,7 @@ icon:
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2024-05-09
+date: '2024-05-09'
 reviewArchive: 
 twitter: 
 social: 

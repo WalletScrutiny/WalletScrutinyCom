@@ -1,36 +1,35 @@
 ---
-wsId: Coinmotion
+wsId: 'Coinmotion'
 title: 'Coinmotion: Buy Bitcoin Easily'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.coinmotion
-appCountry: in
-released: 2020-08-20
+appId: 'com.coinmotion'
+appCountry: 'in'
+released: '2020-08-20'
 updated: 2025-01-02
-version: 1.11.7
+version: '1.11.7'
 stars: 4.2
 ratings: 
 reviews: 
-size: 
-website: https://coinmotion.com/
+website: 'https://coinmotion.com/'
 repository: 
 issue: 
-icon: com.coinmotion.png
+icon: 'com.coinmotion.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-10-19
+date: '2021-10-19'
 signer: 
 reviewArchive: 
-twitter: Coinmotion
+twitter: 'Coinmotion'
 social:
-- https://www.linkedin.com/company/coinmotion
-- https://www.facebook.com/coinmotion
+- 'https://www.linkedin.com/company/coinmotion'
+- 'https://www.facebook.com/coinmotion'
 redirect_from: 
-developerName: Coinmotion Oy
+developerName: 'Coinmotion Oy'
 features: 
 
 ---

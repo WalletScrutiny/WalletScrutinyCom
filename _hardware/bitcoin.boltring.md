@@ -3,7 +3,7 @@ title: Bitcoin BoltRing
 appId: bitcoin.boltring
 authors:
 - danny
-released: 2023-07-22
+released: '2023-07-22'
 discontinued: 
 updated: 
 version: 
@@ -24,10 +24,10 @@ bugbounty:
 meta: ok
 verdict: nowallet
 appHashes: []
-date: 2023-12-11
+date: '2023-12-11'
 signer: 
 reviewArchive:
-- date: 2023-02-07
+- date: '2023-02-07'
   version: 
   appHashes: []
   gitRevision: 77948be1370e50d2b79fdd154ace87768fbe27c1

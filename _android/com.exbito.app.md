@@ -1,37 +1,37 @@
 ---
 wsId: 
-title: Exbito
+title: 'Exbito'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.exbito.app
+appId: 'com.exbito.app'
 appCountry: 
-released: 2021-10-17
-updated: 2024-05-05
-version: 2.1.3
+released: '2021-10-17'
+updated: '2024-05-05'
+version: '2.1.3'
 stars: 4.7
 ratings: 
 reviews: 30
 size: 
-website: https://exbito.com
+website: 'https://exbito.com'
 repository: 
 issue: 
-icon: com.exbito.app.png
+icon: 'com.exbito.app.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-07-20
+date: '2023-07-20'
 signer: 
 reviewArchive: 
-twitter: ExbitoMarket
+twitter: 'ExbitoMarket'
 social:
-- https://t.me/exbitomarket
-- https://www.instagram.com/exbitomarket1
-- https://www.linkedin.com/company/exbito
+- 'https://t.me/exbitomarket'
+- 'https://www.instagram.com/exbitomarket1'
+- 'https://www.linkedin.com/company/exbito'
 redirect_from: 
-developerName: Exbito
+developerName: 'Exbito'
 features: 
 
 ---

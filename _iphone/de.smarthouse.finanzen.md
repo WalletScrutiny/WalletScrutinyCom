@@ -7,9 +7,9 @@ authors:
 appId: de.smarthouse.finanzen
 appCountry: us
 idd: '291973577'
-released: 2008-11-21
-updated: 2025-02-07
-version: 8.0.3
+released: '2008-11-21'
+updated: '2025-02-07'
+version: '8.0.3'
 stars: 4.7
 reviews: 272
 size: '222574592'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nosendreceive
 appHashes: 
-date: 2022-06-23
+date: '2022-06-23'
 signer: 
 reviewArchive: 
 twitter: FinanzenNet

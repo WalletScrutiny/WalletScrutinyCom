@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: UniMe - Privacy Messaging
+title: 'UniMe - Privacy Messaging'
 altTitle: 
 authors: 
 users: 1000
-appId: org.unime.securesms
+appId: 'org.unime.securesms'
 appCountry: 
-released: 2021-03-28
-updated: 2022-11-01
-version: 4.3.0
+released: '2021-03-28'
+updated: '2022-11-01'
+version: '4.3.0'
 stars: 5
 ratings: 
 reviews: 19
 size: 
-website: https://about.unime.world/
+website: 'https://about.unime.world/'
 repository: 
 issue: 
-icon: org.unime.securesms.png
+icon: 'org.unime.securesms.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2023-03-21
+date: '2023-03-21'
 signer: 
 reviewArchive: 
 twitter: 

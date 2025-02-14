@@ -1,36 +1,35 @@
 ---
 wsId: 
-title: Arzypto
+title: 'Arzypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.arzypto.my
+appId: 'com.arzypto.my'
 appCountry: 
-released: 2020-08-15
+released: '2020-08-15'
 updated: 2025-01-11
-version: 2.4.8
+version: '2.4.8'
 stars: 4.6
 ratings: 
 reviews: 6
-size: 
-website: https://arzypto.com
+website: 'https://arzypto.com'
 repository: 
 issue: 
-icon: com.arzypto.my.png
+icon: 'com.arzypto.my.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-06-30
+date: '2023-06-30'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://www.linkedin.com/company/arzypto
-- https://t.me/Arzypto
+- 'https://www.linkedin.com/company/arzypto'
+- 'https://t.me/Arzypto'
 redirect_from: 
-developerName: Arzypto
+developerName: 'Arzypto'
 features: 
 
 ---

@@ -1,78 +1,77 @@
 ---
-wsId: edge
-title: Edge - Bitcoin & Crypto Wallet
+wsId: 'edge'
+title: 'Edge - Bitcoin & Crypto Wallet'
 altTitle: 
 authors:
-- leo
-- emanuel
-- danny
-- keraliss
+- 'leo'
+- 'emanuel'
+- 'danny'
+- 'keraliss'
 users: 500000
-appId: co.edgesecure.app
+appId: 'co.edgesecure.app'
 appCountry: 
-released: 2018-03-01
+released: '2018-03-01'
 updated: 2025-02-06
-version: 4.21.2
+version: '4.21.2'
 stars: 4.2
 ratings: 3880
 reviews: 685
-size: 
-website: https://edge.app
-repository: https://github.com/EdgeApp/edge-react-gui
-issue: https://github.com/EdgeApp/edge-react-gui/issues/1748
-icon: co.edgesecure.app.png
+website: 'https://edge.app'
+repository: 'https://github.com/EdgeApp/edge-react-gui'
+issue: 'https://github.com/EdgeApp/edge-react-gui/issues/1748'
+icon: 'co.edgesecure.app.png'
 bugbounty: 
-meta: ok
-verdict: nonverifiable
+meta: 'ok'
+verdict: 'nonverifiable'
 appHashes: []
-date: 2024-10-25
-signer: 8cd6a12e3dc595964fabcbe82341e28f4a2a4ac6a347fcbead488b76faa7e186
+date: '2024-10-25'
+signer: '8cd6a12e3dc595964fabcbe82341e28f4a2a4ac6a347fcbead488b76faa7e186'
 reviewArchive:
-- date: 2024-10-25
-  version: 4.15.0
+- date: '2024-10-25'
+  version: '4.15.0'
   appHashes:
-  - 66342d9ece392d2245abc2ff175ffdb6d800fa3d0b659eb6b62f888e041dab7e
-  verdict: nonverifiable
-- date: 2024-09-10
-  version: 4.12.0
+  - '66342d9ece392d2245abc2ff175ffdb6d800fa3d0b659eb6b62f888e041dab7e'
+  verdict: 'nonverifiable'
+- date: '2024-09-10'
+  version: '4.12.0'
   appHashes: []
-  gitRevision: 9c4ef037108f6052a46ebc8dcceac81464d17981
-  verdict: nonverifiable
-- date: 2023-07-26
-  version: 4.8.0
+  gitRevision: '9c4ef037108f6052a46ebc8dcceac81464d17981'
+  verdict: 'nonverifiable'
+- date: '2023-07-26'
+  version: '4.8.0'
   appHashes: []
-  gitRevision: 3703a5d0543f672252f7b37e5636a9e40c3b6e5e
-  verdict: nonverifiable
-- date: 2023-10-31
-  version: 3.2.0
+  gitRevision: '3703a5d0543f672252f7b37e5636a9e40c3b6e5e'
+  verdict: 'nonverifiable'
+- date: '2023-10-31'
+  version: '3.2.0'
   appHashes: []
-  gitRevision: bc81fe15c5fe7520ba3836d58de315d288559d27
-  verdict: nonverifiable
-- date: 2022-11-02
-  version: 2.25.0
+  gitRevision: 'bc81fe15c5fe7520ba3836d58de315d288559d27'
+  verdict: 'nonverifiable'
+- date: '2022-11-02'
+  version: '2.25.0'
   appHashes: []
-  gitRevision: 40f08fdf8b2ed3762dba004a2500fa19b5a5eb02
-  verdict: ftbfs
-- date: 2022-03-13
-  version: 2.12.0
+  gitRevision: '40f08fdf8b2ed3762dba004a2500fa19b5a5eb02'
+  verdict: 'ftbfs'
+- date: '2022-03-13'
+  version: '2.12.0'
   appHashes: []
-  gitRevision: 26a46f55d9739ede4c8b778ac3ae1ce6c91995b9
-  verdict: ftbfs
-- date: 2019-11-10
-  version: 1.10.1
+  gitRevision: '26a46f55d9739ede4c8b778ac3ae1ce6c91995b9'
+  verdict: 'ftbfs'
+- date: '2019-11-10'
+  version: '1.10.1'
   appHashes: []
-  gitRevision: 1707808e9efc2ab4ea3a03510ebd408811586d47
-  verdict: nonverifiable
-twitter: edgewallet
+  gitRevision: '1707808e9efc2ab4ea3a03510ebd408811586d47'
+  verdict: 'nonverifiable'
+twitter: 'edgewallet'
 social:
-- https://www.linkedin.com/company/edgeapp
-- https://www.reddit.com/r/EdgeWallet
+- 'https://www.linkedin.com/company/edgeapp'
+- 'https://www.reddit.com/r/EdgeWallet'
 redirect_from:
-- /edge/
-- /co.edgesecure.app/
-- /posts/2019/11/edge/
-- /posts/co.edgesecure.app/
-developerName: Edge (formerly Airbitz)
+- '/edge/'
+- '/co.edgesecure.app/'
+- '/posts/2019/11/edge/'
+- '/posts/co.edgesecure.app/'
+developerName: 'Edge (formerly Airbitz)'
 features: 
 
 ---

@@ -1,35 +1,34 @@
 ---
-wsId: imToken
+wsId: 'imToken'
 title: 'imToken: BTC & ETH Wallet'
 altTitle: 
 authors:
-- leo
-- danny
+- 'leo'
+- 'danny'
 users: 1000000
-appId: im.token.app
+appId: 'im.token.app'
 appCountry: 
-released: 2018-05-31
+released: '2018-05-31'
 updated: 2025-02-05
-version: 2.16.3
+version: '2.16.3'
 stars: 4.3
 ratings: 4350
 reviews: 231
-size: 
-website: https://token.im
+website: 'https://token.im'
 repository: 
-issue: https://github.com/consenlabs/token-core/issues/97
-icon: im.token.app.png
+issue: 'https://github.com/consenlabs/token-core/issues/97'
+icon: 'im.token.app.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-15
+date: '2024-07-15'
 signer: 
 reviewArchive: 
-twitter: imTokenOfficial
+twitter: 'imTokenOfficial'
 social: 
 redirect_from: 
-developerName: IMTOKEN PTE.LTD.
+developerName: 'IMTOKEN PTE.LTD.'
 features: 
 
 ---

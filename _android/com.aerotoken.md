@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Aerotoken
+title: 'Aerotoken'
 altTitle: 
 authors: 
 users: 100
-appId: com.aerotoken
+appId: 'com.aerotoken'
 appCountry: 
 released: 
-updated: 2020-05-26
-version: VARY
+updated: '2020-05-26'
+version: 'VARY'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://aerotoken.org/
+website: 'https://aerotoken.org/'
 repository: 
 issue: 
-icon: com.aerotoken.png
+icon: 'com.aerotoken.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
 twitter: 

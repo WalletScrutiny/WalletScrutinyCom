@@ -3,34 +3,34 @@ wsId:
 title: 'Covo: Crypto DeFi Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: io.android.titanwallet
+appId: 'io.android.titanwallet'
 appCountry: 
-released: 2022-05-07
-updated: 2023-03-28
-version: 1.0.6
+released: '2022-05-07'
+updated: '2023-03-28'
+version: '1.0.6'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://covo.finance
+website: 'https://covo.finance'
 repository: 
 issue: 
-icon: io.android.titanwallet.png
+icon: 'io.android.titanwallet.png'
 bugbounty: 
-meta: removed
-verdict: nobtc
+meta: 'removed'
+verdict: 'nobtc'
 appHashes: 
-date: 2024-12-08
+date: '2024-12-08'
 signer: 
 reviewArchive: 
-twitter: covofinance
+twitter: 'covofinance'
 social:
-- https://covo-finance.gitbook.io/covo
-- https://t.me/COVO_FINANCE
+- 'https://covo-finance.gitbook.io/covo'
+- 'https://t.me/COVO_FINANCE'
 redirect_from: 
-developerName: Covo Wallet
+developerName: 'Covo Wallet'
 features: 
 
 ---

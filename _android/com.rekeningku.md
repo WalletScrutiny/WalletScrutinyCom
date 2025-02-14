@@ -1,36 +1,35 @@
 ---
-wsId: rekeningku
-title: Reku - Beli Kripto & Saham AS
+wsId: 'rekeningku'
+title: 'Reku - Beli Kripto & Saham AS'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 500000
-appId: com.rekeningku
-appCountry: us
-released: 2018-02-21
-updated: 2025-02-08
-version: 4.2.01
+appId: 'com.rekeningku'
+appCountry: 'us'
+released: '2018-02-21'
+updated: 2025-02-12
+version: '4.2.02'
 stars: 4.3
 ratings: 22977
 reviews: 50
-size: 
-website: https://reku.id
+website: 'https://reku.id'
 repository: 
 issue: 
-icon: com.rekeningku.jpg
+icon: 'com.rekeningku.jpg'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-08-27
+date: '2021-08-27'
 signer: 
 reviewArchive: 
-twitter: Rekeningkucom
+twitter: 'Rekeningkucom'
 social:
-- https://www.linkedin.com/company/rekeningku-com
-- https://www.facebook.com/Rekeningkucom
+- 'https://www.linkedin.com/company/rekeningku-com'
+- 'https://www.facebook.com/Rekeningkucom'
 redirect_from: 
-developerName: PT Rekeningku Dotcom Indonesia
+developerName: 'PT Rekeningku Dotcom Indonesia'
 features: 
 
 ---

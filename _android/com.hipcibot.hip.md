@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: Hipcibot
+title: 'Hipcibot'
 altTitle: 
 authors: 
 users: 10
-appId: com.hipcibot.hip
+appId: 'com.hipcibot.hip'
 appCountry: 
-released: 2021-03-01
-updated: 2021-03-01
-version: 0.0.1
+released: '2021-03-01'
+updated: '2021-03-01'
+version: '0.0.1'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.hipcibot.com
+website: 'https://www.hipcibot.com'
 repository: 
 issue: 
-icon: com.hipcibot.hip.png
+icon: 'com.hipcibot.hip.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-05-10
+date: '2023-05-10'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Smart Crypto Studio
+developerName: 'Smart Crypto Studio'
 features: 
 
 ---

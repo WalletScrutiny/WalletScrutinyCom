@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: Hamrasta Cryptocurrency Market
+title: 'Hamrasta Cryptocurrency Market'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.hamrasta.hwallet
+appId: 'com.hamrasta.hwallet'
 appCountry: 
-released: 2019-09-22
-updated: 2020-08-03
+released: '2019-09-22'
+updated: '2020-08-03'
 version: '2.7'
 stars: 4.1
 ratings: 135
 reviews: 7
 size: 
-website: https://hamrasta.com/hamrastamarket/
+website: 'https://hamrasta.com/hamrastamarket/'
 repository: 
 issue: 
-icon: com.hamrasta.hwallet.png
+icon: 'com.hamrasta.hwallet.png'
 bugbounty: 
-meta: defunct
-verdict: wip
+meta: 'defunct'
+verdict: 'wip'
 appHashes: 
-date: 2023-08-07
+date: '2023-08-07'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Hamrasta
+developerName: 'Hamrasta'
 features: 
 
 ---

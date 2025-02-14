@@ -1,37 +1,37 @@
 ---
 wsId: 
-title: Lopeer - Borderless Banking
+title: 'Lopeer - Borderless Banking'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.lopeer.lopeer
+appId: 'com.lopeer.lopeer'
 appCountry: 
-released: 2022-08-13
-updated: 2023-12-05
-version: 2.2.7
+released: '2022-08-13'
+updated: '2023-12-05'
+version: '2.2.7'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.lopeer.com
+website: 'https://www.lopeer.com'
 repository: 
 issue: 
-icon: com.lopeer.lopeer.png
+icon: 'com.lopeer.lopeer.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-09-25
+date: '2024-09-25'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/lopeerApp
-- https://t.me/+HtDHSJ21tYg5Mzhk
-- https://www.linkedin.com/company/lopeer/
+- 'https://www.facebook.com/lopeerApp'
+- 'https://t.me/+HtDHSJ21tYg5Mzhk'
+- 'https://www.linkedin.com/company/lopeer/'
 redirect_from: 
-developerName: Librium
+developerName: 'Librium'
 features: 
 
 ---

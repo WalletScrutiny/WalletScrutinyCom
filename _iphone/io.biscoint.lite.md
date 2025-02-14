@@ -7,9 +7,9 @@ authors:
 appId: io.biscoint.lite
 appCountry: br
 idd: '1588152503'
-released: 2022-02-09
-updated: 2025-02-04
-version: 2.7.11
+released: '2022-02-09'
+updated: '2025-02-04'
+version: '2.7.11'
 stars: 4.9
 reviews: 6478
 size: '86265856'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nosendreceive
 appHashes: 
-date: 2023-03-02
+date: '2023-03-02'
 signer: 
 reviewArchive: 
 twitter: BityOficial

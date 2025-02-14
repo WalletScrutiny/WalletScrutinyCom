@@ -1,39 +1,39 @@
 ---
-wsId: crossTowerIn
-title: CrossTower
+wsId: 'crossTowerIn'
+title: 'CrossTower'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.crosstower.india
+appId: 'com.crosstower.india'
 appCountry: 
-released: 2021-09-08
-updated: 2023-04-02
+released: '2021-09-08'
+updated: '2023-04-02'
 version: '3.27'
 stars: 3.9
 ratings: 
 reviews: 2
 size: 
-website: https://www.crosstower.com
+website: 'https://www.crosstower.com'
 repository: 
 issue: 
-icon: com.crosstower.india.png
+icon: 'com.crosstower.india.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-08-04
+date: '2023-08-04'
 signer: 
 reviewArchive: 
-twitter: CrossTowerIndia
+twitter: 'CrossTowerIndia'
 social:
-- https://www.linkedin.com/company/crosstower-india/
-- https://www.facebook.com/CrossTowerIndia/
-- https://www.youtube.com/channel/UCRaFpvWGxdMJTMDvYadc7hA
-- https://www.instagram.com/crosstowerindia/
-- https://www.youtube.com/channel/UCRaFpvWGxdMJTMDvYadc7hA
+- 'https://www.linkedin.com/company/crosstower-india/'
+- 'https://www.facebook.com/CrossTowerIndia/'
+- 'https://www.youtube.com/channel/UCRaFpvWGxdMJTMDvYadc7hA'
+- 'https://www.instagram.com/crosstowerindia/'
+- 'https://www.youtube.com/channel/UCRaFpvWGxdMJTMDvYadc7hA'
 redirect_from: 
-developerName: Crosstower
+developerName: 'Crosstower'
 features: 
 
 ---

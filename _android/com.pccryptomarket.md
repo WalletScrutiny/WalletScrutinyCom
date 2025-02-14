@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: PC Crypto Market
+title: 'PC Crypto Market'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.pccryptomarket
+appId: 'com.pccryptomarket'
 appCountry: 
-released: 2019-08-18
-updated: 2019-08-31
+released: '2019-08-18'
+updated: '2019-08-31'
 version: '1.2'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.pccryptomarket.com
+website: 'https://www.pccryptomarket.com'
 repository: 
 issue: 
-icon: com.pccryptomarket.png
+icon: 'com.pccryptomarket.png'
 bugbounty: 
-meta: defunct
-verdict: wip
+meta: 'defunct'
+verdict: 'wip'
 appHashes: 
-date: 2023-05-31
+date: '2023-05-31'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: PC Crypto Market
+developerName: 'PC Crypto Market'
 features: 
 
 ---

@@ -3,32 +3,32 @@ wsId:
 title: 'Growspace: Crypto Index Fund'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.growspace.com
+appId: 'com.growspace.com'
 appCountry: 
-released: 2022-09-23
-updated: 2022-12-21
-version: 1.0.19
+released: '2022-09-23'
+updated: '2022-12-21'
+version: '1.0.19'
 stars: 4.4
 ratings: 
 reviews: 
 size: 
-website: https://growspace.ai
+website: 'https://growspace.ai'
 repository: 
 issue: 
-icon: com.growspace.com.png
+icon: 'com.growspace.com.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2025-01-09
+date: '2025-01-09'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Growspace Digital
+developerName: 'Growspace Digital'
 features: 
 
 ---

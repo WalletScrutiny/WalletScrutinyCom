@@ -3,10 +3,10 @@ title: Sparrow Wallet
 appId: sparrow
 authors:
 - danny
-released: 2020-09-02
+released: '2020-09-02'
 discontinued: 
-updated: 2024-04-25
-version: 1.8.6
+updated: '2024-04-25'
+version: '1.8.6'
 binaries: 
 provider: Craig Raw
 providerWebsite: 
@@ -17,7 +17,7 @@ icon: sparrow.png
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2024-04-25
+date: '2024-04-25'
 reviewArchive: 
 twitter: SparrowWallet
 social: 

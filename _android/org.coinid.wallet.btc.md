@@ -1,36 +1,36 @@
 ---
-wsId: COINiDwallet
-title: Bitcoin Wallet for COINiD
+wsId: 'COINiDwallet'
+title: 'Bitcoin Wallet for COINiD'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 10000
-appId: org.coinid.wallet.btc
+appId: 'org.coinid.wallet.btc'
 appCountry: 
-released: 2018-10-14
-updated: 2021-02-20
-version: 1.8.0
+released: '2018-10-14'
+updated: '2021-02-20'
+version: '1.8.0'
 stars: 4.4
 ratings: 
 reviews: 5
 size: 
-website: https://coinid.org
-repository: https://github.com/COINiD/COINiDWallet
-issue: https://github.com/COINiD/COINiDWallet/issues/24
-icon: org.coinid.wallet.btc.png
+website: 'https://coinid.org'
+repository: 'https://github.com/COINiD/COINiDWallet'
+issue: 'https://github.com/COINiD/COINiDWallet/issues/24'
+icon: 'org.coinid.wallet.btc.png'
 bugbounty: 
-meta: removed
-verdict: ftbfs
+meta: 'removed'
+verdict: 'ftbfs'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
-twitter: COINiDGroup
+twitter: 'COINiDGroup'
 social: 
 redirect_from:
-- /org.coinid.wallet.btc/
-- /posts/org.coinid.wallet.btc/
-developerName: COINiD Group
+- '/org.coinid.wallet.btc/'
+- '/posts/org.coinid.wallet.btc/'
+developerName: 'COINiD Group'
 features: 
 
 ---

@@ -3,7 +3,7 @@ title: Jolt Wallet
 appId: jolt
 authors:
 - danny
-released: 2018-05-13
+released: '2018-05-13'
 discontinued: 
 updated: 
 version: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: vapor
 appHashes: 
-date: 2022-04-11
+date: '2022-04-11'
 signer: 
 reviewArchive: 
 twitter: JoltWallet

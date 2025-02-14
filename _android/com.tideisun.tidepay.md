@@ -1,34 +1,34 @@
 ---
-wsId: iSunOne
-title: iSunOne – Spend Cryptos and Tokens in a Card
+wsId: 'iSunOne'
+title: 'iSunOne – Spend Cryptos and Tokens in a Card'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.tideisun.tidepay
-appCountry: us
-released: 2018-05-23
-updated: 2021-07-20
-version: 2.1.3
+appId: 'com.tideisun.tidepay'
+appCountry: 'us'
+released: '2018-05-23'
+updated: '2021-07-20'
+version: '2.1.3'
 stars: 
 ratings: 
 reviews: 
-size: 71M
-website: https://isun.one
+size: '71M'
+website: 'https://isun.one'
 repository: 
 issue: 
-icon: com.tideisun.tidepay.png
+icon: 'com.tideisun.tidepay.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2022-04-07
+date: '2022-04-07'
 signer: 
 reviewArchive: 
-twitter: isunone1
+twitter: 'isunone1'
 social:
-- https://www.linkedin.com/company/isunone
-- https://www.facebook.com/iSunOne
+- 'https://www.linkedin.com/company/isunone'
+- 'https://www.facebook.com/iSunOne'
 redirect_from: 
 developerName: 
 features: 

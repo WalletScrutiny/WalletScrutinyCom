@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: ADT NG
+title: 'ADT NG'
 altTitle: 
 authors: 
 users: 50
-appId: adt.ng.app
+appId: 'adt.ng.app'
 appCountry: 
-released: 2021-05-22
-updated: 2021-05-14
+released: '2021-05-22'
+updated: '2021-05-14'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://codecraftng.com
+website: 'https://codecraftng.com'
 repository: 
 issue: 
-icon: adt.ng.app.png
+icon: 'adt.ng.app.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-02-05
+date: '2024-02-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: SAMORA BOT
+developerName: 'SAMORA BOT'
 features: 
 
 ---

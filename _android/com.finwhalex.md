@@ -1,15 +1,15 @@
 ---
 wsId: 
-title: FinWhaleX
+title: 'FinWhaleX'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.finwhalex
+appId: 'com.finwhalex'
 appCountry: 
 released: 
-updated: 2020-04-07
-version: VARY
+updated: '2020-04-07'
+version: 'VARY'
 stars: 
 ratings: 
 reviews: 
@@ -17,20 +17,20 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.finwhalex.png
+icon: 'com.finwhalex.png'
 bugbounty: 
-meta: defunct
-verdict: wip
+meta: 'defunct'
+verdict: 'wip'
 appHashes: 
-date: 2023-05-25
+date: '2023-05-25'
 signer: 
 reviewArchive: 
-twitter: finwhalex
+twitter: 'finwhalex'
 social:
-- https://finwhalex.com
-- https://www.facebook.com/FinWhaleX
+- 'https://finwhalex.com'
+- 'https://www.facebook.com/FinWhaleX'
 redirect_from: 
-developerName: FinWhaleX PTE. LTD.
+developerName: 'FinWhaleX PTE. LTD.'
 features: 
 
 ---

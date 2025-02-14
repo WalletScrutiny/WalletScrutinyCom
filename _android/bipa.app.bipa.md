@@ -1,34 +1,33 @@
 ---
-wsId: bipaBR
-title: Bipa - Pix, Bitcoin & USDT
+wsId: 'bipaBR'
+title: 'Bipa - Pix, Bitcoin & USDT'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: bipa.app.bipa
+appId: 'bipa.app.bipa'
 appCountry: 
-released: 2021-01-18
+released: '2021-01-18'
 updated: 2025-01-14
-version: 4.0.2
+version: '4.0.2'
 stars: 4.4
 ratings: 
 reviews: 12
-size: 
-website: https://bipa.app/
+website: 'https://bipa.app/'
 repository: 
 issue: 
-icon: bipa.app.bipa.png
+icon: 'bipa.app.bipa.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-06-14
+date: '2023-06-14'
 signer: 
 reviewArchive: 
-twitter: usebipa
+twitter: 'usebipa'
 social: 
 redirect_from: 
-developerName: Bipa
+developerName: 'Bipa'
 features: 
 
 ---

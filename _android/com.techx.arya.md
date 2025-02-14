@@ -1,36 +1,36 @@
 ---
-wsId: aryainvest
+wsId: 'aryainvest'
 title: 'ARYA: Investor Community'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.techx.arya
-appCountry: us
-released: 2019-09-10
-updated: 2023-04-11
-version: 2.21.0
+appId: 'com.techx.arya'
+appCountry: 'us'
+released: '2019-09-10'
+updated: '2023-04-11'
+version: '2.21.0'
 stars: 3.7
 ratings: 379
 reviews: 6
 size: 
-website: https://www.aryatrading.com
+website: 'https://www.aryatrading.com'
 repository: 
 issue: 
-icon: com.techx.arya.png
+icon: 'com.techx.arya.png'
 bugbounty: 
-meta: stale
-verdict: nowallet
+meta: 'stale'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-04-09
+date: '2024-04-09'
 signer: 
 reviewArchive: 
-twitter: TheAryaApp
+twitter: 'TheAryaApp'
 social:
-- https://www.linkedin.com/company/thearyaapp
-- https://www.facebook.com/WeloveArya
+- 'https://www.linkedin.com/company/thearyaapp'
+- 'https://www.facebook.com/WeloveArya'
 redirect_from: 
-developerName: TECHX FZ LLC
+developerName: 'TECHX FZ LLC'
 features: 
 
 ---

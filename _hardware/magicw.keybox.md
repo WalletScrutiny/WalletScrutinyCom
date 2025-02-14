@@ -3,10 +3,10 @@ title: MagicW Keybox
 appId: magicw.keybox
 authors:
 - danny
-released: 2018-11-01
+released: '2018-11-01'
 discontinued: 
-updated: 2018-11-22
-version: 0.3.0
+updated: '2018-11-22'
+version: '0.3.0'
 binaries: https://github.com/KeyboxWallet/keyboxd/releases
 dimensions: 
 weight: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: 2023-03-03
+date: '2023-03-03'
 signer: 
 reviewArchive: 
 twitter: 

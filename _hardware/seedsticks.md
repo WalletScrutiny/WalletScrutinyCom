@@ -3,7 +3,7 @@ title: SeedSticks
 appId: seedsticks
 authors:
 - danny
-released: 2022-08-08
+released: '2022-08-08'
 discontinued: 
 updated: 
 version: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: nowallet
 appHashes: 
-date: 2023-03-03
+date: '2023-03-03'
 signer: 
 reviewArchive: 
 twitter: seedsticks_org

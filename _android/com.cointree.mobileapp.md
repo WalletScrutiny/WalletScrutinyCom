@@ -1,38 +1,37 @@
 ---
-wsId: cointreeMobile
-title: Cointree - Buy Bitcoin Easily
+wsId: 'cointreeMobile'
+title: 'Cointree - Buy Bitcoin Easily'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.cointree.mobileapp
+appId: 'com.cointree.mobileapp'
 appCountry: 
-released: 2022-10-12
+released: '2022-10-12'
 updated: 2024-03-18
-version: 1.2.6
+version: '1.2.6'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://www.cointree.com/
+website: 'https://www.cointree.com/'
 repository: 
 issue: 
-icon: com.cointree.mobileapp.png
-bugbounty: https://www.cointree.com/company/bug-bounty
-meta: ok
-verdict: custodial
+icon: 'com.cointree.mobileapp.png'
+bugbounty: 'https://www.cointree.com/company/bug-bounty'
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-09-06
+date: '2023-09-06'
 signer: 
 reviewArchive: 
-twitter: CointreeAus
+twitter: 'CointreeAus'
 social:
-- https://www.linkedin.com/company/cointree
-- https://www.instagram.com/cointreeofficial
-- https://www.facebook.com/cointreeofficial
-- https://www.youtube.com/channel/UCLalEIAi3vO59xscJarTtqQ
+- 'https://www.linkedin.com/company/cointree'
+- 'https://www.instagram.com/cointreeofficial'
+- 'https://www.facebook.com/cointreeofficial'
+- 'https://www.youtube.com/channel/UCLalEIAi3vO59xscJarTtqQ'
 redirect_from: 
-developerName: Cointree
+developerName: 'Cointree'
 features: 
 
 ---

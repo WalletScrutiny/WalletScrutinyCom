@@ -3,7 +3,7 @@ title: iCoin Technology Hardware Wallet
 appId: icointechnology.hwallet
 authors:
 - danny
-released: 2022-03-24
+released: '2022-03-24'
 discontinued: 
 updated: 
 version: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: 2022-05-19
+date: '2022-05-19'
 signer: 
 reviewArchive: 
 twitter: 

@@ -3,34 +3,34 @@ wsId:
 title: 'COBINHOOD - Zero Fees Bitcoin '
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 50000
-appId: com.cobinhood.exchange
+appId: 'com.cobinhood.exchange'
 appCountry: 
-released: 2017-12-25
-updated: 2019-04-29
-version: 3.50.1
+released: '2017-12-25'
+updated: '2019-04-29'
+version: '3.50.1'
 stars: 2.8
 ratings: 648
 reviews: 118
 size: 
-website: https://cobinhood.com
+website: 'https://cobinhood.com'
 repository: 
 issue: 
-icon: com.cobinhood.exchange.png
+icon: 'com.cobinhood.exchange.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-02-05
+date: '2024-02-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from:
-- /com.cobinhood.exchange/
-- /posts/com.cobinhood.exchange/
-developerName: COBINHOOD, Ltd.
+- '/com.cobinhood.exchange/'
+- '/posts/com.cobinhood.exchange/'
+developerName: 'COBINHOOD, Ltd.'
 features: 
 
 ---

@@ -1,36 +1,35 @@
 ---
-wsId: vynksafeCryptoExchange
-title: VYNKSAFE
+wsId: 'vynksafeCryptoExchange'
+title: 'VYNKSAFE'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.vynksafe.app
+appId: 'com.vynksafe.app'
 appCountry: 
-released: 2022-05-31
+released: '2022-05-31'
 updated: 2024-02-05
 version: '2.6'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://vynksafe.com/
+website: 'https://vynksafe.com/'
 repository: 
 issue: 
-icon: com.vynksafe.app.png
+icon: 'com.vynksafe.app.png'
 bugbounty: 
-meta: stale
-verdict: custodial
+meta: 'stale'
+verdict: 'custodial'
 appHashes: 
-date: 2025-02-01
+date: '2025-02-01'
 signer: 
 reviewArchive: 
-twitter: vynkgroup
+twitter: 'vynkgroup'
 social:
-- https://www.linkedin.com/in/vynkchain-community-59b283208
-- https://t.me/VYNKCHAIN
+- 'https://www.linkedin.com/in/vynkchain-community-59b283208'
+- 'https://t.me/VYNKCHAIN'
 redirect_from: 
-developerName: VYNK GROUP AE
+developerName: 'VYNK GROUP AE'
 features: 
 
 ---

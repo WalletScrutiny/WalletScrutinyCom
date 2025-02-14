@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: ContaCripto
+title: 'ContaCripto'
 altTitle: 
 authors: 
 users: 10
-appId: com.contacripto.app
+appId: 'com.contacripto.app'
 appCountry: 
-released: 2022-06-07
-updated: 2022-06-08
-version: 1.0.0
+released: '2022-06-07'
+updated: '2022-06-08'
+version: '1.0.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://contacripto.com.br
+website: 'https://contacripto.com.br'
 repository: 
 issue: 
-icon: com.contacripto.app.png
+icon: 'com.contacripto.app.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-10-31
+date: '2024-10-31'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: RAS SERVICOS DIGITAIS
+developerName: 'RAS SERVICOS DIGITAIS'
 features: 
 
 ---

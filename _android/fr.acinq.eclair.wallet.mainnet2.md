@@ -1,39 +1,39 @@
 ---
 wsId: 
-title: Eclair Mobile (EOL)
+title: 'Eclair Mobile (EOL)'
 altTitle: 
 authors:
-- leo
-- danny
+- 'leo'
+- 'danny'
 users: 10000
-appId: fr.acinq.eclair.wallet.mainnet2
+appId: 'fr.acinq.eclair.wallet.mainnet2'
 appCountry: 
-released: 2018-04-12
-updated: 2022-03-01
-version: 0.4.18
+released: '2018-04-12'
+updated: '2022-03-01'
+version: '0.4.18'
 stars: 4.1
 ratings: 377
 reviews: 42
 size: 
-website: https://acinq.co
-repository: https://github.com/ACINQ/eclair-mobile
-issue: https://github.com/ACINQ/eclair-mobile/issues/232
-icon: fr.acinq.eclair.wallet.mainnet2.jpg
+website: 'https://acinq.co'
+repository: 'https://github.com/ACINQ/eclair-mobile'
+issue: 'https://github.com/ACINQ/eclair-mobile/issues/232'
+icon: 'fr.acinq.eclair.wallet.mainnet2.jpg'
 bugbounty: 
-meta: removed
-verdict: ftbfs
+meta: 'removed'
+verdict: 'ftbfs'
 appHashes: 
-date: 2024-03-02
+date: '2024-03-02'
 signer: 
 reviewArchive: 
-twitter: acinq_co
+twitter: 'acinq_co'
 social: 
 redirect_from:
-- /eclair/
-- /fr.acinq.eclair.wallet.mainnet2/
-- /posts/2019/12/eclair/
-- /posts/fr.acinq.eclair.wallet.mainnet2/
-developerName: ACINQ
+- '/eclair/'
+- '/fr.acinq.eclair.wallet.mainnet2/'
+- '/posts/2019/12/eclair/'
+- '/posts/fr.acinq.eclair.wallet.mainnet2/'
+developerName: 'ACINQ'
 features: 
 
 ---

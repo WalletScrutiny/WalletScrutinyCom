@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Bitcoin Trader  Uk App
+title: 'Bitcoin Trader  Uk App'
 altTitle: 
 authors: 
 users: 5
-appId: org.cryptobrowser.bitcoin.trader.uk.app
+appId: 'org.cryptobrowser.bitcoin.trader.uk.app'
 appCountry: 
-released: 2021-06-28
-updated: 2021-06-29
+released: '2021-06-28'
+updated: '2021-06-29'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 2.4M
+size: '2.4M'
 website: 
 repository: 
 issue: 
-icon: org.cryptobrowser.bitcoin.trader.uk.app.jpg
+icon: 'org.cryptobrowser.bitcoin.trader.uk.app.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-10-01
+date: '2021-10-01'
 signer: 
 reviewArchive: 
 twitter: 

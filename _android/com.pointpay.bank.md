@@ -1,37 +1,36 @@
 ---
-wsId: pointpay
+wsId: 'pointpay'
 title: 'PointPay: Crypto Wallet App'
 altTitle: 
 authors:
-- kiwilamb
+- 'kiwilamb'
 users: 100000
-appId: com.pointpay.bank
+appId: 'com.pointpay.bank'
 appCountry: 
-released: 2020-07-21
+released: '2020-07-21'
 updated: 2025-02-07
-version: 8.8.48
+version: '8.8.48'
 stars: 4.1
 ratings: 3831
 reviews: 137
-size: 
-website: https://pointpay.io/
+website: 'https://pointpay.io/'
 repository: 
 issue: 
-icon: com.pointpay.bank.png
+icon: 'com.pointpay.bank.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-04-26
+date: '2021-04-26'
 signer: 
 reviewArchive: 
-twitter: PointPay1
+twitter: 'PointPay1'
 social:
-- https://www.linkedin.com/company/pointpay
-- https://www.facebook.com/PointPayLtd
-- https://www.reddit.com/r/PointPay
+- 'https://www.linkedin.com/company/pointpay'
+- 'https://www.facebook.com/PointPayLtd'
+- 'https://www.reddit.com/r/PointPay'
 redirect_from: 
-developerName: Point Pay OÜ
+developerName: 'Point Pay OÜ'
 features: 
 
 ---

@@ -1,34 +1,34 @@
 ---
-wsId: ramzingate
-title: Ramzingate | Crypto exchange
+wsId: 'ramzingate'
+title: 'Ramzingate | Crypto exchange'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.ramzingate.ramzingate
+appId: 'com.ramzingate.ramzingate'
 appCountry: 
-released: 2021-08-29
-updated: 2022-03-03
-version: 1.2.1
+released: '2021-08-29'
+updated: '2022-03-03'
+version: '1.2.1'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://ramzingate.com
+website: 'https://ramzingate.com'
 repository: 
 issue: 
-icon: com.ramzingate.ramzingate.png
+icon: 'com.ramzingate.ramzingate.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-10-03
+date: '2024-10-03'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: OnMind AI
+developerName: 'OnMind AI'
 features: 
 
 ---

@@ -7,9 +7,9 @@ authors:
 appId: crypto.vast.bank
 appCountry: us
 idd: '1572241586'
-released: 2021-08-23
-updated: 2024-01-03
-version: 1.7.15
+released: '2021-08-23'
+updated: '2024-01-03'
+version: '1.7.15'
 stars: 3.4
 reviews: 83
 size: '59555840'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-03-02
+date: '2024-03-02'
 signer: 
 reviewArchive: 
 twitter: vastbank

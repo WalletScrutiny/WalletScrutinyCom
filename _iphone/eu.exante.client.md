@@ -7,8 +7,8 @@ authors:
 appId: eu.exante.client
 appCountry: am
 idd: 892856882
-released: 2014-07-06
-updated: 2025-01-21
+released: '2014-07-06'
+updated: '2025-01-21'
 version: '4.70'
 stars: 0
 reviews: 0
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nowallet
 appHashes: 
-date: 2021-10-16
+date: '2021-10-16'
 signer: 
 reviewArchive: 
 twitter: EXANTE_EU

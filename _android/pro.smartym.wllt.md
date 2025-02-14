@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: WLLT
+title: 'WLLT'
 altTitle: 
 authors: 
 users: 100
-appId: pro.smartym.wllt
+appId: 'pro.smartym.wllt'
 appCountry: 
-released: 2019-03-19
-updated: 2019-03-21
+released: '2019-03-19'
+updated: '2019-03-21'
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://smartym.pro
+website: 'https://smartym.pro'
 repository: 
 issue: 
-icon: pro.smartym.wllt.png
+icon: 'pro.smartym.wllt.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-04-19
+date: '2024-04-19'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Smartym Pro
+developerName: 'Smartym Pro'
 features: 
 
 ---

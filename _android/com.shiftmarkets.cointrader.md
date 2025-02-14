@@ -1,37 +1,36 @@
 ---
-wsId: coinTraderMobile
-title: Shift Platform
+wsId: 'coinTraderMobile'
+title: 'Shift Platform'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.shiftmarkets.cointrader
+appId: 'com.shiftmarkets.cointrader'
 appCountry: 
-released: 2019-01-28
+released: '2019-01-28'
 updated: 2025-01-24
-version: 4.14.0
+version: '4.14.0'
 stars: 3.8
 ratings: 
 reviews: 
-size: 
-website: https://www.shiftmarkets.com/
+website: 'https://www.shiftmarkets.com/'
 repository: 
 issue: 
-icon: com.shiftmarkets.cointrader.png
+icon: 'com.shiftmarkets.cointrader.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-08-25
+date: '2023-08-25'
 signer: 
 reviewArchive: 
-twitter: shiftmarkets
+twitter: 'shiftmarkets'
 social:
-- https://www.linkedin.com/company/shiftmarkets
-- https://www.facebook.com/shiftmarketsnyc
-- https://shiftmarkets.medium.com
+- 'https://www.linkedin.com/company/shiftmarkets'
+- 'https://www.facebook.com/shiftmarketsnyc'
+- 'https://shiftmarkets.medium.com'
 redirect_from: 
-developerName: Shift Markets Ltd
+developerName: 'Shift Markets Ltd'
 features: 
 
 ---

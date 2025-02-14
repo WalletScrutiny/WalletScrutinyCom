@@ -7,9 +7,9 @@ authors:
 appId: mn.trade
 appCountry: us
 idd: 1303463253
-released: 2018-05-05
-updated: 2023-04-25
-version: 3.0.8
+released: '2018-05-05'
+updated: '2023-04-25'
+version: '3.0.8'
 stars: 2
 reviews: 29
 size: '35436544'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-09-15
+date: '2023-09-15'
 signer: 
 reviewArchive: 
 twitter: TradeMnOfficial

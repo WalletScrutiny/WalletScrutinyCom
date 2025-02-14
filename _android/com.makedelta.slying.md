@@ -1,36 +1,35 @@
 ---
-wsId: makeDelta
-title: Traderkat-Coin Screener, Alert
+wsId: 'makeDelta'
+title: 'Traderkat-Coin Screener, Alert'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.makedelta.slying
+appId: 'com.makedelta.slying'
 appCountry: 
-released: 2021-08-07
+released: '2021-08-07'
 updated: 2025-01-20
-version: 8.0.5
+version: '8.0.5'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://traderkat.io/
+website: 'https://traderkat.io/'
 repository: 
 issue: 
-icon: com.makedelta.slying.png
+icon: 'com.makedelta.slying.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-06-14
+date: '2023-06-14'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/profile.php?id=100083754173968
-- https://www.youtube.com/channel/UCLC_CKhMggklpoHowc6TvNA
+- 'https://www.facebook.com/profile.php?id=100083754173968'
+- 'https://www.youtube.com/channel/UCLC_CKhMggklpoHowc6TvNA'
 redirect_from: 
-developerName: MakeDelta
+developerName: 'MakeDelta'
 features: 
 
 ---

@@ -1,34 +1,34 @@
 ---
-wsId: bancrypV2
-title: Bancryp
+wsId: 'bancrypV2'
+title: 'Bancryp'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.bancryp.mobuser.v2
+appId: 'com.bancryp.mobuser.v2'
 appCountry: 
-released: 2020-05-18
-updated: 2023-04-14
-version: 1.6.0
+released: '2020-05-18'
+updated: '2023-04-14'
+version: '1.6.0'
 stars: 3.7
 ratings: 
 reviews: 
 size: 
-website: http://bancryp.com
+website: 'http://bancryp.com'
 repository: 
 issue: 
-icon: com.bancryp.mobuser.v2.png
+icon: 'com.bancryp.mobuser.v2.png'
 bugbounty: 
-meta: stale
-verdict: custodial
+meta: 'stale'
+verdict: 'custodial'
 appHashes: 
-date: 2024-04-09
+date: '2024-04-09'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Bancryp International
+developerName: 'Bancryp International'
 features: 
 
 ---

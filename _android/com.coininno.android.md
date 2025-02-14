@@ -1,37 +1,37 @@
 ---
 wsId: 
-title: Coininno | کوینینو
+title: 'Coininno | کوینینو'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.coininno.android
+appId: 'com.coininno.android'
 appCountry: 
-released: 2022-06-27
-updated: 2024-02-27
-version: 2.0.0
+released: '2022-06-27'
+updated: '2024-02-27'
+version: '2.0.0'
 stars: 4.2
 ratings: 
 reviews: 4
 size: 
-website: https://coininno.com/
+website: 'https://coininno.com/'
 repository: 
 issue: 
-icon: com.coininno.android.png
+icon: 'com.coininno.android.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
-twitter: myCoininno
+twitter: 'myCoininno'
 social:
-- https://www.linkedin.com/company/coininno/about
-- https://t.me/coininno
-- https://www.instagram.com/coininno
+- 'https://www.linkedin.com/company/coininno/about'
+- 'https://t.me/coininno'
+- 'https://www.instagram.com/coininno'
 redirect_from: 
-developerName: Coininno
+developerName: 'Coininno'
 features: 
 
 ---

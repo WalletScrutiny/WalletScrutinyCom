@@ -1,33 +1,33 @@
 ---
-wsId: GCBuying
+wsId: 'GCBuying'
 title: 'GCBuying: Sell GIFTCARD'
 altTitle: 
 authors:
-- danny
-appId: com.GCBuying.GCBuying
-appCountry: ng
-idd: 1574175142
-released: 2021-06-30
+- 'danny'
+appId: 'com.GCBuying.GCBuying'
+appCountry: 'ng'
+idd: '1574175142'
+released: '2021-06-30'
 updated: 2024-09-22
-version: 1.1.0
-stars: 4
+version: '1.1.0'
+stars: 3.96262
 reviews: 107
 size: '42362880'
-website: https://gcbuying.com/
+website: 'https://gcbuying.com/'
 repository: 
 issue: 
-icon: com.GCBuying.GCBuying.jpg
+icon: 'com.GCBuying.GCBuying.jpg'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-06-10
+date: '2023-06-10'
 signer: 
 reviewArchive: 
-twitter: gcbuying
+twitter: 'gcbuying'
 social: 
 features: 
-developerName: GCBuying Technology
+developerName: 'GCBuying Technology'
 
 ---
 

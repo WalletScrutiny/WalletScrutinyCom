@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: CryptoTab Browser Max Speed
+title: 'CryptoTab Browser Max Speed'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000000
-appId: max.cryptotab.android
+appId: 'max.cryptotab.android'
 appCountry: 
-released: 2021-11-09
+released: '2021-11-09'
 updated: 2025-01-17
-version: 7.2.23
-stars: 4.2
+version: '7.2.23'
+stars: 4.1
 ratings: 
-reviews: 1272
-size: 
-website: https://cryptocompany.site/
+reviews: 1276
+website: 'https://cryptocompany.site/'
 repository: 
 issue: 
-icon: max.cryptotab.android.png
+icon: 'max.cryptotab.android.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-01-31
+date: '2023-01-31'
 signer: 
 reviewArchive: 
-twitter: CryptoTabnet
+twitter: 'CryptoTabnet'
 social:
-- https://www.facebook.com/CryptoTabFamilyOfficial
+- 'https://www.facebook.com/CryptoTabFamilyOfficial'
 redirect_from: 
-developerName: CryptoCompany OU
+developerName: 'CryptoCompany OU'
 features: 
 
 ---

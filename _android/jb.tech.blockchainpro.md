@@ -1,28 +1,28 @@
 ---
 wsId: 
-title: Blockchain.com Wallet Pro-buy bitcoin Eth & crypto
+title: 'Blockchain.com Wallet Pro-buy bitcoin Eth & crypto'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 5000
-appId: jb.tech.blockchainpro
+appId: 'jb.tech.blockchainpro'
 appCountry: 
 released: 
-updated: 2021-04-25
+updated: '2021-04-25'
 version: '2.5'
 stars: 4.6
 ratings: 203
 reviews: 194
-size: 9.4M
+size: '9.4M'
 website: 
 repository: 
 issue: 
-icon: jb.tech.blockchainpro.png
+icon: 'jb.tech.blockchainpro.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2021-04-30
+date: '2021-04-30'
 signer: 
 reviewArchive: 
 twitter: 

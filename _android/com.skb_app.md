@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Lucky Wallet
+title: 'Lucky Wallet'
 altTitle: 
 authors: 
 users: 1000
-appId: com.skb_app
+appId: 'com.skb_app'
 appCountry: 
-released: 2018-07-21
-updated: 2020-10-21
+released: '2018-07-21'
+updated: '2020-10-21'
 version: '3.25'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://skb-coin.jp/en/
+website: 'https://skb-coin.jp/en/'
 repository: 
 issue: 
-icon: com.skb_app.png
+icon: 'com.skb_app.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
 twitter: 

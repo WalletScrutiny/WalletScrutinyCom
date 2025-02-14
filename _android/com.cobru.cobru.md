@@ -1,36 +1,36 @@
 ---
-wsId: cobru
-title: Cobru
+wsId: 'cobru'
+title: 'Cobru'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.cobru.cobru
+appId: 'com.cobru.cobru'
 appCountry: 
-released: 2021-06-26
-updated: 2023-12-19
-version: 4.0.99
+released: '2021-06-26'
+updated: '2023-12-19'
+version: '4.0.99'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://cobru.co
+website: 'https://cobru.co'
 repository: 
 issue: 
-icon: com.cobru.cobru.png
+icon: 'com.cobru.cobru.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
-twitter: cobruapp
+twitter: 'cobruapp'
 social:
-- https://www.facebook.com/cobruapp
-- https://www.instagram.com/cobruapp/
+- 'https://www.facebook.com/cobruapp'
+- 'https://www.instagram.com/cobruapp/'
 redirect_from: 
-developerName: Cobru SAS
+developerName: 'Cobru SAS'
 features: 
 
 ---

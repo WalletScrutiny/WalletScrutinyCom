@@ -1,35 +1,35 @@
 ---
-wsId: mnTelexa
-title: Telexa.mn - Хөрөнгө оруулалт
+wsId: 'mnTelexa'
+title: 'Telexa.mn - Хөрөнгө оруулалт'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: mn.telexa
+appId: 'mn.telexa'
 appCountry: 
-released: 2021-12-08
-updated: 2023-09-07
+released: '2021-12-08'
+updated: '2023-09-07'
 version: '6.5'
 stars: 4.6
 ratings: 
 reviews: 10
 size: 
-website: https://www.telexa.mn/
+website: 'https://www.telexa.mn/'
 repository: 
 issue: 
-icon: mn.telexa.png
+icon: 'mn.telexa.png'
 bugbounty: 
-meta: stale
-verdict: nowallet
+meta: 'stale'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-09-02
+date: '2024-09-02'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/Telexa.mn/
+- 'https://www.facebook.com/Telexa.mn/'
 redirect_from: 
-developerName: Save, Inc
+developerName: 'Save, Inc'
 features: 
 
 ---

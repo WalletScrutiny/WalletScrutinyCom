@@ -1,38 +1,37 @@
 ---
-wsId: theBitcoinCompany
-title: The Bitcoin Company Rewards
+wsId: 'theBitcoinCompany'
+title: 'The Bitcoin Company Rewards'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.tbtc_app
+appId: 'com.tbtc_app'
 appCountry: 
-released: 2022-03-17
+released: '2022-03-17'
 updated: 2025-01-28
-version: 0.1.36
+version: '0.1.36'
 stars: 3.8
 ratings: 
 reviews: 16
-size: 
-website: https://thebitcoincompany.com
+website: 'https://thebitcoincompany.com'
 repository: 
 issue: 
-icon: com.tbtc_app.png
+icon: 'com.tbtc_app.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2024-07-17
+date: '2024-07-17'
 signer: 
 reviewArchive: 
-twitter: thebtcco
+twitter: 'thebtcco'
 social:
-- https://www.facebook.com/thebtcco
-- https://www.linkedin.com/company/thebitcoincompany
-- https://www.instagram.com/thebtcco
-- https://t.me/thebitcoincompany
+- 'https://www.facebook.com/thebtcco'
+- 'https://www.linkedin.com/company/thebitcoincompany'
+- 'https://www.instagram.com/thebtcco'
+- 'https://t.me/thebitcoincompany'
 redirect_from: 
-developerName: The Bitcoin Company
+developerName: 'The Bitcoin Company'
 features: 
 
 ---

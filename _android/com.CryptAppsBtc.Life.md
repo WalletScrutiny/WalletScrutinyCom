@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Вitсоin Lifеstуlе
+title: 'Вitсоin Lifеstуlе'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.CryptAppsBtc.Life
+appId: 'com.CryptAppsBtc.Life'
 appCountry: 
-released: 2022-03-28
-updated: 2022-03-28
+released: '2022-03-28'
+updated: '2022-03-28'
 version: '0.1'
 stars: 
 ratings: 
@@ -17,18 +17,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.CryptAppsBtc.Life.png
+icon: 'com.CryptAppsBtc.Life.png'
 bugbounty: 
-meta: defunct
-verdict: wip
+meta: 'defunct'
+verdict: 'wip'
 appHashes: 
-date: 2023-08-07
+date: '2023-08-07'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Lifestyle Aррs
+developerName: 'Lifestyle Aррs'
 features: 
 
 ---

@@ -1,36 +1,35 @@
 ---
-wsId: bitkubExchange
+wsId: 'bitkubExchange'
 title: 'Bitkub: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000000
-appId: com.bitkub
+appId: 'com.bitkub'
 appCountry: 
-released: 2019-04-20
-updated: 2025-02-04
-version: 3.49.0
+released: '2019-04-20'
+updated: 2025-02-10
+version: '3.50.0'
 stars: 4.1
 ratings: 18826
 reviews: 42
-size: 
-website: http://www.bitkub.com
+website: 'http://www.bitkub.com'
 repository: 
 issue: 
-icon: com.bitkub.png
+icon: 'com.bitkub.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-04-04
+date: '2023-04-04'
 signer: 
 reviewArchive: 
-twitter: bitkubofficial
+twitter: 'bitkubofficial'
 social:
-- https://www.linkedin.com/company/bitkub
-- https://www.facebook.com/bitkubofficial
+- 'https://www.linkedin.com/company/bitkub'
+- 'https://www.facebook.com/bitkubofficial'
 redirect_from: 
-developerName: Bitkub Online Co., Ltd. (Head Office)
+developerName: 'Bitkub Online Co., Ltd. (Head Office)'
 features: 
 
 ---

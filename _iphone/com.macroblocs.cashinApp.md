@@ -7,8 +7,8 @@ authors:
 appId: com.macroblocs.cashinApp
 appCountry: ng
 idd: '6443628065'
-released: 2022-10-04
-updated: 2022-10-04
+released: '2022-10-04'
+updated: '2022-10-04'
 version: '1.0'
 stars: 4.7
 reviews: 608
@@ -21,7 +21,7 @@ bugbounty:
 meta: obsolete
 verdict: nosendreceive
 appHashes: 
-date: 2024-09-24
+date: '2024-09-24'
 signer: 
 reviewArchive: 
 twitter: cashin_app

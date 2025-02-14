@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: Coiny Pro
+title: 'Coiny Pro'
 altTitle: 
 authors: 
 users: 1000
-appId: io.coiny.pro
+appId: 'io.coiny.pro'
 appCountry: 
 released: 
-updated: 2019-08-07
-version: 1.0.5
+updated: '2019-08-07'
+version: '1.0.5'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://pro.coiny.io/
+website: 'https://pro.coiny.io/'
 repository: 
 issue: 
-icon: io.coiny.pro.png
+icon: 'io.coiny.pro.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2024-02-05
+date: '2024-02-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Coiny
+developerName: 'Coiny'
 features: 
 
 ---

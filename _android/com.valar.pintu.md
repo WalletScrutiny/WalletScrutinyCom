@@ -1,35 +1,34 @@
 ---
-wsId: Pintu
+wsId: 'Pintu'
 title: 'Pintu: Buy & Invest Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000000
-appId: com.valar.pintu
-appCountry: us
-released: 2020-01-25
+appId: 'com.valar.pintu'
+appCountry: 'us'
+released: '2020-01-25'
 updated: 2025-02-05
-version: 3.67.0
+version: '3.67.0'
 stars: 4.5
 ratings: 28130
-reviews: 173
-size: 
-website: https://pintu.co.id/
+reviews: 174
+website: 'https://pintu.co.id/'
 repository: 
 issue: 
-icon: com.valar.pintu.png
+icon: 'com.valar.pintu.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-08-27
+date: '2021-08-27'
 signer: 
 reviewArchive: 
-twitter: pintuid
+twitter: 'pintuid'
 social:
-- https://www.facebook.com/pintucrypto
+- 'https://www.facebook.com/pintucrypto'
 redirect_from: 
-developerName: Pintu Crypto
+developerName: 'Pintu Crypto'
 features: 
 
 ---

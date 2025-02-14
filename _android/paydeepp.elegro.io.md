@@ -3,35 +3,34 @@ wsId:
 title: 'Elegro: multi-currency wallet'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 10000
-appId: paydeepp.elegro.io
+appId: 'paydeepp.elegro.io'
 appCountry: 
-released: 2018-11-09
+released: '2018-11-09'
 updated: 2024-09-16
-version: 5.4.2
+version: '5.4.2'
 stars: 3.4
 ratings: 
 reviews: 1
-size: 
-website: https://elegro.eu/
+website: 'https://elegro.eu/'
 repository: 
 issue: 
-icon: paydeepp.elegro.io.jpg
+icon: 'paydeepp.elegro.io.jpg'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2020-12-14
+date: '2020-12-14'
 signer: 
 reviewArchive: 
-twitter: NikoTech
+twitter: 'NikoTech'
 social:
-- https://www.linkedin.com/company/niko-technologies-ou
+- 'https://www.linkedin.com/company/niko-technologies-ou'
 redirect_from:
-- /paydeepp.elegro.io/
-- /posts/paydeepp.elegro.io/
-developerName: Niko Technologies
+- '/paydeepp.elegro.io/'
+- '/posts/paydeepp.elegro.io/'
+developerName: 'Niko Technologies'
 features: 
 
 ---

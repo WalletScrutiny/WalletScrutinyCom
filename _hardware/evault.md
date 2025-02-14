@@ -3,7 +3,7 @@ title: 'EVault Cryptocurrency Hardware Wallet: Secure Bitcoin Storage'
 appId: evault
 authors:
 - danny
-released: 2018-04-24
+released: '2018-04-24'
 discontinued: 
 updated: 
 version: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: obsolete
 verdict: vapor
 appHashes: 
-date: 2024-05-29
+date: '2024-05-29'
 signer: 
 reviewArchive: 
 twitter: TheEVaultCo

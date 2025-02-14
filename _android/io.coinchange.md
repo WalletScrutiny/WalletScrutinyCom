@@ -1,37 +1,36 @@
 ---
-wsId: coinchange
-title: Coinchange
+wsId: 'coinchange'
+title: 'Coinchange'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: io.coinchange
+appId: 'io.coinchange'
 appCountry: 
-released: 2021-10-31
+released: '2021-10-31'
 updated: 2023-11-29
-version: 2.1.0
+version: '2.1.0'
 stars: 3.6
 ratings: 
 reviews: 154
-size: 
-website: https://coinchange.io
+website: 'https://coinchange.io'
 repository: 
 issue: 
-icon: io.coinchange.png
+icon: 'io.coinchange.png'
 bugbounty: 
-meta: stale
-verdict: custodial
+meta: 'stale'
+verdict: 'custodial'
 appHashes: 
-date: 2024-11-25
+date: '2024-11-25'
 signer: 
 reviewArchive: 
-twitter: coinchangeio
+twitter: 'coinchangeio'
 social:
-- https://www.linkedin.com/company/coinchange/
-- https://www.facebook.com/coinchangeio/
-- https://www.youtube.com/channel/UCLqsOYvSkkpla96_DoSC_Qg
+- 'https://www.linkedin.com/company/coinchange/'
+- 'https://www.facebook.com/coinchangeio/'
+- 'https://www.youtube.com/channel/UCLqsOYvSkkpla96_DoSC_Qg'
 redirect_from: 
-developerName: Coinchange  Financials Inc.
+developerName: 'Coinchange  Financials Inc.'
 features: 
 
 ---

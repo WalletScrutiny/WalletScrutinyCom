@@ -1,15 +1,15 @@
 ---
 wsId: 
-title: Dex Wallet
+title: 'Dex Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.dex.appwallet
+appId: 'com.dex.appwallet'
 appCountry: 
-released: 2022-08-15
-updated: 2022-08-15
-version: 1.0.8
+released: '2022-08-15'
+updated: '2022-08-15'
+version: '1.0.8'
 stars: 
 ratings: 
 reviews: 
@@ -17,18 +17,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.dex.appwallet.png
+icon: 'com.dex.appwallet.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2024-02-05
+date: '2024-02-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: appstoreafrica
+developerName: 'appstoreafrica'
 features: 
 
 ---

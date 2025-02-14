@@ -3,12 +3,12 @@ wsId:
 title: 'Multi Crypto Wallet: for Bitco'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 5000
-appId: appinventor.ai_oldgoldmen.CryptoWallet
+appId: 'appinventor.ai_oldgoldmen.CryptoWallet'
 appCountry: 
-released: 2020-02-01
-updated: 2021-02-23
+released: '2020-02-01'
+updated: '2021-02-23'
 version: '3.0'
 stars: 4.1
 ratings: 44
@@ -17,18 +17,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: appinventor.ai_oldgoldmen.CryptoWallet.jpg
+icon: 'appinventor.ai_oldgoldmen.CryptoWallet.jpg'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2024-02-05
+date: '2024-02-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: FinSec
+developerName: 'FinSec'
 features: 
 
 ---

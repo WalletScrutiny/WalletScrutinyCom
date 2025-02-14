@@ -3,32 +3,32 @@ wsId:
 title: 'Culubo: Sell Giftcard USDT BTC'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.wRolariteX_12668517
+appId: 'com.wRolariteX_12668517'
 appCountry: 
-released: 2021-09-08
-updated: 2024-04-10
-version: Culubo
+released: '2021-09-08'
+updated: '2024-04-10'
+version: 'Culubo'
 stars: 3.9
 ratings: 
 reviews: 
 size: 
-website: https://www.bitcoin.rolarite.com
+website: 'https://www.bitcoin.rolarite.com'
 repository: 
 issue: 
-icon: com.wRolariteX_12668517.jpg
+icon: 'com.wRolariteX_12668517.jpg'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-11-12
+date: '2024-11-12'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Rolasoft Auto Systems
+developerName: 'Rolasoft Auto Systems'
 features: 
 
 ---

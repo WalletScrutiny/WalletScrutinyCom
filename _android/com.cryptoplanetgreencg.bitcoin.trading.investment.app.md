@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Bitcoin Crypto Trading Investment
+title: 'Bitcoin Crypto Trading Investment'
 altTitle: 
 authors: 
 users: 10
-appId: com.cryptoplanetgreencg.bitcoin.trading.investment.app
+appId: 'com.cryptoplanetgreencg.bitcoin.trading.investment.app'
 appCountry: 
-released: 2021-07-28
-updated: 2021-07-28
+released: '2021-07-28'
+updated: '2021-07-28'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 2.3M
+size: '2.3M'
 website: 
 repository: 
 issue: 
-icon: com.cryptoplanetgreencg.bitcoin.trading.investment.app.png
+icon: 'com.cryptoplanetgreencg.bitcoin.trading.investment.app.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-10-01
+date: '2021-10-01'
 signer: 
 reviewArchive: 
 twitter: 

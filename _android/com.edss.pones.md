@@ -1,28 +1,28 @@
 ---
 wsId: 
-title: MX exchange - buying & sell Bitcoin
+title: 'MX exchange - buying & sell Bitcoin'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.edss.pones
+appId: 'com.edss.pones'
 appCountry: 
-released: 2021-04-29
-updated: 2021-04-29
+released: '2021-04-29'
+updated: '2021-04-29'
 version: '1.0'
 stars: 3.9
 ratings: 37
 reviews: 16
-size: 3.3M
+size: '3.3M'
 website: 
 repository: 
 issue: 
-icon: com.edss.pones.png
+icon: 'com.edss.pones.png'
 bugbounty: 
-meta: removed
-verdict: fake
+meta: 'removed'
+verdict: 'fake'
 appHashes: 
-date: 2021-12-22
+date: '2021-12-22'
 signer: 
 reviewArchive: 
 twitter: 

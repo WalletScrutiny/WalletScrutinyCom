@@ -1,34 +1,34 @@
 ---
-wsId: bitcoin.of.america
-title: Bitcoin Of America
+wsId: 'bitcoin.of.america'
+title: 'Bitcoin Of America'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: io.cordova.myappf57082
+appId: 'io.cordova.myappf57082'
 appCountry: 
-released: 2017-08-19
-updated: 2022-04-11
-version: 11.5.0
+released: '2017-08-19'
+updated: '2022-04-11'
+version: '11.5.0'
 stars: 4.4
 ratings: 152
 reviews: 25
 size: 
-website: https://bitcoinofamerica.org/
+website: 'https://bitcoinofamerica.org/'
 repository: 
 issue: 
-icon: io.cordova.myappf57082.png
+icon: 'io.cordova.myappf57082.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-02-05
+date: '2024-02-05'
 signer: 
 reviewArchive: 
-twitter: BTCofAmerica
+twitter: 'BTCofAmerica'
 social: 
 redirect_from: 
-developerName: Software & Application Development LLC.
+developerName: 'Software & Application Development LLC.'
 features: 
 
 ---

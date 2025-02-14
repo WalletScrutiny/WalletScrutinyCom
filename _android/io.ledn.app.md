@@ -1,36 +1,35 @@
 ---
-wsId: Ledn
-title: Ledn
+wsId: 'Ledn'
+title: 'Ledn'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: io.ledn.app
-appCountry: us
-released: 2021-01-04
+appId: 'io.ledn.app'
+appCountry: 'us'
+released: '2021-01-04'
 updated: 2023-08-24
-version: 0.8.6
+version: '0.8.6'
 stars: 2.3
 ratings: 71
 reviews: 12
-size: 
-website: https://ledn.io
+website: 'https://ledn.io'
 repository: 
 issue: 
-icon: io.ledn.app.png
+icon: 'io.ledn.app.png'
 bugbounty: 
-meta: stale
-verdict: custodial
+meta: 'stale'
+verdict: 'custodial'
 appHashes: 
-date: 2024-08-19
+date: '2024-08-19'
 signer: 
 reviewArchive: 
-twitter: hodlwithLedn
+twitter: 'hodlwithLedn'
 social:
-- https://www.linkedin.com/company/ledn-inc
-- https://www.facebook.com/Ledn.io
+- 'https://www.linkedin.com/company/ledn-inc'
+- 'https://www.facebook.com/Ledn.io'
 redirect_from: 
-developerName: Ledn
+developerName: 'Ledn'
 features: 
 
 ---

@@ -1,34 +1,34 @@
 ---
-wsId: MOBOX
-title: MOBOX
+wsId: 'MOBOX'
+title: 'MOBOX'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 500000
-appId: com.mobox.wallet
-appCountry: us
-released: 2021-02-02
-updated: 2023-12-11
-version: 1.6.0
+appId: 'com.mobox.wallet'
+appCountry: 'us'
+released: '2021-02-02'
+updated: '2023-12-11'
+version: '1.6.0'
 stars: 4.6
 ratings: 2457
 reviews: 197
 size: 
-website: https://mobox.io/
+website: 'https://mobox.io/'
 repository: 
 issue: 
-icon: com.mobox.wallet.png
+icon: 'com.mobox.wallet.png'
 bugbounty: 
-meta: defunct
-verdict: nobtc
+meta: 'defunct'
+verdict: 'nobtc'
 appHashes: 
-date: 2023-05-10
+date: '2023-05-10'
 signer: 
 reviewArchive: 
-twitter: MOBOX_Official
+twitter: 'MOBOX_Official'
 social: 
 redirect_from: 
-developerName: MOBOX Ltd.
+developerName: 'MOBOX Ltd.'
 features: 
 
 ---

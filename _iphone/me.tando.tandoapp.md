@@ -6,9 +6,9 @@ authors:
 appId: me.tando.tandoapp
 appCountry: us
 idd: '6584531359'
-released: 2024-10-28
-updated: 2025-01-23
-version: 1.2.0
+released: '2024-10-28'
+updated: '2025-01-23'
+version: '1.2.0'
 stars: 5
 reviews: 3
 size: '29428736'
@@ -20,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: wip
 appHashes: 
-date: 2024-12-02
+date: '2024-12-02'
 signer: 
 reviewArchive: 
 twitter: 

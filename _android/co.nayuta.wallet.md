@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Nayuta - Bitcoin Lightning Wallet
+title: 'Nayuta - Bitcoin Lightning Wallet'
 altTitle: 
 authors: 
 users: 500
-appId: co.nayuta.wallet
+appId: 'co.nayuta.wallet'
 appCountry: 
 released: 
-updated: 2019-10-15
-version: Varies with device
+updated: '2019-10-15'
+version: 'Varies with device'
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
-website: https://nayuta.co
+size: 'Varies with device'
+website: 'https://nayuta.co'
 repository: 
 issue: 
-icon: co.nayuta.wallet.png
+icon: 'co.nayuta.wallet.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2019-12-29
+date: '2019-12-29'
 signer: 
 reviewArchive: 
 twitter: 

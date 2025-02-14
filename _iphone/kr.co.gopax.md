@@ -7,9 +7,9 @@ authors:
 appId: kr.co.gopax
 appCountry: kr
 idd: 1369896843
-released: 2018-06-21
-updated: 2025-02-11
-version: 2.8.3
+released: '2018-06-21'
+updated: '2025-02-11'
+version: '2.8.3'
 stars: 2.8
 reviews: 510
 size: '125569024'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2021-10-01
+date: '2021-10-01'
 signer: 
 reviewArchive: 
 twitter: 

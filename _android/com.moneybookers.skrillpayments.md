@@ -1,36 +1,35 @@
 ---
-wsId: skrill
-title: Skrill - Fast, secure payments
+wsId: 'skrill'
+title: 'Skrill - Fast, secure payments'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000000
-appId: com.moneybookers.skrillpayments
+appId: 'com.moneybookers.skrillpayments'
 appCountry: 
-released: 2013-10-29
+released: '2013-10-29'
 updated: 2025-02-04
-version: 3.153.0-2025020410
+version: '3.153.0-2025020410'
 stars: 4.5
 ratings: 142059
 reviews: 3371
-size: 
-website: https://www.skrill.com
+website: 'https://www.skrill.com'
 repository: 
 issue: 
-icon: com.moneybookers.skrillpayments.png
+icon: 'com.moneybookers.skrillpayments.png'
 bugbounty: 
-meta: ok
-verdict: nosendreceive
+meta: 'ok'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2021-08-09
+date: '2021-08-09'
 signer: 
 reviewArchive: 
-twitter: skrill
+twitter: 'skrill'
 social:
-- https://www.facebook.com/Skrillpayments
-- https://www.instagram.com/skrill
+- 'https://www.facebook.com/Skrillpayments'
+- 'https://www.instagram.com/skrill'
 redirect_from: 
-developerName: Paysafe Holdings UK Limited
+developerName: 'Paysafe Holdings UK Limited'
 features: 
 
 ---

@@ -1,35 +1,35 @@
 ---
-wsId: B21Crypto
+wsId: 'B21Crypto'
 title: 'B21 Crypto: Invest | Earn | Sp'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: io.b21.invest
-appCountry: in
-released: 2020-02-24
-updated: 2022-01-30
-version: 0.8.0
+appId: 'io.b21.invest'
+appCountry: 'in'
+released: '2020-02-24'
+updated: '2022-01-30'
+version: '0.8.0'
 stars: 2.8
 ratings: 592
 reviews: 290
 size: 
-website: https://b21.io
+website: 'https://b21.io'
 repository: 
 issue: 
-icon: io.b21.invest.png
+icon: 'io.b21.invest.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-01-30
+date: '2023-01-30'
 signer: 
 reviewArchive: 
-twitter: B21Official
+twitter: 'B21Official'
 social:
-- https://www.linkedin.com/company/b21-limited
-- https://www.facebook.com/B21Official
-- https://www.reddit.com/r/B21Invest
+- 'https://www.linkedin.com/company/b21-limited'
+- 'https://www.facebook.com/B21Official'
+- 'https://www.reddit.com/r/B21Invest'
 redirect_from: 
 developerName: 
 features: 

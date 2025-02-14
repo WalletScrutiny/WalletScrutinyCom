@@ -1,40 +1,39 @@
 ---
-wsId: niceHash
-title: NiceHash
+wsId: 'niceHash'
+title: 'NiceHash'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000000
-appId: com.nicehash.metallum
+appId: 'com.nicehash.metallum'
 appCountry: 
-released: 2020-04-17
+released: '2020-04-17'
 updated: 2025-02-03
-version: 5.0.8
+version: '5.0.8'
 stars: 2.4
 ratings: 
-reviews: 632
-size: 
-website: https://www.nicehash.com/my/
+reviews: 633
+website: 'https://www.nicehash.com/my/'
 repository: 
 issue: 
-icon: com.nicehash.metallum.png
+icon: 'com.nicehash.metallum.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2022-06-24
+date: '2022-06-24'
 signer: 
 reviewArchive: 
-twitter: NiceHashMining
+twitter: 'NiceHashMining'
 social:
-- https://www.linkedin.com/company/nicehash
-- https://www.instagram.com/nicehash_official
-- https://www.reddit.com/r/NiceHash
-- https://www.facebook.com/NiceHash
+- 'https://www.linkedin.com/company/nicehash'
+- 'https://www.instagram.com/nicehash_official'
+- 'https://www.reddit.com/r/NiceHash'
+- 'https://www.facebook.com/NiceHash'
 redirect_from: 
-developerName: H-BIT d.o.o.
+developerName: 'H-BIT d.o.o.'
 features:
-- ln
+- 'ln'
 
 ---
 

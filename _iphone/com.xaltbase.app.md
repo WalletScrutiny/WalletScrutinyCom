@@ -7,9 +7,9 @@ authors:
 appId: com.xaltbase.app
 appCountry: us
 idd: 1570826163
-released: 2021-08-18
-updated: 2021-10-30
-version: 2.1.2
+released: '2021-08-18'
+updated: '2021-10-30'
+version: '2.1.2'
 stars: 3.5
 reviews: 100
 size: 59651072
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: nobtc
 appHashes: 
-date: 2022-01-31
+date: '2022-01-31'
 signer: 
 reviewArchive: 
 twitter: 100XCoin_

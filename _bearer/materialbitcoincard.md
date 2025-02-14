@@ -3,7 +3,7 @@ title: Material Bitcoin
 appId: materialbitcoincard
 authors:
 - danny
-released: 2023-03-01
+released: '2023-03-01'
 discontinued: 
 updated: 
 version: 
@@ -25,7 +25,7 @@ icon: materialbitcoincard.png
 bugbounty: 
 meta: ok
 verdict: prefilled
-date: 2023-09-29
+date: '2023-09-29'
 signer: 
 reviewArchive: 
 twitter: materialbitcoin

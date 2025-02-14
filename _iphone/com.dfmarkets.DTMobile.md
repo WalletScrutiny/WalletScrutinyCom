@@ -7,8 +7,8 @@ authors:
 appId: com.dfmarkets.DTMobile
 appCountry: bg
 idd: 649221938
-released: 2013-05-22
-updated: 2021-08-02
+released: '2013-05-22'
+updated: '2021-08-02'
 version: '5.9'
 stars: 4.3
 reviews: 15
@@ -21,7 +21,7 @@ bugbounty:
 meta: obsolete
 verdict: nosendreceive
 appHashes: 
-date: 2023-07-25
+date: '2023-07-25'
 signer: 
 reviewArchive: 
 twitter: deltastock

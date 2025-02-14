@@ -1,35 +1,35 @@
 ---
 wsId: 
-title: IH Wallet
+title: 'IH Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: mn.ihbit.ihcwallet
+appId: 'mn.ihbit.ihcwallet'
 appCountry: 
-released: 2022-04-10
-updated: 2024-08-02
-version: 2.1.3
+released: '2022-04-10'
+updated: '2024-08-02'
+version: '2.1.3'
 stars: 4.4
 ratings: 
 reviews: 8
 size: 
-website: https://www.ihcoin.io
+website: 'https://www.ihcoin.io'
 repository: 
 issue: 
-icon: mn.ihbit.ihcwallet.png
+icon: 'mn.ihbit.ihcwallet.png'
 bugbounty: 
-meta: ok
-verdict: nobtc
+meta: 'ok'
+verdict: 'nobtc'
 appHashes: 
-date: 2022-07-31
+date: '2022-07-31'
 signer: 
 reviewArchive: 
-twitter: IHCoinofficial
+twitter: 'IHCoinofficial'
 social:
-- https://www.facebook.com/IHCoinGlobal
+- 'https://www.facebook.com/IHCoinGlobal'
 redirect_from: 
-developerName: IHBIT
+developerName: 'IHBIT'
 features: 
 
 ---

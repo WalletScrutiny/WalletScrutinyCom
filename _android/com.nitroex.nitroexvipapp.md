@@ -1,37 +1,37 @@
 ---
-wsId: Nitrobot
-title: NitroBot - Automated Crypto Tr
+wsId: 'Nitrobot'
+title: 'NitroBot - Automated Crypto Tr'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.nitroex.nitroexvipapp
-appCountry: us
-released: 2020-11-17
-updated: 2022-07-08
-version: 8.0.5
+appId: 'com.nitroex.nitroexvipapp'
+appCountry: 'us'
+released: '2020-11-17'
+updated: '2022-07-08'
+version: '8.0.5'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.nitroex.io/
+website: 'https://www.nitroex.io/'
 repository: 
 issue: 
-icon: com.nitroex.nitroexvipapp.png
+icon: 'com.nitroex.nitroexvipapp.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-12-19
+date: '2023-12-19'
 signer: 
 reviewArchive: 
-twitter: NitroExOfficial
+twitter: 'NitroExOfficial'
 social:
-- https://www.linkedin.com/company/nitroex
-- https://www.facebook.com/nitroex.io
-- https://www.reddit.com/r/nitroexchange
+- 'https://www.linkedin.com/company/nitroex'
+- 'https://www.facebook.com/nitroex.io'
+- 'https://www.reddit.com/r/nitroexchange'
 redirect_from: 
-developerName: Nitro Software Technologies LTD
+developerName: 'Nitro Software Technologies LTD'
 features: 
 
 ---

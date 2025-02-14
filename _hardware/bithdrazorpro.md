@@ -3,7 +3,7 @@ title: BITHD Razor Pro
 appId: bithdrazorpro
 authors:
 - danny
-released: 2022-10-24
+released: '2022-10-24'
 discontinued: 
 updated: 
 version: 
@@ -26,7 +26,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: 2022-11-23
+date: '2022-11-23'
 signer: 
 reviewArchive: 
 twitter: bitpiewallet

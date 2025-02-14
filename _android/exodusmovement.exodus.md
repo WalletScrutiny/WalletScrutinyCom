@@ -1,37 +1,36 @@
 ---
-wsId: ExodusCryptoBitcoinWallet
+wsId: 'ExodusCryptoBitcoinWallet'
 title: 'Exodus: Crypto Bitcoin Wallet'
 altTitle: 
 authors:
-- leo
-- danny
+- 'leo'
+- 'danny'
 users: 1000000
-appId: exodusmovement.exodus
+appId: 'exodusmovement.exodus'
 appCountry: 
-released: 2019-06-06
-updated: 2025-02-10
-version: 25.7.9
+released: '2019-06-06'
+updated: 2025-02-14
+version: '25.7.9'
 stars: 4.5
 ratings: 81868
-reviews: 7957
-size: 
-website: https://exodus.com/mobile
+reviews: 7961
+website: 'https://exodus.com/mobile'
 repository: 
 issue: 
-icon: exodusmovement.exodus.png
+icon: 'exodusmovement.exodus.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-13
+date: '2024-07-13'
 signer: 
 reviewArchive: 
-twitter: exodus_io
+twitter: 'exodus_io'
 social:
-- https://www.facebook.com/exodus.io
-- https://github.com/exodusmovement
+- 'https://www.facebook.com/exodus.io'
+- 'https://github.com/exodusmovement'
 redirect_from: 
-developerName: Exodus Movement, Inc.
+developerName: 'Exodus Movement, Inc.'
 features: 
 
 ---

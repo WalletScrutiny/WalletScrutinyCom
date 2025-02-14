@@ -7,9 +7,9 @@ authors:
 appId: com.ubankfx.forex
 appCountry: th
 idd: 1233584524
-released: 2017-05-18
-updated: 2020-09-22
-version: 6.24.3790
+released: '2017-05-18'
+updated: '2020-09-22'
+version: '6.24.3790'
 stars: 
 reviews: 
 size: 81107968
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: nosendreceive
 appHashes: 
-date: 2021-11-10
+date: '2021-11-10'
 signer: 
 reviewArchive: 
 twitter: 

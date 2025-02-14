@@ -7,9 +7,9 @@ authors:
 appId: com.chiji14xchange-
 appCountry: ng
 idd: 1459183957
-released: 2019-08-19
-updated: 2022-03-01
-version: 3.0.0
+released: '2019-08-19'
+updated: '2022-03-01'
+version: '3.0.0'
 stars: 3.4
 reviews: 297
 size: '58226688'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-08-04
+date: '2023-08-04'
 signer: 
 reviewArchive: 
 twitter: myrocketapp

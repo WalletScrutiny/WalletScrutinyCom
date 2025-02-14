@@ -3,7 +3,7 @@ title: IDEMIA B.Chain
 appId: idemia.bchain
 authors:
 - danny
-released: 2018-06-15
+released: '2018-06-15'
 discontinued: 
 updated: 
 version: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: plainkey
 appHashes: 
-date: 2023-02-09
+date: '2023-02-09'
 signer: 
 reviewArchive: 
 twitter: idemiagroup

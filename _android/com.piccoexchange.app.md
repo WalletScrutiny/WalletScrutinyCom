@@ -1,13 +1,13 @@
 ---
 wsId: 
-title: Picco Exchange
+title: 'Picco Exchange'
 altTitle: 
 authors: 
 users: 1
-appId: com.piccoexchange.app
+appId: 'com.piccoexchange.app'
 appCountry: 
-released: 2019-12-25
-updated: 2019-12-25
+released: '2019-12-25'
+updated: '2019-12-25'
 version: '1.0'
 stars: 
 ratings: 
@@ -16,18 +16,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.piccoexchange.app.png
+icon: 'com.piccoexchange.app.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-03-02
+date: '2024-03-02'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Greenback Tech
+developerName: 'Greenback Tech'
 features: 
 
 ---

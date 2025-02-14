@@ -1,33 +1,33 @@
 ---
-wsId: PayBito
-title: PayBito - Trade Bitcoin and Crypto
+wsId: 'PayBito'
+title: 'PayBito - Trade Bitcoin and Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.hashcash.paybito
+appId: 'com.hashcash.paybito'
 appCountry: 
-released: 2019-10-24
-updated: 2022-01-28
-version: 2.2.11
+released: '2019-10-24'
+updated: '2022-01-28'
+version: '2.2.11'
 stars: 4.5
 ratings: 255
 reviews: 213
-size: 9.3M
-website: https://www.hashcashconsultants.com
+size: '9.3M'
+website: 'https://www.hashcashconsultants.com'
 repository: 
 issue: 
-icon: com.hashcash.paybito.png
+icon: 'com.hashcash.paybito.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2022-02-16
+date: '2022-02-16'
 signer: 
 reviewArchive: 
-twitter: paybito
+twitter: 'paybito'
 social:
-- https://www.facebook.com/paybito
+- 'https://www.facebook.com/paybito'
 redirect_from: 
 developerName: 
 features: 

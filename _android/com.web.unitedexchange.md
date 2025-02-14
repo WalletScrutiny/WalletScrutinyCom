@@ -1,35 +1,35 @@
 ---
-wsId: unitedExchange
-title: UnitedExchange
+wsId: 'unitedExchange'
+title: 'UnitedExchange'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.web.unitedexchange
+appId: 'com.web.unitedexchange'
 appCountry: 
-released: 2021-06-16
-updated: 2023-05-04
+released: '2021-06-16'
+updated: '2023-05-04'
 version: '3.7'
 stars: 4.6
 ratings: 
 reviews: 2
 size: 
-website: https://unitedexchange.io/
+website: 'https://unitedexchange.io/'
 repository: 
 issue: 
-icon: com.web.unitedexchange.png
+icon: 'com.web.unitedexchange.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-12-19
+date: '2023-12-19'
 signer: 
 reviewArchive: 
-twitter: exchange_united
+twitter: 'exchange_united'
 social:
-- https://www.facebook.com/UnitedExchange.io
+- 'https://www.facebook.com/UnitedExchange.io'
 redirect_from: 
-developerName: United Exchange
+developerName: 'United Exchange'
 features: 
 
 ---

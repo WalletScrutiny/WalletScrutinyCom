@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: Torex
+title: 'Torex'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.torexapp
+appId: 'com.torexapp'
 appCountry: 
-released: 2020-08-03
-updated: 2020-09-29
+released: '2020-08-03'
+updated: '2020-09-29'
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://torex.one/ru/
+website: 'https://torex.one/ru/'
 repository: 
 issue: 
-icon: com.torexapp.png
+icon: 'com.torexapp.png'
 bugbounty: 
-meta: defunct
-verdict: wip
+meta: 'defunct'
+verdict: 'wip'
 appHashes: 
-date: 2023-06-03
+date: '2023-06-03'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Torex.one
+developerName: 'Torex.one'
 features: 
 
 ---

@@ -1,36 +1,35 @@
 ---
-wsId: Paymium
-title: Paymium
+wsId: 'Paymium'
+title: 'Paymium'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.paymium.mobile2
-appCountry: us
-released: 2018-09-24
+appId: 'com.paymium.mobile2'
+appCountry: 'us'
+released: '2018-09-24'
 updated: 2025-02-12
-version: 8.12.4
+version: '8.12.4'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: http://paymium.com
+website: 'http://paymium.com'
 repository: 
 issue: 
-icon: com.paymium.mobile2.png
+icon: 'com.paymium.mobile2.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-11-03
+date: '2021-11-03'
 signer: 
 reviewArchive: 
-twitter: paymium
+twitter: 'paymium'
 social:
-- https://www.linkedin.com/company/paymium
-- https://www.facebook.com/Paymium
+- 'https://www.linkedin.com/company/paymium'
+- 'https://www.facebook.com/Paymium'
 redirect_from: 
-developerName: Paymium SAS
+developerName: 'Paymium SAS'
 features: 
 
 ---

@@ -1,36 +1,36 @@
 ---
-wsId: inLock
+wsId: 'inLock'
 title: 'INLOCK: Crypto Savings Account'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: io.inlock.mobileapp
-appCountry: us
-released: 2020-08-04
-updated: 2023-04-01
-version: 2.1.1
+appId: 'io.inlock.mobileapp'
+appCountry: 'us'
+released: '2020-08-04'
+updated: '2023-04-01'
+version: '2.1.1'
 stars: 3.8
 ratings: 108
 reviews: 6
 size: 
-website: https://inlock.io/
+website: 'https://inlock.io/'
 repository: 
 issue: 
-icon: io.inlock.mobileapp.png
+icon: 'io.inlock.mobileapp.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-12-19
+date: '2023-12-19'
 signer: 
 reviewArchive: 
-twitter: inlock_token
+twitter: 'inlock_token'
 social:
-- https://www.linkedin.com/company/income-locker
-- https://www.facebook.com/incomelocker
+- 'https://www.linkedin.com/company/income-locker'
+- 'https://www.facebook.com/incomelocker'
 redirect_from: 
-developerName: Variance HODLING Kft.
+developerName: 'Variance HODLING Kft.'
 features: 
 
 ---

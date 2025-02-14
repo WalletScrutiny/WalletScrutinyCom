@@ -1,40 +1,39 @@
 ---
-wsId: ShapeShift
+wsId: 'ShapeShift'
 title: 'ShapeShift: Crypto Platform'
 altTitle: 
 authors:
-- leo
-- danny
+- 'leo'
+- 'danny'
 users: 500000
-appId: com.shapeshift.droid_shapeshift
+appId: 'com.shapeshift.droid_shapeshift'
 appCountry: 
-released: 2015-10-26
+released: '2015-10-26'
 updated: 2024-06-20
-version: 3.1.0
+version: '3.1.0'
 stars: 3.3
 ratings: 2913
 reviews: 510
-size: 
-website: https://ShapeShift.com
-repository: https://github.com/shapeshift/mobile-app
-issue: https://github.com/shapeshift/mobile-app/issues/104
-icon: com.shapeshift.droid_shapeshift.png
+website: 'https://ShapeShift.com'
+repository: 'https://github.com/shapeshift/mobile-app'
+issue: 'https://github.com/shapeshift/mobile-app/issues/104'
+icon: 'com.shapeshift.droid_shapeshift.png'
 bugbounty: 
-meta: ok
-verdict: nonverifiable
+meta: 'ok'
+verdict: 'nonverifiable'
 appHashes: []
-date: 2024-08-09
+date: '2024-08-09'
 signer: 
 reviewArchive: 
-twitter: ShapeShift_io
+twitter: 'ShapeShift_io'
 social:
-- https://www.facebook.com/ShapeShiftPlatform
-- https://www.instagram.com/shapeshift_io
-- https://www.youtube.com/channel/UCrZ2Ml63kLwZJ6amqoGaZeQ
-- https://t.me/shapeshiftofficial
+- 'https://www.facebook.com/ShapeShiftPlatform'
+- 'https://www.instagram.com/shapeshift_io'
+- 'https://www.youtube.com/channel/UCrZ2Ml63kLwZJ6amqoGaZeQ'
+- 'https://t.me/shapeshiftofficial'
 redirect_from:
-- /com.shapeshift.droid_shapeshift/
-developerName: ShapeShift.com
+- '/com.shapeshift.droid_shapeshift/'
+developerName: 'ShapeShift.com'
 features: 
 
 ---

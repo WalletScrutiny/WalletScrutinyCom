@@ -1,35 +1,35 @@
 ---
-wsId: midas
-title: Midas Crypto Wallet
+wsId: 'midas'
+title: 'Midas Crypto Wallet'
 altTitle: 
 authors:
-- kiwilamb
+- 'kiwilamb'
 users: 10000
-appId: com.midasprotocol.wallet.android
+appId: 'com.midasprotocol.wallet.android'
 appCountry: 
-released: 2018-11-02
-updated: 2021-12-20
-version: 2.0.8.1
+released: '2018-11-02'
+updated: '2021-12-20'
+version: '2.0.8.1'
 stars: 4.3
 ratings: 450
 reviews: 25
 size: 
-website: https://midasprotocol.io
+website: 'https://midasprotocol.io'
 repository: 
 issue: 
-icon: com.midasprotocol.wallet.android.png
+icon: 'com.midasprotocol.wallet.android.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
-twitter: MidasProtocol
+twitter: 'MidasProtocol'
 social:
-- https://www.facebook.com/midasprotocol.io
+- 'https://www.facebook.com/midasprotocol.io'
 redirect_from: 
-developerName: Midas Core Pte Ltd
+developerName: 'Midas Core Pte Ltd'
 features: 
 
 ---

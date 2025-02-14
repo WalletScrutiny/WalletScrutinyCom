@@ -1,36 +1,36 @@
 ---
 wsId: 
-title: OTPPAY - Crypto Exchange & Mer
+title: 'OTPPAY - Crypto Exchange & Mer'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.idbtec.otppaycrypto
+appId: 'com.idbtec.otppaycrypto'
 appCountry: 
-released: 2018-08-13
-updated: 2020-04-01
+released: '2018-08-13'
+updated: '2020-04-01'
 version: '1.21'
 stars: 5
 ratings: 91
 reviews: 4
 size: 
-website: https://www.otppay.com
+website: 'https://www.otppay.com'
 repository: 
 issue: 
-icon: com.idbtec.otppaycrypto.png
+icon: 'com.idbtec.otppaycrypto.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2023-05-26
+date: '2023-05-26'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://t.me/otppaychat
-- https://www.youtube.com/watch?v=otjCnt4qN1E
+- 'https://t.me/otppaychat'
+- 'https://www.youtube.com/watch?v=otjCnt4qN1E'
 redirect_from: 
-developerName: Otppay OU
+developerName: 'Otppay OU'
 features: 
 
 ---

@@ -8,9 +8,9 @@ authors:
 appId: com.walletdev.onchainwallet
 appCountry: 
 idd: 1433883012
-released: 2018-09-29
-updated: 2023-06-15
-version: 3.3.6
+released: '2018-09-29'
+updated: '2023-06-15'
+version: '3.3.6'
 stars: 3.4
 reviews: 136
 size: '120071168'
@@ -22,7 +22,7 @@ bugbounty:
 meta: removed
 verdict: nosource
 appHashes: 
-date: 2023-09-28
+date: '2023-09-28'
 signer: 
 reviewArchive: 
 twitter: HuobiWallet

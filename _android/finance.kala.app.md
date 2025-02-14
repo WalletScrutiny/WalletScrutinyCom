@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: Kala Wallet
+title: 'Kala Wallet'
 altTitle: 
 authors: 
 users: 1000
-appId: finance.kala.app
+appId: 'finance.kala.app'
 appCountry: 
 released: 
-updated: 2021-10-05
-version: VARY
+updated: '2021-10-05'
+version: 'VARY'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://kala.finance
+website: 'https://kala.finance'
 repository: 
 issue: 
-icon: finance.kala.app.png
+icon: 'finance.kala.app.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2023-09-28
+date: '2023-09-28'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Kala Labs
+developerName: 'Kala Labs'
 features: 
 
 ---

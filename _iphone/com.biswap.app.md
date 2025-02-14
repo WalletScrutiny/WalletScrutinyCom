@@ -1,36 +1,36 @@
 ---
-wsId: biswapCryptoApp
-title: Biswap
+wsId: 'biswapCryptoApp'
+title: 'Biswap'
 altTitle: 
 authors:
-- danny
-appId: com.biswap.app
-appCountry: ca
+- 'danny'
+appId: 'com.biswap.app'
+appCountry: 'ca'
 idd: '1634279692'
-released: 2022-11-29
+released: '2022-11-29'
 updated: 2023-07-11
-version: 1.0.12
+version: '1.0.12'
 stars: 5
 reviews: 5
 size: '39329792'
-website: https://biswap.com
+website: 'https://biswap.com'
 repository: 
 issue: 
-icon: com.biswap.app.jpg
+icon: 'com.biswap.app.jpg'
 bugbounty: 
-meta: stale
-verdict: nosource
+meta: 'stale'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
-twitter: exchangilydex
+twitter: 'exchangilydex'
 social:
-- https://www.facebook.com/BestDEX
-- https://t.me/exchangily_chat
-- https://www.tiktok.com/@exchangilydex
+- 'https://www.facebook.com/BestDEX'
+- 'https://t.me/exchangily_chat'
+- 'https://www.tiktok.com/@exchangilydex'
 features: 
-developerName: Exchangily LLC
+developerName: 'Exchangily LLC'
 
 ---
 

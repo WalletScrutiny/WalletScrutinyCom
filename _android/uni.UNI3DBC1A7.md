@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: 3F Wallet
+title: '3F Wallet'
 altTitle: 
 authors: 
 users: 10
-appId: uni.UNI3DBC1A7
+appId: 'uni.UNI3DBC1A7'
 appCountry: 
-released: 2021-10-20
-updated: 2021-12-28
-version: 1.9.4
+released: '2021-10-20'
+updated: '2021-12-28'
+version: '1.9.4'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://3fwallet.com
+website: 'https://3fwallet.com'
 repository: 
 issue: 
-icon: uni.UNI3DBC1A7.png
+icon: 'uni.UNI3DBC1A7.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-04-03
+date: '2024-04-03'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Finance Future Factory
+developerName: 'Finance Future Factory'
 features: 
 
 ---

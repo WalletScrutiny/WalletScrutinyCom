@@ -3,7 +3,7 @@ title: Octowalletsilo
 appId: octowalletsilo
 authors:
 - danny
-released: 2018-08-03
+released: '2018-08-03'
 discontinued: 
 updated: 
 version: 
@@ -26,7 +26,7 @@ bugbounty:
 meta: defunct
 verdict: nosource
 appHashes: 
-date: 2022-02-18
+date: '2022-02-18'
 signer: 
 reviewArchive: 
 twitter: octowallet

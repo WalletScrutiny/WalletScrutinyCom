@@ -3,9 +3,9 @@ title: DenixDx OpenHW DIY Hardware Wallet
 appId: denisdx.openhw.diy
 authors:
 - danny
-released: 2019-06-24
+released: '2019-06-24'
 discontinued: 
-updated: 2019-07-10
+updated: '2019-07-10'
 version: 
 binaries: 
 dimensions: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: obsolete
 verdict: diy
 appHashes: 
-date: 2022-05-26
+date: '2022-05-26'
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,39 +1,38 @@
 ---
-wsId: swissQuoteAdvancedTrader
+wsId: 'swissQuoteAdvancedTrader'
 title: 'Swissquote CFXD: Forex & CFDs'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.swissquote.mobiletrader.android.wl.acm
+appId: 'com.swissquote.mobiletrader.android.wl.acm'
 appCountry: 
-released: 2012-11-01
+released: '2012-11-01'
 updated: 2025-02-07
-version: 3.7.0
+version: '3.7.0'
 stars: 4
 ratings: 
 reviews: 3
-size: 
-website: https://www.swissquote.com/private/trade/platforms/forex-cfds/cfxd
+website: 'https://www.swissquote.com/private/trade/platforms/forex-cfds/cfxd'
 repository: 
 issue: 
-icon: com.swissquote.mobiletrader.android.wl.acm.png
+icon: 'com.swissquote.mobiletrader.android.wl.acm.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-11-02
+date: '2023-11-02'
 signer: 
 reviewArchive: 
-twitter: Swissquote
+twitter: 'Swissquote'
 social:
-- https://www.linkedin.com/company/swissquote
-- https://www.facebook.com/Swissquote.en
-- https://www.youtube.com/user/SwissquoteBank
-- https://www.instagram.com/swissquote_official
-- https://www.tiktok.com/@swissquote_official
+- 'https://www.linkedin.com/company/swissquote'
+- 'https://www.facebook.com/Swissquote.en'
+- 'https://www.youtube.com/user/SwissquoteBank'
+- 'https://www.instagram.com/swissquote_official'
+- 'https://www.tiktok.com/@swissquote_official'
 redirect_from: 
-developerName: Swissquote Mobile
+developerName: 'Swissquote Mobile'
 features: 
 
 ---

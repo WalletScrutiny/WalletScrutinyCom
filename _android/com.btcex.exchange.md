@@ -1,39 +1,39 @@
 ---
-wsId: BTCEX
+wsId: 'BTCEX'
 title: 'BTCEX: Trade Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.btcex.exchange
+appId: 'com.btcex.exchange'
 appCountry: 
-released: 2021-10-25
-updated: 2023-07-05
-version: 1.4.50
+released: '2021-10-25'
+updated: '2023-07-05'
+version: '1.4.50'
 stars: 3.9
 ratings: 
 reviews: 9
 size: 
-website: https://www.btcex.com/
+website: 'https://www.btcex.com/'
 repository: 
 issue: 
-icon: com.btcex.exchange.png
+icon: 'com.btcex.exchange.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-08-16
+date: '2023-08-16'
 signer: 
 reviewArchive: 
-twitter: BTCEX_exchange
+twitter: 'BTCEX_exchange'
 social:
-- https://www.reddit.com/user/BTCEX_exchange
-- https://www.facebook.com/BTCEX.exchange
-- https://www.linkedin.com/company/btcex/about/
-- https://blog.naver.com/btcex
-- https://medium.com/@BTCEX
+- 'https://www.reddit.com/user/BTCEX_exchange'
+- 'https://www.facebook.com/BTCEX.exchange'
+- 'https://www.linkedin.com/company/btcex/about/'
+- 'https://blog.naver.com/btcex'
+- 'https://medium.com/@BTCEX'
 redirect_from: 
-developerName: BTCEX
+developerName: 'BTCEX'
 features: 
 
 ---

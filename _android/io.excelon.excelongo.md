@@ -7,9 +7,9 @@ authors:
 users: 10000
 appId: io.excelon.excelongo
 appCountry: 
-released: 2021-08-09
-updated: 2023-05-25
-version: 1.0.76
+released: '2021-08-09'
+updated: '2023-05-25'
+version: '1.0.76'
 stars: 
 ratings: 
 reviews: 
@@ -22,7 +22,7 @@ bugbounty:
 meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-05-24
+date: '2024-05-24'
 signer: 
 reviewArchive: 
 twitter: 

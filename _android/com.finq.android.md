@@ -1,34 +1,34 @@
 ---
-wsId: finq
-title: Finq
+wsId: 'finq'
+title: 'Finq'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.finq.android
+appId: 'com.finq.android'
 appCountry: 
-released: 2017-10-02
-updated: 2024-09-05
-version: 2.11.1
+released: '2017-10-02'
+updated: '2024-09-05'
+version: '2.11.1'
 stars: 2.7
 ratings: 
 reviews: 5
 size: 
-website: http://www.finq.com
+website: 'http://www.finq.com'
 repository: 
 issue: 
-icon: com.finq.android.png
+icon: 'com.finq.android.png'
 bugbounty: 
-meta: ok
-verdict: nosendreceive
+meta: 'ok'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2022-07-11
+date: '2022-07-11'
 signer: 
 reviewArchive: 
-twitter: finqcom
+twitter: 'finqcom'
 social: 
 redirect_from: 
-developerName: Leadcapital Corp LTD
+developerName: 'Leadcapital Corp LTD'
 features: 
 
 ---

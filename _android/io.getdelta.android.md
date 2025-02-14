@@ -1,34 +1,33 @@
 ---
-wsId: getDelta
-title: Delta Investment Tracker
+wsId: 'getDelta'
+title: 'Delta Investment Tracker'
 altTitle: 
 authors: 
 users: 1000000
-appId: io.getdelta.android
-appCountry: us
-released: 2017-09-23
+appId: 'io.getdelta.android'
+appCountry: 'us'
+released: '2017-09-23'
 updated: 2025-01-24
-version: 2025.1.1
+version: '2025.1.1'
 stars: 4.3
 ratings: 26395
-reviews: 1983
-size: 
-website: https://delta.app
+reviews: 1984
+website: 'https://delta.app'
 repository: 
 issue: 
-icon: io.getdelta.android.png
+icon: 'io.getdelta.android.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2021-11-01
+date: '2021-11-01'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from:
-- /io.getdelta.android/
-developerName: Delta by eToro
+- '/io.getdelta.android/'
+developerName: 'Delta by eToro'
 features: 
 
 ---

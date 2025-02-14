@@ -1,35 +1,35 @@
 ---
 wsId: 
-title: Jackocoins -  Sell BTC, ETH, U
+title: 'Jackocoins -  Sell BTC, ETH, U'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.jackocoins.app
+appId: 'com.jackocoins.app'
 appCountry: 
-released: 2020-07-18
-updated: 2023-12-06
-version: 2.0.2
+released: '2020-07-18'
+updated: '2023-12-06'
+version: '2.0.2'
 stars: 3.9
 ratings: 148
 reviews: 26
 size: 
-website: https://www.jackocoins.com/
+website: 'https://www.jackocoins.com/'
 repository: 
 issue: 
-icon: com.jackocoins.app.png
+icon: 'com.jackocoins.app.png'
 bugbounty: 
-meta: removed
-verdict: nosendreceive
+meta: 'removed'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2024-10-23
+date: '2024-10-23'
 signer: 
 reviewArchive: 
-twitter: jackocoins
+twitter: 'jackocoins'
 social:
-- https://www.facebook.com/jackocoins
+- 'https://www.facebook.com/jackocoins'
 redirect_from: 
-developerName: Jackocoins
+developerName: 'Jackocoins'
 features: 
 
 ---

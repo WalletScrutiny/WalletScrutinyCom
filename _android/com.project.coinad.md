@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: 코인애드(CoinAD)- 가상화폐 전환 돈버는앱 (비트
+title: '코인애드(CoinAD)- 가상화폐 전환 돈버는앱 (비트'
 altTitle: 
 authors: 
 users: 10000
-appId: com.project.coinad
+appId: 'com.project.coinad'
 appCountry: 
-released: 2018-03-27
-updated: 2019-12-12
+released: '2018-03-27'
+updated: '2019-12-12'
 version: '1.26'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: http://gmnc.net
+website: 'http://gmnc.net'
 repository: 
 issue: 
-icon: com.project.coinad.jpg
+icon: 'com.project.coinad.jpg'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
 twitter: 

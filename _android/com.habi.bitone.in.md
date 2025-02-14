@@ -1,15 +1,15 @@
 ---
 wsId: 
-title: BitOne
+title: 'BitOne'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.habi.bitone.in
+appId: 'com.habi.bitone.in'
 appCountry: 
 released: 
-updated: 2021-05-14
-version: 1.3.9
+updated: '2021-05-14'
+version: '1.3.9'
 stars: 
 ratings: 
 reviews: 
@@ -17,19 +17,19 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.habi.bitone.in.png
+icon: 'com.habi.bitone.in.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-08-16
+date: '2023-08-16'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://www.bitone.trade
+- 'https://www.bitone.trade'
 redirect_from: 
-developerName: BitOne
+developerName: 'BitOne'
 features: 
 
 ---

@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: JUWELIS App
+title: 'JUWELIS App'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: digital.juwelis.app
+appId: 'digital.juwelis.app'
 appCountry: 
 released: 
-updated: 2021-02-19
-version: VARY
+updated: '2021-02-19'
+version: 'VARY'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://juwelis.digital/
+website: 'https://juwelis.digital/'
 repository: 
 issue: 
-icon: digital.juwelis.app.png
+icon: 'digital.juwelis.app.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2024-04-03
+date: '2024-04-03'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: JUWELIS Digital
+developerName: 'JUWELIS Digital'
 features: 
 
 ---

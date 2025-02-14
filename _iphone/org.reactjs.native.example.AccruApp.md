@@ -7,9 +7,9 @@ authors:
 appId: org.reactjs.native.example.AccruApp
 appCountry: us
 idd: '1576493853'
-released: 2021-12-07
-updated: 2023-01-10
-version: 1.0.201
+released: '2021-12-07'
+updated: '2023-01-10'
+version: '1.0.201'
 stars: 0
 reviews: 0
 size: '41643008'
@@ -21,7 +21,7 @@ bugbounty:
 meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-12-31
+date: '2024-12-31'
 signer: 
 reviewArchive: 
 twitter: AQRU_Official

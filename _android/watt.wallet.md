@@ -1,35 +1,35 @@
 ---
-wsId: wattMe
-title: WATT ME
+wsId: 'wattMe'
+title: 'WATT ME'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: watt.wallet
+appId: 'watt.wallet'
 appCountry: 
-released: 2021-11-29
-updated: 2022-06-11
-version: 1.28.0
+released: '2021-11-29'
+updated: '2022-06-11'
+version: '1.28.0'
 stars: 3.2
 ratings: 
 reviews: 
 size: 
-website: https://watt.me
+website: 'https://watt.me'
 repository: 
 issue: 
-icon: watt.wallet.png
+icon: 'watt.wallet.png'
 bugbounty: 
-meta: obsolete
-verdict: nosource
+meta: 'obsolete'
+verdict: 'nosource'
 appHashes: 
-date: 2024-06-03
+date: '2024-06-03'
 signer: 
 reviewArchive: 
-twitter: watt_me_token
+twitter: 'watt_me_token'
 social:
-- https://t.me/watt_me
+- 'https://t.me/watt_me'
 redirect_from: 
-developerName: wise.win
+developerName: 'wise.win'
 features: 
 
 ---

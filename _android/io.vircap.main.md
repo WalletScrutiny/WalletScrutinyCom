@@ -1,37 +1,37 @@
 ---
-wsId: vircapExchange
-title: Vircap
+wsId: 'vircapExchange'
+title: 'Vircap'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: io.vircap.main
+appId: 'io.vircap.main'
 appCountry: 
 released: 
-updated: 2024-06-03
-version: VARY
+updated: '2024-06-03'
+version: 'VARY'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://vircap.io
+website: 'https://vircap.io'
 repository: 
 issue: 
-icon: io.vircap.main.png
+icon: 'io.vircap.main.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-11-04
+date: '2024-11-04'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/Vircaphq
-- https://www.reddit.com/user/Vircaphq
-- https://vircap.medium.com
+- 'https://www.facebook.com/Vircaphq'
+- 'https://www.reddit.com/user/Vircaphq'
+- 'https://vircap.medium.com'
 redirect_from: 
-developerName: Vircap LLC
+developerName: 'Vircap LLC'
 features: 
 
 ---

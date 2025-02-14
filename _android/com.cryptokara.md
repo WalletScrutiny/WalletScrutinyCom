@@ -1,28 +1,27 @@
 ---
-wsId: cryptoKara
-title: CryptoKara
+wsId: 'cryptoKara'
+title: 'CryptoKara'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 500000
-appId: com.cryptokara
+appId: 'com.cryptokara'
 appCountry: 
-released: 2021-09-28
+released: '2021-09-28'
 updated: 2024-04-08
-version: 1.7.5
+version: '1.7.5'
 stars: 4.2
 ratings: 
 reviews: 143
-size: 
-website: https://www.cryptokara.com/
+website: 'https://www.cryptokara.com/'
 repository: 
 issue: 
-icon: com.cryptokara.jpg
+icon: 'com.cryptokara.jpg'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-17
+date: '2024-07-17'
 signer: 
 reviewArchive: 
 twitter: 

@@ -7,8 +7,8 @@ authors:
 appId: cryptoex.elegro.io
 appCountry: gb
 idd: '1469234024'
-released: 2019-08-16
-updated: 2021-04-30
+released: '2019-08-16'
+updated: '2021-04-30'
 version: '1.4'
 stars: 5
 reviews: 2
@@ -21,7 +21,7 @@ bugbounty:
 meta: obsolete
 verdict: wip
 appHashes: 
-date: 2023-07-03
+date: '2023-07-03'
 signer: 
 reviewArchive: 
 twitter: elegro_eu

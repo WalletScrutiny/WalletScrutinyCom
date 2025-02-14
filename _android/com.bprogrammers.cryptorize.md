@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: CryptoRize - Earn BTC & SHIB
+title: 'CryptoRize - Earn BTC & SHIB'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000000
-appId: com.bprogrammers.cryptorize
+appId: 'com.bprogrammers.cryptorize'
 appCountry: 
-released: 2020-07-03
+released: '2020-07-03'
 updated: 2024-05-22
-version: 2.3.1
+version: '2.3.1'
 stars: 4
 ratings: 
 reviews: 1070
-size: 
-website: https://cryptorize.edercmf.com/
+website: 'https://cryptorize.edercmf.com/'
 repository: 
 issue: 
-icon: com.bprogrammers.cryptorize.png
+icon: 'com.bprogrammers.cryptorize.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-09-04
+date: '2024-09-04'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/BProgrammers
+- 'https://www.facebook.com/BProgrammers'
 redirect_from: 
-developerName: B Programmers
+developerName: 'B Programmers'
 features: 
 
 ---

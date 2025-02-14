@@ -1,34 +1,33 @@
 ---
-wsId: libertex
+wsId: 'libertex'
 title: 'Libertex: Trade Stocks & Forex'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000000
-appId: org.fxclub.libertex
-appCountry: cl
-released: 2015-05-22
+appId: 'org.fxclub.libertex'
+appCountry: 'cl'
+released: '2015-05-22'
 updated: 2025-02-04
-version: 2.42.0
+version: '2.42.0'
 stars: 4
 ratings: 77624
 reviews: 1236
-size: 
-website: https://libertex.org
+website: 'https://libertex.org'
 repository: 
 issue: 
-icon: org.fxclub.libertex.png
+icon: 'org.fxclub.libertex.png'
 bugbounty: 
-meta: ok
-verdict: nosendreceive
+meta: 'ok'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2021-08-09
+date: '2021-08-09'
 signer: 
 reviewArchive: 
-twitter: libertex_latam
+twitter: 'libertex_latam'
 social: 
 redirect_from: 
-developerName: Libertex International Company Limited
+developerName: 'Libertex International Company Limited'
 features: 
 
 ---

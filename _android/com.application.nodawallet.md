@@ -1,36 +1,36 @@
 ---
 wsId: 
-title: NodaWallet
+title: 'NodaWallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.application.nodawallet
+appId: 'com.application.nodawallet'
 appCountry: 
-released: 2020-09-14
-updated: 2022-05-20
-version: 1.0.20
+released: '2020-09-14'
+updated: '2022-05-20'
+version: '1.0.20'
 stars: 4.7
 ratings: 849
 reviews: 55
 size: 
-website: https://nodawallet.com
-repository: https://github.com/nodawallet/NodaWallet-Android
-issue: https://github.com/nodawallet/NodaWallet-Android/issues/1
-icon: com.application.nodawallet.png
+website: 'https://nodawallet.com'
+repository: 'https://github.com/nodawallet/NodaWallet-Android'
+issue: 'https://github.com/nodawallet/NodaWallet-Android/issues/1'
+icon: 'com.application.nodawallet.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2024-11-30
+date: '2024-11-30'
 signer: 
 reviewArchive: 
-twitter: DexNodaWallett
+twitter: 'DexNodaWallett'
 social:
-- https://www.linkedin.com/company/noda-project-8b4a251b3
-- https://www.reddit.com/r/NodaWallet
+- 'https://www.linkedin.com/company/noda-project-8b4a251b3'
+- 'https://www.reddit.com/r/NodaWallet'
 redirect_from: 
-developerName: noda
+developerName: 'noda'
 features: 
 
 ---

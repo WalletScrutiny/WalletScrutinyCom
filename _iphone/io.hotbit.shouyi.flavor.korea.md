@@ -7,9 +7,9 @@ authors:
 appId: io.hotbit.shouyi.flavor.korea
 appCountry: kr
 idd: 1519926225
-released: 2020-08-05
-updated: 2022-03-16
-version: 1.1.52
+released: '2020-08-05'
+updated: '2022-03-16'
+version: '1.1.52'
 stars: 3.9
 reviews: 36
 size: '31287296'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2022-05-31
+date: '2022-05-31'
 signer: 
 reviewArchive: 
 twitter: hotbit_korea

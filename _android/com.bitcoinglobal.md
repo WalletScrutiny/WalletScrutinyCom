@@ -1,36 +1,35 @@
 ---
-wsId: bitcoinglobal
+wsId: 'bitcoinglobal'
 title: 'Bitcoin Global: P2P platform'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.bitcoinglobal
-appCountry: us
-released: 2020-09-25
+appId: 'com.bitcoinglobal'
+appCountry: 'us'
+released: '2020-09-25'
 updated: 2023-04-18
-version: 2.12.0
+version: '2.12.0'
 stars: 2.6
 ratings: 91
 reviews: 5
-size: 
-website: https://bitcoin.global/
+website: 'https://bitcoin.global/'
 repository: 
 issue: 
-icon: com.bitcoinglobal.png
+icon: 'com.bitcoinglobal.png'
 bugbounty: 
-meta: stale
-verdict: custodial
+meta: 'stale'
+verdict: 'custodial'
 appHashes: 
-date: 2024-04-13
+date: '2024-04-13'
 signer: 
 reviewArchive: 
-twitter: BitcoinGlobalEx
+twitter: 'BitcoinGlobalEx'
 social:
-- https://www.facebook.com/BitcoinGlobalEx
-- https://www.reddit.com/r/BITCOIN_GLOBAL
+- 'https://www.facebook.com/BitcoinGlobalEx'
+- 'https://www.reddit.com/r/BITCOIN_GLOBAL'
 redirect_from: 
-developerName: Bitcoin Global Ex
+developerName: 'Bitcoin Global Ex'
 features: 
 
 ---

@@ -1,37 +1,37 @@
 ---
-wsId: FlareWallet
-title: Flare Wallet
+wsId: 'FlareWallet'
+title: 'Flare Wallet'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 5000
-appId: com.flare
+appId: 'com.flare'
 appCountry: 
-released: 2020-02-22
-updated: 2021-03-13
-version: 1.4.0
+released: '2020-02-22'
+updated: '2021-03-13'
+version: '1.4.0'
 stars: 3.7
 ratings: 233
 reviews: 43
 size: 
-website: https://flarewallet.io
+website: 'https://flarewallet.io'
 repository: 
 issue: 
-icon: com.flare.png
+icon: 'com.flare.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2024-04-26
+date: '2024-04-26'
 signer: 
 reviewArchive: 
-twitter: flarewallet
+twitter: 'flarewallet'
 social:
-- https://www.facebook.com/FlareWallet
+- 'https://www.facebook.com/FlareWallet'
 redirect_from:
-- /com.flare/
-- /posts/com.flare/
-developerName: flarewallet.io
+- '/com.flare/'
+- '/posts/com.flare/'
+developerName: 'flarewallet.io'
 features: 
 
 ---

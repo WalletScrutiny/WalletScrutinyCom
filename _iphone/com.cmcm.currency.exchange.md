@@ -7,9 +7,9 @@ authors:
 appId: com.cmcm.currency.exchange
 appCountry: 
 idd: 1435877386
-released: 2018-09-16
-updated: 2025-02-05
-version: 6.0.12
+released: '2018-09-16'
+updated: '2025-02-05'
+version: '6.0.12'
 stars: 4.2
 reviews: 1103
 size: '104396800'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2024-11-13
+date: '2024-11-13'
 signer: 
 reviewArchive: 
 twitter: BitrueOfficial

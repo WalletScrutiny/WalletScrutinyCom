@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: Orinoco.io
+title: 'Orinoco.io'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: org.orinocodev.orinoco.io
+appId: 'org.orinocodev.orinoco.io'
 appCountry: 
-released: 2020-04-26
+released: '2020-04-26'
 updated: 2024-06-18
-version: 1.0.0
+version: '1.0.0'
 stars: 4
 ratings: 
 reviews: 15
-size: 
-website: https://orinoco.io
+website: 'https://orinoco.io'
 repository: 
 issue: 
-icon: org.orinocodev.orinoco.io.png
+icon: 'org.orinocodev.orinoco.io.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-04-15
+date: '2023-04-15'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/teamorinoco/videos/554519616420848
+- 'https://www.facebook.com/teamorinoco/videos/554519616420848'
 redirect_from: 
-developerName: Orinoco Dev
+developerName: 'Orinoco Dev'
 features: 
 
 ---

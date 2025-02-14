@@ -7,9 +7,9 @@ authors:
 appId: com.gl.sphinx
 appCountry: ie
 idd: 1483956418
-released: 2021-01-14
-updated: 2021-05-07
-version: 1.0.8
+released: '2021-01-14'
+updated: '2021-05-07'
+version: '1.0.8'
 stars: 0
 reviews: 0
 size: '78892032'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: nowallet
 appHashes: 
-date: 2024-03-02
+date: '2024-03-02'
 signer: 
 reviewArchive: 
 twitter: 

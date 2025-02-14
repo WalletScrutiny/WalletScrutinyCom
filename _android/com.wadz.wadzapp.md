@@ -1,40 +1,40 @@
 ---
-wsId: wadzPay
-title: WadzPay
+wsId: 'wadzPay'
+title: 'WadzPay'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.wadz.wadzapp
+appId: 'com.wadz.wadzapp'
 appCountry: 
-released: 2020-12-29
-updated: 2022-06-26
-version: 2.1.1
+released: '2020-12-29'
+updated: '2022-06-26'
+version: '2.1.1'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: http://www.wadzpay.com
+website: 'http://www.wadzpay.com'
 repository: 
 issue: 
-icon: com.wadz.wadzapp.png
+icon: 'com.wadz.wadzapp.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
-twitter: wadzpay
+twitter: 'wadzpay'
 social:
-- https://www.linkedin.com/company/wadzpay
-- https://www.facebook.com/WadzPay
-- https://www.instagram.com/wadzpay
-- https://t.me/WadzPay_Official
-- https://www.youtube.com/channel/UCZsMD2r_6d676L8alwl5kEA
-- https://wadzpay.medium.com
+- 'https://www.linkedin.com/company/wadzpay'
+- 'https://www.facebook.com/WadzPay'
+- 'https://www.instagram.com/wadzpay'
+- 'https://t.me/WadzPay_Official'
+- 'https://www.youtube.com/channel/UCZsMD2r_6d676L8alwl5kEA'
+- 'https://wadzpay.medium.com'
 redirect_from: 
-developerName: 2020 WadzPay Worldwide Pte Ltd
+developerName: '2020 WadzPay Worldwide Pte Ltd'
 features: 
 
 ---

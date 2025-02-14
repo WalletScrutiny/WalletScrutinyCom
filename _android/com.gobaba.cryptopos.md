@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Crypto POS
+title: 'Crypto POS'
 altTitle: 
 authors: 
 users: 100
-appId: com.gobaba.cryptopos
+appId: 'com.gobaba.cryptopos'
 appCountry: 
-released: 2018-11-05
-updated: 2018-11-05
+released: '2018-11-05'
+updated: '2018-11-05'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 6.6M
+size: '6.6M'
 website: 
 repository: 
 issue: 
-icon: com.gobaba.cryptopos.png
+icon: 'com.gobaba.cryptopos.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-12-05
+date: '2021-12-05'
 signer: 
 reviewArchive: 
 twitter: 

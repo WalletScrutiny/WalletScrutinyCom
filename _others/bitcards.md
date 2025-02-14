@@ -4,7 +4,7 @@ appId: bitcards
 authors:
 - danny
 icon: bitcards.png
-date: 2022-05-17
+date: '2022-05-17'
 website: https://bitcards.com/
 twitter: Bitcard_US
 social:

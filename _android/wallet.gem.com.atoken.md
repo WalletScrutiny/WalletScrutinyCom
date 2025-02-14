@@ -1,33 +1,33 @@
 ---
-wsId: ATokenWallet
-title: ATokenWallet
+wsId: 'ATokenWallet'
+title: 'ATokenWallet'
 altTitle: 
 authors:
-- kiwilamb
+- 'kiwilamb'
 users: 1000000
-appId: wallet.gem.com.atoken
+appId: 'wallet.gem.com.atoken'
 appCountry: 
-released: 2020-03-01
-updated: 2021-12-02
-version: 4.2.1
+released: '2020-03-01'
+updated: '2021-12-02'
+version: '4.2.1'
 stars: 4
 ratings: 4012
 reviews: 2460
-size: 51M
-website: https://www.atoken.com
+size: '51M'
+website: 'https://www.atoken.com'
 repository: 
 issue: 
-icon: wallet.gem.com.atoken.png
+icon: 'wallet.gem.com.atoken.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2022-01-15
+date: '2022-01-15'
 signer: 
 reviewArchive: 
-twitter: ATokenOfficial
+twitter: 'ATokenOfficial'
 social:
-- https://www.facebook.com/ATokenOfficial
+- 'https://www.facebook.com/ATokenOfficial'
 redirect_from: 
 developerName: 
 features: 

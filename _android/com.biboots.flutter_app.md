@@ -1,36 +1,36 @@
 ---
-wsId: fairdesk
-title: Fairdesk Go:Trade Bitcoin, ETH
+wsId: 'fairdesk'
+title: 'Fairdesk Go:Trade Bitcoin, ETH'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.biboots.flutter_app
+appId: 'com.biboots.flutter_app'
 appCountry: 
-released: 2021-09-25
-updated: 2024-08-23
-version: 1.7.1
+released: '2021-09-25'
+updated: '2024-08-23'
+version: '1.7.1'
 stars: 2.7
 ratings: 
 reviews: 17
 size: 
-website: https://www.fairdesk.com/
+website: 'https://www.fairdesk.com/'
 repository: 
 issue: 
-icon: com.biboots.flutter_app.png
+icon: 'com.biboots.flutter_app.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-12-23
+date: '2024-12-23'
 signer: 
 reviewArchive: 
-twitter: FairdeskGlobal
+twitter: 'FairdeskGlobal'
 social:
-- https://www.reddit.com/user/Fairdesk_Official
-- https://www.youtube.com/channel/UCYcwULjw4ci90htneCrMu1w
+- 'https://www.reddit.com/user/Fairdesk_Official'
+- 'https://www.youtube.com/channel/UCYcwULjw4ci90htneCrMu1w'
 redirect_from: 
-developerName: Fairdesk Technology Limited
+developerName: 'Fairdesk Technology Limited'
 features: 
 
 ---

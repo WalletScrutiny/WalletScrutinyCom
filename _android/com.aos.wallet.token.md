@@ -1,28 +1,28 @@
 ---
 wsId: 
-title: ATS Wallet
+title: 'ATS Wallet'
 altTitle: 
 authors:
-- kiwilamb
+- 'kiwilamb'
 users: 10000
-appId: com.aos.wallet.token
+appId: 'com.aos.wallet.token'
 appCountry: 
-released: 2019-11-07
-updated: 2020-08-07
-version: 2.0.22
+released: '2019-11-07'
+updated: '2020-08-07'
+version: '2.0.22'
 stars: 4.9
 ratings: 337
 reviews: 154
-size: 34M
-website: https://atswallet.io/
+size: '34M'
+website: 'https://atswallet.io/'
 repository: 
 issue: 
-icon: com.aos.wallet.token.png
+icon: 'com.aos.wallet.token.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2022-01-15
+date: '2022-01-15'
 signer: 
 reviewArchive: 
 twitter: 

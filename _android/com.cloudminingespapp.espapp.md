@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Pro Bitcoin Mining 2021 - BTC WALLET
+title: 'Pro Bitcoin Mining 2021 - BTC WALLET'
 altTitle: 
 authors: 
 users: 100
-appId: com.cloudminingespapp.espapp
+appId: 'com.cloudminingespapp.espapp'
 appCountry: 
-released: 2021-09-08
-updated: 2021-09-08
+released: '2021-09-08'
+updated: '2021-09-08'
 version: '1.0'
 stars: 1.6
 ratings: 15
 reviews: 13
-size: 4.7M
+size: '4.7M'
 website: 
 repository: 
 issue: 
-icon: com.cloudminingespapp.espapp.jpg
+icon: 'com.cloudminingespapp.espapp.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-11-10
+date: '2021-11-10'
 signer: 
 reviewArchive: 
 twitter: 

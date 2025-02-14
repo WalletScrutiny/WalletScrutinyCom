@@ -7,8 +7,8 @@ authors:
 appId: hippotech.bank.ios
 appCountry: gb
 idd: '1472192023'
-released: 2020-06-08
-updated: 2025-02-12
+released: '2020-06-08'
+updated: '2025-02-12'
 version: '3.66'
 stars: 4.5
 reviews: 1378
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2023-12-15
+date: '2023-12-15'
 signer: 
 reviewArchive: 
 twitter: ziglumoney

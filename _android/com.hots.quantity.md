@@ -1,15 +1,15 @@
 ---
-wsId: hotscoin
-title: HotsCoin - More Than 100× Gem
+wsId: 'hotscoin'
+title: 'HotsCoin - More Than 100× Gem'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.hots.quantity
+appId: 'com.hots.quantity'
 appCountry: 
-released: 2022-06-15
-updated: 2024-04-02
-version: 3.20.1
+released: '2022-06-15'
+updated: '2024-04-02'
+version: '3.20.1'
 stars: 3.6
 ratings: 
 reviews: 10
@@ -17,19 +17,19 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.hots.quantity.png
+icon: 'com.hots.quantity.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
-twitter: hotscoin
+twitter: 'hotscoin'
 social:
-- https://hotscoin.com
+- 'https://hotscoin.com'
 redirect_from: 
-developerName: KX Network Co., Ltd.
+developerName: 'KX Network Co., Ltd.'
 features: 
 
 ---

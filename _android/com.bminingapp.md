@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: Bmining
+title: 'Bmining'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.bminingapp
+appId: 'com.bminingapp'
 appCountry: 
-released: 2020-08-20
-updated: 2020-09-18
-version: 1.4.1
+released: '2020-08-20'
+updated: '2020-09-18'
+version: '1.4.1'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.bmining.com/
+website: 'https://www.bmining.com/'
 repository: 
 issue: 
-icon: com.bminingapp.png
+icon: 'com.bminingapp.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2023-05-13
+date: '2023-05-13'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Bmining
+developerName: 'Bmining'
 features: 
 
 ---

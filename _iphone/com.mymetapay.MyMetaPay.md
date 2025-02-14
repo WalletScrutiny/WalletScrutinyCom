@@ -7,9 +7,9 @@ authors:
 appId: com.mymetapay.MyMetaPay
 appCountry: us
 idd: '1619744034'
-released: 2022-06-27
-updated: 2024-04-03
-version: 1.20.1
+released: '2022-06-27'
+updated: '2024-04-03'
+version: '1.20.1'
 stars: 5
 reviews: 2
 size: '34957312'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nobtc
 appHashes: 
-date: 2023-08-15
+date: '2023-08-15'
 signer: 
 reviewArchive: 
 twitter: 

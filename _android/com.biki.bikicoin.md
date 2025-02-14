@@ -1,34 +1,34 @@
 ---
-wsId: bikiexchange
-title: BiKi App
+wsId: 'bikiexchange'
+title: 'BiKi App'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.biki.bikicoin
-appCountry: us
-released: 2019-05-13
-updated: 2021-07-21
-version: 4.9.1
+appId: 'com.biki.bikicoin'
+appCountry: 'us'
+released: '2019-05-13'
+updated: '2021-07-21'
+version: '4.9.1'
 stars: 3.2
 ratings: 777
 reviews: 17
-size: 25M
-website: https://www.biki.com
+size: '25M'
+website: 'https://www.biki.com'
 repository: 
 issue: 
-icon: com.biki.bikicoin.png
+icon: 'com.biki.bikicoin.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2022-03-07
+date: '2022-03-07'
 signer: 
 reviewArchive: 
-twitter: BiKiEnglish
+twitter: 'BiKiEnglish'
 social:
-- https://www.facebook.com/bikiexchange
-- https://www.reddit.com/r/BiKi
+- 'https://www.facebook.com/bikiexchange'
+- 'https://www.reddit.com/r/BiKi'
 redirect_from: 
 developerName: 
 features: 

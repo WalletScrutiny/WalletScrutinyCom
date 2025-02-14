@@ -1,36 +1,35 @@
 ---
-wsId: MetalPay
+wsId: 'MetalPay'
 title: 'Metal Pay: Buy Bitcoin and ETH'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.metallicus.metalapp.production
-appCountry: us
-released: 2020-01-14
+appId: 'com.metallicus.metalapp.production'
+appCountry: 'us'
+released: '2020-01-14'
 updated: 2025-02-07
-version: 3.1.169
+version: '3.1.169'
 stars: 3.9
 ratings: 564
-reviews: 358
-size: 
-website: https://metalpay.com
+reviews: 359
+website: 'https://metalpay.com'
 repository: 
 issue: 
-icon: com.metallicus.metalapp.production.png
+icon: 'com.metallicus.metalapp.production.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-10-21
+date: '2021-10-21'
 signer: 
 reviewArchive: 
-twitter: metalpaysme
+twitter: 'metalpaysme'
 social:
-- https://www.facebook.com/metalpaysme
-- https://www.reddit.com/r/MetalPay
+- 'https://www.facebook.com/metalpaysme'
+- 'https://www.reddit.com/r/MetalPay'
 redirect_from: 
-developerName: Metallicus Inc.
+developerName: 'Metallicus Inc.'
 features: 
 
 ---

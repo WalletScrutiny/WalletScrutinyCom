@@ -7,9 +7,9 @@ authors:
 appId: com.idiskk.wallet.usb
 appCountry: us
 idd: '1585595473'
-released: 2021-12-30
-updated: 2023-11-29
-version: 1.0.4
+released: '2021-12-30'
+updated: '2023-11-29'
+version: '1.0.4'
 stars: 3.5
 reviews: 19
 size: '74272768'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: nosource
 appHashes: 
-date: 2025-02-13
+date: '2025-02-13'
 signer: 
 reviewArchive: 
 twitter: 

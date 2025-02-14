@@ -1,35 +1,35 @@
 ---
-wsId: hoo
-title: Hoo
+wsId: 'hoo'
+title: 'Hoo'
 altTitle: 
 authors:
-- danny
-appId: cn.maolian.hufu.app.standard
-appCountry: us
-idd: 1387872759
-released: 2018-06-28
+- 'danny'
+appId: 'cn.maolian.hufu.app.standard'
+appCountry: 'us'
+idd: '1387872759'
+released: '2018-06-28'
 updated: 2022-09-15
-version: 4.6.96
-stars: 2.8
+version: '4.6.96'
+stars: 2.7651
 reviews: 149
 size: '135105536'
-website: https://hoo.com
+website: 'https://hoo.com'
 repository: 
 issue: 
-icon: cn.maolian.hufu.app.standard.jpg
+icon: 'cn.maolian.hufu.app.standard.jpg'
 bugbounty: 
-meta: obsolete
-verdict: custodial
+meta: 'obsolete'
+verdict: 'custodial'
 appHashes: 
-date: 2024-10-08
+date: '2024-10-08'
 signer: 
 reviewArchive: 
-twitter: Hoo_exchange
+twitter: 'Hoo_exchange'
 social:
-- https://www.facebook.com/hooexchange
-- https://www.reddit.com/r/HooExchange
+- 'https://www.facebook.com/hooexchange'
+- 'https://www.reddit.com/r/HooExchange'
 features: 
-developerName: Hoo Technology Limited
+developerName: 'Hoo Technology Limited'
 
 ---
 

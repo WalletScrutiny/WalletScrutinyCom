@@ -1,37 +1,36 @@
 ---
-wsId: hkd
-title: HKD.com
+wsId: 'hkd'
+title: 'HKD.com'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: hkd.com
+appId: 'hkd.com'
 appCountry: 
-released: 2020-09-11
+released: '2020-09-11'
 updated: 2024-06-25
-version: 2.9.3
+version: '2.9.3'
 stars: 4.1
 ratings: 
 reviews: 13
-size: 
-website: http://hkd.com
+website: 'http://hkd.com'
 repository: 
 issue: 
-icon: hkd.com.png
+icon: 'hkd.com.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-02-13
+date: '2023-02-13'
 signer: 
 reviewArchive: 
-twitter: HKD_exchange
+twitter: 'HKD_exchange'
 social:
-- https://www.facebook.com/hkdexchange/
-- https://www.youtube.com/c/hkdexchange
-- https://www.instagram.com/hkdexchange/?hl=en
+- 'https://www.facebook.com/hkdexchange/'
+- 'https://www.youtube.com/c/hkdexchange'
+- 'https://www.instagram.com/hkdexchange/?hl=en'
 redirect_from: 
-developerName: HKD.com Limited
+developerName: 'HKD.com Limited'
 features: 
 
 ---

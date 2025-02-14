@@ -1,28 +1,28 @@
 ---
 wsId: 
-title: Forex Broker , bitcoin , forex , stock - Trendo
+title: 'Forex Broker , bitcoin , forex , stock - Trendo'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.m3.Trendo
-appCountry: in
-released: 2020-08-20
-updated: 2021-09-25
-version: 2.5.42
+appId: 'com.m3.Trendo'
+appCountry: 'in'
+released: '2020-08-20'
+updated: '2021-09-25'
+version: '2.5.42'
 stars: 4.8
 ratings: 4809
 reviews: 2616
-size: 14M
+size: '14M'
 website: 
 repository: 
 issue: 
-icon: com.m3.Trendo.png
+icon: 'com.m3.Trendo.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2021-10-15
+date: '2021-10-15'
 signer: 
 reviewArchive: 
 twitter: 

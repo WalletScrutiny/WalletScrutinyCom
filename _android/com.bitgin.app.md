@@ -1,34 +1,32 @@
 ---
-wsId: bitginApp
-title: BITGIN
+wsId: 'bitginApp'
+title: 'BITGIN'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.bitgin.app
+appId: 'com.bitgin.app'
 appCountry: 
-released: 
 updated: 2023-05-24
-version: 2.2.2
+version: '2.2.2'
 stars: 2.2
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: com.bitgin.app.png
+icon: 'com.bitgin.app.png'
 bugbounty: 
-meta: stale
-verdict: custodial
+meta: 'stale'
+verdict: 'custodial'
 appHashes: 
-date: 2024-05-18
+date: '2024-05-18'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: BITGIN.NET
+developerName: 'BITGIN.NET'
 features: 
 
 ---

@@ -1,37 +1,36 @@
 ---
-wsId: huobi
+wsId: 'huobi'
 title: 'HTX: Buy Crypto & Bitcoin'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 10000000
-appId: pro.huobi
+appId: 'pro.huobi'
 appCountry: 
-released: 2017-11-01
+released: '2017-11-01'
 updated: 2025-01-23
-version: 10.43.0
+version: '10.43.0'
 stars: 3.2
 ratings: 31840
 reviews: 460
-size: 
-website: http://www.hbg.com
+website: 'http://www.hbg.com'
 repository: 
 issue: 
-icon: pro.huobi.png
+icon: 'pro.huobi.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2020-05-29
+date: '2020-05-29'
 signer: 
 reviewArchive: 
-twitter: HuobiGlobal
+twitter: 'HuobiGlobal'
 social:
-- https://www.facebook.com/huobiglobalofficial
+- 'https://www.facebook.com/huobiglobalofficial'
 redirect_from:
-- /pro.huobi/
-- /posts/pro.huobi/
-developerName: Huobi
+- '/pro.huobi/'
+- '/posts/pro.huobi/'
+developerName: 'Huobi'
 features: 
 
 ---

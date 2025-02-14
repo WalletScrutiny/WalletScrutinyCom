@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: Dapping
+title: 'Dapping'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.metarigo.webview
+appId: 'com.metarigo.webview'
 appCountry: 
-released: 2022-08-23
+released: '2022-08-23'
 updated: 2024-08-28
-version: 2.0.38
+version: '2.0.38'
 stars: 4.8
 ratings: 
 reviews: 
-size: 
-website: https://dapping.io/
+website: 'https://dapping.io/'
 repository: 
 issue: 
-icon: com.metarigo.webview.png
+icon: 'com.metarigo.webview.png'
 bugbounty: 
-meta: ok
-verdict: nobtc
+meta: 'ok'
+verdict: 'nobtc'
 appHashes: 
-date: 2023-09-05
+date: '2023-09-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: BUYGLOBAL Inc.
+developerName: 'BUYGLOBAL Inc.'
 features: 
 
 ---

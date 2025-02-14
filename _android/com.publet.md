@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: Publet
+title: 'Publet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.publet
+appId: 'com.publet'
 appCountry: 
-released: 2020-06-11
-updated: 2020-11-20
+released: '2020-06-11'
+updated: '2020-11-20'
 version: '1.9'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.publet.io/
+website: 'https://www.publet.io/'
 repository: 
 issue: 
-icon: com.publet.png
+icon: 'com.publet.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2023-06-02
+date: '2023-06-02'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Publet Pte. Ltd.
+developerName: 'Publet Pte. Ltd.'
 features: 
 
 ---

@@ -1,39 +1,39 @@
 ---
 wsId: 
-title: Crypto Seatbelt
+title: 'Crypto Seatbelt'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.libertify
+appId: 'com.libertify'
 appCountry: 
-released: 2023-01-12
-updated: 2024-02-06
-version: 2.4.0
+released: '2023-01-12'
+updated: '2024-02-06'
+version: '2.4.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.cryptoseatbelt.com
+website: 'https://www.cryptoseatbelt.com'
 repository: 
 issue: 
-icon: com.libertify.png
+icon: 'com.libertify.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-11-29
+date: '2024-11-29'
 signer: 
 reviewArchive: 
-twitter: Libertify_
+twitter: 'Libertify_'
 social:
-- https://www.instagram.com/libertify_ig
-- https://www.facebook.com/profile.php?id=100082954641501
-- https://story.libertify.com/
-- https://discord.com/invite/gyNYjCuUZ5
-- https://t.me/Libertify
+- 'https://www.instagram.com/libertify_ig'
+- 'https://www.facebook.com/profile.php?id=100082954641501'
+- 'https://story.libertify.com/'
+- 'https://discord.com/invite/gyNYjCuUZ5'
+- 'https://t.me/Libertify'
 redirect_from: 
-developerName: Libertify lab
+developerName: 'Libertify lab'
 features: 
 
 ---

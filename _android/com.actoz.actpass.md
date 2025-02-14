@@ -1,34 +1,33 @@
 ---
-wsId: actpass
-title: ActPass Wallet
+wsId: 'actpass'
+title: 'ActPass Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.actoz.actpass
+appId: 'com.actoz.actpass'
 appCountry: 
-released: 2022-11-29
+released: '2022-11-29'
 updated: 2025-01-15
-version: 2.0.5
+version: '2.0.5'
 stars: 4.4
 ratings: 
 reviews: 1
-size: 
-website: https://www.actpass.com
+website: 'https://www.actpass.com'
 repository: 
 issue: 
-icon: com.actoz.actpass.png
+icon: 'com.actoz.actpass.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-11-01
+date: '2023-11-01'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: ArtalGamesCasual
+developerName: 'ArtalGamesCasual'
 features: 
 
 ---

@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: PayBito Admin
+title: 'PayBito Admin'
 altTitle: 
 authors: 
 users: 10
-appId: com.hashcash.paybitoadmin
+appId: 'com.hashcash.paybitoadmin'
 appCountry: 
-released: 2022-06-16
-updated: 2023-05-12
-version: 1.0.11
+released: '2022-06-16'
+updated: '2023-05-12'
+version: '1.0.11'
 stars: 
 ratings: 
 reviews: 
@@ -16,18 +16,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.hashcash.paybitoadmin.png
+icon: 'com.hashcash.paybitoadmin.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-04-03
+date: '2024-04-03'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Hashcash Consultants LLC
+developerName: 'Hashcash Consultants LLC'
 features: 
 
 ---

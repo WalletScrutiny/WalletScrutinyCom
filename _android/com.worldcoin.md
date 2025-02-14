@@ -1,37 +1,36 @@
 ---
-wsId: worldCoin
-title: World App - Worldcoin Wallet
+wsId: 'worldCoin'
+title: 'World App - Worldcoin Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000000
-appId: com.worldcoin
+appId: 'com.worldcoin'
 appCountry: 
-released: 2022-10-04
-updated: 2025-02-09
-version: 2.8.7401
-stars: 4.7
+released: '2022-10-04'
+updated: 2025-02-13
+version: '2.8.7402'
+stars: 4.8
 ratings: 
-reviews: 411
-size: 
-website: https://worldcoin.org
+reviews: 412
+website: 'https://worldcoin.org'
 repository: 
 issue: 
-icon: com.worldcoin.png
+icon: 'com.worldcoin.png'
 bugbounty: 
-meta: ok
-verdict: nobtc
+meta: 'ok'
+verdict: 'nobtc'
 appHashes: 
-date: 2024-08-30
+date: '2024-08-30'
 signer: 
 reviewArchive: 
-twitter: worldcoin
+twitter: 'worldcoin'
 social:
-- https://www.linkedin.com/company/worldcoinproject
-- https://discord.com/invite/worldcoin
-- https://www.youtube.com/@worldcoinofficial
+- 'https://www.linkedin.com/company/worldcoinproject'
+- 'https://discord.com/invite/worldcoin'
+- 'https://www.youtube.com/@worldcoinofficial'
 redirect_from: 
-developerName: worldcoin
+developerName: 'worldcoin'
 features: 
 
 ---

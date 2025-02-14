@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Buy Or Sell Crypto
+title: 'Buy Or Sell Crypto'
 altTitle: 
 authors: 
 users: 1
-appId: buyor.sell.crypto
+appId: 'buyor.sell.crypto'
 appCountry: 
-released: 2021-06-16
-updated: 2021-06-17
+released: '2021-06-16'
+updated: '2021-06-17'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 3.4M
+size: '3.4M'
 website: 
 repository: 
 issue: 
-icon: buyor.sell.crypto.jpg
+icon: 'buyor.sell.crypto.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-10-01
+date: '2021-10-01'
 signer: 
 reviewArchive: 
 twitter: 

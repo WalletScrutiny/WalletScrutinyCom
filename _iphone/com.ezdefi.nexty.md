@@ -8,9 +8,9 @@ authors:
 appId: com.ezdefi.nexty
 appCountry: 
 idd: 1492046549
-released: 2019-12-18
-updated: 2022-01-17
-version: 0.4.1
+released: '2019-12-18'
+updated: '2022-01-17'
+version: '0.4.1'
 stars: 4.2
 reviews: 19
 size: '44169216'
@@ -22,7 +22,7 @@ bugbounty:
 meta: removed
 verdict: nosource
 appHashes: 
-date: 2023-09-04
+date: '2023-09-04'
 signer: 
 reviewArchive: 
 twitter: ezDeFi

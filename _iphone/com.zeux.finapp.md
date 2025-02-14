@@ -7,9 +7,9 @@ authors:
 appId: com.zeux.finapp
 appCountry: gb
 idd: 1384796487
-released: 2019-02-12
-updated: 2021-11-09
-version: 2.20.2
+released: '2019-02-12'
+updated: '2021-11-09'
+version: '2.20.2'
 stars: 4.5
 reviews: 324
 size: '55801856'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2022-10-21
+date: '2022-10-21'
 signer: 
 reviewArchive: 
 twitter: ZeuxApp

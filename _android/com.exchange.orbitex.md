@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: OrbitEx
+title: 'OrbitEx'
 altTitle: 
 authors: 
 users: 100
-appId: com.exchange.orbitex
+appId: 'com.exchange.orbitex'
 appCountry: 
-released: 2021-01-05
-updated: 2021-01-29
-version: 2.0.1
+released: '2021-01-05'
+updated: '2021-01-29'
+version: '2.0.1'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.orbitex.space
+website: 'https://www.orbitex.space'
 repository: 
 issue: 
-icon: com.exchange.orbitex.png
+icon: 'com.exchange.orbitex.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-08-04
+date: '2023-08-04'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Orbitex
+developerName: 'Orbitex'
 features: 
 
 ---

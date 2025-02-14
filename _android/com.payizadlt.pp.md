@@ -1,35 +1,35 @@
 ---
-wsId: PayizaDlt
-title: Payiza
+wsId: 'PayizaDlt'
+title: 'Payiza'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.payizadlt.pp
-appCountry: us
-released: 2021-03-02
-updated: 2021-04-17
+appId: 'com.payizadlt.pp'
+appCountry: 'us'
+released: '2021-03-02'
+updated: '2021-04-17'
 version: '8.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://payizadlt.com/
+website: 'https://payizadlt.com/'
 repository: 
 issue: 
-icon: com.payizadlt.pp.png
+icon: 'com.payizadlt.pp.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-04-19
+date: '2024-04-19'
 signer: 
 reviewArchive: 
-twitter: payizamoney
+twitter: 'payizamoney'
 social:
-- https://www.facebook.com/payizamoney
+- 'https://www.facebook.com/payizamoney'
 redirect_from: 
-developerName: Payiza tech
+developerName: 'Payiza tech'
 features: 
 
 ---

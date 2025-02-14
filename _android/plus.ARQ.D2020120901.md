@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: ARQuantify (ARQ) 加密数字资产/数字货币交易所量化交易工具
+title: 'ARQuantify (ARQ) 加密数字资产/数字货币交易所量化交易工具'
 altTitle: 
 authors: 
 users: 100
-appId: plus.ARQ.D2020120901
+appId: 'plus.ARQ.D2020120901'
 appCountry: 
-released: 2020-12-09
-updated: 2021-01-06
+released: '2020-12-09'
+updated: '2021-01-06'
 version: '2021010601'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.arq.link/
+website: 'https://www.arq.link/'
 repository: 
 issue: 
-icon: plus.ARQ.D2020120901.png
+icon: 'plus.ARQ.D2020120901.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
 twitter: 

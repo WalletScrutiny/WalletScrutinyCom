@@ -1,37 +1,37 @@
 ---
-wsId: copterExchange
-title: Copter
+wsId: 'copterExchange'
+title: 'Copter'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.exchangecopter.Copter
+appId: 'com.exchangecopter.Copter'
 appCountry: 
-released: 2021-12-09
-updated: 2022-09-16
-version: 1.5.7
+released: '2021-12-09'
+updated: '2022-09-16'
+version: '1.5.7'
 stars: 4.2
 ratings: 
 reviews: 
 size: 
-website: https://exchangecopter.com
+website: 'https://exchangecopter.com'
 repository: 
 issue: 
-icon: com.exchangecopter.Copter.png
+icon: 'com.exchangecopter.Copter.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-04-03
+date: '2024-04-03'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/copterNews
-- https://www.instagram.com/copter_news
-- https://www.linkedin.com/company/cotperexchange
+- 'https://www.facebook.com/copterNews'
+- 'https://www.instagram.com/copter_news'
+- 'https://www.linkedin.com/company/cotperexchange'
 redirect_from: 
-developerName: Copter S.A
+developerName: 'Copter S.A'
 features: 
 
 ---

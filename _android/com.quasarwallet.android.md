@@ -1,37 +1,36 @@
 ---
 wsId: 
-title: Quasar Wallet
+title: 'Quasar Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.quasarwallet.android
+appId: 'com.quasarwallet.android'
 appCountry: 
-released: 2022-04-05
+released: '2022-04-05'
 updated: 2024-08-29
 version: '1.5'
 stars: 3.1
 ratings: 
 reviews: 6
-size: 
-website: https://quasarwallet.com
+website: 'https://quasarwallet.com'
 repository: 
 issue: 
-icon: com.quasarwallet.android.png
+icon: 'com.quasarwallet.android.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2024-02-05
+date: '2024-02-05'
 signer: 
 reviewArchive: 
-twitter: reflextoken
+twitter: 'reflextoken'
 social:
-- https://www.facebook.com/reflextoken
-- https://www.linkedin.com/company/reflextoken
-- https://www.instagram.com/reflextoken
+- 'https://www.facebook.com/reflextoken'
+- 'https://www.linkedin.com/company/reflextoken'
+- 'https://www.instagram.com/reflextoken'
 redirect_from: 
-developerName: Reflex Token
+developerName: 'Reflex Token'
 features: 
 
 ---

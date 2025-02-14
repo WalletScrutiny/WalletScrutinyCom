@@ -1,36 +1,36 @@
 ---
-wsId: CoinutExchange
-title: Coins U Trust
+wsId: 'CoinutExchange'
+title: 'Coins U Trust'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.coinut.app
+appId: 'com.coinut.app'
 appCountry: 
-released: 2018-02-04
-updated: 2023-12-07
-version: 0.8.5
+released: '2018-02-04'
+updated: '2023-12-07'
+version: '0.8.5'
 stars: 3.6
 ratings: 
 reviews: 15
 size: 
-website: https://coinut.com
+website: 'https://coinut.com'
 repository: 
 issue: 
-icon: com.coinut.app.png
+icon: 'com.coinut.app.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2025-02-13
+date: '2025-02-13'
 signer: 
 reviewArchive: 
-twitter: coinut_exchange
+twitter: 'coinut_exchange'
 social:
-- https://www.facebook.com/CoinutExchange
-- https://t.me/coinut
+- 'https://www.facebook.com/CoinutExchange'
+- 'https://t.me/coinut'
 redirect_from: 
-developerName: COINUT PTE LTD
+developerName: 'COINUT PTE LTD'
 features: 
 
 ---

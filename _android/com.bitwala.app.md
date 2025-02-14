@@ -1,34 +1,33 @@
 ---
-wsId: Nuri
-title: Bitwala - Buy Bitcoin & Ether
+wsId: 'Nuri'
+title: 'Bitwala - Buy Bitcoin & Ether'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.bitwala.app
-appCountry: gd
-released: 2019-07-11
+appId: 'com.bitwala.app'
+appCountry: 'gd'
+released: '2019-07-11'
 updated: 2025-01-23
-version: 3.15.7
+version: '3.15.7'
 stars: 3.5
 ratings: 4416
 reviews: 3562
-size: 
-website: https://www.bitwala.com
+website: 'https://www.bitwala.com'
 repository: 
 issue: 
-icon: com.bitwala.app.png
+icon: 'com.bitwala.app.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-17
+date: '2024-07-17'
 signer: 
 reviewArchive: 
-twitter: nuribanking
+twitter: 'nuribanking'
 social: 
 redirect_from: 
-developerName: Bitwala
+developerName: 'Bitwala'
 features: 
 
 ---

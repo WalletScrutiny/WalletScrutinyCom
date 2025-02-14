@@ -1,37 +1,36 @@
 ---
-wsId: kickexExchange
-title: KICKEX SECURELY CRYPTOCURRENCY
+wsId: 'kickexExchange'
+title: 'KICKEX SECURELY CRYPTOCURRENCY'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.kickex.android
+appId: 'com.kickex.android'
 appCountry: 
-released: 2022-06-15
+released: '2022-06-15'
 updated: 2024-12-26
-version: 1.24.0
+version: '1.24.0'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://kickex.com/en
+website: 'https://kickex.com/en'
 repository: 
 issue: 
-icon: com.kickex.android.png
+icon: 'com.kickex.android.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2024-02-16
+date: '2024-02-16'
 signer: 
 reviewArchive: 
-twitter: kickexcom
+twitter: 'kickexcom'
 social:
-- https://www.facebook.com/kickex.official
-- https://t.me/KickICO
-- https://kickecosystem.medium.com
+- 'https://www.facebook.com/kickex.official'
+- 'https://t.me/KickICO'
+- 'https://kickecosystem.medium.com'
 redirect_from: 
-developerName: LLC KICK ECOSYSTEM GLOBAL
+developerName: 'LLC KICK ECOSYSTEM GLOBAL'
 features: 
 
 ---

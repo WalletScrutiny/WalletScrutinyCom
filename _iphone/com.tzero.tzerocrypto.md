@@ -7,9 +7,9 @@ authors:
 appId: com.tzero.tzerocrypto
 appCountry: us
 idd: 1468985150
-released: 2019-06-28
-updated: 2022-11-29
-version: 2.0.20
+released: '2019-06-28'
+updated: '2022-11-29'
+version: '2.0.20'
 stars: 4.6
 reviews: 724
 size: '101751808'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-04-16
+date: '2023-04-16'
 signer: 
 reviewArchive: 
 twitter: 

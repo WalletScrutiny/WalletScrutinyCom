@@ -1,36 +1,36 @@
 ---
-wsId: FondexcTrader
-title: Fondex cTrader
+wsId: 'FondexcTrader'
+title: 'Fondex cTrader'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.fondexmobile.ct
-appCountry: au
-released: 2017-11-02
-updated: 2023-09-15
-version: 4.8.54452
+appId: 'com.fondexmobile.ct'
+appCountry: 'au'
+released: '2017-11-02'
+updated: '2023-09-15'
+version: '4.8.54452'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: http://www.fondex.com
+website: 'http://www.fondex.com'
 repository: 
 issue: 
-icon: com.fondexmobile.ct.png
+icon: 'com.fondexmobile.ct.png'
 bugbounty: 
-meta: removed
-verdict: nosendreceive
+meta: 'removed'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2024-03-02
+date: '2024-03-02'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://www.linkedin.com/company/fondex-trading
-- https://www.facebook.com/fondexglobal
+- 'https://www.linkedin.com/company/fondex-trading'
+- 'https://www.facebook.com/fondexglobal'
 redirect_from: 
-developerName: Fondex
+developerName: 'Fondex'
 features: 
 
 ---

@@ -22,7 +22,7 @@ icon: crptsecure.card.png
 bugbounty: 
 meta: ok
 verdict: prefilled
-date: 2022-04-27
+date: '2022-04-27'
 signer: 
 reviewArchive: 
 twitter: crptsecure

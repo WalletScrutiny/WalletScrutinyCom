@@ -4,10 +4,10 @@ appId: bitfiwallet
 authors:
 - kiwilamb
 - danny
-released: 2019-03-01
+released: '2019-03-01'
 discontinued: 
-updated: 2022-07-12
-version: DMA-4 24
+updated: '2022-07-12'
+version: 'DMA-4 24'
 binaries: https://bitfi.com/firmware
 dimensions:
 - 120
@@ -27,7 +27,7 @@ bugbounty:
 meta: obsolete
 verdict: wip
 appHashes: 
-date: 2024-08-12
+date: '2024-08-12'
 signer: 
 reviewArchive: 
 twitter: thebitfi

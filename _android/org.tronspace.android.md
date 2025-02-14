@@ -1,37 +1,36 @@
 ---
 wsId: 
-title: KOINTRACK - Buy BTC, ETH, TRX
+title: 'KOINTRACK - Buy BTC, ETH, TRX'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: org.tronspace.android
+appId: 'org.tronspace.android'
 appCountry: 
-released: 2021-07-03
+released: '2021-07-03'
 updated: 2023-01-04
-version: 2.2.6
+version: '2.2.6'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://kointrack.com
+website: 'https://kointrack.com'
 repository: 
 issue: 
-icon: org.tronspace.android.png
+icon: 'org.tronspace.android.png'
 bugbounty: 
-meta: obsolete
-verdict: custodial
+meta: 'obsolete'
+verdict: 'custodial'
 appHashes: 
-date: 2024-12-27
+date: '2024-12-27'
 signer: 
 reviewArchive: 
-twitter: Kointrack_tech
+twitter: 'Kointrack_tech'
 social:
-- https://www.instagram.com/kointrack
-- https://www.facebook.com/kointrack
-- https://www.youtube.com/channel/UClKPs-DFxObnqJbC1-8Fc4Q/videos
+- 'https://www.instagram.com/kointrack'
+- 'https://www.facebook.com/kointrack'
+- 'https://www.youtube.com/channel/UClKPs-DFxObnqJbC1-8Fc4Q/videos'
 redirect_from: 
-developerName: Kointrack Techsystems Private Limited
+developerName: 'Kointrack Techsystems Private Limited'
 features: 
 
 ---

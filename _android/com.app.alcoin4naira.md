@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: Alcoin4naira
+title: 'Alcoin4naira'
 altTitle: 
 authors: 
 users: 50
-appId: com.app.alcoin4naira
+appId: 'com.app.alcoin4naira'
 appCountry: 
-released: 2022-04-04
-updated: 2022-04-04
+released: '2022-04-04'
+updated: '2022-04-04'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://albit.live
+website: 'https://albit.live'
 repository: 
 issue: 
-icon: com.app.alcoin4naira.png
+icon: 'com.app.alcoin4naira.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-05-30
+date: '2023-05-30'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Webzoft Web solution
+developerName: 'Webzoft Web solution'
 features: 
 
 ---

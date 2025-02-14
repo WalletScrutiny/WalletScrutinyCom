@@ -7,9 +7,9 @@ authors:
 appId: com.swissquote.iphone
 appCountry: ph
 idd: '285691076'
-released: 2019-02-12
-updated: 2025-02-12
-version: 11.3.1
+released: '2019-02-12'
+updated: '2025-02-12'
+version: '11.3.1'
 stars: 4.2
 reviews: 12
 size: '237105152'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2023-07-20
+date: '2023-07-20'
 signer: 
 reviewArchive: 
 twitter: Swissquote

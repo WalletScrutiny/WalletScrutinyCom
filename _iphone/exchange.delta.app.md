@@ -7,9 +7,9 @@ authors:
 appId: exchange.delta.app
 appCountry: nz
 idd: 1567218518
-released: 2021-06-05
-updated: 2023-07-18
-version: 1.8.1
+released: '2021-06-05'
+updated: '2023-07-18'
+version: '1.8.1'
 stars: 0
 reviews: 0
 size: '38301696'
@@ -21,7 +21,7 @@ bugbounty:
 meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-07-14
+date: '2024-07-14'
 signer: 
 reviewArchive: 
 twitter: Delta_Exchange

@@ -7,9 +7,9 @@ authors:
 appId: com.uniswap.mobile
 appCountry: us
 idd: '6443944476'
-released: 2023-04-12
-updated: 2025-02-12
-version: 1.45.2
+released: '2023-04-12'
+updated: '2025-02-12'
+version: '1.45.2'
 stars: 4.8
 reviews: 14764
 size: '72600576'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nobtc
 appHashes: 
-date: 2024-09-05
+date: '2024-09-05'
 signer: 
 reviewArchive: 
 twitter: uniswap

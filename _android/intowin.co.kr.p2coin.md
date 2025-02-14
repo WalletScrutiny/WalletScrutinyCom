@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: 굿비트-P2P암호화폐 거래소(비트코인, 이더리움, 알트
+title: '굿비트-P2P암호화폐 거래소(비트코인, 이더리움, 알트'
 altTitle: 
 authors: 
 users: 500
-appId: intowin.co.kr.p2coin
+appId: 'intowin.co.kr.p2coin'
 appCountry: 
-released: 2018-08-30
-updated: 2018-08-31
+released: '2018-08-30'
+updated: '2018-08-31'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: http://goodbit.co.kr
+website: 'http://goodbit.co.kr'
 repository: 
 issue: 
-icon: intowin.co.kr.p2coin.png
+icon: 'intowin.co.kr.p2coin.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-04-16
+date: '2023-04-16'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Goodbit Korea
+developerName: 'Goodbit Korea'
 features: 
 
 ---

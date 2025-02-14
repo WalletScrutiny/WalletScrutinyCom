@@ -1,36 +1,35 @@
 ---
-wsId: chainlockApp
-title: chainlock
+wsId: 'chainlockApp'
+title: 'chainlock'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.youniqx.chainlock.android
+appId: 'com.youniqx.chainlock.android'
 appCountry: 
-released: 2018-11-23
+released: '2018-11-23'
 updated: 2023-08-03
-version: 1.62.0.67301
+version: '1.62.0.67301'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://www.chainlock.com/
+website: 'https://www.chainlock.com/'
 repository: 
 issue: 
-icon: com.youniqx.chainlock.android.png
+icon: 'com.youniqx.chainlock.android.png'
 bugbounty: 
-meta: stale
-verdict: nowallet
+meta: 'stale'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-07-30
+date: '2024-07-30'
 signer: 
 reviewArchive: 
-twitter: youniqx
+twitter: 'youniqx'
 social:
-- https://www.facebook.com/YOUNIQXbyOeSD
-- https://www.linkedin.com/company/youniqx-identity-ag
+- 'https://www.facebook.com/YOUNIQXbyOeSD'
+- 'https://www.linkedin.com/company/youniqx-identity-ag'
 redirect_from: 
-developerName: YOUNIQX Identity AG
+developerName: 'YOUNIQX Identity AG'
 features: 
 
 ---

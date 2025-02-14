@@ -1,36 +1,36 @@
 ---
-wsId: nayutaCore2
-title: Nayuta Wallet
+wsId: 'nayutaCore2'
+title: 'Nayuta Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.nayuta.core2
+appId: 'com.nayuta.core2'
 appCountry: 
 released: 
-updated: 2023-11-24
-version: VARY
+updated: '2023-11-24'
+version: 'VARY'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://nayuta.co/nayuta-wallet-2022/
-repository: https://github.com/nayutaco/NayutaWalletApp
-issue: https://github.com/nayutaco/NayutaWalletApp/pull/2/files
-icon: com.nayuta.core2.png
+website: 'https://nayuta.co/nayuta-wallet-2022/'
+repository: 'https://github.com/nayutaco/NayutaWalletApp'
+issue: 'https://github.com/nayutaco/NayutaWalletApp/pull/2/files'
+icon: 'com.nayuta.core2.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Nayuta inc
+developerName: 'Nayuta inc'
 features:
-- ln
+- 'ln'
 
 ---
 

@@ -1,40 +1,39 @@
 ---
-wsId: osmoWallet
-title: Osmo Wallet
+wsId: 'osmoWallet'
+title: 'Osmo Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.osmo.smt
+appId: 'com.osmo.smt'
 appCountry: 
-released: 2022-07-01
+released: '2022-07-01'
 updated: 2025-01-10
-version: 4.0.14
+version: '4.0.14'
 stars: 4
 ratings: 
 reviews: 29
-size: 
-website: https://www.osmowallet.com/
+website: 'https://www.osmowallet.com/'
 repository: 
 issue: 
-icon: com.osmo.smt.jpg
+icon: 'com.osmo.smt.jpg'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-08-24
+date: '2023-08-24'
 signer: 
 reviewArchive: 
-twitter: osmowallet
+twitter: 'osmowallet'
 social:
-- https://www.linkedin.com/company/osmo-wallet
-- https://discord.com/invite/9qmKes8drZ
-- https://www.instagram.com/osmowallet
-- https://www.facebook.com/osmoenvios
+- 'https://www.linkedin.com/company/osmo-wallet'
+- 'https://discord.com/invite/9qmKes8drZ'
+- 'https://www.instagram.com/osmowallet'
+- 'https://www.facebook.com/osmoenvios'
 redirect_from: 
-developerName: osmo
+developerName: 'osmo'
 features:
-- ln
+- 'ln'
 
 ---
 

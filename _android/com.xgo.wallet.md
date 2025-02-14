@@ -1,37 +1,37 @@
 ---
-wsId: xGoWallet
+wsId: 'xGoWallet'
 title: 'XGo: Buy, Swap & Store Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.xgo.wallet
+appId: 'com.xgo.wallet'
 appCountry: 
 released: 
-updated: 2023-12-21
-version: 1.15.0
+updated: '2023-12-21'
+version: '1.15.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://xgo.com
+website: 'https://xgo.com'
 repository: 
 issue: 
-icon: com.xgo.wallet.png
+icon: 'com.xgo.wallet.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-02-05
+date: '2024-02-05'
 signer: 
 reviewArchive: 
-twitter: XGo_official
+twitter: 'XGo_official'
 social:
-- https://t.me/+Z536yScjjQg0NzE0
-- https://www.instagram.com/xgo_official
-- https://discord.com/invite/dTt4Ke3
+- 'https://t.me/+Z536yScjjQg0NzE0'
+- 'https://www.instagram.com/xgo_official'
+- 'https://discord.com/invite/dTt4Ke3'
 redirect_from: 
-developerName: XGo
+developerName: 'XGo'
 features: 
 
 ---

@@ -7,9 +7,9 @@ authors:
 appId: net.stablex.app
 appCountry: tr
 idd: '1591457284'
-released: 2021-10-26
-updated: 2025-01-29
-version: 2.7.2
+released: '2021-10-26'
+updated: '2025-01-29'
+version: '2.7.2'
 stars: 3.6
 reviews: 54
 size: '54922240'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2023-06-03
+date: '2023-06-03'
 signer: 
 reviewArchive: 
 twitter: Stablex_Turkey

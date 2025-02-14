@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: JustBit - Crypto Exchange
+title: 'JustBit - Crypto Exchange'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.app.justbit
+appId: 'com.app.justbit'
 appCountry: 
-released: 2022-06-24
-updated: 2022-10-20
-version: 1.1.0
+released: '2022-06-24'
+updated: '2022-10-20'
+version: '1.1.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://justbit.in/
+website: 'https://justbit.in/'
 repository: 
 issue: 
-icon: com.app.justbit.jpg
+icon: 'com.app.justbit.jpg'
 bugbounty: 
-meta: defunct
-verdict: wip
+meta: 'defunct'
+verdict: 'wip'
 appHashes: 
-date: 2023-09-06
+date: '2023-09-06'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: IMSelf Community
+developerName: 'IMSelf Community'
 features: 
 
 ---

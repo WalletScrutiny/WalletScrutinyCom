@@ -1,31 +1,31 @@
 ---
-wsId: cryptochallenge
-title: Crypto Challenge
+wsId: 'cryptochallenge'
+title: 'Crypto Challenge'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.swissborg.android.community
-appCountry: ch
-released: 2019-03-27
-updated: 2022-01-10
-version: 2.3.0
+appId: 'com.swissborg.android.community'
+appCountry: 'ch'
+released: '2019-03-27'
+updated: '2022-01-10'
+version: '2.3.0'
 stars: 4.4
 ratings: 7001
 reviews: 183
 size: 
-website: https://cryptochallenge.app/
+website: 'https://cryptochallenge.app/'
 repository: 
 issue: 
-icon: com.swissborg.android.community.png
+icon: 'com.swissborg.android.community.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
-twitter: cchallengesborg
+twitter: 'cchallengesborg'
 social: 
 redirect_from: 
 developerName: 

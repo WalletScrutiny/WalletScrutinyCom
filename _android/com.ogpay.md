@@ -1,34 +1,33 @@
 ---
-wsId: OGPay
-title: OGPay Business
+wsId: 'OGPay'
+title: 'OGPay Business'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.ogpay
-appCountry: us
-released: 2019-07-31
+appId: 'com.ogpay'
+appCountry: 'us'
+released: '2019-07-31'
 updated: 2024-10-10
-version: VARY
+version: 'VARY'
 stars: 4.7
 ratings: 42
 reviews: 33
-size: 
-website: https://www.ogpaywallet.com
+website: 'https://www.ogpaywallet.com'
 repository: 
 issue: 
-icon: com.ogpay.png
+icon: 'com.ogpay.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-11-15
+date: '2021-11-15'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Original Digital Corporation
+developerName: 'Original Digital Corporation'
 features: 
 
 ---

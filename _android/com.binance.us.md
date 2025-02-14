@@ -1,37 +1,36 @@
 ---
-wsId: BinanceUS
+wsId: 'BinanceUS'
 title: 'Binance.US: Buy Bitcoin & ETH'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 1000000
-appId: com.binance.us
+appId: 'com.binance.us'
 appCountry: 
-released: 2019-12-23
+released: '2019-12-23'
 updated: 2024-11-28
-version: 3.19.0
+version: '3.19.0'
 stars: 3.2
 ratings: 7187
-reviews: 6501
-size: 
-website: https://www.binance.us
+reviews: 6504
+website: 'https://www.binance.us'
 repository: 
 issue: 
-icon: com.binance.us.png
+icon: 'com.binance.us.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2020-11-17
+date: '2020-11-17'
 signer: 
 reviewArchive: 
-twitter: binanceus
+twitter: 'binanceus'
 social:
-- https://www.linkedin.com/company/binance-us
-- https://www.facebook.com/BinanceUS
+- 'https://www.linkedin.com/company/binance-us'
+- 'https://www.facebook.com/BinanceUS'
 redirect_from:
-- /com.binance.us/
-developerName: Binance.US
+- '/com.binance.us/'
+developerName: 'Binance.US'
 features: 
 
 ---

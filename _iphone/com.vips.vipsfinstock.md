@@ -7,9 +7,9 @@ authors:
 appId: com.vips.vipsfinstock
 appCountry: us
 idd: '1603387658'
-released: 2022-01-13
-updated: 2023-10-02
-version: 1.9.4
+released: '2022-01-13'
+updated: '2023-10-02'
+version: '1.9.4'
 stars: 0
 reviews: 0
 size: '89016320'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-04-03
+date: '2024-04-03'
 signer: 
 reviewArchive: 
 twitter: VIPS_Finstock

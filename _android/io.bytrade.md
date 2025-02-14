@@ -1,41 +1,41 @@
 ---
-wsId: byTradeExchange
-title: ByTrade - BTC, Crypto exchange
+wsId: 'byTradeExchange'
+title: 'ByTrade - BTC, Crypto exchange'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: io.bytrade
+appId: 'io.bytrade'
 appCountry: 
-released: 2021-12-24
-updated: 2024-03-07
-version: 2.1.1
+released: '2021-12-24'
+updated: '2024-03-07'
+version: '2.1.1'
 stars: 3.7
 ratings: 
 reviews: 39
 size: 
-website: https://www.bytrade.io/
+website: 'https://www.bytrade.io/'
 repository: 
 issue: 
-icon: io.bytrade.png
+icon: 'io.bytrade.png'
 bugbounty: 
-meta: removed
-verdict: nobtc
+meta: 'removed'
+verdict: 'nobtc'
 appHashes: 
-date: 2024-07-14
+date: '2024-07-14'
 signer: 
 reviewArchive: 
-twitter: bytradeio
+twitter: 'bytradeio'
 social:
-- https://www.facebook.com/bytrade.io
-- https://t.me/ByTradeOfficialGroup
-- https://www.youtube.com/channel/UCs1nhh5j-zES3wf3wQWNumQ
-- https://www.tiktok.com/@bytrade.io
-- https://www.linkedin.com/company/bytrade
-- https://discord.com/invite/8wMZwMxDwR
-- https://www.instagram.com/bytradeio
+- 'https://www.facebook.com/bytrade.io'
+- 'https://t.me/ByTradeOfficialGroup'
+- 'https://www.youtube.com/channel/UCs1nhh5j-zES3wf3wQWNumQ'
+- 'https://www.tiktok.com/@bytrade.io'
+- 'https://www.linkedin.com/company/bytrade'
+- 'https://discord.com/invite/8wMZwMxDwR'
+- 'https://www.instagram.com/bytradeio'
 redirect_from: 
-developerName: ByTrade
+developerName: 'ByTrade'
 features: 
 
 ---

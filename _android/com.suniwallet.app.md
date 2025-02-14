@@ -1,37 +1,36 @@
 ---
-wsId: suniwallet
-title: Suni Wallet
+wsId: 'suniwallet'
+title: 'Suni Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.suniwallet.app
+appId: 'com.suniwallet.app'
 appCountry: 
-released: 2023-03-06
+released: '2023-03-06'
 updated: 2024-08-23
-version: 2.4.1
+version: '2.4.1'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://suniwallet.com
+website: 'https://suniwallet.com'
 repository: 
 issue: 
-icon: com.suniwallet.app.png
+icon: 'com.suniwallet.app.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-12-02
+date: '2023-12-02'
 signer: 
 reviewArchive: 
-twitter: Suni_wallet
+twitter: 'Suni_wallet'
 social:
-- https://www.instagram.com/suni_wallet
-- https://www.youtube.com/channel/UCEimtCczYVdwvGx1SCLdhYQ
-- https://www.linkedin.com/company/suni-wallet
+- 'https://www.instagram.com/suni_wallet'
+- 'https://www.youtube.com/channel/UCEimtCczYVdwvGx1SCLdhYQ'
+- 'https://www.linkedin.com/company/suni-wallet'
 redirect_from: 
-developerName: Suni Wallet Corp
+developerName: 'Suni Wallet Corp'
 features: 
 
 ---

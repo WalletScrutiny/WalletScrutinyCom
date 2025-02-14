@@ -1,37 +1,37 @@
 ---
-wsId: kiteFinancialWallet
-title: Kite Financial  Wallet
+wsId: 'kiteFinancialWallet'
+title: 'Kite Financial  Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: io.kitefinancial.wallet
+appId: 'io.kitefinancial.wallet'
 appCountry: 
-released: 2020-07-22
-updated: 2023-12-07
-version: 2.3.0
+released: '2020-07-22'
+updated: '2023-12-07'
+version: '2.3.0'
 stars: 2.6
 ratings: 
 reviews: 4
 size: 
-website: https://kitefinancial.io
+website: 'https://kitefinancial.io'
 repository: 
 issue: 
-icon: io.kitefinancial.wallet.png
+icon: 'io.kitefinancial.wallet.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-07-10
+date: '2024-07-10'
 signer: 
 reviewArchive: 
-twitter: kite_financial
+twitter: 'kite_financial'
 social:
-- https://www.facebook.com/kitefinancial
-- https://www.instagram.com/kite_financial
-- https://www.linkedin.com/company/kitefinancial
+- 'https://www.facebook.com/kitefinancial'
+- 'https://www.instagram.com/kite_financial'
+- 'https://www.linkedin.com/company/kitefinancial'
 redirect_from: 
-developerName: Kite Financial (Kite Tech Ltd UK)
+developerName: 'Kite Financial (Kite Tech Ltd UK)'
 features: 
 
 ---

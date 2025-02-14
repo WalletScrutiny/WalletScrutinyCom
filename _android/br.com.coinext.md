@@ -1,38 +1,37 @@
 ---
-wsId: coinext
+wsId: 'coinext'
 title: 'Coinext: Comprar Bitcoin'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: br.com.coinext
+appId: 'br.com.coinext'
 appCountry: 
-released: 2019-11-19
+released: '2019-11-19'
 updated: 2024-11-22
-version: 2.15.5
+version: '2.15.5'
 stars: 4.7
 ratings: 
 reviews: 6
-size: 
-website: https://coinext.com.br
+website: 'https://coinext.com.br'
 repository: 
 issue: 
-icon: br.com.coinext.png
+icon: 'br.com.coinext.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2024-09-07
+date: '2024-09-07'
 signer: 
 reviewArchive: 
-twitter: coinext_oficial
+twitter: 'coinext_oficial'
 social:
-- https://www.linkedin.com/company/coinext
-- https://www.instagram.com/coinext
-- https://www.facebook.com/coinext
-- https://www.youtube.com/channel/UCBX952rbjhPqv7IJrbJR7tA
+- 'https://www.linkedin.com/company/coinext'
+- 'https://www.instagram.com/coinext'
+- 'https://www.facebook.com/coinext'
+- 'https://www.youtube.com/channel/UCBX952rbjhPqv7IJrbJR7tA'
 redirect_from: 
-developerName: Coinext Serviços Digitais Ltda.
+developerName: 'Coinext Serviços Digitais Ltda.'
 features: 
 
 ---

@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: Cryptex Exchange - Buy Bitcoin
+title: 'Cryptex Exchange - Buy Bitcoin'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: net.cryptex.exchange.twa
+appId: 'net.cryptex.exchange.twa'
 appCountry: 
-released: 2021-04-29
-updated: 2023-12-05
-version: 5.0.0.0
+released: '2021-04-29'
+updated: '2023-12-05'
+version: '5.0.0.0'
 stars: 4.9
 ratings: 474
 reviews: 18
 size: 
-website: http://exchange.cryptex.net/
+website: 'http://exchange.cryptex.net/'
 repository: 
 issue: 
-icon: net.cryptex.exchange.twa.png
+icon: 'net.cryptex.exchange.twa.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-10-19
+date: '2024-10-19'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Cryptex Exchange
+developerName: 'Cryptex Exchange'
 features: 
 
 ---

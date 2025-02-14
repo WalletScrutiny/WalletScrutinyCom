@@ -1,36 +1,35 @@
 ---
 wsId: 
-title: Yeschanger currency Exchanger
+title: 'Yeschanger currency Exchanger'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.yeschanger.com
+appId: 'com.yeschanger.com'
 appCountry: 
-released: 2022-06-02
+released: '2022-06-02'
 updated: 2023-03-27
-version: 3.92.13
+version: '3.92.13'
 stars: 4.1
 ratings: 
 reviews: 4
-size: 
-website: https://yeschangers.com
+website: 'https://yeschangers.com'
 repository: 
 issue: 
-icon: com.yeschanger.com.png
+icon: 'com.yeschanger.com.png'
 bugbounty: 
-meta: stale
-verdict: nowallet
+meta: 'stale'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-03-22
+date: '2024-03-22'
 signer: 
 reviewArchive: 
-twitter: YesChanger
+twitter: 'YesChanger'
 social:
-- https://www.youtube.com/channel/UCtwM__wt_329f4OxX-c_m4A
-- https://t.me/Yeschanger
+- 'https://www.youtube.com/channel/UCtwM__wt_329f4OxX-c_m4A'
+- 'https://t.me/Yeschanger'
 redirect_from: 
-developerName: Inrtobdt
+developerName: 'Inrtobdt'
 features: 
 
 ---

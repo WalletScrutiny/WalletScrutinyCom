@@ -1,38 +1,37 @@
 ---
-wsId: capitalTrading
-title: Trading app by Capital.com
+wsId: 'capitalTrading'
+title: 'Trading app by Capital.com'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000000
-appId: com.capital.trading
+appId: 'com.capital.trading'
 appCountry: 
-released: 2017-10-18
+released: '2017-10-18'
 updated: 2025-01-29
-version: 1.95.0
+version: '1.95.0'
 stars: 4.4
 ratings: 29536
 reviews: 32
-size: 
-website: https://capital.com
+website: 'https://capital.com'
 repository: 
 issue: 
-icon: com.capital.trading.png
+icon: 'com.capital.trading.png'
 bugbounty: 
-meta: ok
-verdict: nosendreceive
+meta: 'ok'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2024-02-08
+date: '2024-02-08'
 signer: 
 reviewArchive: 
-twitter: capitalcom
+twitter: 'capitalcom'
 social:
-- https://www.linkedin.com/company/capital.com
-- https://www.facebook.com/capitalcom
-- https://www.youtube.com/channel/UCn65Ma-zHYgnr56LPAwWDTw
-- https://www.reddit.com/r/capitalcom
+- 'https://www.linkedin.com/company/capital.com'
+- 'https://www.facebook.com/capitalcom'
+- 'https://www.youtube.com/channel/UCn65Ma-zHYgnr56LPAwWDTw'
+- 'https://www.reddit.com/r/capitalcom'
 redirect_from: 
-developerName: Capital Com SV Investments Limited
+developerName: 'Capital Com SV Investments Limited'
 features: 
 
 ---

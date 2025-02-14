@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: AXACTPAY
+title: 'AXACTPAY'
 altTitle: 
 authors: 
 users: 10
-appId: com.Queper.AXACTPAY
+appId: 'com.Queper.AXACTPAY'
 appCountry: 
-released: 2020-07-08
+released: '2020-07-08'
 updated: 2023-01-10
-version: 1.0.3
+version: '1.0.3'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://www.axactpay.net
+website: 'https://www.axactpay.net'
 repository: 
 issue: 
-icon: com.Queper.AXACTPAY.jpg
+icon: 'com.Queper.AXACTPAY.jpg'
 bugbounty: 
-meta: obsolete
-verdict: fewusers
+meta: 'obsolete'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-12-31
+date: '2024-12-31'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Pinomz Technologies
+developerName: 'Pinomz Technologies'
 features: 
 
 ---

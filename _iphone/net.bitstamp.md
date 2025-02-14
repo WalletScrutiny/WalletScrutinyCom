@@ -7,9 +7,9 @@ authors:
 appId: net.bitstamp
 appCountry: 
 idd: 1406825640
-released: 2019-01-30
-updated: 2025-01-21
-version: 4.4.1
+released: '2019-01-30'
+updated: '2025-01-21'
+version: '4.4.1'
 stars: 4.8
 reviews: 6512
 size: '151267328'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2021-01-23
+date: '2021-01-23'
 signer: 
 reviewArchive: 
 twitter: Bitstamp

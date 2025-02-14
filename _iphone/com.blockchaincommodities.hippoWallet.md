@@ -7,9 +7,9 @@ authors:
 appId: com.blockchaincommodities.hippoWallet
 appCountry: us
 idd: '1613041499'
-released: 2022-04-01
-updated: 2025-01-07
-version: 1.21.0
+released: '2022-04-01'
+updated: '2025-01-07'
+version: '1.21.0'
 stars: 4.1
 reviews: 10
 size: '84503552'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: 2024-10-07
+date: '2024-10-07'
 signer: 
 reviewArchive: 
 twitter: HippoWallet

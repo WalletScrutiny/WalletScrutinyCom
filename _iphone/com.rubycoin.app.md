@@ -7,8 +7,8 @@ authors:
 appId: com.rubycoin.app
 appCountry: in
 idd: '6443472336'
-released: 2022-09-30
-updated: 2022-11-10
+released: '2022-09-30'
+updated: '2022-11-10'
 version: '5.0'
 stars: 0
 reviews: 0
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-10-31
+date: '2024-10-31'
 signer: 
 reviewArchive: 
 twitter: RubyCoinDAO

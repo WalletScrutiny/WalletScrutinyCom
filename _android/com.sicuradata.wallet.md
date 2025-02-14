@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: SicuraPay
+title: 'SicuraPay'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.sicuradata.wallet
+appId: 'com.sicuradata.wallet'
 appCountry: 
-released: 2020-09-15
-updated: 2020-11-07
-version: 0.31.0
+released: '2020-09-15'
+updated: '2020-11-07'
+version: '0.31.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://sicuradata.com/
+website: 'https://sicuradata.com/'
 repository: 
 issue: 
-icon: com.sicuradata.wallet.png
+icon: 'com.sicuradata.wallet.png'
 bugbounty: 
-meta: defunct
-verdict: wip
+meta: 'defunct'
+verdict: 'wip'
 appHashes: 
-date: 2023-05-03
+date: '2023-05-03'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: SICURADATA, INC
+developerName: 'SICURADATA, INC'
 features: 
 
 ---

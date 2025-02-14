@@ -3,32 +3,32 @@ wsId:
 title: 'HIVE : Crypto Forecast AI'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.digitalstorm.HIVE
+appId: 'com.digitalstorm.HIVE'
 appCountry: 
-released: 2021-06-12
-updated: 2023-05-15
-version: 2.2.0
+released: '2021-06-12'
+updated: '2023-05-15'
+version: '2.2.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://fuza.site/
+website: 'https://fuza.site/'
 repository: 
 issue: 
-icon: com.digitalstorm.HIVE.png
+icon: 'com.digitalstorm.HIVE.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: DigitalStorm
+developerName: 'DigitalStorm'
 features: 
 
 ---

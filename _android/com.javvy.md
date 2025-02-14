@@ -1,38 +1,38 @@
 ---
 wsId: 
-title: Javvy
+title: 'Javvy'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.javvy
+appId: 'com.javvy'
 appCountry: 
-released: 2018-07-14
-updated: 2019-05-16
-version: 1.0.4
+released: '2018-07-14'
+updated: '2019-05-16'
+version: '1.0.4'
 stars: 5
 ratings: 
 reviews: 6
 size: 
-website: https://javvy.com
+website: 'https://javvy.com'
 repository: 
 issue: 
-icon: com.javvy.png
+icon: 'com.javvy.png'
 bugbounty: 
-meta: defunct
-verdict: wip
+meta: 'defunct'
+verdict: 'wip'
 appHashes: 
-date: 2023-05-26
+date: '2023-05-26'
 signer: 
 reviewArchive: 
-twitter: javvycrypto
+twitter: 'javvycrypto'
 social:
-- https://www.linkedin.com/company/javvy/about
-- https://www.reddit.com/r/javvy
-- https://medium.com/javvy-crypto-analysis
-- https://t.me/javvychat
+- 'https://www.linkedin.com/company/javvy/about'
+- 'https://www.reddit.com/r/javvy'
+- 'https://medium.com/javvy-crypto-analysis'
+- 'https://t.me/javvychat'
 redirect_from: 
-developerName: Javvy Technologies Ltd
+developerName: 'Javvy Technologies Ltd'
 features: 
 
 ---

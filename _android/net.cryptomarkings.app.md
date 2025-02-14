@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: Cryptomarkings
+title: 'Cryptomarkings'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: net.cryptomarkings.app
+appId: 'net.cryptomarkings.app'
 appCountry: 
-released: 2022-10-30
+released: '2022-10-30'
 updated: 2024-09-01
 version: '1.8'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://cryptomarkings.net
+website: 'https://cryptomarkings.net'
 repository: 
 issue: 
-icon: net.cryptomarkings.app.png
+icon: 'net.cryptomarkings.app.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-09-02
+date: '2024-09-02'
 signer: 
 reviewArchive: 
-twitter: crypto_markings
+twitter: 'crypto_markings'
 social:
-- https://www.facebook.com/people/Cryptomarkings/100086460615673
+- 'https://www.facebook.com/people/Cryptomarkings/100086460615673'
 redirect_from: 
-developerName: Cryptomarkings
+developerName: 'Cryptomarkings'
 features: 
 
 ---

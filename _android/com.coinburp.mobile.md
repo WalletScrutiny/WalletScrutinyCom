@@ -1,34 +1,34 @@
 ---
-wsId: CoinBurp
-title: CoinBurp - Buy and Sell Bitcoin. Crypto Wallet.
+wsId: 'CoinBurp'
+title: 'CoinBurp - Buy and Sell Bitcoin. Crypto Wallet.'
 altTitle: 
 authors:
-- kiwilamb
+- 'kiwilamb'
 users: 10000
-appId: com.coinburp.mobile
+appId: 'com.coinburp.mobile'
 appCountry: 
-released: 2020-06-17
-updated: 2022-01-05
-version: 1.0.15
+released: '2020-06-17'
+updated: '2022-01-05'
+version: '1.0.15'
 stars: 
 ratings: 
 reviews: 
-size: 43M
-website: https://www.coinburp.com
+size: '43M'
+website: 'https://www.coinburp.com'
 repository: 
 issue: 
-icon: com.coinburp.mobile.png
+icon: 'com.coinburp.mobile.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2022-04-07
+date: '2022-04-07'
 signer: 
 reviewArchive: 
-twitter: coinburp
+twitter: 'coinburp'
 social:
-- https://www.linkedin.com/company/coinburp
-- https://www.facebook.com/thecoinburp
+- 'https://www.linkedin.com/company/coinburp'
+- 'https://www.facebook.com/thecoinburp'
 redirect_from: 
 developerName: 
 features: 

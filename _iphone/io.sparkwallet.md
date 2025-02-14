@@ -7,8 +7,8 @@ authors:
 appId: io.sparkwallet
 appCountry: us
 idd: '1606418661'
-released: 2022-02-23
-updated: 2023-12-13
+released: '2022-02-23'
+updated: '2023-12-13'
 version: '3.2'
 stars: 3.6
 reviews: 10
@@ -21,7 +21,7 @@ bugbounty:
 meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-12-08
+date: '2024-12-08'
 signer: 
 reviewArchive: 
 twitter: sparkwalletapp

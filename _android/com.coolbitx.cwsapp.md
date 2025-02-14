@@ -1,36 +1,35 @@
 ---
-wsId: coolbitx
-title: CoolWallet
+wsId: 'coolbitx'
+title: 'CoolWallet'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 50000
-appId: com.coolbitx.cwsapp
-appCountry: cn
-released: 2017-12-01
+appId: 'com.coolbitx.cwsapp'
+appCountry: 'cn'
+released: '2017-12-01'
 updated: 2025-02-11
-version: 3.50.2
+version: '3.50.2'
 stars: 4.7
 ratings: 1147
 reviews: 708
-size: 
-website: http://coolwallet.io
+website: 'http://coolwallet.io'
 repository: 
 issue: 
-icon: com.coolbitx.cwsapp.png
+icon: 'com.coolbitx.cwsapp.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2021-08-28
+date: '2021-08-28'
 signer: 
 reviewArchive: 
-twitter: coolwallet
+twitter: 'coolwallet'
 social:
-- https://www.facebook.com/coolwallet
+- 'https://www.facebook.com/coolwallet'
 redirect_from:
-- /com.coolbitx.cwsapp/
-developerName: CoolBitX Technology
+- '/com.coolbitx.cwsapp/'
+developerName: 'CoolBitX Technology'
 features: 
 
 ---

@@ -1,38 +1,37 @@
 ---
-wsId: mDAOWallet
-title: MDAO Wallet
+wsId: 'mDAOWallet'
+title: 'MDAO Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.ttmbank.wallet.app
+appId: 'com.ttmbank.wallet.app'
 appCountry: 
-released: 2021-08-05
+released: '2021-08-05'
 updated: 2024-04-25
-version: 2.3.10
+version: '2.3.10'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://ttmwallet.io
+website: 'https://ttmwallet.io'
 repository: 
 issue: 
-icon: com.ttmbank.wallet.app.png
+icon: 'com.ttmbank.wallet.app.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-15
+date: '2024-07-15'
 signer: 
 reviewArchive: 
-twitter: 0xMarsDAO
+twitter: '0xMarsDAO'
 social:
-- https://www.youtube.com/@MarsDAO
-- https://reddit.com/user/MarsDao_blog/
-- https://medium.com/mars-dao
-- https://github.com/orgs/MARS-DAO/repositories
+- 'https://www.youtube.com/@MarsDAO'
+- 'https://reddit.com/user/MarsDao_blog/'
+- 'https://medium.com/mars-dao'
+- 'https://github.com/orgs/MARS-DAO/repositories'
 redirect_from: 
-developerName: MDAO Wallet
+developerName: 'MDAO Wallet'
 features: 
 
 ---

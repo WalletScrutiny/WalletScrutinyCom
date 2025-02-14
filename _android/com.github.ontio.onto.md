@@ -1,34 +1,33 @@
 ---
-wsId: ONTO
-title: ONTO Cross-chain Crypto Wallet
+wsId: 'ONTO'
+title: 'ONTO Cross-chain Crypto Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.github.ontio.onto
-appCountry: us
-released: 2018-06-27
+appId: 'com.github.ontio.onto'
+appCountry: 'us'
+released: '2018-06-27'
 updated: 2025-02-08
-version: 4.9.1
+version: '4.9.1'
 stars: 4.4
 ratings: 1170
 reviews: 127
-size: 
-website: https://onto.app/
-repository: https://github.com/ONTO-Data-Wallet/ONTO
+website: 'https://onto.app/'
+repository: 'https://github.com/ONTO-Data-Wallet/ONTO'
 issue: 
-icon: com.github.ontio.onto.png
+icon: 'com.github.ontio.onto.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-15
+date: '2024-07-15'
 signer: 
 reviewArchive: 
-twitter: ONTOWallet
+twitter: 'ONTOWallet'
 social: 
 redirect_from: 
-developerName: Ontology Foundation Ltd.
+developerName: 'Ontology Foundation Ltd.'
 features: 
 
 ---

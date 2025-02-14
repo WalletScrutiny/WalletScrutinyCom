@@ -1,35 +1,35 @@
 ---
 wsId: 
-title: Bitcoin Pay
+title: 'Bitcoin Pay'
 altTitle: 
 authors: 
 users: 10000
-appId: com.bitcoininc.bitcoinpay
+appId: 'com.bitcoininc.bitcoinpay'
 appCountry: 
-released: 2016-05-13
-updated: 2017-07-06
-version: 1.0.1
+released: '2016-05-13'
+updated: '2017-07-06'
+version: '1.0.1'
 stars: 4.4
 ratings: 119
 reviews: 14
 size: 
-website: http://Bitcoin.org
+website: 'http://Bitcoin.org'
 repository: 
 issue: 
-icon: com.bitcoininc.bitcoinpay.png
+icon: 'com.bitcoininc.bitcoinpay.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2024-09-24
+date: '2024-09-24'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from:
-- /com.bitcoininc.bitcoinpay/
-- /posts/com.bitcoininc.bitcoinpay/
-developerName: Bitcoin Inc
+- '/com.bitcoininc.bitcoinpay/'
+- '/posts/com.bitcoininc.bitcoinpay/'
+developerName: 'Bitcoin Inc'
 features: 
 
 ---

@@ -7,9 +7,9 @@ authors:
 appId: io.changenow
 appCountry: 
 idd: 1518003605
-released: 2020-06-29
-updated: 2024-12-19
-version: 2.8.2
+released: '2020-06-29'
+updated: '2024-12-19'
+version: '2.8.2'
 stars: 4.8
 reviews: 2024
 size: '71949312'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: 2024-12-23
+date: '2024-12-23'
 signer: 
 reviewArchive: 
 twitter: ChangeNOW_io

@@ -1,36 +1,36 @@
 ---
 wsId: 
-title: Bitholic - Global Digital Asse
+title: 'Bitholic - Global Digital Asse'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 10000
-appId: com.bitholic.rdmchain.bitholic
+appId: 'com.bitholic.rdmchain.bitholic'
 appCountry: 
-released: 2019-01-20
-updated: 2021-08-02
-version: 1.1.1
+released: '2019-01-20'
+updated: '2021-08-02'
+version: '1.1.1'
 stars: 4.2
 ratings: 
 reviews: 
 size: 
-website: https://www.bitholic.com
+website: 'https://www.bitholic.com'
 repository: 
 issue: 
-icon: com.bitholic.rdmchain.bitholic.png
+icon: 'com.bitholic.rdmchain.bitholic.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from:
-- /com.bitholic.rdmchain.bitholic/
-- /posts/com.bitholic.rdmchain.bitholic/
-developerName: RDMCHAIN.pte.ltd.
+- '/com.bitholic.rdmchain.bitholic/'
+- '/posts/com.bitholic.rdmchain.bitholic/'
+developerName: 'RDMCHAIN.pte.ltd.'
 features: 
 
 ---

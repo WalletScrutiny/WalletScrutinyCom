@@ -1,37 +1,37 @@
 ---
-wsId: 3Commas
+wsId: '3Commas'
 title: '3Commas: Crypto trading tools'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.castor.threecommas
+appId: 'com.castor.threecommas'
 appCountry: 
-released: 2018-03-02
-updated: 2023-12-07
-version: 2.7.3
+released: '2018-03-02'
+updated: '2023-12-07'
+version: '2.7.3'
 stars: 4.4
 ratings: 
 reviews: 685
 size: 
-website: https://3commas.io
+website: 'https://3commas.io'
 repository: 
 issue: 
-icon: com.castor.threecommas.png
+icon: 'com.castor.threecommas.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-02-05
+date: '2024-02-05'
 signer: 
 reviewArchive: 
-twitter: 3commas_io
+twitter: '3commas_io'
 social:
-- https://www.facebook.com/3commas.io/
-- https://t.me/commas
-- https://www.youtube.com/channel/UCig8XY-gsthRgM-zyv1nx6Q/videos
+- 'https://www.facebook.com/3commas.io/'
+- 'https://t.me/commas'
+- 'https://www.youtube.com/channel/UCig8XY-gsthRgM-zyv1nx6Q/videos'
 redirect_from: 
-developerName: 3Сommas - Cryptocurrency trading terminal and bots
+developerName: '3Сommas - Cryptocurrency trading terminal and bots'
 features: 
 
 ---

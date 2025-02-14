@@ -1,38 +1,38 @@
 ---
-wsId: bynexExchange
-title: Bynex
+wsId: 'bynexExchange'
+title: 'Bynex'
 altTitle: 
 authors:
-- danny
-appId: by.erpbel.hermes
-appCountry: by
+- 'danny'
+appId: 'by.erpbel.hermes'
+appCountry: 'by'
 idd: '1629900361'
-released: 2023-04-17
+released: '2023-04-17'
 updated: 2024-12-16
-version: 2.6.0
-stars: 1.9
+version: '2.6.0'
+stars: 1.89474
 reviews: 57
 size: '27037696'
-website: https://bynex.io/en
+website: 'https://bynex.io/en'
 repository: 
 issue: 
-icon: by.erpbel.hermes.jpg
+icon: 'by.erpbel.hermes.jpg'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-08-09
+date: '2023-08-09'
 signer: 
 reviewArchive: 
-twitter: bynexio
+twitter: 'bynexio'
 social:
-- https://www.facebook.com/bynex.io
-- https://www.instagram.com/bynex.io
-- https://vk.com/bynexio
-- https://t.me/bynex_info
-- https://www.youtube.com/@bynex4637
+- 'https://www.facebook.com/bynex.io'
+- 'https://www.instagram.com/bynex.io'
+- 'https://vk.com/bynexio'
+- 'https://t.me/bynex_info'
+- 'https://www.youtube.com/@bynex4637'
 features: 
-developerName: LLC ERPBEL
+developerName: 'LLC ERPBEL'
 
 ---
 

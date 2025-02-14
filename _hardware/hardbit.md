@@ -3,9 +3,9 @@ title: Hardbit Wallet
 appId: hardbit
 authors:
 - danny
-released: 2020-06-07
+released: '2020-06-07'
 discontinued: 
-updated: 2021-05-11
+updated: '2021-05-11'
 version: '1'
 binaries: 
 dimensions:
@@ -26,7 +26,7 @@ bugbounty:
 meta: defunct
 verdict: wip
 appHashes: 
-date: 2022-02-17
+date: '2022-02-17'
 signer: 
 reviewArchive: 
 twitter: 

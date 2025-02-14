@@ -1,36 +1,36 @@
 ---
 wsId: 
-title: Lead Wallet (BETA) - Store & Swap Cryptocurrencies
+title: 'Lead Wallet (BETA) - Store & Swap Cryptocurrencies'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 10000
-appId: com.leadwallet.io
+appId: 'com.leadwallet.io'
 appCountry: 
 released: 
-updated: 2021-08-14
-version: Varies with device
+updated: '2021-08-14'
+version: 'Varies with device'
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
-website: https://www.leadwallet.io
+size: 'Varies with device'
+website: 'https://www.leadwallet.io'
 repository: 
 issue: 
-icon: com.leadwallet.io.png
+icon: 'com.leadwallet.io.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2021-10-30
+date: '2021-10-30'
 signer: 
 reviewArchive: 
-twitter: Leadwallet
+twitter: 'Leadwallet'
 social:
-- https://www.linkedin.com/company/leadwallet
-- https://www.reddit.com/r/LeadWallet
+- 'https://www.linkedin.com/company/leadwallet'
+- 'https://www.reddit.com/r/LeadWallet'
 redirect_from:
-- /com.leadwallet.io/
+- '/com.leadwallet.io/'
 developerName: 
 features: 
 

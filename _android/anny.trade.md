@@ -1,34 +1,33 @@
 ---
-wsId: annyTrade
-title: Anny.trade
+wsId: 'annyTrade'
+title: 'Anny.trade'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: anny.trade
+appId: 'anny.trade'
 appCountry: 
-released: 2022-11-01
+released: '2022-11-01'
 updated: 2024-10-21
-version: 1.4.6
+version: '1.4.6'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://anny.trade
+website: 'https://anny.trade'
 repository: 
 issue: 
-icon: anny.trade.png
+icon: 'anny.trade.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-12-02
+date: '2023-12-02'
 signer: 
 reviewArchive: 
-twitter: AnnyCrypto
+twitter: 'AnnyCrypto'
 social: 
 redirect_from: 
-developerName: Anny.trade
+developerName: 'Anny.trade'
 features: 
 
 ---

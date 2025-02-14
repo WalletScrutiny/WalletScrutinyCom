@@ -7,9 +7,9 @@ authors:
 appId: com.quadency.app
 appCountry: us
 idd: '1573602424'
-released: 2021-10-31
-updated: 2023-03-12
-version: 1.6.0
+released: '2021-10-31'
+updated: '2023-03-12'
+version: '1.6.0'
 stars: 4
 reviews: 24
 size: '44139520'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-08-07
+date: '2024-08-07'
 signer: 
 reviewArchive: 
 twitter: quadency

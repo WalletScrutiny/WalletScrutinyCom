@@ -1,36 +1,36 @@
 ---
-wsId: cardstack
-title: Card Pay Wallet
+wsId: 'cardstack'
+title: 'Card Pay Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.cardstack.cardpay
+appId: 'com.cardstack.cardpay'
 appCountry: 
-released: 2022-04-06
-updated: 2023-02-16
-version: 1.2.0
+released: '2022-04-06'
+updated: '2023-02-16'
+version: '1.2.0'
 stars: 4.2
 ratings: 
 reviews: 4
 size: 
-website: https://www.cardstack.com/cardpay
+website: 'https://www.cardstack.com/cardpay'
 repository: 
 issue: 
-icon: com.cardstack.cardpay.png
+icon: 'com.cardstack.cardpay.png'
 bugbounty: 
-meta: stale
-verdict: nobtc
+meta: 'stale'
+verdict: 'nobtc'
 appHashes: 
-date: 2024-02-12
+date: '2024-02-12'
 signer: 
 reviewArchive: 
-twitter: cardstack
+twitter: 'cardstack'
 social:
-- https://discord.com/invite/cardstack
-- https://telegram.me/cardstack
+- 'https://discord.com/invite/cardstack'
+- 'https://telegram.me/cardstack'
 redirect_from: 
-developerName: Cardstack Services Pte. Ltd
+developerName: 'Cardstack Services Pte. Ltd'
 features: 
 
 ---

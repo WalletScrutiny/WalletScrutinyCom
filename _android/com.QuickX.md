@@ -1,15 +1,15 @@
 ---
 wsId: 
-title: QuickX Wallet
+title: 'QuickX Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.QuickX
+appId: 'com.QuickX'
 appCountry: 
-released: 2019-10-22
-updated: 2020-07-31
-version: 1.16.0
+released: '2019-10-22'
+updated: '2020-07-31'
+version: '1.16.0'
 stars: 
 ratings: 
 reviews: 
@@ -17,12 +17,12 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.QuickX.png
+icon: 'com.QuickX.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
 twitter: 

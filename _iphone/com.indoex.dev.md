@@ -7,8 +7,8 @@ authors:
 appId: com.indoex.dev
 appCountry: us
 idd: '6447252534'
-released: 2023-04-29
-updated: 2023-05-02
+released: '2023-04-29'
+updated: '2023-05-02'
 version: '1.2'
 stars: 2
 reviews: 4
@@ -21,7 +21,7 @@ bugbounty:
 meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-04-28
+date: '2024-04-28'
 signer: 
 reviewArchive: 
 twitter: Indoex_LTD

@@ -1,35 +1,35 @@
 ---
-wsId: chainverseWallet
-title: ChainVerse - Blockchain Wallet
+wsId: 'chainverseWallet'
+title: 'ChainVerse - Blockchain Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: org.chainverse
+appId: 'org.chainverse'
 appCountry: 
-released: 2022-02-23
-updated: 2023-03-23
+released: '2022-02-23'
+updated: '2023-03-23'
 version: '1.5'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://chainverse.org/
+website: 'https://chainverse.org/'
 repository: 
 issue: 
-icon: org.chainverse.png
+icon: 'org.chainverse.png'
 bugbounty: 
-meta: removed
-verdict: nobtc
+meta: 'removed'
+verdict: 'nobtc'
 appHashes: 
-date: 2024-09-21
+date: '2024-09-21'
 signer: 
 reviewArchive: 
-twitter: Chainverseorg
+twitter: 'Chainverseorg'
 social:
-- https://t.me/chainverse_community
+- 'https://t.me/chainverse_community'
 redirect_from: 
-developerName: ChainVerse
+developerName: 'ChainVerse'
 features: 
 
 ---

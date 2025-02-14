@@ -1,37 +1,36 @@
 ---
 wsId: 
-title: Casa Tookan wallet
+title: 'Casa Tookan wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.everdreamsoft.casatookan
+appId: 'com.everdreamsoft.casatookan'
 appCountry: 
-released: 2018-09-19
+released: '2018-09-19'
 updated: 2024-12-10
-version: 1.2.2
+version: '1.2.2'
 stars: 3.8
 ratings: 
 reviews: 6
-size: 
-website: http://everdreamsoft.com
+website: 'http://everdreamsoft.com'
 repository: 
 issue: 
-icon: com.everdreamsoft.casatookan.png
+icon: 'com.everdreamsoft.casatookan.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-12-15
+date: '2024-12-15'
 signer: 
 reviewArchive: 
-twitter: everdreamsoft
+twitter: 'everdreamsoft'
 social:
-- https://www.linkedin.com/company/everdreamsoft/
-- https://www.facebook.com/EverdreamSoft/
-- https://www.youtube.com/user/Everdreamsoft
+- 'https://www.linkedin.com/company/everdreamsoft/'
+- 'https://www.facebook.com/EverdreamSoft/'
+- 'https://www.youtube.com/user/Everdreamsoft'
 redirect_from: 
-developerName: EverdreamSoft
+developerName: 'EverdreamSoft'
 features: 
 
 ---

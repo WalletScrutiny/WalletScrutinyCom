@@ -3,33 +3,33 @@ wsId:
 title: 'Quicrypto: Play to Earn Crypto'
 altTitle: 
 authors:
-- kiwilamb
+- 'kiwilamb'
 users: 500000
-appId: com.quicrypto
+appId: 'com.quicrypto'
 appCountry: 
-released: 2019-11-12
-updated: 2023-08-28
-version: 3.83.0
+released: '2019-11-12'
+updated: '2023-08-28'
+version: '3.83.0'
 stars: 4.6
 ratings: 4934
 reviews: 910
 size: 
-website: http://www.quicrypto.com
+website: 'http://www.quicrypto.com'
 repository: 
 issue: 
-icon: com.quicrypto.png
+icon: 'com.quicrypto.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-02-05
+date: '2024-02-05'
 signer: 
 reviewArchive: 
-twitter: quicrypto
+twitter: 'quicrypto'
 social:
-- https://www.facebook.com/Quicrypto
+- 'https://www.facebook.com/Quicrypto'
 redirect_from: 
-developerName: nukes
+developerName: 'nukes'
 features: 
 
 ---

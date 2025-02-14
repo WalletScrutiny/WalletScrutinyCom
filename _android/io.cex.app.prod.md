@@ -1,36 +1,35 @@
 ---
-wsId: cex
-title: CEX.IO App - Buy Crypto & BTC
+wsId: 'cex'
+title: 'CEX.IO App - Buy Crypto & BTC'
 altTitle: 
 authors:
-- kiwilamb
+- 'kiwilamb'
 users: 5000000
-appId: io.cex.app.prod
+appId: 'io.cex.app.prod'
 appCountry: 
-released: 2015-12-22
+released: '2015-12-22'
 updated: 2025-02-04
-version: 11.2.3
+version: '11.2.3'
 stars: 4.3
 ratings: 16669
-reviews: 10861
-size: 
-website: https://cex.io
+reviews: 10862
+website: 'https://cex.io'
 repository: 
 issue: 
-icon: io.cex.app.prod.png
+icon: 'io.cex.app.prod.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-04-16
+date: '2021-04-16'
 signer: 
 reviewArchive: 
-twitter: cex_io
+twitter: 'cex_io'
 social:
-- https://www.linkedin.com/company/cex-io
-- https://www.facebook.com/CEX.IO
+- 'https://www.linkedin.com/company/cex-io'
+- 'https://www.facebook.com/CEX.IO'
 redirect_from: 
-developerName: CEX.IO
+developerName: 'CEX.IO'
 features: 
 
 ---

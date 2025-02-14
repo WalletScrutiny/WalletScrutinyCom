@@ -1,33 +1,33 @@
 ---
-wsId: ToolsTrades
-title: ToolsTrades
+wsId: 'ToolsTrades'
+title: 'ToolsTrades'
 altTitle: 
 authors:
-- danny
-appId: com.ToolsTradesApp.ToolsTradesApp
-appCountry: il
-idd: 1353434031
-released: 2018-03-06
-updated: 2020-05-13
+- 'danny'
+appId: 'com.ToolsTradesApp.ToolsTradesApp'
+appCountry: 'il'
+idd: '1353434031'
+released: '2018-03-06'
+updated: '2020-05-13'
 version: '4.0'
 stars: 5
 reviews: 1
 size: '134507520'
-website: https://www.toolstrades.com/
+website: 'https://www.toolstrades.com/'
 repository: 
 issue: 
-icon: com.ToolsTradesApp.ToolsTradesApp.jpg
+icon: 'com.ToolsTradesApp.ToolsTradesApp.jpg'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-09-28
+date: '2023-09-28'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 features: 
-developerName: SignalsBinary
+developerName: 'SignalsBinary'
 
 ---
 

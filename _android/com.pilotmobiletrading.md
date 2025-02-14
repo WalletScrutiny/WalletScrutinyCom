@@ -1,35 +1,35 @@
 ---
-wsId: PilotTrading
-title: Pilot Trading
+wsId: 'PilotTrading'
+title: 'Pilot Trading'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.pilotmobiletrading
-appCountry: ca
-released: 2019-06-09
-updated: 2022-02-15
-version: 6.02.486
+appId: 'com.pilotmobiletrading'
+appCountry: 'ca'
+released: '2019-06-09'
+updated: '2022-02-15'
+version: '6.02.486'
 stars: 4.7
 ratings: 68
 reviews: 9
 size: 
-website: https://pilottrading.co/
+website: 'https://pilottrading.co/'
 repository: 
 issue: 
-icon: com.pilotmobiletrading.png
+icon: 'com.pilotmobiletrading.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-08-25
+date: '2023-08-25'
 signer: 
 reviewArchive: 
-twitter: tradewithpilot
+twitter: 'tradewithpilot'
 social:
-- https://www.facebook.com/tradewithpilot
+- 'https://www.facebook.com/tradewithpilot'
 redirect_from: 
-developerName: QuantGate Systems Inc.
+developerName: 'QuantGate Systems Inc.'
 features: 
 
 ---

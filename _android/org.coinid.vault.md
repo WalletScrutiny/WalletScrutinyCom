@@ -1,36 +1,36 @@
 ---
-wsId: COINiDVault
-title: COINiD Vault
+wsId: 'COINiDVault'
+title: 'COINiD Vault'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 5000
-appId: org.coinid.vault
+appId: 'org.coinid.vault'
 appCountry: 
-released: 2018-10-14
-updated: 2021-02-20
-version: 1.5.5
+released: '2018-10-14'
+updated: '2021-02-20'
+version: '1.5.5'
 stars: 3.8
 ratings: 
 reviews: 3
 size: 
-website: https://coinid.org
-repository: https://github.com/COINiD/COINiDVault
-issue: https://github.com/COINiD/COINiDVault/issues/14
-icon: org.coinid.vault.png
+website: 'https://coinid.org'
+repository: 'https://github.com/COINiD/COINiDVault'
+issue: 'https://github.com/COINiD/COINiDVault/issues/14'
+icon: 'org.coinid.vault.png'
 bugbounty: 
-meta: removed
-verdict: ftbfs
+meta: 'removed'
+verdict: 'ftbfs'
 appHashes: 
-date: 2024-04-19
+date: '2024-04-19'
 signer: 
 reviewArchive: 
-twitter: COINiDGroup
+twitter: 'COINiDGroup'
 social: 
 redirect_from:
-- /org.coinid.vault/
-- /posts/org.coinid.vault/
-developerName: COINiD Group
+- '/org.coinid.vault/'
+- '/posts/org.coinid.vault/'
+developerName: 'COINiD Group'
 features: 
 
 ---

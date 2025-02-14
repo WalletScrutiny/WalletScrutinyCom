@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: WebMoney Crypto
+title: 'WebMoney Crypto'
 altTitle: 
 authors: 
 users: 1000
-appId: domain2.com.moneym
+appId: 'domain2.com.moneym'
 appCountry: 
-released: 2019-06-29
-updated: 2021-05-29
+released: '2019-06-29'
+updated: '2021-05-29'
 version: '19.0'
 stars: 
 ratings: 
 reviews: 
-size: 4.6M
+size: '4.6M'
 website: 
 repository: 
 issue: 
-icon: domain2.com.moneym.png
+icon: 'domain2.com.moneym.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2022-03-24
+date: '2022-03-24'
 signer: 
 reviewArchive: 
 twitter: 

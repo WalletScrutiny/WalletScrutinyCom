@@ -7,9 +7,9 @@ authors:
 appId: io.zebedee.wallet
 appCountry: 
 idd: 1484394401
-released: 2020-11-28
-updated: 2025-01-27
-version: 4.8.4
+released: '2020-11-28'
+updated: '2025-01-27'
+version: '4.8.4'
 stars: 4.6
 reviews: 5173
 size: '127586304'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2021-04-12
+date: '2021-04-12'
 signer: 
 reviewArchive: 
 twitter: zebedeeio

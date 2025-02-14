@@ -1,35 +1,33 @@
 ---
 wsId: 
-title: Investments - Capital.com
+title: 'Investments - Capital.com'
 altTitle: 
 authors:
-- danny
-- leo
+- 'danny'
+- 'leo'
 users: 1000000
-appId: com.capital.etf.trade
+appId: 'com.capital.etf.trade'
 appCountry: 
-released: 
 updated: 2025-02-11
-version: 1.95.1
+version: '1.96.0'
 stars: 4.6
 ratings: 
 reviews: 4
-size: 
-website: https://capital.com/
+website: 'https://capital.com/'
 repository: 
 issue: 
-icon: com.capital.etf.trade.png
+icon: 'com.capital.etf.trade.png'
 bugbounty: 
-meta: ok
-verdict: nosendreceive
+meta: 'ok'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2024-02-22
+date: '2024-02-22'
 signer: 
 reviewArchive: 
-twitter: capitalcom
+twitter: 'capitalcom'
 social: 
 redirect_from: 
-developerName: Capital Com (UK) Limited
+developerName: 'Capital Com (UK) Limited'
 features: 
 
 ---

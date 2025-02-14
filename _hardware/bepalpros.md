@@ -4,7 +4,7 @@ appId: bepalpros
 authors:
 - kiwilamb
 - danny
-released: 2018-04-01
+released: '2018-04-01'
 discontinued: 
 updated: 
 version: 
@@ -27,7 +27,7 @@ bugbounty:
 meta: defunct
 verdict: wip
 appHashes: 
-date: 2021-12-08
+date: '2021-12-08'
 signer: 
 reviewArchive: 
 twitter: 

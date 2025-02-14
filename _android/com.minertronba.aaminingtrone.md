@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: TRX Mining Guide
+title: 'TRX Mining Guide'
 altTitle: 
 authors: 
 users: 100
-appId: com.minertronba.aaminingtrone
+appId: 'com.minertronba.aaminingtrone'
 appCountry: 
-released: 2022-05-04
-updated: 2022-05-05
+released: '2022-05-04'
+updated: '2022-05-05'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://mfappsprivacypolicy.blogspot.com/ads.txt
+website: 'https://mfappsprivacypolicy.blogspot.com/ads.txt'
 repository: 
 issue: 
-icon: com.minertronba.aaminingtrone.png
+icon: 'com.minertronba.aaminingtrone.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
 twitter: 

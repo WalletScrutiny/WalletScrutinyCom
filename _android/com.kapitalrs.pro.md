@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: KapitalRS Pro Trader
+title: 'KapitalRS Pro Trader'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.kapitalrs.pro
+appId: 'com.kapitalrs.pro'
 appCountry: 
-released: 2017-02-07
+released: '2017-02-07'
 updated: 2024-08-18
-version: 90.4.010
+version: '90.4.010'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://www.kapitalrs.com/
+website: 'https://www.kapitalrs.com/'
 repository: 
 issue: 
-icon: com.kapitalrs.pro.jpg
+icon: 'com.kapitalrs.pro.jpg'
 bugbounty: 
-meta: ok
-verdict: nobtc
+meta: 'ok'
+verdict: 'nobtc'
 appHashes: 
-date: 2023-05-21
+date: '2023-05-21'
 signer: 
 reviewArchive: 
-twitter: Kapital_RS
+twitter: 'Kapital_RS'
 social:
-- https://www.facebook.com/kapitalRS
+- 'https://www.facebook.com/kapitalRS'
 redirect_from: 
-developerName: KapitalRS
+developerName: 'KapitalRS'
 features: 
 
 ---

@@ -1,37 +1,37 @@
 ---
-wsId: hashKeyMe
-title: HashKey Me - Your Web3 Wallet
+wsId: 'hashKeyMe'
+title: 'HashKey Me - Your Web3 Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.hashkey.me.google
+appId: 'com.hashkey.me.google'
 appCountry: 
-released: 2021-06-23
-updated: 2023-07-08
-version: 4.1.0
+released: '2021-06-23'
+updated: '2023-07-08'
+version: '4.1.0'
 stars: 4.8
 ratings: 
 reviews: 1
 size: 
-website: https://me.hashkey.com/
+website: 'https://me.hashkey.com/'
 repository: 
 issue: 
-icon: com.hashkey.me.google.png
+icon: 'com.hashkey.me.google.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2025-02-04
+date: '2025-02-04'
 signer: 
 reviewArchive: 
-twitter: hashkey_me
+twitter: 'hashkey_me'
 social:
-- https://hashkey.com
-- https://www.facebook.com/HashKeyMe
-- https://discord.gg/zs569ytTkd
+- 'https://hashkey.com'
+- 'https://www.facebook.com/HashKeyMe'
+- 'https://discord.gg/zs569ytTkd'
 redirect_from: 
-developerName: HASHKEY HUB LIMITED
+developerName: 'HASHKEY HUB LIMITED'
 features: 
 
 ---

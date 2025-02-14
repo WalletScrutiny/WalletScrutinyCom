@@ -7,9 +7,9 @@ authors:
 appId: com.roostoo.mock
 appCountry: us
 idd: '1483561353'
-released: 2020-01-18
-updated: 2020-07-12
-version: 2.0.0
+released: '2020-01-18'
+updated: '2020-07-12'
+version: '2.0.0'
 stars: 4.3
 reviews: 24
 size: '77777920'
@@ -21,7 +21,7 @@ bugbounty:
 meta: defunct
 verdict: nowallet
 appHashes: 
-date: 2023-09-15
+date: '2023-09-15'
 signer: 
 reviewArchive: 
 twitter: 

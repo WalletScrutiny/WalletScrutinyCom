@@ -1,36 +1,35 @@
 ---
-wsId: venmo
-title: Venmo
+wsId: 'venmo'
+title: 'Venmo'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 50000000
-appId: com.venmo
+appId: 'com.venmo'
 appCountry: 
-released: 2010-05-17
+released: '2010-05-17'
 updated: 2025-01-29
-version: 10.58.0
+version: '10.58.0'
 stars: 4.1
 ratings: 
-reviews: 314248
-size: 
-website: https://venmo.com/
+reviews: 314362
+website: 'https://venmo.com/'
 repository: 
 issue: 
-icon: com.venmo.png
+icon: 'com.venmo.png'
 bugbounty: 
-meta: ok
-verdict: nosendreceive
+meta: 'ok'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2022-04-12
+date: '2022-04-12'
 signer: 
 reviewArchive: 
-twitter: venmo
+twitter: 'venmo'
 social:
-- https://www.instagram.com/venmo/
-- https://www.facebook.com/venmo/
+- 'https://www.instagram.com/venmo/'
+- 'https://www.facebook.com/venmo/'
 redirect_from: 
-developerName: Venmo
+developerName: 'Venmo'
 features: 
 
 ---

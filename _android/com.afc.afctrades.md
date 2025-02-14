@@ -1,13 +1,13 @@
 ---
 wsId: 
-title: AFC Trading Group
+title: 'AFC Trading Group'
 altTitle: 
 authors: 
 users: 10
-appId: com.afc.afctrades
+appId: 'com.afc.afctrades'
 appCountry: 
-released: 2020-08-23
-updated: 2020-08-23
+released: '2020-08-23'
+updated: '2020-08-23'
 version: '1.0'
 stars: 
 ratings: 
@@ -16,18 +16,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.afc.afctrades.png
+icon: 'com.afc.afctrades.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-02-05
+date: '2024-02-05'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: AFC Trading Group
+developerName: 'AFC Trading Group'
 features: 
 
 ---

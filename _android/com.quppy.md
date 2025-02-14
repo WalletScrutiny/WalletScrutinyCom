@@ -1,37 +1,36 @@
 ---
-wsId: Quppy
+wsId: 'Quppy'
 title: 'Quppy: Bitcoin Сrypto wallet'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 100000
-appId: com.quppy
+appId: 'com.quppy'
 appCountry: 
-released: 2018-09-17
+released: '2018-09-17'
 updated: 2025-02-11
-version: 2.0.117
+version: '2.0.117'
 stars: 2.6
 ratings: 3900
 reviews: 37
-size: 
-website: https://quppy.com/
+website: 'https://quppy.com/'
 repository: 
 issue: 
-icon: com.quppy.png
+icon: 'com.quppy.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2020-12-01
+date: '2020-12-01'
 signer: 
 reviewArchive: 
-twitter: QuppyPay
+twitter: 'QuppyPay'
 social:
-- https://www.linkedin.com/company/quppy
-- https://www.facebook.com/quppyPay
+- 'https://www.linkedin.com/company/quppy'
+- 'https://www.facebook.com/quppyPay'
 redirect_from:
-- /com.quppy/
-developerName: Quppy Europe OU
+- '/com.quppy/'
+developerName: 'Quppy Europe OU'
 features: 
 
 ---

@@ -1,38 +1,37 @@
 ---
-wsId: fassetCrypto
-title: Fasset - Buy Digital Assets
+wsId: 'fassetCrypto'
+title: 'Fasset - Buy Digital Assets'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.fasset.cashapp
+appId: 'com.fasset.cashapp'
 appCountry: 
-released: 2021-12-14
+released: '2021-12-14'
 updated: 2025-01-30
 version: '5.59'
 stars: 2.6
 ratings: 
 reviews: 
-size: 
-website: https://www.fasset.io/
+website: 'https://www.fasset.io/'
 repository: 
 issue: 
-icon: com.fasset.cashapp.png
+icon: 'com.fasset.cashapp.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-07-01
+date: '2023-07-01'
 signer: 
 reviewArchive: 
-twitter: fasset_official
+twitter: 'fasset_official'
 social:
-- https://www.linkedin.com/company/fassethq
-- https://www.facebook.com/FassetOfficial
-- https://www.instagram.com/fasset_official
-- https://t.me/+WHV71rgNlWEchWKr
+- 'https://www.linkedin.com/company/fassethq'
+- 'https://www.facebook.com/FassetOfficial'
+- 'https://www.instagram.com/fasset_official'
+- 'https://t.me/+WHV71rgNlWEchWKr'
 redirect_from: 
-developerName: Fasset Labuan Limited
+developerName: 'Fasset Labuan Limited'
 features: 
 
 ---

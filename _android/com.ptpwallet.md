@@ -1,43 +1,43 @@
 ---
-wsId: PTPWallet
-title: PTPWallet - Bitcoin, Ethereum,
+wsId: 'PTPWallet'
+title: 'PTPWallet - Bitcoin, Ethereum,'
 altTitle: 
 authors:
-- leo
-- danny
+- 'leo'
+- 'danny'
 users: 10000
-appId: com.ptpwallet
+appId: 'com.ptpwallet'
 appCountry: 
-released: 2018-12-04
-updated: 2024-06-11
-version: 1.0.1281
+released: '2018-12-04'
+updated: '2024-06-11'
+version: '1.0.1281'
 stars: 4.2
 ratings: 352
 reviews: 19
 size: 
-website: https://ptpwallet.com
+website: 'https://ptpwallet.com'
 repository: 
 issue: 
-icon: com.ptpwallet.png
+icon: 'com.ptpwallet.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: []
-date: 2024-12-15
+date: '2024-12-15'
 signer: 
 reviewArchive:
-- date: 2020-12-06
+- date: '2020-12-06'
   version: ''
   appHashes: []
-  gitRevision: b20db46c47bab0030c7d6989f38ba53e10a8a0d7
-  verdict: custodial
-twitter: PtpWallet
+  gitRevision: 'b20db46c47bab0030c7d6989f38ba53e10a8a0d7'
+  verdict: 'custodial'
+twitter: 'PtpWallet'
 social:
-- https://www.facebook.com/PTPWalletPage
-- https://www.reddit.com/r/perkscoin
+- 'https://www.facebook.com/PTPWalletPage'
+- 'https://www.reddit.com/r/perkscoin'
 redirect_from:
-- /com.ptpwallet/
-developerName: PTPWallet
+- '/com.ptpwallet/'
+developerName: 'PTPWallet'
 features: 
 
 ---

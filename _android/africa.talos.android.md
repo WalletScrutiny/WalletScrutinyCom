@@ -1,38 +1,38 @@
 ---
 wsId: 
-title: Talos
+title: 'Talos'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: africa.talos.android
+appId: 'africa.talos.android'
 appCountry: 
-released: 2021-07-04
-updated: 2022-05-27
-version: 2.2.5
+released: '2021-07-04'
+updated: '2022-05-27'
+version: '2.2.5'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://talos.africa
+website: 'https://talos.africa'
 repository: 
 issue: 
-icon: africa.talos.android.png
+icon: 'africa.talos.android.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-02-05
+date: '2024-02-05'
 signer: 
 reviewArchive: 
-twitter: TalosAfrica
+twitter: 'TalosAfrica'
 social:
-- https://www.facebook.com/profile.php?id=100064741792233
-- https://www.linkedin.com/company/talos-africa
-- https://www.instagram.com/talos.africa
-- mailto:info@talos.africa
+- 'https://www.facebook.com/profile.php?id=100064741792233'
+- 'https://www.linkedin.com/company/talos-africa'
+- 'https://www.instagram.com/talos.africa'
+- 'mailto:info@talos.africa'
 redirect_from: 
-developerName: Talos Africa
+developerName: 'Talos Africa'
 features: 
 
 ---

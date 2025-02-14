@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: Kompass Market - OTC, Crypto W
+title: 'Kompass Market - OTC, Crypto W'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: io.kompasswallet
+appId: 'io.kompasswallet'
 appCountry: 
-released: 2020-12-19
-updated: 2021-03-20
-version: 2.0.1
+released: '2020-12-19'
+updated: '2021-03-20'
+version: '2.0.1'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://kompasswallet.io
+website: 'https://kompasswallet.io'
 repository: 
 issue: 
-icon: io.kompasswallet.png
+icon: 'io.kompasswallet.png'
 bugbounty: 
-meta: removed
-verdict: nobtc
+meta: 'removed'
+verdict: 'nobtc'
 appHashes: 
-date: 2023-09-28
+date: '2023-09-28'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: KOMPASSWALLET
+developerName: 'KOMPASSWALLET'
 features: 
 
 ---

@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: Plisio
+title: 'Plisio'
 altTitle: 
 authors: 
 users: 1000
-appId: net.plisio.app
+appId: 'net.plisio.app'
 appCountry: 
-released: 2021-07-27
-updated: 2022-02-02
-version: 1.3.9
+released: '2021-07-27'
+updated: '2022-02-02'
+version: '1.3.9'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://plisio.net
+website: 'https://plisio.net'
 repository: 
 issue: 
-icon: net.plisio.app.png
+icon: 'net.plisio.app.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2024-12-15
+date: '2024-12-15'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Plisio
+developerName: 'Plisio'
 features: 
 
 ---

@@ -7,9 +7,9 @@ authors:
 appId: jp.co.rakuten.wallet.leverage
 appCountry: jp
 idd: '1503110398'
-released: 2020-03-25
-updated: 2023-02-22
-version: 1.2.4
+released: '2020-03-25'
+updated: '2023-02-22'
+version: '1.2.4'
 stars: 2.7
 reviews: 61
 size: '14194688'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-12-19
+date: '2023-12-19'
 signer: 
 reviewArchive: 
 twitter: Rakuten_Wallet

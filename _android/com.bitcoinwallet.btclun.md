@@ -3,33 +3,33 @@ wsId:
 title: 'Bite: Bitcoin Wallet - BTC'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.bitcoinwallet.btclun
+appId: 'com.bitcoinwallet.btclun'
 appCountry: 
-released: 2023-02-07
-updated: 2023-06-01
-version: 3.04.28
+released: '2023-02-07'
+updated: '2023-06-01'
+version: '3.04.28'
 stars: 2.6
 ratings: 
 reviews: 33
 size: 
-website: https://bitefinance.net
+website: 'https://bitefinance.net'
 repository: 
 issue: 
-icon: com.bitcoinwallet.btclun.png
+icon: 'com.bitcoinwallet.btclun.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2023-08-25
+date: '2023-08-25'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://bitefinance.org
+- 'https://bitefinance.org'
 redirect_from: 
-developerName: Bit Crypto Services
+developerName: 'Bit Crypto Services'
 features: 
 
 ---

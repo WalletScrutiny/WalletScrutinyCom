@@ -3,33 +3,32 @@ wsId:
 title: 'Bitcoiva : Buy Bitcoin &Crypto'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 50000
-appId: com.application.bitcoiva
+appId: 'com.application.bitcoiva'
 appCountry: 
-released: 2020-11-02
+released: '2020-11-02'
 updated: 2025-01-30
-version: 1.55.3
+version: '1.55.3'
 stars: 2.8
 ratings: 
 reviews: 4
-size: 
-website: https://bitcoiva.com
+website: 'https://bitcoiva.com'
 repository: 
 issue: 
-icon: com.application.bitcoiva.png
+icon: 'com.application.bitcoiva.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-07-29
+date: '2021-07-29'
 signer: 
 reviewArchive: 
-twitter: bitcoiva
+twitter: 'bitcoiva'
 social:
-- https://www.facebook.com/Bitcoiva-105126591217169
+- 'https://www.facebook.com/Bitcoiva-105126591217169'
 redirect_from: 
-developerName: Bitcoiva Crypto Exchange
+developerName: 'Bitcoiva Crypto Exchange'
 features: 
 
 ---

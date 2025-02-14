@@ -1,36 +1,35 @@
 ---
-wsId: SALT
-title: SALT Crypto Loans
+wsId: 'SALT'
+title: 'SALT Crypto Loans'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.saltlending.mobile
-appCountry: us
-released: 2019-01-07
+appId: 'com.saltlending.mobile'
+appCountry: 'us'
+released: '2019-01-07'
 updated: 2025-01-04
-version: 2.15.52
+version: '2.15.52'
 stars: 4.6
 ratings: 231
 reviews: 40
-size: 
-website: https://saltlending.com
+website: 'https://saltlending.com'
 repository: 
 issue: 
-icon: com.saltlending.mobile.png
+icon: 'com.saltlending.mobile.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-10-07
+date: '2021-10-07'
 signer: 
 reviewArchive: 
-twitter: SALTlending
+twitter: 'SALTlending'
 social:
-- https://www.linkedin.com/company/saltlending
-- https://www.facebook.com/SALTLENDING
+- 'https://www.linkedin.com/company/saltlending'
+- 'https://www.facebook.com/SALTLENDING'
 redirect_from: 
-developerName: SALT Blockchain, Inc.
+developerName: 'SALT Blockchain, Inc.'
 features: 
 
 ---

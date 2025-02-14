@@ -1,36 +1,35 @@
 ---
-wsId: kriptomat
+wsId: 'kriptomat'
 title: 'Kriptomat: Invest & Buy Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: io.kriptomat.app
-appCountry: us
-released: 2018-12-17
+appId: 'io.kriptomat.app'
+appCountry: 'us'
+released: '2018-12-17'
 updated: 2025-02-03
-version: 5.5.14
+version: '5.5.14'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://kriptomat.io
+website: 'https://kriptomat.io'
 repository: 
 issue: 
-icon: io.kriptomat.app.png
+icon: 'io.kriptomat.app.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-09-23
+date: '2021-09-23'
 signer: 
 reviewArchive: 
-twitter: kriptomat
+twitter: 'kriptomat'
 social:
-- https://www.linkedin.com/company/kriptomat
-- https://www.facebook.com/kriptomat.io
+- 'https://www.linkedin.com/company/kriptomat'
+- 'https://www.facebook.com/kriptomat.io'
 redirect_from: 
-developerName: Kriptomat
+developerName: 'Kriptomat'
 features: 
 
 ---

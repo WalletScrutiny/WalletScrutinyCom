@@ -1,36 +1,35 @@
 ---
-wsId: hotbit
-title: Hotbit
+wsId: 'hotbit'
+title: 'Hotbit'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000000
-appId: io.hotbit.shouyi
+appId: 'io.hotbit.shouyi'
 appCountry: 
-released: 2019-09-19
+released: '2019-09-19'
 updated: 2023-04-11
-version: 1.4.33
+version: '1.4.33'
 stars: 2.8
 ratings: 75096
 reviews: 1606
-size: 
-website: https://www.hotbit.io/
+website: 'https://www.hotbit.io/'
 repository: 
 issue: 
-icon: io.hotbit.shouyi.png
+icon: 'io.hotbit.shouyi.png'
 bugbounty: 
-meta: stale
-verdict: custodial
+meta: 'stale'
+verdict: 'custodial'
 appHashes: 
-date: 2024-04-09
+date: '2024-04-09'
 signer: 
 reviewArchive: 
-twitter: Hotbit_news
+twitter: 'Hotbit_news'
 social:
-- https://www.linkedin.com/company/hotbitexchange
-- https://www.facebook.com/hotbitexchange
+- 'https://www.linkedin.com/company/hotbitexchange'
+- 'https://www.facebook.com/hotbitexchange'
 redirect_from: 
-developerName: Hotbit Technology Limited
+developerName: 'Hotbit Technology Limited'
 features: 
 
 ---

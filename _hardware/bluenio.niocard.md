@@ -3,7 +3,7 @@ title: Bluenio Nio Card
 appId: bluenio.niocard
 authors:
 - danny
-released: 2013-11-09
+released: '2013-11-09'
 discontinued: 
 updated: 
 version: 
@@ -24,7 +24,7 @@ bugbounty:
 meta: ok
 verdict: vapor
 appHashes: 
-date: 2022-05-10
+date: '2022-05-10'
 signer: 
 reviewArchive: 
 twitter: bluenio

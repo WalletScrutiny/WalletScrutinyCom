@@ -1,38 +1,37 @@
 ---
-wsId: cryptocomexchange
-title: Crypto.com Exchange
+wsId: 'cryptocomexchange'
+title: 'Crypto.com Exchange'
 altTitle: 
 authors:
-- danny
-- leo
+- 'danny'
+- 'leo'
 users: 1000000
-appId: com.crypto.exchange
-appCountry: nz
-released: 2021-05-26
+appId: 'com.crypto.exchange'
+appCountry: 'nz'
+released: '2021-05-26'
 updated: 2025-02-04
-version: 2.55.0
+version: '2.55.0'
 stars: 4.6
 ratings: 4430
 reviews: 14
-size: 
-website: https://www.crypto.com/
+website: 'https://www.crypto.com/'
 repository: 
 issue: 
-icon: com.crypto.exchange.png
+icon: 'com.crypto.exchange.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-10-24
+date: '2021-10-24'
 signer: 
 reviewArchive: 
-twitter: cryptocom
+twitter: 'cryptocom'
 social:
-- https://www.linkedin.com/company/cryptocom
-- https://www.facebook.com/CryptoComOfficial
-- https://www.reddit.com/r/Crypto_com
+- 'https://www.linkedin.com/company/cryptocom'
+- 'https://www.facebook.com/CryptoComOfficial'
+- 'https://www.reddit.com/r/Crypto_com'
 redirect_from: 
-developerName: Foris DAX Limited
+developerName: 'Foris DAX Limited'
 features: 
 
 ---

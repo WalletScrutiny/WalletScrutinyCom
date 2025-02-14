@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Bitcoin Wallet Account
+title: 'Bitcoin Wallet Account'
 altTitle: 
 authors: 
 users: 100
-appId: org.cryptoblastersltd.bitcoin.wallet.account
+appId: 'org.cryptoblastersltd.bitcoin.wallet.account'
 appCountry: 
-released: 2021-06-18
-updated: 2021-06-18
+released: '2021-06-18'
+updated: '2021-06-18'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 3.5M
+size: '3.5M'
 website: 
 repository: 
 issue: 
-icon: org.cryptoblastersltd.bitcoin.wallet.account.jpg
+icon: 'org.cryptoblastersltd.bitcoin.wallet.account.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-10-01
+date: '2021-10-01'
 signer: 
 reviewArchive: 
 twitter: 

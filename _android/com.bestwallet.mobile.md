@@ -1,39 +1,38 @@
 ---
-wsId: bestWallet
+wsId: 'bestWallet'
 title: 'Best Wallet: Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.bestwallet.mobile
+appId: 'com.bestwallet.mobile'
 appCountry: 
-released: 2023-07-24
+released: '2023-07-24'
 updated: 2025-02-03
-version: 2.4.5
+version: '2.4.5'
 stars: 4.7
 ratings: 
-reviews: 417
-size: 
-website: https://www.bestwallet.com
+reviews: 420
+website: 'https://www.bestwallet.com'
 repository: 
 issue: 
-icon: com.bestwallet.mobile.png
+icon: 'com.bestwallet.mobile.png'
 bugbounty: 
-meta: ok
-verdict: nobtc
+meta: 'ok'
+verdict: 'nobtc'
 appHashes: 
-date: 2024-08-30
+date: '2024-08-30'
 signer: 
 reviewArchive: 
-twitter: bestwallethq
+twitter: 'bestwallethq'
 social:
-- https://t.me/Best_Wallet_Announcements
-- https://discord.com/invite/ujKmVVycsW
-- https://www.youtube.com/@BestWallet
-- https://www.tiktok.com/@bestwalletofficial
-- https://www.instagram.com/bestwallethq
+- 'https://t.me/Best_Wallet_Announcements'
+- 'https://discord.com/invite/ujKmVVycsW'
+- 'https://www.youtube.com/@BestWallet'
+- 'https://www.tiktok.com/@bestwalletofficial'
+- 'https://www.instagram.com/bestwallethq'
 redirect_from: 
-developerName: BEST WALLET EOOD
+developerName: 'BEST WALLET EOOD'
 features: 
 
 ---

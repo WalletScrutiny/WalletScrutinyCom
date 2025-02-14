@@ -1,38 +1,37 @@
 ---
-wsId: bitrefill
-title: Bitrefill - Live on Crypto
+wsId: 'bitrefill'
+title: 'Bitrefill - Live on Crypto'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 500000
-appId: com.bitrefill.app
+appId: 'com.bitrefill.app'
 appCountry: 
-released: 2018-04-10
+released: '2018-04-10'
 updated: 2025-02-03
-version: 2.8.0
+version: '2.8.0'
 stars: 4.1
 ratings: 1039
 reviews: 191
-size: 
-website: https://www.bitrefill.com
+website: 'https://www.bitrefill.com'
 repository: 
 issue: 
-icon: com.bitrefill.app.png
+icon: 'com.bitrefill.app.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-09-14
+date: '2021-09-14'
 signer: 
 reviewArchive: 
-twitter: bitrefill
+twitter: 'bitrefill'
 social:
-- https://www.facebook.com/bitrefill
-- https://www.reddit.com/r/Bitrefill
+- 'https://www.facebook.com/bitrefill'
+- 'https://www.reddit.com/r/Bitrefill'
 redirect_from:
-- /com.bitrefill.app/
-- /posts/com.bitrefill.app/
-developerName: Bitrefill
+- '/com.bitrefill.app/'
+- '/posts/com.bitrefill.app/'
+developerName: 'Bitrefill'
 features: 
 
 ---

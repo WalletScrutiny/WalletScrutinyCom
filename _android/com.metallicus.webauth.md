@@ -1,38 +1,37 @@
 ---
-wsId: webAuthProton
-title: WebAuth
+wsId: 'webAuthProton'
+title: 'WebAuth'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.metallicus.webauth
+appId: 'com.metallicus.webauth'
 appCountry: 
-released: 2021-12-11
+released: '2021-12-11'
 updated: 2025-02-07
-version: 2.1.19
+version: '2.1.19'
 stars: 4.4
 ratings: 
 reviews: 61
-size: 
-website: https://webauth.com/
+website: 'https://webauth.com/'
 repository: 
 issue: 
-icon: com.metallicus.webauth.png
+icon: 'com.metallicus.webauth.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-24
+date: '2024-07-24'
 signer: 
 reviewArchive: 
-twitter: protonxpr
+twitter: 'protonxpr'
 social:
-- https://www.facebook.com/protonxpr
-- https://www.reddit.com/r/ProtonChain
-- https://t.me/protonxpr
-- https://discord.com/invite/B2QDmgf
+- 'https://www.facebook.com/protonxpr'
+- 'https://www.reddit.com/r/ProtonChain'
+- 'https://t.me/protonxpr'
+- 'https://discord.com/invite/B2QDmgf'
 redirect_from: 
-developerName: Metallicus Inc.
+developerName: 'Metallicus Inc.'
 features: 
 
 ---

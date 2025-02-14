@@ -7,9 +7,9 @@ authors:
 appId: com.defexa.CryptoWallet-Defexa
 appCountry: jp
 idd: '6446314571'
-released: 2023-05-29
-updated: 2024-10-18
-version: 2.2.2
+released: '2023-05-29'
+updated: '2024-10-18'
+version: '2.2.2'
 stars: 0
 reviews: 0
 size: '147911680'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: 2024-10-07
+date: '2024-10-07'
 signer: 
 reviewArchive: 
 twitter: DefexaCrypto

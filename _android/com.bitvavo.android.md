@@ -1,34 +1,33 @@
 ---
-wsId: bitvavo
-title: Bitvavo | Buy Bitcoin & Crypto
+wsId: 'bitvavo'
+title: 'Bitvavo | Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000000
-appId: com.bitvavo.android
-appCountry: nl
-released: 2020-08-19
-updated: 2025-01-24
-version: 2.59.0
+appId: 'com.bitvavo.android'
+appCountry: 'nl'
+released: '2020-08-19'
+updated: 2025-02-11
+version: '2.59.0'
 stars: 4.6
 ratings: 2272
-reviews: 3375
-size: 
-website: https://bitvavo.com/
+reviews: 3377
+website: 'https://bitvavo.com/'
 repository: 
 issue: 
-icon: com.bitvavo.android.png
+icon: 'com.bitvavo.android.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-09-10
+date: '2021-09-10'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: bitvavo
+developerName: 'bitvavo'
 features: 
 
 ---

@@ -7,9 +7,9 @@ authors:
 appId: com.lumiwallet.HD
 appCountry: 
 idd: 1316477906
-released: 2017-12-08
-updated: 2021-04-30
-version: 3.10.2
+released: '2017-12-08'
+updated: '2021-04-30'
+version: '3.10.2'
 stars: 4.8
 reviews: 3449
 size: 79925248
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: nosource
 appHashes: 
-date: 2021-06-16
+date: '2021-06-16'
 signer: 
 reviewArchive: 
 twitter: Lumi_wallet

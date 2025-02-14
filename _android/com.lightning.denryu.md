@@ -1,36 +1,36 @@
 ---
 wsId: 
-title: Denryu Wallet
+title: 'Denryu Wallet'
 altTitle: 
 authors:
-- kiwilamb
+- 'kiwilamb'
 users: 500
-appId: com.lightning.denryu
+appId: 'com.lightning.denryu'
 appCountry: 
-released: 2018-12-14
-updated: 2018-12-26
+released: '2018-12-14'
+updated: '2018-12-26'
 version: '0.1'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://denryu.hashhub.tokyo/
+website: 'https://denryu.hashhub.tokyo/'
 repository: 
 issue: 
-icon: com.lightning.denryu.png
+icon: 'com.lightning.denryu.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-05-18
+date: '2024-05-18'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: HashHub
+developerName: 'HashHub'
 features:
-- ln
+- 'ln'
 
 ---
 

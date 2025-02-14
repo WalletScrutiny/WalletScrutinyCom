@@ -1,34 +1,34 @@
 ---
-wsId: bitclover
-title: BITCLOVER
+wsId: 'bitclover'
+title: 'BITCLOVER'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: io.hotbit.shouyi.flavor.kr
-appCountry: cn
-released: 2020-07-07
-updated: 2022-04-12
-version: 1.0.75
+appId: 'io.hotbit.shouyi.flavor.kr'
+appCountry: 'cn'
+released: '2020-07-07'
+updated: '2022-04-12'
+version: '1.0.75'
 stars: 3.6
 ratings: 600
 reviews: 238
 size: 
-website: https://www.bitclover.io/
+website: 'https://www.bitclover.io/'
 repository: 
 issue: 
-icon: io.hotbit.shouyi.flavor.kr.jpg
+icon: 'io.hotbit.shouyi.flavor.kr.jpg'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-09-28
+date: '2023-09-28'
 signer: 
 reviewArchive: 
-twitter: hotbit_korea
+twitter: 'hotbit_korea'
 social: 
 redirect_from: 
-developerName: TresLab
+developerName: 'TresLab'
 features: 
 
 ---

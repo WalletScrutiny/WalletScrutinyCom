@@ -1,15 +1,15 @@
 ---
 wsId: 
-title: Pulsar Platform LTD
+title: 'Pulsar Platform LTD'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.pulsarbank
+appId: 'com.pulsarbank'
 appCountry: 
-released: 2021-04-28
-updated: 2021-04-28
-version: 1.0.2
+released: '2021-04-28'
+updated: '2021-04-28'
+version: '1.0.2'
 stars: 
 ratings: 
 reviews: 
@@ -17,19 +17,19 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.pulsarbank.png
+icon: 'com.pulsarbank.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2023-06-02
+date: '2023-06-02'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://pulsarbank.com
+- 'https://pulsarbank.com'
 redirect_from: 
-developerName: Pulsar Platform LTD
+developerName: 'Pulsar Platform LTD'
 features: 
 
 ---

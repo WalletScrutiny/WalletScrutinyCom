@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Bitcoin Trading Investment App
+title: 'Bitcoin Trading Investment App'
 altTitle: 
 authors: 
 users: 10
-appId: org.cryptodebitcard.bitcoin.trading.investment.app
+appId: 'org.cryptodebitcard.bitcoin.trading.investment.app'
 appCountry: 
-released: 2021-06-29
-updated: 2021-06-29
+released: '2021-06-29'
+updated: '2021-06-29'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 2.4M
+size: '2.4M'
 website: 
 repository: 
 issue: 
-icon: org.cryptodebitcard.bitcoin.trading.investment.app.jpg
+icon: 'org.cryptodebitcard.bitcoin.trading.investment.app.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-10-01
+date: '2021-10-01'
 signer: 
 reviewArchive: 
 twitter: 

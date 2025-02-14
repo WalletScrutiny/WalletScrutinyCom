@@ -1,28 +1,28 @@
 ---
 wsId: 
-title: Rapidpay- Buy, sell & borrow with your crypto
+title: 'Rapidpay- Buy, sell & borrow with your crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.zenafinance
+appId: 'com.zenafinance'
 appCountry: 
-released: 2020-12-17
-updated: 2021-10-16
-version: 2.1.3
+released: '2020-12-17'
+updated: '2021-10-16'
+version: '2.1.3'
 stars: 3.5
 ratings: 60
 reviews: 49
-size: 32M
-website: https://rapidpay.africa/
+size: '32M'
+website: 'https://rapidpay.africa/'
 repository: 
 issue: 
-icon: com.zenafinance.png
+icon: 'com.zenafinance.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2021-12-22
+date: '2021-12-22'
 signer: 
 reviewArchive: 
 twitter: 

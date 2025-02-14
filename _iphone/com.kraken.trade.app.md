@@ -7,9 +7,9 @@ authors:
 appId: com.kraken.trade.app
 appCountry: 
 idd: 1473024338
-released: 2019-11-12
-updated: 2025-02-11
-version: 4.52.0
+released: '2019-11-12'
+updated: '2025-02-11'
+version: '4.52.0'
 stars: 4.7
 reviews: 17881
 size: '170070016'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2021-05-14
+date: '2021-05-14'
 signer: 
 reviewArchive: 
 twitter: krakenfx

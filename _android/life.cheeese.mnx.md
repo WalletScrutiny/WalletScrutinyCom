@@ -1,34 +1,34 @@
 ---
-wsId: CheeseLife
-title: チーズ - ビットコインがもらえる仮想通貨ポイ活アプリ
+wsId: 'CheeseLife'
+title: 'チーズ - ビットコインがもらえる仮想通貨ポイ活アプリ'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: life.cheeese.mnx
+appId: 'life.cheeese.mnx'
 appCountry: 
-released: 2019-03-22
-updated: 2024-06-09
-version: 4.5.3
+released: '2019-03-22'
+updated: '2024-06-09'
+version: '4.5.3'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://cheeese.life/
+website: 'https://cheeese.life/'
 repository: 
 issue: 
-icon: life.cheeese.mnx.png
+icon: 'life.cheeese.mnx.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2022-07-06
+date: '2022-07-06'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: マネックスクリプトバンク
+developerName: 'マネックスクリプトバンク'
 features: 
 
 ---

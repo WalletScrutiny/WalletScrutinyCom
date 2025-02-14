@@ -1,39 +1,37 @@
 ---
-wsId: mudrex
+wsId: 'mudrex'
 title: 'Mudrex: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000000
-appId: com.mudrexmobile
+appId: 'com.mudrexmobile'
 appCountry: 
-released: 
-updated: 2025-02-03
+updated: 2025-02-13
 version: '12.21'
 stars: 3
 ratings: 
 reviews: 4
-size: 
-website: https://mudrex.com/
+website: 'https://mudrex.com/'
 repository: 
 issue: 
-icon: com.mudrexmobile.png
+icon: 'com.mudrexmobile.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2024-09-07
+date: '2024-09-07'
 signer: 
 reviewArchive: 
-twitter: officialmudrex
+twitter: 'officialmudrex'
 social:
-- https://www.linkedin.com/company/mudrex
-- https://t.me/mudrex_community
-- https://www.youtube.com/@Mudrex
-- https://www.instagram.com/officialmudrex
-- https://www.facebook.com/mudrex
+- 'https://www.linkedin.com/company/mudrex'
+- 'https://t.me/mudrex_community'
+- 'https://www.youtube.com/@Mudrex'
+- 'https://www.instagram.com/officialmudrex'
+- 'https://www.facebook.com/mudrex'
 redirect_from: 
-developerName: Mudrex Inc.
+developerName: 'Mudrex Inc.'
 features: 
 
 ---

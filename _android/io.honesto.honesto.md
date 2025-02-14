@@ -1,34 +1,32 @@
 ---
-wsId: honestoTrading
-title: Honesto - Trading App
+wsId: 'honestoTrading'
+title: 'Honesto - Trading App'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: io.honesto.honesto
+appId: 'io.honesto.honesto'
 appCountry: 
-released: 
 updated: 2025-01-17
-version: 2.0.47
+version: '2.0.47'
 stars: 4.4
 ratings: 
 reviews: 
-size: 
-website: https://www.honesto.swiss/
+website: 'https://www.honesto.swiss/'
 repository: 
 issue: 
-icon: io.honesto.honesto.png
+icon: 'io.honesto.honesto.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-07-21
+date: '2023-07-21'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Honesto AG
+developerName: 'Honesto AG'
 features: 
 
 ---

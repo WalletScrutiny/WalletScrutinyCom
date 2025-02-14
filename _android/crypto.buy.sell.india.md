@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Crypto Buy Sell India
+title: 'Crypto Buy Sell India'
 altTitle: 
 authors: 
 users: 1
-appId: crypto.buy.sell.india
+appId: 'crypto.buy.sell.india'
 appCountry: 
-released: 2021-06-16
-updated: 2021-06-16
+released: '2021-06-16'
+updated: '2021-06-16'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 3.3M
+size: '3.3M'
 website: 
 repository: 
 issue: 
-icon: crypto.buy.sell.india.jpg
+icon: 'crypto.buy.sell.india.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-10-01
+date: '2021-10-01'
 signer: 
 reviewArchive: 
 twitter: 

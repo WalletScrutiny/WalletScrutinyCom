@@ -1,13 +1,13 @@
 ---
 wsId: 
-title: Kryptrx Exchange
+title: 'Kryptrx Exchange'
 altTitle: 
 authors: 
 users: 500
-appId: com.kryptrx.app
+appId: 'com.kryptrx.app'
 appCountry: 
-released: 2021-11-18
-updated: 2021-11-19
+released: '2021-11-18'
+updated: '2021-11-19'
 version: '1.0'
 stars: 3.9
 ratings: 
@@ -16,18 +16,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.kryptrx.app.png
+icon: 'com.kryptrx.app.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-11-29
+date: '2024-11-29'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: ETHERLIN
+developerName: 'ETHERLIN'
 features: 
 
 ---

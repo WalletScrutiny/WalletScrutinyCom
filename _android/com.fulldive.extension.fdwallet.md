@@ -1,34 +1,33 @@
 ---
-wsId: fulldiveApp
+wsId: 'fulldiveApp'
 title: 'Fulldive Wallet: Crypto Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.fulldive.extension.fdwallet
+appId: 'com.fulldive.extension.fdwallet'
 appCountry: 
-released: 2022-05-26
+released: '2022-05-26'
 updated: 2023-09-25
-version: 1.7.0
+version: '1.7.0'
 stars: 4.5
 ratings: 
 reviews: 5
-size: 
-website: https://fulldive.com
+website: 'https://fulldive.com'
 repository: 
 issue: 
-icon: com.fulldive.extension.fdwallet.png
+icon: 'com.fulldive.extension.fdwallet.png'
 bugbounty: 
-meta: stale
-verdict: nobtc
+meta: 'stale'
+verdict: 'nobtc'
 appHashes: 
-date: 2024-09-20
+date: '2024-09-20'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Browser by Fulldive Co.
+developerName: 'Browser by Fulldive Co.'
 features: 
 
 ---

@@ -1,34 +1,34 @@
 ---
-wsId: Aximetria
-title: Aximetria - your Swiss crypto account
+wsId: 'Aximetria'
+title: 'Aximetria - your Swiss crypto account'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.aximetria.aximetria
-appCountry: gb
-released: 2018-12-17
-updated: 2021-08-02
-version: 1.5.51
+appId: 'com.aximetria.aximetria'
+appCountry: 'gb'
+released: '2018-12-17'
+updated: '2021-08-02'
+version: '1.5.51'
 stars: 3.4
 ratings: 514
 reviews: 215
-size: 57M
-website: https://www.aximetria.com/
+size: '57M'
+website: 'https://www.aximetria.com/'
 repository: 
 issue: 
-icon: com.aximetria.aximetria.png
+icon: 'com.aximetria.aximetria.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-09-28
+date: '2023-09-28'
 signer: 
 reviewArchive: 
-twitter: aximetriagmbh
+twitter: 'aximetriagmbh'
 social:
-- https://www.linkedin.com/company/aximetriagmbh
-- https://www.facebook.com/aximetriagmbh
+- 'https://www.linkedin.com/company/aximetriagmbh'
+- 'https://www.facebook.com/aximetriagmbh'
 redirect_from: 
 developerName: 
 features: 

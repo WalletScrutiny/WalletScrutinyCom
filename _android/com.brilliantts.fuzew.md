@@ -1,15 +1,15 @@
 ---
-wsId: wManager
-title: W MANAGER
+wsId: 'wManager'
+title: 'W MANAGER'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.brilliantts.fuzew
-appCountry: us
-released: 2018-07-25
-updated: 2022-04-26
-version: 1.0.26
+appId: 'com.brilliantts.fuzew'
+appCountry: 'us'
+released: '2018-07-25'
+updated: '2022-04-26'
+version: '1.0.26'
 stars: 
 ratings: 
 reviews: 
@@ -17,19 +17,19 @@ size:
 website: 'https://www.fuzew.com '
 repository: 
 issue: 
-icon: com.brilliantts.fuzew.png
+icon: 'com.brilliantts.fuzew.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-09-16
+date: '2024-09-16'
 signer: 
 reviewArchive: 
-twitter: w_fuze
+twitter: 'w_fuze'
 social:
-- https://www.facebook.com/Fuzewcard
+- 'https://www.facebook.com/Fuzewcard'
 redirect_from: 
-developerName: BrilliantTS
+developerName: 'BrilliantTS'
 features: 
 
 ---

@@ -3,7 +3,7 @@ title: Alitin Mint
 appId: alitin.mint
 authors:
 - danny
-released: 2013-12-15
+released: '2013-12-15'
 discontinued: 
 updated: 
 version: 
@@ -22,7 +22,7 @@ icon: alitin.mint.png
 bugbounty: 
 meta: defunct
 verdict: prefilled
-date: 2022-05-19
+date: '2022-05-19'
 signer: 
 reviewArchive: 
 twitter: 

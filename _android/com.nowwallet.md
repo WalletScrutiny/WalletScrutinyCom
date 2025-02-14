@@ -1,37 +1,36 @@
 ---
-wsId: nowWallet
+wsId: 'nowWallet'
 title: 'NOW Wallet: Buy & Store Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.nowwallet
+appId: 'com.nowwallet'
 appCountry: 
-released: 2021-10-20
+released: '2021-10-20'
 updated: 2025-02-11
-version: 3.14.9
+version: '3.14.9'
 stars: 4.6
 ratings: 
 reviews: 170
-size: 
-website: https://walletnow.app
+website: 'https://walletnow.app'
 repository: 
 issue: 
-icon: com.nowwallet.png
+icon: 'com.nowwallet.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2023-07-20
+date: '2023-07-20'
 signer: 
 reviewArchive: 
-twitter: NOW_Wallet
+twitter: 'NOW_Wallet'
 social:
-- https://www.facebook.com/ChangeNOW.io/
-- https://t.me/NOWWallet_channel
-- https://www.reddit.com/r/ChangeNOW_io/
+- 'https://www.facebook.com/ChangeNOW.io/'
+- 'https://t.me/NOWWallet_channel'
+- 'https://www.reddit.com/r/ChangeNOW_io/'
 redirect_from: 
-developerName: ChangeNOW
+developerName: 'ChangeNOW'
 features: 
 
 ---

@@ -1,35 +1,35 @@
 ---
 wsId: 
-title: ProfitTradingApp for Bittrex
+title: 'ProfitTradingApp for Bittrex'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.profittrading.forbittrex
+appId: 'com.profittrading.forbittrex'
 appCountry: 
-released: 2018-06-20
-updated: 2021-04-27
-version: 12.0.13
+released: '2018-06-20'
+updated: '2021-04-27'
+version: '12.0.13'
 stars: 4.1
 ratings: 362
 reviews: 22
 size: 
-website: https://profittradingapp.com/
+website: 'https://profittradingapp.com/'
 repository: 
 issue: 
-icon: com.profittrading.forbittrex.png
+icon: 'com.profittrading.forbittrex.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-04-19
+date: '2024-04-19'
 signer: 
 reviewArchive: 
-twitter: ProfitTrading_
+twitter: 'ProfitTrading_'
 social:
-- https://www.facebook.com/profittradingapp
+- 'https://www.facebook.com/profittradingapp'
 redirect_from: 
-developerName: ProfitTradingApp
+developerName: 'ProfitTradingApp'
 features: 
 
 ---

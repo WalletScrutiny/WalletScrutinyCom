@@ -1,37 +1,37 @@
 ---
 wsId: 
-title: Satoshi - Bitcoin Wallet
+title: 'Satoshi - Bitcoin Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: company.satoshipayments
+appId: 'company.satoshipayments'
 appCountry: 
-released: 2023-01-23
-updated: 2024-04-06
-version: 0.1.7
+released: '2023-01-23'
+updated: '2024-04-06'
+version: '0.1.7'
 stars: 3.4
 ratings: 
 reviews: 4
 size: 
-website: https://satoshipayments.company
+website: 'https://satoshipayments.company'
 repository: 
 issue: 
-icon: company.satoshipayments.png
+icon: 'company.satoshipayments.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-09-16
+date: '2024-09-16'
 signer: 
 reviewArchive: 
-twitter: satoshipayments
+twitter: 'satoshipayments'
 social:
-- https://www.facebook.com/satoshipayments
-- https://www.instagram.com/satoshipayments/
-- https://www.linkedin.com/company/satoshipayments/
+- 'https://www.facebook.com/satoshipayments'
+- 'https://www.instagram.com/satoshipayments/'
+- 'https://www.linkedin.com/company/satoshipayments/'
 redirect_from: 
-developerName: Satoshi Payments
+developerName: 'Satoshi Payments'
 features: 
 
 ---

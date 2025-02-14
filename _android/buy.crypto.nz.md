@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Buy Crypto Nz
+title: 'Buy Crypto Nz'
 altTitle: 
 authors: 
 users: 10
-appId: buy.crypto.nz
+appId: 'buy.crypto.nz'
 appCountry: 
-released: 2021-06-16
-updated: 2021-06-16
+released: '2021-06-16'
+updated: '2021-06-16'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 3.4M
+size: '3.4M'
 website: 
 repository: 
 issue: 
-icon: buy.crypto.nz.jpg
+icon: 'buy.crypto.nz.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-10-01
+date: '2021-10-01'
 signer: 
 reviewArchive: 
 twitter: 

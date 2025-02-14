@@ -1,38 +1,38 @@
 ---
-wsId: felixoExchange
-title: Felixo | Bitcoin ETH AVAX CHZ
+wsId: 'felixoExchange'
+title: 'Felixo | Bitcoin ETH AVAX CHZ'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.felixo.mobile
+appId: 'com.felixo.mobile'
 appCountry: 
-released: 2019-10-17
-updated: 2022-08-22
-version: 2.0.0
+released: '2019-10-17'
+updated: '2022-08-22'
+version: '2.0.0'
 stars: 3.4
 ratings: 
 reviews: 9
 size: 
-website: https://www.felixo.com
+website: 'https://www.felixo.com'
 repository: 
 issue: 
-icon: com.felixo.mobile.png
+icon: 'com.felixo.mobile.png'
 bugbounty: 
-meta: obsolete
-verdict: custodial
+meta: 'obsolete'
+verdict: 'custodial'
 appHashes: 
-date: 2024-08-13
+date: '2024-08-13'
 signer: 
 reviewArchive: 
-twitter: felixoexchange
+twitter: 'felixoexchange'
 social:
-- https://www.facebook.com/felixoexchange
-- https://www.linkedin.com/company/felixoexchange
-- https://www.instagram.com/felixoexchange
-- https://www.youtube.com/channel/UCuIJgsWXUXFp-8AE3jmg_mw
+- 'https://www.facebook.com/felixoexchange'
+- 'https://www.linkedin.com/company/felixoexchange'
+- 'https://www.instagram.com/felixoexchange'
+- 'https://www.youtube.com/channel/UCuIJgsWXUXFp-8AE3jmg_mw'
 redirect_from: 
-developerName: Felixo Teknoloji ve Yazılım A.Ş.
+developerName: 'Felixo Teknoloji ve Yazılım A.Ş.'
 features: 
 
 ---

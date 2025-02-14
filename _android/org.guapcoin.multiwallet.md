@@ -1,37 +1,36 @@
 ---
-wsId: guapcoinWallet
-title: Official Guap & Bitcoin Wallet
+wsId: 'guapcoinWallet'
+title: 'Official Guap & Bitcoin Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: org.guapcoin.multiwallet
+appId: 'org.guapcoin.multiwallet'
 appCountry: 
-released: 2020-02-27
+released: '2020-02-27'
 updated: 2022-09-14
-version: 1.1.0
+version: '1.1.0'
 stars: 3.9
 ratings: 43
 reviews: 23
-size: 
-website: https://www.guapcoin.org
+website: 'https://www.guapcoin.org'
 repository: 
 issue: 
-icon: org.guapcoin.multiwallet.png
+icon: 'org.guapcoin.multiwallet.png'
 bugbounty: 
-meta: obsolete
-verdict: nosource
+meta: 'obsolete'
+verdict: 'nosource'
 appHashes: 
-date: 2024-09-03
+date: '2024-09-03'
 signer: 
 reviewArchive: 
-twitter: guapcoin
+twitter: 'guapcoin'
 social:
-- https://t.me/+VE9iA6mWwgB7oQZ0
-- https://www.youtube.com/@GuapCoinOfficial
-- https://www.facebook.com/guapcoinofficial
+- 'https://t.me/+VE9iA6mWwgB7oQZ0'
+- 'https://www.youtube.com/@GuapCoinOfficial'
+- 'https://www.facebook.com/guapcoinofficial'
 redirect_from: 
-developerName: She Interactive, LLC
+developerName: 'She Interactive, LLC'
 features: 
 
 ---

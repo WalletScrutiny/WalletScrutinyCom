@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: Gin Wallet
+title: 'Gin Wallet'
 altTitle: 
 authors: 
 users: 50000
-appId: com.ginprox
+appId: 'com.ginprox'
 appCountry: 
-released: 2021-04-16
-updated: 2021-07-14
-version: 1.1.6
+released: '2021-04-16'
+updated: '2021-07-14'
+version: '1.1.6'
 stars: 1.9
 ratings: 716
 reviews: 488
-size: 73M
-website: https://gincoin.co
+size: '73M'
+website: 'https://gincoin.co'
 repository: 
 issue: 
-icon: com.ginprox.png
+icon: 'com.ginprox.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2021-08-04
+date: '2021-08-04'
 signer: 
 reviewArchive: 
-twitter: GinBlockchain
+twitter: 'GinBlockchain'
 social:
-- https://www.linkedin.com/company/gin-blockchain
-- https://www.facebook.com/ginnetworks
+- 'https://www.linkedin.com/company/gin-blockchain'
+- 'https://www.facebook.com/ginnetworks'
 redirect_from: 
 developerName: 
 features: 

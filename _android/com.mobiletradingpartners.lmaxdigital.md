@@ -1,35 +1,34 @@
 ---
-wsId: LMAXDigital
-title: LMAX Digital Trading
+wsId: 'LMAXDigital'
+title: 'LMAX Digital Trading'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.mobiletradingpartners.lmaxdigital
-appCountry: gb
-released: 2018-05-18
+appId: 'com.mobiletradingpartners.lmaxdigital'
+appCountry: 'gb'
+released: '2018-05-18'
 updated: 2024-10-08
-version: 5.0.52
+version: '5.0.52'
 stars: 4.2
 ratings: 27
 reviews: 2
-size: 
-website: http://www.lmax.com/mobile
+website: 'http://www.lmax.com/mobile'
 repository: 
 issue: 
-icon: com.mobiletradingpartners.lmaxdigital.png
+icon: 'com.mobiletradingpartners.lmaxdigital.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-04-04
+date: '2023-04-04'
 signer: 
 reviewArchive: 
-twitter: LMAX
+twitter: 'LMAX'
 social:
-- https://www.linkedin.com/company/lmax-group
+- 'https://www.linkedin.com/company/lmax-group'
 redirect_from: 
-developerName: LMAX Digital Broker Limited
+developerName: 'LMAX Digital Broker Limited'
 features: 
 
 ---

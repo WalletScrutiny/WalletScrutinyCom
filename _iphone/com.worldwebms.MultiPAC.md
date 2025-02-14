@@ -7,9 +7,9 @@ authors:
 appId: com.worldwebms.MultiPAC
 appCountry: us
 idd: '1444261005'
-released: 2018-11-27
-updated: 2023-12-15
-version: 4.5.0
+released: '2018-11-27'
+updated: '2023-12-15'
+version: '4.5.0'
 stars: 4.9
 reviews: 9
 size: '35156992'
@@ -21,7 +21,7 @@ bugbounty:
 meta: stale
 verdict: nosource
 appHashes: 
-date: 2024-12-15
+date: '2024-12-15'
 signer: 
 reviewArchive: 
 twitter: UnidoEP

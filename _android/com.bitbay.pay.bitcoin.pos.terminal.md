@@ -1,37 +1,37 @@
 ---
-wsId: bitcointerminal.zondapay
-title: zondacrypto pay terminal
+wsId: 'bitcointerminal.zondapay'
+title: 'zondacrypto pay terminal'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.bitbay.pay.bitcoin.pos.terminal
+appId: 'com.bitbay.pay.bitcoin.pos.terminal'
 appCountry: 
-released: 2019-03-18
-updated: 2023-11-07
-version: 1.7.3(59)
+released: '2019-03-18'
+updated: '2023-11-07'
+version: '1.7.3(59)'
 stars: 5
 ratings: 
 reviews: 
 size: 
-website: https://zondaglobal.com/pay
+website: 'https://zondaglobal.com/pay'
 repository: 
 issue: 
-icon: com.bitbay.pay.bitcoin.pos.terminal.png
+icon: 'com.bitbay.pay.bitcoin.pos.terminal.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-12-31
+date: '2024-12-31'
 signer: 
 reviewArchive: 
-twitter: zondaglobal
+twitter: 'zondaglobal'
 social:
-- https://www.linkedin.com/company/zondaglobal/
-- https://www.facebook.com/ZondaGlobal/
-- https://www.instagram.com/zondaglobal/
+- 'https://www.linkedin.com/company/zondaglobal/'
+- 'https://www.facebook.com/ZondaGlobal/'
+- 'https://www.instagram.com/zondaglobal/'
 redirect_from: 
-developerName: BB Trade Estonia
+developerName: 'BB Trade Estonia'
 features: 
 
 ---

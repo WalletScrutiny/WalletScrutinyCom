@@ -1,40 +1,39 @@
 ---
-wsId: beloCrypto
+wsId: 'beloCrypto'
 title: 'Belo: your financial passport'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000000
-appId: com.belo.android
+appId: 'com.belo.android'
 appCountry: 
-released: 2021-08-23
+released: '2021-08-23'
 updated: 2025-02-07
-version: 4.51.5
+version: '4.51.5'
 stars: 3.7
 ratings: 
 reviews: 64
-size: 
-website: https://belo.app
+website: 'https://belo.app'
 repository: 
 issue: 
-icon: com.belo.android.png
+icon: 'com.belo.android.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-06-30
+date: '2023-06-30'
 signer: 
 reviewArchive: 
-twitter: belo_app
+twitter: 'belo_app'
 social:
-- https://www.linkedin.com/company/belo-app
-- https://www.facebook.com/SomosBelo
-- https://t.me/beloentelegram
-- https://www.tiktok.com/@belo.app
+- 'https://www.linkedin.com/company/belo-app'
+- 'https://www.facebook.com/SomosBelo'
+- 'https://t.me/beloentelegram'
+- 'https://www.tiktok.com/@belo.app'
 redirect_from: 
-developerName: belo
+developerName: 'belo'
 features:
-- ln
+- 'ln'
 
 ---
 

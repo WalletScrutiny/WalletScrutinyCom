@@ -1,37 +1,36 @@
 ---
-wsId: rapidzPay
+wsId: 'rapidzPay'
 title: 'Rapidz: Crypto Wallet & Hub'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: io.rapidz.rapidzpay
+appId: 'io.rapidz.rapidzpay'
 appCountry: 
-released: 2021-06-21
+released: '2021-06-21'
 updated: 2025-02-11
-version: 2.15.5
+version: '2.15.5'
 stars: 3.6
 ratings: 
 reviews: 5
-size: 
-website: https://www.rapidz.io/
+website: 'https://www.rapidz.io/'
 repository: 
 issue: 
-icon: io.rapidz.rapidzpay.png
+icon: 'io.rapidz.rapidzpay.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-07-19
+date: '2023-07-19'
 signer: 
 reviewArchive: 
-twitter: Rapidz_io
+twitter: 'Rapidz_io'
 social:
-- https://t.me/RapidzCommunity
-- https://www.instagram.com/rapidz_io
-- https://www.facebook.com/Rapidz.io
+- 'https://t.me/RapidzCommunity'
+- 'https://www.instagram.com/rapidz_io'
+- 'https://www.facebook.com/Rapidz.io'
 redirect_from: 
-developerName: UAB Rapidz Pay
+developerName: 'UAB Rapidz Pay'
 features: 
 
 ---

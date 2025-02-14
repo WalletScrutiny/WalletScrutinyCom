@@ -1,34 +1,33 @@
 ---
-wsId: AxiaInvestments
-title: Axia Trade
+wsId: 'AxiaInvestments'
+title: 'Axia Trade'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.pandats.axia
-appCountry: il
-released: 2020-11-16
+appId: 'com.pandats.axia'
+appCountry: 'il'
+released: '2020-11-16'
 updated: 2025-02-10
-version: 3.3.10
+version: '3.3.10'
 stars: 4.7
 ratings: 744
 reviews: 5
-size: 
-website: https://axiainvestments.com/
+website: 'https://axiainvestments.com/'
 repository: 
 issue: 
-icon: com.pandats.axia.png
+icon: 'com.pandats.axia.png'
 bugbounty: 
-meta: ok
-verdict: nosendreceive
+meta: 'ok'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2021-10-21
+date: '2021-10-21'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Deloce LTD
+developerName: 'Deloce LTD'
 features: 
 
 ---

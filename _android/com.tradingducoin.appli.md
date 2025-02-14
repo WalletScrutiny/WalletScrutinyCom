@@ -1,33 +1,33 @@
 ---
-wsId: CryptoTrader
-title: CryptoTrader™ - Built by traders, for traders
+wsId: 'CryptoTrader'
+title: 'CryptoTrader™ - Built by traders, for traders'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.tradingducoin.appli
-appCountry: ml
-released: 2019-03-10
-updated: 2021-09-03
-version: 5.4.8
+appId: 'com.tradingducoin.appli'
+appCountry: 'ml'
+released: '2019-03-10'
+updated: '2021-09-03'
+version: '5.4.8'
 stars: 3.8
 ratings: 183
 reviews: 89
-size: 32M
-website: https://tradingducoin.com/
+size: '32M'
+website: 'https://tradingducoin.com/'
 repository: 
 issue: 
-icon: com.tradingducoin.appli.png
+icon: 'com.tradingducoin.appli.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2021-12-22
+date: '2021-12-22'
 signer: 
 reviewArchive: 
-twitter: TradingduCoin
+twitter: 'TradingduCoin'
 social:
-- https://www.facebook.com/TradingduCoin
+- 'https://www.facebook.com/TradingduCoin'
 redirect_from: 
 developerName: 
 features: 

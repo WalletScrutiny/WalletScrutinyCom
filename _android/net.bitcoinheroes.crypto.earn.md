@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Crypto Earn
+title: 'Crypto Earn'
 altTitle: 
 authors: 
 users: 100
-appId: net.bitcoinheroes.crypto.earn
+appId: 'net.bitcoinheroes.crypto.earn'
 appCountry: 
-released: 2021-06-15
-updated: 2021-06-15
+released: '2021-06-15'
+updated: '2021-06-15'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 3.4M
+size: '3.4M'
 website: 
 repository: 
 issue: 
-icon: net.bitcoinheroes.crypto.earn.jpg
+icon: 'net.bitcoinheroes.crypto.earn.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-10-01
+date: '2021-10-01'
 signer: 
 reviewArchive: 
 twitter: 

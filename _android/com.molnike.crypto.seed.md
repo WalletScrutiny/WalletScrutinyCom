@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: BIP-39 Coin-flip for crypto
+title: 'BIP-39 Coin-flip for crypto'
 altTitle: 
 authors: 
 users: 1000
-appId: com.molnike.crypto.seed
+appId: 'com.molnike.crypto.seed'
 appCountry: 
-released: 2022-12-23
+released: '2022-12-23'
 updated: 2023-02-28
 version: '0.6'
 stars: 5
 ratings: 
 reviews: 
-size: 
-website: https://github.com/openMolNike/Crypto-Apps
+website: 'https://github.com/openMolNike/Crypto-Apps'
 repository: 
 issue: 
-icon: com.molnike.crypto.seed.png
+icon: 'com.molnike.crypto.seed.png'
 bugbounty: 
-meta: stale
-verdict: wip
+meta: 'stale'
+verdict: 'wip'
 appHashes: 
-date: 2024-02-24
+date: '2024-02-24'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Mol Nike
+developerName: 'Mol Nike'
 features: 
 
 ---

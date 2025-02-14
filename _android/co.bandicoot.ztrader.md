@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: zTrader Altcoin/Bitcoin Trader
+title: 'zTrader Altcoin/Bitcoin Trader'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: co.bandicoot.ztrader
+appId: 'co.bandicoot.ztrader'
 appCountry: 
-released: 2014-05-04
-updated: 2016-08-07
-version: 1.2.2
+released: '2014-05-04'
+updated: '2016-08-07'
+version: '1.2.2'
 stars: 3.4
 ratings: 1211
 reviews: 164
 size: 
-website: http://www.ztrader.net
+website: 'http://www.ztrader.net'
 repository: 
 issue: 
-icon: co.bandicoot.ztrader.png
+icon: 'co.bandicoot.ztrader.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-05-07
+date: '2024-05-07'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: zTrader LLC
+developerName: 'zTrader LLC'
 features: 
 
 ---

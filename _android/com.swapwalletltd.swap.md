@@ -1,33 +1,33 @@
 ---
-wsId: SwapWallet
-title: Swap Wallet - BTC, Bitcoin wallet
+wsId: 'SwapWallet'
+title: 'Swap Wallet - BTC, Bitcoin wallet'
 altTitle: 
 authors: 
 users: 50000
-appId: com.swapwalletltd.swap
+appId: 'com.swapwalletltd.swap'
 appCountry: 
 released: 
-updated: 2020-11-14
-version: Varies with device
+updated: '2020-11-14'
+version: 'Varies with device'
 stars: 4.9
 ratings: 2282
 reviews: 2065
-size: Varies with device
-website: http://swapwallet.com
+size: 'Varies with device'
+website: 'http://swapwallet.com'
 repository: 
 issue: 
-icon: com.swapwalletltd.swap.png
+icon: 'com.swapwalletltd.swap.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2020-12-28
+date: '2020-12-28'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from:
-- /com.swapwalletltd.swap/
+- '/com.swapwalletltd.swap/'
 developerName: 
 features: 
 

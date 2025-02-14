@@ -1,35 +1,34 @@
 ---
-wsId: coldStorageCoinsApp
-title: Blockchain Mint
+wsId: 'coldStorageCoinsApp'
+title: 'Blockchain Mint'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.coldstoragecoins
+appId: 'com.coldstoragecoins'
 appCountry: 
-released: 2018-08-14
+released: '2018-08-14'
 updated: 2025-01-30
-version: 4.0.0
+version: '4.0.0'
 stars: 2.7
 ratings: 
 reviews: 41
-size: 
-website: https://coldstoragecoins.com
+website: 'https://coldstoragecoins.com'
 repository: 
 issue: 
-icon: com.coldstoragecoins.png
+icon: 'com.coldstoragecoins.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-09-06
+date: '2023-09-06'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://t.me/BlockchainMint
+- 'https://t.me/BlockchainMint'
 redirect_from: 
-developerName: Blockchain Mint
+developerName: 'Blockchain Mint'
 features: 
 
 ---

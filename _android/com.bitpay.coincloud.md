@@ -1,35 +1,35 @@
 ---
-wsId: coincloud
+wsId: 'coincloud'
 title: 'Coin Cloud: Wallet 1.5'
 altTitle: 
 authors:
-- kiwilamb
+- 'kiwilamb'
 users: 50000
-appId: com.bitpay.coincloud
+appId: 'com.bitpay.coincloud'
 appCountry: 
-released: 2018-09-06
-updated: 2022-02-16
-version: 12.02.18
+released: '2018-09-06'
+updated: '2022-02-16'
+version: '12.02.18'
 stars: 3.9
 ratings: 235
 reviews: 101
 size: 
-website: https://www.coin.cloud
+website: 'https://www.coin.cloud'
 repository: 
 issue: 
-icon: com.bitpay.coincloud.png
+icon: 'com.bitpay.coincloud.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2024-03-02
+date: '2024-03-02'
 signer: 
 reviewArchive: 
-twitter: CoinCloudATM
+twitter: 'CoinCloudATM'
 social:
-- https://www.facebook.com/coincloudATM
+- 'https://www.facebook.com/coincloudATM'
 redirect_from: 
-developerName: Coin Cloud
+developerName: 'Coin Cloud'
 features: 
 
 ---

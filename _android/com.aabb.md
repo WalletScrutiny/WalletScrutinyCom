@@ -1,34 +1,34 @@
 ---
-wsId: AABBWallet
-title: AABB Wallet
+wsId: 'AABBWallet'
+title: 'AABB Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.aabb
-appCountry: ca
-released: 2021-03-08
-updated: 2023-06-30
-version: 1.0.1271
+appId: 'com.aabb'
+appCountry: 'ca'
+released: '2021-03-08'
+updated: '2023-06-30'
+version: '1.0.1271'
 stars: 4.7
 ratings: 614
 reviews: 32
 size: 
-website: https://aabbgoldtoken.com/
+website: 'https://aabbgoldtoken.com/'
 repository: 
 issue: 
-icon: com.aabb.png
+icon: 'com.aabb.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2024-11-29
+date: '2024-11-29'
 signer: 
 reviewArchive: 
-twitter: AsiaBroadband
+twitter: 'AsiaBroadband'
 social: 
 redirect_from: 
-developerName: AABB Gold Token
+developerName: 'AABB Gold Token'
 features: 
 
 ---

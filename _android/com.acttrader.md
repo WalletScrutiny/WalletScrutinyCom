@@ -1,38 +1,37 @@
 ---
 wsId: 
-title: ActTrader
+title: 'ActTrader'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.acttrader
+appId: 'com.acttrader'
 appCountry: 
-released: 2021-12-29
+released: '2021-12-29'
 updated: 2025-02-10
-version: 2.2.34
+version: '2.2.34'
 stars: 1.8
 ratings: 
 reviews: 8
-size: 
-website: https://acttrader.com
+website: 'https://acttrader.com'
 repository: 
 issue: 
-icon: com.acttrader.png
+icon: 'com.acttrader.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-09-06
+date: '2024-09-06'
 signer: 
 reviewArchive: 
-twitter: ActTraderTech
+twitter: 'ActTraderTech'
 social:
-- https://www.facebook.com/ActTrader
-- https://www.youtube.com/@ActTrader
-- https://www.linkedin.com/company/acttrader
-- https://www.instagram.com/acttrader
+- 'https://www.facebook.com/ActTrader'
+- 'https://www.youtube.com/@ActTrader'
+- 'https://www.linkedin.com/company/acttrader'
+- 'https://www.instagram.com/acttrader'
 redirect_from: 
-developerName: ActTrader Technologies Ltd
+developerName: 'ActTrader Technologies Ltd'
 features: 
 
 ---

@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: Hilux Multiwallet
+title: 'Hilux Multiwallet'
 altTitle: 
 authors: 
 users: 500
-appId: com.hilux.wallet
+appId: 'com.hilux.wallet'
 appCountry: 
-released: 2019-03-31
-updated: 2019-12-04
-version: v2.70
+released: '2019-03-31'
+updated: '2019-12-04'
+version: 'v2.70'
 stars: 5
 ratings: 55
 reviews: 4
 size: 
-website: http://www.hiluxcoin.com
+website: 'http://www.hiluxcoin.com'
 repository: 
 issue: 
-icon: com.hilux.wallet.png
+icon: 'com.hilux.wallet.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-03-02
+date: '2024-03-02'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Hilux Infrastructures
+developerName: 'Hilux Infrastructures'
 features: 
 
 ---

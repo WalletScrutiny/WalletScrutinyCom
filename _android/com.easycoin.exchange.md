@@ -1,37 +1,36 @@
 ---
-wsId: easycoinExchange
-title: EasyCoins
+wsId: 'easycoinExchange'
+title: 'EasyCoins'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.easycoin.exchange
+appId: 'com.easycoin.exchange'
 appCountry: 
-released: 2022-05-16
+released: '2022-05-16'
 updated: 2023-07-07
-version: 1.0.76
+version: '1.0.76'
 stars: 5
 ratings: 
 reviews: 32
-size: 
-website: https://www.easycoins.com/
+website: 'https://www.easycoins.com/'
 repository: 
 issue: 
-icon: com.easycoin.exchange.png
+icon: 'com.easycoin.exchange.png'
 bugbounty: 
-meta: stale
-verdict: custodial
+meta: 'stale'
+verdict: 'custodial'
 appHashes: 
-date: 2024-07-01
+date: '2024-07-01'
 signer: 
 reviewArchive: 
-twitter: EasyCoinsCrypto
+twitter: 'EasyCoinsCrypto'
 social:
-- https://www.instagram.com/easycoinscryptoglobal/
-- https://www.reddit.com/r/EasyCoins/
-- https://t.me/easycoins888
+- 'https://www.instagram.com/easycoinscryptoglobal/'
+- 'https://www.reddit.com/r/EasyCoins/'
+- 'https://t.me/easycoins888'
 redirect_from: 
-developerName: EasyCoins
+developerName: 'EasyCoins'
 features: 
 
 ---

@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: Magnetic Money - exchange sear
+title: 'Magnetic Money - exchange sear'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.spectre.magneticmoney
+appId: 'com.spectre.magneticmoney'
 appCountry: 
-released: 2018-09-10
+released: '2018-09-10'
 updated: 2024-08-29
-version: 2.2.9
+version: '2.2.9'
 stars: 4.9
 ratings: 
 reviews: 
-size: 
-website: https://magnetic-money.org
+website: 'https://magnetic-money.org'
 repository: 
 issue: 
-icon: com.spectre.magneticmoney.png
+icon: 'com.spectre.magneticmoney.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-08-31
+date: '2024-08-31'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Spectre Team
+developerName: 'Spectre Team'
 features: 
 
 ---

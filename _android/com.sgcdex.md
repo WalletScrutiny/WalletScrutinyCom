@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: SGCDEX Wallet
+title: 'SGCDEX Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.sgcdex
+appId: 'com.sgcdex'
 appCountry: 
-released: 2022-05-21
-updated: 2022-12-01
+released: '2022-05-21'
+updated: '2022-12-01'
 version: '2.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.sgcdex.com/
+website: 'https://www.sgcdex.com/'
 repository: 
 issue: 
-icon: com.sgcdex.png
+icon: 'com.sgcdex.png'
 bugbounty: 
-meta: removed
-verdict: nobtc
+meta: 'removed'
+verdict: 'nobtc'
 appHashes: 
-date: 2023-08-30
+date: '2023-08-30'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: SGCDEX Team
+developerName: 'SGCDEX Team'
 features: 
 
 ---

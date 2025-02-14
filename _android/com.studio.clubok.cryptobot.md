@@ -1,15 +1,15 @@
 ---
 wsId: 
-title: M U L T I B O T
+title: 'M U L T I B O T'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.studio.clubok.cryptobot
+appId: 'com.studio.clubok.cryptobot'
 appCountry: 
-released: 2019-02-27
-updated: 2023-02-01
-version: 2.9.3
+released: '2019-02-27'
+updated: '2023-02-01'
+version: '2.9.3'
 stars: 4.2
 ratings: 57
 reviews: 8
@@ -17,18 +17,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.studio.clubok.cryptobot.png
+icon: 'com.studio.clubok.cryptobot.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-05-17
+date: '2023-05-17'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: CLUBOK
+developerName: 'CLUBOK'
 features: 
 
 ---

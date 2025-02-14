@@ -7,8 +7,8 @@ authors:
 appId: com.coincred
 appCountry: in
 idd: '1596466402'
-released: 2021-12-31
-updated: 2023-12-11
+released: '2021-12-31'
+updated: '2023-12-11'
 version: '3.4'
 stars: 3.1
 reviews: 118
@@ -21,7 +21,7 @@ bugbounty:
 meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-12-08
+date: '2024-12-08'
 signer: 
 reviewArchive: 
 twitter: CoinCRED_

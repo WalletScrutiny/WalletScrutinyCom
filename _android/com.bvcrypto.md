@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: Bv Crypto
+title: 'Bv Crypto'
 altTitle: 
 authors: 
 users: 1000
-appId: com.bvcrypto
+appId: 'com.bvcrypto'
 appCountry: 
-released: 2019-05-28
-updated: 2019-05-28
+released: '2019-05-28'
+updated: '2019-05-28'
 version: '1.2'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: http://www.bvcrypto.com
+website: 'http://www.bvcrypto.com'
 repository: 
 issue: 
-icon: com.bvcrypto.png
+icon: 'com.bvcrypto.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2024-04-19
+date: '2024-04-19'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: BV Teknoloji
+developerName: 'BV Teknoloji'
 features: 
 
 ---

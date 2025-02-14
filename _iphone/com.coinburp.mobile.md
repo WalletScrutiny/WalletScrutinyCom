@@ -7,9 +7,9 @@ authors:
 appId: com.coinburp.mobile
 appCountry: 
 idd: 1486342307
-released: 2020-06-12
-updated: 2022-01-05
-version: 1.0.16
+released: '2020-06-12'
+updated: '2022-01-05'
+version: '1.0.16'
 stars: 4.4
 reviews: 5
 size: '42898432'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2022-04-25
+date: '2022-04-25'
 signer: 
 reviewArchive: 
 twitter: coinburp

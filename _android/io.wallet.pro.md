@@ -1,34 +1,34 @@
 ---
-wsId: WalletIOPRO
-title: wallet.io Pro—Multisig Wallet (BTC, ETH, EOS...)
+wsId: 'WalletIOPRO'
+title: 'wallet.io Pro—Multisig Wallet (BTC, ETH, EOS...)'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: io.wallet.pro
-appCountry: nz
-released: 2019-07-14
-updated: 2021-08-04
-version: 1.2.9
+appId: 'io.wallet.pro'
+appCountry: 'nz'
+released: '2019-07-14'
+updated: '2021-08-04'
+version: '1.2.9'
 stars: 
 ratings: 
 reviews: 
-size: 18M
-website: https://wallet.io/
+size: '18M'
+website: 'https://wallet.io/'
 repository: 
 issue: 
-icon: io.wallet.pro.png
+icon: 'io.wallet.pro.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2022-02-16
+date: '2022-02-16'
 signer: 
 reviewArchive: 
-twitter: io_wallet
+twitter: 'io_wallet'
 social:
-- https://medium.com/@walletio
-- https://github.com/wallet-io
+- 'https://medium.com/@walletio'
+- 'https://github.com/wallet-io'
 redirect_from: 
 developerName: 
 features: 

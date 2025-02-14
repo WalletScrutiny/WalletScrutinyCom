@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: Crypto Loupe
+title: 'Crypto Loupe'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.xcnk.cryptoloupe.android
+appId: 'com.xcnk.cryptoloupe.android'
 appCountry: 
-released: 2021-07-02
-updated: 2022-02-01
-version: 1.0.5
+released: '2021-07-02'
+updated: '2022-02-01'
+version: '1.0.5'
 stars: 3.6
 ratings: 
 reviews: 2
 size: 
-website: https://ixasthur.github.io/mk_support/
+website: 'https://ixasthur.github.io/mk_support/'
 repository: 
 issue: 
-icon: com.xcnk.cryptoloupe.android.png
+icon: 'com.xcnk.cryptoloupe.android.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-10-02
+date: '2024-10-02'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Mikhail Kavaleuski
+developerName: 'Mikhail Kavaleuski'
 features: 
 
 ---

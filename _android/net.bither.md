@@ -1,36 +1,36 @@
 ---
-wsId: bither
-title: Bither - Bitcoin Wallet
+wsId: 'bither'
+title: 'Bither - Bitcoin Wallet'
 altTitle: 
 authors:
-- leo
-- emanuel
-- keraliss
+- 'leo'
+- 'emanuel'
+- 'keraliss'
 users: 50000
-appId: net.bither
+appId: 'net.bither'
 appCountry: 
-released: 2014-02-27
-updated: 2024-10-12
-version: 2.1.6
+released: '2014-02-27'
+updated: '2024-10-12'
+version: '2.1.6'
 stars: 4.1
 ratings: 335
 reviews: 31
 size: 
-website: http://Bither.net
-repository: https://github.com/bither/bither-android
-issue: https://github.com/bither/bither-android/issues/69
-icon: net.bither.png
+website: 'http://Bither.net'
+repository: 'https://github.com/bither/bither-android'
+issue: 'https://github.com/bither/bither-android/issues/69'
+icon: 'net.bither.png'
 bugbounty: 
-meta: removed
-verdict: obfuscated
+meta: 'removed'
+verdict: 'obfuscated'
 appHashes: 
-date: 2024-11-07
+date: '2024-11-07'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: getcai
+developerName: 'getcai'
 features: 
 
 ---

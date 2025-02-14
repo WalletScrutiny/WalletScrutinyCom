@@ -1,34 +1,34 @@
 ---
-wsId: abccExchange
-title: ABCC Exchange
+wsId: 'abccExchange'
+title: 'ABCC Exchange'
 altTitle: 
 authors:
-- danny
-appId: com.abcc.exchange.ios
-appCountry: us
-idd: 1428903145
-released: 2018-10-03
-updated: 2023-08-16
-version: 1.10.4
+- 'danny'
+appId: 'com.abcc.exchange.ios'
+appCountry: 'us'
+idd: '1428903145'
+released: '2018-10-03'
+updated: '2023-08-16'
+version: '1.10.4'
 stars: 4.2
 reviews: 9
 size: '63809536'
-website: https://abcc.com/
+website: 'https://abcc.com/'
 repository: 
 issue: 
-icon: com.abcc.exchange.ios.jpg
+icon: 'com.abcc.exchange.ios.jpg'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
-twitter: ABCCExOfficial
+twitter: 'ABCCExOfficial'
 social:
-- https://www.facebook.com/ABCC-Exchange-558472047871367
+- 'https://www.facebook.com/ABCC-Exchange-558472047871367'
 features: 
-developerName: ABCC
+developerName: 'ABCC'
 
 ---
 

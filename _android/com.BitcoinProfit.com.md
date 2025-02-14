@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Bitcoin Profit
+title: 'Bitcoin Profit'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.BitcoinProfit.com
+appId: 'com.BitcoinProfit.com'
 appCountry: 
-released: 2022-06-18
-updated: 2022-06-18
+released: '2022-06-18'
+updated: '2022-06-18'
 version: '1.0'
 stars: 
 ratings: 
@@ -17,18 +17,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.BitcoinProfit.com.png
+icon: 'com.BitcoinProfit.com.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2023-08-17
+date: '2023-08-17'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: devswipe
+developerName: 'devswipe'
 features: 
 
 ---

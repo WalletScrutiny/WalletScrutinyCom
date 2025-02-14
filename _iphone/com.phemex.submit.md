@@ -8,9 +8,9 @@ authors:
 appId: com.phemex.submit
 appCountry: 
 idd: 1499601684
-released: 2020-02-20
-updated: 2025-01-17
-version: 5.5.41
+released: '2020-02-20'
+updated: '2025-01-17'
+version: '5.5.41'
 stars: 4.6
 reviews: 2443
 size: '147241984'
@@ -22,7 +22,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2021-04-20
+date: '2021-04-20'
 signer: 
 reviewArchive: 
 twitter: phemex_official

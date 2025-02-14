@@ -3,9 +3,9 @@ title: Firefly Teensy
 appId: fireflyteensy
 authors:
 - danny
-released: 2017-10-21
+released: '2017-10-21'
 discontinued: 
-updated: 2018-04-25
+updated: '2018-04-25'
 version: 
 binaries: 
 dimensions: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: obsolete
 verdict: nobtc
 appHashes: 
-date: 2022-02-17
+date: '2022-02-17'
 signer: 
 reviewArchive: 
 twitter: hi_firefly

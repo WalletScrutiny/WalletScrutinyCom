@@ -1,15 +1,15 @@
 ---
 wsId: 
-title: B9 Crypto
+title: 'B9 Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.coinb9.app
+appId: 'com.coinb9.app'
 appCountry: 
-released: 2022-03-07
-updated: 2024-11-15
-version: 4.1.9
+released: '2022-03-07'
+updated: '2024-11-15'
+version: '4.1.9'
 stars: 2.7
 ratings: 
 reviews: 1
@@ -17,18 +17,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.coinb9.app.png
+icon: 'com.coinb9.app.png'
 bugbounty: 
-meta: removed
-verdict: nobtc
+meta: 'removed'
+verdict: 'nobtc'
 appHashes: 
-date: 2025-02-04
+date: '2025-02-04'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 天空科技
+developerName: '天空科技'
 features: 
 
 ---

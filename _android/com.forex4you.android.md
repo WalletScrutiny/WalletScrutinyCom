@@ -1,35 +1,34 @@
 ---
-wsId: forex4you
-title: Markets4you - Online Trading
+wsId: 'forex4you'
+title: 'Markets4you - Online Trading'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.forex4you.android
-appCountry: th
-released: 2015-10-06
+appId: 'com.forex4you.android'
+appCountry: 'th'
+released: '2015-10-06'
 updated: 2025-02-11
-version: 6.7.0
+version: '6.7.0'
 stars: 4.6
 ratings: 2457
 reviews: 240
-size: 
-website: https://www.markets4you.com/en/
+website: 'https://www.markets4you.com/en/'
 repository: 
 issue: 
-icon: com.forex4you.android.png
+icon: 'com.forex4you.android.png'
 bugbounty: 
-meta: ok
-verdict: nosendreceive
+meta: 'ok'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2021-11-01
+date: '2021-11-01'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://www.facebook.com/forex4you
+- 'https://www.facebook.com/forex4you'
 redirect_from: 
-developerName: E-Global Trade & Finance Group Inc.
+developerName: 'E-Global Trade & Finance Group Inc.'
 features: 
 
 ---

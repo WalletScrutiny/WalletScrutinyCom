@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Crypto Invest
+title: 'Crypto Invest'
 altTitle: 
 authors: 
 users: 1
-appId: org.bitrtuubonline.crypto.invest
+appId: 'org.bitrtuubonline.crypto.invest'
 appCountry: 
-released: 2021-07-17
-updated: 2021-07-17
+released: '2021-07-17'
+updated: '2021-07-17'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 2.4M
+size: '2.4M'
 website: 
 repository: 
 issue: 
-icon: org.bitrtuubonline.crypto.invest.png
+icon: 'org.bitrtuubonline.crypto.invest.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-10-01
+date: '2021-10-01'
 signer: 
 reviewArchive: 
 twitter: 

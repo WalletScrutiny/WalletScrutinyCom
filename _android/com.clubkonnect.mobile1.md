@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: clubkonnect
+title: 'clubkonnect'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 500000
-appId: com.clubkonnect.mobile1
+appId: 'com.clubkonnect.mobile1'
 appCountry: 
-released: 2017-10-31
+released: '2017-10-31'
 updated: 2024-08-16
-version: 2.0.36
+version: '2.0.36'
 stars: 2.6
 ratings: 
 reviews: 97
-size: 
-website: http://www.clubkonnect.com
+website: 'http://www.clubkonnect.com'
 repository: 
 issue: 
-icon: com.clubkonnect.mobile1.png
+icon: 'com.clubkonnect.mobile1.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-02-08
+date: '2023-02-08'
 signer: 
 reviewArchive: 
-twitter: clubkonnect247
+twitter: 'clubkonnect247'
 social:
-- https://www.facebook.com/clubkonnect247
+- 'https://www.facebook.com/clubkonnect247'
 redirect_from: 
-developerName: Nellobyte Systems Ltd.
+developerName: 'Nellobyte Systems Ltd.'
 features: 
 
 ---

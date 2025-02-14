@@ -1,36 +1,35 @@
 ---
-wsId: swipestoxNaga
+wsId: 'swipestoxNaga'
 title: 'NAGA: Social Trading Platform'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 500000
-appId: swipestox.mobile
-appCountry: gb
-released: 2015-10-20
-updated: 2025-01-31
-version: 8.0.387
+appId: 'swipestox.mobile'
+appCountry: 'gb'
+released: '2015-10-20'
+updated: 2025-02-13
+version: '8.0.388'
 stars: 3.2
 ratings: 5636
 reviews: 198
-size: 
-website: http://www.naga.com
+website: 'http://www.naga.com'
 repository: 
 issue: 
-icon: swipestox.mobile.png
+icon: 'swipestox.mobile.png'
 bugbounty: 
-meta: ok
-verdict: nosendreceive
+meta: 'ok'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2021-10-10
+date: '2021-10-10'
 signer: 
 reviewArchive: 
-twitter: nagainvesting
+twitter: 'nagainvesting'
 social:
-- https://www.linkedin.com/company/nagainvesting
-- https://www.facebook.com/nagainvesting
+- 'https://www.linkedin.com/company/nagainvesting'
+- 'https://www.facebook.com/nagainvesting'
 redirect_from: 
-developerName: NAGA Markets Ltd.
+developerName: 'NAGA Markets Ltd.'
 features: 
 
 ---

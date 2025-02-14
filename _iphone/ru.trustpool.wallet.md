@@ -7,9 +7,9 @@ authors:
 appId: ru.trustpool.wallet
 appCountry: gb
 idd: '1607319106'
-released: 2022-02-09
-updated: 2025-01-24
-version: 2.5.23
+released: '2022-02-09'
+updated: '2025-01-24'
+version: '2.5.23'
 stars: 5
 reviews: 1
 size: '54685696'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: 2024-10-07
+date: '2024-10-07'
 signer: 
 reviewArchive: 
 twitter: 

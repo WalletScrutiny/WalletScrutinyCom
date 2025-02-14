@@ -1,37 +1,37 @@
 ---
 wsId: 
-title: XeggeX Mobile
+title: 'XeggeX Mobile'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.xeggex.wallet
+appId: 'com.xeggex.wallet'
 appCountry: 
-released: 2022-07-12
-updated: 2022-07-12
-version: 1.0.0
+released: '2022-07-12'
+updated: '2022-07-12'
+version: '1.0.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://xeggex.com
+website: 'https://xeggex.com'
 repository: 
 issue: 
-icon: com.xeggex.wallet.jpg
+icon: 'com.xeggex.wallet.jpg'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-09-28
+date: '2023-09-28'
 signer: 
 reviewArchive: 
-twitter: xeggex
+twitter: 'xeggex'
 social:
-- https://t.me/xeggex
-- https://www.reddit.com/r/XeggexTalk
-- https://discord.com/invite/HPC2HH9UkQ
+- 'https://t.me/xeggex'
+- 'https://www.reddit.com/r/XeggexTalk'
+- 'https://discord.com/invite/HPC2HH9UkQ'
 redirect_from: 
-developerName: Dokdo
+developerName: 'Dokdo'
 features: 
 
 ---

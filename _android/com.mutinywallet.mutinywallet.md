@@ -1,34 +1,34 @@
 ---
-wsId: mutiny
-title: Mutiny Wallet
+wsId: 'mutiny'
+title: 'Mutiny Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.mutinywallet.mutinywallet
+appId: 'com.mutinywallet.mutinywallet'
 appCountry: 
-released: 2024-02-27
-updated: 2024-09-03
-version: 1.8.0
+released: '2024-02-27'
+updated: '2024-09-03'
+version: '1.8.0'
 stars: 4.8
 ratings: 
 reviews: 5
 size: 
-website: https://mutinywallet.com
-repository: https://github.com/MutinyWallet/mutiny-web
+website: 'https://mutinywallet.com'
+repository: 'https://github.com/MutinyWallet/mutiny-web'
 issue: 
-icon: com.mutinywallet.mutinywallet.png
+icon: 'com.mutinywallet.mutinywallet.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2025-01-27
+date: '2025-01-27'
 signer: 
 reviewArchive: 
-twitter: MutinyWallet
+twitter: 'MutinyWallet'
 social: 
 redirect_from: 
-developerName: Mutiny Wallet
+developerName: 'Mutiny Wallet'
 features: 
 
 ---

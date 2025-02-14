@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: CYBAVO Wallet
+title: 'CYBAVO Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.cybavo.btc.wallet
+appId: 'com.cybavo.btc.wallet'
 appCountry: 
-released: 2020-06-22
-updated: 2022-06-10
-version: 1.0.3200
+released: '2020-06-22'
+updated: '2022-06-10'
+version: '1.0.3200'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.cybavo.com/
+website: 'https://www.cybavo.com/'
 repository: 
 issue: 
-icon: com.cybavo.btc.wallet.png
+icon: 'com.cybavo.btc.wallet.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2024-04-03
+date: '2024-04-03'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: CYBAVO Inc.
+developerName: 'CYBAVO Inc.'
 features: 
 
 ---

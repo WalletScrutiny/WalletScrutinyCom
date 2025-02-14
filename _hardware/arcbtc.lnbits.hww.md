@@ -3,10 +3,10 @@ title: Arcbtc LNbits Hardware Wallet
 appId: arcbtc.lnbits.hww
 authors:
 - danny
-released: 2022-07-22
+released: '2022-07-22'
 discontinued: 
-updated: 2022-12-12
-version: 0.2
+updated: '2022-12-12'
+version: '0.2'
 binaries: 
 dimensions: 
 weight: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: diy
 appHashes: 
-date: 2023-02-14
+date: '2023-02-14'
 signer: 
 reviewArchive: 
 twitter: arcbtc

@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Invest Crypto
+title: 'Invest Crypto'
 altTitle: 
 authors: 
 users: 1
-appId: org.slimmybtc.invest.crypto
+appId: 'org.slimmybtc.invest.crypto'
 appCountry: 
-released: 2021-07-18
-updated: 2021-07-18
+released: '2021-07-18'
+updated: '2021-07-18'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 2.4M
+size: '2.4M'
 website: 
 repository: 
 issue: 
-icon: org.slimmybtc.invest.crypto.png
+icon: 'org.slimmybtc.invest.crypto.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-10-01
+date: '2021-10-01'
 signer: 
 reviewArchive: 
 twitter: 

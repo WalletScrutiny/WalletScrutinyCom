@@ -1,36 +1,35 @@
 ---
 wsId: 
-title: Jtechtrade:Giftcards&Pay Bills
+title: 'Jtechtrade:Giftcards&Pay Bills'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.walker.jtech
+appId: 'com.walker.jtech'
 appCountry: 
-released: 2021-09-26
+released: '2021-09-26'
 updated: 2024-11-19
-version: 2.2.6
+version: '2.2.6'
 stars: 3.2
 ratings: 
 reviews: 19
-size: 
-website: http://www.jtechtrade.com
+website: 'http://www.jtechtrade.com'
 repository: 
 issue: 
-icon: com.walker.jtech.png
+icon: 'com.walker.jtech.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-04-19
+date: '2023-04-19'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://www.instagram.com/jtechtrade
-- https://www.linkedin.com/company/jtech-global-resources-limited
+- 'https://www.instagram.com/jtechtrade'
+- 'https://www.linkedin.com/company/jtech-global-resources-limited'
 redirect_from: 
-developerName: Jtech Global Resources Limited
+developerName: 'Jtech Global Resources Limited'
 features: 
 
 ---

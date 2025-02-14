@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: Q9
+title: 'Q9'
 altTitle: 
 authors: 
 users: 100
-appId: com.q9.capital
+appId: 'com.q9.capital'
 appCountry: 
-released: 2021-11-19
-updated: 2022-09-22
-version: 1.0.5
+released: '2021-11-19'
+updated: '2022-09-22'
+version: '1.0.5'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.q9capital.com
+website: 'https://www.q9capital.com'
 repository: 
 issue: 
-icon: com.q9.capital.png
+icon: 'com.q9.capital.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-08-25
+date: '2023-08-25'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Q9 Capital
+developerName: 'Q9 Capital'
 features: 
 
 ---

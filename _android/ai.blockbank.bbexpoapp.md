@@ -1,37 +1,36 @@
 ---
-wsId: blockbank.v2
-title: Pairs
+wsId: 'blockbank.v2'
+title: 'Pairs'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: ai.blockbank.bbexpoapp
+appId: 'ai.blockbank.bbexpoapp'
 appCountry: 
-released: 2021-10-21
+released: '2021-10-21'
 updated: 2025-02-05
-version: 4.4.0
+version: '4.4.0'
 stars: 4.1
 ratings: 
 reviews: 13
-size: 
-website: https://pairs.xyz
+website: 'https://pairs.xyz'
 repository: 
 issue: 
-icon: ai.blockbank.bbexpoapp.png
+icon: 'ai.blockbank.bbexpoapp.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-20
+date: '2024-07-20'
 signer: 
 reviewArchive: 
-twitter: BLOCKBANKapp
+twitter: 'BLOCKBANKapp'
 social:
-- https://www.facebook.com/blockbank
-- https://www.linkedin.com/company/blockbankapp/
-- https://www.youtube.com/channel/UC9OwNLa0vkHIRO77fPqAAJg
+- 'https://www.facebook.com/blockbank'
+- 'https://www.linkedin.com/company/blockbankapp/'
+- 'https://www.youtube.com/channel/UC9OwNLa0vkHIRO77fPqAAJg'
 redirect_from: 
-developerName: UAB HODL SERVICES
+developerName: 'UAB HODL SERVICES'
 features: 
 
 ---

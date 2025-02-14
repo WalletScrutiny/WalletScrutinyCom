@@ -1,34 +1,33 @@
 ---
-wsId: ottrSolWallet
+wsId: 'ottrSolWallet'
 title: 'Ottr Wallet: Buy, Stake SOL'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: finance.ottr.android
+appId: 'finance.ottr.android'
 appCountry: 
-released: 2022-10-04
+released: '2022-10-04'
 updated: 2023-12-18
 version: '1.58'
 stars: 3
 ratings: 
 reviews: 7
-size: 
-website: https://ottr.finance
+website: 'https://ottr.finance'
 repository: 
 issue: 
-icon: finance.ottr.android.png
+icon: 'finance.ottr.android.png'
 bugbounty: 
-meta: stale
-verdict: nobtc
+meta: 'stale'
+verdict: 'nobtc'
 appHashes: 
-date: 2024-12-15
+date: '2024-12-15'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Ottr Finance Inc.
+developerName: 'Ottr Finance Inc.'
 features: 
 
 ---

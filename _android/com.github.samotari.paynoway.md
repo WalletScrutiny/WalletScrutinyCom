@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: PayNoWay
+title: 'PayNoWay'
 altTitle: 
 authors: 
 users: 100
-appId: com.github.samotari.paynoway
+appId: 'com.github.samotari.paynoway'
 appCountry: 
-released: 2020-01-14
-updated: 2021-04-10
-version: 2.1.0
+released: '2020-01-14'
+updated: '2021-04-10'
+version: '2.1.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://github.com/samotari/paynoway
+website: 'https://github.com/samotari/paynoway'
 repository: 
 issue: 
-icon: com.github.samotari.paynoway.png
+icon: 'com.github.samotari.paynoway.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-04-03
+date: '2024-04-03'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Samotari
+developerName: 'Samotari'
 features: 
 
 ---

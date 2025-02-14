@@ -1,39 +1,37 @@
 ---
-wsId: bloxCrypto
-title: BLOX Crypto & Bitcoin Trading
+wsId: 'bloxCrypto'
+title: 'BLOX Crypto & Bitcoin Trading'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.weareblox.app
+appId: 'com.weareblox.app'
 appCountry: 
-released: 
 updated: 2025-02-10
-version: 6.4.0
+version: '6.4.1'
 stars: 3.4
 ratings: 
 reviews: 
-size: 
-website: https://weareblox.com
+website: 'https://weareblox.com'
 repository: 
 issue: 
-icon: com.weareblox.app.png
+icon: 'com.weareblox.app.png'
 bugbounty: 
-meta: ok
-verdict: nosendreceive
+meta: 'ok'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2023-07-20
+date: '2023-07-20'
 signer: 
 reviewArchive: 
-twitter: weareblox
+twitter: 'weareblox'
 social:
-- https://www.linkedin.com/company/weareblox
-- https://www.youtube.com/c/weareblox
-- https://www.instagram.com/weareblox
-- https://www.tiktok.com/@weareblox
-- https://bloxcrypto.medium.com
+- 'https://www.linkedin.com/company/weareblox'
+- 'https://www.youtube.com/c/weareblox'
+- 'https://www.instagram.com/weareblox'
+- 'https://www.tiktok.com/@weareblox'
+- 'https://bloxcrypto.medium.com'
 redirect_from: 
-developerName: BLOX (Weareblox) - bitcoin & other crypto currency
+developerName: 'BLOX (Weareblox) - bitcoin & other crypto currency'
 features: 
 
 ---

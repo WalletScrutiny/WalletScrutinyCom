@@ -1,33 +1,33 @@
 ---
-wsId: NakitCoins
-title: Nakitcoins
+wsId: 'NakitCoins'
+title: 'Nakitcoins'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.nakitcoins.wallet
-appCountry: us
-released: 2021-03-30
-updated: 2022-03-29
-version: 2.2.0
+appId: 'com.nakitcoins.wallet'
+appCountry: 'us'
+released: '2021-03-30'
+updated: '2022-03-29'
+version: '2.2.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.nakitcoins.com
+website: 'https://www.nakitcoins.com'
 repository: 
 issue: 
-icon: com.nakitcoins.wallet.png
+icon: 'com.nakitcoins.wallet.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
-twitter: nakitcoins
+twitter: 'nakitcoins'
 social:
-- https://www.facebook.com/NakitCoins
+- 'https://www.facebook.com/NakitCoins'
 redirect_from: 
 developerName: 
 features: 

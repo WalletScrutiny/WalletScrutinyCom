@@ -3,9 +3,9 @@ title: Offline Paper Wallet Generator
 appId: offline.pwgen
 authors:
 - danny
-released: 2021-03-20
+released: '2021-03-20'
 discontinued: 
-updated: 2021-11-28
+updated: '2021-11-28'
 version: 
 binaries: 
 dimensions: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: diy
 appHashes: 
-date: 2022-05-27
+date: '2022-05-27'
 signer: 
 reviewArchive: 
 twitter: 

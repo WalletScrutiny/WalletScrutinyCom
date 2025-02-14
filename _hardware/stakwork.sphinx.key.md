@@ -3,10 +3,10 @@ title: Stakwork Sphinx Key
 appId: stakwork.sphinx.key
 authors:
 - danny
-released: 2022-07-07
+released: '2022-07-07'
 discontinued: 
-updated: 2022-07-23
-version: 0.2.0
+updated: '2022-07-23'
+version: '0.2.0'
 binaries: 
 dimensions: 
 weight: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: diy
 appHashes: 
-date: 2024-10-23
+date: '2024-10-23'
 signer: 
 reviewArchive: 
 twitter: stakwork

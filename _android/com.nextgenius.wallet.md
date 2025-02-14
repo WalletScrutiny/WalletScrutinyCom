@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: NG Wallet
+title: 'NG Wallet'
 altTitle: 
 authors: 
 users: 100
-appId: com.nextgenius.wallet
+appId: 'com.nextgenius.wallet'
 appCountry: 
-released: 2019-08-05
-updated: 2020-06-20
-version: 1.2.7
+released: '2019-08-05'
+updated: '2020-06-20'
+version: '1.2.7'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: http://nextgenius.com.au
+website: 'http://nextgenius.com.au'
 repository: 
 issue: 
-icon: com.nextgenius.wallet.png
+icon: 'com.nextgenius.wallet.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-04-03
+date: '2024-04-03'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: NextGenius
+developerName: 'NextGenius'
 features: 
 
 ---

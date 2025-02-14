@@ -1,37 +1,36 @@
 ---
-wsId: hashVest
-title: Hash App
+wsId: 'hashVest'
+title: 'Hash App'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.hashvest.hash
+appId: 'com.hashvest.hash'
 appCountry: 
-released: 2023-01-09
+released: '2023-01-09'
 updated: 2024-04-15
-version: 1.0.7
+version: '1.0.7'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://www.gethashapp.com/
+website: 'https://www.gethashapp.com/'
 repository: 
 issue: 
-icon: com.hashvest.hash.png
+icon: 'com.hashvest.hash.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-01-09
+date: '2024-01-09'
 signer: 
 reviewArchive: 
-twitter: gethashapp
+twitter: 'gethashapp'
 social:
-- https://www.facebook.com/goHashApp
-- https://www.linkedin.com/company/gethashapp
-- https://www.youtube.com/@hashapp
+- 'https://www.facebook.com/goHashApp'
+- 'https://www.linkedin.com/company/gethashapp'
+- 'https://www.youtube.com/@hashapp'
 redirect_from: 
-developerName: HashVest Technologies Inc
+developerName: 'HashVest Technologies Inc'
 features: 
 
 ---

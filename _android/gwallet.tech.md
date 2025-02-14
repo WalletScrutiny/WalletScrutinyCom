@@ -1,34 +1,33 @@
 ---
-wsId: GWalletApp
-title: GWallet
+wsId: 'GWalletApp'
+title: 'GWallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: gwallet.tech
-appCountry: be
-released: 2021-02-16
+appId: 'gwallet.tech'
+appCountry: 'be'
+released: '2021-02-16'
 updated: 2023-03-07
-version: 1.2.6
+version: '1.2.6'
 stars: 4.9
 ratings: 
 reviews: 
-size: 
-website: https://gwallet.tech/
+website: 'https://gwallet.tech/'
 repository: 
 issue: 
-icon: gwallet.tech.png
+icon: 'gwallet.tech.png'
 bugbounty: 
-meta: stale
-verdict: nosource
+meta: 'stale'
+verdict: 'nosource'
 appHashes: 
-date: 2024-03-02
+date: '2024-03-02'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: GWALLETGLOBAL OÜ
+developerName: 'GWALLETGLOBAL OÜ'
 features: 
 
 ---

@@ -1,36 +1,35 @@
 ---
-wsId: gate.io
-title: Gate.io:Beli Bitcoin & Kripto
+wsId: 'gate.io'
+title: 'Gate.io:Beli Bitcoin & Kripto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000000
-appId: com.gateio.gateio
-appCountry: id
-released: 2017-11-03
-updated: 2025-01-31
-version: 6.49.7
+appId: 'com.gateio.gateio'
+appCountry: 'id'
+released: '2017-11-03'
+updated: 2025-02-13
+version: '6.50.1'
 stars: 4.9
 ratings: 17546
-reviews: 5651
-size: 
-website: https://gate.io/
+reviews: 5677
+website: 'https://gate.io/'
 repository: 
 issue: 
-icon: com.gateio.gateio.png
+icon: 'com.gateio.gateio.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-08-21
+date: '2021-08-21'
 signer: 
 reviewArchive: 
-twitter: gate_io
+twitter: 'gate_io'
 social:
-- https://www.facebook.com/gateioglobal
-- https://www.reddit.com/r/GateioExchange
+- 'https://www.facebook.com/gateioglobal'
+- 'https://www.reddit.com/r/GateioExchange'
 redirect_from: 
-developerName: Gate Global, Corp.
+developerName: 'Gate Global, Corp.'
 features: 
 
 ---

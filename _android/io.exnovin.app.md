@@ -1,36 +1,35 @@
 ---
 wsId: 
-title: Exnovin اکسنوین | بازار رمزارز
+title: 'Exnovin اکسنوین | بازار رمزارز'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: io.exnovin.app
+appId: 'io.exnovin.app'
 appCountry: 
-released: 2020-12-12
+released: '2020-12-12'
 updated: 2025-02-05
-version: 3.2.0
+version: '3.2.0'
 stars: 4.8
 ratings: 930
-reviews: 62
-size: 
-website: https://exnovin.io
+reviews: 60
+website: 'https://exnovin.io'
 repository: 
 issue: 
-icon: io.exnovin.app.png
+icon: 'io.exnovin.app.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-09-15
+date: '2021-09-15'
 signer: 
 reviewArchive: 
-twitter: Exnovin_io
+twitter: 'Exnovin_io'
 social:
-- https://www.linkedin.com/company/exnovin
-- https://www.facebook.com/exnovin.io
+- 'https://www.linkedin.com/company/exnovin'
+- 'https://www.facebook.com/exnovin.io'
 redirect_from: 
-developerName: EX NOVIN
+developerName: 'EX NOVIN'
 features: 
 
 ---

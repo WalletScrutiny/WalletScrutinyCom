@@ -1,35 +1,35 @@
 ---
-wsId: patriciaApp
-title: Patricia
+wsId: 'patriciaApp'
+title: 'Patricia'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.patriciaapp
-appCountry: us
-released: 2020-02-14
-updated: 2023-05-25
-version: 1.5.2
+appId: 'com.patriciaapp'
+appCountry: 'us'
+released: '2020-02-14'
+updated: '2023-05-25'
+version: '1.5.2'
 stars: 2
 ratings: 3910
 reviews: 442
 size: 
-website: https://mypatricia.co
+website: 'https://mypatricia.co'
 repository: 
 issue: 
-icon: com.patriciaapp.png
+icon: 'com.patriciaapp.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-04-26
+date: '2024-04-26'
 signer: 
 reviewArchive: 
-twitter: PatriciaSwitch
+twitter: 'PatriciaSwitch'
 social:
-- https://www.facebook.com/patricia.com.ng
+- 'https://www.facebook.com/patricia.com.ng'
 redirect_from: 
-developerName: Patricia Technologies
+developerName: 'Patricia Technologies'
 features: 
 
 ---

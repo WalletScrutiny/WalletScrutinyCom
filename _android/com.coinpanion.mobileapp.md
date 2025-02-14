@@ -1,36 +1,36 @@
 ---
-wsId: coinpanion
-title: Coinpanion
+wsId: 'coinpanion'
+title: 'Coinpanion'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.coinpanion.mobileapp
+appId: 'com.coinpanion.mobileapp'
 appCountry: 
-released: 2021-02-26
-updated: 2023-07-27
-version: 4.4.7
+released: '2021-02-26'
+updated: '2023-07-27'
+version: '4.4.7'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://coinpanion.com
+website: 'https://coinpanion.com'
 repository: 
 issue: 
-icon: com.coinpanion.mobileapp.jpg
+icon: 'com.coinpanion.mobileapp.jpg'
 bugbounty: 
-meta: removed
-verdict: nosendreceive
+meta: 'removed'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2024-02-05
+date: '2024-02-05'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://www.linkedin.com/company/coinpanion
-- https://www.facebook.com/coinpanion
+- 'https://www.linkedin.com/company/coinpanion'
+- 'https://www.facebook.com/coinpanion'
 redirect_from: 
-developerName: Coinpanion
+developerName: 'Coinpanion'
 features: 
 
 ---

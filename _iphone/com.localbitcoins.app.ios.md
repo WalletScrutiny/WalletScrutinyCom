@@ -7,9 +7,9 @@ authors:
 appId: com.localbitcoins.app.ios
 appCountry: us
 idd: 1559014308
-released: 2021-11-02
-updated: 2023-02-10
-version: 1.0.65
+released: '2021-11-02'
+updated: '2023-02-10'
+version: '1.0.65'
 stars: 3.7
 reviews: 53
 size: '77495296'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-04-16
+date: '2023-04-16'
 signer: 
 reviewArchive: 
 twitter: LocalBitcoins

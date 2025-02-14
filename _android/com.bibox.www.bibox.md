@@ -1,35 +1,35 @@
 ---
 wsId: 
-title: Bibox:Bitcoin, Crypto Exchange
+title: 'Bibox:Bitcoin, Crypto Exchange'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.bibox.www.bibox
-appCountry: us
-released: 2019-03-24
-updated: 2021-11-04
-version: 4.8.5
+appId: 'com.bibox.www.bibox'
+appCountry: 'us'
+released: '2019-03-24'
+updated: '2021-11-04'
+version: '4.8.5'
 stars: 5
 ratings: 1559
 reviews: 579
-size: 47M
-website: https://www.bibox.com
+size: '47M'
+website: 'https://www.bibox.com'
 repository: 
 issue: 
-icon: com.bibox.www.bibox.png
+icon: 'com.bibox.www.bibox.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2022-02-10
+date: '2022-02-10'
 signer: 
 reviewArchive: 
-twitter: Bibox365
+twitter: 'Bibox365'
 social:
-- https://www.linkedin.com/company/biboxexchange
-- https://www.facebook.com/Bibox2017
-- https://www.reddit.com/r/Bibox
+- 'https://www.linkedin.com/company/biboxexchange'
+- 'https://www.facebook.com/Bibox2017'
+- 'https://www.reddit.com/r/Bibox'
 redirect_from: 
 developerName: 
 features: 

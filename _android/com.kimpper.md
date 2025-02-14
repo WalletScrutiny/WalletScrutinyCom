@@ -4,24 +4,24 @@ title: 'Kimpper: Borrow&Invest Crypto'
 altTitle: 
 authors: 
 users: 1000
-appId: com.kimpper
+appId: 'com.kimpper'
 appCountry: 
-released: 2021-12-22
-updated: 2022-11-11
-version: 1.1.8
+released: '2021-12-22'
+updated: '2022-11-11'
+version: '1.1.8'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.kimpper.com
+website: 'https://www.kimpper.com'
 repository: 
 issue: 
-icon: com.kimpper.png
+icon: 'com.kimpper.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2023-01-30
+date: '2023-01-30'
 signer: 
 reviewArchive: 
 twitter: 

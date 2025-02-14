@@ -1,35 +1,35 @@
 ---
 wsId: 
-title: Chiliz Exchange
+title: 'Chiliz Exchange'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: net.chiliz.broker.android
+appId: 'net.chiliz.broker.android'
 appCountry: 
-released: 2020-01-22
-updated: 2023-12-14
-version: 5.12.1
+released: '2020-01-22'
+updated: '2023-12-14'
+version: '5.12.1'
 stars: 3.6
 ratings: 771
 reviews: 5
 size: 
-website: https://www.chiliz.net
+website: 'https://www.chiliz.net'
 repository: 
 issue: 
-icon: net.chiliz.broker.android.png
+icon: 'net.chiliz.broker.android.png'
 bugbounty: 
-meta: defunct
-verdict: custodial
+meta: 'defunct'
+verdict: 'custodial'
 appHashes: 
-date: 2022-04-25
+date: '2022-04-25'
 signer: 
 reviewArchive: 
-twitter: chiliz
+twitter: 'chiliz'
 social:
-- https://www.facebook.com/Chilizdotcom
+- 'https://www.facebook.com/Chilizdotcom'
 redirect_from: 
-developerName: Mediarex Enterprises Limited
+developerName: 'Mediarex Enterprises Limited'
 features: 
 
 ---

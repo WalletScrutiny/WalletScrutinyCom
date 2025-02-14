@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: CryptoTerminal
+title: 'CryptoTerminal'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100
-appId: com.github.samotari.cryptoterminal
+appId: 'com.github.samotari.cryptoterminal'
 appCountry: 
-released: 2020-01-14
-updated: 2020-01-14
-version: 1.6.0
+released: '2020-01-14'
+updated: '2020-01-14'
+version: '1.6.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://cryptoterminal.eu
-repository: https://github.com/samotari/crypto-terminal
+website: 'https://cryptoterminal.eu'
+repository: 'https://github.com/samotari/crypto-terminal'
 issue: 
-icon: com.github.samotari.cryptoterminal.png
+icon: 'com.github.samotari.cryptoterminal.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-04-03
+date: '2024-04-03'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Samotari
+developerName: 'Samotari'
 features: 
 
 ---

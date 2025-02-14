@@ -1,36 +1,36 @@
 ---
-wsId: BTCAlpha
-title: BTC-Alpha Exchange
+wsId: 'BTCAlpha'
+title: 'BTC-Alpha Exchange'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.btcalpha.exchange
-appCountry: us
-released: 2021-07-23
-updated: 2022-08-08
-version: 1.11.2
+appId: 'com.btcalpha.exchange'
+appCountry: 'us'
+released: '2021-07-23'
+updated: '2022-08-08'
+version: '1.11.2'
 stars: 3.9
 ratings: 
 reviews: 3
 size: 
-website: https://btc-alpha.com/
+website: 'https://btc-alpha.com/'
 repository: 
 issue: 
-icon: com.btcalpha.exchange.png
+icon: 'com.btcalpha.exchange.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-04-19
+date: '2024-04-19'
 signer: 
 reviewArchive: 
-twitter: btcalpha
+twitter: 'btcalpha'
 social:
-- https://www.linkedin.com/company/btcalpha
-- https://www.facebook.com/btcalpha
+- 'https://www.linkedin.com/company/btcalpha'
+- 'https://www.facebook.com/btcalpha'
 redirect_from: 
-developerName: BTC-Alpha LTD
+developerName: 'BTC-Alpha LTD'
 features: 
 
 ---

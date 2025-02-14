@@ -7,9 +7,9 @@ authors:
 appId: org.studentcoin.mobile
 appCountry: pl
 idd: 1559718559
-released: 2021-03-30
-updated: 2023-05-14
-version: 1.15.1
+released: '2021-03-30'
+updated: '2023-05-14'
+version: '1.15.1'
 stars: 4.7
 reviews: 21
 size: '25800704'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: nobtc
 appHashes: 
-date: 2024-05-07
+date: '2024-05-07'
 signer: 
 reviewArchive: 
 twitter: studentcoinorg

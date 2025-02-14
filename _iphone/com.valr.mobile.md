@@ -8,9 +8,9 @@ authors:
 appId: com.valr.mobile
 appCountry: jp
 idd: 1453499428
-released: 2019-09-27
-updated: 2025-02-06
-version: 1.1.9
+released: '2019-09-27'
+updated: '2025-02-06'
+version: '1.1.9'
 stars: 0
 reviews: 0
 size: '74559488'
@@ -22,7 +22,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2024-10-07
+date: '2024-10-07'
 signer: 
 reviewArchive: 
 twitter: valrdotcom

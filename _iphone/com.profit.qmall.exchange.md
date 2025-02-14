@@ -7,9 +7,9 @@ authors:
 appId: com.profit.qmall.exchange
 appCountry: de
 idd: '1600467380'
-released: 2021-12-21
-updated: 2024-08-01
-version: 1.1.59
+released: '2021-12-21'
+updated: '2024-08-01'
+version: '1.1.59'
 stars: 4.4
 reviews: 7
 size: '36455424'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2024-10-07
+date: '2024-10-07'
 signer: 
 reviewArchive: 
 twitter: QmallExchange

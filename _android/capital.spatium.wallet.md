@@ -1,38 +1,38 @@
 ---
-wsId: spatium
-title: Spatium MPC Crypto Wallet
+wsId: 'spatium'
+title: 'Spatium MPC Crypto Wallet'
 altTitle: 
 authors:
-- danny
-- leo
+- 'danny'
+- 'leo'
 users: 1000
-appId: capital.spatium.wallet
-appCountry: us
-released: 2018-08-31
-updated: 2024-02-22
-version: 3.2.5
+appId: 'capital.spatium.wallet'
+appCountry: 'us'
+released: '2018-08-31'
+updated: '2024-02-22'
+version: '3.2.5'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://spatium.net/
+website: 'https://spatium.net/'
 repository: 
 issue: 
-icon: capital.spatium.wallet.png
+icon: 'capital.spatium.wallet.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2025-01-27
+date: '2025-01-27'
 signer: 
 reviewArchive: 
-twitter: spatium_news
+twitter: 'spatium_news'
 social:
-- https://www.linkedin.com/company/spatium-capital
-- https://www.facebook.com/spatiumnews
-- https://github.com/CaspianTechnologies
+- 'https://www.linkedin.com/company/spatium-capital'
+- 'https://www.facebook.com/spatiumnews'
+- 'https://github.com/CaspianTechnologies'
 redirect_from: 
-developerName: CaspianTechnologies
+developerName: 'CaspianTechnologies'
 features: 
 
 ---

@@ -1,38 +1,38 @@
 ---
-wsId: CoinPayments
-title: CoinPayments - Crypto Wallet
+wsId: 'CoinPayments'
+title: 'CoinPayments - Crypto Wallet'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 100000
-appId: net.coinpayments.coinpaymentsapp
+appId: 'net.coinpayments.coinpaymentsapp'
 appCountry: 
-released: 2016-11-15
-updated: 2024-12-18
-version: VARY
+released: '2016-11-15'
+updated: '2024-12-18'
+version: 'VARY'
 stars: 3.4
 ratings: 2277
 reviews: 128
 size: 
-website: https://www.coinpayments.net/
+website: 'https://www.coinpayments.net/'
 repository: 
 issue: 
-icon: net.coinpayments.coinpaymentsapp.png
+icon: 'net.coinpayments.coinpaymentsapp.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-05-25
+date: '2021-05-25'
 signer: 
 reviewArchive: 
-twitter: CoinPaymentsNET
+twitter: 'CoinPaymentsNET'
 social:
-- https://www.linkedin.com/company/coinpayments-inc
-- https://www.facebook.com/CoinPayments
+- 'https://www.linkedin.com/company/coinpayments-inc'
+- 'https://www.facebook.com/CoinPayments'
 redirect_from:
-- /net.coinpayments.coinpaymentsapp/
-- /posts/net.coinpayments.coinpaymentsapp/
-developerName: Coinpayments Inc
+- '/net.coinpayments.coinpaymentsapp/'
+- '/posts/net.coinpayments.coinpaymentsapp/'
+developerName: 'Coinpayments Inc'
 features: 
 
 ---

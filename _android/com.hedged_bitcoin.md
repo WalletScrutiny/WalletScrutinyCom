@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: Hedged Bitcoin
+title: 'Hedged Bitcoin'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.hedged_bitcoin
+appId: 'com.hedged_bitcoin'
 appCountry: 
-released: 2018-11-17
-updated: 2021-06-11
-version: 0.7.0
+released: '2018-11-17'
+updated: '2021-06-11'
+version: '0.7.0'
 stars: 3.6
 ratings: 28
 reviews: 2
-size: 8.7M
-website: https://hedgedbitcoin.com
+size: '8.7M'
+website: 'https://hedgedbitcoin.com'
 repository: 
 issue: 
-icon: com.hedged_bitcoin.png
+icon: 'com.hedged_bitcoin.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2022-03-07
+date: '2022-03-07'
 signer: 
 reviewArchive: 
-twitter: HedgedBitcoin
+twitter: 'HedgedBitcoin'
 social:
-- https://www.linkedin.com/company/hedgedbitcoin
-- https://www.facebook.com/HedgedBitcoin
+- 'https://www.linkedin.com/company/hedgedbitcoin'
+- 'https://www.facebook.com/HedgedBitcoin'
 redirect_from: 
 developerName: 
 features: 

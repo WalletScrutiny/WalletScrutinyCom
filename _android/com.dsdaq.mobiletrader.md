@@ -1,35 +1,35 @@
 ---
-wsId: Dsdaq
-title: Dsdaq - Trade stock, gold, oil
+wsId: 'Dsdaq'
+title: 'Dsdaq - Trade stock, gold, oil'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.dsdaq.mobiletrader
-appCountry: us
-released: 2019-12-24
-updated: 2022-01-20
-version: 3.0.4
+appId: 'com.dsdaq.mobiletrader'
+appCountry: 'us'
+released: '2019-12-24'
+updated: '2022-01-20'
+version: '3.0.4'
 stars: 4.8
 ratings: 510
 reviews: 11
 size: 
-website: https://dsdaq.com
+website: 'https://dsdaq.com'
 repository: 
 issue: 
-icon: com.dsdaq.mobiletrader.png
+icon: 'com.dsdaq.mobiletrader.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-02-05
+date: '2024-02-05'
 signer: 
 reviewArchive: 
-twitter: dsdaqcom
+twitter: 'dsdaqcom'
 social:
-- https://www.facebook.com/dsdaqcom
+- 'https://www.facebook.com/dsdaqcom'
 redirect_from: 
-developerName: Dsdaq Market Ltd.
+developerName: 'Dsdaq Market Ltd.'
 features: 
 
 ---

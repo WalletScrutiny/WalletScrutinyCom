@@ -7,9 +7,9 @@ authors:
 appId: org.talkapp
 appCountry: hk
 idd: '1547227377'
-released: 2021-02-10
-updated: 2025-01-29
-version: 2.29.1
+released: '2021-02-10'
+updated: '2025-01-29'
+version: '2.29.1'
 stars: 4.5
 reviews: 171
 size: '148534272'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: 2023-06-01
+date: '2023-06-01'
 signer: 
 reviewArchive: 
 twitter: 

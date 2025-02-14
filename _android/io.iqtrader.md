@@ -1,35 +1,35 @@
 ---
 wsId: 
-title: IQTrader
+title: 'IQTrader'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: io.iqtrader
+appId: 'io.iqtrader'
 appCountry: 
-released: 2022-09-29
-updated: 2022-10-07
-version: 2.0.7
+released: '2022-09-29'
+updated: '2022-10-07'
+version: '2.0.7'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://iqtrader.io
+website: 'https://iqtrader.io'
 repository: 
 issue: 
-icon: io.iqtrader.png
+icon: 'io.iqtrader.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-11-04
+date: '2024-11-04'
 signer: 
 reviewArchive: 
-twitter: IQTrader_io
+twitter: 'IQTrader_io'
 social:
-- https://www.instagram.com/iqtraderofficial/
+- 'https://www.instagram.com/iqtraderofficial/'
 redirect_from: 
-developerName: IQTrader
+developerName: 'IQTrader'
 features: 
 
 ---

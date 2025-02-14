@@ -1,28 +1,28 @@
 ---
 wsId: 
-title: Kvadro WL
+title: 'Kvadro WL'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.kvadrowallet
+appId: 'com.kvadrowallet'
 appCountry: 
-released: 2020-11-16
-updated: 2021-08-14
-version: 1.2.13
+released: '2020-11-16'
+updated: '2021-08-14'
+version: '1.2.13'
 stars: 3.9
 ratings: 57
 reviews: 34
-size: 33M
-website: https://kvadrowallet.com/
+size: '33M'
+website: 'https://kvadrowallet.com/'
 repository: 
 issue: 
-icon: com.kvadrowallet.png
+icon: 'com.kvadrowallet.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2021-11-15
+date: '2021-11-15'
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,35 +1,35 @@
 ---
-wsId: InstantCoins
+wsId: 'InstantCoins'
 title: 'Instantcoins: sell bitcoin in '
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.instantcoins
-appCountry: ng
-released: 2020-06-19
-updated: 2021-04-05
-version: 1.0.6
+appId: 'com.instantcoins'
+appCountry: 'ng'
+released: '2020-06-19'
+updated: '2021-04-05'
+version: '1.0.6'
 stars: 2.1
 ratings: 214
 reviews: 161
 size: 
-website: https://instantcoins.ng
+website: 'https://instantcoins.ng'
 repository: 
 issue: 
-icon: com.instantcoins.png
+icon: 'com.instantcoins.png'
 bugbounty: 
-meta: removed
-verdict: nosendreceive
+meta: 'removed'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2023-12-19
+date: '2023-12-19'
 signer: 
 reviewArchive: 
-twitter: instantcoins_ng
+twitter: 'instantcoins_ng'
 social:
-- https://www.facebook.com/instantcoins
+- 'https://www.facebook.com/instantcoins'
 redirect_from: 
-developerName: instantcoins technologies
+developerName: 'instantcoins technologies'
 features: 
 
 ---

@@ -1,34 +1,33 @@
 ---
-wsId: cryptoCoinCheck
-title: Crypto Coin Check
+wsId: 'cryptoCoinCheck'
+title: 'Crypto Coin Check'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: tech.pertiller.cryptocoincheck
+appId: 'tech.pertiller.cryptocoincheck'
 appCountry: 
-released: 2018-04-05
+released: '2018-04-05'
 updated: 2022-10-24
-version: 1.7.0
+version: '1.7.0'
 stars: 4.3
 ratings: 
 reviews: 1
-size: 
-website: https://bitcoinmonitor.app
+website: 'https://bitcoinmonitor.app'
 repository: 
 issue: 
-icon: tech.pertiller.cryptocoincheck.png
+icon: 'tech.pertiller.cryptocoincheck.png'
 bugbounty: 
-meta: obsolete
-verdict: nowallet
+meta: 'obsolete'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-10-16
+date: '2024-10-16'
 signer: 
 reviewArchive: 
-twitter: BitcoinMonitor1
+twitter: 'BitcoinMonitor1'
 social: 
 redirect_from: 
-developerName: David Pertiller
+developerName: 'David Pertiller'
 features: 
 
 ---

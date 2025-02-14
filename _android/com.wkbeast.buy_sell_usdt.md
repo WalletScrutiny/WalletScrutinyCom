@@ -1,34 +1,34 @@
 ---
-wsId: wkBeast
-title: WKBeast
+wsId: 'wkBeast'
+title: 'WKBeast'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.wkbeast.buy_sell_usdt
+appId: 'com.wkbeast.buy_sell_usdt'
 appCountry: 
-released: 2021-05-14
-updated: 2022-05-14
-version: 2.0.4
+released: '2021-05-14'
+updated: '2022-05-14'
+version: '2.0.4'
 stars: 4.9
 ratings: 
 reviews: 12
 size: 
-website: http://www.ahmadkassabieh.com
+website: 'http://www.ahmadkassabieh.com'
 repository: 
 issue: 
-icon: com.wkbeast.buy_sell_usdt.png
+icon: 'com.wkbeast.buy_sell_usdt.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-04-19
+date: '2024-04-19'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Ahmad Kasabieh
+developerName: 'Ahmad Kasabieh'
 features: 
 
 ---

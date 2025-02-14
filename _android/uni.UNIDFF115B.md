@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: FETICK
+title: 'FETICK'
 altTitle: 
 authors: 
 users: 5
-appId: uni.UNIDFF115B
+appId: 'uni.UNIDFF115B'
 appCountry: 
-released: 2022-02-09
-updated: 2022-01-25
-version: 1.0.0
+released: '2022-02-09'
+updated: '2022-01-25'
+version: '1.0.0'
 stars: 
 ratings: 
 reviews: 
@@ -16,18 +16,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: uni.UNIDFF115B.png
+icon: 'uni.UNIDFF115B.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-12-19
+date: '2023-12-19'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: WPP Studio
+developerName: 'WPP Studio'
 features: 
 
 ---

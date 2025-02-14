@@ -7,9 +7,9 @@ authors:
 appId: com.programonks.CoinMarketApp
 appCountry: us
 idd: 1350234503
-released: 2018-03-02
-updated: 2024-12-04
-version: 15.17.1
+released: '2018-03-02'
+updated: '2024-12-04'
+version: '15.17.1'
 stars: 4.6
 reviews: 619
 size: '164175872'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: 2021-10-10
+date: '2021-10-10'
 signer: 
 reviewArchive: 
 twitter: mydopamineapp

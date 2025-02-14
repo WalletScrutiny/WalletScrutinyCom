@@ -7,9 +7,9 @@ authors:
 appId: com.jackmallers.zap
 appCountry: 
 idd: 1406311960
-released: 2019-04-27
-updated: 2020-08-03
-version: 0.5.2
+released: '2019-04-27'
+updated: '2020-08-03'
+version: '0.5.2'
 stars: 4.5
 reviews: 63
 size: '43196416'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: nonverifiable
 appHashes: 
-date: 2022-04-25
+date: '2022-04-25'
 signer: 
 reviewArchive: 
 twitter: ln_zap

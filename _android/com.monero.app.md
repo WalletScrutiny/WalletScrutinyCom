@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: Monero.com by Cake Wallet
+title: 'Monero.com by Cake Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.monero.app
+appId: 'com.monero.app'
 appCountry: 
-released: 2022-01-07
+released: '2022-01-07'
 updated: 2025-02-01
-version: 1.20.0
+version: '1.20.0'
 stars: 4.6
 ratings: 
 reviews: 41
-size: 
-website: https://cakewallet.com
+website: 'https://cakewallet.com'
 repository: 
 issue: 
-icon: com.monero.app.jpg
+icon: 'com.monero.app.jpg'
 bugbounty: 
-meta: ok
-verdict: nobtc
+meta: 'ok'
+verdict: 'nobtc'
 appHashes: 
-date: 2023-04-28
+date: '2023-04-28'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Cake Labs
+developerName: 'Cake Labs'
 features: 
 
 ---

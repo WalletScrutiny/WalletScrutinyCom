@@ -1,35 +1,34 @@
 ---
-wsId: roseon
+wsId: 'roseon'
 title: 'Roseon: Trade & Earn'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: roseon.finance
-appCountry: vn
-released: 2021-03-16
+appId: 'roseon.finance'
+appCountry: 'vn'
+released: '2021-03-16'
 updated: 2024-10-31
-version: 2.4.41
+version: '2.4.41'
 stars: 4.6
 ratings: 578
 reviews: 63
-size: 
-website: http://roseon.world
+website: 'http://roseon.world'
 repository: 
 issue: 
-icon: roseon.finance.png
+icon: 'roseon.finance.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-09-30
+date: '2021-09-30'
 signer: 
 reviewArchive: 
-twitter: RoseonFinance
+twitter: 'RoseonFinance'
 social:
-- https://www.facebook.com/Roseon.Finance
+- 'https://www.facebook.com/Roseon.Finance'
 redirect_from: 
-developerName: Roseon Finance
+developerName: 'Roseon Finance'
 features: 
 
 ---

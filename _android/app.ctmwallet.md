@@ -1,35 +1,34 @@
 ---
-wsId: ctpayWallet
-title: CTPAY
+wsId: 'ctpayWallet'
+title: 'CTPAY'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: app.ctmwallet
+appId: 'app.ctmwallet'
 appCountry: 
-released: 2021-12-28
+released: '2021-12-28'
 updated: 2025-01-22
-version: 1.0.24
+version: '1.0.24'
 stars: 3.8
 ratings: 
 reviews: 4
-size: 
 website: 
 repository: 
 issue: 
-icon: app.ctmwallet.png
+icon: 'app.ctmwallet.png'
 bugbounty: 
-meta: ok
-verdict: nobtc
+meta: 'ok'
+verdict: 'nobtc'
 appHashes: 
-date: 2023-07-18
+date: '2023-07-18'
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- https://ctpay.io
+- 'https://ctpay.io'
 redirect_from: 
-developerName: cccode
+developerName: 'cccode'
 features: 
 
 ---

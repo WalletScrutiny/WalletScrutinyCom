@@ -7,9 +7,9 @@ authors:
 appId: com.cryptnox.companion
 appCountry: us
 idd: '1583011693'
-released: 2021-10-10
-updated: 2024-12-02
-version: 2.6.3
+released: '2021-10-10'
+updated: '2024-12-02'
+version: '2.6.3'
 stars: 3.7
 reviews: 3
 size: '65657856'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nowallet
 appHashes: 
-date: 2023-11-15
+date: '2023-11-15'
 signer: 
 reviewArchive: 
 twitter: CryptnoxTech

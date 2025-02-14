@@ -3,7 +3,7 @@ title: BitNotes
 appId: bitnotes
 authors:
 - danny
-released: 2016-09-29
+released: '2016-09-29'
 discontinued: 
 updated: 
 version: 
@@ -22,7 +22,7 @@ icon: bitnotes.png
 bugbounty: 
 meta: ok
 verdict: vapor
-date: 2022-04-29
+date: '2022-04-29'
 signer: 
 reviewArchive: 
 twitter: bitnotesorg

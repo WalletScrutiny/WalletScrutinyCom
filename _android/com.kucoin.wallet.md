@@ -3,32 +3,31 @@ wsId:
 title: 'Halo: Web3 Social App'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.kucoin.wallet
+appId: 'com.kucoin.wallet'
 appCountry: 
-released: 2022-05-31
+released: '2022-05-31'
 updated: 2025-02-07
-version: 5.3.7
+version: '5.3.7'
 stars: 4.3
 ratings: 
 reviews: 84
-size: 
-website: https://kuwallet.com
+website: 'https://kuwallet.com'
 repository: 
 issue: 
-icon: com.kucoin.wallet.jpg
+icon: 'com.kucoin.wallet.jpg'
 bugbounty: 
-meta: ok
-verdict: nobtc
+meta: 'ok'
+verdict: 'nobtc'
 appHashes: 
-date: 2023-02-10
+date: '2023-02-10'
 signer: 
 reviewArchive: 
-twitter: KuWallet
+twitter: 'KuWallet'
 social: 
 redirect_from: 
-developerName: Halo(halo.social)
+developerName: 'Halo(halo.social)'
 features: 
 
 ---

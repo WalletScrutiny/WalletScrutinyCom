@@ -7,9 +7,9 @@ authors:
 appId: com.bydfi.app
 appCountry: us
 idd: '6444251506'
-released: 2023-02-09
-updated: 2025-01-23
-version: V3.6.2
+released: '2023-02-09'
+updated: '2025-01-23'
+version: 'V3.6.2'
 stars: 4.6
 reviews: 749
 size: '257295360'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2023-07-21
+date: '2023-07-21'
 signer: 
 reviewArchive: 
 twitter: BYDFi

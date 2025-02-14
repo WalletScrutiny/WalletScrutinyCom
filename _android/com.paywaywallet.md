@@ -1,39 +1,38 @@
 ---
 wsId: 
-title: PayWay Wallet
+title: 'PayWay Wallet'
 altTitle: 
 authors:
-- leo
-- danny
+- 'leo'
+- 'danny'
 users: 50000
-appId: com.paywaywallet
+appId: 'com.paywaywallet'
 appCountry: 
-released: 2019-02-13
+released: '2019-02-13'
 updated: 2025-02-06
-version: 4.3.5.1678
+version: '4.3.5.1678'
 stars: 3.8
 ratings: 254
 reviews: 4
-size: 
-website: https://www.payway.ug
+website: 'https://www.payway.ug'
 repository: 
 issue: 
-icon: com.paywaywallet.png
+icon: 'com.paywaywallet.png'
 bugbounty: 
-meta: ok
-verdict: nobtc
+meta: 'ok'
+verdict: 'nobtc'
 appHashes: 
-date: 2022-05-21
+date: '2022-05-21'
 signer: 
 reviewArchive: 
-twitter: pay_way
+twitter: 'pay_way'
 social:
-- https://www.facebook.com/paywayuganda
+- 'https://www.facebook.com/paywayuganda'
 redirect_from:
-- /com.paywaywallet/
-- /payway/
-- /posts/com.paywaywallet/
-developerName: PayWay
+- '/com.paywaywallet/'
+- '/payway/'
+- '/posts/com.paywaywallet/'
+developerName: 'PayWay'
 features: 
 
 ---

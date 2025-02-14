@@ -3,26 +3,26 @@ wsId:
 title: 'Swaps: buy BTC, USDT crypto. Tether, bitcoin store'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.mitin.app.sw
+appId: 'com.mitin.app.sw'
 appCountry: 
-released: 2021-04-14
-updated: 2021-05-13
+released: '2021-04-14'
+updated: '2021-05-13'
 version: '3.0'
 stars: 
 ratings: 
 reviews: 
-size: 3.8M
+size: '3.8M'
 website: 
 repository: 
 issue: 
-icon: com.mitin.app.sw.png
+icon: 'com.mitin.app.sw.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2022-02-16
+date: '2022-02-16'
 signer: 
 reviewArchive: 
 twitter: 

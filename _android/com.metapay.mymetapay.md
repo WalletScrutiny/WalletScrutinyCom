@@ -1,15 +1,15 @@
 ---
-wsId: chichapayCrypto
-title: ChiChaPay, pay with crypto
+wsId: 'chichapayCrypto'
+title: 'ChiChaPay, pay with crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.metapay.mymetapay
+appId: 'com.metapay.mymetapay'
 appCountry: 
-released: 2022-06-18
-updated: 2024-04-02
-version: 1.20.1
+released: '2022-06-18'
+updated: '2024-04-02'
+version: '1.20.1'
 stars: 
 ratings: 
 reviews: 
@@ -17,18 +17,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.metapay.mymetapay.png
+icon: 'com.metapay.mymetapay.png'
 bugbounty: 
-meta: removed
-verdict: nobtc
+meta: 'removed'
+verdict: 'nobtc'
 appHashes: 
-date: 2024-11-04
+date: '2024-11-04'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: ChiChaPay
+developerName: 'ChiChaPay'
 features: 
 
 ---

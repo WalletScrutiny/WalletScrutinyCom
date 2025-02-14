@@ -3,10 +3,10 @@ title: Specter DIY Hardware Wallet
 appId: specterdiy
 authors:
 - danny
-released: 2020-02-27
+released: '2020-02-27'
 discontinued: 
-updated: 2021-12-23
-version: 1.6.2
+updated: '2021-12-23'
+version: '1.6.2'
 binaries: 
 dimensions:
 - 170
@@ -26,7 +26,7 @@ bugbounty:
 meta: ok
 verdict: diy
 appHashes: 
-date: 2022-04-11
+date: '2022-04-11'
 signer: 
 reviewArchive: 
 twitter: SpecterWallet

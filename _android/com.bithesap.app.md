@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: Bithesap - Bitcoin & Altcoin A
+title: 'Bithesap - Bitcoin & Altcoin A'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.bithesap.app
+appId: 'com.bithesap.app'
 appCountry: 
-released: 2018-08-03
-updated: 2019-05-08
+released: '2018-08-03'
+updated: '2019-05-08'
 version: '1.3'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.bithesap.com
+website: 'https://www.bithesap.com'
 repository: 
 issue: 
-icon: com.bithesap.app.png
+icon: 'com.bithesap.app.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2023-04-20
+date: '2023-04-20'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Online People
+developerName: 'Online People'
 features: 
 
 ---

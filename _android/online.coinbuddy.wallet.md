@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: CoinBuddy Wallet
+title: 'CoinBuddy Wallet'
 altTitle: 
 authors: 
 users: 10
-appId: online.coinbuddy.wallet
+appId: 'online.coinbuddy.wallet'
 appCountry: 
-released: 2022-05-12
-updated: 2022-05-20
-version: 1.5.0
+released: '2022-05-12'
+updated: '2022-05-20'
+version: '1.5.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: http://coinbuddy.online
+website: 'http://coinbuddy.online'
 repository: 
 issue: 
-icon: online.coinbuddy.wallet.png
+icon: 'online.coinbuddy.wallet.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
 twitter: 

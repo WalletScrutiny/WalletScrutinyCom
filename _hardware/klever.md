@@ -3,7 +3,7 @@ title: Kleversafe
 appId: klever
 authors:
 - danny
-released: 2021-12-17
+released: '2021-12-17'
 discontinued: 
 updated: 
 version: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: noita
 appHashes: 
-date: 2022-02-18
+date: '2022-02-18'
 signer: 
 reviewArchive: 
 twitter: klever_io

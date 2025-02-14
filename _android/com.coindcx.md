@@ -1,36 +1,35 @@
 ---
 wsId: 
-title: CoinDCX Pro:Trade BTC & Crypto
+title: 'CoinDCX Pro:Trade BTC & Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000000
-appId: com.coindcx
+appId: 'com.coindcx'
 appCountry: 
-released: 2018-11-02
+released: '2018-11-02'
 updated: 2024-07-12
-version: 6.34.0003
+version: '6.34.0003'
 stars: 4.5
 ratings: 13567
 reviews: 143
-size: 
-website: https://coindcx.com
+website: 'https://coindcx.com'
 repository: 
 issue: 
-icon: com.coindcx.png
+icon: 'com.coindcx.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-08-21
+date: '2021-08-21'
 signer: 
 reviewArchive: 
-twitter: coindcx
+twitter: 'coindcx'
 social:
-- https://www.linkedin.com/company/coindcx
-- https://www.facebook.com/CoinDCX
+- 'https://www.linkedin.com/company/coindcx'
+- 'https://www.facebook.com/CoinDCX'
 redirect_from: 
-developerName: CoinDCX Official
+developerName: 'CoinDCX Official'
 features: 
 
 ---

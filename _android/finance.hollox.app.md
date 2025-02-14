@@ -1,36 +1,35 @@
 ---
-wsId: holloxWallet
-title: Hollox:Bitcoin & Crypto Wallet
+wsId: 'holloxWallet'
+title: 'Hollox:Bitcoin & Crypto Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: finance.hollox.app
+appId: 'finance.hollox.app'
 appCountry: 
-released: 2022-11-13
+released: '2022-11-13'
 updated: 2024-10-04
-version: 6.0.4
+version: '6.0.4'
 stars: 5
 ratings: 
 reviews: 6
-size: 
-website: https://hollox.finance/
+website: 'https://hollox.finance/'
 repository: 
 issue: 
-icon: finance.hollox.app.png
+icon: 'finance.hollox.app.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2024-09-28
+date: '2024-09-28'
 signer: 
 reviewArchive: 
-twitter: Holloxintl
+twitter: 'Holloxintl'
 social:
-- https://www.facebook.com/holloxintl
-- https://www.instagram.com/holloxintl
+- 'https://www.facebook.com/holloxintl'
+- 'https://www.instagram.com/holloxintl'
 redirect_from: 
-developerName: XOXO TECHNOLOGIES LIMITED
+developerName: 'XOXO TECHNOLOGIES LIMITED'
 features: 
 
 ---

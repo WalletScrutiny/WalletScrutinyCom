@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Mocrow
+title: 'Mocrow'
 altTitle: 
 authors: 
 users: 10
-appId: com.mocrow
+appId: 'com.mocrow'
 appCountry: 
 released: 
-updated: 2019-09-13
-version: VARY
+updated: '2019-09-13'
+version: 'VARY'
 stars: 
 ratings: 
 reviews: 
@@ -16,18 +16,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.mocrow.png
+icon: 'com.mocrow.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-04-03
+date: '2024-04-03'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Cynotrust Intelligent Systems
+developerName: 'Cynotrust Intelligent Systems'
 features: 
 
 ---

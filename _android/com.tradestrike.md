@@ -1,40 +1,39 @@
 ---
-wsId: StrikeXDefi
-title: StrikeX | DeFi Crypto Wallet
+wsId: 'StrikeXDefi'
+title: 'StrikeX | DeFi Crypto Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.tradestrike
+appId: 'com.tradestrike'
 appCountry: 
-released: 2022-09-26
+released: '2022-09-26'
 updated: 2024-10-09
-version: 4.2.3
+version: '4.2.3'
 stars: 4.5
 ratings: 
 reviews: 22
-size: 
-website: https://tradestrike.io/strikex-wallet/
+website: 'https://tradestrike.io/strikex-wallet/'
 repository: 
 issue: 
-icon: com.tradestrike.png
+icon: 'com.tradestrike.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-24
+date: '2024-07-24'
 signer: 
 reviewArchive: 
-twitter: TradeStrikeBVI
+twitter: 'TradeStrikeBVI'
 social:
-- https://www.linkedin.com/company/strikex
-- https://www.facebook.com/TradeStrikeBVI
-- https://www.youtube.com/channel/UCZ_gCf9-Tnr7JeoFiSkl7SQ
-- https://www.instagram.com/tradestrike.bvi
-- https://t.me/StrikeXcrypto
-- https://discord.com/invite/tradestrike
+- 'https://www.linkedin.com/company/strikex'
+- 'https://www.facebook.com/TradeStrikeBVI'
+- 'https://www.youtube.com/channel/UCZ_gCf9-Tnr7JeoFiSkl7SQ'
+- 'https://www.instagram.com/tradestrike.bvi'
+- 'https://t.me/StrikeXcrypto'
+- 'https://discord.com/invite/tradestrike'
 redirect_from: 
-developerName: TradestrikeBVI
+developerName: 'TradestrikeBVI'
 features: 
 
 ---

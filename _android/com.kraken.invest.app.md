@@ -1,39 +1,38 @@
 ---
-wsId: krakenInvest
+wsId: 'krakenInvest'
 title: 'Kraken: Buy Crypto & Bitcoin'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000000
-appId: com.kraken.invest.app
+appId: 'com.kraken.invest.app'
 appCountry: 
-released: 2020-12-30
+released: '2020-12-30'
 updated: 2025-02-11
-version: 3.2.0
+version: '3.2.0'
 stars: 4.1
 ratings: 15716
-reviews: 4494
-size: 
-website: https://www.kraken.com
+reviews: 4501
+website: 'https://www.kraken.com'
 repository: 
 issue: 
-icon: com.kraken.invest.app.png
+icon: 'com.kraken.invest.app.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-08-21
+date: '2021-08-21'
 signer: 
 reviewArchive: 
-twitter: krakenfx
+twitter: 'krakenfx'
 social:
-- https://www.linkedin.com/company/krakenfx
-- https://www.facebook.com/KrakenFX
-- https://www.reddit.com/r/Kraken
+- 'https://www.linkedin.com/company/krakenfx'
+- 'https://www.facebook.com/KrakenFX'
+- 'https://www.reddit.com/r/Kraken'
 redirect_from: 
-developerName: Payward, Inc.
+developerName: 'Payward, Inc.'
 features:
-- ln
+- 'ln'
 
 ---
 

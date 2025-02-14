@@ -3,9 +3,9 @@ title: Thingyfy.io NXT Crypto Ring
 appId: thingyfy.nxtringcrypto
 authors:
 - danny
-released: 2019-05-22
+released: '2019-05-22'
 discontinued: 
-updated: 2020-08-26
+updated: '2020-08-26'
 version: 
 binaries: 
 dimensions: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: defunct
 verdict: wip
 appHashes: 
-date: 2022-05-10
+date: '2022-05-10'
 signer: 
 reviewArchive: 
 twitter: 

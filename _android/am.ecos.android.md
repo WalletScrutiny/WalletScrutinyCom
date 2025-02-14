@@ -1,35 +1,34 @@
 ---
-wsId: ECOS
+wsId: 'ECOS'
 title: 'ECOS: Bitcoin & Crypto Mining'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: am.ecos.android
-appCountry: us
-released: 2020-09-22
+appId: 'am.ecos.android'
+appCountry: 'us'
+released: '2020-09-22'
 updated: 2025-01-05
-version: 2.1.4
+version: '2.1.4'
 stars: 2
 ratings: 377
 reviews: 189
-size: 
-website: https://ecos.am
+website: 'https://ecos.am'
 repository: 
 issue: 
-icon: am.ecos.android.png
+icon: 'am.ecos.android.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-10-07
+date: '2021-10-07'
 signer: 
 reviewArchive: 
-twitter: ecosmining
+twitter: 'ecosmining'
 social:
-- https://www.facebook.com/ecosdefi
+- 'https://www.facebook.com/ecosdefi'
 redirect_from: 
-developerName: ECOS CJSC
+developerName: 'ECOS CJSC'
 features: 
 
 ---

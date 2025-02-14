@@ -7,9 +7,9 @@ authors:
 appId: com.wirex
 appCountry: us
 idd: 1090004654
-released: 2016-03-22
-updated: 2025-01-30
-version: 4.7.1
+released: '2016-03-22'
+updated: '2025-01-30'
+version: '4.7.1'
 stars: 3.7
 reviews: 749
 size: '208765952'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2022-01-10
+date: '2022-01-10'
 signer: 
 reviewArchive: 
 twitter: wirexapp

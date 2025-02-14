@@ -1,34 +1,34 @@
 ---
-wsId: SmartWallet
-title: SmartWallet
+wsId: 'SmartWallet'
+title: 'SmartWallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: br.com.coinbr.smartwallet
-appCountry: us
-released: 2017-11-03
-updated: 2021-10-29
-version: 2.0.28
+appId: 'br.com.coinbr.smartwallet'
+appCountry: 'us'
+released: '2017-11-03'
+updated: '2021-10-29'
+version: '2.0.28'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://stratum.hk
+website: 'https://stratum.hk'
 repository: 
 issue: 
-icon: br.com.coinbr.smartwallet.png
+icon: 'br.com.coinbr.smartwallet.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-03-21
+date: '2023-03-21'
 signer: 
 reviewArchive: 
-twitter: stratumhk
+twitter: 'stratumhk'
 social:
-- https://www.linkedin.com/company/stratumbr
-- https://www.facebook.com/stratum.hk
+- 'https://www.linkedin.com/company/stratumbr'
+- 'https://www.facebook.com/stratum.hk'
 redirect_from: 
 developerName: 
 features: 

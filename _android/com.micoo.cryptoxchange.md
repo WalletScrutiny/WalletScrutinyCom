@@ -1,13 +1,13 @@
 ---
 wsId: 
-title: CX Services
+title: 'CX Services'
 altTitle: 
 authors: 
 users: 500
-appId: com.micoo.cryptoxchange
+appId: 'com.micoo.cryptoxchange'
 appCountry: 
-released: 2017-04-03
-updated: 2019-10-03
+released: '2017-04-03'
+updated: '2019-10-03'
 version: '1.9'
 stars: 4.4
 ratings: 
@@ -16,18 +16,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.micoo.cryptoxchange.png
+icon: 'com.micoo.cryptoxchange.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-04-19
+date: '2024-04-19'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Micoo
+developerName: 'Micoo'
 features: 
 
 ---

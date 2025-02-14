@@ -1,35 +1,35 @@
 ---
-wsId: vegaWallet
-title: VegaWallet
+wsId: 'vegaWallet'
+title: 'VegaWallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.vegawallet.in
-appCountry: us
-released: 2018-12-19
-updated: 2020-07-02
-version: 3.2.3
+appId: 'com.vegawallet.in'
+appCountry: 'us'
+released: '2018-12-19'
+updated: '2020-07-02'
+version: '3.2.3'
 stars: 3.8
 ratings: 23
 reviews: 5
 size: 
-website: http://www.VegaWallet.com
+website: 'http://www.VegaWallet.com'
 repository: 
 issue: 
-icon: com.vegawallet.in.png
+icon: 'com.vegawallet.in.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
-twitter: vegawallet
+twitter: 'vegawallet'
 social:
-- https://www.facebook.com/VegaWallet
+- 'https://www.facebook.com/VegaWallet'
 redirect_from: 
-developerName: Vegawallet
+developerName: 'Vegawallet'
 features: 
 
 ---

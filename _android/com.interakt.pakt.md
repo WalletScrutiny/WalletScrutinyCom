@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: Pakt Wallet
+title: 'Pakt Wallet'
 altTitle: 
 authors: 
 users: 50
-appId: com.interakt.pakt
+appId: 'com.interakt.pakt'
 appCountry: 
-released: 2020-01-20
-updated: 2020-01-22
-version: 0.0.2
+released: '2020-01-20'
+updated: '2020-01-22'
+version: '0.0.2'
 stars: 
 ratings: 
 reviews: 
@@ -16,18 +16,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.interakt.pakt.png
+icon: 'com.interakt.pakt.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-04-19
+date: '2024-04-19'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Interakt India
+developerName: 'Interakt India'
 features: 
 
 ---

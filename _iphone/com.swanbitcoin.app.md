@@ -7,9 +7,9 @@ authors:
 appId: com.swanbitcoin.app
 appCountry: us
 idd: '1576287352'
-released: 2022-08-25
-updated: 2025-02-07
-version: 1.9.34
+released: '2022-08-25'
+updated: '2025-02-07'
+version: '1.9.34'
 stars: 4.8
 reviews: 2840
 size: '136306688'
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: 2023-07-17
+date: '2023-07-17'
 signer: 
 reviewArchive: 
 twitter: swan

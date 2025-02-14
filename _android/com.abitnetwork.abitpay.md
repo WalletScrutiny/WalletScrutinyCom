@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: ABiTPay
+title: 'ABiTPay'
 altTitle: 
 authors: 
 users: 5000
-appId: com.abitnetwork.abitpay
+appId: 'com.abitnetwork.abitpay'
 appCountry: 
-released: 2021-06-18
-updated: 2021-10-09
-version: 1.2.6
+released: '2021-06-18'
+updated: '2021-10-09'
+version: '1.2.6'
 stars: 4.4
 ratings: 
 reviews: 3
@@ -16,12 +16,12 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.abitnetwork.abitpay.png
+icon: 'com.abitnetwork.abitpay.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2023-04-20
+date: '2023-04-20'
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,37 +1,37 @@
 ---
-wsId: funexCrypto
+wsId: 'funexCrypto'
 title: 'Funex: Crypto & Bitcoin Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.funex.coin
+appId: 'com.funex.coin'
 appCountry: 
-released: 2022-02-18
-updated: 2024-08-30
-version: 1.0.32
+released: '2022-02-18'
+updated: '2024-08-30'
+version: '1.0.32'
 stars: 3.7
 ratings: 
 reviews: 
 size: 
-website: https://funexcoin.com/
+website: 'https://funexcoin.com/'
 repository: 
 issue: 
-icon: com.funex.coin.png
+icon: 'com.funex.coin.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-10-23
+date: '2024-10-23'
 signer: 
 reviewArchive: 
-twitter: Funexclub
+twitter: 'Funexclub'
 social:
-- https://www.facebook.com/officialfunexcoin
-- https://t.me/Funex_official
-- https://www.youtube.com/c/FunexClub
+- 'https://www.facebook.com/officialfunexcoin'
+- 'https://t.me/Funex_official'
+- 'https://www.youtube.com/c/FunexClub'
 redirect_from: 
-developerName: Funex Coin
+developerName: 'Funex Coin'
 features: 
 
 ---

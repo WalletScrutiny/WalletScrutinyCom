@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: noita
 appHashes: 
-date: 2023-11-15
+date: '2023-11-15'
 signer: 
 reviewArchive: 
 twitter: cryptnox

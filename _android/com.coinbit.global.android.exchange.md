@@ -1,28 +1,28 @@
 ---
 wsId: 
-title: 코인빗 - 비트코인 거래소 (이더리움,비트코인캐시)
+title: '코인빗 - 비트코인 거래소 (이더리움,비트코인캐시)'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.coinbit.global.android.exchange
+appId: 'com.coinbit.global.android.exchange'
 appCountry: 
-released: 2019-08-12
-updated: 2021-05-11
-version: 2.4.03
+released: '2019-08-12'
+updated: '2021-05-11'
+version: '2.4.03'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.coinbit.co.kr/
+website: 'https://www.coinbit.co.kr/'
 repository: 
 issue: 
-icon: com.coinbit.global.android.exchange.png
+icon: 'com.coinbit.global.android.exchange.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
 twitter: 

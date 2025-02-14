@@ -1,41 +1,40 @@
 ---
-wsId: WalletofSatoshi
-title: Wallet of Satoshi
+wsId: 'WalletofSatoshi'
+title: 'Wallet of Satoshi'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 500000
-appId: com.livingroomofsatoshi.wallet
+appId: 'com.livingroomofsatoshi.wallet'
 appCountry: 
-released: 2019-05-19
+released: '2019-05-19'
 updated: 2025-01-30
-version: 2.7.5
+version: '2.7.5'
 stars: 3.9
 ratings: 758
 reviews: 211
-size: 
-website: http://www.walletofsatoshi.com
+website: 'http://www.walletofsatoshi.com'
 repository: 
 issue: 
-icon: com.livingroomofsatoshi.wallet.png
+icon: 'com.livingroomofsatoshi.wallet.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-05-25
+date: '2021-05-25'
 signer: 
 reviewArchive: 
-twitter: walletofsatoshi
+twitter: 'walletofsatoshi'
 social:
-- https://www.facebook.com/walletofsatoshi
+- 'https://www.facebook.com/walletofsatoshi'
 redirect_from:
-- /walletofsatoshi/
-- /com.livingroomofsatoshi.wallet/
-- /posts/2019/12/walletofsatoshi/
-- /posts/com.livingroomofsatoshi.wallet/
-developerName: Wallet of Satoshi
+- '/walletofsatoshi/'
+- '/com.livingroomofsatoshi.wallet/'
+- '/posts/2019/12/walletofsatoshi/'
+- '/posts/com.livingroomofsatoshi.wallet/'
+developerName: 'Wallet of Satoshi'
 features:
-- ln
+- 'ln'
 
 ---
 

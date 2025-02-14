@@ -7,8 +7,8 @@ authors:
 appId: org.narkasa
 appCountry: us
 idd: '1530697327'
-released: 2020-11-14
-updated: 2021-04-11
+released: '2020-11-14'
+updated: '2021-04-11'
 version: '1.27'
 stars: 0
 reviews: 0
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-10-19
+date: '2024-10-19'
 signer: 
 reviewArchive: 
 twitter: narkasacom

@@ -1,35 +1,34 @@
 ---
-wsId: flitaa
+wsId: 'flitaa'
 title: 'Flitaa: your crypto wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.flitaa.app
-appCountry: ng
-released: 2021-05-15
+appId: 'com.flitaa.app'
+appCountry: 'ng'
+released: '2021-05-15'
 updated: 2024-09-19
-version: 1.41.1
+version: '1.41.1'
 stars: 2
 ratings: 428
 reviews: 535
-size: 
-website: https://flitaa.com
+website: 'https://flitaa.com'
 repository: 
 issue: 
-icon: com.flitaa.app.png
+icon: 'com.flitaa.app.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-11-03
+date: '2021-11-03'
 signer: 
 reviewArchive: 
-twitter: getflitaa
+twitter: 'getflitaa'
 social:
-- https://www.facebook.com/getflitaa
+- 'https://www.facebook.com/getflitaa'
 redirect_from: 
-developerName: FLITBASE Apps
+developerName: 'FLITBASE Apps'
 features: 
 
 ---

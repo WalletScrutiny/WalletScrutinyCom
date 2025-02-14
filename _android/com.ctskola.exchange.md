@@ -1,37 +1,37 @@
 ---
 wsId: 
-title: CTSKOLA EXCHANGE
+title: 'CTSKOLA EXCHANGE'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.ctskola.exchange
+appId: 'com.ctskola.exchange'
 appCountry: 
-released: 2022-05-25
-updated: 2022-05-25
+released: '2022-05-25'
+updated: '2022-05-25'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://ctskola.com
+website: 'https://ctskola.com'
 repository: 
 issue: 
-icon: com.ctskola.exchange.png
+icon: 'com.ctskola.exchange.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-09-04
+date: '2023-09-04'
 signer: 
 reviewArchive: 
-twitter: CtsKola
+twitter: 'CtsKola'
 social:
-- https://t.me/+ubgDH4F2B-ZiMDVl
-- https://www.facebook.com/CTSKOLA
-- https://www.instagram.com/ctskola
+- 'https://t.me/+ubgDH4F2B-ZiMDVl'
+- 'https://www.facebook.com/CTSKOLA'
+- 'https://www.instagram.com/ctskola'
 redirect_from: 
-developerName: CTSKOLA
+developerName: 'CTSKOLA'
 features: 
 
 ---

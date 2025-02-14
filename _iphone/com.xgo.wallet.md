@@ -7,9 +7,9 @@ authors:
 appId: com.xgo.wallet
 appCountry: bg
 idd: '1630753422'
-released: 2022-11-03
-updated: 2023-12-22
-version: 1.15.0
+released: '2022-11-03'
+updated: '2023-12-22'
+version: '1.15.0'
 stars: 0
 reviews: 0
 size: '154301440'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-02-05
+date: '2024-02-05'
 signer: 
 reviewArchive: 
 twitter: XGo_official

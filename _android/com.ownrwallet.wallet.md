@@ -1,43 +1,42 @@
 ---
-wsId: ownrDigitalWallet
-title: OWNR Digital Wallet
+wsId: 'ownrDigitalWallet'
+title: 'OWNR Digital Wallet'
 altTitle: 
 authors:
-- leo
-- danny
+- 'leo'
+- 'danny'
 users: 100000
-appId: com.ownrwallet.wallet
+appId: 'com.ownrwallet.wallet'
 appCountry: 
-released: 2019-05-20
+released: '2019-05-20'
 updated: 2023-09-20
-version: 1.72.0
+version: '1.72.0'
 stars: 4
 ratings: 2072
 reviews: 112
-size: 
-website: https://ownrwallet.com
+website: 'https://ownrwallet.com'
 repository: 
 issue: 
-icon: com.ownrwallet.wallet.png
+icon: 'com.ownrwallet.wallet.png'
 bugbounty: 
-meta: stale
-verdict: nosource
+meta: 'stale'
+verdict: 'nosource'
 appHashes: 
-date: 2024-09-14
+date: '2024-09-14'
 signer: 
 reviewArchive:
-- date: 2020-12-01
-  version: 1.10.1
+- date: '2020-12-01'
+  version: '1.10.1'
   appHashes: []
-  gitRevision: 8af53e3cbda241989d723aaebf71781579e70c3b
-  verdict: custodial
-twitter: ownrwallet
+  gitRevision: '8af53e3cbda241989d723aaebf71781579e70c3b'
+  verdict: 'custodial'
+twitter: 'ownrwallet'
 social:
-- https://www.facebook.com/ownrwallet
-- https://www.reddit.com/r/ownrwallet
+- 'https://www.facebook.com/ownrwallet'
+- 'https://www.reddit.com/r/ownrwallet'
 redirect_from:
-- /com.ownrwallet.wallet/
-developerName: OWNR WALLET OU
+- '/com.ownrwallet.wallet/'
+developerName: 'OWNR WALLET OU'
 features: 
 
 ---

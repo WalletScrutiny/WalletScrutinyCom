@@ -1,15 +1,15 @@
 ---
-wsId: zbProExchange
+wsId: 'zbProExchange'
 title: 'ZB Pro: Buy BTC, ETH, Doge'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.zbpro.global
+appId: 'com.zbpro.global'
 appCountry: 
-released: 2022-08-30
-updated: 2022-10-30
-version: 1.4.0.1582
+released: '2022-08-30'
+updated: '2022-10-30'
+version: '1.4.0.1582'
 stars: 
 ratings: 
 reviews: 
@@ -17,24 +17,24 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.zbpro.global.png
+icon: 'com.zbpro.global.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-09-28
+date: '2023-09-28'
 signer: 
 reviewArchive: 
-twitter: ZBexchange
+twitter: 'ZBexchange'
 social:
-- https://zb.com
-- https://t.me/ZB_English
-- https://www.facebook.com/ZBexchange
-- https://zbhk.medium.com
-- https://www.reddit.com/r/ZBExchange
-- https://www.instagram.com/zb_exchange
+- 'https://zb.com'
+- 'https://t.me/ZB_English'
+- 'https://www.facebook.com/ZBexchange'
+- 'https://zbhk.medium.com'
+- 'https://www.reddit.com/r/ZBExchange'
+- 'https://www.instagram.com/zb_exchange'
 redirect_from: 
-developerName: ZB GLOBAL COMPANY
+developerName: 'ZB GLOBAL COMPANY'
 features: 
 
 ---

@@ -7,8 +7,8 @@ authors:
 appId: com.strikeXWallet
 appCountry: gb
 idd: '6443517613'
-released: 2022-10-21
-updated: 2024-10-09
+released: '2022-10-21'
+updated: '2024-10-09'
 version: '20.02'
 stars: 4.8
 reviews: 231
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: 2023-06-30
+date: '2023-06-30'
 signer: 
 reviewArchive: 
 twitter: TradeStrikeBVI

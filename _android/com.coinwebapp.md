@@ -1,36 +1,35 @@
 ---
-wsId: coinWebApp
-title: Coinweb Wallet
+wsId: 'coinWebApp'
+title: 'Coinweb Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.coinwebapp
+appId: 'com.coinwebapp'
 appCountry: 
-released: 2023-04-28
+released: '2023-04-28'
 updated: 2024-11-29
-version: 1.1.1
+version: '1.1.1'
 stars: 4.2
 ratings: 
 reviews: 3
-size: 
-website: https://coinweb.io
+website: 'https://coinweb.io'
 repository: 
 issue: 
-icon: com.coinwebapp.png
+icon: 'com.coinwebapp.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-04-10
+date: '2024-04-10'
 signer: 
 reviewArchive: 
-twitter: CoinwebOfficial
+twitter: 'CoinwebOfficial'
 social:
-- http://t.me/coinweb
-- https://discord.com/invite/cWSQD3wJqY
+- 'http://t.me/coinweb'
+- 'https://discord.com/invite/cWSQD3wJqY'
 redirect_from: 
-developerName: Coinweb
+developerName: 'Coinweb'
 features: 
 
 ---

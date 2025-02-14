@@ -1,33 +1,33 @@
 ---
-wsId: MobiWallet
-title: Mobi - Crypto Asset Wallet
+wsId: 'MobiWallet'
+title: 'Mobi - Crypto Asset Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.btcc.mobiwallet
-appCountry: au
-released: 2019-03-28
-updated: 2021-05-20
-version: 2.32.2
+appId: 'com.btcc.mobiwallet'
+appCountry: 'au'
+released: '2019-03-28'
+updated: '2021-05-20'
+version: '2.32.2'
 stars: 3.6
 ratings: 27
 reviews: 19
-size: 14M
-website: https://www.mobi.me/
+size: '14M'
+website: 'https://www.mobi.me/'
 repository: 
 issue: 
-icon: com.btcc.mobiwallet.png
+icon: 'com.btcc.mobiwallet.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2021-12-22
+date: '2021-12-22'
 signer: 
 reviewArchive: 
-twitter: mobimeglobal
+twitter: 'mobimeglobal'
 social:
-- https://www.facebook.com/mobimeglobal
+- 'https://www.facebook.com/mobimeglobal'
 redirect_from: 
 developerName: 
 features: 

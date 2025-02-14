@@ -3,9 +3,9 @@ title: Bowser DIY Hardware Wallet
 appId: bowser
 authors:
 - danny
-released: 2020-06-07
+released: '2020-06-07'
 discontinued: 
-updated: 2021-05-11
+updated: '2021-05-11'
 version: '1'
 binaries: 
 dimensions: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: diy
 appHashes: 
-date: 2022-04-11
+date: '2022-04-11'
 signer: 
 reviewArchive: 
 twitter: arcbtc

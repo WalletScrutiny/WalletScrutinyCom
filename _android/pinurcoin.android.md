@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: PinUrCoin Cryptocurrency Exchange and Wallet
+title: 'PinUrCoin Cryptocurrency Exchange and Wallet'
 altTitle: 
 authors: 
 users: 100
-appId: pinurcoin.android
+appId: 'pinurcoin.android'
 appCountry: 
-released: 2018-03-08
-updated: 2018-03-09
+released: '2018-03-08'
+updated: '2018-03-09'
 version: '1.1'
 stars: 5
 ratings: 16
 reviews: 13
-size: 4.1M
+size: '4.1M'
 website: 
 repository: 
 issue: 
-icon: pinurcoin.android.png
+icon: 'pinurcoin.android.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-10-15
+date: '2021-10-15'
 signer: 
 reviewArchive: 
 twitter: 

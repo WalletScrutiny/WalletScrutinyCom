@@ -1,37 +1,36 @@
 ---
-wsId: lykkex
+wsId: 'lykkex'
 title: 'Lykke: Buy. Sell. Invest.'
 altTitle: 
 authors:
-- leo
+- 'leo'
 users: 50000
-appId: com.lykkex.LykkeWallet
-appCountry: de
-released: 2016-08-25
+appId: 'com.lykkex.LykkeWallet'
+appCountry: 'de'
+released: '2016-08-25'
 updated: 2024-04-21
-version: 13.1.1
+version: '13.1.1'
 stars: 3.9
 ratings: 581
 reviews: 18
-size: 
-website: https://lykke.com
+website: 'https://lykke.com'
 repository: 
 issue: 
-icon: com.lykkex.LykkeWallet.png
+icon: 'com.lykkex.LykkeWallet.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-03-09
+date: '2021-03-09'
 signer: 
 reviewArchive: 
-twitter: Lykke
+twitter: 'Lykke'
 social:
-- https://www.linkedin.com/company/lykke
-- https://www.facebook.com/LykkeCity
-- https://www.reddit.com/r/lykke
+- 'https://www.linkedin.com/company/lykke'
+- 'https://www.facebook.com/LykkeCity'
+- 'https://www.reddit.com/r/lykke'
 redirect_from: 
-developerName: Lykke
+developerName: 'Lykke'
 features: 
 
 ---

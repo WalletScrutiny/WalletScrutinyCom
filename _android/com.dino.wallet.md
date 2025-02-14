@@ -1,28 +1,28 @@
 ---
 wsId: 
-title: Dino Wallet
+title: 'Dino Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.dino.wallet
+appId: 'com.dino.wallet'
 appCountry: 
-released: 2021-05-30
-updated: 2021-08-28
+released: '2021-05-30'
+updated: '2021-08-28'
 version: '1.26'
 stars: 4.9
 ratings: 1593
 reviews: 47
 size: 
-website: https://dinowallet.com
+website: 'https://dinowallet.com'
 repository: 
 issue: 
-icon: com.dino.wallet.png
+icon: 'com.dino.wallet.png'
 bugbounty: 
-meta: removed
-verdict: nobtc
+meta: 'removed'
+verdict: 'nobtc'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
 twitter: 

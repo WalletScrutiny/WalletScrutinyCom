@@ -3,9 +3,9 @@ title: Zeokku Teensy 2.0 DIY Hardware Wallet
 appId: zeokku.teensy2.diy
 authors:
 - danny
-released: 2022-02-14
+released: '2022-02-14'
 discontinued: 
-updated: 2022-02-28
+updated: '2022-02-28'
 version: 
 binaries: 
 dimensions:
@@ -26,7 +26,7 @@ bugbounty:
 meta: ok
 verdict: diy
 appHashes: 
-date: 2022-05-21
+date: '2022-05-21'
 signer: 
 reviewArchive: 
 twitter: zeokku

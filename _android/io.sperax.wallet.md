@@ -1,31 +1,31 @@
 ---
-wsId: speraxPlaywallet
-title: Play Wallet
+wsId: 'speraxPlaywallet'
+title: 'Play Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: io.sperax.wallet
+appId: 'io.sperax.wallet'
 appCountry: 
-released: 2021-02-11
-updated: 2022-03-30
-version: 1.6.1
+released: '2021-02-11'
+updated: '2022-03-30'
+version: '1.6.1'
 stars: 3.3
 ratings: 
 reviews: 366
 size: 
-website: https://app.sperax.io/
+website: 'https://app.sperax.io/'
 repository: 
 issue: 
-icon: io.sperax.wallet.png
+icon: 'io.sperax.wallet.png'
 bugbounty: 
-meta: removed
-verdict: nobtc
+meta: 'removed'
+verdict: 'nobtc'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
-twitter: SperaxUSD
+twitter: 'SperaxUSD'
 social: 
 redirect_from: 
 developerName: 

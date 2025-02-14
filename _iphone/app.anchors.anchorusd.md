@@ -1,33 +1,33 @@
 ---
-wsId: AnchorUSD
-title: Anchor - Buy Bitcoin and Ether
+wsId: 'AnchorUSD'
+title: 'Anchor - Buy Bitcoin and Ether'
 altTitle: 
 authors:
-- danny
-appId: app.anchors.anchorusd
-appCountry: us
-idd: 1495986023
-released: 2020-01-30
+- 'danny'
+appId: 'app.anchors.anchorusd'
+appCountry: 'us'
+idd: '1495986023'
+released: '2020-01-30'
 updated: 2025-01-15
-version: 1.20.19
-stars: 4.3
+version: '1.20.19'
+stars: 4.31351
 reviews: 5298
 size: '84964352'
-website: https://www.tryanchor.com/
+website: 'https://www.tryanchor.com/'
 repository: 
 issue: 
-icon: app.anchors.anchorusd.jpg
+icon: 'app.anchors.anchorusd.jpg'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-10-01
+date: '2021-10-01'
 signer: 
 reviewArchive: 
-twitter: anchorusd
+twitter: 'anchorusd'
 social: 
 features: 
-developerName: Anchor US LLC
+developerName: 'Anchor US LLC'
 
 ---
 

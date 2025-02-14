@@ -7,9 +7,9 @@ authors:
 appId: com.xchange.mchange
 appCountry: us
 idd: '1528398340'
-released: 2020-08-25
-updated: 2022-12-29
-version: 1.0.3
+released: '2020-08-25'
+updated: '2022-12-29'
+version: '1.0.3'
 stars: 0
 reviews: 0
 size: '82907136'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-01-15
+date: '2025-01-15'
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,35 +1,34 @@
 ---
-wsId: spednByFlexa
-title: SPEDN by Flexa
+wsId: 'spednByFlexa'
+title: 'SPEDN by Flexa'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.spedn.spedn
+appId: 'com.spedn.spedn'
 appCountry: 
-released: 2021-05-26
+released: '2021-05-26'
 updated: 2023-11-22
-version: 23.11.1
+version: '23.11.1'
 stars: 3.2
 ratings: 
 reviews: 116
-size: 
-website: https://spedn.io
+website: 'https://spedn.io'
 repository: 
 issue: 
-icon: com.spedn.spedn.png
+icon: 'com.spedn.spedn.png'
 bugbounty: 
-meta: stale
-verdict: nosendreceive
+meta: 'stale'
+verdict: 'nosendreceive'
 appHashes: 
-date: 2024-11-19
+date: '2024-11-19'
 signer: 
 reviewArchive: 
-twitter: FlexaHQ
+twitter: 'FlexaHQ'
 social:
-- https://www.facebook.com/flexa
+- 'https://www.facebook.com/flexa'
 redirect_from: 
-developerName: Flexa
+developerName: 'Flexa'
 features: 
 
 ---

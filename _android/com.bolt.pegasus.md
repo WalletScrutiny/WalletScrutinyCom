@@ -3,34 +3,34 @@ wsId:
 title: 'BoltX: NFT & Crypto Wallet'
 altTitle: 
 authors:
-- kiwilamb
+- 'kiwilamb'
 users: 10000
-appId: com.bolt.pegasus
+appId: 'com.bolt.pegasus'
 appCountry: 
-released: 2019-08-26
-updated: 2023-07-20
-version: 1.23.1
+released: '2019-08-26'
+updated: '2023-07-20'
+version: '1.23.1'
 stars: 3.5
 ratings: 365
 reviews: 21
 size: 
-website: https://bolt.global/
+website: 'https://bolt.global/'
 repository: 
 issue: 
-icon: com.bolt.pegasus.png
+icon: 'com.bolt.pegasus.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-10-31
+date: '2024-10-31'
 signer: 
 reviewArchive: 
-twitter: bolt_global
+twitter: 'bolt_global'
 social:
-- https://www.linkedin.com/company/bolt-global
-- https://www.facebook.com/Global.Bolt
+- 'https://www.linkedin.com/company/bolt-global'
+- 'https://www.facebook.com/Global.Bolt'
 redirect_from: 
-developerName: Bolt Global
+developerName: 'Bolt Global'
 features: 
 
 ---

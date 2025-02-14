@@ -3,9 +3,9 @@ title: Jake-B Pi Zero DIY Hardware Wallet
 appId: jakeb.pizero.diy
 authors:
 - danny
-released: 2017-07-20
+released: '2017-07-20'
 discontinued: 
-updated: 2017-07-24
+updated: '2017-07-24'
 version: 
 binaries: 
 dimensions:
@@ -26,7 +26,7 @@ bugbounty:
 meta: defunct
 verdict: diy
 appHashes: 
-date: 2022-05-26
+date: '2022-05-26'
 signer: 
 reviewArchive: 
 twitter: allaboutjake

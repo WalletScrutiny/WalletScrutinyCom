@@ -1,38 +1,36 @@
 ---
-wsId: relaiBuyBitcoin
+wsId: 'relaiBuyBitcoin'
 title: 'Relai: Buy Bitcoin Easily'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.relai
+appId: 'com.relai'
 appCountry: 
-released: 
-updated: 2025-02-10
-version: 2.10.9
+updated: 2025-02-13
+version: '2.10.10'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://relai.app
+website: 'https://relai.app'
 repository: 
 issue: 
-icon: com.relai.png
+icon: 'com.relai.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-24
+date: '2024-07-24'
 signer: 
 reviewArchive: 
-twitter: Relai_app
+twitter: 'Relai_app'
 social:
-- https://www.linkedin.com/company/relai-app
-- https://www.youtube.com/channel/UCBtN1U9Aa7KgQeS_gJicUBw
-- https://t.me/relai_en
-- https://www.instagram.com/relai.app
+- 'https://www.linkedin.com/company/relai-app'
+- 'https://www.youtube.com/channel/UCBtN1U9Aa7KgQeS_gJicUBw'
+- 'https://t.me/relai_en'
+- 'https://www.instagram.com/relai.app'
 redirect_from: 
-developerName: Relai
+developerName: 'Relai'
 features: 
 
 ---

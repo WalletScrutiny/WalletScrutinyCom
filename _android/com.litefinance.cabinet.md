@@ -1,33 +1,32 @@
 ---
-wsId: litefinance
-title: LiteFinance mobile trading
+wsId: 'litefinance'
+title: 'LiteFinance mobile trading'
 altTitle: 
 authors: 
 users: 500000
-appId: com.litefinance.cabinet
+appId: 'com.litefinance.cabinet'
 appCountry: 
-released: 2022-02-09
+released: '2022-02-09'
 updated: 2025-01-22
-version: v1.2.8.1981-cabinet-legacy-release
+version: 'v1.2.8.1981-cabinet-legacy-release'
 stars: 4.4
 ratings: 
 reviews: 52
-size: 
-website: https://www.liteforex.eu
+website: 'https://www.liteforex.eu'
 repository: 
 issue: 
-icon: com.litefinance.cabinet.jpg
+icon: 'com.litefinance.cabinet.jpg'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-02-10
+date: '2023-02-10'
 signer: 
 reviewArchive: 
-twitter: litefinanceeng
+twitter: 'litefinanceeng'
 social: 
 redirect_from: 
-developerName: LITEFOREX (EUROPE) LTD
+developerName: 'LITEFOREX (EUROPE) LTD'
 features: 
 
 ---

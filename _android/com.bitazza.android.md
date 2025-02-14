@@ -1,36 +1,35 @@
 ---
-wsId: bitazza
+wsId: 'bitazza'
 title: 'Bitazza TH: Crypto Exchange'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 500000
-appId: com.bitazza.android
-appCountry: th
-released: 2020-09-29
+appId: 'com.bitazza.android'
+appCountry: 'th'
+released: '2020-09-29'
 updated: 2025-02-01
-version: 4.2.3
+version: '4.2.3'
 stars: 4.7
 ratings: 5028
 reviews: 2309
-size: 
-website: http://bitazza.com/
+website: 'http://bitazza.com/'
 repository: 
 issue: 
-icon: com.bitazza.android.png
+icon: 'com.bitazza.android.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-09-03
+date: '2021-09-03'
 signer: 
 reviewArchive: 
-twitter: bitazzaofficial
+twitter: 'bitazzaofficial'
 social:
-- https://www.linkedin.com/company/bitazza
-- https://www.facebook.com/bitazza
+- 'https://www.linkedin.com/company/bitazza'
+- 'https://www.facebook.com/bitazza'
 redirect_from: 
-developerName: Bitazza Company Limited
+developerName: 'Bitazza Company Limited'
 features: 
 
 ---

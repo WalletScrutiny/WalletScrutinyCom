@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: 스포와이드
+title: '스포와이드'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.spowide.www
+appId: 'com.spowide.www'
 appCountry: 
-released: 2019-10-17
-updated: 2020-01-30
-version: 1.0.4
+released: '2019-10-17'
+updated: '2020-01-30'
+version: '1.0.4'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: http://spowide.com
+website: 'http://spowide.com'
 repository: 
 issue: 
-icon: com.spowide.www.png
+icon: 'com.spowide.www.png'
 bugbounty: 
-meta: defunct
-verdict: wip
+meta: 'defunct'
+verdict: 'wip'
 appHashes: 
-date: 2023-05-03
+date: '2023-05-03'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: spowide
+developerName: 'spowide'
 features: 
 
 ---

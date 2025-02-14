@@ -1,39 +1,38 @@
 ---
-wsId: giddyCrypto
+wsId: 'giddyCrypto'
 title: 'Giddy: Secure Crypto Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.getdefiq.giddy
+appId: 'com.getdefiq.giddy'
 appCountry: 
-released: 2022-02-25
+released: '2022-02-25'
 updated: 2025-02-12
-version: 3.8.1
+version: '3.8.1'
 stars: 4.4
 ratings: 
 reviews: 125
-size: 
-website: https://giddy.co
+website: 'https://giddy.co'
 repository: 
 issue: 
-icon: com.getdefiq.giddy.png
+icon: 'com.getdefiq.giddy.png'
 bugbounty: 
-meta: ok
-verdict: nobtc
+meta: 'ok'
+verdict: 'nobtc'
 appHashes: 
-date: 2023-07-10
+date: '2023-07-10'
 signer: 
 reviewArchive: 
-twitter: giddydefi
+twitter: 'giddydefi'
 social:
-- https://www.linkedin.com/company/giddydefi
-- https://www.facebook.com/giddydefi
-- https://www.reddit.com/r/giddydefi
-- https://www.instagram.com/giddydefi
-- https://discord.com/invite/bzgJrY9T9M
-- https://www.tiktok.com/@giddydefi
-- https://web.telegram.org/k/#@giddydefi
+- 'https://www.linkedin.com/company/giddydefi'
+- 'https://www.facebook.com/giddydefi'
+- 'https://www.reddit.com/r/giddydefi'
+- 'https://www.instagram.com/giddydefi'
+- 'https://discord.com/invite/bzgJrY9T9M'
+- 'https://www.tiktok.com/@giddydefi'
+- 'https://web.telegram.org/k/#@giddydefi'
 redirect_from: 
 developerName: 'Giddy: Secure Crypto Wallet'
 features: 

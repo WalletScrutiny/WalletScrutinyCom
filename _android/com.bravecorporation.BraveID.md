@@ -1,37 +1,37 @@
 ---
-wsId: bravePay
+wsId: 'bravePay'
 title: 'BravePay: buy&pay with crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.bravecorporation.BraveID
+appId: 'com.bravecorporation.BraveID'
 appCountry: 
-released: 2022-05-11
-updated: 2023-11-28
-version: 1.0.22
+released: '2022-05-11'
+updated: '2023-11-28'
+version: '1.0.22'
 stars: 4.4
 ratings: 
 reviews: 6
 size: 
-website: https://www.bravepay.net/
+website: 'https://www.bravepay.net/'
 repository: 
 issue: 
-icon: com.bravecorporation.BraveID.png
+icon: 'com.bravecorporation.BraveID.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-11-22
+date: '2024-11-22'
 signer: 
 reviewArchive: 
-twitter: BraveCorporati1
+twitter: 'BraveCorporati1'
 social:
-- https://www.linkedin.com/company/brave-corporation
-- https://www.facebook.com/BraveCorporation
-- https://www.youtube.com/@bravepayofficial
+- 'https://www.linkedin.com/company/brave-corporation'
+- 'https://www.facebook.com/BraveCorporation'
+- 'https://www.youtube.com/@bravepayofficial'
 redirect_from: 
-developerName: BravePay
+developerName: 'BravePay'
 features: 
 
 ---

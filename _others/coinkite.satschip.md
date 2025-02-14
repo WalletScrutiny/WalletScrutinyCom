@@ -4,7 +4,7 @@ appId: coinkite.satschip
 authors:
 - danny
 icon: coinkite.satschip.png
-date: 2021-03-11
+date: '2021-03-11'
 website: https://satschip.com/
 twitter: satschip
 provider: Coinkite

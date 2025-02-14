@@ -1,39 +1,38 @@
 ---
 wsId: 
-title: P.CASH
+title: 'P.CASH'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: cash.p.terminal
+appId: 'cash.p.terminal'
 appCountry: 
-released: 2023-02-10
+released: '2023-02-10'
 updated: 2025-02-11
-version: 0.41.2
+version: '0.41.2'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://p.cash/
-repository: https://github.com/piratecash/pcash-wallet-android
+website: 'https://p.cash/'
+repository: 'https://github.com/piratecash/pcash-wallet-android'
 issue: 
-icon: cash.p.terminal.png
+icon: 'cash.p.terminal.png'
 bugbounty: 
-meta: ok
-verdict: nonverifiable
+meta: 'ok'
+verdict: 'nonverifiable'
 appHashes: 
-date: 2024-09-12
+date: '2024-09-12'
 signer: 
 reviewArchive: 
-twitter: PirateCash_NET
+twitter: 'PirateCash_NET'
 social:
-- https://www.facebook.com/PirateCash
-- https://discord.com/invite/cbTdqxx
-- https://bitcointalk.org/index.php?topic=5050988
-- https://www.reddit.com/r/PirateCash
-- https://t.me/PirateCash_ENG
+- 'https://www.facebook.com/PirateCash'
+- 'https://discord.com/invite/cbTdqxx'
+- 'https://bitcointalk.org/index.php?topic=5050988'
+- 'https://www.reddit.com/r/PirateCash'
+- 'https://t.me/PirateCash_ENG'
 redirect_from: 
-developerName: PirateCash and Cosanta foundation
+developerName: 'PirateCash and Cosanta foundation'
 features: 
 
 ---

@@ -1,36 +1,35 @@
 ---
 wsId: 
-title: BIT
+title: 'BIT'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.matrixport.bit
+appId: 'com.matrixport.bit'
 appCountry: 
-released: 2021-03-15
+released: '2021-03-15'
 updated: 2025-01-24
-version: 2.0.0
+version: '2.0.0'
 stars: 3.6
 ratings: 245
 reviews: 27
-size: 
-website: https://www.bit.com
+website: 'https://www.bit.com'
 repository: 
 issue: 
-icon: com.matrixport.bit.png
+icon: 'com.matrixport.bit.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-11-03
+date: '2021-11-03'
 signer: 
 reviewArchive: 
-twitter: bitcom_exchange
+twitter: 'bitcom_exchange'
 social:
-- https://www.linkedin.com/company/bitcom-exchange
-- https://www.facebook.com/bitcom.exchange
+- 'https://www.linkedin.com/company/bitcom-exchange'
+- 'https://www.facebook.com/bitcom.exchange'
 redirect_from: 
-developerName: BIT Technologies Holding Company
+developerName: 'BIT Technologies Holding Company'
 features: 
 
 ---

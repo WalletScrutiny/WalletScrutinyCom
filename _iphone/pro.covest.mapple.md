@@ -7,8 +7,8 @@ authors:
 appId: pro.covest.mapple
 appCountry: vn
 idd: '1627431920'
-released: 2022-07-15
-updated: 2022-07-15
+released: '2022-07-15'
+updated: '2022-07-15'
 version: '1.8'
 stars: 0
 reviews: 0
@@ -21,7 +21,7 @@ bugbounty:
 meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-07-05
+date: '2024-07-05'
 signer: 
 reviewArchive: 
 twitter: COVEST_Official

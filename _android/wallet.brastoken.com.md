@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: Brastoken
+title: 'Brastoken'
 altTitle: 
 authors: 
 users: 100
-appId: wallet.brastoken.com
+appId: 'wallet.brastoken.com'
 appCountry: 
-released: 2022-01-16
-updated: 2022-01-19
-version: 1.0.2
+released: '2022-01-16'
+updated: '2022-01-19'
+version: '1.0.2'
 stars: 4.8
 ratings: 
 reviews: 
 size: 
-website: https://brastoken.com/
+website: 'https://brastoken.com/'
 repository: 
 issue: 
-icon: wallet.brastoken.com.png
+icon: 'wallet.brastoken.com.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-04-26
+date: '2024-04-26'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: MKT Vendas
+developerName: 'MKT Vendas'
 features: 
 
 ---

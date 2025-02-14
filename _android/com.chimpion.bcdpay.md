@@ -1,37 +1,37 @@
 ---
 wsId: 
-title: BCD Pay
+title: 'BCD Pay'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.chimpion.bcdpay
+appId: 'com.chimpion.bcdpay'
 appCountry: 
-released: 2019-05-21
-updated: 2020-03-16
-version: 7.1.63
+released: '2019-05-21'
+updated: '2020-03-16'
+version: '7.1.63'
 stars: 4.2
 ratings: 186
 reviews: 13
 size: 
-website: https://www.chimpion.io/
+website: 'https://www.chimpion.io/'
 repository: 
 issue: 
-icon: com.chimpion.bcdpay.png
+icon: 'com.chimpion.bcdpay.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2024-05-07
+date: '2024-05-07'
 signer: 
 reviewArchive: 
-twitter: chimpionio
+twitter: 'chimpionio'
 social:
-- https://www.facebook.com/Chimpionio/
-- https://www.linkedin.com/company/chimpion/about/
-- https://www.instagram.com/chimpion.io/
+- 'https://www.facebook.com/Chimpionio/'
+- 'https://www.linkedin.com/company/chimpion/about/'
+- 'https://www.instagram.com/chimpion.io/'
 redirect_from: 
-developerName: Chimpion
+developerName: 'Chimpion'
 features: 
 
 ---

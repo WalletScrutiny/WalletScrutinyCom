@@ -1,39 +1,38 @@
 ---
-wsId: tomiPay
-title: tomi Wallet - Crypto Control
+wsId: 'tomiPay'
+title: 'tomi Wallet - Crypto Control'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.tomiapp.production
+appId: 'com.tomiapp.production'
 appCountry: 
-released: 2022-09-08
-updated: 2025-02-07
-version: '168.0'
+released: '2022-09-08'
+updated: 2025-02-13
+version: '170.0'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://tomi.com
+website: 'https://tomi.com'
 repository: 
 issue: 
-icon: com.tomiapp.production.png
+icon: 'com.tomiapp.production.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-24
+date: '2024-07-24'
 signer: 
 reviewArchive: 
-twitter: tomipioneers
+twitter: 'tomipioneers'
 social:
-- https://discord.com/invite/tomi
-- https://www.reddit.com/r/tomipioneers
-- https://t.me/tomipioneers
-- https://www.tiktok.com/@tominetwork
-- https://medium.com/tomipioneers
+- 'https://discord.com/invite/tomi'
+- 'https://www.reddit.com/r/tomipioneers'
+- 'https://t.me/tomipioneers'
+- 'https://www.tiktok.com/@tominetwork'
+- 'https://medium.com/tomipioneers'
 redirect_from: 
-developerName: tomi.com
+developerName: 'tomi.com'
 features: 
 
 ---

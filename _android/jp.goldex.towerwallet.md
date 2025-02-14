@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: Tower Wallet
+title: 'Tower Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: jp.goldex.towerwallet
+appId: 'jp.goldex.towerwallet'
 appCountry: 
-released: 2018-10-22
-updated: 2020-07-16
-version: 3.3.35
+released: '2018-10-22'
+updated: '2020-07-16'
+version: '3.3.35'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.goldex.jp/
+website: 'https://www.goldex.jp/'
 repository: 
 issue: 
-icon: jp.goldex.towerwallet.png
+icon: 'jp.goldex.towerwallet.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2023-09-04
+date: '2023-09-04'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: GOLDEX.,Inc.
+developerName: 'GOLDEX.,Inc.'
 features: 
 
 ---

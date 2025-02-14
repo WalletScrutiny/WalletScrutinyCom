@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: CryptoTab Browser Lite
+title: 'CryptoTab Browser Lite'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000000
-appId: lite.cryptotab.android
+appId: 'lite.cryptotab.android'
 appCountry: 
-released: 2021-06-16
+released: '2021-06-16'
 updated: 2025-01-17
-version: 6.2.30
-stars: 4.1
+version: '6.2.30'
+stars: 4
 ratings: 22930
-reviews: 1651
-size: 
-website: https://cryptocompany.site/
+reviews: 1655
+website: 'https://cryptocompany.site/'
 repository: 
 issue: 
-icon: lite.cryptotab.android.png
+icon: 'lite.cryptotab.android.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2021-08-21
+date: '2021-08-21'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: CryptoCompany OU
+developerName: 'CryptoCompany OU'
 features: 
 
 ---

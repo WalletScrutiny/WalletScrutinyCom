@@ -7,9 +7,9 @@ authors:
 appId: io.trustverse.mars
 appCountry: kr
 idd: '1567874624'
-released: 2021-08-10
-updated: 2022-11-24
-version: 2.0.1
+released: '2021-08-10'
+updated: '2022-11-24'
+version: '2.0.1'
 stars: 5
 reviews: 3
 size: '68384768'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-05-18
+date: '2024-05-18'
 signer: 
 reviewArchive: 
 twitter: TrustVerse

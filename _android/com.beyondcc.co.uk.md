@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: BeyondCC - Cryptocurrency Exch
+title: 'BeyondCC - Cryptocurrency Exch'
 altTitle: 
 authors: 
 users: 100
-appId: com.beyondcc.co.uk
+appId: 'com.beyondcc.co.uk'
 appCountry: 
-released: 2019-10-21
-updated: 2019-10-21
-version: 0.0.1
+released: '2019-10-21'
+updated: '2019-10-21'
+version: '0.0.1'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://beyondcc.co.uk
+website: 'https://beyondcc.co.uk'
 repository: 
 issue: 
-icon: com.beyondcc.co.uk.png
+icon: 'com.beyondcc.co.uk.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-03-02
+date: '2024-03-02'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: BeyondCC
+developerName: 'BeyondCC'
 features: 
 
 ---

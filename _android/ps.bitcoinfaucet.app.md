@@ -1,28 +1,28 @@
 ---
 wsId: 
-title: Bitcoin Faucet
+title: 'Bitcoin Faucet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: ps.bitcoinfaucet.app
+appId: 'ps.bitcoinfaucet.app'
 appCountry: 
-released: 2021-10-09
-updated: 2022-02-17
-version: 1.29b
+released: '2021-10-09'
+updated: '2022-02-17'
+version: '1.29b'
 stars: 4.5
 ratings: 
 reviews: 366
 size: 
-website: http://bitcoinfaucet.promo-miner.com/
+website: 'http://bitcoinfaucet.promo-miner.com/'
 repository: 
 issue: 
-icon: ps.bitcoinfaucet.app.png
+icon: 'ps.bitcoinfaucet.app.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2023-04-18
+date: '2023-04-18'
 signer: 
 reviewArchive: 
 twitter: 

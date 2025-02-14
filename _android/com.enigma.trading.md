@@ -4,24 +4,24 @@ title: 'BFX Standard: Crypto & Forex'
 altTitle: 
 authors: 
 users: 100
-appId: com.enigma.trading
+appId: 'com.enigma.trading'
 appCountry: 
-released: 2022-04-27
-updated: 2022-09-29
-version: 1.1.8
+released: '2022-04-27'
+updated: '2022-09-29'
+version: '1.1.8'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://bfxstandard.com/
+website: 'https://bfxstandard.com/'
 repository: 
 issue: 
-icon: com.enigma.trading.jpg
+icon: 'com.enigma.trading.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
 twitter: 

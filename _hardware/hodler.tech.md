@@ -3,9 +3,9 @@ title: Hodler Tech
 appId: hodler.tech
 authors:
 - danny
-released: 2018-09-29
+released: '2018-09-29'
 discontinued: 
-updated: 2019-10-29
+updated: '2019-10-29'
 version: 
 binaries: 
 dimensions: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: vapor
 appHashes: 
-date: 2022-04-11
+date: '2022-04-11'
 signer: 
 reviewArchive: 
 twitter: HODLER_TECH

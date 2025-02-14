@@ -1,36 +1,35 @@
 ---
-wsId: currencycominvesting
+wsId: 'currencycominvesting'
 title: 'Dzengi.com: Stock Investing'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.currency.exchange.investsmart
-appCountry: tm
-released: 2020-12-10
+appId: 'com.currency.exchange.investsmart'
+appCountry: 'tm'
+released: '2020-12-10'
 updated: 2024-12-10
-version: 1.42.11
+version: '1.42.11'
 stars: 4.1
 ratings: 216
 reviews: 186
-size: 
-website: https://dzengi.com/
+website: 'https://dzengi.com/'
 repository: 
 issue: 
-icon: com.currency.exchange.investsmart.png
+icon: 'com.currency.exchange.investsmart.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-10-06
+date: '2021-10-06'
 signer: 
 reviewArchive: 
-twitter: currencycom
+twitter: 'currencycom'
 social:
-- https://www.facebook.com/currencycom
-- https://www.reddit.com/r/currencycom
+- 'https://www.facebook.com/currencycom'
+- 'https://www.reddit.com/r/currencycom'
 redirect_from: 
-developerName: Currency.com PL
+developerName: 'Currency.com PL'
 features: 
 
 ---

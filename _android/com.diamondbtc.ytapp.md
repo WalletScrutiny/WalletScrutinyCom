@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: Diamond BTC
+title: 'Diamond BTC'
 altTitle: 
 authors: 
 users: 50
-appId: com.diamondbtc.ytapp
+appId: 'com.diamondbtc.ytapp'
 appCountry: 
-released: 2021-03-13
-updated: 2021-03-13
+released: '2021-03-13'
+updated: '2021-03-13'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://diamondbtc.net/
+website: 'https://diamondbtc.net/'
 repository: 
 issue: 
-icon: com.diamondbtc.ytapp.png
+icon: 'com.diamondbtc.ytapp.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-04-19
+date: '2024-04-19'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Diamond Brokers
+developerName: 'Diamond Brokers'
 features: 
 
 ---

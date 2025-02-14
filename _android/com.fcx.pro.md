@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: FiCrEx
+title: 'FiCrEx'
 altTitle: 
 authors: 
 users: 10
-appId: com.fcx.pro
+appId: 'com.fcx.pro'
 appCountry: 
-released: 2021-08-06
-updated: 2022-08-03
-version: 1.0.9.220803
+released: '2021-08-06'
+updated: '2022-08-03'
+version: '1.0.9.220803'
 stars: 
 ratings: 
 reviews: 
@@ -16,18 +16,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.fcx.pro.png
+icon: 'com.fcx.pro.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-09-15
+date: '2023-09-15'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: IDT Ruseto
+developerName: 'IDT Ruseto'
 features: 
 
 ---

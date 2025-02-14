@@ -1,36 +1,35 @@
 ---
 wsId: 
-title: Barchart Stocks & Futures
+title: 'Barchart Stocks & Futures'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.barchart.app
+appId: 'com.barchart.app'
 appCountry: 
-released: 2013-11-18
+released: '2013-11-18'
 updated: 2024-08-19
-version: 3.0.10
+version: '3.0.10'
 stars: 4.6
 ratings: 9788
 reviews: 2277
-size: 
-website: http://www.barchart.com/app
+website: 'http://www.barchart.com/app'
 repository: 
 issue: 
-icon: com.barchart.app.png
+icon: 'com.barchart.app.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-11-25
+date: '2023-11-25'
 signer: 
 reviewArchive: 
-twitter: Barchart
+twitter: 'Barchart'
 social:
-- https://www.linkedin.com/company/barchart.com-inc.
-- https://www.facebook.com/Barchart
+- 'https://www.linkedin.com/company/barchart.com-inc.'
+- 'https://www.facebook.com/Barchart'
 redirect_from: 
-developerName: Barchart.com
+developerName: 'Barchart.com'
 features: 
 
 ---

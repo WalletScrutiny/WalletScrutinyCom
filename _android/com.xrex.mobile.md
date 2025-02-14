@@ -1,36 +1,35 @@
 ---
-wsId: XRex
-title: XREX:Buy Crypto,Bitcoin & USDT
+wsId: 'XRex'
+title: 'XREX:Buy Crypto,Bitcoin & USDT'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.xrex.mobile
-appCountry: au
-released: 2020-02-20
-updated: 2025-01-06
-version: 2.1.462
+appId: 'com.xrex.mobile'
+appCountry: 'au'
+released: '2020-02-20'
+updated: 2025-02-11
+version: '2.1.480'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://xrex.io/
+website: 'https://xrex.io/'
 repository: 
 issue: 
-icon: com.xrex.mobile.png
+icon: 'com.xrex.mobile.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-11-15
+date: '2021-11-15'
 signer: 
 reviewArchive: 
-twitter: xrexinc
+twitter: 'xrexinc'
 social:
-- https://www.linkedin.com/company/xrexinc
-- https://www.facebook.com/xrexinfo
+- 'https://www.linkedin.com/company/xrexinc'
+- 'https://www.facebook.com/xrexinfo'
 redirect_from: 
-developerName: XREX, Inc.
+developerName: 'XREX, Inc.'
 features: 
 
 ---

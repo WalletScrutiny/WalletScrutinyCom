@@ -1,38 +1,37 @@
 ---
-wsId: bitci
-title: Bitci Borsa
+wsId: 'bitci'
+title: 'Bitci Borsa'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.bitcimobile
+appId: 'com.bitcimobile'
 appCountry: 
-released: 2020-03-30
+released: '2020-03-30'
 updated: 2024-07-18
-version: 7.2.6
+version: '7.2.6'
 stars: 2.3
 ratings: 
 reviews: 14
-size: 
-website: https://www.bitci.com.tr/
+website: 'https://www.bitci.com.tr/'
 repository: 
 issue: 
-icon: com.bitcimobile.png
+icon: 'com.bitcimobile.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2022-06-28
+date: '2022-06-28'
 signer: 
 reviewArchive: 
-twitter: bitcicom
+twitter: 'bitcicom'
 social:
-- https://www.linkedin.com/company/bitcicom/
-- https://www.facebook.com/bitcicom
-- https://medium.com/@bitcicom
-- https://www.youtube.com/channel/UCJ_cGIv6JJ249qKXWbhOtMg
+- 'https://www.linkedin.com/company/bitcicom/'
+- 'https://www.facebook.com/bitcicom'
+- 'https://medium.com/@bitcicom'
+- 'https://www.youtube.com/channel/UCJ_cGIv6JJ249qKXWbhOtMg'
 redirect_from: 
-developerName: BİTCİ KRİPTO VARLIK ALIM  SATIM PLATFORMU A.Ş.
+developerName: 'BİTCİ KRİPTO VARLIK ALIM  SATIM PLATFORMU A.Ş.'
 features: 
 
 ---

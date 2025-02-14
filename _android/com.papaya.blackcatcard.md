@@ -1,34 +1,33 @@
 ---
-wsId: blackcatcard
-title: Blackcatcard
+wsId: 'blackcatcard'
+title: 'Blackcatcard'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.papaya.blackcatcard
-appCountry: lv
-released: 2019-06-03
+appId: 'com.papaya.blackcatcard'
+appCountry: 'lv'
+released: '2019-06-03'
 updated: 2024-08-25
-version: 1.2.65
+version: '1.2.65'
 stars: 2.5
 ratings: 3530
-reviews: 2138
-size: 
-website: https://blackcatcard.com
+reviews: 2137
+website: 'https://blackcatcard.com'
 repository: 
 issue: 
-icon: com.papaya.blackcatcard.png
+icon: 'com.papaya.blackcatcard.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-11-01
+date: '2021-11-01'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: PAPAYA LTD
+developerName: 'PAPAYA LTD'
 features: 
 
 ---

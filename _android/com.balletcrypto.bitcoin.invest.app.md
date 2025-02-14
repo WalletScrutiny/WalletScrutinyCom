@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Bitcoin Invest App
+title: 'Bitcoin Invest App'
 altTitle: 
 authors: 
 users: 1
-appId: com.balletcrypto.bitcoin.invest.app
+appId: 'com.balletcrypto.bitcoin.invest.app'
 appCountry: 
-released: 2021-06-20
-updated: 2021-06-20
+released: '2021-06-20'
+updated: '2021-06-20'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 2.3M
+size: '2.3M'
 website: 
 repository: 
 issue: 
-icon: com.balletcrypto.bitcoin.invest.app.jpg
+icon: 'com.balletcrypto.bitcoin.invest.app.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-10-01
+date: '2021-10-01'
 signer: 
 reviewArchive: 
 twitter: 

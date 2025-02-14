@@ -1,36 +1,36 @@
 ---
-wsId: simpleswap
-title: Crypto Exchange - Buy & Sell
+wsId: 'simpleswap'
+title: 'Crypto Exchange - Buy & Sell'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.simpleswapapp
-appCountry: gb
-released: 2020-05-23
-updated: 2024-09-11
-version: 4.2.8
+appId: 'com.simpleswapapp'
+appCountry: 'gb'
+released: '2020-05-23'
+updated: '2024-09-11'
+version: '4.2.8'
 stars: 4.3
 ratings: 575
 reviews: 40
 size: 
-website: https://simpleswap.io
+website: 'https://simpleswap.io'
 repository: 
 issue: 
-icon: com.simpleswapapp.png
+icon: 'com.simpleswapapp.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-10-12
+date: '2024-10-12'
 signer: 
 reviewArchive: 
-twitter: SimpleSwap_io
+twitter: 'SimpleSwap_io'
 social:
-- https://www.facebook.com/SimpleSwap.io
-- https://www.reddit.com/r/simpleswapexchange
+- 'https://www.facebook.com/SimpleSwap.io'
+- 'https://www.reddit.com/r/simpleswapexchange'
 redirect_from: 
-developerName: Simple Swap LTD
+developerName: 'Simple Swap LTD'
 features: 
 
 ---

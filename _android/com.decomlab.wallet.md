@@ -1,33 +1,33 @@
 ---
-wsId: decomlab
-title: Moon Wallet
+wsId: 'decomlab'
+title: 'Moon Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.decomlab.wallet
-appCountry: us
-released: 2021-07-26
-updated: 2021-09-02
-version: 1.2.1
+appId: 'com.decomlab.wallet'
+appCountry: 'us'
+released: '2021-07-26'
+updated: '2021-09-02'
+version: '1.2.1'
 stars: 3.5
 ratings: 121
 reviews: 8
 size: 
-website: https://moonwallet.net/
+website: 'https://moonwallet.net/'
 repository: 
 issue: 
-icon: com.decomlab.wallet.png
+icon: 'com.decomlab.wallet.png'
 bugbounty: 
-meta: removed
-verdict: nosource
+meta: 'removed'
+verdict: 'nosource'
 appHashes: 
-date: 2023-03-21
+date: '2023-03-21'
 signer: 
 reviewArchive: 
-twitter: gomoonwallet
+twitter: 'gomoonwallet'
 social:
-- https://www.facebook.com/moonwallet.net
+- 'https://www.facebook.com/moonwallet.net'
 redirect_from: 
 developerName: 
 features: 

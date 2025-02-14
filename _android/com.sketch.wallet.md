@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 스케치월렛 (SKETCH WALLET)
+title: '스케치월렛 (SKETCH WALLET)'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 5000
-appId: com.sketch.wallet
+appId: 'com.sketch.wallet'
 appCountry: 
-released: 2021-07-28
+released: '2021-07-28'
 updated: 2025-02-07
-version: 2.2.4
+version: '2.2.4'
 stars: 4.7
 ratings: 
 reviews: 
-size: 
-website: https://auth.sketchwallet.io:28446/sketch/conditions
+website: 'https://auth.sketchwallet.io:28446/sketch/conditions'
 repository: 
 issue: 
-icon: com.sketch.wallet.png
+icon: 'com.sketch.wallet.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-07-22
+date: '2024-07-22'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 앱관리자
+developerName: '앱관리자'
 features: 
 
 ---

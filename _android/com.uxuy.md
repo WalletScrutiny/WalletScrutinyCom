@@ -1,37 +1,36 @@
 ---
-wsId: uxuy
+wsId: 'uxuy'
 title: 'UXUY: Memecoin for Trading'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.uxuy
+appId: 'com.uxuy'
 appCountry: 
-released: 2023-08-09
+released: '2023-08-09'
 updated: 2025-02-08
-version: 1.3.13
+version: '1.3.13'
 stars: 4
 ratings: 
 reviews: 24
-size: 
-website: https://uxuy.com
+website: 'https://uxuy.com'
 repository: 
 issue: 
-icon: com.uxuy.png
+icon: 'com.uxuy.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2024-09-05
+date: '2024-09-05'
 signer: 
 reviewArchive: 
-twitter: uxuycom
+twitter: 'uxuycom'
 social:
-- https://t.me/uxuycom
-- https://discord.com/invite/BZwZA27Zkv
-- https://www.linkedin.com/company/uxuy
+- 'https://t.me/uxuycom'
+- 'https://discord.com/invite/BZwZA27Zkv'
+- 'https://www.linkedin.com/company/uxuy'
 redirect_from: 
-developerName: UXUY Limited
+developerName: 'UXUY Limited'
 features: 
 
 ---

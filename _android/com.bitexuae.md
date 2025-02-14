@@ -1,34 +1,34 @@
 ---
-wsId: Bitex
-title: Bitex - Crypto Exchange
+wsId: 'Bitex'
+title: 'Bitex - Crypto Exchange'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.bitexuae
-appCountry: ae
-released: 2020-02-23
-updated: 2022-02-12
+appId: 'com.bitexuae'
+appCountry: 'ae'
+released: '2020-02-23'
+updated: '2022-02-12'
 version: '3.1'
 stars: 1.7
 ratings: 128
 reviews: 13
-size: 170M
-website: https://www.bitex.com
+size: '170M'
+website: 'https://www.bitex.com'
 repository: 
 issue: 
-icon: com.bitexuae.jpg
+icon: 'com.bitexuae.jpg'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2022-04-25
+date: '2022-04-25'
 signer: 
 reviewArchive: 
-twitter: bitexexch
+twitter: 'bitexexch'
 social:
-- https://www.linkedin.com/company/bitexworldwide
-- https://www.facebook.com/Bitexofficial
+- 'https://www.linkedin.com/company/bitexworldwide'
+- 'https://www.facebook.com/Bitexofficial'
 redirect_from: 
 developerName: 
 features: 

@@ -1,36 +1,36 @@
 ---
-wsId: kastaCryptoPayments
+wsId: 'kastaCryptoPayments'
 title: 'Ka.app: Crypto Wallet'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: io.kasta.app
+appId: 'io.kasta.app'
 appCountry: 
 released: 
-updated: 2023-12-08
-version: 1.27.115-prod-105a6f8
+updated: '2023-12-08'
+version: '1.27.115-prod-105a6f8'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://www.kasta.io/
+website: 'https://www.kasta.io/'
 repository: 
 issue: 
-icon: io.kasta.app.png
+icon: 'io.kasta.app.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-03-02
+date: '2024-03-02'
 signer: 
 reviewArchive: 
-twitter: ka_app
+twitter: 'ka_app'
 social:
-- https://t.me/kasta_app
-- https://www.youtube.com/channel/UCJHVGV7RzYLSzqckFcGq-jQ
+- 'https://t.me/kasta_app'
+- 'https://www.youtube.com/channel/UCJHVGV7RzYLSzqckFcGq-jQ'
 redirect_from: 
-developerName: Kasta.io
+developerName: 'Kasta.io'
 features: 
 
 ---

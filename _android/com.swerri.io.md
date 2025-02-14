@@ -1,39 +1,37 @@
 ---
 wsId: 
-title: Swerri
+title: 'Swerri'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.swerri.io
+appId: 'com.swerri.io'
 appCountry: 
-released: 
 updated: 2025-01-20
-version: VARY
+version: 'VARY'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://swerri.io
+website: 'https://swerri.io'
 repository: 
 issue: 
-icon: com.swerri.io.png
+icon: 'com.swerri.io.png'
 bugbounty: 
-meta: ok
-verdict: nobtc
+meta: 'ok'
+verdict: 'nobtc'
 appHashes: 
-date: 2025-01-27
+date: '2025-01-27'
 signer: 
 reviewArchive: 
-twitter: Swerriapp
+twitter: 'Swerriapp'
 social:
-- https://www.linkedin.com/company/swerri/
-- https://discord.com/invite/3MxvPhQ6Yk
-- https://t.me/Swerri_app
-- https://www.instagram.com/swerriapp/
-- https://www.facebook.com/OfficialSwerri
+- 'https://www.linkedin.com/company/swerri/'
+- 'https://discord.com/invite/3MxvPhQ6Yk'
+- 'https://t.me/Swerri_app'
+- 'https://www.instagram.com/swerriapp/'
+- 'https://www.facebook.com/OfficialSwerri'
 redirect_from: 
-developerName: Swerri Limited
+developerName: 'Swerri Limited'
 features: 
 
 ---

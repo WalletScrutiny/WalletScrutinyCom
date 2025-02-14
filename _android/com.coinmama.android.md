@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: Coinmama
+title: 'Coinmama'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.coinmama.android
+appId: 'com.coinmama.android'
 appCountry: 
-released: 2021-08-10
-updated: 2021-08-10
-version: 0.17.0
+released: '2021-08-10'
+updated: '2021-08-10'
+version: '0.17.0'
 stars: 2.9
 ratings: 105
 reviews: 16
 size: 
-website: https://www.coinmama.com
+website: 'https://www.coinmama.com'
 repository: 
 issue: 
-icon: com.coinmama.android.png
+icon: 'com.coinmama.android.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-01-30
+date: '2023-01-30'
 signer: 
 reviewArchive: 
-twitter: coinmama
+twitter: 'coinmama'
 social:
-- https://www.linkedin.com/company/coinmama
+- 'https://www.linkedin.com/company/coinmama'
 redirect_from: 
 developerName: 
 features: 

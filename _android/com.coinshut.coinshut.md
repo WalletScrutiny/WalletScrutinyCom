@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: CoinsHut (beta)
+title: 'CoinsHut (beta)'
 altTitle: 
 authors: 
 users: 100
-appId: com.coinshut.coinshut
+appId: 'com.coinshut.coinshut'
 appCountry: 
-released: 2021-07-17
-updated: 2021-10-29
-version: 0.1.1
+released: '2021-07-17'
+updated: '2021-10-29'
+version: '0.1.1'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://coinshut.africa
+website: 'https://coinshut.africa'
 repository: 
 issue: 
-icon: com.coinshut.coinshut.jpg
+icon: 'com.coinshut.coinshut.jpg'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-11-02
+date: '2023-11-02'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Coinshut Africa
+developerName: 'Coinshut Africa'
 features: 
 
 ---

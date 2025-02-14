@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: Bitcoin Future
+title: 'Bitcoin Future'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.bitcoinfuture.bitcoinfuture
+appId: 'com.bitcoinfuture.bitcoinfuture'
 appCountry: 
-released: 2019-05-05
+released: '2019-05-05'
 updated: 2024-07-24
 version: '1.7'
 stars: 3.4
 ratings: 
 reviews: 3
-size: 
-website: https://bitcoinfuture.com/
+website: 'https://bitcoinfuture.com/'
 repository: 
 issue: 
-icon: com.bitcoinfuture.bitcoinfuture.png
+icon: 'com.bitcoinfuture.bitcoinfuture.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-11-01
+date: '2023-11-01'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Automatex
+developerName: 'Automatex'
 features: 
 
 ---

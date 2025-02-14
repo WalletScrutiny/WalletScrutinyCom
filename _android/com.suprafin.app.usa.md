@@ -1,36 +1,36 @@
 ---
-wsId: supraFinCrypto
+wsId: 'supraFinCrypto'
 title: 'SupraFin: Crypto ETH Investing'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 10000
-appId: com.suprafin.app.usa
+appId: 'com.suprafin.app.usa'
 appCountry: 
-released: 2021-11-29
-updated: 2022-05-27
-version: 1.2.35
+released: '2021-11-29'
+updated: '2022-05-27'
+version: '1.2.35'
 stars: 4.3
 ratings: 
 reviews: 7
 size: 
-website: https://suprafin.io/
+website: 'https://suprafin.io/'
 repository: 
 issue: 
-icon: com.suprafin.app.usa.png
+icon: 'com.suprafin.app.usa.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-11-30
+date: '2024-11-30'
 signer: 
 reviewArchive: 
-twitter: lreasor
+twitter: 'lreasor'
 social:
-- https://www.facebook.com/SupraFinLtd
-- https://www.youtube.com/channel/UCSZ6hB4d1aBaNswBDH3Bsdg
+- 'https://www.facebook.com/SupraFinLtd'
+- 'https://www.youtube.com/channel/UCSZ6hB4d1aBaNswBDH3Bsdg'
 redirect_from: 
-developerName: SupraFin LTD
+developerName: 'SupraFin LTD'
 features: 
 
 ---

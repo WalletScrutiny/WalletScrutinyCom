@@ -4,24 +4,24 @@ title: 'Bitcoin Bank App: Profit from Crypto'
 altTitle: 
 authors: 
 users: 1000
-appId: com.nbl.bitcoinbankapp
+appId: 'com.nbl.bitcoinbankapp'
 appCountry: 
 released: 
-updated: 2021-02-23
-version: 1.0.1
+updated: '2021-02-23'
+version: '1.0.1'
 stars: 3.6
 ratings: 19
 reviews: 14
-size: 17M
+size: '17M'
 website: 
 repository: 
 issue: 
-icon: com.nbl.bitcoinbankapp.png
+icon: 'com.nbl.bitcoinbankapp.png'
 bugbounty: 
-meta: removed
-verdict: wip
+meta: 'removed'
+verdict: 'wip'
 appHashes: 
-date: 2021-08-20
+date: '2021-08-20'
 signer: 
 reviewArchive: 
 twitter: 

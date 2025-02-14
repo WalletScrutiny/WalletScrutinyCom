@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: Iris Wallet Testnet
+title: 'Iris Wallet Testnet'
 altTitle: 
 authors: 
 users: 500
-appId: com.iriswallet.testnet
+appId: 'com.iriswallet.testnet'
 appCountry: 
-released: 2022-10-21
+released: '2022-10-21'
 updated: 2023-10-19
-version: 0.2.1-testnet
+version: '0.2.1-testnet'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: com.iriswallet.testnet.png
+icon: 'com.iriswallet.testnet.png'
 bugbounty: 
-meta: stale
-verdict: fewusers
+meta: 'stale'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-10-16
+date: '2024-10-16'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Bitfinex Labs
+developerName: 'Bitfinex Labs'
 features: 
 
 ---

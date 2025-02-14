@@ -1,27 +1,27 @@
 ---
 wsId: 
-title: Coin2World - BTC OTC Exchanger - ETH USDT EOS LTC
+title: 'Coin2World - BTC OTC Exchanger - ETH USDT EOS LTC'
 altTitle: 
 authors: 
 users: 100
-appId: com.ok.coin
+appId: 'com.ok.coin'
 appCountry: 
-released: 2018-08-30
-updated: 2018-09-06
-version: 1.0.3
+released: '2018-08-30'
+updated: '2018-09-06'
+version: '1.0.3'
 stars: 
 ratings: 
 reviews: 
-size: 6.5M
+size: '6.5M'
 website: 
 repository: 
 issue: 
-icon: com.ok.coin.png
+icon: 'com.ok.coin.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2021-10-22
+date: '2021-10-22'
 signer: 
 reviewArchive: 
 twitter: 

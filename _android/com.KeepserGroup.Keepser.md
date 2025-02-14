@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: KEEPSER
+title: 'KEEPSER'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50
-appId: com.KeepserGroup.Keepser
+appId: 'com.KeepserGroup.Keepser'
 appCountry: 
-released: 2021-07-22
+released: '2021-07-22'
 updated: 2024-12-17
-version: 2.0.0
+version: '2.0.0'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: https://www.keepser.io
+website: 'https://www.keepser.io'
 repository: 
 issue: 
-icon: com.KeepserGroup.Keepser.png
+icon: 'com.KeepserGroup.Keepser.png'
 bugbounty: 
-meta: ok
-verdict: fewusers
+meta: 'ok'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-12-18
+date: '2024-12-18'
 signer: 
 reviewArchive: 
-twitter: keepser
+twitter: 'keepser'
 social: 
 redirect_from: 
-developerName: Freemindtronic SL
+developerName: 'Freemindtronic SL'
 features: 
 
 ---

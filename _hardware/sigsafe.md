@@ -3,7 +3,7 @@ title: SigSafe
 appId: sigsafe
 authors:
 - danny
-released: 2014-05-14
+released: '2014-05-14'
 discontinued: 
 updated: 
 version: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: vapor
 appHashes: 
-date: 2022-04-11
+date: '2022-04-11'
 signer: 
 reviewArchive: 
 twitter: PeterRizun

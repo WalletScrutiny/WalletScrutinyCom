@@ -1,13 +1,13 @@
 ---
 wsId: 
-title: Copper INT
+title: 'Copper INT'
 altTitle: 
 authors: 
 users: 50
-appId: com.copper.lonsmc
+appId: 'com.copper.lonsmc'
 appCountry: 
-released: 2022-12-29
-updated: 2022-12-29
+released: '2022-12-29'
+updated: '2022-12-29'
 version: '1.1'
 stars: 
 ratings: 
@@ -16,18 +16,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: com.copper.lonsmc.png
+icon: 'com.copper.lonsmc.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-08-04
+date: '2023-08-04'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Stephanie Bronte
+developerName: 'Stephanie Bronte'
 features: 
 
 ---

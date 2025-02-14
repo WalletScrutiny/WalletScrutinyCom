@@ -9,9 +9,9 @@ authors:
 appId: one.mixin.messenger
 appCountry: us
 idd: 1322324266
-released: 2018-01-20
-updated: 2025-02-06
-version: 2.2.1
+released: '2018-01-20'
+updated: '2025-02-06'
+version: '2.2.1'
 stars: 4.8
 reviews: 961
 size: '109741056'
@@ -23,11 +23,11 @@ bugbounty:
 meta: ok
 verdict: nonverifiable
 appHashes: []
-date: 2021-11-17
+date: '2021-11-17'
 signer: 
 reviewArchive:
-- date: 2021-11-17
-  version: 2.0.2
+- date: '2021-11-17'
+  version: '2.0.2'
   appHashes: []
   gitRevision: fe3cfeb1b5229e6f850188ec34137d1b700d9663
   verdict: ftbfs

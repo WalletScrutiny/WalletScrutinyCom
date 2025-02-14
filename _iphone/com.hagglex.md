@@ -7,9 +7,9 @@ authors:
 appId: com.hagglex
 appCountry: us
 idd: 1535046179
-released: 2021-03-18
-updated: 2021-11-27
-version: 1.1.2
+released: '2021-03-18'
+updated: '2021-11-27'
+version: '1.1.2'
 stars: 4.1
 reviews: 107
 size: '109565952'
@@ -21,7 +21,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
 twitter: hagglexintl

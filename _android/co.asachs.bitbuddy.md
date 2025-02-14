@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: BitBuddy –Buy & Sell Bitcoin
+title: 'BitBuddy –Buy & Sell Bitcoin'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: co.asachs.bitbuddy
+appId: 'co.asachs.bitbuddy'
 appCountry: 
-released: 2019-09-19
-updated: 2020-09-28
-version: 2.0.1
+released: '2019-09-19'
+updated: '2020-09-28'
+version: '2.0.1'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://bitbuddy.app
+website: 'https://bitbuddy.app'
 repository: 
 issue: 
-icon: co.asachs.bitbuddy.png
+icon: 'co.asachs.bitbuddy.png'
 bugbounty: 
-meta: defunct
-verdict: wip
+meta: 'defunct'
+verdict: 'wip'
 appHashes: 
-date: 2023-05-10
+date: '2023-05-10'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: BitBuddy
+developerName: 'BitBuddy'
 features: 
 
 ---

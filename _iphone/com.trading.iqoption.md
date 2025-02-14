@@ -7,8 +7,8 @@ authors:
 appId: com.trading.iqoption
 appCountry: gb
 idd: '871125783'
-released: 2014-05-15
-updated: 2025-01-29
+released: '2014-05-15'
+updated: '2025-01-29'
 version: '4.73'
 stars: 3.8
 reviews: 1251
@@ -21,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nosendreceive
 appHashes: 
-date: 2024-09-02
+date: '2024-09-02'
 signer: 
 reviewArchive: 
 twitter: IQOption

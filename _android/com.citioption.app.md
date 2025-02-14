@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: Citioption Alpha
+title: 'Citioption Alpha'
 altTitle: 
 authors: 
 users: 10
-appId: com.citioption.app
+appId: 'com.citioption.app'
 appCountry: 
-released: 2021-03-09
-updated: 2021-03-09
+released: '2021-03-09'
+updated: '2021-03-09'
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: https://citioption.com/
+website: 'https://citioption.com/'
 repository: 
 issue: 
-icon: com.citioption.app.png
+icon: 'com.citioption.app.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-04-03
+date: '2024-04-03'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: GRUPO CT OPTION TRADING
+developerName: 'GRUPO CT OPTION TRADING'
 features: 
 
 ---

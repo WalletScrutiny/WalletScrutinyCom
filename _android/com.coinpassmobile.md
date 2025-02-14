@@ -1,37 +1,35 @@
 ---
-wsId: coinpassMobile
+wsId: 'coinpassMobile'
 title: 'coinpass: Crypto for Business'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.coinpassmobile
+appId: 'com.coinpassmobile'
 appCountry: 
-released: 
 updated: 2025-01-13
-version: 3.4.0-coinpass
+version: '3.4.0-coinpass'
 stars: 2.8
 ratings: 
 reviews: 
-size: 
-website: https://www.coinpass.com/
+website: 'https://www.coinpass.com/'
 repository: 
 issue: 
-icon: com.coinpassmobile.png
+icon: 'com.coinpassmobile.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2023-12-14
+date: '2023-12-14'
 signer: 
 reviewArchive: 
-twitter: coinpassglobal
+twitter: 'coinpassglobal'
 social:
-- https://www.facebook.com/coinpassglobal
-- https://www.youtube.com/channel/UCfs5WkT1mecmB0YWJipJLdw
-- https://www.linkedin.com/company/coinpass
+- 'https://www.facebook.com/coinpassglobal'
+- 'https://www.youtube.com/channel/UCfs5WkT1mecmB0YWJipJLdw'
+- 'https://www.linkedin.com/company/coinpass'
 redirect_from: 
-developerName: Oanda Coinpass Limited
+developerName: 'Oanda Coinpass Limited'
 features: 
 
 ---

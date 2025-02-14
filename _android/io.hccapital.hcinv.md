@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: HC Inv
+title: 'HC Inv'
 altTitle: 
 authors: 
 users: 1
-appId: io.hccapital.hcinv
+appId: 'io.hccapital.hcinv'
 appCountry: 
-released: 2021-05-28
-updated: 2021-06-03
-version: 1.1.2
+released: '2021-05-28'
+updated: '2021-06-03'
+version: '1.1.2'
 stars: 
 ratings: 
 reviews: 
@@ -16,18 +16,18 @@ size:
 website: 
 repository: 
 issue: 
-icon: io.hccapital.hcinv.png
+icon: 'io.hccapital.hcinv.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-04-03
+date: '2024-04-03'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: BuenBitcoin
+developerName: 'BuenBitcoin'
 features: 
 
 ---

@@ -1,37 +1,37 @@
 ---
 wsId: 
-title: Tuned - Crypto Trading
+title: 'Tuned - Crypto Trading'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.tuned.TunedApp
+appId: 'com.tuned.TunedApp'
 appCountry: 
-released: 2021-09-02
-updated: 2022-08-08
-version: 5.2.0
+released: '2021-09-02'
+updated: '2022-08-08'
+version: '5.2.0'
 stars: 3.8
 ratings: 
 reviews: 3
 size: 
-website: https://www.tuned.com
+website: 'https://www.tuned.com'
 repository: 
 issue: 
-icon: com.tuned.TunedApp.png
+icon: 'com.tuned.TunedApp.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-03-02
+date: '2024-03-02'
 signer: 
 reviewArchive: 
-twitter: tuned_com
+twitter: 'tuned_com'
 social:
-- https://www.facebook.com/tuned
-- https://www.youtube.com/channel/UCDOovAPbW11jBakut16dDvw
-- https://discord.com/invite/nN8PaRW85K
+- 'https://www.facebook.com/tuned'
+- 'https://www.youtube.com/channel/UCDOovAPbW11jBakut16dDvw'
+- 'https://discord.com/invite/nN8PaRW85K'
 redirect_from: 
-developerName: Tuned Systems, Inc.
+developerName: 'Tuned Systems, Inc.'
 features: 
 
 ---

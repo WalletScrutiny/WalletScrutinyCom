@@ -1,36 +1,35 @@
 ---
-wsId: ZuluTrade
-title: ZuluTrade for Copy Trading
+wsId: 'ZuluTrade'
+title: 'ZuluTrade for Copy Trading'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: zulu.trade.app
-appCountry: us
-released: 2011-03-04
+appId: 'zulu.trade.app'
+appCountry: 'us'
+released: '2011-03-04'
 updated: 2025-01-15
-version: 5.0.26
+version: '5.0.26'
 stars: 3.6
 ratings: 2010
 reviews: 65
-size: 
-website: https://www.zulutrade.com
+website: 'https://www.zulutrade.com'
 repository: 
 issue: 
-icon: zulu.trade.app.png
+icon: 'zulu.trade.app.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2021-10-10
+date: '2021-10-10'
 signer: 
 reviewArchive: 
-twitter: zulutrade
+twitter: 'zulutrade'
 social:
-- https://www.linkedin.com/company/zulutrade
-- https://www.facebook.com/zulutrade
+- 'https://www.linkedin.com/company/zulutrade'
+- 'https://www.facebook.com/zulutrade'
 redirect_from: 
-developerName: Zulutrade International Limited
+developerName: 'Zulutrade International Limited'
 features: 
 
 ---

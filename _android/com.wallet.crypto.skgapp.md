@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: SKG 암호화폐 지갑(비트코인, 이더리움 등) ERC2
+title: 'SKG 암호화폐 지갑(비트코인, 이더리움 등) ERC2'
 altTitle: 
 authors: 
 users: 50
-appId: com.wallet.crypto.skgapp
+appId: 'com.wallet.crypto.skgapp'
 appCountry: 
-released: 2019-06-17
-updated: 2019-07-22
-version: 1.4.42
+released: '2019-06-17'
+updated: '2019-07-22'
+version: '1.4.42'
 stars: 
 ratings: 
 reviews: 
 size: 
-website: http://skg-world.com
+website: 'http://skg-world.com'
 repository: 
 issue: 
-icon: com.wallet.crypto.skgapp.png
+icon: 'com.wallet.crypto.skgapp.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2023-12-19
+date: '2023-12-19'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: SUPER KOREA
+developerName: 'SUPER KOREA'
 features: 
 
 ---

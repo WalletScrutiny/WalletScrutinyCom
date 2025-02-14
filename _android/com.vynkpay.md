@@ -1,38 +1,38 @@
 ---
-wsId: vynxPay
-title: VynkPay | Crypto Payments App
+wsId: 'vynxPay'
+title: 'VynkPay | Crypto Payments App'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.vynkpay
+appId: 'com.vynkpay'
 appCountry: 
-released: 2020-06-30
-updated: 2024-02-08
+released: '2020-06-30'
+updated: '2024-02-08'
 version: '4.4'
 stars: 4.5
 ratings: 
 reviews: 
 size: 
-website: https://vynkpay.app
+website: 'https://vynkpay.app'
 repository: 
 issue: 
-icon: com.vynkpay.png
+icon: 'com.vynkpay.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2024-12-31
+date: '2024-12-31'
 signer: 
 reviewArchive: 
-twitter: vynkgroup
+twitter: 'vynkgroup'
 social:
-- https://www.instagram.com/vynkgroup
-- https://discord.com/invite/RBCRGZVsQx
-- https://www.linkedin.com/in/vynkchain-community-59b283208
-- https://t.me/VYNKCHAIN
+- 'https://www.instagram.com/vynkgroup'
+- 'https://discord.com/invite/RBCRGZVsQx'
+- 'https://www.linkedin.com/in/vynkchain-community-59b283208'
+- 'https://t.me/VYNKCHAIN'
 redirect_from: 
-developerName: VYNK GROUP AE
+developerName: 'VYNK GROUP AE'
 features: 
 
 ---

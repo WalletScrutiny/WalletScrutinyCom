@@ -1,37 +1,36 @@
 ---
-wsId: rockwalletApp
+wsId: 'rockwalletApp'
 title: 'RockWallet: Buy and Swap'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.rockwallet.app
+appId: 'com.rockwallet.app'
 appCountry: 
-released: 2022-11-14
+released: '2022-11-14'
 updated: 2025-02-07
-version: 5.17.0
-stars: 3.7
+version: '5.17.0'
+stars: 3.6
 ratings: 
-reviews: 147
-size: 
-website: http://www.rockwallet.com
+reviews: 149
+website: 'http://www.rockwallet.com'
 repository: 
-issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/498
-icon: com.rockwallet.app.png
+issue: 'https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/498'
+icon: 'com.rockwallet.app.png'
 bugbounty: 
-meta: ok
-verdict: nosource
+meta: 'ok'
+verdict: 'nosource'
 appHashes: 
-date: 2024-06-07
+date: '2024-06-07'
 signer: 
 reviewArchive: 
-twitter: rockwallet
+twitter: 'rockwallet'
 social:
-- https://www.facebook.com/rockwalletofficial
-- https://www.instagram.com/rockwallet
-- https://www.linkedin.com/company/rockwallet
+- 'https://www.facebook.com/rockwalletofficial'
+- 'https://www.instagram.com/rockwallet'
+- 'https://www.linkedin.com/company/rockwallet'
 redirect_from: 
-developerName: Rockwallet
+developerName: 'Rockwallet'
 features: 
 
 ---

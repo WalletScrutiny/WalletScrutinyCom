@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: Sesacash
+title: 'Sesacash'
 altTitle: 
 authors: 
 users: 100
-appId: com.sesacash.app
+appId: 'com.sesacash.app'
 appCountry: 
-released: 2020-03-15
-updated: 2020-03-15
+released: '2020-03-15'
+updated: '2020-03-15'
 version: '1.0'
 stars: 2.6
 ratings: 
 reviews: 
 size: 
-website: http://www.sesacash.com
+website: 'http://www.sesacash.com'
 repository: 
 issue: 
-icon: com.sesacash.app.png
+icon: 'com.sesacash.app.png'
 bugbounty: 
-meta: removed
-verdict: fewusers
+meta: 'removed'
+verdict: 'fewusers'
 appHashes: 
-date: 2024-03-02
+date: '2024-03-02'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Sesacash
+developerName: 'Sesacash'
 features: 
 
 ---

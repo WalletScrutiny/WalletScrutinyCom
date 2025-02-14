@@ -1,34 +1,34 @@
 ---
-wsId: Cexchangenex
-title: Cexchangenex
+wsId: 'Cexchangenex'
+title: 'Cexchangenex'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.cexchangenex.cexchangenex
-appCountry: th
-released: 2020-10-02
-updated: 2021-06-29
-version: 1.1.1075
+appId: 'com.cexchangenex.cexchangenex'
+appCountry: 'th'
+released: '2020-10-02'
+updated: '2021-06-29'
+version: '1.1.1075'
 stars: 3.8
 ratings: 73
 reviews: 38
 size: 
-website: https://cexchangenex.com/
+website: 'https://cexchangenex.com/'
 repository: 
 issue: 
-icon: com.cexchangenex.cexchangenex.png
+icon: 'com.cexchangenex.cexchangenex.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2023-12-19
+date: '2023-12-19'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Cexchangenex
+developerName: 'Cexchangenex'
 features: 
 
 ---

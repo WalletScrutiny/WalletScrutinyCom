@@ -3,33 +3,32 @@ wsId:
 title: 'SimpleFX: Crypto Trading App'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 50000
-appId: com.simplefx.app
+appId: 'com.simplefx.app'
 appCountry: 
-released: 2017-12-18
+released: '2017-12-18'
 updated: 2025-02-06
-version: 3.0.37
+version: '3.0.37'
 stars: 3.9
 ratings: 291
 reviews: 7
-size: 
-website: https://simplefx.com
+website: 'https://simplefx.com'
 repository: 
 issue: 
-icon: com.simplefx.app.png
+icon: 'com.simplefx.app.png'
 bugbounty: 
-meta: ok
-verdict: custodial
+meta: 'ok'
+verdict: 'custodial'
 appHashes: 
-date: 2021-10-13
+date: '2021-10-13'
 signer: 
 reviewArchive: 
-twitter: SimpleFXcom
+twitter: 'SimpleFXcom'
 social:
-- https://www.facebook.com/simplefxltd
+- 'https://www.facebook.com/simplefxltd'
 redirect_from: 
-developerName: SimpleFX Ltd.
+developerName: 'SimpleFX Ltd.'
 features: 
 
 ---

@@ -1,28 +1,28 @@
 ---
 wsId: 
-title: Bitcanner
+title: 'Bitcanner'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 1000
-appId: com.bitcanner.blogspot.bitcanner
+appId: 'com.bitcanner.blogspot.bitcanner'
 appCountry: 
-released: 2019-11-03
-updated: 2021-09-29
-version: 3.20.0.51
+released: '2019-11-03'
+updated: '2021-09-29'
+version: '3.20.0.51'
 stars: 4.3
 ratings: 69
 reviews: 27
 size: 
-website: https://www.bitcanner.com
+website: 'https://www.bitcanner.com'
 repository: 
 issue: 
-icon: com.bitcanner.blogspot.bitcanner.png
+icon: 'com.bitcanner.blogspot.bitcanner.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-01-02
+date: '2023-01-02'
 signer: 
 reviewArchive: 
 twitter: 

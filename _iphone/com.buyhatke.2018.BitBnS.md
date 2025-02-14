@@ -7,9 +7,9 @@ authors:
 appId: com.buyhatke.2018.BitBnS
 appCountry: in
 idd: 1346160076
-released: 2018-05-29
-updated: 2023-05-16
-version: 6.1.0
+released: '2018-05-29'
+updated: '2023-05-16'
+version: '6.1.0'
 stars: 3.1
 reviews: 834
 size: '37929984'
@@ -21,7 +21,7 @@ bugbounty:
 meta: defunct
 verdict: custodial
 appHashes: 
-date: 2023-08-25
+date: '2023-08-25'
 signer: 
 reviewArchive: 
 twitter: bitbns

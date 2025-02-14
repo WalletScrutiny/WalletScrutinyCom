@@ -3,9 +3,9 @@ title: Sirishmk Blocule Hardware Wallet
 appId: sirishmk.blocule
 authors:
 - danny
-released: 2018-05-26
+released: '2018-05-26'
 discontinued: 
-updated: 2018-06-27
+updated: '2018-06-27'
 version: 
 binaries: 
 dimensions: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: defunct
 verdict: nobtc
 appHashes: 
-date: 2022-05-23
+date: '2022-05-23'
 signer: 
 reviewArchive: 
 twitter: sirish03834828

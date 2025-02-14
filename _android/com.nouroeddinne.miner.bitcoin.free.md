@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: Crypto bitcoin cloud mining
+title: 'Crypto bitcoin cloud mining'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.nouroeddinne.miner.bitcoin.free
+appId: 'com.nouroeddinne.miner.bitcoin.free'
 appCountry: 
-released: 2021-03-18
-updated: 2023-12-29
+released: '2021-03-18'
+updated: '2023-12-29'
 version: '40.40'
 stars: 4.6
 ratings: 3855
 reviews: 867
 size: 
-website: https://pfdae6613.app-ads-txt.com
+website: 'https://pfdae6613.app-ads-txt.com'
 repository: 
 issue: 
-icon: com.nouroeddinne.miner.bitcoin.free.png
+icon: 'com.nouroeddinne.miner.bitcoin.free.png'
 bugbounty: 
-meta: removed
-verdict: nowallet
+meta: 'removed'
+verdict: 'nowallet'
 appHashes: 
-date: 2024-07-10
+date: '2024-07-10'
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: nouro DEV
+developerName: 'nouro DEV'
 features: 
 
 ---

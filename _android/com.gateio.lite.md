@@ -1,38 +1,38 @@
 ---
-wsId: gateIOLite
+wsId: 'gateIOLite'
 title: 'Gate Lite: Buy Bitcoin, Crypto'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: com.gateio.lite
+appId: 'com.gateio.lite'
 appCountry: 
-released: 2022-07-01
-updated: 2023-08-30
-version: 2.0.1
+released: '2022-07-01'
+updated: '2023-08-30'
+version: '2.0.1'
 stars: 4
 ratings: 
 reviews: 9
 size: 
-website: https://gate.io/
+website: 'https://gate.io/'
 repository: 
 issue: 
-icon: com.gateio.lite.png
+icon: 'com.gateio.lite.png'
 bugbounty: 
-meta: removed
-verdict: custodial
+meta: 'removed'
+verdict: 'custodial'
 appHashes: 
-date: 2025-01-27
+date: '2025-01-27'
 signer: 
 reviewArchive: 
-twitter: gate_io
+twitter: 'gate_io'
 social:
-- https://www.facebook.com/gateioglobal
-- https://www.youtube.com/c/GateioCrypto
-- https://discord.com/invite/QZWFkuQvzP
-- https://www.instagram.com/gateioglobal
+- 'https://www.facebook.com/gateioglobal'
+- 'https://www.youtube.com/c/GateioCrypto'
+- 'https://discord.com/invite/QZWFkuQvzP'
+- 'https://www.instagram.com/gateioglobal'
 redirect_from: 
-developerName: Gate Global, Corp.
+developerName: 'Gate Global, Corp.'
 features: 
 
 ---

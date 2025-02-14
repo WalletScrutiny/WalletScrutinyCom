@@ -1,37 +1,36 @@
 ---
-wsId: trezorSuiteLite
-title: Trezor Suite Lite
+wsId: 'trezorSuiteLite'
+title: 'Trezor Suite Lite'
 altTitle: 
 authors:
-- danny
+- 'danny'
 users: 100000
-appId: io.trezor.suite
+appId: 'io.trezor.suite'
 appCountry: 
-released: 2023-05-09
-updated: 2025-01-24
-version: 25.1.2
+released: '2023-05-09'
+updated: 2025-02-13
+version: '25.1.3'
 stars: 3.2
 ratings: 
 reviews: 66
-size: 
-website: https://trezor.io
+website: 'https://trezor.io'
 repository: 
 issue: 
-icon: io.trezor.suite.png
+icon: 'io.trezor.suite.png'
 bugbounty: 
-meta: ok
-verdict: nowallet
+meta: 'ok'
+verdict: 'nowallet'
 appHashes: 
-date: 2023-07-18
+date: '2023-07-18'
 signer: 
 reviewArchive: 
-twitter: trezor
+twitter: 'trezor'
 social:
-- https://www.reddit.com/r/TREZOR
-- https://www.instagram.com/trezor.io
-- https://www.facebook.com/trezor.io
+- 'https://www.reddit.com/r/TREZOR'
+- 'https://www.instagram.com/trezor.io'
+- 'https://www.facebook.com/trezor.io'
 redirect_from: 
-developerName: Trezor
+developerName: 'Trezor'
 features: 
 
 ---
