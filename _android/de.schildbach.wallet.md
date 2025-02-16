@@ -23,12 +23,18 @@ bugbounty:
 meta: 'ok'
 verdict: 'reproducible'
 appHashes:
-- 'd9ea9a82ec65b8b3d137218ca77e1e0b271e396e2b19b6ea53af5c9422ab49ba'
-date: '2025-02-05'
-signer: '58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38'
+- 8928ccd823ff862870fbc3954b7b1985d343124545bb3aeb9c112a2e57de82cd
+date: 2025-02-13
+signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
 reviewArchive:
-- date: '2025-01-28'
-  version: '10.22'
+- date: 2025-02-05
+  version: 10.23
+  appHashes:
+  - d9ea9a82ec65b8b3d137218ca77e1e0b271e396e2b19b6ea53af5c9422ab49ba
+  gitRevision: 06269489f66cbd42872a1d7ff4f1049cb9442927
+  verdict: reproducible
+- date: 2025-01-28
+  version: 10.22
   appHashes:
   - '0ebee116661bbc844c679841411c4d3b09575b367d187ad1e28739053c2409e3'
   gitRevision: '5c1b28c89358d7f8248a1e608114ed1cf981e7ed'
@@ -278,34 +284,34 @@ features:
 
 ---
 
-Version 10.23 release had these results:
+Version 10.24 release had these results:
 
 ```
 ===== Begin Results =====
 appId:          de.schildbach.wallet
 signer:         58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
-apkVersionName: 10.23
-apkVersionCode: 102300
+apkVersionName: 10.24
+apkVersionCode: 102400
 verdict:        reproducible
-appHash:        d9ea9a82ec65b8b3d137218ca77e1e0b271e396e2b19b6ea53af5c9422ab49ba
-commit:         0973aec8ca80738e67772d5bab00ce067d3aea91
+appHash:        8928ccd823ff862870fbc3954b7b1985d343124545bb3aeb9c112a2e57de82cd
+commit:         903a026d1faf16bbc0463a524cd88def598fc627
 
 Diff:
-Only in /tmp/fromPlay_de.schildbach.wallet_102300/META-INF: BITCOIN-.RSA
-Only in /tmp/fromPlay_de.schildbach.wallet_102300/META-INF: BITCOIN-.SF
-Files /tmp/fromPlay_de.schildbach.wallet_102300/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_102300/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_de.schildbach.wallet_102400/META-INF: BITCOIN-.RSA
+Only in /tmp/fromPlay_de.schildbach.wallet_102400/META-INF: BITCOIN-.SF
+Files /tmp/fromPlay_de.schildbach.wallet_102400/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_102400/META-INF/MANIFEST.MF differ
 
 Revision, tag (and its signature):
-object 0973aec8ca80738e67772d5bab00ce067d3aea91
+object 903a026d1faf16bbc0463a524cd88def598fc627
 type commit
-tag v10.23
-tagger Andreas Schildbach <andreas@schildbach.de> 1737908528 +0100
+tag v10.24
+tagger Andreas Schildbach <andreas@schildbach.de> 1737996997 +0100
 
-10.23 release
+10.24 release
 ===== End Results =====
 
 ```
 {% include asciicast %}
 
 
-Version 10.23 of the {{ page.title }} is **reproducible**.
+Version 10.24 of the {{ page.title }} is **reproducible**.
