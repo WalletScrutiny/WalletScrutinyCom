@@ -6,8 +6,8 @@ authors:
 - leo
 released: '2020-12-20'
 discontinued: 
-updated: '2024-08-21'
-version: '0.8.0'
+updated: '2025-02-05'
+version: '0.8.5'
 binaries: https://github.com/SeedSigner/seedsigner/releases
 dimensions: 
 weight: 
@@ -25,13 +25,22 @@ bugbounty:
 meta: ok
 verdict: reproducible
 appHashes:
-- 1d0f1c412f64b40e6aba21b5bacdb41d9323653c170ce06d0a3f1dd71fddb28e
-- 11c5553d75b3ebca4988ae3c4573b60b33a12bc4779282454ae34404ba797670
-- c8d5352ed4a86c19eb9ef54f2920934f8ce460742b464ea94dc9114f9f4e039a
-- 917201e335bfc7ee4189f17827f954f89588dc0fdefdad80d26f2a65c5c8e6d0
+- bcb901e27d309d85f086dc80b49b153d6b1caab2247eba2811731384d58f2f3e
+- 1e93a82e62d4a1defbdc777a6762a813f4cb5c3ef9090da0bd07542dfd6f62bf
+- 398d9bf9cda0858fe97c0788b353194c1c902335a858b7dbf5d7b213bda75d96
+- d298ffad3c765e11e48873efc6d1c65e4230528fde4d5bd4701bb507acbf493c
 date: '2024-12-18'
 signer: 
 reviewArchive:
+- date: '2024-12-18'
+  version: '0.8.0'
+  appHashes:
+  - 1d0f1c412f64b40e6aba21b5bacdb41d9323653c170ce06d0a3f1dd71fddb28e
+  - 11c5553d75b3ebca4988ae3c4573b60b33a12bc4779282454ae34404ba797670
+  - c8d5352ed4a86c19eb9ef54f2920934f8ce460742b464ea94dc9114f9f4e039a
+  - 917201e335bfc7ee4189f17827f954f89588dc0fdefdad80d26f2a65c5c8e6d0
+  gitRevision: 93f538c4a309c720acb3a344ddb614b5d546cefa
+  verdict: reproducible
 - date: '2023-09-14'
   version: '0.7.0'
   appHashes: []
@@ -51,95 +60,81 @@ features:
 
 ---
 
-**Update 2024-12-18**:
+**Update 2025-02-17**:
 
 ```
+
+seedsigner_os.0.8.5.pi0.img
+
 ===== Begin Results =====
 appId:          seedsigner
 board:          Raspberry Pi Zero 1.3
-version:        '0.8.0'
-builtHash:      1d0f1c412f64b40e6aba21b5bacdb41d9323653c170ce06d0a3f1dd71fddb28e
-releaseHash:    1d0f1c412f64b40e6aba21b5bacdb41d9323653c170ce06d0a3f1dd71fddb28e
+version:        '0.8.5'
+builtHash:      bcb901e27d309d85f086dc80b49b153d6b1caab2247eba2811731384d58f2f3e
+releaseHash:    bcb901e27d309d85f086dc80b49b153d6b1caab2247eba2811731384d58f2f3e
 verdict:        reproducible
 ===== End Results =====
+
+seedsigner_os.0.8.5.pi2.img
 
 ===== Begin Results =====
 appId:          seedsigner
 board:          Raspberry Pi 2 Model B
-version:        '0.8.0'
-builtHash:      11c5553d75b3ebca4988ae3c4573b60b33a12bc4779282454ae34404ba797670
-releaseHash:    11c5553d75b3ebca4988ae3c4573b60b33a12bc4779282454ae34404ba797670
+version:        '0.8.5'
+builtHash:      1e93a82e62d4a1defbdc777a6762a813f4cb5c3ef9090da0bd07542dfd6f62bf
+releaseHash:    1e93a82e62d4a1defbdc777a6762a813f4cb5c3ef9090da0bd07542dfd6f62bf
 verdict:        reproducible
 ===== End Results =====
+
+seedsigner_os.0.8.5.pi02w.img
 
 ===== Begin Results =====
 appId:          seedsigner
 board:          Raspberry Pi Zero 2 W
-version:        '0.8.0'
-builtHash:      c8d5352ed4a86c19eb9ef54f2920934f8ce460742b464ea94dc9114f9f4e039a
-releaseHash:    c8d5352ed4a86c19eb9ef54f2920934f8ce460742b464ea94dc9114f9f4e039a
+version:        '0.8.5'
+builtHash:      398d9bf9cda0858fe97c0788b353194c1c902335a858b7dbf5d7b213bda75d96
+releaseHash:    398d9bf9cda0858fe97c0788b353194c1c902335a858b7dbf5d7b213bda75d96
 verdict:        reproducible
 ===== End Results =====
+
+seedsigner_os.0.8.5.pi4.img
 
 ===== Begin Results =====
 appId:          seedsigner
 board:          Raspberry Pi 4 Model B
-version:        '0.8.0'
-builtHash:      917201e335bfc7ee4189f17827f954f89588dc0fdefdad80d26f2a65c5c8e6d0
-releaseHash:    917201e335bfc7ee4189f17827f954f89588dc0fdefdad80d26f2a65c5c8e6d0
+version:        '0.8.5'
+builtHash:      d298ffad3c765e11e48873efc6d1c65e4230528fde4d5bd4701bb507acbf493c
+releaseHash:    d298ffad3c765e11e48873efc6d1c65e4230528fde4d5bd4701bb507acbf493c
 verdict:        reproducible
 ===== End Results =====
 ```
 
-**Update 2024-09-14**: 
+The [seedsigner.sh](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/scripts/test/hardware/seedsigner.sh) script is outputting "not-reproducible" but this is attributable to a flaw in the SHA256SUM string comparison logic.
 
-We managed to build a [script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/e97be2a2e9604e8d4cdade68bef9687305784419/scripts/test/hardware/seedsigner.sh) that makes it slightly easier to verify the SeedSigner. 
+We manually encoded the SHA256SUM string from the build.
 
-From it, we get these results:
+The hash from their [release](https://github.com/SeedSigner/seedsigner/releases/download/0.8.5/seedsigner.0.8.5.sha256.txt)
 
 ```
-build-images-1  | Disk disk.img: 26 MiB, 27262976 bytes, 53248 sectors
-build-images-1  | Units: sectors of 1 * 512 = 512 bytes
-build-images-1  | Sector size (logical/physical): 512 bytes / 512 bytes
-build-images-1  | I/O size (minimum/optimal): 512 bytes / 512 bytes
-build-images-1  | 
-build-images-1  | >>> Script header accepted.
-build-images-1  | >>> Script header accepted.
-build-images-1  | >>> Created a new DOS disklabel with disk identifier 0xba5eba11.
-build-images-1  | disk.img1: Created a new partition 1 of type 'W95 FAT32 (LBA)' and of size 25 MiB.
-build-images-1  | disk.img2: Done.
-build-images-1  | 
-build-images-1  | New situation:
-build-images-1  | Disklabel type: dos
-build-images-1  | Disk identifier: 0xba5eba11
-build-images-1  | 
-build-images-1  | Device     Boot Start   End Sectors Size Id Type
-build-images-1  | disk.img1  *     2048 53247   51200  25M  c W95 FAT32 (LBA)
-build-images-1  | 
-build-images-1  | The partition table has been altered.
-build-images-1  | Syncing disks.
-build-images-1  | mkfs.fat 4.2 (2021-01-31)
-build-images-1  | /opt/buildroot
-build-images-1  | 917201e335bfc7ee4189f17827f954f89588dc0fdefdad80d26f2a65c5c8e6d0  /opt/../images/seedsigner_os.0.8.0.pi4.img
-build-images-1 exited with code 0
-Script finished.
+398d9bf9cda0858fe97c0788b353194c1c902335a858b7dbf5d7b213bda75d96  seedsigner_os.0.8.5.pi02w.img
+bcb901e27d309d85f086dc80b49b153d6b1caab2247eba2811731384d58f2f3e  seedsigner_os.0.8.5.pi0.img
+1e93a82e62d4a1defbdc777a6762a813f4cb5c3ef9090da0bd07542dfd6f62bf  seedsigner_os.0.8.5.pi2.img
+d298ffad3c765e11e48873efc6d1c65e4230528fde4d5bd4701bb507acbf493c  seedsigner_os.0.8.5.pi4.img
 ```
 
-The hash from their [release](https://github.com/SeedSigner/seedsigner/releases/download/0.8.0/seedsigner.0.8.0.sha256.txt)
+We verify if one of the actual images has this hash: 
 
-- Hash from the build: 917201e335bfc7ee4189f17827f954f89588dc0fdefdad80d26f2a65c5c8e6d0
-- Hash from repository: 917201e335bfc7ee4189f17827f954f89588dc0fdefdad80d26f2a65c5c8e6d0
+```
+$ wget https://github.com/SeedSigner/seedsigner/releases/download/0.8.5/seedsigner_os.0.8.5.pi0.img
+$ sha256sum seedsigner_os.0.8.5.pi0.img
+bcb901e27d309d85f086dc80b49b153d6b1caab2247eba2811731384d58f2f3e  seedsigner_os.0.8.5.pi0.img
+```
 
-We verify if the actual image has this hash: 
+The other images are available as well. 
 
-`$ wget https://github.com/SeedSigner/seedsigner/releases/download/0.8.0/seedsigner_os.0.8.0.pi4.img`
-`$ sha256sum seedsigner_os.0.8.0.pi4.img`
-`917201e335bfc7ee4189f17827f954f89588dc0fdefdad80d26f2a65c5c8e6d0  seedsigner_os.0.8.0.pi4.img`
+This confirms that version 0.8.5 is **reproducibile**
 
-This confirms that version 0.8.0 is **reproducibile**
-
-
-{% include asciicast %}
+The asciicast is too big, hence I put it in my own repository with GitHub LFS [here](https://github.com/xrviv/walletScrutinyBuildCasts/blob/main/2025/2025-02-17.seedsigner_v0.8.5.cast).
 
 
 **Update 2023-09-14**: Seedsigner
