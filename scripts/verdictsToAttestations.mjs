@@ -3,6 +3,19 @@ import path from 'path';
 import yaml from 'js-yaml'; 
 import { nostrConnect, createAssetRegistration, createAttestation } from '../src/attestation_utils.mjs';
 
+function getStatusFromVerdict(verdict) {
+    switch (verdict) {
+        case 'reproducible':
+            return 'reproducible';
+        case 'nonverifiable':
+            return 'not_reproducible';
+        case 'ftbfs':
+            return 'ftbfs';
+        default:
+            return null;
+    }
+}
+
 console.debug = function() {};
 
 async function parseFile(filePath, folderName) {
@@ -83,21 +96,6 @@ async function parseFile(filePath, folderName) {
             //console.log(`   Skipping verdict (${appId}): ${data.verdict}`);
             return;
         }
-        if (['reproducible', 'nonverifiable', 'ftbfs'].includes(data.verdict)) {
-            console.log(`   Verdict (${appId}): ${data.verdict}`);
-
-            switch (data.verdict) {
-                case 'reproducible':
-                    status = 'reproducible';
-                    break;
-                case 'nonverifiable':
-                    status = 'not_reproducible';
-                    break;
-                case 'ftbfs':
-                    status = 'ftbfs';
-                    break;
-            }
-        }
 
         // Create events for each review in reviewArchive
         if (data.reviewArchive && data.reviewArchive.length > 0) {
@@ -117,13 +115,13 @@ async function parseFile(filePath, folderName) {
                 }
 
                 await createNostrEvents({
-                    sha256: review.appHashes[0],     // TODO: ¿más de uno como en nunchuk?
+                    sha256: review.appHashes[0],     // TODO: more than one as in nunchuk?
                     appId,
                     version: review.version,
                     platform: folderName,
                     name: folderName === 'android' ? "Google Play extracted apk" : "Binary obtained from the manufacturer's website",
                     content: review.gitRevision ? `Legacy verification by WalletScrutiny (${review.date}). See details <a target="_blank" href="https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/${review.gitRevision}/_${folderName}/${appId}.md">here</a>.` : '',
-                    status: review.verdict
+                    status: getStatusFromVerdict(review.verdict)
                 });
             }
         }
@@ -151,7 +149,7 @@ async function parseFile(filePath, folderName) {
                 platform: folderName,
                 name: folderName === 'android' ? "Google Play extracted apk" : "Binary obtained from the manufacturer's website",
                 content: contentAfterYaml,
-                status: status
+                status: getStatusFromVerdict(data.verdict)
             });
         }
 
