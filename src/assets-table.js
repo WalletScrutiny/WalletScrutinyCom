@@ -110,6 +110,7 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
       const version = binary.tags.find(tag => tag[0] === 'version')?.[1] || '';
       const oldInfoStatus = binary.tags.find(tag => tag[0] === 'status')?.[1] || '';
       const identifier = binary.tags.find(tag => tag[0] === 'i')?.[1] || "";
+      const platform = binary.tags.find(tag => tag[0] === 'platform')?.[1] || "";
       let longStatus = null;
 
       if (binary.isLegacy) {
@@ -174,7 +175,7 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
               break;
           }
 
-          listItems += `<span onclick='showAttestationModal("${sha256Hash}", "${attestation.id}")' class="attestation-link" style="cursor: pointer; margin-bottom: 0; margin-top: 0; display: block;">
+          listItems += `<span onclick='showAttestationModal("${sha256Hash}", "${attestation.id}", "${identifier}", "${platform}")' class="attestation-link" style="cursor: pointer; margin-bottom: 0; margin-top: 0; display: block;">
             <div style="line-height: 1.2; margin-bottom: 0.7em;">
               ${statusText}
               <small style="display: block;">(${attestationDate})</small>
@@ -268,7 +269,7 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
   };
 };
 
-window.showAttestationModal = async function(sha256Hash, attestationId) {
+window.showAttestationModal = async function(sha256Hash, attestationId, appId, platform) {
   document.body.classList.add("modal-open");
   
   const attestations = response.attestations.get(sha256Hash);
@@ -348,18 +349,15 @@ window.showAttestationModal = async function(sha256Hash, attestationId) {
 
     // Wait until asciinemaPlayerJS is loaded
     asciinemaPlayerJS.onload = () => {
-      const urlPath = window.location.pathname;
-      const pathParts = urlPath.split('/').filter(Boolean);
-      const folderName = pathParts[0];
-      const appId = pathParts[1];
-
       AsciinemaPlayer.create(
-        '/assets/casts/'+folderName+'/'+appId+`.cast`,
-        document.getElementById('ascii_cast_player'),{
-        idleTimeLimit: 1,
-        autoPlay: true,
-        rows: 25
-      });
+        '/assets/casts/' + platform + '/' + appId + '.cast',
+        document.getElementById('ascii_cast_player'),
+        {
+          idleTimeLimit: 1,
+          autoPlay: true,
+          rows: 25
+        }
+      );
     };
   }
 
