@@ -185,7 +185,7 @@ async function createNostrEvents({
         platform,
         name
     });
-    await new Promise(resolve => setTimeout(resolve, 300));
+    await new Promise(resolve => setTimeout(resolve, 600));
 
     const assetEventId = assetEvent.id;
 
@@ -196,7 +196,7 @@ async function createNostrEvents({
         status,
         assetEventId
     });
-    await new Promise(resolve => setTimeout(resolve, 300));
+    await new Promise(resolve => setTimeout(resolve, 600));
 }
 
 function parseResults(resultsString) {
