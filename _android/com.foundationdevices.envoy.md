@@ -20,9 +20,13 @@ issue: https://github.com/Foundation-Devices/envoy/issues/1395
 icon: com.foundationdevices.envoy.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-appHashes: []
-date: 2024-11-22
+verdict: nonverifiable
+appHashes:
+- 84628d12486a8f47879952a2cf8bb6e0650c0f0d7ad7c0ccb71fded5bcc6e5f0 
+- 651ee1d39e5e8373af42229e98f4cd6c4bb57e070dd8881c31a91c40bcd971b2 
+- ad7fccf1d8dfc1761d2dbebc8ca6cc6a55ed7ee48b9e4636301ec184bbf5eb32 
+- 44dedb6efff420a0fc618162ab61d6d15b57cb6f025a0e181c072a12c0621727
+date: 2025-02-13
 signer: 
 reviewArchive:
 - date: 2024-11-22
@@ -46,232 +50,470 @@ features:
 
 ---
 
-## Updated Review v1.8.4 2024-11-22
+## Updated Review v1.8.6 2025-02-13
 
-### Split APK comparison
-
-- With a modified build process, we were able to generate an AAB file by issuing the command 'just docker-build-android' after cloning the repository
-- We automated this process with an updated script, since {{ page.title }} uses **split-apks**.
-
-```
-Official APKs:
-========================================
-**Official APKs Hashes**
-7d883cf4ac02b16238e2075a726db8dcefd7250f8461d06565e2daf9b520e2be base.apk
-c7283366b3c0857aae728dfa38d5776985362c000864d11ad95e5ea446019bae split_config.arm64_v8a.apk
-2e8d46dc9d6df35d69b1f796e1ff44dd5eef92aafcb94c88159a7dd96c6527bd split_config.en.apk
-a3830481af62bf78d71a3e628f837fc76959d38028e985945bea956f8e80a931 split_config.xxhdpi.apk
-========================================
-Built APKs:
-========================================
-**Built APKs Hashes**
-3e8f3eeb18c4ef6ca109e353db416e7a7839265549881793d1d3ebcc1ca4dfbc base-arm64_v8a.apk
-b60c2f36cff6cd5d2d52f16c6342145b276957e9a422728bba99e2cf4abc1a0c base-en.apk
-54602149925cb94beccc4bb1e35960e3fbfc6025c848991d3415255ac6ca6856 base-master.apk
-71181091b49726b1f445ba842ab57057ebdb947e5f92020eafec9e046893dd5e base-xxhdpi.apk
-========================================
-========================================
-```
-
-### We then process the diffs
-
-Differences found between /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/arm64_v8a and /tmp/test_com.foundationdevices.envoy_1.8.4/fromBuild-unzipped/arm64_v8a
-
-### arm64_v8a
-
-```
-Binary files /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/arm64_v8a/AndroidManifest.xml and /tmp/test_com.foundationdevices.envoy_1.8.4/fromBuild-unzipped/arm64_v8a/AndroidManifest.xml differ
-Binary files /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/arm64_v8a/lib/arm64-v8a/libapp.so and /tmp/test_com.foundationdevices.envoy_1.8.4/fromBuild-unzipped/arm64_v8a/lib/arm64-v8a/libapp.so differ
-Binary files /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/arm64_v8a/lib/arm64-v8a/libtor.so and /tmp/test_com.foundationdevices.envoy_1.8.4/fromBuild-unzipped/arm64_v8a/lib/arm64-v8a/libtor.so differ
-Only in /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/arm64_v8a: META-INF
-Only in /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/arm64_v8a: stamp-cert-sha256
-```
-{% include diffoscope-modal.html label='AndroidManifest.xml' url='/assets/diffoscope-results/android/com.foundationdevices.envoy/1.8.4/diffo-arm64_v8a-AndroidManifest.xml.html' %}
-
-{% include diffoscope-modal.html label='libapp.so' url='/assets/diffoscope-results/android/com.foundationdevices.envoy/1.8.4/diffo-arm64_v8a-libapp.so.html' %}
-
-{% include diffoscope-modal.html label='libtor.so' url='/assets/diffoscope-results/android/com.foundationdevices.envoy/1.8.4/diffo-arm64_v8a-libtor.so.html' %}
-
-### en.apk
-
-Differences found between /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/en and /tmp/test_com.foundationdevices.envoy_1.8.4/fromBuild-unzipped/en
-
-```
-Binary files /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/en/AndroidManifest.xml and /tmp/test_com.foundationdevices.envoy_1.8.4/fromBuild-unzipped/en/AndroidManifest.xml differ
-Only in /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/en: META-INF
-Binary files /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/en/resources.arsc and /tmp/test_com.foundationdevices.envoy_1.8.4/fromBuild-unzipped/en/resources.arsc differ
-Only in /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/en: stamp-cert-sha256
-```
-{% include diffoscope-modal.html label='AndroidManifest.xml' url='/assets/diffoscope-results/android/com.foundationdevices.envoy/1.8.4/diffo-en-AndroidManifest.xml.html' %}
-
-{% include diffoscope-modal.html label='resources.arsc' url='/assets/diffoscope-results/android/com.foundationdevices.envoy/1.8.4/diffo-en-resources.arsc.html' %}
-
-### xxhdpi.apk
-
-Differences found between /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/xxhdpi and /tmp/test_com.foundationdevices.envoy_1.8.4/fromBuild-unzipped/xxhdpi
-
-```
-Binary files /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/xxhdpi/AndroidManifest.xml and /tmp/test_com.foundationdevices.envoy_1.8.4/fromBuild-unzipped/xxhdpi/AndroidManifest.xml differ
-Only in /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/xxhdpi: META-INF
-Binary files /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/xxhdpi/resources.arsc and /tmp/test_com.foundationdevices.envoy_1.8.4/fromBuild-unzipped/xxhdpi/resources.arsc differ
-Only in /tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/xxhdpi: stamp-cert-sha256
-```
-
-{% include diffoscope-modal.html label='AndroidManifest.xml' url='/assets/diffoscope-results/android/com.foundationdevices.envoy/1.8.4/diffo-xxhdpi-AndroidManifest.xml.html' %}
-
-{% include diffoscope-modal.html label='resources.arsc' url='/assets/diffoscope-results/android/com.foundationdevices.envoy/1.8.4/diffo-xxhdpi-resources.arsc.html' %}
-
-### base.apk
-
-Differences found between `/tmp/test_com.foundationdevices.envoy_1.8.4/fromPlay-unzipped/base` and `/tmp/test_com.foundationdevices.envoy_1.8.4/fromBuild-unzipped/base` is too large to put here and included characters that are not parsed properly. So we endeavored to use diffoscope on the two folders instead [found in this file]
-
-{% include diffoscope-modal.html label='base.apk diffoscope' url='/assets/diffoscope-results/android/com.foundationdevices.envoy/1.8.4/diffo_base.html' %}
+Using our [testAAB.sh](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/testAAB.sh) script, along with the existing app-specific script and dockerfile. 
 
 {% include asciicast %}
 
-## Previous Review 2024-10-22
+## Build Results
 
-Our [test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/scripts/test/android/com.foundationdevices.envoy.sh) was executed successfully, resulting in a successfully built APK.
-
-The APK was built successfully:
+### arm64_v8a.apk
 
 ```
-✓ Built build/app/outputs/flutter-apk/app-release.apk .
+Differences found between /tmp/test_com.foundationdevices.envoy_1.8.6/fromPlay-unzipped/arm64_v8a and /tmp/test_com.foundationdevices.envoy_1.8.6/fromBuild-unzipped/arm64_v8a
+Binary files /tmp/test_com.foundationdevices.envoy_1.8.6/fromPlay-unzipped/arm64_v8a/AndroidManifest.xml and /tmp/test_com.foundationdevices.envoy_1.8.6/fromBuild-unzipped/arm64_v8a/AndroidManifest.xml differ
+Binary files /tmp/test_com.foundationdevices.envoy_1.8.6/fromPlay-unzipped/arm64_v8a/lib/arm64-v8a/libapp.so and /tmp/test_com.foundationdevices.envoy_1.8.6/fromBuild-unzipped/arm64_v8a/lib/arm64-v8a/libapp.so differ
+Binary files /tmp/test_com.foundationdevices.envoy_1.8.6/fromPlay-unzipped/arm64_v8a/lib/arm64-v8a/libbackup_ffi.so and /tmp/test_com.foundationdevices.envoy_1.8.6/fromBuild-unzipped/arm64_v8a/lib/arm64-v8a/libbackup_ffi.so differ
+Binary files /tmp/test_com.foundationdevices.envoy_1.8.6/fromPlay-unzipped/arm64_v8a/lib/arm64-v8a/libtor.so and /tmp/test_com.foundationdevices.envoy_1.8.6/fromBuild-unzipped/arm64_v8a/lib/arm64-v8a/libtor.so differ
+Only in /tmp/test_com.foundationdevices.envoy_1.8.6/fromPlay-unzipped/arm64_v8a: META-INF
+Only in /tmp/test_com.foundationdevices.envoy_1.8.6/fromPlay-unzipped/arm64_v8a: stamp-cert-sha256
+Differences saved to /tmp/test_com.foundationdevices.envoy_1.8.6/diff_arm64_v8a.txt
 ```
 
-We then extracted the generated APK from the build and also obtained the official APK from the Google Play Store. After unzipping both APKs using `unzip --qqd`, we performed a comparison using:
+### base.apk
 
 ```
-diff --recursive fromBuild/ fromOfficial/
+Differences found between /tmp/test_com.foundationdevices.envoy_1.8.6/fromPlay-unzipped/base and /tmp/test_com.foundationdevices.envoy_1.8.6/fromBuild-unzipped/base
+./testAAB.sh: line 277: echo: write error: Broken pipe
+Binary files /tmp/test_com.foundationdevices.envoy_1.8.6/fromPlay-unzipped/base/AndroidManifest.xml and /tmp/test_com.foundationdevices.envoy_1.8.6/fromBuild-unzipped/base/AndroidManifest.xml differ
+Binary files /tmp/test_com.foundationdevices.envoy_1.8.6/fromPlay-unzipped/base/assets/dexopt/baseline.prof and /tmp/test_com.foundationdevices.envoy_1.8.6/fromBuild-unzipped/base/assets/dexopt/baseline.prof differ
+Binary files /tmp/test_com.foundationdevices.envoy_1.8.6/fromPlay-unzipped/base/assets/dexopt/baseline.profm and /tmp/test_com.foundationdevices.envoy_1.8.6/fromBuild-unzipped/base/assets/dexopt/baseline.profm differ
+diff -r /tmp/test_com.foundationdevices.envoy_1.8.6/fromPlay-unzipped/base/assets/flutter_assets/AssetManifest.bin /tmp/test_com.foundationdevices.envoy_1.8.6/fromBuild-unzipped/base/assets/flutter_assets/AssetManifest.bin
+1c1
+�assets/BTCPayLogo.png
+assetassets/BTCPayLogo.pngassets/EnvoyIcons.ttf
+assetassets/EnvoyIcons.ttfassets/accounts.svg
+assetassets/accounts.svgassets/address_verify.png
+assetassets/address_verify.pngssets/allowed_regions.json
+assetssets/allowed_regions.jsonassets/animated_odometer.riv
+assetassets/animated_odometer.riv assets/animated_privacy_icon.riv
+asset assets/animated_privacy_icon.rivassets/atm_data.json
+assetassets/atm_data.jsonassets/azteco_logo.png
+assetassets/azteco_logo.pngassets/backspace.svg
+assetassets/backspace.svgassets/beefqa_backup.mla.txt
+assetassets/beefqa_backup.mla.txtassets/bitcoin.svg
+assetassets/bitcoin.svgassets/circle_ok.png
+assetassets/circle_ok.pngassets/coin_lock.riv
+assetassets/coin_lock.rivassets/community.svg
+assetassets/community.svg$assets/components/icons/activity.svg
+asset$assets/components/icons/activity.svg!assets/components/icons/alert.svg
+asset!assets/components/icons/alert.svg+assets/components/icons/arrow_down_left.svg
+asset+assets/components/icons/arrow_down_left.svg*assets/components/icons/arrow_up_right.svg
+asset*assets/components/icons/arrow_up_right.svg"assets/components/icons/azteco.svg
+asset"assets/components/icons/azteco.svg assets/components/icons/bell.svg
+asset assets/components/icons/bell.svg&assets/components/icons/biometrics.svg
+asset&assets/components/icons/biometrics.svg assets/components/icons/bisq.svg
+asset assets/components/icons/bisq.svg%assets/components/icons/bitcoin_b.svg
+asset%assets/components/icons/bitcoin_b.svg%assets/components/icons/brandmark.png
+asset%assets/components/icons/brandmark.pngassets/components/icons/btc.svg
+assetassets/components/icons/btc.svg"assets/components/icons/btcPay.svg
+asset"assets/components/icons/btcPay.svg$assets/components/icons/calendar.svg
+asset$assets/components/icons/calendar.svg%assets/components/icons/card_view.svg
+asset%assets/components/icons/card_view.svg!assets/components/icons/check.svg
+asset!assets/components/icons/check.svg*assets/components/icons/checked_circle.svg
+asset*assets/components/icons/checked_circle.svg(assets/components/icons/chevron_down.svg
+asset(assets/components/icons/chevron_down.svg(assets/components/icons/chevron_left.svg
+asset(assets/components/icons/chevron_left.svg)assets/components/icons/chevron_right.svg
+asset)assets/components/icons/chevron_right.svg%assets/components/icons/clipboard.svg
+asset%assets/components/icons/clipboard.svg!assets/components/icons/clock.svg
+asset!assets/components/icons/clock.svg!assets/components/icons/close.svg
+asset!assets/components/icons/close.svg(assets/components/icons/close_circle.svg
+asset(assets/components/icons/close_circle.svg#assets/components/icons/compass.svg
+asset#assets/components/icons/compass.svg assets/components/icons/copy.svg
+asset assets/components/icons/copy.svg"assets/components/icons/delete.svg
+asset"assets/components/icons/delete.svg#assets/components/icons/devices.svg
+asset#assets/components/icons/devices.svg$assets/components/icons/download.svg
+asset$assets/components/icons/download.svg assets/components/icons/edit.svg
+asset assets/components/icons/edit.svg(assets/components/icons/externalLink.svg
+asset(assets/components/icons/externalLink.svg"assets/components/icons/filter.svg
+asset"assets/components/icons/filter.svg#assets/components/icons/history.svg
+asset#assets/components/icons/history.svg$assets/components/icons/hodlHodl.svg
+asset$assets/components/icons/hodlHodl.svg assets/components/icons/info.svg
+asset assets/components/icons/info.svg!assets/components/icons/learn.svg
+asset!assets/components/icons/learn.svg assets/components/icons/list.svg
+asset assets/components/icons/list.svg$assets/components/icons/location.svg
+asset$assets/components/icons/location.svg(assets/components/icons/location_tab.svg
+asset(assets/components/icons/location_tab.svg assets/components/icons/mail.svg
+asset assets/components/icons/mail.svg!assets/components/icons/minus.svg
+asset!assets/components/icons/minus.svg assets/components/icons/node.svg
+asset assets/components/icons/node.svg assets/components/icons/note.svg
+asset assets/components/icons/note.svg!assets/components/icons/peach.svg
+asset!assets/components/icons/peach.svg'assets/components/icons/performance.svg
+asset'assets/components/icons/performance.svg assets/components/icons/plus.svg
+asset assets/components/icons/plus.svg#assets/components/icons/privacy.svg
+asset#assets/components/icons/privacy.svg assets/components/icons/ramp.svg
+asset assets/components/icons/ramp.svg-assets/components/icons/ramp_without_name.svg
+asset-assets/components/icons/ramp_without_name.svg%assets/components/icons/rbf_boost.svg
+asset%assets/components/icons/rbf_boost.svg#assets/components/icons/receive.svg
+asset#assets/components/icons/receive.svg"assets/components/icons/remove.svg
+asset"assets/components/icons/remove.svg$assets/components/icons/robosats.svg
+asset$assets/components/icons/robosats.svg assets/components/icons/sats.svg
+asset assets/components/icons/sats.svg assets/components/icons/scan.svg
+asset assets/components/icons/scan.svg"assets/components/icons/search.svg
+asset"assets/components/icons/search.svg assets/components/icons/send.svg
+asset assets/components/icons/send.svg!assets/components/icons/share.svg
+asset!assets/components/icons/share.svg"assets/components/icons/shield.svg
+asset"assets/components/icons/shield.svg(assets/components/icons/signet_badge.svg
+asset(assets/components/icons/signet_badge.svg!assets/components/icons/spend.svg
+asset!assets/components/icons/spend.svg&assets/components/icons/stop_watch.svg
+asset&assets/components/icons/stop_watch.svgassets/components/icons/tag.svg
+assetassets/components/icons/tag.svg)assets/components/icons/testnet_badge.svg
+asset)assets/components/icons/testnet_badge.svg assets/components/icons/tool.svg
+asset assets/components/icons/tool.svg$assets/components/icons/transfer.svg
+asset$assets/components/icons/transfer.svg*assets/components/icons/unknown_circle.svg
+asset*assets/components/icons/unknown_circle.svg assets/components/icons/utxo.svg
+asset assets/components/icons/utxo.svg)assets/components/icons/verifyAddress.svg
+asset)assets/components/icons/verifyAddress.svg"assets/components/icons/wallet.svg
+asset"assets/components/icons/wallet.svgassets/data_secured_1.png
+assetassets/data_secured_1.pngassets/data_secured_2.png
+assetassets/data_secured_2.pngassets/data_secured_3.png
+assetassets/data_secured_3.pngassets/devices.svg
+assetassets/devices.svg&assets/divisions-with-coordinates.json
+asset&assets/divisions-with-coordinates.jsonassets/envoy.png
+assetassets/envoy.pngassets/envoy_loader.riv
+assetassets/envoy_loader.rivassets/envoy_logo_new.svg
+assetassets/envoy_logo_new.svg assets/envoy_logo_with_title.png
+asset assets/envoy_logo_with_title.pngassets/envoy_magic_setup.riv
+assetassets/envoy_magic_setup.riv�assets/envoy_on_device.png
+asset�assets/envoy_on_device.pngassets/envoy_passport.png
+assetassets/envoy_passport.pngssets/exclamation_icon.png
+assetssets/exclamation_icon.pngassets/exclamation_triangle.png
+assetassets/exclamation_triangle.pngassets/fi_shield.png
+assetassets/fi_shield.pngassets/fi_shield_off.png
+assets/fw.svgi_shield_off.png
+assets/fw.svgassets/fw_intro.png
+assetassets/fw_intro.pngassets/fw_ios_instructions.png
+assetassets/fw_ios_instructions.pngassets/fw_microsd.png
+assetassets/fw_microsd.pngassets/fw_passport.png
+assetassets/fw_passport.pngassets/github.svg
+assetassets/github.svgassets/hamburger.riv
+assetassets/hamburger.rivassets/hot_wallet.svg
+assetassets/hot_wallet.svg
+                          assets/i.svg
+asset
+     assets/i.svgassets/icons/fi_hard_drive.svg
+assetassets/icons/fi_hard_drive.svg$assets/icons/ic_bitcoin_straight.svg
+asset$assets/icons/ic_bitcoin_straight.svg+assets/icons/ic_bitcoin_straight_circle.svg
+asset+assets/icons/ic_bitcoin_straight_circle.svg assets/icons/ic_circle_check.svg
+asset assets/icons/ic_circle_check.svgssets/icons/ic_compass.svg
+assetssets/icons/ic_compass.svgassets/icons/ic_copy.svg
+assetassets/icons/ic_copy.svgassets/icons/ic_edit_note.svg
+assetassets/icons/ic_edit_note.svgassets/icons/ic_envoy_share.svg
+assetassets/icons/ic_envoy_share.svg�assets/icons/ic_filter.svg
+asset�assets/icons/ic_filter.svg!assets/icons/ic_filter_funnel.svg
+asset!assets/icons/ic_filter_funnel.svgassets/icons/ic_node_icon.svg
+assetassets/icons/ic_node_icon.svgassets/icons/ic_note.svg
+assetassets/icons/ic_note.svgassets/icons/ic_notes.svg
+assetassets/icons/ic_notes.svg$assets/icons/ic_passport_account.svg
+asset$assets/icons/ic_passport_account.svgassets/icons/ic_sats.svg
+assetassets/icons/ic_sats.svgassets/icons/ic_spend.svg
+assetassets/icons/ic_spend.svgassets/icons/ic_status_icon.svg
+assetassets/icons/ic_status_icon.svgassets/icons/ic_tag.svg
+assetassets/icons/ic_tag.svgassets/icons/ic_utxos.svg
+assetassets/icons/ic_utxos.svg assets/icons/ic_wallet_coins.svg
+asset assets/icons/ic_wallet_coins.svg�assets/import_pp_intro.png
+asset�assets/import_pp_intro.pngassets/import_pp_scan.png
+assetassets/import_pp_scan.png"assets/indicator_shield_bronze.png
+asset"assets/indicator_shield_bronze.png"assets/indicator_shield_copper.png
+asset"assets/indicator_shield_copper.pngassets/indicator_shield_red.png
+assetassets/indicator_shield_red.png assets/indicator_shield_teal.png
+asset assets/indicator_shield_teal.pngassets/iso-3166-2.json
+assetassets/iso-3166-2.jsonassets/learn.svg
+assetassets/learn.svgassets/lightbulb.svg
+assetassets/lightbulb.svgassets/lightning.svg
+assetassets/lightning.svgassets/logo.png
+assetassets/logo.pngassets/logo_envoy.png
+assetassets/logo_envoy.pngassets/menu_x.svg
+assetassets/menu_x.svgassets/onboarding_lock_icon.png
+assetassets/onboarding_lock_icon.pngassets/onboarding_shield.png
+assetassets/onboarding_shield.pngassets/pair_new_device_scan.png
+assetassets/pair_new_device_scan.pngassets/passport1.png
+assetassets/passport1.pngassets/passport12.png
+assetassets/passport12.pngassets/passport_envoy.png
+assetassets/passport_envoy.pngassets/passport_tou.html
+assetassets/passport_tou.htmlassets/pin_intro.png
+assetassets/pin_intro.pngassets/pp_backup_code.png
+assetassets/pp_backup_code.pngassets/pp_encryption_words.png
+assetassets/pp_encryption_words.pngassets/pp_new_seed.png
+assetassets/pp_new_seed.pngassets/pp_restore_backup.png
+assetassets/pp_restore_backup.png�assets/pp_restore_seed.png
+asset�assets/pp_restore_seed.pngassets/pp_seed_backup.png
+assetassets/pp_seed_backup.pngassets/pp_seed_words.png
+assetassets/pp_seed_words.pngassets/pp_setup_intro.png
+assetassets/pp_setup_intro.pngassets/qr_scan.svg
+assetassets/qr_scan.svgassets/scv_scan_qr.png
+assetassets/scv_scan_qr.pngassets/shield_bad.png
+assetassets/shield_bad.pngassets/shield_info.png
+assetassets/shield_info.pngassets/shield_inspect.png
+assetassets/shield_inspect.pngassets/shield_ok.png
+assetassets/shield_ok.pngassets/shield_ok_info.png
+assetassets/shield_ok_info.pngassets/shielded.svg
+assetassets/shielded.svgassets/splash.png
+assetassets/splash.pngassets/splash.svg
+assetassets/splash.svgassets/splash_blank.png
+assetassets/splash_blank.pngassets/trophy_icon.png
+assetassets/trophy_icon.pngassets/vault.svg
+assetassets/vault.svg"assets/videos/fd_wallet_manual.m4v
+asset"assets/videos/fd_wallet_manual.m4vassets/videos/magic_backups.m4v
+assetassets/videos/magic_backups.m4vassets/videos/passport_ad.m4v
+assetassets/videos/passport_ad.m4vassets/viewfinder_stroke.svg
+assetassets/viewfinder_stroke.svgassets/wallet.svg
+assetassets/wallet.svg!google_fonts/Montserrat-Black.ttf
+asset!google_fonts/Montserrat-Black.ttf'google_fonts/Montserrat-BlackItalic.ttf
+asset'google_fonts/Montserrat-BlackItalic.ttf google_fonts/Montserrat-Bold.ttf
+asset google_fonts/Montserrat-Bold.ttf&google_fonts/Montserrat-BoldItalic.ttf
+asset&google_fonts/Montserrat-BoldItalic.ttf%google_fonts/Montserrat-ExtraBold.ttf
+asset%google_fonts/Montserrat-ExtraBold.ttf+google_fonts/Montserrat-ExtraBoldItalic.ttf
+asset+google_fonts/Montserrat-ExtraBoldItalic.ttf&google_fonts/Montserrat-ExtraLight.ttf
+asset&google_fonts/Montserrat-ExtraLight.ttf,google_fonts/Montserrat-ExtraLightItalic.ttf
+asset,google_fonts/Montserrat-ExtraLightItalic.ttf"google_fonts/Montserrat-Italic.ttf
+asset"google_fonts/Montserrat-Italic.ttf!google_fonts/Montserrat-Light.ttf
+asset!google_fonts/Montserrat-Light.ttf'google_fonts/Montserrat-LightItalic.ttf
+asset'google_fonts/Montserrat-LightItalic.ttf"google_fonts/Montserrat-Medium.ttf
+asset"google_fonts/Montserrat-Medium.ttf(google_fonts/Montserrat-MediumItalic.ttf
+asset(google_fonts/Montserrat-MediumItalic.ttf#google_fonts/Montserrat-Regular.ttf
+asset#google_fonts/Montserrat-Regular.ttf$google_fonts/Montserrat-SemiBold.ttf
+asset$google_fonts/Montserrat-SemiBold.ttf*google_fonts/Montserrat-SemiBoldItalic.ttf
+asset*google_fonts/Montserrat-SemiBoldItalic.ttf google_fonts/Montserrat-Thin.ttf
+asset google_fonts/Montserrat-Thin.ttf&google_fonts/Montserrat-ThinItalic.ttf
+asset&google_fonts/Montserrat-ThinItalic.ttf2packages/cupertino_icons/assets/CupertinoIcons.ttf
+asset2packages/cupertino_icons/assets/CupertinoIcons.ttf)packages/wakelock_plus/assets/no_sleep.js
+asset)packages/wakelock_plus/assets/no_sleep.js
+\ No newline at end of file
+---
+�assets/BTCPayLogo.png
+assetassets/BTCPayLogo.pngassets/EnvoyIcons.ttf
+assetassets/EnvoyIcons.ttfassets/accounts.svg
+assetassets/accounts.svgassets/address_verify.png
+assetassets/address_verify.pngssets/allowed_regions.json
+assetssets/allowed_regions.jsonassets/animated_odometer.riv
+assetassets/animated_odometer.riv assets/animated_privacy_icon.riv
+asset assets/animated_privacy_icon.rivassets/azteco_logo.png
+assetassets/azteco_logo.pngassets/backspace.svg
+assetassets/backspace.svgassets/bitcoin.svg
+assetassets/bitcoin.svgassets/circle_ok.png
+assetassets/circle_ok.pngassets/coin_lock.riv
+assetassets/coin_lock.riv$assets/components/icons/activity.svg
+asset$assets/components/icons/activity.svg!assets/components/icons/alert.svg
+asset!assets/components/icons/alert.svg+assets/components/icons/arrow_down_left.svg
+asset+assets/components/icons/arrow_down_left.svg*assets/components/icons/arrow_up_right.svg
+asset*assets/components/icons/arrow_up_right.svg"assets/components/icons/azteco.svg
+asset"assets/components/icons/azteco.svg assets/components/icons/bell.svg
+asset assets/components/icons/bell.svg&assets/components/icons/biometrics.svg
+asset&assets/components/icons/biometrics.svg assets/components/icons/bisq.svg
+asset assets/components/icons/bisq.svg%assets/components/icons/bitcoin_b.svg
+asset%assets/components/icons/bitcoin_b.svg%assets/components/icons/brandmark.png
+asset%assets/components/icons/brandmark.pngassets/components/icons/btc.svg
+assetassets/components/icons/btc.svg"assets/components/icons/btcPay.svg
+asset"assets/components/icons/btcPay.svg$assets/components/icons/calendar.svg
+asset$assets/components/icons/calendar.svg%assets/components/icons/card_view.svg
+asset%assets/components/icons/card_view.svg!assets/components/icons/check.svg
+asset!assets/components/icons/check.svg*assets/components/icons/checked_circle.svg
+asset*assets/components/icons/checked_circle.svg(assets/components/icons/chevron_down.svg
+asset(assets/components/icons/chevron_down.svg(assets/components/icons/chevron_left.svg
+asset(assets/components/icons/chevron_left.svg)assets/components/icons/chevron_right.svg
+asset)assets/components/icons/chevron_right.svg%assets/components/icons/clipboard.svg
+asset%assets/components/icons/clipboard.svg!assets/components/icons/clock.svg
+asset!assets/components/icons/clock.svg!assets/components/icons/close.svg
+asset!assets/components/icons/close.svg(assets/components/icons/close_circle.svg
+asset(assets/components/icons/close_circle.svg#assets/components/icons/compass.svg
+asset#assets/components/icons/compass.svg assets/components/icons/copy.svg
+asset assets/components/icons/copy.svg"assets/components/icons/delete.svg
+asset"assets/components/icons/delete.svg#assets/components/icons/devices.svg
+asset#assets/components/icons/devices.svg$assets/components/icons/download.svg
+asset$assets/components/icons/download.svg assets/components/icons/edit.svg
+asset assets/components/icons/edit.svg(assets/components/icons/externalLink.svg
+asset(assets/components/icons/externalLink.svg"assets/components/icons/filter.svg
+asset"assets/components/icons/filter.svg#assets/components/icons/history.svg
+asset#assets/components/icons/history.svg$assets/components/icons/hodlHodl.svg
+asset$assets/components/icons/hodlHodl.svg assets/components/icons/info.svg
+asset assets/components/icons/info.svg!assets/components/icons/learn.svg
+asset!assets/components/icons/learn.svg assets/components/icons/list.svg
+asset assets/components/icons/list.svg$assets/components/icons/location.svg
+asset$assets/components/icons/location.svg(assets/components/icons/location_tab.svg
+asset(assets/components/icons/location_tab.svg assets/components/icons/mail.svg
+asset assets/components/icons/mail.svg!assets/components/icons/minus.svg
+asset!assets/components/icons/minus.svg assets/components/icons/node.svg
+asset assets/components/icons/node.svg assets/components/icons/note.svg
+asset assets/components/icons/note.svg!assets/components/icons/peach.svg
+asset!assets/components/icons/peach.svg'assets/components/icons/performance.svg
+asset'assets/components/icons/performance.svg assets/components/icons/plus.svg
+asset assets/components/icons/plus.svg#assets/components/icons/privacy.svg
+asset#assets/components/icons/privacy.svg assets/components/icons/ramp.svg
+asset assets/components/icons/ramp.svg-assets/components/icons/ramp_without_name.svg
+asset-assets/components/icons/ramp_without_name.svg%assets/components/icons/rbf_boost.svg
+asset%assets/components/icons/rbf_boost.svg#assets/components/icons/receive.svg
+asset#assets/components/icons/receive.svg"assets/components/icons/remove.svg
+asset"assets/components/icons/remove.svg$assets/components/icons/robosats.svg
+asset$assets/components/icons/robosats.svg assets/components/icons/sats.svg
+asset assets/components/icons/sats.svg assets/components/icons/scan.svg
+asset assets/components/icons/scan.svg"assets/components/icons/search.svg
+asset"assets/components/icons/search.svg assets/components/icons/send.svg
+asset assets/components/icons/send.svg!assets/components/icons/share.svg
+asset!assets/components/icons/share.svg"assets/components/icons/shield.svg
+asset"assets/components/icons/shield.svg(assets/components/icons/signet_badge.svg
+asset(assets/components/icons/signet_badge.svg!assets/components/icons/spend.svg
+asset!assets/components/icons/spend.svg&assets/components/icons/stop_watch.svg
+asset&assets/components/icons/stop_watch.svgassets/components/icons/tag.svg
+assetassets/components/icons/tag.svg)assets/components/icons/testnet_badge.svg
+asset)assets/components/icons/testnet_badge.svg assets/components/icons/tool.svg
+asset assets/components/icons/tool.svg$assets/components/icons/transfer.svg
+asset$assets/components/icons/transfer.svg*assets/components/icons/unknown_circle.svg
+asset*assets/components/icons/unknown_circle.svg assets/components/icons/utxo.svg
+asset assets/components/icons/utxo.svg)assets/components/icons/verifyAddress.svg
+asset)assets/components/icons/verifyAddress.svg"assets/components/icons/wallet.svg
+asset"assets/components/icons/wallet.svgassets/currencies.json
+assetassets/currencies.jsonassets/data_secured_1.png
+assetassets/data_secured_1.pngassets/data_secured_2.png
+assetassets/data_secured_2.pngassets/data_secured_3.png
+assetassets/data_secured_3.pngassets/devices.svg
+assetassets/devices.svg&assets/divisions-with-coordinates.json
+asset&assets/divisions-with-coordinates.jsonassets/envoy.png
+assetassets/envoy.pngassets/envoy_loader.riv
+assetassets/envoy_loader.rivassets/envoy_logo_new.svg
+assetassets/envoy_logo_new.svg assets/envoy_logo_with_title.png
+asset assets/envoy_logo_with_title.pngassets/envoy_magic_setup.riv
+assetassets/envoy_magic_setup.riv�assets/envoy_on_device.png
+asset�assets/envoy_on_device.pngassets/envoy_passport.png
+assetassets/envoy_passport.pngssets/exclamation_icon.png
+assetssets/exclamation_icon.pngassets/exclamation_triangle.png
+assetassets/exclamation_triangle.pngassets/fi_shield.png
+assetassets/fi_shield.pngassets/fi_shield_off.png
+assets/fw.svgi_shield_off.png
+assets/fw.svgassets/fw_intro.png
+assetassets/fw_intro.pngassets/fw_ios_instructions.png
+assetassets/fw_ios_instructions.pngassets/fw_microsd.png
+assetassets/fw_microsd.pngassets/fw_passport.png
+assetassets/fw_passport.pngassets/github.svg
+assetassets/github.svgassets/hamburger.riv
+assetassets/hamburger.rivassets/hot_wallet.svg
+assetassets/hot_wallet.svg
+                          assets/i.svg
+asset
+     assets/i.svgassets/icons/fi_hard_drive.svg
+assetassets/icons/fi_hard_drive.svg$assets/icons/ic_bitcoin_straight.svg
+asset$assets/icons/ic_bitcoin_straight.svg+assets/icons/ic_bitcoin_straight_circle.svg
+asset+assets/icons/ic_bitcoin_straight_circle.svg assets/icons/ic_circle_check.svg
+asset assets/icons/ic_circle_check.svgssets/icons/ic_compass.svg
+assetssets/icons/ic_compass.svgassets/icons/ic_copy.svg
+assetassets/icons/ic_copy.svgassets/icons/ic_edit_note.svg
+assetassets/icons/ic_edit_note.svgassets/icons/ic_envoy_share.svg
+assetassets/icons/ic_envoy_share.svg�assets/icons/ic_filter.svg
+asset�assets/icons/ic_filter.svg!assets/icons/ic_filter_funnel.svg
+asset!assets/icons/ic_filter_funnel.svgassets/icons/ic_node_icon.svg
+assetassets/icons/ic_node_icon.svgassets/icons/ic_note.svg
+assetassets/icons/ic_note.svgassets/icons/ic_notes.svg
+assetassets/icons/ic_notes.svg$assets/icons/ic_passport_account.svg
+asset$assets/icons/ic_passport_account.svgassets/icons/ic_sats.svg
+assetassets/icons/ic_sats.svgassets/icons/ic_spend.svg
+assetassets/icons/ic_spend.svgassets/icons/ic_status_icon.svg
+assetassets/icons/ic_status_icon.svgassets/icons/ic_tag.svg
+assetassets/icons/ic_tag.svgassets/icons/ic_utxos.svg
+assetassets/icons/ic_utxos.svg assets/icons/ic_wallet_coins.svg
+asset assets/icons/ic_wallet_coins.svg�assets/import_pp_intro.png
+asset�assets/import_pp_intro.pngassets/import_pp_scan.png
+assetassets/import_pp_scan.png"assets/indicator_shield_bronze.png
+asset"assets/indicator_shield_bronze.png"assets/indicator_shield_copper.png
+asset"assets/indicator_shield_copper.pngassets/indicator_shield_red.png
+assetassets/indicator_shield_red.png assets/indicator_shield_teal.png
+asset assets/indicator_shield_teal.pngassets/iso-3166-2.json
+assetassets/iso-3166-2.jsonassets/learn.svg
+assetassets/learn.svgassets/lightbulb.svg
+assetassets/lightbulb.svgassets/lightning.svg
+assetassets/lightning.svgassets/logo.png
+assetassets/logo.pngassets/logo_envoy.png
+assetassets/logo_envoy.pngassets/menu_x.svg
+assetassets/menu_x.svgassets/onboarding_lock_icon.png
+assetassets/onboarding_lock_icon.pngassets/onboarding_shield.png
+assetassets/onboarding_shield.pngassets/pair_new_device_scan.png
+assetassets/pair_new_device_scan.pngassets/passport1.png
+assetassets/passport1.pngassets/passport12.png
+assetassets/passport12.pngassets/passport_envoy.png
+assetassets/passport_envoy.pngassets/passport_tou.html
+assetassets/passport_tou.htmlassets/pin_intro.png
+assetassets/pin_intro.pngassets/pp_backup_code.png
+assetassets/pp_backup_code.pngassets/pp_encryption_words.png
+assetassets/pp_encryption_words.pngassets/pp_new_seed.png
+assetassets/pp_new_seed.pngassets/pp_restore_backup.png
+assetassets/pp_restore_backup.png�assets/pp_restore_seed.png
+asset�assets/pp_restore_seed.pngassets/pp_seed_backup.png
+assetassets/pp_seed_backup.pngassets/pp_seed_words.png
+assetassets/pp_seed_words.pngassets/pp_setup_intro.png
+assetassets/pp_setup_intro.pngassets/qr_scan.svg
+assetassets/qr_scan.svgassets/scv_scan_qr.png
+assetassets/scv_scan_qr.pngassets/shield_bad.png
+assetassets/shield_bad.pngassets/shield_info.png
+assetassets/shield_info.pngassets/shield_inspect.png
+assetassets/shield_inspect.pngassets/shield_ok.png
+assetassets/shield_ok.pngassets/shield_ok_info.png
+assetassets/shield_ok_info.pngassets/shielded.svg
+assetassets/shielded.svgassets/splash.png
+assetassets/splash.pngassets/splash.svg
+assetassets/splash.svgassets/splash_blank.png
+assetassets/splash_blank.pngassets/telegram.svg
+assetassets/telegram.svgassets/trophy_icon.png
+assetassets/trophy_icon.pngassets/vault.svg
+assetassets/vault.svg"assets/videos/fd_wallet_manual.m4v
+asset"assets/videos/fd_wallet_manual.m4vassets/videos/magic_backups.m4v
+assetassets/videos/magic_backups.m4vassets/videos/passport_ad.m4v
+assetassets/videos/passport_ad.m4vassets/viewfinder_stroke.svg
+assetassets/viewfinder_stroke.svgassets/wallet.svg
+assetassets/wallet.svg!google_fonts/Montserrat-Black.ttf
+asset!google_fonts/Montserrat-Black.ttf'google_fonts/Montserrat-BlackItalic.ttf
+asset'google_fonts/Montserrat-BlackItalic.ttf google_fonts/Montserrat-Bold.ttf
+asset google_fonts/Montserrat-Bold.ttf&google_fonts/Montserrat-BoldItalic.ttf
+asset&google_fonts/Montserrat-BoldItalic.ttf%google_fonts/Montserrat-ExtraBold.ttf
+asset%google_fonts/Montserrat-ExtraBold.ttf+google_fonts/Montserrat-ExtraBoldItalic.ttf
+asset+google_fonts/Montserrat-ExtraBoldItalic.ttf&google_fonts/Montserrat-ExtraLight.ttf
+asset&google_fonts/Montserrat-ExtraLight.ttf,google_fonts/Montserrat-ExtraLightItalic.ttf
+asset,google_fonts/Montserrat-ExtraLightItalic.ttf"google_fonts/Montserrat-Italic.ttf
+asset"google_fonts/Montserrat-Italic.ttf!google_fonts/Montserrat-Light.ttf
+asset!google_fonts/Montserrat-Light.ttf'google_fonts/Montserrat-LightItalic.ttf
+asset'google_fonts/Montserrat-LightItalic.ttf"google_fonts/Montserrat-Medium.ttf
+asset"google_fonts/Montserrat-Medium.ttf(google_fonts/Montserrat-MediumItalic.ttf
+asset(google_fonts/Montserrat-MediumItalic.ttf#google_fonts/Montserrat-Regular.ttf
+asset#google_fonts/Montserrat-Regular.ttf$google_fonts/Montserrat-SemiBold.ttf
+asset$google_fonts/Montserrat-SemiBold.ttf*google_fonts/Montserrat-SemiBoldItalic.ttf
+asset*google_fonts/Montserrat-SemiBoldItalic.ttf google_fonts/Montserrat-Thin.ttf
+asset google_fonts/Montserrat-Thin.ttf&google_fonts/Montserrat-ThinItalic.ttf
+asset&google_fonts/Montserrat-ThinItalic.ttf-integration_test/assets/beefqa_backup.mla.txt
+asset-integration_test/assets/beefqa_backup.mla.txt2packages/cupertino_icons/assets/CupertinoIcons.ttf
+asset2packages/cupertino_icons/assets/CupertinoIcons.ttf)packages/wakelock_plus/assets/no_sleep.js
+asset)packages/wakelock_plus/assets/no_sleep.js
+\ No newline at end of file
+[Output truncated. Full diff saved to /tmp/test_com.foundationdevices.envoy_1.8.6/diff_base.txt]
 ```
 
-The comparison revealed significant differences between the generated APK and the Play Store version:
+### en.apk 
 
 ```
-Files fromBuild/assets/dexopt/baseline.prof and fromOfficial/assets/dexopt/baseline.prof differ
-Files fromBuild/assets/dexopt/baseline.profm and fromOfficial/assets/dexopt/baseline.profm differ
-Files fromBuild/assets/flutter_assets/AssetManifest.bin and fromOfficial/assets/flutter_assets/AssetManifest.bin differ
-Files fromBuild/assets/flutter_assets/assets/components/icons/ramp.svg and fromOfficial/assets/flutter_assets/assets/components/icons/ramp.svg differ
-Files fromBuild/assets/flutter_assets/assets/components/icons/ramp_without_name.svg and fromOfficial/assets/flutter_assets/assets/components/icons/ramp_without_name.svg differ
-Files fromBuild/assets/flutter_assets/fonts/MaterialIcons-Regular.otf and fromOfficial/assets/flutter_assets/fonts/MaterialIcons-Regular.otf differ
-Only in fromBuild/assets/flutter_assets: integration_test
-Files fromBuild/assets/flutter_assets/NOTICES.Z and fromOfficial/assets/flutter_assets/NOTICES.Z differ
-Files fromBuild/assets/flutter_assets/shaders/ink_sparkle.frag and fromOfficial/assets/flutter_assets/shaders/ink_sparkle.frag differ
-Files fromBuild/assets/lua/meta/art/00_musicbrainz.lua and fromOfficial/assets/lua/meta/art/00_musicbrainz.lua differ
-Files fromBuild/assets/lua/meta/art/01_googleimage.lua and fromOfficial/assets/lua/meta/art/01_googleimage.lua differ
-Files fromBuild/assets/lua/meta/art/02_frenchtv.lua and fromOfficial/assets/lua/meta/art/02_frenchtv.lua differ
-Files fromBuild/assets/lua/meta/art/03_lastfm.lua and fromOfficial/assets/lua/meta/art/03_lastfm.lua differ
-Files fromBuild/assets/lua/meta/reader/filename.lua and fromOfficial/assets/lua/meta/reader/filename.lua differ
-Files fromBuild/assets/lua/modules/common.lua and fromOfficial/assets/lua/modules/common.lua differ
-Files fromBuild/assets/lua/modules/sandbox.lua and fromOfficial/assets/lua/modules/sandbox.lua differ
-Files fromBuild/assets/lua/modules/simplexml.lua and fromOfficial/assets/lua/modules/simplexml.lua differ
-Files fromBuild/assets/lua/playlist/anevia_streams.lua and fromOfficial/assets/lua/playlist/anevia_streams.lua differ
-Files fromBuild/assets/lua/playlist/appletrailers.lua and fromOfficial/assets/lua/playlist/appletrailers.lua differ
-Files fromBuild/assets/lua/playlist/bbc_co_uk.lua and fromOfficial/assets/lua/playlist/bbc_co_uk.lua differ
-Files fromBuild/assets/lua/playlist/break.lua and fromOfficial/assets/lua/playlist/break.lua differ
-Files fromBuild/assets/lua/playlist/cue.lua and fromOfficial/assets/lua/playlist/cue.lua differ
-Files fromBuild/assets/lua/playlist/extreme.lua and fromOfficial/assets/lua/playlist/extreme.lua differ
-Files fromBuild/assets/lua/playlist/france2.lua and fromOfficial/assets/lua/playlist/france2.lua differ
-Files fromBuild/assets/lua/playlist/jamendo.lua and fromOfficial/assets/lua/playlist/jamendo.lua differ
-Files fromBuild/assets/lua/playlist/katsomo.lua and fromOfficial/assets/lua/playlist/katsomo.lua differ
-Files fromBuild/assets/lua/playlist/lelombrik.lua and fromOfficial/assets/lua/playlist/lelombrik.lua differ
-Files fromBuild/assets/lua/playlist/liveleak.lua and fromOfficial/assets/lua/playlist/liveleak.lua differ
-Files fromBuild/assets/lua/playlist/metacafe.lua and fromOfficial/assets/lua/playlist/metacafe.lua differ
-Files fromBuild/assets/lua/playlist/mpora.lua and fromOfficial/assets/lua/playlist/mpora.lua differ
-Files fromBuild/assets/lua/playlist/newgrounds.lua and fromOfficial/assets/lua/playlist/newgrounds.lua differ
-Files fromBuild/assets/lua/playlist/pinkbike.lua and fromOfficial/assets/lua/playlist/pinkbike.lua differ
-Files fromBuild/assets/lua/playlist/rockbox_fm_presets.lua and fromOfficial/assets/lua/playlist/rockbox_fm_presets.lua differ
-Files fromBuild/assets/lua/playlist/soundcloud.lua and fromOfficial/assets/lua/playlist/soundcloud.lua differ
-Files fromBuild/assets/lua/playlist/twitch.lua and fromOfficial/assets/lua/playlist/twitch.lua differ
-Files fromBuild/assets/lua/playlist/vocaroo.lua and fromOfficial/assets/lua/playlist/vocaroo.lua differ
-Files fromBuild/assets/lua/playlist/youtube.lua and fromOfficial/assets/lua/playlist/youtube.lua differ
-Files fromBuild/assets/lua/playlist/zapiks.lua and fromOfficial/assets/lua/playlist/zapiks.lua differ
-Only in fromBuild/: billing.properties
-Only in fromOfficial/: build-data.properties
-Files fromBuild/classes.dex and fromOfficial/classes.dex differ
-Files fromBuild/DebugProbesKt.bin and fromOfficial/DebugProbesKt.bin differ
-Only in fromBuild/: firebase-encoders-json.properties
-Only in fromBuild/: firebase-encoders.properties
-Only in fromBuild/: firebase-encoders-proto.properties
-Only in fromBuild/: lib
-Files fromBuild/META-INF/androidx.activity_activity.version and fromOfficial/META-INF/androidx.activity_activity.version differ
-Files fromBuild/META-INF/androidx.annotation_annotation-experimental.version and fromOfficial/META-INF/androidx.annotation_annotation-experimental.version differ
-Files fromBuild/META-INF/androidx.appcompat_appcompat-resources.version and fromOfficial/META-INF/androidx.appcompat_appcompat-resources.version differ
-Files fromBuild/META-INF/androidx.appcompat_appcompat.version and fromOfficial/META-INF/androidx.appcompat_appcompat.version differ
-Files fromBuild/META-INF/androidx.core_core-ktx.version and fromOfficial/META-INF/androidx.core_core-ktx.version differ
-Files fromBuild/META-INF/androidx.core_core.version and fromOfficial/META-INF/androidx.core_core.version differ
-Files fromBuild/META-INF/androidx.emoji2_emoji2.version and fromOfficial/META-INF/androidx.emoji2_emoji2.version differ
-Files fromBuild/META-INF/androidx.emoji2_emoji2-views-helper.version and fromOfficial/META-INF/androidx.emoji2_emoji2-views-helper.version differ
-Files fromBuild/META-INF/androidx.fragment_fragment.version and fromOfficial/META-INF/androidx.fragment_fragment.version differ
-Only in fromBuild/META-INF: androidx.lifecycle_lifecycle-livedata-core-ktx.version
-Files fromBuild/META-INF/androidx.lifecycle_lifecycle-livedata-core.version and fromOfficial/META-INF/androidx.lifecycle_lifecycle-livedata-core.version differ
-Files fromBuild/META-INF/androidx.lifecycle_lifecycle-livedata.version and fromOfficial/META-INF/androidx.lifecycle_lifecycle-livedata.version differ
-Files fromBuild/META-INF/androidx.lifecycle_lifecycle-process.version and fromOfficial/META-INF/androidx.lifecycle_lifecycle-process.version differ
-Files fromBuild/META-INF/androidx.lifecycle_lifecycle-runtime.version and fromOfficial/META-INF/androidx.lifecycle_lifecycle-runtime.version differ
-Files fromBuild/META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version and fromOfficial/META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version differ
-Files fromBuild/META-INF/androidx.lifecycle_lifecycle-viewmodel.version and fromOfficial/META-INF/androidx.lifecycle_lifecycle-viewmodel.version differ
-Files fromBuild/META-INF/androidx.media_media.version and fromOfficial/META-INF/androidx.media_media.version differ
-Files fromBuild/META-INF/androidx.profileinstaller_profileinstaller.version and fromOfficial/META-INF/androidx.profileinstaller_profileinstaller.version differ
-Files fromBuild/META-INF/androidx.security_security-crypto.version and fromOfficial/META-INF/androidx.security_security-crypto.version differ
-Files fromBuild/META-INF/androidx.tracing_tracing.version and fromOfficial/META-INF/androidx.tracing_tracing.version differ
-Only in fromBuild/META-INF: androidx.window.extensions.core_core.version
-Files fromBuild/META-INF/androidx.window_window-java.version and fromOfficial/META-INF/androidx.window_window-java.version differ
-Files fromBuild/META-INF/androidx.window_window.version and fromOfficial/META-INF/androidx.window_window.version differ
-Files fromBuild/META-INF/com/android/build/gradle/app-metadata.properties and fromOfficial/META-INF/com/android/build/gradle/app-metadata.properties differ
-Files fromBuild/META-INF/kotlinx_coroutines_android.version and fromOfficial/META-INF/kotlinx_coroutines_android.version differ
-Files fromBuild/META-INF/kotlinx_coroutines_core.version and fromOfficial/META-INF/kotlinx_coroutines_core.version differ
-Only in fromBuild/META-INF/services: a4.f
-Only in fromBuild/META-INF/services: B4.B
-Only in fromOfficial/META-INF/services: c7.f
-Only in fromOfficial/META-INF/services: d8.d0
-Only in fromBuild/META-INF/services: G4.t
-Only in fromOfficial/META-INF/services: kotlinx.coroutines.internal.r
-Only in fromBuild/META-INF/services: u3.a
-Only in fromOfficial/META-INF/services: w5.a
-Only in fromBuild/META-INF: version-control-info.textproto
-Only in fromBuild/: play-services-basement.properties
-Only in fromBuild/: play-services-base.properties
-Only in fromBuild/: play-services-location.properties
-Only in fromBuild/: play-services-places-placereport.properties
-Only in fromBuild/: play-services-tasks.properties
-Only in fromOfficial/res: anim
-Only in fromOfficial/res: animator
-Only in fromOfficial/res: anim-v21
-Only in fromOfficial/res: color-v26
-Only in fromOfficial/res: drawable
-Only in fromOfficial/res: drawable-anydpi-v23
-Only in fromOfficial/res: drawable-hdpi-v4
-Only in fromOfficial/res: drawable-v21
-Only in fromOfficial/res: drawable-v23
-Only in fromOfficial/res: drawable-watch-v20
-Only in fromBuild/res: E5.ogg
-Only in fromOfficial/res: interpolator
-Only in fromOfficial/res: layout
-Only in fromOfficial/res: layout-v21
-Only in fromOfficial/res: layout-v26
-Only in fromOfficial/res: layout-watch-v20
-Only in fromOfficial/res: mipmap-anydpi-v26
-Only in fromOfficial/res: mipmap-hdpi-v4
-Only in fromOfficial/res: mipmap-mdpi-v4
-Only in fromOfficial/res: mipmap-xhdpi-v4
-Only in fromOfficial/res: mipmap-xxhdpi-v4
-Only in fromOfficial/res: mipmap-xxxhdpi-v4
-Only in fromOfficial/res: raw
-Only in fromOfficial/res: xml
-Files fromBuild/resources.arsc and fromOfficial/resources.arsc differ
-Only in fromOfficial/: stamp-cert-sha256
-Only in fromBuild/: transport-api.properties
-Only in fromBuild/: transport-backend-cct.properties
-Only in fromBuild/: transport-runtime.properties
-
+Differences found between /tmp/test_com.foundationdevices.envoy_1.8.6/fromPlay-unzipped/en and /tmp/test_com.foundationdevices.envoy_1.8.6/fromBuild-unzipped/en
+Binary files /tmp/test_com.foundationdevices.envoy_1.8.6/fromPlay-unzipped/en/AndroidManifest.xml and /tmp/test_com.foundationdevices.envoy_1.8.6/fromBuild-unzipped/en/AndroidManifest.xml differ
+Only in /tmp/test_com.foundationdevices.envoy_1.8.6/fromPlay-unzipped/en: META-INF
+Binary files /tmp/test_com.foundationdevices.envoy_1.8.6/fromPlay-unzipped/en/resources.arsc and /tmp/test_com.foundationdevices.envoy_1.8.6/fromBuild-unzipped/en/resources.arsc differ
+Only in /tmp/test_com.foundationdevices.envoy_1.8.6/fromPlay-unzipped/en: stamp-cert-sha256
 ```
 
-There were around 1000+ more lines of diff containing png, webp and xml changes. With these many differences, the wallet is **not verifiable**.
+### xxhdpi.apk
+
+```
+Differences found between /tmp/test_com.foundationdevices.envoy_1.8.6/fromPlay-unzipped/xxhdpi and /tmp/test_com.foundationdevices.envoy_1.8.6/fromBuild-unzipped/xxhdpi
+Binary files /tmp/test_com.foundationdevices.envoy_1.8.6/fromPlay-unzipped/xxhdpi/AndroidManifest.xml and /tmp/test_com.foundationdevices.envoy_1.8.6/fromBuild-unzipped/xxhdpi/AndroidManifest.xml differ
+Only in /tmp/test_com.foundationdevices.envoy_1.8.6/fromPlay-unzipped/xxhdpi: META-INF
+Binary files /tmp/test_com.foundationdevices.envoy_1.8.6/fromPlay-unzipped/xxhdpi/resources.arsc and /tmp/test_com.foundationdevices.envoy_1.8.6/fromBuild-unzipped/xxhdpi/resources.arsc differ
+Only in /tmp/test_com.foundationdevices.envoy_1.8.6/fromPlay-unzipped/xxhdpi: stamp-cert-sha256
+Differences saved to /tmp/test_com.foundationdevices.envoy_1.8.6/diff_xxhdpi.txt
+```
+
+## Analysis 
+
+Due to the sheer number of diffs found between the Google Play and the build APKs, we did not perform a diffoscope on individual files. 
+
+Thus, we conclude that version 1.8.6 of this app is **not verifiable**.
 
 
-**Conclusion:** Although the Docker image for the Envoy Wallet built successfully, the APK was not generated correctly. As a result, the APK is **not verifiable** at this time.
-
-## App Description from Google Play
+# App Description from Google Play
 
 > Envoy is a simple Bitcoin wallet with powerful account management and privacy features.
 >
@@ -293,6 +535,3 @@ There were around 1000+ more lines of diff containing png, webp and xml changes.
 
 A blog post states that this is not an ordinary "companion app", it is a fully-capable standalone self-custodial bitcoin wallet.  
 
-## Analysis 
-
-This app is **for verification**.
