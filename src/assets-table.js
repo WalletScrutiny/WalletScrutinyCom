@@ -3,7 +3,7 @@ import DOMPurify from 'dompurify';
 
 let response = null;
 
-window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestationsPubkey, appId, sha256, hideConfig, getAssetsForMyAttestations, showOnlyRows = 100, sortByVersion = false}) {
+window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestationsPubkey, appId, sha256, hideConfig, getAssetsForMyAttestations, showOnlyRows = 100, sortByVersion = false, enableSearch = false}) {
   response = await getAllAssetInformation({
     assetsPubkey,
     attestationsPubkey,
@@ -11,6 +11,35 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
     sha256,
     getAssetsForMyAttestations
   });
+
+  // Add search and filter UI only if enableSearch is true
+  if (enableSearch) {
+    const searchContainer = document.createElement('div');
+    searchContainer.className = 'assets-search-container';
+    searchContainer.style.marginBottom = '20px';
+    searchContainer.innerHTML = `
+      <div style="display: flex; gap: 10px; align-items: center; flex-wrap: wrap;">
+        <input 
+          type="text" 
+          id="assetSearchInput" 
+          placeholder="Search by wallet name or hash..." 
+          style="padding: 8px; border-radius: 4px; border: 1px solid #ccc; flex: 1; min-width: 200px;"
+        >
+        <div style="display: flex; gap: 15px; align-items: center;">
+          <label style="display: flex; align-items: center; gap: 5px;">
+            <input type="checkbox" id="showLatestVersionOnly" checked>
+            <span>Show latest version only</span>
+          </label>
+          <label style="display: flex; align-items: center; gap: 5px;">
+            <input type="checkbox" id="showOnlyNoAttestations">
+            <span>Show only assets without attestations</span>
+          </label>
+        </div>
+      </div>
+    `;
+
+    document.getElementById(htmlElementId).appendChild(searchContainer);
+  }
 
   const hasBinaries = response.assets.size > 0;
   let hasLegacyBinaries = false;
@@ -44,6 +73,67 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
         });
       }
     });
+  }
+
+  // Function to filter and update table rows
+  function updateTableVisibility() {
+    // Only apply search/filter if enableSearch is true, otherwise show all rows
+    if (!enableSearch) {
+      return;
+    }
+
+    const searchTerm = document.getElementById('assetSearchInput').value.toLowerCase();
+    const showLatestOnly = document.getElementById('showLatestVersionOnly').checked;
+    const showOnlyNoAttestations = document.getElementById('showOnlyNoAttestations').checked;
+
+    // Create a map to track latest versions when filter is active
+    const latestVersions = new Map();
+
+    // Get all rows except header and show-more
+    const rows = Array.from(table.querySelectorAll('tr:not(:first-child):not(.show-more-row)'));
+    
+    rows.forEach(row => {
+      const walletName = row.querySelector('td:first-child')?.textContent.toLowerCase() || '';
+      // Get the full SHA256 hash from the button's onclick attribute
+      const sha256Button = row.querySelector('button[onclick*="navigator.clipboard.writeText"]');
+      const sha256Hash = sha256Button ? sha256Button.getAttribute('onclick').match(/'([a-fA-F0-9]{64})'/)?.[ 1 ]?.toLowerCase() || '' : '';
+      
+      // Find attestations cell by looking at the header text
+      const headerCells = Array.from(table.querySelectorAll('th'));
+      const attestationsIndex = headerCells.findIndex(cell => cell.textContent.trim() === 'Attestations');
+      const attestationsCell = row.cells[attestationsIndex]?.textContent || '';
+      const hasAttestations = !attestationsCell.includes('No attestations yet');
+      
+      // Get identifier for grouping latest versions
+      const identifier = row.querySelector('td:first-child a')?.textContent || row.querySelector('td:first-child')?.textContent;
+      
+      let shouldShow = true;
+
+      if (showOnlyNoAttestations) {
+        shouldShow = !hasAttestations;
+      }
+
+      if (shouldShow && showLatestOnly) {
+        if (!latestVersions.has(identifier)) {
+          latestVersions.set(identifier, true);
+        } else {
+          shouldShow = false;
+        }
+      }
+
+      if (shouldShow) {
+        shouldShow = (walletName.includes(searchTerm) || sha256Hash.includes(searchTerm));
+      }
+
+      row.style.display = shouldShow ? '' : 'none';
+    });
+  }
+
+  // Add event listeners for search and filters only if enableSearch is true
+  if (enableSearch) {
+    document.getElementById('assetSearchInput').addEventListener('input', updateTableVisibility);
+    document.getElementById('showLatestVersionOnly').addEventListener('change', updateTableVisibility);
+    document.getElementById('showOnlyNoAttestations').addEventListener('change', updateTableVisibility);
   }
 
   // Sort either by version or date depending on sortByVersion parameter
@@ -268,6 +358,11 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
   }
 
   document.getElementById(htmlElementId).appendChild(table);
+
+  // Apply initial filter only if enableSearch is true
+  if (enableSearch) {
+    updateTableVisibility();
+  }
 
   return {
     hasAttestations,

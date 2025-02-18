@@ -29,7 +29,7 @@ permalink: /assets/
     document.getElementById('loadingSpinner').style.display = 'block';
 
     await nostrConnect();
-    await renderAssetsTable({htmlElementId: 'binariesTable'});
+    await renderAssetsTable({htmlElementId: 'binariesTable', enableSearch: true, showOnlyRows: 100000});
 
     document.getElementById('loadingSpinner').style.display = 'none';
   })();

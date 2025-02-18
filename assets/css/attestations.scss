@@ -263,6 +263,22 @@ table {
   color: var(--text-color);
 }
 
+/* Checkboxes and Labels */
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin-top: 0;
+  vertical-align: middle;
+}
+
+label {
+  font-size: 1rem;
+  line-height: 46px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
 .form-control {
   width: 100%;
   padding: 8px;
