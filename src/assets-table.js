@@ -159,14 +159,6 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
         return hasVaryB ? 1 : -1; // Put VARY versions first
       }
 
-      // Check for VARY string first
-      const hasVaryA = versionA.includes('VARY');
-      const hasVaryB = versionB.includes('VARY');
-      
-      if (hasVaryA !== hasVaryB) {
-        return hasVaryB ? 1 : -1; // Put VARY versions first
-      }
-
       // Split versions into components and compare numerically
       const partsA = versionA.split('.').map(part => parseInt(part) || 0);
       const partsB = versionB.split('.').map(part => parseInt(part) || 0);
