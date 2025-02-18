@@ -1,28 +1,27 @@
 ---
-wsId: 'bhexExchange'
-title: 'BHEX'
+wsId: bhexExchange
+title: BHEX
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.bh.android'
-appCountry: 'us'
-released: '2021-04-24'
-updated: '2021-10-11'
-version: '4.2.2'
+appId: com.bh.android
+appCountry: us
+released: 2021-04-24
+updated: 2021-10-11
+version: 4.2.2
 stars: 3.9
 ratings: 58
 reviews: 21
-size: '36M'
-website: 'https://bhex.co'
+website: https://bhex.co
 repository: 
 issue: 
-icon: 'com.bh.android.png'
+icon: com.bh.android.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2021-11-08'
+date: 2021-11-08
 signer: 
 reviewArchive: 
 twitter: 

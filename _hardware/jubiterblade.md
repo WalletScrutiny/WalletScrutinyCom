@@ -4,7 +4,7 @@ appId: jubiterblade
 authors:
 - kiwilamb
 - leo
-released: '2018-11-01'
+released: 2018-11-01
 discontinued: 
 updated: 
 version: 
@@ -27,7 +27,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: '2021-12-12'
+date: 2021-12-12
 signer: 
 reviewArchive: 
 twitter: JuBiterWallet

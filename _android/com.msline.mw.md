@@ -1,34 +1,33 @@
 ---
-wsId: 'masterWallet'
-title: 'MasterWallet'
+wsId: masterWallet
+title: MasterWallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.msline.mw'
+appId: com.msline.mw
 appCountry: 
-released: '2019-06-20'
-updated: '2022-06-20'
-version: '2.3.3'
+released: 2019-06-20
+updated: 2022-06-20
+version: 2.3.3
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'http://x-widget.org/'
+website: http://x-widget.org/
 repository: 
 issue: 
-icon: 'com.msline.mw.png'
+icon: com.msline.mw.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-08-16'
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'x-widget'
+developerName: x-widget
 features: 
 
 ---

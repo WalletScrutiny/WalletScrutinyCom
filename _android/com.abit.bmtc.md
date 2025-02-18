@@ -1,34 +1,33 @@
 ---
-wsId: 'Abit'
-title: 'ABIT'
+wsId: Abit
+title: ABIT
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.abit.bmtc'
-appCountry: 'ae'
-released: '2020-03-03'
-updated: '2021-04-25'
-version: '2.3.2'
+appId: com.abit.bmtc
+appCountry: ae
+released: 2020-03-03
+updated: 2021-04-25
+version: 2.3.2
 stars: 
 ratings: 75
 reviews: 
-size: 
-website: 'http://www.abit.com'
+website: http://www.abit.com
 repository: 
 issue: 
-icon: 'com.abit.bmtc.png'
+icon: com.abit.bmtc.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'wip'
+meta: defunct
+verdict: wip
 appHashes: 
-date: '2021-11-04'
+date: 2021-11-04
 signer: 
 reviewArchive: 
-twitter: 'abitofficial'
+twitter: abitofficial
 social: 
 redirect_from: 
-developerName: 'Abit Technology'
+developerName: Abit Technology
 features: 
 
 ---

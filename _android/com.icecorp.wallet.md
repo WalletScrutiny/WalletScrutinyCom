@@ -7,13 +7,12 @@ authors:
 users: 100000
 appId: com.icecorp.wallet
 appCountry: 
-released: '2022-08-24'
-updated: '2025-01-15'
+released: 2022-08-24
+updated: 2025-01-15
 version: '2.8'
 stars: 3.6
 ratings: 
 reviews: 
-size: 
 website: https://www.icewal.com/
 repository: 
 issue: 
@@ -22,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: '2024-07-24'
+date: 2024-07-24
 signer: 
 reviewArchive: 
 twitter: icewalofficial

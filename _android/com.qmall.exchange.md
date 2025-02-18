@@ -1,36 +1,36 @@
 ---
-wsId: 'qmallExchange'
-title: 'Qmall APP'
+wsId: qmallExchange
+title: Qmall APP
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.qmall.exchange'
+appId: com.qmall.exchange
 appCountry: 
-released: '2021-12-14'
+released: 2021-12-14
 updated: 2024-07-31
-version: '1.1.59'
+version: 1.1.59
 stars: 4.4
 ratings: 
 reviews: 2
-website: 'https://qmall.io/'
+website: https://qmall.io/
 repository: 
 issue: 
-icon: 'com.qmall.exchange.png'
+icon: com.qmall.exchange.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-02-25'
+date: 2023-02-25
 signer: 
 reviewArchive: 
-twitter: 'QmallExchange'
+twitter: QmallExchange
 social:
-- 'https://www.linkedin.com/company/qmallexchange/about/'
-- 'https://www.facebook.com/qmall.io'
-- 'https://www.youtube.com/channel/UCRfKNWczZ84ASCSEIsaLCag'
+- https://www.linkedin.com/company/qmallexchange/about/
+- https://www.facebook.com/qmall.io
+- https://www.youtube.com/channel/UCRfKNWczZ84ASCSEIsaLCag
 redirect_from: 
-developerName: 'Prof-IT Blockchain Limited'
+developerName: Prof-IT Blockchain Limited
 features: 
 
 ---

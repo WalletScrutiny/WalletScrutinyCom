@@ -3,7 +3,7 @@ title: AABT X1
 appId: aabt.ledger
 authors:
 - danny
-released: '2017-01-31'
+released: 2017-01-31
 discontinued: 
 updated: 
 version: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: vapor
 appHashes: 
-date: '2022-04-29'
+date: 2022-04-29
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'DX.Exchange - Buy&Sell Bitcoin'
+title: DX.Exchange - Buy&Sell Bitcoin
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'antroid.cxtech.com.cxandroidproject'
+appId: antroid.cxtech.com.cxandroidproject
 appCountry: 
-released: '2019-02-25'
-updated: '2019-10-02'
-version: '1.3.12'
+released: 2019-02-25
+updated: 2019-10-02
+version: 1.3.12
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://dx.exchange'
+website: https://dx.exchange
 repository: 
 issue: 
-icon: 'antroid.cxtech.com.cxandroidproject.png'
+icon: antroid.cxtech.com.cxandroidproject.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2024-07-05'
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'COINS MARKETPLACE TECHNOLOGIES OU'
+developerName: COINS MARKETPLACE TECHNOLOGIES OU
 features: 
 
 ---

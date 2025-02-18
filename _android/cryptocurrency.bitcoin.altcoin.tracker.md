@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Crypto Tracker - Buy Bitcoin B'
+title: Crypto Tracker - Buy Bitcoin B
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'cryptocurrency.bitcoin.altcoin.tracker'
+appId: cryptocurrency.bitcoin.altcoin.tracker
 appCountry: 
-released: '2018-10-30'
-updated: '2019-10-20'
+released: 2018-10-30
+updated: 2019-10-20
 version: '1.6'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://cryptocurrencydevs.wordpress.com/'
+website: https://cryptocurrencydevs.wordpress.com/
 repository: 
 issue: 
-icon: 'cryptocurrency.bitcoin.altcoin.tracker.jpg'
+icon: cryptocurrency.bitcoin.altcoin.tracker.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Cryptocurrency Devs'
+developerName: Cryptocurrency Devs
 features: 
 
 ---

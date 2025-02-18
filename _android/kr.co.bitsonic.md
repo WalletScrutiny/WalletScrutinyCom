@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Bitsonic (Crypto Corrency, Exc'
+title: Bitsonic (Crypto Corrency, Exc
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'kr.co.bitsonic'
+appId: kr.co.bitsonic
 appCountry: 
-released: '2018-05-31'
-updated: '2021-03-24'
-version: '1.9.6'
+released: 2018-05-31
+updated: 2021-03-24
+version: 1.9.6
 stars: 2.2
 ratings: 1533
 reviews: 3
-size: 
-website: 'http://bitsonic.co.kr'
+website: http://bitsonic.co.kr
 repository: 
 issue: 
-icon: 'kr.co.bitsonic.png'
+icon: kr.co.bitsonic.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'wip'
+meta: defunct
+verdict: wip
 appHashes: 
-date: '2021-10-13'
+date: 2021-10-13
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'bitsonic'
+developerName: bitsonic
 features: 
 
 ---

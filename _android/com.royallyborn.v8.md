@@ -1,39 +1,39 @@
 ---
 wsId: 
-title: '8V - Buy Bitcoin & Crypto'
+title: 8V - Buy Bitcoin & Crypto
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.royallyborn.v8'
+appId: com.royallyborn.v8
 appCountry: 
-released: '2022-02-07'
+released: 2022-02-07
 updated: 2024-07-24
-version: '1.2.3'
+version: 1.2.3
 stars: 4.2
 ratings: 
 reviews: 18
-website: 'https://www.8v.com'
+website: https://www.8v.com
 repository: 
 issue: 
-icon: 'com.royallyborn.v8.jpg'
+icon: com.royallyborn.v8.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-07-28'
+date: 2023-07-28
 signer: 
 reviewArchive: 
-twitter: '8vGlobal'
+twitter: 8vGlobal
 social:
-- 'https://www.facebook.com/8V.Global'
-- 'https://www.instagram.com/8v.global'
-- 'https://medium.com/@8vofficial'
-- 'https://discord.com/invite/yQusCKf3tN'
-- 'https://www.reddit.com/r/8Voffical_group'
-- 'https://t.me/global8vchat'
+- https://www.facebook.com/8V.Global
+- https://www.instagram.com/8v.global
+- https://medium.com/@8vofficial
+- https://discord.com/invite/yQusCKf3tN
+- https://www.reddit.com/r/8Voffical_group
+- https://t.me/global8vchat
 redirect_from: 
-developerName: '8v.com'
+developerName: 8v.com
 features: 
 
 ---

@@ -3,33 +3,33 @@ wsId:
 title: 'Ayrem: Sell GiftCards & Crypto'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'net.ayrem.ayrem_app'
+appId: net.ayrem.ayrem_app
 appCountry: 
-released: '2021-10-02'
+released: 2021-10-02
 updated: 2024-01-13
-version: '1.0.8'
+version: 1.0.8
 stars: 2.6
 ratings: 
 reviews: 7
-website: 'http://ayrem.net'
+website: http://ayrem.net
 repository: 
 issue: 
-icon: 'net.ayrem.ayrem_app.png'
+icon: net.ayrem.ayrem_app.png
 bugbounty: 
-meta: 'stale'
-verdict: 'nowallet'
+meta: stale
+verdict: nowallet
 appHashes: 
-date: '2025-01-09'
+date: 2025-01-09
 signer: 
 reviewArchive: 
-twitter: 'AYREM_INT'
+twitter: AYREM_INT
 social:
-- 'https://www.instagram.com/ayrem_int'
-- 'https://www.facebook.com/AYREMint'
+- https://www.instagram.com/ayrem_int
+- https://www.facebook.com/AYREMint
 redirect_from: 
-developerName: 'Ayrem International Nigeria Limited'
+developerName: Ayrem International Nigeria Limited
 features: 
 
 ---

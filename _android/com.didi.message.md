@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'DiDimessage-Make New Friends & Play Games'
+title: DiDimessage-Make New Friends & Play Games
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.didi.message'
+appId: com.didi.message
 appCountry: 
-released: '2020-04-30'
-updated: '2022-05-26'
-version: '1.16.0'
+released: 2020-04-30
+updated: 2022-05-26
+version: 1.16.0
 stars: 4.3
 ratings: 1141
 reviews: 14
-size: 
-website: 'https://didimessage.com'
+website: https://didimessage.com
 repository: 
 issue: 
-icon: 'com.didi.message.png'
+icon: com.didi.message.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
-twitter: 'DiDimessage'
+twitter: DiDimessage
 social:
-- 'https://www.facebook.com/DiDi-Message-105506995020030'
+- https://www.facebook.com/DiDi-Message-105506995020030
 redirect_from: 
 developerName: 
 features: 

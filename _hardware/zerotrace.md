@@ -4,7 +4,7 @@ appId: zerotrace
 authors:
 - danny
 - leo
-released: '2020-07-10'
+released: 2020-07-10
 discontinued: 
 updated: 
 version: 
@@ -24,7 +24,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: '2022-03-08'
+date: 2022-03-08
 signer: 
 reviewArchive: 
 twitter: 

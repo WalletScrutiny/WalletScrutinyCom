@@ -3,35 +3,34 @@ wsId:
 title: 'Amaze: Crypto Mining Wallet'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.walletamaze.nftwallet'
+appId: com.walletamaze.nftwallet
 appCountry: 
-released: '2023-06-26'
-updated: '2024-01-18'
-version: '1.1.8'
+released: 2023-06-26
+updated: 2024-01-18
+version: 1.1.8
 stars: 4.3
 ratings: 
 reviews: 1
-size: 
-website: 'https://amazewallet.com'
+website: https://amazewallet.com
 repository: 
 issue: 
-icon: 'com.walletamaze.nftwallet.png'
+icon: com.walletamaze.nftwallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2024-03-02'
+date: 2024-03-02
 signer: 
 reviewArchive: 
-twitter: 'amazewallet'
+twitter: amazewallet
 social:
-- 'https://www.linkedin.com/company/amazewallet'
-- 'https://t.me/OfficialAmazeWallet'
-- 'https://discord.com/invite/zBMgvBvYUe'
+- https://www.linkedin.com/company/amazewallet
+- https://t.me/OfficialAmazeWallet
+- https://discord.com/invite/zBMgvBvYUe
 redirect_from: 
-developerName: 'AmazeWallet'
+developerName: AmazeWallet
 features: 
 
 ---

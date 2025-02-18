@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Porter'
+title: Porter
 altTitle: 
 authors: 
 users: 0
-appId: 'org.yancaitech.porter'
+appId: org.yancaitech.porter
 appCountry: 
-released: '2020-06-01'
-updated: '2020-06-08'
-version: 'V0.2.1'
+released: 2020-06-01
+updated: 2020-06-08
+version: V0.2.1
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://github.com/yancaitech'
+website: https://github.com/yancaitech
 repository: 
 issue: 
-icon: 'org.yancaitech.porter.png'
+icon: org.yancaitech.porter.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-04-03'
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'yancaitech'
+developerName: yancaitech
 features: 
 
 ---

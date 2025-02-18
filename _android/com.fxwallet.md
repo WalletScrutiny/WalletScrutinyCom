@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'FX Wallet'
+title: FX Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.fxwallet'
+appId: com.fxwallet
 appCountry: 
-released: '2021-03-26'
-updated: '2021-09-30'
+released: 2021-03-26
+updated: 2021-09-30
 version: '5.0'
 stars: 2.6
 ratings: 523
 reviews: 17
-size: '31M'
-website: 'https://fxwallet.info/'
+website: https://fxwallet.info/
 repository: 
 issue: 
-icon: 'com.fxwallet.png'
+icon: com.fxwallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2022-02-16'
+date: 2022-02-16
 signer: 
 reviewArchive: 
-twitter: 'fxwallet'
+twitter: fxwallet
 social:
-- 'https://www.facebook.com/Fxwallet.info'
+- https://www.facebook.com/Fxwallet.info
 redirect_from: 
 developerName: 
 features: 

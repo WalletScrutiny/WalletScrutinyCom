@@ -7,12 +7,11 @@ authors:
 appId: com.zixipay.wallet
 appCountry: us
 idd: 1492139262
-released: '2019-12-22'
-updated: '2025-02-06'
+released: 2019-12-22
+updated: 2025-02-06
 version: '1.90'
 stars: 4.2
-reviews: 19
-size: '66533376'
+reviews: 21
 website: https://zixipay.com/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2021-11-17'
+date: 2021-11-17
 signer: 
 reviewArchive: 
 twitter: zixipay

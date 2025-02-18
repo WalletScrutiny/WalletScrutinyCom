@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: 'Kripto Future'
+title: Kripto Future
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.kriptofuture'
+appId: com.kriptofuture
 appCountry: 
-released: '2021-07-27'
-updated: '2021-07-30'
-version: 'Version 16'
+released: 2021-07-27
+updated: 2021-07-30
+version: Version 16
 stars: 2.5
 ratings: 183
 reviews: 9
-size: 
-website: 'https://kriptofuture.com'
+website: https://kriptofuture.com
 repository: 
 issue: 
-icon: 'com.kriptofuture.png'
+icon: com.kriptofuture.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://www.facebook.com/Kriptofuture'
+- https://www.facebook.com/Kriptofuture
 redirect_from: 
-developerName: 'KriptoFuture Mobile'
+developerName: KriptoFuture Mobile
 features: 
 
 ---

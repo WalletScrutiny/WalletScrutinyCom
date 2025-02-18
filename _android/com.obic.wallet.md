@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Obic Trade'
+title: Obic Trade
 altTitle: 
 authors: 
 users: 500
-appId: 'com.obic.wallet'
+appId: com.obic.wallet
 appCountry: 
-released: '2021-07-14'
-updated: '2023-05-18'
-version: '3.5.3'
+released: 2021-07-14
+updated: 2023-05-18
+version: 3.5.3
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://obictrade.com'
+website: https://obictrade.com
 repository: 
 issue: 
-icon: 'com.obic.wallet.png'
+icon: com.obic.wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Obictrade'
+developerName: Obictrade
 features: 
 
 ---

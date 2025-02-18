@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'BISPEX(비스펙스)'
+title: BISPEX(비스펙스)
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.bispex.bispex'
+appId: com.bispex.bispex
 appCountry: 
-released: '2019-12-04'
-updated: '2020-04-14'
-version: '1.1.1'
+released: 2019-12-04
+updated: 2020-04-14
+version: 1.1.1
 stars: 4.3
 ratings: 
 reviews: 
-size: 
-website: 'https://www.bispex.com/'
+website: https://www.bispex.com/
 repository: 
 issue: 
-icon: 'com.bispex.bispex.png'
+icon: com.bispex.bispex.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-09-25'
+date: 2024-09-25
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'bispex'
+developerName: bispex
 features: 
 
 ---

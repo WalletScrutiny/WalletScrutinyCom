@@ -1,28 +1,27 @@
 ---
-wsId: 'Swapoo'
-title: 'Swapoo'
+wsId: Swapoo
+title: Swapoo
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.swapoolabs.swapoo'
-appCountry: 'ph'
-released: '2020-01-09'
-updated: '2021-11-02'
-version: '1.28.125'
+appId: com.swapoolabs.swapoo
+appCountry: ph
+released: 2020-01-09
+updated: 2021-11-02
+version: 1.28.125
 stars: 4.6
 ratings: 56
 reviews: 25
-size: '8.9M'
 website: 
 repository: 
 issue: 
-icon: 'com.swapoolabs.swapoo.png'
+icon: com.swapoolabs.swapoo.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2021-11-15'
+date: 2021-11-15
 signer: 
 reviewArchive: 
 twitter: 

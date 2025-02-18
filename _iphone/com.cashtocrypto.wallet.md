@@ -7,12 +7,11 @@ authors:
 appId: com.cashtocrypto.wallet
 appCountry: us
 idd: 1554808338
-released: '2021-03-30'
-updated: '2024-07-08'
-version: '3.1.0'
+released: 2021-03-30
+updated: 2024-07-08
+version: 3.1.0
 stars: 4.4
-reviews: 874
-size: '135632896'
+reviews: 878
 website: https://bitcoindepot.com/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2021-11-08'
+date: 2021-11-08
 signer: 
 reviewArchive: 
 twitter: bitcoin_depot

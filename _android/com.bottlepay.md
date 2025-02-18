@@ -1,36 +1,35 @@
 ---
-wsId: 'bottlepay'
+wsId: bottlepay
 title: 'Bottlepay: Buy & Send Bitcoin'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.bottlepay'
+appId: com.bottlepay
 appCountry: 
 released: 
-updated: '2023-07-24'
-version: '2.2.16'
+updated: 2023-07-24
+version: 2.2.16
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://bottlepay.com'
+website: https://bottlepay.com
 repository: 
 issue: 
-icon: 'com.bottlepay.png'
+icon: com.bottlepay.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-03-02'
+date: 2024-03-02
 signer: 
 reviewArchive: 
-twitter: 'bottlepay'
+twitter: bottlepay
 social: 
 redirect_from: 
-developerName: 'Bottlepay Ltd.'
+developerName: Bottlepay Ltd.
 features:
-- 'ln'
+- ln
 
 ---
 

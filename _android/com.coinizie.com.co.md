@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Coinizie'
+title: Coinizie
 altTitle: 
 authors: 
 users: 50
-appId: 'com.coinizie.com.co'
+appId: com.coinizie.com.co
 appCountry: 
-released: '2020-09-11'
-updated: '2020-09-11'
+released: 2020-09-11
+updated: 2020-09-11
 version: '9.0'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.coinizie.com/'
+website: https://www.coinizie.com/
 repository: 
 issue: 
-icon: 'com.coinizie.com.co.png'
+icon: com.coinizie.com.co.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-08-25'
+date: 2023-08-25
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Coinizie'
+developerName: Coinizie
 features: 
 
 ---

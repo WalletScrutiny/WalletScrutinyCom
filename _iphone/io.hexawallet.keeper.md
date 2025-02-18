@@ -7,12 +7,11 @@ authors:
 appId: io.hexawallet.keeper
 appCountry: us
 idd: '1545535925'
-released: '2022-10-19'
-updated: '2025-02-05'
-version: '2.0.1'
+released: 2022-10-19
+updated: 2025-02-05
+version: 2.0.1
 stars: 4.7
 reviews: 19
-size: '54807552'
 website: https://www.bitcoinkeeper.app/
 repository: https://github.com/bithyve/bitcoin-keeper
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: wip
 appHashes: 
-date: '2025-02-12'
+date: 2025-02-12
 signer: 
 reviewArchive: 
 twitter: bitcoinKeeper_

@@ -1,39 +1,39 @@
 ---
-wsId: 'coreCryptoWallet'
-title: 'Core | Crypto Wallet & NFTs'
+wsId: coreCryptoWallet
+title: Core | Crypto Wallet & NFTs
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.avaxwallet'
+appId: com.avaxwallet
 appCountry: 
-released: '2022-08-30'
+released: 2022-08-30
 updated: 2025-02-12
-version: '0.14.24'
+version: 0.14.24
 stars: 4
 ratings: 
 reviews: 98
-website: 'http://core.app'
+website: http://core.app
 repository: 
 issue: 
-icon: 'com.avaxwallet.png'
+icon: com.avaxwallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-24'
+date: 2024-07-24
 signer: 
 reviewArchive: 
-twitter: 'coreapp'
+twitter: coreapp
 social:
-- 'https://t.me/avalancheavax'
-- 'https://discord.com/invite/RwXY7P6'
-- 'https://www.youtube.com/avalancheavax'
-- 'https://medium.com/@coreapp'
-- 'https://www.reddit.com/r/Avax'
-- 'https://www.facebook.com/corewallet'
+- https://t.me/avalancheavax
+- https://discord.com/invite/RwXY7P6
+- https://www.youtube.com/avalancheavax
+- https://medium.com/@coreapp
+- https://www.reddit.com/r/Avax
+- https://www.facebook.com/corewallet
 redirect_from: 
-developerName: 'Ava Labs, Inc.'
+developerName: Ava Labs, Inc.
 features: 
 
 ---

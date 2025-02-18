@@ -7,12 +7,11 @@ authors:
 appId: com.cofinex.app
 appCountry: sg
 idd: 1540245134
-released: '2021-08-12'
-updated: '2021-08-12'
+released: 2021-08-12
+updated: 2021-08-12
 version: '1.0'
 stars: 
 reviews: 
-size: 52673536
 website: https://exchange.cofinex.io/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2023-08-04'
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: CofinexExchange

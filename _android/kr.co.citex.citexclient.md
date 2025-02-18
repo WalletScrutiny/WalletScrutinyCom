@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'CITEX- Crypto trading & PoW'
+title: CITEX- Crypto trading & PoW
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'kr.co.citex.citexclient'
+appId: kr.co.citex.citexclient
 appCountry: 
-released: '2019-12-25'
-updated: '2022-02-18'
-version: '2.1.0'
+released: 2019-12-25
+updated: 2022-02-18
+version: 2.1.0
 stars: 1
 ratings: 81
 reviews: 6
-size: '37M'
-website: 'https://www.citex.io'
+website: https://www.citex.io
 repository: 
 issue: 
-icon: 'kr.co.citex.citexclient.png'
+icon: kr.co.citex.citexclient.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2022-05-31'
+date: 2022-05-31
 signer: 
 reviewArchive: 
-twitter: 'Citexofficial'
+twitter: Citexofficial
 social:
-- 'https://www.facebook.com/citexglobal'
+- https://www.facebook.com/citexglobal
 redirect_from: 
 developerName: 
 features: 

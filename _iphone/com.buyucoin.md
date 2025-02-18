@@ -7,12 +7,11 @@ authors:
 appId: com.buyucoin
 appCountry: in
 idd: 1539456610
-released: '2020-11-17'
-updated: '2023-02-13'
+released: 2020-11-17
+updated: 2023-02-13
 version: '1.33'
 stars: 3.9
-reviews: 932
-size: '45891584'
+reviews: 934
 website: https://www.buyucoin.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: obsolete
 verdict: custodial
 appHashes: 
-date: '2025-02-04'
+date: 2025-02-04
 signer: 
 reviewArchive: 
 twitter: buyucoin

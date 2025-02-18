@@ -1,35 +1,35 @@
 ---
-wsId: 'trastra'
+wsId: trastra
 title: 'TRASTRA: Crypto Card & Wallet'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.trastra.mobile'
-appCountry: 'us'
-released: '2019-01-19'
+appId: com.trastra.mobile
+appCountry: us
+released: 2019-01-19
 updated: 2025-02-04
-version: '5.0.9'
+version: 5.0.9
 stars: 3.8
 ratings: 513
 reviews: 14
-website: 'https://trastra.com/'
+website: https://trastra.com/
 repository: 
 issue: 
-icon: 'com.trastra.mobile.png'
+icon: com.trastra.mobile.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-09-17'
+date: 2021-09-17
 signer: 
 reviewArchive: 
-twitter: 'Trastra_ltd'
+twitter: Trastra_ltd
 social:
-- 'https://www.linkedin.com/company/trastra'
-- 'https://www.facebook.com/trastra.ltd'
+- https://www.linkedin.com/company/trastra
+- https://www.facebook.com/trastra.ltd
 redirect_from: 
-developerName: 'TRASTRA Limited'
+developerName: TRASTRA Limited
 features: 
 
 ---

@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'TechPay Exchange - Cryptocurre'
+title: TechPay Exchange - Cryptocurre
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'crypto.base.baseexchange'
+appId: crypto.base.baseexchange
 appCountry: 
-released: '2019-06-05'
-updated: '2022-03-29'
+released: 2019-06-05
+updated: 2022-03-29
 version: '5.2'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://techpay.io/'
+website: https://techpay.io/
 repository: 
 issue: 
-icon: 'crypto.base.baseexchange.png'
+icon: crypto.base.baseexchange.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-04-26'
+date: 2024-04-26
 signer: 
 reviewArchive: 
-twitter: 'techpay_io'
+twitter: techpay_io
 social: 
 redirect_from: 
-developerName: 'TechPay'
+developerName: TechPay
 features: 
 
 ---

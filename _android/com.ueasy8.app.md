@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: 'UEEx'
+title: UEEx
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.ueasy8.app'
+appId: com.ueasy8.app
 appCountry: 
-released: '2021-12-28'
+released: 2021-12-28
 updated: 2024-10-03
-version: '4.1.8'
+version: 4.1.8
 stars: 2.7
 ratings: 
-reviews: 24
+reviews: 25
 website: 
 repository: 
 issue: 
-icon: 'com.ueasy8.app.png'
+icon: com.ueasy8.app.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nobtc'
+meta: ok
+verdict: nobtc
 appHashes: 
-date: '2023-08-17'
+date: 2023-08-17
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'janelezvzzmm'
+developerName: janelezvzzmm
 features: 
 
 ---

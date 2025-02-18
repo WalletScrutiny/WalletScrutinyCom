@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Coinxplus'
+title: Coinxplus
 altTitle: 
 authors: 
 users: 100
-appId: 'com.coinxplus'
+appId: com.coinxplus
 appCountry: 
-released: '2021-04-25'
-updated: '2021-08-13'
-version: '1.0.1'
+released: 2021-04-25
+updated: 2021-08-13
+version: 1.0.1
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://coinxplus.io/'
+website: https://coinxplus.io/
 repository: 
 issue: 
-icon: 'com.coinxplus.png'
+icon: com.coinxplus.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Coingarage Ltd'
+developerName: Coingarage Ltd
 features: 
 
 ---

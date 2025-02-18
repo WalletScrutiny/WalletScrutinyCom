@@ -1,36 +1,36 @@
 ---
-wsId: 'bitcoinStoreWallet'
-title: 'Bitcoin Store Wallet'
+wsId: bitcoinStoreWallet
+title: Bitcoin Store Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.bitcoinstore.bitcoinstorewallet'
+appId: com.bitcoinstore.bitcoinstorewallet
 appCountry: 
-released: '2023-01-03'
-updated: 2025-01-29
-version: '1.0.38'
+released: 2023-01-03
+updated: 2025-02-11
+version: 1.0.40
 stars: 
 ratings: 
 reviews: 
-website: 'https://bitstore.net'
+website: https://bitstore.net
 repository: 
 issue: 
-icon: 'com.bitcoinstore.bitcoinstorewallet.png'
+icon: com.bitcoinstore.bitcoinstorewallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2024-09-07'
+date: 2024-09-07
 signer: 
 reviewArchive: 
-twitter: 'storebitcoin'
+twitter: storebitcoin
 social:
-- 'https://www.linkedin.com/company/bitstore-net'
-- 'https://www.instagram.com/bitcoinstore.hr'
-- 'https://www.facebook.com/bitcoinstore.hr'
+- https://www.linkedin.com/company/bitstore-net
+- https://www.instagram.com/bitcoinstore.hr
+- https://www.facebook.com/bitcoinstore.hr
 redirect_from: 
-developerName: 'Digital Assets d.o.o'
+developerName: Digital Assets d.o.o
 features: 
 
 ---

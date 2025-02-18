@@ -7,12 +7,11 @@ authors:
 appId: com.oduwatrustwallet.ios
 appCountry: tr
 idd: '1580339930'
-released: '2021-08-18'
-updated: '2022-09-06'
-version: '1.1.0'
+released: 2021-08-18
+updated: 2022-09-06
+version: 1.1.0
 stars: 0
 reviews: 0
-size: '66265088'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: obsolete
 verdict: nosource
 appHashes: 
-date: '2024-08-26'
+date: 2024-08-26
 signer: 
 reviewArchive: 
 twitter: Oduwacoin

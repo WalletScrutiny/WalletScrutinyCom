@@ -3,32 +3,31 @@ wsId:
 title: 'Cryptopocket - Multi Currency '
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'app.org.cryptopocket'
+appId: app.org.cryptopocket
 appCountry: 
-released: '2018-11-13'
-updated: '2019-09-16'
-version: '1.2.8'
+released: 2018-11-13
+updated: 2019-09-16
+version: 1.2.8
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'http://www.cryptopocket.info/'
+website: http://www.cryptopocket.info/
 repository: 
 issue: 
-icon: 'app.org.cryptopocket.jpg'
+icon: app.org.cryptopocket.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2023-05-06'
+date: 2023-05-06
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Cryptopocket Solutions'
+developerName: Cryptopocket Solutions
 features: 
 
 ---

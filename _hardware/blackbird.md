@@ -3,7 +3,7 @@ title: Blackbird Hardware Wallet
 appId: blackbird
 authors:
 - danny
-released: '2018-05-11'
+released: 2018-05-11
 discontinued: 
 updated: 
 version: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: defunct
 verdict: nosource
 appHashes: 
-date: '2022-04-04'
+date: 2022-04-04
 signer: 
 reviewArchive: 
 twitter: blackbirdwallet

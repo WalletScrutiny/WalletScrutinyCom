@@ -1,13 +1,13 @@
 ---
 wsId: 
-title: 'Yb mobile client'
+title: Yb mobile client
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.merseyside.cripto'
+appId: com.merseyside.cripto
 appCountry: 
-released: '2018-08-20'
+released: 2018-08-20
 updated: 2021-02-12
 version: '1.34'
 stars: 3.4
@@ -16,18 +16,18 @@ reviews: 3
 website: 
 repository: 
 issue: 
-icon: 'com.merseyside.cripto.png'
+icon: com.merseyside.cripto.png
 bugbounty: 
-meta: 'obsolete'
-verdict: 'fake'
+meta: obsolete
+verdict: fake
 appHashes: 
-date: '2023-04-08'
+date: 2023-04-08
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Mersey Software'
+developerName: Mersey Software
 features: 
 
 ---

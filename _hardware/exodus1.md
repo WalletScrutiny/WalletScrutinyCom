@@ -5,7 +5,7 @@ authors:
 - kiwilamb
 - leo
 - danny
-released: '2018-10-23'
+released: 2018-10-23
 discontinued: 
 updated: 
 version: 
@@ -25,7 +25,7 @@ bugbounty: https://www.htcexodus.com/mea-en/bounty-program/
 meta: defunct
 verdict: nosource
 appHashes: 
-date: '2021-11-26'
+date: 2021-11-26
 signer: 
 reviewArchive: 
 twitter: htcexodus

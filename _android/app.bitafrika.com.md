@@ -1,35 +1,35 @@
 ---
-wsId: 'bitAfrika'
-title: 'BitAfrika - Buy & Sell Crypto'
+wsId: bitAfrika
+title: BitAfrika - Buy & Sell Crypto
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'app.bitafrika.com'
-appCountry: 'GH'
-released: '2021-07-19'
+appId: app.bitafrika.com
+appCountry: GH
+released: 2021-07-19
 updated: 2024-08-13
-version: '4.8.8'
+version: 4.8.8
 stars: 3.5
 ratings: 
 reviews: 152
-website: 'https://bitafrika.com'
+website: https://bitafrika.com
 repository: 
 issue: 
-icon: 'app.bitafrika.com.png'
+icon: app.bitafrika.com.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-03-06'
+date: 2023-03-06
 signer: 
 reviewArchive: 
-twitter: '_bitafrika'
+twitter: _bitafrika
 social:
-- 'https://www.facebook.com/bitafrika'
-- 'https://www.instagram.com/bitafrika/'
+- https://www.facebook.com/bitafrika
+- https://www.instagram.com/bitafrika/
 redirect_from: 
-developerName: 'BITAFRIKA LTD'
+developerName: BITAFRIKA LTD
 features: 
 
 ---

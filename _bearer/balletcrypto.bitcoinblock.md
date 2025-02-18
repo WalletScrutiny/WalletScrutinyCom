@@ -25,7 +25,7 @@ icon: balletcrypto.bitcoinblock.png
 bugbounty: 
 meta: ok
 verdict: prefilled
-date: '2022-05-18'
+date: 2022-05-18
 signer: 
 reviewArchive: 
 twitter: BalletCrypto

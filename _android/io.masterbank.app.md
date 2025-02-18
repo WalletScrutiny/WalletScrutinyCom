@@ -1,34 +1,34 @@
 ---
-wsId: 'masterbank'
-title: 'Master Bank'
+wsId: masterbank
+title: Master Bank
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'io.masterbank.app'
+appId: io.masterbank.app
 appCountry: 
-released: '2021-10-29'
+released: 2021-10-29
 updated: 2023-08-23
-version: '0.11.1'
+version: 0.11.1
 stars: 4.7
 ratings: 
 reviews: 12
-website: 'https://masterbank.org'
+website: https://masterbank.org
 repository: 
 issue: 
-icon: 'io.masterbank.app.png'
+icon: io.masterbank.app.png
 bugbounty: 
-meta: 'stale'
-verdict: 'nobtc'
+meta: stale
+verdict: nobtc
 appHashes: 
-date: '2024-08-19'
+date: 2024-08-19
 signer: 
 reviewArchive: 
-twitter: 'masterpay7'
+twitter: masterpay7
 social:
-- 'https://t.me/mastercoin_official'
+- https://t.me/mastercoin_official
 redirect_from: 
-developerName: 'MasterBank'
+developerName: MasterBank
 features: 
 
 ---

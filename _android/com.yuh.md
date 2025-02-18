@@ -1,34 +1,34 @@
 ---
-wsId: 'yuh'
-title: 'Yuh - Your App. Your Money.'
+wsId: yuh
+title: Yuh - Your App. Your Money.
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.yuh'
+appId: com.yuh
 appCountry: 
-released: '2021-04-06'
-updated: 2025-02-06
-version: '1.35.4'
+released: 2021-04-06
+updated: 2025-02-12
+version: 1.35.4
 stars: 2.2
 ratings: 
 reviews: 4
-website: 'https://www.yuh.com'
+website: https://www.yuh.com
 repository: 
 issue: 
-icon: 'com.yuh.png'
+icon: com.yuh.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosendreceive'
+meta: ok
+verdict: nosendreceive
 appHashes: 
-date: '2023-03-02'
+date: 2023-03-02
 signer: 
 reviewArchive: 
-twitter: 'yuh_app'
+twitter: yuh_app
 social:
-- 'https://www.facebook.com/yuhapp.en/'
+- https://www.facebook.com/yuhapp.en/
 redirect_from: 
-developerName: 'Swissquote Mobile'
+developerName: Swissquote Mobile
 features: 
 
 ---

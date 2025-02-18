@@ -1,34 +1,34 @@
 ---
-wsId: 'btcboxJP'
-title: 'ビットコイン・暗号資産の取引なら安心安全のBTCBOX'
+wsId: btcboxJP
+title: ビットコイン・暗号資産の取引なら安心安全のBTCBOX
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'btctrade.BTCBOX'
+appId: btctrade.BTCBOX
 appCountry: 
-released: '2016-04-18'
+released: 2016-04-18
 updated: 2024-12-13
 version: '1.274'
 stars: 
 ratings: 
 reviews: 
-website: 'http://www.btcbox.co.jp'
+website: http://www.btcbox.co.jp
 repository: 
 issue: 
-icon: 'btctrade.BTCBOX.png'
+icon: btctrade.BTCBOX.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-04-19'
+date: 2023-04-19
 signer: 
 reviewArchive: 
-twitter: 'BtcboxE'
+twitter: BtcboxE
 social:
-- 'https://www.facebook.com/btcbox/'
+- https://www.facebook.com/btcbox/
 redirect_from: 
-developerName: 'BTCボックス株式会社'
+developerName: BTCボックス株式会社
 features: 
 
 ---

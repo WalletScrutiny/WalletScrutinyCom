@@ -7,12 +7,11 @@ authors:
 appId: com.prodoge.prodoge
 appCountry: jp
 idd: '1479083282'
-released: '2019-09-23'
-updated: '2024-11-15'
+released: 2019-09-23
+updated: 2024-11-15
 version: '3.35'
 stars: 0
 reviews: 0
-size: '87840768'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: '2024-11-19'
+date: 2024-11-19
 signer: 
 reviewArchive: 
 twitter: 

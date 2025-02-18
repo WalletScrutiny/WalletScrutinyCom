@@ -1,37 +1,37 @@
 ---
-wsId: 'fizenWallet'
-title: 'Fizen Super App'
+wsId: fizenWallet
+title: Fizen Super App
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.fizen.io.wallet'
+appId: com.fizen.io.wallet
 appCountry: 
-released: '2022-02-25'
-updated: 2025-02-11
-version: '2.5.0'
+released: 2022-02-25
+updated: 2025-02-16
+version: 2.5.2
 stars: 4.4
 ratings: 
 reviews: 2
-website: 'https://fizen.io'
+website: https://fizen.io
 repository: 
 issue: 
-icon: 'com.fizen.io.wallet.png'
+icon: com.fizen.io.wallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nobtc'
+meta: ok
+verdict: nobtc
 appHashes: 
-date: '2023-03-31'
+date: 2023-03-31
 signer: 
 reviewArchive: 
-twitter: 'fizenwallet'
+twitter: fizenwallet
 social:
-- 'https://www.linkedin.com/company/fizen-io/'
-- 'https://www.facebook.com/web3fizen'
-- 'https://www.instagram.com/fizen.io/'
-- 'https://t.me/fizen_io'
+- https://www.linkedin.com/company/fizen-io/
+- https://www.facebook.com/web3fizen
+- https://www.instagram.com/fizen.io/
+- https://t.me/fizen_io
 redirect_from: 
-developerName: 'Fizen.IO'
+developerName: Fizen.IO
 features: 
 
 ---

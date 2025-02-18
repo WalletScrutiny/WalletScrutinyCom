@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: 'OgrAPI - TradeOgre'
+title: OgrAPI - TradeOgre
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'net.benoitbasset.ograpi'
+appId: net.benoitbasset.ograpi
 appCountry: 
-released: '2018-11-28'
+released: 2018-11-28
 updated: 2023-06-07
-version: '1.4.6'
+version: 1.4.6
 stars: 3.7
 ratings: 225
-reviews: 48
-website: 'http://ograpi.oblade.net'
+reviews: 47
+website: http://ograpi.oblade.net
 repository: 
 issue: 
-icon: 'net.benoitbasset.ograpi.png'
+icon: net.benoitbasset.ograpi.png
 bugbounty: 
-meta: 'stale'
-verdict: 'nowallet'
+meta: stale
+verdict: nowallet
 appHashes: 
-date: '2024-06-03'
+date: 2024-06-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Oblade'
+developerName: Oblade
 features: 
 
 ---

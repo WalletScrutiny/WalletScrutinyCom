@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Bitcoin Invest App'
+title: Bitcoin Invest App
 altTitle: 
 authors: 
 users: 1
-appId: 'org.cryptobubbles.bitcoin.invest.app'
+appId: org.cryptobubbles.bitcoin.invest.app
 appCountry: 
-released: '2021-07-17'
-updated: '2021-07-18'
+released: 2021-07-17
+updated: 2021-07-18
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: '2.4M'
 website: 
 repository: 
 issue: 
-icon: 'org.cryptobubbles.bitcoin.invest.app.png'
+icon: org.cryptobubbles.bitcoin.invest.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2021-10-01'
+date: 2021-10-01
 signer: 
 reviewArchive: 
 twitter: 

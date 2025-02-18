@@ -7,12 +7,11 @@ authors:
 appId: com.saitapro
 appCountry: us
 idd: '1636523777'
-released: '2022-08-05'
-updated: '2024-06-18'
+released: 2022-08-05
+updated: 2024-06-18
 version: '1.95'
 stars: 4.7
 reviews: 771
-size: '71249920'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: nosource
 appHashes: 
-date: '2024-10-28'
+date: 2024-10-28
 signer: 
 reviewArchive: 
 twitter: WeAreSaitama

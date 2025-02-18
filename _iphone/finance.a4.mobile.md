@@ -7,12 +7,11 @@ authors:
 appId: finance.a4.mobile
 appCountry: md
 idd: '1623005090'
-released: '2022-05-31'
-updated: '2023-08-08'
-version: '2.1.4'
+released: 2022-05-31
+updated: 2023-08-08
+version: 2.1.4
 stars: 5
 reviews: 2
-size: '116806656'
 website: https://a4.finance
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: nobtc
 appHashes: 
-date: '2023-10-16'
+date: 2023-10-16
 signer: 
 reviewArchive: 
 twitter: A4Finance

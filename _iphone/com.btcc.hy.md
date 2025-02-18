@@ -7,12 +7,11 @@ authors:
 appId: com.btcc.hy
 appCountry: us
 idd: 1462880009
-released: '2019-05-11'
-updated: '2025-01-17'
-version: '8.8.01'
+released: 2019-05-11
+updated: 2025-01-17
+version: 8.8.01
 stars: 4.4
-reviews: 2326
-size: '211147776'
+reviews: 2359
 website: https://www.btcc.com/en-US
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2021-10-01'
+date: 2021-10-01
 signer: 
 reviewArchive: 
 twitter: YourBTCC

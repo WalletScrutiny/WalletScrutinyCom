@@ -7,12 +7,11 @@ authors:
 appId: com.metallicus.proton
 appCountry: us
 idd: 1516536231
-released: '2020-11-25'
-updated: '2021-12-09'
-version: '1.1.20'
+released: 2020-11-25
+updated: 2021-12-09
+version: 1.1.20
 stars: 4.6
 reviews: 251
-size: '32574464'
 website: https://protonchain.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: nosource
 appHashes: 
-date: '2023-01-11'
+date: 2023-01-11
 signer: 
 reviewArchive: 
 twitter: protonxpr

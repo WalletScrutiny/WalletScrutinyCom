@@ -1,39 +1,38 @@
 ---
-wsId: 'swapsCryptoApp'
-title: 'Swaps - Buy crypto instantly'
+wsId: swapsCryptoApp
+title: Swaps - Buy crypto instantly
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.mitin.app.swaps'
+appId: com.mitin.app.swaps
 appCountry: 
-released: '2022-01-26'
-updated: '2023-08-30'
-version: '1.1.5'
+released: 2022-01-26
+updated: 2023-08-30
+version: 1.1.5
 stars: 4.4
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.mitin.app.swaps.png'
+icon: com.mitin.app.swaps.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2024-12-31'
+date: 2024-12-31
 signer: 
 reviewArchive: 
-twitter: 'swapsapp_'
+twitter: swapsapp_
 social:
-- 'https://www.swaps.app'
-- 'https://www.linkedin.com/company/swaps-app'
-- 'https://www.instagram.com/swaps.app'
-- 'https://www.facebook.com/swapapp'
-- 'https://www.reddit.com/r/SwapsApp'
+- https://www.swaps.app
+- https://www.linkedin.com/company/swaps-app
+- https://www.instagram.com/swaps.app
+- https://www.facebook.com/swapapp
+- https://www.reddit.com/r/SwapsApp
 redirect_from: 
-developerName: 'Octo Liquidity OÜ'
+developerName: Octo Liquidity OÜ
 features: 
 
 ---

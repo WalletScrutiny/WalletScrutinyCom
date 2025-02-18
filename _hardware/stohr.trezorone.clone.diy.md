@@ -3,7 +3,7 @@ title: Sebastian Stohr Trezor One Clone DIY Project
 appId: stohr.trezorone.clone.diy
 authors:
 - danny
-released: '2022-03-24'
+released: 2022-03-24
 discontinued: 
 updated: 
 version: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: diy
 appHashes: 
-date: '2022-11-10'
+date: 2022-11-10
 signer: 
 reviewArchive: 
 twitter: _superhero1

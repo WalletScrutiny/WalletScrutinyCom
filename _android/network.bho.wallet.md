@@ -1,33 +1,33 @@
 ---
-wsId: 'crypto3SWallet'
+wsId: crypto3SWallet
 title: '3S Wallet: Crypto DeFi Wallet'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'network.bho.wallet'
+appId: network.bho.wallet
 appCountry: 
-released: '2022-06-04'
+released: 2022-06-04
 updated: 2024-12-04
-version: '1.1.6'
+version: 1.1.6
 stars: 4.3
 ratings: 
 reviews: 5
-website: 'https://3swallet.com'
+website: https://3swallet.com
 repository: 
 issue: 
-icon: 'network.bho.wallet.png'
+icon: network.bho.wallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nobtc'
+meta: ok
+verdict: nobtc
 appHashes: 
-date: '2023-07-19'
+date: 2023-07-19
 signer: 
 reviewArchive: 
-twitter: '3S_Wallet'
+twitter: 3S_Wallet
 social: 
 redirect_from: 
-developerName: 'BHO'
+developerName: BHO
 features: 
 
 ---

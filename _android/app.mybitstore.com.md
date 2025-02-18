@@ -1,36 +1,36 @@
 ---
-wsId: 'mybitstore'
+wsId: mybitstore
 title: 'Mybitstore: Bitcoin & Crypto'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'app.mybitstore.com'
+appId: app.mybitstore.com
 appCountry: 
-released: '2021-08-12'
-updated: 2025-02-13
-version: '7.0.8'
+released: 2021-08-12
+updated: 2025-02-17
+version: 7.0.9
 stars: 4.2
 ratings: 20
 reviews: 7
-website: 'https://mybitstore.com'
+website: https://mybitstore.com
 repository: 
 issue: 
-icon: 'app.mybitstore.com.png'
+icon: app.mybitstore.com.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2022-04-11'
+date: 2022-04-11
 signer: 
 reviewArchive: 
-twitter: 'mybitstore'
+twitter: mybitstore
 social:
-- 'https://facebook.com/mybitstore'
-- 'https://instagram.com/mybitstore_app/'
-- 'https://youtube.com/channel/UCF2J6gWekpTk4jh63RbPVlw'
+- https://facebook.com/mybitstore
+- https://instagram.com/mybitstore_app/
+- https://youtube.com/channel/UCF2J6gWekpTk4jh63RbPVlw
 redirect_from: 
-developerName: 'Mybitstore - Buy & Sell BTC'
+developerName: Mybitstore - Buy & Sell BTC
 features: 
 
 ---

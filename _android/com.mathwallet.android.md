@@ -1,40 +1,40 @@
 ---
-wsId: 'mathWallet5'
-title: 'MathWallet'
+wsId: mathWallet5
+title: MathWallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.mathwallet.android'
+appId: com.mathwallet.android
 appCountry: 
-released: '2021-10-26'
+released: 2021-10-26
 updated: 2025-01-14
-version: '5.6.3'
+version: 5.6.3
 stars: 3.6
 ratings: 
 reviews: 59
-website: 'https://www.mathwallet.org/'
+website: https://www.mathwallet.org/
 repository: 
 issue: 
-icon: 'com.mathwallet.android.png'
+icon: com.mathwallet.android.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-15'
+date: 2024-07-15
 signer: 
 reviewArchive: 
-twitter: 'Mathwallet'
+twitter: Mathwallet
 social:
-- 'https://discord.com/invite/gXSfnk5eP5'
-- 'https://t.me/mathwalletnews'
-- 'https://www.youtube.com/c/MathWallet'
+- https://discord.com/invite/gXSfnk5eP5
+- https://t.me/mathwalletnews
+- https://www.youtube.com/c/MathWallet
 redirect_from: 
-developerName: 'Math Global'
+developerName: Math Global
 features:
-- 'segwit'
-- 'taproot'
-- 'multiwallet'
+- segwit
+- taproot
+- multiwallet
 
 ---
 

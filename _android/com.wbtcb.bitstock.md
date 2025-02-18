@@ -1,34 +1,34 @@
 ---
-wsId: 'bitPlusbyWBTCb'
-title: 'Bit.plus'
+wsId: bitPlusbyWBTCb
+title: Bit.plus
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.wbtcb.bitstock'
+appId: com.wbtcb.bitstock
 appCountry: 
-released: '2020-06-17'
+released: 2020-06-17
 updated: 2025-02-03
-version: '2.6.8'
+version: 2.6.8
 stars: 2.9
 ratings: 
 reviews: 2
-website: 'https://www.futured.app/'
+website: https://www.futured.app/
 repository: 
 issue: 
-icon: 'com.wbtcb.bitstock.png'
+icon: com.wbtcb.bitstock.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2023-11-17'
+date: 2023-11-17
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://www.bit.plus/'
+- https://www.bit.plus/
 redirect_from: 
-developerName: 'IP wBTCb solutions, s.r.o.'
+developerName: IP wBTCb solutions, s.r.o.
 features: 
 
 ---

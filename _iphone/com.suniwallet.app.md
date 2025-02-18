@@ -7,12 +7,11 @@ authors:
 appId: com.suniwallet.app
 appCountry: us
 idd: '6445960717'
-released: '2023-03-06'
-updated: '2024-08-26'
-version: '2.4.1'
+released: 2023-03-06
+updated: 2024-08-26
+version: 2.4.1
 stars: 4.8
 reviews: 21
-size: '142225408'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2023-12-02'
+date: 2023-12-02
 signer: 
 reviewArchive: 
 twitter: Suni_wallet

@@ -7,12 +7,11 @@ authors:
 appId: xyz.mara.wallet
 appCountry: us
 idd: '1622180219'
-released: '2022-06-17'
-updated: '2023-07-26'
-version: '1.5.2'
+released: 2022-06-17
+updated: 2023-07-26
+version: 1.5.2
 stars: 4.7
 reviews: 798
-size: '90232832'
 website: https://mara.xyz
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2024-07-05'
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: TheMARAverse

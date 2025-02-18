@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'WasabiWallet'
-altTitle: '(Fake) Wasabi Wallet'
+title: WasabiWallet
+altTitle: (Fake) Wasabi Wallet
 authors:
-- 'danny'
+- danny
 users: 500
-appId: 'com.wasabiwallet.dev'
+appId: com.wasabiwallet.dev
 appCountry: 
 released: 
-updated: '2020-12-01'
+updated: 2020-12-01
 version: '2.0'
 stars: 3.8
 ratings: 25
 reviews: 14
-size: '22M'
 website: 
 repository: 
 issue: 
-icon: 'com.wasabiwallet.dev.png'
+icon: com.wasabiwallet.dev.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fake'
+meta: removed
+verdict: fake
 appHashes: 
-date: '2021-04-09'
+date: 2021-04-09
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from:
-- '/com.wasabiwallet.dev/'
+- /com.wasabiwallet.dev/
 developerName: 
 features: 
 

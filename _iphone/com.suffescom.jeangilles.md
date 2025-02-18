@@ -7,12 +7,11 @@ authors:
 appId: com.suffescom.jeangilles
 appCountry: us
 idd: '1642934824'
-released: '2022-09-16'
-updated: '2025-02-12'
+released: 2022-09-16
+updated: 2025-02-12
 version: '1.7'
-stars: 3.7
-reviews: 15
-size: '16763904'
+stars: 3.8
+reviews: 16
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: nowallet
 appHashes: 
-date: '2023-07-18'
+date: 2023-07-18
 signer: 
 reviewArchive: 
 twitter: 

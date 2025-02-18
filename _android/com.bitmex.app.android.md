@@ -1,34 +1,35 @@
 ---
-wsId: 'bitMEXNew'
+wsId: bitMEXNew
 title: 'BitMEX: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.bitmex.app.android'
+appId: com.bitmex.app.android
 appCountry: 
+released: 
 updated: 2025-01-28
-version: '2.5.7'
+version: 2.5.7
 stars: 3.2
 ratings: 
 reviews: 
-website: 'https://www.bitmex.com/'
+website: https://www.bitmex.com/
 repository: 
 issue: 
-icon: 'com.bitmex.app.android.png'
+icon: com.bitmex.app.android.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-03-29'
+date: 2023-03-29
 signer: 
 reviewArchive: 
-twitter: 'bitmex'
+twitter: bitmex
 social:
-- 'https://www.reddit.com/r/BitMEX/'
-- 'https://www.youtube.com/channel/UCQ9eXM9P9-f93eeRImPcpUA'
+- https://www.reddit.com/r/BitMEX/
+- https://www.youtube.com/channel/UCQ9eXM9P9-f93eeRImPcpUA
 redirect_from: 
-developerName: 'BitMEX'
+developerName: BitMEX
 features: 
 
 ---

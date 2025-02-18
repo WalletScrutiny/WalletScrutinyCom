@@ -1,33 +1,33 @@
 ---
-wsId: 'sparkWallet'
+wsId: sparkWallet
 title: 'Spark Wallet: Earn Rewards'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'io.sparkwallet'
+appId: io.sparkwallet
 appCountry: 
-released: '2022-02-09'
+released: 2022-02-09
 updated: 2023-12-07
 version: '3.3'
 stars: 3.2
 ratings: 
 reviews: 5
-website: 'https://sparkwallet.io/'
+website: https://sparkwallet.io/
 repository: 
 issue: 
-icon: 'io.sparkwallet.png'
+icon: io.sparkwallet.png
 bugbounty: 
-meta: 'stale'
-verdict: 'custodial'
+meta: stale
+verdict: custodial
 appHashes: 
-date: '2024-12-04'
+date: 2024-12-04
 signer: 
 reviewArchive: 
-twitter: 'sparkwalletapp'
+twitter: sparkwalletapp
 social: 
 redirect_from: 
-developerName: 'LumaSoft, LLC'
+developerName: LumaSoft, LLC
 features: 
 
 ---

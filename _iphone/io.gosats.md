@@ -7,12 +7,11 @@ authors:
 appId: io.gosats
 appCountry: in
 idd: '1536263998'
-released: '2021-01-05'
-updated: '2025-01-20'
-version: '2.5.4'
+released: 2021-01-05
+updated: 2025-01-20
+version: 2.5.4
 stars: 4.1
-reviews: 422
-size: '48995328'
+reviews: 423
 website: https://gosats.io
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2023-03-23'
+date: 2023-03-23
 signer: 
 reviewArchive: 
 twitter: gosatsapp

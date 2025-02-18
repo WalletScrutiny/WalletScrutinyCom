@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: 'Pillar Multichain DeFi Wallet'
+title: Pillar Multichain DeFi Wallet
 altTitle: 
 authors: 
 users: 100000
-appId: 'com.pillarproject.wallet'
+appId: com.pillarproject.wallet
 appCountry: 
-released: '2018-12-13'
+released: 2018-12-13
 updated: 2024-10-14
-version: '3.29.10'
+version: 3.29.10
 stars: 4
 ratings: 1007
 reviews: 89
-website: 'http://pillar.fi'
-repository: 'https://github.com/pillarwallet/pillarwallet'
+website: http://pillar.fi
+repository: https://github.com/pillarwallet/pillarwallet
 issue: 
-icon: 'com.pillarproject.wallet.png'
+icon: com.pillarproject.wallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nobtc'
+meta: ok
+verdict: nobtc
 appHashes: 
-date: '2020-02-20'
+date: 2020-02-20
 signer: 
 reviewArchive: 
-twitter: 'PillarWallet'
+twitter: PillarWallet
 social: 
 redirect_from:
-- '/com.pillarproject.wallet/'
-- '/posts/com.pillarproject.wallet/'
-developerName: 'Pillar Project'
+- /com.pillarproject.wallet/
+- /posts/com.pillarproject.wallet/
+developerName: Pillar Project
 features: 
 
 ---

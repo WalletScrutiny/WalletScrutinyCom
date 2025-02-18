@@ -1,37 +1,36 @@
 ---
-wsId: 'wirebitDigital'
-title: 'Wirebit Digital'
+wsId: wirebitDigital
+title: Wirebit Digital
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.wirebitdigitalapp'
+appId: com.wirebitdigitalapp
 appCountry: 
-released: '2021-08-20'
-updated: '2023-09-27'
-version: '1.12.4'
+released: 2021-08-20
+updated: 2023-09-27
+version: 1.12.4
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://wirebit.com/'
+website: https://wirebit.com/
 repository: 
 issue: 
-icon: 'com.wirebitdigitalapp.png'
+icon: com.wirebitdigitalapp.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-11-30'
+date: 2024-11-30
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://www.facebook.com/wirebitdigital'
-- 'https://www.instagram.com/wirebitdigital'
-- 'https://www.linkedin.com/company/wirebit-oficial'
+- https://www.facebook.com/wirebitdigital
+- https://www.instagram.com/wirebitdigital
+- https://www.linkedin.com/company/wirebit-oficial
 redirect_from: 
-developerName: 'Wirebit S.A. de C.V.'
+developerName: Wirebit S.A. de C.V.
 features: 
 
 ---

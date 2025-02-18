@@ -1,36 +1,36 @@
 ---
-wsId: 'xfacia'
-title: 'Xfacia Buy BTC & Crypto'
+wsId: xfacia
+title: Xfacia Buy BTC & Crypto
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.web.XFacia'
+appId: com.web.XFacia
 appCountry: 
-released: '2022-04-21'
+released: 2022-04-21
 updated: 2022-12-21
 version: '2.0'
 stars: 4.1
 ratings: 
 reviews: 
-website: 'http://xfacia.com/'
+website: http://xfacia.com/
 repository: 
 issue: 
-icon: 'com.web.XFacia.png'
+icon: com.web.XFacia.png
 bugbounty: 
-meta: 'obsolete'
-verdict: 'custodial'
+meta: obsolete
+verdict: custodial
 appHashes: 
-date: '2024-12-15'
+date: 2024-12-15
 signer: 
 reviewArchive: 
-twitter: 'XfaciaXchange'
+twitter: XfaciaXchange
 social:
-- 'https://www.facebook.com/XFACIAXCHANGE'
-- 'https://www.instagram.com/p/CTeDT7Ui0Ee'
-- 'https://t.me/XfaciaXchange'
+- https://www.facebook.com/XFACIAXCHANGE
+- https://www.instagram.com/p/CTeDT7Ui0Ee
+- https://t.me/XfaciaXchange
 redirect_from: 
-developerName: 'Xfacia Labs Pvt Ltd'
+developerName: Xfacia Labs Pvt Ltd
 features: 
 
 ---

@@ -1,36 +1,36 @@
 ---
-wsId: 'CAPITALIKA'
-title: 'CAPITALIKA®'
+wsId: CAPITALIKA
+title: CAPITALIKA®
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.capitalika.exhange'
+appId: com.capitalika.exhange
 appCountry: 
-released: '2019-03-18'
+released: 2019-03-18
 updated: 2025-01-28
-version: '2.0.20'
+version: 2.0.20
 stars: 1.8
 ratings: 
 reviews: 4
-website: 'https://capitalika.com/'
+website: https://capitalika.com/
 repository: 
 issue: 
-icon: 'com.capitalika.exhange.png'
+icon: com.capitalika.exhange.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2022-07-14'
+date: 2022-07-14
 signer: 
 reviewArchive: 
-twitter: 'capitalikalatam'
+twitter: capitalikalatam
 social:
-- 'https://www.facebook.com/CapitalikaWalletExchange'
-- 'https://www.youtube.com/channel/UC6Rid10fMs-Rg0kHK8ni9MA'
-- 'https://www.instagram.com/capitalika/'
+- https://www.facebook.com/CapitalikaWalletExchange
+- https://www.youtube.com/channel/UC6Rid10fMs-Rg0kHK8ni9MA
+- https://www.instagram.com/capitalika/
 redirect_from: 
-developerName: 'CAPITALIKA®'
+developerName: CAPITALIKA®
 features: 
 
 ---

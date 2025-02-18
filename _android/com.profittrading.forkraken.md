@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: 'ProfitTradingApp for Kraken'
+title: ProfitTradingApp for Kraken
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.profittrading.forkraken'
+appId: com.profittrading.forkraken
 appCountry: 
-released: '2018-07-15'
-updated: '2021-08-07'
-version: 'VARY'
+released: 2018-07-15
+updated: 2021-08-07
+version: VARY
 stars: 4.4
 ratings: 60
 reviews: 11
-size: 
-website: 'https://profittradingapp.com/'
+website: https://profittradingapp.com/
 repository: 
 issue: 
-icon: 'com.profittrading.forkraken.png'
+icon: com.profittrading.forkraken.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
-twitter: 'ProfitTrading_'
+twitter: ProfitTrading_
 social:
-- 'https://www.facebook.com/profittradingapp'
+- https://www.facebook.com/profittradingapp
 redirect_from: 
-developerName: 'ProfitTradingApp'
+developerName: ProfitTradingApp
 features: 
 
 ---

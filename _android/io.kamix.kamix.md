@@ -1,36 +1,36 @@
 ---
-wsId: 'kamixApp'
-title: 'Kamix'
+wsId: kamixApp
+title: Kamix
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'io.kamix.kamix'
+appId: io.kamix.kamix
 appCountry: 
-released: '2019-03-14'
+released: 2019-03-14
 updated: 2024-07-01
-version: '2.2.303'
+version: 2.2.303
 stars: 3.6
 ratings: 
 reviews: 
-website: 'https://kamix.io'
+website: https://kamix.io
 repository: 
 issue: 
-icon: 'io.kamix.kamix.png'
+icon: io.kamix.kamix.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-11-17'
+date: 2023-11-17
 signer: 
 reviewArchive: 
-twitter: 'KamixApp'
+twitter: KamixApp
 social:
-- 'https://www.linkedin.com/company/kamixapp'
-- 'https://www.facebook.com/Kamixapp'
-- 'https://www.instagram.com/kamixapp'
+- https://www.linkedin.com/company/kamixapp
+- https://www.facebook.com/Kamixapp
+- https://www.instagram.com/kamixapp
 redirect_from: 
-developerName: 'Kamix R&D'
+developerName: Kamix R&D
 features: 
 
 ---

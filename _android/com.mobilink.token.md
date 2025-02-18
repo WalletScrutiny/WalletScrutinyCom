@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Mobilink Wallet'
+title: Mobilink Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.mobilink.token'
+appId: com.mobilink.token
 appCountry: 
-released: '2019-06-26'
-updated: '2019-08-17'
+released: 2019-06-26
+updated: 2019-08-17
 version: '1.4'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://mobilinktoken.com/'
+website: https://mobilinktoken.com/
 repository: 
 issue: 
-icon: 'com.mobilink.token.png'
+icon: com.mobilink.token.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'wip'
+meta: defunct
+verdict: wip
 appHashes: 
-date: '2023-05-30'
+date: 2023-05-30
 signer: 
 reviewArchive: 
-twitter: 'mobilinkcoin'
+twitter: mobilinkcoin
 social: 
 redirect_from: 
-developerName: 'B2GO APPS'
+developerName: B2GO APPS
 features: 
 
 ---

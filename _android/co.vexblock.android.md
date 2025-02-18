@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Vex Block Wallet'
+title: Vex Block Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'co.vexblock.android'
+appId: co.vexblock.android
 appCountry: 
-released: '2019-09-17'
-updated: '2019-10-15'
-version: '1.0.3'
+released: 2019-09-17
+updated: 2019-10-15
+version: 1.0.3
 stars: 4.8
 ratings: 192
 reviews: 18
-size: 
-website: 'https://vexblock.co/'
+website: https://vexblock.co/
 repository: 
 issue: 
-icon: 'co.vexblock.android.png'
+icon: co.vexblock.android.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2023-04-20'
+date: 2023-04-20
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Vex Capital And Technology LTD'
+developerName: Vex Capital And Technology LTD
 features: 
 
 ---

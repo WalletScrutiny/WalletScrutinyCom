@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Bitafrox'
+title: Bitafrox
 altTitle: 
 authors: 
 users: 5
-appId: 'com.bitafrox.bitafrox'
+appId: com.bitafrox.bitafrox
 appCountry: 
-released: '2019-07-25'
-updated: '2019-07-25'
+released: 2019-07-25
+updated: 2019-07-25
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.bitafrox.com'
+website: https://www.bitafrox.com
 repository: 
 issue: 
-icon: 'com.bitafrox.bitafrox.png'
+icon: com.bitafrox.bitafrox.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-04-03'
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'WaZaHUB'
+developerName: WaZaHUB
 features: 
 
 ---

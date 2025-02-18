@@ -7,12 +7,11 @@ authors:
 appId: com.sigen.sigenapp
 appCountry: ru
 idd: 1505741102
-released: '2020-04-20'
-updated: '2025-01-27'
-version: '2.9.47'
+released: 2020-04-20
+updated: 2025-02-14
+version: 2.9.49
 stars: 4.8
 reviews: 3668
-size: '60665856'
 website: https://sigen.pro/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2021-08-27'
+date: 2021-08-27
 signer: 
 reviewArchive: 
 twitter: SIGENpro

@@ -3,7 +3,7 @@ title: Tangem Note
 appId: tangemnote
 authors:
 - danny
-released: '2020-03-25'
+released: 2020-03-25
 discontinued: 
 updated: 
 version: 
@@ -26,7 +26,7 @@ bugbounty:
 meta: defunct
 verdict: noita
 appHashes: []
-date: '2025-02-06'
+date: 2025-02-06
 signer: 
 reviewArchive: 
 twitter: Tangem

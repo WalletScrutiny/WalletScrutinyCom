@@ -3,10 +3,10 @@ title: Muun Recovery
 appId: muun
 authors:
 - danny
-released: '2019-11-29'
+released: 2019-11-29
 discontinued: 
-updated: '2023-02-22'
-version: '2.2.4'
+updated: 2023-02-22
+version: 2.2.4
 binaries: 
 provider: Muun
 providerWebsite: 
@@ -17,7 +17,7 @@ icon: muun.png
 bugbounty: 
 meta: ok
 verdict: wip
-date: '2024-05-09'
+date: 2024-05-09
 reviewArchive: 
 twitter: muunwallet
 social: 

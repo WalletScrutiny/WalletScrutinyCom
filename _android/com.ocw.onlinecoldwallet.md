@@ -1,38 +1,37 @@
 ---
 wsId: 
-title: 'Online Cold Wallet'
+title: Online Cold Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.ocw.onlinecoldwallet'
+appId: com.ocw.onlinecoldwallet
 appCountry: 
-released: '2021-10-01'
-updated: '2022-05-27'
-version: '2.2.0'
+released: 2021-10-01
+updated: 2022-05-27
+version: 2.2.0
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://onlinecoldwallet.com/'
+website: https://onlinecoldwallet.com/
 repository: 
 issue: 
-icon: 'com.ocw.onlinecoldwallet.png'
+icon: com.ocw.onlinecoldwallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
-twitter: 'ocwallet'
+twitter: ocwallet
 social:
-- 'https://www.instagram.com/ocwallet'
-- 'https://medium.com/@ocwallet'
-- 'https://t.me/ocwallet'
-- 'https://t.me/ocwalletglobal'
+- https://www.instagram.com/ocwallet
+- https://medium.com/@ocwallet
+- https://t.me/ocwallet
+- https://t.me/ocwalletglobal
 redirect_from: 
-developerName: 'Online Cold Wallet'
+developerName: Online Cold Wallet
 features: 
 
 ---

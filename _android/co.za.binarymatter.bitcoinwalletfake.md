@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Fake Bitcoin Wallet'
+title: Fake Bitcoin Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'co.za.binarymatter.bitcoinwalletfake'
+appId: co.za.binarymatter.bitcoinwalletfake
 appCountry: 
-released: '2021-03-21'
-updated: '2021-04-16'
+released: 2021-03-21
+updated: 2021-04-16
 version: '1.3'
 stars: 3.2
 ratings: 64
 reviews: 10
-size: 
 website: 
 repository: 
 issue: 
-icon: 'co.za.binarymatter.bitcoinwalletfake.png'
+icon: co.za.binarymatter.bitcoinwalletfake.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Binary Matter'
+developerName: Binary Matter
 features: 
 
 ---

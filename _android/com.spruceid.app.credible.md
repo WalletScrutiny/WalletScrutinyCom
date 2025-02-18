@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Credible'
+title: Credible
 altTitle: 
 authors: 
 users: 100
-appId: 'com.spruceid.app.credible'
+appId: com.spruceid.app.credible
 appCountry: 
 released: 
-updated: '2021-07-27'
-version: 'VARY'
+updated: 2021-07-27
+version: VARY
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://spruceid.dev/docs/credible'
+website: https://spruceid.dev/docs/credible
 repository: 
 issue: 
-icon: 'com.spruceid.app.credible.png'
+icon: com.spruceid.app.credible.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-04-03'
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Spruce Systems, Inc.'
+developerName: Spruce Systems, Inc.
 features: 
 
 ---

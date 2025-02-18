@@ -1,35 +1,35 @@
 ---
-wsId: 'neteller'
-title: 'NETELLER – Fast Payments'
+wsId: neteller
+title: NETELLER – Fast Payments
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000000
-appId: 'com.moneybookers.skrillpayments.neteller'
+appId: com.moneybookers.skrillpayments.neteller
 appCountry: 
-released: '2016-03-30'
+released: 2016-03-30
 updated: 2025-02-04
-version: '3.153.0-2025020410'
+version: 3.153.0-2025020410
 stars: 4.1
 ratings: 
-reviews: 258
-website: 'https://www.neteller.com'
+reviews: 259
+website: https://www.neteller.com
 repository: 
 issue: 
-icon: 'com.moneybookers.skrillpayments.neteller.png'
+icon: com.moneybookers.skrillpayments.neteller.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2024-09-07'
+date: 2024-09-07
 signer: 
 reviewArchive: 
-twitter: 'neteller'
+twitter: neteller
 social:
-- 'https://www.facebook.com/NETELLER'
-- 'https://www.youtube.com/user/neteller'
+- https://www.facebook.com/NETELLER
+- https://www.youtube.com/user/neteller
 redirect_from: 
-developerName: 'Paysafe Holdings UK Limited'
+developerName: Paysafe Holdings UK Limited
 features: 
 
 ---

@@ -1,37 +1,36 @@
 ---
 wsId: 
-title: 'Shah Wallet'
+title: Shah Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.wa.shah'
+appId: com.wa.shah
 appCountry: 
-released: '2022-03-28'
-updated: '2022-09-17'
+released: 2022-03-28
+updated: 2022-09-17
 version: '2.8'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://shahofcrypto.com/'
+website: https://shahofcrypto.com/
 repository: 
 issue: 
-icon: 'com.wa.shah.jpg'
+icon: com.wa.shah.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'nobtc'
+meta: removed
+verdict: nobtc
 appHashes: 
-date: '2024-12-31'
+date: 2024-12-31
 signer: 
 reviewArchive: 
-twitter: 'ShahOfCryptoApp'
+twitter: ShahOfCryptoApp
 social:
-- 'https://www.facebook.com/shahofcrypto/'
-- 'https://t.me/shahofcryptoofficial'
-- 'https://www.instagram.com/shahofcryptoapp/'
+- https://www.facebook.com/shahofcrypto/
+- https://t.me/shahofcryptoofficial
+- https://www.instagram.com/shahofcryptoapp/
 redirect_from: 
-developerName: 'Shah of crypto'
+developerName: Shah of crypto
 features: 
 
 ---

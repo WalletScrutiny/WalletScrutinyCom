@@ -4,30 +4,29 @@ title: 'Pulpal: Exchange'
 altTitle: 
 authors: 
 users: 1000
-appId: 'ir.pulpal.app'
+appId: ir.pulpal.app
 appCountry: 
-released: '2022-01-06'
-updated: '2022-09-06'
-version: '1.0.0'
+released: 2022-01-06
+updated: 2022-09-06
+version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://pulpal.ir'
+website: https://pulpal.ir
 repository: 
 issue: 
-icon: 'ir.pulpal.app.png'
+icon: ir.pulpal.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2024-12-23'
+date: 2024-12-23
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Pulpal Inc'
+developerName: Pulpal Inc
 features: 
 
 ---

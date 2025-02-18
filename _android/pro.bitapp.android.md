@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'PureWallet-CryptoWallet for BTC,BCH,ETH,TRON,IOST'
+title: PureWallet-CryptoWallet for BTC,BCH,ETH,TRON,IOST
 altTitle: 
 authors: 
 users: 1000
-appId: 'pro.bitapp.android'
+appId: pro.bitapp.android
 appCountry: 
-released: '2018-11-20'
-updated: '2019-10-11'
-version: 'v2.6.0'
+released: 2018-11-20
+updated: 2019-10-11
+version: v2.6.0
 stars: 2.8
 ratings: 34
 reviews: 24
-size: '31M'
-website: 'https://www.purewallet.org'
+website: https://www.purewallet.org
 repository: 
 issue: 
-icon: 'pro.bitapp.android.png'
+icon: pro.bitapp.android.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2020-05-07'
+date: 2020-05-07
 signer: 
 reviewArchive: 
-twitter: 'PureWallet'
+twitter: PureWallet
 social: 
 redirect_from:
-- '/pro.bitapp.android/'
-- '/posts/pro.bitapp.android/'
+- /pro.bitapp.android/
+- /posts/pro.bitapp.android/
 developerName: 
 features: 
 

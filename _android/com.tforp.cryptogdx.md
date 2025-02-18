@@ -1,34 +1,33 @@
 ---
-wsId: 'BitcoinTrends'
+wsId: BitcoinTrends
 title: 'Bitcoin Trends: Cryptocurrency'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.tforp.cryptogdx'
-appCountry: 'us'
-released: '2018-02-04'
-updated: '2023-10-30'
+appId: com.tforp.cryptogdx
+appCountry: us
+released: 2018-02-04
+updated: 2023-10-30
 version: '2.4'
 stars: 4.4
 ratings: 3455
 reviews: 159
-size: 
-website: 'https://trading4pro.com/'
+website: https://trading4pro.com/
 repository: 
 issue: 
-icon: 'com.tforp.cryptogdx.png'
+icon: com.tforp.cryptogdx.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'nowallet'
+meta: defunct
+verdict: nowallet
 appHashes: 
-date: '2023-09-15'
+date: 2023-09-15
 signer: 
 reviewArchive: 
-twitter: 'Trading4Pro'
+twitter: Trading4Pro
 social: 
 redirect_from: 
-developerName: 'Finansoft Ltd'
+developerName: Finansoft Ltd
 features: 
 
 ---

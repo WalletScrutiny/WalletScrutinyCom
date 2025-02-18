@@ -1,33 +1,33 @@
 ---
-wsId: 'ncWallet'
+wsId: ncWallet
 title: 'NC Wallet: Crypto Without Fees'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000000
-appId: 'com.ncwallet'
+appId: com.ncwallet
 appCountry: 
-released: '2022-10-18'
+released: 2022-10-18
 updated: 2025-01-09
-version: '1.0.707'
-stars: 4.1
+version: 1.0.707
+stars: 4
 ratings: 
-reviews: 464
-website: 'https://ncwallet.net'
+reviews: 467
+website: https://ncwallet.net
 repository: 
 issue: 
-icon: 'com.ncwallet.png'
+icon: com.ncwallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-06-14'
+date: 2023-06-14
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'NCW Team'
+developerName: NCW Team
 features: 
 
 ---

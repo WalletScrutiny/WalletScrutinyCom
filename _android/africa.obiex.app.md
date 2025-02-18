@@ -1,35 +1,35 @@
 ---
-wsId: 'ObiexExchange'
-title: 'Obiex - Swap, Buy & Sell BTC'
+wsId: ObiexExchange
+title: Obiex - Swap, Buy & Sell BTC
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'africa.obiex.app'
+appId: africa.obiex.app
 appCountry: 
-released: '2021-06-09'
+released: 2021-06-09
 updated: 2024-12-08
-version: '3.7.7'
+version: 3.7.7
 stars: 4.3
 ratings: 
 reviews: 31
-website: 'https://obiex.finance/'
+website: https://obiex.finance/
 repository: 
 issue: 
-icon: 'africa.obiex.app.png'
+icon: africa.obiex.app.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2022-12-09'
+date: 2022-12-09
 signer: 
 reviewArchive: 
-twitter: 'obiexfinance'
+twitter: obiexfinance
 social:
-- 'https://www.facebook.com/obiexfinance'
-- 'https://www.instagram.com/obiexfinance/'
+- https://www.facebook.com/obiexfinance
+- https://www.instagram.com/obiexfinance/
 redirect_from: 
-developerName: 'Obiex Africa Ltd.'
+developerName: Obiex Africa Ltd.
 features: 
 
 ---

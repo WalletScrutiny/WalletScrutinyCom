@@ -1,39 +1,38 @@
 ---
-wsId: 'ankerPay'
+wsId: ankerPay
 title: 'AnkerPay: Blockchain Crypto Wa'
 altTitle: 
 authors:
-- 'leo'
-- 'danny'
+- leo
+- danny
 users: 10000
-appId: 'com.ankerpay.wallet'
-appCountry: 'us'
-released: '2019-09-17'
-updated: '2024-06-11'
-version: 'v1.0.14.12'
+appId: com.ankerpay.wallet
+appCountry: us
+released: 2019-09-17
+updated: 2024-06-11
+version: v1.0.14.12
 stars: 4
 ratings: 
 reviews: 2
-size: 
-website: 'https://ankerpay.com/mobile-wallet/'
+website: https://ankerpay.com/mobile-wallet/
 repository: 
 issue: 
-icon: 'com.ankerpay.wallet.png'
+icon: com.ankerpay.wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2024-09-10'
+date: 2024-09-10
 signer: 
 reviewArchive: 
-twitter: 'AnkerPay'
+twitter: AnkerPay
 social:
-- 'https://www.facebook.com/AnkerPlatform'
-- 'https://ankeratm.com/'
+- https://www.facebook.com/AnkerPlatform
+- https://ankeratm.com/
 redirect_from:
-- '/com.ankerpay.wallet/'
-- '/posts/com.ankerpay.wallet/'
-developerName: 'AnkerPay'
+- /com.ankerpay.wallet/
+- /posts/com.ankerpay.wallet/
+developerName: AnkerPay
 features: 
 
 ---

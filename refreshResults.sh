@@ -9,7 +9,7 @@ done
 node scripts/migrate.mjs 
 
 echo "Diff minus the boring stuff:"
-git diff --word-diff=color | grep -v "latest\|ratings\|reviews\|---\|@\|index\|^diff\|Binary\|apkVersionName\|size\|updated\|^score:\|^rating\|^version\|^review\|^stars\|^users" | grep "+++\|"
+git diff --word-diff=color | grep -v "latest\|ratings\|reviews\|---\|@\|index\|^diff\|Binary\|apkVersionName\|updated\|^score:\|^rating\|^version\|^review\|^stars\|^users" | grep "+++\|"
 
 echo "Duplicate wsIds android:"
 diff <( rgrep '^wsId: ' _android/ | sed 's/.*wsId: //g' | sed -e '/^$/d' | sort ) <( rgrep '^wsId: ' _android/ | sed 's/.*wsId: //g' | sed -e '/^$/d' | sort -u )

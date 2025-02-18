@@ -1,35 +1,35 @@
 ---
-wsId: 'BitnovoWallet'
-title: 'Bitnovo - Buy Bitcoin'
+wsId: BitnovoWallet
+title: Bitnovo - Buy Bitcoin
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.bitnovo.Wallet'
-appCountry: 'us'
-released: '2021-10-27'
+appId: com.bitnovo.Wallet
+appCountry: us
+released: 2021-10-27
 updated: 2025-02-05
-version: '3.0.43'
+version: 3.0.43
 stars: 3.4
 ratings: 
 reviews: 10
-website: 'https://www.bitnovo.com'
+website: https://www.bitnovo.com
 repository: 
 issue: 
-icon: 'com.bitnovo.Wallet.png'
+icon: com.bitnovo.Wallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-17'
+date: 2024-07-17
 signer: 
 reviewArchive: 
-twitter: 'bitnovo'
+twitter: bitnovo
 social:
-- 'https://www.linkedin.com/company/Bitnovo'
-- 'https://www.facebook.com/BitcoinBitnovo'
+- https://www.linkedin.com/company/Bitnovo
+- https://www.facebook.com/BitcoinBitnovo
 redirect_from: 
-developerName: 'BITNOVO'
+developerName: BITNOVO
 features: 
 
 ---

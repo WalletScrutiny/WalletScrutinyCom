@@ -1,35 +1,35 @@
 ---
-wsId: 'functionX'
-title: 'Pundi Wallet'
+wsId: functionX
+title: Pundi Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.pundix.functionx'
-appCountry: 'us'
-released: '2021-03-25'
+appId: com.pundix.functionx
+appCountry: us
+released: 2021-03-25
 updated: 2025-01-09
-version: '5.0.0'
+version: 5.0.0
 stars: 3.6
 ratings: 363
 reviews: 41
-website: 'https://functionx.io'
-repository: 'https://github.com/FunctionX/fx-wallet-android'
+website: https://functionx.io
+repository: https://github.com/FunctionX/fx-wallet-android
 issue: 
-icon: 'com.pundix.functionx.png'
+icon: com.pundix.functionx.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-08-20'
+date: 2024-08-20
 signer: 
 reviewArchive: 
-twitter: 'FUNCTIONX_IO'
+twitter: FUNCTIONX_IO
 social:
-- 'https://www.linkedin.com/company/functionx'
-- 'https://www.facebook.com/FunctionX.io'
+- https://www.linkedin.com/company/functionx
+- https://www.facebook.com/FunctionX.io
 redirect_from: 
-developerName: 'Pundi X Labs'
+developerName: Pundi X Labs
 features: 
 
 ---

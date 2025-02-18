@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: 'ROVI - Simplest Safest Trading'
+title: ROVI - Simplest Safest Trading
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000000
-appId: 'com.money91'
+appId: com.money91
 appCountry: 
-released: '2018-10-12'
-updated: '2024-08-26'
-version: '3.2.20-Rovi Trading-rovi-genesis-month-'
+released: 2018-10-12
+updated: 2024-08-26
+version: 3.2.20-Rovi Trading-rovi-genesis-month-
 stars: 4.6
 ratings: 
 reviews: 136
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.money91.png'
+icon: com.money91.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'wip'
+meta: defunct
+verdict: wip
 appHashes: 
-date: '2024-09-05'
+date: 2024-09-05
 signer: 
 reviewArchive: 
-twitter: 'rovi_protocol'
+twitter: rovi_protocol
 social:
-- 'https://rovi.network'
+- https://rovi.network
 redirect_from: 
-developerName: 'Roviri International Pte Ltd'
+developerName: Roviri International Pte Ltd
 features: 
 
 ---

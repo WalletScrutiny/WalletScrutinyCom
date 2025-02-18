@@ -6,12 +6,11 @@ authors:
 appId: com.husky.hdw20
 appCountry: us
 idd: 1549046963
-released: '2021-04-02'
-updated: '2021-04-02'
-version: '1.0.4'
+released: 2021-04-02
+updated: 2021-04-02
+version: 1.0.4
 stars: 0
 reviews: 0
-size: '66921472'
 website: 
 repository: 
 issue: 
@@ -20,7 +19,7 @@ bugbounty:
 meta: removed
 verdict: wip
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

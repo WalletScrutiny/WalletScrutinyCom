@@ -7,12 +7,11 @@ authors:
 appId: com.youhodler.youhodler
 appCountry: jp
 idd: 1469351696
-released: '2019-07-25'
-updated: '2025-02-11'
-version: '7.7.0'
+released: 2019-07-25
+updated: 2025-02-11
+version: 7.7.0
 stars: 5
 reviews: 11
-size: '92495872'
 website: https://www.youhodler.com/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2024-10-07'
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: youhodler

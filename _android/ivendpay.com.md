@@ -1,37 +1,36 @@
 ---
-wsId: 'ivendPayPOS'
-title: 'ivendPay POS'
+wsId: ivendPayPOS
+title: ivendPay POS
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'ivendpay.com'
+appId: ivendpay.com
 appCountry: 
-released: '2023-01-26'
-updated: '2023-11-10'
-version: '2.0.4'
+released: 2023-01-26
+updated: 2023-11-10
+version: 2.0.4
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://ivendpay.com'
+website: https://ivendpay.com
 repository: 
 issue: 
-icon: 'ivendpay.com.png'
+icon: ivendpay.com.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-08-31'
+date: 2024-08-31
 signer: 
 reviewArchive: 
-twitter: 'ivendpay'
+twitter: ivendpay
 social:
-- 'https://www.linkedin.com/company/ivendpay'
-- 'https://www.instagram.com/ivendpay_company'
-- 'https://www.youtube.com/@ivendpay_company'
+- https://www.linkedin.com/company/ivendpay
+- https://www.instagram.com/ivendpay_company
+- https://www.youtube.com/@ivendpay_company
 redirect_from: 
-developerName: 'IVENDPAY'
+developerName: IVENDPAY
 features: 
 
 ---

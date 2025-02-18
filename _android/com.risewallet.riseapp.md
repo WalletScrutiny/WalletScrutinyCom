@@ -1,34 +1,33 @@
 ---
-wsId: 'RiseWallet'
-title: 'Well Wallet'
+wsId: RiseWallet
+title: Well Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.risewallet.riseapp'
-appCountry: 'ca'
-released: '2019-03-08'
-updated: '2022-04-14'
-version: '1.7.0'
+appId: com.risewallet.riseapp
+appCountry: ca
+released: 2019-03-08
+updated: 2022-04-14
+version: 1.7.0
 stars: 4.7
 ratings: 42
 reviews: 15
-size: 
-website: 'https://wellwallet.ca/'
+website: https://wellwallet.ca/
 repository: 
 issue: 
-icon: 'com.risewallet.riseapp.png'
+icon: com.risewallet.riseapp.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2023-04-16'
+date: 2023-04-16
 signer: 
 reviewArchive: 
-twitter: 'RiseWallet'
+twitter: RiseWallet
 social: 
 redirect_from: 
-developerName: 'Bitcoin Well'
+developerName: Bitcoin Well
 features: 
 
 ---

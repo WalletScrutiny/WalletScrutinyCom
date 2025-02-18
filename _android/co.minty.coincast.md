@@ -7,13 +7,12 @@ authors:
 users: 10000
 appId: co.minty.coincast
 appCountry: 
-released: '2021-07-18'
-updated: '2022-05-13'
-version: '1.2.15'
+released: 2021-07-18
+updated: 2022-05-13
+version: 1.2.15
 stars: 3.7
 ratings: 8
 reviews: 30
-size: 
 website: https://coincast.app
 repository: 
 issue: 
@@ -22,7 +21,7 @@ bugbounty:
 meta: obsolete
 verdict: nosource
 appHashes: 
-date: '2024-05-04'
+date: 2024-05-04
 signer: 
 reviewArchive: 
 twitter: CoincastApp

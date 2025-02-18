@@ -7,12 +7,11 @@ authors:
 appId: com.quarkchain.qpocket
 appCountry: us
 idd: 1442761980
-released: '2019-08-22'
-updated: '2020-12-02'
-version: '5.4.0'
+released: 2019-08-22
+updated: 2020-12-02
+version: 5.4.0
 stars: 3.9
 reviews: 22
-size: '140385280'
 website: https://www.qpocket.io/
 repository: https://github.com/QuarkChain/QPocket-Android
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: obsolete
 verdict: nosource
 appHashes: 
-date: '2022-12-26'
+date: 2022-12-26
 signer: 
 reviewArchive: 
 twitter: qPocket_wallet

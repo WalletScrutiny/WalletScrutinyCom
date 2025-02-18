@@ -3,27 +3,26 @@ wsId:
 title: 'Bitcoin Wallet: by Bitcoin.org'
 altTitle: 
 authors:
-- 'emanuel'
-- 'leo'
+- emanuel
+- leo
 users: 1000
-appId: 'org.bitcoin.wallet'
+appId: org.bitcoin.wallet
 appCountry: 
 released: 
-updated: '2021-02-09'
+updated: 2021-02-09
 version: '1.0'
 stars: 4.3
 ratings: 9
 reviews: 4
-size: '39M'
-website: 'https://bitcoin.org'
-repository: 'https://github.com/bitcoin-dot-org/BitcoinWalletMobile'
-issue: 'https://github.com/bitcoin-dot-org/BitcoinWalletMobile/issues/7'
-icon: 'org.bitcoin.wallet.png'
+website: https://bitcoin.org
+repository: https://github.com/bitcoin-dot-org/BitcoinWalletMobile
+issue: https://github.com/bitcoin-dot-org/BitcoinWalletMobile/issues/7
+icon: org.bitcoin.wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nonverifiable'
+meta: removed
+verdict: nonverifiable
 appHashes: 
-date: '2021-06-16'
+date: 2021-06-16
 signer: 
 reviewArchive: 
 twitter: 

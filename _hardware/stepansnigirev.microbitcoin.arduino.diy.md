@@ -3,10 +3,10 @@ title: Stepan Snigirev Micro-Bitcoin for Arduino
 appId: stepansnigirev.microbitcoin.arduino.diy
 authors:
 - danny
-released: '2021-01-05'
+released: 2021-01-05
 discontinued: 
-updated: '2021-12-23'
-version: '0.1.3'
+updated: 2021-12-23
+version: 0.1.3
 binaries: https://github.com/micro-bitcoin/uBitcoin/releases
 dimensions: 
 weight: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: diy
 appHashes: 
-date: '2022-05-20'
+date: 2022-05-20
 signer: 
 reviewArchive: 
 twitter: stepansnigirev

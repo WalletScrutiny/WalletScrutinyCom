@@ -1,36 +1,35 @@
 ---
-wsId: 'iMX'
-title: 'iMX'
+wsId: iMX
+title: iMX
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.crypto.croytowallet'
+appId: com.crypto.croytowallet
 appCountry: 
-released: '2021-02-16'
-updated: '2023-05-26'
-version: '13.2.7'
+released: 2021-02-16
+updated: 2023-05-26
+version: 13.2.7
 stars: 4.6
 ratings: 
 reviews: 
-size: 
-website: 'https://www.imx.global'
+website: https://www.imx.global
 repository: 
 issue: 
-icon: 'com.crypto.croytowallet.png'
+icon: com.crypto.croytowallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2024-12-08'
+date: 2024-12-08
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://www.facebook.com/profile.php?id=100075743690970'
-- 'https://www.instagram.com/imxapp/'
+- https://www.facebook.com/profile.php?id=100075743690970
+- https://www.instagram.com/imxapp/
 redirect_from: 
-developerName: 'IMSMART Company LTD'
+developerName: IMSMART Company LTD
 features: 
 
 ---

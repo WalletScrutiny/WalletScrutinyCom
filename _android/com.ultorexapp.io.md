@@ -1,35 +1,35 @@
 ---
-wsId: 'ultorex'
-title: 'Ultorex'
+wsId: ultorex
+title: Ultorex
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.ultorexapp.io'
+appId: com.ultorexapp.io
 appCountry: 
-released: '2022-07-01'
+released: 2022-07-01
 updated: 2025-01-23
-version: '1.1.17'
+version: 1.1.17
 stars: 
 ratings: 
 reviews: 
-website: 'https://ultorex.io/'
+website: https://ultorex.io/
 repository: 
 issue: 
-icon: 'com.ultorexapp.io.png'
+icon: com.ultorexapp.io.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2024-11-28'
+date: 2024-11-28
 signer: 
 reviewArchive: 
-twitter: 'UltorexOfficial'
+twitter: UltorexOfficial
 social:
-- 'https://www.facebook.com/ultorex'
-- 'https://t.me/UltorexOfficial'
+- https://www.facebook.com/ultorex
+- https://t.me/UltorexOfficial
 redirect_from: 
-developerName: 'Ultorex'
+developerName: Ultorex
 features: 
 
 ---

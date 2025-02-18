@@ -1,38 +1,37 @@
 ---
-wsId: 'swft'
-title: 'SWFT Blockchain'
+wsId: swft
+title: SWFT Blockchain
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 10000
-appId: 'com.swftcoin.client.android'
+appId: com.swftcoin.client.android
 appCountry: 
-released: '2018-01-15'
-updated: '2023-02-08'
-version: '5.19.23'
+released: 2018-01-15
+updated: 2023-02-08
+version: 5.19.23
 stars: 4.5
 ratings: 2004
 reviews: 146
-size: 
-website: 'http://www.swft.pro/'
+website: http://www.swft.pro/
 repository: 
 issue: 
-icon: 'com.swftcoin.client.android.png'
+icon: com.swftcoin.client.android.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-04-16'
+date: 2023-04-16
 signer: 
 reviewArchive: 
-twitter: 'SwftCoin'
+twitter: SwftCoin
 social:
-- 'https://www.linkedin.com/company/swftcoin'
-- 'https://www.facebook.com/SWFTBlockchain'
+- https://www.linkedin.com/company/swftcoin
+- https://www.facebook.com/SWFTBlockchain
 redirect_from:
-- '/com.swftcoin.client.android/'
-- '/posts/com.swftcoin.client.android/'
-developerName: 'GooCoin'
+- /com.swftcoin.client.android/
+- /posts/com.swftcoin.client.android/
+developerName: GooCoin
 features: 
 
 ---

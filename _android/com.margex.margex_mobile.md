@@ -1,36 +1,36 @@
 ---
-wsId: 'margex100X'
-title: 'Margex – Up to 100x Leverage'
+wsId: margex100X
+title: Margex – Up to 100x Leverage
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.margex.margex_mobile'
+appId: com.margex.margex_mobile
 appCountry: 
-released: '2022-01-21'
+released: 2022-01-21
 updated: 2025-01-24
-version: '4.6.1'
+version: 4.6.1
 stars: 4
 ratings: 
 reviews: 101
-website: 'https://margex.com'
+website: https://margex.com
 repository: 
 issue: 
-icon: 'com.margex.margex_mobile.png'
+icon: com.margex.margex_mobile.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-07-08'
+date: 2023-07-08
 signer: 
 reviewArchive: 
-twitter: 'margexcom'
+twitter: margexcom
 social:
-- 'https://www.facebook.com/margexcom'
-- 'https://www.youtube.com/c/margex'
-- 'https://t.me/margex_official'
+- https://www.facebook.com/margexcom
+- https://www.youtube.com/c/margex
+- https://t.me/margex_official
 redirect_from: 
-developerName: 'Margex'
+developerName: Margex
 features: 
 
 ---

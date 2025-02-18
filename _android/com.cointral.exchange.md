@@ -1,36 +1,35 @@
 ---
-wsId: 'Cointral'
-title: 'Cointral | Buy Bitcoin'
+wsId: Cointral
+title: Cointral | Buy Bitcoin
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.cointral.exchange'
-appCountry: 'tt'
-released: '2020-10-29'
-updated: '2021-08-18'
-version: '1.3.6'
+appId: com.cointral.exchange
+appCountry: tt
+released: 2020-10-29
+updated: 2021-08-18
+version: 1.3.6
 stars: 3.8
 ratings: 118
 reviews: 77
-size: 
-website: 'https://cointral.com'
+website: https://cointral.com
 repository: 
 issue: 
-icon: 'com.cointral.exchange.png'
+icon: com.cointral.exchange.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-05-07'
+date: 2024-05-07
 signer: 
 reviewArchive: 
-twitter: 'Cointral'
+twitter: Cointral
 social:
-- 'https://www.linkedin.com/company/cointral'
-- 'https://www.facebook.com/Cointral'
+- https://www.linkedin.com/company/cointral
+- https://www.facebook.com/Cointral
 redirect_from: 
-developerName: 'Blockchain Lab Yazılım'
+developerName: Blockchain Lab Yazılım
 features: 
 
 ---

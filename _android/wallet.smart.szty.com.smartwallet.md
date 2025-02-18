@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'FLX Wallet'
+title: FLX Wallet
 altTitle: 
 authors: 
 users: 100
-appId: 'wallet.smart.szty.com.smartwallet'
+appId: wallet.smart.szty.com.smartwallet
 appCountry: 
-released: '2018-07-25'
-updated: '2021-11-15'
-version: '2.31.0'
+released: 2018-07-25
+updated: 2021-11-15
+version: 2.31.0
 stars: 5
 ratings: 
 reviews: 2
-size: 
-website: 'https://flxwallet.com'
+website: https://flxwallet.com
 repository: 
 issue: 
-icon: 'wallet.smart.szty.com.smartwallet.png'
+icon: wallet.smart.szty.com.smartwallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

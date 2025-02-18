@@ -7,12 +7,11 @@ authors:
 appId: com.lyo.wallet
 appCountry: ae
 idd: '1624892548'
-released: '2022-06-07'
-updated: '2023-12-28'
-version: '1.5.1'
+released: 2022-06-07
+updated: 2023-12-28
+version: 1.5.1
 stars: 5
 reviews: 1
-size: '56172544'
 website: https://lyowallet.com/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: nosource
 appHashes: 
-date: '2024-03-02'
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: lyopayofficial

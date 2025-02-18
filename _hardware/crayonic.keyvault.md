@@ -3,7 +3,7 @@ title: Crayonic Keyvault™
 appId: crayonic.keyvault
 authors:
 - danny
-released: '2022-04-28'
+released: 2022-04-28
 discontinued: 
 updated: 
 version: 
@@ -26,7 +26,7 @@ bugbounty:
 meta: ok
 verdict: nowallet
 appHashes: 
-date: '2023-02-28'
+date: 2023-02-28
 signer: 
 reviewArchive: 
 twitter: crayonic_com

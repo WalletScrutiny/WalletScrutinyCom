@@ -1,39 +1,38 @@
 ---
-wsId: 'pallapayApp'
-title: 'PallaPay'
+wsId: pallapayApp
+title: PallaPay
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.pallapay.application'
+appId: com.pallapay.application
 appCountry: 
-released: '2022-05-06'
-updated: '2022-05-07'
-version: '1.0.3'
+released: 2022-05-06
+updated: 2022-05-07
+version: 1.0.3
 stars: 4.5
 ratings: 
 reviews: 
-size: 
-website: 'https://pallapay.com'
+website: https://pallapay.com
 repository: 
 issue: 
-icon: 'com.pallapay.application.jpg'
+icon: com.pallapay.application.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2025-02-13'
+date: 2025-02-13
 signer: 
 reviewArchive: 
-twitter: 'pallapay_com'
+twitter: pallapay_com
 social:
-- 'https://www.facebook.com/pallapay'
-- 'https://t.me/pallapay_channel'
-- 'https://www.youtube.com/channel/UCX4X0XYn89ziMVDsUHWr77Q'
-- 'https://www.linkedin.com/company/pallapay'
-- 'https://www.instagram.com/pallapay'
+- https://www.facebook.com/pallapay
+- https://t.me/pallapay_channel
+- https://www.youtube.com/channel/UCX4X0XYn89ziMVDsUHWr77Q
+- https://www.linkedin.com/company/pallapay
+- https://www.instagram.com/pallapay
 redirect_from: 
-developerName: 'Palladium Payment Services LLC'
+developerName: Palladium Payment Services LLC
 features: 
 
 ---

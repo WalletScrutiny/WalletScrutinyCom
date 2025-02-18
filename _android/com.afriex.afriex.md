@@ -1,35 +1,35 @@
 ---
-wsId: 'Afriex'
-title: 'Afriex - Send Money Globally'
+wsId: Afriex
+title: Afriex - Send Money Globally
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 500000
-appId: 'com.afriex.afriex'
-appCountry: 'us'
-released: '2020-03-05'
+appId: com.afriex.afriex
+appCountry: us
+released: 2020-03-05
 updated: 2025-02-04
-version: '11.82.3'
+version: 11.82.3
 stars: 4.5
 ratings: 1165
-reviews: 1147
-website: 'https://www.afriexapp.com/'
+reviews: 1148
+website: https://www.afriexapp.com/
 repository: 
 issue: 
-icon: 'com.afriex.afriex.png'
+icon: com.afriex.afriex.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2021-11-30'
+date: 2021-11-30
 signer: 
 reviewArchive: 
-twitter: 'afriexapp'
+twitter: afriexapp
 social:
-- 'https://www.linkedin.com/company/afriex'
-- 'https://www.facebook.com/AfriexApp'
+- https://www.linkedin.com/company/afriex
+- https://www.facebook.com/AfriexApp
 redirect_from: 
-developerName: 'Afriex'
+developerName: Afriex
 features: 
 
 ---

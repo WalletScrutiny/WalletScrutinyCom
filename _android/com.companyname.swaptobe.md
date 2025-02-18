@@ -1,37 +1,36 @@
 ---
 wsId: 
-title: 'Tobe Wallet - Crypto Wallet'
+title: Tobe Wallet - Crypto Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.companyname.swaptobe'
+appId: com.companyname.swaptobe
 appCountry: 
-released: '2021-10-14'
-updated: '2024-09-14'
+released: 2021-10-14
+updated: 2024-09-14
 version: '5.8'
 stars: 4.3
 ratings: 
 reviews: 15
-size: 
-website: 'https://swaptobe.com'
+website: https://swaptobe.com
 repository: 
 issue: 
-icon: 'com.companyname.swaptobe.png'
+icon: com.companyname.swaptobe.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-11-29'
+date: 2024-11-29
 signer: 
 reviewArchive: 
-twitter: 'swap_tobe'
+twitter: swap_tobe
 social:
-- 'https://t.me/swaptobeglobal'
-- 'https://www.youtube.com/channel/UC9jBj0BDr7vQq6WzsJGBBSw'
-- 'https://www.facebook.com/swaptobe'
+- https://t.me/swaptobeglobal
+- https://www.youtube.com/channel/UC9jBj0BDr7vQq6WzsJGBBSw
+- https://www.facebook.com/swaptobe
 redirect_from: 
-developerName: 'EG Tech Group LLC'
+developerName: EG Tech Group LLC
 features: 
 
 ---

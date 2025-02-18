@@ -1,35 +1,35 @@
 ---
-wsId: 'sincereSWallet'
-title: 'S-Wallet'
+wsId: sincereSWallet
+title: S-Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.sincere.swallet'
+appId: com.sincere.swallet
 appCountry: 
-released: '2022-04-11'
+released: 2022-04-11
 updated: 2023-04-21
-version: '2.6.0'
+version: 2.6.0
 stars: 4.4
 ratings: 
 reviews: 27
-website: 'https://s-wallet.ai'
+website: https://s-wallet.ai
 repository: 
 issue: 
-icon: 'com.sincere.swallet.jpg'
+icon: com.sincere.swallet.jpg
 bugbounty: 
-meta: 'stale'
-verdict: 'custodial'
+meta: stale
+verdict: custodial
 appHashes: 
-date: '2024-04-17'
+date: 2024-04-17
 signer: 
 reviewArchive: 
-twitter: 'SWallet_ai'
+twitter: SWallet_ai
 social:
-- 'https://www.facebook.com/SWallet.en'
-- 'https://t.me/SWallet_ai'
+- https://www.facebook.com/SWallet.en
+- https://t.me/SWallet_ai
 redirect_from: 
-developerName: 'SWallet OU'
+developerName: SWallet OU
 features: 
 
 ---

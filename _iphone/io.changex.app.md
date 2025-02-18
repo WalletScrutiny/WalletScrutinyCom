@@ -7,12 +7,11 @@ authors:
 appId: io.changex.app
 appCountry: bg
 idd: '1613309180'
-released: '2022-06-07'
-updated: '2023-12-20'
-version: '2.10.1'
+released: 2022-06-07
+updated: 2023-12-20
+version: 2.10.1
 stars: 4.6
 reviews: 11
-size: '45423616'
 website: https://changex.io
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: nosource
 appHashes: 
-date: '2024-05-07'
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: ChangeXapp

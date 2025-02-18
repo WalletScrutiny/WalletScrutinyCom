@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Bitcoin Chivo -  Chivo Bitcoin'
-altTitle: '(Fake) Bitcoin Chivo -  Chivo Bitcoin'
+title: Bitcoin Chivo -  Chivo Bitcoin
+altTitle: (Fake) Bitcoin Chivo -  Chivo Bitcoin
 authors: 
 users: 100
-appId: 'com.rvinc.bitminner'
+appId: com.rvinc.bitminner
 appCountry: 
-released: '2021-09-28'
-updated: '2021-09-28'
+released: 2021-09-28
+updated: 2021-09-28
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: '7.9M'
 website: 
 repository: 
 issue: 
-icon: 'com.rvinc.bitminner.jpg'
+icon: com.rvinc.bitminner.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'fake'
+meta: removed
+verdict: fake
 appHashes: 
-date: '2021-11-10'
+date: 2021-11-10
 signer: 
 reviewArchive: 
 twitter: 

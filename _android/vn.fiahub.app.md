@@ -1,36 +1,36 @@
 ---
-wsId: 'Fiahub'
-title: 'Fiahub - Mua bán Bitcoin, USDT'
+wsId: Fiahub
+title: Fiahub - Mua bán Bitcoin, USDT
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'vn.fiahub.app'
+appId: vn.fiahub.app
 appCountry: 
-released: '2019-10-11'
+released: 2019-10-11
 updated: 2025-01-02
-version: '2.20.3'
+version: 2.20.3
 stars: 
 ratings: 
 reviews: 
-website: 'http://www.fiahub.com'
+website: http://www.fiahub.com
 repository: 
 issue: 
-icon: 'vn.fiahub.app.png'
+icon: vn.fiahub.app.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2022-07-13'
+date: 2022-07-13
 signer: 
 reviewArchive: 
-twitter: 'FIAHUBVN'
+twitter: FIAHUBVN
 social:
-- 'https://www.facebook.com/FiahubVN'
-- 'https://www.fiahub.com/blog/'
-- 'https://www.linkedin.com/company/fiahub/'
+- https://www.facebook.com/FiahubVN
+- https://www.fiahub.com/blog/
+- https://www.linkedin.com/company/fiahub/
 redirect_from: 
-developerName: 'DIGITEX PTE LTD'
+developerName: DIGITEX PTE LTD
 features: 
 
 ---

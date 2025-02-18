@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'AI TRADE'
+title: AI TRADE
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'app.aitrade.ai'
+appId: app.aitrade.ai
 appCountry: 
-released: '2022-12-19'
-updated: '2022-12-20'
-version: '1.0.1'
+released: 2022-12-19
+updated: 2022-12-20
+version: 1.0.1
 stars: 2.2
 ratings: 
 reviews: 
-size: 
-website: 'https://www.aiinvest.ai/'
+website: https://www.aiinvest.ai/
 repository: 
 issue: 
-icon: 'app.aitrade.ai.png'
+icon: app.aitrade.ai.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2024-09-28'
+date: 2024-09-28
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'aitrade'
+developerName: aitrade
 features: 
 
 ---

@@ -1,38 +1,38 @@
 ---
-wsId: 'sekiappCrypto'
+wsId: sekiappCrypto
 title: 'SekiApp: Sell,Store,Buy Crypto'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.wiseki.sekiapp'
+appId: com.wiseki.sekiapp
 appCountry: 
-released: '2022-05-31'
+released: 2022-05-31
 updated: 2024-09-30
-version: '2.2.8'
+version: 2.2.8
 stars: 4.1
 ratings: 
 reviews: 17
-website: 'https://sekiapp.com'
+website: https://sekiapp.com
 repository: 
 issue: 
-icon: 'com.wiseki.sekiapp.png'
+icon: com.wiseki.sekiapp.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-08-14'
+date: 2023-08-14
 signer: 
 reviewArchive: 
-twitter: 'Seki_APP'
+twitter: Seki_APP
 social:
-- 'https://www.linkedin.com/company/sekiapp'
-- 'https://www.youtube.com/channel/UCHxxbmOdcfyAmXUfutFfBXA'
-- 'https://www.instagram.com/seki_app'
-- 'https://www.facebook.com/sekiapp'
-- 'https://www.tiktok.com/@seki_app'
+- https://www.linkedin.com/company/sekiapp
+- https://www.youtube.com/channel/UCHxxbmOdcfyAmXUfutFfBXA
+- https://www.instagram.com/seki_app
+- https://www.facebook.com/sekiapp
+- https://www.tiktok.com/@seki_app
 redirect_from: 
-developerName: 'Wiseki Technologies Limited'
+developerName: Wiseki Technologies Limited
 features: 
 
 ---

@@ -1,28 +1,27 @@
 ---
 wsId: 
-title: 'Crypto.com Buy Bitcoin'
-altTitle: '(Fake) Crypto.com Buy Bitcoin'
+title: Crypto.com Buy Bitcoin
+altTitle: (Fake) Crypto.com Buy Bitcoin
 authors:
-- 'danny'
+- danny
 users: 10
-appId: 'com.cryptojournal.crypto.com.buy.bitcoin'
+appId: com.cryptojournal.crypto.com.buy.bitcoin
 appCountry: 
-released: '2021-07-07'
-updated: '2021-07-07'
+released: 2021-07-07
+updated: 2021-07-07
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: '2.3M'
 website: 
 repository: 
 issue: 
-icon: 'com.cryptojournal.crypto.com.buy.bitcoin.jpg'
+icon: com.cryptojournal.crypto.com.buy.bitcoin.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'fake'
+meta: removed
+verdict: fake
 appHashes: 
-date: '2021-10-01'
+date: 2021-10-01
 signer: 
 reviewArchive: 
 twitter: 

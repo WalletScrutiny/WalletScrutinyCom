@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Lohit Group'
+title: Lohit Group
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.lohitgroup.start'
+appId: com.lohitgroup.start
 appCountry: 
-released: '2020-05-04'
-updated: '2020-10-05'
-version: '0.1.5'
+released: 2020-05-04
+updated: 2020-10-05
+version: 0.1.5
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'http://lohitgroup.com/'
+website: http://lohitgroup.com/
 repository: 
 issue: 
-icon: 'com.lohitgroup.start.png'
+icon: com.lohitgroup.start.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'wip'
+meta: defunct
+verdict: wip
 appHashes: 
-date: '2023-05-30'
+date: 2023-05-30
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'LOHIT ENTERPRISES PRIVATE LIMITED'
+developerName: LOHIT ENTERPRISES PRIVATE LIMITED
 features: 
 
 ---

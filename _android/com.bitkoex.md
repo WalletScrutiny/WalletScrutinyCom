@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Bitkoex'
+title: Bitkoex
 altTitle: 
 authors: 
 users: 1000
-appId: 'com.bitkoex'
+appId: com.bitkoex
 appCountry: 
-released: '2018-09-30'
-updated: '2021-03-01'
+released: 2018-09-30
+updated: 2021-03-01
 version: '2.19'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.bitkoex.com/'
+website: https://www.bitkoex.com/
 repository: 
 issue: 
-icon: 'com.bitkoex.png'
+icon: com.bitkoex.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2024-11-12'
+date: 2024-11-12
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'GNDPLUS BITKOEX'
+developerName: GNDPLUS BITKOEX
 features: 
 
 ---

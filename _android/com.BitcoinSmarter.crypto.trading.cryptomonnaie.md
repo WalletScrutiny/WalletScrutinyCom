@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Bitcoin Smarter'
+title: Bitcoin Smarter
 altTitle: 
 authors: 
 users: 500
-appId: 'com.BitcoinSmarter.crypto.trading.cryptomonnaie'
+appId: com.BitcoinSmarter.crypto.trading.cryptomonnaie
 appCountry: 
-released: '2022-06-19'
-updated: '2022-06-19'
+released: 2022-06-19
+updated: 2022-06-19
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.BitcoinSmarter.crypto.trading.cryptomonnaie.png'
+icon: com.BitcoinSmarter.crypto.trading.cryptomonnaie.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-09-15'
+date: 2023-09-15
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'devloox'
+developerName: devloox
 features: 
 
 ---

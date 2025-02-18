@@ -1,35 +1,35 @@
 ---
-wsId: 'ambercrypto'
+wsId: ambercrypto
 title: 'WhaleFin: Prime Crypto Service'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000000
-appId: 'io.ambergroup.amber'
-appCountry: 'us'
-released: '2020-09-21'
+appId: io.ambergroup.amber
+appCountry: us
+released: 2020-09-21
 updated: 2024-12-31
-version: '3.0.3'
+version: 3.0.3
 stars: 4.6
 ratings: 2656
 reviews: 238
-website: 'https://www.whalefin.com'
+website: https://www.whalefin.com
 repository: 
 issue: 
-icon: 'io.ambergroup.amber.png'
+icon: io.ambergroup.amber.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-09-11'
+date: 2021-09-11
 signer: 
 reviewArchive: 
-twitter: 'ambergroup_io'
+twitter: ambergroup_io
 social:
-- 'https://www.linkedin.com/company/amberbtc'
-- 'https://www.facebook.com/ambergroup.io'
+- https://www.linkedin.com/company/amberbtc
+- https://www.facebook.com/ambergroup.io
 redirect_from: 
-developerName: 'Amber AI Limited'
+developerName: Amber AI Limited
 features: 
 
 ---

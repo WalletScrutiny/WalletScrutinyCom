@@ -1,37 +1,36 @@
 ---
-wsId: 'capexExchange'
-title: 'Capex exchange'
+wsId: capexExchange
+title: Capex exchange
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.capex'
+appId: com.capex
 appCountry: 
-released: '2022-02-15'
-updated: '2023-09-21'
-version: '2.0.2'
+released: 2022-02-15
+updated: 2023-09-21
+version: 2.0.2
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://capex.mn/'
+website: https://capex.mn/
 repository: 
 issue: 
-icon: 'com.capex.png'
+icon: com.capex.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-11-15'
+date: 2024-11-15
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://www.facebook.com/capex.mn'
-- 'https://www.instagram.com/capex.mn'
-- 'https://t.me/capexcoin'
+- https://www.facebook.com/capex.mn
+- https://www.instagram.com/capex.mn
+- https://t.me/capexcoin
 redirect_from: 
-developerName: 'Dataland LLC'
+developerName: Dataland LLC
 features: 
 
 ---

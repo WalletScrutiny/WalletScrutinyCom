@@ -7,12 +7,11 @@ authors:
 appId: www.coindhan.com
 appCountry: in
 idd: '1601649228'
-released: '2021-12-27'
-updated: '2024-05-16'
+released: 2021-12-27
+updated: 2024-05-16
 version: '1.33'
 stars: 4.5
 reviews: 20
-size: '35810304'
 website: https://www.coindhan.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2024-10-07'
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: coin_dhan

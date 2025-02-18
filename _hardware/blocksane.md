@@ -3,7 +3,7 @@ title: Blocksane
 appId: blocksane
 authors:
 - danny
-released: '2018-05-28'
+released: 2018-05-28
 discontinued: 
 updated: 
 version: 
@@ -26,7 +26,7 @@ bugbounty:
 meta: ok
 verdict: vapor
 appHashes: 
-date: '2022-05-19'
+date: 2022-05-19
 signer: 
 reviewArchive: 
 twitter: 

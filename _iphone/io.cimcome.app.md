@@ -7,12 +7,11 @@ authors:
 appId: io.cimcome.app
 appCountry: bm
 idd: 1536525077
-released: '2020-12-09'
-updated: '2024-11-22'
-version: '2.2.13'
+released: 2020-12-09
+updated: 2024-11-22
+version: 2.2.13
 stars: 0
 reviews: 0
-size: '81775616'
 website: https://cimcome.sg
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: nobtc
 appHashes: 
-date: '2021-11-22'
+date: 2021-11-22
 signer: 
 reviewArchive: 
 twitter: cimcome

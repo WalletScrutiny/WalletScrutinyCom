@@ -7,12 +7,11 @@ authors:
 appId: com.coinswitch.kuber
 appCountry: in
 idd: 1540214951
-released: '2020-12-01'
-updated: '2025-02-03'
-version: '7.0.1'
+released: 2020-12-01
+updated: 2025-02-03
+version: 7.0.1
 stars: 4.5
-reviews: 56773
-size: '102745088'
+reviews: 56838
 website: https://coinswitch.co
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: nosendreceive
 appHashes: 
-date: '2021-10-21'
+date: 2021-10-21
 signer: 
 reviewArchive: 
 twitter: CoinSwitchKuber

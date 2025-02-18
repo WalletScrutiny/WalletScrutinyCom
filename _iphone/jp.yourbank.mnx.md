@@ -7,12 +7,11 @@ authors:
 appId: jp.yourbank.mnx
 appCountry: jp
 idd: '1417085535'
-released: '2018-12-10'
-updated: '2024-09-28'
-version: '1.4.6'
+released: 2018-12-10
+updated: 2024-09-28
+version: 1.4.6
 stars: 4.4
-reviews: 14299
-size: '83835904'
+reviews: 14313
 website: https://cheeese.monex.co.jp/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: nowallet
 appHashes: 
-date: '2022-07-06'
+date: 2022-07-06
 signer: 
 reviewArchive: 
 twitter: 

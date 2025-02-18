@@ -4,30 +4,29 @@ title: 'KyberSwap: Buy, Trade, Transfer Cryptocurrencies'
 altTitle: 
 authors: 
 users: 50000
-appId: 'com.kyberswap.android'
+appId: com.kyberswap.android
 appCountry: 
-released: '2019-08-14'
-updated: '2021-07-21'
-version: '1.1.37'
+released: 2019-08-14
+updated: 2021-07-21
+version: 1.1.37
 stars: 4.2
 ratings: 1810
 reviews: 871
-size: '19M'
-website: 'https://kyberswap.com'
+website: https://kyberswap.com
 repository: 
 issue: 
-icon: 'com.kyberswap.android.png'
+icon: com.kyberswap.android.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nobtc'
+meta: removed
+verdict: nobtc
 appHashes: 
-date: '2021-08-26'
+date: 2021-08-26
 signer: 
 reviewArchive: 
-twitter: 'KyberSwap'
+twitter: KyberSwap
 social: 
 redirect_from:
-- '/com.kyberswap.android/'
+- /com.kyberswap.android/
 developerName: 
 features: 
 

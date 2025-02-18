@@ -1,37 +1,37 @@
 ---
-wsId: 'coinhubWallet'
-title: 'Coinhub Bitcoin Wallet'
+wsId: coinhubWallet
+title: Coinhub Bitcoin Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'app.coinhubatm.wallet'
+appId: app.coinhubatm.wallet
 appCountry: 
-released: '2022-12-11'
+released: 2022-12-11
 updated: 2024-11-20
-version: '4.16.0'
+version: 4.16.0
 stars: 4
 ratings: 
 reviews: 12
-website: 'https://coinhubatm.com/'
+website: https://coinhubatm.com/
 repository: 
 issue: 
-icon: 'app.coinhubatm.wallet.png'
+icon: app.coinhubatm.wallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-24'
+date: 2024-07-24
 signer: 
 reviewArchive: 
-twitter: 'Coinhubusa'
+twitter: Coinhubusa
 social:
-- 'https://www.linkedin.com/company/coinhubatm'
-- 'https://www.instagram.com/coinhubusa'
-- 'https://www.facebook.com/coinhubusa'
-- 'https://www.youtube.com/channel/UCPxfH3hg9CSd7BtCGcalyRg'
+- https://www.linkedin.com/company/coinhubatm
+- https://www.instagram.com/coinhubusa
+- https://www.facebook.com/coinhubusa
+- https://www.youtube.com/channel/UCPxfH3hg9CSd7BtCGcalyRg
 redirect_from: 
-developerName: 'Coinhub Bitcoin Wallet'
+developerName: Coinhub Bitcoin Wallet
 features: 
 
 ---

@@ -7,12 +7,11 @@ authors:
 appId: io.nanovest
 appCountry: us
 idd: '1580892310'
-released: '2021-12-20'
-updated: '2024-09-23'
-version: '3.17.0'
+released: 2021-12-20
+updated: 2024-09-23
+version: 3.17.0
 stars: 5
 reviews: 10
-size: '100564992'
 website: https://nanovest.io/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2024-10-23'
+date: 2024-10-23
 signer: 
 reviewArchive: 
 twitter: nanovest_io

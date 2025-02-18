@@ -1,34 +1,33 @@
 ---
-wsId: 'kleverexchange'
-title: 'Bitcoin.me'
+wsId: kleverexchange
+title: Bitcoin.me
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'io.klever.secure.exchange'
-appCountry: 'us'
-released: '2021-06-30'
-updated: '2023-08-07'
-version: '1.5.3'
+appId: io.klever.secure.exchange
+appCountry: us
+released: 2021-06-30
+updated: 2023-08-07
+version: 1.5.3
 stars: 4
 ratings: 500
 reviews: 46
-size: 
-website: 'https://bitcoin.me'
+website: https://bitcoin.me
 repository: 
 issue: 
-icon: 'io.klever.secure.exchange.png'
+icon: io.klever.secure.exchange.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
-twitter: 'klever_io'
+twitter: klever_io
 social:
-- 'https://www.linkedin.com/company/klever-app'
-- 'https://www.facebook.com/klever.io'
+- https://www.linkedin.com/company/klever-app
+- https://www.facebook.com/klever.io
 redirect_from: 
 developerName: 'Klever Wallet: Bitcoin, Ethereum, TRX & Crypto'
 features: 

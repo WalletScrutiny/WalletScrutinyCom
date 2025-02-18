@@ -3,31 +3,31 @@ wsId:
 title: 'WunderTrading: AI Crypto Bot'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.wundertrading.android'
+appId: com.wundertrading.android
 appCountry: 
-released: '2022-11-20'
+released: 2022-11-20
 updated: 2024-11-21
-version: '1.1.6'
+version: 1.1.6
 stars: 2.8
 ratings: 
 reviews: 5
-website: 'https://wundertrading.com/en'
+website: https://wundertrading.com/en
 repository: 
 issue: 
-icon: 'com.wundertrading.android.png'
+icon: com.wundertrading.android.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2023-08-08'
+date: 2023-08-08
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'WunderTrading'
+developerName: WunderTrading
 features: 
 
 ---

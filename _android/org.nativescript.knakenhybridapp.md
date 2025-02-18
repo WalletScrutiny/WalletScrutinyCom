@@ -1,36 +1,35 @@
 ---
-wsId: 'knakenCrypto'
+wsId: knakenCrypto
 title: 'Knaken: Buy crypto safely'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'org.nativescript.knakenhybridapp'
+appId: org.nativescript.knakenhybridapp
 appCountry: 
-released: '2022-07-06'
-updated: '2024-06-18'
-version: '3.0.1'
+released: 2022-07-06
+updated: 2024-06-18
+version: 3.0.1
 stars: 3.5
 ratings: 
 reviews: 
-size: 
-website: 'https://knaken.eu/'
+website: https://knaken.eu/
 repository: 
 issue: 
-icon: 'org.nativescript.knakenhybridapp.png'
+icon: org.nativescript.knakenhybridapp.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-07-19'
+date: 2024-07-19
 signer: 
 reviewArchive: 
-twitter: 'knaken_eu'
+twitter: knaken_eu
 social:
-- 'https://www.facebook.com/knakeneu'
-- 'https://www.instagram.com/knaken_eu'
+- https://www.facebook.com/knakeneu
+- https://www.instagram.com/knaken_eu
 redirect_from: 
-developerName: 'Knaken'
+developerName: Knaken
 features: 
 
 ---

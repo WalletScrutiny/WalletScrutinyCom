@@ -1,35 +1,35 @@
 ---
-wsId: 'ShuffleHPX'
+wsId: ShuffleHPX
 title: 'Shuffle: Crypto Payment Wallet'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.thehumanplus.shuffle'
+appId: com.thehumanplus.shuffle
 appCountry: 
-released: '2020-04-06'
+released: 2020-04-06
 updated: 2024-11-01
-version: '2.0.2'
+version: 2.0.2
 stars: 4
 ratings: 
 reviews: 
-website: 'https://www.hupayx.com/'
+website: https://www.hupayx.com/
 repository: 
 issue: 
-icon: 'com.thehumanplus.shuffle.png'
+icon: com.thehumanplus.shuffle.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-09-11'
+date: 2023-09-11
 signer: 
 reviewArchive: 
-twitter: 'hupayx'
+twitter: hupayx
 social:
-- 'https://medium.com/@hupayx'
-- 'https://www.youtube.com/channel/UCLgE_Dl46oJXtJDyQAModtQ'
+- https://medium.com/@hupayx
+- https://www.youtube.com/channel/UCLgE_Dl46oJXtJDyQAModtQ
 redirect_from: 
-developerName: 'HUPAYX'
+developerName: HUPAYX
 features: 
 
 ---

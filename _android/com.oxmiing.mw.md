@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: 'OX Mining'
+title: OX Mining
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.oxmiing.mw'
+appId: com.oxmiing.mw
 appCountry: 
-released: '2022-01-13'
+released: 2022-01-13
 updated: 2022-04-07
-version: '2.7.0'
+version: 2.7.0
 stars: 4.1
 ratings: 
 reviews: 4
-website: 'https://www.oxbtc.com'
+website: https://www.oxbtc.com
 repository: 
 issue: 
-icon: 'com.oxmiing.mw.jpg'
+icon: com.oxmiing.mw.jpg
 bugbounty: 
-meta: 'obsolete'
-verdict: 'fake'
+meta: obsolete
+verdict: fake
 appHashes: 
-date: '2024-03-30'
+date: 2024-03-30
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'haleiyun'
+developerName: haleiyun
 features: 
 
 ---

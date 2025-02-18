@@ -1,36 +1,35 @@
 ---
 wsId: 
-title: 'MAX-Wallet'
+title: MAX-Wallet
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 5000
-appId: 'com.maxonrow.wallet'
+appId: com.maxonrow.wallet
 appCountry: 
-released: '2019-08-31'
-updated: '2023-05-08'
-version: '2.1.31'
+released: 2019-08-31
+updated: 2023-05-08
+version: 2.1.31
 stars: 
 ratings: 73
 reviews: 
-size: 
-website: 'https://www.maxonrow.com'
+website: https://www.maxonrow.com
 repository: 
 issue: 
-icon: 'com.maxonrow.wallet.png'
+icon: com.maxonrow.wallet.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'nobtc'
+meta: defunct
+verdict: nobtc
 appHashes: 
-date: '2021-03-17'
+date: 2021-03-17
 signer: 
 reviewArchive: 
-twitter: 'maxonrow'
+twitter: maxonrow
 social:
-- 'https://www.linkedin.com/company/maxonrow'
-- 'https://www.facebook.com/maxonrowblockchain'
+- https://www.linkedin.com/company/maxonrow
+- https://www.facebook.com/maxonrowblockchain
 redirect_from: 
-developerName: 'Maxonrow'
+developerName: Maxonrow
 features: 
 
 ---

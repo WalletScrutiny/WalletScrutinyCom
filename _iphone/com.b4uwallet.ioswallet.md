@@ -1,32 +1,31 @@
 ---
-wsId: 'B4UWallet'
-title: 'B4U Wallet'
+wsId: B4UWallet
+title: B4U Wallet
 altTitle: 
 authors:
-- 'kiwilamb'
-appId: 'com.b4uwallet.ioswallet'
+- kiwilamb
+appId: com.b4uwallet.ioswallet
 appCountry: 
 idd: '1491304459'
-released: '2019-12-17'
-updated: '2021-04-22'
-version: '1.0.5'
+released: 2019-12-17
+updated: 2021-04-22
+version: 1.0.5
 stars: 1
 reviews: 2
-size: '71199744'
-website: 'https://b4uwallet.com/'
+website: https://b4uwallet.com/
 repository: 
 issue: 
-icon: 'com.b4uwallet.ioswallet.jpg'
+icon: com.b4uwallet.ioswallet.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2022-04-25'
+date: 2022-04-25
 signer: 
 reviewArchive: 
-twitter: 'b4uwallet_b4u'
+twitter: b4uwallet_b4u
 social:
-- 'https://www.facebook.com/B4uwalletofficial'
+- https://www.facebook.com/B4uwalletofficial
 features: 
 developerName: 
 

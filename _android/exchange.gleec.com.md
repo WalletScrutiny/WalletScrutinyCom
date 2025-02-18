@@ -1,33 +1,33 @@
 ---
-wsId: 'gleecExchange'
-title: 'Gleec BTC'
+wsId: gleecExchange
+title: Gleec BTC
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'exchange.gleec.com'
+appId: exchange.gleec.com
 appCountry: 
-released: '2021-02-17'
+released: 2021-02-17
 updated: 2024-12-06
-version: '1.35.0'
+version: 1.35.0
 stars: 2.6
 ratings: 
 reviews: 
-website: 'https://gleecbtc.com/'
+website: https://gleecbtc.com/
 repository: 
 issue: 
-icon: 'exchange.gleec.com.png'
+icon: exchange.gleec.com.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2024-11-28'
+date: 2024-11-28
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Gleec BTC OU'
+developerName: Gleec BTC OU
 features: 
 
 ---

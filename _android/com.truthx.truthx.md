@@ -3,32 +3,31 @@ wsId:
 title: 'TruthX : Sell Gift Cards And B'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.truthx.truthx'
+appId: com.truthx.truthx
 appCountry: 
-released: '2020-07-04'
-updated: '2022-01-22'
-version: '1.0.4'
+released: 2020-07-04
+updated: 2022-01-22
+version: 1.0.4
 stars: 3.4
 ratings: 346
 reviews: 28
-size: 
-website: 'https://gifttokenweb.herokuapp.com/'
+website: https://gifttokenweb.herokuapp.com/
 repository: 
 issue: 
-icon: 'com.truthx.truthx.png'
+icon: com.truthx.truthx.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'TruthX'
+developerName: TruthX
 features: 
 
 ---

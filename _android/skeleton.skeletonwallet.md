@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Skeleton Wallet'
+title: Skeleton Wallet
 altTitle: 
 authors: 
 users: 100
-appId: 'skeleton.skeletonwallet'
+appId: skeleton.skeletonwallet
 appCountry: 
-released: '2022-06-05'
-updated: '2022-06-16'
+released: 2022-06-05
+updated: 2022-06-16
 version: '1.3'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://defiskeletons.com/'
+website: https://defiskeletons.com/
 repository: 
 issue: 
-icon: 'skeleton.skeletonwallet.png'
+icon: skeleton.skeletonwallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-03-02'
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Defiskeleton'
+developerName: Defiskeleton
 features: 
 
 ---

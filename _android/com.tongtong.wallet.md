@@ -1,35 +1,35 @@
 ---
-wsId: 'etomato'
-title: '통통지갑 – 내 손안의 블록체인 지갑'
+wsId: etomato
+title: 통통지갑 – 내 손안의 블록체인 지갑
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.tongtong.wallet'
+appId: com.tongtong.wallet
 appCountry: 
-released: '2022-04-21'
+released: 2022-04-21
 updated: 2024-11-21
-version: '1.6.05'
+version: 1.6.05
 stars: 
 ratings: 
 reviews: 
-website: 'https://tongtongwallet.com/'
+website: https://tongtongwallet.com/
 repository: 
 issue: 
-icon: 'com.tongtong.wallet.png'
+icon: com.tongtong.wallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-20'
+date: 2024-07-20
 signer: 
 reviewArchive: 
-twitter: 'tomatochain'
+twitter: tomatochain
 social:
-- 'https://www.instagram.com/tomatochain_official/'
-- 'https://t.me/tomatochain_official_Eng'
+- https://www.instagram.com/tomatochain_official/
+- https://t.me/tomatochain_official_Eng
 redirect_from: 
-developerName: 'Tomato Group'
+developerName: Tomato Group
 features: 
 
 ---

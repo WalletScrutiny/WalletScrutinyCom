@@ -1,33 +1,32 @@
 ---
-wsId: 'btciapp'
-title: 'Bitcoin India Wallet &Exchange'
+wsId: btciapp
+title: Bitcoin India Wallet &Exchange
 altTitle: 
 authors:
-- 'leo'
-appId: 'com.bitcoinindia.Btciapp'
+- leo
+appId: com.bitcoinindia.Btciapp
 appCountry: 
 idd: '1230917514'
-released: '2017-07-12'
-updated: '2021-07-30'
-version: '3.1.45'
+released: 2017-07-12
+updated: 2021-07-30
+version: 3.1.45
 stars: 1
 reviews: 1
-size: '72125440'
 website: 
 repository: 
 issue: 
-icon: 'com.bitcoinindia.Btciapp.jpg'
+icon: com.bitcoinindia.Btciapp.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2021-09-19'
+date: 2021-09-19
 signer: 
 reviewArchive: 
-twitter: 'BTC_india'
+twitter: BTC_india
 social:
-- 'https://www.linkedin.com/company/bitcoin-india'
-- 'https://www.facebook.com/Bitcoin.India.Org'
+- https://www.linkedin.com/company/bitcoin-india
+- https://www.facebook.com/Bitcoin.India.Org
 features: 
 developerName: 
 

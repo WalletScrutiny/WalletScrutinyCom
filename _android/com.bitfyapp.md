@@ -1,35 +1,34 @@
 ---
-wsId: 'bitfy'
-title: 'Bitfy SuperApp de Criptomoedas'
+wsId: bitfy
+title: Bitfy SuperApp de Criptomoedas
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.bitfyapp'
-appCountry: 'us'
-released: '2019-10-14'
-updated: '2024-03-05'
-version: '3.12.48'
+appId: com.bitfyapp
+appCountry: us
+released: 2019-10-14
+updated: 2024-03-05
+version: 3.12.48
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://blockchainwebservices.com.br'
+website: https://blockchainwebservices.com.br
 repository: 
 issue: 
-icon: 'com.bitfyapp.png'
+icon: com.bitfyapp.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2025-02-04'
+date: 2025-02-04
 signer: 
 reviewArchive: 
-twitter: 'bitfyapp'
+twitter: bitfyapp
 social:
-- 'https://www.facebook.com/bitfyapp'
+- https://www.facebook.com/bitfyapp
 redirect_from: 
-developerName: 'Bitfy'
+developerName: Bitfy
 features: 
 
 ---

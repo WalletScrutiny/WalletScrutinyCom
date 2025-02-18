@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Particl Copay'
+title: Particl Copay
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'io.particl.copay'
+appId: io.particl.copay
 appCountry: 
-released: '2017-09-18'
-updated: '2020-05-30'
-version: '5.5.1'
+released: 2017-09-18
+updated: 2020-05-30
+version: 5.5.1
 stars: 4.1
 ratings: 134
 reviews: 17
-size: 
-website: 'https://particl.io'
-repository: 'https://github.com/particl/copay/commits/ratefix'
-issue: 'https://github.com/particl/copay/issues/58'
-icon: 'io.particl.copay.png'
+website: https://particl.io
+repository: https://github.com/particl/copay/commits/ratefix
+issue: https://github.com/particl/copay/issues/58
+icon: io.particl.copay.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2024-04-03'
+date: 2024-04-03
 signer: 
 reviewArchive: 
-twitter: 'ParticlProject'
+twitter: ParticlProject
 social: 
 redirect_from: 
-developerName: 'Particl Foundation'
+developerName: Particl Foundation
 features: 
 
 ---

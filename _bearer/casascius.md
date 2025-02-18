@@ -3,7 +3,7 @@ title: Casascius Coins
 appId: casascius
 authors:
 - danny
-released: '2011-12-17'
+released: 2011-12-17
 discontinued: 2013-11-27
 updated: 
 version: 
@@ -25,7 +25,7 @@ icon: casascius.png
 bugbounty: 
 meta: defunct
 verdict: sealed-plainkey
-date: '2022-03-23'
+date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: 

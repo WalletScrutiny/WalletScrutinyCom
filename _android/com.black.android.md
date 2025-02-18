@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: 'black.com - Encrypted Email'
+title: black.com - Encrypted Email
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.black.android'
+appId: com.black.android
 appCountry: 
-released: '2021-07-09'
+released: 2021-07-09
 updated: 2025-01-16
 version: '58'
 stars: 2.4
 ratings: 
 reviews: 4
-website: 'https://black.com'
+website: https://black.com
 repository: 
 issue: 
-icon: 'com.black.android.png'
+icon: com.black.android.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2023-07-17'
+date: 2023-07-17
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'black.com GmbH'
+developerName: black.com GmbH
 features: 
 
 ---

@@ -4,7 +4,7 @@ appId: secuxstonew10
 authors:
 - kiwilamb
 - danny
-released: '2020-09-23'
+released: 2020-09-23
 discontinued: 
 updated: 
 version: 
@@ -27,7 +27,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: '2022-11-24'
+date: 2022-11-24
 signer: 
 reviewArchive: 
 twitter: SecuXwallet

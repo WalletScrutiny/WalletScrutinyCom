@@ -1,36 +1,35 @@
 ---
-wsId: 'finxWalletAndCard'
-title: 'FINX Wallet & Card'
+wsId: finxWalletAndCard
+title: FINX Wallet & Card
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'global.finx.FINX'
+appId: global.finx.FINX
 appCountry: 
-released: '2022-10-26'
-updated: '2023-02-23'
-version: '0.4.8'
+released: 2022-10-26
+updated: 2023-02-23
+version: 0.4.8
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://finx.global/'
+website: https://finx.global/
 repository: 
 issue: 
-icon: 'global.finx.FINX.jpg'
+icon: global.finx.FINX.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'nobtc'
+meta: removed
+verdict: nobtc
 appHashes: 
-date: '2024-11-29'
+date: 2024-11-29
 signer: 
 reviewArchive: 
-twitter: 'FINXSupport'
+twitter: FINXSupport
 social:
-- 'https://medium.com/@FINXGlobal'
-- 'https://discord.com/invite/finxglobal'
+- https://medium.com/@FINXGlobal
+- https://discord.com/invite/finxglobal
 redirect_from: 
-developerName: 'FINX CAPITAL PTE. LTD.'
+developerName: FINX CAPITAL PTE. LTD.
 features: 
 
 ---

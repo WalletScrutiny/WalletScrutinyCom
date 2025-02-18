@@ -1,35 +1,36 @@
 ---
-wsId: '21Bitcoin'
+wsId: 21Bitcoin
 title: '21bitcoin: Buy Bitcoin 24/7'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'fior.digital21app'
+appId: fior.digital21app
 appCountry: 
+released: 
 updated: 2025-01-14
-version: '2.0.36'
+version: 2.0.36
 stars: 4.8
 ratings: 
 reviews: 
-website: 'https://21bitcoin.app/'
+website: https://21bitcoin.app/
 repository: 
 issue: 
-icon: 'fior.digital21app.png'
+icon: fior.digital21app.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-09-06'
+date: 2023-09-06
 signer: 
 reviewArchive: 
-twitter: '21bitcoinApp'
+twitter: 21bitcoinApp
 social:
-- 'https://www.facebook.com/21bitcoinapp'
-- 'https://www.instagram.com/21bitcoin.app'
-- 'https://www.linkedin.com/company/21bitcoin'
+- https://www.facebook.com/21bitcoinapp
+- https://www.instagram.com/21bitcoin.app
+- https://www.linkedin.com/company/21bitcoin
 redirect_from: 
-developerName: 'FIOR Digital GmbH'
+developerName: FIOR Digital GmbH
 features: 
 
 ---

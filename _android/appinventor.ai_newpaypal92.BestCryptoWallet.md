@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Best Crypto Wallet'
+title: Best Crypto Wallet
 altTitle: 
 authors: 
 users: 50
-appId: 'appinventor.ai_newpaypal92.BestCryptoWallet'
+appId: appinventor.ai_newpaypal92.BestCryptoWallet
 appCountry: 
-released: '2021-12-28'
-updated: '2021-12-28'
+released: 2021-12-28
+updated: 2021-12-28
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'appinventor.ai_newpaypal92.BestCryptoWallet.jpg'
+icon: appinventor.ai_newpaypal92.BestCryptoWallet.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-07-05'
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'East Analytica'
+developerName: East Analytica
 features: 
 
 ---

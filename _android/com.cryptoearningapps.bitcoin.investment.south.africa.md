@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Bitcoin Investment South Africa'
+title: Bitcoin Investment South Africa
 altTitle: 
 authors: 
 users: 5
-appId: 'com.cryptoearningapps.bitcoin.investment.south.africa'
+appId: com.cryptoearningapps.bitcoin.investment.south.africa
 appCountry: 
-released: '2021-06-29'
-updated: '2021-06-29'
+released: 2021-06-29
+updated: 2021-06-29
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: '2.3M'
 website: 
 repository: 
 issue: 
-icon: 'com.cryptoearningapps.bitcoin.investment.south.africa.png'
+icon: com.cryptoearningapps.bitcoin.investment.south.africa.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2021-10-01'
+date: 2021-10-01
 signer: 
 reviewArchive: 
 twitter: 

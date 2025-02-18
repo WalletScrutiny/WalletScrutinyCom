@@ -7,12 +7,11 @@ authors:
 appId: inc.lireneosoft.counterparty
 appCountry: us
 idd: 977972108
-released: '2015-05-03'
-updated: '2021-08-17'
+released: 2015-05-03
+updated: 2021-08-17
 version: '1.255'
 stars: 1
 reviews: 1
-size: '41849856'
 website: https://wallet.indiesquare.me
 repository: https://github.com/IndieSquare/indiesquare-wallet
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: nosource
 appHashes: 
-date: '2024-11-21'
+date: 2024-11-21
 signer: 
 reviewArchive: 
 twitter: Indie_Square

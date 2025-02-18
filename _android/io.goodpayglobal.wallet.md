@@ -1,38 +1,37 @@
 ---
 wsId: 
-title: 'Good Pay Wallet'
+title: Good Pay Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'io.goodpayglobal.wallet'
+appId: io.goodpayglobal.wallet
 appCountry: 
-released: '2021-04-07'
-updated: '2023-09-19'
-version: '1.0.23'
+released: 2021-04-07
+updated: 2023-09-19
+version: 1.0.23
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://goodpayglobal.io/'
+website: https://goodpayglobal.io/
 repository: 
 issue: 
-icon: 'io.goodpayglobal.wallet.png'
+icon: io.goodpayglobal.wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-04-03'
+date: 2024-04-03
 signer: 
 reviewArchive: 
-twitter: 'goodpayglobal'
+twitter: goodpayglobal
 social:
-- 'https://www.facebook.com/goodpayglobal'
-- 'https://www.youtube.com/channel/UCkMwcEkn0F7jvcSeHngwrZw'
-- 'https://www.linkedin.com/company/goodpayglobal'
-- 'https://t.me/goodpayglobal'
+- https://www.facebook.com/goodpayglobal
+- https://www.youtube.com/channel/UCkMwcEkn0F7jvcSeHngwrZw
+- https://www.linkedin.com/company/goodpayglobal
+- https://t.me/goodpayglobal
 redirect_from: 
-developerName: 'Vaisen'
+developerName: Vaisen
 features: 
 
 ---

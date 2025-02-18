@@ -27,7 +27,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: '2022-10-08'
+date: 2022-10-08
 signer: 
 reviewArchive: 
 twitter: ngrave_official

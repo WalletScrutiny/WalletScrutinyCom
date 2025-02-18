@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'BitFreezer Cold Wallet  Bitcoin Ethereum ERC20'
+title: BitFreezer Cold Wallet  Bitcoin Ethereum ERC20
 altTitle: 
 authors:
-- 'kiwilamb'
-- 'leo'
+- kiwilamb
+- leo
 users: 10000
-appId: 'bitfreezer.app.wallet'
+appId: bitfreezer.app.wallet
 appCountry: 
-released: '2019-09-18'
-updated: '2021-02-18'
-version: '1.0.16'
+released: 2019-09-18
+updated: 2021-02-18
+version: 1.0.16
 stars: 4.1
 ratings: 61
 reviews: 22
-size: '32M'
-website: 'https://bitfreezer.app/'
+website: https://bitfreezer.app/
 repository: 
 issue: 
-icon: 'bitfreezer.app.wallet.png'
+icon: bitfreezer.app.wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2021-08-11'
+date: 2021-08-11
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://www.facebook.com/TheBitFreezer'
+- https://www.facebook.com/TheBitFreezer
 redirect_from: 
 developerName: 
 features: 

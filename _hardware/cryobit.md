@@ -3,7 +3,7 @@ title: Cryobit
 appId: cryobit
 authors:
 - danny
-released: '2014-01-09'
+released: 2014-01-09
 discontinued: 2018-09-28
 updated: 
 version: 
@@ -26,7 +26,7 @@ bugbounty:
 meta: defunct
 verdict: prefilled
 appHashes: 
-date: '2022-03-11'
+date: 2022-03-11
 signer: 
 reviewArchive: 
 twitter: cryobit

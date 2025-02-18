@@ -7,12 +7,11 @@ authors:
 appId: com.swaps.only
 appCountry: xk
 idd: '1567210224'
-released: '2021-05-31'
-updated: '2024-07-08'
-version: '3.0.9'
+released: 2021-05-31
+updated: 2024-07-08
+version: 3.0.9
 stars: 0
 reviews: 0
-size: '207308800'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: nowallet
 appHashes: 
-date: '2023-08-09'
+date: 2023-08-09
 signer: 
 reviewArchive: 
 twitter: swapsapp_

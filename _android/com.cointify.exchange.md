@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Cointify Exchange'
+title: Cointify Exchange
 altTitle: 
 authors: 
 users: 1000
-appId: 'com.cointify.exchange'
+appId: com.cointify.exchange
 appCountry: 
-released: '2019-04-29'
-updated: '2019-06-24'
-version: '1.0.2'
+released: 2019-04-29
+updated: 2019-06-24
+version: 1.0.2
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://ex.cointify.com/'
+website: https://ex.cointify.com/
 repository: 
 issue: 
-icon: 'com.cointify.exchange.png'
+icon: com.cointify.exchange.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2023-05-30'
+date: 2023-05-30
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Cointify Team'
+developerName: Cointify Team
 features: 
 
 ---

@@ -1,33 +1,33 @@
 ---
-wsId: 'safemoon'
-title: 'SafeMoon'
+wsId: safemoon
+title: SafeMoon
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'net.safemoon.androidwallet'
+appId: net.safemoon.androidwallet
 appCountry: 
-released: '2021-09-10'
+released: 2021-09-10
 updated: 2023-12-06
-version: 'V3.54'
+version: V3.54
 stars: 4.1
 ratings: 
-reviews: 6380
-website: 'https://safemoon.com'
+reviews: 6381
+website: https://safemoon.com
 repository: 
 issue: 
-icon: 'net.safemoon.androidwallet.jpg'
+icon: net.safemoon.androidwallet.jpg
 bugbounty: 
-meta: 'stale'
-verdict: 'nobtc'
+meta: stale
+verdict: nobtc
 appHashes: 
-date: '2024-12-04'
+date: 2024-12-04
 signer: 
 reviewArchive: 
-twitter: 'safemoon'
+twitter: safemoon
 social: 
 redirect_from: 
-developerName: 'VGX Foundation'
+developerName: VGX Foundation
 features: 
 
 ---

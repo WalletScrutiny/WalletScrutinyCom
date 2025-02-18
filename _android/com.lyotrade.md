@@ -1,37 +1,36 @@
 ---
-wsId: 'lyoTrade'
-title: 'LYO TRADE Crypto BTC Exchange'
+wsId: lyoTrade
+title: LYO TRADE Crypto BTC Exchange
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.lyotrade'
+appId: com.lyotrade
 appCountry: 
-released: '2022-06-30'
-updated: '2023-12-17'
-version: '3.0.2'
+released: 2022-06-30
+updated: 2023-12-17
+version: 3.0.2
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.lyotrade.com'
+website: https://www.lyotrade.com
 repository: 
 issue: 
-icon: 'com.lyotrade.png'
+icon: com.lyotrade.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-07-05'
+date: 2024-07-05
 signer: 
 reviewArchive: 
-twitter: 'lyopayofficial'
+twitter: lyopayofficial
 social:
-- 'https://www.facebook.com/lyopayofficial'
-- 'https://www.instagram.com/lyopayofficial'
-- 'https://www.youtube.com/channel/UCKgAeaCl3YJ6sk_tTxyfq-Q'
+- https://www.facebook.com/lyopayofficial
+- https://www.instagram.com/lyopayofficial
+- https://www.youtube.com/channel/UCKgAeaCl3YJ6sk_tTxyfq-Q
 redirect_from: 
-developerName: 'DIGILYO APP LTD'
+developerName: DIGILYO APP LTD
 features: 
 
 ---

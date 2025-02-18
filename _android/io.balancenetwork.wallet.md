@@ -1,41 +1,40 @@
 ---
-wsId: 'balanceWalletApp'
-title: 'BalanceWallet'
+wsId: balanceWalletApp
+title: BalanceWallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'io.balancenetwork.wallet'
+appId: io.balancenetwork.wallet
 appCountry: 
-released: '2022-05-06'
-updated: '2024-05-03'
-version: '1.0.23'
+released: 2022-05-06
+updated: 2024-05-03
+version: 1.0.23
 stars: 4.6
 ratings: 
 reviews: 8
-size: 
-website: 'https://balancenetwork.io/'
+website: https://balancenetwork.io/
 repository: 
 issue: 
-icon: 'io.balancenetwork.wallet.png'
+icon: io.balancenetwork.wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2024-10-31'
+date: 2024-10-31
 signer: 
 reviewArchive: 
-twitter: 'balancenetwork_'
+twitter: balancenetwork_
 social:
-- 'https://www.linkedin.com/company/balancenetwork'
-- 'https://www.facebook.com/BalanceNetworkOfficial'
-- 'https://balancenetwork.medium.com'
-- 'https://www.tiktok.com/@balancenetwork_'
-- 'https://www.reddit.com/r/BalanceNetwork'
-- 'https://t.me/BalanceNetwork'
-- 'https://www.instagram.com/balancenetwork'
+- https://www.linkedin.com/company/balancenetwork
+- https://www.facebook.com/BalanceNetworkOfficial
+- https://balancenetwork.medium.com
+- https://www.tiktok.com/@balancenetwork_
+- https://www.reddit.com/r/BalanceNetwork
+- https://t.me/BalanceNetwork
+- https://www.instagram.com/balancenetwork
 redirect_from: 
-developerName: 'Balance Network Ltd'
+developerName: Balance Network Ltd
 features: 
 
 ---

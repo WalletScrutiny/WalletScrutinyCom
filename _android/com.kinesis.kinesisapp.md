@@ -1,36 +1,36 @@
 ---
-wsId: 'kinesismoney'
-title: 'Kinesis - Buy gold and silver'
+wsId: kinesismoney
+title: Kinesis - Buy gold and silver
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.kinesis.kinesisapp'
-appCountry: 'us'
-released: '2020-02-28'
-updated: 2025-01-13
-version: '2.4.1'
+appId: com.kinesis.kinesisapp
+appCountry: us
+released: 2020-02-28
+updated: 2025-02-13
+version: 2.5.0
 stars: 3.6
 ratings: 424
 reviews: 92
-website: 'https://kinesis.money/'
-repository: 'https://github.com/KinesisNetwork/wallet-mobile'
-issue: 'https://github.com/KinesisNetwork/wallet-mobile/issues/5'
-icon: 'com.kinesis.kinesisapp.png'
+website: https://kinesis.money/
+repository: https://github.com/KinesisNetwork/wallet-mobile
+issue: https://github.com/KinesisNetwork/wallet-mobile/issues/5
+icon: com.kinesis.kinesisapp.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-15'
+date: 2024-07-15
 signer: 
 reviewArchive: 
-twitter: 'KinesisMonetary'
+twitter: KinesisMonetary
 social:
-- 'https://www.linkedin.com/company/kinesismoney'
-- 'https://www.facebook.com/kinesismoney'
-- 'https://www.reddit.com/r/Kinesis_money'
+- https://www.linkedin.com/company/kinesismoney
+- https://www.facebook.com/kinesismoney
+- https://www.reddit.com/r/Kinesis_money
 redirect_from: 
-developerName: 'Kinesis AG'
+developerName: Kinesis AG
 features: 
 
 ---

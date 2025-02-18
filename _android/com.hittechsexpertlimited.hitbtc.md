@@ -1,37 +1,37 @@
 ---
 wsId: 
-title: 'HitBTC cryptocurrency exchange'
+title: HitBTC cryptocurrency exchange
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 100000
-appId: 'com.hittechsexpertlimited.hitbtc'
+appId: com.hittechsexpertlimited.hitbtc
 appCountry: 
-released: '2020-03-04'
+released: 2020-03-04
 updated: 2025-01-15
-version: '3.3.3'
+version: 3.3.3
 stars: 4
 ratings: 
 reviews: 5
-website: 'https://hitbtc.com/'
+website: https://hitbtc.com/
 repository: 
 issue: 
-icon: 'com.hittechsexpertlimited.hitbtc.jpg'
+icon: com.hittechsexpertlimited.hitbtc.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2020-05-29'
+date: 2020-05-29
 signer: 
 reviewArchive: 
-twitter: 'hitbtc'
+twitter: hitbtc
 social:
-- 'https://www.facebook.com/hitbtc'
-- 'https://www.reddit.com/r/hitbtc'
+- https://www.facebook.com/hitbtc
+- https://www.reddit.com/r/hitbtc
 redirect_from:
-- '/com.hittechsexpertlimited.hitbtc/'
-- '/posts/com.hittechsexpertlimited.hitbtc/'
-developerName: 'HitBTC Exchange'
+- /com.hittechsexpertlimited.hitbtc/
+- /posts/com.hittechsexpertlimited.hitbtc/
+developerName: HitBTC Exchange
 features: 
 
 ---

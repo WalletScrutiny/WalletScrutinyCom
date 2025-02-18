@@ -1,35 +1,35 @@
 ---
-wsId: 'Moonstake'
+wsId: Moonstake
 title: 'Moonstake Wallet: Coin Staking'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'io.moonstake.wallet'
-appCountry: 'us'
-released: '2020-03-24'
+appId: io.moonstake.wallet
+appCountry: us
+released: 2020-03-24
 updated: 2025-02-04
-version: '2.33.1'
+version: 2.33.1
 stars: 3.4
 ratings: 2237
 reviews: 17
-website: 'https://moonstake.io'
+website: https://moonstake.io
 repository: 
 issue: 
-icon: 'io.moonstake.wallet.png'
+icon: io.moonstake.wallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-15'
+date: 2024-07-15
 signer: 
 reviewArchive: 
-twitter: 'moonstake'
+twitter: moonstake
 social:
-- 'https://www.linkedin.com/company/moonstake'
-- 'https://www.facebook.com/moonstakekorea'
+- https://www.linkedin.com/company/moonstake
+- https://www.facebook.com/moonstakekorea
 redirect_from: 
-developerName: 'Moonstake Developer'
+developerName: Moonstake Developer
 features: 
 
 ---

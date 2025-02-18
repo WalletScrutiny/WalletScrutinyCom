@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: 'MONEX TRADER CRYPTO　暗号資産CFD取引'
+title: MONEX TRADER CRYPTO　暗号資産CFD取引
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'jp.co.monex.ms.mt_crypto'
+appId: jp.co.monex.ms.mt_crypto
 appCountry: 
-released: '2020-07-07'
+released: 2020-07-07
 updated: 2024-09-13
-version: '1.0.10'
+version: 1.0.10
 stars: 2.7
 ratings: 
 reviews: 
-website: 'http://www.monex.co.jp/'
+website: http://www.monex.co.jp/
 repository: 
 issue: 
-icon: 'jp.co.monex.ms.mt_crypto.png'
+icon: jp.co.monex.ms.mt_crypto.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosendreceive'
+meta: ok
+verdict: nosendreceive
 appHashes: 
-date: '2023-05-05'
+date: 2023-05-05
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'MONEX, Inc.'
+developerName: MONEX, Inc.
 features: 
 
 ---

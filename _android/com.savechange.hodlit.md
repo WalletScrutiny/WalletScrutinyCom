@@ -1,34 +1,33 @@
 ---
-wsId: 'hodlit'
-title: 'Hodlit'
+wsId: hodlit
+title: Hodlit
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.savechange.hodlit'
+appId: com.savechange.hodlit
 appCountry: 
-released: '2020-04-18'
-updated: '2020-11-16'
-version: '1.0.12'
+released: 2020-04-18
+updated: 2020-11-16
+version: 1.0.12
 stars: 2.5
 ratings: 
 reviews: 36
-size: 
-website: 'https://hodlit.com'
+website: https://hodlit.com
 repository: 
 issue: 
-icon: 'com.savechange.hodlit.png'
+icon: com.savechange.hodlit.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-07-05'
+date: 2024-07-05
 signer: 
 reviewArchive: 
-twitter: 'hodlitapp'
+twitter: hodlitapp
 social: 
 redirect_from: 
-developerName: 'Hodlit'
+developerName: Hodlit
 features: 
 
 ---

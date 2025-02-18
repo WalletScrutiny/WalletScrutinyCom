@@ -7,12 +7,11 @@ authors:
 appId: network.wx.app
 appCountry: us
 idd: '1639310291'
-released: '2022-11-02'
-updated: '2023-06-08'
-version: '1.10.0'
+released: 2022-11-02
+updated: 2023-06-08
+version: 1.10.0
 stars: 2.6
 reviews: 5
-size: '77881344'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: nobtc
 appHashes: 
-date: '2024-11-07'
+date: 2024-11-07
 signer: 
 reviewArchive: 
 twitter: WXNetwork

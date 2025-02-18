@@ -1,37 +1,37 @@
 ---
-wsId: 'vault12'
-title: 'Vault12 Guard - Inherit Crypto'
+wsId: vault12
+title: Vault12 Guard - Inherit Crypto
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.vault12.vault12'
+appId: com.vault12.vault12
 appCountry: 
-released: '2019-08-28'
+released: 2019-08-28
 updated: 2024-12-19
-version: '2.5.3'
+version: 2.5.3
 stars: 4.3
 ratings: 
 reviews: 130
-website: 'http://vault12.com'
-repository: 'https://github.com/vault12'
+website: http://vault12.com
+repository: https://github.com/vault12
 issue: 
-icon: 'com.vault12.vault12.png'
+icon: com.vault12.vault12.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2023-02-13'
+date: 2023-02-13
 signer: 
 reviewArchive: 
-twitter: '_vault12_'
+twitter: _vault12_
 social:
-- 'https://www.facebook.com/GetVault12/'
-- 'https://www.linkedin.com/company/vault12/'
-- 'https://www.instagram.com/vault12/'
-- 'https://www.youtube.com/channel/UCoH4zPOpJhq6RbTZqUqzFwA'
+- https://www.facebook.com/GetVault12/
+- https://www.linkedin.com/company/vault12/
+- https://www.instagram.com/vault12/
+- https://www.youtube.com/channel/UCoH4zPOpJhq6RbTZqUqzFwA
 redirect_from: 
-developerName: 'Vault12, Inc'
+developerName: Vault12, Inc
 features: 
 
 ---

@@ -7,12 +7,11 @@ authors:
 appId: humanplus.hupay-master-iOS
 appCountry: kr
 idd: '1509428401'
-released: '2020-07-22'
-updated: '2022-06-22'
-version: '1.8.8'
+released: 2020-07-22
+updated: 2022-06-22
+version: 1.8.8
 stars: 4.4
 reviews: 12
-size: '74782720'
 website: https://www.hupayx.com/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: defunct
 verdict: custodial
 appHashes: 
-date: '2023-01-30'
+date: 2023-01-30
 signer: 
 reviewArchive: 
 twitter: hupayx

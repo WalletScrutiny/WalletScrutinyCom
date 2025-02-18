@@ -1,33 +1,33 @@
 ---
-wsId: 'immuneMessenger'
-title: 'IMMUNE Messenger'
+wsId: immuneMessenger
+title: IMMUNE Messenger
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'im.immune.app'
+appId: im.immune.app
 appCountry: 
-released: '2019-11-29'
+released: 2019-11-29
 updated: 2024-06-17
-version: '2.1.8'
+version: 2.1.8
 stars: 3.4
 ratings: 
 reviews: 
-website: 'https://imm.app/'
+website: https://imm.app/
 repository: 
 issue: 
-icon: 'im.immune.app.png'
+icon: im.immune.app.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-20'
+date: 2024-07-20
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'IMM Money Messenger Limited'
+developerName: IMM Money Messenger Limited
 features: 
 
 ---

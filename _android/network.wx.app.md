@@ -1,36 +1,36 @@
 ---
-wsId: 'wxNetwork'
-title: 'WX Network'
+wsId: wxNetwork
+title: WX Network
 altTitle: 
 authors: 
 users: 10000
-appId: 'network.wx.app'
+appId: network.wx.app
 appCountry: 
-released: '2022-09-30'
+released: 2022-09-30
 updated: 2024-01-12
-version: '1.11.8'
+version: 1.11.8
 stars: 3.7
 ratings: 
 reviews: 8
 website: 
 repository: 
 issue: 
-icon: 'network.wx.app.jpg'
+icon: network.wx.app.jpg
 bugbounty: 
-meta: 'stale'
-verdict: 'nobtc'
+meta: stale
+verdict: nobtc
 appHashes: 
-date: '2025-01-06'
+date: 2025-01-06
 signer: 
 reviewArchive: 
-twitter: 'WXNetwork'
+twitter: WXNetwork
 social:
-- 'https://waves.exchange'
-- 'https://www.facebook.com/profile.php?id=100083514754568'
-- 'https://medium.com/wavesexchange'
-- 'https://t.me/wxnetwork'
+- https://waves.exchange
+- https://www.facebook.com/profile.php?id=100083514754568
+- https://medium.com/wavesexchange
+- https://t.me/wxnetwork
 redirect_from: 
-developerName: 'WX Development LTD.'
+developerName: WX Development LTD.
 features: 
 
 ---

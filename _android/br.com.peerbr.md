@@ -1,37 +1,37 @@
 ---
 wsId: 
-title: 'PeerBR'
+title: PeerBR
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'br.com.peerbr'
+appId: br.com.peerbr
 appCountry: 
-released: '2019-05-24'
+released: 2019-05-24
 updated: 2025-02-12
-version: '6.2.0'
+version: 6.2.0
 stars: 5
 ratings: 
 reviews: 2
-website: 'https://peerbr.com.br/'
+website: https://peerbr.com.br/
 repository: 
 issue: 
-icon: 'br.com.peerbr.png'
+icon: br.com.peerbr.png
 bugbounty: 
-meta: 'ok'
-verdict: 'wip'
+meta: ok
+verdict: wip
 appHashes: 
-date: '2024-11-29'
+date: 2024-11-29
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://www.facebook.com/peerbr'
-- 'https://www.instagram.com/peerbr'
-- 'https://www.linkedin.com/company/peerbr'
-- 'https://www.tiktok.com/@peer_br'
+- https://www.facebook.com/peerbr
+- https://www.instagram.com/peerbr
+- https://www.linkedin.com/company/peerbr
+- https://www.tiktok.com/@peer_br
 redirect_from: 
-developerName: 'Grupo GCB'
+developerName: Grupo GCB
 features: 
 
 ---

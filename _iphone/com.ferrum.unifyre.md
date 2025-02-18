@@ -7,12 +7,11 @@ authors:
 appId: com.ferrum.unifyre
 appCountry: us
 idd: 1505450820
-released: '2020-05-29'
-updated: '2020-09-21'
-version: '0.0.19'
+released: 2020-05-29
+updated: 2020-09-21
+version: 0.0.19
 stars: 4.1
 reviews: 28
-size: '93395968'
 website: https://unifyre.io
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: nobtc
 appHashes: 
-date: '2022-10-21'
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: UnifyreWallet

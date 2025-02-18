@@ -7,12 +7,11 @@ authors:
 appId: com.coinsdo.wallet
 appCountry: us
 idd: '1631258517'
-released: '2022-07-12'
-updated: '2023-12-27'
-version: '1.1.26'
+released: 2022-07-12
+updated: 2023-12-27
+version: 1.1.26
 stars: 4.8
 reviews: 16
-size: '113710080'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: nosource
 appHashes: 
-date: '2024-03-02'
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: coinsdogroup

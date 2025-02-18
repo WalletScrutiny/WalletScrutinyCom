@@ -1,36 +1,35 @@
 ---
-wsId: 'Tizer'
-title: 'Tizer Wallet'
+wsId: Tizer
+title: Tizer Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.transcrypt.armadillo'
-appCountry: 'ru'
-released: '2018-05-23'
-updated: '2022-03-09'
-version: '2.08.9'
+appId: com.transcrypt.armadillo
+appCountry: ru
+released: 2018-05-23
+updated: 2022-03-09
+version: 2.08.9
 stars: 4.8
 ratings: 172
 reviews: 20
-size: 
-website: 'https://tizer.io'
+website: https://tizer.io
 repository: 
 issue: 
-icon: 'com.transcrypt.armadillo.png'
+icon: com.transcrypt.armadillo.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2024-05-07'
+date: 2024-05-07
 signer: 
 reviewArchive: 
-twitter: 'TizerWallet'
+twitter: TizerWallet
 social:
-- 'https://www.linkedin.com/company/tizer-wallet'
-- 'https://www.facebook.com/tizerwallet'
+- https://www.linkedin.com/company/tizer-wallet
+- https://www.facebook.com/tizerwallet
 redirect_from: 
-developerName: 'TizerWallet OÜ'
+developerName: TizerWallet OÜ
 features: 
 
 ---

@@ -1,36 +1,36 @@
 ---
-wsId: 'bananatok'
-title: 'Bananatok - Web 3 Messenger'
+wsId: bananatok
+title: Bananatok - Web 3 Messenger
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'org.telegram.bananatok'
-appCountry: 'KR'
-released: '2019-08-11'
+appId: org.telegram.bananatok
+appCountry: KR
+released: 2019-08-11
 updated: 2024-12-28
-version: '5.0.3'
+version: 5.0.3
 stars: 3.9
 ratings: 
 reviews: 1432
-website: 'http://www.bananatok.com'
+website: http://www.bananatok.com
 repository: 
 issue: 
-icon: 'org.telegram.bananatok.png'
+icon: org.telegram.bananatok.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2022-06-27'
+date: 2022-06-27
 signer: 
 reviewArchive: 
-twitter: 'kr_bna'
+twitter: kr_bna
 social:
-- 'https://www.facebook.com/bananatok'
-- 'https://medium.com/bananatok'
-- 'https://www.instagram.com/bananatok_official/'
+- https://www.facebook.com/bananatok
+- https://medium.com/bananatok
+- https://www.instagram.com/bananatok_official/
 redirect_from: 
-developerName: 'Bananatok'
+developerName: Bananatok
 features: 
 
 ---

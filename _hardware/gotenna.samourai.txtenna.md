@@ -3,9 +3,9 @@ title: Gotenna Samourai TxTenna
 appId: gotenna.samourai.txtenna
 authors:
 - danny
-released: '2018-10-15'
+released: 2018-10-15
 discontinued: 
-updated: '2019-05-05'
+updated: 2019-05-05
 version: '0.95'
 binaries: https://github.com/MuleTools/txTenna/releases
 dimensions:
@@ -26,7 +26,7 @@ bugbounty:
 meta: ok
 verdict: nowallet
 appHashes: 
-date: '2022-05-19'
+date: 2022-05-19
 signer: 
 reviewArchive: 
 twitter: goTenna

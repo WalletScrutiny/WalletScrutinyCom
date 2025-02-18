@@ -3,34 +3,33 @@ wsId:
 title: 'Fox Global - Automated Crypto '
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.foxtrading.fox'
+appId: com.foxtrading.fox
 appCountry: 
-released: '2018-05-14'
-updated: '2019-05-08'
-version: '0.7.11'
+released: 2018-05-14
+updated: 2019-05-08
+version: 0.7.11
 stars: 3.3
 ratings: 38
 reviews: 6
-size: 
-website: 'https://foxtrading.io'
+website: https://foxtrading.io
 repository: 
 issue: 
-icon: 'com.foxtrading.fox.png'
+icon: com.foxtrading.fox.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
-twitter: 'foxtradingauto'
+twitter: foxtradingauto
 social:
-- 'https://www.facebook.com/FoxTradingSignals'
-- 'https://www.instagram.com/foxtradingsignals/'
+- https://www.facebook.com/FoxTradingSignals
+- https://www.instagram.com/foxtradingsignals/
 redirect_from: 
-developerName: 'Fox Trading SL'
+developerName: Fox Trading SL
 features: 
 
 ---

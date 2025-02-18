@@ -1,37 +1,36 @@
 ---
-wsId: 'bitturkExchange'
-title: 'BitTurk - Bitcoin, Kripto Para'
+wsId: bitturkExchange
+title: BitTurk - Bitcoin, Kripto Para
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.bitturkmobile.android'
+appId: com.bitturkmobile.android
 appCountry: 
-released: '2019-04-05'
-updated: '2022-02-08'
+released: 2019-04-05
+updated: 2022-02-08
 version: '1.21'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://bitturk.com'
+website: https://bitturk.com
 repository: 
 issue: 
-icon: 'com.bitturkmobile.android.png'
+icon: com.bitturkmobile.android.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
-twitter: 'bitturkcom'
+twitter: bitturkcom
 social:
-- 'https://www.facebook.com/bitturkcom'
-- 'https://www.instagram.com/bitturkcom'
-- 'https://www.linkedin.com/company/bitturk'
+- https://www.facebook.com/bitturkcom
+- https://www.instagram.com/bitturkcom
+- https://www.linkedin.com/company/bitturk
 redirect_from: 
-developerName: 'BITTURK BİLİŞİM VE TİCARET A.Ş.'
+developerName: BITTURK BİLİŞİM VE TİCARET A.Ş.
 features: 
 
 ---

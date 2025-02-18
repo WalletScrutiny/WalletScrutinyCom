@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Korvio Wallet - Multichain Blo'
+title: Korvio Wallet - Multichain Blo
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.wallet.korvio'
+appId: com.wallet.korvio
 appCountry: 
-released: '2019-06-21'
-updated: '2021-03-18'
-version: '1.0.25'
+released: 2019-06-21
+updated: 2021-03-18
+version: 1.0.25
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://korvio.io'
+website: https://korvio.io
 repository: 
 issue: 
-icon: 'com.wallet.korvio.png'
+icon: com.wallet.korvio.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'korvio'
+developerName: korvio
 features: 
 
 ---

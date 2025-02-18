@@ -1,36 +1,35 @@
 ---
-wsId: 'bitcointrade'
-title: 'Ripio Trade'
+wsId: bitcointrade
+title: Ripio Trade
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000000
-appId: 'com.peertradedigital.bitcointrade'
-appCountry: 'br'
-released: '2017-12-01'
-updated: '2024-05-20'
-version: '3.20.4'
+appId: com.peertradedigital.bitcointrade
+appCountry: br
+released: 2017-12-01
+updated: 2024-05-20
+version: 3.20.4
 stars: 3.3
 ratings: 8304
 reviews: 4822
-size: 
-website: 'http://www.bitcointrade.com.br'
+website: http://www.bitcointrade.com.br
 repository: 
 issue: 
-icon: 'com.peertradedigital.bitcointrade.png'
+icon: com.peertradedigital.bitcointrade.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-07-05'
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://www.linkedin.com/company/bitcointrade'
-- 'https://www.facebook.com/BitcointradeBR'
+- https://www.linkedin.com/company/bitcointrade
+- https://www.facebook.com/BitcointradeBR
 redirect_from: 
-developerName: 'PeerTrade Digital Ltda'
+developerName: PeerTrade Digital Ltda
 features: 
 
 ---

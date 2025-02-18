@@ -3,32 +3,31 @@ wsId:
 title: 'CBFI: Coins & Tokens Wallet'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.coinboxwallet'
+appId: com.coinboxwallet
 appCountry: 
-released: '2022-08-13'
-updated: '2023-03-02'
-version: '1.0.2.6'
+released: 2022-08-13
+updated: 2023-03-02
+version: 1.0.2.6
 stars: 4.8
 ratings: 
 reviews: 
-size: 
-website: 'https://coinboxfinance.com/'
+website: https://coinboxfinance.com/
 repository: 
 issue: 
-icon: 'com.coinboxwallet.png'
+icon: com.coinboxwallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2024-12-23'
+date: 2024-12-23
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'CoinBox Finance Ecosystem'
+developerName: CoinBox Finance Ecosystem
 features: 
 
 ---

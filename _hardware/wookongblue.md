@@ -23,7 +23,7 @@ bugbounty:
 meta: defunct
 verdict: wip
 appHashes: 
-date: '2022-02-17'
+date: 2022-02-17
 signer: 
 reviewArchive: 
 twitter: 

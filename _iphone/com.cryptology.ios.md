@@ -7,12 +7,11 @@ authors:
 appId: com.cryptology.ios
 appCountry: gb
 idd: 1313186415
-released: '2018-03-23'
-updated: '2022-09-23'
-version: '3.15.3'
+released: 2018-03-23
+updated: 2022-09-23
+version: 3.15.3
 stars: 5
 reviews: 6
-size: '74752000'
 website: http://cryptology.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: Cryptologyexch

@@ -5,7 +5,7 @@ authors:
 - danny
 released: 
 discontinued: 
-updated: '2016-10-13'
+updated: 2016-10-13
 version: 
 binaries: 
 dimensions: 
@@ -24,7 +24,7 @@ bugbounty:
 meta: defunct
 verdict: plainkey
 appHashes: 
-date: '2023-04-06'
+date: 2023-04-06
 signer: 
 reviewArchive: 
 twitter: BITMAINtech

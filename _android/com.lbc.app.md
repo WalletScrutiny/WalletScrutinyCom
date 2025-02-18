@@ -4,30 +4,29 @@ title: 'Coinsclone Ads Based Exchange '
 altTitle: 
 authors: 
 users: 500
-appId: 'com.lbc.app'
+appId: com.lbc.app
 appCountry: 
-released: '2020-06-25'
-updated: '2020-08-07'
-version: '1.0.0'
+released: 2020-06-25
+updated: 2020-08-07
+version: 1.0.0
 stars: 5
 ratings: 
 reviews: 
-size: 
-website: 'https://www.coinsclone.com/'
+website: https://www.coinsclone.com/
 repository: 
 issue: 
-icon: 'com.lbc.app.png'
+icon: com.lbc.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-04-26'
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Coins Clone'
+developerName: Coins Clone
 features: 
 
 ---

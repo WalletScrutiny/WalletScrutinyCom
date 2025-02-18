@@ -1,35 +1,35 @@
 ---
-wsId: 'coin98'
-title: 'Coin98 Super Wallet'
+wsId: coin98
+title: Coin98 Super Wallet
 altTitle: 
 authors:
-- 'kiwilamb'
-- 'danny'
+- kiwilamb
+- danny
 users: 500000
-appId: 'coin98.crypto.finance.media'
-appCountry: 'us'
-released: '2019-12-19'
+appId: coin98.crypto.finance.media
+appCountry: us
+released: 2019-12-19
 updated: 2025-01-17
-version: '15.8.7'
+version: 15.8.7
 stars: 4.2
 ratings: 18096
 reviews: 262
-website: 'https://coin98.com/'
+website: https://coin98.com/
 repository: 
 issue: 
-icon: 'coin98.crypto.finance.media.png'
+icon: coin98.crypto.finance.media.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-15'
+date: 2024-07-15
 signer: 
 reviewArchive: 
-twitter: 'coin98_wallet'
+twitter: coin98_wallet
 social:
-- 'https://www.facebook.com/Coin98Wallet'
+- https://www.facebook.com/Coin98Wallet
 redirect_from: 
-developerName: 'COIN98 WALLET LTD'
+developerName: COIN98 WALLET LTD
 features: 
 
 ---

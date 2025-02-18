@@ -7,12 +7,11 @@ authors:
 appId: com.bitunix.ios-
 appCountry: us
 idd: '6446243957'
-released: '2023-04-11'
-updated: '2025-01-15'
-version: '2.8.0'
-stars: 4.5
-reviews: 205
-size: '180081664'
+released: 2023-04-11
+updated: 2025-01-15
+version: 2.8.0
+stars: 4.4
+reviews: 198
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2024-09-06'
+date: 2024-09-06
 signer: 
 reviewArchive: 
 twitter: BitunixOfficial

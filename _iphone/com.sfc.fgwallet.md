@@ -7,12 +7,11 @@ authors:
 appId: com.sfc.fgwallet
 appCountry: us
 idd: '1338808692'
-released: '2018-02-27'
-updated: '2025-01-30'
-version: '3.9.4'
+released: 2018-02-27
+updated: 2025-01-30
+version: 3.9.4
 stars: 5
 reviews: 2
-size: '25445376'
 website: https://fg-wallet.com/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: '2022-06-30'
+date: 2022-06-30
 signer: 
 reviewArchive: 
 twitter: srsfintech

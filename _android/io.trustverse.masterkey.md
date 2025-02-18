@@ -1,34 +1,33 @@
 ---
-wsId: 'masterKey'
-title: 'MasterKey'
+wsId: masterKey
+title: MasterKey
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'io.trustverse.masterkey'
+appId: io.trustverse.masterkey
 appCountry: 
-released: '2021-02-03'
-updated: '2022-11-23'
-version: '0.2.0G'
+released: 2021-02-03
+updated: 2022-11-23
+version: 0.2.0G
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.the-masterkey.com'
+website: https://www.the-masterkey.com
 repository: 
 issue: 
-icon: 'io.trustverse.masterkey.png'
+icon: io.trustverse.masterkey.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2025-02-13'
+date: 2025-02-13
 signer: 
 reviewArchive: 
-twitter: 'SafestMasterKey'
+twitter: SafestMasterKey
 social: 
 redirect_from: 
-developerName: 'TrustVerse(DigiFinance)'
+developerName: TrustVerse(DigiFinance)
 features: 
 
 ---

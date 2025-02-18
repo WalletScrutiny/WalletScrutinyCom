@@ -1,34 +1,34 @@
 ---
-wsId: 'coinspot'
-title: 'CoinSpot - Buy & Sell Bitcoin'
+wsId: coinspot
+title: CoinSpot - Buy & Sell Bitcoin
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 500000
-appId: 'com.coinspot.app'
-appCountry: 'au'
-released: '2020-10-07'
+appId: com.coinspot.app
+appCountry: au
+released: 2020-10-07
 updated: 2024-12-16
-version: '3.4.4'
+version: 3.4.4
 stars: 4.8
 ratings: 3068
-reviews: 1994
-website: 'https://www.coinspot.com.au'
+reviews: 2001
+website: https://www.coinspot.com.au
 repository: 
 issue: 
-icon: 'com.coinspot.app.png'
+icon: com.coinspot.app.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-09-10'
+date: 2021-09-10
 signer: 
 reviewArchive: 
-twitter: 'coinspotau'
+twitter: coinspotau
 social:
-- 'https://www.facebook.com/coinspotau'
+- https://www.facebook.com/coinspotau
 redirect_from: 
-developerName: 'CoinSpot'
+developerName: CoinSpot
 features: 
 
 ---

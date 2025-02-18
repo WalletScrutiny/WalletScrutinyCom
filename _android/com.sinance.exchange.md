@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'SNEX'
+title: SNEX
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.sinance.exchange'
+appId: com.sinance.exchange
 appCountry: 
-released: '2021-01-07'
-updated: '2022-07-06'
-version: '1.2.1'
+released: 2021-01-07
+updated: 2022-07-06
+version: 1.2.1
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.sinance.net'
+website: https://www.sinance.net
 repository: 
 issue: 
-icon: 'com.sinance.exchange.jpg'
+icon: com.sinance.exchange.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2023-08-25'
+date: 2023-08-25
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Sinance Developer'
+developerName: Sinance Developer
 features: 
 
 ---

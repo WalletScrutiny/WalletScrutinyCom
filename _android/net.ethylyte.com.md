@@ -3,32 +3,31 @@ wsId:
 title: 'ETHLYTE CRYPTO: Bitcoin /Crypt'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'net.ethylyte.com'
+appId: net.ethylyte.com
 appCountry: 
-released: '2019-05-18'
-updated: '2020-03-07'
+released: 2019-05-18
+updated: 2020-03-07
 version: '2.8'
 stars: 3.9
 ratings: 193
 reviews: 6
-size: 
-website: 'https://ethlyte.tech/'
+website: https://ethlyte.tech/
 repository: 
 issue: 
-icon: 'net.ethylyte.com.png'
+icon: net.ethylyte.com.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'wip'
+meta: defunct
+verdict: wip
 appHashes: 
-date: '2023-05-05'
+date: 2023-05-05
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Ethlyte Crypto'
+developerName: Ethlyte Crypto
 features: 
 
 ---

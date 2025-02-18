@@ -1,34 +1,33 @@
 ---
-wsId: 'Raido'
-title: 'Crypto wallet - Raido'
+wsId: Raido
+title: Crypto wallet - Raido
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.raido_wallet'
-appCountry: 'us'
-released: '2020-07-27'
-updated: '2023-09-21'
-version: '3.9.0'
+appId: com.raido_wallet
+appCountry: us
+released: 2020-07-27
+updated: 2023-09-21
+version: 3.9.0
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://raidofinance.eu/'
+website: https://raidofinance.eu/
 repository: 
 issue: 
-icon: 'com.raido_wallet.png'
+icon: com.raido_wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
-twitter: 'financialraido'
+twitter: financialraido
 social: 
 redirect_from: 
-developerName: 'Raido Exchange'
+developerName: Raido Exchange
 features: 
 
 ---

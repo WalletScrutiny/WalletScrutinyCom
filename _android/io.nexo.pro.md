@@ -1,37 +1,36 @@
 ---
-wsId: 'nexoProExchange'
+wsId: nexoProExchange
 title: 'Nexo Pro: Crypto Exchange'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'io.nexo.pro'
+appId: io.nexo.pro
 appCountry: 
-released: '2023-03-02'
-updated: '2023-08-31'
-version: '1.4.3'
+released: 2023-03-02
+updated: 2023-08-31
+version: 1.4.3
 stars: 3.7
 ratings: 
 reviews: 1
-size: 
-website: 'https://pro.nexo.com/'
+website: https://pro.nexo.com/
 repository: 
 issue: 
-icon: 'io.nexo.pro.png'
+icon: io.nexo.pro.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
-twitter: 'Nexo'
+twitter: Nexo
 social:
-- 'https://www.reddit.com/r/Nexo'
-- 'https://t.me/nexofinance'
-- 'https://www.facebook.com/nexofinance'
+- https://www.reddit.com/r/Nexo
+- https://t.me/nexofinance
+- https://www.facebook.com/nexofinance
 redirect_from: 
-developerName: 'Nexo Capital Incorporated'
+developerName: Nexo Capital Incorporated
 features: 
 
 ---

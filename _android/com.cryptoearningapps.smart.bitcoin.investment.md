@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Smart Bitcoin Investment'
+title: Smart Bitcoin Investment
 altTitle: 
 authors: 
 users: 1
-appId: 'com.cryptoearningapps.smart.bitcoin.investment'
+appId: com.cryptoearningapps.smart.bitcoin.investment
 appCountry: 
-released: '2021-06-29'
-updated: '2021-06-29'
+released: 2021-06-29
+updated: 2021-06-29
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: '2.3M'
 website: 
 repository: 
 issue: 
-icon: 'com.cryptoearningapps.smart.bitcoin.investment.png'
+icon: com.cryptoearningapps.smart.bitcoin.investment.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2021-10-01'
+date: 2021-10-01
 signer: 
 reviewArchive: 
 twitter: 

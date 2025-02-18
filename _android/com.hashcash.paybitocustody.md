@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'PayBito Custody - Secure Crypto Storage'
+title: PayBito Custody - Secure Crypto Storage
 altTitle: 
 authors: 
 users: 100
-appId: 'com.hashcash.paybitocustody'
+appId: com.hashcash.paybitocustody
 appCountry: 
-released: '2021-05-10'
-updated: '2021-05-10'
+released: 2021-05-10
+updated: 2021-05-10
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: '6.4M'
 website: 
 repository: 
 issue: 
-icon: 'com.hashcash.paybitocustody.png'
+icon: com.hashcash.paybitocustody.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2022-02-16'
+date: 2022-02-16
 signer: 
 reviewArchive: 
 twitter: 

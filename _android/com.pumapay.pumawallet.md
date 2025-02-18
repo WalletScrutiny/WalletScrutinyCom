@@ -1,38 +1,37 @@
 ---
-wsId: 'PumaPay'
-title: 'PumaPay Blockchain wallet - Bu'
+wsId: PumaPay
+title: PumaPay Blockchain wallet - Bu
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 10000
-appId: 'com.pumapay.pumawallet'
+appId: com.pumapay.pumawallet
 appCountry: 
-released: '2018-05-07'
-updated: '2021-10-25'
-version: '3.9.9'
+released: 2018-05-07
+updated: 2021-10-25
+version: 3.9.9
 stars: 3.4
 ratings: 368
 reviews: 23
-size: 
-website: 'http://pumapay.io'
+website: http://pumapay.io
 repository: 
 issue: 
-icon: 'com.pumapay.pumawallet.png'
+icon: com.pumapay.pumawallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2024-05-18'
+date: 2024-05-18
 signer: 
 reviewArchive: 
-twitter: 'PumaPay'
+twitter: PumaPay
 social:
-- 'https://www.linkedin.com/company/decentralized-vision'
-- 'https://www.facebook.com/PumaPayOfficial'
+- https://www.linkedin.com/company/decentralized-vision
+- https://www.facebook.com/PumaPayOfficial
 redirect_from:
-- '/com.pumapay.pumawallet/'
-- '/posts/com.pumapay.pumawallet/'
-developerName: 'Decentralized Vision Ltd'
+- /com.pumapay.pumawallet/
+- /posts/com.pumapay.pumawallet/
+developerName: Decentralized Vision Ltd
 features: 
 
 ---

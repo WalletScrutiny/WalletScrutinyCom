@@ -1,37 +1,37 @@
 ---
-wsId: 'iCrypex'
+wsId: iCrypex
 title: 'ICRYPEX TR: Bitcoin, Kripto Al'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'app.mobile.android.icrypex'
+appId: app.mobile.android.icrypex
 appCountry: 
-released: '2021-09-02'
+released: 2021-09-02
 updated: 2024-12-29
 version: '15.5'
 stars: 3
 ratings: 
 reviews: 9
-website: 'https://www.icrypex.com.tr/'
+website: https://www.icrypex.com.tr/
 repository: 
 issue: 
-icon: 'app.mobile.android.icrypex.png'
+icon: app.mobile.android.icrypex.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2022-06-24'
+date: 2022-06-24
 signer: 
 reviewArchive: 
-twitter: 'icrypex'
+twitter: icrypex
 social:
-- 'https://medium.com/icrypex'
-- 'https://www.linkedin.com/company/icrypex-crypto-exchange/'
-- 'https://www.facebook.com/ICRYPEX/'
-- 'https://www.tiktok.com/@icrypex'
+- https://medium.com/icrypex
+- https://www.linkedin.com/company/icrypex-crypto-exchange/
+- https://www.facebook.com/ICRYPEX/
+- https://www.tiktok.com/@icrypex
 redirect_from: 
-developerName: 'ICRYPEX KRİPTO VARLIK ALIM SATIM PLATFORMU A.Ş.'
+developerName: ICRYPEX KRİPTO VARLIK ALIM SATIM PLATFORMU A.Ş.
 features: 
 
 ---

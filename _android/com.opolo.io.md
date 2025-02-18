@@ -1,38 +1,37 @@
 ---
 wsId: 
-title: 'OPOLO Hardware Wallet'
+title: OPOLO Hardware Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.opolo.io'
+appId: com.opolo.io
 appCountry: 
-released: '2020-09-01'
-updated: '2021-06-08'
-version: '1.3.1'
+released: 2020-09-01
+updated: 2021-06-08
+version: 1.3.1
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.OPOLO.io'
+website: https://www.OPOLO.io
 repository: 
 issue: 
-icon: 'com.opolo.io.png'
+icon: com.opolo.io.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2024-04-26'
+date: 2024-04-26
 signer: 
 reviewArchive: 
-twitter: 'OpoloWallet'
+twitter: OpoloWallet
 social:
-- 'https://www.linkedin.com/company/opolo-ltd/'
-- 'https://www.facebook.com/opolo.wallet.3'
-- 'https://www.pinterest.com/opolowallet/_saved/'
-- 'https://medium.com/@OPOLOCosmos'
+- https://www.linkedin.com/company/opolo-ltd/
+- https://www.facebook.com/opolo.wallet.3
+- https://www.pinterest.com/opolowallet/_saved/
+- https://medium.com/@OPOLOCosmos
 redirect_from: 
-developerName: 'OPOLO'
+developerName: OPOLO
 features: 
 
 ---

@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: 'ProfitTradingApp for Huobi'
+title: ProfitTradingApp for Huobi
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.profittrading.forhuobi'
+appId: com.profittrading.forhuobi
 appCountry: 
-released: '2018-11-21'
-updated: '2021-12-03'
-version: '3.0.2'
+released: 2018-11-21
+updated: 2021-12-03
+version: 3.0.2
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://profittradingapp.com/'
+website: https://profittradingapp.com/
 repository: 
 issue: 
-icon: 'com.profittrading.forhuobi.png'
+icon: com.profittrading.forhuobi.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
-twitter: 'ProfitTrading_'
+twitter: ProfitTrading_
 social:
-- 'https://www.facebook.com/profittradingapp'
+- https://www.facebook.com/profittradingapp
 redirect_from: 
-developerName: 'ProfitTradingApp'
+developerName: ProfitTradingApp
 features: 
 
 ---

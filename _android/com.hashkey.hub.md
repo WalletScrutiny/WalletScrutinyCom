@@ -1,39 +1,38 @@
 ---
-wsId: 'hashkeyHub'
-title: 'HashKey Hub - The Key to Infin'
+wsId: hashkeyHub
+title: HashKey Hub - The Key to Infin
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.hashkey.hub'
+appId: com.hashkey.hub
 appCountry: 
-released: '2019-03-17'
-updated: '2022-04-07'
-version: '4.0.0'
+released: 2019-03-17
+updated: 2022-04-07
+version: 4.0.0
 stars: 4.3
 ratings: 
 reviews: 3
-size: 
-website: 'https://hub.hashkey.com'
+website: https://hub.hashkey.com
 repository: 
 issue: 
-icon: 'com.hashkey.hub.png'
+icon: com.hashkey.hub.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2023-05-26'
+date: 2023-05-26
 signer: 
 reviewArchive: 
-twitter: 'HashkeyHub'
+twitter: HashkeyHub
 social:
-- 'https://www.hashkey.com'
-- 'https://www.facebook.com/hashkeygroup'
-- 'https://www.linkedin.com/company/hashkey-digital-asset-group/'
-- 'https://medium.com/hashkey-group'
-- 'https://www.youtube.com/channel/UCxxfJaihsGmn88CM_3qO2xw'
+- https://www.hashkey.com
+- https://www.facebook.com/hashkeygroup
+- https://www.linkedin.com/company/hashkey-digital-asset-group/
+- https://medium.com/hashkey-group
+- https://www.youtube.com/channel/UCxxfJaihsGmn88CM_3qO2xw
 redirect_from: 
-developerName: 'HASHKEY HUB LIMITED'
+developerName: HASHKEY HUB LIMITED
 features: 
 
 ---

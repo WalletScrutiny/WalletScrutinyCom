@@ -7,12 +7,11 @@ authors:
 appId: com.metatech.moonfarm
 appCountry: us
 idd: '1636524893'
-released: '2022-08-02'
-updated: '2022-08-02'
-version: '1.0.0'
+released: 2022-08-02
+updated: 2022-08-02
+version: 1.0.0
 stars: 0
 reviews: 0
-size: '59877376'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: nobtc
 appHashes: 
-date: '2024-08-04'
+date: 2024-08-04
 signer: 
 reviewArchive: 
 twitter: MoonfarmFinance

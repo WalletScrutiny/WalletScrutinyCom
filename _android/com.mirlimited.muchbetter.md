@@ -1,35 +1,35 @@
 ---
-wsId: 'MuchBetter'
-title: 'MuchBetter'
+wsId: MuchBetter
+title: MuchBetter
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000000
-appId: 'com.mirlimited.muchbetter'
-appCountry: 'gb'
-released: '2017-05-30'
+appId: com.mirlimited.muchbetter
+appCountry: gb
+released: 2017-05-30
 updated: 2025-01-20
-version: '4.23.0'
+version: 4.23.0
 stars: 3.1
 ratings: 10117
-reviews: 163
-website: 'https://www.muchbetter.com'
+reviews: 162
+website: https://www.muchbetter.com
 repository: 
 issue: 
-icon: 'com.mirlimited.muchbetter.png'
+icon: com.mirlimited.muchbetter.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-08-27'
+date: 2021-08-27
 signer: 
 reviewArchive: 
-twitter: 'paymuchbetter'
+twitter: paymuchbetter
 social:
-- 'https://www.linkedin.com/company/mir-muchbetter'
-- 'https://www.facebook.com/paymuchbetter'
+- https://www.linkedin.com/company/mir-muchbetter
+- https://www.facebook.com/paymuchbetter
 redirect_from: 
-developerName: 'Rtekk Holdings Limited'
+developerName: Rtekk Holdings Limited
 features: 
 
 ---

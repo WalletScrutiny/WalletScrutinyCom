@@ -1,35 +1,35 @@
 ---
-wsId: 'prestoGiftcards'
+wsId: prestoGiftcards
 title: 'Presto: Sell Giftcards & Coins'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.presto.presto'
+appId: com.presto.presto
 appCountry: 
-released: '2022-04-21'
+released: 2022-04-21
 updated: 2024-09-16
-version: '2.5.5'
+version: 2.5.5
 stars: 3.9
 ratings: 
 reviews: 10
-website: 'https://prestohq.io/'
+website: https://prestohq.io/
 repository: 
 issue: 
-icon: 'com.presto.presto.png'
+icon: com.presto.presto.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2023-08-29'
+date: 2023-08-29
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://www.instagram.com/prestohq.io'
-- 'https://www.facebook.com/Prestohq.io/'
+- https://www.instagram.com/prestohq.io
+- https://www.facebook.com/Prestohq.io/
 redirect_from: 
-developerName: 'Topline Visory'
+developerName: Topline Visory
 features: 
 
 ---

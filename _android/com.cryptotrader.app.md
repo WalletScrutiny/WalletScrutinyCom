@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'CryptoTrader'
+title: CryptoTrader
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.cryptotrader.app'
+appId: com.cryptotrader.app
 appCountry: 
-released: '2020-08-04'
-updated: '2021-02-24'
-version: '1.2.2'
+released: 2020-08-04
+updated: 2021-02-24
+version: 1.2.2
 stars: 4.2
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.cryptotrader.app.png'
+icon: com.cryptotrader.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2024-07-05'
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'unending games'
+developerName: unending games
 features: 
 
 ---

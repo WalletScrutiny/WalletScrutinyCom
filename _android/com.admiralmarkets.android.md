@@ -1,35 +1,35 @@
 ---
-wsId: 'AdmiralMarkets'
-title: 'Admirals・Stocks trading'
+wsId: AdmiralMarkets
+title: Admirals・Stocks trading
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 500000
-appId: 'com.admiralmarkets.android'
-appCountry: 'us'
-released: '2020-10-07'
+appId: com.admiralmarkets.android
+appCountry: us
+released: 2020-10-07
 updated: 2025-02-06
-version: '1.10.5'
+version: 1.10.5
 stars: 4.4
 ratings: 
 reviews: 4
-website: 'https://www.admiralmarkets.com'
+website: https://www.admiralmarkets.com
 repository: 
 issue: 
-icon: 'com.admiralmarkets.android.png'
+icon: com.admiralmarkets.android.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosendreceive'
+meta: ok
+verdict: nosendreceive
 appHashes: 
-date: '2021-10-16'
+date: 2021-10-16
 signer: 
 reviewArchive: 
-twitter: 'AdmiralsGlobal'
+twitter: AdmiralsGlobal
 social:
-- 'https://www.linkedin.com/company/-admiral-markets-group'
-- 'https://www.facebook.com/AdmiralsGlobal'
+- https://www.linkedin.com/company/-admiral-markets-group
+- https://www.facebook.com/AdmiralsGlobal
 redirect_from: 
-developerName: 'Admiral Markets'
+developerName: Admiral Markets
 features: 
 
 ---

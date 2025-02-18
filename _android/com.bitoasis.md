@@ -1,35 +1,35 @@
 ---
-wsId: 'BitOasis'
+wsId: BitOasis
 title: 'BitOasis: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.bitoasis'
-appCountry: 'ae'
-released: '2020-08-20'
+appId: com.bitoasis
+appCountry: ae
+released: 2020-08-20
 updated: 2025-02-04
-version: '3.4.23'
+version: 3.4.23
 stars: 3.2
 ratings: 3007
 reviews: 592
-website: 'https://bitoasis.net/'
+website: https://bitoasis.net/
 repository: 
 issue: 
-icon: 'com.bitoasis.png'
+icon: com.bitoasis.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-11-15'
+date: 2021-11-15
 signer: 
 reviewArchive: 
-twitter: 'bitoasis'
+twitter: bitoasis
 social:
-- 'https://www.linkedin.com/company/bitoasis-technologies-fze'
-- 'https://www.facebook.com/bitoasis'
+- https://www.linkedin.com/company/bitoasis-technologies-fze
+- https://www.facebook.com/bitoasis
 redirect_from: 
-developerName: 'BitOasis'
+developerName: BitOasis
 features: 
 
 ---

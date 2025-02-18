@@ -7,12 +7,11 @@ authors:
 appId: com.etoro.openbook
 appCountry: 
 idd: 674984916
-released: '2017-06-26'
-updated: '2025-02-10'
-version: 'v651.565.3'
+released: 2017-06-26
+updated: 2025-02-10
+version: v651.565.3
 stars: 4.2
-reviews: 6635
-size: '200915968'
+reviews: 6647
 website: https://www.etoro.com/en-us/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2021-04-25'
+date: 2021-04-25
 signer: 
 reviewArchive: 
 twitter: etoro

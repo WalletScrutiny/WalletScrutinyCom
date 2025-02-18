@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Cloud 2.0'
+title: Cloud 2.0
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.cloudwallet.android'
+appId: com.cloudwallet.android
 appCountry: 
-released: '2019-05-11'
-updated: '2020-01-22'
-version: '2.0.16'
+released: 2019-05-11
+updated: 2020-01-22
+version: 2.0.16
 stars: 2
 ratings: 4008
 reviews: 176
-size: 
-website: 'https://cloudtokenwallet.com/'
+website: https://cloudtokenwallet.com/
 repository: 
 issue: 
-icon: 'com.cloudwallet.android.png'
+icon: com.cloudwallet.android.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'wip'
+meta: defunct
+verdict: wip
 appHashes: 
-date: '2023-03-29'
+date: 2023-03-29
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Cloud Technology & Investments'
+developerName: Cloud Technology & Investments
 features: 
 
 ---

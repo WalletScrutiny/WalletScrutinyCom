@@ -1,34 +1,33 @@
 ---
-wsId: 'InfiPay'
-title: 'InfiPay'
+wsId: InfiPay
+title: InfiPay
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'io.infipay.android'
-appCountry: 'in'
-released: '2020-10-28'
-updated: '2021-04-08'
-version: '1.1.2'
+appId: io.infipay.android
+appCountry: in
+released: 2020-10-28
+updated: 2021-04-08
+version: 1.1.2
 stars: 4.2
 ratings: 50
 reviews: 1
-size: 
-website: 'http://www.infipay.io/'
+website: http://www.infipay.io/
 repository: 
 issue: 
-icon: 'io.infipay.android.png'
+icon: io.infipay.android.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-06-21'
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'infipay'
+developerName: infipay
 features: 
 
 ---

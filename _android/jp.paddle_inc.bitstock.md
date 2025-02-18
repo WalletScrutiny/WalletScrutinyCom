@@ -1,33 +1,33 @@
 ---
-wsId: 'BitstockBitstart'
-title: 'Bit Start'
+wsId: BitstockBitstart
+title: Bit Start
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'jp.paddle_inc.bitstock'
-appCountry: 'jp'
-released: '2019-09-03'
+appId: jp.paddle_inc.bitstock
+appCountry: jp
+released: 2019-09-03
 updated: 2024-12-11
-version: '1.4.65'
+version: 1.4.65
 stars: 3.3
 ratings: 3029
-reviews: 1878
-website: 'https://www.paddle-inc.jp/'
+reviews: 1881
+website: https://www.paddle-inc.jp/
 repository: 
 issue: 
-icon: 'jp.paddle_inc.bitstock.png'
+icon: jp.paddle_inc.bitstock.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2021-11-01'
+date: 2021-11-01
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Paddle,inc'
+developerName: Paddle,inc
 features: 
 
 ---

@@ -1,34 +1,34 @@
 ---
-wsId: 'Tokenize'
-title: 'Tokenize Xchange'
+wsId: Tokenize
+title: Tokenize Xchange
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.tokenize.exchange.tradingapp'
-appCountry: 'us'
-released: '2019-12-03'
+appId: com.tokenize.exchange.tradingapp
+appCountry: us
+released: 2019-12-03
 updated: 2025-01-07
-version: '2.0.20'
+version: 2.0.20
 stars: 4.1
 ratings: 
 reviews: 7
-website: 'https://tokenize.exchange/'
+website: https://tokenize.exchange/
 repository: 
 issue: 
-icon: 'com.tokenize.exchange.tradingapp.png'
+icon: com.tokenize.exchange.tradingapp.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-11-08'
+date: 2021-11-08
 signer: 
 reviewArchive: 
-twitter: 'TokenizeXchange'
+twitter: TokenizeXchange
 social:
-- 'https://www.facebook.com/tokenize.exchange'
+- https://www.facebook.com/tokenize.exchange
 redirect_from: 
-developerName: 'Tokenize Xchange'
+developerName: Tokenize Xchange
 features: 
 
 ---

@@ -1,28 +1,27 @@
 ---
 wsId: 
-title: 'Trades Signal (Forex, Stock, C'
+title: Trades Signal (Forex, Stock, C
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.tradessignal.app'
+appId: com.tradessignal.app
 appCountry: 
-released: '2021-01-02'
-updated: '2021-01-02'
+released: 2021-01-02
+updated: 2021-01-02
 version: '2'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://tradessignal.com'
+website: https://tradessignal.com
 repository: 
 issue: 
-icon: 'com.tradessignal.app.png'
+icon: com.tradessignal.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

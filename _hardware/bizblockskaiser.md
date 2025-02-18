@@ -3,7 +3,7 @@ title: BizBlocks Kaiser
 appId: bizblockskaiser
 authors:
 - danny
-released: '2018-05-25'
+released: 2018-05-25
 discontinued: 
 updated: 
 version: 
@@ -26,7 +26,7 @@ bugbounty:
 meta: ok
 verdict: vapor
 appHashes: 
-date: '2023-01-20'
+date: 2023-01-20
 signer: 
 reviewArchive: 
 twitter: bizblocks7

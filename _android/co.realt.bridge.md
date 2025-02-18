@@ -1,34 +1,34 @@
 ---
-wsId: 'realTWallet'
-title: 'RealT Wallet'
+wsId: realTWallet
+title: RealT Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'co.realt.bridge'
-appCountry: 'be'
-released: '2021-03-18'
+appId: co.realt.bridge
+appCountry: be
+released: 2021-03-18
 updated: 2023-07-13
 version: '1.32'
 stars: 
 ratings: 
 reviews: 
-website: 'https://realt.co'
+website: https://realt.co
 repository: 
 issue: 
-icon: 'co.realt.bridge.jpg'
+icon: co.realt.bridge.jpg
 bugbounty: 
-meta: 'stale'
-verdict: 'nobtc'
+meta: stale
+verdict: nobtc
 appHashes: 
-date: '2024-07-10'
+date: 2024-07-10
 signer: 
 reviewArchive: 
-twitter: 'RealTPlatform'
+twitter: RealTPlatform
 social:
-- 'https://www.linkedin.com/company/realtplatform'
+- https://www.linkedin.com/company/realtplatform
 redirect_from: 
-developerName: 'Real Token Inc.'
+developerName: Real Token Inc.
 features: 
 
 ---

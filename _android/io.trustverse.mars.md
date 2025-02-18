@@ -1,38 +1,37 @@
 ---
-wsId: 'marSDigitalAssetWallet'
-title: 'MarS'
+wsId: marSDigitalAssetWallet
+title: MarS
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'io.trustverse.mars'
+appId: io.trustverse.mars
 appCountry: 
-released: '2020-05-27'
-updated: '2022-11-22'
-version: '2.4.0G'
+released: 2020-05-27
+updated: 2022-11-22
+version: 2.4.0G
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'http://www.trustverse.io'
+website: http://www.trustverse.io
 repository: 
 issue: 
-icon: 'io.trustverse.mars.jpg'
+icon: io.trustverse.mars.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2025-02-13'
+date: 2025-02-13
 signer: 
 reviewArchive: 
-twitter: 'TrustVerse'
+twitter: TrustVerse
 social:
-- 'https://www.facebook.com/trustverseofficial'
-- 'https://t.me/trustverse_officialchannel'
-- 'https://www.instagram.com/trustverse_official'
-- 'https://trustverse-official.medium.com'
+- https://www.facebook.com/trustverseofficial
+- https://t.me/trustverse_officialchannel
+- https://www.instagram.com/trustverse_official
+- https://trustverse-official.medium.com
 redirect_from: 
-developerName: 'TrustVerse(DigiFinance)'
+developerName: TrustVerse(DigiFinance)
 features: 
 
 ---

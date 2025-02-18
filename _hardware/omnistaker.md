@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: nobtc
 appHashes: 
-date: '2021-07-07'
+date: 2021-07-07
 signer: 
 reviewArchive: 
 twitter: 

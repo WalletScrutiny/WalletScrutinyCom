@@ -1,34 +1,34 @@
 ---
-wsId: 'lanistar'
-title: 'Lanistar'
+wsId: lanistar
+title: Lanistar
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 500000
-appId: 'com.lanistar'
+appId: com.lanistar
 appCountry: 
-released: '2020-10-18'
+released: 2020-10-18
 updated: 2024-07-09
-version: '2.0.64'
+version: 2.0.64
 stars: 2.9
 ratings: 
 reviews: 58
-website: 'https://www.lanistar.com'
+website: https://www.lanistar.com
 repository: 
 issue: 
-icon: 'com.lanistar.png'
+icon: com.lanistar.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-11-17'
+date: 2023-11-17
 signer: 
 reviewArchive: 
-twitter: 'iamlanistar'
+twitter: iamlanistar
 social:
-- 'https://www.instagram.com/lanistar'
+- https://www.instagram.com/lanistar
 redirect_from: 
-developerName: 'Lanistar'
+developerName: Lanistar
 features: 
 
 ---

@@ -1,36 +1,36 @@
 ---
-wsId: 'kyccWallet'
-title: 'KYCC Wallet'
+wsId: kyccWallet
+title: KYCC Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.mobile.kyc'
+appId: com.mobile.kyc
 appCountry: 
-released: '2022-01-21'
+released: 2022-01-21
 updated: 2022-10-28
-version: '1.1.0'
+version: 1.1.0
 stars: 4.3
 ratings: 
 reviews: 1
-website: 'https://kyccoin.io'
+website: https://kyccoin.io
 repository: 
 issue: 
-icon: 'com.mobile.kyc.png'
+icon: com.mobile.kyc.png
 bugbounty: 
-meta: 'obsolete'
-verdict: 'nosource'
+meta: obsolete
+verdict: nosource
 appHashes: 
-date: '2024-10-19'
+date: 2024-10-19
 signer: 
 reviewArchive: 
-twitter: 'kyc_coin'
+twitter: kyc_coin
 social:
-- 'https://www.linkedin.com/company/kyccoin'
-- 'https://www.facebook.com/kyccoin'
-- 'https://www.instagram.com/kyc_coin'
+- https://www.linkedin.com/company/kyccoin
+- https://www.facebook.com/kyccoin
+- https://www.instagram.com/kyc_coin
 redirect_from: 
-developerName: 'KYC&AML Ltd'
+developerName: KYC&AML Ltd
 features: 
 
 ---

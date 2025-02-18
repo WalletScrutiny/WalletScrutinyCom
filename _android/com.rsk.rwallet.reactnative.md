@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'RWallet'
-altTitle: '(old) RWallet'
+title: RWallet
+altTitle: (old) RWallet
 authors: 
 users: 1000
-appId: 'com.rsk.rwallet.reactnative'
+appId: com.rsk.rwallet.reactnative
 appCountry: 
 released: 
-updated: '2020-10-29'
-version: '1.3.3'
+updated: 2020-10-29
+version: 1.3.3
 stars: 3.8
 ratings: 20
 reviews: 15
-size: '28M'
 website: 
 repository: 
 issue: 
-icon: 'com.rsk.rwallet.reactnative.png'
+icon: com.rsk.rwallet.reactnative.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2021-04-13'
+date: 2021-04-13
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,34 +1,33 @@
 ---
-wsId: 'Baanx'
-title: 'Baanx App'
+wsId: Baanx
+title: Baanx App
 altTitle: 
 authors:
-- 'danny'
-appId: 'com.baanx.baanxapp'
-appCountry: 'us'
+- danny
+appId: com.baanx.baanxapp
+appCountry: us
 idd: '1437909986'
-released: '2018-12-20'
-updated: '2023-02-07'
-version: '3.1.1'
+released: 2018-12-20
+updated: 2023-02-07
+version: 3.1.1
 stars: 3.4
 reviews: 7
-size: '87620608'
-website: 'https://baanxapp.com'
+website: https://baanxapp.com
 repository: 
 issue: 
-icon: 'com.baanx.baanxapp.jpg'
+icon: com.baanx.baanxapp.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
-twitter: 'baanx_bxx'
+twitter: baanx_bxx
 social:
-- 'https://www.facebook.com/baanxapp'
+- https://www.facebook.com/baanxapp
 features: 
-developerName: 'Baanx.com Ltd'
+developerName: Baanx.com Ltd
 
 ---
 

@@ -1,35 +1,34 @@
 ---
-wsId: 'bytehub'
-title: 'ByteHub'
+wsId: bytehub
+title: ByteHub
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.bytetrade.bytehub'
-appCountry: 'ph'
-released: '2019-02-02'
-updated: '2021-09-09'
-version: '1.4.3.210909'
+appId: com.bytetrade.bytehub
+appCountry: ph
+released: 2019-02-02
+updated: 2021-09-09
+version: 1.4.3.210909
 stars: 4.6
 ratings: 7187
 reviews: 1302
-size: 
-website: 'https://www.bytetrade.io/'
+website: https://www.bytetrade.io/
 repository: 
 issue: 
-icon: 'com.bytetrade.bytehub.png'
+icon: com.bytetrade.bytehub.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2023-09-15'
+date: 2023-09-15
 signer: 
 reviewArchive: 
-twitter: 'ByteTradeIo'
+twitter: ByteTradeIo
 social:
-- 'https://www.facebook.com/bytehubDAPP'
+- https://www.facebook.com/bytehubDAPP
 redirect_from: 
-developerName: 'Bytetrade'
+developerName: Bytetrade
 features: 
 
 ---

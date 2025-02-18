@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Vinet:Sell Bitcoin PayPal etc.'
+title: Vinet:Sell Bitcoin PayPal etc.
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'app.vinet'
+appId: app.vinet
 appCountry: 
-released: '2020-05-18'
-updated: '2021-04-25'
+released: 2020-05-18
+updated: 2021-04-25
 version: '10.1'
 stars: 
 ratings: 
 reviews: 
-size: '9.2M'
-website: 'http://Vinetexchange.com'
+website: http://Vinetexchange.com
 repository: 
 issue: 
-icon: 'app.vinet.png'
+icon: app.vinet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2022-05-31'
+date: 2022-05-31
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://www.facebook.com/vinetexchange'
+- https://www.facebook.com/vinetexchange
 redirect_from: 
 developerName: 
 features: 

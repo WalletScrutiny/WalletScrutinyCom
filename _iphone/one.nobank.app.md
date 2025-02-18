@@ -7,12 +7,11 @@ authors:
 appId: one.nobank.app
 appCountry: lb
 idd: '1613187762'
-released: '2022-05-11'
-updated: '2024-05-16'
+released: 2022-05-11
+updated: 2024-05-16
 version: '3.24'
 stars: 0
 reviews: 0
-size: '69879808'
 website: https://www.pierwallet.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: nobtc
 appHashes: 
-date: '2023-08-09'
+date: 2023-08-09
 signer: 
 reviewArchive: 
 twitter: pier_wallet

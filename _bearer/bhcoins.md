@@ -3,7 +3,7 @@ title: BhCoins
 appId: bhcoins
 authors:
 - danny
-released: '2013-09-11'
+released: 2013-09-11
 discontinued: 
 updated: 
 version: 
@@ -23,7 +23,7 @@ icon: bhcoins.png
 bugbounty: 
 meta: defunct
 verdict: prefilled
-date: '2022-05-19'
+date: 2022-05-19
 signer: 
 reviewArchive: 
 twitter: 

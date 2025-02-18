@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: 'Vault Crypto Wallet'
+title: Vault Crypto Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.wallet.vaultcryptowallet'
+appId: com.wallet.vaultcryptowallet
 appCountry: 
-released: '2021-08-18'
-updated: '2023-05-16'
-version: '1.1.8'
+released: 2021-08-18
+updated: 2023-05-16
+version: 1.1.8
 stars: 4.2
 ratings: 
 reviews: 5
-size: 
-website: 'https://bitcoinpay.com.co/contact.php'
+website: https://bitcoinpay.com.co/contact.php
 repository: 
 issue: 
-icon: 'com.wallet.vaultcryptowallet.png'
+icon: com.wallet.vaultcryptowallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nobtc'
+meta: removed
+verdict: nobtc
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://www.facebook.com/Bitcoin-Pay-110590501255347'
+- https://www.facebook.com/Bitcoin-Pay-110590501255347
 redirect_from: 
-developerName: 'Bitcoin Pay'
+developerName: Bitcoin Pay
 features: 
 
 ---

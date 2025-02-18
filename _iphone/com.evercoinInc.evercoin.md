@@ -7,12 +7,11 @@ authors:
 appId: com.evercoinInc.evercoin
 appCountry: 
 idd: 1277924158
-released: '2017-09-16'
-updated: '2020-11-30'
-version: '1.9.5'
+released: 2017-09-16
+updated: 2020-11-30
+version: 1.9.5
 stars: 4.6
 reviews: 2742
-size: '63333376'
 website: https://evercoin.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: nosource
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: everc0in

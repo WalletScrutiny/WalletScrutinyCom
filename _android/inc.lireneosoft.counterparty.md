@@ -1,35 +1,34 @@
 ---
-wsId: 'indieSquare'
-title: 'IndieSquare Wallet'
+wsId: indieSquare
+title: IndieSquare Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'inc.lireneosoft.counterparty'
-appCountry: 'us'
-released: '2015-04-28'
-updated: '2019-06-14'
-version: '2.5.4'
+appId: inc.lireneosoft.counterparty
+appCountry: us
+released: 2015-04-28
+updated: 2019-06-14
+version: 2.5.4
 stars: 3.4
 ratings: 242
 reviews: 31
-size: 
-website: 'https://wallet.indiesquare.me'
-repository: 'https://github.com/IndieSquare/indiesquare-wallet'
+website: https://wallet.indiesquare.me
+repository: https://github.com/IndieSquare/indiesquare-wallet
 issue: 
-icon: 'inc.lireneosoft.counterparty.png'
+icon: inc.lireneosoft.counterparty.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
-twitter: 'Indie_Square'
+twitter: Indie_Square
 social:
-- 'https://www.facebook.com/indiesquare.me'
+- https://www.facebook.com/indiesquare.me
 redirect_from: 
-developerName: 'IndieSquare Inc.'
+developerName: IndieSquare Inc.
 features: 
 
 ---

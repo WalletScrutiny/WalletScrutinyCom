@@ -7,12 +7,11 @@ authors:
 appId: com.thebitcoincompany.app.ios
 appCountry: us
 idd: '1600995023'
-released: '2022-03-17'
-updated: '2025-02-04'
+released: 2022-03-17
+updated: 2025-02-04
 version: '1.36'
 stars: 4.1
 reviews: 29
-size: '61616128'
 website: https://thebitcoincompany.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: nosendreceive
 appHashes: 
-date: '2023-06-03'
+date: 2023-06-03
 signer: 
 reviewArchive: 
 twitter: thebtcco

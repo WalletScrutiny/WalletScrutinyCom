@@ -1,33 +1,33 @@
 ---
-wsId: 'fatBTC'
-title: 'FatBTC'
+wsId: fatBTC
+title: FatBTC
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.fatbtc.App'
-appCountry: 'us'
-released: '2018-06-02'
+appId: com.fatbtc.App
+appCountry: us
+released: 2018-06-02
 updated: 2023-02-16
 version: '2.512'
 stars: 3
 ratings: 160
 reviews: 10
-website: 'https://www.fatbtc.com'
+website: https://www.fatbtc.com
 repository: 
 issue: 
-icon: 'com.fatbtc.App.png'
+icon: com.fatbtc.App.png
 bugbounty: 
-meta: 'obsolete'
-verdict: 'custodial'
+meta: obsolete
+verdict: custodial
 appHashes: 
-date: '2025-02-05'
+date: 2025-02-05
 signer: 
 reviewArchive: 
-twitter: 'fatbtc'
+twitter: fatbtc
 social: 
 redirect_from: 
-developerName: 'FatBTC Ltd.,'
+developerName: FatBTC Ltd.,
 features: 
 
 ---

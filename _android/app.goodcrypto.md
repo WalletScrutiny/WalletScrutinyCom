@@ -3,35 +3,35 @@ wsId:
 title: 'Good Crypto: trading terminal'
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 100000
-appId: 'app.goodcrypto'
+appId: app.goodcrypto
 appCountry: 
-released: '2019-05-20'
-updated: 2024-12-23
-version: '2.1.1'
+released: 2019-05-20
+updated: 2025-02-15
+version: 2.2.1
 stars: 4.3
 ratings: 1058
 reviews: 139
-website: 'https://goodcrypto.app'
+website: https://goodcrypto.app
 repository: 
 issue: 
-icon: 'app.goodcrypto.png'
+icon: app.goodcrypto.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosendreceive'
+meta: ok
+verdict: nosendreceive
 appHashes: 
-date: '2021-08-10'
+date: 2021-08-10
 signer: 
 reviewArchive: 
-twitter: 'GoodCryptoApp'
+twitter: GoodCryptoApp
 social:
-- 'https://www.linkedin.com/company/goodcrypto'
-- 'https://www.facebook.com/GoodCryptoApp'
-- 'https://www.reddit.com/r/GoodCrypto'
+- https://www.linkedin.com/company/goodcrypto
+- https://www.facebook.com/GoodCryptoApp
+- https://www.reddit.com/r/GoodCrypto
 redirect_from:
-- '/app.goodcrypto/'
-developerName: 'GoodCrypto.App'
+- /app.goodcrypto/
+developerName: GoodCrypto.App
 features: 
 
 ---

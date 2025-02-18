@@ -1,38 +1,38 @@
 ---
-wsId: 'vowCurrency'
-title: 'Vow'
+wsId: vowCurrency
+title: Vow
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.vowcurrency.vow'
+appId: com.vowcurrency.vow
 appCountry: 
-released: '2021-07-20'
+released: 2021-07-20
 updated: 2024-03-28
-version: '10.3.7'
+version: 10.3.7
 stars: 2.8
 ratings: 
 reviews: 4
 website: 
 repository: 
 issue: 
-icon: 'com.vowcurrency.vow.png'
+icon: com.vowcurrency.vow.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2023-07-24'
+date: 2023-07-24
 signer: 
 reviewArchive: 
-twitter: 'vowcurrency'
+twitter: vowcurrency
 social:
-- 'https://vowcurrency.com'
-- 'https://www.linkedin.com/company/vowcurrency'
-- 'https://www.facebook.com/Vowcurrency'
-- 'https://t.me/joinchat/AAAAAFWTS0zBu1J9yCDp9Q'
-- 'https://www.instagram.com/vowcurrency'
+- https://vowcurrency.com
+- https://www.linkedin.com/company/vowcurrency
+- https://www.facebook.com/Vowcurrency
+- https://t.me/joinchat/AAAAAFWTS0zBu1J9yCDp9Q
+- https://www.instagram.com/vowcurrency
 redirect_from: 
-developerName: 'Vow'
+developerName: Vow
 features: 
 
 ---

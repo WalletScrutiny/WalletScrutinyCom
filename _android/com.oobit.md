@@ -1,36 +1,36 @@
 ---
-wsId: 'ooBit'
-title: 'Oobit - Tap to Pay with Crypto'
+wsId: ooBit
+title: Oobit - Tap to Pay with Crypto
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.oobit'
+appId: com.oobit
 appCountry: 
-released: '2022-02-07'
+released: 2022-02-07
 updated: 2025-02-07
-version: '1.9.1'
+version: 1.9.1
 stars: 3.1
 ratings: 
 reviews: 19
-website: 'https://www.oobit.com/'
+website: https://www.oobit.com/
 repository: 
 issue: 
-icon: 'com.oobit.png'
+icon: com.oobit.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-06-14'
+date: 2023-06-14
 signer: 
 reviewArchive: 
-twitter: 'oobit'
+twitter: oobit
 social:
-- 'https://t.me/OObit'
-- 'https://www.instagram.com/oobit_official'
-- 'https://www.linkedin.com/company/oobit'
+- https://t.me/OObit
+- https://www.instagram.com/oobit_official
+- https://www.linkedin.com/company/oobit
 redirect_from: 
-developerName: 'Oobit Technologies'
+developerName: Oobit Technologies
 features: 
 
 ---

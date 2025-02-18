@@ -1,35 +1,35 @@
 ---
-wsId: 'agoraDeskAnonymous'
+wsId: agoraDeskAnonymous
 title: 'AgoraDesk: buy BTC anonymously'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.agoradesk.app'
+appId: com.agoradesk.app
 appCountry: 
-released: '2022-08-18'
+released: 2022-08-18
 updated: 2024-05-28
-version: '1.1.39'
+version: 1.1.39
 stars: 4.4
 ratings: 
 reviews: 12
-website: 'https://agoradesk.com'
-repository: 'https://github.com/AgoraDesk-LocalMonero/agoradesk-app-foss/releases'
+website: https://agoradesk.com
+repository: https://github.com/AgoraDesk-LocalMonero/agoradesk-app-foss/releases
 issue: 
-icon: 'com.agoradesk.app.png'
-bugbounty: 'https://agoradesk.com/security-bounty-whitehat'
-meta: 'ok'
-verdict: 'custodial'
+icon: com.agoradesk.app.png
+bugbounty: https://agoradesk.com/security-bounty-whitehat
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-08-17'
+date: 2023-08-17
 signer: 
 reviewArchive: 
-twitter: 'AgoraDesk'
+twitter: AgoraDesk
 social:
-- 'https://www.reddit.com/r/AgoraDesk'
-- 'https://t.me/AgoraDesk'
+- https://www.reddit.com/r/AgoraDesk
+- https://t.me/AgoraDesk
 redirect_from: 
-developerName: 'LocalMonero / AgoraDesk'
+developerName: LocalMonero / AgoraDesk
 features: 
 
 ---

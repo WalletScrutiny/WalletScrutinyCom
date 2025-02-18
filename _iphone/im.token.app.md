@@ -7,12 +7,11 @@ authors:
 appId: im.token.app
 appCountry: 
 idd: 1384798940
-released: '2018-06-07'
-updated: '2025-02-05'
-version: '2.16.3'
+released: 2018-06-07
+updated: 2025-02-05
+version: 2.16.3
 stars: 4.2
-reviews: 977
-size: '132496384'
+reviews: 979
 website: https://token.im
 repository: 
 issue: https://github.com/consenlabs/token-core/issues/97
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: '2021-05-02'
+date: 2021-05-02
 signer: 
 reviewArchive: 
 twitter: imTokenOfficial

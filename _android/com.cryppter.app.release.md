@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: 'Cryppter'
+title: Cryppter
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.cryppter.app.release'
+appId: com.cryppter.app.release
 appCountry: 
-released: '2020-05-21'
+released: 2020-05-21
 updated: 2023-02-06
-version: '0.0.145 (7755)'
+version: 0.0.145 (7755)
 stars: 5
 ratings: 
 reviews: 9
-website: 'https://cryppter.com/'
+website: https://cryppter.com/
 repository: 
 issue: 
-icon: 'com.cryppter.app.release.png'
+icon: com.cryppter.app.release.png
 bugbounty: 
-meta: 'obsolete'
-verdict: 'nosource'
+meta: obsolete
+verdict: nosource
 appHashes: 
-date: '2025-01-27'
+date: 2025-01-27
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Enex, LLC'
+developerName: Enex, LLC
 features: 
 
 ---

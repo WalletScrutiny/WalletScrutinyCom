@@ -1,37 +1,37 @@
 ---
-wsId: 'OKEx'
+wsId: OKEx
 title: 'OKX: Buy Bitcoin BTC & Crypto'
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 10000000
-appId: 'com.okinc.okex.gp'
+appId: com.okinc.okex.gp
 appCountry: 
-released: '2019-10-29'
+released: 2019-10-29
 updated: 2025-02-09
-version: '6.106.0'
+version: 6.107.0
 stars: 4.4
 ratings: 188391
-reviews: 3403
-website: 'https://www.okx.com/'
+reviews: 3414
+website: https://www.okx.com/
 repository: 
 issue: 
-icon: 'com.okinc.okex.gp.png'
+icon: com.okinc.okex.gp.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2020-05-29'
+date: 2020-05-29
 signer: 
 reviewArchive: 
-twitter: 'OKEx'
+twitter: OKEx
 social:
-- 'https://www.facebook.com/okexofficial'
-- 'https://www.reddit.com/r/OKEx'
+- https://www.facebook.com/okexofficial
+- https://www.reddit.com/r/OKEx
 redirect_from:
-- '/com.okinc.okex.gp/'
-- '/posts/com.okinc.okex.gp/'
-developerName: 'OKX'
+- /com.okinc.okex.gp/
+- /posts/com.okinc.okex.gp/
+developerName: OKX
 features: 
 
 ---

@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'TRADE HORN'
+title: TRADE HORN
 altTitle: 
 authors: 
 users: 100
-appId: 'com.tradehorn.app'
+appId: com.tradehorn.app
 appCountry: 
-released: '2020-06-23'
-updated: '2020-11-23'
+released: 2020-06-23
+updated: 2020-11-23
 version: '1.4'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://tradehorn.com/'
+website: https://tradehorn.com/
 repository: 
 issue: 
-icon: 'com.tradehorn.app.png'
+icon: com.tradehorn.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Team TradeHorn'
+developerName: Team TradeHorn
 features: 
 
 ---

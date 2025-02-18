@@ -1,35 +1,34 @@
 ---
-wsId: 'mChange'
-title: 'Mchange - купить Bitcoin'
+wsId: mChange
+title: Mchange - купить Bitcoin
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.mchangeapps.mchange'
+appId: com.mchangeapps.mchange
 appCountry: 
-released: '2021-09-01'
-updated: '2024-08-10'
-version: '4.0.2'
+released: 2021-09-01
+updated: 2024-08-10
+version: 4.0.2
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://mchange.net'
+website: https://mchange.net
 repository: 
 issue: 
-icon: 'com.mchangeapps.mchange.png'
+icon: com.mchangeapps.mchange.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2025-02-13'
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://www.youtube.com/watch?v=cofz1LnJWnk'
+- https://www.youtube.com/watch?v=cofz1LnJWnk
 redirect_from: 
-developerName: 'exmoneyapps'
+developerName: exmoneyapps
 features: 
 
 ---

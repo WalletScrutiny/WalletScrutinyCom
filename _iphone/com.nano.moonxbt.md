@@ -7,12 +7,11 @@ authors:
 appId: com.nano.moonxbt
 appCountry: us
 idd: 1566536854
-released: '2021-06-08'
-updated: '2023-01-13'
-version: '5.4.3'
+released: 2021-06-08
+updated: 2023-01-13
+version: 5.4.3
 stars: 3.3
 reviews: 19
-size: '68724736'
 website: https://www.moonxbt.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2023-08-04'
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: MoonXBT_Global

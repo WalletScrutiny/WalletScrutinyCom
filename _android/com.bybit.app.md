@@ -1,36 +1,36 @@
 ---
-wsId: 'bybit'
+wsId: bybit
 title: 'Bybit: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 10000000
-appId: 'com.bybit.app'
+appId: com.bybit.app
 appCountry: 
-released: '2019-10-31'
+released: 2019-10-31
 updated: 2025-02-12
-version: '4.58.0'
+version: 4.59.0
 stars: 4.5
 ratings: 107859
-reviews: 6279
-website: 'https://www.bybit.com'
+reviews: 6285
+website: https://www.bybit.com
 repository: 
 issue: 
-icon: 'com.bybit.app.png'
+icon: com.bybit.app.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-02-09'
+date: 2021-02-09
 signer: 
 reviewArchive: 
-twitter: 'Bybit_Official'
+twitter: Bybit_Official
 social:
-- 'https://www.linkedin.com/company/bybitexchange'
-- 'https://www.facebook.com/Bybit'
-- 'https://www.reddit.com/r/Bybit'
+- https://www.linkedin.com/company/bybitexchange
+- https://www.facebook.com/Bybit
+- https://www.reddit.com/r/Bybit
 redirect_from: 
-developerName: 'Bybit'
+developerName: Bybit
 features: 
 
 ---

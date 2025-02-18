@@ -1,36 +1,36 @@
 ---
-wsId: 'probosWallet'
-title: 'Probos Wallet'
+wsId: probosWallet
+title: Probos Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.elephantslab.probos'
+appId: com.elephantslab.probos
 appCountry: 
-released: '2022-09-20'
+released: 2022-09-20
 updated: 2022-09-30
-version: '1.1.1'
+version: 1.1.1
 stars: 3.8
 ratings: 
 reviews: 
-website: 'https://probos.io/'
+website: https://probos.io/
 repository: 
 issue: 
-icon: 'com.elephantslab.probos.png'
+icon: com.elephantslab.probos.png
 bugbounty: 
-meta: 'obsolete'
-verdict: 'nosource'
+meta: obsolete
+verdict: nosource
 appHashes: 
-date: '2024-09-20'
+date: 2024-09-20
 signer: 
 reviewArchive: 
-twitter: 'probos_wallet'
+twitter: probos_wallet
 social:
-- 'https://t.me/probos_info'
-- 'https://www.facebook.com/proboswallet'
-- 'https://www.instagram.com/proboswallet'
+- https://t.me/probos_info
+- https://www.facebook.com/proboswallet
+- https://www.instagram.com/proboswallet
 redirect_from: 
-developerName: 'ElephantsLab, LLC'
+developerName: ElephantsLab, LLC
 features: 
 
 ---

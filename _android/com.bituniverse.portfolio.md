@@ -1,33 +1,33 @@
 ---
-wsId: 'bitUniverse'
-title: 'BitUniverse:Crypto Trading Bot'
+wsId: bitUniverse
+title: BitUniverse:Crypto Trading Bot
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 500000
-appId: 'com.bituniverse.portfolio'
+appId: com.bituniverse.portfolio
 appCountry: 
-released: '2017-09-30'
+released: 2017-09-30
 updated: 2022-12-27
-version: '3.8.1'
+version: 3.8.1
 stars: 3.9
 ratings: 
 reviews: 500
-website: 'http://www.bituniverse.org/'
+website: http://www.bituniverse.org/
 repository: 
 issue: 
-icon: 'com.bituniverse.portfolio.png'
+icon: com.bituniverse.portfolio.png
 bugbounty: 
-meta: 'obsolete'
-verdict: 'nowallet'
+meta: obsolete
+verdict: nowallet
 appHashes: 
-date: '2024-12-16'
+date: 2024-12-16
 signer: 
 reviewArchive: 
-twitter: 'bituniverse_org'
+twitter: bituniverse_org
 social: 
 redirect_from: 
-developerName: 'BitUniverse Co., Ltd (Cryptocurrency Portfolio)'
+developerName: BitUniverse Co., Ltd (Cryptocurrency Portfolio)
 features: 
 
 ---

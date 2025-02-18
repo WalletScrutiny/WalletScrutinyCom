@@ -1,34 +1,33 @@
 ---
-wsId: 'Dreambit'
-title: 'Dreambit'
+wsId: Dreambit
+title: Dreambit
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.dreambit'
-appCountry: 'lv'
-released: '2021-02-16'
-updated: '2022-12-29'
-version: '3.0.0-dreambit'
+appId: com.dreambit
+appCountry: lv
+released: 2021-02-16
+updated: 2022-12-29
+version: 3.0.0-dreambit
 stars: 3.8
 ratings: 21
 reviews: 9
-size: 
-website: 'http://www.dreambit.com'
+website: http://www.dreambit.com
 repository: 
 issue: 
-icon: 'com.dreambit.png'
+icon: com.dreambit.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-09-04'
+date: 2023-09-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Crypterium AS'
+developerName: Crypterium AS
 features: 
 
 ---

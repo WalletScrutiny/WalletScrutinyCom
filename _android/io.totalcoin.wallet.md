@@ -1,38 +1,38 @@
 ---
-wsId: 'Totalcoin'
-title: 'Totalcoin - Buy & Sell Bitcoin'
+wsId: Totalcoin
+title: Totalcoin - Buy & Sell Bitcoin
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 500000
-appId: 'io.totalcoin.wallet'
+appId: io.totalcoin.wallet
 appCountry: 
-released: '2018-04-01'
+released: 2018-04-01
 updated: 2025-01-15
-version: '5.7.2.2053'
+version: 5.7.2.2053
 stars: 3.7
 ratings: 7981
 reviews: 66
-website: 'http://totalcoin.io'
+website: http://totalcoin.io
 repository: 
 issue: 
-icon: 'io.totalcoin.wallet.png'
+icon: io.totalcoin.wallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-05-24'
+date: 2021-05-24
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://www.facebook.com/totalcoin.io'
+- https://www.facebook.com/totalcoin.io
 redirect_from:
-- '/totalcoin/'
-- '/io.totalcoin.wallet/'
-- '/posts/2019/11/totalcoin/'
-- '/posts/io.totalcoin.wallet/'
-developerName: 'TOTALCOIN TRADING LTD'
+- /totalcoin/
+- /io.totalcoin.wallet/
+- /posts/2019/11/totalcoin/
+- /posts/io.totalcoin.wallet/
+developerName: TOTALCOIN TRADING LTD
 features: 
 
 ---

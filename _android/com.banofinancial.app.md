@@ -1,36 +1,36 @@
 ---
-wsId: 'banosuperapp'
-title: 'Bano - Connect Your Life'
+wsId: banosuperapp
+title: Bano - Connect Your Life
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.banofinancial.app'
+appId: com.banofinancial.app
 appCountry: 
-released: '2021-05-13'
+released: 2021-05-13
 updated: 2024-08-26
-version: '1.5.22'
+version: 1.5.22
 stars: 2.5
 ratings: 
 reviews: 2
-website: 'https://bano.app/index.html'
+website: https://bano.app/index.html
 repository: 
 issue: 
-icon: 'com.banofinancial.app.png'
+icon: com.banofinancial.app.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2023-03-09'
+date: 2023-03-09
 signer: 
 reviewArchive: 
-twitter: 'banosuperapp'
+twitter: banosuperapp
 social:
-- 'https://www.facebook.com/banosuperapp'
-- 'https://www.instagram.com/banosuperapp'
-- 'https://www.linkedin.com/company/banoapp'
+- https://www.facebook.com/banosuperapp
+- https://www.instagram.com/banosuperapp
+- https://www.linkedin.com/company/banoapp
 redirect_from: 
-developerName: 'BANO PTY LTD'
+developerName: BANO PTY LTD
 features: 
 
 ---

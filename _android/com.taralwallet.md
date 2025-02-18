@@ -1,36 +1,36 @@
 ---
-wsId: 'taralityWallet'
+wsId: taralityWallet
 title: 'Tarality: Crypto Trading App'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.taralwallet'
+appId: com.taralwallet
 appCountry: 
-released: '2021-10-22'
+released: 2021-10-22
 updated: 2024-12-19
-version: '13.5.0'
+version: 13.5.0
 stars: 3
 ratings: 
 reviews: 4
-website: 'https://tarality.com'
+website: https://tarality.com
 repository: 
 issue: 
-icon: 'com.taralwallet.png'
+icon: com.taralwallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-24'
+date: 2024-07-24
 signer: 
 reviewArchive: 
-twitter: 'TaralityCoin'
+twitter: TaralityCoin
 social:
-- 'https://www.facebook.com/TaralityCoin'
-- 'https://www.linkedin.com/company/tarality'
-- 'https://t.me/TaralityCommunity'
+- https://www.facebook.com/TaralityCoin
+- https://www.linkedin.com/company/tarality
+- https://t.me/TaralityCommunity
 redirect_from: 
-developerName: 'Tarality Ecosystems Private Limited'
+developerName: Tarality Ecosystems Private Limited
 features: 
 
 ---

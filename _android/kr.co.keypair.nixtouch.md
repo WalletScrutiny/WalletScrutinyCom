@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'NiXPAY'
+title: NiXPAY
 altTitle: 
 authors: 
 users: 100
-appId: 'kr.co.keypair.nixtouch'
+appId: kr.co.keypair.nixtouch
 appCountry: 
-released: '2018-10-19'
-updated: '2019-12-27'
-version: '1.0.0.65'
+released: 2018-10-19
+updated: 2019-12-27
+version: 1.0.0.65
 stars: 5
 ratings: 
 reviews: 
-size: 
-website: 'https://www.nixblock.com/'
+website: https://www.nixblock.com/
 repository: 
 issue: 
-icon: 'kr.co.keypair.nixtouch.png'
+icon: kr.co.keypair.nixtouch.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-09-16'
+date: 2024-09-16
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Keypair Co., Ltd.'
+developerName: Keypair Co., Ltd.
 features: 
 
 ---

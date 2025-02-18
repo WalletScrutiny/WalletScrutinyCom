@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Mond'
+title: Mond
 altTitle: 
 authors: 
 users: 100
-appId: 'mond.finance'
+appId: mond.finance
 appCountry: 
-released: '2022-08-26'
-updated: '2022-09-13'
-version: '1.1.1'
+released: 2022-08-26
+updated: 2022-09-13
+version: 1.1.1
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://mond.finance'
+website: https://mond.finance
 repository: 
 issue: 
-icon: 'mond.finance.png'
+icon: mond.finance.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-04-03'
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Mond Finance Tecnologia LTDA'
+developerName: Mond Finance Tecnologia LTDA
 features: 
 
 ---

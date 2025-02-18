@@ -1,36 +1,35 @@
 ---
-wsId: 'CoinZoom'
+wsId: CoinZoom
 title: 'CoinZoom Pro: Buy, Sell Crypto'
 altTitle: 
 authors:
-- 'kiwilamb'
+- kiwilamb
 users: 100000
-appId: 'com.czprime'
+appId: com.czprime
 appCountry: 
-released: '2020-06-11'
-updated: '2024-02-14'
-version: '1.5.69'
+released: 2020-06-11
+updated: 2024-02-14
+version: 1.5.69
 stars: 3.1
 ratings: 2461
 reviews: 418
-size: 
-website: 'https://www.coinzoom.com'
+website: https://www.coinzoom.com
 repository: 
 issue: 
-icon: 'com.czprime.png'
+icon: com.czprime.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-04-03'
+date: 2024-04-03
 signer: 
 reviewArchive: 
-twitter: 'GetCoinZoom'
+twitter: GetCoinZoom
 social:
-- 'https://www.linkedin.com/company/coinzoomhq'
-- 'https://www.facebook.com/CoinZoom'
+- https://www.linkedin.com/company/coinzoomhq
+- https://www.facebook.com/CoinZoom
 redirect_from: 
-developerName: 'CoinZoom'
+developerName: CoinZoom
 features: 
 
 ---

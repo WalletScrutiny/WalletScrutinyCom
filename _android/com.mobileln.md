@@ -1,28 +1,27 @@
 ---
 wsId: 
-title: 'Mobile LN'
+title: Mobile LN
 altTitle: 
 authors:
-- 'kiwilamb'
+- kiwilamb
 users: 10
-appId: 'com.mobileln'
+appId: com.mobileln
 appCountry: 
 released: 
-updated: '2019-04-11'
-version: 'pre-alpha v0.2b'
+updated: 2019-04-11
+version: pre-alpha v0.2b
 stars: 
 ratings: 
 reviews: 
-size: '38M'
 website: 
-repository: 'https://github.com/hihidev/MobileLN'
+repository: https://github.com/hihidev/MobileLN
 issue: 
-icon: 'com.mobileln.png'
+icon: com.mobileln.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2021-04-30'
+date: 2021-04-30
 signer: 
 reviewArchive: 
 twitter: 

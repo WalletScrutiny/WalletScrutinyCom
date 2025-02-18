@@ -1,35 +1,34 @@
 ---
-wsId: 'HuobiWallet'
+wsId: HuobiWallet
 title: 'iToken HD: DeFi Crypto Wallet'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.huobionchainwallet.itokenhd'
+appId: com.huobionchainwallet.itokenhd
 appCountry: 
-released: '2023-04-12'
-updated: '2023-08-30'
-version: '4.00.05.003'
+released: 2023-04-12
+updated: 2023-08-30
+version: 4.00.05.003
 stars: 3.4
 ratings: 
 reviews: 2
-size: 
-website: 'https://www.itoken.com/'
+website: https://www.itoken.com/
 repository: 
 issue: 
-icon: 'com.huobionchainwallet.itokenhd.png'
+icon: com.huobionchainwallet.itokenhd.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2024-03-02'
+date: 2024-03-02
 signer: 
 reviewArchive: 
-twitter: 'iTokenWallet'
+twitter: iTokenWallet
 social:
-- 'https://medium.com/@iTokenWalletOfficial'
+- https://medium.com/@iTokenWalletOfficial
 redirect_from: 
-developerName: 'BlazekTech Internet Technology Service Limited'
+developerName: BlazekTech Internet Technology Service Limited
 features: 
 
 ---

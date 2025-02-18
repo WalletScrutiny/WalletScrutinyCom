@@ -1,37 +1,36 @@
 ---
-wsId: 'trofiInvestment'
-title: 'Trofi - Crypto Investment App'
+wsId: trofiInvestment
+title: Trofi - Crypto Investment App
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.trofi'
+appId: com.trofi
 appCountry: 
-released: '2022-04-12'
-updated: '2023-03-16'
-version: '3.2.7'
+released: 2022-04-12
+updated: 2023-03-16
+version: 3.2.7
 stars: 4.9
 ratings: 
 reviews: 27
-size: 
-website: 'https://www.trofi.group/'
+website: https://www.trofi.group/
 repository: 
 issue: 
-icon: 'com.trofi.png'
+icon: com.trofi.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
-twitter: 'yieldapp'
+twitter: yieldapp
 social:
-- 'https://www.linkedin.com/company/yieldapp'
-- 'https://t.me/yieldapp'
-- 'https://discord.com/invite/crwD3JgMgn'
+- https://www.linkedin.com/company/yieldapp
+- https://t.me/yieldapp
+- https://discord.com/invite/crwD3JgMgn
 redirect_from: 
-developerName: 'Trofi Group'
+developerName: Trofi Group
 features: 
 
 ---

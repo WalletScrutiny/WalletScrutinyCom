@@ -4,30 +4,29 @@ title: 'GIGEX: Invest Tokenized Assets'
 altTitle: 
 authors: 
 users: 10
-appId: 'io.gigexchage.crypto'
+appId: io.gigexchage.crypto
 appCountry: 
-released: '2022-03-21'
-updated: '2022-04-30'
-version: '1.0.2'
+released: 2022-03-21
+updated: 2022-04-30
+version: 1.0.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'io.gigexchage.crypto.png'
+icon: io.gigexchage.crypto.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-07-22'
+date: 2024-07-22
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'GIG INTERNATIONAL INVESTMENT LTD'
+developerName: GIG INTERNATIONAL INVESTMENT LTD
 features: 
 
 ---

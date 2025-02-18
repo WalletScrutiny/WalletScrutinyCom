@@ -22,7 +22,7 @@ icon: whitewolf.technology.nfc.png
 bugbounty: 
 meta: ok
 verdict: nowallet
-date: '2023-12-07'
+date: 2023-12-07
 signer: 
 reviewArchive: 
 twitter: 

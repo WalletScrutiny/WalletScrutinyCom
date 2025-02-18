@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Trade4FastPay'
+title: Trade4FastPay
 altTitle: 
 authors: 
 users: 10
-appId: 'com.trade4fastpay.trade4fastpay'
+appId: com.trade4fastpay.trade4fastpay
 appCountry: 
-released: '2021-10-15'
-updated: '2023-04-15'
-version: '1.0.0'
+released: 2021-10-15
+updated: 2023-04-15
+version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://trade4fastpay.com/'
+website: https://trade4fastpay.com/
 repository: 
 issue: 
-icon: 'com.trade4fastpay.trade4fastpay.png'
+icon: com.trade4fastpay.trade4fastpay.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'LucrativeTECH'
+developerName: LucrativeTECH
 features: 
 
 ---

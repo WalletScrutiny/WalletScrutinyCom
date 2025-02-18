@@ -1,31 +1,30 @@
 ---
 wsId: 
-title: 'Nayuta Core'
+title: Nayuta Core
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.nayuta.core'
+appId: com.nayuta.core
 appCountry: 
 released: 
-updated: '2021-12-16'
-version: 'Varies with device'
+updated: 2021-12-16
+version: Varies with device
 stars: 
 ratings: 
 reviews: 
-size: 'Varies with device'
-website: 'https://nayuta.co/core/'
-repository: 'https://github.com/nayutaco/NayutaCore'
+website: https://nayuta.co/core/
+repository: https://github.com/nayutaco/NayutaCore
 issue: 
-icon: 'com.nayuta.core.png'
+icon: com.nayuta.core.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2022-01-15'
+date: 2022-01-15
 signer: 
 reviewArchive: 
-twitter: 'nayuta_en'
+twitter: nayuta_en
 social: 
 redirect_from: 
 developerName: 

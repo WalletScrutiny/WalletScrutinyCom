@@ -1,35 +1,36 @@
 ---
-wsId: 'coinRivet'
-title: 'Coin Rivet'
+wsId: coinRivet
+title: Coin Rivet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.galias.coinrivet'
+appId: com.galias.coinrivet
 appCountry: 
+released: 
 updated: 2025-02-14
-version: '1.2.12.1160'
+version: 1.2.12.1160
 stars: 4.2
 ratings: 
 reviews: 
-website: 'https://coinrivet.com/'
+website: https://coinrivet.com/
 repository: 
 issue: 
-icon: 'com.galias.coinrivet.png'
+icon: com.galias.coinrivet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2024-04-02'
+date: 2024-04-02
 signer: 
 reviewArchive: 
-twitter: 'CoinRivet'
+twitter: CoinRivet
 social:
-- 'https://coinrivet.com'
-- 'https://www.instagram.com/CoinRivet'
-- 'https://www.facebook.com/CoinRivet'
+- https://coinrivet.com
+- https://www.instagram.com/CoinRivet
+- https://www.facebook.com/CoinRivet
 redirect_from: 
-developerName: 'Galias Services'
+developerName: Galias Services
 features: 
 
 ---

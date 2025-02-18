@@ -3,33 +3,32 @@ wsId:
 title: 'Bitriel: digital wallet'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.selendra.secure_wallet'
+appId: com.selendra.secure_wallet
 appCountry: 
-released: '2021-02-22'
-updated: '2023-12-13'
-version: '9.0.3'
+released: 2021-02-22
+updated: 2023-12-13
+version: 9.0.3
 stars: 4.2
 ratings: 96
 reviews: 4
-size: 
-website: 'https://bitriel.com/'
-repository: 'https://github.com/bitriel/bitriel-wallet'
-issue: 'https://github.com/bitriel/bitriel-wallet/issues/26'
-icon: 'com.selendra.secure_wallet.png'
+website: https://bitriel.com/
+repository: https://github.com/bitriel/bitriel-wallet
+issue: https://github.com/bitriel/bitriel-wallet/issues/26
+icon: com.selendra.secure_wallet.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'nonverifiable'
+meta: defunct
+verdict: nonverifiable
 appHashes: 
-date: '2022-03-07'
+date: 2022-03-07
 signer: 
 reviewArchive: 
-twitter: 'SelendraChain'
+twitter: SelendraChain
 social:
-- 'https://www.linkedin.com/company/selendrachain'
+- https://www.linkedin.com/company/selendrachain
 redirect_from: 
-developerName: 'KOOMPI'
+developerName: KOOMPI
 features: 
 
 ---

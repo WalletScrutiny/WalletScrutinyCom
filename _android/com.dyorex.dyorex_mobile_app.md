@@ -1,38 +1,38 @@
 ---
-wsId: 'dyorEX'
-title: 'DyorEX Exchange'
+wsId: dyorEX
+title: DyorEX Exchange
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.dyorex.dyorex_mobile_app'
+appId: com.dyorex.dyorex_mobile_app
 appCountry: 
-released: '2022-02-24'
+released: 2022-02-24
 updated: 2025-01-28
-version: '1.7.7'
+version: 1.7.7
 stars: 4.9
 ratings: 
 reviews: 
-website: 'https://www.dyorex.com'
+website: https://www.dyorex.com
 repository: 
 issue: 
-icon: 'com.dyorex.dyorex_mobile_app.png'
+icon: com.dyorex.dyorex_mobile_app.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-05-23'
+date: 2023-05-23
 signer: 
 reviewArchive: 
-twitter: 'dyorexcom'
+twitter: dyorexcom
 social:
-- 'https://www.linkedin.com/company/dyorexcom'
-- 'https://www.facebook.com/dyorexcom'
-- 'https://www.instagram.com/dyorexcom'
-- 'https://www.youtube.com/channel/UCRa9XU1sdPeUb3Y9vZ94IBA'
-- 'https://t.me/dyorexdestek'
+- https://www.linkedin.com/company/dyorexcom
+- https://www.facebook.com/dyorexcom
+- https://www.instagram.com/dyorexcom
+- https://www.youtube.com/channel/UCRa9XU1sdPeUb3Y9vZ94IBA
+- https://t.me/dyorexdestek
 redirect_from: 
-developerName: 'Dyorex Exchange'
+developerName: Dyorex Exchange
 features: 
 
 ---

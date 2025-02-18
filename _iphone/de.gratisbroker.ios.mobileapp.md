@@ -7,12 +7,11 @@ authors:
 appId: de.gratisbroker.ios.mobileapp
 appCountry: de
 idd: '1556711130'
-released: '2021-06-07'
-updated: '2025-02-12'
-version: '5.4.1'
+released: 2021-06-07
+updated: 2025-02-17
+version: 5.4.4
 stars: 4.7
-reviews: 17086
-size: '158839808'
+reviews: 17188
 website: https://www.finanzen.net/zero/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: nosendreceive
 appHashes: 
-date: '2023-03-02'
+date: 2023-03-02
 signer: 
 reviewArchive: 
 twitter: FinanzenNet

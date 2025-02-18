@@ -1,38 +1,37 @@
 ---
 wsId: 
-title: 'UpBots'
+title: UpBots
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.app.upbots'
+appId: com.app.upbots
 appCountry: 
-released: '2021-12-14'
-updated: '2022-02-25'
-version: '1.9.2'
+released: 2021-12-14
+updated: 2022-02-25
+version: 1.9.2
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://upbots.com/'
+website: https://upbots.com/
 repository: 
 issue: 
-icon: 'com.app.upbots.jpg'
+icon: com.app.upbots.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
-twitter: 'upbots'
+twitter: upbots
 social:
-- 'https://www.instagram.com/upbotscom'
-- 'https://www.linkedin.com/company/upbots'
-- 'https://www.youtube.com/channel/UCFjbtkzDJDlJVSS9AaBfLKA'
-- 'https://www.facebook.com/UpBotscom'
+- https://www.instagram.com/upbotscom
+- https://www.linkedin.com/company/upbots
+- https://www.youtube.com/channel/UCFjbtkzDJDlJVSS9AaBfLKA
+- https://www.facebook.com/UpBotscom
 redirect_from: 
-developerName: 'Upbots Gmbh'
+developerName: Upbots Gmbh
 features: 
 
 ---

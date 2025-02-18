@@ -7,12 +7,11 @@ authors:
 appId: kzencorp.mobile.ios
 appCountry: 
 idd: 1440147115
-released: '2019-06-07'
-updated: '2025-01-27'
-version: '8.7.3'
+released: 2019-06-07
+updated: 2025-01-27
+version: 8.7.3
 stars: 4.7
-reviews: 4131
-size: '109326336'
+reviews: 4133
 website: https://www.zengo.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: '2020-04-27'
+date: 2020-04-27
 signer: 
 reviewArchive: 
 twitter: zengo

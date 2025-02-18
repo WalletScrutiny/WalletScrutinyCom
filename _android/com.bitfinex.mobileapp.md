@@ -1,38 +1,38 @@
 ---
-wsId: 'Bitfinex'
+wsId: Bitfinex
 title: 'Bitfinex: Trade Digital Assets'
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 500000
-appId: 'com.bitfinex.mobileapp'
+appId: com.bitfinex.mobileapp
 appCountry: 
-released: '2019-02-11'
+released: 2019-02-11
 updated: 2024-11-27
-version: '7.5.0'
+version: 7.5.0
 stars: 3.5
 ratings: 1986
 reviews: 68
-website: 'https://www.bitfinex.com'
+website: https://www.bitfinex.com
 repository: 
 issue: 
-icon: 'com.bitfinex.mobileapp.png'
+icon: com.bitfinex.mobileapp.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-05-31'
+date: 2021-05-31
 signer: 
 reviewArchive: 
-twitter: 'bitfinex'
+twitter: bitfinex
 social:
-- 'https://www.linkedin.com/company/bitfinex'
-- 'https://www.facebook.com/bitfinex'
-- 'https://www.reddit.com/r/bitfinex'
+- https://www.linkedin.com/company/bitfinex
+- https://www.facebook.com/bitfinex
+- https://www.reddit.com/r/bitfinex
 redirect_from: 
-developerName: 'Bitfinex'
+developerName: Bitfinex
 features:
-- 'ln'
+- ln
 
 ---
 

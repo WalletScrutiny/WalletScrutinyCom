@@ -7,12 +7,11 @@ authors:
 appId: io.emcd.app
 appCountry: jp
 idd: '1606903304'
-released: '2022-01-29'
-updated: '2024-09-24'
-version: '2.5.0'
+released: 2022-01-29
+updated: 2024-09-24
+version: 2.5.0
 stars: 0
 reviews: 0
-size: '187786240'
 website: https://emcd.io/about
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2024-12-15'
+date: 2024-12-15
 signer: 
 reviewArchive: 
 twitter: emcd_io

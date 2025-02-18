@@ -1,33 +1,34 @@
 ---
-wsId: 'deblock'
-title: 'Deblock - Banking app'
+wsId: deblock
+title: Deblock - Banking app
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.deblock.deblockapp'
+appId: com.deblock.deblockapp
 appCountry: 
-updated: 2025-02-13
-version: '2.0.26'
+released: 
+updated: 2025-02-15
+version: 2.0.26
 stars: 4.7
 ratings: 
 reviews: 7
-website: 'https://deblock.com/'
+website: https://deblock.com/
 repository: 
 issue: 
-icon: 'com.deblock.deblockapp.png'
+icon: com.deblock.deblockapp.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2024-09-06'
+date: 2024-09-06
 signer: 
 reviewArchive: 
-twitter: 'DeblockApp'
+twitter: DeblockApp
 social:
-- 'https://discord.com/invite/deblock'
+- https://discord.com/invite/deblock
 redirect_from: 
-developerName: 'Deblock SAS'
+developerName: Deblock SAS
 features: 
 
 ---

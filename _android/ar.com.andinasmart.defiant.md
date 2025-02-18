@@ -1,34 +1,33 @@
 ---
-wsId: 'Defiant'
-title: 'Defiant'
+wsId: Defiant
+title: Defiant
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'ar.com.andinasmart.defiant'
-appCountry: 'ar'
-released: '2019-11-19'
-updated: '2024-04-05'
-version: '5.4.3'
+appId: ar.com.andinasmart.defiant
+appCountry: ar
+released: 2019-11-19
+updated: 2024-04-05
+version: 5.4.3
 stars: 4.6
 ratings: 65
 reviews: 41
-size: 
-website: 'https://defiantapp.tech'
+website: https://defiantapp.tech
 repository: 
 issue: 
-icon: 'ar.com.andinasmart.defiant.png'
+icon: ar.com.andinasmart.defiant.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'nosource'
+meta: defunct
+verdict: nosource
 appHashes: 
-date: '2024-07-16'
+date: 2024-07-16
 signer: 
 reviewArchive: 
-twitter: 'defiantApp'
+twitter: defiantApp
 social: 
 redirect_from: 
-developerName: 'Andina DeFi Ltd'
+developerName: Andina DeFi Ltd
 features: 
 
 ---

@@ -1,36 +1,36 @@
 ---
-wsId: 'ZenaPay'
-title: 'ZenaPay'
+wsId: ZenaPay
+title: ZenaPay
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.zenapay'
+appId: com.zenapay
 appCountry: 
-released: '2017-12-30'
+released: 2017-12-30
 updated: 2024-12-26
-version: '1.1.16'
+version: 1.1.16
 stars: 5
 ratings: 
 reviews: 3
-website: 'http://www.zenapay.com'
+website: http://www.zenapay.com
 repository: 
 issue: 
-icon: 'com.zenapay.png'
+icon: com.zenapay.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nobtc'
+meta: ok
+verdict: nobtc
 appHashes: 
-date: '2024-07-17'
+date: 2024-07-17
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://www.facebook.com/ZenaPay'
-- 'https://www.linkedin.com/company/zenapay1/about/'
-- 'https://www.youtube.com/channel/UCyehPdsSfe2MickTIsYuDFg'
+- https://www.facebook.com/ZenaPay
+- https://www.linkedin.com/company/zenapay1/about/
+- https://www.youtube.com/channel/UCyehPdsSfe2MickTIsYuDFg
 redirect_from: 
-developerName: 'Epazz'
+developerName: Epazz
 features: 
 
 ---

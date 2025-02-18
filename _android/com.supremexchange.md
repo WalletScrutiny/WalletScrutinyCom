@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Supreme CrypX | Bitcoin Exchan'
+title: Supreme CrypX | Bitcoin Exchan
 altTitle: 
 authors: 
 users: 100
-appId: 'com.supremexchange'
+appId: com.supremexchange
 appCountry: 
-released: '2018-12-21'
-updated: '2020-11-23'
+released: 2018-12-21
+updated: 2020-11-23
 version: '2.1'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.supremecrypx.com'
+website: https://www.supremecrypx.com
 repository: 
 issue: 
-icon: 'com.supremexchange.png'
+icon: com.supremexchange.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Kripter Kommunications'
+developerName: Kripter Kommunications
 features: 
 
 ---

@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Best Exchange'
+title: Best Exchange
 altTitle: 
 authors: 
 users: 10
-appId: 'com.bestexchange.bestexchange'
+appId: com.bestexchange.bestexchange
 appCountry: 
-released: '2022-03-27'
-updated: '2022-03-27'
-version: '1.0.0'
+released: 2022-03-27
+updated: 2022-03-27
+version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.bestexchange.bestexchange.png'
+icon: com.bestexchange.bestexchange.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Best Exchange'
+developerName: Best Exchange
 features: 
 
 ---

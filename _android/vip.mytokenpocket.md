@@ -1,40 +1,40 @@
 ---
-wsId: 'TokenPocket'
+wsId: TokenPocket
 title: 'TokenPocket: Crypto & Bitcoin'
 altTitle: 
 authors:
-- 'leo'
-- 'danny'
+- leo
+- danny
 users: 5000000
-appId: 'vip.mytokenpocket'
+appId: vip.mytokenpocket
 appCountry: 
-released: '2018-06-29'
-updated: 2025-01-23
-version: '2.4.2'
+released: 2018-06-29
+updated: 2025-02-15
+version: 2.4.3
 stars: 4.4
 ratings: 16862
-reviews: 597
-website: 'https://www.tokenpocket.pro/'
-repository: 'https://github.com/TP-Lab/tp-android'
-issue: 'https://github.com/TP-Lab/tp-android/issues/15'
-icon: 'vip.mytokenpocket.png'
+reviews: 599
+website: https://www.tokenpocket.pro/
+repository: https://github.com/TP-Lab/tp-android
+issue: https://github.com/TP-Lab/tp-android/issues/15
+icon: vip.mytokenpocket.png
 bugbounty: 
-meta: 'ok'
-verdict: 'obfuscated'
+meta: ok
+verdict: obfuscated
 appHashes: []
-date: '2024-07-17'
+date: 2024-07-17
 signer: 
 reviewArchive:
-- date: '2024-07-17'
-  version: '2.3.8'
+- date: 2024-07-17
+  version: 2.3.8
   appHashes: []
-  gitRevision: '4458285efc54bd9bc76d74f88e696201a4af4a93'
-  verdict: 'obfuscated'
-twitter: 'TokenPocket_TP'
+  gitRevision: 4458285efc54bd9bc76d74f88e696201a4af4a93
+  verdict: obfuscated
+twitter: TokenPocket_TP
 social:
-- 'https://www.facebook.com/TokenPocket'
+- https://www.facebook.com/TokenPocket
 redirect_from: 
-developerName: 'TP Global Ltd'
+developerName: TP Global Ltd
 features: 
 
 ---

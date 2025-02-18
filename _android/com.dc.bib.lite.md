@@ -1,39 +1,38 @@
 ---
 wsId: 
-title: 'BIB'
+title: BIB
 altTitle: 
 authors: 
 users: 50000
-appId: 'com.dc.bib.lite'
+appId: com.dc.bib.lite
 appCountry: 
-released: '2023-02-06'
-updated: '2024-05-15'
-version: '1.2.9'
+released: 2023-02-06
+updated: 2024-05-15
+version: 1.2.9
 stars: 2.2
 ratings: 
 reviews: 8
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.dc.bib.lite.png'
+icon: com.dc.bib.lite.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-12-23'
+date: 2024-12-23
 signer: 
 reviewArchive: 
-twitter: 'bib_exchange'
+twitter: bib_exchange
 social:
-- 'https://www.bibvip.com'
-- 'https://www.linkedin.com/company/bibexchangeofficial'
-- 'https://www.facebook.com/bibexchangeofficial'
-- 'https://www.instagram.com/bib_chinese'
-- 'https://bibexchange.medium.com'
-- 'https://t.me/BIBexchange_China'
+- https://www.bibvip.com
+- https://www.linkedin.com/company/bibexchangeofficial
+- https://www.facebook.com/bibexchangeofficial
+- https://www.instagram.com/bib_chinese
+- https://bibexchange.medium.com
+- https://t.me/BIBexchange_China
 redirect_from: 
-developerName: 'ebpay.net'
+developerName: ebpay.net
 features: 
 
 ---

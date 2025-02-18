@@ -1,35 +1,34 @@
 ---
-wsId: 'Belfrics'
-title: 'Belfrics – CryptoCurrency'
+wsId: Belfrics
+title: Belfrics – CryptoCurrency
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.app.belfrics'
-appCountry: 'us'
-released: '2017-10-17'
-updated: '2022-08-06'
-version: '2.1.15'
+appId: com.app.belfrics
+appCountry: us
+released: 2017-10-17
+updated: 2022-08-06
+version: 2.1.15
 stars: 4.8
 ratings: 110
 reviews: 8
-size: 
-website: 'http://www.belfrics.io'
+website: http://www.belfrics.io
 repository: 
 issue: 
-icon: 'com.app.belfrics.png'
+icon: com.app.belfrics.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-08-04'
+date: 2023-08-04
 signer: 
 reviewArchive: 
-twitter: 'Belfrics'
+twitter: Belfrics
 social:
-- 'https://www.facebook.com/Belfrics'
+- https://www.facebook.com/Belfrics
 redirect_from: 
-developerName: 'Belfrics Holding Ltd'
+developerName: Belfrics Holding Ltd
 features: 
 
 ---

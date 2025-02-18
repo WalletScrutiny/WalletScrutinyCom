@@ -1,34 +1,34 @@
 ---
-wsId: 'croptyWallet'
-title: 'Crypto wallet — Bitcoin & USDT'
+wsId: croptyWallet
+title: Crypto wallet — Bitcoin & USDT
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.cropty.droid'
+appId: com.cropty.droid
 appCountry: 
-released: '2022-07-04'
+released: 2022-07-04
 updated: 2024-12-30
-version: '2.4.2'
+version: 2.4.2
 stars: 4.2
 ratings: 
 reviews: 39
-website: 'https://www.cropty.io/'
+website: https://www.cropty.io/
 repository: 
 issue: 
-icon: 'com.cropty.droid.jpg'
+icon: com.cropty.droid.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-07-30'
+date: 2023-07-30
 signer: 
 reviewArchive: 
-twitter: 'cropty_app'
+twitter: cropty_app
 social:
-- 'https://www.youtube.com/@croptytv'
+- https://www.youtube.com/@croptytv
 redirect_from: 
-developerName: 'Coinscatch'
+developerName: Coinscatch
 features: 
 
 ---

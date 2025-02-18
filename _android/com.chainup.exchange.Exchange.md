@@ -1,34 +1,34 @@
 ---
-wsId: 'scallopExchange'
-title: 'Scallop Exchange'
+wsId: scallopExchange
+title: Scallop Exchange
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.chainup.exchange.Exchange'
+appId: com.chainup.exchange.Exchange
 appCountry: 
-released: '2022-06-21'
+released: 2022-06-21
 updated: 2022-09-30
-version: '5.4.12'
+version: 5.4.12
 stars: 4.1
 ratings: 
 reviews: 9
-website: 'http://www.scallop.exchange'
+website: http://www.scallop.exchange
 repository: 
 issue: 
-icon: 'com.chainup.exchange.Exchange.png'
+icon: com.chainup.exchange.Exchange.png
 bugbounty: 
-meta: 'obsolete'
-verdict: 'custodial'
+meta: obsolete
+verdict: custodial
 appHashes: 
-date: '2024-09-20'
+date: 2024-09-20
 signer: 
 reviewArchive: 
-twitter: 'ScallopOfficial'
+twitter: ScallopOfficial
 social:
-- 'https://www.linkedin.com/company/scallopx/'
+- https://www.linkedin.com/company/scallopx/
 redirect_from: 
-developerName: 'Scallop'
+developerName: Scallop
 features: 
 
 ---

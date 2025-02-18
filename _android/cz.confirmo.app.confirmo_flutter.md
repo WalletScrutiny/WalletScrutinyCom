@@ -1,36 +1,35 @@
 ---
-wsId: 'confirmoLightning'
-title: 'Bitcoin Lightning POS'
+wsId: confirmoLightning
+title: Bitcoin Lightning POS
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'cz.confirmo.app.confirmo_flutter'
+appId: cz.confirmo.app.confirmo_flutter
 appCountry: 
-released: '2022-08-12'
-updated: '2023-08-01'
-version: '1.0.8'
+released: 2022-08-12
+updated: 2023-08-01
+version: 1.0.8
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'http://confirmo.net'
+website: http://confirmo.net
 repository: 
 issue: 
-icon: 'cz.confirmo.app.confirmo_flutter.png'
+icon: cz.confirmo.app.confirmo_flutter.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-04-26'
+date: 2024-04-26
 signer: 
 reviewArchive: 
-twitter: 'CryptoConfirmo'
+twitter: CryptoConfirmo
 social:
-- 'https://www.linkedin.com/company/confirmoltd'
-- 'https://www.facebook.com/confirmo.net'
+- https://www.linkedin.com/company/confirmoltd
+- https://www.facebook.com/confirmo.net
 redirect_from: 
-developerName: 'CONFIRMO'
+developerName: CONFIRMO
 features: 
 
 ---

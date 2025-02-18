@@ -1,36 +1,35 @@
 ---
-wsId: 'coinfalcon'
-title: 'CoinFalcon – Buy & sell Bitcoi'
+wsId: coinfalcon
+title: CoinFalcon – Buy & sell Bitcoi
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 10000
-appId: 'com.coinfalcon.mobile'
+appId: com.coinfalcon.mobile
 appCountry: 
-released: '2019-07-10'
-updated: '2022-02-07'
-version: '2.11.14'
+released: 2019-07-10
+updated: 2022-02-07
+version: 2.11.14
 stars: 2.5
 ratings: 104
 reviews: 9
-size: 
-website: 'https://coinfalcon.com'
+website: https://coinfalcon.com
 repository: 
 issue: 
-icon: 'com.coinfalcon.mobile.png'
+icon: com.coinfalcon.mobile.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-05-10'
+date: 2023-05-10
 signer: 
 reviewArchive: 
-twitter: 'coinfalcon'
+twitter: coinfalcon
 social:
-- 'https://www.facebook.com/CoinFalcon'
-- 'https://www.reddit.com/r/CoinFalcon'
+- https://www.facebook.com/CoinFalcon
+- https://www.reddit.com/r/CoinFalcon
 redirect_from: 
-developerName: 'CoinFalcon'
+developerName: CoinFalcon
 features: 
 
 ---

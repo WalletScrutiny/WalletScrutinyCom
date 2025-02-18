@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'sudonym'
+title: sudonym
 altTitle: 
 authors: 
 users: 50
-appId: 'com.sudonym.sudonym'
+appId: com.sudonym.sudonym
 appCountry: 
 released: 
-updated: '2023-01-23'
-version: '1.0.2'
+updated: 2023-01-23
+version: 1.0.2
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://sudonym.app'
+website: https://sudonym.app
 repository: 
 issue: 
-icon: 'com.sudonym.sudonym.png'
+icon: com.sudonym.sudonym.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'sudonym'
+developerName: sudonym
 features: 
 
 ---

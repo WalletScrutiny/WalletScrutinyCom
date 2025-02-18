@@ -3,7 +3,7 @@ title: BitFreezer
 appId: bitfreezer
 authors:
 - danny
-released: '2018-02-18'
+released: 2018-02-18
 discontinued: 
 updated: 
 version: 
@@ -26,7 +26,7 @@ bugbounty:
 meta: defunct
 verdict: wip
 appHashes: 
-date: '2022-02-18'
+date: 2022-02-18
 signer: 
 reviewArchive: 
 twitter: thebitfreezer

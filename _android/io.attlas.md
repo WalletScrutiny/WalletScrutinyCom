@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: 'ATX - Buy Bitcoin Securely'
+title: ATX - Buy Bitcoin Securely
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'io.attlas'
+appId: io.attlas
 appCountry: 
-released: '2021-05-16'
+released: 2021-05-16
 updated: 2025-02-11
-version: '3.5.35'
+version: 3.5.35
 stars: 3.9
 ratings: 
 reviews: 5
-website: 'https://attlas.io'
+website: https://attlas.io
 repository: 
 issue: 
-icon: 'io.attlas.png'
+icon: io.attlas.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-02-13'
+date: 2023-02-13
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://www.facebook.com/attlas.io/'
+- https://www.facebook.com/attlas.io/
 redirect_from: 
-developerName: 'ATX GLOBAL'
+developerName: ATX GLOBAL
 features: 
 
 ---

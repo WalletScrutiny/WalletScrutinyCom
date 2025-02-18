@@ -1,37 +1,37 @@
 ---
-wsId: 'wallacyCrypto'
+wsId: wallacyCrypto
 title: 'Wallacy: Crypto & BTC Wallet'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'io.wallacy.cryptowallet'
+appId: io.wallacy.cryptowallet
 appCountry: 
-released: '2023-07-19'
+released: 2023-07-19
 updated: 2025-01-14
-version: '0.1.15'
+version: 0.1.15
 stars: 4.6
 ratings: 
 reviews: 29
-website: 'https://wallacy.io/'
+website: https://wallacy.io/
 repository: 
 issue: 
-icon: 'io.wallacy.cryptowallet.png'
+icon: io.wallacy.cryptowallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nobtc'
+meta: ok
+verdict: nobtc
 appHashes: 
-date: '2023-08-30'
+date: 2023-08-30
 signer: 
 reviewArchive: 
-twitter: 'WallacyWallet'
+twitter: WallacyWallet
 social:
-- 'https://www.facebook.com/Wallacy.io'
-- 'https://discord.com/invite/QpEHcR3DUW'
-- 'https://www.youtube.com/@WallacyWallet'
-- 'https://t.me/wallacywallet'
+- https://www.facebook.com/Wallacy.io
+- https://discord.com/invite/QpEHcR3DUW
+- https://www.youtube.com/@WallacyWallet
+- https://t.me/wallacywallet
 redirect_from: 
-developerName: 'Wallacy'
+developerName: Wallacy
 features: 
 
 ---

@@ -7,12 +7,11 @@ authors:
 appId: me.coinpal.xapp
 appCountry: 
 idd: 1351428916
-released: '2018-06-26'
-updated: '2018-06-26'
+released: 2018-06-26
+updated: 2018-06-26
 version: '1.0'
 stars: 4
 reviews: 11
-size: 77613056
 website: https://coinpal.me
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: nosource
 appHashes: 
-date: '2022-02-10'
+date: 2022-02-10
 signer: 
 reviewArchive: 
 twitter: coinpalapp

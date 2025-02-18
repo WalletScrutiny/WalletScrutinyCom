@@ -1,32 +1,32 @@
 ---
 wsId: 
-title: 'Paradise'
+title: Paradise
 altTitle: 
 authors: 
 users: 100
-appId: 'com.paradise.finance'
+appId: com.paradise.finance
 appCountry: 
-released: '2021-07-06'
+released: 2021-07-06
 updated: 2024-08-30
-version: '1.5.0'
+version: 1.5.0
 stars: 
 ratings: 
 reviews: 
 website: 
 repository: 
 issue: 
-icon: 'com.paradise.finance.png'
+icon: com.paradise.finance.png
 bugbounty: 
-meta: 'ok'
-verdict: 'fewusers'
+meta: ok
+verdict: fewusers
 appHashes: 
-date: '2023-03-03'
+date: 2023-03-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Paradise.Exchange'
+developerName: Paradise.Exchange
 features: 
 
 ---

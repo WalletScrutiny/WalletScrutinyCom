@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Syna'
+title: Syna
 altTitle: 
 authors: 
 users: 100
-appId: 'io.centrys.synawallet'
+appId: io.centrys.synawallet
 appCountry: 
-released: '2018-12-13'
-updated: '2019-05-15'
-version: '2.0.1'
+released: 2018-12-13
+updated: 2019-05-15
+version: 2.0.1
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'http://www.theoproject.io'
+website: http://www.theoproject.io
 repository: 
 issue: 
-icon: 'io.centrys.synawallet.png'
+icon: io.centrys.synawallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Centrys Inc.'
+developerName: Centrys Inc.
 features: 
 
 ---

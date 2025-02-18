@@ -1,36 +1,35 @@
 ---
-wsId: 'mona'
-title: 'Crypto.com - Buy Bitcoin, SOL'
+wsId: mona
+title: Crypto.com - Buy Bitcoin, SOL
 altTitle: 
 authors:
-- 'leo'
-appId: 'co.mona.Monaco'
+- leo
+appId: co.mona.Monaco
 appCountry: 
 idd: '1262148500'
-released: '2017-08-31'
+released: 2017-08-31
 updated: 2025-02-13
-version: '3.204.12'
-stars: 4.64419
-reviews: 290169
-size: '671433728'
-website: 'https://crypto.com/'
+version: 3.204.12
+stars: 4.6
+reviews: 290808
+website: https://crypto.com/
 repository: 
 issue: 
-icon: 'co.mona.Monaco.jpg'
+icon: co.mona.Monaco.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-10-24'
+date: 2021-10-24
 signer: 
 reviewArchive: 
-twitter: 'cryptocom'
+twitter: cryptocom
 social:
-- 'https://www.linkedin.com/company/cryptocom'
-- 'https://www.facebook.com/CryptoComOfficial'
-- 'https://www.reddit.com/r/Crypto_com'
+- https://www.linkedin.com/company/cryptocom
+- https://www.facebook.com/CryptoComOfficial
+- https://www.reddit.com/r/Crypto_com
 features: 
-developerName: 'Crypto.com'
+developerName: Crypto.com
 
 ---
 

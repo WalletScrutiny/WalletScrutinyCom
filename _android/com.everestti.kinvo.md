@@ -1,37 +1,37 @@
 ---
-wsId: 'everestKinvo'
+wsId: everestKinvo
 title: 'Kinvo: Acompanhe investimentos'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000000
-appId: 'com.everestti.kinvo'
-appCountry: 'BR'
-released: '2017-12-22'
+appId: com.everestti.kinvo
+appCountry: BR
+released: 2017-12-22
 updated: 2025-02-05
-version: '3.50.1'
+version: 3.50.1
 stars: 3.9
 ratings: 
-reviews: 7426
-website: 'http://www.kinvo.com.br'
+reviews: 7427
+website: http://www.kinvo.com.br
 repository: 
 issue: 
-icon: 'com.everestti.kinvo.png'
+icon: com.everestti.kinvo.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosendreceive'
+meta: ok
+verdict: nosendreceive
 appHashes: 
-date: '2022-12-06'
+date: 2022-12-06
 signer: 
 reviewArchive: 
-twitter: 'kinvoapp'
+twitter: kinvoapp
 social:
-- 'https://www.linkedin.com/company/kinvoapp'
-- 'https://www.facebook.com/appkinvo'
-- 'https://www.instagram.com/kinvoapp'
-- 'https://www.youtube.com/kinvoapp'
+- https://www.linkedin.com/company/kinvoapp
+- https://www.facebook.com/appkinvo
+- https://www.instagram.com/kinvoapp
+- https://www.youtube.com/kinvoapp
 redirect_from: 
-developerName: 'Kinvo Tecnologia da Informação'
+developerName: Kinvo Tecnologia da Informação
 features: 
 
 ---

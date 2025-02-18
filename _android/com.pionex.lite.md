@@ -1,28 +1,27 @@
 ---
-wsId: 'PionexLite'
-title: 'Pionex - Buy Bitcoin & Ethereum'
+wsId: PionexLite
+title: Pionex - Buy Bitcoin & Ethereum
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.pionex.lite'
-appCountry: 'cn'
-released: '2021-05-14'
-updated: '2021-12-17'
-version: '1.1.9'
+appId: com.pionex.lite
+appCountry: cn
+released: 2021-05-14
+updated: 2021-12-17
+version: 1.1.9
 stars: 3.6
 ratings: 33
 reviews: 16
-size: '51M'
-website: 'https://www.pionex.sg/blog/'
+website: https://www.pionex.sg/blog/
 repository: 
 issue: 
-icon: 'com.pionex.lite.png'
+icon: com.pionex.lite.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2022-02-25'
+date: 2022-02-25
 signer: 
 reviewArchive: 
 twitter: 

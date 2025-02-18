@@ -1,28 +1,27 @@
 ---
 wsId: 
-title: 'BTC Network - Bitcoin Cloud Miner'
+title: BTC Network - Bitcoin Cloud Miner
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.cryptominer.btc.miner.cloud.mining'
+appId: com.cryptominer.btc.miner.cloud.mining
 appCountry: 
-released: '2021-07-31'
-updated: '2021-10-20'
+released: 2021-07-31
+updated: 2021-10-20
 version: '1.2'
 stars: 3.7
 ratings: 3598
 reviews: 2256
-size: '15M'
-website: 'https://btcnetwork.in/'
+website: https://btcnetwork.in/
 repository: 
 issue: 
-icon: 'com.cryptominer.btc.miner.cloud.mining.png'
+icon: com.cryptominer.btc.miner.cloud.mining.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2021-11-16'
+date: 2021-11-16
 signer: 
 reviewArchive: 
 twitter: 

@@ -7,12 +7,11 @@ authors:
 appId: com.defi.wallet
 appCountry: 
 idd: 1512048310
-released: '2020-05-20'
-updated: '2025-02-12'
-version: '2.06.1'
+released: 2020-05-20
+updated: 2025-02-17
+version: 2.07.0
 stars: 4.7
-reviews: 11907
-size: '248983552'
+reviews: 11970
 website: https://crypto.com/defi-wallet
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: '2021-10-24'
+date: 2021-10-24
 signer: 
 reviewArchive: 
 twitter: cryptocom

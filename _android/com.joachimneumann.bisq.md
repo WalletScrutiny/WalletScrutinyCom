@@ -1,33 +1,33 @@
 ---
-wsId: 'bisqMobileNotifications'
-title: 'Bisq Notifications'
+wsId: bisqMobileNotifications
+title: Bisq Notifications
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.joachimneumann.bisq'
+appId: com.joachimneumann.bisq
 appCountry: 
-released: '2018-09-06'
+released: 2018-09-06
 updated: 2025-01-15
-version: '1.3.2'
+version: 1.3.2
 stars: 2.8
 ratings: 69
 reviews: 16
-website: 'https://bisq.network/mobile-notifications'
-repository: 'https://github.com/bisq-network/bisqremote_Android'
+website: https://bisq.network/mobile-notifications
+repository: https://github.com/bisq-network/bisqremote_Android
 issue: 
-icon: 'com.joachimneumann.bisq.png'
+icon: com.joachimneumann.bisq.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2025-01-27'
+date: 2025-01-27
 signer: 
 reviewArchive: 
-twitter: 'devinbileck'
+twitter: devinbileck
 social: 
 redirect_from: 
-developerName: 'Devin Bileck'
+developerName: Devin Bileck
 features: 
 
 ---

@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Bitcoin Era App'
+title: Bitcoin Era App
 altTitle: 
 authors: 
 users: 100
-appId: 'org.cryptobrowser.bitcoin.era.app'
+appId: org.cryptobrowser.bitcoin.era.app
 appCountry: 
-released: '2021-06-28'
-updated: '2021-06-29'
+released: 2021-06-28
+updated: 2021-06-29
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: '2.4M'
 website: 
 repository: 
 issue: 
-icon: 'org.cryptobrowser.bitcoin.era.app.jpg'
+icon: org.cryptobrowser.bitcoin.era.app.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2021-10-01'
+date: 2021-10-01
 signer: 
 reviewArchive: 
 twitter: 

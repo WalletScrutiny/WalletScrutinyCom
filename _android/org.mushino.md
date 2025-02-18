@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Mushino'
+title: Mushino
 altTitle: 
 authors: 
 users: 1000
-appId: 'org.mushino'
+appId: org.mushino
 appCountry: 
-released: '2020-07-01'
-updated: '2021-07-05'
-version: '1.0.83'
+released: 2020-07-01
+updated: 2021-07-05
+version: 1.0.83
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://mushino.com'
+website: https://mushino.com
 repository: 
 issue: 
-icon: 'org.mushino.png'
+icon: org.mushino.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2023-08-04'
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Everstrike'
+developerName: Everstrike
 features: 
 
 ---

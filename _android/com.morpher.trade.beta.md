@@ -3,32 +3,32 @@ wsId:
 title: 'Morpher: Trading and Investing'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.morpher.trade.beta'
+appId: com.morpher.trade.beta
 appCountry: 
-released: '2023-02-02'
+released: 2023-02-02
 updated: 2024-12-17
-version: '0.1.39'
+version: 0.1.39
 stars: 4.7
 ratings: 
 reviews: 5
-website: 'https://www.morpher.com'
+website: https://www.morpher.com
 repository: 
 issue: 
-icon: 'com.morpher.trade.beta.png'
+icon: com.morpher.trade.beta.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nobtc'
+meta: ok
+verdict: nobtc
 appHashes: 
-date: '2023-07-10'
+date: 2023-07-10
 signer: 
 reviewArchive: 
-twitter: 'morpher_io'
+twitter: morpher_io
 social:
-- 'https://www.linkedin.com/company/morpher'
+- https://www.linkedin.com/company/morpher
 redirect_from: 
-developerName: 'Morpher'
+developerName: Morpher
 features: 
 
 ---

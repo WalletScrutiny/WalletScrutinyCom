@@ -1,41 +1,40 @@
 ---
 wsId: 
-title: 'Bitcoin Paper Wallet'
+title: Bitcoin Paper Wallet
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 10000
-appId: 'ru.valle.btc'
+appId: ru.valle.btc
 appCountry: 
-released: '2013-04-19'
-updated: '2023-12-01'
-version: 'VARY'
+released: 2013-04-19
+updated: 2023-12-01
+version: VARY
 stars: 4.4
 ratings: 163
 reviews: 17
-size: 
-website: 'http://www.linkedin.com/in/vkonovalov'
-repository: 'https://github.com/ValleZ/Paper-Wallet'
-issue: 'https://github.com/ValleZ/Paper-Wallet/issues/42'
-icon: 'ru.valle.btc.png'
+website: http://www.linkedin.com/in/vkonovalov
+repository: https://github.com/ValleZ/Paper-Wallet
+issue: https://github.com/ValleZ/Paper-Wallet/issues/42
+icon: ru.valle.btc.png
 bugbounty: 
-meta: 'removed'
-verdict: 'ftbfs'
+meta: removed
+verdict: ftbfs
 appHashes: []
-date: '2024-02-05'
-signer: 'ee22ff921a6fbff122b609d21f56061c2e8b5c4fcaaf388be2549c0c1083c00f'
+date: 2024-02-05
+signer: ee22ff921a6fbff122b609d21f56061c2e8b5c4fcaaf388be2549c0c1083c00f
 reviewArchive:
-- date: '2020-08-04'
-  version: 'Varies with device'
+- date: 2020-08-04
+  version: Varies with device
   appHashes: []
-  gitRevision: 'd7cf0c0967057bb9f06fb8ec6cbf1097fe1da885'
-  verdict: 'nonverifiable'
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: nonverifiable
 twitter: 
 social: 
 redirect_from:
-- '/ru.valle.btc/'
-- '/posts/ru.valle.btc/'
-developerName: 'FireEdge'
+- /ru.valle.btc/
+- /posts/ru.valle.btc/
+developerName: FireEdge
 features: 
 
 ---

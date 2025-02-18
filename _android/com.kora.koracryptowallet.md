@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Kora'
+title: Kora
 altTitle: 
 authors: 
 users: 1000
-appId: 'com.kora.koracryptowallet'
+appId: com.kora.koracryptowallet
 appCountry: 
-released: '2022-05-31'
-updated: '2022-10-26'
-version: '1.0.5'
+released: 2022-05-31
+updated: 2022-10-26
+version: 1.0.5
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://koracryptowallet.web.app'
+website: https://koracryptowallet.web.app
 repository: 
 issue: 
-icon: 'com.kora.koracryptowallet.png'
+icon: com.kora.koracryptowallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Kora Anicet'
+developerName: Kora Anicet
 features: 
 
 ---

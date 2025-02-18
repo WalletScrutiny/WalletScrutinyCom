@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: 'xChange.bg - Buy Bitcoin'
+title: xChange.bg - Buy Bitcoin
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'bg.xchange'
+appId: bg.xchange
 appCountry: 
-released: '2020-12-22'
+released: 2020-12-22
 updated: 2024-09-19
-version: '2.2.2'
+version: 2.2.2
 stars: 
 ratings: 
 reviews: 
-website: 'https://xchange.bg'
+website: https://xchange.bg
 repository: 
 issue: 
-icon: 'bg.xchange.png'
+icon: bg.xchange.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2024-09-21'
+date: 2024-09-21
 signer: 
 reviewArchive: 
-twitter: 'xchangebg'
+twitter: xchangebg
 social:
-- 'https://www.facebook.com/xchangebg'
+- https://www.facebook.com/xchangebg
 redirect_from: 
-developerName: 'Global xChange LTD'
+developerName: Global xChange LTD
 features: 
 
 ---

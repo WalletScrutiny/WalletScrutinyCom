@@ -1,34 +1,33 @@
 ---
-wsId: 'sellixEcommerce'
-title: 'Sellix - eCommerce Dashboard'
+wsId: sellixEcommerce
+title: Sellix - eCommerce Dashboard
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.sellix'
+appId: com.sellix
 appCountry: 
-released: '2022-06-12'
-updated: '2023-07-05'
+released: 2022-06-12
+updated: 2023-07-05
 version: '2.10'
 stars: 3.2
 ratings: 
 reviews: 8
-size: 
-website: 'https://help.sellix.io'
+website: https://help.sellix.io
 repository: 
 issue: 
-icon: 'com.sellix.png'
+icon: com.sellix.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2024-08-17'
+date: 2024-08-17
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Sellix SRL'
+developerName: Sellix SRL
 features: 
 
 ---

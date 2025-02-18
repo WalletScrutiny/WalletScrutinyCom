@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'BitLinex - BTC ETH Exchange'
+title: BitLinex - BTC ETH Exchange
 altTitle: 
 authors: 
 users: 5
-appId: 'com.szqkvham.bitlinex'
+appId: com.szqkvham.bitlinex
 appCountry: 
-released: '2021-11-05'
-updated: '2021-11-05'
-version: '1.0.0'
+released: 2021-11-05
+updated: 2021-11-05
+version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.szqkvham.bitlinex.png'
+icon: com.szqkvham.bitlinex.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

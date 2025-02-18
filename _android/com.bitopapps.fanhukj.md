@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Bitop加密货币比特币交易平台'
+title: Bitop加密货币比特币交易平台
 altTitle: 
 authors: 
 users: 1000
-appId: 'com.bitopapps.fanhukj'
+appId: com.bitopapps.fanhukj
 appCountry: 
-released: '2021-12-10'
-updated: '2021-12-10'
+released: 2021-12-10
+updated: 2021-12-10
 version: '1.0'
 stars: 5
 ratings: 
 reviews: 25
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.bitopapps.fanhukj.jpg'
+icon: com.bitopapps.fanhukj.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

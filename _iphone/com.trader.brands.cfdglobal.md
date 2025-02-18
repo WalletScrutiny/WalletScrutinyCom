@@ -7,12 +7,11 @@ authors:
 appId: com.trader.brands.cfdglobal
 appCountry: de
 idd: 1304998844
-released: '2018-02-03'
-updated: '2024-11-13'
+released: 2018-02-03
+updated: 2024-11-13
 version: '1.51'
 stars: 2.9
 reviews: 7
-size: '155293696'
 website: http://www.capex.com/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: nosendreceive
 appHashes: 
-date: '2024-10-07'
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: capex_en

@@ -7,12 +7,11 @@ authors:
 appId: io.bgwallet.bgw
 appCountry: us
 idd: '1628519503'
-released: '2022-10-31'
-updated: '2024-06-11'
-version: '0.3.7'
+released: 2022-10-31
+updated: 2024-06-11
+version: 0.3.7
 stars: 0
 reviews: 0
-size: '74211328'
 website: https://walletgo.ai/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2023-11-01'
+date: 2023-11-01
 signer: 
 reviewArchive: 
 twitter: BG_Wallet

@@ -3,7 +3,7 @@ title: CoinKite TAPSIGNER
 appId: coinkite.tapsigner
 authors:
 - danny
-released: '2022-08-05'
+released: 2022-08-05
 discontinued: 
 updated: 
 version: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: noita
 appHashes: 
-date: '2023-02-13'
+date: 2023-02-13
 signer: 
 reviewArchive: 
 twitter: TAPSIGNER

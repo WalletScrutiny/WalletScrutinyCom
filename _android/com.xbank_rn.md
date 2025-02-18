@@ -1,37 +1,36 @@
 ---
-wsId: 'xBankPocket'
-title: 'xBank'
+wsId: xBankPocket
+title: xBank
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.xbank_rn'
+appId: com.xbank_rn
 appCountry: 
-released: '2022-11-04'
-updated: '2023-08-01'
-version: '4.0.1'
+released: 2022-11-04
+updated: 2023-08-01
+version: 4.0.1
 stars: 4.1
 ratings: 
 reviews: 7
-size: 
-website: 'https://xbank.plus'
+website: https://xbank.plus
 repository: 
 issue: 
-icon: 'com.xbank_rn.png'
+icon: com.xbank_rn.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-09-25'
+date: 2024-09-25
 signer: 
 reviewArchive: 
-twitter: 'xBank_Official'
+twitter: xBank_Official
 social:
-- 'https://discord.com/invite/PGBVwcaeQE'
-- 'https://www.linkedin.com/company/xbank-global'
-- 'https://medium.com/@xBankCrypto'
+- https://discord.com/invite/PGBVwcaeQE
+- https://www.linkedin.com/company/xbank-global
+- https://medium.com/@xBankCrypto
 redirect_from: 
-developerName: 'xbank.plus'
+developerName: xbank.plus
 features: 
 
 ---

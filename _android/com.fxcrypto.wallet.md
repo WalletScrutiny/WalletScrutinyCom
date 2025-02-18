@@ -3,32 +3,31 @@ wsId:
 title: 'FX Crypto (FXC) - Forex Robot '
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.fxcrypto.wallet'
+appId: com.fxcrypto.wallet
 appCountry: 
-released: '2019-08-11'
-updated: '2019-11-04'
-version: '1.0.2'
+released: 2019-08-11
+updated: 2019-11-04
+version: 1.0.2
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://forexrobottraders.com/'
+website: https://forexrobottraders.com/
 repository: 
 issue: 
-icon: 'com.fxcrypto.wallet.png'
+icon: com.fxcrypto.wallet.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'wip'
+meta: defunct
+verdict: wip
 appHashes: 
-date: '2023-05-25'
+date: 2023-05-25
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Artificial intelligence technology'
+developerName: Artificial intelligence technology
 features: 
 
 ---

@@ -1,34 +1,34 @@
 ---
-wsId: 'Talken'
-title: 'Talken Wallet'
+wsId: Talken
+title: Talken Wallet
 altTitle: 
 authors:
-- 'kiwilamb'
-- 'danny'
+- kiwilamb
+- danny
 users: 50000
-appId: 'io.talken.wallet'
+appId: io.talken.wallet
 appCountry: 
-released: '2019-07-31'
+released: 2019-07-31
 updated: 2025-02-04
-version: '2.00.01'
+version: 2.00.01
 stars: 4.8
 ratings: 5882
 reviews: 176
-website: 'https://talken.io'
+website: https://talken.io
 repository: 
 issue: 
-icon: 'io.talken.wallet.png'
+icon: io.talken.wallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nobtc'
+meta: ok
+verdict: nobtc
 appHashes: 
-date: '2021-09-03'
+date: 2021-09-03
 signer: 
 reviewArchive: 
-twitter: 'Talken_'
+twitter: Talken_
 social: 
 redirect_from: 
-developerName: 'Colligence Inc.'
+developerName: Colligence Inc.
 features: 
 
 ---

@@ -1,35 +1,35 @@
 ---
-wsId: 'fxoroCFDTrading'
-title: 'FXORO Trading APP'
+wsId: fxoroCFDTrading
+title: FXORO Trading APP
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.fxoro.app'
+appId: com.fxoro.app
 appCountry: 
-released: '2022-06-16'
+released: 2022-06-16
 updated: 2025-01-21
-version: '1.5.3'
+version: 1.5.3
 stars: 
 ratings: 
 reviews: 
 website: 
 repository: 
 issue: 
-icon: 'com.fxoro.app.png'
+icon: com.fxoro.app.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosendreceive'
+meta: ok
+verdict: nosendreceive
 appHashes: 
-date: '2023-08-15'
+date: 2023-08-15
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://www.facebook.com/people/FXORO-India/100087993320592'
-- 'https://t.me/fxoro_official'
+- https://www.facebook.com/people/FXORO-India/100087993320592
+- https://t.me/fxoro_official
 redirect_from: 
-developerName: 'MCA Intelifunds LTD'
+developerName: MCA Intelifunds LTD
 features: 
 
 ---

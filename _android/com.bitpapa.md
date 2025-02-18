@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: 'Bitpapa - Bitcoin, USDT wallet'
+title: Bitpapa - Bitcoin, USDT wallet
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 100000
-appId: 'com.bitpapa'
+appId: com.bitpapa
 appCountry: 
-released: '2020-08-18'
-updated: '2024-01-22'
-version: '1.12.3'
+released: 2020-08-18
+updated: 2024-01-22
+version: 1.12.3
 stars: 3.8
 ratings: 5332
 reviews: 40
-size: 
-website: 'https://bitpapa.com'
+website: https://bitpapa.com
 repository: 
 issue: 
-icon: 'com.bitpapa.png'
+icon: com.bitpapa.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-04-26'
+date: 2024-04-26
 signer: 
 reviewArchive: 
-twitter: 'bitpapa_com'
+twitter: bitpapa_com
 social:
-- 'https://www.facebook.com/bitpapacom'
+- https://www.facebook.com/bitpapacom
 redirect_from: 
-developerName: 'Bitpapa'
+developerName: Bitpapa
 features: 
 
 ---

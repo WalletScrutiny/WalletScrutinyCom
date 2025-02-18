@@ -1,37 +1,37 @@
 ---
-wsId: 'enjin'
+wsId: enjin
 title: 'Enjin: Crypto & NFT Wallet'
 altTitle: 
 authors:
-- 'leo'
-- 'danny'
+- leo
+- danny
 users: 1000000
-appId: 'com.enjin.mobile.wallet'
+appId: com.enjin.mobile.wallet
 appCountry: 
-released: '2018-01-01'
-updated: 2025-01-08
-version: '2.11.39'
-stars: 4.3
+released: 2018-01-01
+updated: 2025-02-17
+version: 2.11.43
+stars: 4.4
 ratings: 12608
-reviews: 1090
-website: 'https://enjin.io/wallet'
+reviews: 1091
+website: https://enjin.io/wallet
 repository: 
 issue: 
-icon: 'com.enjin.mobile.wallet.png'
+icon: com.enjin.mobile.wallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-20'
+date: 2024-07-20
 signer: 
 reviewArchive: 
-twitter: 'enjin'
+twitter: enjin
 social:
-- 'https://www.linkedin.com/company/enjin'
-- 'https://www.facebook.com/enjinsocial'
-- 'https://www.reddit.com/r/EnjinCoin'
+- https://www.linkedin.com/company/enjin
+- https://www.facebook.com/enjinsocial
+- https://www.reddit.com/r/EnjinCoin
 redirect_from: 
-developerName: 'Enjin Pte. Ltd.'
+developerName: Enjin Pte. Ltd.
 features: 
 
 ---

@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Gio Exchange'
+title: Gio Exchange
 altTitle: 
 authors: 
 users: 100
-appId: 'com.gioexchange.app'
+appId: com.gioexchange.app
 appCountry: 
-released: '2020-05-07'
-updated: '2022-09-01'
-version: '1.0.0'
+released: 2020-05-07
+updated: 2022-09-01
+version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.gioexchange.com/'
+website: https://www.gioexchange.com/
 repository: 
 issue: 
-icon: 'com.gioexchange.app.png'
+icon: com.gioexchange.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-09-15'
+date: 2023-09-15
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Angels'
+developerName: Angels
 features: 
 
 ---

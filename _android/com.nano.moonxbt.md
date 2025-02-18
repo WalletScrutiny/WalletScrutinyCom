@@ -1,36 +1,35 @@
 ---
-wsId: 'MoonXBT'
-title: 'MoonXBT - Social Trading'
+wsId: MoonXBT
+title: MoonXBT - Social Trading
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.nano.moonxbt'
-appCountry: 'us'
-released: '2021-05-11'
-updated: '2023-01-11'
-version: '5.4.3'
+appId: com.nano.moonxbt
+appCountry: us
+released: 2021-05-11
+updated: 2023-01-11
+version: 5.4.3
 stars: 4.3
 ratings: 481
 reviews: 23
-size: 
-website: 'https://www.moonxbt.com'
+website: https://www.moonxbt.com
 repository: 
 issue: 
-icon: 'com.nano.moonxbt.png'
+icon: com.nano.moonxbt.png
 bugbounty: 
-meta: 'obsolete'
-verdict: 'custodial'
+meta: obsolete
+verdict: custodial
 appHashes: 
-date: '2025-01-06'
+date: 2025-01-06
 signer: 
 reviewArchive: 
-twitter: 'MoonXBT_Global'
+twitter: MoonXBT_Global
 social:
-- 'https://www.facebook.com/MoonXBT'
-- 'https://www.reddit.com/r/MoonXBT'
+- https://www.facebook.com/MoonXBT
+- https://www.reddit.com/r/MoonXBT
 redirect_from: 
-developerName: 'NANO TRADE GLOBAL TECHNOLOGY LIMITED'
+developerName: NANO TRADE GLOBAL TECHNOLOGY LIMITED
 features: 
 
 ---

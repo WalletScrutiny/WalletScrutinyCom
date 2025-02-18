@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: 'Futura Exchange'
+title: Futura Exchange
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'app.futura.cash'
+appId: app.futura.cash
 appCountry: 
-released: '2021-06-28'
+released: 2021-06-28
 updated: 2025-01-30
-version: '1.0.0'
+version: 1.0.0
 stars: 4.1
 ratings: 
 reviews: 12
 website: 
 repository: 
 issue: 
-icon: 'app.futura.cash.png'
+icon: app.futura.cash.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2025-02-01'
+date: 2025-02-01
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Futura Ltd'
+developerName: Futura Ltd
 features: 
 
 ---

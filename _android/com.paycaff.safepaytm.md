@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'SafePayTm - Money Exchanger'
+title: SafePayTm - Money Exchanger
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.paycaff.safepaytm'
+appId: com.paycaff.safepaytm
 appCountry: 
-released: '2019-05-29'
-updated: '2022-08-14'
+released: 2019-05-29
+updated: 2022-08-14
 version: '6.0'
 stars: 4.2
 ratings: 143
 reviews: 1
-size: 
-website: 'https://safepaytm.com/'
+website: https://safepaytm.com/
 repository: 
 issue: 
-icon: 'com.paycaff.safepaytm.jpg'
+icon: com.paycaff.safepaytm.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2024-09-06'
+date: 2024-09-06
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'SafePayTm'
+developerName: SafePayTm
 features: 
 
 ---

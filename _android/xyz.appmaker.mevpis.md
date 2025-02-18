@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'DentroPay'
+title: DentroPay
 altTitle: 
 authors: 
 users: 1000
-appId: 'xyz.appmaker.mevpis'
+appId: xyz.appmaker.mevpis
 appCountry: 
-released: '2022-02-20'
-updated: '2022-02-20'
+released: 2022-02-20
+updated: 2022-02-20
 version: '1'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://dentrocoin.com'
+website: https://dentrocoin.com
 repository: 
 issue: 
-icon: 'xyz.appmaker.mevpis.png'
+icon: xyz.appmaker.mevpis.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'TINUDA Inc.'
+developerName: TINUDA Inc.
 features: 
 
 ---

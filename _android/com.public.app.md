@@ -1,38 +1,38 @@
 ---
-wsId: 'publicStocksCrypto'
-title: 'Public – Stocks and Options'
+wsId: publicStocksCrypto
+title: Public – Stocks and Options
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000000
-appId: 'com.public.app'
+appId: com.public.app
 appCountry: 
-released: '2019-09-06'
+released: 2019-09-06
 updated: 2025-02-10
-version: '3.181.0'
+version: 3.181.0
 stars: 4.1
 ratings: 
-reviews: 8881
-website: 'https://public.com'
+reviews: 8883
+website: https://public.com
 repository: 
 issue: 
-icon: 'com.public.app.png'
+icon: com.public.app.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosendreceive'
+meta: ok
+verdict: nosendreceive
 appHashes: 
-date: '2023-07-21'
+date: 2023-07-21
 signer: 
 reviewArchive: 
-twitter: 'public'
+twitter: public
 social:
-- 'https://www.instagram.com/publicapp'
-- 'https://www.facebook.com/PublicHello'
-- 'https://www.linkedin.com/company/publichello'
-- 'https://medium.com/the-public-blog'
-- 'https://www.tiktok.com/@public'
+- https://www.instagram.com/publicapp
+- https://www.facebook.com/PublicHello
+- https://www.linkedin.com/company/publichello
+- https://medium.com/the-public-blog
+- https://www.tiktok.com/@public
 redirect_from: 
-developerName: 'Public Holdings, Inc.'
+developerName: Public Holdings, Inc.
 features: 
 
 ---

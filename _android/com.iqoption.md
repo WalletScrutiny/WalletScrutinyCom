@@ -1,34 +1,35 @@
 ---
-wsId: 'iqoption'
-title: 'IQ Option – Trading Platform'
+wsId: iqoption
+title: IQ Option – Trading Platform
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000000
-appId: 'com.iqoption'
+appId: com.iqoption
 appCountry: 
-updated: 2025-01-29
-version: '8.58.0'
+released: 
+updated: 2025-02-17
+version: 8.58.0
 stars: 4.4
 ratings: 
 reviews: 494
-website: 'https://km.iqoption.com/en'
+website: https://km.iqoption.com/en
 repository: 
 issue: 
-icon: 'com.iqoption.jpg'
+icon: com.iqoption.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'nosendreceive'
+meta: ok
+verdict: nosendreceive
 appHashes: 
-date: '2024-09-02'
+date: 2024-09-02
 signer: 
 reviewArchive: 
-twitter: 'IQOption'
+twitter: IQOption
 social:
-- 'https://www.instagram.com/iqoption_official'
-- 'https://www.youtube.com/c/IQOption'
+- https://www.instagram.com/iqoption_official
+- https://www.youtube.com/c/IQOption
 redirect_from: 
-developerName: 'IQ Option'
+developerName: IQ Option
 features: 
 
 ---

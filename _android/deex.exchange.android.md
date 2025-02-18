@@ -1,39 +1,38 @@
 ---
 wsId: 
-title: 'Deex Exchange'
+title: Deex Exchange
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'deex.exchange.android'
+appId: deex.exchange.android
 appCountry: 
-released: '2019-11-29'
-updated: '2020-04-21'
-version: '0.3.9'
+released: 2019-11-29
+updated: 2020-04-21
+version: 0.3.9
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://deex.exchange/'
+website: https://deex.exchange/
 repository: 
 issue: 
-icon: 'deex.exchange.android.png'
+icon: deex.exchange.android.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'wip'
+meta: defunct
+verdict: wip
 appHashes: 
-date: '2023-06-12'
+date: 2023-06-12
 signer: 
 reviewArchive: 
-twitter: 'deex_exchange'
+twitter: deex_exchange
 social:
-- 'https://www.facebook.com/groups/deex.exchange'
-- 'https://www.youtube.com/channel/UC5oYUk9QC4kbM5ZBpodOUcQ'
-- 'https://vk.com/deex.exchange'
-- 'https://www.reddit.com/user/the_deex'
-- 'https://t.me/deexexchange'
+- https://www.facebook.com/groups/deex.exchange
+- https://www.youtube.com/channel/UC5oYUk9QC4kbM5ZBpodOUcQ
+- https://vk.com/deex.exchange
+- https://www.reddit.com/user/the_deex
+- https://t.me/deexexchange
 redirect_from: 
-developerName: 'Deex Group'
+developerName: Deex Group
 features: 
 
 ---

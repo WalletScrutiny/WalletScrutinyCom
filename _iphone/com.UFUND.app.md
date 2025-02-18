@@ -7,12 +7,11 @@ authors:
 appId: com.UFUND.app
 appCountry: in
 idd: '1490084497'
-released: '2021-12-28'
-updated: '2022-01-06'
+released: 2021-12-28
+updated: 2022-01-06
 version: '1.1'
 stars: 3
 reviews: 1
-size: '69398528'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: obsolete
 verdict: nowallet
 appHashes: 
-date: '2024-09-07'
+date: 2024-09-07
 signer: 
 reviewArchive: 
 twitter: UFUND1

@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: 'Bitrah'
+title: Bitrah
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.bitrah.pos'
+appId: com.bitrah.pos
 appCountry: 
-released: '2020-07-21'
+released: 2020-07-21
 updated: 2023-02-07
-version: '3.0.1'
+version: 3.0.1
 stars: 
 ratings: 
 reviews: 
-website: 'https://bitrah.com/'
+website: https://bitrah.com/
 repository: 
 issue: 
-icon: 'com.bitrah.pos.png'
+icon: com.bitrah.pos.png
 bugbounty: 
-meta: 'obsolete'
-verdict: 'custodial'
+meta: obsolete
+verdict: custodial
 appHashes: 
-date: '2025-01-27'
+date: 2025-01-27
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://t.me/bitrah_com'
+- https://t.me/bitrah_com
 redirect_from: 
-developerName: 'Ernyka Co'
+developerName: Ernyka Co
 features: 
 
 ---

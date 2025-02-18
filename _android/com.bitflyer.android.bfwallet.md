@@ -1,34 +1,34 @@
 ---
-wsId: 'bitFlyer'
-title: 'bitFlyer Crypto Exchange'
+wsId: bitFlyer
+title: bitFlyer Crypto Exchange
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000000
-appId: 'com.bitflyer.android.bfwallet'
-appCountry: 'jp'
-released: '2019-10-19'
+appId: com.bitflyer.android.bfwallet
+appCountry: jp
+released: 2019-10-19
 updated: 2025-02-14
-version: '8.46.0'
+version: 8.46.0
 stars: 4.1
 ratings: 4430
-reviews: 1629
-website: 'https://bitflyer.com'
+reviews: 1631
+website: https://bitflyer.com
 repository: 
 issue: 
-icon: 'com.bitflyer.android.bfwallet.png'
+icon: com.bitflyer.android.bfwallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-08-27'
+date: 2021-08-27
 signer: 
 reviewArchive: 
-twitter: 'bitFlyer'
+twitter: bitFlyer
 social:
-- 'https://www.facebook.com/bitflyer'
+- https://www.facebook.com/bitflyer
 redirect_from: 
-developerName: 'bitFlyer'
+developerName: bitFlyer
 features: 
 
 ---

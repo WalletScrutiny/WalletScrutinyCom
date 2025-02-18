@@ -8,12 +8,11 @@ authors:
 appId: org.coinid.wallet.btc
 appCountry: 
 idd: 1370200585
-released: '2018-10-10'
-updated: '2022-11-19'
-version: '1.8.2'
+released: 2018-10-10
+updated: 2022-11-19
+version: 1.8.2
 stars: 3.1
 reviews: 24
-size: '15645696'
 website: https://coinid.org
 repository: https://github.com/COINiD/COINiDWallet
 issue: https://github.com/COINiD/COINiDWallet/issues/24
@@ -22,7 +21,7 @@ bugbounty:
 meta: obsolete
 verdict: ftbfs
 appHashes: 
-date: '2024-11-09'
+date: 2024-11-09
 signer: 
 reviewArchive: 
 twitter: COINiDGroup

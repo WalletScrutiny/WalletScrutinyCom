@@ -1,37 +1,36 @@
 ---
-wsId: 'coinCloudWallet'
+wsId: coinCloudWallet
 title: 'Coin Cloud: Wallet'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.coincloud.walletpreview'
+appId: com.coincloud.walletpreview
 appCountry: 
-released: '2022-02-02'
-updated: '2023-03-09'
-version: '12.9.24'
+released: 2022-02-02
+updated: 2023-03-09
+version: 12.9.24
 stars: 3.4
 ratings: 
 reviews: 44
-size: 
-website: 'http://coin.cloud/app'
+website: http://coin.cloud/app
 repository: 
 issue: 
-icon: 'com.coincloud.walletpreview.png'
+icon: com.coincloud.walletpreview.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2024-03-02'
+date: 2024-03-02
 signer: 
 reviewArchive: 
-twitter: 'bitstopofficial'
+twitter: bitstopofficial
 social:
-- 'https://www.facebook.com/Bitstopofficial'
-- 'https://www.instagram.com/bitstopofficial'
-- 'https://www.youtube.com/channel/UCInWJCpASNIgENyo9uep0lA/videos'
+- https://www.facebook.com/Bitstopofficial
+- https://www.instagram.com/bitstopofficial
+- https://www.youtube.com/channel/UCInWJCpASNIgENyo9uep0lA/videos
 redirect_from: 
-developerName: 'Coin Cloud'
+developerName: Coin Cloud
 features: 
 
 ---

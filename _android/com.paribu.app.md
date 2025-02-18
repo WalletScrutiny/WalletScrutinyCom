@@ -1,37 +1,37 @@
 ---
-wsId: 'paribu'
-title: 'Paribu | Bitcoin - Kripto Para'
+wsId: paribu
+title: Paribu | Bitcoin - Kripto Para
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000000
-appId: 'com.paribu.app'
+appId: com.paribu.app
 appCountry: 
-released: '2019-06-14'
+released: 2019-06-14
 updated: 2025-02-11
-version: '5.0.17'
+version: 5.0.17
 stars: 4.1
 ratings: 73042
 reviews: 107
-website: 'https://www.paribu.com'
+website: https://www.paribu.com
 repository: 
 issue: 
-icon: 'com.paribu.app.png'
+icon: com.paribu.app.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-12-16'
+date: 2023-12-16
 signer: 
 reviewArchive: 
-twitter: 'paribucom'
+twitter: paribucom
 social:
-- 'https://www.youtube.com/c/Paribu'
-- 'https://www.linkedin.com/company/paribucom/'
-- 'https://www.instagram.com/paribucom/'
-- 'https://www.facebook.com/paribucom'
+- https://www.youtube.com/c/Paribu
+- https://www.linkedin.com/company/paribucom/
+- https://www.instagram.com/paribucom/
+- https://www.facebook.com/paribucom
 redirect_from: 
-developerName: 'PARİBU'
+developerName: PARİBU
 features: 
 
 ---

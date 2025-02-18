@@ -7,12 +7,11 @@ authors:
 appId: com.gemini.ios
 appCountry: 
 idd: 1408914447
-released: '2018-12-11'
-updated: '2025-02-08'
-version: '25.204.2'
+released: 2018-12-11
+updated: 2025-02-14
+version: 25.211.2
 stars: 4.8
-reviews: 103354
-size: '162052096'
+reviews: 103411
 website: https://www.gemini.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2021-01-04'
+date: 2021-01-04
 signer: 
 reviewArchive: 
 twitter: gemini

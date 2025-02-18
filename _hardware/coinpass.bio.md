@@ -3,7 +3,7 @@ title: CoinPass Bio
 appId: coinpass.bio
 authors:
 - danny
-released: '2016-09-23'
+released: 2016-09-23
 discontinued: 
 updated: 
 version: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: vapor
 appHashes: 
-date: '2022-11-26'
+date: 2022-11-26
 signer: 
 reviewArchive: 
 twitter: FEITIAN_Tech

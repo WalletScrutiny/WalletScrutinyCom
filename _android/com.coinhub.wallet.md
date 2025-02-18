@@ -3,31 +3,31 @@ wsId:
 title: 'Coinhub: Multi-Chain Wallet'
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 100000
-appId: 'com.coinhub.wallet'
+appId: com.coinhub.wallet
 appCountry: 
-released: '2021-07-13'
+released: 2021-07-13
 updated: 2023-05-18
-version: '2.7.9'
+version: 2.7.9
 stars: 3.8
 ratings: 869
 reviews: 31
-website: 'https://www.coinhub.org'
+website: https://www.coinhub.org
 repository: 
 issue: 
-icon: 'com.coinhub.wallet.png'
+icon: com.coinhub.wallet.png
 bugbounty: 
-meta: 'stale'
-verdict: 'nosource'
+meta: stale
+verdict: nosource
 appHashes: 
-date: '2024-05-15'
+date: 2024-05-15
 signer: 
 reviewArchive: 
-twitter: 'Coinhub_Wallet'
+twitter: Coinhub_Wallet
 social: 
 redirect_from: 
-developerName: 'Coinhub'
+developerName: Coinhub
 features: 
 
 ---

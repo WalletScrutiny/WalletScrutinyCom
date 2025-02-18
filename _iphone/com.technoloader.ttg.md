@@ -7,12 +7,11 @@ authors:
 appId: com.technoloader.ttg
 appCountry: in
 idd: '1610688947'
-released: '2022-03-17'
-updated: '2022-11-01'
+released: 2022-03-17
+updated: 2022-11-01
 version: '1.8'
 stars: 4.9
 reviews: 11
-size: '22382592'
 website: https://www.tradethegames.com/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: obsolete
 verdict: nowallet
 appHashes: 
-date: '2024-10-23'
+date: 2024-10-23
 signer: 
 reviewArchive: 
 twitter: tradethegames

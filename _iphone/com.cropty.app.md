@@ -7,12 +7,11 @@ authors:
 appId: com.cropty.app
 appCountry: us
 idd: '1624901793'
-released: '2022-08-04'
-updated: '2024-12-30'
-version: '1.6.2'
+released: 2022-08-04
+updated: 2024-12-30
+version: 1.6.2
 stars: 4.8
-reviews: 129
-size: '19520512'
+reviews: 128
 website: https://cropty.io/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2023-07-30'
+date: 2023-07-30
 signer: 
 reviewArchive: 
 twitter: cropty_app

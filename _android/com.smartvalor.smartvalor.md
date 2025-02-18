@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: 'SMART VALOR - Buy BTC & Crypto'
+title: SMART VALOR - Buy BTC & Crypto
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.smartvalor.smartvalor'
+appId: com.smartvalor.smartvalor
 appCountry: 
-released: '2024-10-02'
+released: 2024-10-02
 updated: 2024-11-15
-version: '1.0.31.111'
+version: 1.0.31.111
 stars: 4.2
 ratings: 
 reviews: 
-website: 'https://smartvalor.com/'
+website: https://smartvalor.com/
 repository: 
 issue: 
-icon: 'com.smartvalor.smartvalor.png'
+icon: com.smartvalor.smartvalor.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2024-11-28'
+date: 2024-11-28
 signer: 
 reviewArchive: 
-twitter: 'smartvalorinc'
+twitter: smartvalorinc
 social: 
 redirect_from: 
-developerName: 'Smart Valor'
+developerName: Smart Valor
 features: 
 
 ---

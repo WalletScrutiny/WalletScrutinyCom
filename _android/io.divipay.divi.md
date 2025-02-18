@@ -1,37 +1,36 @@
 ---
-wsId: 'DiviWallet'
+wsId: DiviWallet
 title: 'Divi Wallet: Crypto & Staking'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'io.divipay.divi'
-appCountry: 'gb'
-released: '2021-04-28'
-updated: '2024-04-22'
-version: '2.2.01218'
+appId: io.divipay.divi
+appCountry: gb
+released: 2021-04-28
+updated: 2024-04-22
+version: 2.2.01218
 stars: 5
 ratings: 273
 reviews: 13
-size: 
-website: 'http://diviproject.org'
+website: http://diviproject.org
 repository: 
-issue: 'https://github.com/DiviProject/Divi-Desktop-Public/issues/214'
-icon: 'io.divipay.divi.png'
+issue: https://github.com/DiviProject/Divi-Desktop-Public/issues/214
+icon: io.divipay.divi.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-16'
+date: 2024-07-16
 signer: 
 reviewArchive: 
-twitter: 'diviproject'
+twitter: diviproject
 social:
-- 'https://www.facebook.com/diviproject'
-- 'https://www.reddit.com/r/DiviProject'
-- 'https://github.com/DiviProject'
+- https://www.facebook.com/diviproject
+- https://www.reddit.com/r/DiviProject
+- https://github.com/DiviProject
 redirect_from: 
-developerName: 'Divi Labs'
+developerName: Divi Labs
 features: 
 
 ---

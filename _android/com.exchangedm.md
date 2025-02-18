@@ -1,37 +1,36 @@
 ---
 wsId: 
-title: 'Digital Money Exchange'
+title: Digital Money Exchange
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.exchangedm'
+appId: com.exchangedm
 appCountry: 
-released: '2022-08-22'
-updated: '2022-08-22'
-version: '1.1.0'
+released: 2022-08-22
+updated: 2022-08-22
+version: 1.1.0
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://dmexchange.com'
+website: https://dmexchange.com
 repository: 
 issue: 
-icon: 'com.exchangedm.png'
+icon: com.exchangedm.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-12-15'
+date: 2024-12-15
 signer: 
 reviewArchive: 
-twitter: 'dmdigitalmoney'
+twitter: dmdigitalmoney
 social:
-- 'https://t.me/DMdigitalmoney'
-- 'https://discord.com/invite/QqTns8Yu'
-- 'https://www.instagram.com/digitalmoney.dm'
+- https://t.me/DMdigitalmoney
+- https://discord.com/invite/QqTns8Yu
+- https://www.instagram.com/digitalmoney.dm
 redirect_from: 
-developerName: 'Digital Money Ltd'
+developerName: Digital Money Ltd
 features: 
 
 ---

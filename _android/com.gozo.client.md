@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'iHodl Pro'
+title: iHodl Pro
 altTitle: 
 authors: 
 users: 100
-appId: 'com.gozo.client'
+appId: com.gozo.client
 appCountry: 
-released: '2019-03-28'
-updated: '2023-01-11'
-version: '4.39.8'
+released: 2019-03-28
+updated: 2023-01-11
+version: 4.39.8
 stars: 3.7
 ratings: 
 reviews: 
-size: 
-website: 'https://ihodl.com'
+website: https://ihodl.com
 repository: 
 issue: 
-icon: 'com.gozo.client.png'
+icon: com.gozo.client.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'GOZO Ltd'
+developerName: GOZO Ltd
 features: 
 
 ---

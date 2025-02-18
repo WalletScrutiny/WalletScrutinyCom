@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'DGCoin - Buy Bitcoin & Crypto'
+title: DGCoin - Buy Bitcoin & Crypto
 altTitle: 
 authors: 
 users: 10
-appId: 'com.hujinsuo.DGCoin'
+appId: com.hujinsuo.DGCoin
 appCountry: 
-released: '2022-05-13'
-updated: '2022-05-13'
-version: '1.4.1'
+released: 2022-05-13
+updated: 2022-05-13
+version: 1.4.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.hujinsuo.DGCoin.png'
+icon: com.hujinsuo.DGCoin.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

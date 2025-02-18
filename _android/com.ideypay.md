@@ -3,31 +3,30 @@ wsId:
 title: 'iDeyPay: Buy and Sell Bitcoin '
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.ideypay'
+appId: com.ideypay
 appCountry: 
-released: '2020-09-03'
-updated: '2022-10-30'
-version: '1.0.69'
+released: 2020-09-03
+updated: 2022-10-30
+version: 1.0.69
 stars: 3.8
 ratings: 
 reviews: 7
-size: 
-website: 'https://ideypay.com'
+website: https://ideypay.com
 repository: 
 issue: 
-icon: 'com.ideypay.png'
+icon: com.ideypay.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
-twitter: 'ideypay'
+twitter: ideypay
 social:
-- 'https://www.facebook.com/ideypay'
+- https://www.facebook.com/ideypay
 redirect_from: 
 developerName: 
 features: 

@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'SafeWallet'
+title: SafeWallet
 altTitle: 
 authors: 
 users: 500
-appId: 'com.upreactiveboilerplate'
+appId: com.upreactiveboilerplate
 appCountry: 
-released: '2021-01-16'
-updated: '2021-05-25'
-version: '1.5.2'
+released: 2021-01-16
+updated: 2021-05-25
+version: 1.5.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.upreactiveboilerplate.png'
+icon: com.upreactiveboilerplate.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Joint Stock and Trading Safe OÜ'
+developerName: Joint Stock and Trading Safe OÜ
 features: 
 
 ---

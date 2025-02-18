@@ -1,37 +1,36 @@
 ---
-wsId: 'btcFreeWallet'
-title: 'Bitcoin Wallet - BTC Exchange'
+wsId: btcFreeWallet
+title: Bitcoin Wallet - BTC Exchange
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 1000000
-appId: 'btc.org.freewallet.app'
+appId: btc.org.freewallet.app
 appCountry: 
-released: '2016-06-13'
-updated: '2021-09-20'
-version: '2.6.8'
+released: 2016-06-13
+updated: 2021-09-20
+version: 2.6.8
 stars: 4.6
 ratings: 8152
 reviews: 561
-size: 
-website: 'https://freewallet.org/'
+website: https://freewallet.org/
 repository: 
 issue: 
-icon: 'btc.org.freewallet.app.png'
+icon: btc.org.freewallet.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
-twitter: 'freewalletorg'
+twitter: freewalletorg
 social:
-- 'https://www.facebook.com/freewallet.org'
-- 'https://www.reddit.com/r/Freewallet_org'
+- https://www.facebook.com/freewallet.org
+- https://www.reddit.com/r/Freewallet_org
 redirect_from:
-- '/btc.org.freewallet.app/'
-- '/posts/btc.org.freewallet.app/'
+- /btc.org.freewallet.app/
+- /posts/btc.org.freewallet.app/
 developerName: 
 features: 
 

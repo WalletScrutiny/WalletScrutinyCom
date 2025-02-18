@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'HubEx Exchange'
+title: HubEx Exchange
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.menttechhubex'
+appId: com.menttechhubex
 appCountry: 
-released: '2020-06-01'
-updated: '2020-06-04'
+released: 2020-06-01
+updated: 2020-06-04
 version: '3.0'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://exchange.e-dome.net/trading/ltcbtc'
+website: https://exchange.e-dome.net/trading/ltcbtc
 repository: 
 issue: 
-icon: 'com.menttechhubex.png'
+icon: com.menttechhubex.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'wip'
+meta: defunct
+verdict: wip
 appHashes: 
-date: '2023-05-30'
+date: 2023-05-30
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Edomian'
+developerName: Edomian
 features: 
 
 ---

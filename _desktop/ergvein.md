@@ -3,9 +3,9 @@ title: Ergvein Desktop Linux
 appId: ergvein
 authors:
 - danny
-released: '2019-10-02'
+released: 2019-10-02
 discontinued: 
-updated: '2022-05-10'
+updated: 2022-05-10
 version: '31'
 binaries: 
 provider: 
@@ -17,7 +17,7 @@ icon: ergvein.png
 bugbounty: 
 meta: obsolete
 verdict: wip
-date: '2024-05-08'
+date: 2024-05-08
 reviewArchive: 
 twitter: hxr_team
 social:

@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Stakelead'
+title: Stakelead
 altTitle: 
 authors: 
 users: 10
-appId: 'com.stakelead.stakelead'
+appId: com.stakelead.stakelead
 appCountry: 
-released: '2022-06-04'
-updated: '2022-06-04'
+released: 2022-06-04
+updated: 2022-06-04
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://stakelead.com'
+website: https://stakelead.com
 repository: 
 issue: 
-icon: 'com.stakelead.stakelead.png'
+icon: com.stakelead.stakelead.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'PROYA INT.'
+developerName: PROYA INT.
 features: 
 
 ---

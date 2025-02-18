@@ -1,33 +1,33 @@
 ---
-wsId: 'xcapit'
-title: 'xcapit'
+wsId: xcapit
+title: xcapit
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.xcapit.app'
+appId: com.xcapit.app
 appCountry: 
-released: '2020-11-04'
+released: 2020-11-04
 updated: 2024-01-25
-version: '3.31.0'
+version: 3.31.0
 stars: 3.4
 ratings: 
 reviews: 6
-website: 'https://xcapit.com'
-repository: 'https://gitlab.com/xcapit-foss/app'
+website: https://xcapit.com
+repository: https://gitlab.com/xcapit-foss/app
 issue: 
-icon: 'com.xcapit.app.png'
+icon: com.xcapit.app.png
 bugbounty: 
-meta: 'stale'
-verdict: 'nobtc'
+meta: stale
+verdict: nobtc
 appHashes: 
-date: '2025-01-27'
+date: 2025-01-27
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'xcapit'
+developerName: xcapit
 features: 
 
 ---

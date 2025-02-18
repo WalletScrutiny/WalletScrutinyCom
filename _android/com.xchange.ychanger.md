@@ -1,34 +1,33 @@
 ---
-wsId: 'yChanger'
-title: 'Ychanger – обмен криптовалют'
+wsId: yChanger
+title: Ychanger – обмен криптовалют
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.xchange.ychanger'
+appId: com.xchange.ychanger
 appCountry: 
-released: '2021-06-08'
-updated: '2024-07-31'
-version: '4.2.1'
+released: 2021-06-08
+updated: 2024-07-31
+version: 4.2.1
 stars: 4
 ratings: 
 reviews: 
-size: 
-website: 'https://ychanger.org/'
+website: https://ychanger.org/
 repository: 
 issue: 
-icon: 'com.xchange.ychanger.png'
+icon: com.xchange.ychanger.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2025-02-13'
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'XchangeCapitalGroup OU'
+developerName: XchangeCapitalGroup OU
 features: 
 
 ---

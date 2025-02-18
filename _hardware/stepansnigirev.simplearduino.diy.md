@@ -3,9 +3,9 @@ title: Stepan Snigirev Simple Bitcoin DIY Hardware Wallet
 appId: stepansnigirev.simplearduino.diy
 authors:
 - danny
-released: '2018-08-18'
+released: 2018-08-18
 discontinued: 
-updated: '2018-09-24'
+updated: 2018-09-24
 version: 
 binaries: 
 dimensions: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: defunct
 verdict: diy
 appHashes: 
-date: '2022-05-26'
+date: 2022-05-26
 signer: 
 reviewArchive: 
 twitter: stepansnigirev

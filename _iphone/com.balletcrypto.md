@@ -1,35 +1,34 @@
 ---
-wsId: 'balletcrypto'
+wsId: balletcrypto
 title: 'Ballet Crypto: Cold Storage'
 altTitle: 
 authors: 
-appId: 'com.balletcrypto'
+appId: com.balletcrypto
 appCountry: 
 idd: '1474912942'
-released: '2019-09-11'
+released: 2019-09-11
 updated: 2025-01-06
-version: '2.18.6'
-stars: 4.84633
-reviews: 1282
-size: '87421952'
-website: 'https://www.ballet.com/'
+version: 2.18.6
+stars: 4.8
+reviews: 1284
+website: https://www.ballet.com/
 repository: 
 issue: 
-icon: 'com.balletcrypto.jpg'
+icon: com.balletcrypto.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2021-03-11'
+date: 2021-03-11
 signer: 
 reviewArchive: 
-twitter: 'BalletCrypto'
+twitter: BalletCrypto
 social:
-- 'https://www.linkedin.com/company/balletcrypto'
-- 'https://www.facebook.com/balletcrypto.global'
-- 'https://www.reddit.com/r/BalletCrypto'
+- https://www.linkedin.com/company/balletcrypto
+- https://www.facebook.com/balletcrypto.global
+- https://www.reddit.com/r/BalletCrypto
 features: 
-developerName: 'BALLET GLOBAL INC.'
+developerName: BALLET GLOBAL INC.
 
 ---
 

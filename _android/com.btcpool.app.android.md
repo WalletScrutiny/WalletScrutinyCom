@@ -1,35 +1,35 @@
 ---
-wsId: 'BTCcomPool'
-title: 'CloverPool - Multi-coins Pool'
+wsId: BTCcomPool
+title: CloverPool - Multi-coins Pool
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.btcpool.app.android'
-appCountry: 'us'
-released: '2020-02-25'
+appId: com.btcpool.app.android
+appCountry: us
+released: 2020-02-25
 updated: 2025-01-06
-version: '2.4.3'
+version: 2.4.3
 stars: 4
 ratings: 261
 reviews: 27
-website: 'https://cloverpool.com'
+website: https://cloverpool.com
 repository: 
 issue: 
-icon: 'com.btcpool.app.android.png'
+icon: com.btcpool.app.android.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2024-09-25'
+date: 2024-09-25
 signer: 
 reviewArchive: 
-twitter: 'btccom_official'
+twitter: btccom_official
 social:
-- 'https://www.linkedin.com/company/btc.com'
-- 'https://www.facebook.com/btccom'
+- https://www.linkedin.com/company/btc.com
+- https://www.facebook.com/btccom
 redirect_from: 
-developerName: 'CloverPool Inc.'
+developerName: CloverPool Inc.
 features: 
 
 ---

@@ -1,35 +1,35 @@
 ---
-wsId: 'payperless'
-title: 'Payperless Crypto & BTC Wallet'
+wsId: payperless
+title: Payperless Crypto & BTC Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.payperless.wallet'
+appId: com.payperless.wallet
 appCountry: 
-released: '2021-06-03'
+released: 2021-06-03
 updated: 2025-02-13
-version: '1.26.5'
+version: 1.26.5
 stars: 3.9
 ratings: 
 reviews: 9
-website: 'https://www.payperless.com'
+website: https://www.payperless.com
 repository: 
 issue: 
-icon: 'com.payperless.wallet.png'
+icon: com.payperless.wallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-17'
+date: 2024-07-17
 signer: 
 reviewArchive: 
-twitter: 'Payperlesscom'
+twitter: Payperlesscom
 social:
-- 'https://www.facebook.com/payperlesscom/'
-- 'https://www.instagram.com/payperlesscom/'
+- https://www.facebook.com/payperlesscom/
+- https://www.instagram.com/payperlesscom/
 redirect_from: 
-developerName: 'Payperless'
+developerName: Payperless
 features: 
 
 ---

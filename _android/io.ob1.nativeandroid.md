@@ -1,39 +1,38 @@
 ---
-wsId: 'Haven'
-title: 'Haven - Private Shopping'
+wsId: Haven
+title: Haven - Private Shopping
 altTitle: 
 authors: 
 users: 100000
-appId: 'io.ob1.nativeandroid'
+appId: io.ob1.nativeandroid
 appCountry: 
 released: 
-updated: '2020-09-27'
-version: '1.3.7'
+updated: 2020-09-27
+version: 1.3.7
 stars: 3.7
 ratings: 394
 reviews: 173
-size: '95M'
-website: 'https://gethaven.app'
-repository: 'https://github.com/OpenBazaar/haven'
-issue: 'https://github.com/OpenBazaar/haven/issues/3'
-icon: 'io.ob1.nativeandroid.png'
+website: https://gethaven.app
+repository: https://github.com/OpenBazaar/haven
+issue: https://github.com/OpenBazaar/haven/issues/3
+icon: io.ob1.nativeandroid.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nonverifiable'
+meta: removed
+verdict: nonverifiable
 appHashes: []
-date: '2021-01-23'
+date: 2021-01-23
 signer: 
 reviewArchive:
-- date: '2020-08-04'
+- date: 2020-08-04
   version: ''
   appHashes: 
-  gitRevision: 'd35be5007a773253ccdf2e6c4234b33f12b25fec'
-  verdict: 'nosource'
-twitter: 'HavenPrivacy'
+  gitRevision: d35be5007a773253ccdf2e6c4234b33f12b25fec
+  verdict: nosource
+twitter: HavenPrivacy
 social:
-- 'https://www.reddit.com/r/havenapp'
+- https://www.reddit.com/r/havenapp
 redirect_from:
-- '/io.ob1.nativeandroid/'
+- /io.ob1.nativeandroid/
 developerName: 
 features: 
 

@@ -1,36 +1,36 @@
 ---
-wsId: 'platnovaApp'
+wsId: platnovaApp
 title: 'Platnova: Pay across the globe'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.platnova.app'
+appId: com.platnova.app
 appCountry: 
-released: '2022-03-28'
+released: 2022-03-28
 updated: 2025-01-21
-version: '1.0.6'
+version: 1.0.6
 stars: 2.4
 ratings: 
 reviews: 5
-website: 'https://platnova.com/'
+website: https://platnova.com/
 repository: 
 issue: 
-icon: 'com.platnova.app.png'
+icon: com.platnova.app.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2023-11-02'
+date: 2023-11-02
 signer: 
 reviewArchive: 
-twitter: 'getplatnova'
+twitter: getplatnova
 social:
-- 'https://www.facebook.com/getplatnova'
-- 'https://www.instagram.com/getplatnova'
-- 'https://www.linkedin.com/company/platnova'
+- https://www.facebook.com/getplatnova
+- https://www.instagram.com/getplatnova
+- https://www.linkedin.com/company/platnova
 redirect_from: 
-developerName: 'Platnova'
+developerName: Platnova
 features: 
 
 ---

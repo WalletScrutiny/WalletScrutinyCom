@@ -7,12 +7,11 @@ authors:
 appId: io.trezor.suite
 appCountry: us
 idd: '1631884497'
-released: '2023-05-14'
-updated: '2025-01-29'
-version: '25.1.2'
+released: 2023-05-14
+updated: 2025-01-29
+version: 25.1.2
 stars: 3.1
-reviews: 100
-size: '58636288'
+reviews: 101
 website: https://trezor.io/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: nowallet
 appHashes: 
-date: '2023-07-18'
+date: 2023-07-18
 signer: 
 reviewArchive: 
 twitter: trezor

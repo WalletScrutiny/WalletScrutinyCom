@@ -1,36 +1,36 @@
 ---
-wsId: 'goMiningToken'
-title: 'GoMining - Coin Mining App'
+wsId: goMiningToken
+title: GoMining - Coin Mining App
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000000
-appId: 'io.gmt.app.twa'
+appId: io.gmt.app.twa
 appCountry: 
-released: '2023-02-22'
+released: 2023-02-22
 updated: 2024-10-23
 version: '33'
-stars: 3.8
+stars: 3.9
 ratings: 
-reviews: 451
-website: 'https://gomining.com'
+reviews: 459
+website: https://gomining.com
 repository: 
 issue: 
-icon: 'io.gmt.app.twa.png'
+icon: io.gmt.app.twa.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nobtc'
+meta: ok
+verdict: nobtc
 appHashes: 
-date: '2023-06-29'
+date: 2023-06-29
 signer: 
 reviewArchive: 
-twitter: 'Gomining_token'
+twitter: Gomining_token
 social:
-- 'https://t.me/gmt_token'
-- 'https://medium.com/@Gomining'
-- 'https://www.instagram.com/Gomining_token'
+- https://t.me/gmt_token
+- https://medium.com/@Gomining
+- https://www.instagram.com/Gomining_token
 redirect_from: 
-developerName: 'YuccaDigital'
+developerName: YuccaDigital
 features: 
 
 ---

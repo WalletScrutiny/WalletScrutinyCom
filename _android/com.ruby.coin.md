@@ -1,41 +1,40 @@
 ---
-wsId: 'rubycoinWallet'
-title: 'Rubycoin wallet'
+wsId: rubycoinWallet
+title: Rubycoin wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.ruby.coin'
+appId: com.ruby.coin
 appCountry: 
-released: '2022-09-21'
-updated: '2022-11-09'
-version: '1.0.5'
+released: 2022-09-21
+updated: 2022-11-09
+version: 1.0.5
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.ruby.coin.png'
+icon: com.ruby.coin.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'custodial'
+meta: defunct
+verdict: custodial
 appHashes: 
-date: '2023-11-02'
+date: 2023-11-02
 signer: 
 reviewArchive: 
-twitter: 'RubyCoinDAO'
+twitter: RubyCoinDAO
 social:
-- 'https://rubycointrade.com'
-- 'https://www.facebook.com/people/Ruby-Coin/100083273028384'
-- 'https://www.instagram.com/rubycoindao'
-- 'https://t.me/rubycoindao'
-- 'https://www.youtube.com/channel/UCJ9etNSb2LvEUkG4sB9TUzA'
-- 'https://discord.com/invite/M7xy5dK5Mz'
-- 'https://www.reddit.com/user/rubycointrade'
+- https://rubycointrade.com
+- https://www.facebook.com/people/Ruby-Coin/100083273028384
+- https://www.instagram.com/rubycoindao
+- https://t.me/rubycoindao
+- https://www.youtube.com/channel/UCJ9etNSb2LvEUkG4sB9TUzA
+- https://discord.com/invite/M7xy5dK5Mz
+- https://www.reddit.com/user/rubycointrade
 redirect_from: 
-developerName: 'rubycoin'
+developerName: rubycoin
 features: 
 
 ---

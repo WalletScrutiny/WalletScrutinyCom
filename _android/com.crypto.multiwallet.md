@@ -1,40 +1,40 @@
 ---
-wsId: 'guarda'
+wsId: guarda
 title: 'Guarda: Crypto Bitcoin Wallet'
 altTitle: 
 authors:
-- 'leo'
-- 'danny'
+- leo
+- danny
 users: 500000
-appId: 'com.crypto.multiwallet'
+appId: com.crypto.multiwallet
 appCountry: 
-released: '2018-11-01'
+released: 2018-11-01
 updated: 2025-02-06
-version: '3.0.80'
+version: 3.0.80
 stars: 3
 ratings: 3831
 reviews: 554
-website: 'https://guarda.com'
+website: https://guarda.com
 repository: 
-issue: 'https://github.com/guardaco/guarda-android-wallets/issues/42'
-icon: 'com.crypto.multiwallet.jpg'
+issue: https://github.com/guardaco/guarda-android-wallets/issues/42
+icon: com.crypto.multiwallet.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-13'
+date: 2024-07-13
 signer: 
 reviewArchive: 
-twitter: 'GuardaWallet'
+twitter: GuardaWallet
 social:
-- 'https://www.facebook.com/guarda.co'
-- 'https://www.reddit.com/r/GuardaWallet'
+- https://www.facebook.com/guarda.co
+- https://www.reddit.com/r/GuardaWallet
 redirect_from:
-- '/guardawallet/'
-- '/com.crypto.multiwallet/'
-- '/posts/2019/11/guardawallet/'
-- '/posts/com.crypto.multiwallet/'
-developerName: 'GUARDA'
+- /guardawallet/
+- /com.crypto.multiwallet/
+- /posts/2019/11/guardawallet/
+- /posts/com.crypto.multiwallet/
+developerName: GUARDA
 features: 
 
 ---

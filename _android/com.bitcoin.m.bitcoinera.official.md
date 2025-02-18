@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Bitcoin Era Official'
+title: Bitcoin Era Official
 altTitle: 
 authors: 
 users: 1000
-appId: 'com.bitcoin.m.bitcoinera.official'
+appId: com.bitcoin.m.bitcoinera.official
 appCountry: 
-released: '2022-09-15'
-updated: '2022-09-15'
+released: 2022-09-15
+updated: 2022-09-15
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.bitcoin.m.bitcoinera.official.png'
+icon: com.bitcoin.m.bitcoinera.official.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2023-08-04'
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'mobiidev'
+developerName: mobiidev
 features: 
 
 ---

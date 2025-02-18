@@ -1416,6 +1416,17 @@
   {
     "appId": "de.schildbach.wallet",
     "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
+    "version": "10.23",
+    "verdict": "reproducible",
+    "appHashes": [
+      "d9ea9a82ec65b8b3d137218ca77e1e0b271e396e2b19b6ea53af5c9422ab49ba"
+    ],
+    "date": "2025-02-05",
+    "platform": "android"
+  },
+  {
+    "appId": "de.schildbach.wallet",
+    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
     "version": "10.22",
     "verdict": "reproducible",
     "appHashes": [
@@ -1835,12 +1846,12 @@
   {
     "appId": "de.schildbach.wallet",
     "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
-    "version": "10.23",
+    "version": "10.24",
     "verdict": "reproducible",
     "appHashes": [
-      "d9ea9a82ec65b8b3d137218ca77e1e0b271e396e2b19b6ea53af5c9422ab49ba"
+      "8928ccd823ff862870fbc3954b7b1985d343124545bb3aeb9c112a2e57de82cd"
     ],
-    "date": "2025-02-05",
+    "date": "2025-02-13",
     "platform": "android"
   },
   {
@@ -2969,7 +2980,7 @@
     "appHashes": [
       "5d61189f93a120d87d03433236d222b3bdd44e6678f970728706e48d5eb9a514"
     ],
-    "date": "",
+    "date": "2023-04-27",
     "platform": "android"
   },
   {
@@ -2980,7 +2991,7 @@
     "appHashes": [
       "c7c35602fd09fa04c3435dc1a5382bd872f02b7cb03f005f263e7701e5342998"
     ],
-    "date": "",
+    "date": "2022-11-02",
     "platform": "android"
   },
   {

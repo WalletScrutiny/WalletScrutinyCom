@@ -4,8 +4,8 @@ appId: com.ridgeiron
 authors:
 - danny
 icon: com.ridgeiron.png
-date: '2022-05-17'
-released: '2019-01-25'
+date: 2022-05-17
+released: 2019-01-25
 twitter: blockchainiron
 social:
 - https://www.facebook.com/RidgeIronGear/

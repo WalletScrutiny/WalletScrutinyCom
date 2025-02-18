@@ -1,35 +1,34 @@
 ---
-wsId: 'T1Markets'
+wsId: T1Markets
 title: 'T1Markets: Online Trading on F'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.tmarkets'
-appCountry: 'us'
+appId: com.tmarkets
+appCountry: us
 released: 
-updated: '2021-12-01'
-version: '1.5.78-tmarkets'
+updated: 2021-12-01
+version: 1.5.78-tmarkets
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.t1markets.com'
+website: https://www.t1markets.com
 repository: 
 issue: 
-icon: 'com.tmarkets.png'
+icon: com.tmarkets.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosendreceive'
+meta: removed
+verdict: nosendreceive
 appHashes: 
-date: '2024-03-02'
+date: 2024-03-02
 signer: 
 reviewArchive: 
-twitter: 'T1_Markets'
+twitter: T1_Markets
 social:
-- 'https://www.facebook.com/t1markets'
+- https://www.facebook.com/t1markets
 redirect_from: 
-developerName: 'GCB LTD'
+developerName: GCB LTD
 features: 
 
 ---

@@ -1,35 +1,35 @@
 ---
 wsId: 
-title: 'Chipper Cash'
+title: Chipper Cash
 altTitle: 
 authors:
-- 'kiwilamb'
-- 'danny'
+- kiwilamb
+- danny
 users: 5000000
-appId: 'com.chippercash'
+appId: com.chippercash
 appCountry: 
-released: '2018-07-07'
-updated: 2025-02-09
-version: '1.119.0'
+released: 2018-07-07
+updated: 2025-02-13
+version: 1.120.0
 stars: 4.2
 ratings: 59630
-reviews: 3094
-website: 'https://chippercash.com'
+reviews: 3097
+website: https://chippercash.com
 repository: 
 issue: 
-icon: 'com.chippercash.png'
+icon: com.chippercash.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-09-03'
+date: 2021-09-03
 signer: 
 reviewArchive: 
-twitter: 'chippercashapp'
+twitter: chippercashapp
 social:
-- 'https://www.facebook.com/Chippercashapp'
+- https://www.facebook.com/Chippercashapp
 redirect_from: 
-developerName: 'Critical Ideas, Inc.'
+developerName: Critical Ideas, Inc.
 features: 
 
 ---

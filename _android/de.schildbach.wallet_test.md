@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: 'Testnet Wallet'
+title: Testnet Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'de.schildbach.wallet_test'
+appId: de.schildbach.wallet_test
 appCountry: 
-released: '2011-07-10'
+released: 2011-07-10
 updated: 2025-01-28
 version: '10.24'
 stars: 4.4
 ratings: 390
 reviews: 30
-website: 'https://github.com/bitcoin-wallet/bitcoin-wallet'
+website: https://github.com/bitcoin-wallet/bitcoin-wallet
 repository: 
 issue: 
-icon: 'de.schildbach.wallet_test.png'
+icon: de.schildbach.wallet_test.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nobtc'
+meta: ok
+verdict: nobtc
 appHashes: 
-date: '2021-10-16'
+date: 2021-10-16
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Bitcoin Wallet developers'
+developerName: Bitcoin Wallet developers
 features: 
 
 ---

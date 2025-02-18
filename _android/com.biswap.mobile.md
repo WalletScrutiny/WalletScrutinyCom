@@ -1,36 +1,36 @@
 ---
-wsId: 'biswapCryptoApp'
-title: 'Biswap cryptocurrency swap app'
+wsId: biswapCryptoApp
+title: Biswap cryptocurrency swap app
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.biswap.mobile'
+appId: com.biswap.mobile
 appCountry: 
-released: '2022-07-22'
+released: 2022-07-22
 updated: 2023-07-18
-version: '1.0.13'
+version: 1.0.13
 stars: 
 ratings: 
 reviews: 
-website: 'https://biswap.com/'
+website: https://biswap.com/
 repository: 
 issue: 
-icon: 'com.biswap.mobile.png'
+icon: com.biswap.mobile.png
 bugbounty: 
-meta: 'stale'
-verdict: 'nosource'
+meta: stale
+verdict: nosource
 appHashes: 
-date: '2024-07-14'
+date: 2024-07-14
 signer: 
 reviewArchive: 
-twitter: 'exchangilydex'
+twitter: exchangilydex
 social:
-- 'https://www.facebook.com/BestDEX'
-- 'https://t.me/exchangily_chat'
-- 'https://www.tiktok.com/@exchangilydex'
+- https://www.facebook.com/BestDEX
+- https://t.me/exchangily_chat
+- https://www.tiktok.com/@exchangilydex
 redirect_from: 
-developerName: 'Exchangily LLC'
+developerName: Exchangily LLC
 features: 
 
 ---

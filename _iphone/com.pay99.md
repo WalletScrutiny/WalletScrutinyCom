@@ -7,12 +7,11 @@ authors:
 appId: com.pay99
 appCountry: br
 idd: 1588184260
-released: '2021-10-02'
-updated: '2024-12-12'
-version: '7.2.38'
+released: 2021-10-02
+updated: 2024-12-12
+version: 7.2.38
 stars: 4
-reviews: 1793
-size: '180904960'
+reviews: 1794
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: nosendreceive
 appHashes: 
-date: '2021-12-26'
+date: 2021-12-26
 signer: 
 reviewArchive: 
 twitter: voude99

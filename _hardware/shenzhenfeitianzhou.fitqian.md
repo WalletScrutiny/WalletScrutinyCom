@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: '2022-05-17'
+date: 2022-05-17
 signer: 
 reviewArchive: 
 twitter: 

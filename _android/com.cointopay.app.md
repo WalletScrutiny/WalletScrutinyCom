@@ -1,35 +1,35 @@
 ---
-wsId: 'CointoPayWallet'
-title: 'Cointopay wallet'
+wsId: CointoPayWallet
+title: Cointopay wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.cointopay.app'
-appCountry: 'us'
-released: '2018-05-29'
+appId: com.cointopay.app
+appCountry: us
+released: 2018-05-29
 updated: 2022-06-02
-version: '2.1.7'
+version: 2.1.7
 stars: 2.3
 ratings: 20
 reviews: 7
-website: 'https://cointopay.com'
+website: https://cointopay.com
 repository: 
 issue: 
-icon: 'com.cointopay.app.png'
+icon: com.cointopay.app.png
 bugbounty: 
-meta: 'obsolete'
-verdict: 'custodial'
+meta: obsolete
+verdict: custodial
 appHashes: 
-date: '2024-05-24'
+date: 2024-05-24
 signer: 
 reviewArchive: 
-twitter: 'Cointopay'
+twitter: Cointopay
 social:
-- 'https://www.facebook.com/CointopayInternational'
-- 'https://www.reddit.com/r/Cointopay'
+- https://www.facebook.com/CointopayInternational
+- https://www.reddit.com/r/Cointopay
 redirect_from: 
-developerName: 'Cointopay.com'
+developerName: Cointopay.com
 features: 
 
 ---

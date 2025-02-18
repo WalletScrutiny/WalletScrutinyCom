@@ -1,36 +1,36 @@
 ---
-wsId: 'simpleCrypto'
+wsId: simpleCrypto
 title: 'Simple: Buy Сrypto BTC, USDT'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000000
-appId: 'app.simple.com'
+appId: app.simple.com
 appCountry: 
-released: '2023-04-24'
+released: 2023-04-24
 updated: 2025-02-10
-version: '3.7.1'
+version: 3.7.1
 stars: 4.7
 ratings: 
-reviews: 1719
-website: 'https://simple.app/'
+reviews: 1728
+website: https://simple.app/
 repository: 
 issue: 
-icon: 'app.simple.com.png'
+icon: app.simple.com.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-06-13'
+date: 2023-06-13
 signer: 
 reviewArchive: 
-twitter: 'smpl_app'
+twitter: smpl_app
 social:
-- 'https://t.me/smpl_app'
-- 'https://www.linkedin.com/company/smplapp'
-- 'https://www.facebook.com/smplapp'
+- https://t.me/smpl_app
+- https://www.linkedin.com/company/smplapp
+- https://www.facebook.com/smplapp
 redirect_from: 
-developerName: 'Simple Europe'
+developerName: Simple Europe
 features: 
 
 ---

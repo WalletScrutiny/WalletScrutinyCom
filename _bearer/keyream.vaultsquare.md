@@ -3,7 +3,7 @@ title: Keyream Vault Square
 appId: keyream.vaultsquare
 authors:
 - danny
-released: '2019-01-02'
+released: 2019-01-02
 discontinued: 
 updated: 
 version: 
@@ -23,7 +23,7 @@ icon: keyream.vaultsquare.png
 bugbounty: 
 meta: defunct
 verdict: wip
-date: '2023-03-10'
+date: 2023-03-10
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,34 +1,33 @@
 ---
-wsId: 'dtsWallet'
-title: 'DTS wallet'
+wsId: dtsWallet
+title: DTS wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.wallex.dts'
+appId: com.wallex.dts
 appCountry: 
-released: '2023-01-05'
-updated: '2023-08-07'
-version: '1.3.34'
+released: 2023-01-05
+updated: 2023-08-07
+version: 1.3.34
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://dtswallet.io'
+website: https://dtswallet.io
 repository: 
 issue: 
-icon: 'com.wallex.dts.png'
+icon: com.wallex.dts.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-12-31'
+date: 2024-12-31
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'DTS Wallet'
+developerName: DTS Wallet
 features: 
 
 ---

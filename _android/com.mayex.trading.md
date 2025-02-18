@@ -1,36 +1,36 @@
 ---
-wsId: 'mayexTrading'
-title: 'Trade Crypto.BinanceKucoinOkex'
+wsId: mayexTrading
+title: Trade Crypto.BinanceKucoinOkex
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.mayex.trading'
+appId: com.mayex.trading
 appCountry: 
-released: '2022-03-07'
+released: 2022-03-07
 updated: 2023-03-29
-version: '1.9.80'
+version: 1.9.80
 stars: 3.9
 ratings: 
 reviews: 9
-website: 'https://www.mayex.com'
+website: https://www.mayex.com
 repository: 
 issue: 
-icon: 'com.mayex.trading.jpg'
+icon: com.mayex.trading.jpg
 bugbounty: 
-meta: 'stale'
-verdict: 'custodial'
+meta: stale
+verdict: custodial
 appHashes: 
-date: '2024-03-23'
+date: 2024-03-23
 signer: 
 reviewArchive: 
-twitter: 'Mayex_Global'
+twitter: Mayex_Global
 social:
-- 'https://www.youtube.com/channel/UC1qRKQPICYpWLlGlGbYG8bA'
-- 'https://www.linkedin.com/company/mayex/'
-- 'https://t.me/mayex_official'
+- https://www.youtube.com/channel/UC1qRKQPICYpWLlGlGbYG8bA
+- https://www.linkedin.com/company/mayex/
+- https://t.me/mayex_official
 redirect_from: 
-developerName: 'Mayex'
+developerName: Mayex
 features: 
 
 ---

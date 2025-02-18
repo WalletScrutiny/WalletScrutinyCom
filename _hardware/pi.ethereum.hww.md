@@ -3,9 +3,9 @@ title: Pi Ethereum Hardware Wallet
 appId: pi.ethereum.hww
 authors:
 - danny
-released: '2022-09-10'
+released: 2022-09-10
 discontinued: 
-updated: '2023-02-01'
+updated: 2023-02-01
 version: 
 binaries: 
 dimensions: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: nobtc
 appHashes: 
-date: '2023-02-09'
+date: 2023-02-09
 signer: 
 reviewArchive: 
 twitter: NftYdaze

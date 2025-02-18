@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Bitcoin'
+title: Bitcoin
 altTitle: 
 authors: 
 users: 1000
-appId: 'com.bitcointest.h5'
+appId: com.bitcointest.h5
 appCountry: 
-released: '2021-09-03'
-updated: '2021-09-03'
+released: 2021-09-03
+updated: 2021-09-03
 version: '5.5'
 stars: 5
 ratings: 1009
 reviews: 388
-size: '17M'
 website: 
 repository: 
 issue: 
-icon: 'com.bitcointest.h5.png'
+icon: com.bitcointest.h5.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fake'
+meta: removed
+verdict: fake
 appHashes: 
-date: '2022-04-25'
+date: 2022-04-25
 signer: 
 reviewArchive: 
 twitter: 

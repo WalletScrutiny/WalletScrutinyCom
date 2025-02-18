@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: '에이콘 월렛'
+title: 에이콘 월렛
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.aidapps.aiconwallet'
+appId: com.aidapps.aiconwallet
 appCountry: 
-released: '2020-10-05'
-updated: '2021-03-04'
-version: '1.0.1'
+released: 2020-10-05
+updated: 2021-03-04
+version: 1.0.1
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.aicon.online/'
+website: https://www.aicon.online/
 repository: 
 issue: 
-icon: 'com.aidapps.aiconwallet.png'
+icon: com.aidapps.aiconwallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2023-06-21'
+date: 2023-06-21
 signer: 
 reviewArchive: 
-twitter: 'AiconOfficial'
+twitter: AiconOfficial
 social: 
 redirect_from: 
-developerName: 'AI-dapps'
+developerName: AI-dapps
 features: 
 
 ---

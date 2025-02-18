@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Tron TRX-B'
+title: Tron TRX-B
 altTitle: 
 authors: 
 users: 50
-appId: 'com.zcglq.vghkrt'
+appId: com.zcglq.vghkrt
 appCountry: 
-released: '2022-04-21'
-updated: '2022-04-22'
+released: 2022-04-21
+updated: 2022-04-22
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.zcglq.vghkrt.png'
+icon: com.zcglq.vghkrt.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

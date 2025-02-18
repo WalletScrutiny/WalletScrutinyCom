@@ -1,43 +1,43 @@
 ---
-wsId: 'gemWallet'
-title: 'Gem Wallet - Crypto Bitcoin'
+wsId: gemWallet
+title: Gem Wallet - Crypto Bitcoin
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.gemwallet.android'
-appCountry: 'ae'
-released: '2023-06-26'
+appId: com.gemwallet.android
+appCountry: ae
+released: 2023-06-26
 updated: 2025-02-09
-version: '1.2.320'
+version: 1.2.320
 stars: 5
 ratings: 
 reviews: 3
-website: 'https://gemwallet.com'
-repository: 'https://github.com/gemwalletcom/gem-android'
+website: https://gemwallet.com
+repository: https://github.com/gemwalletcom/gem-android
 issue: 
-icon: 'com.gemwallet.android.png'
+icon: com.gemwallet.android.png
 bugbounty: 
-meta: 'ok'
-verdict: 'wip'
+meta: ok
+verdict: wip
 appHashes: []
-date: '2024-08-05'
+date: 2024-08-05
 signer: 
 reviewArchive:
-- date: '2024-08-05'
-  version: '1.2.144'
+- date: 2024-08-05
+  version: 1.2.144
   appHashes: []
-  gitRevision: '4d35b58691a7b46c61502395f1864e0cc5f4c268'
-  verdict: 'nonverifiable'
-twitter: 'GemWalletApp'
+  gitRevision: 4d35b58691a7b46c61502395f1864e0cc5f4c268
+  verdict: nonverifiable
+twitter: GemWalletApp
 social:
-- 'https://github.com/gemwalletcom'
-- 'https://www.reddit.com/r/GemWalletApp'
-- 'https://www.youtube.com/@gemwallet'
-- 'https://t.me/gemwallet'
-- 'https://discord.com/invite/4jpxtwT8r6'
+- https://github.com/gemwalletcom
+- https://www.reddit.com/r/GemWalletApp
+- https://www.youtube.com/@gemwallet
+- https://t.me/gemwallet
+- https://discord.com/invite/4jpxtwT8r6
 redirect_from: 
-developerName: 'Gem Wallet LLC'
+developerName: Gem Wallet LLC
 features: 
 
 ---

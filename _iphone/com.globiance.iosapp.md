@@ -7,12 +7,11 @@ authors:
 appId: com.globiance.iosapp
 appCountry: us
 idd: '1584923932'
-released: '2021-10-05'
-updated: '2024-07-05'
+released: 2021-10-05
+updated: 2024-07-05
 version: '2.07'
 stars: 4.2
 reviews: 86
-size: '59216896'
 website: https://globiance.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2025-02-13'
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: globiance

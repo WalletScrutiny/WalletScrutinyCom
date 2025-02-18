@@ -24,7 +24,7 @@ bugbounty:
 meta: defunct
 verdict: noita
 appHashes: 
-date: '2022-01-22'
+date: 2022-01-22
 signer: 
 reviewArchive: 
 twitter: Ledger

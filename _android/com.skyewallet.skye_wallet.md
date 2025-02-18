@@ -1,33 +1,33 @@
 ---
-wsId: 'SkyeWallet'
+wsId: SkyeWallet
 title: 'Skye Wallet: Buy & Sell Crypto'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.skyewallet.skye_wallet'
-appCountry: 'us'
-released: '2021-05-01'
+appId: com.skyewallet.skye_wallet
+appCountry: us
+released: 2021-05-01
 updated: 2024-08-13
-version: '2.13.7'
+version: 2.13.7
 stars: 3.2
 ratings: 290
 reviews: 19
-website: 'https://skyewallet.com'
+website: https://skyewallet.com
 repository: 
 issue: 
-icon: 'com.skyewallet.skye_wallet.png'
+icon: com.skyewallet.skye_wallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2024-04-25'
+date: 2024-04-25
 signer: 
 reviewArchive: 
-twitter: 'skyewallet'
+twitter: skyewallet
 social: 
 redirect_from: 
-developerName: 'Skye Innovation Technology'
+developerName: Skye Innovation Technology
 features: 
 
 ---

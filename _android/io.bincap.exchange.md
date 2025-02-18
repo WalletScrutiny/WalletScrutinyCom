@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Bincap — bitcoin exchange and wallet'
+title: Bincap — bitcoin exchange and wallet
 altTitle: 
 authors: 
 users: 500
-appId: 'io.bincap.exchange'
+appId: io.bincap.exchange
 appCountry: 
-released: '2019-08-08'
-updated: '2020-05-02'
-version: '2.0.1'
+released: 2019-08-08
+updated: 2020-05-02
+version: 2.0.1
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://bincap.io'
+website: https://bincap.io
 repository: 
 issue: 
-icon: 'io.bincap.exchange.png'
+icon: io.bincap.exchange.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

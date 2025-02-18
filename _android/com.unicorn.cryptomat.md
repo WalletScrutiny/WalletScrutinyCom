@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: 'Cryptomat. Cryptocurrency exch'
+title: Cryptomat. Cryptocurrency exch
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.unicorn.cryptomat'
+appId: com.unicorn.cryptomat
 appCountry: 
-released: '2020-01-28'
-updated: '2020-04-24'
+released: 2020-01-28
+updated: 2020-04-24
 version: '0.11'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.unicorn.cryptomat.png'
+icon: com.unicorn.cryptomat.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'nowallet'
+meta: defunct
+verdict: nowallet
 appHashes: 
-date: '2023-06-07'
+date: 2023-06-07
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://cryptoplat.io'
+- https://cryptoplat.io
 redirect_from: 
-developerName: 'Deex Group'
+developerName: Deex Group
 features: 
 
 ---

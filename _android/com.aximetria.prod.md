@@ -1,37 +1,36 @@
 ---
-wsId: 'aximetriaCrypto'
+wsId: aximetriaCrypto
 title: 'Aximetria: Buy Bitcoin, Crypto'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.aximetria.prod'
+appId: com.aximetria.prod
 appCountry: 
 released: 
-updated: '2023-07-27'
-version: '2.30.0'
+updated: 2023-07-27
+version: 2.30.0
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://aximetria.com'
+website: https://aximetria.com
 repository: 
 issue: 
-icon: 'com.aximetria.prod.png'
+icon: com.aximetria.prod.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-09-08'
+date: 2023-09-08
 signer: 
 reviewArchive: 
-twitter: 'aximetriagmbh'
+twitter: aximetriagmbh
 social:
-- 'https://www.linkedin.com/company/aximetriagmbh'
-- 'https://www.instagram.com/aximetria.gmbh'
-- 'https://www.facebook.com/aximetriagmbh'
+- https://www.linkedin.com/company/aximetriagmbh
+- https://www.instagram.com/aximetria.gmbh
+- https://www.facebook.com/aximetriagmbh
 redirect_from: 
-developerName: 'Aximetria GmbH'
+developerName: Aximetria GmbH
 features: 
 
 ---

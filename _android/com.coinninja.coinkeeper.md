@@ -4,38 +4,37 @@ title: 'DropBit: Bitcoin Wallet'
 altTitle: 
 authors: 
 users: 10000
-appId: 'com.coinninja.coinkeeper'
+appId: com.coinninja.coinkeeper
 appCountry: 
-released: '2018-08-01'
-updated: '2020-01-28'
-version: '3.2.7'
+released: 2018-08-01
+updated: 2020-01-28
+version: 3.2.7
 stars: 2.3
 ratings: 205
 reviews: 149
-size: '33M'
-website: 'https://dropbit.app'
-repository: 'https://github.com/coinninjadev/dropbit-android'
-issue: 'https://github.com/coinninjadev/dropbit-android/issues/2'
-icon: 'com.coinninja.coinkeeper.png'
+website: https://dropbit.app
+repository: https://github.com/coinninjadev/dropbit-android
+issue: https://github.com/coinninjadev/dropbit-android/issues/2
+icon: com.coinninja.coinkeeper.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nonverifiable'
+meta: removed
+verdict: nonverifiable
 appHashes: 
-date: '2021-07-21'
+date: 2021-07-21
 signer: 
 reviewArchive: 
-twitter: 'dropbitapp'
+twitter: dropbitapp
 social:
-- 'https://www.facebook.com/DropBit-2094204254174419'
-- 'https://www.reddit.com/r/DropBit'
+- https://www.facebook.com/DropBit-2094204254174419
+- https://www.reddit.com/r/DropBit
 redirect_from:
-- '/dropbit/'
-- '/com.coinninja.coinkeeper/'
-- '/posts/2019/11/dropbit/'
-- '/posts/com.coinninja.coinkeeper/'
+- /dropbit/
+- /com.coinninja.coinkeeper/
+- /posts/2019/11/dropbit/
+- /posts/com.coinninja.coinkeeper/
 developerName: 
 features:
-- 'ln'
+- ln
 
 ---
 

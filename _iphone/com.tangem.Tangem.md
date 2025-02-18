@@ -7,12 +7,11 @@ authors:
 appId: com.tangem.Tangem
 appCountry: 
 idd: 1354868448
-released: '2018-04-28'
-updated: '2025-02-05'
+released: 2018-04-28
+updated: 2025-02-05
 version: '5.20'
 stars: 4.9
-reviews: 10211
-size: '212106240'
+reviews: 10418
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: '2021-04-10'
+date: 2021-04-10
 signer: 
 reviewArchive: 
 twitter: tangem

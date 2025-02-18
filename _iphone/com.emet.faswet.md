@@ -7,12 +7,11 @@ authors:
 appId: com.emet.faswet
 appCountry: us
 idd: '1457853582'
-released: '2019-10-25'
-updated: '2021-07-14'
-version: '2.9.7'
+released: 2019-10-25
+updated: 2021-07-14
+version: 2.9.7
 stars: 5
 reviews: 2
-size: '41078784'
 website: https://emetenjoy.com/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: wip
 appHashes: 
-date: '2025-01-09'
+date: 2025-01-09
 signer: 
 reviewArchive: 
 twitter: emet_group_eng

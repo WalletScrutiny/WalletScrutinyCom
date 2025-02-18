@@ -1,34 +1,33 @@
 ---
-wsId: 'EDCBlockchainMN'
-title: 'Blockchain.mn'
+wsId: EDCBlockchainMN
+title: Blockchain.mn
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.blockchain.edcwallet'
-appCountry: 'ua'
-released: '2020-03-13'
-updated: '2021-02-10'
+appId: com.blockchain.edcwallet
+appCountry: ua
+released: 2020-03-13
+updated: 2021-02-10
 version: '0.82'
 stars: 3.6
 ratings: 
 reviews: 2
-size: 
-website: 'https://blockchain.mn'
+website: https://blockchain.mn
 repository: 
 issue: 
-icon: 'com.blockchain.edcwallet.png'
+icon: com.blockchain.edcwallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nobtc'
+meta: removed
+verdict: nobtc
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
-twitter: 'EDCBlockchain'
+twitter: EDCBlockchain
 social:
-- 'https://www.linkedin.com/company/edcblockchain'
-- 'https://www.facebook.com/EDCBlockchain'
+- https://www.linkedin.com/company/edcblockchain
+- https://www.facebook.com/EDCBlockchain
 redirect_from: 
 developerName: 
 features: 

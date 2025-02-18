@@ -3,33 +3,32 @@ wsId:
 title: 'Finblox: Earn Bitcoin & Crypto'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.finbloxapp.finblox'
+appId: com.finbloxapp.finblox
 appCountry: 
-released: '2021-12-28'
-updated: '2023-11-06'
-version: '0.117.0'
+released: 2021-12-28
+updated: 2023-11-06
+version: 0.117.0
 stars: 3.6
 ratings: 
 reviews: 19
-size: 
-website: 'https://www.finbloxapp.com/'
+website: https://www.finbloxapp.com/
 repository: 
 issue: 
-icon: 'com.finbloxapp.finblox.jpg'
+icon: com.finbloxapp.finblox.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-10-23'
+date: 2024-10-23
 signer: 
 reviewArchive: 
-twitter: 'finblox'
+twitter: finblox
 social:
-- 'https://www.facebook.com/finbloxapp'
+- https://www.facebook.com/finbloxapp
 redirect_from: 
-developerName: 'Finblox'
+developerName: Finblox
 features: 
 
 ---

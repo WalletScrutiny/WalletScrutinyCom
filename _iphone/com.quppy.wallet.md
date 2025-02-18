@@ -7,12 +7,11 @@ authors:
 appId: com.quppy.wallet
 appCountry: in
 idd: 1417802076
-released: '2018-08-09'
-updated: '2025-02-05'
-version: '2.0.117'
+released: 2018-08-09
+updated: 2025-02-05
+version: 2.0.117
 stars: 2
 reviews: 4
-size: '96802816'
 website: https://quppy.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2024-10-07'
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: QuppyPay

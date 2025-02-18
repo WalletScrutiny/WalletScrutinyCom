@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Dove Wallet'
+title: Dove Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.dovewallet.app'
+appId: com.dovewallet.app
 appCountry: 
-released: '2020-09-09'
-updated: '2020-12-23'
-version: '1.0.6'
+released: 2020-09-09
+updated: 2020-12-23
+version: 1.0.6
 stars: 3.5
 ratings: 54
 reviews: 5
-size: '29M'
-website: 'https://dovewallet.com'
+website: https://dovewallet.com
 repository: 
 issue: 
-icon: 'com.dovewallet.app.png'
+icon: com.dovewallet.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2022-05-31'
+date: 2022-05-31
 signer: 
 reviewArchive: 
-twitter: 'dovewallet_en'
+twitter: dovewallet_en
 social:
-- 'https://www.facebook.com/dovewalleten'
-- 'https://www.reddit.com/r/DoveWallet'
+- https://www.facebook.com/dovewalleten
+- https://www.reddit.com/r/DoveWallet
 redirect_from: 
 developerName: 
 features: 

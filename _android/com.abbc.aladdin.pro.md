@@ -1,36 +1,35 @@
 ---
-wsId: 'AladdinPro'
-title: 'Aladdin Pro'
+wsId: AladdinPro
+title: Aladdin Pro
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.abbc.aladdin.pro'
-appCountry: 'us'
-released: '2019-11-15'
-updated: '2023-02-03'
-version: '1.15.7'
+appId: com.abbc.aladdin.pro
+appCountry: us
+released: 2019-11-15
+updated: 2023-02-03
+version: 1.15.7
 stars: 4.8
 ratings: 5401
 reviews: 162
-size: 
-website: 'http://abbcpayment.com'
+website: http://abbcpayment.com
 repository: 
 issue: 
-icon: 'com.abbc.aladdin.pro.png'
+icon: com.abbc.aladdin.pro.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-10-05'
+date: 2024-10-05
 signer: 
 reviewArchive: 
-twitter: 'abbcfoundation'
+twitter: abbcfoundation
 social:
-- 'https://www.linkedin.com/company/abbcfoundation'
-- 'https://www.facebook.com/abbcfoundation'
+- https://www.linkedin.com/company/abbcfoundation
+- https://www.facebook.com/abbcfoundation
 redirect_from: 
-developerName: 'ABBC PAYMENT SERVICES PROVIDER'
+developerName: ABBC PAYMENT SERVICES PROVIDER
 features: 
 
 ---

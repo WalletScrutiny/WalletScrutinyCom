@@ -1,32 +1,31 @@
 ---
-wsId: 'mercurycash'
-title: 'Mercury Cash'
+wsId: mercurycash
+title: Mercury Cash
 altTitle: 
 authors:
-- 'leo'
-appId: 'com.adenter.mercurycash'
+- leo
+appId: com.adenter.mercurycash
 appCountry: 
 idd: '1291394963'
-released: '2017-10-07'
-updated: '2022-04-19'
-version: '4.5.0'
+released: 2017-10-07
+updated: 2022-04-19
+version: 4.5.0
 stars: 4.5
 reviews: 68
-size: '66501632'
-website: 'https://www.mercury.cash/'
+website: https://www.mercury.cash/
 repository: 
 issue: 
-icon: 'com.adenter.mercurycash.jpg'
+icon: com.adenter.mercurycash.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
-twitter: 'mercurycash'
+twitter: mercurycash
 social:
-- 'https://www.facebook.com/mercurycash'
+- https://www.facebook.com/mercurycash
 features: 
 developerName: 
 

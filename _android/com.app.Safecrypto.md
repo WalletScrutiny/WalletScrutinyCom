@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Safecrypto wallet'
+title: Safecrypto wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.app.Safecrypto'
+appId: com.app.Safecrypto
 appCountry: 
-released: '2022-09-02'
-updated: '2022-09-02'
-version: '1.1.1'
+released: 2022-09-02
+updated: 2022-09-02
+version: 1.1.1
 stars: 1.8
 ratings: 
 reviews: 11
-size: 
-website: 'https://safecryptwallet.com'
+website: https://safecryptwallet.com
 repository: 
 issue: 
-icon: 'com.app.Safecrypto.png'
+icon: com.app.Safecrypto.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2023-08-18'
+date: 2023-08-18
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'SAFE WALL'
+developerName: SAFE WALL
 features: 
 
 ---

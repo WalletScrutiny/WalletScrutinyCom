@@ -7,12 +7,11 @@ authors:
 appId: com.coolbitx.coolwallets
 appCountry: tw
 idd: 1328764142
-released: '2018-01-02'
-updated: '2025-02-11'
-version: '3.50.2'
+released: 2018-01-02
+updated: 2025-02-11
+version: 3.50.2
 stars: 4.7
-reviews: 1163
-size: '139300864'
+reviews: 1169
 website: http://coolwallet.io
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: nowallet
 appHashes: 
-date: '2021-08-28'
+date: 2021-08-28
 signer: 
 reviewArchive: 
 twitter: 

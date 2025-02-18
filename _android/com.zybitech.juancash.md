@@ -1,38 +1,37 @@
 ---
-wsId: 'juanCashZybiTech'
-title: 'JuanCash - Buy Load, Pay Bills'
+wsId: juanCashZybiTech
+title: JuanCash - Buy Load, Pay Bills
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.zybitech.juancash'
+appId: com.zybitech.juancash
 appCountry: 
-released: '2019-07-22'
-updated: '2024-08-05'
-version: 'V2.0.3'
+released: 2019-07-22
+updated: 2024-08-05
+version: V2.0.3
 stars: 4.6
 ratings: 
 reviews: 3
-size: 
-website: 'https://www.juancash.com/'
+website: https://www.juancash.com/
 repository: 
 issue: 
-icon: 'com.zybitech.juancash.png'
+icon: com.zybitech.juancash.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-07-17'
+date: 2023-07-17
 signer: 
 reviewArchive: 
-twitter: 'JuanCashPH'
+twitter: JuanCashPH
 social:
-- 'https://www.linkedin.com/company/juancash/'
-- 'https://www.instagram.com/juancashofficial'
-- 'https://www.facebook.com/JuanCashOfficial'
-- 'https://www.youtube.com/channel/UCMVdGECFIYeB7XO-cXm3hdQ'
+- https://www.linkedin.com/company/juancash/
+- https://www.instagram.com/juancashofficial
+- https://www.facebook.com/JuanCashOfficial
+- https://www.youtube.com/channel/UCMVdGECFIYeB7XO-cXm3hdQ
 redirect_from: 
-developerName: 'Zybi Tech Inc'
+developerName: Zybi Tech Inc
 features: 
 
 ---

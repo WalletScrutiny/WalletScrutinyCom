@@ -1,35 +1,35 @@
 ---
-wsId: 'börseFinanzen'
-title: 'Börse & Aktien - finanzen.net'
+wsId: börseFinanzen
+title: Börse & Aktien - finanzen.net
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000000
-appId: 'de.finanzen.net'
+appId: de.finanzen.net
 appCountry: 
-released: '2012-03-26'
+released: 2012-03-26
 updated: 2025-02-11
-version: '5.5.1'
+version: 5.5.1
 stars: 4.3
 ratings: 
 reviews: 64
-website: 'http://www.finanzen.net/apps'
+website: http://www.finanzen.net/apps
 repository: 
 issue: 
-icon: 'de.finanzen.net.png'
+icon: de.finanzen.net.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosendreceive'
+meta: ok
+verdict: nosendreceive
 appHashes: 
-date: '2022-12-06'
+date: 2022-12-06
 signer: 
 reviewArchive: 
-twitter: 'FinanzenNet'
+twitter: FinanzenNet
 social:
-- 'https://www.facebook.com/finanzen.net'
-- 'https://www.youtube.com/channel/UC0SfuDptovS05L3JjXSHjBg'
+- https://www.facebook.com/finanzen.net
+- https://www.youtube.com/channel/UC0SfuDptovS05L3JjXSHjBg
 redirect_from: 
-developerName: 'finanzen.net GmbH'
+developerName: finanzen.net GmbH
 features: 
 
 ---

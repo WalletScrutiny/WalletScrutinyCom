@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'LUX Wallet'
+title: LUX Wallet
 altTitle: 
 authors: 
 users: 100
-appId: 'com.luxmarket'
+appId: com.luxmarket
 appCountry: 
-released: '2021-01-11'
-updated: '2021-11-07'
-version: '1.0.3'
+released: 2021-01-11
+updated: 2021-11-07
+version: 1.0.3
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.luxmarket.png'
+icon: com.luxmarket.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Xomelia'
+developerName: Xomelia
 features: 
 
 ---

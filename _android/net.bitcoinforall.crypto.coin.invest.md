@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Crypto Coin Invest'
+title: Crypto Coin Invest
 altTitle: 
 authors: 
 users: 1
-appId: 'net.bitcoinforall.crypto.coin.invest'
+appId: net.bitcoinforall.crypto.coin.invest
 appCountry: 
-released: '2021-06-17'
-updated: '2021-06-17'
+released: 2021-06-17
+updated: 2021-06-17
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: '3.4M'
 website: 
 repository: 
 issue: 
-icon: 'net.bitcoinforall.crypto.coin.invest.jpg'
+icon: net.bitcoinforall.crypto.coin.invest.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2021-10-01'
+date: 2021-10-01
 signer: 
 reviewArchive: 
 twitter: 

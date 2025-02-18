@@ -3,32 +3,31 @@ wsId:
 title: 'YANT Wallet : Bitcoin Ethereum'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.gbih.yantwallet'
+appId: com.gbih.yantwallet
 appCountry: 
-released: '2019-02-26'
-updated: '2019-09-24'
-version: '1.1.28'
+released: 2019-02-26
+updated: 2019-09-24
+version: 1.1.28
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.gbih.org'
+website: https://www.gbih.org
 repository: 
 issue: 
-icon: 'com.gbih.yantwallet.png'
+icon: com.gbih.yantwallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2023-03-31'
+date: 2023-03-31
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'GBIH  LIMITED'
+developerName: GBIH  LIMITED
 features: 
 
 ---

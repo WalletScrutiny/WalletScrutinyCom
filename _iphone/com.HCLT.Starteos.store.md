@@ -1,35 +1,34 @@
 ---
-wsId: 'StartEOSWallet'
-title: 'Start Wallet（starteos）'
+wsId: StartEOSWallet
+title: Start Wallet（starteos）
 altTitle: 
 authors:
-- 'danny'
-appId: 'com.HCLT.Starteos.store'
-appCountry: 'us'
+- danny
+appId: com.HCLT.Starteos.store
+appCountry: us
 idd: '1441373609'
-released: '2019-01-21'
-updated: '2022-11-09'
-version: '02.00.25'
+released: 2019-01-21
+updated: 2022-11-09
+version: 02.00.25
 stars: 3.8
 reviews: 9
-size: '115696640'
-website: 'http://starteos.io'
+website: http://starteos.io
 repository: 
 issue: 
-icon: 'com.HCLT.Starteos.store.jpg'
+icon: com.HCLT.Starteos.store.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
-twitter: 'Starteos'
+twitter: Starteos
 social:
-- 'https://www.facebook.com/starteos.io.7'
-- 'https://github.com/StarteosIO'
+- https://www.facebook.com/starteos.io.7
+- https://github.com/StarteosIO
 features: 
-developerName: 'Starteos Limited'
+developerName: Starteos Limited
 
 ---
 

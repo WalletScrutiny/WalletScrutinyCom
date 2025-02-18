@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Halostar Wallet'
+title: Halostar Wallet
 altTitle: 
 authors: 
 users: 10
-appId: 'com.logmethod.hsr'
+appId: com.logmethod.hsr
 appCountry: 
-released: '2022-02-18'
-updated: '2022-02-18'
-version: '1.0.3'
+released: 2022-02-18
+updated: 2022-02-18
+version: 1.0.3
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.halostar.org/'
+website: https://www.halostar.org/
 repository: 
 issue: 
-icon: 'com.logmethod.hsr.png'
+icon: com.logmethod.hsr.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'HaloStar'
+developerName: HaloStar
 features: 
 
 ---

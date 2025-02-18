@@ -5,10 +5,10 @@ authors:
 - kiwilamb
 - danny
 - leo
-released: '2018-03-01'
+released: 2018-03-01
 discontinued: 
-updated: '2021-11-11'
-version: 'B-2.5'
+updated: 2021-11-11
+version: B-2.5
 binaries: 
 dimensions: 
 weight: 115
@@ -25,7 +25,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: '2022-02-18'
+date: 2022-02-18
 signer: 
 reviewArchive: 
 twitter: KeystoneWallet

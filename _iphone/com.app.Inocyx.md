@@ -1,39 +1,38 @@
 ---
-wsId: 'inocyx'
-title: 'INOCYX'
+wsId: inocyx
+title: INOCYX
 altTitle: 
 authors:
-- 'danny'
-appId: 'com.app.Inocyx'
-appCountry: 'in'
+- danny
+appId: com.app.Inocyx
+appCountry: in
 idd: '6444437433'
-released: '2022-12-05'
+released: 2022-12-05
 updated: 2025-02-13
 version: '3.5'
-stars: 4.59999
+stars: 4.6
 reviews: 10
-size: '57245696'
-website: ''
+website: 
 repository: 
 issue: 
-icon: 'com.app.Inocyx.jpg'
+icon: com.app.Inocyx.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-11-01'
+date: 2023-11-01
 signer: 
 reviewArchive: 
-twitter: 'INOCYX'
+twitter: INOCYX
 social:
-- 'https://inocyx.com'
-- 'https://www.linkedin.com/company/inocyx'
-- 'https://www.facebook.com/profile.php?id=100083436154588'
-- 'https://www.instagram.com/inocyx'
-- 'https://www.youtube.com/channel/UCv9OPOSaJqQAe7ljg2d5lBg'
-- 'https://t.me/inocyxiyx'
+- https://inocyx.com
+- https://www.linkedin.com/company/inocyx
+- https://www.facebook.com/profile.php?id=100083436154588
+- https://www.instagram.com/inocyx
+- https://www.youtube.com/channel/UCv9OPOSaJqQAe7ljg2d5lBg
+- https://t.me/inocyxiyx
 features: 
-developerName: 'Inocyx technologies private limited'
+developerName: Inocyx technologies private limited
 
 ---
 

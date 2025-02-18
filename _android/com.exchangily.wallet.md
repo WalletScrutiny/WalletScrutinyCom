@@ -1,35 +1,35 @@
 ---
-wsId: 'eXchangily'
+wsId: eXchangily
 title: 'eXchangily DEX Bitcoin Wallet '
 altTitle: 
 authors:
-- 'emanuel'
-- 'leo'
+- emanuel
+- leo
 users: 1000
-appId: 'com.exchangily.wallet'
+appId: com.exchangily.wallet
 appCountry: 
-released: '2020-02-05'
+released: 2020-02-05
 updated: 2023-07-20
-version: '2.2.106'
+version: 2.2.106
 stars: 4.3
 ratings: 32
 reviews: 6
-website: 'https://exchangily.com'
-repository: 'https://github.com/blockchaingate/exchangily-mobile-app'
-issue: 'https://github.com/blockchaingate/exchangily-mobile-app/issues/1'
-icon: 'com.exchangily.wallet.png'
+website: https://exchangily.com
+repository: https://github.com/blockchaingate/exchangily-mobile-app
+issue: https://github.com/blockchaingate/exchangily-mobile-app/issues/1
+icon: com.exchangily.wallet.png
 bugbounty: 
-meta: 'stale'
-verdict: 'wip'
+meta: stale
+verdict: wip
 appHashes: 
-date: '2024-07-17'
+date: 2024-07-17
 signer: 
 reviewArchive: 
-twitter: 'ExchangilyC'
+twitter: ExchangilyC
 social:
-- 'https://www.facebook.com/Exchangily-439040053240813'
+- https://www.facebook.com/Exchangily-439040053240813
 redirect_from: 
-developerName: 'Exchangily LLC'
+developerName: Exchangily LLC
 features: 
 
 ---

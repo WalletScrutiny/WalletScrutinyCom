@@ -1,36 +1,35 @@
 ---
-wsId: 'CoinDeal'
-title: 'CoinDeal - Bitcoin Buy & Sell'
+wsId: CoinDeal
+title: CoinDeal - Bitcoin Buy & Sell
 altTitle: 
 authors:
-- 'kiwilamb'
+- kiwilamb
 users: 10000
-appId: 'com.coindeal'
+appId: com.coindeal
 appCountry: 
-released: '2019-11-04'
-updated: '2020-08-18'
-version: '1.0.8'
+released: 2019-11-04
+updated: 2020-08-18
+version: 1.0.8
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://coindeal.com/'
+website: https://coindeal.com/
 repository: 
 issue: 
-icon: 'com.coindeal.png'
+icon: com.coindeal.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
-twitter: 'coindealcom'
+twitter: coindealcom
 social:
-- 'https://www.linkedin.com/company/coindealcom'
-- 'https://www.facebook.com/coindealcom'
+- https://www.linkedin.com/company/coindealcom
+- https://www.facebook.com/coindealcom
 redirect_from: 
-developerName: 'CoinDeal Limited'
+developerName: CoinDeal Limited
 features: 
 
 ---

@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Bitcoin Investment App India'
+title: Bitcoin Investment App India
 altTitle: 
 authors: 
 users: 1
-appId: 'com.cryptoearningapps.bitcoin.investment.app.india'
+appId: com.cryptoearningapps.bitcoin.investment.app.india
 appCountry: 
-released: '2021-06-29'
-updated: '2021-06-29'
+released: 2021-06-29
+updated: 2021-06-29
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: '2.3M'
 website: 
 repository: 
 issue: 
-icon: 'com.cryptoearningapps.bitcoin.investment.app.india.png'
+icon: com.cryptoearningapps.bitcoin.investment.app.india.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2021-10-01'
+date: 2021-10-01
 signer: 
 reviewArchive: 
 twitter: 

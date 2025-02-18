@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Cryptnex - Crypto Trading Bot'
+title: Cryptnex - Crypto Trading Bot
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'cryptnex.ai.autobot'
+appId: cryptnex.ai.autobot
 appCountry: 
-released: '2022-04-12'
-updated: '2022-12-09'
-version: '3.8.9'
+released: 2022-04-12
+updated: 2022-12-09
+version: 3.8.9
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.cryptnex.ai'
+website: https://www.cryptnex.ai
 repository: 
 issue: 
-icon: 'cryptnex.ai.autobot.png'
+icon: cryptnex.ai.autobot.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'nowallet'
+meta: defunct
+verdict: nowallet
 appHashes: 
-date: '2023-06-12'
+date: 2023-06-12
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Cryptnex'
+developerName: Cryptnex
 features: 
 
 ---

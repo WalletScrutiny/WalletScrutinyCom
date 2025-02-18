@@ -7,12 +7,11 @@ authors:
 appId: com.natiol.infinity.io
 appCountry: us
 idd: '6444058685'
-released: '2022-11-25'
-updated: '2024-07-19'
+released: 2022-11-25
+updated: 2024-07-19
 version: '9.2'
 stars: 0
 reviews: 0
-size: '45947904'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: nobtc
 appHashes: 
-date: '2023-09-06'
+date: 2023-09-06
 signer: 
 reviewArchive: 
 twitter: natiolinfinity

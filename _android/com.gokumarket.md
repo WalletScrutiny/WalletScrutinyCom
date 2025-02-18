@@ -1,36 +1,35 @@
 ---
-wsId: 'gokuMarket'
-title: 'GokuMarket'
+wsId: gokuMarket
+title: GokuMarket
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.gokumarket'
+appId: com.gokumarket
 appCountry: 
-released: '2019-11-16'
-updated: '2022-04-29'
+released: 2019-11-16
+updated: 2022-04-29
 version: '1.35'
 stars: 4.8
 ratings: 
 reviews: 1228
-size: 
-website: 'https://www.gokumarket.com'
+website: https://www.gokumarket.com
 repository: 
 issue: 
-icon: 'com.gokumarket.png'
+icon: com.gokumarket.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-01-30'
+date: 2023-01-30
 signer: 
 reviewArchive: 
-twitter: 'GokuMarket'
+twitter: GokuMarket
 social:
-- 'https://www.linkedin.com/company/gokumarket'
-- 'https://www.facebook.com/gokumarket'
-- 'https://www.youtube.com/channel/UCuPj-EJfPshor3dSfRm4QrA'
-- 'https://www.facebook.com/gokumarket/'
+- https://www.linkedin.com/company/gokumarket
+- https://www.facebook.com/gokumarket
+- https://www.youtube.com/channel/UCuPj-EJfPshor3dSfRm4QrA
+- https://www.facebook.com/gokumarket/
 redirect_from: 
 developerName: 
 features: 

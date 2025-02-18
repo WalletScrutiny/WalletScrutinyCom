@@ -1,33 +1,33 @@
 ---
-wsId: 'DokWallet'
-title: 'Dok Wallet'
+wsId: DokWallet
+title: Dok Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.dok.wallet'
-appCountry: 'il'
-released: '2020-09-28'
-updated: 2025-02-10
-version: '2.51'
+appId: com.dok.wallet
+appCountry: il
+released: 2020-09-28
+updated: 2025-02-15
+version: '2.52'
 stars: 5
 ratings: 35
 reviews: 15
-website: 'https://dokwallet.com/'
+website: https://dokwallet.com/
 repository: 
 issue: 
-icon: 'com.dok.wallet.png'
+icon: com.dok.wallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-24'
+date: 2024-07-24
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Dok wallet'
+developerName: Dok wallet
 features: 
 
 ---

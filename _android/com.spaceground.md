@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Spaceground'
+title: Spaceground
 altTitle: 
 authors: 
 users: 100
-appId: 'com.spaceground'
+appId: com.spaceground
 appCountry: 
-released: '2022-06-09'
-updated: '2023-07-10'
-version: '1.0.30'
+released: 2022-06-09
+updated: 2023-07-10
+version: 1.0.30
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.spaceground.io/'
+website: https://www.spaceground.io/
 repository: 
 issue: 
-icon: 'com.spaceground.png'
+icon: com.spaceground.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-07-30'
+date: 2024-07-30
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Spaceground'
+developerName: Spaceground
 features: 
 
 ---

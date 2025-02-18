@@ -7,12 +7,11 @@ authors:
 appId: io.monabit.app
 appCountry: kw
 idd: '1597870529'
-released: '2021-12-27'
-updated: '2023-11-22'
+released: 2021-12-27
+updated: 2023-11-22
 version: '3.9'
 stars: 0
 reviews: 0
-size: '108922880'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: stale
 verdict: nosource
 appHashes: 
-date: '2024-11-19'
+date: 2024-11-19
 signer: 
 reviewArchive: 
 twitter: 

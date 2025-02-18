@@ -7,12 +7,11 @@ authors:
 appId: com.coinpanel.appdev
 appCountry: tt
 idd: '1611045031'
-released: '2022-05-15'
-updated: '2024-08-07'
+released: 2022-05-15
+updated: 2024-08-07
 version: '2.0'
 stars: 0
 reviews: 0
-size: '28105728'
 website: https://coinpanel.com/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: nowallet
 appHashes: 
-date: '2024-10-23'
+date: 2024-10-23
 signer: 
 reviewArchive: 
 twitter: coin_panel

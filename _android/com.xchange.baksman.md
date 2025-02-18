@@ -1,35 +1,34 @@
 ---
-wsId: 'Baksman'
-title: 'Baksman – купить Биткоин'
+wsId: Baksman
+title: Baksman – купить Биткоин
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.xchange.baksman'
-appCountry: 'ru'
-released: '2020-02-03'
-updated: '2024-07-31'
-version: '4..1'
+appId: com.xchange.baksman
+appCountry: ru
+released: 2020-02-03
+updated: 2024-07-31
+version: 4..1
 stars: 4.2
 ratings: 60
 reviews: 26
-size: 
-website: 'https://baksman.org'
+website: https://baksman.org
 repository: 
 issue: 
-icon: 'com.xchange.baksman.png'
+icon: com.xchange.baksman.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2025-02-13'
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://www.facebook.com/baksmancom'
+- https://www.facebook.com/baksmancom
 redirect_from: 
-developerName: 'XchangeCapitalGroup OU'
+developerName: XchangeCapitalGroup OU
 features: 
 
 ---

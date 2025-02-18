@@ -1,36 +1,35 @@
 ---
 wsId: 
-title: 'Berith Wallet'
+title: Berith Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.ibizsoftware.berith'
+appId: com.ibizsoftware.berith
 appCountry: 
-released: '2018-03-07'
-updated: '2019-05-10'
-version: '1.1.3'
+released: 2018-03-07
+updated: 2019-05-10
+version: 1.1.3
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'http://berith.co'
+website: http://berith.co
 repository: 
 issue: 
-icon: 'com.ibizsoftware.berith.png'
+icon: com.ibizsoftware.berith.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'nobtc'
+meta: defunct
+verdict: nobtc
 appHashes: 
-date: '2023-06-21'
+date: 2023-06-21
 signer: 
 reviewArchive: 
-twitter: 'Berith_co'
+twitter: Berith_co
 social:
-- 'https://www.facebook.com/berithcoin'
-- 'https://t.me/berithcoin'
+- https://www.facebook.com/berithcoin
+- https://t.me/berithcoin
 redirect_from: 
-developerName: 'BERITH FOUNDATION PTE. LTD.'
+developerName: BERITH FOUNDATION PTE. LTD.
 features: 
 
 ---

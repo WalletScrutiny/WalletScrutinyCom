@@ -1,28 +1,27 @@
 ---
 wsId: 
-title: 'Swissy'
+title: Swissy
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.swissy'
+appId: com.swissy
 appCountry: 
-released: '2020-09-01'
-updated: '2021-01-27'
+released: 2020-09-01
+updated: 2021-01-27
 version: '3.3'
 stars: 4.2
 ratings: 25
 reviews: 9
-size: '36M'
-website: 'https://swissy.io/'
+website: https://swissy.io/
 repository: 
 issue: 
-icon: 'com.swissy.jpg'
+icon: com.swissy.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2021-10-26'
+date: 2021-10-26
 signer: 
 reviewArchive: 
 twitter: 

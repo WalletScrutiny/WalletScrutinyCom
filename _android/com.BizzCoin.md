@@ -1,35 +1,34 @@
 ---
-wsId: 'BizzCoin'
-title: 'BizzCoin Wallet'
+wsId: BizzCoin
+title: BizzCoin Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.BizzCoin'
-appCountry: 'in'
-released: '2020-01-02'
-updated: '2021-10-28'
+appId: com.BizzCoin
+appCountry: in
+released: 2020-01-02
+updated: 2021-10-28
 version: '1.21'
 stars: 4.7
 ratings: 491
 reviews: 13
-size: 
-website: 'https://www.bizzcoin.com/'
+website: https://www.bizzcoin.com/
 repository: 
 issue: 
-icon: 'com.BizzCoin.png'
+icon: com.BizzCoin.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2024-05-07'
+date: 2024-05-07
 signer: 
 reviewArchive: 
-twitter: 'bizz_coin'
+twitter: bizz_coin
 social:
-- 'https://www.facebook.com/BizzCoinOfficial'
+- https://www.facebook.com/BizzCoinOfficial
 redirect_from: 
-developerName: 'BizzCoin'
+developerName: BizzCoin
 features: 
 
 ---

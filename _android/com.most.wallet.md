@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: 'MOST Wallet'
+title: MOST Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.most.wallet'
+appId: com.most.wallet
 appCountry: 
-released: '2022-02-04'
+released: 2022-02-04
 updated: 2025-02-06
-version: '1.5.42'
+version: 1.5.42
 stars: 
 ratings: 
 reviews: 
-website: 'https://scitechnologyinc.com/mostwallet'
+website: https://scitechnologyinc.com/mostwallet
 repository: 
 issue: 
-icon: 'com.most.wallet.png'
+icon: com.most.wallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-20'
+date: 2024-07-20
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'SCI Technology Inc DE'
+developerName: SCI Technology Inc DE
 features: 
 
 ---

@@ -1,36 +1,35 @@
 ---
-wsId: 'coinpayapp'
+wsId: coinpayapp
 title: 'Coinpay: Buy & Send Bitcoin Fa'
 altTitle: 
 authors:
-- 'leo'
-- 'danny'
+- leo
+- danny
 users: 10000
-appId: 'com.coinpay'
+appId: com.coinpay
 appCountry: 
-released: '2020-05-26'
-updated: '2020-08-23'
-version: '1.0.7'
+released: 2020-05-26
+updated: 2020-08-23
+version: 1.0.7
 stars: 3.2
 ratings: 29
 reviews: 15
-size: 
-website: 'https://www.coinpayapp.com'
+website: https://www.coinpayapp.com
 repository: 
 issue: 
-icon: 'com.coinpay.png'
+icon: com.coinpay.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2024-07-05'
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from:
-- '/com.coinpay/'
-developerName: 'Coinpay LLC'
+- /com.coinpay/
+developerName: Coinpay LLC
 features: 
 
 ---

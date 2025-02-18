@@ -1,34 +1,33 @@
 ---
-wsId: 'QPocket'
+wsId: QPocket
 title: 'QPocket: ETH TRON QKC Crypto W'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.quarkonium.qpocket'
-appCountry: 'us'
-released: '2019-07-22'
-updated: '2022-12-22'
-version: '5.5.0'
+appId: com.quarkonium.qpocket
+appCountry: us
+released: 2019-07-22
+updated: 2022-12-22
+version: 5.5.0
 stars: 3.6
 ratings: 
 reviews: 4
-size: 
-website: 'https://www.qpocket.io/'
-repository: 'https://github.com/QuarkChain/QPocket-Android'
-issue: 'https://github.com/QuarkChain/QPocket-Android/issues/2'
-icon: 'com.quarkonium.qpocket.png'
+website: https://www.qpocket.io/
+repository: https://github.com/QuarkChain/QPocket-Android
+issue: https://github.com/QuarkChain/QPocket-Android/issues/2
+icon: com.quarkonium.qpocket.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2023-08-16'
+date: 2023-08-16
 signer: 
 reviewArchive: 
-twitter: 'qPocket_wallet'
+twitter: qPocket_wallet
 social: 
 redirect_from: 
-developerName: 'QUARKONIUM PTE. LTD.'
+developerName: QUARKONIUM PTE. LTD.
 features: 
 
 ---

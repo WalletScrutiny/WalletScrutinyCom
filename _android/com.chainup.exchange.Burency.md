@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: 'Burency - BTC, Crypto'
+title: Burency - BTC, Crypto
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.chainup.exchange.Burency'
+appId: com.chainup.exchange.Burency
 appCountry: 
-released: '2021-11-20'
-updated: '2023-12-15'
-version: '5.9.1_push_v2'
+released: 2021-11-20
+updated: 2023-12-15
+version: 5.9.1_push_v2
 stars: 3
 ratings: 
 reviews: 10
-size: 
-website: 'https://www.burency.com'
+website: https://www.burency.com
 repository: 
 issue: 
-icon: 'com.chainup.exchange.Burency.png'
+icon: com.chainup.exchange.Burency.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'custodial'
+meta: defunct
+verdict: custodial
 appHashes: 
-date: '2023-06-29'
+date: 2023-06-29
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://medium.com/@BurencyOfficial'
+- https://medium.com/@BurencyOfficial
 redirect_from: 
-developerName: 'Burency Global'
+developerName: Burency Global
 features: 
 
 ---

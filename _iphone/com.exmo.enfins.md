@@ -8,12 +8,11 @@ authors:
 appId: com.exmo.enfins
 appCountry: 
 idd: 1505496232
-released: '2020-04-07'
-updated: '2025-02-05'
-version: '2.27.10'
+released: 2020-04-07
+updated: 2025-02-05
+version: 2.27.10
 stars: 4.1
 reviews: 87
-size: '79617024'
 website: https://exmo.com/en
 repository: 
 issue: 
@@ -22,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2021-04-21'
+date: 2021-04-21
 signer: 
 reviewArchive: 
 twitter: Exmo_com

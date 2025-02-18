@@ -1,37 +1,37 @@
 ---
-wsId: 'followMyTrader'
-title: 'Follow MyMoney'
+wsId: followMyTrader
+title: Follow MyMoney
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'de.followmytrader'
+appId: de.followmytrader
 appCountry: 
-released: '2020-03-09'
+released: 2020-03-09
 updated: 2024-12-18
-version: '3.1.1'
+version: 3.1.1
 stars: 
 ratings: 
 reviews: 
-website: 'https://followmymoney.de'
+website: https://followmymoney.de
 repository: 
 issue: 
-icon: 'de.followmytrader.png'
+icon: de.followmytrader.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-04-13'
+date: 2023-04-13
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://www.facebook.com/FollowMyMoneyOfficial'
-- 'https://www.instagram.com/followmymoney_official'
-- 'https://www.youtube.com/c/FollowMyMoneyYT'
-- 'https://www.linkedin.com/company/fels-group/'
+- https://www.facebook.com/FollowMyMoneyOfficial
+- https://www.instagram.com/followmymoney_official
+- https://www.youtube.com/c/FollowMyMoneyYT
+- https://www.linkedin.com/company/fels-group/
 redirect_from: 
-developerName: 'FELS Group GmbH'
+developerName: FELS Group GmbH
 features: 
 
 ---

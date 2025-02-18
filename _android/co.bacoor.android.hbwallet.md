@@ -1,33 +1,33 @@
 ---
-wsId: 'bacoorhbwallet'
-title: 'Ethereum Wallet - HB Wallet'
+wsId: bacoorhbwallet
+title: Ethereum Wallet - HB Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'co.bacoor.android.hbwallet'
-appCountry: 'us'
-released: '2017-07-17'
+appId: co.bacoor.android.hbwallet
+appCountry: us
+released: 2017-07-17
 updated: 2025-02-12
-version: '4.5.0'
+version: 4.5.0
 stars: 4.5
 ratings: 2137
 reviews: 48
-website: 'https://www.hb-wallet.com/'
+website: https://www.hb-wallet.com/
 repository: 
 issue: 
-icon: 'co.bacoor.android.hbwallet.png'
+icon: co.bacoor.android.hbwallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nobtc'
+meta: ok
+verdict: nobtc
 appHashes: 
-date: '2025-01-27'
+date: 2025-01-27
 signer: 
 reviewArchive: 
-twitter: 'HBWallet_Ether'
+twitter: HBWallet_Ether
 social: 
 redirect_from: 
-developerName: 'bacoor inc.'
+developerName: bacoor inc.
 features: 
 
 ---

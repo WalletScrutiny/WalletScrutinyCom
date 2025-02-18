@@ -3,9 +3,9 @@ title: Diego La Comba BTC Hardware Wallet
 appId: diegolacomba.btchww.diy
 authors:
 - danny
-released: '2021-06-08'
+released: 2021-06-08
 discontinued: 
-updated: '2022-05-07'
+updated: 2022-05-07
 version: 
 binaries: 
 dimensions: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: diy
 appHashes: 
-date: '2022-05-23'
+date: 2022-05-23
 signer: 
 reviewArchive: 
 twitter: 

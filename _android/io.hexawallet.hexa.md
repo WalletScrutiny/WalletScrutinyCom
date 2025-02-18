@@ -1,34 +1,33 @@
 ---
-wsId: 'Hexa'
-title: 'Legacy Hexa (do not download)'
+wsId: Hexa
+title: Legacy Hexa (do not download)
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 1000
-appId: 'io.hexawallet.hexa'
+appId: io.hexawallet.hexa
 appCountry: 
-released: '2020-03-26'
-updated: '2021-12-03'
-version: '1.7.4'
+released: 2020-03-26
+updated: 2021-12-03
+version: 1.7.4
 stars: 3.7
 ratings: 23
 reviews: 14
-size: '85M'
-website: 'https://hexawallet.io'
-repository: 'https://github.com/bithyve/hexa'
-issue: 'https://github.com/bithyve/hexa/issues/2544'
-icon: 'io.hexawallet.hexa.png'
+website: https://hexawallet.io
+repository: https://github.com/bithyve/hexa
+issue: https://github.com/bithyve/hexa/issues/2544
+icon: io.hexawallet.hexa.png
 bugbounty: 
-meta: 'removed'
-verdict: 'ftbfs'
+meta: removed
+verdict: ftbfs
 appHashes: 
-date: '2021-12-29'
+date: 2021-12-29
 signer: 
 reviewArchive: 
-twitter: 'HexaWallet'
+twitter: HexaWallet
 social: 
 redirect_from:
-- '/io.hexawallet.hexa/'
+- /io.hexawallet.hexa/
 developerName: 
 features: 
 

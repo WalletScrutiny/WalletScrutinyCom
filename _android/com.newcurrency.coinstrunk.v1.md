@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Coins Wallet for bitcoin and l'
+title: Coins Wallet for bitcoin and l
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 10000
-appId: 'com.newcurrency.coinstrunk.v1'
+appId: com.newcurrency.coinstrunk.v1
 appCountry: 
-released: '2020-10-15'
-updated: '2022-03-09'
+released: 2020-10-15
+updated: 2022-03-09
 version: '1.12'
 stars: 4.1
 ratings: 635
 reviews: 50
-size: 
-website: 'http://firstdaotrust.com'
+website: http://firstdaotrust.com
 repository: 
 issue: 
-icon: 'com.newcurrency.coinstrunk.v1.png'
+icon: com.newcurrency.coinstrunk.v1.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-12-23'
+date: 2024-12-23
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'First DAO Trust'
+developerName: First DAO Trust
 features: 
 
 ---

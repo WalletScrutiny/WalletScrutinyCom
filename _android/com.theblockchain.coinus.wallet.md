@@ -1,33 +1,32 @@
 ---
-wsId: 'coinus'
+wsId: coinus
 title: 'CoinUs 3.0 : BTC, ETH, ERC20'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.theblockchain.coinus.wallet'
-appCountry: 'bj'
-released: '2018-04-23'
-updated: '2021-12-10'
-version: '3.0.0'
+appId: com.theblockchain.coinus.wallet
+appCountry: bj
+released: 2018-04-23
+updated: 2021-12-10
+version: 3.0.0
 stars: 3.9
 ratings: 379
 reviews: 235
-size: 
-website: 'https://coinus.io/'
+website: https://coinus.io/
 repository: 
 issue: 
-icon: 'com.theblockchain.coinus.wallet.png'
+icon: com.theblockchain.coinus.wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2023-03-21'
+date: 2023-03-21
 signer: 
 reviewArchive: 
-twitter: 'CoinUs_Official'
+twitter: CoinUs_Official
 social:
-- 'https://www.facebook.com/CoinUsOfficial'
+- https://www.facebook.com/CoinUsOfficial
 redirect_from: 
 developerName: 
 features: 

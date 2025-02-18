@@ -3,34 +3,33 @@ wsId:
 title: 'LunesPay: Pagamentos Via QR Co'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.lunespay'
+appId: com.lunespay
 appCountry: 
-released: '2021-07-14'
-updated: '2021-08-10'
-version: '1.0.7'
+released: 2021-07-14
+updated: 2021-08-10
+version: 1.0.7
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://lunespay.com.br'
-repository: 'https://github.com/orgs/lunes-platform/repositories'
+website: https://lunespay.com.br
+repository: https://github.com/orgs/lunes-platform/repositories
 issue: 
-icon: 'com.lunespay.png'
+icon: com.lunespay.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
-twitter: 'LunesPlatform'
+twitter: LunesPlatform
 social:
-- 'https://www.facebook.com/lunespay/'
-- 'https://www.instagram.com/lunespay/'
+- https://www.facebook.com/lunespay/
+- https://www.instagram.com/lunespay/
 redirect_from: 
-developerName: 'Lunes Platform'
+developerName: Lunes Platform
 features: 
 
 ---

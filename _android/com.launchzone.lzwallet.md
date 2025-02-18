@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'LZ Wallet - Crypto & Bitcoin W'
+title: LZ Wallet - Crypto & Bitcoin W
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.launchzone.lzwallet'
+appId: com.launchzone.lzwallet
 appCountry: 
-released: '2021-11-30'
-updated: '2022-09-08'
-version: '1.0.4'
+released: 2021-11-30
+updated: 2022-09-08
+version: 1.0.4
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://lz.finance/#'
+website: https://lz.finance/#
 repository: 
 issue: 
-icon: 'com.launchzone.lzwallet.png'
+icon: com.launchzone.lzwallet.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'wip'
+meta: defunct
+verdict: wip
 appHashes: 
-date: '2023-05-30'
+date: 2023-05-30
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'LaunchZone'
+developerName: LaunchZone
 features: 
 
 ---

@@ -1,34 +1,33 @@
 ---
-wsId: 'busha'
+wsId: busha
 title: 'Busha: Trade BTC, ETH, SHIB'
 altTitle: 
 authors:
-- 'leo'
-appId: 'co.busha.apple'
+- leo
+appId: co.busha.apple
 appCountry: 
 idd: '1450373493'
-released: '2019-02-03'
-updated: '2023-08-17'
-version: '6.3.2'
+released: 2019-02-03
+updated: 2023-08-17
+version: 6.3.2
 stars: 4.3
 reviews: 617
-size: '106639360'
-website: 'https://busha.co'
+website: https://busha.co
 repository: 
 issue: 
-icon: 'co.busha.apple.jpg'
+icon: co.busha.apple.jpg
 bugbounty: 
-meta: 'defunct'
-verdict: 'custodial'
+meta: defunct
+verdict: custodial
 appHashes: 
-date: '2023-09-04'
+date: 2023-09-04
 signer: 
 reviewArchive: 
-twitter: 'getbusha'
+twitter: getbusha
 social:
-- 'https://www.facebook.com/getbusha'
+- https://www.facebook.com/getbusha
 features: 
-developerName: 'Busha Digital'
+developerName: Busha Digital
 
 ---
 

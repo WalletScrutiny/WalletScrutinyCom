@@ -1,35 +1,35 @@
 ---
-wsId: 'xFunWallet'
-title: 'XFUN Wallet'
+wsId: xFunWallet
+title: XFUN Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.xfun.wallet'
+appId: com.xfun.wallet
 appCountry: 
-released: '2022-02-08'
+released: 2022-02-08
 updated: 2024-04-24
-version: '2.0.4'
+version: 2.0.4
 stars: 3.9
 ratings: 
 reviews: 12
-website: 'https://xfun.io'
+website: https://xfun.io
 repository: 
 issue: 
-icon: 'com.xfun.wallet.png'
+icon: com.xfun.wallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-22'
+date: 2024-07-22
 signer: 
 reviewArchive: 
-twitter: 'FUNtoken_io'
+twitter: FUNtoken_io
 social:
-- 'https://t.me/officialFUNToken'
-- 'https://discord.com/invite/e7vfgKbEKU'
+- https://t.me/officialFUNToken
+- https://discord.com/invite/e7vfgKbEKU
 redirect_from: 
-developerName: 'Funtech Ltd'
+developerName: Funtech Ltd
 features: 
 
 ---

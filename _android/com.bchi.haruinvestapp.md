@@ -1,35 +1,34 @@
 ---
-wsId: 'HaruInvest'
-title: 'Earn Crypto with Haru Invest'
+wsId: HaruInvest
+title: Earn Crypto with Haru Invest
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.bchi.haruinvestapp'
-appCountry: 'us'
-released: '2021-08-11'
-updated: '2023-05-22'
-version: '5.2.0'
+appId: com.bchi.haruinvestapp
+appCountry: us
+released: 2021-08-11
+updated: 2023-05-22
+version: 5.2.0
 stars: 4.5
 ratings: 277
 reviews: 51
-size: 
-website: 'https://haruinvest.com'
+website: https://haruinvest.com
 repository: 
 issue: 
-icon: 'com.bchi.haruinvestapp.png'
+icon: com.bchi.haruinvestapp.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-08-04'
+date: 2023-08-04
 signer: 
 reviewArchive: 
-twitter: 'haruinvest'
+twitter: haruinvest
 social:
-- 'https://www.facebook.com/haruinvest'
+- https://www.facebook.com/haruinvest
 redirect_from: 
-developerName: 'Haru Invest'
+developerName: Haru Invest
 features: 
 
 ---

@@ -9,12 +9,11 @@ authors:
 appId: com.tabtrader.apps.TabTrader
 appCountry: 
 idd: 1095716562
-released: '2016-09-02'
-updated: '2025-02-02'
-version: '5.2.6'
+released: 2016-09-02
+updated: 2025-02-02
+version: 5.2.6
 stars: 4.7
-reviews: 4290
-size: '68525056'
+reviews: 4297
 website: https://tabtrader.com
 repository: 
 issue: 
@@ -23,7 +22,7 @@ bugbounty:
 meta: ok
 verdict: nowallet
 appHashes: 
-date: '2021-04-17'
+date: 2021-04-17
 signer: 
 reviewArchive: 
 twitter: tabtraderpro

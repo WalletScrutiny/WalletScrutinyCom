@@ -1,33 +1,33 @@
 ---
-wsId: 'LogosDVWallet'
-title: 'Dives Wallet (DABI)'
+wsId: LogosDVWallet
+title: Dives Wallet (DABI)
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.wallet.logos'
+appId: com.wallet.logos
 appCountry: 
-released: '2020-09-16'
+released: 2020-09-16
 updated: 2024-10-21
-version: '0.4.1'
+version: 0.4.1
 stars: 
 ratings: 
 reviews: 
-website: 'https://logos-foundation.org/logos'
+website: https://logos-foundation.org/logos
 repository: 
 issue: 
-icon: 'com.wallet.logos.png'
+icon: com.wallet.logos.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2024-10-24'
+date: 2024-10-24
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Logos Foundation PTE. LTD.'
+developerName: Logos Foundation PTE. LTD.
 features: 
 
 ---

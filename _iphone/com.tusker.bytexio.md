@@ -7,12 +7,11 @@ authors:
 appId: com.tusker.bytexio
 appCountry: in
 idd: '1621476540'
-released: '2022-05-18'
-updated: '2022-11-28'
-version: '1.0.9'
+released: 2022-05-18
+updated: 2022-11-28
+version: 1.0.9
 stars: 0
 reviews: 0
-size: '58488832'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2024-07-05'
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: bytex_io

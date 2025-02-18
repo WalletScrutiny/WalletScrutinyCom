@@ -1,34 +1,33 @@
 ---
-wsId: 'bitStore'
-title: 'Bit.Store - Klaim max 1.4jt'
+wsId: bitStore
+title: Bit.Store - Klaim max 1.4jt
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'store.bit.global'
+appId: store.bit.global
 appCountry: 
-released: '2022-06-16'
-updated: '2022-09-22'
-version: '2.2.3'
+released: 2022-06-16
+updated: 2022-09-22
+version: 2.2.3
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.bit.store/'
+website: https://www.bit.store/
 repository: 
 issue: 
-icon: 'store.bit.global.png'
+icon: store.bit.global.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nobtc'
+meta: removed
+verdict: nobtc
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
-twitter: 'www_bit_store'
+twitter: www_bit_store
 social: 
 redirect_from: 
-developerName: 'Jo HaLin'
+developerName: Jo HaLin
 features: 
 
 ---

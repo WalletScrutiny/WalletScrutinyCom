@@ -7,12 +7,11 @@ authors:
 appId: primexbtcom
 appCountry: us
 idd: '1522267195'
-released: '2021-10-20'
-updated: '2024-10-03'
-version: '4.7.1'
+released: 2021-10-20
+updated: 2024-10-03
+version: 4.7.1
 stars: 4.6
 reviews: 220
-size: '170174464'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2024-11-12'
+date: 2024-11-12
 signer: 
 reviewArchive: 
 twitter: primexbt

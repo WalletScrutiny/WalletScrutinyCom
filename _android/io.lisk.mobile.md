@@ -1,39 +1,39 @@
 ---
-wsId: 'liskMobile'
-title: 'Lisk'
+wsId: liskMobile
+title: Lisk
 altTitle: 
 authors:
-- 'leo'
-- 'danny'
+- leo
+- danny
 users: 10000
-appId: 'io.lisk.mobile'
+appId: io.lisk.mobile
 appCountry: 
-released: '2018-10-02'
+released: 2018-10-02
 updated: 2025-01-27
-version: '3.0.2'
+version: 3.0.2
 stars: 4.1
 ratings: 189
 reviews: 30
-website: 'https://lisk.com/wallet'
+website: https://lisk.com/wallet
 repository: 
 issue: 
-icon: 'io.lisk.mobile.png'
+icon: io.lisk.mobile.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nobtc'
+meta: ok
+verdict: nobtc
 appHashes: 
-date: '2025-01-29'
+date: 2025-01-29
 signer: 
 reviewArchive: 
-twitter: 'LiskHQ'
+twitter: LiskHQ
 social:
-- 'https://www.linkedin.com/company/lisk'
-- 'https://www.facebook.com/LiskHQ'
-- 'https://www.youtube.com/channel/UCuqpGfg_bOQ8Ja4pj811PWg'
-- 'https://t.me/Lisk_HQ'
-- 'https://www.instagram.com/lisk_blockchain'
+- https://www.linkedin.com/company/lisk
+- https://www.facebook.com/LiskHQ
+- https://www.youtube.com/channel/UCuqpGfg_bOQ8Ja4pj811PWg
+- https://t.me/Lisk_HQ
+- https://www.instagram.com/lisk_blockchain
 redirect_from: 
-developerName: 'Lisk Limited'
+developerName: Lisk Limited
 features: 
 
 ---

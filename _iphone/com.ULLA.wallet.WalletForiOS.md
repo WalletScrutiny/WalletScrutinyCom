@@ -1,36 +1,35 @@
 ---
-wsId: 'wowEarnBTCandCrypto'
+wsId: wowEarnBTCandCrypto
 title: 'WOW EARN: BTC & Crypto Wallet'
 altTitle: 
 authors:
-- 'danny'
-appId: 'com.ULLA.wallet.WalletForiOS'
-appCountry: 'us'
+- danny
+appId: com.ULLA.wallet.WalletForiOS
+appCountry: us
 idd: '6443434220'
-released: '2022-10-19'
+released: 2022-10-19
 updated: 2025-01-27
-version: '3.4.9'
-stars: 3.65333
+version: 3.4.9
+stars: 3.7
 reviews: 75
-size: '167921664'
-website: ''
+website: 
 repository: 
 issue: 
-icon: 'com.ULLA.wallet.WalletForiOS.jpg'
+icon: com.ULLA.wallet.WalletForiOS.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2023-07-09'
+date: 2023-07-09
 signer: 
 reviewArchive: 
-twitter: 'WOWEARNENG'
+twitter: WOWEARNENG
 social:
-- 'https://wowearn.com'
-- 'https://t.me/wowearnen'
-- 'https://medium.com/@wowearn2023'
+- https://wowearn.com
+- https://t.me/wowearnen
+- https://medium.com/@wowearn2023
 features: 
-developerName: 'ULLA TECHNOLOGY CO., LIMITED'
+developerName: ULLA TECHNOLOGY CO., LIMITED
 
 ---
 

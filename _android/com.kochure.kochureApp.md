@@ -1,35 +1,35 @@
 ---
-wsId: 'kochureCrypto'
+wsId: kochureCrypto
 title: 'Kochure: Buy & Sell Crypto'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.kochure.kochureApp'
+appId: com.kochure.kochureApp
 appCountry: 
-released: '2021-11-13'
+released: 2021-11-13
 updated: 2024-07-25
-version: '1.2.0'
+version: 1.2.0
 stars: 4.1
 ratings: 
 reviews: 3
-website: 'https://kochure.com/'
+website: https://kochure.com/
 repository: 
 issue: 
-icon: 'com.kochure.kochureApp.png'
+icon: com.kochure.kochureApp.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-08-16'
+date: 2023-08-16
 signer: 
 reviewArchive: 
-twitter: 'kochureglobal'
+twitter: kochureglobal
 social:
-- 'https://www.facebook.com/KochureGlobal'
-- 'https://www.instagram.com/kochureglobal'
+- https://www.facebook.com/KochureGlobal
+- https://www.instagram.com/kochureglobal
 redirect_from: 
-developerName: 'Kochure Technologies Limited'
+developerName: Kochure Technologies Limited
 features: 
 
 ---

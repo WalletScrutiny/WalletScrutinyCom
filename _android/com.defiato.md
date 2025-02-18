@@ -1,33 +1,33 @@
 ---
-wsId: 'defiatoExchange'
-title: 'DeFiato'
+wsId: defiatoExchange
+title: DeFiato
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.defiato'
+appId: com.defiato
 appCountry: 
-released: '2021-10-26'
+released: 2021-10-26
 updated: 2023-01-18
-version: '1.2.9'
+version: 1.2.9
 stars: 4.1
 ratings: 
 reviews: 5
-website: 'https://defiato.com/'
+website: https://defiato.com/
 repository: 
 issue: 
-icon: 'com.defiato.png'
+icon: com.defiato.png
 bugbounty: 
-meta: 'obsolete'
-verdict: 'custodial'
+meta: obsolete
+verdict: custodial
 appHashes: 
-date: '2025-01-09'
+date: 2025-01-09
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Beowulf Network Inc'
+developerName: Beowulf Network Inc
 features: 
 
 ---

@@ -1,36 +1,37 @@
 ---
-wsId: 'nexdaxExchange'
-title: 'NexDAX'
+wsId: nexdaxExchange
+title: NexDAX
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.nexdax'
+appId: com.nexdax
 appCountry: 
+released: 
 updated: 2024-04-08
 version: '8.0'
 stars: 
 ratings: 
 reviews: 
-website: 'https://nexdax.com'
+website: https://nexdax.com
 repository: 
 issue: 
-icon: 'com.nexdax.png'
+icon: com.nexdax.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-08-19'
+date: 2023-08-19
 signer: 
 reviewArchive: 
-twitter: 'nexdax_exchange'
+twitter: nexdax_exchange
 social:
-- 'https://www.facebook.com/nexdax'
-- 'https://www.reddit.com/r/NexDAX'
-- 'https://www.linkedin.com/company/nexdax'
-- 'https://t.me/NexDAXNews'
+- https://www.facebook.com/nexdax
+- https://www.reddit.com/r/NexDAX
+- https://www.linkedin.com/company/nexdax
+- https://t.me/NexDAXNews
 redirect_from: 
-developerName: 'NexDAX Technology Company Limited'
+developerName: NexDAX Technology Company Limited
 features: 
 
 ---

@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'PalmPay - Crypto Point of Sale'
+title: PalmPay - Crypto Point of Sale
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'cy.agorise.palmpay'
+appId: cy.agorise.palmpay
 appCountry: 
 released: 
-updated: '2022-01-20'
-version: 'VARY'
+updated: 2022-01-20
+version: VARY
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'http://www.PalmPay.io'
+website: http://www.PalmPay.io
 repository: 
 issue: 
-icon: 'cy.agorise.palmpay.png'
+icon: cy.agorise.palmpay.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2024-11-30'
+date: 2024-11-30
 signer: 
 reviewArchive: 
-twitter: 'Agorise_world'
+twitter: Agorise_world
 social: 
 redirect_from: 
-developerName: 'Agorise, Ltd.'
+developerName: Agorise, Ltd.
 features: 
 
 ---

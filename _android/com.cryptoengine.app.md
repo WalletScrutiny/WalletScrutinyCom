@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: 'Crypto Engine'
+title: Crypto Engine
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.cryptoengine.app'
+appId: com.cryptoengine.app
 appCountry: 
 released: 
-updated: '2020-09-15'
+updated: 2020-09-15
 version: '1.0'
 stars: 4.2
 ratings: 
 reviews: 
-size: 
-website: 'https://crypto-engine.org/'
+website: https://crypto-engine.org/
 repository: 
 issue: 
-icon: 'com.cryptoengine.app.png'
+icon: com.cryptoengine.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
-twitter: 'CryptoEngineApp'
+twitter: CryptoEngineApp
 social:
-- 'https://www.facebook.com/TheCryptoEngineApp'
+- https://www.facebook.com/TheCryptoEngineApp
 redirect_from: 
-developerName: 'Mart Hendricks'
+developerName: Mart Hendricks
 features: 
 
 ---

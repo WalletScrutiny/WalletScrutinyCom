@@ -7,12 +7,11 @@ authors:
 appId: com.defichain.app
 appCountry: qa
 idd: 1572472820
-released: '2021-08-18'
-updated: '2024-08-29'
-version: '2.43.3'
+released: 2021-08-18
+updated: 2024-08-29
+version: 2.43.3
 stars: 0
 reviews: 0
-size: '38431744'
 website: https://defichain.com/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: nobtc
 appHashes: 
-date: '2021-11-11'
+date: 2021-11-11
 signer: 
 reviewArchive: 
 twitter: defichain

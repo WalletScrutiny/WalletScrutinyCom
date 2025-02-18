@@ -1,35 +1,35 @@
 ---
 wsId: 
-title: 'EasyBit'
+title: EasyBit
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.easybit.app'
+appId: com.easybit.app
 appCountry: 
-released: '2020-01-16'
+released: 2020-01-16
 updated: 2021-12-14
-version: '1.4.0'
+version: 1.4.0
 stars: 4.9
 ratings: 
 reviews: 
-website: 'https://easybit.com'
+website: https://easybit.com
 repository: 
 issue: 
-icon: 'com.easybit.app.png'
+icon: com.easybit.app.png
 bugbounty: 
-meta: 'obsolete'
-verdict: 'nowallet'
+meta: obsolete
+verdict: nowallet
 appHashes: 
-date: '2023-12-13'
+date: 2023-12-13
 signer: 
 reviewArchive: 
-twitter: 'EasyBit_com'
+twitter: EasyBit_com
 social:
-- 'https://www.instagram.com/EasyBit_com'
-- 'https://t.me/easybit_official'
+- https://www.instagram.com/EasyBit_com
+- https://t.me/easybit_official
 redirect_from: 
-developerName: 'EasyBit.'
+developerName: EasyBit.
 features: 
 
 ---

@@ -1,36 +1,35 @@
 ---
 wsId: 
-title: 'First Kudi'
+title: First Kudi
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.ferrum.kudi'
+appId: com.ferrum.kudi
 appCountry: 
-released: '2019-01-13'
-updated: '2020-10-19'
-version: '3.0.6'
+released: 2019-01-13
+updated: 2020-10-19
+version: 3.0.6
 stars: 4.3
 ratings: 139
 reviews: 9
-size: 
-website: 'https://firstkudi.com'
+website: https://firstkudi.com
 repository: 
 issue: 
-icon: 'com.ferrum.kudi.png'
+icon: com.ferrum.kudi.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-05-18'
+date: 2024-05-18
 signer: 
 reviewArchive: 
-twitter: 'firstkudiapp'
+twitter: firstkudiapp
 social:
-- 'https://www.youtube.com/channel/UCBLGJET0P902_vywOy3PzwA'
-- 'https://www.instagram.com/first_kudi/'
+- https://www.youtube.com/channel/UCBLGJET0P902_vywOy3PzwA
+- https://www.instagram.com/first_kudi/
 redirect_from: 
-developerName: 'Ferrum Network'
+developerName: Ferrum Network
 features: 
 
 ---

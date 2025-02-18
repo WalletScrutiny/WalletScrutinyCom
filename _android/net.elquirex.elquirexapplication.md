@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Elquirex'
+title: Elquirex
 altTitle: 
 authors: 
 users: 500
-appId: 'net.elquirex.elquirexapplication'
+appId: net.elquirex.elquirexapplication
 appCountry: 
 released: 
-updated: '2020-11-15'
+updated: 2020-11-15
 version: '1.1'
 stars: 2.5
 ratings: 
 reviews: 
-size: 
-website: 'https://elquirex.net/'
+website: https://elquirex.net/
 repository: 
 issue: 
-icon: 'net.elquirex.elquirexapplication.png'
+icon: net.elquirex.elquirexapplication.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Elquirex'
+developerName: Elquirex
 features: 
 
 ---

@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Crypto Buy Bitcoin'
+title: Crypto Buy Bitcoin
 altTitle: 
 authors: 
 users: 1
-appId: 'org.slimmybtc.crypto.buy.bitcoin'
+appId: org.slimmybtc.crypto.buy.bitcoin
 appCountry: 
-released: '2021-07-18'
-updated: '2021-07-18'
+released: 2021-07-18
+updated: 2021-07-18
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: '2.4M'
 website: 
 repository: 
 issue: 
-icon: 'org.slimmybtc.crypto.buy.bitcoin.png'
+icon: org.slimmybtc.crypto.buy.bitcoin.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2021-10-01'
+date: 2021-10-01
 signer: 
 reviewArchive: 
 twitter: 

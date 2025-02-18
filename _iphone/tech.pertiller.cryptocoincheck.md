@@ -7,12 +7,11 @@ authors:
 appId: tech.pertiller.cryptocoincheck
 appCountry: us
 idd: '1367107864'
-released: '2018-04-06'
-updated: '2022-10-25'
-version: '1.7.0'
+released: 2018-04-06
+updated: 2022-10-25
+version: 1.7.0
 stars: 4.3
 reviews: 3
-size: '21629952'
 website: https://bitcoinmonitor.app
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: obsolete
 verdict: nowallet
 appHashes: 
-date: '2024-10-16'
+date: 2024-10-16
 signer: 
 reviewArchive: 
 twitter: BitcoinMonitor1

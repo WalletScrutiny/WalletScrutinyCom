@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'ODDS - Blockchain Wallet'
+title: ODDS - Blockchain Wallet
 altTitle: 
 authors: 
 users: 500
-appId: 'com.project.odds'
+appId: com.project.odds
 appCountry: 
-released: '2022-03-29'
-updated: '2024-02-01'
-version: '1.0.6'
+released: 2022-03-29
+updated: 2024-02-01
+version: 1.0.6
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.project.odds.png'
+icon: com.project.odds.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2025-01-15'
+date: 2025-01-15
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'ODDS Technology Limited'
+developerName: ODDS Technology Limited
 features: 
 
 ---

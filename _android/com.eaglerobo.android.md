@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Eagle Robo'
+title: Eagle Robo
 altTitle: 
 authors: 
 users: 10
-appId: 'com.eaglerobo.android'
+appId: com.eaglerobo.android
 appCountry: 
-released: '2021-10-20'
-updated: '2021-11-22'
-version: '1.0.2'
+released: 2021-10-20
+updated: 2021-11-22
+version: 1.0.2
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'http://eaglerobo.com'
+website: http://eaglerobo.com
 repository: 
 issue: 
-icon: 'com.eaglerobo.android.png'
+icon: com.eaglerobo.android.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'eagle robo'
+developerName: eagle robo
 features: 
 
 ---

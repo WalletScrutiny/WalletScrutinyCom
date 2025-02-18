@@ -1,33 +1,32 @@
 ---
-wsId: 'techbankBeeone'
-title: 'TECHBANK'
+wsId: techbankBeeone
+title: TECHBANK
 altTitle: 
 authors:
-- 'leo'
-appId: 'com.Techbank.Beeone'
+- leo
+appId: com.Techbank.Beeone
 appCountry: 
 idd: '1473120022'
-released: '2019-07-19'
+released: 2019-07-19
 updated: 2024-01-12
-version: '1.0.62'
-stars: 4.44
+version: 1.0.62
+stars: 4.4
 reviews: 25
-size: '78481408'
-website: 'https://techbank.finance/'
+website: https://techbank.finance/
 repository: 
 issue: 
-icon: 'com.Techbank.Beeone.jpg'
+icon: com.Techbank.Beeone.jpg
 bugbounty: 
-meta: 'stale'
-verdict: 'custodial'
+meta: stale
+verdict: custodial
 appHashes: 
-date: '2025-01-06'
+date: 2025-01-06
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 features: 
-developerName: 'BEE INTERNATIONAL CONSULTANCY PRIVATE LIMITED'
+developerName: BEE INTERNATIONAL CONSULTANCY PRIVATE LIMITED
 
 ---
 

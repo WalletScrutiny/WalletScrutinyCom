@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'IQ.cash Wallet'
+title: IQ.cash Wallet
 altTitle: 
 authors: 
 users: 1000
-appId: 'com.iqcash.wallet'
+appId: com.iqcash.wallet
 appCountry: 
-released: '2020-05-05'
-updated: '2020-05-05'
-version: 'v1.0.6'
+released: 2020-05-05
+updated: 2020-05-05
+version: v1.0.6
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://iq.cash/'
+website: https://iq.cash/
 repository: 
 issue: 
-icon: 'com.iqcash.wallet.png'
+icon: com.iqcash.wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

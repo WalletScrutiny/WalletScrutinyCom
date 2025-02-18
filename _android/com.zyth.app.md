@@ -1,37 +1,36 @@
 ---
-wsId: 'zythWallet'
-title: 'ZYTH Wallet'
+wsId: zythWallet
+title: ZYTH Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.zyth.app'
+appId: com.zyth.app
 appCountry: 
-released: '2020-04-07'
-updated: '2021-12-17'
+released: 2020-04-07
+updated: 2021-12-17
 version: '4.3'
 stars: 3.9
 ratings: 
 reviews: 
-size: 
-website: 'https://www.uzyth.com/'
+website: https://www.uzyth.com/
 repository: 
 issue: 
-icon: 'com.zyth.app.png'
+icon: com.zyth.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-07-05'
+date: 2024-07-05
 signer: 
 reviewArchive: 
-twitter: 'UZythOfficial'
+twitter: UZythOfficial
 social:
-- 'https://www.facebook.com/profile.php?id=100075999047886'
-- 'https://www.linkedin.com/company/uzyth-ecosystem/'
-- 'https://t.me/uzythofficial'
+- https://www.facebook.com/profile.php?id=100075999047886
+- https://www.linkedin.com/company/uzyth-ecosystem/
+- https://t.me/uzythofficial
 redirect_from: 
-developerName: 'Zyth Technology'
+developerName: Zyth Technology
 features: 
 
 ---

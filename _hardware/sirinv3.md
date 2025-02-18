@@ -24,7 +24,7 @@ bugbounty:
 meta: ok
 verdict: nowallet
 appHashes: 
-date: '2021-12-03'
+date: 2021-12-03
 signer: 
 reviewArchive: 
 twitter: SIRINLABS

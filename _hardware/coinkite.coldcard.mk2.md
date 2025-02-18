@@ -5,10 +5,10 @@ authors:
 - danny
 - mohammad
 - leo
-released: '2019-04-06'
+released: 2019-04-06
 discontinued: 
-updated: '2023-06-26'
-version: 'v4.1.9'
+updated: 2023-06-26
+version: v4.1.9
 binaries: https://coldcard.com/downloads/
 dimensions: 
 weight: 
@@ -25,7 +25,7 @@ bugbounty: https://coinkite.com/responsible-disclosure
 meta: discontinued
 verdict: reproducible
 appHashes: 
-date: '2023-10-08'
+date: 2023-10-08
 signer: 
 reviewArchive: 
 twitter: COLDCARDwallet

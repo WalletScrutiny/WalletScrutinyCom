@@ -4,13 +4,14 @@ appId: bitcoin.gift
 authors:
 - danny
 icon: bitcoin.gift.png
-date: '2022-05-17'
+date: 2022-05-17
 website: https://bitcoin-gift.com/
 provider: Bitcoin-Gift Shop
 shop: https://bitcoin-gift.com/shop/bitcoin-crypto-card/
 country: DE
 meta: ok
 verdict: prefilled
+social: 
 
 ---
 

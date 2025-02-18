@@ -1,34 +1,34 @@
 ---
-wsId: 'XCOEX'
+wsId: XCOEX
 title: 'XCOEX: Cryptocurrency Wallet'
 altTitle: 
 authors:
-- 'kiwilamb'
+- kiwilamb
 users: 10000
-appId: 'com.xcoex.mobile'
+appId: com.xcoex.mobile
 appCountry: 
-released: '2019-01-17'
+released: 2019-01-17
 updated: 2024-08-07
-version: '1.44.0'
+version: 1.44.0
 stars: 3.5
 ratings: 159
 reviews: 6
-website: 'https://xcoex.com/'
+website: https://xcoex.com/
 repository: 
 issue: 
-icon: 'com.xcoex.mobile.png'
+icon: com.xcoex.mobile.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-05-04'
+date: 2021-05-04
 signer: 
 reviewArchive: 
-twitter: 'OfficialXcoex'
+twitter: OfficialXcoex
 social:
-- 'https://www.facebook.com/xcoex'
+- https://www.facebook.com/xcoex
 redirect_from: 
-developerName: 'XCOEX'
+developerName: XCOEX
 features: 
 
 ---

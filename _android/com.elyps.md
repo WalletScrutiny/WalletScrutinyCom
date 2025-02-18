@@ -1,33 +1,33 @@
 ---
-wsId: 'elyps'
+wsId: elyps
 title: 'Elyps: Think out of the Bank'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.elyps'
+appId: com.elyps
 appCountry: 
-released: '2020-04-29'
+released: 2020-04-29
 updated: 2024-09-03
-version: '11.0.0'
+version: 11.0.0
 stars: 
 ratings: 
 reviews: 
-website: 'https://elyps.com'
+website: https://elyps.com
 repository: 
 issue: 
-icon: 'com.elyps.png'
+icon: com.elyps.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2024-01-23'
+date: 2024-01-23
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Elyps'
+developerName: Elyps
 features: 
 
 ---

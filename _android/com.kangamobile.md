@@ -1,37 +1,37 @@
 ---
-wsId: 'KangaWallet'
-title: 'Kanga Wallet'
+wsId: KangaWallet
+title: Kanga Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.kangamobile'
+appId: com.kangamobile
 appCountry: 
-released: '2020-01-03'
-updated: 2025-02-06
-version: '1.21.0'
+released: 2020-01-03
+updated: 2025-02-17
+version: 1.21.1
 stars: 3.5
 ratings: 
 reviews: 6
-website: 'https://kanga.exchange'
+website: https://kanga.exchange
 repository: 
 issue: 
-icon: 'com.kangamobile.png'
+icon: com.kangamobile.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2022-07-20'
+date: 2022-07-20
 signer: 
 reviewArchive: 
-twitter: 'KangaExchange'
+twitter: KangaExchange
 social:
-- 'https://www.linkedin.com/company/kangaexchange/'
-- 'https://t.me/KangaExchange'
-- 'https://www.youtube.com/channel/UCgB3tPtXgu4f3cIxqZlrB8Q'
-- 'https://www.facebook.com/kanga.exchange/'
+- https://www.linkedin.com/company/kangaexchange/
+- https://t.me/KangaExchange
+- https://www.youtube.com/channel/UCgB3tPtXgu4f3cIxqZlrB8Q
+- https://www.facebook.com/kanga.exchange/
 redirect_from: 
-developerName: 'Kanga Technologies'
+developerName: Kanga Technologies
 features: 
 
 ---

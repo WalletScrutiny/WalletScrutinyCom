@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Bitcoin Investment'
+title: Bitcoin Investment
 altTitle: 
 authors: 
 users: 5
-appId: 'org.cryptotreasures.bitcoin.investment'
+appId: org.cryptotreasures.bitcoin.investment
 appCountry: 
-released: '2021-06-24'
-updated: '2021-06-24'
+released: 2021-06-24
+updated: 2021-06-24
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: '2.4M'
 website: 
 repository: 
 issue: 
-icon: 'org.cryptotreasures.bitcoin.investment.png'
+icon: org.cryptotreasures.bitcoin.investment.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2021-09-23'
+date: 2021-09-23
 signer: 
 reviewArchive: 
 twitter: 

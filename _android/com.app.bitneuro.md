@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'BitNeuro - Trading Bots'
+title: BitNeuro - Trading Bots
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.app.bitneuro'
+appId: com.app.bitneuro
 appCountry: 
-released: '2021-07-01'
-updated: '2021-09-11'
-version: '1.3.0'
+released: 2021-07-01
+updated: 2021-09-11
+version: 1.3.0
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://bitneuro.io'
+website: https://bitneuro.io
 repository: 
 issue: 
-icon: 'com.app.bitneuro.png'
+icon: com.app.bitneuro.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2024-05-07'
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Brilliantworld Ltd'
+developerName: Brilliantworld Ltd
 features: 
 
 ---

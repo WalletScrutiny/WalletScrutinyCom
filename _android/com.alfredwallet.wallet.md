@@ -1,34 +1,33 @@
 ---
-wsId: 'alfredWallet'
-title: 'AlfredWallet'
+wsId: alfredWallet
+title: AlfredWallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.alfredwallet.wallet'
+appId: com.alfredwallet.wallet
 appCountry: 
-released: '2021-08-12'
-updated: '2023-08-23'
+released: 2021-08-12
+updated: 2023-08-23
 version: '1.18'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://alfwallet.io'
+website: https://alfwallet.io
 repository: 
 issue: 
-icon: 'com.alfredwallet.wallet.png'
+icon: com.alfredwallet.wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2024-10-28'
+date: 2024-10-28
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'PRO DIGITAL'
+developerName: PRO DIGITAL
 features: 
 
 ---

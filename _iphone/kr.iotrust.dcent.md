@@ -7,12 +7,11 @@ authors:
 appId: kr.iotrust.dcent
 appCountry: kr
 idd: 1447206611
-released: '2019-01-26'
-updated: '2025-02-09'
-version: '7.4.1'
+released: 2019-01-26
+updated: 2025-02-09
+version: 7.4.1
 stars: 3.8
-reviews: 72
-size: '62130176'
+reviews: 73
 website: https://store.dcentwallet.com/pages/dcent-wallet-app
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: '2022-01-10'
+date: 2022-01-10
 signer: 
 reviewArchive: 
 twitter: DCENTwallets

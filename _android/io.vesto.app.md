@@ -1,35 +1,34 @@
 ---
-wsId: 'vestoApp'
-title: 'Vesto'
+wsId: vestoApp
+title: Vesto
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'io.vesto.app'
+appId: io.vesto.app
 appCountry: 
-released: '2022-06-01'
-updated: '2022-06-01'
+released: 2022-06-01
+updated: 2022-06-01
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://vesto.io'
+website: https://vesto.io
 repository: 
 issue: 
-icon: 'io.vesto.app.png'
+icon: io.vesto.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2024-09-26'
+date: 2024-09-26
 signer: 
 reviewArchive: 
-twitter: 'vestoprotocol'
+twitter: vestoprotocol
 social:
-- 'https://www.linkedin.com/company/vesto-llc'
+- https://www.linkedin.com/company/vesto-llc
 redirect_from: 
-developerName: 'Vesto Apps'
+developerName: Vesto Apps
 features: 
 
 ---

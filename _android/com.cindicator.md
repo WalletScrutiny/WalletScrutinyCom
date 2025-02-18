@@ -1,34 +1,34 @@
 ---
-wsId: 'cindicator'
+wsId: cindicator
 title: 'Cindicator: Become an Analyst'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.cindicator'
+appId: com.cindicator
 appCountry: 
-released: '2016-12-28'
+released: 2016-12-28
 updated: 2019-09-30
-version: '3.0.10'
+version: 3.0.10
 stars: 3.9
 ratings: 1690
 reviews: 134
-website: 'http://cindicator.com'
+website: http://cindicator.com
 repository: 
 issue: 
-icon: 'com.cindicator.png'
+icon: com.cindicator.png
 bugbounty: 
-meta: 'obsolete'
-verdict: 'nowallet'
+meta: obsolete
+verdict: nowallet
 appHashes: 
-date: '2023-02-08'
+date: 2023-02-08
 signer: 
 reviewArchive: 
-twitter: 'Cindicator'
+twitter: Cindicator
 social:
-- 'https://www.facebook.com/crowdindicator'
+- https://www.facebook.com/crowdindicator
 redirect_from: 
-developerName: 'Cindicator'
+developerName: Cindicator
 features: 
 
 ---

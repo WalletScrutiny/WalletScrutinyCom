@@ -1,35 +1,35 @@
 ---
-wsId: 'finanzenZero'
-title: 'finanzen.net zero Aktien & ETF'
+wsId: finanzenZero
+title: finanzen.net zero Aktien & ETF
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'de.gratisbroker.android.mobileapp'
+appId: de.gratisbroker.android.mobileapp
 appCountry: 
-released: '2021-06-02'
-updated: 2025-01-27
-version: '4.27.2'
+released: 2021-06-02
+updated: 2025-02-14
+version: 5.4.4
 stars: 3.8
 ratings: 
 reviews: 7
-website: 'https://www.finanzen.net/zero'
+website: https://www.finanzen.net/zero
 repository: 
 issue: 
-icon: 'de.gratisbroker.android.mobileapp.png'
+icon: de.gratisbroker.android.mobileapp.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosendreceive'
+meta: ok
+verdict: nosendreceive
 appHashes: 
-date: '2023-03-02'
+date: 2023-03-02
 signer: 
 reviewArchive: 
-twitter: 'FinanzenNet'
+twitter: FinanzenNet
 social:
-- 'https://www.facebook.com/finanzen.net'
-- 'https://www.youtube.com/channel/UC0SfuDptovS05L3JjXSHjBg'
+- https://www.facebook.com/finanzen.net
+- https://www.youtube.com/channel/UC0SfuDptovS05L3JjXSHjBg
 redirect_from: 
-developerName: 'finanzen.net zero GmbH'
+developerName: finanzen.net zero GmbH
 features: 
 
 ---

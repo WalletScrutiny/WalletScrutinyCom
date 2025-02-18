@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Bixin - Virtual Assets Trading'
+title: Bixin - Virtual Assets Trading
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.bixin.bixin_android'
+appId: com.bixin.bixin_android
 appCountry: 
-released: '2017-03-22'
-updated: '2023-12-04'
-version: '4.6.0'
+released: 2017-03-22
+updated: 2023-12-04
+version: 4.6.0
 stars: 3.8
 ratings: 91
 reviews: 10
-size: 
-website: 'https://bixin.com'
+website: https://bixin.com
 repository: 
 issue: 
-icon: 'com.bixin.bixin_android.png'
+icon: com.bixin.bixin_android.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'custodial'
+meta: defunct
+verdict: custodial
 appHashes: 
-date: '2022-04-25'
+date: 2022-04-25
 signer: 
 reviewArchive: 
-twitter: 'BixinWallet'
+twitter: BixinWallet
 social: 
 redirect_from: 
-developerName: 'Bixin.com'
+developerName: Bixin.com
 features: 
 
 ---

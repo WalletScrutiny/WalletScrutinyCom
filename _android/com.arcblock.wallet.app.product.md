@@ -1,34 +1,34 @@
 ---
-wsId: 'dIDWallet'
-title: 'DID Wallet - DID&Crypto&NFT'
+wsId: dIDWallet
+title: DID Wallet - DID&Crypto&NFT
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.arcblock.wallet.app.product'
+appId: com.arcblock.wallet.app.product
 appCountry: 
-released: '2020-01-07'
+released: 2020-01-07
 updated: 2025-01-24
-version: '5.8.0'
+version: 5.8.0
 stars: 4.6
 ratings: 
 reviews: 18
-website: 'https://www.didwallet.io/'
+website: https://www.didwallet.io/
 repository: 
 issue: 
-icon: 'com.arcblock.wallet.app.product.png'
+icon: com.arcblock.wallet.app.product.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nobtc'
+meta: ok
+verdict: nobtc
 appHashes: 
-date: '2023-07-06'
+date: 2023-07-06
 signer: 
 reviewArchive: 
-twitter: 'ArcBlock_io'
+twitter: ArcBlock_io
 social:
-- 'https://t.me/ArcBlock'
+- https://t.me/ArcBlock
 redirect_from: 
-developerName: 'ArcBlock, Inc'
+developerName: ArcBlock, Inc
 features: 
 
 ---

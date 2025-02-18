@@ -1,35 +1,34 @@
 ---
-wsId: 'Burency'
-title: 'Burency Global – Insured Crypto Exchange & Wallet'
+wsId: Burency
+title: Burency Global – Insured Crypto Exchange & Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.burency.app'
-appCountry: 'us'
-released: '2021-03-21'
-updated: '2021-05-07'
-version: '1.0.2'
+appId: com.burency.app
+appCountry: us
+released: 2021-03-21
+updated: 2021-05-07
+version: 1.0.2
 stars: 4.3
 ratings: 241
 reviews: 139
-size: '22M'
-website: 'https://www.burency.com/'
+website: https://www.burency.com/
 repository: 
 issue: 
-icon: 'com.burency.app.png'
+icon: com.burency.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2021-12-05'
+date: 2021-12-05
 signer: 
 reviewArchive: 
-twitter: 'BurencyOfficial'
+twitter: BurencyOfficial
 social:
-- 'https://www.linkedin.com/company/burencyofficial'
-- 'https://www.facebook.com/BurencyOfficial'
-- 'https://www.reddit.com/r/Burency'
+- https://www.linkedin.com/company/burencyofficial
+- https://www.facebook.com/BurencyOfficial
+- https://www.reddit.com/r/Burency
 redirect_from: 
 developerName: 
 features: 

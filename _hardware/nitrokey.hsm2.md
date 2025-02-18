@@ -3,7 +3,7 @@ title: Nitrokey HSM2
 appId: nitrokey.hsm2
 authors:
 - danny
-released: '2021-02-18'
+released: 2021-02-18
 discontinued: 
 updated: 
 version: 
@@ -26,7 +26,7 @@ bugbounty:
 meta: ok
 verdict: nowallet
 appHashes: 
-date: '2022-03-23'
+date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: nitrokey

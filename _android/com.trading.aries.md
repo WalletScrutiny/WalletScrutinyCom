@@ -1,36 +1,35 @@
 ---
-wsId: 'TradeAries'
+wsId: TradeAries
 title: 'Aries: Investing & Trading'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.trading.aries'
-appCountry: 'ng'
-released: '2021-06-23'
-updated: '2024-08-13'
-version: '3.7.6'
+appId: com.trading.aries
+appCountry: ng
+released: 2021-06-23
+updated: 2024-08-13
+version: 3.7.6
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://tradearies.com'
+website: https://tradearies.com
 repository: 
 issue: 
-icon: 'com.trading.aries.png'
+icon: com.trading.aries.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosendreceive'
+meta: removed
+verdict: nosendreceive
 appHashes: 
-date: '2024-11-22'
+date: 2024-11-22
 signer: 
 reviewArchive: 
-twitter: 'TradeAries'
+twitter: TradeAries
 social:
-- 'https://www.linkedin.com/company/tradearies'
-- 'https://www.facebook.com/TradeAries'
+- https://www.linkedin.com/company/tradearies
+- https://www.facebook.com/TradeAries
 redirect_from: 
-developerName: 'Aries Financial, Inc.'
+developerName: Aries Financial, Inc.
 features: 
 
 ---

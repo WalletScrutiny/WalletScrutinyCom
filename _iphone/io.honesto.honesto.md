@@ -7,12 +7,11 @@ authors:
 appId: io.honesto.honesto
 appCountry: ch
 idd: '1503465220'
-released: '2021-12-09'
-updated: '2025-01-20'
-version: '2.3.1'
+released: 2021-12-09
+updated: 2025-01-20
+version: 2.3.1
 stars: 4.9
 reviews: 36
-size: '92536832'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2023-07-21'
+date: 2023-07-21
 signer: 
 reviewArchive: 
 twitter: 

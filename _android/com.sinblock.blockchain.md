@@ -4,34 +4,34 @@ title: 'Aibit: Buy Bitcoin & Crypto'
 altTitle: 
 authors: 
 users: 10000
-appId: 'com.sinblock.blockchain'
+appId: com.sinblock.blockchain
 appCountry: 
-released: '2022-09-22'
+released: 2022-09-22
 updated: 2025-02-11
-version: '4.7.7'
+version: 4.7.7
 stars: 4.2
 ratings: 
 reviews: 2
 website: 
 repository: 
 issue: 
-icon: 'com.sinblock.blockchain.png'
+icon: com.sinblock.blockchain.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-08-25'
+date: 2023-08-25
 signer: 
 reviewArchive: 
-twitter: 'aibitcom'
+twitter: aibitcom
 social:
-- 'https://www.aibit.com/'
-- 'https://www.facebook.com/aibitcom'
-- 'https://discord.com/invite/aibitcom'
-- 'https://medium.com/@aibitcom'
-- 'https://www.youtube.com/channel/UC8rp5UTiLnc9aWuXJbqMSiw/featured'
+- https://www.aibit.com/
+- https://www.facebook.com/aibitcom
+- https://discord.com/invite/aibitcom
+- https://medium.com/@aibitcom
+- https://www.youtube.com/channel/UC8rp5UTiLnc9aWuXJbqMSiw/featured
 redirect_from: 
-developerName: 'Aibit PTE.LTD.'
+developerName: Aibit PTE.LTD.
 features: 
 
 ---

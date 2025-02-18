@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Contracoin Wallet'
+title: Contracoin Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.Contracoin'
+appId: com.Contracoin
 appCountry: 
-released: '2020-11-19'
-updated: '2020-11-19'
+released: 2020-11-19
+updated: 2020-11-19
 version: '1.00'
 stars: 4.3
 ratings: 
 reviews: 
-size: 
-website: 'https://contracoin.network/'
+website: https://contracoin.network/
 repository: 
 issue: 
-icon: 'com.Contracoin.png'
+icon: com.Contracoin.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Contracoin'
+developerName: Contracoin
 features: 
 
 ---

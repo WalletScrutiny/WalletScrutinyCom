@@ -1,40 +1,40 @@
 ---
-wsId: 'bydfiExchange'
+wsId: bydfiExchange
 title: 'BYDFi: Buy BTC, ETH & MEME'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.bydfi.app'
+appId: com.bydfi.app
 appCountry: 
-released: '2023-01-20'
+released: 2023-01-20
 updated: 2025-01-24
-version: '3.6.3'
+version: 3.6.3
 stars: 4.2
 ratings: 
 reviews: 363
-website: 'https://www.bydfi.com/'
+website: https://www.bydfi.com/
 repository: 
 issue: 
-icon: 'com.bydfi.app.png'
+icon: com.bydfi.app.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-07-21'
+date: 2023-07-21
 signer: 
 reviewArchive: 
-twitter: 'BYDFi'
+twitter: BYDFi
 social:
-- 'https://t.me/BYDFiEnglish'
-- 'https://www.facebook.com/BYDFiOfficial'
-- 'https://www.instagram.com/bydfi_official'
-- 'https://www.linkedin.com/company/bydfi'
-- 'https://www.youtube.com/@BYDFiOfficial'
-- 'https://discord.com/invite/VJjYhsWegV'
-- 'https://medium.com/bydfi'
+- https://t.me/BYDFiEnglish
+- https://www.facebook.com/BYDFiOfficial
+- https://www.instagram.com/bydfi_official
+- https://www.linkedin.com/company/bydfi
+- https://www.youtube.com/@BYDFiOfficial
+- https://discord.com/invite/VJjYhsWegV
+- https://medium.com/bydfi
 redirect_from: 
-developerName: 'BYDFi Fintech LTD'
+developerName: BYDFi Fintech LTD
 features: 
 
 ---

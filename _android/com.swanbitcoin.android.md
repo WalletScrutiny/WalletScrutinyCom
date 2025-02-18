@@ -1,35 +1,35 @@
 ---
-wsId: 'swanBitcoin'
+wsId: swanBitcoin
 title: 'Swan Bitcoin: Buy & Save'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.swanbitcoin.android'
+appId: com.swanbitcoin.android
 appCountry: 
-released: '2022-03-25'
+released: 2022-03-25
 updated: 2025-02-11
-version: '1.9.35'
+version: 1.9.35
 stars: 4.3
 ratings: 
-reviews: 228
-website: 'https://www.swanbitcoin.com'
+reviews: 229
+website: https://www.swanbitcoin.com
 repository: 
 issue: 
-icon: 'com.swanbitcoin.android.png'
+icon: com.swanbitcoin.android.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-07-17'
+date: 2023-07-17
 signer: 
 reviewArchive: 
-twitter: 'swan'
+twitter: swan
 social:
-- 'https://www.instagram.com/swanbitcoin'
-- 'https://www.linkedin.com/company/swanbitcoin'
+- https://www.instagram.com/swanbitcoin
+- https://www.linkedin.com/company/swanbitcoin
 redirect_from: 
-developerName: 'Swan Bitcoin'
+developerName: Swan Bitcoin
 features: 
 
 ---

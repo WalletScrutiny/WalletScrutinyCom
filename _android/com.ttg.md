@@ -1,39 +1,38 @@
 ---
-wsId: 'tradeTheGames'
+wsId: tradeTheGames
 title: 'Trade The Games: Crypto Game'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.ttg'
+appId: com.ttg
 appCountry: 
-released: '2022-02-17'
-updated: '2023-08-25'
-version: '5.10.23'
+released: 2022-02-17
+updated: 2023-08-25
+version: 5.10.23
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.tradethegames.com/'
+website: https://www.tradethegames.com/
 repository: 
 issue: 
-icon: 'com.ttg.jpg'
+icon: com.ttg.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
-twitter: 'tradethegames'
+twitter: tradethegames
 social:
-- 'https://www.facebook.com/tradethegames'
-- 'https://www.linkedin.com/company/trade-the-games'
-- 'https://www.instagram.com/tradethegames'
-- 'https://t.me/TTG_announcements'
-- 'https://www.youtube.com/channel/UC0KnTuQwGX0jNTkQYhVswfA/videos'
+- https://www.facebook.com/tradethegames
+- https://www.linkedin.com/company/trade-the-games
+- https://www.instagram.com/tradethegames
+- https://t.me/TTG_announcements
+- https://www.youtube.com/channel/UC0KnTuQwGX0jNTkQYhVswfA/videos
 redirect_from: 
-developerName: 'Technoloader IT Services Pvt Ltd'
+developerName: Technoloader IT Services Pvt Ltd
 features: 
 
 ---

@@ -3,32 +3,31 @@ wsId:
 title: 'Claim Faucet Coins :: Bitcoin'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.claimfaucetcoins'
+appId: com.claimfaucetcoins
 appCountry: 
-released: '2020-04-21'
-updated: '2022-08-18'
+released: 2020-04-21
+updated: 2022-08-18
 version: '2.2'
 stars: 4
 ratings: 266
 reviews: 17
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.claimfaucetcoins.png'
+icon: com.claimfaucetcoins.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Vessper'
+developerName: Vessper
 features: 
 
 ---

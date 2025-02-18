@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Links-安全で簡単な仮想通貨ウォレット付きチャットアプリ'
+title: Links-安全で簡単な仮想通貨ウォレット付きチャットアプリ
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'jp.links.messenger'
+appId: jp.links.messenger
 appCountry: 
-released: '2021-03-21'
-updated: '2022-05-19'
-version: '1.35.9'
+released: 2021-03-21
+updated: 2022-05-19
+version: 1.35.9
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://getlinks.jp'
+website: https://getlinks.jp
 repository: 
 issue: 
-icon: 'jp.links.messenger.jpg'
+icon: jp.links.messenger.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2023-05-05'
+date: 2023-05-05
 signer: 
 reviewArchive: 
-twitter: 'LinksBTC'
+twitter: LinksBTC
 social: 
 redirect_from: 
-developerName: 'Links K.K.'
+developerName: Links K.K.
 features: 
 
 ---

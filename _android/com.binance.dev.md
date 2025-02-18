@@ -1,38 +1,38 @@
 ---
-wsId: 'binance'
+wsId: binance
 title: 'Binance: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 100000000
-appId: 'com.binance.dev'
+appId: com.binance.dev
 appCountry: 
-released: '2017-10-25'
-updated: 2025-02-10
-version: '2.95.3'
+released: 2017-10-25
+updated: 2025-02-14
+version: 2.95.3
 stars: 4.7
 ratings: 619117
-reviews: 14778
-website: 'https://www.binance.com/'
+reviews: 14786
+website: https://www.binance.com/
 repository: 
 issue: 
-icon: 'com.binance.dev.png'
+icon: com.binance.dev.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2020-03-15'
+date: 2020-03-15
 signer: 
 reviewArchive: 
-twitter: 'binance'
+twitter: binance
 social:
-- 'https://www.facebook.com/binance'
-- 'https://www.reddit.com/r/binance'
+- https://www.facebook.com/binance
+- https://www.reddit.com/r/binance
 redirect_from:
-- '/binance/'
-- '/com.binance.dev/'
-- '/posts/com.binance.dev/'
-developerName: 'Binance Inc.'
+- /binance/
+- /com.binance.dev/
+- /posts/com.binance.dev/
+developerName: Binance Inc.
 features: 
 
 ---

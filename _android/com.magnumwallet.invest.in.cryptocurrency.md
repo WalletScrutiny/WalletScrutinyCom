@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Invest In Cryptocurrency'
+title: Invest In Cryptocurrency
 altTitle: 
 authors: 
 users: 0
-appId: 'com.magnumwallet.invest.in.cryptocurrency'
+appId: com.magnumwallet.invest.in.cryptocurrency
 appCountry: 
-released: '2021-07-18'
-updated: '2021-07-18'
+released: 2021-07-18
+updated: 2021-07-18
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: '2.3M'
 website: 
 repository: 
 issue: 
-icon: 'com.magnumwallet.invest.in.cryptocurrency.png'
+icon: com.magnumwallet.invest.in.cryptocurrency.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2021-10-01'
+date: 2021-10-01
 signer: 
 reviewArchive: 
 twitter: 

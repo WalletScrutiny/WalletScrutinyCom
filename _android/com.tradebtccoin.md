@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'tradebtccoin'
+title: tradebtccoin
 altTitle: 
 authors: 
 users: 5
-appId: 'com.tradebtccoin'
+appId: com.tradebtccoin
 appCountry: 
-released: '2019-08-20'
-updated: '2019-08-20'
-version: '1.0.1'
+released: 2019-08-20
+updated: 2019-08-20
+version: 1.0.1
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.tradebtccoin.com'
+website: https://www.tradebtccoin.com
 repository: 
 issue: 
-icon: 'com.tradebtccoin.png'
+icon: com.tradebtccoin.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'tradebtccoin'
+developerName: tradebtccoin
 features: 
 
 ---

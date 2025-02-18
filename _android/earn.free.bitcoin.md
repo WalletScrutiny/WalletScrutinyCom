@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: 'Earn Bitcoin – Get Bitcoin App'
+title: Earn Bitcoin – Get Bitcoin App
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 500000
-appId: 'earn.free.bitcoin'
+appId: earn.free.bitcoin
 appCountry: 
-released: '2020-08-25'
+released: 2020-08-25
 updated: 2024-02-26
 version: '1.9'
 stars: 4.5
 ratings: 
-reviews: 4210
-website: 'http://freebitcoinapp.net/'
+reviews: 4215
+website: http://freebitcoinapp.net/
 repository: 
 issue: 
-icon: 'earn.free.bitcoin.png'
+icon: earn.free.bitcoin.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2024-09-06'
+date: 2024-09-06
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Xbank Technologies SL'
+developerName: Xbank Technologies SL
 features: 
 
 ---

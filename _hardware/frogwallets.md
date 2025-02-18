@@ -3,7 +3,7 @@ title: Frog Wallets
 appId: frogwallets
 authors:
 - danny
-released: '2021-05-31'
+released: 2021-05-31
 discontinued: 
 updated: 
 version: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: plainkey
 appHashes: 
-date: '2023-03-29'
+date: 2023-03-29
 signer: 
 reviewArchive: 
 twitter: 

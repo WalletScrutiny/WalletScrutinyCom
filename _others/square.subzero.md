@@ -4,10 +4,10 @@ appId: square.subzero
 authors:
 - danny
 icon: square.subzero.png
-date: '2022-05-26'
-released: '2018-10-23'
-updated: '2022-05-03'
-version: 'v1.0.0'
+date: 2022-05-26
+released: 2018-10-23
+updated: 2022-05-03
+version: v1.0.0
 website: https://subzero.readthedocs.io/en/master
 repository: https://github.com/square/subzero
 twitter: Square
@@ -18,6 +18,7 @@ country: US
 bugbounty: https://bugcrowd.com/squareopensource
 meta: ok
 verdict: wip
+social: 
 
 ---
 

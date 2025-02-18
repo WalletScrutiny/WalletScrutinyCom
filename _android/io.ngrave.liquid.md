@@ -1,37 +1,37 @@
 ---
 wsId: 
-title: 'NGRAVE LIQUID - Crypto app'
+title: NGRAVE LIQUID - Crypto app
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'io.ngrave.liquid'
+appId: io.ngrave.liquid
 appCountry: 
-released: '2021-11-06'
+released: 2021-11-06
 updated: 2024-12-24
-version: '2.8.5'
+version: 2.8.5
 stars: 3.1
 ratings: 
 reviews: 14
-website: 'https://www.ngrave.io/'
+website: https://www.ngrave.io/
 repository: 
 issue: 
-icon: 'io.ngrave.liquid.png'
+icon: io.ngrave.liquid.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2023-06-01'
+date: 2023-06-01
 signer: 
 reviewArchive: 
-twitter: 'ngrave_official'
+twitter: ngrave_official
 social:
-- 'https://www.facebook.com/ngrave.io'
-- 'https://www.instagram.com/ngrave.io'
-- 'https://www.linkedin.com/company/ngrave'
-- 'https://discord.com/invite/gapxmWEBNJ'
+- https://www.facebook.com/ngrave.io
+- https://www.instagram.com/ngrave.io
+- https://www.linkedin.com/company/ngrave
+- https://discord.com/invite/gapxmWEBNJ
 redirect_from: 
-developerName: 'NGRAVEIO'
+developerName: NGRAVEIO
 features: 
 
 ---

@@ -1,35 +1,35 @@
 ---
-wsId: 'myECNigeria'
-title: 'MY-EC NIGERIA'
+wsId: myECNigeria
+title: MY-EC NIGERIA
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.myecurrency'
+appId: com.myecurrency
 appCountry: 
-released: '2022-05-20'
+released: 2022-05-20
 updated: 2024-06-12
-version: '1.2.0'
+version: 1.2.0
 stars: 5
 ratings: 
 reviews: 3
-website: 'http://myecurrencyng.com'
+website: http://myecurrencyng.com
 repository: 
 issue: 
-icon: 'com.myecurrency.jpg'
+icon: com.myecurrency.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2023-09-07'
+date: 2023-09-07
 signer: 
 reviewArchive: 
-twitter: 'myecurrencyng'
+twitter: myecurrencyng
 social:
-- 'https://www.instagram.com/myecurrencyng'
-- 'https://www.facebook.com/myecurrency01'
+- https://www.instagram.com/myecurrencyng
+- https://www.facebook.com/myecurrency01
 redirect_from: 
-developerName: 'MyEcurrency Nigeria Limited'
+developerName: MyEcurrency Nigeria Limited
 features: 
 
 ---

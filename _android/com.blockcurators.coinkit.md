@@ -1,34 +1,33 @@
 ---
-wsId: 'coinkit'
-title: 'CoinKit'
+wsId: coinkit
+title: CoinKit
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.blockcurators.coinkit'
+appId: com.blockcurators.coinkit
 appCountry: 
-released: '2021-12-19'
-updated: '2022-01-19'
-version: '1.1.2'
+released: 2021-12-19
+updated: 2022-01-19
+version: 1.1.2
 stars: 4.4
 ratings: 
 reviews: 5
-size: 
-website: 'https://coinkit.de'
+website: https://coinkit.de
 repository: 
 issue: 
-icon: 'com.blockcurators.coinkit.png'
+icon: com.blockcurators.coinkit.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2025-01-27'
+date: 2025-01-27
 signer: 
 reviewArchive: 
-twitter: 'coinkit_'
+twitter: coinkit_
 social: 
 redirect_from: 
-developerName: 'Blockcurators GmbH'
+developerName: Blockcurators GmbH
 features: 
 
 ---

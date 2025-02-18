@@ -1,36 +1,35 @@
 ---
-wsId: 'Bitvo'
-title: 'Bitvo'
+wsId: Bitvo
+title: Bitvo
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.vog.bitvo'
-appCountry: 'ca'
-released: '2020-03-16'
-updated: '2023-02-15'
-version: '1.6.9'
+appId: com.vog.bitvo
+appCountry: ca
+released: 2020-03-16
+updated: 2023-02-15
+version: 1.6.9
 stars: 2.9
 ratings: 24
 reviews: 19
-size: 
-website: 'https://bitvo.com'
+website: https://bitvo.com
 repository: 
 issue: 
-icon: 'com.vog.bitvo.png'
+icon: com.vog.bitvo.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
-twitter: 'BitvoExchange'
+twitter: BitvoExchange
 social:
-- 'https://www.linkedin.com/company/bitvoexchange'
-- 'https://www.facebook.com/BitvoExchange'
+- https://www.linkedin.com/company/bitvoexchange
+- https://www.facebook.com/BitvoExchange
 redirect_from: 
-developerName: 'Bitvo Inc'
+developerName: Bitvo Inc
 features: 
 
 ---

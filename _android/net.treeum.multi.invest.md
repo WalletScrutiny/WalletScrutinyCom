@@ -1,34 +1,33 @@
 ---
-wsId: 'treeumMultiInvest'
-title: 'Multi Invest - Investments'
+wsId: treeumMultiInvest
+title: Multi Invest - Investments
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'net.treeum.multi.invest'
+appId: net.treeum.multi.invest
 appCountry: 
 released: 
-updated: '2022-09-01'
-version: '1.0.31'
+updated: 2022-09-01
+version: 1.0.31
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'http://multi.ua'
+website: http://multi.ua
 repository: 
 issue: 
-icon: 'net.treeum.multi.invest.png'
+icon: net.treeum.multi.invest.png
 bugbounty: 
-meta: 'obsolete'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2024-08-23'
+date: 2025-02-18
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Treeum Holdings Limited'
+developerName: Treeum Holdings Limited
 features: 
 
 ---

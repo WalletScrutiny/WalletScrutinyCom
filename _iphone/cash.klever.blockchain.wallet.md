@@ -1,34 +1,33 @@
 ---
-wsId: 'klever'
-title: 'K4 Wallet'
+wsId: klever
+title: K4 Wallet
 altTitle: 
 authors:
-- 'leo'
-appId: 'cash.klever.blockchain.wallet'
+- leo
+appId: cash.klever.blockchain.wallet
 appCountry: 
 idd: '1525584688'
-released: '2020-08-26'
-updated: '2023-04-19'
-version: '4.24.14'
+released: 2020-08-26
+updated: 2023-04-19
+version: 4.24.14
 stars: 4.3
 reviews: 524
-size: '143354880'
-website: 'https://klever.org'
+website: https://klever.org
 repository: 
 issue: 
-icon: 'cash.klever.blockchain.wallet.jpg'
+icon: cash.klever.blockchain.wallet.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2023-08-04'
+date: 2023-08-04
 signer: 
 reviewArchive: 
-twitter: 'klever_io'
+twitter: klever_io
 social:
-- 'https://www.facebook.com/klever.io'
+- https://www.facebook.com/klever.io
 features: 
-developerName: 'Klever Exchange'
+developerName: Klever Exchange
 
 ---
 

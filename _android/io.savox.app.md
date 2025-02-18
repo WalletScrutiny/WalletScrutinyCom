@@ -4,30 +4,29 @@ title: 'SAVOX: Buy & Sell Bitcoin, Eth'
 altTitle: 
 authors: 
 users: 100
-appId: 'io.savox.app'
+appId: io.savox.app
 appCountry: 
-released: '2022-07-26'
-updated: '2022-10-17'
-version: '1.0.7'
+released: 2022-07-26
+updated: 2022-10-17
+version: 1.0.7
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://savox.io'
+website: https://savox.io
 repository: 
 issue: 
-icon: 'io.savox.app.png'
+icon: io.savox.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-11-02'
+date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Savox Technologies Ltd'
+developerName: Savox Technologies Ltd
 features: 
 
 ---

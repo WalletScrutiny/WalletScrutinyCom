@@ -1,36 +1,36 @@
 ---
-wsId: 'DeFiChainWallet'
-title: 'DeFiChain Wallet'
+wsId: DeFiChainWallet
+title: DeFiChain Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.defichain.app'
-appCountry: 'qa'
-released: '2021-08-22'
+appId: com.defichain.app
+appCountry: qa
+released: 2021-08-22
 updated: 2024-08-29
-version: '2.43.3'
+version: 2.43.3
 stars: 3.2
 ratings: 319
 reviews: 308
-website: 'https://defichain.com'
+website: https://defichain.com
 repository: 
 issue: 
-icon: 'com.defichain.app.png'
+icon: com.defichain.app.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nobtc'
+meta: ok
+verdict: nobtc
 appHashes: 
-date: '2021-11-11'
+date: 2021-11-11
 signer: 
 reviewArchive: 
-twitter: 'defichain'
+twitter: defichain
 social:
-- 'https://www.linkedin.com/company/defichain'
-- 'https://www.facebook.com/defichain.official'
-- 'https://www.reddit.com/r/defiblockchain'
+- https://www.linkedin.com/company/defichain
+- https://www.facebook.com/defichain.official
+- https://www.reddit.com/r/defiblockchain
 redirect_from: 
-developerName: 'DeFiChain'
+developerName: DeFiChain
 features: 
 
 ---

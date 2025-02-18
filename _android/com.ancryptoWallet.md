@@ -1,39 +1,39 @@
 ---
-wsId: 'ancryptoWallet'
-title: 'Gems Pocket'
+wsId: ancryptoWallet
+title: Gems Pocket
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.ancryptoWallet'
+appId: com.ancryptoWallet
 appCountry: 
-released: '2022-09-27'
+released: 2022-09-27
 updated: 2025-01-20
-version: '1.47.0'
+version: 1.47.0
 stars: 4.5
 ratings: 
 reviews: 29
-website: 'https://gemspocket.com/'
+website: https://gemspocket.com/
 repository: 
 issue: 
-icon: 'com.ancryptoWallet.png'
+icon: com.ancryptoWallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-24'
+date: 2024-07-24
 signer: 
 reviewArchive: 
-twitter: 'AnCryptoWallet'
+twitter: AnCryptoWallet
 social:
-- 'https://www.linkedin.com/company/ancrypto'
-- 'https://www.facebook.com/ancrypto.io'
-- 'https://t.me/+rLAv56hhJN1hZTM1'
-- 'https://www.instagram.com/ancrypto.io'
-- 'https://discord.com/invite/pN3NXfpJgF'
-- 'https://www.youtube.com/@ancryptowallet'
+- https://www.linkedin.com/company/ancrypto
+- https://www.facebook.com/ancrypto.io
+- https://t.me/+rLAv56hhJN1hZTM1
+- https://www.instagram.com/ancrypto.io
+- https://discord.com/invite/pN3NXfpJgF
+- https://www.youtube.com/@ancryptowallet
 redirect_from: 
-developerName: 'AWT Ltd'
+developerName: AWT Ltd
 features: 
 
 ---

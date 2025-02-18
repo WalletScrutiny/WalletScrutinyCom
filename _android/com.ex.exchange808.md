@@ -1,31 +1,30 @@
 ---
 wsId: 
-title: '808 Exchange'
+title: 808 Exchange
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.ex.exchange808'
+appId: com.ex.exchange808
 appCountry: 
-released: '2021-02-03'
-updated: '2022-08-04'
-version: '2.0.22'
+released: 2021-02-03
+updated: 2022-08-04
+version: 2.0.22
 stars: 4.7
 ratings: 269
 reviews: 11
-size: 
-website: 'https://808exchange.net'
+website: https://808exchange.net
 repository: 
 issue: 
-icon: 'com.ex.exchange808.png'
+icon: com.ex.exchange808.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-01-11'
+date: 2023-01-11
 signer: 
 reviewArchive: 
-twitter: '808TA_'
+twitter: 808TA_
 social: 
 redirect_from: 
 developerName: 

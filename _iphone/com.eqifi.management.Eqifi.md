@@ -7,12 +7,11 @@ authors:
 appId: com.eqifi.management.Eqifi
 appCountry: ph
 idd: '1620545657'
-released: '2022-05-03'
-updated: '2023-05-05'
-version: '1.7.3'
+released: 2022-05-03
+updated: 2023-05-05
+version: 1.7.3
 stars: 0
 reviews: 0
-size: '51310592'
 website: https://www.eqifi.com/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: stale
 verdict: custodial
 appHashes: 
-date: '2024-05-04'
+date: 2024-05-04
 signer: 
 reviewArchive: 
 twitter: eqifi_finance

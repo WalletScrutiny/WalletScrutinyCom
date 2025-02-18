@@ -8,12 +8,11 @@ authors:
 appId: io.freewallet.mobile
 appCountry: 
 idd: 1151168579
-released: '2016-11-05'
-updated: '2019-03-18'
-version: '1.0.9'
+released: 2016-11-05
+updated: 2019-03-18
+version: 1.0.9
 stars: 3
-reviews: 32
-size: '13651968'
+reviews: 33
 website: https://freewallet.io
 repository: https://github.com/jdogresorg/freewallet-mobile
 issue: 
@@ -22,7 +21,7 @@ bugbounty:
 meta: obsolete
 verdict: ftbfs
 appHashes: 
-date: '2021-10-22'
+date: 2021-10-22
 signer: 
 reviewArchive: 
 twitter: freewallet

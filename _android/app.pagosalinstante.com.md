@@ -3,32 +3,32 @@ wsId:
 title: 'PAI : Bitcoin, Tron, LTC y más'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'app.pagosalinstante.com'
+appId: app.pagosalinstante.com
 appCountry: 
-released: '2019-02-03'
+released: 2019-02-03
 updated: 2025-01-21
-version: '1.08.1011'
+version: 1.08.1011
 stars: 4.8
 ratings: 934
 reviews: 41
-website: 'https://paiexchange.com'
+website: https://paiexchange.com
 repository: 
 issue: 
-icon: 'app.pagosalinstante.com.png'
+icon: app.pagosalinstante.com.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-09-23'
+date: 2021-09-23
 signer: 
 reviewArchive: 
-twitter: 'paiexchange'
+twitter: paiexchange
 social:
-- 'https://www.facebook.com/paiexchange'
+- https://www.facebook.com/paiexchange
 redirect_from: 
-developerName: 'PAI Exchange'
+developerName: PAI Exchange
 features: 
 
 ---

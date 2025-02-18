@@ -1,29 +1,28 @@
 ---
 wsId: 
-title: 'Samourai Bitcoin Wallet'
-altTitle: '(Fake) Samourai Bitcoin Wallet'
+title: Samourai Bitcoin Wallet
+altTitle: (Fake) Samourai Bitcoin Wallet
 authors:
-- 'emanuel'
-- 'leo'
+- emanuel
+- leo
 users: 50
-appId: 'samurai.wallet.crypto'
+appId: samurai.wallet.crypto
 appCountry: 
-released: '2021-07-31'
-updated: '2021-08-01'
+released: 2021-07-31
+updated: 2021-08-01
 version: '9.8'
 stars: 
 ratings: 
 reviews: 
-size: '10M'
 website: 
 repository: 
 issue: 
-icon: 'samurai.wallet.crypto.png'
+icon: samurai.wallet.crypto.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fake'
+meta: removed
+verdict: fake
 appHashes: 
-date: '2021-09-10'
+date: 2021-09-10
 signer: 
 reviewArchive: 
 twitter: 

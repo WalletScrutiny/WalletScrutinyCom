@@ -7,12 +7,11 @@ authors:
 appId: position.exchange
 appCountry: sg
 idd: '6443665836'
-released: '2022-12-21'
-updated: '2023-03-27'
-version: '3.0.1'
+released: 2022-12-21
+updated: 2023-03-27
+version: 3.0.1
 stars: 0
 reviews: 0
-size: '97381376'
 website: https://app.position.exchange
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: nobtc
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: PositionEx

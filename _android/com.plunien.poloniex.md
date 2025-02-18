@@ -1,36 +1,36 @@
 ---
-wsId: 'Poloniex'
-title: 'Poloniex Crypto Exchange'
+wsId: Poloniex
+title: Poloniex Crypto Exchange
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 500000
-appId: 'com.plunien.poloniex'
+appId: com.plunien.poloniex
 appCountry: 
-released: '2017-06-19'
-updated: 2025-02-05
-version: '2.11.0'
+released: 2017-06-19
+updated: 2025-02-14
+version: 2.11.1
 stars: 3.1
 ratings: 7425
 reviews: 235
-website: 'https://support.poloniex.com/'
+website: https://support.poloniex.com/
 repository: 
 issue: 
-icon: 'com.plunien.poloniex.png'
+icon: com.plunien.poloniex.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2020-05-29'
+date: 2020-05-29
 signer: 
 reviewArchive: 
-twitter: 'Poloniex'
+twitter: Poloniex
 social:
-- 'https://www.facebook.com/poloniex'
+- https://www.facebook.com/poloniex
 redirect_from:
-- '/com.plunien.poloniex/'
-- '/posts/com.plunien.poloniex/'
-developerName: 'Polo Digital Assets, Ltd'
+- /com.plunien.poloniex/
+- /posts/com.plunien.poloniex/
+developerName: Polo Digital Assets, Ltd
 features: 
 
 ---

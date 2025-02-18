@@ -27,7 +27,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: '2022-11-09'
+date: 2022-11-09
 signer: 
 reviewArchive: 
 twitter: OpoloWallet

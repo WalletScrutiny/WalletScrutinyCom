@@ -7,12 +7,11 @@ authors:
 appId: com.koinkoin.app
 appCountry: ng
 idd: '1556014433'
-released: '2021-03-04'
-updated: '2024-12-23'
-version: '2.4.0'
+released: 2021-03-04
+updated: 2024-12-23
+version: 2.4.0
 stars: 5
 reviews: 1
-size: '476810240'
 website: https://koinkoin.io/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2024-01-18'
+date: 2024-01-18
 signer: 
 reviewArchive: 
 twitter: koinkoin13

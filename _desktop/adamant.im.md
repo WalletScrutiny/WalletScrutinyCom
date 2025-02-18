@@ -3,10 +3,10 @@ title: Adamant IM
 appId: adamant.im
 authors:
 - danny
-released: '2017-11-22'
+released: 2017-11-22
 discontinued: 
-updated: '2024-03-20'
-version: '4.6.2'
+updated: 2024-03-20
+version: 4.6.2
 binaries: 
 provider: Adamant
 providerWebsite: 
@@ -17,7 +17,7 @@ icon: adamant.im.png
 bugbounty: 
 meta: ok
 verdict: wip
-date: '2024-04-24'
+date: 2024-04-24
 reviewArchive: 
 twitter: adamant_im
 social: 

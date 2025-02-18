@@ -1,36 +1,36 @@
 ---
-wsId: 'krakenSuperWallet'
+wsId: krakenSuperWallet
 title: 'Kraken Wallet: Crypto & NFT'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.kraken.superwallet'
+appId: com.kraken.superwallet
 appCountry: 
-released: '2024-04-11'
-updated: 2025-02-06
-version: '1.17.0 (30)'
+released: 2024-04-11
+updated: 2025-02-14
+version: 1.17.1 (1)
 stars: 4.6
 ratings: 
-reviews: 51
-website: 'https://kraken.com/wallet'
-repository: 'https://github.com/krakenfx/wallet'
+reviews: 53
+website: https://kraken.com/wallet
+repository: https://github.com/krakenfx/wallet
 issue: 
-icon: 'com.kraken.superwallet.png'
+icon: com.kraken.superwallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'wip'
+meta: ok
+verdict: wip
 appHashes: 
-date: '2025-02-04'
+date: 2025-02-04
 signer: 
 reviewArchive: 
-twitter: 'krakenfx'
+twitter: krakenfx
 social:
-- 'https://www.linkedin.com/company/krakenfx'
-- 'https://www.facebook.com/KrakenFX'
-- 'https://www.reddit.com/r/Kraken'
+- https://www.linkedin.com/company/krakenfx
+- https://www.facebook.com/KrakenFX
+- https://www.reddit.com/r/Kraken
 redirect_from: 
-developerName: 'Payward, Inc.'
+developerName: Payward, Inc.
 features: 
 
 ---

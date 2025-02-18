@@ -3,32 +3,31 @@ wsId:
 title: '2gether: Buying Bitcoin'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.twogetherbank.app'
+appId: com.twogetherbank.app
 appCountry: 
 released: 
-updated: '2022-06-14'
-version: '1.9.3'
+updated: 2022-06-14
+version: 1.9.3
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.2gether.global'
+website: https://www.2gether.global
 repository: 
 issue: 
-icon: 'com.twogetherbank.app.png'
+icon: com.twogetherbank.app.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'custodial'
+meta: defunct
+verdict: custodial
 appHashes: 
-date: '2023-08-04'
+date: 2023-08-04
 signer: 
 reviewArchive: 
-twitter: '2gether_global'
+twitter: 2gether_global
 social: 
 redirect_from: 
-developerName: '2gether global'
+developerName: 2gether global
 features: 
 
 ---

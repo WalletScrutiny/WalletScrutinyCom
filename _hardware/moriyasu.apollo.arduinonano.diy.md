@@ -3,9 +3,9 @@ title: Moriyasu Apollo Arduino Nano Bitcoin DIY Hardware Wallet
 appId: moriyasu.apollo.arduinonano.diy
 authors:
 - danny
-released: '2018-03-01'
+released: 2018-03-01
 discontinued: 
-updated: '2022-03-15'
+updated: 2022-03-15
 version: 
 binaries: 
 dimensions: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: defunct
 verdict: diy
 appHashes: 
-date: '2022-05-25'
+date: 2022-05-25
 signer: 
 reviewArchive: 
 twitter: 

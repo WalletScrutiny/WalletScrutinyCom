@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'ZAKZAK Wallet'
+title: ZAKZAK Wallet
 altTitle: 
 authors: 
 users: 100
-appId: 'me.zakzak.zakzakwallet'
+appId: me.zakzak.zakzakwallet
 appCountry: 
-released: '2019-04-01'
-updated: '2020-06-10'
+released: 2019-04-01
+updated: 2020-06-10
 version: '2.3'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.zakzak.me'
+website: https://www.zakzak.me
 repository: 
 issue: 
-icon: 'me.zakzak.zakzakwallet.png'
+icon: me.zakzak.zakzakwallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'zakzak'
+developerName: zakzak
 features: 
 
 ---

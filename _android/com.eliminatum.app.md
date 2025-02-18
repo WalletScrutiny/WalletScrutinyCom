@@ -1,37 +1,37 @@
 ---
-wsId: 'ellyCrypto'
-title: 'Elly, crypto wallet app'
+wsId: ellyCrypto
+title: Elly, crypto wallet app
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.eliminatum.app'
+appId: com.eliminatum.app
 appCountry: 
-released: '2018-09-12'
+released: 2018-09-12
 updated: 2022-01-28
-version: '8.0.1'
+version: 8.0.1
 stars: 
 ratings: 
 reviews: 
-website: 'https://elly.com'
+website: https://elly.com
 repository: 
 issue: 
-icon: 'com.eliminatum.app.png'
+icon: com.eliminatum.app.png
 bugbounty: 
-meta: 'obsolete'
-verdict: 'custodial'
+meta: obsolete
+verdict: custodial
 appHashes: 
-date: '2024-01-19'
+date: 2024-01-19
 signer: 
 reviewArchive: 
-twitter: 'GoCrypto_'
+twitter: GoCrypto_
 social:
-- 'https://www.facebook.com/gocrypto.eligma'
-- 'https://t.me/eligma'
-- 'https://medium.com/eligma-blog'
-- 'https://www.youtube.com/channel/UCfshAN27bKPe4f3uBIr7jjA'
+- https://www.facebook.com/gocrypto.eligma
+- https://t.me/eligma
+- https://medium.com/eligma-blog
+- https://www.youtube.com/channel/UCfshAN27bKPe4f3uBIr7jjA
 redirect_from: 
-developerName: 'NAKA Global d.o.o.'
+developerName: NAKA Global d.o.o.
 features: 
 
 ---

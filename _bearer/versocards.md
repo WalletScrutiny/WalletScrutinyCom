@@ -5,8 +5,8 @@ authors:
 - danny
 released: 
 discontinued: 
-updated: '2015-11-26'
-version: '0.9.6'
+updated: 2015-11-26
+version: 0.9.6
 binaries: 
 dimensions: 
 weight: 
@@ -22,7 +22,7 @@ icon: versocards.png
 bugbounty: 
 meta: defunct
 verdict: prefilled
-date: '2022-03-23'
+date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: VersoCards

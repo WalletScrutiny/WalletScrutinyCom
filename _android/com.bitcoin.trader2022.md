@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Bitcoin Trader - Buy & Sell'
+title: Bitcoin Trader - Buy & Sell
 altTitle: 
 authors: 
 users: 500
-appId: 'com.bitcoin.trader2022'
+appId: com.bitcoin.trader2022
 appCountry: 
-released: '2022-02-10'
-updated: '2022-05-07'
+released: 2022-02-10
+updated: 2022-05-07
 version: '3.0'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://bitcointrader.icu/'
+website: https://bitcointrader.icu/
 repository: 
 issue: 
-icon: 'com.bitcoin.trader2022.png'
+icon: com.bitcoin.trader2022.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-09-15'
+date: 2023-09-15
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Bitcoin Trader Exchange'
+developerName: Bitcoin Trader Exchange
 features: 
 
 ---

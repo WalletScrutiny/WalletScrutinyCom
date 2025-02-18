@@ -1,39 +1,38 @@
 ---
-wsId: 'Vidulum'
-title: 'Vidulum - Crypto Web Wallet'
+wsId: Vidulum
+title: Vidulum - Crypto Web Wallet
 altTitle: 
 authors:
-- 'leo'
-- 'danny'
+- leo
+- danny
 users: 10000
-appId: 'com.vidulumwallet.app'
+appId: com.vidulumwallet.app
 appCountry: 
-released: '2019-04-04'
-updated: '2024-01-24'
+released: 2019-04-04
+updated: 2024-01-24
 version: '4.0'
 stars: 4
 ratings: 106
 reviews: 12
-size: 
-website: 'https://vidulum.app'
-repository: 'https://github.com/vidulum/vidulum.app'
+website: https://vidulum.app
+repository: https://github.com/vidulum/vidulum.app
 issue: 
-icon: 'com.vidulumwallet.app.png'
+icon: com.vidulumwallet.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2024-12-15'
+date: 2024-12-15
 signer: 
 reviewArchive: 
-twitter: 'VidulumApp'
+twitter: VidulumApp
 social:
-- 'https://www.facebook.com/VidulumTeam'
-- 'https://www.reddit.com/r/VidulumOfficial'
+- https://www.facebook.com/VidulumTeam
+- https://www.reddit.com/r/VidulumOfficial
 redirect_from:
-- '/com.vidulumwallet.app/'
-- '/posts/com.vidulumwallet.app/'
-developerName: 'Vidulum LLC'
+- /com.vidulumwallet.app/
+- /posts/com.vidulumwallet.app/
+developerName: Vidulum LLC
 features: 
 
 ---

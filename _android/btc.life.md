@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Btclife'
+title: Btclife
 altTitle: 
 authors: 
 users: 50
-appId: 'btc.life'
+appId: btc.life
 appCountry: 
-released: '2020-10-20'
-updated: '2020-10-20'
+released: 2020-10-20
+updated: 2020-10-20
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://btclife.cash/'
+website: https://btclife.cash/
 repository: 
 issue: 
-icon: 'btc.life.png'
+icon: btc.life.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,36 +1,36 @@
 ---
 wsId: 
-title: 'Bitcoin OX Crypto Wallet'
+title: Bitcoin OX Crypto Wallet
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 1000
-appId: 'org.bitcoinox.bitcoinoxwallet'
+appId: org.bitcoinox.bitcoinoxwallet
 appCountry: 
-released: '2019-02-04'
+released: 2019-02-04
 updated: 2024-12-22
-version: '2.8.8'
+version: 2.8.8
 stars: 3.9
 ratings: 32
 reviews: 4
-website: 'https://bitcoinox.com'
+website: https://bitcoinox.com
 repository: 
 issue: 
-icon: 'org.bitcoinox.bitcoinoxwallet.png'
+icon: org.bitcoinox.bitcoinoxwallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-12-23'
+date: 2024-12-23
 signer: 
 reviewArchive: 
-twitter: 'bitcoin_ox'
+twitter: bitcoin_ox
 social:
-- 'https://www.facebook.com/bitcoinoxwallet'
+- https://www.facebook.com/bitcoinoxwallet
 redirect_from:
-- '/org.bitcoinox.bitcoinoxwallet/'
-- '/posts/org.bitcoinox.bitcoinoxwallet/'
-developerName: 'GNUAPP UNIPESSOAL LDA'
+- /org.bitcoinox.bitcoinoxwallet/
+- /posts/org.bitcoinox.bitcoinoxwallet/
+developerName: GNUAPP UNIPESSOAL LDA
 features: 
 
 ---

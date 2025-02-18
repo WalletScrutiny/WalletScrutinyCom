@@ -26,7 +26,7 @@ bugbounty:
 meta: ok
 verdict: noita
 appHashes: 
-date: '2022-04-04'
+date: 2022-04-04
 signer: 
 reviewArchive: 
 twitter: walahala_dex

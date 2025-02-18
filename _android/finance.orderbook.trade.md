@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'OrderBook'
+title: OrderBook
 altTitle: 
 authors: 
 users: 500
-appId: 'finance.orderbook.trade'
+appId: finance.orderbook.trade
 appCountry: 
-released: '2021-12-29'
-updated: '2021-12-29'
-version: '1.0.0'
+released: 2021-12-29
+updated: 2021-12-29
+version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'finance.orderbook.trade.png'
+icon: finance.orderbook.trade.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-08-25'
+date: 2023-08-25
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Plus65 Interactive'
+developerName: Plus65 Interactive
 features: 
 
 ---

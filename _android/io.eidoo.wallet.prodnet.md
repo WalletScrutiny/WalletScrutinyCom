@@ -1,38 +1,37 @@
 ---
-wsId: 'eidoo'
+wsId: eidoo
 title: 'Eidoo: Bitcoin and Ethereum Wallet and Exchange'
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 100000
-appId: 'io.eidoo.wallet.prodnet'
+appId: io.eidoo.wallet.prodnet
 appCountry: 
-released: '2017-09-25'
-updated: '2021-11-08'
-version: '3.6.3'
+released: 2017-09-25
+updated: 2021-11-08
+version: 3.6.3
 stars: 3.9
 ratings: 1649
 reviews: 97
-size: 
-website: 'https://eidoo.io'
+website: https://eidoo.io
 repository: 
 issue: 
-icon: 'io.eidoo.wallet.prodnet.png'
+icon: io.eidoo.wallet.prodnet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
-twitter: 'eidoo_io'
+twitter: eidoo_io
 social:
-- 'https://www.linkedin.com/company/eidoo'
-- 'https://www.facebook.com/eidoocrypto'
-- 'https://www.reddit.com/r/eidooapp'
+- https://www.linkedin.com/company/eidoo
+- https://www.facebook.com/eidoocrypto
+- https://www.reddit.com/r/eidooapp
 redirect_from:
-- '/io.eidoo.wallet.prodnet/'
-- '/posts/io.eidoo.wallet.prodnet/'
+- /io.eidoo.wallet.prodnet/
+- /posts/io.eidoo.wallet.prodnet/
 developerName: 
 features: 
 

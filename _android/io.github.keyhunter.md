@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: 'Key Hunter - Bitcoin Checker'
+title: Key Hunter - Bitcoin Checker
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'io.github.keyhunter'
+appId: io.github.keyhunter
 appCountry: 
-released: '2022-05-17'
+released: 2022-05-17
 updated: 2024-09-04
-version: '2.2.2'
-stars: 3.8
+version: 2.2.2
+stars: 3.6
 ratings: 
-reviews: 16
+reviews: 17
 website: 
 repository: 
 issue: 
-icon: 'io.github.keyhunter.png'
+icon: io.github.keyhunter.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2023-09-04'
+date: 2023-09-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Alexandr21'
+developerName: Alexandr21
 features: 
 
 ---

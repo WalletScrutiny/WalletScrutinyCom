@@ -4,30 +4,29 @@ title: 'KittUp : Crypto Wallet'
 altTitle: 
 authors: 
 users: 50
-appId: 'com.kittup'
+appId: com.kittup
 appCountry: 
-released: '2022-11-02'
-updated: '2023-06-23'
-version: '1.0.7'
+released: 2022-11-02
+updated: 2023-06-23
+version: 1.0.7
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://kittup.app'
+website: https://kittup.app
 repository: 
 issue: 
-icon: 'com.kittup.png'
+icon: com.kittup.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-07-05'
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Schrodinger - KittyDinger'
+developerName: Schrodinger - KittyDinger
 features: 
 
 ---

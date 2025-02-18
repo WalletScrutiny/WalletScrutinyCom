@@ -1,37 +1,36 @@
 ---
 wsId: 
-title: 'AAX-Trade Crypto, Bitcoin, ETH'
+title: AAX-Trade Crypto, Bitcoin, ETH
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000000
-appId: 'com.aax.exchange'
+appId: com.aax.exchange
 appCountry: 
-released: '2019-03-04'
-updated: '2022-10-31'
-version: '3.3.7'
+released: 2019-03-04
+updated: 2022-10-31
+version: 3.3.7
 stars: 3.8
 ratings: 3299
 reviews: 89
-size: 
-website: 'https://www.aax.com/'
+website: https://www.aax.com/
 repository: 
 issue: 
-icon: 'com.aax.exchange.png'
+icon: com.aax.exchange.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
-twitter: 'AAXExchange'
+twitter: AAXExchange
 social:
-- 'https://www.linkedin.com/company/aax-atom-asset-exchange'
-- 'https://www.facebook.com/AAXExchange'
-- 'https://www.reddit.com/r/AAXExchange'
+- https://www.linkedin.com/company/aax-atom-asset-exchange
+- https://www.facebook.com/AAXExchange
+- https://www.reddit.com/r/AAXExchange
 redirect_from: 
-developerName: 'AAX'
+developerName: AAX
 features: 
 
 ---

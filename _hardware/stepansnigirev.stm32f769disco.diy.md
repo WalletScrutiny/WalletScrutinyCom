@@ -3,10 +3,10 @@ title: Stepan Snigirev STM32F769DISCO DIY Hardware Wallet
 appId: stepansnigirev.stm32f769disco.diy
 authors:
 - danny
-released: '2019-04-26'
+released: 2019-04-26
 discontinued: 
-updated: '2019-09-21'
-version: '0.0.2_alpha'
+updated: 2019-09-21
+version: 0.0.2_alpha
 binaries: 
 dimensions:
 - 120
@@ -26,7 +26,7 @@ bugbounty:
 meta: obsolete
 verdict: diy
 appHashes: 
-date: '2022-05-20'
+date: 2022-05-20
 signer: 
 reviewArchive: 
 twitter: stepansnigirev

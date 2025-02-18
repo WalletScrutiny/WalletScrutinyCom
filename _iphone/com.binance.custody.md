@@ -1,34 +1,33 @@
 ---
-wsId: 'ceffuCustody'
+wsId: ceffuCustody
 title: 'Ceffu: Institutional Custody'
 altTitle: 
 authors:
-- 'danny'
-appId: 'com.binance.custody'
-appCountry: 'sg'
+- danny
+appId: com.binance.custody
+appCountry: sg
 idd: '1595828184'
-released: '2021-12-01'
+released: 2021-12-01
 updated: 2025-02-14
-version: '4.5.0'
+version: 4.5.0
 stars: 4.5
 reviews: 2
-size: '107689984'
-website: 'https://www.ceffu.com'
+website: https://www.ceffu.com
 repository: 
 issue: 
-icon: 'com.binance.custody.jpg'
+icon: com.binance.custody.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-07-21'
+date: 2023-07-21
 signer: 
 reviewArchive: 
-twitter: 'CeffuGlobal'
+twitter: CeffuGlobal
 social:
-- 'https://www.linkedin.com/company/ceffu'
+- https://www.linkedin.com/company/ceffu
 features: 
-developerName: 'Block Custody'
+developerName: Block Custody
 
 ---
 

@@ -1,37 +1,37 @@
 ---
-wsId: 'scallopApp'
-title: 'E Money Network'
+wsId: scallopApp
+title: E Money Network
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.scallopxledger'
+appId: com.scallopxledger
 appCountry: 
-released: '2021-11-28'
-updated: 2025-02-12
-version: '1.6.4'
+released: 2021-11-28
+updated: 2025-02-14
+version: 1.6.6
 stars: 3.1
 ratings: 
 reviews: 9
-website: 'https://scallopx.com/'
+website: https://scallopx.com/
 repository: 
 issue: 
-icon: 'com.scallopxledger.png'
+icon: com.scallopxledger.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2025-01-27'
+date: 2025-01-27
 signer: 
 reviewArchive: 
-twitter: 'ScallopOfficial'
+twitter: ScallopOfficial
 social:
-- 'https://www.linkedin.com/company/scallopx'
-- 'https://t.me/Scallop_Official'
-- 'https://medium.com/scallopx'
-- 'https://www.instagram.com/scallop.official'
+- https://www.linkedin.com/company/scallopx
+- https://t.me/Scallop_Official
+- https://medium.com/scallopx
+- https://www.instagram.com/scallop.official
 redirect_from: 
-developerName: 'Scallop'
+developerName: Scallop
 features: 
 
 ---

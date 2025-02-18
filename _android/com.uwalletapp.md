@@ -1,36 +1,35 @@
 ---
 wsId: 
-title: 'Utrust Wallet'
+title: Utrust Wallet
 altTitle: 
 authors: 
 users: 5000
-appId: 'com.uwalletapp'
+appId: com.uwalletapp
 appCountry: 
 released: 
-updated: '2020-06-08'
-version: '1.4.2'
+updated: 2020-06-08
+version: 1.4.2
 stars: 4.3
 ratings: 106
 reviews: 58
-size: '80M'
-website: 'https://utrust.com'
+website: https://utrust.com
 repository: 
 issue: 
-icon: 'com.uwalletapp.png'
+icon: com.uwalletapp.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2021-01-23'
+date: 2021-01-23
 signer: 
 reviewArchive: 
-twitter: 'utrust'
+twitter: utrust
 social:
-- 'https://www.linkedin.com/company/utrust-payments'
-- 'https://www.facebook.com/utrust.io'
-- 'https://www.reddit.com/r/UTRUST_Official'
+- https://www.linkedin.com/company/utrust-payments
+- https://www.facebook.com/utrust.io
+- https://www.reddit.com/r/UTRUST_Official
 redirect_from:
-- '/com.uwalletapp/'
+- /com.uwalletapp/
 developerName: 
 features: 
 

@@ -1,35 +1,36 @@
 ---
 wsId: 
-title: 'Blixt Wallet'
+title: Blixt Wallet
 altTitle: 
 authors:
-- 'leo'
-- 'danny'
+- leo
+- danny
 users: 5000
-appId: 'com.blixtwallet'
+appId: com.blixtwallet
 appCountry: 
+released: 
 updated: 2025-01-23
-version: 'VARY'
+version: VARY
 stars: 
 ratings: 
 reviews: 
-website: 'https://blixtwallet.github.io'
-repository: 'https://github.com/hsjoberg/blixt-wallet'
-issue: 'https://github.com/hsjoberg/blixt-wallet/issues/318'
-icon: 'com.blixtwallet.png'
+website: https://blixtwallet.github.io
+repository: https://github.com/hsjoberg/blixt-wallet
+issue: https://github.com/hsjoberg/blixt-wallet/issues/318
+icon: com.blixtwallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nonverifiable'
+meta: ok
+verdict: nonverifiable
 appHashes: 
-date: '2022-02-07'
+date: 2022-02-07
 signer: 
 reviewArchive: 
-twitter: 'BlixtWallet'
+twitter: BlixtWallet
 social: 
 redirect_from: 
-developerName: 'Hampus Sjöberg'
+developerName: Hampus Sjöberg
 features:
-- 'ln'
+- ln
 
 ---
 

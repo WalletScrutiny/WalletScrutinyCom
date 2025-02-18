@@ -1,36 +1,36 @@
 ---
-wsId: 'thorWalletDeFi'
-title: 'THORWallet - Crypto Wallet'
+wsId: thorWalletDeFi
+title: THORWallet - Crypto Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'defisuisse.thorwallet'
+appId: defisuisse.thorwallet
 appCountry: 
-released: '2021-12-23'
+released: 2021-12-23
 updated: 2025-01-31
-version: '3.0.0'
+version: 3.0.0
 stars: 3.9
 ratings: 
 reviews: 32
-website: 'http://thorwallet.org'
+website: http://thorwallet.org
 repository: 
 issue: 
-icon: 'defisuisse.thorwallet.png'
+icon: defisuisse.thorwallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-24'
+date: 2024-07-24
 signer: 
 reviewArchive: 
-twitter: 'THORWalletDEX'
+twitter: THORWalletDEX
 social:
-- 'https://t.me/THORWalletOfficial'
-- 'https://discord.com/invite/TArAZHDjCr'
-- 'https://thorwallet.medium.com'
+- https://t.me/THORWalletOfficial
+- https://discord.com/invite/TArAZHDjCr
+- https://thorwallet.medium.com
 redirect_from: 
-developerName: 'DeFi Suisse AG'
+developerName: DeFi Suisse AG
 features: 
 
 ---

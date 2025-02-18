@@ -1,37 +1,37 @@
 ---
-wsId: 'geminiwallet'
+wsId: geminiwallet
 title: 'Gemini: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 1000000
-appId: 'com.gemini.android.app'
+appId: com.gemini.android.app
 appCountry: 
-released: '2018-12-10'
+released: 2018-12-10
 updated: 2025-02-14
-version: '25.204.2'
+version: 25.211.2
 stars: 4.3
 ratings: 38767
-reviews: 7672
-website: 'https://www.gemini.com'
+reviews: 7676
+website: https://www.gemini.com
 repository: 
 issue: 
-icon: 'com.gemini.android.app.png'
+icon: com.gemini.android.app.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2020-05-29'
+date: 2020-05-29
 signer: 
 reviewArchive: 
-twitter: 'gemini'
+twitter: gemini
 social:
-- 'https://www.linkedin.com/company/geminitrust'
-- 'https://www.facebook.com/GeminiTrust'
+- https://www.linkedin.com/company/geminitrust
+- https://www.facebook.com/GeminiTrust
 redirect_from:
-- '/com.gemini.android.app/'
-- '/posts/com.gemini.android.app/'
-developerName: 'Gemini Space Station, LLC'
+- /com.gemini.android.app/
+- /posts/com.gemini.android.app/
+developerName: Gemini Space Station, LLC
 features: 
 
 ---

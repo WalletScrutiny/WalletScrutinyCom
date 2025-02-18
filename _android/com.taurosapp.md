@@ -1,39 +1,38 @@
 ---
-wsId: 'TaurosExchange'
+wsId: TaurosExchange
 title: 'Tauros: Bitcoin exchange'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.taurosapp'
+appId: com.taurosapp
 appCountry: 
-released: '2019-10-03'
-updated: '2023-03-31'
-version: '9.6.4'
+released: 2019-10-03
+updated: 2023-03-31
+version: 9.6.4
 stars: 3.1
 ratings: 
 reviews: 5
-size: 
-website: 'https://tauros.io'
+website: https://tauros.io
 repository: 
 issue: 
-icon: 'com.taurosapp.png'
+icon: com.taurosapp.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-06-21'
+date: 2023-06-21
 signer: 
 reviewArchive: 
-twitter: 'tauros_io'
+twitter: tauros_io
 social:
-- 'https://www.instagram.com/tauros.io/'
-- 'https://www.facebook.com/tauros.io'
-- 'https://www.linkedin.com/company/taurosio/'
+- https://www.instagram.com/tauros.io/
+- https://www.facebook.com/tauros.io
+- https://www.linkedin.com/company/taurosio/
 redirect_from: 
-developerName: 'Tauros Exchange S.A. de C.V.'
+developerName: Tauros Exchange S.A. de C.V.
 features:
-- 'ln'
+- ln
 
 ---
 

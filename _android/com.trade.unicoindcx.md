@@ -1,38 +1,37 @@
 ---
-wsId: 'unicoinDCXTrader'
-title: 'Unicoin DCX Trader'
+wsId: unicoinDCXTrader
+title: Unicoin DCX Trader
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.trade.unicoindcx'
+appId: com.trade.unicoindcx
 appCountry: 
-released: '2018-08-29'
-updated: '2023-04-28'
-version: '2.0.0.1'
+released: 2018-08-29
+updated: 2023-04-28
+version: 2.0.0.1
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://unicoindcx.com/'
+website: https://unicoindcx.com/
 repository: 
 issue: 
-icon: 'com.trade.unicoindcx.png'
+icon: com.trade.unicoindcx.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-04-03'
+date: 2024-04-03
 signer: 
 reviewArchive: 
-twitter: 'Unicoin5'
+twitter: Unicoin5
 social:
-- 'https://www.facebook.com/unicoindcx'
-- 'https://www.linkedin.com/company/unicoindcx'
-- 'https://www.instagram.com/unicoindcx'
-- 'https://www.youtube.com/channel/UCVa0AyvJni57jdQ9jlGSUOw'
+- https://www.facebook.com/unicoindcx
+- https://www.linkedin.com/company/unicoindcx
+- https://www.instagram.com/unicoindcx
+- https://www.youtube.com/channel/UCVa0AyvJni57jdQ9jlGSUOw
 redirect_from: 
-developerName: 'Captain Infotech LLC'
+developerName: Captain Infotech LLC
 features: 
 
 ---

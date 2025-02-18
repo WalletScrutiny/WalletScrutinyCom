@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Neo Trade'
+title: Neo Trade
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.world.bestinfo'
+appId: com.world.bestinfo
 appCountry: 
-released: '2020-02-29'
-updated: '2020-02-29'
+released: 2020-02-29
+updated: 2020-02-29
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'http://neo-forex.com/'
+website: http://neo-forex.com/
 repository: 
 issue: 
-icon: 'com.world.bestinfo.png'
+icon: com.world.bestinfo.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'nosendreceive'
+meta: defunct
+verdict: nosendreceive
 appHashes: 
-date: '2023-06-10'
+date: 2023-06-10
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Neo Trade'
+developerName: Neo Trade
 features: 
 
 ---

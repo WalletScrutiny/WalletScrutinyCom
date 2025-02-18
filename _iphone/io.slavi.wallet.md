@@ -7,12 +7,11 @@ authors:
 appId: io.slavi.wallet
 appCountry: us
 idd: '1610125496'
-released: '2022-03-15'
-updated: '2024-04-09'
+released: 2022-03-15
+updated: 2024-04-09
 version: '1.26'
 stars: 4.5
 reviews: 20
-size: '61956096'
 website: https://slavi.io/
 repository: https://github.com/SlvLabs/slavi-wallet
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: nonverifiable
 appHashes: []
-date: '2023-07-06'
+date: 2023-07-06
 signer: 
 reviewArchive: 
 twitter: slavi_io

@@ -1,40 +1,39 @@
 ---
-wsId: 'lordtokenExchange'
-title: 'LordToken Exchange'
+wsId: lordtokenExchange
+title: LordToken Exchange
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.cloud.lordtoken'
+appId: com.cloud.lordtoken
 appCountry: 
-released: '2022-05-13'
-updated: '2023-05-30'
-version: '1.7.0'
+released: 2022-05-13
+updated: 2023-05-30
+version: 1.7.0
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://lordtoken.com'
+website: https://lordtoken.com
 repository: 
 issue: 
-icon: 'com.cloud.lordtoken.png'
+icon: com.cloud.lordtoken.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-11-02'
+date: 2023-11-02
 signer: 
 reviewArchive: 
-twitter: 'lordtoken_off'
+twitter: lordtoken_off
 social:
-- 'https://www.linkedin.com/company/lordtoken-pro'
-- 'https://www.facebook.com/LordToken.off'
-- 'https://www.instagram.com/lordtoken_off'
-- 'https://t.me/joinchat/1OhMDr9of4dhYjNk'
-- 'https://discord.com/invite/g5RvzcwVWq'
-- 'https://www.youtube.com/c/LordToken/videos'
+- https://www.linkedin.com/company/lordtoken-pro
+- https://www.facebook.com/LordToken.off
+- https://www.instagram.com/lordtoken_off
+- https://t.me/joinchat/1OhMDr9of4dhYjNk
+- https://discord.com/invite/g5RvzcwVWq
+- https://www.youtube.com/c/LordToken/videos
 redirect_from: 
-developerName: 'LORD SERVICES'
+developerName: LORD SERVICES
 features: 
 
 ---

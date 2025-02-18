@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'CryptoPlatz Vault'
+title: CryptoPlatz Vault
 altTitle: 
 authors: 
 users: 1
-appId: 'com.cryptoplatz.app'
+appId: com.cryptoplatz.app
 appCountry: 
 released: 
-updated: '2022-10-05'
-version: '1.0.0'
+updated: 2022-10-05
+version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.cryptoplatz.ch'
+website: https://www.cryptoplatz.ch
 repository: 
 issue: 
-icon: 'com.cryptoplatz.app.png'
+icon: com.cryptoplatz.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Crypto Platz'
+developerName: Crypto Platz
 features: 
 
 ---

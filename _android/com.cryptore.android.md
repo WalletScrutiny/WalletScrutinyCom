@@ -1,39 +1,38 @@
 ---
-wsId: 'coinlord'
-title: 'COINLORD'
+wsId: coinlord
+title: COINLORD
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.cryptore.android'
+appId: com.cryptore.android
 appCountry: 
-released: '2021-12-16'
-updated: '2024-11-05'
-version: '1.2.2'
+released: 2021-12-16
+updated: 2024-11-05
+version: 1.2.2
 stars: 4.8
 ratings: 
 reviews: 5
-size: 
-website: 'https://coinlord.org/'
+website: https://coinlord.org/
 repository: 
 issue: 
-icon: 'com.cryptore.android.jpg'
+icon: com.cryptore.android.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2024-10-16'
+date: 2024-10-16
 signer: 
 reviewArchive: 
-twitter: 'coinlord_trade'
+twitter: coinlord_trade
 social:
-- 'https://www.facebook.com/coinlordtradee'
-- 'https://www.linkedin.com/company/coinlord.trading'
-- 'https://t.me/coinlord_official'
-- 'https://www.instagram.com/coinlordtrade'
-- 'https://www.facebook.com/coinlordtradee'
+- https://www.facebook.com/coinlordtradee
+- https://www.linkedin.com/company/coinlord.trading
+- https://t.me/coinlord_official
+- https://www.instagram.com/coinlordtrade
+- https://www.facebook.com/coinlordtradee
 redirect_from: 
-developerName: 'Sanatan Technologies'
+developerName: Sanatan Technologies
 features: 
 
 ---

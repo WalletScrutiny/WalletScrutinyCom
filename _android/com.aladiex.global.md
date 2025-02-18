@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: 'Aladiex'
+title: Aladiex
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.aladiex.global'
+appId: com.aladiex.global
 appCountry: 
-released: '2020-07-04'
-updated: '2021-04-27'
-version: '1.7.9'
+released: 2020-07-04
+updated: 2021-04-27
+version: 1.7.9
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://aladiex.com'
+website: https://aladiex.com
 repository: 
 issue: 
-icon: 'com.aladiex.global.png'
+icon: com.aladiex.global.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-07-05'
+date: 2024-07-05
 signer: 
 reviewArchive: 
-twitter: 'Aladiexchange'
+twitter: Aladiexchange
 social:
-- 'https://www.facebook.com/AladiEx'
+- https://www.facebook.com/AladiEx
 redirect_from: 
-developerName: 'AladiEx Global Holdings Limited'
+developerName: AladiEx Global Holdings Limited
 features: 
 
 ---

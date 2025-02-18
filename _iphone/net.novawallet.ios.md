@@ -7,12 +7,11 @@ authors:
 appId: net.novawallet.ios
 appCountry: gb
 idd: '1592044359'
-released: '2021-10-27'
-updated: '2022-07-29'
-version: '2.2.3'
+released: 2021-10-27
+updated: 2022-07-29
+version: 2.2.3
 stars: 4.8
 reviews: 82
-size: '34328576'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: obsolete
 verdict: nosource
 appHashes: 
-date: '2024-07-19'
+date: 2024-07-19
 signer: 
 reviewArchive: 
 twitter: solidus_v

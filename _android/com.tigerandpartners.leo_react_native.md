@@ -1,35 +1,34 @@
 ---
-wsId: 'leoExchange'
-title: 'LEO12 Exchange'
+wsId: leoExchange
+title: LEO12 Exchange
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.tigerandpartners.leo_react_native'
+appId: com.tigerandpartners.leo_react_native
 appCountry: 
-released: '2022-06-14'
-updated: '2024-09-02'
-version: '2.1.6'
+released: 2022-06-14
+updated: 2024-09-02
+version: 2.1.6
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.tigerandpartners.leo_react_native.png'
+icon: com.tigerandpartners.leo_react_native.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-11-30'
+date: 2024-11-30
 signer: 
 reviewArchive: 
-twitter: 'LEO12_EXCHANGE'
+twitter: LEO12_EXCHANGE
 social:
-- 'https://www.leo12.com'
+- https://www.leo12.com
 redirect_from: 
-developerName: 'Tiger and Partners Pty'
+developerName: Tiger and Partners Pty
 features: 
 
 ---

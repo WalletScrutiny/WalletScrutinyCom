@@ -1,38 +1,38 @@
 ---
-wsId: 'starwalletStarworks'
-title: 'StarWALLET 3.0'
+wsId: starwalletStarworks
+title: StarWALLET 3.0
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.starworksglobal.starwallet'
+appId: com.starworksglobal.starwallet
 appCountry: 
-released: '2021-02-01'
+released: 2021-02-01
 updated: 2025-02-07
-version: '3.001.250'
+version: 3.001.250
 stars: 4.7
 ratings: 
 reviews: 
-website: 'https://www.starworksglobal.com'
+website: https://www.starworksglobal.com
 repository: 
 issue: 
-icon: 'com.starworksglobal.starwallet.png'
+icon: com.starworksglobal.starwallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nobtc'
+meta: ok
+verdict: nobtc
 appHashes: 
-date: '2023-08-14'
+date: 2023-08-14
 signer: 
 reviewArchive: 
-twitter: 'starworksglobal'
+twitter: starworksglobal
 social:
-- 'https://www.facebook.com/starworksglobal'
-- 'https://starworksglobal.medium.com'
-- 'https://www.linkedin.com/company/starworks-global-pte-ltd'
-- 'https://www.instagram.com/starworksglobal'
-- 'https://www.youtube.com/channel/UCty8czQ20jNHRB-cTeQrUDg'
+- https://www.facebook.com/starworksglobal
+- https://starworksglobal.medium.com
+- https://www.linkedin.com/company/starworks-global-pte-ltd
+- https://www.instagram.com/starworksglobal
+- https://www.youtube.com/channel/UCty8czQ20jNHRB-cTeQrUDg
 redirect_from: 
-developerName: 'Starworks Global'
+developerName: Starworks Global
 features: 
 
 ---

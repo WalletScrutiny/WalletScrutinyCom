@@ -1,36 +1,36 @@
 ---
-wsId: 'changelly'
+wsId: changelly
 title: 'Crypto Exchange: Buy Bitcoin'
 altTitle: 
 authors:
-- 'leo'
-- 'danny'
+- leo
+- danny
 users: 500000
-appId: 'com.changelly.app'
+appId: com.changelly.app
 appCountry: 
-released: '2018-08-28'
-updated: 2025-01-31
-version: '3.34.0'
+released: 2018-08-28
+updated: 2025-02-16
+version: 3.35.0
 stars: 4.7
 ratings: 5008
-reviews: 1026
-website: 'https://changelly.com/'
+reviews: 1037
+website: https://changelly.com/
 repository: 
 issue: 
-icon: 'com.changelly.app.jpg'
+icon: com.changelly.app.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2021-11-01'
+date: 2021-11-01
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from:
-- '/com.changelly.app/'
-- '/posts/com.changelly.app/'
-developerName: 'Changelly – Instant Crypto Exchange'
+- /com.changelly.app/
+- /posts/com.changelly.app/
+developerName: Changelly – Instant Crypto Exchange
 features: 
 
 ---

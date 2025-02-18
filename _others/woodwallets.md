@@ -4,7 +4,7 @@ appId: woodwallets
 authors:
 - danny
 icon: woodwallets.png
-date: '2022-05-19'
+date: 2022-05-19
 twitter: woodwallets
 provider: Woodwallets
 providerWebsite: https://woodwallets.io/
@@ -13,6 +13,7 @@ country: US
 price: 19USD
 meta: ok
 verdict: prefilled
+social: 
 
 ---
 

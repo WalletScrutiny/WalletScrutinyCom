@@ -1,40 +1,40 @@
 ---
-wsId: 'coinomi'
+wsId: coinomi
 title: 'Coinomi: Crypto Bitcoin Wallet'
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 1000000
-appId: 'com.coinomi.wallet'
+appId: com.coinomi.wallet
 appCountry: 
-released: '2014-01-31'
+released: 2014-01-31
 updated: 2025-01-23
-version: '1.50.0'
+version: 1.50.0
 stars: 3.7
 ratings: 39950
 reviews: 2242
-website: 'https://www.Coinomi.com'
+website: https://www.Coinomi.com
 repository: 
 issue: 
-icon: 'com.coinomi.wallet.png'
+icon: com.coinomi.wallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-09-14'
+date: 2024-09-14
 signer: 
 reviewArchive: 
-twitter: 'CoinomiWallet'
+twitter: CoinomiWallet
 social:
-- 'https://www.linkedin.com/company/coinomi'
-- 'https://www.facebook.com/coinomi'
-- 'https://www.reddit.com/r/COINOMI'
+- https://www.linkedin.com/company/coinomi
+- https://www.facebook.com/coinomi
+- https://www.reddit.com/r/COINOMI
 redirect_from:
-- '/coinomi/'
-- '/com.coinomi.wallet/'
-- '/posts/2019/11/coinomi/'
-- '/posts/com.coinomi.wallet/'
-developerName: 'Coinomi'
+- /coinomi/
+- /com.coinomi.wallet/
+- /posts/2019/11/coinomi/
+- /posts/com.coinomi.wallet/
+developerName: Coinomi
 features: 
 
 ---

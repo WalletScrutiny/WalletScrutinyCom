@@ -7,12 +7,11 @@ authors:
 appId: com.frontierwallet
 appCountry: in
 idd: 1482380988
-released: '2019-11-05'
-updated: '2024-08-27'
-version: '5.10.3'
+released: 2019-11-05
+updated: 2024-08-27
+version: 5.10.3
 stars: 4.8
 reviews: 47
-size: '119832576'
 website: https://frontier.xyz
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: nobtc
 appHashes: 
-date: '2024-11-04'
+date: 2024-11-04
 signer: 
 reviewArchive: 
 twitter: FrontierDotXYZ

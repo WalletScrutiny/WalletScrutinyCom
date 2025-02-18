@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'SplishPay'
+title: SplishPay
 altTitle: 
 authors: 
 users: 100
-appId: 'com.splishpay'
+appId: com.splishpay
 appCountry: 
-released: '2021-07-28'
-updated: '2022-02-13'
+released: 2021-07-28
+updated: 2022-02-13
 version: '2.2'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://splishpay.com/'
+website: https://splishpay.com/
 repository: 
 issue: 
-icon: 'com.splishpay.png'
+icon: com.splishpay.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-04-03'
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Splishpay'
+developerName: Splishpay
 features: 
 
 ---

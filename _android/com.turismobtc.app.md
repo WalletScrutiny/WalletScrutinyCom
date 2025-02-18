@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'TurismoBTC'
+title: TurismoBTC
 altTitle: 
 authors: 
 users: 10
-appId: 'com.turismobtc.app'
+appId: com.turismobtc.app
 appCountry: 
-released: '2019-04-22'
-updated: '2019-06-27'
-version: '1.2.4'
+released: 2019-04-22
+updated: 2019-06-27
+version: 1.2.4
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'http://www.turismobtc.com'
+website: http://www.turismobtc.com
 repository: 
 issue: 
-icon: 'com.turismobtc.app.png'
+icon: com.turismobtc.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'TurismoBTC'
+developerName: TurismoBTC
 features: 
 
 ---

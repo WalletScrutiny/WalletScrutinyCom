@@ -1,40 +1,39 @@
 ---
 wsId: 
-title: 'Bitcoin Wallet - Blockchain'
-altTitle: '(Fake) Bitcoin Wallet - Blockchain Explorer'
+title: Bitcoin Wallet - Blockchain
+altTitle: (Fake) Bitcoin Wallet - Blockchain Explorer
 authors:
-- 'kiwilamb'
-- 'leo'
+- kiwilamb
+- leo
 users: 50000
-appId: 'com.blockchain.wallet.btc'
+appId: com.blockchain.wallet.btc
 appCountry: 
-released: '2021-04-03'
-updated: '2022-11-23'
-version: '1.0.3.3'
+released: 2021-04-03
+updated: 2022-11-23
+version: 1.0.3.3
 stars: 4.3
 ratings: 948
 reviews: 68
-size: 
-website: 'https://coinhub8899.web.app'
-repository: 'https://github.com/hoanghiephui/Bitcoin-Wallet'
+website: https://coinhub8899.web.app
+repository: https://github.com/hoanghiephui/Bitcoin-Wallet
 issue: 
-icon: 'com.blockchain.wallet.btc.png'
+icon: com.blockchain.wallet.btc.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fake'
+meta: removed
+verdict: fake
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive:
-- date: '2021-06-04'
-  version: '1.0.1.8'
+- date: 2021-06-04
+  version: 1.0.1.8
   appHashes: []
-  gitRevision: 'b994137e4f91927a8680b389b81bb5945d1ddf71'
-  verdict: 'obfuscated'
+  gitRevision: b994137e4f91927a8680b389b81bb5945d1ddf71
+  verdict: obfuscated
 twitter: 
 social: 
 redirect_from: 
-developerName: 'InvoVN Solutions'
+developerName: InvoVN Solutions
 features: 
 
 ---

@@ -7,12 +7,11 @@ authors:
 appId: pl.icoindeal.CoinDeal
 appCountry: 
 idd: 1482619122
-released: '2019-11-11'
-updated: '2020-08-18'
-version: '1.0.6'
+released: 2019-11-11
+updated: 2020-08-18
+version: 1.0.6
 stars: 1
 reviews: 1
-size: '24220672'
 website: https://coindeal.com/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2023-05-10'
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: coindealcom

@@ -7,12 +7,11 @@ authors:
 appId: com.paritex.paritexapp
 appCountry: tr
 idd: 1550831461
-released: '2021-02-11'
-updated: '2022-08-30'
-version: '3.1.17'
+released: 2021-02-11
+updated: 2022-08-30
+version: 3.1.17
 stars: 4.2
 reviews: 83
-size: '113219584'
 website: https://www.paritex.com/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: defunct
 verdict: custodial
 appHashes: 
-date: '2023-04-16'
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: paritexexchange

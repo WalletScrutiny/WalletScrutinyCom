@@ -7,12 +7,11 @@ authors:
 appId: com.mtpelerin.bridge
 appCountry: us
 idd: 1481859680
-released: '2020-04-08'
-updated: '2024-11-06'
+released: 2020-04-08
+updated: 2024-11-06
 version: '1.46'
 stars: 4.1
 reviews: 74
-size: '125191168'
 website: https://www.mtpelerin.com/bridge-wallet
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: '2022-01-10'
+date: 2022-01-10
 signer: 
 reviewArchive: 
 twitter: mtpelerin

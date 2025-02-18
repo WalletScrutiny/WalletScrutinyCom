@@ -1,13 +1,13 @@
 ---
 wsId: 
-title: 'Forex indicator signals trend'
+title: Forex indicator signals trend
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'st.xpairssignals'
+appId: st.xpairssignals
 appCountry: 
-released: '2017-10-07'
+released: 2017-10-07
 updated: 2024-11-18
 version: '5.1'
 stars: 4.2
@@ -16,18 +16,18 @@ reviews: 37
 website: 
 repository: 
 issue: 
-icon: 'st.xpairssignals.png'
+icon: st.xpairssignals.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2024-11-19'
+date: 2024-11-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Massy Art'
+developerName: Massy Art
 features: 
 
 ---

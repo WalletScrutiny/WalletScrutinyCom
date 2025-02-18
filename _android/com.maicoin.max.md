@@ -1,34 +1,34 @@
 ---
-wsId: 'maxmaicoin'
-title: 'MAX Exchange - Buy Bitcoin'
+wsId: maxmaicoin
+title: MAX Exchange - Buy Bitcoin
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.maicoin.max'
-appCountry: 'us'
-released: '2018-07-01'
+appId: com.maicoin.max
+appCountry: us
+released: 2018-07-01
 updated: 2024-04-26
-version: '13.0.0'
+version: 13.0.0
 stars: 3.6
 ratings: 1049
 reviews: 11
-website: 'https://max.maicoin.com'
+website: https://max.maicoin.com
 repository: 
 issue: 
-icon: 'com.maicoin.max.png'
+icon: com.maicoin.max.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-10-01'
+date: 2021-10-01
 signer: 
 reviewArchive: 
-twitter: 'Max_exch'
+twitter: Max_exch
 social:
-- 'https://www.facebook.com/MaiCoinAssetExchange'
+- https://www.facebook.com/MaiCoinAssetExchange
 redirect_from: 
-developerName: 'MaiCoin Eng'
+developerName: MaiCoin Eng
 features: 
 
 ---

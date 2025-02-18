@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Bitcoin Wallet Market'
+title: Bitcoin Wallet Market
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.bitcoin.bankwallet'
+appId: com.bitcoin.bankwallet
 appCountry: 
-released: '2021-12-23'
-updated: '2022-04-10'
-version: '0.3.7'
+released: 2021-12-23
+updated: 2022-04-10
+version: 0.3.7
 stars: 4.6
 ratings: 
 reviews: 15
-size: 
-website: 'https://wallet-markets.web.app'
+website: https://wallet-markets.web.app
 repository: 
-issue: 'https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/494'
-icon: 'com.bitcoin.bankwallet.png'
+issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/494
+icon: com.bitcoin.bankwallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2024-11-04'
+date: 2024-11-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Oriental Thang Long'
+developerName: Oriental Thang Long
 features: 
 
 ---

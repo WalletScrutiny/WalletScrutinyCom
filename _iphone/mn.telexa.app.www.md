@@ -7,12 +7,11 @@ authors:
 appId: mn.telexa.app.www
 appCountry: us
 idd: '1596968900'
-released: '2021-12-02'
-updated: '2023-11-01'
+released: 2021-12-02
+updated: 2023-11-01
 version: '7.6'
 stars: 4.7
 reviews: 67
-size: '56816640'
 website: https://www.telexa.mn/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: stale
 verdict: nowallet
 appHashes: 
-date: '2024-10-28'
+date: 2024-10-28
 signer: 
 reviewArchive: 
 twitter: 

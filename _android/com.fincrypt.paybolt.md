@@ -1,39 +1,38 @@
 ---
-wsId: 'payBoltCrypto'
-title: 'PayBolt Crypto'
+wsId: payBoltCrypto
+title: PayBolt Crypto
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.fincrypt.paybolt'
+appId: com.fincrypt.paybolt
 appCountry: 
-released: '2022-04-03'
-updated: '2022-11-17'
-version: '3.4.0'
+released: 2022-04-03
+updated: 2022-11-17
+version: 3.4.0
 stars: 4.5
 ratings: 
 reviews: 5
-size: 
-website: 'https://paybolt.com'
+website: https://paybolt.com
 repository: 
 issue: 
-icon: 'com.fincrypt.paybolt.png'
+icon: com.fincrypt.paybolt.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nobtc'
+meta: removed
+verdict: nobtc
 appHashes: 
-date: '2024-12-15'
+date: 2024-12-15
 signer: 
 reviewArchive: 
-twitter: 'PayBoltOfficial'
+twitter: PayBoltOfficial
 social:
-- 'https://paybolt.com'
-- 'https://www.instagram.com/paybolt'
-- 'https://www.facebook.com/PayBolt'
-- 'https://www.linkedin.com/company/payboltofficial'
-- 'https://t.me/PayBolt'
+- https://paybolt.com
+- https://www.instagram.com/paybolt
+- https://www.facebook.com/PayBolt
+- https://www.linkedin.com/company/payboltofficial
+- https://t.me/PayBolt
 redirect_from: 
-developerName: 'FinCrypt'
+developerName: FinCrypt
 features: 
 
 ---

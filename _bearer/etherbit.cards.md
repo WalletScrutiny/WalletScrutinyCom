@@ -22,7 +22,7 @@ icon: etherbit.cards.png
 bugbounty: 
 meta: ok
 verdict: nobtc
-date: '2022-05-19'
+date: 2022-05-19
 signer: 
 reviewArchive: 
 twitter: EtherbitHQ

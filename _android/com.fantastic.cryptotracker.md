@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Bitcoin Loopholes Official App'
+title: Bitcoin Loopholes Official App
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.fantastic.cryptotracker'
+appId: com.fantastic.cryptotracker
 appCountry: 
-released: '2022-11-23'
-updated: '2022-12-29'
-version: '1.0.4'
+released: 2022-11-23
+updated: 2022-12-29
+version: 1.0.4
 stars: 5
 ratings: 
 reviews: 
-size: 
-website: 'https://ax-tech.xyz'
+website: https://ax-tech.xyz
 repository: 
 issue: 
-icon: 'com.fantastic.cryptotracker.jpg'
+icon: com.fantastic.cryptotracker.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2024-07-05'
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Rockwell Apps'
+developerName: Rockwell Apps
 features: 
 
 ---

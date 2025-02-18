@@ -1,29 +1,28 @@
 ---
 wsId: 
-title: 'BTC Mining Cloud'
+title: BTC Mining Cloud
 altTitle: 
 authors:
-- 'danny'
-- 'leo'
+- danny
+- leo
 users: 10000
-appId: 'com.multiminingapp.btcminingcloud'
+appId: com.multiminingapp.btcminingcloud
 appCountry: 
-released: '2021-03-25'
-updated: '2021-03-31'
+released: 2021-03-25
+updated: 2021-03-31
 version: '2.1'
 stars: 4.1
 ratings: 3255
 reviews: 1238
-size: '4.9M'
 website: 
 repository: 
 issue: 
-icon: 'com.multiminingapp.btcminingcloud.png'
+icon: com.multiminingapp.btcminingcloud.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2021-10-30'
+date: 2021-10-30
 signer: 
 reviewArchive: 
 twitter: 

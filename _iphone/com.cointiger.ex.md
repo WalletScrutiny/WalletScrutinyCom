@@ -7,12 +7,11 @@ authors:
 appId: com.cointiger.ex
 appCountry: us
 idd: 1366562802
-released: '2018-10-27'
-updated: '2020-06-23'
-version: '5.0.6'
+released: 2018-10-27
+updated: 2020-06-23
+version: 5.0.6
 stars: 2.7
 reviews: 96
-size: 152541184
 website: http://www.cointiger.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: defunct
 verdict: custodial
 appHashes: 
-date: '2022-01-15'
+date: 2022-01-15
 signer: 
 reviewArchive: 
 twitter: CoinTigerEX

@@ -3,33 +3,32 @@ wsId:
 title: 'Betconix: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.betconix'
+appId: com.betconix
 appCountry: 
-released: '2021-07-01'
-updated: '2021-12-14'
+released: 2021-07-01
+updated: 2021-12-14
 version: '6.7'
 stars: 3.8
 ratings: 
 reviews: 2
-size: 
-website: 'https://betconix.com/'
+website: https://betconix.com/
 repository: 
 issue: 
-icon: 'com.betconix.png'
+icon: com.betconix.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
-twitter: 'betconix'
+twitter: betconix
 social:
-- 'https://www.facebook.com/GNBetconixSTOU'
+- https://www.facebook.com/GNBetconixSTOU
 redirect_from: 
-developerName: 'GN Betconix ST s.r.o.'
+developerName: GN Betconix ST s.r.o.
 features: 
 
 ---

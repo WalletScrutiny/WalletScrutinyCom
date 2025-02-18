@@ -1,34 +1,34 @@
 ---
-wsId: 'wirexwalletdefi'
+wsId: wirexwalletdefi
 title: 'COCA: Crypto and DeFi'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 500000
-appId: 'com.wirex.wallet'
-appCountry: 'nz'
-released: '2021-12-03'
+appId: com.wirex.wallet
+appCountry: nz
+released: 2021-12-03
 updated: 2025-02-07
-version: '0.6.14'
+version: 0.6.14
 stars: 3.2
 ratings: 1053
 reviews: 15
-website: 'https://wirexapp.com/wirex-wallet'
+website: https://wirexapp.com/wirex-wallet
 repository: 
 issue: 
-icon: 'com.wirex.wallet.png'
+icon: com.wirex.wallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-17'
+date: 2024-07-17
 signer: 
 reviewArchive: 
-twitter: 'wirexapp'
+twitter: wirexapp
 social:
-- 'https://github.com/wirexapp'
+- https://github.com/wirexapp
 redirect_from: 
-developerName: 'CCA LABS'
+developerName: CCA LABS
 features: 
 
 ---

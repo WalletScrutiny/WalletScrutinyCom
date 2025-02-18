@@ -1,36 +1,36 @@
 ---
-wsId: 'elDoradoWalletExchange'
-title: 'El Dorado P2P'
+wsId: elDoradoWalletExchange
+title: El Dorado P2P
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 500000
-appId: 'io.eldorado.app'
+appId: io.eldorado.app
 appCountry: 
-released: '2022-04-19'
-updated: 2025-02-13
-version: '1.3.1370'
+released: 2022-04-19
+updated: 2025-02-14
+version: 1.3.1375
 stars: 4.7
 ratings: 
-reviews: 358
-website: 'https://eldorado.io'
+reviews: 361
+website: https://eldorado.io
 repository: 
 issue: 
-icon: 'io.eldorado.app.png'
+icon: io.eldorado.app.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-07-18'
+date: 2023-07-18
 signer: 
 reviewArchive: 
-twitter: 'eldoradoio'
+twitter: eldoradoio
 social:
-- 'https://www.linkedin.com/company/eldoradoio'
-- 'https://www.instagram.com/eldoradoio'
-- 'https://t.me/+400YDvBLAXhmOTQx'
+- https://www.linkedin.com/company/eldoradoio
+- https://www.instagram.com/eldoradoio
+- https://t.me/+400YDvBLAXhmOTQx
 redirect_from: 
-developerName: 'eldorado.io'
+developerName: eldorado.io
 features: 
 
 ---

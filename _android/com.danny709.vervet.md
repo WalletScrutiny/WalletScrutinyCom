@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Vervet - Social Value'
+title: Vervet - Social Value
 altTitle: 
 authors: 
 users: 10
-appId: 'com.danny709.vervet'
+appId: com.danny709.vervet
 appCountry: 
-released: '2022-06-04'
-updated: '2022-06-04'
-version: '1.0.2'
+released: 2022-06-04
+updated: 2022-06-04
+version: 1.0.2
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.vervetsystems.com'
+website: https://www.vervetsystems.com
 repository: 
 issue: 
-icon: 'com.danny709.vervet.png'
+icon: com.danny709.vervet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-04-03'
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Hilm Holdings Inc.'
+developerName: Hilm Holdings Inc.
 features: 
 
 ---

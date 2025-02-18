@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Skywallet'
+title: Skywallet
 altTitle: 
 authors: 
 users: 1000
-appId: 'skywallet.net'
+appId: skywallet.net
 appCountry: 
-released: '2020-05-11'
-updated: '2020-05-11'
-version: '1.0.3'
+released: 2020-05-11
+updated: 2020-05-11
+version: 1.0.3
 stars: 
 ratings: 
 reviews: 
-size: '5.7M'
-website: 'https://skywallet.net'
+website: https://skywallet.net
 repository: 
 issue: 
-icon: 'skywallet.net.jpg'
+icon: skywallet.net.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2022-05-31'
+date: 2022-05-31
 signer: 
 reviewArchive: 
 twitter: 

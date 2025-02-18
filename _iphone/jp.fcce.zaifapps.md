@@ -7,12 +7,11 @@ authors:
 appId: jp.fcce.zaifapps
 appCountry: in
 idd: 1505715935
-released: '2020-05-15'
-updated: '2023-08-16'
-version: '1.1.22'
+released: 2020-05-15
+updated: 2023-08-16
+version: 1.1.22
 stars: 0
 reviews: 0
-size: '25137152'
 website: https://zaif.jp/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: zaifdotjp

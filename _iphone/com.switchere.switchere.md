@@ -7,12 +7,11 @@ authors:
 appId: com.switchere.switchere
 appCountry: us
 idd: '1550289857'
-released: '2021-11-15'
-updated: '2024-08-08'
-version: '1.1.24'
+released: 2021-11-15
+updated: 2024-08-08
+version: 1.1.24
 stars: 3.3
 reviews: 73
-size: '40745984'
 website: https://switchere.com/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2023-04-12'
+date: 2023-04-12
 signer: 
 reviewArchive: 
 twitter: Switchere_com

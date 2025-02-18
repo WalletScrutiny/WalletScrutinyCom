@@ -1,36 +1,36 @@
 ---
-wsId: 'fibitPro'
-title: 'Fibit Pro'
+wsId: fibitPro
+title: Fibit Pro
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.fibitpro.fibitapp'
+appId: com.fibitpro.fibitapp
 appCountry: 
-released: '2021-11-27'
+released: 2021-11-27
 updated: 2023-10-23
-version: '0.9.1'
+version: 0.9.1
 stars: 4.8
 ratings: 
 reviews: 61
-website: 'https://fibitpro.com'
+website: https://fibitpro.com
 repository: 
 issue: 
-icon: 'com.fibitpro.fibitapp.png'
+icon: com.fibitpro.fibitapp.png
 bugbounty: 
-meta: 'stale'
-verdict: 'custodial'
+meta: stale
+verdict: custodial
 appHashes: 
-date: '2024-10-19'
+date: 2024-10-19
 signer: 
 reviewArchive: 
-twitter: 'fibitpro'
+twitter: fibitpro
 social:
-- 'https://www.linkedin.com/company/fibits'
-- 'https://www.facebook.com/fibitproexchange'
-- 'https://telegram.org/fibitpro'
+- https://www.linkedin.com/company/fibits
+- https://www.facebook.com/fibitproexchange
+- https://telegram.org/fibitpro
 redirect_from: 
-developerName: 'Fibit Infotech Pvt. Ltd.'
+developerName: Fibit Infotech Pvt. Ltd.
 features: 
 
 ---

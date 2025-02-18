@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'GoLiquid'
+title: GoLiquid
 altTitle: 
 authors: 
 users: 100
-appId: 'com.bitmex_trading'
+appId: com.bitmex_trading
 appCountry: 
-released: '2019-11-18'
-updated: '2020-05-19'
+released: 2019-11-18
+updated: 2020-05-19
 version: '1.0'
 stars: 5
 ratings: 
 reviews: 4
-size: 
-website: 'http://goliquid.app'
+website: http://goliquid.app
 repository: 
 issue: 
-icon: 'com.bitmex_trading.png'
+icon: com.bitmex_trading.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'cNepho.com'
+developerName: cNepho.com
 features: 
 
 ---

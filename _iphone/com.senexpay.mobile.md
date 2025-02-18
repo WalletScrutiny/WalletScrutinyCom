@@ -7,12 +7,11 @@ authors:
 appId: com.senexpay.mobile
 appCountry: us
 idd: '1627864145'
-released: '2022-08-18'
-updated: '2024-04-08'
-version: '1.5.3'
+released: 2022-08-18
+updated: 2024-04-08
+version: 1.5.3
 stars: 4.1
 reviews: 7
-size: '82956288'
 website: https://senexpay.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2023-09-07'
+date: 2023-09-07
 signer: 
 reviewArchive: 
 twitter: 

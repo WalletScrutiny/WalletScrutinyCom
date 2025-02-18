@@ -3,35 +3,34 @@ wsId:
 title: 'Paratica: Bitcoin Auto Trade'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.paratica.dashboard'
+appId: com.paratica.dashboard
 appCountry: 
-released: '2019-04-05'
-updated: '2019-04-05'
+released: 2019-04-05
+updated: 2019-04-05
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.paratica.com'
+website: https://www.paratica.com
 repository: 
 issue: 
-icon: 'com.paratica.dashboard.png'
+icon: com.paratica.dashboard.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2024-07-05'
+date: 2024-07-05
 signer: 
 reviewArchive: 
-twitter: 'paraticacom'
+twitter: paraticacom
 social:
-- 'https://www.linkedin.com/company/paratica/'
-- 'https://www.youtube.com/c/Paratica'
-- 'https://t.me/paratica'
+- https://www.linkedin.com/company/paratica/
+- https://www.youtube.com/c/Paratica
+- https://t.me/paratica
 redirect_from: 
-developerName: 'Paratica'
+developerName: Paratica
 features: 
 
 ---

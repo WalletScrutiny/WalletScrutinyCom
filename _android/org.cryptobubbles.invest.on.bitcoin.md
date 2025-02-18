@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Invest On Bitcoin'
+title: Invest On Bitcoin
 altTitle: 
 authors: 
 users: 1
-appId: 'org.cryptobubbles.invest.on.bitcoin'
+appId: org.cryptobubbles.invest.on.bitcoin
 appCountry: 
-released: '2021-07-17'
-updated: '2021-07-18'
+released: 2021-07-17
+updated: 2021-07-18
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: '2.4M'
 website: 
 repository: 
 issue: 
-icon: 'org.cryptobubbles.invest.on.bitcoin.png'
+icon: org.cryptobubbles.invest.on.bitcoin.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2021-10-01'
+date: 2021-10-01
 signer: 
 reviewArchive: 
 twitter: 

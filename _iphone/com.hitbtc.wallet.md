@@ -7,12 +7,11 @@ authors:
 appId: com.hitbtc.wallet
 appCountry: au
 idd: 1580572986
-released: '2021-09-01'
-updated: '2022-12-20'
-version: '1.3.8'
+released: 2021-09-01
+updated: 2022-12-20
+version: 1.3.8
 stars: 5
 reviews: 1
-size: '103245824'
 website: https://hitbtc.com/wallet
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2024-10-08'
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: hitbtc

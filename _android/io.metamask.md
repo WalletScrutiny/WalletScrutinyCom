@@ -1,35 +1,35 @@
 ---
-wsId: 'metamask'
-title: 'MetaMask - Blockchain Wallet'
+wsId: metamask
+title: MetaMask - Blockchain Wallet
 altTitle: 
 authors:
-- 'leo'
-- 'danny'
+- leo
+- danny
 users: 10000000
-appId: 'io.metamask'
+appId: io.metamask
 appCountry: 
-released: '2020-09-01'
-updated: 2025-02-05
-version: '7.39.0'
+released: 2020-09-01
+updated: 2025-02-14
+version: 7.39.0
 stars: 4.5
 ratings: 57131
-reviews: 5822
-website: 'https://support.metamask.io/'
-repository: 'https://github.com/MetaMask/metamask-mobile'
+reviews: 5832
+website: https://support.metamask.io/
+repository: https://github.com/MetaMask/metamask-mobile
 issue: 
-icon: 'io.metamask.png'
+icon: io.metamask.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nobtc'
+meta: ok
+verdict: nobtc
 appHashes: 
-date: '2024-07-24'
+date: 2024-07-24
 signer: 
 reviewArchive: 
-twitter: 'MetaMask'
+twitter: MetaMask
 social:
-- 'https://discord.com/invite/consensys'
+- https://discord.com/invite/consensys
 redirect_from: 
-developerName: 'MetaMask Web3 Wallet'
+developerName: MetaMask Web3 Wallet
 features: 
 
 ---

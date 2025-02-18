@@ -4,7 +4,7 @@ appId: bepalq
 authors:
 - kiwilamb
 - danny
-released: '2018-07-01'
+released: 2018-07-01
 discontinued: 
 updated: 
 version: 
@@ -27,7 +27,7 @@ bugbounty:
 meta: defunct
 verdict: wip
 appHashes: 
-date: '2021-12-04'
+date: 2021-12-04
 signer: 
 reviewArchive: 
 twitter: 

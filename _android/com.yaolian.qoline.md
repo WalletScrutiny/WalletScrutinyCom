@@ -1,35 +1,35 @@
 ---
-wsId: 'salletone'
-title: 'SalletOne Live'
+wsId: salletone
+title: SalletOne Live
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100
-appId: 'com.yaolian.qoline'
+appId: com.yaolian.qoline
 appCountry: 
-released: '2021-07-14'
+released: 2021-07-14
 updated: 2024-02-19
-version: '1.9.26'
+version: 1.9.26
 stars: 
 ratings: 
 reviews: 
-website: 'https://www.salletone.com'
+website: https://www.salletone.com
 repository: 
 issue: 
-icon: 'com.yaolian.qoline.png'
+icon: com.yaolian.qoline.png
 bugbounty: 
-meta: 'stale'
-verdict: 'fewusers'
+meta: stale
+verdict: fewusers
 appHashes: 
 date: 2025-02-14
 signer: 
 reviewArchive: 
-twitter: 'salletone'
+twitter: salletone
 social:
-- 'https://www.facebook.com/salletone'
-- 'https://github.com/SalletOne'
+- https://www.facebook.com/salletone
+- https://github.com/SalletOne
 redirect_from: 
-developerName: 'Doex Global Ltd'
+developerName: Doex Global Ltd
 features: 
 
 ---

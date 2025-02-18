@@ -1,35 +1,34 @@
 ---
-wsId: 'usdxwallet'
-title: 'USDX Wallet money transfer app'
+wsId: usdxwallet
+title: USDX Wallet money transfer app
 altTitle: 
 authors:
-- 'kiwilamb'
-appId: 'cash.usdx.wallet'
-appCountry: 'us'
+- kiwilamb
+appId: cash.usdx.wallet
+appCountry: us
 idd: '1367451869'
-released: '2018-04-23'
-updated: '2024-10-08'
-version: '1.34.2'
+released: 2018-04-23
+updated: 2024-10-08
+version: 1.34.2
 stars: 4.7
 reviews: 142
-size: '55813120'
-website: 'https://usdx.cash/airdrop'
+website: https://usdx.cash/airdrop
 repository: 
 issue: 
-icon: 'cash.usdx.wallet.jpg'
+icon: cash.usdx.wallet.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'nobtc'
+meta: removed
+verdict: nobtc
 appHashes: 
-date: '2024-12-08'
+date: 2024-12-08
 signer: 
 reviewArchive: 
-twitter: 'USDXwallet'
+twitter: USDXwallet
 social:
-- 'https://www.facebook.com/USDXwallet'
-- 'https://www.reddit.com/r/USDXwallet'
+- https://www.facebook.com/USDXwallet
+- https://www.reddit.com/r/USDXwallet
 features: 
-developerName: 'Lighthouse Blockchain Technology GmbH.'
+developerName: Lighthouse Blockchain Technology GmbH.
 
 ---
 

@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Bitcoin Cold'
+title: Bitcoin Cold
 altTitle: 
 authors: 
 users: 50
-appId: 'org.bitcoincold.wallet'
+appId: org.bitcoincold.wallet
 appCountry: 
-released: '2017-08-23'
-updated: '2017-08-23'
-version: '1.4.5'
+released: 2017-08-23
+updated: 2017-08-23
+version: 1.4.5
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'org.bitcoincold.wallet.png'
+icon: org.bitcoincold.wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-05-07'
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Michael Wittmann'
+developerName: Michael Wittmann
 features: 
 
 ---

@@ -1,34 +1,34 @@
 ---
-wsId: 'FluxPay'
-title: 'Flux'
+wsId: FluxPay
+title: Flux
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.fluxpayment'
-appCountry: 'us'
-released: '2020-09-02'
+appId: com.fluxpayment
+appCountry: us
+released: 2020-09-02
 updated: 2023-04-13
-version: '3.0.391'
+version: 3.0.391
 stars: 3.4
 ratings: 372
 reviews: 17
-website: 'https://iflux.app'
+website: https://iflux.app
 repository: 
 issue: 
-icon: 'com.fluxpayment.png'
+icon: com.fluxpayment.png
 bugbounty: 
-meta: 'stale'
-verdict: 'custodial'
+meta: stale
+verdict: custodial
 appHashes: 
-date: '2024-04-09'
+date: 2024-04-09
 signer: 
 reviewArchive: 
-twitter: 'ifluxdotapp'
+twitter: ifluxdotapp
 social:
-- 'https://www.linkedin.com/company/iflux-pay'
+- https://www.linkedin.com/company/iflux-pay
 redirect_from: 
-developerName: 'Blueloop Inc.'
+developerName: Blueloop Inc.
 features: 
 
 ---

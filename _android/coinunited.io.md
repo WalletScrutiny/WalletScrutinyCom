@@ -1,33 +1,33 @@
 ---
-wsId: 'CoinUnited'
+wsId: CoinUnited
 title: 'CoinUnited: Trade BTC & Stocks'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'coinunited.io'
-appCountry: 'cn'
-released: '2021-04-30'
+appId: coinunited.io
+appCountry: cn
+released: 2021-04-30
 updated: 2025-01-12
-version: '5.0.8'
-stars: 3.2
+version: 5.0.8
+stars: 3.3
 ratings: 151
-reviews: 224
-website: 'https://coinunited.io/'
+reviews: 225
+website: https://coinunited.io/
 repository: 
 issue: 
-icon: 'coinunited.io.jpg'
+icon: coinunited.io.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-11-15'
+date: 2021-11-15
 signer: 
 reviewArchive: 
-twitter: 'realcoinunited'
+twitter: realcoinunited
 social: 
 redirect_from: 
-developerName: 'CoinUnited'
+developerName: CoinUnited
 features: 
 
 ---

@@ -7,12 +7,11 @@ authors:
 appId: com.mayex.trading
 appCountry: us
 idd: '1614659988'
-released: '2022-04-06'
-updated: '2023-04-11'
-version: '1.9.8'
+released: 2022-04-06
+updated: 2023-04-11
+version: 1.9.8
 stars: 1.8
 reviews: 5
-size: '54935552'
 website: https://www.mayex.com/referral
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2024-07-05'
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: Mayex_Global

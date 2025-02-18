@@ -1,35 +1,35 @@
 ---
-wsId: 'CoinSwitch'
+wsId: CoinSwitch
 title: 'CoinSwitch: Crypto Trading App'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000000
-appId: 'com.coinswitch.kuber'
-appCountry: 'in'
-released: '2020-05-31'
+appId: com.coinswitch.kuber
+appCountry: in
+released: 2020-05-31
 updated: 2025-02-12
-version: '7.0.0'
+version: 7.0.0
 stars: 4.4
 ratings: 413931
-reviews: 143987
-website: 'https://coinswitch.co'
+reviews: 144022
+website: https://coinswitch.co
 repository: 
 issue: 
-icon: 'com.coinswitch.kuber.png'
+icon: com.coinswitch.kuber.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosendreceive'
+meta: ok
+verdict: nosendreceive
 appHashes: 
-date: '2021-10-21'
+date: 2021-10-21
 signer: 
 reviewArchive: 
-twitter: 'CoinSwitchKuber'
+twitter: CoinSwitchKuber
 social:
-- 'https://www.linkedin.com/company/coinswitch'
-- 'https://www.facebook.com/coinswitch'
+- https://www.linkedin.com/company/coinswitch
+- https://www.facebook.com/coinswitch
 redirect_from: 
-developerName: 'Bitkuber Investments Private Limited'
+developerName: Bitkuber Investments Private Limited
 features: 
 
 ---

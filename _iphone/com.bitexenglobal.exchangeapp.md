@@ -1,36 +1,35 @@
 ---
-wsId: 'bitexenGlobal'
-title: 'Bitexen Global'
+wsId: bitexenGlobal
+title: Bitexen Global
 altTitle: 
 authors:
-- 'danny'
-appId: 'com.bitexenglobal.exchangeapp'
-appCountry: 'az'
+- danny
+appId: com.bitexenglobal.exchangeapp
+appCountry: az
 idd: '1634643482'
-released: '2022-09-30'
-updated: 2024-12-11
-version: '1.98'
+released: 2022-09-30
+updated: 2025-02-15
+version: '2.0'
 stars: 0
 reviews: 0
-size: '138804224'
-website: 'https://global.bitexen.com'
+website: https://global.bitexen.com
 repository: 
 issue: 
-icon: 'com.bitexenglobal.exchangeapp.jpg'
+icon: com.bitexenglobal.exchangeapp.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-09-06'
+date: 2023-09-06
 signer: 
 reviewArchive: 
-twitter: 'bitexenglobal'
+twitter: bitexenglobal
 social:
-- 'https://www.facebook.com/profile.php?id=100086241075019'
-- 'https://www.linkedin.com/company/bitexen'
-- 'https://t.me/bitexenglobal'
+- https://www.facebook.com/profile.php?id=100086241075019
+- https://www.linkedin.com/company/bitexen
+- https://t.me/bitexenglobal
 features: 
-developerName: 'Bitexen Europe UAB'
+developerName: Bitexen Europe UAB
 
 ---
 

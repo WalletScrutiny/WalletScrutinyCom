@@ -1,36 +1,36 @@
 ---
-wsId: 'bingbon'
-title: 'BingX Trade BTC, Buy Crypto'
+wsId: bingbon
+title: BingX Trade BTC, Buy Crypto
 altTitle: 
 authors:
-- 'kiwilamb'
+- kiwilamb
 users: 5000000
-appId: 'pro.bingbon.app'
-appCountry: 'us'
-released: '2019-05-18'
-updated: 2025-02-07
-version: '4.52.5'
+appId: pro.bingbon.app
+appCountry: us
+released: 2019-05-18
+updated: 2025-02-14
+version: 4.52.6
 stars: 4.3
 ratings: 2828
-reviews: 1231
-website: 'https://bingx.com'
+reviews: 1234
+website: https://bingx.com
 repository: 
 issue: 
-icon: 'pro.bingbon.app.png'
+icon: pro.bingbon.app.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-04-21'
+date: 2021-04-21
 signer: 
 reviewArchive: 
-twitter: 'BingbonOfficial'
+twitter: BingbonOfficial
 social:
-- 'https://www.linkedin.com/company/bingbon'
-- 'https://www.facebook.com/BingbonOfficial'
-- 'https://www.reddit.com/r/Bingbon'
+- https://www.linkedin.com/company/bingbon
+- https://www.facebook.com/BingbonOfficial
+- https://www.reddit.com/r/Bingbon
 redirect_from: 
-developerName: 'BINGX GROUP LIMITED'
+developerName: BINGX GROUP LIMITED
 features: 
 
 ---

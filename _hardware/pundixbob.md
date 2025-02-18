@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: vapor
 appHashes: 
-date: '2024-10-31'
+date: 2024-10-31
 signer: 
 reviewArchive: 
 twitter: PundiXLabs

@@ -1,39 +1,39 @@
 ---
 wsId: 
-title: 'Tarmex'
+title: Tarmex
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.tarmex.tarmex'
+appId: com.tarmex.tarmex
 appCountry: 
-released: '2022-12-22'
+released: 2022-12-22
 updated: 2023-11-09
 version: '1.1'
 stars: 3.2
 ratings: 
 reviews: 
-website: 'https://tarmex.io'
+website: https://tarmex.io
 repository: 
 issue: 
-icon: 'com.tarmex.tarmex.png'
+icon: com.tarmex.tarmex.png
 bugbounty: 
-meta: 'stale'
-verdict: 'custodial'
+meta: stale
+verdict: custodial
 appHashes: 
-date: '2024-11-04'
+date: 2024-11-04
 signer: 
 reviewArchive: 
-twitter: 'Tarmexio'
+twitter: Tarmexio
 social:
-- 'https://www.facebook.com/Tarmex.exchange'
-- 'https://www.linkedin.com/company/tarmex'
-- 'https://t.me/TOKENTARM'
-- 'https://www.reddit.com/user/ARMTOKEN'
-- 'https://www.instagram.com/tarmexio'
-- 'https://www.youtube.com/@Tarmexio'
+- https://www.facebook.com/Tarmex.exchange
+- https://www.linkedin.com/company/tarmex
+- https://t.me/TOKENTARM
+- https://www.reddit.com/user/ARMTOKEN
+- https://www.instagram.com/tarmexio
+- https://www.youtube.com/@Tarmexio
 redirect_from: 
-developerName: 'Tarmex Exchange'
+developerName: Tarmex Exchange
 features: 
 
 ---

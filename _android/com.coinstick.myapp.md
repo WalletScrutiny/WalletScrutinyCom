@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: 'Coinstick'
+title: Coinstick
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.coinstick.myapp'
+appId: com.coinstick.myapp
 appCountry: 
-released: '2023-01-23'
+released: 2023-01-23
 updated: 2025-01-07
-version: '1.0.0'
+version: 1.0.0
 stars: 4.3
 ratings: 
 reviews: 5
-website: 'https://www.coinstick.co'
+website: https://www.coinstick.co
 repository: 
 issue: 
-icon: 'com.coinstick.myapp.png'
+icon: com.coinstick.myapp.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosendreceive'
+meta: ok
+verdict: nosendreceive
 appHashes: 
-date: '2023-12-02'
+date: 2023-12-02
 signer: 
 reviewArchive: 
-twitter: 'coinstickHQ'
+twitter: coinstickHQ
 social:
-- 'https://www.facebook.com/CoinstickHQ'
+- https://www.facebook.com/CoinstickHQ
 redirect_from: 
-developerName: 'Coinstick'
+developerName: Coinstick
 features: 
 
 ---

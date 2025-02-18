@@ -3,10 +3,10 @@ title: BitcoinZ CLI
 appId: bitcoinZ.cli
 authors:
 - danny
-released: '2017-09-25'
+released: 2017-09-25
 discontinued: 
-updated: '2022-09-10'
-version: '2.0.8'
+updated: 2022-09-10
+version: 2.0.8
 binaries: 
 provider: BitcoinZ
 providerWebsite: 
@@ -17,7 +17,7 @@ icon: bitcoinZ.cli.png
 bugbounty: 
 meta: obsolete
 verdict: nobtc
-date: '2024-04-24'
+date: 2024-04-24
 reviewArchive: 
 twitter: BTCZOfficial
 social: 

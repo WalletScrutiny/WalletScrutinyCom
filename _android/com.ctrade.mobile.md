@@ -1,35 +1,34 @@
 ---
-wsId: 'CTrade'
-title: 'C-Trade'
+wsId: CTrade
+title: C-Trade
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.ctrade.mobile'
-appCountry: 'us'
-released: '2020-12-19'
-updated: '2022-08-02'
-version: '1.2.2'
+appId: com.ctrade.mobile
+appCountry: us
+released: 2020-12-19
+updated: 2022-08-02
+version: 1.2.2
 stars: 4.8
 ratings: 
 reviews: 
-size: 
-website: 'https://www.c-trade.com/'
+website: https://www.c-trade.com/
 repository: 
 issue: 
-icon: 'com.ctrade.mobile.png'
+icon: com.ctrade.mobile.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-05-07'
+date: 2024-05-07
 signer: 
 reviewArchive: 
-twitter: 'CTrade_official'
+twitter: CTrade_official
 social:
-- 'https://www.facebook.com/CTradeProOfficial'
+- https://www.facebook.com/CTradeProOfficial
 redirect_from: 
-developerName: 'C-Trade Global Limited'
+developerName: C-Trade Global Limited
 features: 
 
 ---

@@ -1,36 +1,36 @@
 ---
-wsId: 'kriptradeExchange'
-title: 'Kriptrade'
+wsId: kriptradeExchange
+title: Kriptrade
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.kriptrade.mobile'
+appId: com.kriptrade.mobile
 appCountry: 
-released: '2021-10-20'
+released: 2021-10-20
 updated: 2025-01-21
-version: '3.0.7'
+version: 3.0.7
 stars: 4.1
 ratings: 
 reviews: 
-website: 'https://kriptrade.com'
+website: https://kriptrade.com
 repository: 
 issue: 
-icon: 'com.kriptrade.mobile.png'
+icon: com.kriptrade.mobile.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-09-06'
+date: 2023-09-06
 signer: 
 reviewArchive: 
-twitter: 'kriptradetr'
+twitter: kriptradetr
 social:
-- 'https://www.facebook.com/KriptradeTR'
-- 'https://www.instagram.com/kriptrade'
-- 'https://www.youtube.com/channel/UCJxN4di4kXY89NxOiv3K6BA'
+- https://www.facebook.com/KriptradeTR
+- https://www.instagram.com/kriptrade
+- https://www.youtube.com/channel/UCJxN4di4kXY89NxOiv3K6BA
 redirect_from: 
-developerName: 'Kriptrade Kripto Varlık Alım Satım Platformu A.Ş.'
+developerName: Kriptrade Kripto Varlık Alım Satım Platformu A.Ş.
 features: 
 
 ---

@@ -7,12 +7,11 @@ authors:
 appId: com.theblockchain.coinus.wallet
 appCountry: bj
 idd: 1367339746
-released: '2018-04-24'
-updated: '2022-01-03'
-version: '2.9.0'
+released: 2018-04-24
+updated: 2022-01-03
+version: 2.9.0
 stars: 0
 reviews: 0
-size: '99999744'
 website: https://www.coinus.io/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: nosource
 appHashes: 
-date: '2022-05-31'
+date: 2022-05-31
 signer: 
 reviewArchive: 
 twitter: CoinUs_Official

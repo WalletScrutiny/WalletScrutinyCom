@@ -1,28 +1,27 @@
 ---
 wsId: 
-title: 'Bitcoin Buy & Sell Guide for Coinbase'
+title: Bitcoin Buy & Sell Guide for Coinbase
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.buyandsellbtcguide.coinbase.buyandsellcoinsviacoinbase'
+appId: com.buyandsellbtcguide.coinbase.buyandsellcoinsviacoinbase
 appCountry: 
-released: '2021-04-29'
-updated: '2022-05-19'
+released: 2021-04-29
+updated: 2022-05-19
 version: '1.7'
 stars: 4.3
 ratings: 286
 reviews: 24
-size: 
-website: 'https://rolltuk.blogspot.com/'
+website: https://rolltuk.blogspot.com/
 repository: 
 issue: 
-icon: 'com.buyandsellbtcguide.coinbase.buyandsellcoinsviacoinbase.png'
+icon: com.buyandsellbtcguide.coinbase.buyandsellcoinsviacoinbase.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

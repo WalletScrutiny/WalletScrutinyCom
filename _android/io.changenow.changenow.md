@@ -1,37 +1,37 @@
 ---
-wsId: 'ChangeNOW'
+wsId: ChangeNOW
 title: 'Crypto exchange: USDT, Bitcoin'
 altTitle: 
 authors:
-- 'leo'
-- 'danny'
+- leo
+- danny
 users: 100000
-appId: 'io.changenow.changenow'
+appId: io.changenow.changenow
 appCountry: 
-released: '2018-09-07'
+released: 2018-09-07
 updated: 2025-02-07
-version: '1.155.28'
+version: 1.155.31
 stars: 4.8
 ratings: 2199
-reviews: 747
-website: 'https://changenow.io'
+reviews: 748
+website: https://changenow.io
 repository: 
 issue: 
-icon: 'io.changenow.changenow.png'
+icon: io.changenow.changenow.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-13'
+date: 2024-07-13
 signer: 
 reviewArchive: 
-twitter: 'ChangeNOW_io'
+twitter: ChangeNOW_io
 social:
-- 'https://www.facebook.com/ChangeNOW.io'
-- 'https://www.reddit.com/r/ChangeNOW_io'
+- https://www.facebook.com/ChangeNOW.io
+- https://www.reddit.com/r/ChangeNOW_io
 redirect_from:
-- '/io.changenow.changenow/'
-developerName: 'ChangeNOW'
+- /io.changenow.changenow/
+developerName: ChangeNOW
 features: 
 
 ---

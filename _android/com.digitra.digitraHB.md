@@ -1,37 +1,37 @@
 ---
-wsId: 'digitraTrading'
-title: 'Digitra.com - BTC & Crypto'
+wsId: digitraTrading
+title: Digitra.com - BTC & Crypto
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.digitra.digitraHB'
+appId: com.digitra.digitraHB
 appCountry: 
-released: '2022-03-05'
+released: 2022-03-05
 updated: 2025-02-03
-version: '1.0.140'
+version: 1.0.140
 stars: 4.3
 ratings: 
 reviews: 10
-website: 'https://www.digitra.com'
+website: https://www.digitra.com
 repository: 
 issue: 
-icon: 'com.digitra.digitraHB.png'
+icon: com.digitra.digitraHB.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2022-07-31'
+date: 2022-07-31
 signer: 
 reviewArchive: 
-twitter: 'Digitra_com'
+twitter: Digitra_com
 social:
-- 'https://www.facebook.com/DigitraGlobal/'
-- 'https://www.linkedin.com/company/digitra-global/'
-- 'https://www.instagram.com/digitracom/'
-- 'https://www.youtube.com/@digitracom'
+- https://www.facebook.com/DigitraGlobal/
+- https://www.linkedin.com/company/digitra-global/
+- https://www.instagram.com/digitracom/
+- https://www.youtube.com/@digitracom
 redirect_from: 
-developerName: 'Digitra.com'
+developerName: Digitra.com
 features: 
 
 ---

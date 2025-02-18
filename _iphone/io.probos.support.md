@@ -7,12 +7,11 @@ authors:
 appId: io.probos.support
 appCountry: ua
 idd: '1615751706'
-released: '2022-09-20'
-updated: '2022-10-01'
+released: 2022-09-20
+updated: 2022-10-01
 version: '1.1'
 stars: 5
 reviews: 1
-size: '53679104'
 website: https://probos.io/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: nosource
 appHashes: 
-date: '2024-07-05'
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: probos_wallet

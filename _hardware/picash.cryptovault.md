@@ -26,7 +26,7 @@ bugbounty:
 meta: ok
 verdict: noita
 appHashes: 
-date: '2023-04-28'
+date: 2023-04-28
 signer: 
 reviewArchive: 
 twitter: ilinkeds

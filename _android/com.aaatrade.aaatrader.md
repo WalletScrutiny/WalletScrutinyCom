@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'AAATrader - Worldwide Trading'
+title: AAATrader - Worldwide Trading
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.aaatrade.aaatrader'
+appId: com.aaatrade.aaatrader
 appCountry: 
 released: 
-updated: '2023-09-22'
-version: '1.1.10'
+updated: 2023-09-22
+version: 1.1.10
 stars: 4.6
 ratings: 
 reviews: 
-size: 
-website: 'https://www.aaatrade.com'
+website: https://www.aaatrade.com
 repository: 
 issue: 
-icon: 'com.aaatrade.aaatrader.png'
+icon: com.aaatrade.aaatrader.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosendreceive'
+meta: removed
+verdict: nosendreceive
 appHashes: 
-date: '2024-11-19'
+date: 2024-11-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'AAATrade'
+developerName: AAATrade
 features: 
 
 ---

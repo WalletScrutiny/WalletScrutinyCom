@@ -1,35 +1,34 @@
 ---
-wsId: 'B4UWallet'
+wsId: B4UWallet
 title: 'B4U Wallet: Crypto Bitcoin Wal'
 altTitle: 
 authors:
-- 'kiwilamb'
+- kiwilamb
 users: 10000
-appId: 'com.b4uwallet.android'
+appId: com.b4uwallet.android
 appCountry: 
-released: '2018-10-19'
-updated: '2021-04-22'
-version: '4.3.4'
+released: 2018-10-19
+updated: 2021-04-22
+version: 4.3.4
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://b4uwallet.com'
+website: https://b4uwallet.com
 repository: 
 issue: 
-icon: 'com.b4uwallet.android.png'
+icon: com.b4uwallet.android.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-09-04'
+date: 2023-09-04
 signer: 
 reviewArchive: 
-twitter: 'b4uwallet_b4u'
+twitter: b4uwallet_b4u
 social:
-- 'https://www.facebook.com/B4uwalletofficial'
+- https://www.facebook.com/B4uwalletofficial
 redirect_from: 
-developerName: 'B4U soft'
+developerName: B4U soft
 features: 
 
 ---

@@ -7,12 +7,11 @@ authors:
 appId: com.dok.wallet
 appCountry: il
 idd: 1533065700
-released: '2020-10-08'
-updated: '2025-02-10'
-version: '2.04'
+released: 2020-10-08
+updated: 2025-02-16
+version: '2.05'
 stars: 5
 reviews: 1
-size: '96904192'
 website: https://dokwallet.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: '2023-10-03'
+date: 2023-10-03
 signer: 
 reviewArchive: 
 twitter: 

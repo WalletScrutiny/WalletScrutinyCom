@@ -7,12 +7,11 @@ authors:
 appId: com.easycoin.exchange
 appCountry: in
 idd: '1617986309'
-released: '2022-09-28'
-updated: '2023-07-10'
-version: '1.0.78'
+released: 2022-09-28
+updated: 2023-07-10
+version: 1.0.78
 stars: 5
 reviews: 1
-size: '107962368'
 website: https://www.easycoins.com/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2024-07-05'
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: EasyCoinsCrypto

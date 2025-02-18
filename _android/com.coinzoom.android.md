@@ -1,35 +1,35 @@
 ---
-wsId: 'coinZoom'
-title: 'CoinZoom feat. ZoomMe'
+wsId: coinZoom
+title: CoinZoom feat. ZoomMe
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.coinzoom.android'
+appId: com.coinzoom.android
 appCountry: 
-released: '2022-03-25'
+released: 2022-03-25
 updated: 2025-02-13
-version: '1.2.0.10180'
-stars: 3.6
+version: 1.2.0.10180
+stars: 3.7
 ratings: 
-reviews: 85
-website: 'https://www.coinzoom.com'
+reviews: 86
+website: https://www.coinzoom.com
 repository: 
 issue: 
-icon: 'com.coinzoom.android.png'
+icon: com.coinzoom.android.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-03-30'
+date: 2023-03-30
 signer: 
 reviewArchive: 
-twitter: 'GetCoinZoom'
+twitter: GetCoinZoom
 social:
-- 'https://www.facebook.com/CoinZoom'
-- 'https://www.linkedin.com/company/coinzoomhq/'
+- https://www.facebook.com/CoinZoom
+- https://www.linkedin.com/company/coinzoomhq/
 redirect_from: 
-developerName: 'CoinZoom'
+developerName: CoinZoom
 features: 
 
 ---

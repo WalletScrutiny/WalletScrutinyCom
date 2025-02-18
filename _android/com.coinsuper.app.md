@@ -1,33 +1,32 @@
 ---
-wsId: 'Coinsuper'
-title: 'Coinsuper'
+wsId: Coinsuper
+title: Coinsuper
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.coinsuper.app'
-appCountry: 'us'
-released: '2018-04-24'
-updated: '2021-11-04'
-version: '2.5.8'
+appId: com.coinsuper.app
+appCountry: us
+released: 2018-04-24
+updated: 2021-11-04
+version: 2.5.8
 stars: 3.2
 ratings: 164
 reviews: 98
-size: '13M'
-website: 'https://www.coinsuper.com/'
+website: https://www.coinsuper.com/
 repository: 
 issue: 
-icon: 'com.coinsuper.app.png'
+icon: com.coinsuper.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2022-01-31'
+date: 2022-01-31
 signer: 
 reviewArchive: 
-twitter: 'Coinsuper_OFCL'
+twitter: Coinsuper_OFCL
 social:
-- 'https://www.facebook.com/CoinsuperOFCL'
+- https://www.facebook.com/CoinsuperOFCL
 redirect_from: 
 developerName: 
 features: 

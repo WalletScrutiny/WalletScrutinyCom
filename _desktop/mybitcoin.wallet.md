@@ -3,10 +3,10 @@ title: Panteam MyBitcoinWallet
 appId: mybitcoin.wallet
 authors:
 - danny
-released: '2018-02-27'
+released: 2018-02-27
 discontinued: 
-updated: '2023-02-23'
-version: '1.89.0.0'
+updated: 2023-02-23
+version: 1.89.0.0
 binaries: 
 provider: Panteam Ltd.
 providerWebsite: http://panteam.net
@@ -17,7 +17,7 @@ icon:
 bugbounty: 
 meta: stale
 verdict: wip
-date: '2024-04-25'
+date: 2024-04-25
 reviewArchive: 
 twitter: 
 social: 

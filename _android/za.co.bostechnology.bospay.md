@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'BOS.Pay™️'
+title: BOS.Pay™️
 altTitle: 
 authors: 
 users: 50
-appId: 'za.co.bostechnology.bospay'
+appId: za.co.bostechnology.bospay
 appCountry: 
 released: 
-updated: '2022-08-03'
-version: 'VARY'
+updated: 2022-08-03
+version: VARY
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://bospay.co/'
+website: https://bospay.co/
 repository: 
 issue: 
-icon: 'za.co.bostechnology.bospay.png'
+icon: za.co.bostechnology.bospay.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-09-08'
+date: 2024-09-08
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'BOS Technology PTY Ltd'
+developerName: BOS Technology PTY Ltd
 features: 
 
 ---

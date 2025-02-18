@@ -3,7 +3,7 @@ title: YubiKey 5Ci by Evercoin
 appId: evercoin
 authors:
 - danny
-released: '2019-11-12'
+released: 2019-11-12
 discontinued: 
 updated: 
 version: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: noita
 appHashes: 
-date: '2022-04-29'
+date: 2022-04-29
 signer: 
 reviewArchive: 
 twitter: evercoin

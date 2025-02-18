@@ -3,31 +3,31 @@ wsId:
 title: 'خرید و فروش ارزدیجیتال: بیت 24'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'cash.bit24'
+appId: cash.bit24
 appCountry: 
-released: '2021-05-30'
+released: 2021-05-30
 updated: 2025-02-09
-version: '8.9.14'
+version: 8.9.14
 stars: 4.3
 ratings: 2325
 reviews: 125
-website: 'https://bit24.cash'
+website: https://bit24.cash
 repository: 
 issue: 
-icon: 'cash.bit24.png'
+icon: cash.bit24.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2021-10-16'
+date: 2021-10-16
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Bit24'
+developerName: Bit24
 features: 
 
 ---

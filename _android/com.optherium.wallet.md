@@ -1,37 +1,36 @@
 ---
 wsId: 
-title: 'VivexPay'
+title: VivexPay
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.optherium.wallet'
+appId: com.optherium.wallet
 appCountry: 
-released: '2018-08-23'
-updated: '2019-03-12'
-version: '1.3.5'
+released: 2018-08-23
+updated: 2019-03-12
+version: 1.3.5
 stars: 5
 ratings: 
 reviews: 11
-size: 
-website: 'https://vivuspay.io'
+website: https://vivuspay.io
 repository: 
 issue: 
-icon: 'com.optherium.wallet.png'
+icon: com.optherium.wallet.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'wip'
+meta: defunct
+verdict: wip
 appHashes: 
-date: '2023-05-31'
+date: 2023-05-31
 signer: 
 reviewArchive: 
-twitter: 'optherium'
+twitter: optherium
 social:
-- 'https://optherium.com'
-- 'https://www.youtube.com/c/OptheriumLabs'
-- 'https://t.me/optherium_club'
+- https://optherium.com
+- https://www.youtube.com/c/OptheriumLabs
+- https://t.me/optherium_club
 redirect_from: 
-developerName: 'Optherium Labs'
+developerName: Optherium Labs
 features: 
 
 ---

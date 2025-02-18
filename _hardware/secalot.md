@@ -3,7 +3,7 @@ title: Secalot
 appId: secalot
 authors:
 - kiwilamb
-released: '2018-01-01'
+released: 2018-01-01
 discontinued: 
 updated: 
 version: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: discontinued
 verdict: noita
 appHashes: 
-date: '2023-09-29'
+date: 2023-09-29
 signer: 
 reviewArchive: 
 twitter: SecalotDongle

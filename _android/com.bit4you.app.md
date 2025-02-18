@@ -1,36 +1,35 @@
 ---
-wsId: 'bit4you'
-title: 'bit4you'
+wsId: bit4you
+title: bit4you
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.bit4you.app'
+appId: com.bit4you.app
 appCountry: 
-released: '2018-01-18'
-updated: '2022-11-10'
-version: '0.9.1'
+released: 2018-01-18
+updated: 2022-11-10
+version: 0.9.1
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.bit4you.io'
+website: https://www.bit4you.io
 repository: 
 issue: 
-icon: 'com.bit4you.app.png'
+icon: com.bit4you.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-09-28'
+date: 2023-09-28
 signer: 
 reviewArchive: 
-twitter: 'Bit4you1'
+twitter: Bit4you1
 social:
-- 'https://www.facebook.com/bit4you.io'
-- 'https://www.instagram.com/bit4you.io'
+- https://www.facebook.com/bit4you.io
+- https://www.instagram.com/bit4you.io
 redirect_from: 
-developerName: 'bit4you SA'
+developerName: bit4you SA
 features: 
 
 ---

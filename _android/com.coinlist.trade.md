@@ -1,33 +1,32 @@
 ---
-wsId: 'CoinList'
-title: 'CoinList'
+wsId: CoinList
+title: CoinList
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000000
-appId: 'com.coinlist.trade'
-appCountry: 'us'
-released: '2020-08-10'
-updated: '2021-12-06'
-version: '2.0.8'
+appId: com.coinlist.trade
+appCountry: us
+released: 2020-08-10
+updated: 2021-12-06
+version: 2.0.8
 stars: 3
 ratings: 4377
 reviews: 193
-size: 
-website: 'https://coinlist.co/'
+website: https://coinlist.co/
 repository: 
 issue: 
-icon: 'com.coinlist.trade.png'
+icon: com.coinlist.trade.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
-twitter: 'coinlist'
+twitter: coinlist
 social:
-- 'https://www.facebook.com/CoinListOfficial'
+- https://www.facebook.com/CoinListOfficial
 redirect_from: 
 developerName: 
 features: 

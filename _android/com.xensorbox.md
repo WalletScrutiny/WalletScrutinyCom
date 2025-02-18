@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Xensor Box:Easy-to-use, safe c'
+title: Xensor Box:Easy-to-use, safe c
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.xensorbox'
+appId: com.xensorbox
 appCountry: 
-released: '2019-09-27'
-updated: '2019-12-02'
-version: '1.3.6'
+released: 2019-09-27
+updated: 2019-12-02
+version: 1.3.6
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://xensor.cc'
+website: https://xensor.cc
 repository: 
 issue: 
-icon: 'com.xensorbox.png'
+icon: com.xensorbox.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'wip'
+meta: defunct
+verdict: wip
 appHashes: 
-date: '2023-06-10'
+date: 2023-06-10
 signer: 
 reviewArchive: 
-twitter: 'xensor_iot'
+twitter: xensor_iot
 social: 
 redirect_from: 
-developerName: 'xenix studio'
+developerName: xenix studio
 features: 
 
 ---

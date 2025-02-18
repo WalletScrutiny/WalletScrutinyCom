@@ -3,10 +3,10 @@ title: Ellipal Titan Mini
 appId: ellipal.titan.mini
 authors:
 - danny
-released: '2022-10-18'
+released: 2022-10-18
 discontinued: 
-updated: '2024-10-08'
-version: '4.2.0'
+updated: 2024-10-08
+version: 4.2.0
 binaries: https://www.ellipal.com/pages/ellipal-titan-mini-firmware-update
 dimensions:
 - 75
@@ -26,7 +26,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: '2024-11-15'
+date: 2024-11-15
 signer: 
 reviewArchive: 
 twitter: ellipalwallet

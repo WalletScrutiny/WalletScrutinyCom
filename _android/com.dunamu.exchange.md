@@ -1,35 +1,35 @@
 ---
 wsId: 
-title: '업비트 - 가장 신뢰받는 디지털 자산(비트코인) 거래소'
+title: 업비트 - 가장 신뢰받는 디지털 자산(비트코인) 거래소
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000000
-appId: 'com.dunamu.exchange'
+appId: com.dunamu.exchange
 appCountry: 
-released: '2017-10-23'
+released: 2017-10-23
 updated: 2025-02-13
-version: '1.31.1'
+version: 1.31.1
 stars: 3.4
 ratings: 29440
 reviews: 18
-website: 'https://upbit.com'
+website: https://upbit.com
 repository: 
 issue: 
-icon: 'com.dunamu.exchange.png'
+icon: com.dunamu.exchange.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-08-21'
+date: 2021-08-21
 signer: 
 reviewArchive: 
-twitter: 'upbitglobal'
+twitter: upbitglobal
 social:
-- 'https://www.linkedin.com/company/upbit-official'
-- 'https://www.facebook.com/upbit.exchange'
+- https://www.linkedin.com/company/upbit-official
+- https://www.facebook.com/upbit.exchange
 redirect_from: 
-developerName: 'Dunamu'
+developerName: Dunamu
 features: 
 
 ---

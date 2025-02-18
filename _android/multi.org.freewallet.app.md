@@ -1,34 +1,33 @@
 ---
-wsId: 'mwfreewallet'
-title: 'Freewallet MultiWallet Classic'
+wsId: mwfreewallet
+title: Freewallet MultiWallet Classic
 altTitle: 
 authors:
-- 'kiwilamb'
+- kiwilamb
 users: 50000
-appId: 'multi.org.freewallet.app'
+appId: multi.org.freewallet.app
 appCountry: 
-released: '2017-08-10'
-updated: '2018-10-29'
-version: '1.0.69'
+released: 2017-08-10
+updated: 2018-10-29
+version: 1.0.69
 stars: 4.1
 ratings: 2017
 reviews: 148
-size: 
-website: 'https://freewallet.org/'
+website: https://freewallet.org/
 repository: 
 issue: 
-icon: 'multi.org.freewallet.app.png'
+icon: multi.org.freewallet.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
-twitter: 'freewalletorg'
+twitter: freewalletorg
 social:
-- 'https://www.facebook.com/freewallet.org'
-- 'https://www.reddit.com/r/Freewallet_org'
+- https://www.facebook.com/freewallet.org
+- https://www.reddit.com/r/Freewallet_org
 redirect_from: 
 developerName: 
 features: 

@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'EasyCryptos'
+title: EasyCryptos
 altTitle: 
 authors: 
 users: 1
-appId: 'pixel.websolutions.ecrytpos.easy_cryptos'
+appId: pixel.websolutions.ecrytpos.easy_cryptos
 appCountry: 
-released: '2022-02-10'
-updated: '2022-02-10'
-version: '1.0.0'
+released: 2022-02-10
+updated: 2022-02-10
+version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://easycryptos.io/'
+website: https://easycryptos.io/
 repository: 
 issue: 
-icon: 'pixel.websolutions.ecrytpos.easy_cryptos.png'
+icon: pixel.websolutions.ecrytpos.easy_cryptos.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'ntfs pokem ale'
+developerName: ntfs pokem ale
 features: 
 
 ---

@@ -1,36 +1,36 @@
 ---
-wsId: 'kucoinExchange'
+wsId: kucoinExchange
 title: 'KuCoin: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 10000000
-appId: 'com.kubi.kucoin'
+appId: com.kubi.kucoin
 appCountry: 
-released: '2018-05-03'
-updated: 2025-02-13
-version: '3.126.0'
+released: 2018-05-03
+updated: 2025-02-17
+version: 3.127.0
 stars: 4.5
 ratings: 72555
-reviews: 4952
-website: 'https://www.kucoin.com'
+reviews: 4954
+website: https://www.kucoin.com
 repository: 
 issue: 
-icon: 'com.kubi.kucoin.jpg'
+icon: com.kubi.kucoin.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-02-09'
+date: 2021-02-09
 signer: 
 reviewArchive: 
-twitter: 'KuCoinCom'
+twitter: KuCoinCom
 social:
-- 'https://www.linkedin.com/company/kucoin'
-- 'https://www.facebook.com/KuCoinOfficial'
-- 'https://www.reddit.com/r/kucoin'
+- https://www.linkedin.com/company/kucoin
+- https://www.facebook.com/KuCoinOfficial
+- https://www.reddit.com/r/kucoin
 redirect_from: 
-developerName: 'KuCoin'
+developerName: KuCoin
 features: 
 
 ---

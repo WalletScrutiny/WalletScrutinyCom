@@ -4,8 +4,8 @@ appId: cryptowizard.usbcoldwallet
 authors:
 - danny
 icon: cryptowizard.usbcoldwallet.png
-date: '2023-09-29'
-released: '2022-05-02'
+date: 2023-09-29
+released: 2022-05-02
 social:
 - https://www.facebook.com/profile.php?id=100046009663491
 weight: 56.7

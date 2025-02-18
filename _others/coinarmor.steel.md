@@ -4,14 +4,15 @@ appId: coinarmor.steel
 authors:
 - danny
 icon: coinarmor.steel.png
-date: '2022-05-10'
-released: '2018-01-04'
+date: 2022-05-10
+released: 2018-01-04
 website: >-
   https://www.kickstarter.com/projects/437309334/coin-armor-steel-cryptocurrency-wallet
 provider: Anna Landik
 country: US
 meta: ok
 verdict: prefilled
+social: 
 
 ---
 

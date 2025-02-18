@@ -1,34 +1,34 @@
 ---
-wsId: 'ember'
-title: 'Ember - Earn Crypto'
+wsId: ember
+title: Ember - Earn Crypto
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000000
-appId: 'com.emberfund.ember'
-appCountry: 'us'
-released: '2019-01-24'
+appId: com.emberfund.ember
+appCountry: us
+released: 2019-01-24
 updated: 2024-12-09
 version: '35.6'
 stars: 3.8
 ratings: 1026
-reviews: 1865
-website: 'https://www.emberfund.io/'
+reviews: 1877
+website: https://www.emberfund.io/
 repository: 
 issue: 
-icon: 'com.emberfund.ember.jpg'
+icon: com.emberfund.ember.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-15'
+date: 2024-07-15
 signer: 
 reviewArchive: 
-twitter: 'Ember_Fund'
+twitter: Ember_Fund
 social:
-- 'https://github.com/ember-fund'
+- https://github.com/ember-fund
 redirect_from: 
-developerName: 'Ember Fund Inc'
+developerName: Ember Fund Inc
 features: 
 
 ---

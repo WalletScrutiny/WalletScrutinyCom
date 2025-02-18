@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'TMC Wallet'
+title: TMC Wallet
 altTitle: 
 authors: 
 users: 500
-appId: 'com.tmc.wallet'
+appId: com.tmc.wallet
 appCountry: 
-released: '2022-11-04'
-updated: '2023-05-04'
-version: '1.2.1'
+released: 2022-11-04
+updated: 2023-05-04
+version: 1.2.1
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://themembersclub.vip'
+website: https://themembersclub.vip
 repository: 
 issue: 
-icon: 'com.tmc.wallet.png'
+icon: com.tmc.wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-08-02'
+date: 2024-08-02
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'TMC The Members Club'
+developerName: TMC The Members Club
 features: 
 
 ---

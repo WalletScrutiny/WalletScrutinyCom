@@ -7,12 +7,11 @@ authors:
 appId: org.sonitix-private-limited-sonitix-mobility
 appCountry: in
 idd: '1637173983'
-released: '2022-08-11'
-updated: '2022-11-16'
+released: 2022-08-11
+updated: 2022-11-16
 version: '1.4'
 stars: 4.3
 reviews: 24
-size: '35306496'
 website: https://sonitix.exchange/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: defunct
 verdict: custodial
 appHashes: 
-date: '2023-09-15'
+date: 2023-09-15
 signer: 
 reviewArchive: 
 twitter: SonitixO

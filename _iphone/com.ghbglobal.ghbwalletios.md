@@ -7,12 +7,11 @@ authors:
 appId: com.ghbglobal.ghbwalletios
 appCountry: sa
 idd: '1507339655'
-released: '2020-04-23'
-updated: '2021-12-01'
-version: '1.1.8'
+released: 2020-04-23
+updated: 2021-12-01
+version: 1.1.8
 stars: 0
 reviews: 0
-size: '87882752'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: nobtc
 appHashes: 
-date: '2024-07-17'
+date: 2024-07-17
 signer: 
 reviewArchive: 
 twitter: CorporationGhb

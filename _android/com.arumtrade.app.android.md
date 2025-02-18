@@ -1,37 +1,36 @@
 ---
 wsId: 
-title: 'Arum Trade — Investing  & Trad'
+title: Arum Trade — Investing  & Trad
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.arumtrade.app.android'
+appId: com.arumtrade.app.android
 appCountry: 
 released: 
-updated: '2021-11-18'
-version: '1.0.4'
+updated: 2021-11-18
+version: 1.0.4
 stars: 3.5
 ratings: 
 reviews: 
-size: 
-website: 'https://arumtrade.com'
+website: https://arumtrade.com
 repository: 
 issue: 
-icon: 'com.arumtrade.app.android.png'
+icon: com.arumtrade.app.android.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2024-04-03'
+date: 2024-04-03
 signer: 
 reviewArchive: 
-twitter: 'ArumTrade'
+twitter: ArumTrade
 social:
-- 'https://www.facebook.com/arumtrade'
-- 'https://www.instagram.com/arum_trade'
-- 'https://web.archive.org/web/20220208231508/https://arumtrade.com/en/'
+- https://www.facebook.com/arumtrade
+- https://www.instagram.com/arum_trade
+- https://web.archive.org/web/20220208231508/https://arumtrade.com/en/
 redirect_from: 
-developerName: 'Arum Trade Ltd'
+developerName: Arum Trade Ltd
 features: 
 
 ---

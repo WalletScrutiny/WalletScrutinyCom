@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Skyefly'
+title: Skyefly
 altTitle: 
 authors: 
 users: 50
-appId: 'skyefly.net'
+appId: skyefly.net
 appCountry: 
-released: '2020-11-11'
-updated: '2020-11-11'
+released: 2020-11-11
+updated: 2020-11-11
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://skyefly.net'
+website: https://skyefly.net
 repository: 
 issue: 
-icon: 'skyefly.net.png'
+icon: skyefly.net.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-05-07'
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Omojowo Technologies'
+developerName: Omojowo Technologies
 features: 
 
 ---

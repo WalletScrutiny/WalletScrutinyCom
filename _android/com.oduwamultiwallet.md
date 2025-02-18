@@ -1,37 +1,36 @@
 ---
-wsId: 'oduwaTrustWallet'
-title: 'Oduwa Trust Wallet'
+wsId: oduwaTrustWallet
+title: Oduwa Trust Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.oduwamultiwallet'
+appId: com.oduwamultiwallet
 appCountry: 
-released: '2021-07-24'
-updated: '2022-10-07'
-version: '1.1.5'
+released: 2021-07-24
+updated: 2022-10-07
+version: 1.1.5
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.oduwacoin.io/'
-repository: 'https://github.com/ODUWAX/Android'
+website: https://www.oduwacoin.io/
+repository: https://github.com/ODUWAX/Android
 issue: 
-icon: 'com.oduwamultiwallet.png'
+icon: com.oduwamultiwallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2024-11-04'
+date: 2024-11-04
 signer: 
 reviewArchive: 
-twitter: 'Oduwacoin'
+twitter: Oduwacoin
 social:
-- 'https://www.facebook.com/Oduwacoin'
-- 'https://www.instagram.com/oduwacoin'
-- 'https://telegram.im/@oduwacoinexchange'
+- https://www.facebook.com/Oduwacoin
+- https://www.instagram.com/oduwacoin
+- https://telegram.im/@oduwacoinexchange
 redirect_from: 
-developerName: 'ODUWA BLOCKCHAIN SOLUTION'
+developerName: ODUWA BLOCKCHAIN SOLUTION
 features: 
 
 ---

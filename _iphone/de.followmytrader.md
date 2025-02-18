@@ -7,12 +7,11 @@ authors:
 appId: de.followmytrader
 appCountry: us
 idd: '1487657162'
-released: '2020-03-06'
-updated: '2024-12-19'
-version: '3.1.1'
+released: 2020-03-06
+updated: 2024-12-19
+version: 3.1.1
 stars: 0
 reviews: 0
-size: '105094144'
 website: https://followmymoney.de
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2023-04-13'
+date: 2023-04-13
 signer: 
 reviewArchive: 
 twitter: 

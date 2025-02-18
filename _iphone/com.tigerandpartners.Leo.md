@@ -7,12 +7,11 @@ authors:
 appId: com.tigerandpartners.Leo
 appCountry: us
 idd: '1611097014'
-released: '2022-02-25'
-updated: '2023-06-20'
-version: '2.0.7'
+released: 2022-02-25
+updated: 2023-06-20
+version: 2.0.7
 stars: 0
 reviews: 0
-size: '19169280'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: stale
 verdict: custodial
 appHashes: 
-date: '2024-06-17'
+date: 2024-06-17
 signer: 
 reviewArchive: 
 twitter: LEO12_EXCHANGE

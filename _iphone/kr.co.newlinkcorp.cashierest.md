@@ -7,12 +7,11 @@ authors:
 appId: kr.co.newlinkcorp.cashierest
 appCountry: kr
 idd: '1462245208'
-released: '2019-09-29'
-updated: '2023-10-18'
-version: '4.24.3'
+released: 2019-09-29
+updated: 2023-10-18
+version: 4.24.3
 stars: 4.1
 reviews: 35
-size: '59111424'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: stale
 verdict: custodial
 appHashes: 
-date: '2024-10-13'
+date: 2024-10-13
 signer: 
 reviewArchive: 
 twitter: 

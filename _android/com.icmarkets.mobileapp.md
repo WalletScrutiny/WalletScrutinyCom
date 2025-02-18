@@ -1,35 +1,34 @@
 ---
-wsId: 'iCMarkets'
-title: 'IC Markets'
+wsId: iCMarkets
+title: IC Markets
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 500000
-appId: 'com.icmarkets.mobileapp'
+appId: com.icmarkets.mobileapp
 appCountry: 
-released: '2022-01-19'
-updated: '2022-06-22'
+released: 2022-01-19
+updated: 2022-06-22
 version: '2.0'
 stars: 4.2
 ratings: 
 reviews: 6
-size: 
-website: 'https://icmarkets.com'
+website: https://icmarkets.com
 repository: 
 issue: 
-icon: 'com.icmarkets.mobileapp.png'
+icon: com.icmarkets.mobileapp.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosendreceive'
+meta: removed
+verdict: nosendreceive
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
-twitter: 'IC_Markets'
+twitter: IC_Markets
 social:
-- 'https://www.linkedin.com/company/icmarkets'
+- https://www.linkedin.com/company/icmarkets
 redirect_from: 
-developerName: 'IC Markets - Trade CFDs on Stocks, Forex & More'
+developerName: IC Markets - Trade CFDs on Stocks, Forex & More
 features: 
 
 ---

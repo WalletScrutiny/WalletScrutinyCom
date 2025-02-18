@@ -1,41 +1,40 @@
 ---
-wsId: 'shidoWalletDefi'
-title: 'Shido Wallet | DeFi Crypto'
+wsId: shidoWalletDefi
+title: Shido Wallet | DeFi Crypto
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.shidowallet'
+appId: com.shidowallet
 appCountry: 
-released: '2022-09-30'
-updated: '2023-07-28'
+released: 2022-09-30
+updated: 2023-07-28
 version: '1.8'
 stars: 4.6
 ratings: 
 reviews: 36
-size: 
-website: 'https://shido.io'
+website: https://shido.io
 repository: 
 issue: 
-icon: 'com.shidowallet.png'
+icon: com.shidowallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2024-03-02'
+date: 2024-03-02
 signer: 
 reviewArchive: 
-twitter: 'ShidoGlobal'
+twitter: ShidoGlobal
 social:
-- 'https://www.linkedin.com/in/shido-global-522554261'
-- 'https://discord.com/invite/9zvD93q5dW'
-- 'https://t.me/ShidoGlobal'
-- 'https://www.youtube.com/@ShidoGlobal'
-- 'https://www.facebook.com/ShidoGlobal'
-- 'https://www.instagram.com/shidoglobal'
-- 'https://www.reddit.com/r/ShidoInuOfficial'
+- https://www.linkedin.com/in/shido-global-522554261
+- https://discord.com/invite/9zvD93q5dW
+- https://t.me/ShidoGlobal
+- https://www.youtube.com/@ShidoGlobal
+- https://www.facebook.com/ShidoGlobal
+- https://www.instagram.com/shidoglobal
+- https://www.reddit.com/r/ShidoInuOfficial
 redirect_from: 
-developerName: 'Shido Finance'
+developerName: Shido Finance
 features: 
 
 ---

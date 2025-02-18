@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: 'Lightning Address to Invoice'
+title: Lightning Address to Invoice
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'ua.com.radiokot.lnaddr2invoice'
+appId: ua.com.radiokot.lnaddr2invoice
 appCountry: 
-released: '2023-02-18'
+released: 2023-02-18
 updated: 2024-08-26
-version: '1.4.0'
+version: 1.4.0
 stars: 
 ratings: 
 reviews: 
-website: 'https://radiokot.com.ua'
+website: https://radiokot.com.ua
 repository: 
 issue: 
-icon: 'ua.com.radiokot.lnaddr2invoice.png'
+icon: ua.com.radiokot.lnaddr2invoice.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2024-11-28'
+date: 2024-11-28
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://www.linkedin.com/in/radiokot'
+- https://www.linkedin.com/in/radiokot
 redirect_from: 
-developerName: 'Oleg K'
+developerName: Oleg K
 features: 
 
 ---

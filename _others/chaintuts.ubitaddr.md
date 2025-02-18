@@ -4,9 +4,9 @@ appId: chaintuts.ubitaddr
 authors:
 - danny
 icon: chaintuts.ubitaddr.png
-date: '2022-05-19'
-released: '2019-08-12'
-updated: '2020-05-01'
+date: 2022-05-19
+released: 2019-08-12
+updated: 2020-05-01
 website: https://chaintuts.com/
 repository: https://github.com/chaintuts/ubitaddr
 twitter: chaintuts

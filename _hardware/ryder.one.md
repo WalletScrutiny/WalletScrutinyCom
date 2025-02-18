@@ -3,7 +3,7 @@ title: Ryder
 appId: ryder.one
 authors:
 - danny
-released: '2023-11-01'
+released: 2023-11-01
 discontinued: 
 updated: 
 version: 
@@ -27,7 +27,7 @@ bugbounty:
 meta: ok
 verdict: unreleased
 appHashes: 
-date: '2024-10-31'
+date: 2024-10-31
 signer: 
 reviewArchive: 
 twitter: Ryder_ID

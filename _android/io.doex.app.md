@@ -1,37 +1,36 @@
 ---
 wsId: 
-title: 'DOEX'
+title: DOEX
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'io.doex.app'
+appId: io.doex.app
 appCountry: 
-released: '2022-06-11'
-updated: '2024-08-15'
-version: '2.2.2'
+released: 2022-06-11
+updated: 2024-08-15
+version: 2.2.2
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'http://www.doex.com'
+website: http://www.doex.com
 repository: 
 issue: 
-icon: 'io.doex.app.png'
+icon: io.doex.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-09-26'
+date: 2024-09-26
 signer: 
 reviewArchive: 
-twitter: 'Doex888'
+twitter: Doex888
 social:
-- 'https://www.doex.com/'
-- 'https://t.me/DoexOfficial888'
-- 'https://www.youtube.com/channel/UCsLBiU-tsyhzcFAf19lBZqQ'
+- https://www.doex.com/
+- https://t.me/DoexOfficial888
+- https://www.youtube.com/channel/UCsLBiU-tsyhzcFAf19lBZqQ
 redirect_from: 
-developerName: 'ETERNA BEAUTY LLC'
+developerName: ETERNA BEAUTY LLC
 features: 
 
 ---

@@ -1,35 +1,34 @@
 ---
-wsId: 'Cryptology'
+wsId: Cryptology
 title: 'Cryptology: Blockchain Wallet'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.cryptology.android'
-appCountry: 'gb'
-released: '2018-03-23'
-updated: '2024-01-17'
-version: '3.19.0'
+appId: com.cryptology.android
+appCountry: gb
+released: 2018-03-23
+updated: 2024-01-17
+version: 3.19.0
 stars: 4.1
 ratings: 
 reviews: 3
-size: 
-website: 'https://cryptology.com/'
+website: https://cryptology.com/
 repository: 
 issue: 
-icon: 'com.cryptology.android.png'
+icon: com.cryptology.android.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-04-03'
+date: 2024-04-03
 signer: 
 reviewArchive: 
-twitter: 'Cryptologyexch'
+twitter: Cryptologyexch
 social:
-- 'https://www.facebook.com/Cryptologyexch'
+- https://www.facebook.com/Cryptologyexch
 redirect_from: 
-developerName: 'Cypher OÜ'
+developerName: Cypher OÜ
 features: 
 
 ---

@@ -3,7 +3,7 @@ title: Bitbills
 appId: bitbills
 authors:
 - danny
-released: '2011-05-09'
+released: 2011-05-09
 discontinued: 2012-05-15
 updated: 
 version: 
@@ -22,7 +22,7 @@ icon: bitbills.png
 bugbounty: 
 meta: defunct
 verdict: prefilled
-date: '2022-03-23'
+date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: 

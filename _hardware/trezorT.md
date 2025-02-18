@@ -5,10 +5,10 @@ authors:
 - leo
 - Mohammad
 - danny
-released: '2018-03-01'
+released: 2018-03-01
 discontinued: 
-updated: '2024-08-04'
-version: '2.8.1'
+updated: 2024-08-04
+version: 2.8.1
 binaries: https://github.com/trezor/webwallet-data/tree/master/firmware/2
 dimensions:
 - 64
@@ -30,47 +30,47 @@ verdict: reproducible
 appHashes:
 - 2e4ad54edac5e0a13514c84603e053167142babf5f4d9ed4ec0e72ca748e0051
 - 8f7df375c5c9cf8b923c37378cc1a94992e03836e3ec0df0ab0271340d431903
-date: '2024-10-10'
+date: 2024-10-10
 signer: 
 reviewArchive:
-- date: '2024-04-10'
-  version: '2.7.0'
+- date: 2024-04-10
+  version: 2.7.0
   appHashes:
   - cc4ca65bd7ce6e3af6ddab58346b08fc3331458cd93abc34e8cc1c76532e1f2c
   gitRevision: d32b04cd41664f0cf706661b00871e6b48598db3
   verdict: reproducible
-- date: '2024-04-01'
-  version: '2.6.4'
+- date: 2024-04-01
+  version: 2.6.4
   appHashes:
   - 05db9550eb91093822fad11254be889f6f300c4ab3c4c7394112bca195cb4383
   gitRevision: 4161cc3ff1bce108b0a640df94af315fd435145e
   verdict: reproducible
-- date: '2023-05-25'
-  version: '2.6.0'
+- date: 2023-05-25
+  version: 2.6.0
   appHashes:
   - e5560b40a9fc470fc9f9552baed65241cb0496c5896c6336e2422b50ddf7cada
   gitRevision: 846f3c3185e087139606f352dcdedf2efbec3c13
   verdict: reproducible
-- date: '2022-12-05'
-  version: '2.5.3'
+- date: 2022-12-05
+  version: 2.5.3
   appHashes:
   - 8d742ff5498e3f903125aa6fca44bffeea27e42cc37297aa03f6c1fca51b6004
   gitRevision: 4161cc3ff1bce108b0a640df94af315fd435145e
   verdict: reproducible
-- date: '2022-08-07'
-  version: '2.4.3'
+- date: 2022-08-07
+  version: 2.4.3
   appHashes:
   - 4279e8fbf0bf85b6412c1ab1e1fe16844b42d83d2d8a45aaf6cf68dfb7afabbc
   gitRevision: c27741da56057bd7e525048b7b4f80d5984eb5f2
   verdict: reproducible
-- date: '2021-10-16'
-  version: '2.4.2'
+- date: 2021-10-16
+  version: 2.4.2
   appHashes:
   - 1fa3d062251685dc8bebd0b15ed622441ca3778281a652d601548ed29287e29d
   gitRevision: 8d95977073353d5addee069f2003f3974cd50595
   verdict: reproducible
-- date: '2021-07-18'
-  version: '2.3.6'
+- date: 2021-07-18
+  version: 2.3.6
   appHashes:
   - 0efa3ba6135caea7693d145d60441eeb46283fe0b8b1fd59a04af33a638ad237
   gitRevision: 3c395a639e29e6fa51468e559fc1e88d6b9f0516

@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Smart Investing Blockchain Technology'
+title: Smart Investing Blockchain Technology
 altTitle: 
 authors: 
 users: 10
-appId: 'org.vmining.bitcoininvestingblockchaintechnology'
+appId: org.vmining.bitcoininvestingblockchaintechnology
 appCountry: 
-released: '2020-11-12'
-updated: '2020-11-12'
+released: 2020-11-12
+updated: 2020-11-12
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: '9.3M'
 website: 
 repository: 
 issue: 
-icon: 'org.vmining.bitcoininvestingblockchaintechnology.png'
+icon: org.vmining.bitcoininvestingblockchaintechnology.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2021-10-06'
+date: 2021-10-06
 signer: 
 reviewArchive: 
 twitter: 

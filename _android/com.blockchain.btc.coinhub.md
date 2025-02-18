@@ -1,37 +1,37 @@
 ---
 wsId: 
-title: 'Crypto Wallet - Bitcoin Market'
-altTitle: '(Fake) CoinHub - Blockchain Wallet'
+title: Crypto Wallet - Bitcoin Market
+altTitle: (Fake) CoinHub - Blockchain Wallet
 authors: 
 users: 50000
-appId: 'com.blockchain.btc.coinhub'
+appId: com.blockchain.btc.coinhub
 appCountry: 
-released: '2021-05-13'
-updated: 2025-02-03
-version: '1.2.0.9.7'
+released: 2021-05-13
+updated: 2025-02-17
+version: 1.3.5
 stars: 4.4
 ratings: 1577
 reviews: 94
-website: 'https://coinhub8899.web.app'
-repository: 'https://github.com/hoanghiephui/unstoppable-wallet-android'
+website: https://coinhub8899.web.app
+repository: https://github.com/hoanghiephui/unstoppable-wallet-android
 issue: 
-icon: 'com.blockchain.btc.coinhub.png'
+icon: com.blockchain.btc.coinhub.png
 bugbounty: 
-meta: 'ok'
-verdict: 'fake'
+meta: ok
+verdict: fake
 appHashes: []
-date: '2021-07-26'
+date: 2021-07-26
 signer: 
 reviewArchive:
-- date: '2021-06-04'
-  version: '1.0.1.4.5'
+- date: 2021-06-04
+  version: 1.0.1.4.5
   appHashes: []
-  gitRevision: 'b994137e4f91927a8680b389b81bb5945d1ddf71'
-  verdict: 'obfuscated'
+  gitRevision: b994137e4f91927a8680b389b81bb5945d1ddf71
+  verdict: obfuscated
 twitter: 
 social: 
 redirect_from: 
-developerName: 'InvoVN Solutions'
+developerName: InvoVN Solutions
 features: 
 
 ---

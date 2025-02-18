@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Cryptere'
+title: Cryptere
 altTitle: 
 authors: 
 users: 10
-appId: 'com.cryptere.wallet'
+appId: com.cryptere.wallet
 appCountry: 
-released: '2022-06-17'
-updated: '2022-07-01'
-version: '0.9.11'
+released: 2022-06-17
+updated: 2022-07-01
+version: 0.9.11
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://cryptere.com'
+website: https://cryptere.com
 repository: 
 issue: 
-icon: 'com.cryptere.wallet.png'
+icon: com.cryptere.wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-10-19'
+date: 2024-10-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Cryptere'
+developerName: Cryptere
 features: 
 
 ---

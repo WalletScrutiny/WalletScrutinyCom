@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Free Bitcoin Bot'
+title: Free Bitcoin Bot
 altTitle: 
 authors: 
 users: 100
-appId: 'net.cryptointerest.free.bitcoin.bot'
+appId: net.cryptointerest.free.bitcoin.bot
 appCountry: 
-released: '2021-07-06'
-updated: '2021-07-06'
+released: 2021-07-06
+updated: 2021-07-06
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: '2.3M'
 website: 
 repository: 
 issue: 
-icon: 'net.cryptointerest.free.bitcoin.bot.png'
+icon: net.cryptointerest.free.bitcoin.bot.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2021-10-01'
+date: 2021-10-01
 signer: 
 reviewArchive: 
 twitter: 

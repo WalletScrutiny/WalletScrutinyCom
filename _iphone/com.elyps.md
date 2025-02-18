@@ -7,12 +7,11 @@ authors:
 appId: com.elyps
 appCountry: tn
 idd: '1493791290'
-released: '2020-05-13'
-updated: '2025-01-22'
-version: '11.1.0'
+released: 2020-05-13
+updated: 2025-01-22
+version: 11.1.0
 stars: 5
 reviews: 1
-size: '60755968'
 website: https://elyps.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: nowallet
 appHashes: 
-date: '2023-08-17'
+date: 2023-08-17
 signer: 
 reviewArchive: 
 twitter: 

@@ -24,7 +24,7 @@ bugbounty:
 meta: defunct
 verdict: wip
 appHashes: 
-date: '2024-01-04'
+date: 2024-01-04
 signer: 
 reviewArchive: 
 twitter: CaseWallet

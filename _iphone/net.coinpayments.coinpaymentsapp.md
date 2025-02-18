@@ -7,12 +7,11 @@ authors:
 appId: net.coinpayments.coinpaymentsapp
 appCountry: 
 idd: 1162855939
-released: '2019-02-07'
-updated: '2024-12-18'
-version: '2.4.8'
+released: 2019-02-07
+updated: 2024-12-18
+version: 2.4.8
 stars: 3.6
 reviews: 52
-size: '157986816'
 website: https://www.coinpayments.net/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2021-05-25'
+date: 2021-05-25
 signer: 
 reviewArchive: 
 twitter: CoinPaymentsNET

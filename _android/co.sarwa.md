@@ -1,36 +1,36 @@
 ---
-wsId: 'sarwaApp'
+wsId: sarwaApp
 title: 'Sarwa: Invest, Trade & Save'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'co.sarwa'
+appId: co.sarwa
 appCountry: 
-released: '2021-04-04'
+released: 2021-04-04
 updated: 2024-12-10
-version: '5.9.0'
+version: 5.9.0
 stars: 3.6
 ratings: 
 reviews: 18
-website: 'https://www.sarwa.co'
+website: https://www.sarwa.co
 repository: 
 issue: 
-icon: 'co.sarwa.png'
+icon: co.sarwa.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosendreceive'
+meta: ok
+verdict: nosendreceive
 appHashes: 
-date: '2023-07-28'
+date: 2023-07-28
 signer: 
 reviewArchive: 
-twitter: 'SarwaCo'
+twitter: SarwaCo
 social:
-- 'https://www.facebook.com/SarwaSocial'
-- 'https://www.linkedin.com/company/sarwa'
-- 'https://www.instagram.com/sarwa.co'
+- https://www.facebook.com/SarwaSocial
+- https://www.linkedin.com/company/sarwa
+- https://www.instagram.com/sarwa.co
 redirect_from: 
-developerName: 'Sarwa Digital Wealth'
+developerName: Sarwa Digital Wealth
 features: 
 
 ---

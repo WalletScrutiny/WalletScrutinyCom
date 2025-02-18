@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'BitBlaze'
+title: BitBlaze
 altTitle: 
 authors: 
 users: 10
-appId: 'com.cloud.bitblaze'
+appId: com.cloud.bitblaze
 appCountry: 
-released: '2022-10-28'
-updated: '2023-02-23'
-version: '1.0.6'
+released: 2022-10-28
+updated: 2023-02-23
+version: 1.0.6
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'http://bitblaze.co'
+website: http://bitblaze.co
 repository: 
 issue: 
-icon: 'com.cloud.bitblaze.png'
+icon: com.cloud.bitblaze.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-05-18'
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'BitBlaze App'
+developerName: BitBlaze App
 features: 
 
 ---

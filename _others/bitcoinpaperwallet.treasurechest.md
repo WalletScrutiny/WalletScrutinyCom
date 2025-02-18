@@ -4,7 +4,7 @@ appId: bitcoinpaperwallet.treasurechest
 authors:
 - danny
 icon: bitcoinpaperwallet.treasurechest.png
-date: '2022-05-18'
+date: 2022-05-18
 website: https://blog.flo.cx/2014/02/bitcoin-paper-wallet-treasure-chest/
 repository: https://github.com/piperwallet/Piper
 twitter: flowolf
@@ -13,6 +13,7 @@ country: AT
 price: 106EUR
 meta: defunct
 verdict: plainkey
+social: 
 
 ---
 

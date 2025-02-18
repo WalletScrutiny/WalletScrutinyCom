@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'BaseTrade'
+title: BaseTrade
 altTitle: 
 authors: 
 users: 10
-appId: 'com.hybridblock.basetrade'
+appId: com.hybridblock.basetrade
 appCountry: 
-released: '2019-05-23'
-updated: '2020-02-13'
+released: 2019-05-23
+updated: 2020-02-13
 version: '5.8'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://basetrade.io'
+website: https://basetrade.io
 repository: 
 issue: 
-icon: 'com.hybridblock.basetrade.jpg'
+icon: com.hybridblock.basetrade.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'AdaxTech Limited'
+developerName: AdaxTech Limited
 features: 
 
 ---

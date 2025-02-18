@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'BoloWallet - Crypto Wallet Tha'
+title: BoloWallet - Crypto Wallet Tha
 altTitle: 
 authors: 
 users: 100
-appId: 'com.bolowallet'
+appId: com.bolowallet
 appCountry: 
 released: 
-updated: '2019-12-12'
-version: 'VARY'
+updated: 2019-12-12
+version: VARY
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.bolowallet.png'
+icon: com.bolowallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'BWallet Team'
+developerName: BWallet Team
 features: 
 
 ---

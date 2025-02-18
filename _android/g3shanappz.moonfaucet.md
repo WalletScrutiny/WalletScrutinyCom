@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Moon Faucet - BTC, LTC, XDG, BCH'
+title: Moon Faucet - BTC, LTC, XDG, BCH
 altTitle: 
 authors: 
 users: 10000
-appId: 'g3shanappz.moonfaucet'
+appId: g3shanappz.moonfaucet
 appCountry: 
-released: '2020-06-29'
-updated: '2020-06-29'
+released: 2020-06-29
+updated: 2020-06-29
 version: '9.8'
 stars: 4
 ratings: 616
 reviews: 295
-size: '8.5M'
 website: 
 repository: 
 issue: 
-icon: 'g3shanappz.moonfaucet.jpg'
+icon: g3shanappz.moonfaucet.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2021-09-16'
+date: 2021-09-16
 signer: 
 reviewArchive: 
 twitter: 

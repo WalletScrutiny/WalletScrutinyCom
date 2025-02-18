@@ -1,33 +1,33 @@
 ---
-wsId: 'frontierDeFi'
+wsId: frontierDeFi
 title: 'Frontier: Crypto & DeFi Wallet'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.frontierwallet'
-appCountry: 'in'
-released: '2019-10-30'
+appId: com.frontierwallet
+appCountry: in
+released: 2019-10-30
 updated: 2024-06-07
-version: '6.22.0'
+version: 6.22.0
 stars: 4.6
 ratings: 1003
 reviews: 101
-website: 'https://frontier.xyz/'
+website: https://frontier.xyz/
 repository: 
 issue: 
-icon: 'com.frontierwallet.png'
+icon: com.frontierwallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nobtc'
+meta: ok
+verdict: nobtc
 appHashes: 
-date: '2022-01-12'
+date: 2022-01-12
 signer: 
 reviewArchive: 
-twitter: 'FrontierDotXYZ'
+twitter: FrontierDotXYZ
 social: 
 redirect_from: 
-developerName: 'Ohana Labs Pte Ltd'
+developerName: Ohana Labs Pte Ltd
 features: 
 
 ---

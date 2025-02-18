@@ -1,36 +1,36 @@
 ---
 wsId: 
-title: 'رابکس ، خرید ارز دیجیتال'
+title: رابکس ، خرید ارز دیجیتال
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.rabin.rabex'
+appId: com.rabin.rabex
 appCountry: 
-released: '2023-02-19'
+released: 2023-02-19
 updated: 2025-02-01
-version: '2.2.2-Rabex'
+version: 2.2.2-Rabex
 stars: 4.2
 ratings: 
 reviews: 10
-website: 'https://rabex.ir'
+website: https://rabex.ir
 repository: 
 issue: 
-icon: 'com.rabin.rabex.png'
+icon: com.rabin.rabex.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-08-08'
+date: 2023-08-08
 signer: 
 reviewArchive: 
-twitter: 'rabexir'
+twitter: rabexir
 social:
-- 'https://www.linkedin.com/company/rabex'
-- 'https://www.instagram.com/rabex.ir'
-- 'https://t.me/Rabexio'
+- https://www.linkedin.com/company/rabex
+- https://www.instagram.com/rabex.ir
+- https://t.me/Rabexio
 redirect_from: 
-developerName: 'Rabex Team'
+developerName: Rabex Team
 features: 
 
 ---

@@ -7,13 +7,12 @@ authors:
 users: 100000
 appId: com.coininn.wenwen
 appCountry: 
-released: '2020-03-05'
-updated: '2025-01-23'
-version: '5.0.21'
+released: 2020-03-05
+updated: 2025-01-23
+version: 5.0.21
 stars: 3.3
 ratings: 
 reviews: 41
-size: 
 website: https://www.coininn.com
 repository: 
 issue: 
@@ -22,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2023-07-19'
+date: 2023-07-19
 signer: 
 reviewArchive: 
 twitter: coin_inn

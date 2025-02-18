@@ -1,32 +1,32 @@
 ---
 wsId: 
-title: 'wallet.app'
+title: wallet.app
 altTitle: 
 authors: 
 users: 500
-appId: 'app.wallet.crypto'
+appId: app.wallet.crypto
 appCountry: 
-released: '2021-10-30'
+released: 2021-10-30
 updated: 2024-01-12
-version: '2.0.1'
+version: 2.0.1
 stars: 
 ratings: 
 reviews: 
-website: 'https://wallet.app'
+website: https://wallet.app
 repository: 
 issue: 
-icon: 'app.wallet.crypto.png'
+icon: app.wallet.crypto.png
 bugbounty: 
-meta: 'stale'
-verdict: 'fewusers'
+meta: stale
+verdict: fewusers
 appHashes: 
-date: '2025-01-06'
+date: 2025-01-06
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'New Capital LT, UAB'
+developerName: New Capital LT, UAB
 features: 
 
 ---

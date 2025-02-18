@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Dormant Bitcoin Seeker'
+title: Dormant Bitcoin Seeker
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.BlockchainExplorer.DormantBitcoinSeeker'
+appId: com.BlockchainExplorer.DormantBitcoinSeeker
 appCountry: 
-released: '2022-06-04'
-updated: '2023-01-15'
-version: '1.0.9'
+released: 2022-06-04
+updated: 2023-01-15
+version: 1.0.9
 stars: 3
 ratings: 
 reviews: 2
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.BlockchainExplorer.DormantBitcoinSeeker.png'
+icon: com.BlockchainExplorer.DormantBitcoinSeeker.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'wip'
+meta: defunct
+verdict: wip
 appHashes: 
-date: '2023-05-09'
+date: 2023-05-09
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Blockchain Explorer'
+developerName: Blockchain Explorer
 features: 
 
 ---

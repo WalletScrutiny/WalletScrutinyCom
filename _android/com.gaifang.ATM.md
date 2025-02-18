@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Atm option Bitcoin trading'
+title: Atm option Bitcoin trading
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.gaifang.ATM'
+appId: com.gaifang.ATM
 appCountry: 
-released: '2021-05-10'
-updated: '2021-09-18'
-version: '1.1.20'
+released: 2021-05-10
+updated: 2021-09-18
+version: 1.1.20
 stars: 4.7
 ratings: 35
 reviews: 26
-size: '3.5M'
-website: 'https://atmoption.in/'
+website: https://atmoption.in/
 repository: 
 issue: 
-icon: 'com.gaifang.ATM.png'
+icon: com.gaifang.ATM.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosendreceive'
+meta: removed
+verdict: nosendreceive
 appHashes: 
-date: '2021-11-26'
+date: 2021-11-26
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://www.facebook.com/warrant.atm.1'
+- https://www.facebook.com/warrant.atm.1
 redirect_from: 
 developerName: 
 features: 

@@ -7,12 +7,11 @@ authors:
 appId: com.zed-pay.app.ios
 appCountry: us
 idd: '6444008269'
-released: '2022-11-07'
-updated: '2025-01-24'
-version: '1.4.1'
+released: 2022-11-07
+updated: 2025-01-24
+version: 1.4.1
 stars: 4
 reviews: 4
-size: '38162432'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2023-08-16'
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: ZedPayCo

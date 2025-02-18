@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: '2022-02-17'
+date: 2022-02-17
 signer: 
 reviewArchive: 
 twitter: KeystoneWallet

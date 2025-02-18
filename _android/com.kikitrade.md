@@ -1,35 +1,35 @@
 ---
-wsId: 'kikitrade'
-title: 'KIKI'
+wsId: kikitrade
+title: KIKI
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.kikitrade'
-appCountry: 'us'
-released: '2020-07-24'
+appId: com.kikitrade
+appCountry: us
+released: 2020-07-24
 updated: 2024-05-29
-version: '6.0.20'
+version: 6.0.20
 stars: 3.1
 ratings: 
 reviews: 
-website: 'http://www.kikitrade.com'
+website: http://www.kikitrade.com
 repository: 
 issue: 
-icon: 'com.kikitrade.png'
+icon: com.kikitrade.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-10-01'
+date: 2021-10-01
 signer: 
 reviewArchive: 
-twitter: 'KikitradeHQ'
+twitter: KikitradeHQ
 social:
-- 'https://www.linkedin.com/company/kikitrade'
-- 'https://www.facebook.com/kikitrade'
+- https://www.linkedin.com/company/kikitrade
+- https://www.facebook.com/kikitrade
 redirect_from: 
-developerName: 'Kikitrade Technologies Limited'
+developerName: Kikitrade Technologies Limited
 features: 
 
 ---

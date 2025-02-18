@@ -1,34 +1,34 @@
 ---
-wsId: 'kardiawallet'
-title: 'KardiaChain Wallet'
+wsId: kardiawallet
+title: KardiaChain Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.kardiawallet'
-appCountry: 'vn'
-released: '2021-01-13'
+appId: com.kardiawallet
+appCountry: vn
+released: 2021-01-13
 updated: 2024-12-25
-version: '3.0.0'
+version: 3.0.0
 stars: 4.3
 ratings: 1064
 reviews: 124
-website: 'https://kardiachain.io/'
+website: https://kardiachain.io/
 repository: 
 issue: 
-icon: 'com.kardiawallet.jpg'
+icon: com.kardiawallet.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'nobtc'
+meta: ok
+verdict: nobtc
 appHashes: 
-date: '2025-01-06'
+date: 2025-01-06
 signer: 
 reviewArchive: 
-twitter: 'KardiaChain'
+twitter: KardiaChain
 social:
-- 'https://www.facebook.com/KardiaChainFoundation'
+- https://www.facebook.com/KardiaChainFoundation
 redirect_from: 
-developerName: 'HAVENIUM PTE. LTD.'
+developerName: HAVENIUM PTE. LTD.
 features: 
 
 ---

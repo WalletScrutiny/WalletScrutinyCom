@@ -4,7 +4,7 @@ appId: tokenframe
 authors:
 - danny
 icon: tokenframe.png
-date: '2023-12-06'
+date: 2023-12-06
 twitter: tokenframeNFT
 social:
 - https://www.instagram.com/tokenframe.eth

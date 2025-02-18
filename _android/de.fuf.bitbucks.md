@@ -1,36 +1,36 @@
 ---
-wsId: 'BitcoinWalletBitBucks'
-title: 'Bitcoin Wallet BitBucks'
+wsId: BitcoinWalletBitBucks
+title: Bitcoin Wallet BitBucks
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 10000
-appId: 'de.fuf.bitbucks'
+appId: de.fuf.bitbucks
 appCountry: 
-released: '2019-09-03'
+released: 2019-09-03
 updated: 2024-08-28
-version: '1.5.12'
+version: 1.5.12
 stars: 4.6
 ratings: 
 reviews: 2
-website: 'https://www.bitbucks.io/'
+website: https://www.bitbucks.io/
 repository: 
 issue: 
-icon: 'de.fuf.bitbucks.png'
+icon: de.fuf.bitbucks.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2022-10-21'
+date: 2022-10-21
 signer: 
 reviewArchive: 
-twitter: 'bit_bucks'
+twitter: bit_bucks
 social:
-- 'https://www.facebook.com/bitbucks.io'
+- https://www.facebook.com/bitbucks.io
 redirect_from:
-- '/de.fuf.bitbucks/'
-- '/posts/de.fuf.bitbucks/'
-developerName: 'FUF // Frank und Freunde'
+- /de.fuf.bitbucks/
+- /posts/de.fuf.bitbucks/
+developerName: FUF // Frank und Freunde
 features: 
 
 ---

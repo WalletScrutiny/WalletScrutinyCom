@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Cex-Trade'
+title: Cex-Trade
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'app.cex_trade.io'
+appId: app.cex_trade.io
 appCountry: 
-released: '2022-07-10'
-updated: '2022-07-10'
+released: 2022-07-10
+updated: 2022-07-10
 version: '1.1'
 stars: 4.4
 ratings: 
 reviews: 7
-size: 
-website: 'https://cex-trade.io'
+website: https://cex-trade.io
 repository: 
 issue: 
-icon: 'app.cex_trade.io.png'
+icon: app.cex_trade.io.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'fake'
+meta: defunct
+verdict: fake
 appHashes: 
-date: '2023-07-02'
+date: 2023-07-02
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Cex-Trade'
+developerName: Cex-Trade
 features: 
 
 ---

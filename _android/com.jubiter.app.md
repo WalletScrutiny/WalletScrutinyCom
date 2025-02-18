@@ -1,35 +1,34 @@
 ---
-wsId: 'jubiter'
-title: 'JuBiter Wallet 2.0 - Secure Ha'
+wsId: jubiter
+title: JuBiter Wallet 2.0 - Secure Ha
 altTitle: 
 authors:
-- 'leo'
-- 'danny'
+- leo
+- danny
 users: 500
-appId: 'com.jubiter.app'
+appId: com.jubiter.app
 appCountry: 
-released: '2020-11-19'
-updated: '2022-04-26'
-version: '2.7.0'
+released: 2020-11-19
+updated: 2022-04-26
+version: 2.7.0
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'http://www.jubiterwallet.com'
+website: http://www.jubiterwallet.com
 repository: 
 issue: 
-icon: 'com.jubiter.app.png'
+icon: com.jubiter.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
-twitter: 'JuBiterWallet'
+twitter: JuBiterWallet
 social:
-- 'https://www.linkedin.com/company/jubiter-wallet'
-- 'https://www.facebook.com/JuBiterWallet'
+- https://www.linkedin.com/company/jubiter-wallet
+- https://www.facebook.com/JuBiterWallet
 redirect_from: 
 developerName: 
 features: 

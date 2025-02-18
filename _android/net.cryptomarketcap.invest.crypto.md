@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Invest Crypto'
+title: Invest Crypto
 altTitle: 
 authors: 
 users: 0
-appId: 'net.cryptomarketcap.invest.crypto'
+appId: net.cryptomarketcap.invest.crypto
 appCountry: 
-released: '2021-06-22'
-updated: '2021-06-22'
+released: 2021-06-22
+updated: 2021-06-22
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: '2.3M'
 website: 
 repository: 
 issue: 
-icon: 'net.cryptomarketcap.invest.crypto.jpg'
+icon: net.cryptomarketcap.invest.crypto.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2021-08-13'
+date: 2021-08-13
 signer: 
 reviewArchive: 
 twitter: 

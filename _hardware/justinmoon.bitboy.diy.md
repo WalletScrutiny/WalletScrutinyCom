@@ -3,9 +3,9 @@ title: Justin Moon BitBoy DIY Hardware Wallet
 appId: justinmoon.bitboy.diy
 authors:
 - danny
-released: '2019-07-06'
+released: 2019-07-06
 discontinued: 
-updated: '2019-09-04'
+updated: 2019-09-04
 version: 
 binaries: 
 dimensions:
@@ -26,7 +26,7 @@ bugbounty:
 meta: defunct
 verdict: nobtc
 appHashes: 
-date: '2022-05-26'
+date: 2022-05-26
 signer: 
 reviewArchive: 
 twitter: _JustinMoon_

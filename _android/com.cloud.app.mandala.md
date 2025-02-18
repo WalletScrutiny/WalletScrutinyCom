@@ -1,36 +1,35 @@
 ---
-wsId: 'MandalaExchange'
-title: 'Mandala Exchange'
+wsId: MandalaExchange
+title: Mandala Exchange
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.cloud.app.mandala'
-appCountry: 'us'
-released: '2021-08-19'
-updated: '2022-12-01'
-version: '1.2.0'
+appId: com.cloud.app.mandala
+appCountry: us
+released: 2021-08-19
+updated: 2022-12-01
+version: 1.2.0
 stars: 3.2
 ratings: 155
 reviews: 25
-size: 
-website: 'https://mandala.exchange'
+website: https://mandala.exchange
 repository: 
 issue: 
-icon: 'com.cloud.app.mandala.png'
+icon: com.cloud.app.mandala.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-05-17'
+date: 2023-05-17
 signer: 
 reviewArchive: 
-twitter: 'mandalaex'
+twitter: mandalaex
 social:
-- 'https://www.facebook.com/mandalaexchange'
-- 'https://www.reddit.com/r/MandalaExchange'
+- https://www.facebook.com/mandalaexchange
+- https://www.reddit.com/r/MandalaExchange
 redirect_from: 
-developerName: 'MandalaEx'
+developerName: MandalaEx
 features: 
 
 ---

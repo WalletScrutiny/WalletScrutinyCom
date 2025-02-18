@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: 'TigerWit – Forex Trading &More'
+title: TigerWit – Forex Trading &More
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 500000
-appId: 'com.tigerwit.forex'
+appId: com.tigerwit.forex
 appCountry: 
-released: '2018-01-24'
-updated: '2023-04-12'
-version: '6.1.5'
+released: 2018-01-24
+updated: 2023-04-12
+version: 6.1.5
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.tigerwit.com'
+website: https://www.tigerwit.com
 repository: 
 issue: 
-icon: 'com.tigerwit.forex.png'
+icon: com.tigerwit.forex.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosendreceive'
+meta: removed
+verdict: nosendreceive
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
-twitter: 'TigerWitGlobal'
+twitter: TigerWitGlobal
 social:
-- 'https://www.linkedin.com/company/tigerwit-group-'
+- https://www.linkedin.com/company/tigerwit-group-
 redirect_from: 
-developerName: 'TigerWit Limited'
+developerName: TigerWit Limited
 features: 
 
 ---

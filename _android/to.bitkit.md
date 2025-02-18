@@ -3,45 +3,45 @@ wsId:
 title: 'Bitkit: Bitcoin & LN Wallet'
 altTitle: 
 authors:
-- 'danny'
-- 'basantagoswami'
-- 'keraliss'
+- danny
+- basantagoswami
+- keraliss
 users: 1000
-appId: 'to.bitkit'
+appId: to.bitkit
 appCountry: 
-released: '2024-06-07'
+released: 2024-06-07
 updated: 2025-02-13
-version: '1.0.9'
+version: 1.0.9
 stars: 
 ratings: 
 reviews: 
-website: 'https://bitkit.to/'
-repository: 'https://github.com/synonymdev/bitkit'
-issue: 'https://github.com/synonymdev/bitkit/issues/2414'
-icon: 'to.bitkit.png'
+website: https://bitkit.to/
+repository: https://github.com/synonymdev/bitkit
+issue: https://github.com/synonymdev/bitkit/issues/2414
+icon: to.bitkit.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nonverifiable'
+meta: ok
+verdict: nonverifiable
 appHashes: []
-date: '2024-12-25'
-signer: '422ae8e4c9b4f1288efb27df173e31cadfd7134d61fa5357eb5ed9eae83c75a7'
+date: 2024-12-25
+signer: 422ae8e4c9b4f1288efb27df173e31cadfd7134d61fa5357eb5ed9eae83c75a7
 reviewArchive:
-- date: '2024-06-16'
-  version: '1.0.1'
+- date: 2024-06-16
+  version: 1.0.1
   appHashes:
-  - '7b571191e0d74c1e9c748574d6c3bdde73851712646d73ae9f3ccf5cb4f06f5d'
-  gitRevision: '1d915d864d956ae13a1ea1939a7121444ceee3b2'
-  verdict: 'nonverifiable'
-twitter: 'bitkitwallet'
+  - 7b571191e0d74c1e9c748574d6c3bdde73851712646d73ae9f3ccf5cb4f06f5d
+  gitRevision: 1d915d864d956ae13a1ea1939a7121444ceee3b2
+  verdict: nonverifiable
+twitter: bitkitwallet
 social:
-- 'https://discord.com/invite/DxTBJXvJxn'
-- 'https://t.me/bitkitchat'
-- 'https://medium.com/synonym-to'
-- 'https://www.youtube.com/channel/UCyNruUjynpzvQXNTxbJBLmg'
+- https://discord.com/invite/DxTBJXvJxn
+- https://t.me/bitkitchat
+- https://medium.com/synonym-to
+- https://www.youtube.com/channel/UCyNruUjynpzvQXNTxbJBLmg
 redirect_from: 
-developerName: 'Synonym'
+developerName: Synonym
 features:
-- 'ln'
+- ln
 
 ---
 

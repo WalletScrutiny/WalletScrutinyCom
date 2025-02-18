@@ -1,37 +1,37 @@
 ---
 wsId: 
-title: 'Tabdeal'
+title: Tabdeal
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.tabdeal'
+appId: com.tabdeal
 appCountry: 
-released: '2021-08-14'
+released: 2021-08-14
 updated: 2025-01-18
-version: '5.6.3'
+version: 5.6.3
 stars: 4
 ratings: 
 reviews: 145
-website: 'https://tabdeal.org'
+website: https://tabdeal.org
 repository: 
 issue: 
-icon: 'com.tabdeal.png'
+icon: com.tabdeal.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-07-08'
+date: 2023-07-08
 signer: 
 reviewArchive: 
-twitter: 'tabdealplatform'
+twitter: tabdealplatform
 social:
-- 'https://www.facebook.com/tabdealplatform'
-- 'https://www.instagram.com/tabdealplatform'
-- 'https://t.me/tabdealplatform'
-- 'https://www.linkedin.com/company/tabdealplatform'
+- https://www.facebook.com/tabdealplatform
+- https://www.instagram.com/tabdealplatform
+- https://t.me/tabdealplatform
+- https://www.linkedin.com/company/tabdealplatform
 redirect_from: 
-developerName: 'Tabdeal Platform'
+developerName: Tabdeal Platform
 features: 
 
 ---

@@ -7,12 +7,11 @@ authors:
 appId: com.matrixport.mark
 appCountry: us
 idd: 1488557973
-released: '2019-11-25'
-updated: '2025-01-27'
-version: '4.1.00'
+released: 2019-11-25
+updated: 2025-02-17
+version: 4.1.10
 stars: 3.6
 reviews: 49
-size: '275871744'
 website: https://invest.matrixport.dev/en
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2024-10-07'
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: realMatrixport

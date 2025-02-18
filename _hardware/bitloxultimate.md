@@ -5,10 +5,10 @@ authors:
 - kiwilamb
 - danny
 - leo
-released: '2015-01-01'
+released: 2015-01-01
 discontinued: 
-updated: '2022-04-20'
-version: '67_signed'
+updated: 2022-04-20
+version: 67_signed
 binaries: https://github.com/BitLox/bitlox-firmware/releases/tag/v67_app
 dimensions:
 - 54
@@ -28,7 +28,7 @@ bugbounty:
 meta: obsolete
 verdict: wip
 appHashes: 
-date: '2024-04-03'
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: bitlox

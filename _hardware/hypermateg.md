@@ -5,10 +5,10 @@ authors:
 - kiwilamb
 - danny
 - leo
-released: '2020-04-13'
+released: 2020-04-13
 discontinued: 
-updated: '2021-09-22'
-version: '4.1.7'
+updated: 2021-09-22
+version: 4.1.7
 binaries: 
 dimensions:
 - 38
@@ -28,7 +28,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: '2021-12-12'
+date: 2021-12-12
 signer: 
 reviewArchive: 
 twitter: HyperPay_tech

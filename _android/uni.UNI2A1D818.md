@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Muskbot 4.0'
+title: Muskbot 4.0
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'uni.UNI2A1D818'
+appId: uni.UNI2A1D818
 appCountry: 
-released: '2021-09-23'
-updated: '2021-12-16'
-version: '1.4.8'
+released: 2021-09-23
+updated: 2021-12-16
+version: 1.4.8
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://muskbot.io'
+website: https://muskbot.io
 repository: 
 issue: 
-icon: 'uni.UNI2A1D818.jpg'
+icon: uni.UNI2A1D818.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2023-08-05'
+date: 2023-08-05
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'MUSKBOT'
+developerName: MUSKBOT
 features: 
 
 ---

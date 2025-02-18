@@ -1,35 +1,34 @@
 ---
-wsId: 'coinGrig'
+wsId: coinGrig
 title: 'Coingrig: Digital Wallet'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.coingrig'
+appId: com.coingrig
 appCountry: 
-released: '2021-11-05'
-updated: '2022-06-22'
-version: '1.3.11'
+released: 2021-11-05
+updated: 2022-06-22
+version: 1.3.11
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://coingrig.com'
-repository: 'https://github.com/coingrig/coingrig-wallet'
-issue: 'https://github.com/coingrig/coingrig-wallet/issues/22'
-icon: 'com.coingrig.png'
+website: https://coingrig.com
+repository: https://github.com/coingrig/coingrig-wallet
+issue: https://github.com/coingrig/coingrig-wallet/issues/22
+icon: com.coingrig.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2024-10-03'
+date: 2024-10-03
 signer: 
 reviewArchive: 
-twitter: 'coingrig'
+twitter: coingrig
 social:
-- 'https://www.linkedin.com/company/coingrig/'
+- https://www.linkedin.com/company/coingrig/
 redirect_from: 
-developerName: 'Qubevo'
+developerName: Qubevo
 features: 
 
 ---

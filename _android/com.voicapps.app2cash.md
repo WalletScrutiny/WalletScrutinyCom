@@ -1,36 +1,35 @@
 ---
-wsId: '2cash'
-title: '2cash - Money for Everyone'
+wsId: 2cash
+title: 2cash - Money for Everyone
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.voicapps.app2cash'
-appCountry: 'us'
-released: '2019-09-17'
-updated: '2024-04-28'
-version: '2.1.00'
+appId: com.voicapps.app2cash
+appCountry: us
+released: 2019-09-17
+updated: 2024-04-28
+version: 2.1.00
 stars: 4.4
 ratings: 
 reviews: 2
-size: 
-website: 'http://www.2cash.io'
+website: http://www.2cash.io
 repository: 
 issue: 
-icon: 'com.voicapps.app2cash.png'
+icon: com.voicapps.app2cash.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-11-04'
+date: 2024-11-04
 signer: 
 reviewArchive: 
-twitter: '2cashnetwork'
+twitter: 2cashnetwork
 social:
-- 'https://www.linkedin.com/company/2cash'
-- 'https://www.facebook.com/2cashnetwork'
+- https://www.linkedin.com/company/2cash
+- https://www.facebook.com/2cashnetwork
 redirect_from: 
-developerName: 'VOIC'
+developerName: VOIC
 features: 
 
 ---

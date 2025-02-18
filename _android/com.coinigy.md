@@ -1,35 +1,35 @@
 ---
-wsId: 'Coinigy'
-title: 'Coinigy'
+wsId: Coinigy
+title: Coinigy
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.coinigy'
-appCountry: 'us'
-released: '2018-06-11'
+appId: com.coinigy
+appCountry: us
+released: 2018-06-11
 updated: 2024-07-01
-version: '0.5.36'
+version: 0.5.36
 stars: 3.9
 ratings: 225
 reviews: 47
-website: 'https://www.coinigy.com'
+website: https://www.coinigy.com
 repository: 
 issue: 
-icon: 'com.coinigy.png'
+icon: com.coinigy.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2023-11-02'
+date: 2023-11-02
 signer: 
 reviewArchive: 
-twitter: 'coinigy'
+twitter: coinigy
 social:
-- 'https://www.linkedin.com/company/coinigy'
-- 'https://www.facebook.com/coinigy'
+- https://www.linkedin.com/company/coinigy
+- https://www.facebook.com/coinigy
 redirect_from: 
-developerName: 'Coinigy Inc'
+developerName: Coinigy Inc
 features: 
 
 ---

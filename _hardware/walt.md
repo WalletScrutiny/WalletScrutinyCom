@@ -3,7 +3,7 @@ title: Walt DIY Hardware Wallet
 appId: walt
 authors:
 - danny
-released: '2020-12-27'
+released: 2020-12-27
 discontinued: 
 updated: 
 version: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: obsolete
 verdict: diy
 appHashes: 
-date: '2024-10-23'
+date: 2024-10-23
 signer: 
 reviewArchive: 
 twitter: Angainor15

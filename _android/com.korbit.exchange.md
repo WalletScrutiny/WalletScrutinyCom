@@ -1,33 +1,33 @@
 ---
-wsId: 'korbit'
-title: 'korbit'
+wsId: korbit
+title: korbit
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 500000
-appId: 'com.korbit.exchange'
-appCountry: 'us'
-released: '2018-07-22'
+appId: com.korbit.exchange
+appCountry: us
+released: 2018-07-22
 updated: 2025-02-11
-version: '10.7.2'
+version: 10.7.2
 stars: 2.5
 ratings: 
 reviews: 7
-website: 'https://www.korbit.co.kr'
+website: https://www.korbit.co.kr
 repository: 
 issue: 
-icon: 'com.korbit.exchange.png'
+icon: com.korbit.exchange.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-09-10'
+date: 2021-09-10
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Korbit'
+developerName: Korbit
 features: 
 
 ---

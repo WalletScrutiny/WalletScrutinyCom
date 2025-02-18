@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Neuron'
+title: Neuron
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'app.com.unihash'
+appId: app.com.unihash
 appCountry: 
-released: '2018-10-31'
-updated: '2023-02-08'
+released: 2018-10-31
+updated: 2023-02-08
 version: '4.0'
 stars: 2.5
 ratings: 
 reviews: 3
-size: 
-website: 'https://www.unihash.io/'
+website: https://www.unihash.io/
 repository: 
 issue: 
-icon: 'app.com.unihash.png'
+icon: app.com.unihash.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nobtc'
+meta: removed
+verdict: nobtc
 appHashes: 
-date: '2024-09-21'
+date: 2024-09-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Neubee'
+developerName: Neubee
 features: 
 
 ---

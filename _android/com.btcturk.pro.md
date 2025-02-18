@@ -3,33 +3,33 @@ wsId:
 title: 'BtcTurk | Kripto: BTC|USDT|XRP'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000000
-appId: 'com.btcturk.pro'
+appId: com.btcturk.pro
 appCountry: 
-released: '2020-09-10'
+released: 2020-09-10
 updated: 2025-01-20
-version: '2.22.0'
+version: 2.22.0
 stars: 4.5
 ratings: 169442
 reviews: 232
-website: 'https://kripto.btcturk.com'
+website: https://kripto.btcturk.com
 repository: 
 issue: 
-icon: 'com.btcturk.pro.png'
-bugbounty: 'https://pro.btcturk.com/en/bug-bounty'
-meta: 'ok'
-verdict: 'custodial'
+icon: com.btcturk.pro.png
+bugbounty: https://pro.btcturk.com/en/bug-bounty
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-08-21'
+date: 2021-08-21
 signer: 
 reviewArchive: 
-twitter: 'btcturkpro'
+twitter: btcturkpro
 social:
-- 'https://www.linkedin.com/company/btcturk'
-- 'https://www.facebook.com/btcturk'
+- https://www.linkedin.com/company/btcturk
+- https://www.facebook.com/btcturk
 redirect_from: 
-developerName: 'BTCTurk'
+developerName: BTCTurk
 features: 
 
 ---

@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Coinviva Exchange -Bitcoin & F'
+title: Coinviva Exchange -Bitcoin & F
 altTitle: 
 authors: 
 users: 100
-appId: 'io.fchain.coinviva'
+appId: io.fchain.coinviva
 appCountry: 
-released: '2020-02-21'
-updated: '2020-08-17'
-version: '1.1.0'
+released: 2020-02-21
+updated: 2020-08-17
+version: 1.1.0
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'http://www.coinviva.com'
+website: http://www.coinviva.com
 repository: 
 issue: 
-icon: 'io.fchain.coinviva.png'
+icon: io.fchain.coinviva.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-10-16'
+date: 2023-10-16
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Point95 Global'
+developerName: Point95 Global
 features: 
 
 ---

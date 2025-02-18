@@ -6,12 +6,11 @@ authors:
 appId: nl.knaken.ios
 appCountry: nl
 idd: '1566004838'
-released: '2021-06-10'
-updated: '2025-02-12'
-version: '5.0.2'
+released: 2021-06-10
+updated: 2025-02-14
+version: 5.0.3
 stars: 4.2
-reviews: 36
-size: '85534720'
+reviews: 37
 website: https://knaken.eu/
 repository: 
 issue: 
@@ -20,7 +19,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2023-08-24'
+date: 2023-08-24
 signer: 
 reviewArchive: 
 twitter: knaken_eu

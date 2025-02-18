@@ -1,35 +1,35 @@
 ---
-wsId: 'lcxExchange'
+wsId: lcxExchange
 title: 'LCX: Regulated Crypto Exchange'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.lcx.app'
+appId: com.lcx.app
 appCountry: 
-released: '2021-10-26'
-updated: 2025-02-13
-version: '2.3.37'
+released: 2021-10-26
+updated: 2025-02-17
+version: 2.3.38
 stars: 3.3
 ratings: 
 reviews: 38
-website: 'https://lcx.com'
+website: https://lcx.com
 repository: 
 issue: 
-icon: 'com.lcx.app.png'
+icon: com.lcx.app.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2022-06-22'
+date: 2022-06-22
 signer: 
 reviewArchive: 
-twitter: 'lcx'
+twitter: lcx
 social:
-- 'https://www.youtube.com/channel/UCNj78acRE-ywQPim-wZ8RTQ'
-- 'https://www.instagram.com/lcx.exchange/'
+- https://www.youtube.com/channel/UCNj78acRE-ywQPim-wZ8RTQ
+- https://www.instagram.com/lcx.exchange/
 redirect_from: 
-developerName: 'LCX.com'
+developerName: LCX.com
 features: 
 
 ---

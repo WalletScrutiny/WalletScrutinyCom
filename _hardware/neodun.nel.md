@@ -3,7 +3,7 @@ title: NeoDun by NewEconoLab
 appId: neodun.nel
 authors:
 - danny
-released: '2018-09-18'
+released: 2018-09-18
 discontinued: 
 updated: 
 version: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: vapor
 appHashes: 
-date: '2025-02-06'
+date: 2025-02-06
 signer: 
 reviewArchive: 
 twitter: neweconolab

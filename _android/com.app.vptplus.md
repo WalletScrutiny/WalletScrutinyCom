@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: 'SendAM'
+title: SendAM
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.app.vptplus'
+appId: com.app.vptplus
 appCountry: 
-released: '2020-09-02'
+released: 2020-09-02
 updated: 2023-07-17
-version: '4.0.0'
+version: 4.0.0
 stars: 
 ratings: 
 reviews: 
-website: 'https://sendam.app/'
+website: https://sendam.app/
 repository: 
 issue: 
-icon: 'com.app.vptplus.png'
+icon: com.app.vptplus.png
 bugbounty: 
-meta: 'stale'
-verdict: 'nowallet'
+meta: stale
+verdict: nowallet
 appHashes: 
-date: '2024-07-14'
+date: 2024-07-14
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Sendam'
+developerName: Sendam
 features: 
 
 ---

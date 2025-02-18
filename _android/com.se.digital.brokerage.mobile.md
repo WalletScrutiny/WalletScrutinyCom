@@ -1,36 +1,36 @@
 ---
-wsId: 'xSpringDigital'
-title: 'XSpring Digital'
+wsId: xSpringDigital
+title: XSpring Digital
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.se.digital.brokerage.mobile'
+appId: com.se.digital.brokerage.mobile
 appCountry: 
-released: '2021-12-08'
+released: 2021-12-08
 updated: 2025-01-27
-version: '2.15.0'
+version: 2.15.0
 stars: 4.3
 ratings: 
 reviews: 
-website: 'https://trade.xspringdigital.com'
+website: https://trade.xspringdigital.com
 repository: 
 issue: 
-icon: 'com.se.digital.brokerage.mobile.png'
+icon: com.se.digital.brokerage.mobile.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-04-11'
+date: 2023-04-11
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://www.facebook.com/XSpringDigital'
-- 'https://page.line.me/xspringdigital'
-- 'https://www.linkedin.com/company/xspring/'
+- https://www.facebook.com/XSpringDigital
+- https://page.line.me/xspringdigital
+- https://www.linkedin.com/company/xspring/
 redirect_from: 
-developerName: 'XSpring Digital Co., Ltd.'
+developerName: XSpring Digital Co., Ltd.
 features: 
 
 ---

@@ -1,33 +1,32 @@
 ---
-wsId: 'bankoWallet'
-title: 'Banko Wallet'
+wsId: bankoWallet
+title: Banko Wallet
 altTitle: 
 authors:
-- 'danny'
-appId: 'app.banko.ios'
-appCountry: 'us'
+- danny
+appId: app.banko.ios
+appCountry: us
 idd: '1441243164'
-released: '2018-11-10'
+released: 2018-11-10
 updated: 2020-09-08
-version: '1.5.6'
+version: 1.5.6
 stars: 4.2
 reviews: 5
-size: '68828160'
-website: ''
+website: 
 repository: 
 issue: 
-icon: 'app.banko.ios.jpg'
+icon: app.banko.ios.jpg
 bugbounty: 
-meta: 'obsolete'
-verdict: 'wip'
+meta: obsolete
+verdict: wip
 appHashes: 
-date: '2023-09-19'
+date: 2023-09-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 features: 
-developerName: 'BITROCK PTE. LTD.'
+developerName: BITROCK PTE. LTD.
 
 ---
 

@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: 'Atechpadi'
+title: Atechpadi
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.app.atechcoins'
+appId: com.app.atechcoins
 appCountry: 
-released: '2020-11-10'
+released: 2020-11-10
 updated: 2025-01-06
-version: '1.1.7'
+version: 1.1.7
 stars: 3.6
 ratings: 85
 reviews: 7
-website: 'https://www.atechcoins.com'
+website: https://www.atechcoins.com
 repository: 
 issue: 
-icon: 'com.app.atechcoins.png'
+icon: com.app.atechcoins.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2023-03-03'
+date: 2023-03-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Atechcoins'
+developerName: Atechcoins
 features: 
 
 ---

@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'dCipher Crypto Wallet'
+title: dCipher Crypto Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.androidwallet'
+appId: com.androidwallet
 appCountry: 
-released: '2019-07-04'
-updated: '2020-04-09'
-version: '1.1.20'
+released: 2019-07-04
+updated: 2020-04-09
+version: 1.1.20
 stars: 4.6
 ratings: 433
 reviews: 12
-size: 
-website: 'https://www.dcipher.io'
+website: https://www.dcipher.io
 repository: 
 issue: 
-icon: 'com.androidwallet.png'
+icon: com.androidwallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2024-04-26'
+date: 2024-04-26
 signer: 
 reviewArchive: 
-twitter: 'dCipher_io'
+twitter: dCipher_io
 social: 
 redirect_from: 
-developerName: 'dCipher Alexandru Dirman'
+developerName: dCipher Alexandru Dirman
 features: 
 
 ---

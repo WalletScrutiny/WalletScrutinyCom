@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'SnapBots Wallet'
+title: SnapBots Wallet
 altTitle: 
 authors: 
 users: 10
-appId: 'com.snapresearch.snapbotmobile'
+appId: com.snapresearch.snapbotmobile
 appCountry: 
-released: '2021-06-14'
-updated: '2022-07-15'
-version: '1.0.1'
+released: 2021-06-14
+updated: 2022-07-15
+version: 1.0.1
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://app.snapbots.io/'
+website: https://app.snapbots.io/
 repository: 
 issue: 
-icon: 'com.snapresearch.snapbotmobile.png'
+icon: com.snapresearch.snapbotmobile.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-04-03'
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'SnapBots Limited'
+developerName: SnapBots Limited
 features: 
 
 ---

@@ -1,47 +1,47 @@
 ---
-wsId: 'envoyFoundation'
-title: 'Envoy'
+wsId: envoyFoundation
+title: Envoy
 altTitle: 
 authors:
-- 'danny'
-- 'keraliss'
+- danny
+- keraliss
 users: 1000
-appId: 'com.foundationdevices.envoy'
-appCountry: 'US'
-released: '2022-04-01'
+appId: com.foundationdevices.envoy
+appCountry: US
+released: 2022-04-01
 updated: 2025-02-01
-version: '1.8.6'
+version: 1.8.6
 stars: 4.2
 ratings: 
 reviews: 5
-website: 'https://foundationdevices.com/'
-repository: 'https://github.com/Foundation-Devices/envoy'
-issue: 'https://github.com/Foundation-Devices/envoy/issues/1395'
-icon: 'com.foundationdevices.envoy.jpg'
+website: https://foundationdevices.com/
+repository: https://github.com/Foundation-Devices/envoy
+issue: https://github.com/Foundation-Devices/envoy/issues/1395
+icon: com.foundationdevices.envoy.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'wip'
+meta: ok
+verdict: wip
 appHashes: []
-date: '2024-11-22'
+date: 2024-11-22
 signer: 
 reviewArchive:
-- date: '2024-11-22'
-  version: '1.8.4'
+- date: 2024-11-22
+  version: 1.8.4
   appHashes:
-  - '7d883cf4ac02b16238e2075a726db8dcefd7250f8461d06565e2daf9b520e2be'
-  - 'c7283366b3c0857aae728dfa38d5776985362c000864d11ad95e5ea446019bae'
-  - '2e8d46dc9d6df35d69b1f796e1ff44dd5eef92aafcb94c88159a7dd96c6527bd'
-  - 'a3830481af62bf78d71a3e628f837fc76959d38028e985945bea956f8e80a931'
-  gitRevision: '6c17feb4d414efa40ea736b9d2e8d44216776893'
-  verdict: 'nonverifiable'
-twitter: 'FOUNDATIONdvcs'
+  - 7d883cf4ac02b16238e2075a726db8dcefd7250f8461d06565e2daf9b520e2be
+  - c7283366b3c0857aae728dfa38d5776985362c000864d11ad95e5ea446019bae
+  - 2e8d46dc9d6df35d69b1f796e1ff44dd5eef92aafcb94c88159a7dd96c6527bd
+  - a3830481af62bf78d71a3e628f837fc76959d38028e985945bea956f8e80a931
+  gitRevision: 6c17feb4d414efa40ea736b9d2e8d44216776893
+  verdict: nonverifiable
+twitter: FOUNDATIONdvcs
 social:
-- 'https://www.linkedin.com/company/foundationdevices'
-- 'https://www.youtube.com/@foundationdevices'
-- 'https://www.reddit.com/r/FoundationDevices'
-- 'https://t.me/foundationdevices'
+- https://www.linkedin.com/company/foundationdevices
+- https://www.youtube.com/@foundationdevices
+- https://www.reddit.com/r/FoundationDevices
+- https://t.me/foundationdevices
 redirect_from: 
-developerName: 'Foundation Devices'
+developerName: Foundation Devices
 features: 
 
 ---

@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Vendescrow'
+title: Vendescrow
 altTitle: 
 authors: 
 users: 1
-appId: 'com.vendescrow.vendescrow'
+appId: com.vendescrow.vendescrow
 appCountry: 
-released: '2021-12-05'
-updated: '2021-12-06'
-version: '1.0.0'
+released: 2021-12-05
+updated: 2021-12-06
+version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://vendescrow.com'
+website: https://vendescrow.com
 repository: 
 issue: 
-icon: 'com.vendescrow.vendescrow.png'
+icon: com.vendescrow.vendescrow.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'mathemartins'
+developerName: mathemartins
 features: 
 
 ---

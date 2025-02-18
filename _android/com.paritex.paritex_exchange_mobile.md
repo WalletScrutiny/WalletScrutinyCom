@@ -1,33 +1,33 @@
 ---
-wsId: 'Paritex'
-title: 'Paritex Exchange'
+wsId: Paritex
+title: Paritex Exchange
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.paritex.paritex_exchange_mobile'
-appCountry: 'tr'
-released: '2021-03-21'
+appId: com.paritex.paritex_exchange_mobile
+appCountry: tr
+released: 2021-03-21
 updated: 2022-08-30
-version: '3.1.17'
+version: 3.1.17
 stars: 4
 ratings: 272
 reviews: 106
-website: 'https://paritex.com/'
+website: https://paritex.com/
 repository: 
 issue: 
-icon: 'com.paritex.paritex_exchange_mobile.png'
+icon: com.paritex.paritex_exchange_mobile.png
 bugbounty: 
-meta: 'obsolete'
-verdict: 'custodial'
+meta: obsolete
+verdict: custodial
 appHashes: 
-date: '2024-08-19'
+date: 2024-08-19
 signer: 
 reviewArchive: 
-twitter: 'paritexexchange'
+twitter: paritexexchange
 social: 
 redirect_from: 
-developerName: 'Paritex'
+developerName: Paritex
 features: 
 
 ---

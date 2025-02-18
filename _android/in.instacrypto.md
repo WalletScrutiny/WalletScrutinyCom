@@ -1,38 +1,37 @@
 ---
 wsId: 
-title: 'InstaCrypto Buy Bitcoin Crypto'
+title: InstaCrypto Buy Bitcoin Crypto
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'in.instacrypto'
+appId: in.instacrypto
 appCountry: 
 released: 
-updated: '2024-01-25'
-version: 'VARY'
+updated: 2024-01-25
+version: VARY
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://instacrypto.in'
+website: https://instacrypto.in
 repository: 
 issue: 
-icon: 'in.instacrypto.png'
+icon: in.instacrypto.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2025-01-06'
+date: 2025-01-06
 signer: 
 reviewArchive: 
-twitter: 'instacryptoin'
+twitter: instacryptoin
 social:
-- 'https://www.linkedin.com/company/instacryptoin'
-- 'https://www.facebook.com/InstaCryptoIN'
-- 'https://www.instagram.com/instacryptoin'
-- 'https://t.me/instacryptoin'
+- https://www.linkedin.com/company/instacryptoin
+- https://www.facebook.com/InstaCryptoIN
+- https://www.instagram.com/instacryptoin
+- https://t.me/instacryptoin
 redirect_from: 
-developerName: 'InstaCrypto'
+developerName: InstaCrypto
 features: 
 
 ---

@@ -1,39 +1,39 @@
 ---
-wsId: 'cryptoComDefi'
-title: 'Crypto.com Onchain'
+wsId: cryptoComDefi
+title: Crypto.com Onchain
 altTitle: 
 authors:
-- 'leo'
-- 'danny'
+- leo
+- danny
 users: 1000000
-appId: 'com.defi.wallet'
+appId: com.defi.wallet
 appCountry: 
-released: '2020-05-11'
-updated: 2025-02-08
-version: '2.06.0'
+released: 2020-05-11
+updated: 2025-02-14
+version: 2.07.0
 stars: 4.5
 ratings: 13620
 reviews: 3241
-website: 'https://www.crypto.com'
+website: https://www.crypto.com
 repository: 
 issue: 
-icon: 'com.defi.wallet.png'
+icon: com.defi.wallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-16'
+date: 2024-07-16
 signer: 
 reviewArchive: 
-twitter: 'cryptocom'
+twitter: cryptocom
 social:
-- 'https://www.linkedin.com/company/cryptocom'
-- 'https://www.facebook.com/CryptoComOfficial'
-- 'https://www.reddit.com/r/Crypto_com'
+- https://www.linkedin.com/company/cryptocom
+- https://www.facebook.com/CryptoComOfficial
+- https://www.reddit.com/r/Crypto_com
 redirect_from:
-- '/com.defi.wallet/'
-- '/posts/com.defi.wallet/'
-developerName: 'Growth Labs'
+- /com.defi.wallet/
+- /posts/com.defi.wallet/
+developerName: Growth Labs
 features: 
 
 ---

@@ -1,33 +1,33 @@
 ---
-wsId: 'pandar'
+wsId: pandar
 title: 'Pandar: Coins, Giftcard & Bill'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'i.brains.pandax'
+appId: i.brains.pandax
 appCountry: 
-released: '2020-06-14'
+released: 2020-06-14
 updated: 2025-02-12
-version: '3.0.9'
+version: 3.0.9
 stars: 4.4
 ratings: 
-reviews: 239
-website: 'https://pandar.ng'
+reviews: 240
+website: https://pandar.ng
 repository: 
 issue: 
-icon: 'i.brains.pandax.png'
+icon: i.brains.pandax.png
 bugbounty: 
-meta: 'ok'
-verdict: 'wip'
+meta: ok
+verdict: wip
 appHashes: 
-date: '2024-09-02'
+date: 2024-09-02
 signer: 
 reviewArchive: 
-twitter: 'PandarNG'
+twitter: PandarNG
 social: 
 redirect_from: 
-developerName: 'Pandar Resources'
+developerName: Pandar Resources
 features: 
 
 ---

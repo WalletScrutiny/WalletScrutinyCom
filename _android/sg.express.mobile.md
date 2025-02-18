@@ -3,26 +3,25 @@ wsId:
 title: 'StormGain Express: Digital Currency Marketplace'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 500000
-appId: 'sg.express.mobile'
+appId: sg.express.mobile
 appCountry: 
-released: '2020-07-10'
-updated: '2022-02-26'
-version: '1.23.0'
+released: 2020-07-10
+updated: 2022-02-26
+version: 1.23.0
 stars: 4.9
 ratings: 3998
 reviews: 14
-size: 
-website: 'https://stormgainexpress.com/'
+website: https://stormgainexpress.com/
 repository: 
 issue: 
-icon: 'sg.express.mobile.png'
+icon: sg.express.mobile.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

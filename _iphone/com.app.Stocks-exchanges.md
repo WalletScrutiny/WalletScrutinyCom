@@ -1,33 +1,32 @@
 ---
-wsId: 'stex'
-title: 'STEX.com'
+wsId: stex
+title: STEX.com
 altTitle: 
 authors:
-- 'danny'
-appId: 'com.app.Stocks-exchanges'
-appCountry: 'us'
+- danny
+appId: com.app.Stocks-exchanges
+appCountry: us
 idd: '1200812360'
-released: '2017-05-15'
-updated: '2022-02-08'
+released: 2017-05-15
+updated: 2022-02-08
 version: '1.34'
 stars: 2.4
 reviews: 29
-size: '71872512'
-website: 'https://stex.com'
+website: https://stex.com
 repository: 
 issue: 
-icon: 'com.app.Stocks-exchanges.jpg'
+icon: com.app.Stocks-exchanges.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-06-21'
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 features: 
-developerName: 'DATA PROTECTION CORPORATION'
+developerName: DATA PROTECTION CORPORATION
 
 ---
 

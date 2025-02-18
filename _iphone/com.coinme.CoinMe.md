@@ -7,12 +7,11 @@ authors:
 appId: com.coinme.CoinMe
 appCountry: us
 idd: 1545440300
-released: '2021-05-11'
-updated: '2025-01-22'
-version: '3.0.8'
+released: 2021-05-11
+updated: 2025-01-22
+version: 3.0.8
 stars: 4.6
-reviews: 5036
-size: '135620608'
+reviews: 5038
 website: https://coinme.com/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2021-10-01'
+date: 2021-10-01
 signer: 
 reviewArchive: 
 twitter: Coinme

@@ -1,34 +1,33 @@
 ---
-wsId: 'dsdaqGlobal'
-title: 'DsdaqGlobal'
+wsId: dsdaqGlobal
+title: DsdaqGlobal
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.chainup.exchange.DsdaqGlobal'
+appId: com.chainup.exchange.DsdaqGlobal
 appCountry: 
-released: '2021-10-26'
-updated: '2022-07-18'
-version: '5.4.1_push_v2'
+released: 2021-10-26
+updated: 2022-07-18
+version: 5.4.1_push_v2
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://dsdaq.com'
+website: https://dsdaq.com
 repository: 
 issue: 
-icon: 'com.chainup.exchange.DsdaqGlobal.png'
+icon: com.chainup.exchange.DsdaqGlobal.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
-twitter: 'DsdaqCom'
+twitter: DsdaqCom
 social: 
 redirect_from: 
-developerName: 'Dsdaq Market Ltd.'
+developerName: Dsdaq Market Ltd.
 features: 
 
 ---

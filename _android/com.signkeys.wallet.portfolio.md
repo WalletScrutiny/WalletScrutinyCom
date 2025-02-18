@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'SignKeys PRO - Portfolio, Bitc'
+title: SignKeys PRO - Portfolio, Bitc
 altTitle: 
 authors: 
 users: 500
-appId: 'com.signkeys.wallet.portfolio'
+appId: com.signkeys.wallet.portfolio
 appCountry: 
-released: '2019-07-17'
-updated: '2020-10-26'
-version: '2.0.0'
+released: 2019-07-17
+updated: 2020-10-26
+version: 2.0.0
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'http://www.signkeys.com'
+website: http://www.signkeys.com
 repository: 
 issue: 
-icon: 'com.signkeys.wallet.portfolio.png'
+icon: com.signkeys.wallet.portfolio.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-07-05'
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

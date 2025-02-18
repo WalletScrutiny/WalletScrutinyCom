@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'BinexHosting'
+title: BinexHosting
 altTitle: 
 authors: 
 users: 50
-appId: 'com.cryptex.www.binexhosting'
+appId: com.cryptex.www.binexhosting
 appCountry: 
-released: '2018-11-21'
-updated: '2018-11-21'
+released: 2018-11-21
+updated: 2018-11-21
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'http://binexhosting.com'
+website: http://binexhosting.com
 repository: 
 issue: 
-icon: 'com.cryptex.www.binexhosting.png'
+icon: com.cryptex.www.binexhosting.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-05-18'
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Cryptex PTE. LTD.'
+developerName: Cryptex PTE. LTD.
 features: 
 
 ---

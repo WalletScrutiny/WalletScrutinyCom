@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'MeliWallet'
+title: MeliWallet
 altTitle: 
 authors: 
 users: 1000
-appId: 'com.meliWallet'
+appId: com.meliWallet
 appCountry: 
-released: '2021-09-09'
-updated: '2022-04-11'
+released: 2021-09-09
+updated: 2022-04-11
 version: '2.1'
 stars: 4.3
 ratings: 
 reviews: 3
-size: 
-website: 'https://meliora.finance/'
+website: https://meliora.finance/
 repository: 
 issue: 
-icon: 'com.meliWallet.png'
+icon: com.meliWallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

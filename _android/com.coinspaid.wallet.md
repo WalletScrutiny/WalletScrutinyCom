@@ -1,39 +1,38 @@
 ---
-wsId: 'coinspaidWallet'
-title: 'Coinspaid Wallet'
+wsId: coinspaidWallet
+title: Coinspaid Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.coinspaid.wallet'
+appId: com.coinspaid.wallet
 appCountry: 
-released: '2021-12-17'
-updated: '2023-06-06'
-version: '0.9.6'
+released: 2021-12-17
+updated: 2023-06-06
+version: 0.9.6
 stars: 3
 ratings: 
 reviews: 2
-size: 
-website: 'https://coinspaid.com'
+website: https://coinspaid.com
 repository: 
 issue: 
-icon: 'com.coinspaid.wallet.png'
+icon: com.coinspaid.wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
-twitter: 'coinspaid'
+twitter: coinspaid
 social:
-- 'https://www.facebook.com/coinspaid'
-- 'https://www.instagram.com/coinspaid'
-- 'https://www.youtube.com/channel/UCwnF8wI6tIl3h8KNgpwhqAg'
-- 'https://www.linkedin.com/company/cryptoprocessing-com'
-- 'https://t.me/CoinsPaid_Official'
+- https://www.facebook.com/coinspaid
+- https://www.instagram.com/coinspaid
+- https://www.youtube.com/channel/UCwnF8wI6tIl3h8KNgpwhqAg
+- https://www.linkedin.com/company/cryptoprocessing-com
+- https://t.me/CoinsPaid_Official
 redirect_from: 
-developerName: 'CoinsPaid'
+developerName: CoinsPaid
 features: 
 
 ---

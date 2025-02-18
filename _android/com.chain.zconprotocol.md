@@ -1,36 +1,36 @@
 ---
 wsId: 
-title: 'BISKIT Wallet'
+title: BISKIT Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.chain.zconprotocol'
+appId: com.chain.zconprotocol
 appCountry: 
-released: '2022-01-05'
+released: 2022-01-05
 updated: 2022-01-26
-version: '1.0.2'
+version: 1.0.2
 stars: 2.7
 ratings: 
 reviews: 5
-website: 'https://biskit.global/'
+website: https://biskit.global/
 repository: 
 issue: 
-icon: 'com.chain.zconprotocol.png'
+icon: com.chain.zconprotocol.png
 bugbounty: 
-meta: 'obsolete'
-verdict: 'custodial'
+meta: obsolete
+verdict: custodial
 appHashes: 
-date: '2024-01-19'
+date: 2024-01-19
 signer: 
 reviewArchive: 
-twitter: 'BISKIT_TOKEN'
+twitter: BISKIT_TOKEN
 social:
-- 'https://t.me/biskitglobal'
-- 'https://discord.com/invite/WSBke6hfWD'
-- 'https://www.youtube.com/channel/UCr2pG_WdRYxQ5dk-G27YuJw/featured'
+- https://t.me/biskitglobal
+- https://discord.com/invite/WSBke6hfWD
+- https://www.youtube.com/channel/UCr2pG_WdRYxQ5dk-G27YuJw/featured
 redirect_from: 
-developerName: 'KCNET CO.,LTD'
+developerName: KCNET CO.,LTD
 features: 
 
 ---

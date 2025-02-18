@@ -1,38 +1,38 @@
 ---
-wsId: 'maskEX'
-title: 'MaskEX Crypto & Privacy Wallet'
+wsId: maskEX
+title: MaskEX Crypto & Privacy Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.maskex.app'
+appId: com.maskex.app
 appCountry: 
-released: '2021-10-20'
-updated: 2025-02-10
-version: '4.1.8'
+released: 2021-10-20
+updated: 2025-02-15
+version: 4.1.8
 stars: 4
 ratings: 
 reviews: 2
-website: 'https://maskex.com/'
+website: https://maskex.com/
 repository: 
 issue: 
-icon: 'com.maskex.app.png'
+icon: com.maskex.app.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-04-07'
+date: 2023-04-07
 signer: 
 reviewArchive: 
-twitter: 'MaskexGlobal'
+twitter: MaskexGlobal
 social:
-- 'https://www.facebook.com/MaskEXGlobal/'
-- 'https://www.instagram.com/maskexglobal/'
-- 'https://www.youtube.com/channel/UClSeew7MEmHi6i19GBEun9w'
-- 'https://t.me/maskextg'
-- 'https://www.linkedin.com/company/maskex-global/'
+- https://www.facebook.com/MaskEXGlobal/
+- https://www.instagram.com/maskexglobal/
+- https://www.youtube.com/channel/UClSeew7MEmHi6i19GBEun9w
+- https://t.me/maskextg
+- https://www.linkedin.com/company/maskex-global/
 redirect_from: 
-developerName: 'Maskunion Investments L.L.C.'
+developerName: Maskunion Investments L.L.C.
 features: 
 
 ---

@@ -1,37 +1,37 @@
 ---
-wsId: 'letsBit'
+wsId: letsBit
 title: 'LB Finanzas: billetera virtual'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.letsbit.app'
+appId: com.letsbit.app
 appCountry: 
-released: '2022-05-06'
+released: 2022-05-06
 updated: 2025-01-24
-version: 'v1.46.0'
+version: v1.46.0
 stars: 2.8
 ratings: 
 reviews: 17
-website: 'https://lbfinanzas.com'
+website: https://lbfinanzas.com
 repository: 
 issue: 
-icon: 'com.letsbit.app.jpg'
+icon: com.letsbit.app.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-04-07'
+date: 2023-04-07
 signer: 
 reviewArchive: 
-twitter: 'LetsBit_ok'
+twitter: LetsBit_ok
 social:
-- 'https://www.youtube.com/channel/UCTxHaohwsq9x9mhqW7XBnzw'
-- 'https://www.linkedin.com/company/letsbit/'
-- 'https://www.facebook.com/LetsBit'
-- 'https://www.instagram.com/letsbit/'
+- https://www.youtube.com/channel/UCTxHaohwsq9x9mhqW7XBnzw
+- https://www.linkedin.com/company/letsbit/
+- https://www.facebook.com/LetsBit
+- https://www.instagram.com/letsbit/
 redirect_from: 
-developerName: 'LB Finanzas'
+developerName: LB Finanzas
 features: 
 
 ---

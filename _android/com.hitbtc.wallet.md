@@ -1,35 +1,35 @@
 ---
-wsId: 'HitBTCWallet'
-title: 'HitBTC altcoin crypto wallet'
+wsId: HitBTCWallet
+title: HitBTC altcoin crypto wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.hitbtc.wallet'
-appCountry: 'au'
-released: '2021-08-31'
+appId: com.hitbtc.wallet
+appCountry: au
+released: 2021-08-31
 updated: 2024-12-06
-version: '1.35.0'
+version: 1.35.0
 stars: 
 ratings: 
 reviews: 
-website: 'https://hitbtc.com/wallet'
+website: https://hitbtc.com/wallet
 repository: 
 issue: 
-icon: 'com.hitbtc.wallet.jpg'
+icon: com.hitbtc.wallet.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-11-15'
+date: 2021-11-15
 signer: 
 reviewArchive: 
-twitter: 'hitbtc'
+twitter: hitbtc
 social:
-- 'https://www.facebook.com/hitbtc'
-- 'https://www.reddit.com/r/hitbtc'
+- https://www.facebook.com/hitbtc
+- https://www.reddit.com/r/hitbtc
 redirect_from: 
-developerName: 'HitBTC Exchange'
+developerName: HitBTC Exchange
 features: 
 
 ---

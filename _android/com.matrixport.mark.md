@@ -1,36 +1,36 @@
 ---
-wsId: 'matrixport'
+wsId: matrixport
 title: 'Matrixport: Crypto Services'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.matrixport.mark'
-appCountry: 'cn'
-released: '2019-10-23'
-updated: 2025-01-24
-version: '3.1.3'
+appId: com.matrixport.mark
+appCountry: cn
+released: 2019-10-23
+updated: 2025-02-14
+version: 3.1.4
 stars: 3.9
 ratings: 1103
 reviews: 863
-website: 'https://invest.matrixport.com'
+website: https://invest.matrixport.com
 repository: 
 issue: 
-icon: 'com.matrixport.mark.png'
+icon: com.matrixport.mark.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-09-15'
+date: 2021-09-15
 signer: 
 reviewArchive: 
-twitter: 'realMatrixport'
+twitter: realMatrixport
 social:
-- 'https://www.linkedin.com/company/matrixport'
-- 'https://www.facebook.com/matrixport'
-- 'https://www.reddit.com/r/Matrixport'
+- https://www.linkedin.com/company/matrixport
+- https://www.facebook.com/matrixport
+- https://www.reddit.com/r/Matrixport
 redirect_from: 
-developerName: 'MATRIX TECH PTE. LTD'
+developerName: MATRIX TECH PTE. LTD
 features: 
 
 ---

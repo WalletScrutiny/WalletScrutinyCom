@@ -1,34 +1,33 @@
 ---
-wsId: 'aliceBobWallet'
+wsId: aliceBobWallet
 title: 'Crypto Wallet: Buy Bitcoin BTC'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.crypto.ab.wallet.app'
+appId: com.crypto.ab.wallet.app
 appCountry: 
-released: '2023-09-27'
-updated: '2024-07-25'
-version: '1.7.2'
+released: 2023-09-27
+updated: 2024-07-25
+version: 1.7.2
 stars: 4.8
 ratings: 
 reviews: 85
-size: 
-website: 'https://alicebob.com/'
+website: https://alicebob.com/
 repository: 
 issue: 
-icon: 'com.crypto.ab.wallet.app.png'
+icon: com.crypto.ab.wallet.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2024-09-08'
+date: 2024-09-08
 signer: 
 reviewArchive: 
-twitter: 'alicebob_wallet'
+twitter: alicebob_wallet
 social: 
 redirect_from: 
-developerName: 'AliceBob – Secure Crypto Wallet'
+developerName: AliceBob – Secure Crypto Wallet
 features: 
 
 ---

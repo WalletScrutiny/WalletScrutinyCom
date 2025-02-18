@@ -1,36 +1,35 @@
 ---
-wsId: 'eurocoinPay'
-title: 'Eurocoinpayapp'
+wsId: eurocoinPay
+title: Eurocoinpayapp
 altTitle: 
 authors:
-- 'danny'
-appId: 'EurocoinpayRN'
-appCountry: 'es'
+- danny
+appId: EurocoinpayRN
+appCountry: es
 idd: '1483125957'
-released: '2019-12-15'
+released: 2019-12-15
 updated: 2025-02-02
 version: '6.10'
-stars: 4.77778
+stars: 4.8
 reviews: 9
-size: '24025088'
-website: 'https://eurocoinpay.io'
+website: https://eurocoinpay.io
 repository: 
 issue: 
-icon: 'EurocoinpayRN.jpg'
+icon: EurocoinpayRN.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-07-24'
+date: 2023-07-24
 signer: 
 reviewArchive: 
-twitter: 'eurocoinpay'
+twitter: eurocoinpay
 social:
-- 'https://t.me/eurocoinpay_io'
-- 'https://eurocoinpay.medium.com'
-- 'https://www.youtube.com/c/eurocoinpay'
+- https://t.me/eurocoinpay_io
+- https://eurocoinpay.medium.com
+- https://www.youtube.com/c/eurocoinpay
 features: 
-developerName: 'eurocoinpay'
+developerName: eurocoinpay
 
 ---
 

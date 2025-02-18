@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Exchief'
+title: Exchief
 altTitle: 
 authors: 
 users: 100
-appId: 'com.xm.exchief'
+appId: com.xm.exchief
 appCountry: 
-released: '2019-12-18'
-updated: '2020-01-28'
-version: '4.1.1_exchief'
+released: 2019-12-18
+updated: 2020-01-28
+version: 4.1.1_exchief
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.xm.exchief.png'
+icon: com.xm.exchief.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-01-30'
+date: 2023-01-30
 signer: 
 reviewArchive: 
 twitter: 

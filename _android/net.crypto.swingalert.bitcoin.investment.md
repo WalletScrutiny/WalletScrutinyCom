@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Bitcoin Investment'
+title: Bitcoin Investment
 altTitle: 
 authors: 
 users: 5
-appId: 'net.crypto.swingalert.bitcoin.investment'
+appId: net.crypto.swingalert.bitcoin.investment
 appCountry: 
-released: '2021-07-17'
-updated: '2021-07-17'
+released: 2021-07-17
+updated: 2021-07-17
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: '2.4M'
 website: 
 repository: 
 issue: 
-icon: 'net.crypto.swingalert.bitcoin.investment.png'
+icon: net.crypto.swingalert.bitcoin.investment.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2021-10-01'
+date: 2021-10-01
 signer: 
 reviewArchive: 
 twitter: 

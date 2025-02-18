@@ -1,28 +1,27 @@
 ---
-wsId: 'UBFXGlobal'
-title: 'UBFX Global'
+wsId: UBFXGlobal
+title: UBFX Global
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.ubankfx.forex'
-appCountry: 'th'
-released: '2017-05-17'
-updated: '2022-03-31'
-version: 'v8.5-5457-b9fe16886'
+appId: com.ubankfx.forex
+appCountry: th
+released: 2017-05-17
+updated: 2022-03-31
+version: v8.5-5457-b9fe16886
 stars: 
 ratings: 
 reviews: 
-size: '38M'
-website: 'http://www.ubfx.co.uk'
+website: http://www.ubfx.co.uk
 repository: 
 issue: 
-icon: 'com.ubankfx.forex.png'
+icon: com.ubankfx.forex.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosendreceive'
+meta: removed
+verdict: nosendreceive
 appHashes: 
-date: '2022-04-25'
+date: 2022-04-25
 signer: 
 reviewArchive: 
 twitter: 

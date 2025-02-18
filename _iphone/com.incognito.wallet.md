@@ -7,12 +7,11 @@ authors:
 appId: com.incognito.wallet
 appCountry: 
 idd: 1475631606
-released: '2019-08-21'
-updated: '2023-09-08'
-version: '5.14.0'
+released: 2019-08-21
+updated: 2023-09-08
+version: 5.14.0
 stars: 3.8
 reviews: 115
-size: '56109056'
 website: https://incognito.org
 repository: https://github.com/incognitochain/incognito-wallet
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: nonverifiable
 appHashes: 
-date: '2024-05-18'
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: incognitochain

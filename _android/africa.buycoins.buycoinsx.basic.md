@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Buycoins - The easiest way to buy & sell crypto'
+title: Buycoins - The easiest way to buy & sell crypto
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'africa.buycoins.buycoinsx.basic'
+appId: africa.buycoins.buycoinsx.basic
 appCountry: 
-released: '2021-04-16'
-updated: '2022-05-18'
-version: '1.1.85'
+released: 2021-04-16
+updated: 2022-05-18
+version: 1.1.85
 stars: 3.9
 ratings: 281
 reviews: 18
-size: 
-website: 'https://buycoins.africa'
+website: https://buycoins.africa
 repository: 
 issue: 
-icon: 'africa.buycoins.buycoinsx.basic.png'
+icon: africa.buycoins.buycoinsx.basic.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
-twitter: 'buycoins'
+twitter: buycoins
 social:
-- 'https://www.facebook.com/buycoinsafrica'
+- https://www.facebook.com/buycoinsafrica
 redirect_from: 
 developerName: 
 features: 

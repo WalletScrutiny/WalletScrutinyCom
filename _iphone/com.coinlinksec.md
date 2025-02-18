@@ -7,12 +7,11 @@ authors:
 appId: com.coinlinksec
 appCountry: us
 idd: '6479732222'
-released: '2024-03-26'
-updated: '2025-01-15'
-version: '1.3.0'
+released: 2024-03-26
+updated: 2025-01-15
+version: 1.3.0
 stars: 5
 reviews: 2
-size: '109474816'
 website: https://www.coinlink.tech
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: wip
 appHashes: 
-date: '2024-12-11'
+date: 2024-12-11
 signer: 
 reviewArchive: 
 twitter: 

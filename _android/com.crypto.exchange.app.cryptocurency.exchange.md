@@ -3,32 +3,31 @@ wsId:
 title: 'Crypto Exchange -  Buy & Sell '
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.crypto.exchange.app.cryptocurency.exchange'
+appId: com.crypto.exchange.app.cryptocurency.exchange
 appCountry: 
-released: '2021-04-23'
-updated: '2021-04-23'
+released: 2021-04-23
+updated: 2021-04-23
 version: '1.0'
 stars: 3.7
 ratings: 220
 reviews: 22
-size: 
-website: 'http://crypto-exchange.club'
+website: http://crypto-exchange.club
 repository: 
 issue: 
-icon: 'com.crypto.exchange.app.cryptocurency.exchange.png'
+icon: com.crypto.exchange.app.cryptocurency.exchange.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2024-07-05'
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Buy Crypto - Crypto Exchange - Sell Crypto'
+developerName: Buy Crypto - Crypto Exchange - Sell Crypto
 features: 
 
 ---

@@ -8,12 +8,11 @@ authors:
 appId: crypto.com.exchange
 appCountry: nz
 idd: 1569309855
-released: '2021-06-15'
-updated: '2025-02-12'
-version: '2.55.1'
+released: 2021-06-15
+updated: 2025-02-12
+version: 2.55.1
 stars: 4.8
 reviews: 102
-size: '180535296'
 website: https://crypto.com/exchange
 repository: 
 issue: 
@@ -22,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2021-10-24'
+date: 2021-10-24
 signer: 
 reviewArchive: 
 twitter: cryptocom

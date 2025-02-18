@@ -6,12 +6,11 @@ authors:
 appId: com.plusblocks.exchange
 appCountry: ph
 idd: '1566819984'
-released: '2021-05-12'
-updated: '2024-11-07'
-version: '2.0.1'
+released: 2021-05-12
+updated: 2024-11-07
+version: 2.0.1
 stars: 0
 reviews: 0
-size: '147098624'
 website: 
 repository: 
 issue: 
@@ -20,7 +19,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2023-04-11'
+date: 2023-04-11
 signer: 
 reviewArchive: 
 twitter: box_trad

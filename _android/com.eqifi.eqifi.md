@@ -1,37 +1,37 @@
 ---
-wsId: 'eqifi'
-title: 'EQIFi | Hold & Transfer Crypto'
+wsId: eqifi
+title: EQIFi | Hold & Transfer Crypto
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.eqifi.eqifi'
+appId: com.eqifi.eqifi
 appCountry: 
-released: '2022-04-03'
+released: 2022-04-03
 updated: 2023-04-20
-version: '1.7.3'
+version: 1.7.3
 stars: 
 ratings: 
 reviews: 
-website: 'https://www.eqifi.com/'
+website: https://www.eqifi.com/
 repository: 
 issue: 
-icon: 'com.eqifi.eqifi.png'
+icon: com.eqifi.eqifi.png
 bugbounty: 
-meta: 'stale'
-verdict: 'custodial'
+meta: stale
+verdict: custodial
 appHashes: 
-date: '2024-04-17'
+date: 2024-04-17
 signer: 
 reviewArchive: 
-twitter: 'eqifi_finance'
+twitter: eqifi_finance
 social:
-- 'https://www.facebook.com/EQIFi'
-- 'https://www.instagram.com/eqifi_finance'
-- 'https://www.linkedin.com/company/eqifi'
-- 'https://www.reddit.com/r/EQIFI'
+- https://www.facebook.com/EQIFi
+- https://www.instagram.com/eqifi_finance
+- https://www.linkedin.com/company/eqifi
+- https://www.reddit.com/r/EQIFI
 redirect_from: 
-developerName: 'EQIFi'
+developerName: EQIFi
 features: 
 
 ---

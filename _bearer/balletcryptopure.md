@@ -3,7 +3,7 @@ title: Ballet Crypto Pure
 appId: balletcryptopure
 authors:
 - danny
-released: '2021-09-19'
+released: 2021-09-19
 discontinued: 
 updated: 
 version: 
@@ -26,7 +26,7 @@ icon: balletcryptopure.png
 bugbounty: 
 meta: ok
 verdict: sealed-plainkey
-date: '2022-03-23'
+date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: BalletCrypto

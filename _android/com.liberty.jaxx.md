@@ -1,39 +1,38 @@
 ---
-wsId: 'jaxxliberty'
-title: 'Jaxx Liberty - Trade Crypto'
+wsId: jaxxliberty
+title: Jaxx Liberty - Trade Crypto
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 100000
-appId: 'com.liberty.jaxx'
+appId: com.liberty.jaxx
 appCountry: 
-released: '2018-09-01'
-updated: '2022-06-15'
-version: '3.0.0'
+released: 2018-09-01
+updated: 2022-06-15
+version: 3.0.0
 stars: 3.7
 ratings: 5474
 reviews: 428
-size: 
-website: 'https://jaxx.io'
+website: https://jaxx.io
 repository: 
 issue: 
-icon: 'com.liberty.jaxx.png'
+icon: com.liberty.jaxx.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2023-04-16'
+date: 2023-04-16
 signer: 
 reviewArchive: 
-twitter: 'jaxx_io'
+twitter: jaxx_io
 social:
-- 'https://www.facebook.com/JaxxWallet'
+- https://www.facebook.com/JaxxWallet
 redirect_from:
-- '/jaxx/'
-- '/com.liberty.jaxx/'
-- '/posts/2019/11/jaxx/'
-- '/posts/com.liberty.jaxx/'
-developerName: 'Decentral Inc.'
+- /jaxx/
+- /com.liberty.jaxx/
+- /posts/2019/11/jaxx/
+- /posts/com.liberty.jaxx/
+developerName: Decentral Inc.
 features: 
 
 ---

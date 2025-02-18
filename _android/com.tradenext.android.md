@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'TradeNext'
+title: TradeNext
 altTitle: 
 authors: 
 users: 500
-appId: 'com.tradenext.android'
+appId: com.tradenext.android
 appCountry: 
 released: 
-updated: '2023-06-26'
-version: '1.7.0'
+updated: 2023-06-26
+version: 1.7.0
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://tradenext.com'
+website: https://tradenext.com
 repository: 
 issue: 
-icon: 'com.tradenext.android.png'
+icon: com.tradenext.android.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-09-04'
+date: 2023-09-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'TradeNext'
+developerName: TradeNext
 features: 
 
 ---

@@ -1,35 +1,34 @@
 ---
-wsId: 'doshiWallet'
-title: 'Do* Wallet'
+wsId: doshiWallet
+title: Do* Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'doshi.app'
+appId: doshi.app
 appCountry: 
-released: '2022-08-22'
-updated: '2023-11-17'
-version: '1.0.130'
+released: 2022-08-22
+updated: 2023-11-17
+version: 1.0.130
 stars: 3.3
 ratings: 
 reviews: 3
-size: 
-website: 'https://www.doshi.app'
+website: https://www.doshi.app
 repository: 
 issue: 
-icon: 'doshi.app.png'
+icon: doshi.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2024-10-23'
+date: 2024-10-23
 signer: 
 reviewArchive: 
-twitter: 'doshi_wallet'
+twitter: doshi_wallet
 social:
-- 'https://discord.com/invite/xQkdtmZm5V'
+- https://discord.com/invite/xQkdtmZm5V
 redirect_from: 
-developerName: 'Doshi'
+developerName: Doshi
 features: 
 
 ---

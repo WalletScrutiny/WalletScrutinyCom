@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'HODLER Open Source Multi-Asset'
+title: HODLER Open Source Multi-Asset
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 1000
-appId: 'tech.hodler.core'
+appId: tech.hodler.core
 appCountry: 
-released: '2018-09-02'
-updated: '2019-10-29'
-version: '0.4.6'
+released: 2018-09-02
+updated: 2019-10-29
+version: 0.4.6
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://hodler.tech'
-repository: 'https://github.com/HODLERTECH/HODLER-Open-Source-Multi-Asset-Wallet'
-issue: 'https://github.com/HODLERTECH/HODLER-Open-Source-Multi-Asset-Wallet/issues/165'
-icon: 'tech.hodler.core.png'
+website: https://hodler.tech
+repository: https://github.com/HODLERTECH/HODLER-Open-Source-Multi-Asset-Wallet
+issue: https://github.com/HODLERTECH/HODLER-Open-Source-Multi-Asset-Wallet/issues/165
+icon: tech.hodler.core.png
 bugbounty: 
-meta: 'removed'
-verdict: 'ftbfs'
+meta: removed
+verdict: ftbfs
 appHashes: 
-date: '2024-04-26'
+date: 2024-04-26
 signer: 
 reviewArchive: 
-twitter: 'HODLER_TECH'
+twitter: HODLER_TECH
 social: 
 redirect_from: 
-developerName: 'HODLER.TECH LTD'
+developerName: HODLER.TECH LTD
 features: 
 
 ---

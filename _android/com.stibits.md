@@ -1,34 +1,33 @@
 ---
-wsId: 'stibits'
-title: 'Stibits'
+wsId: stibits
+title: Stibits
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.stibits'
+appId: com.stibits
 appCountry: 
-released: '2022-03-10'
-updated: '2022-11-23'
-version: '0.16BETA'
+released: 2022-03-10
+updated: 2022-11-23
+version: 0.16BETA
 stars: 3.5
 ratings: 
 reviews: 3
-size: 
-website: 'https://stibits.com'
+website: https://stibits.com
 repository: 
 issue: 
-icon: 'com.stibits.png'
+icon: com.stibits.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-12-23'
+date: 2024-12-23
 signer: 
 reviewArchive: 
-twitter: 'stibits'
+twitter: stibits
 social: 
 redirect_from: 
-developerName: 'Stibits'
+developerName: Stibits
 features: 
 
 ---

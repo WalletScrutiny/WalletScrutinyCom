@@ -1,37 +1,36 @@
 ---
-wsId: 'bitstampCrypto'
+wsId: bitstampCrypto
 title: 'Bitstamp: Buy Crypto & Bitcoin'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'net.bitstamp.appgo'
+appId: net.bitstamp.appgo
 appCountry: 
-released: '2023-07-20'
-updated: '2024-05-22'
+released: 2023-07-20
+updated: 2024-05-22
 version: '1.10'
 stars: 4.3
 ratings: 
 reviews: 26
-size: 
-website: 'https://www.bitstamp.net'
+website: https://www.bitstamp.net
 repository: 
 issue: 
-icon: 'net.bitstamp.appgo.png'
+icon: net.bitstamp.appgo.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-08-31'
+date: 2024-08-31
 signer: 
 reviewArchive: 
-twitter: 'Bitstamp'
+twitter: Bitstamp
 social:
-- 'https://www.linkedin.com/company/bitstamp'
-- 'https://www.facebook.com/Bitstamp'
-- 'https://www.instagram.com/bitstampexchange'
+- https://www.linkedin.com/company/bitstamp
+- https://www.facebook.com/Bitstamp
+- https://www.instagram.com/bitstampexchange
 redirect_from: 
-developerName: 'Bitstamp'
+developerName: Bitstamp
 features: 
 
 ---

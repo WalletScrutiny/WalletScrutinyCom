@@ -1,36 +1,35 @@
 ---
-wsId: 'StartEOSWallet'
-title: 'Start Wallet(EOS, BTC, ETH, TR'
+wsId: StartEOSWallet
+title: Start Wallet(EOS, BTC, ETH, TR
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.hconline.iso'
-appCountry: 'us'
-released: '2020-07-19'
-updated: '2022-10-28'
-version: 'R02.03.06.478'
+appId: com.hconline.iso
+appCountry: us
+released: 2020-07-19
+updated: 2022-10-28
+version: R02.03.06.478
 stars: 4.1
 ratings: 19
 reviews: 4
-size: 
-website: 'https://www.starteos.io'
+website: https://www.starteos.io
 repository: 
 issue: 
-icon: 'com.hconline.iso.png'
+icon: com.hconline.iso.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
-twitter: 'Starteos'
+twitter: Starteos
 social:
-- 'https://www.facebook.com/starteos.io.7'
-- 'https://github.com/StarteosIO'
+- https://www.facebook.com/starteos.io.7
+- https://github.com/StarteosIO
 redirect_from: 
-developerName: 'Start.io'
+developerName: Start.io
 features: 
 
 ---

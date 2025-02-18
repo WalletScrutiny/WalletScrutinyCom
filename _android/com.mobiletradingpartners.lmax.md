@@ -1,35 +1,35 @@
 ---
-wsId: 'LMAXGlobal'
-title: 'LMAX Global Trading'
+wsId: LMAXGlobal
+title: LMAX Global Trading
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.mobiletradingpartners.lmax'
+appId: com.mobiletradingpartners.lmax
 appCountry: 
-released: '2014-09-22'
+released: 2014-09-22
 updated: 2024-10-08
-version: '5.0.52'
+version: 5.0.52
 stars: 4.6
 ratings: 
 reviews: 4
-website: 'http://www.lmax.com/mobile'
+website: http://www.lmax.com/mobile
 repository: 
 issue: 
-icon: 'com.mobiletradingpartners.lmax.png'
+icon: com.mobiletradingpartners.lmax.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosendreceive'
+meta: ok
+verdict: nosendreceive
 appHashes: 
-date: '2023-02-24'
+date: 2023-02-24
 signer: 
 reviewArchive: 
-twitter: 'LMAX'
+twitter: LMAX
 social:
-- 'https://www.linkedin.com/company/lmax-group'
-- 'https://www.youtube.com/user/lmax'
+- https://www.linkedin.com/company/lmax-group
+- https://www.youtube.com/user/lmax
 redirect_from: 
-developerName: 'LMAX BROKER LIMITED'
+developerName: LMAX BROKER LIMITED
 features: 
 
 ---

@@ -7,12 +7,11 @@ authors:
 appId: mn.blockchain.wallet
 appCountry: ua
 idd: 1519293475
-released: '2020-07-20'
-updated: '2021-02-16'
-version: '1.9.3'
+released: 2020-07-20
+updated: 2021-02-16
+version: 1.9.3
 stars: 4.4
 reviews: 7
-size: '36038656'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: nobtc
 appHashes: 
-date: '2022-10-21'
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: EDCBlockchain

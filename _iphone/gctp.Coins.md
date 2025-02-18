@@ -7,12 +7,11 @@ authors:
 appId: gctp.Coins
 appCountry: 
 idd: 972324049
-released: '2015-04-04'
-updated: '2022-06-30'
-version: '3.4.2'
+released: 2015-04-04
+updated: 2022-06-30
+version: 3.4.2
 stars: 4.7
 reviews: 3330
-size: '126021632'
 website: https://coins.ph/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2023-01-11'
+date: 2023-01-11
 signer: 
 reviewArchive: 
 twitter: coinsph

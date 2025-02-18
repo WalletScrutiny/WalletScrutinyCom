@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Bitpay Buy Crypto'
+title: Bitpay Buy Crypto
 altTitle: 
 authors: 
 users: 10
-appId: 'com.cryptojournal.bitpay.buy.crypto'
+appId: com.cryptojournal.bitpay.buy.crypto
 appCountry: 
-released: '2021-07-07'
-updated: '2021-07-07'
+released: 2021-07-07
+updated: 2021-07-07
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: '2.3M'
 website: 
 repository: 
 issue: 
-icon: 'com.cryptojournal.bitpay.buy.crypto.png'
+icon: com.cryptojournal.bitpay.buy.crypto.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2021-10-01'
+date: 2021-10-01
 signer: 
 reviewArchive: 
 twitter: 

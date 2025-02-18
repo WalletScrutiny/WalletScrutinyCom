@@ -1,38 +1,37 @@
 ---
-wsId: 'kassio'
-title: 'Kassio'
+wsId: kassio
+title: Kassio
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.fintech.kassio'
+appId: com.fintech.kassio
 appCountry: 
-released: '2022-02-18'
-updated: '2023-10-27'
-version: '3.1.1'
+released: 2022-02-18
+updated: 2023-10-27
+version: 3.1.1
 stars: 2.4
 ratings: 
 reviews: 
-size: 
-website: 'https://kassio.com'
+website: https://kassio.com
 repository: 
 issue: 
-icon: 'com.fintech.kassio.png'
+icon: com.fintech.kassio.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-10-31'
+date: 2024-10-31
 signer: 
 reviewArchive: 
-twitter: 'KassioNetwork'
+twitter: KassioNetwork
 social:
-- 'https://www.linkedin.com/company/kassionetwork/'
-- 'https://www.facebook.com/KassioNetwork'
-- 'https://www.instagram.com/kassionetwork/'
-- 'https://www.youtube.com/channel/UCWeoqvy5jc8TeNq5fOGoAoA'
+- https://www.linkedin.com/company/kassionetwork/
+- https://www.facebook.com/KassioNetwork
+- https://www.instagram.com/kassionetwork/
+- https://www.youtube.com/channel/UCWeoqvy5jc8TeNq5fOGoAoA
 redirect_from: 
-developerName: 'Digital Pung ApS'
+developerName: Digital Pung ApS
 features: 
 
 ---

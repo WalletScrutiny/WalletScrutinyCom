@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Bitcoin Exchange P2P'
+title: Bitcoin Exchange P2P
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.alsoft.bitcoinlocal'
+appId: com.alsoft.bitcoinlocal
 appCountry: 
-released: '2018-02-15'
-updated: '2023-02-14'
+released: 2018-02-15
+updated: 2023-02-14
 version: '4.1'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.alsoft.bitcoinlocal.png'
+icon: com.alsoft.bitcoinlocal.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 's.ovadia'
+developerName: s.ovadia
 features: 
 
 ---

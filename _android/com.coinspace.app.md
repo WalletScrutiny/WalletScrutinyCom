@@ -1,44 +1,44 @@
 ---
-wsId: 'coinspace'
-title: 'Coin Wallet - Bitcoin & Crypto'
+wsId: coinspace
+title: Coin Wallet - Bitcoin & Crypto
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 100000
-appId: 'com.coinspace.app'
+appId: com.coinspace.app
 appCountry: 
-released: '2015-05-01'
+released: 2015-05-01
 updated: 2025-02-05
-version: '6.7.0'
+version: 6.7.0
 stars: 4.2
 ratings: 1234
-reviews: 85
-website: 'https://coin.space'
-repository: 'https://github.com/CoinSpace/CoinSpace'
-issue: 'https://github.com/CoinSpace/CoinSpace/issues/30'
-icon: 'com.coinspace.app.png'
-bugbounty: 'https://openbugbounty.org/bugbounty/CoinAppWallet/'
-meta: 'ok'
-verdict: 'nonverifiable'
+reviews: 86
+website: https://coin.space
+repository: https://github.com/CoinSpace/CoinSpace
+issue: https://github.com/CoinSpace/CoinSpace/issues/30
+icon: com.coinspace.app.png
+bugbounty: https://openbugbounty.org/bugbounty/CoinAppWallet/
+meta: ok
+verdict: nonverifiable
 appHashes: []
-date: '2023-04-22'
+date: 2023-04-22
 signer: 
 reviewArchive:
-- date: '2019-12-16'
-  version: 'v2.16.3'
+- date: 2019-12-16
+  version: v2.16.3
   appHashes: []
-  gitRevision: '05400fa6155c33892a2955e12311ede0d86da12a'
-  verdict: 'ftbfs'
-twitter: 'coinappwallet'
+  gitRevision: 05400fa6155c33892a2955e12311ede0d86da12a
+  verdict: ftbfs
+twitter: coinappwallet
 social:
-- 'https://www.linkedin.com/company/coin-space'
-- 'https://www.facebook.com/coinappwallet'
+- https://www.linkedin.com/company/coin-space
+- https://www.facebook.com/coinappwallet
 redirect_from:
-- '/coin/'
-- '/com.coinspace.app/'
-- '/posts/2019/11/coin/'
-- '/posts/com.coinspace.app/'
-developerName: 'CoinSpace'
+- /coin/
+- /com.coinspace.app/
+- /posts/2019/11/coin/
+- /posts/com.coinspace.app/
+developerName: CoinSpace
 features: 
 
 ---

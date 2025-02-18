@@ -7,12 +7,11 @@ authors:
 appId: com.digilab24.apps
 appCountry: pl
 idd: '1617764947'
-released: '2022-04-14'
-updated: '2023-05-18'
-version: '1.9.18'
+released: 2022-04-14
+updated: 2023-05-18
+version: 1.9.18
 stars: 0
 reviews: 0
-size: '85863424'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2023-09-28'
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: CPass_Official

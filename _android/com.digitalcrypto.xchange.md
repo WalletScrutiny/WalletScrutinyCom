@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'SunX'
+title: SunX
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.digitalcrypto.xchange'
+appId: com.digitalcrypto.xchange
 appCountry: 
-released: '2021-09-06'
-updated: '2021-09-17'
+released: 2021-09-06
+updated: 2021-09-17
 version: '1.04'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.digitalcrypto.xchange.png'
+icon: com.digitalcrypto.xchange.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'wip'
+meta: defunct
+verdict: wip
 appHashes: 
-date: '2023-05-23'
+date: 2023-05-23
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Sunway Trading Company'
+developerName: Sunway Trading Company
 features: 
 
 ---

@@ -7,12 +7,11 @@ authors:
 appId: com.kmoh.mexo
 appCountry: us
 idd: 1555609032
-released: '2021-03-01'
-updated: '2025-02-06'
-version: '3.6.11'
+released: 2021-03-01
+updated: 2025-02-06
+version: 3.6.11
 stars: 4.9
 reviews: 136
-size: '163597312'
 website: https://help.trubit.com/en
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2021-10-26'
+date: 2021-10-26
 signer: 
 reviewArchive: 
 twitter: mexo_io

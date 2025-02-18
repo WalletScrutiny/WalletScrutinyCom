@@ -1,36 +1,36 @@
 ---
-wsId: 'cryptoforceTrade'
-title: 'Cryptoforce:Trade|Stake Crypto'
+wsId: cryptoforceTrade
+title: Cryptoforce:Trade|Stake Crypto
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'in.cryptoforce.cfx'
+appId: in.cryptoforce.cfx
 appCountry: 
-released: '2022-09-27'
+released: 2022-09-27
 updated: 2024-04-18
-version: '1.1.2.5'
+version: 1.1.2.5
 stars: 3.3
 ratings: 
 reviews: 
-website: 'https://cryptoforce.in'
+website: https://cryptoforce.in
 repository: 
 issue: 
-icon: 'in.cryptoforce.cfx.png'
+icon: in.cryptoforce.cfx.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-08-18'
+date: 2023-08-18
 signer: 
 reviewArchive: 
-twitter: 'cryptoforce_in'
+twitter: cryptoforce_in
 social:
-- 'https://www.facebook.com/cryptoforceindia'
-- 'https://www.instagram.com/cryptoforce_in'
-- 'https://www.linkedin.com/company/cryptoforcein'
-- 'https://t.me/Cryptoforceofficial'
-- 'https://cryptoforceindia.medium.com'
+- https://www.facebook.com/cryptoforceindia
+- https://www.instagram.com/cryptoforce_in
+- https://www.linkedin.com/company/cryptoforcein
+- https://t.me/Cryptoforceofficial
+- https://cryptoforceindia.medium.com
 redirect_from: 
 developerName: 'CryptoForce: Bitcoin & Cryptocurrency Investment'
 features: 

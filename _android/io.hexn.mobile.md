@@ -3,33 +3,33 @@ wsId:
 title: 'HEXN: Buy Bitcoin, Hodl Crypto'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'io.hexn.mobile'
+appId: io.hexn.mobile
 appCountry: 
-released: '2022-12-12'
+released: 2022-12-12
 updated: 2025-02-12
-version: '1.2.3'
+version: 1.2.3
 stars: 4.3
 ratings: 
 reviews: 5
-website: 'https://hexn.io'
+website: https://hexn.io
 repository: 
 issue: 
-icon: 'io.hexn.mobile.png'
+icon: io.hexn.mobile.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-07-17'
+date: 2023-07-17
 signer: 
 reviewArchive: 
-twitter: 'hexn_io'
+twitter: hexn_io
 social:
-- 'https://www.facebook.com/hexnio'
-- 'https://t.me/hexnio'
+- https://www.facebook.com/hexnio
+- https://t.me/hexnio
 redirect_from: 
-developerName: 'NuzlTech Limited'
+developerName: NuzlTech Limited
 features: 
 
 ---

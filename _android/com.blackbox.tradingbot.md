@@ -4,30 +4,29 @@ title: 'Black Box Algorithm Builder - '
 altTitle: 
 authors: 
 users: 1000
-appId: 'com.blackbox.tradingbot'
+appId: com.blackbox.tradingbot
 appCountry: 
 released: 
-updated: '2019-09-11'
-version: 'VARY'
+updated: 2019-09-11
+version: VARY
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.youtube.com/c/CryptoCrasher/live'
+website: https://www.youtube.com/c/CryptoCrasher/live
 repository: 
 issue: 
-icon: 'com.blackbox.tradingbot.png'
+icon: com.blackbox.tradingbot.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2024-03-02'
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Black Box Apps'
+developerName: Black Box Apps
 features: 
 
 ---

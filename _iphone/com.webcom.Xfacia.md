@@ -7,12 +7,11 @@ authors:
 appId: com.webcom.Xfacia
 appCountry: us
 idd: '1620527067'
-released: '2022-08-15'
-updated: '2022-12-21'
+released: 2022-08-15
+updated: 2022-12-21
 version: '4.1'
 stars: 0
 reviews: 0
-size: '82309120'
 website: https://xfacia.com/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: obsolete
 verdict: custodial
 appHashes: 
-date: '2024-12-15'
+date: 2024-12-15
 signer: 
 reviewArchive: 
 twitter: XfaciaXchange

@@ -7,12 +7,11 @@ authors:
 appId: com.mojitowallet
 appCountry: us
 idd: '1620691992'
-released: '2022-07-15'
-updated: '2024-12-24'
-version: '0.4.2'
+released: 2022-07-15
+updated: 2024-12-24
+version: 0.4.2
 stars: 4.6
 reviews: 9
-size: '49131520'
 website: https://www.mintlayer.org/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: nonverifiable
 appHashes: []
-date: '2023-09-06'
+date: 2023-09-06
 signer: 
 reviewArchive: 
 twitter: mintlayer

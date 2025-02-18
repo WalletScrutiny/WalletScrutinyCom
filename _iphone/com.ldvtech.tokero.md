@@ -7,12 +7,11 @@ authors:
 appId: com.ldvtech.tokero
 appCountry: ro
 idd: '1569586581'
-released: '2021-06-04'
-updated: '2024-11-28'
+released: 2021-06-04
+updated: 2024-11-28
 version: '4.4'
 stars: 4.6
 reviews: 21
-size: '28685312'
 website: https://tokero.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2023-04-28'
+date: 2023-04-28
 signer: 
 reviewArchive: 
 twitter: tokeroexchange

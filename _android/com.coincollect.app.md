@@ -1,31 +1,30 @@
 ---
-wsId: 'CoinCollect'
+wsId: CoinCollect
 title: 'CoinCollect wallet: We Make Crypto Easy'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.coincollect.app'
-appCountry: 'us'
-released: '2019-09-08'
-updated: '2021-04-21'
-version: '1.11.0'
+appId: com.coincollect.app
+appCountry: us
+released: 2019-09-08
+updated: 2021-04-21
+version: 1.11.0
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://coincollect.cc/'
+website: https://coincollect.cc/
 repository: 
 issue: 
-icon: 'com.coincollect.app.png'
+icon: com.coincollect.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
-twitter: 'coincollectHQ'
+twitter: coincollectHQ
 social: 
 redirect_from: 
 developerName: 

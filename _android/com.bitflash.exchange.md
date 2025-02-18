@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Bitflash Exchange'
+title: Bitflash Exchange
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.bitflash.exchange'
+appId: com.bitflash.exchange
 appCountry: 
-released: '2022-04-07'
-updated: '2022-04-28'
+released: 2022-04-07
+updated: 2022-04-28
 version: '4.0'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://bitflash.io'
+website: https://bitflash.io
 repository: 
 issue: 
-icon: 'com.bitflash.exchange.png'
+icon: com.bitflash.exchange.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'wip'
+meta: defunct
+verdict: wip
 appHashes: 
-date: '2023-03-29'
+date: 2023-03-29
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Bitflash Cryptocurrency Exchange'
+developerName: Bitflash Cryptocurrency Exchange
 features: 
 
 ---

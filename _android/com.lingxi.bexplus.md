@@ -1,33 +1,32 @@
 ---
-wsId: 'Bexplus'
-title: 'Bitcoin Wallet for Margin Trading - Bexplus App'
+wsId: Bexplus
+title: Bitcoin Wallet for Margin Trading - Bexplus App
 altTitle: 
 authors:
-- 'kiwilamb'
+- kiwilamb
 users: 100000
-appId: 'com.lingxi.bexplus'
+appId: com.lingxi.bexplus
 appCountry: 
-released: '2018-10-29'
-updated: '2022-06-17'
-version: '2.2.1'
+released: 2018-10-29
+updated: 2022-06-17
+version: 2.2.1
 stars: 5
 ratings: 6810
 reviews: 1590
-size: 
-website: 'http://www.bexplus.com'
+website: http://www.bexplus.com
 repository: 
 issue: 
-icon: 'com.lingxi.bexplus.png'
+icon: com.lingxi.bexplus.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
-twitter: 'BexplusExchange'
+twitter: BexplusExchange
 social:
-- 'https://www.reddit.com/r/Bexplus'
+- https://www.reddit.com/r/Bexplus
 redirect_from: 
 developerName: 
 features: 

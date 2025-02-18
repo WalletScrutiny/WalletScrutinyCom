@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Jeritex'
+title: Jeritex
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.jeritex.exchange'
+appId: com.jeritex.exchange
 appCountry: 
-released: '2022-05-05'
-updated: '2023-05-22'
-version: '1.1.20'
+released: 2022-05-05
+updated: 2023-05-22
+version: 1.1.20
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://jeritex.com'
+website: https://jeritex.com
 repository: 
 issue: 
-icon: 'com.jeritex.exchange.png'
+icon: com.jeritex.exchange.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-08-31'
+date: 2024-08-31
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Jeritex Inc.'
+developerName: Jeritex Inc.
 features: 
 
 ---

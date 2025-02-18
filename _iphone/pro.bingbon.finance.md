@@ -8,12 +8,11 @@ authors:
 appId: pro.bingbon.finance
 appCountry: us
 idd: 1500217666
-released: '2020-02-25'
-updated: '2025-01-21'
-version: '4.52.0'
+released: 2020-02-25
+updated: 2025-01-21
+version: 4.52.0
 stars: 4.7
-reviews: 2264
-size: '223896576'
+reviews: 2263
 website: https://bingbon.com
 repository: 
 issue: 
@@ -22,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2024-10-07'
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: BingbonOfficial

@@ -1,38 +1,38 @@
 ---
-wsId: 'EnnoWallet'
-title: 'Enno Wallet'
+wsId: EnnoWallet
+title: Enno Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.app.awqsome.ennowallet'
+appId: com.app.awqsome.ennowallet
 appCountry: 
-released: '2021-08-22'
+released: 2021-08-22
 updated: 2023-04-13
-version: '2.6.5'
+version: 2.6.5
 stars: 4.2
 ratings: 
 reviews: 15
-website: 'https://www.ennowallet.com'
-repository: 'https://github.com/Enno-Wallet-Enno-Cash'
+website: https://www.ennowallet.com
+repository: https://github.com/Enno-Wallet-Enno-Cash
 issue: 
-icon: 'com.app.awqsome.ennowallet.png'
+icon: com.app.awqsome.ennowallet.png
 bugbounty: 
-meta: 'stale'
-verdict: 'nobtc'
+meta: stale
+verdict: nobtc
 appHashes: 
-date: '2024-04-09'
+date: 2024-04-09
 signer: 
 reviewArchive: 
-twitter: 'ennowallet'
+twitter: ennowallet
 social:
-- 'https://www.facebook.com/EnnoWallet/'
-- 'https://www.linkedin.com/company/ennowallet/'
-- 'https://www.youtube.com/ennowallet'
-- 'https://blog.ennowallet.com/'
-- 'https://www.instagram.com/ennowallet/'
+- https://www.facebook.com/EnnoWallet/
+- https://www.linkedin.com/company/ennowallet/
+- https://www.youtube.com/ennowallet
+- https://blog.ennowallet.com/
+- https://www.instagram.com/ennowallet/
 redirect_from: 
-developerName: 'EnnoFund Limited'
+developerName: EnnoFund Limited
 features: 
 
 ---

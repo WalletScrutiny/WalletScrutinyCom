@@ -1,36 +1,36 @@
 ---
 wsId: 
-title: 'HOYA BIT 加密貨幣交易所'
+title: HOYA BIT 加密貨幣交易所
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.hoyabit.cex'
+appId: com.hoyabit.cex
 appCountry: 
-released: '2023-03-10'
+released: 2023-03-10
 updated: 2025-02-13
-version: '1.31.1'
+version: 1.31.1
 stars: 4.9
 ratings: 
 reviews: 
-website: 'https://hoyabit.com/'
+website: https://hoyabit.com/
 repository: 
 issue: 
-icon: 'com.hoyabit.cex.png'
+icon: com.hoyabit.cex.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-12-02'
+date: 2023-12-02
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://www.facebook.com/HOYABITExchange'
-- 'https://www.youtube.com/@HOYA_BIT'
-- 'https://www.instagram.com/hoyabit.exchange'
+- https://www.facebook.com/HOYABITExchange
+- https://www.youtube.com/@HOYA_BIT
+- https://www.instagram.com/hoyabit.exchange
 redirect_from: 
-developerName: 'HOYA BIT Digital Technology Co., Ltd.'
+developerName: HOYA BIT Digital Technology Co., Ltd.
 features: 
 
 ---

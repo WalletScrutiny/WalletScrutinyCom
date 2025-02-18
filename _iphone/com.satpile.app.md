@@ -7,12 +7,11 @@ authors:
 appId: com.satpile.app
 appCountry: 
 idd: 1510284403
-released: '2020-05-20'
-updated: '2022-12-19'
-version: '1.7.3'
+released: 2020-05-20
+updated: 2022-12-19
+version: 1.7.3
 stars: 4.3
 reviews: 6
-size: '19050496'
 website: http://satpile.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: obsolete
 verdict: nowallet
 appHashes: 
-date: '2024-12-15'
+date: 2024-12-15
 signer: 
 reviewArchive: 
 twitter: satpile

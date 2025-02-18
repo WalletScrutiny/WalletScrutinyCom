@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Final Security'
+title: Final Security
 altTitle: 
 authors: 
 users: 5
-appId: 'com.finalSecurity'
+appId: com.finalSecurity
 appCountry: 
-released: '2020-04-17'
-updated: '2020-12-16'
-version: '1.0.2'
+released: 2020-04-17
+updated: 2020-12-16
+version: 1.0.2
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://final-security.com'
+website: https://final-security.com
 repository: 
 issue: 
-icon: 'com.finalSecurity.png'
+icon: com.finalSecurity.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Final Security'
+developerName: Final Security
 features: 
 
 ---

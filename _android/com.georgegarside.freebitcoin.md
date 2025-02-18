@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Earn Bitcoin Faucet'
+title: Earn Bitcoin Faucet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.georgegarside.freebitcoin'
+appId: com.georgegarside.freebitcoin
 appCountry: 
-released: '2020-10-30'
-updated: '2021-05-25'
-version: '3.1.1'
+released: 2020-10-30
+updated: 2021-05-25
+version: 3.1.1
 stars: 3.2
 ratings: 129
 reviews: 9
-size: 
-website: 'https://georgegarside.com'
+website: https://georgegarside.com
 repository: 
 issue: 
-icon: 'com.georgegarside.freebitcoin.png'
+icon: com.georgegarside.freebitcoin.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2024-07-05'
+date: 2024-07-05
 signer: 
 reviewArchive: 
-twitter: 'grgarside'
+twitter: grgarside
 social: 
 redirect_from: 
-developerName: 'George Garside'
+developerName: George Garside
 features: 
 
 ---

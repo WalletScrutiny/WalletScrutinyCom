@@ -3,31 +3,31 @@ wsId:
 title: 'Wealth Check - Bitcoin Wallet '
 altTitle: 
 authors:
-- 'kiwilamb'
+- kiwilamb
 users: 10000
-appId: 'com.jurajkusnier.bitcoinwalletbalance'
+appId: com.jurajkusnier.bitcoinwalletbalance
 appCountry: 
-released: '2017-12-29'
+released: 2017-12-29
 updated: 2020-06-01
 version: '2.4'
 stars: 4.2
 ratings: 251
 reviews: 43
-website: 'http://jurajkusnier.com/'
+website: http://jurajkusnier.com/
 repository: 
 issue: 
-icon: 'com.jurajkusnier.bitcoinwalletbalance.png'
+icon: com.jurajkusnier.bitcoinwalletbalance.png
 bugbounty: 
-meta: 'obsolete'
-verdict: 'nowallet'
+meta: obsolete
+verdict: nowallet
 appHashes: 
-date: '2022-05-22'
+date: 2022-05-22
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Juraj Kusnier'
+developerName: Juraj Kusnier
 features: 
 
 ---

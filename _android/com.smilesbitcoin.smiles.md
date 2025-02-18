@@ -1,36 +1,36 @@
 ---
-wsId: 'sMiles'
+wsId: sMiles
 title: 'sMiles: Earn Bitcoin'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.smilesbitcoin.smiles'
-appCountry: 'us'
-released: '2020-12-15'
-updated: 2025-01-29
-version: '3.3.0'
+appId: com.smilesbitcoin.smiles
+appCountry: us
+released: 2020-12-15
+updated: 2025-02-18
+version: 4.0.0
 stars: 2.4
 ratings: 208
 reviews: 215
-website: 'https://www.smilesbitcoin.com/'
+website: https://www.smilesbitcoin.com/
 repository: 
 issue: 
-icon: 'com.smilesbitcoin.smiles.png'
+icon: com.smilesbitcoin.smiles.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2021-11-04'
+date: 2021-11-04
 signer: 
 reviewArchive: 
-twitter: 'smilesbitcoin'
+twitter: smilesbitcoin
 social:
-- 'https://www.facebook.com/smilesbitcoin'
+- https://www.facebook.com/smilesbitcoin
 redirect_from: 
-developerName: 'StandApp, Inc.'
+developerName: StandApp, Inc.
 features:
-- 'ln'
+- ln
 
 ---
 

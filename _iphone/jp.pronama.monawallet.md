@@ -6,12 +6,11 @@ authors:
 appId: jp.pronama.monawallet
 appCountry: us
 idd: 1343235820
-released: '2018-02-22'
-updated: '2019-04-10'
-version: '2.0.0'
+released: 2018-02-22
+updated: 2019-04-10
+version: 2.0.0
 stars: 0
 reviews: 0
-size: '42539008'
 website: https://monawallet.net
 repository: 
 issue: 
@@ -20,7 +19,7 @@ bugbounty:
 meta: obsolete
 verdict: wip
 appHashes: 
-date: '2021-08-17'
+date: 2021-08-17
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,36 +1,35 @@
 ---
-wsId: 'bitcointoyou'
-title: 'Bitcointoyou Pro'
+wsId: bitcointoyou
+title: Bitcointoyou Pro
 altTitle: 
 authors:
-- 'kiwilamb'
+- kiwilamb
 users: 50000
-appId: 'com.pro.bitcointoyou'
+appId: com.pro.bitcointoyou
 appCountry: 
-released: '2019-10-31'
-updated: '2023-09-26'
-version: '0.0.228'
+released: 2019-10-31
+updated: 2023-09-26
+version: 0.0.228
 stars: 3.1
 ratings: 1359
 reviews: 5
-size: 
-website: 'https://www.bitcointoyou.com'
+website: https://www.bitcointoyou.com
 repository: 
 issue: 
-icon: 'com.pro.bitcointoyou.png'
+icon: com.pro.bitcointoyou.png
 bugbounty: 
-meta: 'stale'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-09-21'
+date: 2025-02-18
 signer: 
 reviewArchive: 
-twitter: 'bitcointoyou'
+twitter: bitcointoyou
 social:
-- 'https://www.linkedin.com/company/bitcointoyou'
-- 'https://www.facebook.com/Bitcointoyou'
+- https://www.linkedin.com/company/bitcointoyou
+- https://www.facebook.com/Bitcointoyou
 redirect_from: 
-developerName: 'B2U Limited'
+developerName: B2U Limited
 features: 
 
 ---

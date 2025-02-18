@@ -7,12 +7,11 @@ authors:
 appId: world.unbank.unbankmobileapp
 appCountry: us
 idd: '1587374229'
-released: '2022-05-03'
-updated: '2025-02-03'
-version: '2.9.4'
+released: 2022-05-03
+updated: 2025-02-14
+version: 2.9.5
 stars: 4
 reviews: 40
-size: '150589440'
 website: https://www.unbank.com/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: nowallet
 appHashes: 
-date: '2023-08-30'
+date: 2023-08-30
 signer: 
 reviewArchive: 
 twitter: unbankworld

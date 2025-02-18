@@ -7,12 +7,11 @@ authors:
 appId: com.dcoin.ios
 appCountry: us
 idd: 1508064925
-released: '2018-12-20'
-updated: '2023-04-11'
-version: '5.7.2'
+released: 2018-12-20
+updated: 2023-04-11
+version: 5.7.2
 stars: 3.2
 reviews: 19
-size: '64526336'
 website: https://www.dcoin.com/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2023-08-04'
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: dcoinexchange

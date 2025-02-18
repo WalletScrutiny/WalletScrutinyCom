@@ -1,37 +1,36 @@
 ---
 wsId: 
-title: 'Koinfox'
+title: Koinfox
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.koinfox.android.wallet'
+appId: com.koinfox.android.wallet
 appCountry: 
-released: '2019-01-25'
-updated: '2020-07-21'
+released: 2019-01-25
+updated: 2020-07-21
 version: '2.0'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.koinfox.com'
+website: https://www.koinfox.com
 repository: 
 issue: 
-icon: 'com.koinfox.android.wallet.png'
+icon: com.koinfox.android.wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
-twitter: 'koinfox'
+twitter: koinfox
 social:
-- 'https://www.facebook.com/koinfox/'
-- 'https://www.instagram.com/koinfoxofficial/'
-- 'https://www.linkedin.com/company/koinfox/'
+- https://www.facebook.com/koinfox/
+- https://www.instagram.com/koinfoxofficial/
+- https://www.linkedin.com/company/koinfox/
 redirect_from: 
-developerName: 'Decentralised Financial Corporation'
+developerName: Decentralised Financial Corporation
 features: 
 
 ---

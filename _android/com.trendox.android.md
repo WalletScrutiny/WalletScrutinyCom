@@ -3,33 +3,33 @@ wsId:
 title: 'Trendox: Crypto Trading App'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.trendox.android'
+appId: com.trendox.android
 appCountry: 
-released: '2022-01-02'
-updated: 2025-02-02
-version: '3.9.32_googleplay'
+released: 2022-01-02
+updated: 2025-02-18
+version: 3.9.40_googleplay
 stars: 4.8
 ratings: 
 reviews: 71
-website: 'https://fxtrendo.com'
+website: https://fxtrendo.com
 repository: 
 issue: 
-icon: 'com.trendox.android.png'
+icon: com.trendox.android.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-07-18'
+date: 2023-07-18
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://t.me/trendo_support'
-- 'https://www.instagram.com/fxtrendo'
+- https://t.me/trendo_support
+- https://www.instagram.com/fxtrendo
 redirect_from: 
-developerName: 'Trendo LLC'
+developerName: Trendo LLC
 features: 
 
 ---

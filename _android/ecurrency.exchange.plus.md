@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'E-currency Exchange Plus'
+title: E-currency Exchange Plus
 altTitle: 
 authors: 
 users: 10000
-appId: 'ecurrency.exchange.plus'
+appId: ecurrency.exchange.plus
 appCountry: 
-released: '2019-09-28'
-updated: '2019-09-28'
-version: 'v5.0'
+released: 2019-09-28
+updated: 2019-09-28
+version: v5.0
 stars: 3.7
 ratings: 87
 reviews: 2
-size: 
 website: 
 repository: 
 issue: 
-icon: 'ecurrency.exchange.plus.png'
+icon: ecurrency.exchange.plus.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2023-06-21'
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Moghadam'
+developerName: Moghadam
 features: 
 
 ---

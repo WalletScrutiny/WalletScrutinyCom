@@ -7,12 +7,11 @@ authors:
 appId: com.pro.b2u
 appCountry: br
 idd: 1489598378
-released: '2019-12-20'
-updated: '2023-09-27'
+released: 2019-12-20
+updated: 2023-09-27
 version: '2.4'
 stars: 2.5
-reviews: 167
-size: '41312256'
+reviews: 168
 website: https://www.bitcointoyou.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: stale
 verdict: custodial
 appHashes: 
-date: '2024-10-08'
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: bitcointoyou

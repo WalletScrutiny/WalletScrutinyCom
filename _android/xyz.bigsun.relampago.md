@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Relampago'
+title: Relampago
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100
-appId: 'xyz.bigsun.relampago'
+appId: xyz.bigsun.relampago
 appCountry: 
 released: 
-updated: '2019-12-03'
-version: 'VARY'
+updated: 2019-12-03
+version: VARY
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://relampago.bigsun.xyz'
+website: https://relampago.bigsun.xyz
 repository: 
 issue: 
-icon: 'xyz.bigsun.relampago.png'
+icon: xyz.bigsun.relampago.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'fiatjaf'
+developerName: fiatjaf
 features: 
 
 ---

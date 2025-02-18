@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'bobmint'
+title: bobmint
 altTitle: 
 authors: 
 users: 50
-appId: 'com.clic.bobmint'
+appId: com.clic.bobmint
 appCountry: 
-released: '2022-09-08'
-updated: '2022-09-14'
+released: 2022-09-08
+updated: 2022-09-14
 version: '3.0'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://bobmint.com'
+website: https://bobmint.com
 repository: 
 issue: 
-icon: 'com.clic.bobmint.jpg'
+icon: com.clic.bobmint.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-04-03'
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Bobmint'
+developerName: Bobmint
 features: 
 
 ---

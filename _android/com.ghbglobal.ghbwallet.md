@@ -1,36 +1,36 @@
 ---
-wsId: 'ghbGlobalWallet'
-title: 'GHB Wallet (지에이치비월렛-엘리시움-G) 안전'
+wsId: ghbGlobalWallet
+title: GHB Wallet (지에이치비월렛-엘리시움-G) 안전
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.ghbglobal.ghbwallet'
+appId: com.ghbglobal.ghbwallet
 appCountry: 
-released: '2019-12-06'
+released: 2019-12-06
 updated: 2023-01-15
-version: '1.7.7'
+version: 1.7.7
 stars: 4.5
 ratings: 
 reviews: 
-website: 'http://ghbwallet.com/home/page/index.html'
+website: http://ghbwallet.com/home/page/index.html
 repository: 
 issue: 
-icon: 'com.ghbglobal.ghbwallet.png'
+icon: com.ghbglobal.ghbwallet.png
 bugbounty: 
-meta: 'obsolete'
-verdict: 'nobtc'
+meta: obsolete
+verdict: nobtc
 appHashes: 
-date: '2025-01-06'
+date: 2025-01-06
 signer: 
 reviewArchive: 
-twitter: 'CorporationGhb'
+twitter: CorporationGhb
 social:
-- 'https://www.facebook.com/wallet.ghb.7'
-- 'https://t.me/ghbinfo'
-- 'https://www.youtube.com/channel/UCmtoOoY_KrU-12ke92zhG4Q'
+- https://www.facebook.com/wallet.ghb.7
+- https://t.me/ghbinfo
+- https://www.youtube.com/channel/UCmtoOoY_KrU-12ke92zhG4Q
 redirect_from: 
-developerName: 'AI PROGRAM'
+developerName: AI PROGRAM
 features: 
 
 ---

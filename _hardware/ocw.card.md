@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: noita
 appHashes: 
-date: '2023-04-05'
+date: 2023-04-05
 signer: 
 reviewArchive: 
 twitter: ocwallet

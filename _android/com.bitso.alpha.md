@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: 'Bitso Alpha Pro'
+title: Bitso Alpha Pro
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.bitso.alpha'
-appCountry: 'GI'
-released: '2021-09-28'
+appId: com.bitso.alpha
+appCountry: GI
+released: 2021-09-28
 updated: 2024-12-04
-version: '1.32.0'
+version: 1.32.0
 stars: 3.9
 ratings: 
-reviews: 539
-website: 'https://bitso.com/alpha/landing'
+reviews: 540
+website: https://bitso.com/alpha/landing
 repository: 
 issue: 
-icon: 'com.bitso.alpha.png'
+icon: com.bitso.alpha.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-02-08'
+date: 2023-02-08
 signer: 
 reviewArchive: 
-twitter: 'Bitso'
+twitter: Bitso
 social:
-- 'https://www.facebook.com/BitsoGlobal/?brand_redir=561314153953668'
+- https://www.facebook.com/BitsoGlobal/?brand_redir=561314153953668
 redirect_from: 
-developerName: 'Bitso'
+developerName: Bitso
 features: 
 
 ---

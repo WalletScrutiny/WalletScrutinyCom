@@ -7,12 +7,11 @@ authors:
 appId: com.sonicwallet
 appCountry: us
 idd: '1626223788'
-released: '2022-08-28'
-updated: '2023-12-12'
+released: 2022-08-28
+updated: 2023-12-12
 version: '3.2'
 stars: 5
 reviews: 2
-size: '69221376'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: nosource
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: SonicWalletHQ

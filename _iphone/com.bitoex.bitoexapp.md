@@ -6,12 +6,11 @@ authors:
 appId: com.bitoex.bitoexapp
 appCountry: tw
 idd: '1461042737'
-released: '2019-11-18'
-updated: '2020-03-12'
-version: '1.0.1'
+released: 2019-11-18
+updated: 2020-03-12
+version: 1.0.1
 stars: 2.5
 reviews: 86
-size: '41635840'
 website: https://www.bitoex.com/?locale=en
 repository: 
 issue: 
@@ -20,7 +19,7 @@ bugbounty:
 meta: removed
 verdict: wip
 appHashes: 
-date: '2024-07-05'
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: BitoEX_Official

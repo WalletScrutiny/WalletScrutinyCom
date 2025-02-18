@@ -1,38 +1,37 @@
 ---
-wsId: 'liqiDigitalAssets'
-title: 'Liqi'
+wsId: liqiDigitalAssets
+title: Liqi
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.liqidigitalassets.liqi'
+appId: com.liqidigitalassets.liqi
 appCountry: 
-released: '2022-08-08'
-updated: '2023-03-13'
-version: '1.2.6'
+released: 2022-08-08
+updated: 2023-03-13
+version: 1.2.6
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.liqi.com.br/'
+website: https://www.liqi.com.br/
 repository: 
 issue: 
-icon: 'com.liqidigitalassets.liqi.png'
+icon: com.liqidigitalassets.liqi.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
-twitter: 'liqibr'
+twitter: liqibr
 social:
-- 'https://www.linkedin.com/company/liqibr'
-- 'https://www.facebook.com/Liqibr'
-- 'https://www.tiktok.com/@liqibr'
-- 'https://www.youtube.com/channel/UCVOWUQu6l71JB5hgkFsRVtQ'
+- https://www.linkedin.com/company/liqibr
+- https://www.facebook.com/Liqibr
+- https://www.tiktok.com/@liqibr
+- https://www.youtube.com/channel/UCVOWUQu6l71JB5hgkFsRVtQ
 redirect_from: 
-developerName: 'LIQI DIGITAL ASSETS'
+developerName: LIQI DIGITAL ASSETS
 features: 
 
 ---

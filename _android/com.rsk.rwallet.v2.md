@@ -1,38 +1,37 @@
 ---
-wsId: 'rWallet'
-title: 'RWallet'
+wsId: rWallet
+title: RWallet
 altTitle: 
 authors:
-- 'danny'
-- 'leo'
-- 'emanuel'
+- danny
+- leo
+- emanuel
 users: 1000
-appId: 'com.rsk.rwallet.v2'
-appCountry: 'us'
-released: '2021-04-27'
-updated: '2021-06-30'
-version: '2.0.1'
+appId: com.rsk.rwallet.v2
+appCountry: us
+released: 2021-04-27
+updated: 2021-06-30
+version: 2.0.1
 stars: 3.4
 ratings: 
 reviews: 
-size: 
-website: 'https://iovlabs.org/'
-repository: 'https://github.com/rsksmart/rwallet'
-issue: 'https://github.com/rsksmart/rwallet/issues/726'
-icon: 'com.rsk.rwallet.v2.png'
+website: https://iovlabs.org/
+repository: https://github.com/rsksmart/rwallet
+issue: https://github.com/rsksmart/rwallet/issues/726
+icon: com.rsk.rwallet.v2.png
 bugbounty: 
-meta: 'removed'
-verdict: 'ftbfs'
+meta: removed
+verdict: ftbfs
 appHashes: 
-date: '2024-04-03'
+date: 2024-04-03
 signer: 
 reviewArchive: 
-twitter: 'rsksmart'
+twitter: rsksmart
 social:
-- 'https://www.facebook.com/RSKsmart'
-- 'https://www.reddit.com/r/rootstock'
+- https://www.facebook.com/RSKsmart
+- https://www.reddit.com/r/rootstock
 redirect_from: 
-developerName: 'IoV Labs'
+developerName: IoV Labs
 features: 
 
 ---

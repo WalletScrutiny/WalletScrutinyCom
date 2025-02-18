@@ -1,38 +1,38 @@
 ---
-wsId: 'bynexExchange'
+wsId: bynexExchange
 title: 'BYNEX: Buy&Trade Сrypto, Fiat'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'by.erpbel.hermes'
+appId: by.erpbel.hermes
 appCountry: 
-released: '2022-10-06'
+released: 2022-10-06
 updated: 2024-12-03
-version: '2.6.0'
+version: 2.6.0
 stars: 2.7
 ratings: 
 reviews: 
-website: 'https://bynex.io/'
+website: https://bynex.io/
 repository: 
 issue: 
-icon: 'by.erpbel.hermes.png'
+icon: by.erpbel.hermes.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-08-09'
+date: 2023-08-09
 signer: 
 reviewArchive: 
-twitter: 'bynexio'
+twitter: bynexio
 social:
-- 'https://www.facebook.com/bynex.io'
-- 'https://www.instagram.com/bynex.io'
-- 'https://vk.com/bynexio'
-- 'https://t.me/bynex_info'
-- 'https://www.youtube.com/@bynex4637'
+- https://www.facebook.com/bynex.io
+- https://www.instagram.com/bynex.io
+- https://vk.com/bynexio
+- https://t.me/bynex_info
+- https://www.youtube.com/@bynex4637
 redirect_from: 
-developerName: 'BYNEX'
+developerName: BYNEX
 features: 
 
 ---

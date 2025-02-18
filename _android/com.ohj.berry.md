@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'BERRY'
+title: BERRY
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.ohj.berry'
+appId: com.ohj.berry
 appCountry: 
-released: '2023-03-17'
-updated: '2023-03-21'
+released: 2023-03-17
+updated: 2023-03-21
 version: '1.0001'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.ohj.berry.png'
+icon: com.ohj.berry.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2023-06-30'
+date: 2023-06-30
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'AMANPREET KAURt'
+developerName: AMANPREET KAURt
 features: 
 
 ---

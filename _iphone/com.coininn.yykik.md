@@ -7,12 +7,11 @@ authors:
 appId: com.coininn.yykik
 appCountry: us
 idd: '1501704472'
-released: '2020-03-08'
-updated: '2024-12-17'
-version: '5.0.17'
+released: 2020-03-08
+updated: 2024-12-17
+version: 5.0.17
 stars: 4.2
 reviews: 45
-size: '103323648'
 website: https://www.coininn.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2025-01-06'
+date: 2025-01-06
 signer: 
 reviewArchive: 
 twitter: coin_inn

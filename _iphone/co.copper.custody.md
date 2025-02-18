@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Copper Unlimited'
+title: Copper Unlimited
 altTitle: 
 authors:
-- 'danny'
-appId: 'co.copper.custody'
-appCountry: 'us'
+- danny
+appId: co.copper.custody
+appCountry: us
 idd: '1521814069'
-released: '2020-07-21'
+released: 2020-07-21
 updated: 2025-02-10
-version: '2.6.542'
-stars: 3.66667
+version: 2.6.542
+stars: 3.7
 reviews: 3
-size: '61993984'
-website: 'https://copper.co'
+website: https://copper.co
 repository: 
 issue: 
-icon: 'co.copper.custody.jpg'
+icon: co.copper.custody.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-12-14'
+date: 2023-12-14
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 features: 
-developerName: 'COPPER TECHNOLOGIES (UK)'
+developerName: COPPER TECHNOLOGIES (UK)
 
 ---
 

@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: 'WillTrade - Trading For All'
+title: WillTrade - Trading For All
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000000
-appId: 'com.willtrade.trading'
+appId: com.willtrade.trading
 appCountry: 
-released: '2021-08-19'
+released: 2021-08-19
 updated: 2025-01-16
-version: '1.3.31'
-stars: 4.1
+version: 1.3.31
+stars: 4
 ratings: 
-reviews: 17
+reviews: 18
 website: 
 repository: 
 issue: 
-icon: 'com.willtrade.trading.png'
+icon: com.willtrade.trading.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-11-10'
+date: 2021-11-10
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'TradeWill Global LLC'
+developerName: TradeWill Global LLC
 features: 
 
 ---

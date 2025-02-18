@@ -1,33 +1,33 @@
 ---
-wsId: 'trexCrypto'
-title: 'TREX Global-Buy Crypto, FX'
+wsId: trexCrypto
+title: TREX Global-Buy Crypto, FX
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.vnc.trex.bit'
+appId: com.vnc.trex.bit
 appCountry: 
-released: '2023-03-05'
+released: 2023-03-05
 updated: 2024-07-12
-version: '1.1.0'
+version: 1.1.0
 stars: 4
 ratings: 
 reviews: 
-website: 'https://trexglobals.com/'
+website: https://trexglobals.com/
 repository: 
 issue: 
-icon: 'com.vnc.trex.bit.png'
+icon: com.vnc.trex.bit.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosendreceive'
+meta: ok
+verdict: nosendreceive
 appHashes: 
-date: '2023-09-07'
+date: 2023-09-07
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'trex limited'
+developerName: trex limited
 features: 
 
 ---

@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Break Bitcoin - find money for'
+title: Break Bitcoin - find money for
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'zibi.breakbitcoin'
+appId: zibi.breakbitcoin
 appCountry: 
-released: '2021-03-17'
-updated: '2021-03-17'
+released: 2021-03-17
+updated: 2021-03-17
 version: '2.00'
 stars: 4.1
 ratings: 
 reviews: 2
-size: 
 website: 
 repository: 
 issue: 
-icon: 'zibi.breakbitcoin.png'
+icon: zibi.breakbitcoin.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Zbigniew Sudnik'
+developerName: Zbigniew Sudnik
 features: 
 
 ---

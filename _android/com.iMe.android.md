@@ -1,37 +1,37 @@
 ---
-wsId: 'iMeMessenger'
+wsId: iMeMessenger
 title: 'iMe: AI Messenger for Telegram'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000000
-appId: 'com.iMe.android'
+appId: com.iMe.android
 appCountry: 
-released: '2019-07-22'
+released: 2019-07-22
 updated: 2025-02-12
-version: '11.7.3'
+version: 11.7.5
 stars: 4.5
 ratings: 
-reviews: 653
-website: 'https://www.imem.app'
-repository: 'https://github.com/imemessenger/iMe-Android'
-issue: 'https://github.com/imemessenger/iMe-Android/issues/10'
-icon: 'com.iMe.android.png'
+reviews: 657
+website: https://www.imem.app
+repository: https://github.com/imemessenger/iMe-Android
+issue: https://github.com/imemessenger/iMe-Android/issues/10
+icon: com.iMe.android.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-09-07'
+date: 2024-09-07
 signer: 
 reviewArchive: 
-twitter: 'ImePlatform'
+twitter: ImePlatform
 social:
-- 'https://t.me/ime_en'
-- 'https://imesmartplatform.medium.com'
-- 'https://www.youtube.com/c/iMeMessenger'
-- 'https://www.reddit.com/r/iMeSmartPlatform'
+- https://t.me/ime_en
+- https://imesmartplatform.medium.com
+- https://www.youtube.com/c/iMeMessenger
+- https://www.reddit.com/r/iMeSmartPlatform
 redirect_from: 
-developerName: 'iMe Lab'
+developerName: iMe Lab
 features: 
 
 ---

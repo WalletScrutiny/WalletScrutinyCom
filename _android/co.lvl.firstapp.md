@@ -1,36 +1,35 @@
 ---
-wsId: 'LVLMoneyApp'
-title: 'LVL - The Money App'
+wsId: LVLMoneyApp
+title: LVL - The Money App
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'co.lvl.firstapp'
-appCountry: 'us'
-released: '2020-06-30'
-updated: '2021-09-09'
-version: '1.0.5'
+appId: co.lvl.firstapp
+appCountry: us
+released: 2020-06-30
+updated: 2021-09-09
+version: 1.0.5
 stars: 3.7
 ratings: 159
 reviews: 62
-size: 
-website: 'https://lvl.co'
+website: https://lvl.co
 repository: 
 issue: 
-icon: 'co.lvl.firstapp.png'
+icon: co.lvl.firstapp.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-07-05'
+date: 2024-07-05
 signer: 
 reviewArchive: 
-twitter: 'BankWithLVL'
+twitter: BankWithLVL
 social:
-- 'https://www.linkedin.com/company/bankwithlvl'
-- 'https://www.facebook.com/BankWithLVL'
+- https://www.linkedin.com/company/bankwithlvl
+- https://www.facebook.com/BankWithLVL
 redirect_from: 
-developerName: 'Samsa Technologies Inc.'
+developerName: Samsa Technologies Inc.
 features: 
 
 ---

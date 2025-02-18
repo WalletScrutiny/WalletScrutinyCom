@@ -4,7 +4,7 @@ appId: cyclebit.pos
 authors:
 - danny
 icon: cyclebit.pos.png
-date: '2022-04-29'
+date: 2022-04-29
 website: https://www.cyclebit.io/
 twitter: Cycle_bit
 social:

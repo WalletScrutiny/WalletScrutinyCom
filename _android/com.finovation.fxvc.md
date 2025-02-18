@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'FXVC - Trade Stocks & Crypto'
+title: FXVC - Trade Stocks & Crypto
 altTitle: 
 authors: 
 users: 500
-appId: 'com.finovation.fxvc'
+appId: com.finovation.fxvc
 appCountry: 
-released: '2021-04-23'
-updated: '2021-11-12'
-version: '2.0.3'
+released: 2021-04-23
+updated: 2021-11-12
+version: 2.0.3
 stars: 
 ratings: 14
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.finovation.fxvc.jpg'
+icon: com.finovation.fxvc.jpg
 bugbounty: 
-meta: 'defunct'
-verdict: 'fewusers'
+meta: defunct
+verdict: fewusers
 appHashes: 
-date: '2021-11-01'
+date: 2021-11-01
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'FXVC'
+developerName: FXVC
 features: 
 
 ---

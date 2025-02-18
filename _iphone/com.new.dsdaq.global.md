@@ -7,12 +7,11 @@ authors:
 appId: com.new.dsdaq.global
 appCountry: us
 idd: '1594151467'
-released: '2022-01-13'
-updated: '2022-01-14'
-version: '5.3.2'
+released: 2022-01-13
+updated: 2022-01-14
+version: 5.3.2
 stars: 0
 reviews: 0
-size: '160956416'
 website: http://dsdaq.io
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2023-08-25'
+date: 2023-08-25
 signer: 
 reviewArchive: 
 twitter: DsdaqCom

@@ -7,12 +7,11 @@ authors:
 appId: com.bitlo
 appCountry: tr
 idd: '1544492069'
-released: '2020-12-28'
-updated: '2025-01-28'
-version: '2.1.25'
+released: 2020-12-28
+updated: 2025-01-28
+version: 2.1.25
 stars: 4.6
-reviews: 3436
-size: '91893760'
+reviews: 3447
 website: https://www.bitlo.com/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2023-02-08'
+date: 2023-02-08
 signer: 
 reviewArchive: 
 twitter: bitlocom

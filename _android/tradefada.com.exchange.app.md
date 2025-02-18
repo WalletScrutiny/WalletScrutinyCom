@@ -1,38 +1,37 @@
 ---
-wsId: 'tradefada'
+wsId: tradefada
 title: 'Tradefada: Bitcoin Exchange'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'tradefada.com.exchange.app'
+appId: tradefada.com.exchange.app
 appCountry: 
 released: 
-updated: '2023-10-26'
-version: '3.3.0'
+updated: 2023-10-26
+version: 3.3.0
 stars: 3.5
 ratings: 
 reviews: 
-size: 
-website: 'https://tradefada.com'
+website: https://tradefada.com
 repository: 
 issue: 
-icon: 'tradefada.com.exchange.app.png'
+icon: tradefada.com.exchange.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-10-02'
+date: 2024-10-02
 signer: 
 reviewArchive: 
-twitter: 'tradefada'
+twitter: tradefada
 social:
-- 'https://www.facebook.com/Tradefada01'
-- 'https://www.instagram.com/tradefada'
-- 'https://t.me/Tradefada'
-- 'https://www.youtube.com/channel/UC_3gq-5fF1Yy9FTUr5W9cMg'
+- https://www.facebook.com/Tradefada01
+- https://www.instagram.com/tradefada
+- https://t.me/Tradefada
+- https://www.youtube.com/channel/UC_3gq-5fF1Yy9FTUr5W9cMg
 redirect_from: 
-developerName: 'Tradefada Global'
+developerName: Tradefada Global
 features: 
 
 ---

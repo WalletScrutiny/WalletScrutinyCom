@@ -4,8 +4,8 @@ appId: bitsafe.card
 authors:
 - danny
 icon: bitsafe.card.png
-date: '2023-04-28'
-released: '2021-12-28'
+date: 2023-04-28
+released: 2021-12-28
 website: https://www.bitsafecard.com/
 twitter: Bitsafecard
 provider: Bethino LLC
@@ -13,6 +13,7 @@ shop: https://www.bitsafecard.com/en/Shop
 country: TR
 meta: ok
 verdict: prefilled
+social: 
 
 ---
 

@@ -4,24 +4,23 @@ title: 'Polynance: Crypto Trading Tool'
 altTitle: 
 authors: 
 users: 10
-appId: 'com.polynance'
+appId: com.polynance
 appCountry: 
-released: '2019-07-26'
-updated: '2019-10-15'
+released: 2019-07-26
+updated: 2019-10-15
 version: '1.3'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.polynance.com'
+website: https://www.polynance.com
 repository: 
 issue: 
-icon: 'com.polynance.jpg'
+icon: com.polynance.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,36 +1,35 @@
 ---
-wsId: 'ATAIX'
-title: 'ATAIX – Bitcoin Crypto Exchang'
+wsId: ATAIX
+title: ATAIX – Bitcoin Crypto Exchang
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.ataix.exchange'
-appCountry: 'ee'
-released: '2019-09-20'
-updated: '2022-06-07'
-version: '2.1.4'
+appId: com.ataix.exchange
+appCountry: ee
+released: 2019-09-20
+updated: 2022-06-07
+version: 2.1.4
 stars: 3.5
 ratings: 48
 reviews: 26
-size: 
-website: 'https://ataix.com'
+website: https://ataix.com
 repository: 
 issue: 
-icon: 'com.ataix.exchange.png'
+icon: com.ataix.exchange.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-12-23'
+date: 2024-12-23
 signer: 
 reviewArchive: 
-twitter: 'ATAIXcom'
+twitter: ATAIXcom
 social:
-- 'https://www.linkedin.com/company/ataixcom'
-- 'https://www.facebook.com/ATAIXcom'
+- https://www.linkedin.com/company/ataixcom
+- https://www.facebook.com/ATAIXcom
 redirect_from: 
-developerName: 'EuroToken OÜ'
+developerName: EuroToken OÜ
 features: 
 
 ---

@@ -1,33 +1,33 @@
 ---
-wsId: 'amlsafe'
-title: 'Safe3 - Crypto Wallet'
+wsId: amlsafe
+title: Safe3 - Crypto Wallet
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 100000
-appId: 'com.silenca.amlsafe'
+appId: com.silenca.amlsafe
 appCountry: 
-released: '2020-10-26'
+released: 2020-10-26
 updated: 2025-02-04
 version: '2.25'
 stars: 3.8
 ratings: 
 reviews: 2
-website: 'https://safe3.app/'
+website: https://safe3.app/
 repository: 
 issue: 
-icon: 'com.silenca.amlsafe.png'
+icon: com.silenca.amlsafe.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-04-11'
+date: 2021-04-11
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Avelot Limited'
+developerName: Avelot Limited
 features: 
 
 ---

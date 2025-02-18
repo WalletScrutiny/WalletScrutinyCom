@@ -1,35 +1,35 @@
 ---
-wsId: 'hidollars'
-title: 'Hi:Easy-to-Use Crypto Neobank'
+wsId: hidollars
+title: Hi:Easy-to-Use Crypto Neobank
 altTitle: 
 authors: 
 users: 1000000
-appId: 'com.hi.dollars'
-appCountry: 'EE'
-released: '2021-11-04'
+appId: com.hi.dollars
+appCountry: EE
+released: 2021-11-04
 updated: 2024-11-06
-version: '2.19.1'
+version: 2.19.1
 stars: 2
 ratings: 
-reviews: 10712
-website: 'https://hi.com/'
+reviews: 10711
+website: https://hi.com/
 repository: 
 issue: 
-icon: 'com.hi.dollars.png'
+icon: com.hi.dollars.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2022-12-06'
+date: 2022-12-06
 signer: 
 reviewArchive: 
-twitter: 'hi_com_official'
+twitter: hi_com_official
 social:
-- 'https://www.facebook.com/hi.com.official'
-- 'https://www.instagram.com/hi.com.official'
-- 'https://www.reddit.com/r/hi_official'
+- https://www.facebook.com/hi.com.official
+- https://www.instagram.com/hi.com.official
+- https://www.reddit.com/r/hi_official
 redirect_from: 
-developerName: 'hi.com'
+developerName: hi.com
 features: 
 
 ---

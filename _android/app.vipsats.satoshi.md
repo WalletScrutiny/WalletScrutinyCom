@@ -1,34 +1,33 @@
 ---
-wsId: 'satoshiBitcoinLightning'
-title: 'Satoshi Bitcoin Lightning'
+wsId: satoshiBitcoinLightning
+title: Satoshi Bitcoin Lightning
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'app.vipsats.satoshi'
+appId: app.vipsats.satoshi
 appCountry: 
-released: '2022-11-06'
-updated: '2023-08-20'
-version: '1.3.1'
+released: 2022-11-06
+updated: 2023-08-20
+version: 1.3.1
 stars: 4.3
 ratings: 
 reviews: 4
-size: 
-website: 'https://vipsats.app'
+website: https://vipsats.app
 repository: 
 issue: 
-icon: 'app.vipsats.satoshi.png'
+icon: app.vipsats.satoshi.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2023-12-02'
+date: 2023-12-02
 signer: 
 reviewArchive: 
-twitter: 'vipsats'
+twitter: vipsats
 social: 
 redirect_from: 
-developerName: 'Vipsats'
+developerName: Vipsats
 features: 
 
 ---

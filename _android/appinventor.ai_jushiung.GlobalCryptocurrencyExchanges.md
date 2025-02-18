@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Global Cryptocurrency Exchange'
+title: Global Cryptocurrency Exchange
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'appinventor.ai_jushiung.GlobalCryptocurrencyExchanges'
+appId: appinventor.ai_jushiung.GlobalCryptocurrencyExchanges
 appCountry: 
-released: '2019-11-12'
-updated: '2019-11-12'
+released: 2019-11-12
+updated: 2019-11-12
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'appinventor.ai_jushiung.GlobalCryptocurrencyExchanges.png'
+icon: appinventor.ai_jushiung.GlobalCryptocurrencyExchanges.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'CAD Design'
+developerName: CAD Design
 features: 
 
 ---

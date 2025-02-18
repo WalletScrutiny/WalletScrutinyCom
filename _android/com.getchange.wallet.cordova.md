@@ -1,38 +1,38 @@
 ---
-wsId: 'changeinvest'
+wsId: changeinvest
 title: 'Change: Buy Bitcoin & crypto'
 altTitle: 
 authors:
-- 'leo'
-- 'danny'
+- leo
+- danny
 users: 100000
-appId: 'com.getchange.wallet.cordova'
-appCountry: 'nl'
-released: '2018-06-07'
+appId: com.getchange.wallet.cordova
+appCountry: nl
+released: 2018-06-07
 updated: 2025-02-07
-version: '30.58.2'
+version: 30.58.2
 stars: 4
 ratings: 2833
 reviews: 23
-website: 'https://changeinvest.com'
+website: https://changeinvest.com
 repository: 
 issue: 
-icon: 'com.getchange.wallet.cordova.png'
+icon: com.getchange.wallet.cordova.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2020-05-29'
+date: 2020-05-29
 signer: 
 reviewArchive: 
-twitter: 'changefinance'
+twitter: changefinance
 social:
-- 'https://www.linkedin.com/company/changeinvest'
-- 'https://www.facebook.com/changeinvest'
+- https://www.linkedin.com/company/changeinvest
+- https://www.facebook.com/changeinvest
 redirect_from:
-- '/com.getchange.wallet.cordova/'
-- '/posts/com.getchange.wallet.cordova/'
-developerName: 'Change Finance'
+- /com.getchange.wallet.cordova/
+- /posts/com.getchange.wallet.cordova/
+developerName: Change Finance
 features: 
 
 ---

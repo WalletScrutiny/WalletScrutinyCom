@@ -1,34 +1,33 @@
 ---
-wsId: 'keyApp'
+wsId: keyApp
 title: 'Key App: send & receive money'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'org.p2p.wallet'
+appId: org.p2p.wallet
 appCountry: 
-released: '2021-10-23'
-updated: '2023-07-05'
-version: '2.8.0'
+released: 2021-10-23
+updated: 2023-07-05
+version: 2.8.0
 stars: 4
 ratings: 
 reviews: 3
-size: 
-website: 'https://key.app/'
+website: https://key.app/
 repository: 
 issue: 
-icon: 'org.p2p.wallet.png'
+icon: org.p2p.wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nobtc'
+meta: removed
+verdict: nobtc
 appHashes: 
-date: '2023-09-28'
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Key App Team'
+developerName: Key App Team
 features: 
 
 ---

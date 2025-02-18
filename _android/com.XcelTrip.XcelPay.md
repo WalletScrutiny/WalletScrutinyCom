@@ -1,35 +1,35 @@
 ---
-wsId: 'XcelPay'
+wsId: XcelPay
 title: 'XcelPay: Crypto Bitcoin Wallet'
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 100000
-appId: 'com.XcelTrip.XcelPay'
+appId: com.XcelTrip.XcelPay
 appCountry: 
-released: '2019-05-30'
+released: 2019-05-30
 updated: 2024-08-12
-version: '2.88.2'
+version: 2.88.2
 stars: 4.4
 ratings: 3713
 reviews: 83
-website: 'http://www.xcelpay.io'
+website: http://www.xcelpay.io
 repository: 
 issue: 
-icon: 'com.XcelTrip.XcelPay.png'
+icon: com.XcelTrip.XcelPay.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-05-25'
+date: 2021-05-25
 signer: 
 reviewArchive: 
-twitter: 'XcelPayWallet'
+twitter: XcelPayWallet
 social:
-- 'https://www.linkedin.com/company/in/xcelpaywallet'
-- 'https://www.facebook.com/xcelpay'
+- https://www.linkedin.com/company/in/xcelpaywallet
+- https://www.facebook.com/xcelpay
 redirect_from: 
-developerName: 'XcelTrip LLC'
+developerName: XcelTrip LLC
 features: 
 
 ---

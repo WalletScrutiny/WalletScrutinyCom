@@ -1,34 +1,34 @@
 ---
-wsId: 'qredoNetwork'
+wsId: qredoNetwork
 title: 'Qredo: Signing App'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.qredoapp'
+appId: com.qredoapp
 appCountry: 
-released: '2020-09-24'
+released: 2020-09-24
 updated: 2024-07-25
-version: '1.3.10'
+version: 1.3.10
 stars: 
 ratings: 
 reviews: 
-website: 'https://www.qredo.com'
+website: https://www.qredo.com
 repository: 
 issue: 
-icon: 'com.qredoapp.png'
+icon: com.qredoapp.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2023-04-11'
+date: 2023-04-11
 signer: 
 reviewArchive: 
-twitter: 'QredoNetwork'
+twitter: QredoNetwork
 social:
-- 'https://www.linkedin.com/company/qredo/'
+- https://www.linkedin.com/company/qredo/
 redirect_from: 
-developerName: 'Fusion Laboratories Ltd'
+developerName: Fusion Laboratories Ltd
 features: 
 
 ---

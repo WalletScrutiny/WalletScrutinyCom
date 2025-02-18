@@ -1,36 +1,36 @@
 ---
-wsId: 'NitroEXexchangeapp'
-title: 'NitroEx Exchange'
+wsId: NitroEXexchangeapp
+title: NitroEx Exchange
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.nitroex.nitroexchangeapp'
-appCountry: 'tt'
-released: '2021-06-23'
+appId: com.nitroex.nitroexchangeapp
+appCountry: tt
+released: 2021-06-23
 updated: 2025-01-02
-version: '3.2.5'
+version: 3.2.5
 stars: 4.1
 ratings: 231
 reviews: 160
-website: 'https://www.nitroex.io/'
+website: https://www.nitroex.io/
 repository: 
 issue: 
-icon: 'com.nitroex.nitroexchangeapp.png'
+icon: com.nitroex.nitroexchangeapp.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-11-10'
+date: 2021-11-10
 signer: 
 reviewArchive: 
-twitter: 'NitroExOfficial'
+twitter: NitroExOfficial
 social:
-- 'https://www.linkedin.com/company/nitroex'
-- 'https://www.facebook.com/nitroex.io'
-- 'https://www.reddit.com/r/nitroexchange'
+- https://www.linkedin.com/company/nitroex
+- https://www.facebook.com/nitroex.io
+- https://www.reddit.com/r/nitroexchange
 redirect_from: 
-developerName: 'Nitro Software Technologies LTD'
+developerName: Nitro Software Technologies LTD
 features: 
 
 ---

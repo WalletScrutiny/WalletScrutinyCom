@@ -1,35 +1,35 @@
 ---
-wsId: 'BitcoinSuisse'
-title: 'Bitcoin Suisse – Buy Crypto'
+wsId: BitcoinSuisse
+title: Bitcoin Suisse – Buy Crypto
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.bitcoinsuisse.online'
-appCountry: 'pl'
-released: '2021-09-21'
+appId: com.bitcoinsuisse.online
+appCountry: pl
+released: 2021-09-21
 updated: 2025-01-28
-version: '2.15.0'
+version: 2.15.0
 stars: 3.7
 ratings: 
 reviews: 
-website: 'https://www.bitcoinsuisse.com'
+website: https://www.bitcoinsuisse.com
 repository: 
 issue: 
-icon: 'com.bitcoinsuisse.online.png'
+icon: com.bitcoinsuisse.online.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-11-22'
+date: 2021-11-22
 signer: 
 reviewArchive: 
-twitter: 'BitcoinSuisseAG'
+twitter: BitcoinSuisseAG
 social:
-- 'https://www.linkedin.com/company/bitcoin-suisse-ag'
-- 'https://www.facebook.com/BitcoinSuisse'
+- https://www.linkedin.com/company/bitcoin-suisse-ag
+- https://www.facebook.com/BitcoinSuisse
 redirect_from: 
-developerName: 'Bitcoin Suisse AG'
+developerName: Bitcoin Suisse AG
 features: 
 
 ---

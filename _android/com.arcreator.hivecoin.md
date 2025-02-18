@@ -1,28 +1,27 @@
 ---
 wsId: 
-title: 'Bittex - crypto coin'
+title: Bittex - crypto coin
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.arcreator.hivecoin'
+appId: com.arcreator.hivecoin
 appCountry: 
-released: '2021-05-06'
-updated: '2021-06-18'
-version: '2.2.7'
+released: 2021-05-06
+updated: 2021-06-18
+version: 2.2.7
 stars: 3.4
 ratings: 47
 reviews: 36
-size: '24M'
 website: 
 repository: 
 issue: 
-icon: 'com.arcreator.hivecoin.png'
+icon: com.arcreator.hivecoin.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2021-12-05'
+date: 2021-12-05
 signer: 
 reviewArchive: 
 twitter: 

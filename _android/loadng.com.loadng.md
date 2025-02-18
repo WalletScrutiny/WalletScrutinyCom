@@ -1,33 +1,33 @@
 ---
-wsId: 'loadNG'
+wsId: loadNG
 title: "LoadNG: Sell Bitcoin,USDT\_Fast"
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'loadng.com.loadng'
-appCountry: 'ng'
-released: '2020-05-02'
+appId: loadng.com.loadng
+appCountry: ng
+released: 2020-05-02
 updated: 2024-08-27
-version: '5.4.2'
+version: 5.4.2
 stars: 3.1
 ratings: 259
 reviews: 707
-website: 'https://app.load.ng/'
+website: https://app.load.ng/
 repository: 
 issue: 
-icon: 'loadng.com.loadng.png'
+icon: loadng.com.loadng.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2023-08-27'
+date: 2023-08-27
 signer: 
 reviewArchive: 
-twitter: 'loadngautomated'
+twitter: loadngautomated
 social: 
 redirect_from: 
-developerName: 'LoadNG Automated Systems'
+developerName: LoadNG Automated Systems
 features: 
 
 ---

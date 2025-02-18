@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Crypto Market Game'
+title: Crypto Market Game
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'ru.borik.cryptomarket.android'
+appId: ru.borik.cryptomarket.android
 appCountry: 
-released: '2017-12-18'
-updated: '2021-04-01'
+released: 2017-12-18
+updated: 2021-04-01
 version: '1.62'
 stars: 4
 ratings: 137
 reviews: 4
-size: 
 website: 
 repository: 
 issue: 
-icon: 'ru.borik.cryptomarket.android.png'
+icon: ru.borik.cryptomarket.android.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2024-12-23'
+date: 2024-12-23
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'bone-apps'
+developerName: bone-apps
 features: 
 
 ---

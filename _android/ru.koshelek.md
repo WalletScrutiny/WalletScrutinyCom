@@ -1,34 +1,34 @@
 ---
-wsId: 'Koshelek'
-title: 'Koshelek. Crypto wallet & p2p'
+wsId: Koshelek
+title: Koshelek. Crypto wallet & p2p
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'ru.koshelek'
-appCountry: 'ru'
-released: '2020-07-28'
+appId: ru.koshelek
+appCountry: ru
+released: 2020-07-28
 updated: 2024-07-19
-version: '1.16.2'
+version: 1.16.2
 stars: 3.7
 ratings: 122
-reviews: 129
-website: 'https://koshelek.ru/'
+reviews: 130
+website: https://koshelek.ru/
 repository: 
 issue: 
-icon: 'ru.koshelek.png'
+icon: ru.koshelek.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-10-14'
+date: 2023-10-14
 signer: 
 reviewArchive: 
-twitter: 'koshelek_ru'
+twitter: koshelek_ru
 social:
-- 'https://www.facebook.com/koshelekru'
+- https://www.facebook.com/koshelekru
 redirect_from: 
-developerName: 'Кошелёк.ру'
+developerName: Кошелёк.ру
 features: 
 
 ---

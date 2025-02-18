@@ -1,39 +1,38 @@
 ---
-wsId: 'dexfinWallet'
-title: 'Dexfin Wallet'
+wsId: dexfinWallet
+title: Dexfin Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.dexfin.mpcwallet'
+appId: com.dexfin.mpcwallet
 appCountry: 
-released: '2023-02-01'
-updated: '2023-02-01'
-version: '0.2.7'
+released: 2023-02-01
+updated: 2023-02-01
+version: 0.2.7
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.dexfin.com'
+website: https://www.dexfin.com
 repository: 
 issue: 
-icon: 'com.dexfin.mpcwallet.png'
+icon: com.dexfin.mpcwallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2025-01-09'
+date: 2025-01-09
 signer: 
 reviewArchive: 
-twitter: 'https://twitter.com/dexfinexchange'
+twitter: https://twitter.com/dexfinexchange
 social:
-- 'https://www.linkedin.com/company/dexfin'
-- 'https://www.facebook.com/dexfincom'
-- 'https://www.instagram.com/dexfinplatform'
-- 'https://t.me/dexfinhq'
-- 'https://www.youtube.com/channel/UCCheJWs3WGOFlVg7VfDl8_g'
+- https://www.linkedin.com/company/dexfin
+- https://www.facebook.com/dexfincom
+- https://www.instagram.com/dexfinplatform
+- https://t.me/dexfinhq
+- https://www.youtube.com/channel/UCCheJWs3WGOFlVg7VfDl8_g
 redirect_from: 
-developerName: 'DEXFIN'
+developerName: DEXFIN
 features: 
 
 ---

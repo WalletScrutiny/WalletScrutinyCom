@@ -1,38 +1,38 @@
 ---
-wsId: 'bitmart'
+wsId: bitmart
 title: 'BitMart: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 1000000
-appId: 'com.bitmart.bitmarket'
+appId: com.bitmart.bitmarket
 appCountry: 
-released: '2018-05-09'
-updated: 2025-02-12
-version: '3.2.3'
+released: 2018-05-09
+updated: 2025-02-15
+version: 3.2.3
 stars: 3.6
 ratings: 41983
-reviews: 3654
-website: 'http://www.bitmart.com'
+reviews: 3655
+website: http://www.bitmart.com
 repository: 
 issue: 
-icon: 'com.bitmart.bitmarket.png'
+icon: com.bitmart.bitmarket.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-05-20'
+date: 2021-05-20
 signer: 
 reviewArchive: 
-twitter: 'BitMartExchange'
+twitter: BitMartExchange
 social:
-- 'https://www.linkedin.com/company/bitmart'
-- 'https://www.facebook.com/bitmartexchange'
-- 'https://www.reddit.com/r/BitMartExchange'
+- https://www.linkedin.com/company/bitmart
+- https://www.facebook.com/bitmartexchange
+- https://www.reddit.com/r/BitMartExchange
 redirect_from:
-- '/com.bitmart.bitmarket/'
-- '/posts/com.bitmart.bitmarket/'
-developerName: 'GBM Foundation Company'
+- /com.bitmart.bitmarket/
+- /posts/com.bitmart.bitmarket/
+developerName: GBM Foundation Company
 features: 
 
 ---

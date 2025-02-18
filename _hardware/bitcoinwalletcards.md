@@ -3,7 +3,7 @@ title: Bitcoin Wallet Cards
 appId: bitcoinwalletcards
 authors:
 - danny
-released: '2017-12-06'
+released: 2017-12-06
 discontinued: 
 updated: 
 version: 
@@ -26,7 +26,7 @@ bugbounty:
 meta: defunct
 verdict: prefilled
 appHashes: 
-date: '2022-05-19'
+date: 2022-05-19
 signer: 
 reviewArchive: 
 twitter: 

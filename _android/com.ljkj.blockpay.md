@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'CPay'
+title: CPay
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.ljkj.blockpay'
+appId: com.ljkj.blockpay
 appCountry: 
-released: '2022-04-08'
-updated: '2023-02-08'
-version: '1.2.7'
+released: 2022-04-08
+updated: 2023-02-08
+version: 1.2.7
 stars: 4.5
 ratings: 
 reviews: 1
-size: 
-website: 'http://www.cpay.finance/'
+website: http://www.cpay.finance/
 repository: 
 issue: 
-icon: 'com.ljkj.blockpay.png'
+icon: com.ljkj.blockpay.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-10-10'
+date: 2024-10-10
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Block Easy Tech Limited'
+developerName: Block Easy Tech Limited
 features: 
 
 ---

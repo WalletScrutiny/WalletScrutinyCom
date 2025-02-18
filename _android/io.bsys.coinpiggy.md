@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'COINPIGGY WALLET'
+title: COINPIGGY WALLET
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'io.bsys.coinpiggy'
+appId: io.bsys.coinpiggy
 appCountry: 
-released: '2018-11-05'
-updated: '2020-09-10'
+released: 2018-11-05
+updated: 2020-09-10
 version: '1.106'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://coinpiggy.io'
+website: https://coinpiggy.io
 repository: 
 issue: 
-icon: 'io.bsys.coinpiggy.png'
+icon: io.bsys.coinpiggy.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'wip'
+meta: defunct
+verdict: wip
 appHashes: 
-date: '2023-06-01'
+date: 2023-06-01
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'THE FORCE LAB'
+developerName: THE FORCE LAB
 features: 
 
 ---

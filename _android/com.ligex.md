@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Ligex Exchange'
+title: Ligex Exchange
 altTitle: 
 authors: 
 users: 10
-appId: 'com.ligex'
+appId: com.ligex
 appCountry: 
-released: '2021-10-09'
-updated: '2022-03-05'
+released: 2021-10-09
+updated: 2022-03-05
 version: '1.3'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://ligex.exchange'
+website: https://ligex.exchange
 repository: 
 issue: 
-icon: 'com.ligex.png'
+icon: com.ligex.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-04-03'
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'LIGEX EXCHANGE'
+developerName: LIGEX EXCHANGE
 features: 
 
 ---

@@ -1,28 +1,27 @@
 ---
 wsId: 
-title: 'Lite HD Wallet – Your Coin Base'
+title: Lite HD Wallet – Your Coin Base
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 500
-appId: 'org.freewallet.lite.android'
+appId: org.freewallet.lite.android
 appCountry: 
 released: 
-updated: '2019-03-01'
-version: 'Varies with device'
+updated: 2019-03-01
+version: Varies with device
 stars: 
 ratings: 
 reviews: 
-size: 'Varies with device'
-website: 'https://freewallet.org'
+website: https://freewallet.org
 repository: 
 issue: 
-icon: 'org.freewallet.lite.android.png'
+icon: org.freewallet.lite.android.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2021-05-25'
+date: 2021-05-25
 signer: 
 reviewArchive: 
 twitter: 

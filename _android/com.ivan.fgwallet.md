@@ -1,34 +1,34 @@
 ---
-wsId: 'ivanFGWallet'
-title: 'FG Wallet'
+wsId: ivanFGWallet
+title: FG Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.ivan.fgwallet'
+appId: com.ivan.fgwallet
 appCountry: 
-released: '2017-12-28'
+released: 2017-12-28
 updated: 2025-01-27
-version: '3.9.5'
+version: 3.9.5
 stars: 
 ratings: 
 reviews: 
-website: 'http://www.srsfc.com'
+website: http://www.srsfc.com
 repository: 
 issue: 
-icon: 'com.ivan.fgwallet.png'
+icon: com.ivan.fgwallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-17'
+date: 2024-07-17
 signer: 
 reviewArchive: 
-twitter: 'srsfintech'
+twitter: srsfintech
 social:
-- 'https://www.linkedin.com/company/srsfintech/'
+- https://www.linkedin.com/company/srsfintech/
 redirect_from: 
-developerName: 'BIB Holdings (M) Sdn Bhd'
+developerName: BIB Holdings (M) Sdn Bhd
 features: 
 
 ---

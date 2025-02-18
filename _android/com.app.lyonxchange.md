@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'LyonXchange'
+title: LyonXchange
 altTitle: 
 authors: 
 users: 100
-appId: 'com.app.lyonxchange'
+appId: com.app.lyonxchange
 appCountry: 
-released: '2020-04-29'
-updated: '2020-04-30'
+released: 2020-04-29
+updated: 2020-04-30
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://lyonxchange.com'
+website: https://lyonxchange.com
 repository: 
 issue: 
-icon: 'com.app.lyonxchange.jpg'
+icon: com.app.lyonxchange.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

@@ -8,12 +8,11 @@ authors:
 appId: com.coinhako.app
 appCountry: 
 idd: 1137855704
-released: '2016-09-04'
-updated: '2025-02-12'
-version: '5.3.0'
+released: 2016-09-04
+updated: 2025-02-12
+version: 5.3.0
 stars: 3.9
 reviews: 30
-size: '198658048'
 website: https://www.coinhako.com
 repository: 
 issue: 
@@ -22,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2021-04-24'
+date: 2021-04-24
 signer: 
 reviewArchive: 
 twitter: coinhako

@@ -7,12 +7,11 @@ authors:
 appId: com.xtmcapital.iqwallet
 appCountry: ru
 idd: 1589400699
-released: '2021-10-18'
-updated: '2021-10-19'
+released: 2021-10-18
+updated: 2021-10-19
 version: '1.3'
 stars: 4.7
 reviews: 3
-size: '19799040'
 website: https://iqwallet.io/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: obfuscated
 appHashes: 
-date: '2024-09-10'
+date: 2024-09-10
 signer: 
 reviewArchive: 
 twitter: 

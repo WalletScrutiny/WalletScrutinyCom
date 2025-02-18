@@ -3,34 +3,35 @@ wsId:
 title: 'Conio: Wallet Bitcoin & Crypto'
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 100000
-appId: 'com.conio.wallet'
+appId: com.conio.wallet
 appCountry: 
+released: 
 updated: 2025-01-23
-version: '9.0.4'
+version: 9.0.4
 stars: 3.5
 ratings: 
 reviews: 
-website: 'https://www.conio.com'
+website: https://www.conio.com
 repository: 
 issue: 
-icon: 'com.conio.wallet.png'
+icon: com.conio.wallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2020-04-09'
+date: 2020-04-09
 signer: 
 reviewArchive: 
-twitter: 'conio'
+twitter: conio
 social:
-- 'https://www.linkedin.com/company/conio'
-- 'https://www.facebook.com/ConioHQ'
+- https://www.linkedin.com/company/conio
+- https://www.facebook.com/ConioHQ
 redirect_from:
-- '/com.conio.wallet/'
-- '/posts/com.conio.wallet/'
-developerName: 'Conio Inc.'
+- /com.conio.wallet/
+- /posts/com.conio.wallet/
+developerName: Conio Inc.
 features: 
 
 ---

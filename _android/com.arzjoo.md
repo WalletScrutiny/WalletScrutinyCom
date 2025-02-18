@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: 'Sarmayex (Arzjoo)'
+title: Sarmayex (Arzjoo)
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 100000
-appId: 'com.arzjoo'
+appId: com.arzjoo
 appCountry: 
-released: '2019-04-25'
+released: 2019-04-25
 updated: 2024-12-31
-version: '3.2.3'
+version: 3.2.3
 stars: 3.9
 ratings: 3741
 reviews: 83
-website: 'https://sarmayex.com'
+website: https://sarmayex.com
 repository: 
 issue: 
-icon: 'com.arzjoo.png'
+icon: com.arzjoo.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2024-11-04'
+date: 2024-11-04
 signer: 
 reviewArchive: 
-twitter: 'arzjoo'
+twitter: arzjoo
 social: 
 redirect_from:
-- '/com.arzjoo/'
-developerName: 'A to Z Crypto'
+- /com.arzjoo/
+developerName: A to Z Crypto
 features: 
 
 ---

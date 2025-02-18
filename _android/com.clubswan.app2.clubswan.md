@@ -7,13 +7,12 @@ authors:
 users: 1000
 appId: com.clubswan.app2.clubswan
 appCountry: 
-released: '2021-10-12'
-updated: '2021-11-10'
-version: '2.3.0'
+released: 2021-10-12
+updated: 2021-11-10
+version: 2.3.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
@@ -22,7 +21,7 @@ bugbounty:
 meta: obsolete
 verdict: custodial
 appHashes: 
-date: '2023-11-02'
+date: 2023-11-02
 signer: 
 reviewArchive: 
 twitter: clubswanapp

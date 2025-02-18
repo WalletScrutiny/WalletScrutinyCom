@@ -3,32 +3,31 @@ wsId:
 title: 'Crypto Wallets: BTC, USDT, ETH'
 altTitle: '(Fake) Crypto Wallets: Coinmama, Crypto.com Wallets'
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'starlab.studios.cryptowallet'
+appId: starlab.studios.cryptowallet
 appCountry: 
-released: '2021-06-01'
-updated: '2024-01-30'
+released: 2021-06-01
+updated: 2024-01-30
 version: '10.0'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://starlabstudiosapps.xyz/'
+website: https://starlabstudiosapps.xyz/
 repository: 
 issue: 
-icon: 'starlab.studios.cryptowallet.png'
+icon: starlab.studios.cryptowallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fake'
+meta: removed
+verdict: fake
 appHashes: 
-date: '2024-04-26'
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Seven Labs AI Apps'
+developerName: Seven Labs AI Apps
 features: 
 
 ---

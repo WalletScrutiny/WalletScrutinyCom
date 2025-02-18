@@ -1,32 +1,32 @@
 ---
 wsId: 
-title: 'Electrum-GRS'
+title: Electrum-GRS
 altTitle: 
 authors: 
 users: 500
-appId: 'org.groestlcoin.electrumgrs'
+appId: org.groestlcoin.electrumgrs
 appCountry: 
-released: '2018-06-02'
+released: 2018-06-02
 updated: 2024-03-18
-version: '4.5.4.0'
+version: 4.5.4.0
 stars: 
 ratings: 
 reviews: 
-website: 'https://groestlcoin.org'
+website: https://groestlcoin.org
 repository: 
 issue: 
-icon: 'org.groestlcoin.electrumgrs.png'
+icon: org.groestlcoin.electrumgrs.png
 bugbounty: 
-meta: 'ok'
-verdict: 'fewusers'
+meta: ok
+verdict: fewusers
 appHashes: 
-date: '2021-04-27'
+date: 2021-04-27
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Hash Engineering Solutions'
+developerName: Hash Engineering Solutions
 features: 
 
 ---

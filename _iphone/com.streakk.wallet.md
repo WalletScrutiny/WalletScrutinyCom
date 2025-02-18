@@ -7,12 +7,11 @@ authors:
 appId: com.streakk.wallet
 appCountry: in
 idd: '1636671089'
-released: '2022-08-02'
-updated: '2023-09-27'
+released: 2022-08-02
+updated: 2023-09-27
 version: '2.6'
 stars: 4.1
 reviews: 9
-size: '34557952'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: nosource
 appHashes: 
-date: '2024-10-08'
+date: 2024-10-08
 signer: 
 reviewArchive: 
 twitter: streakkofficial

@@ -1,37 +1,36 @@
 ---
-wsId: 'busha'
+wsId: busha
 title: 'Busha: Buy & Sell BTC, ETH'
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 100000
-appId: 'co.busha.android'
+appId: co.busha.android
 appCountry: 
-released: '2019-01-21'
-updated: '2024-02-01'
-version: '6.5.2'
+released: 2019-01-21
+updated: 2024-02-01
+version: 6.5.2
 stars: 4.2
 ratings: 3575
 reviews: 187
-size: 
-website: 'https://busha.co'
+website: https://busha.co
 repository: 
 issue: 
-icon: 'co.busha.android.png'
+icon: co.busha.android.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-03-02'
+date: 2024-03-02
 signer: 
 reviewArchive: 
-twitter: 'getbusha'
+twitter: getbusha
 social:
-- 'https://www.facebook.com/getbusha'
+- https://www.facebook.com/getbusha
 redirect_from:
-- '/co.busha.android/'
-- '/posts/co.busha.android/'
-developerName: 'Busha, Inc.'
+- /co.busha.android/
+- /posts/co.busha.android/
+developerName: Busha, Inc.
 features: 
 
 ---

@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Everus'
+title: Everus
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.everus.org'
+appId: com.everus.org
 appCountry: 
-released: '2018-04-07'
-updated: '2021-03-07'
-version: '1.2.9'
+released: 2018-04-07
+updated: 2021-03-07
+version: 1.2.9
 stars: 4.9
 ratings: 7592
 reviews: 229
-size: 
-website: 'https://www.everus.org'
+website: https://www.everus.org
 repository: 
 issue: 
-icon: 'com.everus.org.png'
+icon: com.everus.org.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
-twitter: 'everusworld'
+twitter: everusworld
 social:
-- 'https://www.linkedin.com/company/everusworld'
-- 'https://www.facebook.com/EverusWorld'
+- https://www.linkedin.com/company/everusworld
+- https://www.facebook.com/EverusWorld
 redirect_from: 
 developerName: 
 features: 

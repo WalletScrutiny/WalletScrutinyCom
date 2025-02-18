@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Bitcoin Investment App2021'
+title: Bitcoin Investment App2021
 altTitle: 
 authors: 
 users: 1
-appId: 'com.cryptoplanetgreencg.bitcoin.investment.app2021'
+appId: com.cryptoplanetgreencg.bitcoin.investment.app2021
 appCountry: 
-released: '2021-07-28'
-updated: '2021-07-28'
+released: 2021-07-28
+updated: 2021-07-28
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: '2.3M'
 website: 
 repository: 
 issue: 
-icon: 'com.cryptoplanetgreencg.bitcoin.investment.app2021.png'
+icon: com.cryptoplanetgreencg.bitcoin.investment.app2021.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2021-09-25'
+date: 2021-09-25
 signer: 
 reviewArchive: 
 twitter: 

@@ -16,6 +16,36 @@ const migration = function (header, body, fileName, categoryHelper) {
   // make sure, appId matches file name
   header.appId = fileName.slice(0, -3);
 
+  // Convert date fields from strings to dates
+  const dateFields = ['date', 'updated', 'released'];
+  for (const f of dateFields) {
+    if (header[f]) {
+      header[f] = new Date(header[f]);
+    }
+  }
+  if (header.reviewArchive && Array.isArray(header.reviewArchive)) {
+    header.reviewArchive = header.reviewArchive
+      .map(archive => {
+        if (archive.date) {
+          archive.date = new Date(archive.date);
+        } else {
+          console.error(`No date in entry ${JSON.stringify(archive)} in _${category}/${fileName}.`)
+        }
+        return archive;
+      });
+  }
+ // Convert numeric fields from strings to numbers
+  const numericFields = ['ratings', 'stars', 'users', 'reviews'];
+  for (const f of numericFields) {
+    if (header[f] && typeof header[f] === 'string' && !isNaN(header[f])) {
+      header[f] = Number(header[f]);
+    }
+  }
+  if (header.dimensions && Array.isArray(header.dimensions)) {
+    header.dimensions = header.dimensions
+      .map(d => Number(d));
+  }
+
   // Check for missing 'updated' field when 'version' is defined
   if (header.version && !header.updated) {
     console.error(
@@ -69,9 +99,17 @@ mv images/wIcons/${category}/{${header.icon},${newIcon}}`);
   if (header.released && !df.test(header.released)) {
     header.released = new Date(Date.parse(header.released));
   }
-  for(let key in header){
-    if(header[key] == undefined && categoryHelper.headers.findIndex(x => x === key) < 0)
+
+  for (const key in header) {
+    const isKeyInHeaders = categoryHelper.headers.includes(key);
+    const shouldKeepKey = category === 'others' 
+      ? (header[key] != null || isKeyInHeaders)
+      : isKeyInHeaders;
+      
+    if (!shouldKeepKey) {
+      console.log(`dropping key ${key} in _${category}/${fileName}`);
       delete header[key];
+    }
   }
 }; // crucial semicolon!
 

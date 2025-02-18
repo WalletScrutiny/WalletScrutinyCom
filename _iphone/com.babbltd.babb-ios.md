@@ -1,39 +1,38 @@
 ---
-wsId: 'babbApp'
-title: 'BABB'
+wsId: babbApp
+title: BABB
 altTitle: 
 authors:
-- 'danny'
-appId: 'com.babbltd.babb-ios'
-appCountry: 'us'
+- danny
+appId: com.babbltd.babb-ios
+appCountry: us
 idd: '1474391121'
-released: '2020-04-14'
+released: 2020-04-14
 updated: 2024-12-16
-version: '2.5.3'
-stars: 4.34117
+version: 2.5.3
+stars: 4.3
 reviews: 85
-size: '57335808'
-website: 'https://getbabb.com/'
+website: https://getbabb.com/
 repository: 
 issue: 
-icon: 'com.babbltd.babb-ios.jpg'
+icon: com.babbltd.babb-ios.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-07-10'
+date: 2023-07-10
 signer: 
 reviewArchive: 
-twitter: 'getbabb'
+twitter: getbabb
 social:
-- 'https://www.linkedin.com/company/babb'
-- 'https://www.facebook.com/getbabb'
-- 'https://www.youtube.com/channel/UCQtkZd7sfzbEugz7VdFhv4Q'
-- 'https://discord.com/invite/39rQp2g6JA'
-- 'https://babb.medium.com'
-- 'https://t.me/getbabb_official'
+- https://www.linkedin.com/company/babb
+- https://www.facebook.com/getbabb
+- https://www.youtube.com/channel/UCQtkZd7sfzbEugz7VdFhv4Q
+- https://discord.com/invite/39rQp2g6JA
+- https://babb.medium.com
+- https://t.me/getbabb_official
 features: 
-developerName: 'BABB Ltd'
+developerName: BABB Ltd
 
 ---
 

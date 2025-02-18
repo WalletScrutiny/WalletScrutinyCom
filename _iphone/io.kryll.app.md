@@ -7,12 +7,11 @@ authors:
 appId: io.kryll.app
 appCountry: id
 idd: '1445896905'
-released: '2019-01-09'
-updated: '2024-03-04'
-version: '2.3.18'
+released: 2019-01-09
+updated: 2024-03-04
+version: 2.3.18
 stars: 0
 reviews: 0
-size: '37053440'
 website: https://kryll.io
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: nowallet
 appHashes: 
-date: '2024-08-07'
+date: 2024-08-07
 signer: 
 reviewArchive: 
 twitter: kryll_io

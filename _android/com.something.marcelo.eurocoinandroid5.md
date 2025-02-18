@@ -1,36 +1,36 @@
 ---
-wsId: 'eurocoinPay'
-title: 'EurocoinPay'
+wsId: eurocoinPay
+title: EurocoinPay
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.something.marcelo.eurocoinandroid5'
+appId: com.something.marcelo.eurocoinandroid5
 appCountry: 
-released: '2018-11-17'
+released: 2018-11-17
 updated: 2025-02-01
 version: '39.7'
 stars: 4.3
 ratings: 
 reviews: 
-website: 'http://www.eurocoinpay.io'
+website: http://www.eurocoinpay.io
 repository: 
 issue: 
-icon: 'com.something.marcelo.eurocoinandroid5.png'
+icon: com.something.marcelo.eurocoinandroid5.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-06-29'
+date: 2023-06-29
 signer: 
 reviewArchive: 
-twitter: 'eurocoinpay'
+twitter: eurocoinpay
 social:
-- 'https://t.me/eurocoinpay_io'
-- 'https://eurocoinpay.medium.com'
-- 'https://www.youtube.com/c/eurocoinpay'
+- https://t.me/eurocoinpay_io
+- https://eurocoinpay.medium.com
+- https://www.youtube.com/c/eurocoinpay
 redirect_from: 
-developerName: 'EurocoinPay'
+developerName: EurocoinPay
 features: 
 
 ---

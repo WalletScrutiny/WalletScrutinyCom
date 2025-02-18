@@ -4,30 +4,29 @@ title: 'Cluster - Send, Save, Receive '
 altTitle: 
 authors: 
 users: 10
-appId: 'com.aic.cluster'
+appId: com.aic.cluster
 appCountry: 
 released: 
-updated: '2021-05-24'
-version: 'VARY'
+updated: 2021-05-24
+version: VARY
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://clusterwallet.com'
+website: https://clusterwallet.com
 repository: 
 issue: 
-icon: 'com.aic.cluster.png'
+icon: com.aic.cluster.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-04-03'
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'AIC LIMITED'
+developerName: AIC LIMITED
 features: 
 
 ---

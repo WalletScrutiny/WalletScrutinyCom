@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'All Coin Wallet'
+title: All Coin Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.allcoinwallet.allcoinwallet'
+appId: com.allcoinwallet.allcoinwallet
 appCountry: 
-released: '2019-01-28'
-updated: '2019-11-22'
-version: '1.2.22'
+released: 2019-01-28
+updated: 2019-11-22
+version: 1.2.22
 stars: 4.3
 ratings: 105
 reviews: 1
-size: 
-website: 'http://www.allcoinwallet.com'
+website: http://www.allcoinwallet.com
 repository: 
 issue: 
-icon: 'com.allcoinwallet.allcoinwallet.png'
+icon: com.allcoinwallet.allcoinwallet.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'wip'
+meta: defunct
+verdict: wip
 appHashes: 
-date: '2021-08-09'
+date: 2021-08-09
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'All Coin Wallet'
+developerName: All Coin Wallet
 features: 
 
 ---

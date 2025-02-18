@@ -1,34 +1,33 @@
 ---
-wsId: 'paybankExchange'
+wsId: paybankExchange
 title: '24Paybank: Купить Биткоин'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.exchanger24pb.myapplication24'
+appId: com.exchanger24pb.myapplication24
 appCountry: 
-released: '2020-02-07'
-updated: '2023-11-26'
-version: '4.0.1'
+released: 2020-02-07
+updated: 2023-11-26
+version: 4.0.1
 stars: 3.9
 ratings: 
 reviews: 
-size: 
-website: 'https://24paybank.net/'
+website: https://24paybank.net/
 repository: 
 issue: 
-icon: 'com.exchanger24pb.myapplication24.png'
+icon: com.exchanger24pb.myapplication24.png
 bugbounty: 
-meta: 'stale'
-verdict: 'nowallet'
+meta: stale
+verdict: nowallet
 appHashes: 
-date: '2024-11-21'
+date: 2024-11-21
 signer: 
 reviewArchive: 
-twitter: '24Paybank'
+twitter: 24Paybank
 social: 
 redirect_from: 
-developerName: 'Dmitry24pb'
+developerName: Dmitry24pb
 features: 
 
 ---

@@ -1,33 +1,33 @@
 ---
-wsId: 'keyring'
+wsId: keyring
 title: 'KEYRING PRO: BTC, ETH, SOL'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'co.bacoor.keyring'
+appId: co.bacoor.keyring
 appCountry: 
-released: '2021-01-21'
+released: 2021-01-21
 updated: 2025-02-11
-version: '4.5.0'
+version: 4.5.0
 stars: 4.7
 ratings: 
 reviews: 2
-website: 'https://keyring.app'
+website: https://keyring.app
 repository: 
 issue: 
-icon: 'co.bacoor.keyring.png'
+icon: co.bacoor.keyring.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-17'
+date: 2024-07-17
 signer: 
 reviewArchive: 
-twitter: 'KEYRING_PRO'
+twitter: KEYRING_PRO
 social: 
 redirect_from: 
-developerName: 'bacoor inc.'
+developerName: bacoor inc.
 features: 
 
 ---

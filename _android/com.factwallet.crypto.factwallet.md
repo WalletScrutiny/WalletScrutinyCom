@@ -1,28 +1,27 @@
 ---
 wsId: 
-title: 'Fact Wallet - Bitcoin and cryptocurrency Wallet'
+title: Fact Wallet - Bitcoin and cryptocurrency Wallet
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 100
-appId: 'com.factwallet.crypto.factwallet'
+appId: com.factwallet.crypto.factwallet
 appCountry: 
-released: '2020-10-23'
-updated: '2020-11-13'
+released: 2020-10-23
+updated: 2020-11-13
 version: '1.4'
 stars: 
 ratings: 
 reviews: 
-size: '3.8M'
-website: 'https://factpocket.com/'
+website: https://factpocket.com/
 repository: 
 issue: 
-icon: 'com.factwallet.crypto.factwallet.png'
+icon: com.factwallet.crypto.factwallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2022-04-07'
+date: 2022-04-07
 signer: 
 reviewArchive: 
 twitter: 

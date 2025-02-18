@@ -1,37 +1,36 @@
 ---
-wsId: 'bitcoinblack'
-title: 'Bitcoin Black Wallet'
+wsId: bitcoinblack
+title: Bitcoin Black Wallet
 altTitle: 
 authors:
-- 'kiwilamb'
-- 'danny'
+- kiwilamb
+- danny
 users: 100000
-appId: 'com.bitcoinblack.wallet'
+appId: com.bitcoinblack.wallet
 appCountry: 
-released: '2020-06-11'
-updated: '2020-12-25'
-version: '1.0.6'
+released: 2020-06-11
+updated: 2020-12-25
+version: 1.0.6
 stars: 3.8
 ratings: 1690
 reviews: 64
-size: 
-website: 'https://bitcoin.black'
+website: https://bitcoin.black
 repository: 
 issue: 
-icon: 'com.bitcoinblack.wallet.png'
+icon: com.bitcoinblack.wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nobtc'
+meta: removed
+verdict: nobtc
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
-twitter: 'BCB_Official1'
+twitter: BCB_Official1
 social:
-- 'https://www.facebook.com/bitcoinblackofficial'
-- 'https://www.reddit.com/r/AllAboardBitcoinBlack'
+- https://www.facebook.com/bitcoinblackofficial
+- https://www.reddit.com/r/AllAboardBitcoinBlack
 redirect_from: 
-developerName: 'Bitcoin Black'
+developerName: Bitcoin Black
 features: 
 
 ---

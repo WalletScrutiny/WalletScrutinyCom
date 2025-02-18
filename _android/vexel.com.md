@@ -1,36 +1,35 @@
 ---
-wsId: 'vexelcom'
-title: 'Vexel.com'
+wsId: vexelcom
+title: Vexel.com
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'vexel.com'
+appId: vexel.com
 appCountry: 
-released: '2021-04-27'
-updated: '2023-10-20'
-version: '1.51.2'
+released: 2021-04-27
+updated: 2023-10-20
+version: 1.51.2
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://vexel.com'
+website: https://vexel.com
 repository: 
 issue: 
-icon: 'vexel.com.jpg'
+icon: vexel.com.jpg
 bugbounty: 
-meta: 'stale'
-verdict: 'custodial'
+meta: stale
+verdict: custodial
 appHashes: 
-date: '2024-10-16'
+date: 2024-10-16
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://vk.com/vexel_is'
-- 'https://www.instagram.com/vexel_com/'
+- https://vk.com/vexel_is
+- https://www.instagram.com/vexel_com/
 redirect_from: 
-developerName: 'VEXEL LP'
+developerName: VEXEL LP
 features: 
 
 ---

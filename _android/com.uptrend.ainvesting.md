@@ -1,35 +1,36 @@
 ---
 wsId: 
-title: 'AInvesting - CFD trading'
+title: AInvesting - CFD trading
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.uptrend.ainvesting'
+appId: com.uptrend.ainvesting
 appCountry: 
+released: 
 updated: 2024-12-21
-version: '7.0.32'
+version: 7.0.32
 stars: 3.1
 ratings: 
 reviews: 
-website: 'http://www.uptrend.bg'
+website: http://www.uptrend.bg
 repository: 
 issue: 
-icon: 'com.uptrend.ainvesting.png'
+icon: com.uptrend.ainvesting.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosendreceive'
+meta: ok
+verdict: nosendreceive
 appHashes: 
-date: '2023-06-07'
+date: 2023-06-07
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://ainvesting.eu'
-- 'https://www.facebook.com/uptrend.bg'
-- 'https://www.linkedin.com/company/bull-trend-brokerage-ltd/about/'
+- https://ainvesting.eu
+- https://www.facebook.com/uptrend.bg
+- https://www.linkedin.com/company/bull-trend-brokerage-ltd/about/
 redirect_from: 
-developerName: 'Up Trend LTD'
+developerName: Up Trend LTD
 features: 
 
 ---

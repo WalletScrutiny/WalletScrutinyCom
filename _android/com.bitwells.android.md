@@ -1,33 +1,32 @@
 ---
-wsId: 'Bitwells'
-title: 'Bitwells - Easy Bitcoin/Crypto Futures Trading'
+wsId: Bitwells
+title: Bitwells - Easy Bitcoin/Crypto Futures Trading
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.bitwells.android'
-appCountry: 'us'
-released: '2021-05-17'
-updated: '2022-05-09'
-version: '1.0.7'
+appId: com.bitwells.android
+appCountry: us
+released: 2021-05-17
+updated: 2022-05-09
+version: 1.0.7
 stars: 4.6
 ratings: 1307
 reviews: 1261
-size: 
-website: 'https://www.bitwells.com'
+website: https://www.bitwells.com
 repository: 
 issue: 
-icon: 'com.bitwells.android.png'
+icon: com.bitwells.android.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
-twitter: 'bitwells'
+twitter: bitwells
 social:
-- 'https://www.facebook.com/Bitwells'
+- https://www.facebook.com/Bitwells
 redirect_from: 
 developerName: 
 features: 

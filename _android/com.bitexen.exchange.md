@@ -1,35 +1,35 @@
 ---
-wsId: 'Bitexen'
-title: 'Bitexen - Bitcoin and Altcoins'
+wsId: Bitexen
+title: Bitexen - Bitcoin and Altcoins
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000000
-appId: 'com.bitexen.exchange'
+appId: com.bitexen.exchange
 appCountry: 
-released: '2018-05-27'
+released: 2018-05-27
 updated: 2025-01-30
 version: '1.20'
 stars: 3.7
 ratings: 8237
 reviews: 44
-website: 'https://www.bitexen.com'
+website: https://www.bitexen.com
 repository: 
 issue: 
-icon: 'com.bitexen.exchange.jpg'
+icon: com.bitexen.exchange.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-02-01'
+date: 2023-02-01
 signer: 
 reviewArchive: 
-twitter: 'bitexencom'
+twitter: bitexencom
 social:
-- 'https://www.linkedin.com/company/bitexen'
-- 'https://www.facebook.com/bitexen'
+- https://www.linkedin.com/company/bitexen
+- https://www.facebook.com/bitexen
 redirect_from: 
-developerName: 'Bitexen Teknoloji A.Ş.'
+developerName: Bitexen Teknoloji A.Ş.
 features: 
 
 ---

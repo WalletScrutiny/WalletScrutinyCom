@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: 'Phoenix Fund'
+title: Phoenix Fund
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'ae.phoenixfund'
+appId: ae.phoenixfund
 appCountry: 
-released: '2021-01-29'
-updated: '2022-04-12'
-version: '1.1.4'
+released: 2021-01-29
+updated: 2022-04-12
+version: 1.1.4
 stars: 3.9
 ratings: 
 reviews: 
-size: 
-website: 'https://plana.ae'
+website: https://plana.ae
 repository: 
 issue: 
-icon: 'ae.phoenixfund.png'
+icon: ae.phoenixfund.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'mailto:info@plana.ae'
+- mailto:info@plana.ae
 redirect_from: 
-developerName: 'PLAN A WEB DESIGN'
+developerName: PLAN A WEB DESIGN
 features: 
 
 ---

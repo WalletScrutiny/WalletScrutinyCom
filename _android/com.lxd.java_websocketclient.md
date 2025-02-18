@@ -1,34 +1,33 @@
 ---
-wsId: 'CoinFlex'
-title: 'CoinFLEX'
+wsId: CoinFlex
+title: CoinFLEX
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.lxd.java_websocketclient'
-appCountry: 'us'
-released: '2020-05-01'
-updated: '2021-11-12'
-version: '2.7.0'
+appId: com.lxd.java_websocketclient
+appCountry: us
+released: 2020-05-01
+updated: 2021-11-12
+version: 2.7.0
 stars: 3.4
 ratings: 19
 reviews: 11
-size: '11M'
-website: 'https://coinflex.com/home'
+website: https://coinflex.com/home
 repository: 
 issue: 
-icon: 'com.lxd.java_websocketclient.png'
+icon: com.lxd.java_websocketclient.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2021-11-22'
+date: 2021-11-22
 signer: 
 reviewArchive: 
-twitter: 'coinflexdotcom'
+twitter: coinflexdotcom
 social:
-- 'https://www.linkedin.com/company/coinflex'
-- 'https://www.facebook.com/coinflexdotcom'
+- https://www.linkedin.com/company/coinflex
+- https://www.facebook.com/coinflexdotcom
 redirect_from: 
 developerName: 
 features: 

@@ -1,37 +1,37 @@
 ---
-wsId: 'defexaWallet'
-title: 'Defexa - Safe Crypto Wallet'
+wsId: defexaWallet
+title: Defexa - Safe Crypto Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.defexa.wallet'
+appId: com.defexa.wallet
 appCountry: 
-released: '2023-04-28'
+released: 2023-04-28
 updated: 2024-10-16
-version: '2.2.2'
+version: 2.2.2
 stars: 4.5
 ratings: 
 reviews: 6
-website: 'https://defexa.io/wallet/'
+website: https://defexa.io/wallet/
 repository: 
 issue: 
-icon: 'com.defexa.wallet.png'
+icon: com.defexa.wallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2023-11-02'
+date: 2023-11-02
 signer: 
 reviewArchive: 
-twitter: 'DefexaCrypto'
+twitter: DefexaCrypto
 social:
-- 'https://discord.com/invite/JaSnYuXYS5'
-- 'https://t.me/defexa'
-- 'https://www.linkedin.com/company/defexa'
-- 'https://www.quora.com/profile/Defexa'
+- https://discord.com/invite/JaSnYuXYS5
+- https://t.me/defexa
+- https://www.linkedin.com/company/defexa
+- https://www.quora.com/profile/Defexa
 redirect_from: 
-developerName: 'FPS Global LTD'
+developerName: FPS Global LTD
 features: 
 
 ---

@@ -1,34 +1,33 @@
 ---
-wsId: 'BitKan'
+wsId: BitKan
 title: 'BitKan: Trade Bitcoin & Crypto'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.bitcan.app'
-appCountry: 'us'
-released: '2017-10-18'
-updated: '2024-08-30'
-version: '8.23.0.9'
+appId: com.bitcan.app
+appCountry: us
+released: 2017-10-18
+updated: 2024-08-30
+version: 8.23.0.9
 stars: 3.1
 ratings: 92
 reviews: 29
-size: 
-website: 'http://www.bitkan.com'
+website: http://www.bitkan.com
 repository: 
 issue: 
-icon: 'com.bitcan.app.png'
+icon: com.bitcan.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-09-28'
+date: 2024-09-28
 signer: 
 reviewArchive: 
-twitter: 'bitkanofficial'
+twitter: bitkanofficial
 social: 
 redirect_from: 
-developerName: 'bitkan.com'
+developerName: bitkan.com
 features: 
 
 ---

@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Payout'
+title: Payout
 altTitle: 
 authors: 
 users: 1000
-appId: 'com.payout'
+appId: com.payout
 appCountry: 
-released: '2020-01-14'
-updated: '2020-10-16'
+released: 2020-01-14
+updated: 2020-10-16
 version: '2.6'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'http://www.ddtotal.com.br'
+website: http://www.ddtotal.com.br
 repository: 
 issue: 
-icon: 'com.payout.jpg'
+icon: com.payout.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2024-04-03'
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Goey Tecnologia Ltda'
+developerName: Goey Tecnologia Ltda
 features: 
 
 ---

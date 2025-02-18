@@ -1,34 +1,34 @@
 ---
-wsId: 'coinsonepaprika'
+wsId: coinsonepaprika
 title: 'COINS: One App For Crypto'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.coinpaprika.coins'
-appCountry: 'us'
-released: '2020-06-15'
+appId: com.coinpaprika.coins
+appCountry: us
+released: 2020-06-15
 updated: 2024-10-24
-version: '1.17.16'
+version: 1.17.16
 stars: 4.3
 ratings: 1401
 reviews: 95
-website: 'https://coins.coinpaprika.com/'
+website: https://coins.coinpaprika.com/
 repository: 
 issue: 
-icon: 'com.coinpaprika.coins.png'
+icon: com.coinpaprika.coins.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-15'
+date: 2024-07-15
 signer: 
 reviewArchive: 
-twitter: 'CoinsOneApp'
+twitter: CoinsOneApp
 social:
-- 'https://www.facebook.com/CoinsOneApp'
+- https://www.facebook.com/CoinsOneApp
 redirect_from: 
-developerName: 'Coinpaprika'
+developerName: Coinpaprika
 features: 
 
 ---

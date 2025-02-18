@@ -1,28 +1,27 @@
 ---
 wsId: 
-title: 'Crypto Bitcoin'
+title: Crypto Bitcoin
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'ps.greenminer.app'
+appId: ps.greenminer.app
 appCountry: 
-released: '2021-06-04'
-updated: '2022-06-28'
-version: '3.13.28-0d7a9f0'
+released: 2021-06-04
+updated: 2022-06-28
+version: 3.13.28-0d7a9f0
 stars: 
 ratings: 5347
 reviews: 
-size: 
-website: 'http://crypto.promo-miner.com/'
+website: http://crypto.promo-miner.com/
 repository: 
 issue: 
-icon: 'ps.greenminer.app.png'
+icon: ps.greenminer.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

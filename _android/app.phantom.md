@@ -1,37 +1,37 @@
 ---
-wsId: 'phantomlabs'
-title: 'Phantom'
+wsId: phantomlabs
+title: Phantom
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000000
-appId: 'app.phantom'
+appId: app.phantom
 appCountry: 
-released: '2022-04-12'
+released: 2022-04-12
 updated: 2025-02-12
-version: '25.4.0'
+version: 25.4.0
 stars: 4
 ratings: 
-reviews: 946
-website: 'https://phantom.app/'
+reviews: 950
+website: https://phantom.app/
 repository: 
 issue: 
-icon: 'app.phantom.png'
+icon: app.phantom.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-15'
+date: 2024-07-15
 signer: 
 reviewArchive: 
-twitter: 'phantom'
+twitter: phantom
 social:
-- 'https://www.reddit.com/r/phantom/'
-- 'https://www.linkedin.com/company/phantomwallet/'
-- 'https://www.youtube.com/@phantom-wallet'
-- 'https://github.com/phantom-labs'
+- https://www.reddit.com/r/phantom/
+- https://www.linkedin.com/company/phantomwallet/
+- https://www.youtube.com/@phantom-wallet
+- https://github.com/phantom-labs
 redirect_from: 
-developerName: 'Phantom Technologies, Inc.'
+developerName: Phantom Technologies, Inc.
 features: 
 
 ---

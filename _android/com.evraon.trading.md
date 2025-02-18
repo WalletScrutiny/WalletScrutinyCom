@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Evraon - trade crypto & stocks'
+title: Evraon - trade crypto & stocks
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.evraon.trading'
+appId: com.evraon.trading
 appCountry: 
-released: '2019-06-14'
-updated: '2022-12-07'
-version: '1.8.2'
+released: 2019-06-14
+updated: 2022-12-07
+version: 1.8.2
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://evraon.com'
+website: https://evraon.com
 repository: 
 issue: 
-icon: 'com.evraon.trading.png'
+icon: com.evraon.trading.png
 bugbounty: 
-meta: 'obsolete'
-verdict: 'nowallet'
+meta: obsolete
+verdict: nowallet
 appHashes: 
-date: '2024-11-29'
+date: 2024-11-29
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Avently'
+developerName: Avently
 features: 
 
 ---

@@ -1,36 +1,36 @@
 ---
-wsId: 'UpbitGlobal'
-title: 'Upbit (Global)'
+wsId: UpbitGlobal
+title: Upbit (Global)
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.dunamu.exchange.global'
-appCountry: 'us'
-released: '2018-11-06'
+appId: com.dunamu.exchange.global
+appCountry: us
+released: 2018-11-06
 updated: 2025-02-13
-version: '1.19.1'
+version: 1.19.1
 stars: 3.1
 ratings: 3998
 reviews: 35
-website: 'https://www.dunamu.com'
+website: https://www.dunamu.com
 repository: 
 issue: 
-icon: 'com.dunamu.exchange.global.png'
+icon: com.dunamu.exchange.global.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-10-10'
+date: 2021-10-10
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://www.linkedin.com/company/upbit-official'
-- 'https://www.facebook.com/upbit.exchange'
+- https://www.linkedin.com/company/upbit-official
+- https://www.facebook.com/upbit.exchange
 redirect_from:
-- '/com.dunamu.exchange/'
-developerName: 'Dunamu'
+- /com.dunamu.exchange/
+developerName: Dunamu
 features: 
 
 ---

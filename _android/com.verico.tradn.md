@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Tradn - Buy Bitcoins with Trus'
+title: Tradn - Buy Bitcoins with Trus
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.verico.tradn'
+appId: com.verico.tradn
 appCountry: 
-released: '2020-04-24'
-updated: '2021-07-19'
-version: '1.5.106'
+released: 2020-04-24
+updated: 2021-07-19
+version: 1.5.106
 stars: 
 ratings: 39
 reviews: 
-size: 
-website: 'https://tradn.io/'
+website: https://tradn.io/
 repository: 
 issue: 
-icon: 'com.verico.tradn.png'
+icon: com.verico.tradn.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'wip'
+meta: defunct
+verdict: wip
 appHashes: 
-date: '2021-11-15'
+date: 2021-11-15
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Verico International Co., Ltd.'
+developerName: Verico International Co., Ltd.
 features: 
 
 ---

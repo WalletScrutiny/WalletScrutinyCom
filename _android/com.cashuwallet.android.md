@@ -1,31 +1,32 @@
 ---
 wsId: 
-title: 'CashuWallet'
+title: CashuWallet
 altTitle: 
 authors: 
 users: 100
-appId: 'com.cashuwallet.android'
+appId: com.cashuwallet.android
 appCountry: 
+released: 
 updated: 2024-09-27
-version: 'VARY'
+version: VARY
 stars: 
 ratings: 
 reviews: 
-website: 'https://cashu.cc/'
+website: https://cashu.cc/
 repository: 
 issue: 
-icon: 'com.cashuwallet.android.png'
+icon: com.cashuwallet.android.png
 bugbounty: 
-meta: 'ok'
-verdict: 'fewusers'
+meta: ok
+verdict: fewusers
 appHashes: 
-date: '2024-09-28'
+date: 2024-09-28
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'raugfer'
+developerName: raugfer
 features: 
 
 ---

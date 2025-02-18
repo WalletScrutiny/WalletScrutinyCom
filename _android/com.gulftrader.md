@@ -3,32 +3,31 @@ wsId:
 title: 'GulfTrader: استثمار الذهب النف'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.gulftrader'
+appId: com.gulftrader
 appCountry: 
 released: 
-updated: '2020-11-13'
-version: '3.0.8'
+updated: 2020-11-13
+version: 3.0.8
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.gulftrader.com'
+website: https://www.gulftrader.com
 repository: 
 issue: 
-icon: 'com.gulftrader.png'
+icon: com.gulftrader.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'wip'
+meta: defunct
+verdict: wip
 appHashes: 
-date: '2023-08-07'
+date: 2023-08-07
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Gulf Trader LTD'
+developerName: Gulf Trader LTD
 features: 
 
 ---

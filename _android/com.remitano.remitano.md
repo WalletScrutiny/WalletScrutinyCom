@@ -1,36 +1,36 @@
 ---
-wsId: 'Remitano'
-title: 'Remitano - Buy & Sell Bitcoin'
+wsId: Remitano
+title: Remitano - Buy & Sell Bitcoin
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 1000000
-appId: 'com.remitano.remitano'
+appId: com.remitano.remitano
 appCountry: 
-released: '2016-07-24'
+released: 2016-07-24
 updated: 2025-02-12
-version: '6.122.0'
-stars: 4.3
+version: 6.122.0
+stars: 4.4
 ratings: 19172
 reviews: 515
-website: 'https://remitano.com'
+website: https://remitano.com
 repository: 
 issue: 
-icon: 'com.remitano.remitano.jpg'
+icon: com.remitano.remitano.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2020-05-29'
+date: 2020-05-29
 signer: 
 reviewArchive: 
-twitter: 'remitano'
+twitter: remitano
 social:
-- 'https://www.linkedin.com/company/Remitano'
-- 'https://www.facebook.com/remitano'
+- https://www.linkedin.com/company/Remitano
+- https://www.facebook.com/remitano
 redirect_from:
-- '/posts/com.remitano.remitano/'
-developerName: 'Remitano'
+- /posts/com.remitano.remitano/
+developerName: Remitano
 features: 
 
 ---

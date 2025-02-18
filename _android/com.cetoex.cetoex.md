@@ -3,33 +3,33 @@ wsId:
 title: 'CetoEX : Buy & Sell Crypto'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.cetoex.cetoex'
+appId: com.cetoex.cetoex
 appCountry: 
-released: '2022-08-13'
+released: 2022-08-13
 updated: 2024-09-26
-version: '1.0.0'
+version: 1.0.0
 stars: 4
 ratings: 
 reviews: 4
-website: 'https://cetoex.com'
+website: https://cetoex.com
 repository: 
 issue: 
-icon: 'com.cetoex.cetoex.jpg'
+icon: com.cetoex.cetoex.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'nosendreceive'
+meta: ok
+verdict: nosendreceive
 appHashes: 
-date: '2024-09-08'
+date: 2024-09-08
 signer: 
 reviewArchive: 
-twitter: 'Cetoex'
+twitter: Cetoex
 social:
-- 'https://t.me/CetoEXExchange'
-- 'https://www.instagram.com/cetoex'
+- https://t.me/CetoEXExchange
+- https://www.instagram.com/cetoex
 redirect_from: 
-developerName: 'CetoEx Labs'
+developerName: CetoEx Labs
 features: 
 
 ---

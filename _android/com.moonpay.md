@@ -1,36 +1,36 @@
 ---
-wsId: 'moonPayBuyBitcoin'
+wsId: moonPayBuyBitcoin
 title: 'MoonPay: Buy Bitcoin, Solana'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000000
-appId: 'com.moonpay'
+appId: com.moonpay
 appCountry: 
-released: '2023-04-18'
+released: 2023-04-18
 updated: 2025-02-11
-version: '1.14.90'
+version: 1.14.90
 stars: 3.8
 ratings: 
-reviews: 447
-website: 'https://www.moonpay.com/'
+reviews: 451
+website: https://www.moonpay.com/
 repository: 
 issue: 
-icon: 'com.moonpay.png'
+icon: com.moonpay.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nobtc'
+meta: ok
+verdict: nobtc
 appHashes: 
-date: '2023-07-18'
+date: 2023-07-18
 signer: 
 reviewArchive: 
-twitter: 'moonpay'
+twitter: moonpay
 social:
-- 'https://www.linkedin.com/company/moonpay'
-- 'https://www.instagram.com/moonpay'
-- 'https://www.facebook.com/officialmoonpay'
+- https://www.linkedin.com/company/moonpay
+- https://www.instagram.com/moonpay
+- https://www.facebook.com/officialmoonpay
 redirect_from: 
-developerName: 'MoonPay'
+developerName: MoonPay
 features: 
 
 ---

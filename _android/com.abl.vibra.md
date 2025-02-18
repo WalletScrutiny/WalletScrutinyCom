@@ -1,37 +1,36 @@
 ---
-wsId: 'vibra'
+wsId: vibra
 title: 'VIBRA Wallet: Buy BTC and ETH'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.abl.vibra'
+appId: com.abl.vibra
 appCountry: 
-released: '2021-10-21'
-updated: '2023-06-29'
-version: '1.6.90'
+released: 2021-10-21
+updated: 2023-06-29
+version: 1.6.90
 stars: 3.9
 ratings: 
 reviews: 5
-size: 
-website: 'https://www.vibra.one/'
+website: https://www.vibra.one/
 repository: 
 issue: 
-icon: 'com.abl.vibra.png'
+icon: com.abl.vibra.png
 bugbounty: 
-meta: 'stale'
-verdict: 'custodial'
+meta: stale
+verdict: custodial
 appHashes: 
-date: '2024-06-23'
+date: 2024-06-23
 signer: 
 reviewArchive: 
-twitter: 'VibraAfrica'
+twitter: VibraAfrica
 social:
-- 'https://www.linkedin.com/company/vibraafrica/'
-- 'https://www.youtube.com/channel/UC8ZcpYoBFSHgsbTQyQbutnA'
-- 'https://www.facebook.com/VibraAfrica'
+- https://www.linkedin.com/company/vibraafrica/
+- https://www.youtube.com/channel/UC8ZcpYoBFSHgsbTQyQbutnA
+- https://www.facebook.com/VibraAfrica
 redirect_from: 
-developerName: 'Vibra Africa'
+developerName: Vibra Africa
 features: 
 
 ---

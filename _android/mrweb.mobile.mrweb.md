@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'AMA Wallet'
+title: AMA Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'mrweb.mobile.mrweb'
+appId: mrweb.mobile.mrweb
 appCountry: 
-released: '2022-02-14'
-updated: '2023-04-29'
-version: '1.1.1'
+released: 2022-02-14
+updated: 2023-04-29
+version: 1.1.1
 stars: 4.7
 ratings: 
 reviews: 12
-size: 
-website: 'https://mrweb.app'
+website: https://mrweb.app
 repository: 
 issue: 
-icon: 'mrweb.mobile.mrweb.png'
+icon: mrweb.mobile.mrweb.png
 bugbounty: 
-meta: 'stale'
-verdict: 'nobtc'
+meta: stale
+verdict: nobtc
 appHashes: 
-date: '2024-04-24'
+date: 2024-04-24
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'mrweb finance'
+developerName: mrweb finance
 features: 
 
 ---

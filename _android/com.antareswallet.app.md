@@ -1,34 +1,33 @@
 ---
-wsId: 'AntaresWallet'
-title: 'Antares Wallet'
+wsId: AntaresWallet
+title: Antares Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.antareswallet.app'
-appCountry: 'us'
-released: '2021-03-18'
-updated: '2021-03-22'
-version: '0.9.5+205'
+appId: com.antareswallet.app
+appCountry: us
+released: 2021-03-18
+updated: 2021-03-22
+version: 0.9.5+205
 stars: 
 ratings: 48
 reviews: 
-size: 
-website: 'https://antareswallet.com/'
+website: https://antareswallet.com/
 repository: 
 issue: 
-icon: 'com.antareswallet.app.jpg'
+icon: com.antareswallet.app.jpg
 bugbounty: 
-meta: 'defunct'
-verdict: 'wip'
+meta: defunct
+verdict: wip
 appHashes: 
-date: '2021-11-08'
+date: 2021-11-08
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Online Invest'
+developerName: Online Invest
 features: 
 
 ---

@@ -7,12 +7,11 @@ authors:
 appId: com.swipe.wallet
 appCountry: 
 idd: 1476726454
-released: '2019-09-10'
-updated: '2021-05-07'
+released: 2019-09-10
+updated: 2021-05-07
 version: '1.900'
 stars: 4.6
 reviews: 939
-size: 142593024
 website: https://swipe.io
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2021-07-06'
+date: 2021-07-06
 signer: 
 reviewArchive: 
 twitter: SwipeWallet

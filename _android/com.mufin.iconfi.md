@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: 'GROW - Make Crypto Simple'
+title: GROW - Make Crypto Simple
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.mufin.iconfi'
+appId: com.mufin.iconfi
 appCountry: 
-released: '2021-01-27'
+released: 2021-01-27
 updated: 2023-01-09
-version: '1.2.2'
+version: 1.2.2
 stars: 4.4
 ratings: 220
 reviews: 27
-website: 'https://www.grow3.io'
+website: https://www.grow3.io
 repository: 
 issue: 
-icon: 'com.mufin.iconfi.png'
+icon: com.mufin.iconfi.png
 bugbounty: 
-meta: 'obsolete'
-verdict: 'custodial'
+meta: obsolete
+verdict: custodial
 appHashes: 
-date: '2024-12-31'
+date: 2024-12-31
 signer: 
 reviewArchive: 
-twitter: 'ICONFiWorld'
+twitter: ICONFiWorld
 social: 
 redirect_from: 
-developerName: 'UFI PTE. LTD.'
+developerName: UFI PTE. LTD.
 features: 
 
 ---

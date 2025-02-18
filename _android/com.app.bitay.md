@@ -1,34 +1,34 @@
 ---
-wsId: 'bitay'
-title: 'Bitay | Bitcoin & 200+ Altcoin'
+wsId: bitay
+title: Bitay | Bitcoin & 200+ Altcoin
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.app.bitay'
-appCountry: 'us'
-released: '2019-04-15'
+appId: com.app.bitay
+appCountry: us
+released: 2019-04-15
 updated: 2023-11-21
-version: '3.1.29'
+version: 3.1.29
 stars: 3.5
 ratings: 5765
 reviews: 11
-website: 'https://bitay.com.tr'
+website: https://bitay.com.tr
 repository: 
 issue: 
-icon: 'com.app.bitay.png'
+icon: com.app.bitay.png
 bugbounty: 
-meta: 'stale'
-verdict: 'custodial'
+meta: stale
+verdict: custodial
 appHashes: 
-date: '2024-11-19'
+date: 2024-11-19
 signer: 
 reviewArchive: 
-twitter: 'BitayTurkiye'
+twitter: BitayTurkiye
 social:
-- 'https://www.facebook.com/bitayturkiye'
+- https://www.facebook.com/bitayturkiye
 redirect_from: 
-developerName: 'Bitay Technology'
+developerName: Bitay Technology
 features: 
 
 ---

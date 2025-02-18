@@ -3,7 +3,7 @@ title: Census Tangem Smartcard
 appId: census.tangem.smartcard
 authors:
 - danny
-released: '2020-06-19'
+released: 2020-06-19
 discontinued: 
 updated: 
 version: 
@@ -26,7 +26,7 @@ bugbounty:
 meta: defunct
 verdict: noita
 appHashes: 
-date: '2022-05-03'
+date: 2022-05-03
 signer: 
 reviewArchive: 
 twitter: 

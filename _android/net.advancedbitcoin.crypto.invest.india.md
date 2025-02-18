@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Crypto Invest India'
+title: Crypto Invest India
 altTitle: 
 authors: 
 users: 0
-appId: 'net.advancedbitcoin.crypto.invest.india'
+appId: net.advancedbitcoin.crypto.invest.india
 appCountry: 
-released: '2021-06-24'
-updated: '2021-06-24'
+released: 2021-06-24
+updated: 2021-06-24
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: '2.2M'
 website: 
 repository: 
 issue: 
-icon: 'net.advancedbitcoin.crypto.invest.india.png'
+icon: net.advancedbitcoin.crypto.invest.india.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2021-10-01'
+date: 2021-10-01
 signer: 
 reviewArchive: 
 twitter: 

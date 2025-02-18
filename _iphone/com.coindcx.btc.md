@@ -7,12 +7,11 @@ authors:
 appId: com.coindcx.btc
 appCountry: in
 idd: 1517787269
-released: '2020-12-09'
-updated: '2025-02-12'
-version: '7.00.0001'
+released: 2020-12-09
+updated: 2025-02-12
+version: 7.00.0001
 stars: 4.2
-reviews: 34484
-size: '243322880'
+reviews: 34647
 website: https://coindcx.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty: https://coindcx.com/bug-bounty
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2024-10-07'
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: coindcx

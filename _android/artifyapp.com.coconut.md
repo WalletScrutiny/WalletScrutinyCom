@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'MELONA for BitMEX'
+title: MELONA for BitMEX
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'artifyapp.com.coconut'
+appId: artifyapp.com.coconut
 appCountry: 
-released: '2018-07-05'
-updated: '2018-10-22'
-version: '1.1.1'
+released: 2018-07-05
+updated: 2018-10-22
+version: 1.1.1
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'http://www.melona.app'
+website: http://www.melona.app
 repository: 
 issue: 
-icon: 'artifyapp.com.coconut.png'
+icon: artifyapp.com.coconut.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Artify Inc.'
+developerName: Artify Inc.
 features: 
 
 ---

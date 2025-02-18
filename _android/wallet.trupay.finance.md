@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Trupay wallet'
+title: Trupay wallet
 altTitle: 
 authors: 
 users: 100
-appId: 'wallet.trupay.finance'
+appId: wallet.trupay.finance
 appCountry: 
 released: 
-updated: '2021-07-04'
-version: 'VARY'
+updated: 2021-07-04
+version: VARY
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'http://trupay.finance'
+website: http://trupay.finance
 repository: 
 issue: 
-icon: 'wallet.trupay.finance.png'
+icon: wallet.trupay.finance.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-07-05'
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'intrXn Technolabs Pvt Ltd'
+developerName: intrXn Technolabs Pvt Ltd
 features: 
 
 ---

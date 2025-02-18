@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'thisAppBudget'
+title: thisAppBudget
 altTitle: 
 authors: 
 users: 1000
-appId: 'io.thisapp'
+appId: io.thisapp
 appCountry: 
-released: '2018-09-27'
-updated: '2024-10-19'
-version: '1.4.0'
+released: 2018-09-27
+updated: 2024-10-19
+version: 1.4.0
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://thisapp.io'
+website: https://thisapp.io
 repository: 
 issue: 
-icon: 'io.thisapp.png'
+icon: io.thisapp.png
 bugbounty: 
-meta: 'ok'
-verdict: 'wip'
+meta: ok
+verdict: wip
 appHashes: 
-date: '2022-06-22'
+date: 2022-06-22
 signer: 
 reviewArchive: 
 twitter: 

@@ -7,12 +7,11 @@ authors:
 appId: com.capitalJ.onJuno
 appCountry: us
 idd: '1525858971'
-released: '2021-02-13'
-updated: '2024-11-12'
-version: '4.3.0'
+released: 2021-02-13
+updated: 2024-11-12
+version: 4.3.0
 stars: 3.5
 reviews: 1010
-size: '331895808'
 website: https://juno.finance
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2024-12-23'
+date: 2024-12-23
 signer: 
 reviewArchive: 
 twitter: JunoFinanceHQ

@@ -1,36 +1,35 @@
 ---
 wsId: 
-title: 'XZEN — Bitcoin Wallet and Exchange'
+title: XZEN — Bitcoin Wallet and Exchange
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 5000
-appId: 'com.xzen.wallet'
+appId: com.xzen.wallet
 appCountry: 
-released: '2018-12-25'
-updated: '2019-09-19'
-version: '1.2.6.0'
+released: 2018-12-25
+updated: 2019-09-19
+version: 1.2.6.0
 stars: 3.7
 ratings: 42
 reviews: 31
-size: '26M'
-website: 'http://www.xzen.io/app'
+website: http://www.xzen.io/app
 repository: 
 issue: 
-icon: 'com.xzen.wallet.png'
+icon: com.xzen.wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2021-05-15'
+date: 2021-05-15
 signer: 
 reviewArchive: 
-twitter: 'XZENwallet'
+twitter: XZENwallet
 social:
-- 'https://www.facebook.com/xzenwallet'
+- https://www.facebook.com/xzenwallet
 redirect_from:
-- '/com.xzen.wallet/'
-- '/posts/com.xzen.wallet/'
+- /com.xzen.wallet/
+- /posts/com.xzen.wallet/
 developerName: 
 features: 
 

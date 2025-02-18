@@ -1,35 +1,35 @@
 ---
-wsId: 'vita'
-title: 'Vita Wallet'
+wsId: vita
+title: Vita Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.vita_wallet'
-appCountry: 'cl'
-released: '2019-10-16'
+appId: com.vita_wallet
+appCountry: cl
+released: 2019-10-16
 updated: 2025-02-06
-version: '6.4.7'
+version: 6.4.7
 stars: 4.7
 ratings: 458
-reviews: 731
-website: 'https://vitawallet.io/'
+reviews: 733
+website: https://vitawallet.io/
 repository: 
 issue: 
-icon: 'com.vita_wallet.png'
+icon: com.vita_wallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-10-04'
+date: 2021-10-04
 signer: 
 reviewArchive: 
-twitter: 'vitawallet'
+twitter: vitawallet
 social:
-- 'https://www.linkedin.com/company/vita-wallet'
-- 'https://www.facebook.com/vitawallet'
+- https://www.linkedin.com/company/vita-wallet
+- https://www.facebook.com/vitawallet
 redirect_from: 
-developerName: 'Vita Solutions SpA'
+developerName: Vita Solutions SpA
 features: 
 
 ---

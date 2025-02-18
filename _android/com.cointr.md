@@ -1,37 +1,37 @@
 ---
-wsId: 'coinTR'
-title: 'CoinTR | Buy BTC & Crypto'
+wsId: coinTR
+title: CoinTR | Buy BTC & Crypto
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.cointr'
+appId: com.cointr
 appCountry: 
-released: '2022-08-17'
+released: 2022-08-17
 updated: 2025-02-13
-version: '3.1.20'
+version: 3.1.20
 stars: 3.4
 ratings: 
 reviews: 7
-website: 'https://support.cointr.com'
+website: https://support.cointr.com
 repository: 
 issue: 
-icon: 'com.cointr.jpg'
+icon: com.cointr.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-08-19'
+date: 2023-08-19
 signer: 
 reviewArchive: 
-twitter: 'CoinTRTurkiye'
+twitter: CoinTRTurkiye
 social:
-- 'https://t.me/CoinTRTurkiye'
-- 'https://www.instagram.com/cointrturkiye'
-- 'https://www.facebook.com/profile.php?id=100083113521452'
-- 'https://www.youtube.com/channel/UCU2wOPdZ9mT2g3S2_wQcQQw'
+- https://t.me/CoinTRTurkiye
+- https://www.instagram.com/cointrturkiye
+- https://www.facebook.com/profile.php?id=100083113521452
+- https://www.youtube.com/channel/UCU2wOPdZ9mT2g3S2_wQcQQw
 redirect_from: 
-developerName: 'CoinTR'
+developerName: CoinTR
 features: 
 
 ---

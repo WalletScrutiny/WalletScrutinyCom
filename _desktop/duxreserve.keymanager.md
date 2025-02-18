@@ -3,7 +3,7 @@ title: Dux Reserve Key Manager
 appId: duxreserve.keymanager
 authors:
 - danny
-released: '2021-05-18'
+released: 2021-05-18
 discontinued: 
 updated: 
 version: 
@@ -17,7 +17,7 @@ icon: duxreserve.keymanager.png
 bugbounty: 
 meta: ok
 verdict: unreleased
-date: '2024-04-25'
+date: 2024-04-25
 reviewArchive: 
 twitter: DuxReserve
 social:

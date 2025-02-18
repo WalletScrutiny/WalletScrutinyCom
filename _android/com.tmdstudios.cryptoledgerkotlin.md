@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Crypto Ledger'
+title: Crypto Ledger
 altTitle: 
 authors: 
 users: 100
-appId: 'com.tmdstudios.cryptoledgerkotlin'
+appId: com.tmdstudios.cryptoledgerkotlin
 appCountry: 
 released: 
-updated: '2022-12-27'
-version: 'VARY'
+updated: 2022-12-27
+version: VARY
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://tmdstudios.wordpress.com/'
+website: https://tmdstudios.wordpress.com/
 repository: 
 issue: 
-icon: 'com.tmdstudios.cryptoledgerkotlin.png'
+icon: com.tmdstudios.cryptoledgerkotlin.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2025-02-13'
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'TMD Studios'
+developerName: TMD Studios
 features: 
 
 ---

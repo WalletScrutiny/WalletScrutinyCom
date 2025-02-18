@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Crypto Invest App'
+title: Crypto Invest App
 altTitle: 
 authors: 
 users: 1
-appId: 'net.xxxcoinnowfree.crypto.invest.app'
+appId: net.xxxcoinnowfree.crypto.invest.app
 appCountry: 
-released: '2021-07-22'
-updated: '2021-07-22'
+released: 2021-07-22
+updated: 2021-07-22
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: '2.3M'
 website: 
 repository: 
 issue: 
-icon: 'net.xxxcoinnowfree.crypto.invest.app.jpg'
+icon: net.xxxcoinnowfree.crypto.invest.app.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2021-10-01'
+date: 2021-10-01
 signer: 
 reviewArchive: 
 twitter: 

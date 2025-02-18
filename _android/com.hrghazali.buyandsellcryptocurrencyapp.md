@@ -1,32 +1,32 @@
 ---
 wsId: 
-title: 'Buy & Sell Cryptocurrency'
+title: Buy & Sell Cryptocurrency
 altTitle: 
 authors: 
 users: 100
-appId: 'com.hrghazali.buyandsellcryptocurrencyapp'
+appId: com.hrghazali.buyandsellcryptocurrencyapp
 appCountry: 
-released: '2021-07-24'
+released: 2021-07-24
 updated: 2023-02-27
-version: '1.0.2'
+version: 1.0.2
 stars: 
 ratings: 
 reviews: 
 website: 
 repository: 
 issue: 
-icon: 'com.hrghazali.buyandsellcryptocurrencyapp.png'
+icon: com.hrghazali.buyandsellcryptocurrencyapp.png
 bugbounty: 
-meta: 'stale'
-verdict: 'fewusers'
+meta: obsolete
+verdict: fewusers
 appHashes: 
-date: '2024-02-24'
+date: 2025-02-18
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Islamic Books Urdu'
+developerName: Islamic Books Urdu
 features: 
 
 ---

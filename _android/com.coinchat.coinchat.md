@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Coinchat'
+title: Coinchat
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.coinchat.coinchat'
+appId: com.coinchat.coinchat
 appCountry: 
-released: '2018-05-20'
-updated: '2020-03-11'
-version: '2.0.2'
+released: 2018-05-20
+updated: 2020-03-11
+version: 2.0.2
 stars: 3.7
 ratings: 1190
 reviews: 29
-size: 
-website: 'http://www.coinchat.im'
+website: http://www.coinchat.im
 repository: 
 issue: 
-icon: 'com.coinchat.coinchat.png'
+icon: com.coinchat.coinchat.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2023-06-01'
+date: 2023-06-01
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Biliao Foundation Ltd.'
+developerName: Biliao Foundation Ltd.
 features: 
 
 ---

@@ -1,34 +1,34 @@
 ---
-wsId: 'uniswap'
+wsId: uniswap
 title: 'Uniswap: Crypto & NFT Wallet'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000000
-appId: 'com.uniswap.mobile'
+appId: com.uniswap.mobile
 appCountry: 
-released: '2023-10-30'
+released: 2023-10-30
 updated: 2025-02-11
-version: '1.45.2'
+version: 1.45.2
 stars: 4.7
 ratings: 
-reviews: 425
-website: 'https://wallet.uniswap.org'
+reviews: 429
+website: https://wallet.uniswap.org
 repository: 
 issue: 
-icon: 'com.uniswap.mobile.png'
+icon: com.uniswap.mobile.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nobtc'
+meta: ok
+verdict: nobtc
 appHashes: 
-date: '2024-09-05'
+date: 2024-09-05
 signer: 
 reviewArchive: 
-twitter: 'uniswap'
+twitter: uniswap
 social:
-- 'https://discord.com/invite/FCfyBSbCU5'
+- https://discord.com/invite/FCfyBSbCU5
 redirect_from: 
-developerName: 'Uniswap by Uniswap Labs'
+developerName: Uniswap by Uniswap Labs
 features: 
 
 ---

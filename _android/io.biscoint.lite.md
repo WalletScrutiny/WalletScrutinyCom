@@ -1,34 +1,34 @@
 ---
-wsId: 'biscoint'
+wsId: biscoint
 title: 'Bitybank: Bitcoin e Crypto'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'io.biscoint.lite'
+appId: io.biscoint.lite
 appCountry: 
-released: '2022-04-05'
+released: 2022-04-05
 updated: 2025-02-12
-version: '2.7.11'
+version: 2.7.12
 stars: 4.8
 ratings: 
 reviews: 4
-website: 'https://www.bity.com.br/policies/'
+website: https://www.bity.com.br/policies/
 repository: 
 issue: 
-icon: 'io.biscoint.lite.png'
+icon: io.biscoint.lite.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosendreceive'
+meta: ok
+verdict: nosendreceive
 appHashes: 
-date: '2023-03-02'
+date: 2023-03-02
 signer: 
 reviewArchive: 
-twitter: 'BityOficial'
+twitter: BityOficial
 social:
-- 'https://www.facebook.com/bitybankoficial'
+- https://www.facebook.com/bitybankoficial
 redirect_from: 
-developerName: 'bity.com.br'
+developerName: bity.com.br
 features: 
 
 ---

@@ -1,29 +1,28 @@
 ---
 wsId: 
-title: 'Exodus Bitcoin & Ethereum- Crypto Exchange'
-altTitle: '(Fake) Exodus Bitcoin & Ethereum- Crypto Exchange'
+title: Exodus Bitcoin & Ethereum- Crypto Exchange
+altTitle: (Fake) Exodus Bitcoin & Ethereum- Crypto Exchange
 authors:
-- 'emanuel'
-- 'leo'
+- emanuel
+- leo
 users: 100
-appId: 'com.edhnbus.wxcgr'
+appId: com.edhnbus.wxcgr
 appCountry: 
-released: '2021-07-21'
-updated: '2021-07-21'
+released: 2021-07-21
+updated: 2021-07-21
 version: '0.92'
 stars: 
 ratings: 
 reviews: 
-size: '10M'
 website: 
 repository: 
 issue: 
-icon: 'com.edhnbus.wxcgr.png'
+icon: com.edhnbus.wxcgr.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fake'
+meta: removed
+verdict: fake
 appHashes: 
-date: '2021-08-08'
+date: 2021-08-08
 signer: 
 reviewArchive: 
 twitter: 

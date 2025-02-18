@@ -1,35 +1,35 @@
 ---
-wsId: 'OceanEX'
-title: 'OceanEx'
+wsId: OceanEX
+title: OceanEx
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.ocean.exchange'
-appCountry: 'us'
-released: '2019-07-04'
+appId: com.ocean.exchange
+appCountry: us
+released: 2019-07-04
 updated: 2023-08-24
-version: '2.0.4'
+version: 2.0.4
 stars: 4.1
 ratings: 159
 reviews: 15
-website: 'https://oceanex.pro'
+website: https://oceanex.pro
 repository: 
 issue: 
-icon: 'com.ocean.exchange.png'
+icon: com.ocean.exchange.png
 bugbounty: 
-meta: 'stale'
-verdict: 'custodial'
+meta: stale
+verdict: custodial
 appHashes: 
-date: '2024-08-19'
+date: 2024-08-19
 signer: 
 reviewArchive: 
-twitter: 'OceanexOfficial'
+twitter: OceanexOfficial
 social:
-- 'https://www.facebook.com/OceanExPROOfficial'
-- 'https://www.reddit.com/r/OceanExOfficial'
+- https://www.facebook.com/OceanExPROOfficial
+- https://www.reddit.com/r/OceanExOfficial
 redirect_from: 
-developerName: 'OceanEx Limited'
+developerName: OceanEx Limited
 features: 
 
 ---

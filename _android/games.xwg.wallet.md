@@ -1,35 +1,35 @@
 ---
 wsId: 
-title: 'X Wallet'
+title: X Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'games.xwg.wallet'
+appId: games.xwg.wallet
 appCountry: 
-released: '2022-07-04'
+released: 2022-07-04
 updated: 2023-09-25
-version: '1.1.1'
+version: 1.1.1
 stars: 4
 ratings: 
 reviews: 
-website: 'https://xwg.games'
+website: https://xwg.games
 repository: 
 issue: 
-icon: 'games.xwg.wallet.png'
+icon: games.xwg.wallet.png
 bugbounty: 
-meta: 'stale'
-verdict: 'nobtc'
+meta: stale
+verdict: nobtc
 appHashes: 
-date: '2024-09-20'
+date: 2024-09-20
 signer: 
 reviewArchive: 
-twitter: 'xwg_games'
+twitter: xwg_games
 social:
-- 'https://medium.com/x-world-games'
-- 'https://github.com/XWorldGames'
+- https://medium.com/x-world-games
+- https://github.com/XWorldGames
 redirect_from: 
-developerName: 'XWG Technology'
+developerName: XWG Technology
 features: 
 
 ---

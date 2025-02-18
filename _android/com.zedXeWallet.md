@@ -1,40 +1,39 @@
 ---
 wsId: 
-title: 'ZedXe Wallet'
+title: ZedXe Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.zedXeWallet'
+appId: com.zedXeWallet
 appCountry: 
-released: '2020-05-07'
-updated: '2020-06-11'
+released: 2020-05-07
+updated: 2020-06-11
 version: '1.8'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.zedxe.com'
+website: https://www.zedxe.com
 repository: 
 issue: 
-icon: 'com.zedXeWallet.png'
+icon: com.zedXeWallet.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'nosource'
+meta: defunct
+verdict: nosource
 appHashes: 
-date: '2023-06-12'
+date: 2023-06-12
 signer: 
 reviewArchive: 
-twitter: 'Zed_Xe'
+twitter: Zed_Xe
 social:
-- 'https://www.facebook.com/ZedXe'
-- 'https://www.reddit.com/user/ZedXe'
-- 'https://www.linkedin.com/in/zedxe-exchange-490576168'
-- 'https://www.youtube.com/c/ZedXe'
-- 'https://www.instagram.com/Zed_Xe'
-- 'https://t.me/ZedXe'
+- https://www.facebook.com/ZedXe
+- https://www.reddit.com/user/ZedXe
+- https://www.linkedin.com/in/zedxe-exchange-490576168
+- https://www.youtube.com/c/ZedXe
+- https://www.instagram.com/Zed_Xe
+- https://t.me/ZedXe
 redirect_from: 
-developerName: 'Zuf Info Tech, LDA'
+developerName: Zuf Info Tech, LDA
 features: 
 
 ---

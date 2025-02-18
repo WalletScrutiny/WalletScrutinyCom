@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Tippin'
+title: Tippin
 altTitle: 
 authors: 
 users: 500
-appId: 'co.tippin.android.wallet'
+appId: co.tippin.android.wallet
 appCountry: 
 released: 
-updated: '2019-10-22'
-version: 'Varies with device'
+updated: 2019-10-22
+version: Varies with device
 stars: 
 ratings: 
 reviews: 
-size: 'Varies with device'
 website: 
 repository: 
 issue: 
-icon: 'co.tippin.android.wallet.png'
+icon: co.tippin.android.wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2021-10-15'
+date: 2021-10-15
 signer: 
 reviewArchive: 
 twitter: 

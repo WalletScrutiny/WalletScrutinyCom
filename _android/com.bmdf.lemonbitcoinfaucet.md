@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: 'Lemon Bitcoin Faucet'
+title: Lemon Bitcoin Faucet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.bmdf.lemonbitcoinfaucet'
+appId: com.bmdf.lemonbitcoinfaucet
 appCountry: 
-released: '2022-07-05'
+released: 2022-07-05
 updated: 2024-11-15
-version: '4.1.0'
+version: 4.1.0
 stars: 3.9
 ratings: 
-reviews: 13
-website: 'https://needbux.com/app-ads.txt'
+reviews: 14
+website: https://needbux.com/app-ads.txt
 repository: 
 issue: 
-icon: 'com.bmdf.lemonbitcoinfaucet.png'
+icon: com.bmdf.lemonbitcoinfaucet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2023-07-21'
+date: 2023-07-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'BMDF'
+developerName: BMDF
 features: 
 
 ---

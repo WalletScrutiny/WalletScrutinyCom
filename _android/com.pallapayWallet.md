@@ -1,36 +1,35 @@
 ---
-wsId: 'pallapay'
-title: 'Pallapay Wallet'
+wsId: pallapay
+title: Pallapay Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.pallapayWallet'
+appId: com.pallapayWallet
 appCountry: 
-released: '2021-10-06'
-updated: '2022-03-02'
+released: 2021-10-06
+updated: 2022-03-02
 version: '1.3'
 stars: 
 ratings: 
 reviews: 
-size: '16M'
-website: 'https://www.pallapay.com/'
+website: https://www.pallapay.com/
 repository: 
 issue: 
-icon: 'com.pallapayWallet.png'
+icon: com.pallapayWallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2022-05-31'
+date: 2022-05-31
 signer: 
 reviewArchive: 
-twitter: 'pallapay_com'
+twitter: pallapay_com
 social:
-- 'https://www.linkedin.com/company/pallapay/'
-- 'https://www.instagram.com/pallapay/'
-- 'https://www.youtube.com/channel/UCX4X0XYn89ziMVDsUHWr77Q'
-- 'https://t.me/pallapay_channel'
+- https://www.linkedin.com/company/pallapay/
+- https://www.instagram.com/pallapay/
+- https://www.youtube.com/channel/UCX4X0XYn89ziMVDsUHWr77Q
+- https://t.me/pallapay_channel
 redirect_from: 
 developerName: 
 features: 

@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: '프로비트 - 가상자산 거래소 (비트코인,이더리움,리플)'
+title: 프로비트 - 가상자산 거래소 (비트코인,이더리움,리플)
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.probit.app.android2.release.korea'
+appId: com.probit.app.android2.release.korea
 appCountry: 
-released: '2019-06-19'
-updated: '2024-03-15'
-version: '2.0.21'
+released: 2019-06-19
+updated: 2024-03-15
+version: 2.0.21
 stars: 3.5
 ratings: 375
 reviews: 8
-size: 
-website: 'https://www.probit.kr'
+website: https://www.probit.kr
 repository: 
 issue: 
-icon: 'com.probit.app.android2.release.korea.png'
+icon: com.probit.app.android2.release.korea.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-05-07'
+date: 2024-05-07
 signer: 
 reviewArchive: 
-twitter: 'ProBit_Exchange'
+twitter: ProBit_Exchange
 social:
-- 'https://www.facebook.com/probitexchange'
+- https://www.facebook.com/probitexchange
 redirect_from: 
-developerName: 'Oceans Inc'
+developerName: Oceans Inc
 features: 
 
 ---

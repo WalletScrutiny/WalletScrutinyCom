@@ -1,36 +1,36 @@
 ---
 wsId: 
-title: 'Biport Multichain CryptoWallet'
+title: Biport Multichain CryptoWallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.pilab.biport'
+appId: com.pilab.biport
 appCountry: 
-released: '2023-02-09'
+released: 2023-02-09
 updated: 2024-10-08
 version: '0.44'
 stars: 4
 ratings: 
 reviews: 8
-website: 'https://pilab.co'
+website: https://pilab.co
 repository: 
 issue: 
-icon: 'com.pilab.biport.png'
+icon: com.pilab.biport.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-24'
+date: 2024-07-24
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://t.me/Bifrost_Global'
-- 'https://www.youtube.com/c/Bifrost_BFC'
-- 'https://medium.com/bifrost/how-to-buy-bfc-and-bifi-a21bcb9749a9'
+- https://t.me/Bifrost_Global
+- https://www.youtube.com/c/Bifrost_BFC
+- https://medium.com/bifrost/how-to-buy-bfc-and-bifi-a21bcb9749a9
 redirect_from: 
-developerName: 'PiLab Technology'
+developerName: PiLab Technology
 features: 
 
 ---

@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Hubkoin'
+title: Hubkoin
 altTitle: 
 authors: 
 users: 100
-appId: 'com.hashcash.hubkoin'
+appId: com.hashcash.hubkoin
 appCountry: 
-released: '2022-04-11'
-updated: '2023-02-16'
-version: '1.0.4'
+released: 2022-04-11
+updated: 2023-02-16
+version: 1.0.4
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.hashcash.hubkoin.png'
+icon: com.hashcash.hubkoin.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-08-04'
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Hubkoin'
+developerName: Hubkoin
 features: 
 
 ---

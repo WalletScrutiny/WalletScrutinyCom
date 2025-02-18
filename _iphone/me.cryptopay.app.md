@@ -6,12 +6,11 @@ authors:
 appId: me.cryptopay.app
 appCountry: de
 idd: 1223340174
-released: '2017-06-08'
-updated: '2025-02-11'
-version: '1.76.3'
+released: 2017-06-08
+updated: 2025-02-11
+version: 1.76.3
 stars: 4.5
 reviews: 335
-size: '213038080'
 website: https://cryptopay.me/
 repository: 
 issue: 
@@ -20,7 +19,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2021-03-10'
+date: 2021-03-10
 signer: 
 reviewArchive: 
 twitter: cryptopay

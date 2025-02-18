@@ -1,31 +1,30 @@
 ---
-wsId: 'nordFX'
-title: 'NordFX | Investing app'
+wsId: nordFX
+title: NordFX | Investing app
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.nordfx'
-appCountry: 'lv'
-released: '2021-02-28'
-updated: '2022-05-24'
+appId: com.nordfx
+appCountry: lv
+released: 2021-02-28
+updated: 2022-05-24
 version: '15'
 stars: 4.1
 ratings: 154
 reviews: 43
-size: 
-website: 'http://nordfx.com'
+website: http://nordfx.com
 repository: 
 issue: 
-icon: 'com.nordfx.png'
+icon: com.nordfx.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosendreceive'
+meta: removed
+verdict: nosendreceive
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
-twitter: 'NordFX'
+twitter: NordFX
 social: 
 redirect_from: 
 developerName: 

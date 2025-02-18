@@ -7,12 +7,11 @@ authors:
 appId: wirebit.digital.app
 appCountry: dz
 idd: '1563970813'
-released: '2021-09-01'
-updated: '2023-08-24'
-version: '1.12.3'
+released: 2021-09-01
+updated: 2023-08-24
+version: 1.12.3
 stars: 0
 reviews: 0
-size: '27229184'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: stale
 verdict: custodial
 appHashes: 
-date: '2024-08-19'
+date: 2024-08-19
 signer: 
 reviewArchive: 
 twitter: 

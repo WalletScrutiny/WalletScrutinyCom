@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'SBG GLOBAL'
+title: SBG GLOBAL
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.club.sbgame'
+appId: com.club.sbgame
 appCountry: 
-released: '2022-02-01'
-updated: '2023-04-05'
+released: 2022-02-01
+updated: 2023-04-05
 version: '8.0'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://sbgame.club'
+website: https://sbgame.club
 repository: 
 issue: 
-icon: 'com.club.sbgame.jpg'
+icon: com.club.sbgame.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'nobtc'
+meta: removed
+verdict: nobtc
 appHashes: 
-date: '2025-02-04'
+date: 2025-02-04
 signer: 
 reviewArchive: 
-twitter: 'sbg_global'
+twitter: sbg_global
 social: 
 redirect_from: 
-developerName: 'SBG GLOBAL'
+developerName: SBG GLOBAL
 features: 
 
 ---

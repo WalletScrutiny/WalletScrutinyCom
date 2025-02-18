@@ -1,35 +1,35 @@
 ---
 wsId: 
-title: 'Vivid Business and Personal'
+title: Vivid Business and Personal
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000000
-appId: 'vivid.money'
+appId: vivid.money
 appCountry: 
-released: '2020-10-09'
-updated: 2025-02-11
-version: '3.51.0'
+released: 2020-10-09
+updated: 2025-02-14
+version: 3.51.1
 stars: 2.7
 ratings: 
 reviews: 8
-website: 'https://vivid.money/'
+website: https://vivid.money/
 repository: 
 issue: 
-icon: 'vivid.money.png'
+icon: vivid.money.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosendreceive'
+meta: ok
+verdict: nosendreceive
 appHashes: 
-date: '2021-08-21'
+date: 2021-08-21
 signer: 
 reviewArchive: 
-twitter: 'vivid_en'
+twitter: vivid_en
 social:
-- 'https://www.linkedin.com/company/vividmoney'
-- 'https://www.facebook.com/vivid.money.en'
+- https://www.linkedin.com/company/vividmoney
+- https://www.facebook.com/vivid.money.en
 redirect_from: 
-developerName: 'Vivid Money GmbH'
+developerName: Vivid Money GmbH
 features: 
 
 ---

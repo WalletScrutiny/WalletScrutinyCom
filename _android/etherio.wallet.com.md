@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Etherio'
+title: Etherio
 altTitle: '(Fake) Bitorzo Crypto & Bitcoin Wallet: Buy, Earn & Trade'
 authors: 
 users: 10
-appId: 'etherio.wallet.com'
+appId: etherio.wallet.com
 appCountry: 
-released: '2021-04-28'
-updated: '2021-04-28'
-version: '3.30.1'
+released: 2021-04-28
+updated: 2021-04-28
+version: 3.30.1
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://etherio.org'
+website: https://etherio.org
 repository: 
 issue: 
-icon: 'etherio.wallet.com.png'
+icon: etherio.wallet.com.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fake'
+meta: removed
+verdict: fake
 appHashes: 
-date: '2023-10-16'
+date: 2023-10-16
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'PayLink'
+developerName: PayLink
 features: 
 
 ---

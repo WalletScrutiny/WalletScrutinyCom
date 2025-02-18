@@ -7,12 +7,11 @@ authors:
 appId: io.hashkey.hub
 appCountry: us
 idd: '1459483702'
-released: '2019-04-17'
-updated: '2022-03-17'
-version: '4.0.0'
+released: 2019-04-17
+updated: 2022-03-17
+version: 4.0.0
 stars: 4.9
 reviews: 8
-size: '102669312'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: wip
 appHashes: 
-date: '2023-05-26'
+date: 2023-05-26
 signer: 
 reviewArchive: 
 twitter: HashkeyHub

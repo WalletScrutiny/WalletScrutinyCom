@@ -1,34 +1,33 @@
 ---
-wsId: '100xaltbase'
+wsId: 100xaltbase
 title: '100xAltbase: Buy Crypto Altcoins, Altcoin Exchange'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.xaltbase.app'
-appCountry: 'us'
-released: '2021-05-31'
-updated: '2021-11-18'
-version: '3.0.5'
+appId: com.xaltbase.app
+appCountry: us
+released: 2021-05-31
+updated: 2021-11-18
+version: 3.0.5
 stars: 3
 ratings: 3579
 reviews: 2580
-size: '17M'
-website: 'https://www.100xcoin.io/'
+website: https://www.100xcoin.io/
 repository: 
 issue: 
-icon: 'com.xaltbase.app.png'
+icon: com.xaltbase.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nobtc'
+meta: removed
+verdict: nobtc
 appHashes: 
-date: '2022-01-31'
+date: 2022-01-31
 signer: 
 reviewArchive: 
-twitter: '100XCoin_'
+twitter: 100XCoin_
 social:
-- 'https://www.linkedin.com/company/100xCoin'
-- 'https://www.facebook.com/100xcoinFB'
+- https://www.linkedin.com/company/100xCoin
+- https://www.facebook.com/100xcoinFB
 redirect_from: 
 developerName: 
 features: 

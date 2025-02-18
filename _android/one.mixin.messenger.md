@@ -1,42 +1,42 @@
 ---
-wsId: 'Mixin'
-title: 'Mixin Crypto Wallet Messenger'
+wsId: Mixin
+title: Mixin Crypto Wallet Messenger
 altTitle: 
 authors:
-- 'danny'
-- 'emanuel'
-- 'leo'
+- danny
+- emanuel
+- leo
 users: 50000
-appId: 'one.mixin.messenger'
-appCountry: 'us'
-released: '2018-05-24'
-updated: 2025-02-05
-version: '2.2.1'
+appId: one.mixin.messenger
+appCountry: us
+released: 2018-05-24
+updated: 2025-02-14
+version: 2.2.2
 stars: 4.4
 ratings: 1252
 reviews: 150
-website: 'https://mixin.one/messenger'
-repository: 'https://github.com/MixinNetwork/android-app'
-issue: 'https://github.com/MixinNetwork/android-app/issues/4980'
-icon: 'one.mixin.messenger.png'
+website: https://mixin.one/messenger
+repository: https://github.com/MixinNetwork/android-app
+issue: https://github.com/MixinNetwork/android-app/issues/4980
+icon: one.mixin.messenger.png
 bugbounty: 
-meta: 'ok'
-verdict: 'ftbfs'
+meta: ok
+verdict: ftbfs
 appHashes: []
-date: '2024-09-19'
+date: 2024-09-19
 signer: 
 reviewArchive:
-- date: '2021-10-18'
-  version: '0.32.6'
+- date: 2021-10-18
+  version: 0.32.6
   appHashes: []
-  gitRevision: '7145041114617ce3cbf596302a4fa7deb1a5df74'
-  verdict: 'ftbfs'
-twitter: 'MixinMessenger'
+  gitRevision: 7145041114617ce3cbf596302a4fa7deb1a5df74
+  verdict: ftbfs
+twitter: MixinMessenger
 social:
-- 'https://www.facebook.com/MixinNetwork'
-- 'https://www.reddit.com/r/mixin'
+- https://www.facebook.com/MixinNetwork
+- https://www.reddit.com/r/mixin
 redirect_from: 
-developerName: 'Mixin Ltd'
+developerName: Mixin Ltd
 features: 
 
 ---

@@ -8,12 +8,11 @@ authors:
 appId: com.xcoex.mobile
 appCountry: br
 idd: 1447945810
-released: '2019-01-21'
-updated: '2024-08-12'
-version: '1.44.0'
+released: 2019-01-21
+updated: 2024-08-12
+version: 1.44.0
 stars: 0
 reviews: 0
-size: '54387712'
 website: https://xcoex.com/
 repository: 
 issue: 
@@ -22,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2024-10-07'
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: OfficialXcoex

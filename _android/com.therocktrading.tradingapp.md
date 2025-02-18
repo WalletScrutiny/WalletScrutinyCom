@@ -1,34 +1,33 @@
 ---
-wsId: 'theRockTrading'
-title: 'TheRockTrading'
+wsId: theRockTrading
+title: TheRockTrading
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.therocktrading.tradingapp'
+appId: com.therocktrading.tradingapp
 appCountry: 
-released: '2018-10-29'
-updated: '2022-07-11'
-version: '1.6.1'
+released: 2018-10-29
+updated: 2022-07-11
+version: 1.6.1
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.therocktrading.com'
+website: https://www.therocktrading.com
 repository: 
 issue: 
-icon: 'com.therocktrading.tradingapp.png'
+icon: com.therocktrading.tradingapp.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'custodial'
+meta: defunct
+verdict: custodial
 appHashes: 
-date: '2023-07-21'
+date: 2023-07-21
 signer: 
 reviewArchive: 
-twitter: 'therocktrading'
+twitter: therocktrading
 social: 
 redirect_from: 
-developerName: 'The Rock Trading'
+developerName: The Rock Trading
 features: 
 
 ---

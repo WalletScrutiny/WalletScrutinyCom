@@ -1,34 +1,33 @@
 ---
-wsId: 'tokocrypto'
-title: 'Tokocrypto'
+wsId: tokocrypto
+title: Tokocrypto
 altTitle: 
 authors:
-- 'danny'
-- 'leo'
-appId: 'com.binanceCloudtoko.binance'
-appCountry: 'ph'
+- danny
+- leo
+appId: com.binanceCloudtoko.binance
+appCountry: ph
 idd: '1538556690'
-released: '2020-12-01'
-updated: '2022-10-15'
-version: '1.10.0'
+released: 2020-12-01
+updated: 2022-10-15
+version: 1.10.0
 stars: 5
 reviews: 1
-size: '117105664'
-website: 'https://www.tokocrypto.com'
+website: https://www.tokocrypto.com
 repository: 
 issue: 
-icon: 'com.binanceCloudtoko.binance.jpg'
+icon: com.binanceCloudtoko.binance.jpg
 bugbounty: 
-meta: 'defunct'
-verdict: 'custodial'
+meta: defunct
+verdict: custodial
 appHashes: 
-date: '2023-01-30'
+date: 2023-01-30
 signer: 
 reviewArchive: 
-twitter: 'tokocrypto'
+twitter: tokocrypto
 social:
-- 'https://www.linkedin.com/company/toko'
-- 'https://www.facebook.com/TCDXOfficial'
+- https://www.linkedin.com/company/toko
+- https://www.facebook.com/TCDXOfficial
 features: 
 developerName: 
 

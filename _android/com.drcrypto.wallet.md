@@ -3,26 +3,25 @@ wsId:
 title: 'BitSmart: Bitcoin, Ethereum, Blockchain Wallet'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.drcrypto.wallet'
+appId: com.drcrypto.wallet
 appCountry: 
-released: '2020-11-23'
-updated: '2021-10-21'
-version: '2.0.5'
+released: 2020-11-23
+updated: 2021-10-21
+version: 2.0.5
 stars: 2.7
 ratings: 72
 reviews: 64
-size: '64M'
 website: 
 repository: 
 issue: 
-icon: 'com.drcrypto.wallet.png'
+icon: com.drcrypto.wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2021-11-10'
+date: 2021-11-10
 signer: 
 reviewArchive: 
 twitter: 

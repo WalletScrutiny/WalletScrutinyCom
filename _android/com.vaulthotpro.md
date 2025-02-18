@@ -1,34 +1,33 @@
 ---
-wsId: 'CoboVault'
-title: 'Cobo Vault'
+wsId: CoboVault
+title: Cobo Vault
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.vaulthotpro'
-appCountry: 'us'
-released: '2020-03-30'
-updated: '2021-03-22'
-version: '2.2.6'
+appId: com.vaulthotpro
+appCountry: us
+released: 2020-03-30
+updated: 2021-03-22
+version: 2.2.6
 stars: 3.2
 ratings: 29
 reviews: 19
-size: '48M'
-website: 'https://cobo.com/'
-repository: 'https://github.com/CoboVault/cobo-vault-cold'
+website: https://cobo.com/
+repository: https://github.com/CoboVault/cobo-vault-cold
 issue: 
-icon: 'com.vaulthotpro.png'
+icon: com.vaulthotpro.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2021-11-26'
+date: 2021-11-26
 signer: 
 reviewArchive: 
-twitter: 'Cobo_Wallet'
+twitter: Cobo_Wallet
 social:
-- 'https://www.linkedin.com/company/cobo-official'
-- 'https://www.facebook.com/coboOfficial'
+- https://www.linkedin.com/company/cobo-official
+- https://www.facebook.com/coboOfficial
 redirect_from: 
 developerName: 
 features: 

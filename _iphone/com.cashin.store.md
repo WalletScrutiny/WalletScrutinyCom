@@ -7,12 +7,11 @@ authors:
 appId: com.cashin.store
 appCountry: gb
 idd: 1363753409
-released: '2018-08-15'
-updated: '2025-01-14'
+released: 2018-08-15
+updated: 2025-01-14
 version: '8.0'
 stars: 0
 reviews: 0
-size: '114970624'
 website: https://www.bcpmarkets.co.uk/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2021-11-17'
+date: 2021-11-17
 signer: 
 reviewArchive: 
 twitter: 

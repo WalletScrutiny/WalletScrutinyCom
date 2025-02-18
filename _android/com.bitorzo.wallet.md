@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: 'Bitcoin Wallet'
-altTitle: 'Bitcoin Wallet by Bitorzo.com'
+title: Bitcoin Wallet
+altTitle: Bitcoin Wallet by Bitorzo.com
 authors:
-- 'leo'
-- 'emanuel'
+- leo
+- emanuel
 users: 1000
-appId: 'com.bitorzo.wallet'
+appId: com.bitorzo.wallet
 appCountry: 
-released: '2020-07-22'
-updated: '2021-01-03'
-version: '3.1.3'
+released: 2020-07-22
+updated: 2021-01-03
+version: 3.1.3
 stars: 
 ratings: 28
 reviews: 
-size: 
-website: 'https://www.bitorzo.io'
-repository: 'https://github.com/Bitorzo/Bitorzo'
-issue: 'https://github.com/Bitorzo/Bitorzo/issues/2'
-icon: 'com.bitorzo.wallet.jpg'
+website: https://www.bitorzo.io
+repository: https://github.com/Bitorzo/Bitorzo
+issue: https://github.com/Bitorzo/Bitorzo/issues/2
+icon: com.bitorzo.wallet.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'ftbfs'
+meta: removed
+verdict: ftbfs
 appHashes: 
-date: '2024-03-02'
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Hodlers Team'
+developerName: Hodlers Team
 features: 
 
 ---

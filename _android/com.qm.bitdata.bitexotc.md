@@ -1,35 +1,35 @@
 ---
-wsId: 'bitdataExchange'
-title: 'BitDATA Exchange (BitEx)'
+wsId: bitdataExchange
+title: BitDATA Exchange (BitEx)
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.qm.bitdata.bitexotc'
+appId: com.qm.bitdata.bitexotc
 appCountry: 
-released: '2021-08-18'
+released: 2021-08-18
 updated: 2024-08-22
-version: '1.8.6'
+version: 1.8.6
 stars: 4
 ratings: 
 reviews: 
-website: 'https://www.bitex.sg/'
+website: https://www.bitex.sg/
 repository: 
 issue: 
-icon: 'com.qm.bitdata.bitexotc.png'
+icon: com.qm.bitdata.bitexotc.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-09-08'
+date: 2023-09-08
 signer: 
 reviewArchive: 
-twitter: 'BitDATAExchange'
+twitter: BitDATAExchange
 social:
-- 'https://www.linkedin.com/company/bitdataexchange'
-- 'https://www.facebook.com/BitDATAExchange/'
+- https://www.linkedin.com/company/bitdataexchange
+- https://www.facebook.com/BitDATAExchange/
 redirect_from: 
-developerName: 'BitDATA Exchange'
+developerName: BitDATA Exchange
 features: 
 
 ---

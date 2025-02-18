@@ -1,37 +1,37 @@
 ---
-wsId: 'byteWallet'
-title: 'ByteWallet'
+wsId: byteWallet
+title: ByteWallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'io.bytewallet.bytewallet'
+appId: io.bytewallet.bytewallet
 appCountry: 
-released: '2021-07-20'
+released: 2021-07-20
 updated: 2024-12-27
-version: 'VARY'
+version: VARY
 stars: 3.2
 ratings: 
 reviews: 47
-website: 'https://www.bytefederal.com'
+website: https://www.bytefederal.com
 repository: 
 issue: 
-icon: 'io.bytewallet.bytewallet.png'
+icon: io.bytewallet.bytewallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-22'
+date: 2024-07-22
 signer: 
 reviewArchive: 
-twitter: 'bytefederal'
+twitter: bytefederal
 social:
-- 'https://www.facebook.com/bytefederal'
-- 'https://www.instagram.com/bytefederalatm'
-- 'https://www.youtube.com/channel/UCozOzfZ0MgqLT_TA7hbNh4g'
-- 'https://www.linkedin.com/company/bytefederal'
+- https://www.facebook.com/bytefederal
+- https://www.instagram.com/bytefederalatm
+- https://www.youtube.com/channel/UCozOzfZ0MgqLT_TA7hbNh4g
+- https://www.linkedin.com/company/bytefederal
 redirect_from: 
-developerName: 'Byte Federal, Inc'
+developerName: Byte Federal, Inc
 features: 
 
 ---

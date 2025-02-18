@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: 'The Bitcoin Trader App'
+title: The Bitcoin Trader App
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.bitcoin_trader_932833.app'
+appId: com.bitcoin_trader_932833.app
 appCountry: 
-released: '2022-07-21'
-updated: '2022-07-21'
+released: 2022-07-21
+updated: 2022-07-21
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.bitcoin_trader_932833.app.jpg'
+icon: com.bitcoin_trader_932833.app.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'nosendreceive'
+meta: removed
+verdict: nosendreceive
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://the-bitcoin-traderapp.cyou'
+- https://the-bitcoin-traderapp.cyou
 redirect_from: 
-developerName: 'NISHANT MAHESH KHARE'
+developerName: NISHANT MAHESH KHARE
 features: 
 
 ---

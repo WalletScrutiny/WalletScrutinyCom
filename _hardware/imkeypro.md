@@ -3,7 +3,7 @@ title: imKey Pro
 appId: imkeypro
 authors:
 - danny
-released: '2020-02-28'
+released: 2020-02-28
 discontinued: 
 updated: 
 version: 
@@ -26,7 +26,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: '2022-02-18'
+date: 2022-02-18
 signer: 
 reviewArchive: 
 twitter: imkeyofficial

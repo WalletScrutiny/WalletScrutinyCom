@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Boin'
+title: Boin
 altTitle: 
 authors: 
 users: 50
-appId: 'com.bitcoinmatak.tmki'
+appId: com.bitcoinmatak.tmki
 appCountry: 
-released: '2022-04-27'
-updated: '2022-06-22'
+released: 2022-04-27
+updated: 2022-06-22
 version: '4.8'
 stars: 4.8
 ratings: 
 reviews: 12
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.bitcoinmatak.tmki.jpg'
+icon: com.bitcoinmatak.tmki.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-03-21'
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'marc ferrell'
+developerName: marc ferrell
 features: 
 
 ---

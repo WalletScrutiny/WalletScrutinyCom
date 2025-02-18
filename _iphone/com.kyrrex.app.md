@@ -7,12 +7,11 @@ authors:
 appId: com.kyrrex.app
 appCountry: ua
 idd: '1604879846'
-released: '2022-01-28'
-updated: '2023-02-28'
-version: '4.0.6'
+released: 2022-01-28
+updated: 2023-02-28
+version: 4.0.6
 stars: 4.4
 reviews: 15
-size: '65221632'
 website: https://kyrrex.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2024-03-02'
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: Kyrrexcom

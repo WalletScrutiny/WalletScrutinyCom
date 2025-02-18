@@ -1,37 +1,36 @@
 ---
-wsId: 'yieldApp'
+wsId: yieldApp
 title: 'Yield App : Bitcoin Wallet'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.yieldapp_mobile'
+appId: com.yieldapp_mobile
 appCountry: 
-released: '2022-06-10'
-updated: '2024-05-31'
+released: 2022-06-10
+updated: 2024-05-31
 version: '24.0527'
 stars: 4.2
 ratings: 
 reviews: 14
-size: 
-website: 'https://yield.app'
+website: https://yield.app
 repository: 
 issue: 
-icon: 'com.yieldapp_mobile.jpg'
+icon: com.yieldapp_mobile.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-07-22'
+date: 2024-07-22
 signer: 
 reviewArchive: 
-twitter: 'yieldapp'
+twitter: yieldapp
 social:
-- 'https://www.linkedin.com/company/yieldapp/'
-- 'https://t.me/yieldapp'
-- 'https://discord.com/invite/crwD3JgMgn'
+- https://www.linkedin.com/company/yieldapp/
+- https://t.me/yieldapp
+- https://discord.com/invite/crwD3JgMgn
 redirect_from: 
-developerName: 'Yield App'
+developerName: Yield App
 features: 
 
 ---

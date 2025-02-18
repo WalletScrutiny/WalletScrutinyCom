@@ -1,34 +1,33 @@
 ---
-wsId: 'Bidesk'
-title: 'Bidesk App - Crypto Trading'
+wsId: Bidesk
+title: Bidesk App - Crypto Trading
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.bideskcom.app'
-appCountry: 'us'
-released: '2020-06-13'
-updated: '2021-03-27'
-version: '3.4.1'
+appId: com.bideskcom.app
+appCountry: us
+released: 2020-06-13
+updated: 2021-03-27
+version: 3.4.1
 stars: 3.2
 ratings: 73
 reviews: 47
-size: '19M'
-website: 'https://www.bidesk.com/'
+website: https://www.bidesk.com/
 repository: 
 issue: 
-icon: 'com.bideskcom.app.png'
+icon: com.bideskcom.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2021-08-08'
+date: 2021-08-08
 signer: 
 reviewArchive: 
-twitter: 'bideskcom'
+twitter: bideskcom
 social:
-- 'https://www.facebook.com/bideskcom'
-- 'https://www.reddit.com/r/bidesk'
+- https://www.facebook.com/bideskcom
+- https://www.reddit.com/r/bidesk
 redirect_from: 
 developerName: 
 features: 

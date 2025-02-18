@@ -4,30 +4,29 @@ title: '#MetaWallet Beta'
 altTitle: 
 authors: 
 users: 1000
-appId: 'org.metahash.metawallet'
+appId: org.metahash.metawallet
 appCountry: 
 released: 
-updated: '2018-11-14'
-version: 'VARY'
+updated: 2018-11-14
+version: VARY
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'http://metahash.org'
+website: http://metahash.org
 repository: 
 issue: 
-icon: 'org.metahash.metawallet.png'
+icon: org.metahash.metawallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2024-05-07'
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'MetaHash AG'
+developerName: MetaHash AG
 features: 
 
 ---

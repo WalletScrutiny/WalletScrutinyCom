@@ -1,35 +1,35 @@
 ---
-wsId: 'echooDeFi'
+wsId: echooDeFi
 title: 'Echooo : Crypto AA Wallet&DeFi'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.smartwallet.app'
+appId: com.smartwallet.app
 appCountry: 
-released: '2023-02-10'
+released: 2023-02-10
 updated: 2025-01-21
-version: '1.21.0'
+version: 1.21.0
 stars: 4.8
 ratings: 
 reviews: 76
-website: 'https://www.echooo.xyz/'
+website: https://www.echooo.xyz/
 repository: 
 issue: 
-icon: 'com.smartwallet.app.png'
+icon: com.smartwallet.app.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-24'
+date: 2024-07-24
 signer: 
 reviewArchive: 
-twitter: 'echooo_wallet'
+twitter: echooo_wallet
 social:
-- 'https://t.me/Echooowallet'
-- 'https://discord.com/invite/UX26GYAJw4'
+- https://t.me/Echooowallet
+- https://discord.com/invite/UX26GYAJw4
 redirect_from: 
-developerName: 'Echooo Labs Pte Ltd'
+developerName: Echooo Labs Pte Ltd
 features: 
 
 ---

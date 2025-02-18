@@ -3,7 +3,7 @@ title: eSignus Hashwallet Link
 appId: esignus.hashwallet.link
 authors:
 - danny
-released: '2022-10-08'
+released: 2022-10-08
 discontinued: 
 updated: 
 version: 
@@ -26,7 +26,7 @@ bugbounty:
 meta: ok
 verdict: noita
 appHashes: 
-date: '2022-11-08'
+date: 2022-11-08
 signer: 
 reviewArchive: 
 twitter: esignus

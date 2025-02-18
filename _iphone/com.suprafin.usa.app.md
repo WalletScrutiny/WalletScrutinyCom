@@ -7,12 +7,11 @@ authors:
 appId: com.suprafin.usa.app
 appCountry: us
 idd: '1584789339'
-released: '2021-09-15'
-updated: '2022-05-29'
-version: '1.2.74'
+released: 2021-09-15
+updated: 2022-05-29
+version: 1.2.74
 stars: 4.7
 reviews: 24
-size: '71203840'
 website: https://suprafin.io/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2024-07-25'
+date: 2024-07-25
 signer: 
 reviewArchive: 
 twitter: lreasor

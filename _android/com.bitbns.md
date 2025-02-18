@@ -3,34 +3,34 @@ wsId:
 title: 'BNS: Crypto Trading Exchange'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 500000
-appId: 'com.bitbns'
+appId: com.bitbns
 appCountry: 
-released: '2019-09-21'
+released: 2019-09-21
 updated: 2025-02-10
-version: '6.20.9'
+version: 6.20.9
 stars: 3.2
 ratings: 15779
 reviews: 44
-website: 'https://bitbns.com/'
+website: https://bitbns.com/
 repository: 
 issue: 
-icon: 'com.bitbns.png'
+icon: com.bitbns.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-08-27'
+date: 2021-08-27
 signer: 
 reviewArchive: 
-twitter: 'bitbns'
+twitter: bitbns
 social:
-- 'https://www.linkedin.com/company/bitbnsinc'
-- 'https://www.facebook.com/bitbns'
-- 'https://www.reddit.com/r/Bitbns'
+- https://www.linkedin.com/company/bitbnsinc
+- https://www.facebook.com/bitbns
+- https://www.reddit.com/r/Bitbns
 redirect_from: 
-developerName: 'Bitbns Cryptocurrency Trading Exchange India'
+developerName: Bitbns Cryptocurrency Trading Exchange India
 features: 
 
 ---

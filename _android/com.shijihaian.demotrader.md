@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Forex Simulator - trading with'
+title: Forex Simulator - trading with
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.shijihaian.demotrader'
+appId: com.shijihaian.demotrader
 appCountry: 
-released: '2020-10-29'
-updated: '2020-12-14'
-version: '1.0.3'
+released: 2020-10-29
+updated: 2020-12-14
+version: 1.0.3
 stars: 1.8
 ratings: 
 reviews: 4
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.shijihaian.demotrader.png'
+icon: com.shijihaian.demotrader.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2023-08-16'
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Prime Fintech Solution (CY)'
+developerName: Prime Fintech Solution (CY)
 features: 
 
 ---

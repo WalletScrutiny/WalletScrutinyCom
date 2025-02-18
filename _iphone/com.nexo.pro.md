@@ -7,12 +7,11 @@ authors:
 appId: com.nexo.pro
 appCountry: us
 idd: '1635152271'
-released: '2023-05-03'
-updated: '2023-09-12'
-version: '1.2.0'
+released: 2023-05-03
+updated: 2023-09-12
+version: 1.2.0
 stars: 0
 reviews: 0
-size: '31638528'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: Nexo

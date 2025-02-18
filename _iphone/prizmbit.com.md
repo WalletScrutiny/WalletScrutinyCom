@@ -7,12 +7,11 @@ authors:
 appId: prizmbit.com
 appCountry: 
 idd: 1459094607
-released: '2019-06-14'
-updated: '2021-10-12'
-version: '1.6.9'
+released: 2019-06-14
+updated: 2021-10-12
+version: 1.6.9
 stars: 3
 reviews: 2
-size: 39227392
 website: https://prizmbit.com/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2022-01-02'
+date: 2022-01-02
 signer: 
 reviewArchive: 
 twitter: prizmbit

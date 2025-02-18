@@ -7,12 +7,11 @@ authors:
 appId: com.mobile.kyc
 appCountry: us
 idd: '1606034760'
-released: '2022-02-01'
-updated: '2022-11-02'
-version: '1.1.0'
+released: 2022-02-01
+updated: 2022-11-02
+version: 1.1.0
 stars: 0
 reviews: 0
-size: '42335232'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: obsolete
 verdict: nosource
 appHashes: 
-date: '2024-10-23'
+date: 2024-10-23
 signer: 
 reviewArchive: 
 twitter: kyc_coin

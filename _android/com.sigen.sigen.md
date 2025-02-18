@@ -1,34 +1,34 @@
 ---
-wsId: 'SIGEN.pro'
-title: 'SIGEN.pro'
+wsId: SIGEN.pro
+title: SIGEN.pro
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.sigen.sigen'
-appCountry: 'ru'
-released: '2020-04-18'
-updated: 2025-01-27
-version: '2.9.47'
+appId: com.sigen.sigen
+appCountry: ru
+released: 2020-04-18
+updated: 2025-02-14
+version: 2.9.49
 stars: 4.2
 ratings: 22751
 reviews: 6290
-website: 'https://sigen.pro/'
+website: https://sigen.pro/
 repository: 
 issue: 
-icon: 'com.sigen.sigen.png'
+icon: com.sigen.sigen.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-08-27'
+date: 2021-08-27
 signer: 
 reviewArchive: 
-twitter: 'SIGENpro'
+twitter: SIGENpro
 social:
-- 'https://www.facebook.com/sigen.pro'
+- https://www.facebook.com/sigen.pro
 redirect_from: 
-developerName: 'Lergen Style LLP'
+developerName: Lergen Style LLP
 features: 
 
 ---

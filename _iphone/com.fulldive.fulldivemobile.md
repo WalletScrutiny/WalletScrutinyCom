@@ -7,12 +7,11 @@ authors:
 appId: com.fulldive.fulldivemobile
 appCountry: ph
 idd: '1233671930'
-released: '2017-12-21'
-updated: '2023-01-17'
-version: '4.61.3'
+released: 2017-12-21
+updated: 2023-01-17
+version: 4.61.3
 stars: 4.3
 reviews: 43
-size: '82190336'
 website: https://fulldive.com/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: obsolete
 verdict: nobtc
 appHashes: 
-date: '2025-01-06'
+date: 2025-01-06
 signer: 
 reviewArchive: 
 twitter: 

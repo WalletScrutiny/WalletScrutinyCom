@@ -7,12 +7,11 @@ authors:
 appId: com.coinwapp.legend
 appCountry: us
 idd: '1494077068'
-released: '2020-01-14'
-updated: '2025-01-23'
-version: '10.0.13'
+released: 2020-01-14
+updated: 2025-02-14
+version: 10.0.14
 stars: 4.1
 reviews: 28
-size: '223449088'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2023-07-07'
+date: 2023-07-07
 signer: 
 reviewArchive: 
 twitter: CoinWOfficial

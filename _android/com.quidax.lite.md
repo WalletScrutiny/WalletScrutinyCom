@@ -1,35 +1,35 @@
 ---
-wsId: 'quidaxLite'
-title: 'Quidax - Buy & Sell Bitcoin'
+wsId: quidaxLite
+title: Quidax - Buy & Sell Bitcoin
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.quidax.lite'
+appId: com.quidax.lite
 appCountry: 
-released: '2022-01-08'
+released: 2022-01-08
 updated: 2025-02-07
-version: '1.22.0'
+version: 1.22.0
 stars: 3.9
 ratings: 
 reviews: 90
-website: 'https://quidax.com'
+website: https://quidax.com
 repository: 
 issue: 
-icon: 'com.quidax.lite.png'
+icon: com.quidax.lite.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-07-21'
+date: 2023-07-21
 signer: 
 reviewArchive: 
-twitter: 'quidaxglobal'
+twitter: quidaxglobal
 social:
-- 'https://www.facebook.com/QuidaxGlobal'
-- 'https://www.instagram.com/quidaxglobal'
+- https://www.facebook.com/QuidaxGlobal
+- https://www.instagram.com/quidaxglobal
 redirect_from: 
-developerName: 'Quidax Technologies'
+developerName: Quidax Technologies
 features: 
 
 ---

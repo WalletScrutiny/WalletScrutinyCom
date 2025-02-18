@@ -7,12 +7,11 @@ authors:
 appId: com.myetherwallet.mewwallet
 appCountry: us
 idd: 1464614025
-released: '2020-03-12'
-updated: '2025-02-05'
-version: '2.6'
+released: 2020-03-12
+updated: 2025-02-13
+version: 2.6.1
 stars: 4.6
-reviews: 5248
-size: '334939136'
+reviews: 5252
 website: http://mewwallet.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: nobtc
 appHashes: 
-date: '2024-10-07'
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: myetherwallet

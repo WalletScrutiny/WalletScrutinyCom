@@ -22,7 +22,7 @@ icon: offline.cash.png
 bugbounty: 
 meta: ok
 verdict: unreleased
-date: '2022-11-17'
+date: 2022-11-17
 signer: 
 reviewArchive: 
 twitter: offlinecashco

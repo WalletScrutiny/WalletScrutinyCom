@@ -1,36 +1,35 @@
 ---
-wsId: 'cent'
-title: 'Cent - The crypto wallet for D'
+wsId: cent
+title: Cent - The crypto wallet for D
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.atlas.mobile.wallet'
-appCountry: 'us'
-released: '2020-08-07'
-updated: '2022-02-09'
-version: '1.0.45'
+appId: com.atlas.mobile.wallet
+appCountry: us
+released: 2020-08-07
+updated: 2022-02-09
+version: 1.0.45
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'http://www.cent.finance'
+website: http://www.cent.finance
 repository: 
 issue: 
-icon: 'com.atlas.mobile.wallet.png'
+icon: com.atlas.mobile.wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nobtc'
+meta: removed
+verdict: nobtc
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
-twitter: 'Cent_Finance'
+twitter: Cent_Finance
 social:
-- 'https://github.com/centfinance'
+- https://github.com/centfinance
 redirect_from:
-- '/com.atlas.mobile.wallet/'
-developerName: 'Cent Finance ltd'
+- /com.atlas.mobile.wallet/
+developerName: Cent Finance ltd
 features: 
 
 ---

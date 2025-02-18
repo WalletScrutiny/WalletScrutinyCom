@@ -1,36 +1,35 @@
 ---
 wsId: 
-title: 'Dex Crypto Wallet & Exchange'
+title: Dex Crypto Wallet & Exchange
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.wallet.dex'
+appId: com.wallet.dex
 appCountry: 
-released: '2022-11-25'
-updated: '2023-02-08'
-version: '1.3.1'
+released: 2022-11-25
+updated: 2023-02-08
+version: 1.3.1
 stars: 4.6
 ratings: 
 reviews: 12
-size: 
-website: 'https://dexwallet.info'
+website: https://dexwallet.info
 repository: 
 issue: 
-icon: 'com.wallet.dex.png'
+icon: com.wallet.dex.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2024-07-30'
+date: 2024-07-30
 signer: 
 reviewArchive: 
-twitter: 'Dexwallets'
+twitter: Dexwallets
 social:
-- 'https://www.facebook.com/profile.php?id=100088051538476&mibextid=LQQJ4d'
-- 'https://t.me/Dexwalletofficialcommunity'
+- https://www.facebook.com/profile.php?id=100088051538476&mibextid=LQQJ4d
+- https://t.me/Dexwalletofficialcommunity
 redirect_from: 
-developerName: 'DexWallet Pvt. Limited'
+developerName: DexWallet Pvt. Limited
 features: 
 
 ---

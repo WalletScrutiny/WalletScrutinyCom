@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Niuupeak'
+title: Niuupeak
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.niuupeak.app'
+appId: com.niuupeak.app
 appCountry: 
-released: '2020-07-02'
-updated: '2020-07-02'
+released: 2020-07-02
+updated: 2020-07-02
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://niuupeak.com/'
+website: https://niuupeak.com/
 repository: 
 issue: 
-icon: 'com.niuupeak.app.png'
+icon: com.niuupeak.app.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'wip'
+meta: defunct
+verdict: wip
 appHashes: 
-date: '2023-05-31'
+date: 2023-05-31
 signer: 
 reviewArchive: 
-twitter: 'niuupeak'
+twitter: niuupeak
 social: 
 redirect_from: 
-developerName: 'Coins Deal'
+developerName: Coins Deal
 features: 
 
 ---

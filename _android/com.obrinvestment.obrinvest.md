@@ -1,34 +1,33 @@
 ---
-wsId: 'obrinvest'
+wsId: obrinvest
 title: 'OBRinvest:  Online Trading'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.obrinvestment.obrinvest'
+appId: com.obrinvestment.obrinvest
 appCountry: 
 released: 
-updated: '2024-07-02'
-version: '2.7.1'
+updated: 2024-07-02
+version: 2.7.1
 stars: 2.7
 ratings: 
 reviews: 
-size: 
-website: 'https://www.obrinvest.com'
+website: https://www.obrinvest.com
 repository: 
 issue: 
-icon: 'com.obrinvestment.obrinvest.png'
+icon: com.obrinvestment.obrinvest.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosendreceive'
+meta: removed
+verdict: nosendreceive
 appHashes: 
-date: '2024-08-15'
+date: 2024-08-15
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'OBRinvest'
+developerName: OBRinvest
 features: 
 
 ---

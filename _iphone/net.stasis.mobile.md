@@ -7,12 +7,11 @@ authors:
 appId: net.stasis.mobile
 appCountry: jp
 idd: 1371949230
-released: '2018-07-06'
-updated: '2024-03-21'
-version: '8.2.2'
+released: 2018-07-06
+updated: 2024-03-21
+version: 8.2.2
 stars: 0
 reviews: 0
-size: '92604416'
 website: https://stasis.net
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2024-12-08'
+date: 2024-12-08
 signer: 
 reviewArchive: 
 twitter: stasisnet

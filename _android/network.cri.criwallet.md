@@ -1,37 +1,36 @@
 ---
-wsId: 'criWallet'
-title: 'CRI Wallet'
+wsId: criWallet
+title: CRI Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'network.cri.criwallet'
+appId: network.cri.criwallet
 appCountry: 
-released: '2022-02-14'
-updated: '2022-07-31'
-version: '2.0.0'
+released: 2022-02-14
+updated: 2022-07-31
+version: 2.0.0
 stars: 4.5
 ratings: 
 reviews: 14
-size: 
-website: 'https://cos-in.com'
+website: https://cos-in.com
 repository: 
 issue: 
-icon: 'network.cri.criwallet.jpg'
+icon: network.cri.criwallet.jpg
 bugbounty: 
-meta: 'obsolete'
-verdict: 'custodial'
+meta: obsolete
+verdict: custodial
 appHashes: 
-date: '2024-07-22'
+date: 2024-07-22
 signer: 
 reviewArchive: 
-twitter: 'Cri_Vivranium'
+twitter: Cri_Vivranium
 social:
-- 'https://www.facebook.com/cosmeta.us'
-- 'https://www.linkedin.com/company/cosmeta-inc'
-- 'https://t.me/cri_notice'
+- https://www.facebook.com/cosmeta.us
+- https://www.linkedin.com/company/cosmeta-inc
+- https://t.me/cri_notice
 redirect_from: 
-developerName: 'COSMETA, INC.'
+developerName: COSMETA, INC.
 features: 
 
 ---

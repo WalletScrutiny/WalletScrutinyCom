@@ -1,34 +1,34 @@
 ---
-wsId: 'touchWalletCrypto'
-title: 'Touch Wallet — Crypto Wallet'
+wsId: touchWalletCrypto
+title: Touch Wallet — Crypto Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'ru.webtronics.touch_wallet'
+appId: ru.webtronics.touch_wallet
 appCountry: 
-released: '2022-10-29'
+released: 2022-10-29
 updated: 2025-02-06
-version: '2.1.10'
+version: 2.1.10
 stars: 2.5
 ratings: 
 reviews: 
-website: 'https://touchwallet.com/'
+website: https://touchwallet.com/
 repository: 
 issue: 
-icon: 'ru.webtronics.touch_wallet.png'
+icon: ru.webtronics.touch_wallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-07-02'
+date: 2023-07-02
 signer: 
 reviewArchive: 
-twitter: 'Touch_Wallet'
+twitter: Touch_Wallet
 social:
-- 'https://t.me/TouchWalletEN'
+- https://t.me/TouchWalletEN
 redirect_from: 
-developerName: 'CLOUD FARMER L.L.C-FZ'
+developerName: CLOUD FARMER L.L.C-FZ
 features: 
 
 ---

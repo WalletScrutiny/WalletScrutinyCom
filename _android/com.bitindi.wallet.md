@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Bitindi Wallet'
+title: Bitindi Wallet
 altTitle: 
 authors: 
 users: 500
-appId: 'com.bitindi.wallet'
+appId: com.bitindi.wallet
 appCountry: 
-released: '2022-09-28'
-updated: '2022-09-29'
-version: '0.1.0'
+released: 2022-09-28
+updated: 2022-09-29
+version: 0.1.0
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://bitindi.com'
+website: https://bitindi.com
 repository: 
 issue: 
-icon: 'com.bitindi.wallet.png'
+icon: com.bitindi.wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-04-03'
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Bitindi Blockchain'
+developerName: Bitindi Blockchain
 features: 
 
 ---

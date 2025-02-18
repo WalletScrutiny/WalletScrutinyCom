@@ -1,37 +1,36 @@
 ---
-wsId: 'natiolInfinity'
-title: 'Natiol Infinity'
+wsId: natiolInfinity
+title: Natiol Infinity
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.natiol.infinity.io'
+appId: com.natiol.infinity.io
 appCountry: 
-released: '2022-11-12'
-updated: '2024-07-19'
-version: '10.0.1'
+released: 2022-11-12
+updated: 2024-07-19
+version: 10.0.1
 stars: 4.8
 ratings: 
 reviews: 4
-size: 
-website: 'https://natiol.io/'
+website: https://natiol.io/
 repository: 
 issue: 
-icon: 'com.natiol.infinity.io.png'
+icon: com.natiol.infinity.io.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nobtc'
+meta: removed
+verdict: nobtc
 appHashes: 
-date: '2024-08-07'
+date: 2024-08-07
 signer: 
 reviewArchive: 
-twitter: 'natiolinfinity'
+twitter: natiolinfinity
 social:
-- 'https://natiol.io'
-- 'https://www.facebook.com/natiol.io'
-- 'https://t.me/natiol_infinity'
+- https://natiol.io
+- https://www.facebook.com/natiol.io
+- https://t.me/natiol_infinity
 redirect_from: 
-developerName: 'NATIOL INFINITY PTE LTD'
+developerName: NATIOL INFINITY PTE LTD
 features: 
 
 ---

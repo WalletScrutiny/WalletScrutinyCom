@@ -7,12 +7,11 @@ authors:
 appId: com.coinsquare.quicktrade
 appCountry: ca
 idd: '1539660922'
-released: '2021-02-05'
-updated: '2025-01-22'
-version: '5.0.7 (50)'
+released: 2021-02-05
+updated: 2025-01-22
+version: 5.0.7 (50)
 stars: 4.6
 reviews: 5377
-size: '58731520'
 website: https://coinsquare.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2024-09-07'
+date: 2024-09-07
 signer: 
 reviewArchive: 
 twitter: coinsquare

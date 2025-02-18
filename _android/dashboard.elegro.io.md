@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'elegro Retail PoS App'
+title: elegro Retail PoS App
 altTitle: 
 authors: 
 users: 100
-appId: 'dashboard.elegro.io'
+appId: dashboard.elegro.io
 appCountry: 
-released: '2018-08-03'
-updated: '2020-06-16'
-version: '3.0.3'
+released: 2018-08-03
+updated: 2020-06-16
+version: 3.0.3
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://business.elegro.eu/acceptance'
+website: https://business.elegro.eu/acceptance
 repository: 
 issue: 
-icon: 'dashboard.elegro.io.png'
+icon: dashboard.elegro.io.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Niko Technologies'
+developerName: Niko Technologies
 features: 
 
 ---

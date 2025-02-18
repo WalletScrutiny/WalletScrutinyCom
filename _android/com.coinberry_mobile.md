@@ -1,36 +1,35 @@
 ---
-wsId: 'CoinBerry'
+wsId: CoinBerry
 title: 'Coinberry: Buy and Sell Crypto'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.coinberry_mobile'
-appCountry: 'ca'
-released: '2018-12-19'
-updated: '2023-06-01'
-version: '137.6.4'
+appId: com.coinberry_mobile
+appCountry: ca
+released: 2018-12-19
+updated: 2023-06-01
+version: 137.6.4
 stars: 2.8
 ratings: 1118
 reviews: 655
-size: 
-website: 'https://www.coinberry.com'
+website: https://www.coinberry.com
 repository: 
 issue: 
-icon: 'com.coinberry_mobile.png'
+icon: com.coinberry_mobile.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
-twitter: 'CoinberryHQ'
+twitter: CoinberryHQ
 social:
-- 'https://www.linkedin.com/company/coinberry'
-- 'https://www.facebook.com/CoinberryOfficial'
+- https://www.linkedin.com/company/coinberry
+- https://www.facebook.com/CoinberryOfficial
 redirect_from: 
-developerName: 'Coinberry'
+developerName: Coinberry
 features: 
 
 ---

@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'NexFolio'
+title: NexFolio
 altTitle: 
 authors: 
 users: 100
-appId: 'com.premiumNextFolio.app'
+appId: com.premiumNextFolio.app
 appCountry: 
-released: '2020-01-10'
-updated: '2020-01-16'
+released: 2020-01-10
+updated: 2020-01-16
 version: '1.2'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'http://www.n2blockchain.io/'
+website: http://www.n2blockchain.io/
 repository: 
 issue: 
-icon: 'com.premiumNextFolio.app.png'
+icon: com.premiumNextFolio.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-04-16'
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Nextazy Solutions Pvt Ltd'
+developerName: Nextazy Solutions Pvt Ltd
 features: 
 
 ---

@@ -1,35 +1,35 @@
 ---
-wsId: 'AirGapWallet'
-title: 'AirGap Wallet'
+wsId: AirGapWallet
+title: AirGap Wallet
 altTitle: 
 authors: 
 users: 10000
-appId: 'it.airgap.wallet'
+appId: it.airgap.wallet
 appCountry: 
-released: '2018-08-06'
+released: 2018-08-06
 updated: 2025-01-28
-version: '3.32.6'
+version: 3.32.6
 stars: 4
 ratings: 128
 reviews: 14
-website: 'https://www.airgap.it'
+website: https://www.airgap.it
 repository: 
 issue: 
-icon: 'it.airgap.wallet.jpg'
+icon: it.airgap.wallet.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2019-12-29'
+date: 2019-12-29
 signer: 
 reviewArchive: 
-twitter: 'AirGap_it'
+twitter: AirGap_it
 social:
-- 'https://www.reddit.com/r/AirGap'
+- https://www.reddit.com/r/AirGap
 redirect_from:
-- '/it.airgap.wallet/'
-- '/posts/it.airgap.wallet/'
-developerName: 'Papers AG'
+- /it.airgap.wallet/
+- /posts/it.airgap.wallet/
+developerName: Papers AG
 features: 
 
 ---

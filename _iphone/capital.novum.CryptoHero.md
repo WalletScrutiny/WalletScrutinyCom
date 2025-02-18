@@ -1,33 +1,32 @@
 ---
-wsId: 'CryptoHero'
+wsId: CryptoHero
 title: 'CryptoHero: Crypto Trading Bot'
 altTitle: 
 authors:
-- 'danny'
-appId: 'capital.novum.CryptoHero'
-appCountry: 'us'
+- danny
+appId: capital.novum.CryptoHero
+appCountry: us
 idd: '1488574255'
-released: '2019-12-18'
+released: 2019-12-18
 updated: 2023-11-06
-version: '2.2.1'
-stars: 3.84615
-reviews: 26
-size: '92114944'
-website: 'https://www.cryptohero.ai'
+version: 2.2.1
+stars: 3.7
+reviews: 27
+website: https://www.cryptohero.ai
 repository: 
 issue: 
-icon: 'capital.novum.CryptoHero.jpg'
+icon: capital.novum.CryptoHero.jpg
 bugbounty: 
-meta: 'stale'
-verdict: 'nowallet'
+meta: stale
+verdict: nowallet
 appHashes: 
-date: '2024-11-04'
+date: 2024-11-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 features: 
-developerName: 'Novum Global Ventures Pte Ltd'
+developerName: Novum Global Ventures Pte Ltd
 
 ---
 

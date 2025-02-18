@@ -7,12 +7,11 @@ authors:
 appId: com.defichain.app.dfx
 appCountry: us
 idd: '1582633093'
-released: '2021-09-02'
-updated: '2023-04-25'
-version: '1.20.1'
+released: 2021-09-02
+updated: 2023-04-25
+version: 1.20.1
 stars: 5
 reviews: 2
-size: '29605888'
 website: https://dfx.swiss
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: nobtc
 appHashes: 
-date: '2023-08-04'
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: DFX_Swiss

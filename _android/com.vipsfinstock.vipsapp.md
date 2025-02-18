@@ -1,39 +1,38 @@
 ---
-wsId: 'vipsFinstock'
+wsId: vipsFinstock
 title: 'VIPS Finstock: Buy/Sell Crypto'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.vipsfinstock.vipsapp'
+appId: com.vipsfinstock.vipsapp
 appCountry: 
-released: '2021-11-28'
-updated: '2023-10-02'
-version: '1.7.6'
+released: 2021-11-28
+updated: 2023-10-02
+version: 1.7.6
 stars: 4.2
 ratings: 
 reviews: 2
-size: 
-website: 'https://www.vipsfinstock.com'
+website: https://www.vipsfinstock.com
 repository: 
 issue: 
-icon: 'com.vipsfinstock.vipsapp.png'
+icon: com.vipsfinstock.vipsapp.png
 bugbounty: 
-meta: 'stale'
-verdict: 'custodial'
+meta: stale
+verdict: custodial
 appHashes: 
-date: '2024-09-26'
+date: 2024-09-26
 signer: 
 reviewArchive: 
-twitter: 'VIPS_Finstock'
+twitter: VIPS_Finstock
 social:
-- 'https://www.linkedin.com/company/vipsfinstock'
-- 'https://www.facebook.com/vipsfinstockofficial'
-- 'https://www.instagram.com/vipsfinstock'
-- 'https://www.youtube.com/c/VIPSFINSTOCKOFFICIAL'
-- 'https://t.me/vipsfinstockofficial'
+- https://www.linkedin.com/company/vipsfinstock
+- https://www.facebook.com/vipsfinstockofficial
+- https://www.instagram.com/vipsfinstock
+- https://www.youtube.com/c/VIPSFINSTOCKOFFICIAL
+- https://t.me/vipsfinstockofficial
 redirect_from: 
-developerName: 'VIPS Trade Finance Pvt. Ltd.'
+developerName: VIPS Trade Finance Pvt. Ltd.
 features: 
 
 ---

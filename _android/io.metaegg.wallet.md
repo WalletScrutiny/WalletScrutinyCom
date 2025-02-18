@@ -1,39 +1,38 @@
 ---
 wsId: 
-title: 'DeFi Wallet'
+title: DeFi Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'io.metaegg.wallet'
+appId: io.metaegg.wallet
 appCountry: 
-released: '2022-09-04'
-updated: '2022-09-11'
-version: '0.1.2'
+released: 2022-09-04
+updated: 2022-09-11
+version: 0.1.2
 stars: 4.8
 ratings: 
 reviews: 1
-size: 
-website: 'https://metaegg.io'
+website: https://metaegg.io
 repository: 
 issue: 
-icon: 'io.metaegg.wallet.png'
+icon: io.metaegg.wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
-twitter: 'Metaegg_io'
+twitter: Metaegg_io
 social:
-- 'https://www.facebook.com/metaeggio'
-- 'https://www.linkedin.com/company/metaegg'
-- 'https://www.instagram.com/metaegg_io'
-- 'https://www.youtube.com/c/MetaeggMetaverse'
-- 'https://t.me/metaegg_io'
+- https://www.facebook.com/metaeggio
+- https://www.linkedin.com/company/metaegg
+- https://www.instagram.com/metaegg_io
+- https://www.youtube.com/c/MetaeggMetaverse
+- https://t.me/metaegg_io
 redirect_from: 
-developerName: 'Metaegg'
+developerName: Metaegg
 features: 
 
 ---

@@ -3,10 +3,10 @@ title: OneKey - Pro
 appId: onekey.pro
 authors:
 - danny
-released: '2024-03-05'
+released: 2024-03-05
 discontinued: 
-updated: '2025-01-06'
-version: '4.11.0'
+updated: 2025-01-06
+version: 4.11.0
 binaries: 
 dimensions:
 - 90
@@ -26,7 +26,7 @@ bugbounty: https://github.com/OneKeyHQ/app-monorepo/blob/onekey/docs/BUG_RULES.m
 meta: ok
 verdict: wip
 appHashes: 
-date: '2025-01-07'
+date: 2025-01-07
 signer: 
 reviewArchive: 
 twitter: OneKeyHQ

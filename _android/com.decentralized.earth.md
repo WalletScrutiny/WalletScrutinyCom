@@ -1,34 +1,33 @@
 ---
 wsId: 
 title: 'SpecterSolutions: Open Wallet'
-altTitle: 'Fake Specter Wallet'
+altTitle: Fake Specter Wallet
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.decentralized.earth'
+appId: com.decentralized.earth
 appCountry: 
-released: '2022-12-15'
-updated: '2023-03-18'
-version: '2.19.3'
+released: 2022-12-15
+updated: 2023-03-18
+version: 2.19.3
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://specterproduct.cc/assets/spectrum-privacy-policy.txt'
+website: https://specterproduct.cc/assets/spectrum-privacy-policy.txt
 repository: 
 issue: 
-icon: 'com.decentralized.earth.png'
+icon: com.decentralized.earth.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fake'
+meta: removed
+verdict: fake
 appHashes: 
-date: '2023-09-04'
+date: 2023-09-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'sресtrum, l.l.С.'
+developerName: sресtrum, l.l.С.
 features: 
 
 ---

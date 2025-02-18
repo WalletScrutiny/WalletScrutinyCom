@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: 'NPAS Wallet 엔파스월렛'
+title: NPAS Wallet 엔파스월렛
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'io.npaswallet.viichainteam'
+appId: io.npaswallet.viichainteam
 appCountry: 
-released: '2022-02-25'
-updated: '2022-07-07'
-version: '3.0.2'
+released: 2022-02-25
+updated: 2022-07-07
+version: 3.0.2
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.npasglobal.com/'
+website: https://www.npasglobal.com/
 repository: 
 issue: 
-icon: 'io.npaswallet.viichainteam.png'
+icon: io.npaswallet.viichainteam.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'wip'
+meta: defunct
+verdict: wip
 appHashes: 
-date: '2023-08-24'
+date: 2023-08-24
 signer: 
 reviewArchive: 
-twitter: 'OCL890'
+twitter: OCL890
 social:
-- 'https://t.me/npasglobal'
+- https://t.me/npasglobal
 redirect_from: 
-developerName: 'NPAS Wallet'
+developerName: NPAS Wallet
 features: 
 
 ---

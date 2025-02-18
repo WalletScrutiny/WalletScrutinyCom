@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Crypto Invest'
+title: Crypto Invest
 altTitle: 
 authors: 
 users: 0
-appId: 'com.magnumwallet.crypto.invest'
+appId: com.magnumwallet.crypto.invest
 appCountry: 
-released: '2021-07-18'
-updated: '2021-07-18'
+released: 2021-07-18
+updated: 2021-07-18
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: '2.3M'
 website: 
 repository: 
 issue: 
-icon: 'com.magnumwallet.crypto.invest.png'
+icon: com.magnumwallet.crypto.invest.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2021-10-01'
+date: 2021-10-01
 signer: 
 reviewArchive: 
 twitter: 

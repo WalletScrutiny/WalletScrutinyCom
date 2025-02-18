@@ -7,12 +7,11 @@ authors:
 appId: com.cointr
 appCountry: us
 idd: '1637395401'
-released: '2022-08-18'
-updated: '2023-11-28'
-version: '2.1.1'
+released: 2022-08-18
+updated: 2023-11-28
+version: 2.1.1
 stars: 5
 reviews: 4
-size: '144955392'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: CoinTRTurkiye

@@ -7,13 +7,12 @@ authors:
 users: 100000
 appId: com.trade360
 appCountry: gb
-released: '2015-06-18'
-updated: '2022-09-29'
-version: '7.3.1'
+released: 2015-06-18
+updated: 2022-09-29
+version: 7.3.1
 stars: 2.8
 ratings: 1438
 reviews: 60
-size: 
 website: http://www.trade360.com
 repository: 
 issue: 
@@ -22,7 +21,7 @@ bugbounty:
 meta: obsolete
 verdict: nosendreceive
 appHashes: 
-date: '2024-09-18'
+date: 2024-09-18
 signer: 
 reviewArchive: 
 twitter: Trade360_LTD

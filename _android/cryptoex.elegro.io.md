@@ -1,42 +1,41 @@
 ---
-wsId: 'elegroExchange'
+wsId: elegroExchange
 title: 'elegro Exchange - Bitcoin and '
 altTitle: 
 authors:
-- 'leo'
-- 'danny'
+- leo
+- danny
 users: 1000
-appId: 'cryptoex.elegro.io'
+appId: cryptoex.elegro.io
 appCountry: 
-released: '2019-06-26'
-updated: '2021-04-29'
-version: '1.0.4'
+released: 2019-06-26
+updated: 2021-04-29
+version: 1.0.4
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://personal.elegro.eu/exchange'
+website: https://personal.elegro.eu/exchange
 repository: 
 issue: 
-icon: 'cryptoex.elegro.io.png'
+icon: cryptoex.elegro.io.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
-twitter: 'elegro_eu'
+twitter: elegro_eu
 social:
-- 'https://www.linkedin.com/company/niko-technologies-ou'
-- 'https://medium.com/@elegro'
-- 'https://www.instagram.com/elegro.wallet'
-- 'https://www.youtube.com/channel/UC0O74-8XmeVTo9_aYXwoQNQ'
-- 'https://t.me/nikotech_support'
+- https://www.linkedin.com/company/niko-technologies-ou
+- https://medium.com/@elegro
+- https://www.instagram.com/elegro.wallet
+- https://www.youtube.com/channel/UC0O74-8XmeVTo9_aYXwoQNQ
+- https://t.me/nikotech_support
 redirect_from:
-- '/cryptoex.elegro.io/'
-- '/posts/cryptoex.elegro.io/'
-developerName: 'Niko Technologies'
+- /cryptoex.elegro.io/
+- /posts/cryptoex.elegro.io/
+developerName: Niko Technologies
 features: 
 
 ---

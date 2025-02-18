@@ -1,38 +1,37 @@
 ---
-wsId: 'payBoltBusiness'
-title: 'PayBolt Business'
+wsId: payBoltBusiness
+title: PayBolt Business
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.fincrypt.payboltmerchant'
+appId: com.fincrypt.payboltmerchant
 appCountry: 
-released: '2022-03-18'
-updated: '2022-10-25'
-version: '3.0.2'
+released: 2022-03-18
+updated: 2022-10-25
+version: 3.0.2
 stars: 4.6
 ratings: 
 reviews: 6
-size: 
-website: 'https://paybolt.com'
+website: https://paybolt.com
 repository: 
 issue: 
-icon: 'com.fincrypt.payboltmerchant.png'
+icon: com.fincrypt.payboltmerchant.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nobtc'
+meta: removed
+verdict: nobtc
 appHashes: 
-date: '2024-12-15'
+date: 2024-12-15
 signer: 
 reviewArchive: 
-twitter: 'PayBoltOfficial'
+twitter: PayBoltOfficial
 social:
-- 'https://www.instagram.com/paybolt'
-- 'https://www.facebook.com/PayBolt'
-- 'https://www.linkedin.com/company/payboltofficial'
-- 'https://t.me/PayBolt'
+- https://www.instagram.com/paybolt
+- https://www.facebook.com/PayBolt
+- https://www.linkedin.com/company/payboltofficial
+- https://t.me/PayBolt
 redirect_from: 
-developerName: 'FinCrypt'
+developerName: FinCrypt
 features: 
 
 ---

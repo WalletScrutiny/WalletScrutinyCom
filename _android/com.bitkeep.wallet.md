@@ -1,37 +1,37 @@
 ---
-wsId: 'bitkeep'
+wsId: bitkeep
 title: 'Bitget Wallet: Crypto, Trump'
 altTitle: 
 authors:
-- 'leo'
-- 'danny'
+- leo
+- danny
 users: 10000000
-appId: 'com.bitkeep.wallet'
+appId: com.bitkeep.wallet
 appCountry: 
-released: '2020-02-11'
-updated: 2025-01-23
-version: '8.28.2'
+released: 2020-02-11
+updated: 2025-02-17
+version: 8.28.2
 stars: 4.6
 ratings: 3949
-reviews: 3572
-website: 'https://bitkeep.com'
+reviews: 3582
+website: https://bitkeep.com
 repository: 
 issue: 
-icon: 'com.bitkeep.wallet.png'
+icon: com.bitkeep.wallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-15'
+date: 2024-07-15
 signer: 
 reviewArchive: 
-twitter: 'BitKeepOS'
+twitter: BitKeepOS
 social:
-- 'https://www.facebook.com/bitkeep'
-- 'https://github.com/bitkeepcom'
+- https://www.facebook.com/bitkeep
+- https://github.com/bitkeepcom
 redirect_from:
-- '/com.bitkeep.wallet/'
-developerName: 'Bitget Wallet'
+- /com.bitkeep.wallet/
+developerName: Bitget Wallet
 features: 
 
 ---

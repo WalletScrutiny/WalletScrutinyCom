@@ -1,35 +1,35 @@
 ---
-wsId: 'vantageFX'
-title: 'Vantage:All-In-One Trading App'
+wsId: vantageFX
+title: Vantage:All-In-One Trading App
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000000
-appId: 'cn.com.vau'
-appCountry: 'cn'
-released: '2019-07-06'
+appId: cn.com.vau
+appCountry: cn
+released: 2019-07-06
 updated: 2025-02-08
-version: '3.55.1'
+version: 3.55.1
 stars: 3.9
 ratings: 8949
-reviews: 2330
-website: 'https://www.vantagemarkets.com/'
+reviews: 2329
+website: https://www.vantagemarkets.com/
 repository: 
 issue: 
-icon: 'cn.com.vau.png'
+icon: cn.com.vau.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosendreceive'
+meta: ok
+verdict: nosendreceive
 appHashes: 
-date: '2021-11-01'
+date: 2021-11-01
 signer: 
 reviewArchive: 
-twitter: 'VantageFX'
+twitter: VantageFX
 social:
-- 'https://www.linkedin.com/company/vantage-fx'
-- 'https://www.facebook.com/VantageFXBroker'
+- https://www.linkedin.com/company/vantage-fx
+- https://www.facebook.com/VantageFXBroker
 redirect_from: 
-developerName: 'Vantage Global Prime PTY LTD'
+developerName: Vantage Global Prime PTY LTD
 features: 
 
 ---

@@ -1,35 +1,34 @@
 ---
-wsId: 'junoFinance'
-title: 'Juno - Buy Bitcoin & Litecoin'
+wsId: junoFinance
+title: Juno - Buy Bitcoin & Litecoin
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.capitalJ.onJuno'
+appId: com.capitalJ.onJuno
 appCountry: 
-released: '2021-03-01'
-updated: '2024-11-11'
-version: '4.0.45'
+released: 2021-03-01
+updated: 2024-11-11
+version: 4.0.45
 stars: 1.9
 ratings: 
 reviews: 465
-size: 
-website: 'https://juno.finance'
+website: https://juno.finance
 repository: 
 issue: 
-icon: 'com.capitalJ.onJuno.jpg'
+icon: com.capitalJ.onJuno.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-12-23'
+date: 2024-12-23
 signer: 
 reviewArchive: 
-twitter: 'JunoFinanceHQ'
+twitter: JunoFinanceHQ
 social:
-- 'https://www.linkedin.com/company/junofinancehq'
+- https://www.linkedin.com/company/junofinancehq
 redirect_from: 
-developerName: 'OnJuno Mobile Banking'
+developerName: OnJuno Mobile Banking
 features: 
 
 ---

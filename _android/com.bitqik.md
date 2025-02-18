@@ -1,38 +1,38 @@
 ---
-wsId: 'bitqikExchange'
-title: 'bitqik'
+wsId: bitqikExchange
+title: bitqik
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.bitqik'
+appId: com.bitqik
 appCountry: 
-released: '2022-09-23'
+released: 2022-09-23
 updated: 2023-09-06
-version: '2.1.1'
+version: 2.1.1
 stars: 
 ratings: 
 reviews: 
-website: 'https://bitqik.com/'
+website: https://bitqik.com/
 repository: 
 issue: 
-icon: 'com.bitqik.png'
+icon: com.bitqik.png
 bugbounty: 
-meta: 'stale'
-verdict: 'custodial'
+meta: stale
+verdict: custodial
 appHashes: 
-date: '2024-09-01'
+date: 2024-09-01
 signer: 
 reviewArchive: 
-twitter: 'bitqikofficial'
+twitter: bitqikofficial
 social:
-- 'https://www.facebook.com/bitqik'
-- 'https://www.instagram.com/bitqikofficial'
-- 'https://t.me/bitqik'
-- 'https://www.tiktok.com/@bitqikofficial'
-- 'https://www.youtube.com/channel/UC2wf6B1zII-2jPtVfwmKvoA'
+- https://www.facebook.com/bitqik
+- https://www.instagram.com/bitqikofficial
+- https://t.me/bitqik
+- https://www.tiktok.com/@bitqikofficial
+- https://www.youtube.com/channel/UC2wf6B1zII-2jPtVfwmKvoA
 redirect_from: 
-developerName: 'bitqik'
+developerName: bitqik
 features: 
 
 ---

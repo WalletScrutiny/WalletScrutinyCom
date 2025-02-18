@@ -1,36 +1,35 @@
 ---
-wsId: 'ezdefi'
-title: 'ezDeFi - Crypto & Bitcoin Wall'
+wsId: ezdefi
+title: ezDeFi - Crypto & Bitcoin Wall
 altTitle: 
 authors:
-- 'leo'
-- 'danny'
+- leo
+- danny
 users: 10000
-appId: 'com.ezdefi'
+appId: com.ezdefi
 appCountry: 
-released: '2019-11-29'
-updated: '2021-09-08'
-version: '0.3.9'
+released: 2019-11-29
+updated: 2021-09-08
+version: 0.3.9
 stars: 4.1
 ratings: 633
 reviews: 13
-size: 
-website: 'https://ezdefi.com/'
+website: https://ezdefi.com/
 repository: 
 issue: 
-icon: 'com.ezdefi.png'
+icon: com.ezdefi.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2024-07-05'
+date: 2024-07-05
 signer: 
 reviewArchive: 
-twitter: 'ezDeFi'
+twitter: ezDeFi
 social:
-- 'https://www.facebook.com/ezdefi'
+- https://www.facebook.com/ezdefi
 redirect_from: 
-developerName: 'LaunchZone'
+developerName: LaunchZone
 features: 
 
 ---

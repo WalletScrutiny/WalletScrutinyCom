@@ -1,34 +1,34 @@
 ---
-wsId: 'AjGlobalV'
+wsId: AjGlobalV
 title: 'AjGlobalV: Crypto And Giftcard'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.rinnas.aj_global'
-appCountry: 'us'
-released: '2020-05-29'
+appId: com.rinnas.aj_global
+appCountry: us
+released: 2020-05-29
 updated: 2025-01-30
-version: '2.2.0'
+version: 2.2.0
 stars: 2.8
 ratings: 146
 reviews: 14
-website: 'https://ajglobalv.com/'
+website: https://ajglobalv.com/
 repository: 
 issue: 
-icon: 'com.rinnas.aj_global.png'
+icon: com.rinnas.aj_global.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-10-19'
+date: 2021-10-19
 signer: 
 reviewArchive: 
-twitter: 'ajglobalv'
+twitter: ajglobalv
 social:
-- 'https://www.facebook.com/AJGLOBALVENTURES'
+- https://www.facebook.com/AJGLOBALVENTURES
 redirect_from: 
-developerName: 'AJ Trust Merchants Global Limited'
+developerName: AJ Trust Merchants Global Limited
 features: 
 
 ---

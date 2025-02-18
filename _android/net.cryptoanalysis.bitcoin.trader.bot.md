@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Bitcoin Trader Bot'
+title: Bitcoin Trader Bot
 altTitle: 
 authors: 
 users: 10
-appId: 'net.cryptoanalysis.bitcoin.trader.bot'
+appId: net.cryptoanalysis.bitcoin.trader.bot
 appCountry: 
-released: '2021-06-28'
-updated: '2021-06-28'
+released: 2021-06-28
+updated: 2021-06-28
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: '2.2M'
 website: 
 repository: 
 issue: 
-icon: 'net.cryptoanalysis.bitcoin.trader.bot.png'
+icon: net.cryptoanalysis.bitcoin.trader.bot.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2021-10-01'
+date: 2021-10-01
 signer: 
 reviewArchive: 
 twitter: 

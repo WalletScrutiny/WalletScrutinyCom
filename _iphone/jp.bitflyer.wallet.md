@@ -7,12 +7,11 @@ authors:
 appId: jp.bitflyer.wallet
 appCountry: jp
 idd: 1164758997
-released: '2016-11-18'
-updated: '2025-02-04'
-version: '7.43.0'
+released: 2016-11-18
+updated: 2025-02-14
+version: 7.45.0
 stars: 4.4
-reviews: 126579
-size: '59817984'
+reviews: 126699
 website: https://bitflyer.com/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2021-08-27'
+date: 2021-08-27
 signer: 
 reviewArchive: 
 twitter: bitFlyer

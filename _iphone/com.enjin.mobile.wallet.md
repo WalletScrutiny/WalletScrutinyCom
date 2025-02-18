@@ -8,12 +8,11 @@ authors:
 appId: com.enjin.mobile.wallet
 appCountry: 
 idd: 1349078375
-released: '2018-03-12'
-updated: '2025-01-09'
-version: '2.11.9'
+released: 2018-03-12
+updated: 2025-01-09
+version: 2.11.9
 stars: 4.5
 reviews: 1370
-size: '53824512'
 website: https://enjin.io/products/wallet
 repository: 
 issue: 
@@ -22,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: '2023-01-17'
+date: 2023-01-17
 signer: 
 reviewArchive: 
 twitter: enjin

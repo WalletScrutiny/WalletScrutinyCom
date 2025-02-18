@@ -1,33 +1,33 @@
 ---
-wsId: 'powerTrade'
-title: 'PowerTrade'
+wsId: powerTrade
+title: PowerTrade
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.pt.powertrade'
+appId: com.pt.powertrade
 appCountry: 
-released: '2021-07-27'
+released: 2021-07-27
 updated: 2023-04-24
-version: '2.2.1'
+version: 2.2.1
 stars: 3.7
 ratings: 
 reviews: 
-website: 'https://power.trade/'
+website: https://power.trade/
 repository: 
 issue: 
-icon: 'com.pt.powertrade.png'
+icon: com.pt.powertrade.png
 bugbounty: 
-meta: 'stale'
-verdict: 'custodial'
+meta: stale
+verdict: custodial
 appHashes: 
-date: '2024-04-18'
+date: 2024-04-18
 signer: 
 reviewArchive: 
-twitter: 'powertradehq'
+twitter: powertradehq
 social: 
 redirect_from: 
-developerName: 'PowerTrade'
+developerName: PowerTrade
 features: 
 
 ---

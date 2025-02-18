@@ -1,37 +1,37 @@
 ---
-wsId: 'tokero'
-title: 'TOKERO'
+wsId: tokero
+title: TOKERO
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.ldvtech.tokero'
+appId: com.ldvtech.tokero
 appCountry: 
-released: '2021-06-02'
+released: 2021-06-02
 updated: 2024-11-27
-version: '4.4.4'
+version: 4.4.4
 stars: 5
 ratings: 
 reviews: 4
-website: 'https://web.tokero.com'
+website: https://web.tokero.com
 repository: 
 issue: 
-icon: 'com.ldvtech.tokero.png'
+icon: com.ldvtech.tokero.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-04-28'
+date: 2023-04-28
 signer: 
 reviewArchive: 
-twitter: 'tokeroexchange'
+twitter: tokeroexchange
 social:
-- 'https://www.facebook.com/TokeroExchange/'
-- 'https://www.linkedin.com/company/tokero-crypto-exchange/'
-- 'https://www.instagram.com/tokerocryptoexchange/'
-- 'https://www.youtube.com/channel/UC7ayrHLw7VqgsQUGP9ZKCIw'
+- https://www.facebook.com/TokeroExchange/
+- https://www.linkedin.com/company/tokero-crypto-exchange/
+- https://www.instagram.com/tokerocryptoexchange/
+- https://www.youtube.com/channel/UC7ayrHLw7VqgsQUGP9ZKCIw
 redirect_from: 
-developerName: 'Globe Monnaie SRL'
+developerName: Globe Monnaie SRL
 features: 
 
 ---

@@ -3,7 +3,7 @@ title: Beli Bitcoin Card
 appId: belibitcoin
 authors:
 - danny
-released: '2019-11-05'
+released: 2019-11-05
 discontinued: 
 updated: 
 version: 
@@ -22,7 +22,7 @@ icon: belibitcoin.png
 bugbounty: 
 meta: ok
 verdict: wip
-date: '2023-03-10'
+date: 2023-03-10
 signer: 
 reviewArchive: 
 twitter: belibitcoinindo

@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Coindenex'
+title: Coindenex
 altTitle: 
 authors: 
 users: 10
-appId: 'com.coindenex'
+appId: com.coindenex
 appCountry: 
-released: '2021-05-02'
-updated: '2021-05-02'
+released: 2021-05-02
+updated: 2021-05-02
 version: '2.0'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://coindenex.com'
+website: https://coindenex.com
 repository: 
 issue: 
-icon: 'com.coindenex.png'
+icon: com.coindenex.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

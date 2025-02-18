@@ -7,12 +7,11 @@ authors:
 appId: com.metallicus.metalpay
 appCountry: us
 idd: 1345101178
-released: '2018-09-14'
-updated: '2025-02-07'
-version: '3.1.171'
+released: 2018-09-14
+updated: 2025-02-07
+version: 3.1.171
 stars: 4.3
-reviews: 4289
-size: '114255872'
+reviews: 4291
 website: https://metalpay.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2021-10-21'
+date: 2021-10-21
 signer: 
 reviewArchive: 
 twitter: metalpaysme

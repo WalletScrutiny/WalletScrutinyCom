@@ -1,37 +1,37 @@
 ---
-wsId: 'ZelCore'
-title: 'Zelcore - Crypto Wallet'
+wsId: ZelCore
+title: Zelcore - Crypto Wallet
 altTitle: 
 authors:
-- 'leo'
-- 'danny'
+- leo
+- danny
 users: 100000
-appId: 'com.zelcash.zelcore'
+appId: com.zelcash.zelcore
 appCountry: 
-released: '2018-09-21'
+released: 2018-09-21
 updated: 2025-01-29
-version: '8.13.0'
+version: 8.13.0
 stars: 3.4
 ratings: 834
 reviews: 140
-website: 'https://zelcore.io'
+website: https://zelcore.io
 repository: 
 issue: 
-icon: 'com.zelcash.zelcore.png'
+icon: com.zelcash.zelcore.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-13'
+date: 2024-07-13
 signer: 
 reviewArchive: 
-twitter: 'zelcash'
+twitter: zelcash
 social:
-- 'https://www.reddit.com/r/ZelCash'
+- https://www.reddit.com/r/ZelCash
 redirect_from:
-- '/com.zelcash.zelcore/'
-- '/posts/com.zelcash.zelcore/'
-developerName: 'Influx Technologies Limited'
+- /com.zelcash.zelcore/
+- /posts/com.zelcash.zelcore/
+developerName: Influx Technologies Limited
 features: 
 
 ---

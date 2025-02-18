@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'CoinsBank Mobile Wallet'
+title: CoinsBank Mobile Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.CoinsBank.CoinsBank'
+appId: com.CoinsBank.CoinsBank
 appCountry: 
-released: '2016-04-03'
-updated: '2020-12-30'
-version: '3.5.4'
+released: 2016-04-03
+updated: 2020-12-30
+version: 3.5.4
 stars: 3.6
 ratings: 266
 reviews: 9
-size: 
-website: 'https://www.coinsbank.com'
+website: https://www.coinsbank.com
 repository: 
 issue: 
-icon: 'com.CoinsBank.CoinsBank.png'
+icon: com.CoinsBank.CoinsBank.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-04-26'
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'CoinsBank'
+developerName: CoinsBank
 features: 
 
 ---

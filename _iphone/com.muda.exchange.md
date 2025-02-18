@@ -7,12 +7,11 @@ authors:
 appId: com.muda.exchange
 appCountry: cd
 idd: '1625286267'
-released: '2022-11-06'
-updated: '2023-12-06'
+released: 2022-11-06
+updated: 2023-12-06
 version: '2.1'
 stars: 0
 reviews: 0
-size: '61788160'
 website: https://www.muda.exchange
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2024-11-19'
+date: 2024-11-19
 signer: 
 reviewArchive: 
 twitter: mudatech_

@@ -1,35 +1,34 @@
 ---
-wsId: 'blockchainExchange'
-title: 'Blockchain.com Exchange'
+wsId: blockchainExchange
+title: Blockchain.com Exchange
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.blockchain.exchange'
+appId: com.blockchain.exchange
 appCountry: 
-released: '2021-10-27'
-updated: '2023-10-08'
-version: '202310.1.1'
+released: 2021-10-27
+updated: 2023-10-08
+version: 202310.1.1
 stars: 4.2
 ratings: 
 reviews: 44
-size: 
-website: 'https://www.blockchain.com'
+website: https://www.blockchain.com
 repository: 
 issue: 
-icon: 'com.blockchain.exchange.png'
+icon: com.blockchain.exchange.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
-twitter: 'blockchain'
+twitter: blockchain
 social:
-- 'https://www.instagram.com/blockchainofficial'
+- https://www.instagram.com/blockchainofficial
 redirect_from: 
-developerName: 'Blockchain Luxembourg S.A.'
+developerName: Blockchain Luxembourg S.A.
 features: 
 
 ---

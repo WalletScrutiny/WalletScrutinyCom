@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Bitnuk'
+title: Bitnuk
 altTitle: 
 authors: 
 users: 100
-appId: 'com.isun.ag.bitnuk'
+appId: com.isun.ag.bitnuk
 appCountry: 
-released: '2020-02-16'
-updated: '2020-03-09'
-version: '1.0.1'
+released: 2020-02-16
+updated: 2020-03-09
+version: 1.0.1
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://bitnuk.com/'
+website: https://bitnuk.com/
 repository: 
 issue: 
-icon: 'com.isun.ag.bitnuk.png'
+icon: com.isun.ag.bitnuk.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-04-03'
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Bitnuk AG'
+developerName: Bitnuk AG
 features: 
 
 ---

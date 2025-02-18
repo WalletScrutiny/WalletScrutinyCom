@@ -1,35 +1,34 @@
 ---
-wsId: 'WanWallet'
-title: 'WanWallet'
+wsId: WanWallet
+title: WanWallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.wanchain.WanWallet'
-appCountry: 'us'
-released: '2019-08-18'
-updated: '2021-04-25'
+appId: com.wanchain.WanWallet
+appCountry: us
+released: 2019-08-18
+updated: 2021-04-25
 version: '5.0'
 stars: 3.4
 ratings: 120
 reviews: 11
-size: '65M'
-website: 'https://www.wanchain.org'
+website: https://www.wanchain.org
 repository: 
 issue: 
-icon: 'com.wanchain.WanWallet.png'
+icon: com.wanchain.WanWallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2022-04-07'
+date: 2022-04-07
 signer: 
 reviewArchive: 
-twitter: 'wanchain_org'
+twitter: wanchain_org
 social:
-- 'https://www.facebook.com/wanchainfoundation'
-- 'https://www.reddit.com/r/wanchain'
-- 'https://github.com/wanchain'
+- https://www.facebook.com/wanchainfoundation
+- https://www.reddit.com/r/wanchain
+- https://github.com/wanchain
 redirect_from: 
 developerName: 
 features: 

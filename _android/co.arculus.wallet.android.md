@@ -1,37 +1,37 @@
 ---
 wsId: 
-title: 'Arculus Wallet'
+title: Arculus Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'co.arculus.wallet.android'
+appId: co.arculus.wallet.android
 appCountry: 
-released: '2021-10-06'
-updated: 2024-12-24
-version: '3.8.1'
+released: 2021-10-06
+updated: 2025-01-27
+version: 3.8.2
 stars: 4.7
 ratings: 
-reviews: 98
-website: 'https://getarculus.com'
+reviews: 101
+website: https://getarculus.com
 repository: 
 issue: 
-icon: 'co.arculus.wallet.android.png'
+icon: co.arculus.wallet.android.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2023-04-20'
+date: 2023-04-20
 signer: 
 reviewArchive: 
-twitter: 'thisisarculus'
+twitter: thisisarculus
 social:
-- 'https://www.linkedin.com/company/thisisarculus'
-- 'https://www.facebook.com/thisisarculus'
-- 'https://www.youtube.com/channel/UCfSNqRVqiS_sEvLBxmOWUvQ'
-- 'https://www.instagram.com/thisisarculus/'
+- https://www.linkedin.com/company/thisisarculus
+- https://www.facebook.com/thisisarculus
+- https://www.youtube.com/channel/UCfSNqRVqiS_sEvLBxmOWUvQ
+- https://www.instagram.com/thisisarculus/
 redirect_from: 
-developerName: 'Arculus Holdings L.L.C.'
+developerName: Arculus Holdings L.L.C.
 features: 
 
 ---

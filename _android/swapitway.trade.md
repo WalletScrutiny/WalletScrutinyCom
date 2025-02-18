@@ -3,33 +3,33 @@ wsId:
 title: 'Swapitway: Sell Gift Cards'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'swapitway.trade'
+appId: swapitway.trade
 appCountry: 
-released: '2021-11-01'
+released: 2021-11-01
 updated: 2024-10-23
 version: '4'
 stars: 2.8
 ratings: 
 reviews: 48
-website: 'https://swapitway.com'
+website: https://swapitway.com
 repository: 
 issue: 
-icon: 'swapitway.trade.jpg'
+icon: swapitway.trade.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-09-10'
+date: 2023-09-10
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://www.facebook.com/swapitway'
-- 'mailto:swapitway@gmail.com'
+- https://www.facebook.com/swapitway
+- mailto:swapitway@gmail.com
 redirect_from: 
-developerName: 'Nairance Limited'
+developerName: Nairance Limited
 features: 
 
 ---

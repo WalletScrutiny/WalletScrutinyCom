@@ -1,29 +1,28 @@
 ---
 wsId: 
-title: 'Bitcoin wallet'
-altTitle: 'Bitcoin wallet by mysecurewallet.info'
+title: Bitcoin wallet
+altTitle: Bitcoin wallet by mysecurewallet.info
 authors:
-- 'leo'
-- 'emanuel'
+- leo
+- emanuel
 users: 5000
-appId: 'info.mysecurewallet.wallet'
+appId: info.mysecurewallet.wallet
 appCountry: 
-released: '2019-11-01'
-updated: '2019-11-02'
+released: 2019-11-01
+updated: 2019-11-02
 version: '1.1'
 stars: 3.5
 ratings: 63
 reviews: 42
-size: '3.9M'
 website: 
 repository: 
 issue: 
-icon: 'info.mysecurewallet.wallet.png'
+icon: info.mysecurewallet.wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2022-01-15'
+date: 2022-01-15
 signer: 
 reviewArchive: 
 twitter: 

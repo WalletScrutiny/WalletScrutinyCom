@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'World Money Trade'
+title: World Money Trade
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'world.money.trade.worldmoneytrade'
+appId: world.money.trade.worldmoneytrade
 appCountry: 
-released: '2020-07-24'
-updated: '2020-08-04'
+released: 2020-07-24
+updated: 2020-08-04
 version: '2.0'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://worldmoneytrade.com'
+website: https://worldmoneytrade.com
 repository: 
 issue: 
-icon: 'world.money.trade.worldmoneytrade.png'
+icon: world.money.trade.worldmoneytrade.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2023-04-18'
+date: 2023-04-18
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'WorldMoneyTrade Inc.'
+developerName: WorldMoneyTrade Inc.
 features: 
 
 ---

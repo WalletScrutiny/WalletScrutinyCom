@@ -1,36 +1,35 @@
 ---
-wsId: 'bitfortip'
-title: 'Bitfortip | Now with Tezos sup'
+wsId: bitfortip
+title: Bitfortip | Now with Tezos sup
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.rishabh.bitfortip'
-appCountry: 'us'
-released: '2016-12-21'
-updated: '2021-06-20'
+appId: com.rishabh.bitfortip
+appCountry: us
+released: 2016-12-21
+updated: 2021-06-20
 version: '2.6'
 stars: 4.5
 ratings: 77
 reviews: 3
-size: 
-website: 'https://www.bitfortip.com/'
+website: https://www.bitfortip.com/
 repository: 
 issue: 
-icon: 'com.rishabh.bitfortip.jpg'
+icon: com.rishabh.bitfortip.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
-twitter: 'bitfortip'
+twitter: bitfortip
 social:
-- 'https://www.linkedin.com/company/bitfortip'
-- 'https://www.facebook.com/bitfortip'
+- https://www.linkedin.com/company/bitfortip
+- https://www.facebook.com/bitfortip
 redirect_from: 
-developerName: 'Bitfortip'
+developerName: Bitfortip
 features: 
 
 ---

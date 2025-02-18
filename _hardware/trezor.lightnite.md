@@ -3,7 +3,7 @@ title: Trezor LIGHTNITE
 appId: trezor.lightnite
 authors:
 - danny
-released: '2020-09-08'
+released: 2020-09-08
 discontinued: 
 updated: 
 version: 
@@ -26,7 +26,7 @@ bugbounty:
 meta: discontinued
 verdict: wip
 appHashes: 
-date: '2022-05-19'
+date: 2022-05-19
 signer: 
 reviewArchive: 
 twitter: lightnitegame

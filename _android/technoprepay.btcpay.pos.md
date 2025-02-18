@@ -1,35 +1,35 @@
 ---
 wsId: 
-title: 'BITCOIN POS'
+title: BITCOIN POS
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'technoprepay.btcpay.pos'
+appId: technoprepay.btcpay.pos
 appCountry: 
-released: '2022-04-16'
+released: 2022-04-16
 updated: 2025-01-18
-version: '8.1.0'
+version: 8.1.0
 stars: 
 ratings: 
 reviews: 
-website: 'https://technoprepay.com'
+website: https://technoprepay.com
 repository: 
 issue: 
-icon: 'technoprepay.btcpay.pos.png'
+icon: technoprepay.btcpay.pos.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2023-11-03'
+date: 2023-11-03
 signer: 
 reviewArchive: 
-twitter: 'technoprepay'
+twitter: technoprepay
 social:
-- 'https://www.facebook.com/profile.php?id=100063462636616'
-- 'https://www.youtube.com/channel/UCnUHLVbNaZ6eOe-lkvavQcg'
+- https://www.facebook.com/profile.php?id=100063462636616
+- https://www.youtube.com/channel/UCnUHLVbNaZ6eOe-lkvavQcg
 redirect_from: 
-developerName: 'Technoprepay Solutions'
+developerName: Technoprepay Solutions
 features: 
 
 ---

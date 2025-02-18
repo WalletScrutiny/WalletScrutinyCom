@@ -4,24 +4,23 @@ title: 'Fulmo: Bitcoin & Altcoins Wallet'
 altTitle: 
 authors: 
 users: 50
-appId: 'io.fulmo'
+appId: io.fulmo
 appCountry: 
-released: '2019-01-09'
-updated: '2019-06-11'
-version: '1.0.0'
+released: 2019-01-09
+updated: 2019-06-11
+version: 1.0.0
 stars: 4.3
 ratings: 11
 reviews: 7
-size: '9.0M'
 website: 
 repository: 
 issue: 
-icon: 'io.fulmo.png'
+icon: io.fulmo.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2021-11-10'
+date: 2021-11-10
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,41 +1,40 @@
 ---
-wsId: 'edge'
-title: 'Edge - Crypto & Bitcoin Wallet'
+wsId: edge
+title: Edge - Crypto & Bitcoin Wallet
 altTitle: 
 authors:
-- 'leo'
-- 'emanuel'
-appId: 'co.edgesecure.app'
+- leo
+- emanuel
+appId: co.edgesecure.app
 appCountry: 
 idd: '1344400091'
-released: '2018-02-09'
+released: 2018-02-09
 updated: 2025-02-06
-version: '4.21.2'
-stars: 4.47727
-reviews: 1628
-size: '96394240'
-website: 'https://edge.app'
-repository: 'https://github.com/EdgeApp/edge-react-gui'
+version: 4.21.2
+stars: 4.5
+reviews: 1631
+website: https://edge.app
+repository: https://github.com/EdgeApp/edge-react-gui
 issue: 
-icon: 'co.edgesecure.app.jpg'
+icon: co.edgesecure.app.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'nonverifiable'
+meta: ok
+verdict: nonverifiable
 appHashes: 
-date: '2022-03-13'
+date: 2022-03-13
 signer: 
 reviewArchive:
-- date: '2019-11-10'
-  version: '1.10.1'
+- date: 2019-11-10
+  version: 1.10.1
   appHashes: []
-  gitRevision: '1707808e9efc2ab4ea3a03510ebd408811586d47'
-  verdict: 'ftbfs'
-twitter: 'edgewallet'
+  gitRevision: 1707808e9efc2ab4ea3a03510ebd408811586d47
+  verdict: ftbfs
+twitter: edgewallet
 social:
-- 'https://www.linkedin.com/company/edgeapp'
-- 'https://www.reddit.com/r/EdgeWallet'
+- https://www.linkedin.com/company/edgeapp
+- https://www.reddit.com/r/EdgeWallet
 features: 
-developerName: 'Airbitz Inc'
+developerName: Airbitz Inc
 
 ---
 

@@ -7,12 +7,11 @@ authors:
 appId: com.youniqx.chainlock.ios
 appCountry: us
 idd: '1442543217'
-released: '2018-11-22'
-updated: '2023-08-08'
-version: '1.47.0'
+released: 2018-11-22
+updated: 2023-08-08
+version: 1.47.0
 stars: 5
 reviews: 2
-size: '35381248'
 website: https://www.chainlock.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: stale
 verdict: nowallet
 appHashes: 
-date: '2024-08-02'
+date: 2024-08-02
 signer: 
 reviewArchive: 
 twitter: youniqx

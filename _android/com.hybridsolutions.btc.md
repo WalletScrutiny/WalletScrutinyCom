@@ -1,36 +1,35 @@
 ---
 wsId: 
-title: 'BTC Trader'
+title: BTC Trader
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.hybridsolutions.btc'
+appId: com.hybridsolutions.btc
 appCountry: 
-released: '2020-08-24'
-updated: '2023-06-13'
-version: '1.2.1.10'
+released: 2020-08-24
+updated: 2023-06-13
+version: 1.2.1.10
 stars: 4.6
 ratings: 
 reviews: 1
-size: 
-website: 'https://hybridsolutions.com/'
+website: https://hybridsolutions.com/
 repository: 
 issue: 
-icon: 'com.hybridsolutions.btc.png'
+icon: com.hybridsolutions.btc.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
-twitter: 'VertexFXTrader'
+twitter: VertexFXTrader
 social:
-- 'https://www.linkedin.com/company/hybrid-solutions-hs-'
-- 'https://www.facebook.com/VertexFXTrader'
+- https://www.linkedin.com/company/hybrid-solutions-hs-
+- https://www.facebook.com/VertexFXTrader
 redirect_from: 
-developerName: 'Hybrid Solutions - VertexFX Trader'
+developerName: Hybrid Solutions - VertexFX Trader
 features: 
 
 ---

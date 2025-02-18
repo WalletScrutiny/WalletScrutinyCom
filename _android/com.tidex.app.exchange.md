@@ -1,38 +1,38 @@
 ---
-wsId: 'tidexExchange'
-title: 'Tidex'
+wsId: tidexExchange
+title: Tidex
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.tidex.app.exchange'
+appId: com.tidex.app.exchange
 appCountry: 
-released: '2022-06-30'
+released: 2022-06-30
 updated: 2024-03-08
-version: '1.0.6'
+version: 1.0.6
 stars: 2.2
 ratings: 
 reviews: 7
-website: 'https://tidex.com'
+website: https://tidex.com
 repository: 
 issue: 
-icon: 'com.tidex.app.exchange.png'
+icon: com.tidex.app.exchange.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2024-03-12'
+date: 2024-03-12
 signer: 
 reviewArchive: 
-twitter: 'Tidex_Exchange'
+twitter: Tidex_Exchange
 social:
-- 'https://www.facebook.com/TidexExchange'
-- 'https://t.me/Tidex_News'
-- 'https://www.youtube.com/channel/UC5C5h2fePy4CG_FcwgUgwpg'
-- 'https://www.tiktok.com/@tidex_exchange'
-- 'https://www.reddit.com/r/Tidex_Global'
+- https://www.facebook.com/TidexExchange
+- https://t.me/Tidex_News
+- https://www.youtube.com/channel/UC5C5h2fePy4CG_FcwgUgwpg
+- https://www.tiktok.com/@tidex_exchange
+- https://www.reddit.com/r/Tidex_Global
 redirect_from: 
-developerName: 'Tidex'
+developerName: Tidex
 features: 
 
 ---

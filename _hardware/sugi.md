@@ -27,7 +27,7 @@ bugbounty:
 meta: ok
 verdict: noita
 appHashes: 
-date: '2022-11-03'
+date: 2022-11-03
 signer: 
 reviewArchive: 
 twitter: SugiCard

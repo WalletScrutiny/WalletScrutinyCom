@@ -3,38 +3,37 @@ wsId:
 title: 'Inflowchange: Sell Bitcoin'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.inflowchange.inflowchange'
+appId: com.inflowchange.inflowchange
 appCountry: 
-released: '2023-02-17'
-updated: '2023-06-25'
+released: 2023-02-17
+updated: 2023-06-25
 version: '1.8'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://inflowchange.com'
+website: https://inflowchange.com
 repository: 
 issue: 
-icon: 'com.inflowchange.inflowchange.png'
+icon: com.inflowchange.inflowchange.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosendreceive'
+meta: removed
+verdict: nosendreceive
 appHashes: 
-date: '2024-03-02'
+date: 2024-03-02
 signer: 
 reviewArchive: 
-twitter: 'inflowchange'
+twitter: inflowchange
 social:
-- 'https://www.tiktok.com/@inflowchange'
-- 'https://www.instagram.com/inflowchange'
-- 'https://www.facebook.com/Inflowchange/'
-- 'https://t.me/inflowchange'
-- 'https://www.youtube.com/@inflowchange'
-- 'https://www.linkedin.com/company/inflowchange/'
+- https://www.tiktok.com/@inflowchange
+- https://www.instagram.com/inflowchange
+- https://www.facebook.com/Inflowchange/
+- https://t.me/inflowchange
+- https://www.youtube.com/@inflowchange
+- https://www.linkedin.com/company/inflowchange/
 redirect_from: 
-developerName: 'Paychatik Ltd.'
+developerName: Paychatik Ltd.
 features: 
 
 ---

@@ -1,35 +1,34 @@
 ---
-wsId: 'MoneyPipe'
+wsId: MoneyPipe
 title: 'MoneyPipe: HD Bitcoin Wallet'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.beecrypt.beecrypthd'
-appCountry: 'us'
-released: '2020-05-27'
-updated: '2023-05-05'
-version: '6.0.7'
+appId: com.beecrypt.beecrypthd
+appCountry: us
+released: 2020-05-27
+updated: 2023-05-05
+version: 6.0.7
 stars: 4
 ratings: 
 reviews: 
-size: 
-website: 'https://moneypipe.com/'
+website: https://moneypipe.com/
 repository: 
 issue: 
-icon: 'com.beecrypt.beecrypthd.png'
+icon: com.beecrypt.beecrypthd.png
 bugbounty: 
-meta: 'stale'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2024-05-04'
+date: 2025-02-18
 signer: 
 reviewArchive: 
-twitter: 'money_pipe'
+twitter: money_pipe
 social:
-- 'https://www.facebook.com/moneypipewallet'
+- https://www.facebook.com/moneypipewallet
 redirect_from: 
-developerName: 'MadCats'
+developerName: MadCats
 features: 
 
 ---

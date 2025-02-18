@@ -1,37 +1,37 @@
 ---
-wsId: 'coinStore'
-title: 'Coinstore:Trade Crypto&Futures'
+wsId: coinStore
+title: Coinstore:Trade Crypto&Futures
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 500000
-appId: 'com.io.coinstore'
+appId: com.io.coinstore
 appCountry: 
-released: '2021-03-29'
+released: 2021-03-29
 updated: 2025-01-23
-version: '3.4.0'
-stars: 4.1
+version: 3.4.0
+stars: 4.2
 ratings: 
 reviews: 68
-website: 'https://www.coinstore.com'
+website: https://www.coinstore.com
 repository: 
 issue: 
-icon: 'com.io.coinstore.png'
+icon: com.io.coinstore.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2022-06-22'
+date: 2022-06-22
 signer: 
 reviewArchive: 
-twitter: 'coinstore_en'
+twitter: coinstore_en
 social:
-- 'https://www.linkedin.com/company/coinstore'
-- 'https://coinstore.medium.com'
-- 'https://www.facebook.com/coinstoreglobal'
-- 'https://t.me/coinstore_english'
+- https://www.linkedin.com/company/coinstore
+- https://coinstore.medium.com
+- https://www.facebook.com/coinstoreglobal
+- https://t.me/coinstore_english
 redirect_from: 
-developerName: 'CS- Coinstore'
+developerName: CS- Coinstore
 features: 
 
 ---

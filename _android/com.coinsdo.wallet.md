@@ -1,35 +1,35 @@
 ---
-wsId: 'coinsDoCoinWallet'
+wsId: coinsDoCoinWallet
 title: 'CoinWallet: BTC USDT Wallet'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 500000
-appId: 'com.coinsdo.wallet'
+appId: com.coinsdo.wallet
 appCountry: 
-released: '2022-06-26'
+released: 2022-06-26
 updated: 2025-02-03
-version: '2.0.7'
+version: 2.0.7
 stars: 4.5
 ratings: 
-reviews: 99
-website: 'https://www.coinsdo.com'
+reviews: 100
+website: https://www.coinsdo.com
 repository: 
 issue: 
-icon: 'com.coinsdo.wallet.png'
+icon: com.coinsdo.wallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-24'
+date: 2024-07-24
 signer: 
 reviewArchive: 
-twitter: 'coinsdogroup'
+twitter: coinsdogroup
 social:
-- 'https://www.facebook.com/CoinsDogroup'
-- 'https://www.linkedin.com/company/coinsdo'
+- https://www.facebook.com/CoinsDogroup
+- https://www.linkedin.com/company/coinsdo
 redirect_from: 
-developerName: 'COINSDO'
+developerName: COINSDO
 features: 
 
 ---

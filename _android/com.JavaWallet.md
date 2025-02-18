@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Java Wallet'
+title: Java Wallet
 altTitle: 
 authors: 
 users: 100
-appId: 'com.JavaWallet'
+appId: com.JavaWallet
 appCountry: 
-released: '2020-12-23'
-updated: '2021-02-05'
+released: 2020-12-23
+updated: 2021-02-05
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.JavaWallet.png'
+icon: com.JavaWallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Java wallet Technologies'
+developerName: Java wallet Technologies
 features: 
 
 ---

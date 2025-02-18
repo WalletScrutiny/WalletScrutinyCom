@@ -1,37 +1,36 @@
 ---
-wsId: 'Cofinex'
-title: 'Cofinex.io Buy BTC, ETH, LTC'
+wsId: Cofinex
+title: Cofinex.io Buy BTC, ETH, LTC
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.app.cofinexexchange34'
-appCountry: 'sg'
-released: '2021-02-12'
-updated: '2022-12-08'
+appId: com.app.cofinexexchange34
+appCountry: sg
+released: 2021-02-12
+updated: 2022-12-08
 version: '3.0'
 stars: 
 ratings: 10
 reviews: 
-size: 
-website: 'https://cofinex.io'
+website: https://cofinex.io
 repository: 
 issue: 
-icon: 'com.app.cofinexexchange34.png'
+icon: com.app.cofinexexchange34.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
-twitter: 'CofinexExchange'
+twitter: CofinexExchange
 social:
-- 'https://www.linkedin.com/company/cofinex-exchange'
-- 'https://www.facebook.com/cofinex.io'
-- 'https://www.youtube.com/@cofinexexchange'
+- https://www.linkedin.com/company/cofinex-exchange
+- https://www.facebook.com/cofinex.io
+- https://www.youtube.com/@cofinexexchange
 redirect_from: 
-developerName: 'Cofinex Inc Ltd.'
+developerName: Cofinex Inc Ltd.
 features: 
 
 ---

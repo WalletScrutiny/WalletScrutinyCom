@@ -1,35 +1,35 @@
 ---
-wsId: 'STICPAY'
-title: 'STICPAY'
+wsId: STICPAY
+title: STICPAY
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.sticpay.app.sticpay'
-appCountry: 'us'
-released: '2017-08-31'
+appId: com.sticpay.app.sticpay
+appCountry: us
+released: 2017-08-31
 updated: 2024-12-23
 version: '4.22'
 stars: 3.9
 ratings: 380
 reviews: 10
-website: 'http://sticpay.com'
+website: http://sticpay.com
 repository: 
 issue: 
-icon: 'com.sticpay.app.sticpay.png'
+icon: com.sticpay.app.sticpay.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-10-01'
+date: 2021-10-01
 signer: 
 reviewArchive: 
-twitter: 'SticPay'
+twitter: SticPay
 social:
-- 'https://www.linkedin.com/company/sticpay'
-- 'https://www.facebook.com/sticpay.global'
+- https://www.linkedin.com/company/sticpay
+- https://www.facebook.com/sticpay.global
 redirect_from: 
-developerName: 'STICPAY'
+developerName: STICPAY
 features: 
 
 ---

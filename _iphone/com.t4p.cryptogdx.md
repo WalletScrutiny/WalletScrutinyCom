@@ -7,12 +7,11 @@ authors:
 appId: com.t4p.cryptogdx
 appCountry: us
 idd: 1355493928
-released: '2018-04-27'
-updated: '2024-12-03'
+released: 2018-04-27
+updated: 2024-12-03
 version: '3.0'
 stars: 4.6
-reviews: 198
-size: '54152192'
+reviews: 200
 website: https://trading4pro.com/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: nowallet
 appHashes: 
-date: '2024-12-04'
+date: 2024-12-04
 signer: 
 reviewArchive: 
 twitter: Trading4Pro

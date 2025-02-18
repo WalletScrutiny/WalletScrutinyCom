@@ -1,35 +1,35 @@
 ---
-wsId: 'trustPoolFrostWallet'
+wsId: trustPoolFrostWallet
 title: 'FROST Wallet: Buy BTC & Crypto'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.frostwallet'
+appId: com.frostwallet
 appCountry: 
-released: '2022-02-01'
+released: 2022-02-01
 updated: 2025-01-24
-version: '2.5.23'
+version: 2.5.23
 stars: 4.4
 ratings: 
 reviews: 1
-website: 'https://frostwallet.cc'
+website: https://frostwallet.cc
 repository: 
 issue: 
-icon: 'com.frostwallet.png'
+icon: com.frostwallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-24'
+date: 2024-07-24
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://t.me/frost_wallet'
-- 'https://www.instagram.com/frostwallet.cc'
+- https://t.me/frost_wallet
+- https://www.instagram.com/frostwallet.cc
 redirect_from: 
-developerName: 'Trustpool'
+developerName: Trustpool
 features: 
 
 ---

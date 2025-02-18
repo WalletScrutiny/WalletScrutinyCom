@@ -3,32 +3,31 @@ wsId:
 title: 'CM Robot - Autotrader Bitcoin '
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.cryptomaniac.cmrobot'
+appId: com.cryptomaniac.cmrobot
 appCountry: 
-released: '2019-08-21'
-updated: '2019-09-11'
-version: '2.2.1'
+released: 2019-08-21
+updated: 2019-09-11
+version: 2.2.1
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.cmrobot.id/'
+website: https://www.cmrobot.id/
 repository: 
 issue: 
-icon: 'com.cryptomaniac.cmrobot.png'
+icon: com.cryptomaniac.cmrobot.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2023-05-22'
+date: 2023-05-22
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'PT. Eunomia Internasional Grup'
+developerName: PT. Eunomia Internasional Grup
 features: 
 
 ---

@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'CRIPTOHUB - CHBR'
+title: CRIPTOHUB - CHBR
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.criptohub'
+appId: com.criptohub
 appCountry: 
-released: '2019-07-30'
-updated: '2019-10-10'
-version: '1.0.6'
+released: 2019-07-30
+updated: 2019-10-10
+version: 1.0.6
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://dashboard.criptohub.com.br/'
+website: https://dashboard.criptohub.com.br/
 repository: 
 issue: 
-icon: 'com.criptohub.png'
+icon: com.criptohub.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2023-05-17'
+date: 2023-05-17
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'CriptoHub'
+developerName: CriptoHub
 features: 
 
 ---

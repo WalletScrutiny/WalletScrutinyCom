@@ -1,32 +1,31 @@
 ---
-wsId: 'bitay'
-title: 'Bitay - Easy Bitcoin Exchange'
+wsId: bitay
+title: Bitay - Easy Bitcoin Exchange
 altTitle: 
 authors:
-- 'danny'
-appId: 'com.app.Bitay'
-appCountry: 'us'
+- danny
+appId: com.app.Bitay
+appCountry: us
 idd: '1458595661'
-released: '2019-04-14'
-updated: '2022-11-25'
-version: '3.1.9'
+released: 2019-04-14
+updated: 2022-11-25
+version: 3.1.9
 stars: 4.3
 reviews: 8
-size: '43004928'
 website: 
 repository: 
 issue: 
-icon: 'com.app.Bitay.jpg'
+icon: com.app.Bitay.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-01-30'
+date: 2023-01-30
 signer: 
 reviewArchive: 
-twitter: 'BitayTurkiye'
+twitter: BitayTurkiye
 social:
-- 'https://www.facebook.com/bitayturkiye'
+- https://www.facebook.com/bitayturkiye
 features: 
 developerName: 
 

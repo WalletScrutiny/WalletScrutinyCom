@@ -1,36 +1,35 @@
 ---
-wsId: 'polyxCrypto'
+wsId: polyxCrypto
 title: 'Polyx Crypto Wallet: BTC, ETH'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'net.polyx.wallet'
+appId: net.polyx.wallet
 appCountry: 
-released: '2021-10-01'
-updated: '2022-09-16'
-version: '1.5.1'
+released: 2021-10-01
+updated: 2022-09-16
+version: 1.5.1
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://wallet.polyx.net'
+website: https://wallet.polyx.net
 repository: 
 issue: 
-icon: 'net.polyx.wallet.png'
+icon: net.polyx.wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2023-11-02'
+date: 2023-11-02
 signer: 
 reviewArchive: 
-twitter: 'Polyxchange'
+twitter: Polyxchange
 social:
-- 'https://www.facebook.com/Polyxchange'
-- 'https://t.me/polyxchange'
+- https://www.facebook.com/Polyxchange
+- https://t.me/polyxchange
 redirect_from: 
-developerName: 'Polygant Ltd'
+developerName: Polygant Ltd
 features: 
 
 ---

@@ -3,34 +3,34 @@ wsId:
 title: 'MEXC: Buy Bitcoin BTC & Crypto'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000000
-appId: 'com.mexcpro.client'
+appId: com.mexcpro.client
 appCountry: 
-released: '2020-07-23'
+released: 2020-07-23
 updated: 2025-02-08
-version: 'VARY'
-stars: 4.4
+version: VARY
+stars: 4.5
 ratings: 12371
-reviews: 973
-website: 'https://www.mexc.com'
+reviews: 984
+website: https://www.mexc.com
 repository: 
 issue: 
-icon: 'com.mexcpro.client.jpg'
+icon: com.mexcpro.client.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-08-21'
+date: 2021-08-21
 signer: 
 reviewArchive: 
-twitter: 'MEXC_Global'
+twitter: MEXC_Global
 social:
-- 'https://www.linkedin.com/company/mexcglobal'
-- 'https://www.facebook.com/mexcglobal'
-- 'https://www.reddit.com/r/MXCexchange'
+- https://www.linkedin.com/company/mexcglobal
+- https://www.facebook.com/mexcglobal
+- https://www.reddit.com/r/MXCexchange
 redirect_from: 
-developerName: 'MEXC'
+developerName: MEXC
 features: 
 
 ---

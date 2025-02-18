@@ -1,32 +1,31 @@
 ---
-wsId: 'btcCom'
-title: 'BTC.com - Bitcoin Wallet'
+wsId: btcCom
+title: BTC.com - Bitcoin Wallet
 altTitle: 
 authors: 
 users: 1000000
-appId: 'com.blocktrail.mywallet'
+appId: com.blocktrail.mywallet
 appCountry: 
-released: '2015-09-09'
-updated: '2019-04-03'
-version: '4.4.7'
+released: 2015-09-09
+updated: 2019-04-03
+version: 4.4.7
 stars: 3.4
 ratings: 8291
 reviews: 3928
-size: '13M'
-website: 'https://btc.com'
-repository: 'https://github.com/blocktrail/blocktrail-wallet'
+website: https://btc.com
+repository: https://github.com/blocktrail/blocktrail-wallet
 issue: 
-icon: 'com.blocktrail.mywallet.png'
+icon: com.blocktrail.mywallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'ftbfs'
+meta: removed
+verdict: ftbfs
 appHashes: 
-date: '2021-12-29'
+date: 2021-12-29
 signer: 
 reviewArchive: 
-twitter: 'btccom_official'
+twitter: btccom_official
 social:
-- 'https://www.facebook.com/btccom'
+- https://www.facebook.com/btccom
 redirect_from: 
 developerName: 
 features: 

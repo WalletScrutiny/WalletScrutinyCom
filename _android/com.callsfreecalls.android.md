@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'CFC Wallet - Earn Free,Hold or Buy BTC/ETH/CRAD'
+title: CFC Wallet - Earn Free,Hold or Buy BTC/ETH/CRAD
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000000
-appId: 'com.callsfreecalls.android'
+appId: com.callsfreecalls.android
 appCountry: 
-released: '2012-10-15'
-updated: '2020-10-07'
-version: '5.6.1'
+released: 2012-10-15
+updated: 2020-10-07
+version: 5.6.1
 stars: 3.7
 ratings: 12322
 reviews: 3745
-size: '43M'
-website: 'https://cfc.io'
+website: https://cfc.io
 repository: 
 issue: 
-icon: 'com.callsfreecalls.android.png'
+icon: com.callsfreecalls.android.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2021-08-21'
+date: 2021-08-21
 signer: 
 reviewArchive: 
-twitter: 'cfc_io'
+twitter: cfc_io
 social:
-- 'https://www.facebook.com/CFCEarnMoney'
+- https://www.facebook.com/CFCEarnMoney
 redirect_from: 
 developerName: 
 features: 

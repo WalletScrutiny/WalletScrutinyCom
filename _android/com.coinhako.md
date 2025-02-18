@@ -1,35 +1,35 @@
 ---
-wsId: 'coinhako'
+wsId: coinhako
 title: 'Coinhako: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
-- 'kiwilamb'
+- kiwilamb
 users: 100000
-appId: 'com.coinhako'
+appId: com.coinhako
 appCountry: 
-released: '2018-05-06'
+released: 2018-05-06
 updated: 2025-02-11
-version: '5.3.0'
+version: 5.3.0
 stars: 2.6
 ratings: 3064
 reviews: 21
-website: 'https://coinhako.com'
+website: https://coinhako.com
 repository: 
 issue: 
-icon: 'com.coinhako.png'
+icon: com.coinhako.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-04-23'
+date: 2021-04-23
 signer: 
 reviewArchive: 
-twitter: 'coinhako'
+twitter: coinhako
 social:
-- 'https://www.linkedin.com/company/coinhako'
-- 'https://www.facebook.com/coinhako'
+- https://www.linkedin.com/company/coinhako
+- https://www.facebook.com/coinhako
 redirect_from: 
-developerName: 'Coinhako'
+developerName: Coinhako
 features: 
 
 ---

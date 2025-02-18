@@ -1,39 +1,38 @@
 ---
-wsId: 'mudraExchange'
+wsId: mudraExchange
 title: 'Mudra Exchange: Buy BTC, ETH'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'mudra.exchange'
+appId: mudra.exchange
 appCountry: 
-released: '2022-02-04'
-updated: '2024-05-24'
-version: '1.4.21'
+released: 2022-02-04
+updated: 2024-05-24
+version: 1.4.21
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'http://mudra.exchange/'
+website: http://mudra.exchange/
 repository: 
 issue: 
-icon: 'mudra.exchange.png'
+icon: mudra.exchange.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-12-08'
+date: 2024-12-08
 signer: 
 reviewArchive: 
-twitter: 'mudraex'
+twitter: mudraex
 social:
-- 'https://www.linkedin.com/company/mudraex'
-- 'https://t.me/mudraexchange'
-- 'https://www.facebook.com/mudraex'
-- 'https://www.reddit.com/user/Mudraex'
-- 'https://www.youtube.com/channel/UC-eW-Cy6jsI5B6uwbxc6q-A'
+- https://www.linkedin.com/company/mudraex
+- https://t.me/mudraexchange
+- https://www.facebook.com/mudraex
+- https://www.reddit.com/user/Mudraex
+- https://www.youtube.com/channel/UC-eW-Cy6jsI5B6uwbxc6q-A
 redirect_from: 
-developerName: 'Mudra.Exchange'
+developerName: Mudra.Exchange
 features: 
 
 ---

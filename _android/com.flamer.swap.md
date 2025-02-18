@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Flamer Swap'
+title: Flamer Swap
 altTitle: 
 authors: 
 users: 10
-appId: 'com.flamer.swap'
+appId: com.flamer.swap
 appCountry: 
-released: '2021-09-25'
-updated: '2021-09-25'
+released: 2021-09-25
+updated: 2021-09-25
 version: '4'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://swap.flamer.life'
+website: https://swap.flamer.life
 repository: 
 issue: 
-icon: 'com.flamer.swap.png'
+icon: com.flamer.swap.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-04-03'
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Dev Crypto Holdings'
+developerName: Dev Crypto Holdings
 features: 
 
 ---

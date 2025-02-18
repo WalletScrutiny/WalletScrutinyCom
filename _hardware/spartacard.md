@@ -24,7 +24,7 @@ bugbounty:
 meta: ok
 verdict: vapor
 appHashes: 
-date: '2022-04-29'
+date: 2022-04-29
 signer: 
 reviewArchive: 
 twitter: TheSpartaCard

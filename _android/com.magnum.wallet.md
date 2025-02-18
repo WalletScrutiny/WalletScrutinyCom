@@ -1,36 +1,35 @@
 ---
 wsId: 
-title: 'Magnum Wallet – Bitcoin, Ether'
+title: Magnum Wallet – Bitcoin, Ether
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 10000
-appId: 'com.magnum.wallet'
+appId: com.magnum.wallet
 appCountry: 
-released: '2019-04-23'
-updated: '2019-08-29'
-version: '1.0.12'
+released: 2019-04-23
+updated: 2019-08-29
+version: 1.0.12
 stars: 3.9
 ratings: 232
 reviews: 16
-size: 
-website: 'https://magnumwallet.co'
+website: https://magnumwallet.co
 repository: 
 issue: 
-icon: 'com.magnum.wallet.png'
+icon: com.magnum.wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
-twitter: 'magnum_wallet'
+twitter: magnum_wallet
 social: 
 redirect_from:
-- '/com.magnum.wallet/'
-- '/posts/com.magnum.wallet/'
-developerName: 'Magnum Wallet'
+- /com.magnum.wallet/
+- /posts/com.magnum.wallet/
+developerName: Magnum Wallet
 features: 
 
 ---

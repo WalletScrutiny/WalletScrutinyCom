@@ -3,10 +3,10 @@ title: Bitcoin Paper Wallet Generator
 appId: btc.paperwalletgen
 authors:
 - danny
-released: '2021-05-18'
+released: 2021-05-18
 discontinued: 
-updated: '2022-09-15'
-version: '0.2.1'
+updated: 2022-09-15
+version: 0.2.1
 binaries: 
 provider: 
 providerWebsite: 
@@ -17,7 +17,7 @@ icon: btc.paperwalletgen.png
 bugbounty: 
 meta: ok
 verdict: wip
-date: '2024-05-09'
+date: 2024-05-09
 reviewArchive: 
 twitter: 
 social: 

@@ -1,37 +1,36 @@
 ---
 wsId: 
-title: 'BigoMex-Trading for BEGINNERS'
+title: BigoMex-Trading for BEGINNERS
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.bigomex.blockchain'
+appId: com.bigomex.blockchain
 appCountry: 
-released: '2020-09-14'
-updated: '2021-06-22'
-version: '1.2.7'
+released: 2020-09-14
+updated: 2021-06-22
+version: 1.2.7
 stars: 4.1
 ratings: 319
 reviews: 6
-size: 
-website: 'https://www.bigomex.com'
+website: https://www.bigomex.com
 repository: 
 issue: 
-icon: 'com.bigomex.blockchain.jpg'
+icon: com.bigomex.blockchain.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
-twitter: 'bigomexofficial'
+twitter: bigomexofficial
 social:
-- 'https://www.linkedin.com/company/bigomex-bigomex-6225b81b2'
-- 'https://www.facebook.com/bigomexofficial'
-- 'https://www.reddit.com/r/bigomex'
+- https://www.linkedin.com/company/bigomex-bigomex-6225b81b2
+- https://www.facebook.com/bigomexofficial
+- https://www.reddit.com/r/bigomex
 redirect_from: 
-developerName: 'BIGOMEX BLOCKCHAIN FOUNDATION LTD'
+developerName: BIGOMEX BLOCKCHAIN FOUNDATION LTD
 features: 
 
 ---

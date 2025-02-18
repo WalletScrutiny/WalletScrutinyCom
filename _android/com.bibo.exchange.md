@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Bibo Exchange'
+title: Bibo Exchange
 altTitle: 
 authors: 
 users: 100
-appId: 'com.bibo.exchange'
+appId: com.bibo.exchange
 appCountry: 
-released: '2020-02-19'
-updated: '2020-02-20'
-version: '2.4.1'
+released: 2020-02-19
+updated: 2020-02-20
+version: 2.4.1
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.bibo.gold'
+website: https://www.bibo.gold
 repository: 
 issue: 
-icon: 'com.bibo.exchange.jpg'
+icon: com.bibo.exchange.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-08-04'
+date: 2023-08-04
 signer: 
 reviewArchive: 
-twitter: 'biboexchange'
+twitter: biboexchange
 social: 
 redirect_from: 
-developerName: 'Bibo Market Inc'
+developerName: Bibo Market Inc
 features: 
 
 ---

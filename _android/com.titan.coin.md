@@ -1,36 +1,35 @@
 ---
-wsId: 'TitanCoin'
-title: 'TitanCoin (TTN)'
+wsId: TitanCoin
+title: TitanCoin (TTN)
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.titan.coin'
-appCountry: 'us'
-released: '2019-11-02'
-updated: '2021-12-22'
-version: '2.51.0'
+appId: com.titan.coin
+appCountry: us
+released: 2019-11-02
+updated: 2021-12-22
+version: 2.51.0
 stars: 3.6
 ratings: 180
 reviews: 6
-size: 
-website: 'https://titanprojects.co'
+website: https://titanprojects.co
 repository: 
 issue: 
-icon: 'com.titan.coin.png'
+icon: com.titan.coin.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-07-05'
+date: 2024-07-05
 signer: 
 reviewArchive: 
-twitter: 'ProjectsTitan'
+twitter: ProjectsTitan
 social:
-- 'https://www.linkedin.com/company/titanprojects'
-- 'https://www.facebook.com/titanprojectsco'
+- https://www.linkedin.com/company/titanprojects
+- https://www.facebook.com/titanprojectsco
 redirect_from: 
-developerName: 'TitanProjects'
+developerName: TitanProjects
 features: 
 
 ---

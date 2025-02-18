@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'C2CX Exchange'
+title: C2CX Exchange
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.hypertherm.app'
+appId: com.hypertherm.app
 appCountry: 
-released: '2018-08-23'
-updated: '2021-03-22'
+released: 2018-08-23
+updated: 2021-03-22
 version: '3.0'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.c2cx.com'
+website: https://www.c2cx.com
 repository: 
 issue: 
-icon: 'com.hypertherm.app.png'
+icon: com.hypertherm.app.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'wip'
+meta: defunct
+verdict: wip
 appHashes: 
-date: '2023-05-26'
+date: 2023-05-26
 signer: 
 reviewArchive: 
-twitter: 'C2CXExchange'
+twitter: C2CXExchange
 social: 
 redirect_from: 
-developerName: 'itkx'
+developerName: itkx
 features: 
 
 ---

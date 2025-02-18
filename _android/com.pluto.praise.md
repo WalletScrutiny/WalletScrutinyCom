@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Praise'
+title: Praise
 altTitle: 
 authors: 
 users: 100
-appId: 'com.pluto.praise'
+appId: com.pluto.praise
 appCountry: 
-released: '2021-06-23'
-updated: '2021-07-01'
+released: 2021-06-23
+updated: 2021-07-01
 version: '1.4'
 stars: 4.7
 ratings: 
 reviews: 
-size: 
-website: 'http://praise.pe.kr'
+website: http://praise.pe.kr
 repository: 
 issue: 
-icon: 'com.pluto.praise.png'
+icon: com.pluto.praise.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'PRAISE Company'
+developerName: PRAISE Company
 features: 
 
 ---

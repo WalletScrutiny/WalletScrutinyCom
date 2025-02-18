@@ -7,12 +7,11 @@ authors:
 appId: com.livingroomofsatoshi.wallet
 appCountry: jp
 idd: 1438599608
-released: '2019-05-20'
-updated: '2025-02-03'
-version: '2.7.5'
+released: 2019-05-20
+updated: 2025-02-03
+version: 2.7.5
 stars: 4.3
 reviews: 12
-size: '46654464'
 website: https://www.walletofsatoshi.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2024-10-07'
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: walletofsatoshi

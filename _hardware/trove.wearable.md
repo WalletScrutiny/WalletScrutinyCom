@@ -23,7 +23,7 @@ bugbounty:
 meta: obsolete
 verdict: noita
 appHashes: 
-date: '2022-04-27'
+date: 2022-04-27
 signer: 
 reviewArchive: 
 twitter: layer_design

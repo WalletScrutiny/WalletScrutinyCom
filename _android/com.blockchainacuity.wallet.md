@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Quick Coins Wallet'
+title: Quick Coins Wallet
 altTitle: 
 authors: 
 users: 1
-appId: 'com.blockchainacuity.wallet'
+appId: com.blockchainacuity.wallet
 appCountry: 
-released: '2018-08-01'
-updated: '2018-08-01'
+released: 2018-08-01
+updated: 2018-08-01
 version: '5.37'
 stars: 
 ratings: 
 reviews: 
-size: '35M'
 website: 
 repository: 
 issue: 
-icon: 'com.blockchainacuity.wallet.jpg'
+icon: com.blockchainacuity.wallet.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2021-12-05'
+date: 2021-12-05
 signer: 
 reviewArchive: 
 twitter: 

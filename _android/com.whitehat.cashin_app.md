@@ -1,37 +1,37 @@
 ---
-wsId: 'cashInCryptoNaira'
+wsId: cashInCryptoNaira
 title: 'Cash-in: Crypto to naira app'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.whitehat.cashin_app'
+appId: com.whitehat.cashin_app
 appCountry: 
-released: '2022-07-16'
+released: 2022-07-16
 updated: 2024-09-23
-version: '1.0.0'
+version: 1.0.0
 stars: 4.7
 ratings: 
 reviews: 73
-website: 'https://cash-in.app'
+website: https://cash-in.app
 repository: 
 issue: 
-icon: 'com.whitehat.cashin_app.png'
+icon: com.whitehat.cashin_app.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosendreceive'
+meta: ok
+verdict: nosendreceive
 appHashes: 
-date: '2023-07-19'
+date: 2023-07-19
 signer: 
 reviewArchive: 
-twitter: 'cashin_app'
+twitter: cashin_app
 social:
-- 'https://www.facebook.com/Cashin.app1'
-- 'https://www.instagram.com/cashin_app'
-- 'https://t.me/cashin_app'
-- 'https://medium.com/@cash-in'
+- https://www.facebook.com/Cashin.app1
+- https://www.instagram.com/cashin_app
+- https://t.me/cashin_app
+- https://medium.com/@cash-in
 redirect_from: 
-developerName: 'Macroblocs Ltd'
+developerName: Macroblocs Ltd
 features: 
 
 ---

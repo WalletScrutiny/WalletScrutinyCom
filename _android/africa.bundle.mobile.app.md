@@ -1,34 +1,33 @@
 ---
-wsId: 'africa.bundle'
-title: 'Bundle - Cash & Crypto Wallet'
+wsId: africa.bundle
+title: Bundle - Cash & Crypto Wallet
 altTitle: 
 authors:
-- 'kiwilamb'
+- kiwilamb
 users: 1000000
-appId: 'africa.bundle.mobile.app'
+appId: africa.bundle.mobile.app
 appCountry: 
-released: '2020-04-20'
-updated: '2023-07-27'
-version: '4.6.9'
+released: 2020-04-20
+updated: 2023-07-27
+version: 4.6.9
 stars: 3.9
 ratings: 13846
 reviews: 371
-size: 
-website: 'https://bundle.africa'
+website: https://bundle.africa
 repository: 
 issue: 
-icon: 'africa.bundle.mobile.app.png'
+icon: africa.bundle.mobile.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'BundleAfrica'
+developerName: BundleAfrica
 features: 
 
 ---

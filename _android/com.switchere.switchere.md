@@ -1,36 +1,36 @@
 ---
-wsId: 'switchere'
+wsId: switchere
 title: 'Switchere: Buy & Sell Crypto'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.switchere.switchere'
+appId: com.switchere.switchere
 appCountry: 
-released: '2021-11-15'
+released: 2021-11-15
 updated: 2024-08-07
-version: '1.1.24'
+version: 1.1.24
 stars: 3.4
 ratings: 
 reviews: 43
-website: 'https://switchere.com/'
+website: https://switchere.com/
 repository: 
 issue: 
-icon: 'com.switchere.switchere.png'
+icon: com.switchere.switchere.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-04-12'
+date: 2023-04-12
 signer: 
 reviewArchive: 
-twitter: 'Switchere_com'
+twitter: Switchere_com
 social:
-- 'https://www.facebook.com/switchere.official'
-- 'https://t.me/switchere'
-- 'https://www.reddit.com/user/switchere'
+- https://www.facebook.com/switchere.official
+- https://t.me/switchere
+- https://www.reddit.com/user/switchere
 redirect_from: 
-developerName: 'Switchere'
+developerName: Switchere
 features: 
 
 ---

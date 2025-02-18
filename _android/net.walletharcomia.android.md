@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Harcomia Crypto Wallet Multi Asset'
+title: Harcomia Crypto Wallet Multi Asset
 altTitle: 
 authors: 
 users: 100
-appId: 'net.walletharcomia.android'
+appId: net.walletharcomia.android
 appCountry: 
-released: '2020-11-01'
-updated: '2020-11-23'
-version: '1.0.4'
+released: 2020-11-01
+updated: 2020-11-23
+version: 1.0.4
 stars: 
 ratings: 
 reviews: 
-size: '40M'
-website: 'https://wallet.harcomia.com'
+website: https://wallet.harcomia.com
 repository: 
 issue: 
-icon: 'net.walletharcomia.android.png'
+icon: net.walletharcomia.android.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2022-04-07'
+date: 2022-04-07
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Melis Lite Testnet'
+title: Melis Lite Testnet
 altTitle: 
 authors: 
 users: 10
-appId: 'io.melis.testlite'
+appId: io.melis.testlite
 appCountry: 
-released: '2019-08-06'
-updated: '2019-08-06'
-version: '0.4.0'
+released: 2019-08-06
+updated: 2019-08-06
+version: 0.4.0
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.melis.io'
+website: https://www.melis.io
 repository: 
 issue: 
-icon: 'io.melis.testlite.png'
+icon: io.melis.testlite.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Melis'
+developerName: Melis
 features: 
 
 ---

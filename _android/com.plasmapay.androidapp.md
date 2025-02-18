@@ -1,35 +1,34 @@
 ---
-wsId: 'PlasmaPay'
-title: 'PlasmaPay - cryptocurrency wallet and DeFi app'
+wsId: PlasmaPay
+title: PlasmaPay - cryptocurrency wallet and DeFi app
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.plasmapay.androidapp'
-appCountry: 'us'
-released: '2019-07-31'
-updated: '2021-10-07'
-version: '2.0.4'
+appId: com.plasmapay.androidapp
+appCountry: us
+released: 2019-07-31
+updated: 2021-10-07
+version: 2.0.4
 stars: 3
 ratings: 31
 reviews: 17
-size: '151M'
-website: 'https://plasmapay.com/'
+website: https://plasmapay.com/
 repository: 
 issue: 
-icon: 'com.plasmapay.androidapp.png'
+icon: com.plasmapay.androidapp.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2021-11-17'
+date: 2021-11-17
 signer: 
 reviewArchive: 
-twitter: '0xPlasma'
+twitter: 0xPlasma
 social:
-- 'https://www.linkedin.com/company/0xplasma'
-- 'https://www.facebook.com/Plasmapay'
-- 'https://www.reddit.com/r/PlasmaPay'
+- https://www.linkedin.com/company/0xplasma
+- https://www.facebook.com/Plasmapay
+- https://www.reddit.com/r/PlasmaPay
 redirect_from: 
 developerName: 
 features: 

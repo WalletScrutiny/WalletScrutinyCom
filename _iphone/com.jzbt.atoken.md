@@ -7,12 +7,11 @@ authors:
 appId: com.jzbt.atoken
 appCountry: 
 idd: 1395835245
-released: '2018-07-28'
-updated: '2021-12-13'
-version: '4.2.0'
+released: 2018-07-28
+updated: 2021-12-13
+version: 4.2.0
 stars: 4.9
 reviews: 263
-size: 179051520
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: nosource
 appHashes: 
-date: '2022-01-15'
+date: 2022-01-15
 signer: 
 reviewArchive: 
 twitter: ATokenOfficial

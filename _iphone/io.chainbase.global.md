@@ -7,12 +7,11 @@ authors:
 appId: io.chainbase.global
 appCountry: 
 idd: 1568969341
-released: '2021-05-26'
-updated: '2022-10-12'
-version: '1.4.13'
+released: 2021-05-26
+updated: 2022-10-12
+version: 1.4.13
 stars: 3.4
 reviews: 718
-size: '49262592'
 website: https://www.hotbit.io
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2023-04-16'
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: Hotbit_news

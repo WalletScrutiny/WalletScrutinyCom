@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Crypto Invest'
+title: Crypto Invest
 altTitle: 
 authors: 
 users: 1
-appId: 'com.cryptowallet.crypto.invest'
+appId: com.cryptowallet.crypto.invest
 appCountry: 
-released: '2021-06-21'
-updated: '2021-06-21'
+released: 2021-06-21
+updated: 2021-06-21
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: '2.3M'
 website: 
 repository: 
 issue: 
-icon: 'com.cryptowallet.crypto.invest.jpg'
+icon: com.cryptowallet.crypto.invest.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2021-08-13'
+date: 2021-08-13
 signer: 
 reviewArchive: 
 twitter: 

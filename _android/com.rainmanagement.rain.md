@@ -1,35 +1,35 @@
 ---
-wsId: 'rainfinancial'
+wsId: rainfinancial
 title: 'Rain: Buy & Sell Bitcoin'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 500000
-appId: 'com.rainmanagement.rain'
-appCountry: 'bh'
-released: '2018-11-02'
-updated: 2025-02-03
-version: '3.6.00'
+appId: com.rainmanagement.rain
+appCountry: bh
+released: 2018-11-02
+updated: 2025-02-14
+version: 3.6.00
 stars: 4.3
 ratings: 4531
-reviews: 3220
-website: 'https://rain.com'
+reviews: 3221
+website: https://rain.com
 repository: 
 issue: 
-icon: 'com.rainmanagement.rain.png'
+icon: com.rainmanagement.rain.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-10-01'
+date: 2021-10-01
 signer: 
 reviewArchive: 
-twitter: 'rainfinancial'
+twitter: rainfinancial
 social:
-- 'https://www.linkedin.com/company/rainfinancial'
-- 'https://www.facebook.com/rainfinancial'
+- https://www.linkedin.com/company/rainfinancial
+- https://www.facebook.com/rainfinancial
 redirect_from: 
-developerName: 'Rain Trading'
+developerName: Rain Trading
 features: 
 
 ---

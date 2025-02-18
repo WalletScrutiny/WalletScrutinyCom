@@ -1,35 +1,35 @@
 ---
 wsId: 
-title: 'FuturesCash:Wallet Makes Money'
+title: FuturesCash:Wallet Makes Money
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'cash.futures.app'
+appId: cash.futures.app
 appCountry: 
-released: '2021-09-03'
+released: 2021-09-03
 updated: 2024-06-17
-version: '2.6.0'
+version: 2.6.0
 stars: 4.1
 ratings: 
 reviews: 10
-website: 'https://futures.cash/'
+website: https://futures.cash/
 repository: 
 issue: 
-icon: 'cash.futures.app.png'
+icon: cash.futures.app.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nobtc'
+meta: ok
+verdict: nobtc
 appHashes: 
-date: '2024-09-03'
+date: 2024-09-03
 signer: 
 reviewArchive: 
-twitter: 'FuturesCash'
+twitter: FuturesCash
 social:
-- 'https://www.facebook.com/FuturesCash'
-- 'https://t.me/FuturesFoundation'
+- https://www.facebook.com/FuturesCash
+- https://t.me/FuturesFoundation
 redirect_from: 
-developerName: 'FuturesCash Team'
+developerName: FuturesCash Team
 features: 
 
 ---

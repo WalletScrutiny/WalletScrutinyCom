@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Libertypool | Invest In Crypto'
+title: Libertypool | Invest In Crypto
 altTitle: 
 authors: 
 users: 10
-appId: 'com.libertypool.lpx'
+appId: com.libertypool.lpx
 appCountry: 
-released: '2020-01-01'
-updated: '2020-01-01'
+released: 2020-01-01
+updated: 2020-01-01
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://libertypool.com/'
+website: https://libertypool.com/
 repository: 
 issue: 
-icon: 'com.libertypool.lpx.png'
+icon: com.libertypool.lpx.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-07-05'
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Libertypool'
+developerName: Libertypool
 features: 
 
 ---

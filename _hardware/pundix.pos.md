@@ -3,7 +3,7 @@ title: PundiX PoS
 appId: pundix.pos
 authors:
 - danny
-released: '2018-03-01'
+released: 2018-03-01
 discontinued: 
 updated: 
 version: 
@@ -26,7 +26,7 @@ bugbounty:
 meta: ok
 verdict: nowallet
 appHashes: 
-date: '2022-04-04'
+date: 2022-04-04
 signer: 
 reviewArchive: 
 twitter: PundiXLabs

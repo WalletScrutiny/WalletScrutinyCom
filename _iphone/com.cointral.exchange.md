@@ -7,12 +7,11 @@ authors:
 appId: com.cointral.exchange
 appCountry: tt
 idd: 1536116477
-released: '2020-10-31'
-updated: '2021-08-18'
-version: '1.3.6'
+released: 2020-10-31
+updated: 2021-08-18
+version: 1.3.6
 stars: 0
 reviews: 0
-size: '105841664'
 website: https://cointral.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: defunct
 verdict: custodial
 appHashes: 
-date: '2023-01-11'
+date: 2023-01-11
 signer: 
 reviewArchive: 
 twitter: Cointral

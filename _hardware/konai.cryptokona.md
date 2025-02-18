@@ -3,7 +3,7 @@ title: Konai CryptoKona
 appId: konai.cryptokona
 authors:
 - danny
-released: '2019-04-18'
+released: 2019-04-18
 discontinued: 
 updated: 
 version: 
@@ -26,7 +26,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: '2022-04-27'
+date: 2022-04-27
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'YUSE Wallet'
+title: YUSE Wallet
 altTitle: 
 authors: 
 users: 1000
-appId: 'com.yusewallet'
+appId: com.yusewallet
 appCountry: 
-released: '2022-05-31'
-updated: '2023-02-18'
-version: '1.0.15'
+released: 2022-05-31
+updated: 2023-02-18
+version: 1.0.15
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://yusetoken.io/'
+website: https://yusetoken.io/
 repository: 
 issue: 
-icon: 'com.yusewallet.png'
+icon: com.yusewallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2023-05-10'
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Yuse Technologies'
+developerName: Yuse Technologies
 features: 
 
 ---

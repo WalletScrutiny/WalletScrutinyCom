@@ -4,24 +4,23 @@ title: 'BaseFEX: Bitcoin & Crypto Futures Trading'
 altTitle: 
 authors: 
 users: 500
-appId: 'com.basefex.exchange'
+appId: com.basefex.exchange
 appCountry: 
-released: '2019-07-16'
-updated: '2020-08-13'
-version: '2.5.67'
+released: 2019-07-16
+updated: 2020-08-13
+version: 2.5.67
 stars: 3.6
 ratings: 9
 reviews: 5
-size: '13M'
 website: 
 repository: 
 issue: 
-icon: 'com.basefex.exchange.png'
+icon: com.basefex.exchange.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2022-01-15'
+date: 2022-01-15
 signer: 
 reviewArchive: 
 twitter: 

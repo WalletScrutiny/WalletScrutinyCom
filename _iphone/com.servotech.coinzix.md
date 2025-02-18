@@ -7,12 +7,11 @@ authors:
 appId: com.servotech.coinzix
 appCountry: de
 idd: '1586167950'
-released: '2022-02-09'
-updated: '2023-03-28'
+released: 2022-02-09
+updated: 2023-03-28
 version: '1.9'
 stars: 4.9
 reviews: 14
-size: '9564160'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: stale
 verdict: custodial
 appHashes: 
-date: '2024-03-22'
+date: 2024-03-22
 signer: 
 reviewArchive: 
 twitter: coinzixcom

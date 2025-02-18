@@ -1,33 +1,33 @@
 ---
-wsId: 'sessip'
-title: 'Sessip'
+wsId: sessip
+title: Sessip
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.sessip.Sessipapp'
+appId: com.sessip.Sessipapp
 appCountry: 
-released: '2021-08-18'
+released: 2021-08-18
 updated: 2022-12-10
-version: 'VARY'
+version: VARY
 stars: 3.8
 ratings: 
 reviews: 9
-website: 'https://sessip.com'
+website: https://sessip.com
 repository: 
 issue: 
-icon: 'com.sessip.Sessipapp.png'
+icon: com.sessip.Sessipapp.png
 bugbounty: 
-meta: 'obsolete'
-verdict: 'custodial'
+meta: obsolete
+verdict: custodial
 appHashes: 
-date: '2024-11-30'
+date: 2024-11-30
 signer: 
 reviewArchive: 
-twitter: 'sessipapp'
+twitter: sessipapp
 social: 
 redirect_from: 
-developerName: 'Sessip'
+developerName: Sessip
 features: 
 
 ---

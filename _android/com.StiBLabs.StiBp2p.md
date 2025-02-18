@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'StiB P2P - Bitcoin Ethereum De'
+title: StiB P2P - Bitcoin Ethereum De
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.StiBLabs.StiBp2p'
+appId: com.StiBLabs.StiBp2p
 appCountry: 
-released: '2019-10-07'
-updated: '2020-03-11'
-version: '1.0.5'
+released: 2019-10-07
+updated: 2020-03-11
+version: 1.0.5
 stars: 4.5
 ratings: 454
 reviews: 13
-size: 
-website: 'http://stib.co'
+website: http://stib.co
 repository: 
 issue: 
-icon: 'com.StiBLabs.StiBp2p.png'
+icon: com.StiBLabs.StiBp2p.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2023-04-20'
+date: 2023-04-20
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'StiBLabs'
+developerName: StiBLabs
 features: 
 
 ---

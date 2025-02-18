@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Bitcoin Trading Investment'
+title: Bitcoin Trading Investment
 altTitle: 
 authors: 
 users: 10
-appId: 'com.cryptoearningapps.bitcoin.trading.investment'
+appId: com.cryptoearningapps.bitcoin.trading.investment
 appCountry: 
-released: '2021-06-29'
-updated: '2021-06-29'
+released: 2021-06-29
+updated: 2021-06-29
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: '2.3M'
 website: 
 repository: 
 issue: 
-icon: 'com.cryptoearningapps.bitcoin.trading.investment.png'
+icon: com.cryptoearningapps.bitcoin.trading.investment.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2021-10-01'
+date: 2021-10-01
 signer: 
 reviewArchive: 
 twitter: 

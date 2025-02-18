@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Crypto Trader - CFD Bitcoin blockchain'
+title: Crypto Trader - CFD Bitcoin blockchain
 altTitle: 
 authors: 
 users: 10
-appId: 'com.agaegae.cryptotrader'
+appId: com.agaegae.cryptotrader
 appCountry: 
-released: '2021-10-23'
-updated: '2021-10-24'
+released: 2021-10-23
+updated: 2021-10-24
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.agaegae.cryptotrader.png'
+icon: com.agaegae.cryptotrader.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

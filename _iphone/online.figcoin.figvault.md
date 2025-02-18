@@ -7,12 +7,11 @@ authors:
 appId: online.figcoin.figvault
 appCountry: tt
 idd: 1545768981
-released: '2020-12-27'
-updated: '2021-09-01'
+released: 2020-12-27
+updated: 2021-09-01
 version: '2.1'
 stars: 
 reviews: 
-size: 14971904
 website: https://figcoin.online
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: nobtc
 appHashes: 
-date: '2022-01-31'
+date: 2022-01-31
 signer: 
 reviewArchive: 
 twitter: 

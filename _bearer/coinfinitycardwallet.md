@@ -26,15 +26,15 @@ icon: coinfinitycardwallet.png
 bugbounty: 
 meta: ok
 verdict: prefilled
-date: '2024-08-07'
+date: 2024-08-07
 signer: 
 reviewArchive:
-- date: '2023-03-07'
+- date: 2023-03-07
   version: 
   appHash: 
   gitRevision: 50a8d4aa7af67f4c5e6cd0e619f9a41e053c0cf0
   verdict: sealed-plainkey
-- date: '2022-03-23'
+- date: 2022-03-23
   version: 
   appHash: 
   gitRevision: 8762a3742

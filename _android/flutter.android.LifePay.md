@@ -1,35 +1,36 @@
 ---
-wsId: 'lifPay'
-title: 'LifPay'
+wsId: lifPay
+title: LifPay
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'flutter.android.LifePay'
+appId: flutter.android.LifePay
 appCountry: 
-released: '2022-09-21'
-updated: 2025-02-13
-version: '2.4.3'
+released: 2022-09-21
+updated: 2025-02-15
+version: 2.4.4
 stars: 4.6
 ratings: 
 reviews: 
-website: 'https://lifpay.me'
+website: https://lifpay.me
 repository: 
 issue: 
-icon: 'flutter.android.LifePay.png'
+icon: flutter.android.LifePay.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2024-09-07'
+date: 2024-09-07
 signer: 
 reviewArchive: 
-twitter: 'lifpay'
+twitter: lifpay
 social:
-- 'https://primal.net/p/npub1pzerv8rqqvhk82y85axa3t3yxr8rdqnea03zlmk5crsne509esqqw0x463'
-- 'https://t.me/lifpay'
+- >-
+  https://primal.net/p/npub1pzerv8rqqvhk82y85axa3t3yxr8rdqnea03zlmk5crsne509esqqw0x463
+- https://t.me/lifpay
 redirect_from: 
-developerName: 'ProminentWise'
+developerName: ProminentWise
 features: 
 
 ---

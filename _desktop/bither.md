@@ -3,10 +3,10 @@ title: Bither
 appId: bither
 authors:
 - danny
-released: '2014-03-03'
+released: 2014-03-03
 discontinued: 
-updated: '2023-05-15'
-version: '1.4.4'
+updated: 2023-05-15
+version: 1.4.4
 binaries: 
 provider: 
 providerWebsite: 
@@ -17,7 +17,7 @@ icon: bither.png
 bugbounty: 
 meta: ok
 verdict: wip
-date: '2024-04-24'
+date: 2024-04-24
 reviewArchive: 
 twitter: bithernet
 social: 

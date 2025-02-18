@@ -1,35 +1,35 @@
 ---
 wsId: 
-title: 'Bitcoin Bounce - Earn Bitcoin'
+title: Bitcoin Bounce - Earn Bitcoin
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.thndrgames.bitcoinbounce'
+appId: com.thndrgames.bitcoinbounce
 appCountry: 
-released: '2020-03-20'
+released: 2020-03-20
 updated: 2024-07-10
-version: '1.22.0'
+version: 1.22.0
 stars: 4.6
 ratings: 1913
-reviews: 399
-website: 'http://thndr.games'
+reviews: 398
+website: http://thndr.games
 repository: 
 issue: 
-icon: 'com.thndrgames.bitcoinbounce.png'
+icon: com.thndrgames.bitcoinbounce.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2021-11-01'
+date: 2021-11-01
 signer: 
 reviewArchive: 
-twitter: 'thndrgames'
+twitter: thndrgames
 social: 
 redirect_from: 
-developerName: 'THNDR'
+developerName: THNDR
 features:
-- 'ln'
+- ln
 
 ---
 

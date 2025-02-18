@@ -3,7 +3,7 @@ title: Lubanso X1
 appId: lubanso
 authors:
 - danny
-released: '2018-10-12'
+released: 2018-10-12
 discontinued: 
 updated: 
 version: 
@@ -26,7 +26,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: '2023-03-03'
+date: 2023-03-03
 signer: 
 reviewArchive: 
 twitter: lubanso

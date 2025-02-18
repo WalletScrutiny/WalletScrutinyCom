@@ -1,35 +1,34 @@
 ---
-wsId: 'CoinBene'
-title: 'CoinBene'
+wsId: CoinBene
+title: CoinBene
 altTitle: 
 authors:
-- 'danny'
-- 'leo'
+- danny
+- leo
 users: 100000
-appId: 'com.coinbene.manbiwang'
-appCountry: 'us'
-released: '2018-11-09'
-updated: '2021-05-18'
-version: '4.1.6'
+appId: com.coinbene.manbiwang
+appCountry: us
+released: 2018-11-09
+updated: 2021-05-18
+version: 4.1.6
 stars: 3.6
 ratings: 777
 reviews: 461
-size: '52M'
-website: 'https://www.coinbene.com/'
+website: https://www.coinbene.com/
 repository: 
 issue: 
-icon: 'com.coinbene.manbiwang.png'
+icon: com.coinbene.manbiwang.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2021-10-01'
+date: 2021-10-01
 signer: 
 reviewArchive: 
-twitter: 'coinbene'
+twitter: coinbene
 social:
-- 'https://www.linkedin.com/company/coinbene-official'
-- 'https://www.facebook.com/CoinBeneOfficial'
+- https://www.linkedin.com/company/coinbene-official
+- https://www.facebook.com/CoinBeneOfficial
 redirect_from: 
 developerName: 
 features: 

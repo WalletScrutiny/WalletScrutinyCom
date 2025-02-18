@@ -27,7 +27,7 @@ bugbounty:
 meta: ok
 verdict: noita
 appHashes: 
-date: '2023-02-07'
+date: 2023-02-07
 signer: 
 reviewArchive: 
 twitter: keywallet

@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'T-REX'
+title: T-REX
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.trex.exchange'
+appId: com.trex.exchange
 appCountry: 
-released: '2019-12-19'
-updated: '2022-06-20'
-version: '2.2.9'
+released: 2019-12-19
+updated: 2022-06-20
+version: 2.2.9
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.t-rex.exchange/usdt'
+website: https://www.t-rex.exchange/usdt
 repository: 
 issue: 
-icon: 'com.trex.exchange.png'
+icon: com.trex.exchange.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2024-05-07'
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'T-Rex Global Enterprise'
+developerName: T-Rex Global Enterprise
 features: 
 
 ---

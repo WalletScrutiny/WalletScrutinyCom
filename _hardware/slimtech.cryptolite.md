@@ -3,7 +3,7 @@ title: slimTECH Cryptolite Cold Storage Wallet
 appId: slimtech.cryptolite
 authors:
 - danny
-released: '2018-01-03'
+released: 2018-01-03
 discontinued: 
 updated: 
 version: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: defunct
 verdict: noita
 appHashes: 
-date: '2022-04-04'
+date: 2022-04-04
 signer: 
 reviewArchive: 
 twitter: SlimTechGearCo

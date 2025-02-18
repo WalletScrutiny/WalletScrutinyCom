@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Bitcoin Bank'
+title: Bitcoin Bank
 altTitle: 
 authors: 
 users: 100
-appId: 'com.wTheBitcoinBankApp_16672065'
+appId: com.wTheBitcoinBankApp_16672065
 appCountry: 
-released: '2023-02-24'
-updated: '2023-02-24'
+released: 2023-02-24
+updated: 2023-02-24
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.wTheBitcoinBankApp_16672065.png'
+icon: com.wTheBitcoinBankApp_16672065.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-08-04'
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'PRAMOD KUMAR JENA'
+developerName: PRAMOD KUMAR JENA
 features: 
 
 ---

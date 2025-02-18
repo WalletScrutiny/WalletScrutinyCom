@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: 'e-Mal Digital Wallet'
+title: e-Mal Digital Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'ae.efatoora.emal'
+appId: ae.efatoora.emal
 appCountry: 
-released: '2018-07-16'
-updated: '2020-01-02'
+released: 2018-07-16
+updated: 2020-01-02
 version: '3.2'
 stars: 4.8
 ratings: 
 reviews: 
-size: 
-website: 'https://e-mal.ae/'
+website: https://e-mal.ae/
 repository: 
 issue: 
-icon: 'ae.efatoora.emal.png'
+icon: ae.efatoora.emal.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2024-07-05'
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'mailto:info@e-mal.ae'
+- mailto:info@e-mal.ae
 redirect_from: 
-developerName: 'eFatoora'
+developerName: eFatoora
 features: 
 
 ---

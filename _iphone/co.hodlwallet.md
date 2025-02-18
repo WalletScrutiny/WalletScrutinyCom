@@ -1,35 +1,34 @@
 ---
-wsId: 'hodl'
+wsId: hodl
 title: 'HODL Wallet : Bitcoin Wallet'
 altTitle: 
 authors:
-- 'leo'
-- 'danny'
-appId: 'co.hodlwallet'
+- leo
+- danny
+appId: co.hodlwallet
 appCountry: 
 idd: '1382342568'
-released: '2018-08-01'
+released: 2018-08-01
 updated: 2023-07-13
 version: '1.13'
-stars: 3.82482
+stars: 3.8
 reviews: 137
-size: '36992000'
-website: 'https://hodlwallet.com'
-repository: 'https://github.com/hodlwallet/hodl-wallet-ios'
+website: https://hodlwallet.com
+repository: https://github.com/hodlwallet/hodl-wallet-ios
 issue: 
-icon: 'co.hodlwallet.jpg'
+icon: co.hodlwallet.jpg
 bugbounty: 
-meta: 'stale'
-verdict: 'nonverifiable'
+meta: stale
+verdict: nonverifiable
 appHashes: 
-date: '2024-07-10'
+date: 2024-07-10
 signer: 
 reviewArchive: 
-twitter: 'hodlwallet'
+twitter: hodlwallet
 social:
-- 'https://www.facebook.com/hodlwallet'
+- https://www.facebook.com/hodlwallet
 features: 
-developerName: 'Hodl Wallet Inc'
+developerName: Hodl Wallet Inc
 
 ---
 

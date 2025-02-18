@@ -7,12 +7,11 @@ authors:
 appId: io.eldorado.app.v1
 appCountry: ve
 idd: '1591303547'
-released: '2022-04-20'
-updated: '2025-01-30'
-version: '1.3.1335'
+released: 2022-04-20
+updated: 2025-02-16
+version: 1.3.1375
 stars: 4.9
-reviews: 3966
-size: '90582016'
+reviews: 4014
 website: https://eldorado.io/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2023-07-18'
+date: 2023-07-18
 signer: 
 reviewArchive: 
 twitter: eldoradoio

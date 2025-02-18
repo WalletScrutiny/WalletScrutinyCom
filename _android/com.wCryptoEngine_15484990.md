@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Crypto Engine'
+title: Crypto Engine
 altTitle: 
 authors: 
 users: 100
-appId: 'com.wCryptoEngine_15484990'
+appId: com.wCryptoEngine_15484990
 appCountry: 
-released: '2022-05-05'
-updated: '2022-05-05'
+released: 2022-05-05
+updated: 2022-05-05
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.wCryptoEngine_15484990.jpg'
+icon: com.wCryptoEngine_15484990.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-08-16'
+date: 2023-08-16
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'stepns gmk nft'
+developerName: stepns gmk nft
 features: 
 
 ---

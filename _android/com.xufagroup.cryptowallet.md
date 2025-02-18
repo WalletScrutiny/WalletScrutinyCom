@@ -4,30 +4,29 @@ title: 'Crypto Wallet: Store and Trade'
 altTitle: 
 authors: 
 users: 500
-appId: 'com.xufagroup.cryptowallet'
+appId: com.xufagroup.cryptowallet
 appCountry: 
-released: '2018-07-05'
-updated: '2020-06-03'
+released: 2018-07-05
+updated: 2020-06-03
 version: '1.2'
 stars: 1.8
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.xufagroup.cryptowallet.png'
+icon: com.xufagroup.cryptowallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-04-26'
+date: 2024-04-26
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Martin SangDo'
+developerName: Martin SangDo
 features: 
 
 ---

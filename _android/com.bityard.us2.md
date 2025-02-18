@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'BitYard Crypto Trading'
+title: BitYard Crypto Trading
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.bityard.us2'
+appId: com.bityard.us2
 appCountry: 
-released: '2021-03-31'
-updated: '2021-03-31'
-version: '1.0.2'
+released: 2021-03-31
+updated: 2021-03-31
+version: 1.0.2
 stars: 3.1
 ratings: 165
 reviews: 4
-size: '4.4M'
-website: 'http://www.bityard.com'
+website: http://www.bityard.com
 repository: 
 issue: 
-icon: 'com.bityard.us2.jpg'
+icon: com.bityard.us2.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2022-03-07'
+date: 2022-03-07
 signer: 
 reviewArchive: 
-twitter: 'BitYard_Global'
+twitter: BitYard_Global
 social:
-- 'https://www.linkedin.com/company/bityard'
-- 'https://www.facebook.com/BitYardofficial'
+- https://www.linkedin.com/company/bityard
+- https://www.facebook.com/BitYardofficial
 redirect_from: 
 developerName: 
 features: 

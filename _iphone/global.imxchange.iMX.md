@@ -7,12 +7,11 @@ authors:
 appId: global.imxchange.iMX
 appCountry: in
 idd: '1558636368'
-released: '2021-04-06'
-updated: '2024-04-09'
-version: '1.7.3'
+released: 2021-04-06
+updated: 2024-04-09
+version: 1.7.3
 stars: 5
 reviews: 1
-size: '26161152'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: nosource
 appHashes: 
-date: '2024-07-05'
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

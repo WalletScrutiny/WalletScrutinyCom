@@ -1,37 +1,36 @@
 ---
-wsId: 'tokenomy'
-title: 'Tokenomy'
+wsId: tokenomy
+title: Tokenomy
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.tokenomy.app'
+appId: com.tokenomy.app
 appCountry: 
-released: '2021-07-09'
-updated: '2023-09-27'
-version: '2.15.1'
+released: 2021-07-09
+updated: 2023-09-27
+version: 2.15.1
 stars: 3.5
 ratings: 
 reviews: 
-size: 
-website: 'https://www.tokenomy.com'
+website: https://www.tokenomy.com
 repository: 
 issue: 
-icon: 'com.tokenomy.app.png'
+icon: com.tokenomy.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-05-07'
+date: 2024-05-07
 signer: 
 reviewArchive: 
-twitter: 'tokenomy'
+twitter: tokenomy
 social:
-- 'https://www.linkedin.com/company/tokenomy'
-- 'https://t.me/tokenomyinfo'
-- 'https://www.facebook.com/TOKENOMY'
+- https://www.linkedin.com/company/tokenomy
+- https://t.me/tokenomyinfo
+- https://www.facebook.com/TOKENOMY
 redirect_from: 
-developerName: 'Tokenomy'
+developerName: Tokenomy
 features: 
 
 ---

@@ -1,35 +1,35 @@
 ---
-wsId: 'maiarwallet'
+wsId: maiarwallet
 title: 'xPortal: Crypto & DeFi Wallet'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000000
-appId: 'com.elrond.maiar.wallet'
-appCountry: 'us'
-released: '2021-01-15'
+appId: com.elrond.maiar.wallet
+appCountry: us
+released: 2021-01-15
 updated: 2025-02-11
-version: '2.41.0'
+version: 2.41.0
 stars: 4.7
 ratings: 6106
-reviews: 384
-website: 'https://xportal.com/'
+reviews: 385
+website: https://xportal.com/
 repository: 
 issue: 
-icon: 'com.elrond.maiar.wallet.png'
+icon: com.elrond.maiar.wallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-15'
+date: 2024-07-15
 signer: 
 reviewArchive: 
-twitter: 'getMaiar'
+twitter: getMaiar
 social:
-- 'https://www.linkedin.com/company/getmaiar'
-- 'https://www.facebook.com/getMaiar'
+- https://www.linkedin.com/company/getmaiar
+- https://www.facebook.com/getMaiar
 redirect_from: 
-developerName: 'xPortal Labs'
+developerName: xPortal Labs
 features: 
 
 ---

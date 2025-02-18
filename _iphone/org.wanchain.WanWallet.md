@@ -7,12 +7,11 @@ authors:
 appId: org.wanchain.WanWallet
 appCountry: us
 idd: 1477039507
-released: '2019-08-22'
-updated: '2022-07-27'
+released: 2019-08-22
+updated: 2022-07-27
 version: '6.0'
 stars: 3.8
 reviews: 23
-size: '22142976'
 website: https://www.wanchain.org
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: obsolete
 verdict: nosource
 appHashes: 
-date: '2024-07-17'
+date: 2024-07-17
 signer: 
 reviewArchive: 
 twitter: wanchain_org

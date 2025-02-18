@@ -1,40 +1,39 @@
 ---
 wsId: 
-title: 'Lunes Wallet  - Lunes, Bitcoin, Litecoin,  Buy BTC'
+title: Lunes Wallet  - Lunes, Bitcoin, Litecoin,  Buy BTC
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 10000
-appId: 'com.luneswallet'
+appId: com.luneswallet
 appCountry: 
-released: '2018-01-31'
-updated: '2018-12-06'
+released: 2018-01-31
+updated: 2018-12-06
 version: '2.1'
 stars: 4.1
 ratings: 272
 reviews: 184
-size: '7.3M'
-website: 'https://luneswallet.app'
-repository: 'https://github.com/Lunes-platform/Wallet-mobile'
-issue: 'https://github.com/Lunes-platform/Wallet-mobile/issues/9'
-icon: 'com.luneswallet.png'
+website: https://luneswallet.app
+repository: https://github.com/Lunes-platform/Wallet-mobile
+issue: https://github.com/Lunes-platform/Wallet-mobile/issues/9
+icon: com.luneswallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: []
-date: '2021-12-29'
+date: 2021-12-29
 signer: 
 reviewArchive:
-- date: '2020-08-29'
+- date: 2020-08-29
   version: '2.1'
   appHashes: []
-  gitRevision: '477c4edc4f632895993602574ba383a08df9041f'
-  verdict: 'nonverifiable'
+  gitRevision: 477c4edc4f632895993602574ba383a08df9041f
+  verdict: nonverifiable
 twitter: 
 social: 
 redirect_from:
-- '/com.luneswallet/'
-- '/posts/com.luneswallet/'
+- /com.luneswallet/
+- /posts/com.luneswallet/
 developerName: 
 features: 
 

@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Bitcoin Wallet Uk Free'
+title: Bitcoin Wallet Uk Free
 altTitle: 
 authors: 
 users: 5
-appId: 'net.cryptee.bitcoin.wallet.uk.free'
+appId: net.cryptee.bitcoin.wallet.uk.free
 appCountry: 
-released: '2021-06-19'
-updated: '2021-06-19'
+released: 2021-06-19
+updated: 2021-06-19
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: '2.2M'
 website: 
 repository: 
 issue: 
-icon: 'net.cryptee.bitcoin.wallet.uk.free.jpg'
+icon: net.cryptee.bitcoin.wallet.uk.free.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2021-10-01'
+date: 2021-10-01
 signer: 
 reviewArchive: 
 twitter: 

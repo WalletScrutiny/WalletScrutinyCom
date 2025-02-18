@@ -3,9 +3,9 @@ title: BTCZen Smart Card Wallet
 appId: btczen.smartcard
 authors:
 - danny
-released: '2018-09-10'
+released: 2018-09-10
 discontinued: 
-updated: '2018-10-29'
+updated: 2018-10-29
 version: '1.3'
 binaries: 
 dimensions: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: vapor
 appHashes: 
-date: '2023-03-01'
+date: 2023-03-01
 signer: 
 reviewArchive: 
 twitter: 

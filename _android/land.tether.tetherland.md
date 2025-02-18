@@ -1,36 +1,35 @@
 ---
 wsId: 
-title: 'تترلند | خرید تتر و فروش تتر'
+title: تترلند | خرید تتر و فروش تتر
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'land.tether.tetherland'
+appId: land.tether.tetherland
 appCountry: 
-released: '2019-12-09'
-updated: '2023-08-01'
-version: '7.1.0'
+released: 2019-12-09
+updated: 2023-08-01
+version: 7.1.0
 stars: 4.1
 ratings: 1685
 reviews: 71
-size: 
-website: 'https://tetherland.com'
+website: https://tetherland.com
 repository: 
 issue: 
-icon: 'land.tether.tetherland.png'
+icon: land.tether.tetherland.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'nobtc'
+meta: defunct
+verdict: nobtc
 appHashes: 
-date: '2022-02-25'
+date: 2022-02-25
 signer: 
 reviewArchive: 
-twitter: 'tetherland'
+twitter: tetherland
 social:
-- 'https://www.linkedin.com/company/tetherland'
-- 'https://www.facebook.com/tetherland'
+- https://www.linkedin.com/company/tetherland
+- https://www.facebook.com/tetherland
 redirect_from: 
-developerName: 'TetherLand Team'
+developerName: TetherLand Team
 features: 
 
 ---

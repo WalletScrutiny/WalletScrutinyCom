@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'LIFE - Simply for Everyone'
+title: LIFE - Simply for Everyone
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.lifelabsio.lifeapp'
+appId: com.lifelabsio.lifeapp
 appCountry: 
-released: '2018-10-05'
-updated: '2020-03-20'
-version: '0.6.1'
+released: 2018-10-05
+updated: 2020-03-20
+version: 0.6.1
 stars: 4.3
 ratings: 
 reviews: 11
-size: 
-website: 'http://www.lifelabs.io'
+website: http://www.lifelabs.io
 repository: 
 issue: 
-icon: 'com.lifelabsio.lifeapp.png'
+icon: com.lifelabsio.lifeapp.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2024-04-03'
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'LifelabsIOLtd'
+developerName: LifelabsIOLtd
 features: 
 
 ---

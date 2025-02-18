@@ -7,12 +7,11 @@ authors:
 appId: io.getamber.app
 appCountry: au
 idd: '1410639317'
-released: '2021-06-21'
-updated: '2024-11-05'
-version: '5.5.0'
+released: 2021-06-21
+updated: 2024-11-05
+version: 5.5.0
 stars: 4.5
 reviews: 273
-size: '100076544'
 website: http://amber.app/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2024-10-07'
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: theamberapp

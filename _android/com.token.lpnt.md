@@ -1,37 +1,36 @@
 ---
 wsId: 
-title: 'LPNT - Crypto Wallet'
+title: LPNT - Crypto Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.token.lpnt'
+appId: com.token.lpnt
 appCountry: 
-released: '2021-05-03'
-updated: '2023-06-15'
+released: 2021-05-03
+updated: 2023-06-15
 version: '6.11'
 stars: 4.1
 ratings: 
 reviews: 4
-size: 
-website: 'https://www.lpntoken.io'
+website: https://www.lpntoken.io
 repository: 
 issue: 
-icon: 'com.token.lpnt.png'
+icon: com.token.lpnt.png
 bugbounty: 
-meta: 'stale'
-verdict: 'nosource'
+meta: stale
+verdict: nosource
 appHashes: 
-date: '2024-06-09'
+date: 2024-06-09
 signer: 
 reviewArchive: 
-twitter: 'officialLPNT'
+twitter: officialLPNT
 social:
-- 'https://www.linkedin.com/company/official-lpnt'
-- 'https://www.facebook.com/officialLPNT'
-- 'https://www.reddit.com/r/lpntokenofficial'
+- https://www.linkedin.com/company/official-lpnt
+- https://www.facebook.com/officialLPNT
+- https://www.reddit.com/r/lpntokenofficial
 redirect_from: 
-developerName: 'LUXURIOUS PRO NETWORK GROUP'
+developerName: LUXURIOUS PRO NETWORK GROUP
 features: 
 
 ---

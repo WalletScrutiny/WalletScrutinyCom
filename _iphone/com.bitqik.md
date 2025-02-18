@@ -7,12 +7,11 @@ authors:
 appId: com.bitqik
 appCountry: jp
 idd: '1645041960'
-released: '2022-09-26'
-updated: '2024-09-27'
-version: '2.1.1'
+released: 2022-09-26
+updated: 2024-09-27
+version: 2.1.1
 stars: 5
 reviews: 1
-size: '33589248'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2024-10-07'
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: bitqikofficial

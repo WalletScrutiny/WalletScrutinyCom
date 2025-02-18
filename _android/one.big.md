@@ -1,35 +1,35 @@
 ---
-wsId: 'BigONE'
-title: 'BigONE - Bitcoin Trading'
+wsId: BigONE
+title: BigONE - Bitcoin Trading
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'one.big'
-appCountry: 'us'
-released: '2019-10-30'
+appId: one.big
+appCountry: us
+released: 2019-10-30
 updated: 2025-01-27
-version: '2.5.3'
+version: 2.5.3
 stars: 4
 ratings: 836
 reviews: 56
-website: 'https://www.b1.zone/'
+website: https://www.b1.zone/
 repository: 
 issue: 
-icon: 'one.big.png'
+icon: one.big.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-09-17'
+date: 2021-09-17
 signer: 
 reviewArchive: 
-twitter: 'BigONEexchange'
+twitter: BigONEexchange
 social:
-- 'https://www.facebook.com/exBigONE'
-- 'https://www.reddit.com/r/BigONEExchange'
+- https://www.facebook.com/exBigONE
+- https://www.reddit.com/r/BigONEExchange
 redirect_from: 
-developerName: 'BigONE'
+developerName: BigONE
 features: 
 
 ---

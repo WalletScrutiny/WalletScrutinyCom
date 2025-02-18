@@ -3,34 +3,33 @@ wsId:
 title: 'Bitocto: Buy & Sell Crypto'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.bitocto'
+appId: com.bitocto
 appCountry: 
-released: '2019-07-18'
-updated: '2023-05-29'
+released: 2019-07-18
+updated: 2023-05-29
 version: '3.23'
 stars: 5
 ratings: 1532
 reviews: 6
-size: 
-website: 'https://bitocto.com'
+website: https://bitocto.com
 repository: 
 issue: 
-icon: 'com.bitocto.png'
+icon: com.bitocto.png
 bugbounty: 
-meta: 'stale'
-verdict: 'custodial'
+meta: stale
+verdict: custodial
 appHashes: 
-date: '2024-05-24'
+date: 2024-05-24
 signer: 
 reviewArchive: 
-twitter: 'bitoctoexchange'
+twitter: bitoctoexchange
 social:
-- 'https://www.linkedin.com/company/bitocto'
-- 'https://www.facebook.com/Bitocto'
+- https://www.linkedin.com/company/bitocto
+- https://www.facebook.com/Bitocto
 redirect_from: 
-developerName: 'Bitocto'
+developerName: Bitocto
 features: 
 
 ---

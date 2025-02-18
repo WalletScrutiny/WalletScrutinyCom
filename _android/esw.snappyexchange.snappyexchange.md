@@ -3,31 +3,31 @@ wsId:
 title: 'Snappy Exchange: Redeeming App'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'esw.snappyexchange.snappyexchange'
+appId: esw.snappyexchange.snappyexchange
 appCountry: 
-released: '2022-01-15'
+released: 2022-01-15
 updated: 2024-11-15
-version: '2.3.3 (36)'
+version: 2.3.3 (36)
 stars: 3.5
 ratings: 
 reviews: 61
-website: 'https://snappyexchange.com'
+website: https://snappyexchange.com
 repository: 
 issue: 
-icon: 'esw.snappyexchange.snappyexchange.png'
+icon: esw.snappyexchange.snappyexchange.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2023-06-14'
+date: 2023-06-14
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Snappy Exchange'
+developerName: Snappy Exchange
 features: 
 
 ---

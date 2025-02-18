@@ -1,34 +1,33 @@
 ---
-wsId: 'StratumWallet'
-title: 'Stratum Advanced Wallet'
+wsId: StratumWallet
+title: Stratum Advanced Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.modelxv64'
-appCountry: 'us'
-released: '2020-05-29'
-updated: '2021-03-18'
-version: '1.6.9'
+appId: com.modelxv64
+appCountry: us
+released: 2020-05-29
+updated: 2021-03-18
+version: 1.6.9
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.stratum.hk/'
+website: https://www.stratum.hk/
 repository: 
 issue: 
-icon: 'com.modelxv64.png'
+icon: com.modelxv64.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-03-21'
+date: 2023-03-21
 signer: 
 reviewArchive: 
-twitter: 'stratumhk'
+twitter: stratumhk
 social:
-- 'https://www.linkedin.com/company/stratumbr'
-- 'https://www.facebook.com/stratum.hk'
+- https://www.linkedin.com/company/stratumbr
+- https://www.facebook.com/stratum.hk
 redirect_from: 
 developerName: 
 features: 

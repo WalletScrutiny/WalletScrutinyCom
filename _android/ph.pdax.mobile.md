@@ -1,35 +1,35 @@
 ---
-wsId: 'pdax'
-title: 'PDAX - Make your money move'
+wsId: pdax
+title: PDAX - Make your money move
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 500000
-appId: 'ph.pdax.mobile'
-appCountry: 'ph'
-released: '2021-01-18'
+appId: ph.pdax.mobile
+appCountry: ph
+released: 2021-01-18
 updated: 2025-02-07
-version: '12.3.0'
+version: 12.3.0
 stars: 4.9
 ratings: 3291
-reviews: 2629
-website: 'https://pdax.ph'
+reviews: 2633
+website: https://pdax.ph
 repository: 
 issue: 
-icon: 'ph.pdax.mobile.png'
+icon: ph.pdax.mobile.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-09-03'
+date: 2021-09-03
 signer: 
 reviewArchive: 
-twitter: 'pdaxph'
+twitter: pdaxph
 social:
-- 'https://www.linkedin.com/company/pdaxph'
-- 'https://www.facebook.com/pdaxph'
+- https://www.linkedin.com/company/pdaxph
+- https://www.facebook.com/pdaxph
 redirect_from: 
-developerName: 'PDAX (Philippine Digital Asset Exchange)'
+developerName: PDAX (Philippine Digital Asset Exchange)
 features: 
 
 ---

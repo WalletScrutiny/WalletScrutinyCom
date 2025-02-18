@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: 'Billbitcoins- Pay With Crypto'
+title: Billbitcoins- Pay With Crypto
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.hashcash.billbitcoins'
+appId: com.hashcash.billbitcoins
 appCountry: 
-released: '2021-03-17'
+released: 2021-03-17
 updated: 2024-10-08
-version: '2.0.12'
+version: 2.0.12
 stars: 4.8
 ratings: 98
 reviews: 5
-website: 'https://www.billbitcoins.com/index.html'
+website: https://www.billbitcoins.com/index.html
 repository: 
 issue: 
-icon: 'com.hashcash.billbitcoins.png'
+icon: com.hashcash.billbitcoins.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2024-11-28'
+date: 2024-11-28
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Hashcash Consultants LLC'
+developerName: Hashcash Consultants LLC
 features: 
 
 ---

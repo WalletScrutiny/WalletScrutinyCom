@@ -7,12 +7,11 @@ authors:
 appId: com.xchange.ychanger
 appCountry: in
 idd: '1441211779'
-released: '2018-11-09'
-updated: '2022-12-29'
-version: '2.0.4'
+released: 2018-11-09
+updated: 2022-12-29
+version: 2.0.4
 stars: 0
 reviews: 0
-size: '72390656'
 website: https://ychanger.net
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2025-01-15'
+date: 2025-01-15
 signer: 
 reviewArchive: 
 twitter: 

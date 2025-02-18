@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: 'Xerium'
+title: Xerium
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.xerium.wallet'
+appId: com.xerium.wallet
 appCountry: 
-released: '2021-03-04'
-updated: '2021-03-04'
+released: 2021-03-04
+updated: 2021-03-04
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://xerium.info/'
+website: https://xerium.info/
 repository: 
 issue: 
-icon: 'com.xerium.wallet.png'
+icon: com.xerium.wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosendreceive'
+meta: removed
+verdict: nosendreceive
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
-twitter: 'Xerium3'
+twitter: Xerium3
 social:
-- 'https://www.facebook.com/Xerium'
+- https://www.facebook.com/Xerium
 redirect_from: 
-developerName: 'Xeriumtech'
+developerName: Xeriumtech
 features: 
 
 ---

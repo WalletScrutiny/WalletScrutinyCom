@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'ArowEx - Crypto/Bitcoin Tradin'
+title: ArowEx - Crypto/Bitcoin Tradin
 altTitle: 
 authors: 
 users: 10
-appId: 'arowex.com'
+appId: arowex.com
 appCountry: 
-released: '2021-07-16'
-updated: '2021-07-17'
-version: '0.0.0.1'
+released: 2021-07-16
+updated: 2021-07-17
+version: 0.0.0.1
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.arowex.com'
+website: https://www.arowex.com
 repository: 
 issue: 
-icon: 'arowex.com.png'
+icon: arowex.com.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-07-05'
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'ArowEx'
+developerName: ArowEx
 features: 
 
 ---

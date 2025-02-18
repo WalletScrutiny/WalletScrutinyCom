@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Acceptify'
+title: Acceptify
 altTitle: 
 authors: 
 users: 10
-appId: 'app.acceptify.mobilewallet'
+appId: app.acceptify.mobilewallet
 appCountry: 
-released: '2021-02-17'
-updated: '2021-03-11'
-version: '0.0.4'
+released: 2021-02-17
+updated: 2021-03-11
+version: 0.0.4
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://acceptify.io'
+website: https://acceptify.io
 repository: 
 issue: 
-icon: 'app.acceptify.mobilewallet.png'
+icon: app.acceptify.mobilewallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-04-03'
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Acceptify Limited'
+developerName: Acceptify Limited
 features: 
 
 ---

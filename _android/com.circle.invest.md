@@ -1,37 +1,36 @@
 ---
-wsId: 'circleInvest'
+wsId: circleInvest
 title: 'Circle Invest: Buy & sell Bitc'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.circle.invest'
+appId: com.circle.invest
 appCountry: 
-released: '2018-03-13'
-updated: '2022-04-28'
-version: '1.5.5'
+released: 2018-03-13
+updated: 2022-04-28
+version: 1.5.5
 stars: 3.8
 ratings: 
 reviews: 270
-size: 
-website: 'https://invest.circle.com'
+website: https://invest.circle.com
 repository: 
 issue: 
-icon: 'com.circle.invest.png'
+icon: com.circle.invest.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosendreceive'
+meta: removed
+verdict: nosendreceive
 appHashes: 
-date: '2024-09-16'
+date: 2024-09-16
 signer: 
 reviewArchive: 
-twitter: 'circle'
+twitter: circle
 social:
-- 'https://linkedin.com/company/circle-internet-financial'
-- 'https://discord.com/invite/buildoncircle'
-- 'https://youtube.com/c/Circlecryptofinance'
+- https://linkedin.com/company/circle-internet-financial
+- https://discord.com/invite/buildoncircle
+- https://youtube.com/c/Circlecryptofinance
 redirect_from: 
-developerName: 'Circle Internet Financial'
+developerName: Circle Internet Financial
 features: 
 
 ---

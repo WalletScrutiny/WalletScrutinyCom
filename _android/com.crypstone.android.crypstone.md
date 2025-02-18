@@ -1,38 +1,37 @@
 ---
 wsId: 
-title: 'Crypstone'
+title: Crypstone
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.crypstone.android.crypstone'
+appId: com.crypstone.android.crypstone
 appCountry: 
-released: '2018-07-03'
-updated: '2018-07-03'
+released: 2018-07-03
+updated: 2018-07-03
 version: '2.0'
 stars: 4.2
 ratings: 
 reviews: 
-size: 
-website: 'http://www.crypstone.com'
+website: http://www.crypstone.com
 repository: 
 issue: 
-icon: 'com.crypstone.android.crypstone.png'
+icon: com.crypstone.android.crypstone.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-07-05'
+date: 2024-07-05
 signer: 
 reviewArchive: 
-twitter: 'CrypstoneGlobal'
+twitter: CrypstoneGlobal
 social:
-- 'https://www.facebook.com/Crypstoneglobal'
-- 'https://t.me/officialcrypstone'
-- 'https://www.instagram.com/crypstoneglobal'
-- 'https://www.youtube.com/channel/UC1ObIuFCtd6fmmiEsrFTBug'
+- https://www.facebook.com/Crypstoneglobal
+- https://t.me/officialcrypstone
+- https://www.instagram.com/crypstoneglobal
+- https://www.youtube.com/channel/UC1ObIuFCtd6fmmiEsrFTBug
 redirect_from: 
-developerName: 'Crypstone'
+developerName: Crypstone
 features: 
 
 ---

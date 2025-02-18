@@ -1,38 +1,37 @@
 ---
 wsId: 
-title: 'کیف پول من'
+title: کیف پول من
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'kifpool.me'
+appId: kifpool.me
 appCountry: 
-released: '2022-09-13'
-updated: '2022-12-11'
+released: 2022-09-13
+updated: 2022-12-11
 version: '1.7'
 stars: 4
 ratings: 
 reviews: 10
-size: 
 website: 
 repository: 
 issue: 
-icon: 'kifpool.me.png'
+icon: kifpool.me.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
-twitter: 'Kifpoolme'
+twitter: Kifpoolme
 social:
-- 'https://kifpool.me'
-- 'https://www.linkedin.com/company/kifpool-me'
-- 'https://www.instagram.com/kifpool.me'
-- 'https://www.youtube.com/channel/UCo75FkojuSwonSKN5nVVEvQ'
+- https://kifpool.me
+- https://www.linkedin.com/company/kifpool-me
+- https://www.instagram.com/kifpool.me
+- https://www.youtube.com/channel/UCo75FkojuSwonSKN5nVVEvQ
 redirect_from: 
-developerName: 'zipboomlak'
+developerName: zipboomlak
 features: 
 
 ---

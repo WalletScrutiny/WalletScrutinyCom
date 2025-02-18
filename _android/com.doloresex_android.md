@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'IX'
+title: IX
 altTitle: 
 authors: 
 users: 500
-appId: 'com.doloresex_android'
+appId: com.doloresex_android
 appCountry: 
-released: '2019-05-06'
-updated: '2021-02-19'
-version: '2.5.5'
+released: 2019-05-06
+updated: 2021-02-19
+version: 2.5.5
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://ix.com'
+website: https://ix.com
 repository: 
 issue: 
-icon: 'com.doloresex_android.png'
+icon: com.doloresex_android.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-08-04'
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'IX Exchange'
+developerName: IX Exchange
 features: 
 
 ---

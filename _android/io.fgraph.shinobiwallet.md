@@ -1,36 +1,36 @@
 ---
-wsId: 'shinobiWalletWeb3'
-title: 'Shinobi Wallet · DeFi & Web3'
+wsId: shinobiWalletWeb3
+title: Shinobi Wallet · DeFi & Web3
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'io.fgraph.shinobiwallet'
+appId: io.fgraph.shinobiwallet
 appCountry: 
-released: '2021-06-02'
+released: 2021-06-02
 updated: 2024-03-02
-version: '1.8.9'
+version: 1.8.9
 stars: 
 ratings: 
 reviews: 
 website: 
 repository: 
 issue: 
-icon: 'io.fgraph.shinobiwallet.png'
+icon: io.fgraph.shinobiwallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-24'
+date: 2024-07-24
 signer: 
 reviewArchive: 
-twitter: 'shinobi_wallet'
+twitter: shinobi_wallet
 social:
-- 'https://discord.com/invite/fg5fFwYYgt'
-- 'https://t.me/shinobiwallet'
-- 'https://www.instagram.com/shinobiwallet'
+- https://discord.com/invite/fg5fFwYYgt
+- https://t.me/shinobiwallet
+- https://www.instagram.com/shinobiwallet
 redirect_from: 
-developerName: 'Mirai Finance'
+developerName: Mirai Finance
 features: 
 
 ---

@@ -7,12 +7,11 @@ authors:
 appId: network.artery.network
 appCountry: ru
 idd: 1532702666
-released: '2020-10-16'
-updated: '2021-10-04'
+released: 2020-10-16
+updated: 2021-10-04
 version: '1.7'
 stars: 4.6
 reviews: 1165
-size: 82137088
 website: https://artery.network/
 repository: https://github.com/arterynetwork/artr
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: nosource
 appHashes: 
-date: '2021-11-16'
+date: 2021-11-16
 signer: 
 reviewArchive: 
 twitter: 

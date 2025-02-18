@@ -3,9 +3,9 @@ title: FPGA Crypto-wallet DIY
 appId: fpga.crypto.wallet.diy
 authors:
 - danny
-released: '2018-11-26'
+released: 2018-11-26
 discontinued: 
-updated: '2019-04-28'
+updated: 2019-04-28
 version: 
 binaries: 
 dimensions:
@@ -26,7 +26,7 @@ bugbounty:
 meta: obsolete
 verdict: diy
 appHashes: 
-date: '2022-05-25'
+date: 2022-05-25
 signer: 
 reviewArchive: 
 twitter: 

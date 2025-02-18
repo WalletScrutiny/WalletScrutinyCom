@@ -1,38 +1,37 @@
 ---
-wsId: 'beloCrypto'
+wsId: beloCrypto
 title: 'Belo: your financial passport'
 altTitle: 
 authors:
-- 'danny'
-appId: 'com.belo.ios'
-appCountry: 'co'
+- danny
+appId: com.belo.ios
+appCountry: co
 idd: '1575614708'
-released: '2021-09-08'
+released: 2021-09-08
 updated: 2025-02-10
-version: '4.51.5'
-stars: 4.58333
+version: 4.51.5
+stars: 4.6
 reviews: 24
-size: '67442688'
-website: 'https://belo.app'
+website: https://belo.app
 repository: 
 issue: 
-icon: 'com.belo.ios.jpg'
+icon: com.belo.ios.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-06-30'
+date: 2023-06-30
 signer: 
 reviewArchive: 
-twitter: 'belo_app'
+twitter: belo_app
 social:
-- 'https://www.linkedin.com/company/belo-app'
-- 'https://www.facebook.com/SomosBelo'
-- 'https://t.me/beloentelegram'
-- 'https://www.tiktok.com/@belo.app'
+- https://www.linkedin.com/company/belo-app
+- https://www.facebook.com/SomosBelo
+- https://t.me/beloentelegram
+- https://www.tiktok.com/@belo.app
 features:
-- 'ln'
-developerName: 'belo'
+- ln
+developerName: belo
 
 ---
 

@@ -3,7 +3,7 @@ title: CoinCorner Bolt Card
 appId: coincorner.boltcard
 authors:
 - danny
-released: '2022-05-17'
+released: 2022-05-17
 discontinued: 
 updated: 
 version: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: noita
 appHashes: 
-date: '2022-11-25'
+date: 2022-11-25
 signer: 
 reviewArchive: 
 twitter: CoinCorner

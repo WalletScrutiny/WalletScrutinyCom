@@ -3,33 +3,32 @@ wsId:
 title: 'Portals : Crypto Wallet Genera'
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 10000
-appId: 'com.gloath.portalsapp'
+appId: com.gloath.portalsapp
 appCountry: 
-released: '2018-03-20'
-updated: '2020-12-20'
-version: '0.0.4a'
+released: 2018-03-20
+updated: 2020-12-20
+version: 0.0.4a
 stars: 4.5
 ratings: 138
 reviews: 23
-size: 
-website: 'https://portals.nz'
+website: https://portals.nz
 repository: 
 issue: 
-icon: 'com.gloath.portalsapp.png'
+icon: com.gloath.portalsapp.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2025-01-27'
+date: 2025-01-27
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from:
-- '/com.gloath.portalsapp/'
-developerName: 'Gloath'
+- /com.gloath.portalsapp/
+developerName: Gloath
 features: 
 
 ---

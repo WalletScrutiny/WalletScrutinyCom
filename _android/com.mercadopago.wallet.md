@@ -1,34 +1,34 @@
 ---
-wsId: 'mercadopago'
+wsId: mercadopago
 title: 'Mercado Pago: banco digital'
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 100000000
-appId: 'com.mercadopago.wallet'
-appCountry: 'br'
-released: '2014-12-09'
+appId: com.mercadopago.wallet
+appCountry: br
+released: 2014-12-09
 updated: 2025-02-12
-version: '2.368.1'
+version: 2.369.1
 stars: 4.8
 ratings: 3484084
-reviews: 967989
-website: 'http://www.mercadopago.com'
+reviews: 968854
+website: http://www.mercadopago.com
 repository: 
 issue: 
-icon: 'com.mercadopago.wallet.png'
+icon: com.mercadopago.wallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosendreceive'
+meta: ok
+verdict: nosendreceive
 appHashes: 
-date: '2021-12-26'
+date: 2021-12-26
 signer: 
 reviewArchive: 
-twitter: 'mercadopago'
+twitter: mercadopago
 social:
-- 'https://www.facebook.com/mercadopago'
+- https://www.facebook.com/mercadopago
 redirect_from: 
-developerName: 'Mercado Libre'
+developerName: Mercado Libre
 features: 
 
 ---

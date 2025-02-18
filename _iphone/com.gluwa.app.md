@@ -7,12 +7,11 @@ authors:
 appId: com.gluwa.app
 appCountry: us
 idd: '1021292326'
-released: '2015-08-18'
-updated: '2024-11-12'
-version: '8.7.0'
+released: 2015-08-18
+updated: 2024-11-12
+version: 8.7.0
 stars: 4.3
 reviews: 6
-size: '71188480'
 website: https://www.gluwa.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: nosource
 appHashes: 
-date: '2024-12-31'
+date: 2024-12-31
 signer: 
 reviewArchive: 
 twitter: gluwa

@@ -3,32 +3,31 @@ wsId:
 title: 'Claimers Multi Coins:: Bitcoin'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.claimersmulticoins'
+appId: com.claimersmulticoins
 appCountry: 
-released: '2020-01-29'
-updated: '2023-10-03'
+released: 2020-01-29
+updated: 2023-10-03
 version: '3.31'
 stars: 4.6
 ratings: 310
 reviews: 21
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.claimersmulticoins.png'
+icon: com.claimersmulticoins.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Vessper'
+developerName: Vessper
 features: 
 
 ---

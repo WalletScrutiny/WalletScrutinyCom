@@ -1,35 +1,35 @@
 ---
-wsId: 'viaBTC'
-title: 'ViaBTC-Crypto Mining Pool'
+wsId: viaBTC
+title: ViaBTC-Crypto Mining Pool
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000000
-appId: 'com.viabtc.pool'
+appId: com.viabtc.pool
 appCountry: 
-released: '2017-12-16'
+released: 2017-12-16
 updated: 2025-01-24
-version: '3.9.0'
+version: 3.9.0
 stars: 4.2
 ratings: 
-reviews: 321
-website: 'https://www.viabtc.com/'
+reviews: 322
+website: https://www.viabtc.com/
 repository: 
 issue: 
-icon: 'com.viabtc.pool.png'
+icon: com.viabtc.pool.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2022-06-24'
+date: 2022-06-24
 signer: 
 reviewArchive: 
-twitter: 'ViaBTC'
+twitter: ViaBTC
 social:
-- 'https://www.facebook.com/viabtc'
-- 'https://t.me/TheViaBTC'
+- https://www.facebook.com/viabtc
+- https://t.me/TheViaBTC
 redirect_from: 
-developerName: 'ViaBTC'
+developerName: ViaBTC
 features: 
 
 ---

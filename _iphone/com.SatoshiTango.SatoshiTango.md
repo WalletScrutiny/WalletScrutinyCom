@@ -1,35 +1,34 @@
 ---
-wsId: 'SatoshiTango'
+wsId: SatoshiTango
 title: 'Satoshi Tango: Bitcoin - USDT'
 altTitle: 
 authors:
-- 'leo'
-- 'danny'
-appId: 'com.SatoshiTango.SatoshiTango'
-appCountry: 'jp'
+- leo
+- danny
+appId: com.SatoshiTango.SatoshiTango
+appCountry: jp
 idd: '1002555958'
-released: '2015-07-08'
+released: 2015-07-08
 updated: 2025-01-25
-version: '5.3.0'
+version: 5.3.0
 stars: 4.5
 reviews: 2
-size: '84685824'
-website: 'http://www.satoshitango.com'
+website: http://www.satoshitango.com
 repository: 
 issue: 
-icon: 'com.SatoshiTango.SatoshiTango.jpg'
+icon: com.SatoshiTango.SatoshiTango.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2024-10-07'
+date: 2024-10-07
 signer: 
 reviewArchive: 
-twitter: 'satoshitango'
+twitter: satoshitango
 social:
-- 'https://www.facebook.com/satoshitangoargentina'
+- https://www.facebook.com/satoshitangoargentina
 features: 
-developerName: 'SatoshiTango'
+developerName: SatoshiTango
 
 ---
 

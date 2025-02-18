@@ -1,36 +1,35 @@
 ---
-wsId: 'LocalBitcoins'
-title: 'LocalBitcoins'
+wsId: LocalBitcoins
+title: LocalBitcoins
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.localbitcoins.app.android'
-appCountry: 'us'
-released: '2021-09-06'
-updated: '2023-02-08'
-version: '0.1.65'
+appId: com.localbitcoins.app.android
+appCountry: us
+released: 2021-09-06
+updated: 2023-02-08
+version: 0.1.65
 stars: 3.6
 ratings: 771
 reviews: 37
-size: 
-website: 'https://www.localbitcoins.com'
+website: https://www.localbitcoins.com
 repository: 
 issue: 
-icon: 'com.localbitcoins.app.android.png'
+icon: com.localbitcoins.app.android.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-04-16'
+date: 2023-04-16
 signer: 
 reviewArchive: 
-twitter: 'LocalBitcoins'
+twitter: LocalBitcoins
 social:
-- 'https://www.linkedin.com/company/localbitcoins'
-- 'https://www.facebook.com/LocalBitcoinsCom'
+- https://www.linkedin.com/company/localbitcoins
+- https://www.facebook.com/LocalBitcoinsCom
 redirect_from: 
-developerName: 'LocalBitcoins Ltd.'
+developerName: LocalBitcoins Ltd.
 features: 
 
 ---

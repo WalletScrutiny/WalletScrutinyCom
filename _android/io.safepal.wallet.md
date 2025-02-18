@@ -1,34 +1,34 @@
 ---
-wsId: 'safepal'
+wsId: safepal
 title: 'SafePal: Crypto Wallet BTC NFT'
 altTitle: 
 authors:
-- 'leo'
-- 'danny'
+- leo
+- danny
 users: 1000000
-appId: 'io.safepal.wallet'
+appId: io.safepal.wallet
 appCountry: 
-released: '2019-05-26'
+released: 2019-05-26
 updated: 2025-01-22
-version: '4.8.6'
+version: 4.8.6
 stars: 4.5
 ratings: 13497
-reviews: 869
-website: 'https://www.safepal.com'
+reviews: 873
+website: https://www.safepal.com
 repository: 
 issue: 
-icon: 'io.safepal.wallet.png'
+icon: io.safepal.wallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-15'
+date: 2024-07-15
 signer: 
 reviewArchive: 
-twitter: 'iSafePal'
+twitter: iSafePal
 social: 
 redirect_from: 
-developerName: 'SafePal Wallet'
+developerName: SafePal Wallet
 features: 
 
 ---

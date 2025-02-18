@@ -1,36 +1,35 @@
 ---
-wsId: 'moolreApp'
-title: 'Moolre'
+wsId: moolreApp
+title: Moolre
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.moolre.moolreandroid'
+appId: com.moolre.moolreandroid
 appCountry: 
-released: '2019-02-28'
-updated: '2024-01-26'
-version: '3.5.21'
+released: 2019-02-28
+updated: 2024-01-26
+version: 3.5.21
 stars: 3.1
 ratings: 
 reviews: 14
-size: 
-website: 'https://moolre.com'
+website: https://moolre.com
 repository: 
 issue: 
-icon: 'com.moolre.moolreandroid.png'
+icon: com.moolre.moolreandroid.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-07-30'
+date: 2024-07-30
 signer: 
 reviewArchive: 
-twitter: 'moolrehq'
+twitter: moolrehq
 social:
-- 'https://www.instagram.com/moolrehq'
-- 'https://www.facebook.com/moolrehq'
+- https://www.instagram.com/moolrehq
+- https://www.facebook.com/moolrehq
 redirect_from: 
-developerName: 'Moolre Inc'
+developerName: Moolre Inc
 features: 
 
 ---

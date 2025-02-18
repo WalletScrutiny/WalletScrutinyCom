@@ -3,7 +3,7 @@ title: Universa HODL
 appId: hodl.universa
 authors:
 - danny
-released: '2018-02-26'
+released: 2018-02-26
 discontinued: 
 updated: 
 version: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: vapor
 appHashes: 
-date: '2022-04-29'
+date: 2022-04-29
 signer: 
 reviewArchive: 
 twitter: Universa_News

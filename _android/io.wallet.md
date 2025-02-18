@@ -1,34 +1,33 @@
 ---
-wsId: 'WalletIO'
-title: 'wallet.io—Multi-Chain (BTC, ETH, EOS, Cosmos ...)'
+wsId: WalletIO
+title: wallet.io—Multi-Chain (BTC, ETH, EOS, Cosmos ...)
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'io.wallet'
+appId: io.wallet
 appCountry: 
-released: '2019-08-24'
-updated: '2021-11-17'
-version: '1.14.0'
+released: 2019-08-24
+updated: 2021-11-17
+version: 1.14.0
 stars: 3.4
 ratings: 123
 reviews: 12
-size: '25M'
-website: 'https://wallet.io'
+website: https://wallet.io
 repository: 
 issue: 
-icon: 'io.wallet.png'
+icon: io.wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2022-02-25'
+date: 2022-02-25
 signer: 
 reviewArchive: 
-twitter: 'io_wallet'
+twitter: io_wallet
 social:
-- 'https://medium.com/@walletio'
-- 'https://github.com/wallet-io'
+- https://medium.com/@walletio
+- https://github.com/wallet-io
 redirect_from: 
 developerName: 
 features: 

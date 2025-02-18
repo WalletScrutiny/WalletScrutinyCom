@@ -4,29 +4,29 @@ title: 'Sun Crypto: Buy & Sell Crypto'
 altTitle: 
 authors: 
 users: 1000000
-appId: 'com.suncrypto.in'
+appId: com.suncrypto.in
 appCountry: 
-released: '2021-06-28'
+released: 2021-06-28
 updated: 2025-02-03
 version: '5.3'
 stars: 4.7
 ratings: 10629
 reviews: 318
-website: 'https://suncrypto.in'
+website: https://suncrypto.in
 repository: 
 issue: 
-icon: 'com.suncrypto.in.png'
+icon: com.suncrypto.in.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-09-11'
+date: 2021-09-11
 signer: 
 reviewArchive: 
-twitter: 'suncryptoin'
+twitter: suncryptoin
 social: 
 redirect_from: 
-developerName: 'SunCrypto'
+developerName: SunCrypto
 features: 
 
 ---

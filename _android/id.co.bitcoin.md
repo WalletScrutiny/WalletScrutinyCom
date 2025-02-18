@@ -1,33 +1,33 @@
 ---
-wsId: 'indodax'
-title: 'Indodax Crypto Simple & Secure'
+wsId: indodax
+title: Indodax Crypto Simple & Secure
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 5000000
-appId: 'id.co.bitcoin'
+appId: id.co.bitcoin
 appCountry: 
-released: '2014-12-15'
+released: 2014-12-15
 updated: 2025-02-04
-version: '5.4.5'
+version: 5.4.5
 stars: 4.4
 ratings: 97568
 reviews: 431
-website: 'http://indodax.com'
+website: http://indodax.com
 repository: 
 issue: 
-icon: 'id.co.bitcoin.png'
+icon: id.co.bitcoin.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-05-31'
+date: 2021-05-31
 signer: 
 reviewArchive: 
-twitter: 'indodax'
+twitter: indodax
 social: 
 redirect_from: 
-developerName: 'Indodax'
+developerName: Indodax
 features: 
 
 ---

@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'M Wallet'
+title: M Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.blockchainappfactory.mwallet'
+appId: com.blockchainappfactory.mwallet
 appCountry: 
-released: '2020-03-08'
-updated: '2020-03-09'
+released: 2020-03-08
+updated: 2020-03-09
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://mwallet.step.holdings'
+website: https://mwallet.step.holdings
 repository: 
 issue: 
-icon: 'com.blockchainappfactory.mwallet.png'
+icon: com.blockchainappfactory.mwallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2023-05-13'
+date: 2023-05-13
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Blockchain App Factory'
+developerName: Blockchain App Factory
 features: 
 
 ---

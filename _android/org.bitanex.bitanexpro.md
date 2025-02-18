@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'BitAnex Pro'
+title: BitAnex Pro
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'org.bitanex.bitanexpro'
+appId: org.bitanex.bitanexpro
 appCountry: 
-released: '2018-11-09'
-updated: '2019-04-26'
-version: '3.1.22'
+released: 2018-11-09
+updated: 2019-04-26
+version: 3.1.22
 stars: 4.2
 ratings: 
 reviews: 2
-size: 
-website: 'http://bitanex.com'
+website: http://bitanex.com
 repository: 
 issue: 
-icon: 'org.bitanex.bitanexpro.jpg'
+icon: org.bitanex.bitanexpro.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2023-05-05'
+date: 2023-05-05
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'BitAnex'
+developerName: BitAnex
 features: 
 
 ---

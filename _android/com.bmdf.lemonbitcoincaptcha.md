@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: 'Lemon Bitcoin Captcha'
+title: Lemon Bitcoin Captcha
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.bmdf.lemonbitcoincaptcha'
+appId: com.bmdf.lemonbitcoincaptcha
 appCountry: 
-released: '2022-07-11'
+released: 2022-07-11
 updated: 2024-11-15
-version: '4.3.0'
+version: 4.3.0
 stars: 4
 ratings: 
 reviews: 6
-website: 'https://needbux.com/app-ads.txt'
+website: https://needbux.com/app-ads.txt
 repository: 
 issue: 
-icon: 'com.bmdf.lemonbitcoincaptcha.png'
+icon: com.bmdf.lemonbitcoincaptcha.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2023-06-13'
+date: 2023-06-13
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'BMDF'
+developerName: BMDF
 features: 
 
 ---

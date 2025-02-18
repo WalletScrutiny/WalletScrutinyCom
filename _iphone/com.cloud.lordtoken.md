@@ -7,12 +7,11 @@ authors:
 appId: com.cloud.lordtoken
 appCountry: gb
 idd: '1602239096'
-released: '2022-06-05'
-updated: '2022-12-14'
-version: '1.1.0'
+released: 2022-06-05
+updated: 2022-12-14
+version: 1.1.0
 stars: 0
 reviews: 0
-size: '78331904'
 website: https://exchange.lordtoken.com/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2023-09-28'
+date: 2023-09-28
 signer: 
 reviewArchive: 
 twitter: lordtoken_off

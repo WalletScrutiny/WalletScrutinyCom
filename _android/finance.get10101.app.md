@@ -3,28 +3,29 @@ wsId:
 title: '10101'
 altTitle: 
 authors:
-- 'danny'
-- 'keraliss'
+- danny
+- keraliss
 users: 500
-appId: 'finance.get10101.app'
+appId: finance.get10101.app
 appCountry: 
+released: 
 updated: 2024-11-13
-version: 'VARY'
+version: VARY
 stars: 
 ratings: 
 reviews: 
-website: 'https://10101.finance'
-repository: 'https://github.com/get10101/10101'
+website: https://10101.finance
+repository: https://github.com/get10101/10101
 issue: 
-icon: 'finance.get10101.app.png'
+icon: finance.get10101.app.png
 bugbounty: 
-meta: 'ok'
-verdict: 'fewusers'
+meta: ok
+verdict: fewusers
 appHashes: 
-date: '2024-08-07'
+date: 2024-08-07
 signer: 
 reviewArchive: 
-twitter: 'get10101'
+twitter: get10101
 social: 
 redirect_from: 
 developerName: '10101'

@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Kointo - Wallet Bitcoin, Ether'
+title: Kointo - Wallet Bitcoin, Ether
 altTitle: 
 authors: 
 users: 50
-appId: 'com.eccu'
+appId: com.eccu
 appCountry: 
-released: '2020-07-06'
-updated: '2020-11-06'
+released: 2020-07-06
+updated: 2020-11-06
 version: '1.12'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'http://www.eccu.xyz'
+website: http://www.eccu.xyz
 repository: 
 issue: 
-icon: 'com.eccu.png'
+icon: com.eccu.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

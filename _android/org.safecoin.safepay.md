@@ -1,38 +1,37 @@
 ---
 wsId: 
-title: 'SafePay'
+title: SafePay
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'org.safecoin.safepay'
+appId: org.safecoin.safepay
 appCountry: 
-released: '2019-05-20'
-updated: '2020-08-14'
-version: '7.2.8'
+released: 2019-05-20
+updated: 2020-08-14
+version: 7.2.8
 stars: 4.2
 ratings: 
 reviews: 5
-size: 
-website: 'https://safepay.safecoin.org'
+website: https://safepay.safecoin.org
 repository: 
 issue: 
-icon: 'org.safecoin.safepay.png'
+icon: org.safecoin.safepay.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2024-07-05'
+date: 2024-07-05
 signer: 
 reviewArchive: 
-twitter: 'safecoin'
+twitter: safecoin
 social:
-- 'https://www.facebook.com/safecoins/'
-- 'https://www.instagram.com/safecoinproject/'
-- 'https://www.linkedin.com/company/safecoins/'
-- 'https://www.youtube.com/c/Safecoin'
+- https://www.facebook.com/safecoins/
+- https://www.instagram.com/safecoinproject/
+- https://www.linkedin.com/company/safecoins/
+- https://www.youtube.com/c/Safecoin
 redirect_from: 
-developerName: 'SafeCoin'
+developerName: SafeCoin
 features: 
 
 ---

@@ -1,33 +1,33 @@
 ---
-wsId: 'xverse'
+wsId: xverse
 title: 'Xverse Wallet: Buy Bitcoin'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.secretkeylabs.xverse'
-appCountry: 'cn'
-released: '2021-10-12'
+appId: com.secretkeylabs.xverse
+appCountry: cn
+released: 2021-10-12
 updated: 2025-01-31
-version: '1.43.0'
+version: 1.43.0
 stars: 4.6
 ratings: 34
-reviews: 969
-website: 'https://www.xverse.app/'
+reviews: 971
+website: https://www.xverse.app/
 repository: 
 issue: 
-icon: 'com.secretkeylabs.xverse.png'
+icon: com.secretkeylabs.xverse.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-17'
+date: 2024-07-17
 signer: 
 reviewArchive: 
-twitter: 'secretkeylabs'
+twitter: secretkeylabs
 social: 
 redirect_from: 
-developerName: 'Secret Key Labs'
+developerName: Secret Key Labs
 features: 
 
 ---

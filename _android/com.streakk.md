@@ -1,38 +1,37 @@
 ---
-wsId: 'streakkWallet'
-title: 'Earn World'
+wsId: streakkWallet
+title: Earn World
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.streakk'
+appId: com.streakk
 appCountry: 
-released: '2022-07-29'
-updated: '2023-09-26'
+released: 2022-07-29
+updated: 2023-09-26
 version: '3.7'
 stars: 4
 ratings: 
 reviews: 2
-size: 
-website: 'https://odbdrwodqyzixyxti.earn.world/'
+website: https://odbdrwodqyzixyxti.earn.world/
 repository: 
 issue: 
-icon: 'com.streakk.png'
+icon: com.streakk.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2025-02-13'
+date: 2025-02-13
 signer: 
 reviewArchive: 
-twitter: 'streakkofficial'
+twitter: streakkofficial
 social:
-- 'https://www.facebook.com/profile.php?id=100082035586084'
-- 'https://www.youtube.com/channel/UCoUO11LtezWh-HmuNUe0WbA'
-- 'https://t.me/streakkofficial'
-- 'https://medium.com/@streakkofficial'
+- https://www.facebook.com/profile.php?id=100082035586084
+- https://www.youtube.com/channel/UCoUO11LtezWh-HmuNUe0WbA
+- https://t.me/streakkofficial
+- https://medium.com/@streakkofficial
 redirect_from: 
-developerName: 'Streakk Technologies'
+developerName: Streakk Technologies
 features: 
 
 ---

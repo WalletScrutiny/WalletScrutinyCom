@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'EFTMarkets Trading App'
+title: EFTMarkets Trading App
 altTitle: 
 authors: 
 users: 10
-appId: 'com.EftMarkets.app'
+appId: com.EftMarkets.app
 appCountry: 
 released: 
-updated: '2021-02-15'
-version: '1.0.15'
+updated: 2021-02-15
+version: 1.0.15
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://eftmarkets.com/'
+website: https://eftmarkets.com/
 repository: 
 issue: 
-icon: 'com.EftMarkets.app.png'
+icon: com.EftMarkets.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-03-21'
+date: 2023-03-21
 signer: 
 reviewArchive: 
 twitter: 

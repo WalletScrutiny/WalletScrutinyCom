@@ -1,33 +1,34 @@
 ---
-wsId: 'matbeaExchange'
-title: 'Matbea'
+wsId: matbeaExchange
+title: Matbea
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.matbea'
+appId: com.matbea
 appCountry: 
+released: 
 updated: 2025-01-20
-version: '1.6.9'
+version: 1.6.9
 stars: 3.6
 ratings: 
 reviews: 
-website: 'https://matbea.com'
+website: https://matbea.com
 repository: 
 issue: 
-icon: 'com.matbea.png'
+icon: com.matbea.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-04-07'
+date: 2023-04-07
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://t.me/matbea/'
+- https://t.me/matbea/
 redirect_from: 
-developerName: 'Matbea'
+developerName: Matbea
 features: 
 
 ---

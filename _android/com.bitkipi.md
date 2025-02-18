@@ -1,34 +1,33 @@
 ---
-wsId: 'bitKipi'
-title: 'Bitkipi'
+wsId: bitKipi
+title: Bitkipi
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.bitkipi'
+appId: com.bitkipi
 appCountry: 
-released: '2021-12-23'
-updated: '2022-09-30'
-version: '1.5.0'
+released: 2021-12-23
+updated: 2022-09-30
+version: 1.5.0
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://pocketbitcoin.com'
+website: https://pocketbitcoin.com
 repository: 
 issue: 
-icon: 'com.bitkipi.png'
+icon: com.bitkipi.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Pocket Bitcoin'
+developerName: Pocket Bitcoin
 features: 
 
 ---

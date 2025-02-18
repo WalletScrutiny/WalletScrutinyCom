@@ -1,35 +1,34 @@
 ---
-wsId: 'fastEWallet'
-title: 'FastE Wallet'
+wsId: fastEWallet
+title: FastE Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'io.fastewallet.bankwallet'
+appId: io.fastewallet.bankwallet
 appCountry: 
-released: '2022-08-31'
-updated: '2023-01-18'
-version: '0.26.4'
+released: 2022-08-31
+updated: 2023-01-18
+version: 0.26.4
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'http://crypto.fastewallet.com/'
+website: http://crypto.fastewallet.com/
 repository: 
 issue: 
-icon: 'io.fastewallet.bankwallet.png'
+icon: io.fastewallet.bankwallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
-twitter: 'blocktechbrew'
+twitter: blocktechbrew
 social:
-- 'https://www.instagram.com/blocktechbrew'
+- https://www.instagram.com/blocktechbrew
 redirect_from: 
-developerName: 'Blocktech Brew'
+developerName: Blocktech Brew
 features: 
 
 ---

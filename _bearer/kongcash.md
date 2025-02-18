@@ -3,7 +3,7 @@ title: Kong Cash
 appId: kongcash
 authors:
 - danny
-released: '2019-10-10'
+released: 2019-10-10
 discontinued: 
 updated: 
 version: 
@@ -22,7 +22,7 @@ icon: kongcash.png
 bugbounty: 
 meta: ok
 verdict: nobtc
-date: '2022-03-23'
+date: 2022-03-23
 signer: 
 reviewArchive: 
 twitter: kongiscash

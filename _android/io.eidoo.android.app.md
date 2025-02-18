@@ -7,13 +7,12 @@ authors:
 users: 5000
 appId: io.eidoo.android.app
 appCountry: 
-released: '2022-05-26'
-updated: '2023-07-18'
-version: '1.14.2'
+released: 2022-05-26
+updated: 2023-07-18
+version: 1.14.2
 stars: 1.6
 ratings: 
 reviews: 5
-size: 
 website: https://eidoo.app/
 repository: 
 issue: 
@@ -22,7 +21,7 @@ bugbounty:
 meta: stale
 verdict: nosource
 appHashes: 
-date: '2024-07-14'
+date: 2024-07-14
 signer: 
 reviewArchive: 
 twitter: eidoo_io

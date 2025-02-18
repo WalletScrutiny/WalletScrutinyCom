@@ -7,12 +7,11 @@ authors:
 appId: eu.crystalwallet.app
 appCountry: us
 idd: 1501729731
-released: '2020-03-13'
-updated: '2021-10-23'
+released: 2020-03-13
+updated: 2021-10-23
 version: '1.78'
 stars: 5
 reviews: 6
-size: 41720832
 website: https://crystalwallet.eu/#about
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: nosource
 appHashes: 
-date: '2022-03-09'
+date: 2022-03-09
 signer: 
 reviewArchive: 
 twitter: CrystalWalletEU

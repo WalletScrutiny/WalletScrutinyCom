@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'kolicoin - Buy & Sell Bitcoin'
+title: kolicoin - Buy & Sell Bitcoin
 altTitle: 
 authors: 
 users: 100
-appId: 'com.ubakasi.kolicoin'
+appId: com.ubakasi.kolicoin
 appCountry: 
-released: '2021-11-05'
-updated: '2023-02-21'
-version: '5.1.7'
+released: 2021-11-05
+updated: 2023-02-21
+version: 5.1.7
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://kolicoin.com'
+website: https://kolicoin.com
 repository: 
 issue: 
-icon: 'com.ubakasi.kolicoin.png'
+icon: com.ubakasi.kolicoin.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Kolicoin Limited'
+developerName: Kolicoin Limited
 features: 
 
 ---

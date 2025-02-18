@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'SymWallet(SymVerse)'
+title: SymWallet(SymVerse)
 altTitle: 
 authors: 
 users: 10000
-appId: 'com.symverse.wallet'
+appId: com.symverse.wallet
 appCountry: 
-released: '2019-10-29'
-updated: '2021-04-20'
-version: '1.2.1'
+released: 2019-10-29
+updated: 2021-04-20
+version: 1.2.1
 stars: 4.5
 ratings: 
 reviews: 
-size: 
-website: 'https://symverse.com'
+website: https://symverse.com
 repository: 
 issue: 
-icon: 'com.symverse.wallet.png'
+icon: com.symverse.wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2024-11-12'
+date: 2024-11-12
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'SymVerse'
+developerName: SymVerse
 features: 
 
 ---

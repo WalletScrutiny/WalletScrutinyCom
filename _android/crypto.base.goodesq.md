@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'GOODESQ'
+title: GOODESQ
 altTitle: 
 authors: 
 users: 1
-appId: 'crypto.base.goodesq'
+appId: crypto.base.goodesq
 appCountry: 
-released: '2019-06-06'
-updated: '2019-06-06'
-version: '1.0.0'
+released: 2019-06-06
+updated: 2019-06-06
+version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://goodesq.com/'
+website: https://goodesq.com/
 repository: 
 issue: 
-icon: 'crypto.base.goodesq.png'
+icon: crypto.base.goodesq.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'GOODESQ'
+developerName: GOODESQ
 features: 
 
 ---

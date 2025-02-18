@@ -27,7 +27,7 @@ bugbounty:
 meta: discontinued
 verdict: nosource
 appHashes: 
-date: '2024-12-08'
+date: 2024-12-08
 signer: 
 reviewArchive: 
 twitter: blockchain

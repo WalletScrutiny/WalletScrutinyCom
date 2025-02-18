@@ -23,7 +23,7 @@ bugbounty:
 meta: discontinued
 verdict: nowallet
 appHashes: 
-date: '2023-02-06'
+date: 2023-02-06
 signer: 
 reviewArchive: 
 twitter: PundiXLabs

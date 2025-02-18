@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Servicoin - Crypto Wallet'
+title: Servicoin - Crypto Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.servicoin.wallet'
+appId: com.servicoin.wallet
 appCountry: 
-released: '2021-07-31'
-updated: '2021-07-31'
-version: '0.21.0'
+released: 2021-07-31
+updated: 2021-07-31
+version: 0.21.0
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.mysrvcoin.com/index.php'
+website: https://www.mysrvcoin.com/index.php
 repository: 
 issue: 
-icon: 'com.servicoin.wallet.png'
+icon: com.servicoin.wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'My Services Shop Inc.'
+developerName: My Services Shop Inc.
 features: 
 
 ---

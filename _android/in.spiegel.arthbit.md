@@ -1,39 +1,38 @@
 ---
 wsId: 
-title: 'ArthBit'
+title: ArthBit
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'in.spiegel.arthbit'
+appId: in.spiegel.arthbit
 appCountry: 
-released: '2021-11-19'
-updated: '2021-11-23'
-version: '1.0.1'
+released: 2021-11-19
+updated: 2021-11-23
+version: 1.0.1
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://arthbit.com/'
+website: https://arthbit.com/
 repository: 
 issue: 
-icon: 'in.spiegel.arthbit.png'
+icon: in.spiegel.arthbit.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-09-04'
+date: 2023-09-04
 signer: 
 reviewArchive: 
-twitter: 'ArthBitExchange'
+twitter: ArthBitExchange
 social:
-- 'https://www.facebook.com/ArthBitExchange'
-- 'https://www.youtube.com/@arthbitexchange569'
-- 'https://www.instagram.com/arthbitexchange'
-- 'https://www.linkedin.com/company/arthbitexchange'
-- 'https://t.me/ArthBitExchange'
+- https://www.facebook.com/ArthBitExchange
+- https://www.youtube.com/@arthbitexchange569
+- https://www.instagram.com/arthbitexchange
+- https://www.linkedin.com/company/arthbitexchange
+- https://t.me/ArthBitExchange
 redirect_from: 
-developerName: 'ARTHBIT PRIVATE LIMITED'
+developerName: ARTHBIT PRIVATE LIMITED
 features: 
 
 ---

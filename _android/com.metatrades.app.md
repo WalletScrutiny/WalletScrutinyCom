@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Meta Trades'
+title: Meta Trades
 altTitle: 
 authors: 
 users: 1000
-appId: 'com.metatrades.app'
+appId: com.metatrades.app
 appCountry: 
 released: 
-updated: '2023-01-05'
-version: '1.1.93'
+updated: 2023-01-05
+version: 1.1.93
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.meta-trades.com/'
+website: https://www.meta-trades.com/
 repository: 
 issue: 
-icon: 'com.metatrades.app.png'
+icon: com.metatrades.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2023-04-16'
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Meta-Trades'
+developerName: Meta-Trades
 features: 
 
 ---

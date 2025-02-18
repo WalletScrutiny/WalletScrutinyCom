@@ -1,34 +1,34 @@
 ---
-wsId: 'vuolletApp'
-title: 'Vuollet'
+wsId: vuolletApp
+title: Vuollet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.app.vuollet'
+appId: com.app.vuollet
 appCountry: 
-released: '2021-10-27'
+released: 2021-10-27
 updated: 2022-04-29
-version: '2.0.5'
+version: 2.0.5
 stars: 
 ratings: 
 reviews: 
-website: 'https://vuollet.io/'
+website: https://vuollet.io/
 repository: 
 issue: 
-icon: 'com.app.vuollet.png'
+icon: com.app.vuollet.png
 bugbounty: 
-meta: 'obsolete'
-verdict: 'custodial'
+meta: obsolete
+verdict: custodial
 appHashes: 
-date: '2024-04-18'
+date: 2024-04-18
 signer: 
 reviewArchive: 
-twitter: 'Vuollet_io'
+twitter: Vuollet_io
 social:
-- 'https://t.me/vuollet'
+- https://t.me/vuollet
 redirect_from: 
-developerName: 'Codego Ltd'
+developerName: Codego Ltd
 features: 
 
 ---

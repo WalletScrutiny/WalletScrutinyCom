@@ -1,36 +1,35 @@
 ---
 wsId: 
-title: 'AirPay wallet'
+title: AirPay wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.airpay.appwallet'
+appId: com.airpay.appwallet
 appCountry: 
-released: '2022-04-15'
-updated: '2022-04-15'
-version: '1.0.8'
+released: 2022-04-15
+updated: 2022-04-15
+version: 1.0.8
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://airpayfinance.com/#'
+website: https://airpayfinance.com/#
 repository: 
 issue: 
-icon: 'com.airpay.appwallet.png'
+icon: com.airpay.appwallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2024-10-28'
+date: 2024-10-28
 signer: 
 reviewArchive: 
-twitter: 'airpayfinance'
+twitter: airpayfinance
 social:
-- 'https://facebook.com/airpaytoken'
-- 'https://www.instagram.com/airpayofficial'
+- https://facebook.com/airpaytoken
+- https://www.instagram.com/airpayofficial
 redirect_from: 
-developerName: 'AIRPAY.FINANCE'
+developerName: AIRPAY.FINANCE
 features: 
 
 ---

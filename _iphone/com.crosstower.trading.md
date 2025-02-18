@@ -7,12 +7,11 @@ authors:
 appId: com.crosstower.trading
 appCountry: us
 idd: '1586136066'
-released: '2021-09-30'
-updated: '2022-12-03'
+released: 2021-09-30
+updated: 2022-12-03
 version: '3.26'
 stars: 4.7
 reviews: 3
-size: '40751104'
 website: https://www.crosstower.in/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2023-08-04'
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: CrossTowerIndia

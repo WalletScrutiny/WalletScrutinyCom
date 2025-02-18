@@ -7,21 +7,20 @@ authors:
 appId: org.reactjs.native.example.blocknance
 appCountry: us
 idd: '6444729550'
-released: '2022-12-16'
-updated: '2023-03-01'
-version: '1.0.2'
+released: 2022-12-16
+updated: 2023-03-01
+version: 1.0.2
 stars: 5
 reviews: 1
-size: '34811904'
 website: 
 repository: 
 issue: 
 icon: org.reactjs.native.example.blocknance.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nosource
 appHashes: 
-date: '2024-02-24'
+date: 2025-02-18
 signer: 
 reviewArchive: 
 twitter: blocknanceATM

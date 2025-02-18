@@ -1,44 +1,44 @@
 ---
-wsId: 'coinsph'
-title: 'Coins – Buy Bitcoin, Crypto'
+wsId: coinsph
+title: Coins – Buy Bitcoin, Crypto
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 10000000
-appId: 'asia.coins.mobile'
+appId: asia.coins.mobile
 appCountry: 
-released: '2014-10-01'
+released: 2014-10-01
 updated: 2025-02-13
-version: '7.9.0.1'
+version: 7.9.0.1
 stars: 3.3
 ratings: 109535
 reviews: 537
-website: 'https://coins.ph'
+website: https://coins.ph
 repository: 
 issue: 
-icon: 'asia.coins.mobile.png'
+icon: asia.coins.mobile.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2020-10-12'
+date: 2020-10-12
 signer: 
 reviewArchive:
-- date: '2019-11-17'
-  version: '3.3.92'
+- date: 2019-11-17
+  version: 3.3.92
   appHashes: []
-  gitRevision: '372c9c03c6422faed457f1a9975d7cab8f13d01f'
-  verdict: 'nosource'
-twitter: 'coinsph'
+  gitRevision: 372c9c03c6422faed457f1a9975d7cab8f13d01f
+  verdict: nosource
+twitter: coinsph
 social:
-- 'https://www.linkedin.com/company/coins-ph'
-- 'https://www.facebook.com/coinsph'
+- https://www.linkedin.com/company/coins-ph
+- https://www.facebook.com/coinsph
 redirect_from:
-- '/coinsph/'
-- '/asia.coins.mobile/'
-- '/posts/2019/11/coinsph/'
-- '/posts/asia.coins.mobile/'
-developerName: 'Coins Asia'
+- /coinsph/
+- /asia.coins.mobile/
+- /posts/2019/11/coinsph/
+- /posts/asia.coins.mobile/
+developerName: Coins Asia
 features: 
 
 ---

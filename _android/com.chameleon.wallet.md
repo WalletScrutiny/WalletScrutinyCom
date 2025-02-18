@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: 'Chameleon Pay'
+title: Chameleon Pay
 altTitle: 
 authors: 
 users: 1000
-appId: 'com.chameleon.wallet'
+appId: com.chameleon.wallet
 appCountry: 
-released: '2019-02-22'
-updated: '2019-10-16'
-version: '4.0.3'
+released: 2019-02-22
+updated: 2019-10-16
+version: 4.0.3
 stars: 4.5
 ratings: 75
 reviews: 61
-size: '27M'
-website: 'https://www.chainzilla.io'
+website: https://www.chainzilla.io
 repository: 
 issue: 
-icon: 'com.chameleon.wallet.png'
+icon: com.chameleon.wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2020-12-08'
+date: 2020-12-08
 signer: 
 reviewArchive: 
-twitter: 'chainzillaio'
+twitter: chainzillaio
 social:
-- 'https://www.reddit.com/r/ChainZilla'
+- https://www.reddit.com/r/ChainZilla
 redirect_from:
-- '/com.chameleon.wallet/'
-- '/posts/com.chameleon.wallet/'
+- /com.chameleon.wallet/
+- /posts/com.chameleon.wallet/
 developerName: 
 features: 
 

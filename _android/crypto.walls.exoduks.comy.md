@@ -1,28 +1,27 @@
 ---
 wsId: 
-title: 'Exodus Bitcoin Manage, and Exchange cryptocurrency'
-altTitle: '(Fake) Exodus Bitcoin Manage, and Exchange cryptocurrency'
+title: Exodus Bitcoin Manage, and Exchange cryptocurrency
+altTitle: (Fake) Exodus Bitcoin Manage, and Exchange cryptocurrency
 authors:
-- 'leo'
+- leo
 users: 10
-appId: 'crypto.walls.exoduks.comy'
+appId: crypto.walls.exoduks.comy
 appCountry: 
-released: '2021-10-03'
-updated: '2021-10-04'
+released: 2021-10-03
+updated: 2021-10-04
 version: '19.28'
 stars: 
 ratings: 
 reviews: 
-size: '11M'
 website: 
 repository: 
 issue: 
-icon: 'crypto.walls.exoduks.comy.png'
+icon: crypto.walls.exoduks.comy.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fake'
+meta: removed
+verdict: fake
 appHashes: 
-date: '2021-10-30'
+date: 2021-10-30
 signer: 
 reviewArchive: 
 twitter: 

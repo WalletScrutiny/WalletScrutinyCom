@@ -1,35 +1,35 @@
 ---
-wsId: 'ascendex'
+wsId: ascendex
 title: 'AscendEX: Buy & Sell Crypto'
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 500000
-appId: 'com.ascendex.exchange'
+appId: com.ascendex.exchange
 appCountry: 
-released: '2021-04-28'
+released: 2021-04-28
 updated: 2025-02-13
-version: '3.5.2'
+version: 3.5.2
 stars: 3.7
 ratings: 6660
-reviews: 79
-website: 'https://www.ascendex.com/'
+reviews: 78
+website: https://www.ascendex.com/
 repository: 
 issue: 
-icon: 'com.ascendex.exchange.png'
+icon: com.ascendex.exchange.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-05-12'
+date: 2021-05-12
 signer: 
 reviewArchive: 
-twitter: 'AscendEX_Global'
+twitter: AscendEX_Global
 social:
-- 'https://www.facebook.com/AscendEXOfficial'
-- 'https://www.reddit.com/r/AscendEX_Official'
+- https://www.facebook.com/AscendEXOfficial
+- https://www.reddit.com/r/AscendEX_Official
 redirect_from: 
-developerName: 'AscendEX'
+developerName: AscendEX
 features: 
 
 ---

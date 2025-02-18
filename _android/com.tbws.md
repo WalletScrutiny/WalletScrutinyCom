@@ -7,13 +7,12 @@ authors:
 users: 10000
 appId: com.tbws
 appCountry: 
-released: '2021-05-27'
-updated: '2024-05-20'
-version: '1.0-prod2'
+released: 2021-05-27
+updated: 2024-05-20
+version: 1.0-prod2
 stars: 3.5
 ratings: 
 reviews: 60
-size: 
 website: https://theblackwallstreet.com
 repository: 
 issue: 
@@ -22,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2024-07-05'
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

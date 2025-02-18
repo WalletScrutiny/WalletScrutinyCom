@@ -1,37 +1,36 @@
 ---
-wsId: 'cexCryptoWallet'
-title: 'CEX.IO App - Crypto Wallet'
+wsId: cexCryptoWallet
+title: CEX.IO App - Crypto Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'io.cex.wallet'
+appId: io.cex.wallet
 appCountry: 
-released: '2022-02-21'
-updated: '2024-03-06'
-version: '2.7.8'
+released: 2022-02-21
+updated: 2024-03-06
+version: 2.7.8
 stars: 3.9
 ratings: 
 reviews: 61
-size: 
-website: 'https://wallet.cex.io'
+website: https://wallet.cex.io
 repository: 
 issue: 
-icon: 'io.cex.wallet.png'
+icon: io.cex.wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
-twitter: 'cex_io'
+twitter: cex_io
 social:
-- 'https://t.me/CEX_IO'
-- 'https://www.facebook.com/CEX.IO'
-- 'https://www.linkedin.com/company/cex-io/'
+- https://t.me/CEX_IO
+- https://www.facebook.com/CEX.IO
+- https://www.linkedin.com/company/cex-io/
 redirect_from: 
-developerName: 'CEX.IO'
+developerName: CEX.IO
 features: 
 
 ---

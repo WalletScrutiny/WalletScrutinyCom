@@ -3,9 +3,9 @@ title: YubiKey Neo BTChip
 appId: ykneo.btchip
 authors:
 - danny
-released: '2013-11-20'
+released: 2013-11-20
 discontinued: 
-updated: '2014-11-26'
+updated: 2014-11-26
 version: 
 binaries: 
 dimensions: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: defunct
 verdict: diy
 appHashes: 
-date: '2022-05-20'
+date: 2022-05-20
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,34 +1,34 @@
 ---
-wsId: 'Gekkard'
+wsId: Gekkard
 title: 'Gekkard: Banking Alternative'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.papaya.gekkard'
-appCountry: 'mt'
-released: '2020-01-30'
+appId: com.papaya.gekkard
+appCountry: mt
+released: 2020-01-30
 updated: 2024-10-14
-version: '1.1.1'
+version: 1.1.1
 stars: 2.3
 ratings: 43
 reviews: 69
-website: 'https://gekkoin.com/index.html'
+website: https://gekkoin.com/index.html
 repository: 
 issue: 
-icon: 'com.papaya.gekkard.png'
+icon: com.papaya.gekkard.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-11-17'
+date: 2021-11-17
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://www.facebook.com/gekkoin.official'
+- https://www.facebook.com/gekkoin.official
 redirect_from: 
-developerName: 'PAPAYA LTD'
+developerName: PAPAYA LTD
 features: 
 
 ---

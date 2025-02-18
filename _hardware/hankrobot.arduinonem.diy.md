@@ -3,9 +3,9 @@ title: HankRobot Arduino NEM DIY Hardware Wallet
 appId: hankrobot.arduinonem.diy
 authors:
 - danny
-released: '2019-07-09'
+released: 2019-07-09
 discontinued: 
-updated: '2019-10-04'
+updated: 2019-10-04
 version: 
 binaries: 
 dimensions: 
@@ -24,7 +24,7 @@ bugbounty:
 meta: obsolete
 verdict: nobtc
 appHashes: 
-date: '2022-12-07'
+date: 2022-12-07
 signer: 
 reviewArchive: 
 twitter: 

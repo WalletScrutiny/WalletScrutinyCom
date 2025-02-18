@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Vimepay'
+title: Vimepay
 altTitle: 
 authors: 
 users: 50
-appId: 'com.vimepaypeer2peer'
+appId: com.vimepaypeer2peer
 appCountry: 
-released: '2021-05-09'
-updated: '2021-05-09'
-version: '1.1.2'
+released: 2021-05-09
+updated: 2021-05-09
+version: 1.1.2
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'http://vimepay.com'
+website: http://vimepay.com
 repository: 
 issue: 
-icon: 'com.vimepaypeer2peer.png'
+icon: com.vimepaypeer2peer.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

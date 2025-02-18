@@ -7,12 +7,11 @@ authors:
 appId: com.hidollars.app
 appCountry: jp
 idd: '1583215766'
-released: '2021-10-06'
-updated: '2024-10-28'
-version: '2.19.0'
+released: 2021-10-06
+updated: 2024-10-28
+version: 2.19.0
 stars: 3.8
 reviews: 279
-size: '253579264'
 website: https://hi.com/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2024-10-07'
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: hi_com_official

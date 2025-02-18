@@ -1,34 +1,34 @@
 ---
-wsId: 'techAmon'
-title: 'Amon'
+wsId: techAmon
+title: Amon
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'tech.amon'
+appId: tech.amon
 appCountry: 
-released: '2019-05-20'
+released: 2019-05-20
 updated: 2023-07-04
-version: '3.7.31'
+version: 3.7.31
 stars: 
 ratings: 
 reviews: 
-website: 'https://amon.tech'
+website: https://amon.tech
 repository: 
 issue: 
-icon: 'tech.amon.png'
+icon: tech.amon.png
 bugbounty: 
-meta: 'stale'
-verdict: 'custodial'
+meta: stale
+verdict: custodial
 appHashes: 
-date: '2024-06-29'
+date: 2024-06-29
 signer: 
 reviewArchive: 
-twitter: 'amonwallet'
+twitter: amonwallet
 social:
-- 'https://www.facebook.com/amonwallet'
+- https://www.facebook.com/amonwallet
 redirect_from: 
-developerName: 'Amon OÜ'
+developerName: Amon OÜ
 features: 
 
 ---

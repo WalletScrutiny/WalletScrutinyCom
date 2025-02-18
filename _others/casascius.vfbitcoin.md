@@ -4,13 +4,14 @@ appId: casascius.vfbitcoin
 authors:
 - danny
 icon: casascius.vfbitcoin.png
-date: '2024-01-08'
-released: '2011-10-02'
+date: 2024-01-08
+released: 2011-10-02
 provider: Casascius
 providerWebsite: https://www.casascius.com/
 repository: https://github.com/casascius/vfbitcoin
 meta: ok
 verdict: vapor
+social: 
 
 ---
 

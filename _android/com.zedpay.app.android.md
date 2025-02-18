@@ -1,36 +1,36 @@
 ---
-wsId: 'zedPayExchange'
-title: 'Zed-Pay'
+wsId: zedPayExchange
+title: Zed-Pay
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.zedpay.app.android'
+appId: com.zedpay.app.android
 appCountry: 
-released: '2022-10-25'
+released: 2022-10-25
 updated: 2024-01-27
-version: '1.4.6-production'
+version: 1.4.6-production
 stars: 
 ratings: 
 reviews: 
-website: 'https://zed-pay.com'
+website: https://zed-pay.com
 repository: 
 issue: 
-icon: 'com.zedpay.app.android.png'
+icon: com.zedpay.app.android.png
 bugbounty: 
-meta: 'stale'
-verdict: 'custodial'
+meta: stale
+verdict: custodial
 appHashes: 
-date: '2025-01-27'
+date: 2025-01-27
 signer: 
 reviewArchive: 
-twitter: 'ZedPayCo'
+twitter: ZedPayCo
 social:
-- 'https://www.linkedin.com/company/zedpaycompany'
-- 'https://www.facebook.com/zedpayco'
-- 'https://www.instagram.com/zedpay.co'
+- https://www.linkedin.com/company/zedpaycompany
+- https://www.facebook.com/zedpayco
+- https://www.instagram.com/zedpay.co
 redirect_from: 
-developerName: 'ZedPay Company'
+developerName: ZedPay Company
 features: 
 
 ---

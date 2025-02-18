@@ -1,35 +1,35 @@
 ---
 wsId: 
-title: 'Poolin'
+title: Poolin
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.blockin.google'
+appId: com.blockin.google
 appCountry: 
-released: '2020-03-12'
+released: 2020-03-12
 updated: 2025-02-12
-version: '3.6.20'
+version: 3.6.20
 stars: 4.1
 ratings: 764
 reviews: 34
-website: 'https://www.poolin.com/'
+website: https://www.poolin.com/
 repository: 
 issue: 
-icon: 'com.blockin.google.png'
+icon: com.blockin.google.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2021-09-15'
+date: 2021-09-15
 signer: 
 reviewArchive: 
-twitter: 'officialpoolin'
+twitter: officialpoolin
 social:
-- 'https://www.linkedin.com/company/poolin'
-- 'https://www.facebook.com/poolinpool'
+- https://www.linkedin.com/company/poolin
+- https://www.facebook.com/poolinpool
 redirect_from: 
-developerName: 'Beijing Satoshi Smart Co.,Ltd.'
+developerName: Beijing Satoshi Smart Co.,Ltd.
 features: 
 
 ---

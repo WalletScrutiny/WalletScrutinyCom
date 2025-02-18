@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'CTIN - Crypto Trading in India'
+title: CTIN - Crypto Trading in India
 altTitle: 
 authors: 
 users: 10
-appId: 'com.ctin.inidev.android'
+appId: com.ctin.inidev.android
 appCountry: 
-released: '2021-05-22'
-updated: '2021-06-04'
-version: '1.0.1'
+released: 2021-05-22
+updated: 2021-06-04
+version: 1.0.1
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://inindiatech.com'
+website: https://inindiatech.com
 repository: 
 issue: 
-icon: 'com.ctin.inidev.android.png'
+icon: com.ctin.inidev.android.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-11-12'
+date: 2024-11-12
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Inindia Corporation'
+developerName: Inindia Corporation
 features: 
 
 ---

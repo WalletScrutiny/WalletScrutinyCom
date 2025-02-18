@@ -1,33 +1,33 @@
 ---
-wsId: 'starEx'
-title: 'StarEx - Buy Bitcoin & Crypto'
+wsId: starEx
+title: StarEx - Buy Bitcoin & Crypto
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'vip.sing.exchange'
+appId: vip.sing.exchange
 appCountry: 
-released: '2021-05-11'
+released: 2021-05-11
 updated: 2025-01-07
-version: '4.3.2.74'
+version: 4.3.2.74
 stars: 
 ratings: 
 reviews: 
-website: 'https://www.starex.sg/'
+website: https://www.starex.sg/
 repository: 
 issue: 
-icon: 'vip.sing.exchange.png'
+icon: vip.sing.exchange.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-11-14'
+date: 2023-11-14
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'StarEx'
+developerName: StarEx
 features: 
 
 ---

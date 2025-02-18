@@ -1,34 +1,33 @@
 ---
-wsId: 'flits'
-title: 'Flits - Passive income wallet'
+wsId: flits
+title: Flits - Passive income wallet
 altTitle: 
 authors:
-- 'leo'
-appId: 'app.flitsnode.flits'
+- leo
+appId: app.flitsnode.flits
 appCountry: 
 idd: '1460563713'
-released: '2019-04-30'
-updated: '2021-02-09'
+released: 2019-04-30
+updated: 2021-02-09
 version: '4.4'
 stars: 3.9
 reviews: 73
-size: '82679808'
-website: 'https://flitsnode.app'
+website: https://flitsnode.app
 repository: 
 issue: 
-icon: 'app.flitsnode.flits.jpg'
+icon: app.flitsnode.flits.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2023-08-04'
+date: 2023-08-04
 signer: 
 reviewArchive: 
-twitter: 'FlitsNode'
+twitter: FlitsNode
 social:
-- 'https://www.facebook.com/flitsnode'
+- https://www.facebook.com/flitsnode
 features: 
-developerName: 'Klimatas B.V.'
+developerName: Klimatas B.V.
 
 ---
 

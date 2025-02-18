@@ -1,36 +1,35 @@
 ---
 wsId: 
-title: 'Inanomo'
+title: Inanomo
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.inanomo.market'
+appId: com.inanomo.market
 appCountry: 
-released: '2021-04-06'
-updated: '2022-08-23'
-version: '1.1.0'
+released: 2021-04-06
+updated: 2022-08-23
+version: 1.1.0
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://inanomo.com/'
+website: https://inanomo.com/
 repository: 
 issue: 
-icon: 'com.inanomo.market.png'
+icon: com.inanomo.market.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-05-26'
+date: 2023-05-26
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://vk.com/inanomo'
-- 'https://www.facebook.com/Inanomo/'
+- https://vk.com/inanomo
+- https://www.facebook.com/Inanomo/
 redirect_from: 
-developerName: 'Inanomo Technologies LLC'
+developerName: Inanomo Technologies LLC
 features: 
 
 ---

@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'BTCBOX Pro'
+title: BTCBOX Pro
 altTitle: 
 authors: 
 users: 100
-appId: 'com.btcboxpro.exchange'
+appId: com.btcboxpro.exchange
 appCountry: 
-released: '2020-05-06'
-updated: '2020-07-21'
-version: '1.0.7'
+released: 2020-05-06
+updated: 2020-07-21
+version: 1.0.7
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'http://www.btcboxpro.com/'
+website: http://www.btcboxpro.com/
 repository: 
 issue: 
-icon: 'com.btcboxpro.exchange.png'
+icon: com.btcboxpro.exchange.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

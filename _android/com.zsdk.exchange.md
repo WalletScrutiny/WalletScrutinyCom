@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: 'ZBG'
+title: ZBG
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.zsdk.exchange'
+appId: com.zsdk.exchange
 appCountry: 
-released: '2019-01-18'
+released: 2019-01-18
 updated: 2022-10-07
-version: '3.2.0'
+version: 3.2.0
 stars: 1.9
 ratings: 187
 reviews: 46
-website: 'https://www.zbg.com'
+website: https://www.zbg.com
 repository: 
 issue: 
-icon: 'com.zsdk.exchange.png'
+icon: com.zsdk.exchange.png
 bugbounty: 
-meta: 'obsolete'
-verdict: 'custodial'
+meta: obsolete
+verdict: custodial
 appHashes: 
-date: '2024-09-26'
+date: 2024-09-26
 signer: 
 reviewArchive: 
-twitter: 'ZBG_Exchange'
+twitter: ZBG_Exchange
 social:
-- 'https://www.facebook.com/ZBGofficial'
+- https://www.facebook.com/ZBGofficial
 redirect_from: 
-developerName: 'ZBG_exchange'
+developerName: ZBG_exchange
 features: 
 
 ---

@@ -1,36 +1,36 @@
 ---
-wsId: 'bitazzaGL'
+wsId: bitazzaGL
 title: 'Bitazza: Crypto Exchange'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.bitazza.android.gl'
+appId: com.bitazza.android.gl
 appCountry: 
-released: '2022-03-01'
+released: 2022-03-01
 updated: 2025-02-06
-version: '4.2.1'
+version: 4.2.1
 stars: 
 ratings: 
 reviews: 
-website: 'http://bitazza.com/'
+website: http://bitazza.com/
 repository: 
 issue: 
-icon: 'com.bitazza.android.gl.png'
+icon: com.bitazza.android.gl.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-03-09'
+date: 2023-03-09
 signer: 
 reviewArchive: 
-twitter: 'BitazzaGlobal'
+twitter: BitazzaGlobal
 social:
-- 'https://www.facebook.com/bitazzaglobal'
-- 'https://www.linkedin.com/company/bitazza/'
-- 'https://t.me/bitazzaglobal'
+- https://www.facebook.com/bitazzaglobal
+- https://www.linkedin.com/company/bitazza/
+- https://t.me/bitazzaglobal
 redirect_from: 
-developerName: 'Bitazza Company Limited'
+developerName: Bitazza Company Limited
 features: 
 
 ---

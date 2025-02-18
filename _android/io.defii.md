@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Defii'
+title: Defii
 altTitle: 
 authors: 
 users: 100
-appId: 'io.defii'
+appId: io.defii
 appCountry: 
-released: '2021-04-24'
-updated: '2021-08-05'
-version: '2.0.3'
+released: 2021-04-24
+updated: 2021-08-05
+version: 2.0.3
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://defii.app/'
+website: https://defii.app/
 repository: 
 issue: 
-icon: 'io.defii.png'
+icon: io.defii.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'CHT Innovative Technology PTE.  LTD'
+developerName: CHT Innovative Technology PTE.  LTD
 features: 
 
 ---

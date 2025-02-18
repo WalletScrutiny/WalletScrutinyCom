@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'BITNOW Wallet'
+title: BITNOW Wallet
 altTitle: 
 authors: 
 users: 10
-appId: 'com.bitnow.wallet'
+appId: com.bitnow.wallet
 appCountry: 
-released: '2021-06-24'
-updated: '2021-06-24'
-version: '1.0.0'
+released: 2021-06-24
+updated: 2021-06-24
+version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.bitnow.wallet.png'
+icon: com.bitnow.wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'bitnow.team'
+developerName: bitnow.team
 features: 
 
 ---

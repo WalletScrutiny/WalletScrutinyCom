@@ -1,37 +1,37 @@
 ---
-wsId: 'YouHodler'
+wsId: YouHodler
 title: 'YouHodler: BTC & Crypto Wallet'
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 1000000
-appId: 'com.youhodler.youhodler'
+appId: com.youhodler.youhodler
 appCountry: 
-released: '2019-07-11'
+released: 2019-07-11
 updated: 2025-02-10
-version: '7.7.0'
+version: 7.7.0
 stars: 3.5
 ratings: 5083
-reviews: 99
-website: 'https://youhodler.com'
+reviews: 98
+website: https://youhodler.com
 repository: 
 issue: 
-icon: 'com.youhodler.youhodler.png'
+icon: com.youhodler.youhodler.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2020-06-20'
+date: 2020-06-20
 signer: 
 reviewArchive: 
-twitter: 'youhodler'
+twitter: youhodler
 social:
-- 'https://www.linkedin.com/company/youhodler'
-- 'https://www.facebook.com/YouHodler'
+- https://www.linkedin.com/company/youhodler
+- https://www.facebook.com/YouHodler
 redirect_from:
-- '/com.youhodler.youhodler/'
-- '/posts/com.youhodler.youhodler/'
-developerName: 'YouHodler'
+- /com.youhodler.youhodler/
+- /posts/com.youhodler.youhodler/
+developerName: YouHodler
 features: 
 
 ---

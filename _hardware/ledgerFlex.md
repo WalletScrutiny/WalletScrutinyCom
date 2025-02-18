@@ -3,10 +3,10 @@ title: Ledger Flex
 appId: ledgerFlex
 authors:
 - danny
-released: '2024-07-26'
+released: 2024-07-26
 discontinued: 
-updated: '2024-07-26'
-version: '1.1.1'
+updated: 2024-07-26
+version: 1.1.1
 binaries: 
 dimensions:
 - 78
@@ -26,7 +26,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: '2024-10-22'
+date: 2024-10-22
 signer: 
 reviewArchive: 
 twitter: Ledger

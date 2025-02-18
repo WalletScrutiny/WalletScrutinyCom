@@ -1,40 +1,40 @@
 ---
-wsId: 'coinbaseBSB'
+wsId: coinbaseBSB
 title: 'Coinbase: Buy BTC, ETH, SOL'
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 10000000
-appId: 'com.coinbase.android'
+appId: com.coinbase.android
 appCountry: 
-released: '2013-03-01'
+released: 2013-03-01
 updated: 2025-02-06
-version: '13.4.11'
+version: 13.4.11
 stars: 4.5
 ratings: 666901
-reviews: 107950
-website: 'https://coinbase.com/'
+reviews: 108078
+website: https://coinbase.com/
 repository: 
 issue: 
-icon: 'com.coinbase.android.jpg'
+icon: com.coinbase.android.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-10-12'
+date: 2021-10-12
 signer: 
 reviewArchive: 
-twitter: 'coinbase'
+twitter: coinbase
 social:
-- 'https://www.linkedin.com/company/coinbase'
-- 'https://www.facebook.com/Coinbase'
-- 'https://www.reddit.com/r/CoinBase'
+- https://www.linkedin.com/company/coinbase
+- https://www.facebook.com/Coinbase
+- https://www.reddit.com/r/CoinBase
 redirect_from:
-- '/coinbase/'
-- '/com.coinbase.android/'
-- '/posts/2019/10/coinbase/'
-- '/posts/com.coinbase.android/'
-developerName: 'Coinbase Inc'
+- /coinbase/
+- /com.coinbase.android/
+- /posts/2019/10/coinbase/
+- /posts/com.coinbase.android/
+developerName: Coinbase Inc
 features: 
 
 ---

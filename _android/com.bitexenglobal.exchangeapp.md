@@ -1,35 +1,36 @@
 ---
-wsId: 'bitexenGlobal'
-title: 'Bitexen Global'
+wsId: bitexenGlobal
+title: Bitexen Global
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.bitexenglobal.exchangeapp'
+appId: com.bitexenglobal.exchangeapp
 appCountry: 
+released: 
 updated: 2024-12-11
 version: '1.97'
 stars: 2.7
 ratings: 
 reviews: 
-website: 'https://global.bitexen.com/'
+website: https://global.bitexen.com/
 repository: 
 issue: 
-icon: 'com.bitexenglobal.exchangeapp.png'
+icon: com.bitexenglobal.exchangeapp.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-09-06'
+date: 2023-09-06
 signer: 
 reviewArchive: 
-twitter: 'bitexenglobal'
+twitter: bitexenglobal
 social:
-- 'https://www.facebook.com/profile.php?id=100086241075019'
-- 'https://www.linkedin.com/company/bitexen'
-- 'https://t.me/bitexenglobal'
+- https://www.facebook.com/profile.php?id=100086241075019
+- https://www.linkedin.com/company/bitexen
+- https://t.me/bitexenglobal
 redirect_from: 
-developerName: 'Bitexen Teknoloji A.Ş.'
+developerName: Bitexen Teknoloji A.Ş.
 features: 
 
 ---

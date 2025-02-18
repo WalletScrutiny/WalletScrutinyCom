@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'AMO WALLET'
+title: AMO WALLET
 altTitle: 
 authors: 
 users: 1000
-appId: 'com.pentasecurity.pallet'
+appId: com.pentasecurity.pallet
 appCountry: 
-released: '2018-05-27'
-updated: '2018-12-27'
-version: '1.0.7.1'
+released: 2018-05-27
+updated: 2018-12-27
+version: 1.0.7.1
 stars: 
 ratings: 
 reviews: 
-size: '8.4M'
-website: 'http://www.pentasecurity.com'
+website: http://www.pentasecurity.com
 repository: 
 issue: 
-icon: 'com.pentasecurity.pallet.png'
+icon: com.pentasecurity.pallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2022-03-24'
+date: 2022-03-24
 signer: 
 reviewArchive: 
 twitter: 

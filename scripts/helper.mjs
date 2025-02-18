@@ -92,7 +92,9 @@ function migrateAll (categoryHelper, migration) {
 function migrateFile (categoryHelper, file, migration, defaultHeader) {
   const folder = `_${categoryHelper.category}/`;
   const appPath = path.join(folder, file);
-  const content = { header: defaultHeader, body: undefined };
+  const content = categoryHelper.category === 'others'
+    ? { header: {}, body: undefined } // For others: start with empty object to preserve file structure
+    : { header: defaultHeader, body: undefined }; // For other categories: use defaultHeader
   loadFromFile(appPath, content);
   migration(content.header, content.body, file, categoryHelper);
   writeResult(folder, content.header, content.body);
@@ -107,16 +109,10 @@ function migrateFile (categoryHelper, file, migration, defaultHeader) {
 function loadFromFile (file, outHeaderAndBody = { header: {}, body: '' }) {
   try {
     var parts = fs.readFileSync(file, 'utf8').split('---\n');
-    const header = yaml.load(parts[1], { schema: yaml.FAILSAFE_SCHEMA });
+    const header = yaml.load(parts[1]);
     outHeaderAndBody.header = outHeaderAndBody.header || {};
     Object.keys(header).forEach(k => {
       outHeaderAndBody.header[k] = header[k];
-
-      // Convert numeric fields from string to number if possible
-      const numericFields = ['ratings', 'stars', 'users', 'reviews'];
-      if (numericFields.includes(k) && typeof header[k] === 'string' && !isNaN(header[k])) {
-        outHeaderAndBody.header[k] = Number(header[k]);
-      }
     });
     outHeaderAndBody.body = parts.slice(2).join('---\n').replace(/^\s*[\r\n]/g, '');
     return outHeaderAndBody;
@@ -171,6 +167,9 @@ function checkHeaderKeys (header, allowedHeaders) {
   if (losts.length > 0) console.error(`Losing properties: ${losts}.`);
 }
 
+/**
+ * Turn the array `headers` into an object with the strings as keys.
+ **/
 function getEmptyHeader (headers) {
   return headers.reduce((a, v) => ({ ...a, [v]: null }), {});
 }
@@ -183,8 +182,9 @@ function getResult (header, body) {
 ${yaml.dump(header, {
   noArrayIndent: true,
   schema: schema,
-  quotingType: "'",
-  forceQuotes: true
+  styles: {
+    '!!timestamp': 'plain'  // Prevent quoting of dates
+  }
 })}
 ---
 

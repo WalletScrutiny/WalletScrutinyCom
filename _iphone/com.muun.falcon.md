@@ -7,12 +7,11 @@ authors:
 appId: com.muun.falcon
 appCountry: 
 idd: 1482037683
-released: '2019-10-11'
-updated: '2024-09-27'
-version: '2.8.0'
+released: 2019-10-11
+updated: 2024-09-27
+version: 2.8.0
 stars: 4.3
-reviews: 245
-size: '96073728'
+reviews: 247
 website: https://www.muun.com
 repository: https://github.com/muun/falcon
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: nonverifiable
 appHashes: []
-date: '2021-07-30'
+date: 2021-07-30
 signer: 
 reviewArchive: 
 twitter: muunwallet

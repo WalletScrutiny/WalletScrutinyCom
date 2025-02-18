@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Invest On Bitcoin'
+title: Invest On Bitcoin
 altTitle: 
 authors: 
 users: 1
-appId: 'net.cryptowallets.invest.on.bitcoin'
+appId: net.cryptowallets.invest.on.bitcoin
 appCountry: 
-released: '2021-06-27'
-updated: '2021-06-28'
+released: 2021-06-27
+updated: 2021-06-28
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: '2.3M'
 website: 
 repository: 
 issue: 
-icon: 'net.cryptowallets.invest.on.bitcoin.png'
+icon: net.cryptowallets.invest.on.bitcoin.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2021-10-01'
+date: 2021-10-01
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Paybis Crypto wallet'
+title: Paybis Crypto wallet
 altTitle: 
 authors: 
 users: 500
-appId: 'lv.aloaes.paybis_crypto_game'
+appId: lv.aloaes.paybis_crypto_game
 appCountry: 
-released: '2022-06-01'
-updated: '2022-06-01'
-version: '1.0.0'
+released: 2022-06-01
+updated: 2022-06-01
+version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'lv.aloaes.paybis_crypto_game.png'
+icon: lv.aloaes.paybis_crypto_game.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

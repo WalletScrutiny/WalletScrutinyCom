@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'ACM Blockchain Wallet'
+title: ACM Blockchain Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.gcox.wallet'
+appId: com.gcox.wallet
 appCountry: 
-released: '2018-11-05'
-updated: '2020-10-29'
-version: '1.0.6'
+released: 2018-11-05
+updated: 2020-10-29
+version: 1.0.6
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://gcox.com'
+website: https://gcox.com
 repository: 
 issue: 
-icon: 'com.gcox.wallet.png'
+icon: com.gcox.wallet.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'wip'
+meta: defunct
+verdict: wip
 appHashes: 
-date: '2023-05-25'
+date: 2023-05-25
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'GCOX'
+developerName: GCOX
 features: 
 
 ---

@@ -1,36 +1,36 @@
 ---
-wsId: 'yibiExchange'
-title: 'YIBI - Buy Bitcoin Instantly'
+wsId: yibiExchange
+title: YIBI - Buy Bitcoin Instantly
 altTitle: 
 authors: 
 users: 10000
-appId: 'com.yibiexchange.app'
+appId: com.yibiexchange.app
 appCountry: 
-released: '2022-04-11'
+released: 2022-04-11
 updated: 2025-01-23
-version: '1.3.87'
+version: 1.3.87
 stars: 
 ratings: 
 reviews: 
-website: 'https://yibi.co'
+website: https://yibi.co
 repository: 
 issue: 
-icon: 'com.yibiexchange.app.png'
+icon: com.yibiexchange.app.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-07-07'
+date: 2023-07-07
 signer: 
 reviewArchive: 
-twitter: 'OfficialYibi'
+twitter: OfficialYibi
 social:
-- 'https://t.me/yibioffical00'
-- 'https://officialyibi.medium.com'
-- 'https://www.reddit.com/r/yibiOffical'
-- 'https://www.youtube.com/@YibiOfficial/video'
+- https://t.me/yibioffical00
+- https://officialyibi.medium.com
+- https://www.reddit.com/r/yibiOffical
+- https://www.youtube.com/@YibiOfficial/video
 redirect_from: 
-developerName: 'YIBI'
+developerName: YIBI
 features: 
 
 ---

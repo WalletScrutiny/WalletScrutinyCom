@@ -1,36 +1,35 @@
 ---
 wsId: 
-title: 'Tagcash Wallet'
+title: Tagcash Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.tagcash'
+appId: com.tagcash
 appCountry: 
-released: '2016-10-19'
-updated: '2022-10-30'
-version: '8.0.4'
+released: 2016-10-19
+updated: 2022-10-30
+version: 8.0.4
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'http://tagcash.com'
+website: http://tagcash.com
 repository: 
 issue: 
-icon: 'com.tagcash.png'
+icon: com.tagcash.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-05-10'
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://www.linkedin.com/company/tagcash-ltd/'
-- 'https://www.facebook.com/tagcashrewards'
+- https://www.linkedin.com/company/tagcash-ltd/
+- https://www.facebook.com/tagcashrewards
 redirect_from: 
-developerName: 'Tagcash Ltd'
+developerName: Tagcash Ltd
 features: 
 
 ---

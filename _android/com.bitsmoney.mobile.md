@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Bits.Money'
+title: Bits.Money
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.bitsmoney.mobile'
+appId: com.bitsmoney.mobile
 appCountry: 
-released: '2021-04-01'
-updated: '2021-05-17'
-version: '1.0.2'
+released: 2021-04-01
+updated: 2021-05-17
+version: 1.0.2
 stars: 5
 ratings: 
 reviews: 6
-size: 
-website: 'https://bitsmoney.co.com'
+website: https://bitsmoney.co.com
 repository: 
 issue: 
-icon: 'com.bitsmoney.mobile.png'
+icon: com.bitsmoney.mobile.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2023-05-13'
+date: 2023-05-13
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Bits Money Ltd.'
+developerName: Bits Money Ltd.
 features: 
 
 ---

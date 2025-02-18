@@ -7,12 +7,11 @@ authors:
 appId: com.tomyaapp.ios
 appCountry: tr
 idd: '1537333567'
-released: '2020-11-07'
-updated: '2022-07-29'
-version: '1.2.5'
+released: 2020-11-07
+updated: 2022-07-29
+version: 1.2.5
 stars: 3.8
 reviews: 21
-size: '70612992'
 website: https://www.tomya.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2025-02-04'
+date: 2025-02-04
 signer: 
 reviewArchive: 
 twitter: 

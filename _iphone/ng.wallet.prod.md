@@ -9,12 +9,11 @@ authors:
 appId: ng.wallet.prod
 appCountry: 
 idd: 1280830303
-released: '2017-10-14'
-updated: '2021-09-04'
+released: 2017-10-14
+updated: 2021-09-04
 version: '2.480'
 stars: 3.4
 reviews: 172
-size: '63362048'
 website: http://wallets.africa
 repository: 
 issue: 
@@ -23,7 +22,7 @@ bugbounty:
 meta: removed
 verdict: nobtc
 appHashes: 
-date: '2024-03-02'
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: walletsafrica

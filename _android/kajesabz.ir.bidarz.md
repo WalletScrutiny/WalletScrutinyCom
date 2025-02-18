@@ -7,13 +7,12 @@ authors:
 users: 100000
 appId: kajesabz.ir.bidarz
 appCountry: IR
-released: '2019-01-16'
-updated: '2024-11-19'
-version: '4.6.5'
+released: 2019-01-16
+updated: 2024-11-19
+version: 4.6.5
 stars: 4.3
 ratings: 4010
 reviews: 1499
-size: 
 website: https://www.bidarz.ir
 repository: 
 issue: 
@@ -22,7 +21,7 @@ bugbounty:
 meta: ok
 verdict: nowallet
 appHashes: 
-date: '2022-04-12'
+date: 2022-04-12
 signer: 
 reviewArchive: 
 twitter: bidarzpro

@@ -7,12 +7,11 @@ authors:
 appId: com.quidax.lite
 appCountry: ng
 idd: '1603997707'
-released: '2022-01-13'
-updated: '2025-02-12'
-version: '1.22.0'
+released: 2022-01-13
+updated: 2025-02-12
+version: 1.22.0
 stars: 4.4
-reviews: 1684
-size: '74294272'
+reviews: 1690
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2023-07-21'
+date: 2023-07-21
 signer: 
 reviewArchive: 
 twitter: quidaxglobal

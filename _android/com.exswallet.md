@@ -3,34 +3,33 @@ wsId:
 title: '미라클 월렛: MiraQle Wallet'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.exswallet'
+appId: com.exswallet
 appCountry: 
-released: '2020-07-12'
-updated: '2022-01-21'
-version: '1.1.0'
+released: 2020-07-12
+updated: 2022-01-21
+version: 1.1.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.exswallet.png'
+icon: com.exswallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nobtc'
+meta: removed
+verdict: nobtc
 appHashes: 
-date: '2024-11-12'
+date: 2024-11-12
 signer: 
 reviewArchive: 
-twitter: 'MIRAQLE_MQL'
+twitter: MIRAQLE_MQL
 social:
-- 'https://www.instagram.com/miraqle_official'
-- 'https://t.me/MiraQle_Official'
+- https://www.instagram.com/miraqle_official
+- https://t.me/MiraQle_Official
 redirect_from: 
-developerName: 'OrangeEnt'
+developerName: OrangeEnt
 features: 
 
 ---

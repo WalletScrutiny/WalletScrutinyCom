@@ -3,9 +3,9 @@ title: Open Ledger Micro
 appId: openledger.micro
 authors:
 - danny
-released: '2018-03-22'
+released: 2018-03-22
 discontinued: 
-updated: '2018-03-25'
+updated: 2018-03-25
 version: 
 binaries: 
 dimensions: 
@@ -24,7 +24,7 @@ bugbounty:
 meta: ok
 verdict: diy
 appHashes: 
-date: '2022-05-19'
+date: 2022-05-19
 signer: 
 reviewArchive: 
 twitter: nraboy

@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: 'Huione Crypto'
+title: Huione Crypto
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.huione.crypto'
+appId: com.huione.crypto
 appCountry: 
-released: '2022-05-30'
-updated: '2024-05-16'
-version: '2.3.0'
+released: 2022-05-30
+updated: 2024-05-16
+version: 2.3.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.huione.crypto.png'
+icon: com.huione.crypto.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-08-13'
+date: 2024-08-13
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://huionepay.com.kh'
+- https://huionepay.com.kh
 redirect_from: 
-developerName: 'Huione Group'
+developerName: Huione Group
 features: 
 
 ---

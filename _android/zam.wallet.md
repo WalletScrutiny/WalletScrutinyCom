@@ -1,35 +1,34 @@
 ---
-wsId: 'ZamWallet'
-title: 'ZamWallet Crypto, DeFi, Invest'
+wsId: ZamWallet
+title: ZamWallet Crypto, DeFi, Invest
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'zam.wallet'
-appCountry: 'ru'
-released: '2018-09-17'
-updated: '2024-03-11'
-version: '3.5.19'
+appId: zam.wallet
+appCountry: ru
+released: 2018-09-17
+updated: 2024-03-11
+version: 3.5.19
 stars: 3.9
 ratings: 288
 reviews: 51
-size: 
-website: 'http://zam.io'
+website: http://zam.io
 repository: 
 issue: 
-icon: 'zam.wallet.jpg'
+icon: zam.wallet.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-16'
+date: 2024-07-16
 signer: 
 reviewArchive: 
-twitter: 'zam_io'
+twitter: zam_io
 social:
-- 'https://www.linkedin.com/company/11770701'
+- https://www.linkedin.com/company/11770701
 redirect_from: 
-developerName: 'ZamZam Technology'
+developerName: ZamZam Technology
 features: 
 
 ---

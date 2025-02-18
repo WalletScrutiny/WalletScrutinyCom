@@ -3,32 +3,31 @@ wsId:
 title: 'ASBAZAR Bitcoin Marketplace & '
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.app.asbazar59'
+appId: com.app.asbazar59
 appCountry: 
-released: '2021-06-15'
-updated: '2021-10-14'
+released: 2021-06-15
+updated: 2021-10-14
 version: '4'
 stars: 2.8
 ratings: 434
 reviews: 5
-size: 
-website: 'https://asbazar.com/en/home'
+website: https://asbazar.com/en/home
 repository: 
 issue: 
-icon: 'com.app.asbazar59.png'
+icon: com.app.asbazar59.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-07-05'
+date: 2024-07-05
 signer: 
 reviewArchive: 
-twitter: 'asbazarofficial'
+twitter: asbazarofficial
 social: 
 redirect_from: 
-developerName: 'ASBAZAR Group'
+developerName: ASBAZAR Group
 features: 
 
 ---

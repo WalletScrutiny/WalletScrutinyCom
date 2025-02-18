@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Swiss Key'
+title: Swiss Key
 altTitle: 
 authors: 
 users: 100
-appId: 'co.swisskey.app'
+appId: co.swisskey.app
 appCountry: 
-released: '2020-02-04'
-updated: '2020-02-04'
-version: '0.0.1'
+released: 2020-02-04
+updated: 2020-02-04
+version: 0.0.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'co.swisskey.app.png'
+icon: co.swisskey.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Swiss Key Inc.'
+developerName: Swiss Key Inc.
 features: 
 
 ---

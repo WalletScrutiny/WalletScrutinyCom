@@ -3,7 +3,7 @@ title: KingMax SecSycript Card x1
 appId: kingmax.secsycript.card.x1
 authors:
 - danny
-released: '2022-06-25'
+released: 2022-06-25
 discontinued: 
 updated: 
 version: 
@@ -26,7 +26,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: '2024-07-15'
+date: 2024-07-15
 signer: 
 reviewArchive: 
 twitter: KINGMAX_tweet

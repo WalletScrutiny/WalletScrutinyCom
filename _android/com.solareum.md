@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Solareum Wallet'
+title: Solareum Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.solareum'
+appId: com.solareum
 appCountry: 
-released: '2021-08-06'
-updated: '2022-10-23'
-version: '2.23.4'
+released: 2021-08-06
+updated: 2022-10-23
+version: 2.23.4
 stars: 4.1
 ratings: 
 reviews: 18
-size: 
-website: 'https://solareum.app/'
+website: https://solareum.app/
 repository: 
 issue: 
-icon: 'com.solareum.png'
+icon: com.solareum.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nobtc'
+meta: removed
+verdict: nobtc
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Goingsunny'
+developerName: Goingsunny
 features: 
 
 ---

@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Crypto Pay'
+title: Crypto Pay
 altTitle: 
 authors:
-- 'kiwilamb'
+- kiwilamb
 users: 1000
-appId: 'com.cryptopay'
+appId: com.cryptopay
 appCountry: 
-released: '2018-12-17'
-updated: '2019-02-14'
+released: 2018-12-17
+updated: 2019-02-14
 version: '1.5'
 stars: 4.3
 ratings: 6
 reviews: 2
-size: '9.1M'
-website: 'https://shamlatech.com/'
+website: https://shamlatech.com/
 repository: 
 issue: 
-icon: 'com.cryptopay.png'
+icon: com.cryptopay.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2022-01-15'
+date: 2022-01-15
 signer: 
 reviewArchive: 
-twitter: 'shamlatech'
+twitter: shamlatech
 social:
-- 'https://www.linkedin.com/company/shamlatech'
-- 'https://www.facebook.com/shamlatechsolutions'
+- https://www.linkedin.com/company/shamlatech
+- https://www.facebook.com/shamlatechsolutions
 redirect_from: 
 developerName: 
 features: 

@@ -1,40 +1,40 @@
 ---
-wsId: 'aquaWallet'
-title: 'AQUA Wallet'
+wsId: aquaWallet
+title: AQUA Wallet
 altTitle: 
 authors:
-- 'danny'
-- 'keraliss'
+- danny
+- keraliss
 users: 10000
-appId: 'io.aquawallet.android'
+appId: io.aquawallet.android
 appCountry: 
-released: '2024-01-02'
+released: 2024-01-02
 updated: 2025-02-12
-version: '0.2.9'
+version: 0.2.9
 stars: 4.4
 ratings: 
 reviews: 14
-website: 'https://aquawallet.io'
-repository: 'https://github.com/AquaWallet/aqua-wallet'
-issue: 'https://github.com/AquaWallet/aqua-wallet/issues/9'
-icon: 'io.aquawallet.android.png'
+website: https://aquawallet.io
+repository: https://github.com/AquaWallet/aqua-wallet
+issue: https://github.com/AquaWallet/aqua-wallet/issues/9
+icon: io.aquawallet.android.png
 bugbounty: 
-meta: 'ok'
-verdict: 'ftbfs'
+meta: ok
+verdict: ftbfs
 appHashes: []
-date: '2024-09-06'
+date: 2024-09-06
 signer: 
 reviewArchive: 
-twitter: 'AquaBitcoin'
+twitter: AquaBitcoin
 social:
-- 'https://www.instagram.com/aquabitcoin'
-- 'https://www.facebook.com/profile.php?id=100095180887605'
-- 'https://www.linkedin.com/products/jan3-aqua'
+- https://www.instagram.com/aquabitcoin
+- https://www.facebook.com/profile.php?id=100095180887605
+- https://www.linkedin.com/products/jan3-aqua
 redirect_from: 
-developerName: 'JAN3'
+developerName: JAN3
 features:
-- 'ln'
-- 'liquid'
+- ln
+- liquid
 
 ---
 

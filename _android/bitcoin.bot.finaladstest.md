@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'satoshiBot'
+title: satoshiBot
 altTitle: 
 authors: 
 users: 1000
-appId: 'bitcoin.bot.finaladstest'
+appId: bitcoin.bot.finaladstest
 appCountry: 
-released: '2020-10-17'
-updated: '2020-10-17'
+released: 2020-10-17
+updated: 2020-10-17
 version: '1.0'
 stars: 2.6
 ratings: 11
 reviews: 6
-size: '3.5M'
 website: 
 repository: 
 issue: 
-icon: 'bitcoin.bot.finaladstest.png'
+icon: bitcoin.bot.finaladstest.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2022-01-15'
+date: 2022-01-15
 signer: 
 reviewArchive: 
 twitter: 

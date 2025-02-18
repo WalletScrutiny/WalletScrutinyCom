@@ -7,12 +7,11 @@ authors:
 appId: net.iconomi.iconomi
 appCountry: si
 idd: 1238213050
-released: '2017-05-25'
-updated: '2023-10-31'
-version: '3.2.1'
+released: 2017-05-25
+updated: 2023-10-31
+version: 3.2.1
 stars: 4.6
 reviews: 83
-size: '67907584'
 website: http://www.iconomi.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: stale
 verdict: custodial
 appHashes: 
-date: '2024-10-28'
+date: 2024-10-28
 signer: 
 reviewArchive: 
 twitter: iconomicom

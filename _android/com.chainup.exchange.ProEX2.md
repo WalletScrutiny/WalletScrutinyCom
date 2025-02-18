@@ -1,38 +1,38 @@
 ---
 wsId: 
-title: 'Pro Exchange'
+title: Pro Exchange
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.chainup.exchange.ProEX2'
+appId: com.chainup.exchange.ProEX2
 appCountry: 
-released: '2022-04-06'
+released: 2022-04-06
 updated: 2023-11-28
-version: '5.9.1_push_v2'
+version: 5.9.1_push_v2
 stars: 4
 ratings: 
 reviews: 
 website: 
 repository: 
 issue: 
-icon: 'com.chainup.exchange.ProEX2.png'
+icon: com.chainup.exchange.ProEX2.png
 bugbounty: 
-meta: 'stale'
-verdict: 'custodial'
+meta: stale
+verdict: custodial
 appHashes: 
-date: '2024-11-23'
+date: 2024-11-23
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://www.facebook.com/b.c.proex'
-- 'https://t.me/ProExchange2'
-- 'https://discord.com/invite/EG8rVx7qpU'
-- 'https://www.instagram.com/proex.io'
-- 'https://www.proex.io'
+- https://www.facebook.com/b.c.proex
+- https://t.me/ProExchange2
+- https://discord.com/invite/EG8rVx7qpU
+- https://www.instagram.com/proex.io
+- https://www.proex.io
 redirect_from: 
-developerName: 'ProEX'
+developerName: ProEX
 features: 
 
 ---

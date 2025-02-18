@@ -4,13 +4,14 @@ appId: thebitcoinbox
 authors:
 - danny
 icon: thebitcoinbox.png
-date: '2024-01-08'
+date: 2024-01-08
 discontinued: 2016-11-01
 provider: Jan Vornberger
 providerWebsite: https://www.thebitcoinbox.com
 repository: https://github.com/javgh/bitpay-brick
 meta: ok
 verdict: vapor
+social: 
 
 ---
 

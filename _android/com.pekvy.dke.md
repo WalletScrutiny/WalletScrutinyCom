@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'MyViTRX'
+title: MyViTRX
 altTitle: 
 authors: 
 users: 1
-appId: 'com.pekvy.dke'
+appId: com.pekvy.dke
 appCountry: 
-released: '2022-04-26'
-updated: '2022-04-26'
-version: '1.0.0'
+released: 2022-04-26
+updated: 2022-04-26
+version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.pekvy.dke.png'
+icon: com.pekvy.dke.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

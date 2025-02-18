@@ -1,29 +1,28 @@
 ---
 wsId: 
-title: 'Citowise - Blockchain multi-currency wallet'
+title: Citowise - Blockchain multi-currency wallet
 altTitle: 
 authors:
-- 'kiwilamb'
-- 'leo'
+- kiwilamb
+- leo
 users: 50000
-appId: 'com.citowise.wallet'
+appId: com.citowise.wallet
 appCountry: 
 released: 
-updated: '2019-12-25'
+updated: 2019-12-25
 version: '1.355'
 stars: 4.2
 ratings: 656
 reviews: 525
-size: '11M'
-website: 'https://www.citowise.com'
+website: https://www.citowise.com
 repository: 
 issue: 
-icon: 'com.citowise.wallet.png'
+icon: com.citowise.wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2021-06-02'
+date: 2021-06-02
 signer: 
 reviewArchive: 
 twitter: 

@@ -4,30 +4,29 @@ title: 'Bitbox: BTC NFTs Memes & Meta'
 altTitle: 
 authors: 
 users: 500
-appId: 'cv.bitbox.bitbox'
+appId: cv.bitbox.bitbox
 appCountry: 
-released: '2021-12-18'
-updated: '2022-03-10'
-version: '1.3.9'
+released: 2021-12-18
+updated: 2022-03-10
+version: 1.3.9
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://bitbox.vc/'
+website: https://bitbox.vc/
 repository: 
 issue: 
-icon: 'cv.bitbox.bitbox.png'
+icon: cv.bitbox.bitbox.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Bitbox Inc'
+developerName: Bitbox Inc
 features: 
 
 ---

@@ -1,34 +1,33 @@
 ---
-wsId: 'bullDeFi'
-title: 'Bull App - Blockchain Wallet'
+wsId: bullDeFi
+title: Bull App - Blockchain Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'crypto.wallet.chainapp'
+appId: crypto.wallet.chainapp
 appCountry: 
-released: '2021-03-24'
-updated: '2023-03-23'
-version: '2.0.0'
+released: 2021-03-24
+updated: 2023-03-23
+version: 2.0.0
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://getbull.app'
+website: https://getbull.app
 repository: 
 issue: 
-icon: 'crypto.wallet.chainapp.png'
+icon: crypto.wallet.chainapp.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'SUPERBRAIN LIMITED'
+developerName: SUPERBRAIN LIMITED
 features: 
 
 ---

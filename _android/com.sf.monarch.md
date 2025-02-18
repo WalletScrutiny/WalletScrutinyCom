@@ -1,40 +1,39 @@
 ---
-wsId: 'Monarch'
-title: 'Monarch Wallet'
+wsId: Monarch
+title: Monarch Wallet
 altTitle: 
 authors:
-- 'leo'
-- 'danny'
+- leo
+- danny
 users: 50000
-appId: 'com.sf.monarch'
+appId: com.sf.monarch
 appCountry: 
-released: '2018-10-19'
-updated: '2023-11-21'
-version: '2.6.3'
+released: 2018-10-19
+updated: 2023-11-21
+version: 2.6.3
 stars: 4.1
 ratings: 821
 reviews: 132
-size: 
-website: 'http://splashfactory.com'
+website: http://splashfactory.com
 repository: 
 issue: 
-icon: 'com.sf.monarch.png'
+icon: com.sf.monarch.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'nosource'
+meta: defunct
+verdict: nosource
 appHashes: 
-date: '2024-07-13'
+date: 2024-07-13
 signer: 
 reviewArchive: 
-twitter: 'Monarchtoken'
+twitter: Monarchtoken
 social:
-- 'https://www.linkedin.com/company/monarchtoken'
-- 'https://www.facebook.com/MonarchWallet'
-- 'https://www.reddit.com/r/MonarchToken'
+- https://www.linkedin.com/company/monarchtoken
+- https://www.facebook.com/MonarchWallet
+- https://www.reddit.com/r/MonarchToken
 redirect_from:
-- '/com.sf.monarch/'
-- '/posts/com.sf.monarch/'
-developerName: 'Splash Factory'
+- /com.sf.monarch/
+- /posts/com.sf.monarch/
+developerName: Splash Factory
 features: 
 
 ---

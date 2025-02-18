@@ -3,7 +3,7 @@ title: GoldexPlus Cards
 appId: goldexplus.cards
 authors:
 - danny
-released: '2022-02-13'
+released: 2022-02-13
 discontinued: 
 updated: 
 version: 
@@ -22,7 +22,7 @@ icon: goldexplus.cards.png
 bugbounty: 
 meta: ok
 verdict: nobtc
-date: '2022-04-29'
+date: 2022-04-29
 signer: 
 reviewArchive: 
 twitter: GoldexPlus

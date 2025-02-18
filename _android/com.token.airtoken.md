@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Air Token Wallet - Social Weal'
+title: Air Token Wallet - Social Weal
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.token.airtoken'
+appId: com.token.airtoken
 appCountry: 
-released: '2019-06-18'
-updated: '2019-07-11'
-version: '1.0.18'
+released: 2019-06-18
+updated: 2019-07-11
+version: 1.0.18
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://airtokenwallet.com'
+website: https://airtokenwallet.com
 repository: 
 issue: 
-icon: 'com.token.airtoken.png'
+icon: com.token.airtoken.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2023-06-03'
+date: 2023-06-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Air Token'
+developerName: Air Token
 features: 
 
 ---

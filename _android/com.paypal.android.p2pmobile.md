@@ -1,37 +1,37 @@
 ---
-wsId: 'paypal'
-title: 'PayPal - Pay, Send, Save'
+wsId: paypal
+title: PayPal - Pay, Send, Save
 altTitle: 
 authors:
-- 'emanuel'
-- 'leo'
+- emanuel
+- leo
 users: 100000000
-appId: 'com.paypal.android.p2pmobile'
+appId: com.paypal.android.p2pmobile
 appCountry: 
-released: '2016-02-19'
+released: 2016-02-19
 updated: 2025-02-07
-version: '8.77.1'
+version: 8.78.1
 stars: 4.2
 ratings: 2452159
-reviews: 412319
-website: 'https://www.paypal.com/mobile'
+reviews: 412510
+website: https://www.paypal.com/mobile
 repository: 
 issue: 
-icon: 'com.paypal.android.p2pmobile.png'
+icon: com.paypal.android.p2pmobile.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosendreceive'
+meta: ok
+verdict: nosendreceive
 appHashes: 
-date: '2021-08-22'
+date: 2021-08-22
 signer: 
 reviewArchive: 
-twitter: 'PayPal'
+twitter: PayPal
 social:
-- 'https://www.linkedin.com/company/paypal'
-- 'https://www.facebook.com/PayPal'
-- 'https://www.reddit.com/r/paypal'
+- https://www.linkedin.com/company/paypal
+- https://www.facebook.com/PayPal
+- https://www.reddit.com/r/paypal
 redirect_from: 
-developerName: 'PayPal Mobile'
+developerName: PayPal Mobile
 features: 
 
 ---

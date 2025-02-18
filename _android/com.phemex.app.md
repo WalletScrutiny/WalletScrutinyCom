@@ -1,35 +1,35 @@
 ---
-wsId: 'phemex'
+wsId: phemex
 title: 'Phemex: Crypto & BTC Trading'
 altTitle: 
 authors:
-- 'kiwilamb'
+- kiwilamb
 users: 1000000
-appId: 'com.phemex.app'
+appId: com.phemex.app
 appCountry: 
-released: '2020-02-19'
+released: 2020-02-19
 updated: 2025-02-13
-version: '5.5.41'
+version: 5.5.41
 stars: 4.6
 ratings: 15997
 reviews: 1402
-website: 'https://phemex.com'
+website: https://phemex.com
 repository: 
 issue: 
-icon: 'com.phemex.app.png'
+icon: com.phemex.app.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-04-13'
+date: 2021-04-13
 signer: 
 reviewArchive: 
-twitter: 'phemex_official'
+twitter: phemex_official
 social:
-- 'https://www.linkedin.com/company/phemex'
-- 'https://www.facebook.com/Phemex.official'
+- https://www.linkedin.com/company/phemex
+- https://www.facebook.com/Phemex.official
 redirect_from: 
-developerName: 'Phemex Lithuania UAB'
+developerName: Phemex Lithuania UAB
 features: 
 
 ---

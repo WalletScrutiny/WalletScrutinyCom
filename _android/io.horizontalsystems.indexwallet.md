@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'IndexWallet'
+title: IndexWallet
 altTitle: 
 authors: 
 users: 100
-appId: 'io.horizontalsystems.indexwallet'
+appId: io.horizontalsystems.indexwallet
 appCountry: 
-released: '2020-07-13'
-updated: '2020-07-15'
-version: '0.16.1'
+released: 2020-07-13
+updated: 2020-07-15
+version: 0.16.1
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://indexchain.org'
+website: https://indexchain.org
 repository: 
 issue: 
-icon: 'io.horizontalsystems.indexwallet.png'
+icon: io.horizontalsystems.indexwallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-04-03'
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Optisecure'
+developerName: Optisecure
 features: 
 
 ---

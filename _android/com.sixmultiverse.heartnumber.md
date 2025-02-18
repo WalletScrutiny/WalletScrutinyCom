@@ -1,34 +1,34 @@
 ---
 wsId: 
-title: 'Heart Number - Bitcoin trading'
+title: Heart Number - Bitcoin trading
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.sixmultiverse.heartnumber'
+appId: com.sixmultiverse.heartnumber
 appCountry: 
-released: '2019-05-22'
+released: 2019-05-22
 updated: 2023-03-03
-version: '3.55.0'
+version: 3.55.0
 stars: 
 ratings: 
 reviews: 
-website: 'https://www.rentalbot.kr/'
+website: https://www.rentalbot.kr/
 repository: 
 issue: 
-icon: 'com.sixmultiverse.heartnumber.png'
+icon: com.sixmultiverse.heartnumber.png
 bugbounty: 
-meta: 'stale'
-verdict: 'nobtc'
+meta: stale
+verdict: nobtc
 appHashes: 
-date: '2024-03-01'
+date: 2024-03-01
 signer: 
 reviewArchive: 
-twitter: 'Heartnumber_htn'
+twitter: Heartnumber_htn
 social:
-- 'https://t.me/Heartnumber_Official'
+- https://t.me/Heartnumber_Official
 redirect_from: 
-developerName: 'rentalbot'
+developerName: rentalbot
 features: 
 
 ---

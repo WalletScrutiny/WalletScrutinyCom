@@ -3,7 +3,7 @@ title: Goochain Citadelle
 appId: goochaincitadelle
 authors:
 - danny
-released: '2016-05-10'
+released: 2016-05-10
 discontinued: 
 updated: 
 version: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: vapor
 appHashes: 
-date: '2022-04-11'
+date: 2022-04-11
 signer: 
 reviewArchive: 
 twitter: 

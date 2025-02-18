@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'INX - Crypto Trading'
+title: INX - Crypto Trading
 altTitle: 
 authors: 
 users: 50
-appId: 'com.crypto.trader'
+appId: com.crypto.trader
 appCountry: 
-released: '2021-09-29'
-updated: '2021-09-29'
-version: '1.0.3'
+released: 2021-09-29
+updated: 2021-09-29
+version: 1.0.3
 stars: 
 ratings: 
 reviews: 
-size: '4.5M'
 website: 
 repository: 
 issue: 
-icon: 'com.crypto.trader.png'
+icon: com.crypto.trader.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2021-11-16'
+date: 2021-11-16
 signer: 
 reviewArchive: 
 twitter: 

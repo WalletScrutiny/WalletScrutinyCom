@@ -7,12 +7,11 @@ authors:
 appId: com.tbws1.app
 appCountry: us
 idd: '1567899077'
-released: '2021-05-30'
-updated: '2023-07-14'
+released: 2021-05-30
+updated: 2023-07-14
 version: '2.0'
 stars: 4.2
 reviews: 179
-size: '61376512'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2024-07-25'
+date: 2024-07-25
 signer: 
 reviewArchive: 
 twitter: 

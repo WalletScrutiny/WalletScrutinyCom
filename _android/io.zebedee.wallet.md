@@ -1,35 +1,35 @@
 ---
-wsId: 'zebedee'
+wsId: zebedee
 title: 'ZBD: Earn Bitcoin Rewards'
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 1000000
-appId: 'io.zebedee.wallet'
+appId: io.zebedee.wallet
 appCountry: 
-released: '2020-10-20'
+released: 2020-10-20
 updated: 2025-01-24
-version: '4.8.4'
-stars: 4.5
+version: 4.8.4
+stars: 4.4
 ratings: 358
-reviews: 5856
-website: 'https://zbd.one/help'
+reviews: 5909
+website: https://zbd.one/help
 repository: 
 issue: 
-icon: 'io.zebedee.wallet.png'
+icon: io.zebedee.wallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-04-12'
+date: 2021-04-12
 signer: 
 reviewArchive: 
-twitter: 'zebedeeio'
+twitter: zebedeeio
 social: 
 redirect_from: 
-developerName: 'ZEBEDEE'
+developerName: ZEBEDEE
 features:
-- 'ln'
+- ln
 
 ---
 

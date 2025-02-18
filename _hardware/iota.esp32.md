@@ -3,9 +3,9 @@ title: IOTA ESP32 Hardware Wallet
 appId: iota.esp32
 authors:
 - danny
-released: '2019-02-26'
+released: 2019-02-26
 discontinued: 
-updated: '2022-04-27'
+updated: 2022-04-27
 version: 
 binaries: 
 dimensions: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: nobtc
 appHashes: 
-date: '2022-05-17'
+date: 2022-05-17
 signer: 
 reviewArchive: 
 twitter: iota

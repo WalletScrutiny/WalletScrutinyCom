@@ -1,38 +1,39 @@
 ---
-wsId: 'mojitoWallet'
-title: 'Mojito wallet'
+wsId: mojitoWallet
+title: Mojito wallet
 altTitle: 
 authors:
-- 'danny'
-- 'keraliss'
+- danny
+- keraliss
 users: 5000
-appId: 'com.mojitowallet'
+appId: com.mojitowallet
 appCountry: 
+released: 
 updated: 2024-12-15
-version: '0.4.1'
+version: 0.4.1
 stars: 
 ratings: 
 reviews: 
-website: 'https://www.mintlayer.org/en/mojito-wallet/'
-repository: 'https://github.com/mintlayer/mojito_mobile_wallet'
-issue: 'https://github.com/mintlayer/mojito_mobile_wallet/issues/101'
-icon: 'com.mojitowallet.png'
+website: https://www.mintlayer.org/en/mojito-wallet/
+repository: https://github.com/mintlayer/mojito_mobile_wallet
+issue: https://github.com/mintlayer/mojito_mobile_wallet/issues/101
+icon: com.mojitowallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'ftbfs'
+meta: ok
+verdict: ftbfs
 appHashes: []
-date: '2024-12-21'
+date: 2024-12-21
 signer: 
 reviewArchive: 
-twitter: 'mintlayer'
+twitter: mintlayer
 social:
-- 'https://t.me/mintlayer'
-- 'https://www.linkedin.com/company/mintlayer'
-- 'https://discord.gg/gkZ4h8McBT'
-- 'https://www.facebook.com/MintlayerOfficial'
-- 'https://www.youtube.com/channel/UCVVpaPry8xZS47pPBmS4rnA/videos'
+- https://t.me/mintlayer
+- https://www.linkedin.com/company/mintlayer
+- https://discord.gg/gkZ4h8McBT
+- https://www.facebook.com/MintlayerOfficial
+- https://www.youtube.com/channel/UCVVpaPry8xZS47pPBmS4rnA/videos
 redirect_from: 
-developerName: 'RBB SRL'
+developerName: RBB SRL
 features: 
 
 ---

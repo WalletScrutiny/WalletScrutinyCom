@@ -1,31 +1,30 @@
 ---
-wsId: 'freeda'
-title: 'Freeda Wallet - Trade Crypto'
+wsId: freeda
+title: Freeda Wallet - Trade Crypto
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.freeda.freedaapp'
-appCountry: 'us'
-released: '2021-04-13'
-updated: '2022-08-17'
-version: '2.3.2'
+appId: com.freeda.freedaapp
+appCountry: us
+released: 2021-04-13
+updated: 2022-08-17
+version: 2.3.2
 stars: 4.7
 ratings: 80
 reviews: 51
-size: 
-website: 'https://www.freeda.io'
+website: https://www.freeda.io
 repository: 
 issue: 
-icon: 'com.freeda.freedaapp.png'
+icon: com.freeda.freedaapp.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-01-30'
+date: 2023-01-30
 signer: 
 reviewArchive: 
-twitter: 'FreedaWallet'
+twitter: FreedaWallet
 social: 
 redirect_from: 
 developerName: 

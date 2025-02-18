@@ -7,12 +7,11 @@ authors:
 appId: com.extolab.extowallet
 appCountry: us
 idd: '1522403982'
-released: '2020-08-18'
-updated: '2020-11-11'
-version: '1.6.4'
+released: 2020-08-18
+updated: 2020-11-11
+version: 1.6.4
 stars: 0
 reviews: 0
-size: '31562752'
 website: https://extowallet.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: nosource
 appHashes: 
-date: '2022-10-21'
+date: 2022-10-21
 signer: 
 reviewArchive: 
 twitter: Exto_Labs

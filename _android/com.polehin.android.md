@@ -3,47 +3,46 @@ wsId:
 title: 'Bitcoin Wallet: BTC, ETH & BNB'
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 1000000
-appId: 'com.polehin.android'
+appId: com.polehin.android
 appCountry: 
-released: '2019-01-01'
-updated: '2022-01-09'
-version: '3.7.4'
+released: 2019-01-01
+updated: 2022-01-09
+version: 3.7.4
 stars: 3.9
 ratings: 22277
 reviews: 843
-size: 
-website: 'https://coinbox.org'
+website: https://coinbox.org
 repository: 
 issue: 
-icon: 'com.polehin.android.png'
+icon: com.polehin.android.png
 bugbounty: 
-meta: 'removed'
-verdict: 'obfuscated'
+meta: removed
+verdict: obfuscated
 appHashes: []
-date: '2024-03-02'
+date: 2024-03-02
 signer: 
 reviewArchive:
-- date: '2020-03-30'
-  version: '3.1.4'
+- date: 2020-03-30
+  version: 3.1.4
   appHashes: []
-  gitRevision: '8dc1853115753c1c3ab4e8dc321ee339f071541a'
-  verdict: 'custodial'
-- date: '2019-11-22'
-  version: '3.1.4'
+  gitRevision: 8dc1853115753c1c3ab4e8dc321ee339f071541a
+  verdict: custodial
+- date: 2019-11-22
+  version: 3.1.4
   appHashes: []
-  gitRevision: '90d987f66d51671d7fb7097cd9676bcdce2a7c02'
-  verdict: 'nosource'
-twitter: 'polehincom'
+  gitRevision: 90d987f66d51671d7fb7097cd9676bcdce2a7c02
+  verdict: nosource
+twitter: polehincom
 social:
-- 'https://www.facebook.com/polehincom'
+- https://www.facebook.com/polehincom
 redirect_from:
-- '/bitcoinwallet/'
-- '/com.polehin.android/'
-- '/posts/2019/11/bitcoinwallet/'
-- '/posts/com.polehin.android/'
-developerName: 'BW DEV'
+- /bitcoinwallet/
+- /com.polehin.android/
+- /posts/2019/11/bitcoinwallet/
+- /posts/com.polehin.android/
+developerName: BW DEV
 features: 
 
 ---

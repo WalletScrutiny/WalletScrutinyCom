@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Kine Exchange'
+title: Kine Exchange
 altTitle: 
 authors: 
 users: 100
-appId: 'com.cordova.kine'
+appId: com.cordova.kine
 appCountry: 
 released: 
-updated: '2021-07-12'
-version: '1.0.9'
+updated: 2021-07-12
+version: 1.0.9
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.cordova.kine.png'
+icon: com.cordova.kine.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

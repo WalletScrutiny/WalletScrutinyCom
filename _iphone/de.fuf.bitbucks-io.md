@@ -7,12 +7,11 @@ authors:
 appId: de.fuf.bitbucks-io
 appCountry: 
 idd: 1453167599
-released: '2019-06-15'
-updated: '2024-07-25'
-version: '1.5.7'
+released: 2019-06-15
+updated: 2024-07-25
+version: 1.5.7
 stars: 1
 reviews: 1
-size: '26531840'
 website: https://www.bitbucks.io
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2023-12-13'
+date: 2023-12-13
 signer: 
 reviewArchive: 
 twitter: bit_bucks

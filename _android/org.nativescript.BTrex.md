@@ -1,28 +1,27 @@
 ---
 wsId: 
-title: 'Multi Exchange Crypto Trading Terminal'
+title: Multi Exchange Crypto Trading Terminal
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 10
-appId: 'org.nativescript.BTrex'
+appId: org.nativescript.BTrex
 appCountry: 
-released: '2018-04-26'
-updated: '2018-06-03'
-version: '1.0.6.2'
+released: 2018-04-26
+updated: 2018-06-03
+version: 1.0.6.2
 stars: 
 ratings: 
 reviews: 
-size: '21M'
 website: 
 repository: 
 issue: 
-icon: 'org.nativescript.BTrex.png'
+icon: org.nativescript.BTrex.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2021-10-30'
+date: 2021-10-30
 signer: 
 reviewArchive: 
 twitter: 

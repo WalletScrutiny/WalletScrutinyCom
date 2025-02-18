@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'CreateSafe'
+title: CreateSafe
 altTitle: 
 authors: 
 users: 10
-appId: 'xyz.createsafe.twa'
+appId: xyz.createsafe.twa
 appCountry: 
-released: '2021-11-29'
-updated: '2021-11-29'
-version: '1.0.0.0'
+released: 2021-11-29
+updated: 2021-11-29
+version: 1.0.0.0
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://createsafe.io'
+website: https://createsafe.io
 repository: 
 issue: 
-icon: 'xyz.createsafe.twa.png'
+icon: xyz.createsafe.twa.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-04-03'
+date: 2024-04-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'CreateSafe'
+developerName: CreateSafe
 features: 
 
 ---

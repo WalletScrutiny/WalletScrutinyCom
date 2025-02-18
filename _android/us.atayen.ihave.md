@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'iHave'
+title: iHave
 altTitle: 
 authors: 
 users: 50
-appId: 'us.atayen.ihave'
+appId: us.atayen.ihave
 appCountry: 
-released: '2022-05-24'
-updated: '2023-04-24'
-version: '1.5.4'
+released: 2022-05-24
+updated: 2023-04-24
+version: 1.5.4
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://dapp.satt.io/'
+website: https://dapp.satt.io/
 repository: 
 issue: 
-icon: 'us.atayen.ihave.png'
+icon: us.atayen.ihave.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-12-08'
+date: 2024-12-08
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Atayen, Inc'
+developerName: Atayen, Inc
 features: 
 
 ---

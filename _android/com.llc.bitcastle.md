@@ -1,35 +1,35 @@
 ---
-wsId: 'bitcastleTradeCrypto'
+wsId: bitcastleTradeCrypto
 title: 'bitcastle: Buy & Trade Crypto'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.llc.bitcastle'
+appId: com.llc.bitcastle
 appCountry: 
-released: '2022-07-29'
-updated: 2025-02-12
-version: '1.11.6'
+released: 2022-07-29
+updated: 2025-02-15
+version: 1.11.7
 stars: 2.9
 ratings: 
 reviews: 14
-website: 'https://bitcastle.io/'
+website: https://bitcastle.io/
 repository: 
 issue: 
-icon: 'com.llc.bitcastle.png'
+icon: com.llc.bitcastle.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-07-10'
+date: 2023-07-10
 signer: 
 reviewArchive: 
-twitter: 'bit_castle'
+twitter: bit_castle
 social:
-- 'https://www.facebook.com/bitcastle.English'
-- 'https://t.me/bitcastle_official'
+- https://www.facebook.com/bitcastle.English
+- https://t.me/bitcastle_official
 redirect_from: 
-developerName: 'bitcastle Limited'
+developerName: bitcastle Limited
 features: 
 
 ---

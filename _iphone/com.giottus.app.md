@@ -7,12 +7,11 @@ authors:
 appId: com.giottus.app
 appCountry: in
 idd: 1537068185
-released: '2021-01-27'
-updated: '2025-01-23'
-version: '3.0.29'
+released: 2021-01-27
+updated: 2025-02-14
+version: 3.0.31
 stars: 4.4
-reviews: 1017
-size: '93385728'
+reviews: 1018
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: '2024-10-07'
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: giottus

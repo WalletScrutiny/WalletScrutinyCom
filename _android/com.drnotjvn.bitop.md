@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Bitop'
+title: Bitop
 altTitle: 
 authors: 
 users: 1000
-appId: 'com.drnotjvn.bitop'
+appId: com.drnotjvn.bitop
 appCountry: 
-released: '2021-10-12'
-updated: '2021-10-13'
-version: '1.0.0'
+released: 2021-10-12
+updated: 2021-10-13
+version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.drnotjvn.bitop.png'
+icon: com.drnotjvn.bitop.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

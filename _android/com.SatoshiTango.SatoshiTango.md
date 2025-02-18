@@ -1,35 +1,35 @@
 ---
-wsId: 'SatoshiTango'
+wsId: SatoshiTango
 title: 'Satoshi Tango: Bitcoin - USDT'
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 100000
-appId: 'com.SatoshiTango.SatoshiTango'
+appId: com.SatoshiTango.SatoshiTango
 appCountry: 
-released: '2015-06-24'
+released: 2015-06-24
 updated: 2025-01-24
-version: '5.3.0'
+version: 5.3.0
 stars: 3.8
 ratings: 5466
 reviews: 41
-website: 'http://www.satoshitango.com'
+website: http://www.satoshitango.com
 repository: 
 issue: 
-icon: 'com.SatoshiTango.SatoshiTango.png'
+icon: com.SatoshiTango.SatoshiTango.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-09-03'
+date: 2021-09-03
 signer: 
 reviewArchive: 
-twitter: 'satoshitango'
+twitter: satoshitango
 social:
-- 'https://www.facebook.com/satoshitangoargentina'
+- https://www.facebook.com/satoshitangoargentina
 redirect_from:
-- '/com.SatoshiTango.SatoshiTango/'
-developerName: 'SatoshiTango'
+- /com.SatoshiTango.SatoshiTango/
+developerName: SatoshiTango
 features: 
 
 ---

@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'QuickX Touch (New)'
+title: QuickX Touch (New)
 altTitle: 
 authors: 
 users: 500
-appId: 'kr.co.keypair.quickxtouch2'
+appId: kr.co.keypair.quickxtouch2
 appCountry: 
-released: '2019-02-25'
-updated: '2019-12-27'
-version: '1.0.0.60'
+released: 2019-02-25
+updated: 2019-12-27
+version: 1.0.0.60
 stars: 
 ratings: 
 reviews: 
-size: '11M'
-website: 'http://keywalletpro.io'
+website: http://keywalletpro.io
 repository: 
 issue: 
-icon: 'kr.co.keypair.quickxtouch2.png'
+icon: kr.co.keypair.quickxtouch2.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2022-03-07'
+date: 2022-03-07
 signer: 
 reviewArchive: 
 twitter: 

@@ -7,12 +7,11 @@ authors:
 appId: com.xcritical.trading
 appCountry: ca
 idd: '1472992958'
-released: '2019-07-24'
-updated: '2023-01-23'
-version: '2.23.6'
+released: 2019-07-24
+updated: 2023-01-23
+version: 2.23.6
 stars: 0
 reviews: 0
-size: '243323904'
 website: https://xcritical.com/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: obsolete
 verdict: custodial
 appHashes: 
-date: '2025-01-15'
+date: 2025-01-15
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,36 +1,36 @@
 ---
-wsId: 'tatspace'
-title: 'TATSPACE'
+wsId: tatspace
+title: TATSPACE
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.tatspace'
+appId: com.tatspace
 appCountry: 
-released: '2022-02-13'
+released: 2022-02-13
 updated: 2024-09-09
-version: '1.4.9'
+version: 1.4.9
 stars: 3.3
 ratings: 
 reviews: 9
-website: 'https://www.tatcoin.com'
+website: https://www.tatcoin.com
 repository: 
 issue: 
-icon: 'com.tatspace.jpg'
+icon: com.tatspace.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-04-12'
+date: 2023-04-12
 signer: 
 reviewArchive: 
-twitter: 'tatspaceapp'
+twitter: tatspaceapp
 social:
-- 'https://www.linkedin.com/company/the-abit-app/'
-- 'https://t.me/tatspaceapp'
-- 'https://www.instagram.com/tatspaceapp/'
+- https://www.linkedin.com/company/the-abit-app/
+- https://t.me/tatspaceapp
+- https://www.instagram.com/tatspaceapp/
 redirect_from: 
-developerName: 'Own the Earth LLC'
+developerName: Own the Earth LLC
 features: 
 
 ---

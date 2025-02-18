@@ -3,7 +3,7 @@ title: Opolo Cosmos Recovery Card
 appId: opolocosmos.card
 authors:
 - danny
-released: '2020-10-01'
+released: 2020-10-01
 discontinued: 
 updated: 
 version: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: plainkey
 appHashes: 
-date: '2023-02-28'
+date: 2023-02-28
 signer: 
 reviewArchive: 
 twitter: opolowallet

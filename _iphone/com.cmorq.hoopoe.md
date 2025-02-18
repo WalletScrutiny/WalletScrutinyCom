@@ -7,12 +7,11 @@ authors:
 appId: com.cmorq.hoopoe
 appCountry: us
 idd: '1530022030'
-released: '2020-12-13'
-updated: '2024-11-27'
-version: '6.0.3'
+released: 2020-12-13
+updated: 2024-11-27
+version: 6.0.3
 stars: 4.5
 reviews: 186
-size: '145173504'
 website: https://www.cmorq.com/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: nobtc
 appHashes: 
-date: '2022-06-24'
+date: 2022-06-24
 signer: 
 reviewArchive: 
 twitter: cmorq_

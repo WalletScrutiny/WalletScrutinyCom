@@ -1,35 +1,35 @@
 ---
 wsId: 
-title: 'بیت پین - Bitpin'
+title: بیت پین - Bitpin
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'io.bitpin.app'
+appId: io.bitpin.app
 appCountry: 
-released: '2021-09-01'
+released: 2021-09-01
 updated: 2025-02-09
-version: '1.0.82'
+version: 1.0.82
 stars: 4
 ratings: 
 reviews: 104
-website: 'https://bitpin.ir'
+website: https://bitpin.ir
 repository: 
 issue: 
-icon: 'io.bitpin.app.png'
+icon: io.bitpin.app.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-07-18'
+date: 2023-07-18
 signer: 
 reviewArchive: 
-twitter: 'bitpinmarket'
+twitter: bitpinmarket
 social:
-- 'https://t.me/bitpin'
-- 'https://www.instagram.com/bitpinmarket'
+- https://t.me/bitpin
+- https://www.instagram.com/bitpinmarket
 redirect_from: 
-developerName: 'Tika Team'
+developerName: Tika Team
 features: 
 
 ---

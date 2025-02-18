@@ -1,37 +1,37 @@
 ---
-wsId: 'biconomy'
+wsId: biconomy
 title: 'Biconomy: Bitcoin, ETH &Crypto'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.biconomy.ex'
+appId: com.biconomy.ex
 appCountry: 
-released: '2020-01-14'
+released: 2020-01-14
 updated: 2025-02-12
-version: '2.2.40'
+version: 2.2.40
 stars: 4.1
 ratings: 
-reviews: 107
-website: 'https://www.biconomy.com'
+reviews: 108
+website: https://www.biconomy.com
 repository: 
 issue: 
-icon: 'com.biconomy.ex.png'
+icon: com.biconomy.ex.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-02-15'
+date: 2023-02-15
 signer: 
 reviewArchive: 
-twitter: 'BiconomyCom'
+twitter: BiconomyCom
 social:
-- 'https://www.facebook.com/BiconomyCom'
-- 'https://www.linkedin.com/company/biconomycom/'
-- 'https://biconomycom.medium.com/'
-- 'https://www.youtube.com/c/BiconomyGlobal'
+- https://www.facebook.com/BiconomyCom
+- https://www.linkedin.com/company/biconomycom/
+- https://biconomycom.medium.com/
+- https://www.youtube.com/c/BiconomyGlobal
 redirect_from: 
-developerName: 'Biconomy Global'
+developerName: Biconomy Global
 features: 
 
 ---

@@ -1,35 +1,35 @@
 ---
-wsId: 'ThinkTrader'
-title: 'ThinkTrader'
+wsId: ThinkTrader
+title: ThinkTrader
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000000
-appId: 'com.riflexo.tradeinterceptormobile'
-appCountry: 'us'
-released: '2010-08-02'
-updated: 2025-02-13
-version: '6.17.6.7'
+appId: com.riflexo.tradeinterceptormobile
+appCountry: us
+released: 2010-08-02
+updated: 2025-02-15
+version: 6.17.6.8
 stars: 3.9
 ratings: 5176
 reviews: 346
-website: 'http://www.thinkmarkets.com'
+website: http://www.thinkmarkets.com
 repository: 
 issue: 
-icon: 'com.riflexo.tradeinterceptormobile.png'
+icon: com.riflexo.tradeinterceptormobile.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosendreceive'
+meta: ok
+verdict: nosendreceive
 appHashes: 
-date: '2021-10-21'
+date: 2021-10-21
 signer: 
 reviewArchive: 
-twitter: 'ThinkMarketscom'
+twitter: ThinkMarketscom
 social:
-- 'https://www.linkedin.com/company/thinkmarkets'
-- 'https://www.facebook.com/ThinkMarkets'
+- https://www.linkedin.com/company/thinkmarkets
+- https://www.facebook.com/ThinkMarkets
 redirect_from: 
-developerName: 'ThinkMarkets'
+developerName: ThinkMarkets
 features: 
 
 ---

@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Safepay - Buy Sell Crypto'
+title: Safepay - Buy Sell Crypto
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.safepay.live'
+appId: com.safepay.live
 appCountry: 
-released: '2021-11-12'
-updated: '2022-03-30'
-version: '3.0.0'
+released: 2021-11-12
+updated: 2022-03-30
+version: 3.0.0
 stars: 4.7
 ratings: 
 reviews: 
-size: 
-website: 'https://safepay.live'
+website: https://safepay.live
 repository: 
 issue: 
-icon: 'com.safepay.live.png'
+icon: com.safepay.live.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2024-12-23'
+date: 2024-12-23
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'safepay'
+developerName: safepay
 features: 
 
 ---

@@ -1,37 +1,37 @@
 ---
-wsId: 'timexApp'
-title: 'TimeX'
+wsId: timexApp
+title: TimeX
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'io.timexapp'
+appId: io.timexapp
 appCountry: 
-released: '2023-01-27'
+released: 2023-01-27
 updated: 2023-09-25
-version: '1.4.3'
+version: 1.4.3
 stars: 
 ratings: 
 reviews: 
-website: 'http://timex.io'
+website: http://timex.io
 repository: 
 issue: 
-icon: 'io.timexapp.png'
+icon: io.timexapp.png
 bugbounty: 
-meta: 'stale'
-verdict: 'custodial'
+meta: stale
+verdict: custodial
 appHashes: 
-date: '2024-10-02'
+date: 2024-10-02
 signer: 
 reviewArchive: 
-twitter: 'ExchangeTimex'
+twitter: ExchangeTimex
 social:
-- 'https://www.facebook.com/timex.io'
-- 'https://www.instagram.com/timex.io'
-- 'https://www.youtube.com/channel/UCpC4c8JCWoX2GA0vGpUTK2w'
-- 'https://t.me/timexio'
+- https://www.facebook.com/timex.io
+- https://www.instagram.com/timex.io
+- https://www.youtube.com/channel/UCpC4c8JCWoX2GA0vGpUTK2w
+- https://t.me/timexio
 redirect_from: 
-developerName: 'Chrono.Tech'
+developerName: Chrono.Tech
 features: 
 
 ---

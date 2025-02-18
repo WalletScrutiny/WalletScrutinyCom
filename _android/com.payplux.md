@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: 'PayPlux - Buy & Sell Bitcoin'
+title: PayPlux - Buy & Sell Bitcoin
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.payplux'
+appId: com.payplux
 appCountry: 
-released: '2020-01-22'
-updated: '2022-11-02'
-version: '1.1.85'
+released: 2020-01-22
+updated: 2022-11-02
+version: 1.1.85
 stars: 3.4
 ratings: 291
 reviews: 12
-size: 
-website: 'https://payplux.com'
+website: https://payplux.com
 repository: 
 issue: 
-icon: 'com.payplux.png'
+icon: com.payplux.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2024-11-04'
+date: 2024-11-04
 signer: 
 reviewArchive: 
-twitter: 'PayPlux'
+twitter: PayPlux
 social:
-- 'https://www.facebook.com/PayPlux'
+- https://www.facebook.com/PayPlux
 redirect_from: 
-developerName: 'Qodehub LLC'
+developerName: Qodehub LLC
 features: 
 
 ---

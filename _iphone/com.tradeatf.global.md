@@ -7,12 +7,11 @@ authors:
 appId: com.tradeatf.global
 appCountry: ag
 idd: 1516998762
-released: '2020-07-29'
-updated: '2021-11-26'
-version: '1.69.13'
+released: 2020-07-29
+updated: 2021-11-26
+version: 1.69.13
 stars: 
 reviews: 
-size: 32352256
 website: https://global.tradeatf.com/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: nosendreceive
 appHashes: 
-date: '2022-03-07'
+date: 2022-03-07
 signer: 
 reviewArchive: 
 twitter: TradeATF

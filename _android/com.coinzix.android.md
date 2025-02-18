@@ -1,37 +1,36 @@
 ---
-wsId: 'coinzix'
-title: 'Coinzix'
+wsId: coinzix
+title: Coinzix
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.coinzix.android'
+appId: com.coinzix.android
 appCountry: 
-released: '2021-10-27'
-updated: '2023-06-02'
+released: 2021-10-27
+updated: 2023-06-02
 version: '1.96'
 stars: 4.4
 ratings: 
 reviews: 4
-size: 
-website: 'https://www.coinzix.com'
+website: https://www.coinzix.com
 repository: 
 issue: 
-icon: 'com.coinzix.android.png'
+icon: com.coinzix.android.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2025-02-04'
+date: 2025-02-04
 signer: 
 reviewArchive: 
-twitter: 'coinzixcom'
+twitter: coinzixcom
 social:
-- 'https://www.facebook.com/coinzixcom'
-- 'https://www.instagram.com/coinzixcom'
-- 'https://t.me/coinzixCEX'
+- https://www.facebook.com/coinzixcom
+- https://www.instagram.com/coinzixcom
+- https://t.me/coinzixCEX
 redirect_from: 
-developerName: 'COINZIX LABS'
+developerName: COINZIX LABS
 features: 
 
 ---

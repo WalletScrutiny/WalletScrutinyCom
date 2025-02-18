@@ -1,34 +1,33 @@
 ---
-wsId: 'Coinpal'
-title: 'Coinpal'
+wsId: Coinpal
+title: Coinpal
 altTitle: 
 authors:
-- 'kiwilamb'
+- kiwilamb
 users: 10000
-appId: 'me.coinpal.app'
+appId: me.coinpal.app
 appCountry: 
-released: '2017-12-22'
-updated: '2018-06-27'
-version: '4.1.4'
+released: 2017-12-22
+updated: 2018-06-27
+version: 4.1.4
 stars: 4.3
 ratings: 116
 reviews: 53
-size: '20M'
-website: 'https://coinpal.me/'
+website: https://coinpal.me/
 repository: 
 issue: 
-icon: 'me.coinpal.app.png'
+icon: me.coinpal.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2022-02-10'
+date: 2022-02-10
 signer: 
 reviewArchive: 
-twitter: 'coinpalapp'
+twitter: coinpalapp
 social:
-- 'https://www.linkedin.com/company/coinpal'
-- 'https://www.facebook.com/coinpal.me'
+- https://www.linkedin.com/company/coinpal
+- https://www.facebook.com/coinpal.me
 redirect_from: 
 developerName: 
 features: 

@@ -1,37 +1,37 @@
 ---
-wsId: 'goabra'
+wsId: goabra
 title: 'Abra: Buy & Trade BTC & Crypto'
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 1000000
-appId: 'com.plutus.wallet'
+appId: com.plutus.wallet
 appCountry: 
-released: '2015-03-04'
+released: 2015-03-04
 updated: 2024-01-12
 version: '146.0'
 stars: 3.4
 ratings: 44411
 reviews: 2899
-website: 'https://www.abra.com/'
+website: https://www.abra.com/
 repository: 
 issue: 
-icon: 'com.plutus.wallet.png'
+icon: com.plutus.wallet.png
 bugbounty: 
-meta: 'stale'
-verdict: 'custodial'
+meta: stale
+verdict: custodial
 appHashes: 
-date: '2025-01-06'
+date: 2025-01-06
 signer: 
 reviewArchive: 
-twitter: 'AbraGlobal'
+twitter: AbraGlobal
 social:
-- 'https://www.linkedin.com/company/abra'
-- 'https://www.facebook.com/GoAbraGlobal'
+- https://www.linkedin.com/company/abra
+- https://www.facebook.com/GoAbraGlobal
 redirect_from:
-- '/com.plutus.wallet/'
-- '/posts/com.plutus.wallet/'
-developerName: 'Plutus Financial Inc'
+- /com.plutus.wallet/
+- /posts/com.plutus.wallet/
+developerName: Plutus Financial Inc
 features: 
 
 ---

@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Bitcoin Invest India'
+title: Bitcoin Invest India
 altTitle: 
 authors: 
 users: 1
-appId: 'net.hodlercrypto.bitcoin.invest.india1'
+appId: net.hodlercrypto.bitcoin.invest.india1
 appCountry: 
-released: '2021-06-18'
-updated: '2021-06-18'
+released: 2021-06-18
+updated: 2021-06-18
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: '3.3M'
 website: 
 repository: 
 issue: 
-icon: 'net.hodlercrypto.bitcoin.invest.india1.jpg'
+icon: net.hodlercrypto.bitcoin.invest.india1.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2021-10-01'
+date: 2021-10-01
 signer: 
 reviewArchive: 
 twitter: 

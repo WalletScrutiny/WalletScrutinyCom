@@ -1,34 +1,34 @@
 ---
-wsId: 'nebeus'
+wsId: nebeus
 title: 'Nebeus: IBANs for Crypto'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.nebeus.android'
-appCountry: 'gt'
-released: '2021-05-24'
+appId: com.nebeus.android
+appCountry: gt
+released: 2021-05-24
 updated: 2024-11-07
-version: '2.1.1'
+version: 2.1.1
 stars: 
 ratings: 
 reviews: 
-website: 'https://nebeus.com'
+website: https://nebeus.com
 repository: 
 issue: 
-icon: 'com.nebeus.android.png'
+icon: com.nebeus.android.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-02-25'
+date: 2023-02-25
 signer: 
 reviewArchive: 
-twitter: 'NebeusWorld'
+twitter: NebeusWorld
 social:
-- 'https://www.linkedin.com/company/nebeus/'
+- https://www.linkedin.com/company/nebeus/
 redirect_from: 
-developerName: 'Rintral Trading SL'
+developerName: Rintral Trading SL
 features: 
 
 ---

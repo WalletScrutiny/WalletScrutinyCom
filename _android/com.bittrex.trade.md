@@ -1,35 +1,34 @@
 ---
-wsId: 'bittrex'
-title: 'Bittrex | Buy Bitcoin & Crypto'
+wsId: bittrex
+title: Bittrex | Buy Bitcoin & Crypto
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 500000
-appId: 'com.bittrex.trade'
+appId: com.bittrex.trade
 appCountry: 
-released: '2019-12-19'
-updated: '2023-08-29'
-version: '1.22.4'
+released: 2019-12-19
+updated: 2023-08-29
+version: 1.22.4
 stars: 3.7
 ratings: 5144
 reviews: 653
-size: 
-website: 'https://global.bittrex.com'
+website: https://global.bittrex.com
 repository: 
 issue: 
-icon: 'com.bittrex.trade.png'
+icon: com.bittrex.trade.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
-twitter: 'BittrexGlobal'
+twitter: BittrexGlobal
 social:
-- 'https://www.facebook.com/BittrexGlobal'
+- https://www.facebook.com/BittrexGlobal
 redirect_from: 
-developerName: 'Bittrex, Inc.'
+developerName: Bittrex, Inc.
 features: 
 
 ---

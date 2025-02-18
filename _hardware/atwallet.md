@@ -27,7 +27,7 @@ bugbounty:
 meta: ok
 verdict: plainkey
 appHashes: 
-date: '2021-12-03'
+date: 2021-12-03
 signer: 
 reviewArchive: 
 twitter: authentrend

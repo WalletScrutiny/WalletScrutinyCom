@@ -1,35 +1,34 @@
 ---
-wsId: 'abccExchange'
-title: 'ABCC Exchange'
+wsId: abccExchange
+title: ABCC Exchange
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.abcc.exchange'
-appCountry: 'us'
-released: '2018-08-23'
-updated: '2023-03-01'
-version: '1.9.30'
+appId: com.abcc.exchange
+appCountry: us
+released: 2018-08-23
+updated: 2023-03-01
+version: 1.9.30
 stars: 4.8
 ratings: 1541
 reviews: 46
-size: 
-website: 'https://abcc.com'
+website: https://abcc.com
 repository: 
 issue: 
-icon: 'com.abcc.exchange.png'
+icon: com.abcc.exchange.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-12-15'
+date: 2024-12-15
 signer: 
 reviewArchive: 
-twitter: 'ABCCExOfficial'
+twitter: ABCCExOfficial
 social:
-- 'https://www.facebook.com/ABCC-Exchange-558472047871367'
+- https://www.facebook.com/ABCC-Exchange-558472047871367
 redirect_from: 
-developerName: 'ABCC.com'
+developerName: ABCC.com
 features: 
 
 ---

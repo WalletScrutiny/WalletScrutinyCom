@@ -3,36 +3,35 @@ wsId:
 title: 'ByBIS : Global Crypto Exchange'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.bybis.exchange'
+appId: com.bybis.exchange
 appCountry: 
 released: 
-updated: '2023-07-12'
+updated: 2023-07-12
 version: '1.13'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://bybis.com'
+website: https://bybis.com
 repository: 
 issue: 
-icon: 'com.bybis.exchange.png'
+icon: com.bybis.exchange.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
-twitter: 'ByBIS_Official'
+twitter: ByBIS_Official
 social:
-- 'https://www.facebook.com/bybisofficial'
-- 'https://www.linkedin.com/company/bybis'
-- 'https://www.youtube.com/@ByBISyoutube'
-- 'https://t.me/bybis_announcements'
+- https://www.facebook.com/bybisofficial
+- https://www.linkedin.com/company/bybis
+- https://www.youtube.com/@ByBISyoutube
+- https://t.me/bybis_announcements
 redirect_from: 
-developerName: 'ByBIS Limited'
+developerName: ByBIS Limited
 features: 
 
 ---

@@ -1,36 +1,36 @@
 ---
-wsId: 'stablexKripto'
-title: 'Stablex | Kripto Para Al-Sat'
+wsId: stablexKripto
+title: Stablex | Kripto Para Al-Sat
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.stablex'
+appId: com.stablex
 appCountry: 
-released: '2021-10-27'
+released: 2021-10-27
 updated: 2025-01-28
-version: '2.7.2'
+version: 2.7.2
 stars: 3.1
 ratings: 
 reviews: 
-website: 'https://stablex.net/'
+website: https://stablex.net/
 repository: 
 issue: 
-icon: 'com.stablex.png'
+icon: com.stablex.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-06-03'
+date: 2023-06-03
 signer: 
 reviewArchive: 
-twitter: 'Stablex_Turkey'
+twitter: Stablex_Turkey
 social:
-- 'https://www.instagram.com/stablexofficial'
-- 'https://www.youtube.com/channel/UC261DPjgdgZcP9PgoKrGc7A'
-- 'https://www.linkedin.com/company/stablex-net'
+- https://www.instagram.com/stablexofficial
+- https://www.youtube.com/channel/UC261DPjgdgZcP9PgoKrGc7A
+- https://www.linkedin.com/company/stablex-net
 redirect_from: 
-developerName: 'Stablex Kripto Varlık Alım Satım Platformu A.Ş.'
+developerName: Stablex Kripto Varlık Alım Satım Platformu A.Ş.
 features: 
 
 ---

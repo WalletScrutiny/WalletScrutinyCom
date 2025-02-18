@@ -3,7 +3,7 @@ title: Ledger Nano S Plus
 appId: ledger.nano.splus
 authors:
 - danny
-released: '2022-04-05'
+released: 2022-04-05
 discontinued: 
 updated: 
 version: 
@@ -26,7 +26,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: '2024-12-08'
+date: 2024-12-08
 signer: 
 reviewArchive: 
 twitter: Ledger

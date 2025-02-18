@@ -7,12 +7,11 @@ authors:
 appId: com.llc.bitcastle
 appCountry: gb
 idd: '1616104862'
-released: '2022-07-15'
-updated: '2025-02-08'
-version: '1.9.12'
+released: 2022-07-15
+updated: 2025-02-14
+version: 1.9.15
 stars: 0
 reviews: 0
-size: '220938240'
 website: https://bitcastle.io/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2023-07-10'
+date: 2023-07-10
 signer: 
 reviewArchive: 
 twitter: bit_castle

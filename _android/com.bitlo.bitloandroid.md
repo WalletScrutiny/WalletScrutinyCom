@@ -1,34 +1,34 @@
 ---
-wsId: 'bitlo'
+wsId: bitlo
 title: 'Bitlo: Bitcoin & Kripto Para'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.bitlo.bitloandroid'
-appCountry: 'TR'
-released: '2020-12-18'
+appId: com.bitlo.bitloandroid
+appCountry: TR
+released: 2020-12-18
 updated: 2025-01-27
-version: '2.1.25'
+version: 2.1.25
 stars: 4.6
 ratings: 
-reviews: 2397
-website: 'https://www.bitlo.com/'
+reviews: 2395
+website: https://www.bitlo.com/
 repository: 
 issue: 
-icon: 'com.bitlo.bitloandroid.png'
+icon: com.bitlo.bitloandroid.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-02-08'
+date: 2023-02-08
 signer: 
 reviewArchive: 
-twitter: 'bitlocom'
+twitter: bitlocom
 social:
-- 'https://www.linkedin.com/company/bitlo/'
+- https://www.linkedin.com/company/bitlo/
 redirect_from: 
-developerName: 'Bitlo Teknoloji A.Ş.'
+developerName: Bitlo Teknoloji A.Ş.
 features: 
 
 ---

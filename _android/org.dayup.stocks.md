@@ -1,34 +1,35 @@
 ---
-wsId: 'webull'
+wsId: webull
 title: 'Webull: Investing & Trading'
 altTitle: 
 authors:
-- 'danny'
-- 'leo'
+- danny
+- leo
 users: 10000000
-appId: 'org.dayup.stocks'
+appId: org.dayup.stocks
 appCountry: 
+released: 
 updated: 2025-01-18
-version: '10.6.6.11'
+version: 10.7.0.64
 stars: 4.5
 ratings: 165702
-reviews: 40331
-website: 'https://www.webull.com'
+reviews: 40337
+website: https://www.webull.com
 repository: 
 issue: 
-icon: 'org.dayup.stocks.png'
+icon: org.dayup.stocks.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosendreceive'
+meta: ok
+verdict: nosendreceive
 appHashes: 
-date: '2021-08-10'
+date: 2021-08-10
 signer: 
 reviewArchive: 
-twitter: 'WebullGlobal'
+twitter: WebullGlobal
 social:
-- 'https://www.linkedin.com/company/webullfinancialllc'
+- https://www.linkedin.com/company/webullfinancialllc
 redirect_from: 
-developerName: 'Webull Technologies Pte. Ltd.'
+developerName: Webull Technologies Pte. Ltd.
 features: 
 
 ---

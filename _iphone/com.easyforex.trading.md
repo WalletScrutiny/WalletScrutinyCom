@@ -7,12 +7,11 @@ authors:
 appId: com.easyforex.trading
 appCountry: cn
 idd: 348823316
-released: '2010-01-05'
-updated: '2024-12-06'
-version: '5.2.4'
+released: 2010-01-05
+updated: 2024-12-06
+version: 5.2.4
 stars: 4.4
 reviews: 212
-size: '128423936'
 website: https://www.easymarkets.com/eu/en-gb/platforms/easymarkets-mobile-app/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2024-10-07'
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: easymarkets

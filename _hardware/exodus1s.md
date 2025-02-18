@@ -5,7 +5,7 @@ authors:
 - kiwilamb
 - leo
 - danny
-released: '2019-10-19'
+released: 2019-10-19
 discontinued: 
 updated: 
 version: 
@@ -25,7 +25,7 @@ bugbounty:
 meta: obsolete
 verdict: nosource
 appHashes: 
-date: '2023-01-30'
+date: 2023-01-30
 signer: 
 reviewArchive: 
 twitter: htcexodus

@@ -3,33 +3,33 @@ wsId:
 title: 'PRO exchange: trade Bitcoin'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.pro.changelly'
+appId: com.pro.changelly
 appCountry: 
-released: '2020-07-03'
+released: 2020-07-03
 updated: 2025-01-15
-version: '3.3.3'
+version: 3.3.3
 stars: 
 ratings: 
 reviews: 
-website: 'https://pro.changelly.com/'
+website: https://pro.changelly.com/
 repository: 
 issue: 
-icon: 'com.pro.changelly.png'
+icon: com.pro.changelly.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2025-01-27'
+date: 2025-01-27
 signer: 
 reviewArchive: 
-twitter: 'changelly_team'
+twitter: changelly_team
 social:
-- 'https://www.facebook.com/changellyteam'
-- 'https://www.reddit.com/r/Changelly'
+- https://www.facebook.com/changellyteam
+- https://www.reddit.com/r/Changelly
 redirect_from: 
-developerName: 'PRO – Cryptocurrency Trading Platform'
+developerName: PRO – Cryptocurrency Trading Platform
 features: 
 
 ---

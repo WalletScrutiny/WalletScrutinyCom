@@ -1,35 +1,34 @@
 ---
-wsId: 'O3Wallet'
-title: 'O3 Wallet'
+wsId: O3Wallet
+title: O3 Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.o3.o3wallet'
-appCountry: 'us'
-released: '2020-08-27'
-updated: '2023-05-18'
-version: '3.4.1'
+appId: com.o3.o3wallet
+appCountry: us
+released: 2020-08-27
+updated: 2023-05-18
+version: 3.4.1
 stars: 4.9
 ratings: 474
 reviews: 13
-size: 
-website: 'https://o3.network'
+website: https://o3.network
 repository: 
 issue: 
-icon: 'com.o3.o3wallet.png'
+icon: com.o3.o3wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2024-10-23'
+date: 2024-10-23
 signer: 
 reviewArchive: 
-twitter: 'O3_Labs'
+twitter: O3_Labs
 social:
-- 'https://github.com/O3Labs'
+- https://github.com/O3Labs
 redirect_from: 
-developerName: 'O3 Labs Inc.'
+developerName: O3 Labs Inc.
 features: 
 
 ---

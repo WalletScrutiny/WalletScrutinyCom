@@ -6,12 +6,11 @@ authors:
 appId: com.bitplaza
 appCountry: 
 idd: 1438228771
-released: '2018-10-09'
-updated: '2018-10-09'
+released: 2018-10-09
+updated: 2018-10-09
 version: '1.0'
 stars: 4.4
 reviews: 11
-size: '32704512'
 website: https://www.bitplazashopping.com/
 repository: 
 issue: 
@@ -20,7 +19,7 @@ bugbounty:
 meta: removed
 verdict: nowallet
 appHashes: 
-date: '2025-01-15'
+date: 2025-01-15
 signer: 
 reviewArchive: 
 twitter: 

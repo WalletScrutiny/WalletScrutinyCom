@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: 'Vera Wallet'
+title: Vera Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.verafti.wallet'
+appId: com.verafti.wallet
 appCountry: 
-released: '2021-07-21'
-updated: '2021-09-23'
-version: '1.1.3'
+released: 2021-07-21
+updated: 2021-09-23
+version: 1.1.3
 stars: 2.6
 ratings: 127
 reviews: 4
-size: 
-website: 'https://verafti.uk'
+website: https://verafti.uk
 repository: 
 issue: 
-icon: 'com.verafti.wallet.jpg'
+icon: com.verafti.wallet.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'nobtc'
+meta: removed
+verdict: nobtc
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
-twitter: 'token_vera'
+twitter: token_vera
 social:
-- 'https://www.linkedin.com/company/vera-token-74a925218'
+- https://www.linkedin.com/company/vera-token-74a925218
 redirect_from: 
-developerName: 'VeraFTI'
+developerName: VeraFTI
 features: 
 
 ---

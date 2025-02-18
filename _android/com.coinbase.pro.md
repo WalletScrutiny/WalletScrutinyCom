@@ -1,37 +1,36 @@
 ---
-wsId: 'coinbasepro'
+wsId: coinbasepro
 title: 'Coinbase Pro: Trade BTC, ETH'
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 1000000
-appId: 'com.coinbase.pro'
+appId: com.coinbase.pro
 appCountry: 
-released: '2020-01-06'
-updated: '2022-10-17'
-version: '1.0.103'
+released: 2020-01-06
+updated: 2022-10-17
+version: 1.0.103
 stars: 4
 ratings: 22040
 reviews: 4595
-size: 
-website: 'http://pro.coinbase.com/'
+website: http://pro.coinbase.com/
 repository: 
 issue: 
-icon: 'com.coinbase.pro.jpg'
+icon: com.coinbase.pro.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-11-02'
+date: 2023-11-02
 signer: 
 reviewArchive: 
-twitter: 'CoinbasePro'
+twitter: CoinbasePro
 social:
-- 'https://www.facebook.com/coinbase'
+- https://www.facebook.com/coinbase
 redirect_from:
-- '/com.coinbase.pro/'
-- '/posts/com.coinbase.pro/'
-developerName: 'Coinbase Android'
+- /com.coinbase.pro/
+- /posts/com.coinbase.pro/
+developerName: Coinbase Android
 features: 
 
 ---

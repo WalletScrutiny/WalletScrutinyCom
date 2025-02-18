@@ -5,10 +5,10 @@ authors:
 - kiwilamb
 - '@sethforprivacy'
 - leo
-released: '2020-07-01'
+released: 2020-07-01
 discontinued: 
-updated: '2024-02-21'
-version: 'v2.3.0'
+updated: 2024-02-21
+version: v2.3.0
 binaries: https://github.com/Foundation-Devices/passport2/releases
 dimensions:
 - 38
@@ -29,35 +29,35 @@ meta: discontinued
 verdict: reproducible
 appHashes:
 - db160a44f538e8f030252a2076f8f6ed4927549ac4403834c6a39d43c7b400de
-date: '2024-04-18'
+date: 2024-04-18
 signer: 
 reviewArchive:
-- date: '2023-06-20'
-  version: 'v2.1.2'
+- date: 2023-06-20
+  version: v2.1.2
   appHashes:
   - 197bdfb863cca434395f6535d848622a9c47002a01e27867b7218e3678d6e8ac
   gitRevision: 846f3c3185e087139606f352dcdedf2efbec3c13
   verdict: reproducible
-- date: '2022-08-07'
-  version: '1.0.8'
+- date: 2022-08-07
+  version: 1.0.8
   appHashes:
   - 6c6d1531685ac91eeea202d1fb818c4930a208a7590ab36e118bf5eb91e29e83
   gitRevision: f2a0b0525ce8d92f2c3159feb8353b223ebac123
   verdict: reproducible
-- date: '2021-12-01'
-  version: '1.0.8-beta'
+- date: 2021-12-01
+  version: 1.0.8-beta
   appHashes:
   - 703feb6c387db47ea862ab55acfa984afa456c75dff22b21977459f68e7e1795
   gitRevision: 8d95977073353d5addee069f2003f3974cd50595
   verdict: reproducible
-- date: '2021-10-04'
-  version: 'v1.0.7'
+- date: 2021-10-04
+  version: v1.0.7
   appHashes:
   - 265716676ca91bd724ad48b28a6877841b216003b7b03bbfd6e5eee85a5c057a
   gitRevision: ef2ffe05e70ed0485fa1526ea79a23bf80b15b4c
   verdict: reproducible
-- date: '2021-08-17'
-  version: 'v1.0.6'
+- date: 2021-08-17
+  version: v1.0.6
   appHashes:
   - 606ca7ce1ba136988a36b445b2dae97508fbed062a8fdfa02f13ada69b6e92cd
   gitRevision: 1cf92f351ed58ce13738940ad6e9fad35366dbd5

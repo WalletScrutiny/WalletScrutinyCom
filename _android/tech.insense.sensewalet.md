@@ -1,36 +1,35 @@
 ---
-wsId: 'iwallet'
-title: 'iWallet - blockchain wallet for Bitcoin, Ethereum'
+wsId: iwallet
+title: iWallet - blockchain wallet for Bitcoin, Ethereum
 altTitle: 
 authors:
-- 'leo'
-- 'danny'
+- leo
+- danny
 users: 5000
-appId: 'tech.insense.sensewalet'
+appId: tech.insense.sensewalet
 appCountry: 
-released: '2018-09-27'
-updated: '2019-06-21'
-version: '0.0068beta'
+released: 2018-09-27
+updated: 2019-06-21
+version: 0.0068beta
 stars: 4
 ratings: 25
 reviews: 15
-size: '14M'
-website: 'http://InSense.tech'
+website: http://InSense.tech
 repository: 
 issue: 
-icon: 'tech.insense.sensewalet.png'
+icon: tech.insense.sensewalet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2021-11-16'
+date: 2021-11-16
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from:
-- '/tech.insense.sensewalet/'
-- '/posts/tech.insense.sensewalet/'
+- /tech.insense.sensewalet/
+- /posts/tech.insense.sensewalet/
 developerName: 
 features: 
 

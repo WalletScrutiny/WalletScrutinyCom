@@ -1,38 +1,37 @@
 ---
-wsId: 'SpotWalletapp'
+wsId: SpotWalletapp
 title: 'Spot: bitcoin & crypto wallet'
 altTitle: 
 authors:
-- 'leo'
-- 'danny'
+- leo
+- danny
 users: 100000
-appId: 'com.spot.spot'
+appId: com.spot.spot
 appCountry: 
-released: '2018-08-02'
-updated: '2024-02-06'
-version: '4.88.4'
+released: 2018-08-02
+updated: 2024-02-06
+version: 4.88.4
 stars: 4.2
 ratings: 4767
 reviews: 514
-size: 
-website: 'https://www.spot-wallet.com'
+website: https://www.spot-wallet.com
 repository: 
 issue: 
-icon: 'com.spot.spot.png'
+icon: com.spot.spot.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'nosource'
+meta: defunct
+verdict: nosource
 appHashes: 
-date: '2024-07-13'
+date: 2024-07-13
 signer: 
 reviewArchive: 
-twitter: 'spot_bitcoin'
+twitter: spot_bitcoin
 social:
-- 'https://www.linkedin.com/company/spot-bitcoin'
-- 'https://www.facebook.com/spot.bitcoin'
+- https://www.linkedin.com/company/spot-bitcoin
+- https://www.facebook.com/spot.bitcoin
 redirect_from:
-- '/com.spot.spot/'
-developerName: 'Spot crypto wallet'
+- /com.spot.spot/
+developerName: Spot crypto wallet
 features: 
 
 ---

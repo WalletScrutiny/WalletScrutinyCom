@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'ZNX Wallet'
+title: ZNX Wallet
 altTitle: 
 authors: 
 users: 100
-appId: 'com.zenex.mobileapp'
+appId: com.zenex.mobileapp
 appCountry: 
-released: '2022-05-24'
-updated: '2022-05-28'
+released: 2022-05-24
+updated: 2022-05-28
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://zenextoken.in/'
+website: https://zenextoken.in/
 repository: 
 issue: 
-icon: 'com.zenex.mobileapp.png'
+icon: com.zenex.mobileapp.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,37 +1,37 @@
 ---
-wsId: 'payBusinessElegro'
-title: 'elegro Business online banking'
+wsId: payBusinessElegro
+title: elegro Business online banking
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'paybusiness.elegro.eu'
+appId: paybusiness.elegro.eu
 appCountry: 
-released: '2020-07-15'
+released: 2020-07-15
 updated: 2024-09-16
-version: '1.3.9'
+version: 1.3.9
 stars: 
 ratings: 
 reviews: 
-website: 'https://business.elegro.eu/elegro-business-wallet'
+website: https://business.elegro.eu/elegro-business-wallet
 repository: 
 issue: 
-icon: 'paybusiness.elegro.eu.jpg'
+icon: paybusiness.elegro.eu.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2024-09-07'
+date: 2024-09-07
 signer: 
 reviewArchive: 
-twitter: 'elegro_eu'
+twitter: elegro_eu
 social:
-- 'https://www.linkedin.com/company/niko-technologies-ou'
-- 'https://t.me/d_ima13'
-- 'https://www.youtube.com/channel/UC0O74-8XmeVTo9_aYXwoQNQ'
-- 'https://medium.com/@elegro'
+- https://www.linkedin.com/company/niko-technologies-ou
+- https://t.me/d_ima13
+- https://www.youtube.com/channel/UC0O74-8XmeVTo9_aYXwoQNQ
+- https://medium.com/@elegro
 redirect_from: 
-developerName: 'Niko Technologies'
+developerName: Niko Technologies
 features: 
 
 ---

@@ -1,36 +1,35 @@
 ---
-wsId: 'eliteWallet'
-title: 'Elite Wallet'
+wsId: eliteWallet
+title: Elite Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'sc.elitewallet.elitewallet'
+appId: sc.elitewallet.elitewallet
 appCountry: 
-released: '2022-11-22'
-updated: '2024-03-25'
-version: '1.3.1'
+released: 2022-11-22
+updated: 2024-03-25
+version: 1.3.1
 stars: 4.3
 ratings: 
 reviews: 3
-size: 
-website: 'https://elitewallet.sc'
-repository: 'https://github.com/Elite-Labs/EliteWallet'
-issue: 'https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/497'
-icon: 'sc.elitewallet.elitewallet.png'
+website: https://elitewallet.sc
+repository: https://github.com/Elite-Labs/EliteWallet
+issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/497
+icon: sc.elitewallet.elitewallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'ftbfs'
+meta: removed
+verdict: ftbfs
 appHashes: 
-date: '2024-07-10'
+date: 2024-07-10
 signer: 
 reviewArchive: 
-twitter: 'EliteWallet'
+twitter: EliteWallet
 social:
-- 'https://t.me/elite_wallet'
-- 'https://www.reddit.com/user/EliteTechnologies'
+- https://t.me/elite_wallet
+- https://www.reddit.com/user/EliteTechnologies
 redirect_from: 
-developerName: 'Elite Lab'
+developerName: Elite Lab
 features: 
 
 ---

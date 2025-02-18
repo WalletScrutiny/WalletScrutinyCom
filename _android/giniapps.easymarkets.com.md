@@ -1,35 +1,35 @@
 ---
-wsId: 'easyMarkets'
-title: 'easyMarkets Online Trading'
+wsId: easyMarkets
+title: easyMarkets Online Trading
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'giniapps.easymarkets.com'
-appCountry: 'us'
-released: '2017-04-05'
+appId: giniapps.easymarkets.com
+appCountry: us
+released: 2017-04-05
 updated: 2024-12-05
-version: '2.2.5'
+version: 2.2.5
 stars: 3.5
 ratings: 1761
 reviews: 37
-website: 'https://www.easymarkets.com/'
+website: https://www.easymarkets.com/
 repository: 
 issue: 
-icon: 'giniapps.easymarkets.com.png'
+icon: giniapps.easymarkets.com.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-09-10'
+date: 2021-09-10
 signer: 
 reviewArchive: 
-twitter: 'easymarkets'
+twitter: easymarkets
 social:
-- 'https://www.linkedin.com/company/easymarkets'
-- 'https://www.facebook.com/easyMarkets'
+- https://www.linkedin.com/company/easymarkets
+- https://www.facebook.com/easyMarkets
 redirect_from: 
-developerName: 'easyMarkets'
+developerName: easyMarkets
 features: 
 
 ---

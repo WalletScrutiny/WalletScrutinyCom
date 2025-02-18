@@ -1,34 +1,34 @@
 ---
-wsId: 'coinCap'
-title: 'CoinCap.io'
+wsId: coinCap
+title: CoinCap.io
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 500000
-appId: 'io.coinCap.coinCap'
+appId: io.coinCap.coinCap
 appCountry: 
-released: '2016-04-26'
+released: 2016-04-26
 updated: 2024-05-06
-version: '3.2.0'
+version: 3.2.0
 stars: 3.8
 ratings: 
 reviews: 355
-website: 'http://coincap.io/'
+website: http://coincap.io/
 repository: 
 issue: 
-icon: 'io.coinCap.coinCap.png'
+icon: io.coinCap.coinCap.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2024-05-08'
+date: 2024-05-08
 signer: 
 reviewArchive: 
-twitter: 'CoinCap_io'
+twitter: CoinCap_io
 social:
-- 'https://www.facebook.com/watch/?v=365220420785166'
+- https://www.facebook.com/watch/?v=365220420785166
 redirect_from: 
-developerName: 'ShapeShift.com'
+developerName: ShapeShift.com
 features: 
 
 ---

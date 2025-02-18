@@ -1,33 +1,33 @@
 ---
-wsId: 'bitberry'
-title: 'Bitberry - Safe crypto Wallet'
+wsId: bitberry
+title: Bitberry - Safe crypto Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.rootone.wallet'
-appCountry: 'us'
-released: '2018-10-08'
+appId: com.rootone.wallet
+appCountry: us
+released: 2018-10-08
 updated: 2024-01-19
-version: '1.5.3'
+version: 1.5.3
 stars: 3.4
 ratings: 617
 reviews: 9
-website: 'https://rootone.com'
+website: https://rootone.com
 repository: 
 issue: 
-icon: 'com.rootone.wallet.png'
+icon: com.rootone.wallet.png
 bugbounty: 
-meta: 'stale'
-verdict: 'custodial'
+meta: stale
+verdict: custodial
 appHashes: 
-date: '2025-01-15'
+date: 2025-01-15
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: '(주)루트원소프트'
+developerName: (주)루트원소프트
 features: 
 
 ---

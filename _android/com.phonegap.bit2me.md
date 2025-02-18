@@ -1,37 +1,37 @@
 ---
-wsId: 'bit2me'
-title: 'Bit2Me - Bitcoin and Cryptos'
+wsId: bit2me
+title: Bit2Me - Bitcoin and Cryptos
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 500000
-appId: 'com.phonegap.bit2me'
+appId: com.phonegap.bit2me
 appCountry: 
-released: '2015-01-08'
+released: 2015-01-08
 updated: 2025-02-06
-version: '3.34.0'
+version: 3.34.0
 stars: 4
 ratings: 5162
 reviews: 51
-website: 'https://bit2me.com'
+website: https://bit2me.com
 repository: 
 issue: 
-icon: 'com.phonegap.bit2me.png'
+icon: com.phonegap.bit2me.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2020-05-29'
+date: 2020-05-29
 signer: 
 reviewArchive: 
-twitter: 'bit2me'
+twitter: bit2me
 social:
-- 'https://www.linkedin.com/company/bit2me'
-- 'https://www.facebook.com/bit2me'
+- https://www.linkedin.com/company/bit2me
+- https://www.facebook.com/bit2me
 redirect_from:
-- '/com.phonegap.bit2me/'
-- '/posts/com.phonegap.bit2me/'
-developerName: 'Bit2Me'
+- /com.phonegap.bit2me/
+- /posts/com.phonegap.bit2me/
+developerName: Bit2Me
 features: 
 
 ---

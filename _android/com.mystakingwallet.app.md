@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'My Staking Wallet'
+title: My Staking Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.mystakingwallet.app'
+appId: com.mystakingwallet.app
 appCountry: 
-released: '2018-06-29'
-updated: '2021-03-27'
+released: 2018-06-29
+updated: 2021-03-27
 version: '2.2'
 stars: 4.1
 ratings: 109
 reviews: 25
-size: 
-website: 'https://metrixcoin.com/'
+website: https://metrixcoin.com/
 repository: 
 issue: 
-icon: 'com.mystakingwallet.app.png'
+icon: com.mystakingwallet.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nobtc'
+meta: removed
+verdict: nobtc
 appHashes: 
-date: '2023-03-21'
+date: 2023-03-21
 signer: 
 reviewArchive: 
-twitter: 'MetrixCoin'
+twitter: MetrixCoin
 social:
-- 'https://www.reddit.com/r/Linda_Project_Inc'
+- https://www.reddit.com/r/Linda_Project_Inc
 redirect_from: 
 developerName: 
 features: 

@@ -1,33 +1,32 @@
 ---
-wsId: 'OracleCryptoWallet'
-title: 'Oracle - Crypto Wallet'
+wsId: OracleCryptoWallet
+title: Oracle - Crypto Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.oracle.wallet'
-appCountry: 'us'
-released: '2021-01-19'
-updated: '2021-12-28'
-version: '1.4.9'
+appId: com.oracle.wallet
+appCountry: us
+released: 2021-01-19
+updated: 2021-12-28
+version: 1.4.9
 stars: 4.6
 ratings: 38
 reviews: 24
-size: '43M'
-website: 'https://oracle8.org/'
+website: https://oracle8.org/
 repository: 
 issue: 
-icon: 'com.oracle.wallet.png'
+icon: com.oracle.wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nobtc'
+meta: removed
+verdict: nobtc
 appHashes: 
-date: '2022-01-31'
+date: 2022-01-31
 signer: 
 reviewArchive: 
-twitter: 'Oracle_Wallet'
+twitter: Oracle_Wallet
 social:
-- 'https://www.facebook.com/oracle8.org'
+- https://www.facebook.com/oracle8.org
 redirect_from: 
 developerName: 
 features: 

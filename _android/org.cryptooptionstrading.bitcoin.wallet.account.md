@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Bitcoin Wallet Account'
+title: Bitcoin Wallet Account
 altTitle: 
 authors: 
 users: 10
-appId: 'org.cryptooptionstrading.bitcoin.wallet.account'
+appId: org.cryptooptionstrading.bitcoin.wallet.account
 appCountry: 
-released: '2021-07-20'
-updated: '2021-07-20'
+released: 2021-07-20
+updated: 2021-07-20
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: '2.4M'
 website: 
 repository: 
 issue: 
-icon: 'org.cryptooptionstrading.bitcoin.wallet.account.jpg'
+icon: org.cryptooptionstrading.bitcoin.wallet.account.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2021-10-01'
+date: 2021-10-01
 signer: 
 reviewArchive: 
 twitter: 

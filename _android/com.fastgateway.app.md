@@ -4,24 +4,23 @@ title: 'FGS: Buy & Sell Crypto P2P'
 altTitle: 
 authors: 
 users: 10
-appId: 'com.fastgateway.app'
+appId: com.fastgateway.app
 appCountry: 
-released: '2022-04-14'
-updated: '2022-05-10'
-version: '1.0.2.0'
+released: 2022-04-14
+updated: 2022-05-10
+version: 1.0.2.0
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://fast-gateway.com/'
+website: https://fast-gateway.com/
 repository: 
 issue: 
-icon: 'com.fastgateway.app.jpg'
+icon: com.fastgateway.app.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

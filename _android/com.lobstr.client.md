@@ -1,33 +1,33 @@
 ---
-wsId: 'lobstrco'
-title: 'LOBSTR Wallet. Buy Stellar XLM'
+wsId: lobstrco
+title: LOBSTR Wallet. Buy Stellar XLM
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000000
-appId: 'com.lobstr.client'
-appCountry: 'us'
-released: '2015-04-27'
+appId: com.lobstr.client
+appCountry: us
+released: 2015-04-27
 updated: 2025-02-13
-version: '12.5.1'
-stars: 4.6
+version: 12.5.1
+stars: 4.5
 ratings: 11618
-reviews: 2186
-website: 'https://lobstr.co/'
+reviews: 2189
+website: https://lobstr.co/
 repository: 
 issue: 
-icon: 'com.lobstr.client.png'
+icon: com.lobstr.client.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nobtc'
+meta: ok
+verdict: nobtc
 appHashes: 
-date: '2021-08-27'
+date: 2021-08-27
 signer: 
 reviewArchive: 
-twitter: 'Lobstrco'
+twitter: Lobstrco
 social: 
 redirect_from: 
-developerName: 'LOBSTR Stellar Wallet'
+developerName: LOBSTR Stellar Wallet
 features: 
 
 ---

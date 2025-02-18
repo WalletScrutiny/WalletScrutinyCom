@@ -1,35 +1,34 @@
 ---
-wsId: 'DelioLending'
-title: 'Delio - Global Crypto Finance'
+wsId: DelioLending
+title: Delio - Global Crypto Finance
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.delio.deliohybrid'
-appCountry: 'cn'
-released: '2020-02-27'
-updated: '2023-03-16'
-version: '1.4.4'
+appId: com.delio.deliohybrid
+appCountry: cn
+released: 2020-02-27
+updated: 2023-03-16
+version: 1.4.4
 stars: 3
 ratings: 48
 reviews: 62
-size: 
-website: 'https://www.delio.foundation'
+website: https://www.delio.foundation
 repository: 
 issue: 
-icon: 'com.delio.deliohybrid.png'
+icon: com.delio.deliohybrid.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-09-21'
+date: 2024-09-21
 signer: 
 reviewArchive: 
-twitter: 'happydelio'
+twitter: happydelio
 social:
-- 'https://www.facebook.com/delio.io'
+- https://www.facebook.com/delio.io
 redirect_from: 
-developerName: 'Delio Corporation'
+developerName: Delio Corporation
 features: 
 
 ---

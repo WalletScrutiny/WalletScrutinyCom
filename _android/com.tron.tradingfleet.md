@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Tron Trader Expert'
+title: Tron Trader Expert
 altTitle: 
 authors: 
 users: 50
-appId: 'com.tron.tradingfleet'
+appId: com.tron.tradingfleet
 appCountry: 
-released: '2022-08-05'
-updated: '2022-08-05'
+released: 2022-08-05
+updated: 2022-08-05
 version: '1.2'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.tron.tradingfleet.jpg'
+icon: com.tron.tradingfleet.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-09-01'
+date: 2024-09-01
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Developer Sonia'
+developerName: Developer Sonia
 features: 
 
 ---

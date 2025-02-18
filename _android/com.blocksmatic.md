@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Blocksmatic'
+title: Blocksmatic
 altTitle: 
 authors: 
 users: 500
-appId: 'com.blocksmatic'
+appId: com.blocksmatic
 appCountry: 
-released: '2022-01-18'
-updated: '2022-02-12'
-version: '1.1.5'
+released: 2022-01-18
+updated: 2022-02-12
+version: 1.1.5
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.blocksmatic.png'
+icon: com.blocksmatic.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Blocksmatic'
+developerName: Blocksmatic
 features: 
 
 ---

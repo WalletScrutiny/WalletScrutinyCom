@@ -1,35 +1,35 @@
 ---
-wsId: 'coinme'
+wsId: coinme
 title: 'Coinme: Buy Bitcoin & Dogecoin'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.coinme'
+appId: com.coinme
 appCountry: 
-released: '2021-05-06'
+released: 2021-05-06
 updated: 2025-01-21
-version: '3.0.8'
+version: 3.0.8
 stars: 4
 ratings: 782
-reviews: 974
-website: 'https://www.coinme.com'
+reviews: 975
+website: https://www.coinme.com
 repository: 
 issue: 
-icon: 'com.coinme.png'
+icon: com.coinme.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-10-01'
+date: 2021-10-01
 signer: 
 reviewArchive: 
-twitter: 'Coinme'
+twitter: Coinme
 social:
-- 'https://www.linkedin.com/company/coinme'
-- 'https://www.facebook.com/Coinme'
+- https://www.linkedin.com/company/coinme
+- https://www.facebook.com/Coinme
 redirect_from: 
-developerName: 'Coinme'
+developerName: Coinme
 features: 
 
 ---

@@ -1,35 +1,35 @@
 ---
-wsId: 'cryptnoxCompanion'
+wsId: cryptnoxCompanion
 title: 'Cryptnox: Your Web3 Wallet'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 500
-appId: 'com.cryptnox.cryptnoxwallet'
+appId: com.cryptnox.cryptnoxwallet
 appCountry: 
-released: '2023-09-29'
+released: 2023-09-29
 updated: 2025-02-11
-version: '2.6.6'
+version: 2.6.6
 stars: 
 ratings: 
 reviews: 
-website: 'https://cryptnox.com/'
+website: https://cryptnox.com/
 repository: 
 issue: 
-icon: 'com.cryptnox.cryptnoxwallet.png'
+icon: com.cryptnox.cryptnoxwallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'fewusers'
+meta: ok
+verdict: fewusers
 appHashes: 
-date: '2023-11-15'
+date: 2023-11-15
 signer: 
 reviewArchive: 
-twitter: 'CryptnoxTech'
+twitter: CryptnoxTech
 social:
-- 'https://github.com/Cryptnox-Software'
-- 'https://www.linkedin.com/company/cryptnox/'
+- https://github.com/Cryptnox-Software
+- https://www.linkedin.com/company/cryptnox/
 redirect_from: 
-developerName: 'Cryptnox SA'
+developerName: Cryptnox SA
 features: 
 
 ---

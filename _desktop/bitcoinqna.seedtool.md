@@ -3,10 +3,10 @@ title: BitcoinQnA Seedtool
 appId: bitcoinqna.seedtool
 authors:
 - danny
-released: '2022-04-13'
+released: 2022-04-13
 discontinued: 
-updated: '2023-06-05'
-version: '2.1.0'
+updated: 2023-06-05
+version: 2.1.0
 binaries: 
 provider: Foundation Devices
 providerWebsite: 
@@ -17,7 +17,7 @@ icon:
 bugbounty: 
 meta: stale
 verdict: wip
-date: '2024-05-09'
+date: 2024-05-09
 reviewArchive: 
 twitter: BitcoinQ_A
 social: 

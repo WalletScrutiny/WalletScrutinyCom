@@ -7,12 +7,11 @@ authors:
 appId: org.fxclub.LibertexCL
 appCountry: cl
 idd: 1078997450
-released: '2016-02-10'
-updated: '2019-05-25'
-version: '2.21.0'
+released: 2016-02-10
+updated: 2019-05-25
+version: 2.21.0
 stars: 4.6
 reviews: 429
-size: 30611456
 website: https://libertex.org/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: nosendreceive
 appHashes: 
-date: '2022-02-16'
+date: 2022-02-16
 signer: 
 reviewArchive: 
 twitter: libertex_latam

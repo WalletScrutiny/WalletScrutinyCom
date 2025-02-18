@@ -1,34 +1,34 @@
 ---
-wsId: 'boxTradexExchange'
-title: 'BOXVERSE'
+wsId: boxTradexExchange
+title: BOXVERSE
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.plusblocks.boxtradex'
+appId: com.plusblocks.boxtradex
 appCountry: 
-released: '2021-05-04'
+released: 2021-05-04
 updated: 2024-10-30
-version: '2.0.1'
+version: 2.0.1
 stars: 4.6
 ratings: 
 reviews: 6
-website: 'https://www.boxtradex.io/'
+website: https://www.boxtradex.io/
 repository: 
 issue: 
-icon: 'com.plusblocks.boxtradex.png'
+icon: com.plusblocks.boxtradex.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-04-11'
+date: 2023-04-11
 signer: 
 reviewArchive: 
-twitter: 'box_trad'
+twitter: box_trad
 social:
-- 'https://www.youtube.com/channel/UCxxyhRSwE8EqWCwCwkSVHrA'
+- https://www.youtube.com/channel/UCxxyhRSwE8EqWCwCwkSVHrA
 redirect_from: 
-developerName: 'PlusBlocks Technology Ltd.'
+developerName: PlusBlocks Technology Ltd.
 features: 
 
 ---

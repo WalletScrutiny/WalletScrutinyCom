@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Crypto1 - CryptoOne Best Crypt'
+title: Crypto1 - CryptoOne Best Crypt
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'dtn.crypto1.dtech'
+appId: dtn.crypto1.dtech
 appCountry: 
-released: '2021-03-05'
-updated: '2021-03-05'
-version: '1.0.2'
+released: 2021-03-05
+updated: 2021-03-05
+version: 1.0.2
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://bisnis188.tech'
+website: https://bisnis188.tech
 repository: 
 issue: 
-icon: 'dtn.crypto1.dtech.png'
+icon: dtn.crypto1.dtech.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'nobtc'
+meta: defunct
+verdict: nobtc
 appHashes: 
-date: '2023-06-12'
+date: 2023-06-12
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'DGR'
+developerName: DGR
 features: 
 
 ---

@@ -1,35 +1,35 @@
 ---
-wsId: 'wirex'
+wsId: wirex
 title: 'Wirex: All-In-One Crypto App'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000000
-appId: 'com.wirex'
+appId: com.wirex
 appCountry: 
-released: '2016-03-31'
+released: 2016-03-31
 updated: 2025-02-14
-version: '4.06.00'
+version: 4.06.00
 stars: 3.8
 ratings: 26258
 reviews: 1093
-website: 'https://wirexapp.com'
+website: https://wirexapp.com
 repository: 
 issue: 
-icon: 'com.wirex.png'
+icon: com.wirex.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-08-21'
+date: 2021-08-21
 signer: 
 reviewArchive: 
-twitter: 'wirexapp'
+twitter: wirexapp
 social:
-- 'https://www.linkedin.com/company/wirex-limited'
-- 'https://www.facebook.com/wirexapp'
+- https://www.linkedin.com/company/wirex-limited
+- https://www.facebook.com/wirexapp
 redirect_from: 
-developerName: 'Wirex'
+developerName: Wirex
 features: 
 
 ---

@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: 'TechBank'
+title: TechBank
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.techbank'
+appId: com.techbank
 appCountry: 
-released: '2022-03-16'
+released: 2022-03-16
 updated: 2024-07-10
-version: '1.8.0'
+version: 1.8.0
 stars: 3.6
 ratings: 
 reviews: 3
-website: 'https://techbank.finance/'
+website: https://techbank.finance/
 repository: 
 issue: 
-icon: 'com.techbank.png'
+icon: com.techbank.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nobtc'
+meta: ok
+verdict: nobtc
 appHashes: 
-date: '2023-12-16'
+date: 2023-12-16
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'BEE INTERNATIONAL CONSULTANCY PVT LTD'
+developerName: BEE INTERNATIONAL CONSULTANCY PVT LTD
 features: 
 
 ---

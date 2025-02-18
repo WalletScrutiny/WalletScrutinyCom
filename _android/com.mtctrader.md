@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'MTCtrader'
+title: MTCtrader
 altTitle: 
 authors: 
 users: 50
-appId: 'com.mtctrader'
+appId: com.mtctrader
 appCountry: 
-released: '2022-02-07'
-updated: '2022-02-07'
+released: 2022-02-07
+updated: 2022-02-07
 version: '1.1'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://mtctraders.com'
+website: https://mtctraders.com
 repository: 
 issue: 
-icon: 'com.mtctrader.png'
+icon: com.mtctrader.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'TechXSpace'
+developerName: TechXSpace
 features: 
 
 ---

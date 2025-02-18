@@ -1,34 +1,34 @@
 ---
-wsId: 'uollarCrypto'
+wsId: uollarCrypto
 title: 'Uollar: Earn Bitcoin & Crypto'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.block.application'
+appId: com.block.application
 appCountry: 
-released: '2022-02-07'
+released: 2022-02-07
 updated: 2023-01-13
-version: '2.4.40'
+version: 2.4.40
 stars: 3.5
 ratings: 
 reviews: 5
 website: 
 repository: 
 issue: 
-icon: 'com.block.application.png'
+icon: com.block.application.png
 bugbounty: 
-meta: 'obsolete'
-verdict: 'custodial'
+meta: obsolete
+verdict: custodial
 appHashes: 
-date: '2025-01-06'
+date: 2025-01-06
 signer: 
 reviewArchive: 
-twitter: 'uollar_io'
+twitter: uollar_io
 social:
-- 'https://www.instagram.com/uollar_io'
+- https://www.instagram.com/uollar_io
 redirect_from: 
-developerName: 'UOLLAR PTY LTD'
+developerName: UOLLAR PTY LTD
 features: 
 
 ---

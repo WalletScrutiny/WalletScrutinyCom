@@ -1,39 +1,38 @@
 ---
 wsId: 
-title: 'Bitcoin Cold Wallet'
-altTitle: '(Fake) Bitcoin Cold Wallet'
+title: Bitcoin Cold Wallet
+altTitle: (Fake) Bitcoin Cold Wallet
 authors:
-- 'leo'
+- leo
 users: 10000
-appId: 'com.blockchain.bitcoin.wallet'
+appId: com.blockchain.bitcoin.wallet
 appCountry: 
-released: '2021-01-19'
-updated: '2023-08-26'
-version: '2.0.2'
+released: 2021-01-19
+updated: 2023-08-26
+version: 2.0.2
 stars: 4.5
 ratings: 729
 reviews: 65
-size: 
-website: 'https://coinhub8899.web.app'
+website: https://coinhub8899.web.app
 repository: 
 issue: 
-icon: 'com.blockchain.bitcoin.wallet.png'
+icon: com.blockchain.bitcoin.wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fake'
+meta: removed
+verdict: fake
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive:
-- date: '2021-06-04'
-  version: '1.0.3.7'
+- date: 2021-06-04
+  version: 1.0.3.7
   appHashes: []
-  gitRevision: 'b994137e4f91927a8680b389b81bb5945d1ddf71'
-  verdict: 'obfuscated'
+  gitRevision: b994137e4f91927a8680b389b81bb5945d1ddf71
+  verdict: obfuscated
 twitter: 
 social: 
 redirect_from: 
-developerName: 'InvoVN Solutions'
+developerName: InvoVN Solutions
 features: 
 
 ---

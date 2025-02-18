@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: '스마일빗 Smile-Bit Buy&Sell Crypto'
+title: 스마일빗 Smile-Bit Buy&Sell Crypto
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.hustay.swing.db5b38e0a87a94b99bbbc57b40b315e89'
+appId: com.hustay.swing.db5b38e0a87a94b99bbbc57b40b315e89
 appCountry: 
-released: '2022-04-13'
+released: 2022-04-13
 updated: 2022-08-07
 version: '1.2'
 stars: 4.2
 ratings: 
 reviews: 
-website: 'https://smile-bit.com'
+website: https://smile-bit.com
 repository: 
 issue: 
-icon: 'com.hustay.swing.db5b38e0a87a94b99bbbc57b40b315e89.png'
+icon: com.hustay.swing.db5b38e0a87a94b99bbbc57b40b315e89.png
 bugbounty: 
-meta: 'obsolete'
-verdict: 'custodial'
+meta: obsolete
+verdict: custodial
 appHashes: 
-date: '2024-07-30'
+date: 2024-07-30
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'SMI-HK.LLC'
+developerName: SMI-HK.LLC
 features: 
 
 ---

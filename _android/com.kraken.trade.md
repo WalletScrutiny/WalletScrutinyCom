@@ -1,39 +1,39 @@
 ---
-wsId: 'krakent'
+wsId: krakent
 title: 'Kraken Pro: Invest in Crypto'
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 1000000
-appId: 'com.kraken.trade'
+appId: com.kraken.trade
 appCountry: 
-released: '2019-10-24'
-updated: 2025-02-07
-version: '4.52.0'
+released: 2019-10-24
+updated: 2025-02-14
+version: 4.52.0
 stars: 4.6
 ratings: 25287
-reviews: 3869
-website: 'https://www.kraken.com'
+reviews: 3879
+website: https://www.kraken.com
 repository: 
 issue: 
-icon: 'com.kraken.trade.png'
+icon: com.kraken.trade.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2020-05-29'
+date: 2020-05-29
 signer: 
 reviewArchive: 
-twitter: 'krakenfx'
+twitter: krakenfx
 social:
-- 'https://www.linkedin.com/company/krakenfx'
-- 'https://www.facebook.com/KrakenFX'
+- https://www.linkedin.com/company/krakenfx
+- https://www.facebook.com/KrakenFX
 redirect_from:
-- '/com.kraken.trade/'
-- '/posts/com.kraken.trade/'
-developerName: 'Payward, Inc.'
+- /com.kraken.trade/
+- /posts/com.kraken.trade/
+developerName: Payward, Inc.
 features:
-- 'ln'
+- ln
 
 ---
 

@@ -7,12 +7,11 @@ authors:
 appId: io.stormx.ios
 appCountry: us
 idd: 1420545397
-released: '2018-12-12'
-updated: '2023-09-28'
-version: '4.18.7'
+released: 2018-12-12
+updated: 2023-09-28
+version: 4.18.7
 stars: 4.6
 reviews: 1261
-size: '59563008'
 website: https://stormx.io/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: stale
 verdict: nowallet
 appHashes: 
-date: '2024-09-22'
+date: 2024-09-22
 signer: 
 reviewArchive: 
 twitter: stormxio

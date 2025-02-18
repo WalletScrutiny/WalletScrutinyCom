@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'BITTIDE'
+title: BITTIDE
 altTitle: 
 authors: 
 users: 10
-appId: 'com.bittide'
+appId: com.bittide
 appCountry: 
-released: '2020-02-08'
-updated: '2020-05-07'
+released: 2020-02-08
+updated: 2020-05-07
 version: '1.4'
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.digitide.us/bittide/'
+website: https://www.digitide.us/bittide/
 repository: 
 issue: 
-icon: 'com.bittide.png'
+icon: com.bittide.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-05-07'
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'DIGITIDE, LLC'
+developerName: DIGITIDE, LLC
 features: 
 
 ---

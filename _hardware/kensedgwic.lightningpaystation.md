@@ -3,10 +3,10 @@ title: Ken Sedgwic Lightning Pay Station Point of Sale
 appId: kensedgwic.lightningpaystation
 authors:
 - danny
-released: '2019-06-29'
+released: 2019-06-29
 discontinued: 
-updated: '2019-08-05'
-version: 'case19'
+updated: 2019-08-05
+version: case19
 binaries: https://github.com/ksedgwic/lightning-pos/releases/tag/case19
 dimensions: 
 weight: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: obsolete
 verdict: nowallet
 appHashes: 
-date: '2022-05-21'
+date: 2022-05-21
 signer: 
 reviewArchive: 
 twitter: ksedgwic

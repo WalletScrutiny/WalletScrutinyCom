@@ -1,39 +1,40 @@
 ---
-wsId: 'dzengi'
+wsId: dzengi
 title: 'Dzengi.com: Buy BTC & Crypto'
 altTitle: 
 authors:
-- 'leo'
-- 'danny'
+- leo
+- danny
 users: 1000000
-appId: 'com.currency.exchange.prod2'
+appId: com.currency.exchange.prod2
 appCountry: 
-released: '2019-04-15'
+released: 2019-04-15
 updated: 2024-12-10
-version: '1.42.11'
+version: 1.42.11
 stars: 2.6
 ratings: 
 reviews: 1
-website: 'http://dzengi.com'
+website: http://dzengi.com
 repository: 
 issue: 
-icon: 'com.currency.exchange.prod2.jpg'
+icon: com.currency.exchange.prod2.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2024-01-23'
+date: 2024-01-23
 signer: 
 reviewArchive: 
-twitter: 'dzengicom'
+twitter: dzengicom
 social:
-- 'https://www.facebook.com/people/%D0%9A%D1%80%D0%B8%D0%BF%D1%82%D0%BE%D0%B1%D0%B8%D1%80%D0%B6%D0%B0-Dzengicom/100076159896281/'
-- 'https://www.youtube.com/channel/UCgUgUM_0y3n_fTCjm6q7vDA'
-- 'https://www.instagram.com/dzengicom/'
+- >-
+  https://www.facebook.com/people/%D0%9A%D1%80%D0%B8%D0%BF%D1%82%D0%BE%D0%B1%D0%B8%D1%80%D0%B6%D0%B0-Dzengicom/100076159896281/
+- https://www.youtube.com/channel/UCgUgUM_0y3n_fTCjm6q7vDA
+- https://www.instagram.com/dzengicom/
 redirect_from:
-- '/com.currency.exchange.prod2/'
-- '/posts/com.currency.exchange.prod2/'
-developerName: 'DI INVESTMENTS LLC'
+- /com.currency.exchange.prod2/
+- /posts/com.currency.exchange.prod2/
+developerName: DI INVESTMENTS LLC
 features: 
 
 ---

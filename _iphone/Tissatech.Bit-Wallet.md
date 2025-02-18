@@ -1,34 +1,33 @@
 ---
-wsId: 'BitWallet'
-title: 'BitWallet - Buy & Sell Bitcoin'
+wsId: BitWallet
+title: BitWallet - Buy & Sell Bitcoin
 altTitle: 
 authors:
-- 'leo'
-appId: 'Tissatech.Bit-Wallet'
+- leo
+appId: Tissatech.Bit-Wallet
 appCountry: 
 idd: '1331439005'
-released: '2019-02-09'
+released: 2019-02-09
 updated: 2024-11-30
-version: '4.5.0'
-stars: 4.67361
-reviews: 576
-size: '2878464'
-website: ''
+version: 4.5.0
+stars: 4.7
+reviews: 582
+website: 
 repository: 
 issue: 
-icon: 'Tissatech.Bit-Wallet.jpg'
+icon: Tissatech.Bit-Wallet.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2024-08-15'
+date: 2024-08-15
 signer: 
 reviewArchive: 
-twitter: 'bitwalletinc'
+twitter: bitwalletinc
 social:
-- 'https://www.facebook.com/BitWalletInc'
+- https://www.facebook.com/BitWalletInc
 features: 
-developerName: 'BitWallet, Inc.'
+developerName: BitWallet, Inc.
 
 ---
 

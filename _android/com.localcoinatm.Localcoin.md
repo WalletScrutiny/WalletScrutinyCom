@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'Localcoin - Bitcoin ATM Locato'
+title: Localcoin - Bitcoin ATM Locato
 altTitle: 
 authors: 
 users: 1000
-appId: 'com.localcoinatm.Localcoin'
+appId: com.localcoinatm.Localcoin
 appCountry: 
-released: '2019-05-30'
-updated: '2020-10-26'
+released: 2019-05-30
+updated: 2020-10-26
 version: '2.0'
 stars: 2.9
 ratings: 
 reviews: 5
-size: 
-website: 'https://www.localcoinatm.com'
+website: https://www.localcoinatm.com
 repository: 
 issue: 
-icon: 'com.localcoinatm.Localcoin.png'
+icon: com.localcoinatm.Localcoin.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2024-05-18'
+date: 2024-05-18
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Localcoin'
+developerName: Localcoin
 features: 
 
 ---

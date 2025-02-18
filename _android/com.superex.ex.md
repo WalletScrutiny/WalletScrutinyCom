@@ -3,33 +3,33 @@ wsId:
 title: 'SuperEx: Trade Crypto & BTC'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000000
-appId: 'com.superex.ex'
+appId: com.superex.ex
 appCountry: 
-released: '2022-03-23'
-updated: 2025-01-25
-version: '2.9.33'
+released: 2022-03-23
+updated: 2025-02-14
+version: 2.9.34
 stars: 3.9
 ratings: 
 reviews: 250
-website: 'https://www.superex.com'
+website: https://www.superex.com
 repository: 
 issue: 
-icon: 'com.superex.ex.png'
+icon: com.superex.ex.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-01-31'
+date: 2023-01-31
 signer: 
 reviewArchive: 
-twitter: 'SuperExet'
+twitter: SuperExet
 social:
-- 'https://www.facebook.com/superexdex'
-- 'https://www.youtube.com/@superexdex'
+- https://www.facebook.com/superexdex
+- https://www.youtube.com/@superexdex
 redirect_from: 
-developerName: 'SUPEREX'
+developerName: SUPEREX
 features: 
 
 ---

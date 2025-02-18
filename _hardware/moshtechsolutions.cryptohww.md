@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: diy
 appHashes: 
-date: '2022-11-10'
+date: 2022-11-10
 signer: 
 reviewArchive: 
 twitter: 

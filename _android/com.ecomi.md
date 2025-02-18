@@ -1,33 +1,33 @@
 ---
-wsId: 'ECOMIsecurewallet'
-title: 'ECOMI Secure Wallet'
+wsId: ECOMIsecurewallet
+title: ECOMI Secure Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.ecomi'
+appId: com.ecomi
 appCountry: 
-released: '2018-08-15'
+released: 2018-08-15
 updated: 2024-06-20
-version: '3.0.9'
+version: 3.0.9
 stars: 2.9
 ratings: 140
 reviews: 18
-website: 'https://wallet.ecomi.com'
+website: https://wallet.ecomi.com
 repository: 
 issue: 
-icon: 'com.ecomi.png'
+icon: com.ecomi.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2023-09-20'
+date: 2023-09-20
 signer: 
 reviewArchive: 
-twitter: 'ecomi_'
+twitter: ecomi_
 social: 
 redirect_from: 
-developerName: 'Ecomi'
+developerName: Ecomi
 features: 
 
 ---

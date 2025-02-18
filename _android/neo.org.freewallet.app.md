@@ -1,39 +1,38 @@
 ---
 wsId: 
-title: 'NEO Wallet. Send & buy crypto'
+title: NEO Wallet. Send & buy crypto
 altTitle: 
 authors:
-- 'kiwilamb'
-- 'danny'
+- kiwilamb
+- danny
 users: 10000
-appId: 'neo.org.freewallet.app'
+appId: neo.org.freewallet.app
 appCountry: 
-released: '2017-11-29'
-updated: '2021-09-20'
-version: '2.6.8'
+released: 2017-11-29
+updated: 2021-09-20
+version: 2.6.8
 stars: 3.1
 ratings: 281
 reviews: 17
-size: 
-website: 'https://freewallet.org/'
+website: https://freewallet.org/
 repository: 
 issue: 
-icon: 'neo.org.freewallet.app.png'
+icon: neo.org.freewallet.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nobtc'
+meta: removed
+verdict: nobtc
 appHashes: []
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive:
-- date: '2021-05-02'
-  version: '2.5.2'
+- date: 2021-05-02
+  version: 2.5.2
   appHashes: []
-  gitRevision: 'd7cf0c0967057bb9f06fb8ec6cbf1097fe1da885'
-  verdict: 'nobtc'
-twitter: 'freewalletorg'
+  gitRevision: d7cf0c0967057bb9f06fb8ec6cbf1097fe1da885
+  verdict: nobtc
+twitter: freewalletorg
 social:
-- 'https://www.facebook.com/freewallet.org'
+- https://www.facebook.com/freewallet.org
 redirect_from: 
 developerName: 
 features: 

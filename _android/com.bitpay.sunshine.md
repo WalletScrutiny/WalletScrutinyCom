@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Sunshine Wallet Bitcoin'
+title: Sunshine Wallet Bitcoin
 altTitle: 
 authors: 
 users: 10
-appId: 'com.bitpay.sunshine'
+appId: com.bitpay.sunshine
 appCountry: 
-released: '2017-08-12'
-updated: '2017-08-18'
-version: '3.7.3'
+released: 2017-08-12
+updated: 2017-08-18
+version: 3.7.3
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'http://www.sunshine-wallet.com'
+website: http://www.sunshine-wallet.com
 repository: 
 issue: 
-icon: 'com.bitpay.sunshine.png'
+icon: com.bitpay.sunshine.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

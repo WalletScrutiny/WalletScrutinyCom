@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'DoshFX Buy Bitcoin and Crypto'
+title: DoshFX Buy Bitcoin and Crypto
 altTitle: 
 authors: 
 users: 500
-appId: 'app.doshfx.liteapp'
+appId: app.doshfx.liteapp
 appCountry: 
 released: 
-updated: '2024-03-29'
+updated: 2024-03-29
 version: '4.5'
 stars: 4.4
 ratings: 
 reviews: 
-size: 
-website: 'https://doshfx.io/'
+website: https://doshfx.io/
 repository: 
 issue: 
-icon: 'app.doshfx.liteapp.png'
+icon: app.doshfx.liteapp.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-10-31'
+date: 2024-10-31
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'DoshFx'
+developerName: DoshFx
 features: 
 
 ---

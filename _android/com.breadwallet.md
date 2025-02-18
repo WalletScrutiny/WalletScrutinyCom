@@ -1,51 +1,51 @@
 ---
-wsId: 'BRDBitcoin'
-title: 'BRD Bitcoin Wallet Bitcoin BTC'
+wsId: BRDBitcoin
+title: BRD Bitcoin Wallet Bitcoin BTC
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 5000000
-appId: 'com.breadwallet'
+appId: com.breadwallet
 appCountry: 
-released: '2016-07-21'
+released: 2016-07-21
 updated: 2022-03-18
-version: '4.18.0'
+version: 4.18.0
 stars: 3.4
 ratings: 33632
 reviews: 1438
-website: 'https://brd.com'
-repository: 'https://github.com/breadwallet/brd-mobile'
-issue: 'https://github.com/breadwallet/brd-mobile/issues/13'
-icon: 'com.breadwallet.jpg'
+website: https://brd.com
+repository: https://github.com/breadwallet/brd-mobile
+issue: https://github.com/breadwallet/brd-mobile/issues/13
+icon: com.breadwallet.jpg
 bugbounty: 
-meta: 'obsolete'
-verdict: 'nosource'
+meta: obsolete
+verdict: nosource
 appHashes: []
-date: '2024-03-12'
+date: 2024-03-12
 signer: 
 reviewArchive:
-- date: '2022-04-07'
-  version: '4.10.0'
+- date: 2022-04-07
+  version: 4.10.0
   appHashes: []
-  gitRevision: '7ef2f58d84c1778fe019c9d0b085187b6ac7228e'
-  verdict: 'nonverifiable'
-- date: '2021-06-27'
-  version: '4.10.0'
+  gitRevision: 7ef2f58d84c1778fe019c9d0b085187b6ac7228e
+  verdict: nonverifiable
+- date: 2021-06-27
+  version: 4.10.0
   appHashes: []
-  gitRevision: '5f9d3e8bf00be2ad8968b129c27258ea45ce2680'
-  verdict: 'nosource'
-- date: '2019-12-16'
-  version: '4.9.1.1'
+  gitRevision: 5f9d3e8bf00be2ad8968b129c27258ea45ce2680
+  verdict: nosource
+- date: 2019-12-16
+  version: 4.9.1.1
   appHashes: []
-  gitRevision: 'a928ed573992e73ddec01d811a7fe81a3d5f62c2'
-  verdict: 'nonverifiable'
-twitter: 'BRDHQ'
+  gitRevision: a928ed573992e73ddec01d811a7fe81a3d5f62c2
+  verdict: nonverifiable
+twitter: BRDHQ
 social:
-- 'https://www.linkedin.com/company/brdhq'
-- 'https://www.facebook.com/brdhq'
-- 'https://www.reddit.com/r/brdapp'
+- https://www.linkedin.com/company/brdhq
+- https://www.facebook.com/brdhq
+- https://www.reddit.com/r/brdapp
 redirect_from: 
-developerName: 'breadwallet'
+developerName: breadwallet
 features: 
 
 ---

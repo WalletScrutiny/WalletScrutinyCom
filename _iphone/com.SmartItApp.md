@@ -1,33 +1,32 @@
 ---
-wsId: 'SmartIT'
-title: 'Smart IT | Bitcoin Hosting'
+wsId: SmartIT
+title: Smart IT | Bitcoin Hosting
 altTitle: 
 authors:
-- 'danny'
-appId: 'com.SmartItApp'
-appCountry: 'us'
+- danny
+appId: com.SmartItApp
+appCountry: us
 idd: '1526092476'
-released: '2020-10-28'
+released: 2020-10-28
 updated: 2024-06-19
-version: '1.0.9'
+version: 1.0.9
 stars: 0
 reviews: 0
-size: '21298176'
-website: 'https://smartit.shop/'
+website: https://smartit.shop/
 repository: 
 issue: 
-icon: 'com.SmartItApp.jpg'
+icon: com.SmartItApp.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2024-03-12'
+date: 2024-03-12
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 features: 
-developerName: 'SmartItApp'
+developerName: SmartItApp
 
 ---
 

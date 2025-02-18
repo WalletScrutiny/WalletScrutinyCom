@@ -1,35 +1,34 @@
 ---
-wsId: 'flits'
+wsId: flits
 title: 'Flits: Passive income wallet'
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 10000
-appId: 'app.flitsnode.flits'
+appId: app.flitsnode.flits
 appCountry: 
-released: '2019-04-05'
-updated: '2021-02-09'
+released: 2019-04-05
+updated: 2021-02-09
 version: '4.4'
 stars: 4.4
 ratings: 2089
 reviews: 71
-size: 
-website: 'https://flitswallet.app/'
+website: https://flitswallet.app/
 repository: 
 issue: 
-icon: 'app.flitsnode.flits.png'
+icon: app.flitsnode.flits.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2025-02-13'
+date: 2025-02-13
 signer: 
 reviewArchive: 
-twitter: 'FlitsNode'
+twitter: FlitsNode
 social:
-- 'https://www.facebook.com/flitsnode'
+- https://www.facebook.com/flitsnode
 redirect_from: 
-developerName: 'Decenomy'
+developerName: Decenomy
 features: 
 
 ---

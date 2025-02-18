@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Invest Crypto'
+title: Invest Crypto
 altTitle: 
 authors: 
 users: 0
-appId: 'net.fxbitcoinsoft.invest.crypto'
+appId: net.fxbitcoinsoft.invest.crypto
 appCountry: 
-released: '2021-07-18'
-updated: '2021-07-18'
+released: 2021-07-18
+updated: 2021-07-18
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: '2.3M'
 website: 
 repository: 
 issue: 
-icon: 'net.fxbitcoinsoft.invest.crypto.png'
+icon: net.fxbitcoinsoft.invest.crypto.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2021-10-01'
+date: 2021-10-01
 signer: 
 reviewArchive: 
 twitter: 

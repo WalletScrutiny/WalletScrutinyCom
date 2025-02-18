@@ -1,37 +1,38 @@
 ---
-wsId: 'kyrrexGlobal'
-title: 'Kyrrex Global'
+wsId: kyrrexGlobal
+title: Kyrrex Global
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.kyrrex'
+appId: com.kyrrex
 appCountry: 
+released: 
 updated: 2025-02-07
-version: '4.2.44'
+version: 4.2.44
 stars: 4.3
 ratings: 
 reviews: 
-website: 'https://kyrrex.com'
+website: https://kyrrex.com
 repository: 
 issue: 
-icon: 'com.kyrrex.jpg'
+icon: com.kyrrex.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-07-11'
+date: 2023-07-11
 signer: 
 reviewArchive: 
-twitter: 'Kyrrexcom'
+twitter: Kyrrexcom
 social:
-- 'https://www.linkedin.com/company/kyrrex'
-- 'https://www.facebook.com/kyrrexcom'
-- 'https://www.instagram.com/kyrrexexchange'
-- 'https://www.reddit.com/r/kyrrex'
-- 'https://t.me/kyrrex_official_en'
+- https://www.linkedin.com/company/kyrrex
+- https://www.facebook.com/kyrrexcom
+- https://www.instagram.com/kyrrexexchange
+- https://www.reddit.com/r/kyrrex
+- https://t.me/kyrrex_official_en
 redirect_from: 
-developerName: 'Kyrrex'
+developerName: Kyrrex
 features: 
 
 ---

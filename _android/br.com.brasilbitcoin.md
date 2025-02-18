@@ -1,34 +1,34 @@
 ---
-wsId: 'brasilBitcoin'
-title: 'Brasil Bitcoin'
+wsId: brasilBitcoin
+title: Brasil Bitcoin
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'br.com.brasilbitcoin'
-appCountry: 'br'
-released: '2021-02-17'
+appId: br.com.brasilbitcoin
+appCountry: br
+released: 2021-02-17
 updated: 2025-02-06
-version: '3.7.07'
+version: 3.7.07
 stars: 3.9
 ratings: 2855
-reviews: 5514
-website: 'https://brasilbitcoin.com.br'
+reviews: 5515
+website: https://brasilbitcoin.com.br
 repository: 
 issue: 
-icon: 'br.com.brasilbitcoin.png'
+icon: br.com.brasilbitcoin.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-09-10'
+date: 2021-09-10
 signer: 
 reviewArchive: 
-twitter: 'brbtcoficial'
+twitter: brbtcoficial
 social:
-- 'https://www.facebook.com/brbtcoficial'
+- https://www.facebook.com/brbtcoficial
 redirect_from: 
-developerName: 'Brasil Bitcoin'
+developerName: Brasil Bitcoin
 features: 
 
 ---

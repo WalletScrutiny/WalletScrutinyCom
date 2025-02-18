@@ -1,28 +1,27 @@
 ---
-wsId: 'metaCodeChainbridge'
-title: 'MetaCode Wallet'
+wsId: metaCodeChainbridge
+title: MetaCode Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'io.chainbridge.wallet'
+appId: io.chainbridge.wallet
 appCountry: 
-released: '2019-09-15'
-updated: '2022-09-07'
-version: '1.1.20220907'
+released: 2019-09-15
+updated: 2022-09-07
+version: 1.1.20220907
 stars: 3.9
 ratings: 
 reviews: 30
-size: 
-website: 'https://www.chain-bridge.io'
+website: https://www.chain-bridge.io
 repository: 
 issue: 
-icon: 'io.chainbridge.wallet.png'
+icon: io.chainbridge.wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nobtc'
+meta: removed
+verdict: nobtc
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

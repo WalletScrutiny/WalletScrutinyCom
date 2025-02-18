@@ -1,39 +1,39 @@
 ---
-wsId: 'babbApp'
-title: 'BABB'
+wsId: babbApp
+title: BABB
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.babb.app'
+appId: com.babb.app
 appCountry: 
-released: '2020-02-27'
+released: 2020-02-27
 updated: 2024-12-12
-version: '2.5.8'
+version: 2.5.8
 stars: 3.7
 ratings: 
 reviews: 48
-website: 'https://getbabb.com/'
+website: https://getbabb.com/
 repository: 
 issue: 
-icon: 'com.babb.app.png'
+icon: com.babb.app.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-07-10'
+date: 2023-07-10
 signer: 
 reviewArchive: 
-twitter: 'getbabb'
+twitter: getbabb
 social:
-- 'https://www.linkedin.com/company/babb'
-- 'https://www.facebook.com/getbabb'
-- 'https://www.youtube.com/channel/UCQtkZd7sfzbEugz7VdFhv4Q'
-- 'https://discord.com/invite/39rQp2g6JA'
-- 'https://babb.medium.com'
-- 'https://t.me/getbabb_official'
+- https://www.linkedin.com/company/babb
+- https://www.facebook.com/getbabb
+- https://www.youtube.com/channel/UCQtkZd7sfzbEugz7VdFhv4Q
+- https://discord.com/invite/39rQp2g6JA
+- https://babb.medium.com
+- https://t.me/getbabb_official
 redirect_from: 
-developerName: 'BABB'
+developerName: BABB
 features: 
 
 ---

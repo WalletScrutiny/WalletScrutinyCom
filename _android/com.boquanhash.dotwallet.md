@@ -1,31 +1,30 @@
 ---
-wsId: 'DotWallet'
-title: 'DotWallet - Manage Your Crypto and Dapp Assets'
+wsId: DotWallet
+title: DotWallet - Manage Your Crypto and Dapp Assets
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.boquanhash.dotwallet'
-appCountry: 'us'
-released: '2020-08-26'
-updated: '2022-04-21'
-version: '2.15.2'
+appId: com.boquanhash.dotwallet
+appCountry: us
+released: 2020-08-26
+updated: 2022-04-21
+version: 2.15.2
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.dotwallet.com/'
+website: https://www.dotwallet.com/
 repository: 
 issue: 
-icon: 'com.boquanhash.dotwallet.png'
+icon: com.boquanhash.dotwallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
-twitter: 'wallet_dot'
+twitter: wallet_dot
 social: 
 redirect_from: 
 developerName: 

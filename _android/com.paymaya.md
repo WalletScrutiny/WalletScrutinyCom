@@ -1,38 +1,38 @@
 ---
 wsId: 
-title: 'Maya – savings, loans, cards​'
+title: Maya – savings, loans, cards​
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000000
-appId: 'com.paymaya'
+appId: com.paymaya
 appCountry: 
-released: '2016-06-05'
+released: 2016-06-05
 updated: 2025-01-31
-version: '2.127.0'
+version: 2.127.0
 stars: 4
 ratings: 
-reviews: 1015
-website: 'https://www.paymaya.com/'
+reviews: 1017
+website: https://www.paymaya.com/
 repository: 
 issue: 
-icon: 'com.paymaya.png'
+icon: com.paymaya.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2024-09-02'
+date: 2024-09-02
 signer: 
 reviewArchive: 
-twitter: 'mayaofficialph'
+twitter: mayaofficialph
 social:
-- 'https://www.youtube.com/c/mayaiseverything'
-- 'https://www.tiktok.com/@mayaiseverything'
-- 'https://www.facebook.com/mayaiseverything'
-- 'https://www.linkedin.com/company/mayaph'
-- 'https://www.instagram.com/mayaiseverything'
+- https://www.youtube.com/c/mayaiseverything
+- https://www.tiktok.com/@mayaiseverything
+- https://www.facebook.com/mayaiseverything
+- https://www.linkedin.com/company/mayaph
+- https://www.instagram.com/mayaiseverything
 redirect_from: 
-developerName: 'Maya Philippines, Inc.'
+developerName: Maya Philippines, Inc.
 features: 
 
 ---

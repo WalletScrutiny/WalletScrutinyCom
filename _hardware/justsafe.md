@@ -3,7 +3,7 @@ title: JustSafe
 appId: justsafe
 authors:
 - danny
-released: '2018-08-28'
+released: 2018-08-28
 discontinued: 
 updated: 
 version: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: defunct
 verdict: wip
 appHashes: 
-date: '2023-02-24'
+date: 2023-02-24
 signer: 
 reviewArchive: 
 twitter: Justsafe3

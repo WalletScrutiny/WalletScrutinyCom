@@ -1,35 +1,34 @@
 ---
-wsId: 'Bytesmix'
-title: 'Bytesmix - Coin, Token Wallet'
+wsId: Bytesmix
+title: Bytesmix - Coin, Token Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.bytesmix.app'
-appCountry: 'cn'
-released: '2019-08-11'
-updated: '2023-09-29'
-version: '2.4.7'
+appId: com.bytesmix.app
+appCountry: cn
+released: 2019-08-11
+updated: 2023-09-29
+version: 2.4.7
 stars: 3.7
 ratings: 400
 reviews: 276
-size: 
-website: 'https://www.bytesmix.com'
+website: https://www.bytesmix.com
 repository: 
 issue: 
-icon: 'com.bytesmix.app.png'
+icon: com.bytesmix.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
-twitter: 'bytesmix'
+twitter: bytesmix
 social:
-- 'https://www.facebook.com/bytesmix'
+- https://www.facebook.com/bytesmix
 redirect_from: 
-developerName: 'Bytesmix'
+developerName: Bytesmix
 features: 
 
 ---

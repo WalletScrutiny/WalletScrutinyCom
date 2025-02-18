@@ -1,33 +1,33 @@
 ---
-wsId: 'Moneybrain'
-title: 'Moneybrain Financial SuperApp'
+wsId: Moneybrain
+title: Moneybrain Financial SuperApp
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.moneybrain.moneybrain'
-appCountry: 'gb'
-released: '2019-10-17'
+appId: com.moneybrain.moneybrain
+appCountry: gb
+released: 2019-10-17
 updated: 2024-12-13
-version: '3.4.34'
+version: 3.4.34
 stars: 
 ratings: 
 reviews: 
-website: 'https://www.moneybrain.com'
+website: https://www.moneybrain.com
 repository: 
 issue: 
-icon: 'com.moneybrain.moneybrain.png'
+icon: com.moneybrain.moneybrain.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2021-11-22'
+date: 2021-11-22
 signer: 
 reviewArchive: 
-twitter: 'MoneybrainBiPS'
+twitter: MoneybrainBiPS
 social: 
 redirect_from: 
-developerName: 'Moneybrain LTD'
+developerName: Moneybrain LTD
 features: 
 
 ---

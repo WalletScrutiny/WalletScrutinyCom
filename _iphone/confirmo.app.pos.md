@@ -7,12 +7,11 @@ authors:
 appId: confirmo.app.pos
 appCountry: ca
 idd: '1639106148'
-released: '2022-08-24'
-updated: '2023-08-18'
-version: '1.0.8'
+released: 2022-08-24
+updated: 2023-08-18
+version: 1.0.8
 stars: 0
 reviews: 0
-size: '54953984'
 website: http://www.confirmo.net/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: stale
 verdict: custodial
 appHashes: 
-date: '2024-08-13'
+date: 2024-08-13
 signer: 
 reviewArchive: 
 twitter: CryptoConfirmo

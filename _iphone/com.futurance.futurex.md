@@ -7,12 +7,11 @@ authors:
 appId: com.futurance.futurex
 appCountry: tr
 idd: '1583183728'
-released: '2021-10-27'
-updated: '2025-01-09'
-version: '4.8.3'
+released: 2021-10-27
+updated: 2025-01-09
+version: 4.8.3
 stars: 4.2
 reviews: 132
-size: '199786496'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2023-07-01'
+date: 2023-07-01
 signer: 
 reviewArchive: 
 twitter: Fexobit

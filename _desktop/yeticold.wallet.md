@@ -3,9 +3,9 @@ title: Yeti Cold Wallet
 appId: yeticold.wallet
 authors:
 - danny
-released: '2019-10-04'
+released: 2019-10-04
 discontinued: 
-updated: '2023-01-26'
+updated: 2023-01-26
 version: 
 binaries: 
 provider: JWWeatherman
@@ -17,7 +17,7 @@ icon: yeticold.wallet.png
 bugbounty: 
 meta: ok
 verdict: wip
-date: '2024-04-25'
+date: 2024-04-25
 reviewArchive: 
 twitter: YetiWallet
 social: 

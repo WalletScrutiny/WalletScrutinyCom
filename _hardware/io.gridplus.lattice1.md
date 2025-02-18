@@ -3,10 +3,10 @@ title: GridPlus Lattice1
 appId: io.gridplus.lattice1
 authors:
 - danny
-released: '2020-12-07'
+released: 2020-12-07
 discontinued: 
-updated: '2023-03-21'
-version: '0.17.2'
+updated: 2023-03-21
+version: 0.17.2
 binaries: 
 dimensions: 
 weight: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: '2023-06-22'
+date: 2023-06-22
 signer: 
 reviewArchive: 
 twitter: gridplus

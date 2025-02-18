@@ -3,9 +3,9 @@ title: Asic Vault
 appId: asicvault
 authors:
 - danny
-released: '2017-10-24'
+released: 2017-10-24
 discontinued: 
-updated: '2021-01-30'
+updated: 2021-01-30
 version: 
 binaries: 
 dimensions:
@@ -26,7 +26,7 @@ bugbounty:
 meta: obsolete
 verdict: vapor
 appHashes: 
-date: '2024-05-29'
+date: 2024-05-29
 signer: 
 reviewArchive: 
 twitter: AsicVault

@@ -7,12 +7,11 @@ authors:
 appId: io.swiftcoin
 appCountry: my
 idd: '6443595428'
-released: '2023-04-03'
-updated: '2025-01-22'
-version: '3.1.0'
+released: 2023-04-03
+updated: 2025-01-22
+version: 3.1.0
 stars: 5
 reviews: 8
-size: '67304448'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2023-08-30'
+date: 2023-08-30
 signer: 
 reviewArchive: 
 twitter: SwiftCoin380

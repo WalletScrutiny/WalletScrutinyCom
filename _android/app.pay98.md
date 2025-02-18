@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Pay98'
+title: Pay98
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'app.pay98'
+appId: app.pay98
 appCountry: 
-released: '2018-05-31'
-updated: '2021-07-16'
-version: '2.0.2'
+released: 2018-05-31
+updated: 2021-07-16
+version: 2.0.2
 stars: 4.6
 ratings: 15329
 reviews: 531
-size: 
-website: 'https://pay98.app/'
+website: https://pay98.app/
 repository: 
 issue: 
-icon: 'app.pay98.png'
+icon: app.pay98.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2023-04-16'
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Pooyesh Pardaz'
+developerName: Pooyesh Pardaz
 features: 
 
 ---

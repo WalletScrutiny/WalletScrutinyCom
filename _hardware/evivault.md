@@ -3,7 +3,7 @@ title: EviVault NFC
 appId: evivault
 authors:
 - danny
-released: '2019-05-27'
+released: 2019-05-27
 discontinued: 
 updated: 
 version: 
@@ -26,7 +26,7 @@ bugbounty:
 meta: ok
 verdict: nowallet
 appHashes: 
-date: '2023-02-02'
+date: 2023-02-02
 signer: 
 reviewArchive: 
 twitter: EviVault

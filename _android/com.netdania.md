@@ -1,34 +1,34 @@
 ---
-wsId: 'NetDania'
-title: 'NetDania Stock & Forex Trader'
+wsId: NetDania
+title: NetDania Stock & Forex Trader
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000000
-appId: 'com.netdania'
-appCountry: 'us'
-released: '2011-11-04'
+appId: com.netdania
+appCountry: us
+released: 2011-11-04
 updated: 2025-01-15
-version: '4.6.10'
+version: 4.6.10
 stars: 4.5
 ratings: 24480
 reviews: 1197
-website: 'http://www.netdania.com'
+website: http://www.netdania.com
 repository: 
 issue: 
-icon: 'com.netdania.png'
+icon: com.netdania.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2021-10-10'
+date: 2021-10-10
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://www.facebook.com/NetDania-146001445410373'
+- https://www.facebook.com/NetDania-146001445410373
 redirect_from: 
-developerName: 'NetDania SRL'
+developerName: NetDania SRL
 features: 
 
 ---

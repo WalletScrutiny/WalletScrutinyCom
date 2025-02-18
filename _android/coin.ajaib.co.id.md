@@ -1,33 +1,33 @@
 ---
-wsId: 'ajaibkripto'
-title: 'Ajaib Alpha (Ajaib Kripto)'
+wsId: ajaibkripto
+title: Ajaib Alpha (Ajaib Kripto)
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000000
-appId: 'coin.ajaib.co.id'
+appId: coin.ajaib.co.id
 appCountry: 
-released: '2022-07-15'
+released: 2022-07-15
 updated: 2025-02-10
-version: '2.66.0'
+version: 2.66.0
 stars: 4.4
 ratings: 
-reviews: 24
-website: 'https://kripto.ajaib.co.id/'
+reviews: 25
+website: https://kripto.ajaib.co.id/
 repository: 
 issue: 
-icon: 'coin.ajaib.co.id.png'
+icon: coin.ajaib.co.id.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2024-09-06'
+date: 2024-09-06
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Ajaib Technologies'
+developerName: Ajaib Technologies
 features: 
 
 ---

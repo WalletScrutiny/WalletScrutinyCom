@@ -1,56 +1,56 @@
 ---
-wsId: 'cake'
-title: 'Cake Wallet'
+wsId: cake
+title: Cake Wallet
 altTitle: 
 authors:
-- 'leo'
-- 'keraliss'
+- leo
+- keraliss
 users: 100000
-appId: 'com.cakewallet.cake_wallet'
+appId: com.cakewallet.cake_wallet
 appCountry: 
-released: '2020-01-01'
+released: 2020-01-01
 updated: 2025-02-02
-version: '4.23.0'
+version: 4.23.0
 stars: 4.7
 ratings: 730
-reviews: 480
-website: 'https://cakewallet.com'
-repository: 'https://github.com/cake-tech/cake_wallet'
-issue: 'https://github.com/cake-tech/cake_wallet/issues/337'
-icon: 'com.cakewallet.cake_wallet.jpg'
+reviews: 483
+website: https://cakewallet.com
+repository: https://github.com/cake-tech/cake_wallet
+issue: https://github.com/cake-tech/cake_wallet/issues/337
+icon: com.cakewallet.cake_wallet.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'nonverifiable'
+meta: ok
+verdict: nonverifiable
 appHashes: []
-date: '2025-01-14'
+date: 2025-01-14
 signer: 
 reviewArchive:
-- date: '2024-12-25'
-  version: '4.21.0'
+- date: 2024-12-25
+  version: 4.21.0
   appHashes: []
-  gitRevision: 'c5fd94bf4c89189529bbb9a0265239acf4f53f35'
-  verdict: 'nonverifiable'
-- date: '2024-07-26'
-  version: '4.19.1'
+  gitRevision: c5fd94bf4c89189529bbb9a0265239acf4f53f35
+  verdict: nonverifiable
+- date: 2024-07-26
+  version: 4.19.1
   appHashes: []
-  gitRevision: '71ff3b4fadbd0c5156f39ee8296ddaa8047fb6fe'
-  verdict: 'ftbfs'
-- date: '2022-11-02'
-  version: '4.4.0'
+  gitRevision: 71ff3b4fadbd0c5156f39ee8296ddaa8047fb6fe
+  verdict: ftbfs
+- date: 2022-11-02
+  version: 4.4.0
   appHashes: []
-  gitRevision: '58eb9afc078bac8a5a23d3af42a18f3ad543887c'
-  verdict: 'nonverifiable'
-- date: '2021-04-14'
-  version: '4.1.4'
+  gitRevision: 58eb9afc078bac8a5a23d3af42a18f3ad543887c
+  verdict: nonverifiable
+- date: 2021-04-14
+  version: 4.1.4
   appHashes: []
-  gitRevision: '3f57101209712caf0bf7dae6466ce81d29359fca'
-  verdict: 'nonverifiable'
-twitter: 'cakewallet'
+  gitRevision: 3f57101209712caf0bf7dae6466ce81d29359fca
+  verdict: nonverifiable
+twitter: cakewallet
 social:
-- 'https://www.facebook.com/cakewallet'
-- 'https://www.reddit.com/r/cakewallet'
+- https://www.facebook.com/cakewallet
+- https://www.reddit.com/r/cakewallet
 redirect_from: 
-developerName: 'Cake Labs'
+developerName: Cake Labs
 features: 
 
 ---

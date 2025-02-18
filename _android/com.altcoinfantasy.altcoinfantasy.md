@@ -1,36 +1,35 @@
 ---
-wsId: 'AltcoinFantasy'
-title: 'Crypto & Bitcoin & DeFi Tradin'
+wsId: AltcoinFantasy
+title: Crypto & Bitcoin & DeFi Tradin
 altTitle: 
 authors:
-- 'kiwilamb'
-- 'danny'
+- kiwilamb
+- danny
 users: 100000
-appId: 'com.altcoinfantasy.altcoinfantasy'
-appCountry: 'us'
-released: '2018-01-05'
-updated: '2021-01-07'
-version: '3.3.6-google'
+appId: com.altcoinfantasy.altcoinfantasy
+appCountry: us
+released: 2018-01-05
+updated: 2021-01-07
+version: 3.3.6-google
 stars: 4.1
 ratings: 2310
 reviews: 241
-size: 
-website: 'https://altcoinfantasy.com'
+website: https://altcoinfantasy.com
 repository: 
 issue: 
-icon: 'com.altcoinfantasy.altcoinfantasy.png'
+icon: com.altcoinfantasy.altcoinfantasy.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2023-11-02'
+date: 2023-11-02
 signer: 
 reviewArchive: 
-twitter: 'altcoinfantasy'
+twitter: altcoinfantasy
 social:
-- 'https://www.facebook.com/altcoinfantasy'
+- https://www.facebook.com/altcoinfantasy
 redirect_from: 
-developerName: 'Altcoin Fantasy Limited'
+developerName: Altcoin Fantasy Limited
 features: 
 
 ---

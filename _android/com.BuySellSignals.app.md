@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Buy Sell Signals App'
+title: Buy Sell Signals App
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.BuySellSignals.app'
+appId: com.BuySellSignals.app
 appCountry: 
-released: '2019-06-02'
-updated: '2019-07-01'
-version: '1.0.9'
+released: 2019-06-02
+updated: 2019-07-01
+version: 1.0.9
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://buysellsignals.app/landing/'
+website: https://buysellsignals.app/landing/
 repository: 
 issue: 
-icon: 'com.BuySellSignals.app.png'
+icon: com.BuySellSignals.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2024-07-05'
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Buy Sell Signals App'
+developerName: Buy Sell Signals App
 features: 
 
 ---

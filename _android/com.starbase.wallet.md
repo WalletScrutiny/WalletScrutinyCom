@@ -3,36 +3,35 @@ wsId:
 title: 'StarBase Crypto Wallet - Buy, '
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.starbase.wallet'
+appId: com.starbase.wallet
 appCountry: 
-released: '2021-09-09'
-updated: '2021-10-20'
-version: '0.22.1'
+released: 2021-09-09
+updated: 2021-10-20
+version: 0.22.1
 stars: 3.6
 ratings: 
 reviews: 9
-size: 
-website: 'https://deploystarship.com'
-repository: 'https://github.com/deploystarship/StarBase_android'
-issue: 'https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/477'
-icon: 'com.starbase.wallet.jpg'
+website: https://deploystarship.com
+repository: https://github.com/deploystarship/StarBase_android
+issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/477
+icon: com.starbase.wallet.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2024-07-05'
+date: 2024-07-05
 signer: 
 reviewArchive: 
-twitter: 'deploystarship'
+twitter: deploystarship
 social:
-- 'https://www.youtube.com/c/DeployStarShipNFT'
-- 'https://www.instagram.com/deploystarship'
-- 'https://www.facebook.com/DeployStarship'
-- 'https://discord.com/invite/deploystarship'
+- https://www.youtube.com/c/DeployStarShipNFT
+- https://www.instagram.com/deploystarship
+- https://www.facebook.com/DeployStarship
+- https://discord.com/invite/deploystarship
 redirect_from: 
-developerName: 'Starship Holdings, Inc'
+developerName: Starship Holdings, Inc
 features: 
 
 ---

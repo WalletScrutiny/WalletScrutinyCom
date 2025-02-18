@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'OM Exchange'
+title: OM Exchange
 altTitle: 
 authors: 
 users: 10
-appId: 'exchange.om'
+appId: exchange.om
 appCountry: 
-released: '2022-10-23'
-updated: '2022-10-23'
-version: '1.0.1'
+released: 2022-10-23
+updated: 2022-10-23
+version: 1.0.1
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://om.exchange/'
+website: https://om.exchange/
 repository: 
 issue: 
-icon: 'exchange.om.png'
+icon: exchange.om.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'VEGER LABS LLP'
+developerName: VEGER LABS LLP
 features: 
 
 ---

@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'BitCoke'
+title: BitCoke
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.bitcoke.activity'
+appId: com.bitcoke.activity
 appCountry: 
-released: '2022-02-13'
-updated: '2022-10-07'
-version: '7.0.0.3'
+released: 2022-02-13
+updated: 2022-10-07
+version: 7.0.0.3
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.bitcoke.com'
+website: https://www.bitcoke.com
 repository: 
 issue: 
-icon: 'com.bitcoke.activity.png'
+icon: com.bitcoke.activity.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-03-09'
+date: 2023-03-09
 signer: 
 reviewArchive: 
-twitter: 'BitCokedotcom'
+twitter: BitCokedotcom
 social: 
 redirect_from: 
-developerName: 'Bitcoke'
+developerName: Bitcoke
 features: 
 
 ---

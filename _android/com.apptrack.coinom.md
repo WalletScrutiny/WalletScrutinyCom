@@ -3,27 +3,26 @@ wsId:
 title: 'Coinom Wallet : Bitcoin Ethereum Altcoins Tokens'
 altTitle: '(Fake) Coinom Wallet : Bitcoin Ethereum Altcoins Tokens'
 authors:
-- 'emanuel'
-- 'leo'
+- emanuel
+- leo
 users: 10
-appId: 'com.apptrack.coinom'
+appId: com.apptrack.coinom
 appCountry: 
-released: '2021-05-25'
-updated: '2021-05-25'
-version: '1.0.12'
+released: 2021-05-25
+updated: 2021-05-25
+version: 1.0.12
 stars: 
 ratings: 
 reviews: 
-size: '41M'
 website: 
 repository: 
 issue: 
-icon: 'com.apptrack.coinom.png'
+icon: com.apptrack.coinom.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fake'
+meta: removed
+verdict: fake
 appHashes: 
-date: '2021-07-30'
+date: 2021-07-30
 signer: 
 reviewArchive: 
 twitter: 

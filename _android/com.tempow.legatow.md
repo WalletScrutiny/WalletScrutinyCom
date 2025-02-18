@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Legatow'
+title: Legatow
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.tempow.legatow'
+appId: com.tempow.legatow
 appCountry: 
-released: '2018-07-04'
-updated: '2019-01-30'
-version: '1.0.3'
+released: 2018-07-04
+updated: 2019-01-30
+version: 1.0.3
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.legatow.com'
+website: https://www.legatow.com
 repository: 
 issue: 
-icon: 'com.tempow.legatow.png'
+icon: com.tempow.legatow.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'wip'
+meta: defunct
+verdict: wip
 appHashes: 
-date: '2023-06-03'
+date: 2023-06-03
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Tempow Project'
+developerName: Tempow Project
 features: 
 
 ---

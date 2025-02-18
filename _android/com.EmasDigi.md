@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: 'Pluang-Trading US Stock Crypto'
+title: Pluang-Trading US Stock Crypto
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000000
-appId: 'com.EmasDigi'
+appId: com.EmasDigi
 appCountry: 
-released: '2018-01-21'
+released: 2018-01-21
 updated: 2025-02-10
-version: '6.0.9'
+version: 6.0.9
 stars: 4.3
 ratings: 27168
 reviews: 114
-website: 'https://pluang.com'
+website: https://pluang.com
 repository: 
 issue: 
-icon: 'com.EmasDigi.png'
+icon: com.EmasDigi.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosendreceive'
+meta: ok
+verdict: nosendreceive
 appHashes: 
-date: '2021-08-21'
+date: 2021-08-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'pluang'
+developerName: pluang
 features: 
 
 ---

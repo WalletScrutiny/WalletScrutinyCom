@@ -1,35 +1,34 @@
 ---
-wsId: 'vite'
+wsId: vite
 title: 'Vite: Zero Gas Layer-1'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'net.vite.wallet'
+appId: net.vite.wallet
 appCountry: 
-released: '2019-01-02'
-updated: '2024-05-13'
-version: 'v5.0.1'
+released: 2019-01-02
+updated: 2024-05-13
+version: v5.0.1
 stars: 3.7
 ratings: 
 reviews: 78
-size: 
-website: 'https://vite.org/'
+website: https://vite.org/
 repository: 
 issue: 
-icon: 'net.vite.wallet.png'
+icon: net.vite.wallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nobtc'
+meta: ok
+verdict: nobtc
 appHashes: 
-date: '2024-05-08'
+date: 2024-05-08
 signer: 
 reviewArchive: 
-twitter: 'vitelabs'
+twitter: vitelabs
 social:
-- 'https://www.youtube.com/channel/UC8qft2rEzBnP9yJOGdsJBVg'
+- https://www.youtube.com/channel/UC8qft2rEzBnP9yJOGdsJBVg
 redirect_from: 
-developerName: 'Vite Labs'
+developerName: Vite Labs
 features: 
 
 ---

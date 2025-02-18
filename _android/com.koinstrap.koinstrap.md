@@ -1,35 +1,34 @@
 ---
-wsId: 'Koinstrap'
+wsId: Koinstrap
 title: 'Koinstrap: Buy & Sell BTC, ETH'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.koinstrap.koinstrap'
-appCountry: 'us'
-released: '2020-08-28'
-updated: '2023-11-27'
-version: '3.3.7'
+appId: com.koinstrap.koinstrap
+appCountry: us
+released: 2020-08-28
+updated: 2023-11-27
+version: 3.3.7
 stars: 3.9
 ratings: 
 reviews: 
-size: 
-website: 'https://koinstrap.com'
+website: https://koinstrap.com
 repository: 
 issue: 
-icon: 'com.koinstrap.koinstrap.png'
+icon: com.koinstrap.koinstrap.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-11-22'
+date: 2024-11-22
 signer: 
 reviewArchive: 
-twitter: 'koinstrap'
+twitter: koinstrap
 social:
-- 'https://www.facebook.com/koinstrap'
+- https://www.facebook.com/koinstrap
 redirect_from: 
-developerName: 'Koinstrap, Inc'
+developerName: Koinstrap, Inc
 features: 
 
 ---

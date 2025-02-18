@@ -1,35 +1,35 @@
 ---
-wsId: 'Bitstamp'
+wsId: Bitstamp
 title: 'Bitstamp: Buy and Sell Crypto'
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 500000
-appId: 'net.bitstamp.app'
+appId: net.bitstamp.app
 appCountry: 
-released: '2019-01-29'
+released: 2019-01-29
 updated: 2024-12-20
-version: '4.4.2'
+version: 4.4.2
 stars: 4.6
 ratings: 11088
 reviews: 638
-website: 'https://www.bitstamp.net'
+website: https://www.bitstamp.net
 repository: 
 issue: 
-icon: 'net.bitstamp.app.png'
+icon: net.bitstamp.app.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2020-05-29'
+date: 2020-05-29
 signer: 
 reviewArchive: 
-twitter: 'Bitstamp'
+twitter: Bitstamp
 social:
-- 'https://www.linkedin.com/company/bitstamp'
-- 'https://www.facebook.com/Bitstamp'
+- https://www.linkedin.com/company/bitstamp
+- https://www.facebook.com/Bitstamp
 redirect_from: 
-developerName: 'Bitstamp'
+developerName: Bitstamp
 features: 
 
 ---

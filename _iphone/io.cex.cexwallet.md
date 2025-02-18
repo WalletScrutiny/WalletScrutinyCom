@@ -7,12 +7,11 @@ authors:
 appId: io.cex.cexwallet
 appCountry: ua
 idd: '1575920503'
-released: '2021-10-27'
-updated: '2024-03-18'
-version: '3.0.0'
+released: 2021-10-27
+updated: 2024-03-18
+version: 3.0.0
 stars: 5
 reviews: 28
-size: '193611776'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: cex_io

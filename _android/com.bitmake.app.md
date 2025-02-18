@@ -1,40 +1,39 @@
 ---
 wsId: 
-title: 'BitMake:trade Crypto,Bitcoin'
+title: BitMake:trade Crypto,Bitcoin
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.bitmake.app'
+appId: com.bitmake.app
 appCountry: 
-released: '2022-07-04'
-updated: '2024-01-26'
-version: '1.4.3'
+released: 2022-07-04
+updated: 2024-01-26
+version: 1.4.3
 stars: 4.2
 ratings: 
 reviews: 
-size: 
-website: 'https://www.bitmake.com'
+website: https://www.bitmake.com
 repository: 
 issue: 
-icon: 'com.bitmake.app.png'
+icon: com.bitmake.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-04-03'
+date: 2024-04-03
 signer: 
 reviewArchive: 
-twitter: 'BitMakeOfficial'
+twitter: BitMakeOfficial
 social:
-- 'https://www.linkedin.com/company/bitmakeofficial'
-- 'https://www.youtube.com/@BitMakeOfficial'
-- 'https://discord.com/invite/7Bh7wpyGMk'
-- 'https://www.instagram.com/bitmakeexchange'
-- 'https://www.facebook.com/BitMakeExchange'
-- 'https://t.me/BitMakeEN'
+- https://www.linkedin.com/company/bitmakeofficial
+- https://www.youtube.com/@BitMakeOfficial
+- https://discord.com/invite/7Bh7wpyGMk
+- https://www.instagram.com/bitmakeexchange
+- https://www.facebook.com/BitMakeExchange
+- https://t.me/BitMakeEN
 redirect_from: 
-developerName: 'BITMAKE TECHNOLOGY LLC'
+developerName: BITMAKE TECHNOLOGY LLC
 features: 
 
 ---

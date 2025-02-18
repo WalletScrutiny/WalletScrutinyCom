@@ -1,28 +1,27 @@
 ---
 wsId: 
-title: 'Mat Coin'
+title: Mat Coin
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.drbtb.btbmatcoinbuerqi'
+appId: com.drbtb.btbmatcoinbuerqi
 appCountry: 
-released: '2021-10-28'
-updated: '2021-10-28'
+released: 2021-10-28
+updated: 2021-10-28
 version: '5.0'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.drbtb.btbmatcoinbuerqi.png'
+icon: com.drbtb.btbmatcoinbuerqi.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
 twitter: 

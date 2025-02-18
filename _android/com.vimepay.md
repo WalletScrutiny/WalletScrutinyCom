@@ -4,30 +4,29 @@ title: 'Vimepay : Peer To Peer Escrow'
 altTitle: 
 authors: 
 users: 100
-appId: 'com.vimepay'
+appId: com.vimepay
 appCountry: 
-released: '2021-09-18'
-updated: '2021-09-18'
-version: '1.0.0'
+released: 2021-09-18
+updated: 2021-09-18
+version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://vimepay.com'
+website: https://vimepay.com
 repository: 
 issue: 
-icon: 'com.vimepay.png'
+icon: com.vimepay.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Vimepay'
+developerName: Vimepay
 features: 
 
 ---

@@ -1,32 +1,33 @@
 ---
-wsId: 'plutusWallet'
-title: 'Plutus | Bank On Crypto'
+wsId: plutusWallet
+title: Plutus | Bank On Crypto
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'it.plutus.android'
+appId: it.plutus.android
 appCountry: 
+released: 
 updated: 2025-02-06
-version: '4.9.4'
+version: 4.9.4
 stars: 4.3
 ratings: 
 reviews: 9
-website: 'https://plutus.it/'
+website: https://plutus.it/
 repository: 
 issue: 
-icon: 'it.plutus.android.png'
+icon: it.plutus.android.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nobtc'
+meta: ok
+verdict: nobtc
 appHashes: 
-date: '2023-12-14'
+date: 2023-12-14
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Block Code LTD'
+developerName: Block Code LTD
 features: 
 
 ---

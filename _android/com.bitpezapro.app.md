@@ -1,35 +1,35 @@
 ---
-wsId: 'Bekonta'
+wsId: Bekonta
 title: 'Bekonta: Buy & Sell Crypto'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.bitpezapro.app'
-appCountry: 'us'
-released: '2020-02-09'
+appId: com.bitpezapro.app
+appCountry: us
+released: 2020-02-09
 updated: 2022-09-26
-version: '1.0.3'
+version: 1.0.3
 stars: 
 ratings: 
 reviews: 
-website: 'https://bekonta.com'
+website: https://bekonta.com
 repository: 
 issue: 
-icon: 'com.bitpezapro.app.png'
+icon: com.bitpezapro.app.png
 bugbounty: 
-meta: 'obsolete'
-verdict: 'custodial'
+meta: obsolete
+verdict: custodial
 appHashes: 
-date: '2024-09-16'
+date: 2024-09-16
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://www.linkedin.com/company/bekonta'
-- 'https://www.facebook.com/bekontahq'
+- https://www.linkedin.com/company/bekonta
+- https://www.facebook.com/bekontahq
 redirect_from: 
-developerName: 'Describe Innovations'
+developerName: Describe Innovations
 features: 
 
 ---

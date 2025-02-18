@@ -7,12 +7,11 @@ authors:
 appId: finance.hollox
 appCountry: us
 idd: '6444396340'
-released: '2022-11-21'
-updated: '2022-11-22'
+released: 2022-11-21
+updated: 2022-11-22
 version: '1.0'
 stars: 4.3
 reviews: 29
-size: '42294272'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2024-10-23'
+date: 2024-10-23
 signer: 
 reviewArchive: 
 twitter: Holloxintl

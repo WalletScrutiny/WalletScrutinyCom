@@ -1,36 +1,35 @@
 ---
-wsId: 'spend'
-title: 'Spend App'
+wsId: spend
+title: Spend App
 altTitle: 
 authors:
-- 'kiwilamb'
+- kiwilamb
 users: 50000
-appId: 'com.spend.app'
+appId: com.spend.app
 appCountry: 
-released: '2018-08-07'
-updated: '2020-07-15'
+released: 2018-08-07
+updated: 2020-07-15
 version: '3.09'
 stars: 3.5
 ratings: 479
 reviews: 129
-size: 
-website: 'https://www.spend.com'
+website: https://www.spend.com
 repository: 
 issue: 
-icon: 'com.spend.app.png'
+icon: com.spend.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-05-18'
+date: 2024-05-18
 signer: 
 reviewArchive: 
-twitter: 'Spendcom'
+twitter: Spendcom
 social:
-- 'https://www.facebook.com/spend'
-- 'https://www.reddit.com/r/Spend'
+- https://www.facebook.com/spend
+- https://www.reddit.com/r/Spend
 redirect_from: 
-developerName: 'Spend CA Inc'
+developerName: Spend CA Inc
 features: 
 
 ---

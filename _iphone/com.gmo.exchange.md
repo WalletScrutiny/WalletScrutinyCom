@@ -7,12 +7,11 @@ authors:
 appId: com.gmo.exchange
 appCountry: th
 idd: 1525862502
-released: '2020-08-09'
-updated: '2025-01-21'
-version: '3.1.7'
+released: 2020-08-09
+updated: 2025-01-21
+version: 3.1.7
 stars: 3.8
 reviews: 31
-size: '149417984'
 website: https://ex.z.com/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2021-11-08'
+date: 2021-11-08
 signer: 
 reviewArchive: 
 twitter: ZcomExchange

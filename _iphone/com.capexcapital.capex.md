@@ -7,12 +7,11 @@ authors:
 appId: com.capexcapital.capex
 appCountry: us
 idd: '1643119387'
-released: '2022-10-03'
-updated: '2023-09-19'
-version: '2.0.2'
+released: 2022-10-03
+updated: 2023-09-19
+version: 2.0.2
 stars: 0
 reviews: 0
-size: '59711488'
 website: https://capex.mn
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2024-07-05'
+date: 2024-07-05
 signer: 
 reviewArchive: 
 twitter: 

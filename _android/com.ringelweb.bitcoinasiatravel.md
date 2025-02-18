@@ -1,37 +1,36 @@
 ---
 wsId: 
-title: 'BitcoinAsia-Travel'
+title: BitcoinAsia-Travel
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.ringelweb.bitcoinasiatravel'
+appId: com.ringelweb.bitcoinasiatravel
 appCountry: 
-released: '2021-02-11'
-updated: '2021-11-23'
-version: '2.2.4'
+released: 2021-02-11
+updated: 2021-11-23
+version: 2.2.4
 stars: 4.8
 ratings: 
 reviews: 169
-size: 
-website: 'https://bitcoinasia.travel'
+website: https://bitcoinasia.travel
 repository: 
 issue: 
-icon: 'com.ringelweb.bitcoinasiatravel.png'
+icon: com.ringelweb.bitcoinasiatravel.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2024-07-05'
+date: 2024-07-05
 signer: 
 reviewArchive: 
-twitter: 'bitcoin_asia'
+twitter: bitcoin_asia
 social:
-- 'https://www.facebook.com/BitcoinAsia.Token/'
-- 'https://www.instagram.com/bitcoin_asia_btca/'
-- 'https://www.linkedin.com/company/bitcoinasia/'
+- https://www.facebook.com/BitcoinAsia.Token/
+- https://www.instagram.com/bitcoin_asia_btca/
+- https://www.linkedin.com/company/bitcoinasia/
 redirect_from: 
-developerName: 'The Blockjet Technologies'
+developerName: The Blockjet Technologies
 features: 
 
 ---

@@ -7,12 +7,11 @@ authors:
 appId: com.pixels.vynkpay
 appCountry: in
 idd: '1618947970'
-released: '2022-04-13'
-updated: '2024-02-12'
+released: 2022-04-13
+updated: 2024-02-12
 version: '1.5'
 stars: 0
 reviews: 0
-size: '27265024'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2024-05-07'
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: vynkgroup

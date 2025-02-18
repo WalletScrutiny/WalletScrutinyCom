@@ -1,38 +1,37 @@
 ---
-wsId: 'wethiox'
-title: 'WethioX'
+wsId: wethiox
+title: WethioX
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.exchange.wethio.io'
+appId: com.exchange.wethio.io
 appCountry: 
-released: '2021-10-21'
-updated: '2022-11-24'
-version: '2.3.3'
+released: 2021-10-21
+updated: 2022-11-24
+version: 2.3.3
 stars: 5
 ratings: 
 reviews: 4
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.exchange.wethio.io.png'
+icon: com.exchange.wethio.io.png
 bugbounty: 
-meta: 'obsolete'
-verdict: 'custodial'
+meta: obsolete
+verdict: custodial
 appHashes: 
-date: '2024-11-13'
+date: 2024-11-13
 signer: 
 reviewArchive: 
-twitter: 'wethiox'
+twitter: wethiox
 social:
-- 'https://www.wethiox.io'
-- 'https://www.facebook.com/WethioX/about'
-- 'https://t.me/joinchat/VvLjmtVVAVJiMTQ0'
-- 'https://wethio.medium.com/'
+- https://www.wethiox.io
+- https://www.facebook.com/WethioX/about
+- https://t.me/joinchat/VvLjmtVVAVJiMTQ0
+- https://wethio.medium.com/
 redirect_from: 
-developerName: 'Ihk7'
+developerName: Ihk7
 features: 
 
 ---

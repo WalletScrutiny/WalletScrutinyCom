@@ -7,12 +7,11 @@ authors:
 appId: com.se.digital.brokerage.mobile
 appCountry: us
 idd: '1582937571'
-released: '2022-02-28'
-updated: '2023-09-26'
-version: '2.0.10'
+released: 2022-02-28
+updated: 2023-09-26
+version: 2.0.10
 stars: 5
 reviews: 1
-size: '94331904'
 website: https://trade.xspringdigital.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2023-12-19'
+date: 2023-12-19
 signer: 
 reviewArchive: 
 twitter: 

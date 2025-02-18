@@ -7,12 +7,11 @@ authors:
 appId: com.bootleg.iforexCryptoWrapper
 appCountry: cl
 idd: '1619049710'
-released: '2022-07-03'
-updated: '2023-11-22'
-version: '3.1.23'
+released: 2022-07-03
+updated: 2023-11-22
+version: 3.1.23
 stars: 0
 reviews: 0
-size: '14831616'
 website: https://www.iforex.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: stale
 verdict: nosendreceive
 appHashes: 
-date: '2024-11-19'
+date: 2024-11-19
 signer: 
 reviewArchive: 
 twitter: iforexcrypto_o

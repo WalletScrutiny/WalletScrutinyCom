@@ -1,45 +1,45 @@
 ---
-wsId: 'tangem'
-title: 'Tangem - Crypto wallet'
+wsId: tangem
+title: Tangem - Crypto wallet
 altTitle: 
 authors:
-- 'leo'
-- 'danny'
+- leo
+- danny
 users: 100000
-appId: 'com.tangem.wallet'
+appId: com.tangem.wallet
 appCountry: 
-released: '2018-10-24'
+released: 2018-10-24
 updated: 2025-02-07
-version: '5.20.1'
+version: 5.20.1
 stars: 4.8
 ratings: 89
-reviews: 794
-website: 'https://tangem.com'
-repository: 'https://github.com/tangem/tangem-app-android'
+reviews: 808
+website: https://tangem.com
+repository: https://github.com/tangem/tangem-app-android
 issue: 
-icon: 'com.tangem.wallet.png'
+icon: com.tangem.wallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'wip'
+meta: ok
+verdict: wip
 appHashes: []
-date: '2024-08-20'
+date: 2024-08-20
 signer: 
 reviewArchive:
-- date: '2024-08-20'
-  version: '5.18.6'
+- date: 2024-08-20
+  version: 5.18.6
   appHashes: []
-  gitRevision: '7dca9fc061b5239ece7294a0c8529fd0828ce608'
-  verdict: 'nosource'
-- date: '2024-07-02'
-  version: '5.5.1'
+  gitRevision: 7dca9fc061b5239ece7294a0c8529fd0828ce608
+  verdict: nosource
+- date: 2024-07-02
+  version: 5.5.1
   appHashes: []
-  gitRevision: '541a3a95426d5d277d7590282bb5e1e1f341a4c0'
-  verdict: 'nosource'
-twitter: 'tangem'
+  gitRevision: 541a3a95426d5d277d7590282bb5e1e1f341a4c0
+  verdict: nosource
+twitter: tangem
 social:
-- 'https://www.linkedin.com/company/tangem'
+- https://www.linkedin.com/company/tangem
 redirect_from: 
-developerName: 'Tangem'
+developerName: Tangem
 features: 
 
 ---

@@ -1,38 +1,37 @@
 ---
-wsId: 'koinal'
+wsId: koinal
 title: 'Koinal: Buy Bitcoin with credi'
 altTitle: 
 authors:
-- 'leo'
-- 'danny'
+- leo
+- danny
 users: 100000
-appId: 'com.koinal.android'
-appCountry: 'gb'
-released: '2020-06-04'
-updated: '2023-03-31'
-version: '1.4.10'
+appId: com.koinal.android
+appCountry: gb
+released: 2020-06-04
+updated: 2023-03-31
+version: 1.4.10
 stars: 4.1
 ratings: 1938
 reviews: 6
-size: 
-website: 'https://www.koinal.io'
+website: https://www.koinal.io
 repository: 
 issue: 
-icon: 'com.koinal.android.png'
+icon: com.koinal.android.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nobtc'
+meta: removed
+verdict: nobtc
 appHashes: 
-date: '2023-08-04'
+date: 2023-08-04
 signer: 
 reviewArchive: 
-twitter: 'koinal_io'
+twitter: koinal_io
 social:
-- 'https://www.linkedin.com/company/koinal-io'
-- 'https://www.facebook.com/Koinal.io'
+- https://www.linkedin.com/company/koinal-io
+- https://www.facebook.com/Koinal.io
 redirect_from:
-- '/com.koinal.android/'
-developerName: 'SG Veteris'
+- /com.koinal.android/
+developerName: SG Veteris
 features: 
 
 ---

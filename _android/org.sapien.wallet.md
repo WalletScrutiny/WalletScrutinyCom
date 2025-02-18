@@ -1,35 +1,34 @@
 ---
-wsId: 'SapienWallet'
-title: 'Sapien Wallet'
+wsId: SapienWallet
+title: Sapien Wallet
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'org.sapien.wallet'
-appCountry: 'us'
-released: '2021-06-24'
-updated: '2024-06-20'
-version: '1.88.0'
+appId: org.sapien.wallet
+appCountry: us
+released: 2021-06-24
+updated: 2024-06-20
+version: 1.88.0
 stars: 3.5
 ratings: 
 reviews: 
-size: 
-website: 'https://sapienwallet.com/'
+website: https://sapienwallet.com/
 repository: 
 issue: 
-icon: 'org.sapien.wallet.png'
+icon: org.sapien.wallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-16'
+date: 2024-07-16
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://www.facebook.com/SapienWallet'
+- https://www.facebook.com/SapienWallet
 redirect_from: 
-developerName: 'Sapien Wallet'
+developerName: Sapien Wallet
 features: 
 
 ---

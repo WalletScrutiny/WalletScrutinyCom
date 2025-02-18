@@ -7,12 +7,11 @@ authors:
 appId: com.pixels.vynksafe
 appCountry: in
 idd: '1626971774'
-released: '2022-06-21'
-updated: '2023-10-25'
+released: 2022-06-21
+updated: 2023-10-25
 version: '1.4'
 stars: 3.7
 reviews: 3
-size: '27278336'
 website: https://vynksafe.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2024-05-07'
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: vynkgroup

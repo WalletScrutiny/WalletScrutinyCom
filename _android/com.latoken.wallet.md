@@ -3,34 +3,33 @@ wsId:
 title: 'LATOKEN: Trade Any Crypto'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000000
-appId: 'com.latoken.wallet'
+appId: com.latoken.wallet
 appCountry: 
-released: '2020-03-17'
-updated: '2024-08-25'
-version: '1.194.00'
+released: 2020-03-17
+updated: 2024-08-25
+version: 1.194.00
 stars: 4.3
 ratings: 35079
 reviews: 111
-size: 
-website: 'http://latoken.com'
+website: http://latoken.com
 repository: 
 issue: 
-icon: 'com.latoken.wallet.png'
-bugbounty: 'https://hackenproof.com/latoken/latoken-exchange'
-meta: 'removed'
-verdict: 'custodial'
+icon: com.latoken.wallet.png
+bugbounty: https://hackenproof.com/latoken/latoken-exchange
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-09-16'
+date: 2024-09-16
 signer: 
 reviewArchive: 
-twitter: 'latokens'
+twitter: latokens
 social:
-- 'https://www.linkedin.com/company/latoken'
-- 'https://www.facebook.com/LiquidAssetToken'
+- https://www.linkedin.com/company/latoken
+- https://www.facebook.com/LiquidAssetToken
 redirect_from: 
-developerName: 'LATOKEN'
+developerName: LATOKEN
 features: 
 
 ---

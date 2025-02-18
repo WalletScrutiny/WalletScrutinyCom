@@ -1,35 +1,34 @@
 ---
 wsId: 
-title: 'eBitcoinics Inc - Simplified g'
+title: eBitcoinics Inc - Simplified g
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'io.ebitconics.com'
+appId: io.ebitconics.com
 appCountry: 
-released: '2021-01-18'
-updated: '2021-01-18'
-version: '0.0.2'
+released: 2021-01-18
+updated: 2021-01-18
+version: 0.0.2
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.ebitcoinics.com/'
+website: https://www.ebitcoinics.com/
 repository: 
 issue: 
-icon: 'io.ebitconics.com.png'
+icon: io.ebitconics.com.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
-twitter: 'eBitcoinics'
+twitter: eBitcoinics
 social:
-- 'https://www.facebook.com/eBitcoinics'
+- https://www.facebook.com/eBitcoinics
 redirect_from: 
-developerName: 'NICS LTD'
+developerName: NICS LTD
 features: 
 
 ---

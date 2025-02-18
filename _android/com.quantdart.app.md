@@ -1,33 +1,32 @@
 ---
-wsId: 'QuantDART'
+wsId: QuantDART
 title: 'QuantDART: Digital Asset Investment & Management'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.quantdart.app'
-appCountry: 'us'
-released: '2020-09-16'
-updated: '2022-01-27'
-version: '1.1.25'
+appId: com.quantdart.app
+appCountry: us
+released: 2020-09-16
+updated: 2022-01-27
+version: 1.1.25
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.quantdart.com/'
+website: https://www.quantdart.com/
 repository: 
 issue: 
-icon: 'com.quantdart.app.png'
+icon: com.quantdart.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-01-02'
+date: 2023-01-02
 signer: 
 reviewArchive: 
-twitter: 'QuantDART'
+twitter: QuantDART
 social:
-- 'https://www.facebook.com/quantdart'
+- https://www.facebook.com/quantdart
 redirect_from: 
 developerName: 
 features: 

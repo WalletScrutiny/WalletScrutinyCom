@@ -1,36 +1,35 @@
 ---
 wsId: 
-title: 'AIRWALLET - Secure Cryptocurre'
+title: AIRWALLET - Secure Cryptocurre
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.airwalletofficial.air_wallet'
+appId: com.airwalletofficial.air_wallet
 appCountry: 
-released: '2019-10-19'
-updated: '2019-10-29'
-version: '1.9.2'
+released: 2019-10-19
+updated: 2019-10-29
+version: 1.9.2
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.airwalletofficial.com'
+website: https://www.airwalletofficial.com
 repository: 
 issue: 
-icon: 'com.airwalletofficial.air_wallet.png'
+icon: com.airwalletofficial.air_wallet.png
 bugbounty: 
-meta: 'defunct'
-verdict: 'wip'
+meta: defunct
+verdict: wip
 appHashes: 
-date: '2023-05-10'
+date: 2023-05-10
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://t.me/AirWallet'
-- 'https://www.facebook.com/airwalletofficial'
+- https://t.me/AirWallet
+- https://www.facebook.com/airwalletofficial
 redirect_from: 
-developerName: 'AWTech Blockchain Solutions'
+developerName: AWTech Blockchain Solutions
 features: 
 
 ---

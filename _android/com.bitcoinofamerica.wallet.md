@@ -1,28 +1,27 @@
 ---
 wsId: 
-title: 'Bitcoin of America Wallet'
+title: Bitcoin of America Wallet
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 50000
-appId: 'com.bitcoinofamerica.wallet'
+appId: com.bitcoinofamerica.wallet
 appCountry: 
-released: '2019-01-14'
-updated: '2021-04-28'
-version: '1.1.3'
+released: 2019-01-14
+updated: 2021-04-28
+version: 1.1.3
 stars: 4.4
 ratings: 202
 reviews: 58
-size: '39M'
-website: 'https://www.bitcoinofamerica.org'
+website: https://www.bitcoinofamerica.org
 repository: 
 issue: 
-icon: 'com.bitcoinofamerica.wallet.png'
+icon: com.bitcoinofamerica.wallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2022-02-16'
+date: 2022-02-16
 signer: 
 reviewArchive: 
 twitter: 

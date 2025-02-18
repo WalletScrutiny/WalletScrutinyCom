@@ -1,37 +1,36 @@
 ---
-wsId: 'CoinLoan'
+wsId: CoinLoan
 title: 'CoinLoan: Сrypto & Fiat Loans'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.app.coinloan'
-appCountry: 'us'
-released: '2019-11-28'
-updated: '2023-05-29'
-version: '1.7.7'
+appId: com.app.coinloan
+appCountry: us
+released: 2019-11-28
+updated: 2023-05-29
+version: 1.7.7
 stars: 3.6
 ratings: 309
 reviews: 79
-size: 
-website: 'https://coinloan.io/'
+website: https://coinloan.io/
 repository: 
 issue: 
-icon: 'com.app.coinloan.png'
+icon: com.app.coinloan.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2025-01-15'
+date: 2025-01-15
 signer: 
 reviewArchive: 
-twitter: 'coin_loan'
+twitter: coin_loan
 social:
-- 'https://www.linkedin.com/company/coinloan'
-- 'https://www.facebook.com/coinloan.project'
-- 'https://www.reddit.com/r/coinloan'
+- https://www.linkedin.com/company/coinloan
+- https://www.facebook.com/coinloan.project
+- https://www.reddit.com/r/coinloan
 redirect_from: 
-developerName: 'CoinLoan'
+developerName: CoinLoan
 features: 
 
 ---

@@ -7,12 +7,11 @@ authors:
 appId: com.coinfalcon.mobile
 appCountry: 
 idd: 1396963260
-released: '2018-10-05'
-updated: '2022-02-02'
-version: '2.1.14'
+released: 2018-10-05
+updated: 2022-02-02
+version: 2.1.14
 stars: 3
 reviews: 16
-size: '52341760'
 website: https://coinfalcon.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2023-01-11'
+date: 2023-01-11
 signer: 
 reviewArchive: 
 twitter: coinfalcon

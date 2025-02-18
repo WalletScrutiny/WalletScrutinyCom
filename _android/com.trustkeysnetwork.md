@@ -1,34 +1,34 @@
 ---
-wsId: 'TrustKeys'
-title: 'TrustKeys Web3 SocialFi'
+wsId: TrustKeys
+title: TrustKeys Web3 SocialFi
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.trustkeysnetwork'
-appCountry: 'us'
-released: '2019-03-02'
+appId: com.trustkeysnetwork
+appCountry: us
+released: 2019-03-02
 updated: 2024-10-22
-version: '2.4.3'
+version: 2.4.3
 stars: 4.7
 ratings: 583
 reviews: 23
-website: 'https://trustkeys.network'
+website: https://trustkeys.network
 repository: 
 issue: 
-icon: 'com.trustkeysnetwork.png'
+icon: com.trustkeysnetwork.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-16'
+date: 2024-07-16
 signer: 
 reviewArchive: 
-twitter: 'trustkeysglobal'
+twitter: trustkeysglobal
 social:
-- 'https://www.facebook.com/trustkeys.network'
+- https://www.facebook.com/trustkeys.network
 redirect_from: 
-developerName: 'TrustKeys Finance'
+developerName: TrustKeys Finance
 features: 
 
 ---

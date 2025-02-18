@@ -7,12 +7,11 @@ authors:
 appId: io.horizontalsystems.erium
 appCountry: ng
 idd: '1590924105'
-released: '2021-12-10'
-updated: '2022-09-25'
-version: '1.1.0'
+released: 2021-12-10
+updated: 2022-09-25
+version: 1.1.0
 stars: 0
 reviews: 0
-size: '37897216'
 website: 
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: nosource
 appHashes: 
-date: '2024-02-05'
+date: 2024-02-05
 signer: 
 reviewArchive: 
 twitter: EriumExchange

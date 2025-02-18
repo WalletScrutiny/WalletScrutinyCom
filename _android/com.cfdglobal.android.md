@@ -1,35 +1,35 @@
 ---
-wsId: 'capex'
-title: 'Capex'
+wsId: capex
+title: Capex
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.cfdglobal.android'
-appCountry: 'gb'
-released: '2017-10-04'
+appId: com.cfdglobal.android
+appCountry: gb
+released: 2017-10-04
 updated: 2024-11-11
-version: '2.30.2'
+version: 2.30.2
 stars: 4.4
 ratings: 336
 reviews: 7
-website: 'https://www.capex.com'
+website: https://www.capex.com
 repository: 
 issue: 
-icon: 'com.cfdglobal.android.png'
+icon: com.cfdglobal.android.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosendreceive'
+meta: ok
+verdict: nosendreceive
 appHashes: 
-date: '2021-10-01'
+date: 2021-10-01
 signer: 
 reviewArchive: 
-twitter: 'capex_en'
+twitter: capex_en
 social:
-- 'https://www.linkedin.com/company/capexglobal'
-- 'https://www.facebook.com/CAPEXSeychelles'
+- https://www.linkedin.com/company/capexglobal
+- https://www.facebook.com/CAPEXSeychelles
 redirect_from: 
-developerName: 'Key Way Investments Ltd'
+developerName: Key Way Investments Ltd
 features: 
 
 ---

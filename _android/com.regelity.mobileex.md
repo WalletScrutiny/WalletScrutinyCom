@@ -1,36 +1,36 @@
 ---
-wsId: 'exnodeExchange'
+wsId: exnodeExchange
 title: 'Exnode: Обмен криптовалют'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.regelity.mobileex'
+appId: com.regelity.mobileex
 appCountry: 
-released: '2022-12-15'
+released: 2022-12-15
 updated: 2024-12-30
-version: '2.0.47'
+version: 2.0.47
 stars: 4
 ratings: 
 reviews: 
-website: 'https://exnode.ru/'
+website: https://exnode.ru/
 repository: 
 issue: 
-icon: 'com.regelity.mobileex.png'
+icon: com.regelity.mobileex.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2023-07-17'
+date: 2023-07-17
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://t.me/exnoderu'
-- 'https://www.youtube.com/channel/UCBuAFCwmL2xzz6x0NPBCSUw'
-- 'https://vk.com/exnoderu'
+- https://t.me/exnoderu
+- https://www.youtube.com/channel/UCBuAFCwmL2xzz6x0NPBCSUw
+- https://vk.com/exnoderu
 redirect_from: 
-developerName: 'Exnode Dev.'
+developerName: Exnode Dev.
 features: 
 
 ---

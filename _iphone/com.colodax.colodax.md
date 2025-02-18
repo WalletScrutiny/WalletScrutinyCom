@@ -7,12 +7,11 @@ authors:
 appId: com.colodax.colodax
 appCountry: us
 idd: 1497362345
-released: '2020-02-04'
-updated: '2021-09-17'
-version: '1.7.2'
+released: 2020-02-04
+updated: 2021-09-17
+version: 1.7.2
 stars: 5
 reviews: 2
-size: '80020480'
 website: https://colodax.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2024-10-19'
+date: 2024-10-19
 signer: 
 reviewArchive: 
 twitter: colodax

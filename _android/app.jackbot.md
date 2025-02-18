@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: 'Jackbot - AI Crypto Trading'
+title: Jackbot - AI Crypto Trading
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'app.jackbot'
+appId: app.jackbot
 appCountry: 
-released: '2021-01-05'
+released: 2021-01-05
 updated: 2024-05-02
-version: '4.9.13'
+version: 4.9.13
 stars: 
 ratings: 
 reviews: 
-website: 'https://jackbot.app'
+website: https://jackbot.app
 repository: 
 issue: 
-icon: 'app.jackbot.jpg'
+icon: app.jackbot.jpg
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2021-11-22'
+date: 2021-11-22
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Jackbot'
+developerName: Jackbot
 features: 
 
 ---

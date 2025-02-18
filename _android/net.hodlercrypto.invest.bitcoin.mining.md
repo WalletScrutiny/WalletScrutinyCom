@@ -1,27 +1,26 @@
 ---
 wsId: 
-title: 'Invest Bitcoin Mining'
+title: Invest Bitcoin Mining
 altTitle: 
 authors: 
 users: 5
-appId: 'net.hodlercrypto.invest.bitcoin.mining'
+appId: net.hodlercrypto.invest.bitcoin.mining
 appCountry: 
-released: '2021-06-18'
-updated: '2021-06-18'
+released: 2021-06-18
+updated: 2021-06-18
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: '3.4M'
 website: 
 repository: 
 issue: 
-icon: 'net.hodlercrypto.invest.bitcoin.mining.jpg'
+icon: net.hodlercrypto.invest.bitcoin.mining.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2021-10-01'
+date: 2021-10-01
 signer: 
 reviewArchive: 
 twitter: 

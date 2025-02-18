@@ -1,33 +1,32 @@
 ---
 wsId: 
-title: 'StarExchange'
+title: StarExchange
 altTitle: 
 authors: 
 users: 50
-appId: 'se.example.starboyexchange'
+appId: se.example.starboyexchange
 appCountry: 
-released: '2022-01-10'
-updated: '2022-01-31'
-version: '7.0.0'
+released: 2022-01-10
+updated: 2022-01-31
+version: 7.0.0
 stars: 5
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'se.example.starboyexchange.png'
+icon: se.example.starboyexchange.png
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2024-05-07'
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'PlayLoom Studios'
+developerName: PlayLoom Studios
 features: 
 
 ---

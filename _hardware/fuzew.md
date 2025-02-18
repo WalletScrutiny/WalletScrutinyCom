@@ -6,7 +6,7 @@ authors:
 - danny
 released: 
 discontinued: 
-updated: '2019-01-27'
+updated: 2019-01-27
 version: '1.2'
 binaries: 
 dimensions:
@@ -27,7 +27,7 @@ bugbounty:
 meta: obsolete
 verdict: nosource
 appHashes: 
-date: '2021-12-03'
+date: 2021-12-03
 signer: 
 reviewArchive: 
 twitter: w_fuze

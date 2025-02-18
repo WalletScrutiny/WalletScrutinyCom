@@ -1,33 +1,33 @@
 ---
-wsId: 'kryllTrade'
-title: 'Kryll.io - Trade BTC & Crypto'
+wsId: kryllTrade
+title: Kryll.io - Trade BTC & Crypto
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'io.kryll.app2'
+appId: io.kryll.app2
 appCountry: 
-released: '2022-03-25'
+released: 2022-03-25
 updated: 2024-02-26
-version: '2.3.20'
+version: 2.3.20
 stars: 3.5
 ratings: 
 reviews: 8
-website: 'https://kryl.io'
+website: https://kryl.io
 repository: 
 issue: 
-icon: 'io.kryll.app2.png'
+icon: io.kryll.app2.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2023-09-05'
+date: 2023-09-05
 signer: 
 reviewArchive: 
-twitter: 'kryll_io'
+twitter: kryll_io
 social: 
 redirect_from: 
-developerName: 'Cryptense SAS'
+developerName: Cryptense SAS
 features: 
 
 ---

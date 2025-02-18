@@ -1,35 +1,35 @@
 ---
-wsId: 'CoinsField'
-title: 'CoinField'
+wsId: CoinsField
+title: CoinField
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.coinfield.csapp'
-appCountry: 'ca'
-released: '2019-05-16'
+appId: com.coinfield.csapp
+appCountry: ca
+released: 2019-05-16
 updated: 2022-12-19
-version: '3.1.5'
+version: 3.1.5
 stars: 3
 ratings: 1231
 reviews: 118
-website: 'http://www.coinfield.com'
+website: http://www.coinfield.com
 repository: 
 issue: 
-icon: 'com.coinfield.csapp.png'
+icon: com.coinfield.csapp.png
 bugbounty: 
-meta: 'obsolete'
-verdict: 'custodial'
+meta: obsolete
+verdict: custodial
 appHashes: 
-date: '2024-12-15'
+date: 2024-12-15
 signer: 
 reviewArchive: 
-twitter: 'CoinFieldEx'
+twitter: CoinFieldEx
 social:
-- 'https://www.linkedin.com/company/coinfield'
-- 'https://www.facebook.com/coinfieldexchange'
+- https://www.linkedin.com/company/coinfield
+- https://www.facebook.com/coinfieldexchange
 redirect_from: 
-developerName: 'CoinField'
+developerName: CoinField
 features: 
 
 ---

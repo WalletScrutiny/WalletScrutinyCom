@@ -1,33 +1,33 @@
 ---
-wsId: 'CryptoHero'
-title: 'CryptoHero'
+wsId: CryptoHero
+title: CryptoHero
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'capital.novum.cryptohero'
+appId: capital.novum.cryptohero
 appCountry: 
-released: '2021-07-16'
+released: 2021-07-16
 updated: 2023-11-17
-version: '2.1.0.15'
+version: 2.1.0.15
 stars: 4.1
 ratings: 
 reviews: 19
-website: 'https://www.cryptohero.ai'
+website: https://www.cryptohero.ai
 repository: 
 issue: 
-icon: 'capital.novum.cryptohero.png'
+icon: capital.novum.cryptohero.png
 bugbounty: 
-meta: 'stale'
-verdict: 'nowallet'
+meta: stale
+verdict: nowallet
 appHashes: 
-date: '2024-11-12'
+date: 2024-11-12
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Novum Global Ventures Pte Ltd'
+developerName: Novum Global Ventures Pte Ltd
 features: 
 
 ---

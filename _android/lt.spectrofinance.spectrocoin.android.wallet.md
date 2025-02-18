@@ -1,35 +1,35 @@
 ---
-wsId: 'SpectroCoin'
-title: 'SpectroCoin - Buy Crypto'
+wsId: SpectroCoin
+title: SpectroCoin - Buy Crypto
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 500000
-appId: 'lt.spectrofinance.spectrocoin.android.wallet'
+appId: lt.spectrofinance.spectrocoin.android.wallet
 appCountry: 
-released: '2014-12-05'
+released: 2014-12-05
 updated: 2025-02-06
-version: '2.8.0'
+version: 2.8.0
 stars: 3.8
 ratings: 3150
 reviews: 44
-website: 'https://spectrocoin.com'
+website: https://spectrocoin.com
 repository: 
 issue: 
-icon: 'lt.spectrofinance.spectrocoin.android.wallet.png'
+icon: lt.spectrofinance.spectrocoin.android.wallet.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2020-10-12'
+date: 2020-10-12
 signer: 
 reviewArchive: 
-twitter: 'spectrocoin'
+twitter: spectrocoin
 social:
-- 'https://www.linkedin.com/company/spectrocoin'
-- 'https://www.facebook.com/spectrocoin'
+- https://www.linkedin.com/company/spectrocoin
+- https://www.facebook.com/spectrocoin
 redirect_from: 
-developerName: 'Spectro Finance'
+developerName: Spectro Finance
 features: 
 
 ---

@@ -1,36 +1,36 @@
 ---
-wsId: 'trusteePlus'
-title: 'Trustee Plus | Wallet & Card'
+wsId: trusteePlus
+title: Trustee Plus | Wallet & Card
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 100000
-appId: 'com.trusteeplus'
+appId: com.trusteeplus
 appCountry: 
-released: '2022-07-01'
-updated: 2025-01-28
-version: '1.32.3'
+released: 2022-07-01
+updated: 2025-02-17
+version: 1.32.4
 stars: 3.6
 ratings: 
 reviews: 14
-website: 'https://trusteeglobal.com'
+website: https://trusteeglobal.com
 repository: 
 issue: 
-icon: 'com.trusteeplus.png'
+icon: com.trusteeplus.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2023-08-23'
+date: 2023-08-23
 signer: 
 reviewArchive: 
-twitter: 'TrusteeGlobal'
+twitter: TrusteeGlobal
 social:
-- 'https://t.me/trustee_ru'
-- 'https://www.youtube.com/@TrusteeGlobal'
-- 'https://www.instagram.com/trustee.global'
+- https://t.me/trustee_ru
+- https://www.youtube.com/@TrusteeGlobal
+- https://www.instagram.com/trustee.global
 redirect_from: 
-developerName: 'BlockSoft Lab'
+developerName: BlockSoft Lab
 features: 
 
 ---

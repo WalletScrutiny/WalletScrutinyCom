@@ -1,35 +1,34 @@
 ---
-wsId: 'zionApp'
-title: 'Zion - Create Openly'
+wsId: zionApp
+title: Zion - Create Openly
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.getzion.zion'
+appId: com.getzion.zion
 appCountry: 
-released: '2021-12-21'
-updated: '2023-05-12'
-version: '2.0.5'
+released: 2021-12-21
+updated: 2023-05-12
+version: 2.0.5
 stars: 2
 ratings: 
 reviews: 27
-size: 
-website: 'https://getzion.com'
+website: https://getzion.com
 repository: 
 issue: 
-icon: 'com.getzion.zion.png'
+icon: com.getzion.zion.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2025-02-13'
+date: 2025-02-13
 signer: 
 reviewArchive: 
-twitter: 'get_zion'
+twitter: get_zion
 social:
-- 'https://www.instagram.com/get_zion'
+- https://www.instagram.com/get_zion
 redirect_from: 
-developerName: 'Zion - Create Openly'
+developerName: Zion - Create Openly
 features: 
 
 ---

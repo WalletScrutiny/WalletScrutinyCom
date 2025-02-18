@@ -3,9 +3,9 @@ title: HoyTech Defido2
 appId: hoytech.defido2
 authors:
 - danny
-released: '2020-04-29'
+released: 2020-04-29
 discontinued: 
-updated: '2020-07-14'
+updated: 2020-07-14
 version: 
 binaries: 
 dimensions: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: stale
 verdict: nobtc
 appHashes: 
-date: '2022-05-26'
+date: 2022-05-26
 signer: 
 reviewArchive: 
 twitter: 

@@ -1,35 +1,34 @@
 ---
-wsId: 'Blubitex'
-title: 'Blubitex'
+wsId: Blubitex
+title: Blubitex
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.blubitex.blubitexapp'
-appCountry: 'us'
-released: '2020-10-03'
-updated: '2022-04-14'
-version: '2.1.342'
+appId: com.blubitex.blubitexapp
+appCountry: us
+released: 2020-10-03
+updated: 2022-04-14
+version: 2.1.342
 stars: 3.4
 ratings: 2703
 reviews: 37
-size: 
-website: 'https://blubitex.com'
+website: https://blubitex.com
 repository: 
 issue: 
-icon: 'com.blubitex.blubitexapp.png'
+icon: com.blubitex.blubitexapp.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2024-04-03'
+date: 2024-04-03
 signer: 
 reviewArchive: 
-twitter: 'blubitex'
+twitter: blubitex
 social:
-- 'https://www.facebook.com/blubitexofficial'
+- https://www.facebook.com/blubitexofficial
 redirect_from: 
-developerName: 'BLUBITEX LIMITED'
+developerName: BLUBITEX LIMITED
 features: 
 
 ---

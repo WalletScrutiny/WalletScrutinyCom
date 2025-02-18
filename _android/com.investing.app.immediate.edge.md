@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Immediate Edge'
+title: Immediate Edge
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.investing.app.immediate.edge'
+appId: com.investing.app.immediate.edge
 appCountry: 
-released: '2023-01-24'
-updated: '2023-01-24'
+released: 2023-01-24
+updated: 2023-01-24
 version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
-icon: 'com.investing.app.immediate.edge.png'
+icon: com.investing.app.immediate.edge.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2023-07-21'
+date: 2023-07-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'ImmediateEdge™ OfficialApp'
+developerName: ImmediateEdge™ OfficialApp
 features: 
 
 ---

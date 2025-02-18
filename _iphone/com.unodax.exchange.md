@@ -7,12 +7,11 @@ authors:
 appId: com.unodax.exchange
 appCountry: us
 idd: 1355604579
-released: '2018-04-22'
-updated: '2021-06-23'
-version: '1.3.4'
+released: 2018-04-22
+updated: 2021-06-23
+version: 1.3.4
 stars: 0
 reviews: 0
-size: '121513984'
 website: https://www.unodax.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2023-06-21'
+date: 2023-06-21
 signer: 
 reviewArchive: 
 twitter: Unocoin

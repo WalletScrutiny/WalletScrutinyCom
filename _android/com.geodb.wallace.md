@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Wallace - Play and Earn Crypto'
+title: Wallace - Play and Earn Crypto
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.geodb.wallace'
+appId: com.geodb.wallace
 appCountry: 
-released: '2022-08-23'
-updated: '2024-10-17'
-version: '1.6.35'
+released: 2022-08-23
+updated: 2024-10-17
+version: 1.6.35
 stars: 3.4
 ratings: 
 reviews: 33
-size: 
-website: 'https://wallacewallet.io/'
+website: https://wallacewallet.io/
 repository: 
 issue: 
-icon: 'com.geodb.wallace.png'
+icon: com.geodb.wallace.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nobtc'
+meta: removed
+verdict: nobtc
 appHashes: 
-date: '2024-12-04'
+date: 2024-12-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'GeoDB Blockchain Limited'
+developerName: GeoDB Blockchain Limited
 features: 
 
 ---

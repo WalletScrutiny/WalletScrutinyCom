@@ -1,36 +1,36 @@
 ---
-wsId: 'bitcoinKeeper'
-title: 'Bitcoin Keeper'
+wsId: bitcoinKeeper
+title: Bitcoin Keeper
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'io.hexawallet.bitcoinkeeper'
-appCountry: 'UK'
-released: '2022-12-12'
+appId: io.hexawallet.bitcoinkeeper
+appCountry: UK
+released: 2022-12-12
 updated: 2025-02-05
-version: '2.0.0'
+version: 2.0.0
 stars: 4.8
 ratings: 
 reviews: 
-website: 'https://www.bitcoinkeeper.app/'
-repository: 'https://github.com/bithyve/bitcoin-keeper'
+website: https://www.bitcoinkeeper.app/
+repository: https://github.com/bithyve/bitcoin-keeper
 issue: 
-icon: 'io.hexawallet.bitcoinkeeper.png'
+icon: io.hexawallet.bitcoinkeeper.png
 bugbounty: 
-meta: 'ok'
-verdict: 'wip'
+meta: ok
+verdict: wip
 appHashes: 
-date: '2025-02-12'
+date: 2025-02-12
 signer: 
 reviewArchive: 
-twitter: 'bitcoinKeeper_'
+twitter: bitcoinKeeper_
 social:
-- 'https://www.youtube.com/channel/UCMqDNxbz16w8pxpmsa6s8GQ'
-- 'https://www.linkedin.com/company/bithyve'
-- 'https://t.me/bitcoinkeeper'
+- https://www.youtube.com/channel/UCMqDNxbz16w8pxpmsa6s8GQ
+- https://www.linkedin.com/company/bithyve
+- https://t.me/bitcoinkeeper
 redirect_from: 
-developerName: 'BitHyve UK Ltd.'
+developerName: BitHyve UK Ltd.
 features: 
 
 ---

@@ -1,38 +1,38 @@
 ---
-wsId: 'nanovestio'
+wsId: nanovestio
 title: 'Nanovest: Buy Bitcoin, Crypto'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000000
-appId: 'com.nanovest.prod'
+appId: com.nanovest.prod
 appCountry: 
-released: '2023-06-08'
+released: 2023-06-08
 updated: 2025-02-10
-version: '4.2.0'
+version: 4.2.0
 stars: 4.4
 ratings: 
 reviews: 29
-website: 'https://nanovest.zendesk.com/hc/en-us'
+website: https://nanovest.zendesk.com/hc/en-us
 repository: 
 issue: 
-icon: 'com.nanovest.prod.png'
+icon: com.nanovest.prod.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2024-09-03'
+date: 2024-09-03
 signer: 
 reviewArchive: 
-twitter: 'nanovest_io'
+twitter: nanovest_io
 social:
-- 'https://www.facebook.com/nanovest'
-- 'https://www.tiktok.com/@nanovest.io'
-- 'https://www.youtube.com/channel/UC5Y5fD2FApTWMc0c2mlxzIg'
-- 'https://www.instagram.com/nanovest.io'
-- 'https://t.me/nanovest'
+- https://www.facebook.com/nanovest
+- https://www.tiktok.com/@nanovest.io
+- https://www.youtube.com/channel/UC5Y5fD2FApTWMc0c2mlxzIg
+- https://www.instagram.com/nanovest.io
+- https://t.me/nanovest
 redirect_from: 
-developerName: 'Nanovest'
+developerName: Nanovest
 features: 
 
 ---

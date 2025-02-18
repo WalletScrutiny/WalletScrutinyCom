@@ -4,24 +4,23 @@ title: 'Swapitway : Sell Trade or Swap Gift Card & Bitcoin'
 altTitle: 
 authors: 
 users: 500
-appId: 'swapitway.sw'
+appId: swapitway.sw
 appCountry: 
-released: '2021-02-10'
-updated: '2021-02-21'
+released: 2021-02-10
+updated: 2021-02-21
 version: '2.5'
 stars: 3.7
 ratings: 15
 reviews: 10
-size: '8.9M'
 website: 
 repository: 
 issue: 
-icon: 'swapitway.sw.jpg'
+icon: swapitway.sw.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'fewusers'
+meta: removed
+verdict: fewusers
 appHashes: 
-date: '2021-09-06'
+date: 2021-09-06
 signer: 
 reviewArchive: 
 twitter: 

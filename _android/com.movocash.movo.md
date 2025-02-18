@@ -1,38 +1,37 @@
 ---
-wsId: 'MOVOCash'
-title: 'MOVO - Send to Spend'
+wsId: MOVOCash
+title: MOVO - Send to Spend
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 50000
-appId: 'com.movocash.movo'
+appId: com.movocash.movo
 appCountry: 
-released: '2021-04-01'
-updated: '2022-12-13'
-version: '4.3.3'
+released: 2021-04-01
+updated: 2022-12-13
+version: 4.3.3
 stars: 3.1
 ratings: 
 reviews: 143
-size: 
-website: 'http://movo.cash'
+website: http://movo.cash
 repository: 
 issue: 
-icon: 'com.movocash.movo.jpg'
+icon: com.movocash.movo.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'nosendreceive'
+meta: removed
+verdict: nosendreceive
 appHashes: 
-date: '2023-08-16'
+date: 2023-08-16
 signer: 
 reviewArchive: 
-twitter: 'MovoCash'
+twitter: MovoCash
 social:
-- 'https://www.facebook.com/movocash/'
-- 'https://www.instagram.com/movocash.app/'
-- 'https://www.youtube.com/channel/UCtRllQIvR-PzMvqqexzA_Aw'
-- 'https://www.linkedin.com/company/movocash-inc-/'
+- https://www.facebook.com/movocash/
+- https://www.instagram.com/movocash.app/
+- https://www.youtube.com/channel/UCtRllQIvR-PzMvqqexzA_Aw
+- https://www.linkedin.com/company/movocash-inc-/
 redirect_from: 
-developerName: 'MovoCash, Inc.'
+developerName: MovoCash, Inc.
 features: 
 
 ---

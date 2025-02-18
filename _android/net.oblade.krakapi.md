@@ -1,33 +1,33 @@
 ---
 wsId: 
-title: 'KrakAPI'
+title: KrakAPI
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'net.oblade.krakapi'
+appId: net.oblade.krakapi
 appCountry: 
-released: '2019-08-09'
+released: 2019-08-09
 updated: 2023-01-10
-version: '2.6.8'
+version: 2.6.8
 stars: 4.1
 ratings: 533
 reviews: 16
-website: 'http://www.oblade.net'
+website: http://www.oblade.net
 repository: 
 issue: 
-icon: 'net.oblade.krakapi.png'
+icon: net.oblade.krakapi.png
 bugbounty: 
-meta: 'obsolete'
-verdict: 'nowallet'
+meta: obsolete
+verdict: nowallet
 appHashes: 
-date: '2024-12-31'
+date: 2024-12-31
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'MyOblade'
+developerName: MyOblade
 features: 
 
 ---

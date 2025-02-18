@@ -1,34 +1,34 @@
 ---
-wsId: 'hashwalletManager'
-title: 'HASHWallet Manager'
+wsId: hashwalletManager
+title: HASHWallet Manager
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.esignus.hashwalletmanager'
+appId: com.esignus.hashwalletmanager
 appCountry: 
-released: '2022-09-22'
+released: 2022-09-22
 updated: 2024-12-04
-version: '2.0.23'
+version: 2.0.23
 stars: 2.7
 ratings: 
 reviews: 4
-website: 'https://gethashwallet.com'
+website: https://gethashwallet.com
 repository: 
 issue: 
-icon: 'com.esignus.hashwalletmanager.png'
+icon: com.esignus.hashwalletmanager.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2024-01-09'
+date: 2024-01-09
 signer: 
 reviewArchive: 
 twitter: 
 social:
-- 'https://t.me/hashwallet'
+- https://t.me/hashwallet
 redirect_from: 
-developerName: 'eSignus Security Solutions'
+developerName: eSignus Security Solutions
 features: 
 
 ---

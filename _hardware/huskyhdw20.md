@@ -3,7 +3,7 @@ title: Husky HDW20
 appId: huskyhdw20
 authors:
 - danny
-released: '2021-02-23'
+released: 2021-02-23
 discontinued: 
 updated: 
 version: 
@@ -26,7 +26,7 @@ bugbounty:
 meta: defunct
 verdict: nosource
 appHashes: 
-date: '2025-02-06'
+date: 2025-02-06
 signer: 
 reviewArchive: 
 twitter: 

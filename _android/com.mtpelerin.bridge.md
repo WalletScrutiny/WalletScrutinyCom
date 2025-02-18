@@ -1,38 +1,38 @@
 ---
-wsId: 'bridgeWallet'
+wsId: bridgeWallet
 title: 'Bridge Wallet: Bitcoin, crypto'
 altTitle: 
 authors:
-- 'leo'
-- 'danny'
+- leo
+- danny
 users: 100000
-appId: 'com.mtpelerin.bridge'
-appCountry: 'us'
-released: '2020-04-07'
+appId: com.mtpelerin.bridge
+appCountry: us
+released: 2020-04-07
 updated: 2024-11-06
 version: '1.46'
-stars: 4
+stars: 4.1
 ratings: 178
-reviews: 28
-website: 'https://www.mtpelerin.com/bridge-wallet'
+reviews: 29
+website: https://www.mtpelerin.com/bridge-wallet
 repository: 
 issue: 
-icon: 'com.mtpelerin.bridge.png'
+icon: com.mtpelerin.bridge.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nosource'
+meta: ok
+verdict: nosource
 appHashes: 
-date: '2024-07-13'
+date: 2024-07-13
 signer: 
 reviewArchive: 
-twitter: 'mtpelerin'
+twitter: mtpelerin
 social:
-- 'https://www.linkedin.com/company/mt-pelerin'
-- 'https://www.facebook.com/mtpelerin'
-- 'https://www.reddit.com/r/MtPelerin'
+- https://www.linkedin.com/company/mt-pelerin
+- https://www.facebook.com/mtpelerin
+- https://www.reddit.com/r/MtPelerin
 redirect_from:
-- '/com.mtpelerin.bridge/'
-developerName: 'Mt Pelerin Group SA'
+- /com.mtpelerin.bridge/
+developerName: Mt Pelerin Group SA
 features: 
 
 ---

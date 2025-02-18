@@ -7,12 +7,11 @@ authors:
 appId: com.rapixchangeapp
 appCountry: us
 idd: '1635550806'
-released: '2022-08-30'
-updated: '2023-03-21'
+released: 2022-08-30
+updated: 2023-03-21
 version: '2.4'
 stars: 5
 reviews: 2
-size: '52870144'
 website: https://www.rapixchange.com/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
 twitter: 

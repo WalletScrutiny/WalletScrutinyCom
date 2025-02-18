@@ -3,32 +3,31 @@ wsId:
 title: 'Rixx: Trading Assistant'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'technology.def.rixx'
+appId: technology.def.rixx
 appCountry: 
-released: '2021-04-27'
-updated: '2021-06-21'
-version: '1.0.42'
+released: 2021-04-27
+updated: 2021-06-21
+version: 1.0.42
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'http://www.rixx.tech'
+website: http://www.rixx.tech
 repository: 
 issue: 
-icon: 'technology.def.rixx.png'
+icon: technology.def.rixx.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nowallet'
+meta: removed
+verdict: nowallet
 appHashes: 
-date: '2024-03-02'
+date: 2024-03-02
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Def Technology'
+developerName: Def Technology
 features: 
 
 ---

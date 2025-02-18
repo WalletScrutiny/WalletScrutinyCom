@@ -1,38 +1,37 @@
 ---
 wsId: 
-title: 'IndocoDex - The Advanced Decen'
+title: IndocoDex - The Advanced Decen
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'app.indocodex.com'
+appId: app.indocodex.com
 appCountry: 
-released: '2020-06-23'
-updated: '2021-05-18'
-version: '1.1.7'
+released: 2020-06-23
+updated: 2021-05-18
+version: 1.1.7
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://www.indocodex.com'
+website: https://www.indocodex.com
 repository: 
 issue: 
-icon: 'app.indocodex.com.png'
+icon: app.indocodex.com.png
 bugbounty: 
-meta: 'removed'
-verdict: 'wip'
+meta: removed
+verdict: wip
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
-twitter: 'indocodex'
+twitter: indocodex
 social:
-- 'https://www.facebook.com/indocodex'
-- 'https://www.youtube.com/channel/UCIxdFFckX14sU_1TD8fcFLQ'
-- 'https://www.instagram.com/indocodex'
-- 'mailto:admin@indocodex.com'
+- https://www.facebook.com/indocodex
+- https://www.youtube.com/channel/UCIxdFFckX14sU_1TD8fcFLQ
+- https://www.instagram.com/indocodex
+- mailto:admin@indocodex.com
 redirect_from: 
-developerName: 'Indocodex - Rajacoin'
+developerName: Indocodex - Rajacoin
 features: 
 
 ---

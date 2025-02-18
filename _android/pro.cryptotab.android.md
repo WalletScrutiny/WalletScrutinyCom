@@ -1,33 +1,33 @@
 ---
-wsId: 'CryptoTabPro'
-title: 'CryptoTab Browser Pro Level'
+wsId: CryptoTabPro
+title: CryptoTab Browser Pro Level
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000000
-appId: 'pro.cryptotab.android'
-appCountry: 'us'
-released: '2020-01-24'
+appId: pro.cryptotab.android
+appCountry: us
+released: 2020-01-24
 updated: 2025-01-17
-version: '4.4.25'
+version: 4.4.25
 stars: 4.1
 ratings: 63867
-reviews: 2710
-website: 'https://cryptocompany.site/'
+reviews: 2712
+website: https://cryptocompany.site/
 repository: 
 issue: 
-icon: 'pro.cryptotab.android.png'
+icon: pro.cryptotab.android.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2021-08-21'
+date: 2021-08-21
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'CryptoCompany OU'
+developerName: CryptoCompany OU
 features: 
 
 ---

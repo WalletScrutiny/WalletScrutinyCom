@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'CryptoPia'
+title: CryptoPia
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'cryptopia.mobile'
+appId: cryptopia.mobile
 appCountry: 
-released: '2019-09-05'
-updated: '2019-09-08'
-version: '1.0.2'
+released: 2019-09-05
+updated: 2019-09-08
+version: 1.0.2
 stars: 1.9
 ratings: 30
 reviews: 3
-size: 
-website: 'http://smilestory.io'
+website: http://smilestory.io
 repository: 
 issue: 
-icon: 'cryptopia.mobile.png'
+icon: cryptopia.mobile.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2023-08-04'
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'Smilestory Co., Ltd.'
+developerName: Smilestory Co., Ltd.
 features: 
 
 ---

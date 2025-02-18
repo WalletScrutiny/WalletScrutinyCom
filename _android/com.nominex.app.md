@@ -1,36 +1,35 @@
 ---
-wsId: 'Nominex'
+wsId: Nominex
 title: 'Nominex: Cryptocurrency tradin'
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'com.nominex.app'
-appCountry: 'ru'
-released: '2021-06-01'
-updated: '2021-12-13'
-version: '1.4.0'
+appId: com.nominex.app
+appCountry: ru
+released: 2021-06-01
+updated: 2021-12-13
+version: 1.4.0
 stars: 3.5
 ratings: 173
 reviews: 38
-size: 
-website: 'https://nominex.io/defi-nmx'
+website: https://nominex.io/defi-nmx
 repository: 
 issue: 
-icon: 'com.nominex.app.png'
+icon: com.nominex.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
-twitter: 'NominexExchange'
+twitter: NominexExchange
 social:
-- 'https://www.linkedin.com/company/nominex'
-- 'https://www.facebook.com/Nominex'
+- https://www.linkedin.com/company/nominex
+- https://www.facebook.com/Nominex
 redirect_from: 
-developerName: 'Nominex Ltd.'
+developerName: Nominex Ltd.
 features: 
 
 ---

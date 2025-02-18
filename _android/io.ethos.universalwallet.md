@@ -1,35 +1,34 @@
 ---
-wsId: 'ethosUW'
-title: 'Ethos Universal Wallet'
+wsId: ethosUW
+title: Ethos Universal Wallet
 altTitle: 
 authors: 
 users: 50000
-appId: 'io.ethos.universalwallet'
+appId: io.ethos.universalwallet
 appCountry: 
-released: '2018-07-10'
-updated: '2019-12-05'
-version: '2.0.5'
+released: 2018-07-10
+updated: 2019-12-05
+version: 2.0.5
 stars: 3.1
 ratings: 1529
 reviews: 193
-size: 
-website: 'https://www.ethos.io/'
+website: https://www.ethos.io/
 repository: 
 issue: 
-icon: 'io.ethos.universalwallet.png'
+icon: io.ethos.universalwallet.png
 bugbounty: 
-meta: 'removed'
-verdict: 'nosource'
+meta: removed
+verdict: nosource
 appHashes: 
-date: '2024-04-03'
+date: 2024-04-03
 signer: 
 reviewArchive: 
-twitter: 'ethos_io'
+twitter: ethos_io
 social:
-- 'https://www.facebook.com/ethosplatform'
-- 'https://www.reddit.com/r/ethos_io'
+- https://www.facebook.com/ethosplatform
+- https://www.reddit.com/r/ethos_io
 redirect_from: 
-developerName: 'Ethos.io PTE LTD'
+developerName: Ethos.io PTE LTD
 features: 
 
 ---

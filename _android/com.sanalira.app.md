@@ -1,37 +1,36 @@
 ---
-wsId: 'sanaLiraExchangeTurkey'
-title: 'Sanalira'
+wsId: sanaLiraExchangeTurkey
+title: Sanalira
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 5000
-appId: 'com.sanalira.app'
+appId: com.sanalira.app
 appCountry: 
-released: '2022-01-28'
-updated: '2022-06-14'
-version: '1.0.32'
+released: 2022-01-28
+updated: 2022-06-14
+version: 1.0.32
 stars: 4.3
 ratings: 
 reviews: 
-size: 
-website: 'https://www.sanalira.com'
+website: https://www.sanalira.com
 repository: 
 issue: 
-icon: 'com.sanalira.app.png'
+icon: com.sanalira.app.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-04-19'
+date: 2024-04-19
 signer: 
 reviewArchive: 
-twitter: 'sanaliracom'
+twitter: sanaliracom
 social:
-- 'https://www.facebook.com/sanaliracom'
-- 'https://www.instagram.com/sanaliracom'
-- 'https://www.linkedin.com/company/sanalira'
+- https://www.facebook.com/sanaliracom
+- https://www.instagram.com/sanaliracom
+- https://www.linkedin.com/company/sanalira
 redirect_from: 
-developerName: 'SANALİRA'
+developerName: SANALİRA
 features: 
 
 ---

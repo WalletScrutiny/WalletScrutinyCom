@@ -1,35 +1,35 @@
 ---
-wsId: 'bitrue'
-title: 'Bitrue - Buy XRP, BTC & Crypto'
+wsId: bitrue
+title: Bitrue - Buy XRP, BTC & Crypto
 altTitle: 
 authors:
-- 'leo'
+- leo
 users: 500000
-appId: 'com.bitrue.currency.exchange'
+appId: com.bitrue.currency.exchange
 appCountry: 
-released: '2018-07-18'
+released: 2018-07-18
 updated: 2025-01-27
-version: '6.0.11'
+version: 6.0.12
 stars: 4.1
 ratings: 2703
 reviews: 666
-website: 'https://www.bitrue.com/'
+website: https://www.bitrue.com/
 repository: 
 issue: 
-icon: 'com.bitrue.currency.exchange.png'
+icon: com.bitrue.currency.exchange.png
 bugbounty: 
-meta: 'ok'
-verdict: 'custodial'
+meta: ok
+verdict: custodial
 appHashes: 
-date: '2020-11-17'
+date: 2020-11-17
 signer: 
 reviewArchive: 
-twitter: 'BitrueOfficial'
+twitter: BitrueOfficial
 social:
-- 'https://www.facebook.com/BitrueOfficial'
+- https://www.facebook.com/BitrueOfficial
 redirect_from:
-- '/com.bitrue.currency.exchange/'
-developerName: 'Bitrue Support'
+- /com.bitrue.currency.exchange/
+developerName: Bitrue Support
 features: 
 
 ---

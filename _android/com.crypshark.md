@@ -1,34 +1,33 @@
 ---
 wsId: 
-title: 'Crypshark Fincity Wallet - Buy'
+title: Crypshark Fincity Wallet - Buy
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.crypshark'
+appId: com.crypshark
 appCountry: 
-released: '2021-05-20'
-updated: '2022-07-19'
-version: '1.0.0.39-cryptoshark'
+released: 2021-05-20
+updated: 2022-07-19
+version: 1.0.0.39-cryptoshark
 stars: 
 ratings: 
 reviews: 
-size: 
-website: 'https://crypshark.com/'
+website: https://crypshark.com/
 repository: 
 issue: 
-icon: 'com.crypshark.png'
+icon: com.crypshark.png
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2023-08-04'
+date: 2023-08-04
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: 'FINCITY'
+developerName: FINCITY
 features: 
 
 ---

@@ -7,12 +7,11 @@ authors:
 appId: io.wallet.ios
 appCountry: us
 idd: 1459857368
-released: '2019-10-08'
-updated: '2021-11-19'
-version: '1.14.1'
+released: 2019-10-08
+updated: 2021-11-19
+version: 1.14.1
 stars: 3.5
 reviews: 21
-size: '82045952'
 website: https://wallet.io/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: nosource
 appHashes: 
-date: '2024-05-07'
+date: 2024-05-07
 signer: 
 reviewArchive: 
 twitter: io_wallet

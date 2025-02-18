@@ -1,35 +1,35 @@
 ---
-wsId: 'bitcoinTapToPay'
-title: 'Bitcoin App - Tap to Pay'
+wsId: bitcoinTapToPay
+title: Bitcoin App - Tap to Pay
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 10000
-appId: 'io.taptopay'
+appId: io.taptopay
 appCountry: 
-released: '2022-07-27'
+released: 2022-07-27
 updated: 2022-08-25
-version: '1.0.1'
+version: 1.0.1
 stars: 4.5
 ratings: 
 reviews: 5
-website: 'https://taptopay.io'
+website: https://taptopay.io
 repository: 
 issue: 
-icon: 'io.taptopay.png'
+icon: io.taptopay.png
 bugbounty: 
-meta: 'obsolete'
-verdict: 'nowallet'
+meta: obsolete
+verdict: nowallet
 appHashes: 
-date: '2024-08-15'
+date: 2024-08-15
 signer: 
 reviewArchive: 
-twitter: 'taptopayapp'
+twitter: taptopayapp
 social:
-- 'https://www.facebook.com/profile.php?id=100084868899589'
-- 'https://www.linkedin.com/company/taptopayinc'
+- https://www.facebook.com/profile.php?id=100084868899589
+- https://www.linkedin.com/company/taptopayinc
 redirect_from: 
-developerName: 'Tap to Pay, Inc.'
+developerName: Tap to Pay, Inc.
 features: 
 
 ---

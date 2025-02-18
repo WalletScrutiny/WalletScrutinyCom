@@ -1,36 +1,35 @@
 ---
-wsId: 'Vauld'
-title: 'Vauld'
+wsId: Vauld
+title: Vauld
 altTitle: 
 authors:
-- 'kiwilamb'
-appId: 'com.bankofhodlers.app'
+- kiwilamb
+appId: com.bankofhodlers.app
 appCountry: 
 idd: '1509251174'
-released: '2020-05-12'
-updated: '2023-11-09'
-version: '2.9.0.1'
+released: 2020-05-12
+updated: 2023-11-09
+version: 2.9.0.1
 stars: 4
 reviews: 299
-size: '71138304'
-website: 'https://www.vauld.com/'
+website: https://www.vauld.com/
 repository: 
 issue: 
-icon: 'com.bankofhodlers.app.jpg'
+icon: com.bankofhodlers.app.jpg
 bugbounty: 
-meta: 'removed'
-verdict: 'custodial'
+meta: removed
+verdict: custodial
 appHashes: 
-date: '2024-09-03'
+date: 2024-09-03
 signer: 
 reviewArchive: 
-twitter: 'Vauld_'
+twitter: Vauld_
 social:
-- 'https://www.linkedin.com/company/vauld'
-- 'https://www.facebook.com/VauldOfficial'
-- 'https://www.reddit.com/r/BankofHodlers'
+- https://www.linkedin.com/company/vauld
+- https://www.facebook.com/VauldOfficial
+- https://www.reddit.com/r/BankofHodlers
 features: 
-developerName: 'DEFI TECHNOLOGIES PTE. LTD.'
+developerName: DEFI TECHNOLOGIES PTE. LTD.
 
 ---
 

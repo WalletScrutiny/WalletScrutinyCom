@@ -7,12 +7,11 @@ authors:
 appId: com.zbx.www
 appCountry: us
 idd: 1458088759
-released: '2019-05-26'
-updated: '2023-01-13'
-version: '2.3.2'
+released: 2019-05-26
+updated: 2023-01-13
+version: 2.3.2
 stars: 4.3
 reviews: 4
-size: '57952256'
 website: https://www.zbx.one/
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: removed
 verdict: custodial
 appHashes: 
-date: '2023-04-16'
+date: 2023-04-16
 signer: 
 reviewArchive: 
 twitter: zbx_com

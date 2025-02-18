@@ -1,36 +1,36 @@
 ---
-wsId: 'thorYieldApp'
-title: 'THORYield'
+wsId: thorYieldApp
+title: THORYield
 altTitle: 
 authors:
-- 'danny'
+- danny
 users: 1000
-appId: 'com.thoryield.androidapp'
+appId: com.thoryield.androidapp
 appCountry: 
-released: '2022-03-30'
+released: 2022-03-30
 updated: 2024-11-01
-version: '2.0.42'
+version: 2.0.42
 stars: 4.8
 ratings: 
 reviews: 6
-website: 'https://thoryield.com'
+website: https://thoryield.com
 repository: 
 issue: 
-icon: 'com.thoryield.androidapp.png'
+icon: com.thoryield.androidapp.png
 bugbounty: 
-meta: 'ok'
-verdict: 'nowallet'
+meta: ok
+verdict: nowallet
 appHashes: 
-date: '2023-06-03'
+date: 2023-06-03
 signer: 
 reviewArchive: 
-twitter: 'thoryieldapp'
+twitter: thoryieldapp
 social:
-- 'https://discord.com/invite/thorswap'
-- 'https://t.me/thorswap_ann'
-- 'https://thorswap.medium.com'
+- https://discord.com/invite/thorswap
+- https://t.me/thorswap_ann
+- https://thorswap.medium.com
 redirect_from: 
-developerName: 'Inflekta'
+developerName: Inflekta
 features: 
 
 ---

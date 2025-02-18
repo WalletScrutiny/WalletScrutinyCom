@@ -7,12 +7,11 @@ authors:
 appId: com.btckorea.bithumb
 appCountry: kr
 idd: 1299421592
-released: '2017-12-05'
-updated: '2025-02-12'
-version: '2.6.6'
+released: 2017-12-05
+updated: 2025-02-14
+version: 2.6.8
 stars: 2
-reviews: 3454
-size: '302964736'
+reviews: 3470
 website: https://en.bithumb.com
 repository: 
 issue: 
@@ -21,7 +20,7 @@ bugbounty:
 meta: ok
 verdict: custodial
 appHashes: 
-date: '2024-10-07'
+date: 2024-10-07
 signer: 
 reviewArchive: 
 twitter: BithumbOfficial
