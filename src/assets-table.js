@@ -52,6 +52,14 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
       const versionA = a.assets ? a.assets[0].tags.find(tag => tag[0] === 'version')?.[1] : a.tags.find(tag => tag[0] === 'version')?.[1] || '';
       const versionB = b.assets ? b.assets[0].tags.find(tag => tag[0] === 'version')?.[1] : b.tags.find(tag => tag[0] === 'version')?.[1] || '';
 
+      // Check for VARY string first
+      const hasVaryA = versionA.includes('VARY');
+      const hasVaryB = versionB.includes('VARY');
+      
+      if (hasVaryA !== hasVaryB) {
+        return hasVaryB ? 1 : -1; // Put VARY versions first
+      }
+
       // Split versions into components and compare numerically
       const partsA = versionA.split('.').map(part => parseInt(part) || 0);
       const partsB = versionB.split('.').map(part => parseInt(part) || 0);
