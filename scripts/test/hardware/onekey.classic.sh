@@ -1,5 +1,5 @@
 #!/bin/bash
-# onekey.sh
+# onekey.classic.sh
 # $ ./onekey.sh <type> <version> <short hash> <short release date>
 # Example: ./scripts/test/hardware/onekey.sh classic 3.9.0 f3b0717 0805
 # You might need to change permissions on the output folder: chmod a+rwx "${PWD}/output"
@@ -126,6 +126,7 @@ docker run --rm -it \
     # Calculate firmware hashes
     BUILT_FILE=$(ls /home/nixuser/output/${TYPE}*Stable*.bin | head -n1)
     BUILT_HASH=$(tail -c +1024 "$BUILT_FILE" | shasum -a 256 | awk "{print \$1}")
+    BUILT_FULL_HASH=$(sha256sum "$BUILT_FILE" | awk "{print \$1}")
     GH_INC_HASH=$(sha256sum downloaded-firmware.bin | awk "{print \$1}")
     GH_EXC_HASH=$(tail -c +1024 downloaded-firmware.bin | shasum -a 256 | awk "{print \$1}")
 
@@ -138,6 +139,7 @@ docker run --rm -it \
     # Display the results with the new formatting
     echo -e "\e[96m===== Begin Results ====="
     echo "${BUILT_HASH} - built firmware hash (excluding header)"
+    echo "${BUILT_FULL_HASH} - built firmware hash (full, including header)"
     echo "${GH_INC_HASH} - downloaded firmware hash (including header) (from: github releases)"
     echo "${GH_EXC_HASH} - downloaded firmware hash (excluding header) (from: github releases)"
     echo "${CDN_INC_HASH} - downloaded firmware hash (including header) (from: OneKey CDN)"
@@ -146,4 +148,4 @@ docker run --rm -it \
     '
 
 echo "Build completed. Check the 'output' directory for results."
-trap 'chmod -R 777 "${BUILD_DIR}" && rm -rf "${BUILD_DIR}"' EXIT
+trap 'sudo chmod -R 777 "${BUILD_DIR}" 2>/dev/null && sudo rm -rf "${BUILD_DIR}"' EXIT
