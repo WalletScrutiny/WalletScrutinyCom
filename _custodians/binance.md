@@ -79,7 +79,7 @@ custodian:
     users: "128M"
     cryptographicProof:
       btcAmount: "622K BTC"
-      totalAssets: 
+      totalAssets: ""
       lastUpdated: "2024-01-30"
       source: "Binance Proof of Reserves"
       sourceUrl: "https://www.binance.com/en/proof-of-reserves"
@@ -94,11 +94,11 @@ custodian:
       valid: true
 
     selfReported:
-      btcAmount: 
-      totalAssets: 
-      lastUpdated: 
+      btcAmount: ""
+      totalAssets: ""
+      lastUpdated: ""
       source: ""
-      sourceUrl: 
+      sourceUrl: ""
       valid: false
 
   trackRecord:

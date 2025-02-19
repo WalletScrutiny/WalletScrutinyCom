@@ -83,12 +83,12 @@ custodian:
   operations:
     users: "110M"
     cryptographicProof:
-      btcAmount: ""
+      btcAmount: "26.5K BTC"
       totalAssets: ""
-      lastUpdated: ""
-      source: ""
-      sourceUrl: ""
-      valid: false
+      lastUpdated: "2025-02-19"
+      source: "cbbtc Proof of Reserves"
+      sourceUrl: "https://www.coinbase.com/cbbtc/proof-of-reserves"
+      valid: true
     
     thirdPartyAudit:
       btcAmount: "887K BTC"
