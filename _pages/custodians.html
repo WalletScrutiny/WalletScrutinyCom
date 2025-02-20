@@ -1,0 +1,138 @@
+---
+layout: archive
+title: Custodians
+permalink: /custodians/
+---
+
+{% include base_path %}
+
+<div class="custodians-wrapper">
+  <div class="custodians-grid">
+    {% assign custodians = site.custodians | sort: "name" %}
+    {% for custodian in custodians %}
+      {% unless custodian.name contains "template" %}
+        <div class="custodian-card component">
+          <div class="custodian-content">
+            <div class="custodian-header">
+              {% if custodian.icon %}
+                <img src="/images/wIcons/custodians/{{ custodian.icon }}" alt="{{ custodian.title }} logo" class="custodian-logo">
+              {% endif %}
+              <h2 class="custodian-name">{{ custodian.title }}</h2>
+            </div>
+            <div class="custodian-details">
+              <p class="custodian-description">{{ custodian.custodian.description | truncate: 150 }}</p>
+              <div class="custodian-stats">
+                <div class="stat">
+                  <span class="stat-label">Years in Business</span>
+                  <span class="stat-value">{{ custodian.custodian.yearsInBusiness | default: "N/A" }}</span>
+                </div>
+                <div class="stat">
+                  <span class="stat-label">Jurisdiction</span>
+                  <span class="stat-value">{{ custodian.custodian.leadership.jurisdiction | default: "N/A" }}</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="{{ custodian.url }}" class="custodian-link">View Details</a>
+        </div>
+      {% endunless %}
+    {% endfor %}
+  </div>
+</div>
+
+<style>
+.custodians-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.custodians-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.custodian-card {
+  background: var(--accent-50);
+  border-radius: 4px;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.custodian-card:hover {
+  transform: translateY(-2px);
+}
+
+.custodian-content {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.custodian-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.custodian-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.custodian-name {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.custodian-description {
+  margin-bottom: 15px;
+  color: var(--text);
+}
+
+.custodian-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-label {
+  font-size: 0.9em;
+  color: var(--text);
+  opacity: 0.8;
+}
+
+.stat-value {
+  font-weight: bold;
+}
+
+.custodian-link {
+  padding: 15px 20px;
+  background: var(--accent);
+  color: var(--body);
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+.custodian-link:hover {
+  background: var(--accent-dark);
+}
+
+@media (max-width: 768px) {
+  .custodians-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
