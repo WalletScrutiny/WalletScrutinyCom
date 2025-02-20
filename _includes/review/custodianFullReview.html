@@ -399,6 +399,15 @@
       </div>
       {% endif %}
 
+      {% if custodian.operations.notes %}
+      <div class="more-info-button">
+        <div class="more-info-text">More Info</div>
+        <div class="more-info-circle">
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </div>
+      {% endif %}
+
       {% if custodian.operations.selfReported.valid %}
       <div class="custody-section">
         <h4>Self-Reported / Filings</h4>
@@ -413,13 +422,10 @@
         </div>
       </div>
       {% endif %}
-
+      
       {% if custodian.operations.notes %}
-      <div class="custody-section">
-        <h4>Additional Notes</h4>
-        <div class="custody-info">
-          {{ custodian.operations.notes }}
-        </div>
+      <div class="notes-content hidden">
+        {{ custodian.operations.notes }}
       </div>
       {% endif %}
     </div>
@@ -1409,6 +1415,61 @@
   background-color: #28a745;
 }
 
+.custody-section {
+  margin-bottom: 2rem;
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.notes-content.hidden {
+  display: none;
+}
+
+.notes-content {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.more-info-button {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  margin: -1rem auto;
+  z-index: 2;
+  width: fit-content;
+}
+
+.more-info-text {
+  background: #d7deef;
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: -12px;
+  z-index: 2;
+}
+
+.more-info-circle {
+  width: 32px;
+  height: 32px;
+  background: #c8d0e5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+}
+
+.more-info-button.active .more-info-circle {
+  transform: rotate(180deg);
+}
+
 .design-published {
   color: #ffffff;
   background-color: #198754;
@@ -2180,6 +2241,17 @@ function toggleAppsView() {
 
 // Initialize scoring when DOM is loaded
 document.addEventListener('DOMContentLoaded', () => {
+  // Initialize notes toggle functionality
+  const moreInfoButtons = document.querySelectorAll('.more-info-button');
+  
+  moreInfoButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      const notesContent = button.parentElement.querySelector('.notes-content');
+      notesContent.classList.toggle('hidden');
+      button.classList.toggle('active');
+    });
+  });
+
   // Initialize OSINT toggle functionality
   const osintToggle = document.querySelector('.toggle-osint');
   if (osintToggle) {
