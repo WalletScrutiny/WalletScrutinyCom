@@ -14,7 +14,7 @@ pre {
 }
 </style>
 
-<script type="text/javascript" src="{{'/dist/attestation.bundle.min.js' | relative_url }}"></script>
+<script type="text/javascript" src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
 
 <div class="verifications-intro">
     <h2>What are User Created Nostr Verifications?</h2>

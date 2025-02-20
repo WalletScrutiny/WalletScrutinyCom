@@ -60,7 +60,7 @@ permalink: /verifier/
   <div class="spinner"></div>
 </div>
 
-<script src="{{'/dist/attestation.bundle.min.js' | relative_url }}"></script>
+<script src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
 
 <script>
   const urlParams = new URLSearchParams(window.location.search);
