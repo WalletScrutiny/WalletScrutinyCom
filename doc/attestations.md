@@ -85,7 +85,7 @@ Trust in verifications is built through:
 *Note: Replacing the Verification event invalidates the Endorsement. Clients should find where this happens and ask for re-endorsement.*
 
 ## Functionality presented to users
-1. Assets page: by default will show the latest assets found, with search functionality that let users search
+1. Assets Registry page: by default will show the latest assets reported by users, with search functionality that let users search
 for a specific asset by hash or download url. The list will show the verifications each binary has, or lack of. It
 will also have a way to upload binaries and create "Asset Registration" events. 
 2. Current wallet pages in WS: show binaries with their verification result (if any), and buttons that go to pages
