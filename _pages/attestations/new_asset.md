@@ -16,7 +16,7 @@ permalink: /new_asset/
   </div>
 
   <div style="margin: 1.5em; margin-left: 0;" class="drag-and-drop-area">
-    {% include /attestations/dragAndDropArea.html buttonMessage="Drop file to calculate" %}
+    {% include /verifications/dragAndDropArea.html buttonMessage="Drop file to calculate" %}
   </div>
 
   <form id="assetForm" onsubmit="handleSubmit(event)">
