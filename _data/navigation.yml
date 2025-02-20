@@ -1,7 +1,7 @@
 # main links
 main:
-  - title: "<div>Attestations</div>"
-    url: /attestations/
+  - title: "<div>Verifications</div>"
+    url: /verifications/
   - title: "<div>Methodology</div>"
     url: /methodology/
   - title: "<div>About</div>"
