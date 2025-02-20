@@ -39,10 +39,12 @@ layout: default
           {% endif %}
           <div style="margin-top: 0.3rem; display: flex; gap: 0.5rem;">
             {% if page.custodian.operations.users %}
-              <div style="display: flex; flex-direction: column; background: white; border-radius: 8px; padding: 0.35rem 0.75rem; box-shadow: 0 1px 3px rgba(0,0,0,0.12); min-width: 120px;">
-                <span style="font-size: 1.4rem; font-weight: bold; color: #0052CC; line-height: 1.2;">{{ page.custodian.operations.users }}</span>
-                <span style="font-size: 0.9rem; color: #666; line-height: 1.2;">Users</span>
-              </div>
+              <a href="#bitcoin-custody" class="stat-card">
+                <div style="display: flex; flex-direction: column; background: white; border-radius: 8px; padding: 0.35rem 0.75rem; box-shadow: 0 1px 3px rgba(0,0,0,0.12); min-width: 120px;">
+                  <span style="font-size: 1.4rem; font-weight: bold; color: #0052CC; line-height: 1.2;">{{ page.custodian.operations.users }}</span>
+                  <span style="font-size: 0.9rem; color: #666; line-height: 1.2;">Users</span>
+                </div>
+              </a>
             {% endif %}
             {% assign btc_display = false %}
             {% assign btc_amount = "" %}
@@ -67,15 +69,17 @@ layout: default
             {% endif %}
 
             {% if btc_display %}
-              <div style="display: flex; flex-direction: column; background: white; border-radius: 8px; padding: 0.35rem 0.75rem; box-shadow: 0 1px 3px rgba(0,0,0,0.12); min-width: 120px;">
-                <div style="display: flex; align-items: center; gap: 0.5rem;">
-                  <span style="font-size: 1.4rem; font-weight: bold; color: #0052CC; line-height: 1.2;">{{ btc_amount }}</span>
-                  <a href="{{ btc_source_url }}" target="_blank" rel="noopener" title="Source: {{ btc_source }}" style="color: #666;">
-                    <i class="fas fa-info-circle"></i>
-                  </a>
+              <a href="#bitcoin-custody" class="stat-card">
+                <div style="display: flex; flex-direction: column; background: white; border-radius: 8px; padding: 0.35rem 0.75rem; box-shadow: 0 1px 3px rgba(0,0,0,0.12); min-width: 120px;">
+                  <div style="display: flex; align-items: center; gap: 0.5rem;">
+                    <span style="font-size: 1.4rem; font-weight: bold; color: #0052CC; line-height: 1.2;">{{ btc_amount }}</span>
+                    <a href="{{ btc_source_url }}" target="_blank" rel="noopener" title="Source: {{ btc_source }}" style="color: #666;" onclick="event.stopPropagation();">
+                      <i class="fas fa-info-circle"></i>
+                    </a>
+                  </div>
+                  <span style="font-size: 0.9rem; color: #666; line-height: 1.2;">BTC Amount</span>
                 </div>
-                <span style="font-size: 0.9rem; color: #666; line-height: 1.2;">BTC Amount</span>
-              </div>
+              </a>
             {% endif %}
 
             {% assign assets_display = false %}
@@ -101,15 +105,17 @@ layout: default
             {% endif %}
 
             {% if assets_display %}
-              <div style="display: flex; flex-direction: column; background: white; border-radius: 8px; padding: 0.35rem 0.75rem; box-shadow: 0 1px 3px rgba(0,0,0,0.12); min-width: 120px;">
-                <div style="display: flex; align-items: center; gap: 0.5rem;">
-                  <span style="font-size: 1.4rem; font-weight: bold; color: #0052CC; line-height: 1.2;">{{ total_assets }}</span>
-                  <a href="{{ assets_source_url }}" target="_blank" rel="noopener" title="Source: {{ assets_source }}" style="color: #666;">
-                    <i class="fas fa-info-circle"></i>
-                  </a>
+              <a href="#bitcoin-custody" class="stat-card">
+                <div style="display: flex; flex-direction: column; background: white; border-radius: 8px; padding: 0.35rem 0.75rem; box-shadow: 0 1px 3px rgba(0,0,0,0.12); min-width: 120px;">
+                  <div style="display: flex; align-items: center; gap: 0.5rem;">
+                    <span style="font-size: 1.4rem; font-weight: bold; color: #0052CC; line-height: 1.2;">{{ total_assets }}</span>
+                    <a href="{{ assets_source_url }}" target="_blank" rel="noopener" title="Source: {{ assets_source }}" style="color: #666;" onclick="event.stopPropagation();">
+                      <i class="fas fa-info-circle"></i>
+                    </a>
+                  </div>
+                  <span style="font-size: 0.9rem; color: #666; line-height: 1.2;">Total Assets</span>
                 </div>
-                <span style="font-size: 0.9rem; color: #666; line-height: 1.2;">Total Assets</span>
-              </div>
+              </a>
             {% endif %}
             {% if page.custodian.operations.AssetsUnderCustody %}
               <div style="display: flex; flex-direction: column; background: white; border-radius: 8px; padding: 0.35rem 0.75rem; box-shadow: 0 1px 3px rgba(0,0,0,0.12); min-width: 120px;">
@@ -194,6 +200,15 @@ layout: default
 </div>
 
 <style>
+  .stat-card {
+    text-decoration: none;
+    transition: transform 0.2s ease;
+  }
+
+  .stat-card:hover {
+    transform: translateY(-2px);
+  }
+
   /* Top Panel Layout */
   .top-panel {
     display: grid;
