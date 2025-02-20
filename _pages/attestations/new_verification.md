@@ -21,6 +21,7 @@ permalink: /new_verification/
         <option value="reproducible">Reproducible</option>
         <option value="not_reproducible">Not Reproducible</option>
         <option value="ftbfs">Failed to Build from Source</option>
+        <option value="spam">Spam</option>
       </select>
     </div>
 
@@ -41,6 +42,9 @@ permalink: /new_verification/
     </p>
     <p>
       <b>Failed to Build from Source:</b> You failed to build the asset from source.
+    </p>
+    <p>
+      <b>Spam:</b> The asset is a spam or is not what it says it is.
     </p>
   </div>
   <div id="loadingSpinner" style="display: none;">
