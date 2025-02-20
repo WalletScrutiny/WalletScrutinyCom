@@ -15,17 +15,82 @@ permalink: /custodians/
           {% if custodian.icon %}
             <img src="/images/wIcons/custodians/{{ custodian.icon }}" alt="{{ custodian.title }} logo" class="custodian-logo">
           {% endif %}
-          <span class="custodian-title">{{ custodian.title }}</span>
+          <h2 class="custodian-title">{{ custodian.title }}</h2>
         </div>
         
-        <div class="custodian-stats">
-          <div class="stat-row">
-            <span class="stat-label">Years in Business</span>
-            <span class="stat-value">{{ custodian.custodian.leadership.yearsInBusiness | default: "N/A" }}</span>
+        <div class="custodian-info">
+          <div class="info-row">
+            <div class="info-label">Years in Business</div>
+            <div class="info-value">{{ custodian.custodian.leadership.yearsInBusiness | default: "N/A" }}</div>
           </div>
-          <div class="stat-row">
-            <span class="stat-label">Jurisdiction</span>
-            <span class="stat-value">{{ custodian.custodian.leadership.jurisdiction }}</span>
+          
+          <div class="info-row">
+            <div class="info-label">Jurisdiction</div>
+            <div class="info-value jurisdiction">
+              {% assign jurisdiction = custodian.custodian.leadership.jurisdiction | split: '"' %}
+              {% if jurisdiction.size > 1 %}
+                {{ jurisdiction[0] }}{{ jurisdiction[1] }}
+              {% else %}
+                {{ custodian.custodian.leadership.jurisdiction }}
+              {% endif %}
+            </div>
+          </div>
+        </div>
+
+        <div class="custodian-metrics">
+          <div class="metric">
+            <div class="metric-value">{{ custodian.custodian.operations.users | default: "N/A" }}</div>
+            <div class="metric-label">Users</div>
+          </div>
+          
+          {% assign btcAmount = "N/A" %}
+          {% assign btcSource = "" %}
+          {% assign btcDate = "" %}
+          {% if custodian.custodian.operations.cryptographicProof.valid and custodian.custodian.operations.cryptographicProof.btcAmount != "" %}
+            {% assign btcAmount = custodian.custodian.operations.cryptographicProof.btcAmount %}
+            {% assign btcSource = custodian.custodian.operations.cryptographicProof.source %}
+            {% assign btcDate = custodian.custodian.operations.cryptographicProof.lastUpdated %}
+          {% elsif custodian.custodian.operations.thirdPartyAudit.valid and custodian.custodian.operations.thirdPartyAudit.btcAmount != "" %}
+            {% assign btcAmount = custodian.custodian.operations.thirdPartyAudit.btcAmount %}
+            {% assign btcSource = custodian.custodian.operations.thirdPartyAudit.source %}
+            {% assign btcDate = custodian.custodian.operations.thirdPartyAudit.lastUpdated %}
+          {% elsif custodian.custodian.operations.selfReported.valid and custodian.custodian.operations.selfReported.btcAmount != "" %}
+            {% assign btcAmount = custodian.custodian.operations.selfReported.btcAmount %}
+            {% assign btcSource = custodian.custodian.operations.selfReported.source %}
+            {% assign btcDate = custodian.custodian.operations.selfReported.lastUpdated %}
+          {% endif %}
+          
+          <div class="metric">
+            <div class="metric-value">{{ btcAmount }}</div>
+            <div class="metric-label">BTC Amount</div>
+            {% if btcSource != "" %}
+              <i class="fas fa-info-circle info-icon" title="Source: {{ btcSource }}&#10;Last Updated: {{ btcDate }}"></i>
+            {% endif %}
+          </div>
+          
+          {% assign totalAssets = "N/A" %}
+          {% assign assetsSource = "" %}
+          {% assign assetsDate = "" %}
+          {% if custodian.custodian.operations.cryptographicProof.valid and custodian.custodian.operations.cryptographicProof.totalAssets != "" %}
+            {% assign totalAssets = custodian.custodian.operations.cryptographicProof.totalAssets %}
+            {% assign assetsSource = custodian.custodian.operations.cryptographicProof.source %}
+            {% assign assetsDate = custodian.custodian.operations.cryptographicProof.lastUpdated %}
+          {% elsif custodian.custodian.operations.thirdPartyAudit.valid and custodian.custodian.operations.thirdPartyAudit.totalAssets != "" %}
+            {% assign totalAssets = custodian.custodian.operations.thirdPartyAudit.totalAssets %}
+            {% assign assetsSource = custodian.custodian.operations.thirdPartyAudit.source %}
+            {% assign assetsDate = custodian.custodian.operations.thirdPartyAudit.lastUpdated %}
+          {% elsif custodian.custodian.operations.selfReported.valid and custodian.custodian.operations.selfReported.totalAssets != "" %}
+            {% assign totalAssets = custodian.custodian.operations.selfReported.totalAssets %}
+            {% assign assetsSource = custodian.custodian.operations.selfReported.source %}
+            {% assign assetsDate = custodian.custodian.operations.selfReported.lastUpdated %}
+          {% endif %}
+          
+          <div class="metric">
+            <div class="metric-value">{{ totalAssets }}</div>
+            <div class="metric-label">Total Assets</div>
+            {% if assetsSource != "" %}
+              <i class="fas fa-info-circle info-icon" title="Source: {{ assetsSource }}&#10;Last Updated: {{ assetsDate }}"></i>
+            {% endif %}
           </div>
         </div>
         
@@ -39,66 +104,125 @@ permalink: /custodians/
 .custodians-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  gap: 1rem;
-  padding: 1rem;
+  gap: 1.5rem;
+  padding: 1.5rem;
 }
 
 .custodian-card {
   background: #fff;
-  border: 1px solid #e0e0e0;
-  border-radius: 4px;
-  padding: 1rem;
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.custodian-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .custodian-header {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .custodian-logo {
-  width: 24px;
-  height: 24px;
-  object-fit: contain;
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  margin-right: 12px;
 }
 
 .custodian-title {
-  font-size: 1.1rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #24292e;
+  margin: 0;
+}
+
+.custodian-info {
+  margin-bottom: 1.5rem;
+}
+
+.info-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #e1e4e8;
+}
+
+.info-row:last-child {
+  border-bottom: none;
+}
+
+.info-label {
+  color: #586069;
+  font-size: 0.875rem;
+}
+
+.info-value {
+  color: #24292e;
   font-weight: 500;
 }
 
-.custodian-stats {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
-  margin-bottom: 1rem;
-}
-
-.stat-row {
+.jurisdiction {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
 }
 
-.stat-label {
-  font-size: 0.875rem;
-  color: #666;
+.custodian-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.metric {
+  position: relative;
+}
+
+.metric-value {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #0366d6;
   margin-bottom: 0.25rem;
 }
 
-.stat-value {
+.metric-label {
+  font-size: 0.75rem;
+  color: #586069;
+}
+
+.info-icon {
+  color: #586069;
   font-size: 0.875rem;
+  margin-left: 0.25rem;
+  cursor: help;
 }
 
 .view-details {
   display: block;
-  background: #21B6A8;
-  color: white;
-  text-align: center;
+  width: 100%;
   padding: 0.75rem;
+  text-align: center;
+  background-color: #2ea44f;
+  color: #fff;
+  border-radius: 6px;
   text-decoration: none;
-  border-radius: 4px;
   font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.view-details:hover {
+  background-color: #2c974b;
+  text-decoration: none;
+  color: #fff;
+}
 }
 
 @media (max-width: 768px) {
