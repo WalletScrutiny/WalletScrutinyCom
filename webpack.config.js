@@ -16,7 +16,7 @@ module.exports = {
       './src/blossom-utils.js',
       './src/drag-and-drop.js'
     ],
-    attestation: [
+    verifications: [
       './src/attestation_utils.mjs',
       './src/assets-table.js'
     ]
