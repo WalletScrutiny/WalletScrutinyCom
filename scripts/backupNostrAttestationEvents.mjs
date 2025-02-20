@@ -2,7 +2,7 @@ import NDK from "@nostr-dev-kit/ndk";
 import fs from "fs";
 import path from "path";
 import WebSocket from "ws";
-import { assetRegistrationKind, attestationKind, endorsementKind, explicitRelayUrls } from "../src/nostr-constants.mjs";
+import { assetRegistrationKind, verificationKind, endorsementKind, explicitRelayUrls } from "../src/nostr-constants.mjs";
 
 global.WebSocket = WebSocket; // Make WebSocket available globally as NDK expects it
 
@@ -27,13 +27,13 @@ async function fetchAndSaveEvents() {
     const since = getTimestampMonthsAgo();
     console.log(`Fetching events since ${new Date(since * 1000).toISOString()}...`);
     const events = await ndk.fetchEvents({
-      kinds: [assetRegistrationKind, attestationKind, endorsementKind],
+      kinds: [assetRegistrationKind, verificationKind, endorsementKind],
       since: since
     });
 
     console.log("Creating output directories if they don't exist...");
     const baseDir = path.join(process.cwd(), "backup", "nostr-attestations-events");
-    const kinds = [assetRegistrationKind, attestationKind, endorsementKind];
+    const kinds = [assetRegistrationKind, verificationKind, endorsementKind];
     
     // Create backup directory if it doesn't exist
     const backupDir = path.join(process.cwd(), "backup");

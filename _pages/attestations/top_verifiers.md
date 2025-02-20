@@ -88,7 +88,7 @@ permalink: /verifiers/
         <thead>
           <tr>
             <th>Verifier</th>
-            <th># Attestations</th> <!-- , Endorsements -->
+            <th># Verifications</th> <!-- , Endorsements -->
           </tr>
         </thead>
         <tbody>

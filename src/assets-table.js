@@ -32,7 +32,7 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
           </label>
           <label style="display: flex; align-items: center; gap: 5px;">
             <input type="checkbox" id="showOnlyNoAttestations">
-            <span>Show only assets without attestations</span>
+            <span>Show only assets without verifications</span>
           </label>
         </div>
       </div>
@@ -100,9 +100,9 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
       
       // Find attestations cell by looking at the header text
       const headerCells = Array.from(table.querySelectorAll('th'));
-      const attestationsIndex = headerCells.findIndex(cell => cell.textContent.trim() === 'Attestations');
+      const attestationsIndex = headerCells.findIndex(cell => cell.textContent.trim() === 'Verifications');
       const attestationsCell = row.cells[attestationsIndex]?.textContent || '';
-      const hasAttestations = !attestationsCell.includes('No attestations yet');
+      const hasAttestations = !attestationsCell.includes('No verifications yet');
       
       // Get identifier for grouping latest versions
       const identifier = row.querySelector('td:first-child a')?.textContent || row.querySelector('td:first-child')?.textContent;
@@ -176,7 +176,7 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
         <th class="hide-on-mobile">Asset Description</th>
         ${hideConfig?.sha256 ? '' : '<th class="hide-on-mobile">SHA256</th>'}
         <th class="hide-on-mobile">URL</th>
-        <th>Attestations</th>
+        <th>Verifications</th>
         <th>Seen</th>
         ${getAssetsForMyAttestations ? '<th>Worked On</th>' : ''}
       </tr>
@@ -282,11 +282,11 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
         }
         attestationList = `${listItems}
         ${hideConfig?.buttons ? '' :
-        `<div style="margin-top: 4px;"><a href="/new_attestation/?sha256=${sha256Hash}&assetEventId=${eventId}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">Create another attestation</a></div>`}`;
+        `<div style="margin-top: 4px;"><a href="/new_verification/?sha256=${sha256Hash}&assetEventId=${eventId}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">Create another verification</a></div>`}`;
       } else {
-        attestationList = `No attestations yet.
+        attestationList = `No verifications yet.
         ${hideConfig?.buttons ? '' : 
-        `<div style="margin-top: 4px;"><a href="/new_attestation/?sha256=${sha256Hash}&assetEventId=${eventId}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">Create attestation</a></div>`}`;
+        `<div style="margin-top: 4px;"><a href="/new_verification/?sha256=${sha256Hash}&assetEventId=${eventId}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">Create verification</a></div>`}`;
       }
 
       const wallet = window.wallets.find(w => w.appId === identifier);

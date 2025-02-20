@@ -229,7 +229,7 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, all
     // Adding buttons and related information
 
     if (!isPageForAppId(appId) && app) {
-        fileInfoHtml += `<li>You can go to the <a href="/${app.folder}/${appId}/?hash=${encodeURIComponent(hash)}" class="btn btn-small">${app.title} page</a> to check the attestations.</li>`;
+        fileInfoHtml += `<li>You can go to the <a href="/${app.folder}/${appId}/?hash=${encodeURIComponent(hash)}" class="btn btn-small">${app.title} page</a> to check the verifications.</li>`;
     }
 
     const hasAssets = allAssetsInformation.assets?.size > 0;
@@ -239,9 +239,9 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, all
         fileInfoHtml += `<li>This asset is registered in Nostr,`;
 
         if (hasAttestations) {
-            fileInfoHtml += ` and it has attestations. <a href="/asset/?sha256=${encodeURIComponent(hash)}" class="btn btn-small">View them</a>.</li>`;
+            fileInfoHtml += ` and it has verifications. <a href="/asset/?sha256=${encodeURIComponent(hash)}" class="btn btn-small">View them</a>.</li>`;
         } else {
-            fileInfoHtml += ` but it doesn't have attestations yet. You can <a href="/new_attestation/?sha256=${encodeURIComponent(hash)}" class="btn btn-small">Create one</a>.</li>`;
+            fileInfoHtml += ` but it doesn't have verifications yet. You can <a href="/new_verification/?sha256=${encodeURIComponent(hash)}" class="btn btn-small">Create one</a>.</li>`;
         }
     } else {
         if (window.location.pathname !== '/new_asset/') {
@@ -258,7 +258,7 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, all
         }
     }
 
-    fileInfoHtml += `<li>Check out <a href="/attestations/" class="btn btn-small" target="_blank">How Attestations work</a>.</li>`;
+    fileInfoHtml += `<li>Check out <a href="/verifications/" class="btn btn-small" target="_blank">How Verifications work</a>.</li>`;
 
     updateDomElementInClass('textbox', fileInfoHtml, dropAreaElement);
 }

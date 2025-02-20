@@ -1,5 +1,5 @@
 import NDK, {NDKEvent, NDKNip07Signer, NDKPrivateKeySigner, NDKPublishError} from "@nostr-dev-kit/ndk";
-import { assetRegistrationKind, attestationKind, endorsementKind, explicitRelayUrls, verificationsFeatureSinceTS } from "./nostr-constants.mjs";
+import { assetRegistrationKind, verificationKind, endorsementKind, explicitRelayUrls, verificationsFeatureSinceTS } from "./nostr-constants.mjs";
 import WebSocket from "ws";
 if (typeof global !== 'undefined') {
   global.WebSocket = WebSocket; // Make WebSocket available globally as NDK expects it
@@ -145,7 +145,7 @@ const createAttestation = async function ({sha256, content, status, assetEventId
   }
 
   const ndkEvent = new NDKEvent(ndk);
-  ndkEvent.kind = attestationKind;
+  ndkEvent.kind = verificationKind;
   ndkEvent.content = content;
   ndkEvent.created_at = getCreatedAt(createdAt);
 
@@ -243,7 +243,7 @@ const getAllAssetInformation = async function({ months, assetsPubkey, attestatio
 
   // Filter Attestations + Endorsements
   const filter_attestations = {
-    kinds: [attestationKind, endorsementKind],
+    kinds: [verificationKind, endorsementKind],
   }
   if (months) {
     filter_attestations.since = getTimestampMonthsAgo(months);
@@ -258,7 +258,7 @@ const getAllAssetInformation = async function({ months, assetsPubkey, attestatio
   const events = await ndk.fetchEvents([filter_assets, filter_attestations]);
 
   const assets = Array.from(events).filter(event => event.kind === assetRegistrationKind);
-  const attestations = Array.from(events).filter(event => event.kind === attestationKind);
+  const attestations = Array.from(events).filter(event => event.kind === verificationKind);
   const endorsements = Array.from(events).filter(event => event.kind === endorsementKind);
 
   const assetsMap = new Map();

@@ -31,4 +31,4 @@ After installing a browser extension, you'll need to create your Nostr identity.
 1. **Important**: Make sure to backup your private key somewhere safe! If you lose it, you won't be able to access your Nostr identity
 1. Your public key can be shared with others, but never share your private key
 
-After completing these steps, you'll be ready to use Nostr-enabled websites and applications, including the [Attestations](/attestations/) feature on this website and contribute your opinions on wallets!
+After completing these steps, you'll be ready to use Nostr-enabled websites and applications, including the [Verifications](/verifications/) feature on this website and contribute your opinions on wallets!
