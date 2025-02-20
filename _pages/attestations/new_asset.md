@@ -4,7 +4,7 @@ title: "Registering New Asset"
 permalink: /new_asset/
 ---
 
-<link rel="stylesheet" href="{{ base_path }}/assets/css/attestations.css">
+<link rel="stylesheet" href="{{ base_path }}/assets/css/verifications.css">
 
 <script type="text/javascript" src="{{'/dist/attestation.bundle.min.js' | relative_url }}"></script>
 
