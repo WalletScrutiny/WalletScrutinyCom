@@ -106,6 +106,22 @@ custodian:
       sourceUrl: "https://investor.coinbase.com/files/doc_financials/2024/q3/Q3-24-Shareholder-Letter.pdf"
       valid: true
 
+    notes: |
+      <p>Coinbase maintains strong security measures and infrastructure:</p>
+      <ul>
+        <li>98% of customer crypto assets are stored in secure cold storage</li>
+        <li>SOC 1 Type 2 and SOC 2 Type 2 certified</li>
+        <li>Crime insurance policy covering digital assets</li>
+      </ul>
+      
+      <p>Key operational highlights:</p>
+      <ul>
+        <li>24/7 security operations center</li>
+        <li>Regular third-party security audits</li>
+        <li>Multi-signature technology for all cold storage wallets</li>
+        <li>Geographically distributed key shards</li>
+      </ul>
+
   trackRecord:
     history: "Multiple security incidents affecting customer accounts"
     incidentHistory:
