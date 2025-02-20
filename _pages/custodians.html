@@ -6,128 +6,99 @@ permalink: /custodians/
 
 {% include base_path %}
 
-<div class="custodians-wrapper">
-  <div class="custodians-grid">
-    {% assign custodians = site.custodians | sort: "name" %}
-    {% for custodian in custodians %}
-      {% unless custodian.name contains "template" %}
-        <div class="custodian-card component">
-          <div class="custodian-content">
-            <div class="custodian-header">
-              {% if custodian.icon %}
-                <img src="/images/wIcons/custodians/{{ custodian.icon }}" alt="{{ custodian.title }} logo" class="custodian-logo">
-              {% endif %}
-              <h2 class="custodian-name">{{ custodian.title }}</h2>
-            </div>
-            <div class="custodian-details">
-              <p class="custodian-description">{{ custodian.custodian.description | truncate: 150 }}</p>
-              <div class="custodian-stats">
-                <div class="stat">
-                  <span class="stat-label">Years in Business</span>
-                  <span class="stat-value">{{ custodian.custodian.yearsInBusiness | default: "N/A" }}</span>
-                </div>
-                <div class="stat">
-                  <span class="stat-label">Jurisdiction</span>
-                  <span class="stat-value">{{ custodian.custodian.leadership.jurisdiction | default: "N/A" }}</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <a href="{{ custodian.url }}" class="custodian-link">View Details</a>
+<div class="custodians-grid">
+  {% assign custodians = site.custodians | sort: "name" %}
+  {% for custodian in custodians %}
+    {% unless custodian.name contains "template" %}
+      <div class="custodian-card">
+        <div class="custodian-header">
+          {% if custodian.icon %}
+            <img src="/images/wIcons/custodians/{{ custodian.icon }}" alt="{{ custodian.title }} logo" class="custodian-logo">
+          {% endif %}
+          <span class="custodian-title">{{ custodian.title }}</span>
         </div>
-      {% endunless %}
-    {% endfor %}
-  </div>
+        
+        <div class="custodian-stats">
+          <div class="stat-row">
+            <span class="stat-label">Years in Business</span>
+            <span class="stat-value">{{ custodian.custodian.yearsInBusiness | default: "N/A" }}</span>
+          </div>
+          <div class="stat-row">
+            <span class="stat-label">Jurisdiction</span>
+            <span class="stat-value">{{ custodian.custodian.leadership.jurisdiction }}</span>
+          </div>
+        </div>
+        
+        <a href="{{ custodian.url }}" class="view-details">View Details</a>
+      </div>
+    {% endunless %}
+  {% endfor %}
 </div>
 
 <style>
-.custodians-wrapper {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
 .custodians-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
 }
 
 .custodian-card {
-  background: var(--accent-50);
+  background: #fff;
+  border: 1px solid #e0e0e0;
   border-radius: 4px;
-  overflow: hidden;
-  transition: transform 0.2s ease;
-  display: flex;
-  flex-direction: column;
-}
-
-.custodian-card:hover {
-  transform: translateY(-2px);
-}
-
-.custodian-content {
-  padding: 20px;
-  flex-grow: 1;
+  padding: 1rem;
 }
 
 .custodian-header {
   display: flex;
   align-items: center;
-  gap: 15px;
-  margin-bottom: 15px;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .custodian-logo {
-  width: 40px;
-  height: 40px;
+  width: 24px;
+  height: 24px;
   object-fit: contain;
 }
 
-.custodian-name {
-  margin: 0;
-  font-size: 1.5em;
-}
-
-.custodian-description {
-  margin-bottom: 15px;
-  color: var(--text);
+.custodian-title {
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
 .custodian-stats {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
 
-.stat {
+.stat-row {
   display: flex;
   flex-direction: column;
 }
 
 .stat-label {
-  font-size: 0.9em;
-  color: var(--text);
-  opacity: 0.8;
+  font-size: 0.875rem;
+  color: #666;
+  margin-bottom: 0.25rem;
 }
 
 .stat-value {
-  font-weight: bold;
+  font-size: 0.875rem;
 }
 
-.custodian-link {
-  padding: 15px 20px;
-  background: var(--accent);
-  color: var(--body);
+.view-details {
+  display: block;
+  background: #21B6A8;
+  color: white;
   text-align: center;
+  padding: 0.75rem;
   text-decoration: none;
-  font-weight: bold;
-  transition: background-color 0.2s ease;
-}
-
-.custodian-link:hover {
-  background: var(--accent-dark);
+  border-radius: 4px;
+  font-weight: 500;
 }
 
 @media (max-width: 768px) {
