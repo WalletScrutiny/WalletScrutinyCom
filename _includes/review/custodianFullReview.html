@@ -413,6 +413,15 @@
         </div>
       </div>
       {% endif %}
+
+      {% if custodian.operations.notes %}
+      <div class="custody-section">
+        <h4>Additional Notes</h4>
+        <div class="custody-info">
+          {{ custodian.operations.notes }}
+        </div>
+      </div>
+      {% endif %}
     </div>
   </div>
 </div>
@@ -808,6 +817,12 @@
 
 <!-- STYLES: merged from your old partials to preserve the vertical timeline -->
 <style>
+  .notes-content {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 1rem;
+  }
+
 
 .fa-info-circle {
   color: var(--neutral-2);
