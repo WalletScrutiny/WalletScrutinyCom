@@ -17,7 +17,7 @@ module.exports = {
       './src/drag-and-drop.js'
     ],
     verifications: [
-      './src/attestation_utils.mjs',
+      './src/verifications_utils.mjs',
       './src/assets-table.js'
     ]
   },

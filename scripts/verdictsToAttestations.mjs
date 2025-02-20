@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import yaml from 'js-yaml'; 
-import { nostrConnect, createAssetRegistration, createAttestation } from '../src/attestation_utils.mjs';
+import { nostrConnect, createAssetRegistration, createAttestation } from '../src/verifications_utils.mjs';
 
 function getStatusFromVerdict(verdict) {
     switch (verdict) {
