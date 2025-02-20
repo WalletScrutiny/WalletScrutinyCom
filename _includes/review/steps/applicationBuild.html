@@ -25,9 +25,9 @@
         {% include /verifications/dragAndDropArea.html buttonMessage="Drop binary file to verify" %}
       </div>
 
-      <p id="attestationMessage"></p>
+      <p id="verificationMessage"></p>
 
-      <div style="margin-top: 4px; display: none;" id="createAttestationButton">
+      <div style="margin-top: 4px; display: none;" id="createVerificationButton">
         <a href="/new_asset/?appId={{page.appId}}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">Try to reproduce</a>
       </div>
 
@@ -49,18 +49,18 @@
 
           if (!attestationsInfo.hasBinaries && !attestationsInfo.hasLegacyBinaries) {
             document.getElementById('appsTable').style.display = 'none';
-            document.getElementById('createAttestationButton').style.display = 'block';
+            document.getElementById('createVerificationButton').style.display = 'block';
           }
 
           if (!attestationsInfo.hasBinaries && attestationsInfo.hasLegacyBinaries) {
             if (pageVerdict === 'reproducible') {
-              document.getElementById('attestationMessage').innerHTML = "This application is reproducible. You can create an asset for a newer version so somebody can verify it.";
+              document.getElementById('verificationMessage').innerHTML = "This application is reproducible. You can create an asset for a newer version so somebody can verify it.";
             } else if (pageVerdict === 'nonverifiable') {
-              document.getElementById('attestationMessage').innerHTML = "Nobody could reproduce this application successfully. Do you like to try? Drop the binary file there to register the asset automatically (preferred), or click the button below to register the asset manually.";
+              document.getElementById('verificationMessage').innerHTML = "Nobody could reproduce this application successfully. Do you like to try? Drop the binary file there to register the asset automatically (preferred), or click the button below to register the asset manually.";
             } else if (pageVerdict === 'wip') {
-              document.getElementById('attestationMessage').innerHTML = "Nobody tried to build this application to check if it's reproducible. Do you like to be the first? Drop the binary file there to register the asset automatically (preferred), or click the button below to register the asset manually.";
+              document.getElementById('verificationMessage').innerHTML = "Nobody tried to build this application to check if it's reproducible. Do you like to be the first? Drop the binary file there to register the asset automatically (preferred), or click the button below to register the asset manually.";
             } else if (pageVerdict === 'fewusers') {
-              document.getElementById('attestationMessage').innerHTML = "Nobody could reproduce this application successfully. Do you like to try? Drop the binary file there to register the asset automatically (preferred), or click the button below to register the asset manually.";
+              document.getElementById('verificationMessage').innerHTML = "Nobody could reproduce this application successfully. Do you like to try? Drop the binary file there to register the asset automatically (preferred), or click the button below to register the asset manually.";
             }
           }
 

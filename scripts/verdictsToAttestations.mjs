@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import yaml from 'js-yaml'; 
-import { nostrConnect, createAssetRegistration, createAttestation } from '../src/verifications_utils.mjs';
+import { nostrConnect, createAssetRegistration, createVerification } from '../src/verifications_utils.mjs';
 
 function getStatusFromVerdict(verdict) {
     switch (verdict) {
@@ -190,7 +190,7 @@ async function createNostrEvents({
     const assetEventId = assetEvent.id;
 
     console.log('   ----------------------------------------------------------------\n    Creating attestation...\n   ----------------------------------------------------------------');
-    await createAttestation({
+    await createVerification({
         sha256,
         content,
         status,

@@ -150,7 +150,7 @@ async function handleSubmit(event) {
   spinner.style.display = 'block';
 
   try {
-    await createAttestation(formData);
+    await createVerification(formData);
     spinner.style.display = 'none';
     await showToast('Verification created successfully!');
     window.location.href = '/asset/?sha256=' + sha256;

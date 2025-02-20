@@ -131,8 +131,8 @@ const createAssetRegistration = async function ({
   }
 }
 
-const createAttestation = async function ({sha256, content, status, assetEventId, createdAt = null}) {
-  console.debug("Creating attestation for asset: ", assetEventId);
+const createVerification = async function ({sha256, content, status, assetEventId, createdAt = null}) {
+  console.debug("Creating verification for asset: ", assetEventId);
 
   validateSHA256(sha256);
 
@@ -394,7 +394,7 @@ const createNostrNote = async function (message) {
 if (typeof window !== 'undefined') {
   window.nostrConnect = nostrConnect;
   window.createAssetRegistration = createAssetRegistration;
-  window.createAttestation = createAttestation;
+  window.createVerification = createVerification;
   window.createEndorsement = createEndorsement;
   window.createNostrNote = createNostrNote;
   window.getNostrProfile = getNostrProfile;
@@ -409,7 +409,7 @@ if (typeof window !== 'undefined') {
 export {
   nostrConnect,
   createAssetRegistration,
-  createAttestation,
+  createVerification,
   createEndorsement,
   createNostrNote,
   getNostrProfile,
