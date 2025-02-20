@@ -37,7 +37,7 @@ pre {
     <h2>Where to Start?</h2>
     <p>There are four main ways to explore verifications in our system:</p>
     <ul style="margin-bottom: 0;">
-        <li><a href="/assets/">Browse Latest Assets</a> - View all the wallet binaries that have been added to our system</li>
+        <li><a href="/assets/">Browse the Asset Registry</a> - View all the wallet binaries that have been added to our system</li>
         <li><a href="/verifiers/">Top Verifiers</a> - See the most active community members who verify wallet binaries</li>
         <li>Use the Wallet Search - Find verifications for a specific Bitcoin wallet using our search feature in the navigation bar at the top</li>
         <li>Verify a specific binary - Drop your binary file in our verification tool to check existing verifications or create new ones:</li>
