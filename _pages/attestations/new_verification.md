@@ -25,6 +25,21 @@ permalink: /new_verification/
       </select>
     </div>
 
+    <div style="margin-top: 1em; margin-bottom: 2em;">
+      <p>
+        <b>Reproducible:</b> You've been able to build the asset and differences with the tested binary are minimal.
+      </p>
+      <p>
+        <b>Not Reproducible:</b> You've been able to build the asset, but differences with the tested binary are significant.
+      </p>
+      <p>
+        <b>Failed to Build from Source:</b> You failed to build the asset from source.
+      </p>
+      <p>
+        <b>Spam:</b> The asset is a spam or is not what it says it is.
+      </p>
+    </div>
+
     <div class="form-group">
       <label for="content">Content*:</label>
       <textarea id="content" name="content" class="form-control" rows="10" required></textarea>
@@ -33,20 +48,7 @@ permalink: /new_verification/
 
     <button type="submit" class="btn btn-success">Create Verification</button>
   </form>
-  <div style="margin-top: 3em;">
-    <p>
-      <b>Reproducible:</b> You've been able to build the asset and differences with the tested binary are minimal.
-    </p>
-    <p>
-      <b>Not Reproducible:</b> You've been able to build the asset, but differences with the tested binary are significant.
-    </p>
-    <p>
-      <b>Failed to Build from Source:</b> You failed to build the asset from source.
-    </p>
-    <p>
-      <b>Spam:</b> The asset is a spam or is not what it says it is.
-    </p>
-  </div>
+
   <div id="loadingSpinner" style="display: none;">
     <div class="spinner"></div>
   </div>
