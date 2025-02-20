@@ -4,7 +4,7 @@ title: "Latest Assets"
 permalink: /assets/
 ---
 
-<link rel="stylesheet" href="{{ base_path }}/assets/css/attestations.css">
+<link rel="stylesheet" href="{{ base_path }}/assets/css/verifications.css">
 
 <div style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
   <a href="/new_asset/" class="btn btn-success">Register New Asset</a>

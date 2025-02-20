@@ -4,7 +4,7 @@ title: "Top Verifiers"
 permalink: /verifiers/
 ---
 
-<link rel="stylesheet" href="{{ base_path }}/assets/css/attestations.css">
+<link rel="stylesheet" href="{{ base_path }}/assets/css/verifications.css">
 
 <style>
   table { 
