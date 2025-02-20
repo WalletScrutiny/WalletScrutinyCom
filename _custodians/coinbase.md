@@ -107,20 +107,42 @@ custodian:
       valid: true
 
     notes: |
-      <p>Coinbase maintains strong security measures and infrastructure:</p>
-      <ul>
-        <li>98% of customer crypto assets are stored in secure cold storage</li>
-        <li>SOC 1 Type 2 and SOC 2 Type 2 certified</li>
-        <li>Crime insurance policy covering digital assets</li>
-      </ul>
-      
-      <p>Key operational highlights:</p>
-      <ul>
-        <li>24/7 security operations center</li>
-        <li>Regular third-party security audits</li>
-        <li>Multi-signature technology for all cold storage wallets</li>
-        <li>Geographically distributed key shards</li>
-      </ul>
+      <p>Coinbase Wrapped Bitcoin (cbBTC) is a wrapped version of Bitcoin backed 1:1 by BTC held by Coinbase, enabling users to interact with their BTC across multiple blockchain networks. The token allows users to send and receive BTC on Ethereum, Base, Solana, and Arbitrum networks while maintaining a unified BTC balance.</p>
+
+      <table>
+        <tr>
+          <th colspan="2">cbBTC Reserves and Distribution</th>
+        </tr>
+        <tr>
+          <td>Total BTC Reserve</td>
+          <td>26,887.68 BTC</td>
+        </tr>
+        <tr>
+          <td>Total cbBTC Supply</td>
+          <td>26,876.71 cbBTC</td>
+        </tr>
+        <tr>
+          <th colspan="2">Network Distribution</th>
+        </tr>
+        <tr>
+          <td>Ethereum</td>
+          <td>16,470.468 cbBTC</td>
+        </tr>
+        <tr>
+          <td>Base</td>
+          <td>7,655.391 cbBTC</td>
+        </tr>
+        <tr>
+          <td>Solana</td>
+          <td>2,699.461 cbBTC</td>
+        </tr>
+        <tr>
+          <td>Arbitrum</td>
+          <td>51.395 cbBTC</td>
+        </tr>
+      </table>
+
+      <p><strong>Important Note:</strong> The cbBTC reserves (26,887.68 BTC) represent only a small portion of Coinbase's total Bitcoin holdings, which according to Arkham Intelligence amount to approximately 887,000 BTC. cbBTC is specifically designated for cross-chain functionality and should not be confused with Coinbase's total Bitcoin custody.</p>
 
   trackRecord:
     history: "Multiple security incidents affecting customer accounts"
