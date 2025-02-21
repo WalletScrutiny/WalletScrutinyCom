@@ -46,6 +46,56 @@ permalink: /new_verification/
       <div class="char-counter">Characters: <span id="charCount">0</span>/60000</div>
     </div>
 
+    <div class="form-group">
+      <label for="otherHashes">Other related hashes:</label>
+      <div class="hash-input-container">
+        <input type="text" id="newHash" class="form-control" placeholder="Enter hash value">
+        <button type="button" id="addHash" class="btn btn-primary" title="Add this hash to the list">
+          <i class="fas fa-plus"></i>
+        </button>
+      </div>
+      <div id="hashList" class="hash-list"></div>
+      <input type="hidden" id="otherHashes" name="otherHashes">
+      <small class="form-text">If you find other related binaries (e.g., APKs within an AAB) that are also reproducible, you can add the hashes of those additional binaries to your verification.</small>
+    </div>
+
+    <style>
+      .hash-input-container {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 10px;
+      }
+      .hash-list {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+      }
+      .hash-list:not(:empty) {
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 8px;
+        margin-top: 5px;
+      }
+      .hash-item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 5px;
+        border-radius: 4px;
+      }
+      .hash-item span {
+        flex: 1;
+        word-break: break-all;
+      }
+      .remove-hash {
+        color: red;
+        cursor: pointer;
+        border: none;
+        background: none;
+        padding: 0 5px;
+      }
+    </style>
+
     <button type="submit" class="btn btn-success">Create Verification</button>
   </form>
 
@@ -143,7 +193,8 @@ async function handleSubmit(event) {
     sha256: sha256,
     content: document.getElementById('content').value.trim(),
     status: document.getElementById('status').value,
-    assetEventId: assetEventId
+    assetEventId: assetEventId,
+    otherHashes: document.getElementById('otherHashes').value.trim()
   };
 
   const spinner = document.getElementById('loadingSpinner');
@@ -170,5 +221,64 @@ document.addEventListener('DOMContentLoaded', function() {
   loadUrlParamsAndGetAssetInfo();
 
   document.getElementById('content').addEventListener('input', updateCharCount);
+
+  // Hash management
+  const hashInput = document.getElementById('newHash');
+  const addHashBtn = document.getElementById('addHash');
+  const hashList = document.getElementById('hashList');
+  const otherHashesInput = document.getElementById('otherHashes');
+  let hashes = [];
+
+  function updateHiddenInput() {
+    otherHashesInput.value = hashes.join(',');
+  }
+
+  function addHash(hash) {
+    if (!hash) return;
+    if (hashes.includes(hash)) {
+      showToast('This hash is already in the list', 'error');
+      return;
+    }
+    
+    const hashItem = document.createElement('div');
+    hashItem.className = 'hash-item';
+    hashItem.innerHTML = `
+      <span>${hash}</span>
+      <button type="button" class="remove-hash" title="Remove this hash from the list">
+        <i class="fas fa-minus"></i>
+      </button>
+    `;
+
+    hashItem.querySelector('.remove-hash').addEventListener('click', () => {
+      hashes = hashes.filter(h => h !== hash);
+      hashItem.remove();
+      updateHiddenInput();
+    });
+
+    hashList.appendChild(hashItem);
+    hashes.push(hash);
+    updateHiddenInput();
+    hashInput.value = '';
+  }
+
+  addHashBtn.addEventListener('click', () => {
+    const hash = hashInput.value.trim();
+    if (!hash) {
+      showToast('Please enter a hash value', 'error');
+      return;
+    }
+    if (!/^[a-fA-F0-9]{64}$/.test(hash)) {
+      showToast('Invalid hash format. Must be 64 hexadecimal characters', 'error');
+      return;
+    }
+    addHash(hash);
+  });
+
+  hashInput.addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      addHashBtn.click();
+    }
+  });
 });
 </script>

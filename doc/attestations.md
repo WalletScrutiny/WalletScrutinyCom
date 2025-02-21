@@ -62,7 +62,8 @@ Trust in verifications is built through:
   "kind":    30301,
   "tags":    [
     ["d",       "<asset-event-id>"],
-    ["x",       "deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe"],
+    ["x",       "hash of the registered asset"],
+    ["x",       "other hashes of related assets"],
     ["status",  "reproducible"]
   ],
   "content": "Detailed reproduction process and results. Markdown permitted"
