@@ -131,7 +131,14 @@ const createAssetRegistration = async function ({
   }
 }
 
-const createVerification = async function ({sha256, content, status, assetEventId, createdAt = null}) {
+const createVerification = async function ({
+  sha256,
+  content,
+  status,
+  assetEventId,
+  otherHashes,
+  createdAt = null
+}) {
   console.debug("Creating verification for asset: ", assetEventId);
 
   validateSHA256(sha256);
@@ -153,6 +160,15 @@ const createVerification = async function ({sha256, content, status, assetEventI
     ["x", sha256],
     ["status", status]
   ];
+
+  if (otherHashes) {
+    otherHashes.split(',').forEach(hash => {
+      const trimmedHash = hash.trim();
+      if (trimmedHash) {
+        ndkEvent.tags.push(["x", trimmedHash]);
+      }
+    });
+  }
 
   try {
     const publishedToRelays = await ndkEvent.publish();
