@@ -27,10 +27,16 @@ bugbounty:
 meta: ok
 verdict: reproducible
 appHashes:
-- 5609915455a3f867fca8bdb026b596a70be0cb1f5678a5aeab5ab8218075fd22
-date: 2024-12-31
+- 7c1eb50fd46273d05cabf934ebee3b06d266f0e46b69deb385ce5ecfbcc67bf7
+date: 2025-02-21
 signer: 6853ffd1706faed1468e677621b2ef1ccf053dff4f9b22e7ba5b12a978e1eb37
 reviewArchive:
+- date: 2024-12-31
+  version: 1.8.2
+  appHashes:
+  - 5609915455a3f867fca8bdb026b596a70be0cb1f5678a5aeab5ab8218075fd22
+  gitRevision: a6d663b6ee707729b2258fd460fbfe3bdab91223
+  verdict: reproducible
 - date: 2024-12-23
   version: 1.8.0
   appHashes:
@@ -120,32 +126,32 @@ Other Features:
 - Fingerprint verification
 - Dice entropy
 
-# Updated Verification for 1.8.2 2024-12-31
+# Updated Verification for 2.0.0 2025-02-21
 
 Run the script:
 
-`$ ./scripts/test/hardware/keystone3pro.sh 1.8.2`
+`$ ./scripts/test/hardware/keystone3pro.sh 2.0.0`
 
 ```
-Firmware checksum sha256: 5609915455a3f867fca8bdb026b596a70be0cb1f5678a5aeab5ab8218075fd22 
+Firmware checksum sha256: 7c1eb50fd46273d05cabf934ebee3b06d266f0e46b69deb385ce5ecfbcc67bf7 
 You can check this value on your device.
 ------------------------
 (SIGNED) Binary from Keystone Website:
-4697250d2e7f9fff681aca98fb9fa62dcc00dd3fa786457e19ec1e01721c5aa1  keystone3.bin
+c18e898b73507d55c721eff4c49fe9e29a8a5d705c1832b52a6df5714e173e5d  keystone3.bin
 ------------------------
 ------------------------
 Binary from build process:
-5609915455a3f867fca8bdb026b596a70be0cb1f5678a5aeab5ab8218075fd22  ./build/mh1903.bin
+7c1eb50fd46273d05cabf934ebee3b06d266f0e46b69deb385ce5ecfbcc67bf7  ./build/mh1903.bin
 ------------------------
 ------------------------
 Unsigned Binary from Keystone Website:
-Firmware checksum sha256: 5609915455a3f867fca8bdb026b596a70be0cb1f5678a5aeab5ab8218075fd22 
+Firmware checksum sha256: 7c1eb50fd46273d05cabf934ebee3b06d266f0e46b69deb385ce5ecfbcc67bf7 
 You can check this value on your device.
 ------------------------
 Unsigned .bin hash must be the same as mh1903.bin.
 ```
 
-Version 1.8.2 of the {{ page.title}} hardware device is **reproducible**
+Version 2.0.0 of the {{ page.title}} hardware device is **reproducible**
 
 {% include asciicast %}
 
