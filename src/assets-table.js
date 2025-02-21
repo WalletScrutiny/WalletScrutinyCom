@@ -25,15 +25,25 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
           placeholder="Search by wallet name or hash..." 
           style="padding: 8px; border-radius: 4px; border: 1px solid #ccc; flex: 1; min-width: 200px;"
         >
-        <div style="display: flex; gap: 15px; align-items: center;">
-          <label style="display: flex; align-items: center; gap: 5px;">
-            <input type="checkbox" id="showLatestVersionOnly" checked>
-            <span>Show latest version only</span>
-          </label>
-          <label style="display: flex; align-items: center; gap: 5px;">
-            <input type="checkbox" id="showOnlyNoAttestations">
-            <span>Show only assets without verifications</span>
-          </label>
+        <div style="display: flex; gap: 15px; align-items: flex-start; flex-wrap: wrap;">
+          <style>
+            @media (max-width: 768px) {
+              .checkbox-container {
+                flex-direction: column !important;
+                gap: 0 !important;
+              }
+            }
+          </style>
+          <div class="checkbox-container" style="display: flex; gap: 15px; align-items: flex-start;">
+            <label style="display: flex; align-items: center; gap: 5px; white-space: nowrap;">
+              <input type="checkbox" id="showLatestVersionOnly" checked>
+              <span>Show latest version only</span>
+            </label>
+            <label style="display: flex; align-items: center; gap: 5px; white-space: nowrap;">
+              <input type="checkbox" id="showOnlyNoAttestations">
+              <span>Show only unverified assets</span>
+            </label>
+          </div>
         </div>
       </div>
     `;
