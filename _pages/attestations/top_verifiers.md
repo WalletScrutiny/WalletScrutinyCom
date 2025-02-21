@@ -8,32 +8,71 @@ permalink: /verifiers/
 
 <style>
   table { 
-    width: initial;
+    width: 100%;
     margin: auto;
+    border-collapse: collapse;
   }
-  table th:nth-child(1) {
-    padding-left: 8em;
-    padding-right: 8em;
+  
+  @media screen and (min-width: 768px) {
+    table {
+      width: initial;
+    }
+    table th:nth-child(1) {
+      padding-left: 8em;
+      padding-right: 8em;
+    }
+    table th:nth-child(2) {
+      padding-left: 5em;
+      padding-right: 5em;
+    }
   }
-  table th:nth-child(2) {
-    padding-left: 5em;
-    padding-right: 5em;
+
+  @media screen and (max-width: 767px) {
+    table th, table td {
+      padding: 0.5em;
+    }
+    .profile-info {
+      font-size: 14px;
+    }
+    .attestation-count-column {
+      font-size: 1.2em !important;
+    }
   }
 
   .attestator-card-column {
     padding: 1.3em;
   }
+  @media screen and (max-width: 767px) {
+    .attestator-card-column {
+      padding: 0.5em;
+    }
+  }
+
   .attestation-count-column {
     text-align: center;
     font-size: 1.5em;
   }
 
-  .profile-info {
-    font-size: 18px;
-  }
   .profile-image {
     width: 50px;
     height: 50px;
+  }
+
+  .profile-card {
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .profile-info {
+    font-size: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .profile-info div {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
   }
 </style>
 
