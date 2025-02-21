@@ -2,7 +2,7 @@ export const explicitRelayUrls = [
   "wss://relay.primal.net/",
   "wss://relay.zapstore.dev/",
   "wss://relay.damus.io/",
-  "wss://relay.nostr.net/",
+  "wss://strfry.iris.to/",
   "wss://relay.snort.social/",
   "wss://nostr-pub.wellorder.net/"
 ];
