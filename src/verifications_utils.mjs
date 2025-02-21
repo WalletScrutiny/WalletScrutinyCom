@@ -235,8 +235,14 @@ const getTimestampMonthsAgo = function(months = 6) {
   return Math.floor(date.getTime() / 1000); // Convert to Unix timestamp (seconds)
 }
 
-const getAllAssetInformation = async function({ months, assetsPubkey, attestationsPubkey, appId, sha256, getAssetsForMyAttestations }) {
-  // Filter Assets
+const getAllAssetInformation = async function({
+  months,
+  assetsPubkey,
+  attestationsPubkey,
+  appId,
+  sha256,
+  getAssetsForMyAttestations
+}) {
   const filter_assets = {
     kinds: [assetRegistrationKind],
   };
@@ -257,7 +263,6 @@ const getAllAssetInformation = async function({ months, assetsPubkey, attestatio
     filter_assets["#x"] = [sha256];
   }
 
-  // Filter Attestations + Endorsements
   const filter_attestations = {
     kinds: [verificationKind, endorsementKind],
   }
