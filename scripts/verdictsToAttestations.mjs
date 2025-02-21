@@ -92,11 +92,6 @@ async function parseFile(filePath, folderName) {
                 .slice(0, 50000);
 
 
-        if (['fewusers', 'custodial', 'nosource', 'nowallet', 'fake', 'nobtc', 'nosendreceive', 'obfuscated', 'wip'].includes(data.verdict)) {
-            //console.log(`   Skipping verdict (${appId}): ${data.verdict}`);
-            return;
-        }
-
         // Create events for each review in reviewArchive
         if (data.reviewArchive && data.reviewArchive.length > 0) {
             for (const [index, review] of [...data.reviewArchive].reverse().entries()) {
@@ -114,15 +109,17 @@ async function parseFile(filePath, folderName) {
                     review.appHashes.forEach(hash => console.log('    -', hash));
                 }
 
-                await createNostrEvents({
-                    sha256: review.appHashes[0],     // TODO: more than one as in nunchuk?
-                    appId,
-                    version: review.version,
-                    platform: folderName,
-                    name: folderName === 'android' ? "Google Play extracted apk" : "Binary obtained from the manufacturer's website",
-                    content: review.gitRevision ? `Legacy verification by WalletScrutiny (${review.date}). See details <a target="_blank" href="https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/${review.gitRevision}/_${folderName}/${appId}.md">here</a>.` : '',
-                    status: getStatusFromVerdict(review.verdict)
-                });
+                if (!['fewusers', 'custodial', 'nosource', 'nowallet', 'fake', 'nobtc', 'nosendreceive', 'obfuscated', 'wip'].includes(review.verdict)) {
+                    await createNostrEvents({
+                        sha256: review.appHashes[0],     // TODO: more than one as in nunchuk?
+                        appId,
+                        version: review.version,
+                        platform: folderName,
+                        name: folderName === 'android' ? "Google Play extracted apk" : "Binary obtained from the manufacturer's website",
+                        content: review.gitRevision ? `Legacy verification by WalletScrutiny (${review.date}). See details <a target="_blank" href="https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/${review.gitRevision}/_${folderName}/${appId}.md">here</a>.` : '',
+                        status: getStatusFromVerdict(review.verdict)
+                    });
+                }
             }
         }
 
@@ -142,15 +139,17 @@ async function parseFile(filePath, folderName) {
             //console.error(data);
             //process.exit(1);
         } else {
-            await createNostrEvents({
-                sha256: appHash,
-                appId,
-                version,
-                platform: folderName,
-                name: folderName === 'android' ? "Google Play extracted apk" : "Binary obtained from the manufacturer's website",
-                content: contentAfterYaml,
-                status: getStatusFromVerdict(data.verdict)
-            });
+            if (!['fewusers', 'custodial', 'nosource', 'nowallet', 'fake', 'nobtc', 'nosendreceive', 'obfuscated', 'wip'].includes(data.verdict)) {
+                await createNostrEvents({
+                    sha256: appHash,
+                    appId,
+                    version,
+                    platform: folderName,
+                    name: folderName === 'android' ? "Google Play extracted apk" : "Binary obtained from the manufacturer's website",
+                    content: contentAfterYaml,
+                    status: getStatusFromVerdict(data.verdict)
+                });
+            }
         }
 
     } catch (error) {
