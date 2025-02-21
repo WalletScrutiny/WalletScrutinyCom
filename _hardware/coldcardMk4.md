@@ -8,8 +8,8 @@ authors:
 - keraliss
 released: 2022-05-01
 discontinued: 
-updated: 2024-09-12
-version: v6.3.4X
+updated: 2025-02-13
+version: v5.4.1
 binaries: https://coldcard.com/downloads/
 dimensions:
 - 86
@@ -29,11 +29,18 @@ bugbounty:
 meta: ok
 verdict: reproducible
 appHashes:
-- 681874256bcfca71a3908f1dd6c623804517fdba99a51ed04c73b96119650c13
-- 70e375200649ee77723fd816d581fe58e47472e72e7862773658a738685d4336
-date: 2025-01-02
+- eb750a4f095eacc6133b2c8b38fe0738a22b2496a6cdf423ca865acde8c9bc4e
+- ab115260a6bd8728f1e81cf27b4dad8d6947b496abaa7810e89fe484c273fb94
+date: 2025-02-21
 signer: 
 reviewArchive:
+- date: 2024-01-02
+  version: v6.3.4X
+  appHashes:
+  - 681874256bcfca71a3908f1dd6c623804517fdba99a51ed04c73b96119650c13
+  - 70e375200649ee77723fd816d581fe58e47472e72e7862773658a738685d4336
+  gitRevision: a6d663b6ee707729b2258fd460fbfe3bdab91223
+  verdict: reproducible
 - date: 2024-10-01
   version: v5.4.0
   appHashes:
@@ -65,9 +72,15 @@ features:
 
 ---
 
-**Update 2025-01-02**: There are no binary misnaming for tag 2024-12-18T1413-v6.3.4X. We execute the ws coldcard script:
+**Update 2025-02-20**: 
 
-`$ ./scripts/test/hardware/coldCard.sh 2024-12-18T1413-v6.3.4X mk4`
+Note that the previous review of the MK4 was for version 6.3.4X which is for the EDGE variant of the firmware.
+
+> "Edge" for the Coldcard Mk4 refers to an experimental firmware build available on the Coldcard downloads page. This version includes the latest, cutting‐edge features and improvements that are still under testing and refinement, so while it offers early access to new functionalities, it may be less stable than the official, fully vetted firmware releases. Users opting for Edge firmware should be comfortable with potential bugs or issues and ideally back up their data before updating.
+
+Since the stable release v5.4.1 is the most recent, we would be reviewing that next.
+
+`$ ./scripts/test/hardware/coldCard.sh 2025-02-13T1415-v5.4.1 mk4`
 
 ## Asciicast
 
@@ -76,60 +89,64 @@ features:
 ## Results
 
 ```
-Comparing against: /tmp/checkout/firmware/releases/2024-12-18T1413-v6.3.4X-mk4-coldcard.dfu
-test -n "/tmp/checkout/firmware/releases/2024-12-18T1413-v6.3.4X-mk4-coldcard.dfu" -a -f /tmp/checkout/firmware/releases/2024-12-18T1413-v6.3.4X-mk4-coldcard.dfu
+Comparing against: /tmp/checkout/firmware/releases/2025-02-13T1415-v5.4.1-mk4-coldcard.dfu
+test -n "/tmp/checkout/firmware/releases/2025-02-13T1415-v5.4.1-mk4-coldcard.dfu" -a -f /tmp/checkout/firmware/releases/2025-02-13T1415-v5.4.1-mk4-coldcard.dfu
 rm -f -f check-fw.bin check-bootrom.bin
-signit split /tmp/checkout/firmware/releases/2024-12-18T1413-v6.3.4X-mk4-coldcard.dfu check-fw.bin check-bootrom.bin
-start 293 for 1019904 bytes: Firmware => check-fw.bin
+signit split /tmp/checkout/firmware/releases/2025-02-13T1415-v5.4.1-mk4-coldcard.dfu check-fw.bin check-bootrom.bin
+start 293 for 946176 bytes: Firmware => check-fw.bin
 signit check check-fw.bin
      magic_value: 0xcc001234
-       timestamp: 2024-12-18 14:13:24 UTC
-  version_string: 6.3.4X
+       timestamp: 2025-02-13 14:15:12 UTC
+  version_string: 5.4.1
       pubkey_num: 1
- firmware_length: 1019904
+ firmware_length: 946176
    install_flags: 0x0 =>
        hw_compat: 0x8 => Mk4
          best_ts: b'\x00\x00\x00\x00\x00\x00\x00\x00'
           future: 0000000000000000 ... 0000000000000000
-       signature: a37f1b7beaa0d909 ... 88ae154bc3985a7f
-sha256^2: 7ee1d6c1db34de1a62921b37084be3c4aa281a8a4cfb4c00a7e660b0f2e62176
+       signature: 54e7700b0cdb7335 ... 485a15f8541651f1
+sha256^2: bea8bcb9e77c8afd8640ffe588eb3930e14c11d0374cf90f22b23d5b167eb749
  ECDSA Signature: CORRECT
 signit check firmware-signed.bin
      magic_value: 0xcc001234
-       timestamp: 2025-01-02 12:51:33 UTC
-  version_string: 6.3.4X
+       timestamp: 2025-02-20 01:25:38 UTC
+  version_string: 5.4.1
       pubkey_num: 0
- firmware_length: 1019904
+ firmware_length: 946176
    install_flags: 0x0 =>
        hw_compat: 0x8 => Mk4
          best_ts: b'\x00\x00\x00\x00\x00\x00\x00\x00'
           future: 0000000000000000 ... 0000000000000000
-       signature: db2c99f664733d45 ... c84de5e40b9c24c8
-sha256^2: 0f7711afe9af96ed22baa918c104eb0e2ce655933cb88a32e4cce4654290113b
+       signature: 5dca3ba5407acaa9 ... 259c0c79fc3dea36
+sha256^2: 1084c2e4ad8ae1fbcd0b315a97bd935685f1a61b4a2b37283abf4a51ca47baa7
  ECDSA Signature: CORRECT
 hexdump -C firmware-signed.bin | sed -e 's/^00003f[89abcdef]0 .*/(firmware signature here)/' > repro-got.txt
 hexdump -C check-fw.bin | sed -e 's/^00003f[89abcdef]0 .*/(firmware signature here)/' > repro-want.txt
 diff repro-got.txt repro-want.txt
 
 SUCCESS. 
+
+You have built a bit-for-bit identical copy of Coldcard firmware for v5.4.1
 ```
 
-The most pertinent part of the review:
+The most pertinent portion of the results:
 
 ```
-You have built a bit-for-bit identical copy of Coldcard firmware for v6.3.4X
+You have built a bit-for-bit identical copy of Coldcard firmware for v5.4.1
 + set +ex
 
 Hash of non-signature parts downloaded/compiled:
-31f40650460d4d3537c4a6676810de4ea5c4d6878a7a4fc7c22584ccc829b997  2024-12-18T1413-v6.3.4X-mk4-nosig.bin
-31f40650460d4d3537c4a6676810de4ea5c4d6878a7a4fc7c22584ccc829b997  firmware-nosig.bin
+34b52b568f74cae05e12c54576422f962be8d9cbc04d1bea2e568d572281430d  2025-02-13T1415-v5.4.1-mk4-nosig.bin
+34b52b568f74cae05e12c54576422f962be8d9cbc04d1bea2e568d572281430d  firmware-nosig.bin
 
 Hash of the signed firmware:
-681874256bcfca71a3908f1dd6c623804517fdba99a51ed04c73b96119650c13  /tmp/firmware/releases/2024-12-18T1413-v6.3.4X-mk4-coldcard.dfu
-70e375200649ee77723fd816d581fe58e47472e72e7862773658a738685d4336  /tmp/firmware/stm32/built/firmware-signed.dfu
+eb750a4f095eacc6133b2c8b38fe0738a22b2496a6cdf423ca865acde8c9bc4e  /tmp/firmware/releases/2025-02-13T1415-v5.4.1-mk4-coldcard.dfu
+ab115260a6bd8728f1e81cf27b4dad8d6947b496abaa7810e89fe484c273fb94  /tmp/firmware/stm32/built/firmware-signed.dfu
 ```
 
-ColdCard advertises its products as verifiable, we can confirm that firmware version: 2024-12-18T1413-v6.3.4X is **reproducible**.
+The [coldcard.sh script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/scripts/test/hardware/coldCard.sh) strips the signature section that appears in the address range **0x3f800-0x3ff00** (which is near the end of the firmware), effectively removing the signature header while preserving the actual firmware code for comparison. The firmware starts at byte 293 while the total firmware size is 946,176 bytes.
+
+We see that the stripped hashes of both the downloaded and compiled firmware for version 5.4.1 for the MK4 indicates that version 5.4.1 of the {{ page.title }} is **reproducible**.
 
 # Old Analysis
 
@@ -181,28 +198,3 @@ Functions:
 External settings chip removed. Setting now internal to MCU (faster, more space for settings)
 > - Kill-key feature: press key N while phishing words shown -> fast wipe+stop (not silent)
 > - Debug serial port moved to pins, rather than being virtual over USB
-
-## Reproducibility
-
-We have added the [test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/scripts/test/hardware/coldCard.sh)
-for ColdCard wallets which is based on the build script that ColdCard provides in their Github.
-
-Here are the test results for the latest version:
-
-```
-$ ./scripts/test/hardware/coldCard.sh "2023-04-07T1330-v5.1.2" 4
-
-...
-
-Hash of non-signature parts downloaded/compiled:
-254bcf59c776902603f78310160e8edf2573bc7dcb934282acff8561bd9a173f  2023-04-07T1330-v5.1.2-mk4-nosig.bin
-254bcf59c776902603f78310160e8edf2573bc7dcb934282acff8561bd9a173f  firmware-nosig.bin
-
-Hash of the signed firmware:
-7aefd5bcce533f15337e83618ebbd42925d336792c82a5ca19a430b209b30b8a  /tmp/firmware/releases/2023-04-07T1330-v5.1.2-mk4-coldcard.dfu
-390b2cbc4053a1ab7e3949ee83b7d2008ae214e008a8f7a74688989d52de2d27  /tmp/firmware/stm32/built/firmware-signed.dfu
-```
-
-which shows this firmware is **reproducible**.
-
->>>>>>> c5fd94bf4c89189529bbb9a0265239acf4f53f35
