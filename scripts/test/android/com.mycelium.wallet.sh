@@ -29,6 +29,20 @@ test() {
         ./gradlew -x lint -x test clean :mbw:assembleProdnetRelease;
         $takeUserActionCommand"
 
-  podman rmi mycelium_builder -f
-  podman image prune -f
+  echo "===== Comparing Hashes with Manifest ====="
+  echo "Production Release APK:"
+  sha512sum $builtApk
+  
+  echo -e "\nProduction Release MANIFEST.MF:"
+  # Create a temp directory for unzipping
+  mkdir -p /tmp/mycelium_compare
+  unzip -p $builtApk META-INF/MANIFEST.MF > /tmp/mycelium_compare/MANIFEST.MF
+  sha512sum /tmp/mycelium_compare/MANIFEST.MF
+  
+  echo -e "\nExpected hashes from manifest:"
+  echo "Production Release APK:"
+  echo "bfb0ac376195f275d274fa86f213d658a5035dd2dcad2565c664ec1acdd040775891c1fd0e01f9b6ea569ea5cbcc94b436cce3abd56d145002375e1ba33ed8ad"
+  
+  echo "Production Release MANIFEST.MF:"
+  echo "cec34c8d94ff010b86fecd9869f18222eb1c59541060ad40f6e697349db0e060bba53a2afe494b346af247c9ce5627ebd6eb0b13fb0fba47121a5de28e409d9f"
 }
