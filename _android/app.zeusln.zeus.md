@@ -24,10 +24,16 @@ bugbounty:
 meta: ok
 verdict: reproducible
 appHashes:
-- db84dd4c1db67c2bfca707d648b159db6480ad1d5f1652b4db3b1d33bf2f3114
-date: 2025-02-11
+- cd681d7407b7f3d6fcde908ecb01594b3ee3f48aa524026099b44b5d9ab5f715
+date: 2025-02-22
 signer: cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
 reviewArchive:
+- date: 2025-02-11
+  version: 0.9.6
+  appHashes:
+  - db84dd4c1db67c2bfca707d648b159db6480ad1d5f1652b4db3b1d33bf2f3114
+  gitRevision: 5c1b28c89358d7f8248a1e608114ed1cf981e7ed
+  verdict: reproducible
 - date: 2025-02-05
   version: 0.9.5
   appHashes:
@@ -135,18 +141,18 @@ We ran our updated {% include testScript.html %} and got this:
 ===== Begin Results =====
 appId:          app.zeusln.zeus
 signer:         cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
-apkVersionName: 0.9.6
-apkVersionCode: 99003
+apkVersionName: 0.9.7
+apkVersionCode: 100003
 verdict:        
-appHash:        db84dd4c1db67c2bfca707d648b159db6480ad1d5f1652b4db3b1d33bf2f3114
-commit:         cbd5fcef49af1de52df9a1eeec8a689e801bd079
+appHash:        cd681d7407b7f3d6fcde908ecb01594b3ee3f48aa524026099b44b5d9ab5f715
+commit:         10ac0d36153947f275dd0b01f2a402273fe1c2ac
 
 Diff:
-Files /tmp/fromPlay_app.zeusln.zeus_99003/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_99003/AndroidManifest.xml differ
-Only in /tmp/fromPlay_app.zeusln.zeus_99003/META-INF: GOOGPLAY.RSA
-Only in /tmp/fromPlay_app.zeusln.zeus_99003/META-INF: GOOGPLAY.SF
-Only in /tmp/fromPlay_app.zeusln.zeus_99003/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_app.zeusln.zeus_99003: stamp-cert-sha256
+Files /tmp/fromPlay_app.zeusln.zeus_100003/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_100003/AndroidManifest.xml differ
+Only in /tmp/fromPlay_app.zeusln.zeus_100003/META-INF: GOOGPLAY.RSA
+Only in /tmp/fromPlay_app.zeusln.zeus_100003/META-INF: GOOGPLAY.SF
+Only in /tmp/fromPlay_app.zeusln.zeus_100003/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_app.zeusln.zeus_100003: stamp-cert-sha256
 
 Revision, tag (and its signature):
 
@@ -183,5 +189,5 @@ This meta-data tag is added by Google Play when the app is processed and distrib
 
 This tag is injected by the Google Play Store’s app signing and distribution process.
 
-This, minus the signing differences, make version 0.9.5 of this app **reproducible**.
+This, minus the signing differences, make version 0.9.7 of this app **reproducible**.
 
