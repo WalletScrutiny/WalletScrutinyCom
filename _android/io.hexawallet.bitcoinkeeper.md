@@ -15,14 +15,14 @@ ratings:
 reviews: 
 website: https://www.bitcoinkeeper.app/
 repository: https://github.com/bithyve/bitcoin-keeper
-issue: 
+issue: https://github.com/bithyve/bitcoin-keeper/issues/6097#issuecomment-2673412517
 icon: io.hexawallet.bitcoinkeeper.png
 bugbounty: 
 meta: ok
-verdict: wip
-appHashes: 
+verdict: nonverifiable
+appHashes: ef3d78cc482c6e6171a3b87ee344db0a097196c62736132fb4dcee898d905781
 date: 2025-02-12
-signer: 
+signer: 66568fd4fb14c0134ff4055762607038ad400ba5cbc8e23e5e25265a0234465c
 reviewArchive: 
 twitter: bitcoinKeeper_
 social:
@@ -35,7 +35,12 @@ features:
 
 ---
 
-```===== Begin Results =====
+# Review for io.hexawallet.bitcoinkeeper 22-02-2025: 
+
+We created a {% include testScript.html %} for {{ page.title }} using the build instruction provided in the repo, and upon running the script, we got this :  
+ 
+```
+===== Begin Results =====
 appId:          io.hexawallet.bitcoinkeeper
 signer:         66568fd4fb14c0134ff4055762607038ad400ba5cbc8e23e5e25265a0234465c
 apkVersionName: 2.0.0
@@ -812,8 +817,8 @@ Only in /tmp/fromPlay_io.hexawallet.bitcoinkeeper_465: stamp-cert-sha256
 Revision, tag (and its signature):
 
 ===== End Results =====
-
 ```
+With this many diffs,  {{ page.title }} is **nonverifiable**
 
 
 ## App Description 
