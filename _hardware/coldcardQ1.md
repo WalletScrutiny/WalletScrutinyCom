@@ -27,7 +27,9 @@ bugbounty:
 meta: ok
 verdict: reproducible
 appHashes:
-- 2e1aad0a7a3ceb84db34322b54855a0c5496699e46e53606bfa443fcc992adec
+- 8f53880cde1b58a18e1b3166394a7e19e51866357ed2cbcf0aaa4dbbb9d17edc # hash shown on device (sha256^2)
+- 2e1aad0a7a3ceb84db34322b54855a0c5496699e46e53606bfa443fcc992adec # hash of signed binary
+- b7f961a8dd9a957d532da1e98b411b790fc25187c5d58f72380faaba129ca1b1 # hash of stripped binary
 date: 2025-02-21
 signer: d840fa4e83ebc7b0f961f30f68d795bed61271e2314dda4ab0eb0b8bfe7192f4
 reviewArchive:
@@ -151,20 +153,19 @@ Version 1.3.1Q is **reproducible**.
 
 It passes all criteria:
 
-### 1. Private keys can be created offline ✅ 
+### 1. Private keys can be created offline 
 
 > COLDCARD never needs to touch a computer. It can work entirely from a USB power pack or AC power adapter.
 
-### 2. Private keys are not shared ✅ 
+### 2. Private keys are not shared 
 
 > If you don't trust our random number generator, you can generate the BIP39 seed phrase using dice rolls. We help with this process: you just have to press 1–6 for each roll (99 rolls recommended). At the end of that process, you'll have a properly-encoded seed phrase based solely on the dice rolls.
 
-### 3. Device displays receive address for confirmation ✅
+### 3. Device displays receive address for confirmation 
 
 > Yes. See documentation [here](https://coldcard.com/docs/q-quick/).
 
-### 4. Interface ✅
+### 4. Interface 
 
   - 320x240 LCD screen   
   - QWERTY keyboard
-
