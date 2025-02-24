@@ -37,7 +37,7 @@ async function parseFile(filePath, folderName) {
         console.debug('Parsed YAML data:', JSON.stringify(data));
 
         const appId = data.appId || '';
-        let appHash = null;
+        let appHashes = null;
         let version = null;
         let status = null;
 
@@ -53,9 +53,9 @@ async function parseFile(filePath, folderName) {
             version = data.reviewArchive[0].version;
 
             if (data.reviewArchive[0].appHash) {
-                appHash = data.reviewArchive[0].appHash;
+                appHashes = [data.reviewArchive[0].appHash];
             } else if (data.reviewArchive[0].appHashes && data.reviewArchive[0].appHashes.length > 0) {
-                appHash = data.reviewArchive[0].appHashes[0];
+                appHashes = data.reviewArchive[0].appHashes;
             }
         } else {
             console.debug('   No reviewArchive hash found.');
@@ -68,7 +68,7 @@ async function parseFile(filePath, folderName) {
 
             if (currentTestResults.apkVersionName && currentTestResults.appHash) {
                 version = currentTestResults.apkVersionName;
-                appHash = currentTestResults.appHash;
+                appHashes = [currentTestResults.appHash];
             } else {
                 console.debug('********************  Skipping current test result due to missing appHash and appHashes:', currentTestResults);
             }
@@ -78,7 +78,7 @@ async function parseFile(filePath, folderName) {
         if (data.version || data.appHashes) {
             version = data.version;
             if (data.appHashes && data.appHashes.length > 0) {
-                appHash = data.appHashes[0];
+                appHashes = data.appHashes;
             }
         }
 
@@ -111,7 +111,7 @@ async function parseFile(filePath, folderName) {
 
                 if (!['fewusers', 'custodial', 'nosource', 'nowallet', 'fake', 'nobtc', 'nosendreceive', 'obfuscated', 'wip'].includes(review.verdict)) {
                     await createNostrEvents({
-                        sha256: review.appHashes[0],     // TODO: more than one as in nunchuk?
+                        hashes: review.appHashes,
                         appId,
                         version: review.version,
                         platform: folderName,
@@ -123,7 +123,7 @@ async function parseFile(filePath, folderName) {
             }
         }
 
-        if (!appHash || !version || !data.title || !data.verdict || !folderName || !contentAfterYaml) {
+        if (!appHashes || !version || !data.title || !data.verdict || !folderName || !contentAfterYaml) {
             console.error(`     Not enough information to create nostr event for ${appId}:`);
             /*
             console.error({
@@ -141,7 +141,7 @@ async function parseFile(filePath, folderName) {
         } else {
             if (!['fewusers', 'custodial', 'nosource', 'nowallet', 'fake', 'nobtc', 'nosendreceive', 'obfuscated', 'wip'].includes(data.verdict)) {
                 await createNostrEvents({
-                    sha256: appHash,
+                    hashes: appHashes,
                     appId,
                     version,
                     platform: folderName,
@@ -158,7 +158,7 @@ async function parseFile(filePath, folderName) {
 }
 
 async function createNostrEvents({
-    sha256,
+    hashes,
     appId,
     version,
     platform,
@@ -167,7 +167,7 @@ async function createNostrEvents({
     status
 }) {
     console.log('   ----------------------------------------------------------------\n    Nostr events will be created with this data:\n   ----------------------------------------------------------------', {
-        sha256,
+        hashes,
         appId,
         version,
         platform,
@@ -176,6 +176,7 @@ async function createNostrEvents({
         status
     });
 
+    /*
     console.log('   ----------------------------------------------------------------\n    Creating asset registration...\n   ----------------------------------------------------------------');
     const assetEvent = await createAssetRegistration({
         sha256,
@@ -186,14 +187,17 @@ async function createNostrEvents({
     });
     await new Promise(resolve => setTimeout(resolve, 600));
 
-    const assetEventId = assetEvent.id;
+    //const assetEventId = assetEvent.id;
+    */
+
 
     console.log('   ----------------------------------------------------------------\n    Creating attestation...\n   ----------------------------------------------------------------');
     await createVerification({
-        sha256,
+        hashes,
         content,
         status,
-        assetEventId
+        appId,
+        version
     });
     await new Promise(resolve => setTimeout(resolve, 600));
 }

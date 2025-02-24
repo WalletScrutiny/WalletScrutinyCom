@@ -58,9 +58,14 @@ const userHasBrowserExtension = function() {
   });
 }
 
-const validateSHA256 = function(sha256) {
-  if (!sha256 || !/^[0-9a-f]{64}$/i.test(sha256)) {
-    throw new Error("Invalid SHA256 hash: must be a 64-character hexadecimal string");
+const validateSHA256 = function(hashes) {
+  if (!hashes || !Array.isArray(hashes) || hashes.length === 0) {
+    throw new Error("You must add at least one SHA256 hash");
+  }
+  for (const hash of hashes) {
+    if (!/^[0-9a-f]{64}$/i.test(hash)) {
+      throw new Error("Invalid SHA256 hash: must be a 64-character hexadecimal string: " + hash);
+    }
   }
 }
 
@@ -92,7 +97,7 @@ const createAssetRegistration = async function ({
   name,
   createdAt = null
 }) {
-  validateSHA256(sha256);
+  validateSHA256([sha256]);
   if (url) {
     validateUrl(url);
   }
@@ -132,22 +137,20 @@ const createAssetRegistration = async function ({
 }
 
 const createVerification = async function ({
-  sha256,
+  hashes,
   content,
   status,
-  assetEventId,
-  otherHashes,
+  appId,
+  version,
   createdAt = null
 }) {
-  console.debug("Creating verification for asset: ", assetEventId);
+  validateSHA256(hashes);
 
-  validateSHA256(sha256);
-
-  if (!content || !status || !assetEventId) {
+  if (!content || !status) {
     throw new Error("Missing required parameters");
   }
 
-  if (!['reproducible', 'not_reproducible', 'ftbfs'].includes(status)) {
+  if (!['reproducible', 'not_reproducible', 'ftbfs', 'spam'].includes(status)) {
     throw new Error("Invalid status");
   }
 
@@ -157,18 +160,18 @@ const createVerification = async function ({
   ndkEvent.created_at = getCreatedAt(createdAt);
 
   ndkEvent.tags = [
-    ["x", sha256],
     ["status", status]
   ];
 
-  if (otherHashes) {
-    otherHashes.split(',').forEach(hash => {
-      const trimmedHash = hash.trim();
-      if (trimmedHash) {
-        ndkEvent.tags.push(["x", trimmedHash]);
-      }
-    });
+  if (appId) {
+    ndkEvent.tags.push(["i", appId]);
   }
+  if (version) {
+    ndkEvent.tags.push(["version", version]);
+  }
+  hashes.forEach(hash => {
+    ndkEvent.tags.push(["x", hash]);
+  });
 
   try {
     const publishedToRelays = await ndkEvent.publish();
@@ -189,7 +192,7 @@ const createVerification = async function ({
 const createEndorsement = async function ({sha256, content, status, attestationEventId, createdAt = null}) {
   console.debug("Creating endorsement for attestation: ", attestationEventId);
 
-  validateSHA256(sha256);
+  validateSHA256([sha256]);
 
   if (!content || !status || !attestationEventId) {
     throw new Error("Missing required parameters");
