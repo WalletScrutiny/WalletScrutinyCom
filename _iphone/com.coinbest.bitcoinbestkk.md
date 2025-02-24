@@ -1,0 +1,33 @@
+---
+wsId: coinbest
+title: 暗号資産取引ならOSL Japan 、ビットコインウォレット
+altTitle: 
+authors:
+- danny 
+appId: com.coinbest.bitcoinbestkk
+appCountry: jp
+idd: '1512389431'
+released: '2021-03-23'
+updated: 2025-02-21
+version: 4.0.3
+stars: 4.81818
+reviews: 11
+website: https://coinbest.com
+repository: 
+issue: 
+icon: com.coinbest.bitcoinbestkk.jpg
+bugbounty: 
+meta: ok
+verdict: custodial
+appHashes: 
+date: 2025-02-24
+signer: 
+reviewArchive: 
+twitter: 
+social: 
+features: 
+developerName: coinbest
+
+---
+
+{% include copyFromAndroid.html %}
