@@ -15,6 +15,20 @@ permalink: /new_verification/
 
   <form id="attestationForm" onsubmit="handleSubmit(event)">
     <div class="form-group">
+      <label for="appId">App ID:</label>
+      <input type="text" id="appId" name="appId" class="form-control" autocomplete="off">
+      <div id="appIdSuggestions" class="suggestions-container"></div>
+      <small class="form-text">Example: app.zeusln.zeus. Start typing wallet name or ID to search for known apps, or write a new app ID.</small>
+      <small class="form-text" style="margin-bottom: 1em;">If you <b>can't find the app here</b>, you can <a href="https://gitlab.com/walletscrutiny/walletScrutinyCom/-/wikis/How-to-Contribute-to-WalletScrutiny#add-products" target="_blank">open an MR</a> to add it to the inventory, or drop us a message on our <a href="https://discord.com/channels/1011450447392940082/1012176837486596106" target="_blank">Discord</a>.</small>
+    </div>
+
+    <div class="form-group">
+      <label for="version">Version*:</label>
+      <input type="text" id="version" name="version" class="form-control" required>
+      <small class="form-text">Example: 0.9.2</small>
+    </div>
+
+    <div class="form-group">
       <label for="status">Status*:</label>
       <select id="status" name="status" class="form-control" required>
         <option value="">Select a status</option>
@@ -47,16 +61,16 @@ permalink: /new_verification/
     </div>
 
     <div class="form-group">
-      <label for="otherHashes">Other related hashes:</label>
+      <label for="otherHashes" id="hashesLabel"></label>
       <div class="hash-input-container">
-        <input type="text" id="newHash" class="form-control" placeholder="Enter hash value">
+        <input type="text" id="newHash" class="form-control" placeholder="Enter hash">
         <button type="button" id="addHash" class="btn btn-primary" title="Add this hash to the list">
           <i class="fas fa-plus"></i>
         </button>
       </div>
       <div id="hashList" class="hash-list"></div>
       <input type="hidden" id="otherHashes" name="otherHashes">
-      <small class="form-text">If you find other related binaries (e.g., APKs within an AAB) that are also reproducible, you can add the hashes of those additional binaries to your verification.</small>
+      <small class="form-text" id="hashesHelpText"></small>
     </div>
 
     <style>
@@ -113,6 +127,8 @@ permalink: /new_verification/
 function validateForm() {
   const content = document.getElementById('content').value.trim();
   const status = document.getElementById('status').value;
+  const version = document.getElementById('version').value.trim();
+  const appId = document.getElementById('appId').value.trim();
 
   if (content.length < 20) {
     showToast('Content must be at least 20 characters long', 'error');
@@ -120,6 +136,11 @@ function validateForm() {
   }
   if (content.length > 60000) {
     showToast('Content cannot exceed 60000 characters', 'error');
+    return false;
+  }
+
+  if (!appId || !version) {
+    showToast('Please fill in all required fields', 'error');
     return false;
   }
 
@@ -145,37 +166,60 @@ async function loadUrlParamsAndGetAssetInfo() {
     return;
   }
 
+  if (window.wallets && window.wallets.length > 0) {
+    setupAppIdAutocomplete();
+  }
+
   const urlParams = new URLSearchParams(window.location.search);
+  
+  const fields = ['version', 'appId'];
+  fields.forEach(field => {
+    const value = urlParams.get(field);
+    if (value) {
+      document.getElementById(field).value = value;
+    }
+  });
+
   const sha256 = urlParams.get('sha256');
   const assetEventId = urlParams.get('assetEventId');
 
-  if (!sha256 || !assetEventId) {
-    showError('Required URL parameters are missing.');
-    return;
+  // Update the hashes label based on whether sha256 is present
+  const hashesLabel = document.getElementById('hashesLabel');
+  const hashesHelpText = document.getElementById('hashesHelpText');
+  if (sha256) {
+    hashesLabel.textContent = 'Additional related hashes:';
+    hashesHelpText.textContent = 'If you find other related binaries (e.g., APKs within an AAB) that are also reproducible, you can add the hashes of those additional binaries to your verification.';
+  } else {
+    hashesLabel.textContent = 'Asset hashes*:';
+    hashesHelpText.textContent = 'Add the SHA-256 hash(es) of the asset(s) you are verifying. Each hash must be 64 hexadecimal characters.';
   }
 
   await nostrConnect();
 
-  // Show asset information and previous verifications
-  const result = await renderAssetsTable({
-    htmlElementId:'previousAttestations',
-    sha256: sha256,
-    hideConfig: {buttons: true}
-  });
-  
-  if (!result.info || !result.info.assets || result.info.assets.length === 0) {
-    showError('No assets found for the provided parameters.');
-    return;
+  let message = '';
+
+  if (sha256) {
+    // Show asset information and previous verifications
+    const result = await renderAssetsTable({
+      htmlElementId:'previousAttestations',
+      sha256: sha256,
+      hideConfig: {buttons: true}
+    });
+    
+    if (!result.info || !result.info.assets || result.info.assets.length === 0) {
+      showError('No assets found for the provided parameters.');
+      return;
+    }
+
+    if (result.hasAttestations) {
+      message = '<p>You are about to create a verification for a specific asset. Below you can find the asset information and other verifications that were made. Feel free to review them before creating your own.</p>';
+    } else {
+      message = '<p>Below you can find the asset information. Since there are no previous verifications, you will be the first one to provide feedback about this asset.</p>';
+    }
   }
 
-  const infoMessage = document.querySelector('.info-message');
-  let message = '';
-  if (result.hasAttestations) {
-    message = '<p>You are about to create a verification for a specific asset. Below you can find the asset information and other verifications that were made. Feel free to review them before creating your own.</p>';
-  } else {
-    message = '<p>Below you can find the asset information. Since there are no previous verifications, you will be the first one to provide feedback about this asset.</p>';
-  }
   message += '<p>To create the verification, first choose the status (if you could reproduce the asset or not), and then describe your verification process and findings with as much detail as possible (minimum 20, maximum 60000 characters). Markdown is supported.</p>';
+  const infoMessage = document.querySelector('.info-message');
   infoMessage.innerHTML = message;
 }
 
@@ -188,13 +232,21 @@ async function handleSubmit(event) {
 
   const sha256 = new URLSearchParams(window.location.search).get('sha256');
   const assetEventId = new URLSearchParams(window.location.search).get('assetEventId');
+  const otherHashesValue = document.getElementById('otherHashes').value.trim();
+
+  // Combine sha256 and otherHashes into a single parameter
+  let hashes = sha256 ? [sha256] : [];
+  if (otherHashesValue) {
+    hashes = hashes.concat(otherHashesValue.split(','));
+  }
 
   const formData = {
-    sha256: sha256,
+    hashes: hashes,
     content: document.getElementById('content').value.trim(),
     status: document.getElementById('status').value,
     assetEventId: assetEventId,
-    otherHashes: document.getElementById('otherHashes').value.trim()
+    appId: document.getElementById('appId').value.trim(),
+    version: document.getElementById('version').value.trim()
   };
 
   const spinner = document.getElementById('loadingSpinner');

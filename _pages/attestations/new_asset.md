@@ -71,30 +71,6 @@ permalink: /new_asset/
   </div>
 </div>
 
-<style>
-.suggestions-container {
-  display: none;
-  position: absolute;
-  border: 1px solid #ddd;
-  border-top: none;
-  z-index: 1000;
-  background: var(--neutral-5);
-  width: 100%;
-  max-height: 200px;
-  overflow-y: auto;
-}
-
-.suggestion-item {
-  padding: 8px 10px;
-  cursor: pointer;
-  color: var(--text-color);
-}
-
-.suggestion-item:hover {
-  background-color: #6f6f6f;
-}
-</style>
-
 <script>
 function validateForm() {
   const name = document.getElementById('name').value.trim();
@@ -108,53 +84,6 @@ function validateForm() {
   }
 
   return true;
-}
-
-function setupAppIdAutocomplete() {
-  const appIdInput = document.getElementById('appId');
-  const suggestionsContainer = document.getElementById('appIdSuggestions');
-  
-  function filterWallets(searchText) {
-    if (!window.wallets) return [];
-    return window.wallets.filter(wallet => {
-      const searchLower = searchText.toLowerCase();
-      return wallet.appId.toLowerCase().includes(searchLower) || 
-             wallet.title.toLowerCase().includes(searchLower);
-    });
-  }
-
-  function showSuggestions(suggestions) {
-    suggestionsContainer.innerHTML = '';
-    if (suggestions.length === 0) {
-      suggestionsContainer.style.display = 'none';
-      return;
-    }
-
-    suggestions.forEach(wallet => {
-      const div = document.createElement('div');
-      div.className = 'suggestion-item';
-      div.textContent = `${wallet.title}${wallet.folder ? ' (' + wallet.folder + ')' : ''} - ${wallet.appId}`;
-      div.onclick = () => {
-        appIdInput.value = wallet.appId;
-        suggestionsContainer.style.display = 'none';
-      };
-      suggestionsContainer.appendChild(div);
-    });
-    
-    suggestionsContainer.style.display = 'block';
-  }
-
-  appIdInput.addEventListener('input', (e) => {
-    const searchText = e.target.value;
-    const filteredWallets = filterWallets(searchText);
-    showSuggestions(filteredWallets);
-  });
-
-  document.addEventListener('click', (e) => {
-    if (!appIdInput.contains(e.target) && !suggestionsContainer.contains(e.target)) {
-      suggestionsContainer.style.display = 'none';
-    }
-  });
 }
 
 async function loadUrlParams() {

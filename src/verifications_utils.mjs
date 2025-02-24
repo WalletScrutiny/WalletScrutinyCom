@@ -412,6 +412,56 @@ const createNostrNote = async function (message) {
   }
 }
 
+
+
+function setupAppIdAutocomplete() {
+  const appIdInput = document.getElementById('appId');
+  const suggestionsContainer = document.getElementById('appIdSuggestions');
+  
+  function filterWallets(searchText) {
+    if (!window.wallets) return [];
+    return window.wallets.filter(wallet => {
+      const searchLower = searchText.toLowerCase();
+      return wallet.appId.toLowerCase().includes(searchLower) || 
+             wallet.title.toLowerCase().includes(searchLower);
+    });
+  }
+
+  function showSuggestions(suggestions) {
+    suggestionsContainer.innerHTML = '';
+    if (suggestions.length === 0) {
+      suggestionsContainer.style.display = 'none';
+      return;
+    }
+
+    suggestions.forEach(wallet => {
+      const div = document.createElement('div');
+      div.className = 'suggestion-item';
+      div.textContent = `${wallet.title}${wallet.folder ? ' (' + wallet.folder + ')' : ''} - ${wallet.appId}`;
+      div.onclick = () => {
+        appIdInput.value = wallet.appId;
+        suggestionsContainer.style.display = 'none';
+      };
+      suggestionsContainer.appendChild(div);
+    });
+    
+    suggestionsContainer.style.display = 'block';
+  }
+
+  appIdInput.addEventListener('input', (e) => {
+    const searchText = e.target.value;
+    const filteredWallets = filterWallets(searchText);
+    showSuggestions(filteredWallets);
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!appIdInput.contains(e.target) && !suggestionsContainer.contains(e.target)) {
+      suggestionsContainer.style.display = 'none';
+    }
+  });
+}
+
+
 if (typeof window !== 'undefined') {
   window.nostrConnect = nostrConnect;
   window.createAssetRegistration = createAssetRegistration;
@@ -425,6 +475,7 @@ if (typeof window !== 'undefined') {
   window.userHasBrowserExtension = userHasBrowserExtension;
   window.showToast = showToast;
   window.getNpubFromPubkey = getNpubFromPubkey;
+  window.setupAppIdAutocomplete = setupAppIdAutocomplete;
 }
 
 export {
@@ -439,5 +490,6 @@ export {
   getUserPubkey,
   userHasBrowserExtension,
   showToast,
-  getNpubFromPubkey
+  getNpubFromPubkey,
+  setupAppIdAutocomplete
 };

@@ -424,3 +424,26 @@ input, textarea, select {
   margin-top: 0em;
   margin-bottom: 0em;
 }
+
+/* App ID Autocomplete */
+.suggestions-container {
+  display: none;
+  position: absolute;
+  border: 1px solid #ddd;
+  border-top: none;
+  z-index: 1000;
+  background: var(--neutral-5);
+  width: 100%;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.suggestion-item {
+  padding: 8px 10px;
+  cursor: pointer;
+  color: var(--text-color);
+}
+
+.suggestion-item:hover {
+  background-color: #6f6f6f;
+}
