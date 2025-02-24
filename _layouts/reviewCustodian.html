@@ -150,12 +150,21 @@ layout: default
                 {% if ceo.social %}
                   <div class="social-links">
                     {% if ceo.social.twitter %}
+                      <style>
+                        .x-icon {
+                          filter: invert(36%) sepia(9%) saturate(692%) hue-rotate(167deg) brightness(94%) contrast(89%);
+                        }
+                        .twitter:hover .x-icon {
+                          filter: brightness(0);
+                        }
+                      </style>
                       <a
                         href="{{ ceo.social.twitter }}"
                         class="twitter"
                         target="_blank"
-                        rel="noopener">
-                        <i class="fab fa-twitter"></i>
+                        rel="noopener"
+                        style="display: inline-flex; align-items: center;">
+                        <img src="/images/xlogo.svg" alt="X (Twitter)" class="x-icon" style="width: 1em; height: 1em;">
                       </a>
                     {% endif %}
                     {% if ceo.social.linkedin %}

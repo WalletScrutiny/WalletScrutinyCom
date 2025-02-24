@@ -18,7 +18,7 @@ custodian:
       nationality: "American"
       photo: "/images/wIcons/custodians/leadership/coinbase-brian-armstrong.jpeg"
       social:
-        twitter: "https://twitter.com/brian_armstrong"
+        twitter: "https://x.com/brian_armstrong"
         linkedin: "https://www.linkedin.com/in/barmstrong"
         github: "https://github.com/barmstrong"
     team:
