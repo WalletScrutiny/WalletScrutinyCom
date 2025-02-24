@@ -18,7 +18,7 @@ custodian:
       nationality: "American"
       photo: "/images/wIcons/custodians/leadership/swanbitcoin-cory-klippsten.png"
       social:
-        twitter: "https://twitter.com/coryklippsten"
+        twitter: "https://x.com/coryklippsten"
         linkedin: "https://www.linkedin.com/in/coryklippsten"
     team:
       - name: "Cory Klippsten"
@@ -171,7 +171,7 @@ custodian:
         source: Bitcoin Magazine
         source_url: https://bitcoinmagazine.com/business/swan-bitcoin-acquires-specter-solutions
         corroborating_source: Swan Bitcoin Official Announcement
-        corroborating_source_url: https://twitter.com/SwanBitcoin/status/1671234567890
+        corroborating_source_url: https://x.com/SwanBitcoin/status/1671234567890
         refutation: 
         refutation_source_url: 
         comment: This acquisition strengthens Swan's position in the self-custody solutions market
