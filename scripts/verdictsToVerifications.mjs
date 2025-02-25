@@ -92,63 +92,65 @@ async function parseFile(filePath, folderName) {
                 .slice(0, 50000);
 
 
-        // Create events for each review in reviewArchive
-        if (data.reviewArchive && data.reviewArchive.length > 0) {
-            for (const [index, review] of [...data.reviewArchive].reverse().entries()) {
-                console.log(`\nAppId: ${appId} - Review #${data.reviewArchive.length - index}:`);
-                console.log('  Date:', review.date);
-                console.log('  Version:', review.version);
-                console.log('  Verdict:', review.verdict);
+        if (appId === 'app.zeusln.zeus') {
+            // Create events for each review in reviewArchive
+            if (data.reviewArchive && data.reviewArchive.length > 0) {
+                for (const [index, review] of [...data.reviewArchive].reverse().entries()) {
+                    console.log(`\nAppId: ${appId} - Review #${data.reviewArchive.length - index}:`);
+                    console.log('  Date:', review.date);
+                    console.log('  Version:', review.version);
+                    console.log('  Verdict:', review.verdict);
 
-                if (!review.appHashes || review.appHashes.length === 0) {
-                    console.log('  --------------------------------------------------------------  No appHashes found');
-                    continue;
-                }
-                if (review.appHashes) {
-                    console.log('  AppHashes:');
-                    review.appHashes.forEach(hash => console.log('    -', hash));
-                }
+                    if (!review.appHashes || review.appHashes.length === 0) {
+                        console.log('  --------------------------------------------------------------  No appHashes found');
+                        continue;
+                    }
+                    if (review.appHashes) {
+                        console.log('  AppHashes:');
+                        review.appHashes.forEach(hash => console.log('    -', hash));
+                    }
 
-                if (!['fewusers', 'custodial', 'nosource', 'nowallet', 'fake', 'nobtc', 'nosendreceive', 'obfuscated', 'wip'].includes(review.verdict)) {
-                    await createNostrEvents({
-                        hashes: review.appHashes,
-                        appId,
-                        version: review.version,
-                        platform: folderName,
-                        name: folderName === 'android' ? "Google Play extracted apk" : "Binary obtained from the manufacturer's website",
-                        content: review.gitRevision ? `Legacy verification by WalletScrutiny (${review.date}). See details <a target="_blank" href="https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/${review.gitRevision}/_${folderName}/${appId}.md">here</a>.` : '',
-                        status: getStatusFromVerdict(review.verdict)
-                    });
+                    if (!['fewusers', 'custodial', 'nosource', 'nowallet', 'fake', 'nobtc', 'nosendreceive', 'obfuscated', 'wip'].includes(review.verdict)) {
+                        await createNostrEvents({
+                            hashes: review.appHashes,
+                            appId,
+                            version: review.version,
+                            platform: folderName,
+                            name: folderName === 'android' ? "Google Play extracted apk" : "Binary obtained from the manufacturer's website",
+                            content: review.gitRevision ? `Legacy verification by WalletScrutiny (${review.date}). See details <a target="_blank" href="https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/${review.gitRevision}/_${folderName}/${appId}.md">here</a>.` : '',
+                            status: getStatusFromVerdict(review.verdict)
+                        });
+                    }
                 }
             }
-        }
 
-        if (!appHashes || !version || !data.title || !data.verdict || !folderName || !contentAfterYaml) {
-            console.error(`     Not enough information to create nostr event for ${appId}:`);
-            /*
-            console.error({
-                appId,
-                appHash,
-                version,
-                title: data.title,
-                verdict: data.verdict,
-                folderName,
-                contentAfterYaml
-            });
-            */
-            //console.error(data);
-            //process.exit(1);
-        } else {
-            if (!['fewusers', 'custodial', 'nosource', 'nowallet', 'fake', 'nobtc', 'nosendreceive', 'obfuscated', 'wip'].includes(data.verdict)) {
-                await createNostrEvents({
-                    hashes: appHashes,
+            if (!appHashes || !version || !data.title || !data.verdict || !folderName || !contentAfterYaml) {
+                console.error(`     Not enough information to create nostr event for ${appId}:`);
+                /*
+                console.error({
                     appId,
+                    appHash,
                     version,
-                    platform: folderName,
-                    name: folderName === 'android' ? "Google Play extracted apk" : "Binary obtained from the manufacturer's website",
-                    content: contentAfterYaml,
-                    status: getStatusFromVerdict(data.verdict)
+                    title: data.title,
+                    verdict: data.verdict,
+                    folderName,
+                    contentAfterYaml
                 });
+                */
+                //console.error(data);
+                //process.exit(1);
+            } else {
+                if (!['fewusers', 'custodial', 'nosource', 'nowallet', 'fake', 'nobtc', 'nosendreceive', 'obfuscated', 'wip'].includes(data.verdict)) {
+                    await createNostrEvents({
+                        hashes: appHashes,
+                        appId,
+                        version,
+                        platform: folderName,
+                        name: folderName === 'android' ? "Google Play extracted apk" : "Binary obtained from the manufacturer's website",
+                        content: contentAfterYaml,
+                        status: getStatusFromVerdict(data.verdict)
+                    });
+                }
             }
         }
 
@@ -176,22 +178,7 @@ async function createNostrEvents({
         status
     });
 
-    /*
-    console.log('   ----------------------------------------------------------------\n    Creating asset registration...\n   ----------------------------------------------------------------');
-    const assetEvent = await createAssetRegistration({
-        sha256,
-        appId,
-        version,
-        platform,
-        name
-    });
-    await new Promise(resolve => setTimeout(resolve, 600));
-
-    //const assetEventId = assetEvent.id;
-    */
-
-
-    console.log('   ----------------------------------------------------------------\n    Creating attestation...\n   ----------------------------------------------------------------');
+    console.log('   ----------------------------------------------------------------\n    Creating verification...\n   ----------------------------------------------------------------');
     await createVerification({
         hashes,
         content,
@@ -199,7 +186,7 @@ async function createNostrEvents({
         appId,
         version
     });
-    await new Promise(resolve => setTimeout(resolve, 600));
+    await new Promise(resolve => setTimeout(resolve, 1000));
 }
 
 function parseResults(resultsString) {
@@ -220,7 +207,7 @@ function parseResults(resultsString) {
 if (import.meta.url === `file://${process.argv[1]}`) {
     // Get Nostr private key and directory paths from command-line arguments
     if (process.argv.length < 4) {
-        console.log('Usage: node verdictsToAttestations.mjs <nostr_private_key> <directory_path1> [directory_path2 ...]');
+        console.log('Usage: node verdictsToVerifications.mjs <nostr_private_key> <directory_path1> [directory_path2 ...]');
         process.exit(1);
     }
 
