@@ -16,10 +16,10 @@ repository:
 issue: 
 icon: com.fincrypt.payboltmerchant.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nobtc
 appHashes: 
-date: 2024-06-29
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: PayBoltOfficial

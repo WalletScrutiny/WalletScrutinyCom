@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.cardstack.cardpay.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nobtc
 appHashes: 
-date: 2024-02-12
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: cardstack

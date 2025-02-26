@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: mn.ihbit.ihcwallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
 appHashes: 
-date: 2022-07-31
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: IHCoinofficial

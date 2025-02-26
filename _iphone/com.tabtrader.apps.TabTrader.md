@@ -13,7 +13,7 @@ released: 2016-09-02
 updated: 2025-02-02
 version: 5.2.6
 stars: 4.7
-reviews: 4297
+reviews: 4300
 website: https://tabtrader.com
 repository: 
 issue: 

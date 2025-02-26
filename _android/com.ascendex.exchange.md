@@ -8,11 +8,11 @@ users: 500000
 appId: com.ascendex.exchange
 appCountry: 
 released: 2021-04-28
-updated: 2025-02-13
+updated: 2025-02-25
 version: 3.5.2
 stars: 3.7
 ratings: 6660
-reviews: 78
+reviews: 77
 website: https://www.ascendex.com/
 repository: 
 issue: 

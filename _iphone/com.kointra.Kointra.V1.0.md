@@ -8,8 +8,8 @@ appId: com.kointra.Kointra.V1.0
 appCountry: tr
 idd: '1486286836'
 released: 2019-11-15
-updated: 2024-09-23
-version: 3.3.1
+updated: 2025-02-26
+version: 3.3.2
 stars: 4.7
 reviews: 30
 website: https://kointra.com

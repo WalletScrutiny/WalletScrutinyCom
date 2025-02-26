@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: io.kryll.app2.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
 appHashes: 
-date: 2023-09-05
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: kryll_io

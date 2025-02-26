@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: mrweb.mobile.mrweb.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nobtc
 appHashes: 
-date: 2024-04-24
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: 

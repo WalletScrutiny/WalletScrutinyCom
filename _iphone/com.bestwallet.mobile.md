@@ -8,10 +8,10 @@ appId: com.bestwallet.mobile
 appCountry: us
 idd: '6451312105'
 released: 2023-08-02
-updated: 2025-02-03
-version: 2.4.5
+updated: 2025-02-25
+version: 2.5.1
 stars: 4.6
-reviews: 2238
+reviews: 2432
 website: https://bestwallet.com/
 repository: 
 issue: 

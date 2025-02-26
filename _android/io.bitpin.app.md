@@ -10,9 +10,9 @@ appCountry:
 released: 2021-09-01
 updated: 2025-02-09
 version: 1.0.82
-stars: 4
+stars: 4.1
 ratings: 
-reviews: 104
+reviews: 106
 website: https://bitpin.ir
 repository: 
 issue: 

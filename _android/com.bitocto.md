@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.bitocto.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-05-24
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: bitoctoexchange

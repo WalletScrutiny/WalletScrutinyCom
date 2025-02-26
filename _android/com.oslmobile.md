@@ -6,6 +6,7 @@ authors:
 users: 1000
 appId: com.oslmobile
 appCountry: 
+released: 
 updated: 2025-02-12
 version: 3.0.1
 stars: 

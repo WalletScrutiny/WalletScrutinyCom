@@ -11,7 +11,7 @@ released: 2020-11-17
 updated: 2023-02-13
 version: '1.33'
 stars: 3.9
-reviews: 933
+reviews: 940
 website: https://www.buyucoin.com
 repository: 
 issue: 

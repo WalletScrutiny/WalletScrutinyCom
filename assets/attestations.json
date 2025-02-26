@@ -13,6 +13,17 @@
   {
     "appId": "app.zeusln.zeus",
     "signer": "cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359",
+    "version": "0.9.6",
+    "verdict": "reproducible",
+    "appHashes": [
+      "db84dd4c1db67c2bfca707d648b159db6480ad1d5f1652b4db3b1d33bf2f3114"
+    ],
+    "date": "2025-02-11",
+    "platform": "android"
+  },
+  {
+    "appId": "app.zeusln.zeus",
+    "signer": "cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359",
     "version": "0.9.5",
     "verdict": "reproducible",
     "appHashes": [
@@ -156,12 +167,12 @@
   {
     "appId": "app.zeusln.zeus",
     "signer": "cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359",
-    "version": "0.9.6",
+    "version": "0.9.7",
     "verdict": "",
     "appHashes": [
-      "db84dd4c1db67c2bfca707d648b159db6480ad1d5f1652b4db3b1d33bf2f3114"
+      "cd681d7407b7f3d6fcde908ecb01594b3ee3f48aa524026099b44b5d9ab5f715"
     ],
-    "date": "2025-02-11",
+    "date": "2025-02-22",
     "platform": "android"
   },
   {
@@ -2761,7 +2772,7 @@
   },
   {
     "appId": "io.muun.apollo",
-    "signer": "",
+    "signer": "026ae0ac859cc32adf2d4e7aa909daf902f40db0b4fe6138358026fd62836ad1",
     "version": "52.1",
     "verdict": "nonverifiable",
     "appHashes": [
@@ -2772,7 +2783,7 @@
   },
   {
     "appId": "io.muun.apollo",
-    "signer": "",
+    "signer": "026ae0ac859cc32adf2d4e7aa909daf902f40db0b4fe6138358026fd62836ad1",
     "version": "50.13",
     "verdict": "nonverifiable",
     "appHashes": [
@@ -2783,7 +2794,7 @@
   },
   {
     "appId": "io.muun.apollo",
-    "signer": "",
+    "signer": "026ae0ac859cc32adf2d4e7aa909daf902f40db0b4fe6138358026fd62836ad1",
     "version": "49.3",
     "verdict": "nonverifiable",
     "appHashes": [
@@ -2794,7 +2805,7 @@
   },
   {
     "appId": "io.muun.apollo",
-    "signer": "",
+    "signer": "026ae0ac859cc32adf2d4e7aa909daf902f40db0b4fe6138358026fd62836ad1",
     "version": "49.2",
     "verdict": "nonverifiable",
     "appHashes": [
@@ -2805,7 +2816,7 @@
   },
   {
     "appId": "io.muun.apollo",
-    "signer": "",
+    "signer": "026ae0ac859cc32adf2d4e7aa909daf902f40db0b4fe6138358026fd62836ad1",
     "version": "49.1",
     "verdict": "nonverifiable",
     "appHashes": [
@@ -2816,7 +2827,7 @@
   },
   {
     "appId": "io.muun.apollo",
-    "signer": "",
+    "signer": "026ae0ac859cc32adf2d4e7aa909daf902f40db0b4fe6138358026fd62836ad1",
     "version": "46.10",
     "verdict": "nonverifiable",
     "appHashes": [
@@ -2827,13 +2838,24 @@
   },
   {
     "appId": "io.muun.apollo",
-    "signer": "",
+    "signer": "026ae0ac859cc32adf2d4e7aa909daf902f40db0b4fe6138358026fd62836ad1",
     "version": "45.2",
     "verdict": "nonverifiable",
     "appHashes": [
       "292776e270739d37b9307465cbddfc11068813078d9633035d74ae67f322a3b2"
     ],
     "date": "2021-04-06",
+    "platform": "android"
+  },
+  {
+    "appId": "io.muun.apollo",
+    "signer": "026ae0ac859cc32adf2d4e7aa909daf902f40db0b4fe6138358026fd62836ad1",
+    "version": "52.7",
+    "verdict": "",
+    "appHashes": [
+      "9c743af9930e7eca39581e70ec9213489e572dc93fe33d3a90bc95b00825a4dc"
+    ],
+    "date": "2025-02-24",
     "platform": "android"
   },
   {
@@ -3904,6 +3926,18 @@
   {
     "appId": "coldcardMk4",
     "signer": "",
+    "version": "v6.3.4X",
+    "verdict": "reproducible",
+    "appHashes": [
+      "681874256bcfca71a3908f1dd6c623804517fdba99a51ed04c73b96119650c13",
+      "70e375200649ee77723fd816d581fe58e47472e72e7862773658a738685d4336"
+    ],
+    "date": "2024-01-02",
+    "platform": "hardware"
+  },
+  {
+    "appId": "coldcardMk4",
+    "signer": "",
     "version": "v5.4.0",
     "verdict": "reproducible",
     "appHashes": [
@@ -3943,6 +3977,17 @@
       "7aefd5bcce533f15337e83618ebbd42925d336792c82a5ca19a430b209b30b8a"
     ],
     "date": "2023-06-22",
+    "platform": "hardware"
+  },
+  {
+    "appId": "coldcardQ1",
+    "signer": "d840fa4e83ebc7b0f961f30f68d795bed61271e2314dda4ab0eb0b8bfe7192f4",
+    "version": "1.3.0Q",
+    "verdict": "reproducible",
+    "appHashes": [
+      "cb23d9c1ace86724de450893239773e711f9c68486cd7d08fc6e4da5db1cc2b3"
+    ],
+    "date": "2024-11-05",
     "platform": "hardware"
   },
   {
@@ -4053,6 +4098,18 @@
       "2b7edd319536076e0a00058d0cfd1b1863c8d616ba5851668796d04966df8594"
     ],
     "date": "2021-07-31",
+    "platform": "hardware"
+  },
+  {
+    "appId": "keystone3.pro",
+    "signer": "6853ffd1706faed1468e677621b2ef1ccf053dff4f9b22e7ba5b12a978e1eb37",
+    "version": "1.8.2",
+    "verdict": "reproducible",
+    "appHashes": [
+      "5609915455a3f867fca8bdb026b596a70be0cb1f5678a5aeab5ab8218075fd22",
+      "4697250d2e7f9fff681aca98fb9fa62dcc00dd3fa786457e19ec1e01721c5aa1"
+    ],
+    "date": "2024-12-31",
     "platform": "hardware"
   },
   {
@@ -4273,6 +4330,34 @@
       "9de833a38931b7e4660e8d0e3ea4a2bfe74924caa1328834e9be9c3d1750cd7e"
     ],
     "date": "2023-06-20",
+    "platform": "hardware"
+  },
+  {
+    "appId": "seedsigner",
+    "signer": "",
+    "version": "0.8.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "1d0f1c412f64b40e6aba21b5bacdb41d9323653c170ce06d0a3f1dd71fddb28e",
+      "11c5553d75b3ebca4988ae3c4573b60b33a12bc4779282454ae34404ba797670",
+      "c8d5352ed4a86c19eb9ef54f2920934f8ce460742b464ea94dc9114f9f4e039a",
+      "917201e335bfc7ee4189f17827f954f89588dc0fdefdad80d26f2a65c5c8e6d0"
+    ],
+    "date": "2024-12-18",
+    "platform": "hardware"
+  },
+  {
+    "appId": "seedsigner",
+    "signer": "",
+    "version": "",
+    "verdict": "reproducible",
+    "appHashes": [
+      "bcb901e27d309d85f086dc80b49b153d6b1caab2247eba2811731384d58f2f3e",
+      "1e93a82e62d4a1defbdc777a6762a813f4cb5c3ef9090da0bd07542dfd6f62bf",
+      "398d9bf9cda0858fe97c0788b353194c1c902335a858b7dbf5d7b213bda75d96",
+      "d298ffad3c765e11e48873efc6d1c65e4230528fde4d5bd4701bb507acbf493c"
+    ],
+    "date": "2024-12-18",
     "platform": "hardware"
   },
   {

@@ -8,11 +8,11 @@ users: 50000
 appId: com.monero.app
 appCountry: 
 released: 2022-01-07
-updated: 2025-02-01
-version: 1.20.0
+updated: 2025-02-20
+version: 1.20.2
 stars: 4.6
 ratings: 
-reviews: 41
+reviews: 42
 website: https://cakewallet.com
 repository: 
 issue: 

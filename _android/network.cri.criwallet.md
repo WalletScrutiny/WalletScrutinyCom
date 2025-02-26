@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: network.cri.criwallet.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-07-22
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: Cri_Vivranium

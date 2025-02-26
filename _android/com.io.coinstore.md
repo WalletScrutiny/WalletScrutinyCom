@@ -8,8 +8,8 @@ users: 500000
 appId: com.io.coinstore
 appCountry: 
 released: 2021-03-29
-updated: 2025-01-23
-version: 3.4.0
+updated: 2025-02-21
+version: 3.5.0
 stars: 4.2
 ratings: 
 reviews: 68

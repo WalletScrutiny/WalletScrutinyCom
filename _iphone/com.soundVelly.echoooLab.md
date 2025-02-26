@@ -11,7 +11,7 @@ released: 2023-04-22
 updated: 2025-02-13
 version: 1.16.0
 stars: 4.8
-reviews: 42
+reviews: 41
 website: http://www.echooo.xyz
 repository: 
 issue: 

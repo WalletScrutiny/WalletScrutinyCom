@@ -11,9 +11,9 @@ appCountry:
 released: 2024-01-02
 updated: 2025-02-18
 version: 0.2.10
-stars: 4.4
+stars: 4.5
 ratings: 
-reviews: 14
+reviews: 15
 website: https://aquawallet.io
 repository: https://github.com/AquaWallet/aqua-wallet
 issue: https://github.com/AquaWallet/aqua-wallet/issues/9

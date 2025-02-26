@@ -12,7 +12,7 @@ updated: 2025-02-13
 version: 3.1.20
 stars: 3.4
 ratings: 
-reviews: 7
+reviews: 6
 website: https://support.cointr.com
 repository: 
 issue: 

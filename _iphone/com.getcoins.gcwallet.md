@@ -10,8 +10,8 @@ idd: '1426011288'
 released: 2018-08-18
 updated: 2023-07-27
 version: 15.3.0
-stars: 2.6
-reviews: 15
+stars: 2.5
+reviews: 16
 website: https://getcoins.com/
 repository: 
 issue: 

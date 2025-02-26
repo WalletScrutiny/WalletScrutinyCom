@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: org.satochip.satochip2fa.satochip2fa.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
 appHashes: 
-date: 2024-03-01
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: 

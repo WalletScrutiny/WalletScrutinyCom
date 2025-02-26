@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Jtechtrade:Giftcards&Pay Bills
+title: Jtechtrade:Giftcards&Crypto
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 10000
 appId: com.walker.jtech
 appCountry: 
 released: 2021-09-26
-updated: 2024-11-19
-version: 2.2.6
+updated: 2025-02-23
+version: 2.3.3
 stars: 3.2
 ratings: 
 reviews: 19

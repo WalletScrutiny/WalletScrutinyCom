@@ -8,11 +8,11 @@ users: 50000
 appId: com.river.riverapp
 appCountry: 
 released: 2023-10-20
-updated: 2025-02-13
-version: 4.68.4
-stars: 4.8
+updated: 2025-02-26
+version: 4.68.12
+stars: 4.9
 ratings: 
-reviews: 191
+reviews: 195
 website: https://river.com/
 repository: 
 issue: 

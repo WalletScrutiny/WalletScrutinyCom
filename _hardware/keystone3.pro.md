@@ -27,16 +27,16 @@ bugbounty:
 meta: ok
 verdict: reproducible
 appHashes:
-- 7c1eb50fd46273d05cabf934ebee3b06d266f0e46b69deb385ce5ecfbcc67bf7  # Built binary hash
-- c18e898b73507d55c721eff4c49fe9e29a8a5d705c1832b52a6df5714e173e5d  # Downloaded signed binary hash
+- 7c1eb50fd46273d05cabf934ebee3b06d266f0e46b69deb385ce5ecfbcc67bf7
+- c18e898b73507d55c721eff4c49fe9e29a8a5d705c1832b52a6df5714e173e5d
 date: 2025-02-21
 signer: 6853ffd1706faed1468e677621b2ef1ccf053dff4f9b22e7ba5b12a978e1eb37
 reviewArchive:
 - date: 2024-12-31
   version: 1.8.2
   appHashes:
-  - 5609915455a3f867fca8bdb026b596a70be0cb1f5678a5aeab5ab8218075fd22 # Built
-  - 4697250d2e7f9fff681aca98fb9fa62dcc00dd3fa786457e19ec1e01721c5aa1 # Downloaded
+  - 5609915455a3f867fca8bdb026b596a70be0cb1f5678a5aeab5ab8218075fd22
+  - 4697250d2e7f9fff681aca98fb9fa62dcc00dd3fa786457e19ec1e01721c5aa1
   gitRevision: a6d663b6ee707729b2258fd460fbfe3bdab91223
   verdict: reproducible
 - date: 2024-12-23

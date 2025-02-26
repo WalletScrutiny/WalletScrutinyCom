@@ -11,7 +11,7 @@ released: 2022-11-22
 updated: 2024-09-19
 version: 2.5.5
 stars: 4.6
-reviews: 232
+reviews: 235
 website: https://prestohq.io/
 repository: 
 issue: 

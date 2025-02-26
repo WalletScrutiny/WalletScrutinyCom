@@ -8,8 +8,8 @@ users: 100000
 appId: com.ixfi
 appCountry: 
 released: 2022-01-19
-updated: 2025-01-22
-version: 1.9.93
+updated: 2025-02-14
+version: 1.9.94
 stars: 4.7
 ratings: 
 reviews: 64

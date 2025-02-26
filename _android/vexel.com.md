@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: vexel.com.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-10-16
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: 

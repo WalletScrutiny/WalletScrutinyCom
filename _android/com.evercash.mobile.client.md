@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.evercash.mobile.client.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2024-11-29
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: 

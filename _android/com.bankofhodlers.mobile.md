@@ -12,7 +12,7 @@ updated: 2025-01-09
 version: 2.9.0
 stars: 3.4
 ratings: 8047
-reviews: 89
+reviews: 88
 website: https://vauld.com
 repository: 
 issue: 

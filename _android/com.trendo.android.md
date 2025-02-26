@@ -10,9 +10,9 @@ appCountry:
 released: 2021-10-05
 updated: 2025-02-18
 version: 3.9.40_googleplay
-stars: 4.8
+stars: 4.9
 ratings: 
-reviews: 649
+reviews: 665
 website: https://fxtrendo.com
 repository: 
 issue: 
@@ -28,7 +28,7 @@ twitter:
 social:
 - https://www.instagram.com/fxtrendo/
 redirect_from: 
-developerName: Trendo LLC
+developerName: Trendo Forex
 features: 
 
 ---

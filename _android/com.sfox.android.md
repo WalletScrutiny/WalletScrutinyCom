@@ -3,7 +3,7 @@ wsId:
 title: 'sFOX: Buy BTC, ETH, DOGE'
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.sfox.android
 appCountry: 
 released: 2021-12-24
@@ -18,7 +18,7 @@ issue:
 icon: com.sfox.android.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2023-06-02
 signer: 

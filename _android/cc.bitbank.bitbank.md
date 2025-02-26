@@ -10,7 +10,7 @@ appCountry:
 released: 
 updated: 2025-01-20
 version: 3.4.0
-stars: 3.8
+stars: 3.6
 ratings: 
 reviews: 2
 website: https://bitbank.cc

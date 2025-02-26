@@ -8,10 +8,10 @@ appId: io.trezor.suite
 appCountry: us
 idd: '1631884497'
 released: 2023-05-14
-updated: 2025-01-29
-version: 25.1.2
+updated: 2025-02-26
+version: 25.2.1
 stars: 3.1
-reviews: 101
+reviews: 104
 website: https://trezor.io/
 repository: 
 issue: 

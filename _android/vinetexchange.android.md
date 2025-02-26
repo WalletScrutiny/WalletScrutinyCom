@@ -8,8 +8,8 @@ users: 1000
 appId: vinetexchange.android
 appCountry: 
 released: 2022-08-26
-updated: 2024-06-19
-version: 1.0.6
+updated: 2025-02-22
+version: 1.0.9
 stars: 
 ratings: 
 reviews: 

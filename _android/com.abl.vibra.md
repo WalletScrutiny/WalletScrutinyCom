@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.abl.vibra.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-06-23
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: VibraAfrica

@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.coinsbit.coinsbit.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-04-17
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: c0insbit

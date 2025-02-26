@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: ru.zamzamwallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2024-05-24
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: 

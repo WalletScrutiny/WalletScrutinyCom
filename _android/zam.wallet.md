@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: zam.wallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-07-16
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: zam_io

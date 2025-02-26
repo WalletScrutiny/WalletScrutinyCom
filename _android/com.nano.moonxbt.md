@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.nano.moonxbt.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-01-06
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: MoonXBT_Global

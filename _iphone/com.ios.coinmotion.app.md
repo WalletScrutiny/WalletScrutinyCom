@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.ios.coinmotion.app.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-10-07
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: Coinmotion

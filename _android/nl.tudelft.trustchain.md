@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: nl.tudelft.trustchain.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
 appHashes: 
-date: 2022-06-22
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: 

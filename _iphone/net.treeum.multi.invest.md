@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: net.treeum.multi.invest.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: wip
 appHashes: 
-date: 2024-06-09
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: 

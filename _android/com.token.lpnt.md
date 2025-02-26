@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.token.lpnt.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-06-09
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: officialLPNT

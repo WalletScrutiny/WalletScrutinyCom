@@ -10,9 +10,9 @@ appCountry:
 released: 2022-07-20
 updated: 2024-05-27
 version: 5.9.8_push_v2_home_enturion
-stars: 3.7
+stars: 3.4
 ratings: 
-reviews: 
+reviews: 3
 website: https://centurioninvest.com/
 repository: 
 issue: 

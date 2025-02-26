@@ -11,7 +11,7 @@ released: 2021-03-01
 updated: 2025-02-06
 version: 3.6.11
 stars: 4.9
-reviews: 136
+reviews: 135
 website: https://help.trubit.com/en
 repository: 
 issue: 

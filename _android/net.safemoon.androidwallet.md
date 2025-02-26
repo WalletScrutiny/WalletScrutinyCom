@@ -1,6 +1,6 @@
 ---
 wsId: safemoon
-title: SafeMoon
+title: VGX Wallet
 altTitle: 
 authors:
 - danny
@@ -8,20 +8,20 @@ users: 100000
 appId: net.safemoon.androidwallet
 appCountry: 
 released: 2021-09-10
-updated: 2023-12-06
-version: V3.54
+updated: 2025-02-25
+version: V4.0
 stars: 4.1
 ratings: 
-reviews: 6381
+reviews: 6375
 website: https://safemoon.com
 repository: 
 issue: 
-icon: net.safemoon.androidwallet.jpg
+icon: net.safemoon.androidwallet.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nobtc
 appHashes: 
-date: 2024-12-04
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: safemoon

@@ -8,8 +8,8 @@ appId: io.trustology.trustvault
 appCountry: ee
 idd: '1455959680'
 released: 2019-08-23
-updated: 2025-02-06
-version: 2.22.0
+updated: 2025-02-19
+version: 2.22.1
 stars: 0
 reviews: 0
 website: https://custody.bitpanda.com/about

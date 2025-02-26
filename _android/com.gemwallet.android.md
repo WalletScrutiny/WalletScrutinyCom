@@ -4,15 +4,15 @@ title: Gem Wallet - Crypto Bitcoin
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.gemwallet.android
 appCountry: ae
 released: 2023-06-26
-updated: 2025-02-18
-version: 1.2.324
+updated: 2025-02-24
+version: 1.2.327
 stars: 5
 ratings: 
-reviews: 3
+reviews: 4
 website: https://gemwallet.com
 repository: https://github.com/gemwalletcom/gem-android
 issue: 

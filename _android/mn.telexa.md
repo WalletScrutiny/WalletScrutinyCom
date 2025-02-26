@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: mn.telexa.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2024-09-02
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: 

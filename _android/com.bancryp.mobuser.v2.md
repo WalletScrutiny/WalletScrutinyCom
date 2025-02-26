@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.bancryp.mobuser.v2.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-04-09
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: 

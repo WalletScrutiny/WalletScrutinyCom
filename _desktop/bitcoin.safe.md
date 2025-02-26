@@ -1,6 +1,6 @@
 ---
 title: Bitcoin Safe Desktop
-appId: bitcoin-safe
+appId: bitcoin.safe
 authors:
 - danny
 released: 2025-02-20
@@ -19,4 +19,9 @@ meta: ok
 verdict: wip
 date: 2025-02-20
 reviewArchive: 
+twitter: 
+social: 
+features: 
+
 ---
+

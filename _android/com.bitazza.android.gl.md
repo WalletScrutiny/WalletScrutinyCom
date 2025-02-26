@@ -1,6 +1,6 @@
 ---
 wsId: bitazzaGL
-title: 'Bitazza: Crypto Exchange'
+title: 'Bitazza: Buy & Trade Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 50000
 appId: com.bitazza.android.gl
 appCountry: 
 released: 2022-03-01
-updated: 2025-02-06
-version: 4.2.1
+updated: 2025-02-20
+version: 4.2.5
 stars: 
 ratings: 
 reviews: 

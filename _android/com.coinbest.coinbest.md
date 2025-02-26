@@ -3,17 +3,17 @@ wsId: coinbest
 title: 暗号資産取引ならOSL Japan
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.coinbest.coinbest
 appCountry: 
 released: 2021-05-17
-updated: 2025-02-06
-version: 4.0.2
+updated: 2025-02-20
+version: 4.0.3
 stars: 
 ratings: 
 reviews: 
-website: https://www.coinbest.com
+website: https://www.coinbest.com/
 repository: 
 issue: 
 icon: com.coinbest.coinbest.png

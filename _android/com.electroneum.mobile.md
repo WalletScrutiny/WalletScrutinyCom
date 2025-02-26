@@ -9,9 +9,9 @@ appCountry:
 released: 2017-12-13
 updated: 2024-05-01
 version: 5.6.0
-stars: 2.8
+stars: 2.9
 ratings: 58803
-reviews: 2065
+reviews: 2064
 website: http://electroneum.com
 repository: 
 issue: 

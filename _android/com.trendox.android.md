@@ -12,7 +12,7 @@ updated: 2025-02-18
 version: 3.9.40_googleplay
 stars: 4.8
 ratings: 
-reviews: 71
+reviews: 72
 website: https://fxtrendo.com
 repository: 
 issue: 
@@ -29,7 +29,7 @@ social:
 - https://t.me/trendo_support
 - https://www.instagram.com/fxtrendo
 redirect_from: 
-developerName: Trendo LLC
+developerName: Trendo Forex
 features: 
 
 ---

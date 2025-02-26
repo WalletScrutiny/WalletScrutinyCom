@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.idea-soft.biteeu.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-09-28
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: 

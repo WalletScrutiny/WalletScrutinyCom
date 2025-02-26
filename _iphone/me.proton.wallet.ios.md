@@ -8,10 +8,10 @@ appId: me.proton.wallet.ios
 appCountry: us
 idd: '6479609548'
 released: 2025-02-10
-updated: 2025-02-13
-version: 1.0.7
-stars: 4.6
-reviews: 9
+updated: 2025-02-20
+version: 1.0.8
+stars: 4.3
+reviews: 10
 website: https://proton.me/wallet
 repository: 
 issue: 

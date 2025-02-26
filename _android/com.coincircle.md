@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.coincircle.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
 appHashes: 
-date: 2024-07-24
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: coincircle

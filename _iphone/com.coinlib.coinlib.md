@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.coinlib.coinlib.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2023-03-30
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: coinlibio

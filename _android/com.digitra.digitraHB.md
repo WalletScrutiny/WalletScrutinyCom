@@ -8,7 +8,7 @@ users: 100000
 appId: com.digitra.digitraHB
 appCountry: 
 released: 2022-03-05
-updated: 2025-02-03
+updated: 2025-02-25
 version: 1.0.140
 stars: 4.3
 ratings: 

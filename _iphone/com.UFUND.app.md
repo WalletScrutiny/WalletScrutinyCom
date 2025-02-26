@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.UFUND.app.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2024-09-07
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: UFUND1

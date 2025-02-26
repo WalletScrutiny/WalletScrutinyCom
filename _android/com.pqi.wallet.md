@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.pqi.wallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2025-01-06
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: 

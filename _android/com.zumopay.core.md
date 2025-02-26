@@ -9,8 +9,8 @@ users: 10000
 appId: com.zumopay.core
 appCountry: 
 released: 2019-10-28
-updated: 2025-01-24
-version: 5.12.0
+updated: 2025-02-19
+version: 5.12.1
 stars: 4.4
 ratings: 
 reviews: 

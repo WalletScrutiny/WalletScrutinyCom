@@ -8,8 +8,8 @@ users: 100000
 appId: com.m2049r.xmrwallet
 appCountry: 
 released: 2017-09-29
-updated: 2024-11-09
-version: 4.1.5 'Exolix'
+updated: 2025-02-23
+version: 4.1.6 'Exolix'
 stars: 3.2
 ratings: 821
 reviews: 181

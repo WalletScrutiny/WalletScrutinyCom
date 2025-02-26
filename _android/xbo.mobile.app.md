@@ -10,9 +10,9 @@ appCountry:
 released: 2022-09-24
 updated: 2025-02-15
 version: 2.1.0
-stars: 4.7
+stars: 4.4
 ratings: 
-reviews: 15
+reviews: 16
 website: https://www.xbo.com/
 repository: 
 issue: 
