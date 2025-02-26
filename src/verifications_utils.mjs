@@ -69,15 +69,6 @@ const validateSHA256 = function(hashes) {
   }
 }
 
-const validateUrl = function(url) {
-  try {
-    new URL(url);
-    return true;
-  } catch (error) {
-    throw new Error("Invalid URL format");
-  }
-}
-
 const getNostrProfile = async function (pubkey) {
   const user = ndk.getUser({ pubkey });
   return await user.fetchProfile();
@@ -91,16 +82,12 @@ const getNpubFromPubkey = function (pubkey) {
 const createAssetRegistration = async function ({
   sha256,
   appId,
-  url,
   version,
   platform,
   name,
   createdAt = null
 }) {
   validateSHA256([sha256]);
-  if (url) {
-    validateUrl(url);
-  }
 
   if (!appId || !version || !name) {
     throw new Error("Missing required parameters");
@@ -114,7 +101,6 @@ const createAssetRegistration = async function ({
     ["x", sha256],
     ["ox", sha256],
     ["i", appId],
-    ["url", url ?? ''],
     ["version", version],
     ["platform", platform ?? '']
   ];

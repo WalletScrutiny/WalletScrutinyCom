@@ -47,12 +47,6 @@ permalink: /new_asset/
     </div>
 
     <div class="form-group">
-      <label for="url">Download URL:</label>
-      <input type="url" id="url" name="url" class="form-control">
-      <small class="form-text">Example: https://github.com/ZeusLN/zeus/releases/download/v0.9.2/zeus-v0.9.2-universal.apk</small>
-    </div>
-
-    <div class="form-group">
       <label for="platform">Platform:</label>
       <select id="platform" name="platform" class="form-control">
         <option value="">Select a platform</option>
@@ -112,7 +106,7 @@ async function loadUrlParams() {
 
   const urlParams = new URLSearchParams(window.location.search);
   
-  const fields = ['name', 'url', 'version', 'sha256', 'appId', 'platform'];
+  const fields = ['name', 'version', 'sha256', 'appId', 'platform'];
   fields.forEach(field => {
     const value = urlParams.get(field);
     if (value) {
@@ -138,7 +132,6 @@ async function handleSubmit(event) {
 
   const formData = {
     name: document.getElementById('name').value.trim(),
-    url: document.getElementById('url').value.trim(),
     version: document.getElementById('version').value.trim(),
     sha256: document.getElementById('sha256').value.trim(),
     appId: document.getElementById('appId').value.trim(),
