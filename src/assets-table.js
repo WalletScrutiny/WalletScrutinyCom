@@ -283,7 +283,7 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
               break;
           }
 
-          listItems += `<span onclick='showAttestationModal("${sha256Hash}", "${attestation.id}", "${identifier}", "${platform}")' class="attestation-link" style="cursor: pointer; margin-bottom: 0; margin-top: 0; display: block;">
+          listItems += `<span onclick='showVerificationModal("${sha256Hash}", "${attestation.id}", "${identifier}", "${platform}")' class="attestation-link" style="cursor: pointer; margin-bottom: 0; margin-top: 0; display: block;">
             <div style="line-height: 1.2; margin-bottom: 0.7em;">
               ${statusText}
               <small style="display: block;">(${attestationDate})</small>
@@ -382,7 +382,7 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
   };
 };
 
-window.showAttestationModal = async function(sha256Hash, attestationId, appId, platform) {
+window.showVerificationModal = async function(sha256Hash, attestationId, appId, platform) {
   document.body.classList.add("modal-open");
   
   const attestations = response.attestations.get(sha256Hash);
@@ -476,8 +476,8 @@ window.showAttestationModal = async function(sha256Hash, attestationId, appId, p
 
   modal.style.display = 'block';
 
-  // Add blur to all divs except attestationModal
-  document.querySelectorAll('.archive > div:not(#attestationModal), .archive > h1').forEach(div => {
+  // Add blur to all divs except verificationModal
+  document.querySelectorAll('.archive > div:not(#verificationModal), .archive > h1').forEach(div => {
     div.style.filter = 'blur(5px)';
   });
 
@@ -499,7 +499,7 @@ window.showAttestationModal = async function(sha256Hash, attestationId, appId, p
     window.removeEventListener('keydown', handleKeyDown);
     document.body.classList.remove("modal-open");
     // Remove blur from all divs
-    document.querySelectorAll('.archive > div:not(#attestationModal), .archive > h1').forEach(div => {
+    document.querySelectorAll('.archive > div:not(#verificationModal), .archive > h1').forEach(div => {
       div.style.filter = '';
     });
   };
@@ -511,7 +511,7 @@ window.showAttestationModal = async function(sha256Hash, attestationId, appId, p
       window.removeEventListener('keydown', handleKeyDown);
       document.body.classList.remove("modal-open");
       // Remove blur from all divs
-      document.querySelectorAll('.archive > div:not(#attestationModal), .archive > h1').forEach(div => {
+      document.querySelectorAll('.archive > div:not(#verificationModal), .archive > h1').forEach(div => {
         div.style.filter = '';
       });
     }
@@ -524,7 +524,7 @@ window.showAttestationModal = async function(sha256Hash, attestationId, appId, p
       window.removeEventListener('keydown', handleKeyDown);
       document.body.classList.remove("modal-open");
       // Remove blur from all divs
-      document.querySelectorAll('.archive > div:not(#attestationModal), .archive > h1').forEach(div => {
+      document.querySelectorAll('.archive > div:not(#verificationModal), .archive > h1').forEach(div => {
         div.style.filter = '';
       });
     }

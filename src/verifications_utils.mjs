@@ -175,10 +175,10 @@ const createVerification = async function ({
 
   try {
     const publishedToRelays = await ndkEvent.publish();
-    console.log(`published attestation to ${publishedToRelays.size} relays`);
+    console.log(`published verification to ${publishedToRelays.size} relays`);
     return ndkEvent;
   } catch (error) {
-    console.error("error publishing attestation to relays", error);
+    console.error("error publishing verification to relays", error);
     if (error instanceof NDKPublishError) {
       for (const [relay, err] of error.errors) {
         console.error(`error publishing to relay ${relay.url}`, err);
@@ -190,7 +190,7 @@ const createVerification = async function ({
 }
 
 const createEndorsement = async function ({sha256, content, status, attestationEventId, createdAt = null}) {
-  console.debug("Creating endorsement for attestation: ", attestationEventId);
+  console.debug("Creating endorsement for verification: ", attestationEventId);
 
   validateSHA256([sha256]);
 

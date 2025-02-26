@@ -22,9 +22,9 @@ permalink: /asset/
   </div>
 </div>
 
-<div id="attestationModal">
+<div id="verificationModal">
   <span id="closeModal">&times;</span>
-  <div id="attestationContent"></div>
+  <div id="verificationContent"></div>
 </div>
 
 <div id="loadingSpinner">

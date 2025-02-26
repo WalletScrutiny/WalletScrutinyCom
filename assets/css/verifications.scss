@@ -147,7 +147,7 @@ table {
 }
 
 /* Attestation Modal */
-#attestationModal {
+#verificationModal {
   display: none;
   position: fixed;
   top: 50%;
@@ -177,7 +177,7 @@ table {
   }
 }
 
-#attestationContent {
+#verificationContent {
   padding: 20px;
   padding-top: 5px;
   height: 100%;
@@ -228,7 +228,7 @@ table {
     }
   }
 }
-#attestationContent p {
+#verificationContent p {
   margin-top: 0.4em;
   margin-bottom: 0em;
 }
