@@ -118,9 +118,9 @@ permalink: /new_verification/
   </div>
 </div>
 
-<div id="attestationModal">
+<div id="verificationModal">
   <span id="closeModal">&times;</span>
-  <div id="attestationContent"></div>
+  <div id="verificationContent"></div>
 </div>
 
 <script>
