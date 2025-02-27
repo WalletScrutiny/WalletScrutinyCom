@@ -43,15 +43,15 @@ Trust in verifications is built through:
   "id":      "<asset-event-id>",
   "kind":    1063,
   "tags":    [
-    ["i",        "app.zeusln.zeus"],
-    ["url",      "https://example.com/wallet-1.2.3.deb"],
-    ["version",  "1.2.3"],
-    ["m",        "application/vnd.android.package-archive"],
-    ["x",        "deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe"],
-    ["ox",       "deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe"],
-    ["platform", "Linux (Intel/AMD) (Ubuntu/Debian)"]
+    ["i",        "<product-id>"],         // app.zeusln.zeus
+    ["version",  "<version>"],            // 1.2.3
+    ["x",        "<asset-hash>"],         // deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe
+    ["ox",       "<asset-hash>"],         // deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe
+    ["m",        "<mime-type>"],          // application/vnd.android.package-archive
+    ["url",      "<asset-download-url>"], // https://blossom_server.com/wallet-1.2.3.deb
+    ["platform", "<asset-platform>"]      // Linux (Intel/AMD) (Ubuntu/Debian)
   ],
-  "content": "Additional metadata"
+  "content": "Asset description"
 }
 ```
 
@@ -62,11 +62,18 @@ Trust in verifications is built through:
   "kind":    30301,
   "tags":    [
     ["d",       "<asset-event-id>"],
-    ["x",       "hash of the registered asset"],
-    ["x",       "other hashes of related assets"],
-    ["status",  "reproducible"]
+    ["i",        "<product-id>"],         // app.zeusln.zeus
+    ["version",  "<version>"],            // 1.2.3
+    ["x",       "<hash-binary-1>"],       // deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe
+    ["x",       "<hash-binary-2>"],       // deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe
+    ["url",      "<asset-download-url>"], // https://blossom_server.com/wallet-1.2.3.deb
+    ["platform", "<asset-platform>"],     // Linux (Intel/AMD) (Ubuntu/Debian)
+    ["status",  "<status>"]               // reproducible | not_reproducible | ftbfs | spam
   ],
-  "content": "Detailed reproduction process and results. Markdown permitted"
+  "content": {
+    "description": "<Description of the assets the user is trying to reproduce>",
+    "content": "<Detailed reproduction process and results. Markdown permitted>"
+  }
 }
 ```
 
