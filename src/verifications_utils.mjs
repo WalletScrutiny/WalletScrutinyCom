@@ -167,7 +167,6 @@ const createVerification = async function ({
     ndkEvent.tags.push(["x", hash]);
   });
 
-  console.log("----------- ndkEvent", ndkEvent);
   try {
     const publishedToRelays = await ndkEvent.publish();
     console.log(`published verification to ${publishedToRelays.size} relays`);
