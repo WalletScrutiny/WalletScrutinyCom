@@ -117,7 +117,7 @@ async function parseFile(filePath, folderName) {
                             version: review.version,
                             platform: folderName,
                             description: folderName === 'android' ? "Google Play extracted apk" : "Binary obtained from the manufacturer's website",
-                            content: review.gitRevision ? `Legacy verification by WalletScrutiny (${review.date}). See details <a target="_blank" href="https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/${review.gitRevision}/_${folderName}/${appId}.md">here</a>.` : '',
+                            content: review.gitRevision ? `Legacy verification by WalletScrutiny (${review.date}). See details <a target="_blank" href="https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/${review.gitRevision}/_${folderName}/${appId}.md">here</a>.` : `Legacy verification by WalletScrutiny (${review.date}).`,
                             status: getStatusFromVerdict(review.verdict)
                         });
                     }
