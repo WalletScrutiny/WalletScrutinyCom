@@ -214,6 +214,7 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
       const oldInfoStatus = binary.tags.find(tag => tag[0] === 'status')?.[1] || '';
       const identifier = binary.tags.find(tag => tag[0] === 'i')?.[1] || "";
       const platform = binary.tags.find(tag => tag[0] === 'platform')?.[1] || "";
+
       let longStatus = null;
 
       if (binary.isLegacy) {
@@ -400,7 +401,7 @@ window.showVerificationModal = async function(sha256Hash, attestationId, appId, 
         minute: '2-digit'
       });
 
-      const status = otherAttestation.tags.find(tag => tag[0] === 'status')?.[1] || '';
+      const status = otherVerification.tags.find(tag => tag[0] === 'status')?.[1] || '';
 
       const statusIcon = status === 'reproducible' 
         ? '<span title="Reproducible" style="margin-left: 4px;">✅</span>' 

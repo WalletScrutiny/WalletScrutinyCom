@@ -144,11 +144,7 @@ const createVerification = async function ({
 
   const ndkEvent = new NDKEvent(ndk);
   ndkEvent.kind = verificationKind;
-  
-  ndkEvent.content = JSON.stringify({
-    name: name || '',
-    content: content || '',
-  });
+  ndkEvent.content = content;
   ndkEvent.created_at = getCreatedAt(createdAt);
 
   ndkEvent.tags = [
@@ -250,8 +246,8 @@ const getAllAssetInformation = async function({
     console.debug(`Getting events from ${verificationsFeatureSinceTS} onwards`);
     filter_assets.since = verificationsFeatureSinceTS;
   }
-  if (assetsPubkey) {
-    filter_assets.authors = [assetsPubkey];
+  if (pubkey) {
+    filter_assets.authors = [pubkey];
   }
   if (appId) {
     filter_assets["#i"] = [appId];
@@ -282,7 +278,7 @@ const getAllAssetInformation = async function({
   }
 
 
-  const events = await ndk.fetchEvents([filter_assets, filter_attestations]);
+  const events = await ndk.fetchEvents([filter_assets, filter_verifications]);
 
   const assets = Array.from(events).filter(event => event.kind === assetRegistrationKind);
   const verifications = Array.from(events).filter(event => event.kind === verificationKind);
