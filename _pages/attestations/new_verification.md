@@ -248,7 +248,7 @@ async function handleSubmit(event) {
 
   const formData = {
     hashes: hashes,
-    description: document.getElementById('description').value.trim()
+    description: document.getElementById('description').value.trim(),
     content: document.getElementById('content').value.trim(),
     appId: document.getElementById('appId').value.trim(),
     version: document.getElementById('version').value.trim(),
