@@ -61,14 +61,13 @@ Trust in verifications is built through:
   "id":      "<verification-event-id>",
   "kind":    30301,
   "tags":    [
-    ["d",       "<asset-event-id>"],
     ["i",        "<product-id>"],         // app.zeusln.zeus
     ["version",  "<version>"],            // 1.2.3
-    ["x",       "<hash-binary-1>"],       // deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe
-    ["x",       "<hash-binary-2>"],       // deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe
+    ["x",        "<hash-binary-1>"],      // deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe
+    ["x",        "<hash-binary-2>"],      // deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe
     ["url",      "<asset-download-url>"], // https://blossom_server.com/wallet-1.2.3.deb
     ["platform", "<asset-platform>"],     // Linux (Intel/AMD) (Ubuntu/Debian)
-    ["status",  "<status>"]               // reproducible | not_reproducible | ftbfs | spam
+    ["status",   "<status>"]              // reproducible | not_reproducible | ftbfs | spam
   ],
   "content": {
     "description": "<Description of the assets the user is trying to reproduce>",
