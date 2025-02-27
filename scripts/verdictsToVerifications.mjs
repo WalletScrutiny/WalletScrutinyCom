@@ -92,65 +92,63 @@ async function parseFile(filePath, folderName) {
                 .slice(0, 50000);
 
 
-        if (appId === 'app.zeusln.zeus') {
-            // Create events for each review in reviewArchive
-            if (data.reviewArchive && data.reviewArchive.length > 0) {
-                for (const [index, review] of [...data.reviewArchive].reverse().entries()) {
-                    console.log(`\nAppId: ${appId} - Review #${data.reviewArchive.length - index}:`);
-                    console.log('  Date:', review.date);
-                    console.log('  Version:', review.version);
-                    console.log('  Verdict:', review.verdict);
+        // Create events for each review in reviewArchive
+        if (data.reviewArchive && data.reviewArchive.length > 0) {
+            for (const [index, review] of [...data.reviewArchive].reverse().entries()) {
+                console.log(`\nAppId: ${appId} - Review #${data.reviewArchive.length - index}:`);
+                console.log('  Date:', review.date);
+                console.log('  Version:', review.version);
+                console.log('  Verdict:', review.verdict);
 
-                    if (!review.appHashes || review.appHashes.length === 0) {
-                        console.log('  --------------------------------------------------------------  No appHashes found');
-                        continue;
-                    }
-                    if (review.appHashes) {
-                        console.log('  AppHashes:');
-                        review.appHashes.forEach(hash => console.log('    -', hash));
-                    }
-
-                    if (!['fewusers', 'custodial', 'nosource', 'nowallet', 'fake', 'nobtc', 'nosendreceive', 'obfuscated', 'wip'].includes(review.verdict)) {
-                        await createNostrEvents({
-                            hashes: review.appHashes,
-                            appId,
-                            version: review.version,
-                            platform: folderName,
-                            description: folderName === 'android' ? "Google Play extracted apk" : "Binary obtained from the manufacturer's website",
-                            content: review.gitRevision ? `Legacy verification by WalletScrutiny (${review.date}). See details <a target="_blank" href="https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/${review.gitRevision}/_${folderName}/${appId}.md">here</a>.` : `Legacy verification by WalletScrutiny (${review.date}).`,
-                            status: getStatusFromVerdict(review.verdict)
-                        });
-                    }
+                if (!review.appHashes || review.appHashes.length === 0) {
+                    console.log('  --------------------------------------------------------------  No appHashes found');
+                    continue;
                 }
-            }
+                if (review.appHashes) {
+                    console.log('  AppHashes:');
+                    review.appHashes.forEach(hash => console.log('    -', hash));
+                }
 
-            if (!appHashes || !version || !data.title || !data.verdict || !folderName || !contentAfterYaml) {
-                console.error(`     Not enough information to create nostr event for ${appId}:`);
-                /*
-                console.error({
-                    appId,
-                    appHash,
-                    version,
-                    title: data.title,
-                    verdict: data.verdict,
-                    folderName,
-                    contentAfterYaml
-                });
-                */
-                //console.error(data);
-                //process.exit(1);
-            } else {
-                if (!['fewusers', 'custodial', 'nosource', 'nowallet', 'fake', 'nobtc', 'nosendreceive', 'obfuscated', 'wip'].includes(data.verdict)) {
+                if (!['fewusers', 'custodial', 'nosource', 'nowallet', 'fake', 'nobtc', 'nosendreceive', 'obfuscated', 'wip'].includes(review.verdict)) {
                     await createNostrEvents({
-                        hashes: appHashes,
+                        hashes: review.appHashes,
                         appId,
-                        version,
+                        version: review.version,
                         platform: folderName,
                         description: folderName === 'android' ? "Google Play extracted apk" : "Binary obtained from the manufacturer's website",
-                        content: contentAfterYaml,
-                        status: getStatusFromVerdict(data.verdict)
+                        content: review.gitRevision ? `Legacy verification by WalletScrutiny (${review.date}). See details <a target="_blank" href="https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/${review.gitRevision}/_${folderName}/${appId}.md">here</a>.` : `Legacy verification by WalletScrutiny (${review.date}).`,
+                        status: getStatusFromVerdict(review.verdict)
                     });
                 }
+            }
+        }
+
+        if (!appHashes || !version || !data.title || !data.verdict || !folderName || !contentAfterYaml) {
+            console.error(`     Not enough information to create nostr event for ${appId}:`);
+            /*
+            console.error({
+                appId,
+                appHash,
+                version,
+                title: data.title,
+                verdict: data.verdict,
+                folderName,
+                contentAfterYaml
+            });
+            */
+            //console.error(data);
+            //process.exit(1);
+        } else {
+            if (!['fewusers', 'custodial', 'nosource', 'nowallet', 'fake', 'nobtc', 'nosendreceive', 'obfuscated', 'wip'].includes(data.verdict)) {
+                await createNostrEvents({
+                    hashes: appHashes,
+                    appId,
+                    version,
+                    platform: folderName,
+                    description: folderName === 'android' ? "Google Play extracted apk" : "Binary obtained from the manufacturer's website",
+                    content: contentAfterYaml,
+                    status: getStatusFromVerdict(data.verdict)
+                });
             }
         }
 
