@@ -178,13 +178,14 @@ async function createNostrEvents({
         status
     });
 
-    console.log('   ----------------------------------------------------------------\n    Creating verification...\n   ----------------------------------------------------------------');
     await createVerification({
         hashes,
+        name,
         content,
         status,
         appId,
-        version
+        version,
+        platform
     });
     await new Promise(resolve => setTimeout(resolve, 1000));
 }

@@ -3,13 +3,62 @@ import DOMPurify from 'dompurify';
 
 let response = null;
 
-window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestationsPubkey, appId, sha256, hideConfig, getAssetsForMyAttestations, showOnlyRows = 100, sortByVersion = false, enableSearch = false}) {
+const table = document.createElement('table');
+
+// Function to filter and update table rows
+function updateTableVisibility() {
+  const searchTerm = document.getElementById('assetSearchInput').value.toLowerCase();
+  const showLatestOnly = document.getElementById('showLatestVersionOnly').checked;
+  const showOnlyNoVerifications = document.getElementById('showOnlyNoVerifications').checked;
+
+  // Create a map to track latest versions when filter is active
+  const latestVersions = new Map();
+
+  // Get all rows except header and show-more
+  const rows = Array.from(table.querySelectorAll('tr:not(:first-child):not(.show-more-row)'));
+  
+  rows.forEach(row => {
+    const walletName = row.querySelector('td:first-child')?.textContent.toLowerCase() || '';
+    // Get the full SHA256 hash from the button's onclick attribute
+    const sha256Button = row.querySelector('button[onclick*="navigator.clipboard.writeText"]');
+    const sha256Hash = sha256Button ? sha256Button.getAttribute('onclick').match(/'([a-fA-F0-9]{64})'/)?.[ 1 ]?.toLowerCase() || '' : '';
+    
+    // Find Verifications cell by looking at the header text
+    const headerCells = Array.from(table.querySelectorAll('th'));
+    const verificationsIndex = headerCells.findIndex(cell => cell.textContent.trim() === 'Verifications');
+    const verificationsCell = row.cells[verificationsIndex]?.textContent || '';
+    const hasVerifications = !verificationsCell.includes('No verifications yet');
+    
+    // Get identifier for grouping latest versions
+    const identifier = row.querySelector('td:first-child a')?.textContent || row.querySelector('td:first-child')?.textContent;
+    
+    let shouldShow = true;
+
+    if (showOnlyNoVerifications) {
+      shouldShow = !hasVerifications;
+    }
+
+    if (shouldShow && showLatestOnly) {
+      if (!latestVersions.has(identifier)) {
+        latestVersions.set(identifier, true);
+      } else {
+        shouldShow = false;
+      }
+    }
+
+    if (shouldShow) {
+      shouldShow = (walletName.includes(searchTerm) || sha256Hash.includes(searchTerm));
+    }
+
+    row.style.display = shouldShow ? '' : 'none';
+  });
+}
+
+window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256, hideConfig, showOnlyRows = 100, sortByVersion = false, enableSearch = false}) {
   response = await getAllAssetInformation({
-    assetsPubkey,
-    attestationsPubkey,
+    pubkey,
     appId,
-    sha256,
-    getAssetsForMyAttestations
+    sha256
   });
 
   // Add search and filter UI only if enableSearch is true
@@ -40,7 +89,7 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
               <span>Show latest version only</span>
             </label>
             <label style="display: flex; align-items: center; gap: 5px; white-space: nowrap;">
-              <input type="checkbox" id="showOnlyNoAttestations">
+              <input type="checkbox" id="showOnlyNoVerifications">
               <span>Show only unverified assets</span>
             </label>
           </div>
@@ -51,27 +100,28 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
     document.getElementById(htmlElementId).appendChild(searchContainer);
   }
 
-  const hasBinaries = response.assets.size > 0;
-  let hasLegacyBinaries = false;
-  let hasAttestations = false;
+  let hasLegacyVerifications = false;
+  let hasVerifications = false;
 
-  // Convert to array and sort by most recent asset in each group
-  const sortedBinaries = Array.from(response.assets.entries()).map(([sha256, assets]) => {
+  // Items, because they can be verifications or assets (no status or content)
+  // Convert to array and sort by most recent verification in each group
+  const sortedItems = Array.from(response.verifications.entries()).map(([sha256, verifications]) => {
     // Sort assets within each SHA256 group by date and take the most recent one
-    const sortedAssets = assets.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+    const sortedVerifications = verifications.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
     return {
       sha256,
-      assets: sortedAssets,
-      created_at: sortedAssets[0].created_at  // Use the most recent asset's created_at for sorting
+      verifications: sortedVerifications,
+      created_at: sortedVerifications[0].created_at  // Use the most recent verifications created_at for sorting
     };
   });
 
-  // Add old tests information to sortedBinaries if oldTestsInfo is defined and is an array
+  // Add old tests information to sortedItems if oldTestsInfo is defined and is an array
+/*
   if (typeof oldTestsInfo !== 'undefined' && Array.isArray(oldTestsInfo)) {
     oldTestsInfo.forEach(oldTest => {
       if (oldTest.date && oldTest.version && oldTest.verdict) {
-        hasLegacyBinaries = true;
-        sortedBinaries.push({
+        hasLegacyVerifications = true;
+        sortedItems.push({
           created_at: Math.floor(new Date(oldTest.date).getTime() / 1000),
           tags: [
             ['version', oldTest.version],
@@ -84,73 +134,20 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
       }
     });
   }
-
-  // Function to filter and update table rows
-  function updateTableVisibility() {
-    // Only apply search/filter if enableSearch is true, otherwise show all rows
-    if (!enableSearch) {
-      return;
-    }
-
-    const searchTerm = document.getElementById('assetSearchInput').value.toLowerCase();
-    const showLatestOnly = document.getElementById('showLatestVersionOnly').checked;
-    const showOnlyNoAttestations = document.getElementById('showOnlyNoAttestations').checked;
-
-    // Create a map to track latest versions when filter is active
-    const latestVersions = new Map();
-
-    // Get all rows except header and show-more
-    const rows = Array.from(table.querySelectorAll('tr:not(:first-child):not(.show-more-row)'));
-    
-    rows.forEach(row => {
-      const walletName = row.querySelector('td:first-child')?.textContent.toLowerCase() || '';
-      // Get the full SHA256 hash from the button's onclick attribute
-      const sha256Button = row.querySelector('button[onclick*="navigator.clipboard.writeText"]');
-      const sha256Hash = sha256Button ? sha256Button.getAttribute('onclick').match(/'([a-fA-F0-9]{64})'/)?.[ 1 ]?.toLowerCase() || '' : '';
-      
-      // Find attestations cell by looking at the header text
-      const headerCells = Array.from(table.querySelectorAll('th'));
-      const attestationsIndex = headerCells.findIndex(cell => cell.textContent.trim() === 'Verifications');
-      const attestationsCell = row.cells[attestationsIndex]?.textContent || '';
-      const hasAttestations = !attestationsCell.includes('No verifications yet');
-      
-      // Get identifier for grouping latest versions
-      const identifier = row.querySelector('td:first-child a')?.textContent || row.querySelector('td:first-child')?.textContent;
-      
-      let shouldShow = true;
-
-      if (showOnlyNoAttestations) {
-        shouldShow = !hasAttestations;
-      }
-
-      if (shouldShow && showLatestOnly) {
-        if (!latestVersions.has(identifier)) {
-          latestVersions.set(identifier, true);
-        } else {
-          shouldShow = false;
-        }
-      }
-
-      if (shouldShow) {
-        shouldShow = (walletName.includes(searchTerm) || sha256Hash.includes(searchTerm));
-      }
-
-      row.style.display = shouldShow ? '' : 'none';
-    });
-  }
+*/
 
   // Add event listeners for search and filters only if enableSearch is true
   if (enableSearch) {
     document.getElementById('assetSearchInput').addEventListener('input', updateTableVisibility);
     document.getElementById('showLatestVersionOnly').addEventListener('change', updateTableVisibility);
-    document.getElementById('showOnlyNoAttestations').addEventListener('change', updateTableVisibility);
+    document.getElementById('showOnlyNoVerifications').addEventListener('change', updateTableVisibility);
   }
 
   // Sort either by version or date depending on sortByVersion parameter
   if (sortByVersion) {
-    sortedBinaries.sort((a, b) => {
-      const versionA = a.assets ? a.assets[0].tags.find(tag => tag[0] === 'version')?.[1] : a.tags.find(tag => tag[0] === 'version')?.[1] || '';
-      const versionB = b.assets ? b.assets[0].tags.find(tag => tag[0] === 'version')?.[1] : b.tags.find(tag => tag[0] === 'version')?.[1] || '';
+    sortedItems.sort((a, b) => {
+      const versionA = a.verifications[0].tags.find(tag => tag[0] === 'version')?.[1] || '';
+      const versionB = b.verifications[0].tags.find(tag => tag[0] === 'version')?.[1] || '';
 
       // Check for VARY string first
       const hasVaryA = versionA.includes('VARY');
@@ -174,29 +171,27 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
       return 0;
     });
   } else {
-    sortedBinaries.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+    sortedItems.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
   }
 
-  const table = document.createElement('table');
   table.innerHTML = `
     <thead>
       <tr>
         ${hideConfig?.wallet ? '' : '<th>Wallet</th>'}
         ${hideConfig?.wallet ? '<th>Version</th>' : ''}
-        <th class="hide-on-mobile">Asset Description</th>
+        <th class="hide-on-mobile">Description</th>
         ${hideConfig?.sha256 ? '' : '<th class="hide-on-mobile">SHA256</th>'}
         <th class="hide-on-mobile">URL</th>
         <th>Verifications</th>
         <th>Seen</th>
-        ${getAssetsForMyAttestations ? '<th>Worked On</th>' : ''}
       </tr>
     </thead>
   `;
 
-  if (sortedBinaries.length > 0) {
-    sortedBinaries.forEach((item, index) => {
+  if (sortedItems.length > 0) {
+    sortedItems.forEach((item, index) => {
       // Handle both legacy and new format
-      const binary = item.assets ? item.assets[0] : item;
+      const binary = item.verifications ? item.verifications[0] : item;
       const date = new Date(binary.created_at * 1000).toLocaleDateString(navigator.language, 
         binary.isLegacy ? {
           year: '2-digit',
@@ -243,11 +238,11 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
         }
       }
 
-      const attestations = response.attestations.get(binary.tags.find(tag => tag[0] === 'x')?.[1]) || [];
+      const attestations = response.verifications.get(binary.tags.find(tag => tag[0] === 'x')?.[1]) || [];
 
       let attestationList;
       if (attestations.length > 0) {
-        hasAttestations = true;
+        hasVerifications = true;
         
         const latestAttestationsByUser = new Map();
         for (const attestation of attestations) {
@@ -308,14 +303,14 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
       row.setAttribute('id', `version-${sanitizedVersion}`);
       row.innerHTML = `
         ${hideConfig?.wallet ? '' : `<td>
-          ${wallet ? `<a href="${wallet.url}" target="_blank" rel="noopener noreferrer">${walletTitle}</a><br>${version}<span class="show-on-mobile"><br>${item.assets ? [...new Set(item.assets.map(asset => asset.content))].join('<br>') : binary.content}<br>${sha256Hash ? `
+          ${wallet ? `<a href="${wallet.url}" target="_blank" rel="noopener noreferrer">${walletTitle}</a><br>${version}<span class="show-on-mobile"><br>${item.verifications ? [...new Set(item.verifications.map(verification => verification.content))].join('<br>') : binary.content}<br>${sha256Hash ? `
           <button onclick="navigator.clipboard.writeText('${sha256Hash}').then(() => showToast('SHA256 copied to clipboard'))" class="copy-button">📋</button>sha256` : '-'}</span>` : walletTitle}
           </td>`}
         ${hideConfig?.wallet ? `<td>
-          ${version}<span class="show-on-mobile"><br>${item.assets ? [...new Set(item.assets.map(asset => asset.content))].join('<br>') : binary.content}<br>${sha256Hash ? `
+          ${version}<span class="show-on-mobile"><br>${item.verifications ? [...new Set(item.verifications.map(verification => 'verification.content'))].join('<br>') : binary.content}<br>${sha256Hash ? `
           <button onclick="navigator.clipboard.writeText('${sha256Hash}').then(() => showToast('SHA256 copied to clipboard'))" class="copy-button">📋</button>sha256` : '-'}</span>
           </td>` : ''}
-        <td class="asset-description hide-on-mobile">${item.assets ? [...new Set(item.assets.map(asset => asset.content))].join('<br>') : binary.content}</td>
+        <td class="asset-description hide-on-mobile">${item.verifications ? [...new Set(item.verifications.map(verification => 'verification.content'))].join('<br>') : binary.content}</td>
         ${hideConfig?.sha256 ? '' : `<td class="hide-on-mobile">
           ${sha256Hash ? `
           <span>${truncatedHash}</span>
@@ -327,24 +322,16 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
           ${downloadUrl ? `<a href="${downloadUrl}" target="_blank" rel="noopener noreferrer">Download</a>` : '-'}
         </td>
         <td>${binary.isLegacy ? (longStatus ? longStatus : oldInfoStatus) : attestationList}</td>
-        <td>${date}</td>
-        ${getAssetsForMyAttestations ? `
-          <td>
-            <ul style="padding: 0; margin: 0; list-style-position: inside; text-align: left;">
-            ${binary.pubkey === assetsPubkey ? '<li>Registered Asset</li>' : ''}
-            ${(attestations.some(att => att.pubkey === assetsPubkey)) ? '<li>Created Attestation</li>' : ''}
-            </ul>
-          </td>` : ''}
-      `;
+        <td>${date}</td>`;
       table.appendChild(row);
     });
 
-    if (sortedBinaries.length > showOnlyRows) {
+    if (sortedItems.length > showOnlyRows) {
       const showMoreRow = document.createElement('tr');
       showMoreRow.className = 'show-more-row';
       showMoreRow.innerHTML = `
         <td colspan="8" style="text-align: center;">
-          <a href="#" class="show-more-link">Show ${sortedBinaries.length - showOnlyRows} more</a>
+          <a href="#" class="show-more-link">Show ${sortedItems.length - showOnlyRows} more</a>
         </td>
       `;
       table.appendChild(showMoreRow);
@@ -359,10 +346,10 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
     }
   } else {
     const row = document.createElement('tr');
-    if (assetsPubkey || attestationsPubkey) {
-      row.innerHTML = '<td colspan="8">No assets found for this user</td>';
+    if (pubkey) {
+      row.innerHTML = '<td colspan="8">No verifications found for this user</td>';
     } else {
-      row.innerHTML = '<td colspan="8">No assets found</td>';
+      row.innerHTML = '<td colspan="8">No verifications found</td>';
     }
     table.appendChild(row);
   }
@@ -375,9 +362,8 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
   }
 
   return {
-    hasAttestations,
-    hasBinaries,
-    hasLegacyBinaries,
+    hasVerifications,
+    hasLegacyVerifications,
     info: response
   };
 };
@@ -385,14 +371,14 @@ window.renderAssetsTable = async function({htmlElementId, assetsPubkey, attestat
 window.showVerificationModal = async function(sha256Hash, attestationId, appId, platform) {
   document.body.classList.add("modal-open");
   
-  const attestations = response.attestations.get(sha256Hash);
-  const attestation  = attestations.find(a => a.id === attestationId);
-  const otherAttestationsBySamePubkey = attestations.filter(a => (a.pubkey === attestation.pubkey && a.id !== attestationId));
+  const verifications = response.verifications.get(sha256Hash);
+  const verification  = verifications.find(a => a.id === attestationId);
+  const otherVerificationsBySamePubkey = verifications.filter(a => (a.pubkey === verification.pubkey && a.id !== verification.id));
 
-  const status = attestation.tags.find(tag => tag[0] === 'status')?.[1] || '';
+  const status = verification.tags.find(tag => tag[0] === 'status')?.[1] || '';
 
-  const modal = document.getElementById('attestationModal');
-  const content = document.getElementById('attestationContent');
+  const modal = document.getElementById('verificationModal');
+  const content = document.getElementById('verificationContent');
   
   // Reset scroll positions before showing the modal again
   setTimeout(() => {
@@ -403,10 +389,10 @@ window.showVerificationModal = async function(sha256Hash, attestationId, appId, 
   modal.style.background = window.theme === 'dark' ? '#2d2d2df7' : '#e1e1e1f7';
   modal.style.color = window.theme === 'dark' ? 'white' : 'black';
 
-  let otherAttestationsHTML = '';
-  if (otherAttestationsBySamePubkey.length > 0) {
-    for (const otherAttestation of otherAttestationsBySamePubkey) {
-      const attestationDate = new Date(otherAttestation.created_at * 1000).toLocaleDateString(navigator.language, {
+  let otherVerificationsHTML = '';
+  if (otherVerificationsBySamePubkey.length > 0) {
+    for (const otherVerification of otherVerificationsBySamePubkey) {
+      const verificationDate = new Date(otherVerification.created_at * 1000).toLocaleDateString(navigator.language, {
         year: 'numeric',
         month: 'short',
         day: 'numeric',
@@ -420,16 +406,16 @@ window.showVerificationModal = async function(sha256Hash, attestationId, appId, 
         ? '<span title="Reproducible" style="margin-left: 4px;">✅</span>' 
         : '<span title="Not Reproducible" style="margin-left: 4px;">❌</span>';
 
-      otherAttestationsHTML += `<li>
-        ${attestationDate} ${statusIcon}
+      otherVerificationsHTML += `<li>
+        ${verificationDate} ${statusIcon}
       </li>`;
     }
-    otherAttestationsHTML = `<ul class="attestation-other-attempts">${otherAttestationsHTML}</ul>`;
+    otherVerificationsHTML = `<ul class="attestation-other-attempts">${otherVerificationsHTML}</ul>`;
   }
   
   content.innerHTML = `
     <p><strong>Attempt by:</strong> <span id="attempt-by"></span></p>
-    <p><strong>Created At:</strong> ${new Date(attestation.created_at * 1000).toLocaleDateString(navigator.language, {
+    <p><strong>Created At:</strong> ${new Date(verification.created_at * 1000).toLocaleDateString(navigator.language, {
       year: 'numeric',
       month: 'short',
       day: 'numeric',
@@ -438,18 +424,18 @@ window.showVerificationModal = async function(sha256Hash, attestationId, appId, 
     })}</p>
     <p><strong>Status: </strong> ${status} ${status === 'reproducible' ? '✅' : '❌'}</p>`;
 
-  if (otherAttestationsHTML !== '') {
-    content.innerHTML += `<p><strong>Other attempts by this user:</strong> ${otherAttestationsHTML}</p>`;
+  if (otherVerificationsHTML !== '') {
+    content.innerHTML += `<p><strong>Other attempts by this user:</strong> ${otherVerificationsHTML}</p>`;
   }
 
   content.innerHTML += `
     <p><strong>Information:</strong>
-      <div class="markdown-content">${DOMPurify.sanitize(marked.parse(attestation.content))}</div>
+      <div class="markdown-content">${DOMPurify.sanitize(marked.parse(verification.content))}</div>
     </p>
   `;
 
   // Play asciicast
-  if (attestation.content.includes('ascii_cast_player')) {
+  if (verification.content.includes('ascii_cast_player')) {
     // Inyect the asciinema player .js and .css
     const asciinemaPlayerJS = document.createElement('script');
     asciinemaPlayerJS.src = '/assets/js/asciinema-player.min.js';
@@ -459,6 +445,13 @@ window.showVerificationModal = async function(sha256Hash, attestationId, appId, 
     asciinemaPlayerCSS.rel = 'stylesheet';
     asciinemaPlayerCSS.href = '/assets/css/asciinema-player.min.css';
     document.head.appendChild(asciinemaPlayerCSS);
+
+    if (!platform) {    // Extract platform from the URL path
+      const urlParts = window.location.pathname.split('/').filter(Boolean);
+      if (urlParts.length > 0) {
+        platform = urlParts[0];
+      }
+    }
 
     // Wait until asciinemaPlayerJS is loaded
     asciinemaPlayerJS.onload = () => {
@@ -481,17 +474,17 @@ window.showVerificationModal = async function(sha256Hash, attestationId, appId, 
     div.style.filter = 'blur(5px)';
   });
 
-  const profile = await getNostrProfile(attestation.pubkey);
+  const profile = await getNostrProfile(verification.pubkey);
   
   document.getElementById('attempt-by').innerHTML = profile ? `
     <div class="profile-card">
-      ${profile.image ? `<img src="${profile.image}" class="profile-image" onclick="window.location.href='/verifier/?pubkey=${attestation.pubkey}'" onerror="this.style.display='none'"/>` : ''}
-      <div class="profile-info" onclick="window.location.href='/verifier/?pubkey=${attestation.pubkey}'">
-        <div>${profile.name || attestation.pubkey}</div>
+      ${profile.image ? `<img src="${profile.image}" class="profile-image" onclick="window.location.href='/verifier/?pubkey=${verification.pubkey}'" onerror="this.style.display='none'"/>` : ''}
+      <div class="profile-info" onclick="window.location.href='/verifier/?pubkey=${verification.pubkey}'">
+        <div>${profile.name || verification.pubkey}</div>
         ${profile.nip05 ? `<div class="profile-nip05">${profile.nip05}</div>` : ''}
       </div>
     </div>
-  ` : attestation.pubkey;
+  ` : verification.pubkey;
 
   document.getElementById('closeModal').onclick = function() {
     modal.style.display = 'none';

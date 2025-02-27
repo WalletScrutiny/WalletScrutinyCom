@@ -91,7 +91,7 @@ permalink: /verifier/
       }
 
       // Binaries
-      await renderAssetsTable({htmlElementId:'binariesTable', assetsPubkey: pubkey, getAssetsForMyAttestations: true});
+      await renderAssetsTable({htmlElementId:'binariesTable', pubkey});
 
       document.getElementById('loadingSpinner').style.display = 'none';
     } catch (error) {

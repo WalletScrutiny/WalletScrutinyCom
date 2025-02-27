@@ -124,10 +124,12 @@ const createAssetRegistration = async function ({
 
 const createVerification = async function ({
   hashes,
+  name,
   content,
   status,
   appId,
   version,
+  platform,
   createdAt = null
 }) {
   validateSHA256(hashes);
@@ -142,7 +144,11 @@ const createVerification = async function ({
 
   const ndkEvent = new NDKEvent(ndk);
   ndkEvent.kind = verificationKind;
-  ndkEvent.content = content;
+  
+  ndkEvent.content = JSON.stringify({
+    name: name || '',
+    content: content || '',
+  });
   ndkEvent.created_at = getCreatedAt(createdAt);
 
   ndkEvent.tags = [
@@ -155,10 +161,14 @@ const createVerification = async function ({
   if (version) {
     ndkEvent.tags.push(["version", version]);
   }
+  if (platform) {
+    ndkEvent.tags.push(["platform", platform]);
+  }
   hashes.forEach(hash => {
     ndkEvent.tags.push(["x", hash]);
   });
 
+  console.log("----------- ndkEvent", ndkEvent);
   try {
     const publishedToRelays = await ndkEvent.publish();
     console.log(`published verification to ${publishedToRelays.size} relays`);
@@ -175,12 +185,12 @@ const createVerification = async function ({
   }
 }
 
-const createEndorsement = async function ({sha256, content, status, attestationEventId, createdAt = null}) {
-  console.debug("Creating endorsement for verification: ", attestationEventId);
+const createEndorsement = async function ({sha256, content, status, verificationEventId, createdAt = null}) {
+  console.debug("Creating endorsement for verification: ", verificationEventId);
 
   validateSHA256([sha256]);
 
-  if (!content || !status || !attestationEventId) {
+  if (!content || !status || !verificationEventId) {
     throw new Error("Missing required parameters");
   }
 
@@ -190,7 +200,7 @@ const createEndorsement = async function ({sha256, content, status, attestationE
   ndkEvent.created_at = getCreatedAt(createdAt);
   ndkEvent.tags = [
     ["x", sha256],
-    ["d", attestationEventId],
+    ["d", verificationEventId],
     ["status", status]
   ];
 
@@ -226,11 +236,9 @@ const getTimestampMonthsAgo = function(months = 6) {
 
 const getAllAssetInformation = async function({
   months,
-  assetsPubkey,
-  attestationsPubkey,
+  pubkey,
   appId,
-  sha256,
-  getAssetsForMyAttestations
+  sha256
 }) {
   const filter_assets = {
     kinds: [assetRegistrationKind],
@@ -252,75 +260,59 @@ const getAllAssetInformation = async function({
     filter_assets["#x"] = [sha256];
   }
 
-  const filter_attestations = {
+
+  const filter_verifications = {
     kinds: [verificationKind, endorsementKind],
   }
-  if (months) {
-    filter_attestations.since = getTimestampMonthsAgo(months);
-  }
-  if (attestationsPubkey) {
-    filter_attestations.authors = [attestationsPubkey];
+  if (pubkey) {
+    filter_verifications.authors = [pubkey];
   }
   if (sha256) {
-    filter_attestations["#x"] = [sha256];
+    filter_verifications["#x"] = [sha256];
   }
+  if (months) {
+    console.debug(`Getting events from last ${months} months`);
+    filter_verifications.since = getTimestampMonthsAgo(months);
+  } else {
+    console.debug(`Getting events from ${verificationsFeatureSinceTS} onwards`);
+    filter_verifications.since = verificationsFeatureSinceTS;
+  }
+  if (appId) {
+    filter_verifications["#i"] = [appId];
+  }
+
 
   const events = await ndk.fetchEvents([filter_assets, filter_attestations]);
 
   const assets = Array.from(events).filter(event => event.kind === assetRegistrationKind);
-  const attestations = Array.from(events).filter(event => event.kind === verificationKind);
-  const endorsements = Array.from(events).filter(event => event.kind === endorsementKind);
+  const verifications = Array.from(events).filter(event => event.kind === verificationKind);
+  //const endorsements = Array.from(events).filter(event => event.kind === endorsementKind);
 
   const assetsMap = new Map();
-  const attestationsMap = new Map();
+  const verificationsMap = new Map();
   const endorsementsMap = new Map();
 
-  attestations.forEach(attestation => {
-    const sha256 = getFirstTag(attestation, 'x');
+  verifications.forEach(verification => {
+    const sha256 = getFirstTag(verification, 'x');
     if (sha256) {
-      if (!attestationsMap.has(sha256)) {
-        attestationsMap.set(sha256, []);
+      if (!verificationsMap.has(sha256)) {
+        verificationsMap.set(sha256, []);
       }
-      attestationsMap.get(sha256).push(attestation);
+      verificationsMap.get(sha256).push(verification);
     }
   });
 
+  /*
   endorsements.forEach(endorsement => {
-    const attestationEventId = getFirstTag(endorsement, 'd');
-    if (attestationEventId) {
-      if (!endorsementsMap.has(attestationEventId)) {
-        endorsementsMap.set(attestationEventId, []);
+    const verificationEventId = getFirstTag(endorsement, 'd');
+    if (verificationEventId) {
+      if (!endorsementsMap.has(verificationEventId)) {
+        endorsementsMap.set(verificationEventId, []);
       }
-      endorsementsMap.get(attestationEventId).push(endorsement);
+      endorsementsMap.get(verificationEventId).push(endorsement);
     }
   });
-
-  if (getAssetsForMyAttestations) {
-    // Iterates over all the attestations. For the ones matching the pubkey, check
-    // if the asset they're referring to is already loaded. If it isn't, load those
-    // assets from Nostr in a second step.
-
-    const attestedAssetsToBeRequestedSet = new Set();
-    const sha256OfAssetsAlreadyLoadedSet = new Set(assets.map(asset => getFirstTag(asset, 'x')));
-    
-    attestationsMap.forEach((attestations, sha256) => {
-      attestations.forEach(attestation => {
-        if (attestation.pubkey === assetsPubkey) {
-          if (!sha256OfAssetsAlreadyLoadedSet.has(sha256)) {
-            attestedAssetsToBeRequestedSet.add(sha256);
-          }
-        }
-      });
-    });
-
-    if (attestedAssetsToBeRequestedSet.size > 0) {
-      const extraAssetsToRequest = await ndk.fetchEvents({
-        kinds: [assetRegistrationKind],
-        "#x": Array.from(attestedAssetsToBeRequestedSet)
-      });
-      assets.push(...Array.from(extraAssetsToRequest));
-    }
-  }
+  */
 
   assets.forEach(asset => {
     const sha256 = getFirstTag(asset, 'x');
@@ -334,7 +326,7 @@ const getAllAssetInformation = async function({
 
   return {
     assets: assetsMap,
-    attestations: attestationsMap,
+    verifications: verificationsMap,
     endorsements: endorsementsMap
   };
 }

@@ -98,18 +98,18 @@ permalink: /verifiers/
 
     const attestatorStats = new Map();
 
-    response.attestations.forEach((attestationList, sha256) => {
-      attestationList.forEach(attestation => {
-        const pubkey = attestation.pubkey;
+    response.verifications.forEach((verificationList, sha256) => {
+      verificationList.forEach(verification => {
+        const pubkey = verification.pubkey;
 
         const currentStats = attestatorStats.get(pubkey) || {
-          attestations: 0,
+          verifications: 0,
           endorsements: 0
         };
 
-        currentStats.attestations += 1;
+        currentStats.verifications += 1;
 
-        const endorsements = response.endorsements.get(attestation.id) || [];
+        const endorsements = response.endorsements.get(verification.id) || [];
         const reproducibleEndorsements = endorsements.filter(endorsement => 
           getFirstTag(endorsement, 'status') === 'reproducible'
         ).length;
@@ -120,7 +120,7 @@ permalink: /verifiers/
     });
 
     const sortedAttestators = Array.from(attestatorStats.entries())
-      .sort((a, b) => (b[1].attestations + b[1].endorsements) - (a[1].attestations + a[1].endorsements));
+      .sort((a, b) => (b[1].verifications + b[1].endorsements) - (a[1].verifications + a[1].endorsements));
 
     const tableHTML = `
       <table>
@@ -134,7 +134,7 @@ permalink: /verifiers/
           ${sortedAttestators.map(([pubkey, stats]) => `
             <tr>
               <td class="attestator-card-column" id="profile-${pubkey}"><a href="/verifier/?pubkey=${pubkey}">${getNpubFromPubkey(pubkey)}</a></td>
-              <td class="attestation-count-column">${stats.attestations}</td> <!-- , ${stats.endorsements} -->
+              <td class="attestation-count-column">${stats.verifications}</td> <!-- , ${stats.endorsements} -->
             </tr>
           `).join('')}
         </tbody>

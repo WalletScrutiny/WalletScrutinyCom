@@ -50,7 +50,7 @@ permalink: /new_asset/
       <label for="platform">Platform:</label>
       <select id="platform" name="platform" class="form-control">
         <option value="">Select a platform</option>
-        <option value="Android Universal">Android Universal</option>
+        <option value="Android">Android</option>
         <option value="iOS">iOS</option>
         <option value="Linux">Linux</option>
         <option value="Windows">Windows</option>

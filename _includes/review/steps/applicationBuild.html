@@ -47,12 +47,12 @@
             sortByVersion: true
           });
 
-          if (!attestationsInfo.hasBinaries && !attestationsInfo.hasLegacyBinaries) {
+          if (!attestationsInfo.hasVerifications && !attestationsInfo.hasLegacyVerifications) {
             document.getElementById('appsTable').style.display = 'none';
             document.getElementById('createVerificationButton').style.display = 'block';
           }
 
-          if (!attestationsInfo.hasBinaries && attestationsInfo.hasLegacyBinaries) {
+          if (!attestationsInfo.hasVerifications && attestationsInfo.hasLegacyVerifications) {
             if (pageVerdict === 'reproducible') {
               document.getElementById('verificationMessage').innerHTML = "This application is reproducible. You can create an asset for a newer version so somebody can verify it.";
             } else if (pageVerdict === 'nonverifiable') {
@@ -64,7 +64,7 @@
             }
           }
 
-          if (!attestationsInfo.hasBinaries) {
+          if (!attestationsInfo.hasVerifications) {
             document.querySelector('.legacyInfo').style.display = 'block';
           } else {
             document.querySelector('.legacyInfo').style.display = 'none';
