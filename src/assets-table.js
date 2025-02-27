@@ -1,11 +1,12 @@
 import {marked} from 'marked';
 import DOMPurify from 'dompurify';
+import { assetRegistrationKind } from "./nostr-constants.mjs";
 
 let response = null;
 
 const table = document.createElement('table');
 
-// Function to filter and update table rows
+// Filter table rows
 function updateTableVisibility() {
   const searchTerm = document.getElementById('assetSearchInput').value.toLowerCase();
   const showLatestOnly = document.getElementById('showLatestVersionOnly').checked;
@@ -61,7 +62,7 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
     sha256
   });
 
-  // Add search and filter UI only if enableSearch is true
+  // Search and filter UI
   if (enableSearch) {
     const searchContainer = document.createElement('div');
     searchContainer.className = 'assets-search-container';
@@ -103,15 +104,16 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
   let hasLegacyVerifications = false;
   let hasVerifications = false;
 
-  // Items, because they can be verifications or assets (no status or content)
-  // Convert to array and sort by most recent verification in each group
-  const sortedItems = Array.from(response.verifications.entries()).map(([sha256, verifications]) => {
+  const combinedItems = new Map([...response.verifications.entries(), ...response.assets.entries()]);
+
+  // It's items because they can be verifications or assets (no status or content)
+  // Convert to array and sort by most recent item in each group
+  const sortedItems = Array.from(combinedItems).map(([sha256, items]) => {
     // Sort assets within each SHA256 group by date and take the most recent one
-    const sortedVerifications = verifications.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+    const sortedItems = items.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
     return {
       sha256,
-      verifications: sortedVerifications,
-      created_at: sortedVerifications[0].created_at  // Use the most recent verifications created_at for sorting
+      items: sortedItems
     };
   });
 
@@ -146,8 +148,8 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
   // Sort either by version or date depending on sortByVersion parameter
   if (sortByVersion) {
     sortedItems.sort((a, b) => {
-      const versionA = a.verifications[0].tags.find(tag => tag[0] === 'version')?.[1] || '';
-      const versionB = b.verifications[0].tags.find(tag => tag[0] === 'version')?.[1] || '';
+      const versionA = a.items[0].tags.find(tag => tag[0] === 'version')?.[1] || '';
+      const versionB = b.items[0].tags.find(tag => tag[0] === 'version')?.[1] || '';
 
       // Check for VARY string first
       const hasVaryA = versionA.includes('VARY');
@@ -191,7 +193,7 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
   if (sortedItems.length > 0) {
     sortedItems.forEach((item, index) => {
       // Handle both legacy and new format
-      const binary = item.verifications ? item.verifications[0] : item;
+      const binary = item.items ? item.items[0] : item;
       const date = new Date(binary.created_at * 1000).toLocaleDateString(navigator.language, 
         binary.isLegacy ? {
           year: '2-digit',
@@ -214,6 +216,10 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
       const oldInfoStatus = binary.tags.find(tag => tag[0] === 'status')?.[1] || '';
       const identifier = binary.tags.find(tag => tag[0] === 'i')?.[1] || "";
       const platform = binary.tags.find(tag => tag[0] === 'platform')?.[1] || "";
+
+      // Guess if it's an asset or a verification
+      const isAsset = binary.kind === assetRegistrationKind;
+      const itemDescription = isAsset ? binary.content : JSON.parse(binary.content).description;
 
       let longStatus = null;
 
@@ -304,14 +310,14 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
       row.setAttribute('id', `version-${sanitizedVersion}`);
       row.innerHTML = `
         ${hideConfig?.wallet ? '' : `<td>
-          ${wallet ? `<a href="${wallet.url}" target="_blank" rel="noopener noreferrer">${walletTitle}</a><br>${version}<span class="show-on-mobile"><br>${item.verifications ? [...new Set(item.verifications.map(verification => verification.content))].join('<br>') : binary.content}<br>${sha256Hash ? `
+          ${wallet ? `<a href="${wallet.url}" target="_blank" rel="noopener noreferrer">${walletTitle}</a><br>${version}<span class="show-on-mobile"><br>${itemDescription}<br>${sha256Hash ? `
           <button onclick="navigator.clipboard.writeText('${sha256Hash}').then(() => showToast('SHA256 copied to clipboard'))" class="copy-button">📋</button>sha256` : '-'}</span>` : walletTitle}
           </td>`}
         ${hideConfig?.wallet ? `<td>
-          ${version}<span class="show-on-mobile"><br>${item.verifications ? [...new Set(item.verifications.map(verification => 'verification.content'))].join('<br>') : binary.content}<br>${sha256Hash ? `
+          ${version}<span class="show-on-mobile"><br>${itemDescription}<br>${sha256Hash ? `
           <button onclick="navigator.clipboard.writeText('${sha256Hash}').then(() => showToast('SHA256 copied to clipboard'))" class="copy-button">📋</button>sha256` : '-'}</span>
           </td>` : ''}
-        <td class="asset-description hide-on-mobile">${item.verifications ? [...new Set(item.verifications.map(verification => 'verification.content'))].join('<br>') : binary.content}</td>
+        <td class="asset-description hide-on-mobile">${itemDescription}</td>
         ${hideConfig?.sha256 ? '' : `<td class="hide-on-mobile">
           ${sha256Hash ? `
           <span>${truncatedHash}</span>
@@ -369,11 +375,11 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
   };
 };
 
-window.showVerificationModal = async function(sha256Hash, attestationId, appId, platform) {
+window.showVerificationModal = async function(sha256Hash, verificationId, appId, platform) {
   document.body.classList.add("modal-open");
-  
+
   const verifications = response.verifications.get(sha256Hash);
-  const verification  = verifications.find(a => a.id === attestationId);
+  const verification  = verifications.find(a => a.id === verificationId);
   const otherVerificationsBySamePubkey = verifications.filter(a => (a.pubkey === verification.pubkey && a.id !== verification.id));
 
   const status = verification.tags.find(tag => tag[0] === 'status')?.[1] || '';
@@ -429,9 +435,11 @@ window.showVerificationModal = async function(sha256Hash, attestationId, appId, 
     content.innerHTML += `<p><strong>Other attempts by this user:</strong> ${otherVerificationsHTML}</p>`;
   }
 
+  const itemContent = JSON.parse(verification.content).content;
+
   content.innerHTML += `
     <p><strong>Information:</strong>
-      <div class="markdown-content">${DOMPurify.sanitize(marked.parse(verification.content))}</div>
+      <div class="markdown-content">${DOMPurify.sanitize(marked.parse(itemContent))}</div>
     </p>
   `;
 
