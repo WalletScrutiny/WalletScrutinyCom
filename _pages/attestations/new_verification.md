@@ -29,6 +29,12 @@ permalink: /new_verification/
     </div>
 
     <div class="form-group">
+      <label for="description">Asset Description*:</label>
+      <input type="text" id="description" name="description" class="form-control" required>
+      <small class="form-text">Example: Firmware / Bootloader / Universal APK from Github / Debian package amd64 / MacOS App Store</small>
+    </div>
+
+    <div class="form-group">
       <label for="status">Status*:</label>
       <select id="status" name="status" class="form-control" required>
         <option value="">Select a status</option>
@@ -242,11 +248,12 @@ async function handleSubmit(event) {
 
   const formData = {
     hashes: hashes,
+    description: document.getElementById('description').value.trim()
     content: document.getElementById('content').value.trim(),
-    status: document.getElementById('status').value,
-    assetEventId: assetEventId,
     appId: document.getElementById('appId').value.trim(),
-    version: document.getElementById('version').value.trim()
+    version: document.getElementById('version').value.trim(),
+    status: document.getElementById('status').value,
+    assetEventId: assetEventId
   };
 
   const spinner = document.getElementById('loadingSpinner');

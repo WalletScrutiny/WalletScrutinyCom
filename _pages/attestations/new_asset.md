@@ -41,9 +41,9 @@ permalink: /new_asset/
     </div>
 
     <div class="form-group">
-      <label for="name">Asset Name*:</label>
-      <input type="text" id="name" name="name" class="form-control" required>
-      <small class="form-text">Example: Universal APK from Github / Debian package amd64 / MacOS App Store</small>
+      <label for="description">Asset Description*:</label>
+      <input type="text" id="description" name="description" class="form-control" required>
+      <small class="form-text">Example: Firmware / Bootloader / Universal APK from Github / Debian package amd64 / MacOS App Store</small>
     </div>
 
     <div class="form-group">
@@ -67,12 +67,12 @@ permalink: /new_asset/
 
 <script>
 function validateForm() {
-  const name = document.getElementById('name').value.trim();
+  const description = document.getElementById('description').value.trim();
   const version = document.getElementById('version').value.trim();
   const sha256 = document.getElementById('sha256').value.trim();
   const appId = document.getElementById('appId').value.trim();
 
-  if (!appId || !name || !version || !sha256) {
+  if (!appId || !description || !version || !sha256) {
     alert('Please fill in all required fields');
     return false;
   }
@@ -106,7 +106,7 @@ async function loadUrlParams() {
 
   const urlParams = new URLSearchParams(window.location.search);
   
-  const fields = ['name', 'version', 'sha256', 'appId', 'platform'];
+  const fields = ['description', 'version', 'sha256', 'appId', 'platform'];
   fields.forEach(field => {
     const value = urlParams.get(field);
     if (value) {
@@ -131,10 +131,10 @@ async function handleSubmit(event) {
   }
 
   const formData = {
-    name: document.getElementById('name').value.trim(),
+    description: document.getElementById('description').value.trim(),
     version: document.getElementById('version').value.trim(),
-    sha256: document.getElementById('sha256').value.trim(),
     appId: document.getElementById('appId').value.trim(),
+    sha256: document.getElementById('sha256').value.trim(),
     platform: document.getElementById('platform').value
   };
 

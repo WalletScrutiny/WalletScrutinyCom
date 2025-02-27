@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import yaml from 'js-yaml'; 
-import { nostrConnect, createAssetRegistration, createVerification } from '../src/verifications_utils.mjs';
+import { nostrConnect, createVerification } from '../src/verifications_utils.mjs';
 
 function getStatusFromVerdict(verdict) {
     switch (verdict) {
@@ -116,7 +116,7 @@ async function parseFile(filePath, folderName) {
                             appId,
                             version: review.version,
                             platform: folderName,
-                            name: folderName === 'android' ? "Google Play extracted apk" : "Binary obtained from the manufacturer's website",
+                            description: folderName === 'android' ? "Google Play extracted apk" : "Binary obtained from the manufacturer's website",
                             content: review.gitRevision ? `Legacy verification by WalletScrutiny (${review.date}). See details <a target="_blank" href="https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/${review.gitRevision}/_${folderName}/${appId}.md">here</a>.` : '',
                             status: getStatusFromVerdict(review.verdict)
                         });
@@ -146,7 +146,7 @@ async function parseFile(filePath, folderName) {
                         appId,
                         version,
                         platform: folderName,
-                        name: folderName === 'android' ? "Google Play extracted apk" : "Binary obtained from the manufacturer's website",
+                        description: folderName === 'android' ? "Google Play extracted apk" : "Binary obtained from the manufacturer's website",
                         content: contentAfterYaml,
                         status: getStatusFromVerdict(data.verdict)
                     });
@@ -164,7 +164,7 @@ async function createNostrEvents({
     appId,
     version,
     platform,
-    name,
+    description,
     content,
     status
 }) {
@@ -173,14 +173,14 @@ async function createNostrEvents({
         appId,
         version,
         platform,
-        name,
+        description,
         content,
         status
     });
 
     await createVerification({
         hashes,
-        name,
+        description,
         content,
         status,
         appId,

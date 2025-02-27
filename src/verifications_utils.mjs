@@ -84,18 +84,18 @@ const createAssetRegistration = async function ({
   appId,
   version,
   platform,
-  name,
+  description,
   createdAt = null
 }) {
   validateSHA256([sha256]);
 
-  if (!appId || !version || !name) {
+  if (!appId || !version || !description) {
     throw new Error("Missing required parameters");
   }
 
   const ndkEvent = new NDKEvent(ndk);
   ndkEvent.kind = assetRegistrationKind;
-  ndkEvent.content = name;
+  ndkEvent.content = description;
   ndkEvent.created_at = getCreatedAt(createdAt);
   ndkEvent.tags = [
     ["x", sha256],
@@ -124,7 +124,7 @@ const createAssetRegistration = async function ({
 
 const createVerification = async function ({
   hashes,
-  name,
+  description,
   content,
   status,
   appId,
@@ -144,8 +144,11 @@ const createVerification = async function ({
 
   const ndkEvent = new NDKEvent(ndk);
   ndkEvent.kind = verificationKind;
-  ndkEvent.content = content;
   ndkEvent.created_at = getCreatedAt(createdAt);
+  ndkEvent.content = JSON.stringify({
+    description: description || '',
+    content: content,
+  });
 
   ndkEvent.tags = [
     ["status", status]
