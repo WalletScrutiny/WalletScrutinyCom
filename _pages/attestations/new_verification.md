@@ -211,7 +211,7 @@ async function loadUrlParamsAndGetAssetInfo() {
       return;
     }
 
-    if (result.hasAttestations) {
+    if (result.hasVerifications) {
       message = '<p>You are about to create a verification for a specific asset. Below you can find the asset information and other verifications that were made. Feel free to review them before creating your own.</p>';
     } else {
       message = '<p>Below you can find the asset information. Since there are no previous verifications, you will be the first one to provide feedback about this asset.</p>';
