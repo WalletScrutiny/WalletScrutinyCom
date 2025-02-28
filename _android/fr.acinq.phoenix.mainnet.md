@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: nonverifiable
 appHashes: 
-- 295a50bc3208c28db8ac9b1b5bdfa7eb746e2e2037469f8c2624ebe01119e464
+- ae3e4fd5ec15b67613f944c39b5e8121e0864987b000ba1c9a88becc8ce8b15c
 date: 2024-10-12
 signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
 reviewArchive:
