@@ -452,15 +452,25 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
 
   // Play asciicast
   if (verification.content.includes('ascii_cast_player')) {
-    // Inyect the asciinema player .js and .css
-    const asciinemaPlayerJS = document.createElement('script');
-    asciinemaPlayerJS.src = '/assets/js/asciinema-player.min.js';
-    document.head.appendChild(asciinemaPlayerJS);
+    // Check if asciinema player scripts are already loaded
+    const asciinemaJSExists = document.querySelector('script[src="/assets/js/asciinema-player.min.js"]');
+    const ascinemaCSSExists = document.querySelector('link[href="/assets/css/asciinema-player.min.css"]');
+    
+    // Only add JS if not already present
+    let asciinemaPlayerJS;
+    if (!asciinemaJSExists) {
+      asciinemaPlayerJS = document.createElement('script');
+      asciinemaPlayerJS.src = '/assets/js/asciinema-player.min.js';
+      document.head.appendChild(asciinemaPlayerJS);
+    }
 
-    const asciinemaPlayerCSS = document.createElement('link');
-    asciinemaPlayerCSS.rel = 'stylesheet';
-    asciinemaPlayerCSS.href = '/assets/css/asciinema-player.min.css';
-    document.head.appendChild(asciinemaPlayerCSS);
+    // Only add CSS if not already present
+    if (!ascinemaCSSExists) {
+      const asciinemaPlayerCSS = document.createElement('link');
+      asciinemaPlayerCSS.rel = 'stylesheet';
+      asciinemaPlayerCSS.href = '/assets/css/asciinema-player.min.css';
+      document.head.appendChild(asciinemaPlayerCSS);
+    }
 
     if (!platform) {    // Extract platform from the URL path
       const urlParts = window.location.pathname.split('/').filter(Boolean);
@@ -469,8 +479,8 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
       }
     }
 
-    // Wait until asciinemaPlayerJS is loaded
-    asciinemaPlayerJS.onload = () => {
+    // Function to initialize the player
+    const initPlayer = () => {
       AsciinemaPlayer.create(
         '/assets/casts/' + platform + '/' + appId + '.cast',
         document.getElementById('ascii_cast_player'),
@@ -481,6 +491,14 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
         }
       );
     };
+
+    // If we just added the script, wait for it to load
+    if (!asciinemaJSExists && asciinemaPlayerJS) {
+      asciinemaPlayerJS.onload = initPlayer;
+    } else {
+      // Script was already loaded, initialize player directly
+      initPlayer();
+    }
   }
 
   modal.style.display = 'block';
