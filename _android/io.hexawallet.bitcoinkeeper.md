@@ -15,7 +15,7 @@ ratings:
 reviews: 
 website: https://www.bitcoinkeeper.app/
 repository: https://github.com/bithyve/bitcoin-keeper
-issue: https://github.com/bithyve/bitcoin-keeper/issues/6097#issuecomment-2673412517
+issue: https://github.com/bithyve/bitcoin-keeper/issues/6097
 icon: io.hexawallet.bitcoinkeeper.png
 bugbounty: 
 meta: ok

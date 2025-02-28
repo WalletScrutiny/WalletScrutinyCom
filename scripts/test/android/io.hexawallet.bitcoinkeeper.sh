@@ -1,8 +1,7 @@
 #!/bin/bash
 
 repo=https://github.com/bithyve/bitcoin-keeper.git
-tag="v2.0.1"
-# fallbackTag="v2.0.1" 
+tag="v$versionName"
 builtApk=$workDir/app/android/app/build/outputs/apk/production/release/app-production-release.apk
 
 test() {
