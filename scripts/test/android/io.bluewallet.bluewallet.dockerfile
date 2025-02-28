@@ -43,6 +43,7 @@ RUN set -ex; \
     npm config set fetch-retry-mintimeout 100000; \
     npm install --production --no-optional --omit=optional --no-audit --no-fund --ignore-scripts; \
     npm run postinstall; \
+    # Work around issue with realm: https://github.com/realm/realm-js/issues/6204#issuecomment-1772638401
     rm -rf node_modules/realm; npm install realm; \
     echo '"master"' > current-branch.json;
 
