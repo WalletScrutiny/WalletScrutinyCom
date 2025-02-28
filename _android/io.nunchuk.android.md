@@ -22,7 +22,7 @@ issue: https://github.com/nunchuk-io/nunchuk-android/issues/23
 icon: io.nunchuk.android.png
 bugbounty: 
 meta: ok
-verdict: reproducible
+verdict: nonverifiable
 appHashes:
 - d2cdcf52e5534d91275f85abb465bfc076871812512256f8c9b51b1f4a8cb69b
 - e2ae9e4b88963e7142c80c02a2c49b417fa34fb1809f296452efd828928b0b22
