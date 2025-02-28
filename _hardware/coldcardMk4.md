@@ -39,7 +39,7 @@ reviewArchive:
   appHashes:
   - eb750a4f095eacc6133b2c8b38fe0738a22b2496a6cdf423ca865acde8c9bc4e
   - ab115260a6bd8728f1e81cf27b4dad8d6947b496abaa7810e89fe484c273fb94
-  gitRevision: a6d663b6ee707729b2258fd460fbfe3bdab91223
+  gitRevision: 149e3366c5f7be34cae384c9b221ee79935eafd5
   verdict: reproducible
 - date: 2024-01-02
   version: v6.3.4X
