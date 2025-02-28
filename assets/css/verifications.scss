@@ -158,22 +158,21 @@ table {
   border-radius: 12px;
   height: 80vh;
   background: var(--background-color);
-  width: auto;
 
   @media screen and (max-width: 480px) {
-    max-width: 97vw;
+    width: 97vw;
   }
   @media screen and (min-width: 481px) {
-    max-width: 95vw;
+    width: 95vw;
   }
   @media screen and (min-width: 1200px) {
-    max-width: 85vw;
+    width: 85vw;
   }
   @media screen and (min-width: 1800px) {
-    max-width: 80vw;
+    width: 80vw;
   }
   @media screen and (min-width: 2300px) {
-    max-width: 75vw;
+    width: 75vw;
   }
 }
 
