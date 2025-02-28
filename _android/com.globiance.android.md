@@ -12,7 +12,7 @@ updated: 2024-06-27
 version: '2.07'
 stars: 4.2
 ratings: 
-reviews: 42
+reviews: 43
 website: https://globiance.com
 repository: 
 issue: 

@@ -10,7 +10,7 @@ appId: com.defi.wallet
 appCountry: 
 released: 2020-05-11
 updated: 2025-02-26
-version: 2.07.0
+version: 2.08.0
 stars: 4.6
 ratings: 13620
 reviews: 3246

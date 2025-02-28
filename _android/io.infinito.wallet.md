@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: io.infinito.wallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-08-26
+date: 2025-02-28
 signer: 
 reviewArchive: 
 twitter: Infinito_Ltd

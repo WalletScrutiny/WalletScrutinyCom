@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: org.p2p.cyber.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
 appHashes: 
-date: 2023-05-06
+date: 2025-02-28
 signer: 
 reviewArchive: 
 twitter: 

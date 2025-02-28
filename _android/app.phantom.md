@@ -8,12 +8,12 @@ users: 10000000
 appId: app.phantom
 appCountry: 
 released: 2022-04-12
-updated: 2025-02-19
+updated: 2025-02-26
 version: 25.6.0
 stars: 4
 ratings: 
-reviews: 976
-website: https://phantom.app/
+reviews: 978
+website: https://phantom.com/
 repository: 
 issue: 
 icon: app.phantom.png

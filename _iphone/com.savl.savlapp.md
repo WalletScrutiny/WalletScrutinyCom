@@ -11,7 +11,7 @@ released: 2018-04-22
 updated: 2025-02-17
 version: 8.2.1
 stars: 4.5
-reviews: 258
+reviews: 259
 website: https://unitywallet.com
 repository: 
 issue: 

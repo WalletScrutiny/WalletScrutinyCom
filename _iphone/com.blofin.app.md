@@ -11,7 +11,7 @@ released: 2022-04-15
 updated: 2025-02-13
 version: 3.8.0
 stars: 4.7
-reviews: 645
+reviews: 646
 website: https://blofin.com
 repository: 
 issue: 

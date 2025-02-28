@@ -5,7 +5,7 @@ altTitle:
 authors:
 - leo
 - danny
-users: 50000
+users: 100000
 appId: com.ellipal.wallet
 appCountry: us
 released: 2018-07-02

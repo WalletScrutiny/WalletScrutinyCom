@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.gatepos.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2023-05-21
+date: 2025-02-28
 signer: 
 reviewArchive: 
 twitter: 

@@ -11,7 +11,7 @@ released: 2019-09-18
 updated: 2024-11-28
 version: 3.7.1
 stars: 3.2
-reviews: 142
+reviews: 143
 website: https://rockitcoin.com
 repository: 
 issue: 

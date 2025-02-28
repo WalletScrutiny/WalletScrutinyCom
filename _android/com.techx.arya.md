@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.techx.arya.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2024-04-09
+date: 2025-02-28
 signer: 
 reviewArchive: 
 twitter: TheAryaApp

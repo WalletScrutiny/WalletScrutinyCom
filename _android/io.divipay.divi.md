@@ -18,10 +18,10 @@ repository:
 issue: https://github.com/DiviProject/Divi-Desktop-Public/issues/214
 icon: io.divipay.divi.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-07-16
+date: 2025-02-28
 signer: 
 reviewArchive: 
 twitter: diviproject

@@ -10,9 +10,9 @@ appCountry:
 released: 2022-02-23
 updated: 2025-02-23
 version: 4.3.7
-stars: 3.1
+stars: 2.9
 ratings: 
-reviews: 60
+reviews: 61
 website: https://www.weex.com
 repository: 
 issue: 

@@ -1,25 +1,3 @@
-2025-02-13:
-- _android/app.pxq.android
-- _android/com.adenter.mercurycash
-- _android/com.bitforex.bitforex
-- _android/com.cryptore.android
-- _android/com.evraon.trading
-- _android/com.exbito.app
-- _android/com.exchange.wethio.io
-- _android/com.geewallet.android
-- _android/com.gatepos
-- _android/com.goldenraven.padawanwallet
-- _android/com.mobile.quantum
-- _android/com.techx.arya
-- _android/com.vipsfinstock.vipsapp
-- _android/com.wenplus
-- _android/com.zybitech.juancash
-- _android/io.divipay.divi
-- _android/io.infinito.wallet
-- _android/net.coinpayments.coinpaymentsapp
-- _android/vn.beedu.blockchain
-- _iphone/com.vexel
-- _iphone/org.p2p.cyber
 2025-02-18:
 - _android/app.codecellar.embitwallet
 - _android/app.vitien.vitien
@@ -110,3 +88,12 @@
 - _iphone/com.agoradesk.app
 - _iphone/com.wethio.io.wethioX
 - _iphone/com.zyth.app
+2025-02-28:
+- _android/com.app.awqsome.ennowallet
+- _android/com.app.vptplus
+- _android/com.dcoin.exchange
+- _android/com.flitaa.app
+- _android/com.hi.dollars
+- _android/com.tomyaapp.android
+- _android/org.guapcoin.multiwallet
+- _android/ru.koshelek

@@ -12,7 +12,7 @@ updated: 2025-02-25
 version: 3.9.0
 stars: 4.3
 ratings: 
-reviews: 27
+reviews: 28
 website: https://apex.exchange
 repository: 
 issue: 

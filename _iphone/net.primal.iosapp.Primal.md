@@ -11,7 +11,7 @@ released: 2023-12-01
 updated: 2025-02-26
 version: 2.1.26
 stars: 4.9
-reviews: 622
+reviews: 624
 website: https://primal.net
 repository: 
 issue: 

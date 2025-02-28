@@ -12,8 +12,8 @@ updated: 2025-02-25
 version: V4.0
 stars: 4.1
 ratings: 
-reviews: 6375
-website: https://safemoon.com
+reviews: 6371
+website: https://vgxfoundation.com
 repository: 
 issue: 
 icon: net.safemoon.androidwallet.png

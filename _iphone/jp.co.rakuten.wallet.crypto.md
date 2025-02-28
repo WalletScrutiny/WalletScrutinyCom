@@ -11,7 +11,7 @@ released: 2019-08-31
 updated: 2025-02-19
 version: 1.5.5
 stars: 4.3
-reviews: 8479
+reviews: 8483
 website: https://www.rakuten-wallet.co.jp/
 repository: 
 issue: 

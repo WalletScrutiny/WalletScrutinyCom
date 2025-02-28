@@ -4070,6 +4070,17 @@
   {
     "appId": "keepKey",
     "signer": "",
+    "version": "7.9.3",
+    "verdict": "reproducible",
+    "appHashes": [
+      "24cca93ef5e7907dc6d8405b8ab9800d4e072dd9259138cf7679107985b88137"
+    ],
+    "date": "2024-05-10",
+    "platform": "hardware"
+  },
+  {
+    "appId": "keepKey",
+    "signer": "",
     "version": "7.8.0",
     "verdict": "nonverifiable",
     "appHashes": [

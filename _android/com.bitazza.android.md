@@ -1,6 +1,6 @@
 ---
 wsId: bitazza
-title: 'Bitazza TH: Crypto Exchange'
+title: 'Bitazza TH: Buy & Trade Crypto'
 altTitle: 
 authors:
 - danny

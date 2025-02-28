@@ -1,6 +1,6 @@
 ---
 wsId: biyaGlobal
-title: BIYA Global -资产兑换出入金全球汇款美港股交易
+title: BiyaPay-汇款美港股投资出金不冻卡
 altTitle: 
 authors:
 - danny

@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.exbito.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-07-20
+date: 2025-02-28
 signer: 
 reviewArchive: 
 twitter: ExbitoMarket

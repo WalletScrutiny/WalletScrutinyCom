@@ -9,7 +9,7 @@ appCountry: co
 idd: '1552402029'
 released: 2021-11-23
 updated: 2025-02-26
-version: 3.28.1
+version: 3.28.2
 stars: 4.9
 reviews: 16
 website: https://www.buenbit.com/

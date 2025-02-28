@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.bitforex.bitforex.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-10-19
+date: 2025-02-28
 signer: 
 reviewArchive: 
 twitter: 

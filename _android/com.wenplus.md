@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.wenplus.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2024-12-27
+date: 2025-02-28
 signer: 
 reviewArchive: 
 twitter: 

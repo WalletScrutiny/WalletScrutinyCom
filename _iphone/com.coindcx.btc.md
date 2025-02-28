@@ -11,7 +11,7 @@ released: 2020-12-09
 updated: 2025-02-12
 version: 7.00.0001
 stars: 4.2
-reviews: 35063
+reviews: 35091
 website: https://coindcx.com
 repository: 
 issue: 
