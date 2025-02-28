@@ -1,8 +1,9 @@
 ---
-wsId: 
+wsId: tandoMobileApp
 title: Tando
 altTitle: 
-authors: 
+authors:
+- danny 
 appId: me.tando.tandoapp
 appCountry: us
 idd: '6584531359'
@@ -17,15 +18,21 @@ issue:
 icon: me.tando.tandoapp.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nowallet
 appHashes: 
-date: 2024-12-02
+date: 2025-02-28
 signer: 
 reviewArchive: 
-twitter: 
-social: 
+twitter: tando_me
+social:
+- https://njump.me/npub1tand04svfdhrt7lhg6687fh0y2xvxfpr9nkkj27rqfrxfpeklldsp48sax
+- https://www.instagram.com/tando_to
+- https://www.linkedin.com/company/tando-me
+- https://www.tiktok.com/@tando.me
+- https://www.youtube.com/@tando_me
 features: 
-developerName: Tando Ltd
+developerName: Tando LTD.
 
 ---
 
+{% include copyFromAndroid.html %}
