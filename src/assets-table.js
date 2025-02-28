@@ -192,10 +192,8 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
 
   if (sortedItems.length > 0) {
     sortedItems.forEach((item, index) => {
-      console.log('item', item);
       // Handle both legacy and new format
       const binary = item.items ? item.items[0] : item;
-      console.log('binary', binary);
 
       const date = new Date(binary.created_at * 1000).toLocaleDateString(navigator.language, 
         binary.isLegacy ? {
