@@ -182,7 +182,7 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
         ${hideConfig?.wallet ? '' : '<th>Wallet</th>'}
         ${hideConfig?.wallet ? '<th>Version</th>' : ''}
         <th class="hide-on-mobile">Description</th>
-        ${hideConfig?.sha256 ? '' : '<th class="hide-on-mobile">SHA256</th>'}
+        ${hideConfig?.sha256 ? '' : '<th class="hide-on-mobile">Hashes</th>'}
         <th class="hide-on-mobile">URL</th>
         <th>Verifications</th>
         <th>Seen</th>
@@ -192,8 +192,11 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
 
   if (sortedItems.length > 0) {
     sortedItems.forEach((item, index) => {
+      console.log('item', item);
       // Handle both legacy and new format
       const binary = item.items ? item.items[0] : item;
+      console.log('binary', binary);
+
       const date = new Date(binary.created_at * 1000).toLocaleDateString(navigator.language, 
         binary.isLegacy ? {
           year: '2-digit',
@@ -209,8 +212,8 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
       );
 
       const eventId = binary.id;
-      const sha256Hash = item.sha256 || binary.tags?.find(tag => tag[0] === 'x')?.[1] || '';
-      const truncatedHash = sha256Hash ? `${sha256Hash.slice(0,4)}...${sha256Hash.slice(-4)}` : '';
+      const sha256Hashes = binary.tags?.filter(tag => tag[0] === 'x') || [];
+      const sha256HashKey = item.sha256;
       const downloadUrl = binary.tags.find(tag => tag[0] === 'url')?.[1] || '';
       const version = binary.tags.find(tag => tag[0] === 'version')?.[1] || '';
       const oldInfoStatus = binary.tags.find(tag => tag[0] === 'status')?.[1] || '';
@@ -285,7 +288,7 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
               break;
           }
 
-          listItems += `<span onclick='showVerificationModal("${sha256Hash}", "${attestation.id}", "${identifier}", "${platform}")' class="attestation-link" style="cursor: pointer; margin-bottom: 0; margin-top: 0; display: block;">
+          listItems += `<span onclick='showVerificationModal("${sha256HashKey}", "${attestation.id}", "${identifier}", "${platform}")' class="attestation-link" style="cursor: pointer; margin-bottom: 0; margin-top: 0; display: block;">
             <div style="line-height: 1.2; margin-bottom: 0.7em;">
               ${statusText}
               <small style="display: block;">(${attestationDate})</small>
@@ -294,11 +297,11 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
         }
         attestationList = `${listItems}
         ${hideConfig?.buttons ? '' :
-        `<div style="margin-top: 4px;"><a href="/new_verification/?sha256=${sha256Hash}&assetEventId=${eventId}&appId=${identifier}&version=${version}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">Create another verification</a></div>`}`;
+        `<div style="margin-top: 4px;"><a href="/new_verification/?sha256=${sha256HashKey}&assetEventId=${eventId}&appId=${identifier}&version=${version}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">Create another verification</a></div>`}`;
       } else {
         attestationList = `No verifications yet.
         ${hideConfig?.buttons ? '' : 
-        `<div style="margin-top: 4px;"><a href="/new_verification/?sha256=${sha256Hash}&assetEventId=${eventId}&appId=${identifier}&version=${version}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">Create verification</a></div>`}`;
+        `<div style="margin-top: 4px;"><a href="/new_verification/?sha256=${sha256HashKey}&assetEventId=${eventId}&appId=${identifier}&version=${version}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">Create verification</a></div>`}`;
       }
 
       const wallet = window.wallets.find(w => w.appId === identifier);
@@ -310,20 +313,26 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
       row.setAttribute('id', `version-${sanitizedVersion}`);
       row.innerHTML = `
         ${hideConfig?.wallet ? '' : `<td>
-          ${wallet ? `<a href="${wallet.url}" target="_blank" rel="noopener noreferrer">${walletTitle}</a><br>${version}<span class="show-on-mobile"><br>${itemDescription}<br>${sha256Hash ? `
-          <button onclick="navigator.clipboard.writeText('${sha256Hash}').then(() => showToast('SHA256 copied to clipboard'))" class="copy-button">📋</button>sha256` : '-'}</span>` : walletTitle}
+          ${wallet ? `<a href="${wallet.url}" target="_blank" rel="noopener noreferrer">${walletTitle}</a><br>${version}<span class="show-on-mobile"><br>${itemDescription}<br>${sha256Hashes.length > 0 ? sha256Hashes.map(hash => `
+          <div style="margin-bottom: 4px;">
+            <button onclick="navigator.clipboard.writeText('${hash[1]}').then(() => showToast('Hash copied to clipboard'))" class="copy-button">📋</button>${hash[1].slice(0,4)}...${hash[1].slice(-4)}
+          </div>`).join('') : '-'}</span>` : walletTitle}
           </td>`}
         ${hideConfig?.wallet ? `<td>
-          ${version}<span class="show-on-mobile"><br>${itemDescription}<br>${sha256Hash ? `
-          <button onclick="navigator.clipboard.writeText('${sha256Hash}').then(() => showToast('SHA256 copied to clipboard'))" class="copy-button">📋</button>sha256` : '-'}</span>
+          ${version}<span class="show-on-mobile"><br>${itemDescription}<br>${sha256Hashes.length > 0 ? sha256Hashes.map(hash => `
+          <div style="margin-bottom: 4px;">
+            <button onclick="navigator.clipboard.writeText('${hash[1]}').then(() => showToast('Hash copied to clipboard'))" class="copy-button">📋</button>${hash[1].slice(0,4)}...${hash[1].slice(-4)}
+          </div>`).join('') : '-'}</span>
           </td>` : ''}
         <td class="asset-description hide-on-mobile">${itemDescription}</td>
         ${hideConfig?.sha256 ? '' : `<td class="hide-on-mobile">
-          ${sha256Hash ? `
-          <span>${truncatedHash}</span>
-          <button onclick="navigator.clipboard.writeText('${sha256Hash}').then(() => showToast('SHA256 copied to clipboard'))" class="copy-button">
-            📋
-          </button>` : '-'}
+          ${sha256Hashes.length > 0 ? sha256Hashes.map(hash => `
+          <div style="margin-bottom: 4px;">
+            <span>${hash[1].slice(0,4)}...${hash[1].slice(-4)}</span>
+            <button onclick="navigator.clipboard.writeText('${hash[1]}').then(() => showToast('Hash copied to clipboard'))" class="copy-button">
+              📋
+            </button>
+          </div>`).join('') : '-'}
         </td>`}
         <td class="hide-on-mobile">
           ${downloadUrl ? `<a href="${downloadUrl}" target="_blank" rel="noopener noreferrer">Download</a>` : '-'}
