@@ -29,11 +29,18 @@ bugbounty:
 meta: ok
 verdict: reproducible
 appHashes:
-- eb750a4f095eacc6133b2c8b38fe0738a22b2496a6cdf423ca865acde8c9bc4e
-- ab115260a6bd8728f1e81cf27b4dad8d6947b496abaa7810e89fe484c273fb94
-date: 2025-02-21
+- 495f37ce7ddaba2e9fc3f03dec582f1646f258a3d0cec5e71c04d127357b2fa3
+- f1ce1958911b741ec29bf1a0de46f146acd6dda37c5c6496fa05b81e40551964
+date: 2025-02-28
 signer: 
 reviewArchive:
+- date: 2025-02-21
+  version: v5.4.1
+  appHashes:
+  - eb750a4f095eacc6133b2c8b38fe0738a22b2496a6cdf423ca865acde8c9bc4e
+  - ab115260a6bd8728f1e81cf27b4dad8d6947b496abaa7810e89fe484c273fb94
+  gitRevision: 149e3366c5f7be34cae384c9b221ee79935eafd5
+  verdict: reproducible
 - date: 2024-01-02
   version: v6.3.4X
   appHashes:
@@ -72,13 +79,11 @@ features:
 
 ---
 
-**Update 2025-02-20**: 
-
-Note that the previous review of the MK4 was for version 6.3.4X which is for the EDGE variant of the firmware.
-
 > "Edge" for the Coldcard Mk4 refers to an experimental firmware build available on the Coldcard downloads page. This version includes the latest, cutting‐edge features and improvements that are still under testing and refinement, so while it offers early access to new functionalities, it may be less stable than the official, fully vetted firmware releases. Users opting for Edge firmware should be comfortable with potential bugs or issues and ideally back up their data before updating.
 
-Since the stable release v5.4.1 is the most recent, we would be reviewing that next.
+## Update for Stable Version: 2025-02-20: 
+
+The stable release v5.4.1 is the most recent, we would be reviewing that next.
 
 `$ ./scripts/test/hardware/coldCard.sh 2025-02-13T1415-v5.4.1 mk4`
 
@@ -144,9 +149,77 @@ eb750a4f095eacc6133b2c8b38fe0738a22b2496a6cdf423ca865acde8c9bc4e  /tmp/firmware/
 ab115260a6bd8728f1e81cf27b4dad8d6947b496abaa7810e89fe484c273fb94  /tmp/firmware/stm32/built/firmware-signed.dfu
 ```
 
+We see that the stripped hashes of both the downloaded and compiled firmware for version 5.4.1 for the MK4 indicates that version 5.4.1 of the {{ page.title }} is **reproducible**.
+
+## Update for Edge Version: 2025-02-28: 
+
+The Edge release v6.3.5X is the most recent, we would be reviewing that next. 
+
+`$ ./scripts/test/hardware/coldCard.sh 2025-02-19T1941-v6.3.5X mk4`
+
+## Results
+
+```
+Comparing against: /tmp/checkout/firmware/releases/2025-02-19T1941-v6.3.5X-mk4-coldcard.dfu
+test -n "/tmp/checkout/firmware/releases/2025-02-19T1941-v6.3.5X-mk4-coldcard.dfu" -a -f /tmp/checkout/firmware/releases/2025-02-19T1941-v6.3.5X-mk4-coldcard.dfu
+rm -f -f check-fw.bin check-bootrom.bin
+signit split /tmp/checkout/firmware/releases/2025-02-19T1941-v6.3.5X-mk4-coldcard.dfu check-fw.bin check-bootrom.bin
+start 293 for 1024000 bytes: Firmware => check-fw.bin
+signit check check-fw.bin
+     magic_value: 0xcc001234
+       timestamp: 2025-02-19 19:41:15 UTC
+  version_string: 6.3.5X
+      pubkey_num: 1
+ firmware_length: 1024000
+   install_flags: 0x0 =>
+       hw_compat: 0x8 => Mk4
+         best_ts: b'\x00\x00\x00\x00\x00\x00\x00\x00'
+          future: 0000000000000000 ... 0000000000000000
+       signature: 48197eddbc96d537 ... 7ff249b6e1533d93
+sha256^2: 0b408d520f4da3274d0e3c07d4a989d5c73ddd9f9d08c25105d6bcce69f79b4f
+ ECDSA Signature: CORRECT
+signit check firmware-signed.bin
+     magic_value: 0xcc001234
+       timestamp: 2025-02-28 13:42:46 UTC
+  version_string: 6.3.5X
+      pubkey_num: 0
+ firmware_length: 1024000
+   install_flags: 0x0 =>
+       hw_compat: 0x8 => Mk4
+         best_ts: b'\x00\x00\x00\x00\x00\x00\x00\x00'
+          future: 0000000000000000 ... 0000000000000000
+       signature: 39bf84a085064d84 ... 6c8b6a2da0cf2551
+sha256^2: 88a6ab588285b8577520f8ec261eeed0155cb0f4a81b1f593d85883d34bdc24d
+ ECDSA Signature: CORRECT
+hexdump -C firmware-signed.bin | sed -e 's/^00003f[89abcdef]0 .*/(firmware signature here)/' > repro-got.txt
+hexdump -C check-fw.bin | sed -e 's/^00003f[89abcdef]0 .*/(firmware signature here)/' > repro-want.txt
+diff repro-got.txt repro-want.txt
+
+SUCCESS. 
+
+You have built a bit-for-bit identical copy of Coldcard firmware for v6.3.5X
+```
+
+The most pertinent portion of the results:
+```
+You have built a bit-for-bit identical copy of Coldcard firmware for v6.3.5X
++ set +ex
+
+Hash of non-signature parts downloaded/compiled:
+d2deaa515a959048cffe46ce7f97947c5f93066197a694861b1e530dda650273  2025-02-19T1941-v6.3.5X-mk4-nosig.bin
+d2deaa515a959048cffe46ce7f97947c5f93066197a694861b1e530dda650273  firmware-nosig.bin
+
+Hash of the signed firmware:
+495f37ce7ddaba2e9fc3f03dec582f1646f258a3d0cec5e71c04d127357b2fa3  /tmp/firmware/releases/2025-02-19T1941-v6.3.5X-mk4-coldcard.dfu
+f1ce1958911b741ec29bf1a0de46f146acd6dda37c5c6496fa05b81e40551964  /tmp/firmware/stm32/built/firmware-signed.dfu
+```
+
+We see that the stripped hashes of both the downloaded and compiled firmware for version 6.3.5X for the MK4 indicates that version 6.3.5X of the {{ page.title }} is **reproducible**.
+
+
+
 The [coldcard.sh script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/scripts/test/hardware/coldCard.sh) strips the signature section that appears in the address range **0x3f800-0x3ff00** (which is near the end of the firmware), effectively removing the signature header while preserving the actual firmware code for comparison. The firmware starts at byte 293 while the total firmware size is 946,176 bytes.
 
-We see that the stripped hashes of both the downloaded and compiled firmware for version 5.4.1 for the MK4 indicates that version 5.4.1 of the {{ page.title }} is **reproducible**.
 
 # Old Analysis
 
