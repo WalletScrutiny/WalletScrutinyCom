@@ -24,7 +24,7 @@ icon: io.bluewallet.bluewallet.png
 bugbounty: 
 meta: ok
 verdict: nonverifiable
-appHashes: 
+appHashes:
 - b804c755ffe38efd9cdef7352e71aa6d014243cd9d21cdee0e474fb54ff8c7c9
 date: 2025-02-26
 signer: 42250147991337ed230fbd93c0be0e5f6183d02eed9e1d53e5aac94167cf3f2f

@@ -2229,6 +2229,26 @@
     "platform": "android"
   },
   {
+    "appId": "io.bluewallet.bluewallet",
+    "signer": "42250147991337ed230fbd93c0be0e5f6183d02eed9e1d53e5aac94167cf3f2f",
+    "version": "7.1.0",
+    "verdict": "",
+    "appHashes": [
+      "b804c755ffe38efd9cdef7352e71aa6d014243cd9d21cdee0e474fb54ff8c7c9"
+    ],
+    "date": "2025-02-26",
+    "platform": "android"
+  },
+  {
+    "appId": "io.hexawallet.bitcoinkeeper",
+    "signer": "66568fd4fb14c0134ff4055762607038ad400ba5cbc8e23e5e25265a0234465c",
+    "version": "2.0.0",
+    "verdict": "",
+    "appHashes": "ef3d78cc482c6e6171a3b87ee344db0a097196c62736132fb4dcee898d905781",
+    "date": "2025-02-12",
+    "platform": "android"
+  },
+  {
     "appId": "io.horizontalsystems.bankwallet",
     "signer": "c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b",
     "version": "0.41.0",
@@ -3921,6 +3941,18 @@
       "d01d81305b209dadcf960b9e9d20affb8d4f11e9f9f916c5a06be29298c80dc2"
     ],
     "date": "2021-08-14",
+    "platform": "hardware"
+  },
+  {
+    "appId": "coldcardMk4",
+    "signer": "",
+    "version": "v5.4.1",
+    "verdict": "reproducible",
+    "appHashes": [
+      "eb750a4f095eacc6133b2c8b38fe0738a22b2496a6cdf423ca865acde8c9bc4e",
+      "ab115260a6bd8728f1e81cf27b4dad8d6947b496abaa7810e89fe484c273fb94"
+    ],
+    "date": "2025-02-21",
     "platform": "hardware"
   },
   {
