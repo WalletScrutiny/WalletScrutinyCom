@@ -3,7 +3,7 @@ wsId: tandoMobileApp
 title: Tando
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: me.tando.tandoapp
 appCountry: 
@@ -26,13 +26,14 @@ signer:
 reviewArchive: 
 twitter: tando_me
 social:
-- https://njump.me/npub1tand04svfdhrt7lhg6687fh0y2xvxfpr9nkkj27rqfrxfpeklldsp48sax
+- >-
+  https://njump.me/npub1tand04svfdhrt7lhg6687fh0y2xvxfpr9nkkj27rqfrxfpeklldsp48sax
 - https://www.instagram.com/tando_to
 - https://www.linkedin.com/company/tando-me
 - https://www.tiktok.com/@tando.me
 - https://www.youtube.com/@tando_me
 redirect_from: 
-developerName: Tando LTD.
+developerName: Tando.me
 features: 
 
 ---

@@ -10,7 +10,7 @@ appCountry: us
 released: 2017-08-31
 updated: 2025-02-20
 version: '4.23'
-stars: 3.9
+stars: 4
 ratings: 380
 reviews: 10
 website: http://sticpay.com

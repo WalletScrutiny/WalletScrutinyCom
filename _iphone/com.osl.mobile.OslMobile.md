@@ -3,16 +3,15 @@ wsId: oslMobile
 title: 'OSL: Buy BTC & Crypto Safely'
 altTitle: 
 authors:
-- danny 
-users: 1000 
+- danny
 appId: com.osl.mobile.OslMobile
 appCountry: hk
 idd: '6468963677'
-released: '2024-01-22T08:00:00Z'
+released: 2024-01-22
 updated: 2025-02-18
 version: 3.0.1
-stars: 3.55556
-reviews: 45
+stars: 3.5
+reviews: 44
 website: https://osl.com
 repository: 
 issue: 
@@ -29,7 +28,7 @@ social:
 - https://www.linkedin.com/company/osldotcom
 - https://www.facebook.com/osldotcom
 - https://t.me/osldotcom
-- https://www.youtube.com/channel/UCSZWrBwZIuTV45zfSWfFV0A 
+- https://www.youtube.com/channel/UCSZWrBwZIuTV45zfSWfFV0A
 features: 
 developerName: BC Marketplace (HK) Limited
 

@@ -3,14 +3,14 @@ wsId: sFox
 title: sFOX
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.sfox.ios
 appCountry: us
 idd: '1583801613'
-released: '2022-04-12T07:00:00Z'
+released: 2022-04-12
 updated: 2024-12-10
 version: 1.14.3
-stars: 4.66667
+stars: 4.7
 reviews: 12
 website: https://www.sfox.com/
 repository: 

@@ -3,16 +3,16 @@ wsId: chainUpCustody
 title: 'ChainUp Custody:  Institutions'
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.joycoin.hicoin
 appCountry: us
 idd: '1438831143'
-released: '2018-12-13T01:18:24Z'
+released: 2018-12-13
 updated: 2025-02-28
 version: 6.8.5
-stars: 3.66667
+stars: 3.7
 reviews: 3
-website: ''
+website: 
 repository: 
 issue: 
 icon: com.joycoin.hicoin.jpg

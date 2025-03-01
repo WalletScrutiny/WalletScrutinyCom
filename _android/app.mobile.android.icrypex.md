@@ -10,7 +10,7 @@ appCountry:
 released: 2021-09-02
 updated: 2025-02-24
 version: '16.0'
-stars: 3.2
+stars: 3.3
 ratings: 
 reviews: 9
 website: https://www.icrypex.com.tr/

@@ -3,7 +3,7 @@ wsId: chainUpCustody
 title: ChainUp Custody
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.chainup.hicoincloud.android
 appCountry: 

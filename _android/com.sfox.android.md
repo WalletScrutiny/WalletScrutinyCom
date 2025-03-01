@@ -3,7 +3,7 @@ wsId: sFox
 title: 'sFOX: Buy BTC, ETH, DOGE'
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.sfox.android
 appCountry: 
@@ -28,7 +28,7 @@ twitter: SFox
 social:
 - https://www.facebook.com/sfoxtrading
 - https://www.linkedin.com/company/sfox
-- https://www.instagram.com/sfoxtrading 
+- https://www.instagram.com/sfoxtrading
 redirect_from: 
 developerName: SFOX Inc.
 features: 

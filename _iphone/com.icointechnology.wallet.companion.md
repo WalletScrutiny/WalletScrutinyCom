@@ -3,11 +3,11 @@ wsId: iCoinMobile
 title: iCoin Mobile
 altTitle: 
 authors:
-- danny 
+- danny
 appId: com.icointechnology.wallet.companion
 appCountry: us
 idd: '1576730205'
-released: '2022-02-15'
+released: 2022-02-15
 updated: 2024-11-26
 version: '1.100'
 stars: 4.4
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: icoin_crypto
 social:
 - https://www.youtube.com/channel/UCPf8OvpLr7D6KnKNsSb3AKA
-- https://www.instagram.com/icoin_crypto 
+- https://www.instagram.com/icoin_crypto
 features: 
 developerName: iCoin Technology, Inc.
 

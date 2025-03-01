@@ -4,7 +4,7 @@ title: BITmarkets
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.bitmarkets.android.app
 appCountry: 
 released: 2022-10-04

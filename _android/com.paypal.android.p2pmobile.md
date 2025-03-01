@@ -13,7 +13,7 @@ updated: 2025-02-26
 version: 8.78.1
 stars: 4.3
 ratings: 2452159
-reviews: 412996
+reviews: 413056
 website: https://www.paypal.com/mobile
 repository: 
 issue: 

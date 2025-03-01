@@ -3,7 +3,7 @@ wsId: iCoinMobile
 title: iCoin Mobile
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.icointechnology.wallet.companion
 appCountry: 

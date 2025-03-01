@@ -13,7 +13,7 @@ updated: 2025-01-23
 version: 5.6.010600
 stars: 4
 ratings: 2781
-reviews: 189
+reviews: 188
 website: https://hyperpay.tech
 repository: 
 issue: 

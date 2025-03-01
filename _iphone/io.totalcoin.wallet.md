@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: io.totalcoin.wallet.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-10-08
+date: 2025-03-01
 signer: 
 reviewArchive: 
 twitter: 

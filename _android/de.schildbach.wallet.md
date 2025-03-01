@@ -14,7 +14,7 @@ updated: 2025-01-30
 version: '10.24'
 stars: 4
 ratings: 29247
-reviews: 2088
+reviews: 2089
 website: https://github.com/bitcoin-wallet/bitcoin-wallet
 repository: https://github.com/bitcoin-wallet/bitcoin-wallet
 issue: 
