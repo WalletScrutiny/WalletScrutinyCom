@@ -183,7 +183,7 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
         ${hideConfig?.wallet ? '<th>Version</th>' : ''}
         <th class="hide-on-mobile">Description</th>
         ${hideConfig?.sha256 ? '' : '<th class="hide-on-mobile">Hashes</th>'}
-        <th class="hide-on-mobile">URL</th>
+        <th class="hide-on-mobile">Download</th>
         <th>Verifications</th>
         <th>Seen</th>
       </tr>
