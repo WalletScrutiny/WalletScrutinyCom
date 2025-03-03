@@ -15,6 +15,14 @@ pre {
 </style>
 
 <script type="text/javascript" src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
+<link rel="stylesheet" href="{{ base_path }}/assets/css/verifications.css">
+
+<div style="margin-bottom: 20px; display: flex; align-items: center; justify-content: center; gap: 15px;">
+    <a href="/assets/" class="btn btn-medium btn-success">Asset Registry</a>
+    <a href="/verifiers/" class="btn btn-medium btn-success">Top Verifiers</a>
+    <a href="/new_asset/" class="btn btn-medium btn-success">Register New Asset</a>
+    <a href="/new_verification/" class="btn btn-medium btn-success">New Verification</a>
+</div>
 
 <div class="verifications-intro">
     <h2>What are User Created Nostr Verifications?</h2>
