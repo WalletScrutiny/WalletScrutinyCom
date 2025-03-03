@@ -269,10 +269,8 @@ const getAllAssetInformation = async function({
     filter_verifications["#x"] = [sha256];
   }
   if (months) {
-    console.debug(`Getting events from last ${months} months`);
     filter_verifications.since = getTimestampMonthsAgo(months);
   } else {
-    console.debug(`Getting events from ${verificationsFeatureSinceTS} onwards`);
     filter_verifications.since = verificationsFeatureSinceTS;
   }
   if (appId) {
@@ -327,6 +325,23 @@ const getAllAssetInformation = async function({
     verifications: verificationsMap,
     endorsements: endorsementsMap
   };
+}
+
+function getAppInfoFromEventInfo(eventInfo) {
+  const isAsset = eventInfo.kind === assetRegistrationKind;
+
+  const createdAt = eventInfo.created_at;
+  const description = isAsset ? '' : JSON.parse(eventInfo.content).description;
+  const content = isAsset ? eventInfo.content : JSON.parse(eventInfo.content).content;
+  const appId = eventInfo.tags.find(tag => tag[0] === 'i')?.[1];
+  const version = eventInfo.tags.find(tag => tag[0] === 'version')?.[1];
+  const platform = eventInfo.tags.find(tag => tag[0] === 'platform')?.[1];
+  const status = eventInfo.tags.find(tag => tag[0] === 'status')?.[1];
+  const url = eventInfo.tags.find(tag => tag[0] === 'url')?.[1];
+  const gitRevision = eventInfo.tags.find(tag => tag[0] === 'git_revision')?.[1];
+  const appHashes = eventInfo.tags.filter(tag => tag[0] === 'x').map(tag => tag[1]);
+
+  return { isAsset, appId, version, createdAt, description, content, platform, status, url, gitRevision, appHashes };
 }
 
 function showToast(message, type = 'success', duration = 4000) {
@@ -455,6 +470,7 @@ if (typeof window !== 'undefined') {
   window.showToast = showToast;
   window.getNpubFromPubkey = getNpubFromPubkey;
   window.setupAppIdAutocomplete = setupAppIdAutocomplete;
+  window.getAppInfoFromEventInfo = getAppInfoFromEventInfo;
 }
 
 export {
@@ -470,5 +486,6 @@ export {
   userHasBrowserExtension,
   showToast,
   getNpubFromPubkey,
-  setupAppIdAutocomplete
+  setupAppIdAutocomplete,
+  getAppInfoFromEventInfo
 };

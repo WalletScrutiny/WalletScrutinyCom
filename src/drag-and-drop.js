@@ -193,52 +193,109 @@ async function processFiles(files, dropAreaElement) {
 }
 
 async function displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, allAssetsInformation) {
-    const appId = appData?.appId ?? apkInfo?.package ?? null;
-    const version = appData?.version ?? apkInfo?.versionName ?? null;
+    let appTitle = null;
+    let appId = null;
+    let version = null;
+    let verdict = null;
+    let signer = null;
+    let date = null;
+    let appHashes = null;
+    let platform = null;
 
+
+    // Get app information from Nostr
+    const hasAssets = allAssetsInformation.assets?.size > 0;
+    const hasVerifications = allAssetsInformation.verifications?.size > 0;
+
+    const firstVerification = allAssetsInformation.verifications.size > 0 
+        ? allAssetsInformation.verifications.values().next().value[0]
+        : null;
+
+    let appInfo = null;
+    if (firstVerification) {
+        appInfo = getAppInfoFromEventInfo(firstVerification);
+    }
+
+    appId = appInfo?.appId ?? appData?.appId ?? apkInfo?.package ?? null;  // Temp appId to get other info
+
+    // Get internal info
     const app = window.wallets.find(it => it.appId === appId) ?? null;
 
-    let fileInfoHtml = '';
-    if (app) {
-        fileInfoHtml = `<h3>${app.title}</h3>`;
-    }
-    fileInfoHtml += `<strong>App ID:</strong> ${appId ?? 'N/A'}<br>`;
-    fileInfoHtml += `<strong>Version:</strong> ${version ?? 'N/A'}<br>`;
 
-    if (appData) {
+    if (appInfo) {
+        appId = appInfo.appId;
+        version = appInfo.version;
+        verdict = appInfo.verdict;
+        date = appInfo.createdAt;
+        appHashes = appInfo.appHashes;
+        signer = "N/A";
+    } else {
+        appId = appData?.appId ?? apkInfo?.package ?? null;
+        version = appData?.version ?? apkInfo?.versionName ?? null;
+
+        if (appData) {
+            verdict = appData.verdict;
+            signer = appData.signer;
+            date = appData.date;
+        }
+
+        appHashes = [hash];
+    }
+
+    appTitle = apkInfo?.application?.label[0] ?? app?.title ?? appId;
+
+    platform = app?.folder ?? appInfo?.platform ?? null; 
+ 
+    
+
+    let fileInfoHtml = `<h3>${appTitle ?? ''}</h3>`;
+
+    if (appId) {
+        fileInfoHtml += `<strong>App ID:</strong> ${appId}<br>`;
+    }
+    if (version) {
+        fileInfoHtml += `<strong>Version:</strong> ${version}<br>`;
+    }
+
+    if (verdict) {
         fileInfoHtml += `
-            <strong>Verdict:</strong><span class="verdict ${appData.verdict}">${appData.verdict}</span><br>
-            <strong>Signer:</strong> ${appData.signer}<br>
-            <strong>Date:</strong> ${appData.date || 'undefined'}<br><br>`;
+            <strong>Verdict:</strong><span class="verdict ${verdict}">${verdict}</span><br>
+            <strong>Signer:</strong> ${signer}<br>
+            <strong>Date:</strong> ${date || 'undefined'}<br><br>`;
     }
 
     fileInfoHtml += `<strong>File:</strong> ${file ? file.name : 'N/A'}<br>`;
     fileInfoHtml += `<strong>Size:</strong> ${file ? formatFileSize(file.size) : 'N/A'}<br>`;
-    fileInfoHtml += `<strong>SHA-256:</strong> ${hash || 'N/A'}<br>`;
-
-    if (!appData && apkInfo) {
-        fileInfoHtml += '<br><br>' + (
-            app ?
-            `<p>This appears to be version <b>${version}</b> of <b>${app.title}</b>, but nobody has verified this specific version yet.</p>` :
-            `<p>This is an APK for an unknown application. You can register it on Nostr so you or others can try to reproduce it.</p>`);
+    fileInfoHtml += `<strong>SHA-256:</strong><br>`;
+    
+    if (appHashes && appHashes.length > 0) {
+        fileInfoHtml += `<div style="margin-left: 10px;">`;
+        appHashes.forEach(h => {
+            fileInfoHtml += `• ${h}<br>`;
+        });
+        fileInfoHtml += `</div>`;
     }
 
-    fileInfoHtml += '<br><br>';
+    if (!appData && apkInfo) {
+        fileInfoHtml += '<br>' + (
+            app ?
+            `<p>This appears to be version <b>${version}</b> of <b>${appTitle}</b>, but nobody has verified this specific version yet.</p>` :
+            `<p>This is an APK for an unknown application. You can register it on Nostr so others can try to reproduce it.</p>`);
+    }
+
+    fileInfoHtml += '<br>';
 
 
     // Adding buttons and related information
 
-    if (!isPageForAppId(appId) && app) {
-        fileInfoHtml += `<li>You can go to the <a href="/${app.folder}/${appId}/?hash=${encodeURIComponent(hash)}" class="btn btn-small">${app.title} page</a> to check the verifications.</li>`;
+    if (app && !isPageForAppId(appId)) {
+        fileInfoHtml += `<li>You can go to the <a href="/${platform}/${appId}/?hash=${encodeURIComponent(hash)}" class="btn btn-small">${appTitle} page</a> to check the verifications.</li>`;
     }
-
-    const hasAssets = allAssetsInformation.assets?.size > 0;
-    const hasAttestations = allAssetsInformation.attestations?.size > 0;
 
     if (hasAssets) {
         fileInfoHtml += `<li>This asset is registered in Nostr,`;
 
-        if (hasAttestations) {
+        if (hasVerifications) {
             fileInfoHtml += ` and it has verifications. <a href="/asset/?sha256=${encodeURIComponent(hash)}" class="btn btn-small">View them</a>.</li>`;
         } else {
             fileInfoHtml += ` but it doesn't have verifications yet. You can <a href="/new_verification/?sha256=${encodeURIComponent(hash)}" class="btn btn-small">Create one</a>.</li>`;
@@ -254,7 +311,7 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, all
                 url += `&version=${encodeURIComponent(version)}`;
             }
         
-            fileInfoHtml += `<li><a href="${url}" class="btn btn-small">Register this new asset</a> on Nostr so you or others can try to reproduce it.</li>`;
+            fileInfoHtml += `<li><a href="${url}" class="btn btn-small">Register this new asset</a> on Nostr so others can try to reproduce it.</li>`;
         }
     }
 
