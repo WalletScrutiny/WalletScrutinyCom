@@ -202,51 +202,28 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, all
     let appHashes = null;
     let platform = null;
 
-
-    // Get app information from Nostr
-    const hasAssets = allAssetsInformation.assets?.size > 0;
-    const hasVerifications = allAssetsInformation.verifications?.size > 0;
-
     const firstVerification = allAssetsInformation.verifications.size > 0 
         ? allAssetsInformation.verifications.values().next().value[0]
         : null;
 
-    let appInfo = null;
+    let appInfoFromNostr = null;
     if (firstVerification) {
-        appInfo = getAppInfoFromEventInfo(firstVerification);
+        appInfoFromNostr = getAppInfoFromEventInfo(firstVerification);
     }
 
-    appId = appInfo?.appId ?? appData?.appId ?? apkInfo?.package ?? null;  // Temp appId to get other info
 
-    // Get internal info
-    const app = window.wallets.find(it => it.appId === appId) ?? null;
+    appId       = appInfoFromNostr?.appId ?? appData?.appId ?? apkInfo?.package ?? null;
 
+    const app = window.wallets.find(it => it.appId === appId) ?? null;  // Get internal info
 
-    if (appInfo) {
-        appId = appInfo.appId;
-        version = appInfo.version;
-        verdict = appInfo.verdict;
-        date = appInfo.createdAt;
-        appHashes = appInfo.appHashes;
-        signer = "N/A";
-    } else {
-        appId = appData?.appId ?? apkInfo?.package ?? null;
-        version = appData?.version ?? apkInfo?.versionName ?? null;
+    version     = appInfoFromNostr?.version ?? appData?.version ?? apkInfo?.versionName ?? null;
+    verdict     = appInfoFromNostr?.verdict ?? appData?.verdict ?? null;
+    date        = appInfoFromNostr?.createdAt ?? appData?.date ?? null;
+    appHashes   = appInfoFromNostr?.appHashes ?? [hash];
+    signer      = appData?.signer ?? null;
+    platform    = appInfoFromNostr?.platform ?? app?.folder ?? null; 
+    appTitle    = apkInfo?.application?.label[0] ?? app?.title ?? appId;
 
-        if (appData) {
-            verdict = appData.verdict;
-            signer = appData.signer;
-            date = appData.date;
-        }
-
-        appHashes = [hash];
-    }
-
-    appTitle = apkInfo?.application?.label[0] ?? app?.title ?? appId;
-
-    platform = app?.folder ?? appInfo?.platform ?? null; 
- 
-    
 
     let fileInfoHtml = `<h3>${appTitle ?? ''}</h3>`;
 
@@ -256,12 +233,14 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, all
     if (version) {
         fileInfoHtml += `<strong>Version:</strong> ${version}<br>`;
     }
-
     if (verdict) {
-        fileInfoHtml += `
-            <strong>Verdict:</strong><span class="verdict ${verdict}">${verdict}</span><br>
-            <strong>Signer:</strong> ${signer}<br>
-            <strong>Date:</strong> ${date || 'undefined'}<br><br>`;
+        fileInfoHtml += `<strong>Verdict:</strong><span class="verdict ${verdict}">${verdict}</span><br>`;
+    }
+    if (signer) {
+        fileInfoHtml += `<strong>Signer:</strong> ${signer}<br>`;
+    }
+    if (date) {
+        fileInfoHtml += `<strong>Date:</strong> ${date}<br>`;
     }
 
     fileInfoHtml += `<strong>File:</strong> ${file ? file.name : 'N/A'}<br>`;
@@ -288,31 +267,28 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, all
 
     // Adding buttons and related information
 
-    if (app && !isPageForAppId(appId)) {
-        fileInfoHtml += `<li>You can go to the <a href="/${platform}/${appId}/?hash=${encodeURIComponent(hash)}" class="btn btn-small">${appTitle} page</a> to check the verifications.</li>`;
+    const hasAssets = allAssetsInformation.assets?.size > 0;
+    const hasVerifications = allAssetsInformation.verifications?.size > 0;
+
+    // Params to be used for new asset and new verification links
+    let urlParams = `?sha256=${encodeURIComponent(hash)}`;
+    if (appId) { urlParams += `&appId=${encodeURIComponent(appId)}`; }
+    if (version) { urlParams += `&version=${encodeURIComponent(version)}`; }
+
+    if (!hasAssets && !hasVerifications ) {
+        if (window.location.pathname !== '/new_asset/') {
+            fileInfoHtml += `<li><a href="/new_asset/${urlParams}" class="btn btn-small">Register this new asset</a> on Nostr so others can try to reproduce it.</li>`;
+        }
+
+        fileInfoHtml += `<li><a href="/new_verification/${urlParams}" class="btn btn-small">Create a verification</a> for this file so others can see if you were able to reproduce it or not.</li>`;
+    } else if (hasAssets && !hasVerifications) {
+        fileInfoHtml += `<li>This asset is registered in Nostr, but it doesn't have verifications yet. You can <a href="/new_verification/${urlParams}" class="btn btn-small">Create one</a>.</li>`;
+    } else if (hasVerifications) {
+        fileInfoHtml += `<li>This file has verifications by users. You can <a href="/asset/?sha256=${encodeURIComponent(hash)}" class="btn btn-small">view them</a>, or <a href="/new_verification/${urlParams}" class="btn btn-small">create a new verification</a>.</li>`;
     }
 
-    if (hasAssets) {
-        fileInfoHtml += `<li>This asset is registered in Nostr,`;
-
-        if (hasVerifications) {
-            fileInfoHtml += ` and it has verifications. <a href="/asset/?sha256=${encodeURIComponent(hash)}" class="btn btn-small">View them</a>.</li>`;
-        } else {
-            fileInfoHtml += ` but it doesn't have verifications yet. You can <a href="/new_verification/?sha256=${encodeURIComponent(hash)}" class="btn btn-small">Create one</a>.</li>`;
-        }
-    } else {
-        if (window.location.pathname !== '/new_asset/') {
-            let url = `/new_asset/?sha256=${encodeURIComponent(hash)}`;
-
-            if (appId) {
-                url += `&appId=${encodeURIComponent(appId)}`;
-            }
-            if (version) {
-                url += `&version=${encodeURIComponent(version)}`;
-            }
-        
-            fileInfoHtml += `<li><a href="${url}" class="btn btn-small">Register this new asset</a> on Nostr so others can try to reproduce it.</li>`;
-        }
+    if (app && !isPageForAppId(appId)) {
+        fileInfoHtml += `<li>You can go to the <a href="/${platform}/${appId}/?hash=${encodeURIComponent(hash)}" class="btn btn-small">${appTitle} page</a> to see all the information about this app.</li>`;
     }
 
     fileInfoHtml += `<li>Check out <a href="/verifications/" class="btn btn-small" target="_blank">How Verifications work</a>.</li>`;
