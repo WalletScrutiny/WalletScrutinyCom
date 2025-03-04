@@ -67,7 +67,7 @@ Trust in verifications is built through:
     ["x",        "<hash-binary-2>"],      // deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe
     ["url",      "<asset-download-url>"], // https://blossom_server.com/wallet-1.2.3.deb
     ["platform", "<asset-platform>"],     // Linux (Intel/AMD) (Ubuntu/Debian)
-    ["status",   "<status>"]              // reproducible | not_reproducible | ftbfs | spam
+    ["status",   "<status>"]              // reproducible | not_reproducible | ftbfs | spam | notag | nosource | warning | obfuscated
   ],
   "content": {
     "description": "<Description of the assets the user is trying to reproduce>",
