@@ -12,7 +12,7 @@ updated: 2025-02-14
 version: 3.0.17
 stars: 3
 ratings: 
-reviews: 456
+reviews: 457
 website: https://ugly.cash
 repository: 
 issue: 

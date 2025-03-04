@@ -12,7 +12,7 @@ updated: 2024-12-04
 version: 4.2.1
 stars: 3.1
 ratings: 427
-reviews: 340
+reviews: 339
 website: https://libertyx.com
 repository: 
 issue: 

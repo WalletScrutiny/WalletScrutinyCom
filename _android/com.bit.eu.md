@@ -30,7 +30,7 @@ social:
 - https://www.instagram.com/biteeu_exchange
 - https://t.me/biteeu_chat
 redirect_from: 
-developerName: BITEEU LTD
+developerName: INTEBIX LTD
 features: 
 
 ---

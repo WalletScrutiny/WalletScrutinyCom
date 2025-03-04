@@ -8,8 +8,8 @@ users: 10000
 appId: io.monabit.wallet
 appCountry: 
 released: 2021-12-17
-updated: 2023-12-19
-version: '3.9'
+updated: 2025-03-01
+version: '4.0'
 stars: 5
 ratings: 
 reviews: 1
@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: io.monabit.wallet.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nosource
 appHashes: 
-date: 2024-12-15
+date: 2025-03-04
 signer: 
 reviewArchive: 
 twitter: 

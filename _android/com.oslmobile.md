@@ -8,11 +8,11 @@ users: 1000
 appId: com.oslmobile
 appCountry: CN
 released: 
-updated: 2025-02-12
-version: 3.0.1
-stars: 2.7
+updated: 2025-02-27
+version: 3.1.0
+stars: 2.6
 ratings: 
-reviews: 6
+reviews: 7
 website: https://osl.com
 repository: 
 issue: 

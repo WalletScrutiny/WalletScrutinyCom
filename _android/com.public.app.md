@@ -8,11 +8,11 @@ users: 1000000
 appId: com.public.app
 appCountry: 
 released: 2019-09-06
-updated: 2025-02-24
+updated: 2025-03-03
 version: 3.183.0
 stars: 4.1
 ratings: 
-reviews: 8905
+reviews: 8913
 website: https://public.com
 repository: 
 issue: 

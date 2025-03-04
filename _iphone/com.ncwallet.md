@@ -11,7 +11,7 @@ released: 2022-09-27
 updated: 2025-02-27
 version: 1.0.715
 stars: 3.8
-reviews: 112
+reviews: 113
 website: https://ncwallet.net/
 repository: 
 issue: 

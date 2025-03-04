@@ -9,10 +9,10 @@ appId: com.bitazza.android
 appCountry: th
 released: 2020-09-29
 updated: 2025-02-20
-version: 4.2.3
+version: 4.2.6
 stars: 4.7
 ratings: 5028
-reviews: 2313
+reviews: 2319
 website: http://bitazza.com/
 repository: 
 issue: 

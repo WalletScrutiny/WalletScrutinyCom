@@ -11,7 +11,7 @@ released: 2020-10-08
 updated: 2025-02-25
 version: '2.06'
 stars: 5
-reviews: 1
+reviews: 2
 website: https://dokwallet.com
 repository: 
 issue: 

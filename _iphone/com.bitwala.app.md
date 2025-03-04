@@ -8,8 +8,8 @@ appId: com.bitwala.app
 appCountry: de
 idd: 1454003161
 released: 2019-05-11
-updated: 2025-02-27
-version: 3.15.9
+updated: 2025-03-01
+version: 3.16.2
 stars: 4.4
 reviews: 4111
 website: https://www.bitwala.com

@@ -11,7 +11,7 @@ released: 2018-12-10
 updated: 2024-09-28
 version: 1.4.6
 stars: 4.4
-reviews: 14337
+reviews: 14347
 website: https://cheeese.monex.co.jp/
 repository: 
 issue: 

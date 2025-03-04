@@ -8,11 +8,11 @@ users: 1000000
 appId: com.valar.pintu
 appCountry: us
 released: 2020-01-25
-updated: 2025-02-20
-version: 3.68.0
+updated: 2025-02-27
+version: 3.68.1
 stars: 4.5
 ratings: 28130
-reviews: 176
+reviews: 177
 website: https://pintu.co.id/
 repository: 
 issue: 

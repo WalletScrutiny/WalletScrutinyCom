@@ -8,10 +8,10 @@ appId: com.remitano.remitano
 appCountry: za
 idd: 1116327021
 released: 2016-05-28
-updated: 2025-02-25
-version: 6.123.0
+updated: 2025-03-04
+version: 6.125.0
 stars: 4.8
-reviews: 376
+reviews: 375
 website: https://remitano.com
 repository: 
 issue: 

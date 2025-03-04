@@ -10,7 +10,7 @@ appCountry:
 released: 2019-09-20
 updated: 2024-12-12
 version: 3.5.0
-stars: 4.2
+stars: 4.3
 ratings: 15890
 reviews: 40
 website: https://www.novadax.com

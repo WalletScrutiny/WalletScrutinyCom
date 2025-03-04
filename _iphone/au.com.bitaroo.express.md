@@ -8,8 +8,8 @@ appId: au.com.bitaroo.express
 appCountry: au
 idd: '6444825898'
 released: 2022-12-20
-updated: 2025-02-26
-version: 2.1.8
+updated: 2025-03-03
+version: 2.2.0
 stars: 4.8
 reviews: 9
 website: https://www.bitaroo.com.au/

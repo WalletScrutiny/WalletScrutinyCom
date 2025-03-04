@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.goldbitpro.wallet.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
 appHashes: 
-date: 2022-06-23
+date: 2025-03-04
 signer: 
 reviewArchive: 
 twitter: 

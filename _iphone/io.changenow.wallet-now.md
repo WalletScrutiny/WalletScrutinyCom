@@ -11,7 +11,7 @@ released: 2021-10-23
 updated: 2025-02-24
 version: 3.14.10
 stars: 4.5
-reviews: 661
+reviews: 663
 website: https://walletnow.app
 repository: 
 issue: 

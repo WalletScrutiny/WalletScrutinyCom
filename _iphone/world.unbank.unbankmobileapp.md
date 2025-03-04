@@ -11,7 +11,7 @@ released: 2022-05-03
 updated: 2025-02-18
 version: 2.10.2
 stars: 4
-reviews: 40
+reviews: 39
 website: https://www.unbank.com/
 repository: 
 issue: 

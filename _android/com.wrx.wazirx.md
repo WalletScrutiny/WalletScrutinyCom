@@ -9,11 +9,11 @@ users: 10000000
 appId: com.wrx.wazirx
 appCountry: in
 released: 2018-07-16
-updated: 2025-01-03
+updated: 2025-03-04
 version: '3.3'
 stars: 3.7
 ratings: 543310
-reviews: 123743
+reviews: 123750
 website: https://wazirx.com
 repository: 
 issue: 

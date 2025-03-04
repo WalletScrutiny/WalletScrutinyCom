@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: BITEEU LTD
+developerName: INTEBIX LTD
 features: 
 
 ---

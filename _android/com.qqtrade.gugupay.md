@@ -10,7 +10,7 @@ appCountry: cn
 released: 2017-05-25
 updated: 2025-02-26
 version: 6.0.0
-stars: 4.8
+stars: 4.7
 ratings: 658
 reviews: 356
 website: http://www.99pay.kr/

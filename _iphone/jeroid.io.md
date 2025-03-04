@@ -10,8 +10,8 @@ idd: 1539278280
 released: 2021-02-27
 updated: 2024-02-12
 version: 2.0.5
-stars: 2.9
-reviews: 546
+stars: 2.8
+reviews: 530
 website: https://jeroid.ng/
 repository: 
 issue: 

@@ -3,7 +3,7 @@ wsId:
 title: bblack®
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: com.bitcoinblack
 appCountry: 
 released: 2022-09-21
@@ -18,7 +18,7 @@ issue:
 icon: com.bitcoinblack.jpg
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2023-06-03
 signer: 

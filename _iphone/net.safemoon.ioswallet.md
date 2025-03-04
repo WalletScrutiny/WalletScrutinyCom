@@ -11,7 +11,7 @@ released: 2021-10-06
 updated: 2025-02-26
 version: '4.0'
 stars: 4.8
-reviews: 14644
+reviews: 14645
 website: https://vgxfoundation.com/
 repository: 
 issue: 

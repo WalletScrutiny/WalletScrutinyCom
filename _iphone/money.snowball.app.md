@@ -11,7 +11,7 @@ released: 2019-07-18
 updated: 2024-09-18
 version: 3.5.1
 stars: 4.3
-reviews: 136
+reviews: 138
 website: https://www.snowball.money
 repository: 
 issue: 

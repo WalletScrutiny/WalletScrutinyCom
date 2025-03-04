@@ -1,6 +1,6 @@
 ---
 wsId: mona
-title: Crypto.com - Buy Bitcoin, SOL
+title: Crypto.com - Buy BTC, XRP, ADA
 altTitle: 
 authors:
 - leo
@@ -13,7 +13,7 @@ updated: 2025-02-24
 version: 3.205.10
 stars: 4.5
 ratings: 281384
-reviews: 53372
+reviews: 53410
 website: https://crypto.com/
 repository: 
 issue: 

@@ -10,7 +10,7 @@ appCountry: US
 released: 2024-02-28
 updated: 2025-02-26
 version: 2025.1.1 (1)
-stars: 4.1
+stars: 4.2
 ratings: 
 reviews: 18
 website: https://bitkey.world

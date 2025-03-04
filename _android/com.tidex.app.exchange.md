@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.tidex.app.exchange.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-03-12
+date: 2025-03-04
 signer: 
 reviewArchive: 
 twitter: Tidex_Exchange

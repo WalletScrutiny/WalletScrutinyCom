@@ -8,10 +8,10 @@ appId: com.codevist.paribu
 appCountry: 
 idd: 1448200352
 released: 2019-05-29
-updated: 2025-02-24
-version: 5.0.19
+updated: 2025-02-28
+version: 5.0.20
 stars: 4.3
-reviews: 198
+reviews: 201
 website: https://www.paribu.com
 repository: 
 issue: 

@@ -8,8 +8,8 @@ appId: com.joycoin.hicoin
 appCountry: us
 idd: '1438831143'
 released: 2018-12-13
-updated: 2025-02-28
-version: 6.8.5
+updated: 2025-03-03
+version: 6.8.6
 stars: 3.7
 reviews: 3
 website: 

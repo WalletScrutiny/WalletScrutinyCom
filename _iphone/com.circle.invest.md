@@ -11,7 +11,7 @@ released: 2018-03-13
 updated: 2022-04-28
 version: 1.7.3
 stars: 4.7
-reviews: 1871
+reviews: 1872
 website: https://circle.com/en/invest
 repository: 
 issue: 
