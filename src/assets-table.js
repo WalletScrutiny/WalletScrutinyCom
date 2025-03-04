@@ -55,6 +55,27 @@ function updateTableVisibility() {
   });
 }
 
+function getStatusText(status, short = false) {
+  switch (status) {
+    case 'reproducible':
+      return 'Reproducible when tested';
+    case 'not_reproducible':
+      return short ? 'Not reproducible, or significant differences' : 'Not reproducible from source provided, or differences are significant';
+    case 'ftbfs':
+      return short ? 'Failed to build from source' : 'Failed to build from source provided';
+    case 'notag':
+      return short ? 'Git revision not clear' : 'The git revision to compile is not clear';
+    case 'nosource':
+      return short ? 'Source not found' : 'Source for this version was not found or repository was taken down';
+    case 'obfuscated':
+      return short ? 'Source obfuscated' : 'Source code is obfuscated';
+    case 'warning':
+      return 'Warning';
+    default:
+      return status;
+  }
+}
+
 window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256, hideConfig, showOnlyRows = 100, sortByVersion = false, enableSearch = false}) {
   response = await getAllAssetInformation({
     pubkey,
@@ -233,17 +254,7 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
           longStatus = '';
         }
 
-        switch (oldInfoStatus) {
-          case 'reproducible':
-            longStatus += '✅ ' + openLinkTag + 'Reproducible when tested' + (openLinkTag ? '</a>' : '');
-            break;
-          case 'nonverifiable':
-            longStatus += '❌ ' + openLinkTag + 'Failed to build from source provided' + (openLinkTag ? '</a>' : '');
-            break;
-          case 'ftbfs':
-            longStatus += '❌ ' + openLinkTag + 'Not reproducible from source provided' + (openLinkTag ? '</a>' : '');
-            break;
-        }
+        longStatus += (oldInfoStatus === 'reproducible' ? '✅ ' : '❌ ') + openLinkTag + getStatusText(oldInfoStatus, true) + (openLinkTag ? '</a>' : '');
       }
 
       const attestations = response.verifications.get(binary.tags.find(tag => tag[0] === 'x')?.[1]) || [];
@@ -274,17 +285,7 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
 
           let statusText = null;
 
-          switch (status) {
-            case 'reproducible':
-              statusText = '✅ <span class="attestation-status">Reproducible when tested</span>';
-              break;
-            case 'not_reproducible':
-              statusText = '❌ <span class="attestation-status">Failed to build from source provided</span>';
-              break;
-            case 'ftbfs':
-              statusText = '❌ <span class="attestation-status">Not reproducible from source provided</span>';
-              break;
-          }
+          statusText = (status === 'reproducible' ? '✅ ' : '❌ ') + '<span class="attestation-status">' + getStatusText(status, true) + '</span>';
 
           listItems += `<span onclick='showVerificationModal("${sha256HashKey}", "${attestation.id}", "${identifier}", "${platform}")' class="attestation-link" style="cursor: pointer; margin-bottom: 0; margin-top: 0; display: block;">
             <div style="line-height: 1.2; margin-bottom: 0.7em;">
@@ -416,9 +417,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
 
       const status = otherVerification.tags.find(tag => tag[0] === 'status')?.[1] || '';
 
-      const statusIcon = status === 'reproducible' 
-        ? '<span title="Reproducible" style="margin-left: 4px;">✅</span>' 
-        : '<span title="Not Reproducible" style="margin-left: 4px;">❌</span>';
+      const statusIcon = '<span title="' + getStatusText(status) + '" style="margin-left: 4px;">' + (status === 'reproducible' ? '✅' : '❌') + '</span>';
 
       otherVerificationsHTML += `<li>
         ${verificationDate} ${statusIcon}
@@ -436,7 +435,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
       hour: '2-digit',
       minute: '2-digit'
     })}</p>
-    <p><strong>Status: </strong> ${status} ${status === 'reproducible' ? '✅' : '❌'}</p>`;
+    <p><strong>Status: </strong> ${status === 'reproducible' ? '✅' : '❌'} ${getStatusText(status)} </p>`;
 
   if (otherVerificationsHTML !== '') {
     content.innerHTML += `<p><strong>Other attempts by this user:</strong> ${otherVerificationsHTML}</p>`;

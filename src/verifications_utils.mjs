@@ -138,7 +138,7 @@ const createVerification = async function ({
     throw new Error("Missing required parameters");
   }
 
-  if (!['reproducible', 'not_reproducible', 'ftbfs', 'spam'].includes(status)) {
+  if (!['reproducible', 'not_reproducible', 'ftbfs', 'spam', 'notag', 'nosource', 'warning', 'obfuscated'].includes(status)) {
     throw new Error("Invalid status");
   }
 

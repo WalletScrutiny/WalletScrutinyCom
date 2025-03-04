@@ -42,6 +42,10 @@ permalink: /new_verification/
         <option value="not_reproducible">Not Reproducible</option>
         <option value="ftbfs">Failed to Build from Source</option>
         <option value="spam">Spam</option>
+        <option value="notag">No git revision</option>
+        <option value="nosource">No source</option>
+        <option value="obfuscated">Obfuscated</option>
+        <option value="warning">Warning</option>
       </select>
     </div>
 
@@ -57,6 +61,18 @@ permalink: /new_verification/
       </p>
       <p>
         <b>Spam:</b> The asset is a spam or is not what it says it is.
+      </p>
+      <p>
+        <b>No git revision:</b> The git revision to compile is not clear.
+      </p>
+      <p>
+        <b>No source:</b> The source for this version was not found or the repository was taken down.
+      </p>
+      <p>
+        <b>Obfuscated:</b> The source code is obfuscated.
+      </p>
+      <p>
+        <b>Warning:</b> If another status could apply but some red flag has come up. Reproducible but known backdoor found, or irreproducible with a discrepancy clearly not benign.
       </p>
     </div>
 
