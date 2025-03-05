@@ -1,0 +1,25 @@
+{
+  "name": "blossom-files-lister",
+  "version": "1.0.0",
+  "description": "A script to list all files hosted on a Blossom server",
+  "main": "list-blossom-files.js",
+  "scripts": {
+    "start": "node list-blossom-files.js",
+    "start-auth": "node list-blossom-files-auth.js"
+  },
+  "keywords": [
+    "blossom",
+    "nostr",
+    "files",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.7",
+    "nostr-tools": "^1.17.0"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
