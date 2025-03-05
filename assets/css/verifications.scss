@@ -120,7 +120,7 @@ table {
     border: none;
     background: none;
     cursor: pointer;
-    padding: 0 5px;
+    padding: 0;
   }
 }
 
@@ -136,6 +136,15 @@ table {
 }
 .show-more-link:hover {
   text-decoration: underline;
+}
+
+.hash-display {
+  display: inline-block;
+  max-width: 80px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: middle;
 }
 
 .attestation-status {

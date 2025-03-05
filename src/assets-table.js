@@ -60,7 +60,7 @@ function getStatusText(status, short = false) {
     case 'reproducible':
       return 'Reproducible when tested';
     case 'not_reproducible':
-      return short ? 'Not reproducible, or significant differences' : 'Not reproducible from source provided, or differences are significant';
+      return short ? 'Not reproducible' : 'Not reproducible from source provided, or differences are significant';
     case 'ftbfs':
       return short ? 'Failed to build from source' : 'Failed to build from source provided';
     case 'notag':
@@ -314,23 +314,21 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
         ${hideConfig?.wallet ? '' : `<td>
           ${wallet ? `<a href="${wallet.url}" target="_blank" rel="noopener noreferrer">${walletTitle}</a><br>${version}<span class="show-on-mobile"><br>${itemDescription}<br>${sha256Hashes.length > 0 ? sha256Hashes.map(hash => `
           <div style="margin-bottom: 4px;">
-            <button onclick="navigator.clipboard.writeText('${hash[1]}').then(() => showToast('Hash copied to clipboard'))" class="copy-button">📋</button>${hash[1].slice(0,4)}...${hash[1].slice(-4)}
+            <button onclick="navigator.clipboard.writeText('${hash[1]}').then(() => showToast('Hash copied to clipboard'))" class="copy-button">📋</button><span class="hash-display" title="${hash[1]}">${hash[1]}</span>
           </div>`).join('') : '-'}</span>` : walletTitle}
           </td>`}
         ${hideConfig?.wallet ? `<td>
           ${version}<span class="show-on-mobile"><br>${itemDescription}<br>${sha256Hashes.length > 0 ? sha256Hashes.map(hash => `
           <div style="margin-bottom: 4px;">
-            <button onclick="navigator.clipboard.writeText('${hash[1]}').then(() => showToast('Hash copied to clipboard'))" class="copy-button">📋</button>${hash[1].slice(0,4)}...${hash[1].slice(-4)}
+            <button onclick="navigator.clipboard.writeText('${hash[1]}').then(() => showToast('Hash copied to clipboard'))" class="copy-button">📋</button><span class="hash-display" title="${hash[1]}">${hash[1]}</span>
           </div>`).join('') : '-'}</span>
           </td>` : ''}
         <td class="asset-description hide-on-mobile">${itemDescription}</td>
         ${hideConfig?.sha256 ? '' : `<td class="hide-on-mobile">
           ${sha256Hashes.length > 0 ? sha256Hashes.map(hash => `
           <div style="margin-bottom: 4px;">
-            <span>${hash[1].slice(0,4)}...${hash[1].slice(-4)}</span>
-            <button onclick="navigator.clipboard.writeText('${hash[1]}').then(() => showToast('Hash copied to clipboard'))" class="copy-button">
-              📋
-            </button>
+            <span class="hash-display" title="${hash[1]}">${hash[1]}</span>
+            <button onclick="navigator.clipboard.writeText('${hash[1]}').then(() => showToast('Hash copied to clipboard'))" class="copy-button">📋</button>
           </div>`).join('') : '-'}
         </td>`}
         <td class="hide-on-mobile">
