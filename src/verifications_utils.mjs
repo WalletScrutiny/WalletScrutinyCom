@@ -421,6 +421,13 @@ function setupAppIdAutocomplete() {
     });
   }
 
+  // Helper function to decode HTML entities
+  function decodeHtmlEntities(text) {
+    const textArea = document.createElement('textarea');
+    textArea.innerHTML = text;
+    return textArea.value;
+  }
+
   function showSuggestions(suggestions) {
     suggestionsContainer.innerHTML = '';
     if (suggestions.length === 0) {
@@ -431,7 +438,9 @@ function setupAppIdAutocomplete() {
     suggestions.forEach(wallet => {
       const div = document.createElement('div');
       div.className = 'suggestion-item';
-      div.textContent = `${wallet.title}${wallet.folder ? ' (' + wallet.folder + ')' : ''} - ${wallet.appId}`;
+      // Decode HTML entities in the title before displaying
+      const decodedTitle = decodeHtmlEntities(wallet.title);
+      div.textContent = `${decodedTitle}${wallet.folder ? ' (' + wallet.folder + ')' : ''} - ${wallet.appId}`;
       div.onclick = () => {
         appIdInput.value = wallet.appId;
         suggestionsContainer.style.display = 'none';
