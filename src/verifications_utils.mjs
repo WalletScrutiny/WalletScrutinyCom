@@ -252,31 +252,30 @@ const getAllAssetInformation = async function({
     filter_assets.authors = [pubkey];
   }
   if (appId) {
-    filter_assets["#i"] = [appId];
+    filter_assets["#i"] = Array.isArray(appId) ? appId : [appId];
   }
   if (sha256) {
     filter_assets["#x"] = [sha256];
   }
 
-
+  
   const filter_verifications = {
-    kinds: [verificationKind, endorsementKind],
-  }
-  if (pubkey) {
-    filter_verifications.authors = [pubkey];
-  }
-  if (sha256) {
-    filter_verifications["#x"] = [sha256];
+    kinds: [verificationKind],  // TODO: Add endorsementKind
   }
   if (months) {
     filter_verifications.since = getTimestampMonthsAgo(months);
   } else {
     filter_verifications.since = verificationsFeatureSinceTS;
   }
-  if (appId) {
-    filter_verifications["#i"] = [appId];
+  if (pubkey) {
+    filter_verifications.authors = [pubkey];
   }
-
+  if (appId) {
+    filter_verifications["#i"] = Array.isArray(appId) ? appId : [appId];
+  }
+  if (sha256) {
+    filter_verifications["#x"] = [sha256];
+  }
 
   const events = await ndk.fetchEvents([filter_assets, filter_verifications]);
 
