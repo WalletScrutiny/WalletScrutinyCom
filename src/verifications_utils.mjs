@@ -352,7 +352,7 @@ const getAllAssetInformation = async function({
     filter_assets["#x"] = [sha256];
   }
 
-
+  
   const filter_verifications = {
     kinds: [verificationKind],  // TODO: Add endorsementKind
   }
