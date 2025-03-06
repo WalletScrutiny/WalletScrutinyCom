@@ -23,10 +23,16 @@ bugbounty:
 meta: ok
 verdict: reproducible
 appHashes:
-- 8928ccd823ff862870fbc3954b7b1985d343124545bb3aeb9c112a2e57de82cd
-date: 2025-02-13
+- f5e787c52b8389516bdcedac8b183f8c505ebd7c7dd910edc047ac5e91454438
+date: 2025-03-04
 signer: 58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
 reviewArchive:
+- date: 2025-02-13
+  version: 10.24
+  appHashes:
+  - 8928ccd823ff862870fbc3954b7b1985d343124545bb3aeb9c112a2e57de82cd
+  gitRevision: 84f8da15d365d1bae0034fd80353393e8c709923
+  verdict: reproducible
 - date: 2025-02-05
   version: 10.23
   appHashes:
@@ -284,34 +290,34 @@ features:
 
 ---
 
-Version 10.24 release had these results:
+Version 10.25 release had these results:
 
 ```
 ===== Begin Results =====
 appId:          de.schildbach.wallet
 signer:         58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38
-apkVersionName: 10.24
-apkVersionCode: 102400
+apkVersionName: 10.25
+apkVersionCode: 102500
 verdict:        reproducible
-appHash:        8928ccd823ff862870fbc3954b7b1985d343124545bb3aeb9c112a2e57de82cd
-commit:         903a026d1faf16bbc0463a524cd88def598fc627
+appHash:        f5e787c52b8389516bdcedac8b183f8c505ebd7c7dd910edc047ac5e91454438
+commit:         50cd18438ec3e6ad9537d235c0ba7787f2129676
 
 Diff:
-Only in /tmp/fromPlay_de.schildbach.wallet_102400/META-INF: BITCOIN-.RSA
-Only in /tmp/fromPlay_de.schildbach.wallet_102400/META-INF: BITCOIN-.SF
-Files /tmp/fromPlay_de.schildbach.wallet_102400/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_102400/META-INF/MANIFEST.MF differ
+Only in /tmp/fromPlay_de.schildbach.wallet_102500/META-INF: BITCOIN-.RSA
+Only in /tmp/fromPlay_de.schildbach.wallet_102500/META-INF: BITCOIN-.SF
+Files /tmp/fromPlay_de.schildbach.wallet_102500/META-INF/MANIFEST.MF and /tmp/fromBuild_de.schildbach.wallet_102500/META-INF/MANIFEST.MF differ
 
 Revision, tag (and its signature):
-object 903a026d1faf16bbc0463a524cd88def598fc627
+object 50cd18438ec3e6ad9537d235c0ba7787f2129676
 type commit
-tag v10.24
-tagger Andreas Schildbach <andreas@schildbach.de> 1737996997 +0100
+tag v10.25
+tagger Andreas Schildbach <andreas@schildbach.de> 1740746417 +0100
 
-10.24 release
+10.25 release
 ===== End Results =====
 
 ```
 {% include asciicast %}
 
 
-Version 10.24 of the {{ page.title }} is **reproducible**.
+Version 10.25 of the {{ page.title }} is **reproducible**.
