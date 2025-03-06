@@ -227,10 +227,9 @@ async function loadUrlParamsAndGetAssetInfo() {
       sha256: sha256,
       hideConfig: {buttons: true}
     });
-    
-    if (!result.info || !result.info.assets || result.info.assets.length === 0) {
-      showError('No assets found for the provided parameters.');
-      return;
+
+    if (!result.hasVerifications) {
+      document.getElementById('previousAttestations').style.display = 'none';
     }
 
     if (result.hasVerifications) {
