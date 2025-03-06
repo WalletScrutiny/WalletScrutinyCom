@@ -1,4 +1,4 @@
-import { uploadToBlossom, checkBlossomFile, displayBlossomFileInfo } from './blossom-utils.js';
+import { uploadToBlossom, checkBlossomFile } from './blossom-utils.js';
 import { 
     formatFileSize, 
     updateDomElementInClass,
@@ -8,7 +8,7 @@ import {
     getApkInfo
 } from './drag-and-drop-utils.js';
 
-const uploadsActivated = false;
+const uploadsActivated = true;
 
 document.addEventListener("DOMContentLoaded", async function () {
     initializeDragAndDrop();
@@ -178,15 +178,10 @@ async function processFiles(files, dropAreaElement) {
         if (isPageForAppId(appData.appId)) {
             scrollToVersion(appData.version);
         }
-    } else {    // We don't have legacy appData from attestation.json
-        if (uploadsActivated) {
-            const existsInBlossom = await checkBlossomFile(hash);
-            if (existsInBlossom) {
-                displayBlossomFileInfo(file.name, hash);
-            } else {
-                await uploadToBlossom(file, hash);
-            }
-        }
+    }
+
+    if (uploadsActivated) {
+        await uploadToBlossom(file, hash);
     }
 
     document.getElementById('loadingSpinner').style.display = 'none';

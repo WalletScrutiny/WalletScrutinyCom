@@ -1,7 +1,7 @@
 import { hasBlob, uploadBlobWithProgress, listUserBlobs } from './blossom.js';
 import { updateDomElement } from './drag-and-drop-utils.js';
 
-const blossomServerUrl = 'https://cdn.satellite.earth';
+const blossomServerUrl = 'http://files.nostr.info';
 
 export async function uploadToBlossom(file, hash) {
     try {
@@ -66,4 +66,8 @@ export function displayBlossomFileInfo(fileName, hash) {
         <h3>File Found in Blossom</h3>
         <p>The file "${fileName}" (${hash}) exists in Blossom.</p>
     `);
-} 
+}
+
+if (typeof window !== 'undefined') {
+    window.checkBlossomFile = checkBlossomFile;
+}
