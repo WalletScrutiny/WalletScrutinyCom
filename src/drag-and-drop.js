@@ -1,4 +1,4 @@
-import { uploadToBlossom, checkBlossomFile } from './blossom-utils.js';
+import { uploadToBlossom } from './blossom-utils.js';
 import { 
     formatFileSize, 
     updateDomElementInClass,

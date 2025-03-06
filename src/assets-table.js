@@ -211,6 +211,9 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
     </thead>
   `;
 
+  // Array to store all SHA256 hashes
+  const allSha256Hashes = [];
+
   if (sortedItems.length > 0) {
     sortedItems.forEach((item, index) => {
       // Handle both legacy and new format
@@ -232,8 +235,15 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
 
       const eventId = binary.id;
       const sha256Hashes = binary.tags?.filter(tag => tag[0] === 'x') || [];
+      
+      // Add hashes to our collection
+      sha256Hashes.forEach(hash => {
+        if (!allSha256Hashes.includes(hash[1])) {
+          allSha256Hashes.push(hash[1]);
+        }
+      });
+
       const sha256HashKey = item.sha256;
-      const downloadUrl = binary.tags.find(tag => tag[0] === 'url')?.[1] || '';
       const version = binary.tags.find(tag => tag[0] === 'version')?.[1] || '';
       const oldInfoStatus = binary.tags.find(tag => tag[0] === 'status')?.[1] || '';
       const identifier = binary.tags.find(tag => tag[0] === 'i')?.[1] || "";
@@ -314,13 +324,13 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
         ${hideConfig?.wallet ? '' : `<td>
           ${wallet ? `<a href="${wallet.url}" target="_blank" rel="noopener noreferrer">${walletTitle}</a><br>${version}<span class="show-on-mobile"><br>${itemDescription}<br>${sha256Hashes.length > 0 ? sha256Hashes.map(hash => `
           <div style="margin-bottom: 4px;">
-            <button onclick="navigator.clipboard.writeText('${hash[1]}').then(() => showToast('Hash copied to clipboard'))" class="copy-button">📋</button><span class="hash-display" title="${hash[1]}">${hash[1]}</span>
+            <button onclick="navigator.clipboard.writeText('${hash[1]}').then(() => showToast('Hash copied to clipboard'))" class="copy-button" title="Copy hash to clipboard">📋</button><span class="hash-display" title="${hash[1]}">${hash[1]}</span>
           </div>`).join('') : '-'}</span>` : walletTitle}
           </td>`}
         ${hideConfig?.wallet ? `<td>
           ${version}<span class="show-on-mobile"><br>${itemDescription}<br>${sha256Hashes.length > 0 ? sha256Hashes.map(hash => `
           <div style="margin-bottom: 4px;">
-            <button onclick="navigator.clipboard.writeText('${hash[1]}').then(() => showToast('Hash copied to clipboard'))" class="copy-button">📋</button><span class="hash-display" title="${hash[1]}">${hash[1]}</span>
+            <button onclick="navigator.clipboard.writeText('${hash[1]}').then(() => showToast('Hash copied to clipboard'))" class="copy-button" title="Copy hash to clipboard">📋</button><span class="hash-display" title="${hash[1]}">${hash[1]}</span>
           </div>`).join('') : '-'}</span>
           </td>` : ''}
         <td class="asset-description hide-on-mobile">${itemDescription}</td>
@@ -328,11 +338,13 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
           ${sha256Hashes.length > 0 ? sha256Hashes.map(hash => `
           <div style="margin-bottom: 4px;">
             <span class="hash-display" title="${hash[1]}">${hash[1]}</span>
-            <button onclick="navigator.clipboard.writeText('${hash[1]}').then(() => showToast('Hash copied to clipboard'))" class="copy-button">📋</button>
+            <button onclick="navigator.clipboard.writeText('${hash[1]}').then(() => showToast('Hash copied to clipboard'))" class="copy-button" title="Copy hash to clipboard">📋</button>
           </div>`).join('') : '-'}
         </td>`}
         <td class="hide-on-mobile">
-          ${downloadUrl ? `<a href="${downloadUrl}" target="_blank" rel="noopener noreferrer">Download</a>` : '-'}
+          ${sha256Hashes.length > 0 ? sha256Hashes.map(hash => `
+            <span id="blossom-${hash[1]}" class="blossom-download" style="display: none; cursor: pointer;" title="Download binary from our server">💾</span>
+          `).join('') : '-'}
         </td>
         <td>${binary.isLegacy ? (longStatus ? longStatus : oldInfoStatus) : attestationList}</td>
         <td>${date}</td>`;
@@ -368,6 +380,24 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
   }
 
   document.getElementById(htmlElementId).appendChild(table);
+
+  // Check all collected hashes in our Blossom server
+  allSha256Hashes.forEach(async (hash) => {
+    try {
+      const exists = await checkBlossomFile(hash);
+      if (exists) {
+        const downloadIcon = document.getElementById(`blossom-${hash}`);
+        if (downloadIcon) {
+          downloadIcon.style.display = 'inline';
+          downloadIcon.onclick = () => {
+            window.open(`${getBlossomFileURL(hash)}`, '_blank');
+          };
+        }
+      }
+    } catch (error) {
+      console.error(`Error checking hash ${hash} in Blossom:`, error);
+    }
+  });
 
   // Apply initial filter only if enableSearch is true
   if (enableSearch) {
