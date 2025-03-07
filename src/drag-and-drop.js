@@ -277,16 +277,16 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, all
 
         fileInfoHtml += `<li><a href="/new_verification/${urlParams}" class="btn btn-small">Create a verification</a> for this file so others can see if you were able to reproduce it or not.</li>`;
     } else if (hasAssets && !hasVerifications) {
-        fileInfoHtml += `<li>This asset is registered in Nostr, but it doesn't have verifications yet. You can <a href="/new_verification/${urlParams}" class="btn btn-small">Create one</a>.</li>`;
+        fileInfoHtml += `<li>This asset is <a href="/asset/?sha256=${encodeURIComponent(hash)}">already registered in Nostr</a>, but it doesn't have <b>verifications</b> yet. You can <a href="/new_verification/${urlParams}" class="btn btn-small">create one</a>.</li>`;
     } else if (hasVerifications) {
-        fileInfoHtml += `<li>This file has verifications by users. You can <a href="/asset/?sha256=${encodeURIComponent(hash)}" class="btn btn-small">view them</a>, or <a href="/new_verification/${urlParams}" class="btn btn-small">create a new verification</a>.</li>`;
+        fileInfoHtml += `<li>This file has <b>verifications</b> by users. You can <a href="/asset/?sha256=${encodeURIComponent(hash)}" class="btn btn-small">view them</a>, or <a href="/new_verification/${urlParams}" class="btn btn-small">create a new verification</a>.</li>`;
     }
 
     if (app && !isPageForAppId(appId)) {
         fileInfoHtml += `<li>You can go to the <a href="/${platform}/${appId}/?hash=${encodeURIComponent(hash)}" class="btn btn-small">${appTitle} page</a> to see all the information about this app.</li>`;
     }
 
-    fileInfoHtml += `<li>Check out <a href="/verifications/" class="btn btn-small" target="_blank">How Verifications work</a>.</li>`;
+    fileInfoHtml += `<li>Check out <a href="/verifications/" class="btn btn-small" target="_blank">How Verifications Work</a>.</li>`;
 
     updateDomElementInClass('textbox', fileInfoHtml, dropAreaElement);
 }
