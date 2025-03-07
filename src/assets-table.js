@@ -122,6 +122,7 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
     document.getElementById(htmlElementId).appendChild(searchContainer);
   }
 
+  let hasAssets = false;
   let hasLegacyVerifications = false;
   let hasVerifications = false;
 
@@ -252,6 +253,10 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
       // Guess if it's an asset or a verification
       const isAsset = binary.kind === assetRegistrationKind;
       const itemDescription = isAsset ? binary.content : JSON.parse(binary.content).description;
+
+      if (isAsset) {
+        hasAssets = true;
+      }
 
       let longStatus = null;
 
@@ -405,6 +410,7 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
   }
 
   return {
+    hasAssets,
     hasVerifications,
     hasLegacyVerifications,
     info: response
