@@ -4,6 +4,7 @@ title: Mycelium Bitcoin Wallet
 altTitle: 
 authors:
 - leo
+- keraliss
 users: 1000000
 appId: com.mycelium.wallet
 appCountry: 
@@ -21,10 +22,16 @@ bugbounty:
 meta: ok
 verdict: reproducible
 appHashes:
-- 2db36a0e65f2308646a50b3d13c6300096fd3a1d4b18d9bb3c633501e91ff8db
-date: 2024-07-17
+- b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
+date: 2025-03-07
 signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
 reviewArchive:
+- date: 2024-07-17
+  version: 3.17.0
+  appHashes:
+  - 2db36a0e65f2308646a50b3d13c6300096fd3a1d4b18d9bb3c633501e91ff8db
+  gitRevision: a6d663b6ee707729b2258fd460fbfe3bdab91223
+  verdict: reproducible
 - date: 2024-01-22
   version: 3.16.2.0
   appHashes:
@@ -314,7 +321,23 @@ c7c63ad6ce716edc94fc20877a5adb95d5b85fbd69e1470883505ba3343f41e2512e44e7f74b183c
 ===== End Results =====
 ```
 
-This version is **reproducible**.
+While the differences between the official APK and our built version appear minor, there are some difference. Detailed diffoscope analysis revealed:
+
+1. The classes3.dex file differs by only 4 bytes (8,721,924 bytes in official vs 8,721,928 bytes in built version).
+
+2. The specific code difference is in MbwManager.class, where:
+   - Official version uses a temporary variable (`string2`) before assignment to `this._language`
+   - Built version assigns directly to `this._language` without the temporary variable
+   - This appears to be a compiler optimization with no functional impact
+
+3. Other expected differences include:
+   - Different signing certificates (expected since we built the app ourselves)
+   - Different APK signing blocks
+   - Different baseline.prof files (used for Android Runtime optimization)
+
+Despite the differences being minor and likely non-functional, per our strict policy, we must classify this as nonreproducible. The differences in the DEX file, while small, prevent us from confirming with absolute certainty that the distributed app is built exactly from the published source code.
+
+This version is **nonverifiable**.
 
 A recording of the test:
 
