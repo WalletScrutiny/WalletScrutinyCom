@@ -55,13 +55,13 @@ permalink: /asset/
     const explanationText = document.getElementById('explanationText');
     const registerAssetButton = document.getElementById('registerAssetButton');
 
-    if (result && result.hasVerifications) {
+    if (result?.hasAssets || result?.hasVerifications) {
       binariesTable.style.display = 'block';
       registerAssetButton.style.display = 'none';
       if (result.hasVerifications) {
-        explanationText.innerHTML = 'Above is the list of assets found in Nostr with the provided SHA256 hash. You can click on available verifications to view their details.';
+        explanationText.innerHTML = 'Above is the list of assets found in Nostr with the SHA256 hash provided. You can click on available verifications to view their details.';
       } else {
-        explanationText.innerHTML = 'Above is the list of assets found in Nostr with the provided SHA256 hash. No verifications have been made yet. If you\'ve verified this binary by building it from source yourself, you can contribute by creating a new verification to help others verify its authenticity.';
+        explanationText.innerHTML = 'Above is the list of assets found in Nostr with the SHA256 hash provided. No verifications have been made yet. If you\'ve verified this binary by building it from source yourself, you can contribute by creating a new verification to help others verify its authenticity.';
       }
     } else {
       binariesTable.style.display = 'none';
