@@ -96,7 +96,7 @@ will also have a way to upload binaries and create "Asset Registration" events.
 2. Current wallet pages in WS: show binaries with their verification result (if any), and buttons that go to pages
 with instructions describing how to do a proper verification.
 3. Current wallet pages in WS: ability to upload a binary and send the "Asset Registration" event to Nostr.
-4. Leaderboard - Top Verifiers
+4. Leaderboard - Top Build Verifiers
 5. Leaderboard - Top Binary providers.
 
 ## Other functionality
