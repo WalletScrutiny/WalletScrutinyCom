@@ -4,6 +4,7 @@ title: Mycelium Bitcoin Wallet
 altTitle: 
 authors:
 - leo
+- danny
 users: 1000000
 appId: com.mycelium.wallet
 appCountry: 
@@ -21,10 +22,16 @@ bugbounty:
 meta: ok
 verdict: reproducible
 appHashes:
-- 2db36a0e65f2308646a50b3d13c6300096fd3a1d4b18d9bb3c633501e91ff8db
-date: 2024-07-17
+- dff1afc579b1df3dfeb0c5f6f5c79ade9f3670939128c3b314d84ed69f5a4bc6
+date: 2025-03-07
 signer: b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
 reviewArchive:
+- date: 2024-07-17
+  version: 3.17.0
+  appHashes:
+  - 2db36a0e65f2308646a50b3d13c6300096fd3a1d4b18d9bb3c633501e91ff8db
+  gitRevision: 49410a7a5ddb1c2738d93941579d4fdb5f519329
+  verdict: reproducible
 - date: 2024-01-22
   version: 3.16.2.0
   appHashes:
@@ -282,36 +289,39 @@ procedure expressed in our {% include testScript.html %}:
 ===== Begin Results =====
 appId:          com.mycelium.wallet
 signer:         b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e
-apkVersionName: 3.17.0
-apkVersionCode: 3170000
+apkVersionName: 3.18.2.0
+apkVersionCode: 3180200
 verdict:        reproducible
-appHash:        2db36a0e65f2308646a50b3d13c6300096fd3a1d4b18d9bb3c633501e91ff8db
-commit:         e6c0398d90c3ad9d465c5ef2638ec98570709887
+appHash:        dff1afc579b1df3dfeb0c5f6f5c79ade9f3670939128c3b314d84ed69f5a4bc6
+commit:         791c52f5d948a18987b23edfb3e8ca4ededa85e5
 
 Diff:
-Files /tmp/fromPlay_com.mycelium.wallet_3170000/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3170000/META-INF/CERT.RSA differ
-Files /tmp/fromPlay_com.mycelium.wallet_3170000/META-INF/CERT.SF and /tmp/fromBuild_com.mycelium.wallet_3170000/META-INF/CERT.SF differ
+Files /tmp/fromPlay_com.mycelium.wallet_3180200/META-INF/CERT.RSA and /tmp/fromBuild_com.mycelium.wallet_3180200/META-INF/CERT.RSA differ
+Files /tmp/fromPlay_com.mycelium.wallet_3180200/META-INF/CERT.SF and /tmp/fromBuild_com.mycelium.wallet_3180200/META-INF/CERT.SF differ
 
 Revision, tag (and its signature):
-object e6c0398d90c3ad9d465c5ef2638ec98570709887
+object 791c52f5d948a18987b23edfb3e8ca4ededa85e5
 type commit
-tag v3.17.0
-tagger AlexanderPavlenko <AlexanderPavlenko@users.noreply.github.com> 1721053155 +0400
+tag v3.18.2.0
+tagger AlexanderPavlenko <AlexanderPavlenko@users.noreply.github.com> 1740001957 +0400
 
-Mycelium Bitcoin Wallet v3.17.0
+Mycelium Bitcoin Wallet v3.18.2.0
 
-858054e52464f0b10a4769dd3843b054bf795feed5f311244d196194bf6926e4c7a8baac3deeddc8c604cd12929c1a81d10904c38bfe983943a316940b3a892b  prodnet/release/mbw-prodnet-release.apk
-deff0490602ef85d6da1f86047d9097eb64efe2a47583e413867a22f5626e8b8545271f2f027ed3cbe7a0df1477ccea70ed057b1d0eada25b43f0022efc1e7aa  prodnet/release/mbw-prodnet-release.apk_unzip/META-INF/MANIFEST.MF
-66a1e36a253cd4c4bda918c2a0c403fa0501dc9b0e1468b7ba3da6b89c09e102e83bf33fd76e986efff9bee4d8aea00aa75f94395644f662a7822bdd88538e9e  btctestnet/release/mbw-btctestnet-release.apk
-d49d4dc821bcf69f0f01a8f3546c4a3c736c97ea617d05c0d670998894cdc129ccff45daffb46ebe8859f693bec82b361078aa177c8839136f43d99056beae0e  btctestnet/release/mbw-btctestnet-release.apk_unzip/META-INF/MANIFEST.MF
-3865588e549527773f9cdd07edea001e1abf6d32ae6d5fbce0ec94d5bd094067bcefec18715b10ab9e90ba5b13236e918faf47bd3102059f063397444beb162e  prodnet/debug/mbw-prodnet-debug.apk
-ed07b1fa1a31b69f1f04aa1adb977e40e9e879c7c55186fd62739ea586d3177c7c2252606a23bf2d475d134724d20a76e17c7d1b2dbcf12750597388a693cd0c  prodnet/debug/mbw-prodnet-debug.apk_unzip/META-INF/MANIFEST.MF
-2ed330475a495474e7d3a1d0f3022752cd52955501669c5e0527a9f5f2e22752058cd2872b7c8bfe037495bfcc38aea6ffed0f6ed2690a64ba6232e9fea3ed5d  btctestnet/debug/mbw-btctestnet-debug.apk
-bbff0d892c2f33abcfdcbaf4f0af3c5dbaef360763e1481fac1dd958f231caabd8e02e42db608c9f4f7f8908917f69a64e146c7939b467806f56379a83d7baf3  btctestnet/debug/mbw-btctestnet-debug.apk_unzip/META-INF/MANIFEST.MF
+bfb0ac376195f275d274fa86f213d658a5035dd2dcad2565c664ec1acdd040775891c1fd0e01f9b6ea569ea5cbcc94b436cce3abd56d145002375e1ba33ed8ad  prodnet/release/mbw-prodnet-release.apk
+cec34c8d94ff010b86fecd9869f18222eb1c59541060ad40f6e697349db0e060bba53a2afe494b346af247c9ce5627ebd6eb0b13fb0fba47121a5de28e409d9f  prodnet/release/mbw-prodnet-release.apk_unzip/META-INF/MANIFEST.MF
+b2ee6eb1579d43192b794677fbc0d1aea0debdb7788fae318c59b9d62f0d07669ff481adcf3a10e462d4793363d25ee2a62a47d519d72554a922102d81cbbb34  btctestnet/release/mbw-btctestnet-release.apk
+f2605aaa8d36ecb2ab704ad3fcface8237fbfe9c6c937dc0622c156562953afde9910fb725be8927dfad98cc95043ba6dbbca8856da74b343d4bfb1a602e0aa4  btctestnet/release/mbw-btctestnet-release.apk_unzip/META-INF/MANIFEST.MF
+8e24820bb21a79ebf2de65fd7f3e1362e980d2abb3f86431da0350d9b7aa847891f96ba4f07f93fec69e75927701a4e43a63d6a17960c25eb98f80cf95be8a5d  prodnet/debug/mbw-prodnet-debug.apk
+b83def9380b8d70e1f0f7e399d3b8ad3c16f63b9ff27292d4cb8b690d11f697b5ecf8470a942c965556470f478acc41433337e453f49761f4ca11a865d7e7298  prodnet/debug/mbw-prodnet-debug.apk_unzip/META-INF/MANIFEST.MF
+2f440b24751fc8597da7d84db123c93af3453d221078c929504e4bfd5162f1fde7b6ef4507f2ed390c6ca2008a03970840941d1c1b39b4cf43309552bd10e030  btctestnet/debug/mbw-btctestnet-debug.apk
+c7c63ad6ce716edc94fc20877a5adb95d5b85fbd69e1470883505ba3343f41e2512e44e7f74b183c816d016c96d85835991feae5afa3903d28931e24cc67e9f9  btctestnet/debug/mbw-btctestnet-debug.apk_unzip/META-INF/MANIFEST.MF
 ===== End Results =====
+
 ```
 
 This version is **reproducible**.
+
+The hashes can be corroborated [here](https://github.com/mycelium-com/wallet-android/tree/v3.18.2.0) as well.
 
 A recording of the test:
 
