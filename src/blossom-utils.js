@@ -1,7 +1,7 @@
 import { hasBlob, uploadBlobWithProgress, listUserBlobs } from './blossom.js';
 import { updateDomElement } from './drag-and-drop-utils.js';
 
-const blossomServerUrl = 'https://files.nostr.info/';
+const blossomServerUrl = 'https://files.nostr.info';
 
 const BLOSSOM_CACHE_KEY = 'walletScrutinyFileCache';
 const CACHE_EXPIRATION_TIME = 24 * 60 * 60 * 1000; // 24 hours in milliseconds
