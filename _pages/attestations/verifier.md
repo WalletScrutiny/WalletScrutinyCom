@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Verificator Page"
+title: "Build Verifier Page"
 permalink: /verifier/
 ---
 

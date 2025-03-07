@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Top Verifiers"
+title: "Top Build Verifiers"
 permalink: /verifiers/
 ---
 
