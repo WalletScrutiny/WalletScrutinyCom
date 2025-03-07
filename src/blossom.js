@@ -1,5 +1,3 @@
-
-
 // Check if Nostr is available in the browser
 export function isNostrAvailable() {
   return typeof window.nostr !== 'undefined' && typeof window.nostr.signEvent === 'function';
@@ -108,14 +106,19 @@ export async function sha256(data) {
 // Check if a blob exists on the server
 export async function hasBlob(sha256, fileExtension = '', serverUrl) {
   const url = `${serverUrl}/${sha256}${fileExtension}`;
-  const response = await fetch(url, { method: 'HEAD' });
-  if (response.ok) {
-    return true;
-  } else if (response.status === 404) {
+  try {
+    const response = await fetch(url, { method: 'HEAD' });
+    if (response.ok) {
+      return true;
+    } else if (response.status === 404) {
+      return false;
+    } else {
+      const error = await response.json();
+      throw new Error(error.message);
+    }
+  } catch (error) {
+    console.error('Error checking blob existence:', error);
     return false;
-  } else {
-    const error = await response.json();
-    throw new Error(error.message);
   }
 }
 
@@ -185,11 +188,16 @@ export async function listBlobs(pubkey, serverUrl, since = null, until = null, r
     headers['Authorization'] = await createAuthorizationHeader('list', 'List Blobs');
   }
 
-  const response = await fetch(url, { headers });
-  if (response.ok) {
-    return await response.json();
-  } else {
-    const error = await response.json();
-    throw new Error(error.message);
+  try {
+    const response = await fetch(url, { headers });
+    if (response.ok) {
+      return await response.json();
+    } else {
+      const error = await response.json();
+      throw new Error(error.message);
+    }
+  } catch (error) {
+    console.error('Error listing blobs:', error);
+    return [];
   }
 }
