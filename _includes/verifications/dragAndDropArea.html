@@ -1,4 +1,11 @@
 <!-- Drag-and-Drop-Area Start -->
+<style>
+@media screen and (max-width: 768px) {
+    .drop-areas {
+        display: none;
+    }
+}
+</style>
 <div class="drop-areas">
     <form class="my-form" id="dropForm-{{ 'now' | date: '%s%N' | append: '' | random }}">
         <span class="drop-text">{{ include.buttonMessage | default: 'Drop file to verify' }}</span>
@@ -21,7 +28,3 @@
 <div id="loadingSpinner" style="display: none;">
     <div class="spinner"></div>
 </div>
-
-{% unless include.skipScript %}
-<script src="{{ '/dist/dragAndDrop.bundle.min.js' | relative_url }}"></script>
-{% endunless %}

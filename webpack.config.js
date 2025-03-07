@@ -10,13 +10,11 @@ module.exports = {
       './assets/js/plugins/jquery.fitvids.js',
       './assets/js/plugins/jquery.greedy-navigation.js'
     ],
-    dragAndDrop: [
+    verifications: [
       './src/drag-and-drop-utils.js',
       './src/blossom.js',
       './src/blossom-utils.js',
-      './src/drag-and-drop.js'
-    ],
-    verifications: [
+      './src/drag-and-drop.js',
       './src/verifications_utils.mjs',
       './src/assets-table.js'
     ]

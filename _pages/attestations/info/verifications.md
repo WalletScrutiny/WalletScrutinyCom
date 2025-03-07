@@ -51,7 +51,7 @@ pre {
         <li>Verify a specific binary - Drop your binary file in our verification tool to check existing verifications or create new ones:</li>
     </ul>
     
-    {% include /verifications/dragAndDropArea.html skipScript=true %}
+    {% include /verifications/dragAndDropArea.html %}
 
     <p>If the <b>binary is new to the network</b>, you'll be prompted to register it providing some additional information so testers know where it came from and for which product it is.</p>
     <p>If the <b>binary is already known</b>, you'll be able to view existing verifications, access build instructions, or create your own verification.</p>
