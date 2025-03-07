@@ -706,8 +706,9 @@
       {% if has_info %}
         <div class="osint-entries">
           <div class="osint-summary">{{ custodian.osint.summary }}</div>
+          {% assign displayed_entries = 0 %}
           {% for entry in custodian.osint.entries %}
-            {% if entry.information != blank %}
+            {% if entry.information != blank and displayed_entries < 2 %}
                 <div class="entry">
                   <div class="information">{{ entry.information }}</div>
                   {% if entry.date %}
@@ -757,11 +758,12 @@
                     <div class="comment"><em>{{ entry.comment }}</em></div>
                   {% endif %}
                 </div>
+                {% assign displayed_entries = displayed_entries | plus: 1 %}
               {% endif %}
             {% endfor %}
         </div>
           
-        {% if custodian.osint.entries.size > 1 %}
+        {% if custodian.osint.entries.size > 2 %}
           <button class="toggle-osint" aria-expanded="false">
             <i class="fas fa-chevron-down"></i>
             <span class="show-text">Show More</span>
@@ -769,45 +771,62 @@
           </button>
 
           <div class="osint-list collapsed">
-            {% for entry in custodian.osint.entries offset:1 %}
+            {% assign displayed_entries = 0 %}
+            {% for entry in custodian.osint.entries %}
               {% if entry.information != blank %}
-                <div class="entry">
-                  <div class="information">{{ entry.information }}</div>
-                  
-                  {% if entry.source_url %}
-                    <div class="source"><strong>Source:</strong> 
-                      <a href="{{ entry.source_url }}" target="_blank" rel="noopener noreferrer">
-                        {{ entry.source_url }}
-                      </a>
-                    </div>
-                  {% endif %}
-                  
-                  {% if entry.corroborating_source_url %}
-                    <div class="corroborating-source"><strong>Corroborating Source:</strong> 
-                      <a href="{{ entry.corroborating_source_url }}" target="_blank" rel="noopener noreferrer">
-                        {{ entry.corroborating_source_url }}
-                      </a>
-                    </div>
-                  {% endif %}
-                  
-                  {% if entry.refutation %}
-                    <div class="refutation">
-                      <strong>Refutation:</strong> {{ entry.refutation }}
-                    </div>
-                    {% if entry.refutation_source_url %}
-                      <div class="refutation-source">
-                        <strong>Refutation Source:</strong> 
-                        <a href="{{ entry.refutation_source_url }}" target="_blank" rel="noopener noreferrer">
-                          {{ entry.refutation_source_url }}
-                        </a>
+                {% if displayed_entries >= 2 %}
+                  <div class="entry">
+                    <div class="information">{{ entry.information }}</div>
+                    
+                    {% if entry.date %}
+                      <div class="date"><i class="fas fa-calendar"></i> {{ entry.date }}</div>
+                    {% endif %}
+                    
+                    {% if entry.source or entry.source_url %}
+                      <div class="source-group">
+                        <span class="source-label">Source:</span>
+                        <span class="source-content">
+                          {% if entry.source and entry.source_url %}
+                            <a href="{{ entry.source_url }}" target="_blank" rel="noopener noreferrer">{{ entry.source }}</a>
+                          {% elsif entry.source %}
+                            {{ entry.source }}
+                          {% endif %}
+                        </span>
                       </div>
                     {% endif %}
-                  {% endif %}
-                  
-                  {% if entry.comment %}
-                    <div class="comment"><strong>Comment:</strong> {{ entry.comment }}</div>
-                  {% endif %}
-                </div>
+                    
+                    {% if entry.corroborating_source or entry.corroborating_source_url %}
+                      <div class="corroborating-source-group">
+                        <span class="corroborating-label">Corroborating Source:</span>
+                        <span class="corroborating-content">
+                          {% if entry.corroborating_source and entry.corroborating_source_url %}
+                            <a href="{{ entry.corroborating_source_url }}" target="_blank" rel="noopener noreferrer">{{ entry.corroborating_source }}</a>
+                          {% elsif entry.corroborating_source %}
+                            {{ entry.corroborating_source }}
+                          {% endif %}
+                        </span>
+                      </div>
+                    {% endif %}
+                    
+                    {% if entry.refutation or entry.refutation_source_url %}
+                      <div class="refutation-group">
+                        <span class="refutation-content">
+                          {% if entry.refutation %}
+                            <span class="refutation-label">Refutation: </span>{{ entry.refutation }}
+                            {% if entry.refutation_source_url %}
+                              <a href="{{ entry.refutation_source_url }}" target="_blank" rel="noopener noreferrer" class="refutation-link"><i class="fas fa-external-link-alt"></i></a>
+                            {% endif %}
+                          {% endif %}
+                        </span>
+                      </div>
+                    {% endif %}
+                    
+                    {% if entry.comment %}
+                      <div class="comment"><em>{{ entry.comment }}</em></div>
+                    {% endif %}
+                  </div>
+                {% endif %}
+                {% assign displayed_entries = displayed_entries | plus: 1 %}
               {% endif %}
             {% endfor %}
           </div>
