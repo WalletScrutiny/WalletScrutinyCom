@@ -482,7 +482,7 @@
           {% if custodian.trackRecord.sourceIncidents %}
             <div class="source-link">
               <a href="{{ custodian.trackRecord.sourceIncidents }}" class="docs-link">
-                <i class="fas fa-external-link-alt"></i> Coinbase Status
+                <i class="fas fa-external-link-alt"></i> {{ page.title | split: " " | first }} Status
               </a>
             </div>
           {% endif %}
