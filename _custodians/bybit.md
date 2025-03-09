@@ -148,11 +148,10 @@ custodian:
 
   bitcoinContribution:
     fossDevelopment: false
-    research: true
-    protocolSupport: true
-    research_url: "https://www.bybit.com/en/announcement"
-    contributions:
-      - name: "Supporting the Bitcoin ecosystem through trading platform"
+    research: false
+    protocolSupport: false
+    research_url: ""
+    contributions: []
 
   userAccess:
     kycRequired: true
