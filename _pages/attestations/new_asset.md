@@ -41,21 +41,21 @@ permalink: /new_asset/
     </div>
 
     <div class="form-group">
-      <label for="description">Asset Description*:</label>
-      <input type="text" id="description" name="description" class="form-control" required>
-      <small class="form-text">Example: Firmware / Bootloader / Universal APK from Github / Debian package amd64 / MacOS App Store</small>
+      <label for="platform">Platform*:</label>
+      <select id="platform" name="platform" class="form-control" required>
+        <option value="">Select a platform</option>
+        {% for p in site.data.platformMeta %}
+          {% assign folder = p[0] %}
+          {% include folderToName.html folder=folder %}
+          <option value="{{p[0]}}">{{name}}{% if folder == 'desktop' %} (deprecated){% endif %}</option>
+        {% endfor %} 
+      </select>
     </div>
 
     <div class="form-group">
-      <label for="platform">Platform:</label>
-      <select id="platform" name="platform" class="form-control">
-        <option value="">Select a platform</option>
-        <option value="Android">Android</option>
-        <option value="iOS">iOS</option>
-        <option value="Linux">Linux</option>
-        <option value="Windows">Windows</option>
-        <option value="macOS">macOS</option>
-      </select>
+      <label for="description">Asset Description*:</label>
+      <input type="text" id="description" name="description" class="form-control" required>
+      <small class="form-text">Example: Firmware / Bootloader / Universal APK from Github / Debian package amd64 / ARM v8 / MacOS App Store</small>
     </div>
 
     <button type="submit" class="btn btn-success">Register Asset</button>
