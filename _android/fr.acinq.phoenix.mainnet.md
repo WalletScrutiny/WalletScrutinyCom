@@ -21,16 +21,17 @@ issue: https://github.com/ACINQ/phoenix/issues/112
 icon: fr.acinq.phoenix.mainnet.png
 bugbounty: 
 meta: ok
-verdict: wip
-appHashes: []
-date: 2024-10-12
+verdict: reproducible
+appHashes: 
+- fd10bba28a3236a50f045c34dff182716d0e2f37f8512c5269e521c01f6aa571
+date: 2025-03-10
 signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
 reviewArchive:
 - date: 2024-09-05
   version: 2.3.8
   appHashes:
   - 295a50bc3208c28db8ac9b1b5bdfa7eb746e2e2037469f8c2624ebe01119e464
-  gitRevision: 1c24468eb363380524219e74a72b68eed75509f4
+  gitRevision: ad90ca88e4d25aecc312f57973568b711dcaf363
   verdict: nonverifiable
 - date: 2024-08-05
   version: 2.3.6
@@ -155,18 +156,16 @@ Our test script gave us these results:
 ===== Begin Results =====
 appId:          fr.acinq.phoenix.mainnet
 signer:         ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
-apkVersionName: 2.3.8
-apkVersionCode: 89
-verdict:        
-appHash:        295a50bc3208c28db8ac9b1b5bdfa7eb746e2e2037469f8c2624ebe01119e464
-commit:         b6d6a6343935313b9556a529aa79158fb7e10550
+apkVersionName: 2.5.0
+apkVersionCode: 100
+verdict:        reproducible
+appHash:        fd10bba28a3236a50f045c34dff182716d0e2f37f8512c5269e521c01f6aa571
+commit:         03f45c98f31348e3f0a2acf93fd3946acd764655
 
 Diff:
-Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_89/assets/dexopt/baseline.prof and /tmp/fromBuild_fr.acinq.phoenix.mainnet_89/assets/dexopt/baseline.prof differ
-Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_89/classes5.dex and /tmp/fromBuild_fr.acinq.phoenix.mainnet_89/classes5.dex differ
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_89/META-INF: MAINNET.RSA
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_89/META-INF: MAINNET.SF
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_89/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_100/META-INF: MAINNET.RSA
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_100/META-INF: MAINNET.SF
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_100/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
 
@@ -174,8 +173,6 @@ Revision, tag (and its signature):
 
 ```
 
-The persistence of classes5.dex and baseline.prof indicate a significant diff than expected. [See our diff for yourself here.](https://xrviv.github.io/walletScrutinyBuildCasts/www/diffoscope-results/android/fr.acinq.phoenix.mainnet/2.3.6/diff.fr.acinq.phoenix.mainnet.html)
-
-This version is **not verifiable**.
+This version is **reproducible**.
 
 {% include asciicast %}
