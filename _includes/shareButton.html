@@ -18,7 +18,7 @@
   }
   #shareTextarea {
     width: 100%;
-    height: 6em;
+    height: 8em;
     margin-top: 0;
     margin-bottom: 10px;
     padding: 10px;
@@ -203,12 +203,11 @@
     }
   }
 
-  shareButton.onclick = function() {
+  shareButton.onclick = async function() {
     const message = document.getElementById('shareTextarea').value;
-    console.log('Sharing message:', message);
     try {
-      createNostrNote(message);
-      showToast('Note shared successfully!');
+      const noteId = await createNostrNote(message);
+      showToast('Note shared successfully!<br>See at <a style="color: black;" target="_blank" href="https://njump.me/' + noteId + '">Njump.me</a>.', 'success', 7000);
     } catch (error) {
       showToast('Error sharing note: ' + error.message, 'error');
     }

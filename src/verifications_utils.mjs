@@ -367,7 +367,7 @@ function showToast(message, type = 'success', duration = 4000) {
     const toast = document.createElement('div');
     toast.className = 'toast';
     toast.style.backgroundColor = color;
-    toast.textContent = message;
+    toast.innerHTML = message;
     document.body.appendChild(toast);
 
     // Show toast
@@ -394,6 +394,7 @@ const createNostrNote = async function (message) {
   try {
     const publishedToRelays = await ndkEvent.publish();
     console.debug(`published note to ${publishedToRelays.size} relays`);
+    return ndkEvent.id;
   } catch (error) {
     console.error("error publishing note to relays", error);
     if (error instanceof NDKPublishError) {
@@ -404,8 +405,6 @@ const createNostrNote = async function (message) {
     throw error;
   }
 }
-
-
 
 function setupAppIdAutocomplete() {
   const appIdInput = document.getElementById('appId');
