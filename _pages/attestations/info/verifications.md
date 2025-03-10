@@ -77,5 +77,5 @@ pre {
     <p class="p-pre-code">On Linux or macOS, open a terminal and run:</p>
     <pre><code>sha256sum path/to/your/file</code></pre>
     <p class="p-pre-code">On Windows, use:</p>
-    <pre><code>certutil -hashfile path/to/your/file SHA256</code></pre>
+    <pre><code>certutil -hashfile path\to\your\file SHA256</code></pre>
 </div>
