@@ -6,6 +6,8 @@ builtApk="$workDir/app/phoenix-android/build/outputs/apk/release/phoenix-$versio
 
 test() {
   git checkout origin/master Dockerfile
+  sed -i 's/ubuntu:23.10/ubuntu:24.04/g' Dockerfile 
+  
   podman build -t phoenix_build .
   podman run -it --rm --volume $PWD:/home/ubuntu/phoenix \
       --workdir /home/ubuntu/phoenix phoenix_build \

@@ -21,8 +21,9 @@ issue: https://github.com/ACINQ/phoenix/issues/112
 icon: fr.acinq.phoenix.mainnet.png
 bugbounty: 
 meta: ok
-verdict: wip
-appHashes: []
+verdict: nonverifiable
+appHashes: 
+- ae3e4fd5ec15b67613f944c39b5e8121e0864987b000ba1c9a88becc8ce8b15c
 date: 2024-10-12
 signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
 reviewArchive:
@@ -30,7 +31,7 @@ reviewArchive:
   version: 2.3.8
   appHashes:
   - 295a50bc3208c28db8ac9b1b5bdfa7eb746e2e2037469f8c2624ebe01119e464
-  gitRevision: 1c24468eb363380524219e74a72b68eed75509f4
+  gitRevision: 149e3366c5f7be34cae384c9b221ee79935eafd5
   verdict: nonverifiable
 - date: 2024-08-05
   version: 2.3.6
@@ -155,18 +156,18 @@ Our test script gave us these results:
 ===== Begin Results =====
 appId:          fr.acinq.phoenix.mainnet
 signer:         ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
-apkVersionName: 2.3.8
-apkVersionCode: 89
+apkVersionName: 2.4.5
+apkVersionCode: 98
 verdict:        
-appHash:        295a50bc3208c28db8ac9b1b5bdfa7eb746e2e2037469f8c2624ebe01119e464
-commit:         b6d6a6343935313b9556a529aa79158fb7e10550
+appHash:        ae3e4fd5ec15b67613f944c39b5e8121e0864987b000ba1c9a88becc8ce8b15c
+commit:         f7ccd2f33c95e16183f3907f9aaafc2b1a46275d
 
 Diff:
-Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_89/assets/dexopt/baseline.prof and /tmp/fromBuild_fr.acinq.phoenix.mainnet_89/assets/dexopt/baseline.prof differ
-Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_89/classes5.dex and /tmp/fromBuild_fr.acinq.phoenix.mainnet_89/classes5.dex differ
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_89/META-INF: MAINNET.RSA
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_89/META-INF: MAINNET.SF
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_89/META-INF: MANIFEST.MF
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_98/assets/dexopt/baseline.prof and /tmp/fromBuild_fr.acinq.phoenix.mainnet_98/assets/dexopt/baseline.prof differ
+Files /tmp/fromPlay_fr.acinq.phoenix.mainnet_98/classes5.dex and /tmp/fromBuild_fr.acinq.phoenix.mainnet_98/classes5.dex differ
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_98/META-INF: MAINNET.RSA
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_98/META-INF: MAINNET.SF
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_98/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
 
