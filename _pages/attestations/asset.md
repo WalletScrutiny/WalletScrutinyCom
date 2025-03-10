@@ -10,7 +10,7 @@ permalink: /asset/
 
 <div style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
   <a href="/assets/" class="btn btn-success">All Assets</a>
-  {% include shareButton.html defaultMessage="Asset information on WalletScrutiny:" %}
+  {% include shareButton.html defaultMessage="Check out this asset information I registered on WalletScrutiny:" %}
 </div>
 
 <div id="binariesTable"></div>
