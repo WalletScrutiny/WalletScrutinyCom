@@ -29,9 +29,21 @@ permalink: /new_verification/
     </div>
 
     <div class="form-group">
+      <label for="platform">Platform*:</label>
+      <select id="platform" name="platform" class="form-control" required>
+        <option value="">Select a platform</option>
+        {% for p in site.data.platformMeta %}
+          {% assign folder = p[0] %}
+          {% include folderToName.html folder=folder %}
+          <option value="{{p[0]}}">{{name}}{% if folder == 'desktop' %} (deprecated){% endif %}</option>
+        {% endfor %} 
+      </select>
+    </div>
+
+    <div class="form-group">
       <label for="description">Asset Description*:</label>
       <input type="text" id="description" name="description" class="form-control" required>
-      <small class="form-text">Example: Firmware / Bootloader / Universal APK from Github / Debian package amd64 / MacOS App Store</small>
+      <small class="form-text">Example: Firmware / Bootloader / Universal APK from Github / Debian package amd64 / ARM v8 / MacOS App Store</small>
     </div>
 
     <div class="form-group">
@@ -194,7 +206,7 @@ async function loadUrlParamsAndGetAssetInfo() {
 
   const urlParams = new URLSearchParams(window.location.search);
   
-  const fields = ['version', 'appId'];
+  const fields = ['version', 'appId', 'platform'];
   fields.forEach(field => {
     const value = urlParams.get(field);
     if (value) {
@@ -268,6 +280,7 @@ async function handleSubmit(event) {
     appId: document.getElementById('appId').value.trim(),
     version: document.getElementById('version').value.trim(),
     status: document.getElementById('status').value,
+    platform: document.getElementById('platform').value,
     assetEventId: assetEventId
   };
 

@@ -311,11 +311,11 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
         }
         attestationList = `${listItems}
         ${hideConfig?.buttons ? '' :
-        `<div style="margin-top: 4px;"><a href="/new_verification/?sha256=${sha256HashKey}&assetEventId=${eventId}&appId=${identifier}&version=${version}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">Create another verification</a></div>`}`;
+        `<div style="margin-top: 4px;"><a href="/new_verification/?sha256=${sha256HashKey}&assetEventId=${eventId}&appId=${identifier}&version=${version}&platform=${platform}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">Create another verification</a></div>`}`;
       } else {
         attestationList = `No verifications yet.
         ${hideConfig?.buttons ? '' : 
-        `<div style="margin-top: 4px;"><a href="/new_verification/?sha256=${sha256HashKey}&assetEventId=${eventId}&appId=${identifier}&version=${version}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">Create verification</a></div>`}`;
+        `<div style="margin-top: 4px;"><a href="/new_verification/?sha256=${sha256HashKey}&assetEventId=${eventId}&appId=${identifier}&version=${version}&platform=${platform}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">Create verification</a></div>`}`;
       }
 
       const wallet = window.wallets.find(w => w.appId === identifier);

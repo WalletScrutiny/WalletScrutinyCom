@@ -192,6 +192,84 @@ desktop:
     - outdated
     - removed
     - deprecated
+linux:
+  description: >
+    Wallets that run as native apps on your Linux desktop or laptop.
+    This category does not include products that run within the browser
+    or an emulator.
+  notes: 
+  verdicts:
+    - wip
+    - fake
+    - vapor
+    - unreleased
+    - nowallet
+    - nobtc
+    - prefilled
+    - nosource
+    - obfuscated
+    - ftbfs
+    - nonverifiable
+    - reproducible
+  metas: 
+    - defunct
+    - obsolete
+    - stale
+    - outdated
+    - removed
+    - deprecated
+windows:
+  description: >
+    Wallets that run as native apps on your Windows desktop or laptop.
+    This category does not include products that run within the browser
+    or an emulator.
+  notes: 
+  verdicts:
+    - wip
+    - fake
+    - vapor
+    - unreleased
+    - nowallet
+    - nobtc
+    - prefilled
+    - nosource
+    - obfuscated
+    - ftbfs
+    - nonverifiable
+    - reproducible
+  metas: 
+    - defunct
+    - obsolete
+    - stale
+    - outdated
+    - removed
+    - deprecated
+macos:
+  description: >
+    Wallets that run as native apps on your Mac desktop or laptop.
+    This category does not include products that run within the browser
+    or an emulator.
+  notes: 
+  verdicts:
+    - wip
+    - fake
+    - vapor
+    - unreleased
+    - nowallet
+    - nobtc
+    - prefilled
+    - nosource
+    - obfuscated
+    - ftbfs
+    - nonverifiable
+    - reproducible
+  metas: 
+    - defunct
+    - obsolete
+    - stale
+    - outdated
+    - removed
+    - deprecated
 others:
   description: >
     These products do not fit into any of the other categories. We list them as
