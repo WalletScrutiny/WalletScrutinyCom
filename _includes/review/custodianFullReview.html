@@ -2084,14 +2084,14 @@ class CustodianScore {
     const maxScore = 10;
     const hotCold = this.custodian.hotColdDesign || {};
     
-    // Add 5 points if design is published
-    if (hotCold.published) {
+    // Add 5 points if design is published or status is published
+    if (hotCold.published || hotCold.status === 'published') {
       score += 5;
       this.logScore('keyManagement', 'coldStorage', 5, 'Design is published');
     }
     
     // Add 2 points if documentation URL exists
-    if (hotCold.documentation_url) {
+    if (hotCold.documentation_url || hotCold.supporting_urls) {
       score += 2;
       this.logScore('keyManagement', 'coldStorage', 2, 'Documentation URL provided');
     }
@@ -2117,25 +2117,35 @@ class CustodianScore {
     let score = 0;
     const maxScore = 10;
     const por = this.custodian.proofOfReserves || {};
+    const ops = this.custodian.operations || {};
     
-    if (por.supported) {
+    // Check if proof of reserves is supported (either directly, via status field, or traditional audit)
+    if (por.supported || 
+        por.status === 'cryptographic' || 
+        por.status === 'supported' || 
+        por.status === 'traditional-audit') {
       score += 5;
-      this.logScore('transparency', 'proofOfReserves', 5, 'Proof of reserves supported');
+      this.logScore('transparency', 'proofOfReserves', 5, 'Proof of reserves or traditional audit supported');
     }
     
-    if (por.verificationUrl) {
+    // Check for verification URL (either directly, via auditUrl field, or thirdPartyAudit)
+    if (por.verificationUrl || por.auditUrl || 
+        (ops.thirdPartyAudit && ops.thirdPartyAudit.sourceUrl)) {
       score += 2;
       this.logScore('transparency', 'proofOfReserves', 2, 'Verification URL provided');
     }
     
-    if (por.frequency) {
+    // Check for frequency information (either directly or via auditFrequency field)
+    if (por.frequency || por.auditFrequency) {
       score += 2;
       this.logScore('transparency', 'proofOfReserves', 2, 'Regular frequency of proofs');
     }
     
-    if (por.lastProof) {
+    // Check for last proof date (either directly, via lastAudit field, or thirdPartyAudit)
+    if (por.lastProof || por.lastAudit || 
+        (ops.thirdPartyAudit && ops.thirdPartyAudit.lastUpdated)) {
       score += 1;
-      this.logScore('transparency', 'proofOfReserves', 1, 'Recent proof available');
+      this.logScore('transparency', 'proofOfReserves', 1, 'Recent proof or audit available');
     }
     
     // Ensure score doesn't exceed maxScore
@@ -2153,13 +2163,27 @@ class CustodianScore {
     let score = 0;
     const maxScore = 10;
     const multiSig = this.custodian.multiSig || {};
+    const security = this.custodian.security || {};
+    const hotCold = this.custodian.hotColdDesign || {};
     
-    if (multiSig.supported) {
+    // Check if multi-signature or MPC/TSS is supported (from multiple possible locations)
+    if (multiSig.supported || 
+        (security.features && security.features.includes('Multi-signature Wallets')) ||
+        (hotCold.details && (hotCold.details.includes('multi-signature') || 
+                           hotCold.details.includes('multi-sig') || 
+                           hotCold.details.includes('multisig') ||
+                           hotCold.details.includes('TSS') ||
+                           hotCold.details.includes('Threshold Signing') ||
+                           hotCold.details.includes('MPC')))) {
       score += 5;
-      this.logScore('keyManagement', 'multiSig', 5, 'Multi-signature is supported');
+      this.logScore('keyManagement', 'multiSig', 5, 'Multi-signature/MPC/TSS is supported');
     }
     
-    if (multiSig.details && multiSig.details.length > 0) {
+    // Check for implementation details (from multiple possible locations)
+    if ((multiSig.details && multiSig.details.length > 0) || 
+        (security.details && security.details.includes('Multisignature Authorization')) ||
+        (hotCold.details && hotCold.details.length > 50) ||
+        (hotCold.analysis && hotCold.analysis.length > 50)) {
       score += 5;
       this.logScore('keyManagement', 'multiSig', 5, 'Implementation details provided');
     }
@@ -2179,15 +2203,32 @@ class CustodianScore {
     let score = 0;
     const maxScore = 10;
     const hardware = this.custodian.hardwareWallets || {};
+    const security = this.custodian.security || {};
+    const hotCold = this.custodian.hotColdDesign || {};
     
-    if (hardware.supported) {
+    // Check if hardware security is supported (from multiple possible locations)
+    if (hardware.supported || 
+        (security.features && security.features.includes('Cold Storage')) || 
+        (security.details && (security.details.includes('Hardware Wallets') || 
+                             security.details.includes('HSM'))) ||
+        (hotCold.details && (hotCold.details.includes('HSM') || 
+                           hotCold.details.includes('Hardware Security Module') ||
+                           hotCold.details.includes('cold storage') ||
+                           hotCold.details.includes('air-gapped')))) {
       score += 5;
-      this.logScore('keyManagement', 'hardware', 5, 'Hardware wallets are supported');
+      this.logScore('keyManagement', 'hardware', 5, 'Hardware security is supported');
     }
     
-    if (hardware.models && hardware.models.length > 0) {
+    // Check for specific hardware details (from multiple possible locations)
+    if ((hardware.models && hardware.models.length > 0) || 
+        (security.details && (security.details.includes('Ledger') || 
+                             security.details.includes('Trezor') ||
+                             security.details.includes('HSM'))) ||
+        (security.customInfrastructure === true) ||
+        (hotCold.details && (hotCold.details.includes('HSM') ||
+                           hotCold.details.includes('Hardware Security Module')))) {
       score += 5;
-      this.logScore('keyManagement', 'hardware', 5, 'Specific hardware wallet models supported');
+      this.logScore('keyManagement', 'hardware', 5, 'Specific hardware security details provided');
     }
     
     // Ensure score doesn't exceed maxScore
@@ -2228,18 +2269,22 @@ class CustodianScore {
     let score = 0;
     const maxScore = 10;
     const ops = this.custodian.operations || {};
+    const trackRecord = this.custodian.trackRecord || {};
     
-    if (ops.trackRecord) {
+    // Check for track record (either in operations or directly in trackRecord)
+    if (ops.trackRecord || trackRecord.history) {
       score += 5;
-      this.logScore('infrastructure', 'audits', 5, 'Positive track record');
+      this.logScore('infrastructure', 'audits', 5, 'Track record available');
     }
     
-    if (ops.incidentHistory) {
+    // Check for incident history (either in operations or directly in trackRecord)
+    if (ops.incidentHistory || (trackRecord.incidentHistory && trackRecord.incidentHistory.length > 0)) {
       score += 3;
       this.logScore('infrastructure', 'audits', 3, 'Transparent incident history');
     }
     
-    if (ops.insuranceCoverage) {
+    // Check for insurance coverage (either in operations or directly in trackRecord)
+    if (ops.insuranceCoverage || trackRecord.insuranceCoverage) {
       score += 2;
       this.logScore('infrastructure', 'audits', 2, 'Insurance coverage in place');
     }
@@ -2259,13 +2304,16 @@ class CustodianScore {
     let score = 0;
     const maxScore = 5;
     const ops = this.custodian.operations || {};
+    const trackRecord = this.custodian.trackRecord || {};
     
-    if (ops.lastIncident) {
+    // Check for last incident date (either in operations or directly in trackRecord)
+    if (ops.lastIncident || trackRecord.lastIncident) {
       score += 2;
-      this.logScore('infrastructure', 'incidentResponse', 2, 'Last incident handled appropriately');
+      this.logScore('infrastructure', 'incidentResponse', 2, 'Last incident date provided');
     }
     
-    if (ops.incidentHistory) {
+    // Check for incident history (either in operations or directly in trackRecord)
+    if (ops.incidentHistory || (trackRecord.incidentHistory && trackRecord.incidentHistory.length > 0)) {
       score += 3;
       this.logScore('infrastructure', 'incidentResponse', 3, 'Transparent incident history');
     }
@@ -2286,11 +2334,13 @@ class CustodianScore {
     const maxScore = 5;
     const model = this.custodian.businessModel || {};
     
+    // Check if business model type is defined
     if (model.type) {
       score += 2;
       this.logScore('transparency', 'documentation', 2, 'Business model type defined');
     }
     
+    // Check if services are documented
     if (model.services && model.services.length > 0) {
       score += 3;
       this.logScore('transparency', 'documentation', 3, 'Services clearly documented');
@@ -2343,17 +2393,22 @@ class CustodianScore {
     const maxScore = 10;
     const leadership = this.custodian.leadership || {};
     
+    // Check if jurisdiction is established
     if (leadership.jurisdiction) {
       score += 5;
       this.logScore('compliance', 'licensing', 5, 'Clear jurisdiction established');
     }
     
-    if (leadership.yearsInBusiness) {
+    // Check for years in business (either directly or calculated from tenure)
+    if (leadership.yearsInBusiness || 
+        (leadership.ceo && leadership.ceo.tenure && leadership.ceo.tenure.includes('-'))) {
       score += 3;
       this.logScore('compliance', 'licensing', 3, 'Established business history');
     }
     
-    if (leadership.team && leadership.team.length > 0) {
+    // Check for transparent leadership team
+    if ((leadership.team && leadership.team.length > 0) || 
+        (leadership.ceo && leadership.ceo.name)) {
       score += 2;
       this.logScore('compliance', 'licensing', 2, 'Transparent leadership team');
     }
@@ -2400,14 +2455,20 @@ class CustodianScore {
     const maxScore = 5;
     const security = this.custodian.security || {};
     
-    if (security.twoFactor) {
+    // Check for 2FA support (either directly or in features list)
+    if (security.twoFactor || 
+        (security.features && (security.features.includes('2FA') || 
+                             security.features.includes('FIDO2')))) {
       score += 3;
       this.logScore('userSecurity', 'authentication', 3, '2FA supported');
     }
     
-    if (security.biometric) {
+    // Check for biometric or advanced authentication
+    if (security.biometric || 
+        (security.features && (security.features.includes('Biometric') || 
+                             security.features.includes('FIDO2')))) {
       score += 2;
-      this.logScore('userSecurity', 'authentication', 2, 'Biometric authentication supported');
+      this.logScore('userSecurity', 'authentication', 2, 'Advanced authentication supported');
     }
     
     // Ensure score doesn't exceed maxScore
@@ -2425,18 +2486,28 @@ class CustodianScore {
     let score = 0;
     const maxScore = 5;
     const security = this.custodian.security || {};
+    const userAccess = this.custodian.userAccess || {};
     
-    if (security.withdrawalConfirmations) {
+    // Check for withdrawal confirmations (from multiple possible locations)
+    if (security.withdrawalConfirmations || 
+        (security.features && (security.features.includes('Withdrawal Confirmations') || 
+                             security.features.includes('2FA')))) {
       score += 2;
       this.logScore('userSecurity', 'transactionSecurity', 2, 'Withdrawal confirmations required');
     }
     
-    if (security.addressWhitelisting) {
+    // Check for address whitelisting (from multiple possible locations)
+    if (security.addressWhitelisting || 
+        (security.features && (security.features.includes('Withdrawal Whitelisting') || 
+                             security.features.includes('Whitelisting')))) {
       score += 2;
       this.logScore('userSecurity', 'transactionSecurity', 2, 'Address whitelisting supported');
     }
     
-    if (security.withdrawalLimits) {
+    // Check for withdrawal limits (from multiple possible locations)
+    if (security.withdrawalLimits || 
+        (userAccess.withdrawalLimits && userAccess.withdrawalLimits.status) ||
+        userAccess.kycRequired === true) {
       score += 1;
       this.logScore('userSecurity', 'transactionSecurity', 1, 'Withdrawal limits supported');
     }
