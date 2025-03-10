@@ -126,72 +126,81 @@ layout: default
           </div>
         </div>
 
-        {% if page.custodian.leadership and page.custodian.leadership.ceo %}
-          {% assign ceo = page.custodian.leadership.ceo %}
-          <div class="top-right">
+        <div class="top-right">
+          {% if page.custodian.leadership and page.custodian.leadership.ceo %}
+            {% assign ceo = page.custodian.leadership.ceo %}
+              <div class="ceo-card">
+                <div class="ceo-photo">
+                  {% if ceo.photo %}
+                    <img src="{{ ceo.photo | relative_url }}" alt="CEO Photo">
+                  {% else %}
+                    <i class="fas fa-user"></i>
+                  {% endif %}
+                </div>
+                <div class="ceo-info">
+                  <h3>{{ ceo.name }}</h3>
+                  <p class="position">{{ ceo.position }}</p>
+                  {% if ceo.tenure %}
+                    <p class="tenure">Tenure: {{ ceo.tenure }}</p>
+                  {% endif %}
+                  {% if ceo.nationality %}
+                    <p class="nationality">Nationality: {{ ceo.nationality }}</p>
+                  {% endif %}
+
+                  {% if ceo.social %}
+                    <div class="social-links">
+                      {% if ceo.social.twitter %}
+                        <style>
+                          .x-icon {
+                            filter: invert(36%) sepia(9%) saturate(692%) hue-rotate(167deg) brightness(94%) contrast(89%);
+                          }
+                          .twitter:hover .x-icon {
+                            filter: brightness(0);
+                          }
+                        </style>
+                        <a
+                          href="{{ ceo.social.twitter }}"
+                          class="twitter"
+                          target="_blank"
+                          rel="noopener"
+                          style="display: inline-flex; align-items: center;">
+                          <img src="/images/xlogo.svg" alt="X (Twitter)" class="x-icon" style="width: 1em; height: 1em;">
+                        </a>
+                      {% endif %}
+                      {% if ceo.social.linkedin %}
+                        <a
+                          href="{{ ceo.social.linkedin }}"
+                          class="linkedin"
+                          target="_blank"
+                          rel="noopener">
+                          <i class="fab fa-linkedin"></i>
+                        </a>
+                      {% endif %}
+                      {% if ceo.social.github %}
+                        <a
+                          href="{{ ceo.social.github }}"
+                          class="github"
+                          target="_blank"
+                          rel="noopener">
+                          <i class="fab fa-github"></i>
+                        </a>
+                      {% endif %}
+                    </div>
+                  {% endif %}
+                </div>
+              </div>
+          {% endif %}
             <div class="ceo-card">
               <div class="ceo-photo">
-                {% if ceo.photo %}
-                  <img src="{{ ceo.photo | relative_url }}" alt="CEO Photo">
-                {% else %}
-                  <i class="fas fa-user"></i>
-                {% endif %}
+                <i class="fas fa-shield-alt"></i>
               </div>
               <div class="ceo-info">
-                <h3>{{ ceo.name }}</h3>
-                <p class="position">{{ ceo.position }}</p>
-                {% if ceo.tenure %}
-                  <p class="tenure">Tenure: {{ ceo.tenure }}</p>
-                {% endif %}
-                {% if ceo.nationality %}
-                  <p class="nationality">Nationality: {{ ceo.nationality }}</p>
-                {% endif %}
-
-                {% if ceo.social %}
-                  <div class="social-links">
-                    {% if ceo.social.twitter %}
-                      <style>
-                        .x-icon {
-                          filter: invert(36%) sepia(9%) saturate(692%) hue-rotate(167deg) brightness(94%) contrast(89%);
-                        }
-                        .twitter:hover .x-icon {
-                          filter: brightness(0);
-                        }
-                      </style>
-                      <a
-                        href="{{ ceo.social.twitter }}"
-                        class="twitter"
-                        target="_blank"
-                        rel="noopener"
-                        style="display: inline-flex; align-items: center;">
-                        <img src="/images/xlogo.svg" alt="X (Twitter)" class="x-icon" style="width: 1em; height: 1em;">
-                      </a>
-                    {% endif %}
-                    {% if ceo.social.linkedin %}
-                      <a
-                        href="{{ ceo.social.linkedin }}"
-                        class="linkedin"
-                        target="_blank"
-                        rel="noopener">
-                        <i class="fab fa-linkedin"></i>
-                      </a>
-                    {% endif %}
-                    {% if ceo.social.github %}
-                      <a
-                        href="{{ ceo.social.github }}"
-                        class="github"
-                        target="_blank"
-                        rel="noopener">
-                        <i class="fab fa-github"></i>
-                      </a>
-                    {% endif %}
-                  </div>
-                {% endif %}
+                <h3>Custodian Score:</h3>
+                <span class="total-score">0</span>/100
               </div>
             </div>
           </div>
-        {% endif %}
-      </div>
+        </div>
 
       <section class="page__content" itemprop="text">
         {% include review/custodianFullReview.html custodian=page.custodian platformReview=page.platformReview %}
@@ -235,8 +244,9 @@ layout: default
   }
 
   .top-right {
-    display: flex;
-    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
     margin-top: 0;
   }
 
@@ -247,11 +257,11 @@ layout: default
     width: 100%;
     max-width: 320px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    display: flex;
+    display: grid;
+    grid-template-columns: auto 1fr;
     gap: 1rem;
-    align-items: flex-start;
+    align-items: start;
     border: 1px solid #dee2e6;
-    flex-direction: row;
   }
 
   /* Desktop styles */
@@ -276,11 +286,11 @@ layout: default
     padding: 0.75rem;
     width: 320px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    display: flex;
+    display: grid;
+    grid-template-columns: auto 1fr;
     gap: 1rem;
-    align-items: flex-start;
+    align-items: start;
     border: 1px solid #dee2e6;
-    flex-direction: row;
   }
 
   .ceo-photo {
