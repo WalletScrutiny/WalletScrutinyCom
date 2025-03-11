@@ -10,18 +10,20 @@ permalink: /new_asset/
 
 <div class="form-container">
   <div class="info-message">
-    <p>To add a new asset to Nostr so it can be verified by you or others, you will need to provide the following information
-      <span class="drag-and-drop-area">, or drag and drop your binary file here so we calculate some fields for you</span>:
-    </p>
+    <p>To add a new asset to Nostr so it can be verified by you or others, you will need to provide the following information<span class="drag-and-drop-area">, or drag and drop your binary file here so we calculate some fields for you</span>:</p>
   </div>
 
   <div style="margin: 1.5em; margin-left: 0;" class="drag-and-drop-area">
     {% include /verifications/dragAndDropArea.html buttonMessage="Drop file to calculate" %}
   </div>
 
+  <div>
+    <p>Fields marked with (*) are required.</p>
+  </div>
+
   <form id="assetForm" onsubmit="handleSubmit(event)">
     <div class="form-group">
-      <label for="sha256">Hash (sha256)*:</label>
+      <label for="sha256">Hash (sha256) (*):</label>
       <input type="text" id="sha256" name="sha256" class="form-control" required>
       <small class="form-text">Example: deb318adc37cd2c44b3c429af56a76982c6a81dfdad1ea679c01d8184fc6a4fe</small>
     </div>
@@ -35,13 +37,13 @@ permalink: /new_asset/
     </div>
 
     <div class="form-group">
-      <label for="version">Version*:</label>
+      <label for="version">Version (*):</label>
       <input type="text" id="version" name="version" class="form-control" required>
       <small class="form-text">Example: 0.9.2</small>
     </div>
 
     <div class="form-group">
-      <label for="platform">Platform*:</label>
+      <label for="platform">Platform (*):</label>
       <select id="platform" name="platform" class="form-control" required>
         <option value="">Select a platform</option>
         {% for p in site.data.platformMeta %}
@@ -53,7 +55,7 @@ permalink: /new_asset/
     </div>
 
     <div class="form-group">
-      <label for="description">Asset Description*:</label>
+      <label for="description">Asset Description (*):</label>
       <input type="text" id="description" name="description" class="form-control" required>
       <small class="form-text">Example: Firmware / Bootloader / Universal APK from Github / Debian package amd64 / ARM v8 / MacOS App Store</small>
     </div>
@@ -66,20 +68,6 @@ permalink: /new_asset/
 </div>
 
 <script>
-function validateForm() {
-  const description = document.getElementById('description').value.trim();
-  const version = document.getElementById('version').value.trim();
-  const sha256 = document.getElementById('sha256').value.trim();
-  const appId = document.getElementById('appId').value.trim();
-
-  if (!appId || !description || !version || !sha256) {
-    alert('Please fill in all required fields');
-    return false;
-  }
-
-  return true;
-}
-
 async function loadUrlParams() {
   const showError = (message) => {
     document.querySelector('.form-container').style.display = 'none';
@@ -125,10 +113,6 @@ async function loadUrlParams() {
 
 async function handleSubmit(event) {
   event.preventDefault();
-  
-  if (!validateForm()) {
-    return;
-  }
 
   const formData = {
     description: document.getElementById('description').value.trim(),
