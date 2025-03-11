@@ -146,6 +146,7 @@ exclude:
   - assets/css/styles.css
   - backup
   - config
+  - docs
   - webpack.config.js
   - log
   - node_modules
