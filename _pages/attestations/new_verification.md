@@ -13,6 +13,10 @@ permalink: /new_verification/
 
   <div id="previousAttestations" style="margin-bottom: 3em;"></div>
 
+  <div>
+    <p>Fields marked with (*) are required.</p>
+  </div>
+
   <form id="attestationForm" onsubmit="handleSubmit(event)">
     <div class="form-group">
       <label for="appId">App ID:</label>
@@ -23,13 +27,13 @@ permalink: /new_verification/
     </div>
 
     <div class="form-group">
-      <label for="version">Version*:</label>
+      <label for="version">Version (*):</label>
       <input type="text" id="version" name="version" class="form-control" required>
       <small class="form-text">Example: 0.9.2</small>
     </div>
 
     <div class="form-group">
-      <label for="platform">Platform*:</label>
+      <label for="platform">Platform (*):</label>
       <select id="platform" name="platform" class="form-control" required>
         <option value="">Select a platform</option>
         {% for p in site.data.platformMeta %}
@@ -41,13 +45,13 @@ permalink: /new_verification/
     </div>
 
     <div class="form-group">
-      <label for="description">Asset Description*:</label>
+      <label for="description">Asset Description (*):</label>
       <input type="text" id="description" name="description" class="form-control" required>
       <small class="form-text">Example: Firmware / Bootloader / Universal APK from Github / Debian package amd64 / ARM v8 / MacOS App Store</small>
     </div>
 
     <div class="form-group">
-      <label for="status">Status*:</label>
+      <label for="status">Status (*):</label>
       <select id="status" name="status" class="form-control" required>
         <option value="">Select a status</option>
         <option value="reproducible">Reproducible</option>
@@ -89,7 +93,7 @@ permalink: /new_verification/
     </div>
 
     <div class="form-group">
-      <label for="content">Content*:</label>
+      <label for="content">Content (*):</label>
       <textarea id="content" name="content" class="form-control" rows="10" required></textarea>
       <div class="char-counter">Characters: <span id="charCount">0</span>/60000</div>
     </div>
@@ -160,9 +164,6 @@ permalink: /new_verification/
 <script>
 function validateForm() {
   const content = document.getElementById('content').value.trim();
-  const status = document.getElementById('status').value;
-  const version = document.getElementById('version').value.trim();
-  const appId = document.getElementById('appId').value.trim();
 
   if (content.length < 20) {
     showToast('Content must be at least 20 characters long', 'error');
@@ -170,11 +171,6 @@ function validateForm() {
   }
   if (content.length > 60000) {
     showToast('Content cannot exceed 60000 characters', 'error');
-    return false;
-  }
-
-  if (!appId || !version) {
-    showToast('Please fill in all required fields', 'error');
     return false;
   }
 
