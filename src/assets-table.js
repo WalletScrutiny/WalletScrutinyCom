@@ -195,7 +195,7 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
       return 0;
     });
   } else {
-    sortedItems.sort((a, b) => new Date(b.created_at) - new Date(a.created_at));
+    sortedItems.sort((a, b) => new Date(b.items[0].created_at) - new Date(a.items[0].created_at));
   }
 
   table.innerHTML = `
