@@ -157,6 +157,7 @@
   if (shareBtn) {
     shareBtn.onclick = function(e) {
       e.preventDefault();
+      e.stopPropagation();
       shareDropdown.classList.toggle("show");
     }
   }
