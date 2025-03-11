@@ -1,4 +1,5 @@
 import NDK, {NDKEvent, NDKNip07Signer, NDKPrivateKeySigner, NDKPublishError} from "@nostr-dev-kit/ndk";
+import DOMPurify from 'dompurify';
 import { assetRegistrationKind, verificationKind, endorsementKind, explicitRelayUrls, verificationsFeatureSinceTS } from "./nostr-constants.mjs";
 import WebSocket from "ws";
 if (typeof global !== 'undefined') {
@@ -232,6 +233,58 @@ const getTimestampMonthsAgo = function(months = 6) {
   return Math.floor(date.getTime() / 1000); // Convert to Unix timestamp (seconds)
 }
 
+function isValidJSONObject(str) {
+  try {
+    const parsed = JSON.parse(str);
+    return parsed && typeof parsed === 'object' && !Array.isArray(parsed);
+  } catch (e) {
+    return false;
+  }
+}
+
+function eventSanitize(event) {
+  // Sanitize content
+  if (isValidJSONObject(event.content)) {
+    const contentObject = JSON.parse(event.content);
+
+    Object.keys(contentObject).forEach(key => {
+      let sanitizedContent = DOMPurify.sanitize(contentObject[key]);
+
+      if (key === 'description') {
+        sanitizedContent = sanitizedContent.substring(0, 120);
+      } else if (key === 'content') {
+        sanitizedContent = sanitizedContent.substring(0, 60000);
+      }
+
+      contentObject[key] = sanitizedContent;
+    });
+
+    event.content = JSON.stringify(contentObject);
+  } else {
+    event.content = DOMPurify.sanitize(event.content);
+    event.content = event.content.substring(0, 120);
+  }
+
+  // Sanitize tags
+  event.tags.forEach(tag => {
+    let sanitizedTag = DOMPurify.sanitize(tag[1]);
+
+    if (tag[0] === 'i') {
+      sanitizedTag = sanitizedTag.substring(0, 40);
+    } else if (tag[0] === 'version') {
+      sanitizedTag = sanitizedTag.substring(0, 15);
+    } else if (['x', 'ox'].includes(tag[0])) {
+      sanitizedTag = sanitizedTag.substring(0, 64);
+    } else if (tag[0] === 'platform') {
+      sanitizedTag = sanitizedTag.substring(0, 10);
+    } else if (tag[0] === 'status') {
+      sanitizedTag = sanitizedTag.substring(0, 16);
+    }
+
+    tag[1] = sanitizedTag;
+  });
+}
+
 const getAllAssetInformation = async function({
   months,
   pubkey,
@@ -278,6 +331,10 @@ const getAllAssetInformation = async function({
   }
 
   const events = await ndk.fetchEvents([filter_assets, filter_verifications]);
+
+  events.forEach(event => {
+    eventSanitize(event);
+  });
 
   const assets = Array.from(events).filter(event => event.kind === assetRegistrationKind);
   const verifications = Array.from(events).filter(event => event.kind === verificationKind);

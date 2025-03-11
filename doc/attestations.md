@@ -87,6 +87,16 @@ Trust in verifications is built through:
 }
 ```
 
+Max length of fields (chars):
+* Asset description - `content`: 120
+* Verification - content.`description`: 120
+* Verification - content.`content`: 60,000
+* Tag `i`: 40
+* Tag `version`: 15
+* Tag `x/ox`: 64
+* Tag `platform`: 10
+* Tag `status`: 16
+
 *Note: Replacing the Verification event invalidates the Endorsement. Clients should find where this happens and ask for re-endorsement.*
 
 ## Functionality presented to users
