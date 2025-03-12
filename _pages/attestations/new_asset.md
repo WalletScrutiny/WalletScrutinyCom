@@ -104,7 +104,6 @@ async function loadUrlParams() {
 
   // If sha256 is provided, hide all drag and drop areas
   if (urlParams.get('sha256')) {
-    console.log('sha256 is provided');
     document.querySelectorAll('.drag-and-drop-area').forEach(element => {
       element.style.display = 'none';
     });
