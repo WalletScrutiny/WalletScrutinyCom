@@ -137,6 +137,10 @@ async function setFormFields(hash, appData, fileName, apkInfo) {
             document.getElementById('version').value = versionFromFilename ? versionFromFilename : '';
         }
     }
+
+    if (document.getElementById('platform')) {
+        document.getElementById('platform').value = getPlatformFromFilename(fileName);
+    }
 }
 
 async function processFiles(files, dropAreaElement) {
@@ -279,6 +283,10 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, all
     let urlParams = `?sha256=${encodeURIComponent(hash)}`;
     if (appId) { urlParams += `&appId=${encodeURIComponent(appId)}`; }
     if (version) { urlParams += `&version=${encodeURIComponent(version)}`; }
+    const platformFromFile = getPlatformFromFilename(file.name);
+    if (platformFromFile) {
+        urlParams += `&platform=${encodeURIComponent(platform)}`;
+    }
 
     if (!hasAssets && !hasVerifications ) {
         if (window.location.pathname !== '/new_asset/') {
@@ -299,6 +307,24 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, all
     fileInfoHtml += `<li>Check out <a href="/verifications/" class="btn btn-small" target="_blank">How Verifications Work</a>.</li>`;
 
     updateDomElementInClass('textbox', fileInfoHtml, dropAreaElement);
+}
+
+function getPlatformFromFilename(filename) {
+    const extension = filename.split('.').pop().toLowerCase();
+
+    if (['exe', 'msi', 'msix', 'appx'].includes(extension)) {
+        return 'windows';
+    } else if (['appimage', 'deb', 'rpm', 'flatpak', 'snap'].includes(extension)) {
+        return 'linux';
+    } else if (['dmg', 'pkg', 'mpkg'].includes(extension)) {
+        return 'macos';
+    } else if (['ipa'].includes(extension)) {
+        return 'ios';
+    } else if (['apk', 'aab'].includes(extension)) {
+        return 'android';
+    }
+
+    return null;
 }
 
 async function fetchAppData(hash) {
