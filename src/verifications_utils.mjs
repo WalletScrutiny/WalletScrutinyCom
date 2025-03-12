@@ -94,6 +94,20 @@ const createAssetRegistration = async function ({
     throw new Error("Missing required parameters");
   }
 
+  // Limit length of parameters
+  if (appId && appId.length > 40) {
+    throw new Error("App ID must be 40 characters or less");
+  }
+  if (version && version.length > 15) {
+    throw new Error("Version must be 15 characters or less");
+  }
+  if (platform && platform.length > 10) {
+    throw new Error("Platform must be 10 characters or less");
+  }
+  if (description && description.length > 120) {
+    throw new Error("Description must be 120 characters or less");
+  }
+
   const ndkEvent = new NDKEvent(ndk);
   ndkEvent.kind = assetRegistrationKind;
   ndkEvent.content = description;
@@ -105,6 +119,8 @@ const createAssetRegistration = async function ({
     ["version", version],
     ["platform", platform ?? '']
   ];
+
+  eventSanitize(ndkEvent);
 
   try {
     const publishedToRelays = await ndkEvent.publish();
@@ -143,6 +159,23 @@ const createVerification = async function ({
     throw new Error("Invalid status");
   }
 
+  // Limit length of parameters
+  if (appId && appId.length > 40) {
+    throw new Error("App ID must be 40 characters or less");
+  }
+  if (version && version.length > 15) {
+    throw new Error("Version must be 15 characters or less");
+  }
+  if (platform && platform.length > 10) {
+    throw new Error("Platform must be 10 characters or less");
+  }
+  if (description && description.length > 120) {
+    throw new Error("Description must be 120 characters or less");
+  }
+  if (content && content.length > 60000) {
+    throw new Error("Content must be 60000 characters or less");
+  }
+
   const ndkEvent = new NDKEvent(ndk);
   ndkEvent.kind = verificationKind;
   ndkEvent.created_at = getCreatedAt(createdAt);
@@ -167,6 +200,8 @@ const createVerification = async function ({
   hashes.forEach(hash => {
     ndkEvent.tags.push(["x", hash]);
   });
+
+  eventSanitize(ndkEvent);
 
   try {
     const publishedToRelays = await ndkEvent.publish();
@@ -344,13 +379,23 @@ const getAllAssetInformation = async function({
   const verificationsMap = new Map();
   const endorsementsMap = new Map();
 
-  verifications.forEach(verification => {
-    const sha256 = getFirstTag(verification, 'x');
-    if (sha256) {
-      if (!verificationsMap.has(sha256)) {
-        verificationsMap.set(sha256, []);
+  assets.forEach(asset => {
+    const sha256FromEventTag = getFirstTag(asset, 'x');
+    if (sha256FromEventTag) {
+      if (!assetsMap.has(sha256FromEventTag)) {
+        assetsMap.set(sha256FromEventTag, []);
       }
-      verificationsMap.get(sha256).push(verification);
+      assetsMap.get(sha256FromEventTag).push(asset);
+    }
+  });
+
+  verifications.forEach(verification => {
+    const sha256FromEventTag = getFirstTag(verification, 'x');
+    if (sha256FromEventTag) {
+      if (!verificationsMap.has(sha256FromEventTag)) {
+        verificationsMap.set(sha256FromEventTag, []);
+      }
+      verificationsMap.get(sha256FromEventTag).push(verification);
     }
   });
 
@@ -365,16 +410,6 @@ const getAllAssetInformation = async function({
     }
   });
   */
-
-  assets.forEach(asset => {
-    const sha256 = getFirstTag(asset, 'x');
-    if (sha256) {
-      if (!assetsMap.has(sha256)) {
-        assetsMap.set(sha256, []);
-      }
-      assetsMap.get(sha256).push(asset);
-    }
-  });
 
   return {
     assets: assetsMap,
