@@ -31,6 +31,8 @@ document.addEventListener("DOMContentLoaded", async function () {
             console.error('No app data found for this hash.');
         }
     }
+
+    await nostrConnect();
 });
 
 function scrollToVersion(version) {
@@ -161,12 +163,7 @@ async function processFiles(files, dropAreaElement) {
 
     const [appData, allAssetsInformation] = await Promise.all([
         fetchAppData(hash),     // Get app data from legacy attestation.json
-        (async () => {
-            await nostrConnect();
-            return getAllAssetInformation({
-                sha256: hash
-            });
-        })()
+        getAllAssetInformation({ sha256: hash })
     ]);
     /////////////////////////////////////////////////////////////////////
 
