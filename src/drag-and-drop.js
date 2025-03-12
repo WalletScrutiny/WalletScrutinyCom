@@ -180,11 +180,24 @@ async function processFiles(files, dropAreaElement) {
         }
     }
 
+    // Store the file and hash for later use when registering the asset
     if (uploadsActivated) {
-        await uploadToBlossom(file, hash);
+        window.currentFile = file;
+        window.currentHash = hash;
     }
 
     document.getElementById('loadingSpinner').style.display = 'none';
+}
+
+async function handleRegisterAsset(urlParams) {
+    if (uploadsActivated) {
+        showToast('Uploading file to the Blossom server. Wait a moment...', 'info');
+        document.getElementById('loadingSpinner').style.display = 'block';
+        await uploadToBlossom(window.currentFile, window.currentHash);
+        document.getElementById('loadingSpinner').style.display = 'none';
+    }
+
+    window.location.href = `/new_asset/${urlParams}`;
 }
 
 async function displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, allAssetsInformation) {
@@ -272,7 +285,7 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, all
 
     if (!hasAssets && !hasVerifications ) {
         if (window.location.pathname !== '/new_asset/') {
-            fileInfoHtml += `<li><a href="/new_asset/${urlParams}" class="btn btn-small">Register this new asset</a> on Nostr so others can try to reproduce it.</li>`;
+            fileInfoHtml += `<li><a href="#" onclick="handleRegisterAsset('${urlParams}'); return false;" class="btn btn-small">Register this new asset</a> on Nostr so others can try to reproduce it.</li>`;
         }
 
         fileInfoHtml += `<li><a href="/new_verification/${urlParams}" class="btn btn-small">Create a verification</a> for this file so others can see if you were able to reproduce it or not.</li>`;
@@ -304,3 +317,5 @@ async function fetchAppData(hash) {
         return null;
     }
 }
+
+window.handleRegisterAsset = handleRegisterAsset;
