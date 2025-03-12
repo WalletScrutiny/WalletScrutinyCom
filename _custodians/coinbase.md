@@ -240,15 +240,15 @@ custodian:
   osint:
     summary: 
     entries:
-      - information: 
-        date: 
-        source: 
-        source_url: 
+      - information: "Coinbase Registers with India's Financial Intelligence Unit (FIU). Crypto trading services, initial retail launch later in 2025"
+        date: 2025-03-11
+        source: "Coinbase X Announcement"
+        source_url: https://x.com/coinbase/status/1899430084546629707
         corroborating_source: 
         corroborating_source_url: 
         refutation: 
         refutation_source_url: 
-        comment: 
+        comment: "High growth in crypto interest, India's share of global blockchain developers at 12% in 2023. This is not Coinbase's first foray into India; in 2022, they integrated with the Unified Payments Interface (UPI) for crypto purchases but had to suspend operations due to informal pressure from the Reserve Bank of India (RBI). The current move reflects a renewed push, with a focus on regulatory compliance under the Prevention of Money Laundering Act (PMLA), 2002, which requires virtual digital asset service providers to register with the FIU as reporting entities. This compliance is crucial given India's strict taxation policies, including a 30% tax on trading gains and a 1% tax deducted at source (TDS) on transactions."
 ---
 
 Additional Information: 
