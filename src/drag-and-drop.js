@@ -149,6 +149,26 @@ async function processFiles(files, dropAreaElement) {
         return;
     }
 
+    const forbiddenExtensions = [
+        // Images
+        'jpg', 'jpeg', 'png', 'gif', 'bmp', 'tiff', 'ico', 'webp', 'svg',
+        'raw', 'heic', 'psd', 'ai',
+        // Documents
+        'pdf', 'epub', 'doc', 'docx', 'xls', 'xlsx', 'ppt', 'pptx', 'txt',
+        'rtf', 'odt', 'ods', 'odp', 'pages', 'numbers', 'keynote',
+        // Data and config
+        'csv', 'json', 'xml', 'yaml', 'yml', 'toml', 'ini', 'cfg', 'conf', 'log',
+        // Video
+        'mp4', 'avi', 'mov', 'mkv', 'wmv', 'flv', 'webm', '3gp', 'mpg', 'mpeg',
+        // Audio
+        'mp3', 'wav', 'ogg', 'm4a', 'wma', 'flac', 'aac', 'm4b', 'm4p', 'm4v'
+    ];
+    const extension = files[0].name.split('.').pop().toLowerCase();
+    if (forbiddenExtensions.includes(extension)) {
+        updateDomElementInClass('textbox', '<p style="color: red;">Only binary files can be verified. Please drop a binary file to verify.</p>', dropAreaElement);
+        return;
+    }
+
     document.getElementById('loadingSpinner').style.display = 'block';
 
     const file = files[0];
