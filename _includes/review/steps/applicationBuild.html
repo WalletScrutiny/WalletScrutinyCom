@@ -13,7 +13,7 @@
           <br><a href="{{page.issue}}">See the last Issue we created</a>.
         </p>
       {% endif %}
-      <a class="legacyInfo" href="#result">See test result</a>
+
       <script>const pageVerdict = '{{page.verdict}}'</script>
 
       <div id="appsTable" style="margin-top: 1em;"></div>
@@ -60,12 +60,6 @@
             } else if (pageVerdict === 'fewusers') {
               document.getElementById('verificationMessage').innerHTML = "Nobody could reproduce this application successfully. Do you like to try? Drop the binary file there to register the asset automatically (preferred), or click the button below to register the asset manually.";
             }
-          }
-
-          if (!attestationsInfo.hasVerifications) {
-            document.querySelector('.legacyInfo').style.display = 'block';
-          } else {
-            document.querySelector('.legacyInfo').style.display = 'none';
           }
         };
       </script>
