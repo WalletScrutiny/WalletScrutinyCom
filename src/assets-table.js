@@ -123,7 +123,6 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
   }
 
   let hasAssets = false;
-  let hasLegacyVerifications = false;
   let hasVerifications = false;
 
   const combinedItems = new Map([...response.verifications.entries(), ...response.assets.entries()]);
@@ -138,27 +137,6 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
       items: sortedItems
     };
   });
-
-  // Add old tests information to sortedItems if oldTestsInfo is defined and is an array
-/*
-  if (typeof oldTestsInfo !== 'undefined' && Array.isArray(oldTestsInfo)) {
-    oldTestsInfo.forEach(oldTest => {
-      if (oldTest.date && oldTest.version && oldTest.verdict) {
-        hasLegacyVerifications = true;
-        sortedItems.push({
-          created_at: Math.floor(new Date(oldTest.date).getTime() / 1000),
-          tags: [
-            ['version', oldTest.version],
-            ['status', oldTest.verdict]
-          ],
-          content: `Legacy verdict by WS`,
-          isLegacy: true,
-          gitRevision: oldTest.gitRevision
-        });
-      }
-    });
-  }
-*/
 
   // Add event listeners for search and filters only if enableSearch is true
   if (enableSearch) {
@@ -412,7 +390,6 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
   return {
     hasAssets,
     hasVerifications,
-    hasLegacyVerifications,
     info: response
   };
 };

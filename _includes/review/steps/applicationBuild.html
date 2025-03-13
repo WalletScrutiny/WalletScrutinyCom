@@ -18,8 +18,6 @@
 
       <div id="appsTable" style="margin-top: 1em;"></div>
 
-      {% include getOldInfo.md %}
-
       <p>If you have a binary for <b>a version that is not tested yet</b>, you can drop the file here to register it so somebody can verify its reproducibility:</p>
       <div style="margin-top: 1em; margin-bottom: 1em; margin-left: 0;">
         {% include /verifications/dragAndDropArea.html buttonMessage="Drop binary file to verify" %}
@@ -47,12 +45,12 @@
             sortByVersion: true
           });
 
-          if (!attestationsInfo.hasVerifications && !attestationsInfo.hasLegacyVerifications) {
+          if (!attestationsInfo.hasVerifications) {
             document.getElementById('appsTable').style.display = 'none';
             document.getElementById('createVerificationButton').style.display = 'block';
           }
 
-          if (!attestationsInfo.hasVerifications && attestationsInfo.hasLegacyVerifications) {
+          if (!attestationsInfo.hasVerifications) {
             if (pageVerdict === 'reproducible') {
               document.getElementById('verificationMessage').innerHTML = "This application is reproducible. You can create an asset for a newer version so somebody can verify it.";
             } else if (pageVerdict === 'nonverifiable') {
