@@ -364,38 +364,82 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
 
   document.getElementById(htmlElementId).appendChild(table);
 
-  // Check all collected hashes in our Blossom server
-  for (const hash of allSha256Hashes) {
-    try {
-      const exists = await checkBlossomFile(hash);
-      if (exists) {
-        const downloadIcon = document.getElementById(`blossom-${hash}`);
-        if (downloadIcon) {
-          downloadIcon.style.display = 'inline';
-          downloadIcon.onclick = async () => {
-            try {
-              const response = await fetch(getBlossomFileURL(hash));
-              if (!response.ok) throw new Error(`HTTP ${response.status}`);
-
-              const a = document.createElement('a');
-              a.href = URL.createObjectURL(await response.blob());
-              a.download = hash;
-              a.click();
-            } catch (error) {
-              showToast('Error downloading file.', 'error');
-            }
-          };
-        }
-      }
-    } catch (error) {
-      console.error(`Error checking hash ${hash} in Blossom:`, error);
-    }
-  }
-
   // Apply initial filter only if enableSearch is true
   if (enableSearch) {
     updateTableVisibility();
   }
+
+  // Setup Intersection Observer for lazy loading Blossom checks
+  const observedHashes = new Set();
+  
+  const blossomObserver = new IntersectionObserver((entries, observer) => {
+    entries.forEach(async entry => {
+      if (entry.isIntersecting) {
+        const row = entry.target;
+        const hashElements = row.querySelectorAll('.blossom-download');
+        
+        for (const downloadIcon of hashElements) {
+          const hash = downloadIcon.id.replace('blossom-', '');
+          
+          // Skip if we've already checked this hash
+          if (observedHashes.has(hash)) continue;
+          observedHashes.add(hash);
+          
+          try {
+            const exists = await checkBlossomFile(hash);
+            if (exists) {
+              downloadIcon.style.display = 'inline';
+              downloadIcon.onclick = async () => {
+                try {
+                  const response = await fetch(getBlossomFileURL(hash));
+                  if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+                  const a = document.createElement('a');
+                  a.href = URL.createObjectURL(await response.blob());
+                  a.download = hash;
+                  a.click();
+                } catch (error) {
+                  showToast('Error downloading file.', 'error');
+                }
+              };
+            }
+          } catch (error) {
+            console.error(`Error checking hash ${hash} in Blossom:`, error);
+          }
+        }
+      }
+    });
+  }, {
+    root: null, // Use the viewport
+    rootMargin: '100px', // Start loading a bit before they become visible
+    threshold: 0.1 // Trigger when at least 10% of the element is visible
+  });
+  
+  // Observe all rows in the table
+  const tableRows = table.querySelectorAll('tr:not(:first-child):not(.show-more-row)');
+  tableRows.forEach(row => {
+    blossomObserver.observe(row);
+  });
+
+  // Function to handle filtering and update observer
+  function updateObserverForVisibleRows() {
+    const visibleRows = Array.from(table.querySelectorAll('tr:not([style*="display: none"]):not(:first-child):not(.show-more-row)'));
+    
+    // Re-observe all visible rows to trigger checks for newly visible elements
+    visibleRows.forEach(row => {
+      blossomObserver.observe(row);
+    });
+  }
+  
+  // Hook into the existing updateTableVisibility function to update observer when filtering
+  const originalUpdateTableVisibility = updateTableVisibility;
+  updateTableVisibility = function() {
+    originalUpdateTableVisibility();
+    updateObserverForVisibleRows();
+  };
+  
+  // Initial check for visible rows
+  updateObserverForVisibleRows();
 
   return {
     hasAssets,
