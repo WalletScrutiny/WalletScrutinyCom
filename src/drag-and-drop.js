@@ -248,7 +248,6 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, all
     version     = appInfoFromNostr?.version ?? appData?.version ?? apkInfo?.versionName ?? null;
     verdict     = appInfoFromNostr?.verdict ?? appData?.verdict ?? null;
     date        = appInfoFromNostr?.createdAt ?? appData?.date ?? null;
-    appHashes   = appInfoFromNostr?.appHashes ?? [hash];
     signer      = appData?.signer ?? null;
     platform    = appInfoFromNostr?.platform ?? app?.folder ?? null; 
     appTitle    = apkInfo?.application?.label[0] ?? app?.title ?? appId;
@@ -274,15 +273,7 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, all
 
     fileInfoHtml += `<strong>File:</strong> ${file ? file.name : 'N/A'}<br>`;
     fileInfoHtml += `<strong>Size:</strong> ${file ? formatFileSize(file.size) : 'N/A'}<br>`;
-    fileInfoHtml += `<strong>SHA-256:</strong><br>`;
-    
-    if (appHashes && appHashes.length > 0) {
-        fileInfoHtml += `<div style="margin-left: 10px;">`;
-        appHashes.forEach(h => {
-            fileInfoHtml += `• ${h}<br>`;
-        });
-        fileInfoHtml += `</div>`;
-    }
+    fileInfoHtml += `<strong>SHA-256:</strong> ${hash}<br>`;
 
     if (!appData && apkInfo) {
         fileInfoHtml += '<br>' + (
