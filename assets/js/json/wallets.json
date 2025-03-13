@@ -3,7 +3,9 @@ layout: compress
 ---
 {%- assign platforms = '' -%}
 {%- for platform in site.data.platformMeta -%}
+{%- unless platform[0] == 'windows' or platform[0] == 'linux' or platform[0] == 'macos' -%}
 {%- assign platforms = platforms | append: ',"' | append: platform[0] | append: '"' -%}
+{%- endunless -%}
 {%- endfor -%}
 {%- assign platforms = platforms | remove_first: "," | split: ',' -%}
 {%- assign allWallets = '{' -%}
