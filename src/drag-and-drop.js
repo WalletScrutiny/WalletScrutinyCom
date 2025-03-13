@@ -310,12 +310,12 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, all
 
     if (!hasAssets && !hasVerifications ) {
         if (window.location.pathname !== '/new_asset/') {
-            fileInfoHtml += `<li><a href="#" onclick="handleRegisterAsset('${urlParams}'); return false;" class="btn btn-small">Register this new asset</a> on Nostr so others can try to reproduce it.</li>`;
+            fileInfoHtml += `<li><a href="#" onclick="handleRegisterAsset('${urlParams}'); return false;" class="btn btn-small">Register this new asset</a> on Nostr so others can try to reproduce the build process.</li>`;
         }
 
         fileInfoHtml += `<li><a href="/new_verification/${urlParams}" class="btn btn-small">Create a verification</a> for this file so others can see if you were able to reproduce it or not.</li>`;
     } else if (hasAssets && !hasVerifications) {
-        fileInfoHtml += `<li>This asset is <a href="/asset/?sha256=${encodeURIComponent(hash)}">already registered in Nostr</a>, but it doesn't have <b>verifications</b> yet. You can <a href="/new_verification/${urlParams}" class="btn btn-small">create one</a>.</li>`;
+        fileInfoHtml += `<li>This asset is <a href="/asset/?sha256=${encodeURIComponent(hash)}">already registered in Nostr</a>, but nobody tried to create a <b>verification</b> yet. You can <a href="/new_verification/${urlParams}" class="btn btn-small">create one</a> yourself.</li>`;
     } else if (hasVerifications) {
         fileInfoHtml += `<li>This file has <b>verifications</b> by users. You can <a href="/asset/?sha256=${encodeURIComponent(hash)}" class="btn btn-small">view them</a>, or <a href="/new_verification/${urlParams}" class="btn btn-small">create a new verification</a>.</li>`;
     }
