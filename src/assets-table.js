@@ -112,7 +112,7 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
             </label>
             <label style="display: flex; align-items: center; gap: 5px; white-space: nowrap;">
               <input type="checkbox" id="showOnlyNoVerifications">
-              <span>Show only unverified assets</span>
+              <span>Show only untested assets</span>
             </label>
           </div>
         </div>
