@@ -365,22 +365,32 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
   document.getElementById(htmlElementId).appendChild(table);
 
   // Check all collected hashes in our Blossom server
-  allSha256Hashes.forEach(async (hash) => {
+  for (const hash of allSha256Hashes) {
     try {
       const exists = await checkBlossomFile(hash);
       if (exists) {
         const downloadIcon = document.getElementById(`blossom-${hash}`);
         if (downloadIcon) {
           downloadIcon.style.display = 'inline';
-          downloadIcon.onclick = () => {
-            window.open(`${getBlossomFileURL(hash)}`, '_blank');
+          downloadIcon.onclick = async () => {
+            try {
+              const response = await fetch(getBlossomFileURL(hash));
+              if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+              const a = document.createElement('a');
+              a.href = URL.createObjectURL(await response.blob());
+              a.download = hash;
+              a.click();
+            } catch (error) {
+              showToast('Error downloading file.', 'error');
+            }
           };
         }
       }
     } catch (error) {
       console.error(`Error checking hash ${hash} in Blossom:`, error);
     }
-  });
+  }
 
   // Apply initial filter only if enableSearch is true
   if (enableSearch) {
