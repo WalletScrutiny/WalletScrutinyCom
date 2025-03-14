@@ -18,16 +18,14 @@
 
       <div id="appsTable" style="margin-top: 1em;"></div>
 
-      <p>If you have a binary for <b>a version that is not tested yet</b>, you can drop the file here to register it so somebody can verify its reproducibility:</p>
+      <p>If you have a binary for <b>a version that doesn't appear on the list</b>, you can drop the file here to register it so somebody can verify its reproducibility:</p>
       <div style="margin-top: 1em; margin-bottom: 1em; margin-left: 0;">
         {% include /verifications/dragAndDropArea.html buttonMessage="Drop binary file to verify" %}
       </div>
 
       <p id="verificationMessage"></p>
 
-      <div style="margin-top: 4px; display: none;" id="createVerificationButton">
-        <a href="/new_asset/?appId={{page.appId}}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">Try to reproduce</a>
-      </div>
+      <div style="margin-top: 4px; display: none;" id="createVerificationButton"></div>
 
       <div id="verificationModal">
         <span id="closeModal">&times;</span>
@@ -37,6 +35,7 @@
       <script>
         window.onload = async () => {
           await nostrConnect();
+
           const attestationsInfo = await renderAssetsTable({
             htmlElementId: 'appsTable',
             appId: '{{ page.appId }}',
@@ -46,21 +45,20 @@
           });
 
           if (!attestationsInfo.hasVerifications) {
-            document.getElementById('appsTable').style.display = 'none';
-            document.getElementById('createVerificationButton').style.display = 'block';
-          }
+            if (!attestationsInfo.hasAssets) {
+              document.getElementById('appsTable').style.display = 'none';
+            }
 
-          if (!attestationsInfo.hasVerifications) {
             if (pageVerdict === 'reproducible') {
-              document.getElementById('verificationMessage').innerHTML = "This application is reproducible. You can create an asset for a newer version so somebody can verify it.";
+              document.getElementById('verificationMessage').innerHTML = "This application is reproducible. You can register an asset for a newer version so somebody can verify it by dropping the binary file there.";
             } else if (pageVerdict === 'nonverifiable') {
-              document.getElementById('verificationMessage').innerHTML = "Nobody could reproduce this application successfully. Do you like to try? Drop the binary file there to register the asset automatically (preferred), or click the button below to register the asset manually.";
-            } else if (pageVerdict === 'wip') {
-              document.getElementById('verificationMessage').innerHTML = "Nobody tried to build this application to check if it's reproducible. Do you like to be the first? Drop the binary file there to register the asset automatically (preferred), or click the button below to register the asset manually.";
-            } else if (pageVerdict === 'fewusers') {
-              document.getElementById('verificationMessage').innerHTML = "Nobody could reproduce this application successfully. Do you like to try? Drop the binary file there to register the asset automatically (preferred), or click the button below to register the asset manually.";
+              document.getElementById('verificationMessage').innerHTML = "Nobody could reproduce this application successfully. Do you like to try? Drop the binary file there to register the asset automatically (preferred), or click the button below to create a verification directly.";
+            } else if (['wip', 'fewusers'].includes(pageVerdict)) {
+              document.getElementById('verificationMessage').innerHTML = "Nobody tried to build this application to check if it's reproducible. Do you like to be the first? Drop the binary file there to register the asset automatically (preferred), or click the button below to create a verification directly.";
             }
           }
+
+          document.getElementById('verificationMessage').innerHTML += '<br><a href="/new_verification/?appId={{page.appId}}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">' + (attestationsInfo.hasVerifications ? 'Create a new verification' : 'Create verification') + '</a>';
         };
       </script>
     {% else %}
