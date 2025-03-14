@@ -1,5 +1,7 @@
 ---
-# Basic Information
+# Template Version: Alpha 2
+# This template contains the standard structure for custodian reviews.
+# Please fill in all relevant fields and remove any that don't apply.
 layout: reviewCustodian
 title: ""  # Full legal name of the company
 platformReview:
@@ -8,194 +10,129 @@ platformReview:
 icon: ""  # Company logo filename (jpg/jpeg/png)
 
 custodian:
-  # Crunchbase company profile URL
-  crunchbaseUrl: ""
+  crunchbaseUrl: ""  # Crunchbase company profile URL
 
   leadership:
-    # Format: 🏴 "Country Name" (use country flag emoji)
-    jurisdiction: ""
-    # Number of years since founding
-    yearsInBusiness: ""
+    jurisdiction: ""  # Format: 🏴 "Country Name" (use country flag emoji)
+    yearsInBusiness: ""  # Number of years since founding
     ceo:
       name: ""
       position: ""
-      # Format: "YYYY-present" or "YYYY-YYYY"
-      tenure: ""
+      tenure: ""  # Format: "YYYY-present" or "YYYY-YYYY"
       nationality: ""
-      # Path to CEO photo in /images/wIcons/custodians/leadership/
-      photo: ""
+      photo: ""  # Path to CEO photo in /images/wIcons/custodians/leadership/
       social:
         twitter: ""  # X/Twitter profile URL
         linkedin: ""  # LinkedIn profile URL
-        github: ""   # Optional: GitHub profile URL
-    # Key team members and their roles
+        github: ""  # GitHub profile URL
     team:
       - name: ""
         role: ""
-    # Source URL for team information
-    teamSource: ""
+    teamSource: ""  # Source URL for team information
 
-  # Mobile Apps
   androidApp:
     name: ""  # App name as shown in Play Store
-    url: "/android/[package.name]"  # Internal review URL
+    url: ""  # Internal review URL format: "/android/[package.name]"
 
   iphoneApp:
     name: ""  # App name as shown in App Store
-    url: "/iphone/[bundle.id]"  # Internal review URL
+    url: ""  # Internal review URL format: "/iphone/[bundle.id]"
   
   webApp:
     name: ""  # Web wallet name
-    url: "/others/[domain]"  # Internal review URL
+    url: ""  # Internal review URL format: "/others/[domain]"
+    icon: ""  # Optional: Font Awesome icon class
 
   browserExtension:
     name: ""  # Extension name
-    url: "/others/ext.[name]"  # Internal review URL
+    url: ""  # Internal review URL format: "/others/ext.[name]"
 
-  # Hot/Cold Wallet Design
+  desktopApp:
+    name: ""  # Desktop application name
+    url: ""  # Internal review URL format
+    platform: ""  # Options: "Windows", "MacOS", "Linux", or multiple comma-separated
+
   hotColdDesign:
-    # Status options:
-    # - "published": Full documentation available
-    # - "outdated": Documentation exists but not current
-    # - "partial": Some documentation available
-    # - "none": No documentation available
-    status: ""
-    # Format: YYYY-MM-DD
-    lastUpdated: 
-    # Detailed description of storage architecture
-    details: ""
-    # URL to official documentation
-    documentation_url: ""
-    # Optional: Additional analysis of the design
-    analysis: ""
-    # Optional: Additional documentation URLs
-    supporting_urls:
+    status: ""  # Options: "published", "outdated", "partial", "none"
+    lastUpdated:  # Format: YYYY-MM-DD
+    details: ""  # Detailed description of storage architecture
+    documentation_url: ""  # URL to official documentation
+    analysis: ""  # Additional analysis of the design
+    supporting_urls:  # Additional documentation URLs
       - ""
 
-  # Bitcoin Focus Assessment
   bitcoinFocus:
-    # Status options:
-    # - "bitcoin-only": Exclusively Bitcoin
-    # - "bitcoin-optimized": Bitcoin primary focus with limited alts
-    # - "multi-currency": Multiple cryptocurrencies supported
-    status: ""
-    # Number of tradable assets
-    tradableAssets: ""
-    # Number of trading pairs
-    tradingPairs: ""
-    # Number of assets available for custody
-    custodyAssets: ""
-    # URL to complete asset listing
-    CompleteList: ""
+    status: ""  # Options: "bitcoin-only", "bitcoin-optimized", "multi-currency"
+    tradableAssets: ""  # Number of tradable assets
+    tradingPairs: ""  # Number of trading pairs
+    custodyAssets: ""  # Number of assets available for custody
+    CompleteList: ""  # URL to complete asset listing
 
-  # Proof of Reserves
   proofOfReserves:
-    # Status options and explanations:
-    # - "cryptographic": Uses cryptographic verification (e.g., Merkle Tree)
-    # - "traditional-audit": Uses traditional financial audits
-    # - "partial": Incomplete or limited proof system
-    # - "none": No proof of reserves system
-    status: ""
-    # Detailed explanation of proof system
-    details: ""
-    # How often audits/verifications occur
-    auditFrequency: ""
-    # Year of last audit/verification
-    lastAudit: ""
-    # URL to audit report or verification system
-    auditUrl: ""
-    # Current development status if applicable
-    developmentStatus: ""
-    # URL to development updates/roadmap
-    developmentUrl: ""
+    status: ""  # Options: "cryptographic", "traditional-audit", "partial", "none"
+    details: ""  # Detailed explanation of proof system
+    auditFrequency: ""  # How often audits/verifications occur
+    lastAudit: ""  # Year of last audit/verification
+    auditUrl: ""  # URL to audit report or verification system
+    developmentStatus: ""  # Current development status if applicable
+    developmentUrl: ""  # URL to development updates/roadmap
 
-  # Operational Metrics
   operations:
-    users: ""
+    users: ""  # Number of users
     cryptographicProof:
-      btcAmount: ""
-      totalAssets: ""
-      lastUpdated: ""
-      source: ""
-      sourceUrl: ""
-      valid: false
+      btcAmount: ""  # Amount of BTC verified cryptographically
+      totalAssets: ""  # Total value of assets verified cryptographically
+      lastUpdated: ""  # Date of last cryptographic verification
+      source: ""  # Source of cryptographic verification
+      sourceUrl: ""  # URL to verification source
+      valid: false  # Boolean: is the proof valid and current
 
     thirdPartyAudit:
-      btcAmount: ""
-      totalAssets: ""
-      lastUpdated: ""
-      source: ""
-      sourceUrl: ""
-      valid: false
-      
+      btcAmount: ""  # Amount of BTC verified by third party
+      totalAssets: ""  # Total value of assets verified by third party
+      lastUpdated: ""  # Date of last third-party verification
+      source: ""  # Name of third-party auditor
+      sourceUrl: ""  # URL to audit report
+      valid: false  # Boolean: is the audit valid and current
+    
     selfReported:
-      btcAmount: ""
-      totalAssets: ""
-      lastUpdated: ""
-      source: ""
-      sourceUrl: ""
-      valid: false
+      btcAmount: ""  # Amount of BTC self-reported
+      totalAssets: ""  # Total value of assets self-reported
+      lastUpdated: ""  # Date of last self-report
+      source: ""  # Source of self-reported figures
+      sourceUrl: ""  # URL to self-report
+      valid: false  # Boolean: is the self-report valid and current
 
-  # Security Track Record
+    notes: |  # Additional notes about operations (supports HTML)
+      
+
   trackRecord:
-    # Brief overview of security history
-    history: ""
-    # List of security incidents
-    incidentHistory:
+    history: ""  # Brief overview of security history
+    incidentHistory:  # List of security incidents
       - description: ""
         date: ""  # Format: "Month YYYY"
-        url: ""   # URL to incident report/news
-    # Source for incident information
-    sourceIncidents: ""
-    # Most recent incident date
-    lastIncident: ""
-    # Insurance coverage details
-    insuranceCoverage: ""
-    # URL to insurance terms
-    insuranceTermsUrl: ""
+        url: ""  # URL to incident report/news
+    sourceIncidents: ""  # Source for incident information
+    lastIncident: ""  # Most recent incident date
+    insuranceCoverage: ""  # Insurance coverage details
+    insuranceTermsUrl: ""  # URL to insurance terms
 
-  # Business Model
   businessModel:
-    # Primary business type
-    type: ""
-    # List of services offered
-    services:
+    type: ""  # Primary business type
+    services:  # List of services offered
       - name: ""
         url: ""  # URL to service documentation
-    # Revenue sources
-    revenueStreams:
+    revenueStreams:  # Revenue sources
       - type: ""
         details: ""
 
-  # Risk Assessment
   riskAssessment:
-    # Boolean: offers derivative trading
-    derivatives: 
-    # List of derivative products if applicable
-    derivativesList:
+    derivatives: false  # Boolean: offers derivative trading
+    derivativesList:  # List of derivative products if applicable
       - name: ""
         url: ""
-    # Boolean: lists meme coins
-    memecoins: 
-    # List of meme coins if applicable
-    memecoinList:
-      - name: ""
-        url: ""
-    # Boolean: offers gambling features
-    gambling: 
-
-  # Bitcoin Ecosystem Contribution
-  bitcoinContribution:
-    # Boolean: contributes to FOSS development
-    fossDevelopment: 
-    # Boolean: conducts research
-    research: 
-    # Boolean: supports protocol development
-    protocolSupport: 
-    # URL to research publications
-    research_url: ""
-    # List of contributions
-    contributions:
+    memecoins: false  # Boolean: lists meme coins
+    memecoinList:  # List of meme coins if applicable
       - name: ""
         url: ""
   
