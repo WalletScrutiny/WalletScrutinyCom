@@ -4,6 +4,7 @@ title: Poloniex Crypto Exchange
 altTitle: 
 authors:
 - leo
+- danny
 appId: com.plunien.app.Poloniex
 appCountry: 
 idd: 1234141021
@@ -17,10 +18,10 @@ repository:
 issue: 
 icon: com.plunien.app.Poloniex.jpg
 bugbounty: 
-meta: defunct
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2023-06-21
+date: 2025-03-14
 signer: 
 reviewArchive:
 - date: 2021-05-20
@@ -35,6 +36,12 @@ features:
 developerName: Polo Digital Assets, Ltd
 
 ---
+
+## Update 2025-03-14
+
+This app is available.
+
+## Previous Review 2023-06-21
 
 This app is not primarily advertised as a wallet. It is an interface to a crypto
 exchange but on the App Store description we read:
