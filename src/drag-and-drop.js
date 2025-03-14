@@ -296,7 +296,7 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, all
     if (version) { urlParams += `&version=${encodeURIComponent(version)}`; }
     const platformFromFile = getPlatformFromFilename(file.name, apkInfo);
     if (platformFromFile) {
-        urlParams += `&platform=${encodeURIComponent(platformFromFile)}`;
+        urlParams += `&platform=${encodeURIComponent(platformFromFile ?? platform)}`;
     }
 
     if (!hasAssets && !hasVerifications ) {
