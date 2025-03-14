@@ -20,11 +20,22 @@ issue: https://github.com/michaelWuensch/BitBanana/issues/95
 icon: app.michaelwuensch.bitbanana.png
 bugbounty: 
 meta: ok
-verdict: wip
-appHashes: []
-date: 2024-01-02
+verdict: reproducible
+appHashes:
+- 426154e8f2e8d35516cfeedbc6cbd46a0d858ce29113332150a5cb2ac4254bca
+- 40dc6d9e97c40a9fe6e581d097c85df5b86336d56f3b60617670cc8ecef3d135
+- c0185e90f5622ff0955394f91d748b42c1539a6390011cd65306b8d09c224908
+date: 2025-03-07
 signer: 98d818b12efa005735dc3d6b6ed78a05d8f75629e0afaf001655ed6aacfd2884
 reviewArchive:
+- date: 2024-01-02
+  version: 0.8.9
+  appHashes:
+  - e7affe23ce103db8283001a023a4e03676a8fe49f167c42809762d8189ff657a
+  - 053c9e37743b36ab574d444df64460e8fd55050604715713423fe47fd7e8deac
+  - 42ee0b6f7b85e704b71357a0cb07678ca11cae38f56c9f4522c0bbfbe502c0bd
+  gitRevision: c7352ffe4c17654cdfc05bc24ff60c5832de792d
+  verdict: nonverifiable
 - date: 2024-01-02
   version: 0.8.8
   appHashes:
@@ -52,9 +63,196 @@ features:
 
 ---
 
-## Updated on 2025-01-07
+## Updated on 2025-03-06 for version 0.9.0
 
-We endeavored to adapt the comparison process to comparing via the [testAAB.sh script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/testAAB.sh). 
+There are new [reproducibility verification instructions](https://github.com/michaelWuensch/BitBanana/blob/master/docs/REPRODUCE_PLAYSTORE.md) from the developer. We incorporated our own methodology while also adhering to bitbanana's own verification instructions.
+
+### Results via testAAB.sh
+
+{% include diffoscope-modal.html label='Diffoscope armeabi_v7a.apk' url='/assets/diffoscope-results/android/app.michaelwuensch.bitbanana/0.9.0/diffo-armeabi.html' %}
+
+```
+Differences found between /tmp/test_app.michaelwuensch.bitbanana_0.9.0/fromPlay-unzipped/armeabi_v7a and /tmp/test_app.michaelwuensch.bitbanana_0.9.0/fromBuild-unzipped/armeabi_v7a
+Binary files /tmp/test_app.michaelwuensch.bitbanana_0.9.0/fromPlay-unzipped/armeabi_v7a/AndroidManifest.xml and /tmp/test_app.michaelwuensch.bitbanana_0.9.0/fromBuild-unzipped/armeabi_v7a/AndroidManifest.xml differ
+Only in /tmp/test_app.michaelwuensch.bitbanana_0.9.0/fromPlay-unzipped/armeabi_v7a: META-INF
+Only in /tmp/test_app.michaelwuensch.bitbanana_0.9.0/fromPlay-unzipped/armeabi_v7a: stamp-cert-sha256
+```
+
+The diff in AndroidManifest.xml: 
+
+```
+<meta-data·android:name="com.android.vending.derived.apk.id"·android:value="3"/>
+ 	5	··</application>
+```
+<hr />
+
+{% include diffoscope-modal.html label='Diffoscope base.apk' url='/assets/diffoscope-results/android/app.michaelwuensch.bitbanana/0.9.0/diffo-base.html' %}
+
+```
+Comparing base...
+Differences found between /tmp/test_app.michaelwuensch.bitbanana_0.9.0/fromPlay-unzipped/base and /tmp/test_app.michaelwuensch.bitbanana_0.9.0/fromBuild-unzipped/base
+Binary files /tmp/test_app.michaelwuensch.bitbanana_0.9.0/fromPlay-unzipped/base/AndroidManifest.xml and /tmp/test_app.michaelwuensch.bitbanana_0.9.0/fromBuild-unzipped/base/AndroidManifest.xml differ
+Binary files /tmp/test_app.michaelwuensch.bitbanana_0.9.0/fromPlay-unzipped/base/resources.arsc and /tmp/test_app.michaelwuensch.bitbanana_0.9.0/fromBuild-unzipped/base/resources.arsc differ
+Only in /tmp/test_app.michaelwuensch.bitbanana_0.9.0/fromPlay-unzipped/base: stamp-cert-sha256
+```
+
+For base.apk, **AndroidManifest.xml** differs in 3 lines:
+
+```
+····<meta-data·android:name="com.android.stamp.source"·android:value="https://play.google.com/store"/>
+ 	149	····<meta-data·android:name="com.android.stamp.type"·android:value="STAMP_TYPE_DISTRIBUTION_APK"/>
+<meta-data·android:name="com.android.vending.derived.apk.id"·android:value="3"/>
+```  
+
+resources.arsc differs at offset **00108b30**. Take note: *"no file-specific differences were detected; falling back to a binary diff."*
+
+```
+00108b30:·7330·0000·0202·1000·dc00·0000·0100·0000··s0..............
+
+00108b30:·7330·0000·0202·1000·dc00·0000·0100·0100··s0..............
+```
+
+<hr />
+{% include diffoscope-modal.html label='Diffoscope xhdpi.apk' url='/assets/diffoscope-results/android/app.michaelwuensch.bitbanana/0.9.0/diffo-xhdpi.html' %}
+
+```
+Comparing xhdpi...
+Differences found between /tmp/test_app.michaelwuensch.bitbanana_0.9.0/fromPlay-unzipped/xhdpi and /tmp/test_app.michaelwuensch.bitbanana_0.9.0/fromBuild-unzipped/xhdpi
+Binary files /tmp/test_app.michaelwuensch.bitbanana_0.9.0/fromPlay-unzipped/xhdpi/AndroidManifest.xml and /tmp/test_app.michaelwuensch.bitbanana_0.9.0/fromBuild-unzipped/xhdpi/AndroidManifest.xml differ
+Only in /tmp/test_app.michaelwuensch.bitbanana_0.9.0/fromPlay-unzipped/xhdpi: META-INF
+Binary files /tmp/test_app.michaelwuensch.bitbanana_0.9.0/fromPlay-unzipped/xhdpi/resources.arsc and /tmp/test_app.michaelwuensch.bitbanana_0.9.0/fromBuild-unzipped/xhdpi/resources.arsc differ
+Only in /tmp/test_app.michaelwuensch.bitbanana_0.9.0/fromPlay-unzipped/xhdpi: stamp-cert-sha256
+```
+
+2 lines differ in xhdpi's AndroidManifest.xml: 
+
+```
+····<meta-data·android:name="com.android.vending.derived.apk.id"·android:value="3"/>
+ 	5	··</application>
+```
+
+For resources.arsc, it was mentioned that *"...no file-specific differences were detected; falling back to a binary diff."* 
+
+```
+000014c0:·0000·0000·0202·1000·3005·0000·0800·0000··........0.......
+
+000014c0:·0000·0000·0202·1000·3005·0000·0800·0300··........0.......
+```
+
+## Diff Results Using BitBanana's Own Script '[Diff.py](https://github.com/michaelWuensch/BitBanana/blob/master/reproducible-builds/Diff.py)':
+
+```
+BUILD SUCCESSFUL in 3m 45s
+48 actionable tasks: 46 executed, 2 up-to-date
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 31.0M  100 31.0M    0     0  65.9M      0 --:--:-- --:--:-- --:--:--  189M
+-rw-r--r-- 1 danny danny 32M Mar  6 10:41 bundletool.jar
+deviceSpec variable not set or file not found
+Creating a basic device-spec.json file...
+Created device-spec.json with default values
+device-spec.json contents:
+{
+  "supportedAbis": ["armeabi-v7a"],
+  "supportedLocales": ["en"],
+  "screenDensity": 280,
+  "sdkVersion": 31
+}
+WARNING: The APKs won't be signed and thus not installable unless you also pass a keystore via the flag --ks. See the command help for more information.
+Copying produced artifacts for testAAB.sh comparison
+Copying Play Store APKs from /var/shared/apk/app.michaelwuensch.bitbanana/0.9.0/ to ./reproducible-builds/apks/playstore-apks/
+========================================
+Executing python script to format output
+========================================
+Successfully decoded: /tmp/test_app.michaelwuensch.bitbanana_0.9.0/bitbanana/reproducible-builds/extracted_apks/built-apks/split_config.xhdpi.apk
+Output: I: Using Apktool 2.7.0-dirty on split_config.xhdpi.apk
+I: Loading resource table...
+I: Decoding AndroidManifest.xml with resources...
+I: Loading resource table from file: /home/danny/.local/share/apktool/framework/1.apk
+I: Regular manifest package...
+I: Decoding file-resources...
+I: Decoding values */* XMLs...
+I: Copying assets and libs...
+I: Copying unknown files...
+I: Copying original files...
+
+Successfully decoded: /tmp/test_app.michaelwuensch.bitbanana_0.9.0/bitbanana/reproducible-builds/extracted_apks/built-apks/base.apk
+Output: I: Using Apktool 2.7.0-dirty on base.apk
+I: Loading resource table...
+I: Decoding AndroidManifest.xml with resources...
+I: Loading resource table from file: /home/danny/.local/share/apktool/framework/1.apk
+I: Regular manifest package...
+I: Decoding file-resources...
+I: Decoding values */* XMLs...
+I: Baksmaling classes.dex...
+I: Baksmaling classes2.dex...
+I: Baksmaling classes3.dex...
+I: Baksmaling classes4.dex...
+I: Baksmaling classes5.dex...
+I: Copying assets and libs...
+I: Copying unknown files...
+I: Copying original files...
+I: Copying META-INF/services directory
+
+Successfully decoded: /tmp/test_app.michaelwuensch.bitbanana_0.9.0/bitbanana/reproducible-builds/extracted_apks/built-apks/split_config.armeabi_v7a.apk
+Output: I: Using Apktool 2.7.0-dirty on split_config.armeabi_v7a.apk
+I: Decoding AndroidManifest.xml with only framework resources...
+I: Loading resource table from file: /home/danny/.local/share/apktool/framework/1.apk
+I: Copying assets and libs...
+I: Copying unknown files...
+I: Copying original files...
+
+Successfully decoded: /tmp/test_app.michaelwuensch.bitbanana_0.9.0/bitbanana/reproducible-builds/extracted_apks/playstore-apks/split_config.xhdpi.apk
+Output: I: Using Apktool 2.7.0-dirty on split_config.xhdpi.apk
+I: Loading resource table...
+I: Decoding AndroidManifest.xml with resources...
+I: Loading resource table from file: /home/danny/.local/share/apktool/framework/1.apk
+I: Regular manifest package...
+I: Decoding file-resources...
+I: Decoding values */* XMLs...
+I: Copying assets and libs...
+I: Copying unknown files...
+I: Copying original files...
+
+Successfully decoded: /tmp/test_app.michaelwuensch.bitbanana_0.9.0/bitbanana/reproducible-builds/extracted_apks/playstore-apks/base.apk
+Output: I: Using Apktool 2.7.0-dirty on base.apk
+I: Loading resource table...
+I: Decoding AndroidManifest.xml with resources...
+I: Loading resource table from file: /home/danny/.local/share/apktool/framework/1.apk
+I: Regular manifest package...
+I: Decoding file-resources...
+I: Decoding values */* XMLs...
+I: Baksmaling classes.dex...
+I: Baksmaling classes2.dex...
+I: Baksmaling classes3.dex...
+I: Baksmaling classes4.dex...
+I: Baksmaling classes5.dex...
+I: Copying assets and libs...
+I: Copying unknown files...
+I: Copying original files...
+I: Copying META-INF/services directory
+
+Successfully decoded: /tmp/test_app.michaelwuensch.bitbanana_0.9.0/bitbanana/reproducible-builds/extracted_apks/playstore-apks/split_config.armeabi_v7a.apk
+Output: I: Using Apktool 2.7.0-dirty on split_config.armeabi_v7a.apk
+I: Decoding AndroidManifest.xml with only framework resources...
+I: Loading resource table from file: /home/danny/.local/share/apktool/framework/1.apk
+I: Copying assets and libs...
+I: Copying unknown files...
+I: Copying original files...
+
+==============================================
+Running Bitbanana's Internal Comparison Script
+==============================================
+No differences found.
+```
+## Asciicast
+
+{% include asciicast %}
+
+## Analysis 
+
+The diffs are expected and minimal. Our findings match the findings of Bitbanana's own script. Both lead to the conclusion that version 0.9.0 is **reproducible**.
 
 ### Process
 
@@ -66,21 +264,9 @@ To make use of the testAAB.sh script, we need to download the latest version of 
 
 There is usually 3 or 4 apks produced using this process placed in a folder.
 
-**Step 2.** Download the device-spec.json file from your device
+**Step 2.** The device-spec.json file is now auto-generated
 
-Use the device-spec_extractor.sh script to download the device-spec.json file from your device.
-
-`$ ./device-spec_extractor.sh`
-
-**Step 3.** Source the device-spec.json file
-
-Modify this line in the scripts/test/android/app.michaelwuensch.bitbanana.sh
-
-`deviceSpec="/var/shared/device-spec/a11/device-spec.json"`
-
-Change the directory to the location of **your** device-spec.json file.
-
-**Step 4.** Run testAAB.sh
+**Step 3.** Run testAAB.sh
 
 When using testAAB.sh locally, take note of the folder location of the app.
 
@@ -88,69 +274,7 @@ Invoke:
 
 `$ testAAB.sh -d /path/to/apk-directory`
 
-This script has been tested on the latest version of BitBanana (0.8.9) and the test results are as follows:
-
-```
-armeabi_v7a.apk
-
-Binary files /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromPlay-unzipped/armeabi_v7a/AndroidManifest.xml and /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromBuild-unzipped/armeabi_v7a/AndroidManifest.xml differ
-Only in /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromPlay-unzipped/armeabi_v7a: META-INF
-Only in /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromPlay-unzipped/armeabi_v7a: stamp-cert-sha256
-
-base.apk 
-
-Binary files /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromPlay-unzipped/base/AndroidManifest.xml and /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromBuild-unzipped/base/AndroidManifest.xml differ
-Binary files /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromPlay-unzipped/base/assets/dexopt/baseline.prof and /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromBuild-unzipped/base/assets/dexopt/baseline.prof differ
-Binary files /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromPlay-unzipped/base/assets/dexopt/baseline.profm and /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromBuild-unzipped/base/assets/dexopt/baseline.profm differ
-Binary files /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromPlay-unzipped/base/classes4.dex and /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromBuild-unzipped/base/classes4.dex differ
-Binary files /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromPlay-unzipped/base/classes5.dex and /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromBuild-unzipped/base/classes5.dex differ
-Binary files /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromPlay-unzipped/base/classes.dex and /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromBuild-unzipped/base/classes.dex differ
-Binary files /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromPlay-unzipped/base/res/xml/splits0.xml and /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromBuild-unzipped/base/res/xml/splits0.xml differ
-Binary files /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromPlay-unzipped/base/resources.arsc and /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromBuild-unzipped/base/resources.arsc differ
-Only in /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromPlay-unzipped/base: stamp-cert-sha256
-
-xhdpi.apk
-
-Binary files /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromPlay-unzipped/xhdpi/AndroidManifest.xml and /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromBuild-unzipped/xhdpi/AndroidManifest.xml differ
-Only in /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromPlay-unzipped/xhdpi: META-INF
-Binary files /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromPlay-unzipped/xhdpi/resources.arsc and /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromBuild-unzipped/xhdpi/resources.arsc differ
-Only in /tmp/test_app.michaelwuensch.bitbanana_0.8.9/fromPlay-unzipped/xhdpi: stamp-cert-sha256
-```
-
-## Excluding signing-related diffs:  
-
-### In armeabi_v7a.apk only AndroidManifest.xml differs 
-
-  {% include diffoscope-modal.html label='AndroidManifest.xml' url='/assets/diffoscope-results/android/app.michaelwuensch.bitbanana/0.8.9/diffoscope_armeabi_v7a_AndroidManifest.html' %}
-
-### In base.apk, the following files differ:
-
-  {% include diffoscope-modal.html label='AndroidManifest.xml' url='/assets/diffoscope-results/android/app.michaelwuensch.bitbanana/0.8.9/diffoscope_base_AndroidManifest.html' %}
-  
-  {% include diffoscope-modal.html label='classes.dex' url='/assets/diffoscope-results/android/app.michaelwuensch.bitbanana/0.8.9/diffoscope_base_classes.dex.html' %}
-  
-  {% include diffoscope-modal.html label='classes4.dex' url='/assets/diffoscope-results/android/app.michaelwuensch.bitbanana/0.8.9/diffoscope_base_classes4.dex.html' %}
-  
-  {% include diffoscope-modal.html label='classes5.dex' url='/assets/diffoscope-results/android/app.michaelwuensch.bitbanana/0.8.9/diffoscope_base_classes5.dex.html' %}
-  
-  {% include diffoscope-modal.html label='baseline.prof' url='/assets/diffoscope-results/android/app.michaelwuensch.bitbanana/0.8.9/diffoscope_base_baseline.prof.html' %}
-
-  {% include diffoscope-modal.html label='baseline.profm' url='/assets/diffoscope-results/android/app.michaelwuensch.bitbanana/0.8.9/diffoscope_base_baseline.profm.html' %}
-   
-
-### In xhdpi.apk, the following files differ: 
-  
-  {% include diffoscope-modal.html label='AndroidManifest.xml' url='/assets/diffoscope-results/android/app.michaelwuensch.bitbanana/0.8.9/diffoscope_xhdpi_AndroidManifest.xml.html' %}
-  
-
-We are currently in the process of investigating the cause for the remaining diffs. While doing so, we can conclude that version 0.8.9 is **nonverifiable**.
-
 ## App Description from Google Play
 
 > BitBanana is a native android app for node operators focused on user experience and ease of use. While it is not a wallet on its own, BitBanana works like a remote control allowing you to use your node as a wallet wherever you go. The app is designed with an educational approach, providing the user with guidance on every aspect of node operation.
 
-## Analysis
-
-While not explicitly a wallet, it does incorporate features that are akin to a wallet. The user initializes by connecting to a bitcoin lightning node. Once connected to a node, features such as backup, restore and other wallet features such as send and receive are made available. 
-
-The provider has provided links to F-Droid and has self-described as reproducible. This app is [**for verification**](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/512)
