@@ -10,4 +10,9 @@
   {% include /review/securitySteps.html platform=platform filterPlatform=filterPlatform meta=meta verdict=verdict %}
   {% include /review/seeAlso.html wsId=wsId platform=platform %}
   <div class="spacer x2"></div>
+  {% assign verdicts_without_verifications = 'fewusers,custodial,nosource,nowallet,fake,nobtc,nosendreceive,obfuscated,wip' | split: ',' %}
+  {% if verdicts_without_verifications contains verdict %}
+    {% include /review/results.html %}
+    <div class="spacer x2"></div>
+  {% endif %}
 </div>
