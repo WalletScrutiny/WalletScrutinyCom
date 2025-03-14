@@ -139,7 +139,7 @@ async function setFormFields(hash, appData, fileName, apkInfo) {
     }
 
     if (document.getElementById('platform')) {
-        document.getElementById('platform').value = getPlatformFromFilename(fileName);
+        document.getElementById('platform').value = getPlatformFromFilename(fileName, apkInfo);
     }
 }
 
@@ -294,9 +294,9 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, all
     let urlParams = `?sha256=${encodeURIComponent(hash)}`;
     if (appId) { urlParams += `&appId=${encodeURIComponent(appId)}`; }
     if (version) { urlParams += `&version=${encodeURIComponent(version)}`; }
-    const platformFromFile = getPlatformFromFilename(file.name);
+    const platformFromFile = getPlatformFromFilename(file.name, apkInfo);
     if (platformFromFile) {
-        urlParams += `&platform=${encodeURIComponent(platform)}`;
+        urlParams += `&platform=${encodeURIComponent(platformFromFile)}`;
     }
 
     if (!hasAssets && !hasVerifications ) {
@@ -320,10 +320,12 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, all
     updateDomElementInClass('textbox', fileInfoHtml, dropAreaElement);
 }
 
-function getPlatformFromFilename(filename) {
+function getPlatformFromFilename(filename, apkInfo = null) {
     const extension = filename.split('.').pop().toLowerCase();
 
-    if (['exe', 'msi', 'msix', 'appx'].includes(extension)) {
+    if (apkInfo || ['apk', 'aab'].includes(extension)) {
+        return 'android';
+    } else if (['exe', 'msi', 'msix', 'appx'].includes(extension)) {
         return 'windows';
     } else if (['appimage', 'deb', 'rpm', 'flatpak', 'snap'].includes(extension)) {
         return 'linux';
@@ -331,8 +333,6 @@ function getPlatformFromFilename(filename) {
         return 'macos';
     } else if (['ipa'].includes(extension)) {
         return 'ios';
-    } else if (['apk', 'aab'].includes(extension)) {
-        return 'android';
     }
 
     return null;
