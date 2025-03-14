@@ -19,6 +19,7 @@ function getStatusFromVerdict(verdict) {
 console.debug = function() {};
 
 async function parseFile(filePath, folderName) {
+    const verdictsToIgnore = ['fewusers', 'custodial', 'nosource', 'nowallet', 'fake', 'nobtc', 'nosendreceive', 'obfuscated', 'wip'];
     try {
         console.debug(`Reading file: ${filePath}`);
         const content = fs.readFileSync(filePath, 'utf8');
@@ -109,7 +110,7 @@ async function parseFile(filePath, folderName) {
                     review.appHashes.forEach(hash => console.log('    -', hash));
                 }
 
-                if (!['fewusers', 'custodial', 'nosource', 'nowallet', 'fake', 'nobtc', 'nosendreceive', 'obfuscated', 'wip'].includes(review.verdict)) {
+                if (!verdictsToIgnore.includes(review.verdict)) {
                     await createNostrEvents({
                         hashes: review.appHashes,
                         appId,
@@ -139,7 +140,7 @@ async function parseFile(filePath, folderName) {
             //console.error(data);
             //process.exit(1);
         } else {
-            if (!['fewusers', 'custodial', 'nosource', 'nowallet', 'fake', 'nobtc', 'nosendreceive', 'obfuscated', 'wip'].includes(data.verdict)) {
+            if (!verdictsToIgnore.includes(data.verdict)) {
                 await createNostrEvents({
                     hashes: appHashes,
                     appId,
