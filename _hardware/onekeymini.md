@@ -19,7 +19,7 @@ shop: >-
 country: SG
 price: 48USD
 repository: https://github.com/OneKeyHQ/firmware
-issue: https://github.com/OneKeyHQ/firmware/issues/404#issuecomment-1633287406
+issue: https://github.com/OneKeyHQ/firmware/issues/579#issuecomment-2721075263
 icon: onekeymini.png
 bugbounty: 
 meta: ok
@@ -288,6 +288,10 @@ Based on our testing, the OneKey Mini firmware v3.9.0 is **not verifiable** in t
 ## Addendum 
 
 We ran another build with slightly different results, but feel that it could give a further insight on the build process. We posted this on a [gist](https://gist.github.com/xrviv/18c82e2882c16eb3d6bc84f39c362aec).
+
+## Updated Issue
+
+We [updated the issue](https://github.com/OneKeyHQ/firmware/issues/579#issuecomment-2721075263) for the OneKeyMini reproducible build to inform the developers of our findings.
 
 ## Product Description
 
