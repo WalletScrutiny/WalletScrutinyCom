@@ -18,7 +18,7 @@ repository: https://github.com/atomex-me/atomex.mobile
 issue: https://github.com/atomex-me/atomex.mobile/issues/24
 icon: com.atomex.android.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nonverifiable
 appHashes: 
 date: 2022-02-25

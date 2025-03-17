@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: existv2.com.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 appHashes: 
 date: 2022-06-23

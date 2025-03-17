@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.mobiroller.mobi1940242759392.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 appHashes: 
 date: 2023-09-28

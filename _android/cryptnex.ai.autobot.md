@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: cryptnex.ai.autobot.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nowallet
 appHashes: 
 date: 2023-06-12

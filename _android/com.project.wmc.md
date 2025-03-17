@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.project.wmc.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-06-02

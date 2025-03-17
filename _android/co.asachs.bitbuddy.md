@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: co.asachs.bitbuddy.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-05-10

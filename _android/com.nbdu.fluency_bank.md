@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.nbdu.fluency_bank.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 appHashes: 
 date: 2023-05-31

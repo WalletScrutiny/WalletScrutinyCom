@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.goarbit.goarbit.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-02-01

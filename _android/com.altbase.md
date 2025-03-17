@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.altbase.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
 appHashes: 
 date: 2023-08-24

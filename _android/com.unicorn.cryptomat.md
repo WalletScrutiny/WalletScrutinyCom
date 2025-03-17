@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.unicorn.cryptomat.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nowallet
 appHashes: 
 date: 2023-06-07

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.europefx.app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosendreceive
 appHashes: 
 date: 2023-08-02

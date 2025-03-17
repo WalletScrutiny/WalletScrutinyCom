@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.velic.mts.vex.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-05-03

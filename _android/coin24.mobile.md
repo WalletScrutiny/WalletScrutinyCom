@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: coin24.mobile.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-04-20

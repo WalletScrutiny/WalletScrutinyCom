@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.zedXeWallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 appHashes: 
 date: 2023-06-12

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: app.cex_trade.io.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fake
 appHashes: 
 date: 2023-07-02

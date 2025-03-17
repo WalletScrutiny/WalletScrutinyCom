@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.app.cryptobiz.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 appHashes: 
 date: 2023-06-30

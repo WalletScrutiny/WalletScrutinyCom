@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.allcoinwallet.allcoinwallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2021-08-09

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.hanryubank.fnsWallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-04-07

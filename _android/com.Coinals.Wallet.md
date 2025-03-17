@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.Coinals.Wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2021-11-22

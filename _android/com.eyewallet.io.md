@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.eyewallet.io.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-05-25

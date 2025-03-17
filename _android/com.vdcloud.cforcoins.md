@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.vdcloud.cforcoins.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 appHashes: 
 date: 2023-04-12
