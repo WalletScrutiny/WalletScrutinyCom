@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: co.realt.bridge.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
 appHashes: 
 date: 2022-01-15

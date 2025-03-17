@@ -35,6 +35,10 @@ features:
 
 ---
 
+## Update 2025-03-15
+
+While processing apps that seem to have been removed from the iPhone store, we noticed that some have merely undergone a "rebrand". Blockbank app is one of them. It is now known as pairs, but has retained its app ID and WalletScrutiny ID. 
+
 ## Update 2024-07-20
 
 There have been no recent public updates on the release of its source code.

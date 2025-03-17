@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.cwallet.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 appHashes: 
 date: 2023-08-25

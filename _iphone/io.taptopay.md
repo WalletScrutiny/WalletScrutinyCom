@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: io.taptopay.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nowallet
 appHashes: 
 date: 2023-09-04

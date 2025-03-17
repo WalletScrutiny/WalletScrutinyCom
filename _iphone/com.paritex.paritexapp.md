@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.paritex.paritexapp.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 appHashes: 
 date: 2023-04-16

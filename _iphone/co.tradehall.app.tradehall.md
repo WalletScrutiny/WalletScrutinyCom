@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: co.tradehall.app.tradehall.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosendreceive
 appHashes: 
 date: 2023-11-02

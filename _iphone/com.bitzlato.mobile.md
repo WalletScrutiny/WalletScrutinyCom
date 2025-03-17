@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.bitzlato.mobile.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-07-20

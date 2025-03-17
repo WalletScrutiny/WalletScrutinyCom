@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.cointral.exchange.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 appHashes: 
 date: 2023-01-11
