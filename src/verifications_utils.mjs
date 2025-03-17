@@ -116,9 +116,11 @@ const createAssetRegistration = async function ({
     ["x", sha256],
     ["ox", sha256],
     ["i", appId],
-    ["version", version],
-    ["platform", platform ?? '']
+    ["version", version]
   ];
+  if (platform) {
+    ndkEvent.tags.push(["platform", platform]);
+  }
 
   eventSanitize(ndkEvent);
 
