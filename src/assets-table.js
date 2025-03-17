@@ -390,7 +390,7 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
             if (exists) {
               downloadIcon.style.display = 'inline';
               downloadIcon.onclick = async () => {
-                showToast('Preparing file to download, wait a moment...', 'info');
+                showToast('Preparing file to download, wait a moment...', 'info', 6000);
 
                 try {
                   const response = await fetch(getBlossomFileURL(hash));
