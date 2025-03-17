@@ -326,7 +326,7 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
         </td>`}
         <td class="hide-on-mobile">
           ${sha256Hashes.length > 0 ? sha256Hashes.map(hash => `
-            <span id="blossom-${hash[1]}" class="blossom-download" style="display: none; cursor: pointer;" title="Download binary from our server">💾</span>
+            <span id="blossom-${hash[1]}" data-appid="${identifier}" data-title="${walletTitle}" data-version="${version}" class="blossom-download" style="display: none; cursor: pointer;" title="Download binary from our server">💾</span>
           `).join('') : '-'}
         </td>
         <td>${binary.isLegacy ? (longStatus ? longStatus : oldInfoStatus) : attestationList}</td>
@@ -390,13 +390,24 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
             if (exists) {
               downloadIcon.style.display = 'inline';
               downloadIcon.onclick = async () => {
+                showToast('Preparing file to download, wait a moment...', 'info');
+
                 try {
                   const response = await fetch(getBlossomFileURL(hash));
                   if (!response.ok) throw new Error(`HTTP ${response.status}`);
 
+                  const filenameFromURL = response.url?.split('/').pop() ?? hash;
+
+                  let filename = '';
+                  if (downloadIcon.getAttribute('data-title') && !downloadIcon.getAttribute('data-title').includes(' ')) {
+                    filename = downloadIcon.getAttribute('data-title') + '-' + downloadIcon.getAttribute('data-version') + '-' + filenameFromURL;
+                  } else {
+                    filename = downloadIcon.getAttribute('data-appid') + '-' + downloadIcon.getAttribute('data-version') + '-' + filenameFromURL;
+                  }
+
                   const a = document.createElement('a');
                   a.href = URL.createObjectURL(await response.blob());
-                  a.download = hash;
+                  a.download = filename;
                   a.click();
                 } catch (error) {
                   showToast('Error downloading file.', 'error');
