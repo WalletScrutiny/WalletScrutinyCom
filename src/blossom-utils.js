@@ -65,6 +65,9 @@ export async function uploadToBlossom(file, hash) {
             console.log('Uploaded blob descriptor:', descriptor);
 
             displayBlossomUploadStatus('Upload complete!', 100);
+
+            setCache(hash, true);
+
             await listUserBlobs(blossomServerUrl);
             displayBlossomUploadSuccess(file.name, hash);
         }
