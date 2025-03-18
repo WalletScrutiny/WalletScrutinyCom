@@ -1,4 +1,4 @@
-import { hasBlob, uploadBlobWithProgress, listUserBlobs } from './blossom.js';
+import { hasBlob, uploadBlobWithProgress } from './blossom.js';
 import { updateDomElement } from './drag-and-drop-utils.js';
 
 const blossomServerUrl = 'https://files.nostr.info';
@@ -76,6 +76,38 @@ export async function uploadToBlossom(file, hash) {
         displayBlossomUploadError(error.message);
     }
 }
+
+// List blobs uploaded by the current user
+/*
+export async function listUserBlobs(serverUrl) {
+    const since = null;
+    const until = null;
+    const requireAuth = true;
+
+    try {
+        const pubKey = await getCurrentPublicKey();
+        console.log('Current public key:', pubKey);
+
+        const blobs = await listBlobs(pubKey, serverUrl, since, until, requireAuth);
+        console.log('Blobs uploaded by pubKey:', pubKey, blobs.length);
+
+        blobs.forEach((blob, index) => {
+            console.log(`Blob ${index + 1}:`);
+            console.log(`  SHA256: ${blob.sha256}`);
+            console.log(`  Created: ${new Date(blob.created * 1000).toLocaleString()}`);
+            console.log(`  Size: ${blob.size} bytes`);
+            console.log(`  Type: ${blob.type}`);
+            console.log(`  URL: ${blob.url}`);
+            console.log('---');
+        });
+    } catch (error) {
+        console.error('Error listing blobs:', error.message);
+        if (error.message.includes('Auth must be signed by the pubkey')) {
+            console.log('Authorization error: Make sure you are signed in with the correct Nostr account.');
+        }
+    }
+}
+*/
 
 export async function checkBlossomFile(hash) {
     // Check cache first
