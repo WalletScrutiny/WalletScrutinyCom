@@ -129,6 +129,9 @@ async function handleSubmit(event) {
 
   try {
     await createAssetRegistration(formData);
+
+    await uploadToBlossom(window.currentFile, window.currentHash);
+
     spinner.style.display = 'none';
     await showToast('Asset registered successfully!');
     window.location.href = '/asset/?sha256=' + formData.sha256;

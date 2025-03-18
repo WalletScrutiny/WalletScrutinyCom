@@ -113,4 +113,5 @@ export function getBlossomFileURL(hash) {
 if (typeof window !== 'undefined') {
     window.checkBlossomFile = checkBlossomFile;
     window.getBlossomFileURL = getBlossomFileURL;
+    window.uploadToBlossom = uploadToBlossom;
 }
