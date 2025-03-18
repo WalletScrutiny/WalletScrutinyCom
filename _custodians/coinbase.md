@@ -237,18 +237,6 @@ custodian:
     customInfrastructure: true
     details: "They run their own servers with dedicated HSMs."
 
-  osint:
-    summary: 
-    entries:
-      - information: "Coinbase Registers with India's Financial Intelligence Unit (FIU). Crypto trading services, initial retail launch later in 2025"
-        date: 2025-03-11
-        source: "Coinbase X Announcement"
-        source_url: https://x.com/coinbase/status/1899430084546629707
-        corroborating_source: 
-        corroborating_source_url: 
-        refutation: 
-        refutation_source_url: 
-        comment: "High growth in crypto interest, India's share of global blockchain developers at 12% in 2023. This is not Coinbase's first foray into India; in 2022, they integrated with the Unified Payments Interface (UPI) for crypto purchases but had to suspend operations due to informal pressure from the Reserve Bank of India (RBI). The current move reflects a renewed push, with a focus on regulatory compliance under the Prevention of Money Laundering Act (PMLA), 2002, which requires virtual digital asset service providers to register with the FIU as reporting entities. This compliance is crucial given India's strict taxation policies, including a 30% tax on trading gains and a 1% tax deducted at source (TDS) on transactions."
 ---
 
 Additional Information: 
@@ -260,7 +248,7 @@ Coinbase's Threshold Signing Service (TSS) is a core part of its custody solutio
 - Nonce protection and validation processes prevent private key leaks.
 - Hardware Security Modules (HSMs) enforce physical security.
 - Encryption, access control, and hybrid participation reduce risks.
-- These methods enhance the security of Coinbase’s custodial wallets, protecting billions in customer assets from hacks, insider threats, and cryptographic attacks.
+- These methods enhance the security of Coinbase's custodial wallets, protecting billions in customer assets from hacks, insider threats, and cryptographic attacks.
 
 Source: https://www.coinbase.com/blog/production-threshold-signing-service
 
@@ -268,7 +256,7 @@ Source: https://www.coinbase.com/blog/production-threshold-signing-service
 
 - Eliminates single points of failure by requiring multi-party control for sensitive operations.
 - Restricts production access to vetted employees, with strict monitoring & immutable logging.
-- Cold storage security via air-gapped key management, Shamir’s Secret Sharing, and geographic key distribution.
+- Cold storage security via air-gapped key management, Shamir's Secret Sharing, and geographic key distribution.
 - Anomaly detection & kill switches for immediate threat response.
 - Consensus-based deployments prevent unauthorized or malicious changes.
 - Full Dockerization for consistent, repeatable, and secure deployments.

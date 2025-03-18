@@ -197,34 +197,4 @@ custodian:
     customInfrastructure: true
     details: "Binance operates its own servers and implements real-time risk monitoring. Private keys for the majority of funds are secured via cold storage with multi-signature setups."
 
-  osint:
-    summary: Recent developments and community discussions about Binance's operations and services.
-    entries:
-      - information: "MGX, an Abu Dhabi sovereign wealth fund, invests $2 billion in @Binance for a minority stake. The transaction will be 100% in crypto (stablecoins), marking it the largest investment transaction done in crypto to date. This is also the first institutional investment @Binance has taken."
-        date: 2025-03-12
-        source: "Changpeng Zhao x.com post"
-        source_url: https://x.com/cz_binance/status/1899832759901626631
-        corroborating_source: "Binance Blog"
-        corroborating_source_url: https://www.binance.com/en/blog/ecosystem/mgx-backs-binance-in-landmark-investment-6242106085221073480?hl=en
-        refutation: 
-        refutation_source_url: 
-        comment:
-      - information: "Former CEO of binance, posts cryptic message on why binance is having regulatory problems in the Philippines"
-        date: 2025-02-27
-        source: "Changpeng Zhao x.com post"
-        source_url: https://x.com/cz_binance/status/1894788379176325421
-        corroborating_source: 
-        corroborating_source_url: 
-        refutation: 
-        refutation_source_url: 
-        comment:  
-      - information: French investigators launch money laundering probe against Binance
-        date: 2025-01-28
-        source: Reuters
-        source_url: https://www.reuters.com/technology/french-investigators-open-money-laundering-probe-against-crypto-platform-binance-2025-01-28/
-        corroborating_source: 
-        corroborating_source_url: 
-        refutation: Binance denies the allegations and states it will fight the charges.
-        refutation_source_url: https://www.binance.com/en/square/post/19694704559514
-        comment: This development raises concerns about the extent of Binance's legal woes.
 ---

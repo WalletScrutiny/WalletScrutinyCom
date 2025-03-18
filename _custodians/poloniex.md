@@ -172,37 +172,4 @@ custodian:
     customInfrastructure: false
     details: "Basic industry-standard security measures, including two-factor authentication and IP whitelisting."
 
-  osint:
-    summary: ""
-    entries:
-      - information: "Protos.com Report on Poloniex Proof of Reserves and WBTC Backing"
-        date: "2023-07-19"
-        source: "Protos.com"
-        source_url: "https://protos.com/poloniex-proof-of-reserves-and-wbtc-backing-missing/"
-        corroborating_source: ""
-        corroborating_source_url: ""
-        refutation: ""
-        refutation_source_url: ""
-        comment: ""
-
-      - information: "SEC charges Poloniex $10M penalty for operating unregistered digital asset exchange."
-        date: "August 2021"
-        source: "US SEC"
-        source_url: "https://www.sec.gov/news/press-release/2021-147"
-        corroborating_source: ""
-        corroborating_source_url: ""
-        refutation: ""
-        refutation_source_url: ""
-        comment: "Incident underlines Poloniex's ongoing regulatory risks, especially regarding US operations."
-
-      - information: "Poloniex relocates headquarters to Seychelles due to regulatory pressures."
-        date: "October 2019"
-        source: "Circle Official Blog"
-        source_url: "https://medium.com/circle-blog/spinning-out-poloniex-aa58b257bf58"
-        corroborating_source: ""
-        corroborating_source_url: ""
-        refutation: ""
-        refutation_source_url: ""
-        comment: "Seychelles offers regulatory leniency and tax advantages, reflecting strategic shifts to mitigate regulatory scrutiny in the US."
-
 ---

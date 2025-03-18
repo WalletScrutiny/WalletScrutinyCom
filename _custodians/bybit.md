@@ -179,7 +179,7 @@ custodian:
 
 <p><strong>Regular Audits and Monitoring:</strong> Bybit has touted conducting regular security audits and system assessments to uncover vulnerabilities <a href='https://cointelegraph.com/learn/articles/how-the-bybit-hack-happened'>[1]</a>. They collaborate with third-party security firms to audit their wallet contracts and infrastructure. In fact, after a recent incident, Bybit brought in external forensic experts (Verichains and Sygnia) to thoroughly review their systems, which found no breach of Bybit's internal infrastructure <a href='https://www.newswire.ca/news-releases/bybit-confirms-security-integrity-amid-safe-wallet-incident-no-compromise-in-infrastructure-838573160.html'>[5]</a>. Additionally, Bybit's security team monitors wallet activity in real time – any anomalous or unauthorized transaction triggers immediate alerts. This was demonstrated during the 2025 incident when Bybit quickly detected an abnormal transfer, isolated the compromised wallet, and halted further transactions within minutes <a href='https://cointelegraph.com/learn/articles/how-the-bybit-hack-happened'>[1]</a>.</p>
 
-<p><strong>Incident Response and Insurance:</strong> Bybit has processes to contain damage and protect users if a security event occurs. In the aforementioned incident, the team promptly froze the affected wallet, continued processing user withdrawals from other reserves, and even secured emergency loans to replenish liquidity <a href='https://www.ledgerinsights.com/bybit-crypto-exchange-suffers-largest-ever-hack-of-more-than-1-billion/'>[3]</a>. Bybit's CEO assured that all client assets remained 1:1 backed despite the hack, with the exchange's own funds covering the loss <a href='https://www.ledgerinsights.com/bybit-crypto-exchange-suffers-largest-ever-hack-of-more-than-1-billion/'>[3]</a>. While not a preventative measure, this highlights a commitment to fund security—backed by sufficient reserves and (likely) insurance arrangements—to make users whole even in extreme cases.</p>
+<p><strong>Incident Response and Insurance:</strong> Bybit has processes to contain damage and protect users if a security event occurs. In the aforementioned incident, the team promptly froze the affected wallet, continued processing user withdrawals from other reserves, and even secured emergency loans to replenish liquidity <a href='https://www.ledgerinsights.com/bybit-crypto-exchange-suffers-largest-ever-hack-of-more-than-1-billion/'>[3]</a>. Bybit's CEO assured that all client assets remained 1:1 backed despite the hack, with the exchange's own funds covering the loss <a href='https://www.ledgerinsights.com/bybit-crypto-exchange-suffers-largest-ever-hack-of-more-than-1-billion/'>[3]</a>. While not a preventative measure, this highlights a commitment to fund security—backed by sufficient reserves and (likely) insurance arrangements—to make users whole in the event of a breach.</p>
 
 <p><strong>Sources:</strong><br>
 [1] <a href='https://cointelegraph.com/learn/articles/how-the-bybit-hack-happened'>Cointelegraph - How the Bybit Hack Happened</a><br>
@@ -188,64 +188,6 @@ custodian:
 [4] <a href='https://www.chaincatcher.com/en/article/2169954'>Chain Catcher - Article 2169954</a><br>
 [5] <a href='https://www.newswire.ca/news-releases/bybit-confirms-security-integrity-amid-safe-wallet-incident-no-compromise-in-infrastructure-838573160.html'>Newswire - Bybit Confirms Security Integrity</a><br>
 </p>"
-
-  osint:
-    summary: ""
-    entries:
-      - information: "A joint investigation by Mandiant and Safe.eth indicates that   the Bybit hack could be attributed to a compromised Safe developer laptop along with compromised AWS session tokens."
-        date: "March 7, 2025"
-        source: "CyberNews.com"
-        source_url: "https://cybernews.com/crypto/more-details-bybit-hack"
-        corroborating_source: ""
-        corroborating_source_url: ""
-        refutation: "None"
-        refutation_source_url: "N/A"
-        comment: ""
-      - information: "A macOS developer's workstation was compromised via a socially engineered Docker project linked to UNC4899, leading to AWS session hijacking, MFA bypass attempts, and connections to DPRK-attributed malicious domains."
-        date: "March 6, 2025"
-        source: "Tal Be'ery Sec"
-        source_url: "https://x.com/TalBeerySec/status/1897676078400897233"
-        corroborating_source: "Safe.eth"
-        corroborating_source_url: "https://x.com/safe/status/1897663514975649938"
-        refutation: "None"
-        refutation_source_url: "N/A"
-        comment: ""
-      - information: "Bybit hacker launders 100% of stolen $1.4B crypto in 10 days"
-        date: "March 4, 2025"
-        source: "CoinTelegraph.com"
-        source_url: "https://cointelegraph.com/news/bybit-hacker-launders-1-billion-stolen-funds"
-        corroborating_source: "X.com Lookonchain"
-        corroborating_source_url: "https://x.com/lookonchain/status/1896859061263700337"
-        refutation: ""
-        refutation_source_url: ""
-        comment: ""
-      - information: "ZachXBT links ByBit hack with Poloniex, Phemex, and BingX hacks"
-        date: "February 24, 2025"
-        source: "ZachXBT"
-        source_url: "https://x.com/zachxbt/status/1894004267553304723"
-        corroborating_source: ""
-        corroborating_source_url: ""
-        refutation: "None"
-        refutation_source_url: "N/A"
-        comment: ""
-      - information: "ByBit $1 billion hack bounty solved by zachxbt"
-        date: "February 22, 2025"
-        source: "ArkHam Intelligence"
-        source_url: "https://x.com/arkham/status/1893033424224411885"
-        corroborating_source: ""
-        corroborating_source_url: ""
-        refutation: "None"
-        refutation_source_url: ""
-        comment: ""
-      - information: "Bybit hacked for over $1.4 billion (401,346 ETH)"
-        date: "February 21, 2025"
-        source: "CoinTelegraph"
-        source_url: "https://cointelegraph.com/news/bybit-exchange-hacked"
-        corroborating_source: "Whale Alert"
-        corroborating_source_url: "https://whale-alert.io/transaction/ethereum/0xb61413c495fdad6114a7aa863a00b2e3c28945979a10885b12b30316ea9f072c"
-        refutation: "None"
-        refutation_source_url: "N/A"
-        comment: ""
 
 ---
 

@@ -165,20 +165,6 @@ custodian:
     customInfrastructure: true
     details: "Kraken implements cold storage security, strict access controls, and real-time monitoring."
 
-  osint:
-    summary: 
-    entries:
-      - information: 
-        date: 
-        source: 
-        source_url: 
-        corroborating_source: 
-        corroborating_source_url: 
-        refutation: 
-        refutation_source_url: 
-        comment: 
-    source:
-    comment:
 ---
 
 Additional Information:

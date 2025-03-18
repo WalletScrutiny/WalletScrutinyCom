@@ -159,19 +159,4 @@ custodian:
     # Details of security measures
     details: ""
 
-  # OSINT Information
-  osint:
-    # Summary of recent developments
-    summary: ""
-    # List of OSINT entries
-    entries:
-      - information: ""
-        date: ""
-        source: ""
-        source_url: ""
-        corroborating_source: ""
-        corroborating_source_url: ""
-        refutation: ""
-        refutation_source_url: ""
-        comment: ""
 ---
