@@ -1,5 +1,5 @@
 import { hasBlob, uploadBlobWithProgress } from './blossom.js';
-import { updateDomElement } from './drag-and-drop-utils.js';
+import { updateDomElementInClass } from './drag-and-drop-utils.js';
 
 const blossomServerUrl = 'https://files.nostr.info';
 
@@ -44,14 +44,10 @@ function getCachedResult(hash) {
 
 export async function uploadToBlossom(file, hash) {
     try {
-        // Clear previous messages
-        updateDomElement('app-data', ' ');
-
         const exists = await hasBlob(hash, '', blossomServerUrl);
 
         if (exists) {
             console.log(`Blob ${hash} already exists in Blossom`);
-            displayBlossomUploadStatus('File already exists in Blossom', 100);
         } else {
             console.log(`Uploading blob ${hash} to Blossom`);
             displayBlossomUploadStatus('Preparing to upload...', 0);
@@ -60,16 +56,11 @@ export async function uploadToBlossom(file, hash) {
                 displayBlossomUploadStatus(`Uploading... ${Math.round(progress)}%`, progress);
             };
 
-            const descriptor = await uploadBlobWithProgress(file, blossomServerUrl, onProgress);
+            await uploadBlobWithProgress(file, blossomServerUrl, onProgress);
 
-            console.log('Uploaded blob descriptor:', descriptor);
-
-            displayBlossomUploadStatus('Upload complete!', 100);
+            displayBlossomUploadSuccess(file.name, hash);
 
             setCache(hash, true);
-
-            await listUserBlobs(blossomServerUrl);
-            displayBlossomUploadSuccess(file.name, hash);
         }
     } catch (error) {
         console.error('Error uploading to Blossom:', error.message);
@@ -77,37 +68,28 @@ export async function uploadToBlossom(file, hash) {
     }
 }
 
-// List blobs uploaded by the current user
-/*
-export async function listUserBlobs(serverUrl) {
-    const since = null;
-    const until = null;
-    const requireAuth = true;
+function displayBlossomUploadStatus(message, progress) {
+    document.querySelector('.blossom-upload-status').style.display = 'block';
 
-    try {
-        const pubKey = await getCurrentPublicKey();
-        console.log('Current public key:', pubKey);
-
-        const blobs = await listBlobs(pubKey, serverUrl, since, until, requireAuth);
-        console.log('Blobs uploaded by pubKey:', pubKey, blobs.length);
-
-        blobs.forEach((blob, index) => {
-            console.log(`Blob ${index + 1}:`);
-            console.log(`  SHA256: ${blob.sha256}`);
-            console.log(`  Created: ${new Date(blob.created * 1000).toLocaleString()}`);
-            console.log(`  Size: ${blob.size} bytes`);
-            console.log(`  Type: ${blob.type}`);
-            console.log(`  URL: ${blob.url}`);
-            console.log('---');
-        });
-    } catch (error) {
-        console.error('Error listing blobs:', error.message);
-        if (error.message.includes('Auth must be signed by the pubkey')) {
-            console.log('Authorization error: Make sure you are signed in with the correct Nostr account.');
-        }
-    }
+    updateDomElementInClass('blossom-upload-status', `
+        <p>${message}</p>
+        <p><progress value="${progress}" max="100"></progress></p>
+    `);
 }
-*/
+
+function displayBlossomUploadSuccess(fileName, hash) {
+    updateDomElementInClass('blossom-upload-status', `
+        <p>The file has been successfully uploaded to our server.</p>
+    `);
+}
+
+function displayBlossomUploadError(errorMessage) {
+    document.querySelector('.blossom-upload-status').style.display = 'block';
+
+    updateDomElementInClass('blossom-upload-status', `
+        <p>An error occurred while uploading to our server: ${errorMessage}</p>
+    `);
+}
 
 export async function checkBlossomFile(hash) {
     // Check cache first
@@ -124,35 +106,6 @@ export async function checkBlossomFile(hash) {
 
 export function getBlossomFileURL(hash) {
     return blossomServerUrl + '/' + hash;
-}
-
-function displayBlossomUploadStatus(message, progress) {
-    updateDomElement('app-data', `
-        <h3>Blossom Upload Status</h3>
-        <p>${message}</p>
-        <progress value="${progress}" max="100"></progress>
-    `);
-}
-
-function displayBlossomUploadSuccess(fileName, hash) {
-    updateDomElement('app-data', `
-        <h3>Blossom Upload</h3>
-        <p>File "${fileName}" (${hash}) has been successfully uploaded to Blossom.</p>
-    `);
-}
-
-function displayBlossomUploadError(errorMessage) {
-    updateDomElement('app-data', `
-        <h3>Blossom Upload Error</h3>
-        <p>An error occurred while uploading to Blossom: ${errorMessage}</p>
-    `);
-}
-
-export function displayBlossomFileInfo(fileName, hash) {
-    updateDomElement('app-data', `
-        <h3>File Found in Blossom</h3>
-        <p>The file "${fileName}" (${hash}) exists in Blossom.</p>
-    `);
 }
 
 if (typeof window !== 'undefined') {
