@@ -91,11 +91,13 @@ function displayBlossomUploadError(errorMessage) {
     `);
 }
 
-export async function checkBlossomFile(hash) {
+export async function checkBlossomFile(hash, overrideCache = false) {
     // Check cache first
-    const cachedResult = getCachedResult(hash);
-    if (cachedResult !== null) {
-        return cachedResult;
+    if (!overrideCache) {
+        const cachedResult = getCachedResult(hash);
+        if (cachedResult !== null) {
+            return cachedResult;
+        }
     }
 
     // If not in cache or expired, make the API call
