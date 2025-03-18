@@ -149,6 +149,32 @@ custodian:
       - name: ""
         url: ""
   
+  bitcoinContribution:
+    fossDevelopment: true
+    research: true
+    protocolSupport: true
+    research_url: "https://spiral.xyz/"
+    contributions:
+      - name: "Lightning Development Kit (LDK)"
+        url: "https://spiral.xyz/"
+      - name: "Bitcoin Development Kit (BDK)"
+        url: "https://spiral.xyz/"
+      - name: "Bitcoin Design Community"
+        url: "https://bitcoinmagazine.com/business/spiral-launches-bitcoin-design-foundation-to-boost-adoption"
+      - name: "Summer of Bitcoin"
+        url: "https://www.tftc.io/summer-of-bitcoin-renewed-funding-spiral/"
+      - name: "Daniela Brozzoni"
+        url: "https://www.coindesk.com/tech/2022/07/12/how-i-became-a-bitcoin-developer-fresh-out-of-high-school"
+      - name: "Christoph Ono"
+        url: "https://spiral.xyz/blog/spiral-quarterly-update-q3-2022/"
+      - name: "Sean Gilligan"
+        url: "https://www.nobsbitcoin.com/spiral-issues-grant-for-sean-giligan-design-grants-bdf/"
+      - name: "Johannes Hofmann"
+        url: "https://spiral.xyz/blog/spiral-quarterly-update-q3-2022/"
+      - name: "Josh Kitman"
+        url: "https://spiral.xyz/blog/spiral-quarterly-update-q3-2022/"
+
+  
   userAccess:
     kycRequired: true
     kycLevel: "Standard identity verification required for using Bitcoin features"
