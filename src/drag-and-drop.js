@@ -228,7 +228,6 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, all
     let verdict = null;
     let signer = null;
     let date = null;
-    let appHashes = null;
     let platform = null;
 
     const firstVerification = allAssetsInformation.verifications.size > 0 
@@ -274,6 +273,10 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, all
     fileInfoHtml += `<strong>File:</strong> ${file ? file.name : 'N/A'}<br>`;
     fileInfoHtml += `<strong>Size:</strong> ${file ? formatFileSize(file.size) : 'N/A'}<br>`;
     fileInfoHtml += `<strong>SHA-256:</strong> ${hash}<br>`;
+
+    if (window.location.hostname.includes('localhost') || window.location.hostname.includes('beta')) {  // Debug environment
+        fileInfoHtml += `<strong>${await checkBlossomFile(hash) ? 'File exists in Blossom' : 'File does not exist in Blossom'}</strong> <small>(only in debug env)</small><br>`;
+    }
 
     if (!appData && apkInfo) {
         fileInfoHtml += '<br>' + (
