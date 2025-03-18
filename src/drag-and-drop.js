@@ -166,7 +166,7 @@ async function processFiles(files, dropAreaElement) {
     ];
     const extension = files[0].name.split('.').pop().toLowerCase();
     if (forbiddenExtensions.includes(extension)) {
-        updateDomElementInClass('textbox', '<p style="color: red;">Only binary files can be verified. Please drop a binary file to verify.</p>', dropAreaElement);
+        updateDomElementInClass('drop-area-textbox', '<p style="color: red;">Only binary files can be verified. Please drop a binary file to verify.</p>', dropAreaElement);
         return;
     }
 
@@ -174,7 +174,7 @@ async function processFiles(files, dropAreaElement) {
 
     const file = files[0];
 
-    updateDomElementInClass('textbox', '', dropAreaElement);    // Clear the drop-area before displaying new information
+    updateDomElementInClass('drop-area-textbox', '', dropAreaElement);    // Clear the drop-area before displaying new information
 
     disableHoverMode(dropAreaElement);
 
@@ -211,9 +211,8 @@ async function processFiles(files, dropAreaElement) {
     document.getElementById('loadingSpinner').style.display = 'none';
 }
 
-async function handleRegisterAsset(urlParams) {
+async function handleUploadAsset(urlParams) {
     if (uploadsActivated) {
-        showToast('Uploading file to the Blossom server. Wait a moment...', 'info');
         document.getElementById('loadingSpinner').style.display = 'block';
         await uploadToBlossom(window.currentFile, window.currentHash);
         document.getElementById('loadingSpinner').style.display = 'none';
@@ -302,7 +301,7 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, all
 
     if (!hasAssets && !hasVerifications ) {
         if (window.location.pathname !== '/new_asset/') {
-            fileInfoHtml += `<li><a href="#" onclick="handleRegisterAsset('${urlParams}'); return false;" class="btn btn-small">Register this new asset</a> on Nostr so others can try to reproduce the build process.</li>`;
+            fileInfoHtml += `<li><a href="#" onclick="handleUploadAsset('${urlParams}'); return false;" class="btn btn-small">Register this new asset</a> on Nostr so others can try to reproduce the build process.</li>`;
         }
 
         fileInfoHtml += `<li><a href="/new_verification/${urlParams}" class="btn btn-small">Create a verification</a> for this file so others can see if you were able to reproduce it or not.</li>`;
@@ -318,7 +317,7 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, all
 
     fileInfoHtml += `<li>Check out <a href="/verifications/" class="btn btn-small" target="_blank">How Verifications Work</a>.</li>`;
 
-    updateDomElementInClass('textbox', fileInfoHtml, dropAreaElement);
+    updateDomElementInClass('drop-area-textbox', fileInfoHtml, dropAreaElement);
 }
 
 async function fetchAppData(hash) {
@@ -335,4 +334,4 @@ async function fetchAppData(hash) {
     }
 }
 
-window.handleRegisterAsset = handleRegisterAsset;
+window.handleUploadAsset = handleUploadAsset;
