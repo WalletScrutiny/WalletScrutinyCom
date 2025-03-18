@@ -275,7 +275,7 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, all
     fileInfoHtml += `<strong>SHA-256:</strong> ${hash}<br>`;
 
     if (window.location.hostname.includes('localhost') || window.location.hostname.includes('beta')) {  // Debug environment
-        fileInfoHtml += `<strong>${await checkBlossomFile(hash) ? 'File exists in Blossom' : 'File does not exist in Blossom'}</strong> <small>(only in debug env)</small><br>`;
+        fileInfoHtml += `<strong>${await checkBlossomFile(hash, true) ? 'File exists in Blossom' : 'File does not exist in Blossom'}</strong> <small>(overrides cache - only in debug env)</small><br>`;
     }
 
     if (!appData && apkInfo) {
