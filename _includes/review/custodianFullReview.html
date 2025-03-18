@@ -443,16 +443,18 @@
         <div class="history">{{ custodian.trackRecord.history }}</div>
       {% endif %}
       {% if custodian.trackRecord.incidentHistory %}
+      {% assign incidents = custodian.trackRecord.incidentHistory %}
         <div class="incidents">
           <div class="incident-title">
             <h4>Incident History</h4>
+            {% if incidents.size > 1 %}
             <button class="toggle-incidents" aria-expanded="false" aria-controls="incident-list">
               <i class="fas fa-chevron-down"></i>
               <span class="show-text">Show More</span>
               <span class="hide-text">Show Less</span>
             </button>
+            {% endif %}
           </div>
-          {% assign incidents = custodian.trackRecord.incidentHistory %}
           {% if incidents.size > 0 %}
             <div style="margin-bottom: 1rem; padding: 0.5rem 0;">
               <li style="list-style: none; margin-bottom: 0;">
