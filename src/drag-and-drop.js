@@ -5,7 +5,8 @@ import {
     getVersionFromFilename,
     calculateFileHash,
     isPageForAppId,
-    getApkInfo
+    getApkInfo,
+    getPlatformFromFilename
 } from './drag-and-drop-utils.js';
 
 const uploadsActivated = true;
@@ -318,24 +319,6 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, all
     fileInfoHtml += `<li>Check out <a href="/verifications/" class="btn btn-small" target="_blank">How Verifications Work</a>.</li>`;
 
     updateDomElementInClass('textbox', fileInfoHtml, dropAreaElement);
-}
-
-function getPlatformFromFilename(filename, apkInfo = null) {
-    const extension = filename.split('.').pop().toLowerCase();
-
-    if (apkInfo || ['apk', 'aab'].includes(extension)) {
-        return 'android';
-    } else if (['exe', 'msi', 'msix', 'appx'].includes(extension)) {
-        return 'windows';
-    } else if (['appimage', 'deb', 'rpm', 'flatpak', 'snap'].includes(extension)) {
-        return 'linux';
-    } else if (['dmg', 'pkg', 'mpkg'].includes(extension)) {
-        return 'macos';
-    } else if (['ipa'].includes(extension)) {
-        return 'ios';
-    }
-
-    return null;
 }
 
 async function fetchAppData(hash) {
