@@ -7,6 +7,7 @@
     top: 0;
     width: 100%;
     height: 100%;
+    background-color: rgba(0,0,0,0.4);
   }
   #share-modal-content {
     margin: 15% auto;
@@ -48,10 +49,26 @@
     margin-bottom: 0;
   }
   .shareButtonNetwork {
-      float: left;
-      text-decoration: none !important;
-      margin-right: 11px;
+    text-decoration: none !important;
+    margin-right: 10px;
+    flex: 1;
+  }
+
+  .share-buttons-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+    padding: auto;
+    justify-items: center;
+  }
+
+  @media (max-width: 768px) {
+    .network-text {
+      display: none;
     }
+  }
 </style>
 
 {% if include.showRawButtons == true %}
@@ -91,23 +108,23 @@
 {% endif %}
 
 {% assign nostrButton = '<a href="#" id="shareNostrBtn" class="btn btn-info shareButtonNetwork">
-  <img src="/images/nostr_logo.svg" style="width: 25px; height: 25px; margin-right: 10px; margin-left: -3px;" alt="Nostr Logo">
-  Share on Nostr
+  <img src="/images/nostr_logo.svg" style="width: 20px; height: 20px; vertical-align: middle;" alt="Nostr Logo">
+  <span class="network-text">Share on Nostr</span>
 </a>' %}
 
 {% assign xButton = '<a href="#" id="shareXBtn" class="btn btn-info shareButtonNetwork">
-  <img src="/images/x_logo.svg" style="width: 21px; height: 21px; margin-right: 10px; margin-top: 3px;" alt="X Logo">
-  Share on X
+  <img src="/images/x_logo.svg" style="width: 18px; height: 18px; vertical-align: middle;" alt="X Logo">
+  <span class="network-text">Share on X</span>
 </a>' %}
 
 {% assign fbButton = '<a href="#" id="shareFBBtn" class="btn btn-info shareButtonNetwork">
-  <i class="fab fa-facebook" style="margin-right: 10px; font-size: 24px; vertical-align: middle;" aria-hidden="true"></i>
-  Share on Facebook
+  <i class="fab fa-facebook" style="vertical-align: middle;" aria-hidden="true"></i>
+  <span class="network-text">Share on Facebook</span>
 </a>' %}
 
 {% assign linkedinButton = '<a href="#" id="shareLinkedinBtn" class="btn btn-info shareButtonNetwork">
-  <i class="fab fa-linkedin" style="margin-right: 10px; font-size: 24px; vertical-align: middle;" aria-hidden="true"></i>
-  Share on LinkedIn
+  <i class="fab fa-linkedin" style="vertical-align: middle;" aria-hidden="true"></i>
+  <span class="network-text">Share on LinkedIn</span>
 </a>' %}
 
 {% if include.showRawButtons == true %}
