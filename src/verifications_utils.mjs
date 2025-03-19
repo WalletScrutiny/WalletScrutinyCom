@@ -416,13 +416,13 @@ const getAllAssetInformation = async function({
   });
   */
 
-  const result = {
+  console.timeEnd('getAllAssetInformation');
+
+  return {
     assets: assetsMap,
     verifications: verificationsMap,
     endorsements: endorsementsMap
   };
-  console.timeEnd('getAllAssetInformation');
-  return result;
 }
 
 function getAppInfoFromEventInfo(eventInfo) {
