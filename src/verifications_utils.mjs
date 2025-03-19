@@ -95,8 +95,8 @@ const createAssetRegistration = async function ({
   }
 
   // Limit length of parameters
-  if (appId && appId.length > 40) {
-    throw new Error("App ID must be 40 characters or less");
+  if (appId && appId.length > 50) {
+    throw new Error("App ID must be 50 characters or less");
   }
   if (version && version.length > 15) {
     throw new Error("Version must be 15 characters or less");
@@ -162,8 +162,8 @@ const createVerification = async function ({
   }
 
   // Limit length of parameters
-  if (appId && appId.length > 40) {
-    throw new Error("App ID must be 40 characters or less");
+  if (appId && appId.length > 50) {
+    throw new Error("App ID must be 50 characters or less");
   }
   if (version && version.length > 15) {
     throw new Error("Version must be 15 characters or less");
@@ -330,6 +330,7 @@ const getAllAssetInformation = async function({
   appId,
   sha256
 }) {
+  console.time('getAllAssetInformation');
   const filter_assets = {
     kinds: [assetRegistrationKind],
   };
@@ -415,11 +416,13 @@ const getAllAssetInformation = async function({
   });
   */
 
-  return {
+  const result = {
     assets: assetsMap,
     verifications: verificationsMap,
     endorsements: endorsementsMap
   };
+  console.timeEnd('getAllAssetInformation');
+  return result;
 }
 
 function getAppInfoFromEventInfo(eventInfo) {

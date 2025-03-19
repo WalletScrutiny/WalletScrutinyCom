@@ -91,7 +91,7 @@ Max length of fields (chars):
 * Asset description - `content`: 120
 * Verification - content.`description`: 120
 * Verification - content.`content`: 60,000
-* Tag `i`: 40
+* Tag `i`: 50
 * Tag `version`: 15
 * Tag `x/ox`: 64
 * Tag `platform`: 10
