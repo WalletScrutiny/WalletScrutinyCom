@@ -23,10 +23,16 @@ bugbounty:
 meta: ok
 verdict: reproducible
 appHashes:
-- fd10bba28a3236a50f045c34dff182716d0e2f37f8512c5269e521c01f6aa571
-date: 2025-03-10
+- 3a92bbc4107f7bffbf9b61f73d3b6c9027d8f730d31cb8b1fe3caa0c7af87a17
+date: 2025-03-19
 signer: ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
 reviewArchive:
+- date: 2025-03-10
+  version: 2.5.0
+  appHashes:
+  - fd10bba28a3236a50f045c34dff182716d0e2f37f8512c5269e521c01f6aa571
+  gitRevision: f0d78b9cd0f6348a13599f00e9c86cf981a5b0f
+  verdict: reproducible
 - date: 2024-09-05
   version: 2.3.8
   appHashes:
@@ -156,16 +162,16 @@ Our test script gave us these results:
 ===== Begin Results =====
 appId:          fr.acinq.phoenix.mainnet
 signer:         ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629
-apkVersionName: 2.5.0
-apkVersionCode: 100
+apkVersionName: 2.5.1
+apkVersionCode: 101
 verdict:        reproducible
-appHash:        fd10bba28a3236a50f045c34dff182716d0e2f37f8512c5269e521c01f6aa571
-commit:         03f45c98f31348e3f0a2acf93fd3946acd764655
+appHash:        3a92bbc4107f7bffbf9b61f73d3b6c9027d8f730d31cb8b1fe3caa0c7af87a17
+commit:         61b3c8ad1e9bf2687ca72933bbc37b3a56b9c978
 
 Diff:
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_100/META-INF: MAINNET.RSA
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_100/META-INF: MAINNET.SF
-Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_100/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_101/META-INF: MAINNET.RSA
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_101/META-INF: MAINNET.SF
+Only in /tmp/fromPlay_fr.acinq.phoenix.mainnet_101/META-INF: MANIFEST.MF
 
 Revision, tag (and its signature):
 
