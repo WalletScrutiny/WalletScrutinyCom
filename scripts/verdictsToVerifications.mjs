@@ -187,7 +187,7 @@ async function createNostrEvents({
         version,
         platform
     });
-    await new Promise(resolve => setTimeout(resolve, 2000));
+    await new Promise(resolve => setTimeout(resolve, 3000));
 }
 
 function parseResults(resultsString) {
