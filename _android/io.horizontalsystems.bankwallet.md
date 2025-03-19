@@ -21,12 +21,18 @@ issue:
 icon: io.horizontalsystems.bankwallet.png
 bugbounty: 
 meta: ok
-verdict: reproducible
+verdict: wip
 appHashes:
-- 94b70610e5f6088441ee99ca523162222b3df4cdb936c1104c13ccb0c4ba08b6
-date: 2025-03-07
+- 18de0b787946f3d6375ad850ab447040930037fe9726d6631d61adc6a7986e56
+date: 2025-03-19
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
 reviewArchive:
+- date: 2024-03-07
+  version: 0.41.4
+  appHashes:
+  - 94b70610e5f6088441ee99ca523162222b3df4cdb936c1104c13ccb0c4ba08b6
+  gitRevision: ff0d78b9cd0f6348a13599f00e9c86cf981a5b0f
+  verdict: reproducible
 - date: 2024-12-27
   version: 0.41.3
   appHashes:
@@ -338,24 +344,124 @@ features:
 Here we test if the latest version can be reproduced, following the known
 procedure expressed in our {% include testScript.html %}:
 
-
+For version **0.42.0** we experienced several build failures which we would need to sort out.
 
 ```
-===== Begin Results =====
-appId:          io.horizontalsystems.bankwallet
-signer:         c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
-apkVersionName: 0.41.4
-apkVersionCode: 127
-verdict:        reproducible
-appHash:        94b70610e5f6088441ee99ca523162222b3df4cdb936c1104c13ccb0c4ba08b6
-commit:         a5bc8996ebe7e5e310a68d70a8e9068f597de932
+Welcome to Gradle 8.10.2!
 
-Diff:
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_127/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_127/META-INF: RELEASEK.RSA
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_127/META-INF: RELEASEK.SF
+Here are the highlights of this release:
+ - Support for Java 23
+ - Faster configuration cache
+ - Better configuration cache reports
 
-Revision, tag (and its signature):
+For more details see https://docs.gradle.org/8.10.2/release-notes.html
+
+Starting a Gradle Daemon (subsequent builds will be faster)
+Errors during XML parse:
+Additionally, the fallback loader failed to parse the XML.
+Checking the license for package Android SDK Build-Tools 35 in /opt/android-sdk/licenses
+License for package Android SDK Build-Tools 35 accepted.
+Preparing "Install Android SDK Build-Tools 35 v.35.0.0".
+"Install Android SDK Build-Tools 35 v.35.0.0" ready.
+Installing Android SDK Build-Tools 35 in /opt/android-sdk/build-tools/35.0.0
+"Install Android SDK Build-Tools 35 v.35.0.0" complete.
+"Install Android SDK Build-Tools 35 v.35.0.0" finished.
+Checking the license for package Android SDK Platform 35 in /opt/android-sdk/licenses
+License for package Android SDK Platform 35 accepted.
+Preparing "Install Android SDK Platform 35 (revision 2)".
+"Install Android SDK Platform 35 (revision 2)" ready.
+Installing Android SDK Platform 35 in /opt/android-sdk/platforms/android-35
+"Install Android SDK Platform 35 (revision 2)" complete.
+"Install Android SDK Platform 35 (revision 2)" finished.
+
+> Task :app:stripBaseReleaseDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so, libdashjbls.so, liblibsodium.so, libpthread.so, libsodium.so, libsqlcipher.so, libtor.so, libzcashwalletsdk.so.
+
+> Task :app:mergeBaseReleaseResources
+/mnt/app/src/main/res/values-fa/strings.xml:127:4: Multiple substitutions specified in non-positional format of string resource string/Send_Token_InsufficientFeeAlert. Did you mean to add the formatted="false" attribute?
+
+> Task :subscriptions-google-play:compileReleaseKotlin
+w: file:///mnt/subscriptions-google-play/src/main/java/io/horizontalsystems/subscriptions/googleplay/SubscriptionServiceGooglePlay.kt:250:13 Variable 'billingResult' is never used
+
+> Task :app:collectBaseReleaseDependencies
+Component com.github.jnr:jffi:1.3.9 maps to multiple files
+
+> Task :app:mergeCiReleaseResources
+/mnt/app/src/main/res/values-fa/strings.xml:127:4: Multiple substitutions specified in non-positional format of string resource string/Send_Token_InsufficientFeeAlert. Did you mean to add the formatted="false" attribute?
+
+> Task :app:stripCiReleaseDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so, libdashjbls.so, liblibsodium.so, libpthread.so, libsodium.so, libsqlcipher.so, libtor.so, libzcashwalletsdk.so.
+
+> Task :app:collectCiReleaseDependencies
+Component com.github.jnr:jffi:1.3.9 maps to multiple files
+
+> Task :subscriptions-fdroid:compileReleaseKotlin
+w: file:///mnt/subscriptions-fdroid/src/main/java/io/horizontalsystems/subscriptions/fdroid/SubscriptionServiceFDroid.kt:14:33 Parameter 'context' is never used
+
+> Task :app:kspBaseReleaseKotlin
+w: [ksp] /mnt/app/src/main/java/io/horizontalsystems/bankwallet/entities/EnabledWalletCache.kt:19: accountId column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+w: [ksp] /mnt/app/src/main/java/io/horizontalsystems/bankwallet/entities/nft/NftCollectionRecord.kt:20: accountId column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+w: [ksp] /mnt/app/src/main/java/io/horizontalsystems/bankwallet/entities/nft/NftAssetRecord.kt:20: accountId column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+
+> Task :app:mergeFdroidReleaseResources
+/mnt/app/src/main/res/values-fa/strings.xml:127:4: Multiple substitutions specified in non-positional format of string resource string/Send_Token_InsufficientFeeAlert. Did you mean to add the formatted="false" attribute?
+
+> Task :app:stripFdroidReleaseDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so, libdashjbls.so, liblibsodium.so, libpthread.so, libsodium.so, libsqlcipher.so, libtor.so, libzcashwalletsdk.so.
+
+> Task :app:collectFdroidReleaseDependencies
+Component com.github.jnr:jffi:1.3.9 maps to multiple files
+
+> Task :app:kspCiReleaseKotlin
+w: [ksp] /mnt/app/src/main/java/io/horizontalsystems/bankwallet/entities/EnabledWalletCache.kt:19: accountId column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+w: [ksp] /mnt/app/src/main/java/io/horizontalsystems/bankwallet/entities/nft/NftCollectionRecord.kt:20: accountId column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+w: [ksp] /mnt/app/src/main/java/io/horizontalsystems/bankwallet/entities/nft/NftAssetRecord.kt:20: accountId column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+
+> Task :app:kspFdroidReleaseKotlin
+w: [ksp] /mnt/app/src/main/java/io/horizontalsystems/bankwallet/entities/EnabledWalletCache.kt:19: accountId column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+w: [ksp] /mnt/app/src/main/java/io/horizontalsystems/bankwallet/entities/nft/NftCollectionRecord.kt:20: accountId column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+w: [ksp] /mnt/app/src/main/java/io/horizontalsystems/bankwallet/entities/nft/NftAssetRecord.kt:20: accountId column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+The message received from the daemon indicates that the daemon has disappeared.
+Build request sent: Build{id=4d0eed49-195d-40ef-a57d-d4c7b3cefd7b, currentDir=/mnt}
+Attempting to read last messages from the daemon log...
+Daemon pid: 1507
+  log file: /root/.gradle/daemon/8.10.2/daemon-1507.out.log
+----- Last 20 lines from daemon log file - daemon-1507.out.log -----
+Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so, libdashjbls.so, liblibsodium.so, libpthread.so, libsodium.so, libsqlcipher.so, libtor.so, libzcashwalletsdk.so.
+/mnt/app/src/main/res/values-fa/strings.xml:127:4: Multiple substitutions specified in non-positional format of string resource string/Send_Token_InsufficientFeeAlert. Did you mean to add the formatted="false" attribute?
+w: file:///mnt/subscriptions-google-play/src/main/java/io/horizontalsystems/subscriptions/googleplay/SubscriptionServiceGooglePlay.kt:250:13 Variable 'billingResult' is never used
+Component com.github.jnr:jffi:1.3.9 maps to multiple files
+/mnt/app/src/main/res/values-fa/strings.xml:127:4: Multiple substitutions specified in non-positional format of string resource string/Send_Token_InsufficientFeeAlert. Did you mean to add the formatted="false" attribute?
+Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so, libdashjbls.so, liblibsodium.so, libpthread.so, libsodium.so, libsqlcipher.so, libtor.so, libzcashwalletsdk.so.
+Component com.github.jnr:jffi:1.3.9 maps to multiple files
+w: file:///mnt/subscriptions-fdroid/src/main/java/io/horizontalsystems/subscriptions/fdroid/SubscriptionServiceFDroid.kt:14:33 Parameter 'context' is never used
+w: [ksp] /mnt/app/src/main/java/io/horizontalsystems/bankwallet/entities/EnabledWalletCache.kt:19: accountId column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+w: [ksp] /mnt/app/src/main/java/io/horizontalsystems/bankwallet/entities/nft/NftCollectionRecord.kt:20: accountId column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+w: [ksp] /mnt/app/src/main/java/io/horizontalsystems/bankwallet/entities/nft/NftAssetRecord.kt:20: accountId column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+/mnt/app/src/main/res/values-fa/strings.xml:127:4: Multiple substitutions specified in non-positional format of string resource string/Send_Token_InsufficientFeeAlert. Did you mean to add the formatted="false" attribute?
+Unable to strip the following libraries, packaging them as they are: libandroidx.graphics.path.so, libdashjbls.so, liblibsodium.so, libpthread.so, libsodium.so, libsqlcipher.so, libtor.so, libzcashwalletsdk.so.
+Component com.github.jnr:jffi:1.3.9 maps to multiple files
+w: [ksp] /mnt/app/src/main/java/io/horizontalsystems/bankwallet/entities/EnabledWalletCache.kt:19: accountId column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+w: [ksp] /mnt/app/src/main/java/io/horizontalsystems/bankwallet/entities/nft/NftCollectionRecord.kt:20: accountId column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+w: [ksp] /mnt/app/src/main/java/io/horizontalsystems/bankwallet/entities/nft/NftAssetRecord.kt:20: accountId column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+w: [ksp] /mnt/app/src/main/java/io/horizontalsystems/bankwallet/entities/EnabledWalletCache.kt:19: accountId column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+w: [ksp] /mnt/app/src/main/java/io/horizontalsystems/bankwallet/entities/nft/NftCollectionRecord.kt:20: accountId column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.
+w: [ksp] /mnt/app/src/main/java/io/horizontalsystems/bankwallet/entities/nft/NftAssetRecord.kt:20: accountId column references a foreign key but it is not part of an index. This may trigger full table scans whenever parent table is modified so you are highly advised to create an index that covers this column.----- End of the daemon log -----
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Gradle build daemon disappeared unexpectedly (it may have been killed or may have crashed)
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
++ result
++ set +x
+unzip:  cannot find or open /tmp/test_io.horizontalsystems.bankwallet/app/app/build/outputs/apk/release/app-release-unsigned.apk, /tmp/test_io.horizontalsystems.bankwallet/app/app/build/outputs/apk/release/app-release-unsigned.apk.zip or /tmp/test_io.horizontalsystems.bankwallet/app/app/build/outputs/apk/release/app-release-unsigned.apk.ZIP.
 
 ===== End Results =====
 
@@ -364,7 +470,7 @@ Revision, tag (and its signature):
 {% include asciicast %}
 
 
-Version 0.41.4 is **reproducible**
+The build and verification for version **0.42.0** is currently failing. Since the app has undergone a long history of being buildable and reproducible, we will create an issue first on the walletScrutiny repository and if others are experiencing the same thing. For now, verification for this version is a **work-in-progress**.
 
 ### Thank you to Horizontal Systems for repeat donations
 
