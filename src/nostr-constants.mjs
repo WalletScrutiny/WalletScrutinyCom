@@ -12,4 +12,4 @@ export const assetRegistrationKind = 1266; // 1063
 export const verificationKind = 32303; // 30301
 export const endorsementKind = 30302;
 
-export const verificationsFeatureSinceTS = 1742384585; // 2025-03-19
+export const verificationsFeatureSinceTS = 1742220163;
