@@ -207,15 +207,15 @@ function parseResults(resultsString) {
 if (import.meta.url === `file://${process.argv[1]}`) {
     // Get Nostr private key and directory paths from command-line arguments
     if (process.argv.length < 4) {
-        console.log('Usage: node verdictsToVerifications.mjs <nostr_private_key> <directory_path1> [directory_path2 ...]');
+        console.log('Usage: node verdictsToVerifications.mjs <nostr_nsec_private_key> <directory_path1> [directory_path2 ...]');
         process.exit(1);
     }
 
-    const nostrPrivateKey = process.argv[2];
+    const nostrNsecPrivateKey = process.argv[2];
     const directoryPaths = process.argv.slice(3);
 
     console.log('Connecting to Nostr relays...');
-    await nostrConnect(nostrPrivateKey);
+    await nostrConnect(nostrNsecPrivateKey);
     await new Promise(resolve => setTimeout(resolve, 5000));
 
     if (directoryPaths.length === 0) {
