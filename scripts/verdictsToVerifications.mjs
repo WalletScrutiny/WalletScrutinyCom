@@ -78,9 +78,9 @@ async function parseFile(filePath, folderName) {
         // Get info from the root of the file
         if (data.version || data.appHashes) {
             version = data.version;
-            if (data.appHashes && data.appHashes.length > 0) {
-                appHashes = data.appHashes;
-            }
+        }
+        if (data.appHashes && data.appHashes.length > 0) {
+            appHashes = data.appHashes;
         }
 
         // Process Results (text after the YAML front matter)
@@ -110,7 +110,7 @@ async function parseFile(filePath, folderName) {
                     review.appHashes.forEach(hash => console.log('    -', hash));
                 }
 
-                if (!verdictsToIgnore.includes(review.verdict)) {
+                if (!verdictsToIgnore.includes(review.verdict) && review.version !== 'VARY') {
                     await createNostrEvents({
                         hashes: review.appHashes,
                         appId,
@@ -140,7 +140,7 @@ async function parseFile(filePath, folderName) {
             //console.error(data);
             //process.exit(1);
         } else {
-            if (!verdictsToIgnore.includes(data.verdict)) {
+            if (!verdictsToIgnore.includes(data.verdict) && version !== 'VARY') {
                 await createNostrEvents({
                     hashes: appHashes,
                     appId,
