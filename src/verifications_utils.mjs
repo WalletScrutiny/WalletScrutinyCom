@@ -280,12 +280,14 @@ function isValidJSONObject(str) {
 }
 
 function eventSanitize(event) {
+  const isBrowser = typeof window !== 'undefined';
+
   // Sanitize content
   if (isValidJSONObject(event.content)) {
     const contentObject = JSON.parse(event.content);
 
     Object.keys(contentObject).forEach(key => {
-      let sanitizedContent = DOMPurify.sanitize(contentObject[key]);
+      let sanitizedContent = isBrowser ? DOMPurify.sanitize(contentObject[key]) : contentObject[key];
 
       if (key === 'description') {
         sanitizedContent = sanitizedContent.substring(0, 120);
@@ -298,13 +300,13 @@ function eventSanitize(event) {
 
     event.content = JSON.stringify(contentObject);
   } else {
-    event.content = DOMPurify.sanitize(event.content);
+    event.content = isBrowser ? DOMPurify.sanitize(event.content) : event.content;
     event.content = event.content.substring(0, 120);
   }
 
   // Sanitize tags
   event.tags.forEach(tag => {
-    let sanitizedTag = DOMPurify.sanitize(tag[1]);
+    let sanitizedTag = isBrowser ? DOMPurify.sanitize(tag[1]) : tag[1];
 
     if (tag[0] === 'i') {
       sanitizedTag = sanitizedTag.substring(0, 40);
