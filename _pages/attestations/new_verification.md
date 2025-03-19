@@ -20,7 +20,7 @@ permalink: /new_verification/
   <form id="attestationForm" onsubmit="handleSubmit(event)">
     <div class="form-group">
       <label for="appId">App ID:</label>
-      <input type="text" id="appId" name="appId" class="form-control" autocomplete="off" maxlength="40">
+      <input type="text" id="appId" name="appId" class="form-control" autocomplete="off" maxlength="50">
       <div id="appIdSuggestions" class="suggestions-container"></div>
       <small class="form-text">Example: app.zeusln.zeus. Start typing wallet name or ID to search for known apps, or write a new app ID.</small>
       <small class="form-text" style="margin-bottom: 1em;">If you <b>can't find the app here</b>, you can <a href="https://gitlab.com/walletscrutiny/walletScrutinyCom/-/wikis/How-to-Contribute-to-WalletScrutiny#add-products" target="_blank">open an MR</a> to add it to the inventory, or drop us a message on our <a href="https://discord.com/channels/1011450447392940082/1012176837486596106" target="_blank">Discord</a>.</small>
