@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="IE=edge">
+  <meta name="referrer" content="no-referrer" />
+  <meta name="generator" content="diffoscope" />
+  <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAADdgAAA3YBfdWCzAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAM8SURBVFiF7dZdaJZlGAfw3/O+e9XNjy3XllZzWImBxIpifqTgsmUHBSIeBNFBdRh0UHQ0xGdb66CFBIERZEFRQRRUw0HkQkLMYQSBdpCFWdgSP6jpNn2393k68Nn2bj3vXtb6UOh/cl/39b/u67mem/913zf/4z9GUDw5xNI8n5WIzW9m/QF2YluJmI8203mALzEvLWAerRs4Pz6vSIkZSlsYk0/GkaB0zEgyDgWMlijyWsJuS2fkQwu8pqpMTA0ypeiShG71Bp0rU8Q+A47MWEDgvHZbZl/Av4SpIgxVYB3IqwZDmoUuYkzosDaNchpAoFqkSmgjGPWzLieF1k3JHVsjvCJQHBYaSy9g1E3m+QImQiK9SbNGqJDzuiDZ0lggQJCsyelDq8BB47sbCWTsnvhG3kqcLL833eqF4hk1EOoTOjZjnnaRdq2l6KtMAyl4/g23bKJrun+Mt9uOq7nvqOVbebWYy9Adc1fM/R/3CO780dONbIeFPHsPw+ULeM5ZHTbXHfUtXpxOZzgT5z02UGsZThRzF/ilht9G+fr4zfbfccIxXIa7uVTup69i7LJXaEEqF3on1d9ludBLpVLOVoT1lky9QYtwQ6p3WAVqSyUslWwSbRrkPJrMtgn0iBVk7BPJ4sGE24EPQKW3jLgdzWKLBTbg0yTuZeGkDsp2gcUGDesHGQ/gK5G8nLMigWiCe3jCrnTRiJ9EYjm1ImsUEq5l8hScPXbpsVtlKhfan+pv0yD0ZqmU5XegGBmnDIo/pylj8oYLOP3Eab/v5Zmi6EtZ3vv1FU/2r7LioYSL2dNybbdiMdptFU57++20Vqh+iq/Tap1WpaWY611wmyWyUzxZDbIWTvEV1Ildn5agfBumoUMTtoisFvhebAAHZWxX0ChwTuScvHdVeVykToysMyJ7ittwbmj31J+6IrRDp5XTfBt1WJ+WYnZdMB0F3xlUgD5uDVj2Sa+a4SrzH+FeyHHmw17V112waBOZgP4WczkLZsILar1fpIliMU4XZoK/poE0XHl+N8v6QcGAUbVymnDIZVnzrTXqGzmnhKLxZX/niyiDjIJgwg4Se1GR/Y8idGPysh6fr0i1i/AHMWHgrwUJgNAAAAAASUVORK5CYII=" />
+  <title>/usr/bin/diffoscope --html diffo-arm64.html from-device/normalized-names/arm64_v8a.apk locally-built/normalized-names/arm64_v8a.apk</title>
+<style>
+body.diffoscope {
+  background: white;
+  color: black;
+}
+.diffoscope .footer {
+  font-size: small;
+}
+.diffoscope .difference {
+  border: outset #888 1px;
+  background: #E8E8E8;
+  background: rgba(0,0,0,.1);
+  padding: 0.5em;
+  margin: 0.5em 0;
+}
+.diffoscope .difference table {
+  table-layout: fixed;
+  width: 100%;
+  border: 0;
+}
+.diffoscope .difference th,
+.diffoscope .difference td {
+  border: 0;
+}
+.diffoscope table.diff {
+  border: 0;
+  border-collapse:collapse;
+  font-size:0.75em;
+  font-family: 'Lucida Console', monospace;
+  word-break: break-word;
+}
+.diffoscope table.diff tr:hover td {
+  background: #FFFF00;
+}
+.diffoscope .line {
+  color:#8080a0
+}
+.diffoscope th {
+  background: black;
+  color: white
+}
+.diffoscope .diffunmodified td {
+  background: #D0D0E0
+}
+.diffoscope .diffhunk td {
+  background: #A0A0A0
+}
+.diffoscope .diffadded td {
+  background: #CCFFCC
+}
+.diffoscope .diffdeleted td {
+  background: #FFCCCC
+}
+.diffoscope .diffchanged td {
+  background: #FFFFA0
+}
+.diffoscope ins, del {
+  background: #E0C880;
+  text-decoration: none
+}
+.diffoscope .dp {
+  color: #B08080
+}
+.diffoscope .comment {
+  font-style: italic;
+}
+.diffoscope .comment.multiline {
+  font-style: normal;
+  font-family: monospace;
+  white-space: pre;
+}
+.diffoscope .source {
+  font-weight: bold;
+}
+.diffoscope .error {
+  border: solid black 1px;
+  background: red;
+  color: white;
+  padding: 0.2em;
+}
+.diffoscope .anchor {
+  margin-left: 0.5em;
+  font-size: 80%;
+  color: #333;
+  text-decoration: none;
+  display: none;
+}
+.diffoscope .diffheader:hover .anchor {
+  display: inline;
+}
+.diffoscope .diffcontrol, .diffoscope .diffcontrol-nochildren {
+  float: left;
+  margin-right: 0.3em;
+  cursor: pointer;
+  display: none; /* currently, only available in html-dir output where jquery is enabled */
+}
+.diffoscope .colines {
+  width: 3em;
+}
+.diffoscope .coldiff {
+  width: 99%;
+}
+.diffoscope .diffsize {
+  float: right;
+}
+.diffoscope table.diff tr.ondemand td, .diffoscope div.ondemand-details {
+  background: #f99;
+  text-align: center;
+  padding: 0.5em 0;
+}
+.diffoscope table.diff tr.ondemand:hover td, .diffoscope div.ondemand-details:hover {
+  background: #faa;
+  cursor: pointer;
+}
+</style>
+</head>
+<body class="diffoscope">
+<div class="difference">
+  <div class="diffheader">
+  <div class="diffcontrol diffcontrol-double">⊟</div>
+  <div><span class="diffsize">30.6 KB</span></div>
+  <div><span class="source">from-device/normalized-names/arm64_v8a.apk</span> vs.</div>
+  <div id="top"><span class="source">locally-built/normalized-names/arm64_v8a.apk</span>
+    <a class="anchor" href="#top">¶</a>
+  </div>
+  </div>
+  <div class="difference">
+    <div class="diffheader">
+    <div class="diffcontrol">⊟</div>
+    <div><span class="diffsize">24.7 KB</span></div>
+    <div id="APK-Signing-Block"><span class="source">APK Signing Block</span>
+      <a class="anchor" href="#APK-Signing-Block">¶</a>
+    </div>
+    </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 1, 357 lines modified</td><td colspan="2">Offset 0, 0 lines modified</td></tr>
+<tr class="diffdeleted"><td class="diffline">1 </td><td class="diffpresent">Key<span class="dp">·</span>0x42726577:</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">2 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">3 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">4 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">5 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">6 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">7 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">8 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">9 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">10 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">11 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">12 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">13 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">14 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">15 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">16 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">17 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">18 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">19 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">20 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">21 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">22 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">23 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">24 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">25 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">26 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">27 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">28 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">29 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">30 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">31 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">32 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">33 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">34 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">35 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">36 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">37 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">38 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">39 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">40 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">41 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">42 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">43 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">44 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">45 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">46 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">47 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">48 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">49 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">50 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">51 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">52 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">53 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">54 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">55 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">56 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">57 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">58 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">59 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">60 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">61 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">62 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">63 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">64 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">65 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">66 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">67 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">68 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">69 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">70 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">71 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">72 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">73 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">74 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">75 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">76 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">77 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">78 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">79 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">80 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">81 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">82 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">83 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">84 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">85 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">86 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">87 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">88 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">89 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">90 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">91 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">92 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">93 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">94 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">95 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">96 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">97 </td><td class="diffpresent">0000000000000000000000000000000000000000000000000000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">98 </td><td class="diffpresent">0000000000000000000000</td><td colspan="2"> </td></tr>
+<tr class="diffadded"><td colspan="2"> </td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">99 </td><td class="diffpresent">Key<span class="dp">·</span>0x6dff800d:</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">100 </td><td class="diffpresent">050e00008d0500003082058930820371a003020102021500bf53fabb0b4e907f8f2a22</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">101 </td><td class="diffpresent">a1b0e0d77f6def1060300d06092a864886f70d01010b05003074310b30090603550406</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">102 </td><td class="diffpresent">13025553311330110603550408130a43616c69666f726e696131163014060355040713</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">103 </td><td class="diffpresent">0d4d6f756e7461696e205669657731143012060355040a130b476f6f676c6520496e63</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">104 </td><td class="diffpresent">2e3110300e060355040b1307416e64726f69643110300e06035504031307416e64726f</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">105 </td><td class="diffpresent">69643020170d3230303531393130333532315a180f3230353030353139313033353231</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">106 </td><td class="diffpresent">5a3074310b3009060355040613025553311330110603550408130a43616c69666f726e</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">107 </td><td class="diffpresent">6961311630140603550407130d4d6f756e7461696e205669657731143012060355040a</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">108 </td><td class="diffpresent">130b476f6f676c6520496e632e3110300e060355040b1307416e64726f69643110300e</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">109 </td><td class="diffpresent">06035504031307416e64726f696430820222300d06092a864886f70d01010105000382</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">110 </td><td class="diffpresent">020f003082020a0282020100d867460c79d043ba8b0cb0b056159b953e9efe5981ea62</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">111 </td><td class="diffpresent">93fe9961a335bd5fcbb83c60824dede59ff37c8d4e4ec4bcc55397ea86fff90d589a18</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">112 </td><td class="diffpresent">d990ae9f7f243daaa74abc23033407a51943bb87332116bfd058366bae07800e4062ce</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">113 </td><td class="diffpresent">20ce4456007a1aaa5680b2395cda7aed6e3fd302ef02d6b745aedf3ba86fff50777f14</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">114 </td><td class="diffpresent">3a6929c98c5334ff345f2a9a3449b1d79e59bd69cd3d52d014590e2fd973fa1290da60</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">115 </td><td class="diffpresent">67270cd85fd212402c67ac7fc832cdead976cc23be70a0ba9d51ddc2a8844510a2528d</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">116 </td><td class="diffpresent">b9aca84b21f37de6ccdf51d269949067c7532709dfd5798cb43001838056cbd7e5c7a6</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">117 </td><td class="diffpresent">c198be491339fc0c33ee1ae4b1a3fe7ff16fcdcc44c50d9a90e7cab68c61efab922b51</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">118 </td><td class="diffpresent">e7e3521432f3c5e85fa1720454be4c29c4674a060f55f75d82e40410a631118462a699</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">119 </td><td class="diffpresent">788c1db32e2a801cc2146717cde2e0f52cb740eb979ac2176c85d0600a663ae75ef286</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">120 </td><td class="diffpresent">887b7c138c1faedca8f815cb9496c185bb43fbc0f276097ca71c13342de597cb699192</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">121 </td><td class="diffpresent">8091515dc857c31f14c11dfa41d398c02416705b08d0fd7f986a9d87c61b61fb32365b</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">122 </td><td class="diffpresent">09298ffe206fa649c6dec47e3da58e800cb2cfb1403ebba80108dd71607f68bc576cd2</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">123 </td><td class="diffpresent">163892570b64ea5f5ca6baa93ff30c667f2785d6ec4b8875f4217a0c6cef4efa8aa544</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">124 </td><td class="diffpresent">e90bac99940ac1ff515d366dc1d44c0ad7b2b280b425dfbfe97c9c8af7193450bfcb02</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">125 </td><td class="diffpresent">03010001a310300e300c0603551d13040530030101ff300d06092a864886f70d01010b</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">126 </td><td class="diffpresent">0500038202010067a6bc59217ca6d7c3c35ba5b1f0d7f5b4a3b7230fd947efb6493acb</td><td colspan="2"> </td></tr>
+<tr class="error"><td colspan="4">
+Max diff block lines reached; -1/25208 bytes (-0.00%) of diff not shown.
+</td></tr></table>  </div>
+  <div class="difference">
+    <div class="diffheader">
+    <div class="diffcontrol">⊟</div>
+    <div><span class="diffsize">2.05 KB</span></div>
+    <div id="Dusr-lib-android-sdk-build-tools-debian-apksigner-verify---verbose---print-certs---"><span class="source">/usr/lib/android-sdk/build-tools/debian/apksigner verify --verbose --print-certs {}</span>
+      <a class="anchor" href="#Dusr-lib-android-sdk-build-tools-debian-apksigner-verify---verbose---print-certs---">¶</a>
+    </div>
+    </div>
+    <div class="comment multiline">error from `/usr/lib/android-sdk/build-tools/debian/apksigner verify --verbose --print-certs {}` (b):
+DOES NOT VERIFY
+ERROR: Missing META-INF/MANIFEST.MF
+    </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 1, 26 lines modified</td><td colspan="2">Offset 0, 0 lines modified</td></tr>
+<tr class="diffdeleted"><td class="diffline">1 </td><td class="diffpresent">Verifies</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">2 </td><td class="diffpresent">Verified<span class="dp">·</span>using<span class="dp">·</span>v1<span class="dp">·</span>scheme<span class="dp">·</span>(JAR<span class="dp">·</span>signing):<span class="dp">·</span>true</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">3 </td><td class="diffpresent">Verified<span class="dp">·</span>using<span class="dp">·</span>v2<span class="dp">·</span>scheme<span class="dp">·</span>(APK<span class="dp">·</span>Signature<span class="dp">·</span>Scheme<span class="dp">·</span>v2):<span class="dp">·</span>true</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">4 </td><td class="diffpresent">Verified<span class="dp">·</span>using<span class="dp">·</span>v3<span class="dp">·</span>scheme<span class="dp">·</span>(APK<span class="dp">·</span>Signature<span class="dp">·</span>Scheme<span class="dp">·</span>v3):<span class="dp">·</span>true</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">5 </td><td class="diffpresent">Verified<span class="dp">·</span>using<span class="dp">·</span>v4<span class="dp">·</span>scheme<span class="dp">·</span>(APK<span class="dp">·</span>Signature<span class="dp">·</span>Scheme<span class="dp">·</span>v4):<span class="dp">·</span>false</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">6 </td><td class="diffpresent">Verified<span class="dp">·</span>for<span class="dp">·</span>SourceStamp:<span class="dp">·</span>false</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">7 </td><td class="diffpresent">Number<span class="dp">·</span>of<span class="dp">·</span>signers:<span class="dp">·</span>1</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">8 </td><td class="diffpresent">Signer<span class="dp">·</span>#1<span class="dp">·</span>certificate<span class="dp">·</span>DN:<span class="dp">·</span>CN=Android,<span class="dp">·</span>OU=Android,<span class="dp">·</span>O=Google<span class="dp">·</span>Inc.,<span class="dp">·</span>L=Mountain<span class="dp">·</span>View,<span class="dp">·</span>ST=California,<span class="dp">·</span>C=US</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">9 </td><td class="diffpresent">Signer<span class="dp">·</span>#1<span class="dp">·</span>certificate<span class="dp">·</span>SHA-256<span class="dp">·</span>digest:<span class="dp">·</span>c0d0f9da7158cde788d0281e9ebd07034178165584d635f7ce17f77c037d961a</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">10 </td><td class="diffpresent">Signer<span class="dp">·</span>#1<span class="dp">·</span>certificate<span class="dp">·</span>SHA-1<span class="dp">·</span>digest:<span class="dp">·</span>452e6208eea504eb2ee86e9169ca1fc74796e364</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">11 </td><td class="diffpresent">Signer<span class="dp">·</span>#1<span class="dp">·</span>certificate<span class="dp">·</span>MD5<span class="dp">·</span>digest:<span class="dp">·</span>9af45dc8fc882644b08ebb78fa4f6c1c</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">12 </td><td class="diffpresent">Signer<span class="dp">·</span>#1<span class="dp">·</span>key<span class="dp">·</span>algorithm:<span class="dp">·</span>RSA</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">13 </td><td class="diffpresent">Signer<span class="dp">·</span>#1<span class="dp">·</span>key<span class="dp">·</span>size<span class="dp">·</span>(bits):<span class="dp">·</span>4096</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">14 </td><td class="diffpresent">Signer<span class="dp">·</span>#1<span class="dp">·</span>public<span class="dp">·</span>key<span class="dp">·</span>SHA-256<span class="dp">·</span>digest:<span class="dp">·</span>80d8b4e8347d72f4d663a8b257f8617ace9d4f251baf7e8b45bd4fc42334d22a</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">15 </td><td class="diffpresent">Signer<span class="dp">·</span>#1<span class="dp">·</span>public<span class="dp">·</span>key<span class="dp">·</span>SHA-1<span class="dp">·</span>digest:<span class="dp">·</span>b161402bb9ee3c79089317655963ad06d41913c4</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">16 </td><td class="diffpresent">Signer<span class="dp">·</span>#1<span class="dp">·</span>public<span class="dp">·</span>key<span class="dp">·</span>MD5<span class="dp">·</span>digest:<span class="dp">·</span>3ec6d30501bda52cdbe20e07c0717ee8</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">17 </td><td class="diffpresent">Source<span class="dp">·</span>Stamp<span class="dp">·</span>Signer<span class="dp">·</span>certificate<span class="dp">·</span>DN:<span class="dp">·</span>CN=Android,<span class="dp">·</span>OU=Android,<span class="dp">·</span>O=Google<span class="dp">·</span>Inc.,<span class="dp">·</span>L=Mountain<span class="dp">·</span>View,<span class="dp">·</span>ST=California,<span class="dp">·</span>C=US</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">18 </td><td class="diffpresent">Source<span class="dp">·</span>Stamp<span class="dp">·</span>Signer<span class="dp">·</span>certificate<span class="dp">·</span>SHA-256<span class="dp">·</span>digest:<span class="dp">·</span>3257d599a49d2c961a471ca9843f59d341a405884583fc087df4237b733bbd6d</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">19 </td><td class="diffpresent">Source<span class="dp">·</span>Stamp<span class="dp">·</span>Signer<span class="dp">·</span>certificate<span class="dp">·</span>SHA-1<span class="dp">·</span>digest:<span class="dp">·</span>b1af3a0bf998aeede1a8716a539e5a59da1d86d6</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">20 </td><td class="diffpresent">Source<span class="dp">·</span>Stamp<span class="dp">·</span>Signer<span class="dp">·</span>certificate<span class="dp">·</span>MD5<span class="dp">·</span>digest:<span class="dp">·</span>577b8a9fbc7e308321aec6411169d2fb</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">21 </td><td class="diffpresent">Source<span class="dp">·</span>Stamp<span class="dp">·</span>Signer<span class="dp">·</span>key<span class="dp">·</span>algorithm:<span class="dp">·</span>RSA</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">22 </td><td class="diffpresent">Source<span class="dp">·</span>Stamp<span class="dp">·</span>Signer<span class="dp">·</span>key<span class="dp">·</span>size<span class="dp">·</span>(bits):<span class="dp">·</span>4096</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">23 </td><td class="diffpresent">Source<span class="dp">·</span>Stamp<span class="dp">·</span>Signer<span class="dp">·</span>public<span class="dp">·</span>key<span class="dp">·</span>SHA-256<span class="dp">·</span>digest:<span class="dp">·</span>4c53c1d28f2ecceadcb1351603f0b702615b3454b6e30070de759359f241b802</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">24 </td><td class="diffpresent">Source<span class="dp">·</span>Stamp<span class="dp">·</span>Signer<span class="dp">·</span>public<span class="dp">·</span>key<span class="dp">·</span>SHA-1<span class="dp">·</span>digest:<span class="dp">·</span>188b067a9ee881bde55dabe0f8f7ecb320b1a091</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">25 </td><td class="diffpresent">Source<span class="dp">·</span>Stamp<span class="dp">·</span>Signer<span class="dp">·</span>public<span class="dp">·</span>key<span class="dp">·</span>MD5<span class="dp">·</span>digest:<span class="dp">·</span>965afac83f033aa037a54482eb6922d5</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">26 </td><td class="diffpresent">WARNING:<span class="dp">·</span>SourceStamp:<span class="dp">·</span>Unknown<span class="dp">·</span>stamp<span class="dp">·</span>attribute:<span class="dp">·</span>ID<span class="dp">·</span>0xe43c5946</td><td colspan="2"> </td></tr>
+</table>  </div>
+  <div class="difference">
+    <div class="diffheader">
+    <div class="diffcontrol">⊟</div>
+    <div><span class="diffsize">2.66 KB</span></div>
+    <div id="zipinfo---"><span class="source">zipinfo {}</span>
+      <a class="anchor" href="#zipinfo---">¶</a>
+    </div>
+    </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 1, 18 lines modified</td><td colspan="2">Offset 1, 14 lines modified</td></tr>
+<tr class="diffchanged"><td class="diffline">1 </td><td class="diffpresent">Zip<span class="dp">·</span>file<span class="dp">·</span>size:<span class="dp">·</span>29<del>414</del>6<del>19</del><span class="dp">·</span>bytes,<span class="dp">·</span>number<span class="dp">·</span>of<span class="dp">·</span>entries:<span class="dp">·</span>1<del>6</del></td><td class="diffline">1 </td><td class="diffpresent">Zip<span class="dp">·</span>file<span class="dp">·</span>size:<span class="dp">·</span>29<ins>397</ins>6<ins>37</ins><span class="dp">·</span>bytes,<span class="dp">·</span>number<span class="dp">·</span>of<span class="dp">·</span>entries:<span class="dp">·</span>1<ins>2</ins></td></tr>
+<tr class="diffchanged"><td class="diffline">2 </td><td class="diffpresent">-rw-r<del>-</del>-r<del>-</del>-<span class="dp">·</span><span class="dp">·</span>0.0<span class="dp">·</span>unx<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><del>102</del>8<span class="dp">·</span>b-<span class="dp">·</span>defN<span class="dp">·</span>81-Jan-01<span class="dp">·</span>01:01<span class="dp">·</span>AndroidManifest.xml</td><td class="diffline">2 </td><td class="diffpresent">-rw-r<ins>w</ins>-r<ins>w</ins>-<span class="dp">·</span><span class="dp">·</span>0.0<span class="dp">·</span>unx<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><ins><span class="dp">·</span>70</ins>8<span class="dp">·</span>b-<span class="dp">·</span>defN<span class="dp">·</span>81-Jan-01<span class="dp">·</span>01:01<span class="dp">·</span>AndroidManifest.xml</td></tr>
+<tr class="diffchanged"><td class="diffline">3 </td><td class="diffpresent">-rw-r<del>-</del>-r<del>-</del>-<span class="dp">·</span><span class="dp">·</span>0.0<span class="dp">·</span>unx<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>10096<span class="dp">·</span>b-<span class="dp">·</span>stor<span class="dp">·</span>81-Jan-01<span class="dp">·</span>01:01<span class="dp">·</span>lib/arm64-v8a/libandroidx.graphics.path.so</td><td class="diffline">3 </td><td class="diffpresent">-rw-r<ins>w</ins>-r<ins>w</ins>-<span class="dp">·</span><span class="dp">·</span>0.0<span class="dp">·</span>unx<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>10096<span class="dp">·</span>b-<span class="dp">·</span>stor<span class="dp">·</span>81-Jan-01<span class="dp">·</span>01:01<span class="dp">·</span>lib/arm64-v8a/libandroidx.graphics.path.so</td></tr>
+<tr class="diffchanged"><td class="diffline">4 </td><td class="diffpresent">-rw-r<del>-</del>-r<del>-</del>-<span class="dp">·</span><span class="dp">·</span>0.0<span class="dp">·</span>unx<span class="dp">·</span>13054440<span class="dp">·</span>b-<span class="dp">·</span>stor<span class="dp">·</span>81-Jan-01<span class="dp">·</span>01:01<span class="dp">·</span>lib/arm64-v8a/libbdkffi.so</td><td class="diffline">4 </td><td class="diffpresent">-rw-r<ins>w</ins>-r<ins>w</ins>-<span class="dp">·</span><span class="dp">·</span>0.0<span class="dp">·</span>unx<span class="dp">·</span>13054440<span class="dp">·</span>b-<span class="dp">·</span>stor<span class="dp">·</span>81-Jan-01<span class="dp">·</span>01:01<span class="dp">·</span>lib/arm64-v8a/libbdkffi.so</td></tr>
+<tr class="diffchanged"><td class="diffline">5 </td><td class="diffpresent">-rw-r<del>-</del>-r<del>-</del>-<span class="dp">·</span><span class="dp">·</span>0.0<span class="dp">·</span>unx<span class="dp">·</span><span class="dp">·</span>1171152<span class="dp">·</span>b-<span class="dp">·</span>stor<span class="dp">·</span>81-Jan-01<span class="dp">·</span>01:01<span class="dp">·</span>lib/arm64-v8a/libbugsnag-ndk.so</td><td class="diffline">5 </td><td class="diffpresent">-rw-r<ins>w</ins>-r<ins>w</ins>-<span class="dp">·</span><span class="dp">·</span>0.0<span class="dp">·</span>unx<span class="dp">·</span><span class="dp">·</span>1171152<span class="dp">·</span>b-<span class="dp">·</span>stor<span class="dp">·</span>81-Jan-01<span class="dp">·</span>01:01<span class="dp">·</span>lib/arm64-v8a/libbugsnag-ndk.so</td></tr>
+<tr class="diffchanged"><td class="diffline">6 </td><td class="diffpresent">-rw-r<del>-</del>-r<del>-</del>-<span class="dp">·</span><span class="dp">·</span>0.0<span class="dp">·</span>unx<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>13656<span class="dp">·</span>b-<span class="dp">·</span>stor<span class="dp">·</span>81-Jan-01<span class="dp">·</span>01:01<span class="dp">·</span>lib/arm64-v8a/libbugsnag-plugin-android-anr.so</td><td class="diffline">6 </td><td class="diffpresent">-rw-r<ins>w</ins>-r<ins>w</ins>-<span class="dp">·</span><span class="dp">·</span>0.0<span class="dp">·</span>unx<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>13656<span class="dp">·</span>b-<span class="dp">·</span>stor<span class="dp">·</span>81-Jan-01<span class="dp">·</span>01:01<span class="dp">·</span>lib/arm64-v8a/libbugsnag-plugin-android-anr.so</td></tr>
+<tr class="diffchanged"><td class="diffline">7 </td><td class="diffpresent">-rw-r<del>-</del>-r<del>-</del>-<span class="dp">·</span><span class="dp">·</span>0.0<span class="dp">·</span>unx<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>5016<span class="dp">·</span>b-<span class="dp">·</span>stor<span class="dp">·</span>81-Jan-01<span class="dp">·</span>01:01<span class="dp">·</span>lib/arm64-v8a/libbugsnag-root-detection.so</td><td class="diffline">7 </td><td class="diffpresent">-rw-r<ins>w</ins>-r<ins>w</ins>-<span class="dp">·</span><span class="dp">·</span>0.0<span class="dp">·</span>unx<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>5016<span class="dp">·</span>b-<span class="dp">·</span>stor<span class="dp">·</span>81-Jan-01<span class="dp">·</span>01:01<span class="dp">·</span>lib/arm64-v8a/libbugsnag-root-detection.so</td></tr>
+<tr class="diffchanged"><td class="diffline">8 </td><td class="diffpresent">-rw-r<del>-</del>-r<del>-</del>-<span class="dp">·</span><span class="dp">·</span>0.0<span class="dp">·</span>unx<span class="dp">·</span><span class="dp">·</span>5493936<span class="dp">·</span>b-<span class="dp">·</span>stor<span class="dp">·</span>81-Jan-01<span class="dp">·</span>01:01<span class="dp">·</span>lib/arm64-v8a/libcore.so</td><td class="diffline">8 </td><td class="diffpresent">-rw-r<ins>w</ins>-r<ins>w</ins>-<span class="dp">·</span><span class="dp">·</span>0.0<span class="dp">·</span>unx<span class="dp">·</span><span class="dp">·</span>5493936<span class="dp">·</span>b-<span class="dp">·</span>stor<span class="dp">·</span>81-Jan-01<span class="dp">·</span>01:01<span class="dp">·</span>lib/arm64-v8a/libcore.so</td></tr>
+<tr class="diffchanged"><td class="diffline">9 </td><td class="diffpresent">-rw-r<del>-</del>-r<del>-</del>-<span class="dp">·</span><span class="dp">·</span>0.0<span class="dp">·</span>unx<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>7112<span class="dp">·</span>b-<span class="dp">·</span>stor<span class="dp">·</span>81-Jan-01<span class="dp">·</span>01:01<span class="dp">·</span>lib/arm64-v8a/libdatastore_shared_counter.so</td><td class="diffline">9 </td><td class="diffpresent">-rw-r<ins>w</ins>-r<ins>w</ins>-<span class="dp">·</span><span class="dp">·</span>0.0<span class="dp">·</span>unx<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>7112<span class="dp">·</span>b-<span class="dp">·</span>stor<span class="dp">·</span>81-Jan-01<span class="dp">·</span>01:01<span class="dp">·</span>lib/arm64-v8a/libdatastore_shared_counter.so</td></tr>
+<tr class="diffchanged"><td class="diffline">10 </td><td class="diffpresent">-rw-r<del>-</del>-r<del>-</del>-<span class="dp">·</span><span class="dp">·</span>0.0<span class="dp">·</span>unx<span class="dp">·</span><span class="dp">·</span>3564304<span class="dp">·</span>b-<span class="dp">·</span>stor<span class="dp">·</span>81-Jan-01<span class="dp">·</span>01:01<span class="dp">·</span>lib/arm64-v8a/libfirmware.so</td><td class="diffline">10 </td><td class="diffpresent">-rw-r<ins>w</ins>-r<ins>w</ins>-<span class="dp">·</span><span class="dp">·</span>0.0<span class="dp">·</span>unx<span class="dp">·</span><span class="dp">·</span>3564304<span class="dp">·</span>b-<span class="dp">·</span>stor<span class="dp">·</span>81-Jan-01<span class="dp">·</span>01:01<span class="dp">·</span>lib/arm64-v8a/libfirmware.so</td></tr>
+<tr class="diffchanged"><td class="diffline">11 </td><td class="diffpresent">-rw-r<del>-</del>-r<del>-</del>-<span class="dp">·</span><span class="dp">·</span>0.0<span class="dp">·</span>unx<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>29008<span class="dp">·</span>b-<span class="dp">·</span>stor<span class="dp">·</span>81-Jan-01<span class="dp">·</span>01:01<span class="dp">·</span>lib/arm64-v8a/libimage_processing_util_jni.so</td><td class="diffline">11 </td><td class="diffpresent">-rw-r<ins>w</ins>-r<ins>w</ins>-<span class="dp">·</span><span class="dp">·</span>0.0<span class="dp">·</span>unx<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>29008<span class="dp">·</span>b-<span class="dp">·</span>stor<span class="dp">·</span>81-Jan-01<span class="dp">·</span>01:01<span class="dp">·</span>lib/arm64-v8a/libimage_processing_util_jni.so</td></tr>
+<tr class="diffchanged"><td class="diffline">12 </td><td class="diffpresent">-rw-r<del>-</del>-r<del>-</del>-<span class="dp">·</span><span class="dp">·</span>0.0<span class="dp">·</span>unx<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>168176<span class="dp">·</span>b-<span class="dp">·</span>stor<span class="dp">·</span>81-Jan-01<span class="dp">·</span>01:01<span class="dp">·</span>lib/arm64-v8a/libjnidispatch.so</td><td class="diffline">12 </td><td class="diffpresent">-rw-r<ins>w</ins>-r<ins>w</ins>-<span class="dp">·</span><span class="dp">·</span>0.0<span class="dp">·</span>unx<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>168176<span class="dp">·</span>b-<span class="dp">·</span>stor<span class="dp">·</span>81-Jan-01<span class="dp">·</span>01:01<span class="dp">·</span>lib/arm64-v8a/libjnidispatch.so</td></tr>
+<tr class="diffchanged"><td class="diffline">13 </td><td class="diffpresent">-rw-r<del>-</del>-r<del>-</del>-<span class="dp">·</span><span class="dp">·</span>0.0<span class="dp">·</span>unx<span class="dp">·</span><span class="dp">·</span>5787312<span class="dp">·</span>b-<span class="dp">·</span>stor<span class="dp">·</span>81-Jan-01<span class="dp">·</span>01:01<span class="dp">·</span>lib/arm64-v8a/libsqlcipher.so</td><td class="diffline">13 </td><td class="diffpresent">-rw-r<ins>w</ins>-r<ins>w</ins>-<span class="dp">·</span><span class="dp">·</span>0.0<span class="dp">·</span>unx<span class="dp">·</span><span class="dp">·</span>5787312<span class="dp">·</span>b-<span class="dp">·</span>stor<span class="dp">·</span>81-Jan-01<span class="dp">·</span>01:01<span class="dp">·</span>lib/arm64-v8a/libsqlcipher.so</td></tr>
+<tr class="diffdeleted"><td class="diffline">14 </td><td class="diffpresent">-rw----<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>2.0<span class="dp">·</span>fat<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>32<span class="dp">·</span>b-<span class="dp">·</span>defN<span class="dp">·</span>81-Jan-01<span class="dp">·</span>01:01<span class="dp">·</span>stamp-cert-sha256</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">15 </td><td class="diffpresent">-rw----<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>2.0<span class="dp">·</span>fat<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>1246<span class="dp">·</span>b-<span class="dp">·</span>defN<span class="dp">·</span>81-Jan-01<span class="dp">·</span>01:01<span class="dp">·</span>META-INF/BNDLTOOL.SF</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">16 </td><td class="diffpresent">-rw----<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>2.0<span class="dp">·</span>fat<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>2172<span class="dp">·</span>b-<span class="dp">·</span>defN<span class="dp">·</span>81-Jan-01<span class="dp">·</span>01:01<span class="dp">·</span>META-INF/BNDLTOOL.RSA</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">17 </td><td class="diffpresent">-rw----<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>2.0<span class="dp">·</span>fat<span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>1138<span class="dp">·</span>b-<span class="dp">·</span>defN<span class="dp">·</span>81-Jan-01<span class="dp">·</span>01:01<span class="dp">·</span>META-INF/MANIFEST.MF</td><td colspan="2"> </td></tr>
+<tr class="diffchanged"><td class="diffline">18 </td><td class="diffpresent">1<del>6</del><span class="dp">·</span>files,<span class="dp">·</span>2930<del>9824</del><span class="dp">·</span>bytes<span class="dp">·</span>uncompressed,<span class="dp">·</span>2930<del>7756</del><span class="dp">·</span>bytes<span class="dp">·</span>compressed:<span class="dp">·</span><span class="dp">·</span>0.0%</td><td class="diffline">14 </td><td class="diffpresent">1<ins>2</ins><span class="dp">·</span>files,<span class="dp">·</span>2930<ins>4916</ins><span class="dp">·</span>bytes<span class="dp">·</span>uncompressed,<span class="dp">·</span>2930<ins>4543</ins><span class="dp">·</span>bytes<span class="dp">·</span>compressed:<span class="dp">·</span><span class="dp">·</span>0.0%</td></tr>
+</table>  </div>
+  <div class="difference">
+    <div class="diffheader">
+    <div class="diffcontrol">⊟</div>
+    <div><span class="diffsize">763 B</span></div>
+    <div id="AndroidManifest.xml--decoded-"><span class="source">AndroidManifest.xml (decoded)</span>
+      <a class="anchor" href="#AndroidManifest.xml--decoded-">¶</a>
+    </div>
+    </div>
+    <div class="difference">
+      <div class="diffheader">
+      <div class="diffcontrol">⊟</div>
+      <div><span class="diffsize">705 B</span></div>
+      <div id="AndroidManifest.xml--decoded----AndroidManifest.xml"><span class="source">AndroidManifest.xml</span>
+        <a class="anchor" href="#AndroidManifest.xml--decoded----AndroidManifest.xml">¶</a>
+      </div>
+      </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 1, 6 lines modified</td><td colspan="2">Offset 1, 4 lines modified</td></tr>
+<tr class="diffunmodified"><td class="diffline">1 </td><td class="diffpresent">&lt;?xml<span class="dp">·</span>version=&quot;1.0&quot;<span class="dp">·</span>encoding=&quot;utf-8&quot;?&gt;</td><td class="diffline">1 </td><td class="diffpresent">&lt;?xml<span class="dp">·</span>version=&quot;1.0&quot;<span class="dp">·</span>encoding=&quot;utf-8&quot;?&gt;</td></tr>
+<tr class="diffchanged"><td class="diffline">2 </td><td class="diffpresent">&lt;manifest<span class="dp">·</span>xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;<span class="dp">·</span>android:versionCode=&quot;2025010101&quot;<span class="dp">·</span><del>android:splitTypes=&quot;base__abi&quot;<span class="dp">·</span></del>package=&quot;world.bitkey.app&quot;<span class="dp">·</span>split=&quot;config.arm64_v8a&quot;&gt;</td><td class="diffline">2 </td><td class="diffpresent">&lt;manifest<span class="dp">·</span>xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;<span class="dp">·</span>android:versionCode=&quot;2025010101&quot;<span class="dp">·</span>package=&quot;world.bitkey.app&quot;<span class="dp">·</span>split=&quot;config.arm64_v8a&quot;&gt;</td></tr>
+<tr class="diffchanged"><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>&lt;application<span class="dp">·</span>android:hasCode=&quot;false&quot;<span class="dp">·</span>android:extractNativeLibs=&quot;false&quot;&gt;</td><td class="diffline">3 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>&lt;application<span class="dp">·</span>android:hasCode=&quot;false&quot;<span class="dp">·</span>android:extractNativeLibs=&quot;false&quot;<ins>/</ins>&gt;</td></tr>
+<tr class="diffdeleted"><td class="diffline">4 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span><span class="dp">·</span>&lt;meta-data<span class="dp">·</span>android:name=&quot;com.android.vending.derived.apk.id&quot;<span class="dp">·</span>android:value=&quot;3&quot;/&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffdeleted"><td class="diffline">5 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>&lt;/application&gt;</td><td colspan="2"> </td></tr>
+<tr class="diffunmodified"><td class="diffline">6 </td><td class="diffpresent">&lt;/manifest&gt;</td><td class="diffline">4 </td><td class="diffpresent">&lt;/manifest&gt;</td></tr>
+</table>    </div>
+  </div>
+  <div class="difference">
+    <div class="diffheader">
+    <div class="diffcontrol">⊟</div>
+    <div><span class="diffsize">383 B</span></div>
+    <div id="APK-metadata"><span class="source">APK metadata</span>
+      <a class="anchor" href="#APK-metadata">¶</a>
+    </div>
+    </div>
+<table class="diff">
+<colgroup><col class="colines"/><col class="coldiff"/>
+<col class="colines"/><col class="coldiff"/></colgroup>
+<tr style="display:none;"><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr class="diffhunk"><td colspan="2">Offset 13, 16 lines modified</td><td colspan="2">Offset 13, 15 lines modified</td></tr>
+<tr class="diffunmodified"><td class="diffline">13 </td><td class="diffpresent">-<span class="dp">·</span>lib/arm64-v8a/libjnidispatch.so</td><td class="diffline">13 </td><td class="diffpresent">-<span class="dp">·</span>lib/arm64-v8a/libjnidispatch.so</td></tr>
+<tr class="diffunmodified"><td class="diffline">14 </td><td class="diffpresent">-<span class="dp">·</span>lib/arm64-v8a/libsqlcipher.so</td><td class="diffline">14 </td><td class="diffpresent">-<span class="dp">·</span>lib/arm64-v8a/libsqlcipher.so</td></tr>
+<tr class="diffunmodified"><td class="diffline">15 </td><td class="diffpresent">isFrameworkApk:<span class="dp">·</span>false</td><td class="diffline">15 </td><td class="diffpresent">isFrameworkApk:<span class="dp">·</span>false</td></tr>
+<tr class="diffunmodified"><td class="diffline">16 </td><td class="diffpresent">packageInfo:<span class="dp">·</span>null</td><td class="diffline">16 </td><td class="diffpresent">packageInfo:<span class="dp">·</span>null</td></tr>
+<tr class="diffunmodified"><td class="diffline">17 </td><td class="diffpresent">sdkInfo:<span class="dp">·</span>null</td><td class="diffline">17 </td><td class="diffpresent">sdkInfo:<span class="dp">·</span>null</td></tr>
+<tr class="diffunmodified"><td class="diffline">18 </td><td class="diffpresent">sharedLibrary:<span class="dp">·</span>false</td><td class="diffline">18 </td><td class="diffpresent">sharedLibrary:<span class="dp">·</span>false</td></tr>
+<tr class="diffunmodified"><td class="diffline">19 </td><td class="diffpresent">sparseResources:<span class="dp">·</span>false</td><td class="diffline">19 </td><td class="diffpresent">sparseResources:<span class="dp">·</span>false</td></tr>
+<tr class="diffchanged"><td class="diffline">20 </td><td class="diffpresent">unknownFiles:</td><td class="diffline">20 </td><td class="diffpresent">unknownFiles:<ins><span class="dp">·</span>{}</ins></td></tr>
+<tr class="diffdeleted"><td class="diffline">21 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>stamp-cert-sha256:<span class="dp">·</span>&#x27;8&#x27;</td><td colspan="2"> </td></tr>
+<tr class="diffunmodified"><td class="diffline">22 </td><td class="diffpresent">usesFramework:</td><td class="diffline">21 </td><td class="diffpresent">usesFramework:</td></tr>
+<tr class="diffunmodified"><td class="diffline">23 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>ids:</td><td class="diffline">22 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>ids:</td></tr>
+<tr class="diffunmodified"><td class="diffline">24 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>-<span class="dp">·</span>1</td><td class="diffline">23 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>-<span class="dp">·</span>1</td></tr>
+<tr class="diffunmodified"><td class="diffline">25 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>tag:<span class="dp">·</span>null</td><td class="diffline">24 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>tag:<span class="dp">·</span>null</td></tr>
+<tr class="diffunmodified"><td class="diffline">26 </td><td class="diffpresent">version:<span class="dp">·</span>2.7.0-dirty</td><td class="diffline">25 </td><td class="diffpresent">version:<span class="dp">·</span>2.7.0-dirty</td></tr>
+<tr class="diffunmodified"><td class="diffline">27 </td><td class="diffpresent">versionInfo:</td><td class="diffline">26 </td><td class="diffpresent">versionInfo:</td></tr>
+<tr class="diffunmodified"><td class="diffline">28 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>versionCode:<span class="dp">·</span>&#x27;2025010101&#x27;</td><td class="diffline">27 </td><td class="diffpresent"><span class="dp">·</span><span class="dp">·</span>versionCode:<span class="dp">·</span>&#x27;2025010101&#x27;</td></tr>
+</table>  </div>
+</div>
+<div class="footer">
+Generated by
+<a href="https://diffoscope.org" rel="noopener noreferrer" target="_blank">
+diffoscope</a> 259
+</div>
+</body>
+</html>
+
