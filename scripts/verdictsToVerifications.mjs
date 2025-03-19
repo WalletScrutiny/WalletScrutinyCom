@@ -155,6 +155,7 @@ async function parseFile(filePath, folderName) {
 
     } catch (error) {
         console.error(`**************************************************\n Error parsing file ${filePath}: ${error.message}\n**************************************************`);
+        process.exit(1);
     }
 }
 
