@@ -3,8 +3,8 @@ export const explicitRelayUrls = [
   "wss://relay.zapstore.dev/",
   "wss://relay.damus.io/",
   "wss://strfry.iris.to/",
-  "wss://relay.snort.social/",
-  "wss://nostr-pub.wellorder.net/"
+  "wss://relay.nostr.band/",
+  "wss://relay.fountain.fm/"
 ];
 
 // Verifications
