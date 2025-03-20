@@ -19,7 +19,7 @@ shop: >-
 country: SG
 price: 48USD
 repository: https://github.com/OneKeyHQ/firmware
-issue: https://github.com/OneKeyHQ/firmware/issues/579#issuecomment-2721075263
+issue: https://github.com/OneKeyHQ/firmware/issues/579
 icon: onekeymini.png
 bugbounty: 
 meta: ok
