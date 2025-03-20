@@ -1,0 +1,16 @@
+[Unit]
+Description=Blossom Server
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/blossom-server
+ExecStart=/usr/bin/npx blossom-server-ts@latest
+Restart=on-failure
+Environment=NODE_ENV=production
+StandardOutput=append:/var/log/blossom_server.out.log
+StandardError=append:/var/log/blossom_server.err.log
+
+[Install]
+WantedBy=multi-user.target
