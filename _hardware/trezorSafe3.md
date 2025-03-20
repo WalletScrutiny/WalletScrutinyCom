@@ -28,12 +28,20 @@ bugbounty: https://trezor.io/learn/a/how-to-report-an-issue
 meta: ok
 verdict: nonverifiable
 appHashes:
-- 38ebb96d4f0cfd36e28b82480a021d62832c3e72c6577d52f9bc92d12c0466cf
-- e19a2be8b201d46e8099f092c9c9dc898b6931f02ea6a27babe4296ee5650765
-- 9b2365d76045a02d77714827d311bd8f9c6a47f346224f313d258d7ec4881c46
+- b9491dc18efa0d2492b6cfe3c68ee7c36e6dc7ff12633522c7d32639ebef7312
+- d9463f4b570b775bf1d9d12b56763a2574af8bc4a671c5189e199afd231d9a51
+- 2b1be31f3a928b8b98ff8230e2b161c4aad5d502efef059ec9cba4c372c2e930
 date: 2025-02-22
 signer: 
 reviewArchive:
+- date: 2025-02-22
+  version: 2.8.0
+  appHashes:
+  -  38ebb96d4f0cfd36e28b82480a021d62832c3e72c6577d52f9bc92d12c0466cf
+  - e19a2be8b201d46e8099f092c9c9dc898b6931f02ea6a27babe4296ee5650765
+  - 9b2365d76045a02d77714827d311bd8f9c6a47f346224f313d258d7ec4881c46
+  gitRevision: c481c44ae4f0a71ebdb7a4fa45f53e9ad3822c01
+  verdict: nonverifiable
 - date: 2024-10-11
   version: 2.8.0
   appHashes:
@@ -55,40 +63,39 @@ features:
 
 ---
 
-## Updated Review 2025-02-22
+## Updated Review 2025-03-20
 
 We were able to create a script for the Trezor Safe 3 with the build instruction, that would automate the process.
 
-`./scripts/test/hardware/trezorSafe3.sh 2.8.7`
+`./scripts/test/hardware/trezorSafe3.sh 2.8.9`
 
 ```
-Built from commit 8a254aa8eae82f99630df63f40e4d290066a3efc
+Built from commit fad9682201cf9289bba2adb66e6e07ed1cf78936
 
 Fingerprints:
-38ebb96d4f0cfd36e28b82480a021d62832c3e72c6577d52f9bc92d12c0466cf  build/core-R/bootloader/bootloader.bin
-e19a2be8b201d46e8099f092c9c9dc898b6931f02ea6a27babe4296ee5650765  build/core-R/firmware/firmware.bin
-38ebb96d4f0cfd36e28b82480a021d62832c3e72c6577d52f9bc92d12c0466cf  build/core-R-bitcoinonly/bootloader/bootloader.bin
-9b2365d76045a02d77714827d311bd8f9c6a47f346224f313d258d7ec4881c46  build/core-R-bitcoinonly/firmware/firmware.bin
+b9491dc18efa0d2492b6cfe3c68ee7c36e6dc7ff12633522c7d32639ebef7312  build/core-T2B1/bootloader/bootloader.bin
+d9463f4b570b775bf1d9d12b56763a2574af8bc4a671c5189e199afd231d9a51  build/core-T2B1/firmware/firmware.bin
+b9491dc18efa0d2492b6cfe3c68ee7c36e6dc7ff12633522c7d32639ebef7312  build/core-T2B1-bitcoinonly/bootloader/bootloader.bin
+2b1be31f3a928b8b98ff8230e2b161c4aad5d502efef059ec9cba4c372c2e930  build/core-T2B1-bitcoinonly/firmware/firmware.bin
 
 Comparing hashes of zeroed binaries with built firmware:
-9b2365d76045a02d77714827d311bd8f9c6a47f346224f313d258d7ec4881c46  build/core-R-bitcoinonly/firmware/firmware.bin
-9b2365d76045a02d77714827d311bd8f9c6a47f346224f313d258d7ec4881c46  trezor-t2b1-2.8.7-bitcoinonly.bin.zeroed
-e19a2be8b201d46e8099f092c9c9dc898b6931f02ea6a27babe4296ee5650765  build/core-R/firmware/firmware.bin
-e19a2be8b201d46e8099f092c9c9dc898b6931f02ea6a27babe4296ee5650765  trezor-t2b1-2.8.7.bin.zeroed
+2b1be31f3a928b8b98ff8230e2b161c4aad5d502efef059ec9cba4c372c2e930  build/core-T2B1-bitcoinonly/firmware/firmware.bin
+2b1be31f3a928b8b98ff8230e2b161c4aad5d502efef059ec9cba4c372c2e930  trezor-t2b1-2.8.9-bitcoinonly.bin.zeroed
+d9463f4b570b775bf1d9d12b56763a2574af8bc4a671c5189e199afd231d9a51  build/core-T2B1/firmware/firmware.bin
+d9463f4b570b775bf1d9d12b56763a2574af8bc4a671c5189e199afd231d9a51  trezor-t2b1-2.8.9.bin.zeroed
 ```
-In the development of the Trezor Safe 3 firmware version 2.8.7, we encountered a significant bootloader verification challenge:
+In the development of the Trezor Safe 3 firmware version 2.8.9, we encountered a significant bootloader verification challenge:
 
-The changelog indicates firmware 2.8.7 includes bootloader version 2.1.8. When building from firmware 2.8.7 (core/v2.8.7), the embedded bootloader produces a hash:
+The changelog indicates firmware 2.8.9 includes bootloader version 2.1.10. When building from firmware 2.8.9 (core/v2.8.9), the embedded bootloader produces a hash:
 ```
-38ebb96d4f0cfd36e28b82480a021d62832c3e72c6577d52f9bc92d12c0466cf
+b9491dc18efa0d2492b6cfe3c68ee7c36e6dc7ff12633522c7d32639ebef7312
 ```
 
-But when building bootloader 2.1.8 directly (core/bl2.1.8) with the command `./build-docker.sh --models R --targets bootloader core/bl2.1.8` , we get a different hash:
+But when building bootloader 2.1.10 directly (core/bl2.1.10) with the command `./build-docker.sh --models R --targets bootloader core/bl2.1.8` , we get a different hash:
 ```
 Fingerprints:
-75916751a87fc9f1cb9ffabc26965c30ba751bcc4a50740d1e300657c71d2ebb build/core-R/bootloader/bootloader.bin
-75916751a87fc9f1cb9ffabc26965c30ba751bcc4a50740d1e300657c71d2ebb build/core-R-bitcoinonly/bootloader/bootloader.bin
-
+c1ab64fc2a01644f10e2594b3b15b2d1ac3b0d6b84095722cb8b80296d9b70f4 build/core-T2B1/bootloader/bootloader.bin
+c1ab64fc2a01644f10e2594b3b15b2d1ac3b0d6b84095722cb8b80296d9b70f4 build/core-T2B1-bitcoinonly/bootloader/bootloader.bin
 ```
 
 The hash mismatch between the firmware-embedded bootloader and our directly built bootloader raises some uncertainties about reproducibility. Without detailed documentation of Trezor’s bootloader signing process or access to their signed bootloader binaries, it’s challenging to determine whether this difference is due to signing, build parameters, or other factors.  
@@ -96,7 +103,7 @@ The hash mismatch between the firmware-embedded bootloader and our directly buil
 While the firmware itself appears reproducible (as the zeroed firmware hashes match), verifying the bootloader remains inconclusive. This highlights the potential benefit of more transparency around the bootloader build and signing process.
 
 
-**Version 2.8.7 of the {{ page.title }} is non-verifiable**.
+**Version 2.8.9 of the {{ page.title }} is non-verifiable**.
 
 
 ## Updated Review 2024-10-11
