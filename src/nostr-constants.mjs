@@ -1,10 +1,10 @@
 export const explicitRelayUrls = [
-  "wss://relay.primal.net/",
-  "wss://relay.zapstore.dev/",
-  "wss://relay.damus.io/",
-  "wss://strfry.iris.to/",
-  "wss://relay.nostr.band/",
-  "wss://relay.fountain.fm/"
+  "wss://relay.primal.net/",          // CA
+  "wss://relay.damus.io/",            // CA
+  "wss://strfry.iris.to/",            // CA
+  "wss://vidono.apps.slidestr.net/",  // FR
+  "wss://relay.nostr.band/",          // FI
+  "wss://nostr.mom/"                  // DE (rate-limited)
 ];
 
 // Verifications
