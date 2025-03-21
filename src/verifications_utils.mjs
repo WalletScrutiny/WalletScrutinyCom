@@ -309,7 +309,7 @@ function eventSanitize(event) {
     let sanitizedTag = isBrowser ? DOMPurify.sanitize(tag[1]) : tag[1];
 
     if (tag[0] === 'i') {
-      sanitizedTag = sanitizedTag.substring(0, 40);
+      sanitizedTag = sanitizedTag.substring(0, 50);
     } else if (tag[0] === 'version') {
       sanitizedTag = sanitizedTag.substring(0, 15);
     } else if (['x', 'ox'].includes(tag[0])) {
