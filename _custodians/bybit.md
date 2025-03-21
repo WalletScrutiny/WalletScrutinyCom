@@ -1,6 +1,6 @@
 ---
 layout: reviewCustodian
-title: "Bybit FinTech Limited"
+title: "Bybit FinTech Ltd"
 platformReview:
   type: custodians
   appId: bybit
@@ -9,7 +9,7 @@ icon: bybit.png
 custodian:
   crunchbaseUrl: "https://www.crunchbase.com/organization/bybit"
   leadership:
-    jurisdiction: "🇦🇪 United Arab Emirates"
+    jurisdiction: "🇦🇪 UAE"
     yearsInBusiness: "7"
     ceo:
       name: "Ben Zhou"

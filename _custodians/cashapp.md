@@ -74,7 +74,7 @@ custodian:
     developmentUrl: ""
 
   operations:
-    users: "57 million MTAs"
+    users: "60M"
     cryptographicProof:
       btcAmount: ""
       totalAssets: ""
