@@ -9,15 +9,17 @@
   font-weight: 600;
   color: var(--primary-color);
   margin-bottom: 1rem;
+  text-align: center;
+  width: 100%;
 }
 
 .custodians-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 1.5rem;
+  gap: 1.5rem; /* Equal spacing in both directions */
   padding: 1.5rem;
-  width: 100%;
-  max-width: 1600px;
+  width: 85%;
+  max-width: 1400px;
   margin: 0 auto;
   justify-content: center;
 }
@@ -26,6 +28,8 @@
   text-decoration: none !important;
   color: inherit;
   display: block;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .custodian-card-link:hover .custodian-card {
@@ -190,24 +194,28 @@
 @media (max-width: 1400px) {
   .custodians-grid {
     grid-template-columns: repeat(4, 1fr);
-    max-width: 100%;
+    max-width: 1200px;
+    width: 85%;
     padding: 1.5rem;
+    gap: 1.5rem;
   }
 }
 
 @media (max-width: 1200px) {
   .custodians-grid {
     grid-template-columns: repeat(3, 1fr);
-    max-width: 100%;
-    gap: 1.25rem;
+    max-width: 900px;
+    width: 85%;
+    gap: 1.5rem;
   }
 }
 
 @media (max-width: 900px) {
   .custodians-grid {
     grid-template-columns: repeat(2, 1fr);
-    max-width: 100%;
-    gap: 1rem;
+    max-width: 700px;
+    width: 85%;
+    gap: 1.5rem;
   }
 }
 
@@ -215,6 +223,7 @@
   .custodians-grid {
     grid-template-columns: repeat(1, 1fr);
     max-width: 90%;
+    width: 85%;
     padding: 1rem;
   }
   
