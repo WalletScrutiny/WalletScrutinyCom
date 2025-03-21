@@ -64,7 +64,29 @@ permalink: /verifier/
 
 <script>
   const urlParams = new URLSearchParams(window.location.search);
-  const pubkey = urlParams.get('pubkey');
+  const rawPubkey = urlParams.get('pubkey');
+  let pubkey = rawPubkey;
+
+  // Try to decode if it's a bech32 format (npub or nprofile)
+  if (rawPubkey && (rawPubkey.startsWith('npub') || rawPubkey.startsWith('nprofile'))) {
+    try {
+      const decoded = nip19.decode(rawPubkey);
+      if (decoded.type === 'npub') {
+        pubkey = decoded.data;
+      } else if (decoded.type === 'nprofile') {
+        pubkey = decoded.data.pubkey;
+      }
+    } catch (error) {
+      console.error('Error decoding bech32 pubkey:', error);
+      document.getElementById('attestator').innerHTML = 'Error: Invalid pubkey format';
+      document.getElementById('loadingSpinner').style.display = 'none';
+    }
+  }
+
+  if (!pubkey) {
+    document.getElementById('attestator').innerHTML = 'Error: No pubkey provided';
+    document.getElementById('loadingSpinner').style.display = 'none';
+  }
 
   (async () => {
     try {

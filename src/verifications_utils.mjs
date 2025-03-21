@@ -1,4 +1,5 @@
 import NDK, {NDKEvent, NDKNip07Signer, NDKPrivateKeySigner, NDKPublishError} from "@nostr-dev-kit/ndk";
+import { nip19 } from 'nostr-tools';
 import DOMPurify from 'dompurify';
 import { assetRegistrationKind, verificationKind, endorsementKind, explicitRelayUrls, verificationsFeatureSinceTS } from "./nostr-constants.mjs";
 import WebSocket from "ws";
@@ -577,6 +578,7 @@ if (typeof window !== 'undefined') {
   window.getNpubFromPubkey = getNpubFromPubkey;
   window.setupAppIdAutocomplete = setupAppIdAutocomplete;
   window.getAppInfoFromEventInfo = getAppInfoFromEventInfo;
+  window.nip19 = nip19;
 }
 
 export {
@@ -593,5 +595,6 @@ export {
   showToast,
   getNpubFromPubkey,
   setupAppIdAutocomplete,
-  getAppInfoFromEventInfo
+  getAppInfoFromEventInfo,
+  nip19
 };
