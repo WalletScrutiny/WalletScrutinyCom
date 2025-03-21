@@ -69,6 +69,7 @@
   height: auto;
   padding-bottom: 0.5rem;
   text-align: center;
+  position: relative;
 }
 
 .custodian-logo {
@@ -90,7 +91,7 @@
 }
 
 .custodian-info {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   height: auto;
   flex-grow: 1;
 }
@@ -99,9 +100,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.35rem 0;
-  border-bottom: 1px solid #e1e4e8;
-  height: 2rem;
+  padding: 0.25rem 0;
+  border-bottom: none;
+  height: 1.5rem;
 }
 
 .info-row:last-child {
@@ -111,6 +112,12 @@
 .info-label {
   color: #586069;
   font-size: 0.7rem;
+}
+
+/* Targeting Years in Business specifically */
+.info-row:first-of-type .info-label {
+  font-size: 0.8rem;
+  font-weight: bold;
 }
 
 .info-value {
@@ -124,6 +131,12 @@
   text-align: right;
 }
 
+/* Make Years in Business value bolder and larger */
+.info-row:first-child .info-value {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
 .jurisdiction {
   display: flex;
   align-items: center;
@@ -132,6 +145,35 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.flag-container {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  cursor: help;
+}
+
+.flag-container img {
+  width: 20px;
+  height: auto;
+}
+
+.flag-container span:not(.flag-emoji) {
+  display: none;
+}
+
+.flag-emoji {
+  font-size: 16px;
+  display: inline-block;
+  line-height: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 1.3em; /* Only show the flag emoji, clip the rest */
 }
 
 .custodian-metrics {

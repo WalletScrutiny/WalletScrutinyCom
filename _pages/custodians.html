@@ -19,6 +19,18 @@ permalink: /custodians/
             {% if custodian.icon %}
               <img src="/images/wIcons/custodians/{{ custodian.icon }}" alt="{{ custodian.title }} logo" class="custodian-logo">
             {% endif %}
+            {% assign jurisdiction_text = custodian.custodian.leadership.jurisdiction | strip_html | strip | replace: '"', '' %}
+            <div class="flag-container" title="{{ jurisdiction_text }}">
+              {% if custodian.custodian.leadership.jurisdiction contains '<img' %}
+                {% assign img_html = custodian.custodian.leadership.jurisdiction | split: '<img' | last | split: '>' | first %}
+                <img{{ img_html }}>
+              {% else %}
+                {% assign jurisdiction_parts = custodian.custodian.leadership.jurisdiction | strip | split: ' ' %}
+                {% if jurisdiction_parts.size > 0 %}
+                  <span class="flag-emoji">{{ jurisdiction_parts[0] }}</span>
+                {% endif %}
+              {% endif %}
+            </div>
             <h2 class="custodian-title">{{ custodian.title }}</h2>
           </div>
           
@@ -28,17 +40,7 @@ permalink: /custodians/
               <div class="info-value">{{ custodian.custodian.leadership.yearsInBusiness | default: "N/A" }}</div>
             </div>
             
-            <div class="info-row">
-              <div class="info-label">Jurisdiction</div>
-              <div class="info-value jurisdiction">
-                {% assign jurisdiction = custodian.custodian.leadership.jurisdiction | split: '"' %}
-                {% if jurisdiction.size > 1 %}
-                  {{ jurisdiction[0] }}{{ jurisdiction[1] }}
-                {% else %}
-                  {{ custodian.custodian.leadership.jurisdiction }}
-                {% endif %}
-              </div>
-            </div>
+
           </div>
 
           <div class="custodian-metrics">
