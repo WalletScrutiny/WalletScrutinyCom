@@ -24,13 +24,16 @@ bugbounty:
 meta: ok
 verdict: nosource
 appHashes: 
-date: 2021-12-03
+date: 2025-03-19
 signer: 
 reviewArchive: 
 twitter: ellipalwallet
 social:
 - https://www.facebook.com/ellipalclub
 - https://github.com/ellipal
+- https://www.instagram.com/ellipal_wallet
+- https://www.tiktok.com/@ellipal_hardware_wallet
+- https://www.youtube.com/channel/UClfY7g0xVWG3YBvxA8cMtxg
 features: 
 
 ---

@@ -24,13 +24,13 @@ shop: >-
 country: TW
 price: 139USD
 repository: https://github.com/secuxtech/SecuXMCU
-issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/379
+issue: https://github.com/secuxtech/SecuXMCU/issues/18
 icon: secuxstonev20.png
 bugbounty: 
-meta: ok
+meta: obsolete
 verdict: nosource
 appHashes: 
-date: 2021-12-03
+date: 2025-03-19
 signer: 
 reviewArchive: 
 twitter: SecuXwallet
@@ -41,7 +41,9 @@ features:
 
 ---
 
-## Private keys can be created offline and are not sharedser
+**2025-03-19:** We asked them if our information is still correct.
+
+## Private keys can be created offline and are not shared
 
 The [product page](https://shop.secuxtech.com/products/v20-hardware-wallet-for-computer-mobile-user/) states that SecuX can generate recovery words from 12 to 24 word sets:
 
