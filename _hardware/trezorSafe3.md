@@ -91,7 +91,7 @@ The changelog indicates firmware 2.8.9 includes bootloader version 2.1.10. When 
 b9491dc18efa0d2492b6cfe3c68ee7c36e6dc7ff12633522c7d32639ebef7312
 ```
 
-But when building bootloader 2.1.10 directly (core/bl2.1.10) with the command `./build-docker.sh --models R --targets bootloader core/bl2.1.8` , we get a different hash:
+But when building bootloader 2.1.10 directly (core/bl2.1.10) with the command `./build-docker.sh --models T2B1 --targets bootloader core/bl2.1.8` , we get a different hash:
 ```
 Fingerprints:
 c1ab64fc2a01644f10e2594b3b15b2d1ac3b0d6b84095722cb8b80296d9b70f4 build/core-T2B1/bootloader/bootloader.bin
