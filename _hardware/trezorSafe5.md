@@ -25,16 +25,26 @@ issue: https://github.com/trezor/trezor-firmware/issues/4586
 icon: trezorSafe5.png
 bugbounty: https://trezor.io/learn/a/how-to-report-an-issue
 meta: ok
-verdict: reproducible
+verdict: nonverifiable
 appHashes:
-- 4f6369f2932f017d8960580aec0907b73ebb4feff43fc5c6f697ddebb3a23628
-- 14b457d32f979b51482c350d0e33a3c372511010c84810b01031d752135838de
-- 01fdef4c3cfbe78d203953c65604d8d406373a0d3b26bbb8f7d3cf2250397777
-- 6d932e5200927b6eeebc9b8700effde957a9880774944bcc028b0cbac85e7f6a
-- 9e1bc9773194df462a2350108da1cc4f5a70149b93affcb363c5b96c14b30a4d
-date: 2025-02-06
+- 7abe5344e816cd9809003273ec90d1d8e5f525e3a809168e1932232550527184
+- 3a0228ae58bfd65ba341b33a34138d0d70a9a16f5d2db387f9ee2659d797dedf
+- ac995c394f7a7b3ea4cbd9c04977621d6d2fbef30bba856f707f585f34866ac4
+- 5e7e45efcdbeac25613048a8ccc7de9a36fd7746325e75ab8d908ebfa723f552
+- 899e58b02cc062b0b20d983bc1240321afe0531dc6d8508c56fac8a53d9b0a4d
+date: 2025-03-22
 signer: 
 reviewArchive:
+- date: 2025-02-06
+  version: 2.8.7
+  appHashes:
+  - 4f6369f2932f017d8960580aec0907b73ebb4feff43fc5c6f697ddebb3a23628
+  - 14b457d32f979b51482c350d0e33a3c372511010c84810b01031d752135838de
+  - 01fdef4c3cfbe78d203953c65604d8d406373a0d3b26bbb8f7d3cf2250397777
+  - 6d932e5200927b6eeebc9b8700effde957a9880774944bcc028b0cbac85e7f6a
+  - 9e1bc9773194df462a2350108da1cc4f5a70149b93affcb363c5b96c14b30a4d
+  gitRevision: 31fd1509f85ae00ab0eb986a713784ceb65fb033
+  verdict: reproducible
 - date: 2024-12-13
   version: 2.8.6
   appHashes:
@@ -58,6 +68,71 @@ social:
 features: 
 
 ---
+
+## Updated Review 2025-03-20
+
+We were able to create a script for the Trezor Safe 5 with the build instruction, that would automate the process.
+
+`./scripts/test/hardware/trezorSafe5.sh 2.8.9`
+
+```
+Built from commit 5dad921af0c300f4adcd7e738b0098bbb1959d4f
+
+Fingerprints:
+0d0453057e23070212a7626ab7fd601f72b73e191256c63ddbf2734742a0de04 build/core-T2B1/bootloader/bootloader.bin
+f6e03b48ab163f302bb886da197b6a0e7b390efdc5815b419535c5dee5cac1f7 build/core-T2B1/firmware/firmware.bin
+0d0453057e23070212a7626ab7fd601f72b73e191256c63ddbf2734742a0de04 build/core-T2B1-bitcoinonly/bootloader/bootloader.bin
+bde9c5ef485548746150e07a9c5081c25f2bdf127707a41f3c487ca83a6c0667 build/core-T2B1-bitcoinonly/firmware/firmware.bin
+5df0ff6efe28f68dd4411629c8dc9d430bd5996d5a1e5118091c266e46d375a1 build/core-T2T1/bootloader/bootloader.bin
+ec61dba50be195f1cbb78688a0b92fb293c23150b68f5dab3b44420a106fca17 build/core-T2T1/firmware/firmware.bin
+5df0ff6efe28f68dd4411629c8dc9d430bd5996d5a1e5118091c266e46d375a1 build/core-T2T1-bitcoinonly/bootloader/bootloader.bin
+e5878fa067df9d1256cdcd86f10869930d85e090c39f807c23f8845472e8d995 build/core-T2T1-bitcoinonly/firmware/firmware.bin
+7abe5344e816cd9809003273ec90d1d8e5f525e3a809168e1932232550527184 build/core-T3T1/bootloader/bootloader.bin
+3a0228ae58bfd65ba341b33a34138d0d70a9a16f5d2db387f9ee2659d797dedf build/core-T3T1/firmware/firmware.bin
+7abe5344e816cd9809003273ec90d1d8e5f525e3a809168e1932232550527184 build/core-T3T1-bitcoinonly/bootloader/bootloader.bin
+ac995c394f7a7b3ea4cbd9c04977621d6d2fbef30bba856f707f585f34866ac4 build/core-T3T1-bitcoinonly/firmware/firmware.bin
+c7ad5cec5236e57c334bb32f3db92fc7a6d14d3ffeb61e4b226381c35579e6e1 build/legacy-T1B1/firmware/firmware.bin
+dcf72d0d7e4215dced5f2823bd36d83132fece1a561ff50e875163b427e1fbf8 build/legacy-T1B1-bitcoinonly/firmware/firmware.bin
+Hash of non-signature parts downloaded/compiled standard:
+65+0 records in
+65+0 records out
+65 bytes copied, 0.000178624 s, 364 kB/s
+5e7e45efcdbeac25613048a8ccc7de9a36fd7746325e75ab8d908ebfa723f552  trezor-t3t1-2.8.9.bin.zeroed
+5e7e45efcdbeac25613048a8ccc7de9a36fd7746325e75ab8d908ebfa723f552  build/core-T3T1/firmware/firmware.bin
+
+Hash of non-signature parts downloaded/compiled bitcoinonly:
+65+0 records in
+65+0 records out
+65 bytes copied, 0.000192308 s, 338 kB/s
+899e58b02cc062b0b20d983bc1240321afe0531dc6d8508c56fac8a53d9b0a4d  trezor-t3t1-2.8.9-bitcoinonly.bin.zeroed
+899e58b02cc062b0b20d983bc1240321afe0531dc6d8508c56fac8a53d9b0a4d  build/core-T3T1-bitcoinonly/firmware/firmware.bin
+
+Hash of the signed firmware:
+a511126fd1a10f761a6745a2cb6c0a113c3b37b29ea87d1a724581e6b6624d2e  trezor-t3t1-2.8.9.bin
+5763be9adf78ed2a1bcc7781d4fc720dbe2d5905bf9ec4ad12bf81aaaa699ffb  trezor-t3t1-2.8.9-bitcoinonly.bin
+```
+In the development of the Trezor Safe 5 firmware version 2.8.9, we encountered a significant bootloader verification challenge:
+
+The changelog indicates firmware 2.8.9 includes bootloader version 2.1.10. When building from firmware 2.8.9 (core/v2.8.9), the embedded bootloader produces a hash:
+```
+0d0453057e23070212a7626ab7fd601f72b73e191256c63ddbf2734742a0de04
+```
+
+But when building bootloader 2.1.10 directly (core/bl2.1.10) with the command `./build-docker.sh --models T3T1 --targets bootloader core/bl2.1.10`, we get a different hash:
+```
+Fingerprints:
+ed1b9225088ed0c260318cfc61b8661dceb80eff92f9889b0b93b30be9772bfd build/core-T3T1/bootloader/bootloader.bin
+ed1b9225088ed0c260318cfc61b8661dceb80eff92f9889b0b93b30be9772bfd build/core-T3T1-bitcoinonly/bootloader/bootloader.bin
+```
+
+The hash mismatch between the firmware-embedded bootloader and our directly built bootloader raises some uncertainties about reproducibility. Without detailed documentation of Trezor's bootloader signing process or access to their signed bootloader binaries, it's challenging to determine whether this difference is due to signing, build parameters, or other factors.  
+
+While the firmware itself appears reproducible (as the zeroed firmware hashes match), verifying the bootloader remains inconclusive. This highlights the potential benefit of more transparency around the bootloader build and signing process.
+
+**Version 2.8.9 of the {{ page.title }} is non-verifiable**.
+
+{% include asciicast %}
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1EVzbNPn6bc?si=vv88okupfrEmtEff" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
