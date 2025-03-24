@@ -6,145 +6,197 @@ We analyze custodians across five key dimensions, allocating points based on the
 
 ### Key Management & Security (30 points)
 
-#### Hot Wallet and Cold Storage Design (10 points)
+<div class="textbox" style="background-color: rgba(173, 178, 212, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
+  <h4>Hot Wallet and Cold Storage Design (10 points)</h4>
 
-We assess whether the custodian publishes details about their hot/cold wallet infrastructure, which is critical for understanding how your Bitcoin is secured.
+  <p>We assess whether the custodian publishes details about their hot/cold wallet infrastructure, which is critical for understanding how your Bitcoin is secured.</p>
 
-- **Published (10 points)**: The custodian provides comprehensive, up-to-date documentation of their storage architecture, including specific technical details about how funds are segregated between hot and cold wallets.
-- **Partial (5 points)**: The custodian shares some information about their storage design but lacks sufficient technical detail or transparency.
-- **Outdated (3 points)**: Documentation exists but hasn't been updated within the last year, raising questions about its current accuracy.
-- **None (0 points)**: No information is provided about how funds are stored.
+  <ul>
+    <li><strong>Published (10 points)</strong>: The custodian provides comprehensive, up-to-date documentation of their storage architecture, including specific technical details about how funds are segregated between hot and cold wallets.</li>
+    <li><strong>Partial (5 points)</strong>: The custodian shares some information about their storage design but lacks sufficient technical detail or transparency.</li>
+    <li><strong>Outdated (3 points)</strong>: Documentation exists but hasn't been updated within the last year, raising questions about its current accuracy.</li>
+    <li><strong>None (0 points)</strong>: No information is provided about how funds are stored.</li>
+  </ul>
 
-The scoring considers: whether the design is published (5 pts), availability of supporting documentation URLs (2 pts), and the level of detail provided (3 pts).
+  <p>The scoring considers: whether the design is published (5 pts), availability of supporting documentation URLs (2 pts), and the level of detail provided (3 pts).</p>
+</div>
 
-#### Multi-signature/MPC Implementation (10 points)
+<div class="textbox" style="background-color: rgba(199, 217, 221, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
+  <h4>Multi-signature/MPC Implementation (10 points)</h4>
 
-We evaluate the custodian's use of multi-signature or Multi-Party Computation (MPC) technology for securing private keys.
+  <p>We evaluate the custodian's use of multi-signature or Multi-Party Computation (MPC) technology for securing private keys.</p>
 
-- **Comprehensive Implementation (10 points)**: Clear documentation of multi-signature or MPC protocols with specific details about threshold requirements and security procedures.
-- **Basic Implementation (5 points)**: Evidence of multi-signature or MPC use, but with limited technical details.
-- **Non-existent (0 points)**: No evidence of multi-signature or MPC implementation.
+  <ul>
+    <li><strong>Comprehensive Implementation (10 points)</strong>: Clear documentation of multi-signature or MPC protocols with specific details about threshold requirements and security procedures.</li>
+    <li><strong>Basic Implementation (5 points)</strong>: Evidence of multi-signature or MPC use, but with limited technical details.</li>
+    <li><strong>Non-existent (0 points)</strong>: No evidence of multi-signature or MPC implementation.</li>
+  </ul>
 
-Points are awarded for: implementation of multi-signature/MPC technology (5 pts) and detailed documentation of the implementation process (5 pts).
+  <p>Points are awarded for: implementation of multi-signature/MPC technology (5 pts) and detailed documentation of the implementation process (5 pts).</p>
+</div>
 
-#### Hardware Security (10 points)
+<div class="textbox" style="background-color: rgba(213, 229, 213, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
+  <h4>Hardware Security (10 points)</h4>
 
-We assess the use of dedicated hardware security modules (HSMs) and other physical security measures.
+  <p>We assess the use of dedicated hardware security modules (HSMs) and other physical security measures.</p>
 
-- **Comprehensive (10 points)**: Documented use of specific hardware security measures with clear information about implementation.
-- **Basic (5 points)**: General mentions of hardware security without specific details.
-- **Non-existent (0 points)**: No evidence of dedicated hardware security.
+  <ul>
+    <li><strong>Comprehensive (10 points)</strong>: Documented use of specific hardware security measures with clear information about implementation.</li>
+    <li><strong>Basic (5 points)</strong>: General mentions of hardware security without specific details.</li>
+    <li><strong>Non-existent (0 points)</strong>: No evidence of dedicated hardware security.</li>
+  </ul>
 
-The scoring evaluates: implementation of hardware security technology (5 pts) and specific details about the hardware being used (5 pts).
+  <p>The scoring evaluates: implementation of hardware security technology (5 pts) and specific details about the hardware being used (5 pts).</p>
+</div>
 
 ### Infrastructure & Operations (25 points)
 
-#### Security Certifications (10 points)
+<div class="textbox" style="background-color: rgba(238, 241, 218, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
+  <h4>Security Certifications (10 points)</h4>
 
-We check for relevant industry security certifications that indicate external validation of security practices.
+  <p>We check for relevant industry security certifications that indicate external validation of security practices.</p>
 
-- **Multiple Relevant Certifications (10 points)**: The custodian holds several recognized security certifications.
-- **Limited Certifications (3-6 points)**: The custodian holds at least one recognized security certification.
-- **No Certifications (0 points)**: No evidence of security certifications.
+  <ul>
+    <li><strong>Multiple Relevant Certifications (10 points)</strong>: The custodian holds several recognized security certifications.</li>
+    <li><strong>Limited Certifications (3-6 points)</strong>: The custodian holds at least one recognized security certification.</li>
+    <li><strong>No Certifications (0 points)</strong>: No evidence of security certifications.</li>
+  </ul>
 
-Points are awarded based on the number of certifications, with 3 points per certification up to a maximum of 10 points.
+  <p>Points are awarded based on the number of certifications, with 3 points per certification up to a maximum of 10 points.</p>
+</div>
 
-#### Security Audits (10 points)
+<div class="textbox" style="background-color: rgba(173, 178, 212, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
+  <h4>Security Audits (10 points)</h4>
 
-We evaluate the custodian's history of security audits and their transparency regarding past security incidents.
+  <p>We evaluate the custodian's history of security audits and their transparency regarding past security incidents.</p>
 
-- **Comprehensive (10 points)**: Regular security audits with published results and transparent incident history.
-- **Partial (5 points)**: Some evidence of security audits without full transparency.
-- **Non-existent (0 points)**: No evidence of security audits.
+  <ul>
+    <li><strong>Comprehensive (10 points)</strong>: Regular security audits with published results and transparent incident history.</li>
+    <li><strong>Partial (5 points)</strong>: Some evidence of security audits without full transparency.</li>
+    <li><strong>Non-existent (0 points)</strong>: No evidence of security audits.</li>
+  </ul>
 
-The scoring considers: availability of track record information (5 pts), transparency about incident history (3 pts), and insurance coverage (2 pts).
+  <p>The scoring considers: availability of track record information (5 pts), transparency about incident history (3 pts), and insurance coverage (2 pts).</p>
+</div>
 
-#### Incident Response (5 points)
+<div class="textbox" style="background-color: rgba(199, 217, 221, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
+  <h4>Incident Response (5 points)</h4>
 
-We assess the custodian's approach to handling security incidents and their track record in responding to issues.
+  <p>We assess the custodian's approach to handling security incidents and their track record in responding to issues.</p>
 
-- **Robust (5 points)**: Clear documentation of incident response procedures with evidence of effective historical responses.
-- **Partial (2-3 points)**: Some information about incident response without comprehensive details.
-- **Non-existent (0 points)**: No information about incident response procedures.
+  <ul>
+    <li><strong>Robust (5 points)</strong>: Clear documentation of incident response procedures with evidence of effective historical responses.</li>
+    <li><strong>Partial (2-3 points)</strong>: Some information about incident response without comprehensive details.</li>
+    <li><strong>Non-existent (0 points)</strong>: No information about incident response procedures.</li>
+  </ul>
 
-Points are awarded for: providing the date of the last security incident (2 pts) and maintaining a transparent incident history (3 pts).
+  <p>Points are awarded for: providing the date of the last security incident (2 pts) and maintaining a transparent incident history (3 pts).</p>
+</div>
 
 ### Transparency (20 points)
 
-#### Proof of Reserves (10 points)
+<div class="textbox" style="background-color: rgba(213, 229, 213, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
+  <h4>Proof of Reserves (10 points)</h4>
 
-We evaluate how the custodian verifies and proves that they possess the Bitcoin they claim to hold on behalf of customers.
+  <p>We evaluate how the custodian verifies and proves that they possess the Bitcoin they claim to hold on behalf of customers.</p>
 
-- **Cryptographic Proof (10 points)**: Regular cryptographic proof of reserves with user verification capabilities.
-- **Traditional Audit (5 points)**: Third-party audits of reserves without cryptographic verification.
-- **Self-Reported (2 points)**: Custodian self-reports reserves without external verification.
-- **None (0 points)**: No proof of reserves provided.
+  <ul>
+    <li><strong>Cryptographic Proof (10 points)</strong>: Regular cryptographic proof of reserves with user verification capabilities.</li>
+    <li><strong>Traditional Audit (5 points)</strong>: Third-party audits of reserves without cryptographic verification.</li>
+    <li><strong>Self-Reported (2 points)</strong>: Custodian self-reports reserves without external verification.</li>
+    <li><strong>None (0 points)</strong>: No proof of reserves provided.</li>
+  </ul>
 
-The scoring considers: implementation of proof of reserves (5 pts), availability of verification URLs (2 pts), regular frequency of proofs (2 pts), and recency of the last proof (1 pt).
+  <p>The scoring considers: implementation of proof of reserves (5 pts), availability of verification URLs (2 pts), regular frequency of proofs (2 pts), and recency of the last proof (1 pt).</p>
+</div>
 
-#### Documentation (5 points)
+<div class="textbox" style="background-color: rgba(238, 241, 218, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
+  <h4>Documentation (5 points)</h4>
 
-We assess the quality and comprehensiveness of the custodian's business documentation.
+  <p>We assess the quality and comprehensiveness of the custodian's business documentation.</p>
 
-- **Comprehensive (5 points)**: Clear, detailed documentation about business model and services.
-- **Partial (2-3 points)**: Some business documentation without comprehensive details.
-- **Non-existent (0 points)**: Minimal or no business documentation.
+  <ul>
+    <li><strong>Comprehensive (5 points)</strong>: Clear, detailed documentation about business model and services.</li>
+    <li><strong>Partial (2-3 points)</strong>: Some business documentation without comprehensive details.</li>
+    <li><strong>Non-existent (0 points)</strong>: Minimal or no business documentation.</li>
+  </ul>
 
-Points are awarded for: clearly defined business model type (2 pts) and comprehensive documentation of services offered (3 pts).
+  <p>Points are awarded for: clearly defined business model type (2 pts) and comprehensive documentation of services offered (3 pts).</p>
+</div>
 
-#### Open Source Contributions (5 points)
+<div class="textbox" style="background-color: rgba(173, 178, 212, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
+  <h4>Open Source Contributions (5 points)</h4>
 
-We evaluate the custodian's contributions to Bitcoin's open source ecosystem.
+  <p>We evaluate the custodian's contributions to Bitcoin's open source ecosystem.</p>
 
-- **Active Contributor (5 points)**: Significant contributions to Bitcoin's open source development, research, or protocol support.
-- **Limited Contributions (1-4 points)**: Some contributions to the Bitcoin ecosystem.
-- **No Contributions (0 points)**: No evidence of contributions to Bitcoin's open source ecosystem.
+  <ul>
+    <li><strong>Active Contributor (5 points)</strong>: Significant contributions to Bitcoin's open source development, research, or protocol support.</li>
+    <li><strong>Limited Contributions (1-4 points)</strong>: Some contributions to the Bitcoin ecosystem.</li>
+    <li><strong>No Contributions (0 points)</strong>: No evidence of contributions to Bitcoin's open source ecosystem.</li>
+  </ul>
 
-The scoring considers: contributions to FOSS development (2 pts), Bitcoin protocol support (2 pts), and Bitcoin-related research (1 pt).
+  <p>The scoring considers: contributions to FOSS development (2 pts), Bitcoin protocol support (2 pts), and Bitcoin-related research (1 pt).</p>
+</div>
 
 ### Regulatory Compliance (15 points)
 
-#### Licensing (10 points)
+<div class="textbox" style="background-color: rgba(199, 217, 221, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
+  <h4>Licensing (10 points)</h4>
 
-We assess the custodian's regulatory status and leadership transparency.
+  <p>We assess the custodian's regulatory status and leadership transparency.</p>
 
-- **Comprehensive (10 points)**: Clear regulatory licensing with transparent information about jurisdiction and leadership.
-- **Partial (5 points)**: Some regulatory information without comprehensive details.
-- **Non-existent (0 points)**: No information about regulatory compliance.
+  <ul>
+    <li><strong>Comprehensive (10 points)</strong>: Clear regulatory licensing with transparent information about jurisdiction and leadership.</li>
+    <li><strong>Partial (5 points)</strong>: Some regulatory information without comprehensive details.</li>
+    <li><strong>Non-existent (0 points)</strong>: No information about regulatory compliance.</li>
+  </ul>
 
-Points are awarded for: clear jurisdiction information (5 pts), established business history (3 pts), and transparent leadership team information (2 pts).
+  <p>Points are awarded for: clear jurisdiction information (5 pts), established business history (3 pts), and transparent leadership team information (2 pts).</p>
+</div>
 
-#### Compliance Programs (5 points)
+<div class="textbox" style="background-color: rgba(213, 229, 213, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
+  <h4>Compliance Programs (5 points)</h4>
 
-We evaluate the custodian's approach to regulatory compliance programs.
+  <p>We evaluate the custodian's approach to regulatory compliance programs.</p>
 
-- **Robust (5 points)**: Clear documentation of comprehensive compliance programs.
-- **Partial (2 points)**: Some information about compliance programs without comprehensive details.
-- **Non-existent (0 points)**: No information about compliance programs.
+  <ul>
+    <li><strong>Robust (5 points)</strong>: Clear documentation of comprehensive compliance programs.</li>
+    <li><strong>Partial (2 points)</strong>: Some information about compliance programs without comprehensive details.</li>
+    <li><strong>Non-existent (0 points)</strong>: No information about compliance programs.</li>
+  </ul>
 
-Points are awarded for: a business model that supports compliance (2 pts) and clear information about country restrictions (3 pts).
+  <p>Points are awarded for: a business model that supports compliance (2 pts) and clear information about country restrictions (3 pts).</p>
+</div>
 
 ### User Security Features (10 points)
 
-#### Authentication (5 points)
+<div class="textbox" style="background-color: rgba(238, 241, 218, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
+  <h4>Authentication (5 points)</h4>
 
-We assess the security of user authentication mechanisms.
+  <p>We assess the security of user authentication mechanisms.</p>
 
-- **Robust (5 points)**: Support for strong authentication methods including 2FA and advanced options.
-- **Basic (3 points)**: Basic authentication security without advanced options.
-- **Weak (0 points)**: Limited authentication security.
+  <ul>
+    <li><strong>Robust (5 points)</strong>: Support for strong authentication methods including 2FA and advanced options.</li>
+    <li><strong>Basic (3 points)</strong>: Basic authentication security without advanced options.</li>
+    <li><strong>Weak (0 points)</strong>: Limited authentication security.</li>
+  </ul>
 
-The scoring considers: support for 2FA (3 pts) and implementation of advanced authentication methods like biometrics or FIDO2 (2 pts).
+  <p>The scoring considers: support for 2FA (3 pts) and implementation of advanced authentication methods like biometrics or FIDO2 (2 pts).</p>
+</div>
 
-#### Transaction Security (5 points)
+<div class="textbox" style="background-color: rgba(173, 178, 212, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
+  <h4>Transaction Security (5 points)</h4>
 
-We evaluate the security measures in place for transaction processing.
+  <p>We evaluate the security measures in place for transaction processing.</p>
 
-- **Comprehensive (5 points)**: Multiple transaction security features including withdrawal confirmations, address whitelisting, and withdrawal limits.
-- **Partial (2-3 points)**: Some transaction security features without comprehensive coverage.
-- **Basic (0 points)**: Minimal transaction security features.
+  <ul>
+    <li><strong>Comprehensive (5 points)</strong>: Multiple transaction security features including withdrawal confirmations, address whitelisting, and withdrawal limits.</li>
+    <li><strong>Partial (2-3 points)</strong>: Some transaction security features without comprehensive coverage.</li>
+    <li><strong>Basic (0 points)</strong>: Minimal transaction security features.</li>
+  </ul>
 
-Points are awarded for: withdrawal confirmation requirements (2 pts), address whitelisting support (2 pts), and implementation of withdrawal limits (1 pt).
+  <p>Points are awarded for: withdrawal confirmation requirements (2 pts), address whitelisting support (2 pts), and implementation of withdrawal limits (1 pt).</p>
+</div>
 
 ## Scoring Summary
 
