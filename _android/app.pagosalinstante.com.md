@@ -12,7 +12,7 @@ updated: 2025-02-26
 version: 1.08.1012
 stars: 4.8
 ratings: 934
-reviews: 40
+reviews: 41
 website: https://paiexchange.com
 repository: 
 issue: 

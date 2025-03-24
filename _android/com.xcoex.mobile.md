@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.xcoex.mobile.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2021-05-04
+date: 2025-03-17
 signer: 
 reviewArchive: 
 twitter: OfficialXcoex

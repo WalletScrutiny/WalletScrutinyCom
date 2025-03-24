@@ -28,7 +28,7 @@ social:
 - https://www.facebook.com/currencycom
 - https://www.reddit.com/r/currencycom
 features: 
-developerName: Currency Com EU Sp z o.o.
+developerName: DZ INVESTMENTS POLAND Sp.z.o.o
 
 ---
 

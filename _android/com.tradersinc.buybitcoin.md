@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.tradersinc.buybitcoin.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-06-07

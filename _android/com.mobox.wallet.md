@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.mobox.wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
 appHashes: 
 date: 2023-05-10

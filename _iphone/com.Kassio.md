@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.Kassio.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-10-23
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: KassioNetwork

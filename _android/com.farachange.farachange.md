@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.farachange.farachange.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-11-13
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: 

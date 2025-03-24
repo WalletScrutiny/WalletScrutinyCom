@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.paritex.paritex_exchange_mobile.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-08-19
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: paritexexchange

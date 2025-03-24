@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: net.chiliz.broker.android.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 appHashes: 
 date: 2022-04-25

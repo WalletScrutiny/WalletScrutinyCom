@@ -8,8 +8,8 @@ appId: app.bitcoinjungle.ios
 appCountry: cr
 idd: '1600313979'
 released: 2021-12-16
-updated: 2025-02-06
-version: 1.3.4
+updated: 2025-03-13
+version: 1.3.6
 stars: 5
 reviews: 14
 website: https://bitcoinjungle.app

@@ -8,10 +8,10 @@ appId: com.savl.savlapp
 appCountry: ru
 idd: 1369912925
 released: 2018-04-22
-updated: 2025-02-17
-version: 8.2.1
+updated: 2025-03-07
+version: 8.2.2
 stars: 4.5
-reviews: 259
+reviews: 258
 website: https://unitywallet.com
 repository: 
 issue: 

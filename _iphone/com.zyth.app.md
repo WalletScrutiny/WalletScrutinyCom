@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.zyth.app.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-12-13
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: UZythOfficial

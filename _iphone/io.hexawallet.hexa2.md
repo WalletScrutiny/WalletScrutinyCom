@@ -17,10 +17,10 @@ repository: https://github.com/bithyve/hexa
 issue: 
 icon: io.hexawallet.hexa2.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: ftbfs
 appHashes: 
-date: 2021-12-19
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: HexaWallet

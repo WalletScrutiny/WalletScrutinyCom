@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: net.novawallet.android.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-07-17
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: solidus_v

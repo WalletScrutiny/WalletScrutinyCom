@@ -8,8 +8,8 @@ appId: com.coinbest.bitcoinbestkk
 appCountry: jp
 idd: '1512389431'
 released: 2021-03-23
-updated: 2025-02-21
-version: 4.0.3
+updated: 2025-03-13
+version: 4.0.4
 stars: 4.8
 reviews: 12
 website: https://coinbest.com
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 features: 
-developerName: coinbest
+developerName: OSL Japan Limited
 
 ---
 

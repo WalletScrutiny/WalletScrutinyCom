@@ -9,10 +9,10 @@ appId: com.myetherwallet.mewwallet
 appCountry: us
 released: 2020-03-11
 updated: 2025-03-03
-version: 2.9.2
+version: 2.9.4
 stars: 4.3
 ratings: 7093
-reviews: 622
+reviews: 625
 website: http://mewwallet.com
 repository: 
 issue: 

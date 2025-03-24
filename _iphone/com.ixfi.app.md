@@ -11,7 +11,7 @@ released: 2022-03-22
 updated: 2025-02-21
 version: 1.7.21
 stars: 4.9
-reviews: 98
+reviews: 97
 website: https://www.ixfi.com/landing
 repository: 
 issue: 

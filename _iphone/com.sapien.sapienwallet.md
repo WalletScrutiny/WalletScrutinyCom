@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.sapien.sapienwallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
 appHashes: 
-date: 2021-11-10
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: 

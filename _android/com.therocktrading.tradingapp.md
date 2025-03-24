@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.therocktrading.tradingapp.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 appHashes: 
 date: 2023-07-21

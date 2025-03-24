@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.cointiger.ex.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 appHashes: 
 date: 2022-01-15

@@ -11,7 +11,7 @@ appCountry:
 released: 2018-11-27
 updated: 2025-02-27
 version: 85.0.0
-stars: 3.8
+stars: 3.9
 ratings: 1122
 reviews: 145
 website: https://www.etoro.com/crypto/wallet

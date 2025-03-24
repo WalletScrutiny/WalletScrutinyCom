@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.cushionlabs.acornbit.dev.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosendreceive
 appHashes: 
-date: 2024-12-08
+date: 2025-03-17
 signer: 
 reviewArchive: 
 twitter: acornbitsupport

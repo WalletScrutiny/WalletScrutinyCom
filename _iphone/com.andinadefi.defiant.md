@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.andinadefi.defiant.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2021-11-15
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: defiantApp

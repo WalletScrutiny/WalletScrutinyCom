@@ -10,7 +10,7 @@ appCountry: us
 released: 2011-03-04
 updated: 2025-01-15
 version: 5.0.26
-stars: 3.6
+stars: 3.7
 ratings: 2010
 reviews: 65
 website: https://www.zulutrade.com

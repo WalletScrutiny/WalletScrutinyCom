@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.clubswan.app2.clubswan.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-11-02
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: clubswanapp

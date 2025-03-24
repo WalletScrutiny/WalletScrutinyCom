@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.bitmex.quote.lvrggd.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2023-09-04
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: 

@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.fibitpro.fibitapp.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-10-19
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: fibitpro

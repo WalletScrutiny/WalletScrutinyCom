@@ -10,8 +10,8 @@ idd: '6448510693'
 released: 2023-05-10
 updated: 2025-02-07
 version: '4.3'
-stars: 4
-reviews: 67
+stars: 3.9
+reviews: 66
 website: 
 repository: 
 issue: 

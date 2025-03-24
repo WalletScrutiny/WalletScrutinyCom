@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.rebellionpay.app.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-12-15

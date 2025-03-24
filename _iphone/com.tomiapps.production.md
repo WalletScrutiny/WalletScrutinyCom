@@ -1,6 +1,6 @@
 ---
 wsId: tomiPay
-title: tomi Wallet - Crypto Control
+title: TOMI – AI Crypto Wallet
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ appId: com.tomiapps.production
 appCountry: us
 idd: '1643501440'
 released: 2022-10-25
-updated: 2025-02-19
-version: '130'
+updated: 2025-03-13
+version: '136'
 stars: 4.7
 reviews: 12
 website: 

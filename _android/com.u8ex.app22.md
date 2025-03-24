@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.u8ex.app22.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-06-07

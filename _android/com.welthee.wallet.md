@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.welthee.wallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nobtc
 appHashes: 
-date: 2024-07-17
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: Welthee

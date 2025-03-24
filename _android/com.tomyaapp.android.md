@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.tomyaapp.android.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-08-19
+date: 2025-03-17
 signer: 
 reviewArchive: 
 twitter: 

@@ -28,7 +28,7 @@ twitter: KardiaChain
 social:
 - https://www.facebook.com/KardiaChainFoundation
 redirect_from: 
-developerName: HAVENIUM PTE. LTD.
+developerName: YGI Labs
 features: 
 
 ---

@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.walletx.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nobtc
 appHashes: 
-date: 2024-11-13
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: 

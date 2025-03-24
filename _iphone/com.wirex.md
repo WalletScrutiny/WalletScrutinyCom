@@ -11,7 +11,7 @@ released: 2016-03-22
 updated: 2025-02-20
 version: 4.8.0
 stars: 3.7
-reviews: 755
+reviews: 760
 website: https://wirexapp.com/
 repository: 
 issue: 

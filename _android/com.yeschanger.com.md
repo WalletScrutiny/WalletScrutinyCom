@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.yeschanger.com.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2024-03-22
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: YesChanger

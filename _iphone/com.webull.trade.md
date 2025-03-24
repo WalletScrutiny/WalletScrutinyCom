@@ -9,10 +9,10 @@ appId: com.webull.trade
 appCountry: 
 idd: 1179213067
 released: 2017-01-18
-updated: 2025-03-02
-version: 10.8.1
+updated: 2025-03-11
+version: 10.8.2
 stars: 4.7
-reviews: 312938
+reviews: 313613
 website: https://www.webull.com
 repository: 
 issue: 

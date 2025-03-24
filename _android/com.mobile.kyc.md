@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.mobile.kyc.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-10-19
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: kyc_coin

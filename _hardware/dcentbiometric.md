@@ -22,22 +22,26 @@ shop: https://dcentwallet.com/Shop/detail/b15125cd52814be19a3f0edf54c8bc17
 country: KP
 price: 119USD
 repository: 
-issue: 
+issue: https://github.com/DcentWallet/biometric-firmware/issues/3
 icon: dcentbiometric.png
 bugbounty: 
 meta: ok
 verdict: nosource
 appHashes: 
-date: 2021-12-04
+date: 2025-03-19
 signer: 
 reviewArchive: 
 twitter: DCENTwallets
 social:
 - https://www.facebook.com/DcentWalletGlobal
 - https://github.com/DcentWallet
+- https://www.youtube.com/@DCENTWallet
+- https://www.instagram.com/dcent_wallet
 features: 
 
 ---
+
+**2025-03-19:** The source code remains closed.
 
 ## Private keys can be created offline - ✔️
 

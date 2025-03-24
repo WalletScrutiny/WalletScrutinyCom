@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.lykkex.Lykke-Wallet.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-08-23
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: Lykke

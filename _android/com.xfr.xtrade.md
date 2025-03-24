@@ -4,7 +4,7 @@ title: Xtrade - Online Trading
 altTitle: 
 authors:
 - danny
-users: 1000000
+users: 5000000
 appId: com.xfr.xtrade
 appCountry: 
 released: 2014-10-02

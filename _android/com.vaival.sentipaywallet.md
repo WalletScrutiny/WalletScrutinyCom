@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.vaival.sentipaywallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 appHashes: 
 date: 2023-01-02

@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: kajesabz.ir.bidarz.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2022-04-12
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: bidarzpro

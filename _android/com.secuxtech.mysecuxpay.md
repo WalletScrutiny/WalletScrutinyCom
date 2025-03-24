@@ -7,8 +7,8 @@ users: 100
 appId: com.secuxtech.mysecuxpay
 appCountry: 
 released: 2020-03-22
-updated: 2023-12-19
-version: 2.2.1
+updated: 2023-12-20
+version: 2.2.2
 stars: 
 ratings: 
 reviews: 

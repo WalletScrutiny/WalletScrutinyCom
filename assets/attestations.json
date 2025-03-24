@@ -2,12 +2,36 @@
   {
     "appId": "app.michaelwuensch.bitbanana",
     "signer": "98d818b12efa005735dc3d6b6ed78a05d8f75629e0afaf001655ed6aacfd2884",
+    "version": "0.8.9",
+    "verdict": "nonverifiable",
+    "appHashes": [
+      "e7affe23ce103db8283001a023a4e03676a8fe49f167c42809762d8189ff657a",
+      "053c9e37743b36ab574d444df64460e8fd55050604715713423fe47fd7e8deac",
+      "42ee0b6f7b85e704b71357a0cb07678ca11cae38f56c9f4522c0bbfbe502c0bd"
+    ],
+    "date": "2024-01-02",
+    "platform": "android"
+  },
+  {
+    "appId": "app.michaelwuensch.bitbanana",
+    "signer": "98d818b12efa005735dc3d6b6ed78a05d8f75629e0afaf001655ed6aacfd2884",
     "version": "0.8.8",
     "verdict": "nonverifiable",
     "appHashes": [
       "23f5f22e06e56604b75bfea649f3e0b0d0c2a1ebc8c487dc84224acd48a8993a"
     ],
     "date": "2024-01-02",
+    "platform": "android"
+  },
+  {
+    "appId": "app.zeusln.zeus",
+    "signer": "cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359",
+    "version": "0.9.7",
+    "verdict": "reproducible",
+    "appHashes": [
+      "cd681d7407b7f3d6fcde908ecb01594b3ee3f48aa524026099b44b5d9ab5f715"
+    ],
+    "date": "2025-02-22",
     "platform": "android"
   },
   {
@@ -167,12 +191,12 @@
   {
     "appId": "app.zeusln.zeus",
     "signer": "cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359",
-    "version": "0.9.7",
+    "version": "0.10.0",
     "verdict": "",
     "appHashes": [
-      "cd681d7407b7f3d6fcde908ecb01594b3ee3f48aa524026099b44b5d9ab5f715"
+      "9c141c38553a9bfb2df11ca05921775a04a000d84328988f7d3bf5b3a9112e4d"
     ],
-    "date": "2025-02-22",
+    "date": "2025-03-13",
     "platform": "android"
   },
   {
@@ -368,12 +392,21 @@
   {
     "appId": "com.greenaddress.greenbits_android_wallet",
     "signer": "32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e",
+    "version": "4.1.3",
+    "verdict": "reproducible",
+    "appHashes": [
+      "7ec19b1845738321a779ffd0894e410250f97fe69bce27066f71b8c1205e7416"
+    ],
+    "date": "2025-01-08",
+    "platform": "android"
+  },
+  {
+    "appId": "com.greenaddress.greenbits_android_wallet",
+    "signer": "32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e",
     "version": "4.1.2",
     "verdict": "reproducible",
     "appHashes": [
-      [
-        "558f86da8d9d8e8bd0416ecb1df9a77b3146b85cd1fe0d674a06a898a2f9ba1d"
-      ]
+      "558f86da8d9d8e8bd0416ecb1df9a77b3146b85cd1fe0d674a06a898a2f9ba1d"
     ],
     "date": "2025-01-08",
     "platform": "android"
@@ -909,12 +942,12 @@
   {
     "appId": "com.greenaddress.greenbits_android_wallet",
     "signer": "32f9cc00b13fbeace51e2fb51df482044e42ad34a9bd912f179fedb16a42970e",
-    "version": "4.1.3",
-    "verdict": "",
+    "version": "4.1.5",
+    "verdict": "nonreproducible",
     "appHashes": [
-      "7ec19b1845738321a779ffd0894e410250f97fe69bce27066f71b8c1205e7416"
+      "c5f04cdba74164db04a2e036462846c97a01c80879a095b6883af84249cb2736"
     ],
-    "date": "2025-01-08",
+    "date": "2025-03-07",
     "platform": "android"
   },
   {
@@ -937,6 +970,17 @@
       "ffcffa9d3053590b98f845622ab5a4748023245fbacc48f6798ca9ff753f86c6"
     ],
     "date": "2021-08-21",
+    "platform": "android"
+  },
+  {
+    "appId": "com.mycelium.wallet",
+    "signer": "b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e",
+    "version": "3.17.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "2db36a0e65f2308646a50b3d13c6300096fd3a1d4b18d9bb3c633501e91ff8db"
+    ],
+    "date": "2024-07-17",
     "platform": "android"
   },
   {
@@ -1372,12 +1416,12 @@
   {
     "appId": "com.mycelium.wallet",
     "signer": "b8e59d4a60b65290efb2716319e50b94e298d7a72c76c2119eb7d8d3afac302e",
-    "version": "3.17.0",
+    "version": "3.18.2.0",
     "verdict": "reproducible",
     "appHashes": [
-      "2db36a0e65f2308646a50b3d13c6300096fd3a1d4b18d9bb3c633501e91ff8db"
+      "dff1afc579b1df3dfeb0c5f6f5c79ade9f3670939128c3b314d84ed69f5a4bc6"
     ],
-    "date": "2024-07-17",
+    "date": "2025-03-07",
     "platform": "android"
   },
   {
@@ -1422,6 +1466,28 @@
       "0a5711195d96f13f41a71107f1b1035505b33afd3a299828e43e9d1b5101e9c0"
     ],
     "date": "2022-11-02",
+    "platform": "android"
+  },
+  {
+    "appId": "de.schildbach.wallet",
+    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
+    "version": "10.25",
+    "verdict": "reproducible",
+    "appHashes": [
+      "f5e787c52b8389516bdcedac8b183f8c505ebd7c7dd910edc047ac5e91454438"
+    ],
+    "date": "2025-03-04",
+    "platform": "android"
+  },
+  {
+    "appId": "de.schildbach.wallet",
+    "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
+    "version": "10.24",
+    "verdict": "reproducible",
+    "appHashes": [
+      "8928ccd823ff862870fbc3954b7b1985d343124545bb3aeb9c112a2e57de82cd"
+    ],
+    "date": "2025-02-13",
     "platform": "android"
   },
   {
@@ -1857,12 +1923,23 @@
   {
     "appId": "de.schildbach.wallet",
     "signer": "58dcd8a0edf2a590683ba022d22a8dca5659aabf4728741a5c07af738d53db38",
-    "version": "10.24",
+    "version": "10.26",
     "verdict": "reproducible",
     "appHashes": [
-      "8928ccd823ff862870fbc3954b7b1985d343124545bb3aeb9c112a2e57de82cd"
+      "7088544f9714059cbc86d9db8110b95b7ae4db4f1b0a513ddb3378739a35183d"
     ],
-    "date": "2025-02-13",
+    "date": "2025-03-10",
+    "platform": "android"
+  },
+  {
+    "appId": "fr.acinq.phoenix.mainnet",
+    "signer": "ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629",
+    "version": "2.5.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "fd10bba28a3236a50f045c34dff182716d0e2f37f8512c5269e521c01f6aa571"
+    ],
+    "date": "2025-03-10",
     "platform": "android"
   },
   {
@@ -2050,6 +2127,17 @@
       "0c91c5f118f88b9715d20323799d5002b722115d01c95d11f20f088521f76ada"
     ],
     "date": "2020-01-13",
+    "platform": "android"
+  },
+  {
+    "appId": "fr.acinq.phoenix.mainnet",
+    "signer": "ed550bd5d607d342b61bbbbb94ffd4dde43f845171f63d3ae47573a95a132629",
+    "version": "2.5.1",
+    "verdict": "reproducible",
+    "appHashes": [
+      "3a92bbc4107f7bffbf9b61f73d3b6c9027d8f730d31cb8b1fe3caa0c7af87a17"
+    ],
+    "date": "2025-03-19",
     "platform": "android"
   },
   {
@@ -2246,6 +2334,17 @@
     "verdict": "",
     "appHashes": "ef3d78cc482c6e6171a3b87ee344db0a097196c62736132fb4dcee898d905781",
     "date": "2025-02-12",
+    "platform": "android"
+  },
+  {
+    "appId": "io.horizontalsystems.bankwallet",
+    "signer": "c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b",
+    "version": "0.41.3",
+    "verdict": "reproducible",
+    "appHashes": [
+      "1d05920d444e0b6e71a2ae97a7970218c4975e665ed75086481d2ffbcab3b044"
+    ],
+    "date": "2024-12-27",
     "platform": "android"
   },
   {
@@ -2782,12 +2881,12 @@
   {
     "appId": "io.horizontalsystems.bankwallet",
     "signer": "c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b",
-    "version": "0.41.3",
+    "version": "0.41.4",
     "verdict": "reproducible",
     "appHashes": [
-      "1d05920d444e0b6e71a2ae97a7970218c4975e665ed75086481d2ffbcab3b044"
+      "94b70610e5f6088441ee99ca523162222b3df4cdb936c1104c13ccb0c4ba08b6"
     ],
-    "date": "2024-12-27",
+    "date": "2025-03-07",
     "platform": "android"
   },
   {
@@ -2880,7 +2979,20 @@
   },
   {
     "appId": "io.nunchuk.android",
-    "signer": "",
+    "signer": "79b1cd71de5f19c6236d4e3ef134b5b691cf051a138944bda01b640b3e9b1d42",
+    "version": "1.9.62",
+    "verdict": "reproducible",
+    "appHashes": [
+      "d2cdcf52e5534d91275f85abb465bfc076871812512256f8c9b51b1f4a8cb69b",
+      "e2ae9e4b88963e7142c80c02a2c49b417fa34fb1809f296452efd828928b0b22",
+      "698dd56861707684165d0dc39c6df73284a9cbadf867fd3accf8c6bf5cfdaaff"
+    ],
+    "date": "2025-03-04",
+    "platform": "android"
+  },
+  {
+    "appId": "io.nunchuk.android",
+    "signer": "79b1cd71de5f19c6236d4e3ef134b5b691cf051a138944bda01b640b3e9b1d42",
     "version": "1.9.59",
     "verdict": "nonverifiable",
     "appHashes": [
@@ -2893,7 +3005,7 @@
   },
   {
     "appId": "io.nunchuk.android",
-    "signer": "",
+    "signer": "79b1cd71de5f19c6236d4e3ef134b5b691cf051a138944bda01b640b3e9b1d42",
     "version": "1.9.58",
     "verdict": "nonverifiable",
     "appHashes": [
@@ -2906,7 +3018,7 @@
   },
   {
     "appId": "io.nunchuk.android",
-    "signer": "",
+    "signer": "79b1cd71de5f19c6236d4e3ef134b5b691cf051a138944bda01b640b3e9b1d42",
     "version": "1.9.53",
     "verdict": "nonverifiable",
     "appHashes": [
@@ -4467,6 +4579,18 @@
       "c406a36aa83932f656caa5246e8a4383f426e4f970b11d86cad76ab95778a6ff"
     ],
     "date": "2021-07-17",
+    "platform": "hardware"
+  },
+  {
+    "appId": "trezorSafe3",
+    "signer": "",
+    "version": "2.8.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "877aed88c703a89344ae9b098f84849a2e1db29c1740e71af5cc85042eeb8ec1",
+      "c1edd08f02b75430fbeedd77c4d155aadd81b030752fec4465698ab9a0b3d0e3"
+    ],
+    "date": "2024-10-11",
     "platform": "hardware"
   },
   {

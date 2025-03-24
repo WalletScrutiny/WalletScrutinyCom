@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.digibot99.dgb.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-05-23

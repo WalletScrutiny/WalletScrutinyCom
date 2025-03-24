@@ -14,7 +14,7 @@ updated: 2023-07-07
 version: 2.8.7
 stars: 3.1
 ratings: 5049
-reviews: 210
+reviews: 211
 website: https://www.pundix.com
 repository: 
 issue: 

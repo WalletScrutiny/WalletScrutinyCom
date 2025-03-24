@@ -11,7 +11,7 @@ binaries:
 dimensions:
 - 86
 - 54
-- 11  
+- 11
 weight: 60
 provider: Cardware Wallet (Pty) Ltd.
 providerWebsite: 
@@ -24,7 +24,7 @@ issue: https://github.com/cardware-wallet/cardware-hardware/issues/1
 icon: cardware.png
 bugbounty: 
 meta: ok
-verdict: wip 
+verdict: wip
 appHashes: 
 date: 2025-03-05
 signer: 
@@ -33,7 +33,7 @@ twitter: CardwareWallet
 social:
 - https://t.me/cardwarewallet
 - https://discord.com/invite/dgDXR85CXB
-- https://www.linkedin.com/company/cardware-wallet 
+- https://www.linkedin.com/company/cardware-wallet
 features: 
 
 ---

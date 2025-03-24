@@ -11,12 +11,12 @@ users: 10000
 appId: app.zeusln.zeus
 appCountry: 
 released: 2020-07-07
-updated: 2025-02-18
-version: 0.9.7
+updated: 2025-03-11
+version: 0.10.0
 stars: 4.3
 ratings: 45
 reviews: 37
-website: https://zeusln.app
+website: https://zeusln.com
 repository: https://github.com/ZeusLN/zeus
 issue: 
 icon: app.zeusln.zeus.png
@@ -24,10 +24,16 @@ bugbounty:
 meta: ok
 verdict: reproducible
 appHashes:
-- cd681d7407b7f3d6fcde908ecb01594b3ee3f48aa524026099b44b5d9ab5f715
-date: 2025-02-22
+- 9c141c38553a9bfb2df11ca05921775a04a000d84328988f7d3bf5b3a9112e4d
+date: 2025-03-13
 signer: cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
 reviewArchive:
+- date: 2025-02-22
+  version: 0.9.7
+  appHashes:
+  - cd681d7407b7f3d6fcde908ecb01594b3ee3f48aa524026099b44b5d9ab5f715
+  gitRevision: 5da8730c47de9c2f2241db229838b07bc47464aa
+  verdict: reproducible
 - date: 2025-02-11
   version: 0.9.6
   appHashes:
@@ -141,18 +147,18 @@ We ran our updated {% include testScript.html %} and got this:
 ===== Begin Results =====
 appId:          app.zeusln.zeus
 signer:         cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
-apkVersionName: 0.9.7
-apkVersionCode: 100003
+apkVersionName: 0.10.0
+apkVersionCode: 102003
 verdict:        
-appHash:        cd681d7407b7f3d6fcde908ecb01594b3ee3f48aa524026099b44b5d9ab5f715
-commit:         10ac0d36153947f275dd0b01f2a402273fe1c2ac
+appHash:        9c141c38553a9bfb2df11ca05921775a04a000d84328988f7d3bf5b3a9112e4d
+commit:         6f3be02fc840dee66309b54237e80e0666674cbd
 
 Diff:
-Files /tmp/fromPlay_app.zeusln.zeus_100003/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_100003/AndroidManifest.xml differ
-Only in /tmp/fromPlay_app.zeusln.zeus_100003/META-INF: GOOGPLAY.RSA
-Only in /tmp/fromPlay_app.zeusln.zeus_100003/META-INF: GOOGPLAY.SF
-Only in /tmp/fromPlay_app.zeusln.zeus_100003/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_app.zeusln.zeus_100003: stamp-cert-sha256
+Files /tmp/fromPlay_app.zeusln.zeus_102003/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_102003/AndroidManifest.xml differ
+Only in /tmp/fromPlay_app.zeusln.zeus_102003/META-INF: GOOGPLAY.RSA
+Only in /tmp/fromPlay_app.zeusln.zeus_102003/META-INF: GOOGPLAY.SF
+Only in /tmp/fromPlay_app.zeusln.zeus_102003/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_app.zeusln.zeus_102003: stamp-cert-sha256
 
 Revision, tag (and its signature):
 

@@ -12,7 +12,7 @@ updated: 2019-08-28
 version: '1.0'
 stars: 4.5
 ratings: 93
-reviews: 11
+reviews: 12
 website: https://qbita.org
 repository: 
 issue: 

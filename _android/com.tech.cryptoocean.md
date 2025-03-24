@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.tech.cryptoocean.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2024-08-08
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: 

@@ -4,7 +4,7 @@ title: 'Treasure: Crypto & BTC Wallet'
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.crypto.treasure
 appCountry: 
 released: 2022-12-01

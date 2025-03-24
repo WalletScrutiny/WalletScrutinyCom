@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: ee.swapp.idapp.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-07-31

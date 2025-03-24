@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.dcoin.exchange.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-05-24
+date: 2025-03-17
 signer: 
 reviewArchive: 
 twitter: dcoinexchange

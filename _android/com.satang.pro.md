@@ -1,6 +1,6 @@
 ---
 wsId: satangPro
-title: orbix Trade
+title: 'orbix: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 100000
 appId: com.satang.pro
 appCountry: 
 released: 2020-04-12
-updated: 2025-02-10
-version: 2.8.7
+updated: 2025-03-11
+version: 2.9.7
 stars: 3.7
 ratings: 
 reviews: 4

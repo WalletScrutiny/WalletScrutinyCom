@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: www.coindhan.com.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-10-07
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: coin_dhan

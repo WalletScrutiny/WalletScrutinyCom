@@ -1,6 +1,6 @@
 ---
 wsId: deblock
-title: Deblock - Current Account
+title: Deblock - Banking App
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,11 @@ appId: com.deblock.deblockapp.production
 appCountry: fr
 idd: '6479202981'
 released: 2024-04-02
-updated: 2025-02-27
-version: 2.1.5
+updated: 2025-03-17
+version: 3.0.1
 stars: 4.7
-reviews: 4824
-website: https://deblock.com/en-FR
+reviews: 5247
+website: https://deblock.com
 repository: 
 issue: 
 icon: com.deblock.deblockapp.production.jpg

@@ -10,9 +10,9 @@ appCountry:
 released: 2017-09-29
 updated: 2025-02-23
 version: 4.1.6 'Exolix'
-stars: 3.2
+stars: 3.1
 ratings: 821
-reviews: 182
+reviews: 183
 website: https://monerujo.io/
 repository: 
 issue: 

@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.arzypto.my.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-06-30
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: 

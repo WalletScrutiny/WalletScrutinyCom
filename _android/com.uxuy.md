@@ -4,7 +4,7 @@ title: 'UXUY: Memecoin for Trading'
 altTitle: 
 authors:
 - danny
-users: 100000
+users: 500000
 appId: com.uxuy
 appCountry: 
 released: 2023-08-09

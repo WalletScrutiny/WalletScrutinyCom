@@ -8,8 +8,8 @@ appId: io.hexawallet.keeper
 appCountry: us
 idd: '1545535925'
 released: 2022-10-19
-updated: 2025-02-22
-version: 2.0.2
+updated: 2025-03-14
+version: 2.1.0
 stars: 4.7
 reviews: 19
 website: https://www.bitcoinkeeper.app/

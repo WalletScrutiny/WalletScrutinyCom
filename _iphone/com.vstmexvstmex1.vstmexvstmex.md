@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.vstmexvstmex1.vstmexvstmex.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 appHashes: 
 date: 2023-04-12

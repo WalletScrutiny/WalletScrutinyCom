@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.trade360.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosendreceive
 appHashes: 
-date: 2024-09-18
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: Trade360_LTD

@@ -8,8 +8,8 @@ users: 1000
 appId: com.redot.app
 appCountry: 
 released: 2020-03-03
-updated: 2023-10-19
-version: 1.0.61
+updated: 2025-03-06
+version: 1.0.64
 stars: 4.3
 ratings: 37
 reviews: 3
@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.redot.app.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2024-10-16
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: redotcom

@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.hi.dollars.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2022-12-06
+date: 2025-03-17
 signer: 
 reviewArchive: 
 twitter: hi_com_official

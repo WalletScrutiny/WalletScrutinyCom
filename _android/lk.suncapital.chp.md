@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: lk.suncapital.chp.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 appHashes: 
 date: 2023-01-02

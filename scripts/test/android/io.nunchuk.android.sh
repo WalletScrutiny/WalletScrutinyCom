@@ -81,6 +81,12 @@ echo -e "\033[0;36mNote: Bundletool 1.18.0+ always outputs a .apks archive.\033[
 # Use the generated device-spec.json
 spec_arg="--device-spec=/work/device-spec.json"
 
+# Ensure device-spec.json is present in the expected location for bundletool
+if [ -n "$deviceSpec" ] && [ ! -f "$workDir/device-spec.json" ]; then
+  cp "$deviceSpec" "$workDir/device-spec.json"
+  echo "device-spec.json copied to $workDir for bundletool usage."
+fi
+
 # 1) Build the .apks archive
 echo -e "\n\033[1;32mStep 1: Creating bundle.apks...\033[0m"
 # Remove existing bundle.apks file if it exists

@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: app.codecellar.embitwallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2021-08-02
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: 

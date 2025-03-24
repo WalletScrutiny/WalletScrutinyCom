@@ -11,7 +11,7 @@ released: 2018-08-25
 updated: 2025-02-20
 version: 4.6.0
 stars: 4.7
-reviews: 2929
+reviews: 2931
 website: http://www.ellipal.com/
 repository: 
 issue: 

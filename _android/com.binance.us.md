@@ -1,6 +1,6 @@
 ---
 wsId: BinanceUS
-title: 'Binance.US: Buy Bitcoin & ETH'
+title: 'Binance.US: Buy BTC, DOGE, XRP'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,11 @@ users: 1000000
 appId: com.binance.us
 appCountry: 
 released: 2019-12-23
-updated: 2025-02-20
-version: 3.19.0
-stars: 3.2
+updated: 2025-03-12
+version: 3.20.2
+stars: 3
 ratings: 7187
-reviews: 6544
+reviews: 6638
 website: https://www.binance.us
 repository: 
 issue: 

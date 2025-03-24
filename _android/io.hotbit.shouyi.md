@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: io.hotbit.shouyi.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-04-09
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: Hotbit_news

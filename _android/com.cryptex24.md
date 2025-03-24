@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.cryptex24.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-12-27
+date: 2025-03-19
 signer: 
 reviewArchive: 
 twitter: 

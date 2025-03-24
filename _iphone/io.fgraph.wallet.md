@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: io.fgraph.wallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
 appHashes: 
-date: 2023-08-15
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: shinobi_wallet

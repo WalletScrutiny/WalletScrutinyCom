@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: io.eidoo.android.app.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-07-14
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: eidoo_io

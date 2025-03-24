@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.maarcodev.dormantbitcoin.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-05-09

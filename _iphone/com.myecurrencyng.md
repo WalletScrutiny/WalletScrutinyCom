@@ -11,7 +11,7 @@ released: 2022-10-04
 updated: 2024-09-25
 version: 1.5.2
 stars: 3.5
-reviews: 45
+reviews: 44
 website: 
 repository: 
 issue: 

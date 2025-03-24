@@ -8,8 +8,8 @@ users: 10000
 appId: ai.blockbank.bbexpoapp
 appCountry: 
 released: 2021-10-21
-updated: 2025-02-24
-version: 4.4.1
+updated: 2025-03-11
+version: 4.4.2
 stars: 4.1
 ratings: 
 reviews: 13
@@ -34,6 +34,10 @@ developerName: UAB HODL SERVICES
 features: 
 
 ---
+
+## Update 2025-03-15
+
+While processing apps that seem to have been removed from the iPhone store, we noticed that some have merely undergone a "rebrand". Blockbank app is one of them. It is now known as pairs, but has retained its app ID and WalletScrutiny ID. 
 
 ## Update 2024-07-20
 

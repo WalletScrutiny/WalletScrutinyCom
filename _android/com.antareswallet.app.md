@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.antareswallet.app.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2021-11-08

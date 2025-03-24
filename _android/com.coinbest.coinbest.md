@@ -8,8 +8,8 @@ users: 1000
 appId: com.coinbest.coinbest
 appCountry: 
 released: 2021-05-17
-updated: 2025-02-20
-version: 4.0.3
+updated: 2025-03-12
+version: 4.0.4
 stars: 
 ratings: 
 reviews: 

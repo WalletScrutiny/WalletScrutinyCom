@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: co.realt.bridge.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nobtc
 appHashes: 
-date: 2024-07-10
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: RealTPlatform

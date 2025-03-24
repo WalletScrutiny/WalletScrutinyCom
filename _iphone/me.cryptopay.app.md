@@ -10,7 +10,7 @@ released: 2017-06-08
 updated: 2025-02-11
 version: 1.76.3
 stars: 4.5
-reviews: 335
+reviews: 337
 website: https://cryptopay.me/
 repository: 
 issue: 

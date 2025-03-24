@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: one.fox.foxapp.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2021-11-11

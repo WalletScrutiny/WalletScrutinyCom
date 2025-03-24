@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.finovation.fxvc.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 appHashes: 
 date: 2021-11-01

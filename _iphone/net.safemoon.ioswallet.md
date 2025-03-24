@@ -8,10 +8,10 @@ appId: net.safemoon.ioswallet
 appCountry: us
 idd: '1579735495'
 released: 2021-10-06
-updated: 2025-02-26
-version: '4.0'
+updated: 2025-03-07
+version: '4.1'
 stars: 4.8
-reviews: 14645
+reviews: 14649
 website: https://vgxfoundation.com/
 repository: 
 issue: 

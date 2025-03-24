@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.app.vptplus.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2024-07-14
+date: 2025-03-17
 signer: 
 reviewArchive: 
 twitter: 

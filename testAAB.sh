@@ -1,7 +1,8 @@
 #!/bin/bash
-# testAAB.sh v0.1.0-alpha.8
+# testAAB.sh v0.1.0-alpha.9
 # This script tests if an AAB and then split apks can be built from source.
-# Currently works with io.nunchuk.android_v1.9.62
+# Currently works with io.nunchuk.android_v1.9.64.
+# Exports device-spec.json that is generated. Apksigner is echoed in Begin Results block
 
 # Uncomment for debugging
 # set -x
@@ -236,6 +237,7 @@ EOF
   cat "$tempSpec"
   echo -e "${BRIGHT_GREEN}Device spec file path:${NC} $tempSpec"
   deviceSpec="$tempSpec"
+  export deviceSpec
 fi
 
 # Define and create workDir
@@ -310,6 +312,7 @@ done
 
 # Begin Results
 echo "===== Begin Results ====="
+echo "APK Signer (SHA-256): $signer"
 
 # Compare hashes of official and built APKs
 echo -e "${YELLOW}*** Comparing Official and Built APKs Hashes ***${NC}"

@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.easycoin.exchange.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-07-01
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: EasyCoinsCrypto

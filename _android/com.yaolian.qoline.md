@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/salletone
 - https://github.com/SalletOne
 redirect_from: 
-developerName: Doex Global Ltd
+developerName: V-byte
 features: 
 
 ---

@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.yayd.exchangglobal.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-05-18
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: 

@@ -8,8 +8,8 @@ users: 100000
 appId: com.nebeus.android
 appCountry: gt
 released: 2021-05-24
-updated: 2025-02-20
-version: 2.1.2
+updated: 2025-03-05
+version: 2.1.3
 stars: 
 ratings: 
 reviews: 

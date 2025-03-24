@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.wallex.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2023-06-03
+date: 2025-03-19
 signer: 
 reviewArchive: 
 twitter: 

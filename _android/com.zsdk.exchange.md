@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.zsdk.exchange.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-09-26
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: ZBG_Exchange

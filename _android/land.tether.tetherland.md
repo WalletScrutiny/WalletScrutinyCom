@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: land.tether.tetherland.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
 appHashes: 
 date: 2022-02-25

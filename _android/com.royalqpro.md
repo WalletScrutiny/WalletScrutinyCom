@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.royalqpro.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
 appHashes: 
-date: 2024-03-01
+date: 2025-03-17
 signer: 
 reviewArchive: 
 twitter: 

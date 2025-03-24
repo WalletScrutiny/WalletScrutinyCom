@@ -8,8 +8,8 @@ appId: de.smarthouse.finanzen
 appCountry: us
 idd: '291973577'
 released: 2008-11-21
-updated: 2025-02-27
-version: 8.0.7
+updated: 2025-03-06
+version: 8.0.8
 stars: 4.7
 reviews: 273
 website: http://www.finanzen.net/apps

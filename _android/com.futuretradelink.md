@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.futuretradelink.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2021-11-10

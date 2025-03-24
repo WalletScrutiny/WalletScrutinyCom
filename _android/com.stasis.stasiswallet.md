@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.stasis.stasiswallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-01-15
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: stasisnet

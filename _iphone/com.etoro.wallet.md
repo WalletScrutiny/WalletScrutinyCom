@@ -12,7 +12,7 @@ released: 2019-03-05
 updated: 2025-03-03
 version: 85.0.0
 stars: 1.9
-reviews: 176
+reviews: 177
 website: https://www.etoro.com/crypto/wallet/
 repository: 
 issue: 

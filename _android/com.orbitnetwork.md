@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.orbitnetwork.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosendreceive
 appHashes: 
-date: 2023-08-15
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: 

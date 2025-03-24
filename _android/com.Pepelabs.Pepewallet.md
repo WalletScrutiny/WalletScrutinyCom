@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.Pepelabs.Pepewallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2024-09-04

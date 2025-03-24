@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: bit7pay.com.bit7pay.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-05-04

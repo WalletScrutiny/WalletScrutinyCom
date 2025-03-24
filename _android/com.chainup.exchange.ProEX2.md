@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.chainup.exchange.ProEX2.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-11-23
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: 

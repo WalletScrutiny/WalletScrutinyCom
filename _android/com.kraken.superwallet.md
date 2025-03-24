@@ -4,7 +4,7 @@ title: 'Kraken Wallet: Crypto & NFT'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.kraken.superwallet
 appCountry: 
 released: 2024-04-11
@@ -12,7 +12,7 @@ updated: 2025-02-14
 version: 1.17.1 (1)
 stars: 4.6
 ratings: 
-reviews: 54
+reviews: 57
 website: https://kraken.com/wallet
 repository: https://github.com/krakenfx/wallet
 issue: 

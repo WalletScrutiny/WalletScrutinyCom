@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.vynksafe.app.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-02-01
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: vynkgroup

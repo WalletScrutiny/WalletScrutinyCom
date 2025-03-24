@@ -8,20 +8,20 @@ users: 50000
 appId: com.roostoo.roostoo
 appCountry: 
 released: 2019-07-15
-updated: 2023-04-15
-version: 2.0.1
-stars: 3.4
+updated: 2025-03-17
+version: 2.0.2
+stars: 3.3
 ratings: 185
-reviews: 12
+reviews: 13
 website: https://www.roostoo.com
 repository: 
 issue: 
 icon: com.roostoo.roostoo.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: nowallet
 appHashes: 
-date: 2024-04-09
+date: 2025-03-17
 signer: 
 reviewArchive: 
 twitter: 

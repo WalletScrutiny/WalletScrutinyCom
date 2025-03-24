@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.tempow.legatow.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-06-03

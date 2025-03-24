@@ -7,9 +7,9 @@ users: 500000
 appId: com.litefinance.cabinet
 appCountry: 
 released: 2022-02-09
-updated: 2025-01-22
-version: v1.2.8.1981-cabinet-legacy-release
-stars: 4.4
+updated: 2025-03-04
+version: v1.2.8.1990-cabinet-legacy-release
+stars: 4.5
 ratings: 
 reviews: 53
 website: https://www.liteforex.eu

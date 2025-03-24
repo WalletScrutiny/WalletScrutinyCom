@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.agoradesk.app.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-08-17
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: AgoraDesk

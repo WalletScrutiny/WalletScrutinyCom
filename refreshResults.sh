@@ -9,7 +9,21 @@ done
 node scripts/migrate.mjs 
 
 echo "Diff minus the boring stuff:"
-git diff --word-diff=color | grep -v "latest\|ratings\|reviews\|---\|@\|index\|^diff\|Binary\|apkVersionName\|updated\|^score:\|^rating\|^version\|^review\|^stars\|^users" | grep "+++\|"
+git diff --name-only | while read file; do
+  # Get the diff for this file only and filter boring stuff
+  filtered_diff=$(git diff -U0 --word-diff=color "$file" | grep -v "latest\|ratings\|reviews\|@\|index\|Binary\|apkVersionName\|updated\|^score:\|^rating\|^version\|^review\|^stars\|^users")
+  
+  # Extract actual content without headers
+  content=$(echo "$filtered_diff" | grep -v "^....diff\|^....--- \|^....+++ \|^@@\|^$" | grep -v "^\s*$")
+  
+  # Only show files with actual content changes
+  if [ -n "$content" ]; then
+    # Format the output as requested - filename as a comment followed by content
+    echo "# $file:"
+    echo "$content"
+    echo ""
+  fi
+done
 
 echo "Duplicate wsIds android:"
 diff <( rgrep '^wsId: ' _android/ | sed 's/.*wsId: //g' | sed -e '/^$/d' | sort ) <( rgrep '^wsId: ' _android/ | sed 's/.*wsId: //g' | sed -e '/^$/d' | sort -u )
@@ -49,4 +63,4 @@ for platform in hardware bearer desktop android iphone; do
 done
 
 # show what probably needs re-analysis
-node scripts/findNeedsRB.mjs 
+node scripts/findNeedsRB.mjs

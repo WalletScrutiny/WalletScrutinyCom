@@ -12,7 +12,7 @@ updated: 2025-02-22
 version: 2.24.0
 stars: 4.5
 ratings: 169442
-reviews: 232
+reviews: 231
 website: https://kripto.btcturk.com
 repository: 
 issue: 

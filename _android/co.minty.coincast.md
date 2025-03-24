@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: co.minty.coincast.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-05-04
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: CoincastApp

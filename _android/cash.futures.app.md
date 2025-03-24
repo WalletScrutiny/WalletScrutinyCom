@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: cash.futures.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
 appHashes: 
-date: 2024-09-03
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: FuturesCash

@@ -11,7 +11,7 @@ released: 2020-11-02
 updated: 2021-12-28
 version: '2.3'
 stars: 3.1
-reviews: 69
+reviews: 68
 website: https://app.load.ng/
 repository: 
 issue: 

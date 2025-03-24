@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: gwallet.tech.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-03-02
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: 

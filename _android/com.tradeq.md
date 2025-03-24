@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.tradeq.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nowallet
 appHashes: 
 date: 2023-07-02

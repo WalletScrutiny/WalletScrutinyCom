@@ -11,9 +11,9 @@ appCountry:
 released: 2018-11-01
 updated: 2025-02-06
 version: 3.0.80
-stars: 3.1
+stars: 3.2
 ratings: 3831
-reviews: 557
+reviews: 559
 website: https://guarda.com
 repository: 
 issue: https://github.com/guardaco/guarda-android-wallets/issues/42

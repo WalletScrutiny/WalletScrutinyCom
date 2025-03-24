@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.vegawallet.in.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 appHashes: 
 date: 2023-06-21

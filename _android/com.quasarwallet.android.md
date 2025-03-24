@@ -30,7 +30,7 @@ social:
 - https://www.linkedin.com/company/reflextoken
 - https://www.instagram.com/reflextoken
 redirect_from: 
-developerName: Reflex Token
+developerName: Blaqclouds
 features: 
 
 ---

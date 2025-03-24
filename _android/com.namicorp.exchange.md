@@ -30,7 +30,7 @@ social:
 - https://www.facebook.com/groups/800880653641607/
 - https://medium.com/nami-io
 redirect_from: 
-developerName: Nami Exchange UAB
+developerName: NAMI EXCHANGE
 features: 
 
 ---

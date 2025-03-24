@@ -7,11 +7,11 @@ users: 10000
 appId: com.sinblock.blockchain
 appCountry: 
 released: 2022-09-22
-updated: 2025-02-28
-version: 4.8.2
-stars: 4.2
+updated: 2025-03-14
+version: 4.8.4
+stars: 4.3
 ratings: 
-reviews: 2
+reviews: 3
 website: 
 repository: 
 issue: 

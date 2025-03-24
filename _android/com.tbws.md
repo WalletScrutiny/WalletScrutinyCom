@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.tbws.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-07-05
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: 

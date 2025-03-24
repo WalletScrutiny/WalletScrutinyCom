@@ -8,8 +8,8 @@ appId: com.futurance.futurex
 appCountry: tr
 idd: '1583183728'
 released: 2021-10-27
-updated: 2025-02-25
-version: 4.9.2
+updated: 2025-03-11
+version: 4.9.7
 stars: 4.2
 reviews: 133
 website: 

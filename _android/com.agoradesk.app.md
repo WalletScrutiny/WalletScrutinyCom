@@ -18,10 +18,10 @@ repository: https://github.com/AgoraDesk-LocalMonero/agoradesk-app-foss/releases
 issue: 
 icon: com.agoradesk.app.png
 bugbounty: https://agoradesk.com/security-bounty-whitehat
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-08-17
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: AgoraDesk

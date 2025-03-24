@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.xfun.wallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-07-22
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: FUNtoken_io

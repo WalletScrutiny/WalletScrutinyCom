@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: dtn.crypto1.dtech.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
 appHashes: 
 date: 2023-06-12

@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Tulipfox
+developerName: Tulipfox-Tech
 features: 
 
 ---

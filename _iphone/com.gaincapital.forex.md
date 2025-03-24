@@ -1,6 +1,6 @@
 ---
 wsId: Forexcom
-title: 'FOREX.com: Trade Stocks & FX'
+title: Trade Stocks and FX FOREX.com
 altTitle: 
 authors:
 - danny
@@ -8,10 +8,10 @@ appId: com.gaincapital.forex
 appCountry: gb
 idd: 1506581586
 released: 2020-10-14
-updated: 2025-01-23
-version: 1.211.6758
+updated: 2025-03-18
+version: 1.214.6889
 stars: 4.3
-reviews: 139
+reviews: 145
 website: https://www.forex.com/en-uk/
 repository: 
 issue: 

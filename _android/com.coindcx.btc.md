@@ -8,8 +8,8 @@ users: 10000000
 appId: com.coindcx.btc
 appCountry: 
 released: 2020-12-09
-updated: 2025-02-27
-version: 7.00.0001
+updated: 2025-03-14
+version: 7.02.0003
 stars: 4.2
 ratings: 231093
 reviews: 584

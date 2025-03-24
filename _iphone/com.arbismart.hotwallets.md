@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.arbismart.hotwallets.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-05-08
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: arbismart

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.hamrasta.hwallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-08-07

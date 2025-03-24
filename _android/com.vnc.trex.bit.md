@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.vnc.trex.bit.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosendreceive
 appHashes: 
-date: 2023-09-07
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: 

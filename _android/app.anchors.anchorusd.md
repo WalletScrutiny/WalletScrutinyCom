@@ -8,8 +8,8 @@ users: 50000
 appId: app.anchors.anchorusd
 appCountry: us
 released: 2020-06-18
-updated: 2025-02-20
-version: 1.20.20
+updated: 2025-03-10
+version: 1.20.21
 stars: 2.2
 ratings: 2482
 reviews: 845

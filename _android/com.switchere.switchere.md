@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.switchere.switchere.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-04-12
+date: 2025-03-19
 signer: 
 reviewArchive: 
 twitter: Switchere_com

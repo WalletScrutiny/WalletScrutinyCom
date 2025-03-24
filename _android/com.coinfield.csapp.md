@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.coinfield.csapp.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-12-15
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: CoinFieldEx

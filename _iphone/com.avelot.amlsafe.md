@@ -10,8 +10,8 @@ idd: '1519145333'
 released: 2020-07-28
 updated: 2025-02-09
 version: 2.25.755
-stars: 4.8
-reviews: 56
+stars: 4.7
+reviews: 53
 website: https://Safe3.app
 repository: 
 issue: 

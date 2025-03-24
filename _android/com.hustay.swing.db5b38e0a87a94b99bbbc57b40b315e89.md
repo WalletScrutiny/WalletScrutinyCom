@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.hustay.swing.db5b38e0a87a94b99bbbc57b40b315e89.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-07-30
+date: 2025-03-17
 signer: 
 reviewArchive: 
 twitter: 

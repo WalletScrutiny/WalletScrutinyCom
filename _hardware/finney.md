@@ -21,10 +21,10 @@ repository:
 issue: 
 icon: finney.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: nosource
 appHashes: 
-date: 2021-12-04
+date: 2025-03-19
 signer: 
 reviewArchive: 
 twitter: SIRINLABS
@@ -34,6 +34,10 @@ social:
 features: 
 
 ---
+
+**2025-03-19:** With their social media last being active four years ago and their website being down, we file this
+product as defunct.
+
 
 <div class="alertBox"><div>
 ⚠️ Warning: This product is associated with a company with a CEO with lawsuits arising out of the companies' <a href="https://www.coindesk.com/policy/2021/11/18/crypto-heavyweight-moshe-hogeg-reportedly-arrested-in-israel/">involvement with ICOs.</a>

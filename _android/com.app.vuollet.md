@@ -28,7 +28,7 @@ twitter: Vuollet_io
 social:
 - https://t.me/vuollet
 redirect_from: 
-developerName: Codego Ltd
+developerName: Codego Limited
 features: 
 
 ---

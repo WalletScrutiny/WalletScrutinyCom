@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: org.groestlcoin.electrumgrs.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
 appHashes: 
-date: 2021-04-27
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: 

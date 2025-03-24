@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: app.bitcoininvestmenthub.com.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-04-19

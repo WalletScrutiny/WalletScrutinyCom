@@ -8,8 +8,8 @@ users: 50000
 appId: com.application.bitcoiva
 appCountry: 
 released: 2020-11-02
-updated: 2025-02-17
-version: 1.56.0
+updated: 2025-03-04
+version: 1.56.4
 stars: 2.8
 ratings: 
 reviews: 4

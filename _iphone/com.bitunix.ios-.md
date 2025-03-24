@@ -8,10 +8,10 @@ appId: com.bitunix.ios-
 appCountry: us
 idd: '6446243957'
 released: 2023-04-11
-updated: 2025-01-15
-version: 2.8.0
-stars: 4.1
-reviews: 132
+updated: 2025-03-05
+version: 2.9.0
+stars: 4
+reviews: 128
 website: 
 repository: 
 issue: 

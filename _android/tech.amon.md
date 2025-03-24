@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: tech.amon.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-06-29
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: amonwallet

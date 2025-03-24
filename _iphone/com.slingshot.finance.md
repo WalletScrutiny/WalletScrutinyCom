@@ -11,7 +11,7 @@ released: 2023-02-28
 updated: 2025-01-20
 version: 2.2.3
 stars: 4.7
-reviews: 72
+reviews: 74
 website: https://slingshot.finance/
 repository: 
 issue: 
