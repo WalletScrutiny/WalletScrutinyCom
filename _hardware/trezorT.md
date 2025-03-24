@@ -5,6 +5,7 @@ authors:
 - leo
 - Mohammad
 - danny
+- keraliss
 released: 2018-03-01
 discontinued: 
 updated: 2024-08-04
@@ -26,13 +27,23 @@ issue:
 icon: trezorT.png
 bugbounty: 
 meta: ok
-verdict: reproducible
+verdict: nonverifiable
 appHashes:
-- 2e4ad54edac5e0a13514c84603e053167142babf5f4d9ed4ec0e72ca748e0051
-- 8f7df375c5c9cf8b923c37378cc1a94992e03836e3ec0df0ab0271340d431903
-date: 2024-10-10
+- 5df0ff6efe28f68dd4411629c8dc9d430bd5996d5a1e5118091c266e46d375a1
+- ec61dba50be195f1cbb78688a0b92fb293c23150b68f5dab3b44420a106fca17
+- e5878fa067df9d1256cdcd86f10869930d85e090c39f807c23f8845472e8d995
+- 16c98a0ce67a84723f053da98a02cfa79717af85bd73df52acafc6c37aeebe94
+- 41264414de602fcf92c60ec8d1111f844080eaec157c4bbc9f1f29172f2afba2
+date: 2025-03-24
 signer: 
 reviewArchive:
+- date: 2024-10-10
+  version: 2.8.1
+  appHashes:
+  - 2e4ad54edac5e0a13514c84603e053167142babf5f4d9ed4ec0e72ca748e0051
+  - 8f7df375c5c9cf8b923c37378cc1a94992e03836e3ec0df0ab0271340d431903
+  gitRevision: 7b6f9b1814b80b05500604ac89a1178c1c77b8e0
+  verdict: reproducible
 - date: 2024-04-10
   version: 2.7.0
   appHashes:
@@ -82,6 +93,50 @@ social:
 features: 
 
 ---
+
+## Updated Review 2025-03-24
+
+We were able to create a script for the Trezor T with the build instruction, that would automate the process.
+
+`./scripts/test/hardware/trezorT.sh 2.8.9`
+
+```
+Built from commit fad9682201cf9289bba2adb66e6e07ed1cf78936
+
+Fingerprints:
+5df0ff6efe28f68dd4411629c8dc9d430bd5996d5a1e5118091c266e46d375a1 build/core-T2T1/bootloader/bootloader.bin
+ec61dba50be195f1cbb78688a0b92fb293c23150b68f5dab3b44420a106fca17 build/core-T2T1/firmware/firmware.bin
+5df0ff6efe28f68dd4411629c8dc9d430bd5996d5a1e5118091c266e46d375a1 build/core-T2T1-bitcoinonly/bootloader/bootloader.bin
+e5878fa067df9d1256cdcd86f10869930d85e090c39f807c23f8845472e8d995 build/core-T2T1-bitcoinonly/firmware/firmware.bin
+
+Comparing hashes of zeroed binaries with built firmware:
+16c98a0ce67a84723f053da98a02cfa79717af85bd73df52acafc6c37aeebe94 build/core-T2T1/firmware/firmware.bin
+16c98a0ce67a84723f053da98a02cfa79717af85bd73df52acafc6c37aeebe94 trezor-core-2.8.9.bin.zeroed
+41264414de602fcf92c60ec8d1111f844080eaec157c4bbc9f1f29172f2afba2 build/core-T2T1-bitcoinonly/firmware/firmware.bin
+41264414de602fcf92c60ec8d1111f844080eaec157c4bbc9f1f29172f2afba2 trezor-core-2.8.9-bitcoinonly.bin.zeroed
+```
+In the development of the Trezor T firmware version 2.8.9, we encountered a significant bootloader verification challenge:
+
+The changelog indicates firmware 2.8.9 includes bootloader version 2.1.10. When building from firmware 2.8.9 (core/v2.8.9), the embedded bootloader produces a hash:
+```
+5df0ff6efe28f68dd4411629c8dc9d430bd5996d5a1e5118091c266e46d375a1
+```
+
+But when building bootloader 2.1.10 directly (core/bl2.1.10) with the command `./build-docker.sh --models T2T1 --targets bootloader core/bl2.1.10`, we get a different hash:
+```
+a790e46d7a471007d207c9625d231c8a78438abb9d62c179f866e98fb72401f5 build/core-T2T1/bootloader/bootloader.bin
+```
+
+The hash mismatch between the firmware-embedded bootloader and our directly built bootloader raises some uncertainties about reproducibility. Without detailed documentation of Trezor's bootloader signing process or access to their signed bootloader binaries, it's challenging to determine whether this difference is due to signing, build parameters, or other factors.  
+
+While the firmware itself appears reproducible (as the zeroed firmware hashes match), verifying the bootloader remains inconclusive. This highlights the potential benefit of more transparency around the bootloader build and signing process.
+
+**Version 2.8.9 of the {{ page.title }} is non-verifiable**.
+
+{% include asciicast %}
+
+
+## Updated Review 2024-10-10
 
 There was a change in the directory name containing the binaries so we've had to modify the script itself.
 With our
