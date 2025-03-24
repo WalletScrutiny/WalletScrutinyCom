@@ -14,7 +14,9 @@ const connectTimeout = 2000;
 const nostrConnect = async function (nostrPrivateKey) {
   let signer;
 
-  if (await userHasBrowserExtension()) {
+  let hasBrowserExtension = await userHasBrowserExtension();
+
+  if (hasBrowserExtension) {
     console.debug("Signer: Using browser extension");
     signer = new NDKNip07Signer();
   } else if (nostrPrivateKey) {
@@ -34,6 +36,14 @@ const nostrConnect = async function (nostrPrivateKey) {
     await ndk.connect(connectTimeout);
   } catch (e) {
     console.error("ndk connect failed", e);
+
+    if (hasBrowserExtension) {
+      console.log("Trying to connect again without using a signer");
+      ndk.signer = null;
+      await ndk.connect(connectTimeout);
+      return;
+    }
+
     throw e;
   }
 }
