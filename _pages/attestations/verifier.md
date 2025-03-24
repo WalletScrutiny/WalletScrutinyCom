@@ -92,7 +92,15 @@ permalink: /verifier/
     try {
       document.getElementById('loadingSpinner').style.display = 'block';
 
-      await nostrConnect();
+      try {
+        await nostrConnect();
+      } catch (e) {
+        console.error("Failed to connect to Nostr", e);
+        document.getElementById('loadingSpinner').style.display = 'none';
+        showToast('It was impossible to connect to Nostr. Please check your browser extension and try again.', 'error');
+        return;
+      }
+
       const npub = getNpubFromPubkey(pubkey);
 
       document.getElementById('njumpLink').href = `https://njump.me/${npub}`;

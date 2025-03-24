@@ -33,7 +33,12 @@ document.addEventListener("DOMContentLoaded", async function () {
     }
   }
 
-  await nostrConnect();
+  try {
+    await nostrConnect();
+  } catch (e) {
+    console.error("Failed to connect to Nostr", e);
+    return;
+  }
 });
 
 function scrollToVersion(version) {

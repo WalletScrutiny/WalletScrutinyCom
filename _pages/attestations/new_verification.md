@@ -223,7 +223,13 @@ async function loadUrlParamsAndGetAssetInfo() {
     hashesHelpText.textContent = 'Add the SHA-256 hash(es) of the asset(s) you are verifying. Each hash must be 64 hexadecimal characters.';
   }
 
-  await nostrConnect();
+  try {
+    await nostrConnect();
+  } catch (e) {
+    console.error("Failed to connect to Nostr", e);
+    showToast('It was impossible to connect to Nostr. Please check your browser extension and try again.', 'error');
+    return;
+  }
 
   let message = '';
 

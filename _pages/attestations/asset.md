@@ -41,7 +41,14 @@ permalink: /asset/
     const sha256 = DOMPurify.sanitize(urlParams.get('sha256'));
     document.getElementById('sha256title').innerHTML = sha256;
 
-    await nostrConnect();
+    try {
+      await nostrConnect();
+    } catch (e) {
+      console.error("Failed to connect to Nostr", e);
+      document.getElementById('loadingSpinner').style.display = 'none';
+      showToast('It was impossible to connect to Nostr. Please check your browser extension and try again.', 'error');
+      return;
+    }
 
     const result = await renderAssetsTable({
       htmlElementId: 'binariesTable',
