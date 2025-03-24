@@ -7,7 +7,7 @@ We analyze custodians across five key dimensions, allocating points based on the
 ### Key Management & Security (30 points)
 
 <div class="textbox" style="background-color: rgba(173, 178, 212, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
-  <h4>Hot Wallet and Cold Storage Design (10 points)</h4>
+  <h4 style="color: #5052a3; border-bottom: 2px solid #5052a3; padding-bottom: 5px; margin-bottom: 10px;">Hot Wallet and Cold Storage Design (10 points)</h4>
 
   <p>We assess whether the custodian publishes details about their hot/cold wallet infrastructure, which is critical for understanding how your Bitcoin is secured.</p>
 
@@ -22,7 +22,7 @@ We analyze custodians across five key dimensions, allocating points based on the
 </div>
 
 <div class="textbox" style="background-color: rgba(199, 217, 221, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
-  <h4>Multi-signature/MPC Implementation (10 points)</h4>
+  <h4 style="color: #2b7d8c; border-bottom: 2px solid #2b7d8c; padding-bottom: 5px; margin-bottom: 10px;">Multi-signature/MPC Implementation (10 points)</h4>
 
   <p>We evaluate the custodian's use of multi-signature or Multi-Party Computation (MPC) technology for securing private keys.</p>
 
@@ -36,7 +36,7 @@ We analyze custodians across five key dimensions, allocating points based on the
 </div>
 
 <div class="textbox" style="background-color: rgba(213, 229, 213, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
-  <h4>Hardware Security (10 points)</h4>
+  <h4 style="color: #3a7c3a; border-bottom: 2px solid #3a7c3a; padding-bottom: 5px; margin-bottom: 10px;">Hardware Security (10 points)</h4>
 
   <p>We assess the use of dedicated hardware security modules (HSMs) and other physical security measures.</p>
 
@@ -52,7 +52,7 @@ We analyze custodians across five key dimensions, allocating points based on the
 ### Infrastructure & Operations (25 points)
 
 <div class="textbox" style="background-color: rgba(238, 241, 218, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
-  <h4>Security Certifications (10 points)</h4>
+  <h4 style="color: #7c7c39; border-bottom: 2px solid #7c7c39; padding-bottom: 5px; margin-bottom: 10px;">Security Certifications (10 points)</h4>
 
   <p>We check for relevant industry security certifications that indicate external validation of security practices.</p>
 
@@ -66,7 +66,7 @@ We analyze custodians across five key dimensions, allocating points based on the
 </div>
 
 <div class="textbox" style="background-color: rgba(173, 178, 212, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
-  <h4>Security Audits (10 points)</h4>
+  <h4 style="color: #5052a3; border-bottom: 2px solid #5052a3; padding-bottom: 5px; margin-bottom: 10px;">Security Audits (10 points)</h4>
 
   <p>We evaluate the custodian's history of security audits and their transparency regarding past security incidents.</p>
 
@@ -80,7 +80,7 @@ We analyze custodians across five key dimensions, allocating points based on the
 </div>
 
 <div class="textbox" style="background-color: rgba(199, 217, 221, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
-  <h4>Incident Response (5 points)</h4>
+  <h4 style="color: #2b7d8c; border-bottom: 2px solid #2b7d8c; padding-bottom: 5px; margin-bottom: 10px;">Incident Response (5 points)</h4>
 
   <p>We assess the custodian's approach to handling security incidents and their track record in responding to issues.</p>
 
@@ -96,7 +96,7 @@ We analyze custodians across five key dimensions, allocating points based on the
 ### Transparency (20 points)
 
 <div class="textbox" style="background-color: rgba(213, 229, 213, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
-  <h4>Proof of Reserves (10 points)</h4>
+  <h4 style="color: #3a7c3a; border-bottom: 2px solid #3a7c3a; padding-bottom: 5px; margin-bottom: 10px;">Proof of Reserves (10 points)</h4>
 
   <p>We evaluate how the custodian verifies and proves that they possess the Bitcoin they claim to hold on behalf of customers.</p>
 
@@ -111,7 +111,7 @@ We analyze custodians across five key dimensions, allocating points based on the
 </div>
 
 <div class="textbox" style="background-color: rgba(238, 241, 218, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
-  <h4>Documentation (5 points)</h4>
+  <h4 style="color: #7c7c39; border-bottom: 2px solid #7c7c39; padding-bottom: 5px; margin-bottom: 10px;">Documentation (5 points)</h4>
 
   <p>We assess the quality and comprehensiveness of the custodian's business documentation.</p>
 
@@ -125,7 +125,7 @@ We analyze custodians across five key dimensions, allocating points based on the
 </div>
 
 <div class="textbox" style="background-color: rgba(173, 178, 212, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
-  <h4>Open Source Contributions (5 points)</h4>
+  <h4 style="color: #5052a3; border-bottom: 2px solid #5052a3; padding-bottom: 5px; margin-bottom: 10px;">Open Source Contributions (5 points)</h4>
 
   <p>We evaluate the custodian's contributions to Bitcoin's open source ecosystem.</p>
 
@@ -141,7 +141,7 @@ We analyze custodians across five key dimensions, allocating points based on the
 ### Regulatory Compliance (15 points)
 
 <div class="textbox" style="background-color: rgba(199, 217, 221, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
-  <h4>Licensing (10 points)</h4>
+  <h4 style="color: #2b7d8c; border-bottom: 2px solid #2b7d8c; padding-bottom: 5px; margin-bottom: 10px;">Licensing (10 points)</h4>
 
   <p>We assess the custodian's regulatory status and leadership transparency.</p>
 
@@ -155,7 +155,7 @@ We analyze custodians across five key dimensions, allocating points based on the
 </div>
 
 <div class="textbox" style="background-color: rgba(213, 229, 213, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
-  <h4>Compliance Programs (5 points)</h4>
+  <h4 style="color: #3a7c3a; border-bottom: 2px solid #3a7c3a; padding-bottom: 5px; margin-bottom: 10px;">Compliance Programs (5 points)</h4>
 
   <p>We evaluate the custodian's approach to regulatory compliance programs.</p>
 
@@ -171,7 +171,7 @@ We analyze custodians across five key dimensions, allocating points based on the
 ### User Security Features (10 points)
 
 <div class="textbox" style="background-color: rgba(238, 241, 218, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
-  <h4>Authentication (5 points)</h4>
+  <h4 style="color: #7c7c39; border-bottom: 2px solid #7c7c39; padding-bottom: 5px; margin-bottom: 10px;">Authentication (5 points)</h4>
 
   <p>We assess the security of user authentication mechanisms.</p>
 
@@ -185,7 +185,7 @@ We analyze custodians across five key dimensions, allocating points based on the
 </div>
 
 <div class="textbox" style="background-color: rgba(173, 178, 212, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
-  <h4>Transaction Security (5 points)</h4>
+  <h4 style="color: #5052a3; border-bottom: 2px solid #5052a3; padding-bottom: 5px; margin-bottom: 10px;">Transaction Security (5 points)</h4>
 
   <p>We evaluate the security measures in place for transaction processing.</p>
 
