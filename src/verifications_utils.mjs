@@ -453,7 +453,7 @@ function showToast(message, type = 'success', duration = 4000) {
 
     let color;
     if (type === 'error') {
-      duration = 5000;
+      duration = 6000;
       color = '#ff5861';
     } else if (type === 'success') {
       color = '#00a96e';
