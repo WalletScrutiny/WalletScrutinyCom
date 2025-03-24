@@ -1,5 +1,7 @@
 At WalletScrutiny, we evaluate Bitcoin custodians using a systematic approach that attempts to put a quantitative score on what is fundamentally a qualitative assessment. While self-custody remains the gold standard for Bitcoin security, we recognize that many users utilize custodial services. Our 100-point scoring system provides transparency into how we evaluate these services.
 
+It's important to understand that our assessments focus on observable fundamentals and public information. **Even custodians scoring highly on our criteria can experience security incidents or operational failures that we cannot predict.** We don't have insider knowledge of internal processes, undisclosed vulnerabilities, or management decisions that may affect security. If you have relevant information about any custodian that isn't reflected in our assessment, we encourage you to share it through the nostr opinion plugin at the bottom of each custodian page. Your insights help the broader Bitcoin community make better-informed decisions.
+
 ## Our Evaluation Framework
 
 We analyze custodians across five key dimensions, allocating points based on the completeness and quality of their security measures. This framework aims to provide a consistent methodology while acknowledging that turning qualitative assessments into quantitative scores has inherent limitations.
