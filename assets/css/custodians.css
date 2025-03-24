@@ -59,6 +59,7 @@
   margin: 0 auto;
   overflow: hidden;
   position: relative;
+  text-align: left;
 }
 
 .custodian-header {
@@ -88,6 +89,7 @@
   margin: 0;
   line-height: 1.2;
   text-align: center;
+  width: 100%;
 }
 
 .custodian-info {
@@ -182,9 +184,86 @@
   gap: 0.5rem;
   margin-top: auto;
   padding-top: 0.75rem;
-  border-top: 1px solid #e1e4e8;
+  border-top: none; /* Removed horizontal line */
   text-align: center;
   height: auto;
+}
+
+/* BTC Under Custody section */
+.btc-custody-section {
+  text-align: center;
+  padding: 0.5rem 0;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.btc-value {
+  font-weight: bold;
+  margin-bottom: 4px;
+  font-size: 1.1rem;
+}
+
+.btc-label {
+  margin-top: 0.25rem;
+  font-size: 0.75rem;
+  color: #666;
+}
+
+.btc-info-icon {
+  margin-left: 0.25rem;
+  cursor: help;
+  vertical-align: middle;
+}
+
+/* Bottom metrics section with Users and Years */
+.bottom-metrics {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  left: 0;
+  padding: 0 1.5rem;
+}
+
+.bottom-metric-item {
+  flex: 1;
+  text-align: center;
+  position: relative;
+}
+
+/* Adjust Users position (left metric) */
+.bottom-metric-item:first-child {
+  transform: translate(-40px, 15px);
+}
+
+/* Adjust Years position (right metric) */
+.bottom-metric-item:last-child {
+  transform: translate(40px, 15px);
+}
+
+.bottom-metric-label {
+  font-size: 0.8rem;
+  color: #555;
+  margin-bottom: 0.25rem;
+}
+
+.bottom-metric-value {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* Card content wrapper */
+.card-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-start;
+  text-align: center;
+  position: relative;
+  padding-bottom: 1rem;
 }
 
 .metric-grid {

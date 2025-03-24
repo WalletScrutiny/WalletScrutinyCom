@@ -34,22 +34,8 @@ permalink: /custodians/
             <h2 class="custodian-title">{{ custodian.title }}</h2>
           </div>
           
-          <div class="custodian-info">
-            <div class="info-row">
-              <div class="info-label">Years in Business</div>
-              <div class="info-value">{{ custodian.custodian.leadership.yearsInBusiness | default: "N/A" }}</div>
-            </div>
-            
-
-          </div>
-
-          <div class="custodian-metrics">
-            <div class="metric-grid">
-              <div class="metric-info"></div>
-              <div class="metric-value">{{ custodian.custodian.operations.users | default: "N/A" }}</div>
-              <div class="metric-label">Users</div>
-            </div>
-            
+          <div class="card-content">
+            <!-- BTC Under Custody directly below the company name -->
             {% assign btcAmount = "N/A" %}
             {% assign btcSource = "" %}
             {% assign btcDate = "" %}
@@ -67,41 +53,25 @@ permalink: /custodians/
               {% assign btcDate = custodian.custodian.operations.selfReported.lastUpdated %}
             {% endif %}
             
-            <div class="metric-grid">
-              <div class="metric-info">
-                {% if btcSource != "" %}
-                  <i class="fas fa-info-circle info-icon" title="Source: {{ btcSource }}&#10;Last Updated: {{ btcDate }}"></i>
-                {% endif %}
-              </div>
-              <div class="metric-value">{{ btcAmount }}</div>
-              <div class="metric-label">Total BTC Under Custody</div>
+            <div class="btc-custody-section">
+              <div class="btc-value">{{ btcAmount }}</div>
+              <div class="btc-label">Est. BTC Under Custody</div>
+              {% if btcSource != "" %}
+                <i class="fas fa-info-circle btc-info-icon" title="Source: {{ btcSource }}&#10;Last Updated: {{ btcDate }}"></i>
+              {% endif %}
             </div>
-            
-            {% assign totalAssets = "N/A" %}
-            {% assign assetsSource = "" %}
-            {% assign assetsDate = "" %}
-            {% if custodian.custodian.operations.cryptographicProof.valid and custodian.custodian.operations.cryptographicProof.totalAssets != "" %}
-              {% assign totalAssets = custodian.custodian.operations.cryptographicProof.totalAssets %}
-              {% assign assetsSource = custodian.custodian.operations.cryptographicProof.source %}
-              {% assign assetsDate = custodian.custodian.operations.cryptographicProof.lastUpdated %}
-            {% elsif custodian.custodian.operations.thirdPartyAudit.valid and custodian.custodian.operations.thirdPartyAudit.totalAssets != "" %}
-              {% assign totalAssets = custodian.custodian.operations.thirdPartyAudit.totalAssets %}
-              {% assign assetsSource = custodian.custodian.operations.thirdPartyAudit.source %}
-              {% assign assetsDate = custodian.custodian.operations.thirdPartyAudit.lastUpdated %}
-            {% elsif custodian.custodian.operations.selfReported.valid and custodian.custodian.operations.selfReported.totalAssets != "" %}
-              {% assign totalAssets = custodian.custodian.operations.selfReported.totalAssets %}
-              {% assign assetsSource = custodian.custodian.operations.selfReported.source %}
-              {% assign assetsDate = custodian.custodian.operations.selfReported.lastUpdated %}
-            {% endif %}
-            
-            <div class="metric-grid">
-              <div class="metric-info">
-                {% if assetsSource != "" %}
-                  <i class="fas fa-info-circle info-icon" title="Source: {{ assetsSource }}&#10;Last Updated: {{ assetsDate }}"></i>
-                {% endif %}
+
+            <!-- Bottom section with Users and Years in 2-column layout -->
+            <div class="bottom-metrics">
+              <div class="bottom-metric-item">
+                <div class="bottom-metric-label">Users</div>
+                <div class="bottom-metric-value">{{ custodian.custodian.operations.users | default: "N/A" }}</div>
               </div>
-              <div class="metric-value">{{ totalAssets }}</div>
-              <div class="metric-label">Total Assets</div>
+              
+              <div class="bottom-metric-item">
+                <div class="bottom-metric-label">Years</div>
+                <div class="bottom-metric-value">{{ custodian.custodian.leadership.yearsInBusiness | default: "N/A" }}</div>
+              </div>
             </div>
           </div>
         </div>
