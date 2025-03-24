@@ -12,12 +12,39 @@ permalink: /verifications/
 pre {
     margin-top: 0.25em;
 }
+
+.nav-buttons-container {
+    margin-bottom: 20px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 15px;
+}
+
+@media (max-width: 768px) {
+    .nav-buttons-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        padding: 0 15px;
+    }
+    
+    .nav-buttons-container a {
+        width: 100%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        box-sizing: border-box;
+    }
+}
 </style>
 
 <script type="text/javascript" src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
 <link rel="stylesheet" href="{{ base_path }}/assets/css/verifications.css">
 
-<div style="margin-bottom: 20px; display: flex; align-items: center; justify-content: center; gap: 15px;">
+<div class="nav-buttons-container">
     <a href="/assets/" class="btn btn-medium btn-success">Asset Registry</a>
     <a href="/verifiers/" class="btn btn-medium btn-success">Top Build Verifiers</a>
     <a href="/new_asset/" class="btn btn-medium btn-success">Register New Asset</a>
