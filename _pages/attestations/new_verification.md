@@ -204,14 +204,13 @@ async function loadUrlParamsAndGetAssetInfo() {
   
   const fields = ['version', 'appId', 'platform'];
   fields.forEach(field => {
-    const value = urlParams.get(field);
+    const value = DOMPurify.sanitize(urlParams.get(field));
     if (value) {
       document.getElementById(field).value = value;
     }
   });
 
-  const sha256 = urlParams.get('sha256');
-  const assetEventId = urlParams.get('assetEventId');
+  const sha256 = DOMPurify.sanitize(urlParams.get('sha256'));
 
   // Update the hashes label based on whether sha256 is present
   const hashesLabel = document.getElementById('hashesLabel');
@@ -259,8 +258,8 @@ async function handleSubmit(event) {
     return;
   }
 
-  const sha256 = new URLSearchParams(window.location.search).get('sha256');
-  const assetEventId = new URLSearchParams(window.location.search).get('assetEventId');
+  const sha256 = DOMPurify.sanitize(new URLSearchParams(window.location.search).get('sha256'));
+  const assetEventId = DOMPurify.sanitize(new URLSearchParams(window.location.search).get('assetEventId'));
   const otherHashesValue = document.getElementById('otherHashes').value.trim();
 
   // Combine sha256 and otherHashes into a single parameter

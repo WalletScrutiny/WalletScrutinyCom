@@ -96,7 +96,7 @@ async function loadUrlParams() {
   
   const fields = ['description', 'version', 'sha256', 'appId', 'platform'];
   fields.forEach(field => {
-    const value = urlParams.get(field);
+    const value = DOMPurify.sanitize(urlParams.get(field));
     if (value) {
       document.getElementById(field).value = value;
     }

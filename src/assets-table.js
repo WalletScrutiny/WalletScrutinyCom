@@ -2,6 +2,8 @@ import {marked} from 'marked';
 import DOMPurify from 'dompurify';
 import { assetRegistrationKind } from "./nostr-constants.mjs";
 
+window.DOMPurify = DOMPurify;
+
 let response = null;
 
 const table = document.createElement('table');
