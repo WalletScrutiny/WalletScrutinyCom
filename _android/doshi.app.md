@@ -13,7 +13,6 @@ version: 1.0.130
 stars: 3.3
 ratings: 
 reviews: 3
-size: 
 website: https://www.doshi.app
 repository: 
 issue: 

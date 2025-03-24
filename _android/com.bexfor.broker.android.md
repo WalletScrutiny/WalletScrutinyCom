@@ -12,7 +12,6 @@ version: 3.8.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.bexfor.com
 repository: 
 issue: 

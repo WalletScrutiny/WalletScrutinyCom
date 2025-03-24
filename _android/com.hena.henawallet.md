@@ -12,7 +12,6 @@ version: '29'
 stars: 3
 ratings: 738
 reviews: 14
-size: 
 website: http://www.hena.io
 repository: 
 issue: 

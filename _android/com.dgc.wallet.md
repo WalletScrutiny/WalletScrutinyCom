@@ -12,7 +12,6 @@ version: 0.21.3
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.dgcusa.com/
 repository: 
 issue: 

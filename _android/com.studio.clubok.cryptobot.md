@@ -13,7 +13,6 @@ version: 2.9.3
 stars: 4.2
 ratings: 57
 reviews: 8
-size: 
 website: 
 repository: 
 issue: 

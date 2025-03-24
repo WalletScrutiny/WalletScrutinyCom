@@ -12,13 +12,12 @@ version: 1.2.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
 icon: com.cryptoadvantagemobile.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 appHashes: 
 date: 2023-01-02

@@ -13,13 +13,12 @@ version: 2.3.2
 stars: 
 ratings: 75
 reviews: 
-size: 
 website: http://www.abit.com
 repository: 
 issue: 
 icon: com.abit.bmtc.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2021-11-04

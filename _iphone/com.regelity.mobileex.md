@@ -12,7 +12,6 @@ updated: 2024-12-07
 version: 2.0.46
 stars: 4.1
 reviews: 29
-size: '59282432'
 website: https://exnode.by
 repository: 
 issue: 

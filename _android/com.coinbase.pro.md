@@ -13,7 +13,6 @@ version: 1.0.103
 stars: 4
 ratings: 22040
 reviews: 4595
-size: 
 website: http://pro.coinbase.com/
 repository: 
 issue: 

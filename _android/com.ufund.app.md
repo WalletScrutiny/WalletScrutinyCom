@@ -13,7 +13,6 @@ version: 1.1.5
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://web.ufund.online
 repository: 
 issue: 

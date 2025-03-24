@@ -12,7 +12,6 @@ version: '1.4'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://bitkart.io
 repository: 
 issue: 

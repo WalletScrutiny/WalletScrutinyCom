@@ -13,7 +13,6 @@ version: v1.3.0
 stars: 4.2
 ratings: 65
 reviews: 41
-size: 25M
 website: https://ninjacoin.org/
 repository: 
 issue: 

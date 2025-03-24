@@ -11,7 +11,6 @@ updated: 2020-05-30
 version: 0.3.6
 stars: 5
 reviews: 4
-size: '73128960'
 website: https://moonshinewallet.com/
 repository: 
 issue: 

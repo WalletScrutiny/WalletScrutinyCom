@@ -13,7 +13,6 @@ version: 0.0.145 (7755)
 stars: 5
 ratings: 
 reviews: 9
-size: 
 website: https://cryppter.com/
 repository: 
 issue: 

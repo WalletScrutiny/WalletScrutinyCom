@@ -12,7 +12,6 @@ updated: 2024-11-13
 version: '1.51'
 stars: 2.9
 reviews: 7
-size: '155293696'
 website: http://www.capex.com/
 repository: 
 issue: 

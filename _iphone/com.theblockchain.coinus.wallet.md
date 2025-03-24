@@ -12,7 +12,6 @@ updated: 2022-01-03
 version: 2.9.0
 stars: 0
 reviews: 0
-size: '99999744'
 website: https://www.coinus.io/
 repository: 
 issue: 

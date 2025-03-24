@@ -12,7 +12,6 @@ version: v2.0.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://github.com/ejfhp
 repository: 
 issue: 

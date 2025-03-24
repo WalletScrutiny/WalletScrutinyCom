@@ -12,7 +12,6 @@ version: '5.0'
 stars: 4.4
 ratings: 
 reviews: 
-size: 
 website: http://coinprice.kr
 repository: 
 issue: 

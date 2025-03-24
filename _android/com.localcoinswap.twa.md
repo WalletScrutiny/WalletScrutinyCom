@@ -12,7 +12,6 @@ version: 1.0.0.0
 stars: 3.2
 ratings: 
 reviews: 8
-size: 
 website: https://localcoinswap.com
 repository: 
 issue: 

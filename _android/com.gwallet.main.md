@@ -12,7 +12,6 @@ version: '1.06'
 stars: 4.9
 ratings: 
 reviews: 
-size: 
 website: https://www.g-wallet.io
 repository: 
 issue: 

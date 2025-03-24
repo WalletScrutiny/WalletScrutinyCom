@@ -12,7 +12,6 @@ version: '1.2'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.trincocoins.uk
 repository: 
 issue: 

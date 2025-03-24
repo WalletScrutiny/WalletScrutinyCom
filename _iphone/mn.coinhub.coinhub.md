@@ -12,7 +12,6 @@ updated: 2023-04-19
 version: 1.3.3
 stars: 3.5
 reviews: 11
-size: '58322944'
 website: https://about.coinhub.mn
 repository: 
 issue: 

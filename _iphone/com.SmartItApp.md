@@ -6,13 +6,12 @@ authors:
 - danny
 appId: com.SmartItApp
 appCountry: us
-idd: 1526092476
+idd: '1526092476'
 released: 2020-10-28
 updated: 2024-06-19
 version: 1.0.9
 stars: 0
 reviews: 0
-size: '21298176'
 website: https://smartit.shop/
 repository: 
 issue: 

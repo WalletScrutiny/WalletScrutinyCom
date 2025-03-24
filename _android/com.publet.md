@@ -13,7 +13,6 @@ version: '1.9'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.publet.io/
 repository: 
 issue: 

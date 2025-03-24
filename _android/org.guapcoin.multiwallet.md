@@ -13,16 +13,15 @@ version: 1.1.0
 stars: 3.9
 ratings: 43
 reviews: 23
-size: 
 website: https://www.guapcoin.org
 repository: 
 issue: 
 icon: org.guapcoin.multiwallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-09-03
+date: 2025-03-17
 signer: 
 reviewArchive: 
 twitter: guapcoin

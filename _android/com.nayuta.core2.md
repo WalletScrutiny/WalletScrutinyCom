@@ -13,7 +13,6 @@ version: VARY
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://nayuta.co/nayuta-wallet-2022/
 repository: https://github.com/nayutaco/NayutaWalletApp
 issue: https://github.com/nayutaco/NayutaWalletApp/pull/2/files

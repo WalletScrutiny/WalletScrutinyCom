@@ -12,7 +12,6 @@ updated: 2024-01-30
 version: 3.31.1
 stars: 4.4
 reviews: 30
-size: '59907072'
 website: https://xcapit.com
 repository: 
 issue: 

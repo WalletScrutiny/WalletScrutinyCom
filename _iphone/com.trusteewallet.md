@@ -12,7 +12,6 @@ updated: 2024-11-16
 version: 1.51.10
 stars: 0
 reviews: 0
-size: '57155584'
 website: https://trusteeglobal.com/
 repository: 
 issue: 

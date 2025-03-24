@@ -12,7 +12,6 @@ updated: 2021-11-23
 version: 3.1.1
 stars: 3.9
 reviews: 182
-size: '19846144'
 website: https://kelta.com
 repository: 
 issue: 

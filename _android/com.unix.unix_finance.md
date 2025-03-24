@@ -12,7 +12,6 @@ version: 1.0.7
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://unix.finance
 repository: 
 issue: 

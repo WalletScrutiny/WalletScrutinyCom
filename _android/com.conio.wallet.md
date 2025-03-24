@@ -13,7 +13,6 @@ version: 9.0.4
 stars: 3.5
 ratings: 
 reviews: 
-size: 
 website: https://www.conio.com
 repository: 
 issue: 
@@ -32,7 +31,7 @@ social:
 redirect_from:
 - /com.conio.wallet/
 - /posts/com.conio.wallet/
-developerName: Conio Inc.
+developerName: Conio Srl
 features: 
 
 ---

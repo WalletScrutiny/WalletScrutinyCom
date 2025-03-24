@@ -1,6 +1,6 @@
 ---
 wsId: bitso
-title: Bitso - Buy bitcoin easily
+title: 'Bitso: Buy Bitcoin and Crypto'
 altTitle: 
 authors:
 - leo
@@ -8,11 +8,10 @@ appId: com.bitso.wallet
 appCountry: 
 idd: 1292836438
 released: 2018-02-19
-updated: 2025-02-05
-version: 3.79.0
+updated: 2025-03-05
+version: 3.81.0
 stars: 4.6
-reviews: 808
-size: '191836160'
+reviews: 834
 website: https://bitso.com/app
 repository: 
 issue: 

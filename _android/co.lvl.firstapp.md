@@ -13,7 +13,6 @@ version: 1.0.5
 stars: 3.7
 ratings: 159
 reviews: 62
-size: 
 website: https://lvl.co
 repository: 
 issue: 

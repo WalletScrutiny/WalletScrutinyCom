@@ -13,7 +13,6 @@ version: 3.0.0-dreambit
 stars: 3.8
 ratings: 21
 reviews: 9
-size: 
 website: http://www.dreambit.com
 repository: 
 issue: 

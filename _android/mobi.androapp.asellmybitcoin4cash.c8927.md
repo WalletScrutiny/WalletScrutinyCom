@@ -12,7 +12,6 @@ version: '19.02'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://sellmybitcoin4cash.com/
 repository: 
 issue: 

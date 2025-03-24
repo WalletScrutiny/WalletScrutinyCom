@@ -13,7 +13,6 @@ version: 1.7.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://orbitgt-m.com/
 repository: 
 issue: 

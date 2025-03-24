@@ -6,13 +6,12 @@ authors:
 - danny
 appId: com.LBank.LBankNavApp
 appCountry: us
-idd: 1437346368
+idd: '1437346368'
 released: 2019-02-22
-updated: 2025-01-21
-version: 5.2.3
+updated: 2025-03-12
+version: 5.2.8
 stars: 3.5
-reviews: 551
-size: '116187136'
+reviews: 562
 website: https://www.lbank.com/
 repository: 
 issue: 

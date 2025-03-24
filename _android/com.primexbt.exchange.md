@@ -12,7 +12,6 @@ version: 144.5.0-release
 stars: 2.4
 ratings: 632
 reviews: 471
-size: 9.5M
 website: 
 repository: 
 issue: 

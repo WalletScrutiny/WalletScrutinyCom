@@ -12,16 +12,15 @@ updated: 2022-01-06
 version: '1.1'
 stars: 3
 reviews: 1
-size: '69398528'
 website: 
 repository: 
 issue: 
 icon: com.UFUND.app.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2024-09-07
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: UFUND1

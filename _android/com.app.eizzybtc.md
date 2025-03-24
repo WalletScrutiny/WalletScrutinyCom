@@ -12,7 +12,6 @@ version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 50M
 website: https://eizzybtc.com
 repository: 
 issue: 

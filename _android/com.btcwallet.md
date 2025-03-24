@@ -13,7 +13,6 @@ version: 8.0.8
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://lunablockchain.com/
 repository: 
 issue: 

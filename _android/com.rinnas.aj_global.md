@@ -10,10 +10,9 @@ appCountry: us
 released: 2020-05-29
 updated: 2025-01-30
 version: 2.2.0
-stars: 2.8
+stars: 2.9
 ratings: 146
 reviews: 14
-size: 
 website: https://ajglobalv.com/
 repository: 
 issue: 

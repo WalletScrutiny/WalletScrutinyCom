@@ -13,7 +13,6 @@ version: 5.5.2_push_v2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://fuzionx.io
 repository: 
 issue: 

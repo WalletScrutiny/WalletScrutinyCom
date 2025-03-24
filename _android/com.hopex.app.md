@@ -12,7 +12,6 @@ version: 3.17.27
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.hopex.com
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 4.9.8
 stars: 2.8
 ratings: 10
 reviews: 4
-size: 
 website: https://hotcoin.com/
 repository: 
 issue: 

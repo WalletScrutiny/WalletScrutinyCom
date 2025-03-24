@@ -12,7 +12,6 @@ version: 3.0.8
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://excelplusremit.com/
 repository: 
 issue: 

@@ -1,7 +1,8 @@
 #!/bin/bash
-# testAAB.sh v0.1.0-alpha.7
+# testAAB.sh v0.1.0-alpha.9
 # This script tests if an AAB and then split apks can be built from source.
-# Currently works with io.nunchuk.android_v1.9.53, com.bullbitcoin.mobile_v0.4.0
+# Currently works with io.nunchuk.android_v1.9.64.
+# Exports device-spec.json that is generated. Apksigner is echoed in Begin Results block
 
 # Uncomment for debugging
 # set -x
@@ -20,6 +21,7 @@ YELLOW='\033[0;33m'
 CYAN='\033[0;36m'
 BOLD_CYAN='\033[1;36m'
 NC='\033[0m' # No Color
+BRIGHT_GREEN='\033[1;32m'
 
 # Read script arguments and flags
 # ===============================
@@ -29,7 +31,6 @@ while [[ "$#" -gt 0 ]]; do
   case $1 in
     -d|--directory) apkDir="$2"; shift ;;
     -c|--cleanup) shouldCleanup=true ;;
-    -s|--spec) deviceSpec="$2"; shift ;;
     *) echo "Unknown argument: $1"; exit 1 ;;
   esac
   shift
@@ -45,8 +46,8 @@ if [ ! -d "$apkDir" ]; then
   exit 1
 fi
 
-# export deviceSpec for device-specific scripts that may need it
-export deviceSpec
+# Create temp dir for device spec
+deviceSpecDir=$(mktemp -d)
 
 # Functions
 # =========
@@ -159,8 +160,8 @@ else
 fi
 
 appId=$(grep 'package=' "$tempExtractDir"/AndroidManifest.xml | sed 's/.*package=\"//g' | sed 's/\".*//g')
-versionName=$(grep 'versionName' "$tempExtractDir"/apktool.yml | awk '{print $2}' | sed "s/'//g")
-versionCode=$(grep 'versionCode' "$tempExtractDir"/apktool.yml | awk '{print $2}' | sed "s/'//g")
+versionName=$(grep 'versionName' "$tempExtractDir"/apktool.yml | awk '{print $2}' | tr -d "'")
+versionCode=$(grep 'versionCode' "$tempExtractDir"/apktool.yml | awk '{print $2}' | tr -d "'")
 
 if [ -z "$appId" ]; then
   echo "appId could not be determined from $apk"
@@ -181,7 +182,65 @@ fi
 workDir="/tmp/test_${appId}_${versionName}"
 export workDir
 
-# Create necessary directories
+# Use only device-spec.json generated 
+if [ -z "$deviceSpec" ]; then
+  echo -e "${BRIGHT_GREEN}We will now generate a device-spec.json file based on the values derived from the apk.${NC}"
+  # Derive supportedAbis from aapt dump badging
+  supportedAbis=$(aapt dump badging "$apk" 2>/dev/null | grep "native-code" | sed 's/.*native-code: //g' | sed 's/\"//g')
+  if [ -z "$supportedAbis" ]; then
+    supportedAbis='["armeabi-v7a"]'
+  else
+    IFS=', ' read -r -a abisArray <<< "$supportedAbis"
+    jsonAbis="["
+    for abi in "${abisArray[@]}"; do
+       jsonAbis+="\"$abi\", "
+    done
+    jsonAbis=$(echo "$jsonAbis" | sed 's/, $//')
+    jsonAbis+="]"
+    supportedAbis="$jsonAbis"
+  fi
+
+  # Derive sdkVersion from aapt dump badging
+  sdkVersion=$(aapt dump badging "$apk" 2>/dev/null | grep "sdkVersion" | head -n1 | sed "s/.*sdkVersion:'\([0-9]*\)'.*/\1/")
+  if [ -z "$sdkVersion" ]; then
+    sdkVersion=31
+  fi
+
+  # Set defaults for supportedLocales and screenDensity
+  supportedLocales='["en"]'
+  screenDensity=280
+
+  echo -e "${BRIGHT_GREEN}The device-spec.json file will have these values:${NC}"
+  echo -e "${BRIGHT_GREEN}{"
+  echo -e "${BRIGHT_GREEN}  \"supportedAbis\": $supportedAbis,"
+  echo -e "${BRIGHT_GREEN}  \"supportedLocales\": $supportedLocales,"
+  echo -e "${BRIGHT_GREEN}  \"screenDensity\": $screenDensity,"
+  echo -e "${BRIGHT_GREEN}  \"sdkVersion\": $sdkVersion"
+  echo -e "${BRIGHT_GREEN}}${NC}"
+  echo -e "${BRIGHT_GREEN}Continue? y/n${NC}"
+  read -r userInput
+  if [ "$userInput" != "y" ]; then
+    echo "Aborting."
+    exit 1
+  fi
+
+  tempSpec="$workDir/device-spec.json"
+  cat > "$tempSpec" <<EOF
+{
+  "supportedAbis": $supportedAbis,
+  "supportedLocales": $supportedLocales,
+  "screenDensity": $screenDensity,
+  "sdkVersion": $sdkVersion
+}
+EOF
+  echo -e "${BRIGHT_GREEN}Generated device spec at $tempSpec:${NC}"
+  cat "$tempSpec"
+  echo -e "${BRIGHT_GREEN}Device spec file path:${NC} $tempSpec"
+  deviceSpec="$tempSpec"
+  export deviceSpec
+fi
+
+# Define and create workDir
 mkdir -p "$workDir/fromPlay-decoded/base"
 mkdir -p "$workDir/fromPlay-unzipped/base"
 
@@ -253,6 +312,7 @@ done
 
 # Begin Results
 echo "===== Begin Results ====="
+echo "APK Signer (SHA-256): $signer"
 
 # Compare hashes of official and built APKs
 echo -e "${YELLOW}*** Comparing Official and Built APKs Hashes ***${NC}"
@@ -341,6 +401,7 @@ echo -e "${GREEN}Process completed.${NC}"
 if [ "$shouldCleanup" = true ]; then
   echo "Cleaning up temporary files..."
   rm -rf "$workDir"
+  rm -rf "$deviceSpecDir"
 fi
 
 echo -e "${GREEN}Process completed.${NC}"

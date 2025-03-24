@@ -13,8 +13,7 @@ updated: 2025-01-09
 version: 2.1.10
 stars: 4.8
 ratings: 
-reviews: 1
-size: 
+reviews: 3
 website: 
 repository: https://github.com/cypherstack/stack_wallet/tags
 issue: https://github.com/cypherstack/stack_wallet/issues/984

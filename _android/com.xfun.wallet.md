@@ -13,16 +13,15 @@ version: 2.0.4
 stars: 3.9
 ratings: 
 reviews: 12
-size: 
 website: https://xfun.io
 repository: 
 issue: 
 icon: com.xfun.wallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-07-22
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: FUNtoken_io

@@ -13,7 +13,6 @@ version: '4.4'
 stars: 4.5
 ratings: 
 reviews: 
-size: 
 website: https://vynkpay.app
 repository: 
 issue: 

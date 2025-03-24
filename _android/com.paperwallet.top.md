@@ -13,16 +13,15 @@ version: 1.0.22
 stars: 4.4
 ratings: 55
 reviews: 4
-size: 
 website: https://github.com/technologiespro/paper-wallet-generator
 repository: https://github.com/technologiespro/paper-wallet-generator
 issue: 
 icon: com.paperwallet.top.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
 appHashes: 
-date: 2023-04-08
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: paperwallettop

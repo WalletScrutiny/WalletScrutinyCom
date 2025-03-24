@@ -12,7 +12,6 @@ updated: 2023-09-27
 version: 1.27.113
 stars: 5
 reviews: 1
-size: '59328512'
 website: https://www.kasta.io
 repository: 
 issue: 

@@ -12,7 +12,6 @@ updated: 2021-10-27
 version: '1.8'
 stars: 0
 reviews: 0
-size: '49003520'
 website: https://blackfort.exchange/
 repository: 
 issue: 

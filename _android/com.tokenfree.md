@@ -12,7 +12,6 @@ version: '2.1'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://tokenfree.net
 repository: 
 issue: 

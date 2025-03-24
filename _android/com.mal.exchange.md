@@ -13,7 +13,6 @@ version: 1.0.50
 stars: 4.2
 ratings: 
 reviews: 34
-size: 
 website: https://mal.io/
 repository: 
 issue: 

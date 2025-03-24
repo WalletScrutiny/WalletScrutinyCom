@@ -12,16 +12,15 @@ updated: 2018-07-30
 version: '1.0'
 stars: 3.7
 reviews: 11
-size: '70871040'
 website: https://coinlib.io
 repository: 
 issue: 
 icon: com.coinlib.coinlib.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2023-03-30
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: coinlibio

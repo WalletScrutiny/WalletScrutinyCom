@@ -12,7 +12,6 @@ version: 3.9.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://tycotrader.com
 repository: 
 issue: 

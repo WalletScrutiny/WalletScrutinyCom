@@ -12,7 +12,6 @@ updated: 2022-08-25
 version: 12.9.27
 stars: 2.2
 reviews: 50
-size: '87969792'
 website: https://www.coin.cloud/
 repository: 
 issue: 

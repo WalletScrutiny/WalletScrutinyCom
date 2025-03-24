@@ -12,7 +12,6 @@ version: 1.0.83
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://mushino.com
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: '1.0'
 stars: 4.5
 ratings: 37
 reviews: 1
-size: 
 website: https://bitcoin-wallet.flycricket.io/
 repository: 
 issue: 

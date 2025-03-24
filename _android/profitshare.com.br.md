@@ -12,7 +12,6 @@ version: 1.0.8
 stars: 4
 ratings: 
 reviews: 
-size: 
 website: https://profitshare.com.br
 repository: 
 issue: 

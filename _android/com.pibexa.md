@@ -12,7 +12,6 @@ version: 0.6.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://pibexa.com/
 repository: 
 issue: 

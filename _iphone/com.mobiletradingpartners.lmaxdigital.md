@@ -12,7 +12,6 @@ updated: 2024-10-26
 version: 5.0.52
 stars: 0
 reviews: 0
-size: '114727936'
 website: https://www.lmax.com/mobile
 repository: 
 issue: 

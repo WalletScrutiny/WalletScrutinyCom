@@ -13,7 +13,6 @@ version: 3.0.9
 stars: 3.4
 ratings: 372
 reviews: 187
-size: 
 website: https://www.modeapp.com
 repository: 
 issue: 

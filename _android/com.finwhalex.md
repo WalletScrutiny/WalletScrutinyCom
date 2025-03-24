@@ -13,13 +13,12 @@ version: VARY
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
 icon: com.finwhalex.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-05-25

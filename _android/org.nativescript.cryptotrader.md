@@ -12,7 +12,6 @@ version: '0.17'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.pipxplosion.com
 repository: 
 issue: 

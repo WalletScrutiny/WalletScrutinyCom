@@ -13,7 +13,6 @@ version: 1.12.3
 stars: 4.6
 ratings: 
 reviews: 
-size: 
 website: http://www.biteeu.com
 repository: 
 issue: 
@@ -31,7 +30,7 @@ social:
 - https://www.instagram.com/biteeu_exchange
 - https://t.me/biteeu_chat
 redirect_from: 
-developerName: BITEEU LTD
+developerName: INTEBIX LTD
 features: 
 
 ---

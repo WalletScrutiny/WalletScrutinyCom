@@ -6,13 +6,12 @@ authors:
 - danny
 appId: com.biboxpro.release
 appCountry: us
-idd: 1505962519
+idd: '1505962519'
 released: 2020-04-08
 updated: 2023-11-02
 version: 5.3.0
 stars: 2
-reviews: 48
-size: '219313152'
+reviews: 50
 website: https://www.bibox.pro
 repository: 
 issue: 

@@ -8,11 +8,10 @@ appId: net.bitstamp
 appCountry: 
 idd: 1406825640
 released: 2019-01-30
-updated: 2025-01-21
-version: 4.4.1
+updated: 2025-03-04
+version: '4.5'
 stars: 4.8
-reviews: 6495
-size: '151267328'
+reviews: 6614
 website: https://www.bitstamp.net/
 repository: 
 issue: 

@@ -13,16 +13,15 @@ version: '1.8'
 stars: 4.3
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
 icon: com.bitmex.quote.lvrggd.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2023-09-04
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: 

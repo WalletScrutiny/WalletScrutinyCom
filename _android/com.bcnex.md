@@ -12,7 +12,6 @@ version: 1.0.0
 stars: 1.6
 ratings: 
 reviews: 
-size: 
 website: https://www.bcnex.net/
 repository: 
 issue: 

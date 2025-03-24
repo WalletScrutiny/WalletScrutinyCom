@@ -13,16 +13,15 @@ version: 2.16.0
 stars: 3.3
 ratings: 
 reviews: 
-size: 
 website: https://www.cryptex24.io
 repository: 
 issue: 
 icon: com.cryptex24.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-12-27
+date: 2025-03-19
 signer: 
 reviewArchive: 
 twitter: 

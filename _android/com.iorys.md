@@ -12,7 +12,6 @@ version: 1.7.14
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 

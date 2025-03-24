@@ -13,7 +13,6 @@ version: 2.3.5
 stars: 3.3
 ratings: 
 reviews: 
-size: 
 website: https://koinkoin.io/
 repository: 
 issue: 

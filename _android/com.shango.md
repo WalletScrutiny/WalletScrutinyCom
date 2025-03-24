@@ -13,7 +13,6 @@ version: Varies with device
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
 website: http://www.shangoapp.com
 repository: 
 issue: https://github.com/neogeno/shango-lightning-wallet/issues/84

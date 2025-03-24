@@ -12,7 +12,6 @@ version: 2.0.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.theoproject.io
 repository: 
 issue: 

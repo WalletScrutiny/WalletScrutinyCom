@@ -13,7 +13,6 @@ version: 2.5.2
 stars: 4.5
 ratings: 291
 reviews: 36
-size: 
 website: https://timopartl.com/Coini
 repository: 
 issue: 

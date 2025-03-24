@@ -12,7 +12,6 @@ updated: 2021-09-01
 version: '2.1'
 stars: 
 reviews: 
-size: 14971904
 website: https://figcoin.online
 repository: 
 issue: 

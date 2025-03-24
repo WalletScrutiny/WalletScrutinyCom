@@ -12,7 +12,6 @@ version: 1.0.2.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://fast-gateway.com/
 repository: 
 issue: 

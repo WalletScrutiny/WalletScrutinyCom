@@ -13,7 +13,6 @@ version: 2024.0905.9712 (d802d97a)
 stars: 4.2
 ratings: 
 reviews: 34
-size: 
 website: https://www.bitunix.com
 repository: 
 issue: 

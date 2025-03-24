@@ -13,7 +13,6 @@ version: 8.7.0
 stars: 3.4
 ratings: 
 reviews: 3
-size: 
 website: https://www.gluwa.com
 repository: 
 issue: 

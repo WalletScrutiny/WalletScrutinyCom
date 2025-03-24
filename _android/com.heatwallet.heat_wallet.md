@@ -12,7 +12,6 @@ version: 1.0.38
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
@@ -27,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Tulipfox
+developerName: Tulipfox-Tech
 features: 
 
 ---

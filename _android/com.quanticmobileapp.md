@@ -12,7 +12,6 @@ version: 2.0.37
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://quan-tic.com
 repository: 
 issue: 

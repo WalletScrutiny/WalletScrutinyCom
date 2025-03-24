@@ -12,7 +12,6 @@ version: 5.5.0_push_v2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.365excoin.com
 repository: 
 issue: 

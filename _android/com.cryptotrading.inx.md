@@ -13,7 +13,6 @@ version: 2.0.10
 stars: 4.5
 ratings: 
 reviews: 17
-size: 
 website: https://www.inx.co
 repository: 
 issue: 

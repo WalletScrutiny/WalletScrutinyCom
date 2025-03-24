@@ -13,7 +13,6 @@ version: 8.1.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://technoprepay.com
 repository: 
 issue: 

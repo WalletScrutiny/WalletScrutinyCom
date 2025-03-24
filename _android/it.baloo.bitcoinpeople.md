@@ -12,7 +12,6 @@ version: 3.4.8
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.bitcoinpeople.it
 repository: 
 issue: 

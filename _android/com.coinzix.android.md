@@ -13,7 +13,6 @@ version: '1.96'
 stars: 4.4
 ratings: 
 reviews: 4
-size: 
 website: https://www.coinzix.com
 repository: 
 issue: 

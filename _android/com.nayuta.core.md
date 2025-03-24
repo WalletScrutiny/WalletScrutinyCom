@@ -13,7 +13,6 @@ version: Varies with device
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
 website: https://nayuta.co/core/
 repository: https://github.com/nayutaco/NayutaCore
 issue: 

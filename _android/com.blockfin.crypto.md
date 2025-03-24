@@ -12,7 +12,6 @@ version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.wallstbulls.ai
 repository: 
 issue: 

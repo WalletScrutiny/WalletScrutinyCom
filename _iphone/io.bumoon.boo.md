@@ -12,7 +12,6 @@ updated: 2022-10-15
 version: 3.0.3
 stars: 0
 reviews: 0
-size: '104261632'
 website: https://bobablocks.io
 repository: 
 issue: 

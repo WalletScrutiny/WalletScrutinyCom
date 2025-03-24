@@ -13,7 +13,6 @@ version: 1.0.1
 stars: 3.2
 ratings: 
 reviews: 4
-size: 
 website: https://coinlib.io
 repository: 
 issue: 

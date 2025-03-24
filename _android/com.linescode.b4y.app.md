@@ -12,7 +12,6 @@ version: 1.0.22
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.bank4you.life
 repository: 
 issue: 

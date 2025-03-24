@@ -12,7 +12,6 @@ version: 1.1.5
 stars: 4.1
 ratings: 
 reviews: 
-size: 
 website: https://ex.tcapex.com/
 repository: 
 issue: 

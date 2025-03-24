@@ -15,6 +15,7 @@ twitter: MathWallet
 providerWebsite: https://mathwallet.org
 meta: ok
 verdict: nosource
+social: 
 
 ---
 

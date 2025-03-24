@@ -12,17 +12,16 @@ updated: 2021-08-20
 version: '2.2'
 stars: 4
 ratings: 
-reviews: 17
-size: 
+reviews: 18
 website: https://orbitnetwork.com/
 repository: 
 issue: 
 icon: com.orbitnetwork.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosendreceive
 appHashes: 
-date: 2023-08-15
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: 

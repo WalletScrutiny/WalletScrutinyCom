@@ -12,7 +12,6 @@ version: 1.4.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.unicornx.exchange/
 repository: 
 issue: 

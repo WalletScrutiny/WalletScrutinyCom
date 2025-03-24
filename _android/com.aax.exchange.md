@@ -13,7 +13,6 @@ version: 3.3.7
 stars: 3.8
 ratings: 3299
 reviews: 89
-size: 
 website: https://www.aax.com/
 repository: 
 issue: 

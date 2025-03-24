@@ -13,7 +13,6 @@ version: '1.0'
 stars: 4
 ratings: 151
 reviews: 20
-size: 
 website: http://cryptocurrency-exchange.site
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 1.0.33
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://hotx.pro/en/home
 repository: 
 issue: 

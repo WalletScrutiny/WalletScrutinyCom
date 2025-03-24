@@ -13,7 +13,6 @@ version: '1.33'
 stars: 3.9
 ratings: 11
 reviews: 10
-size: 8.4M
 website: https://pungowallet.com
 repository: 
 issue: 

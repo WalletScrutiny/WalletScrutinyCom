@@ -13,7 +13,6 @@ version: 3.0.0
 stars: 3.7
 ratings: 5474
 reviews: 428
-size: 
 website: https://jaxx.io
 repository: 
 issue: 

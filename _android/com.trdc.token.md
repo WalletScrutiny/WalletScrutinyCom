@@ -12,7 +12,6 @@ version: 1.0.9
 stars: 4.6
 ratings: 
 reviews: 7
-size: 
 website: https://trdctoken.com
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 2.5.8
 stars: 3.2
 ratings: 164
 reviews: 98
-size: 13M
 website: https://www.coinsuper.com/
 repository: 
 issue: 

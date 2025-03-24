@@ -13,7 +13,6 @@ version: 1.2.9
 stars: 4.9
 ratings: 7592
 reviews: 229
-size: 
 website: https://www.everus.org
 repository: 
 issue: 

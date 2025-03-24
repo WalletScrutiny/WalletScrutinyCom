@@ -12,7 +12,6 @@ version: v5.0
 stars: 3.7
 ratings: 87
 reviews: 2
-size: 
 website: 
 repository: 
 issue: 

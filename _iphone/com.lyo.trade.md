@@ -12,7 +12,6 @@ updated: 2023-03-14
 version: 1.8.0
 stars: 0
 reviews: 0
-size: '52244480'
 website: https://www.lyotrade.com/
 repository: 
 issue: 

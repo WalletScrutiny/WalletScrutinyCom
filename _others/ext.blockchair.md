@@ -14,6 +14,7 @@ provider: Blockchair
 providerWebsite: https://blockchair.com
 meta: ok
 verdict: wip
+social: 
 
 ---
 

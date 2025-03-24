@@ -12,7 +12,6 @@ version: 0.0.3
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://swappy.finance
 repository: 
 issue: 

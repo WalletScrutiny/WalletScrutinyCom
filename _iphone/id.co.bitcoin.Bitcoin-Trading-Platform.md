@@ -12,7 +12,6 @@ updated: 2022-06-29
 version: 3.3.6
 stars: 4.5
 reviews: 8
-size: '138542080'
 website: https://indodax.com
 repository: 
 issue: 

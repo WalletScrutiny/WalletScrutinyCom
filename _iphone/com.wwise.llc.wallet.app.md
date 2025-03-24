@@ -12,7 +12,6 @@ updated: 2021-07-04
 version: 2.6.4
 stars: 0
 reviews: 0
-size: '91015168'
 website: https://wise.win
 repository: 
 issue: 

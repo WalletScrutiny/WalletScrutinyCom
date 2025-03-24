@@ -13,7 +13,6 @@ version: 1.1.41
 stars: 4
 ratings: 883
 reviews: 88
-size: 
 website: https://www.dowallet.app/
 repository: 
 issue: 

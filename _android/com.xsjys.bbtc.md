@@ -13,7 +13,6 @@ version: 1.5.6
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.cd-ex.com/index
 repository: 
 issue: 

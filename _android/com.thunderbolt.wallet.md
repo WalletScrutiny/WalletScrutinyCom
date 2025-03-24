@@ -12,7 +12,6 @@ version: 1.0.3
 stars: 4.1
 ratings: 
 reviews: 33
-size: 
 website: https://thunderboltwallet.us
 repository: 
 issue: 

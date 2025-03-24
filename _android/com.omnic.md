@@ -12,7 +12,6 @@ version: 1.0.81
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://omnic.website/innovation
 repository: 
 issue: 

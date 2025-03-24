@@ -12,7 +12,6 @@ version: 4.0.8
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.xinbipro.com/
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 2.0.4
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://ivendpay.com
 repository: 
 issue: 

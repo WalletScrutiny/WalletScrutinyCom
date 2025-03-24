@@ -13,7 +13,6 @@ version: 1.2.9
 stars: 
 ratings: 
 reviews: 
-size: 18M
 website: https://wallet.io/
 repository: 
 issue: 

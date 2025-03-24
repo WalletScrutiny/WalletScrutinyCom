@@ -13,7 +13,6 @@ version: 3.1.29
 stars: 3.5
 ratings: 5765
 reviews: 11
-size: 
 website: https://bitay.com.tr
 repository: 
 issue: 

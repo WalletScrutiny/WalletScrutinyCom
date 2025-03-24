@@ -12,7 +12,6 @@ version: 1.4.2
 stars: 4.3
 ratings: 106
 reviews: 58
-size: 80M
 website: https://utrust.com
 repository: 
 issue: 

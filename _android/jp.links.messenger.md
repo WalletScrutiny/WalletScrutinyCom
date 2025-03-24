@@ -13,7 +13,6 @@ version: 1.35.9
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://getlinks.jp
 repository: 
 issue: 

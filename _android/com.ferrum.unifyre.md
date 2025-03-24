@@ -13,7 +13,6 @@ version: 0.0.19
 stars: 4.7
 ratings: 103
 reviews: 10
-size: 
 website: https://unifyre.io
 repository: 
 issue: 

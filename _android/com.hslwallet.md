@@ -12,7 +12,6 @@ version: 7.7.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.hamilton-systems.io
 repository: 
 issue: 

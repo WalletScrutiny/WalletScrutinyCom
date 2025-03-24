@@ -13,16 +13,15 @@ version: 1.6.90
 stars: 3.9
 ratings: 
 reviews: 5
-size: 
 website: https://www.vibra.one/
 repository: 
 issue: 
 icon: com.abl.vibra.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-06-23
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: VibraAfrica

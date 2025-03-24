@@ -13,7 +13,6 @@ version: 1.0.11
 stars: 3.9
 ratings: 
 reviews: 43
-size: 
 website: https://www.cryptorefills.com
 repository: 
 issue: 

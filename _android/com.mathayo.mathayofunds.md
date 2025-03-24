@@ -12,7 +12,6 @@ version: 3.0.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://mathayofunds.com/
 repository: 
 issue: 

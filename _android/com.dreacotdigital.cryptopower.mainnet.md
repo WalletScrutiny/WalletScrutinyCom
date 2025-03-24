@@ -13,7 +13,6 @@ version: 2.1.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://cryptopower.dev/
 repository: https://github.com/crypto-power/cryptopower/releases
 issue: https://github.com/crypto-power/cryptopower/issues/448

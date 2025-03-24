@@ -12,7 +12,6 @@ version: '2'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://profxmining.com
 repository: 
 issue: 

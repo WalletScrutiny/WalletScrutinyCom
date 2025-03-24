@@ -13,7 +13,6 @@ version: 1.1.2
 stars: 3.2
 ratings: 
 reviews: 6
-size: 
 website: https://moonfarm.finance
 repository: 
 issue: 

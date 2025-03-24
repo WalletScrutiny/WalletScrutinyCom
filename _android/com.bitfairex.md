@@ -12,7 +12,6 @@ version: 1.2.3 Release
 stars: 4.7
 ratings: 
 reviews: 
-size: 
 website: https://bitfairex.com
 repository: 
 issue: 

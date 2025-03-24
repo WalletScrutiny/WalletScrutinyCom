@@ -15,7 +15,6 @@ version: 0.9.2
 stars: 3.9
 ratings: 
 reviews: 9
-size: 
 website: https://atomicdex.io
 repository: https://github.com/KomodoPlatform/komodo-wallet-mobile
 issue: https://github.com/KomodoPlatform/komodo-wallet-mobile/issues/157

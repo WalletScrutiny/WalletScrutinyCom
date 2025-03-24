@@ -13,7 +13,6 @@ version: 1.194.00
 stars: 4.3
 ratings: 35079
 reviews: 111
-size: 
 website: http://latoken.com
 repository: 
 issue: 

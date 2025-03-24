@@ -13,7 +13,6 @@ version: 1.9.124
 stars: 3.9
 ratings: 1035
 reviews: 14
-size: 
 website: https://farhadmarket.com/
 repository: 
 issue: 

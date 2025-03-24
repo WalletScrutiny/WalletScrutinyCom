@@ -13,7 +13,6 @@ version: 1.35.0
 stars: 2.6
 ratings: 
 reviews: 
-size: 
 website: https://gleecbtc.com/
 repository: 
 issue: 

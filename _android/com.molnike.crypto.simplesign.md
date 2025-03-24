@@ -12,16 +12,15 @@ version: '0.6'
 stars: 5
 ratings: 
 reviews: 
-size: 
 website: https://github.com/openMolNike/Crypto-Apps
 repository: 
 issue: 
 icon: com.molnike.crypto.simplesign.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
 appHashes: 
-date: 2024-03-07
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: 

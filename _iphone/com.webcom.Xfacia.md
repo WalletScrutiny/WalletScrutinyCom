@@ -12,7 +12,6 @@ updated: 2022-12-21
 version: '4.1'
 stars: 0
 reviews: 0
-size: '82309120'
 website: https://xfacia.com/
 repository: 
 issue: 

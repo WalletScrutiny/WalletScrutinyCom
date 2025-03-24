@@ -12,7 +12,6 @@ updated: 2023-04-27
 version: 1.1.2
 stars: 1
 reviews: 2
-size: '144814080'
 website: https://www.idax.exchange
 repository: 
 issue: 

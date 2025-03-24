@@ -13,7 +13,6 @@ version: 1.8.0
 stars: 4.4
 ratings: 
 reviews: 5
-size: 
 website: https://coinid.org
 repository: https://github.com/COINiD/COINiDWallet
 issue: https://github.com/COINiD/COINiDWallet/issues/24

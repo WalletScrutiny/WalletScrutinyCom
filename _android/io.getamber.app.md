@@ -13,7 +13,6 @@ version: 5.5.3
 stars: 4.4
 ratings: 
 reviews: 26
-size: 
 website: http://amber.app
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 3.9.3
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.bnbex.co/
 repository: 
 issue: 

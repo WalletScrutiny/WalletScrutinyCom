@@ -8,12 +8,11 @@ appId: com.coinomi.wallet
 appCountry: 
 idd: 1333588809
 released: 2018-03-22
-updated: 2025-01-30
-version: 1.50.0
+updated: 2025-02-23
+version: 1.50.3
 stars: 4.5
-reviews: 1927
-size: '158939136'
-website: https://www.coinomi.com
+reviews: 1942
+website: https://www.coinomi.com/en/about/
 repository: 
 issue: 
 icon: com.coinomi.wallet.jpg
@@ -30,7 +29,7 @@ social:
 - https://www.facebook.com/coinomi
 - https://www.reddit.com/r/COINOMI
 features: 
-developerName: Coinomi Limited
+developerName: Loksias SA
 
 ---
 

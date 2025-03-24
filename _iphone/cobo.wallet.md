@@ -6,13 +6,12 @@ authors:
 - leo
 appId: cobo.wallet
 appCountry: 
-idd: 1406282615
+idd: '1406282615'
 released: 2018-08-05
 updated: 2025-01-07
 version: 5.19.15
 stars: 2.8
 reviews: 6
-size: '82910208'
 website: https://cobo.com
 repository: 
 issue: 

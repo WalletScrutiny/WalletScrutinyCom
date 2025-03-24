@@ -12,7 +12,6 @@ version: '12.08'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.kingmax.com
 repository: 
 issue: 

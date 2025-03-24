@@ -13,7 +13,6 @@ version: 1.8.0
 stars: 3
 ratings: 2041
 reviews: 1584
-size: 53M
 website: https://www.quidax.com
 repository: 
 issue: 

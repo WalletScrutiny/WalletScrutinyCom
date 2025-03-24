@@ -12,16 +12,15 @@ version: VARY
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://github.com/thunderbiscuit/padawan-wallet
 repository: 
 issue: 
 icon: com.goldenraven.padawanwallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2023-06-02
+date: 2025-02-28
 signer: 
 reviewArchive: 
 twitter: 

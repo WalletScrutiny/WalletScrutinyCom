@@ -13,7 +13,6 @@ version: 4.1.4
 stars: 2.9
 ratings: 187
 reviews: 9
-size: 
 website: http://blocktrade.com
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 1.1.4
 stars: 3.5
 ratings: 
 reviews: 
-size: 
 website: https://kryptobot.net
 repository: 
 issue: 

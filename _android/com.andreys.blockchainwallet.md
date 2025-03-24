@@ -12,7 +12,6 @@ version: '21'
 stars: 4.6
 ratings: 1374
 reviews: 362
-size: 12M
 website: 
 repository: 
 issue: 

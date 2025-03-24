@@ -12,7 +12,6 @@ version: '1.10'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://julienfer.github.io/app
 repository: 
 issue: 

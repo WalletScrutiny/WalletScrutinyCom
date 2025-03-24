@@ -13,7 +13,6 @@ version: '0.3'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.f-x5.com
 repository: 
 issue: 

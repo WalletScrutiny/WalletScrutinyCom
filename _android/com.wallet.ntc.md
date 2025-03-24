@@ -12,7 +12,6 @@ version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://wallet.ntcrypto.net
 repository: 
 issue: 

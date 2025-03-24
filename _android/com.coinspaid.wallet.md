@@ -13,7 +13,6 @@ version: 0.9.6
 stars: 3
 ratings: 
 reviews: 2
-size: 
 website: https://coinspaid.com
 repository: 
 issue: 

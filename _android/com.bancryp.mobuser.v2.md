@@ -13,16 +13,15 @@ version: 1.6.0
 stars: 3.7
 ratings: 
 reviews: 
-size: 
 website: http://bancryp.com
 repository: 
 issue: 
 icon: com.bancryp.mobuser.v2.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-04-09
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: 

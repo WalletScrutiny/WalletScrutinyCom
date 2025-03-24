@@ -12,16 +12,15 @@ updated: 2023-02-01
 version: 1.4.2
 stars: 4.1
 reviews: 7
-size: '89378816'
 website: http://bitberry.app
 repository: 
 issue: 
 icon: com.rootone.bitberry.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-01-27
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: 

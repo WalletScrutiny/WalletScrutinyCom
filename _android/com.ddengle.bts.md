@@ -13,13 +13,12 @@ version: 1.1.9
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.youbit.co.kr
 repository: 
 issue: 
 icon: com.ddengle.bts.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2021-08-17

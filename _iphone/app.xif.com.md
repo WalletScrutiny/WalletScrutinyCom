@@ -12,7 +12,6 @@ updated: 2021-06-15
 version: 5.2.2b270
 stars: 5
 reviews: 1
-size: '75549696'
 website: http://www.xinfinity.io/
 repository: 
 issue: 

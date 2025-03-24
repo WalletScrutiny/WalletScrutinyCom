@@ -1,6 +1,6 @@
 ---
 wsId: pointpay
-title: 'PointPay: Blockchain Wallet'
+title: PointPay・Cryptocurrency Wallet
 altTitle: 
 authors:
 - kiwilamb
@@ -9,11 +9,10 @@ appId: com.pointpayio.PointPayBank
 appCountry: 
 idd: 1512836089
 released: 2020-07-30
-updated: 2025-02-03
-version: 8.8.46
+updated: 2025-03-18
+version: 8.8.51
 stars: 4.6
-reviews: 692
-size: '44305408'
+reviews: 690
 website: https://wallet.pointpay.io
 repository: 
 issue: 

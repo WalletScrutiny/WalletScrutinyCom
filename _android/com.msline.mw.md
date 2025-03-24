@@ -13,7 +13,6 @@ version: 2.3.3
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://x-widget.org/
 repository: 
 issue: 

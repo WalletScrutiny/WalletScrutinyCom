@@ -13,7 +13,6 @@ version: 1.1.16
 stars: 5
 ratings: 
 reviews: 3
-size: 
 website: http://www.zenapay.com
 repository: 
 issue: 

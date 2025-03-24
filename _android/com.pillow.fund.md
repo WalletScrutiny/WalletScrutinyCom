@@ -13,7 +13,6 @@ version: '4.0'
 stars: 4.3
 ratings: 
 reviews: 68
-size: 
 website: https://www.pillow.fund/
 repository: 
 issue: 

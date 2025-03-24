@@ -13,7 +13,6 @@ version: 3.0.9
 stars: 2.2
 ratings: 429
 reviews: 12
-size: 
 website: https://trade.mn
 repository: 
 issue: 

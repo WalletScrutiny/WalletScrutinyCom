@@ -12,7 +12,6 @@ updated: 2024-12-18
 version: '1.238'
 stars: 2.8
 reviews: 15
-size: '11413504'
 website: http://www.btcbox.co.jp
 repository: 
 issue: 

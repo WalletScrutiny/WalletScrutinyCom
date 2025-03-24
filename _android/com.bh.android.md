@@ -13,7 +13,6 @@ version: 4.2.2
 stars: 3.9
 ratings: 58
 reviews: 21
-size: 36M
 website: https://bhex.co
 repository: 
 issue: 

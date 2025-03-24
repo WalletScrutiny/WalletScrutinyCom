@@ -12,7 +12,6 @@ version: '1.0'
 stars: 1.7
 ratings: 
 reviews: 4
-size: 
 website: https://stormprofit.trade/
 repository: 
 issue: 

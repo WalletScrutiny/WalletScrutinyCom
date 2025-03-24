@@ -12,7 +12,6 @@ version: 1.44.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://nearpay.co/
 repository: 
 issue: 

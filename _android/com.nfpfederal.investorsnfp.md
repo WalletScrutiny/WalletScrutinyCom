@@ -12,7 +12,6 @@ version: '1.0'
 stars: 2.5
 ratings: 
 reviews: 
-size: 
 website: https://nfpfederal.com
 repository: 
 issue: 

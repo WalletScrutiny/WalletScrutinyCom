@@ -13,7 +13,6 @@ version: 2.1.50
 stars: 3.8
 ratings: 
 reviews: 
-size: 
 website: https://www.iforexcrypto.com
 repository: 
 issue: 

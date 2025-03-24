@@ -12,7 +12,6 @@ version: 1.0.1
 stars: 4.4
 ratings: 119
 reviews: 14
-size: 
 website: http://Bitcoin.org
 repository: 
 issue: 

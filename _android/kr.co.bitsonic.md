@@ -13,13 +13,12 @@ version: 1.9.6
 stars: 2.2
 ratings: 1533
 reviews: 3
-size: 
 website: http://bitsonic.co.kr
 repository: 
 issue: 
 icon: kr.co.bitsonic.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2021-10-13

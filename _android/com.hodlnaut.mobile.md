@@ -13,13 +13,12 @@ version: 1.4.15
 stars: 4.3
 ratings: 
 reviews: 76
-size: 
 website: https://www.hodlnaut.com
 repository: 
 issue: 
 icon: com.hodlnaut.mobile.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 appHashes: 
 date: 2023-04-07

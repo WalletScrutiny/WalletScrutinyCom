@@ -13,7 +13,6 @@ version: 79.0.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://yusetoken.io/
 repository: 
 issue: 

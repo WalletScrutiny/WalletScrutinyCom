@@ -13,7 +13,6 @@ version: 1.6.106
 stars: 3.9
 ratings: 
 reviews: 
-size: 
 website: https://abstocks.com
 repository: 
 issue: 

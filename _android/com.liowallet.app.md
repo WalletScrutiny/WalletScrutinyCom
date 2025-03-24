@@ -13,7 +13,6 @@ version: '3.0'
 stars: 4.5
 ratings: 
 reviews: 
-size: 
 website: https://www.lio-coin.eu/
 repository: 
 issue: 

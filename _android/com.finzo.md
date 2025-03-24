@@ -13,7 +13,6 @@ version: '1.3'
 stars: 4.2
 ratings: 76
 reviews: 66
-size: 23M
 website: https://finzomarkets.com/
 repository: 
 issue: 

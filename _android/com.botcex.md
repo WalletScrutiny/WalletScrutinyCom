@@ -12,7 +12,6 @@ version: '1.3'
 stars: 2.2
 ratings: 
 reviews: 
-size: 
 website: https://www.botcex.com
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 1.2.2
 stars: 2.6
 ratings: 367
 reviews: 7
-size: 
 website: https://dtrax.io
 repository: 
 issue: 

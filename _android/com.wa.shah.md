@@ -13,7 +13,6 @@ version: '2.8'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://shahofcrypto.com/
 repository: 
 issue: 

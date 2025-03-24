@@ -12,7 +12,6 @@ version: '1.1'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.Mob1Apps.com
 repository: 
 issue: 

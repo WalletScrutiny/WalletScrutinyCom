@@ -13,7 +13,6 @@ version: '1.0'
 stars: 3.9
 ratings: 135
 reviews: 70
-size: 4.3M
 website: https://www.star-clicks.com/
 repository: 
 issue: 

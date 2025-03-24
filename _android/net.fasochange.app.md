@@ -13,7 +13,6 @@ version: 1.6.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://fasochange.net
 repository: 
 issue: 

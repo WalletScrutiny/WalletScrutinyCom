@@ -13,7 +13,6 @@ version: 4.2.1
 stars: 4
 ratings: 4012
 reviews: 2460
-size: 51M
 website: https://www.atoken.com
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 1.1.12
 stars: 5
 ratings: 
 reviews: 
-size: 
 website: https://x-wallet.io
 repository: 
 issue: 

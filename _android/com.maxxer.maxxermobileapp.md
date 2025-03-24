@@ -12,7 +12,6 @@ version: 1.0.28
 stars: 3
 ratings: 
 reviews: 
-size: 
 website: https://www.maxxer.com
 repository: 
 issue: 

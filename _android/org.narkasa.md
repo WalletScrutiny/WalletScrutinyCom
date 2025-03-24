@@ -13,7 +13,6 @@ version: '1.27'
 stars: 3.5
 ratings: 
 reviews: 
-size: 
 website: https://narkasa.com
 repository: 
 issue: 

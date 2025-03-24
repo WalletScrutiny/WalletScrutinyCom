@@ -12,7 +12,6 @@ updated: 2023-03-25
 version: 2.5.2
 stars: 3.3
 reviews: 3
-size: '55870464'
 website: https://muna.app
 repository: 
 issue: 

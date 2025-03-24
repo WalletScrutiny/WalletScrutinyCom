@@ -12,16 +12,15 @@ version: 1.7.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://monetum.com/quick-trade
 repository: 
 issue: 
 icon: com.monetum.quicktrade.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
 appHashes: 
-date: 2024-03-19
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: 

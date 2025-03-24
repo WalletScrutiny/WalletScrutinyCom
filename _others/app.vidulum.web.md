@@ -9,6 +9,7 @@ website: https://wallet.vidulum.app
 twitter: VidulumApp
 meta: ok
 verdict: wip
+social: 
 
 ---
 

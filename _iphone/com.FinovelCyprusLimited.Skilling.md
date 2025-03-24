@@ -6,13 +6,12 @@ authors:
 - danny
 appId: com.FinovelCyprusLimited.Skilling
 appCountry: in
-idd: 1441386723
+idd: '1441386723'
 released: 2019-05-30
 updated: 2024-09-02
 version: 2.5.6
 stars: 4.5
 reviews: 11
-size: '20139008'
 website: https://skilling.com
 repository: 
 issue: 

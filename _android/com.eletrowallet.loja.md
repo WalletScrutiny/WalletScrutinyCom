@@ -12,7 +12,6 @@ version: '1.1'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://eletrowallet.com
 repository: 
 issue: 

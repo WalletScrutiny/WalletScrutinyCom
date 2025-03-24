@@ -12,7 +12,6 @@ version: 1.1.8
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.turinlabs.com/turinwallet
 repository: 
 issue: 

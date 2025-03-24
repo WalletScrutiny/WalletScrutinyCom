@@ -13,7 +13,6 @@ version: 0.1.36
 stars: 3.8
 ratings: 
 reviews: 16
-size: 
 website: https://thebitcoincompany.com
 repository: 
 issue: 

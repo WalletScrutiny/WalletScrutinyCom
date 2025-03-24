@@ -13,7 +13,6 @@ version: 0.1.65
 stars: 3.6
 ratings: 771
 reviews: 37
-size: 
 website: https://www.localbitcoins.com
 repository: 
 issue: 

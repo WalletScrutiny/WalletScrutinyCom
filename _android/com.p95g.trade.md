@@ -12,7 +12,6 @@ version: 1.5.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.p95g.com
 repository: 
 issue: 

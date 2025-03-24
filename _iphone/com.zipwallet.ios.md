@@ -12,7 +12,6 @@ updated: 2021-09-05
 version: '69'
 stars: 1
 reviews: 1
-size: 59897856
 website: https://zipwalletpay.com
 repository: 
 issue: 

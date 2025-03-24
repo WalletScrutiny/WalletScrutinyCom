@@ -12,7 +12,6 @@ version: VARY
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://coinstradecenter.com/
 repository: 
 issue: 

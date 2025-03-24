@@ -12,7 +12,6 @@ version: '2.0'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://bitcoin-hubs.com
 repository: 
 issue: 

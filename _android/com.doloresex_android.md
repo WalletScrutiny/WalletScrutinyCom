@@ -12,7 +12,6 @@ version: 2.5.5
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://ix.com
 repository: 
 issue: 

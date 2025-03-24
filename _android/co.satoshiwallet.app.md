@@ -12,7 +12,6 @@ version: 2.1.3
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
 website: https://satoshipoint.io
 repository: https://github.com/SatoshiWallet/ui
 issue: 

@@ -12,7 +12,6 @@ updated: 2024-11-28
 version: '4.4'
 stars: 4.6
 reviews: 21
-size: '28685312'
 website: https://tokero.com
 repository: 
 issue: 

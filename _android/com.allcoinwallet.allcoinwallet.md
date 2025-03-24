@@ -13,13 +13,12 @@ version: 1.2.22
 stars: 4.3
 ratings: 105
 reviews: 1
-size: 
 website: http://www.allcoinwallet.com
 repository: 
 issue: 
 icon: com.allcoinwallet.allcoinwallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2021-08-09

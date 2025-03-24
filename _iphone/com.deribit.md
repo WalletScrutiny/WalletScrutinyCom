@@ -12,7 +12,6 @@ updated: 2025-02-04
 version: 3.13.0
 stars: 5
 reviews: 4
-size: '48648192'
 website: http://www.deribit.com
 repository: 
 issue: 

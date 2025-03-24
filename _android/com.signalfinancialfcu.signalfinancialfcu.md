@@ -13,7 +13,6 @@ version: 4013.0.2
 stars: 4.8
 ratings: 
 reviews: 21
-size: 
 website: https://www.signalfinancialfcu.org/locations/
 repository: 
 issue: 

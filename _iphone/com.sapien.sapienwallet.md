@@ -12,16 +12,15 @@ updated: 2024-03-15
 version: '1.27'
 stars: 5
 reviews: 2
-size: '178416640'
 website: https://sapienwallet.com/
 repository: 
 issue: 
 icon: com.sapien.sapienwallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
 appHashes: 
-date: 2021-11-10
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: 

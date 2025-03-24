@@ -1,6 +1,6 @@
 ---
 wsId: CoinJar
-title: 'CoinJar: Buy Bitcoin Instantly'
+title: 'CoinJar: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,11 @@ appId: com.coinjar.mobius
 appCountry: au
 idd: 958797429
 released: 2015-02-04
-updated: 2025-01-30
-version: 3.11.0
+updated: 2025-03-12
+version: 3.15.0
 stars: 4.7
-reviews: 14511
-size: '68654080'
-website: https://www.coinjar.com
+reviews: 14633
+website: https://www.coinjar.com/au
 repository: 
 issue: 
 icon: com.coinjar.mobius.jpg

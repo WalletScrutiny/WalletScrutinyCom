@@ -12,7 +12,6 @@ updated: 2023-03-29
 version: 1.0.2
 stars: 2.3
 reviews: 3
-size: '78703616'
 website: https://dexfin.com
 repository: 
 issue: 

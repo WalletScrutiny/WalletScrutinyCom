@@ -12,16 +12,15 @@ version: 1.2.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.viv.com/
 repository: 
 issue: 
 icon: com.uecent.viv.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2024-11-13
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: 

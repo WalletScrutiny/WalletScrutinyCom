@@ -13,7 +13,6 @@ version: 1.3.34
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://dtswallet.io
 repository: 
 issue: 

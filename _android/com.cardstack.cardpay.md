@@ -13,16 +13,15 @@ version: 1.2.0
 stars: 4.2
 ratings: 
 reviews: 4
-size: 
 website: https://www.cardstack.com/cardpay
 repository: 
 issue: 
 icon: com.cardstack.cardpay.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nobtc
 appHashes: 
-date: 2024-02-12
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: cardstack

@@ -12,16 +12,15 @@ version: clubman
 stars: 4.3
 ratings: 
 reviews: 
-size: 
 website: https://getfexr.com
 repository: 
 issue: 
 icon: com.getfexr.core.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2023-06-03
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: 

@@ -10,9 +10,8 @@ idd: '1658699963'
 released: 2023-02-08
 updated: 2024-07-17
 version: '1.35'
-stars: 4
-reviews: 5
-size: '58434560'
+stars: 4.2
+reviews: 6
 website: https://arcticwallet.io/
 repository: 
 issue: 

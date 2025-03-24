@@ -13,7 +13,6 @@ version: 1.5.0
 stars: 3.3
 ratings: 
 reviews: 10
-size: 
 website: https://risingcoin.io
 repository: 
 issue: 

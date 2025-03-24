@@ -13,7 +13,6 @@ version: '6.7'
 stars: 3.8
 ratings: 
 reviews: 2
-size: 
 website: https://betconix.com/
 repository: 
 issue: 

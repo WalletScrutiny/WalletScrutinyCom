@@ -13,7 +13,6 @@ version: 2.0.3
 stars: 2.8
 ratings: 
 reviews: 11
-size: 
 website: https://koinbasket.com
 repository: 
 issue: 

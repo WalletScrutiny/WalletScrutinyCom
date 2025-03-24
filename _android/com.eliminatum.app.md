@@ -13,7 +13,6 @@ version: 8.0.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://elly.com
 repository: 
 issue: 

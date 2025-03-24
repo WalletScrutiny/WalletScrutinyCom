@@ -12,7 +12,6 @@ version: 3.5.8
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://quintex.io
 repository: 
 issue: 

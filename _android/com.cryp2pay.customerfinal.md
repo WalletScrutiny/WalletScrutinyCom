@@ -12,7 +12,6 @@ version: '1.5'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://cryp2.in
 repository: 
 issue: 

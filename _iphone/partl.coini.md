@@ -12,7 +12,6 @@ updated: 2023-02-27
 version: 2.4.44
 stars: 4.7
 reviews: 13
-size: '60293120'
 website: https://timopartl.com
 repository: 
 issue: 

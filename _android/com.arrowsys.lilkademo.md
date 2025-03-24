@@ -13,7 +13,6 @@ version: 3.1.4
 stars: 4.4
 ratings: 217
 reviews: 51
-size: 
 website: http://www.arrowsys.cz
 repository: 
 issue: 

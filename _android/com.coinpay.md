@@ -14,7 +14,6 @@ version: 1.0.7
 stars: 3.2
 ratings: 29
 reviews: 15
-size: 
 website: https://www.coinpayapp.com
 repository: 
 issue: 

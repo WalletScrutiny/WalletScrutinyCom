@@ -13,7 +13,6 @@ version: 4.24.14
 stars: 3.6
 ratings: 10676
 reviews: 593
-size: 
 website: https://klever.org/
 repository: 
 issue: 

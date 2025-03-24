@@ -13,7 +13,6 @@ version: 2.1.15
 stars: 4.8
 ratings: 110
 reviews: 8
-size: 
 website: http://www.belfrics.io
 repository: 
 issue: 

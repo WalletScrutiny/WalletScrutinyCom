@@ -12,7 +12,6 @@ updated: 2025-02-01
 version: 4.0.0
 stars: 0
 reviews: 0
-size: '30753792'
 website: https://blockchainmint.com
 repository: 
 issue: 

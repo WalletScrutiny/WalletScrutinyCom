@@ -12,7 +12,6 @@ version: 0.3.6
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://payscript.io
 repository: 
 issue: 

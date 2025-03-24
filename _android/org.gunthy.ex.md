@@ -12,7 +12,6 @@ version: 1.26.0
 stars: 4
 ratings: 
 reviews: 
-size: 
 website: https://gunthy.org
 repository: 
 issue: 

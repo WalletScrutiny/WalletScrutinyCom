@@ -13,7 +13,6 @@ version: '2.2'
 stars: 4.1
 ratings: 109
 reviews: 25
-size: 
 website: https://metrixcoin.com/
 repository: 
 issue: 

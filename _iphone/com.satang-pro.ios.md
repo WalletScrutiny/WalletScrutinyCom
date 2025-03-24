@@ -12,7 +12,6 @@ updated: 2023-10-19
 version: 1.6.0
 stars: 3.7
 reviews: 6
-size: '189938688'
 website: https://satangcorp.com
 repository: 
 issue: 

@@ -9,6 +9,7 @@ website: https://wallet.swiftcash.cc
 twitter: swiftcashcc
 meta: ok
 verdict: wip
+social: 
 
 ---
 

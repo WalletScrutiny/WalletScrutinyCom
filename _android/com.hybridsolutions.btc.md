@@ -13,7 +13,6 @@ version: 1.2.1.10
 stars: 4.6
 ratings: 
 reviews: 1
-size: 
 website: https://hybridsolutions.com/
 repository: 
 issue: 

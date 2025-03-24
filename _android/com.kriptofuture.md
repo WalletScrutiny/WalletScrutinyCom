@@ -13,7 +13,6 @@ version: Version 16
 stars: 2.5
 ratings: 183
 reviews: 9
-size: 
 website: https://kriptofuture.com
 repository: 
 issue: 

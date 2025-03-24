@@ -13,7 +13,6 @@ version: 1.3.2.1478
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.zb.com
 repository: 
 issue: 

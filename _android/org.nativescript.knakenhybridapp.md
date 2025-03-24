@@ -13,7 +13,6 @@ version: 3.0.1
 stars: 3.5
 ratings: 
 reviews: 
-size: 
 website: https://knaken.eu/
 repository: 
 issue: 

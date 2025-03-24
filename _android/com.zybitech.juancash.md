@@ -13,16 +13,15 @@ version: V2.0.3
 stars: 4.6
 ratings: 
 reviews: 3
-size: 
 website: https://www.juancash.com/
 repository: 
 issue: 
 icon: com.zybitech.juancash.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-07-17
+date: 2025-02-28
 signer: 
 reviewArchive: 
 twitter: JuanCashPH

@@ -12,7 +12,6 @@ version: 2.6.7
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.marswap.io/
 repository: 
 issue: 

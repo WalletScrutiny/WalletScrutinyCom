@@ -12,7 +12,6 @@ version: 4.3.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.ecxx.com
 repository: 
 issue: 

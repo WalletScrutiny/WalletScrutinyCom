@@ -12,7 +12,6 @@ version: 0.21.5
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://emblex.io
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: '1.1'
 stars: 4.4
 ratings: 
 reviews: 4
-size: 
 website: https://overline.network
 repository: 
 issue: 

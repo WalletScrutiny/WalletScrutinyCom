@@ -13,7 +13,6 @@ version: '1.12'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://cwallet.finance/
 repository: 
 issue: 

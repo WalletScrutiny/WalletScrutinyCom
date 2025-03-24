@@ -13,7 +13,6 @@ version: 1.0.4.210302
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://terra-bit.io
 repository: 
 issue: 

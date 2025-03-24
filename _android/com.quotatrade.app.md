@@ -12,7 +12,6 @@ version: 1.1.43
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.quotatrade.com/
 repository: 
 issue: 

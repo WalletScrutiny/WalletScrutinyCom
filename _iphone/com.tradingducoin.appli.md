@@ -12,7 +12,6 @@ updated: 2021-09-02
 version: 5.4.8
 stars: 
 reviews: 
-size: 31381504
 website: https://tradingducoin.com/
 repository: 
 issue: 

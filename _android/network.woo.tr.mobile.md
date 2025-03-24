@@ -12,7 +12,6 @@ version: 3.4.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://wootr.com/
 repository: 
 issue: 

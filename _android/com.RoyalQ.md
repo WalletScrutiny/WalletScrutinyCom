@@ -13,7 +13,6 @@ version: '5.1'
 stars: 4.7
 ratings: 
 reviews: 15
-size: 
 website: https://royalq.cloud
 repository: 
 issue: 

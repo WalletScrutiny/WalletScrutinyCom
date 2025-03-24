@@ -12,7 +12,6 @@ version: 1.10.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.lmex.io/
 repository: 
 issue: 

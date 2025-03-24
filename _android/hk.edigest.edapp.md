@@ -13,7 +13,6 @@ version: '1.90'
 stars: 3.3
 ratings: 
 reviews: 
-size: 
 website: https://www.nmg.com.hk/contactus/
 repository: 
 issue: 

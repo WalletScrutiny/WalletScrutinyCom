@@ -12,7 +12,6 @@ version: 1.4.42
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://skg-world.com
 repository: 
 issue: 

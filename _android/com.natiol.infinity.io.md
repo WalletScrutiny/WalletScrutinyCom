@@ -13,7 +13,6 @@ version: 10.0.1
 stars: 4.8
 ratings: 
 reviews: 4
-size: 
 website: https://natiol.io/
 repository: 
 issue: 

@@ -12,13 +12,12 @@ version: 1.0.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.bdwallets.com/
 repository: 
 issue: 
 icon: com.exchange.bdwallets.app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 appHashes: 
 date: 2023-01-02

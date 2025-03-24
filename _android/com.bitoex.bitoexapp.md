@@ -13,7 +13,6 @@ version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.bitoex.com/?locale=en
 repository: 
 issue: 

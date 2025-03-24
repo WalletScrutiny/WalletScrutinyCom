@@ -12,7 +12,6 @@ version: 2.5.0
 stars: 5
 ratings: 
 reviews: 
-size: 
 website: https://plark.io
 repository: 
 issue: 

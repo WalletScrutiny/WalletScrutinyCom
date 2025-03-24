@@ -12,7 +12,6 @@ version: 4.0.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://ugainindia.com
 repository: 
 issue: 

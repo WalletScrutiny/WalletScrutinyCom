@@ -12,7 +12,6 @@ updated: 2021-06-23
 version: 1.3.4
 stars: 0
 reviews: 0
-size: '121513984'
 website: https://www.unodax.com
 repository: 
 issue: 

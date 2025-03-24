@@ -13,7 +13,6 @@ version: 2.0.2
 stars: 4.7
 ratings: 221
 reviews: 22
-size: 
 website: https://vizo.app
 repository: 
 issue: 

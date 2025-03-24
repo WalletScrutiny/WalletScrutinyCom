@@ -13,7 +13,6 @@ version: 2.1.6
 stars: 4.6
 ratings: 
 reviews: 35
-size: 
 website: https://a4.finance/
 repository: 
 issue: 

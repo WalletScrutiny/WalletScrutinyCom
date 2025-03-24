@@ -12,7 +12,6 @@ updated: 2022-02-16
 version: 1.9.6
 stars: 4
 reviews: 162
-size: 80605184
 website: https://www.coin.cloud/app
 repository: 
 issue: 

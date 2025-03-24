@@ -13,7 +13,6 @@ version: 0.7.11
 stars: 3.3
 ratings: 38
 reviews: 6
-size: 
 website: https://foxtrading.io
 repository: 
 issue: 

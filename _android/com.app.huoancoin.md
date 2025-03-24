@@ -13,13 +13,12 @@ version: '1.0'
 stars: 3.4
 ratings: 
 reviews: 18
-size: 
 website: https://www.huoancoin.com
 repository: 
 issue: 
 icon: com.app.huoancoin.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-08-07

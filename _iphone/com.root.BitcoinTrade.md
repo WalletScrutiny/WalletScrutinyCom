@@ -12,7 +12,6 @@ updated: 2024-05-30
 version: 4.7.10
 stars: 3.8
 reviews: 978
-size: '47139840'
 website: http://ripio.com/br/ripiotrade/
 repository: 
 issue: 

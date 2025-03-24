@@ -12,13 +12,12 @@ updated: 2022-10-03
 version: 0.741.11
 stars: 4.2
 reviews: 11
-size: '37095424'
 website: https://xapawallet.com/
 repository: 
 issue: 
 icon: com.cwallet.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 appHashes: 
 date: 2023-08-25

@@ -12,7 +12,6 @@ version: 1.2.8
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://zebitex.com
 repository: 
 issue: 

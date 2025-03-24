@@ -13,7 +13,6 @@ version: 3.1.2
 stars: 2.9
 ratings: 1251
 reviews: 1102
-size: 
 website: https://kelta.com/
 repository: 
 issue: 

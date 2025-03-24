@@ -12,7 +12,6 @@ updated: 2023-01-12
 version: 5.0.02
 stars: 5
 reviews: 10
-size: '110053376'
 website: https://www.kikitrade.com/
 repository: 
 issue: 

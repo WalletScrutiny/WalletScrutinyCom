@@ -12,7 +12,6 @@ updated: 2022-12-19
 version: 1.7.3
 stars: 4.3
 reviews: 6
-size: '19050496'
 website: http://satpile.com
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 1.2.5
 stars: 4.2
 ratings: 
 reviews: 
-size: 
 website: https://stage-fortvax-landing.goldalles.com/
 repository: 
 issue: 

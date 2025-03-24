@@ -12,7 +12,6 @@ updated: 2024-09-24
 version: 2.5.0
 stars: 0
 reviews: 0
-size: '187786240'
 website: https://emcd.io/about
 repository: 
 issue: 

@@ -12,16 +12,15 @@ version: '1.0'
 stars: 3.8
 ratings: 
 reviews: 2
-size: 
 website: https://boastcoast.com
 repository: 
 issue: 
 icon: com.app.boastcoast12.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
 appHashes: 
-date: 2024-05-24
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: 

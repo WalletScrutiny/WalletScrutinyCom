@@ -12,7 +12,6 @@ version: 1.2.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.bhex.sg
 repository: 
 issue: 

@@ -8,12 +8,11 @@ users: 100000
 appId: com.ancryptoWallet
 appCountry: 
 released: 2022-09-27
-updated: 2025-01-20
-version: 1.47.0
+updated: 2025-03-07
+version: 1.47.4
 stars: 4.5
 ratings: 
-reviews: 29
-size: 
+reviews: 30
 website: https://gemspocket.com/
 repository: 
 issue: 
@@ -34,7 +33,7 @@ social:
 - https://discord.com/invite/pN3NXfpJgF
 - https://www.youtube.com/@ancryptowallet
 redirect_from: 
-developerName: AnCrypto
+developerName: AWT Ltd
 features: 
 
 ---

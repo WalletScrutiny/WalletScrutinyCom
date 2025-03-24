@@ -12,7 +12,6 @@ version: 0.20.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://potent.finance
 repository: 
 issue: 

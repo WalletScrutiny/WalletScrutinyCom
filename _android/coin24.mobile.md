@@ -13,13 +13,12 @@ version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://coin24.app/ko
 repository: 
 issue: 
 icon: coin24.mobile.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-04-20

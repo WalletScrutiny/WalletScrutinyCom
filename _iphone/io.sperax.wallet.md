@@ -12,7 +12,6 @@ updated: 2022-03-30
 version: 1.6.1
 stars: 3
 reviews: 192
-size: '79197184'
 website: https://app.sperax.io/
 repository: 
 issue: 

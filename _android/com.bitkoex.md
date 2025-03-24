@@ -12,7 +12,6 @@ version: '2.19'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.bitkoex.com/
 repository: 
 issue: 

@@ -13,6 +13,7 @@ shop: https://www.bitsafecard.com/en/Shop
 country: TR
 meta: ok
 verdict: prefilled
+social: 
 
 ---
 

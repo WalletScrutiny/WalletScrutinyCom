@@ -12,7 +12,6 @@ version: 1.0.0+130
 stars: 4.6
 ratings: 
 reviews: 
-size: 
 website: https://www.gorillabit.io
 repository: 
 issue: 

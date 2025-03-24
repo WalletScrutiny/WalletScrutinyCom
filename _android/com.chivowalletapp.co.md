@@ -13,7 +13,6 @@ version: '1.0'
 stars: 1.6
 ratings: 64
 reviews: 46
-size: 3.9M
 website: 
 repository: 
 issue: 

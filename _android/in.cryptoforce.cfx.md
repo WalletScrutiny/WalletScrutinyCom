@@ -13,7 +13,6 @@ version: 1.1.2.5
 stars: 3.3
 ratings: 
 reviews: 
-size: 
 website: https://cryptoforce.in
 repository: 
 issue: 

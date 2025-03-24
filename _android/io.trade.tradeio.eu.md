@@ -13,7 +13,6 @@ version: 1.0.0
 stars: 1.7
 ratings: 
 reviews: 6
-size: 
 website: http://trade.io
 repository: 
 issue: 

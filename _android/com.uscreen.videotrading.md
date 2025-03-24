@@ -13,7 +13,6 @@ version: 2.6.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://app.criptoclases.com/
 repository: 
 issue: 

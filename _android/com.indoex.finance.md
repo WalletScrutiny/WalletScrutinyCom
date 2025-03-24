@@ -13,7 +13,6 @@ version: 1.0.40
 stars: 3.1
 ratings: 
 reviews: 5
-size: 
 website: https://international.indoex.io
 repository: 
 issue: 

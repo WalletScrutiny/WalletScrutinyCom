@@ -12,7 +12,6 @@ version: 1.0.3
 stars: 
 ratings: 
 reviews: 
-size: 5.7M
 website: https://skywallet.net
 repository: 
 issue: 

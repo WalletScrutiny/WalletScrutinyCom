@@ -13,16 +13,15 @@ version: 2.3.3
 stars: 5
 ratings: 
 reviews: 4
-size: 
 website: 
 repository: 
 issue: 
 icon: com.exchange.wethio.io.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-11-13
+date: 2025-02-28
 signer: 
 reviewArchive: 
 twitter: wethiox

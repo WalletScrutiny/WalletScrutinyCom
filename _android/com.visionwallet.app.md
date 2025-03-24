@@ -13,7 +13,6 @@ version: 1.3.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://visionwallet.com/en/
 repository: 
 issue: 

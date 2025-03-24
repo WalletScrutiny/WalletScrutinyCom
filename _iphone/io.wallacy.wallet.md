@@ -12,7 +12,6 @@ updated: 2025-01-22
 version: 0.1.15
 stars: 4.8
 reviews: 4
-size: '56271872'
 website: https://wallacy.io/
 repository: 
 issue: 

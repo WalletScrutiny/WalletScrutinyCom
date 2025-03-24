@@ -13,7 +13,6 @@ version: 2.1.3
 stars: 3.5
 ratings: 60
 reviews: 49
-size: 32M
 website: https://rapidpay.africa/
 repository: 
 issue: 

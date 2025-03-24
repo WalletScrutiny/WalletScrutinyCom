@@ -12,7 +12,6 @@ updated: 2022-01-10
 version: 1.1.13
 stars: 
 reviews: 
-size: 19439616
 website: https://BitMEX.com/mobile
 repository: 
 issue: 

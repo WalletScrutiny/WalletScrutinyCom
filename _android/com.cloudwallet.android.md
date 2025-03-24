@@ -13,13 +13,12 @@ version: 2.0.16
 stars: 2
 ratings: 4008
 reviews: 176
-size: 
 website: https://cloudtokenwallet.com/
 repository: 
 issue: 
 icon: com.cloudwallet.android.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-03-29

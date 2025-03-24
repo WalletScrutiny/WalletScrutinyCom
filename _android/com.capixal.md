@@ -13,7 +13,6 @@ version: 1.5.78-capixal
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.capixal.com/
 repository: 
 issue: 

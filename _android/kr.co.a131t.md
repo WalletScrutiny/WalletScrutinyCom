@@ -12,7 +12,6 @@ version: 1.0-R
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://131t.kr/
 repository: 
 issue: 

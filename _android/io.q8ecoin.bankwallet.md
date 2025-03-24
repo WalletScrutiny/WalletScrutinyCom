@@ -12,7 +12,6 @@ version: 0.10.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://q8ecoin.com
 repository: 
 issue: 

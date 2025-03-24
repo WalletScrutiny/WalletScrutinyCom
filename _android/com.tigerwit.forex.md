@@ -13,7 +13,6 @@ version: 6.1.5
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.tigerwit.com
 repository: 
 issue: 

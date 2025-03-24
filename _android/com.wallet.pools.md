@@ -13,16 +13,15 @@ version: 1.1.5
 stars: 4.7
 ratings: 
 reviews: 30
-size: 
 website: 
 repository: 
 issue: 
 icon: com.wallet.pools.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
 appHashes: 
-date: 2023-07-03
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: 

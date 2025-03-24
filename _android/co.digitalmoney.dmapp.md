@@ -13,7 +13,6 @@ version: 1.4.9
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://dmexchange.com
 repository: 
 issue: 

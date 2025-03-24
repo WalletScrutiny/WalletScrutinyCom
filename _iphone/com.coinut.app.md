@@ -12,7 +12,6 @@ updated: 2023-05-31
 version: 3.0.0
 stars: 4
 reviews: 5
-size: '26231808'
 website: https://coinut.com
 repository: 
 issue: 

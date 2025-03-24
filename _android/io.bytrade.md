@@ -13,7 +13,6 @@ version: 2.1.1
 stars: 3.7
 ratings: 
 reviews: 39
-size: 
 website: https://www.bytrade.io/
 repository: 
 issue: 

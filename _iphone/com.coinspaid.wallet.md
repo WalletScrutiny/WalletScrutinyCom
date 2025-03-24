@@ -12,7 +12,6 @@ updated: 2023-06-06
 version: 0.9.6
 stars: 0
 reviews: 0
-size: '34590720'
 website: https://coinspaid.com/wallet/
 repository: 
 issue: 

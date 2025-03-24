@@ -12,7 +12,6 @@ updated: 2020-08-03
 version: 0.5.2
 stars: 4.5
 reviews: 63
-size: '43196416'
 website: https://zaphq.io
 repository: https://github.com/LN-Zap/zap-iOS
 issue: 

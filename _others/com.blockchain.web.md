@@ -11,6 +11,7 @@ provider: Blockchain Luxembourg S.A.
 providerWebsite: https://blockchain.com
 meta: ok
 verdict: wip
+social: 
 
 ---
 

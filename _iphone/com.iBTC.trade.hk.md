@@ -12,7 +12,6 @@ updated: 2022-05-18
 version: 1.6.0
 stars: 0
 reviews: 0
-size: '28845056'
 website: https://ibtc.com.hk/
 repository: 
 issue: 

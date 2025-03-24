@@ -13,7 +13,6 @@ version: 2.2.4
 stars: 4.8
 ratings: 
 reviews: 169
-size: 
 website: https://bitcoinasia.travel
 repository: 
 issue: 

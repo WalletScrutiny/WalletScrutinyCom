@@ -12,7 +12,6 @@ updated: 2025-02-02
 version: '6.10'
 stars: 4.8
 reviews: 9
-size: '24025088'
 website: https://eurocoinpay.io
 repository: 
 issue: 

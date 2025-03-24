@@ -13,7 +13,6 @@ version: 3.2.3
 stars: 3.8
 ratings: 23
 reviews: 5
-size: 
 website: http://www.VegaWallet.com
 repository: 
 issue: 

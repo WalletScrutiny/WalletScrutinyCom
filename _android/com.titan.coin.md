@@ -13,7 +13,6 @@ version: 2.51.0
 stars: 3.6
 ratings: 180
 reviews: 6
-size: 
 website: https://titanprojects.co
 repository: 
 issue: 

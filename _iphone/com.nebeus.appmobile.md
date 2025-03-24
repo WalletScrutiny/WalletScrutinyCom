@@ -12,7 +12,6 @@ updated: 2023-06-15
 version: 1.4.37
 stars: 0
 reviews: 0
-size: '107014144'
 website: https://nebeus.com
 repository: 
 issue: 

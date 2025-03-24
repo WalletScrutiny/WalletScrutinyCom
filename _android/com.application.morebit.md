@@ -12,7 +12,6 @@ version: '1.2'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://morebit.io
 repository: 
 issue: 

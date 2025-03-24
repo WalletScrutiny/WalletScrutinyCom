@@ -13,7 +13,6 @@ version: 8.0.2
 stars: 3.9
 ratings: 
 reviews: 6
-size: 
 website: https://skenas.app/
 repository: 
 issue: 

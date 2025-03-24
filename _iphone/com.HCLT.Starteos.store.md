@@ -6,13 +6,12 @@ authors:
 - danny
 appId: com.HCLT.Starteos.store
 appCountry: us
-idd: 1441373609
+idd: '1441373609'
 released: 2019-01-21
 updated: 2022-11-09
 version: 02.00.25
 stars: 3.8
 reviews: 9
-size: '115696640'
 website: http://starteos.io
 repository: 
 issue: 

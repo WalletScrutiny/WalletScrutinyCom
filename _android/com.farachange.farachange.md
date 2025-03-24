@@ -13,16 +13,15 @@ version: 1.1.20
 stars: 4.4
 ratings: 
 reviews: 26
-size: 
 website: 
 repository: 
 issue: 
 icon: com.farachange.farachange.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-11-13
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: 

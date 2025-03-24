@@ -13,7 +13,6 @@ version: '2.10'
 stars: 4.4
 ratings: 161
 reviews: 26
-size: 
 website: https://www.beaxy.com/
 repository: 
 issue: 

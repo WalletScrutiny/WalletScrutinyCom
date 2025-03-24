@@ -12,7 +12,6 @@ version: '2.8'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://minichange.me/
 repository: 
 issue: 

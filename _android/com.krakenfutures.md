@@ -14,7 +14,6 @@ version: 5.24.0
 stars: 3.5
 ratings: 451
 reviews: 5
-size: 
 website: https://futures.kraken.com
 repository: 
 issue: 

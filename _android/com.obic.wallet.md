@@ -12,7 +12,6 @@ version: 3.5.3
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://obictrade.com
 repository: 
 issue: 

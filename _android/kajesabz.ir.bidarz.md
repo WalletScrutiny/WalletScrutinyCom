@@ -13,16 +13,15 @@ version: 4.6.5
 stars: 4.3
 ratings: 4010
 reviews: 1499
-size: 
 website: https://www.bidarz.ir
 repository: 
 issue: 
 icon: kajesabz.ir.bidarz.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2022-04-12
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: bidarzpro

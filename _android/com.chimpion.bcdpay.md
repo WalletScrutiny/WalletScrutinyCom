@@ -13,7 +13,6 @@ version: 7.1.63
 stars: 4.2
 ratings: 186
 reviews: 13
-size: 
 website: https://www.chimpion.io/
 repository: 
 issue: 

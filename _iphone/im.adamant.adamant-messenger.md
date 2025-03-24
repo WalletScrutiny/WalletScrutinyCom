@@ -12,7 +12,6 @@ updated: 2025-01-20
 version: 3.10.0
 stars: 4.9
 reviews: 18
-size: '82213888'
 website: https://adamant.im
 repository: https://github.com/Adamant-im/adamant-iOS
 issue: 

@@ -12,7 +12,6 @@ version: '9.8'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://santiagocelentano.wixsite.com/esantrix
 repository: 
 issue: 

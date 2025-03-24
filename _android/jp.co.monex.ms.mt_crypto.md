@@ -13,7 +13,6 @@ version: 1.0.10
 stars: 2.7
 ratings: 
 reviews: 
-size: 
 website: http://www.monex.co.jp/
 repository: 
 issue: 

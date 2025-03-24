@@ -13,7 +13,6 @@ version: 1.1.0
 stars: 3.3
 ratings: 
 reviews: 2
-size: 
 website: https://treenwallet.com
 repository: 
 issue: 

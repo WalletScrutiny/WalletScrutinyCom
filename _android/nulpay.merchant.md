@@ -12,16 +12,15 @@ version: '4'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://nulpay.com
 repository: 
 issue: 
 icon: nulpay.merchant.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
 appHashes: 
-date: 2024-03-25
+date: 2025-03-19
 signer: 
 reviewArchive: 
 twitter: 

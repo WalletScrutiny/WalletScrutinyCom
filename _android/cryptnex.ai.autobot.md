@@ -13,13 +13,12 @@ version: 3.8.9
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.cryptnex.ai
 repository: 
 issue: 
 icon: cryptnex.ai.autobot.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nowallet
 appHashes: 
 date: 2023-06-12

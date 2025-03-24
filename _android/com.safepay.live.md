@@ -13,7 +13,6 @@ version: 3.0.0
 stars: 4.7
 ratings: 
 reviews: 
-size: 
 website: https://safepay.live
 repository: 
 issue: 

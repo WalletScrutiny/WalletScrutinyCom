@@ -13,7 +13,6 @@ version: 4.9.1
 stars: 3.2
 ratings: 777
 reviews: 17
-size: 25M
 website: https://www.biki.com
 repository: 
 issue: 

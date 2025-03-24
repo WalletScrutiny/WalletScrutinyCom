@@ -13,7 +13,6 @@ version: 3.4.12
 stars: 2.7
 ratings: 47
 reviews: 29
-size: 33M
 website: https://bitasset.com
 repository: 
 issue: 

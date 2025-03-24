@@ -8,6 +8,7 @@ date: 2024-05-10
 website: https://bitcoin-wallet.org
 meta: ok
 verdict: wip
+social: 
 
 ---
 

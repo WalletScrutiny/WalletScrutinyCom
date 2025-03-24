@@ -12,7 +12,6 @@ version: 2.31.0
 stars: 5
 ratings: 
 reviews: 2
-size: 
 website: https://flxwallet.com
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 2.2.6
 stars: 3.2
 ratings: 29
 reviews: 19
-size: 48M
 website: https://cobo.com/
 repository: https://github.com/CoboVault/cobo-vault-cold
 issue: 

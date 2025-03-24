@@ -13,7 +13,6 @@ version: 1.1.5
 stars: 3.4
 ratings: 
 reviews: 3
-size: 
 website: https://www.openex.xyz
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 1.0.31
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.cryptoneed.pro/
 repository: 
 issue: 

@@ -13,16 +13,15 @@ version: 1.0.2
 stars: 2.6
 ratings: 1855
 reviews: 48
-size: 
 website: https://coinsbit.io/
 repository: 
 issue: 
 icon: com.coinsbit.coinsbit.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-04-17
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: c0insbit

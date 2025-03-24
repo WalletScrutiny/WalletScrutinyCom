@@ -13,7 +13,6 @@ version: 2.1.0
 stars: 1
 ratings: 81
 reviews: 6
-size: 37M
 website: https://www.citex.io
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 1.6.8
 stars: 3.6
 ratings: 
 reviews: 
-size: 
 website: https://macaronswap.finance/
 repository: 
 issue: 

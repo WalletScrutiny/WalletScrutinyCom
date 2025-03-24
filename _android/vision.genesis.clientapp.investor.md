@@ -13,7 +13,6 @@ version: 2.7.7
 stars: 4.8
 ratings: 369
 reviews: 25
-size: 
 website: https://genesis.vision
 repository: https://github.com/GenesisVision/android-client
 issue: 

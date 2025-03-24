@@ -12,7 +12,6 @@ version: 1.2.7
 stars: 5
 ratings: 
 reviews: 
-size: 
 website: https://heru.finance/
 repository: 
 issue: 

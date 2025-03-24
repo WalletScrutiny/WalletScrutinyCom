@@ -8,12 +8,11 @@ users: 1000
 appId: com.minibits_wallet
 appCountry: 
 released: 
-updated: 2025-01-16
+updated: 2025-02-13
 version: VARY
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.minibits.cash
 repository: 
 issue: 

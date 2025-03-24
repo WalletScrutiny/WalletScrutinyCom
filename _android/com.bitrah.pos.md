@@ -13,7 +13,6 @@ version: 3.0.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://bitrah.com/
 repository: 
 issue: 

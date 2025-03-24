@@ -12,7 +12,6 @@ updated: 2024-01-06
 version: 1.14.3
 stars: 3.5
 reviews: 22
-size: '58850304'
 website: https://eidoo.app
 repository: 
 issue: 

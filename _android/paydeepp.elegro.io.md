@@ -13,7 +13,6 @@ version: 5.4.2
 stars: 3.4
 ratings: 
 reviews: 1
-size: 
 website: https://elegro.eu/
 repository: 
 issue: 

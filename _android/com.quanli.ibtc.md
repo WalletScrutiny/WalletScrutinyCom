@@ -13,13 +13,12 @@ version: 1.6.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://ibtc.com.hk
 repository: 
 issue: 
 icon: com.quanli.ibtc.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 appHashes: 
 date: 2023-08-16

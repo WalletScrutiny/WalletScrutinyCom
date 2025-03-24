@@ -13,7 +13,6 @@ version: 2.0.1
 stars: 4.6
 ratings: 
 reviews: 6
-size: 
 website: https://www.boxtradex.io/
 repository: 
 issue: 

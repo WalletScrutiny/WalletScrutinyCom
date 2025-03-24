@@ -13,13 +13,12 @@ version: 7.1.0
 stars: 4.1
 ratings: 1685
 reviews: 71
-size: 
 website: https://tetherland.com
 repository: 
 issue: 
 icon: land.tether.tetherland.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
 appHashes: 
 date: 2022-02-25

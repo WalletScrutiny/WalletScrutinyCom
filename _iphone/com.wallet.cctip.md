@@ -12,7 +12,6 @@ updated: 2022-12-24
 version: 2.3.3
 stars: 0
 reviews: 0
-size: '150552576'
 website: https://cwallet.com
 repository: 
 issue: 

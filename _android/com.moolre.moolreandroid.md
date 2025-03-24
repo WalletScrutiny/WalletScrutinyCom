@@ -13,7 +13,6 @@ version: 3.5.21
 stars: 3.1
 ratings: 
 reviews: 14
-size: 
 website: https://moolre.com
 repository: 
 issue: 

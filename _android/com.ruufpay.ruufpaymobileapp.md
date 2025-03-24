@@ -13,7 +13,6 @@ version: 1.7.7
 stars: 4.6
 ratings: 
 reviews: 11
-size: 
 website: https://ruufpay.app
 repository: 
 issue: 

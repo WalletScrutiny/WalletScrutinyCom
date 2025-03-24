@@ -13,7 +13,6 @@ version: VARY
 stars: 3.8
 ratings: 
 reviews: 9
-size: 
 website: https://sessip.com
 repository: 
 issue: 

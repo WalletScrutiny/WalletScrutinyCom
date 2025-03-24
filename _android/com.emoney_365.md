@@ -12,7 +12,6 @@ version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://365emoney.com
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 1.0.12
 stars: 2.5
 ratings: 
 reviews: 36
-size: 
 website: https://hodlit.com
 repository: 
 issue: 

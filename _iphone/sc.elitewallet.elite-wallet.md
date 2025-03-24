@@ -12,7 +12,6 @@ updated: 2023-06-04
 version: 1.1.7
 stars: 4
 reviews: 1
-size: '125862912'
 website: https://elitewallet.sc
 repository: 
 issue: 

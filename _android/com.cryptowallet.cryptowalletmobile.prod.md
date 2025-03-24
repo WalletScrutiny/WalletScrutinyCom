@@ -13,7 +13,6 @@ version: 1.11.10
 stars: 3.2
 ratings: 10
 reviews: 7
-size: 40M
 website: https://cryptowallet.com/
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 1.0.32
 stars: 3.7
 ratings: 
 reviews: 
-size: 
 website: https://funexcoin.com/
 repository: 
 issue: 

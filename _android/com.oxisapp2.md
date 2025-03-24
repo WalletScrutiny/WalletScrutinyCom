@@ -12,7 +12,6 @@ version: 4.1.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.oxis.com
 repository: 
 issue: 

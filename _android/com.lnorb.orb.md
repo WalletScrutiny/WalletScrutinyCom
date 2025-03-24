@@ -12,7 +12,6 @@ version: 0.21.11.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://lnorb.com
 repository: 
 issue: 

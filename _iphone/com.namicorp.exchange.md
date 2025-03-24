@@ -12,7 +12,6 @@ updated: 2024-05-31
 version: 2.2.2
 stars: 3.9
 reviews: 20
-size: '130030592'
 website: https://nami.io/
 repository: 
 issue: 

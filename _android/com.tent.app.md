@@ -12,7 +12,6 @@ version: 1.4.0
 stars: 4
 ratings: 
 reviews: 
-size: 
 website: https://tent.app
 repository: 
 issue: 

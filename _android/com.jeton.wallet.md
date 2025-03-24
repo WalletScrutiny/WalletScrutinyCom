@@ -13,7 +13,6 @@ version: 3.7.3
 stars: 3.1
 ratings: 3260
 reviews: 20
-size: 
 website: https://jeton.com/
 repository: 
 issue: 

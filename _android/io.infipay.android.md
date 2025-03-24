@@ -13,7 +13,6 @@ version: 1.1.2
 stars: 4.2
 ratings: 50
 reviews: 1
-size: 
 website: http://www.infipay.io/
 repository: 
 issue: 

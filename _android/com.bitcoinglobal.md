@@ -13,7 +13,6 @@ version: 2.12.0
 stars: 2.6
 ratings: 91
 reviews: 5
-size: 
 website: https://bitcoin.global/
 repository: 
 issue: 

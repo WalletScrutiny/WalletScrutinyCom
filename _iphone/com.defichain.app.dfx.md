@@ -12,7 +12,6 @@ updated: 2023-04-25
 version: 1.20.1
 stars: 5
 reviews: 2
-size: '29605888'
 website: https://dfx.swiss
 repository: 
 issue: 

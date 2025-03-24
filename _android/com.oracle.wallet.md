@@ -13,7 +13,6 @@ version: 1.4.9
 stars: 4.6
 ratings: 38
 reviews: 24
-size: 43M
 website: https://oracle8.org/
 repository: 
 issue: 

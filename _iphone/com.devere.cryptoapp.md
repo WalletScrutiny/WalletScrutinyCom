@@ -12,7 +12,6 @@ updated: 2022-01-20
 version: '5.1'
 stars: 5
 reviews: 1
-size: '42070016'
 website: http://www.devere-crypto.com
 repository: 
 issue: 

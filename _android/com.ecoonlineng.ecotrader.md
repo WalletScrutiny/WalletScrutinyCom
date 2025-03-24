@@ -13,7 +13,6 @@ version: 4.9.1
 stars: 3.9
 ratings: 
 reviews: 16
-size: 
 website: https://programmerscourt.com
 repository: 
 issue: 

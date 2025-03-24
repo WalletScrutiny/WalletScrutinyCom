@@ -13,7 +13,6 @@ version: 1.9.2
 stars: 4.2
 ratings: 
 reviews: 
-size: 
 website: https://faswet.com
 repository: 
 issue: 

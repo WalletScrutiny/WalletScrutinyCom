@@ -12,7 +12,6 @@ version: 1.1.7
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://wapxnigeria.com/
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 8.0.0
 stars: 3.3
 ratings: 28
 reviews: 18
-size: 2.3M
 website: 
 repository: 
 issue: 

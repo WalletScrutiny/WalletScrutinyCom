@@ -13,7 +13,6 @@ version: 1.11-Release
 stars: 3.1
 ratings: 
 reviews: 
-size: 
 website: http://www.archos.com
 repository: 
 issue: 

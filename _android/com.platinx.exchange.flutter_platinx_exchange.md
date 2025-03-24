@@ -12,7 +12,6 @@ version: 2.0.16
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://platinx.exchange/
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 1.37.2
 stars: 4.1
 ratings: 798
 reviews: 14
-size: 
 website: http://www.paytomat.com
 repository: 
 issue: 

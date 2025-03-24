@@ -12,7 +12,6 @@ version: 1.0.4
 stars: 4.1
 ratings: 
 reviews: 
-size: 
 website: https://flyp.me
 repository: 
 issue: 

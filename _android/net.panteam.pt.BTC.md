@@ -12,16 +12,15 @@ version: VARY
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://github.com/AdminPanteam/pt.BTC
 repository: 
 issue: 
 icon: net.panteam.pt.BTC.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
 appHashes: 
-date: 2024-02-20
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: 

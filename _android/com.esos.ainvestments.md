@@ -12,7 +12,6 @@ version: 7.0.3(1)
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.ainvestments.com/
 repository: 
 issue: 

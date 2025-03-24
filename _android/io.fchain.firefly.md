@@ -13,7 +13,6 @@ version: 3.4.2
 stars: 3.9
 ratings: 
 reviews: 4
-size: 
 website: https://wallet.fchain.io
 repository: https://github.com/fchainio/firefly#readme
 issue: 

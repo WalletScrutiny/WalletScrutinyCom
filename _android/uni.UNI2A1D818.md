@@ -13,7 +13,6 @@ version: 1.4.8
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://muskbot.io
 repository: 
 issue: 

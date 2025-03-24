@@ -13,13 +13,12 @@ version: '2.7'
 stars: 4.1
 ratings: 135
 reviews: 7
-size: 
 website: https://hamrasta.com/hamrastamarket/
 repository: 
 issue: 
 icon: com.hamrasta.hwallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-08-07

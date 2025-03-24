@@ -13,7 +13,6 @@ version: 2.19.3
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://specterproduct.cc/assets/spectrum-privacy-policy.txt
 repository: 
 issue: 

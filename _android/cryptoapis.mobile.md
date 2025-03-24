@@ -12,7 +12,6 @@ version: 1.1.6
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://cryptoapis.io
 repository: 
 issue: 

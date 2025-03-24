@@ -13,7 +13,6 @@ version: 6.2.0
 stars: 2.1
 ratings: 4802
 reviews: 1544
-size: 
 website: https://blockfi.com/
 repository: 
 issue: 

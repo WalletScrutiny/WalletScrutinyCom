@@ -13,7 +13,6 @@ version: 1.1.8
 stars: 4.3
 ratings: 
 reviews: 1
-size: 
 website: https://amazewallet.com
 repository: 
 issue: 

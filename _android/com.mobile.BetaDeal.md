@@ -13,7 +13,6 @@ version: 1.1.0
 stars: 
 ratings: 
 reviews: 
-size: 28M
 website: https://betadeal.net
 repository: 
 issue: 

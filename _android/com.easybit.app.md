@@ -13,7 +13,6 @@ version: 1.4.0
 stars: 4.9
 ratings: 
 reviews: 
-size: 
 website: https://easybit.com
 repository: 
 issue: 

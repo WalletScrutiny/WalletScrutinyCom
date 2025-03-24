@@ -12,7 +12,6 @@ version: '5.37'
 stars: 
 ratings: 
 reviews: 
-size: 35M
 website: 
 repository: 
 issue: 

@@ -12,16 +12,15 @@ version: 1.0.4
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://findhereall.com
 repository: 
 issue: 
 icon: com.womegacryptowallet_16429089.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2024-06-03
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: 

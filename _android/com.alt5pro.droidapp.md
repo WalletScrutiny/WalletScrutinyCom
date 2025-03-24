@@ -13,7 +13,6 @@ version: '1.9'
 stars: 4.8
 ratings: 
 reviews: 
-size: 
 website: http://alt5pro.com
 repository: 
 issue: 

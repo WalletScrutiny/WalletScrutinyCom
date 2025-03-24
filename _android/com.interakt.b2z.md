@@ -13,7 +13,6 @@ version: 1.8.0
 stars: 4.3
 ratings: 
 reviews: 
-size: 
 website: https://www.b2z.exchange/en/home
 repository: 
 issue: 

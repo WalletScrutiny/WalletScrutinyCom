@@ -13,13 +13,12 @@ version: 5.5.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://bitzlato.com/
 repository: 
 issue: 
 icon: com.bitzlato.mobile.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-07-20

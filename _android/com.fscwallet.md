@@ -13,7 +13,6 @@ version: 4.0.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.fsdex.io/
 repository: 
 issue: 

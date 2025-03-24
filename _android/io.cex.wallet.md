@@ -13,7 +13,6 @@ version: 2.7.8
 stars: 3.9
 ratings: 
 reviews: 61
-size: 
 website: https://wallet.cex.io
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: '2005311702'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://fdao.vn/
 repository: 
 issue: 

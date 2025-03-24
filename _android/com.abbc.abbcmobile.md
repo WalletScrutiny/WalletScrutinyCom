@@ -13,7 +13,6 @@ version: 1.3.4
 stars: 4.2
 ratings: 629
 reviews: 7
-size: 
 website: http://abbcpayment.com
 repository: 
 issue: 

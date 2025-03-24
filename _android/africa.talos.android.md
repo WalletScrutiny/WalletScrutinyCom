@@ -13,7 +13,6 @@ version: 2.2.5
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://talos.africa
 repository: 
 issue: 

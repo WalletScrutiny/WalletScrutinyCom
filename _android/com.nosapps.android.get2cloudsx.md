@@ -13,7 +13,6 @@ version: 1.1.603
 stars: 3.3
 ratings: 
 reviews: 3
-size: 
 website: https://get2coin.com
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 1.62.0.67301
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.chainlock.com/
 repository: 
 issue: 

@@ -13,13 +13,12 @@ version: 1.0.6.7
 stars: 4.5
 ratings: 
 reviews: 5
-size: 
 website: https://coinhe.io/
 repository: 
 issue: 
 icon: io.coinhe.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-05-05

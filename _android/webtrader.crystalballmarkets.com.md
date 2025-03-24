@@ -12,7 +12,6 @@ version: 4.0.0
 stars: 5
 ratings: 
 reviews: 
-size: 
 website: https://crystalballmarkets.com/
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 3.9.9
 stars: 3.4
 ratings: 368
 reviews: 23
-size: 
 website: http://pumapay.io
 repository: 
 issue: 

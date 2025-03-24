@@ -12,7 +12,6 @@ version: '3.0'
 stars: 4.8
 ratings: 
 reviews: 
-size: 
 website: https://ifwallet.com.br/
 repository: 
 issue: 

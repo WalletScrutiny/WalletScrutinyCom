@@ -13,7 +13,6 @@ version: 4.8.5
 stars: 5
 ratings: 1559
 reviews: 579
-size: 47M
 website: https://www.bibox.com
 repository: 
 issue: 

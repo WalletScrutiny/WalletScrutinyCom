@@ -13,7 +13,6 @@ version: 1.1.5
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.oduwacoin.io/
 repository: https://github.com/ODUWAX/Android
 issue: 

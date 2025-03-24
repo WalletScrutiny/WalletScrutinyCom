@@ -13,7 +13,6 @@ version: '2.3'
 stars: 4.1
 ratings: 
 reviews: 
-size: 
 website: https://x7exchange.com/
 repository: 
 issue: 

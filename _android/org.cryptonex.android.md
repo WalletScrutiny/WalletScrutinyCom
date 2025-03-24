@@ -13,7 +13,6 @@ version: 2.4.9
 stars: 1
 ratings: 
 reviews: 5
-size: 
 website: https://cryptonex.org/
 repository: 
 issue: 

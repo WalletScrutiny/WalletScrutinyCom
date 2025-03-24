@@ -13,7 +13,6 @@ version: '1.5'
 stars: 4.2
 ratings: 
 reviews: 
-size: 
 website: https://covest.pro
 repository: 
 issue: 

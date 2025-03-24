@@ -12,7 +12,6 @@ updated: 2024-05-16
 version: '3.24'
 stars: 0
 reviews: 0
-size: '69879808'
 website: https://www.pierwallet.com
 repository: 
 issue: 

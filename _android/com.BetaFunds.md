@@ -12,7 +12,6 @@ version: 2.1.2
 stars: 4
 ratings: 
 reviews: 
-size: 
 website: https://betafunds.com
 repository: 
 issue: 

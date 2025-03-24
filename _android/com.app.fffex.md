@@ -13,13 +13,12 @@ version: 2.0.3
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://main.fffex.co
 repository: 
 issue: 
 icon: com.app.fffex.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-05-11

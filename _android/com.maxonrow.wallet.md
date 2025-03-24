@@ -13,13 +13,12 @@ version: 2.1.31
 stars: 
 ratings: 73
 reviews: 
-size: 
 website: https://www.maxonrow.com
 repository: 
 issue: 
 icon: com.maxonrow.wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
 appHashes: 
 date: 2021-03-17

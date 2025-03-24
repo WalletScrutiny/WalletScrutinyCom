@@ -12,7 +12,6 @@ version: 1.0.4
 stars: 1.8
 ratings: 
 reviews: 
-size: 
 website: https://www.trade99.com
 repository: 
 issue: 

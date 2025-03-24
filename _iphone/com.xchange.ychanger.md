@@ -12,7 +12,6 @@ updated: 2022-12-29
 version: 2.0.4
 stars: 0
 reviews: 0
-size: '72390656'
 website: https://ychanger.net
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 1.0.18
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.exnomy.com/
 repository: 
 issue: 

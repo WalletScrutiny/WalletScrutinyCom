@@ -12,7 +12,6 @@ updated: 2024-02-07
 version: 1.6.1
 stars: 4.3
 reviews: 16
-size: '71109632'
 website: https://vidulum.app
 repository: 
 issue: 

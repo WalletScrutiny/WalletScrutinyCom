@@ -8,12 +8,11 @@ users: 100000
 appId: com.syfe
 appCountry: 
 released: 2020-02-13
-updated: 2025-01-31
-version: 12.7.0
+updated: 2025-03-17
+version: 12.9.0
 stars: 3.6
 ratings: 
 reviews: 4
-size: 
 website: https://www.syfe.com
 repository: 
 issue: 
@@ -32,7 +31,7 @@ social:
 - https://www.instagram.com/SyfeSG
 - https://www.youtube.com/c/SyfeSG
 redirect_from: 
-developerName: Syfe Pte. Ltd.
+developerName: Syfe
 features: 
 
 ---

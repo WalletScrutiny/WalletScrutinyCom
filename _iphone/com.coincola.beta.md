@@ -12,7 +12,6 @@ updated: 2022-07-01
 version: 4.8.13
 stars: 3.6
 reviews: 245
-size: '160436224'
 website: https://www.coincola.com
 repository: 
 issue: 

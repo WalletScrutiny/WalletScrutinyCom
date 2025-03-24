@@ -12,7 +12,6 @@ version: 0.1.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://gimibits.com
 repository: 
 issue: 

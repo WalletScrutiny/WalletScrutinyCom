@@ -13,7 +13,6 @@ version: 4.6.0
 stars: 3.8
 ratings: 91
 reviews: 10
-size: 
 website: https://bixin.com
 repository: 
 issue: 

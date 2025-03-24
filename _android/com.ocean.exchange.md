@@ -13,7 +13,6 @@ version: 2.0.4
 stars: 4.1
 ratings: 159
 reviews: 15
-size: 
 website: https://oceanex.pro
 repository: 
 issue: 

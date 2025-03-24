@@ -12,16 +12,15 @@ version: 1.4.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.moneypartners.co.jp/
 repository: 
 issue: 
 icon: jp.co.moneypartners.CryptoTrade.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
 appHashes: 
-date: 2024-08-31
+date: 2025-02-08
 signer: 
 reviewArchive: 
 twitter: 

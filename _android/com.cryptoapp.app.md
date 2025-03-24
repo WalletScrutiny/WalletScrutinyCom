@@ -12,7 +12,6 @@ version: 1.1.b
 stars: 4
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 

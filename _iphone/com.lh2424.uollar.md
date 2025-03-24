@@ -12,7 +12,6 @@ updated: 2023-01-13
 version: 2.4.40
 stars: 1
 reviews: 1
-size: '82923520'
 website: http://uollar.io/policy
 repository: 
 issue: 

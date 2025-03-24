@@ -14,7 +14,6 @@ updated: 2021-10-23
 version: 1.3.4
 stars: 5
 reviews: 1
-size: '30423040'
 website: https://www.bhexchain.com/
 repository: 
 issue: https://github.com/bluehelix-chain/wallet-android/issues/4

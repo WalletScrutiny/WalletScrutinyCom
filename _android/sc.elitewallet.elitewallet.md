@@ -13,7 +13,6 @@ version: 1.3.1
 stars: 4.3
 ratings: 
 reviews: 3
-size: 
 website: https://elitewallet.sc
 repository: https://github.com/Elite-Labs/EliteWallet
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/497

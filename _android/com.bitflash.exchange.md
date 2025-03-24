@@ -13,13 +13,12 @@ version: '4.0'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://bitflash.io
 repository: 
 issue: 
 icon: com.bitflash.exchange.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-03-29

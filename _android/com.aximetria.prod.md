@@ -13,7 +13,6 @@ version: 2.30.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://aximetria.com
 repository: 
 issue: 

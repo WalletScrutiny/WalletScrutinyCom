@@ -12,7 +12,6 @@ version: 2.0.21
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://openturnkey.com/
 repository: 
 issue: 

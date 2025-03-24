@@ -12,7 +12,6 @@ version: '1.1'
 stars: 3.7
 ratings: 
 reviews: 4
-size: 
 website: https://blackproject.tech/
 repository: 
 issue: 

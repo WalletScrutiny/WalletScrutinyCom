@@ -12,7 +12,6 @@ updated: 2023-05-05
 version: 1.7.3
 stars: 0
 reviews: 0
-size: '51310592'
 website: https://www.eqifi.com/
 repository: 
 issue: 

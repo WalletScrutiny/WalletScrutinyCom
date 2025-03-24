@@ -12,7 +12,6 @@ updated: 2024-01-03
 version: 1.7.15
 stars: 3.4
 reviews: 83
-size: '59555840'
 website: https://www.vast.bank/
 repository: 
 issue: 

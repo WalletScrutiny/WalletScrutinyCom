@@ -12,7 +12,6 @@ updated: 2022-04-26
 version: 1.0.1
 stars: 0
 reviews: 0
-size: '109371392'
 website: https://vesto.io
 repository: 
 issue: 

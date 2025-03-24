@@ -13,7 +13,6 @@ version: 1.0.8
 stars: 2.6
 ratings: 
 reviews: 7
-size: 
 website: http://ayrem.net
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 2.5.13
 stars: 3.3
 ratings: 225
 reviews: 23
-size: 
 website: https://poolin.fi/
 repository: 
 issue: 

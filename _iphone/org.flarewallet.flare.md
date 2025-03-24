@@ -11,7 +11,6 @@ updated: 2021-03-13
 version: 1.4.0
 stars: 3.9
 reviews: 36
-size: '24013824'
 website: https://flarewallet.io
 repository: 
 issue: 

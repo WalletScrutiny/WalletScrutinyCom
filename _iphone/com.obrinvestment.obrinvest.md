@@ -12,7 +12,6 @@ updated: 2024-04-04
 version: 2.6.8
 stars: 0
 reviews: 0
-size: '94085120'
 website: https://www.obrinvest.com/
 repository: 
 issue: 

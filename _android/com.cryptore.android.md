@@ -13,16 +13,15 @@ version: 1.2.2
 stars: 4.8
 ratings: 
 reviews: 5
-size: 
 website: https://coinlord.org/
 repository: 
 issue: 
 icon: com.cryptore.android.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-10-16
+date: 2025-02-28
 signer: 
 reviewArchive: 
 twitter: coinlord_trade

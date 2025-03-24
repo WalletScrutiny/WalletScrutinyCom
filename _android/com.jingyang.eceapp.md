@@ -12,16 +12,15 @@ version: '1.0'
 stars: 2.8
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
 icon: com.jingyang.eceapp.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
 appHashes: 
-date: 2023-07-17
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: 

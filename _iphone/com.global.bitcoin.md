@@ -12,7 +12,6 @@ updated: 2023-04-24
 version: 2.12.0
 stars: 4.8
 reviews: 60
-size: '27646976'
 website: https://bitcoin.global/
 repository: 
 issue: 

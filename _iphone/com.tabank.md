@@ -12,7 +12,6 @@ updated: 2022-02-28
 version: 1.3.5
 stars: 4.3
 reviews: 24
-size: '54308864'
 website: https://web.tabus.co/ecommerce
 repository: 
 issue: 

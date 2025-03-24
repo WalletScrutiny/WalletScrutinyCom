@@ -12,7 +12,6 @@ version: 4.4.1-3
 stars: 4.1
 ratings: 191
 reviews: 19
-size: 
 website: https://electroncash.org
 repository: 
 issue: 

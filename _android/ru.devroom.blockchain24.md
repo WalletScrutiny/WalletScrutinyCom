@@ -12,7 +12,6 @@ version: 1.1.2
 stars: 3.6
 ratings: 
 reviews: 
-size: 
 website: https://blockchain24.pro
 repository: 
 issue: 

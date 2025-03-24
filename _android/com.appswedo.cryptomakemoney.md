@@ -12,7 +12,6 @@ version: '1.11'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://appswedo.com
 repository: 
 issue: 

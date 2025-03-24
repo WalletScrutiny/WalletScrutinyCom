@@ -11,13 +11,12 @@ users: 10000
 appId: app.zeusln.zeus
 appCountry: 
 released: 2020-07-07
-updated: 2025-01-31
-version: 0.9.5
+updated: 2025-03-11
+version: 0.10.0
 stars: 4.3
 ratings: 45
 reviews: 37
-size: 
-website: https://zeusln.app
+website: https://zeusln.com
 repository: https://github.com/ZeusLN/zeus
 issue: 
 icon: app.zeusln.zeus.png
@@ -25,10 +24,28 @@ bugbounty:
 meta: ok
 verdict: reproducible
 appHashes:
-- 19dcd62476f17e68a03b47a66cced8288689f4e162ef1b9f91300a27d2ce3957
-date: 2025-02-05
+- 9c141c38553a9bfb2df11ca05921775a04a000d84328988f7d3bf5b3a9112e4d
+date: 2025-03-13
 signer: cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
 reviewArchive:
+- date: 2025-02-22
+  version: 0.9.7
+  appHashes:
+  - cd681d7407b7f3d6fcde908ecb01594b3ee3f48aa524026099b44b5d9ab5f715
+  gitRevision: 5da8730c47de9c2f2241db229838b07bc47464aa
+  verdict: reproducible
+- date: 2025-02-11
+  version: 0.9.6
+  appHashes:
+  - db84dd4c1db67c2bfca707d648b159db6480ad1d5f1652b4db3b1d33bf2f3114
+  gitRevision: 5c1b28c89358d7f8248a1e608114ed1cf981e7ed
+  verdict: reproducible
+- date: 2025-02-05
+  version: 0.9.5
+  appHashes:
+  - 19dcd62476f17e68a03b47a66cced8288689f4e162ef1b9f91300a27d2ce3957
+  gitRevision: 5c1b28c89358d7f8248a1e608114ed1cf981e7ed
+  verdict: reproducible
 - date: 2025-01-03
   version: 0.9.4
   appHashes:
@@ -130,18 +147,18 @@ We ran our updated {% include testScript.html %} and got this:
 ===== Begin Results =====
 appId:          app.zeusln.zeus
 signer:         cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
-apkVersionName: 0.9.5
-apkVersionCode: 98001
+apkVersionName: 0.10.0
+apkVersionCode: 102003
 verdict:        
-appHash:        19dcd62476f17e68a03b47a66cced8288689f4e162ef1b9f91300a27d2ce3957
-commit:         68f7e6c04470486a060551294c234961c7f261c3
+appHash:        9c141c38553a9bfb2df11ca05921775a04a000d84328988f7d3bf5b3a9112e4d
+commit:         6f3be02fc840dee66309b54237e80e0666674cbd
 
 Diff:
-Files /tmp/fromPlay_app.zeusln.zeus_98001/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_98001/AndroidManifest.xml differ
-Only in /tmp/fromPlay_app.zeusln.zeus_98001/META-INF: GOOGPLAY.RSA
-Only in /tmp/fromPlay_app.zeusln.zeus_98001/META-INF: GOOGPLAY.SF
-Only in /tmp/fromPlay_app.zeusln.zeus_98001/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_app.zeusln.zeus_98001: stamp-cert-sha256
+Files /tmp/fromPlay_app.zeusln.zeus_102003/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_102003/AndroidManifest.xml differ
+Only in /tmp/fromPlay_app.zeusln.zeus_102003/META-INF: GOOGPLAY.RSA
+Only in /tmp/fromPlay_app.zeusln.zeus_102003/META-INF: GOOGPLAY.SF
+Only in /tmp/fromPlay_app.zeusln.zeus_102003/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_app.zeusln.zeus_102003: stamp-cert-sha256
 
 Revision, tag (and its signature):
 
@@ -178,5 +195,5 @@ This meta-data tag is added by Google Play when the app is processed and distrib
 
 This tag is injected by the Google Play Store’s app signing and distribution process.
 
-This, minus the signing differences, make version 0.9.5 of this app **reproducible**.
+This, minus the signing differences, make version 0.9.7 of this app **reproducible**.
 

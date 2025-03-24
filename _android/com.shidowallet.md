@@ -13,7 +13,6 @@ version: '1.8'
 stars: 4.6
 ratings: 
 reviews: 36
-size: 
 website: https://shido.io
 repository: 
 issue: 

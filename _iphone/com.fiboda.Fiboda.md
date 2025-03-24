@@ -12,7 +12,6 @@ updated: 2021-07-09
 version: 1.1.0
 stars: 4.2
 reviews: 5
-size: 89354240
 website: http://fiboda.com
 repository: 
 issue: 

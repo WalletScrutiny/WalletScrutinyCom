@@ -13,7 +13,6 @@ version: 5.4.8
 stars: 3.8
 ratings: 183
 reviews: 89
-size: 32M
 website: https://tradingducoin.com/
 repository: 
 issue: 

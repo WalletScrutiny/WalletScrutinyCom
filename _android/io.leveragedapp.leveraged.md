@@ -12,7 +12,6 @@ version: 1.0.6
 stars: 4.3
 ratings: 
 reviews: 8
-size: 
 website: http://leveragedapp.io
 repository: 
 issue: 

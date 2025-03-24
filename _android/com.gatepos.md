@@ -12,16 +12,15 @@ version: '1.1'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.mercury.cash
 repository: 
 issue: 
 icon: com.gatepos.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2023-05-21
+date: 2025-02-28
 signer: 
 reviewArchive: 
 twitter: 

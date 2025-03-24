@@ -13,7 +13,6 @@ version: '4.0'
 stars: 2.1
 ratings: 
 reviews: 11
-size: 
 website: https://dnar.io
 repository: 
 issue: 

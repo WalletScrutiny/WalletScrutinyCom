@@ -13,16 +13,15 @@ version: '3.0'
 stars: 4.8
 ratings: 
 reviews: 3
-size: 
 website: https://royalqs.com
 repository: 
 issue: 
 icon: com.royalqpro.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
 appHashes: 
-date: 2024-03-01
+date: 2025-03-17
 signer: 
 reviewArchive: 
 twitter: 

@@ -8,12 +8,11 @@ users: 5000000
 appId: com.gateio.gateio
 appCountry: id
 released: 2017-11-03
-updated: 2025-01-31
-version: 6.49.7
+updated: 2025-03-18
+version: 6.54.1
 stars: 4.9
 ratings: 17546
-reviews: 5518
-size: 
+reviews: 6563
 website: https://gate.io/
 repository: 
 issue: 

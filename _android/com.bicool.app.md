@@ -12,7 +12,6 @@ version: 1.2.8
 stars: 5
 ratings: 
 reviews: 125
-size: 
 website: https://bicool.in/
 repository: 
 issue: 

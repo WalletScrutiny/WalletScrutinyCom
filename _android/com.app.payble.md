@@ -13,7 +13,6 @@ version: 2.1.5
 stars: 4.7
 ratings: 
 reviews: 
-size: 
 website: http://payble.io
 repository: 
 issue: 

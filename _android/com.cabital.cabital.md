@@ -13,7 +13,6 @@ version: 1.8.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.cabital.com
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 1.0.0.93
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://bcdxchange.com/
 repository: 
 issue: 

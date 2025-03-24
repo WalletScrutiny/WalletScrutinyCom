@@ -12,7 +12,6 @@ version: 1.0.4
 stars: 2.7
 ratings: 
 reviews: 
-size: 
 website: https://sprint-bank.com/
 repository: 
 issue: 

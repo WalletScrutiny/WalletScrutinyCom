@@ -12,7 +12,6 @@ version: 1.0.2
 stars: 4.5
 ratings: 
 reviews: 
-size: 
 website: https://poutineswap.com
 repository: 
 issue: 

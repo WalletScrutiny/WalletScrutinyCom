@@ -13,7 +13,6 @@ version: 2.13.15
 stars: 2.7
 ratings: 790
 reviews: 15
-size: 7.4M
 website: http://coinsquare.com
 repository: 
 issue: 

@@ -12,13 +12,12 @@ version: 1.25.251
 stars: 
 ratings: 11
 reviews: 
-size: 
 website: https://www.bokka.com
 repository: 
 issue: 
 icon: com.bokka.ex.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2021-09-28

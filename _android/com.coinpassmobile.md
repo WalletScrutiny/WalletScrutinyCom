@@ -13,7 +13,6 @@ version: 3.4.0-coinpass
 stars: 2.8
 ratings: 
 reviews: 
-size: 
 website: https://www.coinpass.com/
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 1.7.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.melis.io
 repository: 
 issue: 

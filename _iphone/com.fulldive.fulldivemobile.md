@@ -12,7 +12,6 @@ updated: 2023-01-17
 version: 4.61.3
 stars: 4.3
 reviews: 43
-size: '82190336'
 website: https://fulldive.com/
 repository: 
 issue: 

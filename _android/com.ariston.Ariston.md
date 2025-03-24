@@ -12,7 +12,6 @@ version: 0.1.7
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.ariston-timepieces.com
 repository: 
 issue: 

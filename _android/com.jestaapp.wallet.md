@@ -13,7 +13,6 @@ version: '2.0'
 stars: 4.8
 ratings: 
 reviews: 60
-size: 
 website: https://burtar.com
 repository: 
 issue: 

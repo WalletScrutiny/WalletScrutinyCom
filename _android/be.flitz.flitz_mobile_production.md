@@ -12,7 +12,6 @@ version: 0.15.4
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://flitz.be
 repository: 
 issue: 

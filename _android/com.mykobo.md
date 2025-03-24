@@ -12,7 +12,6 @@ version: 2.0.15
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.mykobo.co
 repository: 
 issue: 

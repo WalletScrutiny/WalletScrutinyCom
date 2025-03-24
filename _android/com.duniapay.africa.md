@@ -13,7 +13,6 @@ version: 3.0.9
 stars: 4.7
 ratings: 
 reviews: 
-size: 
 website: https://www.duniapay.net
 repository: 
 issue: 

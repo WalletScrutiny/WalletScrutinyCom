@@ -12,7 +12,6 @@ updated: 2021-03-03
 version: 1.38.1
 stars: 0
 reviews: 0
-size: '90474496'
 website: https://vouchermoney.com/
 repository: 
 issue: 

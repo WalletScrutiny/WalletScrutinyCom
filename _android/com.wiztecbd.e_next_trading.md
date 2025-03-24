@@ -12,7 +12,6 @@ version: 2.1.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://ginexttradingcorp.com/
 repository: 
 issue: 

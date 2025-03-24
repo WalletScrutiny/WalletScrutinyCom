@@ -8,12 +8,11 @@ users: 100000
 appId: cz.hundredspires.wexo
 appCountry: 
 released: 2021-11-29
-updated: 2025-01-16
-version: 3.0.0.1
+updated: 2025-03-14
+version: 3.1.0
 stars: 3.6
 ratings: 
 reviews: 13
-size: 
 website: https://wexopay.com
 repository: 
 issue: 

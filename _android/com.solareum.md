@@ -13,7 +13,6 @@ version: 2.23.4
 stars: 4.1
 ratings: 
 reviews: 18
-size: 
 website: https://solareum.app/
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: '12.003'
 stars: 
 ratings: 
 reviews: 
-size: 9.3M
 website: 
 repository: 
 issue: 

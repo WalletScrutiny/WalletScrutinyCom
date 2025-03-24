@@ -12,7 +12,6 @@ version: '1.0'
 stars: 4.1
 ratings: 
 reviews: 
-size: 
 website: https://www.sac-mine.vip
 repository: 
 issue: 

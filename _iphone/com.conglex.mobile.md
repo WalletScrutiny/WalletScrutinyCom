@@ -12,16 +12,15 @@ updated: 2023-03-08
 version: 1.3.9
 stars: 0
 reviews: 0
-size: '47794176'
 website: https://conglex.com/
 repository: 
 issue: 
 icon: com.conglex.mobile.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-03-02
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: conglexglobal

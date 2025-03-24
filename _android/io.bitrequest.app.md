@@ -12,7 +12,6 @@ version: 1.5.8
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.bitrequest.io
 repository: 
 issue: 

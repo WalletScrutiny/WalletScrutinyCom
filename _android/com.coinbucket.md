@@ -12,7 +12,6 @@ version: PRODUCTION (v1580502023)
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 

@@ -12,7 +12,6 @@ updated: 2021-04-11
 version: '1.27'
 stars: 0
 reviews: 0
-size: '13892608'
 website: https://narkasa.com/
 repository: 
 issue: 

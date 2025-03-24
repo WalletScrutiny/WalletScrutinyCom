@@ -13,7 +13,6 @@ version: 2.0.4
 stars: 4.9
 ratings: 
 reviews: 12
-size: 
 website: http://www.ahmadkassabieh.com
 repository: 
 issue: 

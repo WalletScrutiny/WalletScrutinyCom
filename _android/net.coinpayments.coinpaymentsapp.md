@@ -13,16 +13,15 @@ version: VARY
 stars: 3.4
 ratings: 2277
 reviews: 128
-size: 
 website: https://www.coinpayments.net/
 repository: 
 issue: 
 icon: net.coinpayments.coinpaymentsapp.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2021-05-25
+date: 2025-02-28
 signer: 
 reviewArchive: 
 twitter: CoinPaymentsNET

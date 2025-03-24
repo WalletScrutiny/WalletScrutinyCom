@@ -12,7 +12,6 @@ updated: 2025-01-06
 version: 2.0.65
 stars: 3.3
 reviews: 107
-size: '122658816'
 website: https://www.lanistar.com
 repository: 
 issue: 

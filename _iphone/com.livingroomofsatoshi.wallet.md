@@ -12,7 +12,6 @@ updated: 2025-02-03
 version: 2.7.5
 stars: 4.3
 reviews: 12
-size: '46654464'
 website: https://www.walletofsatoshi.com
 repository: 
 issue: 

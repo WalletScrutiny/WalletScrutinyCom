@@ -13,7 +13,6 @@ version: 1.0.25
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://korvio.io
 repository: 
 issue: 

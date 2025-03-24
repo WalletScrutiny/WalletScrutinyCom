@@ -12,7 +12,6 @@ updated: 2023-02-13
 version: 4.1.0
 stars: 0
 reviews: 0
-size: '37229568'
 website: https://exchange.shiftmarkets.com/
 repository: 
 issue: 

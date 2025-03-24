@@ -12,7 +12,6 @@ version: 0.30.29
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://renasnce.com
 repository: 
 issue: 

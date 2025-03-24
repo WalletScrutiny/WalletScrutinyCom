@@ -13,7 +13,6 @@ version: 2.0.6
 stars: 4.6
 ratings: 
 reviews: 22
-size: 
 website: https://exonyx.ir
 repository: 
 issue: 

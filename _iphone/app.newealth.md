@@ -11,7 +11,6 @@ updated: 2021-04-17
 version: 1.2.1
 stars: 0
 reviews: 0
-size: '52946944'
 website: 
 repository: 
 issue: 

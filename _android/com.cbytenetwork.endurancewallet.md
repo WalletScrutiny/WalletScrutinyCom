@@ -12,7 +12,6 @@ version: 0.01.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://cbyte.network
 repository: 
 issue: 

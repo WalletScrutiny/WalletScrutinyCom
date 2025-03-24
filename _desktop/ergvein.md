@@ -6,7 +6,7 @@ authors:
 released: 2019-10-02
 discontinued: 
 updated: 2022-05-10
-version: 31
+version: '31'
 binaries: 
 provider: 
 providerWebsite: 

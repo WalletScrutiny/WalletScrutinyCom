@@ -13,7 +13,6 @@ version: 0.42.6
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://myappshaven.com/Privacy-Policy/
 repository: 
 issue: 

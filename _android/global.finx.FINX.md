@@ -13,7 +13,6 @@ version: 0.4.8
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://finx.global/
 repository: 
 issue: 

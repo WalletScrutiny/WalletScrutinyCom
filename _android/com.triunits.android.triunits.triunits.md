@@ -12,7 +12,6 @@ version: 1.0.15
 stars: 4.8
 ratings: 
 reviews: 
-size: 
 website: https://triunits.com
 repository: 
 issue: 

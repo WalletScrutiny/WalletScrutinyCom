@@ -6,7 +6,7 @@ authors:
 released: 2021-04-23
 discontinued: 
 updated: 2023-12-21
-version: 0.1
+version: '0.1'
 binaries: 
 provider: 
 providerWebsite: 

@@ -13,7 +13,6 @@ version: 1.2.4
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://spacelens.com
 repository: 
 issue: 

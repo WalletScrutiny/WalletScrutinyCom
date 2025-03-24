@@ -13,13 +13,12 @@ version: 4.5.7
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://eyewallet.com
 repository: 
 issue: 
 icon: com.eyewallet.io.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-05-25

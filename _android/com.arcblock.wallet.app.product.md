@@ -13,7 +13,6 @@ version: 5.8.0
 stars: 4.6
 ratings: 
 reviews: 18
-size: 
 website: https://www.didwallet.io/
 repository: 
 issue: 

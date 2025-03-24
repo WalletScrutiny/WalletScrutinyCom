@@ -12,7 +12,6 @@ updated: 2021-08-12
 version: '1.0'
 stars: 
 reviews: 
-size: 52673536
 website: https://exchange.cofinex.io/
 repository: 
 issue: 

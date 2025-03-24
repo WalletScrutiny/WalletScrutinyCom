@@ -13,7 +13,6 @@ version: '1.2'
 stars: 4.9
 ratings: 70
 reviews: 3
-size: 4.0M
 website: https://cryptopuce.com
 repository: 
 issue: 

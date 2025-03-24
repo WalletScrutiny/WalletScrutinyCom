@@ -12,7 +12,6 @@ version: 1.2.6
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://alibit.tech/
 repository: 
 issue: 

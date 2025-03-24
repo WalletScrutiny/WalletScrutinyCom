@@ -13,7 +13,6 @@ version: 3.5.1
 stars: 4.3
 ratings: 
 reviews: 12
-size: 
 website: https://airtimedatahub.com/
 repository: 
 issue: 

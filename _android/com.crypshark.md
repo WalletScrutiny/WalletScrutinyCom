@@ -13,7 +13,6 @@ version: 1.0.0.39-cryptoshark
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://crypshark.com/
 repository: 
 issue: 

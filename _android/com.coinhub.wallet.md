@@ -13,16 +13,15 @@ version: 2.7.9
 stars: 3.8
 ratings: 869
 reviews: 31
-size: 
 website: https://www.coinhub.org
 repository: 
 issue: 
 icon: com.coinhub.wallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-05-15
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: Coinhub_Wallet

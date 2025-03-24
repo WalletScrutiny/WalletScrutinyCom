@@ -13,7 +13,6 @@ version: 1.6.1
 stars: 
 ratings: 
 reviews: 
-size: 8.2M
 website: https://coiny.io/
 repository: 
 issue: 

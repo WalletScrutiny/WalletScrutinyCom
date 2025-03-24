@@ -12,7 +12,6 @@ version: 1.0.32
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.lacero.io/flowos/
 repository: 
 issue: 

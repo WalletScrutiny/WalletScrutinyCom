@@ -12,7 +12,6 @@ version: 1.0.4
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://flavioflima.com
 repository: 
 issue: 

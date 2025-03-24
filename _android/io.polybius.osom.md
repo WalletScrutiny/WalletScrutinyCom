@@ -13,7 +13,6 @@ version: 1.24.74
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://osom.finance
 repository: 
 issue: 

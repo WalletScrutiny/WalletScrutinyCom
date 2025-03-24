@@ -12,7 +12,6 @@ version: '1.4'
 stars: 4.7
 ratings: 
 reviews: 
-size: 
 website: http://praise.pe.kr
 repository: 
 issue: 

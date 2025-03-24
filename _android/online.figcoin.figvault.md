@@ -13,7 +13,6 @@ version: 0.25.0
 stars: 4.4
 ratings: 42
 reviews: 27
-size: 
 website: https://figcoin.online
 repository: 
 issue: 

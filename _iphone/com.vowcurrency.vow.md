@@ -12,7 +12,6 @@ updated: 2024-04-09
 version: 1.3.4
 stars: 5
 reviews: 6
-size: '65130496'
 website: https://vowcurrency.com/knowledge-base/
 repository: 
 issue: 

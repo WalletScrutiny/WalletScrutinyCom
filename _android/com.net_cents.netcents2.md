@@ -13,7 +13,6 @@ version: 2.11.15
 stars: 3.5
 ratings: 150
 reviews: 3
-size: 
 website: http://www.net-cents.com
 repository: 
 issue: 

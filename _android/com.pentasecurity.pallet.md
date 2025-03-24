@@ -12,7 +12,6 @@ version: 1.0.7.1
 stars: 
 ratings: 
 reviews: 
-size: 8.4M
 website: http://www.pentasecurity.com
 repository: 
 issue: 

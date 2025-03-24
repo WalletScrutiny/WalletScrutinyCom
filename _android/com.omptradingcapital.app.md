@@ -12,7 +12,6 @@ version: '1.0'
 stars: 3
 ratings: 
 reviews: 
-size: 
 website: https://omptrading.capital
 repository: 
 issue: 

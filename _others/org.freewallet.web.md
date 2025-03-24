@@ -10,6 +10,7 @@ twitter: freewalletorg
 provider: Wallet Services Ltd.
 meta: ok
 verdict: wip
+social: 
 
 ---
 

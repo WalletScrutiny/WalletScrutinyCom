@@ -13,7 +13,6 @@ version: 3.0.0
 stars: 4.3
 ratings: 1064
 reviews: 124
-size: 
 website: https://kardiachain.io/
 repository: 
 issue: 
@@ -29,7 +28,7 @@ twitter: KardiaChain
 social:
 - https://www.facebook.com/KardiaChainFoundation
 redirect_from: 
-developerName: HAVENIUM PTE. LTD.
+developerName: YGI Labs
 features: 
 
 ---

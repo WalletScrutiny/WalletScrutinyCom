@@ -13,7 +13,6 @@ version: Varies with device
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
 website: https://getvega.app
 repository: 
 issue: 

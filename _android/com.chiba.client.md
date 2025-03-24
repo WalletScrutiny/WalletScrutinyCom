@@ -13,7 +13,6 @@ version: 1.0.11
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://chiba.exchange
 repository: 
 issue: 

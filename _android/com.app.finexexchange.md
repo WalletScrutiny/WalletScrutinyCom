@@ -12,7 +12,6 @@ version: 11.5.0
 stars: 4
 ratings: 
 reviews: 
-size: 
 website: https://finexchanges.com
 repository: 
 issue: 

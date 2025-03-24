@@ -6,13 +6,12 @@ authors:
 - danny
 appId: com.admiralmarkets.tradersroom
 appCountry: in
-idd: 1222861799
+idd: '1222861799'
 released: 2017-06-28
-updated: 2025-01-22
-version: 5.21.0
+updated: 2025-02-18
+version: 5.23.0
 stars: 3
 reviews: 2
-size: '167194624'
 website: https://admiralmarkets.com/
 repository: 
 issue: 

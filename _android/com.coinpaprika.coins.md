@@ -8,12 +8,11 @@ users: 100000
 appId: com.coinpaprika.coins
 appCountry: us
 released: 2020-06-15
-updated: 2024-10-24
-version: 1.17.16
+updated: 2025-03-03
+version: 1.17.17
 stars: 4.3
 ratings: 1401
 reviews: 95
-size: 
 website: https://coins.coinpaprika.com/
 repository: 
 issue: 

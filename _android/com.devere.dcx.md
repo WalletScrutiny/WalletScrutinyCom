@@ -13,7 +13,6 @@ version: 4.4.0
 stars: 3.9
 ratings: 
 reviews: 1
-size: 
 website: http://www.devere-crypto.com
 repository: 
 issue: 

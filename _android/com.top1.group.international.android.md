@@ -12,7 +12,6 @@ version: 3.9.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.top1groups.com/
 repository: 
 issue: 

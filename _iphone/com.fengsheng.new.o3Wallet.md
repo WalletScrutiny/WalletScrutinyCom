@@ -12,7 +12,6 @@ updated: 2023-05-18
 version: 3.3.1
 stars: 3.9
 reviews: 19
-size: '73721856'
 website: https://o3.network
 repository: 
 issue: 

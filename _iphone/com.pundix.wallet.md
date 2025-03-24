@@ -12,7 +12,6 @@ updated: 2020-12-29
 version: 2.9.4
 stars: 3.9
 reviews: 84
-size: '276264960'
 website: https://pundix.com
 repository: 
 issue: 

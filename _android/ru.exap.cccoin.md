@@ -12,7 +12,6 @@ version: '1.20'
 stars: 4
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 1.3.1
 stars: 4.2
 ratings: 129
 reviews: 63
-size: 22M
 website: https://www.bbx.com/
 repository: 
 issue: 

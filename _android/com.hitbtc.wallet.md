@@ -13,7 +13,6 @@ version: 1.35.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://hitbtc.com/wallet
 repository: 
 issue: 

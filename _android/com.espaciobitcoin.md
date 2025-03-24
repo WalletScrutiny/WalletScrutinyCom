@@ -12,7 +12,6 @@ version: 3.8.5
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.espacioculturalbitcoin.com/
 repository: 
 issue: 

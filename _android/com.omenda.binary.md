@@ -12,7 +12,6 @@ version: 3.0.0.2
 stars: 3.9
 ratings: 
 reviews: 
-size: 
 website: https://omenda.com
 repository: 
 issue: 

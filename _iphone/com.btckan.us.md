@@ -12,7 +12,6 @@ updated: 2025-01-26
 version: 8.29.1
 stars: 3.4
 reviews: 44
-size: '173571072'
 website: https://bitkan.com/
 repository: 
 issue: 

@@ -12,7 +12,6 @@ updated: 2025-01-31
 version: 2.0.67
 stars: 4.7
 reviews: 9
-size: '73522176'
 website: https://www.corexchain.io/?page_id=1479&lang=en
 repository: 
 issue: 

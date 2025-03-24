@@ -12,7 +12,6 @@ updated: 2022-03-11
 version: 1.1.0
 stars: 5
 reviews: 3
-size: '80612352'
 website: https://x-meta.com/
 repository: 
 issue: 

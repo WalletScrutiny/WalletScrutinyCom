@@ -12,7 +12,6 @@ updated: 2025-01-23
 version: 7.4.79
 stars: 4.3
 reviews: 12
-size: '152761344'
 website: https://www.deepcoin.com
 repository: 
 issue: 

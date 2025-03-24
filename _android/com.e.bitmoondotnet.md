@@ -13,13 +13,12 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://bitmoon.net
 repository: 
 issue: 
 icon: com.e.bitmoondotnet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-04-22

@@ -13,7 +13,6 @@ version: 2.1.3
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://exchaino.com
 repository: 
 issue: 

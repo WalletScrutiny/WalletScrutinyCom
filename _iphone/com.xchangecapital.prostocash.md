@@ -12,7 +12,6 @@ updated: 2022-12-22
 version: 2.0.3
 stars: 1
 reviews: 1
-size: '70281216'
 website: https://prostocash.com
 repository: 
 issue: 

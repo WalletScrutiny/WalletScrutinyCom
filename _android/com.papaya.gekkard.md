@@ -13,7 +13,6 @@ version: 1.1.1
 stars: 2.3
 ratings: 43
 reviews: 69
-size: 
 website: https://gekkoin.com/index.html
 repository: 
 issue: 

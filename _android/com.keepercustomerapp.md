@@ -13,7 +13,6 @@ version: 3.8.4
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.tosblock.com
 repository: 
 issue: 

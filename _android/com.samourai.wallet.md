@@ -15,7 +15,6 @@ version: VARY
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://samouraiwallet.com
 repository: https://code.samourai.io/wallet/samourai-wallet-android
 issue: 

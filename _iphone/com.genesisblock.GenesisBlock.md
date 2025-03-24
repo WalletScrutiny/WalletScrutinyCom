@@ -12,7 +12,6 @@ updated: 2022-06-16
 version: 0.2.7
 stars: 4.4
 reviews: 54
-size: '53528576'
 website: https://hightop.com
 repository: 
 issue: 

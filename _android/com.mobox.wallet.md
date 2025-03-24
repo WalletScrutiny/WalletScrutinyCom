@@ -13,13 +13,12 @@ version: 1.6.0
 stars: 4.6
 ratings: 2457
 reviews: 197
-size: 
 website: https://mobox.io/
 repository: 
 issue: 
 icon: com.mobox.wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
 appHashes: 
 date: 2023-05-10

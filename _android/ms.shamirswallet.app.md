@@ -12,7 +12,6 @@ version: 1.3.1
 stars: 
 ratings: 
 reviews: 
-size: 8.2M
 website: https://shamirswallet.com/
 repository: 
 issue: 

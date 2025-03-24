@@ -12,7 +12,6 @@ updated: 2023-08-03
 version: 3.8.8
 stars: 2.8
 reviews: 273
-size: '158295040'
 website: http://www.hb.co.kr
 repository: 
 issue: 

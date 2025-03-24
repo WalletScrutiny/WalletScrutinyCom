@@ -13,7 +13,6 @@ version: 2.24.1
 stars: 2.8
 ratings: 884
 reviews: 9
-size: 
 website: https://www.bitsacard.com
 repository: 
 issue: 

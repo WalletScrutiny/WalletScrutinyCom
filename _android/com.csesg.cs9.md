@@ -13,7 +13,6 @@ version: 1.2.9
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://cs9.io
 repository: 
 issue: 

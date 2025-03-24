@@ -13,7 +13,6 @@ version: 1.5.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://pocketbitcoin.com
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 2.1.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.wadzpay.com
 repository: 
 issue: 

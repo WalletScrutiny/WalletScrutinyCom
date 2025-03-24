@@ -12,7 +12,6 @@ version: '4.5'
 stars: 4.4
 ratings: 
 reviews: 
-size: 
 website: https://doshfx.io/
 repository: 
 issue: 

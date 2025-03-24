@@ -12,7 +12,6 @@ version: '1.5'
 stars: 4.6
 ratings: 
 reviews: 
-size: 
 website: http://dcbits.io
 repository: 
 issue: 

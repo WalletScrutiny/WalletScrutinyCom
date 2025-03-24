@@ -13,7 +13,6 @@ version: 1.2.1
 stars: 3.4
 ratings: 
 reviews: 4
-size: 
 website: https://yappi.com.br/
 repository: 
 issue: 

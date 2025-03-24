@@ -13,7 +13,6 @@ version: '2.8'
 stars: 3.6
 ratings: 
 reviews: 
-size: 
 website: https://www.icewal.com/
 repository: 
 issue: 

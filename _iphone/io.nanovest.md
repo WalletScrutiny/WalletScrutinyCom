@@ -12,7 +12,6 @@ updated: 2024-09-23
 version: 3.17.0
 stars: 5
 reviews: 10
-size: '100564992'
 website: https://nanovest.io/
 repository: 
 issue: 

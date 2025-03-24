@@ -12,7 +12,6 @@ updated: 2021-12-11
 version: '2.1'
 stars: 0
 reviews: 0
-size: '24221696'
 website: https://trycircleapp.com/
 repository: 
 issue: 

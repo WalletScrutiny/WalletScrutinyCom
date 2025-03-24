@@ -13,13 +13,12 @@ version: 1.0.6
 stars: 4.8
 ratings: 
 reviews: 
-size: 
 website: https://www.b4uglobal.com
 repository: 
 issue: 
 icon: com.b4uglobal.app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-02-08

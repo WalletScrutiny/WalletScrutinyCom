@@ -12,7 +12,6 @@ version: 1.0.3
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://github.com/bitteryapp/bitteryapp-android
 repository: 
 issue: 

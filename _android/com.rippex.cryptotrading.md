@@ -13,7 +13,6 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
 website: 
 repository: 
 issue: 

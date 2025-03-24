@@ -13,7 +13,6 @@ version: 1.1.1
 stars: 3.2
 ratings: 598
 reviews: 311
-size: 19M
 website: https://www.bithumb.com
 repository: 
 issue: 

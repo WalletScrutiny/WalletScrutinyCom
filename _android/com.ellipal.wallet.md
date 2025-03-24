@@ -5,16 +5,15 @@ altTitle:
 authors:
 - leo
 - danny
-users: 50000
+users: 100000
 appId: com.ellipal.wallet
 appCountry: us
 released: 2018-07-02
-updated: 2025-01-24
-version: 4.5.1
+updated: 2025-02-24
+version: 4.6.0
 stars: 4
 ratings: 933
-reviews: 508
-size: 
+reviews: 510
 website: http://www.ellipal.com
 repository: 
 issue: 

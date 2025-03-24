@@ -13,7 +13,6 @@ version: '2.0'
 stars: 4.9
 ratings: 396
 reviews: 4
-size: 
 website: https://www.toolstrades.com
 repository: 
 issue: 

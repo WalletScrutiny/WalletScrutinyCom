@@ -12,7 +12,6 @@ version: 1.0.1
 stars: 5
 ratings: 
 reviews: 
-size: 
 website: https://metafarmcrypto.com
 repository: 
 issue: 

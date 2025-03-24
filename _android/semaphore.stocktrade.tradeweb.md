@@ -13,7 +13,6 @@ version: 4.1.1.15
 stars: 3.8
 ratings: 
 reviews: 
-size: 
 website: http://stocktong.io
 repository: 
 issue: 

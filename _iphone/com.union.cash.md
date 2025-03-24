@@ -12,7 +12,6 @@ updated: 2024-04-07
 version: '1.40'
 stars: 0
 reviews: 0
-size: '156867584'
 website: https://union.cash
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: '1.01'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://ocm.exchange/
 repository: 
 issue: 

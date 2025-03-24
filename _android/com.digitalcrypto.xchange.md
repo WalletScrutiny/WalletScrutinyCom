@@ -13,13 +13,12 @@ version: '1.04'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
 icon: com.digitalcrypto.xchange.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-05-23

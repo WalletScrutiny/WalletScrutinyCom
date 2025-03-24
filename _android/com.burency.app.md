@@ -13,7 +13,6 @@ version: 1.0.2
 stars: 4.3
 ratings: 241
 reviews: 139
-size: 22M
 website: https://www.burency.com/
 repository: 
 issue: 

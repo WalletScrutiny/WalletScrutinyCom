@@ -13,7 +13,6 @@ version: 2.1.17
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.sanuslife.com
 repository: 
 issue: 

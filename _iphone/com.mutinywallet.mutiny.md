@@ -12,7 +12,6 @@ updated: 2024-09-04
 version: 1.8.0
 stars: 4.8
 reviews: 18
-size: '47292416'
 website: https://www.mutinywallet.com/
 repository: https://github.com/MutinyWallet/mutiny-web
 issue: 

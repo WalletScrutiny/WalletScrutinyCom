@@ -9,6 +9,7 @@ website: https://coinb.in
 provider: OutCast3k
 meta: ok
 verdict: wip
+social: 
 
 ---
 

@@ -13,13 +13,12 @@ version: 0.3.9
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://deex.exchange/
 repository: 
 issue: 
 icon: deex.exchange.android.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-06-12

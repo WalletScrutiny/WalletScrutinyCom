@@ -12,7 +12,6 @@ updated: 2023-02-21
 version: 0.4.7
 stars: 5
 reviews: 1
-size: '59725824'
 website: https://www.finx.global/
 repository: 
 issue: 

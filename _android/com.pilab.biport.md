@@ -8,12 +8,11 @@ users: 10000
 appId: com.pilab.biport
 appCountry: 
 released: 2023-02-09
-updated: 2024-10-08
-version: '0.44'
+updated: 2025-03-10
+version: '0.45'
 stars: 4
 ratings: 
 reviews: 8
-size: 
 website: https://pilab.co
 repository: 
 issue: 

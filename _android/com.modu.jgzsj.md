@@ -13,7 +13,6 @@ version: 4.9.2-RELEASE
 stars: 4.1
 ratings: 
 reviews: 
-size: 
 website: http://www.jgz555.com
 repository: 
 issue: 

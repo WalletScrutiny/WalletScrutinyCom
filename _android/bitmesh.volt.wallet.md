@@ -13,7 +13,6 @@ version: 2.4.0
 stars: 4.4
 ratings: 161
 reviews: 30
-size: 
 website: http://www.volt.id
 repository: 
 issue: 

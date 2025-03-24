@@ -13,7 +13,6 @@ version: '2.4'
 stars: 4.4
 ratings: 3455
 reviews: 159
-size: 
 website: https://trading4pro.com/
 repository: 
 issue: 

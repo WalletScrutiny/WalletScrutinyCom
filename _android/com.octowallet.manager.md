@@ -12,7 +12,6 @@ version: 1.1.0.146
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.octowallet.com
 repository: 
 issue: 

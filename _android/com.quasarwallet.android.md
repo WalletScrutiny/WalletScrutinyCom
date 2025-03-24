@@ -13,7 +13,6 @@ version: '1.5'
 stars: 3.1
 ratings: 
 reviews: 6
-size: 
 website: https://quasarwallet.com
 repository: 
 issue: 
@@ -31,7 +30,7 @@ social:
 - https://www.linkedin.com/company/reflextoken
 - https://www.instagram.com/reflextoken
 redirect_from: 
-developerName: Reflex Token
+developerName: Blaqclouds
 features: 
 
 ---

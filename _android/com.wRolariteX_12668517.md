@@ -13,7 +13,6 @@ version: Culubo
 stars: 3.9
 ratings: 
 reviews: 
-size: 
 website: https://www.bitcoin.rolarite.com
 repository: 
 issue: 

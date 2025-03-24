@@ -13,7 +13,6 @@ version: 1.2.2
 stars: 4.8
 ratings: 
 reviews: 
-size: 
 website: https://www.c-trade.com/
 repository: 
 issue: 

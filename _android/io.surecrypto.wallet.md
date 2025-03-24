@@ -12,7 +12,6 @@ version: 2.2.0
 stars: 4.8
 ratings: 
 reviews: 27
-size: 
 website: https://surecrypto.io
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 1.0.4
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.secuxtech.com
 repository: 
 issue: 

@@ -12,7 +12,6 @@ updated: 2023-08-16
 version: 1.1.22
 stars: 0
 reviews: 0
-size: '25137152'
 website: https://zaif.jp/
 repository: 
 issue: 

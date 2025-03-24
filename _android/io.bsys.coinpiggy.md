@@ -13,13 +13,12 @@ version: '1.106'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://coinpiggy.io
 repository: 
 issue: 
 icon: io.bsys.coinpiggy.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-06-01

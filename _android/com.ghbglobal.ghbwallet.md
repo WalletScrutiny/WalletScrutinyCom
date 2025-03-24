@@ -13,7 +13,6 @@ version: 1.7.7
 stars: 4.5
 ratings: 
 reviews: 
-size: 
 website: http://ghbwallet.com/home/page/index.html
 repository: 
 issue: 
@@ -31,7 +30,7 @@ social:
 - https://t.me/ghbinfo
 - https://www.youtube.com/channel/UCmtoOoY_KrU-12ke92zhG4Q
 redirect_from: 
-developerName: Go Hobeom
+developerName: AI PROGRAM
 features: 
 
 ---

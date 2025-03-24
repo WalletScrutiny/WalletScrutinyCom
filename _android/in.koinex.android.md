@@ -12,7 +12,6 @@ version: 0.1.5
 stars: 2.1
 ratings: 3700
 reviews: 9
-size: 
 website: https://koinex.in
 repository: 
 issue: 

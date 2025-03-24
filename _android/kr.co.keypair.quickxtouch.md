@@ -13,7 +13,6 @@ version: 1.0.0.57
 stars: 
 ratings: 
 reviews: 
-size: 10M
 website: https://www.quickx.io
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: '2.2'
 stars: 4.9
 ratings: 28
 reviews: 6
-size: 
 website: https://www.digibytecafe.com
 repository: 
 issue: 

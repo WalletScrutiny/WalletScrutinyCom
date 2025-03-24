@@ -12,7 +12,6 @@ updated: 2023-12-28
 version: 1.5.1
 stars: 5
 reviews: 1
-size: '56172544'
 website: https://lyowallet.com/
 repository: 
 issue: 

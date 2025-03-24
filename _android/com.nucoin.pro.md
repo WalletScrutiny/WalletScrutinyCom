@@ -12,7 +12,6 @@ version: 1.0.2.211231
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 

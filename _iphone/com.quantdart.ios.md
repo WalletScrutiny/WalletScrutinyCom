@@ -12,7 +12,6 @@ updated: 2022-01-27
 version: 1.1.25
 stars: 0
 reviews: 0
-size: '184808448'
 website: https://www.quantdart.com/
 repository: 
 issue: 

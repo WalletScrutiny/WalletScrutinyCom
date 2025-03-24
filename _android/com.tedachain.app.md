@@ -13,7 +13,6 @@ version: 2.6.7
 stars: 4.4
 ratings: 
 reviews: 5
-size: 
 website: 
 repository: 
 issue: 

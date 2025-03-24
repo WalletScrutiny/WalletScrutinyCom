@@ -12,7 +12,6 @@ version: 1.0.0.60
 stars: 
 ratings: 
 reviews: 
-size: 11M
 website: http://keywalletpro.io
 repository: 
 issue: 

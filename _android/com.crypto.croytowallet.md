@@ -13,7 +13,6 @@ version: 13.2.7
 stars: 4.6
 ratings: 
 reviews: 
-size: 
 website: https://www.imx.global
 repository: 
 issue: 

@@ -13,16 +13,15 @@ version: 6.22.0
 stars: 4.6
 ratings: 1003
 reviews: 101
-size: 
 website: https://frontier.xyz/
 repository: 
 issue: 
 icon: com.frontierwallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
 appHashes: 
-date: 2022-01-12
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: FrontierDotXYZ

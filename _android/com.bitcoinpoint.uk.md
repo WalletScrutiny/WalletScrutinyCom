@@ -12,7 +12,6 @@ version: 6.4.6
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.bitcoinpoint.com/
 repository: 
 issue: 

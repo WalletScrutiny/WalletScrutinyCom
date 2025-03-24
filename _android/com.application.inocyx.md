@@ -13,7 +13,6 @@ version: '1.42'
 stars: 4.7
 ratings: 
 reviews: 
-size: 
 website: https://inocyx.com/
 repository: 
 issue: 

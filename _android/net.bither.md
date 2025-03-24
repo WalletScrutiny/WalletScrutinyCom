@@ -15,7 +15,6 @@ version: 2.1.6
 stars: 4.1
 ratings: 335
 reviews: 31
-size: 
 website: http://Bither.net
 repository: https://github.com/bither/bither-android
 issue: https://github.com/bither/bither-android/issues/69

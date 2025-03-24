@@ -12,7 +12,6 @@ version: '1.0'
 stars: 3.7
 ratings: 
 reviews: 
-size: 
 website: https://rhypton.io
 repository: 
 issue: 

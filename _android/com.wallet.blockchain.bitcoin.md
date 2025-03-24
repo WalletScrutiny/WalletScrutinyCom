@@ -12,7 +12,6 @@ version: 0.2.7
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://coinhub8899.web.app
 repository: 
 issue: 

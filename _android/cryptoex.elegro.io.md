@@ -14,7 +14,6 @@ version: 1.0.4
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://personal.elegro.eu/exchange
 repository: 
 issue: 

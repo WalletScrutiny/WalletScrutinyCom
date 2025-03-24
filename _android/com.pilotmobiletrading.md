@@ -13,7 +13,6 @@ version: 6.02.486
 stars: 4.7
 ratings: 68
 reviews: 9
-size: 
 website: https://pilottrading.co/
 repository: 
 issue: 

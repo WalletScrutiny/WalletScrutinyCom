@@ -13,16 +13,15 @@ version: 4.1.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://4ange.me/
 repository: 
 issue: 
 icon: com.xchange.x4ange.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-01-19
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: 

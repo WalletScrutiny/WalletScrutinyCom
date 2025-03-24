@@ -12,7 +12,6 @@ updated: 2021-10-11
 version: 4.1.2
 stars: 3.2
 reviews: 35
-size: 93606912
 website: https://www.hbtc.com/
 repository: 
 issue: 

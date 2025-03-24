@@ -12,7 +12,6 @@ version: 4.1.1_exchief
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 

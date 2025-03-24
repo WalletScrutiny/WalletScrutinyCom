@@ -13,7 +13,6 @@ version: 1.2.5
 stars: 3.6
 ratings: 
 reviews: 1
-size: 
 website: https://phemex.com.tr/
 repository: 
 issue: 

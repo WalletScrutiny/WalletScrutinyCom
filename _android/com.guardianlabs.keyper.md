@@ -12,7 +12,6 @@ version: 2.3.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://myguardian.network/
 repository: 
 issue: 

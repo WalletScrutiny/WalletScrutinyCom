@@ -13,7 +13,6 @@ version: 1.0.5
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://laxya.io
 repository: 
 issue: 

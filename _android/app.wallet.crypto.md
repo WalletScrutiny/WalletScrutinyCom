@@ -12,7 +12,6 @@ version: 2.0.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://wallet.app
 repository: 
 issue: 

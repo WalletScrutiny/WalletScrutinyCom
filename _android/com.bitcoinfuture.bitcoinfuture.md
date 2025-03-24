@@ -13,7 +13,6 @@ version: '1.7'
 stars: 3.4
 ratings: 
 reviews: 3
-size: 
 website: https://bitcoinfuture.com/
 repository: 
 issue: 

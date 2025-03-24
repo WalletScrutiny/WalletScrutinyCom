@@ -12,7 +12,6 @@ updated: 2024-05-03
 version: 1.1.2
 stars: 5
 reviews: 10
-size: '36616192'
 website: https://wallet-balancenetwork.io/
 repository: 
 issue: 

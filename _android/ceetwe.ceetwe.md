@@ -12,7 +12,6 @@ version: '22.01'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://ceetwe.com
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: '6771'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.ethegram.net
 repository: 
 issue: 

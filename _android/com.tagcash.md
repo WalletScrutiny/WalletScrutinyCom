@@ -13,7 +13,6 @@ version: 8.0.4
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://tagcash.com
 repository: 
 issue: 

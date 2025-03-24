@@ -12,7 +12,6 @@ version: '1.17'
 stars: 4.9
 ratings: 
 reviews: 
-size: 
 website: https://hitpaywallet.com/
 repository: 
 issue: 

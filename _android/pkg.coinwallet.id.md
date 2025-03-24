@@ -12,7 +12,6 @@ version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 6.7M
 website: https://coinwallet.id
 repository: 
 issue: 

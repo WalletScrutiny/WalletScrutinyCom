@@ -12,7 +12,6 @@ version: 0.0.18
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.inigmasys.com/
 repository: 
 issue: 

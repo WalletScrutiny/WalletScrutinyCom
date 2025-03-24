@@ -12,7 +12,6 @@ updated: 2024-03-04
 version: 2.3.18
 stars: 0
 reviews: 0
-size: '37053440'
 website: https://kryll.io
 repository: 
 issue: 

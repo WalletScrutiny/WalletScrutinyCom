@@ -13,7 +13,6 @@ version: 1.0.26
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 'https://www.fuzew.com '
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 0.0.21
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://tradersvillage.co
 repository: 
 issue: 

@@ -12,13 +12,12 @@ updated: 2023-01-05
 version: 1.3.1
 stars: 5
 reviews: 1
-size: '100746240'
 website: http://www.vstmex.com
 repository: 
 issue: 
 icon: com.vstmexvstmex1.vstmexvstmex.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 appHashes: 
 date: 2023-04-12

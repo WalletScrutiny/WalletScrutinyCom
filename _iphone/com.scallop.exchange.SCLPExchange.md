@@ -12,7 +12,6 @@ updated: 2022-08-16
 version: 1.0.2
 stars: 4.7
 reviews: 10
-size: '174145536'
 website: http://www.scallop.exchange
 repository: 
 issue: 

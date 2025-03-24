@@ -12,7 +12,6 @@ version: 1.2.12
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://eukapay.com
 repository: 
 issue: 

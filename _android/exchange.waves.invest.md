@@ -13,7 +13,6 @@ version: 1.10.10
 stars: 4.4
 ratings: 
 reviews: 5
-size: 
 website: https://waves.exchange/investments
 repository: 
 issue: 

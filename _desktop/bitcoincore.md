@@ -7,7 +7,7 @@ authors:
 released: 2009-01-04
 discontinued: 
 updated: 2024-04-17
-version: 27
+version: '27'
 binaries: 
 provider: Bitcoin Core Developers
 providerWebsite: 

@@ -12,7 +12,6 @@ updated: 2020-12-02
 version: 5.4.0
 stars: 3.9
 reviews: 22
-size: '140385280'
 website: https://www.qpocket.io/
 repository: https://github.com/QuarkChain/QPocket-Android
 issue: 

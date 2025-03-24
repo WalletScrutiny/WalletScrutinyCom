@@ -12,7 +12,6 @@ updated: 2021-06-02
 version: '1.0'
 stars: 0
 reviews: 0
-size: '56907776'
 website: https://payizadlt.com/
 repository: 
 issue: 

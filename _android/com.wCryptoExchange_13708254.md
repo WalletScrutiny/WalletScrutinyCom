@@ -12,7 +12,6 @@ version: 1.1.45
 stars: 
 ratings: 
 reviews: 
-size: 20M
 website: https://m2f5ac532.app-ads-txt.com
 repository: 
 issue: 

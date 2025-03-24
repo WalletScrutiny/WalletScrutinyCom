@@ -12,7 +12,6 @@ updated: 2022-11-16
 version: '1.4'
 stars: 4.3
 reviews: 24
-size: '35306496'
 website: https://sonitix.exchange/
 repository: 
 issue: 

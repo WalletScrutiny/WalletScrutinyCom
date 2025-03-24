@@ -12,7 +12,6 @@ updated: 2025-02-04
 version: 2.33.1
 stars: 3
 reviews: 18
-size: '135536640'
 website: http://moonstake.io
 repository: 
 issue: 

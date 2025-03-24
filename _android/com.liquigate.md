@@ -12,7 +12,6 @@ version: 1.1.9
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.liquigate.com
 repository: 
 issue: 

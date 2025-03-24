@@ -13,7 +13,6 @@ version: 2.2.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.cmrobot.id/
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 1.0.1
 stars: 4.4
 ratings: 
 reviews: 
-size: 
 website: https://funexpro.com/
 repository: 
 issue: 

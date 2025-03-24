@@ -13,16 +13,15 @@ version: 1.2.10
 stars: 4.6
 ratings: 
 reviews: 
-size: 
 website: https://acornbit.com
 repository: 
 issue: 
 icon: com.cushionlabs.acornbit.dev.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosendreceive
 appHashes: 
-date: 2024-12-08
+date: 2025-03-17
 signer: 
 reviewArchive: 
 twitter: acornbitsupport

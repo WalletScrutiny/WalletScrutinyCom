@@ -12,7 +12,6 @@ version: 1.0.13
 stars: 2.7
 ratings: 
 reviews: 
-size: 
 website: https://bizonex.com/
 repository: 
 issue: 

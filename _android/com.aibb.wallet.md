@@ -13,7 +13,6 @@ version: 2.3.15
 stars: 4.2
 ratings: 319
 reviews: 254
-size: 15M
 website: https://blockbank.ai/
 repository: 
 issue: 

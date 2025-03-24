@@ -13,7 +13,6 @@ version: 2.4.7
 stars: 3.7
 ratings: 400
 reviews: 276
-size: 
 website: https://www.bytesmix.com
 repository: 
 issue: 

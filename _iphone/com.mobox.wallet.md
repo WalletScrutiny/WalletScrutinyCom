@@ -12,7 +12,6 @@ updated: 2021-12-20
 version: 1.9.2
 stars: 3.9
 reviews: 23
-size: 60278784
 website: https://mobox.io
 repository: 
 issue: 

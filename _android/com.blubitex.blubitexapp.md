@@ -13,7 +13,6 @@ version: 2.1.342
 stars: 3.4
 ratings: 2703
 reviews: 37
-size: 
 website: https://blubitex.com
 repository: 
 issue: 

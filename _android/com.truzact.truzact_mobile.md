@@ -13,7 +13,6 @@ version: 4.6.7
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://truzact.com
 repository: 
 issue: 

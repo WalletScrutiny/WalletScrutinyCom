@@ -13,7 +13,6 @@ version: 2.0.22
 stars: 4.9
 ratings: 337
 reviews: 154
-size: 34M
 website: https://atswallet.io/
 repository: 
 issue: 

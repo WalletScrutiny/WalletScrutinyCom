@@ -13,7 +13,6 @@ version: 2.5.23
 stars: 4.4
 ratings: 
 reviews: 1
-size: 
 website: https://frostwallet.cc
 repository: 
 issue: 

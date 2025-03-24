@@ -13,7 +13,6 @@ version: 2.23.7
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://xcritical.com/
 repository: 
 issue: 

@@ -12,7 +12,6 @@ updated: 2023-09-27
 version: 2.16.0
 stars: 0
 reviews: 0
-size: '136568832'
 website: https://www.tokenomy.com
 repository: 
 issue: 

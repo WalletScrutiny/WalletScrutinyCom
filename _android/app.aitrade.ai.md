@@ -13,7 +13,6 @@ version: 1.0.1
 stars: 2.2
 ratings: 
 reviews: 
-size: 
 website: https://www.aiinvest.ai/
 repository: 
 issue: 

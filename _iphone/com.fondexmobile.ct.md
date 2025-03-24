@@ -12,7 +12,6 @@ updated: 2022-12-14
 version: 4.6.54384
 stars: 5
 reviews: 2
-size: '234923008'
 website: https://fondex.com/en/
 repository: 
 issue: 

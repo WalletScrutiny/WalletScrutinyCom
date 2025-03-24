@@ -13,7 +13,6 @@ version: 6.4.13
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://vspark.co
 repository: 
 issue: 

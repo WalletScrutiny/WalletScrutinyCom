@@ -14,7 +14,6 @@ version: 1.0.6
 stars: 3.8
 ratings: 1690
 reviews: 64
-size: 
 website: https://bitcoin.black
 repository: 
 issue: 

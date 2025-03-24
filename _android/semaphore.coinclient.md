@@ -13,7 +13,6 @@ version: 1.52.52
 stars: 
 ratings: 55
 reviews: 
-size: 
 website: http://cointong.io/
 repository: 
 issue: 

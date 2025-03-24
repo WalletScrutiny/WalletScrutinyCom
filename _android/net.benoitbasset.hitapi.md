@@ -12,7 +12,6 @@ version: 1.3.0
 stars: 4.5
 ratings: 145
 reviews: 6
-size: 
 website: http://hitapi.oblade.net
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 4.0.2
 stars: 3.7
 ratings: 9
 reviews: 3
-size: 22M
 website: 
 repository: 
 issue: 

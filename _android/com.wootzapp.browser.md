@@ -12,7 +12,6 @@ version: 1.7.1
 stars: 4.3
 ratings: 
 reviews: 
-size: 
 website: https://www.wootzapp.com
 repository: 
 issue: 

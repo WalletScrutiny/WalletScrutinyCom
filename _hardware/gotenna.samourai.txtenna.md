@@ -6,7 +6,7 @@ authors:
 released: 2018-10-15
 discontinued: 
 updated: 2019-05-05
-version: 0.95
+version: '0.95'
 binaries: https://github.com/MuleTools/txTenna/releases
 dimensions:
 - 130

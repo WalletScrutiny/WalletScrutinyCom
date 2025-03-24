@@ -12,7 +12,6 @@ version: 1.6.9
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://riccardoodissea.wixsite.com/innapp
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 2.6.3
 stars: 4.5
 ratings: 
 reviews: 45
-size: 
 website: https://zla.io
 repository: 
 issue: 

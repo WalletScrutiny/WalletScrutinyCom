@@ -13,7 +13,6 @@ version: '3.09'
 stars: 3.5
 ratings: 479
 reviews: 129
-size: 
 website: https://www.spend.com
 repository: 
 issue: 

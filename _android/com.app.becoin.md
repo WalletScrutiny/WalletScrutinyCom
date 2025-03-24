@@ -12,16 +12,15 @@ version: '1.0'
 stars: 4.6
 ratings: 
 reviews: 
-size: 
 website: https://becoin.exchange/
 repository: 
 issue: 
 icon: com.app.becoin.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2024-09-21
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: 

@@ -13,7 +13,6 @@ version: 3.1.22
 stars: 4.2
 ratings: 
 reviews: 2
-size: 
 website: http://bitanex.com
 repository: 
 issue: 

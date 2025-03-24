@@ -12,7 +12,6 @@ version: 0.0.6
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://rpm.market
 repository: 
 issue: 

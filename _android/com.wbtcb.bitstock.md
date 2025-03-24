@@ -13,7 +13,6 @@ version: 2.6.8
 stars: 2.9
 ratings: 
 reviews: 2
-size: 
 website: https://www.futured.app/
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: '0.21838'
 stars: 
 ratings: 
 reviews: 
-size: 11M
 website: 
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 9.6.4
 stars: 3.1
 ratings: 
 reviews: 5
-size: 
 website: https://tauros.io
 repository: 
 issue: 

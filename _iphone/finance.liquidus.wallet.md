@@ -12,7 +12,6 @@ updated: 2024-11-20
 version: 1.0.18
 stars: 0
 reviews: 0
-size: '61554688'
 website: https://liquidus.finance/
 repository: 
 issue: 

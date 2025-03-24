@@ -12,7 +12,6 @@ version: '1.27'
 stars: 3
 ratings: 
 reviews: 
-size: 
 website: https://www.bartwallet.pro
 repository: 
 issue: 

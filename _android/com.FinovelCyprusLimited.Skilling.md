@@ -13,7 +13,6 @@ version: 2.5.3
 stars: 4.4
 ratings: 172
 reviews: 6
-size: 
 website: https://skilling.com/
 repository: 
 issue: 

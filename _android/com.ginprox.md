@@ -12,7 +12,6 @@ version: 1.1.6
 stars: 1.9
 ratings: 716
 reviews: 488
-size: 73M
 website: https://gincoin.co
 repository: 
 issue: 

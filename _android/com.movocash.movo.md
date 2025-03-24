@@ -13,7 +13,6 @@ version: 4.3.3
 stars: 3.1
 ratings: 
 reviews: 143
-size: 
 website: http://movo.cash
 repository: 
 issue: 

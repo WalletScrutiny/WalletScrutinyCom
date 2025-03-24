@@ -12,7 +12,6 @@ version: 1.3.7
 stars: 3.7
 ratings: 394
 reviews: 173
-size: 95M
 website: https://gethaven.app
 repository: https://github.com/OpenBazaar/haven
 issue: https://github.com/OpenBazaar/haven/issues/3

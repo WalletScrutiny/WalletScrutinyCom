@@ -12,7 +12,6 @@ version: 1.0.16
 stars: 5
 ratings: 
 reviews: 
-size: 
 website: https://barteos.org
 repository: 
 issue: 

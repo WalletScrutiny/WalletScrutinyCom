@@ -12,7 +12,6 @@ version: 1.2.8
 stars: 4.8
 ratings: 
 reviews: 
-size: 
 website: http://moonposapp.com
 repository: 
 issue: 

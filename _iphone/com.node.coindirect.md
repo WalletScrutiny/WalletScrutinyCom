@@ -14,7 +14,6 @@ updated: 2021-07-21
 version: 1.2.7
 stars: 3.3
 reviews: 14
-size: '34306048'
 website: https://www.coindirect.com/
 repository: 
 issue: 

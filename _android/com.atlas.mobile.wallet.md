@@ -13,7 +13,6 @@ version: 1.0.45
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.cent.finance
 repository: 
 issue: 

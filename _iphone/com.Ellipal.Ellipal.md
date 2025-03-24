@@ -6,13 +6,12 @@ authors:
 - leo
 appId: com.Ellipal.Ellipal
 appCountry: us
-idd: 1426179665
+idd: '1426179665'
 released: 2018-08-25
-updated: 2025-01-17
-version: 4.5.0
+updated: 2025-02-20
+version: 4.6.0
 stars: 4.7
-reviews: 2925
-size: '84031488'
+reviews: 2931
 website: http://www.ellipal.com/
 repository: 
 issue: 

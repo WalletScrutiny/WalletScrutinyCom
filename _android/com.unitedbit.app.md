@@ -12,7 +12,6 @@ version: 1.1.7
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://unitedbit.com/
 repository: 
 issue: 

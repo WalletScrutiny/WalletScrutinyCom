@@ -12,7 +12,6 @@ version: 2.3.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.vcb.com/
 repository: 
 issue: 

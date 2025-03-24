@@ -12,7 +12,6 @@ version: 9.9.3.61
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.ag-system.com
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 5.10.23
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.tradethegames.com/
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: '1.1'
 stars: 2.9
 ratings: 
 reviews: 
-size: 
 website: https://hermesus.com
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 0.0.20
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.swappy.ws
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 2.1.20
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.cbanx.com
 repository: 
 issue: 

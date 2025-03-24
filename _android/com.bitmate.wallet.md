@@ -12,7 +12,6 @@ version: 9120.10.10
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://bitmate.io/
 repository: 
 issue: 

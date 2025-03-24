@@ -12,7 +12,6 @@ version: 1.0.7
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.btcboxpro.com/
 repository: 
 issue: 

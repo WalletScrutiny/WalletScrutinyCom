@@ -13,7 +13,6 @@ version: '1.21'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://bitturk.com
 repository: 
 issue: 

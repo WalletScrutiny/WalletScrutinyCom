@@ -13,6 +13,7 @@ country: AT
 price: 106EUR
 meta: defunct
 verdict: plainkey
+social: 
 
 ---
 

@@ -13,7 +13,6 @@ version: 5.6.1
 stars: 3.7
 ratings: 12322
 reviews: 3745
-size: 43M
 website: https://cfc.io
 repository: 
 issue: 

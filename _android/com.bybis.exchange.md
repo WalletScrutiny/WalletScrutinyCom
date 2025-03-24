@@ -13,7 +13,6 @@ version: '1.13'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://bybis.com
 repository: 
 issue: 

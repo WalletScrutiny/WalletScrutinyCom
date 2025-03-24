@@ -8,11 +8,10 @@ appId: com.core.ios.flitpay
 appCountry: in
 idd: 1571975471
 released: 2021-08-27
-updated: 2024-08-23
-version: 1.0.22
+updated: 2025-02-06
+version: 1.0.24
 stars: 4
-reviews: 80
-size: '34112512'
+reviews: 86
 website: https://www.flitpay.com
 repository: 
 issue: 

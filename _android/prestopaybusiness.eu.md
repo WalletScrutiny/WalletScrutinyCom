@@ -12,7 +12,6 @@ version: 1.0.5
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://prestopayments.eu/
 repository: 
 issue: 

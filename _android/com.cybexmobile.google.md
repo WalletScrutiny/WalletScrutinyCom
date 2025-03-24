@@ -12,7 +12,6 @@ version: 1.10.3
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.cybex.io
 repository: 
 issue: 

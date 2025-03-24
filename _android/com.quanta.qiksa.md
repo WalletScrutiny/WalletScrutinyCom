@@ -12,7 +12,6 @@ version: 1.1.0
 stars: 4.5
 ratings: 
 reviews: 
-size: 
 website: https://www.quantapay.com
 repository: 
 issue: 

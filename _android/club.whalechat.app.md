@@ -12,7 +12,6 @@ version: 0.4.19
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.whalechat.app
 repository: 
 issue: 

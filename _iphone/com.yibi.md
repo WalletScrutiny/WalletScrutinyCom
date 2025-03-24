@@ -12,7 +12,6 @@ updated: 2024-05-14
 version: 1.1.9
 stars: 3.7
 reviews: 3
-size: '180619264'
 website: 
 repository: 
 issue: 

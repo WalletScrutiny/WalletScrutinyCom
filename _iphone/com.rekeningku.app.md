@@ -12,7 +12,6 @@ updated: 2022-10-17
 version: 2.1.91
 stars: 4.7
 reviews: 30
-size: '55745536'
 website: https://www.reku.id/
 repository: 
 issue: 

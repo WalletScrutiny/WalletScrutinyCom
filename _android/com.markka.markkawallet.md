@@ -7,12 +7,11 @@ users: 10
 appId: com.markka.markkawallet
 appCountry: 
 released: 2022-02-06
-updated: 2024-12-23
-version: 2.5.0
+updated: 2025-02-07
+version: 2.5.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://markka.com
 repository: 
 issue: 
@@ -27,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Tulipfox
+developerName: Tulipfox-Tech
 features: 
 
 ---

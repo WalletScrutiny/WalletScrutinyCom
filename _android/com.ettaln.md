@@ -13,7 +13,6 @@ version: VARY
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://ettawallet.app
 repository: https://github.com/EttaWallet/EttaWallet
 issue: 

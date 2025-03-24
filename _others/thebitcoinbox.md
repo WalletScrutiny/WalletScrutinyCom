@@ -11,6 +11,7 @@ providerWebsite: https://www.thebitcoinbox.com
 repository: https://github.com/javgh/bitpay-brick
 meta: ok
 verdict: vapor
+social: 
 
 ---
 

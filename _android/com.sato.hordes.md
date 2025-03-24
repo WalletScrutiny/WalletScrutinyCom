@@ -12,16 +12,15 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.hordeswallet.com
 repository: 
 issue: 
 icon: com.sato.hordes.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2023-06-03
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: 

@@ -12,7 +12,6 @@ version: 1.0.4
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://coinfundit.com
 repository: 
 issue: 

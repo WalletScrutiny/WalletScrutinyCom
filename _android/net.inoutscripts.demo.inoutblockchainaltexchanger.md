@@ -12,16 +12,15 @@ version: '1.1'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://inout-blockchain-altexchanger.demo.inoutscripts.net/
 repository: 
 issue: 
 icon: net.inoutscripts.demo.inoutblockchainaltexchanger.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2024-03-07
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: 

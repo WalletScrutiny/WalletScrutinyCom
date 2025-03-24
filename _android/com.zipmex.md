@@ -13,7 +13,6 @@ version: 22.7.3.644
 stars: 3.6
 ratings: 17923
 reviews: 11575
-size: 
 website: https://zipmex.co.th/
 repository: 
 issue: 

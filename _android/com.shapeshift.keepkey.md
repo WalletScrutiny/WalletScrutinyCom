@@ -12,7 +12,6 @@ version: 1.1.0
 stars: 4.6
 ratings: 
 reviews: 1
-size: 
 website: https://keepkey.com
 repository: 
 issue: 

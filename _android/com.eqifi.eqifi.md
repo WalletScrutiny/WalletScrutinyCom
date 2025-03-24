@@ -13,7 +13,6 @@ version: 1.7.3
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.eqifi.com/
 repository: 
 issue: 

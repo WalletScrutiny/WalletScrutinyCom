@@ -12,7 +12,6 @@ updated: 2024-10-02
 version: 7.0.5
 stars: 4.6
 reviews: 466
-size: '37689344'
 website: 
 repository: 
 issue: 

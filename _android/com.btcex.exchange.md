@@ -13,7 +13,6 @@ version: 1.4.50
 stars: 3.9
 ratings: 
 reviews: 9
-size: 
 website: https://www.btcex.com/
 repository: 
 issue: 

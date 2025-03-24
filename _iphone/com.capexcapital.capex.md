@@ -12,7 +12,6 @@ updated: 2023-09-19
 version: 2.0.2
 stars: 0
 reviews: 0
-size: '59711488'
 website: https://capex.mn
 repository: 
 issue: 

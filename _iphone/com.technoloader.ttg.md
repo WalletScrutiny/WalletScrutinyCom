@@ -12,7 +12,6 @@ updated: 2022-11-01
 version: '1.8'
 stars: 4.9
 reviews: 11
-size: '22382592'
 website: https://www.tradethegames.com/
 repository: 
 issue: 

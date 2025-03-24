@@ -13,7 +13,6 @@ version: '1.21'
 stars: 4.7
 ratings: 491
 reviews: 13
-size: 
 website: https://www.bizzcoin.com/
 repository: 
 issue: 

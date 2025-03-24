@@ -12,7 +12,6 @@ version: 18.2.15
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://inbitwetrust.com/
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 2.0.38
 stars: 4.8
 ratings: 
 reviews: 
-size: 
 website: https://dapping.io/
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: '1.35'
 stars: 4.8
 ratings: 
 reviews: 1228
-size: 
 website: https://www.gokumarket.com
 repository: 
 issue: 

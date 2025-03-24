@@ -12,7 +12,6 @@ updated: 2024-04-04
 version: 2.6.8
 stars: 0
 reviews: 0
-size: '108044288'
 website: https://www.liquidityx.com/eu/
 repository: 
 issue: 

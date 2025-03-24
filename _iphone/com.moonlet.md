@@ -12,7 +12,6 @@ updated: 2022-06-19
 version: 1.5.26
 stars: 5
 reviews: 6
-size: '47066112'
 website: https://moonlet.io/
 repository: 
 issue: 

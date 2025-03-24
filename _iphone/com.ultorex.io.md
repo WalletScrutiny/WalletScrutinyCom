@@ -12,7 +12,6 @@ updated: 2025-01-23
 version: 1.1.17
 stars: 0
 reviews: 0
-size: '57819136'
 website: https://ultorex.io/about-us
 repository: 
 issue: 

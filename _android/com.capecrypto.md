@@ -13,7 +13,6 @@ version: 3.0.3
 stars: 3.3
 ratings: 
 reviews: 
-size: 
 website: https://capecrypto.com
 repository: 
 issue: 

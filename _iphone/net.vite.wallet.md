@@ -12,7 +12,6 @@ updated: 2024-03-22
 version: 5.0.0
 stars: 4.2
 reviews: 76
-size: '58832896'
 website: https://vite.org
 repository: 
 issue: 

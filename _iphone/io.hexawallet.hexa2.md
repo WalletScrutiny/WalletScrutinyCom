@@ -12,16 +12,15 @@ updated: 2025-01-20
 version: 2.4.8
 stars: 5
 reviews: 9
-size: '40224768'
 website: https://hexawallet.io/
 repository: https://github.com/bithyve/hexa
 issue: 
 icon: io.hexawallet.hexa2.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: ftbfs
 appHashes: 
-date: 2021-12-19
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: HexaWallet

@@ -13,7 +13,6 @@ version: 1.1.28
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.gbih.org
 repository: 
 issue: 

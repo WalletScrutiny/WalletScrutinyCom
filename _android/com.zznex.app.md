@@ -12,7 +12,6 @@ version: 4.0.0
 stars: 4.3
 ratings: 
 reviews: 
-size: 
 website: https://zznex.in/
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: '16'
 stars: 4.3
 ratings: 26
 reviews: 15
-size: 3.8M
 website: https://cglobank.com/
 repository: 
 issue: 

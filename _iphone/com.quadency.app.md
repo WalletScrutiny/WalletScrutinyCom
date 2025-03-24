@@ -12,7 +12,6 @@ updated: 2023-03-12
 version: 1.6.0
 stars: 4
 reviews: 24
-size: '44139520'
 website: https://quadency.com
 repository: 
 issue: 

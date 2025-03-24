@@ -13,7 +13,6 @@ version: 1.0.0
 stars: 3.8
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: https://github.com/AniketSindhu/My_Paper_Crypto_Wallet/issues/1

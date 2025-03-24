@@ -12,7 +12,6 @@ updated: 2025-01-20
 version: 3.4.0
 stars: 3.3
 reviews: 19
-size: '61508608'
 website: https://coinpass.com/
 repository: 
 issue: 

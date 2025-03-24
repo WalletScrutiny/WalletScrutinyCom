@@ -13,16 +13,15 @@ version: 2.2.01218
 stars: 5
 ratings: 273
 reviews: 13
-size: 
 website: http://diviproject.org
 repository: 
 issue: https://github.com/DiviProject/Divi-Desktop-Public/issues/214
 icon: io.divipay.divi.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-07-16
+date: 2025-02-28
 signer: 
 reviewArchive: 
 twitter: diviproject

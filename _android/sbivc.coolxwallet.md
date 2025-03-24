@@ -12,7 +12,6 @@ version: 1.28.100
 stars: 3.5
 ratings: 
 reviews: 
-size: 
 website: https://www.sbicxw.com/
 repository: 
 issue: 

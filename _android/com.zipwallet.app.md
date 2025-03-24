@@ -13,7 +13,6 @@ version: 10.0.0.0
 stars: 4
 ratings: 621
 reviews: 13
-size: 
 website: https://zipwalletpay.com
 repository: 
 issue: 

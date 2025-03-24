@@ -12,7 +12,6 @@ updated: 2023-12-06
 version: '2.1'
 stars: 0
 reviews: 0
-size: '61788160'
 website: https://www.muda.exchange
 repository: 
 issue: 

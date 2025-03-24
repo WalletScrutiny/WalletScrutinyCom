@@ -13,7 +13,6 @@ version: 3.0.5
 stars: 1.7
 ratings: 1121
 reviews: 948
-size: 
 website: https://chiji14xchange.com
 repository: 
 issue: 

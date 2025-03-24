@@ -12,7 +12,6 @@ version: 1.0.3
 stars: 2.1
 ratings: 
 reviews: 5
-size: 
 website: https://wc-s.com/wallet
 repository: 
 issue: 

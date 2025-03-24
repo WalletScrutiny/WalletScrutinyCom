@@ -13,7 +13,6 @@ version: 90.4.010
 stars: 4
 ratings: 
 reviews: 
-size: 
 website: https://www.gcmasia.com
 repository: 
 issue: 

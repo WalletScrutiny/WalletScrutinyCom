@@ -22,7 +22,6 @@ reviewArchive:
 twitter: lontivero
 social: 
 features: 
-developerName: Lucas Ontivero
 
 ---
 

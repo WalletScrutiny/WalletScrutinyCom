@@ -13,7 +13,6 @@ version: 4.1.0
 stars: 4.8
 ratings: 
 reviews: 1
-size: 
 website: https://me.hashkey.com/
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: '1.0'
 stars: 2.8
 ratings: 45
 reviews: 31
-size: 1.5M
 website: http://www.yeswallet.io
 repository: 
 issue: 

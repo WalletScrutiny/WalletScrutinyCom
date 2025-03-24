@@ -12,7 +12,6 @@ version: '18.1'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://dbxbang.com/
 repository: 
 issue: 

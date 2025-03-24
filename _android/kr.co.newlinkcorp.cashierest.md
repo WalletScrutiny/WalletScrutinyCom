@@ -13,7 +13,6 @@ version: 4.24.6
 stars: 3.7
 ratings: 
 reviews: 
-size: 
 website: https://www.cashierest.com
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: '1.6'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://gpcio.org/index_m.html
 repository: 
 issue: 

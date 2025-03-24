@@ -12,7 +12,6 @@ version: 5.2.5_coinfloww
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://coinfloww.com
 repository: 
 issue: 

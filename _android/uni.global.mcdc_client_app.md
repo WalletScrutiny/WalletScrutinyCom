@@ -12,7 +12,6 @@ version: 4.0.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://uni.global
 repository: 
 issue: 

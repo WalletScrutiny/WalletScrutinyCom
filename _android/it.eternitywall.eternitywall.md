@@ -12,7 +12,6 @@ version: 1.0.44
 stars: 4.6
 ratings: 
 reviews: 
-size: 
 website: http://eternitywall.it
 repository: 
 issue: 

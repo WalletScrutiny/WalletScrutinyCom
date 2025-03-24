@@ -12,7 +12,6 @@ updated: 2023-02-03
 version: 2.11.17
 stars: 3
 reviews: 8
-size: '65513472'
 website: https://www.net-cents.com
 repository: 
 issue: 

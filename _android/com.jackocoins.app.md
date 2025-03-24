@@ -13,7 +13,6 @@ version: 2.0.2
 stars: 3.9
 ratings: 148
 reviews: 26
-size: 
 website: https://www.jackocoins.com/
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 2.0.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://exmo.uvitto.ru
 repository: 
 issue: 

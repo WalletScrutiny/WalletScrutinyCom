@@ -1,6 +1,6 @@
 ---
 wsId: bitarooexpress
-title: Bitaroo Express - Buy Bitcoin
+title: Bitaroo Express – Buy Bitcoin
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,10 @@ appId: au.com.bitaroo.express
 appCountry: au
 idd: '6444825898'
 released: 2022-12-20
-updated: 2025-01-22
-version: 2.1.4
+updated: 2025-03-17
+version: 2.2.3
 stars: 4.8
 reviews: 9
-size: '45336576'
 website: https://www.bitaroo.com.au/
 repository: 
 issue: 

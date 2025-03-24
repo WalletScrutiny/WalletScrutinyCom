@@ -13,16 +13,15 @@ version: 0.0.228
 stars: 3.1
 ratings: 1359
 reviews: 5
-size: 
 website: https://www.bitcointoyou.com
 repository: 
 issue: 
 icon: com.pro.bitcointoyou.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-09-21
+date: 2025-02-18
 signer: 
 reviewArchive: 
 twitter: bitcointoyou

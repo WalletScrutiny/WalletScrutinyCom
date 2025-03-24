@@ -12,7 +12,6 @@ version: '9.0'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.coinstorey.com/
 repository: 
 issue: 

@@ -13,16 +13,15 @@ version: 7.30.2
 stars: 2.8
 ratings: 
 reviews: 50
-size: 
 website: 
 repository: 
 issue: 
 icon: com.yayd.exchangglobal.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-05-18
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: 

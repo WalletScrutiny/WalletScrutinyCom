@@ -10,18 +10,17 @@ idd: '1636243621'
 released: 2022-07-27
 updated: 2024-03-19
 version: 1.2.6
-stars: 3.5
-reviews: 23
-size: '131292160'
+stars: 3.4
+reviews: 24
 website: https://www.cointree.com
 repository: 
 issue: 
 icon: com.cointree.mobileapp.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2023-09-06
+date: 2025-03-17
 signer: 
 reviewArchive: 
 twitter: CointreeAus

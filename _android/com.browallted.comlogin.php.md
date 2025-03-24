@@ -12,7 +12,6 @@ version: '3.4'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://browallted.com
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 1.0.42
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.rixx.tech
 repository: 
 issue: 

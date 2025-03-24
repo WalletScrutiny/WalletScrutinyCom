@@ -13,16 +13,15 @@ version: 1.1.3
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.knightgames.co
 repository: 
 issue: 
 icon: com.bucdev.bestforexbroker.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
 appHashes: 
-date: 2023-03-30
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: 

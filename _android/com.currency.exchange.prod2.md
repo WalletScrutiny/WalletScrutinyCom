@@ -14,7 +14,6 @@ version: 1.42.11
 stars: 2.6
 ratings: 
 reviews: 1
-size: 
 website: http://dzengi.com
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 1.0.11
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.xliquidus.com/
 repository: 
 issue: 

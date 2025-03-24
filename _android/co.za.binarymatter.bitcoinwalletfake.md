@@ -13,7 +13,6 @@ version: '1.3'
 stars: 3.2
 ratings: 64
 reviews: 10
-size: 
 website: 
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 3.0.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://rbitex.com
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 1.7.0
 stars: 3.1
 ratings: 
 reviews: 6
-size: 
 website: https://bitgo.com
 repository: 
 issue: 

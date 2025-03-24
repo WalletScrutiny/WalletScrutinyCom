@@ -13,7 +13,6 @@ version: '4'
 stars: 2.8
 ratings: 434
 reviews: 5
-size: 
 website: https://asbazar.com/en/home
 repository: 
 issue: 

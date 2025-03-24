@@ -13,7 +13,6 @@ version: 2.0.0
 stars: 4.2
 ratings: 
 reviews: 4
-size: 
 website: https://coininno.com/
 repository: 
 issue: 

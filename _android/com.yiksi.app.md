@@ -12,7 +12,6 @@ version: 2.2.12
 stars: 3.8
 ratings: 
 reviews: 
-size: 
 website: https://yiksi.com/
 repository: 
 issue: 

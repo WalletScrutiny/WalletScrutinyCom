@@ -13,7 +13,6 @@ version: 1.1.2
 stars: 4.4
 ratings: 
 reviews: 5
-size: 
 website: https://coinkit.de
 repository: 
 issue: 

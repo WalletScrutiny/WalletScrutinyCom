@@ -13,7 +13,6 @@ version: 1.7.15
 stars: 4.2
 ratings: 
 reviews: 69
-size: 
 website: https://www.vast.bank
 repository: 
 issue: 

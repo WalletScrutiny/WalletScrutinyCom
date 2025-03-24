@@ -12,7 +12,6 @@ updated: 2024-09-27
 version: 1.2.2
 stars: 0
 reviews: 0
-size: '81250304'
 website: https://3swallet.com/
 repository: 
 issue: 

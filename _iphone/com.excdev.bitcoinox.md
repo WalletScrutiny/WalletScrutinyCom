@@ -12,7 +12,6 @@ updated: 2024-06-26
 version: 2.8.8
 stars: 3.4
 reviews: 5
-size: '49645568'
 website: https://bitcoinox.com/
 repository: 
 issue: 

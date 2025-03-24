@@ -13,7 +13,6 @@ version: 2.15.0
 stars: 3.9
 ratings: 
 reviews: 
-size: 
 website: https://www.arkpay.site/
 repository: 
 issue: 

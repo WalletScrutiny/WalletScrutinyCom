@@ -12,7 +12,6 @@ version: '1.5'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://hurbito.com
 repository: 
 issue: 

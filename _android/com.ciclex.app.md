@@ -12,7 +12,6 @@ version: v1.0.4
 stars: 3.9
 ratings: 
 reviews: 
-size: 
 website: https://ciclex.com
 repository: 
 issue: 

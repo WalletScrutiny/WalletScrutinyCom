@@ -13,16 +13,15 @@ version: 1.0-prod2
 stars: 3.5
 ratings: 
 reviews: 60
-size: 
 website: https://theblackwallstreet.com
 repository: 
 issue: 
 icon: com.tbws.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-07-05
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: 

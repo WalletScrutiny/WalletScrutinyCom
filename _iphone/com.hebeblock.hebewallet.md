@@ -12,7 +12,6 @@ updated: 2022-06-28
 version: 1.5.0
 stars: 3.8
 reviews: 12
-size: '134195200'
 website: https://hebe.cc
 repository: 
 issue: 

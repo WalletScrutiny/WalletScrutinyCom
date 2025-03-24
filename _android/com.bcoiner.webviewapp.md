@@ -12,7 +12,6 @@ version: 1.3.2
 stars: 4.3
 ratings: 2468
 reviews: 1251
-size: 2.2M
 website: https://bcoiner.com
 repository: 
 issue: 

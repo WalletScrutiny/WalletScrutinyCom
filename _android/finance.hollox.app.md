@@ -13,7 +13,6 @@ version: 6.0.4
 stars: 5
 ratings: 
 reviews: 6
-size: 
 website: https://hollox.finance/
 repository: 
 issue: 

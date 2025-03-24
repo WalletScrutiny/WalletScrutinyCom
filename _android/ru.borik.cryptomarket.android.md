@@ -13,7 +13,6 @@ version: '1.62'
 stars: 4
 ratings: 137
 reviews: 4
-size: 
 website: 
 repository: 
 issue: 

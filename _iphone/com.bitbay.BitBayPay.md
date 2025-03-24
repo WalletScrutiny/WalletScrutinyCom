@@ -12,7 +12,6 @@ updated: 2023-11-08
 version: 2.1.3
 stars: 0
 reviews: 0
-size: '20785152'
 website: https://zondacrypto.com/en/pay
 repository: 
 issue: 

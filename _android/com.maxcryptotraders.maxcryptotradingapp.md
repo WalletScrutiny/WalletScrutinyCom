@@ -13,13 +13,12 @@ version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://maxcryptotraders.com/
 repository: 
 issue: 
 icon: com.maxcryptotraders.maxcryptotradingapp.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-08-05

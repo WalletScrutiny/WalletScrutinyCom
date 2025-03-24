@@ -12,7 +12,6 @@ updated: 2020-11-16
 version: 1.0.12
 stars: 2.8
 reviews: 37
-size: '53408768'
 website: https://hodlit.com
 repository: 
 issue: 

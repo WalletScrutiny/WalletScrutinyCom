@@ -13,7 +13,6 @@ version: 1.38.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://vouchermoney.com/
 repository: 
 issue: 

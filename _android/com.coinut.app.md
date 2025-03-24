@@ -13,16 +13,15 @@ version: 0.8.5
 stars: 3.6
 ratings: 
 reviews: 15
-size: 
 website: https://coinut.com
 repository: 
 issue: 
 icon: com.coinut.app.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-12-04
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: coinut_exchange

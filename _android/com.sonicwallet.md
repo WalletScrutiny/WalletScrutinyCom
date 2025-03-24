@@ -13,7 +13,6 @@ version: 1.1.41
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.sonicwallet.com
 repository: 
 issue: 

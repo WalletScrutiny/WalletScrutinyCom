@@ -12,7 +12,6 @@ updated: 2023-04-20
 version: '20.0'
 stars: 0
 reviews: 0
-size: '57817088'
 website: https://koopwallet.com/privacy.html
 repository: 
 issue: 

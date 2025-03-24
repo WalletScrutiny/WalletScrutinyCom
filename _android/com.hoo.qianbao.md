@@ -13,7 +13,6 @@ version: 4.7.79
 stars: 3.5
 ratings: 749
 reviews: 84
-size: 
 website: https://hoo.com
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 1.2.26
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.dalongpay.com
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 1.2.35
 stars: 4.3
 ratings: 
 reviews: 7
-size: 
 website: https://suprafin.io/
 repository: 
 issue: 

@@ -14,7 +14,6 @@ version: 3.25.1
 stars: 3.1
 ratings: 1076
 reviews: 575
-size: 82M
 website: https://www.tenx.tech
 repository: 
 issue: 

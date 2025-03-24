@@ -12,7 +12,6 @@ version: 1.3.87
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://yibi.co
 repository: 
 issue: 

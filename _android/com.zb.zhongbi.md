@@ -13,7 +13,6 @@ version: 1.1.4
 stars: 4.7
 ratings: 104
 reviews: 100
-size: 11M
 website: https://plantcoin.com
 repository: 
 issue: 

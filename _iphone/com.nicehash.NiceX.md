@@ -12,7 +12,6 @@ updated: 2024-04-25
 version: 1.5.2
 stars: 5
 reviews: 1
-size: '57933824'
 website: https://www.nicex.com
 repository: 
 issue: 

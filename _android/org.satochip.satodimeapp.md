@@ -12,7 +12,6 @@ version: 0.3.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://satodime.io/
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 0.11.1
 stars: 4.7
 ratings: 
 reviews: 12
-size: 
 website: https://masterbank.org
 repository: 
 issue: 

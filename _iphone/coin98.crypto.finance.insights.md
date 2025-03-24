@@ -6,13 +6,12 @@ authors:
 - danny
 appId: coin98.crypto.finance.insights
 appCountry: us
-idd: 1561969966
+idd: '1561969966'
 released: 2021-05-14
-updated: 2025-02-04
-version: 15.8.8
+updated: 2025-03-19
+version: 15.9.4
 stars: 4.5
 reviews: 652
-size: '254798848'
 website: https://coin98.com
 repository: 
 issue: 

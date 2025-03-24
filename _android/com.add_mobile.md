@@ -13,7 +13,6 @@ version: '1.4'
 stars: 4.8
 ratings: 
 reviews: 20
-size: 
 website: https://add.xyz/
 repository: 
 issue: 

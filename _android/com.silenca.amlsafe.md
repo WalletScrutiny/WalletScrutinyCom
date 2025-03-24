@@ -13,7 +13,6 @@ version: '2.25'
 stars: 3.8
 ratings: 
 reviews: 2
-size: 
 website: https://safe3.app/
 repository: 
 issue: 

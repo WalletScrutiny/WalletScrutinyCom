@@ -12,7 +12,6 @@ version: '16'
 stars: 4.6
 ratings: 
 reviews: 
-size: 
 website: https://arducrypto.com
 repository: 
 issue: 

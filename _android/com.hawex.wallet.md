@@ -13,7 +13,6 @@ version: '2.1'
 stars: 4.9
 ratings: 
 reviews: 
-size: 
 website: http://hawexdao.com
 repository: 
 issue: 

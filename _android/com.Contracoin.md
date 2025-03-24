@@ -13,7 +13,6 @@ version: '1.00'
 stars: 4.3
 ratings: 
 reviews: 
-size: 
 website: https://contracoin.network/
 repository: 
 issue: 

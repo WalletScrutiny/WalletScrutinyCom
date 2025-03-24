@@ -12,7 +12,6 @@ version: 1.1.4
 stars: 2.1
 ratings: 
 reviews: 10
-size: 
 website: https://cryptmi.com
 repository: 
 issue: 

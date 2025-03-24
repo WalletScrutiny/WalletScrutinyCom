@@ -13,7 +13,6 @@ version: '1.5'
 stars: 4
 ratings: 
 reviews: 6
-size: 
 website: http://gcryptolab.com
 repository: 
 issue: 

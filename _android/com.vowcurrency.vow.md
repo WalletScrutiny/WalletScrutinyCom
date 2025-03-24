@@ -13,7 +13,6 @@ version: 10.3.7
 stars: 2.8
 ratings: 
 reviews: 4
-size: 
 website: 
 repository: 
 issue: 

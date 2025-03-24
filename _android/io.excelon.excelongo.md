@@ -13,16 +13,15 @@ version: 1.0.76
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://excelon.money
 repository: 
 issue: 
 icon: io.excelon.excelongo.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-05-24
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: 

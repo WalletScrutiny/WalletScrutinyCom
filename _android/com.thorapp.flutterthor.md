@@ -12,7 +12,6 @@ version: 1.3.9
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.thorbot.io/
 repository: 
 issue: 

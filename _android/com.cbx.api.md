@@ -12,7 +12,6 @@ version: 2.2.5
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.cbx.one
 repository: 
 issue: 

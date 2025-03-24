@@ -12,7 +12,6 @@ updated: 2023-01-31
 version: 1.5.0
 stars: 4.3
 reviews: 9
-size: '49890304'
 website: https://structure.fi
 repository: 
 issue: 

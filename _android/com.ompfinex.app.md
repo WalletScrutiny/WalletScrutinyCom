@@ -13,7 +13,6 @@ version: 3.7.0
 stars: 4
 ratings: 
 reviews: 58
-size: 
 website: https://ompfinex.com
 repository: 
 issue: 

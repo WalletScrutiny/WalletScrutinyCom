@@ -13,7 +13,6 @@ version: 8.9.3
 stars: 4.1
 ratings: 131
 reviews: 78
-size: 10M
 website: https://www.polispay.com
 repository: 
 issue: 

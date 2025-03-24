@@ -12,7 +12,6 @@ version: 4.0.0
 stars: 
 ratings: 
 reviews: 
-size: 14M
 website: https://www.binary-exchange.com
 repository: 
 issue: 

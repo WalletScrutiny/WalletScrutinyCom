@@ -13,7 +13,6 @@ version: 2.026.148-GooglePlay
 stars: 4.3
 ratings: 
 reviews: 2
-size: 
 website: https://wmzarin.com
 repository: 
 issue: 

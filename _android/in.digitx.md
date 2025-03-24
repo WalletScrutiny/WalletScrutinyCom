@@ -12,7 +12,6 @@ version: 34.0.0
 stars: 4.1
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 

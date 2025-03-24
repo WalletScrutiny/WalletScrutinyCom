@@ -12,7 +12,6 @@ updated: 2023-11-22
 version: 3.1.23
 stars: 0
 reviews: 0
-size: '14831616'
 website: https://www.iforex.com
 repository: 
 issue: 

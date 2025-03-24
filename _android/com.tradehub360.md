@@ -12,7 +12,6 @@ version: 2.0.70
 stars: 4.3
 ratings: 
 reviews: 
-size: 
 website: https://360tradehub.com/
 repository: 
 issue: 

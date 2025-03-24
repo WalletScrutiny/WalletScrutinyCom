@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Bitcoin OX — Crypto Wallet
+title: Bitcoin OX Crypto Wallet
 altTitle: 
 authors:
 - leo
@@ -13,7 +13,6 @@ version: 2.8.8
 stars: 3.9
 ratings: 32
 reviews: 4
-size: 
 website: https://bitcoinox.com
 repository: 
 issue: 
@@ -31,7 +30,7 @@ social:
 redirect_from:
 - /org.bitcoinox.bitcoinoxwallet/
 - /posts/org.bitcoinox.bitcoinoxwallet/
-developerName: Excdev
+developerName: GNUAPP UNIPESSOAL LDA
 features: 
 
 ---

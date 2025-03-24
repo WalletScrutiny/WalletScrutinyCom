@@ -12,7 +12,6 @@ version: 1.9.4
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://3fwallet.com
 repository: 
 issue: 

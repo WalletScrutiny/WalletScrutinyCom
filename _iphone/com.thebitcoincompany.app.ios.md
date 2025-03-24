@@ -12,7 +12,6 @@ updated: 2025-02-04
 version: '1.36'
 stars: 4.1
 reviews: 29
-size: '61616128'
 website: https://thebitcoincompany.com
 repository: 
 issue: 

@@ -10,19 +10,18 @@ appCountry: us
 released: 2018-11-25
 updated: 2023-05-30
 version: 5.7.8-play
-stars: 4.1
+stars: 4
 ratings: 1346
-reviews: 44
-size: 
+reviews: 43
 website: https://www.dcoin.com
 repository: 
 issue: 
 icon: com.dcoin.exchange.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-05-24
+date: 2025-03-17
 signer: 
 reviewArchive: 
 twitter: dcoinexchange

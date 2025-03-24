@@ -12,7 +12,6 @@ version: 0.16.3
 stars: 4.8
 ratings: 
 reviews: 
-size: 
 website: https://theluxurybank.com
 repository: 
 issue: 

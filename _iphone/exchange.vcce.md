@@ -12,7 +12,6 @@ updated: 2021-10-06
 version: 3.18.0
 stars: 3
 reviews: 4
-size: '46907392'
 website: https://vcc.exchange/
 repository: 
 issue: 

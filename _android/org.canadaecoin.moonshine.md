@@ -12,7 +12,6 @@ version: 0.6.4
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://ecoincore.com
 repository: 
 issue: 

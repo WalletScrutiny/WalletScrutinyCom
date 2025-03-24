@@ -12,7 +12,6 @@ version: 2.0.23
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://xsats.com
 repository: 
 issue: 

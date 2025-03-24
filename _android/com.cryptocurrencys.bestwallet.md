@@ -12,7 +12,6 @@ version:
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 

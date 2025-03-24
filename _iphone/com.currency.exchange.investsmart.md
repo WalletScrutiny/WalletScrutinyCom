@@ -12,7 +12,6 @@ updated: 2022-11-18
 version: 1.32.0
 stars: 3.9
 reviews: 23
-size: '85975040'
 website: https://currency.com/
 repository: 
 issue: 
@@ -29,7 +28,7 @@ social:
 - https://www.facebook.com/currencycom
 - https://www.reddit.com/r/currencycom
 features: 
-developerName: Currency Com EU Sp z o.o.
+developerName: DZ INVESTMENTS POLAND Sp.z.o.o
 
 ---
 

@@ -4,17 +4,16 @@ title: UGLYCASH
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: rsv.walletapp.reserve
 appCountry: 
 released: 2019-07-30
-updated: 2025-01-27
-version: 3.0.16
-stars: 2.8
+updated: 2025-02-27
+version: 3.0.18
+stars: 3
 ratings: 
-reviews: 445
-size: 
-website: https://ugly.cash
+reviews: 459
+website: https://uglycash.app/
 repository: 
 issue: 
 icon: rsv.walletapp.reserve.png

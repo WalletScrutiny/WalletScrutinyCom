@@ -8,13 +8,12 @@ authors:
 - danny
 appId: com.bitcoinblack.wallet
 appCountry: 
-idd: 1523044877
+idd: '1523044877'
 released: 2020-07-20
 updated: 2020-09-08
 version: 1.0.5
 stars: 4.2
 reviews: 34
-size: 80958464
 website: https://bitcoin.black
 repository: 
 issue: 

@@ -13,13 +13,12 @@ version: '1.1'
 stars: 4.4
 ratings: 
 reviews: 7
-size: 
 website: https://cex-trade.io
 repository: 
 issue: 
 icon: app.cex_trade.io.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fake
 appHashes: 
 date: 2023-07-02

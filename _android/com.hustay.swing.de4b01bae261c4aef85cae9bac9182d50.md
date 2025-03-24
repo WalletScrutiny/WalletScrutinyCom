@@ -12,7 +12,6 @@ version: '0.6'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.earnfinex.com/
 repository: 
 issue: 

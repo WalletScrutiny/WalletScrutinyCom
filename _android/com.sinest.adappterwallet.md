@@ -12,7 +12,6 @@ version: 1.0.4
 stars: 4.8
 ratings: 
 reviews: 
-size: 
 website: http://adappterwallet.io
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: VARY
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://zeniq.com/
 repository: 
 issue: 

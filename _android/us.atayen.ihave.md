@@ -12,7 +12,6 @@ version: 1.5.4
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://dapp.satt.io/
 repository: 
 issue: 

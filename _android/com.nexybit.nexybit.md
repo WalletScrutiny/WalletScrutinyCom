@@ -13,13 +13,12 @@ version: 1.0.4
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://nexybit.com/
 repository: 
 issue: 
 icon: com.nexybit.nexybit.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-04-08

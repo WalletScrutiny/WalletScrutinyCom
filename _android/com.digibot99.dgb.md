@@ -13,13 +13,12 @@ version: 0.0.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.digibot99.com
 repository: 
 issue: 
 icon: com.digibot99.dgb.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-05-23

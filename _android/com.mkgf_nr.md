@@ -12,7 +12,6 @@ version: '40.0'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.cryptocashfast.com
 repository: 
 issue: 

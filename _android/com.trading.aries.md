@@ -13,7 +13,6 @@ version: 3.7.6
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://tradearies.com
 repository: 
 issue: 

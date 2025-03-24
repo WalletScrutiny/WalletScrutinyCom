@@ -12,7 +12,6 @@ updated: 2022-02-02
 version: 2.1.14
 stars: 3
 reviews: 16
-size: '52341760'
 website: https://coinfalcon.com
 repository: 
 issue: 

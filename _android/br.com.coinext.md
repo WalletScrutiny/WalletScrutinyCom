@@ -13,7 +13,6 @@ version: 2.15.5
 stars: 4.7
 ratings: 
 reviews: 6
-size: 
 website: https://coinext.com.br
 repository: 
 issue: 

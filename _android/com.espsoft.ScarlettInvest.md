@@ -12,7 +12,6 @@ version: '1.20'
 stars: 5
 ratings: 
 reviews: 
-size: 
 website: https://scarlettglobal.io
 repository: 
 issue: 

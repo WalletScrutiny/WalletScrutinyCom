@@ -13,7 +13,6 @@ version: '5.1'
 stars: 4.2
 ratings: 931
 reviews: 37
-size: 
 website: 
 repository: 
 issue: 

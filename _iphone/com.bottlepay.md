@@ -12,7 +12,6 @@ updated: 2023-06-08
 version: 2.2.15
 stars: 4.4
 reviews: 305
-size: '166439936'
 website: https://bottlepay.com
 repository: 
 issue: 

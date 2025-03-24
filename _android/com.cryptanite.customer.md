@@ -12,7 +12,6 @@ version: 2.0.8
 stars: 4.5
 ratings: 
 reviews: 8
-size: 
 website: http://cryptanite.com
 repository: 
 issue: 

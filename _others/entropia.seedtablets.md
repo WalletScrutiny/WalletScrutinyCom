@@ -14,6 +14,7 @@ country: US
 price: 80USD
 meta: ok
 verdict: nowallet
+social: 
 
 ---
 

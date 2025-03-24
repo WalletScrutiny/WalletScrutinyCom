@@ -8,11 +8,10 @@ appId: com.ledger.live
 appCountry: us
 idd: '1361671700'
 released: 2019-01-28
-updated: 2025-02-03
-version: '3.63'
+updated: 2025-03-13
+version: '3.69'
 stars: 4.9
-reviews: 11553
-size: '162520064'
+reviews: 11922
 website: https://www.ledger.com/ledger-live
 repository: 
 issue: 

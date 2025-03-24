@@ -13,7 +13,6 @@ version: 1.2.1
 stars: 3.5
 ratings: 121
 reviews: 8
-size: 
 website: https://moonwallet.net/
 repository: 
 issue: 

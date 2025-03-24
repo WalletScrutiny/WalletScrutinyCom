@@ -13,16 +13,15 @@ version: 2.6.5
 stars: 4.2
 ratings: 
 reviews: 15
-size: 
 website: https://www.ennowallet.com
 repository: https://github.com/Enno-Wallet-Enno-Cash
 issue: 
 icon: com.app.awqsome.ennowallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nobtc
 appHashes: 
-date: 2024-04-09
+date: 2025-03-17
 signer: 
 reviewArchive: 
 twitter: ennowallet

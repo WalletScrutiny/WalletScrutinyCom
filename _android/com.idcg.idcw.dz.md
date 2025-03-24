@@ -12,7 +12,6 @@ version: 5.4.9
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.proof.la/
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 2.8.7
 stars: 3.1
 ratings: 369
 reviews: 245
-size: 34M
 website: http://www.bitnovo.com
 repository: 
 issue: 

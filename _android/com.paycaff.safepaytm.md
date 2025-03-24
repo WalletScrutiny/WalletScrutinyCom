@@ -13,7 +13,6 @@ version: '6.0'
 stars: 4.2
 ratings: 143
 reviews: 1
-size: 
 website: https://safepaytm.com/
 repository: 
 issue: 

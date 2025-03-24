@@ -11,7 +11,6 @@ updated: 2020-03-12
 version: 1.0.1
 stars: 2.5
 reviews: 86
-size: '41635840'
 website: https://www.bitoex.com/?locale=en
 repository: 
 issue: 

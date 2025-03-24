@@ -13,7 +13,6 @@ version: 1.8.0
 stars: 3.6
 ratings: 
 reviews: 3
-size: 
 website: https://techbank.finance/
 repository: 
 issue: 

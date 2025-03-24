@@ -12,7 +12,6 @@ updated: 2022-06-24
 version: 1.3.0
 stars: 0
 reviews: 0
-size: '24367104'
 website: https://wallet.polyx.net
 repository: 
 issue: 

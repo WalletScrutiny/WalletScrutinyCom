@@ -12,7 +12,6 @@ updated: 2025-01-09
 version: 2.1.10
 stars: 4.2
 reviews: 17
-size: '178197504'
 website: https://stackwallet.com/
 repository: 
 issue: 

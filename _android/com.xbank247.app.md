@@ -12,7 +12,6 @@ version: 16.1.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.xbank247.com
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 2.1.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://dfx.swiss/bitcoin/
 repository: 
 issue: 

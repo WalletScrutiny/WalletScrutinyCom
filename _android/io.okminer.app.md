@@ -13,7 +13,6 @@ version: 1.2.8
 stars: 4.5
 ratings: 534
 reviews: 117
-size: 24M
 website: https://www.okminer.io/
 repository: 
 issue: 

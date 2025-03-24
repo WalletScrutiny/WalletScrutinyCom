@@ -12,7 +12,6 @@ version: v1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://latinio.io/
 repository: 
 issue: 

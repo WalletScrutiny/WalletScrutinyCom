@@ -12,7 +12,6 @@ updated: 2022-03-03
 version: '1.6'
 stars: 5
 reviews: 9
-size: '49262592'
 website: https://www.pallapay.com/
 repository: 
 issue: 

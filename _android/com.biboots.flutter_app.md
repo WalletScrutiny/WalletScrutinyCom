@@ -13,7 +13,6 @@ version: 1.7.1
 stars: 2.7
 ratings: 
 reviews: 17
-size: 
 website: https://www.fairdesk.com/
 repository: 
 issue: 

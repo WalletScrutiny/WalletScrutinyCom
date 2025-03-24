@@ -13,7 +13,6 @@ version: 1.0.2
 stars: 2.8
 ratings: 
 reviews: 46
-size: 
 website: https://vida.io
 repository: 
 issue: 

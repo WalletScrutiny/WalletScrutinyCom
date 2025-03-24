@@ -6,13 +6,12 @@ authors:
 - danny
 appId: com.LYOPAY.LYOPAY
 appCountry: eg
-idd: 1537945402
+idd: '1537945402'
 released: 2020-11-06
 updated: 2023-05-23
 version: '8.17'
 stars: 0
 reviews: 0
-size: '63269888'
 website: https://lyopay.com/
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 1.8.6
 stars: 4
 ratings: 
 reviews: 
-size: 
 website: https://www.bitex.sg/
 repository: 
 issue: 

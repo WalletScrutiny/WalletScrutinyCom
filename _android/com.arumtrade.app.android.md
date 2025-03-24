@@ -13,7 +13,6 @@ version: 1.0.4
 stars: 3.5
 ratings: 
 reviews: 
-size: 
 website: https://arumtrade.com
 repository: 
 issue: 

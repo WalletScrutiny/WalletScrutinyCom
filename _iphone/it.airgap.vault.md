@@ -11,8 +11,7 @@ released: 2018-08-24
 updated: 2025-01-28
 version: 3.32.6
 stars: 4.6
-reviews: 25
-size: '99365888'
+reviews: 26
 website: 
 repository: https://github.com/airgap-it/airgap-vault
 issue: 

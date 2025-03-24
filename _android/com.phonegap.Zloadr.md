@@ -12,7 +12,6 @@ version: 1.1.0
 stars: 4
 ratings: 1075
 reviews: 77
-size: 
 website: https://www.zloadr.com
 repository: 
 issue: 

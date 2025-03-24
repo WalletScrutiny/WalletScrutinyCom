@@ -13,7 +13,6 @@ version: 0.3.6
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.moonshinewallet.com
 repository: https://github.com/coreyphillips/moonshine
 issue: 

@@ -12,7 +12,6 @@ updated: 2025-01-24
 version: 2.5.23
 stars: 5
 reviews: 1
-size: '54685696'
 website: https://frostwallet.cc
 repository: 
 issue: 

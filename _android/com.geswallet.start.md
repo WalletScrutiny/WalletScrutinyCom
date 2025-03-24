@@ -12,7 +12,6 @@ version: 0.0.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://portaltest.gesgame.io/
 repository: 
 issue: 

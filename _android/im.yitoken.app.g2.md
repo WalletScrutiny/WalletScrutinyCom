@@ -12,7 +12,6 @@ version: 1.3.5
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://yitoken.im
 repository: 
 issue: 

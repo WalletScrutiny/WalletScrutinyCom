@@ -6,13 +6,12 @@ authors:
 - leo
 appId: atomicwallet
 appCountry: 
-idd: 1478257827
+idd: '1478257827'
 released: 2019-11-05
 updated: 2024-12-15
 version: 1.34.4
 stars: 4.4
-reviews: 18025
-size: '156379136'
+reviews: 18151
 website: https://atomicwallet.io/
 repository: 
 issue: 

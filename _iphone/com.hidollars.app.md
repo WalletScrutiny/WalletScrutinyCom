@@ -12,7 +12,6 @@ updated: 2024-10-28
 version: 2.19.0
 stars: 3.8
 reviews: 279
-size: '253579264'
 website: https://hi.com/
 repository: 
 issue: 

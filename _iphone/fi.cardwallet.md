@@ -12,7 +12,6 @@ updated: 2022-03-23
 version: '2.2'
 stars: 5
 reviews: 1
-size: '97165312'
 website: https://cwallet.finance/
 repository: 
 issue: 

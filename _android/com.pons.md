@@ -13,7 +13,6 @@ version: 1.0.0.11
 stars: 4.2
 ratings: 20
 reviews: 11
-size: 38M
 website: http://pons.group/
 repository: 
 issue: 

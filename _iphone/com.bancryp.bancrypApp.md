@@ -12,7 +12,6 @@ updated: 2023-04-14
 version: 1.6.0
 stars: 5
 reviews: 2
-size: '103768064'
 website: https://bancryp.com/
 repository: 
 issue: 

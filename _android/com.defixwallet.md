@@ -12,7 +12,6 @@ version: '2.1'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.defixwallet.io
 repository: 
 issue: 

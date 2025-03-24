@@ -13,7 +13,6 @@ version: 1.5.6
 stars: 3.7
 ratings: 
 reviews: 5
-size: 
 website: https://structure.fi
 repository: 
 issue: 

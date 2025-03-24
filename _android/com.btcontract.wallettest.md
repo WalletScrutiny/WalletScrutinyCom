@@ -12,7 +12,6 @@ version: 2.4.19
 stars: 
 ratings: 
 reviews: 
-size: 17M
 website: 
 repository: 
 issue: 

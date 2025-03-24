@@ -12,7 +12,6 @@ updated: 2024-01-23
 version: 3.0.6
 stars: 5
 reviews: 1
-size: '80867328'
 website: https://www.nitroex.io/
 repository: 
 issue: 

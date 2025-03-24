@@ -12,7 +12,6 @@ updated: 2024-11-12
 version: 8.7.0
 stars: 4.3
 reviews: 6
-size: '71188480'
 website: https://www.gluwa.com
 repository: 
 issue: 

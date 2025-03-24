@@ -13,7 +13,6 @@ version: 1.1.7
 stars: 3.6
 ratings: 85
 reviews: 7
-size: 
 website: https://www.atechcoins.com
 repository: 
 issue: 

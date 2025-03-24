@@ -4,16 +4,15 @@ title: BITmarkets
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.bitmarkets.android.app
 appCountry: 
 released: 2022-10-04
-updated: 2025-01-30
-version: 3.3.5
+updated: 2025-03-05
+version: 3.3.10
 stars: 4
 ratings: 
 reviews: 
-size: 
 website: https://www.bitmarkets.com/
 repository: 
 issue: 

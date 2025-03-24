@@ -13,13 +13,12 @@ version: 2.1.2
 stars: 3.6
 ratings: 
 reviews: 69
-size: 
 website: http://pewall.org
 repository: 
 issue: 
 icon: com.Pepelabs.Pepewallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2024-09-04

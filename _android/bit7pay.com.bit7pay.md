@@ -13,13 +13,12 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://bit7pay.com
 repository: 
 issue: 
 icon: bit7pay.com.bit7pay.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-05-04

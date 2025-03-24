@@ -11,6 +11,7 @@ shop: https://bitcoin-gift.com/shop/bitcoin-crypto-card/
 country: DE
 meta: ok
 verdict: prefilled
+social: 
 
 ---
 

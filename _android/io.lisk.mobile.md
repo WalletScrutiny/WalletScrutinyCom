@@ -14,7 +14,6 @@ version: 3.0.2
 stars: 4.1
 ratings: 189
 reviews: 30
-size: 
 website: https://lisk.com/wallet
 repository: 
 issue: 

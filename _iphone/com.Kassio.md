@@ -12,16 +12,15 @@ updated: 2023-10-27
 version: 1.1.2
 stars: 5
 reviews: 12
-size: '140860416'
 website: https://kassio.com/contact
 repository: 
 issue: 
 icon: com.Kassio.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-10-23
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: KassioNetwork

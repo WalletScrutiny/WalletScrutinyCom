@@ -13,7 +13,6 @@ version: 1.1.9
 stars: 3.6
 ratings: 33
 reviews: 16
-size: 51M
 website: https://www.pionex.sg/blog/
 repository: 
 issue: 

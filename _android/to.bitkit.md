@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Bitkit Wallet
+title: 'Bitkit: Bitcoin & LN Wallet'
 altTitle: 
 authors:
 - danny
@@ -10,12 +10,11 @@ users: 1000
 appId: to.bitkit
 appCountry: 
 released: 2024-06-07
-updated: 2025-01-06
-version: 1.0.8
+updated: 2025-02-13
+version: 1.0.9
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://bitkit.to/
 repository: https://github.com/synonymdev/bitkit
 issue: https://github.com/synonymdev/bitkit/issues/2414

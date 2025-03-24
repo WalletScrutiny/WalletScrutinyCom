@@ -12,7 +12,6 @@ updated: 2023-12-20
 version: 2.10.1
 stars: 4.6
 reviews: 11
-size: '45423616'
 website: https://changex.io
 repository: 
 issue: 

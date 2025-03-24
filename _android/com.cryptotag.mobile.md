@@ -12,7 +12,6 @@ version: 1.14.40.00000
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.cryptotag.financial
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 1.6.7
 stars: 4.2
 ratings: 36
 reviews: 4
-size: 
 website: https://bgogo.com/
 repository: 
 issue: 

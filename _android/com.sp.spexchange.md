@@ -12,7 +12,6 @@ version: 1.0.9
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://spexchange.io/
 repository: 
 issue: 

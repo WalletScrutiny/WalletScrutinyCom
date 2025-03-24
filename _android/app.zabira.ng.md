@@ -13,7 +13,6 @@ version: 1.0.28
 stars: 3.3
 ratings: 
 reviews: 15
-size: 
 website: https://www.zabira.ng
 repository: 
 issue: 

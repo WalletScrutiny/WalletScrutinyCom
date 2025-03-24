@@ -14,7 +14,6 @@ version: '1.355'
 stars: 4.2
 ratings: 656
 reviews: 525
-size: 11M
 website: https://www.citowise.com
 repository: 
 issue: 

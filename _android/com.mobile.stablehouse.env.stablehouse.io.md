@@ -12,7 +12,6 @@ version: 1.1.5
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.stablehouse.com
 repository: 
 issue: 

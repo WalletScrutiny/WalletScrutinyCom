@@ -13,7 +13,6 @@ version: 1.8.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://coinid.org
 repository: 
 issue: 

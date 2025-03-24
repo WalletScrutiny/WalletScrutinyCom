@@ -13,7 +13,6 @@ version: 6.7.1
 stars: 4.4
 ratings: 
 reviews: 25
-size: 
 website: https://gorila.com.br
 repository: 
 issue: 

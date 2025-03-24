@@ -12,7 +12,6 @@ updated: 2023-09-10
 version: 2.0.0
 stars: 3
 reviews: 4
-size: '41094144'
 website: https://tdex.network
 repository: 
 issue: 

@@ -12,7 +12,6 @@ updated: 2024-12-31
 version: 1.1.3
 stars: 4
 reviews: 4
-size: '57228288'
 website: https://coinweb.io
 repository: 
 issue: 

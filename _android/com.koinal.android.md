@@ -14,7 +14,6 @@ version: 1.4.10
 stars: 4.1
 ratings: 1938
 reviews: 6
-size: 
 website: https://www.koinal.io
 repository: 
 issue: 

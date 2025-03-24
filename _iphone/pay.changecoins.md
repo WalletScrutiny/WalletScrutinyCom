@@ -12,7 +12,6 @@ updated: 2022-02-18
 version: 1.2.6
 stars: 3
 reviews: 2
-size: '40775680'
 website: https://changecoins.io/
 repository: 
 issue: 

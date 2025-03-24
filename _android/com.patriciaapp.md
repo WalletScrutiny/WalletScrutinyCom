@@ -13,7 +13,6 @@ version: 1.5.2
 stars: 2
 ratings: 3910
 reviews: 442
-size: 
 website: https://mypatricia.co
 repository: 
 issue: 

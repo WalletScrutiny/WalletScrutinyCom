@@ -13,16 +13,15 @@ version: 2.11.1
 stars: 2.7
 ratings: 
 reviews: 5
-size: 
 website: http://www.finq.com
 repository: 
 issue: 
 icon: com.finq.android.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosendreceive
 appHashes: 
-date: 2022-07-11
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: finqcom

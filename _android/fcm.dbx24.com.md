@@ -12,7 +12,6 @@ version: '4.0'
 stars: 3.1
 ratings: 
 reviews: 
-size: 
 website: https://dbx24.com
 repository: 
 issue: 

@@ -9,6 +9,7 @@ website: https://coinos.io
 twitter: coinoswallet
 meta: ok
 verdict: wip
+social: 
 
 ---
 

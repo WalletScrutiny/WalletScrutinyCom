@@ -12,7 +12,6 @@ updated: 2023-08-30
 version: 1.2.7
 stars: 0
 reviews: 0
-size: '27566080'
 website: https://cryptinix.com
 repository: 
 issue: 

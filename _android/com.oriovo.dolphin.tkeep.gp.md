@@ -12,7 +12,6 @@ version: 1.2.3
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://tkeep.io
 repository: 
 issue: 

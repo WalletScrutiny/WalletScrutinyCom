@@ -13,7 +13,6 @@ version: 4.3.4
 stars: 1.9
 ratings: 
 reviews: 24
-size: 
 website: https://www.5roi.com/
 repository: 
 issue: 

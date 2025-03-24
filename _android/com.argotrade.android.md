@@ -13,16 +13,15 @@ version: 1.16.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
 icon: com.argotrade.android.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosendreceive
 appHashes: 
-date: 2022-07-14
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: 

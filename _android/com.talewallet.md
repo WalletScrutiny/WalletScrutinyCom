@@ -13,7 +13,6 @@ version: 8.1.7
 stars: 3.3
 ratings: 
 reviews: 
-size: 
 website: https://talewallet.com
 repository: 
 issue: 

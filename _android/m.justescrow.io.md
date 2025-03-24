@@ -12,7 +12,6 @@ version: '3.0'
 stars: 3.1
 ratings: 
 reviews: 2
-size: 
 website: https://justescrow.io
 repository: 
 issue: 

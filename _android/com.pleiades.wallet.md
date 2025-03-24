@@ -12,7 +12,6 @@ version: 1.3.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.pleiades.finance
 repository: 
 issue: 

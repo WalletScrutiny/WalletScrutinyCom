@@ -12,7 +12,6 @@ updated: 2023-04-13
 version: 12.1.0
 stars: 4.6
 reviews: 16
-size: '24675328'
 website: https://sparkpoint.io/
 repository: 
 issue: 

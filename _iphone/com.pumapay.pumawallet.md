@@ -12,7 +12,6 @@ updated: 2021-10-25
 version: '2.102'
 stars: 3.4
 reviews: 17
-size: '103752704'
 website: https://pumapay.io
 repository: 
 issue: 

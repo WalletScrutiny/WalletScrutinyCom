@@ -14,16 +14,15 @@ version: 12.1.1
 stars: 3.7
 ratings: 608
 reviews: 67
-size: 
 website: https://sparkpoint.io/
 repository: 
 issue: 
 icon: com.sparkpoint.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-08-19
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: sparkpointio

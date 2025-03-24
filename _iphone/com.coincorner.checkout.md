@@ -12,7 +12,6 @@ updated: 2024-08-29
 version: 2.0.6
 stars: 0
 reviews: 0
-size: '6356992'
 website: https://www.coincorner.com/checkout
 repository: 
 issue: 

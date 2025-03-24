@@ -3,7 +3,7 @@ wsId:
 title: BitCoreEx
 altTitle: 
 authors: 
-users: 50
+users: 100
 appId: com.bitcoreex.app
 appCountry: 
 released: 2022-09-27
@@ -12,7 +12,6 @@ version: 1.1.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 

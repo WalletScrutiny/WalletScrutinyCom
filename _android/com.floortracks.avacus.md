@@ -13,7 +13,6 @@ version: 6.4.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://avacus.cc/
 repository: 
 issue: 

@@ -13,13 +13,12 @@ version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.tradersinc.mobi
 repository: 
 issue: 
 icon: com.tradersinc.buybitcoin.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-06-07

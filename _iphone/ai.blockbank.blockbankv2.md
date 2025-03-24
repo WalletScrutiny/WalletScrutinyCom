@@ -12,16 +12,15 @@ updated: 2023-04-26
 version: 3.3.6
 stars: 4.8
 reviews: 13
-size: '45182976'
 website: https://twitter.com/BLOCKBANKapp
 repository: 
 issue: 
 icon: ai.blockbank.blockbankv2.jpg
 bugbounty: 
-meta: defunct
+meta: ok
 verdict: nosource
 appHashes: 
-date: 2023-06-21
+date: 2025-03-15
 signer: 
 reviewArchive: 
 twitter: BLOCKBANKapp
@@ -33,5 +32,9 @@ features:
 developerName: 
 
 ---
+
+## Update 2025-03-15
+
+While processing apps that seem to have been removed from the iPhone store, we noticed that some have merely undergone a "rebrand". Blockbank app is one of them. It is now known as pairs, but has retained its app ID and WalletScrutiny ID. 
 
 {% include copyFromAndroid.html %}

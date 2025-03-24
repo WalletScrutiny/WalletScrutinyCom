@@ -12,7 +12,6 @@ updated: 2023-07-20
 version: 6.5.0
 stars: 3.6
 reviews: 121
-size: '108826624'
 website: http://mxc.org
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: '2.0'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.sgcdex.com/
 repository: 
 issue: 

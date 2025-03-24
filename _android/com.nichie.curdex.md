@@ -12,7 +12,6 @@ version: 5.02.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://scurdexcapital.com
 repository: 
 issue: 

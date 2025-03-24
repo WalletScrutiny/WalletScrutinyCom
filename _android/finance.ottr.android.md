@@ -13,7 +13,6 @@ version: '1.58'
 stars: 3
 ratings: 
 reviews: 7
-size: 
 website: https://ottr.finance
 repository: 
 issue: 

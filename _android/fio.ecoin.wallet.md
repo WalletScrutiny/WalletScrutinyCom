@@ -13,7 +13,6 @@ version: 6.3.8
 stars: 4.1
 ratings: 3553
 reviews: 67
-size: 
 website: https://ecoinofficial.org/
 repository: 
 issue: 

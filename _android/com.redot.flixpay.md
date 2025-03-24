@@ -12,7 +12,6 @@ version: 1.3.3
 stars: 5
 ratings: 
 reviews: 140
-size: 
 website: https://flixpay.io
 repository: 
 issue: 

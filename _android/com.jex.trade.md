@@ -13,7 +13,6 @@ version: 2.8.4
 stars: 3.6
 ratings: 1476
 reviews: 713
-size: 7.2M
 website: https://www.jex.com
 repository: 
 issue: 

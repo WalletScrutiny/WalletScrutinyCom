@@ -12,7 +12,6 @@ version: 2024.10.15
 stars: 4
 ratings: 
 reviews: 
-size: 
 website: https://swapuz.com
 repository: 
 issue: 

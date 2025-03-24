@@ -13,7 +13,6 @@ version: 1.9.2
 stars: 3
 ratings: 
 reviews: 
-size: 
 website: https://coincardi.com
 repository: 
 issue: 

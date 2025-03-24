@@ -13,7 +13,6 @@ version: 1.0.1271
 stars: 4.7
 ratings: 614
 reviews: 32
-size: 
 website: https://aabbgoldtoken.com/
 repository: 
 issue: 

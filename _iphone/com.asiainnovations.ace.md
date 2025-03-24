@@ -6,13 +6,12 @@ authors:
 - danny
 appId: com.asiainnovations.ace
 appCountry: ng
-idd: 1446866556
+idd: '1446866556'
 released: 2019-01-28
 updated: 2023-03-20
 version: 51.0.0
 stars: 5
 reviews: 2
-size: '90563584'
 website: https://www.ace.io
 repository: 
 issue: 

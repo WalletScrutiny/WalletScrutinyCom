@@ -13,7 +13,6 @@ version: 1.7.2
 stars: 
 ratings: 
 reviews: 
-size: 13M
 website: 
 repository: 
 issue: 

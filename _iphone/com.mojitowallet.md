@@ -12,7 +12,6 @@ updated: 2024-12-24
 version: 0.4.2
 stars: 4.6
 reviews: 9
-size: '49131520'
 website: https://www.mintlayer.org/
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 2.1.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.rightbtc.com
 repository: 
 issue: 

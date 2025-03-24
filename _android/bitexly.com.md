@@ -12,7 +12,6 @@ version: 5.129.20
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://bitexly.com
 repository: 
 issue: 

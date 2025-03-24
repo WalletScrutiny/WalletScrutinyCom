@@ -13,7 +13,6 @@ version: 2.0.21
 stars: 3.5
 ratings: 375
 reviews: 8
-size: 
 website: https://www.probit.kr
 repository: 
 issue: 

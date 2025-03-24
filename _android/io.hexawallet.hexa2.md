@@ -14,16 +14,15 @@ version: 2.4.6
 stars: 5
 ratings: 30
 reviews: 6
-size: 
 website: https://bitcointribe.app/
 repository: https://github.com/bithyve/hexa
 issue: https://github.com/bithyve/bitcointribe/issues/2544
 icon: io.hexawallet.hexa2.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: ftbfs
 appHashes: []
-date: 2024-08-23
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: HexaWallet

@@ -13,16 +13,15 @@ version: 3.55.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.rentalbot.kr/
 repository: 
 issue: 
 icon: com.sixmultiverse.heartnumber.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nobtc
 appHashes: 
-date: 2024-03-01
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: Heartnumber_htn

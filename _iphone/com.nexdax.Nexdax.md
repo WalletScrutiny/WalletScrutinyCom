@@ -12,7 +12,6 @@ updated: 2022-08-16
 version: '1.1'
 stars: 5
 reviews: 1
-size: '36487168'
 website: https://nexdax.com/
 repository: 
 issue: 

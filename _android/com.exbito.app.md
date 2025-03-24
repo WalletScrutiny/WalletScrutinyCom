@@ -13,16 +13,15 @@ version: 2.1.3
 stars: 4.7
 ratings: 
 reviews: 30
-size: 
 website: https://exbito.com
 repository: 
 issue: 
 icon: com.exbito.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-07-20
+date: 2025-02-28
 signer: 
 reviewArchive: 
 twitter: ExbitoMarket

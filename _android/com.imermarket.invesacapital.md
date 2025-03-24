@@ -12,7 +12,6 @@ version: 2.7.1
 stars: 2.3
 ratings: 
 reviews: 
-size: 
 website: https://www.invesacapital.com
 repository: 
 issue: 

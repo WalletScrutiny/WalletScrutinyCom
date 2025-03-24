@@ -6,13 +6,12 @@ authors:
 - danny
 appId: com.astontek.stockmaster
 appCountry: us
-idd: 591644846
+idd: '591644846'
 released: 2013-03-07
-updated: 2025-01-27
-version: '7.43'
+updated: 2025-03-11
+version: '7.48'
 stars: 4.6
-reviews: 69974
-size: '49380352'
+reviews: 70252
 website: https://finabase.io
 repository: 
 issue: 

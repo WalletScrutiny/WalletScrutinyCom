@@ -12,7 +12,6 @@ version: Beta1.0.7
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://anypocket.io
 repository: 
 issue: 

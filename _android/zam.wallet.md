@@ -13,16 +13,15 @@ version: 3.5.19
 stars: 3.9
 ratings: 288
 reviews: 51
-size: 
 website: http://zam.io
 repository: 
 issue: 
 icon: zam.wallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-07-16
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: zam_io

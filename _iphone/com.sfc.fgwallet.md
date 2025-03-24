@@ -12,7 +12,6 @@ updated: 2025-01-30
 version: 3.9.4
 stars: 5
 reviews: 2
-size: '25445376'
 website: https://fg-wallet.com/
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: '2.3'
 stars: 3.8
 ratings: 
 reviews: 7
-size: 
 website: http://www.veroxai.io
 repository: 
 issue: 

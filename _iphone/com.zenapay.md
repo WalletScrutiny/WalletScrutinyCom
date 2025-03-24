@@ -12,7 +12,6 @@ updated: 2024-07-02
 version: '5.2'
 stars: 0
 reviews: 0
-size: '15123456'
 website: https://www.zenapay.com/Product#ZenaPayWallet
 repository: 
 issue: 

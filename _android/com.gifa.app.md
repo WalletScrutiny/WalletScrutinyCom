@@ -12,7 +12,6 @@ version: 1.5.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.gifatoken.com
 repository: 
 issue: 

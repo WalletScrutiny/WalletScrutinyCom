@@ -12,7 +12,6 @@ version: 1.8.0
 stars: 2.5
 ratings: 
 reviews: 
-size: 
 website: https://fxvc.com
 repository: 
 issue: 

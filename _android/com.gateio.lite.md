@@ -13,7 +13,6 @@ version: 2.0.1
 stars: 4
 ratings: 
 reviews: 9
-size: 
 website: https://gate.io/
 repository: 
 issue: 

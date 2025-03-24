@@ -13,7 +13,6 @@ version: 2.0.9
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://witcash.io/
 repository: 
 issue: 

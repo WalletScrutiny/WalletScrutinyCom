@@ -14,7 +14,6 @@ version: 0.3.9
 stars: 4.1
 ratings: 633
 reviews: 13
-size: 
 website: https://ezdefi.com/
 repository: 
 issue: 

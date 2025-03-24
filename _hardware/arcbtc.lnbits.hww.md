@@ -6,7 +6,7 @@ authors:
 released: 2022-07-22
 discontinued: 
 updated: 2022-12-12
-version: 0.2
+version: '0.2'
 binaries: 
 dimensions: 
 weight: 

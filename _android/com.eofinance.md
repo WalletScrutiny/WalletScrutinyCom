@@ -12,7 +12,6 @@ version: 2.0.1
 stars: 4.2
 ratings: 1529
 reviews: 13
-size: 
 website: https://eo.finance
 repository: 
 issue: 

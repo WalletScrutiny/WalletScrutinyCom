@@ -13,7 +13,6 @@ version: 2.0.0
 stars: 3.3
 ratings: 
 reviews: 2
-size: 
 website: https://coingate.com
 repository: 
 issue: 

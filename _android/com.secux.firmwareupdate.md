@@ -13,7 +13,6 @@ version: 1.0.9
 stars: 2.5
 ratings: 
 reviews: 11
-size: 
 website: https://www.secuxtech.com
 repository: 
 issue: 

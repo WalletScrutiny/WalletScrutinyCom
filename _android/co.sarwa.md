@@ -13,7 +13,6 @@ version: 5.9.0
 stars: 3.6
 ratings: 
 reviews: 18
-size: 
 website: https://www.sarwa.co
 repository: 
 issue: 

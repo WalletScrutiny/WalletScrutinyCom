@@ -13,7 +13,6 @@ version: 2.1.3
 stars: 
 ratings: 
 reviews: 
-size: 71M
 website: https://isun.one
 repository: 
 issue: 

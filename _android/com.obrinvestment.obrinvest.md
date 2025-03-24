@@ -13,7 +13,6 @@ version: 2.7.1
 stars: 2.7
 ratings: 
 reviews: 
-size: 
 website: https://www.obrinvest.com
 repository: 
 issue: 

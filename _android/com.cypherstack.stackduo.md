@@ -13,7 +13,6 @@ version: 1.2.4
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://stackwallet.com
 repository: https://github.com/cypherstack/stack_duo
 issue: 

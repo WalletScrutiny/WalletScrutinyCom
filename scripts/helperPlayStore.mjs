@@ -15,7 +15,7 @@ const stats = {
 const category = 'android';
 const folder = `_${category}/`;
 const headers = ('wsId title altTitle authors users appId appCountry released ' +
-                'updated version stars ratings reviews size website repository ' +
+                'updated version stars ratings reviews website repository ' +
                 'issue icon bugbounty meta verdict appHashes date signer reviewArchive ' +
                 'twitter social redirect_from developerName features').split(' ');
 
@@ -65,7 +65,7 @@ function refreshFile (fileName, content, markDefunct) {
               header.date = new Date();
               helper.writeResult(folder, header, body);
             } else {
-              helper.addDefunctIfNew(`_android/${appId}`);
+              helper.addDefunctIfNew(`_${category}/${appId}`);
             }
           } else {
             console.error(`\nError with https://play.google.com/store/apps/details?id=${appId} : ${JSON.stringify(err)}`);
@@ -112,7 +112,6 @@ function updateFromApp (header, app) {
   header.users = app.minInstalls;
   header.stars = app.score || header.stars || null;
   header.reviews = app.reviews || null;
-  header.size = app.size;
   header.website = app.developerWebsite || header.website || null;
   header.date = header.date || new Date();
   header.developerName = app.developer || header.developerName || 'Unknown Developer(s)';

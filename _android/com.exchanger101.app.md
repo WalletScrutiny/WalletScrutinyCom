@@ -13,7 +13,6 @@ version: 1.22.7
 stars: 4.2
 ratings: 
 reviews: 8
-size: 
 website: https://exchanger101.com
 repository: 
 issue: 

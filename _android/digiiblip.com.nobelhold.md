@@ -12,7 +12,6 @@ version: '1.23'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://noblecoin.io
 repository: 
 issue: 

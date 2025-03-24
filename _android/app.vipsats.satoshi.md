@@ -13,7 +13,6 @@ version: 1.3.1
 stars: 4.3
 ratings: 
 reviews: 4
-size: 
 website: https://vipsats.app
 repository: 
 issue: 

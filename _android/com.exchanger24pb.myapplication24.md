@@ -13,16 +13,15 @@ version: 4.0.1
 stars: 3.9
 ratings: 
 reviews: 
-size: 
 website: https://24paybank.net/
 repository: 
 issue: 
 icon: com.exchanger24pb.myapplication24.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2024-11-21
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: 24Paybank

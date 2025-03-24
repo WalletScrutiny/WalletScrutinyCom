@@ -8,20 +8,19 @@ appId: com.gcmasia.pro
 appCountry: in
 idd: '1223411781'
 released: 2017-05-01
-updated: 2022-04-13
-version: '3.50'
+updated: 2025-03-02
+version: '3.61'
 stars: 0
 reviews: 0
-size: '31123456'
 website: https://www.gcmasia.com/en/
 repository: 
 issue: 
 icon: com.gcmasia.pro.jpg
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: nowallet
 appHashes: 
-date: 2024-10-08
+date: 2025-03-04
 signer: 
 reviewArchive: 
 twitter: 

@@ -12,7 +12,6 @@ updated: 2021-10-23
 version: '1.78'
 stars: 5
 reviews: 6
-size: 41720832
 website: https://crystalwallet.eu/#about
 repository: 
 issue: 

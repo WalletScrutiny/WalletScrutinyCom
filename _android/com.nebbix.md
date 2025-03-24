@@ -12,7 +12,6 @@ version: 0.1.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://nebbix.com
 repository: 
 issue: 

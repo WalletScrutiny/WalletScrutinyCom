@@ -13,7 +13,6 @@ version: '1.2'
 stars: 3.7
 ratings: 3598
 reviews: 2256
-size: 15M
 website: https://btcnetwork.in/
 repository: 
 issue: 

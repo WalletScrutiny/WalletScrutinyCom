@@ -13,7 +13,6 @@ version: 1.4.6-production
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://zed-pay.com
 repository: 
 issue: 

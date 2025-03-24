@@ -12,7 +12,6 @@ updated: 2024-08-19
 version: 1.93.0
 stars: 4.5
 reviews: 13
-size: '139407360'
 website: https://btse.com
 repository: 
 issue: 

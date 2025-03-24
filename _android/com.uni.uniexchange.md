@@ -13,7 +13,6 @@ version: 5.3.5
 stars: 3.9
 ratings: 11
 reviews: 7
-size: 5.7M
 website: 
 repository: 
 issue: 

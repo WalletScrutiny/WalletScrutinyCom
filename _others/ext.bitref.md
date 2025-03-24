@@ -12,6 +12,7 @@ website: https://addons.mozilla.org/en-US/firefox/addon/bitref/
 providerWebsite: https://bitref.com
 meta: obsolete
 verdict: wip
+social: 
 
 ---
 

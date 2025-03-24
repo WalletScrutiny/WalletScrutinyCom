@@ -12,7 +12,6 @@ version: '3.8'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.bestla.io/
 repository: 
 issue: 

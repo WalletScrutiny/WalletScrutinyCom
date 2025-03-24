@@ -13,7 +13,6 @@ version: 0.9.4
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.bitgate.io
 repository: 
 issue: 

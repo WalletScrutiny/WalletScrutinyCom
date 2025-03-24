@@ -13,7 +13,6 @@ version: VARY
 stars: 4.4
 ratings: 163
 reviews: 17
-size: 
 website: http://www.linkedin.com/in/vkonovalov
 repository: https://github.com/ValleZ/Paper-Wallet
 issue: https://github.com/ValleZ/Paper-Wallet/issues/42

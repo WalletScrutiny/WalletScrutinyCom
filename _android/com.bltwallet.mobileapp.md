@@ -12,7 +12,6 @@ version: '2.5'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://bitlivenow.com/
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://gxt.global
 repository: 
 issue: 

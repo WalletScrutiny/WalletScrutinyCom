@@ -12,7 +12,6 @@ updated: 2024-04-25
 version: 2.3.10
 stars: 5
 reviews: 2
-size: '101358592'
 website: https://ttmwallet.io/
 repository: 
 issue: 

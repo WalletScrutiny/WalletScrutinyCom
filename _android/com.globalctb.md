@@ -12,7 +12,6 @@ version: 0.6.3
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://globalctb.com/
 repository: 
 issue: 

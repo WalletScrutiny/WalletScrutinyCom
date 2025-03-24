@@ -13,7 +13,6 @@ version: 1.7.9
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://aladiex.com
 repository: 
 issue: 

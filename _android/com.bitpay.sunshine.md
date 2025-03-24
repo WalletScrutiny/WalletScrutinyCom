@@ -12,7 +12,6 @@ version: 3.7.3
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.sunshine-wallet.com
 repository: 
 issue: 

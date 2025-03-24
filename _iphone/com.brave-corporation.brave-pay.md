@@ -12,7 +12,6 @@ updated: 2023-10-26
 version: 1.7.1
 stars: 5
 reviews: 5
-size: '29720576'
 website: 
 repository: 
 issue: 

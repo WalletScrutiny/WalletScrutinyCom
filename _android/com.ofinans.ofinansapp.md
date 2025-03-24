@@ -13,7 +13,6 @@ version: 2.0.7
 stars: 5
 ratings: 
 reviews: 3
-size: 
 website: http://ofinans.com
 repository: 
 issue: 

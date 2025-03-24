@@ -12,7 +12,6 @@ version: 1.0.0.6
 stars: 
 ratings: 
 reviews: 
-size: 4.9M
 website: https://suworld.net
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 1.3.64
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.keyex.com.tr
 repository: 
 issue: 

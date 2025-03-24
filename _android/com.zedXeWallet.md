@@ -13,13 +13,12 @@ version: '1.8'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.zedxe.com
 repository: 
 issue: 
 icon: com.zedXeWallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 appHashes: 
 date: 2023-06-12

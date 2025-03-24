@@ -13,7 +13,6 @@ version: 1.0.201
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://aqru.io/
 repository: 
 issue: 

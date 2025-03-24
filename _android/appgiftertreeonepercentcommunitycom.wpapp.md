@@ -12,7 +12,6 @@ version: '10.0'
 stars: 5
 ratings: 
 reviews: 7
-size: 
 website: http://www.theonepercentcommunity.com
 repository: 
 issue: 

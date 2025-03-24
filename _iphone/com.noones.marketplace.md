@@ -12,7 +12,6 @@ updated: 2024-09-18
 version: 1.5.7
 stars: 3.1
 reviews: 17
-size: '58642432'
 website: https://noones.com
 repository: 
 issue: 

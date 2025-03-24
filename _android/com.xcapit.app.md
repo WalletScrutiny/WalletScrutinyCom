@@ -13,7 +13,6 @@ version: 3.31.0
 stars: 3.4
 ratings: 
 reviews: 6
-size: 
 website: https://xcapit.com
 repository: https://gitlab.com/xcapit-foss/app
 issue: 

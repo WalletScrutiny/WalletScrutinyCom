@@ -13,7 +13,6 @@ version: 2.6.7
 stars: 4.4
 ratings: 
 reviews: 
-size: 
 website: https://www.headline.net
 repository: 
 issue: 

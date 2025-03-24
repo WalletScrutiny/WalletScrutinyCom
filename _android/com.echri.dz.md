@@ -13,13 +13,12 @@ version: 4.0.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://algeriahost.com
 repository: 
 issue: 
 icon: com.echri.dz.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-05-23

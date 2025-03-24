@@ -13,13 +13,12 @@ version: '9.65'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://europefx.com
 repository: 
 issue: 
 icon: com.europefx.app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosendreceive
 appHashes: 
 date: 2023-08-02

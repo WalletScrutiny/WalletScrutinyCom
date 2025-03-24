@@ -13,7 +13,6 @@ version: 1.0.19
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://jetfinex.com/
 repository: 
 issue: 

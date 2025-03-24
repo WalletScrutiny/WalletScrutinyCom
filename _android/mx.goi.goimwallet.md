@@ -12,7 +12,6 @@ version: 1.16.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://connectgoi.com
 repository: 
 issue: 

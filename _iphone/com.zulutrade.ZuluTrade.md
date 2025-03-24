@@ -12,7 +12,6 @@ updated: 2021-11-22
 version: 4.24.0
 stars: 4.2
 reviews: 10
-size: 65590272
 website: https://www.zulutrade.com/
 repository: 
 issue: 

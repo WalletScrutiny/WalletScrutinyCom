@@ -12,16 +12,15 @@ version: VARY
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://tmdstudios.wordpress.com/
 repository: 
 issue: 
 icon: com.tmdstudios.cryptoledgerkotlin.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2024-12-16
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: 

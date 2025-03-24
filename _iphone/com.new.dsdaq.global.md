@@ -12,7 +12,6 @@ updated: 2022-01-14
 version: 5.3.2
 stars: 0
 reviews: 0
-size: '160956416'
 website: http://dsdaq.io
 repository: 
 issue: 

@@ -13,13 +13,12 @@ version: '1.3'
 stars: 
 ratings: 24
 reviews: 
-size: 
 website: https://futuretradelink.com/
 repository: 
 issue: 
 icon: com.futuretradelink.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2021-11-10

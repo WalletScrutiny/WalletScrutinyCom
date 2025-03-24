@@ -13,7 +13,6 @@ version: 12.9.24
 stars: 3.4
 ratings: 
 reviews: 44
-size: 
 website: http://coin.cloud/app
 repository: 
 issue: 

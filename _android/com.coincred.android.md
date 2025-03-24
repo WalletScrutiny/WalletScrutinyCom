@@ -13,7 +13,6 @@ version: 2.5.3
 stars: 4.5
 ratings: 
 reviews: 27
-size: 
 website: https://coincred.org/
 repository: 
 issue: 

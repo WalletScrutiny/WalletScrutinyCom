@@ -13,7 +13,6 @@ version: 0.0.7
 stars: 4.7
 ratings: 97
 reviews: 61
-size: 11M
 website: https://ebc.eco
 repository: 
 issue: 

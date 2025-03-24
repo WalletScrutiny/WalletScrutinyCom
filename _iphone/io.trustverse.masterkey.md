@@ -12,7 +12,6 @@ updated: 2022-11-28
 version: '2.0'
 stars: 0
 reviews: 0
-size: '71185408'
 website: https://www.the-masterkey.com
 repository: 
 issue: 

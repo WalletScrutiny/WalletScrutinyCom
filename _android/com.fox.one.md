@@ -13,7 +13,6 @@ version: 2.14.1
 stars: 4.8
 ratings: 114
 reviews: 90
-size: 33M
 website: https://www.fox.one/#/
 repository: 
 issue: 

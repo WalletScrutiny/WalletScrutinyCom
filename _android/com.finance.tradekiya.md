@@ -13,7 +13,6 @@ version: 1.0.147
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://tradekia.com/
 repository: 
 issue: 

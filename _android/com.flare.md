@@ -13,7 +13,6 @@ version: 1.4.0
 stars: 3.7
 ratings: 233
 reviews: 43
-size: 
 website: https://flarewallet.io
 repository: 
 issue: 

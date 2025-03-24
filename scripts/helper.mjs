@@ -92,7 +92,9 @@ function migrateAll (categoryHelper, migration) {
 function migrateFile (categoryHelper, file, migration, defaultHeader) {
   const folder = `_${categoryHelper.category}/`;
   const appPath = path.join(folder, file);
-  const content = { header: defaultHeader, body: undefined };
+  const content = categoryHelper.category === 'others'
+    ? { header: {}, body: undefined } // For others: start with empty object to preserve file structure
+    : { header: defaultHeader, body: undefined }; // For other categories: use defaultHeader
   loadFromFile(appPath, content);
   migration(content.header, content.body, file, categoryHelper);
   writeResult(folder, content.header, content.body);
@@ -165,6 +167,9 @@ function checkHeaderKeys (header, allowedHeaders) {
   if (losts.length > 0) console.error(`Losing properties: ${losts}.`);
 }
 
+/**
+ * Turn the array `headers` into an object with the strings as keys.
+ **/
 function getEmptyHeader (headers) {
   return headers.reduce((a, v) => ({ ...a, [v]: null }), {});
 }
@@ -176,7 +181,10 @@ function getResult (header, body) {
   return `---
 ${yaml.dump(header, {
   noArrayIndent: true,
-  schema: schema
+  schema: schema,
+  styles: {
+    '!!timestamp': 'plain'  // Prevent quoting of dates
+  }
 })}
 ---
 

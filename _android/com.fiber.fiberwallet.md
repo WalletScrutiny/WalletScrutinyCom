@@ -12,7 +12,6 @@ version: 1.1.85
 stars: 
 ratings: 
 reviews: 
-size: 42M
 website: https://app.wirewallet.org/
 repository: 
 issue: 

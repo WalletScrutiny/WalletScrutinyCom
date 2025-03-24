@@ -6,13 +6,12 @@ authors:
 - danny
 appId: com.TapGlobal.tap
 appCountry: gb
-idd: 1492263993
+idd: '1492263993'
 released: 2019-12-20
-updated: 2025-02-04
-version: 3.4.2
+updated: 2025-03-03
+version: 3.4.4
 stars: 4.6
-reviews: 1781
-size: '148816896'
+reviews: 1798
 website: https://www.withtap.com
 repository: 
 issue: 

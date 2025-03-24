@@ -12,7 +12,6 @@ updated: 2021-12-23
 version: 1.28.0
 stars: 1.3
 reviews: 3
-size: '86978560'
 website: https://titanprojects.co
 repository: 
 issue: 

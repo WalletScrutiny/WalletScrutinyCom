@@ -12,7 +12,6 @@ version: 3.7.2
 stars: 5
 ratings: 
 reviews: 
-size: 
 website: https://www.nineuniverse.com
 repository: 
 issue: 

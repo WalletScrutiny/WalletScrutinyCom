@@ -12,7 +12,6 @@ version: VARY
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://aerotoken.org/
 repository: 
 issue: 

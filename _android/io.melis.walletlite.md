@@ -13,7 +13,6 @@ version: 0.4.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.melis.io
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 1.2.10
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.census.cx/
 repository: 
 issue: 

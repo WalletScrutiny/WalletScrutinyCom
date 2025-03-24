@@ -12,7 +12,6 @@ version: 7.4.0
 stars: 3.4
 ratings: 
 reviews: 6
-size: 
 website: https://www.numbrs.com
 repository: 
 issue: 

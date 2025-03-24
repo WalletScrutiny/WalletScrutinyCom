@@ -12,7 +12,6 @@ version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://159.65.248.120/
 repository: 
 issue: 

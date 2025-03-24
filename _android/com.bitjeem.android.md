@@ -12,7 +12,6 @@ version: 1.11.0
 stars: 5
 ratings: 
 reviews: 
-size: 
 website: https://bitjeem.com
 repository: 
 issue: 

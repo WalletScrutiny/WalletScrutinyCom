@@ -13,7 +13,6 @@ version: 1.9.18
 stars: 4.5
 ratings: 
 reviews: 
-size: 
 website: https://cpass.exchange/
 repository: 
 issue: 

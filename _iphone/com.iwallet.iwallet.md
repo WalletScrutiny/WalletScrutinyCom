@@ -13,7 +13,6 @@ updated: 2021-09-09
 version: '2.35'
 stars: 4.4
 reviews: 46
-size: '52264960'
 website: http://InSense.tech
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 2.4.3
 stars: 4.7
 ratings: 583
 reviews: 23
-size: 
 website: https://trustkeys.network
 repository: 
 issue: 

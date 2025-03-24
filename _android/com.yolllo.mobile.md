@@ -12,7 +12,6 @@ version: '1.0'
 stars: 4.9
 ratings: 
 reviews: 
-size: 
 website: https://avapayltd.com
 repository: 
 issue: 

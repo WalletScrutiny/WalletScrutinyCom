@@ -13,16 +13,15 @@ version: 3.0.391
 stars: 3.4
 ratings: 372
 reviews: 17
-size: 
 website: https://iflux.app
 repository: 
 issue: 
 icon: com.fluxpayment.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-04-09
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: ifluxdotapp

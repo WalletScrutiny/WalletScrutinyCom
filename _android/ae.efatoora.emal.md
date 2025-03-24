@@ -13,7 +13,6 @@ version: '3.2'
 stars: 4.8
 ratings: 
 reviews: 
-size: 
 website: https://e-mal.ae/
 repository: 
 issue: 

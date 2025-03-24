@@ -13,7 +13,6 @@ version: '0.6'
 stars: 3.4
 ratings: 17
 reviews: 3
-size: 
 website: 
 repository: https://github.com/lndroid/BitcoinCoreAndroid
 issue: 

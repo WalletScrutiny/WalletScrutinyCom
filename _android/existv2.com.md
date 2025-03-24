@@ -13,13 +13,12 @@ version: '3.0'
 stars: 4
 ratings: 
 reviews: 4
-size: 
 website: https://nyecoin.io/
 repository: 
 issue: 
 icon: existv2.com.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosource
 appHashes: 
 date: 2022-06-23

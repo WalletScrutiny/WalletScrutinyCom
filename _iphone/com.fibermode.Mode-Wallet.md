@@ -12,7 +12,6 @@ updated: 2023-03-04
 version: 5.7.3
 stars: 4.2
 reviews: 1018
-size: '54933504'
 website: https://www.modeapp.com
 repository: 
 issue: 

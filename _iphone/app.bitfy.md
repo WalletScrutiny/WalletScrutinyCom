@@ -6,22 +6,21 @@ authors:
 - danny
 appId: app.bitfy
 appCountry: br
-idd: 1483269793
+idd: '1483269793'
 released: 2019-11-26
 updated: 2024-02-27
 version: 3.12.45
 stars: 3.9
 reviews: 117
-size: '56832000'
 website: https://bitfy.app
 repository: 
 issue: 
 icon: app.bitfy.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
 appHashes: 
-date: 2024-10-07
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: bitfyapp

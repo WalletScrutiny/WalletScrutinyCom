@@ -12,7 +12,6 @@ version: 1.00.6
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 

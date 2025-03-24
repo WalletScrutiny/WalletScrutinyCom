@@ -12,7 +12,6 @@ updated: 2024-08-27
 version: 2.0.2
 stars: 0
 reviews: 0
-size: '30914560'
 website: https://www.koinbasket.com
 repository: 
 issue: 

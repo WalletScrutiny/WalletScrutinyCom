@@ -13,7 +13,6 @@ version: 1.3.10
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.qredo.com
 repository: 
 issue: 

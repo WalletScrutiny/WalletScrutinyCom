@@ -14,7 +14,6 @@ version: 4.1.6
 stars: 3.6
 ratings: 777
 reviews: 461
-size: 52M
 website: https://www.coinbene.com/
 repository: 
 issue: 

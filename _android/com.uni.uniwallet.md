@@ -12,7 +12,6 @@ version: 7.0.4
 stars: 4
 ratings: 44
 reviews: 23
-size: 4.2M
 website: 
 repository: 
 issue: 

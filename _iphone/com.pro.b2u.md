@@ -12,7 +12,6 @@ updated: 2023-09-27
 version: '2.4'
 stars: 2.5
 reviews: 167
-size: '41312256'
 website: https://www.bitcointoyou.com
 repository: 
 issue: 

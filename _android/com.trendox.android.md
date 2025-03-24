@@ -8,12 +8,11 @@ users: 10000
 appId: com.trendox.android
 appCountry: 
 released: 2022-01-02
-updated: 2025-02-02
-version: 3.9.32_googleplay
+updated: 2025-02-18
+version: 3.9.40_googleplay
 stars: 4.8
 ratings: 
-reviews: 71
-size: 
+reviews: 72
 website: https://fxtrendo.com
 repository: 
 issue: 
@@ -30,7 +29,7 @@ social:
 - https://t.me/trendo_support
 - https://www.instagram.com/fxtrendo
 redirect_from: 
-developerName: Trendo LLC
+developerName: Trendo Forex
 features: 
 
 ---

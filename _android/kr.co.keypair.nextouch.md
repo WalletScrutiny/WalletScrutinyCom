@@ -12,7 +12,6 @@ version: 1.0.0.57
 stars: 3.4
 ratings: 
 reviews: 
-size: 
 website: http://www.eunex.co
 repository: 
 issue: 

@@ -12,13 +12,12 @@ version: 2.0.3
 stars: 
 ratings: 14
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
 icon: com.finovation.fxvc.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: fewusers
 appHashes: 
 date: 2021-11-01

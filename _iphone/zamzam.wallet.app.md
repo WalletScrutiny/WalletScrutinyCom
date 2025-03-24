@@ -12,7 +12,6 @@ updated: 2024-12-10
 version: 3.3.8
 stars: 4.2
 reviews: 73
-size: '50220032'
 website: http://zam.io
 repository: 
 issue: 

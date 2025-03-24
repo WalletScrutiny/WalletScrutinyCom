@@ -13,7 +13,6 @@ version: 1.1.20
 stars: 4.7
 ratings: 35
 reviews: 26
-size: 3.5M
 website: https://atmoption.in/
 repository: 
 issue: 

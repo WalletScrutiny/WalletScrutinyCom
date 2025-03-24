@@ -12,7 +12,6 @@ version: 3.0.0
 stars: 
 ratings: 
 reviews: 
-size: 15M
 website: https://www.strayacoin.org/index.php/strayapos/
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 137.6.4
 stars: 2.8
 ratings: 1118
 reviews: 655
-size: 
 website: https://www.coinberry.com
 repository: 
 issue: 

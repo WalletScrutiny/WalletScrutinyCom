@@ -12,7 +12,6 @@ version: '1.9'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://paperbgs.com/
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 3.2.7
 stars: 4.9
 ratings: 
 reviews: 27
-size: 
 website: https://www.trofi.group/
 repository: 
 issue: 

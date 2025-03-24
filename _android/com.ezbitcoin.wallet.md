@@ -12,7 +12,6 @@ version: 1.2.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://cc-communications.net/
 repository: 
 issue: 

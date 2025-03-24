@@ -12,7 +12,6 @@ version: 3.57.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://afcash.app
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: '15'
 stars: 4.1
 ratings: 154
 reviews: 43
-size: 
 website: http://nordfx.com
 repository: 
 issue: 

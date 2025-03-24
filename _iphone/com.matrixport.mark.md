@@ -8,11 +8,10 @@ appId: com.matrixport.mark
 appCountry: us
 idd: 1488557973
 released: 2019-11-25
-updated: 2025-01-27
-version: 4.1.00
+updated: 2025-03-18
+version: 4.1.41
 stars: 3.6
 reviews: 49
-size: '275871744'
 website: https://invest.matrixport.dev/en
 repository: 
 issue: 

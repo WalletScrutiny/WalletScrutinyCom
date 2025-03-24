@@ -13,13 +13,12 @@ version: 1.5.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.krypterz.com
 repository: 
 issue: 
 icon: com.app.exchangejl.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-08-30

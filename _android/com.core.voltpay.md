@@ -12,7 +12,6 @@ version: 1.2.24
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://voltpay.app
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 4.5.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://unido.us/
 repository: 
 issue: 

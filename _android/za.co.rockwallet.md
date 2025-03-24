@@ -12,7 +12,6 @@ version: '1.6'
 stars: 2.9
 ratings: 
 reviews: 
-size: 
 website: https://rockwallet.co.za
 repository: 
 issue: 

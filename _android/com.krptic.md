@@ -12,7 +12,6 @@ version: 4.0.7
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.krptic.com
 repository: 
 issue: 

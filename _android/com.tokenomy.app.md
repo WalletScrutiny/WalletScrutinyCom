@@ -13,7 +13,6 @@ version: 2.15.1
 stars: 3.5
 ratings: 
 reviews: 
-size: 
 website: https://www.tokenomy.com
 repository: 
 issue: 

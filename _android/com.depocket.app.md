@@ -12,7 +12,6 @@ version: 1.1.6
 stars: 4.8
 ratings: 
 reviews: 
-size: 
 website: https://depocket.com/
 repository: 
 issue: 

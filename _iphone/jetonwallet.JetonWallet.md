@@ -12,16 +12,15 @@ updated: 2024-04-22
 version: 3.9.2
 stars: 3.5
 reviews: 44
-size: '118770688'
 website: https://jeton.com
 repository: 
 issue: 
 icon: jetonwallet.JetonWallet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2021-09-03
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: jetonwallet

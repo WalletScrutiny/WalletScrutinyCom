@@ -13,7 +13,6 @@ version: 1.2.4
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.rakuten-wallet.co.jp/
 repository: 
 issue: 

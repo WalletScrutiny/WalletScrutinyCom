@@ -13,7 +13,6 @@ version: 2.0.5
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://vuollet.io/
 repository: 
 issue: 
@@ -29,7 +28,7 @@ twitter: Vuollet_io
 social:
 - https://t.me/vuollet
 redirect_from: 
-developerName: Codego Ltd
+developerName: Codego Limited
 features: 
 
 ---

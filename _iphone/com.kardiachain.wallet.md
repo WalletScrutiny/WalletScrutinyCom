@@ -12,7 +12,6 @@ updated: 2024-12-31
 version: 3.0.0
 stars: 4.4
 reviews: 69
-size: '62159872'
 website: https://kardiachain.io/
 repository: 
 issue: 

@@ -12,7 +12,6 @@ updated: 2021-02-16
 version: 1.9.3
 stars: 4.4
 reviews: 7
-size: '36038656'
 website: 
 repository: 
 issue: 

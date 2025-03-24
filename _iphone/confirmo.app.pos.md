@@ -12,7 +12,6 @@ updated: 2023-08-18
 version: 1.0.8
 stars: 0
 reviews: 0
-size: '54953984'
 website: http://www.confirmo.net/
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 2.20.3
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.fiahub.com
 repository: 
 issue: 

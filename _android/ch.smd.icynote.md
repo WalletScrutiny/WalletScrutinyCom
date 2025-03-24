@@ -13,7 +13,6 @@ version: 1.0.2
 stars: 3.8
 ratings: 
 reviews: 
-size: 
 website: https://icynote.ch
 repository: 
 issue: 

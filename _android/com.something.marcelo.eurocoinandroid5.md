@@ -13,7 +13,6 @@ version: '39.7'
 stars: 4.3
 ratings: 
 reviews: 
-size: 
 website: http://www.eurocoinpay.io
 repository: 
 issue: 

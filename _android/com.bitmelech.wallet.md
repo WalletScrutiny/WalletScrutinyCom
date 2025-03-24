@@ -12,7 +12,6 @@ version: 1.2.5
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://bitmelech.com/
 repository: 
 issue: 

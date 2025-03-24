@@ -13,7 +13,6 @@ version: 3.04.30
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://altrafinance.io/
 repository: 
 issue: 

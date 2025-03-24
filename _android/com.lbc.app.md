@@ -12,7 +12,6 @@ version: 1.0.0
 stars: 5
 ratings: 
 reviews: 
-size: 
 website: https://www.coinsclone.com/
 repository: 
 issue: 

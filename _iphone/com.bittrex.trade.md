@@ -12,7 +12,6 @@ updated: 2023-04-05
 version: 1.22.0
 stars: 4.6
 reviews: 4357
-size: '94430208'
 website: https://bittrex.com/mobile
 repository: 
 issue: 

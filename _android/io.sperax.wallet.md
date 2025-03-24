@@ -13,7 +13,6 @@ version: 1.6.1
 stars: 3.3
 ratings: 
 reviews: 366
-size: 
 website: https://app.sperax.io/
 repository: 
 issue: 

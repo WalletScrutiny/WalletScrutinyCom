@@ -12,7 +12,6 @@ version: 2.5.3
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.fiatbit.com
 repository: 
 issue: 

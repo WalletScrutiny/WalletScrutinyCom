@@ -13,7 +13,6 @@ version: 2.2.9
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.tbitex.com/
 repository: 
 issue: 

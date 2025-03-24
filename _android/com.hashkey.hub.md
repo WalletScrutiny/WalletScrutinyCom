@@ -13,7 +13,6 @@ version: 4.0.0
 stars: 4.3
 ratings: 
 reviews: 3
-size: 
 website: https://hub.hashkey.com
 repository: 
 issue: 

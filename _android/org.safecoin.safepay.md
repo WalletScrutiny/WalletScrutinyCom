@@ -13,7 +13,6 @@ version: 7.2.8
 stars: 4.2
 ratings: 
 reviews: 5
-size: 
 website: https://safepay.safecoin.org
 repository: 
 issue: 

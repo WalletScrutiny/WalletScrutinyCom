@@ -12,7 +12,6 @@ updated: 2024-06-10
 version: 2.2.9
 stars: 4.3
 reviews: 68
-size: '36643840'
 website: https://www.boundlesspay.com
 repository: 
 issue: 

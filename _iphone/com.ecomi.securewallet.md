@@ -12,7 +12,6 @@ updated: 2024-06-20
 version: 3.0.9
 stars: 4.3
 reviews: 57
-size: '41449472'
 website: https://wallet.ecomi.com/
 repository: 
 issue: 

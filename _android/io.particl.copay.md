@@ -13,7 +13,6 @@ version: 5.5.1
 stars: 4.1
 ratings: 134
 reviews: 17
-size: 
 website: https://particl.io
 repository: https://github.com/particl/copay/commits/ratefix
 issue: https://github.com/particl/copay/issues/58

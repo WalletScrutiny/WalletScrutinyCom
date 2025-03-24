@@ -12,7 +12,6 @@ version: 0.0.10
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://forintfinance.com/
 repository: 
 issue: 

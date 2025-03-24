@@ -12,16 +12,15 @@ updated: 2023-11-29
 version: 1.0.4
 stars: 3.5
 reviews: 19
-size: '74272768'
 website: 
 repository: 
 issue: 
 icon: com.idiskk.wallet.usb.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-11-25
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: 

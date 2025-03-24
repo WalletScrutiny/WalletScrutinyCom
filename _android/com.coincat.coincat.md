@@ -13,7 +13,6 @@ version: '4.2'
 stars: 4.2
 ratings: 
 reviews: 
-size: 
 website: https://coincat.in
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 3.0.16
 stars: 4.8
 ratings: 
 reviews: 93
-size: 
 website: https://www.cyclebas.com/
 repository: 
 issue: 

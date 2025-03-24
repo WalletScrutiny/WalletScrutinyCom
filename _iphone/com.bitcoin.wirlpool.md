@@ -12,7 +12,6 @@ updated: 2024-01-07
 version: 1.0.7
 stars: 5
 reviews: 9
-size: '51383296'
 website: https://www.facebook.com/groups/sparrowwallet
 repository: 
 issue: 

@@ -5,7 +5,7 @@ authors:
 - danny
 released: 2019-01-08
 discontinued: 
-updated: 
+updated: 2020-10-22
 version: 1.3.0
 binaries: 
 provider: Coinomi

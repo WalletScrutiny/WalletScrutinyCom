@@ -12,7 +12,6 @@ version: Varies with device
 stars: 3.5
 ratings: 223
 reviews: 156
-size: Varies with device
 website: 
 repository: 
 issue: 

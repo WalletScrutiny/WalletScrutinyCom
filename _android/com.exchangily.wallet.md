@@ -14,7 +14,6 @@ version: 2.2.106
 stars: 4.3
 ratings: 32
 reviews: 6
-size: 
 website: https://exchangily.com
 repository: https://github.com/blockchaingate/exchangily-mobile-app
 issue: https://github.com/blockchaingate/exchangily-mobile-app/issues/1

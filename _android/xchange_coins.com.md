@@ -12,7 +12,6 @@ version: 5.84.10
 stars: 
 ratings: 
 reviews: 
-size: 9.5M
 website: https://www.xchange-coins.com
 repository: 
 issue: 

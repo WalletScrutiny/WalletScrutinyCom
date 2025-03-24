@@ -13,13 +13,12 @@ version: 1.0.9
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://buy-bitcoin.pro
 repository: 
 issue: 
 icon: buy_bitcoin.pro.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-05-09

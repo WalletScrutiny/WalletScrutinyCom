@@ -13,7 +13,6 @@ version: 1.5.78-brand101investing
 stars: 3.7
 ratings: 263
 reviews: 209
-size: 20M
 website: https://www.101investing.com/
 repository: 
 issue: 

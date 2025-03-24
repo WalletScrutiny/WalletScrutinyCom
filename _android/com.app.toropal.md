@@ -12,7 +12,6 @@ version: 2.0.0
 stars: 4.8
 ratings: 
 reviews: 
-size: 
 website: https://www.toropal.com
 repository: 
 issue: 

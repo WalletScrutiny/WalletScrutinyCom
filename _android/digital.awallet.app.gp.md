@@ -13,7 +13,6 @@ version: 1.3.5
 stars: 5
 ratings: 
 reviews: 15
-size: 
 website: https://awallet.digital
 repository: 
 issue: 

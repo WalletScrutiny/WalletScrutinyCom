@@ -12,7 +12,6 @@ version: 1.0.0
 stars: 3.3
 ratings: 
 reviews: 
-size: 
 website: https://www.gbpay.cc/et/
 repository: 
 issue: 

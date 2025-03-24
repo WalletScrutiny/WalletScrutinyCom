@@ -12,7 +12,6 @@ version: '1.014'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://facoin.info
 repository: 
 issue: 

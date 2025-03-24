@@ -13,7 +13,6 @@ version: VARY
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://chainsafe.io
 repository: https://github.com/ChainSafe/WeiPay
 issue: 

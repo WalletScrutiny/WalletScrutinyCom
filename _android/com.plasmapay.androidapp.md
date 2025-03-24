@@ -13,7 +13,6 @@ version: 2.0.4
 stars: 3
 ratings: 31
 reviews: 17
-size: 151M
 website: https://plasmapay.com/
 repository: 
 issue: 

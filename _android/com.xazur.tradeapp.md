@@ -12,7 +12,6 @@ version: 61.6.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://xazur.digital
 repository: 
 issue: 

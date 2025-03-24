@@ -12,7 +12,6 @@ version: 1.0.3
 stars: 4.8
 ratings: 
 reviews: 24
-size: 
 website: https://virtuabroker.com
 repository: 
 issue: 

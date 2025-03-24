@@ -12,7 +12,6 @@ version: '3.0'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://sendenero.com
 repository: 
 issue: 

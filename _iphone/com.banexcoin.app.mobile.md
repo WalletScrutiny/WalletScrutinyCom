@@ -11,7 +11,6 @@ updated: 2022-10-18
 version: 1.1.103
 stars: 4.2
 reviews: 5
-size: '42552320'
 website: https://www.banexcoin.com/
 repository: 
 issue: 

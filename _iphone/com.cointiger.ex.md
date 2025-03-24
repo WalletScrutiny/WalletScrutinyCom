@@ -12,13 +12,12 @@ updated: 2020-06-23
 version: 5.0.6
 stars: 2.7
 reviews: 96
-size: 152541184
 website: http://www.cointiger.com
 repository: 
 issue: 
 icon: com.cointiger.ex.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 appHashes: 
 date: 2022-01-15

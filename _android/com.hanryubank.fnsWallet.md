@@ -13,13 +13,12 @@ version: 2.1.2
 stars: 4.6
 ratings: 
 reviews: 4
-size: 
 website: 
 repository: 
 issue: 
 icon: com.hanryubank.fnsWallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-04-07

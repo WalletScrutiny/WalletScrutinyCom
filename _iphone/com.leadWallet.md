@@ -12,7 +12,6 @@ updated: 2022-04-15
 version: 1.0.32
 stars: 4.5
 reviews: 19
-size: '54854656'
 website: https://leadwallet.io/
 repository: https://github.com/leadwallet/leadwallet-core
 issue: 

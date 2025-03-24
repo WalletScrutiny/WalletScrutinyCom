@@ -13,7 +13,6 @@ version: 1.0.2
 stars: 5
 ratings: 
 reviews: 6
-size: 
 website: https://bitsmoney.co.com
 repository: 
 issue: 

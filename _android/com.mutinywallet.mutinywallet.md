@@ -13,7 +13,6 @@ version: 1.8.0
 stars: 4.8
 ratings: 
 reviews: 5
-size: 
 website: https://mutinywallet.com
 repository: https://github.com/MutinyWallet/mutiny-web
 issue: 

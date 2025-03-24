@@ -13,7 +13,6 @@ version: '3.35'
 stars: 5
 ratings: 
 reviews: 5
-size: 
 website: https://alxwallet.com
 repository: 
 issue: 

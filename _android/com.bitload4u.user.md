@@ -12,7 +12,6 @@ version: 2.1.5
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.bitload4u.com
 repository: 
 issue: 

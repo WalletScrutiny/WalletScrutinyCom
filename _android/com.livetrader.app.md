@@ -12,7 +12,6 @@ version: 1.1.93
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.livetraderfx.com/
 repository: 
 issue: 

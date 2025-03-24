@@ -13,8 +13,7 @@ updated: 2024-07-18
 version: 5.0.0
 stars: 4
 ratings: 2220
-reviews: 220
-size: 
+reviews: 219
 website: https://decrypt.co/
 repository: 
 issue: 

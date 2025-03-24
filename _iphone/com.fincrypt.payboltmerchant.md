@@ -11,16 +11,15 @@ updated: 2022-07-08
 version: 3.0.0
 stars: 5
 reviews: 6
-size: '38138880'
 website: 
 repository: 
 issue: 
 icon: com.fincrypt.payboltmerchant.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nobtc
 appHashes: 
-date: 2024-06-29
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: PayBoltOfficial

@@ -13,7 +13,6 @@ version: 1.1.6
 stars: 4.3
 ratings: 
 reviews: 5
-size: 
 website: https://3swallet.com
 repository: 
 issue: 

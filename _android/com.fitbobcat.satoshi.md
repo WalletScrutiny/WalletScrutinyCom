@@ -12,7 +12,6 @@ version: '1.0'
 stars: 3.6
 ratings: 25
 reviews: 15
-size: 3.0M
 website: https://www.satoshiera.com
 repository: 
 issue: 

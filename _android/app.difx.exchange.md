@@ -13,7 +13,6 @@ version: 5.1.4
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://app.difx.com
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 1.12.3
 stars: 3.8
 ratings: 5332
 reviews: 40
-size: 
 website: https://bitpapa.com
 repository: 
 issue: 

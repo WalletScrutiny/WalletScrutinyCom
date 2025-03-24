@@ -13,7 +13,6 @@ version: 1.10.5
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.bitlifi.com
 repository: 
 issue: 

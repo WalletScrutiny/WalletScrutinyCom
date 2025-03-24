@@ -13,16 +13,15 @@ version: 2.0.1
 stars: 3.9
 ratings: 
 reviews: 146
-size: 
 website: https://mara.xyz
 repository: 
 issue: 
 icon: xyz.mara.wallet.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-10-16
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: TheMARAverse

@@ -12,7 +12,6 @@ updated: 2022-10-26
 version: 7.0.0
 stars: 4.7
 reviews: 25
-size: '34618368'
 website: https://max.maicoin.com
 repository: 
 issue: 

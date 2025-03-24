@@ -12,7 +12,6 @@ updated: 2021-12-04
 version: 2.4.14
 stars: 4
 reviews: 13
-size: 57735168
 website: https://www.coinsuper.com/
 repository: 
 issue: 

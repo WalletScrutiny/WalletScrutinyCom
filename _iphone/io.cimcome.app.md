@@ -12,7 +12,6 @@ updated: 2024-11-22
 version: 2.2.13
 stars: 0
 reviews: 0
-size: '81775616'
 website: https://cimcome.sg
 repository: 
 issue: 

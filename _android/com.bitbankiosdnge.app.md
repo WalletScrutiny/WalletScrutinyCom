@@ -12,7 +12,6 @@ version: '456'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://24bitbank.io/
 repository: 
 issue: 

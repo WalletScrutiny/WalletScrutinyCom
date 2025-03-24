@@ -15,7 +15,6 @@ version: 1.3.5
 stars: 3.7
 ratings: 6
 reviews: 4
-size: 22M
 website: https://www.bhexchain.com/
 repository: 
 issue: https://github.com/bluehelix-chain/wallet-android/issues/4

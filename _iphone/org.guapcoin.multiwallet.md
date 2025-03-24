@@ -12,7 +12,6 @@ updated: 2022-09-24
 version: 1.1.3
 stars: 4.7
 reviews: 48
-size: '36508672'
 website: https://www.guapcoin.org
 repository: 
 issue: 

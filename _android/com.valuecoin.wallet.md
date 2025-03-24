@@ -12,7 +12,6 @@ version: '3.4'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.valuecoin.money/
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 1.0.2
 stars: 4.8
 ratings: 18
 reviews: 9
-size: Varies with device
 website: 
 repository: 
 issue: 

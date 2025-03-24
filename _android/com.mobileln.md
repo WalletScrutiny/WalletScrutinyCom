@@ -13,7 +13,6 @@ version: pre-alpha v0.2b
 stars: 
 ratings: 
 reviews: 
-size: 38M
 website: 
 repository: https://github.com/hihidev/MobileLN
 issue: 

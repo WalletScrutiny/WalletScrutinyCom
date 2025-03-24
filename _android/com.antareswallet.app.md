@@ -13,13 +13,12 @@ version: 0.9.5+205
 stars: 
 ratings: 48
 reviews: 
-size: 
 website: https://antareswallet.com/
 repository: 
 issue: 
 icon: com.antareswallet.app.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2021-11-08

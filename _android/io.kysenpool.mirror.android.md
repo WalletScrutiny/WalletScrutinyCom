@@ -13,7 +13,6 @@ version: 1.2.1
 stars: 4.4
 ratings: 119
 reviews: 44
-size: 33M
 website: https://www.kysenpool.io/en/
 repository: 
 issue: 

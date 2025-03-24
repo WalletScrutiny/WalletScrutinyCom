@@ -9,12 +9,11 @@ users: 10000
 appId: io.aquawallet.android
 appCountry: 
 released: 2024-01-02
-updated: 2024-12-01
-version: 0.2.6
-stars: 4.4
+updated: 2025-02-18
+version: 0.2.10
+stars: 4.5
 ratings: 
-reviews: 14
-size: 
+reviews: 15
 website: https://aquawallet.io
 repository: https://github.com/AquaWallet/aqua-wallet
 issue: https://github.com/AquaWallet/aqua-wallet/issues/9

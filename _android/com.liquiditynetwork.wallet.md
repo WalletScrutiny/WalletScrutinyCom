@@ -12,7 +12,6 @@ version: 1.27.2
 stars: 
 ratings: 
 reviews: 
-size: 8.1M
 website: https://liquidity.network
 repository: 
 issue: 

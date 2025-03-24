@@ -13,7 +13,6 @@ version: 3.13.0
 stars: 4.1
 ratings: 
 reviews: 5
-size: 
 website: https://www.deribit.com
 repository: 
 issue: 

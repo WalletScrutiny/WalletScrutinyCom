@@ -12,7 +12,6 @@ version: 1.0.31
 stars: 4.7
 ratings: 
 reviews: 
-size: 
 website: https://bitcoinupbit.com/
 repository: 
 issue: 

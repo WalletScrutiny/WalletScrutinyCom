@@ -12,7 +12,6 @@ version: 1.4.6.17
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://moolabit.com
 repository: 
 issue: 

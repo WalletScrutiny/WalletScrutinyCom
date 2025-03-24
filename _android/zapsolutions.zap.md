@@ -13,7 +13,6 @@ version: VARY
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://zap.jackmallers.com
 repository: https://github.com/LN-Zap/zap-android
 issue: 

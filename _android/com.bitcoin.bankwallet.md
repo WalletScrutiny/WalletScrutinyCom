@@ -13,7 +13,6 @@ version: 0.3.7
 stars: 4.6
 ratings: 
 reviews: 15
-size: 
 website: https://wallet-markets.web.app
 repository: 
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/494

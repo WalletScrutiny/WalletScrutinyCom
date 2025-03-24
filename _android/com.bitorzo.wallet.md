@@ -14,7 +14,6 @@ version: 3.1.3
 stars: 
 ratings: 28
 reviews: 
-size: 
 website: https://www.bitorzo.io
 repository: https://github.com/Bitorzo/Bitorzo
 issue: https://github.com/Bitorzo/Bitorzo/issues/2

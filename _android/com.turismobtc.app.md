@@ -12,7 +12,6 @@ version: 1.2.4
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.turismobtc.com
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 3.2.20-Rovi Trading-rovi-genesis-month-
 stars: 4.6
 ratings: 
 reviews: 136
-size: 
 website: 
 repository: 
 issue: 

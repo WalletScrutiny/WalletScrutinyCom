@@ -8,12 +8,11 @@ users: 5000
 appId: com.fintoda.app
 appCountry: 
 released: 2021-08-26
-updated: 2024-12-24
-version: 1.6.3
+updated: 2025-03-17
+version: 1.6.5
 stars: 4.4
 ratings: 
 reviews: 
-size: 
 website: https://fintoda.com
 repository: 
 issue: 

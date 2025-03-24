@@ -13,7 +13,6 @@ version: 2.0.32
 stars: 3.6
 ratings: 221
 reviews: 10
-size: 
 website: https://www.bitfia.io
 repository: 
 issue: 

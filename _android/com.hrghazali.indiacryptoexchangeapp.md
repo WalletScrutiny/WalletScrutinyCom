@@ -12,16 +12,15 @@ version: 1.0.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
 icon: com.hrghazali.indiacryptoexchangeapp.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
 appHashes: 
-date: 2024-02-24
+date: 2025-02-18
 signer: 
 reviewArchive: 
 twitter: 

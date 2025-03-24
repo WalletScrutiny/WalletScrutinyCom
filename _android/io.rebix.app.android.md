@@ -12,7 +12,6 @@ version: 0.6.7
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://rebix.io
 repository: 
 issue: 

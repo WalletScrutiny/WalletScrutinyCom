@@ -12,7 +12,6 @@ version: 6.0.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://drone.onlinestore.digital
 repository: 
 issue: 

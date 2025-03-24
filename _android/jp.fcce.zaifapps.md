@@ -13,7 +13,6 @@ version: 1.1.23
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://zaif.jp
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.muda.exchange
 repository: 
 issue: 

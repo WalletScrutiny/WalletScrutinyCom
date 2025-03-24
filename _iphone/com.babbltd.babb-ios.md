@@ -12,7 +12,6 @@ updated: 2024-12-16
 version: 2.5.3
 stars: 4.3
 reviews: 85
-size: '57335808'
 website: https://getbabb.com/
 repository: 
 issue: 

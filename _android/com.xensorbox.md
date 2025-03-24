@@ -13,13 +13,12 @@ version: 1.3.6
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://xensor.cc
 repository: 
 issue: 
 icon: com.xensorbox.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-06-10

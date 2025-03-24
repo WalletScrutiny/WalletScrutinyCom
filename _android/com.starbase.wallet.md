@@ -13,7 +13,6 @@ version: 0.22.1
 stars: 3.6
 ratings: 
 reviews: 9
-size: 
 website: https://deploystarship.com
 repository: https://github.com/deploystarship/StarBase_android
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/477

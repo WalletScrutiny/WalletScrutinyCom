@@ -12,7 +12,6 @@ version: 3.2.1
 stars: 2.9
 ratings: 460
 reviews: 323
-size: 11M
 website: 
 repository: 
 issue: 

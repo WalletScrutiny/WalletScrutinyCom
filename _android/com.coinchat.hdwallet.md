@@ -13,7 +13,6 @@ version: '0.9'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.coinchat.im
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 1.1.1
 stars: 4.3
 ratings: 
 reviews: 
-size: 
 website: https://www.bispex.com/
 repository: 
 issue: 

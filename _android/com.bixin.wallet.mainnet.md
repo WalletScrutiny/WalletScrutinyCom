@@ -14,7 +14,6 @@ version: 2.12.3
 stars: 4.7
 ratings: 315
 reviews: 10
-size: 
 website: https://onekey.so
 repository: 
 issue: https://github.com/OneKeyHQ/android_app/issues/1

@@ -12,7 +12,6 @@ version: 0.2.3
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://tw.yahoo.com/
 repository: 
 issue: 

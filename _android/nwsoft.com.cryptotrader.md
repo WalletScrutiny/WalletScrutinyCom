@@ -12,7 +12,6 @@ version: 1.11ai
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.nwsoft.co.kr
 repository: 
 issue: 

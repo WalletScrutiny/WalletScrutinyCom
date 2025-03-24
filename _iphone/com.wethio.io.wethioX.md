@@ -12,16 +12,15 @@ updated: 2023-01-31
 version: 3.0.6
 stars: 5
 reviews: 4
-size: '50429952'
 website: https://www.wethiox.io/landing
 repository: 
 issue: 
 icon: com.wethio.io.wethioX.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-01-27
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: wethiox

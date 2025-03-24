@@ -12,16 +12,15 @@ updated: 2024-03-13
 version: 1.8.9
 stars: 0
 reviews: 0
-size: '72197120'
 website: https://mirai.finance/
 repository: 
 issue: 
 icon: io.fgraph.wallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
 appHashes: 
-date: 2023-08-15
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: shinobi_wallet

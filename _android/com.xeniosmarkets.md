@@ -12,7 +12,6 @@ version: VARY
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.xeniosmarkets.com/
 repository: 
 issue: 

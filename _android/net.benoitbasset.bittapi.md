@@ -12,7 +12,6 @@ version: 1.2.1
 stars: 4.5
 ratings: 99
 reviews: 6
-size: 
 website: http://bittapi.oblade.net
 repository: 
 issue: 

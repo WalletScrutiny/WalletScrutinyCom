@@ -12,7 +12,6 @@ updated: 2022-06-30
 version: 1.8.5
 stars: 3.8
 reviews: 322
-size: '127697920'
 website: https://www.tokenpocket.pro
 repository: https://github.com/TP-Lab/tp-ios
 issue: https://github.com/TP-Lab/tp-ios/issues/1

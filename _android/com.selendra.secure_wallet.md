@@ -13,7 +13,6 @@ version: 9.0.3
 stars: 4.2
 ratings: 96
 reviews: 4
-size: 
 website: https://bitriel.com/
 repository: https://github.com/bitriel/bitriel-wallet
 issue: https://github.com/bitriel/bitriel-wallet/issues/26

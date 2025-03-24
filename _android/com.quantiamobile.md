@@ -12,7 +12,6 @@ version: 1.0.6
 stars: 4.1
 ratings: 
 reviews: 
-size: 
 website: https://quantia.io
 repository: 
 issue: 

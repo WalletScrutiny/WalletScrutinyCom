@@ -13,7 +13,6 @@ version: 2.0.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.huobi.com.co
 repository: 
 issue: 

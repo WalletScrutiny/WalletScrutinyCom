@@ -13,7 +13,6 @@ version: 0.3.7
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://walletgo.ai/
 repository: 
 issue: 

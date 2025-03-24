@@ -12,7 +12,6 @@ updated: 2024-12-22
 version: 4.1.9
 stars: 5
 reviews: 2
-size: '65308672'
 website: https://cobru.co
 repository: 
 issue: 

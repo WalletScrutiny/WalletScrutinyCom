@@ -13,7 +13,6 @@ version: '1.2'
 stars: 3.7
 ratings: 
 reviews: 3
-size: 
 website: https://fffpassbundless.blogspot.com/
 repository: 
 issue: 

@@ -12,7 +12,6 @@ updated: 2021-08-22
 version: 1.3.1
 stars: 2.7
 reviews: 619
-size: 47141888
 website: https://mypatricia.co/
 repository: 
 issue: 

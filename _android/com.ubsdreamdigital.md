@@ -12,7 +12,6 @@ version: '1.01'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://universalbordersolutions.com/
 repository: 
 issue: 

@@ -13,13 +13,12 @@ version: '1.5'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://folgory.com/
 repository: 
 issue: 
 icon: com.app.folgory.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-05-11

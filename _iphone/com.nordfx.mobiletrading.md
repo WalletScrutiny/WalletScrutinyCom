@@ -12,7 +12,6 @@ updated: 2022-05-25
 version: '15.0'
 stars: 5
 reviews: 1
-size: '29656064'
 website: https://nordfx.com/
 repository: 
 issue: 

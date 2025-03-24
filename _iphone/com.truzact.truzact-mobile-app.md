@@ -12,7 +12,6 @@ updated: 2023-07-12
 version: 4.1.3
 stars: 4.6
 reviews: 14
-size: '24843264'
 website: https://truzact.com
 repository: 
 issue: 

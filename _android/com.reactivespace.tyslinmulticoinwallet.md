@@ -12,7 +12,6 @@ version: 2.1.38
 stars: 4.2
 ratings: 
 reviews: 8
-size: 
 website: https://tyslin.com/
 repository: 
 issue: 

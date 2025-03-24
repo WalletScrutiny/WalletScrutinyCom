@@ -13,7 +13,6 @@ version: 1.5.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://wallet.polyx.net
 repository: 
 issue: 

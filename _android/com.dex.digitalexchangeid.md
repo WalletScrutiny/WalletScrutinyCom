@@ -8,12 +8,11 @@ users: 100000
 appId: com.dex.digitalexchangeid
 appCountry: us
 released: 2024-09-04
-updated: 2025-01-30
-version: 1.3.6
+updated: 2025-03-03
+version: 1.3.10
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://digitalexchange.id
 repository: 
 issue: 

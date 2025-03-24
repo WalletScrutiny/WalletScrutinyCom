@@ -12,7 +12,6 @@ version: 1.1.2
 stars: 3.9
 ratings: 
 reviews: 
-size: 
 website: https://bitbharat.world
 repository: 
 issue: 

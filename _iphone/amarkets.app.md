@@ -6,13 +6,12 @@ authors:
 - danny
 appId: amarkets.app
 appCountry: us
-idd: 1495820700
+idd: '1495820700'
 released: 2020-02-12
 updated: 2023-03-15
 version: 1.4.68
 stars: 4.9
 reviews: 728
-size: '169455616'
 website: https://www.amarkets.com/
 repository: 
 issue: 

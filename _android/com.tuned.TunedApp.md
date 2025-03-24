@@ -13,7 +13,6 @@ version: 5.2.0
 stars: 3.8
 ratings: 
 reviews: 3
-size: 
 website: https://www.tuned.com
 repository: 
 issue: 

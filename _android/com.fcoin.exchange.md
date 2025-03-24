@@ -12,7 +12,6 @@ version: 1.14.1
 stars: 4.3
 ratings: 91
 reviews: 8
-size: 27M
 website: https://www.fcoin.com/
 repository: 
 issue: 

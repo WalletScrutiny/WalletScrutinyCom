@@ -12,7 +12,6 @@ version: '1.6'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://stamining.com
 repository: 
 issue: 

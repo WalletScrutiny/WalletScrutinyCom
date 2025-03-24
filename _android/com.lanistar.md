@@ -13,16 +13,15 @@ version: 2.0.64
 stars: 2.9
 ratings: 
 reviews: 58
-size: 
 website: https://www.lanistar.com
 repository: 
 issue: 
 icon: com.lanistar.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-11-17
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: iamlanistar

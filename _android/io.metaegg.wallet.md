@@ -13,7 +13,6 @@ version: 0.1.2
 stars: 4.8
 ratings: 
 reviews: 1
-size: 
 website: https://metaegg.io
 repository: 
 issue: 

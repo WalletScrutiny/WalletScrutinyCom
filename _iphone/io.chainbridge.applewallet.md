@@ -12,7 +12,6 @@ updated: 2022-06-24
 version: 1.5.2
 stars: 2
 reviews: 4
-size: '56683520'
 website: https://www.chain-bridge.io
 repository: 
 issue: 

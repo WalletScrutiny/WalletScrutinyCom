@@ -13,16 +13,15 @@ version: '4.4'
 stars: 4.4
 ratings: 2089
 reviews: 71
-size: 
 website: https://flitswallet.app/
 repository: 
 issue: 
 icon: app.flitsnode.flits.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2023-01-30
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: FlitsNode

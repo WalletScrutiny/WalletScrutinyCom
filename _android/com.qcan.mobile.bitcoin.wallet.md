@@ -14,7 +14,6 @@ version: 0.8.858
 stars: 4.5
 ratings: 166
 reviews: 12
-size: 
 website: https://qcan.com
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 1.43.48
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://cobak.co.kr/
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: '1.0'
 stars: 4.2
 ratings: 
 reviews: 
-size: 
 website: https://story3app.web.app/
 repository: 
 issue: 

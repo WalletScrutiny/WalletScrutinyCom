@@ -12,7 +12,6 @@ version: 0.1.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://wplus.io
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: '1.2'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.genbit.com.br/
 repository: 
 issue: 

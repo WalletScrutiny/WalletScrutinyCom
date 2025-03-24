@@ -13,13 +13,12 @@ version: 1.20.1
 stars: 3.5
 ratings: 
 reviews: 2
-size: 
 website: https://dfx.swiss/defichain/
 repository: 
 issue: 
 icon: com.defichain.app.dfx.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
 appHashes: 
 date: 2023-08-04

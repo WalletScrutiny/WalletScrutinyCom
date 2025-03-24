@@ -13,13 +13,12 @@ version: '1.18'
 stars: 4.5
 ratings: 
 reviews: 7
-size: 
 website: 
 repository: 
 issue: 
 icon: com.liyeplimal.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-08-05

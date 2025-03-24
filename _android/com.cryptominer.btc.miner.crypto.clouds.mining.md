@@ -13,7 +13,6 @@ version: '1.3'
 stars: 4.4
 ratings: 2353
 reviews: 129
-size: 18M
 website: http://btccryptonetwork.com/
 repository: 
 issue: 

@@ -12,7 +12,6 @@ updated: 2022-07-14
 version: 1.1.8
 stars: 2.9
 reviews: 17
-size: '15019008'
 website: 
 repository: 
 issue: 

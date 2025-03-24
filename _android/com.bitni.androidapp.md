@@ -12,7 +12,6 @@ version: '1.05'
 stars: 4.9
 ratings: 
 reviews: 111
-size: 
 website: http://bitni.com
 repository: 
 issue: 

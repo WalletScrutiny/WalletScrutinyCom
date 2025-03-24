@@ -12,7 +12,6 @@ version: 4.2.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.coinbene.com
 repository: 
 issue: 

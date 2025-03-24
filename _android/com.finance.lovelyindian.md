@@ -12,7 +12,6 @@ version: '5.0'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://indialovely.finance/
 repository: 
 issue: 

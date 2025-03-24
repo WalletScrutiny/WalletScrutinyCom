@@ -13,7 +13,6 @@ version: 4.1.4
 stars: 4.3
 ratings: 116
 reviews: 53
-size: 20M
 website: https://coinpal.me/
 repository: 
 issue: 

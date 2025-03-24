@@ -12,7 +12,6 @@ version: 1.11.8
 stars: 4.4
 ratings: 
 reviews: 
-size: 
 website: https://wallet.alfa.cash/
 repository: 
 issue: 

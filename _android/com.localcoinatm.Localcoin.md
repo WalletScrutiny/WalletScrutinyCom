@@ -12,7 +12,6 @@ version: '2.0'
 stars: 2.9
 ratings: 
 reviews: 5
-size: 
 website: https://www.localcoinatm.com
 repository: 
 issue: 

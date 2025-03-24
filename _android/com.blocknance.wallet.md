@@ -13,7 +13,6 @@ version: '1.1'
 stars: 4.4
 ratings: 
 reviews: 3
-size: 
 website: https://blockchain.com.do
 repository: 
 issue: 

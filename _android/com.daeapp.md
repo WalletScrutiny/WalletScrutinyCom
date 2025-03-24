@@ -12,7 +12,6 @@ version: '12.0'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://dae.africa
 repository: 
 issue: 

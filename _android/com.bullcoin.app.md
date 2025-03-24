@@ -12,7 +12,6 @@ version: 1.2.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://bull-trade.net
 repository: 
 issue: 

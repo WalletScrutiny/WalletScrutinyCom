@@ -13,13 +13,12 @@ version: 1.9.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.airwalletofficial.com
 repository: 
 issue: 
 icon: com.airwalletofficial.air_wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-05-10

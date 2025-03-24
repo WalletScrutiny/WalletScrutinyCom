@@ -13,7 +13,6 @@ version: 3.12.48
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://blockchainwebservices.com.br
 repository: 
 issue: 

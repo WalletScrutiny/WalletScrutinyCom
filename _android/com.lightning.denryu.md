@@ -13,7 +13,6 @@ version: '0.1'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://denryu.hashhub.tokyo/
 repository: 
 issue: 

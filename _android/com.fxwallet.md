@@ -13,7 +13,6 @@ version: '5.0'
 stars: 2.6
 ratings: 523
 reviews: 17
-size: 31M
 website: https://fxwallet.info/
 repository: 
 issue: 

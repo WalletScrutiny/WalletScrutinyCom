@@ -12,7 +12,6 @@ updated: 2021-08-06
 version: 1.2.9
 stars: 0
 reviews: 0
-size: '63653888'
 website: https://pro.wallet.io/
 repository: 
 issue: 

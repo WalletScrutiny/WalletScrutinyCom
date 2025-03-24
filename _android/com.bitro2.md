@@ -13,7 +13,6 @@ version: 1.0.80
 stars: 4.2
 ratings: 
 reviews: 
-size: 
 website: https://gameper.io
 repository: 
 issue: 

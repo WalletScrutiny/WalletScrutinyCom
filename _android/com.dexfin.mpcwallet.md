@@ -13,7 +13,6 @@ version: 0.2.7
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.dexfin.com
 repository: 
 issue: 

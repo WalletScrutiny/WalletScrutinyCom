@@ -12,7 +12,6 @@ updated: 2021-09-17
 version: 1.7.2
 stars: 5
 reviews: 2
-size: '80020480'
 website: https://colodax.com
 repository: 
 issue: 

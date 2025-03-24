@@ -13,7 +13,6 @@ version: 3.5.9
 stars: 3.6
 ratings: 1588
 reviews: 15
-size: 
 website: https://www.fameex.com
 repository: 
 issue: 

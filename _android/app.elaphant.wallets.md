@@ -12,7 +12,6 @@ version: 1.99.15
 stars: 4.8
 ratings: 10
 reviews: 1
-size: 
 website: https://elaphant.app
 repository: 
 issue: 

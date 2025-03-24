@@ -6,13 +6,12 @@ authors:
 - leo
 appId: com.bit2me.flutter-ios
 appCountry: es
-idd: 1459809738
+idd: '1459809738'
 released: 2019-06-04
-updated: 2025-01-27
-version: 3.33.0
+updated: 2025-03-14
+version: 3.36.1
 stars: 4.5
-reviews: 3554
-size: '191376384'
+reviews: 3611
 website: https://bit2me.com
 repository: 
 issue: 

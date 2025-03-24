@@ -13,7 +13,6 @@ version: '2.0'
 stars: 4.2
 ratings: 
 reviews: 
-size: 
 website: http://www.crypstone.com
 repository: 
 issue: 

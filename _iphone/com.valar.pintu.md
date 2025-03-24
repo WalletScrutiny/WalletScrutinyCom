@@ -12,7 +12,6 @@ updated: 2022-10-31
 version: 3.22.0
 stars: 4.7
 reviews: 58
-size: '111729664'
 website: https://pintu.co.id/
 repository: 
 issue: 

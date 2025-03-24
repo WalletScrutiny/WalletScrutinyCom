@@ -12,7 +12,6 @@ updated: 2025-01-03
 version: 1.30.7
 stars: 0
 reviews: 0
-size: '44277760'
 website: https://www.secuxtech.com
 repository: 
 issue: 

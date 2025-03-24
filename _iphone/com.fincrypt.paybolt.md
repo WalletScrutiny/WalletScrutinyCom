@@ -12,16 +12,15 @@ updated: 2022-11-15
 version: 3.4.0
 stars: 4.8
 reviews: 16
-size: '43398144'
 website: 
 repository: 
 issue: 
 icon: com.fincrypt.paybolt.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nobtc
 appHashes: 
-date: 2024-11-04
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: PayBoltOfficial

@@ -12,7 +12,6 @@ updated: 2023-01-14
 version: 1.6.1
 stars: 0
 reviews: 0
-size: '40913920'
 website: https://www.dhanux.com/
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 2.6.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.bluepips.co/
 repository: 
 issue: 

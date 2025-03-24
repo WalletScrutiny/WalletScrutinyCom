@@ -12,7 +12,6 @@ version: '1.016'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 

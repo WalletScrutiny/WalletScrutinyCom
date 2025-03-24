@@ -13,7 +13,6 @@ version: 1.28.125
 stars: 4.6
 ratings: 56
 reviews: 25
-size: 8.9M
 website: 
 repository: 
 issue: 

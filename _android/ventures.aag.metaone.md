@@ -13,7 +13,6 @@ version: 6.1.0
 stars: 4.2
 ratings: 
 reviews: 15
-size: 
 website: https://getmeta.one/
 repository: 
 issue: 

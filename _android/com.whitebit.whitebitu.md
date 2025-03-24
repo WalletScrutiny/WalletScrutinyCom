@@ -12,7 +12,6 @@ version: 0.9.65
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://whitebit.com/
 repository: 
 issue: 

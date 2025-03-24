@@ -13,7 +13,6 @@ version: 15.2.0
 stars: 2.8
 ratings: 21
 reviews: 11
-size: 
 website: https://www.getcoins.com
 repository: 
 issue: 

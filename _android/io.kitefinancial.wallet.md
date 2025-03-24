@@ -13,7 +13,6 @@ version: 2.3.0
 stars: 2.6
 ratings: 
 reviews: 4
-size: 
 website: https://kitefinancial.io
 repository: 
 issue: 

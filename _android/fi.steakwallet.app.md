@@ -13,7 +13,6 @@ version: 3.3.2
 stars: 4
 ratings: 
 reviews: 25
-size: 
 website: https://steakwallet.fi
 repository: 
 issue: 

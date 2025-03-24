@@ -13,7 +13,6 @@ version: 1.2.2
 stars: 3.4
 ratings: 1211
 reviews: 164
-size: 
 website: http://www.ztrader.net
 repository: 
 issue: 

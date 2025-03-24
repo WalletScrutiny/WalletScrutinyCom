@@ -12,7 +12,6 @@ version: '2'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://mycoinstory.com
 repository: 
 issue: 

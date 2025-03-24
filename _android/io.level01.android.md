@@ -13,7 +13,6 @@ version: 0.2.3.3
 stars: 3.5
 ratings: 137
 reviews: 7
-size: 
 website: https://level01.io
 repository: 
 issue: 

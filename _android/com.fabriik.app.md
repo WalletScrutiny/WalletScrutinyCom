@@ -12,7 +12,6 @@ version: 4.15.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://fabriik.com
 repository: 
 issue: 

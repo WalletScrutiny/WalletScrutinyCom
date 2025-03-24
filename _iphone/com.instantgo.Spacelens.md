@@ -12,7 +12,6 @@ updated: 2022-06-06
 version: '1.39'
 stars: 0
 reviews: 0
-size: '130717696'
 website: https://www.spacelens.com/
 repository: 
 issue: 

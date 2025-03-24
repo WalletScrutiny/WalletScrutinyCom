@@ -12,7 +12,6 @@ version: 1.8.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://bihodl.com
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 1.1.10
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://safesenda.com
 repository: 
 issue: 

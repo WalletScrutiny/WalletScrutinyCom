@@ -13,7 +13,6 @@ version: 0.16BETA
 stars: 3.5
 ratings: 
 reviews: 3
-size: 
 website: https://stibits.com
 repository: 
 issue: 

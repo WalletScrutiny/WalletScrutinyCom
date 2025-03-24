@@ -14,7 +14,6 @@ version: 2.4.7
 stars: 4.2
 ratings: 2788
 reviews: 947
-size: 22M
 website: https://ascendex.com
 repository: 
 issue: 

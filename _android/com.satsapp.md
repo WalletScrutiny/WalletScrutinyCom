@@ -12,7 +12,6 @@ version: 1.3.1
 stars: 3.1
 ratings: 14
 reviews: 8
-size: 29M
 website: https://keys.casa
 repository: 
 issue: 

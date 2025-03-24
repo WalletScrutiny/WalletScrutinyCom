@@ -10,6 +10,7 @@ twitter: CoinAppWallet
 provider: CoinSpace LLC
 meta: ok
 verdict: wip
+social: 
 
 ---
 

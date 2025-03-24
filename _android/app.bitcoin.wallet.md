@@ -12,7 +12,6 @@ version: '10.00'
 stars: 4.2
 ratings: 25
 reviews: 1
-size: 
 website: https://bitcoin.flarfly.com
 repository: 
 issue: 

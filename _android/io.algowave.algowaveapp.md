@@ -13,13 +13,12 @@ version: '3.0'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.algowave.io
 repository: 
 issue: 
 icon: io.algowave.algowaveapp.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-05-05

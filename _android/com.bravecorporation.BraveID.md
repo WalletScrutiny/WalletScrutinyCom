@@ -13,7 +13,6 @@ version: 1.0.22
 stars: 4.4
 ratings: 
 reviews: 6
-size: 
 website: https://www.bravepay.net/
 repository: 
 issue: 

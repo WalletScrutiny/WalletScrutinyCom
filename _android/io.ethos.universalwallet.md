@@ -12,7 +12,6 @@ version: 2.0.5
 stars: 3.1
 ratings: 1529
 reviews: 193
-size: 
 website: https://www.ethos.io/
 repository: 
 issue: 

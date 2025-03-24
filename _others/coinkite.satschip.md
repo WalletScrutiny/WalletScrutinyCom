@@ -14,6 +14,7 @@ country: US
 price: 99.99 USD
 meta: ok
 verdict: nowallet
+social: 
 
 ---
 

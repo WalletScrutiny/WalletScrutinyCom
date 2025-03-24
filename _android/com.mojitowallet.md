@@ -14,7 +14,6 @@ version: 0.4.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.mintlayer.org/en/mojito-wallet/
 repository: https://github.com/mintlayer/mojito_mobile_wallet
 issue: https://github.com/mintlayer/mojito_mobile_wallet/issues/101

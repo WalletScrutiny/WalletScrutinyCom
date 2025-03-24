@@ -12,7 +12,6 @@ updated: 2021-10-27
 version: 1.45.30
 stars: 5
 reviews: 1
-size: 58244096
 website: 
 repository: 
 issue: 

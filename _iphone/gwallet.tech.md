@@ -12,16 +12,15 @@ updated: 2023-03-08
 version: 1.2.7
 stars: 0
 reviews: 0
-size: '33190912'
 website: https://gwallet.tech/
 repository: 
 issue: 
 icon: gwallet.tech.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-03-02
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: 

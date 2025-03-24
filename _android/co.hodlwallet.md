@@ -14,7 +14,6 @@ version: 3.3.5
 stars: 3.6
 ratings: 124
 reviews: 51
-size: 
 website: https://hodlwallet.com
 repository: https://github.com/hodlwallet/hodl-wallet-android
 issue: https://github.com/hodlwallet/hodl-wallet-android/issues/50

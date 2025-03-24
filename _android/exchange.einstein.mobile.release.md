@@ -12,7 +12,6 @@ version: 1.2.2
 stars: 2
 ratings: 955
 reviews: 23
-size: 32M
 website: http://einstein.exchange
 repository: 
 issue: 

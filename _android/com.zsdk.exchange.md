@@ -13,16 +13,15 @@ version: 3.2.0
 stars: 1.9
 ratings: 187
 reviews: 46
-size: 
 website: https://www.zbg.com
 repository: 
 issue: 
 icon: com.zsdk.exchange.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-09-26
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: ZBG_Exchange

@@ -12,7 +12,6 @@ updated: 2022-10-01
 version: '1.1'
 stars: 5
 reviews: 1
-size: '53679104'
 website: https://probos.io/
 repository: 
 issue: 

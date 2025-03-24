@@ -13,7 +13,6 @@ version: '1.5'
 stars: 3.8
 ratings: 555
 reviews: 270
-size: 16M
 website: https://prizmbit.com/
 repository: 
 issue: 

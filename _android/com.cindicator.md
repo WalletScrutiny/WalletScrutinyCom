@@ -13,7 +13,6 @@ version: 3.0.10
 stars: 3.9
 ratings: 1690
 reviews: 134
-size: 
 website: http://cindicator.com
 repository: 
 issue: 

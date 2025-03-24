@@ -12,7 +12,6 @@ version: 0.8.6.3
 stars: 3.4
 ratings: 
 reviews: 
-size: 
 website: https://tokenbacon.com
 repository: 
 issue: 

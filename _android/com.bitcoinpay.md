@@ -12,7 +12,6 @@ version: 2.0.38
 stars: 4.3
 ratings: 
 reviews: 
-size: 
 website: https://bitcoinpay.trade
 repository: 
 issue: 

@@ -13,16 +13,15 @@ version: '6.5'
 stars: 4.6
 ratings: 
 reviews: 10
-size: 
 website: https://www.telexa.mn/
 repository: 
 issue: 
 icon: mn.telexa.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2024-09-02
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: 

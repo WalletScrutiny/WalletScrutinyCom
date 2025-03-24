@@ -13,7 +13,6 @@ version: 4.1.1
 stars: 4.2
 ratings: 
 reviews: 
-size: 
 website: https://xchange.ltd
 repository: 
 issue: 

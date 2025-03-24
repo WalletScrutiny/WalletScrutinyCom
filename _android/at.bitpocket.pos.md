@@ -13,7 +13,6 @@ version: 1.1.8
 stars: 4.6
 ratings: 
 reviews: 
-size: 
 website: http://bitpocket.at
 repository: https://github.com/getbitpocket/bitpocket-mobile-app
 issue: 

@@ -13,7 +13,6 @@ version: '3.3'
 stars: 4.2
 ratings: 25
 reviews: 9
-size: 36M
 website: https://swissy.io/
 repository: 
 issue: 

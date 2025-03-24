@@ -13,7 +13,6 @@ version: 1.12.4
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://wirebit.com/
 repository: 
 issue: 

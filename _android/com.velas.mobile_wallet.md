@@ -15,7 +15,6 @@ version: 2.3.19
 stars: 3.9
 ratings: 545
 reviews: 22
-size: 
 website: https://velas.com
 repository: 
 issue: 

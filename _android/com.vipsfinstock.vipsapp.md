@@ -13,16 +13,15 @@ version: 1.7.6
 stars: 4.2
 ratings: 
 reviews: 2
-size: 
 website: https://www.vipsfinstock.com
 repository: 
 issue: 
 icon: com.vipsfinstock.vipsapp.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-09-26
+date: 2025-02-28
 signer: 
 reviewArchive: 
 twitter: VIPS_Finstock

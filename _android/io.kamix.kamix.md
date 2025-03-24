@@ -13,7 +13,6 @@ version: 2.2.303
 stars: 3.6
 ratings: 
 reviews: 
-size: 
 website: https://kamix.io
 repository: 
 issue: 

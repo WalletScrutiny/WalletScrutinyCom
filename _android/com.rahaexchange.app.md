@@ -13,7 +13,6 @@ version: '1.007'
 stars: 4.2
 ratings: 
 reviews: 5
-size: 
 website: https://rahaexchange.com
 repository: 
 issue: 

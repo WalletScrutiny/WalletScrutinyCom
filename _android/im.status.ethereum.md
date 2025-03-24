@@ -13,7 +13,6 @@ version: 2.32.0
 stars: 4.1
 ratings: 2069
 reviews: 61
-size: 
 website: https://status.app
 repository: 
 issue: 

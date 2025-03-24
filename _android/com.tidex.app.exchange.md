@@ -13,16 +13,15 @@ version: 1.0.6
 stars: 2.2
 ratings: 
 reviews: 7
-size: 
 website: https://tidex.com
 repository: 
 issue: 
 icon: com.tidex.app.exchange.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-03-12
+date: 2025-03-04
 signer: 
 reviewArchive: 
 twitter: Tidex_Exchange

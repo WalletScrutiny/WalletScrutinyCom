@@ -8,12 +8,11 @@ users: 10000
 appId: com.bouspam.eritajpam
 appCountry: 
 released: 2022-03-28
-updated: 2024-11-28
-version: 2.4.3
-stars: 2.7
+updated: 2025-03-16
+version: 2.4.6
+stars: 2.8
 ratings: 
-reviews: 19
-size: 
+reviews: 20
 website: https://bousechanj.com/
 repository: 
 issue: 

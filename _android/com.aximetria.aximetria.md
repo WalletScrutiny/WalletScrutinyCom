@@ -13,7 +13,6 @@ version: 1.5.51
 stars: 3.4
 ratings: 514
 reviews: 215
-size: 57M
 website: https://www.aximetria.com/
 repository: 
 issue: 

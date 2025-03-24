@@ -13,7 +13,6 @@ version: 2.2.0
 stars: 4.4
 ratings: 2148
 reviews: 41
-size: 
 website: https://stex.com
 repository: 
 issue: 

@@ -10,10 +10,9 @@ appCountry:
 released: 2022-02-07
 updated: 2024-07-24
 version: 1.2.3
-stars: 4.2
+stars: 4.1
 ratings: 
-reviews: 18
-size: 
+reviews: 17
 website: https://www.8v.com
 repository: 
 issue: 

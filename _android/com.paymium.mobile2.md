@@ -8,12 +8,11 @@ users: 10000
 appId: com.paymium.mobile2
 appCountry: us
 released: 2018-09-24
-updated: 2025-01-31
-version: 8.12.2
+updated: 2025-02-21
+version: 8.12.5
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://paymium.com
 repository: 
 issue: 

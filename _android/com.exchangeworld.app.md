@@ -13,13 +13,12 @@ version: 1.1.24
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.worldexchange.life
 repository: 
 issue: 
 icon: com.exchangeworld.app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 appHashes: 
 date: 2023-08-30

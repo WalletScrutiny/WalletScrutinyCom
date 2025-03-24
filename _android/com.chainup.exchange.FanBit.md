@@ -12,7 +12,6 @@ version: 5.4.0_push_v2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.fanbit.com
 repository: 
 issue: 

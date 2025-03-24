@@ -12,7 +12,6 @@ version: '1.0'
 stars: 2.6
 ratings: 
 reviews: 
-size: 
 website: http://www.sesacash.com
 repository: 
 issue: 

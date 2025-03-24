@@ -13,13 +13,12 @@ version: 1.1.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://justbit.in/
 repository: 
 issue: 
 icon: com.app.justbit.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-09-06

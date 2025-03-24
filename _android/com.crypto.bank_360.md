@@ -12,7 +12,6 @@ version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://cryptocash-360.com
 repository: 
 issue: 

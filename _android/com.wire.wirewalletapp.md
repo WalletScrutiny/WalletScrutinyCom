@@ -12,7 +12,6 @@ version: 6.5502.321
 stars: 
 ratings: 
 reviews: 
-size: 43M
 website: 
 repository: 
 issue: 

@@ -13,7 +13,6 @@ updated: 2022-01-17
 version: 0.4.1
 stars: 4.2
 reviews: 19
-size: '44169216'
 website: https://ezdefi.com/
 repository: 
 issue: 

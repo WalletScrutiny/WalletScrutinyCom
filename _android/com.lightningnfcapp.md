@@ -13,7 +13,6 @@ version: 0.3.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://onesandzeros.nz/
 repository: https://github.com/boltcard/bolt-nfc-android-app
 issue: 

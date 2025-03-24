@@ -12,7 +12,6 @@ version: 4.39.8
 stars: 3.7
 ratings: 
 reviews: 
-size: 
 website: https://ihodl.com
 repository: 
 issue: 

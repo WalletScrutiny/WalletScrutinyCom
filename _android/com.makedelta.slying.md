@@ -13,7 +13,6 @@ version: 8.0.5
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://traderkat.io/
 repository: 
 issue: 

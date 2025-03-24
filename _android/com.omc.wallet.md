@@ -12,7 +12,6 @@ version: 1.1.38
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://omc-group.co/
 repository: 
 issue: 

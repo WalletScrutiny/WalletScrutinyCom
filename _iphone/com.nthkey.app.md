@@ -12,7 +12,6 @@ updated: 2022-11-27
 version: 1.0.7
 stars: 3
 reviews: 2
-size: '3976192'
 website: https://nthkey.com
 repository: 
 issue: 

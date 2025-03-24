@@ -12,16 +12,15 @@ version: 1.5.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
 icon: com.paradise.finance.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2023-03-03
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: 

@@ -13,7 +13,6 @@ version: 3.1.1
 stars: 2.4
 ratings: 
 reviews: 
-size: 
 website: https://kassio.com
 repository: 
 issue: 

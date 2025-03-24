@@ -12,7 +12,6 @@ version: 2.3.9
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.rosify.ng/
 repository: 
 issue: 

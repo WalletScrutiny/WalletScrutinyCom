@@ -12,7 +12,6 @@ version: 1.5.78-etfinance
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.etfinance.eu
 repository: 
 issue: 

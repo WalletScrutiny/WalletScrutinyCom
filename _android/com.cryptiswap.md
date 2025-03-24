@@ -13,7 +13,6 @@ version: 1.0.8
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.myquantex.com
 repository: 
 issue: 

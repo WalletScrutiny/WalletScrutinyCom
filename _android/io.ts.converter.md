@@ -13,7 +13,6 @@ version: 3.0.0
 stars: 3.2
 ratings: 
 reviews: 6
-size: 
 website: https://tapswap.io
 repository: 
 issue: 

@@ -13,16 +13,15 @@ version: '2.0'
 stars: 4.1
 ratings: 
 reviews: 
-size: 
 website: http://xfacia.com/
 repository: 
 issue: 
 icon: com.web.XFacia.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-12-15
+date: 2025-03-17
 signer: 
 reviewArchive: 
 twitter: XfaciaXchange

@@ -12,7 +12,6 @@ version: '1.8'
 stars: 3.4
 ratings: 220
 reviews: 5
-size: 
 website: https://bitblinx.com
 repository: 
 issue: 

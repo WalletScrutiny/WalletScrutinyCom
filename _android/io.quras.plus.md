@@ -12,7 +12,6 @@ version: 3.0.3
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://quraswallet.org
 repository: 
 issue: 

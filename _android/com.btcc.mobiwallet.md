@@ -13,7 +13,6 @@ version: 2.32.2
 stars: 3.6
 ratings: 27
 reviews: 19
-size: 14M
 website: https://www.mobi.me/
 repository: 
 issue: 

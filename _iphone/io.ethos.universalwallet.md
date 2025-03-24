@@ -11,7 +11,6 @@ updated: 2019-11-22
 version: 2.0.5
 stars: 4.3
 reviews: 302
-size: '72262656'
 website: http://ethos.io
 repository: 
 issue: 

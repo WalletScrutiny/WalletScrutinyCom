@@ -13,16 +13,15 @@ version: 4.5.3
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://cheeese.life/
 repository: 
 issue: 
 icon: life.cheeese.mnx.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2022-07-06
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: 

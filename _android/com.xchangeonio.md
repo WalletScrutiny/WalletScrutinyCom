@@ -13,7 +13,6 @@ version: 1.1.2
 stars: 2.4
 ratings: 
 reviews: 7
-size: 
 website: https://www.xchangeon.io/
 repository: 
 issue: 

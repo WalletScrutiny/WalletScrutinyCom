@@ -12,7 +12,6 @@ updated: 2023-10-11
 version: 5.0.2
 stars: 0
 reviews: 0
-size: '113022976'
 website: https://welthee.com
 repository: 
 issue: 

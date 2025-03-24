@@ -13,7 +13,6 @@ version: '1.35'
 stars: 4.2
 ratings: 
 reviews: 1
-size: 
 website: https://arcticwallet.io
 repository: 
 issue: 

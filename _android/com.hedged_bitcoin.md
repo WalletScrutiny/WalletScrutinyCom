@@ -13,7 +13,6 @@ version: 0.7.0
 stars: 3.6
 ratings: 28
 reviews: 2
-size: 8.7M
 website: https://hedgedbitcoin.com
 repository: 
 issue: 

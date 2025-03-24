@@ -12,7 +12,6 @@ version: '2.0'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://xbitcoin.com.br
 repository: 
 issue: 

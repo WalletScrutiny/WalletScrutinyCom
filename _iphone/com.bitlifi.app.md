@@ -11,7 +11,6 @@ updated: 2024-11-01
 version: 1.10.5
 stars: 0
 reviews: 0
-size: '24773632'
 website: https://www.bitlifi.com
 repository: 
 issue: 

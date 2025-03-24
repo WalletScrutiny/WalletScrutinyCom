@@ -13,7 +13,6 @@ version: 1.1.1
 stars: 4.2
 ratings: 
 reviews: 
-size: 
 website: https://www.bitholic.com
 repository: 
 issue: 

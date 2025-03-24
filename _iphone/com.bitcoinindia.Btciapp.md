@@ -6,13 +6,12 @@ authors:
 - leo
 appId: com.bitcoinindia.Btciapp
 appCountry: 
-idd: 1230917514
+idd: '1230917514'
 released: 2017-07-12
 updated: 2021-07-30
 version: 3.1.45
 stars: 1
 reviews: 1
-size: 72125440
 website: 
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 2.4.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://suniwallet.com
 repository: 
 issue: 

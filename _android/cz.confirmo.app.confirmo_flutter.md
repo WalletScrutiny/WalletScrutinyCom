@@ -13,7 +13,6 @@ version: 1.0.8
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://confirmo.net
 repository: 
 issue: 

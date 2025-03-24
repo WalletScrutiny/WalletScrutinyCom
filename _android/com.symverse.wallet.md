@@ -12,7 +12,6 @@ version: 1.2.1
 stars: 4.5
 ratings: 
 reviews: 
-size: 
 website: https://symverse.com
 repository: 
 issue: 

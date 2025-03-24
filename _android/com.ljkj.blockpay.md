@@ -13,7 +13,6 @@ version: 1.2.7
 stars: 4.5
 ratings: 
 reviews: 1
-size: 
 website: http://www.cpay.finance/
 repository: 
 issue: 

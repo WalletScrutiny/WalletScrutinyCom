@@ -12,7 +12,6 @@ version: 1.1.0
 stars: 5
 ratings: 
 reviews: 
-size: 
 website: https://nakhlex.com
 repository: 
 issue: 

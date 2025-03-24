@@ -13,16 +13,15 @@ version: 3.7.31
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://amon.tech
 repository: 
 issue: 
 icon: tech.amon.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-06-29
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: amonwallet

@@ -12,7 +12,6 @@ updated: 2024-06-26
 version: '1.9'
 stars: 4.7
 reviews: 262
-size: '122695680'
 website: https://www.bitstamp.net/
 repository: 
 issue: 

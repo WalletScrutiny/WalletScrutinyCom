@@ -13,13 +13,12 @@ version: 1.0.3
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.legatow.com
 repository: 
 issue: 
 icon: com.tempow.legatow.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-06-03

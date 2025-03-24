@@ -12,7 +12,6 @@ version: 2.2.3.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.salvadorjesus.com/
 repository: 
 issue: 

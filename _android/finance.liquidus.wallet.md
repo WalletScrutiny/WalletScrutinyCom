@@ -13,7 +13,6 @@ version: 1.0.19
 stars: 4.3
 ratings: 
 reviews: 2
-size: 
 website: https://www.liquidus.finance
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 4.0.18
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://krypti.io/
 repository: 
 issue: 

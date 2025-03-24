@@ -13,7 +13,6 @@ version: 2.7.0
 stars: 3.4
 ratings: 19
 reviews: 11
-size: 11M
 website: https://coinflex.com/home
 repository: 
 issue: 

@@ -6,7 +6,7 @@ authors:
 released: 2018-09-18
 discontinued: 
 updated: 
-version: 1.0.0
+version: 
 binaries: https://github.com/NewEconoLab/NeoDun/releases/tag/1.0.0
 dimensions: 
 weight: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: ok
 verdict: vapor
 appHashes: 
-date: 2022-05-25
+date: 2025-02-06
 signer: 
 reviewArchive: 
 twitter: neweconolab
@@ -31,6 +31,8 @@ social:
 features: 
 
 ---
+
+Note: The repository has not been updated since 2018. Making the version number irrellevant since there has been no updates.
 
 NeoDun was an upcoming hardware wallet produced by NewEconoLab. This project saw the most activity in 2018, but since then seems to have been completely forgotten. After late 2019, the providers' Twitter account had also gone silent and [the official website went defunct.](http://www.neodun.com/index-En.html)
 

@@ -12,7 +12,6 @@ version: '1.12'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://inout.fm/
 repository: 
 issue: 

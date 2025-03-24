@@ -13,16 +13,15 @@ version: 1.4.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://conglex.com
 repository: 
 issue: 
 icon: com.conglex.conglex.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-03-12
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: conglexglobal

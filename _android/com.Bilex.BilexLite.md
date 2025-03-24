@@ -12,7 +12,6 @@ version: 2.5.5
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://bilex.org
 repository: 
 issue: 

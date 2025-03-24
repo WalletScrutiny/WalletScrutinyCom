@@ -12,7 +12,6 @@ version: 1.0.7
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://nonamewallet.com
 repository: 
 issue: 

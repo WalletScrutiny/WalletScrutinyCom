@@ -12,7 +12,6 @@ updated: 2024-01-11
 version: 1.4.3
 stars: 0
 reviews: 0
-size: '34884608'
 website: https://timex.io
 repository: 
 issue: 

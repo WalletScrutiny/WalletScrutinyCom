@@ -14,7 +14,6 @@ version: 1.0.16
 stars: 4.1
 ratings: 61
 reviews: 22
-size: 32M
 website: https://bitfreezer.app/
 repository: 
 issue: 

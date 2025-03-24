@@ -12,7 +12,6 @@ updated: 2022-12-29
 version: 1.0.3
 stars: 0
 reviews: 0
-size: '82907136'
 website: https://mchange.net
 repository: 
 issue: 

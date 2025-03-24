@@ -12,7 +12,6 @@ updated: 2023-12-08
 version: 3.9.7
 stars: 4.7
 reviews: 2794
-size: '101808128'
 website: https://3commas.io/blog
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 0.9.1.45
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://smallet.co
 repository: 
 issue: 

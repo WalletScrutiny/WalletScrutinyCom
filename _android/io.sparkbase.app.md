@@ -13,7 +13,6 @@ version: 3.8.8
 stars: 4.3
 ratings: 
 reviews: 
-size: 
 website: https://www.sparkbase.io
 repository: 
 issue: 

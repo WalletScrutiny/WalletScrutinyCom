@@ -13,7 +13,6 @@ version: 1.4.6
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://anny.trade
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 1.4.5
 stars: 4.8
 ratings: 
 reviews: 
-size: 
 website: https://enterwota.com
 repository: 
 issue: 

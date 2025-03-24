@@ -8,13 +8,12 @@ users: 5000
 appId: com.scallopxledger
 appCountry: 
 released: 2021-11-28
-updated: 2025-02-05
-version: 1.5.7
-stars: 3.1
+updated: 2025-03-13
+version: 1.7.7
+stars: 3.3
 ratings: 
-reviews: 9
-size: 
-website: https://scallopx.com/
+reviews: 10
+website: https://emoney.io/
 repository: 
 issue: 
 icon: com.scallopxledger.png

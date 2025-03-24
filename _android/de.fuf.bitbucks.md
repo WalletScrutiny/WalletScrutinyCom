@@ -13,7 +13,6 @@ version: 1.5.12
 stars: 4.6
 ratings: 
 reviews: 2
-size: 
 website: https://www.bitbucks.io/
 repository: 
 issue: 

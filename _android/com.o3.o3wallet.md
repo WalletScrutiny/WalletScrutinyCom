@@ -13,7 +13,6 @@ version: 3.4.1
 stars: 4.9
 ratings: 474
 reviews: 13
-size: 
 website: https://o3.network
 repository: 
 issue: 

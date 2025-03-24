@@ -13,7 +13,6 @@ version: 3.18.0
 stars: 4.9
 ratings: 
 reviews: 37
-size: 
 website: https://vcc.exchange/
 repository: 
 issue: 

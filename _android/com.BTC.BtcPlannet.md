@@ -12,7 +12,6 @@ version: '5.0'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://btcplannet.net/
 repository: 
 issue: 

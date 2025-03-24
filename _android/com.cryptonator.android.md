@@ -13,7 +13,6 @@ version: '4.2'
 stars: 3.2
 ratings: 5270
 reviews: 139
-size: 9.0M
 website: https://www.cryptonator.com
 repository: 
 issue: 

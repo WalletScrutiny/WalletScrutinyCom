@@ -12,13 +12,12 @@ version: 1.0.0
 stars: 
 ratings: 5
 reviews: 
-size: 
 website: https://www.mwc.mw/
 repository: 
 issue: 
 icon: mw.mwc.wallet.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2021-11-01

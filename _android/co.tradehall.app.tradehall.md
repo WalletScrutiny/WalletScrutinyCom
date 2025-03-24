@@ -13,7 +13,6 @@ version: 1.0.14
 stars: 4.4
 ratings: 
 reviews: 
-size: 
 website: https://www.tradehall.co
 repository: 
 issue: 

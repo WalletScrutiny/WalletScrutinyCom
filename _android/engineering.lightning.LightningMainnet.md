@@ -12,7 +12,6 @@ version: Varies with device
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
 website: https://lightning.engineering
 repository: https://github.com/lightninglabs/lightning-app
 issue: https://github.com/lightninglabs/lightning-app/issues/67

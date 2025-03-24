@@ -12,7 +12,6 @@ updated: 2023-02-20
 version: 2.9.7
 stars: 5
 reviews: 5
-size: '82897920'
 website: https://riodefi.com/
 repository: 
 issue: 

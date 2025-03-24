@@ -12,7 +12,6 @@ updated: 2022-07-27
 version: '6.0'
 stars: 3.8
 reviews: 23
-size: '22142976'
 website: https://www.wanchain.org
 repository: 
 issue: 

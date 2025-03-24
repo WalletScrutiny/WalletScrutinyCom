@@ -12,17 +12,16 @@ updated: 2023-04-11
 version: 1.4.33
 stars: 2.8
 ratings: 75096
-reviews: 1605
-size: 
+reviews: 1606
 website: https://www.hotbit.io/
 repository: 
 issue: 
 icon: io.hotbit.shouyi.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-04-09
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: Hotbit_news

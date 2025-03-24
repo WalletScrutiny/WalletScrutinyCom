@@ -12,7 +12,6 @@ version: 1.0.71
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://bankinmind.com/
 repository: 
 issue: 

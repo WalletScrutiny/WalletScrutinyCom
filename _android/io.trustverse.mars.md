@@ -13,16 +13,15 @@ version: 2.4.0G
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.trustverse.io
 repository: 
 issue: 
 icon: io.trustverse.mars.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-11-12
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: TrustVerse

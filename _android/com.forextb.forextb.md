@@ -13,7 +13,6 @@ version: 2.7.1
 stars: 2.4
 ratings: 339
 reviews: 146
-size: 
 website: https://www.forextb.com/eu/
 repository: 
 issue: 

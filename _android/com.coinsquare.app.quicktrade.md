@@ -13,7 +13,6 @@ version: 5.0.8
 stars: 4.3
 ratings: 
 reviews: 4
-size: 
 website: https://coinsquare.com
 repository: 
 issue: 

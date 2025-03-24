@@ -13,16 +13,15 @@ version: '1.1'
 stars: 3.2
 ratings: 
 reviews: 
-size: 
 website: https://tarmex.io
 repository: 
 issue: 
 icon: com.tarmex.tarmex.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-11-04
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: Tarmexio

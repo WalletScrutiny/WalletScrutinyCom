@@ -13,7 +13,6 @@ version: 1.2.2
 stars: 4.4
 ratings: 220
 reviews: 27
-size: 
 website: https://www.grow3.io
 repository: 
 issue: 

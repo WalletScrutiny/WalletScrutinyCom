@@ -12,7 +12,6 @@ version: '1.86'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://gdxwallet.com/
 repository: 
 issue: 

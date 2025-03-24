@@ -12,7 +12,6 @@ version: 0.0.5
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://shifupay.net
 repository: 
 issue: 

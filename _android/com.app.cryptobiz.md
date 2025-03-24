@@ -13,13 +13,12 @@ version: '42.5'
 stars: 4.4
 ratings: 
 reviews: 33
-size: 
 website: https://cryptobiz.exchange/
 repository: 
 issue: 
 icon: com.app.cryptobiz.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 appHashes: 
 date: 2023-06-30

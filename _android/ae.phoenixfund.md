@@ -13,7 +13,6 @@ version: 1.1.4
 stars: 3.9
 ratings: 
 reviews: 
-size: 
 website: https://plana.ae
 repository: 
 issue: 

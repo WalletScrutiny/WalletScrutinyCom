@@ -12,7 +12,6 @@ updated: 2023-11-27
 version: 3.3.7
 stars: 4.7
 reviews: 35
-size: '26363904'
 website: https://koinstrap.com/
 repository: 
 issue: 

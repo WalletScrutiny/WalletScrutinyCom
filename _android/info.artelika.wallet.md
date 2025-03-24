@@ -12,7 +12,6 @@ version: 1.0.7
 stars: 4.2
 ratings: 
 reviews: 
-size: 
 website: http://artelika.com
 repository: 
 issue: 

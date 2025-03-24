@@ -13,7 +13,6 @@ version: 1.5.1
 stars: 4.6
 ratings: 
 reviews: 
-size: 
 website: https://wallet.lyofi.com/
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 1.8.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://sugi.io
 repository: 
 issue: 

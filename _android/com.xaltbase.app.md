@@ -13,7 +13,6 @@ version: 3.0.5
 stars: 3
 ratings: 3579
 reviews: 2580
-size: 17M
 website: https://www.100xcoin.io/
 repository: 
 issue: 

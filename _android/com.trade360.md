@@ -13,16 +13,15 @@ version: 7.3.1
 stars: 2.8
 ratings: 1438
 reviews: 60
-size: 
 website: http://www.trade360.com
 repository: 
 issue: 
 icon: com.trade360.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosendreceive
 appHashes: 
-date: 2024-09-18
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: Trade360_LTD

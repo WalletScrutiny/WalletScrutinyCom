@@ -13,7 +13,6 @@ version: 1.03.02
 stars: 3.2
 ratings: 
 reviews: 18
-size: 
 website: https://www.coinmama.com/
 repository: 
 issue: 

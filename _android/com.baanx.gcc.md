@@ -13,7 +13,6 @@ version: 1.2.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.gccglobalplatform.com
 repository: 
 issue: 

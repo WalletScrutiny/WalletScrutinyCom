@@ -13,7 +13,6 @@ version: 1.5.2
 stars: 3.9
 ratings: 1060
 reviews: 16
-size: 
 website: https://www.liteforex.com
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: V0.2.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://github.com/yancaitech
 repository: https://github.com/yancaitech/hodler-wallet
 issue: 

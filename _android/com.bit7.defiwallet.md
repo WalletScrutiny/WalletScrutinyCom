@@ -12,7 +12,6 @@ version: 1.1.12
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.dexoo.io/
 repository: 
 issue: 

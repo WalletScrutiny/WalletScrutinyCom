@@ -12,7 +12,6 @@ version: 2.0.92
 stars: 4.6
 ratings: 
 reviews: 
-size: 
 website: https://www.msamex.com
 repository: 
 issue: 

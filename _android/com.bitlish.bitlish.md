@@ -12,7 +12,6 @@ version: 2.0.10
 stars: 4
 ratings: 225
 reviews: 177
-size: 53M
 website: https://bitlish.com
 repository: 
 issue: 

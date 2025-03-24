@@ -12,7 +12,6 @@ version: 0.5 BETA
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.fybsg.com
 repository: 
 issue: 

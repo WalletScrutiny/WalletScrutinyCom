@@ -13,7 +13,6 @@ version: 1.3.18
 stars: 4.2
 ratings: 64
 reviews: 53
-size: 
 website: https://blackfort.exchange
 repository: 
 issue: 

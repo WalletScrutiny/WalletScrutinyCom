@@ -13,7 +13,6 @@ version: 2.3.10
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://ttmwallet.io
 repository: 
 issue: 

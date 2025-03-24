@@ -12,7 +12,6 @@ version: 1.5.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.ini.bitcaps.club
 repository: 
 issue: 

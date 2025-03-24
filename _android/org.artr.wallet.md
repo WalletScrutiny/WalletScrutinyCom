@@ -13,7 +13,6 @@ version: '1.8'
 stars: 3.6
 ratings: 2174
 reviews: 1008
-size: 
 website: https://artery.network/
 repository: https://github.com/arterynetwork/artr
 issue: 

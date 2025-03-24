@@ -12,7 +12,6 @@ version: 1.2.7
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://nextgenius.com.au
 repository: 
 issue: 

@@ -13,16 +13,15 @@ version: 1.0.3
 stars: 4.5
 ratings: 
 reviews: 
-size: 
 website: https://pallapay.com
 repository: 
 issue: 
 icon: com.pallapay.application.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-04-28
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: pallapay_com

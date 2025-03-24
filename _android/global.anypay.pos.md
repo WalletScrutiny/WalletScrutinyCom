@@ -13,7 +13,6 @@ version: 2.3.1
 stars: 4.5
 ratings: 
 reviews: 16
-size: 
 website: https://anypayx.com
 repository: 
 issue: 

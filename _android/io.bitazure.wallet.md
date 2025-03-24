@@ -12,7 +12,6 @@ version: 1.0.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://bitazure.com
 repository: 
 issue: 

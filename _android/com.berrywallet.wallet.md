@@ -13,7 +13,6 @@ version: '1.8'
 stars: 4
 ratings: 
 reviews: 8
-size: 
 website: https://wallet.berrychain.io
 repository: 
 issue: 

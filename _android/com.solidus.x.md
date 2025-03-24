@@ -12,7 +12,6 @@ version: '188.5'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://solidusx.com/
 repository: 
 issue: 

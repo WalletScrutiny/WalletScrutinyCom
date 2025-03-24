@@ -12,7 +12,6 @@ version: 7.1.4
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://monetum.com
 repository: 
 issue: 

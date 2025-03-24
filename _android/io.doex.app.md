@@ -13,7 +13,6 @@ version: 2.2.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.doex.com
 repository: 
 issue: 

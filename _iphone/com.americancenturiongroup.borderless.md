@@ -12,7 +12,6 @@ updated: 2022-01-08
 version: '1.17'
 stars: 3.8
 reviews: 10
-size: '69969920'
 website: https://overline.network
 repository: 
 issue: 

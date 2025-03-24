@@ -12,7 +12,6 @@ updated: 2023-12-03
 version: '8.7'
 stars: 4.3
 reviews: 20
-size: '52533248'
 website: https://catecoin.club
 repository: 
 issue: 

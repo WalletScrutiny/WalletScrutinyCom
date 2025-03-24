@@ -13,7 +13,6 @@ version: v2.0.11
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://morixjp.com/contact
 repository: 
 issue: 

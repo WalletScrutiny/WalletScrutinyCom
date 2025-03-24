@@ -13,7 +13,6 @@ version: 2.0.47
 stars: 4.4
 ratings: 
 reviews: 
-size: 
 website: https://www.honesto.swiss/
 repository: 
 issue: 

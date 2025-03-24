@@ -13,7 +13,6 @@ version: 1.0.2.6
 stars: 4.8
 ratings: 
 reviews: 
-size: 
 website: https://coinboxfinance.com/
 repository: 
 issue: 

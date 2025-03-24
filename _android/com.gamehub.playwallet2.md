@@ -13,13 +13,12 @@ version: 2.0.6
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.playwallet.io/
 repository: 
 issue: 
 icon: com.gamehub.playwallet2.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-05-25

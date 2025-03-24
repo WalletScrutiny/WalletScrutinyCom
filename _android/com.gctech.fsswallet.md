@@ -12,7 +12,6 @@ version: '2.4'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://fourssh.org/
 repository: 
 issue: 

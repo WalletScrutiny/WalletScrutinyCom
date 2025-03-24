@@ -12,7 +12,6 @@ version: 2.3.1
 stars: 3.9
 ratings: 
 reviews: 
-size: 
 website: https://wallet.backpackercoin.com/
 repository: 
 issue: 

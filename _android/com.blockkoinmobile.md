@@ -12,7 +12,6 @@ version: 1.6.12
 stars: 5
 ratings: 
 reviews: 
-size: 
 website: https://blockkoin.io
 repository: 
 issue: 

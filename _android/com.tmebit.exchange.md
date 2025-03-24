@@ -12,7 +12,6 @@ version: '3.0'
 stars: 5
 ratings: 
 reviews: 
-size: 
 website: https://www.tmebit.co.kr
 repository: 
 issue: 

@@ -8,12 +8,11 @@ users: 50000
 appId: com.application.bitcoiva
 appCountry: 
 released: 2020-11-02
-updated: 2025-01-30
-version: 1.55.3
+updated: 2025-03-04
+version: 1.56.4
 stars: 2.8
 ratings: 
 reviews: 4
-size: 
 website: https://bitcoiva.com
 repository: 
 issue: 
@@ -29,7 +28,7 @@ twitter: bitcoiva
 social:
 - https://www.facebook.com/Bitcoiva-105126591217169
 redirect_from: 
-developerName: Bitcoiva
+developerName: Bitcoiva Crypto Exchange
 features: 
 
 ---

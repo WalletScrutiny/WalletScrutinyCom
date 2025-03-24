@@ -13,7 +13,6 @@ version: 1.1.2
 stars: 4.6
 ratings: 
 reviews: 8
-size: 
 website: https://fnk.com
 repository: 
 issue: 

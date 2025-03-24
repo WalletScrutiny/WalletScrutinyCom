@@ -13,16 +13,15 @@ version: 4.0.14
 stars: 4
 ratings: 758
 reviews: 46
-size: 
 website: http://www.sylo.io
 repository: 
 issue: 
 icon: io.sylo.dapp.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-10-19
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: sylo

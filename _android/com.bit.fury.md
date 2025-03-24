@@ -12,7 +12,6 @@ version: '1.4'
 stars: 3.9
 ratings: 
 reviews: 
-size: 
 website: https://bitfury.com
 repository: 
 issue: 

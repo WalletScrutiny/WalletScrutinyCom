@@ -13,7 +13,6 @@ version: 0.9.1
 stars: 3.7
 ratings: 
 reviews: 
-size: 
 website: https://volentix.io/verto
 repository: 
 issue: 

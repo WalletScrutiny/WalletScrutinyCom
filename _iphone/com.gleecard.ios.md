@@ -12,7 +12,6 @@ updated: 2025-01-30
 version: '13.0'
 stars: 1
 reviews: 1
-size: '72667136'
 website: https://gleec.com/
 repository: 
 issue: 

@@ -12,16 +12,15 @@ version: 1.4.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://thisapp.io
 repository: 
 issue: 
 icon: io.thisapp.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: wip
 appHashes: 
-date: 2022-06-22
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: 

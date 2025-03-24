@@ -12,7 +12,6 @@ version: '8.2'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 

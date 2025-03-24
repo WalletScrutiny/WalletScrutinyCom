@@ -13,7 +13,6 @@ version: 1.1.1
 stars: 4
 ratings: 
 reviews: 
-size: 
 website: https://xwg.games
 repository: 
 issue: 

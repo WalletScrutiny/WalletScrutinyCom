@@ -12,7 +12,6 @@ version: 1.5.17
 stars: 4.4
 ratings: 344
 reviews: 205
-size: 28M
 website: https://handcash.io
 repository: 
 issue: 

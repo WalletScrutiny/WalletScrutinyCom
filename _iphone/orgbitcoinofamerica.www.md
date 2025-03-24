@@ -12,7 +12,6 @@ updated: 2020-04-16
 version: 11.2.6
 stars: 3.5
 reviews: 12
-size: '14198784'
 website: https://www.bitcoinofamerica.org
 repository: 
 issue: 

@@ -12,7 +12,6 @@ updated: 2020-07-12
 version: 2.0.0
 stars: 4.3
 reviews: 24
-size: '77777920'
 website: http://www.roostoo.com
 repository: 
 issue: 

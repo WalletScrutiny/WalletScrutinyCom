@@ -12,7 +12,6 @@ version: 3.29.10
 stars: 4
 ratings: 1007
 reviews: 89
-size: 
 website: http://pillar.fi
 repository: https://github.com/pillarwallet/pillarwallet
 issue: 

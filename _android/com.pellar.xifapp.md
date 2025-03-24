@@ -13,7 +13,6 @@ version: 5.3.7
 stars: 4.9
 ratings: 
 reviews: 4
-size: 
 website: http://www.xinfinity.io
 repository: 
 issue: 

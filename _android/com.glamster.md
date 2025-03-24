@@ -13,16 +13,15 @@ version: 4.1.1
 stars: 2.6
 ratings: 
 reviews: 6
-size: 
 website: https://glamster.me
 repository: 
 issue: 
 icon: com.glamster.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-06-23
+date: 2025-03-17
 signer: 
 reviewArchive: 
 twitter: 

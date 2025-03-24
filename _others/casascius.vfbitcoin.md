@@ -11,6 +11,7 @@ providerWebsite: https://www.casascius.com/
 repository: https://github.com/casascius/vfbitcoin
 meta: ok
 verdict: vapor
+social: 
 
 ---
 

@@ -14,7 +14,6 @@ version: '0.92'
 stars: 
 ratings: 
 reviews: 
-size: 10M
 website: 
 repository: 
 issue: 

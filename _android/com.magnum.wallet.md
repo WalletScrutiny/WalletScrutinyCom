@@ -13,7 +13,6 @@ version: 1.0.12
 stars: 3.9
 ratings: 232
 reviews: 16
-size: 
 website: https://magnumwallet.co
 repository: 
 issue: 

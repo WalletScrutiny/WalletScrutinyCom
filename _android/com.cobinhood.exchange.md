@@ -13,7 +13,6 @@ version: 3.50.1
 stars: 2.8
 ratings: 648
 reviews: 118
-size: 
 website: https://cobinhood.com
 repository: 
 issue: 

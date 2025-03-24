@@ -12,7 +12,6 @@ version: 1.0.26
 stars: 3.3
 ratings: 386
 reviews: 127
-size: 74M
 website: https://www.dharma.io
 repository: 
 issue: 

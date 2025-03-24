@@ -13,16 +13,15 @@ version: 1.2.8
 stars: 
 ratings: 62
 reviews: 
-size: 
 website: https://cryptinix.com
 repository: 
 issue: 
 icon: com.cryptinix.app.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-10-06
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: 

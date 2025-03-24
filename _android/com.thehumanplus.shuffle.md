@@ -13,7 +13,6 @@ version: 2.0.2
 stars: 4
 ratings: 
 reviews: 
-size: 
 website: https://www.hupayx.com/
 repository: 
 issue: 

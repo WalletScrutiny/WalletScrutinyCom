@@ -13,7 +13,6 @@ version: 1.5.26
 stars: 4
 ratings: 640
 reviews: 4
-size: 
 website: https://moonlet.io
 repository: 
 issue: 

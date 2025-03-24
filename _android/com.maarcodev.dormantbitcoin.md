@@ -13,13 +13,12 @@ version: '1.3'
 stars: 3.7
 ratings: 
 reviews: 2
-size: 
 website: 
 repository: 
 issue: 
 icon: com.maarcodev.dormantbitcoin.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-05-09

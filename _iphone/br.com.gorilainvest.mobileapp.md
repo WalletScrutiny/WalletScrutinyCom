@@ -12,7 +12,6 @@ updated: 2025-01-17
 version: 6.7.1
 stars: 4.7
 reviews: 233
-size: '60834816'
 website: https://gorila.com.br/
 repository: 
 issue: 

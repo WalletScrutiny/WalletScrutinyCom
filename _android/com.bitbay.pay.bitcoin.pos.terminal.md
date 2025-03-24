@@ -13,7 +13,6 @@ version: 1.7.3(59)
 stars: 5
 ratings: 
 reviews: 
-size: 
 website: https://zondaglobal.com/pay
 repository: 
 issue: 

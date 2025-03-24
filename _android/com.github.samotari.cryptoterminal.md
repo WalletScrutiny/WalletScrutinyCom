@@ -13,7 +13,6 @@ version: 1.6.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://cryptoterminal.eu
 repository: https://github.com/samotari/crypto-terminal
 issue: 

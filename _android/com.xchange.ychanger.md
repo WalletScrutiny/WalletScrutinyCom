@@ -13,16 +13,15 @@ version: 4.2.1
 stars: 4
 ratings: 
 reviews: 
-size: 
 website: https://ychanger.org/
 repository: 
 issue: 
 icon: com.xchange.ychanger.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-10-06
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: 

@@ -12,7 +12,6 @@ version: 4.0.3
 stars: 4.5
 ratings: 75
 reviews: 61
-size: 27M
 website: https://www.chainzilla.io
 repository: 
 issue: 

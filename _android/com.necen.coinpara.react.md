@@ -12,7 +12,6 @@ version: 3.3.5
 stars: 4.4
 ratings: 
 reviews: 
-size: 
 website: https://x4e4cd6f4.app-ads-txt.com
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 1.0.1
 stars: 2.7
 ratings: 20
 reviews: 14
-size: 23M
 website: https://folgory.com/
 repository: 
 issue: 

@@ -6,13 +6,12 @@ authors:
 - danny
 appId: 4KSDE4UX92.com.netdania.quotelist
 appCountry: us
-idd: 446371774
+idd: '446371774'
 released: 2011-07-01
 updated: 2024-12-13
 version: 4.10.10
 stars: 4.7
-reviews: 13409
-size: '74502144'
+reviews: 13511
 website: http://www.netdania.com
 repository: 
 issue: 

@@ -12,7 +12,6 @@ updated: 2021-11-27
 version: 1.1.2
 stars: 4.1
 reviews: 107
-size: '109565952'
 website: https://www.hagglex.com/
 repository: 
 issue: 

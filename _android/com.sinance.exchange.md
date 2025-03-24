@@ -13,7 +13,6 @@ version: 1.2.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.sinance.net
 repository: 
 issue: 

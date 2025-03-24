@@ -13,16 +13,15 @@ version: 1.2.6
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.cointree.com/
 repository: 
 issue: 
 icon: com.cointree.mobileapp.png
 bugbounty: https://www.cointree.com/company/bug-bounty
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-09-06
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: CointreeAus

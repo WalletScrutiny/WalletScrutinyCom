@@ -13,7 +13,6 @@ version: '8.0'
 stars: 
 ratings: 
 reviews: 
-size: 8.4M
 website: 
 repository: 
 issue: 

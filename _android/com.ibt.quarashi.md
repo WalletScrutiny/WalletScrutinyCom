@@ -13,7 +13,6 @@ version: 1.0.55
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://quarashi.network
 repository: 
 issue: 

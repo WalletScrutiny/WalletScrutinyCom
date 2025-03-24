@@ -13,7 +13,6 @@ version: '1.0'
 stars: 3.5
 ratings: 
 reviews: 2
-size: 
 website: https://www.suponic.com
 repository: 
 issue: 

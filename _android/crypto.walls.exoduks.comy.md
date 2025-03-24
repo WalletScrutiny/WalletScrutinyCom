@@ -13,7 +13,6 @@ version: '19.28'
 stars: 
 ratings: 
 reviews: 
-size: 11M
 website: 
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 1.8.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.africrypt.io
 repository: 
 issue: 

@@ -13,16 +13,15 @@ version: 1.3.3.10300
 stars: 4.3
 ratings: 438
 reviews: 246
-size: 
 website: https://coincircle.com
 repository: 
 issue: 
 icon: com.coincircle.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
 appHashes: 
-date: 2024-07-24
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: coincircle

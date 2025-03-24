@@ -12,7 +12,6 @@ version: '1.12'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.eccu.xyz
 repository: 
 issue: 

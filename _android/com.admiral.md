@@ -13,7 +13,6 @@ version: 1.9.3
 stars: 2.7
 ratings: 
 reviews: 121
-size: 
 website: https://admiraloption.com/
 repository: 
 issue: 

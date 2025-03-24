@@ -7,8 +7,8 @@ authors:
 - danny
 released: 2014-08-01
 discontinued: 
-updated: 2024-03-06
-version: 7.9.3
+updated: 2025-02-12
+version: 7.10.0
 binaries: https://github.com/keepkey/keepkey-firmware/releases
 dimensions:
 - 38
@@ -28,10 +28,16 @@ bugbounty:
 meta: ok
 verdict: reproducible
 appHashes:
-- 24cca93ef5e7907dc6d8405b8ab9800d4e072dd9259138cf7679107985b88137
+- 518ad41643ee8a0aa6a6422f8534ac94f56cd65bc637aea4db7f3fdbb53255c3
 date: 2024-05-10
 signer: 
 reviewArchive:
+- date: 2024-05-10
+  version: 7.9.3
+  appHashes:
+  - 24cca93ef5e7907dc6d8405b8ab9800d4e072dd9259138cf7679107985b88137
+  gitRevision: be5f9df23562d45de56c97b023d975e7fb636d2d
+  verdict: reproducible
 - date: 2023-05-25
   version: 7.8.0
   appHashes:
@@ -57,75 +63,27 @@ features:
 
 ---
 
-**Update 2024-05-10**
+**Updated Review 2025-02-28 for version 7.10.0**
 
-Again, running the same [script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/scripts/test/hardware/keepKey.sh) with version 7.9.3 as the argument.
-
-We get the latter two matching: 
-```
-24cca93ef5e7907dc6d8405b8ab9800d4e072dd9259138cf7679107985b88137  firmware.keepkey.bin
-9a18ebf2443012012677a7d1118e72baf9ee95c2211123dd48e7c029a1b3b2ee  -
-9a18ebf2443012012677a7d1118e72baf9ee95c2211123dd48e7c029a1b3b2ee  -
-```
-
-To sum up, the significance of these, in the order of the hash presented:
-
-- signed binary
-- signed binary with signature overwritten with zeroes
-- our compiled binary with signature overwritten with zeroes
-
-With the matching hashes, version 7.9.3 is **reproducible**
-
-**Update 2023-05-25**
-Running
-[our script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/scripts/test/hardware/keepKey.sh)
-on v7.8.0 we get these results:
+Running our script on the latest version we get these results:
 
 ```
-$ scripts/test/hardware/keepKey.sh 7.8.0
+$ scripts/test/hardware/keepKey.sh 7.10.0
 ...
-31c1cdd945a7331e01b3cced866cb28add5b49eef87c2bbc08370e5aa7daf9bf  firmware.keepkey.bin
-b0fc047c7789bee9fba72e5720fb5c8129c9a32f94f7fe9dca4f4675c8d3ddc2  -
-aa5d303ae15d2b5dd3ace06ad4d8665c644efbfba1946c25aa5e25d6d17ed917  -
-```
-The diff of the binaries after removing the signature is as follows:
-
-```
-18563,18566c18563,18566
-< 00048820: 3a00 556e 6b6e 6f77 6e00 3036 3834 3465  :.Unknown.06844e
-< 00048830: 6239 3761 3765 3563 3430 6366 6161 3835  b97a7e5c40cfaa85
-< 00048840: 3232 3935 3437 6163 3534 6235 3734 6536  229547ac54b574e6
-< 00048850: 3339 004e 6f74 2069 6e20 626f 6f74 6c6f  39.Not in bootlo
----
-> 00048820: 3a00 556e 6b6e 6f77 6e00 3737 3933 6539  :.Unknown.7793e9
-> 00048830: 3236 3938 3863 3063 3364 6164 3664 3062  26988c0c3dad6d0b
-> 00048840: 3762 6639 3937 3235 3734 6139 3232 3864  7bf9972574a9228d
-> 00048850: 6131 004e 6f74 2069 6e20 626f 6f74 6c6f  a1.Not in bootlo
-```
-So we marked this firmware version as **not verifiable** as far as 
-this [issue](https://github.com/keepkey/keepkey-firmware/issues/342) 
-gets resolved by the team.
-
-**Review of version 7.2.1**
-Running
-[our script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/scripts/test/hardware/keepKey.sh)
-on the latest version we get these results:
-
-```
-$ scripts/test/hardware/keepKey.sh 7.2.1
-...
-c6cf79e7c2cc1b9cf7eca57aacaab5310b4dd0eff1559cda307295d753251eff  firmware.keepkey.bin
-dfa772aac4d9ae7d7afa4d1074bc43af1d943c19119a299f6682214490ef109e  -
-dfa772aac4d9ae7d7afa4d1074bc43af1d943c19119a299f6682214490ef109e  -
+518ad41643ee8a0aa6a6422f8534ac94f56cd65bc637aea4db7f3fdbb53255c3  firmware.keepkey.bin
+958764cf3baa53eec0002eab9c54e02ce6f5fdab71e7efbbe723f958e26ff419  -
+958764cf3baa53eec0002eab9c54e02ce6f5fdab71e7efbbe723f958e26ff419  -
 ```
 
-which is in this order the hash of the
+In the order shown:
 
-* signed binary
-* signed binary with signature overwritten with zeroes
-* our compiled binary with signature overwritten with zeroes
+The first line is the signed binary (firmware.keepkey.bin).
+The second line is that same signed binary with its signature overwritten.
+The third line is our recompiled binary with its signature overwritten.
 
-The latter two matching means the firmware is **reproducible**.
+Since the latter two lines match, it indicates that version 7.10.0 is reproducible.
+
+{% include asciicast %}
 
 # Original Analysis with all our considerations
 
@@ -496,4 +454,4 @@ provided source code, all promises we provide hold true: *If you reviewed the
 code and it's all good, the firmware binary is also good.* This product is
 **reproducible**.
 
-{% include asciicast %}
+

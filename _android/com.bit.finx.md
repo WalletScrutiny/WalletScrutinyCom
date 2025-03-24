@@ -12,7 +12,6 @@ version: 1.0.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://bitfinix.tech/
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 1.2.92
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://s4782b2ec.app-ads-txt.com
 repository: 
 issue: 

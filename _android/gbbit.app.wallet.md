@@ -13,13 +13,12 @@ version: '10.61'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.gbbit.com
 repository: 
 issue: 
 icon: gbbit.app.wallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-05-03

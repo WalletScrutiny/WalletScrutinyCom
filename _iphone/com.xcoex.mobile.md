@@ -13,16 +13,15 @@ updated: 2024-08-12
 version: 1.44.0
 stars: 0
 reviews: 0
-size: '54387712'
 website: https://xcoex.com/
 repository: 
 issue: 
 icon: com.xcoex.mobile.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-10-07
+date: 2025-03-19
 signer: 
 reviewArchive: 
 twitter: OfficialXcoex

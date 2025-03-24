@@ -13,16 +13,15 @@ version: 1.0.76
 stars: 5
 ratings: 
 reviews: 32
-size: 
 website: https://www.easycoins.com/
 repository: 
 issue: 
 icon: com.easycoin.exchange.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-07-01
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: EasyCoinsCrypto

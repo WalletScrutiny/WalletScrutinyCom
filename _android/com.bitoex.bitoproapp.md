@@ -13,7 +13,6 @@ version: 4.4.7
 stars: 3.4
 ratings: 
 reviews: 2
-size: 
 website: https://www.bitopro.com
 repository: 
 issue: 

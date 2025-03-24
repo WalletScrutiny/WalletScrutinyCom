@@ -12,7 +12,6 @@ version: '1.0'
 stars: 3.8
 ratings: 
 reviews: 
-size: 
 website: https://100coin.ru
 repository: 
 issue: 

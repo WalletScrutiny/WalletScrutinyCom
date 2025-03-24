@@ -13,7 +13,6 @@ version: 2.2.6
 stars: 4.1
 ratings: 
 reviews: 11
-size: 
 website: https://nami.exchange
 repository: 
 issue: 
@@ -31,7 +30,7 @@ social:
 - https://www.facebook.com/groups/800880653641607/
 - https://medium.com/nami-io
 redirect_from: 
-developerName: Nami Exchange UAB
+developerName: NAMI EXCHANGE
 features: 
 
 ---

@@ -13,13 +13,12 @@ version: 1.9.3
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.2gether.global
 repository: 
 issue: 
 icon: com.twogetherbank.app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 appHashes: 
 date: 2023-08-04

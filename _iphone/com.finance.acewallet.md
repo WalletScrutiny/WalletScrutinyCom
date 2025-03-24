@@ -12,7 +12,6 @@ updated: 2023-06-07
 version: 1.3.12
 stars: 0
 reviews: 0
-size: '58900480'
 website: https://acewallet.finance/
 repository: 
 issue: 

@@ -12,7 +12,6 @@ updated: 2022-12-03
 version: '3.26'
 stars: 4.7
 reviews: 3
-size: '40751104'
 website: https://www.crosstower.in/
 repository: 
 issue: 

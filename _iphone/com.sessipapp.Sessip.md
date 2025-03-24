@@ -12,7 +12,6 @@ updated: 2024-03-26
 version: '2.2'
 stars: 3.5
 reviews: 2
-size: '54123520'
 website: https://sessip.com/
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 5.0.1
 stars: 4.1
 ratings: 313
 reviews: 47
-size: 
 website: https://www.samouraiwallet.com/sentinel
 repository: https://github.com/Samourai-Wallet/sentinel-android
 issue: 

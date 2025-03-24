@@ -12,7 +12,6 @@ version: 0.21.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://mintmoney.org
 repository: 
 issue: 

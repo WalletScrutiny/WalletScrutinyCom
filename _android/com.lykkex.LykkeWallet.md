@@ -13,7 +13,6 @@ version: 13.1.1
 stars: 3.9
 ratings: 581
 reviews: 18
-size: 
 website: https://lykke.com
 repository: 
 issue: 

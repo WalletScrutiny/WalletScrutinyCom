@@ -13,7 +13,6 @@ version: 1.27.115-prod-105a6f8
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.kasta.io/
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 1.0.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://final-security.com
 repository: 
 issue: 

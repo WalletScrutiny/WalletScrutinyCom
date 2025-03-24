@@ -12,7 +12,6 @@ updated: 2025-01-22
 version: 11.1.0
 stars: 5
 reviews: 1
-size: '60755968'
 website: https://elyps.com
 repository: 
 issue: 

@@ -13,16 +13,15 @@ version: 1.0.305
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://everstrike.io
 repository: 
 issue: 
 icon: org.coincabin.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nobtc
 appHashes: 
-date: 2024-11-12
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: everstrike_io

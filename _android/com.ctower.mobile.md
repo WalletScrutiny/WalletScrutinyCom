@@ -12,7 +12,6 @@ version: 1.0.6
 stars: 
 ratings: 
 reviews: 
-size: 9.4M
 website: https://crosstower.com/
 repository: 
 issue: 

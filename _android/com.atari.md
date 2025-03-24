@@ -13,7 +13,6 @@ version: 2.08.01
 stars: 2.2
 ratings: 183
 reviews: 26
-size: 59M
 website: https://wallet.atarichain.com/
 repository: 
 issue: 

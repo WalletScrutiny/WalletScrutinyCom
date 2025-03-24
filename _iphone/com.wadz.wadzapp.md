@@ -12,16 +12,15 @@ updated: 2021-09-15
 version: 2.0.1
 stars: 5
 reviews: 1
-size: '69950464'
 website: https://www.wadzpay.com/
 repository: 
 issue: 
 icon: com.wadz.wadzapp.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-09-06
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: wadzpay

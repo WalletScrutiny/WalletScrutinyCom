@@ -13,7 +13,6 @@ version: 1.7.0
 stars: 4.5
 ratings: 
 reviews: 5
-size: 
 website: https://fulldive.com
 repository: 
 issue: 

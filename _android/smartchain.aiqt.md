@@ -13,7 +13,6 @@ version: '9.8'
 stars: 4.1
 ratings: 98
 reviews: 39
-size: 10M
 website: https://smartchainapp.blogspot.com/
 repository: 
 issue: 

@@ -14,7 +14,6 @@ version: VARY
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://blixtwallet.github.io
 repository: https://github.com/hsjoberg/blixt-wallet
 issue: https://github.com/hsjoberg/blixt-wallet/issues/318

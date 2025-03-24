@@ -13,7 +13,6 @@ version: 2.1.1891
 stars: 3.8
 ratings: 1118
 reviews: 15
-size: 
 website: https://kuna.io/
 repository: 
 issue: 

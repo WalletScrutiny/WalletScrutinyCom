@@ -12,7 +12,6 @@ version: '1.46'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://wise.win/
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: '1.1'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://upay.company
 repository: 
 issue: 

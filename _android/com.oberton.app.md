@@ -13,7 +13,6 @@ version: 2.15.9
 stars: 4.9
 ratings: 
 reviews: 27
-size: 
 website: https://bytehub.io
 repository: 
 issue: 

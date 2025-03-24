@@ -12,7 +12,6 @@ version: 1.6.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://matrix2020.com
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 1.3.24
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://coinbaazar.com
 repository: 
 issue: 

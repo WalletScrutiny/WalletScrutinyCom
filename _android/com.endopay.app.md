@@ -12,7 +12,6 @@ version: 4.3.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://endopay.com
 repository: 
 issue: 

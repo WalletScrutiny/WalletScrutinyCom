@@ -12,7 +12,6 @@ version: 3.1.20
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.net-cents.com
 repository: 
 issue: 

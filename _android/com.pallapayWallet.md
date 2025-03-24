@@ -13,7 +13,6 @@ version: '1.3'
 stars: 
 ratings: 
 reviews: 
-size: 16M
 website: https://www.pallapay.com/
 repository: 
 issue: 

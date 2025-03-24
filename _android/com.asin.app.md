@@ -12,7 +12,6 @@ version: 1.3.0
 stars: 1.9
 ratings: 
 reviews: 12
-size: 
 website: https://asin.vip/
 repository: 
 issue: 

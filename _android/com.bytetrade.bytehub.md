@@ -13,7 +13,6 @@ version: 1.4.3.210909
 stars: 4.6
 ratings: 7187
 reviews: 1302
-size: 
 website: https://www.bytetrade.io/
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 1.3.13
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://fmfw.io
 repository: 
 issue: 

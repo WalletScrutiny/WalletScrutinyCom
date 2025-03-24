@@ -13,16 +13,15 @@ version: 4.4.3
 stars: 4.1
 ratings: 228
 reviews: 17
-size: 
 website: http://mercurycash.us
 repository: 
 issue: 
 icon: com.adenter.mercurycash.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-08-26
+date: 2025-02-28
 signer: 
 reviewArchive: 
 twitter: mercurycash

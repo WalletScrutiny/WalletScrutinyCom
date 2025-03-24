@@ -12,7 +12,6 @@ version: 1.5.3
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://satang.com
 repository: 
 issue: 

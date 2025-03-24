@@ -13,7 +13,6 @@ version: 1.6.05
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://tongtongwallet.com/
 repository: 
 issue: 

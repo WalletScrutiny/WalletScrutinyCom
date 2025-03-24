@@ -12,7 +12,6 @@ version: V0.2.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://github.com/yancaitech
 repository: 
 issue: 

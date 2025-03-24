@@ -12,7 +12,6 @@ version: '1.1'
 stars: 4.8
 ratings: 
 reviews: 51
-size: 
 website: https://web.payfrequent.com/
 repository: 
 issue: 

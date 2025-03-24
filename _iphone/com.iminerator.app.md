@@ -12,7 +12,6 @@ updated: 2022-04-30
 version: 2.0.4
 stars: 0
 reviews: 0
-size: '84640768'
 website: https://iminerator.com/index-apple.html
 repository: 
 issue: 

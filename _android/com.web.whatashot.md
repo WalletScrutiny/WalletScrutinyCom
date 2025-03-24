@@ -12,7 +12,6 @@ version: '1.7'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://whatashot.io/
 repository: 
 issue: 

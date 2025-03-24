@@ -13,7 +13,6 @@ version: 1.0.23
 stars: 4.6
 ratings: 
 reviews: 8
-size: 
 website: https://balancenetwork.io/
 repository: 
 issue: 

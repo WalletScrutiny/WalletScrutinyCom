@@ -12,7 +12,6 @@ updated: 2023-01-23
 version: 23.0.0
 stars: 4.2
 reviews: 127
-size: '84723712'
 website: https://www.youtube.com/watch?v=iYI01eFjxTg
 repository: 
 issue: 

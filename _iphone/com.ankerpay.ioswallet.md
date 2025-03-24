@@ -6,13 +6,12 @@ authors:
 - danny
 appId: com.ankerpay.ioswallet
 appCountry: za
-idd: 1487931971
+idd: '1487931971'
 released: 2019-11-22
 updated: 2023-11-26
 version: '1.30'
 stars: 5
 reviews: 3
-size: '56802304'
 website: https://ankerpay.com/mobile-wallet/
 repository: 
 issue: 

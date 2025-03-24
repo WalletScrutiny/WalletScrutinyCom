@@ -12,7 +12,6 @@ version: 1.2.5
 stars: 4.2
 ratings: 
 reviews: 2
-size: 
 website: https://www.vitatoken.io/
 repository: 
 issue: 

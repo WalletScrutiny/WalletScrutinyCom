@@ -13,7 +13,6 @@ version: 1.1.59
 stars: 4.4
 ratings: 
 reviews: 2
-size: 
 website: https://qmall.io/
 repository: 
 issue: 

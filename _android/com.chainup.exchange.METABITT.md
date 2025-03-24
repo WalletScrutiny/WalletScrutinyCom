@@ -13,7 +13,6 @@ version: 5.6.5
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.mt-bitt.com/en_US/
 repository: 
 issue: 

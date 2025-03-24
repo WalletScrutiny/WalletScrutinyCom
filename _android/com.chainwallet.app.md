@@ -13,7 +13,6 @@ version: 1.0.35
 stars: 3
 ratings: 
 reviews: 12
-size: 
 website: https://chain.com
 repository: 
 issue: 

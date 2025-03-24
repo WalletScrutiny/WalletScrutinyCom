@@ -12,7 +12,6 @@ updated: 2023-04-25
 version: 3.0.8
 stars: 2
 reviews: 29
-size: '35436544'
 website: https://trade.mn
 repository: 
 issue: 

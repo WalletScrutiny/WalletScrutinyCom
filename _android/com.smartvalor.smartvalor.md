@@ -13,7 +13,6 @@ version: 1.0.31.111
 stars: 4.2
 ratings: 
 reviews: 
-size: 
 website: https://smartvalor.com/
 repository: 
 issue: 

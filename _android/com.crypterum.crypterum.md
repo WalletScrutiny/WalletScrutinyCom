@@ -13,7 +13,6 @@ version: 0.1.13
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://crypterum.com
 repository: 
 issue: 

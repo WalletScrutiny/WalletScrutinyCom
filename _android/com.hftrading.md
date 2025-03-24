@@ -12,7 +12,6 @@ version: 1.5.69-hftrading
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.hftrading.com
 repository: 
 issue: 

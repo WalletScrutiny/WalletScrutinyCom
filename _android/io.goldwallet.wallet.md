@@ -12,7 +12,6 @@ version: 6.5.2
 stars: 4.2
 ratings: 504
 reviews: 13
-size: 
 website: https://bitcoinvault.global
 repository: 
 issue: 

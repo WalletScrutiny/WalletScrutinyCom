@@ -12,7 +12,6 @@ version: 11.0.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.neblidex.xyz
 repository: 
 issue: 

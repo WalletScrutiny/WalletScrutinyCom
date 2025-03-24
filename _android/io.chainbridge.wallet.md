@@ -13,7 +13,6 @@ version: 1.1.20220907
 stars: 3.9
 ratings: 
 reviews: 30
-size: 
 website: https://www.chain-bridge.io
 repository: 
 issue: 

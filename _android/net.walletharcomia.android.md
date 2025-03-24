@@ -12,7 +12,6 @@ version: 1.0.4
 stars: 
 ratings: 
 reviews: 
-size: 40M
 website: https://wallet.harcomia.com
 repository: 
 issue: 

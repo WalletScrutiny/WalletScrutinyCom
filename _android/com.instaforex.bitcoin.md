@@ -13,7 +13,6 @@ version: 0.12.3
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.instaforex.com
 repository: 
 issue: 

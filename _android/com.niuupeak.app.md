@@ -13,13 +13,12 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://niuupeak.com/
 repository: 
 issue: 
 icon: com.niuupeak.app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-05-31

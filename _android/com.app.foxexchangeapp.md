@@ -13,7 +13,6 @@ version: '2.0'
 stars: 4
 ratings: 
 reviews: 96
-size: 
 website: https://foxnetwork.app/
 repository: 
 issue: 

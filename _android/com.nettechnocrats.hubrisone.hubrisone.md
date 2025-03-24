@@ -12,7 +12,6 @@ version: 2.1.6
 stars: 3.1
 ratings: 
 reviews: 8
-size: 
 website: http://www.hubrisone.com
 repository: 
 issue: 

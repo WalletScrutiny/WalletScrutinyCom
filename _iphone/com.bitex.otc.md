@@ -12,7 +12,6 @@ updated: 2024-10-17
 version: 1.8.8
 stars: 5
 reviews: 8
-size: '57900032'
 website: https://www.bitex.sg/
 repository: 
 issue: 

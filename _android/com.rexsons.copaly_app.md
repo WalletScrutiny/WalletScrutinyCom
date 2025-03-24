@@ -12,7 +12,6 @@ version: 4.0.1
 stars: 4.3
 ratings: 
 reviews: 
-size: 
 website: https://copaly.com
 repository: 
 issue: 

@@ -15,7 +15,6 @@ version: 3.32.6
 stars: 4.2
 ratings: 110
 reviews: 19
-size: 
 website: https://www.airgap.it
 repository: https://github.com/airgap-it/airgap-vault
 issue: https://github.com/airgap-it/airgap-vault/issues/197
@@ -82,13 +81,13 @@ reviewArchive:
   - 594a0c9fd380aeca626dd3c0b8e282589028404b6a1eee1e3b9f191ac0ace754
   gitRevision: 2800eb78ff91dda0f1d0cabae3a399fc2d700c8b
   verdict: reproducible
-- data: 2023-04-27
+- date: 2023-04-27
   version: 3.25.0
   appHashes:
   - 5d61189f93a120d87d03433236d222b3bdd44e6678f970728706e48d5eb9a514
   gitRevision: a65a08716f1d718fc1762824b5fc35478d90d807
   verdict: reproducible
-- data: 2022-11-02
+- date: 2022-11-02
   version: 3.18.0
   appHashes:
   - c7c35602fd09fa04c3435dc1a5382bd872f02b7cb03f005f263e7701e5342998

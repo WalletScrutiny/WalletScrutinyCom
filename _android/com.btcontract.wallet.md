@@ -14,7 +14,6 @@ version: 2.5.8
 stars: 3.9
 ratings: 1061
 reviews: 34
-size: 
 website: https://lightning-wallet.com/
 repository: https://github.com/btcontract/wallet
 issue: 

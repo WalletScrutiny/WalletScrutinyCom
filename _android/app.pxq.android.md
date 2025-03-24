@@ -13,16 +13,15 @@ version: 1.1.2
 stars: 2.4
 ratings: 
 reviews: 4
-size: 
 website: https://pxq.app
 repository: 
 issue: 
 icon: app.pxq.android.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-07-24
+date: 2025-02-28
 signer: 
 reviewArchive: 
 twitter: 

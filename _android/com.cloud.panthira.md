@@ -13,7 +13,6 @@ version: 1.1.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://exchange.panthira.com/
 repository: 
 issue: 

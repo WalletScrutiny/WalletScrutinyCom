@@ -12,7 +12,6 @@ version: '1'
 stars: 5
 ratings: 
 reviews: 22
-size: 
 website: http://cryptogeek.info
 repository: 
 issue: 

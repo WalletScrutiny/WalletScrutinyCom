@@ -12,7 +12,6 @@ version: '1.0'
 stars: 4.4
 ratings: 271
 reviews: 26
-size: 
 website: https://alexchanger.com/
 repository: 
 issue: 

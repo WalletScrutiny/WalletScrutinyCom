@@ -13,13 +13,12 @@ version: 0.1.5
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://lohitgroup.com/
 repository: 
 issue: 
 icon: com.lohitgroup.start.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-05-30

@@ -12,7 +12,6 @@ version: '1.2'
 stars: 3.8
 ratings: 95
 reviews: 60
-size: 7.2M
 website: http://aegisbtc.com
 repository: https://github.com/bsimic0001/AegisWallet
 issue: 

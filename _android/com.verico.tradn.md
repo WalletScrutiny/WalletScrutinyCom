@@ -13,13 +13,12 @@ version: 1.5.106
 stars: 
 ratings: 39
 reviews: 
-size: 
 website: https://tradn.io/
 repository: 
 issue: 
 icon: com.verico.tradn.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2021-11-15

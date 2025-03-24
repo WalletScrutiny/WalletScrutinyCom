@@ -13,13 +13,12 @@ version: 5.9.1_push_v2
 stars: 3
 ratings: 
 reviews: 10
-size: 
 website: https://www.burency.com
 repository: 
 issue: 
 icon: com.chainup.exchange.Burency.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 appHashes: 
 date: 2023-06-29

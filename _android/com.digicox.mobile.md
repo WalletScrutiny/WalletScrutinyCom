@@ -13,13 +13,12 @@ version: '1.0'
 stars: 4.4
 ratings: 
 reviews: 4
-size: 
 website: https://digicox.com
 repository: 
 issue: 
 icon: com.digicox.mobile.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-04-22

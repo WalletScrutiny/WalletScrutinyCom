@@ -12,7 +12,6 @@ version: 1.1.3
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.assisttradingmaster.com
 repository: 
 issue: 

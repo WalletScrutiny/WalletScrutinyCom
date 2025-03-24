@@ -12,7 +12,6 @@ updated: 2021-08-23
 version: 1.68.10
 stars: 1
 reviews: 1
-size: 32552960
 website: https://www.roinvesting.com/
 repository: 
 issue: 

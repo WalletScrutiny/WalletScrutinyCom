@@ -12,7 +12,6 @@ version: 2.2.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://cryptotae.com/
 repository: 
 issue: 

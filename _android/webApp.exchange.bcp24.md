@@ -12,7 +12,6 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://ex.bcp24.io
 repository: 
 issue: 

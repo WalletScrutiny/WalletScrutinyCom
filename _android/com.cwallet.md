@@ -13,7 +13,6 @@ version: 0.741.11
 stars: 3.1
 ratings: 120
 reviews: 6
-size: 
 website: https://xapawallet.com
 repository: 
 issue: 

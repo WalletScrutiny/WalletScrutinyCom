@@ -1,6 +1,6 @@
 ---
 wsId: bitazza
-title: 'Bitazza TH: Crypto Exchange'
+title: 'Bitazza TH: Buy & Trade Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,11 @@ users: 500000
 appId: com.bitazza.android
 appCountry: th
 released: 2020-09-29
-updated: 2025-02-01
-version: 4.2.3
+updated: 2025-03-12
+version: 4.2.7
 stars: 4.7
 ratings: 5028
-reviews: 2300
-size: 
+reviews: 2325
 website: http://bitazza.com/
 repository: 
 issue: 

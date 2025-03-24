@@ -13,7 +13,6 @@ version: 1.0.15
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://amgenwallet.com/
 repository: 
 issue: 

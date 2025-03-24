@@ -13,7 +13,6 @@ version: 3.4.1
 stars: 3.2
 ratings: 73
 reviews: 47
-size: 19M
 website: https://www.bidesk.com/
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 9.7.1
 stars: 3.9
 ratings: 
 reviews: 32
-size: 
 website: https://www.emoney.ge/
 repository: 
 issue: 

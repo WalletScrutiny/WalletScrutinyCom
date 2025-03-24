@@ -13,7 +13,6 @@ version: R02.03.06.478
 stars: 4.1
 ratings: 19
 reviews: 4
-size: 
 website: https://www.starteos.io
 repository: 
 issue: 

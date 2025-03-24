@@ -13,13 +13,12 @@ version: '1.1'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://aelince.com
 repository: 
 issue: 
 icon: com.aelince.app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-08-28

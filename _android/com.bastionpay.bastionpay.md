@@ -12,7 +12,6 @@ version: v3.0.3
 stars: 5
 ratings: 
 reviews: 101
-size: 
 website: http://www.bastionpay.com
 repository: 
 issue: 

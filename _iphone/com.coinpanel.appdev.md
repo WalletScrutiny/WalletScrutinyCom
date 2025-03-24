@@ -12,7 +12,6 @@ updated: 2024-08-07
 version: '2.0'
 stars: 0
 reviews: 0
-size: '28105728'
 website: https://coinpanel.com/
 repository: 
 issue: 

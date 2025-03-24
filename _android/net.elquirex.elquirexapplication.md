@@ -12,7 +12,6 @@ version: '1.1'
 stars: 2.5
 ratings: 
 reviews: 
-size: 
 website: https://elquirex.net/
 repository: 
 issue: 

@@ -12,7 +12,6 @@ updated: 2023-01-13
 version: 2.3.2
 stars: 4.3
 reviews: 4
-size: '57952256'
 website: https://www.zbx.one/
 repository: 
 issue: 

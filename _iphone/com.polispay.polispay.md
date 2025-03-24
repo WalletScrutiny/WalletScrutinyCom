@@ -12,7 +12,6 @@ updated: 2021-10-22
 version: 8.9.3
 stars: 4
 reviews: 7
-size: '34947072'
 website: https://www.polispay.com
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: '1.3'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://mobapibbc.buybitcoins.app/
 repository: 
 issue: 

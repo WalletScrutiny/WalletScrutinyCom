@@ -12,13 +12,12 @@ updated: 2021-08-18
 version: 1.3.6
 stars: 0
 reviews: 0
-size: '105841664'
 website: https://cointral.com
 repository: 
 issue: 
 icon: com.cointral.exchange.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 appHashes: 
 date: 2023-01-11

@@ -12,7 +12,6 @@ updated: 2025-01-16
 version: 2.3.0
 stars: 0
 reviews: 0
-size: '73077760'
 website: https://swnglobal.com
 repository: 
 issue: 

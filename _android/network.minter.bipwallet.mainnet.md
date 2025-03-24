@@ -13,7 +13,6 @@ version: 2.4.1
 stars: 4.7
 ratings: 
 reviews: 23
-size: 
 website: https://minter.network
 repository: 
 issue: 

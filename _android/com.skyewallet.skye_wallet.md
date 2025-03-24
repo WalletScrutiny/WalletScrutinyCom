@@ -13,7 +13,6 @@ version: 2.13.7
 stars: 3.2
 ratings: 290
 reviews: 19
-size: 
 website: https://skyewallet.com
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: '1.7'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://prod.xchangemonster.com/
 repository: 
 issue: 

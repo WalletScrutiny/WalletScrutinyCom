@@ -13,7 +13,6 @@ version: 1.1.7
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.indocodex.com
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 3.0.3
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://bobablocks.io
 repository: 
 issue: 

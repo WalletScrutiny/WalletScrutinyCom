@@ -13,7 +13,6 @@ version: 0.83.4
 stars: 3.8
 ratings: 
 reviews: 
-size: 
 website: https://www.nobank.one
 repository: 
 issue: 

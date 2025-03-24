@@ -12,7 +12,6 @@ version: 2.4.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.plue.io
 repository: 
 issue: 

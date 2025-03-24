@@ -13,16 +13,15 @@ version: V2.11.1.1142
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.vi-tien.net/
 repository: 
 issue: 
 icon: app.vitien.vitien.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
 appHashes: 
-date: 2024-09-06
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: 

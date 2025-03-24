@@ -12,7 +12,6 @@ version: 1.9.18
 stars: 
 ratings: 
 reviews: 
-size: 76M
 website: 
 repository: 
 issue: 

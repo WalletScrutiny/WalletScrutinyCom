@@ -13,7 +13,6 @@ version: '1.23'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://simplehold.io/
 repository: 
 issue: 

@@ -12,7 +12,6 @@ updated: 2023-10-10
 version: 1.18.6
 stars: 3.7
 reviews: 1304
-size: '71025664'
 website: https://freewallet.org
 repository: 
 issue: 

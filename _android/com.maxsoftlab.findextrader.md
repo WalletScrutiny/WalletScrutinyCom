@@ -13,7 +13,6 @@ version: 1.3.14GMS
 stars: 3.6
 ratings: 
 reviews: 
-size: 
 website: https://www.maxsoftlab.com
 repository: 
 issue: 

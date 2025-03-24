@@ -13,7 +13,6 @@ version: 1.1.0
 stars: 3.8
 ratings: 
 reviews: 60
-size: 
 website: https://glimnetwork.com
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 5.6.5_push_v2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://vaex.tech/
 repository: 
 issue: 

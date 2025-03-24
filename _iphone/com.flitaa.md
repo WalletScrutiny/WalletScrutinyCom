@@ -12,7 +12,6 @@ updated: 2023-06-23
 version: 1.34.0
 stars: 3.5
 reviews: 65
-size: '83151872'
 website: https://flitbase.com
 repository: 
 issue: 

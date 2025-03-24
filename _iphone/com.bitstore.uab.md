@@ -12,7 +12,6 @@ updated: 2022-11-17
 version: 2.4.0
 stars: 5
 reviews: 3
-size: '76331008'
 website: https://bit.store
 repository: 
 issue: 

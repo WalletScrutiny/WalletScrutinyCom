@@ -13,7 +13,6 @@ version: 2.0.7
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://iqtrader.io
 repository: 
 issue: 

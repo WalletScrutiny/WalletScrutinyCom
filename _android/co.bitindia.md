@@ -12,7 +12,6 @@ version: Varies with device
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
 website: 
 repository: 
 issue: 

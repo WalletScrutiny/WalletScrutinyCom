@@ -12,7 +12,6 @@ updated: 2022-08-30
 version: 1.18.4
 stars: 3.8
 reviews: 29
-size: '182856704'
 website: https://www.liquid.com
 repository: 
 issue: 

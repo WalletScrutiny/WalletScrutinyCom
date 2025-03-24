@@ -12,7 +12,6 @@ updated: 2021-11-01
 version: '1.10'
 stars: 5
 reviews: 4
-size: '77766656'
 website: http://bizzmartdirect.com
 repository: 
 issue: 

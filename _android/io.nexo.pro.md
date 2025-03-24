@@ -13,7 +13,6 @@ version: 1.4.3
 stars: 3.7
 ratings: 
 reviews: 1
-size: 
 website: https://pro.nexo.com/
 repository: 
 issue: 

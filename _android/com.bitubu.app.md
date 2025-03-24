@@ -12,7 +12,6 @@ version: 1.1.4
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://bitubu.com
 repository: 
 issue: 

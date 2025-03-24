@@ -12,7 +12,6 @@ version: 1.6.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.tatacoabitcoin.com/
 repository: 
 issue: 

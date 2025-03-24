@@ -13,13 +13,12 @@ version: '3.0'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://exchange.e-dome.net/trading/ltcbtc
 repository: 
 issue: 
 icon: com.menttechhubex.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-05-30

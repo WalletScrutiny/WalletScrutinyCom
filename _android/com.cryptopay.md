@@ -13,7 +13,6 @@ version: '1.5'
 stars: 4.3
 ratings: 6
 reviews: 2
-size: 9.1M
 website: https://shamlatech.com/
 repository: 
 issue: 

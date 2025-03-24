@@ -13,13 +13,12 @@ version: 1.13.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.colover.com/
 repository: 
 issue: 
 icon: com.colover.coin.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-04-21

@@ -12,7 +12,6 @@ updated: 2023-07-18
 version: 1.8.1
 stars: 0
 reviews: 0
-size: '38301696'
 website: https://www.delta.exchange/
 repository: 
 issue: 

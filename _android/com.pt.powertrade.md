@@ -13,7 +13,6 @@ version: 2.2.1
 stars: 3.7
 ratings: 
 reviews: 
-size: 
 website: https://power.trade/
 repository: 
 issue: 

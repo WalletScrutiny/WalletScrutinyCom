@@ -12,7 +12,6 @@ version: '1.26'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://gmnc.net
 repository: 
 issue: 

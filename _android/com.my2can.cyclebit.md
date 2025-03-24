@@ -12,7 +12,6 @@ version: 4.0.13
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.cyclebit.com
 repository: 
 issue: 

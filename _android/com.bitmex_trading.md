@@ -12,7 +12,6 @@ version: '1.0'
 stars: 5
 ratings: 
 reviews: 4
-size: 
 website: http://goliquid.app
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: '4.34'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.ilcoincrypto.com/
 repository: 
 issue: 

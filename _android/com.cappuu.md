@@ -13,7 +13,6 @@ version: '3.57'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.coinomo.com
 repository: 
 issue: 

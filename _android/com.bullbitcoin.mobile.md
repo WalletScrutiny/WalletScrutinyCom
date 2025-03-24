@@ -8,12 +8,11 @@ users: 5000
 appId: com.bullbitcoin.mobile
 appCountry: 
 released: 2023-10-31
-updated: 2024-12-27
-version: 0.4.0
+updated: 2025-03-15
+version: 0.4.3
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://bullbitcoin.com
 repository: https://github.com/SatoshiPortal/bullbitcoin-mobile
 issue: https://github.com/SatoshiPortal/bullbitcoin-mobile/issues/326

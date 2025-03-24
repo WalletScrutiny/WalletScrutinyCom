@@ -13,7 +13,6 @@ version: 5.2.0
 stars: 4.5
 ratings: 277
 reviews: 51
-size: 
 website: https://haruinvest.com
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 3.3.3
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://pro.changelly.com/
 repository: 
 issue: 

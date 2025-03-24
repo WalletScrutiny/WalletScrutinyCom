@@ -8,12 +8,11 @@ users: 1000000
 appId: com.crypter.cryptocyrrency
 appCountry: us
 released: 2017-09-09
-updated: 2024-12-14
-version: 3.5.9
+updated: 2025-03-08
+version: 3.5.10
 stars: 4.3
 ratings: 78687
-reviews: 2702
-size: 
+reviews: 2693
 website: https://thecrypto.app
 repository: 
 issue: 

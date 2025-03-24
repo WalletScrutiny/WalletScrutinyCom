@@ -13,7 +13,6 @@ version: 1.0.5
 stars: 3.6
 ratings: 
 reviews: 2
-size: 
 website: https://ixasthur.github.io/mk_support/
 repository: 
 issue: 

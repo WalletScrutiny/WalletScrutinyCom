@@ -13,7 +13,6 @@ version: 2.0.16
 stars: 4.9
 ratings: 
 reviews: 
-size: 
 website: https://bexc.io
 repository: 
 issue: 

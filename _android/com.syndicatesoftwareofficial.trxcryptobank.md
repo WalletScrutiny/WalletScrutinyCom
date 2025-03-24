@@ -12,7 +12,6 @@ version: '1.0'
 stars: 3.3
 ratings: 
 reviews: 1
-size: 
 website: https://trxcryptobank.com/
 repository: 
 issue: 

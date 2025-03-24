@@ -13,16 +13,15 @@ version: 2.83.848
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://jp-ex.io
 repository: 
 issue: 
 icon: com.spark.jpex.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-07-30
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: ExchangeJpex

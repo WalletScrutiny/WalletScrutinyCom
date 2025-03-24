@@ -12,7 +12,6 @@ version: 7.0.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://mooncod.com
 repository: 
 issue: 

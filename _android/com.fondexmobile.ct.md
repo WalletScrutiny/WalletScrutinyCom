@@ -13,7 +13,6 @@ version: 4.8.54452
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.fondex.com
 repository: 
 issue: 

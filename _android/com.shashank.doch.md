@@ -13,13 +13,12 @@ version: 1.6.7
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://dochcoin.com/
 repository: 
 issue: 
 icon: com.shashank.doch.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-06-02

@@ -7,13 +7,12 @@ authors:
 - emanuel
 appId: co.edgesecure.app
 appCountry: 
-idd: 1344400091
+idd: '1344400091'
 released: 2018-02-09
-updated: 2025-01-29
-version: 4.21.1
+updated: 2025-03-18
+version: 4.24.0
 stars: 4.5
-reviews: 1622
-size: '96402432'
+reviews: 1651
 website: https://edge.app
 repository: https://github.com/EdgeApp/edge-react-gui
 issue: 

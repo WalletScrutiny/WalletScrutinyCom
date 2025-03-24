@@ -13,16 +13,15 @@ version: 3.1.5
 stars: 3
 ratings: 1231
 reviews: 118
-size: 
 website: http://www.coinfield.com
 repository: 
 issue: 
 icon: com.coinfield.csapp.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-12-15
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: CoinFieldEx

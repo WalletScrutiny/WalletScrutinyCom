@@ -12,7 +12,6 @@ updated: 2022-08-23
 version: 2.0.0
 stars: 4.2
 reviews: 5
-size: '81582080'
 website: https://www.felixo.com
 repository: 
 issue: 

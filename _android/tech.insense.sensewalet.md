@@ -14,7 +14,6 @@ version: 0.0068beta
 stars: 4
 ratings: 25
 reviews: 15
-size: 14M
 website: http://InSense.tech
 repository: 
 issue: 

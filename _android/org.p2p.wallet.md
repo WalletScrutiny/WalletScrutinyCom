@@ -13,7 +13,6 @@ version: 2.8.0
 stars: 4
 ratings: 
 reviews: 3
-size: 
 website: https://key.app/
 repository: 
 issue: 

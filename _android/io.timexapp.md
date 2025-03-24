@@ -13,7 +13,6 @@ version: 1.4.3
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://timex.io
 repository: 
 issue: 

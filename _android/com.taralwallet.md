@@ -13,7 +13,6 @@ version: 13.5.0
 stars: 3
 ratings: 
 reviews: 4
-size: 
 website: https://tarality.com
 repository: 
 issue: 

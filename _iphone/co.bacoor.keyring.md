@@ -6,13 +6,12 @@ authors:
 - danny
 appId: co.bacoor.keyring
 appCountry: 
-idd: 1546824976
+idd: '1546824976'
 released: 2021-01-25
-updated: 2024-12-20
-version: 4.3.0
+updated: 2025-03-14
+version: 4.7.0
 stars: 3.9
 reviews: 11
-size: '40409088'
 website: 
 repository: 
 issue: 

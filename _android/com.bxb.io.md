@@ -13,7 +13,6 @@ version: 1.2.19
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.bxb.io/
 repository: 
 issue: 

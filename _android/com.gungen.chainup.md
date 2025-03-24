@@ -12,7 +12,6 @@ version: 2.7.3
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.pdfae.ph
 repository: 
 issue: 

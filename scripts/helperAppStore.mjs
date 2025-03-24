@@ -16,7 +16,7 @@ const stats = {
 const category = 'iphone';
 const folder = `_${category}/`;
 const headers = ('wsId title altTitle authors appId appCountry idd released ' +
-                'updated version stars reviews size website repository issue ' +
+                'updated version stars reviews website repository issue ' +
                 'icon bugbounty meta verdict appHashes date signer reviewArchive ' +
                 'twitter social features developerName').split(' ');
 
@@ -63,11 +63,11 @@ function refreshFile (fileName, content, markDefunct) {
       }, (err) => {
         if (`${err}`.search(/404/) > -1) {
           if (markDefunct) {
-            header.meta = "removed";
+            header.meta = 'removed';
             header.date = new Date();
             helper.writeResult(folder, header, body);
           } else {
-            helper.addDefunctIfNew(`_iphone/${appId}`);
+            helper.addDefunctIfNew(`_${category}/${appId}`);
           }
         } else {
           console.error(`\nError with ${appId} https://apps.apple.com/${appCountry}/app/id${idd} : ${JSON.stringify(err)}`);
@@ -101,7 +101,6 @@ function updateFromApp (header, app) {
   header.released = header.released || app.released;
   header.stars = app.score;
   header.reviews = app.reviews;
-  header.size = app.size;
   header.website = app.developerWebsite || header.website || '';
   header.date = header.date || new Date();
   header.developerName = app.developer || header.developerName || 'Unknown Developer(s)';

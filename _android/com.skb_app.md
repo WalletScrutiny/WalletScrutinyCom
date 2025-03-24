@@ -12,7 +12,6 @@ version: '3.25'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://skb-coin.jp/en/
 repository: 
 issue: 

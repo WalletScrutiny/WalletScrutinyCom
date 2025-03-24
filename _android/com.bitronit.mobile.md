@@ -12,7 +12,6 @@ version: 1.18.0
 stars: 4.7
 ratings: 
 reviews: 
-size: 
 website: https://www.bitronit.com
 repository: 
 issue: 

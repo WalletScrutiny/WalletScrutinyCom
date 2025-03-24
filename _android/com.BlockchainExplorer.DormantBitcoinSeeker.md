@@ -13,13 +13,12 @@ version: 1.0.9
 stars: 3
 ratings: 
 reviews: 2
-size: 
 website: 
 repository: 
 issue: 
 icon: com.BlockchainExplorer.DormantBitcoinSeeker.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-05-09

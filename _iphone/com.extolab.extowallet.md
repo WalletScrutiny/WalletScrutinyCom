@@ -12,7 +12,6 @@ updated: 2020-11-11
 version: 1.6.4
 stars: 0
 reviews: 0
-size: '31562752'
 website: https://extowallet.com
 repository: 
 issue: 

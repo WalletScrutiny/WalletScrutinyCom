@@ -13,7 +13,6 @@ version: 2.1.4
 stars: 3.1
 ratings: 
 reviews: 4
-size: 
 website: https://www.bwex.vip/
 repository: 
 issue: 

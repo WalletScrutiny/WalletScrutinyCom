@@ -12,7 +12,6 @@ updated: 2024-11-09
 version: 3.0.1
 stars: 0
 reviews: 0
-size: '37763072'
 website: https://ivpay.io
 repository: 
 issue: 

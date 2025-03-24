@@ -12,7 +12,6 @@ updated: 2021-06-30
 version: 1.1.1075
 stars: 4
 reviews: 5
-size: '62076928'
 website: https://cexchangenex.com/
 repository: 
 issue: 

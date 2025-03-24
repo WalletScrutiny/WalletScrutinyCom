@@ -12,7 +12,6 @@ updated: 2024-12-24
 version: 1.5.1
 stars: 0
 reviews: 0
-size: '77091840'
 website: https://nayuta.co/nayuta-wallet-2022
 repository: 
 issue: 

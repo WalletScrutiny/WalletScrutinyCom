@@ -12,7 +12,6 @@ version: '1.8'
 stars: 4.5
 ratings: 
 reviews: 
-size: 
 website: https://coinbag.me/
 repository: 
 issue: 

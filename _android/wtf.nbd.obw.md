@@ -12,7 +12,6 @@ version: 0.2.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://nbd.wtf
 repository: 
 issue: 

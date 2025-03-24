@@ -12,7 +12,6 @@ version: '2.1'
 stars: 4.3
 ratings: 
 reviews: 3
-size: 
 website: https://meliora.finance/
 repository: 
 issue: 

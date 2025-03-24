@@ -12,7 +12,6 @@ version: 3.3.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.kozjin.io
 repository: 
 issue: 

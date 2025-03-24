@@ -12,7 +12,6 @@ updated: 2024-02-21
 version: 1.8.4
 stars: 3.4
 reviews: 58
-size: '81026048'
 website: 
 repository: 
 issue: 

@@ -13,16 +13,15 @@ version: 1.7.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://colodax.com
 repository: 
 issue: 
 icon: com.colodax.colodax.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-09-08
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: colodax

@@ -12,16 +12,15 @@ updated: 2022-10-19
 version: '1.20'
 stars: 5
 reviews: 2
-size: '105020416'
 website: 
 repository: 
 issue: 
 icon: com.vexel.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-10-08
+date: 2025-02-28
 signer: 
 reviewArchive: 
 twitter: 

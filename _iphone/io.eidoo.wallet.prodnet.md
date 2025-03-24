@@ -12,7 +12,6 @@ updated: 2021-11-08
 version: 3.6.3
 stars: 3.6
 reviews: 78
-size: '42298368'
 website: https://eidoo.io
 repository: 
 issue: 

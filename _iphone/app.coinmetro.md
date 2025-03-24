@@ -6,13 +6,12 @@ authors:
 - danny
 appId: app.coinmetro
 appCountry: us
-idd: 1397585225
+idd: '1397585225'
 released: 2018-07-25
-updated: 2024-12-19
-version: 5.50.819
+updated: 2025-03-05
+version: 5.50.835
 stars: 4.4
-reviews: 308
-size: '64890880'
+reviews: 313
 website: https://coinmetro.com/
 repository: 
 issue: 

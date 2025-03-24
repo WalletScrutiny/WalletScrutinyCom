@@ -13,7 +13,6 @@ version: 3.20.0.51
 stars: 4.3
 ratings: 69
 reviews: 27
-size: 
 website: https://www.bitcanner.com
 repository: 
 issue: 

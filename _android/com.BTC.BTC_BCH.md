@@ -12,7 +12,6 @@ version: 1.2.3
 stars: 3.4
 ratings: 
 reviews: 1
-size: 
 website: https://btcbcheth.net/
 repository: 
 issue: 

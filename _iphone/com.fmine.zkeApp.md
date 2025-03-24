@@ -12,7 +12,6 @@ updated: 2025-01-17
 version: 6.1.9
 stars: 4.8
 reviews: 275
-size: '433472512'
 website: https://www.zke.com/
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 0.0.36
 stars: 4.4
 ratings: 83
 reviews: 3
-size: 
 website: https://coinlend.org
 repository: 
 issue: 

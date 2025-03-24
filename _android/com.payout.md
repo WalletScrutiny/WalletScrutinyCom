@@ -12,7 +12,6 @@ version: '2.6'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.ddtotal.com.br
 repository: 
 issue: 

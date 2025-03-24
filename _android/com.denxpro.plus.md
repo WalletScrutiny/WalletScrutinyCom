@@ -12,7 +12,6 @@ version: 1.6.4
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://goldexplus.com
 repository: 
 issue: 

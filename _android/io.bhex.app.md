@@ -13,7 +13,6 @@ version: 4.0.1
 stars: 4.3
 ratings: 250
 reviews: 130
-size: 36M
 website: https://www.hbtc.com/
 repository: 
 issue: 

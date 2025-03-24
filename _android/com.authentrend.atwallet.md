@@ -12,7 +12,6 @@ version: v2.0.12
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.authentrend.com/contact
 repository: 
 issue: 

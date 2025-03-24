@@ -12,7 +12,6 @@ updated: 2022-04-28
 version: 2.0.5
 stars: 0
 reviews: 0
-size: '39162880'
 website: https://vuollet.io/
 repository: 
 issue: 

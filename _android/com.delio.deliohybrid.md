@@ -13,7 +13,6 @@ version: 1.4.4
 stars: 3
 ratings: 48
 reviews: 62
-size: 
 website: https://www.delio.foundation
 repository: 
 issue: 

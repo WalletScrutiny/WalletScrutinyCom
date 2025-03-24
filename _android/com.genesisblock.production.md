@@ -13,7 +13,6 @@ version: 0.2.9
 stars: 3.9
 ratings: 57
 reviews: 17
-size: 
 website: https://hightop.com/
 repository: 
 issue: 

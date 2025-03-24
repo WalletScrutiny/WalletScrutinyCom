@@ -13,7 +13,6 @@ version: 5.01.15
 stars: 4.6
 ratings: 
 reviews: 73
-size: 
 website: https://toto-share.com
 repository: 
 issue: 

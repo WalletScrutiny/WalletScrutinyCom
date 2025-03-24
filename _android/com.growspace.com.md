@@ -13,7 +13,6 @@ version: 1.0.19
 stars: 4.4
 ratings: 
 reviews: 
-size: 
 website: https://growspace.ai
 repository: 
 issue: 

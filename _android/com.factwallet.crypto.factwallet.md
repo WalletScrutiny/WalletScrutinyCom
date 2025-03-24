@@ -13,7 +13,6 @@ version: '1.4'
 stars: 
 ratings: 
 reviews: 
-size: 3.8M
 website: https://factpocket.com/
 repository: 
 issue: 

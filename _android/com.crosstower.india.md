@@ -13,7 +13,6 @@ version: '3.27'
 stars: 3.9
 ratings: 
 reviews: 2
-size: 
 website: https://www.crosstower.com
 repository: 
 issue: 

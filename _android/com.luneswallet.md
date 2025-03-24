@@ -13,7 +13,6 @@ version: '2.1'
 stars: 4.1
 ratings: 272
 reviews: 184
-size: 7.3M
 website: https://luneswallet.app
 repository: https://github.com/Lunes-platform/Wallet-mobile
 issue: https://github.com/Lunes-platform/Wallet-mobile/issues/9

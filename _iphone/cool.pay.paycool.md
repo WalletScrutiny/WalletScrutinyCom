@@ -11,7 +11,6 @@ updated: 2024-03-05
 version: 2.5.163
 stars: 5
 reviews: 16
-size: '76968960'
 website: https://pay.cool
 repository: 
 issue: 

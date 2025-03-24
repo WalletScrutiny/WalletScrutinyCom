@@ -12,7 +12,6 @@ version: 2.0.28
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://cointract.ch
 repository: 
 issue: 

@@ -12,16 +12,15 @@ updated: 2024-04-05
 version: 5.4.3+304
 stars: 4.7
 reviews: 21
-size: '87884800'
 website: https://defiantapp.tech/
 repository: 
 issue: 
 icon: com.andinadefi.defiant.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2021-11-15
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: defiantApp

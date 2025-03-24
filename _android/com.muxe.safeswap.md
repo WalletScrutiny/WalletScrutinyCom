@@ -12,7 +12,6 @@ version: 2.1.1
 stars: 4.9
 ratings: 
 reviews: 
-size: 
 website: https://safeswap.online/
 repository: 
 issue: 

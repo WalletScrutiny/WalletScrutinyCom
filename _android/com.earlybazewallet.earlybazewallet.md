@@ -12,7 +12,6 @@ version: 1.0.1
 stars: 4.3
 ratings: 
 reviews: 
-size: 
 website: http://eazyblaze.com/
 repository: 
 issue: 

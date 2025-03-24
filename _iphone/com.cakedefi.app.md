@@ -12,7 +12,6 @@ updated: 2025-01-15
 version: 7.2.0
 stars: 0
 reviews: 0
-size: '64182272'
 website: https://bake.io
 repository: 
 issue: 

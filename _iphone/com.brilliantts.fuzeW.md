@@ -12,7 +12,6 @@ updated: 2023-05-25
 version: 1.0.24
 stars: 1.6
 reviews: 5
-size: '26827776'
 website: https://www.fuzew.com
 repository: 
 issue: 

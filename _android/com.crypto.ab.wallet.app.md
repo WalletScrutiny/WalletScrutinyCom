@@ -13,7 +13,6 @@ version: 1.7.2
 stars: 4.8
 ratings: 
 reviews: 85
-size: 
 website: https://alicebob.com/
 repository: 
 issue: 

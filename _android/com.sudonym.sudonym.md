@@ -12,7 +12,6 @@ version: 1.0.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://sudonym.app
 repository: 
 issue: 

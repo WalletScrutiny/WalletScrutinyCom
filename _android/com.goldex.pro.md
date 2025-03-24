@@ -12,7 +12,6 @@ version: 1.1.2
 stars: 4.8
 ratings: 
 reviews: 
-size: 
 website: https://goldexco.in
 repository: 
 issue: 

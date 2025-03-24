@@ -13,7 +13,6 @@ version: 1.15.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://xgo.com
 repository: 
 issue: 

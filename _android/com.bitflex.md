@@ -12,7 +12,6 @@ version: 2.0-beta
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://bit-flex.com/
 repository: 
 issue: 

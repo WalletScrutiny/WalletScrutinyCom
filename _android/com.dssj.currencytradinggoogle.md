@@ -12,7 +12,6 @@ version: 1.4.1
 stars: 2.3
 ratings: 
 reviews: 7
-size: 
 website: http://www.icncde.com/
 repository: 
 issue: 

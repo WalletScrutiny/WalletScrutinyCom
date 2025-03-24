@@ -13,7 +13,6 @@ version: '1.3'
 stars: 4.2
 ratings: 
 reviews: 
-size: 
 website: https://www.ipay-ex.com/
 repository: 
 issue: 

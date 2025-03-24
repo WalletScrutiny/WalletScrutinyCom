@@ -12,7 +12,6 @@ updated: 2023-07-26
 version: 1.5.2
 stars: 4.7
 reviews: 798
-size: '90232832'
 website: https://mara.xyz
 repository: 
 issue: 

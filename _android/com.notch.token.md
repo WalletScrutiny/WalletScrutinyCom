@@ -12,7 +12,6 @@ version: V1.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://notchtoken.com
 repository: 
 issue: 

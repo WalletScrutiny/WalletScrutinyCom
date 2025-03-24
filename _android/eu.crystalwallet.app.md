@@ -13,7 +13,6 @@ version: '1.77'
 stars: 4.4
 ratings: 629
 reviews: 9
-size: 63M
 website: https://crystalwallet.eu/
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: '1.29'
 stars: 4.4
 ratings: 20
 reviews: 6
-size: 4.1M
 website: 
 repository: 
 issue: 

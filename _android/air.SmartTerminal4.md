@@ -12,7 +12,6 @@ version: '0_43'
 stars: 4.9
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 

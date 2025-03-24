@@ -12,7 +12,6 @@ version: 5.7.0_push_v2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://xm.im/
 repository: 
 issue: 

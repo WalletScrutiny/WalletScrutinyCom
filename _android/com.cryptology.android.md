@@ -13,7 +13,6 @@ version: 3.19.0
 stars: 4.1
 ratings: 
 reviews: 3
-size: 
 website: https://cryptology.com/
 repository: 
 issue: 

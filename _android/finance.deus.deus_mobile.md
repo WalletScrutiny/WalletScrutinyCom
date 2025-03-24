@@ -12,7 +12,6 @@ version: 1.1.7
 stars: 
 ratings: 
 reviews: 
-size: 13M
 website: https://deus.finance
 repository: 
 issue: 

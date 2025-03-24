@@ -7,7 +7,7 @@ authors:
 released: 
 discontinued: 
 updated: 
-version: 2.0.4
+version: 
 binaries: 
 dimensions:
 - 120
@@ -24,10 +24,10 @@ repository: https://github.com/SalletOne/sallet-one-cold
 issue: https://github.com/SalletOne/sallet-one-cold/issues/6
 icon: sallet.one.png
 bugbounty: 
-meta: ok
+meta: defunct
 verdict: ftbfs
 appHashes: []
-date: 2022-08-07
+date: 2025-02-05
 signer: 
 reviewArchive: 
 twitter: SalletOne
@@ -38,6 +38,16 @@ social:
 features: 
 
 ---
+
+## Update 2025-02-05
+
+The website has been offline since 2023. The repositories last update was also made in 2023.
+
+The update instructions tell users to download firmware updates via the website. The website is offline. We are removing the version number here as there is no proof that this product is still being supported.
+
+<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">How to upgrade SalletOne cold wallet <a href="https://t.co/baxUEpqPZY">https://t.co/baxUEpqPZY</a> via <a href="https://twitter.com/YouTube?ref_src=twsrc%5Etfw">@YouTube</a> <a href="https://t.co/XaV2Mp205c">pic.twitter.com/XaV2Mp205c</a></p>&mdash; SalletOne Cold Wallet (@SalletOne) <a href="https://twitter.com/SalletOne/status/1675733533212676096?ref_src=twsrc%5Etfw">July 3, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+## Previous Review 2022-08-07
 
 This hardware wallet requires a companion app: {% include walletLink.html wallet='android/com.yaolian.qoline' verdict='true' %} downloadable via Google Play or the Apple store.
 

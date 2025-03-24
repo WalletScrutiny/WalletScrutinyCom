@@ -12,7 +12,6 @@ version: 1.0.15
 stars: 3.5
 ratings: 
 reviews: 7
-size: 
 website: https://hashx.online
 repository: 
 issue: 

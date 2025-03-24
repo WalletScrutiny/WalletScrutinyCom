@@ -12,7 +12,6 @@ version: 5.1.7
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://kolicoin.com
 repository: 
 issue: 

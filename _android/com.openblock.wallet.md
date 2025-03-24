@@ -12,7 +12,6 @@ version: 2.2.0
 stars: 5
 ratings: 
 reviews: 
-size: 
 website: https://openblock.com
 repository: 
 issue: 

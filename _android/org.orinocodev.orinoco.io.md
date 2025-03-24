@@ -13,7 +13,6 @@ version: 1.0.0
 stars: 4
 ratings: 
 reviews: 15
-size: 
 website: https://orinoco.io
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: '1.1'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.act-tech.io/
 repository: 
 issue: 

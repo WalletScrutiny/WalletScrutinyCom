@@ -13,7 +13,6 @@ version: 2.0.22
 stars: 4.7
 ratings: 269
 reviews: 11
-size: 
 website: https://808exchange.net
 repository: 
 issue: 

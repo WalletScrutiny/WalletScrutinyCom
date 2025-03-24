@@ -13,7 +13,6 @@ version: 2.6.0
 stars: 5
 ratings: 
 reviews: 
-size: 
 website: https://coincorner.com/checkout
 repository: 
 issue: 

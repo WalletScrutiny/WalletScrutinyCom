@@ -13,16 +13,15 @@ version: 2.1.3
 stars: 4.4
 ratings: 
 reviews: 8
-size: 
 website: https://www.ihcoin.io
 repository: 
 issue: 
 icon: mn.ihbit.ihcwallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
 appHashes: 
-date: 2022-07-31
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: IHCoinofficial

@@ -13,7 +13,6 @@ version: 3.23.3.01
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://amir.capital/
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 2.7.0
 stars: 4.1
 ratings: 
 reviews: 4
-size: 
 website: https://www.oxbtc.com
 repository: 
 issue: 

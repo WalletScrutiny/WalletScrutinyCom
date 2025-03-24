@@ -12,7 +12,6 @@ version: 1.1.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://m.facebook.com/Access-100628795474693/?_rdr
 repository: 
 issue: 

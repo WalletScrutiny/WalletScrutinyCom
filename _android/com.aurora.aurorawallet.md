@@ -12,7 +12,6 @@ version: '0.8'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://aurorawallet.app
 repository: 
 issue: 

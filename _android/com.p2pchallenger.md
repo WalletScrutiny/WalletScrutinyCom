@@ -13,13 +13,12 @@ version: 1.0.8
 stars: 
 ratings: 8
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
 icon: com.p2pchallenger.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2021-11-22

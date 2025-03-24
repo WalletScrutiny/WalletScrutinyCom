@@ -13,7 +13,6 @@ version: 2.2.16
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://bottlepay.com
 repository: 
 issue: 

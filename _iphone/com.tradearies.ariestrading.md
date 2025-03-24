@@ -12,7 +12,6 @@ updated: 2024-08-14
 version: 3.7.6
 stars: 0
 reviews: 0
-size: '44604416'
 website: https://tradearies.com/
 repository: 
 issue: 

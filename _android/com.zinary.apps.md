@@ -12,16 +12,15 @@ version: 0.28.7
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://zinary.com
 repository: 
 issue: 
 icon: com.zinary.apps.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
 appHashes: 
-date: 2022-06-22
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: 

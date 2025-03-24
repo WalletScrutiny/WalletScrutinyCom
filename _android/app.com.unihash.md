@@ -13,7 +13,6 @@ version: '4.0'
 stars: 2.5
 ratings: 
 reviews: 3
-size: 
 website: https://www.unihash.io/
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: '5.8'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://basetrade.io
 repository: 
 issue: 

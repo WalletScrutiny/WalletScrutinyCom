@@ -12,7 +12,6 @@ version: 8.0.0
 stars: 3.9
 ratings: 
 reviews: 
-size: 
 website: https://kumo.africa
 repository: 
 issue: 

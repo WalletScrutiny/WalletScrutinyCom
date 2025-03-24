@@ -13,7 +13,6 @@ version: 12.1.0
 stars: 3.8
 ratings: 15
 reviews: 1
-size: 
 website: http://richtekcenter.blogspot.tw
 repository: 
 issue: 

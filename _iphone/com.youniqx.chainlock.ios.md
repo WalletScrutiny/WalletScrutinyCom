@@ -12,7 +12,6 @@ updated: 2023-08-08
 version: 1.47.0
 stars: 5
 reviews: 2
-size: '35381248'
 website: https://www.chainlock.com
 repository: 
 issue: 

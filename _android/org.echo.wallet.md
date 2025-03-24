@@ -12,7 +12,6 @@ version: 1.13.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://echo-dev.io/
 repository: 
 issue: 

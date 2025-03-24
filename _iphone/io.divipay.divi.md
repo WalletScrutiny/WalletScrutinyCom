@@ -12,16 +12,15 @@ updated: 2023-09-03
 version: 2.2.01215
 stars: 4.5
 reviews: 28
-size: '61079552'
 website: http://wallet.diviproject.org
 repository: 
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/366
 icon: io.divipay.divi.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-08-31
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: diviproject

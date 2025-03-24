@@ -12,7 +12,6 @@ updated: 2020-09-22
 version: 6.24.3790
 stars: 
 reviews: 
-size: 81107968
 website: https://www.ubfx.co.uk/
 repository: 
 issue: 

@@ -12,7 +12,6 @@ updated: 2024-05-14
 version: 5.1.3
 stars: 0
 reviews: 0
-size: '103605248'
 website: https://difx.com
 repository: 
 issue: 

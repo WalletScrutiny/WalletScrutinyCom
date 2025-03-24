@@ -12,7 +12,6 @@ updated: 2023-08-09
 version: 4.4.7
 stars: 2
 reviews: 5
-size: '125454336'
 website: https://www.bitopro.com/
 repository: 
 issue: 

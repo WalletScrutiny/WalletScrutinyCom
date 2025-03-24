@@ -13,7 +13,6 @@ version: '4.3'
 stars: 3.9
 ratings: 
 reviews: 
-size: 
 website: https://www.uzyth.com/
 repository: 
 issue: 

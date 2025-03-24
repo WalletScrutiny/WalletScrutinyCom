@@ -12,7 +12,6 @@ version: 1.0.0.53
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://coinrivet.com/
 repository: 
 issue: 

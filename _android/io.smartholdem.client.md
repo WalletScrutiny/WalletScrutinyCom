@@ -12,7 +12,6 @@ version: 1.0.16
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://smartholdem.io
 repository: 
 issue: 

@@ -12,7 +12,6 @@ updated: 2023-05-02
 version: 1.8.1
 stars: 4.6
 reviews: 59
-size: '132121600'
 website: https://bitcoin.me
 repository: 
 issue: 

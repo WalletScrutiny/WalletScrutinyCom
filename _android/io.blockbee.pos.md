@@ -12,7 +12,6 @@ version: 1.0.2.3
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://blockbee.io
 repository: 
 issue: 

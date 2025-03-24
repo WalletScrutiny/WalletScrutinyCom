@@ -12,7 +12,6 @@ updated: 2024-02-10
 version: 1.7.0
 stars: 3.3
 reviews: 14
-size: '24462336'
 website: https://www.fairdesk.com
 repository: 
 issue: 

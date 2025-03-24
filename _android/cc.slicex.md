@@ -12,7 +12,6 @@ version: v1.0.4
 stars: 5
 ratings: 33
 reviews: 8
-size: 10M
 website: https://slicex.cc/
 repository: 
 issue: 

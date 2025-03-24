@@ -12,7 +12,6 @@ version: 3.2.7
 stars: 2.3
 ratings: 205
 reviews: 149
-size: 33M
 website: https://dropbit.app
 repository: https://github.com/coinninjadev/dropbit-android
 issue: https://github.com/coinninjadev/dropbit-android/issues/2

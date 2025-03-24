@@ -13,7 +13,6 @@ version: Varies with device
 stars: 5
 ratings: 5
 reviews: 2
-size: Varies with device
 website: https://zupago.pe/
 repository: 
 issue: 

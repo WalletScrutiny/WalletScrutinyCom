@@ -12,7 +12,6 @@ updated: 2019-05-23
 version: '1.7'
 stars: 4
 reviews: 2
-size: '10850304'
 website: 
 repository: https://github.com/FontaineDenton/DiceKeys
 issue: 

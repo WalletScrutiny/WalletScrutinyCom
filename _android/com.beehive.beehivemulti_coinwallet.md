@@ -13,7 +13,6 @@ version: '1.1'
 stars: 2.7
 ratings: 
 reviews: 9
-size: 
 website: https://beehivewallet.link
 repository: 
 issue: 

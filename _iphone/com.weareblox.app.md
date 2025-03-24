@@ -7,12 +7,11 @@ authors:
 appId: com.weareblox.app
 appCountry: nl
 idd: '1444159776'
-released: '2019-01-16'
-updated: 2025-01-27
-version: '6.4'
+released: 2019-01-16
+updated: 2025-02-25
+version: 6.4.3
 stars: 4.6
-reviews: 5022
-size: '109706240'
+reviews: 5181
 website: https://weareblox.com
 repository: 
 issue: 

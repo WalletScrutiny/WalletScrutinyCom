@@ -12,7 +12,6 @@ version: 3.8.8
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.bitchk.com
 repository: 
 issue: 

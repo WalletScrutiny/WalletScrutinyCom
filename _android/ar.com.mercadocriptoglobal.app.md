@@ -12,7 +12,6 @@ version: 2.4.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.mercadocriptoglobal.com/
 repository: 
 issue: 

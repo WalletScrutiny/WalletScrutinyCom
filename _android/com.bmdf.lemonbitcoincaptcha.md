@@ -8,12 +8,11 @@ users: 10000
 appId: com.bmdf.lemonbitcoincaptcha
 appCountry: 
 released: 2022-07-11
-updated: 2024-11-15
-version: 4.3.0
+updated: 2025-03-16
+version: 4.4.0
 stars: 4
 ratings: 
 reviews: 6
-size: 
 website: https://needbux.com/app-ads.txt
 repository: 
 issue: 

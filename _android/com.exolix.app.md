@@ -13,7 +13,6 @@ version: 1.0.5
 stars: 4.4
 ratings: 
 reviews: 
-size: 
 website: https://exolix.com/
 repository: 
 issue: 

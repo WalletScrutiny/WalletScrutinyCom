@@ -12,7 +12,6 @@ updated: 2024-08-30
 version: 1.2.12
 stars: 4.3
 reviews: 10
-size: '41588736'
 website: http://www.qredo.com/
 repository: 
 issue: 

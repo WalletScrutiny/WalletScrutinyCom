@@ -13,7 +13,6 @@ version: 1.6.6
 stars: 4.8
 ratings: 
 reviews: 14
-size: 
 website: https://safle.com/
 repository: 
 issue: 

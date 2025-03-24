@@ -12,7 +12,6 @@ version: '1'
 stars: 3.2
 ratings: 127
 reviews: 3
-size: 
 website: https://predictioncoins.com
 repository: 
 issue: 

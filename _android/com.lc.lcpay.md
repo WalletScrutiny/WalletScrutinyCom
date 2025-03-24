@@ -12,7 +12,6 @@ version: 5.0.0
 stars: 4.7
 ratings: 
 reviews: 
-size: 
 website: https://www.lcpay.io/
 repository: 
 issue: 

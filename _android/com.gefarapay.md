@@ -12,7 +12,6 @@ version: '1.21'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://pay4y.com/
 repository: 
 issue: 

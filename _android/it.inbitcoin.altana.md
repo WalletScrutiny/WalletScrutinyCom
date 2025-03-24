@@ -14,7 +14,6 @@ version: VARY
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://inbitcoin.it
 repository: https://github.com/inbitcoin/altana-android
 issue: https://github.com/inbitcoin/altana-android/issues/5

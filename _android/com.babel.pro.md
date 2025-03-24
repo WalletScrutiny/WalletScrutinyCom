@@ -12,7 +12,6 @@ version: 1.7.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://babel.finance/
 repository: 
 issue: 

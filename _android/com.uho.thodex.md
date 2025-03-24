@@ -12,7 +12,6 @@ version: 1.0.10
 stars: 3.8
 ratings: 
 reviews: 56
-size: 
 website: https://www.thodex.com/tr
 repository: 
 issue: 

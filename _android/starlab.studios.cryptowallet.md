@@ -13,7 +13,6 @@ version: '10.0'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://starlabstudiosapps.xyz/
 repository: 
 issue: 

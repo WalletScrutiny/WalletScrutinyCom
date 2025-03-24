@@ -12,7 +12,6 @@ version: 0.2.1-testnet
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 

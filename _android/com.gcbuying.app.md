@@ -13,7 +13,6 @@ version: 1.0.10
 stars: 3.6
 ratings: 405
 reviews: 84
-size: 
 website: http://www.gcbuying.com
 repository: 
 issue: 

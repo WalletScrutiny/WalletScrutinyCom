@@ -13,7 +13,6 @@ version: 1.5.1
 stars: 4.8
 ratings: 
 reviews: 219
-size: 
 website: https://ricewallet.io/
 repository: 
 issue: 

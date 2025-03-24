@@ -13,13 +13,12 @@ version: 1.0.4
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://lz.finance/#
 repository: 
 issue: 
 icon: com.launchzone.lzwallet.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-05-30

@@ -13,7 +13,6 @@ version: '1.21'
 stars: 5
 ratings: 91
 reviews: 4
-size: 
 website: https://www.otppay.com
 repository: 
 issue: 

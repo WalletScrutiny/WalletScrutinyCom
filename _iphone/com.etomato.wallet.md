@@ -12,7 +12,6 @@ updated: 2024-08-29
 version: 1.4.8
 stars: 4.8
 reviews: 25
-size: '53901312'
 website: https://tongtongwallet.com/
 repository: 
 issue: 

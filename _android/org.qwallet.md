@@ -13,7 +13,6 @@ version: 0.1.4
 stars: 4
 ratings: 
 reviews: 3
-size: 
 website: https://qpay.group
 repository: 
 issue: 

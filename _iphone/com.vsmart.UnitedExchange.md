@@ -12,7 +12,6 @@ updated: 2024-04-03
 version: '14.0'
 stars: 5
 reviews: 1
-size: '23417856'
 website: https://unitedexchange.io
 repository: 
 issue: 

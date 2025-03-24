@@ -12,7 +12,6 @@ updated: 2021-09-06
 version: 1.0.0
 stars: 3.3
 reviews: 4
-size: 230525952
 website: https://tkblockchain.net
 repository: 
 issue: 

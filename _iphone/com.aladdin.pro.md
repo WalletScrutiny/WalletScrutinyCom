@@ -12,7 +12,6 @@ updated: 2023-02-07
 version: 1.15.7
 stars: 4
 reviews: 21
-size: '24444928'
 website: https://abbccoin.com
 repository: 
 issue: 

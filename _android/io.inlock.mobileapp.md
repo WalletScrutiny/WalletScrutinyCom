@@ -13,7 +13,6 @@ version: 2.1.1
 stars: 3.8
 ratings: 108
 reviews: 6
-size: 
 website: https://inlock.io/
 repository: 
 issue: 

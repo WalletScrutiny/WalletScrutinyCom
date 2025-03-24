@@ -12,7 +12,6 @@ updated: 2023-05-23
 version: 7.30.1
 stars: 3.7
 reviews: 286
-size: '449551360'
 website: http://www.bkex.vip
 repository: 
 issue: 

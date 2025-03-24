@@ -13,7 +13,6 @@ version: '5.34'
 stars: 3.4
 ratings: 45937
 reviews: 21922
-size: 103M
 website: https://xapo.com
 repository: 
 issue: 

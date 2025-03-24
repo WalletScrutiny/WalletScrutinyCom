@@ -12,13 +12,12 @@ updated: 2023-01-13
 version: 5.5.2
 stars: 0
 reviews: 0
-size: '31897600'
 website: 
 repository: 
 issue: 
 icon: com.bitzlato.mobile.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-07-20

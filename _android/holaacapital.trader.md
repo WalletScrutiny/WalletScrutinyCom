@@ -12,7 +12,6 @@ version: 2.3.40
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.holacapital.ae
 repository: 
 issue: 

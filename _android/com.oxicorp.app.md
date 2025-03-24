@@ -13,13 +13,12 @@ version: 6.0.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://oxi-corp.com/
 repository: 
 issue: 
 icon: com.oxicorp.app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-05-31

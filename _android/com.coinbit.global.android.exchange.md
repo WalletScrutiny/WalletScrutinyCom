@@ -13,7 +13,6 @@ version: 2.4.03
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.coinbit.co.kr/
 repository: 
 issue: 

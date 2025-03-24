@@ -12,7 +12,6 @@ version: 1.0.6
 stars: 3.1
 ratings: 
 reviews: 
-size: 
 website: https://privafund.io/
 repository: 
 issue: 

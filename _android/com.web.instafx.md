@@ -12,7 +12,6 @@ version: '1.4'
 stars: 4.3
 ratings: 
 reviews: 
-size: 
 website: https://instfx.com/
 repository: 
 issue: 

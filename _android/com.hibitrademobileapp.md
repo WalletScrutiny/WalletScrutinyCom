@@ -12,7 +12,6 @@ version: 2.0.36
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://hibitrade.com/
 repository: 
 issue: 

@@ -12,7 +12,6 @@ updated: 2022-06-23
 version: 1.4.1
 stars: 4
 reviews: 32
-size: '64020480'
 website: https://nominex.io
 repository: 
 issue: 

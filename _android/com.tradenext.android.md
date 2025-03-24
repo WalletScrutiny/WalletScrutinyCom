@@ -12,7 +12,6 @@ version: 1.7.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://tradenext.com
 repository: 
 issue: 

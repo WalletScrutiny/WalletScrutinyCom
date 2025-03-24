@@ -13,7 +13,6 @@ version: '1.274'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.btcbox.co.jp
 repository: 
 issue: 

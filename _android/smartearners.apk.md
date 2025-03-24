@@ -12,7 +12,6 @@ version: '9.8'
 stars: 3.8
 ratings: 
 reviews: 
-size: 
 website: https://teamsmartearners.com
 repository: 
 issue: 

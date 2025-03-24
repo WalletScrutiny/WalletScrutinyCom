@@ -12,7 +12,6 @@ version: 0.0.108 (5683)
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://daemtech.com/
 repository: 
 issue: 

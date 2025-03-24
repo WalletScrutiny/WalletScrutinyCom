@@ -6,13 +6,12 @@ authors:
 - leo
 appId: com.SwftBlockChain.client
 appCountry: jp
-idd: 1435569339
+idd: '1435569339'
 released: 2018-09-28
-updated: 2025-01-24
-version: 6.1.70
+updated: 2025-03-07
+version: 6.1.73
 stars: 4
 reviews: 23
-size: '108309504'
 website: http://www.swft.pro
 repository: 
 issue: 

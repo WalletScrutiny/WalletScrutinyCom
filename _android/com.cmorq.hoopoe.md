@@ -13,7 +13,6 @@ version: 8.3.6
 stars: 4.2
 ratings: 
 reviews: 33
-size: 
 website: https://www.cmorq.com
 repository: 
 issue: 

@@ -14,7 +14,6 @@ version: 3.1.0
 stars: 3.3
 ratings: 2913
 reviews: 510
-size: 
 website: https://ShapeShift.com
 repository: https://github.com/shapeshift/mobile-app
 issue: https://github.com/shapeshift/mobile-app/issues/104

@@ -12,7 +12,6 @@ version: 1.2.0
 stars: 4.4
 ratings: 
 reviews: 
-size: 
 website: https://globe.exchange/support
 repository: 
 issue: 

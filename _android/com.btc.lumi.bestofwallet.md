@@ -12,7 +12,6 @@ version: 1.8.1
 stars: 
 ratings: 
 reviews: 
-size: 5.8M
 website: 
 repository: 
 issue: 

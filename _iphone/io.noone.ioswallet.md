@@ -12,7 +12,6 @@ updated: 2025-02-04
 version: 1.18.3
 stars: 4.3
 reviews: 98
-size: '85128192'
 website: https://noone.io
 repository: 
 issue: 

@@ -12,16 +12,15 @@ updated: 2023-07-20
 version: 2.0.6
 stars: 2.9
 reviews: 17
-size: '63107072'
 website: 
 repository: 
 issue: 
 icon: chat.n2n2.Chat.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-07-17
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: get_zion

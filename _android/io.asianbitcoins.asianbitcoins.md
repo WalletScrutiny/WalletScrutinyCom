@@ -13,7 +13,6 @@ version: 1.0.0
 stars: 5
 ratings: 3899
 reviews: 113
-size: 
 website: https://asianbitcoins.org
 repository: 
 issue: 

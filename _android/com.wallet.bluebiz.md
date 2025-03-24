@@ -12,7 +12,6 @@ version: 6.3.12
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://bluebiz.opensecu.com
 repository: 
 issue: 

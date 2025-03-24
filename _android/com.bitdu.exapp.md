@@ -12,7 +12,6 @@ version: 3.0.3
 stars: 2.9
 ratings: 
 reviews: 6
-size: 
 website: https://www.bitdu.com
 repository: 
 issue: 

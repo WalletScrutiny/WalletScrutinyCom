@@ -13,16 +13,15 @@ version: 6.0.7
 stars: 4
 ratings: 
 reviews: 
-size: 
 website: https://moneypipe.com/
 repository: 
 issue: 
 icon: com.beecrypt.beecrypthd.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-05-04
+date: 2025-02-18
 signer: 
 reviewArchive: 
 twitter: money_pipe

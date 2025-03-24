@@ -13,7 +13,6 @@ version: 0.6.1
 stars: 4.3
 ratings: 
 reviews: 11
-size: 
 website: http://www.lifelabs.io
 repository: 
 issue: 

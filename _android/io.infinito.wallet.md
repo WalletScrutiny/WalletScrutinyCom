@@ -13,16 +13,15 @@ version: 2.36.16
 stars: 3.7
 ratings: 2198
 reviews: 111
-size: 
 website: https://www.infinitowallet.io
 repository: 
 issue: 
 icon: io.infinito.wallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-08-26
+date: 2025-02-28
 signer: 
 reviewArchive: 
 twitter: Infinito_Ltd

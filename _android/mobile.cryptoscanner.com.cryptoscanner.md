@@ -12,7 +12,6 @@ version: '1.2'
 stars: 4
 ratings: 
 reviews: 3
-size: 
 website: http://foxmedia.ag
 repository: 
 issue: 

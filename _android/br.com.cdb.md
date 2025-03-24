@@ -12,7 +12,6 @@ version: 1.0.13
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.coindigitalbank.com/
 repository: 
 issue: 

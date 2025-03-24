@@ -12,7 +12,6 @@ version: 6.2.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://bchindex.com/
 repository: 
 issue: 

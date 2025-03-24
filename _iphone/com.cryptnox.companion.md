@@ -1,6 +1,6 @@
 ---
 wsId: cryptnoxCompanion
-title: Cryptnox Wallet
+title: 'Cryptnox: Your Web3 Wallet'
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,10 @@ appId: com.cryptnox.companion
 appCountry: us
 idd: '1583011693'
 released: 2021-10-10
-updated: 2024-12-02
-version: 2.6.3
+updated: 2025-03-17
+version: 2.8.1
 stars: 3.7
 reviews: 3
-size: '65657856'
 website: https://www.cryptnox.com
 repository: 
 issue: 

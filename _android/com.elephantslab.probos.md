@@ -13,7 +13,6 @@ version: 1.1.1
 stars: 3.8
 ratings: 
 reviews: 
-size: 
 website: https://probos.io/
 repository: 
 issue: 

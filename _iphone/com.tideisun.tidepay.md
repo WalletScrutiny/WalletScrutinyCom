@@ -12,7 +12,6 @@ updated: 2024-10-08
 version: 4.0.5
 stars: 3
 reviews: 2
-size: '78177280'
 website: https://isun1.com
 repository: 
 issue: 

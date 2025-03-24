@@ -13,7 +13,6 @@ version: 5.19.9
 stars: 3.2
 ratings: 4018
 reviews: 60
-size: 
 website: https://cobo.com
 repository: 
 issue: 

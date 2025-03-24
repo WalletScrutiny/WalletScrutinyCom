@@ -13,7 +13,6 @@ version: 1.0.18
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://airtokenwallet.com
 repository: 
 issue: 

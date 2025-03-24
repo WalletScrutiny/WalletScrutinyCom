@@ -12,7 +12,6 @@ updated: 2023-10-06
 version: 1.0.0
 stars: 2.9
 reviews: 26
-size: '80238592'
 website: https://vida.io
 repository: 
 issue: 

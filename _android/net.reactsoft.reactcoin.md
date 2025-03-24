@@ -12,7 +12,6 @@ version: 1.0.8
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://reactsoft.net
 repository: 
 issue: 

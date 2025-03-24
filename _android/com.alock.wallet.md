@@ -12,7 +12,6 @@ version: 4.3.11
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://a-fun.co.kr/
 repository: 
 issue: 

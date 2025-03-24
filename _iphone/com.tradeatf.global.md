@@ -12,7 +12,6 @@ updated: 2021-11-26
 version: 1.69.13
 stars: 
 reviews: 
-size: 32352256
 website: https://global.tradeatf.com/
 repository: 
 issue: 

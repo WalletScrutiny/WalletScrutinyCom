@@ -6,13 +6,12 @@ authors:
 - danny
 appId: com.aabb.wallet
 appCountry: ca
-idd: 1557298954
+idd: '1557298954'
 released: 2021-03-14
 updated: 2024-03-04
 version: 1.0.265
 stars: 4.9
 reviews: 99
-size: '61643776'
 website: https://aabbgmine2token.com/
 repository: 
 issue: 

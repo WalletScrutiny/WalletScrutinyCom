@@ -14,7 +14,6 @@ version: VARY
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://10101.finance
 repository: https://github.com/get10101/10101
 issue: 

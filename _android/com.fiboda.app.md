@@ -13,7 +13,6 @@ version: 1.0.5
 stars: 4.4
 ratings: 437
 reviews: 2
-size: 
 website: http://www.fiboda.com
 repository: 
 issue: 

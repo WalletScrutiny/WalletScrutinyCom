@@ -12,7 +12,6 @@ version: '1.0'
 stars: 4.8
 ratings: 
 reviews: 
-size: 
 website: https://www.centralcoin.io
 repository: 
 issue: 

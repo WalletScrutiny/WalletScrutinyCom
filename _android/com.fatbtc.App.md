@@ -13,16 +13,15 @@ version: '2.512'
 stars: 3
 ratings: 160
 reviews: 10
-size: 
 website: https://www.fatbtc.com
 repository: 
 issue: 
 icon: com.fatbtc.App.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-02-05
+date: 2025-03-17
 signer: 
 reviewArchive: 
 twitter: fatbtc

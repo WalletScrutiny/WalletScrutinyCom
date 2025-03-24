@@ -12,7 +12,6 @@ updated: 2021-03-10
 version: 1.18.0
 stars: 4.3
 reviews: 7
-size: 50586624
 website: https://www.sovereignwallet.network
 repository: 
 issue: 

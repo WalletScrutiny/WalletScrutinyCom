@@ -13,7 +13,6 @@ version: 1.3.1
 stars: 4.6
 ratings: 
 reviews: 12
-size: 
 website: https://dexwallet.info
 repository: 
 issue: 

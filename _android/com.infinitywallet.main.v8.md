@@ -13,7 +13,6 @@ version: '2.0'
 stars: 
 ratings: 
 reviews: 
-size: 20M
 website: 
 repository: 
 issue: 

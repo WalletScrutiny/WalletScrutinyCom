@@ -13,7 +13,6 @@ version: 5.5.14
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://kriptomat.io
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: blockbank.v2
-title: Fideum
+title: Pairs
 altTitle: 
 authors:
 - danny
@@ -8,12 +8,11 @@ users: 10000
 appId: ai.blockbank.bbexpoapp
 appCountry: 
 released: 2021-10-21
-updated: 2025-01-23
-version: 4.3.18
-stars: 4.2
+updated: 2025-03-11
+version: 4.4.2
+stars: 4.1
 ratings: 
-reviews: 12
-size: 
+reviews: 13
 website: https://pairs.xyz
 repository: 
 issue: 
@@ -35,6 +34,10 @@ developerName: UAB HODL SERVICES
 features: 
 
 ---
+
+## Update 2025-03-15
+
+While processing apps that seem to have been removed from the iPhone store, we noticed that some have merely undergone a "rebrand". Blockbank app is one of them. It is now known as pairs, but has retained its app ID and WalletScrutiny ID. 
 
 ## Update 2024-07-20
 

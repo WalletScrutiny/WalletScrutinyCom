@@ -13,7 +13,6 @@ version: 4.1.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://60cek.org
 repository: 
 issue: 

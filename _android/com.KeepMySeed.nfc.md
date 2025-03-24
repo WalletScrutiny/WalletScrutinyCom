@@ -12,7 +12,6 @@ version: '1.01'
 stars: 4.9
 ratings: 
 reviews: 
-size: 
 website: https://KeepMySeed.com
 repository: 
 issue: 

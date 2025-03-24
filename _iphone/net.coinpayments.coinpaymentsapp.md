@@ -12,7 +12,6 @@ updated: 2024-12-18
 version: 2.4.8
 stars: 3.6
 reviews: 52
-size: '157986816'
 website: https://www.coinpayments.net/
 repository: 
 issue: 

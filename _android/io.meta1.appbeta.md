@@ -13,7 +13,6 @@ version: 2.0.3
 stars: 4.6
 ratings: 
 reviews: 2
-size: 
 website: https://meta-exchange.vision/home/
 repository: https://github.com/META-1-Official/litewallet-native
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/500

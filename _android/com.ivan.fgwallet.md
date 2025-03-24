@@ -8,12 +8,11 @@ users: 10000
 appId: com.ivan.fgwallet
 appCountry: 
 released: 2017-12-28
-updated: 2025-01-27
-version: 3.9.5
+updated: 2025-02-28
+version: 3.9.6
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.srsfc.com
 repository: 
 issue: 

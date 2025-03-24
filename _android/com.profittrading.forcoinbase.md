@@ -13,7 +13,6 @@ version: VARY
 stars: 4.2
 ratings: 156
 reviews: 27
-size: 
 website: https://profittradingapp.com/
 repository: 
 issue: 

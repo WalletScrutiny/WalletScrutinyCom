@@ -13,7 +13,6 @@ updated: 2019-07-10
 version: 3.1.0
 stars: 2.3
 reviews: 64
-size: '135909376'
 website: https://www.mathwallet.org
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: '3.0'
 stars: 
 ratings: 10
 reviews: 
-size: 
 website: https://cofinex.io
 repository: 
 issue: 

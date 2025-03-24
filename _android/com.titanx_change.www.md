@@ -12,7 +12,6 @@ version: 1.4.3
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://titan-xchange.com
 repository: 
 issue: 

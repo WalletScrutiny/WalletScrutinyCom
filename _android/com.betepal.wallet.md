@@ -13,7 +13,6 @@ version: 4.3.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://betepal.com/
 repository: 
 issue: 

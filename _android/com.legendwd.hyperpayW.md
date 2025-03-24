@@ -9,12 +9,11 @@ users: 100000
 appId: com.legendwd.hyperpayW
 appCountry: us
 released: 2018-10-25
-updated: 2025-01-23
-version: 5.6.010600
+updated: 2025-03-14
+version: 5.6.020700
 stars: 4
 ratings: 2781
-reviews: 189
-size: 
+reviews: 188
 website: https://hyperpay.tech
 repository: 
 issue: 
@@ -36,7 +35,7 @@ social:
 - https://www.facebook.com/hyperpayofficial
 redirect_from:
 - /com.legendwd.hyperpayW/
-developerName: LEGEND INTERNET SERVICES PTY LTD
+developerName: CIPHER BC PTE. LTD.
 features: 
 
 ---

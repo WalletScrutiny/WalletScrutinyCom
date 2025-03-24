@@ -12,7 +12,6 @@ version: v2.6.0
 stars: 2.8
 ratings: 34
 reviews: 24
-size: 31M
 website: https://www.purewallet.org
 repository: 
 issue: 

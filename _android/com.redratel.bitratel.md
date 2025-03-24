@@ -12,7 +12,6 @@ version: 1.4.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://redratel.com
 repository: 
 issue: 

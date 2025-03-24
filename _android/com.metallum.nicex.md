@@ -13,7 +13,6 @@ version: 2.3.5
 stars: 4.6
 ratings: 
 reviews: 
-size: 
 website: http://www.nicex.com
 repository: 
 issue: 

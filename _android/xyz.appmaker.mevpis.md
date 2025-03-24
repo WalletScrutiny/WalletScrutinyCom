@@ -12,7 +12,6 @@ version: '1'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://dentrocoin.com
 repository: 
 issue: 

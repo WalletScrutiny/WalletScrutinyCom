@@ -12,7 +12,6 @@ version: 0.1.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://coinshut.africa
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: '24.0527'
 stars: 4.2
 ratings: 
 reviews: 14
-size: 
 website: https://yield.app
 repository: 
 issue: 

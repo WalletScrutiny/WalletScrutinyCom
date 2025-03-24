@@ -12,7 +12,6 @@ version: 1.3.31
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://cryptolocator.com
 repository: 
 issue: 

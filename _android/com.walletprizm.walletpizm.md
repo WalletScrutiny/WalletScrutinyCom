@@ -12,7 +12,6 @@ version: '1.0'
 stars: 2.2
 ratings: 
 reviews: 
-size: 
 website: https://walletprizm.com/
 repository: 
 issue: 

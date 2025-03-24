@@ -13,13 +13,12 @@ version: 1.0.4
 stars: 5
 ratings: 
 reviews: 6
-size: 
 website: https://javvy.com
 repository: 
 issue: 
 icon: com.javvy.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-05-26

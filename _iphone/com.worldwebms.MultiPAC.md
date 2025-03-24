@@ -12,7 +12,6 @@ updated: 2023-12-15
 version: 4.5.0
 stars: 4.9
 reviews: 9
-size: '35156992'
 website: https://www.unido.us
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 1.9.9
 stars: 4.7
 ratings: 
 reviews: 
-size: 
 website: https://spendthebits.com/
 repository: 
 issue: 

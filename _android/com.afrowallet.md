@@ -12,7 +12,6 @@ version: '1.2'
 stars: 4.4
 ratings: 
 reviews: 
-size: 
 website: https://afrofoundation.com/
 repository: 
 issue: 

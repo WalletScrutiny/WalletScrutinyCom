@@ -13,16 +13,15 @@ version: 1.6.6
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://obsidiam.com/
 repository: 
 issue: 
 icon: com.obsidiam.android1.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2023-05-31
+date: 2025-03-17
 signer: 
 reviewArchive: 
 twitter: obsidiamlatam

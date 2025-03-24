@@ -12,7 +12,6 @@ version: 1.2.2
 stars: 2
 ratings: 
 reviews: 
-size: 
 website: https://www.frcst.com
 repository: 
 issue: 

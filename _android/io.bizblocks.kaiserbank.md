@@ -13,13 +13,12 @@ version: 0.30.27
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://bizblocks.io
 repository: 
 issue: 
 icon: io.bizblocks.kaiserbank.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-08-17

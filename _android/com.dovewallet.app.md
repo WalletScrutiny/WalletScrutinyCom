@@ -13,7 +13,6 @@ version: 1.0.6
 stars: 3.5
 ratings: 54
 reviews: 5
-size: 29M
 website: https://dovewallet.com
 repository: 
 issue: 

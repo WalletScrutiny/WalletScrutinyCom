@@ -13,7 +13,6 @@ version: '7.0'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://meeyinvest.com
 repository: 
 issue: 

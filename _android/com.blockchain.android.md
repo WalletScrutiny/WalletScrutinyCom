@@ -12,7 +12,6 @@ version: 1.0.7.5
 stars: 4.4
 ratings: 2737
 reviews: 532
-size: 21M
 website: 
 repository: https://github.com/hoanghiephui/Bitcoin-Wallet
 issue: 

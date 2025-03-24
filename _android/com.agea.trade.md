@@ -12,7 +12,6 @@ version: '1.3'
 stars: 3.4
 ratings: 
 reviews: 3
-size: 
 website: https://www.agea.com
 repository: 
 issue: 

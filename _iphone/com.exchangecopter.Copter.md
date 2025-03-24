@@ -12,7 +12,6 @@ updated: 2022-09-19
 version: 1.5.7
 stars: 5
 reviews: 1
-size: '14749696'
 website: https://exchangecopter.com
 repository: 
 issue: 

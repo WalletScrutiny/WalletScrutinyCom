@@ -13,16 +13,15 @@ version: 21.0.0
 stars: 3.5
 ratings: 
 reviews: 5
-size: 
 website: 
 repository: 
 issue: 
 icon: com.koopwallet.app.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-07-05
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: KooP360

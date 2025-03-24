@@ -12,7 +12,6 @@ updated: 2023-11-12
 version: 1.0.19
 stars: 3
 reviews: 2
-size: '83215360'
 website: https://themetasigns.com/
 repository: 
 issue: 

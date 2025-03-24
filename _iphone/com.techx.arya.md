@@ -12,7 +12,6 @@ updated: 2023-04-11
 version: 2.23.1
 stars: 4.8
 reviews: 12
-size: '118142976'
 website: https://aryatrading.com/#pricing
 repository: 
 issue: 

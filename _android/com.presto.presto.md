@@ -13,7 +13,6 @@ version: 2.5.5
 stars: 3.9
 ratings: 
 reviews: 10
-size: 
 website: https://prestohq.io/
 repository: 
 issue: 

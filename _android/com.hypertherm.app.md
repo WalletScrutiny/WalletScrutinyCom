@@ -13,13 +13,12 @@ version: '3.0'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.c2cx.com
 repository: 
 issue: 
 icon: com.hypertherm.app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-05-26

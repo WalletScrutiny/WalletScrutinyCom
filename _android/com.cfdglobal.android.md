@@ -13,7 +13,6 @@ version: 2.30.2
 stars: 4.4
 ratings: 336
 reviews: 7
-size: 
 website: https://www.capex.com
 repository: 
 issue: 

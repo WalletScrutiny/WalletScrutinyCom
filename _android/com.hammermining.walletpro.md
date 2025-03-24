@@ -7,12 +7,11 @@ users: 100
 appId: com.hammermining.walletpro
 appCountry: 
 released: 2022-05-10
-updated: 2024-10-15
-version: 1.3.2
+updated: 2025-02-13
+version: 1.3.3
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 

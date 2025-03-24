@@ -12,7 +12,6 @@ version: '1.1'
 stars: 4.8
 ratings: 
 reviews: 9
-size: 
 website: https://private-wallet.net/
 repository: 
 issue: 

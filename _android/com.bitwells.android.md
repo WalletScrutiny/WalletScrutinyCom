@@ -13,7 +13,6 @@ version: 1.0.7
 stars: 4.6
 ratings: 1307
 reviews: 1261
-size: 
 website: https://www.bitwells.com
 repository: 
 issue: 

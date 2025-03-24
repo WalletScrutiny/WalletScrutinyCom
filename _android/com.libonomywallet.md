@@ -13,7 +13,6 @@ version: 2.1.0
 stars: 4.2
 ratings: 
 reviews: 4
-size: 
 website: https://libonomy.com/
 repository: 
 issue: 

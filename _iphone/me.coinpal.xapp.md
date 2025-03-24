@@ -12,7 +12,6 @@ updated: 2018-06-26
 version: '1.0'
 stars: 4
 reviews: 11
-size: 77613056
 website: https://coinpal.me
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 4.14.0
 stars: 3.8
 ratings: 
 reviews: 
-size: 
 website: https://www.shiftmarkets.com/
 repository: 
 issue: 

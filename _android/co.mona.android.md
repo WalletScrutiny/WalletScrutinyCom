@@ -1,6 +1,6 @@
 ---
 wsId: mona
-title: Crypto.com - Buy Bitcoin, SOL
+title: Crypto.com - Buy BTC, XRP, ADA
 altTitle: 
 authors:
 - leo
@@ -9,12 +9,11 @@ users: 10000000
 appId: co.mona.android
 appCountry: 
 released: 2017-08-30
-updated: 2025-02-05
-version: 3.204.0
+updated: 2025-03-04
+version: 3.206.0
 stars: 4.5
 ratings: 281384
-reviews: 53096
-size: 
+reviews: 53533
 website: https://crypto.com/
 repository: 
 issue: 

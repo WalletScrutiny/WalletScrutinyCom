@@ -13,6 +13,7 @@ country: US
 price: 19USD
 meta: ok
 verdict: prefilled
+social: 
 
 ---
 

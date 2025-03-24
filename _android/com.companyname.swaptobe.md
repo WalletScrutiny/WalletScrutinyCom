@@ -13,7 +13,6 @@ version: '5.8'
 stars: 4.3
 ratings: 
 reviews: 15
-size: 
 website: https://swaptobe.com
 repository: 
 issue: 

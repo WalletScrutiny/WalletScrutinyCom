@@ -8,11 +8,10 @@ appId: app.metavest.client
 appCountry: ph
 idd: '1622578169'
 released: 2022-07-28
-updated: 2024-12-01
-version: 3.1.0
+updated: 2025-03-12
+version: 3.3.0
 stars: 0
 reviews: 0
-size: '48929792'
 website: https://metavest.app/affiliate
 repository: 
 issue: 

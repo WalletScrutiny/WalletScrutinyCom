@@ -12,7 +12,6 @@ updated: 2021-11-09
 version: 2.20.2
 stars: 4.5
 reviews: 324
-size: '55801856'
 website: https://www.zeux.com
 repository: 
 issue: 

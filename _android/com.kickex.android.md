@@ -13,7 +13,6 @@ version: 1.24.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://kickex.com/en
 repository: 
 issue: 

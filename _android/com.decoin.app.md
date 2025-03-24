@@ -13,13 +13,12 @@ version: '1.127'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.decoin.io
 repository: 
 issue: 
 icon: com.decoin.app.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-05-23

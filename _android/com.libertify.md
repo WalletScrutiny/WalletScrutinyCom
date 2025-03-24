@@ -13,7 +13,6 @@ version: 2.4.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.cryptoseatbelt.com
 repository: 
 issue: 

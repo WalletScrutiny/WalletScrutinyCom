@@ -12,7 +12,6 @@ version: 2.0.7.6
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.cashlesstoken.com
 repository: 
 issue: 

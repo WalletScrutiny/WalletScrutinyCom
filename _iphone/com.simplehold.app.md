@@ -12,7 +12,6 @@ updated: 2023-07-25
 version: '1.23'
 stars: 1
 reviews: 2
-size: '66465792'
 website: https://simplehold.io/
 repository: 
 issue: 

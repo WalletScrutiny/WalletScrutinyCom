@@ -12,13 +12,12 @@ updated: 2023-02-27
 version: 1.9.7
 stars: 5
 reviews: 3
-size: '89588736'
 website: https://www.ennowallet.com
 repository: 
 issue: 
 icon: com.ennowallet.wallet.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
 appHashes: 
 date: 2023-09-04

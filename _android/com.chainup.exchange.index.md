@@ -12,7 +12,6 @@ version: 4.4.7
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.indexex.biz/
 repository: 
 issue: 

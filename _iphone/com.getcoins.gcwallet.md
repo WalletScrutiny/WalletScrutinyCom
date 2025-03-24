@@ -12,7 +12,6 @@ updated: 2023-07-27
 version: 15.3.0
 stars: 2.5
 reviews: 16
-size: '61759488'
 website: https://getcoins.com/
 repository: 
 issue: 

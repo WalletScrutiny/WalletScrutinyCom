@@ -13,7 +13,6 @@ version: 4.00.05.003
 stars: 3.4
 ratings: 
 reviews: 2
-size: 
 website: https://www.itoken.com/
 repository: 
 issue: 

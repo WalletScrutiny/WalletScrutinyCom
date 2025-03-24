@@ -12,7 +12,6 @@ updated: 2022-10-14
 version: 7.4.0
 stars: 0
 reviews: 0
-size: '94376960'
 website: https://www.trade360.com
 repository: 
 issue: 

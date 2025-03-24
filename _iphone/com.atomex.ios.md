@@ -6,13 +6,12 @@ authors:
 - leo
 appId: com.atomex.ios
 appCountry: 
-idd: 1534717828
+idd: '1534717828'
 released: 2020-12-03
 updated: 2023-02-19
 version: '1.24'
 stars: 3.5
 reviews: 11
-size: '47049728'
 website: https://atomex.me
 repository: https://github.com/atomex-me/atomex.mobile
 issue: 

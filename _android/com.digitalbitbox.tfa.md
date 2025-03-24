@@ -13,7 +13,6 @@ version: 3.0.5
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://shiftcrypto.ch/bitbox01/
 repository: 
 issue: 

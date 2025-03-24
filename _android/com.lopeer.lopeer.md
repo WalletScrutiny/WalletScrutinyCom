@@ -13,7 +13,6 @@ version: 2.2.7
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.lopeer.com
 repository: 
 issue: 

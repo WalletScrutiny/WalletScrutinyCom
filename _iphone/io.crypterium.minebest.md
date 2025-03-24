@@ -12,7 +12,6 @@ updated: 2024-04-27
 version: 1.0.5
 stars: 0
 reviews: 0
-size: '313084928'
 website: https://mydreambit.com/
 repository: 
 issue: 

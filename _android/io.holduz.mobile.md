@@ -13,7 +13,6 @@ version: 2024.07.01
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://holduz.io
 repository: 
 issue: 

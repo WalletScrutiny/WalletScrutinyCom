@@ -13,7 +13,6 @@ version: 1.1.18
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://crypton.digital
 repository: 
 issue: 

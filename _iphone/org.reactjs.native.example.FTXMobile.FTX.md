@@ -12,7 +12,6 @@ updated: 2022-10-14
 version: 2.0.8
 stars: 4.2
 reviews: 330
-size: '107770880'
 website: https://ftx.com
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 1.15.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.finalto.com/
 repository: 
 issue: 

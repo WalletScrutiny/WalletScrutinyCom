@@ -12,7 +12,6 @@ updated: 2023-03-21
 version: '2.4'
 stars: 5
 reviews: 2
-size: '52870144'
 website: https://www.rapixchange.com/
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 5.2.0_5210
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.ace.io
 repository: 
 issue: 

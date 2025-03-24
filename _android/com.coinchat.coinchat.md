@@ -13,7 +13,6 @@ version: 2.0.2
 stars: 3.7
 ratings: 1190
 reviews: 29
-size: 
 website: http://www.coinchat.im
 repository: 
 issue: 

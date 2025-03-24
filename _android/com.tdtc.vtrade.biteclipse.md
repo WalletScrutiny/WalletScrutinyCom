@@ -12,7 +12,6 @@ version: 1.0.6
 stars: 3
 ratings: 
 reviews: 
-size: 
 website: https://biteclipse.com/query
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 7.7.5
 stars: 4.2
 ratings: 
 reviews: 
-size: 
 website: https://www.rehive.com
 repository: 
 issue: 

@@ -13,13 +13,12 @@ version: 1.0.3
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.cmbcwallet.uk
 repository: 
 issue: 
 icon: com.cmbcwallet.uk.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-05-17

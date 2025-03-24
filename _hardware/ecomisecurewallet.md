@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2018-05-07
 discontinued: 
-updated: 
-version: 3.0.4
+updated: 2024-06-20
+version: 3.0.9
 binaries: 
 dimensions: 
 weight: 
@@ -23,7 +23,7 @@ bugbounty:
 meta: obsolete
 verdict: plainkey
 appHashes: 
-date: 2024-11-15
+date: 2025-02-06
 signer: 
 reviewArchive: 
 twitter: ecomi_
@@ -33,6 +33,20 @@ social:
 features: 
 
 ---
+
+## Update 2025-02-06
+
+We were not able to find the version number for the firmware, but found 2 clues: 
+
+1. The device's firmware is updated through the app. This is indicated in the {% include walletLink.html wallet='iphone/com.ecomi.securewallet' verdict='true' %} app store changelog for version 2.2.0
+
+  > Features
+  > - Multiple wallet support (Pair additional wallets from the settings page)
+  > - Secure Wallet firmware update
+
+2. We will match the version number of firmware with the latest version of the app, which was last updated on [June 20, 2024.](https://apps.apple.com/us/app/ecomi-secure-wallet/id1432655565?ls=1)
+
+## Previous Review 2024-11-15
 
 ECOMI's Secure Wallet was announced on May 7, 2018 through [bitcointalk.org](https://bitcointalk.org/index.php?topic=3609319).
 

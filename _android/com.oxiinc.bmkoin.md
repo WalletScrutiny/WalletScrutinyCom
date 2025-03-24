@@ -13,13 +13,12 @@ version: '1.1'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://bmkoin.org/
 repository: 
 issue: 
 icon: com.oxiinc.bmkoin.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-05-31

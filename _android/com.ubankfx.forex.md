@@ -13,7 +13,6 @@ version: v8.5-5457-b9fe16886
 stars: 
 ratings: 
 reviews: 
-size: 38M
 website: http://www.ubfx.co.uk
 repository: 
 issue: 

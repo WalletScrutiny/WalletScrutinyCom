@@ -12,7 +12,6 @@ version: 1.0.0
 stars: 2
 ratings: 
 reviews: 
-size: 
 website: http://cryptouniversep2p.com/
 repository: 
 issue: 

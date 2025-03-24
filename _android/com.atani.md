@@ -13,7 +13,6 @@ version: 4.25.15
 stars: 4.2
 ratings: 
 reviews: 62
-size: 
 website: https://atani.com/
 repository: 
 issue: 

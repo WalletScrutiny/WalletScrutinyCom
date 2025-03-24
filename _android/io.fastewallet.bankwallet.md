@@ -13,7 +13,6 @@ version: 0.26.4
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://crypto.fastewallet.com/
 repository: 
 issue: 

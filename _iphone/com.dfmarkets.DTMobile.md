@@ -12,7 +12,6 @@ updated: 2021-08-02
 version: '5.9'
 stars: 4.3
 reviews: 15
-size: '3863552'
 website: https://www.deltastock.com/english/platforms/delta_trading-mobile.asp
 repository: 
 issue: 

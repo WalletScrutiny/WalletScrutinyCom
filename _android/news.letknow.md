@@ -12,7 +12,6 @@ version: '0.7'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://letknow.com
 repository: 
 issue: 

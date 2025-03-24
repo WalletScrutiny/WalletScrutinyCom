@@ -12,7 +12,6 @@ version: Version 2.1.40
 stars: 5
 ratings: 
 reviews: 
-size: 
 website: http://www.okongpos.com
 repository: 
 issue: 

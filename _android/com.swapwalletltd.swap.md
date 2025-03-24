@@ -12,7 +12,6 @@ version: Varies with device
 stars: 4.9
 ratings: 2282
 reviews: 2065
-size: Varies with device
 website: http://swapwallet.com
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: '1.2'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://transferbuddy.org/
 repository: 
 issue: 

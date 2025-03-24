@@ -12,7 +12,6 @@ version: 1.0.7
 stars: 2.6
 ratings: 
 reviews: 
-size: 
 website: https://www.bloco1.com.br
 repository: 
 issue: 

@@ -12,7 +12,6 @@ updated: 2023-08-24
 version: 0.11.1
 stars: 3.6
 reviews: 16
-size: '62102528'
 website: https://masterbank.org/
 repository: 
 issue: 

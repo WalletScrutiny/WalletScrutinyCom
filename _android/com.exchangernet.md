@@ -13,7 +13,6 @@ version: '1.0'
 stars: 4.3
 ratings: 70
 reviews: 9
-size: 
 website: https://exchangernet.com/
 repository: 
 issue: 

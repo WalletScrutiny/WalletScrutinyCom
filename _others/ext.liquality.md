@@ -15,6 +15,7 @@ provider: Liquality
 providerWebsite: https://liquality.io
 meta: ok
 verdict: wip
+social: 
 
 ---
 

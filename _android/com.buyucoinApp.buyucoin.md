@@ -8,12 +8,11 @@ users: 100000
 appId: com.buyucoinApp.buyucoin
 appCountry: 
 released: 2019-02-15
-updated: 2024-12-20
-version: '3.42'
+updated: 2025-03-04
+version: '3.44'
 stars: 2.4
 ratings: 3529
 reviews: 12
-size: 
 website: https://www.buyucoin.com
 repository: 
 issue: 

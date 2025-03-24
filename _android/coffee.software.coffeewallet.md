@@ -15,7 +15,6 @@ version: '0.22'
 stars: 4.3
 ratings: 
 reviews: 7
-size: 
 website: https://wallet.coffee/
 repository: https://github.com/coffee-software/coffee.wallet
 issue: https://github.com/coffee-software/coffee.wallet/issues/89

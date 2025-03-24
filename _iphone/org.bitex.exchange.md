@@ -12,7 +12,6 @@ updated: 2022-02-13
 version: '2.8'
 stars: 2.3
 reviews: 15
-size: '102197248'
 website: https://bitex.com
 repository: 
 issue: 

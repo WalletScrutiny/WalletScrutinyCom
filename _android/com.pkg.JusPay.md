@@ -13,7 +13,6 @@ version: 3.0.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://juspay.app
 repository: 
 issue: 

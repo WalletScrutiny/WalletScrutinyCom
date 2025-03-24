@@ -13,7 +13,6 @@ version: '5.0'
 stars: 3.4
 ratings: 120
 reviews: 11
-size: 65M
 website: https://www.wanchain.org
 repository: 
 issue: 

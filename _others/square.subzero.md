@@ -18,6 +18,7 @@ country: US
 bugbounty: https://bugcrowd.com/squareopensource
 meta: ok
 verdict: wip
+social: 
 
 ---
 

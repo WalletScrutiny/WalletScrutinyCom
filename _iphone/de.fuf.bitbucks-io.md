@@ -12,7 +12,6 @@ updated: 2024-07-25
 version: 1.5.7
 stars: 1
 reviews: 1
-size: '26531840'
 website: https://www.bitbucks.io
 repository: 
 issue: 

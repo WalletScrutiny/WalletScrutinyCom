@@ -12,7 +12,6 @@ updated: 2021-01-16
 version: 1.1.210116
 stars: 3.8
 reviews: 4
-size: '142685184'
 website: https://www.bytetrade.io/
 repository: 
 issue: 

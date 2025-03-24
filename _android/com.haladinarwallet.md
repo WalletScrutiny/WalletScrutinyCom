@@ -13,7 +13,6 @@ version: 1.0.13
 stars: 5
 ratings: 
 reviews: 4
-size: 
 website: https://haladinar.io
 repository: 
 issue: 

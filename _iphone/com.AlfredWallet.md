@@ -12,7 +12,6 @@ updated: 2023-06-27
 version: '1.15'
 stars: 0
 reviews: 0
-size: '58279936'
 website: 
 repository: 
 issue: 

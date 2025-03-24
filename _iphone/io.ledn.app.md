@@ -12,7 +12,6 @@ updated: 2023-03-26
 version: 0.8.5
 stars: 4.9
 reviews: 14
-size: '19184640'
 website: https://ledn.io
 repository: 
 issue: 

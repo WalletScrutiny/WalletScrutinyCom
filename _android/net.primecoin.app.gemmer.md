@@ -12,7 +12,6 @@ version: 0.4.25
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://github.com/primecoin/gemmer
 repository: 
 issue: 

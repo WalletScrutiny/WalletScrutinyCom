@@ -8,11 +8,10 @@ appId: com.wake.weexprd
 appCountry: us
 idd: '1609350789'
 released: 2022-03-04
-updated: 2025-01-24
-version: 4.3.3
+updated: 2025-03-05
+version: 4.3.8
 stars: 4.6
-reviews: 469
-size: '107852800'
+reviews: 721
 website: https://www.weex.com/en
 repository: 
 issue: 
@@ -30,7 +29,7 @@ social:
 - https://t.me/Weex_Global
 - https://www.linkedin.com/company/weex-global
 features: 
-developerName: Wake Co., Ltd.
+developerName: Weex Virtual Currency Exchange LLC
 
 ---
 

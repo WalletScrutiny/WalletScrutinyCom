@@ -13,7 +13,6 @@ version: 4.4.4
 stars: 5
 ratings: 
 reviews: 4
-size: 
 website: https://web.tokero.com
 repository: 
 issue: 

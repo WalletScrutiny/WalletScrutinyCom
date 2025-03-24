@@ -12,7 +12,6 @@ updated: 2022-07-25
 version: '2.5'
 stars: 2.5
 reviews: 2
-size: '45585408'
 website: https://www.fatbtc.com/
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: '1.5'
 stars: 
 ratings: 
 reviews: 
-size: 52M
 website: https://walahala.com/payWala
 repository: 
 issue: 

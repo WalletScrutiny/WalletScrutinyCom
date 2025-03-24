@@ -13,7 +13,6 @@ version: 1.0.32
 stars: 4.3
 ratings: 
 reviews: 
-size: 
 website: https://www.sanalira.com
 repository: 
 issue: 

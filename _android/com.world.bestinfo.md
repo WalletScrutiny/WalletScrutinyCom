@@ -13,13 +13,12 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://neo-forex.com/
 repository: 
 issue: 
 icon: com.world.bestinfo.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nosendreceive
 appHashes: 
 date: 2023-06-10

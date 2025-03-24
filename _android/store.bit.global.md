@@ -13,7 +13,6 @@ version: 2.2.3
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.bit.store/
 repository: 
 issue: 

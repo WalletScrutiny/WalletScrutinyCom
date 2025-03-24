@@ -8,12 +8,11 @@ users: 10000
 appId: com.vent.app
 appCountry: 
 released: 2022-01-26
-updated: 2025-02-01
-version: 1.10.8
-stars: 4.9
+updated: 2025-03-16
+version: 1.10.13
+stars: 4.7
 ratings: 
-reviews: 5
-size: 
+reviews: 6
 website: https://vent.africa
 repository: 
 issue: 

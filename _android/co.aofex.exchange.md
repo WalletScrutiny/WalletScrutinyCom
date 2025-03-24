@@ -13,7 +13,6 @@ version: 3.0.3
 stars: 4.8
 ratings: 5947
 reviews: 333
-size: 72M
 website: http://www.aofex.co
 repository: 
 issue: 

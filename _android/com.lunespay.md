@@ -13,7 +13,6 @@ version: 1.0.7
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://lunespay.com.br
 repository: https://github.com/orgs/lunes-platform/repositories
 issue: 

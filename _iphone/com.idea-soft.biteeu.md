@@ -12,16 +12,15 @@ updated: 2023-10-03
 version: 1.6.0
 stars: 0
 reviews: 0
-size: '35821568'
 website: http://www.biteeu.com
 repository: 
 issue: 
 icon: com.idea-soft.biteeu.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-09-28
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: 

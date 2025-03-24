@@ -12,16 +12,15 @@ version: 1.0.12
 stars: 4.3
 ratings: 
 reviews: 
-size: 
 website: https://cryptosimple.app
 repository: 
 issue: 
 icon: com.cryptosimple.prod.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: wip
 appHashes: 
-date: 2024-11-29
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: 

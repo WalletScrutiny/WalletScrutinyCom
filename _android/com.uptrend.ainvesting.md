@@ -13,7 +13,6 @@ version: 7.0.32
 stars: 3.1
 ratings: 
 reviews: 
-size: 
 website: http://www.uptrend.bg
 repository: 
 issue: 

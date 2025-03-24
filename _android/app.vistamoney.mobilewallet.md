@@ -12,7 +12,6 @@ version: 0.0.4
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://wallet.vistamoney.cc
 repository: 
 issue: 

@@ -14,7 +14,6 @@ version: '9.8'
 stars: 
 ratings: 
 reviews: 
-size: 10M
 website: 
 repository: 
 issue: 

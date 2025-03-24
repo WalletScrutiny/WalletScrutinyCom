@@ -13,7 +13,6 @@ version: 1.3.12
 stars: 4.1
 ratings: 
 reviews: 
-size: 
 website: http://www.financex.io
 repository: 
 issue: 

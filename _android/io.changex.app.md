@@ -13,7 +13,6 @@ version: 2.9.8
 stars: 3.6
 ratings: 
 reviews: 7
-size: 
 website: https://changex.io/
 repository: 
 issue: 

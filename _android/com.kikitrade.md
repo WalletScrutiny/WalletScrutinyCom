@@ -13,7 +13,6 @@ version: 6.0.20
 stars: 3.1
 ratings: 
 reviews: 
-size: 
 website: http://www.kikitrade.com
 repository: 
 issue: 

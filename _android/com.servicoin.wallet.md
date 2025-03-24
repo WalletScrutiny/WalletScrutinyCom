@@ -13,7 +13,6 @@ version: 0.21.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.mysrvcoin.com/index.php
 repository: 
 issue: 

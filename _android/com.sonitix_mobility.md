@@ -13,7 +13,6 @@ version: 2.0.46
 stars: 4.7
 ratings: 
 reviews: 
-size: 
 website: https://sonitixexchange.in/
 repository: 
 issue: 

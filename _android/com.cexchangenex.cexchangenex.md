@@ -13,7 +13,6 @@ version: 1.1.1075
 stars: 3.8
 ratings: 73
 reviews: 38
-size: 
 website: https://cexchangenex.com/
 repository: 
 issue: 

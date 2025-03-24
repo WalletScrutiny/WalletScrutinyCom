@@ -13,7 +13,6 @@ version: 1.6.24
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.melis.io
 repository: https://github.com/melis-wallet/melis-cm-client
 issue: https://github.com/melis-wallet/melis-cm-client/issues/1

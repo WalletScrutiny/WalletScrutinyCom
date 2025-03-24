@@ -13,7 +13,6 @@ version: 1.6.0
 stars: 2.5
 ratings: 
 reviews: 5
-size: 
 website: https://quadency.com
 repository: 
 issue: 

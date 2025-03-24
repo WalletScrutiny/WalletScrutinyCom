@@ -12,7 +12,6 @@ version: 1.0.2
 stars: 4.2
 ratings: 
 reviews: 
-size: 
 website: https://antwallet.io
 repository: 
 issue: 

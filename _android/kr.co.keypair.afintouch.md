@@ -12,7 +12,6 @@ version: 1.0.0.60
 stars: 3.6
 ratings: 
 reviews: 
-size: 
 website: https://www.afincoin.io/
 repository: 
 issue: 

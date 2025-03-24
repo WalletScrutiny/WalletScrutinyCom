@@ -13,16 +13,15 @@ version: 1.0.0-beta21
 stars: 3.7
 ratings: 
 reviews: 8
-size: 
 website: https://sphinx.chat
 repository: 
 issue: 
 icon: chat.sphinx.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2023-09-04
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: 

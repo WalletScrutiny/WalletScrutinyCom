@@ -12,16 +12,15 @@ version: 2.0.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://syarpa.com/
 repository: 
 issue: 
 icon: com.syarpa.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2024-07-01
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: 

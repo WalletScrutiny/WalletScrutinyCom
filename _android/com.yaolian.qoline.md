@@ -13,16 +13,15 @@ version: 1.9.26
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.salletone.com
 repository: 
 issue: 
 icon: com.yaolian.qoline.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
 appHashes: 
-date: 2022-02-17
+date: 2025-02-14
 signer: 
 reviewArchive: 
 twitter: salletone
@@ -30,7 +29,7 @@ social:
 - https://www.facebook.com/salletone
 - https://github.com/SalletOne
 redirect_from: 
-developerName: Doex Global Ltd
+developerName: V-byte
 features: 
 
 ---

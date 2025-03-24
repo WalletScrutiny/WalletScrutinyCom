@@ -13,7 +13,6 @@ version: 1.1.86
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.cryptoconvert.co.za/
 repository: 
 issue: 

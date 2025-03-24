@@ -14,7 +14,6 @@ version: '6.045'
 stars: 
 ratings: 
 reviews: 
-size: 10M
 website: 
 repository: 
 issue: 

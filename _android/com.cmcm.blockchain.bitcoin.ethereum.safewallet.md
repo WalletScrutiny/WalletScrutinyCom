@@ -12,7 +12,6 @@ version: 3.2.5
 stars: 4.5
 ratings: 3131
 reviews: 1214
-size: 13M
 website: https://safewallet.cmcmbc.com
 repository: 
 issue: 

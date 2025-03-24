@@ -13,7 +13,6 @@ version: '1.1'
 stars: 3.9
 ratings: 
 reviews: 6
-size: 
 website: https://btc6x.com
 repository: 
 issue: 

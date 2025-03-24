@@ -12,7 +12,6 @@ updated: 2021-04-30
 version: '1.4'
 stars: 5
 reviews: 2
-size: '64551936'
 website: https://personal.elegro.eu/certified-coins
 repository: 
 issue: 

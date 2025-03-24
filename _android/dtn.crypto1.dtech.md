@@ -13,13 +13,12 @@ version: 1.0.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://bisnis188.tech
 repository: 
 issue: 
 icon: dtn.crypto1.dtech.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: nobtc
 appHashes: 
 date: 2023-06-12

@@ -12,7 +12,6 @@ version: '2.5'
 stars: 4.2
 ratings: 
 reviews: 
-size: 
 website: http://topcoinfx.com
 repository: 
 issue: 

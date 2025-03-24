@@ -12,7 +12,6 @@ version: 3.32.6
 stars: 4
 ratings: 128
 reviews: 14
-size: 
 website: https://www.airgap.it
 repository: 
 issue: 

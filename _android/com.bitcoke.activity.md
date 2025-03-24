@@ -13,7 +13,6 @@ version: 7.0.0.3
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.bitcoke.com
 repository: 
 issue: 

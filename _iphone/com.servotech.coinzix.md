@@ -12,16 +12,15 @@ updated: 2023-03-28
 version: '1.9'
 stars: 4.9
 reviews: 14
-size: '9564160'
 website: 
 repository: 
 issue: 
 icon: com.servotech.coinzix.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-03-22
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: coinzixcom

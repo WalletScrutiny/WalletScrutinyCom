@@ -13,7 +13,6 @@ version: 1.5.78-investlite
 stars: 3.1
 ratings: 182
 reviews: 100
-size: 20M
 website: https://www.investlite.com/
 repository: 
 issue: 

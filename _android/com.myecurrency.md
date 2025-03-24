@@ -13,7 +13,6 @@ version: 1.2.0
 stars: 5
 ratings: 
 reviews: 3
-size: 
 website: http://myecurrencyng.com
 repository: 
 issue: 

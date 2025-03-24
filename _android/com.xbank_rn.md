@@ -13,7 +13,6 @@ version: 4.0.1
 stars: 4.1
 ratings: 
 reviews: 7
-size: 
 website: https://xbank.plus
 repository: 
 issue: 

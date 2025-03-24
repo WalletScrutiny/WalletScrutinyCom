@@ -12,7 +12,6 @@ version: 4.0.4
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://bitlox.com
 repository: 
 issue: 

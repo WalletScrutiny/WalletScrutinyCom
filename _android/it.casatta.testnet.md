@@ -12,7 +12,6 @@ version: 1.20-testnet
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 

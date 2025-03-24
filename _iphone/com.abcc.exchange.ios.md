@@ -6,13 +6,12 @@ authors:
 - danny
 appId: com.abcc.exchange.ios
 appCountry: us
-idd: 1428903145
+idd: '1428903145'
 released: 2018-10-03
 updated: 2023-08-16
 version: 1.10.4
 stars: 4.2
 reviews: 9
-size: '63809536'
 website: https://abcc.com/
 repository: 
 issue: 

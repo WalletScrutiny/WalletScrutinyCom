@@ -13,16 +13,15 @@ version: 3.2.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://laqira.com/
 repository: 
 issue: 
 icon: com.laqira.exchange.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: wip
 appHashes: 
-date: 2024-03-01
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: LaqiraProtocol

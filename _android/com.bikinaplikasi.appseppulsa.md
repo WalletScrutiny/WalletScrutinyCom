@@ -12,7 +12,6 @@ version: '21.0'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://seppulsa.com
 repository: 
 issue: 

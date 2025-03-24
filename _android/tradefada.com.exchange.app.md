@@ -13,7 +13,6 @@ version: 3.3.0
 stars: 3.5
 ratings: 
 reviews: 
-size: 
 website: https://tradefada.com
 repository: 
 issue: 

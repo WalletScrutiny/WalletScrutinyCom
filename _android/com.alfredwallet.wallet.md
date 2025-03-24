@@ -13,7 +13,6 @@ version: '1.18'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://alfwallet.io
 repository: 
 issue: 

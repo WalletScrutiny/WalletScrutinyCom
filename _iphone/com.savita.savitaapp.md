@@ -12,7 +12,6 @@ updated: 2023-07-20
 version: 1.7.0
 stars: 0
 reviews: 0
-size: '51870720'
 website: https://savitaglobal.com
 repository: 
 issue: 

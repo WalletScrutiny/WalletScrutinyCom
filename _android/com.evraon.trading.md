@@ -13,16 +13,15 @@ version: 1.8.2
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://evraon.com
 repository: 
 issue: 
 icon: com.evraon.trading.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2024-11-29
+date: 2025-02-28
 signer: 
 reviewArchive: 
 twitter: 

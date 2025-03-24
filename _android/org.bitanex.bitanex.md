@@ -13,7 +13,6 @@ version: 1.2.49
 stars: 4.1
 ratings: 
 reviews: 6
-size: 
 website: http://bitanex.com
 repository: 
 issue: 

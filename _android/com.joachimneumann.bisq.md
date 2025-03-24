@@ -8,12 +8,11 @@ users: 50000
 appId: com.joachimneumann.bisq
 appCountry: 
 released: 2018-09-06
-updated: 2025-01-15
-version: 1.3.2
+updated: 2025-02-26
+version: 1.3.4
 stars: 2.8
 ratings: 69
 reviews: 16
-size: 
 website: https://bisq.network/mobile-notifications
 repository: https://github.com/bisq-network/bisqremote_Android
 issue: 

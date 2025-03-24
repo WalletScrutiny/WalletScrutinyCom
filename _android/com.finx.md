@@ -12,7 +12,6 @@ version: 1.0.0.5-finx
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://finx.global/
 repository: 
 issue: 

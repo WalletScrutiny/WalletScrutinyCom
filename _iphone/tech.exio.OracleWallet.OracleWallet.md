@@ -12,7 +12,6 @@ updated: 2022-04-17
 version: 1.4.3
 stars: 5
 reviews: 1
-size: '37996544'
 website: https://oracle8.org/
 repository: 
 issue: 

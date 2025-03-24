@@ -13,16 +13,15 @@ version: 4.0.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://sendam.app/
 repository: 
 issue: 
 icon: com.app.vptplus.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2024-07-14
+date: 2025-03-17
 signer: 
 reviewArchive: 
 twitter: 

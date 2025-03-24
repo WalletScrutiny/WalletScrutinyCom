@@ -12,7 +12,6 @@ version: 1.0.28
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://otcxpert.com/
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 1.0.0
 stars: 4
 ratings: 
 reviews: 4
-size: 
 website: https://cetoex.com
 repository: 
 issue: 

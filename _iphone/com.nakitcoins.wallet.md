@@ -12,7 +12,6 @@ updated: 2022-04-03
 version: 2.2.0
 stars: 5
 reviews: 2
-size: '9753600'
 website: https://nakitcoins.com
 repository: 
 issue: 

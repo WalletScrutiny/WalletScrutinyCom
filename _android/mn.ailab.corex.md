@@ -13,7 +13,6 @@ version: 2.0.59
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.corex.mn/
 repository: 
 issue: 

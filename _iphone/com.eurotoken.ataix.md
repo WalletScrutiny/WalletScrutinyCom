@@ -12,7 +12,6 @@ updated: 2022-06-08
 version: 2.1.3
 stars: 0
 reviews: 0
-size: '51815424'
 website: https://ataix.com
 repository: 
 issue: 

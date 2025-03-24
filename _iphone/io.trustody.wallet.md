@@ -12,7 +12,6 @@ updated: 2024-11-22
 version: '8.5'
 stars: 0
 reviews: 0
-size: '141436928'
 website: https://ammer.cards
 repository: 
 issue: 

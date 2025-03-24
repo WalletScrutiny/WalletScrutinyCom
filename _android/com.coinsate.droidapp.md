@@ -12,7 +12,6 @@ version: 1.4.5
 stars: 5
 ratings: 
 reviews: 
-size: 
 website: https://trade.coinsate.com/
 repository: 
 issue: 

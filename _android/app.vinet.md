@@ -13,7 +13,6 @@ version: '10.1'
 stars: 
 ratings: 
 reviews: 
-size: 9.2M
 website: http://Vinetexchange.com
 repository: 
 issue: 

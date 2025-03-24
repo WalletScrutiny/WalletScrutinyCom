@@ -12,7 +12,6 @@ version: '4'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://swap.flamer.life
 repository: 
 issue: 

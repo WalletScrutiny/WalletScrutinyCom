@@ -12,7 +12,6 @@ updated: 2023-10-25
 version: '1.4'
 stars: 3.7
 reviews: 3
-size: '27278336'
 website: https://vynksafe.com
 repository: 
 issue: 

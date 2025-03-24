@@ -13,7 +13,6 @@ version: 1.0.7.prod
 stars: 3.2
 ratings: 
 reviews: 3
-size: 
 website: 
 repository: 
 issue: 

@@ -12,6 +12,7 @@ shop: https://tropicsquare.com/product
 country: CZ
 meta: ok
 verdict: unreleased
+social: 
 
 ---
 

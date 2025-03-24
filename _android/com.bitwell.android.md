@@ -12,7 +12,6 @@ version: 1.8.1
 stars: 3.4
 ratings: 
 reviews: 3
-size: 
 website: http://www.bitwellex.com
 repository: 
 issue: 

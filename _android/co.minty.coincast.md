@@ -13,16 +13,15 @@ version: 1.2.15
 stars: 3.7
 ratings: 8
 reviews: 30
-size: 
 website: https://coincast.app
 repository: 
 issue: 
 icon: co.minty.coincast.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-05-04
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: CoincastApp

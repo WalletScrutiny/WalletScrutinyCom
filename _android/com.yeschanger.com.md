@@ -13,16 +13,15 @@ version: 3.92.13
 stars: 4.1
 ratings: 
 reviews: 4
-size: 
 website: https://yeschangers.com
 repository: 
 issue: 
 icon: com.yeschanger.com.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2024-03-22
+date: 2025-03-14
 signer: 
 reviewArchive: 
 twitter: YesChanger

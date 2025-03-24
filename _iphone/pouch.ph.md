@@ -11,7 +11,6 @@ updated: 2023-10-02
 version: 1.0.13
 stars: 5
 reviews: 5
-size: '34635776'
 website: https://pouch.ph/
 repository: 
 issue: 

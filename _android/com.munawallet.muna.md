@@ -13,16 +13,15 @@ version: 3.0.0
 stars: 4.4
 ratings: 
 reviews: 14
-size: 
 website: https://muna.app
 repository: 
 issue: 
 icon: com.munawallet.muna.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-10-28
+date: 2025-02-13
 signer: 
 reviewArchive: 
 twitter: munawallet

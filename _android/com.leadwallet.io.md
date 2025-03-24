@@ -13,7 +13,6 @@ version: Varies with device
 stars: 
 ratings: 
 reviews: 
-size: Varies with device
 website: https://www.leadwallet.io
 repository: 
 issue: 

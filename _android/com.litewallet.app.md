@@ -13,7 +13,6 @@ version: 1.1.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: https://github.com/META-1-Official/litewallet-native
 issue: 

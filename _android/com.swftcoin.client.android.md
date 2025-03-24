@@ -13,7 +13,6 @@ version: 5.19.23
 stars: 4.5
 ratings: 2004
 reviews: 146
-size: 
 website: http://www.swft.pro/
 repository: 
 issue: 

@@ -12,7 +12,6 @@ updated: 2024-06-11
 version: 0.3.7
 stars: 0
 reviews: 0
-size: '74211328'
 website: https://walletgo.ai/
 repository: 
 issue: 

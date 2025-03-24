@@ -7,13 +7,12 @@ authors:
 - danny
 appId: co.hodlwallet
 appCountry: 
-idd: 1382342568
+idd: '1382342568'
 released: 2018-08-01
 updated: 2023-07-13
 version: '1.13'
 stars: 3.8
-reviews: 137
-size: '36992000'
+reviews: 135
 website: https://hodlwallet.com
 repository: https://github.com/hodlwallet/hodl-wallet-ios
 issue: 

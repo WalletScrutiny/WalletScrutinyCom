@@ -13,7 +13,6 @@ version: 2.5.8
 stars: 
 ratings: 
 reviews: 
-size: 14M
 website: https://www.unodax.com
 repository: 
 issue: 

@@ -12,7 +12,6 @@ updated: 2023-04-01
 version: 3.8.8
 stars: 0
 reviews: 0
-size: '46510080'
 website: https://www.sparkbase.io
 repository: 
 issue: 

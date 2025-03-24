@@ -12,7 +12,6 @@ updated: 2024-12-19
 version: 3.0.3
 stars: 4.6
 reviews: 5
-size: '142880768'
 website: https://capecrypto.com
 repository: 
 issue: 

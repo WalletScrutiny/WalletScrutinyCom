@@ -14,7 +14,6 @@ version: 1.3.2
 stars: 4.2
 ratings: 364
 reviews: 139
-size: 31M
 website: https://www.cryptofully.com/
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 7.2.6
 stars: 2.3
 ratings: 
 reviews: 14
-size: 
 website: https://www.bitci.com.tr/
 repository: 
 issue: 

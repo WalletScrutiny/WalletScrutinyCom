@@ -13,7 +13,6 @@ version: 9.0.4
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.independentreserve.com
 repository: 
 issue: 

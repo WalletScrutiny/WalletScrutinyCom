@@ -1,6 +1,6 @@
 ---
 wsId: biconomy
-title: Biconomy
+title: Biconomy- Buy Bitcoin & Crypto
 altTitle: 
 authors:
 - danny
@@ -8,11 +8,10 @@ appId: com.biconomy.Innovation
 appCountry: us
 idd: '1486151349'
 released: 2019-11-06
-updated: 2025-01-21
-version: 2.2.19
+updated: 2025-03-10
+version: 2.2.21
 stars: 4.3
-reviews: 97
-size: '90651648'
+reviews: 100
 website: http://www.biconomy.com/
 repository: 
 issue: 

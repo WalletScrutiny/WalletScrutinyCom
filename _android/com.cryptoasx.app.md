@@ -12,7 +12,6 @@ version: 1.1.65
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.cryptoasx.com/
 repository: 
 issue: 

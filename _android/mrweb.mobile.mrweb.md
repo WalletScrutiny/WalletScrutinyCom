@@ -13,16 +13,15 @@ version: 1.1.1
 stars: 4.7
 ratings: 
 reviews: 12
-size: 
 website: https://mrweb.app
 repository: 
 issue: 
 icon: mrweb.mobile.mrweb.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: nobtc
 appHashes: 
-date: 2024-04-24
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: 

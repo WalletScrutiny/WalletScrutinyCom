@@ -13,7 +13,6 @@ version: 1.2.13
 stars: 3.9
 ratings: 57
 reviews: 34
-size: 33M
 website: https://kvadrowallet.com/
 repository: 
 issue: 

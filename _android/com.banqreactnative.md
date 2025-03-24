@@ -13,7 +13,6 @@ version: 5.4.0
 stars: 2.7
 ratings: 
 reviews: 6
-size: 
 website: https://banq.com
 repository: 
 issue: 

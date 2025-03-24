@@ -12,7 +12,6 @@ updated: 2024-10-06
 version: 1.9.2
 stars: 5
 reviews: 1
-size: '53395456'
 website: https://ibandirect.com/
 repository: 
 issue: 

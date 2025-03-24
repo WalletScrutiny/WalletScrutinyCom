@@ -12,7 +12,6 @@ version: 2.9.7
 stars: 3.8
 ratings: 
 reviews: 15
-size: 
 website: https://abitnetwork.com
 repository: 
 issue: 

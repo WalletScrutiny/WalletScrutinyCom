@@ -12,7 +12,6 @@ version: 1.0.1260
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://lpenwallet.com/
 repository: 
 issue: 

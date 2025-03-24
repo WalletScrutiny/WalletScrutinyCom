@@ -13,7 +13,6 @@ version: 1.1.115
 stars: 3.9
 ratings: 65
 reviews: 12
-size: 
 website: https://www.bitmama.io
 repository: 
 issue: 

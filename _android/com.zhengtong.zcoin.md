@@ -13,16 +13,15 @@ version: 2.0.8
 stars: 2.9
 ratings: 
 reviews: 18
-size: 
 website: https://www.ztb.im/
 repository: 
 issue: 
 icon: com.zhengtong.zcoin.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-11-13
+date: 2025-03-11
 signer: 
 reviewArchive: 
 twitter: ZT_exchange

@@ -12,13 +12,12 @@ updated: 2022-11-14
 version: 2.4.0
 stars: 4.8
 reviews: 145
-size: '48821248'
 website: https://genesis.vision/
 repository: 
 issue: 
 icon: vision.genesis.ios.investor.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 appHashes: 
 date: 2023-09-04

@@ -12,7 +12,6 @@ updated: 2020-12-20
 version: v2.1.3
 stars: 5
 reviews: 1
-size: 43669504
 website: https://plasmapay.com
 repository: 
 issue: 

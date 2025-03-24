@@ -12,7 +12,6 @@ version: '4.0'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://xnano.com.br
 repository: 
 issue: 

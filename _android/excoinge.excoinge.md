@@ -12,7 +12,6 @@ version: '1.020180512'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.excoinge.com/
 repository: 
 issue: 

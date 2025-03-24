@@ -13,7 +13,6 @@ version: '3.1'
 stars: 1.7
 ratings: 128
 reviews: 13
-size: 170M
 website: https://www.bitex.com
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 1.0.7
 stars: 4.5
 ratings: 
 reviews: 20
-size: 
 website: https://privapp.network/
 repository: 
 issue: 

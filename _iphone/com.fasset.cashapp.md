@@ -12,7 +12,6 @@ updated: 2024-10-08
 version: '3.12'
 stars: 3.9
 reviews: 7
-size: '149613568'
 website: https://fasset.io/
 repository: 
 issue: 

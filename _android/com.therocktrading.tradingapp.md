@@ -13,13 +13,12 @@ version: 1.6.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.therocktrading.com
 repository: 
 issue: 
 icon: com.therocktrading.tradingapp.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 appHashes: 
 date: 2023-07-21

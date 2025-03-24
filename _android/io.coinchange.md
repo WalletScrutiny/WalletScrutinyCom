@@ -13,7 +13,6 @@ version: 2.1.0
 stars: 3.6
 ratings: 
 reviews: 154
-size: 
 website: https://coinchange.io
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 1.5.22
 stars: 2.5
 ratings: 
 reviews: 2
-size: 
 website: https://bano.app/index.html
 repository: 
 issue: 

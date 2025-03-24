@@ -13,13 +13,12 @@ version: '2.8'
 stars: 3.9
 ratings: 193
 reviews: 6
-size: 
 website: https://ethlyte.tech/
 repository: 
 issue: 
 icon: net.ethylyte.com.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-05-05

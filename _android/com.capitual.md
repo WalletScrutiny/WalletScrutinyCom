@@ -13,7 +13,6 @@ version: 3.44.6
 stars: 3.5
 ratings: 
 reviews: 6
-size: 
 website: https://capitual.com
 repository: 
 issue: 

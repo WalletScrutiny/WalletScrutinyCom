@@ -12,7 +12,6 @@ version: 0.2.6
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://lightning.engineering
 repository: 
 issue: 

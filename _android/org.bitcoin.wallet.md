@@ -14,7 +14,6 @@ version: '1.0'
 stars: 4.3
 ratings: 9
 reviews: 4
-size: 39M
 website: https://bitcoin.org
 repository: https://github.com/bitcoin-dot-org/BitcoinWalletMobile
 issue: https://github.com/bitcoin-dot-org/BitcoinWalletMobile/issues/7

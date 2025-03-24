@@ -14,6 +14,7 @@ country: US
 price: 34USD
 meta: ok
 verdict: plainkey
+social: 
 
 ---
 

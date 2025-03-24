@@ -12,7 +12,6 @@ updated: 2022-10-19
 version: 1.5.4
 stars: 0
 reviews: 0
-size: '47679488'
 website: https://oceanex.pro/
 repository: 
 issue: 

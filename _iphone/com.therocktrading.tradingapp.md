@@ -12,7 +12,6 @@ updated: 2022-07-12
 version: 1.6.1
 stars: 0
 reviews: 0
-size: '37954560'
 website: https://www.therocktrading.com/
 repository: 
 issue: 

@@ -13,16 +13,15 @@ version: 1.28.0
 stars: 3.2
 ratings: 
 reviews: 
-size: 
 website: https://watt.me
 repository: 
 issue: 
 icon: watt.wallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-06-03
+date: 2025-02-26
 signer: 
 reviewArchive: 
 twitter: watt_me_token

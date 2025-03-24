@@ -13,7 +13,6 @@ version: '1.2'
 stars: 3.2
 ratings: 4398
 reviews: 2958
-size: 12M
 website: https://bitcryptos.in/
 repository: 
 issue: 

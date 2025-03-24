@@ -13,13 +13,12 @@ version: 3.0.8
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.gulftrader.com
 repository: 
 issue: 
 icon: com.gulftrader.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-08-07

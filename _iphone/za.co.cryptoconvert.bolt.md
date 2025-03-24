@@ -12,7 +12,6 @@ updated: 2024-03-27
 version: '2.7'
 stars: 0
 reviews: 0
-size: '28539904'
 website: https://www.cryptoconvert.co.za/
 repository: 
 issue: 

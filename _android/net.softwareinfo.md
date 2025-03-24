@@ -13,7 +13,6 @@ version: '1.3'
 stars: 2.8
 ratings: 
 reviews: 34
-size: 
 website: https://softwareinfo.net
 repository: 
 issue: 

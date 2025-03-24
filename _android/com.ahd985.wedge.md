@@ -13,7 +13,6 @@ version: 1.4.3
 stars: 4.3
 ratings: 
 reviews: 19
-size: 
 website: https://wedge.us
 repository: 
 issue: 

@@ -13,16 +13,15 @@ version: 1.4.20
 stars: 4
 ratings: 
 reviews: 31
-size: 
 website: https://lynkey.com/
 repository: 
 issue: 
 icon: vn.beedu.blockchain.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-07-10
+date: 2025-02-28
 signer: 
 reviewArchive: 
 twitter: LynKey_

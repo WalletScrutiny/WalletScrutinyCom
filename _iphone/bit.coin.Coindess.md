@@ -12,7 +12,6 @@ updated: 2022-12-12
 version: 2.17.7
 stars: 5
 reviews: 2
-size: '224644096'
 website: https://www.fiahub.com
 repository: 
 issue: 

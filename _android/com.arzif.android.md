@@ -13,7 +13,6 @@ version: '2'
 stars: 4
 ratings: 687
 reviews: 21
-size: 
 website: https://arzif.com/
 repository: 
 issue: 

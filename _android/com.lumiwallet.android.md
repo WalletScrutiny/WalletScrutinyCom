@@ -13,7 +13,6 @@ version: 4.1.6
 stars: 3.8
 ratings: 6388
 reviews: 254
-size: 
 website: https://lumiwallet.com
 repository: 
 issue: 

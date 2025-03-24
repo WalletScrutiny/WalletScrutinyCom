@@ -12,7 +12,6 @@ version: 3.40.5
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://unirealchain.com/
 repository: 
 issue: 

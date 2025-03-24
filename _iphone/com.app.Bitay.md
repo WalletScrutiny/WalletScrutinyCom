@@ -6,13 +6,12 @@ authors:
 - danny
 appId: com.app.Bitay
 appCountry: us
-idd: 1458595661
+idd: '1458595661'
 released: 2019-04-14
 updated: 2022-11-25
 version: 3.1.9
 stars: 4.3
 reviews: 8
-size: '43004928'
 website: 
 repository: 
 issue: 

@@ -12,7 +12,6 @@ version: 1.17.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://freyawallet.com/
 repository: 
 issue: 

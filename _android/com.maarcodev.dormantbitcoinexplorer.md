@@ -13,13 +13,12 @@ version: '1.5'
 stars: 3.3
 ratings: 
 reviews: 3
-size: 
 website: 
 repository: 
 issue: 
 icon: com.maarcodev.dormantbitcoinexplorer.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-05-09

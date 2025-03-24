@@ -12,7 +12,6 @@ updated: 2022-06-22
 version: 1.8.8
 stars: 4.4
 reviews: 12
-size: '74782720'
 website: https://www.hupayx.com/
 repository: 
 issue: 

@@ -12,7 +12,6 @@ updated: 2022-11-08
 version: 2.1.0
 stars: 4.3
 reviews: 6
-size: '77374464'
 website: https://inlock.io
 repository: 
 issue: 

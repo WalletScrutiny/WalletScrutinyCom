@@ -12,7 +12,6 @@ version: '3.2'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://swmakekr.com/html/index.html
 repository: 
 issue: 

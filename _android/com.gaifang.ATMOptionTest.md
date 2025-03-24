@@ -13,7 +13,6 @@ version: 1.1.19
 stars: 
 ratings: 
 reviews: 
-size: 3.5M
 website: https://www.atmwarrant.com/
 repository: 
 issue: 

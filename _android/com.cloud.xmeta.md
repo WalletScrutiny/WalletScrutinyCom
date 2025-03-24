@@ -13,7 +13,6 @@ version: 2.1.0
 stars: 4.7
 ratings: 
 reviews: 8
-size: 
 website: https://x-meta.com
 repository: 
 issue: 

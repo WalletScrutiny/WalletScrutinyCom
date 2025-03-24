@@ -6,13 +6,12 @@ authors:
 - danny
 appId: com.bit.leagues
 appCountry: us
-idd: 1460001613
+idd: '1460001613'
 released: 2019-04-30
 updated: 2021-05-14
 version: '2.15'
-stars: 3.4
-reviews: 21
-size: '49214464'
+stars: 3.3
+reviews: 23
 website: https://www.bitleague.com
 repository: 
 issue: 

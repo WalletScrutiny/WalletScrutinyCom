@@ -12,7 +12,6 @@ updated: 2023-03-10
 version: '1.1'
 stars: 5
 reviews: 11
-size: '66741248'
 website: https://dtswallet.io
 repository: 
 issue: 

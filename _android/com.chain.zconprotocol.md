@@ -13,7 +13,6 @@ version: 1.0.2
 stars: 2.7
 ratings: 
 reviews: 5
-size: 
 website: https://biskit.global/
 repository: 
 issue: 

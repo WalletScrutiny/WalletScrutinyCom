@@ -12,7 +12,6 @@ updated: 2024-10-15
 version: 2.4.39
 stars: 4.7
 reviews: 40
-size: '146508800'
 website: https://roseon.finance/
 repository: 
 issue: 

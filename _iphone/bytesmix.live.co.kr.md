@@ -6,13 +6,12 @@ authors:
 - danny
 appId: bytesmix.live.co.kr
 appCountry: kr
-idd: 1475633490
+idd: '1475633490'
 released: 2019-08-17
 updated: 2023-05-01
 version: 2.6.3
 stars: 4.2
 reviews: 9
-size: '40100864'
 website: https://www.bytesmix.com
 repository: 
 issue: 

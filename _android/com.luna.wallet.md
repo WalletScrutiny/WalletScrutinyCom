@@ -13,7 +13,6 @@ version: 1.0.4
 stars: 5
 ratings: 
 reviews: 1
-size: 
 website: https://lunawallet.ae
 repository: 
 issue: 

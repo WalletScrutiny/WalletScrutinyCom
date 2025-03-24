@@ -13,7 +13,6 @@ version: 1.9.4
 stars: 4.6
 ratings: 
 reviews: 14
-size: 
 website: https://www.traderwagon.com/
 repository: 
 issue: 

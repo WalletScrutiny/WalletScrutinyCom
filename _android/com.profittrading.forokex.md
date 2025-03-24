@@ -13,7 +13,6 @@ version: 1.2.0
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://profittradingapp.com/
 repository: 
 issue: 

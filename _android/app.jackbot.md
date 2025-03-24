@@ -13,7 +13,6 @@ version: 4.9.13
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://jackbot.app
 repository: 
 issue: 

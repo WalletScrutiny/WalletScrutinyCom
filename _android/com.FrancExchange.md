@@ -13,13 +13,12 @@ version: '1.0'
 stars: 
 ratings: 283
 reviews: 
-size: 
 website: https://trade.francexchange.com/
 repository: 
 issue: 
 icon: com.FrancExchange.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2021-10-24

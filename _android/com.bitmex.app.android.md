@@ -4,16 +4,15 @@ title: 'BitMEX: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.bitmex.app.android
 appCountry: 
 released: 
-updated: 2025-01-28
-version: 2.5.7
+updated: 2025-02-24
+version: 2.5.8
 stars: 3.2
 ratings: 
 reviews: 
-size: 
 website: https://www.bitmex.com/
 repository: 
 issue: 

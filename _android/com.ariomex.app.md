@@ -12,7 +12,6 @@ version: 2.0.0
 stars: 3.9
 ratings: 125
 reviews: 6
-size: 
 website: https://ariomex.com
 repository: 
 issue: 

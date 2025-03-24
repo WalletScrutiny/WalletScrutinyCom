@@ -13,7 +13,6 @@ version: 1.0.15
 stars: 
 ratings: 
 reviews: 
-size: 43M
 website: https://www.coinburp.com
 repository: 
 issue: 

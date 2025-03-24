@@ -4,16 +4,15 @@ title: SideSwap
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: io.sideswap
 appCountry: 
 released: 2021-03-09
-updated: 2024-09-23
-version: 1.6.1
+updated: 2025-03-07
+version: 1.7.1
 stars: 5
 ratings: 
 reviews: 3
-size: 
 website: https://sideswap.io/
 repository: 
 issue: 

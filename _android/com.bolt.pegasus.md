@@ -13,7 +13,6 @@ version: 1.23.1
 stars: 3.5
 ratings: 365
 reviews: 21
-size: 
 website: https://bolt.global/
 repository: 
 issue: 

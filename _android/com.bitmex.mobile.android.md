@@ -13,7 +13,6 @@ version: 1.1.13
 stars: 2.3
 ratings: 222
 reviews: 1
-size: 47M
 website: https://www.bitmex.com/
 repository: 
 issue: 

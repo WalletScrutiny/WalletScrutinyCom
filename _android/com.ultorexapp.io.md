@@ -13,7 +13,6 @@ version: 1.1.17
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://ultorex.io/
 repository: 
 issue: 

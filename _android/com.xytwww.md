@@ -13,7 +13,6 @@ version: 1.3.1
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.xyt.com
 repository: 
 issue: 

@@ -13,13 +13,12 @@ version: 1.0.0.20
 stars: 
 ratings: 52
 reviews: 
-size: 
 website: 
 repository: 
 issue: 
 icon: com.pons.dao.jpg
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2021-11-30

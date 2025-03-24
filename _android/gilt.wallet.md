@@ -12,7 +12,6 @@ version: '9.8'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://giltwallet.com
 repository: 
 issue: 

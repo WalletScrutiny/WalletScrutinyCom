@@ -13,13 +13,12 @@ version: 2.0.9
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://ftxtr.com
 repository: 
 issue: 
 icon: com.ftxmobile.ftxtr.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: custodial
 appHashes: 
 date: 2023-06-14

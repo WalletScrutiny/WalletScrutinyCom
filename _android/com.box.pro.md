@@ -13,7 +13,6 @@ version: 5.3.2
 stars: 2
 ratings: 
 reviews: 39
-size: 
 website: https://www.bibox.com
 repository: 
 issue: 

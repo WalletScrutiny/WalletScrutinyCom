@@ -14,7 +14,6 @@ version: VARY
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://abco.re
 repository: https://github.com/greenaddress/abcore
 issue: 

@@ -13,7 +13,6 @@ version: 1.0.3200
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.cybavo.com/
 repository: 
 issue: 

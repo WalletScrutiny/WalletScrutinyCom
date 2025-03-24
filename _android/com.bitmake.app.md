@@ -13,7 +13,6 @@ version: 1.4.3
 stars: 4.2
 ratings: 
 reviews: 
-size: 
 website: https://www.bitmake.com
 repository: 
 issue: 

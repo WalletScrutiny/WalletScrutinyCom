@@ -12,7 +12,6 @@ version: 2.1.4
 stars: 4.4
 ratings: 
 reviews: 41
-size: 
 website: https://coins.app/
 repository: 
 issue: 

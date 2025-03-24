@@ -13,7 +13,6 @@ version: 2.5.163
 stars: 5
 ratings: 
 reviews: 3
-size: 
 website: https://pay.cool
 repository: 
 issue: 

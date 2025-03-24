@@ -13,7 +13,6 @@ version: 1.2.6.0
 stars: 3.7
 ratings: 42
 reviews: 31
-size: 26M
 website: http://www.xzen.io/app
 repository: 
 issue: 

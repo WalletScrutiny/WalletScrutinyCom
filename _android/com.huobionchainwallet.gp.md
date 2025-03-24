@@ -14,7 +14,6 @@ version: 3.03.06.003
 stars: 4
 ratings: 33247
 reviews: 185
-size: 
 website: https://www.itoken.com/
 repository: 
 issue: 

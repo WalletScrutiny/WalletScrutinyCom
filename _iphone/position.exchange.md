@@ -12,7 +12,6 @@ updated: 2023-03-27
 version: 3.0.1
 stars: 0
 reviews: 0
-size: '97381376'
 website: https://app.position.exchange
 repository: 
 issue: 

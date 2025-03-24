@@ -13,7 +13,6 @@ version: 1.4.21
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://mudra.exchange/
 repository: 
 issue: 

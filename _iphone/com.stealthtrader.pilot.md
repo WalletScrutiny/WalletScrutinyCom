@@ -12,7 +12,6 @@ updated: 2022-02-15
 version: 6.02.377
 stars: 3.9
 reviews: 20
-size: '32823296'
 website: http://www.pilottrading.co
 repository: 
 issue: 

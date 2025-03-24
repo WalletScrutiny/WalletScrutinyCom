@@ -13,7 +13,6 @@ version: '1.2'
 stars: 3.1
 ratings: 
 reviews: 7
-size: 
 website: http://gleec.com/
 repository: 
 issue: 

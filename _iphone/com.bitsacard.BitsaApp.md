@@ -12,7 +12,6 @@ updated: 2024-11-18
 version: 2.24.1
 stars: 2
 reviews: 66
-size: '152502272'
 website: https://www.bitsacard.com/en/
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 2.1.4
 stars: 3.5
 ratings: 48
 reviews: 26
-size: 
 website: https://ataix.com
 repository: 
 issue: 

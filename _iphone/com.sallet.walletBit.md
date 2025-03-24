@@ -12,7 +12,6 @@ updated: 2023-03-13
 version: 2.0.2
 stars: 5
 reviews: 2
-size: '11329536'
 website: https://www.salletone.com
 repository: 
 issue: 

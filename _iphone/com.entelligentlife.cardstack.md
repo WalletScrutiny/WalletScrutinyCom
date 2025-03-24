@@ -12,7 +12,6 @@ updated: 2013-10-28
 version: '1.0'
 stars: 4
 reviews: 10
-size: '28729344'
 website: 
 repository: 
 issue: 

@@ -13,7 +13,6 @@ version: 2.9.1
 stars: 4
 ratings: 
 reviews: 8
-size: 
 website: https://ceffu.com
 repository: 
 issue: 

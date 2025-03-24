@@ -13,7 +13,6 @@ version: 3.83.0
 stars: 4.6
 ratings: 4934
 reviews: 910
-size: 
 website: http://www.quicrypto.com
 repository: 
 issue: 

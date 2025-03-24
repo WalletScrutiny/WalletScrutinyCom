@@ -12,7 +12,6 @@ version: '1.4'
 stars: 3.4
 ratings: 
 reviews: 
-size: 
 website: https://coins.black
 repository: 
 issue: 

@@ -13,13 +13,12 @@ version: '1.4'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://mobilinktoken.com/
 repository: 
 issue: 
 icon: com.mobilink.token.png
 bugbounty: 
-meta: defunct
+meta: removed
 verdict: wip
 appHashes: 
 date: 2023-05-30

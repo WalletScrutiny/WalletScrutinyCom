@@ -12,7 +12,6 @@ version: '1.0'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://goforsage.com/app
 repository: 
 issue: 

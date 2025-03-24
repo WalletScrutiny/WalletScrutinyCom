@@ -13,7 +13,6 @@ version: VARY
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.PalmPay.io
 repository: 
 issue: 

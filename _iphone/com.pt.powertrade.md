@@ -12,7 +12,6 @@ updated: 2024-01-19
 version: 3.0.8
 stars: 0
 reviews: 0
-size: '447149056'
 website: https://power.trade/
 repository: 
 issue: 

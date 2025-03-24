@@ -12,7 +12,6 @@ version: '2021010601'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.arq.link/
 repository: 
 issue: 

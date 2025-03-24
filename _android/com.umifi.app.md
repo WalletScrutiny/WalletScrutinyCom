@@ -13,7 +13,6 @@ version: 1.0.6
 stars: 4.6
 ratings: 76
 reviews: 4
-size: 65M
 website: http://www.umifi.com
 repository: 
 issue: 

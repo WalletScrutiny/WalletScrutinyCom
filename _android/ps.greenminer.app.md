@@ -13,7 +13,6 @@ version: 3.13.28-0d7a9f0
 stars: 
 ratings: 5347
 reviews: 
-size: 
 website: http://crypto.promo-miner.com/
 repository: 
 issue: 

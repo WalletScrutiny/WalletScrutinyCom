@@ -12,7 +12,6 @@ version: 0.29.0
 stars: 4.2
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 

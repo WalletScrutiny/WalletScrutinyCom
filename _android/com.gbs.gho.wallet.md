@@ -12,7 +12,6 @@ version: 1.0.6
 stars: 4.3
 ratings: 
 reviews: 
-size: 
 website: https://gho.group
 repository: 
 issue: 

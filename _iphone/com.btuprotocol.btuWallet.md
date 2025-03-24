@@ -12,7 +12,6 @@ updated: 2024-12-20
 version: 3.0.18
 stars: 0
 reviews: 0
-size: '158766080'
 website: https://get-verso.com
 repository: 
 issue: 

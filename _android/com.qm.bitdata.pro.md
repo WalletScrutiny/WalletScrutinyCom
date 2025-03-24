@@ -12,7 +12,6 @@ version: 3.3.5
 stars: 
 ratings: 
 reviews: 
-size: 
 website: https://www.bitdata.site
 repository: 
 issue: 

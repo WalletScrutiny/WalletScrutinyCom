@@ -13,7 +13,6 @@ version: 1.1.3
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://www.ionia.one
 repository: 
 issue: 

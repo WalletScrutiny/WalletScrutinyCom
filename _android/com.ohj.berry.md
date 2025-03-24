@@ -13,7 +13,6 @@ version: '1.0001'
 stars: 
 ratings: 
 reviews: 
-size: 
 website: 
 repository: 
 issue: 

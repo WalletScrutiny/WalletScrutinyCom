@@ -12,7 +12,6 @@ version: 1.1.55
 stars: 
 ratings: 
 reviews: 
-size: 
 website: http://tehran.exchange
 repository: 
 issue: 
