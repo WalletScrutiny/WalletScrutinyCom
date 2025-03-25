@@ -181,9 +181,9 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
   table.innerHTML = `
     <thead>
       <tr>
-        ${hideConfig?.wallet ? '' : '<th>Wallet</th>'}
+        ${hideConfig?.wallet ? '' : '<th style="max-width: 200px;">Wallet</th>'}
         ${hideConfig?.wallet ? '<th>Version</th>' : ''}
-        <th class="hide-on-mobile">Description</th>
+        <th class="hide-on-mobile" style="max-width: 300px;">Description</th>
         ${hideConfig?.sha256 ? '' : '<th class="hide-on-mobile">Hashes</th>'}
         <th class="hide-on-mobile">Download</th>
         <th>Verifications</th>
@@ -296,7 +296,7 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
       const sanitizedVersion = version.replace(/\./g, '-');
       row.setAttribute('id', `version-${sanitizedVersion}`);
       row.innerHTML = `
-        ${hideConfig?.wallet ? '' : `<td>
+        ${hideConfig?.wallet ? '' : `<td style="max-width: 200px; overflow: hidden; text-overflow: ellipsis; white-space: normal; word-wrap: break-word;">
           ${wallet ? `<a href="${wallet.url}" target="_blank" rel="noopener noreferrer">${walletTitle}</a><br>${version}<span class="show-on-mobile"><br>${itemDescription}<br>${sha256Hashes.length > 0 ? sha256Hashes.map(hash => `
           <div style="margin-bottom: 4px;">
             <button onclick="navigator.clipboard.writeText('${hash[1]}').then(() => showToast('Hash copied to clipboard'))" class="copy-button" title="Copy hash to clipboard">📋</button><span class="hash-display" title="${hash[1]}">${hash[1]}</span>
@@ -308,7 +308,7 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
             <button onclick="navigator.clipboard.writeText('${hash[1]}').then(() => showToast('Hash copied to clipboard'))" class="copy-button" title="Copy hash to clipboard">📋</button><span class="hash-display" title="${hash[1]}">${hash[1]}</span>
           </div>`).join('') : '-'}</span>
           </td>` : ''}
-        <td class="asset-description hide-on-mobile">${itemDescription}</td>
+        <td class="asset-description hide-on-mobile" style="max-width: 300px; overflow: hidden; text-overflow: ellipsis; white-space: normal; word-wrap: break-word;">${itemDescription}</td>
         ${hideConfig?.sha256 ? '' : `<td class="hide-on-mobile">
           ${sha256Hashes.length > 0 ? sha256Hashes.map(hash => `
           <div style="margin-bottom: 4px;">
