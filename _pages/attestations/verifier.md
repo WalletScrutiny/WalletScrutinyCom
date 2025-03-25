@@ -64,7 +64,7 @@ permalink: /verifier/
 
 <script>
   const urlParams = new URLSearchParams(window.location.search);
-  const rawPubkey = DOMPurify.sanitize(urlParams.get('pubkey'));
+  const rawPubkey = DOMPurify.sanitize(urlParams.get('pubkey'), purifyConfig);
   let pubkey = rawPubkey;
 
   // Try to decode if it's a bech32 format (npub or nprofile)

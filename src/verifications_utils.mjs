@@ -7,6 +7,17 @@ if (typeof global !== 'undefined') {
   global.WebSocket = WebSocket; // Make WebSocket available globally as NDK expects it
 }
 
+// Configure DOMPurify to be more restrictive
+const purifyConfig = {
+  ALLOWED_TAGS: [], // No HTML tags allowed
+  ALLOWED_ATTR: [], // No attributes allowed
+  SANITIZE_DOM: true,
+  WHOLE_DOCUMENT: false,
+  RETURN_DOM_FRAGMENT: false,
+  RETURN_DOM: false,
+  RETURN_TRUSTED_TYPE: false
+};
+
 let ndk;
 
 const connectTimeout = 2000;
@@ -298,7 +309,7 @@ function eventSanitize(event) {
     const contentObject = JSON.parse(event.content);
 
     Object.keys(contentObject).forEach(key => {
-      let sanitizedContent = isBrowser ? DOMPurify.sanitize(contentObject[key]) : contentObject[key];
+      let sanitizedContent = isBrowser ? DOMPurify.sanitize(contentObject[key], purifyConfig) : contentObject[key];
 
       if (key === 'description') {
         sanitizedContent = sanitizedContent.substring(0, 120);
@@ -311,13 +322,16 @@ function eventSanitize(event) {
 
     event.content = JSON.stringify(contentObject);
   } else {
-    event.content = isBrowser ? DOMPurify.sanitize(event.content) : event.content;
+    event.content = isBrowser ? DOMPurify.sanitize(event.content, purifyConfig) : event.content;
     event.content = event.content.substring(0, 120);
   }
 
   // Sanitize tags
   event.tags.forEach(tag => {
-    let sanitizedTag = isBrowser ? DOMPurify.sanitize(tag[1]) : tag[1];
+    let sanitizedTag = isBrowser ? DOMPurify.sanitize(tag[1], purifyConfig) : tag[1];
+
+    // Remove any remaining double quotes from the sanitized tag
+    sanitizedTag = sanitizedTag.replace(/"/g, '');
 
     if (tag[0] === 'i') {
       sanitizedTag = sanitizedTag.substring(0, 50);
@@ -589,6 +603,7 @@ if (typeof window !== 'undefined') {
   window.setupAppIdAutocomplete = setupAppIdAutocomplete;
   window.getAppInfoFromEventInfo = getAppInfoFromEventInfo;
   window.nip19 = nip19;
+  window.purifyConfig = purifyConfig;
 }
 
 export {
@@ -606,5 +621,6 @@ export {
   getNpubFromPubkey,
   setupAppIdAutocomplete,
   getAppInfoFromEventInfo,
-  nip19
+  nip19,
+  purifyConfig
 };

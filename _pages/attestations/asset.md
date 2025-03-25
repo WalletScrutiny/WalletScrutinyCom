@@ -38,7 +38,7 @@ permalink: /asset/
     document.getElementById('loadingSpinner').style.display = 'block';
 
     const urlParams = new URLSearchParams(window.location.search);
-    const sha256 = DOMPurify.sanitize(urlParams.get('sha256'));
+    const sha256 = DOMPurify.sanitize(urlParams.get('sha256'), purifyConfig);
     document.getElementById('sha256title').innerHTML = sha256;
 
     try {
