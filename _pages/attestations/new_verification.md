@@ -65,7 +65,7 @@ permalink: /new_verification/
       </select>
     </div>
 
-    <div style="margin-top: 1em; margin-bottom: 2em;">
+    <div style="margin-top: 1em; margin-bottom: 2em; font-size:smaller">
       <p>
         <b>Reproducible:</b> You've been able to build the asset and differences with the tested binary are minimal.
       </p>
@@ -94,8 +94,9 @@ permalink: /new_verification/
 
     <div class="form-group">
       <label for="content">Content (*):</label>
-      <textarea id="content" name="content" class="form-control" rows="10" required></textarea>
       <div class="char-counter">Characters: <span id="charCount">0</span>/60000</div>
+      <textarea id="content" name="content" class="form-control" rows="10" required></textarea>
+      <small class="form-text">Describe your verification process and findings with as much detail as possible, including scripts you used and output logs (minimum 20, maximum 60000 characters). Markdown is supported.</small>
     </div>
 
     <div class="form-group">
@@ -252,7 +253,7 @@ async function loadUrlParamsAndGetAssetInfo() {
     }
   }
 
-  message += '<p>To create the verification, first choose the status (if you could reproduce the asset or not), and then describe your verification process and findings with as much detail as possible (minimum 20, maximum 60000 characters). Markdown is supported.</p>';
+  message += '<p>To create the verification, fill all the fields, describing your verification process and findings with as much detail as possible.</p>';
   const infoMessage = document.querySelector('.info-message');
   infoMessage.innerHTML = message;
 }
