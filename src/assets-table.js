@@ -192,9 +192,6 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
     </thead>
   `;
 
-  // Array to store all SHA256 hashes
-  const allSha256Hashes = [];
-
   if (sortedItems.length > 0) {
     sortedItems.forEach((item, index) => {
       // Handle both legacy and new format
@@ -216,13 +213,6 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
 
       const eventId = binary.id;
       const sha256Hashes = binary.tags?.filter(tag => tag[0] === 'x') || [];
-
-      // Add hashes to our collection
-      sha256Hashes.forEach(hash => {
-        if (!allSha256Hashes.includes(hash[1])) {
-          allSha256Hashes.push(hash[1]);
-        }
-      });
 
       const sha256HashKey = item.sha256;
       const version = binary.tags.find(tag => tag[0] === 'version')?.[1] || '';
