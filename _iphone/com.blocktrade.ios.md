@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.blocktrade.ios.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-10-07
+date: 2025-03-25
 signer: 
 reviewArchive: 
 twitter: Blocktradecom

@@ -10,9 +10,9 @@ appCountry:
 released: 2021-03-27
 updated: 2025-01-15
 version: 5.01.15
-stars: 4.6
+stars: 4.5
 ratings: 
-reviews: 73
+reviews: 75
 website: https://toto-share.com
 repository: 
 issue: 

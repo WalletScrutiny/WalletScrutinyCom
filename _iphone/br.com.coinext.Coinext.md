@@ -11,7 +11,7 @@ released: 2019-01-27
 updated: 2025-01-14
 version: 2.15.5
 stars: 4.8
-reviews: 4355
+reviews: 4365
 website: https://coinext.com.br/
 repository: 
 issue: 

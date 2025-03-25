@@ -1,6 +1,6 @@
 ---
 wsId: lobstrco
-title: LOBSTR Stellar Lumens Wallet
+title: 'LOBSTR Wallet: Buy Stellar XLM'
 altTitle: 
 authors:
 - danny
@@ -8,10 +8,10 @@ appId: com.ultrastellar.lobstr
 appCountry: us
 idd: 1404357892
 released: 2018-08-06
-updated: 2025-03-11
-version: 12.5.3
+updated: 2025-03-24
+version: 12.5.5
 stars: 4.6
-reviews: 11697
+reviews: 11706
 website: https://lobstr.co/
 repository: 
 issue: 

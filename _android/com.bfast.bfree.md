@@ -10,7 +10,7 @@ appCountry:
 released: 2019-04-18
 updated: 2024-05-22
 version: 2.7.6
-stars: 4.3
+stars: 4.2
 ratings: 
 reviews: 1173
 website: https://bfastbfree.edercmf.com/

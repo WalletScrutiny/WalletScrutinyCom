@@ -9,8 +9,8 @@ appId: co.acinq.phoenix
 appCountry: gb
 idd: '1544097028'
 released: 2021-07-13
-updated: 2025-03-14
-version: 2.5.1
+updated: 2025-03-19
+version: 2.5.2
 stars: 4.8
 reviews: 19
 website: https://phoenix.acinq.co

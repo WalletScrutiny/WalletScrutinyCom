@@ -8,10 +8,10 @@ appId: com.defi.wallet
 appCountry: 
 idd: 1512048310
 released: 2020-05-20
-updated: 2025-03-17
-version: 2.10.0
+updated: 2025-03-24
+version: 2.11.0
 stars: 4.7
-reviews: 12279
+reviews: 12345
 website: https://crypto.com/onchain
 repository: 
 issue: 

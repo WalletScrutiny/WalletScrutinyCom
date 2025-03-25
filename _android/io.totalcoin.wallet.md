@@ -12,7 +12,7 @@ updated: 2025-03-10
 version: 5.7.4.2426
 stars: 3.7
 ratings: 7981
-reviews: 66
+reviews: 67
 website: http://totalcoin.io
 repository: 
 issue: 

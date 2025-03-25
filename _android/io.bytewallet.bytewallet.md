@@ -8,7 +8,7 @@ users: 10000
 appId: io.bytewallet.bytewallet
 appCountry: 
 released: 2021-07-20
-updated: 2024-12-27
+updated: 2025-03-18
 version: VARY
 stars: 3.4
 ratings: 

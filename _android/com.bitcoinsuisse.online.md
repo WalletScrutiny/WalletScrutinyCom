@@ -8,8 +8,8 @@ users: 5000
 appId: com.bitcoinsuisse.online
 appCountry: pl
 released: 2021-09-21
-updated: 2025-02-18
-version: 2.15.1
+updated: 2025-03-14
+version: 2.16.0
 stars: 3.7
 ratings: 
 reviews: 

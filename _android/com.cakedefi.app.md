@@ -30,7 +30,7 @@ social:
 - https://www.facebook.com/cakedefi
 - https://www.reddit.com/r/cakedefi
 redirect_from: 
-developerName: Cake Group
+developerName: Bake
 features: 
 
 ---

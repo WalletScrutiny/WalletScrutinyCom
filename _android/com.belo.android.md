@@ -12,7 +12,7 @@ updated: 2025-03-02
 version: 5.1.8
 stars: 3.7
 ratings: 
-reviews: 64
+reviews: 65
 website: https://belo.app
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: mona
-title: Crypto.com - Buy BTC, XRP, ADA
+title: Crypto.com - Buy BTC, CRO, ADA
 altTitle: 
 authors:
 - leo
@@ -8,10 +8,10 @@ appId: co.mona.Monaco
 appCountry: 
 idd: '1262148500'
 released: 2017-08-31
-updated: 2025-03-04
-version: 3.205.11
+updated: 2025-03-21
+version: '3.207'
 stars: 4.6
-reviews: 297110
+reviews: 298093
 website: https://crypto.com/
 repository: 
 issue: 

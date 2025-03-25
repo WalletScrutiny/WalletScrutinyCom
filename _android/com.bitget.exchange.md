@@ -8,11 +8,11 @@ users: 10000000
 appId: com.bitget.exchange
 appCountry: us
 released: 2020-04-03
-updated: 2025-03-13
-version: 2.52.1
-stars: 4.4
+updated: 2025-03-18
+version: 2.52.3
+stars: 4.3
 ratings: 5691
-reviews: 1363
+reviews: 1370
 website: https://www.bitget.com/
 repository: 
 issue: 

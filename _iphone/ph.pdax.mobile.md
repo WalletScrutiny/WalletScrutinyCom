@@ -11,7 +11,7 @@ released: 2020-12-18
 updated: 2025-03-17
 version: 13.1.0
 stars: 3.6
-reviews: 568
+reviews: 570
 website: https://pdax.ph
 repository: 
 issue: 

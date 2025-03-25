@@ -1,6 +1,6 @@
 ---
 wsId: cryptoComDefi
-title: Crypto.com Onchain
+title: Crypto.com Onchain Wallet
 altTitle: 
 authors:
 - leo
@@ -9,11 +9,11 @@ users: 1000000
 appId: com.defi.wallet
 appCountry: 
 released: 2020-05-11
-updated: 2025-03-17
-version: 2.10.0
-stars: 4.5
+updated: 2025-03-21
+version: 2.11.0
+stars: 4.6
 ratings: 13620
-reviews: 3285
+reviews: 3290
 website: https://www.crypto.com
 repository: 
 issue: 

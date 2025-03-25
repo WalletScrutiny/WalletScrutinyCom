@@ -9,16 +9,14 @@ updated:
 version: 
 binaries: 
 dimensions:
-- 126
-- 105
+- 130
+- 110
 - 39
 weight: 200
 provider: SecuX Technology Inc.
 providerWebsite: https://secuxtech.com
-website: >-
-  https://secuxtech.com/products/secux-w20c-plus
-shop: >-
-  https://secuxtech.com/products/secux-w20c-plus
+website: https://secuxtech.com/products/secux-w20c-plus
+shop: https://secuxtech.com/products/secux-w20c-plus
 country: TW
 price: 119USD
 repository: https://github.com/secuxtech/SecuXMCU
@@ -36,6 +34,7 @@ social:
 - https://www.linkedin.com/company/secuxtech
 - https://www.facebook.com/secuxtech
 features: 
+
 ---
 
 # Device Description

@@ -33,7 +33,7 @@ social:
 - https://t.me/revixinvest
 - https://www.tiktok.com/@revixinvest
 redirect_from: 
-developerName: Revix UK Ltd
+developerName: ALTIFY GROUP LIMITED
 features: 
 
 ---

@@ -11,7 +11,7 @@ released: 2010-01-05
 updated: 2025-03-10
 version: 6.0.1
 stars: 4.4
-reviews: 213
+reviews: 214
 website: https://www.easymarkets.com/eu/en-gb/platforms/easymarkets-mobile-app/
 repository: 
 issue: 

@@ -12,7 +12,7 @@ updated: 2025-03-11
 version: 3.0.8
 stars: 4
 ratings: 782
-reviews: 987
+reviews: 988
 website: https://www.coinme.com
 repository: 
 issue: 

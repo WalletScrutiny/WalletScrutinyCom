@@ -10,7 +10,7 @@ appCountry:
 released: 2022-03-28
 updated: 2025-01-21
 version: 1.0.6
-stars: 2.4
+stars: 2.8
 ratings: 
 reviews: 6
 website: https://platnova.com/

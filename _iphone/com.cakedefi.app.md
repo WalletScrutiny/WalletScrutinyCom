@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/cakedefi
 - https://www.reddit.com/r/cakedefi
 features: 
-developerName: Cake DeFi
+developerName: GS Fintech UAB
 
 ---
 

@@ -2,6 +2,19 @@
   {
     "appId": "app.michaelwuensch.bitbanana",
     "signer": "98d818b12efa005735dc3d6b6ed78a05d8f75629e0afaf001655ed6aacfd2884",
+    "version": "0.9.0",
+    "verdict": "reproducible",
+    "appHashes": [
+      "426154e8f2e8d35516cfeedbc6cbd46a0d858ce29113332150a5cb2ac4254bca",
+      "40dc6d9e97c40a9fe6e581d097c85df5b86336d56f3b60617670cc8ecef3d135",
+      "c0185e90f5622ff0955394f91d748b42c1539a6390011cd65306b8d09c224908"
+    ],
+    "date": "2025-03-07",
+    "platform": "android"
+  },
+  {
+    "appId": "app.michaelwuensch.bitbanana",
+    "signer": "98d818b12efa005735dc3d6b6ed78a05d8f75629e0afaf001655ed6aacfd2884",
     "version": "0.8.9",
     "verdict": "nonverifiable",
     "appHashes": [
@@ -3921,6 +3934,20 @@
       "0a89405429ea6aa5abe8533f538f45bbaff36044b62aefcaaa63ef52bffebde0"
     ],
     "date": "2021-12-11",
+    "platform": "hardware"
+  },
+  {
+    "appId": "blockstreamjade",
+    "signer": "",
+    "version": "1.0.33",
+    "verdict": "reproducible",
+    "appHashes": [
+      "feb8ae2404816c9933f9bc2596329ca5976224c66b3a847c168be65797351d71",
+      "7ad0dbbbfe33267665df5467ce1cbbbb6c3f139562177a276dbfb91d0edaca67",
+      "d76a0cf87df6900477b1fbd1512a6d0fc4bf99a7a4c80e04313eb2c1beb4d17c",
+      "26230eb16f4e849b98316f4ed1fa8fd3ba4e11d9ff339d5bac4e6934e315ab03"
+    ],
+    "date": "2024-12-17",
     "platform": "hardware"
   },
   {

@@ -1,6 +1,6 @@
 ---
 wsId: croptyWallet
-title: Crypto wallet – Bitcoin & USDT
+title: Cropty wallet – Bitcoin & USDT
 altTitle: 
 authors:
 - danny
@@ -8,10 +8,10 @@ appId: com.cropty.app
 appCountry: us
 idd: '1624901793'
 released: 2022-08-04
-updated: 2025-03-09
-version: 1.6.3
+updated: 2025-03-21
+version: 1.6.4
 stars: 4.8
-reviews: 134
+reviews: 135
 website: https://cropty.io/
 repository: 
 issue: 

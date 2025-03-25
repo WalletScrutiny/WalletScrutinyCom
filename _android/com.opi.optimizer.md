@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: The Optimizer Investments Limited
+developerName: AXTECH SDN. BHD.
 features: 
 
 ---

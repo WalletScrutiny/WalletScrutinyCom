@@ -8,11 +8,11 @@ users: 100000
 appId: com.thndrgames.bitcoinbounce
 appCountry: 
 released: 2020-03-20
-updated: 2024-07-10
-version: 1.22.0
+updated: 2025-03-23
+version: 1.23.1
 stars: 4.6
 ratings: 1913
-reviews: 404
+reviews: 406
 website: http://thndr.games
 repository: 
 issue: 

@@ -11,7 +11,7 @@ released: 2019-06-07
 updated: 2025-03-17
 version: 8.8.0
 stars: 4.7
-reviews: 4151
+reviews: 4154
 website: https://www.zengo.com
 repository: 
 issue: 

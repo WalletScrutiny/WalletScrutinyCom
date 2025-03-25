@@ -14,7 +14,7 @@ updated: 2025-02-24
 version: '53.1'
 stars: 4
 ratings: 650
-reviews: 204
+reviews: 205
 website: https://muun.com
 repository: https://github.com/muun/apollo
 issue: https://github.com/muun/apollo/issues/54

@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.bitcoinupbit.exchange.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
 appHashes: 
-date: 2024-03-30
+date: 2025-03-25
 signer: 
 reviewArchive: 
 twitter: 

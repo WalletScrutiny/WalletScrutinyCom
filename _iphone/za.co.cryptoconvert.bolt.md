@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: za.co.cryptoconvert.bolt.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nowallet
 appHashes: 
-date: 2024-04-02
+date: 2025-03-25
 signer: 
 reviewArchive: 
 twitter: CryptoConverted

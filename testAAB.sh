@@ -224,8 +224,12 @@ if [ -z "$deviceSpec" ]; then
     exit 1
   fi
 
+  # Ensure workDir exists
+  mkdir -p "$workDir"
+  
   tempSpec="$workDir/device-spec.json"
-  cat > "$tempSpec" <<EOF
+  # Create device-spec.json
+  if ! cat > "$tempSpec" <<EOF
 {
   "supportedAbis": $supportedAbis,
   "supportedLocales": $supportedLocales,
@@ -233,6 +237,17 @@ if [ -z "$deviceSpec" ]; then
   "sdkVersion": $sdkVersion
 }
 EOF
+  then
+    echo "Error: Failed to create device-spec.json"
+    exit 1
+  fi
+
+  # Verify file was created and has content
+  if [ ! -s "$tempSpec" ]; then
+    echo "Error: device-spec.json was created but is empty"
+    exit 1
+  fi
+  
   echo -e "${BRIGHT_GREEN}Generated device spec at $tempSpec:${NC}"
   cat "$tempSpec"
   echo -e "${BRIGHT_GREEN}Device spec file path:${NC} $tempSpec"

@@ -29,7 +29,7 @@ social:
 - https://www.instagram.com/EasyBit_com
 - https://t.me/easybit_official
 redirect_from: 
-developerName: EasyBit.
+developerName: EasyBit Exchange
 features: 
 
 ---

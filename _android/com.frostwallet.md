@@ -4,7 +4,7 @@ title: 'FROST Wallet: Buy BTC & Crypto'
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.frostwallet
 appCountry: 
 released: 2022-02-01

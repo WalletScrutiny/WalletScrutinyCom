@@ -8,10 +8,10 @@ appId: io.changenow
 appCountry: 
 idd: 1518003605
 released: 2020-06-29
-updated: 2024-12-19
-version: 2.8.2
+updated: 2025-03-22
+version: 2.9.1
 stars: 4.8
-reviews: 2060
+reviews: 2064
 website: https://changenow.io
 repository: 
 issue: 

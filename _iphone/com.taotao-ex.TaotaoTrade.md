@@ -11,7 +11,7 @@ released: 2019-06-02
 updated: 2025-03-12
 version: 3.26.2
 stars: 1.8
-reviews: 504
+reviews: 505
 website: https://www.sbivc.co.jp/
 repository: 
 issue: 

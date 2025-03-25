@@ -10,9 +10,9 @@ appCountry:
 released: 2022-01-21
 updated: 2025-01-24
 version: 4.6.1
-stars: 4
+stars: 4.1
 ratings: 
-reviews: 101
+reviews: 99
 website: https://margex.com
 repository: 
 issue: 

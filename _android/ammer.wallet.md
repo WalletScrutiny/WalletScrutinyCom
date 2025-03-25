@@ -4,11 +4,11 @@ title: Ammer Wallet
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: ammer.wallet
 appCountry: 
 released: 2022-12-05
-updated: 2024-11-27
+updated: 2025-03-24
 version: VARY
 stars: 4.4
 ratings: 

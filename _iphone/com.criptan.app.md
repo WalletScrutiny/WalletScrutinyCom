@@ -8,10 +8,10 @@ appId: com.criptan.app
 appCountry: es
 idd: '1497960991'
 released: 2020-06-18
-updated: 2025-03-17
-version: 3.0.9
+updated: 2025-03-24
+version: 3.0.12
 stars: 4.6
-reviews: 423
+reviews: 424
 website: https://criptan.es
 repository: 
 issue: 
