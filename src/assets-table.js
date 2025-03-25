@@ -212,7 +212,7 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
       );
 
       const eventId = binary.id;
-      const sha256Hashes = binary.tags?.filter(tag => tag[0] === 'x') || [];
+      const sha256Hashes = (binary.tags?.filter(tag => tag[0] === 'x') || []).slice(0, 6);
 
       const sha256HashKey = item.sha256;
       const version = binary.tags.find(tag => tag[0] === 'version')?.[1] || '';
