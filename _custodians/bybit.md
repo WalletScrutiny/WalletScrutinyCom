@@ -16,7 +16,7 @@ custodian:
       position: "CEO and Co-founder"
       tenure: "2018-present"
       nationality: "Chinese"
-      photo: "/images/wIcons/custodians/leadership/bybit-ben-zhou.jpg"
+      photo: "/images/wIcons/custodians/leadership/bybit-ben-zhou.png"
       social:
         twitter: "https://x.com/benbybit"
         linkedin: "https://www.linkedin.com/in/ben-zhou-b979ba28"

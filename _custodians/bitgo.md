@@ -17,7 +17,7 @@ custodian:
       position: "CEO and Co-founder"
       tenure: "2013-present"
       nationality: "American"
-      photo: "/images/wIcons/custodians/leadership/bitgo-mike-belshe.jpg"
+      photo: "/images/wIcons/custodians/leadership/bitgo-mike-belshe.png"
       social:
         twitter: "https://x.com/mikebelshe"
         linkedin: "https://www.linkedin.com/in/mikebelshe/"
@@ -102,29 +102,29 @@ custodian:
     developmentUrl: "https://developers.bitgo.com/guides/wallets/proof-of-reserves"
 
   operations:
-    users: "2000+ institutional<br /> clients"
+    users: "2000+"
     cryptographicProof:
-      btcAmount: "Processes approximately 8% of global Bitcoin transactions by value"
-      totalAssets: "Over $100 billion in assets under custody"
-      lastUpdated: "2025-03-26"
-      source: "BitGo company information, news reports"
-      sourceUrl: "https://markets.financialcontent.com/stocks/article/gnwcq-2025-3-12-mercurity-fintech-holding-inc-announces-strategic-engagement-with-bitgo-for-institutional-grade-custody-services"
-      valid: false
-
-    thirdPartyAudit:
       btcAmount: ""
       totalAssets: ""
       lastUpdated: ""
       source: ""
       sourceUrl: ""
       valid: false
+
+    thirdPartyAudit:
+      btcAmount: "1,773 BTC"
+      totalAssets: ""
+      lastUpdated: "2025-03-26"
+      source: "Arkham Intelligence"
+      sourceUrl: "https://intel.arkm.com/explorer/entity/bitgo"
+      valid: true
     
     selfReported:
       btcAmount: ""
-      totalAssets: "$80B+"
-      lastUpdated: ""
+      totalAssets: "$100B USD"
+      lastUpdated: "2025-02-27"
       source: "BitGo Official Website"
-      sourceUrl: "https://www.bitgo.com"
+      sourceUrl: "https://www.bitgo.com/resources/blog/bitgo-is-the-1-staking-platform/"
       valid: false
 
     notes: |

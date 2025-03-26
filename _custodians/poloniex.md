@@ -4,7 +4,7 @@ title: "Poloniex, LLC"
 platformReview:
   type: custodians
   appId: "poloniex"
-icon: "poloniex.jpg"
+icon: "poloniex.png"
 
 custodian:
   crunchbaseUrl: "https://www.crunchbase.com/organization/poloniex"

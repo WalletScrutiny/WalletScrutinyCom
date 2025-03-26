@@ -4,7 +4,7 @@ title: "Coinbase, Inc."
 platformReview:
   type: custodians
   appId: coinbase
-icon: coinbase.jpg
+icon: coinbase.png
 
 custodian:
   crunchbaseUrl: "https://www.crunchbase.com/organization/coinbase"
@@ -16,7 +16,7 @@ custodian:
       position: "CEO, Co-founder and Chairman of the Board"
       tenure: "2012-present"
       nationality: "American"
-      photo: "/images/wIcons/custodians/leadership/coinbase-brian-armstrong.jpeg"
+      photo: "/images/wIcons/custodians/leadership/coinbase-brian-armstrong.png"
       social:
         twitter: "https://x.com/brian_armstrong"
         linkedin: "https://www.linkedin.com/in/barmstrong"

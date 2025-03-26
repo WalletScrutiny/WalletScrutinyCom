@@ -4,7 +4,7 @@ title: "Binance Holdings Limited"
 platformReview:
   type: custodians
   appId: binance
-icon: binance.jpeg
+icon: binance.png
 
 custodian:
   crunchbaseUrl: "https://www.crunchbase.com/organization/binance"
