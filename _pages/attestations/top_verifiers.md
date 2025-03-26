@@ -11,11 +11,13 @@ permalink: /verifiers/
     width: 100%;
     margin: auto;
     border-collapse: collapse;
+    table-layout: fixed;
   }
   
   @media screen and (min-width: 768px) {
     table {
       width: initial;
+      table-layout: auto;
     }
     table th:nth-child(1) {
       padding-left: 8em;
@@ -30,12 +32,17 @@ permalink: /verifiers/
   @media screen and (max-width: 767px) {
     table th, table td {
       padding: 0.5em;
+      word-break: break-word;
     }
     .profile-info {
       font-size: 14px;
     }
     .attestation-count-column {
       font-size: 1.2em !important;
+      width: 30%;
+    }
+    .attestator-card-column {
+      width: 70%;
     }
   }
 
@@ -61,12 +68,16 @@ permalink: /verifiers/
   .profile-card {
     max-width: 100%;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    gap: 10px;
   }
 
   .profile-info {
     font-size: 18px;
     overflow: hidden;
     text-overflow: ellipsis;
+    flex: 1;
   }
 
   .profile-info div {
@@ -133,8 +144,8 @@ permalink: /verifiers/
       <table>
         <thead>
           <tr>
-            <th>Verifier</th>
-            <th># Verifications</th> <!-- , Endorsements -->
+            <th class="attestator-card-column">Verifier</th>
+            <th class="attestation-count-column"># Verifications</th> <!-- , Endorsements -->
           </tr>
         </thead>
         <tbody>
