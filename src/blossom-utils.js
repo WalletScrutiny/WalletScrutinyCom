@@ -50,7 +50,7 @@ export async function uploadToBlossom(file, hash) {
             console.log(`Blob ${hash} already exists in Blossom`);
         } else {
             console.log(`Uploading blob ${hash} to Blossom`);
-            displayBlossomUploadStatus('Preparing to upload...', 0);
+            displayBlossomUploadStatus('Preparing to upload file to our server...', 0);
 
             const onProgress = (progress) => {
                 displayBlossomUploadStatus(`Uploading... ${Math.round(progress)}%`, progress);
@@ -63,8 +63,9 @@ export async function uploadToBlossom(file, hash) {
             setCache(hash, true);
         }
     } catch (error) {
-        console.error('Error uploading to Blossom:', error.message);
         displayBlossomUploadError(error.message);
+        showToast('It was impossible to upload the file to our server. Please try again.', 'error');
+        return Promise.reject(error);
     }
 }
 

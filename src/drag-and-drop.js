@@ -219,11 +219,14 @@ async function processFiles(files, dropAreaElement) {
 async function handleUploadAsset(urlParams) {
   if (uploadsActivated) {
     document.getElementById('loadingSpinner').style.display = 'block';
-    await uploadToBlossom(window.currentFile, window.currentHash);
-    document.getElementById('loadingSpinner').style.display = 'none';
+    try {
+      await uploadToBlossom(window.currentFile, window.currentHash);
+      window.location.href = `/new_asset/${urlParams}`;
+    } catch (error) {
+      showToast('It was impossible to upload the file to our server. Please try again.', 'error');
+      document.getElementById('loadingSpinner').style.display = 'none';
+    }
   }
-
-  window.location.href = `/new_asset/${urlParams}`;
 }
 
 async function displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, allAssetsInformation) {
