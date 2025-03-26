@@ -158,5 +158,11 @@ custodian:
     customInfrastructure: 
     # Details of security measures
     details: ""
+    # Security certifications
+    certifications:
+      - name: ""
+        issuer: ""
+        details: ""
+        url: ""
 
 ---

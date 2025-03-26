@@ -196,5 +196,10 @@ custodian:
       - "Address Whitelisting"
     customInfrastructure: true
     details: "Binance operates its own servers and implements real-time risk monitoring. Private keys for the majority of funds are secured via cold storage with multi-signature setups."
+    certifications:
+      - name: ""
+        issuer: ""
+        details: ""
+        url: ""
 
 ---

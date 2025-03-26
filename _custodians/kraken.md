@@ -164,6 +164,11 @@ custodian:
       - "Bug Bounty Program"
     customInfrastructure: true
     details: "Kraken implements cold storage security, strict access controls, and real-time monitoring."
+    certifications:
+      - name: ""
+        issuer: ""
+        details: ""
+        url: ""
 
 ---
 

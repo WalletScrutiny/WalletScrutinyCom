@@ -189,5 +189,10 @@ custodian:
       - "Face/Touch ID"
     customInfrastructure: true
     details: "Cash App implements standard security measures for its custodial Bitcoin services, where the app retains control of private keys for Bitcoin held within user accounts."
+    certifications:
+      - name: ""
+        issuer: ""
+        details: ""
+        url: ""
 
 ---

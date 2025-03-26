@@ -236,6 +236,11 @@ custodian:
       - "Withdrawal Whitelisting"
     customInfrastructure: true
     details: "They run their own servers with dedicated HSMs."
+    certifications:
+      - name: ""
+        issuer: ""
+        details: ""
+        url: ""
 
 ---
 

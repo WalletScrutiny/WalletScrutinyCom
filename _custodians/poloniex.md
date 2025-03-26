@@ -171,5 +171,10 @@ custodian:
       - "Session Monitoring"
     customInfrastructure: false
     details: "Basic industry-standard security measures, including two-factor authentication and IP whitelisting."
+    certifications:
+      - name: ""
+        issuer: ""
+        details: ""
+        url: ""
 
 ---

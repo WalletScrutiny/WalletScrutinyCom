@@ -153,5 +153,9 @@ custodian:
       - "Email Confirmations"
     customInfrastructure: false
     details: "Swan Bitcoin relies on established custodians for security infrastructure while maintaining strong platform security measures."
-
+    certifications:
+      - name: ""
+        issuer: ""
+        details: ""
+        url: ""
 ---

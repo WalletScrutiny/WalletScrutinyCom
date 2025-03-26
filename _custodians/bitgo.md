@@ -17,7 +17,7 @@ custodian:
       position: "CEO and Co-founder"
       tenure: "2013-present"
       nationality: "American"
-      photo: "/images/wIcons/leadership/bitgo-mike-belshe.jpg"
+      photo: "/images/wIcons/custodians/leadership/bitgo-mike-belshe.jpg"
       social:
         twitter: "https://x.com/mikebelshe"
         linkedin: "https://www.linkedin.com/in/mikebelshe/"
@@ -26,8 +26,30 @@ custodian:
       - name: "Mike Belshe"
         role: "CEO and Co-founder"
       - name: "Chen Fang"
-        role: "Chief Product Officer"
-    teamSource: "https://www.bitgo.com/team"
+        role: "COO"
+      - name: "Ed Reginelli"
+        role: "CFO"
+      - name: "Jeff Horowitz"
+        role: "Chief Compliance Officer"
+      - name: "Krishna Juvvadi"
+        role: "Chief Legal Officer"
+      - name: "Jody Mettler"
+        role: "President, BitGo Trust"
+      - name: "Mark Azad"
+        role: "CRO"
+      - name: "Michelle Neufeld"
+        role: "Deputy CCO And BSA Officer"
+      - name: "Sebastian Giloth"
+        role: "Deputy CCO/CRO Germany"
+      - name: "Abel Seow"
+        role: "Managing Director"
+      - name: "Chris Steele"
+        role: "Chief Risk Officer"
+      - name: "J. Baylor Myers"
+        role: "Vice President, Corporate Development"
+      - name: "Nuri Chang"
+        role: "VP Of Product"
+    teamSource: "https://theorg.com/org/bitgo/teams/leadership-team"
 
   androidApp:
     name: "BitGo"
@@ -35,59 +57,58 @@ custodian:
   
   androidApp:
     name: "BitGo"
-    url: "/android/com.bitgo.mobile"
+    url: "/iphone/com.bitgo.mobile"
 
   iphoneApp:
-    name: ""
-    url: ""
+    name: "BitGo Harbor"
+    url: "/android/com.bitgo.harbor"
+
+  iphoneApp:
+    name: "BitGo Harbor"
+    url: "/iphone/com.bitgo.harbor"
   
   webApp:
     name: "BitGo Wallet"
-    url: "/others/com.bitgo.web"
+    url: "https://app.bitgo.com"
     icon: "fas fa-globe"
-
-  browserExtension:
-    name: ""
-    url: ""
-
-  desktopApp:
-    name: ""
-    url: ""
-    platform: ""
 
   hotColdDesign:
     status: "published"
-    lastUpdated: 
-    details: "BitGo pioneered the multi-signature wallet technology (P2SH) and implements 2-of-3 multi-signature addresses for customer funds. They have a clear separation between hot and cold storage with distinct security protocols."
+    lastUpdated: "2025-03-26"
+    details: "BitGo pioneered the multi-signature wallet technology (P2SH) and implements 2-of-3 multi-signature addresses for customer funds. They have a clear separation between hot and cold storage with distinct security protocols. In their cold storage solution, all three keys are held by BitGo in physically separated, offline environments. For hot wallets, BitGo offers a hybrid approach where the user controls one key, BitGo controls another, and a backup key is stored offline for disaster recovery."
     documentation_url: "https://www.bitgo.com/platform/security"
-    analysis: "BitGo's security model relies on multi-signature technology that distributes key fragments across multiple secure systems, eliminating single points of failure."
+    analysis: "BitGo's security architecture has evolved to include both Multi-Signature (Multi-Sig) and Threshold Signature Scheme (TSS) technologies. For Multi-Sig, they implement a 2-of-3 model where multiple keys must authorize transactions, preventing single points of failure. Their TSS implementation improves upon traditional MPC solutions by maintaining detailed transaction logs for accountability, using purpose-built Hardware Security Modules (HSMs) specifically designed for cryptocurrency security, implementing a hybrid approach to key storage, and having their code open-sourced and peer-reviewed. BitGo's cold storage is backed by bank-grade security with keys stored in air-gapped environments, while their hot wallets incorporate policy controls like whitelisting, velocity limits, and role-based permissions. TSS was introduced to support a broader range of coins more quickly and to reduce transaction fees, all without compromising security."
     supporting_urls:
       - "https://www.bitgo.com/platform/security"
+      - "https://www.bitgo.com/resources/blog/introducing-bitgo-tss/"
+      - "https://www.bitgo.com/resources/blog/bitgo-tss-a-technical-deep-dive/"
+      - "https://www.bitgo.com/products/custody-wallets/"
+      - "https://www.bitgo.com/resources/wallet-and-custody-guide/"
 
   bitcoinFocus:
     status: "multi-currency"
     tradableAssets: ""
     tradingPairs: ""
-    custodyAssets: "Over 50"
-    CompleteList: "https://www.bitgo.com/resources/supported-coins"
+    custodyAssets: "79 of the top 100 digital assets and more"
+    CompleteList: "https://developers.bitgo.com/coins"
 
   proofOfReserves:
     status: "traditional-audit"
-    details: "BitGo relies on traditional financial audits rather than cryptographic proof of reserves."
-    auditFrequency: ""
-    lastAudit: ""
+    details: "BitGo relies on traditional financial audits rather than cryptographic proof of reserves. While BitGo doesn't publish cryptographic proof of reserves for their own operations, they provide tools for their customers to implement proof of reserves for their end-users."
+    auditFrequency: "Not disclosed"
+    lastAudit: "Not disclosed"
     auditUrl: ""
-    developmentStatus: ""
-    developmentUrl: ""
+    developmentStatus: "Provides API tools for customer proof of reserves"
+    developmentUrl: "https://developers.bitgo.com/guides/wallets/proof-of-reserves"
 
   operations:
-    users: ""
+    users: "2000+ institutional<br /> clients"
     cryptographicProof:
-      btcAmount: ""
-      totalAssets: ""
-      lastUpdated: ""
-      source: ""
-      sourceUrl: ""
+      btcAmount: "Processes approximately 8% of global Bitcoin transactions by value"
+      totalAssets: "Over $100 billion in assets under custody"
+      lastUpdated: "2025-03-26"
+      source: "BitGo company information, news reports"
+      sourceUrl: "https://markets.financialcontent.com/stocks/article/gnwcq-2025-3-12-mercurity-fintech-holding-inc-announces-strategic-engagement-with-bitgo-for-institutional-grade-custody-services"
       valid: false
 
     thirdPartyAudit:
@@ -170,8 +191,14 @@ custodian:
       - "HSM"
       - "Policy engine"
       - "Key recovery"
+      - "SOC 2 Type 2 certified"
     customInfrastructure: true
     details: "BitGo developed their own multi-signature implementation and maintains customized security infrastructure for wallet management."
+    certifications:
+      - name: "SOC 2 Type 2"
+        issuer: "Deloitte & Touche LLP"
+        details: "Verifies BitGo's security and operational controls through rigorous third-party audit"
+        url: "https://www.bitgo.com/company/security/"
 
 ---
 
