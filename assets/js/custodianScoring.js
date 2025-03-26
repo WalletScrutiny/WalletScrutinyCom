@@ -1,4 +1,4 @@
-<script>
+
 class CustodianScore {
   constructor(custodian) {
     this.custodian = custodian;
@@ -986,8 +986,7 @@ class CustodianScore {
   }
 }
 
-// Get custodian data from frontmatter
-const custodianData = {{ custodian | jsonify }};
+// custodianData will be provided by the HTML page that includes this script
 
 // Toggle between list and grid view for apps
 function toggleAppsView() {
@@ -1007,47 +1006,3 @@ function toggleAppsView() {
     toggleIcon.classList.add('fa-th-large');
   }
 }
-
-// Initialize scoring when DOM is loaded
-document.addEventListener('DOMContentLoaded', () => {
-  // Initialize notes toggle functionality
-  const moreInfoButtons = document.querySelectorAll('.more-info-button');
-  
-  moreInfoButtons.forEach(button => {
-    button.addEventListener('click', () => {
-      const notesContent = button.parentElement.querySelector('.notes-content');
-      notesContent.classList.toggle('hidden');
-      button.classList.toggle('active');
-    });
-  });
-
-
-
-  if (custodianData) {
-    const scorer = new CustodianScore(custodianData);
-    scorer.updateUI();
-  }
-});
-
-// Add event listener for incident list toggle
-document.addEventListener('DOMContentLoaded', () => {
-  const toggleIncidents = document.querySelector('.toggle-incidents');
-  const incidentList = document.querySelector('#incident-list');
-  
-  if (toggleIncidents && incidentList) {
-    // Ensure collapsed state on load
-    incidentList.classList.add('collapsed');
-    toggleIncidents.setAttribute('aria-expanded', 'false');
-    toggleIncidents.querySelector('.show-text').style.display = 'inline';
-    toggleIncidents.querySelector('.hide-text').style.display = 'none';
-    
-    toggleIncidents.addEventListener('click', () => {
-      incidentList.classList.toggle('collapsed');
-      const isExpanded = !incidentList.classList.contains('collapsed');
-      toggleIncidents.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
-      toggleIncidents.querySelector('.show-text').style.display = isExpanded ? 'none' : 'inline';
-      toggleIncidents.querySelector('.hide-text').style.display = isExpanded ? 'inline' : 'none';
-    });
-  }
-});
-</script>

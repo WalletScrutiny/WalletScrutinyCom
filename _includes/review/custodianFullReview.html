@@ -1655,6 +1655,56 @@
 }
 </style>
 
+<!-- 
+  Custodian Scoring System
+  - First script tag loads the external CustodianScore class with all scoring logic
+  - Second script tag serves as a bridge between Jekyll and JavaScript:
+    1. Passes custodian data from Jekyll to JavaScript
+    2. Sets up event listeners for UI elements
+    3. Initializes the scoring system
+-->
 <script src="/assets/js/custodianScoring.js"></script>
+<script>
+  // Pass custodian data from Jekyll to the JavaScript file
+  const custodianData = {{ custodian | jsonify }};
+  
+  // Initialize scoring when DOM is loaded
+  document.addEventListener('DOMContentLoaded', () => {
+    // Initialize notes toggle functionality
+    const moreInfoButtons = document.querySelectorAll('.more-info-button');
+    
+    moreInfoButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const notesContent = button.parentElement.querySelector('.notes-content');
+        notesContent.classList.toggle('hidden');
+        button.classList.toggle('active');
+      });
+    });
 
-<!-- {% include review/custodianScoring.html %} -->
+    // Initialize incident list toggle
+    const toggleIncidents = document.querySelector('.toggle-incidents');
+    const incidentList = document.querySelector('#incident-list');
+    
+    if (toggleIncidents && incidentList) {
+      // Ensure collapsed state on load
+      incidentList.classList.add('collapsed');
+      toggleIncidents.setAttribute('aria-expanded', 'false');
+      toggleIncidents.querySelector('.show-text').style.display = 'inline';
+      toggleIncidents.querySelector('.hide-text').style.display = 'none';
+      
+      toggleIncidents.addEventListener('click', () => {
+        incidentList.classList.toggle('collapsed');
+        const isExpanded = !incidentList.classList.contains('collapsed');
+        toggleIncidents.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
+        toggleIncidents.querySelector('.show-text').style.display = isExpanded ? 'none' : 'inline';
+        toggleIncidents.querySelector('.hide-text').style.display = isExpanded ? 'inline' : 'none';
+      });
+    }
+
+    if (custodianData) {
+      const scorer = new CustodianScore(custodianData);
+      scorer.updateUI();
+    }
+  });
+</script>
+
