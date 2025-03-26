@@ -88,7 +88,7 @@ function displayBlossomUploadError(errorMessage) {
     document.querySelector('.blossom-upload-status').style.display = 'block';
 
     updateDomElementInClass('blossom-upload-status', `
-        <p>An error occurred while uploading to our server: ${errorMessage}</p>
+        <p style="color: red;">An error occurred while uploading to our server: ${errorMessage}.</p>
     `);
 }
 
