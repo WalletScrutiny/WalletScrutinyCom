@@ -71,7 +71,21 @@
   }
 </style>
 
-{% if include.showRawButtons == true %} {% else %}
+{% if include.showRawButtons == true %}
+<style>
+  #rawShareButtons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .shareButtonNetwork img, .shareButtonNetwork i {
+    margin-right: 6px;
+  }
+  .shareButtonNetwork i {
+    font-size: 23px;
+  }
+</style>
+{% else %}
 <style>
   .dropdown {
     position: relative;
@@ -81,26 +95,28 @@
     display: none;
     position: absolute;
     background-color: #007bff;
-    min-width: 200px;
-    max-width: 90vw; 
+    min-width: 275px;
+    max-width: 90vw;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1000;
     border-radius: 4px;
     transform: none !important;
-    right: 0; 
-    left: auto; 
+    left: 0; 
+    right: auto; 
     top: 100%;
     margin-top: 2px;
     transform: rotate(0deg) !important;
+    font-size: 13px;
   }
   .dropdown-content a {
     color: white;
-    padding: 12px 16px;
+    padding: 10px 16px;
     display: flex;
     align-items: center;
     width: 100%;
     box-sizing: border-box;
     transform: none !important;
+    font-size: 25px;
   }
   .dropdown-content a:hover {
     color: white;
@@ -119,16 +135,19 @@
     transform: rotate(0deg) !important;
     transform-origin: center center;
   }
+  #shareBtn {
+    margin-bottom: 0;
+  }
 </style>
 {% endif %} 
 
 {% assign nostrButton = '<a href="#" id="shareNostrBtn" class="btn btn-info shareButtonNetwork">
-  <img src="/images/nostr_logo.svg" style="width: 20px; height: 20px; vertical-align: middle" alt="Nostr Logo" />
+  <img src="/images/nostr_logo.svg" style="width: 24px; height: 24px; vertical-align: middle" alt="Nostr Logo" />
   <span class="network-text">Share on Nostr</span>
 </a>' %} 
 
 {% assign xButton = '<a href="#" id="shareXBtn" class="btn btn-info shareButtonNetwork">
-  <img src="/images/x_logo.svg" style="width: 18px; height: 18px; vertical-align: middle" alt="X Logo" />
+  <img src="/images/x_logo.svg" style="width: 21px; height: 21px; vertical-align: middle" alt="X Logo" />
   <span class="network-text">Share on X</span>
 </a>' %} 
 
@@ -148,12 +167,14 @@
       {{ site.data.ui-text[site.locale].share_on_label | default: "Share on" }}
     </h4>
     <br />
-  {% endif %} 
+  {% endif %}
+  <div id="rawShareButtons">
   {{ nostrButton }} {{ xButton }} {{ fbButton }} {{ linkedinButton }}
+  </div>
 {% else %}
   <div class="dropdown">
     <a href="#" id="shareBtn" class="btn btn-info">
-      <i class="fas fa-share-alt" style="margin-right: 10px; font-size: medium"></i>
+      <i class="fas fa-share-alt" style="margin-right: 10px;"></i>
       Share
     </a>
     <div id="shareDropdown" class="dropdown-content">
