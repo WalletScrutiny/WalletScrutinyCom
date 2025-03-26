@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.bitgo.mobile.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2024-10-03
+date: 2025-03-26
 signer: 
 reviewArchive: 
 twitter: BitGo
@@ -33,6 +33,10 @@ developerName: BitGo, Inc
 features: 
 
 ---
+
+## Update 2025-03-26
+
+The app is available on Google Play again.
 
 ## App Description from Google Play 
 
