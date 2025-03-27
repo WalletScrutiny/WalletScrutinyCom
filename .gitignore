@@ -3,6 +3,7 @@ node_modules/
 .idea/
 .jekyll-metadata
 .jekyll-cache/
+.ruby-version
 .history
 .settings/
 .project
@@ -12,3 +13,4 @@ vendor/
 images/social/
 _data/git.yml
 dist/
+backup/

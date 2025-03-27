@@ -1,5 +1,3 @@
-
-
 // Check if Nostr is available in the browser
 export function isNostrAvailable() {
   return typeof window.nostr !== 'undefined' && typeof window.nostr.signEvent === 'function';
@@ -23,36 +21,6 @@ export async function getCurrentPublicKey() {
   } catch (error) {
     console.error('Error getting public key:', error);
     throw error;
-  }
-}
-
-// List blobs uploaded by the current user
-export async function listUserBlobs(serverUrl) {
-  const since = null;
-  const until = null;
-  const requireAuth = true;
-
-  try {
-    const pubKey = await getCurrentPublicKey();
-    console.log('Current public key:', pubKey);
-
-    const blobs = await listBlobs(pubKey, serverUrl, since, until, requireAuth);
-    console.log('Blobs uploaded by pubKey:', pubKey, blobs.length);
-
-    blobs.forEach((blob, index) => {
-      console.log(`Blob ${index + 1}:`);
-      console.log(`  SHA256: ${blob.sha256}`);
-      console.log(`  Created: ${new Date(blob.created * 1000).toLocaleString()}`);
-      console.log(`  Size: ${blob.size} bytes`);
-      console.log(`  Type: ${blob.type}`);
-      console.log(`  URL: ${blob.url}`);
-      console.log('---');
-    });
-  } catch (error) {
-    console.error('Error listing blobs:', error.message);
-    if (error.message.includes('Auth must be signed by the pubkey')) {
-      console.log('Authorization error: Make sure you are signed in with the correct Nostr account.');
-    }
   }
 }
 
@@ -108,14 +76,19 @@ export async function sha256(data) {
 // Check if a blob exists on the server
 export async function hasBlob(sha256, fileExtension = '', serverUrl) {
   const url = `${serverUrl}/${sha256}${fileExtension}`;
-  const response = await fetch(url, { method: 'HEAD' });
-  if (response.ok) {
-    return true;
-  } else if (response.status === 404) {
+  try {
+    const response = await fetch(url, { method: 'HEAD' });
+    if (response.ok) {
+      return true;
+    } else if (response.status === 404) {
+      return false;
+    } else {
+      const error = await response.json();
+      throw new Error(error.message);
+    }
+  } catch (error) {
+    console.error('Error checking blob existence:', error);
     return false;
-  } else {
-    const error = await response.json();
-    throw new Error(error.message);
   }
 }
 
@@ -162,7 +135,7 @@ export async function uploadBlobWithProgress(blob, serverUrl, onProgress) {
     };
 
     xhr.onerror = () => {
-      reject(new Error('Network Error'));
+      reject(new Error('Network error or file too big (max 500MB)'));
     };
 
     xhr.send(blob);
@@ -185,11 +158,16 @@ export async function listBlobs(pubkey, serverUrl, since = null, until = null, r
     headers['Authorization'] = await createAuthorizationHeader('list', 'List Blobs');
   }
 
-  const response = await fetch(url, { headers });
-  if (response.ok) {
-    return await response.json();
-  } else {
-    const error = await response.json();
-    throw new Error(error.message);
+  try {
+    const response = await fetch(url, { headers });
+    if (response.ok) {
+      return await response.json();
+    } else {
+      const error = await response.json();
+      throw new Error(error.message);
+    }
+  } catch (error) {
+    console.error('Error listing blobs:', error);
+    return [];
   }
 }

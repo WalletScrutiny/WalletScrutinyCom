@@ -1,0 +1,40 @@
+.big-profile-card {
+    text-align: center;
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.profile-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0;
+}
+.profile-image {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    cursor: pointer;
+}
+.profile-nip05 {
+    font-size: 0.9em;
+    color: #666;
+}
+@media screen and (max-width: 767px) {
+    .profile-nip05 {
+        font-size: 0.6em;
+    }
+    .profile-card {
+        gap: 2px;
+    }
+}

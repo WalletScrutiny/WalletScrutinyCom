@@ -1,74 +1,76 @@
-#drop-area {
-    font-size: 17px;
-    border: 2px dashed #ccc;
-    border-radius: 20px;
-    display: inline-block;
-    margin: 0 auto;
-    padding: 5px 10px;
-    text-align: center;
-    word-wrap: break-word;
-  
-    .my-form {
-      margin-bottom: 0;
+.drop-areas {
+  font-size: 17px;
+  border: 2px dashed #ccc;
+  border-radius: 20px;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 5px 10px;
+  text-align: center;
+  word-wrap: break-word;
+
+  .my-form {
+    margin-bottom: 0;
+  }
+
+  #select {
+    &.hover-mode {
+      display: none;
     }
-  
-    #select {
-      &.hover-mode {
-        display: none;
-      }
-  
-      &.always-visible {
-        display: block;
-      }
-    }
-  
-    &:hover #select.hover-mode {
+
+    &.always-visible {
       display: block;
     }
-  
-    #file-list {
-      text-align: left;
-  
-      #redirect-button {
-        text-align: center;
-      }
+  }
+
+  &:hover #select.hover-mode {
+    display: block;
+  }
+
+  #file-list {
+    text-align: left;
+  }
+
+  #file-info {
+    font-size: 15px;
+
+    h3 {
+      margin-top: 0;
+      font-size: 16px;
     }
-  
-    #file-info,
-    #app-data {
-      font-size: 15px;
-  
-      h3 {
-        margin-top: 0;
-        font-size: 16px;
-      }
-  
-      &:empty {
-        display: none;
-      }
-    }
-  
-    &.highlight {
-      border-color: purple;
-    }
-  
-    #app-data .verdict {
-      font-weight: bold;
-      text-decoration: underline;
-      padding: 2px 5px;
-      border-radius: 3px;
-  
-      &.verified {
-        background-color: #4caf50;
-      }
-  
-      &.unverified {
-        background-color: #ffc107;
-        color: black;
-      }
-  
-      &.flagged {
-        background-color: #f44336;
-      }
+
+    &:empty {
+      display: none;
     }
   }
+
+  &.highlight {
+    border-color: purple;
+  }
+
+  #file-info .verdict {
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 2px 5px;
+    border-radius: 3px;
+
+    &.verified {
+      background-color: #4caf50;
+    }
+
+    &.unverified {
+      background-color: #ffc107;
+      color: black;
+    }
+
+    &.flagged {
+      background-color: #f44336;
+    }
+  }
+}
+
+/* Hide drop-areas and related text when on mobile for now */
+@media screen and (max-width: 768px) {
+  .bigScreenOnly {
+      display: none;
+  }
+}

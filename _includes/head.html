@@ -36,5 +36,8 @@
 <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
 <link rel="stylesheet" href="{{ base_path }}/assets/css/site-styles.css">
 <link rel="stylesheet" href="{{ base_path }}/verdicts.css">
+{% if page.layout contains "review" %}
+<link rel="stylesheet" href="{{ base_path }}/assets/css/verifications.css">
+{% endif %}
 
 <meta http-equiv="cleartype" content="on">

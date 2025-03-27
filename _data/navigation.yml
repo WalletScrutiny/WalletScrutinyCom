@@ -1,8 +1,10 @@
-# main links links
+# main links
 main:
-  - title: "<div id=\"__newTitle\">Methodology</div>"
+  - title: "<div>Verifications</div>"
+    url: /verifications/
+  - title: "<div>Methodology</div>"
     url: /methodology/
-  - title: "<div id=\"aboutButton\">About</div>"
+  - title: "<div>About</div>"
     url: /about/
-  - title: "<div id=\"donate\">Donate</div>"
+  - title: "<div>Donate</div>"
     url: /donate/
