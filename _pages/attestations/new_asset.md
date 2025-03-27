@@ -130,7 +130,9 @@ async function handleSubmit(event) {
   try {
     await createAssetRegistration(formData);
 
-    await uploadToBlossom(window.currentFile, window.currentHash);
+    if (window.currentFile && window.currentHash) {
+      await uploadToBlossom(window.currentFile, window.currentHash);
+    }
 
     spinner.style.display = 'none';
     await showToast('Asset registered successfully!');
