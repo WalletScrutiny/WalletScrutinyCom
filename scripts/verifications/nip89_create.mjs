@@ -1,7 +1,7 @@
 import { NDKEvent, NDKPublishError } from "@nostr-dev-kit/ndk";
 import { nostrConnect } from '../../src/verifications_utils.mjs';
 import WebSocket from "ws";
-import { assetRegistrationKind, verificationKind, endorsementKind } from "../../src/nostr-constants.mjs";
+import { assetRegistrationKind, verificationKind, endorsementKind, mainRelayUrl } from "../../src/nostr-constants.mjs";
 
 if (typeof global !== 'undefined') {
   global.WebSocket = WebSocket;
@@ -32,7 +32,7 @@ const createNip89Events = async function () {
   recommendationEvent_assetRegistration.content = "";
   recommendationEvent_assetRegistration.tags = [
     ["d", assetRegistrationKind],
-    ["a", `31990:${wsBotPublicKey}:${dIdentifier}`, "wss://relay.nostr.band", "web"],
+    ["a", `31990:${wsBotPublicKey}:${dIdentifier}`, mainRelayUrl, "web"],
   ];
 
   const recommendationEvent_verification = new NDKEvent(ndk);
@@ -40,7 +40,7 @@ const createNip89Events = async function () {
   recommendationEvent_verification.content = "";
   recommendationEvent_verification.tags = [
     ["d", verificationKind],
-    ["a", `31990:${wsBotPublicKey}:${dIdentifier}`, "wss://relay.nostr.band", "web"],
+    ["a", `31990:${wsBotPublicKey}:${dIdentifier}`, mainRelayUrl, "web"],
   ];
 
   const recommendationEvent_endorsement = new NDKEvent(ndk);
@@ -48,6 +48,7 @@ const createNip89Events = async function () {
   recommendationEvent_endorsement.content = "";
   recommendationEvent_endorsement.tags = [
     ["d", endorsementKind],
+    ["a", `31990:${wsBotPublicKey}:${dIdentifier}`, mainRelayUrl, "web"],
   ];
 
   try {

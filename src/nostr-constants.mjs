@@ -1,12 +1,14 @@
 import { isDebug } from './verifications_utils.mjs';
 
+export const mainRelayUrl = "wss://relay.nostr.band";
+
 export const explicitRelayUrls = [
+  mainRelayUrl,                       // FI - Do not change
+  "wss://vidono.apps.slidestr.net/",  // FR
+  "wss://nostr.mom/",                 // DE (rate-limited)
   "wss://relay.primal.net/",          // CA
   "wss://relay.damus.io/",            // CA
   "wss://strfry.iris.to/",            // CA
-  "wss://vidono.apps.slidestr.net/",  // FR
-  "wss://relay.nostr.band/",          // FI
-  "wss://nostr.mom/"                  // DE (rate-limited)
 ];
 
 // Verifications
