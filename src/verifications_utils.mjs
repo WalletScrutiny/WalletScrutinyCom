@@ -1,7 +1,7 @@
 import NDK, {NDKEvent, NDKNip07Signer, NDKPrivateKeySigner, NDKPublishError} from "@nostr-dev-kit/ndk";
 import { nip19 } from 'nostr-tools';
 import DOMPurify from 'dompurify';
-import { assetRegistrationKind, verificationKind, endorsementKind, explicitRelayUrls, verificationsFeatureSinceTS } from "./nostr-constants.mjs";
+import { assetRegistrationKind, verificationKind, endorsementKind, explicitRelayUrls, verificationEventsSinceTS } from "./nostr-constants.mjs";
 import WebSocket from "ws";
 if (typeof global !== 'undefined') {
   global.WebSocket = WebSocket; // Make WebSocket available globally as NDK expects it
@@ -363,8 +363,8 @@ const getAllAssetInformation = async function({
     console.debug(`Getting events from last ${months} months`);
     filter_assets.since = getTimestampMonthsAgo(months);
   } else {
-    console.debug(`Getting events from ${verificationsFeatureSinceTS} onwards`);
-    filter_assets.since = verificationsFeatureSinceTS;
+    console.debug(`Getting events from ${verificationEventsSinceTS} onwards`);
+    filter_assets.since = verificationEventsSinceTS;
   }
   if (pubkey) {
     filter_assets.authors = [pubkey];
@@ -383,7 +383,7 @@ const getAllAssetInformation = async function({
   if (months) {
     filter_verifications.since = getTimestampMonthsAgo(months);
   } else {
-    filter_verifications.since = verificationsFeatureSinceTS;
+    filter_verifications.since = verificationEventsSinceTS;
   }
   if (pubkey) {
     filter_verifications.authors = [pubkey];
