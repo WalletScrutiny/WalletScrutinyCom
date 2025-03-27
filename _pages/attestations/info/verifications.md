@@ -75,7 +75,7 @@ pre {
         <li><a href="/assets/">Browse the Asset Registry</a> - View all the wallet binaries that have been added to our system</li>
         <li><a href="/verifiers/">Top Build Verifiers</a> - See the most active community members who verify wallet binaries</li>
         <li>Use the Wallet Search - Find verifications for a specific Bitcoin wallet using our search feature in the navigation bar at the top</li>
-        <li>Verify a specific binary - Drop your binary file in our verification tool to check existing verifications or create new ones:</li>
+        <li>Verify a specific binary - Use a computer to drop your binary file in our verification tool to check existing verifications or create new ones.</li>
     </ul>
 
     {% include /verifications/dragAndDropArea.html %}
@@ -96,7 +96,7 @@ pre {
     <p>To register a new binary, you'll need its SHA256 hash. You have two options to calculate it:</p>
 
     <h3>Option 1: Using Our Tool</h3>
-    <p>Simply drag and drop your file into the drop zone above, and we'll calculate the SHA256 hash for you automatically.</p>
+    <p>Simply use a computer (mobile not supported for now) and drag and drop your file into the drop zone below, and we'll calculate the SHA256 hash for you automatically.</p>
 
     {% include /verifications/dragAndDropArea.html %}
 

@@ -1,12 +1,5 @@
 <!-- Drag-and-Drop-Area Start -->
-<style>
-    @media screen and (max-width: 768px) {
-        .drop-areas {
-            display: none;
-        }
-    }
-</style>
-<div class="drop-areas">
+<div class="drop-areas bigScreenOnly">
     <form class="my-form" id="dropForm-{{ 'now' | date: '%s%N' | append: '' | random }}">
         <span class="drop-text">{{ include.buttonMessage | default: 'Drop file to verify' }}</span>
         {% assign randomId = 'now' | date: '%s%N' | append: '' | random %}

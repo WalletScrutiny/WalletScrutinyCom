@@ -10,7 +10,7 @@ permalink: /new_asset/
 
 <div class="form-container">
   <div class="info-message">
-    <p>To add a new asset to Nostr so it can be verified by you or others, you will need to provide the following information<span class="drag-and-drop-area">, or drag and drop your binary file here so we calculate some fields for you</span>:</p>
+    <p>To add a new asset to Nostr so it can be verified by you or others, you will need to provide the following information<span class="drag-and-drop-area bigScreenOnly">, or drag and drop your binary file here so we calculate some fields for you</span>:</p>
   </div>
 
   <div style="margin: 1.5em; margin-left: 0;" class="drag-and-drop-area">

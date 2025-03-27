@@ -67,3 +67,10 @@
     }
   }
 }
+
+/* Hide drop-areas and related text when on mobile for now */
+@media screen and (max-width: 768px) {
+  .bigScreenOnly {
+      display: none;
+  }
+}
