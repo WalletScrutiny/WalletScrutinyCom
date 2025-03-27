@@ -279,7 +279,7 @@ input[type="checkbox"] {
   vertical-align: middle;
 }
 
-label {
+label:not(.button-label) {
   font-size: 1rem;
   line-height: 46px;
   display: flex;
