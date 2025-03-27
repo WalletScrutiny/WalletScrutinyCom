@@ -87,10 +87,6 @@ permalink: /verifiers/
   }
 </style>
 
-<div id="loadingSpinner">
-  <div class="spinner"></div>
-</div>
-
 <div style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
   {% include shareButton.html defaultMessage="Look at the Top Verifiers ranking on WalletScrutiny!" %}
 </div>

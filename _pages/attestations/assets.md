@@ -18,10 +18,6 @@ permalink: /assets/
   <div id="verificationContent"></div>
 </div>
 
-<div id="loadingSpinner">
-  <div class="spinner"></div>
-</div>
-
 <script src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
 
 <script>

@@ -151,10 +151,6 @@ permalink: /new_verification/
 
     <button type="submit" class="btn btn-success">Create Verification</button>
   </form>
-
-  <div id="loadingSpinner" style="display: none;">
-    <div class="spinner"></div>
-  </div>
 </div>
 
 <div id="verificationModal">

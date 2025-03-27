@@ -62,9 +62,6 @@ permalink: /new_asset/
 
     <button type="submit" class="btn btn-success">Register Asset</button>
   </form>
-  <div id="loadingSpinner" style="display: none;">
-    <div class="spinner"></div>
-  </div>
 </div>
 
 <script>
