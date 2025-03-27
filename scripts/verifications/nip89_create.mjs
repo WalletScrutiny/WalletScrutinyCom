@@ -1,7 +1,6 @@
-import { NDKEvent, NDKPublishError } from "@nostr-dev-kit/ndk";
-import { nostrConnect } from '../../src/verifications_utils.mjs';
+import NDK, { NDKEvent, NDKPublishError, NDKPrivateKeySigner } from "@nostr-dev-kit/ndk";
 import WebSocket from "ws";
-import { assetRegistrationKind, verificationKind, endorsementKind, mainRelayUrl } from "../../src/nostr-constants.mjs";
+import { assetRegistrationKind, verificationKind, endorsementKind, mainRelayUrl, explicitRelayUrls } from "../../src/nostr-constants.mjs";
 
 if (typeof global !== 'undefined') {
   global.WebSocket = WebSocket;
@@ -9,21 +8,36 @@ if (typeof global !== 'undefined') {
 
 let ndk;
 
-const createNip89Events = async function () {
-  const dIdentifier = Math.floor(Math.random() * 10000000000000);   // 13 digits random number
-  const wsBotPublicKey = "168b7a2cd8bb9205c3f574de540606d6f4c46717c5164f47373fdcce2b9cd335";
+const wsBotPublicKey = "168b7a2cd8bb9205c3f574de540606d6f4c46717c5164f47373fdcce2b9cd335";
+const dIdentifier = Math.floor(Math.random() * 10000000000000);   // 13 digits random number
 
+const nostrConnect = async function (nostrPrivateKey) {
+  ndk = new NDK({
+    explicitRelayUrls: explicitRelayUrls,
+    signer: new NDKPrivateKeySigner(nostrPrivateKey)
+  });
+
+  try {
+    await ndk.connect(5000);
+  } catch (e) {
+    console.error("ndk connect failed", e);
+    throw e;
+  }
+}
+
+const createNip89Events = async function () {
     // Handler information
     const capabilityEvent = new NDKEvent(ndk);
     capabilityEvent.kind = 31990;
     capabilityEvent.content = "";
     capabilityEvent.tags = [
-      ["d", dIdentifier],
-      ["k", assetRegistrationKind],
-      ["k", verificationKind],
-      ["k", endorsementKind],
-      ["web", "https://beta.walletscrutiny.com/verifier/?pubkey=<bech-32>", "npub"]
-      ["web", "https://beta.walletscrutiny.com/verifications/"]
+      ["d", `${dIdentifier}`],
+      ["k", `${assetRegistrationKind}`],
+      ["k", `${verificationKind}`],
+      ["k", `${endorsementKind}`],
+      ["web", "https://walletscrutiny.com/verifier/?pubkey=<bech-32>", "npub"],
+      ["web", "https://walletscrutiny.com/verifier/?pubkey=<bech-32>", "nprofile"],
+      ["web", "https://walletscrutiny.com/verifications/"],
     ];
 
   // Recommendation events
@@ -31,7 +45,7 @@ const createNip89Events = async function () {
   recommendationEvent_assetRegistration.kind = 31989;
   recommendationEvent_assetRegistration.content = "";
   recommendationEvent_assetRegistration.tags = [
-    ["d", assetRegistrationKind],
+    ["d", `${assetRegistrationKind}`],
     ["a", `31990:${wsBotPublicKey}:${dIdentifier}`, mainRelayUrl, "web"],
   ];
 
@@ -39,7 +53,7 @@ const createNip89Events = async function () {
   recommendationEvent_verification.kind = 31989;
   recommendationEvent_verification.content = "";
   recommendationEvent_verification.tags = [
-    ["d", verificationKind],
+    ["d", `${verificationKind}`],
     ["a", `31990:${wsBotPublicKey}:${dIdentifier}`, mainRelayUrl, "web"],
   ];
 
@@ -47,12 +61,17 @@ const createNip89Events = async function () {
   recommendationEvent_endorsement.kind = 31989;
   recommendationEvent_endorsement.content = "";
   recommendationEvent_endorsement.tags = [
-    ["d", endorsementKind],
+    ["d", `${endorsementKind}`],
     ["a", `31990:${wsBotPublicKey}:${dIdentifier}`, mainRelayUrl, "web"],
   ];
 
   try {
     // Publish events
+    console.log('\n--------------------------------------------------------------------------- capabilityEvent:\n', capabilityEvent);
+    console.log('\n--------------------------------------------------------------------------- recommendationEvent_assetRegistration:\n', recommendationEvent_assetRegistration);
+    console.log('\n--------------------------------------------------------------------------- recommendationEvent_verification:\n', recommendationEvent_verification);
+    console.log('\n--------------------------------------------------------------------------- recommendationEvent_endorsement:\n', recommendationEvent_endorsement);
+
     const publishedCapability = await capabilityEvent.publish();
     console.debug(`Published capability event to ${publishedCapability.size} relays`);
     await new Promise(resolve => setTimeout(resolve, 6000));
@@ -98,9 +117,11 @@ if (import.meta.url === `file://${process.argv[1]}`) {
 
     console.log('Connecting to Nostr relays...');
     await nostrConnect(nostrNsecPrivateKey);
-    await new Promise(resolve => setTimeout(resolve, 5000));
+    await new Promise(resolve => setTimeout(resolve, 6000));
 
     const result = await createNip89Events();
-    console.log('NIP-89 events created:', result);
+    //console.log('\n\nNIP-89 events created:', result);
+    console.log('\nNIP-89 events created.');
+    console.log('\n************ <d-identifier> = ', dIdentifier);
     process.exit(0);
 }
