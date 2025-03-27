@@ -1,6 +1,6 @@
 import NDK, { NDKEvent, NDKPublishError, NDKPrivateKeySigner } from "@nostr-dev-kit/ndk";
 import WebSocket from "ws";
-import { assetRegistrationKind, verificationKind, endorsementKind, mainRelayUrl, explicitRelayUrls } from "../../src/nostr-constants.mjs";
+import { assetRegistrationKind, verificationKind, endorsementKind, mainRelayUrl, explicitRelayUrls, wsBotPublicKey } from "../../src/nostr-constants.mjs";
 
 if (typeof global !== 'undefined') {
   global.WebSocket = WebSocket;
@@ -8,7 +8,6 @@ if (typeof global !== 'undefined') {
 
 let ndk;
 
-const wsBotPublicKey = "168b7a2cd8bb9205c3f574de540606d6f4c46717c5164f47373fdcce2b9cd335";
 const dIdentifier = Math.floor(Math.random() * 10000000000000);   // 13 digits random number
 
 const nostrConnect = async function (nostrPrivateKey) {

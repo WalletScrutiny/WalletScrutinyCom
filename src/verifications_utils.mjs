@@ -1,7 +1,16 @@
 import NDK, {NDKEvent, NDKNip07Signer, NDKPrivateKeySigner, NDKPublishError} from "@nostr-dev-kit/ndk";
 import { nip19 } from 'nostr-tools';
 import DOMPurify from 'dompurify';
-import { assetRegistrationKind, verificationKind, endorsementKind, explicitRelayUrls, verificationEventsSinceTS } from "./nostr-constants.mjs";
+import {
+  assetRegistrationKind,
+  verificationKind,
+  endorsementKind,
+  explicitRelayUrls,
+  verificationEventsSinceTS,
+  mainRelayUrl,
+  nip89ClientTagD,
+  wsBotPublicKey
+} from "./nostr-constants.mjs";
 import WebSocket from "ws";
 if (typeof global !== 'undefined') {
   global.WebSocket = WebSocket; // Make WebSocket available globally as NDK expects it
@@ -102,6 +111,10 @@ const getNpubFromPubkey = function (pubkey) {
   return user.npub;
 }
 
+const getWSClientTag = function() {
+  return ["client", "WalletScrutiny.com", `31990:${wsBotPublicKey}:${nip89ClientTagD}`, mainRelayUrl];
+}
+
 const createAssetRegistration = async function ({
                                                   sha256,
                                                   appId,
@@ -138,7 +151,8 @@ const createAssetRegistration = async function ({
     ["x", sha256],
     ["ox", sha256],
     ["i", appId],
-    ["version", version]
+    ["version", version],
+    getWSClientTag()
   ];
   if (platform) {
     ndkEvent.tags.push(["platform", platform]);
@@ -209,7 +223,8 @@ const createVerification = async function ({
   });
 
   ndkEvent.tags = [
-    ["status", status]
+    ["status", status],
+    getWSClientTag()
   ];
 
   if (appId) {
@@ -259,7 +274,8 @@ const createEndorsement = async function ({sha256, content, status, verification
   ndkEvent.tags = [
     ["x", sha256],
     ["d", verificationEventId],
-    ["status", status]
+    ["status", status],
+    getWSClientTag()
   ];
 
   try {
@@ -514,6 +530,9 @@ const createNostrNote = async function (message) {
   const ndkEvent = new NDKEvent(ndk);
   ndkEvent.kind = 1;
   ndkEvent.content = message;
+  ndkEvent.tags = [
+    getWSClientTag()
+  ];
 
   try {
     const publishedToRelays = await ndkEvent.publish();
