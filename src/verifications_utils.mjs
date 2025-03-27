@@ -586,6 +586,12 @@ function setupAppIdAutocomplete() {
   });
 }
 
+function isDebug() {
+  if (typeof window === 'undefined') {
+    return false;
+  }
+  return window.location.hostname.includes('localhost') || window.location.hostname.includes('beta') || window.location.hostname.includes('old');
+}
 
 if (typeof window !== 'undefined') {
   window.nostrConnect = nostrConnect;
@@ -622,5 +628,6 @@ export {
   setupAppIdAutocomplete,
   getAppInfoFromEventInfo,
   nip19,
-  purifyConfig
+  purifyConfig,
+  isDebug
 };

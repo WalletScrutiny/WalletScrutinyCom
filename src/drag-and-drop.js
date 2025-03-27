@@ -8,6 +8,7 @@ import {
   getApkInfo,
   getPlatformFromFilename
 } from './drag-and-drop-utils.js';
+import { isDebug } from './verifications_utils.mjs';
 
 const uploadsActivated = true;
 
@@ -282,7 +283,7 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, all
   fileInfoHtml += `<strong>Size:</strong> ${file ? formatFileSize(file.size) : 'N/A'}<br>`;
   fileInfoHtml += `<strong>SHA-256:</strong> ${hash}<br>`;
 
-  if (window.location.hostname.includes('localhost') || window.location.hostname.includes('beta')) {  // Debug environment
+  if (isDebug()) {
     fileInfoHtml += `<strong>${await checkBlossomFile(hash, true) ? 'File exists in Blossom' : 'File does not exist in Blossom'}</strong> <small>(overrides cache - only shown in debug envs)</small><br>`;
   }
 
