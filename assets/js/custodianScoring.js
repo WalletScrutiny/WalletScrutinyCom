@@ -308,8 +308,10 @@ class CustodianScore {
     // - None (0 pts): No certifications
     let score = 0;
     const maxScore = 10;
-    // Get certifications from custodian data or default to empty array
-    const certifications = this.custodian.certifications || [];
+    // Get certifications from custodian data (either at top level or in security section) or default to empty array
+    const certifications = this.custodian.certifications || 
+                          (this.custodian.security && this.custodian.security.certifications) || 
+                          [];
     
     if (certifications && certifications.length > 0) {
       // Award points based on the number of certifications (up to max)
