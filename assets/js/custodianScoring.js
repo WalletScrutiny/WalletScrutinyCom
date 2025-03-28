@@ -302,16 +302,24 @@ class CustodianScore {
   calculateCertificationsScore() {
     // # 2 Infrastructure & Operations
     // ## 2.1 Security Certifications (10 points)
+    // This function implements the methodology rating:
+    // - Multiple Certifications (10 pts): Several recognized certifications
+    // - Limited (3-6 pts): At least one certification (3 pts per certification)
+    // - None (0 pts): No certifications
     let score = 0;
     const maxScore = 10;
+    // Get certifications from custodian data or default to empty array
     const certifications = this.custodian.certifications || [];
     
     if (certifications && certifications.length > 0) {
       // Award points based on the number of certifications (up to max)
+      // Each certification is worth 3 points, with a cap at 10 points (requires 4+ certifications for max)
+      // Note: No validation is performed on certification values - any string in the array counts as valid
       const certPoints = Math.min(certifications.length * 3, 10);
       score += certPoints;
       this.logScore('infrastructure', 'certifications', certPoints, `${certifications.length} certifications provided`);
     }
+    // Note: Common certifications include SOC 2, ISO 27001, PCI DSS
     
     // Ensure score doesn't exceed maxScore
     const originalScore = score;
@@ -327,24 +335,37 @@ class CustodianScore {
   calculateAuditsScore() {
     // # 2 Infrastructure & Operations
     // ## 2.2 Security Audits (10 points)
+    // This function implements the methodology rating:
+    // - Comprehensive (10 pts): Regular security audits with published results and transparent incident history
+    // - Partial (5 pts): Some evidence of security audits without full transparency
+    // - Non-existent (0 pts): No evidence of security audits
+    // 
+    // The scoring considers three components, totaling 10 points:
+    // 1. Availability of track record information (5 pts)
+    // 2. Transparency about incident history (3 pts)
+    // 3. Insurance coverage (2 pts)
     let score = 0;
     const maxScore = 10;
+    // Get operations and track record info, defaulting to empty objects if not present
     const ops = this.custodian.operations || {};
     const trackRecord = this.custodian.trackRecord || {};
     
     // Check for track record (either in operations or directly in trackRecord)
+    // This is the base component (5 pts) - evidence of security audit history
     if (ops.trackRecord || trackRecord.history) {
       score += 5;
       this.logScore('infrastructure', 'audits', 5, 'Track record available');
     }
     
     // Check for incident history (either in operations or directly in trackRecord)
+    // This represents transparency about security incidents (3 pts)
     if (ops.incidentHistory || (trackRecord.incidentHistory && trackRecord.incidentHistory.length > 0)) {
       score += 3;
       this.logScore('infrastructure', 'audits', 3, 'Transparent incident history');
     }
     
     // Check for insurance coverage (either in operations or directly in trackRecord)
+    // Additional points for having insurance against security incidents (2 pts)
     if (ops.insuranceCoverage || trackRecord.insuranceCoverage) {
       score += 2;
       this.logScore('infrastructure', 'audits', 2, 'Insurance coverage in place');
@@ -898,6 +919,7 @@ class CustodianScore {
   }
   
   // Add debug panel to the page
+  // Score Debug Panel
   addDebugPanel() {
     // Check if debug mode is enabled via URL parameter
     const urlParams = new URLSearchParams(window.location.search);
@@ -945,12 +967,34 @@ class CustodianScore {
     
     // Add category scores with item breakdowns
     const categories = [
-      { id: 'keyManagement', name: 'Key Management' },
-      { id: 'transparency', name: 'Transparency' },
-      { id: 'compliance', name: 'Compliance' },
-      { id: 'infrastructure', name: 'Infrastructure' },
-      { id: 'userSecurity', name: 'User Security' }
+      { id: 'keyManagement', name: '1. Key Management & Security' },
+      { id: 'infrastructure', name: '2. Infrastructure & Operations' },
+      { id: 'transparency', name: '3. Transparency' },
+      { id: 'compliance', name: '4. Regulatory Compliance' },
+      { id: 'userSecurity', name: '5. User Security Features' }
     ];
+    
+    // Map internal item IDs to hierarchical section numbers
+    const sectionMapping = {
+      // Key Management & Security
+      'coldStorage': '1.1 Hot/Cold Storage',
+      'multiSig': '1.2 Multi-signature/MPC',
+      'hardware': '1.3 Hardware Security',
+      // Infrastructure & Operations
+      'certifications': '2.1 Security Certifications',
+      'audits': '2.2 Security Audits',
+      'incidentResponse': '2.3 Incident Response',
+      // Transparency
+      'proofOfReserves': '3.1 Proof of Reserves',
+      'documentation': '3.2 Documentation',
+      'openSource': '3.3 Open Source Contributions',
+      // Regulatory Compliance
+      'licensing': '4.1 Licensing',
+      'compliancePrograms': '4.2 Compliance Programs',
+      // User Security Features
+      'authentication': '5.1 Authentication',
+      'transactionSecurity': '5.2 Transaction Security'
+    };
     
     categories.forEach(category => {
       const cat = this.data[category.id];
@@ -967,7 +1011,8 @@ class CustodianScore {
       Object.entries(cat.items).forEach(([itemId, item]) => {
         const itemDiv = document.createElement('div');
         itemDiv.style.cssText = 'margin: 5px 0; padding-left: 10px;';
-        itemDiv.innerHTML = `<strong>${itemId}:</strong> ${item.score}/${item.maxScore}`;
+        const sectionTitle = sectionMapping[itemId] || itemId;
+        itemDiv.innerHTML = `<strong>${sectionTitle}:</strong> ${item.score}/${item.maxScore}`;
         catDiv.appendChild(itemDiv);
       });
       
