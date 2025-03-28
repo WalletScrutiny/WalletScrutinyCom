@@ -338,37 +338,42 @@ class CustodianScore {
     // # 2 Infrastructure & Operations
     // ## 2.2 Security Audits (10 points)
     // This function implements the methodology rating:
-    // - Comprehensive (10 pts): Regular security audits with published results and transparent incident history
+    // - Comprehensive (10 pts): Regular security audits with published results and transparency
     // - Partial (5 pts): Some evidence of security audits without full transparency
     // - Non-existent (0 pts): No evidence of security audits
     // 
     // The scoring considers three components, totaling 10 points:
-    // 1. Availability of track record information (5 pts)
-    // 2. Transparency about incident history (3 pts)
+    // 1. Evidence security audits are performed (5 pts)
+    // 2. Transparency with published reports (3 pts)
     // 3. Insurance coverage (2 pts)
     let score = 0;
     const maxScore = 10;
-    // Get operations and track record info, defaulting to empty objects if not present
+    
+    // Check both new and legacy fields for backward compatibility
+    const securitySection = this.custodian.security || {};
+    const securityAudits = securitySection.securityAudits || {};
     const ops = this.custodian.operations || {};
     const trackRecord = this.custodian.trackRecord || {};
     
-    // Check for track record (either in operations or directly in trackRecord)
-    // This is the base component (5 pts) - evidence of security audit history
-    if (ops.trackRecord || trackRecord.history) {
+    // Check if security audits are performed (5 pts)
+    // First check new field, then fall back to legacy fields if needed
+    if (securityAudits.performed || securityAudits.frequency || securityAudits.lastAuditDate ||
+        (securityAudits.auditReports && securityAudits.auditReports.length > 0) ||
+        ops.trackRecord || trackRecord.history) {
       score += 5;
-      this.logScore('infrastructure', 'audits', 5, 'Track record available');
+      this.logScore('infrastructure', 'audits', 5, 'Security audits performed');
     }
     
-    // Check for incident history (either in operations or directly in trackRecord)
-    // This represents transparency about security incidents (3 pts)
-    if (ops.incidentHistory || (trackRecord.incidentHistory && trackRecord.incidentHistory.length > 0)) {
+    // Check for published audit reports (3 pts)
+    if ((securityAudits.auditReports && securityAudits.auditReports.length > 0 && 
+         securityAudits.auditReports.some(report => report.url)) ||
+        ops.securityAuditUrl) {
       score += 3;
-      this.logScore('infrastructure', 'audits', 3, 'Transparent incident history');
+      this.logScore('infrastructure', 'audits', 3, 'Published audit reports');
     }
     
-    // Check for insurance coverage (either in operations or directly in trackRecord)
-    // Additional points for having insurance against security incidents (2 pts)
-    if (ops.insuranceCoverage || trackRecord.insuranceCoverage) {
+    // Check for insurance coverage (2 pts) - still relevant for security audits
+    if (securityAudits.insuranceCoverage || ops.insuranceCoverage || trackRecord.insuranceCoverage) {
       score += 2;
       this.logScore('infrastructure', 'audits', 2, 'Insurance coverage in place');
     }
