@@ -372,8 +372,8 @@ class CustodianScore {
       this.logScore('infrastructure', 'audits', 3, 'Published audit reports');
     }
     
-    // Check for insurance coverage (2 pts) - still relevant for security audits
-    if (securityAudits.insuranceCoverage || ops.insuranceCoverage || trackRecord.insuranceCoverage) {
+    // Check for insurance coverage (2 pts) - now only check in securityAudits
+    if (securityAudits.insuranceCoverage) {
       score += 2;
       this.logScore('infrastructure', 'audits', 2, 'Insurance coverage in place');
     }
