@@ -309,17 +309,29 @@ class CustodianScore {
     let score = 0;
     const maxScore = 10;
     // Get certifications from custodian data (either at top level or in security section) or default to empty array
-    const certifications = this.custodian.certifications || 
-                          (this.custodian.security && this.custodian.security.certifications) || 
-                          [];
+    let certifications = this.custodian.certifications || 
+                         (this.custodian.security && this.custodian.security.certifications) || 
+                         [];
     
+    // Handle both array of objects and array of strings to ensure backward compatibility
     if (certifications && certifications.length > 0) {
-      // Award points based on the number of certifications (up to max)
-      // Each certification is worth 3 points, with a cap at 10 points (requires 4+ certifications for max)
-      // Note: No validation is performed on certification values - any string in the array counts as valid
-      const certPoints = Math.min(certifications.length * 3, 10);
-      score += certPoints;
-      this.logScore('infrastructure', 'certifications', certPoints, `${certifications.length} certifications provided`);
+      // Handle new format (array of objects with name, issuer, etc.)
+      if (typeof certifications[0] === 'object' && certifications[0].name) {
+        // Award points based on the number of certifications (up to max)
+        // Each certification is worth 3 points, with a cap at 10 points 
+        const certPoints = Math.min(certifications.length * 3, 10);
+        score += certPoints;
+        const certNames = certifications.map(cert => cert.name).join(', ');
+        this.logScore('infrastructure', 'certifications', certPoints, 
+          `${certifications.length} certifications provided: ${certNames}`);
+      }
+      // Handle old format (simple array of certification names)
+      else if (Array.isArray(certifications)) {
+        const certPoints = Math.min(certifications.length * 3, 10);
+        score += certPoints;
+        this.logScore('infrastructure', 'certifications', certPoints, 
+          `${certifications.length} certifications provided`);
+      }
     }
     // Note: Common certifications include SOC 2, ISO 27001, PCI DSS
     

@@ -114,8 +114,6 @@ custodian:
         url: ""  # URL to incident report/news
     sourceIncidents: ""  # Source for incident information
     lastIncident: ""  # Most recent incident date
-    insuranceCoverage: ""  # Insurance coverage details
-    insuranceTermsUrl: ""  # URL to insurance terms
 
   businessModel:
     type: ""  # Primary business type
@@ -151,18 +149,35 @@ custodian:
 
   # Security Features
   security:
-    # List of security features
-    features:
-      - ""
-    # Boolean: uses custom security infrastructure
-    customInfrastructure: 
-    # Details of security measures
-    details: ""
-    # Security certifications
+    # Note: Methodology terms (Comprehensive/Basic/Non-existent) are implemented via specific checks for the same detail levels
+    features: []  # 1.2: Add "Multi-signature Wallets" for +5 pts. 1.3: Add "Cold Storage" for +5 pts. Alternative terms for Multi-Sig: TSS, MPC, Threshold Signing in hotColdDesign.details
+    customInfrastructure: false  # Setting to true would give +5 more pts in 1.3 Hardware Security for specific details (total 10 pts)
+    details: ""  # For 1.2: Add detailed implementation info here for +5 pts (total 10 pts). For 1.3: Adding "Ledger", "Trezor", or "HSM" would also give +5 more pts (total 10 pts)
+    
+    # 2.1 Security Certifications (score: 0-10/10)
+    # Note: Each certification is worth 3 points, up to a max of 10 points (3 pts per certification)
     certifications:
       - name: ""
         issuer: ""
         details: ""
         url: ""
+    
+    # 5.1 Authentication (score: 0-5/5)
+    twoFactor: false  # Set to true for +3 pts
+    biometric: false  # Set to true for +2 more pts
+    
+    # 5.2 Transaction Security (score: 0-5/5)
+    withdrawalConfirmations: false  # Set to true for +2 pts
+    addressWhitelisting: false  # Set to true for +2 pts
+    withdrawalLimits: false  # Set to true for +1 pt
+    
+    # 2.2 Security Audits (score: 0-10/10)
+    securityAudits:
+      performed: false               # Set to true for +5 pts (basic security audit evidence)
+      frequency: ""                  # Optional: describes audit frequency
+      lastAuditDate: ""             # Optional: date of most recent audit
+      auditReports: []              # Adding report with URL gives +3 more pts (transparency)
+      insuranceCoverage: ""         # Setting to non-empty gives +2 more pts (insurance coverage)
+      insuranceCoverageURL: ""      # Optional: URL to insurance policy details
 
 ---
