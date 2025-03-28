@@ -116,6 +116,8 @@ class CustodianScore {
   }
 
   calculateColdStorageScore() {
+    // # 1 Key Management & Security
+    // ## 1.1 Hot Wallet and Cold Storage Design (10 points)
     let score = 0;
     const maxScore = 10;
     const hotCold = this.custodian.hotColdDesign || {};
@@ -124,6 +126,16 @@ class CustodianScore {
     if (hotCold.published || hotCold.status === 'published') {
       score += 5;
       this.logScore('keyManagement', 'coldStorage', 5, 'Design is published');
+    }
+    // Add 3 points if status is outdated
+    else if (hotCold.status === 'outdated') {
+      score += 3;
+      this.logScore('keyManagement', 'coldStorage', 3, 'Design is outdated');
+    }
+    // Add 5 points if status is partial
+    else if (hotCold.status === 'partial') {
+      score += 5;
+      this.logScore('keyManagement', 'coldStorage', 5, 'Design is partially published');
     }
     
     // Add 2 points if documentation URL exists
@@ -150,6 +162,8 @@ class CustodianScore {
   }
 
   calculateProofOfReservesScore() {
+    // # 3 Transparency
+    // ## 3.1 Proof of Reserves (10 points)
     let score = 0;
     const maxScore = 10;
     const por = this.custodian.proofOfReserves || {};
@@ -196,6 +210,8 @@ class CustodianScore {
   }
 
   calculateMultiSigScore() {
+    // # 1 Key Management & Security
+    // ## 1.2 Multi-signature/MPC Implementation (10 points)
     let score = 0;
     const maxScore = 10;
     const multiSig = this.custodian.multiSig || {};
@@ -236,6 +252,8 @@ class CustodianScore {
   }
 
   calculateHardwareScore() {
+    // # 1 Key Management & Security
+    // ## 1.3 Hardware Security (10 points)
     let score = 0;
     const maxScore = 10;
     const hardware = this.custodian.hardwareWallets || {};
@@ -279,6 +297,8 @@ class CustodianScore {
   }
 
   calculateCertificationsScore() {
+    // # 2 Infrastructure & Operations
+    // ## 2.1 Security Certifications (10 points)
     let score = 0;
     const maxScore = 10;
     const certifications = this.custodian.certifications || [];
@@ -302,6 +322,8 @@ class CustodianScore {
   }
 
   calculateAuditsScore() {
+    // # 2 Infrastructure & Operations
+    // ## 2.2 Security Audits (10 points)
     let score = 0;
     const maxScore = 10;
     const ops = this.custodian.operations || {};
@@ -337,6 +359,8 @@ class CustodianScore {
   }
 
   calculateIncidentResponseScore() {
+    // # 2 Infrastructure & Operations
+    // ## 2.3 Incident Response (5 points)
     let score = 0;
     const maxScore = 5;
     const ops = this.custodian.operations || {};
@@ -366,6 +390,8 @@ class CustodianScore {
   }
 
   calculateDocumentationScore() {
+    // # 3 Transparency
+    // ## 3.2 Documentation (5 points)
     let score = 0;
     const maxScore = 5;
     const model = this.custodian.businessModel || {};
@@ -394,6 +420,8 @@ class CustodianScore {
   }
 
   calculateOpenSourceScore() {
+    // # 3 Transparency
+    // ## 3.3 Open Source Contributions (5 points)
     let score = 0;
     const maxScore = 5;
     const contrib = this.custodian.bitcoinContribution || {};
@@ -425,6 +453,8 @@ class CustodianScore {
   }
 
   calculateLicensingScore() {
+    // # 4 Compliance
+    // ## 4.1 Licensing (10 points)
     let score = 0;
     const maxScore = 10;
     const leadership = this.custodian.leadership || {};
@@ -461,6 +491,8 @@ class CustodianScore {
   }
 
   calculateComplianceProgramsScore() {
+    // # 4 Compliance
+    // ## 4.2 Compliance Programs (5 points)
     let score = 0;
     const maxScore = 5;
     const model = this.custodian.businessModel || {};
@@ -470,7 +502,7 @@ class CustodianScore {
       this.logScore('compliance', 'compliancePrograms', 2, 'Business model supports compliance');
     }
     
-    if (model.restrictedCountries) {
+    if (model.restrictedCountries && Array.isArray(model.restrictedCountries) && model.restrictedCountries.length > 0) {
       score += 3;
       this.logScore('compliance', 'compliancePrograms', 3, 'Complies with country restrictions');
     }
@@ -487,6 +519,8 @@ class CustodianScore {
   }
 
   calculateAuthenticationScore() {
+    // # 5 User Security
+    // ## 5.1 Authentication (5 points)
     let score = 0;
     const maxScore = 5;
     const security = this.custodian.security || {};
@@ -519,6 +553,8 @@ class CustodianScore {
   }
 
   calculateTransactionSecurityScore() {
+    // # 5 User Security
+    // ## 5.2 Transaction Security (5 points)
     let score = 0;
     const maxScore = 5;
     const security = this.custodian.security || {};
