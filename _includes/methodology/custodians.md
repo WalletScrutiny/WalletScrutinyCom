@@ -6,10 +6,10 @@ It's important to understand that our assessments focus on observable fundamenta
 
 We analyze custodians across five key dimensions, allocating points based on the completeness and quality of their security measures. This framework aims to provide a consistent methodology while acknowledging that turning qualitative assessments into quantitative scores has inherent limitations.
 
-### Key Management & Security (30 points)
+### 1. Key Management & Security (30 points)
 
 <div class="textbox" style="background-color: rgba(173, 178, 212, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
-  <h4 style="color: #5052a3; border-bottom: 2px solid #5052a3; padding-bottom: 5px; margin-bottom: 10px;">Hot Wallet and Cold Storage Design (10 points)</h4>
+  <h4 style="color: #5052a3; border-bottom: 2px solid #5052a3; padding-bottom: 5px; margin-bottom: 10px;">1.1 Hot Wallet and Cold Storage Design (10 points)</h4>
 
   <p>We assess whether the custodian publishes details about their hot/cold wallet infrastructure, which is critical for understanding how your Bitcoin is secured.</p>
 
@@ -24,7 +24,7 @@ We analyze custodians across five key dimensions, allocating points based on the
 </div>
 
 <div class="textbox" style="background-color: rgba(199, 217, 221, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
-  <h4 style="color: #2b7d8c; border-bottom: 2px solid #2b7d8c; padding-bottom: 5px; margin-bottom: 10px;">Multi-signature/MPC Implementation (10 points)</h4>
+  <h4 style="color: #2b7d8c; border-bottom: 2px solid #2b7d8c; padding-bottom: 5px; margin-bottom: 10px;">1.2 Multi-signature/MPC Implementation (10 points)</h4>
 
   <p>We evaluate the custodian's use of multi-signature or Multi-Party Computation (MPC) technology for securing private keys.</p>
 
@@ -38,7 +38,7 @@ We analyze custodians across five key dimensions, allocating points based on the
 </div>
 
 <div class="textbox" style="background-color: rgba(213, 229, 213, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
-  <h4 style="color: #3a7c3a; border-bottom: 2px solid #3a7c3a; padding-bottom: 5px; margin-bottom: 10px;">Hardware Security (10 points)</h4>
+  <h4 style="color: #3a7c3a; border-bottom: 2px solid #3a7c3a; padding-bottom: 5px; margin-bottom: 10px;">1.3 Hardware Security (10 points)</h4>
 
   <p>We assess the use of dedicated hardware security modules (HSMs) and other physical security measures.</p>
 
@@ -52,10 +52,10 @@ We analyze custodians across five key dimensions, allocating points based on the
   <p><em>Note: In practice, our scoring system looks for specific hardware-related terms (like "Cold Storage", "HSM", "Ledger", "Trezor") and implementation details rather than using these qualitative labels directly.</em></p>
 </div>
 
-### Infrastructure & Operations (25 points)
+### 2. Infrastructure & Operations (25 points)
 
 <div class="textbox" style="background-color: rgba(238, 241, 218, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
-  <h4 style="color: #7c7c39; border-bottom: 2px solid #7c7c39; padding-bottom: 5px; margin-bottom: 10px;">Security Certifications (10 points)</h4>
+  <h4 style="color: #7c7c39; border-bottom: 2px solid #7c7c39; padding-bottom: 5px; margin-bottom: 10px;">2.1 Security Certifications (10 points)</h4>
 
   <p>We check for relevant industry security certifications that indicate external validation of security practices.</p>
 
@@ -69,7 +69,7 @@ We analyze custodians across five key dimensions, allocating points based on the
 </div>
 
 <div class="textbox" style="background-color: rgba(173, 178, 212, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
-  <h4 style="color: #5052a3; border-bottom: 2px solid #5052a3; padding-bottom: 5px; margin-bottom: 10px;">Security Audits (10 points)</h4>
+  <h4 style="color: #5052a3; border-bottom: 2px solid #5052a3; padding-bottom: 5px; margin-bottom: 10px;">2.2 Security Audits (10 points)</h4>
 
   <p>We evaluate the custodian's history of security audits and their transparency regarding past security incidents.</p>
 
@@ -83,7 +83,7 @@ We analyze custodians across five key dimensions, allocating points based on the
 </div>
 
 <div class="textbox" style="background-color: rgba(199, 217, 221, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
-  <h4 style="color: #2b7d8c; border-bottom: 2px solid #2b7d8c; padding-bottom: 5px; margin-bottom: 10px;">Incident Response (5 points)</h4>
+  <h4 style="color: #2b7d8c; border-bottom: 2px solid #2b7d8c; padding-bottom: 5px; margin-bottom: 10px;">2.3 Incident Response (5 points)</h4>
 
   <p>We assess the custodian's approach to handling security incidents and their track record in responding to issues.</p>
 
@@ -96,10 +96,10 @@ We analyze custodians across five key dimensions, allocating points based on the
   <p>Points are awarded for: providing the date of the last security incident (2 pts) and maintaining a transparent incident history (3 pts).</p>
 </div>
 
-### Transparency (20 points)
+### 3. Transparency (20 points)
 
 <div class="textbox" style="background-color: rgba(213, 229, 213, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
-  <h4 style="color: #3a7c3a; border-bottom: 2px solid #3a7c3a; padding-bottom: 5px; margin-bottom: 10px;">Proof of Reserves (10 points)</h4>
+  <h4 style="color: #3a7c3a; border-bottom: 2px solid #3a7c3a; padding-bottom: 5px; margin-bottom: 10px;">3.1 Proof of Reserves (10 points)</h4>
 
   <p>We evaluate how the custodian verifies and proves that they possess the Bitcoin they claim to hold on behalf of customers.</p>
 
@@ -114,7 +114,7 @@ We analyze custodians across five key dimensions, allocating points based on the
 </div>
 
 <div class="textbox" style="background-color: rgba(238, 241, 218, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
-  <h4 style="color: #7c7c39; border-bottom: 2px solid #7c7c39; padding-bottom: 5px; margin-bottom: 10px;">Documentation (5 points)</h4>
+  <h4 style="color: #7c7c39; border-bottom: 2px solid #7c7c39; padding-bottom: 5px; margin-bottom: 10px;">3.2 Documentation (5 points)</h4>
 
   <p>We assess the quality and comprehensiveness of the custodian's business documentation.</p>
 
@@ -128,7 +128,7 @@ We analyze custodians across five key dimensions, allocating points based on the
 </div>
 
 <div class="textbox" style="background-color: rgba(173, 178, 212, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
-  <h4 style="color: #5052a3; border-bottom: 2px solid #5052a3; padding-bottom: 5px; margin-bottom: 10px;">Open Source Contributions (5 points)</h4>
+  <h4 style="color: #5052a3; border-bottom: 2px solid #5052a3; padding-bottom: 5px; margin-bottom: 10px;">3.3 Open Source Contributions (5 points)</h4>
 
   <p>We evaluate the custodian's contributions to Bitcoin's open source ecosystem.</p>
 
@@ -141,10 +141,10 @@ We analyze custodians across five key dimensions, allocating points based on the
   <p>The scoring considers: contributions to FOSS development (2 pts), Bitcoin protocol support (2 pts), and Bitcoin-related research (1 pt).</p>
 </div>
 
-### Regulatory Compliance (15 points)
+### 4. Regulatory Compliance (15 points)
 
 <div class="textbox" style="background-color: rgba(199, 217, 221, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
-  <h4 style="color: #2b7d8c; border-bottom: 2px solid #2b7d8c; padding-bottom: 5px; margin-bottom: 10px;">Licensing (10 points)</h4>
+  <h4 style="color: #2b7d8c; border-bottom: 2px solid #2b7d8c; padding-bottom: 5px; margin-bottom: 10px;">4.1 Licensing (10 points)</h4>
 
   <p>We assess the custodian's regulatory status and leadership transparency.</p>
 
@@ -158,7 +158,7 @@ We analyze custodians across five key dimensions, allocating points based on the
 </div>
 
 <div class="textbox" style="background-color: rgba(213, 229, 213, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
-  <h4 style="color: #3a7c3a; border-bottom: 2px solid #3a7c3a; padding-bottom: 5px; margin-bottom: 10px;">Compliance Programs (5 points)</h4>
+  <h4 style="color: #3a7c3a; border-bottom: 2px solid #3a7c3a; padding-bottom: 5px; margin-bottom: 10px;">4.2 Compliance Programs (5 points)</h4>
 
   <p>We evaluate the custodian's approach to regulatory compliance programs.</p>
 
@@ -171,10 +171,10 @@ We analyze custodians across five key dimensions, allocating points based on the
   <p>Points are awarded for: a business model that supports compliance (2 pts) and clear information about country restrictions (3 pts).</p>
 </div>
 
-### User Security Features (10 points)
+### 5. User Security Features (10 points)
 
 <div class="textbox" style="background-color: rgba(238, 241, 218, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
-  <h4 style="color: #7c7c39; border-bottom: 2px solid #7c7c39; padding-bottom: 5px; margin-bottom: 10px;">Authentication (5 points)</h4>
+  <h4 style="color: #7c7c39; border-bottom: 2px solid #7c7c39; padding-bottom: 5px; margin-bottom: 10px;">5.1 Authentication (5 points)</h4>
 
   <p>We assess the security of user authentication mechanisms.</p>
 
@@ -188,7 +188,7 @@ We analyze custodians across five key dimensions, allocating points based on the
 </div>
 
 <div class="textbox" style="background-color: rgba(173, 178, 212, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
-  <h4 style="color: #5052a3; border-bottom: 2px solid #5052a3; padding-bottom: 5px; margin-bottom: 10px;">Transaction Security (5 points)</h4>
+  <h4 style="color: #5052a3; border-bottom: 2px solid #5052a3; padding-bottom: 5px; margin-bottom: 10px;">5.2 Transaction Security (5 points)</h4>
 
   <p>We evaluate the security measures in place for transaction processing.</p>
 
@@ -205,7 +205,7 @@ We analyze custodians across five key dimensions, allocating points based on the
 
 Our 100-point scoring system is distributed across five key dimensions, each containing specific evaluation criteria. The table below provides a comprehensive breakdown of how points are allocated:
 
-### Key Management & Security (30 points)
+### 1. Key Management & Security (30 points)
 
 | Subcategory | Max Points | Scoring Breakdown |
 |-------------|------------|-------------------|
@@ -213,7 +213,7 @@ Our 100-point scoring system is distributed across five key dimensions, each con
 | **Multi-signature/MPC** | 10 | • **Comprehensive (10 pts)**: Detailed implementation documentation<br>• **Basic (5 pts)**: Evidence of use with limited details<br>• **None (0 pts)**: No evidence of implementation |
 | **Hardware Security** | 10 | • **Comprehensive (10 pts)**: Documented use with implementation details<br>• **Basic (5 pts)**: General mentions without specifics<br>• **None (0 pts)**: No evidence of hardware security |
 
-### Infrastructure & Operations (25 points)
+### 2. Infrastructure & Operations (25 points)
 
 | Subcategory | Max Points | Scoring Breakdown |
 |-------------|------------|-------------------|
@@ -221,7 +221,7 @@ Our 100-point scoring system is distributed across five key dimensions, each con
 | **Security Audits** | 10 | • **Comprehensive (10 pts)**: Regular audits with published results<br>• **Partial (5 pts)**: Some evidence without full transparency<br>• **None (0 pts)**: No evidence of security audits |
 | **Incident Response** | 5 | • **Robust (5 pts)**: Clear documentation with historical evidence<br>• **Partial (2-3 pts)**: Some information without comprehensive details<br>• **None (0 pts)**: No information about incident response |
 
-### Transparency (20 points)
+### 3. Transparency (20 points)
 
 | Subcategory | Max Points | Scoring Breakdown |
 |-------------|------------|-------------------|
@@ -229,14 +229,14 @@ Our 100-point scoring system is distributed across five key dimensions, each con
 | **Documentation** | 5 | • **Comprehensive (5 pts)**: Clear, detailed business documentation<br>• **Partial (2-3 pts)**: Some documentation without comprehensive details<br>• **None (0 pts)**: Minimal or no documentation |
 | **Open Source Contributions** | 5 | • **Active (5 pts)**: Significant contributions to Bitcoin ecosystem<br>• **Limited (1-4 pts)**: Some contributions<br>• **None (0 pts)**: No evidence of contributions |
 
-### Regulatory Compliance (15 points)
+### 4. Regulatory Compliance (15 points)
 
 | Subcategory | Max Points | Scoring Breakdown |
 |-------------|------------|-------------------|
 | **Licensing** | 10 | • **Comprehensive (10 pts)**: Clear regulatory status and transparent leadership<br>• **Partial (5 pts)**: Some regulatory information without comprehensive details<br>• **None (0 pts)**: No regulatory information |
 | **Compliance Programs** | 5 | • **Robust (5 pts)**: Clear documentation of compliance programs<br>• **Partial (2 pts)**: Some information without comprehensive details<br>• **None (0 pts)**: No information about compliance programs |
 
-### User Security Features (10 points)
+### 5. User Security Features (10 points)
 
 | Subcategory | Max Points | Scoring Breakdown |
 |-------------|------------|-------------------|
