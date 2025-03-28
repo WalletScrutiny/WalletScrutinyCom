@@ -49,6 +49,7 @@ We analyze custodians across five key dimensions, allocating points based on the
   </ul>
 
   <p>The scoring evaluates: implementation of hardware security technology (5 pts) and specific details about the hardware being used (5 pts).</p>
+  <p><em>Note: In practice, our scoring system looks for specific hardware-related terms (like "Cold Storage", "HSM", "Ledger", "Trezor") and implementation details rather than using these qualitative labels directly.</em></p>
 </div>
 
 ### Infrastructure & Operations (25 points)

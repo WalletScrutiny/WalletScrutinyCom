@@ -254,6 +254,9 @@ class CustodianScore {
   calculateHardwareScore() {
     // # 1 Key Management & Security
     // ## 1.3 Hardware Security (10 points)
+    // Note: While methodology uses terms "Comprehensive/Basic/Non-existent", the code implements
+    // this through specific conditions checking for the same levels of detail: basic mentions (+5 pts)
+    // and specific implementation details (+5 pts) as described in the methodology.
     let score = 0;
     const maxScore = 10;
     const hardware = this.custodian.hardwareWallets || {};
