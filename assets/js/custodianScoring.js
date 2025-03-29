@@ -371,7 +371,7 @@ class CustodianScore {
     // First check new field, then fall back to legacy fields if needed
     if (securityAudits.performed || securityAudits.frequency || securityAudits.lastAuditDate ||
         (securityAudits.auditReports && securityAudits.auditReports.length > 0) ||
-        ops.trackRecord || trackRecord.history) {
+        ops.trackRecord) {
       score += 5;
       this.logScore('infrastructure', 'audits', 5, 'Security audits performed');
     }
