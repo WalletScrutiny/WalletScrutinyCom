@@ -316,21 +316,36 @@ class CustodianScore {
     // Handle both array of objects and array of strings to ensure backward compatibility
     if (certifications && certifications.length > 0) {
       // Handle new format (array of objects with name, issuer, etc.)
-      if (typeof certifications[0] === 'object' && certifications[0].name) {
-        // Award points based on the number of certifications (up to max)
-        // Each certification is worth 3 points, with a cap at 10 points 
-        const certPoints = Math.min(certifications.length * 3, 10);
-        score += certPoints;
-        const certNames = certifications.map(cert => cert.name).join(', ');
-        this.logScore('infrastructure', 'certifications', certPoints, 
-          `${certifications.length} certifications provided: ${certNames}`);
+      if (typeof certifications[0] === 'object') {
+        // Filter out empty certification objects
+        const validCertifications = certifications.filter(cert => 
+          cert.name && cert.name.trim() !== ""
+        );
+        
+        // Only proceed if there are valid certifications
+        if (validCertifications.length > 0) {
+          // Each certification is worth 3 points, with a cap at 10 points
+          const certPoints = Math.min(validCertifications.length * 3, 10);
+          score += certPoints;
+          const certNames = validCertifications.map(cert => cert.name).join(', ');
+          this.logScore('infrastructure', 'certifications', certPoints, 
+            `${validCertifications.length} certifications provided: ${certNames}`);
+        }
       }
       // Handle old format (simple array of certification names)
       else if (Array.isArray(certifications)) {
-        const certPoints = Math.min(certifications.length * 3, 10);
-        score += certPoints;
-        this.logScore('infrastructure', 'certifications', certPoints, 
-          `${certifications.length} certifications provided`);
+        // Filter out empty certification strings
+        const validCertifications = certifications.filter(cert => 
+          typeof cert === 'string' && cert.trim() !== ""
+        );
+        
+        // Only proceed if there are valid certifications
+        if (validCertifications.length > 0) {
+          const certPoints = Math.min(validCertifications.length * 3, 10);
+          score += certPoints;
+          this.logScore('infrastructure', 'certifications', certPoints, 
+            `${validCertifications.length} certifications provided`);
+        }
       }
     }
     // Note: Common certifications include SOC 2, ISO 27001, PCI DSS
@@ -378,7 +393,7 @@ class CustodianScore {
     
     // Check for published audit reports (3 pts)
     if ((securityAudits.auditReports && securityAudits.auditReports.length > 0 && 
-         securityAudits.auditReports.some(report => report.url)) ||
+         securityAudits.auditReports.some(report => report.url && report.url.trim() !== "")) ||
         ops.securityAuditUrl) {
       score += 3;
       this.logScore('infrastructure', 'audits', 3, 'Published audit reports');
