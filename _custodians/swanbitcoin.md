@@ -8,6 +8,7 @@ icon: swanbitcoin.png
 
 custodian:
   crunchbaseUrl: "https://www.crunchbase.com/organization/swan-bitcoin"
+
   leadership:
     jurisdiction: 🇺🇸 "United States"
     yearsInBusiness: "4"
@@ -27,7 +28,17 @@ custodian:
         role: "CTO"
       - name: "Brandon Quittem"
         role: "Head of Marketing"
-    teamSource: "https://www.swanbitcoin.com/about"
+      - name: "Sheetal Ray"
+        role: "Chief Operating Officer"
+      - name: "Raphael Zagury"
+        role: "Chief Investment Officer and Head of Research"
+      - name: "Gaurav Gollerkeri"
+        role: "General Manager of Swan Personal"
+      - name: "Guilherme Gomes"
+        role: "Chief Revenue Officer"
+      - name: "Scott Kisser"
+        role: "Chief Information Security Officer"
+    teamSource: "https://www.swanbitcoin.com/industry/swan-announces-four-new-hires-in-january-2023/"
 
   androidApp:
     name: "Swan Bitcoin: Buy & Invest Bitcoin"
@@ -42,14 +53,44 @@ custodian:
     url: "https://www.swanbitcoin.com"
     icon: "fas fa-globe"
 
+  operations:
+    users: ""
+    cryptographicProof:
+      btcAmount: ""
+      totalAssets: ""
+      lastUpdated: ""
+      source: ""
+      sourceUrl: ""
+      valid: false
+
+    thirdPartyAudit:
+      btcAmount: ""
+      totalAssets: ""
+      lastUpdated: ""
+      source: ""
+      sourceUrl: ""
+      valid: false
+    
+    selfReported:
+      btcAmount: ""
+      totalAssets: ""
+      lastUpdated: ""
+      source: ""
+      sourceUrl: ""
+      valid: false
+
+  proofOfReserves:
+    status: "third-party custody"
+    details: "Swan utilizes third-party qualified custodians Prime Trust and Fidelity Digital Assets"
+    auditFrequency: ""
+    lastAudit: ""
+    auditUrl: ""
+
   hotColdDesign:
-    status: "published"
+    status: "partial"
     lastUpdated: 2023-12-01
-    details: "Swan Bitcoin uses cold storage custody solutions through Prime Trust for retail customers and Fidelity Digital Assets for institutional clients."
-    documentation_url: "https://help.swanbitcoin.com/hc/en-us"
-    analysis: "Swan emphasizes security through established institutional custody providers rather than managing custody infrastructure directly."
-    supporting_urls:
-      - "https://www.swanbitcoin.com/security"
+    details: "Swan Bitcoin uses cold storage custody solutions through Prime Trust for retail customers and Fidelity Digital Assets for institutional clients. Additionally, Swan offers the Swan Vault, a 2-of-3 multisignature setup where users control two keys stored offline on hardware devices, and the third key, the Cloud Key, is managed through the user's Swan account."
+    documentation_url: "https://www.swanbitcoin.com/vault/"
 
   bitcoinFocus:
     status: "bitcoin-only"
@@ -58,47 +99,11 @@ custodian:
     custodyAssets: "1"
     CompleteList: "https://www.swanbitcoin.com/bitcoin"
 
-  proofOfReserves:
-    status: "third-party custody"
-    details: "Swan utilizes third-party qualified custodians Prime Trust and Fidelity Digital Assets"
-    auditFrequency: 
-    lastAudit:  
-    developmentStatus: 
-    developmentUrl: 
-
-  operations:
-    users: 
-    cryptographicProof:
-      btcAmount: 
-      totalAssets: 
-      lastUpdated: 
-      source: 
-      sourceUrl: 
-      valid: false
-
-    thirdPartyAudit:
-      btcAmount: 
-      totalAssets: 
-      lastUpdated: 
-      source: 
-      sourceUrl: 
-      valid: false
-
-    selfReported:
-      btcAmount: 
-      totalAssets: 
-      lastUpdated: 
-      source: 
-      sourceUrl: 
-      valid: false
-
   trackRecord:
     history: "No major security incidents reported since inception"
     incidentHistory: []
-    sourceIncidents: 
-    lastIncident: 
-    insuranceCoverage: "FDIC insurance on USD deposits, custody insurance through Prime Trust and Fidelity"
-    insuranceTermsUrl: "https://www.swanbitcoin.com/legal"
+    sourceIncidents: ""
+    lastIncident: ""
 
   businessModel:
     type: "Bitcoin Investment Platform"
@@ -118,6 +123,7 @@ custodian:
         details: "Fee per bitcoin purchase"
       - type: "Private Client Services"
         details: "Fees for high-net-worth services"
+    restrictedCountries: []
 
   riskAssessment:
     derivatives: false
@@ -125,37 +131,39 @@ custodian:
     memecoins: false
     memecoinList: []
     gambling: false
-
-  bitcoinContribution:
-    fossDevelopment: true
-    research: true
-    protocolSupport: true
-    research_url: "https://www.swanbitcoin.com/bitcoin-resources"
-    contributions:
-      - name: "Swan Signal"
-        url: "https://www.swanbitcoin.com/signal"
-      - name: "Swan Private Research"
-        url: "https://www.swanbitcoin.com/private"
-      - name: "Bitcoin Educational Content"
-        url: "https://www.swanbitcoin.com/learn"
   
   userAccess:
     kycRequired: true
     kycLevel: "Full"
     withdrawalLimits:
       status: "tiered"
-      documentation_url: "https://help.swanbitcoin.com"
+      documentation_url: "https://help.swanbitcoin.com/hc/en-us/articles/17381827984535-How-does-Swan-store-my-Bitcoin-and-should-I-self-custody"
 
   security:
-    features:
-      - "2FA"
-      - "Whitelisted Withdrawal Addresses"
-      - "Email Confirmations"
+    features: ["2FA", "Whitelisted Withdrawal Addresses", "Email Confirmations"]
     customInfrastructure: false
     details: "Swan Bitcoin relies on established custodians for security infrastructure while maintaining strong platform security measures."
     certifications:
-      - name: ""
-        issuer: ""
-        details: ""
-        url: ""
+      - name: "SOC2 Type 1"
+        issuer: "Independent Auditor"
+        details: "SOC 2 reports are performed in accordance with the Statement on Standards for Attestation Engagements 18 (SSAE 18) attestation standard issued by the American Institute of Certified Public Accountants (AICPA)"
+        url: "https://www.prnewswire.com/news-releases/swan-bitcoin-has-achieved-soc2-type-1-compliance-302257789.html"
+    twoFactor: true
+    biometric: true
+    withdrawalConfirmations: true
+    addressWhitelisting: false
+    withdrawalLimits: false
+
+    securityAudits:
+      performed: true
+      frequency: ""
+      lastAuditDate: "2024"
+      auditReports: []
+      insuranceCoverage: "FDIC insurance on USD deposits, custody insurance through Prime Trust and Fidelity"
+      insuranceCoverageURL: "https://www.swanbitcoin.com/legal"
+
+  bitcoinContribution:
+    fossDevelopment: true
+    protocolSupport: true
+    research: true
 ---

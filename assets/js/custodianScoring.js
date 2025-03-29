@@ -134,8 +134,8 @@ class CustodianScore {
     }
     // Add 5 points if status is partial
     else if (hotCold.status === 'partial') {
-      score += 5;
-      this.logScore('keyManagement', 'coldStorage', 5, 'Design is partially published');
+      score += 2;
+      this.logScore('keyManagement', 'coldStorage', 2, 'Design is partially published');
     }
     
     // Add 2 points if documentation URL exists
@@ -308,6 +308,9 @@ class CustodianScore {
     // - None (0 pts): No certifications
     let score = 0;
     const maxScore = 10;
+
+    // console.log("DEBUG: certifications field = ", JSON.stringify(this.custodian?.security?.certifications, null, 2));
+
     // Get certifications from custodian data (either at top level or in security section) or default to empty array
     let certifications = this.custodian.certifications || 
                          (this.custodian.security && this.custodian.security.certifications) || 
@@ -373,48 +376,53 @@ class CustodianScore {
     // 1. Evidence security audits are performed (5 pts)
     // 2. Transparency with published reports (3 pts)
     // 3. Insurance coverage (2 pts)
+  
     let score = 0;
     const maxScore = 10;
-    
-    // Check both new and legacy fields for backward compatibility
+  
     const securitySection = this.custodian.security || {};
     const securityAudits = securitySection.securityAudits || {};
     const ops = this.custodian.operations || {};
-    const trackRecord = this.custodian.trackRecord || {};
-    
-    // Check if security audits are performed (5 pts)
-    // First check new field, then fall back to legacy fields if needed
-    if (securityAudits.performed || securityAudits.frequency || securityAudits.lastAuditDate ||
-        (securityAudits.auditReports && securityAudits.auditReports.length > 0) ||
-        ops.trackRecord) {
+  
+    // ✅ Check if audits are performed (5 pts)
+    if (
+      securityAudits.performed ||
+      securityAudits.frequency ||
+      securityAudits.lastAuditDate ||
+      (securityAudits.auditReports &&
+       securityAudits.auditReports.some(report => report && report.url && report.url.trim() !== ""))
+    ) {
       score += 5;
       this.logScore('infrastructure', 'audits', 5, 'Security audits performed');
     }
-    
-    // Check for published audit reports (3 pts)
-    if ((securityAudits.auditReports && securityAudits.auditReports.length > 0 && 
-         securityAudits.auditReports.some(report => report.url && report.url.trim() !== "")) ||
-        ops.securityAuditUrl) {
+  
+    // ✅ Check for published audit reports (3 pts)
+    if (
+      securityAudits.auditReports &&
+      securityAudits.auditReports.some(report => report && report.url && report.url.trim() !== "") ||
+      ops.securityAuditUrl
+    ) {
       score += 3;
       this.logScore('infrastructure', 'audits', 3, 'Published audit reports');
     }
-    
-    // Check for insurance coverage (2 pts) - now only check in securityAudits
-    if (securityAudits.insuranceCoverage) {
+  
+    // ✅ Check for insurance coverage (2 pts)
+    if (securityAudits.insuranceCoverage && securityAudits.insuranceCoverage.trim() !== "") {
       score += 2;
       this.logScore('infrastructure', 'audits', 2, 'Insurance coverage in place');
     }
-    
-    // Ensure score doesn't exceed maxScore
+  
+    // Cap score at maxScore
     const originalScore = score;
     score = Math.min(score, maxScore);
-    
+  
     if (originalScore > maxScore) {
       this.logScore('infrastructure', 'audits', (originalScore - score) * -1, 'Score capped at maximum');
     }
-    
+  
     return { score, maxScore };
   }
+  
 
   calculateIncidentResponseScore() {
     // # 2 Infrastructure & Operations

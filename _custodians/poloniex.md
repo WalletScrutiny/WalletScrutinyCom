@@ -40,15 +40,15 @@ custodian:
     url: "https://poloniex.com"
     icon: "fas fa-globe"
 
+  # 1. Key Management - Cold Storage (score: 0/10)
   hotColdDesign:
-    status: "partial"
-    lastUpdated: 2021-10-01
-    details: "Poloniex employs a hot and cold-wallet infrastructure, with the majority of customer funds held in cold storage. Specific operational details and cryptographic methods are not extensively published or independently verifiable."
-    documentation_url: "https://support.poloniex.com/hc/en-us/articles/360040031234-Account-Security"
-    analysis: "Poloniex has historically maintained hot/cold wallet balances but lacks comprehensive public transparency or multi-signature details available from other custodians."
-    supporting_urls:
-      - "https://support.poloniex.com/hc/en-us/articles/360040031234-Account-Security"
+    status: "none"  # Possible values: "published" (+5 pts), "outdated" (+3 pts), "partial" (+5 pts), "none" (0 pts)
+    lastUpdated: ""
+    details: ""
+    documentation_url: ""
+    analysis: ""
 
+  # 3.1 Transparency - Bitcoin Focus
   bitcoinFocus:
     status: "multi-currency"
     tradableAssets: "300+"
@@ -113,9 +113,8 @@ custodian:
         url: "https://www.coindesk.com/markets/2014/03/05/poloniex-loses-123-of-its-bitcoins-in-latest-bitcoin-exchange-hack"
     sourceIncidents: "https://support.poloniex.com/hc/en-us"
     lastIncident: "2023-11-10"
-    insuranceCoverage: "Not publicly disclosed. In its terms and conditions page, it states: Digital Assets held in your Account are not subject to deposit insurance protection, including without limitation, the Federal Deposit Insurance Corporation insurance or Securities Investor Protection Corporation protections or any equivalent schemes outside of the United States."
-    insuranceTermsUrl: "https://poloniex.com/support/terms"
 
+  # 4.2 Compliance - Business Model
   businessModel:
     type: "Centralized Exchange"
     services:
@@ -135,6 +134,7 @@ custodian:
       - type: "Margin Interest"
         details: "Interest income from margin lending"
 
+  # 4.2 Compliance - Risk Assessment
   riskAssessment:
     derivatives: true
     derivativesList:
@@ -150,13 +150,13 @@ custodian:
         url: "https://poloniex.com/markets/PEPE_USDT"
     gambling: false
 
+  # 3. Transparency - Open Source (score: 0/5)
   bitcoinContribution:
     fossDevelopment: false
-    research: false
     protocolSupport: false
-    research_url: ""
-    contributions: []
+    research: false
 
+  # 4. Compliance - Access Controls (cont'd)
   userAccess:
     kycRequired: true
     kycLevel: "Basic to Advanced"
@@ -164,17 +164,42 @@ custodian:
       status: "tiered"
       documentation_url: "https://support.poloniex.com/hc/en-us/articles/360040342833-Account-Tiers-Verification-Levels-Withdrawal-Limits"
 
+  # 1.2 Key Management - Multi-Sig (score: 0/10) and Hardware (score: 0/10)
+  # 2. Infrastructure - Certifications (score: 0/10)
+  # 5. User Security - Authentication (score: 0/5) and Transaction Security (cont'd)
   security:
-    features:
-      - "2FA"
-      - "IP Whitelisting"
-      - "Session Monitoring"
-    customInfrastructure: false
-    details: "Basic industry-standard security measures, including two-factor authentication and IP whitelisting."
+    # Note: Methodology terms (Comprehensive/Basic/Non-existent) are implemented via specific checks for the same detail levels
+    features: ["2FA", "IP Whitelisting", "Session Monitoring"] # 1.2: Multi-Sig (+5 pts). 1.3: Hardware Security (+5 pts). Alternative terms for Multi-Sig: TSS, MPC, Threshold Signing in hotColdDesign.details
+    customInfrastructure: false # Setting to true would give +5 more pts in 1.3 Hardware Security for specific details (total 10 pts)
+    details: "Basic industry-standard security measures, including two-factor authentication and IP whitelisting." # For 1.2: Add detailed implementation info here for +5 pts (total 10 pts). For 1.3: Adding "Ledger", "Trezor", or "HSM" would also give +5 more pts (total 10 pts)
+    
+    # 2.1 Security Certifications (score: 3-6/10)
+    # Note: Each certification is worth 3 points, up to a max of 10 points (3 pts per certification)
     certifications:
       - name: ""
         issuer: ""
         details: ""
         url: ""
+    
+    # 5.1 Authentication (score: 0-5/5)
+    twoFactor: true  # Set to true for +3 pts
+    biometric: false  # Set to true for +2 more pts
+    
+    # 5.2 Transaction Security (score: 0-5/5)
+    withdrawalConfirmations: true  # Set to true for +2 pts
+    addressWhitelisting: true  # Set to true for +2 pts
+    withdrawalLimits: false  # Set to true for +1 pt
+    
+    # 2.2 Security Audits (score: 5/10)
+    securityAudits:
+      performed: false               # Set to true for +5 pts (basic security audit evidence)
+      frequency: ""           # Optional: describes audit frequency
+      lastAuditDate: ""            # Optional: date of most recent audit
+      auditReports:                # Adding report with URL gives +3 
+         - year: "" # more pts (transparency)
+           url: "" 
+           vendor: ""
+      insuranceCoverage: ""        # Setting to non-empty gives +2 more pts (insurance coverage)
+      insuranceCoverageURL: ""     # Optional: URL to insurance policy details
 
 ---
