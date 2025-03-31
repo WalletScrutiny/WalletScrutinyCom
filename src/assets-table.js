@@ -513,7 +513,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
 
   content.innerHTML += `
     <p><strong>Information:</strong>
-      <div class="markdown-content">${DOMPurify.sanitize(marked.parse(itemContent), purifyConfig)}</div>
+      <div class="markdown-content">${marked.parse(itemContent)}</div>
     </p>
   `;
 

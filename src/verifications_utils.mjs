@@ -18,8 +18,8 @@ if (typeof global !== 'undefined') {
 
 // Configure DOMPurify to be more restrictive
 const purifyConfig = {
-  ALLOWED_TAGS: [], // No HTML tags allowed
-  ALLOWED_ATTR: [], // No attributes allowed
+  ALLOWED_TAGS: ['div'], // No HTML tags allowed
+  ALLOWED_ATTR: ['id'], // Allow id attribute
   SANITIZE_DOM: true,
   WHOLE_DOCUMENT: false,
   RETURN_DOM_FRAGMENT: false,
