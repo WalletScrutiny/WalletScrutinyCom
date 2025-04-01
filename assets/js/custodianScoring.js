@@ -427,21 +427,31 @@ class CustodianScore {
   calculateIncidentResponseScore() {
     // # 2 Infrastructure & Operations
     // ## 2.3 Incident Response (5 points)
+    // We assess the custodian's approach to handling security incidents and their track record in responding to issues.
+    // Robust (5 points): Clear documentation of incident response procedures with evidence of effective historical responses.
+    // Partial (2-3 points): Some information about incident response without comprehensive details.
+    // Non-existent (0 points): No information about incident response procedures.
+    // Points are awarded for: public incident response policy (2 pts) and transparent incident disclosure (3 pts).
+    
     let score = 0;
     const maxScore = 5;
     const ops = this.custodian.operations || {};
+    const security = this.custodian.security || {};
     const trackRecord = this.custodian.trackRecord || {};
     
-    // Check for last incident date (either in operations or directly in trackRecord)
-    if (ops.lastIncident || trackRecord.lastIncident) {
+    // Check for public incident response policy or documentation (2 points)
+    if (ops.incidentResponsePolicy) {
       score += 2;
-      this.logScore('infrastructure', 'incidentResponse', 2, 'Last incident date provided');
+      this.logScore('infrastructure', 'incidentResponse', 2, 'Public incident response policy');
     }
     
-    // Check for incident history (either in operations or directly in trackRecord)
-    if (ops.incidentHistory || (trackRecord.incidentHistory && trackRecord.incidentHistory.length > 0)) {
+    // Check for transparent incident disclosure (3 points)
+    // This checks if the custodian maintains a public record of past incidents and their resolutions
+    if (ops.incidentDisclosure || 
+        (trackRecord.incidentHistory && trackRecord.incidentHistory.length > 0 && 
+         trackRecord.incidentHistory.some(incident => incident.resolution))) {
       score += 3;
-      this.logScore('infrastructure', 'incidentResponse', 3, 'Transparent incident history');
+      this.logScore('infrastructure', 'incidentResponse', 3, 'Transparent incident disclosure');
     }
     
     // Ensure score doesn't exceed maxScore

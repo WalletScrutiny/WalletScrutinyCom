@@ -76,6 +76,11 @@ custodian:
     developmentUrl: "https://www.binance.com/en/proof-of-reserves"
 
   operations:
+    # 2.3 Incident Response (score: 0-5/5)
+    # Providing a link to a public incident response policy (+2 pts)
+    incidentResponsePolicy: "" # URL to public incident response policy/documentation
+    # Providing a link to a public incident disclosure page (+3 pts)
+    incidentDisclosure: "" # URL to public incident disclosure page
     users: "128M"
     cryptographicProof:
       btcAmount: "622K BTC"
