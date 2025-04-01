@@ -135,7 +135,7 @@ export async function uploadBlobWithProgress(blob, serverUrl, onProgress) {
     };
 
     xhr.onerror = () => {
-      reject(new Error('Network error or file too big (max 500MB)'));
+      reject(new Error((blob.size / 1024 / 1024) > window.maxFileSize ? 'File too big (max ' + window.maxFileSize + 'MB)' : 'Network error'));
     };
 
     xhr.send(blob);

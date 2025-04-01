@@ -193,15 +193,25 @@ async function processFiles(files, dropAreaElement) {
     calculateFileHash(file)
   ]);
 
-  const [appData, allAssetsInformation] = await Promise.all([
+  const [appData, allAssetsInformation, fileExistsInBlossomServer] = await Promise.all([
     fetchAppData(hash),     // Get app data from legacy attestation.json
-    getAllAssetInformation({ sha256: hash })
+    getAllAssetInformation({ sha256: hash }),
+    checkBlossomFile(hash, true)
   ]);
   /////////////////////////////////////////////////////////////////////
 
   setFormFields(hash, appData, file.name, apkInfo);
 
-  displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, allAssetsInformation);
+  displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, allAssetsInformation, fileExistsInBlossomServer);
+
+  if (allAssetsInformation.assets?.size > 0 && !fileExistsInBlossomServer && (file.size / 1024 / 1024) <= maxFileSize) {
+    try {
+      document.getElementById('loadingSpinner').style.display = 'none';
+      await uploadToBlossom(file, hash);
+    } catch (error) {
+      console.error('Error uploading file to Blossom', error);
+    }
+  }
 
   if (appData) {  // We have legacy appData from attestation.json
     if (isPageForAppId(appData.appId)) {
@@ -241,7 +251,7 @@ async function handleUploadAsset(urlParams) {
   }
 }
 
-async function displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, allAssetsInformation) {
+async function displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, allAssetsInformation, fileExistsInBlossomServer) {
   let appTitle = null;
   let appId = null;
   let version = null;
@@ -295,7 +305,7 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, all
   fileInfoHtml += `<strong>SHA-256:</strong> ${hash}<br>`;
 
   if (isDebug()) {
-    fileInfoHtml += `<strong>${await checkBlossomFile(hash, true) ? 'File exists in Blossom' : 'File does not exist in Blossom'}</strong> <small>(overrides cache - only shown in debug envs)</small><br>`;
+    fileInfoHtml += `<strong>${fileExistsInBlossomServer ? 'File exists in Blossom' : 'File does not exist in Blossom'}</strong> <small>(overrides cache - only shown in debug envs)</small><br>`;
   }
 
   if (!appData && apkInfo) {
