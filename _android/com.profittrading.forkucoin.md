@@ -4,7 +4,7 @@ title: ProfitTradingApp For KuCoin
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.profittrading.forkucoin
 appCountry: 
 released: 2020-12-27

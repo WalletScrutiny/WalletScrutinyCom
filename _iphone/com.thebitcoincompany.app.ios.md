@@ -10,8 +10,8 @@ idd: '1600995023'
 released: 2022-03-17
 updated: 2025-02-04
 version: '1.36'
-stars: 4.1
-reviews: 29
+stars: 4
+reviews: 30
 website: https://thebitcoincompany.com
 repository: 
 issue: 

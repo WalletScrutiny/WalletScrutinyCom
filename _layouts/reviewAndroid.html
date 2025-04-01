@@ -7,102 +7,79 @@ layout: default
 </script>
 
 <div id="main" class="app-review" role="main">
-  {% if page.wsId %} 
-    <script>window.wsId="{{ page.wsId }}"</script> 
-  {% endif %}
-  <article class="page" style="float:{{ float }};" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="{{ page.altTitle | default: page.title | escape }}">
-    {% if page.excerpt %}
-      <meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">
+    {% if page.wsId %}
+    <script>window.wsId="{{ page.wsId }}"</script>
     {% endif %}
-    {% if page.date %}
-      <meta itemprop="datePublished" content="{{ page.date | date: " %B %d, %Y" }}">{% endif %}
-    {% if page.modified %}
-      <meta itemprop="dateModified" content="{{ page.modified | date: " %B %d, %Y" }}">{% endif %}
+    <article class="page" style="float:{{ float }};" itemscope itemtype="http://schema.org/CreativeWork">
+        <meta itemprop="headline" content="{{ page.altTitle | default: page.title | escape }}">
+        {% if page.excerpt %}
+        <meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">
+        {% endif %}
+        {% if page.date %}
+        <meta itemprop="datePublished" content="{{ page.date | date: " %B %d, %Y" }}">{% endif %}
+        {% if page.modified %}
+        <meta itemprop="dateModified" content="{{ page.modified | date: " %B %d, %Y" }}">{% endif %}
 
-    <div class="page__inner-wrap">
-      <div class="app-summary-grid">
-        <img src="/images/wIcons/{{ page.collection }}/{{ page.icon }}" class="app_logo_big" alt="Wallet Logo">
-        <div class="app-sum-head">
+        <div class="page__inner-wrap">
+            <div class="app-summary-grid">
+                <img src="/images/wIcons/{{ page.collection }}/{{ page.icon }}" class="app_logo_big" alt="Wallet Logo">
+                <div class="app-sum-head">
 
-          <h1 class="page__title -va-c" itemprop="headline">
-            {% if page.altTitle %}
-              {{ page.altTitle }}<br><span style="font-size: 30%;opacity:.3">(Actually "{{ page.title }}". For details read below.)</span>
-            {% else %}
-              {{ page.title | escape }}
-            {% endif %}
-          </h1>
+                    <h1 class="page__title -va-c" itemprop="headline">
+                        {% if page.altTitle %}
+                        {{ page.altTitle }}<br><span style="font-size: 30%;opacity:.3">(Actually "{{ page.title }}". For details read below.)</span>
+                        {% else %}
+                        {{ page.title | escape }}
+                        {% endif %}
+                    </h1>
 
-  
 
-          <a title="Google Play" href="https://play.google.com/store/apps/details?id={{ page.appId }}" class="link-web subtle">
-            <i class="fab fa-google-play"></i> Google Play
-          </a>
 
-          {% if page.version %}
-          <div title="Latest Release: {{ page.version }} - {{ page.updated | date_to_long_string: 'ordinal' }}" class="secondary-text">
-              Latest Release: 
-              {{ page.version }}
-                <span class="calculate-time-elapsed label-lower brackets" data="{{ page.updated | date: '%s' }}">
+                    <a title="Google Play" href="https://play.google.com/store/apps/details?id={{ page.appId }}" class="link-web subtle">
+                        <i class="fab fa-google-play"></i> Google Play
+                    </a>
+
+                    {% if page.version %}
+                    <div title="Latest Release: {{ page.version }} - {{ page.updated | date_to_long_string: 'ordinal' }}" class="secondary-text">
+                        Latest Release:
+                        {{ page.version }}
+                        <span class="calculate-time-elapsed label-lower brackets" data="{{ page.updated | date: '%s' }}">
               {{ page.updated | date_to_long_string: "ordinal" }}
             </span>
-          </div>
-          {% endif %}
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+
+            {% include /review/securityOverview.html wsId=page.wsId verdict=page.verdict meta=page.meta platform='android' filterPlatform='true' %}
+
+            {% include /review/nostrOpinion.html %}
+
+            <div class="article-after disclaimer">
+                {% include /review/disclaimer.html %}
+                {% include /review/ownResearch.html %}
+            </div>
+
+            {% if page.share %}
+            <div class="spacer x2"></div>
+
+            <div class="tab-view">
+                <div class="labels">
+                    <div class="label active" data-for="social-share" data-text="Share" data-suffix="on social media"></div>
+                    <div class="label" data-for="embed-widget" data-text="Embed" data-suffix="a widget on your website"></div>
+                    <div class="label" data-for="embed-image" data-text="Embed" data-suffix="an image on your website"></div>
+                    {% include_cached embed_pill_title.html verdict=page.verdict meta=page.meta %}
+                </div>
+                <div class="payloads">
+                    {% assign defaultMessage = page.title | append: ' on WalletScrutiny:' %}
+                    <div class="social-share active" style="margin-bottom: 20px; align-items: center; gap: 10px;">{% include shareButton.html defaultMessage=defaultMessage showRawButtons=true %}</div>
+                    <div class="embed-widget">{% include embed_widget.html %}</div>
+                    <div class="embed-image">{% include embed_image.html %}</div>
+                    {% include embed_pill_content.html verdict=page.verdict %}
+                </div>
+            </div>
+            {% endif %}
 
         </div>
-
-      </div>
-
-      <!-- Drag-and-Drop-Area Start -->
-      <div id="drop-area">
-        <form class="my-form">
-          <span class="drop-text">Drop file to verify</span>
-          <input type="file" id="fileElem" style="display: none;" />
-          <div id="select" class="hover-mode">
-            <br />
-            <span>or</span>
-            <br />
-            <label class="button" for="fileElem">Select a file</label>
-          </div>  
-        </form>
-        <div id="file-list">
-          <div id="app-data" class="textbox"></div>
-          <div id="file-info" class="textbox"></div>          
-          <div id="redirect-button" class="info-section"></div>
-        </div>
-      </div>
-      <!-- Drag-and-Drop-Area End -->
-       
-      {% include /review/securityOverview.html wsId=page.wsId verdict=page.verdict meta=page.meta platform='android' filterPlatform='true' %}
-
-      {% include /review/nostrOpinion.html %}
-
-      <div class="article-after disclaimer">
-        {% include /review/disclaimer.html %}
-        {% include /review/ownResearch.html %}
-      </div>
-
-      {% if page.share %}
-      <div class="spacer x2"></div>
-
-        <div class="tab-view">
-          <div class="labels">
-            <div class="label active" data-for="social-share" data-text="Share" data-suffix="on social media"></div>
-            <div class="label" data-for="embed-widget" data-text="Embed" data-suffix="a widget on your website"></div>
-            <div class="label" data-for="embed-image" data-text="Embed" data-suffix="an image on your website"></div>
-            {% include_cached embed_pill_title.html verdict=page.verdict meta=page.meta %}
-          </div>
-          <div class="payloads">
-            <div class="social-share active">{% include social-share.html %}</div>
-            <div class="embed-widget">{% include embed_widget.html %}</div>
-            <div class="embed-image">{% include embed_image.html %}</div>
-            {% include embed_pill_content.html verdict=page.verdict %}
-          </div>
-        </div>
-      {% endif %}
-
-    </div>
-  </article>
+    </article>
 </div>
-
-<script src="{{ '/dist/dragAndDrop.bundle.min.js' | relative_url }}"></script>

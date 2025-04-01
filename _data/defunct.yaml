@@ -1,21 +1,3 @@
-2025-03-11:
-- _android/com.cobak.android
-- _android/com.shiftmarkets.cointrader
-- _android/com.sonicwallet
-- _android/com.techbank
-- _android/com.techbank_dwallet
-- _android/com.trendo.android
-- _android/com.trendox.android
-- _android/ventures.aag.metaone
-- _iphone/co.cobak.cobak
-- _iphone/com.Techbank.Beeone
-- _iphone/com.techbank.dwallettb
-- _iphone/com.trader.brands.cfdglobal
-2025-03-14:
-- _android/com.bitcoinfuture.bitcoinfuture
-- _android/com.keystone.mobile
-- _android/com.trade.tech.android
-- _android/io.timexapp
 2025-03-17:
 - _iphone/ai.blockbank.blockbankv2
 - _android/com.exolix.app
@@ -36,3 +18,5 @@
 - _android/com.usscyber.xliquiduss.app
 - _android/io.blockbee.pos
 - _iphone/com.antier.infipay
+2025-03-29:
+- _android/com.bitgo.mobile

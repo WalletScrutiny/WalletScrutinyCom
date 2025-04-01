@@ -10,18 +10,23 @@ node scripts/migrate.mjs
 
 echo "Diff minus the boring stuff:"
 git diff --name-only | while read file; do
-  # Get the diff for this file only and filter boring stuff
-  filtered_diff=$(git diff -U0 --word-diff=color "$file" | grep -v "latest\|ratings\|reviews\|@\|index\|Binary\|apkVersionName\|updated\|^score:\|^rating\|^version\|^review\|^stars\|^users")
-  
-  # Extract actual content without headers
-  content=$(echo "$filtered_diff" | grep -v "^....diff\|^....--- \|^....+++ \|^@@\|^$" | grep -v "^\s*$")
-  
-  # Only show files with actual content changes
-  if [ -n "$content" ]; then
-    # Format the output as requested - filename as a comment followed by content
-    echo "# $file:"
-    echo "$content"
-    echo ""
+  # Check if the file exists in the working tree before trying to diff it
+  if git ls-files --error-unmatch "$file" &>/dev/null || [ -f "$file" ]; then
+    # Get the diff for this file only and filter boring stuff
+    filtered_diff=$(git diff -U0 --word-diff=color -- "$file" 2>/dev/null | grep -v "latest\|ratings\|reviews\|@\|index\|Binary\|apkVersionName\|updated\|^score:\|^rating\|^version\|^review\|^stars\|^users")
+    
+    # Extract actual content without headers
+    content=$(echo "$filtered_diff" | grep -v "^....diff\|^....--- \|^....+++ \|^@@\|^$" | grep -v "^\s*$")
+    
+    # Only show files with actual content changes
+    if [ -n "$content" ]; then
+      # Format the output as requested - filename as a comment followed by content
+      echo "# $file:"
+      echo "$content"
+      echo ""
+    fi
+  else
+    echo "# $file: (File was added, deleted or renamed)"
   fi
 done
 

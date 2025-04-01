@@ -7,12 +7,12 @@ users: 100
 appId: com.gk8.network
 appCountry: 
 released: 2021-09-01
-updated: 2025-03-20
-version: 15.1.0
+updated: 2025-03-27
+version: 15.1.2
 stars: 
 ratings: 
 reviews: 
-website: https://www.gk8.io/contact/
+website: https://www.gk8.io/contact-us/
 repository: 
 issue: 
 icon: com.gk8.network.png

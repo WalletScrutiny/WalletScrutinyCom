@@ -8,8 +8,8 @@ appId: com.unifiedsignal.ogpaywallet
 appCountry: us
 idd: 1471960731
 released: 2019-08-03
-updated: 2025-03-12
-version: '13.6'
+updated: 2025-03-28
+version: '13.9'
 stars: 4.7
 reviews: 242
 website: https://ogpaywallet.com/

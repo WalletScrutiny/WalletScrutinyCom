@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: io.timexapp.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-10-02
+date: 2025-03-29
 signer: 
 reviewArchive: 
 twitter: ExchangeTimex

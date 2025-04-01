@@ -1,6 +1,6 @@
 ---
 wsId: bitpaywallet
-title: 'BitPay: Secure Crypto Wallet'
+title: BitPay Bitcoin & Crypto Wallet
 altTitle: 
 authors:
 - leo
@@ -9,10 +9,10 @@ appId: com.bitpay.wallet
 appCountry: 
 idd: 1149581638
 released: 2016-10-24
-updated: 2025-01-29
-version: 14.28.2
+updated: 2025-03-26
+version: 14.29.6
 stars: 4.3
-reviews: 3166
+reviews: 3173
 website: https://bitpay.com
 repository: https://github.com/bitpay/bitpay-app
 issue: https://github.com/bitpay/bitpay-app/issues/686

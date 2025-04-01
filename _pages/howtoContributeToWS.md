@@ -1,9 +1,11 @@
 ---
-title: "How to Write an Analysis"
+title: "How to Contribute to WalletScrutiny"
 permalink: /howtoContributeToWS/
 ---
 
 WalletScrutiny aims to promote accountability and auditability in Bitcoin wallet security. Here’s how you can contribute:
+
+**Create Verifications:** Create verifications for wallets you have tried to verify. More info [here](/verifications/).
 
 **Write Opinions:** Share your insights on Bitcoin apps or devices, including opposing views. Write an opinion on a wallet. It will be shared to NOSTR to extend discussions beyond this website.
 

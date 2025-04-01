@@ -71,7 +71,7 @@ layout: default
           {% include_cached embed_pill_title.html verdict=page.verdict meta=page.meta %}
         </div>
         <div class="payloads">
-          <div class="social-share active">{% include social-share.html %}</div>
+          <div class="social-share active" style="margin-bottom: 20px; align-items: center; gap: 10px;">{% include shareButton.html defaultMessage=defaultMessage showRawButtons=true %}</div>
           <div class="embed-widget">{% include embed_widget.html %}</div>
           <div class="embed-image">{% include embed_image.html %}</div>
           {% include embed_pill_content.html verdict=page.verdict %}

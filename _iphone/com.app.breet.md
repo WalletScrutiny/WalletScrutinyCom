@@ -11,7 +11,7 @@ released: 2022-03-04
 updated: 2024-06-20
 version: 6.2.5
 stars: 4.4
-reviews: 943
+reviews: 947
 website: https://breet.app
 repository: 
 issue: 

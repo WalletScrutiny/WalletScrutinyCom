@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.bitcoinfuture.bitcoinfuture.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nowallet
 appHashes: 
-date: 2023-11-01
+date: 2025-03-29
 signer: 
 reviewArchive: 
 twitter: 

@@ -11,7 +11,7 @@ released: 2017-09-27
 updated: 2025-03-24
 version: '29.35'
 stars: 4.6
-reviews: 157459
+reviews: 157540
 website: https://www.coinbase.com/wallet
 repository: 
 issue: 

@@ -8,8 +8,8 @@ appId: com.revix.mobile
 appCountry: za
 idd: '1590491829'
 released: 2022-08-01
-updated: 2025-02-28
-version: 2.3.3
+updated: 2025-03-25
+version: 2.4.0
 stars: 3.9
 reviews: 28
 website: https://www.altify.app/
@@ -32,7 +32,7 @@ social:
 - https://t.me/revixinvest
 - https://www.tiktok.com/@revixinvest
 features: 
-developerName: Revix UK Ltd
+developerName: ALTIFY GROUP LIMITED
 
 ---
 

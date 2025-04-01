@@ -7,10 +7,10 @@ appId: jp.coincheck.ios
 appCountry: jp
 idd: 957130004
 released: 2015-01-21
-updated: 2025-03-19
-version: 4.16.5
+updated: 2025-03-26
+version: 4.16.6
 stars: 4.3
-reviews: 105528
+reviews: 105562
 website: https://coincheck.com
 repository: 
 issue: 

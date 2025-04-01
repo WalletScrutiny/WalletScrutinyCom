@@ -13,7 +13,7 @@ updated: 2025-03-21
 version: 25.13.4
 stars: 4.5
 ratings: 81868
-reviews: 8052
+reviews: 8058
 website: https://exodus.com/mobile
 repository: 
 issue: 

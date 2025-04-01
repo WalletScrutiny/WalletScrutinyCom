@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.trade.tech.android.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2024-07-19
+date: 2025-03-29
 signer: 
 reviewArchive: 
 twitter: 

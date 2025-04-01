@@ -11,7 +11,7 @@ released: 2018-08-22
 updated: 2025-03-19
 version: 4.9.8
 stars: 1
-reviews: 7
+reviews: 8
 website: https://plutus.it
 repository: 
 issue: 

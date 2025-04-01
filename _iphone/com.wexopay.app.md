@@ -11,7 +11,7 @@ released: 2021-02-09
 updated: 2025-03-14
 version: 3.1.0
 stars: 4.8
-reviews: 506
+reviews: 508
 website: https://wexopay.com
 repository: 
 issue: 

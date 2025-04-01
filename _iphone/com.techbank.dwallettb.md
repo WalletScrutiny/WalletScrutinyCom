@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.techbank.dwallettb.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2021-11-15
+date: 2025-03-29
 signer: 
 reviewArchive: 
 twitter: 

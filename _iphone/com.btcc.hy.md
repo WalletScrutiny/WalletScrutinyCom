@@ -11,7 +11,7 @@ released: 2019-05-11
 updated: 2025-03-17
 version: 8.8.04
 stars: 4.4
-reviews: 2578
+reviews: 2607
 website: https://www.btcc.com/en-US
 repository: 
 issue: 

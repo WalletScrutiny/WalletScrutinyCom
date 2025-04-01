@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.Techbank.Beeone.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-01-06
+date: 2025-03-29
 signer: 
 reviewArchive: 
 twitter: 

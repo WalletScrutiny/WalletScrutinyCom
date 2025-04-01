@@ -8,11 +8,11 @@ users: 10000
 appId: com.bmdf.lemonbitcoinfaucet
 appCountry: 
 released: 2022-07-05
-updated: 2025-03-17
-version: 4.2.0
+updated: 2025-03-28
+version: 4.3.0
 stars: 4
 ratings: 
-reviews: 14
+reviews: 15
 website: https://needbux.com/app-ads.txt
 repository: 
 issue: 

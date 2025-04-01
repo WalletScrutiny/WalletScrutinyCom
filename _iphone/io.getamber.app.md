@@ -11,7 +11,7 @@ released: 2021-06-21
 updated: 2024-11-05
 version: 5.5.0
 stars: 4.5
-reviews: 272
+reviews: 271
 website: http://amber.app/
 repository: 
 issue: 

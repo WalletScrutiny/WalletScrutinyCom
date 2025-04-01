@@ -10,7 +10,7 @@ released: 2020-08-10
 updated: 2025-03-19
 version: '209.0'
 stars: 4.8
-reviews: 21520
+reviews: 21587
 website: https://strike.me/en/
 repository: 
 issue: 

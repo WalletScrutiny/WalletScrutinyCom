@@ -8,11 +8,11 @@ users: 100000
 appId: i.brains.pandax
 appCountry: 
 released: 2020-06-14
-updated: 2025-03-18
+updated: 2025-03-25
 version: 3.1.0
 stars: 4.3
 ratings: 
-reviews: 244
+reviews: 245
 website: https://pandar.ng
 repository: 
 issue: 

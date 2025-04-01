@@ -8,8 +8,8 @@ appId: com.coinrepublic.app
 appCountry: au
 idd: '1540941971'
 released: 2020-11-28
-updated: 2025-03-23
-version: 2.9.3
+updated: 2025-03-26
+version: 2.9.4
 stars: 5
 reviews: 4
 website: https://www.coinrepublic.com.au/

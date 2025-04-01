@@ -12,7 +12,7 @@ updated: 2025-03-12
 version: 1.0.8
 stars: 4.3
 ratings: 
-reviews: 6
+reviews: 7
 website: https://proton.me
 repository: https://github.com/ProtonWallet/flutter-app
 issue: https://github.com/ProtonWallet/flutter-app/issues/4

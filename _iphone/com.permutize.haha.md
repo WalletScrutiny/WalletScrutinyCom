@@ -8,10 +8,10 @@ appId: com.permutize.haha
 appCountry: us
 idd: '1591158244'
 released: 2021-11-11
-updated: 2025-03-18
-version: 3.7.18
+updated: 2025-03-26
+version: 3.8.0
 stars: 4.8
-reviews: 374
+reviews: 386
 website: 
 repository: 
 issue: 

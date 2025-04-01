@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.trendox.android.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2023-07-18
+date: 2025-03-29
 signer: 
 reviewArchive: 
 twitter: 

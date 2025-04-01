@@ -8,11 +8,11 @@ users: 100000
 appId: com.astontek.stock
 appCountry: us
 released: 2020-03-16
-updated: 2025-03-14
-version: '7.48'
+updated: 2025-03-24
+version: '7.49'
 stars: 4.6
 ratings: 2711
-reviews: 1050
+reviews: 1051
 website: https://finabase.io
 repository: 
 issue: 

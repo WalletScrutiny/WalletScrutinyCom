@@ -11,7 +11,7 @@ released: 2020-10-14
 updated: 2025-03-18
 version: 1.214.6889
 stars: 4.3
-reviews: 147
+reviews: 148
 website: https://www.forex.com/en-uk/
 repository: 
 issue: 

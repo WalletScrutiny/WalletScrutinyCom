@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.trader.brands.cfdglobal.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosendreceive
 appHashes: 
-date: 2024-10-07
+date: 2025-03-29
 signer: 
 reviewArchive: 
 twitter: capex_en

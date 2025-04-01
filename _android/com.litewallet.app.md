@@ -1,5 +1,5 @@
 ---
-wsId: liteWallet
+wsId: 
 title: lite Wallet
 altTitle: 
 authors:

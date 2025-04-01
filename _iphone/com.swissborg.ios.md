@@ -11,7 +11,7 @@ released: 2020-03-31
 updated: 2025-03-17
 version: 1.105.0
 stars: 4.5
-reviews: 2248
+reviews: 2250
 website: https://swissborg.com
 repository: 
 issue: 

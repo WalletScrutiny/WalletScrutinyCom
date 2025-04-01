@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.cobak.android.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2021-09-03
+date: 2025-03-29
 signer: 
 reviewArchive: 
 twitter: CobakOfficial

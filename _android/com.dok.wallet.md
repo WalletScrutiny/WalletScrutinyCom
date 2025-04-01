@@ -4,7 +4,7 @@ title: Dok Wallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.dok.wallet
 appCountry: il
 released: 2020-09-28

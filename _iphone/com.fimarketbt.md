@@ -11,7 +11,7 @@ released: 2021-08-19
 updated: 2022-04-20
 version: '5.8'
 stars: 4
-reviews: 22
+reviews: 20
 website: https://fmcpay.com/
 repository: https://github.com/fimark-coin/Smartcontract
 issue: 
