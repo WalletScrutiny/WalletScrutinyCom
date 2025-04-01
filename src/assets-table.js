@@ -503,10 +503,10 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     hour: '2-digit',
     minute: '2-digit'
   })}</p>
-    <p><strong>Status: </strong> ${status === 'reproducible' ? '✅' : '❌'} ${getStatusText(status)} </p>`;
+    <p><strong>Build status: </strong> ${status === 'reproducible' ? '✅' : '❌'} ${getStatusText(status)} </p>`;
 
   if (otherVerificationsHTML !== '') {
-    content.innerHTML += `<p><strong>Other attempts by this user:</strong> ${otherVerificationsHTML}</p>`;
+    content.innerHTML += `<p><strong>Other build attempts by this user:</strong> ${otherVerificationsHTML}</p>`;
   }
 
   const itemContent = JSON.parse(verification.content).content;
