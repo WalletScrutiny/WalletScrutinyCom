@@ -3,21 +3,23 @@
 <script type="text/javascript" src="{{ base_path }}/assets/js/color-thief.umd.js"></script>
 {% if page.layout contains "review" %}
 <script type="text/javascript" src="{{ base_path }}/assets/js/review.js"></script>
+<script type="text/javascript" src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
 {% endif %}
 {% if page.url == "/" %}
+<script type="text/javascript" src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
 <script type="text/javascript" src="{{ base_path }}/assets/js/ui-components.js"></script>
 <script type="text/javascript" src="{{ base_path }}/assets/js/landingPageWalletGrid.js"></script>
 {% endif %}
 <script type="text/javascript" src="{{ base_path }}/fewWallets.js"></script>
 <script>
-    window.addEventListener('load', function() {
-        const script = document.createElement('script');
-        script.onload = () => {
-          window.dispatchEvent(new CustomEvent("allWalletsLoaded"));
-        };
-        script.src = '{{ base_path }}/allWallets.js';
-        document.body.appendChild(script);
-    });
+  window.addEventListener('load', function() {
+    const script = document.createElement('script');
+    script.onload = () => {
+      window.dispatchEvent(new CustomEvent("allWalletsLoaded"));
+    };
+    script.src = '{{ base_path }}/allWallets.js';
+    document.body.appendChild(script);
+  });
 </script>
 <script type="text/javascript" defer src="{{ base_path }}/assets/js/searchWallets.js"></script>
 <script type="text/javascript" src="{{ base_path }}/assets/js/walletsJSON.js"></script>

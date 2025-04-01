@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.techbank.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nobtc
 appHashes: 
-date: 2023-12-16
+date: 2025-03-29
 signer: 
 reviewArchive: 
 twitter: 

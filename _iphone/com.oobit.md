@@ -8,8 +8,8 @@ appId: com.oobit
 appCountry: br
 idd: '1598882898'
 released: 2022-02-05
-updated: 2025-03-09
-version: 1.8.0
+updated: 2025-03-19
+version: 1.8.1
 stars: 2.3
 reviews: 3
 website: https://www.oobit.com/

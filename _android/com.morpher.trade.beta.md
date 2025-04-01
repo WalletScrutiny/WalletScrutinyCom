@@ -10,7 +10,7 @@ appCountry:
 released: 2023-02-02
 updated: 2025-03-03
 version: 0.1.41
-stars: 4.6
+stars: 4.4
 ratings: 
 reviews: 5
 website: https://www.morpher.com

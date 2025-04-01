@@ -4,7 +4,7 @@ title: ALX Wallet
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: com.prodoge.prodoge
 appCountry: 
 released: 2019-09-17

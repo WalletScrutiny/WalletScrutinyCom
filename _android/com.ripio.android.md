@@ -8,8 +8,8 @@ users: 1000000
 appId: com.ripio.android
 appCountry: 
 released: 2015-06-01
-updated: 2025-03-13
-version: 6.1.24
+updated: 2025-03-19
+version: 6.1.25
 stars: 3.7
 ratings: 34376
 reviews: 174

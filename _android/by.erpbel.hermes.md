@@ -32,7 +32,7 @@ social:
 - https://t.me/bynex_info
 - https://www.youtube.com/@bynex4637
 redirect_from: 
-developerName: BYNEX
+developerName: Bynex
 features: 
 
 ---

@@ -8,8 +8,8 @@ appId: com.cakedefi.app
 appCountry: la
 idd: 1564415526
 released: 2021-06-15
-updated: 2025-01-15
-version: 7.2.0
+updated: 2025-03-26
+version: 7.3.0
 stars: 0
 reviews: 0
 website: https://bake.io
@@ -29,7 +29,7 @@ social:
 - https://www.facebook.com/cakedefi
 - https://www.reddit.com/r/cakedefi
 features: 
-developerName: Cake DeFi
+developerName: GS Fintech UAB
 
 ---
 

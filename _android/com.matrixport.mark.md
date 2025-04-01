@@ -8,9 +8,9 @@ users: 100000
 appId: com.matrixport.mark
 appCountry: cn
 released: 2019-10-23
-updated: 2025-03-17
-version: 3.2.1
-stars: 3.9
+updated: 2025-03-21
+version: 3.2.2
+stars: 4
 ratings: 1103
 reviews: 866
 website: https://invest.matrixport.com

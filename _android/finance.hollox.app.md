@@ -12,7 +12,7 @@ updated: 2024-10-04
 version: 6.0.4
 stars: 5
 ratings: 
-reviews: 6
+reviews: 7
 website: https://hollox.finance/
 repository: 
 issue: 

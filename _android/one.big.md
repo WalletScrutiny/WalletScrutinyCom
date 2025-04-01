@@ -8,8 +8,8 @@ users: 100000
 appId: one.big
 appCountry: us
 released: 2019-10-30
-updated: 2025-02-28
-version: 2.5.4
+updated: 2025-03-25
+version: 2.5.5
 stars: 4
 ratings: 836
 reviews: 56

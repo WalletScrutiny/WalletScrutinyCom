@@ -10,8 +10,8 @@ idd: '1530022030'
 released: 2020-12-13
 updated: 2025-03-11
 version: 6.0.4
-stars: 4.6
-reviews: 187
+stars: 4.5
+reviews: 185
 website: https://www.cmorq.com/
 repository: 
 issue: 

@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.vowcurrency.vow.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
 appHashes: 
-date: 2023-07-24
+date: 2025-03-25
 signer: 
 reviewArchive: 
 twitter: vowcurrency

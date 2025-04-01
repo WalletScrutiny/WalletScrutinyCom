@@ -1,12 +1,9 @@
 <div class="hero">
-
   <div class="hero-text">
     <div id="exitSearchTrigger"></div>
     <h1 class="page__title" itemprop="headline">Know your wallet like you built it.</h1>
 
     <h2>Not everyone is a developer. Not everyone has to be.</h2>
-
-    <p>WalletScrutiny helps everyday bitcoin users verify whether or not their wallet is truly open-source and secure. Enter your wallet's name to get started.</p>
 
     <div class="link-organiser">
       <a href="#learnMore" class="">Learn more</a>
@@ -14,5 +11,18 @@
       <a href="/publications" class="">Publications</a>
     </div>
 
+    <p>WalletScrutiny helps everyday bitcoin users verify whether or not their wallet is truly open-source and secure. Enter your wallet's name to get started<span class="bigScreenOnly">, or drag and drop your wallet's binaries here</span>.</p>
+
+    <!-- Drop area -->
+    <style>
+      .drop-areas {
+        padding: 2.5em;
+        padding-left: 4em;
+        padding-right: 4em;
+      }
+    </style>
+
+    {% include /verifications/dragAndDropArea.html buttonMessage="Drop binary to verify" %}
+    <!-- Drop area end -->
   </div>
 </div>

@@ -1,6 +1,6 @@
 ---
 wsId: bitrefill
-title: Bitrefill - Live on Crypto
+title: Bitrefill - Shop with Crypto
 altTitle: 
 authors:
 - leo
@@ -8,8 +8,8 @@ users: 500000
 appId: com.bitrefill.app
 appCountry: 
 released: 2018-04-10
-updated: 2025-02-28
-version: 2.8.2
+updated: 2025-03-21
+version: 2.9.0
 stars: 4.2
 ratings: 1039
 reviews: 193

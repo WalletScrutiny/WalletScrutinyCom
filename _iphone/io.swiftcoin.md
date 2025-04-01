@@ -8,8 +8,8 @@ appId: io.swiftcoin
 appCountry: my
 idd: '6443595428'
 released: 2023-04-03
-updated: 2025-01-22
-version: 3.1.0
+updated: 2025-03-24
+version: 3.1.1
 stars: 5
 reviews: 9
 website: 

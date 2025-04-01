@@ -10,7 +10,7 @@ appCountry:
 released: 2018-09-19
 updated: 2024-12-10
 version: 1.2.2
-stars: 3.8
+stars: 3.9
 ratings: 
 reviews: 6
 website: http://everdreamsoft.com

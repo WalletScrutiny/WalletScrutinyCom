@@ -10,8 +10,8 @@ idd: '6468963677'
 released: 2024-01-22
 updated: 2025-03-13
 version: 3.1.1
-stars: 3.6
-reviews: 53
+stars: 3.7
+reviews: 57
 website: https://osl.com
 repository: 
 issue: 

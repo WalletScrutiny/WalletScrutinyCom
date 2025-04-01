@@ -11,7 +11,7 @@ released: 2024-03-26
 updated: 2025-03-14
 version: 1.5.2
 stars: 5
-reviews: 3
+reviews: 4
 website: https://www.coinlink.tech
 repository: 
 issue: 

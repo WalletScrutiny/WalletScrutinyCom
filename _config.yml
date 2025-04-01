@@ -126,22 +126,27 @@ exclude:
   - "*.sublime-workspace"
   - .asset-cache
   - .bundle
+  - .git
   - .idea
   - .jekyll-cache
   - .sass-cache
   - CHANGELOG
   - Capfile
   - Gemfile
+  - Gemfile.lock
   - Gruntfile.js
   - LICENSE
   - README
+  - CONTRIBUTING.md
   - Rakefile
   - assets/js/_main.js
   - assets/js/plugins
   - assets/js/vendor
   - assets/css/barlow.css
   - assets/css/styles.css
+  - backup
   - config
+  - docs
   - webpack.config.js
   - log
   - node_modules
@@ -151,8 +156,10 @@ exclude:
   - vendor
   - resSources
   - scripts
-  - "refresh*.mjs"
-  - google-play-scraper
+  - src
+  - /*.sh
+  - /*.mjs
+
 keep_files:
   - .git
 encoding: "utf-8"

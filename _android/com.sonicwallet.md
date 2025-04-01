@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.sonicwallet.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-07-24
+date: 2025-03-29
 signer: 
 reviewArchive: 
 twitter: SonicWalletHQ

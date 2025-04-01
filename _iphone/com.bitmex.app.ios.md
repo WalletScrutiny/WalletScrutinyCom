@@ -8,8 +8,8 @@ appId: com.bitmex.app.ios
 appCountry: bh
 idd: '1589023233'
 released: 2022-04-11
-updated: 2025-02-25
-version: 2.5.8
+updated: 2025-03-21
+version: 2.5.9
 stars: 0
 reviews: 0
 website: https://www.bitmex.com/

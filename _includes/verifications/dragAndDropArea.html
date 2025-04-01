@@ -1,0 +1,20 @@
+<!-- Drag-and-Drop-Area Start -->
+<div class="drop-areas bigScreenOnly">
+    <form class="my-form" id="dropForm-{{ 'now' | date: '%s%N' | append: '' | random }}">
+        <span class="drop-text">{{ include.buttonMessage | default: 'Drop file to verify' }}</span>
+        {% assign randomId = 'now' | date: '%s%N' | append: '' | random %}
+        <input type="file" id="fileElem-{{ randomId }}" style="display: none;" class="fileElems" />
+        <div id="select" class="hover-mode">
+            <br />
+            <span>or</span>
+            <br />
+            <label class="button button-label" for="fileElem-{{ randomId }}">Select a file</label>
+            <span style="font-size: 16px;"><a href="/verifications/" target="_blank">Learn more</a></span>
+        </div>
+    </form>
+    <div id="file-list">
+        <div id="file-info" class="textbox drop-area-textbox"></div>
+        <div class="textbox blossom-upload-status" style="display: none;"></div>
+    </div>
+</div>
+<!-- Drag-and-Drop-Area End -->

@@ -4,13 +4,12 @@
 {% assign wsId = include.wsId %}
 {% assign filterPlatform = include.filterPlatform %}
 <div class="security-overview">
-  <h2>Our wallet review process</h2>
-  <p>We examine wallets starting at the code level and continue all the way up to the finished app that lives on your device. Provided below is an outline of each of these steps along with security tips for you and general test results.</p>
-  <div class="spacer"></div>
-  {% include /review/securitySteps.html platform=platform filterPlatform=filterPlatform meta=meta verdict=verdict %}
-  {% include /review/seeAlso.html wsId=wsId platform=platform %}
-  <div class="spacer x2"></div>
-  {% include /review/results.html %}
-  {% include /review/archive.html %}
-  <div class="spacer x2"></div>
+    <h2>Our wallet review process</h2>
+    <p>We examine wallets starting at the code level and continue all the way up to the finished app that lives on your device. Provided below is an outline of each of these steps along with security tips for you and general test results.</p>
+    <div class="spacer"></div>
+    {% include /review/securitySteps.html platform=platform filterPlatform=filterPlatform meta=meta verdict=verdict %}
+    {% include /review/seeAlso.html wsId=wsId platform=platform %}
+    <div class="spacer x2"></div>
+    {% include /review/results.html %}
+    <div class="spacer x2"></div>
 </div>

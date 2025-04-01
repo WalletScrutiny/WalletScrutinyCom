@@ -12,7 +12,7 @@ updated: 2025-03-10
 version: 1.50.3
 stars: 3.7
 ratings: 39950
-reviews: 2244
+reviews: 2246
 website: https://www.Coinomi.com
 repository: 
 issue: 

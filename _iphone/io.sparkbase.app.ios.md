@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: io.sparkbase.app.ios.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: nowallet
 appHashes: 
-date: 2024-03-30
+date: 2025-03-25
 signer: 
 reviewArchive: 
 twitter: 

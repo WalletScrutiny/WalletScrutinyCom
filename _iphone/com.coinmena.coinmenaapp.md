@@ -11,7 +11,7 @@ released: 2021-09-26
 updated: 2025-03-18
 version: 2.14.7
 stars: 3.8
-reviews: 85
+reviews: 86
 website: https://www.coinmena.com/
 repository: 
 issue: 

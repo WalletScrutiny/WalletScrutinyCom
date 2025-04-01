@@ -12,7 +12,7 @@ updated: 2025-02-12
 version: 3.0.31
 stars: 4.7
 ratings: 15803
-reviews: 25
+reviews: 26
 website: https://www.giottus.com
 repository: 
 issue: 

@@ -12,17 +12,33 @@
   // padding-right: 1em;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
-  max-width: 1200px !important;
   width: 95vw !important;
+  flex: 1 0 auto;
+  max-width: 100%;
+  @media (min-width: 768px) {
+    max-width: 90%;
+  }
+  @media (min-width: 1024px) {
+    max-width: 85%;
+  }
+  @media (min-width: 1440px) {
+    max-width: 80%;
+  }
+  @media (min-width: 1920px) {
+    max-width: 75%;
+  }
+  @media (min-width: 2560px) {
+    max-width: 60%;
+  }
   flex: 1 0 auto;
 }
 
 
 .page {
-    // width: 80%;
-    margin: auto;
-    padding: 0;
-    // float: right;
+  // width: 80%;
+  margin: auto;
+  padding: 0;
+  // float: right;
 
 
 

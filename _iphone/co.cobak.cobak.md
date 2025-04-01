@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: co.cobak.cobak.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2021-09-03
+date: 2025-03-29
 signer: 
 reviewArchive: 
 twitter: CobakOfficial

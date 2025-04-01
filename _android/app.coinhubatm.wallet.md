@@ -8,7 +8,7 @@ users: 5000
 appId: app.coinhubatm.wallet
 appCountry: 
 released: 2022-12-11
-updated: 2024-11-20
+updated: 2025-03-24
 version: 4.16.0
 stars: 4
 ratings: 
