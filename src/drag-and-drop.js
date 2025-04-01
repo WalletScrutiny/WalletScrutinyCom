@@ -11,6 +11,7 @@ import {
 import { isDebug } from './verifications_utils.mjs';
 
 const uploadsActivated = true;
+const maxFileSize = 500;  // MB
 
 document.addEventListener("DOMContentLoaded", async function () {
   initializeDragAndDrop();
@@ -219,13 +220,23 @@ async function processFiles(files, dropAreaElement) {
 
 async function handleUploadAsset(urlParams) {
   if (uploadsActivated) {
-    document.getElementById('loadingSpinner').style.display = 'block';
     try {
-      await uploadToBlossom(window.currentFile, window.currentHash);
+      const fileSize = window.currentFile.size / 1024 / 1024;
+
+      if (fileSize > maxFileSize) {
+        showToast('The file is too large to be uploaded, but you can still register it on Nostr.', 'info');
+        await new Promise(resolve => setTimeout(resolve, 6000));
+      } else {
+        document.getElementById('loadingSpinner').style.display = 'block';
+        await uploadToBlossom(window.currentFile, window.currentHash);
+        document.getElementById('loadingSpinner').style.display = 'none';
+        showToast('The file has been correctly uploaded to our server. You can now register it on Nostr.');
+      }
+
       window.location.href = `/new_asset/${urlParams}`;
     } catch (error) {
-      showToast('It was impossible to upload the file to our server. Please try again.', 'error');
       document.getElementById('loadingSpinner').style.display = 'none';
+      showToast('It was impossible to upload the file to our server. Please try again.', 'error');
     }
   }
 }
@@ -280,7 +291,7 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, all
   }
 
   fileInfoHtml += `<strong>File:</strong> ${file ? file.name : 'N/A'}<br>`;
-  fileInfoHtml += `<strong>Size:</strong> ${file ? formatFileSize(file.size) : 'N/A'}<br>`;
+  fileInfoHtml += `<strong>Size:</strong> ${formatFileSize(file.size) ?? 'N/A'} ${(file.size / 1024 / 1024) > maxFileSize ? ` <span style="color: red;">(upload size limit is ${maxFileSize} MB)</span>` : ''}<br>`;
   fileInfoHtml += `<strong>SHA-256:</strong> ${hash}<br>`;
 
   if (isDebug()) {
@@ -347,3 +358,4 @@ async function fetchAppData(hash) {
 }
 
 window.handleUploadAsset = handleUploadAsset;
+window.maxFileSize = maxFileSize;

@@ -127,7 +127,7 @@ async function handleSubmit(event) {
   try {
     await createAssetRegistration(formData);
 
-    if (window.currentFile && window.currentHash) {
+    if (window.currentFile && window.currentHash && ((window.currentFile.size / 1024 / 1024) <= maxFileSize)) {
       await uploadToBlossom(window.currentFile, window.currentHash);
     }
 
