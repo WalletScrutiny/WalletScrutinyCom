@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.vndc.app.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
 date: 2023-01-11

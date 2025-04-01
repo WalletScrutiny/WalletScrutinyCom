@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.swapuz.mobile.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: fewusers
 appHashes: 
 date: 2024-12-15

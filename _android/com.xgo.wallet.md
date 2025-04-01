@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.xgo.wallet.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
 date: 2024-02-05

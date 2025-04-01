@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.simpleswapapp.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nowallet
 appHashes: 
 date: 2024-10-12

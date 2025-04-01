@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: io.lisk.mobile.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nobtc
 appHashes: 
 date: 2024-12-15

@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.sessipapp.Sessip.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
 date: 2024-07-05

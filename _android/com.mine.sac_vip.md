@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.mine.sac_vip.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: fewusers
 appHashes: 
 date: 2024-03-02

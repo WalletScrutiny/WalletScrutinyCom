@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.ofinans.miraclepos.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: fewusers
 appHashes: 
 date: 2024-09-08

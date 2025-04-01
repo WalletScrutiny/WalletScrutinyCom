@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.wRolariteX_12668517.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nowallet
 appHashes: 
 date: 2024-11-12

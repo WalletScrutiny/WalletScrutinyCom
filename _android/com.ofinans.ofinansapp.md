@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.ofinans.ofinansapp.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
 date: 2024-09-08

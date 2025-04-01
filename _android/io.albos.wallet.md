@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: io.albos.wallet.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: fewusers
 appHashes: 
 date: 2024-02-05

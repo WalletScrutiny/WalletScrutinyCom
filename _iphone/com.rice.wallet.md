@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.rice.wallet.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nobtc
 appHashes: 
 date: 2025-01-06

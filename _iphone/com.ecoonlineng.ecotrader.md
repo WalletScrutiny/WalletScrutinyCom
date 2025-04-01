@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.ecoonlineng.ecotrader.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nowallet
 appHashes: 
 date: 2025-01-15

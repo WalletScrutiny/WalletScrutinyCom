@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.devere.dcx.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosendreceive
 appHashes: 
 date: 2025-01-15

@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.chainup.exchange.BKX.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: fewusers
 appHashes: 
 date: 2024-11-21

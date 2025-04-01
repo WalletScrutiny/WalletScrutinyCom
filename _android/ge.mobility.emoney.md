@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: ge.mobility.emoney.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: wip
 appHashes: 
 date: 2024-04-19

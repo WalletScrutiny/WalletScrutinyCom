@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.techx.arya.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nowallet
 appHashes: 
 date: 2023-12-19

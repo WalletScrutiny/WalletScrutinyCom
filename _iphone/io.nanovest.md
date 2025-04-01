@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: io.nanovest.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
 date: 2024-10-23

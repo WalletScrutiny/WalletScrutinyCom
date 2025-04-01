@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.pallapay.application.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
 date: 2025-02-13

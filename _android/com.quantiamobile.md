@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.quantiamobile.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: fewusers
 appHashes: 
 date: 2024-04-19

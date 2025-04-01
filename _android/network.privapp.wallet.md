@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: network.privapp.wallet.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosource
 appHashes: 
 date: 2024-12-15

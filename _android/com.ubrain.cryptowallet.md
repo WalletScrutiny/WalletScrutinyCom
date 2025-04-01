@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.ubrain.cryptowallet.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: fewusers
 appHashes: 
 date: 2024-11-12

@@ -19,7 +19,7 @@ repository:
 issue: 
 icon: com.ankerpay.wallet.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosource
 appHashes: 
 date: 2024-09-10

@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.christonet.leobitcoin.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: fewusers
 appHashes: 
 date: 2025-01-09

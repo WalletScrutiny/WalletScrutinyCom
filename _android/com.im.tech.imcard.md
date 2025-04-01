@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.im.tech.imcard.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: fewusers
 appHashes: 
 date: 2024-08-31

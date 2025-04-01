@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: net.primecoin.app.gemmer.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: fewusers
 appHashes: 
 date: 2024-12-15

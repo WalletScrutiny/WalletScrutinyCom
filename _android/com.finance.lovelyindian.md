@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.finance.lovelyindian.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: wip
 appHashes: 
 date: 2023-08-04

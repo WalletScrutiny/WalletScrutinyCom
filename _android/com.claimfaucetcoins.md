@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.claimfaucetcoins.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nowallet
 appHashes: 
 date: 2024-02-05

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: io.kasta.app.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
 date: 2024-03-02

@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: io.bytedex.mobile.tr.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
 date: 2024-12-08

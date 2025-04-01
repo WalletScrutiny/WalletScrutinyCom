@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.icmarkets.mobileapp.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosendreceive
 appHashes: 
 date: 2023-12-19

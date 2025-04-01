@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.companyname.swaptobe.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
 date: 2024-11-29

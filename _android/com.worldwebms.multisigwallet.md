@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.worldwebms.multisigwallet.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosource
 appHashes: 
 date: 2024-11-21

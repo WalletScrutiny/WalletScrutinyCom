@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.hrdgcoin.hrdgwallet.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosource
 appHashes: 
 date: 2024-10-08

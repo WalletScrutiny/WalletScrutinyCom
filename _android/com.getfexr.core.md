@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.getfexr.core.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: fewusers
 appHashes: 
 date: 2025-02-13

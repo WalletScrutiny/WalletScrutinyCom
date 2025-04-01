@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.funex.coin.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
 date: 2024-10-23

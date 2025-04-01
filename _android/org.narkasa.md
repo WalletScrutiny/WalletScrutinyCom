@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: org.narkasa.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
 date: 2024-04-03

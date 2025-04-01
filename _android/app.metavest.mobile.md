@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: app.metavest.mobile.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
 date: 2024-11-12

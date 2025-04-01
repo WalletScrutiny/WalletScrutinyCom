@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.coininn.yykik.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
 date: 2025-01-06

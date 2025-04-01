@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.claimersmulticoins.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nowallet
 appHashes: 
 date: 2023-12-19

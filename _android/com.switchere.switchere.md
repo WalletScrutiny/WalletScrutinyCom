@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.switchere.switchere.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
 date: 2025-03-19

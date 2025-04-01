@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: io.laxya.laxya.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nowallet
 appHashes: 
 date: 2024-09-25

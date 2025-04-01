@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.tradesanta.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nowallet
 appHashes: 
 date: 2025-02-13

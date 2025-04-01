@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.barongxtrade.users.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: fewusers
 appHashes: 
 date: 2023-09-15

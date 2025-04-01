@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.imermarket.invesacapital.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosendreceive
 appHashes: 
 date: 2024-08-15

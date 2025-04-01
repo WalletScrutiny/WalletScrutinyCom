@@ -20,7 +20,7 @@ repository: https://github.com/bither/bither-android
 issue: https://github.com/bither/bither-android/issues/69
 icon: net.bither.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: obfuscated
 appHashes: 
 date: 2024-11-07

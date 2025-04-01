@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.koinkoin.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
 date: 2024-11-04

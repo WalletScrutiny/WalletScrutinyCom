@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.zbx.www.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
 date: 2023-04-16

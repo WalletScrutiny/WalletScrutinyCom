@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.app.orbitnetwork.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosendreceive
 appHashes: 
 date: 2024-12-15

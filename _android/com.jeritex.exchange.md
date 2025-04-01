@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.jeritex.exchange.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
 date: 2024-08-31
