@@ -9,7 +9,7 @@ authors:
 released: 2018-03-01
 discontinued: 
 updated: 2024-08-04
-version: 2.8.1
+version: 2.8.9
 binaries: https://github.com/trezor/webwallet-data/tree/master/firmware/2
 dimensions:
 - 64
@@ -27,14 +27,14 @@ issue:
 icon: trezorT.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
+verdict: reproducible
 appHashes:
-- 5df0ff6efe28f68dd4411629c8dc9d430bd5996d5a1e5118091c266e46d375a1
+- 482f6e49e61a85f8e9e9f5bafecccb313eb81efec5f795cca88c36df795e8910
 - ec61dba50be195f1cbb78688a0b92fb293c23150b68f5dab3b44420a106fca17
 - e5878fa067df9d1256cdcd86f10869930d85e090c39f807c23f8845472e8d995
 - 16c98a0ce67a84723f053da98a02cfa79717af85bd73df52acafc6c37aeebe94
 - 41264414de602fcf92c60ec8d1111f844080eaec157c4bbc9f1f29172f2afba2
-date: 2025-03-24
+date: 2025-04-01
 signer: 
 reviewArchive:
 - date: 2024-10-10
@@ -104,9 +104,7 @@ We were able to create a script for the Trezor T with the build instruction, tha
 Built from commit fad9682201cf9289bba2adb66e6e07ed1cf78936
 
 Fingerprints:
-5df0ff6efe28f68dd4411629c8dc9d430bd5996d5a1e5118091c266e46d375a1 build/core-T2T1/bootloader/bootloader.bin
 ec61dba50be195f1cbb78688a0b92fb293c23150b68f5dab3b44420a106fca17 build/core-T2T1/firmware/firmware.bin
-5df0ff6efe28f68dd4411629c8dc9d430bd5996d5a1e5118091c266e46d375a1 build/core-T2T1-bitcoinonly/bootloader/bootloader.bin
 e5878fa067df9d1256cdcd86f10869930d85e090c39f807c23f8845472e8d995 build/core-T2T1-bitcoinonly/firmware/firmware.bin
 
 Comparing hashes of zeroed binaries with built firmware:
@@ -115,76 +113,38 @@ Comparing hashes of zeroed binaries with built firmware:
 41264414de602fcf92c60ec8d1111f844080eaec157c4bbc9f1f29172f2afba2 build/core-T2T1-bitcoinonly/firmware/firmware.bin
 41264414de602fcf92c60ec8d1111f844080eaec157c4bbc9f1f29172f2afba2 trezor-core-2.8.9-bitcoinonly.bin.zeroed
 ```
+
 In the development of the Trezor T firmware version 2.8.9, we encountered a significant bootloader verification challenge:
 
-The changelog indicates firmware 2.8.9 includes bootloader version 2.1.10. When building from firmware 2.8.9 (core/v2.8.9), the embedded bootloader produces a hash:
+## Bootloader Verification Update (April 2025)
+
+The Trezor [firmware changelog](https://github.com/trezor/trezor-firmware/blob/7248bf2a484de1611b906fb7aa915f5d6394d510/core/CHANGELOG.md#L4).
+
+Initially, we encountered discrepancies between bootloader versions when attempting to verify firmware 2.8.9. With guidance from Trezor developers, we identified that version 2.8.9 of the trezor T firmware used bootloader version 2.1.8 - and not 2.1.10 as earlier seen. We verified this in the **[releases.json](https://data.trezor.io/firmware/t2t1/releases.json)** file found on Trezor's website.
+
+We developed an enhanced verification script that:
+1. Extracts the exact bootloader version from the firmware's releases.json
+2. Clones the repository twice - once for building the bootloader and once for extracting the reference bootloader
+3. Utilizes Trezor's `headertool.py` utility to extract detailed fingerprint information from both bootloaders
+
+This approach revealed that for firmware 2.8.9 (using bootloader 2.1.8), the built bootloader's hash (482f6e49e61a85f8e9e9f5bafecccb313eb81efec5f795cca88c36df795e8910) perfectly matches the reference bootloader embedded in the firmware repository. This confirms that the bootloader is indeed reproducible when built with the correct version tag.
+
 ```
-5df0ff6efe28f68dd4411629c8dc9d430bd5996d5a1e5118091c266e46d375a1
+Comparing bootloaders:
+========================================
+The fingerprint for bootloader version 2.1.8 is:
+Using headertool.py we have the values:
+Built Bootloader version:  2.1.8.0
+Built Bootloader hash:     482f6e49e61a85f8e9e9f5bafecccb313eb81efec5f795cca88c36df795e8910
+Provided Bootloader version: 2.1.8.0
+Provided Bootloader hash:    482f6e49e61a85f8e9e9f5bafecccb313eb81efec5f795cca88c36df795e8910
+Version MATCH: Both bootloaders have the same version
+Hash MATCH: Both bootloaders have the same hash
+========================================
 ```
 
-But when building bootloader 2.1.10 directly (core/bl2.1.10) with the command `./build-docker.sh --models T2T1 --targets bootloader core/bl2.1.10`, we get a different hash:
-```
-a790e46d7a471007d207c9625d231c8a78438abb9d62c179f866e98fb72401f5 build/core-T2T1/bootloader/bootloader.bin
-```
-
-The hash mismatch between the firmware-embedded bootloader and our directly built bootloader raises some uncertainties about reproducibility. Without detailed documentation of Trezor's bootloader signing process or access to their signed bootloader binaries, it's challenging to determine whether this difference is due to signing, build parameters, or other factors.  
-
-While the firmware itself appears reproducible (as the zeroed firmware hashes match), verifying the bootloader remains inconclusive. This highlights the potential benefit of more transparency around the bootloader build and signing process.
-
-**Version 2.8.9 of the {{ page.title }} is non-verifiable**.
+**Version 2.8.9 of the {{ page.title }} is reproducible**.
 
 {% include asciicast %}
 
 
-## Updated Review 2024-10-10
-
-There was a change in the directory name containing the binaries so we've had to modify the script itself.
-With our
-[test script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/master/scripts/test/hardware/trezorT.sh)
-this is the result:
-
-```
-$ ./scripts/test/hardware/trezorT.sh 2.8.1
-...
-Fingerprints:
-394a814e7ad10ae77bd73df485e9eb4234084973031ca25d864dd811f431bf0b build/core-R/bootloader/bootloader.bin
-cc4ec6f5904ec0246e83efb6e93aad4365d4269708c6699a8d49e29fdc281104 build/core-R/firmware/firmware.bin
-394a814e7ad10ae77bd73df485e9eb4234084973031ca25d864dd811f431bf0b build/core-R-bitcoinonly/bootloader/bootloader.bin
-9431a545a8ee2f6b222a23f7ccb910ca69b3e86a253d71719cadd8afb0b8ae2b build/core-R-bitcoinonly/firmware/firmware.bin
-2e4ad54edac5e0a13514c84603e053167142babf5f4d9ed4ec0e72ca748e0051 build/core-T/bootloader/bootloader.bin
-d3af84a212d32785449ca6575e3cf2a641920b353a82dec9f059083ea5d4b149 build/core-T/firmware/firmware.bin
-2e4ad54edac5e0a13514c84603e053167142babf5f4d9ed4ec0e72ca748e0051 build/core-T-bitcoinonly/bootloader/bootloader.bin
-38ab127fcf4263a18a3b07593301fdd2c6a1a96360b62c131adb849b5d18fae3 build/core-T-bitcoinonly/firmware/firmware.bin
-6ac53b9c78ff620508441714ae8ab07e18129f64c3c001ccd1239ad130bfd46f build/core-T3T1/bootloader/bootloader.bin
-6a064df4a928e1264d682a34cc014fc9272f312e0f8a8270ff88d6f1408fe68b build/core-T3T1/firmware/firmware.bin
-6ac53b9c78ff620508441714ae8ab07e18129f64c3c001ccd1239ad130bfd46f build/core-T3T1-bitcoinonly/bootloader/bootloader.bin
-6b17de0c89c9a7876687d6b9c44673f4aca7f8819237a755090848a3829bc36b build/core-T3T1-bitcoinonly/firmware/firmware.bin
-
-Hash of non-signature parts downloaded/compiled standard:
-65+0 records in
-65+0 records out
-65 bytes copied, 0.000144499 s, 450 kB/s
-8f7df375c5c9cf8b923c37378cc1a94992e03836e3ec0df0ab0271340d431903  trezor-core-2.8.1.bin.zeroed
-8f7df375c5c9cf8b923c37378cc1a94992e03836e3ec0df0ab0271340d431903  build/core-T/firmware/firmware.bin
-
-Hash of non-signature parts downloaded/compiled bitcoinonly:
-65+0 records in
-65+0 records out
-65 bytes copied, 0.000260148 s, 250 kB/s
-e8666de29b3eb0a75fd1673875f5fbc6388147c23d1828f09fd4033b16fb1dfa  trezor-core-2.8.1-bitcoinonly.bin.zeroed
-e8666de29b3eb0a75fd1673875f5fbc6388147c23d1828f09fd4033b16fb1dfa  build/core-T-bitcoinonly/firmware/firmware.bin
-
-Hash of the signed firmware:
-5289e1d5476c5097918c1d145d5a2e0a708da11d4cae13771012b8f792941b46  trezor-core-2.8.1.bin
-95d4e96c77525998e4d0c9a234e2c808e275ef26505e45cbe503465e69c606c4  trezor-core-2.8.1-bitcoinonly.bin
-```
-
-With the correct modifications to the [TrezorT.sh script](https://gitlab.com/walletscrutiny/walletScrutinyCom/-/blob/1d8681a3f2a03ef61c79fd08112425e3fcb2e8a9/scripts/test/hardware/trezorT.sh), we were able to determine that the hash `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855` is of an empty file. This meant that the binaries weren't being downloaded. We verified the download url manually and found the correct url. 
-
-This resulted in the script properly building and outputting the desired results. 
-
-1. The hashes of the non-signature parts for standard, **match**. (8f7df375c5c9cf8b923c37378cc1a94992e03836e3ec0df0ab0271340d431903)
-2. The hashes of the non-signature parts for the downloaded and compiled binary, also **match**. (8f7df375c5c9cf8b923c37378cc1a94992e03836e3ec0df0ab0271340d431903)
-3. As expected, the signed firmware for the downloaded (standard) binary do not match with its bitcoin-only counterpart. This is ideal.
-
-We have reached the conclusion that version **2.8.1** is **reproducible.**
