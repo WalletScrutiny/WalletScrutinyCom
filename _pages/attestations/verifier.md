@@ -107,11 +107,12 @@ permalink: /verifier/
       if (!profile) {
         document.getElementById('attestator').innerHTML = `<div class="npubFallback">${npub}</div>`;
       } else {
-        if (profile?.image) {
+        if (profile.image || profile.name) {
           document.getElementById('attestator').innerHTML = `
             <div class="big-profile-card">
-              <img src="${profile.image}" alt="Profile Picture" style="width: 200px; height: 200px; border-radius: 50%; margin-bottom: 10px;">
-              <div style="font-size: 1.5em; font-weight: bold;">${profile.name ?? ''}</div>
+              ${profile.image ? `<img src="${profile.image}" alt="Profile Picture" style="width: 200px; height: 200px; border-radius: 50%; margin-bottom: 10px;" onerror="this.style.display='none'">` : ''}
+              ${profile.name ? `<div style="font-size: 1.5em; font-weight: bold;">${profile.name}</div>` : ''}
+              ${profile.nip05 ? `<div class="profile-nip05">${profile.nip05}</div>` : ''}
             </div>`;
         }
       }
