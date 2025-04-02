@@ -17,6 +17,7 @@
 - key: custodials
   verdicts:
   - custodial
+  - ecash
   title: User only gets an IOU.
   short: Can Send & receive
   abstract: Key custody

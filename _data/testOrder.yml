@@ -13,6 +13,7 @@ verdicts:
   - sealed-noita
   - nosendreceive
   - custodial
+  - ecash
   - nosource
   - obfuscated
   - ftbfs

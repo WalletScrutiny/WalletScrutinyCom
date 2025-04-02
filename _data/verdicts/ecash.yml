@@ -1,0 +1,44 @@
+short: eCash!
+title: 'Electronic Token: Uses Chaumian eCash'
+pass: The wallet allows using Chaumian eCash mints.
+color: '#d33100'
+redflag: true
+message: >
+  This product uses Chaumian eCash which requires trust in mint operators!
+question: Does the product use Chaumian eCash?
+details: >
+  Chaumian eCash is a form of electronic token system that provides some privacy
+  benefits but requires trust in mint operators. While the technology itself is
+  promising, wallets implementing it effectively connect to custodial services.
+  
+  
+  There are currently two main incompatible protocols for Chaumian eCash:
+  
+  
+  * Cashu
+  * Fedimint
+  
+  
+  While these systems aim to enable what could be called "fist-reach custody" (where
+  users have physical access to their custodians, like a trusted family member),
+  wallets cannot enforce this model. We are seeing users gravitate towards popular
+  mints rather than local ones, which defeats the intended trust model.
+  
+  
+  Even in an ideal "Uncle Jim" scenario where users know their mint operator
+  personally:
+  
+  
+  * The mint operator can still lose or steal the funds
+  * The mint could be compromised by hackers
+  * The mint operator could face regulatory pressure
+  * Technical issues could result in loss of funds
+  
+  
+  While Chaumian eCash may serve valid use cases, users should understand that:
+  
+  
+  * They are trusting the mint operator with custody of their funds
+  * They should ideally use local mints operated by people they know and can reach
+  * The privacy benefits come at the cost of giving up self-custody
+  * The tokens are only as good as the mint operator's promise to redeem them
