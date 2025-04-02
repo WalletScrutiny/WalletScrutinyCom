@@ -14,32 +14,36 @@ const uploadsActivated = true;
 const maxFileSize = 500;  // MB
 
 document.addEventListener("DOMContentLoaded", async function () {
-  initializeDragAndDrop();
+  const initDragAndDrop = initializeDragAndDrop();
 
-  // If appHash passed to url show AppData and scroll to row in archive.
-  const urlParams = new URLSearchParams(window.location.search);
-  const hash = urlParams.get('hash');
+  if (initDragAndDrop.dropAreasPresent) {
+    // If appHash passed to url show AppData and scroll to row in archive.
+    const urlParams = new URLSearchParams(window.location.search);
+    const hash = urlParams.get('hash');
 
-  if (hash) {
-    const appData = await fetchAppData(hash);
-    if (appData) {
-      disableHoverMode();
+    if (hash) {
+      const appData = await fetchAppData(hash);
+      if (appData) {
+        disableHoverMode();
 
-      if (appData.version) {
-        scrollToVersion(appData.version);
+        if (appData.version) {
+          scrollToVersion(appData.version);
+        } else {
+          console.warn('Version not found in appData.');
+        }
       } else {
-        console.warn('Version not found in appData.');
+        console.error('No app data found for this hash.');
       }
-    } else {
-      console.error('No app data found for this hash.');
     }
   }
 
-  try {
-    await nostrConnect();
-  } catch (e) {
-    console.error("Failed to connect to Nostr", e);
-    return;
+  if (initDragAndDrop.nostrConnectNeeded) {
+    try {
+      await nostrConnect();
+    } catch (e) {
+      console.error("Failed to connect to Nostr", e);
+      return;
+    }
   }
 });
 
@@ -84,6 +88,7 @@ function scrollToVersion(version) {
 function initializeDragAndDrop() {
   const dropAreas = document.getElementsByClassName('drop-areas');
   const fileElems = document.getElementsByClassName('fileElems');
+  const nostrConnectNeeded = document.getElementsByClassName('nostr-connect-needed');
 
   Array.from(dropAreas).forEach(dropArea => {
     preventDefaultDragBehaviors(dropArea);
@@ -94,6 +99,11 @@ function initializeDragAndDrop() {
   Array.from(fileElems).forEach(fileElem => {
     fileElem.addEventListener('change', e => processFiles(e.target.files, e.target.parentElement.parentElement));
   });
+
+  return {
+    dropAreasPresent: dropAreas.length > 0,
+    nostrConnectNeeded: nostrConnectNeeded.length > 0
+  }
 }
 
 function preventDefaultDragBehaviors(element) {
