@@ -24,10 +24,16 @@ bugbounty:
 meta: ok
 verdict: reproducible
 appHashes:
-- 9c141c38553a9bfb2df11ca05921775a04a000d84328988f7d3bf5b3a9112e4d
-date: 2025-03-13
+- 68089856535c18066994a5636fe992ddace31c809f63c6d279dc819b46236b25
+date: 2025-04-03
 signer: cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
 reviewArchive:
+- date: 2025-04-03
+  version: 0.10.0
+  appHashes:
+  - 9c141c38553a9bfb2df11ca05921775a04a000d84328988f7d3bf5b3a9112e4d
+  gitRevision: 319bc673b4793bbd3149d9e9a52bb448f3fcc371
+  verdict: reproducible
 - date: 2025-02-22
   version: 0.9.7
   appHashes:
@@ -147,18 +153,18 @@ We ran our updated {% include testScript.html %} and got this:
 ===== Begin Results =====
 appId:          app.zeusln.zeus
 signer:         cbcc8ccfbf89c002b5fed484a59f5f2a6f5c8ad30a1934f36af2c9fcdec6b359
-apkVersionName: 0.10.0
-apkVersionCode: 102003
+apkVersionName: 0.10.1
+apkVersionCode: 103003
 verdict:        
-appHash:        9c141c38553a9bfb2df11ca05921775a04a000d84328988f7d3bf5b3a9112e4d
-commit:         6f3be02fc840dee66309b54237e80e0666674cbd
+appHash:        68089856535c18066994a5636fe992ddace31c809f63c6d279dc819b46236b25
+commit:         290812314c8e6b325ef31b8af062e774610ee4dd
 
 Diff:
-Files /tmp/fromPlay_app.zeusln.zeus_102003/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_102003/AndroidManifest.xml differ
-Only in /tmp/fromPlay_app.zeusln.zeus_102003/META-INF: GOOGPLAY.RSA
-Only in /tmp/fromPlay_app.zeusln.zeus_102003/META-INF: GOOGPLAY.SF
-Only in /tmp/fromPlay_app.zeusln.zeus_102003/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_app.zeusln.zeus_102003: stamp-cert-sha256
+Files /tmp/fromPlay_app.zeusln.zeus_103003/AndroidManifest.xml and /tmp/fromBuild_app.zeusln.zeus_103003/AndroidManifest.xml differ
+Only in /tmp/fromPlay_app.zeusln.zeus_103003/META-INF: GOOGPLAY.RSA
+Only in /tmp/fromPlay_app.zeusln.zeus_103003/META-INF: GOOGPLAY.SF
+Only in /tmp/fromPlay_app.zeusln.zeus_103003/META-INF: MANIFEST.MF
+Only in /tmp/fromPlay_app.zeusln.zeus_103003: stamp-cert-sha256
 
 Revision, tag (and its signature):
 
