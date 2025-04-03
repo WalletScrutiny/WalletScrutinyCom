@@ -399,7 +399,7 @@ const getAllAssetInformation = async function({
 
 
   const filter_verifications = {
-    kinds: [verificationKind],  // TODO: Add endorsementKind
+    kinds: [verificationKind, endorsementKind],
   }
   if (months) {
     filter_verifications.since = getTimestampMonthsAgo(months);
@@ -424,7 +424,7 @@ const getAllAssetInformation = async function({
 
   const assets = Array.from(events).filter(event => event.kind === assetRegistrationKind && getFirstValueFromTag(event, 'client') === 'WalletScrutiny.com');
   const verifications = Array.from(events).filter(event => event.kind === verificationKind && getFirstValueFromTag(event, 'client') === 'WalletScrutiny.com');
-  //const endorsements = Array.from(events).filter(event => event.kind === endorsementKind);
+  const endorsements = Array.from(events).filter(event => event.kind === endorsementKind && getFirstValueFromTag(event, 'client') === 'WalletScrutiny.com');
 
   const assetsMap = new Map();
   const verificationsMap = new Map();
@@ -450,7 +450,6 @@ const getAllAssetInformation = async function({
     }
   });
 
-  /*
   endorsements.forEach(endorsement => {
     const verificationEventId = getFirstTag(endorsement, 'd');
     if (verificationEventId) {
@@ -460,7 +459,6 @@ const getAllAssetInformation = async function({
       endorsementsMap.get(verificationEventId).push(endorsement);
     }
   });
-  */
 
   console.timeEnd('getAllAssetInformation');
 
