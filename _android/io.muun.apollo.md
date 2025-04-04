@@ -23,10 +23,16 @@ bugbounty:
 meta: ok
 verdict: nonverifiable
 appHashes:
-- 9c743af9930e7eca39581e70ec9213489e572dc93fe33d3a90bc95b00825a4dc
-date: 2025-02-24
+- 0ecee30d6123757d92155d1779ae3d81093cfd763a7620db3e71ba253cbcd575
+date: 2025-04-04
 signer: 026ae0ac859cc32adf2d4e7aa909daf902f40db0b4fe6138358026fd62836ad1
 reviewArchive:
+- date: 2025-02-24
+  version: '52.1'
+  appHashes:
+  - 9c743af9930e7eca39581e70ec9213489e572dc93fe33d3a90bc95b00825a4dc
+  gitRevision: 319bc673b4793bbd3149d9e9a52bb448f3fcc371
+  verdict: nonverifiable
 - date: 2024-09-04
   version: '52.1'
   appHashes:
@@ -91,25 +97,28 @@ With this {% include testScript.html %} we get:
 ===== Begin Results =====
 appId:          io.muun.apollo
 signer:         026ae0ac859cc32adf2d4e7aa909daf902f40db0b4fe6138358026fd62836ad1
-apkVersionName: 52.7
-apkVersionCode: 1207
+apkVersionName: 53.2
+apkVersionCode: 1302
 verdict:        
-appHash:        9c743af9930e7eca39581e70ec9213489e572dc93fe33d3a90bc95b00825a4dc
-commit:         8d6e88e553441e6493ae5c5874fed90dac596467
+appHash:        0ecee30d6123757d92155d1779ae3d81093cfd763a7620db3e71ba253cbcd575
+commit:         1bdf9f2c86b7e9eb977027f447837ec832f75d52
 
 Diff:
-Only in /tmp/fromPlay_io.muun.apollo_1207/META-INF: APOLLORE.RSA
-Only in /tmp/fromPlay_io.muun.apollo_1207/META-INF: APOLLORE.SF
-Only in /tmp/fromPlay_io.muun.apollo_1207/META-INF: MANIFEST.MF
-Files /tmp/fromPlay_io.muun.apollo_1207/resources.arsc and /tmp/fromBuild_io.muun.apollo_1207/resources.arsc differ
+Only in /tmp/fromPlay_io.muun.apollo_1302/META-INF: APOLLORE.RSA
+Only in /tmp/fromPlay_io.muun.apollo_1302/META-INF: APOLLORE.SF
+Only in /tmp/fromPlay_io.muun.apollo_1302/META-INF: MANIFEST.MF
+Files /tmp/fromPlay_io.muun.apollo_1302/resources.arsc and /tmp/fromBuild_io.muun.apollo_1302/resources.arsc differ
 
 Revision, tag (and its signature):
-object 8d6e88e553441e6493ae5c5874fed90dac596467
+gpg: Signature made Mon 24 Mar 2025 10:31:01 PM UTC
+gpg:                using RSA key 2B5269BBBC3ABE08AFCDC2FD5A3AE02FBEA5815E
+gpg: Can't check signature: No public key
+object 1bdf9f2c86b7e9eb977027f447837ec832f75d52
 type commit
-tag v52.7
-tagger acrespo <alvaro.andres.crespo@gmail.com> 1738355020 -0300
+tag v53.2
+tagger acrespo <alvaro.andres.crespo@gmail.com> 1742855456 -0300
 
-v52.7 (1207)
+v53.2 (1302)
 ===== End Results =====
 ```
 
