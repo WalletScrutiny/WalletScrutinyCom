@@ -288,7 +288,10 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
           `<div style="margin-top: 4px;"><a href="/new_verification/?sha256=${sha256HashKey}&assetEventId=${eventId}&appId=${identifier}&version=${version}&platform=${platform}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">Create verification</a></div>`}`;
       }
 
-      const wallet = window.wallets.find(w => w.appId === identifier);
+      // Safely access window.wallets to avoid errors during webpack build
+      const wallet = (typeof window !== 'undefined' && window.wallets && Array.isArray(window.wallets))
+        ? window.wallets.find(w => w.appId === identifier)
+        : null;
       const walletTitle = wallet ? wallet.title : identifier;
 
       const row = document.createElement('tr');

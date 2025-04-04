@@ -282,7 +282,10 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, all
 
   appId       = appInfoFromNostr?.appId ?? appData?.appId ?? apkInfo?.package ?? null;
 
-  const app = window.wallets.find(it => it.appId === appId) ?? null;  // Get internal info
+  // Safely access window.wallets to avoid errors during webpack build
+  const app = (typeof window !== 'undefined' && window.wallets && Array.isArray(window.wallets)) 
+    ? window.wallets.find(it => it.appId === appId) ?? null 
+    : null;  // Get internal info
 
   version     = appInfoFromNostr?.version ?? appData?.version ?? apkInfo?.versionName ?? null;
   verdict     = appInfoFromNostr?.verdict ?? appData?.verdict ?? null;

@@ -95,6 +95,10 @@ permalink: /new_verification/
     <div class="form-group">
       <label for="content">Content (*):</label>
       <div class="char-counter">Characters: <span id="charCount">0</span>/60000</div>
+      <div style="display: flex; justify-content: flex-end; margin-bottom: 0.5em;">
+        <button type="button" id="togglePreview" class="btn btn-secondary btn-sm">Preview</button>
+      </div>
+      <div id="markdownPreview" class="form-control" style="display:none; padding:1em; white-space: pre-wrap; background:#f9f9f9; border:1px solid #ccc; border-radius:4px; min-height:10em;"></div>
       <textarea id="content" name="content" class="form-control" rows="10" required></textarea>
       <small class="form-text">Describe your verification process and findings with as much detail as possible, including scripts you used and output logs (minimum 20, maximum 60000 characters). Markdown is supported.</small>
     </div>
@@ -366,4 +370,5 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   });
 });
+
 </script>
