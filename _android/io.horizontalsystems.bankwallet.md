@@ -23,10 +23,16 @@ bugbounty:
 meta: ok
 verdict: reproducible
 appHashes:
-- 94b70610e5f6088441ee99ca523162222b3df4cdb936c1104c13ccb0c4ba08b6
-date: 2025-03-07
+- 14d97cabb2c3d24582acca48364fb3dad1cbb04a14fc8493ab3f358cb3bb961f
+date: 2025-04-04
 signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
 reviewArchive:
+- date: 2025-03-07
+  version: 0.41.4
+  appHashes:
+  - 94b70610e5f6088441ee99ca523162222b3df4cdb936c1104c13ccb0c4ba08b6
+  gitRevision: 319bc673b4793bbd3149d9e9a52bb448f3fcc371
+  verdict: reproducible
 - date: 2024-12-27
   version: 0.41.3
   appHashes:
@@ -341,21 +347,29 @@ procedure expressed in our {% include testScript.html %}:
 
 
 ```
-===== Begin Results =====
-appId:          io.horizontalsystems.bankwallet
-signer:         c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b
-apkVersionName: 0.41.4
-apkVersionCode: 127
-verdict:        reproducible
-appHash:        94b70610e5f6088441ee99ca523162222b3df4cdb936c1104c13ccb0c4ba08b6
-commit:         a5bc8996ebe7e5e310a68d70a8e9068f597de932
+===== Begin Results ===== 
 
-Diff:
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_127/META-INF: MANIFEST.MF
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_127/META-INF: RELEASEK.RSA
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_127/META-INF: RELEASEK.SF
+appId: io.horizontalsystems.bankwallet 
+signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b 
+apkVersionName: 0.42.1 
+apkVersionCode: 130 
+verdict: reproducible 
+appHash: 14d97cabb2c3d24582acca48364fb3dad1cbb04a14fc8493ab3f358cb3bb961f 
+commit: 6708f638e1d6f2fbec053db53070aeabb872c9d0
 
-Revision, tag (and its signature):
+Diff: 
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_130/META-INF: MANIFEST.MF 
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_130/META-INF: RELEASEK.RSA 
+Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_130/META-INF: RELEASEK.SF
+
+Revision, tag (and its signature): error: 0.42.1: cannot verify a non-tag object of type commit.
+
+Signature Summary: Tag type: annotated ⚠️ No valid signature found on annotated tag ⚠️ No valid signature found on commit
+
+Warnings:
+
+Annotated tag exists but is not signed
+Commit is not signed
 
 ===== End Results =====
 
@@ -364,7 +378,7 @@ Revision, tag (and its signature):
 {% include asciicast %}
 
 
-Version 0.41.4 is **reproducible**
+Version 0.42.1 is **reproducible**
 
 ### Thank you to Horizontal Systems for repeat donations
 
