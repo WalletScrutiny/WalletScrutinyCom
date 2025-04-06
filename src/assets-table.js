@@ -1,6 +1,6 @@
 import {marked} from 'marked';
 import DOMPurify from 'dompurify';
-import { assetRegistrationKind } from "./nostr-constants.mjs";
+import { assetRegistrationKind, verificationKind, mainRelayUrl } from "./nostr-constants.mjs";
 
 window.DOMPurify = DOMPurify;
 
@@ -495,6 +495,11 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   }
 
   content.innerHTML = `
+    <div class="verification-actions">
+      <button onclick="copyNostrEmbed('${verification.id}')" class="action-button">Copy Nostr embed code</button>
+      <button onclick="openInNjump('${verification.id}')" class="action-button">Open in njump</button>
+      <button onclick="copyRawEvent('${verification.id}')" class="action-button">Copy raw event</button>
+    </div>
     <p><strong>Attempt by:</strong> <span id="attempt-by"></span></p>
     <p><strong>Created At:</strong> ${new Date(verification.created_at * 1000).toLocaleDateString(navigator.language, {
     year: 'numeric',
@@ -504,7 +509,6 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     minute: '2-digit'
   })}</p>
     <p><strong>Status: </strong> ${status === 'reproducible' ? '✅' : '❌'} ${getStatusText(status)} </p>`;
-
   if (otherVerificationsHTML !== '') {
     content.innerHTML += `<p><strong>Other attempts by this user:</strong> ${otherVerificationsHTML}</p>`;
   }
@@ -514,8 +518,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
   content.innerHTML += `
     <p><strong>Information:</strong>
       <div class="markdown-content">${marked.parse(itemContent)}</div>
-    </p>
-  `;
+    </p>`;
 
   // Play asciicast
   if (verification.content.includes('ascii_cast_player')) {
@@ -626,4 +629,87 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
 
   window.addEventListener('click', handleClick);
   window.addEventListener('keydown', handleKeyDown);
+};
+
+// Copy Nostr embed code to clipboard
+window.copyNostrEmbed = function(eventId) {
+  try {
+    // Create a nevent string using NIP-19 format
+    const nevent = window.nip19.neventEncode({
+      id: eventId,
+      kind: verificationKind,
+      relays: [mainRelayUrl]
+    });
+    
+    // Copy to clipboard
+    navigator.clipboard.writeText(`nostr:${nevent}`).then(() => {
+      showToast('Nostr embed code copied to clipboard', 'success');
+    });
+  } catch (error) {
+    console.error('Error copying Nostr embed code:', error);
+    showToast('Failed to copy Nostr embed code', 'error');
+  }
+};
+
+// Open event in njump
+window.openInNjump = function(eventId) {
+  try {
+    // Create a nevent string using NIP-19 format
+    const nevent = window.nip19.neventEncode({
+      id: eventId,
+      kind: verificationKind,
+      relays: [mainRelayUrl]
+    });
+    
+    // Open in njump.me
+    window.open(`https://njump.me/${nevent}`, '_blank');
+  } catch (error) {
+    console.error('Error opening in njump:', error);
+    showToast('Failed to open in njump', 'error');
+  }
+};
+
+// Copy raw event JSON to clipboard
+window.copyRawEvent = function(eventId) {
+  try {
+    // Find the verification in our response data
+    let foundVerification = null;
+    
+    // Search through all verifications
+    for (const [sha256, verifications] of response.verifications.entries()) {
+      for (const verification of verifications) {
+        if (verification.id === eventId) {
+          foundVerification = verification;
+          break;
+        }
+      }
+      if (foundVerification) break;
+    }
+    
+    if (!foundVerification) {
+      throw new Error('Verification not found');
+    }
+    
+    // Create a simplified object without circular references
+    const cleanEvent = {
+      id: foundVerification.id,
+      pubkey: foundVerification.pubkey,
+      created_at: foundVerification.created_at,
+      kind: foundVerification.kind,
+      tags: foundVerification.tags,
+      content: foundVerification.content,
+      sig: foundVerification.sig
+    };
+    
+    // Format the JSON for better readability
+    const prettyJson = JSON.stringify(cleanEvent, null, 2);
+    
+    // Copy to clipboard
+    navigator.clipboard.writeText(prettyJson).then(() => {
+      showToast('Raw event copied to clipboard', 'success');
+    });
+  } catch (error) {
+    console.error('Error copying raw event:', error);
+    showToast('Failed to copy raw event', 'error');
+  }
 };
