@@ -341,44 +341,9 @@ features:
 
 ---
 
-Here we test if the latest version can be reproduced, following the known
-procedure expressed in our {% include testScript.html %}:
+### Review
 
-
-
-```
-===== Begin Results ===== 
-
-appId: io.horizontalsystems.bankwallet 
-signer: c1899493e440489178b8748851b72cbed50c282aaa8c03ae236a4652f8c4f27b 
-apkVersionName: 0.42.1 
-apkVersionCode: 130 
-verdict: reproducible 
-appHash: 14d97cabb2c3d24582acca48364fb3dad1cbb04a14fc8493ab3f358cb3bb961f 
-commit: 6708f638e1d6f2fbec053db53070aeabb872c9d0
-
-Diff: 
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_130/META-INF: MANIFEST.MF 
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_130/META-INF: RELEASEK.RSA 
-Only in /tmp/fromPlay_io.horizontalsystems.bankwallet_130/META-INF: RELEASEK.SF
-
-Revision, tag (and its signature): error: 0.42.1: cannot verify a non-tag object of type commit.
-
-Signature Summary: Tag type: annotated ⚠️ No valid signature found on annotated tag ⚠️ No valid signature found on commit
-
-Warnings:
-
-Annotated tag exists but is not signed
-Commit is not signed
-
-===== End Results =====
-
-```
-
-{% include asciicast %}
-
-
-Version 0.42.1 is **reproducible**
+Unstoppable is a Bitcoin-only wallet developed by Horizontal Systems. It is source-available and has consistently reproducible builds over several years. Version 0.42.1 was reproducible using our standard procedure.
 
 ### Thank you to Horizontal Systems for repeat donations
 
