@@ -343,7 +343,7 @@ features:
 
 ### Review
 
-Unstoppable is a Bitcoin-only wallet developed by Horizontal Systems. It is source-available and has consistently reproducible builds over several years. Version 0.42.1 was reproducible using our standard procedure.
+Unstoppable is a wallet developed by Horizontal Systems. It is source-available and has consistently reproducible builds over several years. 
 
 ### Thank you to Horizontal Systems for repeat donations
 
