@@ -16,27 +16,6 @@ const maxFileSize = 500;  // MB
 document.addEventListener("DOMContentLoaded", async function () {
   const initDragAndDrop = initializeDragAndDrop();
 
-  if (initDragAndDrop.dropAreasPresent) {
-    // If appHash passed to url show AppData and scroll to row in archive.
-    const urlParams = new URLSearchParams(window.location.search);
-    const hash = urlParams.get('hash');
-
-    if (hash) {
-      const appData = await fetchAppData(hash);
-      if (appData) {
-        disableHoverMode();
-
-        if (appData.version) {
-          scrollToVersion(appData.version);
-        } else {
-          console.warn('Version not found in appData.');
-        }
-      } else {
-        console.error('No app data found for this hash.');
-      }
-    }
-  }
-
   if (initDragAndDrop.nostrConnectNeeded) {
     try {
       await nostrConnect();
@@ -101,7 +80,6 @@ function initializeDragAndDrop() {
   });
 
   return {
-    dropAreasPresent: dropAreas.length > 0,
     nostrConnectNeeded: nostrConnectNeeded.length > 0
   }
 }
@@ -137,7 +115,7 @@ function disableHoverMode(dropAreaElement) {
   selectLabel.textContent = "Select a new file";
 }
 
-async function setFormFields(hash, appData, fileName, apkInfo) {
+async function setFormFields(hash, fileName, apkInfo) {
   // If we have a form with a sha256 input, set it to the hash
   if (document.getElementById('sha256')) {
     document.getElementById('sha256').value = hash;
@@ -149,8 +127,6 @@ async function setFormFields(hash, appData, fileName, apkInfo) {
       document.getElementById('appId').value = apkInfo.package;
       document.getElementById('version').value = apkInfo.versionName;
     } else {
-      document.getElementById('appId').value = appData?.appId ? appData.appId : '';
-
       const versionFromFilename = getVersionFromFilename(fileName);
       document.getElementById('version').value = versionFromFilename ? versionFromFilename : '';
     }
@@ -203,16 +179,15 @@ async function processFiles(files, dropAreaElement) {
     calculateFileHash(file)
   ]);
 
-  const [appData, allAssetsInformation, fileExistsInBlossomServer] = await Promise.all([
-    fetchAppData(hash),     // Get app data from legacy attestation.json
+  const [allAssetsInformation, fileExistsInBlossomServer] = await Promise.all([
     getAllAssetInformation({ sha256: hash }),
     checkBlossomFile(hash, true)
   ]);
   /////////////////////////////////////////////////////////////////////
 
-  setFormFields(hash, appData, file.name, apkInfo);
+  setFormFields(hash, file.name, apkInfo);
 
-  displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, allAssetsInformation, fileExistsInBlossomServer);
+  displayAllInfo(dropAreaElement, file, apkInfo, hash, allAssetsInformation, fileExistsInBlossomServer);
 
   if (allAssetsInformation.assets?.size > 0 && !fileExistsInBlossomServer && (file.size / 1024 / 1024) <= maxFileSize) {
     try {
@@ -220,12 +195,6 @@ async function processFiles(files, dropAreaElement) {
       await uploadToBlossom(file, hash);
     } catch (error) {
       console.error('Error uploading file to Blossom', error);
-    }
-  }
-
-  if (appData) {  // We have legacy appData from attestation.json
-    if (isPageForAppId(appData.appId)) {
-      scrollToVersion(appData.version);
     }
   }
 
@@ -261,12 +230,11 @@ async function handleUploadAsset(urlParams) {
   }
 }
 
-async function displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, allAssetsInformation, fileExistsInBlossomServer) {
+async function displayAllInfo(dropAreaElement, file, apkInfo, hash, allAssetsInformation, fileExistsInBlossomServer) {
   let appTitle = null;
   let appId = null;
   let version = null;
   let verdict = null;
-  let signer = null;
   let date = null;
   let platform = null;
 
@@ -279,18 +247,19 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, all
     appInfoFromNostr = getAppInfoFromEventInfo(firstVerification);
   }
 
+  if (appInfoFromNostr?.version) {
+    scrollToVersion(appInfoFromNostr.version);
+  }
 
-  appId       = appInfoFromNostr?.appId ?? appData?.appId ?? apkInfo?.package ?? null;
+  appId       = appInfoFromNostr?.appId ?? apkInfo?.package ?? null;
 
   const app = window.wallets.find(it => it.appId === appId) ?? null;  // Get internal info
 
-  version     = appInfoFromNostr?.version ?? appData?.version ?? apkInfo?.versionName ?? null;
-  verdict     = appInfoFromNostr?.verdict ?? appData?.verdict ?? null;
-  date        = appInfoFromNostr?.createdAt ?? appData?.date ?? null;
-  signer      = appData?.signer ?? null;
+  version     = appInfoFromNostr?.version ?? apkInfo?.versionName ?? null;
+  verdict     = appInfoFromNostr?.verdict ?? null;
+  date        = appInfoFromNostr?.createdAt ?? null;
   platform    = appInfoFromNostr?.platform ?? app?.folder ?? null;
   appTitle    = apkInfo?.application?.label[0] ?? app?.title ?? appId;
-
 
   let fileInfoHtml = `<h3>${appTitle ?? ''}</h3>`;
 
@@ -302,9 +271,6 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, all
   }
   if (verdict) {
     fileInfoHtml += `<strong>Verdict:</strong><span class="verdict ${verdict}">${verdict}</span><br>`;
-  }
-  if (signer) {
-    fileInfoHtml += `<strong>Signer:</strong> ${signer}<br>`;
   }
   if (date) {
     fileInfoHtml += `<strong>Date:</strong> ${date}<br>`;
@@ -318,7 +284,7 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, all
     fileInfoHtml += `<strong>${fileExistsInBlossomServer ? 'File exists in Blossom' : 'File does not exist in Blossom'}</strong> <small>(overrides cache - only shown in debug envs)</small><br>`;
   }
 
-  if (!appData && apkInfo) {
+  if (!appInfoFromNostr && apkInfo) {
     fileInfoHtml += '<br>' + (
       app ?
         `<p>This appears to be version <b>${version}</b> of <b>${appTitle}</b>, but nobody has verified this specific version yet.</p>` :
@@ -361,20 +327,6 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, appData, all
   fileInfoHtml += `<li>Check out <a href="/verifications/" class="btn btn-small" target="_blank">How Verifications Work</a>.</li>`;
 
   updateDomElementInClass('drop-area-textbox', fileInfoHtml, dropAreaElement);
-}
-
-async function fetchAppData(hash) {
-  try {
-    const response = await fetch('/assets/attestations.json');
-    if (!response.ok) throw new Error('Network response was not ok');
-
-    const appData = await response.json();
-    const results = appData.filter(app => app.appHashes && app.appHashes.includes(hash));
-    return results.length > 0 ? results[0] : null;
-  } catch (error) {
-    console.error('Error loading app data:', error);
-    return null;
-  }
 }
 
 window.handleUploadAsset = handleUploadAsset;
