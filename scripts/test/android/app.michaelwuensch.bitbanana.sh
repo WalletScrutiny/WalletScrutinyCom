@@ -55,9 +55,17 @@ if [ $attempt -gt $max_attempts ]; then
   exit 1
 fi
 
+# Find the generated AAB file
+aabPath=$(find ./app/build/outputs/bundle/release/ -name '*.aab' | head -n 1)
+if [ -z "$aabPath" ]; then
+  echo "Error: No AAB file found in ./app/build/outputs/bundle/release/"
+  exit 1
+fi
+echo "Using AAB file: $aabPath"
+
 # Run bundletool
 java -jar bundletool.jar build-apks \
-  --bundle=./app/build/outputs/bundle/release/bitbanana-${versionName}_${versionCode}-release.aab \
+  --bundle="$aabPath" \
   --output-format=DIRECTORY \
   --output=./reproducible-builds/apks/built-apks \
   --device-spec="device-spec.json"
