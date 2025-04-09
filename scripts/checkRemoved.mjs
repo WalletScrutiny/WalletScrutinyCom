@@ -26,6 +26,7 @@ const results = {
   android: {
     defunctToRemoved: [],
     removedToOk: [],
+    removedToStaleOrObsolete: [],
     defunctChecked: 0,
     removedChecked: 0,
     errors: [],
@@ -33,6 +34,7 @@ const results = {
   ios: {
     defunctToRemoved: [],
     removedToOk: [],
+    removedToStaleOrObsolete: [],
     defunctChecked: 0,
     removedChecked: 0,
     errors: [],
@@ -91,6 +93,7 @@ async function checkAppStatus() {
   await generateReports();
 
   console.log("\nApp status check completed!");
+  process.exit(0);
 }
 
 /**
@@ -114,8 +117,11 @@ async function checkWithCurl(appId) {
 
 function updateMeta(header) {
   if (header.meta !== "defunct") {
+    if (!header.updated || isNaN(new Date(header.updated))) return;
+
     const daysSinceUpdate =
       (new Date() - new Date(header.updated)) / 1000 / 60 / 60 / 24;
+
     if (daysSinceUpdate > 720) {
       if (header.meta !== "obsolete") {
         header.meta = "obsolete";
@@ -127,7 +133,7 @@ function updateMeta(header) {
         header.date = new Date();
       }
     } else {
-      if ("stale,obsolete".includes(header.meta)) {
+      if (["stale", "obsolete"].includes(header.meta)) {
         header.meta = "ok";
         header.date = new Date();
       }
@@ -140,7 +146,7 @@ function updateMeta(header) {
  */
 async function processAndroidApps() {
   try {
-    console.log("\n=== PROCESSING ANDROID APPS ===");
+    console.log("\n=== PROCESSING ANDROID APPS ===========");
 
     // Check if Android directory exists
     try {
@@ -174,26 +180,27 @@ async function processAndroidApps() {
     console.log("\nChecking Android apps marked as defunct...");
     const BATCH_SIZE = 5;
 
-    const defunctFiles = files.filter((fileName) => {
-      const content = helper.loadFromFile(path.join(ANDROID_DIR, fileName));
-      return content.header.meta === "defunct";
-    });
+    const defunctFiles = files
+      .map((fileName) => {
+        const content = helper.loadFromFile(path.join(ANDROID_DIR, fileName));
+        return { fileName, content };
+      })
+      .filter((obj) => obj.content.header.meta === "defunct");
+    console.log(
+      `Found ${defunctFiles.length} files that have \`meta: defunct\``
+    );
 
     // Process in batches of 5
     for (let i = 0; i < defunctFiles.length; i += BATCH_SIZE) {
       const batch = defunctFiles.slice(i, i + BATCH_SIZE);
 
       await Promise.allSettled(
-        batch.map(async (fileName, indexInBatch) => {
+        batch.map(async ({ fileName, content }) => {
           const filePath = path.join(ANDROID_DIR, fileName);
-          const content = helper.loadFromFile(filePath);
           const header = content.header;
           const appId = header.appId;
 
           results.android.defunctChecked++;
-          if (header.meta === "removed") {
-            results.android.defunctToRemoved.push(appId); // already pushed earlier
-          }
           process.stdout.write(
             `\rNow processing defunct apps...   Defunct apps checked: ${results.android.defunctChecked}     Action taken to ${results.android.defunctToRemoved.length} files`
           );
@@ -216,45 +223,106 @@ async function processAndroidApps() {
         })
       );
     }
+    console.log(
+      `\n✓ Finished checking defunct apps: ${results.android.defunctChecked} checked, ${results.android.defunctToRemoved.length} changed to removed`
+    );
 
     // Then process removed apps
     console.log("\nChecking Android apps marked as removed...");
-    for (const fileName of files) {
-      const filePath = path.join(ANDROID_DIR, fileName);
-      const content = helper.loadFromFile(filePath);
-      const header = content.header;
-      const appId = header.appId;
+    const removedFiles = files.filter((fileName) => {
+      const content = helper.loadFromFile(path.join(ANDROID_DIR, fileName));
+      return content.header.meta === "removed";
+    });
+    console.log(
+      `Found ${removedFiles.length} files that have \`meta: removed\``
+    );
 
-      if (header.meta === "removed") {
-        results.android.removedChecked++;
-        process.stdout.write(
-          `[${results.android.removedChecked}] Checking removed Android app: ${appId}... `
-        );
+    for (let i = 0; i < removedFiles.length; i += BATCH_SIZE) {
+      const batch = removedFiles.slice(i, i + BATCH_SIZE);
 
-        try {
-          // Check if app exists in Play Store
-          await gplay.app({
-            appId: appId,
-            lang: "en",
-            country: "us",
-          });
+      await Promise.allSettled(
+        batch.map(async (fileName) => {
+          const filePath = path.join(ANDROID_DIR, fileName);
+          const content = helper.loadFromFile(filePath);
+          const header = content.header;
+          const appId = header.appId;
 
-          // App is back, update from removed to ok
-          updateMeta(header);
-          helper.writeResult(ANDROID_DIR + "/", header, content.body);
-          if (header.meta === "ok") {
-            results.android.removedToOk.push(appId);
+          if (header.meta === "removed") {
+            results.android.removedChecked++;
+            process.stdout.write(
+              `\rNow processing removed apps...   Removed apps checked: ${
+                results.android.removedChecked
+              }     Action taken to ${
+                results.android.removedToOk.length +
+                results.android.removedToStaleOrObsolete.length
+              } files`
+            );
+
+            try {
+              await gplay.app({ appId, lang: "en", country: "us" });
+
+              const originalMeta = header.meta;
+              updateMeta(header);
+
+              if (["ok", "stale", "obsolete"].includes(header.meta)) {
+                header.verdict = "wip";
+                const today = new Date().toISOString().split("T")[0];
+                const note = `## Note: This app's verdict has been reset to wip on ${today} due to app-availability status. Please verify again.`;
+
+                // Insert note 2 newlines after the front matter (---)
+                const parts = content.body.split("\n---\n");
+                if (parts.length === 2 && !parts[1].includes("reset to wip")) {
+                  content.body = `${parts[0]}\n---\n\n${note}\n\n${parts[1]}`;
+                }
+              }
+
+              helper.writeResult(ANDROID_DIR + "/", header, content.body);
+
+              if (header.meta === "ok") {
+                results.android.removedToOk.push(appId);
+              } else if (["stale", "obsolete"].includes(header.meta)) {
+                results.android.removedToStaleOrObsolete.push(
+                  `${appId} → ${header.meta}`
+                );
+              }
+            } catch (error) {
+              if (`${error}`.search(/404/) === -1) {
+                console.error(
+                  `⚠ Error checking app ${appId}: ${error.message}`
+                );
+                results.android.errors.push({ appId, error: error.message });
+              }
+            }
           }
-        } catch (error) {
-          // Still removed, do nothing
-          if (`${error}`.search(/404/) > -1) {
-            console.log("✗ Still removed from Play Store");
-          } else {
-            console.error(`⚠ Error checking app ${appId}: ${error.message}`);
-            results.android.errors.push({ appId, error: error.message });
-          }
-        }
-      }
+        })
+      );
+    }
+
+    console.log(
+      `\n✓ Finished checking removed apps: ${results.android.removedChecked} checked`
+    );
+
+    if (results.android.removedToOk.length > 0) {
+      console.log(`${results.android.removedToOk.length} restored to ok`);
+      results.android.removedToOk.forEach((appId) =>
+        console.log(`  - ${appId}`)
+      );
+    }
+
+    const stale = results.android.removedToStaleOrObsolete.filter((s) =>
+      s.includes("→ stale")
+    );
+    if (stale.length > 0) {
+      console.log(`${stale.length} restored to stale`);
+      stale.forEach((entry) => console.log(`  - ${entry}`));
+    }
+
+    const obsolete = results.android.removedToStaleOrObsolete.filter((s) =>
+      s.includes("→ obsolete")
+    );
+    if (obsolete.length > 0) {
+      console.log(`${obsolete.length} restored to obsolete`);
+      obsolete.forEach((entry) => console.log(`  - ${entry}`));
     }
 
     console.log("\nAndroid processing completed.");
@@ -268,7 +336,7 @@ async function processAndroidApps() {
  */
 async function processIosApps() {
   try {
-    console.log("\n=== PROCESSING iOS APPS ===");
+    console.log("\n=== PROCESSING iOS APPS ===========");
 
     // Check if iOS directory exists
     try {
@@ -300,163 +368,207 @@ async function processIosApps() {
 
     // Process defunct apps first
     console.log("\nChecking iOS apps marked as defunct...");
-    for (const fileName of files) {
-      const filePath = path.join(IOS_DIR, fileName);
-      const content = helper.loadFromFile(filePath);
-      const header = content.header;
-      const appId = header.appId;
-      const idd = header.idd;
-      const appCountry = header.appCountry || "us";
+    const defunctFiles = files
+      .map((fileName) => {
+        const content = helper.loadFromFile(path.join(IOS_DIR, fileName));
+        return { fileName, content };
+      })
+      .filter((obj) => obj.content.header.meta === "defunct");
 
-      if (header.meta === "defunct") {
-        results.ios.defunctChecked++;
-        process.stdout.write(
-          `[${results.ios.defunctChecked}] Checking defunct iOS app: ${appId}... `
-        );
+    console.log(
+      `Found ${defunctFiles.length} files that have \`meta: defunct\``
+    );
 
-        if (!idd) {
-          console.log("⚠ No App Store ID (idd) found, skipping");
-          continue;
-        }
+    const BATCH_SIZE = 5;
 
-        // Try multiple regions to avoid false positives
-        const countriesToTry = [
-          appCountry,
-          ...IOS_REGIONS.filter((c) => c !== appCountry),
-        ];
-        let appFound = false;
-        let lastError = null;
+    for (let i = 0; i < defunctFiles.length; i += BATCH_SIZE) {
+      const batch = defunctFiles.slice(i, i + BATCH_SIZE);
 
-        for (const country of countriesToTry) {
-          try {
-            await apple.app({
-              id: idd,
-              lang: "en",
-              country: country,
-              throttle: 2,
-            });
+      await Promise.allSettled(
+        batch.map(async ({ fileName, content }) => {
+          const filePath = path.join(IOS_DIR, fileName);
+          const header = content.header;
+          const appId = header.appId;
+          const idd = header.idd;
+          const appCountry = header.appCountry || "us";
 
-            // If we get here, the app was found
-            appFound = true;
-            console.log(`✓ Still available in ${country} App Store`);
-            break;
-          } catch (error) {
-            lastError = error;
-            // Only continue to the next country if we got a 404
-            if (`${error}`.search(/404/) === -1) {
+          results.ios.defunctChecked++;
+          process.stdout.write(
+            `\rNow processing defunct apps...   Defunct apps checked: ${results.ios.defunctChecked}     Action taken to ${results.ios.defunctToRemoved.length} files`
+          );
+
+          if (!idd) return;
+
+          const countriesToTry = [
+            appCountry,
+            ...IOS_REGIONS.filter((c) => c !== appCountry),
+          ];
+
+          let appFound = false;
+          let lastError = null;
+
+          for (const country of countriesToTry) {
+            try {
+              await apple.app({
+                id: idd,
+                lang: "en",
+                country: country,
+                throttle: 2,
+              });
+
+              appFound = true;
               break;
+            } catch (error) {
+              lastError = error;
+              if (`${error}`.search(/404/) === -1) break;
             }
           }
-        }
 
-        // If app wasn't found in any region, mark it as removed
-        if (!appFound) {
-          if (`${lastError}`.search(/404/) > -1) {
+          if (!appFound && `${lastError}`.includes("404")) {
             header.meta = "removed";
             helper.writeResult(IOS_DIR + "/", header, content.body);
             results.ios.defunctToRemoved.push(appId);
-            console.log("✗ Returned 404 in all regions - marking as removed");
-          } else {
-            console.error(
-              `⚠ Error checking app ${appId}: ${lastError.message}`
-            );
-            results.ios.errors.push({ appId, error: lastError.message });
+          } else if (!appFound) {
+            results.ios.errors.push({
+              appId,
+              error: lastError?.message || "Unknown error",
+            });
           }
-        }
-      }
+        })
+      );
     }
+
+    console.log(
+      `\n✓ Finished checking defunct iOS apps: ${results.ios.defunctChecked} checked, ${results.ios.defunctToRemoved.length} changed to removed`
+    );
 
     // Then process removed apps
     console.log("\nChecking iOS apps marked as removed...");
-    for (const fileName of files) {
-      const filePath = path.join(IOS_DIR, fileName);
-      const content = helper.loadFromFile(filePath);
-      const header = content.header;
-      const appId = header.appId;
-      const idd = header.idd;
-      const appCountry = header.appCountry || "us";
 
-      if (header.meta === "removed") {
-        results.ios.removedChecked++;
-        process.stdout.write(
-          `[${results.ios.removedChecked}] Checking removed iOS app: ${appId}... `
-        );
+    const removedFiles = files.filter((fileName) => {
+      const content = helper.loadFromFile(path.join(IOS_DIR, fileName));
+      return content.header.meta === "removed";
+    });
+    console.log(
+      `Found ${removedFiles.length} files that have \`meta: removed\``
+    );
 
-        if (!idd) {
-          // Try to find the numeric ID from the bundle ID
-          try {
-            console.log(`Looking up bundle ID: ${appId}`);
-            const lookupResult = await apple.lookup({ bundleId: appId });
+    for (let i = 0; i < removedFiles.length; i += BATCH_SIZE) {
+      const batch = removedFiles.slice(i, i + BATCH_SIZE);
 
-            if (lookupResult.length > 0) {
-              const numericId = lookupResult[0].trackId;
-              console.log(
-                `Found numeric App Store ID: ${numericId} for bundle ${appId}`
-              );
+      await Promise.allSettled(
+        batch.map(async (fileName) => {
+          const filePath = path.join(IOS_DIR, fileName);
+          const content = helper.loadFromFile(filePath);
+          const header = content.header;
+          const appId = header.appId;
+          const idd = header.idd;
+          const appCountry = header.appCountry || "us";
 
-              // App is back, update from removed to ok
-              // Also update the idd field with the found numeric ID
-              header.idd = numericId; // preserve this!
-              updateMeta(header);
-              helper.writeResult(IOS_DIR + "/", header, content.body);
-              if (header.meta === "ok") {
-                results.ios.removedToOk.push(appId);
-              }
-            } else {
-              console.log(
-                "✗ Still removed from App Store (bundle ID lookup failed)"
-              );
-            }
-          } catch (error) {
-            console.log(
-              "✗ Still removed from App Store (bundle ID lookup error)"
+          if (header.meta === "removed") {
+            results.ios.removedChecked++;
+            process.stdout.write(
+              `\rNow processing removed apps...   Removed apps checked: ${
+                results.ios.removedChecked
+              }     Action taken to ${
+                results.ios.removedToOk.length +
+                results.ios.removedToStaleOrObsolete.length
+              } files`
             );
-          }
-          continue;
-        }
 
-        // Try multiple regions to avoid false positives
-        const countriesToTry = [
-          appCountry,
-          ...IOS_REGIONS.filter((c) => c !== appCountry),
-        ];
-        let appFound = false;
-
-        for (const country of countriesToTry) {
-          try {
-            await apple.app({
-              id: idd,
-              lang: "en",
-              country: country,
-              throttle: 2,
-            });
-
-            // If we get here, the app was found
-            appFound = true;
-
-            // App is back, update from removed to ok
-            updateMeta(header);
-            helper.writeResult(IOS_DIR + "/", header, content.body);
-            if (header.meta === "ok") {
-              results.ios.removedToOk.push(appId);
+            if (!idd) {
+              try {
+                const lookupResult = await apple.lookup({ bundleId: appId });
+                if (lookupResult.length > 0) {
+                  header.idd = lookupResult[0].trackId;
+                } else {
+                  return;
+                }
+              } catch {
+                return;
+              }
             }
-            break;
-          } catch (error) {
-            // Only continue to the next country if we got a 404
-            if (`${error}`.search(/404/) === -1) {
-              console.error(
-                `⚠ Error checking app ${appId} in ${country}: ${error.message}`
-              );
-              results.ios.errors.push({ appId, error: error.message });
-              break;
+
+            const countriesToTry = [
+              appCountry,
+              ...IOS_REGIONS.filter((c) => c !== appCountry),
+            ];
+            let appFound = false;
+
+            for (const country of countriesToTry) {
+              try {
+                await apple.app({
+                  id: header.idd,
+                  lang: "en",
+                  country: country,
+                  throttle: 2,
+                });
+
+                appFound = true;
+
+                const originalMeta = header.meta;
+                updateMeta(header);
+
+                if (["ok", "stale", "obsolete"].includes(header.meta)) {
+                  header.verdict = "wip";
+                  const today = new Date().toISOString().split("T")[0];
+                  const note = `## Note: This app's verdict has been reset to wip on ${today} due to app-availability status. Please verify again.`;
+
+                  // Insert note 2 newlines after the front matter (---)
+                  const parts = content.body.split("\n---\n");
+                  if (
+                    parts.length === 2 &&
+                    !parts[1].includes("reset to wip")
+                  ) {
+                    content.body = `${parts[0]}\n---\n\n${note}\n\n${parts[1]}`;
+                  }
+                }
+
+                helper.writeResult(IOS_DIR + "/", header, content.body);
+
+                if (header.meta === "ok") {
+                  results.ios.removedToOk.push(appId);
+                } else if (["stale", "obsolete"].includes(header.meta)) {
+                  results.ios.removedToStaleOrObsolete.push(
+                    `${appId} → ${header.meta}`
+                  );
+                }
+                break;
+              } catch (error) {
+                if (`${error}`.search(/404/) === -1) {
+                  results.ios.errors.push({ appId, error: error.message });
+                  break;
+                }
+              }
             }
           }
-        }
+        })
+      );
+    }
 
-        if (!appFound) {
-          console.log("✗ Still removed from App Store in all regions");
-        }
-      }
+    console.log(
+      `\n✓ Finished checking removed iOS apps: ${results.ios.removedChecked} checked`
+    );
+
+    if (results.ios.removedToOk.length > 0) {
+      console.log(`${results.ios.removedToOk.length} restored to ok`);
+      results.ios.removedToOk.forEach((appId) => console.log(`  - ${appId}`));
+    }
+
+    const stale = results.ios.removedToStaleOrObsolete.filter((s) =>
+      s.includes("→ stale")
+    );
+    if (stale.length > 0) {
+      console.log(`${stale.length} restored to stale`);
+      stale.forEach((entry) => console.log(`  - ${entry}`));
+    }
+
+    const obsolete = results.ios.removedToStaleOrObsolete.filter((s) =>
+      s.includes("→ obsolete")
+    );
+    if (obsolete.length > 0) {
+      console.log(`${obsolete.length} restored to obsolete`);
+      obsolete.forEach((entry) => console.log(`  - ${entry}`));
     }
 
     console.log("\niOS processing completed.");
@@ -488,6 +600,10 @@ async function generateReports() {
     results.android.removedToOk
   );
   androidReport += formatSection(
+    "Apps Changed from Removed to Stale/Obsolete",
+    results.android.removedToStaleOrObsolete
+  );
+  androidReport += formatSection(
     "Errors",
     results.android.errors.map((e) => `${e.appId}: ${e.error}`)
   );
@@ -496,6 +612,7 @@ async function generateReports() {
   androidReport += `- Removed apps checked: ${results.android.removedChecked}\n`;
   androidReport += `- Total defunct→removed changes: ${results.android.defunctToRemoved.length}\n`;
   androidReport += `- Total removed→ok changes: ${results.android.removedToOk.length}\n`;
+  androidReport += `- Total removed→stale/obsolete changes: ${results.android.removedToStaleOrObsolete.length}\n`;
 
   // iOS report
   let iosReport = "# iOS Apps Status Report\n\n";
@@ -508,6 +625,10 @@ async function generateReports() {
     results.ios.removedToOk
   );
   iosReport += formatSection(
+    "Apps Changed from Removed to Stale/Obsolete",
+    results.ios.removedToStaleOrObsolete
+  );
+  iosReport += formatSection(
     "Errors",
     results.ios.errors.map((e) => `${e.appId}: ${e.error}`)
   );
@@ -516,6 +637,7 @@ async function generateReports() {
   iosReport += `- Removed apps checked: ${results.ios.removedChecked}\n`;
   iosReport += `- Total defunct→removed changes: ${results.ios.defunctToRemoved.length}\n`;
   iosReport += `- Total removed→ok changes: ${results.ios.removedToOk.length}\n`;
+  iosReport += `- Total removed→stale/obsolete changes: ${results.ios.removedToStaleOrObsolete.length}\n`;
 
   // Combined report
   let combinedReport = "# App Status Check Report\n\n";
@@ -523,6 +645,10 @@ async function generateReports() {
   combinedReport += `- Total defunct→removed changes: ${
     results.android.defunctToRemoved.length +
     results.ios.defunctToRemoved.length
+  }\n`;
+  combinedReport += `- Total removed→stale/obsolete changes: ${
+    results.android.removedToStaleOrObsolete.length +
+    results.ios.removedToStaleOrObsolete.length
   }\n`;
   combinedReport += `- Total removed→ok changes: ${
     results.android.removedToOk.length + results.ios.removedToOk.length
