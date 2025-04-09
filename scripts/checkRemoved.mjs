@@ -266,15 +266,7 @@ async function processAndroidApps() {
 
               if (["ok", "stale", "obsolete"].includes(header.meta)) {
                 header.verdict = "wip";
-                const today = new Date().toISOString().split("T")[0];
-                const note = `## Note: This app's verdict has been reset to wip on ${today} due to app-availability status. Please verify again.`;
-
-                // Insert note 2 newlines after the front matter (---)
-                const parts = content.body.split("\n---\n");
-                if (parts.length === 2 && !parts[1].includes("reset to wip")) {
-                  content.body = `${parts[0]}\n---\n\n${note}\n\n${parts[1]}`;
-                }
-              }
+              }             
 
               helper.writeResult(ANDROID_DIR + "/", header, content.body);
 
@@ -511,18 +503,7 @@ async function processIosApps() {
 
                 if (["ok", "stale", "obsolete"].includes(header.meta)) {
                   header.verdict = "wip";
-                  const today = new Date().toISOString().split("T")[0];
-                  const note = `## Note: This app's verdict has been reset to wip on ${today} due to app-availability status. Please verify again.`;
-
-                  // Insert note 2 newlines after the front matter (---)
-                  const parts = content.body.split("\n---\n");
-                  if (
-                    parts.length === 2 &&
-                    !parts[1].includes("reset to wip")
-                  ) {
-                    content.body = `${parts[0]}\n---\n\n${note}\n\n${parts[1]}`;
-                  }
-                }
+                }                
 
                 helper.writeResult(IOS_DIR + "/", header, content.body);
 
