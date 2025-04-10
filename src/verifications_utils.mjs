@@ -1,3 +1,4 @@
+import { marked } from 'marked';
 import NDK, {NDKEvent, NDKNip07Signer, NDKPrivateKeySigner, NDKPublishError} from "@nostr-dev-kit/ndk";
 import { nip19 } from 'nostr-tools';
 import DOMPurify from 'dompurify';
@@ -559,12 +560,18 @@ function setupAppIdAutocomplete() {
   const suggestionsContainer = document.getElementById('appIdSuggestions');
 
   function filterWallets(searchText) {
-    if (!window.wallets) return [];
-    return window.wallets.filter(wallet => {
-      const searchLower = searchText.toLowerCase();
-      return wallet.appId.toLowerCase().includes(searchLower) ||
-        wallet.title.toLowerCase().includes(searchLower);
-    });
+    // Check if window exists (for server-side rendering) and if wallets array exists
+    if (typeof window === 'undefined' || !window.wallets || !Array.isArray(window.wallets)) return [];
+    try {
+      return window.wallets.filter(wallet => {
+        const searchLower = searchText.toLowerCase();
+        return wallet.appId.toLowerCase().includes(searchLower) ||
+          wallet.title.toLowerCase().includes(searchLower);
+      });
+    } catch (e) {
+      console.error('Error filtering wallets:', e);
+      return [];
+    }
   }
 
   // Helper function to decode HTML entities
@@ -655,3 +662,24 @@ export {
   purifyConfig,
   isDebug
 };
+
+document.addEventListener('DOMContentLoaded', () => {
+  const toggleButton = document.getElementById('togglePreview');
+  const textarea = document.getElementById('content');
+  const preview = document.getElementById('markdownPreview');
+
+  if (!toggleButton || !textarea || !preview) return;
+
+  toggleButton.addEventListener('click', () => {
+    if (preview.style.display === 'none') {
+      preview.innerHTML = marked(textarea.value);
+      preview.style.display = 'block';
+      textarea.style.display = 'none';
+      toggleButton.textContent = 'Edit';
+    } else {
+      preview.style.display = 'none';
+      textarea.style.display = 'block';
+      toggleButton.textContent = 'Preview';
+    }
+  });
+});

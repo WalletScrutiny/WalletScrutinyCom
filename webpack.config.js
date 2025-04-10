@@ -44,15 +44,30 @@ module.exports = {
             presets: ['@babel/preset-env']
           }
         }
+      },
+      {
+        test: /assets\/js\/json\/.*\.json$/,
+        type: 'javascript/auto',
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'json/'
+            }
+          }
+        ]
       }
     ]
   },
   optimization: {
     minimize: true,
+    concatenateModules: false, // Disable module concatenation to avoid JSON parsing issues
     minimizer: [new TerserPlugin({
       extractComments: false,
     })],
   },
+  cache: false, // Disable cache to avoid persistent issues
   plugins: [
     new webpack.ProvidePlugin({
       $: 'jquery',
