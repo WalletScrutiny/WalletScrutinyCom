@@ -10,7 +10,7 @@ authors:
 released: 2019-09-25
 discontinued: 
 updated: 2024-09-26
-version: 9.21.0-Multi
+version: 9.22.0-Bitcoin-only
 binaries: https://github.com/BitBoxSwiss/bitbox02-firmware/releases
 dimensions:
 - 55
@@ -30,10 +30,16 @@ bugbounty:
 meta: ok
 verdict: reproducible
 appHashes:
-- 36895857c346c1fbd0d206853b7031e985c1a959e9f7f9396a7ae94dfffa9679
-date: 2024-11-05
+- 3e5a72915801dca13d88e11052d821d5b2aad2130cb153a398335f97cebc3ecb
+date: 2025-04-10
 signer: 
 reviewArchive:
+- date: 2024-11-05
+  version: 9.21.0
+  appHashes:
+  - 36895857c346c1fbd0d206853b7031e985c1a959e9f7f9396a7ae94dfffa9679
+  gitRevision: e9cdac12d99406b097a3a3fa372d25a4000f1f22
+  verdict: reproducible
 - date: 2024-08-09
   version: 9.19.0
   appHashes:
@@ -102,33 +108,22 @@ social:
 features: 
 
 ---
-
+We has to update the previous script to be able to verify the new firmware.
 ```
-$ scripts/test/hardware/bitBox2.sh 9.21.0
+$ scripts/test/hardware/bitBox2.sh 9.22.0
 ...
-[100%] Linking C executable ../bin/firmware-btc.elf
-
-Generating binary firmware-btc.bin
-   text	   data	    bss	    dec	    hex	filename
- 541768	  19172	 191064	 752004	  b7984	firmware-btc.elf
-make[4]: Leaving directory '/bb02/build'
-[100%] Built target firmware-btc.elf
-make[3]: Leaving directory '/bb02/build'
-make[2]: Leaving directory '/bb02/build'
-make[1]: Leaving directory '/bb02/build'
-firmware.bin created at:
-/home/dannybuntu/wsTest/bitbox02-firmware/temp/build/bin/firmware.bin
-or
-/home/dannybuntu/wsTest/bitbox02-firmware/temp/build/bin/firmware-btc.bin
-Hashes of
-signed download             ff35982362faa1c6ca5066d1c4b4309eea52a4a14aa31f7a7fa413cbef5ac9a3  firmware-btc.v9.21.0.signed.bin
-signed download minus sig.  36895857c346c1fbd0d206853b7031e985c1a959e9f7f9396a7ae94dfffa9679  p_firmware-btc.bin
-built binary                36895857c346c1fbd0d206853b7031e985c1a959e9f7f9396a7ae94dfffa9679  temp/build/bin/firmware-btc.bin
-firmware as shown in device 4b851096907dbd168f1d3873f7be1adc8c43d779d3015b3f3bbf5038842980b1
-                           (The latter is a double sha256 over version,
-                            firmware and padding)
+============================================================
+Firmware Validation Results:
+============================================================
+Signed download:             897b948362d3f825924ff4a083dd13c8a21e8ce50c3a50191e11bc810509318d  firmware-btc.v9.22.0.signed.bin
+Signed download minus sig:   3e5a72915801dca13d88e11052d821d5b2aad2130cb153a398335f97cebc3ecb  p_firmware-btc.bin
+Built binary:                3e5a72915801dca13d88e11052d821d5b2aad2130cb153a398335f97cebc3ecb  build/bin/firmware-btc.bin
+Firmware as shown in device: 7d46d33b28dfcdab969e2cb2099909d7dc03d86244cf9de2e2f8007a9548f27a
+                            (The latter is a double sha256 over version,
+                             firmware and padding)
+============================================================
 ```
 
-Version 9.21.0 is **reproducible**.
+Version 9.22.0 is **reproducible**.
 
 {% include asciicast %}
