@@ -243,14 +243,6 @@ async function loadUrlParamsAndGetAssetInfo() {
     return;
   }
 
-  try {
-    await nostrConnect();
-  } catch (e) {
-    console.error("Failed to connect to Nostr", e);
-    showToast('It was impossible to connect to Nostr. Please check your browser extension and try again.', 'error');
-    return;
-  }
-
   const urlParams = new URLSearchParams(window.location.search);
   const draftVerificationEventId = urlParams.get('draftVerificationEventId');
   const action = urlParams.get('action');

@@ -132,6 +132,7 @@
 
   // Load notifications
   window.addEventListener('load', async () => {
+    await nostrConnect();
     await loadDraftVerificationsNotifications();
   });
 </script>

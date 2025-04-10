@@ -36,15 +36,6 @@ document.addEventListener("DOMContentLoaded", async function () {
       }
     }
   }
-
-  if (initDragAndDrop.nostrConnectNeeded) {
-    try {
-      await nostrConnect();
-    } catch (e) {
-      console.error("Failed to connect to Nostr", e);
-      return;
-    }
-  }
 });
 
 function scrollToVersion(version) {
@@ -88,7 +79,6 @@ function scrollToVersion(version) {
 function initializeDragAndDrop() {
   const dropAreas = document.getElementsByClassName('drop-areas');
   const fileElems = document.getElementsByClassName('fileElems');
-  const nostrConnectNeeded = document.getElementsByClassName('nostr-connect-needed');
 
   Array.from(dropAreas).forEach(dropArea => {
     preventDefaultDragBehaviors(dropArea);
@@ -102,7 +92,6 @@ function initializeDragAndDrop() {
 
   return {
     dropAreasPresent: dropAreas.length > 0,
-    nostrConnectNeeded: nostrConnectNeeded.length > 0
   }
 }
 
