@@ -8,8 +8,8 @@ appId: in.cryptoforce.cfx
 appCountry: in
 idd: '6444105412'
 released: 2023-01-24
-updated: 2024-04-19
-version: 1.2.6
+updated: 2025-04-02
+version: v2.0.0
 stars: 5
 reviews: 16
 website: 

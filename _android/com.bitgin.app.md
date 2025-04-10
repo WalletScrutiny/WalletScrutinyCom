@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.bitgin.app.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-05-18
+date: 2025-04-09
 signer: 
 reviewArchive: 
 twitter: 

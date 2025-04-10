@@ -10,7 +10,7 @@ appCountry:
 released: 2021-08-02
 updated: 2025-03-10
 version: 1.1.18
-stars: 3.5
+stars: 3.4
 ratings: 
 reviews: 247
 website: https://www.fountain.fm

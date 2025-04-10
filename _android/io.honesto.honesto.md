@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Honesto AG
+developerName: Honesto AG Schweiz
 features: 
 
 ---

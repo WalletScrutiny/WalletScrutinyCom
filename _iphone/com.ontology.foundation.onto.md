@@ -11,7 +11,7 @@ released: 2018-09-21
 updated: 2025-03-20
 version: 4.9.3
 stars: 4
-reviews: 87
+reviews: 86
 website: https://www.onto.app
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: accrue
-title: 'Accrue: Send Spend Sell Save'
+title: 'Accrue: The cross-border app'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 100000
 appId: com.rocketsfintech.accrue
 appCountry: 
 released: 2021-10-09
-updated: 2025-03-20
-version: 3.8.0
+updated: 2025-04-04
+version: 4.0.0
 stars: 4.2
 ratings: 
 reviews: 39

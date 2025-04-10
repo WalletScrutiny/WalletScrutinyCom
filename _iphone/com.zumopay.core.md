@@ -8,8 +8,8 @@ appId: com.zumopay.core
 appCountry: gb
 idd: '1449986847'
 released: 2019-11-07
-updated: 2025-02-26
-version: 5.12.1
+updated: 2025-04-07
+version: 5.13.0
 stars: 4.3
 reviews: 304
 website: https://app.zumo.tech

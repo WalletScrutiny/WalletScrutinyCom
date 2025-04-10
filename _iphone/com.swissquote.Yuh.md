@@ -1,6 +1,6 @@
 ---
 wsId: yuh
-title: Yuh - Your App. Your Money.
+title: Yuh - Your app. Your money.
 altTitle: 
 authors:
 - danny
@@ -8,10 +8,10 @@ appId: com.swissquote.Yuh
 appCountry: ch
 idd: '1493935010'
 released: 2021-05-10
-updated: 2025-04-01
-version: 1.35.0
+updated: 2025-04-07
+version: 1.35.1
 stars: 4.7
-reviews: 16788
+reviews: 16890
 website: https://www.yuh.com
 repository: 
 issue: 

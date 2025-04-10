@@ -10,8 +10,8 @@ idd: '1599893605'
 released: 2021-12-14
 updated: 2025-03-20
 version: '3.26'
-stars: 3.4
-reviews: 10
+stars: 3.2
+reviews: 11
 website: https://fasset.io/
 repository: 
 issue: 

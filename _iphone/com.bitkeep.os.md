@@ -11,7 +11,7 @@ released: 2018-09-26
 updated: 2025-03-28
 version: 8.31.0
 stars: 4.7
-reviews: 4682
+reviews: 4719
 website: https://web3.bitget.com
 repository: 
 issue: 

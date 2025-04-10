@@ -8,10 +8,10 @@ appId: com.cmcm.currency.exchange
 appCountry: 
 idd: 1435877386
 released: 2018-09-16
-updated: 2025-03-25
-version: 6.0.17
+updated: 2025-04-07
+version: 6.0.18
 stars: 4.2
-reviews: 1104
+reviews: 1103
 website: https://www.bitrue.com
 repository: 
 issue: 

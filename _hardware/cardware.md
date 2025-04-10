@@ -5,7 +5,7 @@ authors:
 - danny
 released: 2025-02-28
 discontinued: 
-updated: 
+updated: 2025-02-28
 version: v1.0.0
 binaries: 
 dimensions:
@@ -26,7 +26,7 @@ bugbounty:
 meta: ok
 verdict: wip
 appHashes: 
-date: 2025-03-05
+date: 2025-04-02
 signer: 
 reviewArchive: 
 twitter: CardwareWallet

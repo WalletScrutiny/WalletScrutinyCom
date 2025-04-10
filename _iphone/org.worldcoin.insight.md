@@ -8,10 +8,10 @@ appId: org.worldcoin.insight
 appCountry: us
 idd: '1560859847'
 released: 2022-06-25
-updated: 2025-03-31
-version: 2.8.7701
+updated: 2025-04-08
+version: 2.8.7800
 stars: 4.7
-reviews: 1685
+reviews: 1693
 website: https://worldcoin.org
 repository: 
 issue: 

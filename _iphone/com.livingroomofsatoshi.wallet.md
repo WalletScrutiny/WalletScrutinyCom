@@ -11,7 +11,7 @@ released: 2019-05-20
 updated: 2025-03-29
 version: 2.7.7
 stars: 4.3
-reviews: 12
+reviews: 13
 website: https://www.walletofsatoshi.com
 repository: 
 issue: 

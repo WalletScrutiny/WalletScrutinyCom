@@ -4,7 +4,7 @@ title: Tapbit - Buy Bitcoin & Crypto
 altTitle: 
 authors:
 - danny
-users: 50000
+users: 100000
 appId: com.tapbit.android
 appCountry: 
 released: 2022-09-20
@@ -12,7 +12,7 @@ updated: 2025-03-21
 version: 3.9.2
 stars: 4.5
 ratings: 
-reviews: 32
+reviews: 31
 website: 
 repository: 
 issue: 

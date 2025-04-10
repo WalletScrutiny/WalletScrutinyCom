@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: app.kmint.kmint.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
 appHashes: 
-date: 2023-03-07
+date: 2025-04-06
 signer: 
 reviewArchive: 
 twitter: KMINT_protocol

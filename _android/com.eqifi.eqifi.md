@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.eqifi.eqifi.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-04-17
+date: 2025-04-09
 signer: 
 reviewArchive: 
 twitter: eqifi_finance

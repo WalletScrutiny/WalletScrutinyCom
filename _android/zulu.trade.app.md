@@ -8,8 +8,8 @@ users: 100000
 appId: zulu.trade.app
 appCountry: us
 released: 2011-03-04
-updated: 2025-01-15
-version: 5.0.26
+updated: 2025-04-03
+version: 5.0.27
 stars: 3.7
 ratings: 2010
 reviews: 65

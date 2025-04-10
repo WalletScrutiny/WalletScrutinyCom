@@ -4,15 +4,15 @@ title: The Kingdom Bank | Crypto Fiat
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: com.thekingdombank.app
 appCountry: 
 released: 2021-12-17
-updated: 2025-03-31
-version: 9.0.2
-stars: 
+updated: 2025-04-07
+version: 9.0.5
+stars: 3.8
 ratings: 
-reviews: 
+reviews: 3
 website: https://thekingdombank.com
 repository: 
 issue: 

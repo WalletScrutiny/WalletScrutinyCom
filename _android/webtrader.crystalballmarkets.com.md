@@ -3,7 +3,7 @@ wsId:
 title: Crystal Ball Markets MT7
 altTitle: 
 authors: 
-users: 500
+users: 1000
 appId: webtrader.crystalballmarkets.com
 appCountry: 
 released: 2022-05-25
@@ -18,7 +18,7 @@ issue:
 icon: webtrader.crystalballmarkets.com.png
 bugbounty: 
 meta: ok
-verdict: fewusers
+verdict: wip
 appHashes: 
 date: 2024-08-21
 signer: 

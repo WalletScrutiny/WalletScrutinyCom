@@ -12,7 +12,7 @@ updated: 2025-03-28
 version: 2.8.7705
 stars: 4.6
 ratings: 
-reviews: 447
+reviews: 448
 website: https://worldcoin.org
 repository: 
 issue: 
@@ -30,7 +30,7 @@ social:
 - https://discord.com/invite/worldcoin
 - https://www.youtube.com/@worldcoinofficial
 redirect_from: 
-developerName: worldcoin
+developerName: TFH
 features: 
 
 ---

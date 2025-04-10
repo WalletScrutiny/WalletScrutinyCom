@@ -11,7 +11,7 @@ released: 2020-06-18
 updated: 2025-04-01
 version: 3.0.14
 stars: 4.6
-reviews: 427
+reviews: 432
 website: https://criptan.es
 repository: 
 issue: 

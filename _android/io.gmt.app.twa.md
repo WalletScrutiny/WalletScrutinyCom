@@ -8,11 +8,11 @@ users: 1000000
 appId: io.gmt.app.twa
 appCountry: 
 released: 2023-02-22
-updated: 2025-03-04
-version: '37'
+updated: 2025-04-04
+version: '38'
 stars: 4.5
 ratings: 
-reviews: 624
+reviews: 641
 website: https://gomining.com
 repository: 
 issue: 
@@ -30,7 +30,7 @@ social:
 - https://medium.com/@Gomining
 - https://www.instagram.com/Gomining_token
 redirect_from: 
-developerName: YuccaDigital
+developerName: SIA Yucca Digital
 features: 
 
 ---

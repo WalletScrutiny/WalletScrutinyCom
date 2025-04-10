@@ -10,8 +10,8 @@ idd: '1598882898'
 released: 2022-02-05
 updated: 2025-03-31
 version: 1.8.2
-stars: 3
-reviews: 4
+stars: 3.4
+reviews: 5
 website: https://www.oobit.com/
 repository: 
 issue: 

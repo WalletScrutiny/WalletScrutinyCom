@@ -11,7 +11,7 @@ released: 2020-07-13
 updated: 2024-07-01
 version: 3.1.1
 stars: 2.6
-reviews: 47
+reviews: 49
 website: http://hkd.com
 repository: 
 issue: 

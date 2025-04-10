@@ -55,8 +55,8 @@ echo " * Calling refreshResults.sh..."
 echo " * Generate allOpinions.json from Nostr..."
 node ./scripts/compileAllOpinions.js
 
-echo " * Updating attestations.json..."
-node refreshAttestationsDB.mjs _android _desktop _hardware _iphone 
+echo " * Doing backup of Verifications Nostr events..."
+node ./scripts/verifications/backupNostrVerificationEvents.mjs
 
 echo
 echo

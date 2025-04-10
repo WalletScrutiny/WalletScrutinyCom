@@ -11,7 +11,7 @@ released: 2020-08-05
 updated: 2025-03-19
 version: 1.16.3
 stars: 4
-reviews: 107
+reviews: 108
 website: https://koshelek.ru/
 repository: 
 issue: 

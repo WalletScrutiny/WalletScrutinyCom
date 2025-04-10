@@ -10,9 +10,9 @@ appCountry: us
 released: 2015-06-05
 updated: 2024-12-04
 version: 4.2.1
-stars: 3.1
+stars: 3.2
 ratings: 427
-reviews: 339
+reviews: 340
 website: https://libertyx.com
 repository: 
 issue: 

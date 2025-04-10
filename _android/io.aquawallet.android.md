@@ -11,7 +11,7 @@ appCountry:
 released: 2024-01-02
 updated: 2025-02-18
 version: 0.2.10
-stars: 4.5
+stars: 4.6
 ratings: 
 reviews: 15
 website: https://aquawallet.io

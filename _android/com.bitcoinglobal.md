@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.bitcoinglobal.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-04-13
+date: 2025-04-09
 signer: 
 reviewArchive: 
 twitter: BitcoinGlobalEx

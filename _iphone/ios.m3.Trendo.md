@@ -11,7 +11,7 @@ released: 2020-09-29
 updated: 2025-03-28
 version: 4.1.10
 stars: 5
-reviews: 49
+reviews: 50
 website: https://fxtrendo.com/
 repository: 
 issue: 

@@ -11,7 +11,7 @@ released: 2023-07-17
 updated: 2025-04-01
 version: 1.3.141
 stars: 4.3
-reviews: 80
+reviews: 85
 website: https://gemwallet.com/
 repository: https://github.com/gemwalletcom/gem-android
 issue: 

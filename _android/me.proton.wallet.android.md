@@ -10,9 +10,9 @@ appCountry:
 released: 2025-02-04
 updated: 2025-04-01
 version: 1.0.9
-stars: 4.3
+stars: 4.2
 ratings: 
-reviews: 8
+reviews: 9
 website: https://proton.me
 repository: https://github.com/ProtonWallet/flutter-app
 issue: https://github.com/ProtonWallet/flutter-app/issues/4

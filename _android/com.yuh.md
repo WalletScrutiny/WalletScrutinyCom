@@ -1,6 +1,6 @@
 ---
 wsId: yuh
-title: Yuh - Your App. Your Money.
+title: Yuh - Your app. Your money.
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 100000
 appId: com.yuh
 appCountry: 
 released: 2021-04-06
-updated: 2025-03-26
-version: 1.35.10
+updated: 2025-04-07
+version: 1.36.0
 stars: 2.2
 ratings: 
 reviews: 4
