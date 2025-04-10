@@ -5,19 +5,19 @@ authors:
 - danny
 released: 2021-06-03
 discontinued: 
-updated: 2024-04-02
-version: 1.9.32
+updated: 2025-03-25
+version: 1.9.44
 binaries: 
-provider: Enigmo Private Limited
+provider: Nunchuk Inc.
 providerWebsite: 
 website: https://nunchuk.io
 repository: https://github.com/nunchuk-io/nunchuk-desktop
-issue: 
+issue: https://github.com/nunchuk-io/nunchuk-desktop/issues/86
 icon: nunchuk.png
 bugbounty: 
 meta: ok
 verdict: wip
-date: 2024-04-25
+date: 2025-04-10
 reviewArchive: 
 twitter: nunchuk_io
 social: 
