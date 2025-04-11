@@ -31,7 +31,7 @@ process_file() {
     output_file="$platform_dir/$base_name.png"
     
     case "$verdict" in
-        "reproducible")
+        "reproducible"|"sourceavailable")
             echo -n "+"
             (cd "$platform_dir" && ln -sf "../good.png" "$base_name.png")
             ;;
