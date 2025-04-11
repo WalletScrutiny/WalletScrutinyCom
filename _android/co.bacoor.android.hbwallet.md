@@ -12,7 +12,7 @@ updated: 2025-03-14
 version: 4.7.0
 stars: 4.5
 ratings: 2137
-reviews: 49
+reviews: 48
 website: https://www.hb-wallet.com/
 repository: 
 issue: 

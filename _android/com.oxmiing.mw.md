@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.oxmiing.mw.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: fake
 appHashes: 
-date: 2024-03-30
+date: 2025-04-09
 signer: 
 reviewArchive: 
 twitter: 

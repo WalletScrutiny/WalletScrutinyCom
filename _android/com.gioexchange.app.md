@@ -7,7 +7,7 @@ users: 100
 appId: com.gioexchange.app
 appCountry: 
 released: 2020-05-07
-updated: 2022-09-01
+updated: 2024-07-16
 version: 1.0.0
 stars: 
 ratings: 
@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.gioexchange.app.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: fewusers
 appHashes: 
 date: 2023-09-15
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: Angels
+developerName: ANGELS
 features: 
 
 ---

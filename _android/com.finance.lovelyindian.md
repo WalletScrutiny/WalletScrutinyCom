@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.finance.lovelyindian.png
 bugbounty: 
-meta: removed
+meta: obsolete
 verdict: wip
 appHashes: 
-date: 2023-08-04
+date: 2025-04-01
 signer: 
 reviewArchive: 
 twitter: 

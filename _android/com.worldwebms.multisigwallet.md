@@ -8,8 +8,8 @@ users: 1000
 appId: com.worldwebms.multisigwallet
 appCountry: 
 released: 2019-02-15
-updated: 2023-12-14
-version: 4.5.0
+updated: 2025-01-17
+version: 4.5.1
 stars: 
 ratings: 
 reviews: 
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.worldwebms.multisigwallet.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosource
 appHashes: 
 date: 2024-11-21

@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: ai.blockbank.blockbankv2.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2025-03-15
+date: 2025-04-01
 signer: 
 reviewArchive: 
 twitter: BLOCKBANKapp

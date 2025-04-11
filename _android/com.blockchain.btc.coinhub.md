@@ -7,11 +7,11 @@ users: 50000
 appId: com.blockchain.btc.coinhub
 appCountry: 
 released: 2021-05-13
-updated: 2025-03-23
-version: 1.4.3
+updated: 2025-04-03
+version: 1.4.4
 stars: 4.4
 ratings: 1577
-reviews: 94
+reviews: 92
 website: https://coindex.money
 repository: https://github.com/hoanghiephui/unstoppable-wallet-android
 issue: 

@@ -12,7 +12,7 @@ updated: 2025-03-28
 version: 2.4.6
 stars: 3.9
 ratings: 2380
-reviews: 85
+reviews: 86
 website: https://exnovin.net
 repository: 
 issue: 

@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: 'Byte Exchange: BTC ETH Crypto'
+title: 'Byte Exchange: Crypto Trading'
 altTitle: 
 authors:
 - danny
@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: io.bytedex.mobile.tr.png
 bugbounty: 
-meta: removed
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-12-08
+date: 2025-04-01
 signer: 
 reviewArchive: 
 twitter: byteexchange

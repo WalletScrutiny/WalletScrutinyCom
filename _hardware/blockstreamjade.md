@@ -8,8 +8,8 @@ authors:
 - keraliss
 released: 2021-01-01
 discontinued: 
-updated: 2024-11-27
-version: 1.0.33
+updated: 2025-03-14
+version: 1.0.34
 binaries: https://jadefw.blockstream.com/bin/jade/index.json
 dimensions:
 - 24
@@ -21,7 +21,7 @@ providerWebsite: https://blockstream.com/
 website: https://blockstream.com/jade/
 shop: https://store.blockstream.com/products/blockstream-jade-hardware-wallet
 country: CA
-price: 64.99USD
+price: 79USD
 repository: https://github.com/Blockstream/jade
 issue: 
 icon: blockstreamjade.png
@@ -29,13 +29,22 @@ bugbounty:
 meta: ok
 verdict: reproducible
 appHashes:
-- 40f7b83466ae356a7a118e2b422bfec144bb91f0313d1f0456747d0dafecf6a8
-- ef04943a338cc43cc6fe13fa3c8d8884af9d2e638377b55ff0ccb0ae6145c39b
-- 045238a9f0631bd14fc877938fca9d2b8c600a1042c6bcf2ce78468aaffdaaad
-- 6be404cddceb89ecf134548ca9ca8a5ae113a9ba55f3ad5e7365b5346ef240a2
-date: 2025-03-19
+- c88b3d38deddec7265878885b4f1ff952d5ac56d202861a9ce9a6e2b84006280
+- 83098f274244f1b676a2f161da155e6c3444f0a30450fd758a26046a88654ce2
+- e056250e6f75cda5b14a91cc8aef6edcf6a9875cdae2f41ea9b96bd88fdd0e46
+- e38355055873ed9ab10c19cb425a64497589c78c7dad041ec351599e2c2c1b52
+date: 2025-04-04
 signer: 
 reviewArchive:
+- date: 2025-03-19
+  version: 1.0.34
+  appHashes:
+  - 40f7b83466ae356a7a118e2b422bfec144bb91f0313d1f0456747d0dafecf6a8
+  - ef04943a338cc43cc6fe13fa3c8d8884af9d2e638377b55ff0ccb0ae6145c39b
+  - 045238a9f0631bd14fc877938fca9d2b8c600a1042c6bcf2ce78468aaffdaaad
+  - 6be404cddceb89ecf134548ca9ca8a5ae113a9ba55f3ad5e7365b5346ef240a2
+  gitRevision: 319bc673b4793bbd3149d9e9a52bb448f3fcc371
+  verdict: reproducible
 - date: 2024-12-17
   version: 1.0.33
   appHashes:
@@ -150,6 +159,7 @@ e38355055873ed9ab10c19cb425a64497589c78c7dad041ec351599e2c2c1b52  jade_1.0.34_11
 e38355055873ed9ab10c19cb425a64497589c78c7dad041ec351599e2c2c1b52  jade_1.0.34_11_noR_stripped.bin
 b3e0e7d88ee60950c4be253a05bbd229a6758cba1cdc03a9ad8bc94731259159  jade_1.0.34_11_noR.bin.gz
 The Jade firmware version 1.0.34 11_noR is reproducible with above hashes.
+
 ```
 
 Firmware version 1.0.34 of {{ page.title }} is **reproducible**

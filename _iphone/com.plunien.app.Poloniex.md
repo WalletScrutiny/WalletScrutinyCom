@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.plunien.app.Poloniex.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-03-14
+date: 2025-04-01
 signer: 
 reviewArchive:
 - date: 2021-05-20

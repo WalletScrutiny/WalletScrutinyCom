@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.zybitech.juancash.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
 date: 2025-02-28

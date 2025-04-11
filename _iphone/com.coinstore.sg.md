@@ -10,8 +10,8 @@ idd: '1567160644'
 released: 2021-05-12
 updated: 2025-02-24
 version: 3.5.0
-stars: 4.1
-reviews: 92
+stars: 4
+reviews: 93
 website: https://www.coinstore.com
 repository: 
 issue: 

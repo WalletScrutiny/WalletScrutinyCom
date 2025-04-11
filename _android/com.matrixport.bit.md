@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: BIT
+title: 'BIT.com: Buy BTC & ETH 、Meme'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 100000
 appId: com.matrixport.bit
 appCountry: 
 released: 2021-03-15
-updated: 2025-03-20
-version: 2.0.2
+updated: 2025-04-09
+version: 2.0.5
 stars: 3.6
 ratings: 245
 reviews: 27

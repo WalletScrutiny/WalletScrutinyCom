@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.sessipapp.Sessip.jpg
 bugbounty: 
-meta: removed
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-07-05
+date: 2025-04-01
 signer: 
 reviewArchive: 
 twitter: sessipapp

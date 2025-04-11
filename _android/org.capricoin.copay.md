@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: org.capricoin.copay.png
 bugbounty: 
-meta: removed
+meta: obsolete
 verdict: fewusers
 appHashes: 
-date: 2024-04-03
+date: 2025-04-01
 signer: 
 reviewArchive: 
 twitter: 

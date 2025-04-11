@@ -13,13 +13,13 @@ updated: 2024-06-11
 version: v1.0.14.12
 stars: 4
 ratings: 
-reviews: 2
+reviews: 
 website: https://ankerpay.com/mobile-wallet/
 repository: 
 issue: 
 icon: com.ankerpay.wallet.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosource
 appHashes: 
 date: 2024-09-10

@@ -8,8 +8,8 @@ users: 1000
 appId: com.bgw.wallet
 appCountry: 
 released: 2022-07-14
-updated: 2024-06-07
-version: 0.3.7
+updated: 2025-01-09
+version: 0.3.8
 stars: 
 ratings: 
 reviews: 
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.bgw.wallet.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
 date: 2024-09-16
@@ -31,7 +31,7 @@ social:
 - https://www.linkedin.com/company/bg-wallet
 - https://www.instagram.com/bg.wallet
 redirect_from: 
-developerName: BG Technologies Limited
+developerName: Wellto Go
 features: 
 
 ---

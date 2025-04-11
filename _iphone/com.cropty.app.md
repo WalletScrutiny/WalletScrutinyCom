@@ -11,7 +11,7 @@ released: 2022-08-04
 updated: 2025-03-21
 version: 1.6.4
 stars: 4.8
-reviews: 135
+reviews: 139
 website: https://cropty.io/
 repository: 
 issue: 

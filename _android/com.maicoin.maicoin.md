@@ -9,7 +9,7 @@ appId: com.maicoin.maicoin
 appCountry: us
 released: 2018-12-19
 updated: 2025-03-14
-version: 11.0.1
+version: 12.0.0
 stars: 4.2
 ratings: 645
 reviews: 10

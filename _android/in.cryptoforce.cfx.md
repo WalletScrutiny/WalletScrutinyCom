@@ -8,8 +8,8 @@ users: 5000
 appId: in.cryptoforce.cfx
 appCountry: 
 released: 2022-09-27
-updated: 2024-04-18
-version: 1.1.2.5
+updated: 2025-04-01
+version: 2.0.0
 stars: 3.3
 ratings: 
 reviews: 

@@ -8,8 +8,8 @@ appId: com.papaya.gekkard
 appCountry: mt
 idd: 1493274973
 released: 2020-01-30
-updated: 2023-01-19
-version: 1.0.8
+updated: 2025-04-08
+version: 1.0.9
 stars: 0
 reviews: 0
 website: 
@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.papaya.gekkard.jpg
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2025-01-09
+date: 2025-04-09
 signer: 
 reviewArchive: 
 twitter: 

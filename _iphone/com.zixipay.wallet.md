@@ -11,7 +11,7 @@ released: 2019-12-22
 updated: 2025-03-12
 version: '1.91'
 stars: 4.3
-reviews: 24
+reviews: 23
 website: https://zixipay.com/
 repository: 
 issue: 

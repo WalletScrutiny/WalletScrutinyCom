@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.obsidiam.appstore.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2023-05-31
+date: 2025-04-06
 signer: 
 reviewArchive: 
 twitter: obsidiamlatam

@@ -10,18 +10,18 @@ appCountry:
 released: 2021-09-28
 updated: 2024-04-08
 version: 1.7.5
-stars: 4.2
+stars: 4.1
 ratings: 
-reviews: 143
+reviews: 144
 website: https://www.cryptokara.com/
 repository: 
 issue: 
 icon: com.cryptokara.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
 appHashes: 
-date: 2024-07-17
+date: 2025-04-06
 signer: 
 reviewArchive: 
 twitter: 

@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.union.cash.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-10-07
+date: 2025-04-06
 signer: 
 reviewArchive: 
 twitter: 

@@ -365,6 +365,11 @@ function eventSanitize(event) {
   });
 }
 
+const getFirstValueFromTag = function(event, tagName) {
+  const tags = event.getMatchingTags(tagName);
+  return tags.length === 0 ? null : tags[0][1];
+}
+
 const getAllAssetInformation = async function({
                                                 months,
                                                 pubkey,
@@ -417,8 +422,8 @@ const getAllAssetInformation = async function({
     eventSanitize(event);
   });
 
-  const assets = Array.from(events).filter(event => event.kind === assetRegistrationKind);
-  const verifications = Array.from(events).filter(event => event.kind === verificationKind);
+  const assets = Array.from(events).filter(event => event.kind === assetRegistrationKind && getFirstValueFromTag(event, 'client') === 'WalletScrutiny.com');
+  const verifications = Array.from(events).filter(event => event.kind === verificationKind && getFirstValueFromTag(event, 'client') === 'WalletScrutiny.com');
   //const endorsements = Array.from(events).filter(event => event.kind === endorsementKind);
 
   const assetsMap = new Map();
@@ -648,5 +653,6 @@ export {
   getAppInfoFromEventInfo,
   nip19,
   purifyConfig,
-  isDebug
+  isDebug,
+  getFirstValueFromTag
 };

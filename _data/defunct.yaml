@@ -1,22 +1,32 @@
-2025-03-17:
-- _iphone/ai.blockbank.blockbankv2
-- _android/com.exolix.app
-- _android/com.ultorexapp.io
-- _iphone/com.btc-alpha
-- _iphone/com.coinmena.coinmenaapp
-- _iphone/com.plunien.app.Poloniex
-- _iphone/net.novawallet.ios
-2025-03-19:
-- _iphone/com.pandats.axia
-- _iphone/com.pro.b2u
-2025-03-25:
-- _android/com.beehive.beehivemulti_coinwallet
-- _android/com.bitgin.app
-- _android/com.eqifi.eqifi
-- _android/com.hxg.wallet
-- _android/com.oxmiing.mw
-- _android/com.usscyber.xliquiduss.app
-- _android/io.blockbee.pos
-- _iphone/com.antier.infipay
 2025-03-29:
 - _android/com.bitgo.mobile
+2025-04-01:
+- _android/fi.steakwallet.app
+- _android/kuna.beta
+- _iphone/com.pt.powertrade
+- _iphone/com.servotech.coinzix
+- _iphone/gwallet.tech
+- _iphone/icecream.group.kuna.fintech
+- _iphone/io.kitefinancial.bitcoin
+2025-04-06:
+- _android/com.iqtrade.ex.app
+- _android/com.radiuswallet
+- _android/net.panteam.pt.BTC
+- _android/nl.tudelft.trustchain
+- _iphone/com.app.breet
+- _iphone/com.coininn.yykik
+- _iphone/com.simpleswap.app
+- _iphone/com.stormbird.alphawallet
+- _iphone/io.slavi.wallet
+- _iphone/it.airgap.vault
+- _iphone/it.airgap.wallet
+2025-04-09:
+- _android/com.oslmobile
+- _android/com.trastra.mobile
+- _android/one.citadel.mobile
+- _android/ua.money.storage.moneystorage
+- _iphone/com.defexa.CryptoWallet-Defexa
+- _iphone/io.stormx.ios
+2025-04-10:
+- _android/com.blockin.google
+- _android/com.nova.dax

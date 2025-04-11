@@ -8,17 +8,17 @@ users: 100000
 appId: com.simpleswapapp
 appCountry: gb
 released: 2020-05-23
-updated: 2024-09-11
-version: 4.2.8
-stars: 4.3
+updated: 2025-03-21
+version: 4.4.6
+stars: 4.4
 ratings: 575
-reviews: 40
+reviews: 41
 website: https://simpleswap.io
 repository: 
 issue: 
 icon: com.simpleswapapp.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nowallet
 appHashes: 
 date: 2024-10-12

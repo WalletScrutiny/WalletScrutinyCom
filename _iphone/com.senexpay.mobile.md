@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.senexpay.mobile.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2023-09-07
+date: 2025-04-06
 signer: 
 reviewArchive: 
 twitter: 

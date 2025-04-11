@@ -13,7 +13,7 @@ version: 4.0.5
 stars: 
 ratings: 
 reviews: 
-website: https://www.coinbest.com/
+website: https://osl.com/jp
 repository: 
 issue: 
 icon: com.coinbest.coinbest.png
@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: CoinBest株式会社
+developerName: 暗号資産取引ならOSL Japan
 features: 
 
 ---

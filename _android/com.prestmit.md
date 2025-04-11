@@ -10,9 +10,9 @@ appCountry: us
 released: 2021-04-13
 updated: 2025-03-21
 version: 7.2.339
-stars: 4.4
+stars: 4.6
 ratings: 1291
-reviews: 693
+reviews: 709
 website: https://staging.prestmit.com
 repository: 
 issue: 

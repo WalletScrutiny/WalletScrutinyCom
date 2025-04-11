@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.cryptokara.app.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nosource
 appHashes: 
-date: 2023-08-15
+date: 2025-04-06
 signer: 
 reviewArchive: 
 twitter: 

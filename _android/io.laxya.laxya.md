@@ -18,16 +18,16 @@ repository:
 issue: 
 icon: io.laxya.laxya.png
 bugbounty: 
-meta: removed
+meta: stale
 verdict: nowallet
 appHashes: 
-date: 2024-09-25
+date: 2025-04-01
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Laxya
+developerName: BITSSHADOW LLP
 features: 
 
 ---

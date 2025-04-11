@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: net.novawallet.ios.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nosource
 appHashes: 
-date: 2024-07-19
+date: 2025-04-01
 signer: 
 reviewArchive: 
 twitter: solidus_v

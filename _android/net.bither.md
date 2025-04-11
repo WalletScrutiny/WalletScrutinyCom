@@ -10,8 +10,8 @@ users: 50000
 appId: net.bither
 appCountry: 
 released: 2014-02-27
-updated: 2024-10-12
-version: 2.1.6
+updated: 2024-11-21
+version: 2.1.7
 stars: 4.1
 ratings: 335
 reviews: 31
@@ -20,7 +20,7 @@ repository: https://github.com/bither/bither-android
 issue: https://github.com/bither/bither-android/issues/69
 icon: net.bither.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: obfuscated
 appHashes: 
 date: 2024-11-07

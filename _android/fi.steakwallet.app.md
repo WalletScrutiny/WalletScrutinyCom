@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: fi.steakwallet.app.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nobtc
 appHashes: 
 date: 2024-07-10

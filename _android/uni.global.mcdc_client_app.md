@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: uni.global.mcdc_client_app.png
 bugbounty: 
-meta: ok
+meta: stale
 verdict: fewusers
 appHashes: 
-date: 2023-06-03
+date: 2025-04-11
 signer: 
 reviewArchive: 
 twitter: 

@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.servotech.coinzix.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
 date: 2025-03-11

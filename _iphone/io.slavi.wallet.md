@@ -17,10 +17,10 @@ repository: https://github.com/SlvLabs/slavi-wallet
 issue: 
 icon: io.slavi.wallet.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nonverifiable
 appHashes: []
-date: 2023-07-06
+date: 2025-04-09
 signer: 
 reviewArchive: 
 twitter: slavi_io

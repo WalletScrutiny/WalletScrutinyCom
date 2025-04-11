@@ -12,7 +12,7 @@ updated: 2025-03-07
 version: 1.7.1
 stars: 5
 ratings: 
-reviews: 3
+reviews: 4
 website: https://sideswap.io/
 repository: 
 issue: 

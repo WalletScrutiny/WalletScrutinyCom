@@ -8,8 +8,8 @@ users: 10000
 appId: com.rabin.rabex
 appCountry: 
 released: 2023-02-19
-updated: 2025-03-16
-version: 2.4.0-Rabex
+updated: 2025-03-30
+version: 2.4.1-Rabex
 stars: 4.2
 ratings: 
 reviews: 10

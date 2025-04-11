@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.pro.b2u.jpg
 bugbounty: 
-meta: stale
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-10-08
+date: 2025-04-06
 signer: 
 reviewArchive: 
 twitter: bitcointoyou

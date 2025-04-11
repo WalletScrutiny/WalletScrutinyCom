@@ -12,16 +12,16 @@ updated: 2022-06-22
 version: '2.0'
 stars: 4.2
 ratings: 
-reviews: 6
+reviews: 9
 website: https://icmarkets.com
 repository: 
 issue: 
 icon: com.icmarkets.mobileapp.png
 bugbounty: 
-meta: removed
+meta: obsolete
 verdict: nosendreceive
 appHashes: 
-date: 2023-12-19
+date: 2025-04-01
 signer: 
 reviewArchive: 
 twitter: IC_Markets
