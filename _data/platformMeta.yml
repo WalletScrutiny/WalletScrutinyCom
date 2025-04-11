@@ -17,6 +17,7 @@ android:
     - ftbfs
     - nonverifiable
     - reproducible
+    - sourceavailable
   metas: 
     - defunct
     - obsolete
@@ -64,6 +65,7 @@ iphone:
     - ftbfs
     - nonverifiable
     - reproducible
+    - sourceavailable
   metas: 
     - defunct
     - obsolete
@@ -108,6 +110,7 @@ hardware:
     - ftbfs
     - nonverifiable
     - reproducible
+    - sourceavailable
     - diy
   metas: 
     - defunct
@@ -158,6 +161,7 @@ bearer:
     - ftbfs
     - nonverifiable
     - reproducible
+    - sourceavailable
     - diy
   metas: 
     - defunct
@@ -185,6 +189,7 @@ desktop:
     - ftbfs
     - nonverifiable
     - reproducible
+    - sourceavailable
   metas: 
     - defunct
     - obsolete
@@ -211,6 +216,7 @@ linux:
     - ftbfs
     - nonverifiable
     - reproducible
+    - sourceavailable
   metas: 
     - defunct
     - obsolete
@@ -237,6 +243,7 @@ windows:
     - ftbfs
     - nonverifiable
     - reproducible
+    - sourceavailable
   metas: 
     - defunct
     - obsolete
@@ -263,6 +270,7 @@ macos:
     - ftbfs
     - nonverifiable
     - reproducible
+    - sourceavailable
   metas: 
     - defunct
     - obsolete

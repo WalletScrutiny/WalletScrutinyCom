@@ -18,6 +18,7 @@ verdicts:
   - ftbfs
   - nonverifiable
   - reproducible
+  - sourceavailable
   - diy
 metas:
   - defunct
