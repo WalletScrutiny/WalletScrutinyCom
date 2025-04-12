@@ -8,8 +8,8 @@ users: 5000
 appId: com.jeritex.exchange
 appCountry: 
 released: 2022-05-05
-updated: 2023-05-22
-version: 1.1.20
+updated: 2025-02-28
+version: 1.1.22
 stars: 
 ratings: 
 reviews: 
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.jeritex.exchange.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
 date: 2024-08-31

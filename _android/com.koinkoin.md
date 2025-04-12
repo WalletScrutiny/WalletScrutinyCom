@@ -8,8 +8,8 @@ users: 1000
 appId: com.koinkoin
 appCountry: 
 released: 2021-02-22
-updated: 2024-07-17
-version: 2.3.5
+updated: 2025-01-31
+version: 6.2.5
 stars: 3.3
 ratings: 
 reviews: 
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.koinkoin.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
 date: 2024-11-04

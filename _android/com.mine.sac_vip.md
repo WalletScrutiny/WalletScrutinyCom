@@ -1,14 +1,14 @@
 ---
 wsId: 
-title: SACMINE
+title: Doctor Memory
 altTitle: 
 authors: 
 users: 500
 appId: com.mine.sac_vip
 appCountry: 
 released: 2021-09-24
-updated: 2021-09-25
-version: '1.0'
+updated: 2025-02-20
+version: '1.2'
 stars: 4.1
 ratings: 
 reviews: 
@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.mine.sac_vip.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: fewusers
 appHashes: 
 date: 2024-03-02

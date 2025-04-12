@@ -7,8 +7,8 @@ users: 100
 appId: com.im.tech.imcard
 appCountry: 
 released: 2022-01-12
-updated: 2024-04-17
-version: 1.8.0
+updated: 2024-12-18
+version: 1.7.2
 stars: 
 ratings: 
 reviews: 
@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.im.tech.imcard.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: fewusers
 appHashes: 
 date: 2024-08-31

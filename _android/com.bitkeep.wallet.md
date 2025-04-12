@@ -1,6 +1,6 @@
 ---
 wsId: bitkeep
-title: 'Bitget Wallet: Crypto, Trump'
+title: 'Bitget Wallet: Crypto, Bitcoin'
 altTitle: 
 authors:
 - leo
@@ -9,11 +9,11 @@ users: 10000000
 appId: com.bitkeep.wallet
 appCountry: 
 released: 2020-02-11
-updated: 2025-03-27
-version: 8.30.1
+updated: 2025-04-08
+version: 8.31.0
 stars: 4.5
 ratings: 3949
-reviews: 3665
+reviews: 3687
 website: https://bitkeep.com
 repository: 
 issue: 

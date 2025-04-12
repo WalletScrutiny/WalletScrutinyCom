@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.hslwallet.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: fewusers
 appHashes: 
 date: 2025-01-09

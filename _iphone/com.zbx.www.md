@@ -1,6 +1,6 @@
 ---
 wsId: ZBX
-title: ZBX
+title: ZBX - Bitcoin & Cryptocurrency
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ appId: com.zbx.www
 appCountry: us
 idd: 1458088759
 released: 2019-05-26
-updated: 2023-01-13
-version: 2.3.2
+updated: 2025-03-31
+version: 2.5.6
 stars: 4.3
 reviews: 4
 website: https://www.zbx.one/
@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.zbx.www.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
 date: 2023-04-16

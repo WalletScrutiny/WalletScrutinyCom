@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.devere.dcx.png
 bugbounty: 
-meta: removed
+meta: obsolete
 verdict: nosendreceive
 appHashes: 
-date: 2025-01-15
+date: 2025-04-10
 signer: 
 reviewArchive: 
 twitter: deveregroup

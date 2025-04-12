@@ -7,8 +7,8 @@ users: 50
 appId: com.ejfhp.bitonpaper
 appCountry: 
 released: 2021-02-13
-updated: 2021-06-14
-version: v2.0.0
+updated: 2025-01-11
+version: 2.1.2
 stars: 
 ratings: 
 reviews: 
@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: com.ejfhp.bitonpaper.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: fewusers
 appHashes: 
 date: 2024-07-05
@@ -26,7 +26,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: ejfhp
+developerName: Rabbit Hole Lab
 features: 
 
 ---

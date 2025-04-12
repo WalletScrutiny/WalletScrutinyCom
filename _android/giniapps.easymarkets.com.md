@@ -10,7 +10,7 @@ appCountry: us
 released: 2017-04-05
 updated: 2025-03-18
 version: 3.0.2
-stars: 3.5
+stars: 3.4
 ratings: 1761
 reviews: 37
 website: https://www.easymarkets.com/

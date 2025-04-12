@@ -10,7 +10,7 @@ appCountry:
 released: 2018-02-04
 updated: 2023-12-07
 version: 0.8.5
-stars: 3.6
+stars: 3.5
 ratings: 
 reviews: 15
 website: https://coinut.com
@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.coinut.app.png
 bugbounty: 
-meta: removed
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2025-02-13
+date: 2025-04-01
 signer: 
 reviewArchive: 
 twitter: coinut_exchange

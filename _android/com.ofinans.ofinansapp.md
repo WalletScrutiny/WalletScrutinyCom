@@ -8,8 +8,8 @@ users: 1000
 appId: com.ofinans.ofinansapp
 appCountry: 
 released: 2021-06-10
-updated: 2024-04-23
-version: 2.0.7
+updated: 2025-03-15
+version: 2.1.1
 stars: 5
 ratings: 
 reviews: 3
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: com.ofinans.ofinansapp.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
 date: 2024-09-08

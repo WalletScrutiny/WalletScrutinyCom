@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: org.app.barteos.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: fewusers
 appHashes: 
 date: 2024-12-23

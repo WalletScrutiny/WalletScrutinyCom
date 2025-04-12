@@ -17,16 +17,16 @@ repository:
 issue: 
 icon: com.chainup.exchange.BKX.png
 bugbounty: 
-meta: removed
+meta: obsolete
 verdict: fewusers
 appHashes: 
-date: 2024-11-21
+date: 2025-04-01
 signer: 
 reviewArchive: 
 twitter: 
 social: 
 redirect_from: 
-developerName: Neural Engine LLC
+developerName: GUDAX LLC
 features: 
 
 ---

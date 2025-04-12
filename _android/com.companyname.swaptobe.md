@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Tobe Wallet - Crypto Wallet
+title: Pione Wallet
 altTitle: 
 authors:
 - danny
@@ -8,17 +8,17 @@ users: 100000
 appId: com.companyname.swaptobe
 appCountry: 
 released: 2021-10-14
-updated: 2024-09-14
-version: '5.8'
+updated: 2025-03-31
+version: '6.0'
 stars: 4.3
 ratings: 
 reviews: 15
-website: https://swaptobe.com
+website: https://pionechain.com
 repository: 
 issue: 
 icon: com.companyname.swaptobe.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
 date: 2024-11-29
@@ -30,7 +30,7 @@ social:
 - https://www.youtube.com/channel/UC9jBj0BDr7vQq6WzsJGBBSw
 - https://www.facebook.com/swaptobe
 redirect_from: 
-developerName: EG Tech Group LLC
+developerName: PIONE CHAIN
 features: 
 
 ---

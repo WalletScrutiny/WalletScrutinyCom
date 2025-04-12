@@ -27,7 +27,7 @@ reviewArchive:
 twitter: 
 social: 
 redirect_from: 
-developerName: MONEX, Inc.
+developerName: マネックス証券株式会社
 features: 
 
 ---

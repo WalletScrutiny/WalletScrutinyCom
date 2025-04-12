@@ -8,17 +8,17 @@ users: 50000
 appId: com.claimfaucetcoins
 appCountry: 
 released: 2020-04-21
-updated: 2022-08-18
-version: '2.2'
+updated: 2024-09-09
+version: '2.218'
 stars: 4
 ratings: 266
-reviews: 17
-website: 
+reviews: 18
+website: https://vesspercrypto.com
 repository: 
 issue: 
 icon: com.claimfaucetcoins.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nowallet
 appHashes: 
 date: 2024-02-05

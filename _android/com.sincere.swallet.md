@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.sincere.swallet.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-04-17
+date: 2025-04-11
 signer: 
 reviewArchive: 
 twitter: SWallet_ai

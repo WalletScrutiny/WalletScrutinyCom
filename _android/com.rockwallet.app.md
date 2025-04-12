@@ -10,9 +10,9 @@ appCountry:
 released: 2022-11-14
 updated: 2025-03-27
 version: 5.17.3
-stars: 3.6
+stars: 3.5
 ratings: 
-reviews: 162
+reviews: 166
 website: http://www.rockwallet.com
 repository: 
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/498

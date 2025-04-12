@@ -1,6 +1,6 @@
 ---
 wsId: narkasaExchange
-title: Narkasa
+title: 'Bybit TR: Kripto Borsası'
 altTitle: 
 authors:
 - danny
@@ -8,17 +8,17 @@ users: 10000
 appId: org.narkasa
 appCountry: 
 released: 2020-10-30
-updated: 2021-04-11
-version: '1.27'
+updated: 2025-03-05
+version: 4.56.0
 stars: 3.5
 ratings: 
 reviews: 
 website: https://narkasa.com
 repository: 
 issue: 
-icon: org.narkasa.jpg
+icon: org.narkasa.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
 date: 2024-04-03
@@ -30,7 +30,7 @@ social:
 - https://www.instagram.com/narkasacom
 - https://www.youtube.com/channel/UCJmXTDyPjz72ipUuIEQow9w
 redirect_from: 
-developerName: NARKASA
+developerName: Bybit TR
 features: 
 
 ---

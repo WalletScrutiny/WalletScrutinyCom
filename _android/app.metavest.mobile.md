@@ -1,6 +1,6 @@
 ---
 wsId: metavestCryptoBank
-title: 'Metavest: Crypto Bank & Wallet'
+title: 'Metavest: AI Crypto Portfolio'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 1000
 appId: app.metavest.mobile
 appCountry: 
 released: 2022-07-06
-updated: 2024-08-20
-version: 3.0.0
+updated: 2024-11-26
+version: 3.1.0
 stars: 
 ratings: 
 reviews: 
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: app.metavest.mobile.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
 date: 2024-11-12

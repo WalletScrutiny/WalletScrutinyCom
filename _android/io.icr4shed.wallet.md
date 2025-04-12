@@ -8,8 +8,8 @@ users: 5000
 appId: io.icr4shed.wallet
 appCountry: 
 released: 2021-09-10
-updated: 2022-11-12
-version: '6.03'
+updated: 2025-03-09
+version: '7.18'
 stars: 4.1
 ratings: 87
 reviews: 4
@@ -18,7 +18,7 @@ repository:
 issue: 
 icon: io.icr4shed.wallet.png
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nobtc
 appHashes: 
 date: 2023-09-28

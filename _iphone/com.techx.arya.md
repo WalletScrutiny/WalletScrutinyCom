@@ -11,16 +11,16 @@ released: 2019-09-06
 updated: 2023-04-11
 version: 2.23.1
 stars: 4.8
-reviews: 12
+reviews: 11
 website: https://aryatrading.com/#pricing
 repository: 
 issue: 
 icon: com.techx.arya.jpg
 bugbounty: 
-meta: removed
+meta: obsolete
 verdict: nowallet
 appHashes: 
-date: 2023-12-19
+date: 2025-04-01
 signer: 
 reviewArchive: 
 twitter: TheAryaApp

@@ -300,6 +300,17 @@ function updateCharCount() {
   const content = document.getElementById('content').value;
   const charCount = document.getElementById('charCount');
   charCount.textContent = content.length;
+
+  const charCounter = document.querySelector('.char-counter');
+  if (content.length > 60000) {
+    charCounter.style.color = 'red';
+    charCounter.style.fontWeight = 'bold';
+    charCounter.style.fontSize = '1.2em';
+  } else {
+    charCounter.style.color = '#666';
+    charCounter.style.fontWeight = 'normal';
+    charCounter.style.fontSize = '1em';
+  }
 }
 
 document.addEventListener('DOMContentLoaded', function() {

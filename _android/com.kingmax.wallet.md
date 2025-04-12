@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.kingmax.wallet.png
 bugbounty: 
-meta: removed
+meta: obsolete
 verdict: fewusers
 appHashes: 
-date: 2024-04-26
+date: 2025-04-01
 signer: 
 reviewArchive: 
 twitter: 

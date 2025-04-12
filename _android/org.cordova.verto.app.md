@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: org.cordova.verto.app.png
 bugbounty: 
-meta: removed
+meta: obsolete
 verdict: nobtc
 appHashes: 
-date: 2024-12-04
+date: 2025-04-01
 signer: 
 reviewArchive: 
 twitter: 

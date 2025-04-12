@@ -12,7 +12,7 @@ updated: 2025-02-25
 version: 2.0.1
 stars: 4.3
 ratings: 14766
-reviews: 5091
+reviews: 5094
 website: https://www.btcturk.com
 repository: 
 issue: 
@@ -29,7 +29,7 @@ social:
 - https://www.linkedin.com/company/btcturk
 - https://www.facebook.com/btcturk
 redirect_from: 
-developerName: BTCTurk
+developerName: BTCTURK KRIPTO VARLIK ALIM SATIM PLATFORMU
 features: 
 
 ---

@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.pallapay.application.jpg
 bugbounty: 
-meta: removed
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2025-02-13
+date: 2025-04-01
 signer: 
 reviewArchive: 
 twitter: pallapay_com

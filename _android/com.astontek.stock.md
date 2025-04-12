@@ -12,7 +12,7 @@ updated: 2025-03-24
 version: '7.49'
 stars: 4.6
 ratings: 2711
-reviews: 1051
+reviews: 1058
 website: https://finabase.io
 repository: 
 issue: 

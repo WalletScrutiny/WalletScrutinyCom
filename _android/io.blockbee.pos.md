@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: io.blockbee.pos.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2023-06-03
+date: 2025-04-09
 signer: 
 reviewArchive: 
 twitter: 

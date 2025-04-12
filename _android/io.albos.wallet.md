@@ -7,8 +7,8 @@ users: 500
 appId: io.albos.wallet
 appCountry: 
 released: 2019-07-01
-updated: 2021-10-17
-version: 2.4.18
+updated: 2024-03-22
+version: 2.4.19
 stars: 
 ratings: 
 reviews: 
@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: io.albos.wallet.png
 bugbounty: 
-meta: removed
+meta: stale
 verdict: fewusers
 appHashes: 
-date: 2024-02-05
+date: 2025-04-01
 signer: 
 reviewArchive: 
 twitter: 

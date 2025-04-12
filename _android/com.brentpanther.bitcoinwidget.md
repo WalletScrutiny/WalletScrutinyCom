@@ -11,7 +11,7 @@ updated: 2025-03-21
 version: 8.6.5
 stars: 4.1
 ratings: 2110
-reviews: 214
+reviews: 215
 website: http://www.brentpanther.com
 repository: 
 issue: 

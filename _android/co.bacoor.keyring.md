@@ -4,12 +4,12 @@ title: 'KEYRING PRO: BTC, ETH, SOL'
 altTitle: 
 authors:
 - danny
-users: 5000
+users: 10000
 appId: co.bacoor.keyring
 appCountry: 
 released: 2021-01-21
-updated: 2025-03-13
-version: 4.7.0
+updated: 2025-04-10
+version: 4.8.0
 stars: 4.7
 ratings: 
 reviews: 2

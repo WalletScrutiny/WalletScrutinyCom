@@ -7,7 +7,7 @@ users: 100000
 appId: ge.mobility.emoney
 appCountry: 
 released: 2015-08-22
-updated: 2021-01-05
+updated: 2023-11-01
 version: 9.7.1
 stars: 3.9
 ratings: 
@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: ge.mobility.emoney.png
 bugbounty: 
-meta: removed
+meta: stale
 verdict: wip
 appHashes: 
-date: 2024-04-19
+date: 2025-04-01
 signer: 
 reviewArchive: 
 twitter: 

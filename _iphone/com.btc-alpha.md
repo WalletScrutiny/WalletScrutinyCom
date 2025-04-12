@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.btc-alpha.jpg
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-10-07
+date: 2025-04-01
 signer: 
 reviewArchive: 
 twitter: btcalpha

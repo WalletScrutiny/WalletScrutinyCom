@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.ansslimited.xwallet.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: fewusers
 appHashes: 
-date: 2024-04-13
+date: 2025-04-09
 signer: 
 reviewArchive: 
 twitter: 

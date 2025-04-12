@@ -12,7 +12,7 @@ updated: 2025-02-07
 version: 1.22.0
 stars: 4
 ratings: 
-reviews: 97
+reviews: 98
 website: https://quidax.com
 repository: 
 issue: 

@@ -1,5 +1,5 @@
 <!-- Drag-and-Drop-Area Start -->
-<div class="drop-areas bigScreenOnly">
+<div class="drop-areas bigScreenOnly {% if include.nostr_connect_needed %}nostr-connect-needed{% endif %}">
     <form class="my-form" id="dropForm-{{ 'now' | date: '%s%N' | append: '' | random }}">
         <span class="drop-text">{{ include.buttonMessage | default: 'Drop file to verify' }}</span>
         {% assign randomId = 'now' | date: '%s%N' | append: '' | random %}

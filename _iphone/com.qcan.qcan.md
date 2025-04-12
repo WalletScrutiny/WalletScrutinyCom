@@ -8,8 +8,8 @@ appId: com.qcan.qcan
 appCountry: 
 idd: 1179360399
 released: 2017-08-07
-updated: 2025-03-03
-version: 0.9.002
+updated: 2025-03-31
+version: 0.9.004
 stars: 3.5
 reviews: 17
 website: https://qcan.com

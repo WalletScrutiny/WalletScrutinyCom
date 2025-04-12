@@ -4,12 +4,12 @@ title: Swiftcoin
 altTitle: 
 authors:
 - danny
-users: 1000
+users: 5000
 appId: io.swiftcoin
 appCountry: 
 released: 2022-09-12
-updated: 2025-03-21
-version: 3.1.1
+updated: 2025-04-04
+version: 3.1.2
 stars: 3.3
 ratings: 
 reviews: 1

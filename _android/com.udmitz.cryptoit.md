@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Cryptoit - Mock Trade Cryptocu
+title: Cryptoit - Mock Trade Crypto
 altTitle: 
 authors: 
 users: 100
@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.udmitz.cryptoit.png
 bugbounty: 
-meta: removed
+meta: obsolete
 verdict: fewusers
 appHashes: 
-date: 2024-04-03
+date: 2025-04-01
 signer: 
 reviewArchive: 
 twitter: 

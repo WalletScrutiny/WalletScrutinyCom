@@ -8,11 +8,11 @@ users: 10000
 appId: com.metallicus.webauth
 appCountry: 
 released: 2021-12-11
-updated: 2025-03-18
-version: 2.1.24
+updated: 2025-03-28
+version: 2.1.27
 stars: 4.3
 ratings: 
-reviews: 64
+reviews: 65
 website: https://webauth.com/
 repository: 
 issue: 

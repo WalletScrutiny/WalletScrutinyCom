@@ -17,7 +17,7 @@ repository:
 issue: 
 icon: gwallet.tech.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosource
 appHashes: 
 date: 2025-03-11

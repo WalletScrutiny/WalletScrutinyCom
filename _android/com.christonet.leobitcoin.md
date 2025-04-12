@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.christonet.leobitcoin.png
 bugbounty: 
-meta: removed
+meta: stale
 verdict: fewusers
 appHashes: 
-date: 2025-01-09
+date: 2025-04-01
 signer: 
 reviewArchive: 
 twitter: 

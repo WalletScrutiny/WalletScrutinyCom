@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.beehive.beehivemulti_coinwallet.png
 bugbounty: 
-meta: obsolete
+meta: removed
 verdict: nobtc
 appHashes: 
-date: 2023-11-25
+date: 2025-04-09
 signer: 
 reviewArchive: 
 twitter: 

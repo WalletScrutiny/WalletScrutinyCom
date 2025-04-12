@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.usscyber.xliquiduss.app.png
 bugbounty: 
-meta: stale
+meta: removed
 verdict: fewusers
 appHashes: 
-date: 2025-01-15
+date: 2025-04-09
 signer: 
 reviewArchive: 
 twitter: 

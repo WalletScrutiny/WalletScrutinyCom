@@ -12,7 +12,7 @@ updated: 2025-02-08
 version: 1.3.13
 stars: 4
 ratings: 
-reviews: 24
+reviews: 26
 website: https://uxuy.com
 repository: 
 issue: 

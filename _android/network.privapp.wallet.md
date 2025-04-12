@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: Priva Wallet
+title: My Wallpaper
 altTitle: 
 authors:
 - danny
@@ -8,17 +8,17 @@ users: 10000
 appId: network.privapp.wallet
 appCountry: 
 released: 2022-03-14
-updated: 2022-10-30
-version: 1.0.7
+updated: 2025-03-24
+version: '2.0'
 stars: 4.5
 ratings: 
 reviews: 20
 website: https://privapp.network/
 repository: 
 issue: 
-icon: network.privapp.wallet.png
+icon: network.privapp.wallet.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: nosource
 appHashes: 
 date: 2024-12-15
@@ -33,7 +33,7 @@ social:
 - https://discord.com/invite/fepCFhdWeD
 - https://www.instagram.com/privappnetwork
 redirect_from: 
-developerName: Solvex Network
+developerName: Privapp Network
 features: 
 
 ---

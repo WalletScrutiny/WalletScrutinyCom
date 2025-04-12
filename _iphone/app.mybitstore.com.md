@@ -8,16 +8,16 @@ appId: app.mybitstore.com
 appCountry: us
 idd: '1579519877'
 released: 2021-08-12
-updated: 2024-10-02
-version: 7.0.5
+updated: 2025-02-18
+version: 7.0.9
 stars: 4.6
-reviews: 466
+reviews: 470
 website: 
 repository: 
 issue: 
 icon: app.mybitstore.com.jpg
 bugbounty: 
-meta: removed
+meta: ok
 verdict: custodial
 appHashes: 
 date: 2024-10-19

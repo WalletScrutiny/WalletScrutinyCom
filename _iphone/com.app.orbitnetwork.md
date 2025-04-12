@@ -10,17 +10,17 @@ idd: '1494093151'
 released: 2020-01-12
 updated: 2021-08-29
 version: '2.0'
-stars: 4.7
+stars: 4.6
 reviews: 110
 website: https://orbitnetwork.com/
 repository: 
 issue: 
 icon: com.app.orbitnetwork.jpg
 bugbounty: 
-meta: removed
+meta: obsolete
 verdict: nosendreceive
 appHashes: 
-date: 2024-12-15
+date: 2025-04-01
 signer: 
 reviewArchive: 
 twitter: 

@@ -8,8 +8,8 @@ appId: com.conglex.mobile
 appCountry: us
 idd: '1626252670'
 released: 2022-06-03
-updated: 2023-03-08
-version: 1.3.9
+updated: 2025-04-01
+version: 2.0.0
 stars: 0
 reviews: 0
 website: https://conglex.com/
@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.conglex.mobile.jpg
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2025-02-26
+date: 2025-04-06
 signer: 
 reviewArchive: 
 twitter: conglexglobal
