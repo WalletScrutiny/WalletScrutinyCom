@@ -10,18 +10,25 @@ version: 1.42.21
 binaries: 
 provider: Centrabit
 providerWebsite: 
-website: https://qttrader.com
+website: 
 repository: https://github.com/JulyIghor/QtBitcoinTrader
 issue: 
 icon: qtbitcointrader.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: wip
-date: 2024-05-09
+date: 2025-04-12
 reviewArchive: 
 twitter: QtTrader
 social: 
 features: 
 
 ---
+
+ <div class="alertBox"><div>**Security Advisory:** Notably, Qt Bitcoin Trader has been exploited in cyberattacks. For instance, <a href="https://www.malwarebytes.com/blog/news/2022/12/lazarus-group-uses-fake-cryptocurrency-apps-to-plant-applejeus-malware?utm_source=chatgpt.com">North Korean hackers have used trojanized versions of the software to distribute malware</a>, such as the AppleJeus malware, targeting cryptocurrency users and exchanges. These incidents highlight the importance of downloading the application only from trusted sources and ensuring its authenticity before use.
+ </div> </div>
+
+**Qt Bitcoin Trader** is an open-source, cross-platform cryptocurrency trading application designed for rapid order execution, real-time market monitoring, and automated trading via JavaScript-based scripting. Developed using the Qt framework, it supports multiple exchanges and emphasizes security through AES-256 encryption and SSL connections. Although its original website (qttrader.com) is no longer active, the project remains maintained and is currently hosted on [SourceForge](https://sourceforge.net/projects/bitcointrader/)
+
+
 

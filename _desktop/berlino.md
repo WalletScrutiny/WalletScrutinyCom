@@ -15,9 +15,9 @@ repository: https://github.com/lontivero/Berlino
 issue: 
 icon: 
 bugbounty: 
-meta: ok
-verdict: wip
-date: 2024-04-24
+meta: stale
+verdict: sourceavailable
+date: 2025-04-12
 reviewArchive: 
 twitter: lontivero
 social: 
@@ -25,3 +25,6 @@ features:
 
 ---
 
+## App Description
+
+​Berlino is an open-source Bitcoin wallet project hosted on GitHub, aiming to provide a minimalistic and straightforward user experience.

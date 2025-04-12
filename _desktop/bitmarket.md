@@ -15,9 +15,9 @@ repository: https://github.com/BitMarketNetwork/client-desktop
 issue: 
 icon: bitmarket.png
 bugbounty: 
-meta: obsolete
-verdict: wip
-date: 2024-04-24
+meta: defunct
+verdict: sourceavailable
+date: 2025-04-12
 reviewArchive: 
 twitter: 
 social: 
@@ -25,3 +25,6 @@ features:
 
 ---
 
+## App Description
+
+**Note:** The website is no longer online. The last archived version of the site was on May 18, 2024. With updates on its repository last made in 2022, and with no announcments on its social media, it is reasonable to conclude that this desktop application is now **defunct** 

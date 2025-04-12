@@ -16,8 +16,8 @@ issue:
 icon: jaxxliberty.png
 bugbounty: 
 meta: defunct
-verdict: wip
-date: 2025-04-02
+verdict: sourceavailable
+date: 2025-04-12
 reviewArchive: 
 twitter: jaxx_io
 social: 

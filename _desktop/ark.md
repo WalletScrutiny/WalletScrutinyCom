@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2017-03-22
 discontinued: 
-updated: 2024-04-10
-version: 1.7.0
+updated: 2024-11-27
+version: 1.13.1
 binaries: 
 provider: ArkEcosystem
 providerWebsite: https://ark.io/
@@ -16,8 +16,8 @@ issue:
 icon: ark.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2024-04-24
+verdict: sourceavailable
+date: 2025-04-12
 reviewArchive: 
 twitter: arkecosystem
 social: 
