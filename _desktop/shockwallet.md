@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2022-11-17
 discontinued: 
-updated: 2024-05-09
-version: 2.2.4
+updated: 2025-02-21
+version: 0.0.17-beta
 binaries: 
 provider: ShockNet
 providerWebsite: 
@@ -16,8 +16,8 @@ issue:
 icon: shockwallet.jpg
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2024-05-09
+verdict: sourceavailable
+date: 2025-04-14
 reviewArchive: 
 twitter: shockbtc
 social: 
@@ -25,3 +25,6 @@ features:
 
 ---
 
+## App Description
+
+> ShockWallet is a Nostr-native, self-custodial Lightning wallet supporting multi-node setups. It allows users to connect to their own or shared Lightning nodes over Nostr and LNURL, with multi-device sync via NIP78. 

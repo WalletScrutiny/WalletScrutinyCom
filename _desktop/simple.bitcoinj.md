@@ -15,9 +15,9 @@ repository: https://github.com/LunaTK/Simple-Bitcoinj-GUI-Wallet
 issue: 
 icon: simple.bitcoinj.png
 bugbounty: 
-meta: obsolete
-verdict: wip
-date: 2024-04-25
+meta: defunct
+verdict: sourceavailable
+date: 2025-04-14
 reviewArchive: 
 twitter: 
 social: 
@@ -25,3 +25,6 @@ features:
 
 ---
 
+Simple BitcoinJ GUI Wallet is a minimalistic, open-source Bitcoin wallet built using JavaFX and the BitcoinJ library. It is intended as a lightweight educational or experimental desktop wallet and operates on Bitcoin's testnet by default.
+
+The project has seen limited development activity and minimal community engagement. It is suitable for developers or users seeking a basic Java-based Bitcoin wallet, but it may not be appropriate for production use without further maintenance or review. We are marking it as **defunct**

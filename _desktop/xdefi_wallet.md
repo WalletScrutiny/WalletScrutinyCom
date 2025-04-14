@@ -5,19 +5,19 @@ authors:
 - danny
 released: 2021-10-12
 discontinued: 
-updated: 2024-05-03
-version: 29.0.4
+updated: 2025-03-28
+version: 34.1.5
 binaries: 
 provider: 
 providerWebsite: 
-website: https://www.xdefi.io
+website: https://ctrl.xyz/
 repository: 
 issue: 
 icon: xdefi_wallet.jpg
 bugbounty: 
-meta: ok
-verdict: wip
-date: 2024-05-09
+meta: deprecated
+verdict: nosource
+date: 2025-04-14
 reviewArchive: 
 twitter: xdefi_wallet
 social: 
@@ -25,3 +25,18 @@ features:
 
 ---
 
+## Related to:
+
+- {% include walletLink.html wallet='android/xyz.ctrl.wallet' verdict='true' %}
+
+- {% include walletLink.html wallet='iphone/xyz.ctrl.wallet' verdict='true' %}
+
+## App Description
+
+The service provides browser extensions and webapps. On its website: 
+
+> XDEFI is rebranding to Ctrl.
+>
+> Over the coming weeks (roughly July - September 2024), you will see us transition all XDEFI communications and websites to the new Ctrl brand.
+>
+> With the rebrand, we are launching new iOS and Android apps, as well as a new version of our Chrome Extension wallet.

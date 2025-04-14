@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2020-06-30
 discontinued: 
-updated: 2023-09-21
-version: 2.0.2
+updated: 2025-01-04
+version: 2.1.1
 binaries: 
 provider: Crypto Advance GmbH
 providerWebsite: 
@@ -16,12 +16,21 @@ issue:
 icon: specter.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2024-04-25
+verdict: sourceavailable
+date: 2025-04-14
 reviewArchive: 
 twitter: SpecterWallet
 social: 
 features: 
 
 ---
+
+## App Description
+
+Specter Desktop Wallet is a Bitcoin-only, open-source desktop wallet developed by Crypto Advance GmbH, a company based in Munich, Germany, founded in 2019 by Stepan Snigirev and Moritz Weitersheim.
+
+The wallet focuses on self-custody, supporting multi-signature configurations and hardware wallet integration, catering to security-conscious users and advanced setups.
+
+As of version 2.1.1 (released 2025-01-04), the project is actively maintained, with continued development and engagement from the community.
+
 

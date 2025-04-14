@@ -1,5 +1,5 @@
 ---
-title: Muun Recovery
+title: Muun Recovery Tool
 appId: muun
 authors:
 - danny
@@ -15,13 +15,17 @@ repository: https://github.com/muun/recovery
 issue: 
 icon: muun.png
 bugbounty: 
-meta: ok
-verdict: wip
-date: 2024-05-09
+meta: obsolete
+verdict: nowallet
+date: 2025-04-14
 reviewArchive: 
 twitter: muunwallet
 social: 
 features: 
 
 ---
+
+## App Description
+
+> Muun Recovery Tool is a standalone, cross-platform desktop utility, not a wallet. It allows users to extract funds from their Muun wallet using an Emergency Kit PDF, without needing Muun's cooperation. Binaries are available for Windows, macOS (Intel and ARM), and Linux. The tool is open-source, intended for self-custodial fund recovery, and does not store or generate keys—it only reads them to generate a transaction. It is **not designed for ongoing wallet use or Bitcoin management.**
 

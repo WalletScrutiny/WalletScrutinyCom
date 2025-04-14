@@ -16,12 +16,24 @@ issue:
 icon: guarda.png
 bugbounty: 
 meta: obsolete
-verdict: wip
-date: 2024-04-25
+verdict: nosource
+date: 2025-04-14
 reviewArchive: 
 twitter: GuardaWallet
 social: 
 features: 
 
 ---
+
+## Related to:
+
+{% include walletLink.html wallet='android/com.crypto.multiwallet' verdict='true' %}
+
+{% include walletLink.html wallet='iphone/com.crypto.multiwallet' verdict='true' %}
+
+## App Description
+
+> Guarda Wallet is a cross-platform, non-custodial cryptocurrency wallet that supports Bitcoin and hundreds of other assets. It offers desktop apps for Windows, macOS, and Linux, 
+
+Initially we thought this app was source available since they had a GitHub repository with releases and files. Upon closer inspection, we downloaded the release source zip file and extracted it. We found nothing. Despite having 94 repositories for their GitHub organization page, the desktop release is actually **not source-available**.
 

@@ -15,9 +15,9 @@ repository:
 issue: 
 icon: coinomi.png
 bugbounty: 
-meta: ok
-verdict: wip
-date: 2024-04-24
+meta: obsolete
+verdict: nosource
+date: 2025-04-14
 reviewArchive: 
 twitter: coinomiwallet
 social: 
@@ -25,3 +25,6 @@ features:
 
 ---
 
+## App Description
+
+The desktop apps are very much outdated (2020). However, since their website is still online and their mobile apps are still updated, we will only mark this as **obsolete**.

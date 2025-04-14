@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2020-04-24
 discontinued: 
-updated: 2024-02-05
-version: 4.0.9
+updated: 2025-01-23
+version: 4.2.5
 binaries: 
 provider: 
 providerWebsite: https://blog.defichain.com/
@@ -16,8 +16,8 @@ issue:
 icon: defichain.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2024-05-08
+verdict: nobtc
+date: 2025-04-14
 reviewArchive: 
 twitter: defichain
 social:
@@ -27,3 +27,6 @@ features:
 
 ---
 
+## App Description
+
+​DeFiChain is a distinct blockchain platform that, while originating as a fork of Bitcoin Core, has evolved to operate independently with its own consensus mechanisms, token (DFI), and blockchain infrastructure. It is not part of the Bitcoin blockchain.
