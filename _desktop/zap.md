@@ -15,9 +15,9 @@ repository: https://github.com/LN-Zap/zap-desktop
 issue: 
 icon: zap.png
 bugbounty: 
-meta: obsolete
-verdict: wip
-date: 2024-04-25
+meta: defunct
+verdict: sourceavailable
+date: 2025-04-15
 reviewArchive: 
 twitter: ln_zap
 social: 
@@ -25,3 +25,6 @@ features:
 
 ---
 
+## App Description
+
+The app's website now redirects to Strike.me and the repository has been archived. This app is **defunct**.

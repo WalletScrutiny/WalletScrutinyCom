@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2018-03-28
 discontinued: 
-updated: 2023-12-12
-version: 3.0.1
+updated: 2024-08-21
+version: 4.0.0
 binaries: 
 provider: 
 providerWebsite: 
@@ -16,8 +16,8 @@ issue:
 icon: lisk.png
 bugbounty: 
 meta: ok
-verdict: wip
-date: 2024-04-25
+verdict: nobtc
+date: 2025-04-15
 reviewArchive: 
 twitter: LiskHQ
 social: 
@@ -25,3 +25,6 @@ features:
 
 ---
 
+## App Description
+
+> Lisk offers a highly efficient, lightning-fast, and easily scalable Layer 2 (L2) network built on Optimism (OP) and secured by Ethereum.
