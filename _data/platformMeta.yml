@@ -22,7 +22,6 @@ android:
     - defunct
     - obsolete
     - stale
-    - outdated
     - removed
     - deprecated
 iphone:
@@ -70,7 +69,6 @@ iphone:
     - defunct
     - obsolete
     - stale
-    - outdated
     - removed
     - deprecated
 hardware:
@@ -116,7 +114,6 @@ hardware:
     - defunct
     - obsolete
     - stale
-    - outdated
     - discontinued
     - deprecated
 bearer:
@@ -167,7 +164,6 @@ bearer:
     - defunct
     - obsolete
     - stale
-    - outdated
     - discontinued
     - deprecated
 desktop:
@@ -194,7 +190,6 @@ desktop:
     - defunct
     - obsolete
     - stale
-    - outdated
     - removed
     - deprecated
 linux:
@@ -221,7 +216,6 @@ linux:
     - defunct
     - obsolete
     - stale
-    - outdated
     - removed
     - deprecated
 windows:
@@ -248,7 +242,6 @@ windows:
     - defunct
     - obsolete
     - stale
-    - outdated
     - removed
     - deprecated
 macos:
@@ -275,7 +268,6 @@ macos:
     - defunct
     - obsolete
     - stale
-    - outdated
     - removed
     - deprecated
 others:
