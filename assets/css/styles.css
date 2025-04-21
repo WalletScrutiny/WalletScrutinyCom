@@ -1255,15 +1255,6 @@ html {
   padding: 0.45rem !important;
 }
 
-.meta_outdated {
-  filter: grayscale(1);
-  border: solid 0.3rem gray;
-}
-
-.meta_outdated.AppDisplayCard {
-  padding: 0.45rem !important;
-}
-
 .meta_defunct {
   filter: opacity(30%);
   border: solid 0.3rem red;
@@ -1273,7 +1264,7 @@ html {
   padding: 0.45rem !important;
 }
 
-.meta_stale:hover, .meta_obsolete:hover, .meta_outdated:hover, .meta_defunct:hover {
+.meta_stale:hover, .meta_obsolete:hover, .meta_defunct:hover {
   filter: none;
 }
 
