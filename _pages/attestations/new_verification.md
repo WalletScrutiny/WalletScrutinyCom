@@ -6,6 +6,7 @@ permalink: /new_verification/
 
 <link rel="stylesheet" href="{{ base_path }}/assets/css/verifications.css">
 
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <script type="text/javascript" src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
 
 <div class="form-container">
@@ -40,7 +41,7 @@ permalink: /new_verification/
           {% assign folder = p[0] %}
           {% include folderToName.html folder=folder %}
           <option value="{{p[0]}}">{{name}}{% if folder == 'desktop' %} (deprecated){% endif %}</option>
-        {% endfor %} 
+        {% endfor %}
       </select>
     </div>
 
@@ -95,7 +96,17 @@ permalink: /new_verification/
     <div class="form-group">
       <label for="content">Content (*):</label>
       <div class="char-counter">Characters: <span id="charCount">0</span>/60000</div>
+      <div id="editorTabs" style="display: flex; gap: 0.5em;">
+        <button type="button" id="writeTab" class="tab-button active">Write</button>
+        <button type="button" id="previewTab" class="tab-button">Preview</button>
+      </div>
+
+      <div id="editorContainer">
       <textarea id="content" name="content" class="form-control" rows="10" required></textarea>
+
+        <div id="markdownPreview" class="form-control" style="display:none; padding:1em; white-space: pre-wrap; background:#f9f9f9; border:1px solid #ccc; border-radius:4px; min-height:10em;"></div>
+      </div>
+
       <small class="form-text">Describe your verification process and findings with as much detail as possible, including scripts you used and output logs (minimum 20, maximum 60000 characters). Markdown is supported.</small>
     </div>
 
@@ -147,9 +158,54 @@ permalink: /new_verification/
         background: none;
         padding: 0 5px;
       }
+
+      .tab-button {
+        background-color: #e9e9e9;
+        border: 1px solid #ccc;
+        padding: 0.4em 1em;
+        border-radius: 5px 5px 0 0;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      .tab-button:hover {
+        background-color: #dcdcdc;
+      }
+      .tab-button.active {
+        background-color: #ffffff;
+        border: 1px solid #ccc;
+        border-bottom: 1px solid white;
+        position: relative;
+        top: 1px;
+        z-index: 2;
+      }
+
+      #editorContainer {
+        border: 1px solid #ccc;
+        border-top: none;
+        padding: 0;
+        border-radius: 0 0 5px 5px;
+        position: relative;
+        z-index: 1;
+      }
+      #editorTabs {
+        display: flex;
+        gap: 0.5em;
+        margin-bottom: 0;
+        position: relative;
+        top: 1px;
+        z-index: 1;
+      }
+      #editorContainer .form-control {
+        margin: 0;
+        border-radius: 0 0 5px 5px;
+      }
+
+
+
     </style>
 
     <button type="submit" class="btn btn-success">Create Verification</button>
+
   </form>
 </div>
 
@@ -376,5 +432,24 @@ document.addEventListener('DOMContentLoaded', function() {
       addHashBtn.click();
     }
   });
+
+    document.getElementById('writeTab').addEventListener('click', (e) => {
+    e.preventDefault();
+    document.getElementById('writeTab').classList.add('active');
+    document.getElementById('previewTab').classList.remove('active');
+    document.getElementById('content').style.display = 'block';
+    document.getElementById('markdownPreview').style.display = 'none';
+  });
+
+  document.getElementById('previewTab').addEventListener('click', (e) => {
+    e.preventDefault();
+    document.getElementById('previewTab').classList.add('active');
+    document.getElementById('writeTab').classList.remove('active');
+    document.getElementById('content').style.display = 'none';
+    const markdownText = document.getElementById('content').value;
+    document.getElementById('markdownPreview').innerHTML = marked.parse(markdownText);
+    document.getElementById('markdownPreview').style.display = 'block';
+  });
 });
+
 </script>
