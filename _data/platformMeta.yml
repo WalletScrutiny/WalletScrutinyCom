@@ -14,9 +14,6 @@ android:
     - custodial
     - nosource
     - obfuscated
-    - ftbfs
-    - nonverifiable
-    - reproducible
     - sourceavailable
   metas: 
     - defunct
@@ -49,8 +46,7 @@ iphone:
     
     At this point, we shift the burden of proof onto the providers (or Apple).
     If you want people to trust your app (or platform), explain how it can be
-    audited. We will move on in the meantime and list iPhone apps with an empty
-    reproducible section until then.
+    audited.
   notes: Apple does not make it possible for us to audit wallet apps from the App Store even when the wallet source-code is publicly available.
   verdicts:
     - wip
@@ -61,9 +57,6 @@ iphone:
     - custodial
     - nosource
     - obfuscated
-    - ftbfs
-    - nonverifiable
-    - reproducible
     - sourceavailable
   metas: 
     - defunct
@@ -105,9 +98,6 @@ hardware:
     - noita
     - nosource
     - obfuscated
-    - ftbfs
-    - nonverifiable
-    - reproducible
     - sourceavailable
     - diy
   metas: 
@@ -155,9 +145,6 @@ bearer:
     - sealed-noita
     - nosource
     - obfuscated
-    - ftbfs
-    - nonverifiable
-    - reproducible
     - sourceavailable
     - diy
   metas: 
@@ -182,9 +169,6 @@ desktop:
     - prefilled
     - nosource
     - obfuscated
-    - ftbfs
-    - nonverifiable
-    - reproducible
     - sourceavailable
   metas: 
     - defunct
@@ -208,9 +192,6 @@ linux:
     - prefilled
     - nosource
     - obfuscated
-    - ftbfs
-    - nonverifiable
-    - reproducible
     - sourceavailable
   metas: 
     - defunct
@@ -234,9 +215,6 @@ windows:
     - prefilled
     - nosource
     - obfuscated
-    - ftbfs
-    - nonverifiable
-    - reproducible
     - sourceavailable
   metas: 
     - defunct
@@ -260,9 +238,6 @@ macos:
     - prefilled
     - nosource
     - obfuscated
-    - ftbfs
-    - nonverifiable
-    - reproducible
     - sourceavailable
   metas: 
     - defunct
