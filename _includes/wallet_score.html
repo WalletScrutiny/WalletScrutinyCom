@@ -15,7 +15,7 @@
   {%- for criterion in criteria -%}
     {%- if verdict == criterion -%}
       {%- case verdict -%}
-        {%- when "reproducible", "diy" -%}
+        {%- when "sourceavailable", "diy" -%}
         {%- assign count = count | plus: 1 -%}
       {%- else -%}
         {%- capture failText -%}<br>We stopped asking questions after we encountered a <a href="#{{criterion}}">failed answer</a>.{%- endcapture -%}

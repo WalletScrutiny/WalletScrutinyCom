@@ -62,8 +62,8 @@ findings.
 
 ## Priorities
 
-We cannot re-evaluate all the wallets every hour and as this is a side-project
-still, we might not be able to update anything for a month or three straight.
+We cannot re-evaluate all the wallets every hour and as this is a community-driven
+project, we might not be able to update anything for a month or three straight.
 
 But when we update reviews, we try to proceed as follows:
 

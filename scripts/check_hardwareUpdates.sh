@@ -77,7 +77,7 @@ check_versions() {
   local meta=$(echo "$front_matter" | grep '^meta:' | awk '{print $2}')
   local reviewed_date=$(echo "$front_matter" | grep '^date:' | awk '{print $2}')
 
-  if [[ "$meta" == "ok" && ("$verdict" == "reproducible" || "$verdict" == "nonverifiable" || "$verdict" == "wip") ]]; then
+  if [[ "$meta" == "ok" && ("$verdict" == "sourceavailable" || "$verdict" == "wip") ]]; then
     if [ -n "$repo_url" ]; then
       local latest_version=$(fetch_latest_version "$repo_url")
       if [ $? -eq 0 ]; then
@@ -127,31 +127,27 @@ user_prompt() {
   echo -e "\e[1;32m1. nosource\e[0m"
   echo -e "\e[1;32m2. unreleased\e[0m"
   echo -e "\e[1;32m3. wip\e[0m"
-  echo -e "\e[1;32m4. nonverifiable\e[0m"
-  echo -e "\e[1;32m5. vapor\e[0m"
-  echo -e "\e[1;32m6. reproducible\e[0m"
-  echo -e "\e[1;32m7. exit\e[0m"
-  echo -e "\e[1;32m8. stale\e[0m"
-  echo -e "\e[1;32m9. obsolete\e[0m"
-  echo -e "\e[1;32m10. discontinued\e[0m"
-  echo -e "\e[1;32m11. outdated\e[0m"
-  read -p "Enter option (1-11): " option
+  echo -e "\e[1;32m4. vapor\e[0m"
+  echo -e "\e[1;32m5. sourceavailable\e[0m"
+  echo -e "\e[1;32m6. exit\e[0m"
+  echo -e "\e[1;32m7. stale\e[0m"
+  echo -e "\e[1;32m8. obsolete\e[0m"
+  echo -e "\e[1;32m9. discontinued\e[0m"
+  read -p "Enter option (1-9): " option
   case $option in
     1) display_files "nosource" ;;
     2) display_files "unreleased" ;;
     3) display_files "wip" ;;
-    4) display_files "nonverifiable" ;;
-    5) display_files "vapor" ;;
-    6) display_files "reproducible" ;;
-    7) 
+    4) display_files "vapor" ;;
+    5) display_files "sourceavailable" ;;
+    6) 
       unset GITHUB_PAT
       echo -e "\e[1;32mPersonal Access Token has been cleared from the environment.\e[0m"
       exit 0
       ;;
-    8) display_files "" "stale" ;;
-    9) display_files "" "obsolete" ;;
-    10) display_files "" "discontinued" ;;
-    11) display_files "" "outdated" ;;
+    7) display_files "" "stale" ;;
+    8) display_files "" "obsolete" ;;
+    9) display_files "" "discontinued" ;;
     *) echo "Invalid option" ;;
   esac
   echo -e "\e[1;32mWould you like to exit the script or view the results again? (exit/view)\e[0m"

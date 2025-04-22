@@ -3,7 +3,7 @@
   "iphone": {
     "category": "App Store",
     "apps": [ 
-      {% assign iphone = site.iphone | where: 'meta', 'ok' | where: 'verdict', 'reproducible' %}
+      {% assign iphone = site.iphone | where: 'meta', 'ok' | where: 'verdict', 'sourceavailable' %}
       {% for post in iphone %}
       {% include wallet_score.html verdict = post.verdict platform='iphone' %}
       {
@@ -22,7 +22,7 @@
   "hardware": {
     "category": "Hardware Wallet",
     "apps": [ 
-      {% assign hardware = site.hardware | where: 'meta', 'ok' | where: 'verdict', 'reproducible' %}
+      {% assign hardware = site.hardware | where: 'meta', 'ok' | where: 'verdict', 'sourceavailable' %}
       {% for post in hardware %}
       {% include wallet_score.html verdict = post.verdict platform='hardware' %}
       {
@@ -40,7 +40,7 @@
   "bearer": {
     "category": "Bearer Token",
     "apps": [ 
-      {% assign bearer = site.bearer | where: 'meta', 'ok' | where: 'verdict', 'reproducible' %}
+      {% assign bearer = site.bearer | where: 'meta', 'ok' | where: 'verdict', 'sourceavailable' %}
       {% for post in bearer %}
       {% include wallet_score.html verdict = post.verdict platform='bearer' %}
       {
@@ -58,7 +58,7 @@
   "android": {
     "category": "Play Store",
     "apps": [ 
-      {% assign android = site.android | where: 'meta', 'ok' | where: 'verdict', 'reproducible' %}
+      {% assign android = site.android | where: 'meta', 'ok' | where: 'verdict', 'sourceavailable' %}
       {% for post in android %}
       {% include wallet_score.html verdict = post.verdict platform='android' %}
       {
@@ -78,7 +78,7 @@
   "desktop": {
     "category": "Desktop",
     "apps": [ 
-      {% assign desktop = site.desktop | where: 'meta', 'ok' | where: 'verdict', 'reproducible' %}
+      {% assign desktop = site.desktop | where: 'meta', 'ok' | where: 'verdict', 'sourceavailable' %}
       {% for post in desktop %}
       {% include wallet_score.html verdict = post.verdict platform='desktop' %}
       {
@@ -96,7 +96,7 @@
   "others": {
     "category": "Others",
     "apps": [ 
-      {% assign others = site.others | where: 'meta', 'ok' | where: 'verdict', 'reproducible' %}
+      {% assign others = site.others | where: 'meta', 'ok' | where: 'verdict', 'sourceavailable' %}
       {% for post in others %}
       {
         "appId": "{{ post.appId }}",

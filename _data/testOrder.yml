@@ -15,9 +15,6 @@ verdicts:
   - custodial
   - nosource
   - obfuscated
-  - ftbfs
-  - nonverifiable
-  - reproducible
   - sourceavailable
   - diy
 metas:
