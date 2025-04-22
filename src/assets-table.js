@@ -1,6 +1,6 @@
 import {marked} from 'marked';
 import DOMPurify from 'dompurify';
-import { assetRegistrationKind } from "./nostr-constants.mjs";
+import { assetRegistrationKind, verificationDraftKind } from "./nostr-constants.mjs";
 
 window.DOMPurify = DOMPurify;
 
@@ -13,6 +13,7 @@ function updateTableVisibility() {
   const searchTerm = document.getElementById('assetSearchInput').value.toLowerCase();
   const showLatestOnly = document.getElementById('showLatestVersionOnly').checked;
   const showOnlyNoVerifications = document.getElementById('showOnlyNoVerifications').checked;
+  const hideDrafts = document.getElementById('hideDrafts').checked;
 
   // Create a map to track latest versions when filter is active
   const latestVersions = new Map();
@@ -55,30 +56,24 @@ function updateTableVisibility() {
 
     row.style.display = shouldShow ? '' : 'none';
   });
+
+
+  // Search draft-attestation elements and hide them depending on the hideDrafts checkbox
+  const hideDraftsChecked = document.getElementById('hideDrafts').checked;
+  document.querySelectorAll('.draft-attestation').forEach(attestation => {
+    if (hideDraftsChecked) {
+      attestation.style.display = 'none';
+    } else {
+      // attestation is a tr?
+      const isATr = attestation.tagName === 'TR';
+      attestation.style.display = isATr ? 'table-row' : 'block';
+    }
+  });
 }
 
-function getStatusText(status, short = false) {
-  switch (status) {
-    case 'reproducible':
-      return 'Reproducible when tested';
-    case 'not_reproducible':
-      return short ? 'Not reproducible' : 'Not reproducible from source provided, or differences are significant';
-    case 'ftbfs':
-      return short ? 'Failed to build from source' : 'Failed to build from source provided';
-    case 'notag':
-      return short ? 'Git revision not clear' : 'The git revision to compile is not clear';
-    case 'nosource':
-      return short ? 'Source not found' : 'Source for this version was not found or repository was taken down';
-    case 'obfuscated':
-      return short ? 'Source obfuscated' : 'Source code is obfuscated';
-    case 'warning':
-      return 'Warning';
-    default:
-      return status;
-  }
-}
+window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256, hideConfig, showOnlyRows = 100, sortByVersion = false, enableSearch = false, enableDraftsFilter = false}) {
+  let hasAssets = false;
 
-window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256, hideConfig, showOnlyRows = 100, sortByVersion = false, enableSearch = false}) {
   response = await getAllAssetInformation({
     pubkey,
     appId,
@@ -86,7 +81,7 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
   });
 
   // Search and filter UI
-  if (enableSearch) {
+  if (enableSearch || enableDraftsFilter) {
     const searchContainer = document.createElement('div');
     searchContainer.className = 'assets-search-container';
     searchContainer.style.marginBottom = '20px';
@@ -96,9 +91,9 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
           type="text" 
           id="assetSearchInput" 
           placeholder="Search by wallet name or hash..." 
-          style="padding: 8px; border-radius: 4px; border: 1px solid #ccc; flex: 1; min-width: 200px;"
+          style="padding: 8px; border-radius: 4px; border: 1px solid #ccc; flex: 1; min-width: 200px; display: ${enableSearch ? 'block' : 'none'};"
         >
-        <div style="display: flex; gap: 15px; align-items: flex-start; flex-wrap: wrap;">
+        <div style="display: flex; gap: 15px; align-items: flex-start; flex-wrap: wrap; display: ${enableSearch ? 'flex' : 'none'};">
           <style>
             @media (max-width: 768px) {
               .checkbox-container {
@@ -109,7 +104,7 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
           </style>
           <div class="checkbox-container" style="display: flex; gap: 15px; align-items: flex-start;">
             <label style="display: flex; align-items: center; gap: 5px; white-space: nowrap;">
-              <input type="checkbox" id="showLatestVersionOnly" checked>
+              <input type="checkbox" id="showLatestVersionOnly" ${enableSearch ? 'checked' : ''}>
               <span>Show latest version only</span>
             </label>
             <label style="display: flex; align-items: center; gap: 5px; white-space: nowrap;">
@@ -118,16 +113,42 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
             </label>
           </div>
         </div>
-      </div>
-    `;
+        <label style="display: ${enableDraftsFilter ? 'flex' : 'none'}; align-items: center; gap: 5px; white-space: nowrap;">
+          <input type="checkbox" id="hideDrafts" ${enableDraftsFilter ? 'checked' : ''}>
+          <span>Hide drafts</span>
+        </label>
+      </div>`;
 
     document.getElementById(htmlElementId).appendChild(searchContainer);
+
+    // Add event listeners for search and filters only if enableSearch is true
+    if (enableSearch) {
+      document.getElementById('assetSearchInput').addEventListener('input', updateTableVisibility);
+      document.getElementById('showLatestVersionOnly').addEventListener('change', updateTableVisibility);
+      document.getElementById('showOnlyNoVerifications').addEventListener('change', updateTableVisibility);
+    }
+    if (enableDraftsFilter) {
+      document.getElementById('hideDrafts').addEventListener('change', updateTableVisibility);
+    }
   }
 
-  let hasAssets = false;
   let hasVerifications = false;
 
-  const combinedItems = new Map([...response.verifications.entries(), ...response.assets.entries()]);
+  let combinedItems = new Map();
+
+  function mergeIntoCombined(sourceMap) {
+    for (const [key, value] of sourceMap.entries()) {
+      const existing = combinedItems.get(key) || [];
+      // Assuming 'value' is always an array based on the subsequent sorting logic
+      combinedItems.set(key, existing.concat(value));
+    }
+  }
+
+  mergeIntoCombined(response.verifications);
+  if (enableDraftsFilter) {
+    mergeIntoCombined(response.draftVerifications);
+  }
+  mergeIntoCombined(response.assets);
 
   // It's items because they can be verifications or assets (no status or content)
   // Convert to array and sort by most recent item in each group
@@ -139,13 +160,6 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
       items: sortedItems
     };
   });
-
-  // Add event listeners for search and filters only if enableSearch is true
-  if (enableSearch) {
-    document.getElementById('assetSearchInput').addEventListener('input', updateTableVisibility);
-    document.getElementById('showLatestVersionOnly').addEventListener('change', updateTableVisibility);
-    document.getElementById('showOnlyNoVerifications').addEventListener('change', updateTableVisibility);
-  }
 
   // Sort either by version or date depending on sortByVersion parameter
   if (sortByVersion) {
@@ -189,8 +203,7 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
         <th>Verifications</th>
         <th>Seen</th>
       </tr>
-    </thead>
-  `;
+    </thead>`;
 
   if (sortedItems.length > 0) {
     sortedItems.forEach((item, index) => {
@@ -198,11 +211,7 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
       const binary = item.items ? item.items[0] : item;
 
       const date = new Date(binary.created_at * 1000).toLocaleDateString(navigator.language,
-        binary.isLegacy ? {
-          year: '2-digit',
-          month: 'short',
-          day: 'numeric'
-        } : {
+        {
           year: '2-digit',
           month: 'short',
           day: 'numeric',
@@ -216,33 +225,16 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
 
       const sha256HashKey = item.sha256;
       const version = binary.tags.find(tag => tag[0] === 'version')?.[1] || '';
-      const oldInfoStatus = binary.tags.find(tag => tag[0] === 'status')?.[1] || '';
       const identifier = binary.tags.find(tag => tag[0] === 'i')?.[1] || "";
       const platform = binary.tags.find(tag => tag[0] === 'platform')?.[1] || "";
 
       // Guess if it's an asset or a verification
-      const isAsset = binary.kind === assetRegistrationKind;
-      const itemDescription = isAsset ? binary.content : JSON.parse(binary.content).description;
+      hasAssets = binary.kind === assetRegistrationKind;
+      const itemDescription = hasAssets ? binary.content : JSON.parse(binary.content).description;
 
-      if (isAsset) {
-        hasAssets = true;
-      }
-
-      let longStatus = null;
-
-      if (binary.isLegacy) {
-        let openLinkTag = null;
-
-        if (binary.gitRevision) {
-          const firstPathToken = window.location.pathname.split('/').filter(Boolean)[0];
-          openLinkTag = '<a target="_blank" rel="noopener noreferrer" href="https://gitlab.com/walletscrutiny/walletScrutinyCom/blob/' + binary.gitRevision + '/_' + firstPathToken + '/' + appId + '.md">';
-          longStatus = '';
-        }
-
-        longStatus += (oldInfoStatus === 'reproducible' ? '✅ ' : '❌ ') + openLinkTag + getStatusText(oldInfoStatus, true) + (openLinkTag ? '</a>' : '');
-      }
-
-      const attestations = response.verifications.get(binary.tags.find(tag => tag[0] === 'x')?.[1]) || [];
+      const standardAttestations = response.verifications.get(binary.tags.find(tag => tag[0] === 'x')?.[1]) || [];
+      const draftAttestations = response.draftVerifications.get(binary.tags.find(tag => tag[0] === 'x')?.[1]) || [];
+      const attestations = [...standardAttestations, ...draftAttestations];
 
       let attestationList;
       if (attestations.length > 0) {
@@ -250,9 +242,17 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
 
         const latestAttestationsByUser = new Map();
         for (const attestation of attestations) {
-          const existingAttestation = latestAttestationsByUser.get(attestation.pubkey);
-          if (!existingAttestation || attestation.created_at > existingAttestation.created_at) {
-            latestAttestationsByUser.set(attestation.pubkey, attestation);
+          // Always include draft verifications
+          if (attestation.kind === verificationDraftKind) {
+            // Add the draft with a key that includes both the pubkey and the draft ID to ensure we keep all drafts
+            latestAttestationsByUser.set(`${attestation.pubkey}-draft-${attestation.id}`, attestation);
+          } else {
+            // For regular attestations, only keep the most recent one per user
+            const existingAttestation = latestAttestationsByUser.get(attestation.pubkey);
+            if (!existingAttestation || (existingAttestation.kind !== verificationDraftKind && 
+                attestation.created_at > existingAttestation.created_at)) {
+              latestAttestationsByUser.set(attestation.pubkey, attestation);
+            }
           }
         }
 
@@ -270,10 +270,17 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
 
           let statusText = null;
 
+          const isDraft = attestation.kind === verificationDraftKind;
+          const draftBadge = isDraft ? '<span class="badge badge-warning">Draft</span>' : '';
+
           statusText = (status === 'reproducible' ? '✅ ' : '❌ ') + '<span class="attestation-status">' + getStatusText(status, true) + '</span>';
 
-          listItems += `<span onclick='showVerificationModal("${sha256HashKey}", "${attestation.id}", "${identifier}", "${platform}")' class="attestation-link" style="cursor: pointer; margin-bottom: 0; margin-top: 0; display: block;">
+          listItems += `<span
+                            onclick='showVerificationModal("${sha256HashKey}", "${attestation.id}", "${identifier}", "${platform}")'
+                            class="attestation-link ${isDraft ? 'draft-attestation' : ''}"
+                            style="cursor: pointer; margin-bottom: 0; margin-top: 0; display: block;">
             <div style="line-height: 1.2; margin-bottom: 0.7em;">
+              ${draftBadge}
               ${statusText}
               <small style="display: block;">(${attestationDate})</small>
             </div>
@@ -321,7 +328,7 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
             <span id="blossom-${hash[1]}" data-appid="${identifier}" data-title="${walletTitle}" data-version="${version}" class="blossom-download" style="display: none; cursor: pointer;" title="Download binary from our server">💾</span>
           `).join('') : '-'}
         </td>
-        <td>${binary.isLegacy ? (longStatus ? longStatus : oldInfoStatus) : attestationList}</td>
+        <td>${attestationList}</td>
         <td>${date}</td>`;
       table.appendChild(row);
     });
@@ -356,8 +363,17 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
 
   document.getElementById(htmlElementId).appendChild(table);
 
+  // Iterate over the table rows and add a data-is-draft attribute to the rows where the "attestation-link" elements are also draft-attestation
+  const rows = table.querySelectorAll('tr:not(:first-child):not(.show-more-row)');
+  rows.forEach(row => {
+    const attestations = Array.from(row.querySelectorAll('.attestation-link'));
+    if (attestations.every(attestation => attestation.classList.contains('draft-attestation'))) {
+      row.classList.add('draft-attestation');
+    }
+  });
+
   // Apply initial filter only if enableSearch is true
-  if (enableSearch) {
+  if (enableSearch || enableDraftsFilter) {
     updateTableVisibility();
   }
 
@@ -454,9 +470,11 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
 window.showVerificationModal = async function(sha256Hash, verificationId, appId, platform) {
   document.body.classList.add("modal-open");
 
-  const verifications = response.verifications.get(sha256Hash);
-  const verification  = verifications.find(a => a.id === verificationId);
-  const otherVerificationsBySamePubkey = verifications.filter(a => (a.pubkey === verification.pubkey && a.id !== verification.id));
+  const verifications = response.verifications.get(sha256Hash) || [];
+  const draftVerifications = response.draftVerifications.get(sha256Hash) || [];
+  const attestations = [...verifications, ...draftVerifications];
+  const verification  = attestations.find(a => a.id === verificationId);
+  const otherVerificationsBySamePubkey = attestations.filter(a => (a.pubkey === verification.pubkey && a.id !== verification.id));
 
   const status = verification.tags.find(tag => tag[0] === 'status')?.[1] || '';
 
@@ -494,7 +512,10 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     otherVerificationsHTML = `<ul class="attestation-other-attempts">${otherVerificationsHTML}</ul>`;
   }
 
-  content.innerHTML = `
+  const isDraft = verification.kind === verificationDraftKind;
+  content.innerHTML = isDraft ? `<p><span class="badge badge-big badge-warning">Draft</span> This is a draft verification. It is not published yet.</p>` : '';
+
+  content.innerHTML += `
     <p><strong>Attempt by:</strong> <span id="attempt-by"></span></p>
     <p><strong>Created At:</strong> ${new Date(verification.created_at * 1000).toLocaleDateString(navigator.language, {
     year: 'numeric',

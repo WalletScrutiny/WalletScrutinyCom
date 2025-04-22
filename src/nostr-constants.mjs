@@ -1,4 +1,4 @@
-import { isDebug } from './verifications_utils.mjs';
+import { isDebugEnv } from './verifications_utils.mjs';
 
 export const mainRelayUrl = "wss://relay.nostr.band";
 
@@ -16,8 +16,9 @@ export const wsBotPublicKey = '168b7a2cd8bb9205c3f574de540606d6f4c46717c5164f473
 export const nip89ClientTagD = '5985153332267';
 
 // Verifications
-export const assetRegistrationKind = isDebug() ? 1267 : 1063;
-export const verificationKind = isDebug() ? 32304 : 30301;
-export const endorsementKind = isDebug() ? 30302 : 30302;
+export const assetRegistrationKind = isDebugEnv() ? 1267 : 1063;
+export const verificationKind = isDebugEnv() ? 32304 : 30301;
+export const verificationDraftKind = isDebugEnv() ? 30901 : 30801;
+export const endorsementKind = isDebugEnv() ? 32354 : 30351;
 
-export const verificationEventsSinceTS = isDebug() ? 1742220163 : 1742997262;
+export const verificationEventsSinceTS = isDebugEnv() ? 1742220163 : 1742997262;

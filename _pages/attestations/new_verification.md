@@ -149,7 +149,14 @@ permalink: /new_verification/
       }
     </style>
 
-    <button type="submit" class="btn btn-success">Create Verification</button>
+    <button type="submit" name="draft" class="btn btn-info" style="margin-right: 1em;">Publish Verification as a Draft</button>
+    <button type="submit" name="publish" class="btn btn-success" style="margin-right: 1em;">Publish Verification</button>
+    <a id="deleteDraft" style="color: red; cursor: pointer;">Delete Draft</a>
+    <p>
+      <small>
+        <b>Note:</b> Draft verifications are not displayed directly, but they can still be seen by you and other users if they opt to view them. You'll be able to view them and publish them later.
+      </small>
+    </p>
   </form>
 </div>
 
@@ -159,6 +166,49 @@ permalink: /new_verification/
 </div>
 
 <script>
+let hashes = [];
+let hashList, otherHashesInput, hashInput;
+
+function updateHiddenInput() {
+  if (otherHashesInput) {
+    otherHashesInput.value = hashes.join(',');
+  }
+}
+
+function addHash(hash) {
+  if (!hash) return;
+  if (hashes.includes(hash)) {
+    showToast('This hash is already in the list', 'error');
+    return;
+  }
+  
+  if (!hashList) {
+    hashList = document.getElementById('hashList');
+  }
+  
+  const hashItem = document.createElement('div');
+  hashItem.className = 'hash-item';
+  hashItem.innerHTML = `
+    <span>${hash}</span>
+    <button type="button" class="remove-hash" title="Remove this hash from the list">
+      <i class="fas fa-minus"></i>
+    </button>
+  `;
+
+  hashItem.querySelector('.remove-hash').addEventListener('click', () => {
+    hashes = hashes.filter(h => h !== hash);
+    hashItem.remove();
+    updateHiddenInput();
+  });
+
+  hashList.appendChild(hashItem);
+  hashes.push(hash);
+  updateHiddenInput();
+  if (hashInput) {
+    hashInput.value = '';
+  }
+} 
+
 function validateForm() {
   const content = document.getElementById('content').value.trim();
 
@@ -193,12 +243,43 @@ async function loadUrlParamsAndGetAssetInfo() {
     return;
   }
 
+  const urlParams = new URLSearchParams(window.location.search);
+  const draftVerificationEventId = urlParams.get('draftVerificationEventId');
+  const action = urlParams.get('action');
+
+  if (draftVerificationEventId && action) {
+    const draftButton = document.querySelector('button[name="draft"]');
+    if (draftButton) {
+      draftButton.textContent = 'Save Draft Verification';
+    }
+
+    const draftVerificationEvent = await getDraftVerificationEvent(draftVerificationEventId);
+    if (draftVerificationEvent) {
+      const eventContent = JSON.parse(draftVerificationEvent.content);
+
+      document.getElementById('appId').value = draftVerificationEvent.tags.find(tag => tag[0] === 'i')?.[1] || '';
+      document.getElementById('version').value = draftVerificationEvent.tags.find(tag => tag[0] === 'version')?.[1] || '';
+      document.getElementById('platform').value = draftVerificationEvent.tags.find(tag => tag[0] === 'platform')?.[1] || '';
+      document.getElementById('description').value = eventContent.description || '';
+      document.getElementById('status').value = draftVerificationEvent.tags.find(tag => tag[0] === 'status')?.[1] || '';
+      document.getElementById('content').value = eventContent.content || '';
+
+      const hashes = draftVerificationEvent.tags?.filter(tag => tag[0] === 'x').map(tag => tag[1]) || [];
+      hashes.forEach(hash => addHash(hash));
+    } else {
+      showToast('Draft verification not found', 'error');
+    }
+  } else {
+    const deleteDraftBtn = document.getElementById('deleteDraft');
+    if (deleteDraftBtn) {
+      deleteDraftBtn.style.display = 'none';
+    }
+  }
+
   if (window.wallets && window.wallets.length > 0) {
     setupAppIdAutocomplete();
   }
 
-  const urlParams = new URLSearchParams(window.location.search);
-  
   const fields = ['version', 'appId', 'platform'];
   fields.forEach(field => {
     const value = DOMPurify.sanitize(urlParams.get(field), purifyConfig);
@@ -218,14 +299,6 @@ async function loadUrlParamsAndGetAssetInfo() {
   } else {
     hashesLabel.textContent = 'Asset hashes*:';
     hashesHelpText.textContent = 'Add the SHA-256 hash(es) of the asset(s) you are verifying. Each hash must be 64 hexadecimal characters.';
-  }
-
-  try {
-    await nostrConnect();
-  } catch (e) {
-    console.error("Failed to connect to Nostr", e);
-    showToast('It was impossible to connect to Nostr. Please check your browser extension and try again.', 'error');
-    return;
   }
 
   let message = '';
@@ -261,8 +334,12 @@ async function handleSubmit(event) {
     return;
   }
 
+  const submitter = event.submitter;
+  const isDraft = submitter.name === 'draft';
+
   const sha256 = DOMPurify.sanitize(new URLSearchParams(window.location.search).get('sha256'), purifyConfig);
   const assetEventId = DOMPurify.sanitize(new URLSearchParams(window.location.search).get('assetEventId'), purifyConfig);
+  const draftVerificationEventId = DOMPurify.sanitize(new URLSearchParams(window.location.search).get('draftVerificationEventId'), purifyConfig);
   const otherHashesValue = document.getElementById('otherHashes').value.trim();
 
   // Combine sha256 and otherHashes into a single parameter
@@ -279,7 +356,9 @@ async function handleSubmit(event) {
     version: document.getElementById('version').value.trim(),
     status: document.getElementById('status').value,
     platform: document.getElementById('platform').value,
-    assetEventId: assetEventId
+    assetEventId: assetEventId,
+    isDraft: isDraft,
+    draftVerificationEventId: draftVerificationEventId
   };
 
   const spinner = document.getElementById('loadingSpinner');
@@ -288,8 +367,10 @@ async function handleSubmit(event) {
   try {
     await createVerification(formData);
     spinner.style.display = 'none';
-    await showToast('Verification created successfully!');
-    window.location.href = '/asset/?sha256=' + sha256;
+    await showToast(isDraft ? 'Draft published successfully!' : 'Verification published successfully!');
+    if (!isDraft) {
+      window.location.href = '/asset/?sha256=' + sha256;
+    }
   } catch (error) {
     spinner.style.display = 'none';
     showToast(error.message, 'error');
@@ -319,43 +400,17 @@ document.addEventListener('DOMContentLoaded', function() {
   document.getElementById('content').addEventListener('input', updateCharCount);
 
   // Hash management
-  const hashInput = document.getElementById('newHash');
+  hashInput = document.getElementById('newHash');
   const addHashBtn = document.getElementById('addHash');
-  const hashList = document.getElementById('hashList');
-  const otherHashesInput = document.getElementById('otherHashes');
-  let hashes = [];
+  hashList = document.getElementById('hashList');
+  otherHashesInput = document.getElementById('otherHashes');
 
-  function updateHiddenInput() {
-    otherHashesInput.value = hashes.join(',');
-  }
-
-  function addHash(hash) {
-    if (!hash) return;
-    if (hashes.includes(hash)) {
-      showToast('This hash is already in the list', 'error');
-      return;
-    }
-    
-    const hashItem = document.createElement('div');
-    hashItem.className = 'hash-item';
-    hashItem.innerHTML = `
-      <span>${hash}</span>
-      <button type="button" class="remove-hash" title="Remove this hash from the list">
-        <i class="fas fa-minus"></i>
-      </button>
-    `;
-
-    hashItem.querySelector('.remove-hash').addEventListener('click', () => {
-      hashes = hashes.filter(h => h !== hash);
-      hashItem.remove();
-      updateHiddenInput();
-    });
-
-    hashList.appendChild(hashItem);
-    hashes.push(hash);
-    updateHiddenInput();
-    hashInput.value = '';
-  }
+  const deleteDraftBtn = document.getElementById('deleteDraft');
+  deleteDraftBtn.addEventListener('click', async function() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const draftVerificationEventId = urlParams.get('draftVerificationEventId');
+    await deleteDraftVerification(draftVerificationEventId, '/assets/');
+  });
 
   addHashBtn.addEventListener('click', () => {
     const hash = hashInput.value.trim();
