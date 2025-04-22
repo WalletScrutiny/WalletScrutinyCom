@@ -9,15 +9,15 @@ updated: 2023-05-26
 version: 1.42.21
 binaries: 
 provider: Centrabit
-providerWebsite: 
+providerWebsite: https://centrabit.com
 website: 
 repository: https://github.com/JulyIghor/QtBitcoinTrader
 issue: 
 icon: qtbitcointrader.jpg
 bugbounty: 
 meta: stale
-verdict: wip
-date: 2025-04-12
+verdict: nowallet
+date: 2025-04-22
 reviewArchive: 
 twitter: QtTrader
 social: 
@@ -30,5 +30,7 @@ features:
 
 **Qt Bitcoin Trader** is an open-source, cross-platform cryptocurrency trading application designed for rapid order execution, real-time market monitoring, and automated trading via JavaScript-based scripting. Developed using the Qt framework, it supports multiple exchanges and emphasizes security through AES-256 encryption and SSL connections. Although its original website (qttrader.com) is no longer active, the project remains maintained and is currently hosted on [SourceForge](https://sourceforge.net/projects/bitcointrader/)
 
+It does not provide/store/create private keys, it also does not custody the user's private keys. It connects to centralized exchanges (e.g., Binance, Bitfinex, Bitstamp) using the API keys the user provides. This is **not a wallet**. 
 
+More information about this project could be found in a [bitcointalk thread.](https://bitcointalk.org/index.php?topic=201062.0)
 

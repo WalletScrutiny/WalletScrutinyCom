@@ -33,4 +33,6 @@ features:
 
 ## App Description
 
-Both the website and the repository are still accessible. However, the app was last updated on 2017-05-18, making it very outdated. We hesitated to mark it as defunct, as its social media account was still active as recently as November 2024.
+The Bither desktop wallet has not received updates since 2017-05-18, and is considered obsolete. However, the application remains downloadable as a .tar archive from the official website and was successfully launched and tested on Ubuntu 24.04 in April 2025.
+
+The wallet provides a dual-mode cold/hot architecture, allowing users to create HD wallets, import/export keys, and monitor addresses in watch-only mode. Its interface and basic functionality are still operational. It is however, very **obsolete**.

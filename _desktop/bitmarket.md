@@ -15,9 +15,9 @@ repository: https://github.com/BitMarketNetwork/client-desktop
 issue: 
 icon: bitmarket.png
 bugbounty: 
-meta: defunct
+meta: obsolete
 verdict: sourceavailable
-date: 2025-04-12
+date: 2025-04-22
 reviewArchive: 
 twitter: 
 social: 
@@ -27,4 +27,4 @@ features:
 
 ## App Description
 
-**Note:** The website is no longer online. The last archived version of the site was on May 18, 2024. With updates on its repository last made in 2022, and with no announcments on its social media, it is reasonable to conclude that this desktop application is now **defunct** 
+**Note:** The website is no longer online. The last archived version of the site was on May 18, 2024. With updates on its repository last made in 2022, and with no announcements on its social media, this desktop app is still installable via the [repository.](https://github.com/BitMarketNetwork/client-desktop). The GitHub repository for the BitMarket Network Client Desktop includes topics such as bitcoin, wallet, bitcoin-wallet, and cryptocurrency-wallet, indicating that the application was intended for use with Bitcoin. It is however, **obsolete**.
