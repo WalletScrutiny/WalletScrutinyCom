@@ -12,7 +12,7 @@ updated: 2025-04-07
 version: 9.0.5
 stars: 3.8
 ratings: 
-reviews: 3
+reviews: 4
 website: https://thekingdombank.com
 repository: 
 issue: 

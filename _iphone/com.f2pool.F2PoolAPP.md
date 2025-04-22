@@ -11,7 +11,7 @@ released: 2018-09-06
 updated: 2025-04-07
 version: 2.7.1
 stars: 4
-reviews: 182
+reviews: 183
 website: https://www.f2pool.com/
 repository: 
 issue: 

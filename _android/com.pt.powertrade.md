@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.pt.powertrade.png
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-04-18
+date: 2025-04-14
 signer: 
 reviewArchive: 
 twitter: powertradehq

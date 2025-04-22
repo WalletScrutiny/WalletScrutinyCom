@@ -11,7 +11,7 @@ released: 2018-06-21
 updated: 2025-04-08
 version: 2.9.0
 stars: 2.8
-reviews: 515
+reviews: 516
 website: https://www.gopax.co.kr/notice
 repository: 
 issue: 

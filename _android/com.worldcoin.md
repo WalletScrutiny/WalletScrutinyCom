@@ -9,10 +9,10 @@ appId: com.worldcoin
 appCountry: 
 released: 2022-10-04
 updated: 2025-04-04
-version: 2.8.7705
+version: 2.8.7707
 stars: 4.6
 ratings: 
-reviews: 449
+reviews: 450
 website: https://worldcoin.org
 repository: 
 issue: 

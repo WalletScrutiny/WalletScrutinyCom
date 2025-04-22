@@ -10,8 +10,8 @@ idd: 1448200352
 released: 2019-05-29
 updated: 2025-03-29
 version: 5.0.24
-stars: 4.3
-reviews: 214
+stars: 4.4
+reviews: 213
 website: https://www.paribu.com
 repository: 
 issue: 

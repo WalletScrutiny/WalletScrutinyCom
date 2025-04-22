@@ -11,7 +11,7 @@ released: 2015-02-04
 updated: 2025-04-10
 version: 3.18.0
 stars: 4.7
-reviews: 14678
+reviews: 14684
 website: https://www.coinjar.com/au
 repository: 
 issue: 

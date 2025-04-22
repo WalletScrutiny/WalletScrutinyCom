@@ -9,8 +9,8 @@ idd: '6463799763'
 released: 2024-11-19
 updated: 2025-03-21
 version: 1.0.12
-stars: 4.2
-reviews: 25
+stars: 4.1
+reviews: 26
 website: https://satoshi.money/
 repository: 
 issue: 

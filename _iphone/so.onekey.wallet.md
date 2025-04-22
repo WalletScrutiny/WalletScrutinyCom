@@ -8,8 +8,8 @@ appId: so.onekey.wallet
 appCountry: us
 idd: '1609559473'
 released: 2022-04-27
-updated: 2025-04-05
-version: 5.7.0
+updated: 2025-04-11
+version: 5.7.1
 stars: 4.8
 reviews: 644
 website: https://onekey.so?utm_source=app_store

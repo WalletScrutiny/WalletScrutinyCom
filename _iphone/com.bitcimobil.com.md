@@ -11,7 +11,7 @@ released: 2019-04-17
 updated: 2025-04-09
 version: 20.0.2
 stars: 3.9
-reviews: 1386
+reviews: 1384
 website: https://www.bitci.com.tr/
 repository: 
 issue: 

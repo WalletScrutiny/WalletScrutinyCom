@@ -1,6 +1,6 @@
 ---
 wsId: BTSE
-title: 'BTSE: Buy & Sell Crypto'
+title: 'BTSE: Buy Bitcoin ETH& Crypto'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 100000
 appId: com.btse.finance
 appCountry: ng
 released: 2020-11-30
-updated: 2025-04-09
-version: 1.98.0
+updated: 2025-04-11
+version: 1.98.1
 stars: 4.2
 ratings: 62
 reviews: 55

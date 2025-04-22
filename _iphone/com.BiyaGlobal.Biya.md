@@ -1,6 +1,6 @@
 ---
 wsId: biyaGlobal
-title: Biya身份验证器
+title: BiyaPay-汇款美股港股投资行情
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ appId: com.BiyaGlobal.Biya
 appCountry: sn
 idd: '1546702297'
 released: 2021-02-09
-updated: 2024-04-24
-version: 1.0.0
+updated: 2025-04-03
+version: 2.8.650
 stars: 0
 reviews: 0
 website: 

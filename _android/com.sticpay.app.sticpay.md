@@ -12,7 +12,7 @@ updated: 2025-02-20
 version: '4.23'
 stars: 3.8
 ratings: 380
-reviews: 12
+reviews: 13
 website: http://sticpay.com
 repository: 
 issue: 

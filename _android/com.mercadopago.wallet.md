@@ -12,7 +12,7 @@ updated: 2025-04-09
 version: 2.376.2
 stars: 4.8
 ratings: 3484084
-reviews: 989534
+reviews: 990794
 website: http://www.mercadopago.com
 repository: 
 issue: 

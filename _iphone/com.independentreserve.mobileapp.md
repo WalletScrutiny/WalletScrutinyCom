@@ -11,7 +11,7 @@ released: 2021-10-18
 updated: 2025-04-09
 version: 10.1.0
 stars: 4.8
-reviews: 1365
+reviews: 1376
 website: https://www.independentreserve.com/
 repository: 
 issue: 

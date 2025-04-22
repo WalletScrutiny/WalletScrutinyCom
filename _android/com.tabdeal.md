@@ -9,10 +9,10 @@ appId: com.tabdeal
 appCountry: 
 released: 2021-08-14
 updated: 2025-04-09
-version: 5.6.6
+version: 5.7.1
 stars: 4
 ratings: 
-reviews: 145
+reviews: 146
 website: https://tabdeal.org
 repository: 
 issue: 

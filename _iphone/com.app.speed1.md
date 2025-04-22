@@ -11,7 +11,7 @@ released: 2023-08-24
 updated: 2025-03-25
 version: 1.12.6
 stars: 4.7
-reviews: 565
+reviews: 572
 website: https://www.speed.app/
 repository: 
 issue: 

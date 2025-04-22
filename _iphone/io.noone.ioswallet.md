@@ -11,7 +11,7 @@ released: 2023-03-29
 updated: 2025-03-27
 version: 1.19.0
 stars: 4.4
-reviews: 128
+reviews: 130
 website: https://noone.io
 repository: 
 issue: 

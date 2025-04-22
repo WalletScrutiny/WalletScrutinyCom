@@ -12,7 +12,7 @@ updated: 2025-04-07
 version: 1.16.3
 stars: 3.6
 ratings: 122
-reviews: 133
+reviews: 135
 website: https://koshelek.ru/
 repository: 
 issue: 

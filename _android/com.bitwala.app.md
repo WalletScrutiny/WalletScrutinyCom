@@ -12,7 +12,7 @@ updated: 2025-04-04
 version: 4.1.0
 stars: 3.5
 ratings: 4416
-reviews: 3562
+reviews: 3563
 website: https://www.bitwala.com
 repository: 
 issue: 

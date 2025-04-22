@@ -12,7 +12,7 @@ updated: 2025-02-09
 version: 9.41.0
 stars: 4
 ratings: 8653
-reviews: 347
+reviews: 349
 website: https://www.excoino.com/
 repository: 
 issue: 

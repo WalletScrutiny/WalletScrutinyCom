@@ -11,7 +11,7 @@ released: 2012-12-10
 updated: 2025-04-09
 version: 8.3.1
 stars: 4.5
-reviews: 18361
+reviews: 18357
 website: http://www.tradestation.com/trading-technology/tradestation-mobile
 repository: 
 issue: 
