@@ -14,7 +14,7 @@ stars: 4.7
 reviews: 408
 website: https://www.kraken.com/wallet
 repository: https://github.com/krakenfx/wallet
-issue: https://github.com/krakenfx/wallet/issues/53
+issue:
 icon: com.kraken.superwallet.app.jpg
 bugbounty: 
 meta: ok
