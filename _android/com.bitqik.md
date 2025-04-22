@@ -8,8 +8,8 @@ users: 10000
 appId: com.bitqik
 appCountry: 
 released: 2022-09-23
-updated: 2023-09-06
-version: 2.1.1
+updated: 2025-04-10
+version: 3.0.0
 stars: 
 ratings: 
 reviews: 
@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.bitqik.png
 bugbounty: 
-meta: stale
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2024-09-01
+date: 2025-04-14
 signer: 
 reviewArchive: 
 twitter: bitqikofficial

@@ -141,6 +141,4 @@ async function handleSubmit(event) {
 }
 
 document.addEventListener('DOMContentLoaded', loadUrlParams);
-
-nostrConnect();
 </script>

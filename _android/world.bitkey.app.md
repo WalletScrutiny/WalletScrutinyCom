@@ -10,9 +10,9 @@ appCountry: US
 released: 2024-02-28
 updated: 2025-03-28
 version: 2025.6.0 (3)
-stars: 4.2
+stars: 4.1
 ratings: 
-reviews: 18
+reviews: 19
 website: https://bitkey.world
 repository: https://github.com/proto-at-block/bitkey
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/647

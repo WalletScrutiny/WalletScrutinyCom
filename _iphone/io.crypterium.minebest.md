@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: io.crypterium.minebest.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: custodial
 appHashes: 
-date: 2024-04-28
+date: 2025-04-22
 signer: 
 reviewArchive: 
 twitter: 

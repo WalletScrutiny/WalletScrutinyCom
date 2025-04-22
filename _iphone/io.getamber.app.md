@@ -8,8 +8,8 @@ appId: io.getamber.app
 appCountry: au
 idd: '1410639317'
 released: 2021-06-21
-updated: 2025-04-10
-version: 5.6.2
+updated: 2025-04-20
+version: 5.6.9
 stars: 4.5
 reviews: 272
 website: http://amber.app/

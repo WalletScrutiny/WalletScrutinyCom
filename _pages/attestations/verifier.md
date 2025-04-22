@@ -44,7 +44,7 @@ permalink: /verifier/
 
 <div style="margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
   {% include shareButton.html defaultMessage="Look at my verifier profile on WalletScrutiny!" %}
-  <a href="" target="_blank" id="njumpLink" class="btn" style="background-color: #007bff;">
+  <a href="" target="_blank" id="njumpLink" class="btn btn-info" style="margin-bottom: 0;">
     <i class="fas fa-external-link-alt" style="margin-right: 7px;"></i> njump.me
   </a>
 </div>
@@ -75,29 +75,18 @@ permalink: /verifier/
     } catch (error) {
       console.error('Error decoding bech32 pubkey:', error);
       document.getElementById('attestator').innerHTML = 'Error: Invalid pubkey format';
-      document.getElementById('loadingSpinner').style.display = 'none';
     }
   }
 
   if (!pubkey) {
     document.getElementById('attestator').innerHTML = 'Error: No pubkey provided';
-    document.getElementById('loadingSpinner').style.display = 'none';
   }
 
   (async () => {
     try {
       document.getElementById('loadingSpinner').style.display = 'block';
 
-      try {
-        await nostrConnect();
-      } catch (e) {
-        console.error("Failed to connect to Nostr", e);
-        document.getElementById('loadingSpinner').style.display = 'none';
-        showToast('It was impossible to connect to Nostr. Please check your browser extension and try again.', 'error');
-        return;
-      }
-
-      const npub = getNpubFromPubkey(pubkey);
+      const npub = await getNpubFromPubkey(pubkey);
 
       document.getElementById('njumpLink').href = `https://njump.me/${npub}`;
 

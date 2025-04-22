@@ -8,8 +8,8 @@ users: 10000
 appId: com.conglex.conglex
 appCountry: 
 released: 2022-05-12
-updated: 2023-03-16
-version: 1.4.0
+updated: 2025-04-21
+version: 2.0.1
 stars: 
 ratings: 
 reviews: 
@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.conglex.conglex.png
 bugbounty: 
-meta: obsolete
+meta: ok
 verdict: custodial
 appHashes: 
-date: 2025-03-11
+date: 2025-04-22
 signer: 
 reviewArchive: 
 twitter: conglexglobal

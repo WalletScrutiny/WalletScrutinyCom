@@ -4,6 +4,7 @@ import DOMPurify from 'dompurify';
 import {
   assetRegistrationKind,
   verificationKind,
+  verificationDraftKind,
   endorsementKind,
   explicitRelayUrls,
   verificationEventsSinceTS,
@@ -28,49 +29,88 @@ const purifyConfig = {
 };
 
 let ndk;
+let ndkConnectionPromise = null; // Promise to track NDK connection status
+let resolveNostrConnectInitiated;
+const nostrConnectInitiatedPromise = new Promise(resolve => {
+    resolveNostrConnectInitiated = resolve;
+});
 
 const connectTimeout = 2000;
 
-const nostrConnect = async function (nostrPrivateKey) {
-  let signer;
-
-  let hasBrowserExtension = await userHasBrowserExtension();
-
-  if (hasBrowserExtension) {
-    console.debug("Signer: Using browser extension");
-    signer = new NDKNip07Signer();
-  } else if (nostrPrivateKey) {
-    console.debug("Signer: Using private key");
-    signer = new NDKPrivateKeySigner(nostrPrivateKey);
-  } else {
-    console.debug("Signer: No signer available");
-    signer = null;
-  }
-
-  ndk = new NDK({
-    explicitRelayUrls: explicitRelayUrls,
-    signer: signer
-  });
-
-  try {
-    await ndk.connect(connectTimeout);
-  } catch (e) {
-    console.error("ndk connect failed", e);
+const nostrConnect = function (nostrPrivateKey) {
+  // Assign the connection logic to the promise immediately
+  ndkConnectionPromise = (async () => {
+    let signer;
+    let hasBrowserExtension = await userHasBrowserExtension();
 
     if (hasBrowserExtension) {
-      console.log("Trying to connect again without using a signer");
-      ndk.signer = null;
-      await ndk.connect(connectTimeout);
-      return;
+      console.debug("Signer: Using browser extension");
+      signer = new NDKNip07Signer();
+    } else if (nostrPrivateKey) {
+      console.debug("Signer: Using private key");
+      signer = new NDKPrivateKeySigner(nostrPrivateKey);
+    } else {
+      console.debug("Signer: No signer available");
+      signer = null;
     }
 
-    throw e;
-  }
-}
+    ndk = new NDK({
+      explicitRelayUrls: explicitRelayUrls,
+      signer: signer
+    });
+
+    try {
+      await ndk.connect(connectTimeout);
+      console.log("NDK connected successfully.");
+    } catch (e) {
+      console.error("ndk connect failed", e);
+      // Try reconnecting without signer only if browser extension was detected and signer was initially set
+      if (hasBrowserExtension && ndk.signer) {
+        console.log("Trying to connect again without using a signer");
+        ndk.signer = null; // Modify the existing NDK instance's signer
+        await ndk.connect(connectTimeout); // Re-attempt connection, will throw if fails again
+        console.log("NDK connected successfully (without signer).");
+      } else {
+        // If no extension or connection failed even without signer, re-throw
+        showToast('It was impossible to connect to Nostr. Please check your browser extension and try again.', 'error');
+        throw e;
+      }
+    }
+    // The promise resolves implicitly if connect succeeds, or throws/rejects if it fails
+  })(); // Immediately invoke the async function
+
+  // Signal that nostrConnect has been initiated and the promise is set
+  resolveNostrConnectInitiated();
+  console.debug("nostrConnect initiated, ndkConnectionPromise is set.");
+
+  return ndkConnectionPromise; // Return the promise
+};
+
+// Helper function to ensure NDK is connected before proceeding
+const ensureNdkConnected = async () => {
+    if (!ndkConnectionPromise) {
+        // nostrConnect hasn't been called yet, wait for it to be initiated
+        console.debug("ensureNdkConnected: Waiting for nostrConnect to be initiated...");
+        await nostrConnectInitiatedPromise;
+        console.debug("ensureNdkConnected: nostrConnect initiated.");
+    }
+    // Now we know ndkConnectionPromise is set (or was already set). Wait for the connection attempt to complete.
+    console.debug("ensureNdkConnected: Waiting for ndkConnectionPromise to resolve...");
+    await ndkConnectionPromise;
+    console.debug("ensureNdkConnected: ndkConnectionPromise resolved.");
+    if (!ndk) {
+         // Should not happen if nostrConnect was called and promise resolved, but as a safeguard
+         throw new Error("NDK object not initialized after connection.");
+    }
+};
 
 const getUserPubkey = async function() {
-  const signer = await nip07signer.user();
-  return signer.pubkey;
+  await ensureNdkConnected();
+  if (!ndk.signer) {
+    throw new Error("No signer available");
+  }
+  const user = await ndk.signer.user();
+  return user.pubkey;
 }
 
 const userHasBrowserExtension = function() {
@@ -102,11 +142,13 @@ const validateSHA256 = function(hashes) {
 }
 
 const getNostrProfile = async function (pubkey) {
+  await ensureNdkConnected();
   const user = ndk.getUser({ pubkey });
   return await user.fetchProfile();
 }
 
-const getNpubFromPubkey = function (pubkey) {
+const getNpubFromPubkey = async function (pubkey) {
+  await ensureNdkConnected();
   const user = ndk.getUser({ pubkey });
   return user.npub;
 }
@@ -123,6 +165,7 @@ const createAssetRegistration = async function ({
                                                   description,
                                                   createdAt = null
                                                 }) {
+  await ensureNdkConnected();
   validateSHA256([sha256]);
 
   if (!appId || !version || !description) {
@@ -185,8 +228,11 @@ const createVerification = async function ({
                                              appId,
                                              version,
                                              platform,
-                                             createdAt = null
+                                             createdAt = null,
+                                             isDraft = false,
+                                             draftVerificationEventId = null
                                            }) {
+  await ensureNdkConnected();
   validateSHA256(hashes);
 
   if (!content || !status) {
@@ -215,7 +261,7 @@ const createVerification = async function ({
   }
 
   const ndkEvent = new NDKEvent(ndk);
-  ndkEvent.kind = verificationKind;
+  ndkEvent.kind = isDraft ? verificationDraftKind : verificationKind;
   ndkEvent.created_at = getCreatedAt(createdAt);
   ndkEvent.content = JSON.stringify({
     description: description || '',
@@ -226,6 +272,18 @@ const createVerification = async function ({
     ["status", status],
     getWSClientTag()
   ];
+
+  if (isDraft) {
+    let draftKey = '';
+
+    if (appId) {
+      draftKey += `${appId}:`;
+    }
+
+    draftKey += `${version}:${platform}`;
+
+    ndkEvent.tags.push(["d", draftKey]);
+  }
 
   if (appId) {
     ndkEvent.tags.push(["i", appId]);
@@ -245,6 +303,14 @@ const createVerification = async function ({
   try {
     const publishedToRelays = await ndkEvent.publish();
     console.log(`published verification to ${publishedToRelays.size} relays`);
+
+    if (!isDraft && draftVerificationEventId) {
+      const draftVerificationEvent = await getDraftVerificationEvent(draftVerificationEventId);
+      if (draftVerificationEvent) {
+        await draftVerificationEvent.delete(reason, true);
+      }
+    }
+
     return ndkEvent;
   } catch (error) {
     console.error("error publishing verification to relays", error);
@@ -259,6 +325,7 @@ const createVerification = async function ({
 }
 
 const createEndorsement = async function ({sha256, content, status, verificationEventId, createdAt = null}) {
+  await ensureNdkConnected();
   console.debug("Creating endorsement for verification: ", verificationEventId);
 
   validateSHA256([sha256]);
@@ -376,6 +443,7 @@ const getAllAssetInformation = async function({
                                                 appId,
                                                 sha256
                                               }) {
+  await ensureNdkConnected();
   console.time('getAllAssetInformation');
   const filter_assets = {
     kinds: [assetRegistrationKind],
@@ -399,7 +467,7 @@ const getAllAssetInformation = async function({
 
 
   const filter_verifications = {
-    kinds: [verificationKind],  // TODO: Add endorsementKind
+    kinds: [verificationKind, verificationDraftKind],  // TODO: Add endorsementKind
   }
   if (months) {
     filter_verifications.since = getTimestampMonthsAgo(months);
@@ -424,10 +492,12 @@ const getAllAssetInformation = async function({
 
   const assets = Array.from(events).filter(event => event.kind === assetRegistrationKind && getFirstValueFromTag(event, 'client') === 'WalletScrutiny.com');
   const verifications = Array.from(events).filter(event => event.kind === verificationKind && getFirstValueFromTag(event, 'client') === 'WalletScrutiny.com');
+  const draftVerifications = Array.from(events).filter(event => event.kind === verificationDraftKind && getFirstValueFromTag(event, 'client') === 'WalletScrutiny.com');
   //const endorsements = Array.from(events).filter(event => event.kind === endorsementKind);
 
   const assetsMap = new Map();
   const verificationsMap = new Map();
+  const draftVerificationsMap = new Map();
   const endorsementsMap = new Map();
 
   assets.forEach(asset => {
@@ -450,6 +520,16 @@ const getAllAssetInformation = async function({
     }
   });
 
+  draftVerifications.forEach(draftVerification => {
+    const sha256FromEventTag = getFirstTag(draftVerification, 'x');
+    if (sha256FromEventTag) {
+      if (!draftVerificationsMap.has(sha256FromEventTag)) {
+        draftVerificationsMap.set(sha256FromEventTag, []);
+      }
+      draftVerificationsMap.get(sha256FromEventTag).push(draftVerification);
+    }
+  });
+
   /*
   endorsements.forEach(endorsement => {
     const verificationEventId = getFirstTag(endorsement, 'd');
@@ -467,6 +547,7 @@ const getAllAssetInformation = async function({
   return {
     assets: assetsMap,
     verifications: verificationsMap,
+    draftVerifications: draftVerificationsMap,
     endorsements: endorsementsMap
   };
 }
@@ -528,6 +609,7 @@ function showToast(message, type = 'success', duration = 4000) {
 }
 
 const createNostrNote = async function (message) {
+  await ensureNdkConnected();
   if (!message) {
     throw new Error("Message is required");
   }
@@ -610,11 +692,123 @@ function setupAppIdAutocomplete() {
   });
 }
 
-function isDebug() {
+function getStatusText(status, short = false) {
+  switch (status) {
+    case 'reproducible':
+      return 'Reproducible when tested';
+    case 'not_reproducible':
+      return short ? 'Not reproducible' : 'Not reproducible from source provided, or differences are significant';
+    case 'ftbfs':
+      return short ? 'Failed to build from source' : 'Failed to build from source provided';
+    case 'notag':
+      return short ? 'Git revision not clear' : 'The git revision to compile is not clear';
+    case 'nosource':
+      return short ? 'Source not found' : 'Source for this version was not found or repository was taken down';
+    case 'obfuscated':
+      return short ? 'Source obfuscated' : 'Source code is obfuscated';
+    case 'warning':
+      return 'Warning';
+    default:
+      return status;
+  }
+}
+
+function isDebugEnv() {
   if (typeof window === 'undefined') {
     return false;
   }
   return window.location.hostname.includes('localhost') || window.location.hostname.includes('beta') || window.location.hostname.includes('old');
+}
+
+const getDraftVerificationEvent = async function(draftVerificationEventId) {
+  await ensureNdkConnected();
+  return await ndk.fetchEvent(draftVerificationEventId);
+}
+
+const deleteDraftVerification = async function(draftVerificationEventId, moveToURL = null, reason = 'user deleted draft verification') {
+  if (!draftVerificationEventId) {
+    showToast('No draft verification ID found', 'error');
+    return;
+  }
+
+  if (confirm('Are you sure you want to delete this draft verification? This action cannot be undone.')) {
+    try {
+      const draftVerificationEvent = await getDraftVerificationEvent(draftVerificationEventId);
+      if (draftVerificationEvent) {
+        await draftVerificationEvent.delete(reason, true);
+      }
+
+      showToast('Draft verification deleted successfully');
+
+      if (moveToURL) {
+        window.location.href = moveToURL;
+      } else {
+        window.location.reload();
+      }
+    } catch (error) {
+      showToast(error.message, 'error');
+    }
+  }
+}
+
+const loadDraftVerificationsNotifications = async function () {
+  const myPubkey = await getUserPubkey();
+  if (!myPubkey) {
+    console.error('No pubkey found');
+    return;
+  }
+
+  const result = await getAllAssetInformation({months: 3, pubkey: myPubkey}); // TODO: improve this to get only draft verifications?
+
+  let myDraftVerifications = [];
+
+  for (const draftVerification of result.draftVerifications) {
+    const arrayDraftVerificationEventsForThisSha256 = draftVerification[1];
+
+    for (const draftVerificationEvent of arrayDraftVerificationEventsForThisSha256) {
+      myDraftVerifications.push(draftVerificationEvent);
+    }
+  }
+
+  if (myDraftVerifications && myDraftVerifications.length > 0) {
+    myDraftVerifications.forEach(verification => {
+      const identifier = verification.tags?.find(tag => tag[0] === 'i')?.[1];
+      const version = verification.tags?.find(tag => tag[0] === 'version')?.[1];
+      const wallet = window.wallets?.find(w => w.appId === identifier);
+      const walletTitle = wallet ? wallet.title : identifier ?? 'Unknown';
+
+      const verificationDate = new Date(verification.created_at * 1000).toLocaleDateString(navigator.language, {
+        year: 'numeric',
+        month: 'short',
+        day: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit'
+      });
+
+      const status = verification.tags.find(tag => tag[0] === 'status')?.[1] || '';
+      const statusIcon = '<span title="' + getStatusText(status) + '" style="margin-left: 4px;">' + (status === 'reproducible' ? '✅' : '❌') + ` ${getStatusText(status, true)}</span>`;
+
+      addNotificationToIndicator('Unpublished Verification',
+        `${walletTitle} - ${version ? version+' -' : ''} ${verificationDate} ${statusIcon}
+        <br>
+        <button class="edit-button" onclick="doDraftVerificationAction('${verification.id}', 'edit')">Edit</button>
+        <button class="delete-button" onclick="doDraftVerificationAction('${verification.id}', 'delete')">Delete</button>`,'info')
+    });
+  }
+}
+
+function doDraftVerificationAction(draftVerificationEventId, action) {
+  if (action === 'edit') {
+    window.location.href = `/new_verification?draftVerificationEventId=${draftVerificationEventId}&action=${action}`;
+  } else if (action === 'delete') {
+    let goToURL = null;
+
+    if (window.location.pathname.includes('new_verification')) {
+      goToURL = '/assets/';
+    }
+
+    deleteDraftVerification(draftVerificationEventId, goToURL);
+  }
 }
 
 if (typeof window !== 'undefined') {
@@ -634,6 +828,11 @@ if (typeof window !== 'undefined') {
   window.getAppInfoFromEventInfo = getAppInfoFromEventInfo;
   window.nip19 = nip19;
   window.purifyConfig = purifyConfig;
+  window.getStatusText = getStatusText;
+  window.loadDraftVerificationsNotifications = loadDraftVerificationsNotifications;
+  window.doDraftVerificationAction = doDraftVerificationAction;
+  window.getDraftVerificationEvent = getDraftVerificationEvent;
+  window.deleteDraftVerification = deleteDraftVerification;
 }
 
 export {
@@ -653,6 +852,11 @@ export {
   getAppInfoFromEventInfo,
   nip19,
   purifyConfig,
-  isDebug,
+  isDebugEnv,
+  getStatusText,
+  loadDraftVerificationsNotifications,
+  doDraftVerificationAction,
+  getDraftVerificationEvent,
+  deleteDraftVerification,
   getFirstValueFromTag
 };

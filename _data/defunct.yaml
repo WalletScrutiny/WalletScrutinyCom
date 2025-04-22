@@ -1,25 +1,3 @@
-2025-03-29:
-- _android/com.bitgo.mobile
-2025-04-01:
-- _android/fi.steakwallet.app
-- _android/kuna.beta
-- _iphone/com.pt.powertrade
-- _iphone/com.servotech.coinzix
-- _iphone/gwallet.tech
-- _iphone/icecream.group.kuna.fintech
-- _iphone/io.kitefinancial.bitcoin
-2025-04-06:
-- _android/com.iqtrade.ex.app
-- _android/com.radiuswallet
-- _android/net.panteam.pt.BTC
-- _android/nl.tudelft.trustchain
-- _iphone/com.app.breet
-- _iphone/com.coininn.yykik
-- _iphone/com.simpleswap.app
-- _iphone/com.stormbird.alphawallet
-- _iphone/io.slavi.wallet
-- _iphone/it.airgap.vault
-- _iphone/it.airgap.wallet
 2025-04-09:
 - _android/com.oslmobile
 - _android/com.trastra.mobile
@@ -30,3 +8,25 @@
 2025-04-10:
 - _android/com.blockin.google
 - _android/com.nova.dax
+2025-04-14:
+- _android/com.merseyside.cripto
+- _iphone/app.simple.com
+- _iphone/io.nanovest
+2025-04-15:
+- _iphone/app.ctmwallet
+- _android/com.scc.UniteGlobal
+- _android/com.zinary.apps
+- _android/kr.co.newlinkcorp.cashierest
+2025-04-22:
+- _android/app.ctmwallet
+- _android/com.koinbasket.mobile
+- _android/com.swerri.io
+- _android/com.ttmbank.wallet.app
+- _iphone/capital.spatium.wallet
+- _iphone/com.mymetapay.MyMetaPay
+- _iphone/com.sapien.sapienwallet
+- _iphone/com.technoloader.ttg
+- _iphone/io.cryptex24.mobile
+- _iphone/net.coinpayments.coinpaymentsapp
+- _iphone/org.coinid
+- _iphone/org.coinid.wallet.btc

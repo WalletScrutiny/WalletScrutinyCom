@@ -8,8 +8,8 @@ appId: de.followmytrader
 appCountry: us
 idd: '1487657162'
 released: 2020-03-06
-updated: 2025-04-09
-version: 3.4.0
+updated: 2025-04-11
+version: 3.4.1
 stars: 0
 reviews: 0
 website: https://followmymoney.de

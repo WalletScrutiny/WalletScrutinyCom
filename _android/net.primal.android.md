@@ -10,7 +10,7 @@ appCountry:
 released: 2024-07-09
 updated: 2025-03-13
 version: 2.1.11
-stars: 4
+stars: 3.9
 ratings: 
 reviews: 13
 website: https://www.primal.net

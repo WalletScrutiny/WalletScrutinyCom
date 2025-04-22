@@ -7,8 +7,8 @@ users: 10
 appId: com.barongxtrade.users
 appCountry: 
 released: 2022-10-28
-updated: 2024-12-25
-version: 9.6.2
+updated: 2025-04-17
+version: 9.6.4
 stars: 
 ratings: 
 reviews: 

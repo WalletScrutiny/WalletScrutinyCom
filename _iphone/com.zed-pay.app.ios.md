@@ -8,8 +8,8 @@ appId: com.zed-pay.app.ios
 appCountry: us
 idd: '6444008269'
 released: 2022-11-07
-updated: 2025-04-09
-version: 1.4.2
+updated: 2025-04-18
+version: 1.4.3
 stars: 4
 reviews: 4
 website: 

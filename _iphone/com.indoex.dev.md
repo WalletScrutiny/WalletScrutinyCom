@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.indoex.dev.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-04-28
+date: 2025-04-22
 signer: 
 reviewArchive: 
 twitter: Indoex_LTD

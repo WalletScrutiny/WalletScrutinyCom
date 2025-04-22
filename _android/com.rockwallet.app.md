@@ -12,7 +12,7 @@ updated: 2025-03-27
 version: 5.17.3
 stars: 3.5
 ratings: 
-reviews: 166
+reviews: 167
 website: http://www.rockwallet.com
 repository: 
 issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/498

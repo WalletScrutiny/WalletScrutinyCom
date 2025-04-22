@@ -4,7 +4,7 @@ title: 'Giottus: Crypto Investing App'
 altTitle: 
 authors:
 - danny
-users: 500000
+users: 1000000
 appId: com.giottus.giottus_mobile
 appCountry: us
 released: 2021-02-01

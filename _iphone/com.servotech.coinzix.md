@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.servotech.coinzix.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2025-03-11
+date: 2025-04-22
 signer: 
 reviewArchive: 
 twitter: coinzixcom

@@ -94,7 +94,7 @@ function extractIssueInfo(filePath) {
   }
 }
 
-async function checkGitHubIssue(projectOwner, projectName, issueNumber) {
+async function checkGitHubIssue(projectOwner, projectName, issueNumber, fileName) {
   try {
     let result = await github.query(`
       query {
@@ -124,8 +124,14 @@ async function checkGitHubIssue(projectOwner, projectName, issueNumber) {
     const comment = issue?.comments?.nodes[0];
 
     if (!issue) {
-      console.error(`There was a problem trying to get the issue information for issue https://github.com/${projectOwner}/${projectName}/issues/${issueNumber}.`);
-      process.exit(1);
+      console.error(
+        `There was a problem trying to get the issue information for issue:\nhttps://github.com/${projectOwner}/${projectName}/issues/${issueNumber}\nReferenced in file: ${fileName}\nSkipping...`
+      );      
+      return {
+        state: 'error',
+        lastUpdateDate: 'unknown',
+        lastPosterUsername: 'unknown'
+      };
     }
 
     const issueState = issue.state || 'unknown';
@@ -181,7 +187,7 @@ async function checkGitHubIssue(projectOwner, projectName, issueNumber) {
   }
 
   for (const { projectOwner, projectName, issueUrl, issueNumber, fileName, folder, verdict } of issueInfo) {
-    const { state, lastUpdateDate, lastPosterUsername } = await checkGitHubIssue(projectOwner, projectName, issueNumber);
+    const { state, lastUpdateDate, lastPosterUsername } = await checkGitHubIssue(projectOwner, projectName, issueNumber, fileName);
 
     if (args.show_closed || state === 'open') {
       issues[`./${folder}`].push({

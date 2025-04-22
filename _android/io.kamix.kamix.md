@@ -8,8 +8,8 @@ users: 5000
 appId: io.kamix.kamix
 appCountry: 
 released: 2019-03-14
-updated: 2024-07-01
-version: 2.2.303
+updated: 2025-04-20
+version: 2.2.333
 stars: 3.6
 ratings: 
 reviews: 

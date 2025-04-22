@@ -1,6 +1,6 @@
 ---
 wsId: coinWBuyCrypto
-title: CoinW
+title: CoinW · Buy BTC, ETH & Crypto
 altTitle: 
 authors:
 - danny
@@ -8,10 +8,10 @@ appId: com.coinwapp.legend
 appCountry: us
 idd: '1494077068'
 released: 2020-01-14
-updated: 2025-04-09
-version: 10.0.29
-stars: 4
-reviews: 35
+updated: 2025-04-18
+version: 10.0.30
+stars: 4.1
+reviews: 37
 website: 
 repository: 
 issue: 

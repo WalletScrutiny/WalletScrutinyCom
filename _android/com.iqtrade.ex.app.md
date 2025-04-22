@@ -18,10 +18,10 @@ repository:
 issue: 
 icon: com.iqtrade.ex.app.png
 bugbounty: 
-meta: ok
+meta: removed
 verdict: custodial
 appHashes: 
-date: 2024-09-04
+date: 2025-04-22
 signer: 
 reviewArchive: 
 twitter: iqtradegroup
