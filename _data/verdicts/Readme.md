@@ -28,11 +28,11 @@ New verdicts might need addition to the `verdictOrder` variable.
 
 It will typically look like this: 
 
-> *const verdictOrder = ['reproducible', 'diy', 'nonverifiable', 'ftbfs', [...], 'nowallet'];*
+> *const verdictOrder = ['nosource', 'diy', [...], 'nowallet'];*
 
 Add the new verdict:
 
-> *const verdictOrder = ['reproducible', 'diy', 'nonverifiable', 'ftbfs', [...], 'nowallet', 'newverdict'];*
+> *const verdictOrder = ['nosource', 'diy', [...], 'nowallet', 'newverdict'];*
 
 Note: The position matters. The new verdict needs to be inserted accordingly.
 Currently, these lists are used for all platforms but the "newverdict" might apply to only one platform. One has to fit it in such that the corresponding platform's verdicts are in order.
