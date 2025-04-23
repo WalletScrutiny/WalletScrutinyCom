@@ -18,7 +18,7 @@ issue:
 icon: io.slavi.wallet.jpg
 bugbounty: 
 meta: stale
-verdict: nonverifiable
+verdict: sourceavailable
 appHashes: []
 date: 2025-04-09
 signer: 
