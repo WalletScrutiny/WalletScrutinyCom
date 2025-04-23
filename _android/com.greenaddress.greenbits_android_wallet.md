@@ -21,7 +21,7 @@ issue: https://github.com/Blockstream/green_android/issues/253
 icon: com.greenaddress.greenbits_android_wallet.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
+verdict: sourceavailable
 appHashes:
 - c5f04cdba74164db04a2e036462846c97a01c80879a095b6883af84249cb2736
 date: 2025-03-07

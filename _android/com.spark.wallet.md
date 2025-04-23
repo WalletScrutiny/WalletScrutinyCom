@@ -20,7 +20,7 @@ issue: https://github.com/shesek/spark-wallet/issues/192
 icon: com.spark.wallet.png
 bugbounty: 
 meta: removed
-verdict: nonverifiable
+verdict: sourceavailable
 appHashes: 
 date: 2023-08-04
 signer: 

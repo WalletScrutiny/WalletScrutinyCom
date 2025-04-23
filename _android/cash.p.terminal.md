@@ -19,7 +19,7 @@ issue:
 icon: cash.p.terminal.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
+verdict: sourceavailable
 appHashes: 
 date: 2024-09-12
 signer: 

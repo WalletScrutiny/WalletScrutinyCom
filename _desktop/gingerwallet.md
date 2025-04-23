@@ -16,7 +16,7 @@ issue:
 icon: gingerwallet.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: sourceavailable
 date: 2025-02-12
 reviewArchive: 
 twitter: 

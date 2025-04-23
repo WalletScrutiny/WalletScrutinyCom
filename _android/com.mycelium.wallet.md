@@ -20,7 +20,7 @@ issue:
 icon: com.mycelium.wallet.jpg
 bugbounty: 
 meta: ok
-verdict: reproducible
+verdict: sourceavailable
 appHashes:
 - dff1afc579b1df3dfeb0c5f6f5c79ade9f3670939128c3b314d84ed69f5a4bc6
 date: 2025-03-07
