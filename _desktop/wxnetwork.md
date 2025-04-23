@@ -16,7 +16,7 @@ issue:
 icon: wxnetwork.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: sourceavailable
 date: 2025-04-02
 reviewArchive: 
 twitter: wx_network

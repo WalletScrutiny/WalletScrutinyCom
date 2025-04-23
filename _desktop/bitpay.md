@@ -16,7 +16,7 @@ issue:
 icon: bitpay.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: sourceavailable
 date: 2024-04-25
 reviewArchive: 
 twitter: BitPay

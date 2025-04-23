@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2023-03-12
 discontinued: 
-updated: 2024-05-15
-version: 2.0.0
+updated: 2025-04-12
+version: 2.1.11
 binaries: 
 provider: Cypher Stack
 providerWebsite: 
@@ -16,7 +16,7 @@ issue:
 icon: desk.stackwallet.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: sourceavailable
 date: 2024-05-15
 reviewArchive: 
 twitter: stack_wallet

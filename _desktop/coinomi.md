@@ -16,7 +16,7 @@ issue:
 icon: coinomi.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nosource
 date: 2024-04-24
 reviewArchive: 
 twitter: coinomiwallet

@@ -16,7 +16,7 @@ issue:
 icon: xdefi_wallet.jpg
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nosource
 date: 2024-05-09
 reviewArchive: 
 twitter: xdefi_wallet
