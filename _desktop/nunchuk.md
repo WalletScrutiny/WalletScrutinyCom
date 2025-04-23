@@ -16,7 +16,7 @@ issue: https://github.com/nunchuk-io/nunchuk-desktop/issues/86
 icon: nunchuk.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: sourceavailable
 date: 2025-04-10
 reviewArchive: 
 twitter: nunchuk_io

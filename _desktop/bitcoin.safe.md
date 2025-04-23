@@ -16,7 +16,7 @@ issue:
 icon: bitcoin.safe.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: sourceavailable
 date: 2025-02-20
 reviewArchive: 
 twitter: 

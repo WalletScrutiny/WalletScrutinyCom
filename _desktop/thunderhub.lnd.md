@@ -16,7 +16,7 @@ issue:
 icon: thunderhub.lnd.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: sourceavailable
 date: 2024-05-10
 reviewArchive: 
 twitter: thunderhubio

@@ -16,7 +16,7 @@ issue:
 icon: bitcoinknots.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: sourceavailable
 date: 2024-04-24
 reviewArchive: 
 twitter: BitcoinKnots

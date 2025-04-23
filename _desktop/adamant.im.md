@@ -16,7 +16,7 @@ issue:
 icon: adamant.im.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: sourceavailable
 date: 2024-04-24
 reviewArchive: 
 twitter: adamant_im
