@@ -19,7 +19,7 @@ issue:
 icon: io.freewallet.mobile.jpg
 bugbounty: 
 meta: obsolete
-verdict: ftbfs
+verdict: sourceavailable
 appHashes: 
 date: 2021-10-22
 signer: 

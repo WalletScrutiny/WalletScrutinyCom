@@ -28,7 +28,7 @@ reviewArchive:
   version: 14.27.1
   appHashes: []
   gitRevision: 4458285efc54bd9bc76d74f88e696201a4af4a93
-  verdict: ftbfs
+  verdict: sourceavailable
 - date: 2022-11-02
   version: 12.6.4
   appHashes: []

@@ -18,7 +18,7 @@ issue:
 icon: com.fontaine.FullyNoded.jpg
 bugbounty: 
 meta: ok
-verdict: nonverifiable
+verdict: sourceavailable
 appHashes: 
 date: 2023-11-17
 signer: 
