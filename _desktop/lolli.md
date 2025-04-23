@@ -16,7 +16,7 @@ issue:
 icon: lolli.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nosource
 date: 2024-05-09
 reviewArchive: 
 twitter: trylolli

@@ -5,8 +5,8 @@ authors:
 - danny
 released: 2020-04-24
 discontinued: 
-updated: 2024-02-05
-version: 4.0.9
+updated: 2025-01-01
+version: 4.2.5
 binaries: 
 provider: 
 providerWebsite: https://blog.defichain.com/
@@ -16,7 +16,7 @@ issue:
 icon: defichain.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: sourceavailable
 date: 2024-05-08
 reviewArchive: 
 twitter: defichain
