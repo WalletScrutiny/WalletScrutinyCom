@@ -21,7 +21,7 @@ issue:
 icon: de.schildbach.wallet.png
 bugbounty: 
 meta: ok
-verdict: reproducible
+verdict: sourceavailable
 appHashes:
 - 7088544f9714059cbc86d9db8110b95b7ae4db4f1b0a513ddb3378739a35183d
 date: 2025-03-10

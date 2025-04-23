@@ -21,7 +21,7 @@ issue: https://github.com/trustee-wallet/trusteeWallet/issues/180
 icon: com.trusteewallet.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: sourceavailable
 appHashes: []
 date: 2025-01-22
 signer: 

@@ -22,7 +22,7 @@ issue:
 icon: app.zeusln.zeus.png
 bugbounty: 
 meta: ok
-verdict: reproducible
+verdict: sourceavailable
 appHashes:
 - 9c141c38553a9bfb2df11ca05921775a04a000d84328988f7d3bf5b3a9112e4d
 date: 2025-03-13

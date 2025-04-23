@@ -20,7 +20,7 @@ issue: https://github.com/bithyve/bitcointribe/issues/2544
 icon: io.hexawallet.hexa2.png
 bugbounty: 
 meta: removed
-verdict: ftbfs
+verdict: sourceavailable
 appHashes: []
 date: 2025-03-11
 signer: 

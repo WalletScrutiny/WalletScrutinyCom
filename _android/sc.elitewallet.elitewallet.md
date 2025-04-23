@@ -19,7 +19,7 @@ issue: https://gitlab.com/walletscrutiny/walletScrutinyCom/-/issues/497
 icon: sc.elitewallet.elitewallet.png
 bugbounty: 
 meta: removed
-verdict: ftbfs
+verdict: sourceavailable
 appHashes: 
 date: 2024-07-10
 signer: 

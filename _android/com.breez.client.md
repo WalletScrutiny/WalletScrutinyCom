@@ -22,7 +22,7 @@ issue: https://github.com/breez/breezmobile/issues/247
 icon: com.breez.client.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
+verdict: sourceavailable
 appHashes: []
 date: 2024-07-24
 signer: 

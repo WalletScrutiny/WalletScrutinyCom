@@ -21,7 +21,7 @@ issue: https://github.com/airgap-it/airgap-vault/issues/197
 icon: it.airgap.vault.png
 bugbounty: 
 meta: ok
-verdict: reproducible
+verdict: sourceavailable
 appHashes:
 - aed91fdf47bad77ab0907a32c3441709ce57a4b6cea9d7b973f4ce858ca8ff88
 date: 2025-01-28

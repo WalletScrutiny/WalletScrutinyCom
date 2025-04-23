@@ -19,7 +19,7 @@ issue: https://github.com/Adamant-im/adamant-im/issues/666
 icon: im.adamant.adamantmessengerpwa.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
+verdict: sourceavailable
 appHashes: []
 date: 2024-09-18
 signer: 
