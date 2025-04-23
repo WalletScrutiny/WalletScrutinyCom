@@ -17,7 +17,7 @@ icon: atomic.png
 bugbounty: 
 meta: ok
 verdict: nosource
-date: 2025-04-12
+date: 2025-04-23
 reviewArchive: 
 twitter: atomicwallet
 social:
@@ -32,6 +32,7 @@ features:
 
 - {% include walletLink.html wallet='android/io.atomicwallet' verdict='true' %}
 - {% include walletLink.html wallet='iphone/atomicwallet' verdict='true' %}
+
 ## App Description 
 
-> Atomic Wallet is a non-custodial cryptocurrency wallet supporting Bitcoin and over 500 other assets across desktop and mobile platforms. While it employs open-source libraries, the core application remains closed-source to deter cloning and phishing attempts, as explained in their [support article](https://support.atomicwallet.io/article/184-why-is-atomic-wallet-not-open-source). On June 3, 2023, Atomic Wallet experienced a significant security breach, resulting in substantial user fund losses. The company addressed the incident in their [June 3rd Event Statement](https://atomicwallet.io/blog/articles/june-3rd-event-statement), stating that less than 0.1% of users were affected and that security infrastructure has been updated.
+Atomic Wallet is a multi-cryptocurrency desktop wallet that supports bitcoin. It allows users to generate private keys upon initialization. However, it doesn't believe in Open Source, and only describes itself as "uses Open Source libraries". [More](https://support.atomicwallet.io/article/184-why-is-atomic-wallet-not-open-source) about this. Despite being partially source-available, it is **not fully open source** and thus not verifiable.

@@ -27,8 +27,6 @@ features:
 
 ## App Description
 
-> The ARK Desktop Wallet was the official cross-platform desktop application for managing ARK tokens and ARK Core-based assets. Released in 2017 and now deprecated, the wallet supported Windows, macOS, and Linux. It allowed users to generate and manage ARK wallets, sign transactions, and interact with custom ARK-based networks. Users maintained full custody of their keys, stored locally and encrypted.
->
-> The wallet did not support Bitcoin or other non-ARK blockchains natively. It was self-custodial, source-available, and built using Electron with front-end components in Vue.js. The project has since been archived in favor of ARKVault, a browser-based wallet with similar functionality, now positioned as the preferred method for accessing ARK assets.
+This desktop wallet **handled only ARK tokens and ARK Core-based assets**. It has Windows, macOS and Linux binaries. 
 
-The defunct app has been archived since 2023-03-23.
+The **defunct** app has been archived since 2023-03-23, and does not support BTC. The binaries are still downloadable through its repository but no longer supported. Users are advised to use the [Ark Vault](https://app.arkvault.io/) instead. 

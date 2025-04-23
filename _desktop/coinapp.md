@@ -29,7 +29,11 @@ features:
 
 **Note:** This app has a similarity in name, with coinapp.co but we find no apparent link between the two apps.
 
-> ​CoinApp is an open-source cryptocurrency wallet designed for simplicity and cross-platform compatibility, supporting Windows, macOS, and Linux. It facilitates sending and receiving of Ethereum, ERC20 tokens, Bitcoin, and Litecoin, with a focus on user control over transaction parameters
+> CoinApp is a simple to use minimal Cryptocurrency Wallet for Ethereum, ERC20 Tokens, Bitcoin and Litecoin built for Windows, Mac and Linux.
 
-This app was last updated 8 years ago, with no further updates, no social media, and no press release as to its current status. Windows, macOS and Linux binaries could still be downloaded through their website. This app is **obsolete**.
+[Description from GitHub repository](https://github.com/coinapp-io/desktop)
+
+This app is self-custodial because it encrypts the private keys locally. It is also source-available. 
+
+However, this app was last updated 8 years ago and with no further updates, no social media, and no press release as to its current status. Windows, macOS and Linux binaries could still be downloaded through their website. This app is **obsolete**.
 

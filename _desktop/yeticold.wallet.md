@@ -17,7 +17,7 @@ icon: yeticold.wallet.png
 bugbounty: 
 meta: ok
 verdict: diy
-date: 2025-04-12
+date: 2025-04-23
 reviewArchive: 
 twitter: YetiWallet
 social: 
@@ -27,6 +27,8 @@ features:
 
 ## Description
 
-> ​YetiCold is a self-custodial, source-available Bitcoin cold storage solution that emphasizes security and user control. It does not offer precompiled binaries; instead, users are guided through setting up their own environment using open-source scripts and Bitcoin Core, which itself supports reproducible builds. This approach allows users to verify the integrity of their setup, aligning with best practices for secure and private Bitcoin storage.
+It is self-described as a "self-custodial, source-available Bitcoin cold storage solution". So it's more of a methodology with its own scripts.
 
-It does not have precompiled binaries that work out-of-the-box.
+But it does not have precompiled binaries that work out-of-the-box.
+
+Users are educated as they *do it themselves*.

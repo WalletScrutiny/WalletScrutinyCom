@@ -25,13 +25,15 @@ social:
 - https://njump.me/npub1rqw94s9dt8lf0lernt72w29ctkr0skc5mjpy6e92ppktnvms0kwq540l8l
 features:
 - coinjoin
+- tor
+- client-side block filtering
+- bitcoin knots integration
+- 2fa
 
 ---
 
 ## App Description
 
-> Ginger Wallet is a privacy-focused, non-custodial Bitcoin wallet designed for desktop platforms. It is open-source and supports Windows, macOS, and Linux operating systems. The wallet emphasizes user privacy and security, incorporating features such as CoinJoin for transaction obfuscation and Tor integration for network anonymity. Ginger Wallet also offers support for various hardware wallets, enhancing its versatility for users seeking robust security measures. The application is actively maintained, with recent updates addressing performance improvements and bug fixes.
->
-> ​Ginger Wallet is a fork of Wasabi Wallet, developed by former Wasabi contributors following the shutdown of zkSNACKs' coordination service. It retains the core privacy features of Wasabi, including CoinJoin via the WabiSabi protocol, but introduces a fixed coordinator that screens inputs using a chain surveillance partner. This design aims to offer "compliant" CoinJoins by filtering out high-risk UTXOs. ​
+Ginger wallet is a fork of {% include walletLink.html wallet='desktop/wasabi' verdict='true' %}. It features a self-custodial BTC wallet that is source-available. It has features that allow for coinjoin, two-factor authentication, bitcoin knots integration and TOR. 
 
 This app should be **for verification.**
