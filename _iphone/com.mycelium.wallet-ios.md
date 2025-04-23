@@ -18,7 +18,7 @@ issue:
 icon: com.mycelium.wallet-ios.jpg
 bugbounty: 
 meta: stale
-verdict: nonverifiable
+verdict: sourceavailable
 appHashes: 
 date: 2024-05-06
 signer: 

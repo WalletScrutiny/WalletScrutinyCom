@@ -18,7 +18,7 @@ issue:
 icon: com.trusteewallet.jpg
 bugbounty: 
 meta: ok
-verdict: nonverifiable
+verdict: sourceavailable
 appHashes: 
 date: 2024-10-07
 signer: 

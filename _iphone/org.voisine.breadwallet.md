@@ -32,7 +32,7 @@ reviewArchive:
   version: 4.9.0.3
   appHashes: []
   gitRevision: a928ed573992e73ddec01d811a7fe81a3d5f62c2
-  verdict: nonverifiable
+  verdict: sourceavailable
 twitter: BRDHQ
 social:
 - https://www.linkedin.com/company/brdhq
