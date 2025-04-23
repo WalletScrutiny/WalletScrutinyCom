@@ -18,7 +18,7 @@ issue:
 icon: com.atomex.ios.jpg
 bugbounty: 
 meta: removed
-verdict: nonverifiable
+verdict: sourceavailable
 appHashes: 
 date: 2024-07-05
 signer: 
