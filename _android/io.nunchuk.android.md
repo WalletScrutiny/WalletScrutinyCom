@@ -23,7 +23,7 @@ issue: >-
 icon: io.nunchuk.android.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
+verdict: sourceavailable
 appHashes:
 - d2721ac6aaba398c65c85ce3ed1e7cf312f9cb1273de0fb2eb026389f3ca3b43
 - 377d6a1b285afb8ff9343975736baf61b4f3f692b9aeb0fa18d61880aabb8e89

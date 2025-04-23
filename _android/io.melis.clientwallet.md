@@ -19,7 +19,7 @@ issue: https://github.com/melis-wallet/melis-cm-client/issues/1
 icon: io.melis.clientwallet.png
 bugbounty: 
 meta: removed
-verdict: ftbfs
+verdict: sourceavailable
 appHashes: 
 date: 2023-12-19
 signer: 

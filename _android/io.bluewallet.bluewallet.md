@@ -23,7 +23,7 @@ issue: https://github.com/BlueWallet/BlueWallet/issues/6409
 icon: io.bluewallet.bluewallet.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
+verdict: sourceavailable
 appHashes:
 - b804c755ffe38efd9cdef7352e71aa6d014243cd9d21cdee0e474fb54ff8c7c9
 date: 2025-02-26

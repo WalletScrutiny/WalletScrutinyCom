@@ -19,7 +19,7 @@ issue: https://github.com/CoinSpace/CoinSpace/issues/30
 icon: com.coinspace.app.png
 bugbounty: https://openbugbounty.org/bugbounty/CoinAppWallet/
 meta: ok
-verdict: nonverifiable
+verdict: sourceavailable
 appHashes: []
 date: 2023-04-22
 signer: 

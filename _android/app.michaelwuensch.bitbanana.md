@@ -20,7 +20,7 @@ issue: https://github.com/michaelWuensch/BitBanana/issues/95
 icon: app.michaelwuensch.bitbanana.png
 bugbounty: 
 meta: ok
-verdict: reproducible
+verdict: sourceavailable
 appHashes:
 - fe57c48a52177a33ebc386322a1cfd36cb06d2351cb53df96bbc7b456ec3d503
 - b0da32db5b75cf3ea94f6d3f9157c1d5f43a8f34f18c45376c6114f23f91f55d

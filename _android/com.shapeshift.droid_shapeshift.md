@@ -20,7 +20,7 @@ issue: https://github.com/shapeshift/mobile-app/issues/104
 icon: com.shapeshift.droid_shapeshift.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
+verdict: sourceavailable
 appHashes: []
 date: 2024-08-09
 signer: 
