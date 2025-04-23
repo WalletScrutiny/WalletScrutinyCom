@@ -11,12 +11,12 @@ binaries:
 provider: KomodoPlatform
 providerWebsite: https://komodoplatform.com/
 website: https://atomicdex.io/
-repository: https://github.com/KomodoPlatform/atomicDEX-Desktop
+repository: https://github.com/KomodoPlatform/komodo-wallet-desktop
 issue: 
 icon: atomicdex.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: sourceavailable
 date: 2024-04-24
 reviewArchive: 
 twitter: KomodoPlatform

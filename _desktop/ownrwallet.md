@@ -16,7 +16,7 @@ issue:
 icon: ownrwallet.png
 bugbounty: 
 meta: ok
-verdict: wip
+verdict: nosource
 date: 2024-04-25
 reviewArchive: 
 twitter: ownrwallet

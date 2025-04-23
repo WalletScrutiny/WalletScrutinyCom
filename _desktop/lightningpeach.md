@@ -16,7 +16,7 @@ issue:
 icon: lightningpeach.png
 bugbounty: 
 meta: obsolete
-verdict: wip
+verdict: sourceavailable
 date: 2024-05-08
 reviewArchive: 
 twitter: lightningpeach

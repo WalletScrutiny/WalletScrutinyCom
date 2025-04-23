@@ -16,7 +16,7 @@ issue:
 icon: bitbox.app.png
 bugbounty: https://shiftcrypto.ch/bug-bounty-program
 meta: ok
-verdict: wip
+verdict: sourceavailable
 date: 2024-04-25
 reviewArchive: 
 twitter: ShiftCryptoHQ
