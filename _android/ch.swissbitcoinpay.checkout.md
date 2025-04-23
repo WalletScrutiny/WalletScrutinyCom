@@ -20,7 +20,7 @@ issue: https://github.com/SwissBitcoinPay/app/issues/53
 icon: ch.swissbitcoinpay.checkout.png
 bugbounty: 
 meta: ok
-verdict: ftbfs
+verdict: sourceavailable
 appHashes:
 - 4c027a43cc9fddff3fe15d55ff32a083c761ecfb9c84a3326384cb863455282d
 - 24f70d0f31812cf8012b933d2836e8c6b222e276595164a3d773926fe468c56c

@@ -20,7 +20,7 @@ issue:
 icon: com.greenaddress.abcore.png
 bugbounty: 
 meta: removed
-verdict: reproducible
+verdict: sourceavailable
 appHashes: 
 date: 2024-04-19
 signer: 
