@@ -18,7 +18,7 @@ issue: https://github.com/coinninjadev/dropbit-android/issues/2
 icon: com.coinninja.coinkeeper.png
 bugbounty: 
 meta: removed
-verdict: nonverifiable
+verdict: sourceavailable
 appHashes: 
 date: 2021-07-21
 signer: 

@@ -18,7 +18,7 @@ issue: https://github.com/OpenBazaar/haven/issues/3
 icon: io.ob1.nativeandroid.png
 bugbounty: 
 meta: removed
-verdict: nonverifiable
+verdict: sourceavailable
 appHashes: []
 date: 2021-01-23
 signer: 

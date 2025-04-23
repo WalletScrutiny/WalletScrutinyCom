@@ -21,7 +21,7 @@ issue:
 icon: com.samourai.wallet.png
 bugbounty: 
 meta: removed
-verdict: nonverifiable
+verdict: sourceavailable
 appHashes: []
 date: 2024-04-26
 signer: 6ab9471c21d2cddd628172975cff8ba23584da41c6962df074eb56e4ef08d990

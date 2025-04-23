@@ -20,7 +20,7 @@ issue: https://github.com/hsjoberg/blixt-wallet/issues/318
 icon: com.blixtwallet.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
+verdict: sourceavailable
 appHashes: 
 date: 2022-02-07
 signer: 

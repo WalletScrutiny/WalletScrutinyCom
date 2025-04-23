@@ -21,7 +21,7 @@ issue: https://github.com/coffee-software/coffee.wallet/issues/89
 icon: coffee.software.coffeewallet.png
 bugbounty: 
 meta: obsolete
-verdict: nonverifiable
+verdict: sourceavailable
 appHashes: 
 date: 2024-07-03
 signer: 
