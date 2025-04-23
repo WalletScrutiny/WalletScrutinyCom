@@ -21,7 +21,7 @@ issue: https://github.com/muun/apollo/issues/54
 icon: io.muun.apollo.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
+verdict: sourceavailable
 appHashes:
 - 9c743af9930e7eca39581e70ec9213489e572dc93fe33d3a90bc95b00825a4dc
 date: 2025-02-24

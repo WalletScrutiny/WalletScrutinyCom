@@ -20,7 +20,7 @@ issue: https://github.com/AquaWallet/aqua-wallet/issues/9
 icon: io.aquawallet.android.png
 bugbounty: 
 meta: ok
-verdict: ftbfs
+verdict: sourceavailable
 appHashes: []
 date: 2024-09-06
 signer: 

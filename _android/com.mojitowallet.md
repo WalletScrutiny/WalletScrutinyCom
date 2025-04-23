@@ -20,7 +20,7 @@ issue: https://github.com/mintlayer/mojito_mobile_wallet/issues/101
 icon: com.mojitowallet.png
 bugbounty: 
 meta: ok
-verdict: ftbfs
+verdict: sourceavailable
 appHashes: []
 date: 2024-12-21
 signer: 

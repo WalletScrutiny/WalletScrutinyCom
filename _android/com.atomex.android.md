@@ -19,7 +19,7 @@ issue: https://github.com/atomex-me/atomex.mobile/issues/24
 icon: com.atomex.android.png
 bugbounty: 
 meta: removed
-verdict: nonverifiable
+verdict: sourceavailable
 appHashes: 
 date: 2022-02-25
 signer: 

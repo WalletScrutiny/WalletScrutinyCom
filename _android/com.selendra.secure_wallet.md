@@ -19,7 +19,7 @@ issue: https://github.com/bitriel/bitriel-wallet/issues/26
 icon: com.selendra.secure_wallet.png
 bugbounty: 
 meta: defunct
-verdict: nonverifiable
+verdict: sourceavailable
 appHashes: 
 date: 2022-03-07
 signer: 

@@ -20,7 +20,7 @@ issue: https://github.com/Foundation-Devices/envoy/issues/1395
 icon: com.foundationdevices.envoy.jpg
 bugbounty: 
 meta: ok
-verdict: nonverifiable
+verdict: sourceavailable
 appHashes:
 - 84628d12486a8f47879952a2cf8bb6e0650c0f0d7ad7c0ccb71fded5bcc6e5f0
 - 651ee1d39e5e8373af42229e98f4cd6c4bb57e070dd8881c31a91c40bcd971b2
