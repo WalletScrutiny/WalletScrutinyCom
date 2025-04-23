@@ -16,7 +16,7 @@ issue:
 icon: bitmarket.png
 bugbounty: 
 meta: obsolete
-verdict: wip
+verdict: sourceavailable
 date: 2024-04-24
 reviewArchive: 
 twitter: 
