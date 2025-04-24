@@ -28,7 +28,7 @@ issue:
 icon: bitBox2.png
 bugbounty: 
 meta: ok
-verdict: reproducible
+verdict: sourceavailable
 appHashes:
 - 36895857c346c1fbd0d206853b7031e985c1a959e9f7f9396a7ae94dfffa9679
 date: 2024-11-05

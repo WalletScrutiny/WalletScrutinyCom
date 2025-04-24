@@ -25,7 +25,7 @@ issue:
 icon: coldcardQ1.png
 bugbounty: 
 meta: ok
-verdict: reproducible
+verdict: sourceavailable
 appHashes:
 - 8f53880cde1b58a18e1b3166394a7e19e51866357ed2cbcf0aaa4dbbb9d17edc
 - 2e1aad0a7a3ceb84db34322b54855a0c5496699e46e53606bfa443fcc992adec
