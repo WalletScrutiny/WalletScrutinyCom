@@ -25,7 +25,7 @@ features:
 
 ---
 
-## App Description
+## App Description from [its Repository](https://github.com/KoinKeep/GateKeeper)
 
 > GateKeeper is a tool for verifying withdrawal transactions and more. It will verify that your Bitcoin wallet is not lying or stealing from you.
 >

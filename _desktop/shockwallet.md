@@ -17,7 +17,7 @@ icon: shockwallet.jpg
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-04-14
+date: 2025-04-24
 reviewArchive: 
 twitter: shockbtc
 social: 
@@ -27,4 +27,12 @@ features:
 
 ## App Description
 
-> ShockWallet is a Nostr-native, self-custodial Lightning wallet supporting multi-node setups. It allows users to connect to their own or shared Lightning nodes over Nostr and LNURL, with multi-device sync via NIP78. 
+This comes as a progressive web application and not a native desktop application. There are no desktop binaries in the [releases](https://github.com/shocknet/wallet2/releases/tag/v0.0.17-beta) and only an apk. 
+
+It is a BTC-lightning focused app that leverages the Nostr network to connect to lightning nodes. As such, the Bitcoin private key resides with the nodes which may or may not be controlled by the user. There is a default node configured for the app:
+
+> For new users, an optional Bootstrap node is default on mainnet allowing for the lay-away of a self-custodied channel for your own node with a partner LSP.
+
+They describe this as subject to their [terms.](https://docs.shock.network/terms)
+
+The control over the Bitcoin private keys resides with the LSP. With that said, the app is **source-available.**

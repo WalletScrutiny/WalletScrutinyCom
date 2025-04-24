@@ -40,3 +40,5 @@ The service provides browser extensions and webapps. On its website:
 > Over the coming weeks (roughly July - September 2024), you will see us transition all XDEFI communications and websites to the new Ctrl brand.
 >
 > With the rebrand, we are launching new iOS and Android apps, as well as a new version of our Chrome Extension wallet.
+
+The new extension is {% include walletLink.html wallet='desktop/xyz.ctrl.desktop.wallet' verdict='true' %}.

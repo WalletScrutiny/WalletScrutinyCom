@@ -15,9 +15,9 @@ repository: https://github.com/panteam-net/pt.BTC
 issue: 
 icon: 
 bugbounty: 
-meta: defunct
+meta: obsolete
 verdict: sourceavailable
-date: 2025-04-14
+date: 2025-04-24
 reviewArchive: 
 twitter: 
 social: 
@@ -31,4 +31,4 @@ The providers' website is not accessible.
 
 > This is a cross platform bitcoin wallet. 
 
-With the website gone and with no development in the last 2 years in its GitHub repository, we are marking this program as **defunct.**
+With the website gone and with no development in the last 2 years in its GitHub repository, this program is **obsolete**

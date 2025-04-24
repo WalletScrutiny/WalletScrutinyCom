@@ -17,7 +17,7 @@ icon: specter.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-04-14
+date: 2025-04-24
 reviewArchive: 
 twitter: SpecterWallet
 social: 
@@ -31,6 +31,8 @@ Specter Desktop Wallet is a Bitcoin-only, open-source desktop wallet developed b
 
 The wallet focuses on self-custody, supporting multi-signature configurations and hardware wallet integration, catering to security-conscious users and advanced setups.
 
-As of version 2.1.1 (released 2025-01-04), the project is actively maintained, with continued development and engagement from the community.
+App initialization begins with allowing the user to choose to connect between an Electrum server or Bitcoin Core. Once connected, the user is asked to [connect a signing device](https://specter.solutions/docs/desktop/DeviceCreationGuide/) (hardware wallet). Only then will the user be able to create a wallet. The seed phrases come from the hardware device.
+
+This app should be **for verification.**
 
 

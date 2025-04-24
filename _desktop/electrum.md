@@ -17,16 +17,21 @@ icon: electrum.png
 bugbounty: 
 meta: ok
 verdict: sourceavailable
-date: 2025-04-14
+date: 2025-04-24
 reviewArchive: 
 twitter: ElectrumWallet
 social: 
 features: 
+- 2fa
+- multisig
 
 ---
 
 ## App Description
 
-> Electrum Wallet is one of the oldest and most trusted open-source Bitcoin wallets, launched in 2011. It is a lightweight desktop wallet emphasizing speed, security, and user control. Electrum is self-custodial—users retain their private keys locally and can use their own full node. It supports advanced features like multi-signature wallets, hardware wallet integration, and cold storage setups. 
+Electrum is a lightweight Bitcoin client developed by Thomas Voegtlin in 2011. It is one of the pioneers and considered to be one of the archetypal Bitcoin wallets in existence. It is very [well-documented](https://electrum.readthedocs.io/) and has a high-regard in the space. It supports multisig, 2FA and many other security and privacy integrations. 
 
-They have a guide on [reproducibility](https://github.com/spesmilo/electrum/blob/master/contrib/android/Readme.md)
+They have a guide on [reproducibility](https://github.com/spesmilo/electrum/tree/master/contrib/build-linux/sdist)
+
+This desktop program is **for verification**.
+

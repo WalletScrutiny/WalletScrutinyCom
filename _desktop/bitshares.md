@@ -17,7 +17,7 @@ icon: bitshares.png
 bugbounty: 
 meta: obsolete
 verdict: nobtc
-date: 2025-04-14
+date: 2025-04-24
 reviewArchive: 
 twitter: xbtsdex
 social: 
@@ -27,8 +27,20 @@ features:
 
 ## App Description
 
-> The BitShares desktop application is a self-custodial wallet designed for managing assets on the BitShares blockchain. Built with Electron, it runs on Windows, macOS, and Linux, allowing users to securely store private keys locally and sign transactions client-side. The app connects to BitShares nodes via API, providing full access to account management, asset transfers, market trading, and decentralized exchange features. It does not support Bitcoin wallets natively but can interact with BTC-pegged assets through the BitShares ecosystem.
+BitShares is a decentralized exchange (DEX). They have two desktop applications, [XBTS-DEX](https://github.com/XBTS/xbts-ui/releases/latest) and [XBTS-DEFI](https://github.com/XBTS/app/releases/tag/v0.2.5). Despite having icons for Linux, and Apple, only the Windows binary was able for download in their GitHub releases page. We tested the Windows version. Using the platform requires signing up to their service. 
 
-This desktop application does not include a Bitcoin wallet. Rather, it [makes use of gateways](https://medium.com/the-ledger-by-spark/dex-masterclass-102-bitshares-dex-complete-ecosystem-stable-php-case-study-d0d0879a979b): 
+The Deposit/Withdraw option has this information:
 
-> To make trading BTC on the BitShares DEX possible, a gateway will run a Bitcoin node that process transactions on the Bitcoin blockchain. When a customer makes a BTC deposit, the gateway will take that BTC and issue a BitShares-based token in exchange which represents the value of that Bitcoin deposit. That is the UIA and as a BitShares based token, it can be traded quickly and easily across the BitShares ecosystem.
+> If you want to deposit or withdraw funds, either in fiat or from other blockchains, you may use a bridge or gateway service to do so. 
+
+This desktop application does not include a Bitcoin wallet. Rather, it [makes use of gateways](https://medium.com/the-ledger-by-spark/dex-masterclass-102-bitshares-dex-complete-ecosystem-stable-php-case-study-d0d0879a979b). 
+
+From the interface of the program, gateways are described:
+
+> These assets are backed 100% by the real BTC or ETH or any other coin that people deposit with the gateways.
+
+Bridges on the other hand:
+
+> A bridge service provides a way to deposit an amount of a cryptocurrency other than BitShares, and in turn receive a SmartCoin equivalent.
+
+Both point to the fact that the user may not be depositing BTC whose private key they control. "Backed by 100%" the real thing isn't the same as controlling the private keys. SmartCoins are simply **not Bitcoins**.
