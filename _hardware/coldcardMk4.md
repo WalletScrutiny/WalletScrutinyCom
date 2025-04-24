@@ -27,7 +27,7 @@ issue:
 icon: coldcardMk4.png
 bugbounty: 
 meta: ok
-verdict: reproducible
+verdict: sourceavailable
 appHashes:
 - 495f37ce7ddaba2e9fc3f03dec582f1646f258a3d0cec5e71c04d127357b2fa3
 - f1ce1958911b741ec29bf1a0de46f146acd6dda37c5c6496fa05b81e40551964

@@ -25,7 +25,7 @@ issue:
 icon: keystone3.pro.png
 bugbounty: 
 meta: ok
-verdict: reproducible
+verdict: sourceavailable
 appHashes:
 - 7c1eb50fd46273d05cabf934ebee3b06d266f0e46b69deb385ce5ecfbcc67bf7
 - c18e898b73507d55c721eff4c49fe9e29a8a5d705c1832b52a6df5714e173e5d

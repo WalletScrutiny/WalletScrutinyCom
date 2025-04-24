@@ -27,7 +27,7 @@ issue:
 icon: coldcardMk3.png
 bugbounty: https://coinkite.com/responsible-disclosure
 meta: discontinued
-verdict: reproducible
+verdict: sourceavailable
 appHashes:
 - f6fb19d95bd1e38535f137bed60cafbfcd52379a686e3d12f372f881d78e640e
 date: 2023-10-08
