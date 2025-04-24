@@ -25,7 +25,7 @@ issue: https://github.com/SalletOne/sallet-one-cold/issues/6
 icon: sallet.one.png
 bugbounty: 
 meta: defunct
-verdict: ftbfs
+verdict: sourceavailable
 appHashes: []
 date: 2025-02-05
 signer: 

@@ -23,7 +23,7 @@ issue:
 icon: seedsigner.png
 bugbounty: 
 meta: ok
-verdict: reproducible
+verdict: sourceavailable
 appHashes:
 - bcb901e27d309d85f086dc80b49b153d6b1caab2247eba2811731384d58f2f3e
 - 1e93a82e62d4a1defbdc777a6762a813f4cb5c3ef9090da0bd07542dfd6f62bf
