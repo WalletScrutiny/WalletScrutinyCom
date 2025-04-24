@@ -81,6 +81,21 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
     sha256
   });
 
+  // --- Add Blossom Download Warning Modal Structure ---
+  const blossomModalHTML = `
+    <div id="blossomWarningModal" style="display: none; position: fixed; z-index: 1001; left: 0; top: 0; width: 100%; height: 100%; overflow: auto; background-color: rgba(0,0,0,0.6);">
+      <div style="background-color: #fefefe; margin: 15% auto; padding: 20px; border: 1px solid #888; width: 80%; max-width: 400px; text-align: center; border-radius: 8px; color: black;">
+        <span id="blossomCloseModalButton" style="color: #aaa; float: right; font-size: 28px; font-weight: bold; cursor: pointer;">&times;</span>
+        <p style="margin-top: 30px; margin-bottom: 20px;">⚠️ This file was uploaded by a third party. We haven't verified its content, so please be careful before running it. ⚠️</p>
+        <button id="blossomConfirmDownloadButton" class="btn btn-success" style="padding: 10px 20px;">Download</button>
+      </div>
+    </div>
+  `;
+  // Append modal to body to ensure it's outside the main container's potential overflow issues
+  if (!document.getElementById('blossomWarningModal')) {
+    document.body.insertAdjacentHTML('beforeend', blossomModalHTML);
+  }
+
   // Search and filter UI
   if (enableSearch || enableDraftsFilter) {
     const searchContainer = document.createElement('div');
@@ -426,6 +441,39 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
   // Setup Intersection Observer for lazy loading Blossom checks
   const observedHashes = new Set();
 
+  // --- Helper function for actual download ---
+  const downloadBlossomFile = async (hash, downloadIcon) => {
+    showToast('Preparing file to download, wait a moment...', 'info', 9000);
+    console.log('downloading');
+    try {
+      const response = await fetch(getBlossomFileURL(hash));
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+      const filenameFromURL = response.url?.split('/').pop() ?? hash;
+
+      let filename = '';
+      const title = downloadIcon.getAttribute('data-title');
+      const version = downloadIcon.getAttribute('data-version');
+      const appid = downloadIcon.getAttribute('data-appid');
+
+      if (title && !title.includes(' ')) {
+        filename = `${title}-${version}-${filenameFromURL}`;
+      } else {
+        filename = `${appid}-${version}-${filenameFromURL}`;
+      }
+
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(await response.blob());
+      a.download = filename;
+      a.click();
+      URL.revokeObjectURL(a.href); // Clean up blob URL
+    } catch (error) {
+      console.error('Error downloading file:', error);
+      showToast(`Error downloading file: ${error.message || 'Unknown error'}`, 'error');
+    }
+  };
+  // --- End helper function ---
+
   const blossomObserver = new IntersectionObserver((entries, observer) => {
     entries.forEach(async entry => {
       if (entry.isIntersecting) {
@@ -443,30 +491,39 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
             const exists = await checkBlossomFile(hash);
             if (exists) {
               downloadIcon.style.display = 'inline';
+              // --- Modify onclick to show modal ---
               downloadIcon.onclick = async () => {
-                showToast('Preparing file to download, wait a moment...', 'info', 6000);
+                const modal = document.getElementById('blossomWarningModal');
+                const confirmButton = document.getElementById('blossomConfirmDownloadButton');
+                const closeButton = document.getElementById('blossomCloseModalButton');
 
-                try {
-                  const response = await fetch(getBlossomFileURL(hash));
-                  if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                // Define the download action
+                const downloadAction = () => {
+                    downloadBlossomFile(hash, downloadIcon);
+                    modal.style.display = 'none';
+                };
 
-                  const filenameFromURL = response.url?.split('/').pop() ?? hash;
+                // Remove previous listener to avoid duplicates if clicked multiple times
+                confirmButton.replaceWith(confirmButton.cloneNode(true)); // Clone to remove listeners
+                document.getElementById('blossomConfirmDownloadButton').addEventListener('click', downloadAction);
 
-                  let filename = '';
-                  if (downloadIcon.getAttribute('data-title') && !downloadIcon.getAttribute('data-title').includes(' ')) {
-                    filename = downloadIcon.getAttribute('data-title') + '-' + downloadIcon.getAttribute('data-version') + '-' + filenameFromURL;
-                  } else {
-                    filename = downloadIcon.getAttribute('data-appid') + '-' + downloadIcon.getAttribute('data-version') + '-' + filenameFromURL;
+
+                // Close modal listeners
+                const closeModal = () => {
+                  modal.style.display = 'none';
+                  // Make sure to remove the specific listener for the confirm button when closing
+                  // This is handled by replaceWith above, but good practice if not cloning
+                };
+                closeButton.onclick = closeModal;
+                modal.onclick = (event) => { // Close if clicking outside the content
+                  if (event.target === modal) {
+                    closeModal();
                   }
+                };
 
-                  const a = document.createElement('a');
-                  a.href = URL.createObjectURL(await response.blob());
-                  a.download = filename;
-                  a.click();
-                } catch (error) {
-                  showToast('Error downloading file.', 'error');
-                }
+                modal.style.display = 'block'; // Show the modal
               };
+              // --- End modification ---
             }
           } catch (error) {
             console.error(`Error checking hash ${hash} in Blossom:`, error);
