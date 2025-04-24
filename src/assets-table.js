@@ -5,6 +5,7 @@ import { assetRegistrationKind, verificationDraftKind } from "./nostr-constants.
 window.DOMPurify = DOMPurify;
 
 let response = null;
+let originalUrlBeforeModal = ''; // Store the URL before opening the modal
 
 const table = document.createElement('table');
 
@@ -149,6 +150,51 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
     mergeIntoCombined(response.draftVerifications);
   }
   mergeIntoCombined(response.assets);
+
+  // Helper function to find verification by ID across all SHA256 hashes
+  const findVerificationById = (idToFind) => {
+    const allMaps = [response.verifications, response.draftVerifications];
+    for (const map of allMaps) {
+      if (map) { // Check if the map exists (drafts might not)
+        for (const [sha256, attestations] of map.entries()) {
+          const found = attestations.find(att => att.id === idToFind);
+          if (found) {
+            return { verification: found, sha256Hash: sha256 };
+          }
+        }
+      }
+    }
+    return null;
+  };
+
+  // Check URL hash for verification details after fetching data
+  if (location.hash.startsWith('#verificationId=')) {
+    const params = new URLSearchParams(location.hash.substring(1));
+    const verificationId = params.get('verificationId');
+
+    if (verificationId) {
+        const result = findVerificationById(verificationId);
+
+        if (result) {
+            const { verification, sha256Hash } = result;
+            // Extract appId and platform from the found verification's tags
+            const appIdFromVerification = verification.tags.find(tag => tag[0] === 'i')?.[1] || "";
+            const platformFromVerification = verification.tags.find(tag => tag[0] === 'platform')?.[1] || "";
+
+            // Call showVerificationModal after a short delay
+            setTimeout(() => {
+                window.showVerificationModal(sha256Hash, verificationId, appIdFromVerification, platformFromVerification);
+            }, 100);
+        } else {
+           // Clear the hash if the verification ID is invalid/not found
+           console.warn('Verification ID from URL hash not found:', verificationId);
+           history.pushState("", document.title, window.location.pathname + window.location.search);
+        }
+    } else {
+        // Clear incomplete hash
+        history.pushState("", document.title, window.location.pathname + window.location.search);
+    }
+  }
 
   // It's items because they can be verifications or assets (no status or content)
   // Convert to array and sort by most recent item in each group
@@ -591,10 +637,39 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
 
   modal.style.display = 'block';
 
+  // Add share button dynamically
+  const shareButton = document.createElement('button');
+  shareButton.id = 'shareVerificationButton';
+  // Use innerHTML to include the Font Awesome icon and text
+  shareButton.innerHTML = '<i class="fas fa-share-alt"></i> Copy link to this verification';
+  shareButton.title = 'Copy link to this verification';
+  shareButton.style.position = 'absolute';
+  shareButton.style.top = '15px';
+  shareButton.style.right = '50px'; // Adjust right positioning to not overlap close button
+  shareButton.className = 'btn-small'; // Optional: Use existing styles
+  shareButton.onclick = () => {
+      navigator.clipboard.writeText(window.location.href)
+          .then(() => showToast('Link copied to clipboard'))
+          .catch(err => {
+              console.error('Failed to copy link: ', err);
+              showToast('Failed to copy link', 'error');
+          });
+  };
+  modal.appendChild(shareButton);
+
   // Add blur to all divs except verificationModal
   document.querySelectorAll('.archive > div:not(#verificationModal), .archive > h1').forEach(div => {
     div.style.filter = 'blur(5px)';
   });
+
+  // Store original URL before changing hash
+  originalUrlBeforeModal = window.location.pathname + window.location.search;
+
+  // Update hash only if not already set by initial load check
+  const currentHash = `#verificationId=${verificationId}`;
+  if (window.location.hash !== currentHash) {
+      location.hash = currentHash;
+  }
 
   const profile = await getNostrProfile(verification.pubkey);
 
@@ -608,7 +683,7 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     </div>
   ` : verification.pubkey;
 
-  document.getElementById('closeModal').onclick = function() {
+  const closeModalAction = () => {
     modal.style.display = 'none';
     window.removeEventListener('click', handleClick);
     window.removeEventListener('keydown', handleKeyDown);
@@ -617,31 +692,31 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
     document.querySelectorAll('.archive > div:not(#verificationModal), .archive > h1').forEach(div => {
       div.style.filter = '';
     });
+    // Restore original URL (remove hash)
+    history.pushState("", document.title, originalUrlBeforeModal);
+    // Remove the dynamically added share button
+    const shareBtn = document.getElementById('shareVerificationButton');
+    if (shareBtn) {
+        shareBtn.remove();
+    }
   };
 
+  document.getElementById('closeModal').onclick = closeModalAction;
+
   const handleClick = function(event) {
-    if (!modal.contains(event.target)) {
-      modal.style.display = 'none';
-      window.removeEventListener('click', handleClick);
-      window.removeEventListener('keydown', handleKeyDown);
-      document.body.classList.remove("modal-open");
-      // Remove blur from all divs
-      document.querySelectorAll('.archive > div:not(#verificationModal), .archive > h1').forEach(div => {
-        div.style.filter = '';
-      });
+    // Close only if click is outside the modal content area
+    if (!content.contains(event.target) && event.target !== content && event.target.id !== 'closeModal' && !event.target.closest('.attestation-link')) {
+       // Check if the click target is outside the modal boundaries entirely
+        const modalRect = modal.getBoundingClientRect();
+        if (event.clientX < modalRect.left || event.clientX > modalRect.right || event.clientY < modalRect.top || event.clientY > modalRect.bottom) {
+            closeModalAction();
+        }
     }
   };
 
   const handleKeyDown = function(event) {
     if (event.key === 'Escape') {
-      modal.style.display = 'none';
-      window.removeEventListener('click', handleClick);
-      window.removeEventListener('keydown', handleKeyDown);
-      document.body.classList.remove("modal-open");
-      // Remove blur from all divs
-      document.querySelectorAll('.archive > div:not(#verificationModal), .archive > h1').forEach(div => {
-        div.style.filter = '';
-      });
+      closeModalAction();
     }
   };
 
