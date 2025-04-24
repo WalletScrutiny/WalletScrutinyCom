@@ -26,7 +26,7 @@ issue: https://github.com/prokey-io/prokey-optimum-firmware/issues/28
 icon: prokeyoptimum.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
+verdict: sourceavailable
 appHashes: []
 date: 2024-10-18
 signer: 

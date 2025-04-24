@@ -27,7 +27,7 @@ issue: https://github.com/OneKeyHQ/firmware/issues/404#issuecomment-1633287406
 icon: onekey.png
 bugbounty: 
 meta: ok
-verdict: nonverifiable
+verdict: sourceavailable
 appHashes:
 - a8d7051ea8b4a85038d032e4b86d5e8ee8f34870e3f861e59bf1a5578c36d176
 date: 2024-09-24
