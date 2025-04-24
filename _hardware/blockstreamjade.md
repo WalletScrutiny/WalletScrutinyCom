@@ -27,7 +27,7 @@ issue:
 icon: blockstreamjade.png
 bugbounty: 
 meta: ok
-verdict: reproducible
+verdict: sourceavailable
 appHashes:
 - c88b3d38deddec7265878885b4f1ff952d5ac56d202861a9ce9a6e2b84006280
 - 83098f274244f1b676a2f161da155e6c3444f0a30450fd758a26046a88654ce2
