@@ -8,10 +8,10 @@ appId: ng.pandar.resource
 appCountry: us
 idd: '1563046132'
 released: 2021-04-20
-updated: 2025-02-26
-version: 1.8.2
+updated: 2025-04-17
+version: 1.8.4
 stars: 4.5
-reviews: 3241
+reviews: 3298
 website: 
 repository: 
 issue: 

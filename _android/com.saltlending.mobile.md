@@ -8,8 +8,8 @@ users: 50000
 appId: com.saltlending.mobile
 appCountry: us
 released: 2019-01-07
-updated: 2025-04-01
-version: 2.16.22
+updated: 2025-04-13
+version: 2.16.31
 stars: 4.6
 ratings: 231
 reviews: 40

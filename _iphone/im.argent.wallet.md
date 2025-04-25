@@ -8,8 +8,8 @@ appId: im.argent.wallet
 appCountry: us
 idd: 1358741926
 released: 2018-10-25
-updated: 2025-04-13
-version: 4.38.1
+updated: 2025-04-17
+version: 4.38.2
 stars: 4.5
 reviews: 2236
 website: https://www.argent.xyz

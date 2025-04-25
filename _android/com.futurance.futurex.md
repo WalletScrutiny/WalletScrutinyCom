@@ -8,8 +8,8 @@ users: 10000
 appId: com.futurance.futurex
 appCountry: 
 released: 2022-07-07
-updated: 2025-03-15
-version: 2.3.6
+updated: 2025-04-15
+version: 2.3.7
 stars: 
 ratings: 
 reviews: 
@@ -32,7 +32,7 @@ social:
 - https://t.me/fexobit
 - https://www.youtube.com/channel/UCwh5OepkJnVX1flXoyyPn2Q
 redirect_from: 
-developerName: Futurance Finans Teknolojileri
+developerName: Futurance Kripto Varlık Alım Satım Platformu
 features: 
 
 ---

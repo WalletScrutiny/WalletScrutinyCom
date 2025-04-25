@@ -23,18 +23,7 @@ permalink: /assets/
 <script>
   (async () => {
     document.getElementById('loadingSpinner').style.display = 'block';
-
-    try {
-      await nostrConnect();
-    } catch (e) {
-      console.error("Failed to connect to Nostr", e);
-      document.getElementById('loadingSpinner').style.display = 'none';
-      showToast('It was impossible to connect to Nostr. Please check your browser extension and try again.', 'error');
-      return;
-    }
-
     await renderAssetsTable({htmlElementId: 'binariesTable', enableSearch: true, showOnlyRows: 100000});
-
     document.getElementById('loadingSpinner').style.display = 'none';
   })();
 </script>

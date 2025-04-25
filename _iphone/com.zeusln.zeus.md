@@ -8,8 +8,8 @@ appId: com.zeusln.zeus
 appCountry: 
 idd: 1456038895
 released: 2021-04-22
-updated: 2025-04-02
-version: v0.10.1
+updated: 2025-04-15
+version: v0.10.2
 stars: 4.6
 reviews: 64
 website: https://zeusln.com

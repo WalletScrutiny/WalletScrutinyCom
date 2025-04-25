@@ -9,7 +9,7 @@ appId: im.argent.contractwalletclient
 appCountry: us
 released: 2018-10-30
 updated: 2025-04-11
-version: 4.37.1.10382
+version: 4.38.1.10462
 stars: 4.3
 ratings: 3252
 reviews: 400

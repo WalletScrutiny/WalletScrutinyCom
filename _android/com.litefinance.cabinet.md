@@ -11,7 +11,7 @@ updated: 2025-03-04
 version: v1.2.8.1990-cabinet-legacy-release
 stars: 4.4
 ratings: 
-reviews: 53
+reviews: 55
 website: https://www.liteforex.eu
 repository: 
 issue: 

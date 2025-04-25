@@ -8,10 +8,10 @@ appId: id.ajaib-coin.co
 appCountry: id
 idd: '1634168301'
 released: 2022-08-16
-updated: 2025-03-27
-version: 2.69.1
+updated: 2025-04-18
+version: 2.70.0
 stars: 4.3
-reviews: 2798
+reviews: 2828
 website: https://alpha.ajaib.co.id/
 repository: 
 issue: 

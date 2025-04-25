@@ -10,7 +10,7 @@ released: 2018-03-07
 updated: 2025-03-05
 version: '2.4'
 stars: 4.2
-reviews: 53079
+reviews: 53081
 website: https://wazirx.com
 repository: 
 issue: 

@@ -3,7 +3,7 @@ wsId:
 title: Bitcoin Wallet & Crypto Market
 altTitle: 
 authors:
-- danny 
+- danny
 users: 1000
 appId: com.wallet.blockchain.bitcoin
 appCountry: 

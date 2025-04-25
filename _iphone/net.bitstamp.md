@@ -1,6 +1,6 @@
 ---
 wsId: Bitstamp
-title: 'Bitstamp: Buy and Sell Crypto'
+title: 'Bitstamp: Buy Bitcoin & Crypto'
 altTitle: 
 authors:
 - leo
@@ -8,10 +8,10 @@ appId: net.bitstamp
 appCountry: 
 idd: 1406825640
 released: 2019-01-30
-updated: 2025-03-24
-version: 4.5.1
+updated: 2025-04-16
+version: '4.6'
 stars: 4.8
-reviews: 6694
+reviews: 6712
 website: https://www.bitstamp.net/
 repository: 
 issue: 

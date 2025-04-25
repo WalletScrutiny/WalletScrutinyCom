@@ -8,8 +8,8 @@ appId: money.snowball.app
 appCountry: us
 idd: '1449662311'
 released: 2019-07-18
-updated: 2025-03-13
-version: 3.5.2
+updated: 2025-04-16
+version: 3.5.3
 stars: 4.3
 reviews: 139
 website: https://www.snowball.money

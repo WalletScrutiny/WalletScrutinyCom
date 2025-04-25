@@ -33,27 +33,17 @@
         </div>
 
         <script>
-          window.onload = async () => {
-            try {
-              await nostrConnect();
-            } catch (e) {
-              console.error("Failed to connect to Nostr", e);
-              document.getElementById('verificationMessage').innerHTML = `
-                  <p style='color: red; font-weight: bold; font-size: 1.2em;'>
-                    It was impossible to connect to Nostr to get the list of verifications. Please check your browser extension and try again.
-                  </p>`;
-              return;
-            }
-
+          window.addEventListener('load', async () => {
             const attestationsInfo = await renderAssetsTable({
               htmlElementId: 'appsTable',
               appId: '{{ page.appId }}',
               hideConfig: { wallet: true },
               showOnlyRows: 5,
-              sortByVersion: true
+              sortByVersion: true,
+              enableDraftsFilter: true
             });
 
-            if (!attestationsInfo.hasVerifications) {
+            if (!attestationsInfo.hasVerifications && !attestationsInfo.info.draftVerifications.size) {
               if (!attestationsInfo.hasAssets) {
                 document.getElementById('appsTable').style.display = 'none';
               }
@@ -68,7 +58,7 @@
             }
 
             document.getElementById('verificationMessage').innerHTML += '<br><a href="/new_verification/?appId={{page.appId}}" class="btn-small btn-success" target="_blank" rel="noopener noreferrer">' + (attestationsInfo.hasVerifications ? 'Create a new verification' : 'Create verification') + '</a>';
-          };
+          });
         </script>
         {% else %}
         <small>Build cannot be done because the source code is not publicly available.</small>

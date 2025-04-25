@@ -10,8 +10,8 @@ idd: '1644015124'
 released: 2022-11-22
 updated: 2025-04-13
 version: 2.5.6
-stars: 4.7
-reviews: 258
+stars: 4.6
+reviews: 262
 website: https://prestohq.io/
 repository: 
 issue: 

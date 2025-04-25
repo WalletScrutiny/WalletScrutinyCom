@@ -8,22 +8,13 @@ import {
   getApkInfo,
   getPlatformFromFilename
 } from './drag-and-drop-utils.js';
-import { isDebug } from './verifications_utils.mjs';
+import { isDebugEnv } from './verifications_utils.mjs';
 
 const uploadsActivated = true;
 const maxFileSize = 500;  // MB
 
 document.addEventListener("DOMContentLoaded", async function () {
-  const initDragAndDrop = initializeDragAndDrop();
-
-  if (initDragAndDrop.nostrConnectNeeded) {
-    try {
-      await nostrConnect();
-    } catch (e) {
-      console.error("Failed to connect to Nostr", e);
-      return;
-    }
-  }
+  initializeDragAndDrop();
 });
 
 function scrollToVersion(version) {
@@ -67,7 +58,6 @@ function scrollToVersion(version) {
 function initializeDragAndDrop() {
   const dropAreas = document.getElementsByClassName('drop-areas');
   const fileElems = document.getElementsByClassName('fileElems');
-  const nostrConnectNeeded = document.getElementsByClassName('nostr-connect-needed');
 
   Array.from(dropAreas).forEach(dropArea => {
     preventDefaultDragBehaviors(dropArea);
@@ -78,10 +68,6 @@ function initializeDragAndDrop() {
   Array.from(fileElems).forEach(fileElem => {
     fileElem.addEventListener('change', e => processFiles(e.target.files, e.target.parentElement.parentElement));
   });
-
-  return {
-    nostrConnectNeeded: nostrConnectNeeded.length > 0
-  }
 }
 
 function preventDefaultDragBehaviors(element) {
@@ -280,7 +266,7 @@ async function displayAllInfo(dropAreaElement, file, apkInfo, hash, allAssetsInf
   fileInfoHtml += `<strong>Size:</strong> ${formatFileSize(file.size) ?? 'N/A'} ${(file.size / 1024 / 1024) > maxFileSize ? ` <span style="color: red;">(upload size limit is ${maxFileSize} MB)</span>` : ''}<br>`;
   fileInfoHtml += `<strong>SHA-256:</strong> ${hash}<br>`;
 
-  if (isDebug()) {
+  if (isDebugEnv()) {
     fileInfoHtml += `<strong>${fileExistsInBlossomServer ? 'File exists in Blossom' : 'File does not exist in Blossom'}</strong> <small>(overrides cache - only shown in debug envs)</small><br>`;
   }
 

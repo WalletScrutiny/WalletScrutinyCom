@@ -160,6 +160,11 @@
   <span class="network-text">Share on LinkedIn</span>
 </a>' %} 
 
+{% assign copyUrlButton = '<a href="#" id="copyUrlBtn" class="btn btn-info shareButtonNetwork">
+  <i class="fas fa-copy" style="vertical-align: middle" aria-hidden="true"></i>
+  <span class="network-text">Copy current URL</span>
+</a>' %}
+
 {% if include.showRawButtons == true %} 
   {% if site.data.ui-text[site.locale].share_on_label %}
     <h4 class="page__share-title">
@@ -178,6 +183,7 @@
     </a>
     <div id="shareDropdown" class="dropdown-content">
       {{ nostrButton}} {{ xButton }} {{ fbButton }} {{ linkedinButton }}
+      {{ copyUrlButton }}
     </div>
   </div>
 {% endif %}
@@ -198,6 +204,7 @@
   const shareButton = document.getElementById("shareButton");
   const shareBtn = document.getElementById("shareBtn");
   const shareDropdown = document.getElementById("shareDropdown");
+  const copyUrlBtn = document.getElementById("copyUrlBtn");
 
   shareModalContent.style.background = window.theme === "dark" ? "#2d2d2d" : "#e1e1e1";
   shareModalContent.style.color = window.theme === "dark" ? "white" : "black";
@@ -234,6 +241,16 @@
     e.preventDefault();
     const text = encodeURIComponent(`{{ include.defaultMessage }}`);
     window.open(`https://www.linkedin.com/feed/?shareActive=true&shareUrl=${encodeURIComponent(window.location.href)}&text=${text}`, "_blank");
+    shareDropdown?.classList.remove("show");
+  };
+
+  copyUrlBtn.onclick = function (e) {
+    e.preventDefault();
+    navigator.clipboard.writeText(window.location.href).then(() => {
+      showToast("URL copied to clipboard!", "success");
+    }).catch(err => {
+      showToast("Failed to copy URL: " + err, "error");
+    });
     shareDropdown?.classList.remove("show");
   };
 

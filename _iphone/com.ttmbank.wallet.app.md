@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.ttmbank.wallet.app.jpg
 bugbounty: 
-meta: ok
+meta: stale
 verdict: nobtc
 appHashes: 
-date: 2023-06-07
+date: 2025-04-22
 signer: 
 reviewArchive: 
 twitter: 

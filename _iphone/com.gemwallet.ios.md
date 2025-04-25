@@ -8,10 +8,10 @@ appId: com.gemwallet.ios
 appCountry: us
 idd: '6448712670'
 released: 2023-07-17
-updated: 2025-04-12
-version: 1.3.145
+updated: 2025-04-20
+version: 1.3.146
 stars: 4.4
-reviews: 96
+reviews: 103
 website: https://gemwallet.com/
 repository: https://github.com/gemwalletcom/gem-android
 issue: 

@@ -11,7 +11,7 @@ released: 2022-04-27
 updated: 2025-04-11
 version: 5.7.1
 stars: 4.8
-reviews: 644
+reviews: 646
 website: https://onekey.so?utm_source=app_store
 repository: https://github.com/OneKeyHQ/app-monorepo
 issue: 

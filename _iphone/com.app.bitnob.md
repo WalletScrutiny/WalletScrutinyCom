@@ -8,8 +8,8 @@ appId: com.app.bitnob
 appCountry: us
 idd: '1513951003'
 released: 2020-05-29
-updated: 2025-03-26
-version: 1.189.3
+updated: 2025-04-15
+version: 1.189.4
 stars: 4.3
 reviews: 80
 website: https://bitnob.com

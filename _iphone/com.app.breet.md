@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.app.breet.jpg
 bugbounty: 
-meta: ok
+meta: removed
 verdict: nosendreceive
 appHashes: 
-date: 2023-07-19
+date: 2025-04-22
 signer: 
 reviewArchive: 
 twitter: breetapp

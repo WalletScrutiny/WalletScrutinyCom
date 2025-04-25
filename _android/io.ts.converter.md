@@ -1,6 +1,6 @@
 ---
 wsId: 
-title: TapSwap
+title: 'TapSwap: Your Crypto, Your Way'
 altTitle: 
 authors:
 - danny
@@ -8,8 +8,8 @@ users: 500000
 appId: io.ts.converter
 appCountry: 
 released: 2023-02-26
-updated: 2024-06-19
-version: 3.0.0
+updated: 2025-04-15
+version: 3.12.4
 stars: 3.2
 ratings: 
 reviews: 6

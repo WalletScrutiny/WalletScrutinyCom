@@ -4,7 +4,7 @@ title: WebAuth
 altTitle: 
 authors:
 - danny
-users: 10000
+users: 50000
 appId: com.metallicus.webauth
 appCountry: 
 released: 2021-12-11

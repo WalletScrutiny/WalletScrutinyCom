@@ -11,7 +11,7 @@ released: 2021-10-26
 updated: 2025-03-20
 version: 2.7.10
 stars: 3.6
-reviews: 57
+reviews: 58
 website: https://stablex.com.tr
 repository: 
 issue: 

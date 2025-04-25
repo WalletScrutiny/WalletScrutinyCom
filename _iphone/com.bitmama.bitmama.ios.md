@@ -17,10 +17,10 @@ repository:
 issue: 
 icon: com.bitmama.bitmama.ios.jpg
 bugbounty: 
-meta: stale
+meta: obsolete
 verdict: custodial
 appHashes: 
-date: 2024-10-08
+date: 2025-04-22
 signer: 
 reviewArchive: 
 twitter: bitmama

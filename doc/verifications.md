@@ -10,6 +10,8 @@ A verification is a signed statement about a binary with a specific hash, declar
 - Build instructions or documentation used
 - The reproducer can update their replaceable verifications
 
+The user will be able to publish a verification directly or as a draft. In the latter case, it will not be displayed directly (only if users opt to view them), and it can be definitively published later.
+
 ### Trust Model
 Trust in verifications is built through:
 - Cross-verification: Other users verify verifications by following the same process
@@ -70,6 +72,26 @@ Trust in verifications is built through:
   "content": {
     "description": "<Description of the assets the user is trying to reproduce>",
     "content": "<Detailed reproduction process and results. Markdown permitted>"
+  }
+}
+```
+
+#### Verification Draft
+
+Has the same structure as the Verification event, but with the following differences:
+- `kind`: 30801
+- `tags`: includes a `d` tag with the draft key: ${appId}:${version}:${platform}
+
+```json
+{
+  "id":      "<verification-event-id>",
+  "kind":    30801,
+  "tags":    [
+    [...],                                // same tags as the Verification event
+    ["d",    "<draft-key>"]               // draft-key
+  ],
+  "content": {
+    [...],                                // same content as the Verification event
   }
 }
 ```

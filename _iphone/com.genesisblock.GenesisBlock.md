@@ -8,8 +8,8 @@ appId: com.genesisblock.GenesisBlock
 appCountry: us
 idd: 1495538730
 released: 2020-05-09
-updated: 2025-04-03
-version: 0.3.4
+updated: 2025-04-21
+version: 0.3.5
 stars: 4.4
 reviews: 55
 website: https://hightop.com

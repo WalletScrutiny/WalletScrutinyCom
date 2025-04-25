@@ -1,6 +1,6 @@
 ---
 wsId: coinZoom
-title: CoinZoom feat. ZoomMe
+title: CoinZoom Buy, Spend, Send BTC
 altTitle: 
 authors:
 - danny
@@ -8,10 +8,10 @@ appId: com.ios.coinzoomsimple
 appCountry: us
 idd: '1575983875'
 released: 2022-01-21
-updated: 2025-04-07
-version: 3.2.15
+updated: 2025-04-15
+version: 3.2.16
 stars: 4.7
-reviews: 305
+reviews: 309
 website: http://www.coinzoom.com
 repository: 
 issue: 
