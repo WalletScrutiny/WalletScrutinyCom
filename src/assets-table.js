@@ -580,13 +580,11 @@ window.renderAssetsTable = async function({
             const exists = await checkBlossomFile(hash);
             if (exists) {
               downloadIcon.style.display = 'inline';
-              // --- Modify onclick to show modal ---
               downloadIcon.onclick = async () => {
                 const modal = document.getElementById('blossomWarningModal');
                 const confirmButton = document.getElementById('blossomConfirmDownloadButton');
                 const closeButton = document.getElementById('blossomCloseModalButton');
 
-                // Define the download action
                 const downloadAction = () => {
                     downloadBlossomFile(hash, downloadIcon);
                     modal.style.display = 'none';
@@ -596,12 +594,8 @@ window.renderAssetsTable = async function({
                 confirmButton.replaceWith(confirmButton.cloneNode(true)); // Clone to remove listeners
                 document.getElementById('blossomConfirmDownloadButton').addEventListener('click', downloadAction);
 
-
-                // Close modal listeners
                 const closeModal = () => {
                   modal.style.display = 'none';
-                  // Make sure to remove the specific listener for the confirm button when closing
-                  // This is handled by replaceWith above, but good practice if not cloning
                 };
                 closeButton.onclick = closeModal;
                 modal.onclick = (event) => { // Close if clicking outside the content
@@ -612,7 +606,6 @@ window.renderAssetsTable = async function({
 
                 modal.style.display = 'block'; // Show the modal
               };
-              // --- End modification ---
             }
           } catch (error) {
             console.error(`Error checking hash ${hash} in Blossom:`, error);
