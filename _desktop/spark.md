@@ -15,13 +15,14 @@ repository: https://github.com/shesek/spark-wallet
 issue: 
 icon: 
 bugbounty: 
-meta: defunct
+meta: obsolete
 verdict: sourceavailable
-date: 2025-04-15
+date: 2025-04-25
 reviewArchive: 
 twitter: 
 social: 
 features: 
+- ln
 
 ---
 
@@ -29,4 +30,4 @@ features:
 
 > ⚡️ A minimalistic wallet GUI for c-lightning, accessible over the web or through mobile and desktop apps.
 
-This program appears to have been abandoned and that's why we are marking it as **defunct**.
+This program appears to have been abandoned and that's why we are marking it as **obsolete**.

@@ -15,9 +15,9 @@ repository: https://github.com/Overtorment/cli-cold-wallet
 issue: 
 icon: 
 bugbounty: 
-meta: defunct
+meta: obsolete
 verdict: diy
-date: 2025-04-15
+date: 2025-04-25
 reviewArchive: 
 twitter: 
 social: 
@@ -27,6 +27,6 @@ features:
 
 ## App Description
 
-> [cli-cold-wallet](https://github.com/Overtorment/cli-cold-wallet) is a minimalist command-line tool designed to generate Bitcoin and Ethereum cold storage wallets entirely offline. The tool is self-custodial, ensuring that users maintain full control over their private keys without reliance on third parties. Its source code is openly available under the WTFPL license, allowing users to audit and verify the codebase. 
+This project was built by Igor Korsakov, one of the main developers for the {% include walletLink.html wallet='android/io.bluewallet.bluewallet' verdict='true' %}. Can be run with node and is only a few lines long. Once installed it generates an ECPair through bitcoinjs-lib derives the SegWit-P2SH address and WIF private key, then prints both (plus QR codes) in a terminal table. [Source](https://github.com/Overtorment/cli-cold-wallet/blob/master/cli-cold-wallet.js) 
 
-This project was built by Igor Korsakov, one of the main developers for the {% include walletLink.html wallet='android/io.bluewallet.bluewallet' verdict='true' %}. Since the program was meant to be built from source, this is a DIY project that's **defunct**.
+Since the program was meant to be built from source, this is a DIY project that's **obsolete**.

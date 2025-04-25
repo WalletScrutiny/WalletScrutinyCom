@@ -15,9 +15,9 @@ repository: https://github.com/btcsuite/Paymetheus
 issue: 
 icon: 
 bugbounty: 
-meta: defunct
+meta: obsolete
 verdict: sourceavailable
-date: 2025-04-16
+date: 2025-04-25
 reviewArchive: 
 twitter: 
 social: 
@@ -27,4 +27,4 @@ features:
 
 ## App Description
 
-Despite being source-available, this program has not been updated for over 9 years. This is **defunct**.
+Despite being source-available, this program has not been updated for over 9 years. This is **obsolete**.
