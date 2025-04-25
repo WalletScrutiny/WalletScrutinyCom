@@ -9,12 +9,13 @@ let originalUrlBeforeModal = ''; // Store the URL before opening the modal
 
 const table = document.createElement('table');
 
+const attachmentDataStore = {};   // Define a store for attachment data globally accessible
+
 // Filter table rows
 function updateTableVisibility() {
   const searchTerm = document.getElementById('assetSearchInput').value.toLowerCase();
   const showLatestOnly = document.getElementById('showLatestVersionOnly').checked;
   const showOnlyNoVerifications = document.getElementById('showOnlyNoVerifications').checked;
-  const hideDrafts = document.getElementById('hideDrafts').checked;
 
   // Create a map to track latest versions when filter is active
   const latestVersions = new Map();
@@ -72,7 +73,18 @@ function updateTableVisibility() {
   });
 }
 
-window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256, hideConfig, showOnlyRows = 100, sortByVersion = false, enableSearch = false, enableDraftsFilter = false}) {
+window.renderAssetsTable = async function({
+  htmlElementId,
+  pubkey,
+  appId,
+  sha256,
+  hideConfig,
+  showOnlyRows = 100,
+  sortByVersion = false,
+  enableSearch = false,
+  enableDraftsFilter = false,
+  enableAttachments = false
+}) {
   let hasAssets = false;
 
   response = await getAllAssetInformation({
@@ -251,8 +263,12 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
       </tr>
     </thead>`;
 
+  let verificationEventIds = [];
+
   if (sortedItems.length > 0) {
     sortedItems.forEach((item, index) => {
+      verificationEventIds.push(item.items[0].id);
+
       // Handle both legacy and new format
       const binary = item.items ? item.items[0] : item;
 
@@ -408,6 +424,79 @@ window.renderAssetsTable = async function({htmlElementId, pubkey, appId, sha256,
   }
 
   document.getElementById(htmlElementId).appendChild(table);
+
+  // ATTACHMENTS TABLE
+  if (enableAttachments) {
+    const attachments = await getFileAttachments(verificationEventIds);
+
+    // document.getElementById(htmlElementId).appendChild(document.createElement('p').innerHTML = 'Scripts used to reproduce the application:');
+
+    const attachmentsTable = document.createElement('table');
+    attachmentsTable.innerHTML = `
+      <thead>
+        <tr>
+          <th>File</th>
+          <th>Used to reproduce</th>
+        </tr>
+      </thead>
+    `;
+
+    attachments.forEach(attachment => {
+      const verificationId = attachment.tags.find(tag => tag[0] === 'e')?.[1] || '';
+      const name = attachment.tags.find(tag => tag[0] === 'filename')?.[1] || '';
+      const size = attachment.tags.find(tag => tag[0] === 'size')?.[1] || '';
+      const sizeInKb = Math.round(size / 1024);
+
+      // Find in sortedItems the verifications that uses this attachment
+      const verifications = sortedItems.filter(item => item.items.some(i => i.id === verificationId));
+
+      const row = document.createElement('tr');
+
+      const attachmentId = `attachment-${verificationId}-${name.replace(/[^a-zA-Z0-9_-]/g, '-')}`;  // Generate a unique ID for this attachment instance
+
+      // Decode and store attachment data
+      const attachmentContent = atob(attachment.content);
+      const attachmentContentType = attachment.tags.find(tag => tag[0] === 'content-type')?.[1] || 'application/octet-stream';
+      attachmentDataStore[attachmentId] = {
+        content: attachmentContent,
+        type: attachmentContentType,
+        filename: name
+      };
+
+      let rowHTML = `
+        <td>${name} <span id="${attachmentId}" style="cursor: pointer;" onclick="handleAttachmentDownload('${attachmentId}')" title="Download ${name}">💾</span><br>
+          <small>(${attachmentContentType})</small> <br>
+          ${sizeInKb} kB
+        </td>
+
+        <td>`;
+
+        if (verifications.length > 0) {
+          for (const verificationsForSameSha256 of verifications) {
+            for (const verification of verificationsForSameSha256.items) {
+              const version = verification.tags.find(tag => tag[0] === 'version')?.[1] || '';
+              const identifier = verification.tags.find(tag => tag[0] === 'i')?.[1] || "";
+              const platform = verification.tags.find(tag => tag[0] === 'platform')?.[1] || "";
+
+              const wallet = window.wallets.find(w => w.appId === identifier);
+              const walletTitle = wallet ? wallet.title : identifier;
+
+              rowHTML += `${walletTitle ?? identifier} <br><small>(${platform})</small> <br>${version}`;
+            }
+          }
+        } else {
+          rowHTML += '-';
+        }
+
+      rowHTML += `</td>`;
+
+      row.innerHTML = rowHTML;
+
+      attachmentsTable.appendChild(row);
+    });
+
+    document.getElementById(htmlElementId).appendChild(attachmentsTable);
+  }
 
   // Iterate over the table rows and add a data-is-draft attribute to the rows where the "attestation-link" elements are also draft-attestation
   const rows = table.querySelectorAll('tr:not(:first-child):not(.show-more-row)');
@@ -722,4 +811,31 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
 
   window.addEventListener('click', handleClick);
   window.addEventListener('keydown', handleKeyDown);
+};
+
+// Function to handle attachment download using stored data
+window.handleAttachmentDownload = function(attachmentId) {
+  const attachmentData = attachmentDataStore[attachmentId];
+
+  if (!attachmentData || !attachmentData.content) {
+    console.error('Attachment data or content is missing for ID:', attachmentId);
+    showToast('Error: Attachment data is missing.', 'error');
+    return;
+  }
+
+  try {
+    const blob = new Blob([attachmentData.content], { type: attachmentData.type });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = attachmentData.filename;
+    document.body.appendChild(a); // Append anchor to body
+    a.click();
+    document.body.removeChild(a); // Clean up anchor
+    URL.revokeObjectURL(url); // Clean up blob URL
+    showToast(`Downloading ${attachmentData.filename}...`, 'info');
+  } catch (error) {
+    console.error('Error preparing download:', error);
+    showToast('Error preparing download.', 'error');
+  }
 };

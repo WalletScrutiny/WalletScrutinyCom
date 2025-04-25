@@ -5,6 +5,7 @@ import {
   assetRegistrationKind,
   verificationKind,
   verificationDraftKind,
+  codeSnippetKind,
   endorsementKind,
   explicitRelayUrls,
   verificationEventsSinceTS,
@@ -230,7 +231,8 @@ const createVerification = async function ({
                                              platform,
                                              createdAt = null,
                                              isDraft = false,
-                                             draftVerificationEventId = null
+                                             draftVerificationEventId = null,
+                                             uploadedFileData = []
                                            }) {
   await ensureNdkConnected();
   validateSHA256(hashes);
@@ -298,11 +300,33 @@ const createVerification = async function ({
     ndkEvent.tags.push(["x", hash]);
   });
 
-  eventSanitize(ndkEvent);
+  eventSanitize(ndkEvent); // Sanitize main event
+
+  let mainEventId;
+  let fileUploadResults = [];
 
   try {
     const publishedToRelays = await ndkEvent.publish();
-    console.log(`published verification to ${publishedToRelays.size} relays`);
+    mainEventId = ndkEvent.id; // Get the ID of the published event
+    console.log(`Published verification (id: ${mainEventId}) to ${publishedToRelays.size} relays`);
+
+    // --- Upload Files After Main Event Success ---
+    if (mainEventId && uploadedFileData.length > 0 && !isDraft) { // Only upload for non-drafts after success
+        console.log(`Uploading ${uploadedFileData.length} attached file(s)...`);
+        const uploadPromises = uploadedFileData.map(fileData =>
+          uploadFileAttachment({
+            verificationEventId: mainEventId,
+            fileName: fileData.name,
+            fileType: fileData.type,
+            fileSize: fileData.size,
+            base64Data: fileData.base64Data
+          })
+        );
+        fileUploadResults = await Promise.all(uploadPromises);
+        console.log("File upload process completed.", fileUploadResults);
+    }
+    // --- End File Upload ---
+
 
     if (!isDraft && draftVerificationEventId) {
       const draftVerificationEvent = await getDraftVerificationEvent(draftVerificationEventId);
@@ -311,7 +335,8 @@ const createVerification = async function ({
       }
     }
 
-    return ndkEvent;
+    return { mainEvent: ndkEvent, fileUploadResults: fileUploadResults };
+
   } catch (error) {
     console.error("error publishing verification to relays", error);
     if (error instanceof NDKPublishError) {
@@ -435,6 +460,63 @@ function eventSanitize(event) {
 const getFirstValueFromTag = function(event, tagName) {
   const tags = event.getMatchingTags(tagName);
   return tags.length === 0 ? null : tags[0][1];
+}
+
+const uploadFileAttachment = async function({ verificationEventId, fileName, fileType, fileSize, base64Data }) {
+  await ensureNdkConnected();
+
+  if (!verificationEventId || !fileName || !fileType || !base64Data) {
+    throw new Error("Missing required parameters for file upload");
+  }
+
+  if (fileSize > 60000) { // Double check size
+    throw new Error(`File ${fileName} exceeds the 60KB limit`);
+  }
+
+  const ndkEvent = new NDKEvent(ndk);
+  ndkEvent.kind = codeSnippetKind;
+  ndkEvent.content = base64Data;
+  ndkEvent.created_at = getCreatedAt();
+  ndkEvent.tags = [
+    ["e", verificationEventId],
+    ["filename", fileName],
+    ["content-type", fileType],
+    ["size", fileSize.toString()],
+    getWSClientTag()
+  ];
+
+  try {
+    const publishedToRelays = await ndkEvent.publish();
+    console.log(`Uploaded file ${fileName} (${fileSize} bytes) to ${publishedToRelays.size} relays, linked to ${verificationEventId}`);
+    return { success: true, eventId: ndkEvent.id, fileName: fileName };
+  } catch (error) {
+    console.error(`Error uploading file ${fileName} to relays`, error);
+    if (error instanceof NDKPublishError) {
+      for (const [relay, err] of error.errors) {
+        console.error(`Error publishing file to relay ${relay.url}`, err);
+      }
+    }
+    return { success: false, error: error, fileName: fileName };
+  }
+}
+
+const getFileAttachments = async function(verificationEventIds) {
+  await ensureNdkConnected();
+
+  if (!verificationEventIds || !Array.isArray(verificationEventIds) || verificationEventIds.length === 0) {
+    console.warn("No verificationEventIds provided to getFileAttachments.");
+    return new Map();
+  }
+
+  console.debug(`Fetching file attachments for ${verificationEventIds.length} verification events.`);
+
+  const filter = {
+    kinds: [codeSnippetKind],
+    '#e': verificationEventIds,
+    since: verificationEventsSinceTS
+  };
+
+  return await ndk.fetchEvents(filter);
 }
 
 const getAllAssetInformation = async function({
@@ -833,6 +915,8 @@ if (typeof window !== 'undefined') {
   window.doDraftVerificationAction = doDraftVerificationAction;
   window.getDraftVerificationEvent = getDraftVerificationEvent;
   window.deleteDraftVerification = deleteDraftVerification;
+  window.uploadFileAttachment = uploadFileAttachment;
+  window.getFileAttachments = getFileAttachments;
 }
 
 export {
@@ -858,5 +942,7 @@ export {
   doDraftVerificationAction,
   getDraftVerificationEvent,
   deleteDraftVerification,
-  getFirstValueFromTag
+  getFirstValueFromTag,
+  uploadFileAttachment,
+  getFileAttachments
 };
