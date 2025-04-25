@@ -8,6 +8,77 @@ permalink: /new_verification/
 
 <script type="text/javascript" src="{{'/dist/verifications.bundle.min.js' | relative_url }}"></script>
 
+<style>
+  .hash-input-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  .hash-list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .hash-list:not(:empty) {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 8px;
+    margin-top: 5px;
+  }
+  .hash-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    border-radius: 4px;
+  }
+  .hash-item span {
+    flex: 1;
+    word-break: break-all;
+  }
+  .remove-hash {
+    color: red;
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding: 0 5px;
+  }
+  .drop-zone {
+    background-color: #f8f9fa; /* Light background color */
+    border: 2px dashed #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    color: #666;
+  }
+  .drop-zone.dragover {
+    background-color: #e9ecef;
+    border-color: #aaa;
+  }
+  .drop-zone-text {
+    display: block;
+  }
+  .file-list {
+    margin-top: 10px;
+  }
+  .file-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+  }
+  .remove-file {
+    color: red;
+    cursor: pointer;
+    border: none;
+    background: none;
+    font-size: 1.2em;
+    padding: 0 5px;
+  }
+</style>
+
 <div class="form-container">
   <div class="info-message"></div>
 
@@ -112,42 +183,17 @@ permalink: /new_verification/
       <small class="form-text" id="hashesHelpText"></small>
     </div>
 
-    <style>
-      .hash-input-container {
-        display: flex;
-        gap: 10px;
-        margin-bottom: 10px;
-      }
-      .hash-list {
-        display: flex;
-        flex-direction: column;
-        gap: 5px;
-      }
-      .hash-list:not(:empty) {
-        border: 1px solid #ddd;
-        border-radius: 4px;
-        padding: 8px;
-        margin-top: 5px;
-      }
-      .hash-item {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        padding: 5px;
-        border-radius: 4px;
-      }
-      .hash-item span {
-        flex: 1;
-        word-break: break-all;
-      }
-      .remove-hash {
-        color: red;
-        cursor: pointer;
-        border: none;
-        background: none;
-        padding: 0 5px;
-      }
-    </style>
+    <!-- New Dropzone Area -->
+    <div class="form-group" style="margin-top: 2em;">
+      <label>Attach Files (Optional, max 60KB each):</label>
+      <label for="fileInput" id="dropZone" class="drop-zone">
+        <span class="drop-zone-text">Drag & drop files here, or click to select</span>
+      </label>
+      <input type="file" id="fileInput" multiple hidden>
+      <div id="fileList" class="file-list"></div>
+      <small class="form-text">Attach relevant scripts used to build the asset. Each file will be linked to this verification and could be used by other users to reproduce the asset.</small>
+    </div>
+    <!-- End New Dropzone Area -->
 
     <button type="submit" name="draft" class="btn btn-info" style="margin-right: 1em;">Publish Verification as a Draft</button>
     <button type="submit" name="publish" class="btn btn-success" style="margin-right: 1em;">Publish Verification</button>
@@ -168,6 +214,7 @@ permalink: /new_verification/
 <script>
 let hashes = [];
 let hashList, otherHashesInput, hashInput;
+let uploadedFiles = []; // Store File objects
 
 function updateHiddenInput() {
   if (otherHashesInput) {
@@ -221,8 +268,83 @@ function validateForm() {
     return false;
   }
 
+  for (const file of uploadedFiles) {
+    if (file.size > 60000) {
+      showToast(`File "${file.name}" is too large (max 60KB)`, 'error');
+      return false;
+    }
+  }
   return true;
 }
+
+// --- New File Handling Functions ---
+function displayFiles() {
+  const fileListElement = document.getElementById('fileList');
+  fileListElement.innerHTML = ''; // Clear existing list
+
+  uploadedFiles.forEach((file, index) => {
+    const fileItem = document.createElement('div');
+    fileItem.className = 'file-item';
+    fileItem.innerHTML = `
+      <span>${file.name} (${(file.size / 1024).toFixed(1)} KB)</span>
+      <button type="button" class="remove-file" title="Remove this file" data-index="${index}">×</button>
+    `;
+    fileItem.querySelector('.remove-file').addEventListener('click', (e) => {
+      const indexToRemove = parseInt(e.target.getAttribute('data-index'));
+      uploadedFiles.splice(indexToRemove, 1);
+      displayFiles(); // Update the list
+    });
+    fileListElement.appendChild(fileItem);
+  });
+}
+
+function handleFiles(files) {
+  const newFiles = Array.from(files);
+  let errors = [];
+  newFiles.forEach(file => {
+    if (file.size > 60000) {
+      errors.push(`File "${file.name}" exceeds the 60KB limit.`);
+    } else {
+      // Avoid duplicates based on name and size (simple check)
+      if (!uploadedFiles.some(f => f.name === file.name && f.size === file.size)) {
+        uploadedFiles.push(file);
+      } else {
+        errors.push(`File "${file.name}" is already added.`);
+      }
+    }
+  });
+  if (errors.length > 0) {
+    showToast(errors.join('<br>'), 'error', errors.length * 2000); // Show errors longer
+  }
+  displayFiles();
+}
+
+function setupDropZone() {
+  const dropZone = document.getElementById('dropZone');
+  const fileInput = document.getElementById('fileInput');
+
+  fileInput.addEventListener('change', (e) => {
+    handleFiles(e.target.files);
+    fileInput.value = ''; // Reset input to allow selecting the same file again
+  });
+
+  dropZone.addEventListener('dragover', (e) => {
+    e.preventDefault();
+    dropZone.classList.add('dragover');
+  });
+
+  dropZone.addEventListener('dragleave', () => {
+    dropZone.classList.remove('dragover');
+  });
+
+  dropZone.addEventListener('drop', (e) => {
+    e.preventDefault();
+    dropZone.classList.remove('dragover');
+    handleFiles(e.dataTransfer.files);
+  });
+}
+// --- End File Handling Functions ---
+
 
 async function loadUrlParamsAndGetAssetInfo() {
   const showError = (message) => {
@@ -327,6 +449,16 @@ async function loadUrlParamsAndGetAssetInfo() {
   infoMessage.innerHTML = message;
 }
 
+// Function to read a file as Base64
+function readFileAsBase64(file) {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.onload = () => resolve(reader.result.split(',')[1]); // Get Base64 part
+    reader.onerror = error => reject(error);
+    reader.readAsDataURL(file);
+  });
+}
+
 async function handleSubmit(event) {
   event.preventDefault();
   
@@ -336,6 +468,31 @@ async function handleSubmit(event) {
 
   const submitter = event.submitter;
   const isDraft = submitter.name === 'draft';
+
+  showToast(isDraft ? 'Publishing draft...' : 'Publishing verification...', 'info', 3000);
+
+  document.getElementById('loadingSpinner').style.display = 'block';
+
+  // Process files *before* calling createVerification
+  let uploadedFileData = [];
+  try {
+    for (const file of uploadedFiles) {
+       if (file.size > 60000) {
+           throw new Error(`File "${file.name}" is too large (max 60KB)`);
+       }
+
+       uploadedFileData.push({
+         name: file.name,
+         type: file.type || 'application/octet-stream', // Default MIME type
+         size: file.size,
+         base64Data: await readFileAsBase64(file)
+       });
+    }
+  } catch (error) {
+    document.getElementById('loadingSpinner').style.display = 'none';
+      showToast(`Error processing files: ${error.message}`, 'error');
+      return; // Stop submission if file processing fails
+  }
 
   const sha256 = DOMPurify.sanitize(new URLSearchParams(window.location.search).get('sha256'), purifyConfig);
   const assetEventId = DOMPurify.sanitize(new URLSearchParams(window.location.search).get('assetEventId'), purifyConfig);
@@ -358,21 +515,23 @@ async function handleSubmit(event) {
     platform: document.getElementById('platform').value,
     assetEventId: assetEventId,
     isDraft: isDraft,
-    draftVerificationEventId: draftVerificationEventId
+    draftVerificationEventId: draftVerificationEventId,
+    uploadedFileData: uploadedFileData
   };
-
-  const spinner = document.getElementById('loadingSpinner');
-  spinner.style.display = 'block';
 
   try {
     await createVerification(formData);
-    spinner.style.display = 'none';
+    document.getElementById('loadingSpinner').style.display = 'none';
     await showToast(isDraft ? 'Draft published successfully!' : 'Verification published successfully!');
-    if (!isDraft) {
-      window.location.href = '/asset/?sha256=' + sha256;
+
+    if (!isDraft && hashes.length > 0) {
+      window.location.href = '/asset/?sha256=' + hashes[0]; // Redirect using the first hash
+    } else if (!isDraft) {
+      window.location.href = '/assets/'; // Fallback redirect if no hash
     }
+    // No redirect for drafts, user stays on page
   } catch (error) {
-    spinner.style.display = 'none';
+    document.getElementById('loadingSpinner').style.display = 'none';
     showToast(error.message, 'error');
   }
 }
@@ -396,6 +555,8 @@ function updateCharCount() {
 
 document.addEventListener('DOMContentLoaded', function() {
   loadUrlParamsAndGetAssetInfo();
+  updateCharCount(); // Initial count
+  setupDropZone();
 
   document.getElementById('content').addEventListener('input', updateCharCount);
 
