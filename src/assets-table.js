@@ -865,27 +865,50 @@ window.showVerificationModal = async function(sha256Hash, verificationId, appId,
 
 // Function to handle attachment download using stored data
 window.handleAttachmentDownload = function(attachmentId) {
-  const attachmentData = attachmentDataStore[attachmentId];
+  const modal = document.getElementById('blossomWarningModal');
+  const confirmButton = document.getElementById('blossomConfirmDownloadButton');
+  const closeButton = document.getElementById('blossomCloseModalButton');
 
-  if (!attachmentData || !attachmentData.content) {
-    console.error('Attachment data or content is missing for ID:', attachmentId);
-    showToast('Error: Attachment data is missing.', 'error');
-    return;
-  }
+  const downloadAction = () => {
+    const attachmentData = attachmentDataStore[attachmentId];
 
-  try {
-    const blob = new Blob([attachmentData.content], { type: attachmentData.type });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = attachmentData.filename;
-    document.body.appendChild(a); // Append anchor to body
-    a.click();
-    document.body.removeChild(a); // Clean up anchor
-    URL.revokeObjectURL(url); // Clean up blob URL
-    showToast(`Downloading ${attachmentData.filename}...`, 'info');
-  } catch (error) {
-    console.error('Error preparing download:', error);
-    showToast('Error preparing download.', 'error');
-  }
+    if (!attachmentData || !attachmentData.content) {
+      console.error('Attachment data or content is missing for ID:', attachmentId);
+      showToast('Error: Attachment data is missing.', 'error');
+      return;
+    }
+  
+    try {
+      const blob = new Blob([attachmentData.content], { type: attachmentData.type });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = attachmentData.filename;
+      document.body.appendChild(a); // Append anchor to body
+      a.click();
+      document.body.removeChild(a); // Clean up anchor
+      URL.revokeObjectURL(url); // Clean up blob URL
+    } catch (error) {
+      console.error('Error preparing download:', error);
+      showToast('Error preparing download.', 'error');
+    }
+
+    modal.style.display = 'none';
+  };
+
+  // Remove previous listener to avoid duplicates if clicked multiple times
+  confirmButton.replaceWith(confirmButton.cloneNode(true)); // Clone to remove listeners
+  document.getElementById('blossomConfirmDownloadButton').addEventListener('click', downloadAction);
+
+  const closeModal = () => {
+    modal.style.display = 'none';
+  };
+  closeButton.onclick = closeModal;
+  modal.onclick = (event) => { // Close if clicking outside the content
+    if (event.target === modal) {
+      closeModal();
+    }
+  };
+
+  modal.style.display = 'block';
 };
