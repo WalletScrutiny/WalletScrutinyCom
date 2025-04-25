@@ -83,17 +83,23 @@ We analyze custodians across five key dimensions, allocating points based on the
 </div>
 
 <div class="textbox" style="background-color: rgba(199, 217, 221, 0.3); padding: 15px; margin-bottom: 15px; border-radius: 5px;">
-  <h4 style="color: #2b7d8c; border-bottom: 2px solid #2b7d8c; padding-bottom: 5px; margin-bottom: 10px;">2.3 Incident Response (5 points)</h4>
-
-  <p>We assess the custodian's approach to handling security incidents and their track record in responding to issues.</p>
-
+  <h4 style="color: #2b7d8c; border-bottom: 2px solid #2b7d8c; padding-bottom: 5px; margin-bottom: 10px;">
+    2.3 Incident Response (–5 to +5 points)
+  </h4>
+  <p>
+    We assess publicly reported security incidents and apply penalties or rewards based on severity and resolution:
+  </p>
   <ul>
-    <li><strong>Robust (5 points)</strong>: Clear documentation of incident response procedures with evidence of effective historical responses.</li>
-    <li><strong>Partial (2-3 points)</strong>: Some information about incident response without comprehensive details.</li>
-    <li><strong>Non-existent (0 points)</strong>: No information about incident response procedures.</li>
+    <li><strong>Clean Track Record (+5)</strong>: No known, publicized losses or data breaches</li>
+    <li><strong>Minor Incidents Resolved (+3)</strong>: Incident(s) occurred but handled transparently and effectively</li>
+    <li><strong>Major Incident(s) Resolved (+1)</strong>: Serious breach or theft, but publicly acknowledged and fully addressed</li>
+    <li><strong>Ongoing or Unresolved Incident (–2)</strong>: Open issues, recurring failures, or vague PR without clear resolution</li>
+    <li><strong>Multiple Major Incidents with No Resolution (–5)</strong>: Pattern of failure or cover-up (e.g. Mt. Gox, Quadriga, etc.)</li>
   </ul>
-
-  <p>Points are awarded for: providing the date of the last security incident (2 pts) and maintaining a transparent incident history (3 pts).</p>
+  <p>
+    You must set <code>incidentHistoryProvided: true</code> in the front matter even if no incidents exist.  
+    For edge cases, override with <code>incidentSeverityScore</code> (–5 to +5).
+  </p>
 </div>
 
 ### 3. Transparency (20 points)
@@ -207,41 +213,41 @@ Our 100-point scoring system is distributed across five key dimensions, each con
 
 ### 1. Key Management & Security (30 points)
 
-| Subcategory | Max Points | Scoring Breakdown |
-|-------------|------------|-------------------|
-| **Hot/Cold Wallet Design** | 10 | • **Published (10 pts)**: Comprehensive, up-to-date documentation<br>• **Partial (5 pts)**: Some information but lacks detail<br>• **Outdated (3 pts)**: Documentation not updated within a year<br>• **None (0 pts)**: No information provided |
-| **Multi-signature/MPC** | 10 | • **Comprehensive (10 pts)**: Detailed implementation documentation<br>• **Basic (5 pts)**: Evidence of use with limited details<br>• **None (0 pts)**: No evidence of implementation |
-| **Hardware Security** | 10 | • **Comprehensive (10 pts)**: Documented use with implementation details<br>• **Basic (5 pts)**: General mentions without specifics<br>• **None (0 pts)**: No evidence of hardware security |
+| Subcategory                | Max Points | Scoring Breakdown                                                                                                                                                                                                                               |
+| -------------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Hot/Cold Wallet Design** | 10         | • **Published (10 pts)**: Comprehensive, up-to-date documentation<br>• **Partial (5 pts)**: Some information but lacks detail<br>• **Outdated (3 pts)**: Documentation not updated within a year<br>• **None (0 pts)**: No information provided |
+| **Multi-signature/MPC**    | 10         | • **Comprehensive (10 pts)**: Detailed implementation documentation<br>• **Basic (5 pts)**: Evidence of use with limited details<br>• **None (0 pts)**: No evidence of implementation                                                           |
+| **Hardware Security**      | 10         | • **Comprehensive (10 pts)**: Documented use with implementation details<br>• **Basic (5 pts)**: General mentions without specifics<br>• **None (0 pts)**: No evidence of hardware security                                                     |
 
 ### 2. Infrastructure & Operations (25 points)
 
-| Subcategory | Max Points | Scoring Breakdown |
-|-------------|------------|-------------------|
-| **Security Certifications** | 10 | • **Multiple Certifications (10 pts)**: Several recognized certifications<br>• **Limited (3-6 pts)**: At least one certification (3 pts per certification)<br>• **None (0 pts)**: No certifications |
-| **Security Audits** | 10 | • **Comprehensive (10 pts)**: Regular audits with published results<br>• **Partial (5 pts)**: Some evidence without full transparency<br>• **None (0 pts)**: No evidence of security audits |
-| **Incident Response** | 5 | • **Robust (5 pts)**: Clear documentation with historical evidence<br>• **Partial (2-3 pts)**: Some information without comprehensive details<br>• **None (0 pts)**: No information about incident response |
+| Subcategory                 | Max Points | Scoring Breakdown                                                                                                                                                                                           |
+| --------------------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Security Certifications** | 10         | • **Multiple Certifications (10 pts)**: Several recognized certifications<br>• **Limited (3-6 pts)**: At least one certification (3 pts per certification)<br>• **None (0 pts)**: No certifications         |
+| **Security Audits**         | 10         | • **Comprehensive (10 pts)**: Regular audits with published results<br>• **Partial (5 pts)**: Some evidence without full transparency<br>• **None (0 pts)**: No evidence of security audits                 |
+| **Incident Response**       | 5          | • **Robust (5 pts)**: Clear documentation with historical evidence<br>• **Partial (2-3 pts)**: Some information without comprehensive details<br>• **None (0 pts)**: No information about incident response |
 
 ### 3. Transparency (20 points)
 
-| Subcategory | Max Points | Scoring Breakdown |
-|-------------|------------|-------------------|
-| **Proof of Reserves** | 10 | • **Cryptographic Proof (10 pts)**: Regular proof with user verification<br>• **Traditional Audit (5 pts)**: Third-party audits without cryptographic verification<br>• **Self-Reported (2 pts)**: Self-reported without external verification<br>• **None (0 pts)**: No proof provided |
-| **Documentation** | 5 | • **Comprehensive (5 pts)**: Clear, detailed business documentation<br>• **Partial (2-3 pts)**: Some documentation without comprehensive details<br>• **None (0 pts)**: Minimal or no documentation |
-| **Open Source Contributions** | 5 | • **Active (5 pts)**: Significant contributions to Bitcoin ecosystem<br>• **Limited (1-4 pts)**: Some contributions<br>• **None (0 pts)**: No evidence of contributions |
+| Subcategory                   | Max Points | Scoring Breakdown                                                                                                                                                                                                                                                                       |
+| ----------------------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Proof of Reserves**         | 10         | • **Cryptographic Proof (10 pts)**: Regular proof with user verification<br>• **Traditional Audit (5 pts)**: Third-party audits without cryptographic verification<br>• **Self-Reported (2 pts)**: Self-reported without external verification<br>• **None (0 pts)**: No proof provided |
+| **Documentation**             | 5          | • **Comprehensive (5 pts)**: Clear, detailed business documentation<br>• **Partial (2-3 pts)**: Some documentation without comprehensive details<br>• **None (0 pts)**: Minimal or no documentation                                                                                     |
+| **Open Source Contributions** | 5          | • **Active (5 pts)**: Significant contributions to Bitcoin ecosystem<br>• **Limited (1-4 pts)**: Some contributions<br>• **None (0 pts)**: No evidence of contributions                                                                                                                 |
 
 ### 4. Regulatory Compliance (15 points)
 
-| Subcategory | Max Points | Scoring Breakdown |
-|-------------|------------|-------------------|
-| **Licensing** | 10 | • **Comprehensive (10 pts)**: Clear regulatory status and transparent leadership<br>• **Partial (5 pts)**: Some regulatory information without comprehensive details<br>• **None (0 pts)**: No regulatory information |
-| **Compliance Programs** | 5 | • **Robust (5 pts)**: Clear documentation of compliance programs<br>• **Partial (2 pts)**: Some information without comprehensive details<br>• **None (0 pts)**: No information about compliance programs |
+| Subcategory             | Max Points | Scoring Breakdown                                                                                                                                                                                                     |
+| ----------------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Licensing**           | 10         | • **Comprehensive (10 pts)**: Clear regulatory status and transparent leadership<br>• **Partial (5 pts)**: Some regulatory information without comprehensive details<br>• **None (0 pts)**: No regulatory information |
+| **Compliance Programs** | 5          | • **Robust (5 pts)**: Clear documentation of compliance programs<br>• **Partial (2 pts)**: Some information without comprehensive details<br>• **None (0 pts)**: No information about compliance programs             |
 
 ### 5. User Security Features (10 points)
 
-| Subcategory | Max Points | Scoring Breakdown |
-|-------------|------------|-------------------|
-| **Authentication** | 5 | • **Robust (5 pts)**: Strong authentication including 2FA and advanced options<br>• **Basic (3 pts)**: Basic authentication without advanced options<br>• **Weak (0 pts)**: Limited authentication security |
-| **Transaction Security** | 5 | • **Comprehensive (5 pts)**: Multiple security features for transactions<br>• **Partial (2-3 pts)**: Some features without comprehensive coverage<br>• **Basic (0 pts)**: Minimal transaction security features |
+| Subcategory              | Max Points | Scoring Breakdown                                                                                                                                                                                               |
+| ------------------------ | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Authentication**       | 5          | • **Robust (5 pts)**: Strong authentication including 2FA and advanced options<br>• **Basic (3 pts)**: Basic authentication without advanced options<br>• **Weak (0 pts)**: Limited authentication security     |
+| **Transaction Security** | 5          | • **Comprehensive (5 pts)**: Multiple security features for transactions<br>• **Partial (2-3 pts)**: Some features without comprehensive coverage<br>• **Basic (0 pts)**: Minimal transaction security features |
 
 **TOTAL POSSIBLE SCORE: 100 POINTS**
 

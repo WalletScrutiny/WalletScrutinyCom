@@ -960,3 +960,26 @@
 .custody-info a:hover {
   text-decoration: underline;
 }
+
+.incident-response-badge {
+  font-weight: 500;
+  padding: 4px 10px;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 0.9rem;
+  color: white;
+  margin-top: 0.5rem;
+}
+
+.incident-clean {
+  background-color: #28a745; /* green */
+}
+
+.incident-moderate {
+  background-color: #ffc107; /* yellow */
+  color: #212529;
+}
+
+.incident-severe {
+  background-color: #dc3545; /* red */
+}
