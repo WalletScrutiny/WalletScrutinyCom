@@ -19,6 +19,8 @@ export const nip89ClientTagD = '5985153332267';
 export const assetRegistrationKind = isDebugEnv() ? 1267 : 1063;
 export const verificationKind = isDebugEnv() ? 32304 : 30301;
 export const verificationDraftKind = isDebugEnv() ? 30901 : 30801;
+export const codeSnippetKind = 1063;
+
 export const endorsementKind = isDebugEnv() ? 32354 : 30351;
 
 export const verificationEventsSinceTS = isDebugEnv() ? 1742220163 : 1742997262;
