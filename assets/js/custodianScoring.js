@@ -1731,6 +1731,87 @@ class CustodianScore {
 
 // custodianData will be provided by the HTML page that includes this script
 
+/**
+ * Initialize a CustodianScore instance and set up UI interactions
+ * @param {Object} custodianData - The custodian data from Jekyll
+ */
+function initCustodianScoring(custodianData) {
+  // Initialize notes toggle functionality
+  document.addEventListener('DOMContentLoaded', () => {
+    // Initialize notes toggle functionality
+    const moreInfoButtons = document.querySelectorAll('.more-info-button');
+    
+    moreInfoButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        const notesContent = button.parentElement.querySelector('.notes-content');
+        notesContent.classList.toggle('hidden');
+        button.classList.toggle('active');
+      });
+    });
+
+    // Initialize incident list toggle
+    const toggleIncidents = document.querySelector('.toggle-incidents');
+    const incidentList = document.querySelector('#incident-list');
+    
+    if (toggleIncidents && incidentList) {
+      // Ensure collapsed state on load
+      incidentList.classList.add('collapsed');
+      toggleIncidents.setAttribute('aria-expanded', 'false');
+      toggleIncidents.querySelector('.show-text').style.display = 'inline';
+      toggleIncidents.querySelector('.hide-text').style.display = 'none';
+      
+      toggleIncidents.addEventListener('click', () => {
+        incidentList.classList.toggle('collapsed');
+        const isExpanded = !incidentList.classList.contains('collapsed');
+        toggleIncidents.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
+        toggleIncidents.querySelector('.show-text').style.display = isExpanded ? 'none' : 'inline';
+        toggleIncidents.querySelector('.hide-text').style.display = isExpanded ? 'inline' : 'none';
+      });
+    }
+
+    if (custodianData) {
+      // Create and initialize the CustodianScore instance
+      const scorer = new CustodianScore(custodianData);
+      
+      // Force recalculation of all scores
+      scorer.calculateAllScores();
+      scorer.calculateTotalScore();
+      
+      // Update the UI with the calculated scores
+      scorer.updateUI();
+      
+      // Direct DOM update for incident response badge (as a backup)
+      // This ensures the incident response badge is updated correctly
+      setTimeout(() => {
+        // Get the incident response score directly from the calculation
+        const incidentResult = scorer.calculateIncidentResponseScore();
+        
+        // Find the badge and value elements
+        const badge = document.querySelector('.incident-response-badge');
+        const value = document.querySelector('.incident-response-value');
+        
+        if (badge && value) {
+          // Update the text content with the calculated score
+          value.textContent = `${incidentResult.score}/5`;
+          
+          // Remove existing classes and add the appropriate one based on the score
+          badge.classList.remove('incident-clean', 'incident-moderate', 'incident-severe');
+          
+          if (incidentResult.score >= 3) {
+            badge.classList.add('incident-clean');
+          } else if (incidentResult.score > 0) {
+            badge.classList.add('incident-moderate');
+          } else if (incidentResult.score === 0) {
+            badge.classList.add('incident-moderate');
+          } else {
+            badge.classList.add('incident-severe');
+          }
+        }
+      }, 500); // Small delay to ensure DOM is ready
+    }
+  });
+}
+
 // Toggle between list and grid view for apps
 function toggleAppsView() {
   const appsContainer = document.querySelector(".see-also");

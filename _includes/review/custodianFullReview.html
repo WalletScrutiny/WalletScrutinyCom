@@ -734,84 +734,17 @@
     2. Sets up event listeners for UI elements
     3. Initializes the scoring system
 -->
+<!-- 
+  Custodian Scoring System
+  - First script tag loads the external CustodianScore class with all scoring logic
+  - Second script tag serves as a bridge between Jekyll and JavaScript
+-->
 <script src="/assets/js/custodianScoring.js"></script>
 <script>
   // Pass custodian data from Jekyll to the JavaScript file
   const custodianData = {{ custodian | jsonify }}; // Liquid template syntax
   
-  // Initialize scoring when DOM is loaded
-  document.addEventListener('DOMContentLoaded', () => {
-    // Initialize notes toggle functionality
-    const moreInfoButtons = document.querySelectorAll('.more-info-button');
-    
-    moreInfoButtons.forEach(button => {
-      button.addEventListener('click', () => {
-        const notesContent = button.parentElement.querySelector('.notes-content');
-        notesContent.classList.toggle('hidden');
-        button.classList.toggle('active');
-      });
-    });
-
-    // Initialize incident list toggle
-    const toggleIncidents = document.querySelector('.toggle-incidents');
-    const incidentList = document.querySelector('#incident-list');
-    
-    if (toggleIncidents && incidentList) {
-      // Ensure collapsed state on load
-      incidentList.classList.add('collapsed');
-      toggleIncidents.setAttribute('aria-expanded', 'false');
-      toggleIncidents.querySelector('.show-text').style.display = 'inline';
-      toggleIncidents.querySelector('.hide-text').style.display = 'none';
-      
-      toggleIncidents.addEventListener('click', () => {
-        incidentList.classList.toggle('collapsed');
-        const isExpanded = !incidentList.classList.contains('collapsed');
-        toggleIncidents.setAttribute('aria-expanded', isExpanded ? 'true' : 'false');
-        toggleIncidents.querySelector('.show-text').style.display = isExpanded ? 'none' : 'inline';
-        toggleIncidents.querySelector('.hide-text').style.display = isExpanded ? 'inline' : 'none';
-      });
-    }
-
-    if (custodianData) {
-      console.log('DEBUG: Initializing CustodianScore with data:', JSON.stringify(custodianData));
-      const scorer = new CustodianScore(custodianData);
-      
-      // Force recalculation of all scores
-      scorer.calculateAllScores();
-      scorer.calculateTotalScore();
-      
-      // Directly calculate incident response score
-      const incidentResult = scorer.calculateIncidentResponseScore();
-      console.log('DEBUG: Direct incident calculation result:', incidentResult);
-      
-      // Update the UI with the calculated scores
-      scorer.updateUI();
-      
-      // Direct DOM update for incident response badge
-      setTimeout(() => {
-        const badge = document.querySelector('.incident-response-badge');
-        const value = document.querySelector('.incident-response-value');
-        
-        if (badge && value) {
-          value.textContent = `${incidentResult.score}/5`;
-          console.log('DEBUG: Direct DOM update for incident score:', `${incidentResult.score}/5`);
-          
-          badge.classList.remove('incident-clean', 'incident-moderate', 'incident-severe');
-          
-          if (incidentResult.score >= 3) {
-            badge.classList.add('incident-clean');
-          } else if (incidentResult.score > 0) {
-            badge.classList.add('incident-moderate');
-          } else if (incidentResult.score === 0) {
-            badge.classList.add('incident-moderate');
-          } else {
-            badge.classList.add('incident-severe');
-          }
-        }
-      }, 500); // Small delay to ensure DOM is ready
-      
-      console.log('DEBUG: Scores after calculation:', JSON.stringify(scorer.data));
-    }
-  });
+  // Initialize the custodian scoring system using the function from custodianScoring.js
+  initCustodianScoring(custodianData);
 </script>
 
